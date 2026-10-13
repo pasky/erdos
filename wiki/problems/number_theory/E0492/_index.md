@@ -32,7 +32,7 @@ $$
 where $x\in [a_i,a_{i+1})$. Is it true that, for almost all $\alpha$, the
 sequence $f(\alpha n)$ is uniformly distributed in $[0,1)$?
 
-**Statement (corrected).** Let $A=\{a_1<a_2<\cdots\}\subseteq \mathbb{R}$ be
+**Statement (modified).** Let $A=\{a_1<a_2<\cdots\}\subseteq \mathbb{R}$ be
 infinite, tending to infinity, such that $a_{i+1}/a_i\to 1$. For any
 $x\geq a_1$ let
 
@@ -70,7 +70,7 @@ fixed $\delta>0$, with $\delta=1$, and the deduction (9) that follows the
 Theorem ([DaEr63], p. 4) gives uniform distribution of $f(\alpha n)$ in
 $[0,1)$ for almost all $\alpha>0$: the site's wording is true for every such
 $A$, already for $A=\mathbb N$, where $f$ is the fractional part. Under the
-corrected Statement, Schmidt's Theorem 1 ([Sc69], p. 137) constructs a real
+modified Statement, Schmidt's Theorem 1 ([Sc69], p. 137) constructs a real
 sequence with $a_{i+1}/a_i\to1$ whose gaps tend to zero along which
 $f(\alpha n)$ is not uniformly distributed for almost every $\alpha>0$: the
 answer is no, and the standing judges this Statement. The change replaces
@@ -80,7 +80,7 @@ for a set of integers but needed for reals, since the bounded sequence
 $a_i=2-1/i$ has $a_{i+1}/a_i\to1$ while $f(\alpha n)$ is undefined once
 $\alpha n\ge2$. Results about the site's wording, credited here: the sparse
 case of Davenport and Erdős (1963), which contains every set of integers by
-the one-line check above and is the partial claim on the corrected Statement
+the one-line check above and is the partial claim on the modified Statement
 on
 [[problems/number_theory/E0492/claims/1963_01_01_davenport_erdos|the Davenport--Erdős page]];
 and the Lean theorem `erdos_492` in Boris Alexeev's repository of Lean proofs,
@@ -88,7 +88,7 @@ added on 2026-08-20
 ([file](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos492.lean)),
 written by the AI systems Codex and GPT-5.6 Sol, whose module docstring
 records that the counting hypothesis is automatic for integers; it proves the
-site's wording in full and a special case of the corrected Statement, so it is
+site's wording in full and a special case of the modified Statement, so it is
 a claimed partial claim on
 [[problems/number_theory/E0492/claims/2026_08_20_alexeev|Alexeev's page]].
 That docstring is the earliest statement found here that the site's integer
@@ -105,7 +105,7 @@ $a_1$. The sources also take the $a_i$ positive; changing the terms of $A$ below
 a fixed point changes $f$ only on a bounded interval, which holds finitely many
 $\alpha n$, so this does not affect the question. Erdős's two printed
 formulations, item 31 of the 1961 problem list and item 4 of Part IV of the 1964
-Compositio paper (both quoted below), state the corrected Statement in other
+Compositio paper (both quoted below), state the modified Statement in other
 notation, and so do the conjecture of Davenport and Erdős (1963) and the
 statement Schmidt disproved; LeVeque, Davenport and LeVeque, Davenport and Erdős
 and Schmidt all work with real subdivisions $z_1<z_2<\cdots$ or
@@ -115,14 +115,14 @@ half-open convention.
 
 **Status.** Disproved, in the site's label, which credits Schmidt's 1969 theorem
 with showing that the general conjecture is false. The label describes the
-corrected Statement. Theorem 1 of Schmidt [Sc69] (Studia Sci. Math. Hungar. 4
+modified Statement. Theorem 1 of Schmidt [Sc69] (Studia Sci. Math. Hungar. 4
 (1969), refereed; p. 137) constructs a strictly increasing real sequence
 $x_0=0<x_1<\cdots$ with $x_n\to\infty$ and $x_{n+1}/x_n\to1$. For it, the test
 function $f$, equal to $1$ on the lower halves of its intervals and $-1$
 elsewhere, satisfies $\limsup_N|N^{-1}\sum_{n\le N}f(\alpha n)|=1$ for almost
 every $\alpha>0$. Uniform distribution of the positions would instead force
 these averages to tend to $0$ (an authored translation, below). With $a_i=x_i$
-for $i\ge1$, the theorem answers the corrected Statement no. It is an accepted
+for $i\ge1$, the theorem answers the modified Statement no. It is an accepted
 full claim on [[problems/number_theory/E0492/claims/1969_01_01_schmidt|Schmidt's
 page]], refereed and credited by the site's curator. So the standing derived in
 the frontmatter is `solved`, `disproved`.
@@ -196,7 +196,7 @@ on 2026-08-20
 ([file](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos492.lean));
 its theorem `erdos_492` proves the site's wording, for every positive strictly
 increasing sequence of natural numbers with consecutive ratios tending to one, a
-case of the corrected Statement that the Davenport--Erdős theorem already
+case of the modified Statement that the Davenport--Erdős theorem already
 covers. Its header names Wolfgang M. Schmidt as informal author and the AI
 systems Codex and GPT-5.6 Sol as formal authors, and its module docstring says
 that Schmidt's example concerns the formulation with real subdivision points; it

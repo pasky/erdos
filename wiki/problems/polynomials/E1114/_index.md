@@ -28,7 +28,7 @@ roots $\{a_0<\cdots<a_n\}$ are all real and form an arithmetic progression.
 The differences between consecutive zeros of $f'(x)$, beginning from the
 midpoint of $(a_0,a_m)$ towards the endpoints, are monotonically increasing.
 
-**Statement (corrected).** Let $f(x)\in \mathbb{R}[x]$ be a polynomial of
+**Statement (modified).** Let $f(x)\in \mathbb{R}[x]$ be a polynomial of
 degree $n+1$ whose roots $\{a_0<\cdots<a_n\}$ are all real and form an
 arithmetic progression.
 
@@ -57,7 +57,7 @@ text of Erdős's on the question is known, and the site's commentary records
 that Bálint gives none; the degree slip is the site's, and the stray index
 follows Bálint's English summary. No result concerns the site's wording.
 
-**Status.** Proved. The site's label was PROVED. Bálint proved the corrected
+**Status.** Proved. The site's label was PROVED. Bálint proved the modified
 Statement in 1960, in Matematikai Lapok, and the accepted claim page is
 [[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]]. Lorch gave
 generalizations in 1976. No Lean proof that the corpus built and audited checks
@@ -83,7 +83,7 @@ commit and records the corpus's coverage of it.
 **The question (site formulation).** That for a
 real polynomial whose zeros $a_0<\cdots<a_n$ are real and form an arithmetic
 progression, the gaps between consecutive zeros of the derivative increase
-from the midpoint of the zeros toward either endpoint. PROVED. The corrected
+from the midpoint of the zeros toward either endpoint. PROVED. The modified
 Statement gives the degree as $n+1$ and the interval as $(a_0,a_n)$, as
 Bálint states the conjecture (Notes above), and Bálint proves it. The
 derivative has one simple zero in each gap between consecutive zeros by
@@ -116,7 +116,7 @@ and no formal-conjectures statement file exists for the problem.
 A Lean 4 file in Boris Alexeev's lean-proofs repository declares itself a
 formalization of Bálint's solution and proves the gap monotonicity for a
 polynomial of degree $N+1$ with $N+1$ zeros in arithmetic progression, the
-corrected Statement; the claim page links it at its pinned commit. The
+modified Statement; the claim page links it at its pinned commit. The
 corpus has not built or audited it, so no `formalized` evidence is listed.
 
 **Search scope and coverage.** Search scope: the site's problem page and its

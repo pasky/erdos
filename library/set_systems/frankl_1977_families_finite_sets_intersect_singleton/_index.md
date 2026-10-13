@@ -58,7 +58,7 @@ the analogue for intersections of an arbitrary fixed size s: for k > k_0(s)
 and n > n_0(k), more than binom(n-s-1,k-s-1) k-subsets of an n-set should
 contain two members meeting in exactly s elements; the author can prove it
 only with c_k binom(n-s-1,k-s-1) in place of binom(n-s-1,k-s-1), c_k a large
-constant depending only on k. Problem 702's corrected Statement, with
+constant depending only on k. Problem 702's modified Statement, with
 Erdős's range n>n_0(k), is the Erdős-Sós conjecture proved here, and the
 problem's site credits this paper with the proof for all k>=4.
 
@@ -66,7 +66,7 @@ Source:
 <https://www.cambridge.org/core/journals/bulletin-of-the-australian-mathematical-society/article/on-families-of-finite-sets-no-two-of-which-intersect-in-a-singleton/F69C00E560F03498962EB8E21CC67C03>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0702/_index|#702]]: the
-[[set_systems/frankl_1977_families_finite_sets_intersect_singleton/main_theorem|main theorem]] (p. 125) is the problem's corrected
+[[set_systems/frankl_1977_families_finite_sets_intersect_singleton/main_theorem|main theorem]] (p. 125) is the problem's modified
 Statement, for k>=4 and n>n_0(k), and
 [[set_systems/frankl_1977_families_finite_sets_intersect_singleton/theorem_2|Theorem 2]] (p. 132) proves it in the range
 n > n_0(k) + 2 binom(n_0(k),k), with the family of all k-sets through a fixed

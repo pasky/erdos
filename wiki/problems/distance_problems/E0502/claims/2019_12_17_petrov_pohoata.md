@@ -42,7 +42,7 @@ $\binom{n+2}{2}$ points. This is the Bannai–Bannai–Stanton theorem, which
 has its own claim page in this folder; Petrov and Pohoata's proof is
 independent of the original and is recorded as a result of its own.
 
-**Covers.** The part `upper_bound` of the corrected Statement: the bound
+**Covers.** The part `upper_bound` of the modified Statement: the bound
 $|A|\le\binom{n+2}{2}$ on every two-distance set in $\mathbb R^n$. With
 the lower construction of $\binom{n+1}{2}$ points, which settles the other
 part, it gives the asymptotic behavior $n^2/2+O(n)$ of the largest size,

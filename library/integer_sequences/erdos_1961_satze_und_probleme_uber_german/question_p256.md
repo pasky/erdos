@@ -70,7 +70,7 @@ and the prime number theorem.
 
 - [[../wiki/problems/integer_sequences/E0968/_index|Problem 968]]: the
   problem asks whether the set of $n$ with $p_n/n<p_{n+1}/(n+1)$ has positive
-  density, and its precise statement asks for positive lower density, which
+  density, and its modified Statement asks for positive lower density, which
   is this question for the first set. The paper answers the companion
   question for the set with $p_k/k>p_{k+1}/(k+1)$ and leaves the first set
   open, remarking only that it seems difficult.

@@ -29,7 +29,7 @@ A}\frac{1}{n}\leq C$.
 What choice of such an $A$ minimises the number of integers $m\leq N$ not
 divisible by any $a\in A$?
 
-**Statement (corrected).** Fix some constant $C>0$ and let $N$ be large. Let
+**Statement (modified).** Fix some constant $C>0$ and let $N$ be large. Let
 $A\subseteq \{2,\ldots,N\}$ be such that $(a,b)=1$ for all $a\neq b\in A$ and
 $\sum_{n\in A}\frac{1}{n}\leq C$.
 
@@ -59,9 +59,9 @@ the problem SOLVED because "Tao has resolved this question (asymptotically at
 least)". The evidence for that reading is Erdős's own parenthesis "or at least
 nearly gives the minimum", quoted in the thread on 4 February 2026 (Woett),
 Erdős's "$N$ large" framing, and the fact that the exact question has no clean
-answer once the perturbations are known. The corrected Statement adopts this
+answer once the perturbations are known. The modified Statement adopts this
 reading with the smallest change to the site's words: the minimum is sought up
-to $o(N)$ as $N\to\infty$ with $C$ fixed. Under the corrected Statement the
+to $o(N)$ as $N\to\infty$ with $C$ fixed. Under the modified Statement the
 answer is known: the primes in $(N^{e^{-C}+o(1)},N]$, Erdős's construction
 (14.4), have reciprocal sum $C+o(1)$ by Mertens's theorem and leave
 $(\rho(e^C)+o(1))N$ integers unsifted by Dickman's theorem, and Tao [Ta26],
@@ -80,10 +80,10 @@ is not determined). The commentary's sentence that Chojecki "proved this is the
 extremal sequence when $C\le\log 2$" overstates Chojecki's Theorem 1.1, which is
 the asymptotic form $1-C+o(1)$ attained by the tail up to $o(1)$; the exact
 extremal sequence is not determined for any $C$. The standing below judges the
-corrected Statement; the exact-minimizer question is recorded here and on the
+modified Statement; the exact-minimizer question is recorded here and on the
 claim pages, not as a standing.
 
-**Status.** The site labeled the problem SOLVED. The corrected Statement is
+**Status.** The site labeled the problem SOLVED. The modified Statement is
 settled. Tao [Ta26] proved that every admissible $A$ leaves at least
 $(\rho(e^C)+o(1))N$ integers up to $N$ unsifted. The prime tail attains that
 count, so it minimizes up to $o(N)$. The exact minimizer for a given $N$, the

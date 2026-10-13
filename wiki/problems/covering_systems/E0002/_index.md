@@ -24,7 +24,7 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Can the smallest modulus of a covering system be arbitrarily
 large?
 
-**Statement (corrected).** Can the smallest modulus of a covering system with
+**Statement (modified).** Can the smallest modulus of a covering system with
 distinct moduli be arbitrarily large?
 
 **Notes.** The site's wording drops the condition, assumed by the problem's

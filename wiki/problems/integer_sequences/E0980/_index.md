@@ -31,7 +31,7 @@ $$
 
 for some constant $c_k>0$?
 
-**Statement (precise).** Let $k\geq 2$ and, for primes $p\equiv1\pmod k$, let
+**Statement (modified).** Let $k\geq 2$ and, for primes $p\equiv1\pmod k$, let
 $n_k(p)$ denote the least $k$th power nonresidue of $p$; set $n_k(p)=0$ for
 every other prime. Is it true that
 
@@ -55,11 +55,11 @@ $k\ge2$ (indeed with any exponent $a<4e^{1-1/k}$ in place of $1$, and with the
 explicit constant $\sum_r k^{-r}q_r$ over the primes $q_r$ when $k$ is an odd
 prime). The site labeled the problem PROVED and its commentary says "The general
 case was proved by Elliott [El67b]", without remarking on the convention. The
-curator therefore reads the sum as Elliott does, and the precise Statement
+curator therefore reads the sum as Elliott does, and the modified Statement
 adopts Elliott's convention. The change inserts
 Elliott's definition of $n_k(p)$; nothing else changes. For prime $k$ the two
 readings agree, since a prime $p\not\equiv1\pmod k$ then has every residue a
-$k$th power. For composite $k$ they differ: under the precise Statement the
+$k$th power. For composite $k$ they differ: under the modified Statement the
 problem is proved for every $k\ge2$ by Elliott's Theorem 1
 ([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]);
 under the site's wording the contribution of the primes $p\not\equiv1\pmod k$
@@ -71,17 +71,17 @@ curator's reading is inferred from the label and the credit alone; no text of
 the curator's states the convention.
 
 **Formulation.** The site's wording, read as a sum of the least $k$th power
-nonresidue over every prime that has one, is a variant of the precise
+nonresidue over every prime that has one, is a variant of the modified
 Statement. For prime $k$ the two coincide. For composite $k$ the variant adds
 the primes $p\not\equiv1\pmod k$ with $d=\gcd(k,p-1)>1$, each contributing
 $n_d(p)$. Theorem 1 of [El67b] does not cover that sum, and no recorded source
 does, so the variant is open for composite $k$. It has no claim page and does
 not enter the standing.
 
-**Status.** Labeled PROVED on erdosproblems.com. The label describes the precise
-Statement. The variant under Formulation stays open for composite $k$. The site
-credits Elliott [El67b], who proved the asymptotic for every $k$ under the
-convention of the precise Statement
+**Status.** Labeled PROVED on erdosproblems.com. The label describes the
+modified Statement. The variant under Formulation stays open for composite $k$.
+The site credits Elliott [El67b], who proved the asymptotic for every $k$ under
+the convention of the modified Statement
 ([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]).
 When $k$ is an odd prime, Elliott gives the constant $C_{k,1}$ as an explicit
 prime series. Earlier, Erdős [Er61e] had proved the case $k=2$
@@ -107,7 +107,7 @@ https://www.erdosproblems.com/980.
 **Scope.** The standing rests on Elliott's refereed paper, Erdős's refereed
 case $k=2$ and the site's credit, as the claim pages record; the corpus has
 not checked the proofs, and no status search beyond the site is recorded. The
-target of the standing is the precise Statement. Elliott's theorem is an
+target of the standing is the modified Statement. Elliott's theorem is an
 accepted full claim on it and Erdős's case $k=2$ an accepted partial one, so
 the derived standing is proved. The variant for composite $k$ (see
 Formulation) stays open and does not enter the standing.

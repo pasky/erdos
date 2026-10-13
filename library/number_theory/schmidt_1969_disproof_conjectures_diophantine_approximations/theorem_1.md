@@ -109,6 +109,6 @@ approximation; otherwise self-contained.
   $[x_0,x_1)=[0,a_1)$, which holds only the finitely many $\alpha n<a_1$
   for fixed $\alpha>0$). The theorem answers no for real sequences, the
   form in which LeVeque, Davenport and Erdős posed the question and the
-  problem page's corrected Statement; it says nothing about the site's
+  problem page's modified Statement; it says nothing about the site's
   restriction to $A\subseteq\mathbb N$, since the constructed gaps tend to
   zero.

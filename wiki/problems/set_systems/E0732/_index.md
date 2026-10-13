@@ -38,7 +38,7 @@ $$
 
 many block-compatible sequences for $\{1,\ldots,n\}$?
 
-**Statement (precise).** Call a sequence $1< X_1\leq \cdots \leq X_m\leq n$
+**Statement (modified).** Call a sequence $1< X_1\leq \cdots \leq X_m\leq n$
 block-compatible if there is a pairwise balanced block design
 $A_1,\ldots,A_m\subseteq \{1,\ldots,n\}$ such that $\lvert A_i\rvert=X_i$ for
 $1\leq i\leq m$. (A pairwise block design means that every pair in
@@ -92,12 +92,12 @@ with no claim page. Results about the site's wording, credited and never
 counted: none; the formal-conjectures statement file and Jingxuan Ding's Lean
 development `erdos732_yes` (SpringSense Innovation Institute, commit
 `c8c4bbbd13024e4ed45a0548c75c64664501e067`, announced in the thread on 4
-October 2026) both state the counting question, which is the precise Statement,
-and neither is built here. The page's standing judges the precise Statement.
+October 2026) both state the counting question, which is the modified Statement,
+and neither is built here. The page's standing judges the modified Statement.
 
 **Formulation.** The site's wording also asks for necessary and sufficient
 conditions for $(X_i)$ to be block-compatible. Erdős raises this in [Er81], p.
-35, and doubts that a reasonable condition exists; the precise Statement leaves
+35, and doubts that a reasonable condition exists; the modified Statement leaves
 it out, as the Notes explain. Read as the site words it, it has a trivial
 answer: block-compatibility is itself a necessary and sufficient condition, and
 for each $n$ a finite search decides it. Read as a request for a reasonable
@@ -111,8 +111,8 @@ $n^{-3}\exp(cn^{2/3})$, far more than Erdős's upper bound
 $\exp(O(n^{1/2}\log n))$ on the block-compatible ones; the comment is credited
 and not relied on.
 
-**Status.** Proved. The site's label PROVED describes the precise Statement. The
-site credits Alon with a lower bound of $2^{(1/2+o(1))n^{1/2}\log n}$
+**Status.** Proved. The site's label PROVED describes the modified Statement.
+The site credits Alon with a lower bound of $2^{(1/2+o(1))n^{1/2}\log n}$
 block-compatible sequences, which answers the question yes. It also records
 Erdős's upper bound of $\exp(O(n^{1/2}\log n))$. It records Erdős's remark that
 $\sum_i\binom{X_i}2=\binom n2$ is necessary but that a reasonable
@@ -142,22 +142,22 @@ A third-party Lean 4 development of Alon's theorem is linked from the claim
 page; this corpus has not audited it, so it gives no `formalized` evidence.
 The community database also notes a separate AI-assisted Lean formalization of
 Erdős's upper bound, which does not answer the problem: it is the upper bound
-on the count, not the lower bound the precise Statement asks for.
+on the count, not the lower bound the modified Statement asks for.
 
 ## Current assessment
 
 The question is whether at least $\exp(cn^{1/2}\log n)$ sequences are
-block-compatible for $\{1,\ldots,n\}$ for all large $n$, as the precise
+block-compatible for $\{1,\ldots,n\}$ for all large $n$, as the modified
 Statement poses it. The answer is yes: the only claim page,
 [[problems/set_systems/E0732/claims/2024_08_03_alon|Alon's count of block-compatible sequences]],
-is an accepted claim covering the precise Statement. Theorem 2.3 of Alon's
+is an accepted claim covering the modified Statement. Theorem 2.3 of Alon's
 note realizes $\binom{n+q-2}{q-2}=2^{(1/2+o(1))n^{1/2}\log n}$ sequences when
 $n=q^2+q+1$ for a prime power $q$, by shrinking the lines of a projective
 plane and covering the uncovered pairs by blocks of size $2$; monotonicity in
 $n$ and Bertrand's postulate carry the bound to every large $n$, an
 observation recorded on the claim page. The note also proves Erdős's upper
 bound, so the count is $\exp(\Theta(n^{1/2}\log n))$. Erdős's characterization
-question, which the precise Statement leaves out, has no claimed answer, as
+question, which the modified Statement leaves out, has no claimed answer, as
 the Formulation records. The note is undated; its result is published as
 Theorem 4.5 of Alon's chapter [Al26] in a proceedings volume whose refereeing
 is not documented. A third-party Lean development formalizes the theorem; the

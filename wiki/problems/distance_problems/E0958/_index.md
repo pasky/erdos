@@ -29,7 +29,7 @@ distance $d$ apart.
 Is it true that $k=n-1$ and $\{f(d_i)\}=\{n-1,\ldots,1\}$ if and only if $A$ is
 a set of equidistant points on a line or a circle?
 
-**Statement (corrected).** Let $A\subset \mathbb{R}^2$ be a finite set of size
+**Statement (modified).** Let $A\subset \mathbb{R}^2$ be a finite set of size
 $n$, and let $\{d_1,\ldots,d_k\}$ be the set of distances determined by $A$.
 Let $f(d)$ be the multiplicity of $d$, that is, the number of unordered pairs
 from $A$ of distance $d$ apart.
@@ -58,7 +58,7 @@ $\binom n2$. The site's own commentary credits the arc-and-center family of
 unordered count. The defect is the site's: Erdős's text speaks of the
 multiplicities of the distances and not of ordered pairs. The form follows from
 these sources, not from the results that settle it. No result concerns the
-ordered count alone. The page's standing judges the corrected Statement.
+ordered count alone. The page's standing judges the modified Statement.
 
 **Formulation.** Erdős [Er84c, p. 135] conjectured the characterization for
 $n>4$, noting that for $n=4$ the profile is "clearly possible" off lines and
@@ -81,7 +81,7 @@ records.
 **Status.** DISPROVED (LEAN), in the site's label. The site marked the problem
 disproved and credits Clemen, Dumitrescu and Liu with a second family of
 configurations. It also flags a Lean proof of a four-point counterexample. Both
-have the profile under the unordered count, so the label describes the corrected
+have the profile under the unordered count, so the label describes the modified
 Statement. See the
 [[problems/distance_problems/E0958/claims/2025_05_07_clemen_dumitrescu_liu|accepted claim page]]
 and the
@@ -109,13 +109,13 @@ on Erdős's conjecture. Boris Alexeev's repository holds a Lean proof, with
 Aristotle (Harmonic) as formal co-author, that the four points $(0,0)$,
 $(1,0)$, $(0,1)$, $(0,-1)$ have the profile and lie on no line and no circle;
 its multiplicities count unordered pairs of distinct points, so it refutes the
-corrected Statement. It is recorded on
+modified Statement. It is recorded on
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]],
 has not been built here, and is not native Lean coverage.
 
 ## Current assessment
 
-**Disproved.** The corrected Statement asks whether a finite planar set has
+**Disproved.** The modified Statement asks whether a finite planar set has
 $k=n-1$ distinct distances with multiplicities $\{n-1,\ldots,1\}$, counted
 over unordered pairs, if and only if it consists of equally spaced points on a
 line or on a circle. The answer is no. Clemen, Dumitrescu and Liu, on the
@@ -155,7 +155,7 @@ repository, is recorded as a claimed disproof on
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]];
 it has not been built here. It is a right isosceles triangle with its
 circumcenter, an instance of the $n=4$ example Erdős gave in [Er84c], which
-the claim page discloses. It refutes the corrected Statement at $n=4$ and
+the claim page discloses. It refutes the modified Statement at $n=4$ and
 leaves Erdős's question for $n>4$, and for all sufficiently large $n$ as the
 formal-conjectures file reads it, to the family of Clemen, Dumitrescu and
 Liu. The technical report on ByteDance's Seed-Prover 1.5 (arXiv:2512.17260,

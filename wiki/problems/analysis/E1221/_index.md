@@ -57,7 +57,7 @@ where the outer $\inf/\sup$ is over all infinite sequences $a=(a_1,\ldots)$.
 Is it true that $r(\Lambda_r-1)$, $r(1-\lambda_r)$, and $r(\mu_r-1)$ tend to
 infinity as $r\to \infty$?
 
-**Statement (corrected).** Let $a=(a_1,\ldots,a_n)$ be points, ordered
+**Statement (modified).** Let $a=(a_1,\ldots,a_n)$ be points, ordered
 consecutively, around the circle (normalised to have circumference $1$). Let
 
 $$
@@ -156,7 +156,7 @@ takes its infimum and supremum over sequences of distinct points; whether the
 constants over the two families agree is not settled in the sources.
 
 **Status.** The site's label was OPEN. A preprint [Ko26b] (arXiv:2609.07196v2, 9
-September 2026) claims all three parts of the corrected Statement for sequences
+September 2026) claims all three parts of the modified Statement for sequences
 of distinct points. The site registers it as a full proof claim (submitted
 2026-09-08). Here it is recorded as the pending partial claim
 [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]], since its
@@ -236,14 +236,14 @@ $\Lambda_1=1/\log2$, $\lambda_1=1/\log4$, $\mu_1=2$ with the witness
 $a_k=\log_2(2k-1)$, and the three bounds $\Lambda_r\ge1/\log(1+1/r)$,
 $\lambda_r\le\frac r{r+1}/\log(1+1/r)$, $\mu_r\ge1+1/r$. The site's first two
 expressions lack the normalization by $r$, as the Notes record: as printed, the
-first is trivially unbounded and the second tends to $-\infty$. The corrected
+first is trivially unbounded and the second tends to $-\infty$. The modified
 Statement asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ all tend to
 infinity, the form [Ko26b] restates (as $\bar A_r-r\to\infty$,
 $r-\underline A_r\to\infty$, $r(\mu_r-1)\to\infty$, a corrected paraphrase
 rather than the note's wording) and issue 414 of the community database proposes
 (a missing factor of $r$).
 
-**Supported status and best progress.** For the corrected Statement nothing
+**Supported status and best progress.** For the modified Statement nothing
 refereed goes beyond [dBEr49]: $\Lambda_r-r\ge\tfrac12+o(1)$
 ([[../library/analysis/debruijn_erdos_1949_sequences_points_circle/inequality_3_3|Section 3]]),
 $r-\lambda_r\ge\tfrac12+o(1)$
@@ -267,7 +267,7 @@ sequence of distinct points on the circle,
 $\limsup_n(nM_n^{(r)}-r)\ge c\sqrt{\log r}$,
 $\limsup_n(r-nm_n^{(r)})\ge c\sqrt{\log r}$ and
 $\limsup_nM_n^{(r)}/m_n^{(r)}\ge1+\log r/(100r)$, hence all three parts of the
-corrected Statement for sequences of distinct points, with $\mu_r-1$ of exact
+modified Statement for sequences of distinct points, with $\mu_r-1$ of exact
 order $\log r/r$ together with [ClSt25]. Method as the paper outlines it:
 comparison of interval counts at nearby insertion times through forward and
 backward cyclic walks; a finite-prefix form of Schmidt's discrepancy theorem
@@ -381,7 +381,7 @@ of at most $1.755$ for distinct points, fixed $r$ only, known from its abstract.
   points, $\limsup_n(nM_n^{(r)}-r)\ge c\sqrt{\log r}$,
   $\limsup_n(r-nm_n^{(r)})\ge c\sqrt{\log r}$ and
   $\limsup_nM_n^{(r)}/m_n^{(r)}\ge1+\log r/(100r)$; a claimed proof of all
-  three parts of the corrected Statement for distinct points, registered on
+  three parts of the modified Statement for distinct points, registered on
   the site as a full proof claim (2026-09-08), with no acceptance evidence
   ([[../library/analysis/korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem/theorem_1_1|result page]];
   [[problems/analysis/E1221/claims/2026_09_08_korsky|claim page]]).

@@ -47,7 +47,7 @@ where it is reported without progress. For positive $x_i$ with $\sum x_i=1$ the
 Cauchy–Schwarz inequality gives $\sum x_i^2\ge1/n$, so some monotone subsequence
 has sum at least $n^{-1/2}$: for $n=k^2$ this is the statement that $k^2$
 distinct positive reals summing to $1$ have a monotone subsequence of sum at
-least $1/k$, and in the problem's precise Statement it gives $c(n)\ge n^{-1/2}$
+least $1/k$, and in the problem's modified Statement it gives $c(n)\ge n^{-1/2}$
 for every $n$, hence $c\ge1$.
 
 **Covers.** The lower bound $c\ge1$, through the inequality above for every

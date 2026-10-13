@@ -36,10 +36,10 @@ size-linear: for each such fixed graph $H$, $R(H,F)=O(e(F))$ for every graph $F$
 with no isolated vertices. This is
 [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]]
 of the paper, printed p. 227 of the SIAM edition and p. 2 of
-arXiv:2202.10388v2. It answers the corrected Statement of
+arXiv:2202.10388v2. It answers the modified Statement of
 [[problems/ramsey_theory/E0566/_index|Problem 566]] yes for these graphs.
 
-**Covers.** The corrected Statement (every subgraph on $k\ge2$ vertices has at
+**Covers.** The modified Statement (every subgraph on $k\ge2$ vertices has at
 most $2k-3$ edges) for every $G$ that is a subdivision of $K_4$ with at least
 six vertices. Each such graph meets the hypothesis (elementary checks made
 here): it has $e=v+2$, so a subgraph on $k$ vertices has at most $k+2$ edges,

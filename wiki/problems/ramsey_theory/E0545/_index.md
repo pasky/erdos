@@ -34,7 +34,7 @@ $$
 where $H$ is the graph formed by connecting a new vertex to $t$ of the vertices
 of $K_n$?
 
-**Statement (corrected).** Let $G$ be a graph with $m$ edges and no isolated
+**Statement (modified).** Let $G$ be a graph with $m$ edges and no isolated
 vertices. Is the Ramsey number $R(G)$ maximised when $G$ is 'as complete as
 possible'? That is, for all sufficiently large $m$, if $m=\binom{n}{2}+t$
 edges with $0\leq t<n$ then is
@@ -83,7 +83,7 @@ collection, whose condition $n\ge4$, as the thread reports it, still fails at
 $m=7$ to $9$, so it is not the form. The site's commentary records the
 small-$m$ failures under the label OPEN, and the formal-conjectures statement
 takes all sufficiently large $m$; it counts with the site. The form rests on
-these sources alone; no result settles it. A disproof of the corrected
+these sources alone; no result settles it. A disproof of the modified
 Statement needs failures for infinitely many $m$. The results about the
 site's wording are thread comments of 28 October 2025 at
 [erdosproblems.com/forum/thread/545](https://www.erdosproblems.com/forum/thread/545):
@@ -92,8 +92,8 @@ $m=3,4,5,7,8,9$, which the site's commentary credits, on a
 [[problems/ramsey_theory/E0545/claims/2025_10_28_louisd|rejected claim page]];
 and the curator T. F. Bloom's check that $m=6$ holds. They are credited here.
 The failures answer the site's wording (every $m$), not
-the corrected Statement (all sufficiently large $m$), so they do not count
-toward the problem's standing, which judges the corrected Statement.
+the modified Statement (all sufficiently large $m$), so they do not count
+toward the problem's standing, which judges the modified Statement.
 
 **Formulation.** The site's wording (page last edited 2 December 2025). For each
 $m\ge1$ there is one pair $(n,t)$ with $m=\binom n2+t$ and $0\le t<n$; $H$ is
@@ -104,14 +104,14 @@ among graphs with $\binom n2$ edges; the general $t$ comes from Chung's problem
 collection, as the thread records.
 
 **Status.** OPEN, the site's label (page last edited 2 December 2025). The label
-describes the corrected Statement. The site's commentary records that the
+describes the modified Statement. The site's commentary records that the
 displayed statement fails for small $m$, and the site kept the label. The
 formal-conjectures statement takes all sufficiently large $m$. The one claim
 page, for the account LouisD's small-$m$ counterexamples, is rejected because it
-answers the site's wording, not the corrected Statement. So the frontmatter
-standing, which judges the corrected Statement, is open with no claim. The
+answers the site's wording, not the modified Statement. So the frontmatter
+standing, which judges the modified Statement, is open with no claim. The
 search whose scope the Current assessment records found no proof, disproof or
-proof claim for the corrected Statement, for any $t$. Sudakov (2011, p. 2)
+proof claim for the modified Statement, for any $t$. Sudakov (2011, p. 2)
 reports "no progress" on the case $t=0$ as of 2010. This is a bounded negative
 finding, not a certificate of openness.
 
@@ -160,7 +160,7 @@ of formal-conjectures defines `knPlusTEdges n t` (the graph $H$) and declares
 `erdos_545 : answer(sorry) ↔ ∀ᶠ m : ℕ in atTop, ∀ (n t : ℕ), t < n → m = n.choose 2 + t → ∀ (V : Type) [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj], (∀ v, 0 < G.degree v) → G.edgeSet.ncard = m → SimpleGraph.diagonalGraphRamsey G ≤ SimpleGraph.diagonalGraphRamsey (knPlusTEdges n t)`
 under `category research open`, with proof `sorry`; its docstring says the
 restriction to sufficiently large $m$ "excludes the small counterexamples
-recorded on the source page"; it states the corrected Statement. The site
+recorded on the source page"; it states the modified Statement. The site
 shows the statement as formalized, and the community database
 (teorth/erdosproblems, fetched 2026-09-17) records it formalized since 9
 September 2026 with no formal proof.
@@ -169,7 +169,7 @@ September 2026 with no formal proof.
 
 **The question (site formulation).** The statement above, false at $m=2$ and
 corrected to all sufficiently large $m$ (Notes); the site showed OPEN, the label
-of the corrected Statement; last edited 2 December 2025. The commentary calls it
+of the modified Statement; last edited 2 December 2025. The commentary calls it
 a question of Erdős and Graham, says the weaker question whether
 $R(G)\le2^{O(m^{1/2})}$ is [[problems/ramsey_theory/E0546/_index|Problem 546]]
 and was proved by Sudakov [Su11], records that a commenter noted the statement
@@ -264,7 +264,7 @@ survey.
 definition of "as complete as possible" and no threshold on $e$; the displayed
 inequality is the site's formalization of it. (2) The small-$m$ failures other
 than $m=2$ and $m=3$, and the $m=6$ check, rest on forum claims and on unread
-tables; no source fixes a threshold from which the corrected Statement is
+tables; no source fixes a threshold from which the modified Statement is
 meant to hold. (3) No source compares $R(G)$ with $R(H)$ for $t\ge1$. The
 value of $R(H)$ itself is known for $t=1,2$ and $n\ge4$: Theorems 3 and 4 of
 [BEFS89] (p. 117) with $m=n\ge4$ give $R(H)=R(K_n)$, which proves the 1976

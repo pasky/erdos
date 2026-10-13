@@ -45,11 +45,11 @@ graph $H_n$ of size $n$ without isolated vertices (Definition 1, p. 390):
   if $\mathrm{ext}(G,n)\le cn^{3/2}$, then $r(G,H_n)\le(32c^2+8)n$ for every
   graph $H_n$ of size $n$ without isolates.
 
-Each family lies inside the hypothesis of the corrected Statement of
+Each family lies inside the hypothesis of the modified Statement of
 [[problems/ramsey_theory/E0566/_index|Problem 566]], so each result answers that
 Statement yes for the graphs it covers.
 
-**Covers.** The corrected Statement (every subgraph on $k\ge2$ vertices has at
+**Covers.** The modified Statement (every subgraph on $k\ge2$ vertices has at
 most $2k-3$ edges) for three classes of $G$. On two and three vertices the bound
 holds in every graph, so only subgraphs on $k\ge4$ vertices need checking
 (elementary checks made here).

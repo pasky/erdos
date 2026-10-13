@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 556, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:37:30Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # problems/ramsey_theory/E0556/claims
@@ -12,7 +12,7 @@ updated: 2026-10-11T22:37:30Z
 [[problems/ramsey_theory/E0556/_index|..]]
 
 [[problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason|1955_01_01_greenwood_gleason]]: Correct, but answers the site's wording (every cycle length $n\ge3$), not the
-corrected Statement (every $n>3$), so it does not count toward the problem's
+modified Statement (every $n>3$), so it does not count toward the problem's
 standing. The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad.
 J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
 

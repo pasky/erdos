@@ -80,6 +80,6 @@ on locally sparse Steiner triple systems, Combinatorica 40 (2020), no. 3,
   partial Steiner triple system on $n$ vertices with $(1/6-o(1))n^2$ triples
   and no $(j,j-2)$-configuration for $4\le j\le k$; this is a lower bound
   $(1/6-o(1))n^2$ on the problem's extremal number, for the single family of
-  the site's wording and for the cumulative family of the corrected
+  the site's wording and for the cumulative family of the modified
   Statement alike. The paper does not discuss the extremal number or an
   upper bound for it.

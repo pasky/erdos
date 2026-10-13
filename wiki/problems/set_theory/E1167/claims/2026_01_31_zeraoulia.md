@@ -3,7 +3,7 @@ name: problems/set_theory/E1167/claims/2026_01_31_zeraoulia
 title: Zeraoulia's counterexample to the site's wording
 desc: |
   Answers the site's wording (no condition on $\gamma$ or on the
-  $\kappa_\alpha$), not the corrected Statement ($\gamma\ge2$ and every
+  $\kappa_\alpha$), not the modified Statement ($\gamma\ge2$ and every
   $\kappa_\alpha>r$), so it does not count toward the problem's standing. With
   one color and target $\lambda^+$, the premise of the stepping-up implication
   holds and its conclusion fails. The source is a self-published note.
@@ -39,18 +39,18 @@ formulation, self-published on ResearchGate under the DOI linked above, gives
 this counterexample and discusses the conditions under which the question is
 meant.
 
-**Covers.** The site's wording only; the corrected Statement of the problem
+**Covers.** The site's wording only; the modified Statement of the problem
 page is not touched. That Statement adds the conditions $2\le r<\omega$,
 $\gamma\ge2$ and $\kappa_\alpha>r$ of the Erdős–Hajnal list, and it is open.
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the corrected
+**Why it is rejected.** It answers the site's wording, not the modified
 Statement. [[problems/set_theory/E1167/_index|Problem 1167]] judges its
-corrected Statement, which adds the conditions $\gamma\ge2$ and
+modified Statement, which adds the conditions $\gamma\ge2$ and
 $\kappa_\alpha>r$; the problem page's Notes give the evidence for that
 reading. The counterexample has $\gamma=1$, so it settles no instance of the
-corrected Statement. The problem page's Notes credit the result.
+modified Statement. The problem page's Notes credit the result.
 
 **Independent check.** The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1167.lean)

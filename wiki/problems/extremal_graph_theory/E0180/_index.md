@@ -35,7 +35,7 @@ $$
 \mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})?
 $$
 
-**Statement (corrected).** If $\mathcal{F}$ is a finite set of finite graphs
+**Statement (modified).** If $\mathcal{F}$ is a finite set of finite graphs
 then $\mathrm{ex}(n;\mathcal{F})$ is the maximum number of edges a graph on $n$
 vertices can have without containing any subgraphs from $\mathcal{F}$. Note that
 it is trivial that $\mathrm{ex}(n;\mathcal{F})\leq \mathrm{ex}(n;G)$ for every
@@ -73,19 +73,19 @@ wording is answered no by the star-and-matching family: post 124 of the thread
 (19 August 2025, the account zach hunter) and Wigderson's note (p. 1,
 Observation, crediting Jordan Lefkowitz and reporting Simonovits's private
 communication that such counterexamples had long been known). That result
-answers the printed wording (every finite family), not the corrected
+answers the printed wording (every finite family), not the modified
 Statement (every family other than a star with a matching), so it does not count
 toward the problem's standing; it is recorded as
 [[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|a rejected claim page]].
-The corrected Statement is answered no by Theorem 1.1 of Chapter 10 of OpenAI's
+The modified Statement is answered no by Theorem 1.1 of Chapter 10 of OpenAI's
 2026 report, a family of connected bipartite graphs each containing a cycle, on
 [[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|its claim page]].
 The commentary excludes only the two-member families: a family that adds to such
 a pair further members with at least two edges still has bounded joint extremal
 number, while each added member's own is unbounded, so it remains a
-counterexample. The page's standing judges the corrected Statement.
+counterexample. The page's standing judges the modified Statement.
 
-**Formulation.** The corrected Statement excludes only the star-and-matching
+**Formulation.** The modified Statement excludes only the star-and-matching
 pairs that the curator's commentary names; it is not the variant excluding
 forests.
 [[../library/extremal_graph_theory/wigderson_2022_erdossimonovits_compactness_conjecture_needs_more_assumptions/_index|Wigderson's filed note]],
@@ -97,7 +97,7 @@ included: this is not a restriction merely excluding trees. That variant is not
 substituted into the statement; the accepted disproof below refutes it as well.
 
 **Status.** DISPROVED (LEAN), the site's label. It records the disproof of the
-corrected Statement, and the answer is no. The accepted claim is Theorem 1.1 of
+modified Statement, and the answer is no. The accepted claim is Theorem 1.1 of
 Chapter 10 of OpenAI's 2026 report, on
 [[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|its claim page]].
 It gives a finite family of connected bipartite graphs, each containing a cycle,
@@ -107,7 +107,7 @@ credited the disproof to an internal model at OpenAI (commentary last edited 31
 August 2026). This is the documented acceptance. The report has no refereed
 version. The Lean file the site links was not built or audited in this
 repository, so it gives no `formalized` evidence. Wigderson's two-forest family
-answers the printed wording in the negative, but it is a family the corrected
+answers the printed wording in the negative, but it is a family the modified
 Statement excludes. So it is recorded as rejected on
 [[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|its claim page]].
 The curator's commentary credits a thread post with it as a folklore
@@ -143,7 +143,7 @@ no-forest form with the comparison holding for all sufficiently large $n$;
 August 2026 links
 [the same file at an earlier commit](https://github.com/openai/ten-proofs/blob/a13547c6be4563746881d0b3b4c9fd03f72f0484/CompactnessAndDegeneracy.lean#L8980-L8983),
 lines 8980--8983; only the site's pin is linked on the claim page. A family
-with no acyclic member that is not compact also refutes the corrected
+with no acyclic member that is not compact also refutes the modified
 Statement, which excludes only star-and-matching pairs, so the Lean theorem
 implies the negative answer to the problem. Nothing was built, axiom-audited
 or checked for statement fidelity in this repository, so the Lean is a link on

@@ -40,7 +40,7 @@ many such $\xi$.
 For [[problems/number_theory/E0464/_index|Problem 464]] take $t_k=n_k$ and
 $\alpha=1+\epsilon$. Every $\theta\in T$ has $\|\theta n_k\|\ge\beta$ for all
 $k$, so the sequence $(\theta n_k)$ is not dense modulo $1$, which is the
-problem page's corrected Statement, the question in the form Erdős posed it in
+problem page's modified Statement, the question in the form Erdős posed it in
 1975 and restated in 1982; the site's wording, that the set of distances
 $\|\theta n_k\|$ is not dense in $[0,1]$, holds for every $\theta$ already
 because $\|x\|\le1/2$ (the problem page's Notes). The question asks for an

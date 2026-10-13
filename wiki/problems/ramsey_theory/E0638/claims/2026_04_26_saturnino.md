@@ -58,7 +58,7 @@ InfiniteInsights) on 26 April 2026:
 
 **Scope.** Full: the class $S_{\mathrm{ord}}$ is closed under taking
 subgraphs and meets the hypothesis, so a correct proof answers no to the
-corrected Statement of
+modified Statement of
 [[problems/ramsey_theory/E0638/_index|Problem 638]], which asks the question
 for such families; it is the only written argument on that Statement. The
 class $S_{\mathrm{ind}}$ answers the induced-subgraph variant, which the

@@ -29,7 +29,7 @@ $$
 
 where the maximum is taken over all monotonic subsequences.
 
-**Statement (precise).** Let $x_1,\ldots,x_n$ be a sequence of distinct real
+**Statement (modified).** Let $x_1,\ldots,x_n$ be a sequence of distinct real
 numbers. Determine the largest constant $c$ such that, for all such sequences,
 
 $$
@@ -40,7 +40,7 @@ where the maximum is taken over all monotonic subsequences.
 
 **Notes.** The site's wording is ambiguous, as its commentary says: for one
 given sequence the maximum is a finite computation, and the wording names
-neither a normalization nor the extremal quantity to be found. The precise
+neither a normalization nor the extremal quantity to be found. The modified
 Statement replaces the object of "Determine", the maximum itself, with "the
 largest constant $c$ such that, for all such sequences," that maximum exceeds
 $(c-o(1))\frac{1}{\sqrt{n}}\sum x_i$. The ambiguity is already in Erdős's
@@ -53,7 +53,7 @@ words are the site's: its commentary adopts this precise question, posed by
 Wouter van Doorn in the site's thread on 12 September 2025 after discussion
 with Desmond Weisenberg and Stijn Cambie, and the site's label SOLVED (LEAN),
 with the answer $c=1$, describes it. The commentary states the question for
-all sequences of $n$ reals; the precise Statement keeps the site's distinct
+all sequences of $n$ reals; the modified Statement keeps the site's distinct
 reals. The normalization agrees with a weighted question of Erdős that
 Steele reports in the same section, citing Chung (1980, p. 278): to determine
 $\tau(n,0)$, the least over nonnegative weights $w_1,\ldots,w_n$ with sum $1$
@@ -102,7 +102,7 @@ claim page, which this corpus has not built.
 ## Current assessment
 
 Erdős's wording asks to determine the largest sum of a monotone subsequence of
-$n$ distinct reals; the precise Statement asks for the largest constant $c$ in
+$n$ distinct reals; the modified Statement asks for the largest constant $c$ in
 the normalized bound. The answer is $c=1$, and more: writing $n=k^2+2a+1$ with
 $-k<a\le k$, the least possible ratio of the largest monotone subsequence sum to
 the total sum of $n$ distinct positive reals is exactly $k/(k^2+a)$. The

@@ -102,7 +102,7 @@ Comptes Rendus note is its [3], with a similar result): the Theorem with
 $t_k=n_k$ and $\alpha=1+\epsilon$ gives irrational $\theta$ with
 $\{\theta n_k\}\in[\beta,1-\beta]$ for all $k$, hence not dense modulo $1$
 and $\inf_k\|\theta n_k\|\ge\beta>0$, the
-corrected Statement of that page (the site's wording is trivially true);
+modified Statement of that page (the site's wording is trivially true);
 the introduction quotes Erdős's 1975 question with its irrational clause,
 and the reference list places that question in the LNM 475 volume the site
 cites as Er75i. [[../wiki/problems/ramsey_theory/E0894/_index|#894]], where the same

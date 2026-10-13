@@ -32,7 +32,7 @@ $$
 
 is not dense in $[0,1]$ (where $\| x\|$ is the distance to the nearest integer)?
 
-**Statement (corrected).** Let $A=\{n_1<n_2<\cdots\}\subset \mathbb{N}$ be a
+**Statement (modified).** Let $A=\{n_1<n_2<\cdots\}\subset \mathbb{N}$ be a
 lacunary sequence (so there exists some $\epsilon>0$ with $n_{k+1}\geq
 (1+\epsilon)n_k$ for all $k$). Must there exist an irrational $\theta$ such
 that
@@ -67,13 +67,13 @@ argument, as the forum account JoshuaB reported in the site's thread on 21 June
 proposing a modulo-one wording; the formal-conjectures file at the commit
 linked under Formalization says in its formalization notes that the printed
 wording "would be vacuously true". These observations are credited here and
-settle nothing about the corrected Statement.
+settle nothing about the modified Statement.
 
 **Formulation.** The site's wording (the page carries no
 last-edited date). The site cites [Er75i], [ErGr80] and [Er82e] as sources; the
 first and the last state the question in fractional parts, as quoted under
 Notes, and [ErGr80] (p. 18) records a related result of Pollington on
-generalized arithmetic progressions (Current assessment). The corrected
+generalized arithmetic progressions (Current assessment). The modified
 Statement asks that the fractional parts $\{\theta n_k\}$ avoid some interval
 of $[0,1)$, that is, that the sequence $(\theta n_k)$ not be dense modulo $1$;
 it is the statement the formal-conjectures file encodes, and the "Problem B" of
@@ -86,7 +86,7 @@ stronger separation $\inf_k\|\theta n_k\|>0$, with quantitative lower bounds in
 $\epsilon$.
 
 **Status.** Proved. The site's label PROVED (LEAN) describes the site's wording,
-which is trivially true (Notes). The label is right for the corrected Statement
+which is trivially true (Notes). The label is right for the modified Statement
 as well. The suffix is a catalog label explained under Formalization below.
 
 Pollington's Theorem [Po79b] (Illinois J. Math. 23 (1979), refereed) applies to
@@ -225,7 +225,7 @@ that the conclusion is rendered as the sequence $(\theta n_k)$ not being dense
 modulo one, "implied by the $\inf_{k\ge1}\|\theta n_k\|>0$ that de Mathan and
 Pollington prove"; the lacunarity hypothesis is the repository's predicate
 `IsLacunary` (some $c>1$ with $c\,n_k<n_{k+1}$ for all large $k$), implied by
-the site's condition. So the file states the corrected Statement, with the
+the site's condition. So the file states the modified Statement, with the
 irrationality clause. The external file, `problems/464/Erdos464.lean` in the
 repository `Jayyhk/erdos-lean` at the commit pinned on de Mathan's claim page
 (committer date 5 August 2026; 49,043 bytes, 950 lines, imports Mathlib),
@@ -420,7 +420,7 @@ beyond its record, Wagner 1980, Strzelecki 1975, de Mathan's 1978 Comptes
 Rendus note.
 
 **Remaining gaps.** (1) The site's wording is trivially true; the page judges
-the corrected Statement, which is proved (Notes and Status). (2) De Mathan's
+the modified Statement, which is proved (Notes and Status). (2) De Mathan's
 Theorem 1 and Corollary 1 are cited first-hand, and the paper prints no
 separation bound in terms of $\lambda-1$, so the $\epsilon^4/\log(1/\epsilon)$
 that the site and Peres--Schlag attribute to de Mathan and Pollington is their

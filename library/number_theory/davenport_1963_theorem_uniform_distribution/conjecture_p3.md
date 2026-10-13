@@ -65,7 +65,7 @@ on p. 3. The edition read is named on the
 
 - [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: with
   $z_j=a_j$, the conjecture asserts the affirmative answer to the problem's
-  corrected Statement (a real sequence tending to infinity with
+  modified Statement (a real sequence tending to infinity with
   $a_{i+1}/a_i\to1$): $f(\alpha n)<\lambda$ exactly when $\alpha n$ lies in
   $[a_i,a_i+\lambda(a_{i+1}-a_i))$, and the paper's open intervals differ
   from these only when some $\alpha n$ equals some $a_i$, which happens for

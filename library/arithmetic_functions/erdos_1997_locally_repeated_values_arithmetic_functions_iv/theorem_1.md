@@ -64,11 +64,11 @@ through Lemma 2 of the same paper (p. 233), and the prime number theorem.
 
 - [[../wiki/problems/arithmetic_functions/E0122/_index|Problem 122]]: for
   $f=\omega$ the problem asks that, for every width $F$ with
-  $F(x)\to\infty$ (the corrected statement) and $F(n)/\omega(n)\to0$ for
+  $F(x)\to\infty$ (the modified Statement) and $F(n)/\omega(n)\to0$ for
   almost all $n$, the number of $m$ with $m+\omega(m)\in(x,x+F(x))$,
   divided by $F(x)$, tend to infinity along some sequence of $x$. Theorem 1
   gives $n$ with $g(n)\to\infty$, so the open interval $(n-1,n+1)$, of
   width $2$, receives at least $g(n)$ values of $m+\omega(m)$ (an
   observation of this page). That is clustering at a bounded width, which the
-  corrected statement excludes; the theorem treats no width with
+  modified Statement excludes; the theorem treats no width with
   $F(x)\to\infty$ and settles no case of the problem.

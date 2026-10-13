@@ -35,14 +35,14 @@ then assert, "with a slight modification we can even prove" (p. 387), that
 $H_m(x,K)\ge G(x,K)-\epsilon x$ for $x>x_0(\epsilon,m,K)$ (1.12). The
 modification is not written out. For $m=2$ these are this problem's pairwise
 coprime sets, and sets of primes are admissible, so (1.12) would make the
-problem's minimum $G(N,C)+o(N)$: the corrected Statement reduces to the prime
+problem's minimum $G(N,C)+o(N)$: the modified Statement reduces to the prime
 case.
 
-**Covers.** The reduction of the corrected Statement to the case in which $A$
+**Covers.** The reduction of the modified Statement to the case in which $A$
 consists of primes. The prime case, $G(x,K)=(\rho(e^K)+o(1))x$, is the paper's
 Problem 1; it was unproved in 1980 and was later proved by
 [[problems/integer_sequences/E0783/claims/1987_01_01_hildebrand|Hildebrand 1987]],
-so (1.12) and that corollary together would give the corrected Statement, which
+so (1.12) and that corollary together would give the modified Statement, which
 [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]] proves with
 a written argument. Not covered: the exact minimizer for a given $N$, the
 site's wording. Theorem 3 alone gives only a positive proportion and

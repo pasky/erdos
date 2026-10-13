@@ -159,7 +159,7 @@ are not restated.
   not give the coefficient $1/2$ the problem asks for.
 - [[../wiki/problems/set_systems/E0702/_index|#702]]: the conjecture of
   Erdos and Sos on p. 108 is the problem's statement with the range
-  $n>n_0(l)$, which the problem's corrected Statement takes from Erdos's
+  $n>n_0(l)$, which the problem's modified Statement takes from Erdos's
   texts; the survey reports Katona's unpublished case $l=4$ and the cases
   $l>4$ open.
 - [[../wiki/problems/distance_problems/E0982/_index|#982]]: the problem's

@@ -28,7 +28,7 @@ the sum of distinct unit fractions with denominators from $\{1,\ldots,N\}$? Is
 it true that the set of integers representable as such has the shape
 $\{1,\ldots,m\}$ for some $m$?
 
-**Statement (corrected).** Let $N$ be sufficiently large and
+**Statement (modified).** Let $N$ be sufficiently large and
 $m_N=\lfloor \sum_{n\leq N}\frac{1}{n}\rfloor$. Is the smallest integer not
 representable as the sum of distinct unit fractions with denominators from
 $\{1,\ldots,N\}$ equal to $m_N$ or $m_N+1$? Is it true that the set of
@@ -76,8 +76,8 @@ by the formal-conjectures file. Both stay in Formulation with no claim page.
 Results about the site's wording, credited and never counted: none; Boris
 Alexeev's `Erdos308.lean` (plby/lean-proofs, commit
 `8822f7ddef30fadbd92e1c6ab4ed897af356af5e`, 15 September 2026) states the
-two-case statement for large $N$, which is the corrected Statement, and is
-unbuilt here. The page's standing judges the corrected Statement.
+two-case statement for large $N$, which is the modified Statement, and is
+unbuilt here. The page's standing judges the modified Statement.
 
 **Formulation.** Erdős and Graham's exact questions ([ErGr80], p. 39) ask,
 with no range on $n$, for the smallest integer not in $S_n$ and whether
@@ -87,7 +87,7 @@ set of positive integers of the form $1/n_1+\cdots+1/n_k$ with
 $1\le n_1<\cdots<n_k\le N$ and $k$ variable, $f(N)$ for the smallest positive
 integer not in $N(N)$, $H_N=\sum_{n\le N}1/n$ and $m_N=\lfloor H_N\rfloor$.
 Every element of $N(N)$ is at most $H_N$, so $N(N)\subseteq\{1,\ldots,m_N\}$
-and $f(N)\le m_N+1$. The corrected Statement asks, for all large $N$, whether
+and $f(N)\le m_N+1$. The modified Statement asks, for all large $N$, whether
 $f(N)\in\{m_N,m_N+1\}$ and whether $N(N)$ is an initial segment
 $\{1,\ldots,m\}$, in which case $f(N)=m+1$; Croot (p. 1) likewise reads the
 questions of Erdős and Graham as asking about large $N$. The first variant
@@ -108,11 +108,11 @@ Croot's theorem bounds $n(N)=f(N)-1$, the largest integer with every integer
 up to it representable, as recorded below.
 
 **Status.** Proved, in the site's label, which the site itself calls an
-essential solution. The standing on this page agrees, for the corrected
+essential solution. The standing on this page agrees, for the modified
 Statement. The one claim page,
 [[problems/unit_fractions/E0308/claims/1999_12_01_croot|Croot's Main Theorem]]
 (Mathematika 46 (1999), no. 2, 359--372; refereed; credited by the site), is an
-accepted full claim. It answers both questions of the corrected Statement. The
+accepted full claim. It answers both questions of the modified Statement. The
 theorem, in the author's typescript, gives for all large $N$
 
 $$
@@ -265,7 +265,7 @@ $\delta>(\frac92+o(1))(\log\log x)^2/\log x$ and $m\notin N(x)$ when
 $\delta<(\frac12+o(1))(\log\log x)^2/\log x$, where $H_x=m+\delta$
 ([[../library/unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/conjecture_p2|conjecture_p2]]).
 So for all large $N$ the representable integers form an initial segment (the
-corrected Statement's second question, yes) and the smallest missing integer
+modified Statement's second question, yes) and the smallest missing integer
 is $m_N$ or $m_N+1$ (its first question, yes); which of the two is
 undetermined only when $\delta_N$ lies in the window between the two
 thresholds (the exact-value variant). Croot conjectures that the upper bound

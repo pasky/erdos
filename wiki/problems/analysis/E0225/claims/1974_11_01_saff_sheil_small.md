@@ -45,7 +45,7 @@ with equality exactly for $P(z)=\frac M2(\lambda z^n+\mu)$, $|\lambda|=|\mu|=1$.
 Write $P(z)=\sum_{k=0}^nc_kz^k$ for the coefficients of the trigonometric
 polynomial $f$ of [[problems/analysis/E0225/_index|Problem 225]], so that
 $f(\theta)=P(e^{i\theta})$. The hypothesis that every root of $f$ is real
-says, in the corrected Statement of the problem page, that every one of the
+says, in the modified Statement of the problem page, that every one of the
 $n$ zeros of $P$ lies on the unit circle. At $q=1$ the constant is
 $A_1=\int_0^{2\pi}2|\cos(\theta/2)|\,d\theta=8$, and $M=1$ is the
 problem's normalization, so the theorem gives

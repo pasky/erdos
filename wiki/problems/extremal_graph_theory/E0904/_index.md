@@ -32,7 +32,7 @@ $$
 d(x_1)+\cdots+d(x_r)\geq \frac{2rm}{n}.
 $$
 
-**Statement (corrected).** Let $r\geq 2$ and let $t_r(n)$ be the Turán number
+**Statement (modified).** Let $r\geq 2$ and let $t_r(n)$ be the Turán number
 (the maximal number of edges in a graph on $n$ vertices with no $K_{r+1}$).
 
 If $G$ is a graph with $n\geq r$ vertices and $m\geq t_r(n)$ edges there
@@ -73,7 +73,7 @@ complete $r$-partite graph on $n$ vertices with classes as equal as possible;
 $d(x)$ is the degree. In the notation of the status-defining paper,
 $\Delta_r(G)$ is the largest degree sum of an $r$-clique of $G$ and
 $\Delta_r(n,m)$ its minimum over graphs with $n$ vertices and $m$ edges, and
-the corrected Statement reads $\Delta_r(n,m)\ge2rm/n$ for $n\ge r$ and
+the modified Statement reads $\Delta_r(n,m)\ge2rm/n$ for $n\ge r$ and
 $m\ge t_r(n)$. For regular graphs the conclusion is trivial, every vertex
 having degree $2m/n$, once an $r$-clique exists; the content is the
 non-regular case. Erdős's 1975 survey states only the case $r=3$, under
@@ -82,9 +82,9 @@ difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by at
 most one edge). The site's label PROVED (LEAN) carries a catalog suffix
 explained under Formalization.
 
-**Status.** The site showed PROVED (LEAN). The label describes the corrected
+**Status.** The site showed PROVED (LEAN). The label describes the modified
 Statement, the form the sources prove. Its Lean qualification is a catalog
-suffix explained under Formalization. The corrected Statement holds by Theorem 2
+suffix explained under Formalization. The modified Statement holds by Theorem 2
 of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$. This is
 recorded as the accepted full claim
 [[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov]],
@@ -167,7 +167,7 @@ under `category research solved, AMS 5`, with proof `sorry` and a
 the edge count of Mathlib's `turanGraph n r`, the inequality is cleared of the
 denominator $n$, and the quantifier `r ∈ Set.Icc 1 (n V)` restricts to
 $1\le r\le n$ (the file's choice, wider than the site's $r\ge2$ in one
-direction and carrying the corrected Statement's $n\ge r$ in the other). The
+direction and carrying the modified Statement's $n\ge r$ in the other). The
 external file, at the repository's commit of 15 September 2026 that the claim
 page's link pins, has 766 lines, is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports four Mathlib modules,
@@ -195,8 +195,8 @@ Yes".
 ## Current assessment
 
 **The question (site wording accessed 2026-09-18).** The site's statement
-above, which fails for $n<r$, and the corrected Statement below it (Notes);
-the site showed PROVED (LEAN), the label of the corrected Statement; last
+above, which fails for $n<r$, and the modified Statement below it (Notes);
+the site showed PROVED (LEAN), the label of the modified Statement; last
 edited 3 April 2026. The commentary attributes the conjecture to Bollobás and
 Erdős, mentions the name balanced clique for an $r$-clique whose average
 degree is at least the graph's, says that [Er75] conjectured only the case
@@ -227,7 +227,7 @@ degree). The section's opening states the consequence for all graphs, display
 $\sum_{i\in R}d(i)\ge2rm/n$, "trivial for regular graphs" (there every degree
 is $2m/n$, and Theorem 1(i) supplies an $r$-clique) and strict otherwise.
 Since its hypotheses are $r\ge2$, $n\ge r$ and $m\ge t_r(n)$, this is the
-corrected Statement in full.
+modified Statement in full.
 [[../library/extremal_graph_theory/bollobas_2005_sum_degrees_cliques/corollary_1|Corollary 1]]
 (p. 7): $2rm/n\le\Delta_r(n,m)<2rm/n+r$ for every $m\ge t_r(n)$, the upper
 bound from a graph whose degrees differ by at most one, so the conjectured

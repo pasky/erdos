@@ -25,7 +25,7 @@ updated: 2026-10-08T18:28:17Z
 the number of distinct lines determined by these points. What are the possible
 values of $f(n)$?
 
-**Statement (corrected).** Given any $n$ distinct points in $\mathbb{R}^2$ let
+**Statement (modified).** Given any $n$ distinct points in $\mathbb{R}^2$ let
 $f(n)$ count the number of distinct lines determined by these points. What are
 the possible values of $f(n)$, for all sufficiently large $n$?
 
@@ -35,7 +35,7 @@ Salamon and Erdős [ErSa88]. The site labeled the problem SOLVED and its
 commentary says "Solved (for all sufficiently large $n$) completely by Erdős
 and Salamon [ErSa88]; the full description is too complicated to be given
 here". The curator's reading is the question for all sufficiently large $n$, and
-the corrected Statement adds those words; nothing else changes. The evidence for
+the modified Statement adds those words; nothing else changes. The evidence for
 the discrepancy is the paper itself.
 Salamon and Erdős write (p. 137) that their formulas give "a complete answer
 to Grünbaum's problem for $n\ge n^*$" but leave "the problem for $n<n^*$
@@ -43,7 +43,7 @@ open", that this case "requires a detailed analysis of the lower end of the
 high $k$ bands and appears to be difficult", and that "the size of $n^*$ is
 unknown but it is likely to be small"; their figure 5 shows, for $n\le12$,
 values at the lower end of the continuum below $\binom n2$ that the large-$n$
-formulas omit. The answer under each reading: the corrected Statement is
+formulas omit. The answer under each reading: the modified Statement is
 answered by [ErSa88], which determines the set of values of $f(n)$ for every
 $n\ge n^*$ band by band, with Erdős's 1972 theorem supplying the values above
 $c_1n^{3/2}$ and the paper fixing the best constant $c=1$ for the lower end of
@@ -57,9 +57,9 @@ $cn^{3/2}$ occurs except $\binom n2-1$ and $\binom n2-3$ (pp. 2-3,
 
 **Status.** Solved, in the site's label. The site's commentary qualifies the
 label as holding for all sufficiently large $n$, so the label describes the
-corrected Statement. The accepted full claim
+modified Statement. The accepted full claim
 [[problems/discrete_geometry/E0606/claims/1988_06_01_salamon_erdos|Salamon–Erdős 1988]]
-determines the possible values for every $n\ge n^*$. This answers the corrected
+determines the possible values for every $n\ge n^*$. This answers the modified
 Statement. The accepted partial claim
 [[problems/discrete_geometry/E0606/claims/1972_03_01_erdos|Erdős 1972]]
 determines the values above $c_1n^{3/2}$.

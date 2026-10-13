@@ -201,6 +201,6 @@ $t\geq2$. The union-of-edges formulation and its explicit pointer back to the
 ## Bears on
 
 - [[../wiki/problems/set_systems/E1022/_index|Problem 1022]]: with $r=t$ and
-  $1+1/m<c$, the hypergraph meets the corrected statement's counting
+  $1+1/m<c$, the hypergraph meets the modified Statement's counting
   condition (every nonempty $X$) with constant $c$ and has no property B,
   for every $t\geq2$ and $c>1$.

@@ -29,7 +29,7 @@ $$
 \sum_{n\in A}\frac{1}{n}.
 $$
 
-**Statement (precise).** Let $r\geq 2$ and suppose that
+**Statement (modified).** Let $r\geq 2$ and suppose that
 $A\subseteq\{1,\ldots,N\}$ is such that, for any $m$, there are at most $r$
 solutions to $m=pa$ where $p$ is prime and $a\in A$. Give the best possible
 upper bound, for fixed $r$ and up to a constant factor depending only on $r$,
@@ -53,7 +53,7 @@ file reads the site's wording as the asymptotic size of the largest
 reciprocal sum over admissible sets, constant included (its main statement
 asks for a function to which that largest sum is asymptotically
 equivalent), and its maintainers judge the matching order
-$\Theta_r(\log N/\log\log N)$ not to answer it. Under the precise Statement,
+$\Theta_r(\log N/\log\log N)$ not to answer it. Under the modified Statement,
 the pending claim on
 [[problems/integer_sequences/E0538/claims/2026_07_15_snyder|Snyder's claim page]]
 would answer the question with the order $\log N/\log\log N$; the asymptotic
@@ -199,7 +199,7 @@ Nothing was built, the imported proofs are not assessed here, and no
 acceptance evidence beyond the claim and the collection's `research solved`
 tag was found. If the construction is right, the extremal reciprocal sum has
 order $\log N/\log\log N$ for every fixed $r$, and the question, read as
-its source reads it (the precise Statement), is answered; the constant that the
+its source reads it (the modified Statement), is answered; the constant that the
 formal-conjectures statement asks for and the dependence on $r$ stay open;
 the site's label and commentary do not record it, and the claim's thread
 held no comments on 2026-10-06.

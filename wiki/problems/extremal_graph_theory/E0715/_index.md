@@ -32,7 +32,7 @@ induced. The statement has two questions: the first is the Berge--Sauer
 conjecture, the second asks for one value of $r$ that works. Read as the site
 words it, the second question holds at $r=3$ with no argument, since every
 $3$-regular graph is a $3$-regular subgraph of itself. This is a defect of the
-wording; no corrected Statement is shown, so the standing judges the site's
+wording; no modified Statement is shown, so the standing judges the site's
 wording. Erdős's printed forms: the 1975 survey ([Er75], printed p. 11), "An
 older conjecture of Sauer and Berge states that every regular graph of valency
 four contains a regular subgraph of valency three. Chvatal just stated the

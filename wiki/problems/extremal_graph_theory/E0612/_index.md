@@ -37,7 +37,7 @@ $$
 D\leq \frac{3r-1}{r}\frac{n}{d}+O(1).
 $$
 
-**Statement (precise).** Two questions, as the site's commentary reads the
+**Statement (modified).** Two questions, as the site's commentary reads the
 display. Let $G$ be a connected graph with $n$ vertices, minimum degree $d$,
 and diameter $D$. (i) If $G$ contains no $K_{2r}$ and $(r-1)(3r+2)\mid d$, is
 $D\leq \frac{2(r-1)(3r+2)}{2r^2-1}\frac{n}{d}+O(1)$? (ii) If $G$ contains no
@@ -69,7 +69,7 @@ thread; it is inferred from the label and the commentary.
 
 **Formulation.** The site's wording, accessed 2026-09-17 (the page shows no
 last-edited date; "Show if that" is the site's text), read as the two questions
-of the Statement (precise). The statement is the Conjecture of Erdős, Pach,
+of the Statement (modified). The statement is the Conjecture of Erdős, Pach,
 Pollack and Tuza (1989, pp. 78--79), which fixes natural numbers $r,\delta>1$
 (the site writes $d$ for $\delta$) and lets $n\to\infty$; the site omits the
 hypothesis $r,\delta>1$. For $r=1$ part (i) is empty and part (ii) is the
@@ -82,7 +82,7 @@ conditions are part of the statement, and the $O(1)$ may depend on $r$ and
 $\delta$.
 
 **Status.** The site labeled the problem OPEN. Read as the two questions of the
-Statement (precise), part (i) is disproved and part (ii) is open. The
+Statement (modified), part (i) is disproved and part (ii) is open. The
 frontmatter standing, claimed, disproved, is derived from the claim pages: part
 (i) is settled by an accepted refutation, and part (ii) only by the pending
 refutations recorded below. This standing departs from the site's OPEN only by

@@ -32,7 +32,7 @@ Suppose any two edges of $G$ have a non-empty intersection. Must $G$ contain
 $O(r^2)$ many vertices? Must there be two edges which meet in $\gg r$ many
 vertices?
 
-**Statement (corrected).** Let $r\geq 2$ and $G$ be a $r$-uniform hypergraph
+**Statement (modified).** Let $r\geq 2$ and $G$ be a $r$-uniform hypergraph
 with chromatic number $3$ (that is, there is a $3$-colouring of the vertices of
 $G$ such that no edge is monochromatic, but no such $2$-colouring), every vertex
 lying in an edge.
@@ -48,7 +48,7 @@ and $2$-colorable, and every two of their edges meet in exactly one vertex. The
 site's commentary on Alon's counterexample states that "its chromatic number is
 3", and Erdős and Lovász [ErLo75, Theorem 8 p. 613, construction (b) p. 620]
 work with exact chromatic number $3$ and count only points lying in edges. The
-corrected Statement adds the missing "no such $2$-colouring" and the convention
+modified Statement adds the missing "no such $2$-colouring" and the convention
 that every vertex lies in an edge; if isolated vertices were allowed, adjoining
 isolates would trivially falsify the first question even under the exact
 chromatic-number hypothesis.

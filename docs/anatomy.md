@@ -561,13 +561,13 @@ settles under **Covers.**, what the claim rests on under **Depends on.**
 with their read status and never counts toward the standing; an accepted claim
 depends on no unaccepted wiki page, a `solved` problem page counting as
 accepted), and states unproven hypotheses in prose. Claims are scoped and valued
-against the statement the problem page shows, the corrected or precise Statement
-where there is one: a theorem of the whole statement is `full`, one on a
-narrower range is `partial`, and the claim value follows the statement's
-polarity. A result that answers only the site's wording keeps its claim page
-with `status` `rejected` and the reason "answers the site's wording, not the
-corrected statement". That a problem is falsifiable or verifiable is a body note
-on an open problem, not a claim.
+against the statement the problem page shows, the modified Statement where there
+is one: a theorem of the whole statement is `full`, one on a narrower range is
+`partial`, and the claim value follows the statement's polarity. A result that
+answers only the site's wording keeps its claim page with `status` `rejected`
+and the reason "answers the site's wording, not the modified Statement". That a
+problem is falsifiable or verifiable is a body note on an open problem, not a
+claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow
@@ -670,27 +670,27 @@ page navigation under [[math_authoring]].
 #### Page layout
 
 Begin the authored body, below the generated rows and the `***`, with Statement,
-at most one second Statement labeled `**Statement (corrected).**` or
-`**Statement (precise).**` directly below it with its `**Notes.**` paragraph,
-any formulation qualification, Status, Source, optional References, and
-Formalization, in that order. Use the bold field labels emitted by
-`scripts/build_problems.py`; Statement may retain a parenthesized convention
-qualification. The second Statement is the site's wording with only the
-evidence-supported change, in the site's notation, so that it reads word for
-word against the Statement above; Notes state what fails in the site's wording,
-the change, the evidence with its locators and, where Erdős's printed wording
-and the curator's reading differ, both readings with their locators and the
-answer under each; they credit results about the site's wording. The fields
-"Corrected formulation" and "Answer to the corrected formulation" are not used.
-Status states the site's label with its qualifications as prose; the derived
-standing is the frontmatter. On 6 October 2026 the site stopped showing problem
-labels and froze the comments in each problem's thread and its proof claims (the
-curator's post [Changes](https://www.erdosproblems.com/forum/thread/blog:9), 6
-October 2026); its general threads and its blog stayed open. A site label a page
-cites is therefore the label as it stood up to that date, a historical record
-written in the past tense, and a problem thread's comments and proof claims are
-a frozen archive as of that date. An access date of 7 October 2026 or later
-dates the page's other content, never its label. The site's statements, remarks,
+at most one second Statement labeled `**Statement (modified).**` directly below
+it with its `**Notes.**` paragraph, any formulation qualification, Status,
+Source, optional References, and Formalization, in that order. Use the bold
+field labels emitted by `scripts/build_problems.py`; Statement may retain a
+parenthesized convention qualification. The second Statement is the site's
+wording with only the evidence-supported change, in the site's notation, so that
+it reads word for word against the Statement above; Notes state what fails in
+the site's wording, the change, the evidence with its locators and, where
+Erdős's printed wording and the curator's reading differ, both readings with
+their locators and the answer under each; they credit results about the site's
+wording. The fields "Corrected formulation" and "Answer to the corrected
+formulation" are not used. Status states the site's label with its
+qualifications as prose; the derived standing is the frontmatter. On 6 October
+2026 the site stopped showing problem labels and froze the comments in each
+problem's thread and its proof claims (the curator's post
+[Changes](https://www.erdosproblems.com/forum/thread/blog:9), 6 October 2026);
+its general threads and its blog stayed open. A site label a page cites is
+therefore the label as it stood up to that date, a historical record written in
+the past tense, and a problem thread's comments and proof claims are a frozen
+archive as of that date. An access date of 7 October 2026 or later dates the
+page's other content, never its label. The site's statements, remarks,
 references, tags, prize, formalized-statement flag and problem lists remain
 current; cite the remarks with the date they were read. Preserve the exact
 formulation, status qualifications and source dates when normalizing labels.
@@ -725,14 +725,14 @@ reviewing the mathematics, not by copying an unassessed imported label.
 
 Lead with the site formulation. The Statement is the site's wording, verbatim.
 When that wording misrenders the problem the site and its sources mean, a
-corrected or precise Statement stands directly below it with a Notes paragraph:
-corrected for an unintended slip (a dropped range whose failures are only
-boundary cases, a setting or convention the sources assume, or a misprint the
-poser's own words contradict), precise for an ambiguity a source fixes. The page
-leans toward the rulings of the site's curator: the status label, the commentary
-and the curator's replies in the problem's thread. Where Erdős's printed wording
-and the curator's reading differ, the page follows the curator, with a corrected
-or precise Statement of that reading and Notes that explain the discrepancy
+modified Statement stands directly below it with a Notes paragraph. It either
+corrects an unintended slip (a dropped range whose failures are only boundary
+cases, a setting or convention the sources assume, or a misprint the poser's own
+words contradict) or gives the precise reading of an ambiguity a source fixes.
+The page leans toward the rulings of the site's curator: the status label, the
+commentary and the curator's replies in the problem's thread. Where Erdős's
+printed wording and the curator's reading differ, the page follows the curator,
+with a modified Statement of that reading and Notes that explain the discrepancy
 fully: the printed wording and the curator's reading, each with its locators,
 and what each answers. The standing judges the lowest statement shown. A reading
 that neither a source nor the curator fixes is discussed in the content, each
@@ -762,12 +762,12 @@ acceptance the evidence shows (the site's solved is the claim value `answered`),
 problem, the site's not provable and not disprovable are one-sided partial
 claims that leave the problem open on their own (the generator maps them to open
 with claim `none`), and `verifiable` and `falsifiable` are body notes. The
-standing concerns the statement the page shows, the corrected or precise
-Statement where there is one. Explain partial resolutions, conditional results,
-and different standings of subquestions in the body and on the claim pages. Keep
-Lean and formalization qualifications there too; a formal proof of a weaker
-statement does not resolve the original question. Compilation and review
-progress are separate from mathematical standing.
+standing concerns the statement the page shows, the modified Statement where
+there is one. Explain partial resolutions, conditional results, and different
+standings of subquestions in the body and on the claim pages. Keep Lean and
+formalization qualifications there too; a formal proof of a weaker statement
+does not resolve the original question. Compilation and review progress are
+separate from mathematical standing.
 
 Maintain the claim pages and the supporting body explanation together. Cite the
 status-defining source and version, and record unresolved contradictions.
@@ -802,10 +802,10 @@ directly after its Claim section. The note quotes the claimant's own post in
 full, after a lead-in naming the source, the account, the date and the site's AI
 field as written; identical texts appear once, and another claimant's entry is
 not quoted. A rejected claim page that answers the site's wording rather than a
-corrected Statement opens its `desc` with the reason: "Correct, but answers the
-site's wording (...), not the corrected Statement" when the rejected result is
+modified Statement opens its `desc` with the reason: "Correct, but answers the
+site's wording (...), not the modified Statement" when the rejected result is
 itself accepted (reviewed, refereed or formalized), and "Answers the site's
-wording (...), not the corrected Statement" otherwise.
+wording (...), not the modified Statement" otherwise.
 
 ### Library
 

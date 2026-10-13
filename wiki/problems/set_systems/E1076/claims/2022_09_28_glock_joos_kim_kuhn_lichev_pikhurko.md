@@ -3,7 +3,7 @@ name: problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pi
 title: The (6,4) limit 7/36 refutes the site's wording at k = 6
 desc: |
   Correct, but answers the site's wording (the single family $F_6$), not the
-  corrected Statement (the cumulative family), so it does not count toward the
+  modified Statement (the cumulative family), so it does not count toward the
   problem's standing. The $(6,4)$ limit is $7/36$, not $1/6$, refereed in Proc.
   Amer. Math. Soc. Ser. B.
 authors:
@@ -53,9 +53,9 @@ $k=5$ is on
 [[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]].
 
 **Why it is rejected.** The result is correct, but it answers the site's
-wording, the single family $\mathcal F_6$, not the corrected Statement of
+wording, the single family $\mathcal F_6$, not the modified Statement of
 [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
-cumulative: under the corrected Statement a $3$-graph avoiding
+cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_6$ is linear, so the theorem says nothing
 against it, and the page does not count toward the problem's standing. The
 problem page's Notes credit the result.

@@ -94,7 +94,7 @@ edition read for the
 ## Bears on
 
 - [[../wiki/problems/set_systems/E1020/_index|Problem 1020]]: with the
-  problem's $k$ equal to $s+1$ and $r=3$, Theorem 1 gives the corrected
+  problem's $k$ equal to $s+1$ and $r=3$, Theorem 1 gives the modified
   Statement's equality for $f(n;3,k)$ whenever $n\ge n_0$ and
   $2\le k\le(n+1)/3$, so for every $n\ge\max(n_0,3k)$. The paper's
   $\mu_3(n,s)$ fixes the matching number at exactly $s$ while $f(n;3,k)$

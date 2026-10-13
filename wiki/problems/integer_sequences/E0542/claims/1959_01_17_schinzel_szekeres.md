@@ -42,7 +42,7 @@ element; since under the hypothesis the multiples of distinct elements up to
 $n$ are disjoint, exactly $n-\sum_i\lfloor n/a_i\rfloor$ integers up to $n$
 are divisible by no element, so no constant $c>0$ gives $cn$ such integers
 for every admissible set, which answers no the second question of the
-problem's corrected Statement, which counts the integers divisible by no
+problem's modified Statement, which counts the integers divisible by no
 element of a set without $1$. The site's wording ("do not divide any
 $a\in A$") has the answer no for a trivial reason that this paper does not
 supply; the problem page's Notes record it. The source is A. Schinzel and G.

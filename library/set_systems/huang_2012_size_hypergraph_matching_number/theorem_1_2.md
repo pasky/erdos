@@ -80,5 +80,5 @@ $\mathcal F_1=\cdots=\mathcal F_t$ of
   problem's notation ($r$ the uniformity, $k$ the forbidden number of
   disjoint edges) Theorem 1.2 with the covering family gives
   $f(n;r,k)=\binom nr-\binom{n-k+1}r$ for $n>3r^2k$, which is the
-  corrected statement's value there; it says nothing for smaller $n$. The
+  modified Statement's value there; it says nothing for smaller $n$. The
   problem's claim page for this paper records the range.

@@ -26,7 +26,7 @@ subset which is not a point and not homeomorphic to the original set?
 If $n\geq 2$ does every connected set in $\mathbb{R}^n$ contain more than
 $2^{\aleph_0}$ many connected subsets?
 
-**Statement (corrected).** Does every connected set in $\mathbb{R}^n$ contain
+**Statement (modified).** Does every connected set in $\mathbb{R}^n$ contain
 a connected subset which is not a point and not homeomorphic to the original
 set? (Points and the empty set do not count as connected sets.)
 
@@ -38,7 +38,7 @@ does not exclude points or the empty set, and the second reads Erdős's
 dimension hypothesis as the ambient dimension. The site labeled the problem
 DISPROVED and its commentary says that "the answer to both is in fact no, as
 shown by Rudin [Ru58] (conditional on the continuum hypothesis)"; its thread
-has no comments. The corrected Statement follows Erdős's own words, which the
+has no comments. The modified Statement follows Erdős's own words, which the
 curator's credit presupposes for the first question: [Er44], printed p. 445,
 asks "Is it true that every connected set contains a connected subset not
 homeomorphic to it? (Points do not count as connected sets.)", p. 443 states
@@ -100,7 +100,7 @@ https://www.erdosproblems.com/910.
 Rudin’s theorem gives, under CH, a nondegenerate connected planar set with at
 most $\mathfrak c$ connected subsets, of dimension one, and its construction
 has not been reconstructed. Nothing on this page removes CH from Rudin’s
-theorem or settles either question of the corrected Statement in full.
+theorem or settles either question of the modified Statement in full.
 
 The source statements below are recorded at the stated scopes; complete source
 proofs remain uncompiled. See

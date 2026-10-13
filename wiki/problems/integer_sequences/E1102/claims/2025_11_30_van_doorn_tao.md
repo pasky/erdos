@@ -62,7 +62,7 @@ updated: 2026-10-08T03:54:24Z
 by the squarefree properties of its translates, arXiv:2512.01087 (posted 30
 November 2025, revised 7 December 2025), answers the question of how fast a
 sequence $A=\{a_1<a_2<\cdots\}$ with property $P$ or $Q$ must grow, with
-property $Q$ as in the problem's corrected Statement: $n+a$ squarefree for all
+property $Q$ as in the problem's modified Statement: $n+a$ squarefree for all
 $a\in A$ with $a<n$. Theorem numbers are those of the arXiv version.
 
 - Property $P$ (Theorem 1): every such sequence has natural density zero, so
@@ -121,7 +121,7 @@ for the problem is not a formalization of the paper and is not linked here.
 Nothing was built or audited here, so `formalized` is not listed and the site's
 (LEAN) suffix warrants no kernel credit.
 
-**Scope.** Full for the corrected Statement's question, which asks how fast
+**Scope.** Full for the modified Statement's question, which asks how fast
 sequences with property $P$ or $Q$ must increase: the paper gives the sharp
 density answer for each property and a sufficient growth condition for $Q$. The
 commentary's side questions about property $P$ for the special sequences remain

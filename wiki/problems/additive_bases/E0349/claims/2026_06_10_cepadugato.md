@@ -48,7 +48,7 @@ is good if and only if $(t,\alpha)=(1,2)$. The `record` link is the statement
 file at its last change (2026-09-18), which carries the attributes.
 
 **Covers.** The formal statements are the site's wording, with values counted
-once and the index from $n=0$, not the corrected Statement of
+once and the index from $n=0$, not the modified Statement of
 [[problems/additive_bases/E0349/_index|Problem 349]], which counts each term
 $\lfloor t\alpha^n\rfloor$, $n\ge1$, at most once even when values repeat.
 Every sum of distinct values is a sum of distinct terms, and the pair
@@ -59,7 +59,7 @@ completeness is proved, so the claim's value is `proved`. The non-completeness
 results do not carry over, since the Statement allows more sums: at
 $\alpha=1$ the Statement's sequence is complete for $1\le t<2$, and its only
 complete positive integer pair is $(1,1)$. Those results answer the site's
-wording, not the corrected statement; for $\alpha>2$ and $0<\alpha<1$ the
+wording, not the modified Statement; for $\alpha>2$ and $0<\alpha<1$ the
 Statement's answer is Proposition 1 of van Doorn's paper
 ([[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van Doorn's claim page]]).
 The proofs are elementary and settle nothing in $1<\alpha<2$.

@@ -25,7 +25,7 @@ updated: 2026-10-08T03:43:48Z
 **Statement.** What is the minimum number of circles determined by any $n$
 points in $\mathbb{R}^2$, not all on a circle?
 
-**Statement (corrected).** What is the minimum number of circles determined by
+**Statement (modified).** What is the minimum number of circles determined by
 any $n$ points in $\mathbb{R}^2$, not all on a circle or a line?
 
 **Notes.** Read as the site words it, the question is degenerate: $n\ge3$
@@ -33,7 +33,7 @@ collinear points are not all on a circle and determine no circle, so the minimum
 under the site's wording is $0$. Erdős's statement [Er61, p. 245] has the same
 wording, and the site remarks that some nondegeneracy condition is intended,
 either that the points are not all on one line or the stronger one that no three
-are collinear. The corrected Statement adds "or a line" and nothing else; it is
+are collinear. The modified Statement adds "or a line" and nothing else; it is
 the condition of Elliott [El67], Purdy and Smith [PuSm], Section 2.1, the
 formal-conjectures statement and Wrona's claim. Under the condition that no
 three points are collinear the question is a different one, with a different
@@ -90,7 +90,7 @@ audited.
 ## Current assessment
 
 The site's formulation (page last edited 1 February 2026) is degenerate as
-worded, and this page answers the corrected Statement: write $f(n)$ for the
+worded, and this page answers the modified Statement: write $f(n)$ for the
 least number of circles through at least three of $n$ points of the plane that
 are not all on one circle or one line. Elliott [El67] asserted
 $f(n)\ge\binom{n-1}{2}$ for $n>393$, but the bound is wrong: $n-1$ concyclic

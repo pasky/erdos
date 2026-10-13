@@ -78,7 +78,7 @@ paper; otherwise self-contained.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: a solution of the
-  corrected Statement (fractional parts not dense modulo $1$, with an
+  modified Statement (fractional parts not dense modulo $1$, with an
   irrational multiplier), independent of de Mathan's, whose 1978 Comptes
   Rendus note p. 511 cites as [3]; the separation $\|\xi n_k\|\ge\beta$ is
   the qualitative form of the bounds Katznelson, Dubickas and Peres and

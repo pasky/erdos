@@ -56,7 +56,7 @@ vertex is charged at most two edges, and the last vertex none, since every edge
 has $t\geq2$ vertices. Hence the number of edges inside $X$ is at most
 $2(|Y|-1)<2|X|$.
 
-So $G$ meets the hypothesis of the corrected statement (every nonempty $X$) with
+So $G$ meets the hypothesis of the modified Statement (every nonempty $X$) with
 every $c\geq2$ yet has no property B. Any constant $c$ for which that
 implication holds at a given $t\geq2$ therefore satisfies $c<2$, and no
 sequence of such constants tends to infinity.
@@ -64,6 +64,6 @@ sequence of such constants tends to infinity.
 ## Bears on
 
 - [[../wiki/problems/set_systems/E1022/_index|Problem 1022]]: by the
-  consequence above, every constant for which the implication of the corrected
-  statement (nonempty $X$) holds is below $2$ at every $t\geq2$, so the
-  corrected statement has the answer no.
+  consequence above, every constant for which the implication of the modified
+  Statement (nonempty $X$) holds is below $2$ at every $t\geq2$, so the
+  modified Statement has the answer no.

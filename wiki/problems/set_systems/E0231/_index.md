@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 $k$ characters. Must $S$ contain an abelian square: two consecutive blocks $x$
 and $y$ such that $y$ is a permutation of $x$?
 
-**Statement (corrected).** Let $S$ be a string of length $2^k$ formed from an
+**Statement (modified).** Let $S$ be a string of length $2^k$ formed from an
 alphabet of $k$ characters. Must $S$ contain an abelian square: two
 consecutive blocks $x$ and $y$ such that $y$ is a permutation of $x$?
 
@@ -72,11 +72,11 @@ copy at
 from an abelian-square-free string of length $15$ over four characters; it is
 linked from the
 [[problems/set_systems/E0231/claims/1957_11_16_de_bruijn_erdos|de Bruijn–Erdős page]]
-and settles no instance of the corrected Statement.
+and settles no instance of the modified Statement.
 
 **Status.** The site showed DISPROVED (LEAN), crediting the negative answer for
 all $k\geq4$ to Keränen's infinite abelian-square-free word on four letters
-[Ke92]. This label describes the corrected Statement. The corrected Statement is
+[Ke92]. This label describes the modified Statement. The modified Statement is
 **disproved**. The accepted claim is
 [[problems/set_systems/E0231/claims/1992_07_13_keranen|infinite abelian-square-free words on four letters]].
 Erdős attributes a finite disproof at $k=4$ to de Bruijn and himself, published
@@ -111,8 +111,8 @@ https://www.erdosproblems.com/231.
 added 2026-09-19 and marked solved there. Its main theorem `erdos_231` states
 the site's wording, for $k\ge2$, and links as its formal disproof the
 length-$15$ counterexample in Boris Alexeev's lean-proofs collection
-described in the Notes; it gives no evidence for the corrected Statement. The
-same file's variant `erdos_231.variants.two_pow` states the corrected
+described in the Notes; it gives no evidence for the modified Statement. The
+same file's variant `erdos_231.variants.two_pow` states the modified
 Statement, for $k\ge2$, and proves its negation from the string
 $1213121412132124$, and `erdos_231.variants.two_pow_small` proves the cases
 $k=2,3$ by kernel computation. The community database lists the site's label
@@ -122,7 +122,7 @@ Keränen's claim page. None of these developments was built or audited here.
 
 ## Current assessment
 
-The corrected Statement asks whether every string of length $2^k$ over $k$
+The modified Statement asks whether every string of length $2^k$ over $k$
 characters contains an abelian square, two consecutive blocks that are
 permutations of each other. It holds for $k\le3$ and fails for every $k\ge4$,
 so the answer is no. The problem's standing, solved with claim disproved,
@@ -132,13 +132,13 @@ on four letters, credited by the site's curator and recorded as a theorem in
 the refereed survey of Fici and Puzynina: its prefixes give abelian-square-free
 strings of every length on four letters, so for every $k\geq4$ a string of
 length $2^k$ over $k$ characters can avoid abelian squares. At $k=4$ the
-site's string $1213121412132124$ already answers the corrected Statement in
+site's string $1213121412132124$ already answers the modified Statement in
 the negative. Keränen's theorem settles more: no length forces an abelian
 square on four letters, so $N(4)$ is infinite in the notation of [Er57], which
 answers Erdős's 1957 remark that this was not known, and the infinite form of
 the question, Problem 192 on the site, is answered.
 
-Erdős's original conjecture [Er57], [Er61] was the corrected Statement for
+Erdős's original conjecture [Er57], [Er61] was the modified Statement for
 every $k$, which he reported disproved at $k=4$ with de Bruijn but never
 published with a construction; that report is the pending
 [[problems/set_systems/E0231/claims/1957_11_16_de_bruijn_erdos|de Bruijn–Erdős page]].

@@ -91,6 +91,6 @@ Spencer's book).
   is the finite coloring the problem asks for, with the site's bound
   $\ll\epsilon^{-1}\log(1/\epsilon)$ on the number of colors.
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: (1.2) is the best known
-  separation for the corrected Statement (fractional parts not dense
+  separation for the modified Statement (fractional parts not dense
   modulo $1$), with $\theta\in(0,1)$; the irrationality clause is covered by
   Pollington's paper, not by this theorem.

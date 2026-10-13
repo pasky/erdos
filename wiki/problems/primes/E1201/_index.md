@@ -31,7 +31,7 @@ $$
 
 is at least $1-\eta$ (where $P(m)$ is the greatest prime divisor of $m$)?
 
-**Statement (precise).** Is it true that for every $\epsilon,\eta>0$ there
+**Statement (modified).** Is it true that for every $\epsilon,\eta>0$ there
 exists a $k$ such that the lower density of $n$ for which
 
 $$
@@ -66,8 +66,8 @@ problem descriptions are meant to carry. The formal-conjectures statement
 `erdos_1201` reads the bound the same way, as a `liminf` of the counting
 ratio. Erdős's form differs from the site's in two further ways, the omission
 of $P(n)$ and "greater than" in place of "at least"; neither changes the
-answer under the precise Statement, as the Formulation shows. Under the
-precise Statement the answer is yes, pending acceptance: Chojecki's note of 30
+answer under the modified Statement, as the Formulation shows. Under the
+modified Statement the answer is yes, pending acceptance: Chojecki's note of 30
 April 2026, recorded on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|its claim page]], deduces
 from the Matomäki--Radziwiłł theorem that the exceptional set has upper
@@ -79,23 +79,23 @@ natural density of the set actually exists"; Chojecki's second note (1 May
 [[problems/primes/E1201/claims/2026_05_01_chojecki|its page]], gives the
 natural density $1-\rho(1/(1-\epsilon))^{k+1}$ only under an unproven
 correlation hypothesis it names LPD and only for $\epsilon<1/2$; through that
-reading it reaches the precise Statement only in that range and only under the
+reading it reaches the modified Statement only in that range and only under the
 hypothesis, which the 30 April note already covers, so it does not count toward
 the problem's standing; and the logarithmic-density results of Teräväinen that
 Tao cited settle neither reading.
 
-**Formulation.** The precise Statement reads the site's density bound as a
+**Formulation.** The modified Statement reads the site's density bound as a
 lower-density bound, following the site's curator, as the Notes record. The
 lower density of a set $S$ of positive integers is
 $\liminf_{N\to\infty}|S\cap[1,N]|/N$, which exists for every set, so the
-precise Statement asks that the set of $n$ with
+modified Statement asks that the set of $n$ with
 $P(n(n+1)\cdots(n+k))>n^{1-\epsilon}$ have lower density at least $1-\eta$,
 whether or not its natural density exists. Chojecki's note, recorded as a full
 claim on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]],
-answers the precise Statement yes, pending acceptance. A variant asks in
+answers the modified Statement yes, pending acceptance. A variant asks in
 addition that the set have a natural density, which is then at least $1-\eta$;
-the variant implies the precise Statement and is open. Terence Tao wrote in
+the variant implies the modified Statement and is open. Terence Tao wrote in
 the site's thread on 30 April 2026 that the problem remained technically open
 because the existence of the natural density of the set was not established.
 Only Chojecki's conditional note, recorded on
@@ -106,7 +106,7 @@ $\epsilon<1/2$.
 Erdős's form in [Er80] differs from the site's in two further ways: it takes
 the largest of $P(n+1),\dots,P(n+k)$, leaving out $P(n)$, and it asks for a
 density greater than $1-\eta$ rather than at least $1-\eta$. Neither changes
-the answer under the precise Statement. Erdős's set for $k$ is contained in
+the answer under the modified Statement. Erdős's set for $k$ is contained in
 the site's set for $k$, and the site's set for $\epsilon/2$, shifted down by
 one, is contained in Erdős's set for $k+1$ and $\epsilon$, since
 $n^{1-\epsilon/2}>(n-1)^{1-\epsilon}$; a smaller $\eta$ absorbs the boundary
@@ -117,17 +117,17 @@ question cannot be settled by a finite computation. The site's commentary
 records that Erdős wrote of having a proof of the case $\epsilon=1/2$. The
 derived standing departs from the label: it is claimed, with the value proved.
 The reason is that Chojecki's note of 30 April is a pending full claim on the
-precise Statement, and the site has not accepted it.
+modified Statement, and the site has not accepted it.
 
 The problem has no entry on the proof-claims tab. The site's thread carries two
 notes by Przemek Chojecki, both posted as written by GPT-5.5 Pro. The note of
-2026-04-30 deduces the precise Statement from the Matomäki--Radziwiłł theorem.
+2026-04-30 deduces the modified Statement from the Matomäki--Radziwiłł theorem.
 It is recorded as a pending full claim on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]]. The
 conditional natural-density note of 2026-05-01 is recorded as a pending
 conditional claim on
 [[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]]. It
-reaches the natural-density variant, and through it the precise Statement,
+reaches the natural-density variant, and through it the modified Statement,
 only under an unproven hypothesis and only for $\epsilon<1/2$, so it derives
 nothing for the standing. The site has accepted neither note.
 
@@ -144,7 +144,7 @@ T. F. Bloom, Erdős Problem #1201, https://www.erdosproblems.com/1201.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1201.lean),
 at the pinned commit. Its `erdos_1201` states the density bound as a lower
 density, the `liminf` of the counting ratio being at least $1-\eta$, which
-is the precise Statement, under which Chojecki's Theorem 1 would answer the
+is the modified Statement, under which Chojecki's Theorem 1 would answer the
 question affirmatively; the same file tags
 `erdos_1201.variants.epsilon_half`, Erdős's $\epsilon=1/2$ remark, as
 solved. The statement file is not a formalization link.
@@ -153,7 +153,7 @@ solved. The statement file is not a formalization link.
 
 The site's formulation asks whether for every $\epsilon,\eta>0$ some $k$ makes
 the $n$ with $P(n(n+1)\cdots(n+k))>n^{1-\epsilon}$ a set of density at least
-$1-\eta$. The wording leaves open whether the density must exist; the precise
+$1-\eta$. The wording leaves open whether the density must exist; the modified
 Statement reads the bound as a lower-density bound, and the Formulation
 records the natural-density variant. Chojecki's note, which Chojecki posted as
 written by GPT-5.5 Pro, argues that the exceptional set has upper density
@@ -162,7 +162,7 @@ $1-\eta$ for large $k$; in the thread Terence Tao held the problem technically
 open because the existence of the natural density was not established, while
 Will Sawin and the site's curator, Thomas Bloom, read the statement's density
 bound as a lower-density bound, Bloom adding that this is how Erdős generally
-used the terms. The site's label was unchanged. The note answers the precise
+used the terms. The site's label was unchanged. The note answers the modified
 Statement, pending acceptance; the natural-density variant is open, with
 Chojecki's second note claiming the natural-density asymptotic only under an
 unproven correlation hypothesis for the large prime divisors of consecutive
@@ -175,7 +175,7 @@ $\epsilon k$ of $P(n),\dots,P(n+k)$ are at least $n^{1-\epsilon}$ for $n$ in a
 set of logarithmic density at least $1-\epsilon$, which Tao called overkill
 for this problem; since $P(n(n+1)\cdots(n+k))$ is the largest of these values,
 this gives the problem's inequality in logarithmic density, which settles
-neither the precise Statement nor the natural-density variant, as logarithmic
+neither the modified Statement nor the natural-density variant, as logarithmic
 density at least $1-\eta$ does not imply lower density at least $1-\eta$.
 Tao's first pointer to that paper concerned the product
 $P(n)P(n+1)\cdots P(n+k)$ of largest prime factors, a different quantity, and

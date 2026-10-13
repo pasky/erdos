@@ -28,7 +28,7 @@ of size at least $t$, and for every set $X$ there are $<c_t\lvert X\rvert$ many
 $A\in \mathcal{F}$ with $A\subseteq X$, then $\mathcal{F}$ has chromatic number
 $2$ (in other words, has property B)?
 
-**Statement (corrected).** Is there a constant $c_t$, where $c_t\to \infty$ as
+**Statement (modified).** Is there a constant $c_t$, where $c_t\to \infty$ as
 $t\to \infty$, such that if $\mathcal{F}$ is a finite family of finite sets, all
 of size at least $t$, and for every nonempty set $X$ there are
 $<c_t\lvert X\rvert$ many $A\in \mathcal{F}$ with $A\subseteq X$, then
@@ -48,7 +48,7 @@ Lean statement that Boris Alexeev posted in the thread on 22 January 2026, whose
 hypothesis is `X.Nonempty`, is the one Terence Tao recorded as the formalization
 of KoishiChan's solution and the one the label's (LEAN) mark refers to; and on
 23 January 2026 Bloom wrote of marking the problem solved by KoishiChan "since
-this answers the question as I understand it". The corrected Statement inserts
+this answers the question as I understand it". The modified Statement inserts
 "nonempty" before "set $X$" and changes nothing else; the formal-conjectures
 statement requires $X$ nonempty as well. Under the printed wording the answer
 is yes, vacuously; under Bloom's reading it is no: Wood's theorem gives
@@ -60,12 +60,12 @@ site's own commentary and the Lean proof of the negation, and the page follows
 the commentary (Status).
 
 **Status.** Labeled PROVED (LEAN) on erdosproblems.com (page last edited 25
-January 2026). This record departs from the site's label: the corrected
+January 2026). This record departs from the site's label: the modified
 Statement is disproved. The site's own commentary says the statement is false.
 It names Wood's construction [Wo13b] as the counterexample, with $c_t<2$ for
 every $t$, and credits KoishiChan with an independent counterexample in the
 comments. The label's Lean mark refers to the Lean proof listed under
-Formalization, which proves the negation of the corrected Statement.
+Formalization, which proves the negation of the modified Statement.
 
 **Source.** [erdosproblems.com/1022](https://www.erdosproblems.com/1022),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1022,
@@ -109,7 +109,7 @@ https://www.erdosproblems.com/1022.
 The site labeled the problem PROVED (LEAN). That label has the wrong polarity:
 the same page says the assertion is false, Wood's theorem gives
 counterexamples, and the linked Lean development proves the negation of the
-existential statement with $X$ nonempty, the corrected Statement.
+existential statement with $X$ nonempty, the modified Statement.
 
 Two accepted claim pages settle the problem in the negative, each by a
 different hypergraph:

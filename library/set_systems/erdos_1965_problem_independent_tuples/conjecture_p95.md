@@ -64,4 +64,4 @@ the [[set_systems/erdos_1965_problem_independent_tuples/_index|source card]].
   equality is (9) with one subtracted from both sides, since the problem's
   $f(n;r,k)$ counts the most edges with no $k$ independent ones, and with
   $g(n;r,k-1)=\binom nr-\binom{n-k+1}r$. The problem restricts to $r\ge3$,
-  and its corrected Statement adds $n\ge kr$, a range (9) does not print.
+  and its modified Statement adds $n\ge kr$, a range (9) does not print.

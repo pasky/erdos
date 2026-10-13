@@ -87,7 +87,7 @@ remark and conjecture (p. 195); no proof checked.
 assumes every difference continuous, which the problem's hypothesis for
 $h>0$ implies. [[../wiki/problems/analysis/E0908/_index|#908]]: the
 [[analysis/debruijn_1951_functions_whose_differences_belong_given_class/conjecture_p195|conjecture of p. 195]]
-is the problem's corrected Statement, with a measurable summand, and
+is the problem's modified Statement, with a measurable summand, and
 [[analysis/debruijn_1951_functions_whose_differences_belong_given_class/theorem_5_1|Theorem 5.1]]
 (pp. 211--212) proves it for the functions whose every difference is square
 integrable on every finite interval, a special case only.

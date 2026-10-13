@@ -66,9 +66,9 @@ formula.
 per edge of $K_n$. The imported statement's annotation
 $f:X^2\to\{-1,1\}$ fixes no single domain for $f$; read on $[n]^2$
 with independent signs on ordered pairs the minimax is $0$, and with
-symmetric signs it is $2H(n)$. The problem page's precise Statement
+symmetric signs it is $2H(n)$. The problem page's modified Statement
 fixes the unordered-edge reading, and its Notes record the others. The
-claim settles the precise Statement, the question as the historical papers
+claim settles the modified Statement, the question as the historical papers
 and the site's label intend it, and asserts no exact finite-$n$ value or
 leading constant.
 

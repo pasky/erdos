@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal
 title: Lean disproofs of the site's wording at the one-vertex tree
 desc: |
   Answers the site's wording (every $n$, the one-vertex tree included), not the
-  corrected Statement (trees on $n\ge2$ vertices), so it does not count toward
+  modified Statement (trees on $n\ge2$ vertices), so it does not count toward
   the problem's standing. Two Lean theorems in Alexeev's repository prove the
   site's wording false for the one-vertex tree.
 authors:
@@ -49,12 +49,12 @@ formalization link on
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the corrected
-statement. [[problems/ramsey_theory/E0547/_index|Problem 547]] judges its
-corrected Statement, the bound for every tree on $n\geq2$ vertices, which
+**Why it is rejected.** It answers the site's wording, not the modified
+Statement. [[problems/ramsey_theory/E0547/_index|Problem 547]] judges its
+modified Statement, the bound for every tree on $n\geq2$ vertices, which
 excludes exactly the one-vertex tree; the problem page's Notes give the
 evidence for that reading. The failure at $n=1$ therefore settles no instance
-of the corrected Statement. The problem page's Notes credit the result.
+of the modified Statement. The problem page's Notes credit the result.
 
 **Standing.** Rejected. The failure needs no source: it is the check written
 in the Claim above, and Hua Xu noted it in the site's discussion on 1 May

@@ -26,7 +26,7 @@ $\{1,\ldots,n\}$ with $\lvert A\rvert=k$ for all $A\in \mathcal{F}$ and $\lvert
 \mathcal{F}\rvert >\binom{n-2}{k-2}$ then there are $A,B\in\mathcal{F}$ such
 that $\lvert A\cap B\rvert=1$.
 
-**Statement (corrected).** Let $k\geq 4$ and $n>n_0(k)$. If $\mathcal{F}$ is a
+**Statement (modified).** Let $k\geq 4$ and $n>n_0(k)$. If $\mathcal{F}$ is a
 family of subsets of $\{1,\ldots,n\}$ with $\lvert A\rvert=k$ for all
 $A\in \mathcal{F}$ and $\lvert \mathcal{F}\rvert >\binom{n-2}{k-2}$ then there
 are $A,B\in\mathcal{F}$ such that $\lvert A\cap B\rvert=1$.
@@ -38,7 +38,7 @@ share three points, and $5>3=\binom32$; this failure is the theorem
 $n$, which is the range the poser's texts exclude.
 
 The change inserts "and $n>n_0(k)$", Erdős's own range, in which $n_0(k)$ is a
-threshold depending only on $k$, so the corrected Statement asserts that some
+threshold depending only on $k$, so the modified Statement asserts that some
 such threshold exists; nothing else changes. The evidence is Erdős's own
 statements of the conjecture of Erdős and Sós. [Er75f], §6, printed p. 108
 ([[../library/distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/_index|On some problems of elementary and combinatorial geometry]]):
@@ -69,13 +69,13 @@ The all-$n$ failure is the named theorem `not_erdos_702` of the Lean development
 ([pinned file](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos702.lean)),
 whose header names the AI systems Codex and GPT-5.6 Sol as its formal authors;
 it proves the failure at $n=5$, $k=4$. The theorem is correct, but it answers
-the site's wording (every $n$), not the corrected Statement ($n>n_0(k)$), so it
+the site's wording (every $n$), not the modified Statement ($n>n_0(k)$), so it
 does not count toward the problem's standing; it is credited here and on its
 [[problems/set_systems/E0702/claims/2026_08_18_alexeev|rejected claim page]].
 
 **Formulation.** The site's wording (page last edited 22 January 2026). The
 $\binom{n-2}{k-2}$ $k$-sets through a fixed pair pairwise share at least two
-points, so the corrected Statement says that for $n>n_0(k)$ this is the largest
+points, so the modified Statement says that for $n>n_0(k)$ this is the largest
 family with no two members meeting in exactly one point; [Er76b] and [Er82e]
 state it in that form, as $f(n;k,1)=\binom{n-2}{k-2}+1$ and
 $\mathrm{Max}\,t_k=\binom{n-2}{k-2}$. The conjecture starts at $k=4$ because the
@@ -85,7 +85,7 @@ need not when $4\mid n$ ([Er75f], §6; [Er81], Part I, item 5); [Er76b], item 22
 determines $f(n;3,1)$ for every $n$.
 
 **Status.** The site showed PROVED (page last edited 22 January 2026). This
-label describes the corrected Statement. The site attributes the conjecture to
+label describes the modified Statement. The site attributes the conjecture to
 Erdős and Sós. It records Katona's unpublished proof of the case $k=4$ and
 credits Frankl [Fr77] with the proof for all $k\ge4$. The site's wording gives
 no range for $n$ and fails for small $n$ (for example $n=5$, $k=4$,
@@ -113,7 +113,7 @@ https://www.erdosproblems.com/702.
 repository holds a Lean 4 development whose header calls it a formalization
 of a solution to the problem and names Frankl as the informal author and the
 AI systems Codex and GPT-5.6 Sol as the formal authors. Its main theorem
-`erdos_702_eventually` is the corrected Statement: for every $k\ge4$ there is
+`erdos_702_eventually` is the modified Statement: for every $k\ge4$ there is
 $n_0$ such that for $n\ge n_0$ every $k$-uniform family of subsets of an
 $n$-set with more than $\binom{n-2}{k-2}$ members has two members meeting in
 exactly one point; it is a formalization link on
@@ -127,7 +127,7 @@ match the repository's comparator challenge.
 
 ## Current assessment
 
-The corrected Statement, for $k\ge4$ and $n$ beyond a threshold depending on
+The modified Statement, for $k\ge4$ and $n$ beyond a threshold depending on
 $k$, is the conjecture of Erdős and Sós, and it is proved:
 [[problems/set_systems/E0702/claims/1977_08_01_frankl|Frankl's theorem]]
 (1977) is the accepted claim, accepted on its refereed publication and the
@@ -141,7 +141,7 @@ Frankl's solution, proves the eventual theorem and is linked from Frankl's page
 as a formalization; this corpus built and audited it, so Frankl's claim also
 carries `formalized` evidence. The same development's `not_erdos_702` refutes
 only the site's wording, which drops the range $n>n_0(k)$ and fails for small
-$n$ (for example $n=5$, $k=4$); it settles no instance of the corrected
+$n$ (for example $n=5$, $k=4$); it settles no instance of the modified
 Statement, and its claim page is rejected.
 
 Search scope: the site's problem page, its discussion thread (one comment of 3

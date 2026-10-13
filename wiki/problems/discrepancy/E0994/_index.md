@@ -30,7 +30,7 @@ $$
 
 for all $E$?
 
-**Statement (precise).** Let $E\subseteq (0,1)$ be a meaurable subset with
+**Statement (modified).** Let $E\subseteq (0,1)$ be a meaurable subset with
 Lebesgue measure $\lambda(E)$. Is it true that, for all $E$,
 
 $$
@@ -57,7 +57,7 @@ Erdős's statement in [Er64b] (Part II, p. 57), which the site's wording follows
 the same reading, since he credits the conjecture to Khintchine with the locator
 "see p. 303–304" and calls it "very deep", which the simultaneous reading is
 not. The choice does not change the answer: Marstrand's refutation [Ma70] of the
-precise Statement refutes the simultaneous reading as well. Results about the
+modified Statement refutes the simultaneous reading as well. Results about the
 simultaneous reading alone, credited here and not counted: the variant
 `erdos_994.variants.simultaneous` of the formal-conjectures statement file
 (added on 2026-09-22, pinned under Formalization) and the theorem
@@ -71,7 +71,7 @@ orbit argument in Lean.
 that the site displays, as of its last update on 2026-09-16. The site's label on
 2026-09-04 was DISPROVED. Khintchine's question of 1923 [Kh23], which Erdős's
 1964 problem paper [Er64b] calls a conjecture, was refuted by Marstrand [Ma70].
-So the precise Statement is false. The site's wording is also false in either
+So the modified Statement is false. The site's wording is also false in either
 order of its two quantifiers, as the accepted claim
 [[problems/discrepancy/E0994/claims/1970_11_01_marstrand|Marstrand 1970]]
 explains. The Lean behind the qualifier is a third-party formalization of
@@ -96,8 +96,8 @@ https://www.erdosproblems.com/994.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/2036a605e848cef3daf251250e6bd1101ca3efa5/FormalConjectures/ErdosProblems/994.lean),
 added on 2026-09-22 and pinned to that commit: its main theorem `erdos_994`, in
-the fixed-set order of the precise Statement, is tagged research solved with the
-answer False and left without proof, and its variant
+the fixed-set order of the modified Statement, is tagged research solved with
+the answer False and left without proof, and its variant
 `erdos_994.variants.simultaneous` proves in Lean that the simultaneous reading
 of the site's wording is false, by removing the countable orbit of $\alpha$ from
 $(0,1)$. The Lean behind the site's qualifier is Collin Yuanjie Ren's

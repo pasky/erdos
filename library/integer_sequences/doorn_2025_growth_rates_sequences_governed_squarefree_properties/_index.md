@@ -102,7 +102,7 @@ translates".
 
 **Bears on.** [[../wiki/problems/integer_sequences/E1102/_index|#1102]]:
 Theorem 1 shows property P forces natural density zero and no faster growth;
-Theorems 2 and 3 show property Q, read as in the problem page's corrected
+Theorems 2 and 3 show property Q, read as in the problem page's modified
 Statement, forces upper density at most 6/pi^2 and that this is attained;
 Theorems 4 and 5 give sufficient growth conditions for property Q in admissible
 sequences, and Theorem 6 shows fast growth with admissibility does not suffice.

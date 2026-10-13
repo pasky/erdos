@@ -4,7 +4,7 @@ title: Gerencsér and Gyárfás, the Ramsey number of the path
 desc: |
   Theorem 1 of Gerencsér and Gyárfás (Ann. Univ. Sci. Budapest. 1967) gives the
   path on $n$ vertices the Ramsey number $n-1+\lfloor n/2\rfloor$, which is at
-  most $2n-2$. This is the corrected statement of Problem 547 for every path.
+  most $2n-2$. This is the modified Statement of Problem 547 for every path.
 authors:
 - L. Gerencsér
 - A. Gyárfás
@@ -42,9 +42,9 @@ $$
 which is at most $2n-2$ for every $n\ge2$. The site's commentary on the
 problem states the same value for paths and credits the paper.
 
-**Covers.** The corrected Statement of
+**Covers.** The modified Statement of
 [[problems/ramsey_theory/E0547/_index|Problem 547]] for every path $P_n$,
-$n\ge2$. Every other tree is outside this claim; the full corrected
+$n\ge2$. Every other tree is outside this claim; the full modified
 Statement is settled by the accepted claim page
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|the 2026
 claim]].

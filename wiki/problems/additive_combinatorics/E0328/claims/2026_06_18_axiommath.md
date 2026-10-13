@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath
 title: AxiomMath's Lean disproof of the ordered-count statement
 desc: |
   Answers the site's wording (ordered pairs, under which $C=2$ fails trivially),
-  not the corrected Statement (sums of two distinct elements), so it does not
+  not the modified Statement (sums of two distinct elements), so it does not
   count toward the problem's standing. A Lean 4 development by AxiomProver,
   published by AxiomMath, refutes that wording with the powers of two at $C=2$.
 authors:
@@ -69,18 +69,18 @@ bound $1_{A_i} \ast 1_{A_i}(n) < 2$ forces every part to have at most one
 element, so the refutation at $C = 2$ is a feature of the wording rather than
 of the Erdős–Newman question, on which it says nothing: the powers of two have
 at most one representation of every $n$ as a sum of two distinct elements, so
-under the count of the corrected Statement one part suffices at $C = 2$. The
+under the count of the modified Statement one part suffices at $C = 2$. The
 answer for every integer $C \geq 2$ under that question is Nešetřil and
 Rödl's, recorded on its own
 [[problems/additive_combinatorics/E0328/claims/1985_01_01_nesetril_rodl|claim page]].
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the corrected
-statement. [[problems/additive_combinatorics/E0328/_index|Problem 328]] judges
-the corrected Statement, which counts representations as sums of two distinct
+**Why it is rejected.** It answers the site's wording, not the modified
+Statement. [[problems/additive_combinatorics/E0328/_index|Problem 328]] judges
+the modified Statement, which counts representations as sums of two distinct
 elements, as Erdős and Graham state the question; the problem page's Notes
 give the evidence and credit the result. The refutation settles no instance
-of the corrected Statement. This corpus has not built or audited the
+of the modified Statement. This corpus has not built or audited the
 development, so it gives no `formalized` evidence, and no outside reviewer is
 recorded.

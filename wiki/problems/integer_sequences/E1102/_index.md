@@ -30,7 +30,7 @@ $n+a$ is squarefree for all $a<n$.
 How fast must sequences $A=\{a_1<a_2<\cdots\}$ with properties $P$ or $Q$
 increase?
 
-**Statement (corrected).** We say that $A\subseteq \mathbb{N}$ has property
+**Statement (modified).** We say that $A\subseteq \mathbb{N}$ has property
 $P$ if, for all $n\geq 1$, there are only finitely many $a\in A$ such that
 $n+a$ is squarefree.
 
@@ -64,7 +64,7 @@ Arithmetica in 2026, on
 The site's curator, Thomas Bloom, credits the paper with the result. This is the
 reviewed evidence recorded on the claim page.
 
-The paper answers the corrected Statement. A sequence with property $P$ must
+The paper answers the modified Statement. A sequence with property $P$ must
 have natural density zero, and nothing stronger holds, since the density may
 tend to zero arbitrarily slowly. A sequence with property $Q$ has upper density
 at most $6/\pi^2$, and a squarefree sequence with property $Q$ and density

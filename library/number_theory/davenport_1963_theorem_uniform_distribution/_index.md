@@ -102,7 +102,7 @@ below $N$, equivalently $z_j\gg j^{1/2+\epsilon}$, the multiples of almost
 every $\alpha>0$ are uniformly distributed relative to $\{z_j\}$. The
 [[number_theory/davenport_1963_theorem_uniform_distribution/conjecture_p3|conjecture]]
 (p. 3), with $z_j=a_j$, asserts the affirmative answer to the problem's
-corrected Statement (real sequences): uniform distribution relative to
+modified Statement (real sequences): uniform distribution relative to
 $\{z_j\}$ for almost all $\alpha>0$ under $z_{j+1}/z_j\to1$ alone; p. 3
 attributes the monotone-gap case to LeVeque and Davenport--LeVeque, and the
 paper proves the conjecture only under the counting condition.

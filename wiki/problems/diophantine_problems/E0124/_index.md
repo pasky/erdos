@@ -38,7 +38,7 @@ If we further have $\mathrm{gcd}(d_1,\ldots,d_r)=1$ then, for any $k\geq 1$, can
 all sufficiently large integers be written as a sum of the shape $\sum_i c_ia_i$
 where $c_i\in \{0,1\}$ and $a_i\in P(d_i,k)$?
 
-**Statement (corrected).** For any $d\geq 1$ and $k\geq 0$ let $P(d,k)$ be the
+**Statement (modified).** For any $d\geq 1$ and $k\geq 0$ let $P(d,k)$ be the
 set of integers which are the sum of distinct powers $d^i$ with $i\geq k$. Let
 $3\leq d_1<d_2<\cdots <d_r$ be integers such that
 
@@ -90,7 +90,7 @@ https://www.erdosproblems.com/124.
 ## Current assessment
 
 The site's label was OPEN, and the standing derived from the claim pages is
-open: no claim settles both questions, and the corrected Statement above fixes
+open: no claim settles both questions, and the modified Statement above fixes
 the misprinted condition. Four results have claim pages. The first question has
 a claimed affirmative answer,
 [[problems/diophantine_problems/E0124/claims/2025_11_29_alexeev|Alexeev 2025]]:

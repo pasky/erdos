@@ -5,7 +5,7 @@ desc: |
   For every fixed $k$, Glock, Kühn, Lo and Osthus build $n$-vertex partial
   Steiner triple systems with $(1/6-o(1))n^2$ triples and no $j$ vertices
   spanning $j-2$ triples for $4\le j\le k$. With linearity, this refereed
-  Combinatorica result, credited by the curator, settles the corrected
+  Combinatorica result, credited by the curator, settles the modified
   Statement.
 authors:
 - Stefan Glock
@@ -50,10 +50,10 @@ by Bohman and Warnke
 ([[problems/set_systems/E1076/claims/2018_08_03_bohman_warnke|their claim page]]).
 
 **Covers.** The theorem gives the lower bound $(1/6-o(1))n^2$ for the
-corrected Statement's family, the $3$-graphs with $j$ vertices and $j-2$ edges
+modified Statement's family, the $3$-graphs with $j$ vertices and $j-2$ edges
 for some $4\le j\le k$, and linearity gives the upper bound $\binom n2/3$,
 since a $3$-graph with no member of that family has no two edges sharing a
-pair, so the theorem settles the corrected Statement for every $k\ge5$. For
+pair, so the theorem settles the modified Statement for every $k\ge5$. For
 the single family of $3$-graphs with $k$ vertices and $k-2$ edges that the
 site's wording defines, the upper bound fails at every $k$ from $5$ to $10$
 ([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]],
@@ -69,13 +69,13 @@ arXiv posting of 12 February 2018. Reviewed: the site's curator, Thomas Bloom,
 marked Problem 1076 proved. Bloom credits the asymptotic version to this paper
 [GKLO20] and to Bohman and Warnke [BoWa19]. Bloom reads the question as the
 approximate form of [[problems/set_systems/E0207/_index|Problem 207]], which is
-the reading the corrected Statement adopts. The problem page was last edited on
+the reading the modified Statement adopts. The problem page was last edited on
 7 October 2025, after a comment in the site's thread the day before pointed to
 the two papers. The card records the theorem from the paper. Its proof is
 unreviewed.
 
 **Formalizations.** Collin Yuanjie Ren's Lean 4 submission, linked above,
-states the corrected Statement, forbidding every $(j,j-2)$-configuration for
+states the modified Statement, forbidding every $(j,j-2)$-configuration for
 $4\le j\le k$ at once, and assembles its proof: the upper bound
 $3\,\mathrm{ex}\le\binom n2$ is elementary, and the lower bound
 $\binom{n-3}2\le3\,\mathrm{ex}$ for large $n$ is derived from the formalized

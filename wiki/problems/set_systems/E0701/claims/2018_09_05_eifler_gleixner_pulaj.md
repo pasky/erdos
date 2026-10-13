@@ -35,7 +35,7 @@ framework for integer programming applied to Chvátal's conjecture*, ACM Trans.
 Math. Softw. 48 (2022), no. 2, 1--12, first posted as arXiv:1809.01572 on
 2018-09-05. Theorem 1 of the arXiv version (v2, 2020): Chvátal's conjecture
 holds for every downset $\mathcal D$ whose members have a union of at most
-seven elements. This is the corrected Statement of
+seven elements. This is the modified Statement of
 [[problems/set_systems/E0701/_index|Problem 701]] for ground sets of at most
 seven elements. The proof is computational. The authors model the search for a
 counterexample on an $n$-element ground set as integer programs, solve them

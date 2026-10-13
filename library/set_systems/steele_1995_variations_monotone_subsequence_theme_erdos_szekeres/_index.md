@@ -97,7 +97,7 @@ clause. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/set_systems/E1026/_index|#1026]]:
 [[set_systems/steele_1995_variations_monotone_subsequence_theme_erdos_szekeres/problem_p128|Section 12]] (p. 128) states the problem's question, as
 Erdős's, and reports no progress on it. Its weighted quantity $\tau(n,0)$
-uses the same normalization as the problem's precise Statement, with
+uses the same normalization as the problem's modified Statement, with
 nonnegative weights summing to $1$ in place of distinct reals; the survey
 sketches the upper bound $\tau(n,0)\le n^{-1}\lceil n^{1/2}\rceil$ and
 leaves $\tau(n,0)\sqrt n\to1$ unproved.

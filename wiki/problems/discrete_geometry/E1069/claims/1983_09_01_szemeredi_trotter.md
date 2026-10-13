@@ -29,7 +29,7 @@ updated: 2026-10-07T22:11:26Z
 
 ***
 
-**Claim.** The corrected Statement of
+**Claim.** The modified Statement of
 [[problems/discrete_geometry/E1069/_index|Problem 1069]] holds: there is an
 absolute constant $c$ such that any $n$ points in the plane determine
 fewer than $c\,n^2/k^3$ lines containing at least $k$ of them, for every
@@ -44,7 +44,7 @@ comparing the two bounds gives $t\le c_1^3n^2/k^3$, and if $t<n^{1/2}$, then
 $t<n^{1/2}\le n^2/k^3$ because $k\le n^{1/2}$. Either way
 $t\le\max(c_1^3,1)\,n^2/k^3$. The site's wording, whose range
 $k\leq n^{1/2}$ has no lower end, fails at $k=1$, as the problem page's Notes
-record; the theorem proves the corrected Statement in full. Erdős's 1987
+record; the theorem proves the modified Statement in full. Erdős's 1987
 problem paper
 ([[../library/discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/_index|card]],
 Section 2, p. 169) describes the statement as a conjecture of Croft, Purdy

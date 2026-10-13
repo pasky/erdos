@@ -34,7 +34,7 @@ on $t$. This is Theorem 3 of Laczkovich's paper, which says that the class of
 Lebesgue measurable functions has the weak difference property; the paper's
 digest is the
 [[../library/analysis/laczkovich_1980_functions_measurable_differences/_index|source
-card]]. It answers the corrected Statement of
+card]]. It answers the modified Statement of
 [[problems/analysis/E0908/_index|Problem 908]], whose summand $g$ is
 measurable, in the affirmative. The problem assumes measurability of the
 differences for $t>0$ only; the identity $\Delta_{-t}f(x)=-\Delta_tf(x-t)$

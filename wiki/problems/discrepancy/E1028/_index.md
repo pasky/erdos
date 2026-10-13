@@ -30,7 +30,7 @@ $$
 
 where $f$ ranges over all functions $f:X^2\to \{-1,1\}$. Estimate $H(n)$.
 
-**Statement (precise).** Let
+**Statement (modified).** Let
 
 $$
 H(n)=\min_f \max_{X\subseteq \{1,\ldots,n\}}
@@ -55,7 +55,7 @@ of $f$ above the diagonal matter, so this is the edge quantity of the sources.
 Requiring $f(x,y)=f(y,x)$ and keeping the sum over $x\neq y$ gives $2H(n)$
 instead. Both elementary deductions are in
 [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
-Under the precise Statement, Erdős and Spencer's Theorem (5) gives
+Under the modified Statement, Erdős and Spencer's Theorem (5) gives
 $H(n)=\Theta(n^{3/2})$; under the site's wording read on ordered pairs, the
 answer is the value $0$.
 
@@ -130,7 +130,7 @@ H(n)=\min_{g:\binom{[n]}2\to\{-1,1\}}
 $$
 
 Here $[n]=\{1,\ldots,n\}$. In the historical results below, $H(n)$ means
-this normalized unordered-edge quantity, the one the precise Statement above
+this normalized unordered-edge quantity, the one the modified Statement above
 defines.
 
 The well-scoped ordered variant with arbitrary $f:[n]^2\to\{-1,1\}$ has
@@ -139,7 +139,7 @@ $f(x,y)=f(y,x)$ makes the ordered-pair minimax exactly $2H(n)$;
 summing only over $x<y$ gives $H(n)$. The complete elementary arguments are
 in [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
 The published theorem and the formal artifacts below concern the edge
-quantity of the precise Statement, not the site's formula as written.
+quantity of the modified Statement, not the site's formula as written.
 
 ## Known Results
 

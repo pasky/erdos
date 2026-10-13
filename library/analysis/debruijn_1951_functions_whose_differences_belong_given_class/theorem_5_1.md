@@ -81,14 +81,14 @@ $\Delta_hS$ vanishes for $S=f_2-g_2$, and $\Delta_hS=0$ almost everywhere.
 
 ## Bears on
 
-- [[../wiki/problems/analysis/E0908/_index|Problem 908]]: the corrected
+- [[../wiki/problems/analysis/E0908/_index|Problem 908]]: the modified
   Statement assumes $f(x+h)-f(x)$ measurable for every $h>0$ and asks for
   $f=g+h+r$ with $g$ measurable, $h$ additive and $r(x+h)=r(x)$ for every $h$
   and almost all $x$. Theorem 5.1 gives this decomposition, with $g$ even
   square integrable on every finite interval, for those $f$ whose every
   difference is square integrable on every finite interval. That hypothesis
   is stronger than measurability of the differences, so the theorem settles a
-  special case and not the corrected Statement; the problem page credits
+  special case and not the modified Statement; the problem page credits
   Laczkovich's 1980 Theorem 3 with the measurable case. The paper assumes the
   hypothesis for each real $h$; the problem's $h>0$ gives it for negative $h$
   too, since a difference with a negative shift is minus a translate of one

@@ -37,7 +37,7 @@ $$
 
 which gives $H(k)^{1/k}/k\ge k^{(1-o(1))\log k}\to\infty$ and so answers the
 displayed question of
-[[problems/additive_combinatorics/E0190/_index|Problem 190]], as its precise
+[[problems/additive_combinatorics/E0190/_index|Problem 190]], as its modified
 Statement reads it, with a rainbow $k$-term progression, in the affirmative.
 The bound follows from the pigeonhole reduction $H(k)\ge w(k;k-1)$ and their
 Theorem 2, the many-color van der Waerden bound $w(k;r)\ge

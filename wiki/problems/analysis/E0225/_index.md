@@ -33,7 +33,7 @@ $$
 \int_0^{2\pi}\lvert f(\theta)\rvert \mathrm{d}\theta \leq 4.
 $$
 
-**Statement (corrected).** Let
+**Statement (modified).** Let
 
 $$
 f(\theta) = \sum_{0\leq k\leq n}c_k e^{ik\theta}
@@ -55,12 +55,12 @@ conjecture with every root counted. Kristiansen states it for a trigonometric
 polynomial of degree $n\ge1$ with real coefficients and $2n$ real roots (Proc.
 Amer. Math. Soc. 44 (1974), p. 49). Saff and Sheil-Small state it for one of
 degree $n$ with all $2n$ zeros in $[0,2\pi)$ real (their Conjecture 1). The
-corrected Statement follows them: $n\geq1$ and $c_n\neq0$, so that $n$ is the
+modified Statement follows them: $n\geq1$ and $c_n\neq0$, so that $n$ is the
 actual degree of $P(z)=\sum_{k=0}^n c_kz^k$, and every one of the $n$ algebraic
 roots of $P$, counting multiplicity, on the unit circle, of the form
 $e^{i\theta}$ with $\theta$ real. The site's display does not state a root
 count; the full-root reading is the hypothesis used in the exact transfer below.
-The corrected Statement is proved, by Kristiansen [Kr74] (a two-sided real
+The modified Statement is proved, by Kristiansen [Kr74] (a two-sided real
 theorem, which the site describes as the real-coefficient case) and by Saff and
 Sheil-Small [SaSh74] in general (see Status). The site's wording fails at the
 degenerate cases above, and no other result about it is recorded.
@@ -80,7 +80,7 @@ and [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
 accepted on its refereed publication. Kristiansen's theorem is the two-sided
 real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$ real
 roots. It implies the display for arbitrary complex coefficients. The site's
-description is narrower than the paper. Both routes prove the corrected
+description is narrower than the paper. Both routes prove the modified
 Statement. This project's own review of the compiled chain is described under
 Review record below and awards no standing.
 
@@ -134,7 +134,7 @@ kernel credit is claimed.
 
 ## Current assessment
 
-The recorded proof proves the corrected Statement above. The standing rests on
+The recorded proof proves the modified Statement above. The standing rests on
 the two claim pages named in the Status: Saff and Sheil-Small's refereed paper
 settles the complex case, credited by the site, and Kristiansen's refereed paper
 proves the two-sided real form, which implies the display for arbitrary complex
@@ -248,7 +248,7 @@ states that the repaired section survives focused blind review, conditional on
 Theorem 1 as the card states it, with no tier asserted. The Theorem 1 page's
 transfer sentence is therefore the reviewed text, and the source card discloses
 the later rewording of 2026-10-07. The displayed problem Statement is unchanged;
-the corrected Statement and its Notes immediately below it record the required
+the modified Statement and its Notes immediately below it record the required
 actual-degree convention. This record gives no formal-verification or new
 acceptance credit. On 2026-10-12 this page's frontmatter description and Status
 paragraph were reworded; the change touches no examined statement, proof, code

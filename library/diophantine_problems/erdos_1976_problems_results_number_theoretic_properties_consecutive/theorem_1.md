@@ -77,5 +77,5 @@ standard and are not linked here.
   statement and settles nothing about the exponent $1-\epsilon$. The remark
   after the theorem is Erdős's expectation that the exponent
   $1-\varepsilon$ holds; that expectation, if true, would answer the
-  problem's precise statement (lower density) positively, since
+  problem's modified Statement (lower density) positively, since
   $(n+1)\cdots(n+k)$ divides $n(n+1)\cdots(n+k)$.

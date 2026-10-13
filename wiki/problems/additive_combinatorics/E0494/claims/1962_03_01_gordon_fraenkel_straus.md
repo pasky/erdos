@@ -4,7 +4,7 @@ title: Gordon, Fraenkel and Straus determine every large set from its k-fold sum
 desc: |
   Section 4 of Gordon, Fraenkel and Straus (Pacific J. Math. 1962) proves that
   for every $k>2$, all but finitely many sizes $|A|$ are determined by the
-  $k$-fold sums. This settles the corrected statement, and the claim is accepted
+  $k$-fold sums. This settles the modified Statement, and the claim is accepted
   and refereed.
 authors:
 - Basil Gordon
@@ -61,7 +61,7 @@ recorded on the
 [[../library/additive_combinatorics/gordon_1962_determination_sets_sets_sums_certain_order/_index|source card]]
 (claims checked; the proof checked for structure only, not verified).
 
-**The statement it settles.** The theorem is the corrected Statement of
+**The statement it settles.** The theorem is the modified Statement of
 [[problems/additive_combinatorics/E0494/_index|Problem 494]], which asks
 whether, for $k>2$, $A_k$ and $|A|$ determine $A$, provided $|A|$ is
 sufficiently large in terms of $k$; the problem page's Notes give the evidence
@@ -97,7 +97,7 @@ article's cover prints January 1962.
 Reviewed: the site's curator (T. F. Bloom) labeled the problem PROVED and
 credits Gordon, Fraenkel and Straus with the uniqueness for all $k$ once $|A|$
 is sufficiently large (erdosproblems.com/494, page last edited 14 October 2025).
-This uniqueness result is the corrected Statement. Guy's 2004 collection reports
+This uniqueness result is the modified Statement. Guy's 2004 collection reports
 the problem in its section C5.
 
 No `formalized` evidence is listed. The site's label carried no Lean suffix, and

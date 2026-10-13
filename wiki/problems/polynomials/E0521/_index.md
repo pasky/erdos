@@ -44,7 +44,7 @@ problem of Erdős, and, after Tao read the source's binary-digit construction as
 $\{0,1\}$-valued, that the curator was "leaning towards Erdős intending
 $\{-1,1\}$ as the explanation that implies fewer mistakes on his part". The
 Statement is therefore the site's wording unchanged, the reading the curator
-adopted; no Statement (precise) is needed, since the wording already fixes
+adopted; no Statement (modified) is needed, since the wording already fixes
 $\{-1,1\}$. The $\{0,1\}$ version, where the constant would be $1/\pi$ and which
 has no claim, is a variant and does not enter the standing. Under the Statement
 the answer is no: almost surely $R_n/\log n$ has lower limit $1/\pi$ and upper

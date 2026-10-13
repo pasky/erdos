@@ -4,7 +4,7 @@ title: Thomassen's theorem on the special K_4-subdivision
 desc: |
   Thomassen (Arch. Math. 1974) proves that a graph with $n\ge3$ vertices and
   $2n-2$ edges has a cycle and a vertex off it joined to three of its vertices.
-  This settles the corrected statement, and the result is refereed and credited
+  This settles the modified Statement, and the result is refereed and credited
   by the site.
 authors:
 - Carsten Thomassen
@@ -31,7 +31,7 @@ updated: 2026-10-08T01:29:59Z
 
 **Claim.** For every $n\ge3$, a graph with $n$ vertices and $2n-2$ edges
 contains a cycle and a further vertex adjacent to three vertices of the
-cycle, which answers the corrected Statement of
+cycle, which answers the modified Statement of
 [[problems/extremal_graph_theory/E0916/_index|Problem 916]], the question
 for every $n\ge4$, in the affirmative. The claimed result is the
 [[../library/extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|Theorem]]
@@ -75,7 +75,7 @@ Carsten Thomassen as its informal author and the AI systems Codex and
 GPT-5.6 Sol as its formal authors. Its theorem `erdos_916` takes a finite
 simple graph on at least four vertices with exactly $2n-2$ edges and
 concludes a cycle with a further vertex adjacent to three of its vertices
-(`HasWheelWitness`), the problem's corrected Statement with the four-vertex
+(`HasWheelWitness`), the problem's modified Statement with the four-vertex
 floor the site's wording lacks; the main file carries no `#print axioms`
 line, and its 63 imported modules are not examined here. The site does not
 cite it, and nothing was built, replayed or audited here, so the page lists

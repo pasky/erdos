@@ -3,7 +3,7 @@ name: problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun
 title: The (10,8) limit is at least 3/16, refuting the site's wording at k = 10
 desc: |
   Correct, but answers the site's wording (the single family $F_{10}$), not the
-  corrected Statement (the cumulative family), so it does not count toward the
+  modified Statement (the cumulative family), so it does not count toward the
   problem's standing. The $(10,8)$ limit is at least $3/16$, above $1/6$,
   refereed in European J. Combin.
 authors:
@@ -59,9 +59,9 @@ and
 [[problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun|the (7,5), (8,6) and (9,7) page]].
 
 **Why it is rejected.** The result is correct, but it answers the site's
-wording, the single family $\mathcal F_{10}$, not the corrected Statement of
+wording, the single family $\mathcal F_{10}$, not the modified Statement of
 [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
-cumulative: under the corrected Statement a $3$-graph avoiding
+cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_{10}$ is linear, so the bound says
 nothing against it, and the page does not count toward the problem's standing.
 The problem page's Notes credit the result.

@@ -71,7 +71,7 @@ p. 323 and
 - [[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]]: the
   site's commentary reads the problem as asking for the density of
   $m(n,3,4,3)$, and the problem page records that reading as a variant with
-  its own answer, not as a corrected statement. For that variant the lower
+  its own answer, not as a modified Statement. For that variant the lower
   bound gives the site's $2/7$, which the site calls the conjectured truth,
   the p. 324 disproof sentence refutes Turán's $n^3/24$ (density $1/4$), and
   the upper bound stated here is de Caen's $1/3$. The iterated construction

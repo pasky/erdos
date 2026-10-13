@@ -28,7 +28,7 @@ $$
 \sum_{n\in A}\cos(n\theta) < -cN^{1/2}?
 $$
 
-**Statement (corrected).** If $A\subset \mathbb{N}$ is a finite set of
+**Statement (modified).** If $A\subset \mathbb{N}$ is a finite set of
 positive integers of size $N$ then is there some absolute constant $c>0$ and
 $\theta$ such that
 
@@ -53,7 +53,7 @@ takes $A\subset\mathbb N$ with $0\notin A$ and all sufficiently large $N$,
 marked `research open` with no formal proof.
 
 **Status.** Open, the site's label (page last edited 28 September 2025), which
-fits the corrected Statement.
+fits the modified Statement.
 
 **Source.** [erdosproblems.com/510](https://www.erdosproblems.com/510), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #510,
@@ -81,10 +81,10 @@ https://www.erdosproblems.com/510.
 absolute $c>0$ exists such that every finite $A\subset\mathbb Z$ of size $N$ has
 some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$. The site labeled the
 problem OPEN (page last edited 28 September 2025); the site's wording fails at
-the sets $\{0\}$ and $\{0,a\}$, as the Notes above record, and the corrected
+the sets $\{0\}$ and $\{0,a\}$, as the Notes above record, and the modified
 Statement for sets of positive integers is the question the literature studies.
 
-**Standing.** The corrected Statement is open. For a set $A$ of $N$
+**Standing.** The modified Statement is open. For a set $A$ of $N$
 positive integers write $m(A)=\min_\theta\sum_{n\in A}\cos(n\theta)$.
 Bourgain [Bo86] proved $m(A)\le-\exp((\log N)^{\varepsilon})$ for an
 absolute $\varepsilon>0$, and Ruzsa [Ru04] improved this to

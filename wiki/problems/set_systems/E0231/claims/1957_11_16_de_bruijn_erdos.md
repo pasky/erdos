@@ -40,10 +40,10 @@ section II, item 2) repeats the conjecture, says that it holds for $k\leq3$,
 that for $k=4$ he and de Bruijn disproved it, and that perhaps an infinite
 sequence on four symbols avoids such blocks. Both papers print the length as
 $2^k-1$, but these reports about instances hold only at length $2^k$, the
-length of the corrected Statement of
+length of the modified Statement of
 [[problems/set_systems/E0231/_index|Problem 231]], as that page's Notes
 record. The claim is therefore a reported result: a string of length $16$
-over four characters with no abelian square, which answers the corrected
+over four characters with no abelian square, which answers the modified
 Statement in the negative at $k=4$. Neither paper gives the construction, a
 reference or an argument, and the site's curator records the same gap. Such
 strings exist: the site exhibits the $16$-character string
@@ -68,6 +68,6 @@ $15$ over four characters, from the source file in Axiom Math's erdos-public
 repository, also linked above at its pinned revision. The file's printed axiom
 list is `propext`, `Classical.choice` and `Quot.sound`. It proves the failure
 of the site's wording at length $2^4-1$, not the claim above: a string of
-length $15$ settles no instance of the corrected Statement, and the file says
+length $15$ settles no instance of the modified Statement, and the file says
 nothing about $N(4)$ or about infinite words. Neither copy was built or
 audited here.

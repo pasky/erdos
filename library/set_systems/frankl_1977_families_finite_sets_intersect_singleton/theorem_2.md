@@ -50,7 +50,7 @@ most $n_0(k)$ points, which is impossible.
 ## Bears on
 
 - [[../wiki/problems/set_systems/E0702/_index|Problem 702]]: proves the
-  problem's corrected Statement, with the explicit range
+  problem's modified Statement, with the explicit range
   $n>n_0(k)+2\binom{n_0(k)}{k}$ in terms of the threshold of Theorem 1, and
   adds that the family of all $k$-sets through a fixed pair is the only
   extremal family. The paper says nothing about smaller $n$.

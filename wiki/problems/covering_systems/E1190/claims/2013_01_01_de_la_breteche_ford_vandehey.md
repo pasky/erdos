@@ -28,7 +28,7 @@ updated: 2026-10-07T20:39:38Z
 ***
 
 **Claim.** Write $L(m)=\exp(\sqrt{\log m\log\log m})$ with natural
-logarithms and $\epsilon_m$ for the supremum of the corrected Statement of
+logarithms and $\epsilon_m$ for the supremum of the modified Statement of
 [[problems/covering_systems/E1190/_index|Problem 1190]]. The bounds of
 de la Bretèche, Ford and Vandehey on the largest number $f(x)$ of pairwise
 disjoint progressions with distinct moduli at most $x$ give

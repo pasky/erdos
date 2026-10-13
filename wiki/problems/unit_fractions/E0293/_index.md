@@ -31,7 +31,7 @@ $$
 
 with $1\leq n_1<\cdots <n_k$. Estimate the growth of $v(k)$.
 
-**Statement (corrected).** Let $k\geq 1$ and let $v(k)$ be the minimal
+**Statement (modified).** Let $k\geq 1$ and let $v(k)$ be the minimal
 integer $>1$ which does not appear as some $n_i$ in a solution to
 
 $$
@@ -57,7 +57,7 @@ the site's discussion clarifies the definition the same way, and the
 community database marks the statement "ambiguous statement". The defect is
 the site's: the monograph prints the condition. No result concerns the
 site's wording beyond the observation above, which is this corpus's own and
-counts for nothing. The standing judges the corrected Statement.
+counts for nothing. The standing judges the modified Statement.
 
 **Formulation.** Writing $D_k$ for the set of denominators that occur in
 some $k$-term representation of $1$ by distinct unit fractions,
@@ -66,7 +66,7 @@ $D_2=\emptyset$ and $D_3=\{2,3,6\}$, and $D_1=\{1\}$, so $v(1)=v(2)=2$ and
 $v(3)=4$.
 
 **Status.** Labeled open on the site: the label was OPEN, and the commentary
-attaches it to the corrected Statement. The page was last edited 29 December
+attaches it to the modified Statement. The page was last edited 29 December
 2025 and read 2026-10-07, and there is no proof claim on its tab. The standing
 derived from the claim pages is open, since every claim is partial.
 

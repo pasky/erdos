@@ -54,8 +54,8 @@ article pages (2--4) are image-only and print no notice, every other right
 reserved.
 
 **Bears on.** [[../wiki/problems/irrationality/E0998/_index|#998]]: display
-(3) is the direction of the length criterion opposite to the one the corrected
-statement asks for: an interval of length $\{j\alpha\}$, $j\ne0$, has
+(3) is the direction of the length criterion opposite to the one the modified
+Statement asks for: an interval of length $\{j\alpha\}$, $j\ne0$, has
 discrepancy below $|j|$ at every index, wherever it is placed. The paper does
 not discuss the converse.
 

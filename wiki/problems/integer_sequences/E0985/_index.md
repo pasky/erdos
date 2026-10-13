@@ -21,7 +21,7 @@ updated: 2026-10-08T17:19:28Z
 **Statement.** Is it true that, for every prime $p$, there is a prime $q<p$
 which is a primitive root modulo $p$?
 
-**Statement (corrected).** Is it true that, for every prime $p>2$, there is a
+**Statement (modified).** Is it true that, for every prime $p>2$, there is a
 prime $q<p$ which is a primitive root modulo $p$?
 
 **Notes.** The site's wording quantifies over every prime $p$ and fails at the
@@ -35,16 +35,16 @@ else changes. The defect is already in the poser's text: Erdős asks the
 question for every prime with no restriction, in [Er61e], p. 11, and in
 [Er65b], printed p. 233: "As far as I know it is not even known whether to
 every $p$ there is a prime $q<p$ which is a primitive root of $p$." The
-problem's standing judges the corrected Statement.
+problem's standing judges the modified Statement.
 
 **Formulation.** The site's wording is Erdős's question as he asks it in
 [Er65b] (printed p. 233), the site's source, and in his 1961 note [Er61e]
-(p. 11). The corrected Statement asks that the least prime primitive root of
+(p. 11). The modified Statement asks that the least prime primitive root of
 every prime $p>2$ be smaller than $p$; Artin's conjecture, which the site's
 commentary cites, concerns a fixed base instead, and asks for infinitely many
 primes $p$ to which that base is a primitive root.
 
-**Status.** Open. The site's label was OPEN, which describes the corrected
+**Status.** Open. The site's label was OPEN, which describes the modified
 Statement. No claim page is recorded.
 
 **Source.** [erdosproblems.com/985](https://www.erdosproblems.com/985), accessed
@@ -71,7 +71,7 @@ https://www.erdosproblems.com/985.
 ## Current assessment
 
 **Scope.** The page carried the site's label (OPEN, accessed 2026-09-04),
-which describes the corrected Statement, and its references on Artin's
+which describes the modified Statement, and its references on Artin's
 conjecture; no status search is recorded. The notes below record the literature
 on the least prime primitive root and the release's manuscripts that bear on the
 question.

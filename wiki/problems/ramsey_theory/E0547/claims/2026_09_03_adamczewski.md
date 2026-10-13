@@ -108,7 +108,7 @@ and `Quot.sound`.
 
 The repository has no comparator challenge, so no fingerprint comparison
 applies. The statements were audited directly, clause by clause, against the
-problem's corrected Statement.
+problem's modified Statement.
 
 `erdos_547_explicit` says that for every $n\ge2$, every tree $T$ on `Fin n` and
 every simple graph $C$ on `Fin (2n-2)`, $T$ is contained in $C$ or in its
@@ -124,7 +124,7 @@ monochromatic copy of $T$, that is, $R(T)\le2n-2$.
 explicit theorem rules out. So the explicit theorem is the evidence, and the
 infimum form is its corollary, of the same shape as the formal-conjectures
 statement file (Formalization on the problem page). The hypothesis $n\ge2$ is
-the corrected Statement's. It excludes only the one-vertex tree, where the
+the modified Statement's. It excludes only the one-vertex tree, where the
 site's wording fails, and natural-number subtraction does not truncate for
 $n\ge2$.
 

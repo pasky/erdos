@@ -32,7 +32,7 @@ $$
 \# \{ \lvert x-y\rvert : x\neq y\in A\} = 2.
 $$
 
-**Statement (corrected).** Let $M_2(n)$ be the size of the largest
+**Statement (modified).** Let $M_2(n)$ be the size of the largest
 $A\subseteq \mathbb{R}^n$ such that there are only two distinct distances
 between elements of $A$, that is,
 
@@ -64,10 +64,10 @@ $n$-dimensional space so that one should be sure to have more than two
 distinct distances between them" and reports that Erdős had claimed $n^{c_5}$
 points suffice, that the proof was wrong, and that corrected it gave only
 $\exp(n^{1-\varepsilon})$: the question Erdős records is the growth order, not
-an exact value. The corrected Statement asks for that asymptotic behavior; the
+an exact value. The modified Statement asks for that asymptotic behavior; the
 change names $M_2(n)$ and replaces "What is the size" by "Estimate $M_2(n)$:
 determine its asymptotic behavior", and nothing else changes. Under the site's
-wording the problem is open; under the corrected Statement it is solved, by
+wording the problem is open; under the modified Statement it is solved, by
 the upper bound ([BBS83], [PePo21]) and the lower construction, the edge
 midpoints of a regular $n$-simplex, verified on the library's
 [[../library/distance_problems/ge_2026_two_distance_set_277_points_23_dimensions/intro_midpoint_construction|intro_midpoint_construction]]
@@ -75,7 +75,7 @@ page and recorded as a claim page on the site's credit. The exact maximum is a
 variant with its own, open, answer: known for $n\le8$ [Li97], and at $n=23$
 Ge, Koolen and Munemasa's 277-point set [GeKoMu26] exceeds $\binom{24}{2}$.
 Both results are correct, but they answer the site's wording (the exact
-maximum), not the corrected Statement (the asymptotic behavior of $M_2(n)$), so
+maximum), not the modified Statement (the asymptotic behavior of $M_2(n)$), so
 neither counts toward the problem's standing, and Lisoněk's claim page is
 rejected. A thread comment of 21 August 2026 (Zakharov) asks whether the problem
 should be marked open because of the gap. The site's "(LEAN)" suffix rests on
@@ -96,7 +96,7 @@ and Munemasa's introduction credits Lisoněk with these values, and the OEIS
 records the sequence as A027627. The result keeps
 [[problems/distance_problems/E0502/claims/1997_02_01_lisonek|a claim page]],
 rejected because it answers the exact question of the site's wording, not the
-asymptotic one of the corrected Statement. Ge, Koolen and Munemasa's
+asymptotic one of the modified Statement. Ge, Koolen and Munemasa's
 arXiv:2504.18110v4 [GeKoMu26] constructs a 277-point two-distance set in
 $\mathbb{R}^{23}$ with distances $2$ and $\sqrt6$, transcribed in full in
 [[../library/distance_problems/ge_2026_two_distance_set_277_points_23_dimensions/theorem_1|their
@@ -104,12 +104,12 @@ Theorem 1 page]]; it improves the generic lower bound at $n=23$ from
 $\binom{24}{2}=276$ to $277$, but does not close the general gap.
 
 **Status.** The site labeled the problem SOLVED (LEAN), and the label describes
-the corrected Statement. Its qualifier rests on the community proof of the upper
+the modified Statement. Its qualifier rests on the community proof of the upper
 bound. The problem lists two parts, the upper bound and the lower bound. The two
 accepted upper-bound claims in `claims/` settle the first, and the accepted
 claim for the lower construction settles the second, so the problem's standing
 is solved. Its claim value is `proved`, although SOLVED (LEAN) reads as
-`answered`. This is because each part of the corrected Statement is a bound, and
+`answered`. This is because each part of the modified Statement is a bound, and
 every settling claim proves its bound. The bounds
 $\binom{n+1}{2}\leq M_2(n)\leq\binom{n+2}{2}$ for $n\geq3$ give
 $M_2(n)=n^2/2+O(n)$. The upper bound is the Bannai--Bannai--Stanton bound of
@@ -157,7 +157,7 @@ lists only the standard Lean axioms; this corpus has not built it.
 ## Current assessment
 
 The site snapshot accessed 2026-09-05 records the label "SOLVED (LEAN)", which
-describes the corrected Statement: the mathematical status is solved, since the
+describes the modified Statement: the mathematical status is solved, since the
 bounds under Progress settle the asymptotic behavior of $M_2(n)$, and the suffix
 marks the community Lean proof of the upper bound $|A|\leq\binom{n+2}{2}$ only,
 as recorded under Formalization above. The exact maximum, the variant under
@@ -185,7 +185,7 @@ construction]], accepted on the curator's credit and settling the part
 $n\leq8$ is
 [[problems/distance_problems/E0502/claims/1997_02_01_lisonek|Lisoněk's
 determination]], a rejected claim, since it answers the site's wording and not
-the corrected Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under
+the modified Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under
 Formulation improves the lower bound at one dimension and bears only on the
 exact-maximum variant.
 

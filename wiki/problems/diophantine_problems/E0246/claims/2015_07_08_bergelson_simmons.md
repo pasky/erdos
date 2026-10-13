@@ -40,7 +40,7 @@ explicit threshold beyond which every integer is represented.
 
 **Covers.** The set is a subset of $\{a^kb^l\}$, so the corollary proves the
 statement of [[problems/diophantine_problems/E0246/_index|Problem 246]], in
-its corrected Statement, which takes $a,b\geq2$, in a stronger form with a
+its modified Statement, which takes $a,b\geq2$, in a stronger form with a
 linear bound on the exponent range.
 
 **Depends on.** No page of this wiki.

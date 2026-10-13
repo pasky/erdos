@@ -25,7 +25,7 @@ points in $\mathbb{R}^2$, not all on a line, there must be at least $f(n)$ many
 lines which contain exactly 2 points (called 'ordinary lines'). Does $f(n)\to
 \infty$? How fast?
 
-**Statement (corrected).** Let $f(n)$ be maximal such that the following holds.
+**Statement (modified).** Let $f(n)$ be maximal such that the following holds.
 For any $n$ points in $\mathbb{R}^2$, not all on a line, there must be at least
 $f(n)$ many lines which contain exactly 2 points (called 'ordinary lines'). Does
 $f(n)\to \infty$? How fast?

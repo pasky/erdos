@@ -67,7 +67,7 @@ None.
 
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: the printed
   origin that the site's source key [Er75i] names. The question is stated in
-  fractional parts, as in the problem page's corrected Statement, and not in
+  fractional parts, as in the problem page's modified Statement, and not in
   distances to the nearest integer as in the site's wording; the chapter's
   ratio condition $n_{k+1}/n_k>c>1$ and the problem page's
   $n_{k+1}\ge(1+\epsilon)n_k$ describe the same class of sequences. The

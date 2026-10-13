@@ -37,7 +37,7 @@ if $\mathcal F\subset\mathcal G\subset2^{[n]}$, $\mathcal G$ is a down-set,
 $\mathcal F$ is intersecting and $\tau(\mathcal F)\le2$, then
 $|\mathcal F|\le\max_x|\{G\in\mathcal G:x\in G\}|$. Here $\tau(\mathcal F)$,
 the covering number, is the least $t$ such that some $t$-set meets every
-member of $\mathcal F$. This is the corrected Statement of
+member of $\mathcal F$. This is the modified Statement of
 [[problems/set_systems/E0701/_index|Problem 701]] for the intersecting
 subfamilies of covering number at most $2$. The proof splits $\mathcal F$
 along a cover $\{1,2\}$ into two cross-intersecting traces and

@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Does every graph with $n$ vertices and $2n-2$ edges contain a
 cycle and another vertex adjacent to three vertices on the cycle?
 
-**Statement (corrected).** When $n\ge4$, does every graph with $n$ vertices
+**Statement (modified).** When $n\ge4$, does every graph with $n$ vertices
 and $2n-2$ edges contain a cycle and another vertex adjacent to three
 vertices on the cycle?
 
@@ -57,18 +57,18 @@ theorem [Di60] that such a graph contains a subdivision of $K_4$. Erdős
 states Dirac's theorem in 1967 as holding "when $n\ge4$" and calls it best
 possible (a graph with $2n-3$ edges and no subdivision of $K_4$ exists);
 Dirac's own Satz 6 (below) carries the hypothesis $N\ge4$ and is followed by
-his $2N-3$ edge examples, so the corrected Statement asks whether the least
+his $2N-3$ edge examples, so the modified Statement asks whether the least
 number $h_3(n)$ of edges forcing the configuration equals $2n-2$, the value
 the 1962 paper says is not excluded.
 
-**Status.** PROVED. This is the site's label, and it describes the corrected
+**Status.** PROVED. This is the site's label, and it describes the modified
 Statement. The commentary credits the proof to Thomassen [Th74]. The result is
 recorded as an
 [[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|accepted full claim]].
 Thomassen's Theorem ([Th74], Arch. Math. (Basel) 25 (1974), 210--215, refereed;
 p. 212) gives every graph with $n\ge3$ vertices and at least $2n-2$ edges a
 cycle and a vertex off it joined to at least three of its vertices. This covers
-the corrected Statement's $n\ge4$. Carmesin's refereed paper of 2023 restates
+the modified Statement's $n\ge4$. Carmesin's refereed paper of 2023 restates
 it. The value $2n-2$ is exact. Dirac's
 [[../library/extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|Satz 6]]
 (p. 68) is best possible by the graphs of his Figures 3--5, which have $2n-3$
@@ -208,7 +208,7 @@ authors (the file's own credits, recorded as its provenance), and the
 theorem is
 `erdos_916 {V : Type u} [Fintype V] [DecidableEq V] (G : SimpleGraph V) [DecidableRel G.Adj] (hcard : 4 ≤ Fintype.card V) (hedges : G.edgeFinset.card = 2 * Fintype.card V - 2) : HasWheelWitness G`,
 which carries the four-vertex floor the site's wording lacks (the file's
-statement is the corrected Statement above); no
+statement is the modified Statement above); no
 `#print axioms` line is in the main file. Since the file declares itself a
 formalization of Thomassen's result, it is a formalization link on
 [[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|its claim page]];
@@ -238,8 +238,8 @@ sources predate arXiv or are journal papers).
 
 **Remaining gaps.** (1) The status-defining text [Th74] is taken from the
 printed paper at its Theorem: the printed hypothesis is $n\ge3$, which the
-second-hand restatements omit, and it covers the corrected Statement's
-$n\ge4$. (2) The corrected Statement's range rests on Erdős's 1967 statement
+second-hand restatements omit, and it covers the modified Statement's
+$n\ge4$. (2) The modified Statement's range rests on Erdős's 1967 statement
 of Dirac's theorem and on Dirac's Satz 6; the question sentence of [Er67b]
 and the 1962 paper give no range, and the site's wording, which fails at
 $n=1$, does not set the standing. (3) Proof coverage: the proof of

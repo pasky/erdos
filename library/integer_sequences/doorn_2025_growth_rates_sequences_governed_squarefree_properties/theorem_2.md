@@ -47,7 +47,7 @@ The density (1.1) of the squarefree numbers and a standard sieve bound.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E1102/_index|Problem 1102]]: with
-  property Q read as in the problem page's corrected Statement (the condition
+  property Q read as in the problem page's modified Statement (the condition
   over $a\in A$ with $a<n$, which is Definition 1's), this is the upper half
   of the density answer for property Q; it gives $a_j\ge(\pi^2/6-o(1))j$, and
   [[integer_sequences/doorn_2025_growth_rates_sequences_governed_squarefree_properties/theorem_3|Theorem 3]]

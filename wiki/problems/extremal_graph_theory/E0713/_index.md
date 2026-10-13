@@ -33,7 +33,7 @@ $$
 
 Must $\alpha$ be rational?
 
-**Statement (corrected).** Is it true that, for every bipartite graph $G$ with
+**Statement (modified).** Is it true that, for every bipartite graph $G$ with
 at least two edges, there exists some $\alpha\in [1,2)$ and $c>0$ such that
 
 $$
@@ -91,8 +91,8 @@ or disproof of that variant for every bipartite graph is compiled on this
 page.
 
 **Status.** Open. The site labeled the problem OPEN, with a prize (snapshot
-accessed 2026-09-04). This label describes the corrected Statement. Neither
-question of the corrected Statement has a claim page, so the frontmatter
+accessed 2026-09-04). This label describes the modified Statement. Neither
+question of the modified Statement has a claim page, so the frontmatter
 standing derived from the claim pages is open with no claim. The site's wording
 fails at graphs with at most one edge, as the Notes record.
 
@@ -119,20 +119,20 @@ added on 2026-09-07, states the two questions as `erdos_713.parts.i` (the
 asymptotic) and `erdos_713.parts.ii` (the rationality of $\alpha$ where the
 asymptotic holds), both tagged `research open` and neither with a formal
 proof. Both parts require the bipartite graph $G$ to have at least two
-edges, as the corrected Statement does; the file's docstring says the
+edges, as the modified Statement does; the file's docstring says the
 condition excludes degenerate forbidden graphs whose extremal number is
 eventually zero. The community database records the problem formalized
 since 2026-09-07, with no formal proof.
 
 ## Current assessment
 
-Neither question of the corrected Statement has a claim, so the problem's
+Neither question of the modified Statement has a claim, so the problem's
 standing is open with no claim.
 
 A bounded primary-source search checked arXiv material on bipartite extremal
 exponents, the public E571 repository, contemporary research announcements and
 targeted X queries. It located no proof or disproof of the first question of the
-corrected Statement. The contemporary
+modified Statement. The contemporary
 [Epoch benchmark account](https://epoch.ai/benchmarks/frontiermath-erdos) lists
 the two parts of E0713 separately among its questions with no known proof in
 August 2026. This is attributed status evidence, not a proof of openness or a
@@ -144,7 +144,7 @@ Bukh--Conlon pp. 1--3, Kang--Kim--Liu pp. 1--2, Jiang--Qiu pp. 1--2,
 Conlon--Janzer pp. 1--2 and the preliminary E571 exposition p. 1. Their
 descriptions of the single-graph realization conjecture as open predate the
 E571 result of September 2026. No proof or disproof of either question of
-the corrected Statement is compiled on this page.
+the modified Statement is compiled on this page.
 
 ## Progress
 

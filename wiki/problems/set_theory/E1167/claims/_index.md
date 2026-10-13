@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1167, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T19:24:40Z
-updated: 2026-10-11T22:37:30Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # problems/set_theory/E1167/claims
@@ -17,7 +17,7 @@ Erdős–Hajnal list. It is recorded as claimed, since the monograph is not a
 journal paper.
 
 [[problems/set_theory/E1167/claims/2026_01_31_zeraoulia|2026_01_31_zeraoulia]]: Answers the site's wording (no condition on $\gamma$ or on the
-$\kappa_\alpha$), not the corrected Statement ($\gamma\ge2$ and every
+$\kappa_\alpha$), not the modified Statement ($\gamma\ge2$ and every
 $\kappa_\alpha>r$), so it does not count toward the problem's standing. With
 one color and target $\lambda^+$, the premise of the stepping-up implication
 holds and its conclusion fails. The source is a self-published note.

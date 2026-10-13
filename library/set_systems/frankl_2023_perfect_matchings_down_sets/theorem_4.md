@@ -90,7 +90,7 @@ p. 2, Theorem 13 and its proof on pp. 7--8. The edition is identified on the
 - [[../wiki/problems/set_systems/E0701/_index|Problem 701]]: Theorem 3, which
   Theorem 4 also implies, bounds every intersecting subfamily of a down-set
   $\mathcal B$ by $|\mathcal B|/2$. The paper calls this weaker than
-  Chvátal's conjecture (the problem's corrected Statement), whose bound is the
+  Chvátal's conjecture (the problem's modified Statement), whose bound is the
   largest degree $\Delta(\mathcal B)$; for a down-set
   $\Delta(\mathcal B)\le|\mathcal B|/2$, since removing $x$ maps the members
   containing $x$ injectively to members avoiding it (an observation of this

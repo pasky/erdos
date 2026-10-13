@@ -59,11 +59,11 @@ Part II of the 1964 paper ("for almost all $\alpha$ and every $E$"), puts "for
 all $E$" after "for almost all $\alpha$", and so also admits a simultaneous
 reading: one set of $\alpha$ of full measure that serves every $E$ at once. That
 reading is stronger than Khintchine's question (for each $E$, almost every
-$\alpha$), which the problem page's precise Statement adopts, and it fails for
+$\alpha$), which the problem page's modified Statement adopts, and it fails for
 every $\alpha$ by an elementary argument: remove the countable orbit
 $\{\{k\alpha\}:k\ge1\}$ from $(0,1)$; the remaining set is measurable, has
 measure $1$ and is never visited, so its visit frequency is $0$. Marstrand's
-counterexample refutes the precise Statement, and with it the simultaneous
+counterexample refutes the modified Statement, and with it the simultaneous
 reading too.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper

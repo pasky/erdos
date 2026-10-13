@@ -92,7 +92,7 @@ same paper.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0638/_index|Problem 638]]: the ordinary
-  part, if correct, answers no to the problem page's corrected Statement,
+  part, if correct, answers no to the problem page's modified Statement,
   which asks the question for families closed under taking subgraphs; the
   induced part concerns the induced-subgraph variant that the problem page
   records in its Formulation. The problem page records the note as a claim on

@@ -237,7 +237,7 @@ arc of $\mathbb T$ containing $n\alpha$, with $M>1/\varepsilon(\rho)$ arcs;
 and footnote 2 (p. 212) gives the paper's own quantitative bound, of order
 $(\rho-1)^{-2}\log^2(1/(\rho-1))$ colors. A proper coloring of the graph on
 $\mathbb Z$ restricts to the finite coloring of $\mathbb N$ the site asks
-for. [[../wiki/problems/number_theory/E0464/_index|#464]], whose corrected Statement
+for. [[../wiki/problems/number_theory/E0464/_index|#464]], whose modified Statement
 (fractional parts of $\theta n_k$ not dense modulo $1$) Theorem 1.2 and
 Claim 1 (p. 212) answer with the separation $\|\lambda\alpha\|>
 \varepsilon(\rho)$ for all $\lambda\in\Lambda$, quantified by footnote 2;

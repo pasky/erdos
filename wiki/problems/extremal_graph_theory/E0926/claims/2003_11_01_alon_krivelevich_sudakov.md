@@ -46,7 +46,7 @@ $$
 
 The paper notes that for $s=1$ and $t=2$ this graph is the induced subgraph on
 the first three layers of the Boolean $k$-cube, which is the problem's $H_k$ of
-the problem page's precise Statement ($x_0$ is $x$, and $x_{\{i,j\}}^1$ is the
+the problem page's modified Statement ($x_0$ is $x$, and $x_{\{i,j\}}^1$ is the
 pair vertex $z_{\{i,j\}}$). At $t=2$, $s=1$ the bound reads
 $\mathrm{ex}(2n;H_k)\le4kn^{3/2}$; since the extremal number is nondecreasing in
 the number of vertices, every $N$ has

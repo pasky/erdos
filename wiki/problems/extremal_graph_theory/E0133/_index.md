@@ -26,7 +26,7 @@ with $n$ vertices and diameter $2$ contains a vertex with degree $\geq f(n)$.
 
 What is the order of growth of $f(n)$? Does $f(n)/\sqrt{n}\to \infty$?
 
-**Statement (corrected).** Let $f(n)$ be maximal such that every
+**Statement (modified).** Let $f(n)$ be maximal such that every
 triangle-free graph $G$ with $n$ vertices and diameter $2$ contains a vertex
 with degree $\geq f(n)$.
 

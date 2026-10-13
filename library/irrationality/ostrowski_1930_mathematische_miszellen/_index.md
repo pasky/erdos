@@ -85,7 +85,7 @@ checked step by step. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/irrationality/E0998/_index|#998]]: Satz I
 (p. 35) bounds by |j| the discrepancy of every interval [u,v) of length
 v - u = R(j alpha), j a nonzero integer, in any position, which is the
-sufficiency direction of the problem's corrected Statement and the same bound
+sufficiency direction of the problem's modified Statement and the same bound
 as the 1927 note's equation (3); the paper does not address the converse that
 the problem asks. Satz II and the estimate (4) bear on neither direction.
 

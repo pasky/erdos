@@ -47,7 +47,7 @@ an inclusion-minimal non-Ramsey-size-linear subgraph of it is a further
 minimal example. The argument exhibits no graph beyond $K_4$; the paper's
 Open problem 5 asks for one, and that question is not the problem's.
 
-**Scope.** Full. The theorem is the problem page's corrected Statement, which
+**Scope.** Full. The theorem is the problem page's modified Statement, which
 asks about graphs all of whose proper subgraphs are Ramsey size linear; the
 site's wording, which omits "proper", admits no graph at all, as the page's
 Notes record. The paper's edge-deletion minimality and the proper-subgraph

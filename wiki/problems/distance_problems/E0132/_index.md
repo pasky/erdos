@@ -25,7 +25,7 @@ updated: 2026-10-08T18:26:31Z
 two distances which occur at least once but between at most $n$ pairs of points?
 Must the number of such distances $\to \infty$ as $n\to \infty$?
 
-**Statement (corrected).** Let $A\subset \mathbb{R}^2$ be a set of $n\geq 5$
+**Statement (modified).** Let $A\subset \mathbb{R}^2$ be a set of $n\geq 5$
 points. Must there be two distances which occur at least once but between at
 most $n$ pairs of points? Must the number of such distances $\to \infty$ as
 $n\to \infty$?
@@ -60,7 +60,7 @@ with the rhombus as witness. Clemen, Dumitrescu and Liu state it as Erdős's
 Conjecture 1.1 ([CDL25], arXiv:2505.04283v5, p. 2), "Let $n\geq5$", and add that
 "the condition $n\geq5$ is necessary" because of the rhombus; their theorems
 settle only special cases, so their statement is independent of any claim that
-would settle the corrected Statement. The copy of [Er84c] read for its
+would settle the modified Statement. The copy of [Er84c] read for its
 [[../library/distance_problems/erdos_1984_old_new_problems_combinatorial_geometry/_index|library card]]
 (pp. 134-135) gives the Pannwitz bound on the diameter and questions on equal
 multiplicities but no statement of this question, so the site's and [CDL25]'s
@@ -68,11 +68,11 @@ attribution to it is not confirmed there; [ErPa90] and [Er97e] are not held. The
 defect is the site's: the poser's statements read here carry the bound. The form
 was fixed from these sources before reading which results settle it. The
 counterexample at $n=4$ is recorded by the curator, by [CDL25] and in [ErFi95]
-itself; it settles no instance of the corrected Statement and counts for
-nothing. The problem's standing judges the corrected Statement.
+itself; it settles no instance of the modified Statement and counts for
+nothing. The problem's standing judges the modified Statement.
 
 **Status.** Open. The site labeled the problem OPEN. Its commentary states the
-first question for $n\geq5$, as the corrected Statement does.
+first question for $n\geq5$, as the modified Statement does.
 
 **Source.** [erdosproblems.com/132](https://www.erdosproblems.com/132), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #132,
@@ -100,7 +100,7 @@ https://www.erdosproblems.com/132.
 
 ## Current assessment
 
-Both questions of the corrected Statement remain open. The diameter has
+Both questions of the modified Statement remain open. The diameter has
 multiplicity at most $n$, so the first asks for an additional rare distance.
 Erdős and Fishburn [ErFi95] proved it for $n=5$ and $n=6$, and Clemen,
 Dumitrescu, and Liu prove it for convex sets with $n\ge5$ and under conditions

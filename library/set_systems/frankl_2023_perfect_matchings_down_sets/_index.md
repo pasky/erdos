@@ -103,7 +103,7 @@ their structure. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/set_systems/E0701/_index|#701]] (Conjecture 1,
 stated for a down-set in 2^X and credited by the paper to Chvátal, is the
-problem's corrected Statement when X is finite; Theorem 7 proves its
+problem's modified Statement when X is finite; Theorem 7 proves its
 inequality for intersecting subfamilies of covering number at most 2, and
 Theorem 3 gives the weaker bound |B|/2 for every intersecting subfamily of a
 down-set B; the paper proves nothing further about the conjecture)

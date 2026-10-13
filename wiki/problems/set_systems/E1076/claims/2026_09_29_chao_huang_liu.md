@@ -2,7 +2,7 @@
 name: problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu
 title: The (k, k-2) limits refute the site's wording at every k ≥ 5
 desc: |
-  Answers the site's wording (the single families $F_k$), not the corrected
+  Answers the site's wording (the single families $F_k$), not the modified
   Statement (the cumulative family), so it does not count toward the problem's
   standing. An arXiv preprint shows that the $(k,k-2)$ limit is $1/5$ for every
   odd $k\ge5$ and exceeds $1/6$ for every even $k\ge6$.
@@ -76,9 +76,9 @@ that the authors used ChatGPT-5.6 as a collaborative tool for the upper bounds
 and the manuscript.
 
 **Why it is rejected.** It answers the site's wording, the single families
-$\mathcal F_k$, not the corrected Statement of
+$\mathcal F_k$, not the modified Statement of
 [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
-cumulative: under the corrected Statement a $3$-graph avoiding
+cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_k$ is linear, so the theorems say nothing
 against it at any $k$, and the page does not count toward the problem's
 standing. The problem page's Notes credit the result.

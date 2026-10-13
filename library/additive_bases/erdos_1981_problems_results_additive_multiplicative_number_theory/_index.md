@@ -140,7 +140,7 @@ questions; paged on [[additive_bases/erdos_1981_problems_results_additive_multip
 [[../wiki/problems/integer_sequences/E1102/_index|#1102]], the site's [Er81h]
 source: the definitions of properties P and Q (p. 179), with Erdős's remarks
 that he has no results on how fast such sequences must increase; the
-definition of Q is the evidence for the problem page's corrected Statement;
+definition of Q is the evidence for the problem page's modified Statement;
 paged on [[additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/definition_p179|definition_p179]].
 [[../wiki/problems/integer_sequences/E1103/_index|#1103]], the site's [Er81h]
 source: the question (p. 179) whether an infinite sequence with every

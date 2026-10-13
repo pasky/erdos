@@ -4,7 +4,7 @@ title: Bohman and Warnke's large girth approximate Steiner triple systems
 desc: |
   For every fixed girth bound $\ell$ there are partial Steiner triple systems on
   $n$ vertices with $(1-n^{-\beta})n^2/6$ triples and no $j$ vertices spanning
-  $j-2$ triples for $j\le\ell$. With linearity this settles the corrected
+  $j-2$ triples for $j\le\ell$. With linearity this settles the modified
   Statement, and it is refereed and credited by the site's curator.
 authors:
 - Tom Bohman
@@ -48,8 +48,8 @@ independently by Glock, Kühn, Lo and Osthus
 whose page states what the two results cover and do not cover.
 
 **Covers.** The theorem gives the lower bound $(1/6-o(1))n^2$ for the
-corrected Statement's family, and linearity gives the upper bound
-$\binom n2/3$, so the theorem settles the corrected Statement for every
+modified Statement's family, and linearity gives the upper bound
+$\binom n2/3$, so the theorem settles the modified Statement for every
 $k\ge5$. For the single family that the site's wording defines, the upper
 bound fails at every $k$ from $5$ to $10$
 ([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]],
@@ -65,11 +65,11 @@ Reviewed: the site's curator, Thomas Bloom, marked Problem 1076 proved. Bloom
 credits the asymptotic version to this paper [BoWa19] and to Glock, Kühn, Lo and
 Osthus [GKLO20]. Bloom reads the question as the approximate form of
 [[problems/set_systems/E0207/_index|Problem 207]], which is the reading the
-corrected Statement adopts (problem page last edited 7 October 2025). The card
+modified Statement adopts (problem page last edited 7 October 2025). The card
 records the theorem from the paper. Its proof is unreviewed.
 
 **Formalizations.** Collin Yuanjie Ren's Lean 4 submission, linked above,
-states and assembles the corrected Statement, deriving its lower bound from
+states and assembles the modified Statement, deriving its lower bound from
 the formalized theorem of Kwan, Sah, Sawhney and Simkin on
 [[problems/set_systems/E0207/_index|Problem 207]] rather than from this
 paper's argument, and credits these authors among its informal sources; the

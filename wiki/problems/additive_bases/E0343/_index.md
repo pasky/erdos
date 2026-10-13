@@ -37,7 +37,7 @@ $$
 
 contain an infinite arithmetic progression?
 
-**Statement (corrected).** Is there a constant $C$ such that if
+**Statement (modified).** Is there a constant $C$ such that if
 $A\subseteq \mathbb{N}$ is a multiset of integers such that
 
 $$
@@ -65,13 +65,13 @@ statement Szemerédi and Vu prove, which they state as Folkman's conjecture
 (Conjecture 6.1, proved as Theorem 6.3): there is a constant $C$ such that
 every infinite nondecreasing sequence of positive integers with $A(n)\ge Cn$
 for all sufficiently large $n$ is subcomplete, where $A(n)$ counts the terms
-at most $n$ with multiplicity. The corrected Statement is that form: it asks
+at most $n$ with multiplicity. The modified Statement is that form: it asks
 for the constant before $A$ and replaces "$\gg N$ for all $N$" by "$\ge CN$
 for all sufficiently large $N$". The two changes go together. With one
 constant required for every $N$ the question is trivial: $C\ge1$ gives
 $A(N)\ge N$ for every $N$, so $a_n\le n$ and $a_1=1$, and Brown's criterion
 then makes every natural number a finite subset sum. The answer under each
-reading: the corrected Statement is proved by Theorem 6.3, whose constant is
+reading: the modified Statement is proved by Theorem 6.3, whose constant is
 one absolute constant that the proof takes large (it needs $a_j\le j/C\le j/5$
 and a lemma that holds for $C$ sufficiently large); the question as Folkman
 and Erdős and Graham printed it, with a constant depending on $A$, is answered
@@ -83,13 +83,13 @@ commit of 2026-08-17; formal authors the AI systems Codex and GPT-5.6 Sol)
 proves that trivial form with $C=1$ by Brown's criterion and says so; it is
 credited here and counts for nothing. Collin Yuanjie Ren's submission
 `jsp-000285-cyr` (pinned commit of 2026-09-16), which the community database
-credits for the site's "(LEAN)" qualification, states the corrected Statement
+credits for the site's "(LEAN)" qualification, states the modified Statement
 as `erdos_343_eventual` with the explicit constant $C=512F^2$,
 $F=200000\cdot200^{49}$; this corpus has not built it, so it gives no
 `formalized` evidence. Unread: Section 6 of [ErGr80] beyond p. 54.
 
 **Status.** The site labeled the problem PROVED (LEAN) (page last edited
-2025-12-02), and the label describes the corrected Statement. The community
+2025-12-02), and the label describes the modified Statement. The community
 database has listed it as proved (Lean) since its commit of 2026-09-26. Folkman
 [Fo66] proved the case of counting function $\gg N^{1+\epsilon}$ and showed that
 $\gg N^{1-\epsilon}$ does not suffice. Szemerédi and Vu [SzVu06] later answered
@@ -118,11 +118,11 @@ systems Codex and GPT-5.6 Sol), which proves the universal-constant all-$N$
 reading with the constant $1$ by Brown's criterion and not Szemerédi and Vu's
 theorem, and Collin Yuanjie Ren's submission `jsp-000285-cyr`, which the
 community database credits for its proved (Lean) status and which states the
-corrected Statement with an explicit constant.
+modified Statement with an explicit constant.
 
 ## Current assessment
 
-**Proved under the corrected Statement.** Theorem 6.3 of Szemerédi and Vu, J.
+**Proved under the modified Statement.** Theorem 6.3 of Szemerédi and Vu, J.
 Amer. Math. Soc. 19 (2006), 119--169 (arXiv math/0507539 of 2005-07-26,
 published online 2005-09-13), proves that there is an absolute constant $C$
 such that every multiset $A$ with at least $CN$ terms up to $N$ for all
@@ -131,11 +131,11 @@ an infinite arithmetic progression; the claim page records the acceptance. The
 site's formulation above (page last edited 2025-12-02) asks, following
 Folkman, whether a multiset with $\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for
 all $N$ is subcomplete, and leaves the implied constant unquantified; the
-corrected Statement is the form Szemerédi and Vu prove. As Folkman and Erdős
+modified Statement is the form Szemerédi and Vu prove. As Folkman and Erdős
 and Graham printed it, with a constant depending on $A$, the question is open
 for constants below $C$ as far as the cited sources show.
 
-**Formulation.** The page's standing judges the corrected Statement, the form
+**Formulation.** The page's standing judges the modified Statement, the form
 Szemerédi and Vu prove. The poser's question, Folkman's as Erdős and Graham
 print it, reads the site's $\gg N$ as its source reads it: Erdős and Graham's
 [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|1980 monograph]]
@@ -154,7 +154,7 @@ instance of the question, because its counting function is not linear. The
 Szemerédi--Vu paper is not held in the library; its Theorem 6.3 is cited from
 the arXiv version, and neither proof is compiled or reviewed here.
 
-Szemerédi and Vu's reading, the corrected Statement: one absolute constant,
+Szemerédi and Vu's reading, the modified Statement: one absolute constant,
 large in the proof, with the counting bound required only for large $N$.
 Theorem 6.3 proves the statement in that reading; it settles Folkman's 1966
 question, whether $a_n\le Mn$ for all $n$ forces subcompleteness, only for

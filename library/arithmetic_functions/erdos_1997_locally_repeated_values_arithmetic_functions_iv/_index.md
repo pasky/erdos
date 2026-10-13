@@ -74,11 +74,11 @@ Source: <https://math.dartmouth.edu/~carlp/>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0122/_index|#122]]:
 for f = omega the problem asks, for every width F(x) tending to infinity with
-F(n)/omega(n) tending to 0 for almost all n (the corrected statement), that the
+F(n)/omega(n) tending to 0 for almost all n (the modified Statement), that the
 number of m with m + omega(m) in (x, x+F(x)), divided by F(x), tend to infinity
 along some sequence of x. Theorem 1 makes g(n) unbounded, so the open interval
 (n-1, n+1) of width 2 receives at least g(n) values of m + omega(m): clustering
-at a bounded width, which the corrected statement excludes. The paper treats no
+at a bounded width, which the modified Statement excludes. The paper treats no
 width tending to infinity and settles no case of the problem.
 
 **Read status.** Claims checked: Theorems 1-5, Lemma 1 and the definitions of

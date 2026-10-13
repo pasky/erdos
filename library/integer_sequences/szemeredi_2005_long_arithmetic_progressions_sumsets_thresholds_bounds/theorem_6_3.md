@@ -71,7 +71,7 @@ read is named on the
 
 - [[../wiki/problems/additive_bases/E0343/_index|Problem 343]]: Theorem 6.3
   states, for one constant $C$, the property asked for under the problem's
-  corrected Statement, a counting bound $A(n)\ge Cn$ for all sufficiently
+  modified Statement, a counting bound $A(n)\ge Cn$ for all sufficiently
   large $n$ on a sequence of positive integers with repetitions. The
   problem's
   [[../wiki/problems/additive_bases/E0343/claims/2005_07_26_szemeredi_vu|claim page]]

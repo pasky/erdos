@@ -53,7 +53,7 @@ copy the thread links.
 **Covers.** Pairs $(t,\alpha)$ of
 [[problems/additive_bases/E0349/_index|Problem 349]] with $1<\alpha<\varphi$
 in the sharpened infinite-area region and in the certified rectangles, for
-the corrected Statement, whose sums and index van Doorn's paper uses:
+the modified Statement, whose sums and index van Doorn's paper uses:
 completeness is proved on those pairs, so the claim's value is `proved`. It
 settles no pair outside them and does not bear on the conjectured completeness
 for all $t>0$ below the golden ratio.

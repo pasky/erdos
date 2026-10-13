@@ -39,7 +39,7 @@ $$
 
 for $r\geq 3$.
 
-**Statement (precise).** Given a simple random walk $s_0,s_1,\ldots$ in
+**Statement (modified).** Given a simple random walk $s_0,s_1,\ldots$ in
 $\mathbb{Z}^2$, starting at the origin, let $f_n(x)$ count the number of
 $0\leq k\leq n$ such that $s_k=x$.
 
@@ -77,7 +77,7 @@ Erdős and Révész's favorite-site question for simple symmetric random walk on
 $\mathbb{Z}$. The site credits both papers, each about simple random walk,
 with the answer. The correction does not rest on the texts in which Erdős and
 Révész raised the question (1984, 1987 and 1991, cited by both papers). No
-result about any other law is recorded. The standing judges this precise
+result about any other law is recorded. The standing judges this modified
 Statement.
 
 **Status.** Labeled solved on the site, which credits the value $0$ for $r\ge4$

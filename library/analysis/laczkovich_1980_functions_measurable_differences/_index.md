@@ -55,12 +55,12 @@ identity recorded on [[../wiki/problems/analysis/E0908/_index|Problem 908]].
 De Bruijn 1951 printed p. 195 and Mátrai 2003 printed pp. 1–2 corroborate
 this measurable formulation. Erdős 1982 printed p. 76 instead writes
 continuous $g$ and attributes a proof to Laczkovich. Problem 908 takes the
-measurable formulation as its corrected Statement, and Theorem 3 is not read
+measurable formulation as its modified Statement, and Theorem 3 is not read
 as proving the continuous-summand wording.
 
 **Bears on.** [[../wiki/problems/analysis/E0908/_index|#908]]:
 [[analysis/laczkovich_1980_functions_measurable_differences/theorem_3|Theorem 3]]
-answers the corrected Statement, with a measurable summand, in the
+answers the modified Statement, with a measurable summand, in the
 affirmative; it gives no continuous summand, the site's wording.
 
 **Results.** Page numbers are the printed ones (pp. 217--235).

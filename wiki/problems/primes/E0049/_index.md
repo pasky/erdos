@@ -28,7 +28,7 @@ $\phi(a_1)<\cdots<\phi(a_t)$. The primes are such an example. Are they the
 largest possible? Can one show that $\lvert A\rvert<(1+o(1))\pi(N)$ or even
 $\lvert A\rvert=o(N)$?
 
-**Statement (corrected).** Let $A=\{a_1<\cdots<a_t\}\subseteq \{1,\ldots,N\}$
+**Statement (modified).** Let $A=\{a_1<\cdots<a_t\}\subseteq \{1,\ldots,N\}$
 be such that $\phi(a_1)<\cdots<\phi(a_t)$. The primes are such an example. Can
 one show that $\lvert A\rvert<(1+o(1))\pi(N)$ or even $\lvert A\rvert=o(N)$?
 
@@ -64,7 +64,7 @@ page. Results about the site's wording, credited and never counted: the site's
 '(LEAN)' rests on Boris Alexeev's plby/lean-proofs file `Erdos49.lean` (commit
 `1e0ec64f07933c62401e0053041e5bece2cbe325`, 2026-09-04), whose `erdos_49`
 states $M_<(N)=o(N)$ and whose `erdos_49_quantitative` states the weak bound
-with Tao's rate, neither built here. The page's standing judges the corrected Statement.
+with Tao's rate, neither built here. The page's standing judges the modified Statement.
 
 **Formulation.** The site's wording also asks "Are they the largest possible?",
 that is, whether the largest size $M_{<}(N)$ of a strict example in
@@ -80,7 +80,7 @@ $\phi(a_1)\le\cdots\le\phi(a_t)$: the weak maximum satisfies
 $M_{\le}(x)\ge\pi(x)+64$ for every $x\ge31957$ (see Further results). No claim
 page records the conjecture.
 
-**Status.** PROVED (LEAN), the site's label, which describes the corrected
+**Status.** PROVED (LEAN), the site's label, which describes the modified
 Statement. The site credits Tao [Ta24d].
 [[problems/primes/E0049/claims/2023_09_05_tao|Tao's theorem]], an accepted full
 claim, answers both clauses of that Statement: it gives

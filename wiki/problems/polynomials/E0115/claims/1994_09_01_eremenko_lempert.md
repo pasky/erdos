@@ -43,7 +43,7 @@ polynomials*, Proc. Amer. Math. Soc. 122 (1994), no. 1, 191–193, stated there
 for $\lvert p(0)\rvert=1$ and the derivative at $0$ and transferred to every
 point of $E_p$ by translation; the card
 [[../library/polynomials/eremenko_1994_extremal_problem_polynomials/_index|Eremenko and Lempert 1994]]
-records the statement and its sharpness. It proves the corrected Statement
+records the statement and its sharpness. It proves the modified Statement
 of [[problems/polynomials/E0115/_index|Problem 115]], which takes $p$ monic as
 Erdős's own statement does [Er61, p. 246], and identifies the Chebyshev
 polynomials as the extreme examples, which Erdős had suggested. The site's
@@ -82,6 +82,6 @@ printed axiom line lists `propext`, `Classical.choice` and `Quot.sound`. The
 formal-conjectures statement of the problem (monic $p$, the bound
 $(\tfrac12+\varepsilon)n^2$ for all large $n$) is marked solved with a link
 to this file. This corpus has not built the development or audited its
-statement against the corrected Statement, so the evidence lists no
+statement against the modified Statement, so the evidence lists no
 `formalized` kind; the standing rests on the refereeing and the site's
 acceptance.

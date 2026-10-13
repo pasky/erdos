@@ -46,7 +46,7 @@ $$
 then $G(A)$ must contain a complete $(1,\ell,\ell)$ triparite graph on $2\ell+1$
 vertices?
 
-**Statement (corrected).** For $A\subseteq \{1,\ldots,n\}$ let $G(A)$ be the
+**Statement (modified).** For $A\subseteq \{1,\ldots,n\}$ let $G(A)$ be the
 graph with vertex set $A$, where two integers are joined by an edge if they are
 coprime.
 
@@ -70,7 +70,7 @@ vertices?
 **Notes.** The site's wording of the first question carries no largeness
 quantifier. On the problem's proof-claims thread (29 July 2026) the site's
 curator wrote that the question was meant for sufficiently large $n$, with the
-small cases a subsidiary problem, and the corrected Statement follows that
+small cases a subsidiary problem, and the modified Statement follows that
 reading. What Erdős printed in [Er98], the site's source for the question, is
 not recorded: the paper is not held, so its wording, its page and whether it
 carries a largeness quantifier have not been read. The question refines Theorem
