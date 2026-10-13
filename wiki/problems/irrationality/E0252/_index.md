@@ -128,15 +128,17 @@ both to Mathlib's `ArithmeticFunction.sigma`, `Nat.factorial`, `tsum` and
 `Irrational`. The local build, `--trust=0` axiom audit, `leanchecker --fresh`
 kernel replay and the fidelity review are recorded on the source card. The
 author registered the development on the Palomar registry on 12 October 2026
-as PALOMAR-2026-10-12-000001, at a commit of 10 October 2026 that ports it to
-Lean v4.35.0-rc2 with the statement of `Erdos252.erdos_252` unchanged; the
-registry's kernels accepted it on the three standard axioms, and this corpus has
-not built that commit. Conjectures.io, a bounty site that poses the
-formal-conjectures statement as a target, kernel-verified on 16 September 2026
-a submission that its review found adapted from this development and rejected
-as already formalized elsewhere, and on 6 October 2026 retired the target as
-solved externally, citing that submission and the reviewed commit, without
-rebuilding the proof. The registration and both decisions are recorded on the
+as PALOMAR-2026-10-12-000001, at a commit of 10 October 2026. The commits up
+to it port the development to Lean v4.35.0-rc2 with the statement of
+`Erdos252.erdos_252` unchanged, and the registered commit itself changes only
+metadata and documentation. The registry's kernels accepted it on the three
+standard axioms, and this corpus has not built that commit. Conjectures.io, a
+bounty site that poses the formal-conjectures statement as a target,
+kernel-verified on 16 September 2026 a submission that its review found
+adapted from this development and rejected as already formalized elsewhere,
+and on 6 October 2026 retired the target as solved externally, citing that
+submission and the reviewed commit, without rebuilding the proof. The
+registration and both decisions are recorded on the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]]. No
 native L-claim, native Lean coverage or numerical tier is assigned.
 
@@ -217,11 +219,11 @@ of 2026-09-13, the pin of the claim page's first `formalization` link, is
 reviewed; the author's notes say further "compression" passes are possible,
 and any later commit is unreviewed, including the commit of 10 October 2026
 registered on the Palomar registry, whose statement is unchanged. No native
-L-claim, native Lean coverage, numerical tier or local prose proof coverage
-is assigned: the development lies outside
-`lean/Erdos/`, and the argument's structure under Progress is this
-compilation's reading of the Lean source, not a reviewed source-proof
-reconstruction. Novelty of the argument was not investigated.
+L-claim, native Lean coverage, numerical tier or local prose proof coverage is
+assigned: the development lies outside `lean/Erdos/`, and the argument's
+structure under Progress is this compilation's reading of the Lean source, not a
+reviewed source-proof reconstruction. Novelty of the argument was not
+investigated.
 
 **Dated search scope (2026-09-17).** Checked: the site's problem page,
 discussion thread (three comments, 2025-09-05 to 2026-04-14, none about the

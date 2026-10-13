@@ -49,13 +49,13 @@ arXiv preprint of July 2026, whose second version, of October 2026, simplifies
 the proof and keeps the theorem. The first version's acknowledgment declares
 extensive assistance from GPT-5.5 Pro, and the second's says that GPT-5.5 Pro
 carried out the Fourier analysis that completes the argument. The preprint has
-no journal record, and its author states that no journal submission is planned.
-Korsky's bound settles no instance of the question, so it has no claim page. A
-construction shows that no bound better than $\exp(-(1+o(1))K\log K)$ holds for
-all multisets (the site's thread; display (1.4) of the preprint's first
-version). The conjectured exponential rate is open. No proof,
-disproof or proof claim for it was found in the search whose scope the Current
-assessment records. This is a bounded negative finding.
+no journal record, and its author stated in the thread on 9 July 2026 that no
+journal submission was planned. Korsky's bound settles no instance of the
+question, so it has no claim page. A construction shows that no bound better
+than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the site's thread;
+display (1.4) of the preprint's first version). The conjectured exponential rate
+is open. No proof, disproof or proof claim for it was found in the search whose
+scope the Current assessment records. This is a bounded negative finding.
 
 **Source.** [erdosproblems.com/312](https://www.erdosproblems.com/312),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's
@@ -154,14 +154,15 @@ sparse-activation local-limit estimate that such a $C$ has reciprocal mass
 $R(C)\ll(\log N)^2/\log\log N$; since $R(C)>K-1$, this gives
 $\log N\gg\sqrt{K\log K}$. The v2 of 8 October 2026 (10 pages) keeps the
 compression, with the forbidden interval $(1-N^{-1},1)$, and replaces the
-activation package, its appendices and the rough-number sieve by one
+activation package (v1's Proposition 3.1, proved in its Appendix A) by one
 estimate for a group of denominators whose ratios $m_n/n$ lie within a factor
 $4$ (Lemma 2, p. 3). Its bound depends on the largest number of the
 group's denominators that divide a single integer at most $N^3$, and Section
 5 proves it with a random subsum: near frequency zero its characteristic
 function is compared with a normal one, and at larger frequencies that
 divisor count bounds it. Elementary divisor counts for primes and composites
-(Section 4) then give the same $R(C)\ll x^2/\log x$ with $x=\log N$. The v2
+(Section 4), which replace v1's Appendix B with its rough-number sieve, then
+give the same $R(C)\ll x^2/\log x$ with $x=\log N$. The v2
 omits the barrier display (1.4) and the citation of the site's page. The
 theorem and its proof's conclusion are unchanged, so v2 changes nothing this
 page records about the problem's standing. Read depth: in v1, claims checked
@@ -178,10 +179,11 @@ Fourier argument, formulated the compression and the random-sum
 construction, that GPT-5.5 Pro carried out the Fourier analysis needed to
 complete the argument, and that the author reviewed, modified and verified
 the arguments and takes full responsibility. The thread disputes the paper's
-provenance and crediting as described above, and the author states that it
-will not be submitted to a journal. The site's page does not cite it. It is
-recorded on this page as the best bound found, with that provenance, and its
-correctness is neither confirmed nor doubted on this page.
+provenance and crediting as described above, and the author stated there on
+9 July 2026 that there were no plans to send it to a journal. The site's page
+does not cite it. It is recorded on this page as the best bound found, with
+that provenance, and its correctness is neither confirmed nor doubted on this
+page.
 
 **The barrier.** Let $A_z$ contain $p-1$ copies of $1/p$ for every prime
 $p\le z$ (Kovač, 18 August 2025; display (1.4) of Korsky's v1, which v2

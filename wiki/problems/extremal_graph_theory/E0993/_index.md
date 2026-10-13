@@ -39,8 +39,8 @@ with Vallier and a Lean development. Its first arXiv submission was withdrawn
 before announcement, and the revision was posted on arXiv on 6 October 2026. A
 later version, 2.15, deposited with restricted access on 10 October 2026, has a
 Lean formalization that uses no compiler axioms, registered on the Palomar
-registry on 11 October 2026 and not built here.
-Fang, Lu, Nevo, Yao and Zheng's arXiv preprint, on
+registry on 11 October 2026 and not built here. Fang, Lu, Nevo, Yao and Zheng's
+arXiv preprint, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|its claim page]],
 claims to prove it for all forests on at least $N_0$ vertices, for an uncomputed
 $N_0$, with a Lean development.

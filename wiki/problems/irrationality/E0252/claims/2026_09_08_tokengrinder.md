@@ -153,22 +153,21 @@ evidence remains the build and review of the pinned commit.
 
 No `reviewed` or `refereed` evidence exists. The site labeled the problem open
 (page last edited 2026-01-22) and listed the author's entry under its
-disclaimer. The community database and formal-conjectures list it open, with
-the issue unanswered. At the revision of 2026-10-06 linked as the first
-`record`, the formal-conjectures statement `erdos_252` is tagged research open
-and proved by `sorry`. The bounty site Conjectures.io holds two decisions on
-that statement. Its
+disclaimer. On 2026-10-13 the community database and formal-conjectures listed
+it open, with the issue unanswered. At the revision of 2026-10-06 linked as the
+first `record`, the formal-conjectures statement `erdos_252` is tagged research
+open and proved by `sorry`. The bounty site Conjectures.io holds two decisions
+on that statement. Its
 [result 71c87792](https://conjectures.io/results/71c87792-e08f-413c-9b7a-3b61e577eed6),
 a Lean proof of the statement submitted by a pseudonymous account, was
 accepted by its Lean kernel on 16 September 2026 and rejected by its review the
 same day as already formalized elsewhere (PRIOR_EXTERNAL_FORMALIZATION): the
 review found that the submission adapts this development at the pinned commit,
 which it credits, with changes to imports, namespaces and wrappers and one
-added algebraic step; two model assessments agreed, and no fresh Lean replay
-was run.
-On 6 October 2026 Conjectures.io retired the statement from its pool as solved
-externally (SOLVED_EXTERNALLY), citing that result and this repository at the
-pinned commit; its
+added algebraic step; two model assessments agreed, and no fresh Lean replay was
+run. On 6 October 2026 Conjectures.io retired the statement from its pool as
+solved externally (SOLVED_EXTERNALLY), citing that result and this repository at
+the pinned commit; its
 [retirement record](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md)
 says that it did not rebuild the proof. Both are a bounty site's eligibility
 decisions, made without a rebuild or a named reviewer; they acknowledge the

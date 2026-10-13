@@ -144,11 +144,10 @@ Problem #787, https://www.erdosproblems.com/787, accessed 2026-09-18.
   [[../library/additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/_index|beker_2025_erdos_moser_sum_free_set_problem]];
   result page
   [[../library/additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/theorem_1_2|Theorem 1.2]].
-- [Zh26] Zhi, Y., Branch-sensitive density increments for
-  $k$-configurations. arXiv:2610.03750v1 (25 September 2026; title page dated
-  6 October 2026; 20 pages), the only version. Theorem 1.1, p. 3; Theorem
-  1.3, p. 3; the proof of Theorem 1.3, pp. 16--17. Not a key of the site's
-  page; not held.
+- [Zh26] Zhi, Y., Branch-sensitive density increments for $k$-configurations.
+  arXiv:2610.03750v1 (25 September 2026; 20 pages), the only version. Theorem
+  1.1, p. 3; Theorem 1.3, p. 3; the proof of Theorem 1.3, pp. 16--17. Not a key
+  of the site's page; not held.
 
 **Formalization.** None in formal-conjectures:
 google-deepmind/formal-conjectures had no file `ErdosProblems/787.lean` on
@@ -299,8 +298,8 @@ subpolynomially in $n$"). This is the site's upper bound; its proof is not
 independently reviewed.
 
 **Search scope.** None of the routes below found an improvement of either
-bound beyond the range of exponents of [Zh26], a proof claim, or a refereed
-version of [Be25].
+bound beyond the range of exponents of [Zh26], a proof claim, or a journal
+publication of [Be25].
 
 - The site: problem page, discussion thread and proof-claim tab as of
   2026-09-18; the formal-conjectures directory listing (no file); the
@@ -343,7 +342,13 @@ is first-hand: [Ru05] has a library card, and its Theorem is stated from printed
 p. 77. (3) No proof is independently reviewed in this corpus. (4) [Be25] is
 accepted by Int. Math. Res. Not. (arXiv v2, 2 October 2026); its status does
 not affect the field. (5) The range $c<1/36$ rests on [Zh26], an unrefereed
-preprint that builds on the argument of [Be25] as stated in v1.
+preprint that builds on the argument of [Be25]. It uses only parts of that
+argument that v2 leaves unchanged: its graph-counting step stops before the
+step of Beker's Lemma 2.2 that v2 corrects, and replaces it with its own
+Lemmas 2.3 and 2.4, which are not reviewed here. It also applies Beker's
+Proposition 4.2 to sets smaller than that proposition assumes, without
+comment
+([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

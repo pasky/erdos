@@ -108,20 +108,19 @@ the rate $O(n/\log n)$, all stated to be formalized in Lean, and its revised
 arXiv version (October 2026), which bridges the degrees between the sparse
 ones by logarithmic integrability instead and derives the answer from a
 tail bound at each fixed degree, proved through the argument principle,
-with the rate $O(n^{3/4}\sqrt{\log n})$; and Kitamura's
-Lean development (September 2026, AI-assisted), with an AI-generated proof
-outline in its README and no manuscript, which proves the catalog's
-statements for both coefficient readings and so also settles the $\{0,1\}$
-reading. The fifth is a Lean development credited to Colin Snyder of Star
-Fleet Math, hosted in the lean-proofs repository on 2026-07-23 with no
-write-up and announced nowhere on the site, whose final theorem is derived
-from a moment bound for radial cosine sums and whose route this wiki does not
-trace beyond its section names. Letwin announced on the thread in April 2026
-a more general paper that would imply the problem, and mentioned a separate
-paper of Michelen and Yakir; neither has appeared. No claim has been checked
-by a named reader on the thread beyond the aborted check of Chojecki's first
-note, no refereed version exists, and this wiki has not checked any of the
-proofs.
+with the rate $O(n^{3/4}\sqrt{\log n})$; and Kitamura's Lean development
+(September 2026, AI-assisted), with an AI-generated proof outline in its README
+and no manuscript, which proves the catalog's statements for both coefficient
+readings and so also settles the $\{0,1\}$ reading. The fifth is a Lean
+development credited to Colin Snyder of Star Fleet Math, hosted in the
+lean-proofs repository on 2026-07-23 with no write-up and announced nowhere on
+the site, whose final theorem is derived from a moment bound for radial cosine
+sums and whose route this wiki does not trace beyond its section names. Letwin
+announced on the thread in April 2026 a more general paper that would imply the
+problem, and mentioned a separate paper of Michelen and Yakir; neither has
+appeared. No claim has been checked by a named reader on the thread beyond the
+aborted check of Chojecki's first note, no refereed version exists, and this
+wiki has not checked any of the proofs.
 
 Search scope: the site's problem page as exported (last edited 06 December
 2025), its discussion thread (25 comments) and proof-claims tab (both read
@@ -152,9 +151,10 @@ searched and X was not used.
   the radial law $\nu_n(1+x/n)/n\to\frac12(1+\coth x-1/x)$ uniformly on
   compact sets, the rate $O(n/\log n)$, and the same laws for Steinhaus,
   Gaussian and bounded symmetric coefficients, formalized in Lean; its
-  revised arXiv version gives the law with the rate
-  $O(n^{-1/34}(\log n)^{7/2})$ on compact sets and uniformly on the line,
-  and the rate $O(n^{3/4}\sqrt{\log n})$ at $x=0$ for signs) and
+  revised arXiv version gives the law with the rate $O(n^{-1/34}(\log n)^{7/2})$
+  on each interval $\lvert x\rvert\le A$, the constant depending on $A$, uniform
+  convergence on the whole line with no rate, and
+  $\nu_n(1)=n/2+O(n^{3/4}\sqrt{\log n})$ for signs) and
   [[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] (a
   Lean proof, which also proves the $\{0,1\}$ reading).
 - Earlier postings: the site's remarks and the thread record no other

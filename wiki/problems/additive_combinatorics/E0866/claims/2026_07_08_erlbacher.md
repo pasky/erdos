@@ -93,7 +93,7 @@ release's $h_4$ theorem, not its $g_5$ bound, was carried further in van
 Doorn and Erlbacher's arXiv preprint 2609.39314v1 of 30 September 2026,
 which proves $h_4(n)=4$ for every $n\ge6$ and whose Section 2 traces its
 proof to a Lean proof by Claude of $h_4(n)=4$ for $n\ge331{,}777$, this
-release's Theorem 1.1. The preprint does not restate the $g_5$ bound, so it
+release's Theorem 1.3. The preprint does not restate the $g_5$ bound, so it
 is not a posting of this claim;
 [[problems/additive_combinatorics/E0866/_index|the problem page]] records
 it.

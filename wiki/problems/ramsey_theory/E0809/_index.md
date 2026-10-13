@@ -139,8 +139,9 @@ comparator challenge file at the pinned commit, so no fingerprint comparison was
 made. Shahab registered a later commit, of 7 October 2026, on the Palomar
 registry on 9 October 2026 as `PALOMAR-2026-10-09-000006` (theorem
 `Erdos809Palomar.main_result`, trust level high, automated review outcome
-neutral). That commit ports the development to Lean `v4.35.0-rc2` and adds a
-comparator challenge. The statement of `Erdos809.erdos_809` and the definitions
+neutral). The commits up to it port the development to Lean `v4.35.0-rc2` and
+add a comparator challenge; the registered commit itself changes only metadata
+and documentation. The statement of `Erdos809.erdos_809` and the definitions
 its type reaches are unchanged in it apart from module headers, and the
 registered theorem is `Erdos809.erdos_809` written out in Mathlib's terms. The
 registry's kernels accepted it, and this corpus has not built that commit. The

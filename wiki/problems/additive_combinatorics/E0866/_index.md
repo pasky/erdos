@@ -45,14 +45,13 @@ for the site's function (one $b_i$ may be non-positive) and $h_k(n)$ for
 the variant with $k$ distinct positive integers, with
 $g_k(n)\le h_k(n)\le g_{k+1}(n)$; the 1975 paper's $t_k$ is the site's
 $g_k(N)$ in intent but its lower-bound examples for $k=3$ and $k=5$ hold
-only for $h_k$ (below). For $k=4$ the two differ by one: $g_4(N)=3$ for
-$N\ge2$ ([vD26], Theorem 3) and $h_4(N)=4$ for $N\ge6$ ([vDE26], Theorem
-3.2). The odd numbers show $g_k(N)\ge0$. Erdős's
-restatements use other normalizations: [Er92c], p. 41, defines $g_k(n)$
-for sets "not exceeding $n$" but prints the 1975 values for sets in
-$[1,2n]$ ("$g_3(n)=n+2$, $g_4(n)=n+c$"), and [Er72], p. 83, writes the
-thresholds as $k>\tfrac n2+\cdots$ for sets in $[1,n]$; the site's
-normalization is the 1975 paper's. The site's source keys are [CES75]
+only for $h_k$ (below). For $k=4$ the two differ by one: $g_4(N)=3$ for $N\ge2$
+([vD26], Theorem 3) and $h_4(N)=4$ for $N\ge6$ ([vDE26], Theorem 3.2). The odd
+numbers show $g_k(N)\ge0$. Erdős's restatements use other normalizations:
+[Er92c], p. 41, defines $g_k(n)$ for sets "not exceeding $n$" but prints the
+1975 values for sets in $[1,2n]$ ("$g_3(n)=n+2$, $g_4(n)=n+c$"), and [Er72],
+p. 83, writes the thresholds as $k>\tfrac n2+\cdots$ for sets in $[1,n]$; the
+site's normalization is the 1975 paper's. The site's source keys are [CES75]
 and [Er92c, p. 41].
 
 **Status.** Open. The site's label was OPEN (page last edited 1 December 2025;
@@ -316,7 +315,7 @@ $g_5(n)\ge4$, which [vD26], Theorem 5, gives for $n\ge3$. So it has no
 claim page; under a reading with positive $b_i$ it would settle $k=4$.
 Section 2 declares the AI usage: Claude built on Aristotle's formalization
 of [vD26] and proved $h_4(n)=4$ for $n\ge331{,}777$, the release's Theorem
-1.1 recorded on
+1.3 recorded on
 [[problems/additive_combinatorics/E0866/claims/2026_07_08_erlbacher|Erlbacher's claim page]];
 Aristotle then lowered the threshold to $n\ge62$ without further human
 input, the remaining values were checked by brute force, and the authors
@@ -325,11 +324,13 @@ wrote the final text. The Lean file,
 in the repository Woett/Lean-files, pinned at its last change of 30
 September 2026, states $h_4(n)=4$ for $n\ge6$ as its theorem `main`, under
 its own definition of $h_k$, with a general argument for $n\ge109$ and a
-finite check of $6\le n\le108$ in place of the paper's split at $3000$. It
-has no `sorry` and no `native_decide`, records no `#print axioms` output,
-and has not been built by the corpus. Read depth: the whole text, with the
-proofs of Lemma 4.1 and the five cases read through; nothing independently
-checked. Acceptance evidence: none; the paper is unrefereed.
+finite check of $6\le n\le108$ in place of the paper's split at $3000$. It has
+no `sorry` and no `native_decide`: its finite check runs through
+`decide +kernel`, which the Lean kernel evaluates, and it runs
+`#print axioms main`, whose output the corpus has not seen, since it has not
+built the file. Read depth: the whole text, with the proofs of Lemma 4.1 and
+the five cases read through; nothing independently checked. Acceptance
+evidence: none; the paper is unrefereed.
 
 **Search scope.** None of the routes below found a journal version of
 [vD26] or [vDE26], a determination of $g_5$, of the constants for $k=6$ or
