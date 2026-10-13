@@ -60,15 +60,15 @@ or accepted something; the date a Lean clean check or carry-forward check ran; a
 snapshot of an outside source that can change and that the page relies on, such
 as the site's page as the Source line accessed it ("accessed 2026-09-04"), a
 forum thread, a registry, a live page ("page last edited 2026-04-06") or a
-repository ("its commit of 2026-09-15"), and the license reading for a file the
-release holds; and an outside event in the history of a problem or a source,
-such as a publication, posting, submission, revision or catalog decision, with
-the dates a claim page's name and a link's `date` carry. A filed review whose
-subject has since changed may say so on the owning page, without a date. When an
-as-of date is removed, an observation that held only on that date ("the
-repository had no statement file on 2026-09-27") is dropped or kept as a dated
-observation of the outside source, never restated in the present tense as if it
-still holds.
+repository ("its commit of 2026-09-15"), and the reading of a license page,
+whether or not the release holds the file; and an outside event in the history
+of a problem or a source, such as a publication, posting, submission, revision
+or catalog decision, with the dates a claim page's name and a link's `date`
+carry. A filed review whose subject has since changed may say so on the owning
+page, without a date. When an as-of date is removed, an observation that held
+only on that date ("the repository had no statement file on 2026-09-27") is
+dropped or kept as a dated observation of the outside source, never restated in
+the present tense as if it still holds.
 
 Understand material before importing it: identify its statement, scope,
 dependencies, and warranted standing, and run available executable checks.
