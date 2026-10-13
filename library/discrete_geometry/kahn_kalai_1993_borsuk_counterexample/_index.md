@@ -118,8 +118,7 @@ review](evidence/verify/composition_review.md) retain the reports. The
 Frankl--Wilson theorem, Stirling's formula, and the prime number theorem remain
 external. The Remark 1 companion supplies the finite-dimension reconstruction; a
 separate review of it is reported, but its report is not retained in this
-repository. Since the reviews, the frontmatter description of the Problem 505
-page was reworded; it touches no examined statement, proof, code or input.
+repository.
 
 ## Bears on
 

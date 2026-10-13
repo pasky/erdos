@@ -67,9 +67,7 @@ review]] and
 audit]]. The review records are kept under the source's
 [[../library/analysis/yip_2025_problem_erdos_ingham/evidence/verify/_index|verification
 records]]. Erdős--Ingham's external Tauberian proof is contextual here and is not
-reconstructed in the corpus. Since the review, this page's frontmatter
-description, its Status paragraph and the sentence on the arXiv record below
-were reworded; it touches no examined statement, proof, code or input.
+reconstructed in the corpus.
 
 The arXiv record lists only v1 and no journal reference; this
 does not establish peer-review acceptance. The site's thread carries no further

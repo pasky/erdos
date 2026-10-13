@@ -87,9 +87,7 @@ the Lemma 3.2, Theorem 3.1, Theorem 3.3, Lemma 4.1 and Lemma 5.1 pages differs
 from the reviewed text at the places the grade names; the Theorem 1.2 page is
 the reviewed text. No tier is assigned and the problem's status is unchanged.
 Since the review, line wrapping was normalized on the reconstruction pages,
-changing no formula or sentence, and the Lemma 5.1 page's sentence on the
-corpus check of the reversed pair was reworded; it touches no examined
-statement, proof, code or input.
+changing no formula or sentence.
 
 **Which clause is settled.** [[problems/primes/E0049/_index|Problem 49]] asks,
 for $A\subseteq\{1,\ldots,N\}$ with strictly increasing totients, (i)

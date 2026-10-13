@@ -138,8 +138,7 @@ separate from the standing:
   exact transfer to the union formulation here, relative to three declared
   external inputs; the review is retained with the source as the
   [[../library/discrete_geometry/kahn_kalai_1993_borsuk_counterexample/evidence/verify/theorem_1_review|Theorem
-  1 review]]. Since the review, this page's frontmatter description was
-  reworded; it touches no examined statement, proof, code or input.
+  1 review]].
 - [[../library/discrete_geometry/kahn_kalai_1993_borsuk_counterexample/remark_1]]:
   statement of both published finite-dimension assertions.
 - [[../library/discrete_geometry/jenrich_brouwer_2014_borsuk_counterexample/theorem_1]]:
