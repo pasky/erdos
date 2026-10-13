@@ -61,16 +61,17 @@ audit line reports 0 compiler axioms.
 
 ## What the gate supports
 
-The card's tier-2 standing rests on the second-cycle statement-fidelity review
-and distinct grade of 2026-10-02, filed in the folder `statement_fidelity_2/`
-beside this one, and on this gate. The review and the grade examined the default
-branch's tree as it stood on 2026-10-02; `scripts/claim_carry_forward.py` found
-on 2026-10-08 that the claim's statement is unchanged in meaning from that tree
-to the tree this gate checked, clause (b) of the carry-forward rule
-(`docs/verification.md` "Exact subjects and durable evidence") holding on both
-legs. A clean gate checks the committed environment independently; it does not
-replace the statement-fidelity review and awards no standing by itself. The
-receipt asserts no tier.
+This gate supports the card's tier-2 standing for the tree it checked, with
+the second-cycle statement-fidelity review and distinct grade of 2026-10-02,
+filed in the folder `statement_fidelity_2/` beside this one; the standing on
+the Lean v4.34.1 tree rests on the clean gate filed in `clean_gate_2/`. The
+review and the grade examined the default branch's tree as it stood on
+2026-10-02; `scripts/claim_carry_forward.py` found on 2026-10-08 that the
+claim's statement is unchanged in meaning from that tree to the tree this gate
+checked, clause (b) of the carry-forward rule (`docs/verification.md` "Exact
+subjects and durable evidence") holding on both legs. A clean gate checks the
+committed environment independently; it does not replace the statement-fidelity
+review and awards no standing by itself. The receipt asserts no tier.
 
 Roles. Clean gate: a non-author clean-gate runner in a fresh context, who
 authored no native mathematics or audit logic, as the receipt's role block
