@@ -512,7 +512,8 @@ $p>2$ has a primitive root modulo $p$ that is a prime $q<p$. The site's wording
 also includes $p=2$, where it fails.
 
 [[problems/integer_sequences/E1057/_index|E1057/]]: Asks whether the number
-$C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$.
+$C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$. A Lean proof
+submitted to a bounty site in October 2026 claims the answer yes.
 
 [[problems/integer_sequences/E1062/_index|E1062/]]: Asks for the size $f(n)$ of
 the largest subset of $\{1,\ldots,n\}$ in which no element divides two other

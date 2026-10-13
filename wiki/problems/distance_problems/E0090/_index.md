@@ -10,14 +10,14 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 90
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E0090/claims/_index|claims/]]: The 5 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
+[[problems/distance_problems/E0090/claims/_index|claims/]]: The 6 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -91,7 +91,8 @@ companion proof by
 [[problems/distance_problems/E0090/claims/2026_05_20_alon_bloom_gowers_litt_sawin_shankar_tsimerman_wang_wood|Alon and coauthors]],
 the explicit construction of
 [[problems/distance_problems/E0090/claims/2026_05_20_sawin|Sawin]],
-[[problems/distance_problems/E0090/claims/2026_06_02_emmerich|Emmerich's re-optimized certificate]]
+[[problems/distance_problems/E0090/claims/2026_06_02_emmerich|Emmerich's re-optimized certificate]],
+[[problems/distance_problems/E0090/claims/2026_10_08_naslund|Naslund's computer-assisted exponent $1.043171$]]
 and the
 [[problems/distance_problems/E0090/claims/2026_05_26_anon|anonymous norm-one-tori manuscript]]
 are pending claims of the same disproof with no documented acceptance of their
@@ -136,6 +137,22 @@ original branch and its exact E90 transfer have an independent review at the
 limits stated on its result pages, retained as the
 [[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/evidence/verify/full_review|full review]];
 the companion chain is author-recorded.
+
+The largest exponent claimed is $1.043171$, by Theorem 1.1 of Naslund's *An
+Exponent of 1.043 for the Unit Distance Problem* (8 October 2026), recorded on
+[[problems/distance_problems/E0090/claims/2026_10_08_naslund|Naslund's claim page]]:
+finite planar sets $U_j$ with $|U_j|\to\infty$ and
+$u(U_j)/|U_j|^{1.043171}\to\infty$. Its fields come from a pro-$2$ tower over
+$\mathbb Q(\sqrt{241})$ with quadratic extensions $K/F$ in which $F$ has both
+real and complex places. The proof uses no unproved hypothesis but is
+computer-assisted, through a census of primes, rigorous enclosures of 576
+$L$-values and an interval-arithmetic margin, and it has had only automated
+reviews. A Lean development registered with the Palomar registry proves the
+exponent $1.04315$ conditionally on one numerical inequality for the Dedekind
+zeta function of a field of degree $8192$, which is not proved in Lean. The
+paper's Table 1 lists the exponents claimed between Sawin's and its own, in
+preprints, online certificates and posts, the largest of them Naslund's
+unpublished $1.0358324$.
 
 The OpenAI report's statements about automated production, later
 AI-assisted verification and rewriting, external mathematician review, and
@@ -225,9 +242,10 @@ whose question it bears on, as an
 claim]] on the corpus's built Lean proof of the planar bound, and has no claim
 page here: this problem asks about an upper bound that the constructions above
 refute, and a weaker upper bound neither supports nor contradicts the
-disproof. It narrows the window between the exponents $1.014114$ and $4/3$
-from above by an unspecified amount. The release's companion manuscript *The
-weak pinned planar distance theorem*, carded at
+disproof. It narrows from above, by an unspecified amount, the window between
+the largest claimed lower exponent, Naslund's $1.043171$, and $4/3$. The
+release's companion manuscript *The weak pinned planar distance theorem*,
+carded at
 [[../library/distance_problems/openai_2026_weak_pinned_planar_distance_theorem/_index|openai_2026_weak_pinned_planar_distance_theorem]],
 concerns the distinct distances from a single point and bears on
 [[problems/distance_problems/E0604/_index|Problem 604]], not on this problem;

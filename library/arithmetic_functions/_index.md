@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-13T13:13:10Z
 ---
 
 # Arithmetic Functions
@@ -310,7 +310,8 @@ totient fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, derived by
 a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
 $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
 the manuscript derives from a transference theorem for weighted dilation
-graphs, a Type II estimate and a sieve; bears on Problem 821 and, as background,
+graphs, a Type II estimate and a sieve; bears on Problem 821, on Problem 824
+through a draft that reruns it with a change of sign, and, as background, on
 Problem 1057.
 
 [[arithmetic_functions/pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/_index|pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/]]: Proves large sieve inequalities for exceptional Maass forms with

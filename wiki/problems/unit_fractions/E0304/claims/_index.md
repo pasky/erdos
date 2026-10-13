@@ -1,10 +1,10 @@
 ---
 name: problems/unit_fractions/E0304/claims
-desc: The 5 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # problems/unit_fractions/E0304/claims
@@ -32,5 +32,10 @@ where $c_0=14/\log2$.
 every $a/b$ with $1\le a<b$ is a sum of at most $c\log\log b$ distinct unit
 fractions. It is accepted on the Lean declarations that the corpus's
 verification built and audited.
+
+[[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|2026_10_09_van_doorn]]: Wouter van Doorn's six-page write-up of 9 October 2026 simplifies an
+argument of the OpenAI release, with help from ChatGPT. It proves that every
+$a/b\in(0,1)$ is a sum of at most $(16/\log2+o(1))\log\log b$ distinct unit
+fractions. It is unrefereed and pending.
 
 ***

@@ -4,19 +4,22 @@ title: Problem 1158
 desc: |
   Asks whether Erdős's 1964 upper exponent for the Turán number of $K_t(r)$, the
   complete $t$-partite $t$-uniform hypergraph with $r$ vertices per class, is
-  attained up to $o(1)$. It is known only for $t=2$ and $r\le3$.
+  attained up to $o(1)$. It is known for $t=2$ and $r\le3$, and a 2026 preprint
+  claims the case $t=3$, $r=2$.
 tags:
 - Hypergraphs
 - Turán numbers
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # Problem 1158
 
 [[problems/extremal_graph_theory/_index|..]]
+
+[[problems/extremal_graph_theory/E1158/claims/_index|claims/]]: The 1 claim page of Problem 1158, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -86,7 +89,8 @@ factor for fixed $t$, so the exponent questions agree (an observation made
 here). The literature calls the balanced case $r=2$ the Erdős box problem.
 
 **Status.** Open. The site records the exponent as known only for $t=2$ and
-$2\le r\le3$, and every source on this page agrees. For graphs ($t=2$), the
+$2\le r\le3$. Every source on this page agrees, except a 2026 preprint that
+claims the case $(t,r)=(3,2)$ (below). For graphs ($t=2$), the
 Kővári--Sós--Turán exponent $2-1/r$ is attained for $r=2$ and $r=3$. This is the
 subject of [[problems/extremal_graph_theory/E0714/_index|Problem 714]]. These
 results settle the instances $(t,r)=(2,2)$ and $(2,3)$ of the statement in the
@@ -94,30 +98,37 @@ affirmative. They are the refereed results recorded as accepted partial claims
 of Problem 714:
 [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown 1966]] for
 $r=3$ and $r=2$, and
-[[problems/extremal_graph_theory/E0714/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós 1966]]
+[[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós 1966]]
 and
 [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán 1954]]
 for $r=2$. They have no claim page here, because the site routes the case $t=2$
 to Problem 714 and credits no source for it on this page. As partial results,
 they leave this problem open.
 
-For $t\ge3$, no pair $(t,r)$ is known to attain the exponent $t-r^{1-t}$. The
+For $t\ge3$, the preprint [Me26] claims the first pair. Its Theorem 1.1 and
+Corollary 1.2 give, for every $q=2^m$, a box-free tripartite $3$-graph with
+$q^4$ vertices in each part and $q^{11}$ edges, so
+$\mathrm{ex}_3(n,K_3(2))=\Theta(n^{11/4})$ and the instance $(t,r)=(3,2)$ holds
+([[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|Menezes 2026]]).
+The preprint is unrefereed, and as a partial result it leaves the problem open.
+No other pair with $t\ge3$ is known to attain the exponent $t-r^{1-t}$. The
 best general lower bounds recorded here are for the box problem $r=2$. Corollary
 1 of [CPZ21]
 ([[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/corollary_1|result page]])
 gives $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$ for every
 $t\ge2$, from random multilinear maps. The asked exponent is $t-1/2^{t-1}$. The
 two agree only for $t=2$. For $t=3$ the bound is $n^{8/3}$, against the asked
-$n^{11/4}$. Theorem 3.2 of [Go23]
+$n^{11/4}$ that [Me26] claims to reach. Theorem 3.2 of [Go23]
 ([[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/theorem_3_2|result page]])
 gives an explicit construction with $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/t})$.
 This matches the Conlon--Pohoata--Zakharov exponent for $t\le4$. For unbalanced
 parts, the exponent $t-1/(s_1\cdots s_{t-1})$ is attained once the last part is
 large (leads below). This does not cover the balanced $K_t(r)$.
 
-No construction reaching $n^{t-r^{1-t}-o(1)}$ for any $t\ge3$, no disproof, and
-no proof claim was found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
+Apart from [Me26], no construction reaching $n^{t-r^{1-t}-o(1)}$ for any
+$t\ge3$, no disproof, and no proof claim was found in the search whose scope the
+Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/1158](https://www.erdosproblems.com/1158),
 accessed 2026-09-18: the problem page (OPEN, with
@@ -158,6 +169,12 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
 - [KKM02] Katz, N. H., Krop, E. and Maggioni, M., Remarks on the box
   problem. Math. Res. Lett. 9 (2002), 515--519. Quoted from
   [CPZ21] (p. 2) and [Go23] (p. 3) for $\mathrm{ex}_3(n,K_3(2))=\Omega(n^{8/3})$.
+- [Me26] Menezes, D., The three-dimensional Erdős box problem has exponent
+  $11/4$. arXiv:2609.22381v2 (7 October 2026, 5 pages; v1 18 September 2026,
+  7 pages); Theorem 1.1 and Corollary 1.2, p. 1; Theorem 2.1, p. 2;
+  Construction 3.1 and Lemma 3.2, p. 3; Corollary 4.1, p. 4. A preprint, not
+  cited by the site and not held in the library; its claim page is
+  [[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|2026_09_18_menezes]].
 - [PoZa21] Pohoata, C. and Zakharov, D., Norm hypergraphs. arXiv:2101.00715
   (3 January 2021; abstract accessed); [Mu26] Mubayi, D., Hypergraphs
   without complete partite subgraphs. arXiv:2507.06390 (v2 14 July 2025);
@@ -263,8 +280,8 @@ bounds, in the site's letters:
   evidence: Discrete Analysis 2021:17, refereed; the arXiv v2 is the
   journal typesetting; claims checked for the two statements, the proof not
   read. The gap to the question: $\lceil(2^t-1)/t\rceil<2^{t-1}$ for every
-  $t\ge3$ (an observation made here), so the asked exponent $t-2^{1-t}$ is
-  not reached for any $t\ge3$; for $t=3$ the bound is $n^{8/3}$ against the
+  $t\ge3$ (an observation made here), so this bound does not reach the asked
+  exponent $t-2^{1-t}$ for any $t\ge3$; for $t=3$ it is $n^{8/3}$ against the
   asked $n^{11/4}$.
 - [[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/theorem_3_2|Theorem 3.2 of [Go23]]]
   (p. 2): "For any $r\ge2$, $\mathrm{ex}(n,K^{(r)}_{2,\dots,2})=\Omega(n^{r-\frac1r})$",
@@ -279,6 +296,18 @@ bounds, in the site's letters:
   arXiv record. Claims
   checked for the theorem and its four-line proof from Lemmas 2.1 and 3.1;
   Lemma 3.1's trace computation is followed for structure.
+- [[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|Theorem 1.1 and Corollary 1.2 of [Me26]]]
+  (p. 1): for each $q=2^m$ a box-free tripartite $3$-graph with $q^4$ vertices
+  in each part and $q^{11}$ edges, built from the power map
+  $\tau(s)=s^{q^2-q+1}$ on $\mathbb F_{q^3}$ with an offset term in
+  characteristic $2$ (Construction 3.1, p. 3). So $z(n)=\Theta(n^{11/4})$ for
+  the tripartite count $z(n)$ with $n$ vertices in each part, and
+  $\mathrm{ex}_3(n,K_3(2))=\Theta(n^{11/4})$, the claim page deriving the
+  unrestricted count. This reaches the asked exponent for $t=3$; the paper's
+  Section 4.2 leaves $r=2$ with $t\ge4$ open. Acceptance evidence: none, an
+  unrefereed preprint. Read depth: the proofs of Theorem 2.1, Lemma 3.2,
+  Theorem 1.1 and Corollary 1.2 in v2 checked step by step here,
+  author-recorded.
 
 **Unbalanced parts (leads by abstract, not the question).** Erdős's general
 upper bound $O(n^{t-1/(s_1\cdots s_{t-1})})$ for $K^{(t)}_{s_1,\dots,s_t}$
@@ -290,12 +319,14 @@ hypergraphs (abstract), [Mu26] for the Zarankiewicz number $z(n,K)$ when
 $s_t>3^{s+o(s)}$ with $s=s_1\cdots s_{t-1}$, including
 $z(n,K(2,2,7))=n^{11/4-o(1)}$ (abstract; a refereed CPC paper per the arXiv
 record), and [CLY25] for apex partite hypergraphs with $s_t$ exponentially
-large in the number of edges of the link (abstract). None of these covers
-the balanced $K_t(r)$ the statement asks about. [CXY26] (abstract) studies
-Turán problems for multilinear maps; the thread says it rederives the
-Conlon--Pohoata--Zakharov bound, which the abstract does not state, so this
-page records only the abstract. [DM26] (abstract) gives an alternative
-analytic proof of Erdős's upper bound, not a lower bound.
+large in the number of edges of the link (abstract). Corollary 4.1 of [Me26]
+(p. 4) deduces $z(n,K^{(3)}_{2,2,s_3})=\Theta(n^{11/4})$ for every fixed
+$s_3\ge2$ from the box case, without the $n^{-o(1)}$ loss. Apart from that box
+case, none of these covers the balanced $K_t(r)$ the statement asks about.
+[CXY26] (abstract) studies Turán problems for multilinear maps; the thread
+says it rederives the Conlon--Pohoata--Zakharov bound, which the abstract
+does not state, so this page records only the abstract. [DM26] (abstract)
+gives an alternative analytic proof of Erdős's upper bound, not a lower bound.
 
 **The 1999 booklet's statement.** [Va99], item 3.65 (Section 3.5, left leaf of
 PDF p. 7 of Kovač's scan): "Find a matching lower bound for the hypergraph
@@ -307,16 +338,18 @@ Is the 1962 bound $t-\frac1{r^{t-1}}$ of Erdős best possible?" The site's
 letters follow the booklet's; the year 1962 is the booklet's and the
 paper's volume is dated 1964 (a Formulation note above).
 
-**Search scope.** None of the routes below found a
-construction attaining the exponent $t-r^{1-t}$ for any $t\ge3$, a disproof,
-or a proof claim.
+**Search scope.** Apart from [Me26], found by an arXiv search, none of the
+routes below found a construction attaining the exponent $t-r^{1-t}$ for any
+$t\ge3$, a disproof, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab, as accessed
-  2026-09-18; the formal-conjectures directory listing and the community
-  database, as of 2026-09-18 and 2026-10-07 (the Formalization paragraph
-  records what each recorded on each date).
+  2026-09-18 and again on 2026-10-13 (the page last edited 23 January 2026,
+  one comment, no proof claim); the formal-conjectures directory listing and
+  the community database, as of 2026-09-18 and 2026-10-07 (the Formalization
+  paragraph records what each recorded on each date).
 - The primary sources, to the depth stated above: [Er64f] pp. 183--190 (all
-  eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3 and [Go23] pp. 1--3.
+  eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3, [Go23] pp. 1--3 and
+  [Me26] in full (both versions).
 - Crossref: the records of [CPZ21] (doi:10.19086/da.28336), of [Go23]'s
   journal version and its corrigendum, and a bibliographic query for
   Gordeev's title.
@@ -325,6 +358,9 @@ or a proof claim.
   `abs:"box problem" AND abs:Erdos` and `abs:"complete r-partite" AND
   abs:Turan AND abs:hypergraph` (both returned no records, weak zeros given
   the API's phrase handling).
+- arXiv: an all-fields advanced search for "Erdős", "Erdos" and "Erdös" over
+  submissions from 2026-09-25 to 2026-10-13, which found [Me26], and the
+  abstract pages of its v1 and v2.
 - Semantic Scholar: the citation list of [CPZ21] by DOI (12 records, by
   title: the leads above, a 2026 grid-free linear hypergraph paper, a
   Sidorenko paper and a cliques-count paper; none a balanced construction).
@@ -344,7 +380,9 @@ Theorem 2 and Corollary 1 of [CPZ21] and Theorem 3.2 of [Go23] are claims
 checked, no proof reviewed. (4) The unbalanced-part results and [KKM02] are
 second-hand or abstract-level. (5) The booklet dates Erdős's bound 1962;
 the paper's own volume is dated 1964, which the citation follows, and no
-1962 publication of the bound has been identified.
+1962 publication of the bound has been identified. (6) The case
+$(t,r)=(3,2)$ rests on the unrefereed preprint [Me26]; its proof is checked
+here by the author-recorded reading only, with no independent review.
 
 ## Known results
 
@@ -360,6 +398,9 @@ the paper's own volume is dated 1964, which the citation follows, and no
   $\Omega(n^{t-1/t})$ construction, matching for $t\le4$.
 - [KKM02] (second-hand): $\mathrm{ex}_3(n,K_3(2))=\Omega(n^{8/3})$ against
   the upper bound $n^{11/4}$.
+- [[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|Menezes, Theorem 1.1 and Corollary 1.2]]
+  (2026 preprint, unrefereed): $\mathrm{ex}_3(n,K_3(2))=\Theta(n^{11/4})$, the
+  case $(t,r)=(3,2)$.
 - The $t=2$ case: [[problems/extremal_graph_theory/E0714/_index|Problem 714]].
 <!-- BEGIN problem library links -->
 

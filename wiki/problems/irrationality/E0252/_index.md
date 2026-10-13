@@ -32,8 +32,11 @@ irrational?
 
 **Status.** Labeled open on the site. The site labeled the problem OPEN (page
 last edited 2026-01-22), and the community database and formal-conjectures list
-it open. Nobody outside this repository had examined or acknowledged a proof by
-that date.
+it open. No referee, maintainer or expert outside this repository has reviewed
+the proof below. The bounty site Conjectures.io acknowledged it when it rejected
+a submission adapted from it on 16 September 2026 and when it retired the
+formal-conjectures statement from its pool as solved externally on 6 October
+2026, in both cases without rebuilding it (see the Formalization paragraph).
 
 The frontmatter standing `solved`, `proved` derives from the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of a
@@ -123,8 +126,21 @@ of https://github.com/tokengr1nder/Erdos252 at the reviewed commit of
 2026-09-13, which does not import formal-conjectures; the two agree by unfolding
 both to Mathlib's `ArithmeticFunction.sigma`, `Nat.factorial`, `tsum` and
 `Irrational`. The local build, `--trust=0` axiom audit, `leanchecker --fresh`
-kernel replay and the fidelity review are recorded on the source card. No native
-L-claim, native Lean coverage or numerical tier is assigned.
+kernel replay and the fidelity review are recorded on the source card. The
+author registered the development on the Palomar registry on 12 October 2026
+as PALOMAR-2026-10-12-000001, at a commit of 10 October 2026. The commits up
+to it port the development to Lean v4.35.0-rc2 with the statement of
+`Erdos252.erdos_252` unchanged, and the registered commit itself changes only
+metadata and documentation. The registry's kernels accepted it on the three
+standard axioms, and this corpus has not built that commit. Conjectures.io, a
+bounty site that poses the formal-conjectures statement as a target,
+kernel-verified on 16 September 2026 a submission that its review found
+adapted from this development and rejected as already formalized elsewhere,
+and on 6 October 2026 retired the target as solved externally, citing that
+submission and the reviewed commit, without rebuilding the proof. The
+registration and both decisions are recorded on the
+[[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]]. No
+native L-claim, native Lean coverage or numerical tier is assigned.
 
 ## Current assessment
 
@@ -192,16 +208,22 @@ agreement, maintainer response or expert acknowledgment; none existed on
 2026-09-17 (site OPEN; community database `status: open`;
 formal-conjectures `research open`, issue #5334 unanswered; the author's
 entry on the site's proof-claims page is the author's own claim under the
-site's disclaimer). The `proved` status rests on the kernel-checked source,
+site's disclaimer). The bounty site Conjectures.io's rejection of a
+submission adapted from the proof (16 September 2026) and its retirement of
+the formal-conjectures target as solved externally (6 October 2026)
+acknowledge the proof, but were made without a rebuild or a named reviewer
+and are not reviews. The `proved` status rests on the kernel-checked source,
 on this repository's replay and on the third-round graded fidelity review; it
 is not refereed publication or catalog agreement. Only the reviewed commit
-of 2026-09-13, the pin of the claim page's `formalization` link, is
+of 2026-09-13, the pin of the claim page's first `formalization` link, is
 reviewed; the author's notes say further "compression" passes are possible,
-and any later commit is unreviewed. No native L-claim, native Lean coverage, numerical tier or
-local prose proof coverage is assigned: the development lies outside
-`lean/Erdos/`, and the argument's structure under Progress is this
-compilation's reading of the Lean source, not a reviewed source-proof
-reconstruction. Novelty of the argument was not investigated.
+and any later commit is unreviewed, including the commit of 10 October 2026
+registered on the Palomar registry, whose statement is unchanged. No native
+L-claim, native Lean coverage, numerical tier or local prose proof coverage is
+assigned: the development lies outside `lean/Erdos/`, and the argument's
+structure under Progress is this compilation's reading of the Lean source, not a
+reviewed source-proof reconstruction. Novelty of the argument was not
+investigated.
 
 **Dated search scope (2026-09-17).** Checked: the site's problem page,
 discussion thread (three comments, 2025-09-05 to 2026-04-14, none about the

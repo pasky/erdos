@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T12:07:18Z
 ---
 
 # Problem 787
 
 [[problems/additive_combinatorics/_index|..]]
 
-[[problems/additive_combinatorics/E0787/claims/_index|claims/]]: The 4 claim pages of Problem 787, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_combinatorics/E0787/claims/_index|claims/]]: The 5 claim pages of Problem 787, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -54,6 +54,9 @@ partial claim. The lower bound is Theorem 1.2 of Sanders (Canad. J. Math. 73
 Theorem 1.2 of Beker's 2025 preprint, accepted by Int. Math. Res. Not., gives a
 second proof and the explicit range $c<1/68$. It is a pending partial claim on
 [[problems/additive_combinatorics/E0787/claims/2025_01_17_beker|its claim page]].
+Theorem 1.3 of Zhi's unrefereed preprint of September 2026 refines Beker's
+argument and extends the range to $c<1/36$. It is a pending partial claim on
+[[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]].
 The upper bound is the Theorem of Ruzsa's 2005 paper (Ramanujan J., refereed;
 [[problems/additive_combinatorics/E0787/claims/2005_03_01_ruzsa|its claim page]]):
 $l(n)\ll e^{c\sqrt{\log n}}$ for every $c>\sqrt{8\log2}$ over sets of positive
@@ -65,9 +68,10 @@ $\ll n^{2/5+o(1)}$ (1971, not held, attested by Erdős 1973 and the later papers
 The third is the refereed refinement $O(n^{2/5}(\log n)^{2/5})$ of Baltz, Schoen
 and Srivastav (2000). It has no claim page of its own, because the site does not
 cite it and Ruzsa's bound supersedes it. No result determines the order of
-growth. The search whose scope the Current assessment records found no proof
-claim, no citing paper improving either bound and no adoption of any such result
-by the site. This is a bounded negative finding, not a certificate of openness.
+growth. Apart from Zhi's wider range of exponents, the search whose scope the
+Current assessment records found no proof claim, no citing paper improving
+either bound and no adoption of any such result by the site. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/787](https://www.erdosproblems.com/787),
 accessed 2026-09-18: the problem page (OPEN, a label the site explains as
@@ -134,12 +138,16 @@ Problem #787, https://www.erdosproblems.com/787, accessed 2026-09-18.
   bounds for $k$-configurations. arXiv:2501.10203v1 (17 January 2025; 23
   pages); v2 of 2 October 2026 (24 pages)
   is the final version, which its arXiv comment says incorporates the
-  referee's comments, corrects an error in the proof of Lemma 2.2 of v1 and
-  is to appear in Int. Math. Res. Not.; Theorems 1.1 and 1.2 are unchanged.
-  Theorem 1.1, p. 3; Theorem 1.2, p. 3. Library home:
+  referee's comments, corrects an error in the proof of Lemma 2.2 of v1
+  (Lemma 2.3 of v2) and is to appear in Int. Math. Res. Not.; Theorems 1.1
+  and 1.2 are unchanged. Theorem 1.1, p. 3; Theorem 1.2, p. 3. Library home:
   [[../library/additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/_index|beker_2025_erdos_moser_sum_free_set_problem]];
   result page
   [[../library/additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/theorem_1_2|Theorem 1.2]].
+- [Zh26] Zhi, Y., Branch-sensitive density increments for $k$-configurations.
+  arXiv:2610.03750v1 (25 September 2026; 20 pages), the only version. Theorem
+  1.1, p. 3; Theorem 1.3, p. 3; the proof of Theorem 1.3, pp. 16--17. Not a key
+  of the site's page; not held.
 
 **Formalization.** None in formal-conjectures:
 google-deepmind/formal-conjectures had no file `ErdosProblems/787.lean` on
@@ -241,9 +249,16 @@ $\phi(n)=\Omega((\log n)^{1+c})$ with $c=1/69$ and claims no improvement in the
 value of $c$ over [Sa21], noting that the $k$-configuration route is limited to
 $c<1$. The site's display $(\log n)^{1+1/68+o(1)}$ is its rendering of the range
 $c<1/68$. Neither proof is reviewed in this corpus. The v2 of [Be25], of 2
-October 2026, is accepted by Int. Math. Res. Not. The lower bound of record
+October 2026, is accepted by Int. Math. Res. Not. [Zh26], an unrefereed
+preprint of September 2026, reruns Beker's density-increment argument with the
+outcomes of its graph-counting step kept apart, each charged its own density
+gain and rank cost. Its Theorem 1.1 (p. 3) lowers the leading power of $k$ in
+Beker's finite-group bound from $k^{68}$ to $k^{36}$, and its Theorem 1.3
+(p. 3) is Beker's Theorem 1.2 for every $c<1/36$
+([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
+Its proof is not reviewed in this corpus either. The lower bound of record
 therefore rests on the refereed [Sa21], with [Be25] as a second proof under the
-preprint qualification.
+preprint qualification and [Zh26] as an unrefereed refinement of it.
 
 **The upper bounds.** Erdős's $n/3+O(1)$ and Selfridge's $(1/4+\epsilon)n$ are
 the 1965 examples quoted above; Choi's $cn/\log n$ is reported in the Additions
@@ -282,15 +297,15 @@ $M(A)=\exp(O(\sqrt{\log|A|}))$") restates it with the exponent suppressed
 subpolynomially in $n$"). This is the site's upper bound; its proof is not
 independently reviewed.
 
-**Search scope.** None of the routes below found an
-improvement of either bound, a proof claim, or a refereed version of
-[Be25].
+**Search scope.** None of the routes below found an improvement of either
+bound beyond the range of exponents of [Zh26], a proof claim, or a journal
+publication of [Be25].
 
 - The site: problem page, discussion thread and proof-claim tab as of
   2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - arXiv: the abstract pages of 1804.03356 (three versions; the journal
-  reference and DOI) and 2501.10203 (one version; no journal reference);
+  reference and DOI) and 2501.10203 (then one version; no journal reference);
   the API queries `abs:"sum-free" AND abs:"Erdős" AND (abs:Moser OR
   abs:"restricted sumset")` (one record, [Be25]), `abs:"strongly sum-free"`
   (one record, on weak Schur partitions) and `all:"Erdős Problem" AND
@@ -302,8 +317,15 @@ improvement of either bound, a proof claim, or a refereed version of
 - Semantic Scholar: the citation lists of 2501.10203 and 1804.03356 (both
   returned empty, a weak signal since the journal version of
   [Sa21] is cited by [Be25]).
+- A later check, on 2026-10-13: the abstract pages of 2501.10203 (two
+  versions; no journal reference) and 2610.03750 ([Zh26], one version; no
+  journal reference); the first arXiv API query above, rerun (two records,
+  [Be25] and [Zh26]); Crossref title queries for [Be25] and [Zh26] (no
+  journal record); the site's problem page (still last edited 23 January
+  2026).
 - The primary sources: [Er65] pp. 187 and 190, [Er73] p. 130, [Va99] item
-  1.22, [Sa21] pp. 1--3, [Be25] pp. 1--3 and [BSS00] pp. 171--174.
+  1.22, [Sa21] pp. 1--3, [Be25] pp. 1--3 with Section 2 and the proof of
+  Proposition 3.2 in v1 and v2, [Zh26] in full and [BSS00] pp. 171--174.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Ch71],
 Sudakov--Szemerédi--Vu 2005, Dousse 2013, Shao 2015 and [Ru05], whose
@@ -319,7 +341,14 @@ prints neither the reduction nor the bound's proof). The upper bound of record
 is first-hand: [Ru05] has a library card, and its Theorem is stated from printed
 p. 77. (3) No proof is independently reviewed in this corpus. (4) [Be25] is
 accepted by Int. Math. Res. Not. (arXiv v2, 2 October 2026); its status does
-not affect the field.
+not affect the field. (5) The range $c<1/36$ rests on [Zh26], an unrefereed
+preprint that builds on the argument of [Be25]. It uses only parts of that
+argument that v2 leaves unchanged: its graph-counting step stops before the
+step of Beker's Lemma 2.2 that v2 corrects, and replaces it with its own
+Lemmas 2.3 and 2.4, which are not reviewed here. It also applies Beker's
+Proposition 4.2 to sets smaller than that proposition assumes, without
+comment
+([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 <!-- BEGIN problem library links -->
 
 ## Linked library material
