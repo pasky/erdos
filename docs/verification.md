@@ -382,9 +382,9 @@ carries no SHA-256 line on its source card: Git LFS records the size and SHA-256
 of every held PDF and every file over 1 MB in its pointer, and a smaller held
 file is identified by its path. An edition the repository does not hold is named
 by its bibliographic identifier, version, URL, and its retrieval date when the
-URL is not pinned to a commit or the file's hash. Private run state that never
-reaches the default branch (working notes and receipts kept outside the clone)
-may name commits.
+URL is not pinned to an immutable version (such as arXiv's vN), a commit or the
+file's hash. Private run state that never reaches the default branch (working
+notes and receipts kept outside the clone) may name commits.
 
 A record cites the root `AGENTS.md` by a section heading in quotes or by a
 binding convention's number with its short name (`AGENTS.md` section "Checks";
