@@ -55,8 +55,8 @@ Snyder of Star Fleet Math and hosted in the lean-proofs repository on 2026-07-23
 ([[problems/polynomials/E0522/claims/2026_07_23_snyder|Snyder 2026]]). The last
 two are the Lean-backed claims of September 2026.
 [[problems/polynomials/E0522/claims/2026_09_25_kawada|Kawada 2026]] is the
-formalization the database recorded, with a Zenodo preprint, and it is the one
-claim on the site's proof-claims tab.
+formalization the database recorded, with a Zenodo preprint and a revised
+arXiv version, and it is the one claim on the site's proof-claims tab.
 [[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] is a
 Lean proof of both coefficient readings, linked by formal-conjectures. None is
 refereed, independently reviewed, or built or audited here.
@@ -104,7 +104,11 @@ fourth-moment estimate for logarithmic integrals, with the rate
 $n^{7/8+\delta}$; Kawada's preprint (September 2026) through concentration
 at fixed degrees along the subsequence $j^8$ and Rouché's theorem in
 between, giving an almost-sure radial law for disks of radius $1+x/n$ and
-the rate $O(n/\log n)$, all stated to be formalized in Lean; and Kitamura's
+the rate $O(n/\log n)$, all stated to be formalized in Lean, and its revised
+arXiv version (October 2026), which bridges the degrees between the sparse
+ones by logarithmic integrability instead and derives the answer from a
+tail bound at each fixed degree, proved through the argument principle,
+with the rate $O(n^{3/4}\sqrt{\log n})$; and Kitamura's
 Lean development (September 2026, AI-assisted), with an AI-generated proof
 outline in its README and no manuscript, which proves the catalog's
 statements for both coefficient readings and so also settles the $\{0,1\}$
@@ -124,10 +128,11 @@ Search scope: the site's problem page as exported (last edited 06 December
 2026-10-07), the community database entry (open, formal status Lean,
 2026-09-26), the formal-conjectures file and the two pull requests that
 tagged it, the GitHub repositories and notes linked from the thread, the
-lean-proofs repository's index, and arXiv author searches for Letwin,
-Michelen and Yakir (no paper on this problem); no OpenAI release
-item names this problem. MathSciNet and zbMATH were not searched and X was
-not used.
+lean-proofs repository's index, arXiv author searches for Letwin, Michelen
+and Yakir (no paper on this problem), and an arXiv search for "Erdős" over
+submissions from 25 September 2026, which found Kawada's revised preprint;
+no OpenAI release item names this problem. MathSciNet and zbMATH were not
+searched and X was not used.
 
 ## Known Results
 
@@ -146,7 +151,10 @@ not used.
   [[problems/polynomials/E0522/claims/2026_09_25_kawada|Kawada 2026]] (with
   the radial law $\nu_n(1+x/n)/n\to\frac12(1+\coth x-1/x)$ uniformly on
   compact sets, the rate $O(n/\log n)$, and the same laws for Steinhaus,
-  Gaussian and bounded symmetric coefficients, formalized in Lean) and
+  Gaussian and bounded symmetric coefficients, formalized in Lean; its
+  revised arXiv version gives the law with the rate
+  $O(n^{-1/34}(\log n)^{7/2})$ on compact sets and uniformly on the line,
+  and the rate $O(n^{3/4}\sqrt{\log n})$ at $x=0$ for signs) and
   [[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] (a
   Lean proof, which also proves the $\{0,1\}$ reading).
 - Earlier postings: the site's remarks and the thread record no other

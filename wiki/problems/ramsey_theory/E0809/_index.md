@@ -134,10 +134,18 @@ pull request 6634, whose statement file names as its formal proof the pinned
 commit's parent, which has the same Lean sources; each difference is an exact
 equivalence (at least rather than exactly $\lfloor n^2/4\rfloor+1$ edges, as the
 Formulation observes; colors counted as the image of the coloring; an explicit
-$\varepsilon$–$N$ band on the attained minimum). The repository has no
-comparator challenge file, so no fingerprint comparison was made. The claim page
-[[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]] records
-the checks.
+$\varepsilon$–$N$ band on the attained minimum). The repository had no
+comparator challenge file at the pinned commit, so no fingerprint comparison was
+made. Shahab registered a later commit, of 7 October 2026, on the Palomar
+registry on 9 October 2026 as `PALOMAR-2026-10-09-000006` (theorem
+`Erdos809Palomar.main_result`, trust level high, automated review outcome
+neutral). That commit ports the development to Lean `v4.35.0-rc2` and adds a
+comparator challenge. The statement of `Erdos809.erdos_809` and the definitions
+its type reaches are unchanged in it apart from module headers, and the
+registered theorem is `Erdos809.erdos_809` written out in Mathlib's terms. The
+registry's kernels accepted it, and this corpus has not built that commit. The
+claim page [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]]
+records the checks and the comparison of the two commits.
 
 This repository also answers the question in the affirmative for every $k\ge3$,
 in the development posted with the site's proof claim 367, filed after Shahab's:
@@ -187,10 +195,10 @@ Shahab's claim is independent of L17 and earlier the same day, so wherever this
 page or the research folder calls the seven-cycle argument the project's own,
 that is authorship and not priority: an independent proof of the $C_7$ case was
 posted first. Neither claim has comments, neither is refereed, and the site's
-label on that date is OPEN; none of this changes the standing of L17, whose tier
-rests on the filed records above and not on priority or community acceptance.
-This corpus has not read Shahab's preprint, so that claim's acceptance rests on
-the Lean alone. The two postings have their claim pages,
+label on that date was OPEN; none of this changes the standing of L17, whose
+tier rests on the filed records above and not on priority or community
+acceptance. This corpus has not read Shahab's preprint, so that claim's
+acceptance rests on the Lean alone. The two postings have their claim pages,
 [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]] and
 [[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|the project's development]],
 both accepted on `formalized` evidence.
