@@ -12,8 +12,8 @@ Let $K$ be an imaginary quadratic number field and let $E/K$ be an elliptic curv
 
 We prove this conjecture for every $K$ and $E$. We use unitary normalization on the automorphic side and the Tate-normalized local Langlands correspondence on the cohomological side. These conventions are recalled in Section 2.
 
-**Theorem 1.1**. *Let $K$ be an imaginary quadratic number field and $E/K$ an elliptic curve. There is an isobaric automorphic representation $\pi_E$ of $\mathop{\mathrm{GL}}_2(\mathbb A_K)$ with trivial central character and weight zero such that, for every prime $l$ and every isomorphism $\iota:\overline\mathbb Q_l\xrightarrow{\sim}\mathbb C$, $$r_\iota(\pi_E)\simeq
- H^1_{\mathrm{\acute et}}(E_{\overline K},\overline\mathbb Q_l).$$ At every finite place $v\nmid l$ one has $$\iota\mathop{\mathrm{WD}}\bigl(H^1_{\mathrm{\acute et}}(E_{\overline K},\overline\mathbb Q_l)
+**Theorem 1.1**. *Let $K$ be an imaginary quadratic number field and $E/K$ an elliptic curve. There is an isobaric automorphic representation $\pi_E$ of $\mathop{\mathrm{GL}}_2(\mathbb A_K)$ with trivial central character and weight zero such that, for every prime $l$ and every isomorphism $\iota:\overline{\mathbb Q}_l\xrightarrow{\sim}\mathbb C$, $$r_\iota(\pi_E)\simeq
+ H^1_{\mathrm{\acute et}}(E_{\overline K},\overline{\mathbb Q}_l).$$ At every finite place $v\nmid l$ one has $$\iota\mathop{\mathrm{WD}}\bigl(H^1_{\mathrm{\acute et}}(E_{\overline K},\overline{\mathbb Q}_l)
                      |_{G_{K_v}}\bigr)^{\mathrm{F\text{-}ss}}
  \simeq
  \mathop{\mathrm{rec}}_{K_v}\bigl(\pi_{E,v}\otimes|\det|_v^{-1/2}\bigr).$$ The unitary parameter at the complex place is $z\mapsto\mathop{\mathrm{diag}}(z/|z|,\overline z/|z|)$. In particular every local factor agrees, and $$L(E/K,s)=L(\pi_E,s-1/2).$$ If $E$ has no complex multiplication, $\pi_E$ is cuspidal. In the CM case it is given by automorphic induction of a Hecke character, or by an isobaric sum when the CM field is already $K$.*
@@ -37,7 +37,7 @@ The difficulty is to reach a residual representation to which the known modulari
 Fix a non-CM elliptic curve $E/K$. Choose a sufficiently large prime $p$ for which the image on $E[p]$ contains $\mathop{\mathrm{SL}}_2(\mathbb F_p)$, and put $n=3p$ and $F=K(\mu_n)$. For $t$ in a nonempty affine open over $K$, we construct a genus-$n$ cyclic cover $C_n(t)$ of a quadratic twist $B_t$ of $E$. It is branched at two points and admits an involution that inverts the rotations. For a character $\theta$ of the rotation group $\mu_n$, write $$V_\theta=H^1(C_n(t))_\theta.$$ Each $V_\theta$ is a rank-two compatible system with determinant $\epsilon_l^{-1}$, where $\epsilon_l$ is the $l$-adic cyclotomic character, and labeled Hodge–Tate weights $0,1$.
 
 Choose characters $\eta$ and $\psi$ of orders $3$ and $p$, respectively, and set $\chi=\eta\psi$. The order-three system $V_\eta$ comes from an elliptic curve $A/F$, while $V_1=H^1(B_t)$. An integral description of the cohomology gives the chain $$\begin{equation}
-\label{intro:chain}
+\tag{1.1}
  \underbrace{V_\eta}_{H^1(A)}
  \ \equiv\!\!\pmod p\ \ V_\chi
  \ \equiv\!\!\pmod 3\ \ V_\psi
@@ -58,17 +58,17 @@ Sections 3 and 4 establish the cover geometry and integral monodromy. Section�
 
 We use the cohomological realization $$H^1(X)=H^1_{\mathrm{\acute et}}(X_{\overline L},\mathbb Q_l)$$ for a smooth proper variety over a number field $L$; coefficient extensions will always be indicated or understood. We write $G_L=\mathop{\mathrm{Gal}}(\overline L/L)$. The cyclotomic character $\epsilon_l$ has Hodge–Tate weight $-1$ in our convention. Thus an elliptic curve has labeled Hodge–Tate weights $0,1$, and its $H^1$ has determinant $\epsilon_l^{-1}$. The bar on a characteristic-zero representation denotes the semisimplification of the reduction of a stable lattice. This semisimplification is independent of the lattice.
 
-For a regular algebraic cuspidal representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ over a CM field, let $r_\iota(\pi)$ denote the associated semisimple $l$-adic representation, where $\iota:\overline\mathbb Q_l\xrightarrow{\sim}\mathbb C$. We use the normalization of (Harris et al. 2016; Scholze 2015; Caraiani and Newton 2025): the local comparison is with $$\begin{equation}
-\label{eq:tate-normalization}
+For a regular algebraic cuspidal representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ over a CM field, let $r_\iota(\pi)$ denote the associated semisimple $l$-adic representation, where $\iota:\overline{\mathbb Q}_l\xrightarrow{\sim}\mathbb C$. We use the normalization of (Harris et al. 2016; Scholze 2015; Caraiani and Newton 2025): the local comparison is with $$\begin{equation}
+\tag{2.1}
  \mathop{\mathrm{rec}}^T_{L_v}(\pi_v)
  :=\mathop{\mathrm{rec}}_{L_v}\bigl(\pi_v\otimes|\det|_v^{-1/2}\bigr).
 \end{equation}$$ Here the reciprocity convention uses geometric Frobenius. The algebraic weight corresponding to trivial coefficients is called *weight zero*. At a complex place the generic weight-zero parameter, in unitary normalization, is $$\begin{equation}
-\label{eq:infinity-parameter}
+\tag{2.2}
  z\longmapsto
  \begin{pmatrix}z/|z|&0\\0&\overline z/|z|\end{pmatrix},
  \qquad |z|=(z\overline z)^{1/2}.
 \end{equation}$$ The corresponding Tate-normalized parameter has Hodge types $(1,0)$ and $(0,1)$. In particular, if the Tate-normalized finite parameters realize an elliptic curve $E$, then $$\begin{equation}
-\label{eq:L-shift}
+\tag{2.3}
  L(E/L,s)=L(\pi,s-1/2).
 \end{equation}$$
 
@@ -81,49 +81,49 @@ We construct a family of cyclic covers of quadratic twists of a fixed elliptic c
 ### The family and its dihedral action
 
 Let $k$ be a number field, let $E/k$ be an elliptic curve, and fix an odd integer $n\geq 3$. Write $$E:\quad y^2=h(x),$$ where $h\in k[x]$ is a separable cubic and the point at infinity is the origin $O$. For $t$ with $h(t)\ne 0$, put $$\begin{equation}
-\label{geo:twist}
+\tag{3.1}
  B_t:\quad h(t)y^2=h(x),\qquad R_t=(t,1),\qquad S_t=[n]R_t.
 \end{equation}$$ Let $U\subset\mathbb A^1_k$ be the open set on which $O,R_t,-R_t,S_t,-S_t$ are pairwise distinct. This is a nonempty open set: after the double cover $t=x(R)$ parametrized by $R\in E$, the map $$B_{x(R)}\longrightarrow E,\qquad (x,y)\longmapsto (x,y(R)y)$$ identifies $R_t$ with the moving point $R$. Each excluded equality then imposes a torsion condition on $R$, so excludes only finitely many points. We may remove further finitely many points from $U$ when necessary.
 
 **Lemma 3.1**. *For each divisor $m>1$ of $n$, there is a smooth proper family of geometrically connected genus-$m$ curves $\mathcal C_m\to U$. It is the normalization of the smooth proper elliptic family $B\to U$ in the function-field extension, written fiberwise as $$\begin{equation}
-\label{geo:kummer}
+\tag{3.2}
  Y^m=f_t(Z),\qquad
  \operatorname{div}(f_t)=(S_t)-(-S_t)-n(R_t)+n(-R_t),\qquad f_t(O)=1.
 \end{equation}$$ The family has an involution $$\begin{equation}
-\label{geo:reflection}
+\tag{3.3}
  w:(Z,Y)\longmapsto(-Z,Y^{-1}).
 \end{equation}$$ Over a field containing $\mu_m$, rotations $u_\zeta:(Z,Y)\mapsto(Z,\zeta Y)$ are defined and satisfy $wu_\zeta w=u_{\zeta^{-1}}$. If $d\mid m$, the map $Y\mapsto Y^{m/d}$ gives the quotient $C_{m,t}\to C_{d,t}$; for $d=1$ the quotient is $B_t$.*
 
-*Proof.* On an elliptic curve, a degree-zero divisor is principal precisely when its sum in the elliptic-curve group is $O$. The divisor in (geo:kummer) has sum $$S_t-(-S_t)-nR_t+n(-R_t)=2S_t-2nR_t=O.$$ It therefore determines a rational function, uniquely after imposing $f_t(O)=1$. Applying this argument over $k(U)$ and spreading out gives a rational function on the family. Its divisor changes sign under $Z\mapsto-Z$, and its normalization at $O$ consequently gives $$\begin{equation}
-\label{geo:inverse}
+*Proof.* On an elliptic curve, a degree-zero divisor is principal precisely when its sum in the elliptic-curve group is $O$. The divisor in (3.2) has sum $$S_t-(-S_t)-nR_t+n(-R_t)=2S_t-2nR_t=O.$$ It therefore determines a rational function, uniquely after imposing $f_t(O)=1$. Applying this argument over $k(U)$ and spreading out gives a rational function on the family. Its divisor changes sign under $Z\mapsto-Z$, and its normalization at $O$ consequently gives $$\begin{equation}
+\tag{3.4}
  f_t(-Z)=f_t(Z)^{-1}.
 \end{equation}$$ This also shows that the function has no vertical divisor: every fiber component of the smooth elliptic family is preserved by inversion, so its valuation is its own negative. Thus the prescribed disjoint sections are the entire divisor on $U$.
 
-The valuation at $S_t$ is $1$, so the Kummer extension has degree $m$ even geometrically. It is totally ramified at $S_t$ and $-S_t$ and unramified elsewhere, since the remaining nonzero valuations are $\pm n$, divisible by $m$. Riemann–Hurwitz gives $2g(C_{m,t})-2=2(m-1)$. The same local description proves that the normalization is smooth over $U$. Indeed, a zero or pole of order divisible by $m$ can be removed from the Kummer equation; at a section of order $1$ or $-1$, after taking a root of a unit *étale* locally, the equation is the $m$th-root cover of a parameter transverse to that section. Normalization is finite here, so the resulting smooth family is proper. Equation (geo:inverse) gives the involution, and the remaining assertions follow from the Kummer equations. ◻
+The valuation at $S_t$ is $1$, so the Kummer extension has degree $m$ even geometrically. It is totally ramified at $S_t$ and $-S_t$ and unramified elsewhere, since the remaining nonzero valuations are $\pm n$, divisible by $m$. Riemann–Hurwitz gives $2g(C_{m,t})-2=2(m-1)$. The same local description proves that the normalization is smooth over $U$. Indeed, a zero or pole of order divisible by $m$ can be removed from the Kummer equation; at a section of order $1$ or $-1$, after taking a root of a unit *étale* locally, the equation is the $m$th-root cover of a parameter transverse to that section. Normalization is finite here, so the resulting smooth family is proper. Equation (3.4) gives the involution, and the remaining assertions follow from the Kummer equations. ◻
 
 We will study the pullback of this family to the open set of $E$ on which $R$ is a moving point and $O,\pm R,\pm[n]R$ are distinct. There the base elliptic curve is the constant curve $E$. We write $C_{m,R}$ for the fiber and $f_R$ for its normalized function. The normalization at $O$ ensures that the pullback identification is exact: it introduces no scalar twist into the equation $Y^m=f_R$.
 
 ### Separating colliding sections
 
 The two boundary points we use are $$\begin{equation}
-\label{geo:boundary-points}
+\tag{3.5}
  R=O,\qquad\text{and}\qquad
  R=R_*,\quad [n]R_*\in E[2]\setminus\{O\},
  \quad O,\pm R_*,[n]R_*\ \text{distinct}.
 \end{equation}$$ The second point may be considered after extending the ground field; we will ultimately use it over $\mathbb C$.
 
-**Lemma 3.2**. *In the constant-$E$ family, blow up the surface at the collision point over either boundary parameter in (geo:boundary-points), and normalize the resulting surface in $Y^m=f_R$. This gives a regular semistable model near that parameter. Its special fiber has $m$ geometric nodes lying over the node of the blown-up elliptic surface. Each node has smoothing parameter of order one in a parameter on the base. The component above the exceptional projective line is a geometrically connected rational curve.*
+**Lemma 3.2**. *In the constant-$E$ family, blow up the surface at the collision point over either boundary parameter in (3.5), and normalize the resulting surface in $Y^m=f_R$. This gives a regular semistable model near that parameter. Its special fiber has $m$ geometric nodes lying over the node of the blown-up elliptic surface. Each node has smoothing parameter of order one in a parameter on the base. The component above the exceptional projective line is a geometrically connected rational curve.*
 
 *Proof.* At $R=O$, choose parameters $r$ on the parameter curve and $z$ on the constant elliptic curve, both at $O$, with the same tangent coordinate. The sections $R,-R,[n]R,-[n]R$ have first-order equations $z=r,-r,nr,-nr$. Their strict transforms meet the exceptional line at four distinct points with coordinates $1,-1,n,-n$; the node joining this line to the main component has coordinate $\infty$. At the second boundary parameter, only the sections $[n]R$ and $-[n]R$ collide. Their tangent slopes are distinct, so one blowup again separates them from each other and from the node.
 
-The involution $Z\mapsto-Z$ preserves both components of each blown-up fiber. Equation (geo:inverse) therefore forces the valuation of $f_R$ on each component to be zero. None of its horizontal divisor sections passes through the node. Since the surface is regular, $f_R$ is consequently a unit at that node. Taking its $m$th root is étale there. The node downstairs has local smoothing equation $xy=b$, with $b$ a parameter on the base. Over an algebraic closure, its $m$ lifts have the same local equation. In particular, the smoothing parameter is $b$, rather than a higher power of $b$.
+The involution $Z\mapsto-Z$ preserves both components of each blown-up fiber. Equation (3.4) therefore forces the valuation of $f_R$ on each component to be zero. None of its horizontal divisor sections passes through the node. Since the surface is regular, $f_R$ is consequently a unit at that node. Taking its $m$th root is étale there. The node downstairs has local smoothing equation $xy=b$, with $b$ a parameter on the base. Over an algebraic closure, its $m$ lifts have the same local equation. In particular, the smoothing parameter is $b$, rather than a higher power of $b$.
 
 At the separated sections the normalization has the smooth local description used in Lemma 3.1. This proves regularity of the total space and semistability of the family. On the exceptional line, only the two sections of multiplicities $1$ and $-1$ cause ramification. The cyclic cover is connected, is totally ramified at these two points, and has genus zero by Riemann–Hurwitz. ◻
 
 **Proposition 3.3**. *Suppose that $k$ contains $\mu_m$. At $R=O$, the special fiber of the model in Lemma 3.2 is a rational curve joined at distinct points to $m$ copies of $E$, all defined over $k$. Rotations cyclically permute the elliptic components. The Jacobian family of $C_{m,R}$ therefore extends to an abelian scheme on a Zariski neighborhood of $O$ in the parameter curve, with fiber $E^m$ at $O$.*
 
 *Proof.* Let $v=z/r$ be the coordinate on the exceptional line. Its normalized function is $$\begin{equation}
-\label{geo:exceptional-function}
+\tag{3.6}
  f_{\mathrm{exc}}(v)=
  \frac{v-n}{v+n}\left(\frac{v+1}{v-1}\right)^n.
 \end{equation}$$ Indeed, the divisor gives this expression up to a scalar. The section $Z=O$ meets the exceptional line at $v=0$, where the function is a unit with value $1$. Since $n$ is odd, the displayed expression also has value $1$ at $0$, so the scalar is $1$.
@@ -141,7 +141,7 @@ For the monodromy computation, choose an oriented period basis $a,b$ of $E(\math
 **Lemma 3.5**. *For $R_*=a/(2n)$, the special fiber in Lemma 3.2 consists of a connected unramified degree-$m$ cover $E'\to E$ and a rational component, joined at $m$ distinct nodes. In analytic coordinates near each node, the family has equation $XU=-2nt$, where $t=R-R_*$ is an additive local parameter.*
 
 *Proof.* Write $Q=a/2=[n]R_*$ and use additive analytic coordinates $t=R-R_*$ and $z=Z-Q$. The colliding sections have equations $z=nt$ and $z=-nt$, while the other divisor sections avoid this neighborhood. Thus $$f_R=g(z,t)\frac{z-nt}{z+nt}$$ with $g$ a holomorphic unit. Choose a local $m$th root of $g$ and put $V=Y/g^{1/m}$. The Kummer equation becomes $$\begin{equation}
-\label{geo:node-equation}
+\tag{3.7}
  (z+nt)(V^m-1)=-2nt.
 \end{equation}$$ For each $V=\zeta$, $\zeta\in\mu_m$, the function $U=V^m-1$ is a local coordinate. Taking $X=z+nt$ gives the asserted node equation. It is the local chart of the normalization of the blowup from Lemma 3.2; the exceptional component has $X=0$, and the main component has $U=0$. In particular, the nonzero constant $2n$ changes no vanishing order.
 
@@ -160,27 +160,27 @@ Fix the complex elliptic curve $E$ and the constant-$E$ family from Section 3. 
 ### A basis obtained by cutting the torus
 
 Choose an oriented period basis $a,b$ and identify the underlying oriented torus with $(\mathbb R/\mathbb Z)^2$, with $a$ horizontal and $b$ vertical. Consider the path of parameters $$\begin{equation}
-\label{mon:horizontal-path}
+\tag{4.1}
  R_s=\frac{s}{n}a,\qquad 0<s<\frac12.
 \end{equation}$$ Its branch points are $-sa$ and $sa$. Let $I_s$ be the horizontal arc from $-sa$ to $sa$ through $O$.
 
-**Lemma 4.1**. *For the parameters in (mon:horizontal-path), the cover $C_{m,R_s}\to E$ is trivial over $E\setminus I_s$. It is obtained by cutting $m$ copies of $E$ along $I_s$ and joining adjacent banks cyclically. Crossing the slit changes the sheet index by $1$ or $-1$, according to the orientation of crossing and the initial choice of indexing.*
+**Lemma 4.1**. *For the parameters in (4.1), the cover $C_{m,R_s}\to E$ is trivial over $E\setminus I_s$. It is obtained by cutting $m$ copies of $E$ along $I_s$ and joining adjacent banks cyclically. Crossing the slit changes the sheet index by $1$ or $-1$, according to the orientation of crossing and the initial choice of indexing.*
 
 *Proof.* For small $s$, enclose the colliding sections in a small disk about $O$. The model at $R=O$ restricts outside that disk to $m$ disjoint copies of its complement, by Proposition 3.3. If $D$ is such a disk, the inclusion $E\setminus\operatorname{int}(D)\hookrightarrow E\setminus I_s$ is a homotopy equivalence. The unramified cover of $E\setminus I_s$ is therefore trivial. As $s$ varies in $(0,1/2)$, the arcs $I_s$ move by isotopy, and the topological isomorphism class of this unramified cover remains constant. The monodromy around either branch point is a generator of $\Gamma_m$, since its valuation in $f_R$ is $1$ or $-1$. This gives the stated gluing. ◻
 
 On each sheet let $a_i$ be the horizontal loop at vertical coordinate $1/2$ and let $b_i$ be the vertical loop at horizontal coordinate $1/2$, for $i\in\mathbb Z/m\mathbb Z$. These loops avoid the slit, intersect at one point on their common sheet, and may be oriented so that $$\begin{equation}
-\label{mon:intersection}
+\tag{4.2}
  \langle a_i,b_j\rangle=\delta_{ij},\qquad
  \langle a_i,a_j\rangle=\langle b_i,b_j\rangle=0.
 \end{equation}$$ Index the sheets so that $u$ sends $a_i,b_i$ to $a_{i+1},b_{i+1}$.
 
 **Proposition 4.2**. *The cycles $a_i,b_i$ form an integral symplectic basis of $H_1(C_{m,R_s},\mathbb Z)$. Consequently, for every smooth fiber of the family, $$\begin{equation}
-\label{mon:free-lattices}
+\tag{4.3}
  H_1(C_m,\mathbb Z)\simeq\mathbb Z[\Gamma_m]^2,
  \qquad H^1(C_m,\mathbb Z)\simeq\mathbb Z[\Gamma_m]^2.
 \end{equation}$$ In particular, after comparison, $H^1_{\mathrm{et}}(C_m,\mathbb Z_\ell)$ is free of rank two over $\mathbb Z_\ell[\Gamma_m]$ for every prime $\ell$, including $\ell\mid m$.*
 
-*Proof.* The genus is $m$, so $H_1$ has rank $2m$. Equation (mon:intersection) shows that the $2m$ displayed classes are linearly independent and span a sublattice with unimodular intersection pairing. If its index in $H_1$ were $d$, its intersection determinant would be $d^2$ times the determinant on $H_1$. Both determinants are $1$, so $d=1$. The deck action now gives the first isomorphism in (mon:free-lattices).
+*Proof.* The genus is $m$, so $H_1$ has rank $2m$. Equation (4.2) shows that the $2m$ displayed classes are linearly independent and span a sublattice with unimodular intersection pairing. If its index in $H_1$ were $d$, its intersection determinant would be $d^2$ times the determinant on $H_1$. Both determinants are $1$, so $d=1$. The deck action now gives the first isomorphism in (4.3).
 
 The dual of the regular integral module is again regular: explicitly, the coefficient-of-identity pairing $$\mathbb Z[\Gamma_m]\times\mathbb Z[\Gamma_m]\longrightarrow\mathbb Z,
  \qquad (x,y)\longmapsto [1](xy)$$ is perfect. With the pullback action on the dual, it identifies $\operatorname{Hom}_{\mathbb Z}(\mathbb Z[\Gamma_m],\mathbb Z)$ with $\mathbb Z[\Gamma_m]$. This proves the cohomological assertion without dividing by $m$. Topological local triviality transports the result through the connected smooth parameter open, and comparison gives the étale assertion. ◻
@@ -189,35 +189,35 @@ The dual of the regular integral module is again regular: explicitly, the coeffi
 
 ### Vanishing cycles and a common monodromy basis
 
-Let $s$ approach $1/2$ in (mon:horizontal-path). The branch points meet at $a/2$, while the slit fills all but a shrinking gap in the horizontal circle. Choose a small disk about $a/2$ containing both branch points, with radius larger than their distance from the collision point. Its boundary has $m$ closed lifts $\delta_i$. They are the neck circles at the $m$ nodes of Lemma 3.5; hence they are the vanishing cycles.
+Let $s$ approach $1/2$ in (4.1). The branch points meet at $a/2$, while the slit fills all but a shrinking gap in the horizontal circle. Choose a small disk about $a/2$ containing both branch points, with radius larger than their distance from the collision point. Its boundary has $m$ closed lifts $\delta_i$. They are the neck circles at the $m$ nodes of Lemma 3.5; hence they are the vanishing cycles.
 
 **Lemma 4.4**. *After a cyclic indexing of the lifts, their homology classes are $$\begin{equation}
-\label{mon:delta}
+\tag{4.4}
  [\delta_i]=\pm(a_i-a_{i+1}),\qquad i\in\mathbb Z/m\mathbb Z,
 \end{equation}$$ or the same formula with $i-1$ in place of $i+1$.*
 
-*Proof.* Arrange the boundary of the disk to cross the slit transversely twice. A lifted boundary circle has its upper arc on one sheet and its lower arc on an adjacent sheet. Index the upper sheet by $i$; the lower one is $i+1$ or $i-1$, by Lemma 4.1. The circle is disjoint from every $a_j$. It crosses the two corresponding vertical loops once each, with opposite intersection signs, and no other $b_j$. These intersections determine its class in the integral symplectic basis of Proposition 4.2, giving (mon:delta). See Figure 2. ◻
+*Proof.* Arrange the boundary of the disk to cross the slit transversely twice. A lifted boundary circle has its upper arc on one sheet and its lower arc on an adjacent sheet. Index the upper sheet by $i$; the lower one is $i+1$ or $i-1$, by Lemma 4.1. The circle is disjoint from every $a_j$. It crosses the two corresponding vertical loops once each, with opposite intersection signs, and no other $b_j$. These intersections determine its class in the integral symplectic basis of Proposition 4.2, giving (4.4). See Figure 2. ◻
 
 **Figure 2:** The horizontal slit leaves a gap about the collision point $a/2$. A small circle about that gap crosses the slit twice. Its lift has one arc on sheet $i$ and the other on sheet $i+1$; its two intersections with the lifted vertical cycles have opposite signs. This identifies the vanishing class as $\pm(a_i-a_{i+1})$. Opposite edges of the torus rectangle are identified; its coordinates range over $[0,1]\times[-1/4,3/4]$, so $-s$ is plotted at $1-s$. In the right panel, solid and dashed arcs distinguish the two sheets.
 
 **Theorem 4.5**. *In one integral basis $a_i,b_i$ as above, the geometric monodromy of the constant-$E$ family contains operators $T_a,T_b$ satisfying $$\begin{align}
  T_a(a_j)&=a_j,&
  T_a(b_j)&=b_j+\sigma_a(2a_j-a_{j-1}-a_{j+1}),
- \label{mon:Ta}\\
+ \tag{4.5}\\
  T_b(b_j)&=b_j,&
  T_b(a_j)&=a_j+\sigma_b(2b_j-b_{j-1}-b_{j+1}),
- \label{mon:Tb}
+ \tag{4.6}
 \end{align}$$ where $\sigma_a,\sigma_b\in\{1,-1\}$ are independent of $j$. Equivalently, their two off-diagonal entries, in the basis of the free $\mathbb Z[\Gamma_m]$-module, are $\sigma_a(2-u-u^{-1})$ and $\sigma_b(2-u-u^{-1})$. The geometric monodromy of the family over $U$ contains these actions as well, under the pullback identification.*
 
-*Proof.* The Picard–Lefschetz formula for a positively oriented loop about a semistable fiber is the product of the Dehn twists at its nodes; see (Deligne and Katz 1973, Exposé XV). In the present family, every node has smoothing order one by (geo:node-equation), so every twist has exponent one. The vanishing cycles are disjoint. Their intersection pairings with one another therefore vanish, and the product acts on a class $\gamma$ by $$\begin{equation}
-\label{mon:PL}
+*Proof.* The Picard–Lefschetz formula for a positively oriented loop about a semistable fiber is the product of the Dehn twists at its nodes; see (Deligne and Katz 1973, Exposé XV). In the present family, every node has smoothing order one by (3.7), so every twist has exponent one. The vanishing cycles are disjoint. Their intersection pairings with one another therefore vanish, and the product acts on a class $\gamma$ by $$\begin{equation}
+\tag{4.7}
  \gamma\longmapsto
  \gamma+\sigma\sum_i
  \langle\gamma,\delta_i\rangle[\delta_i],
-\end{equation}$$ with one sign $\sigma$ depending only on the intersection convention. Substituting (mon:delta) gives zero on the $a_j$ and, up to this one sign, $$(a_j-a_{j+1})-(a_{j-1}-a_j)
-   =2a_j-a_{j-1}-a_{j+1}$$ on $b_j$. This proves (mon:Ta). Replacing the horizontal path by $R_s=(s/n)b$ gives (mon:Tb), initially in the basis obtained from the corresponding vertical slit.
+\end{equation}$$ with one sign $\sigma$ depending only on the intersection convention. Substituting (4.4) gives zero on the $a_j$ and, up to this one sign, $$(a_j-a_{j+1})-(a_{j-1}-a_j)
+   =2a_j-a_{j-1}-a_{j+1}$$ on $b_j$. This proves (4.5). Replacing the horizontal path by $R_s=(s/n)b$ gives (4.6), initially in the basis obtained from the corresponding vertical slit.
 
-It remains to compare the two bases; this matters because separate triangular matrices in unrelated bases would not give the stated conclusion. Choose the starting parameters of both paths sufficiently close to $O$. The horizontal loop at $y=1/2$ and the vertical loop at $x=1/2$ avoid one fixed small disk about $O$ and avoid both short slits. Outside this disk the covering extends across $R=O$ as $m$ disjoint sheets. Trivialize it over a small, simply connected parameter disk containing $O$, and use this trivialization to label the lifts of the two fixed loops. Parallel transport between the starting parameters now identifies both sets of $a_i,b_i$ with the same basis. There is no monodromy ambiguity from circling $O$ on these classes: the sheet trivialization extends over $O$ itself. A different initial labeling makes only a common cyclic shift, which leaves (mon:Ta)–(mon:Tb) unchanged.
+It remains to compare the two bases; this matters because separate triangular matrices in unrelated bases would not give the stated conclusion. Choose the starting parameters of both paths sufficiently close to $O$. The horizontal loop at $y=1/2$ and the vertical loop at $x=1/2$ avoid one fixed small disk about $O$ and avoid both short slits. Outside this disk the covering extends across $R=O$ as $m$ disjoint sheets. Trivialize it over a small, simply connected parameter disk containing $O$, and use this trivialization to label the lifts of the two fixed loops. Parallel transport between the starting parameters now identifies both sets of $a_i,b_i$ with the same basis. There is no monodromy ambiguity from circling $O$ on these classes: the sheet trivialization extends over $O$ itself. A different initial labeling makes only a common cyclic shift, which leaves (4.5)–(4.6) unchanged.
 
 Both loops therefore define the asserted operators in a single geometric monodromy group. Pullback along the open parameter curve in $E\to U$ maps its fundamental group into that of $U$, so these operators occur in the latter image too. Removing additional finitely many points from either smooth parameter open induces a surjection on fundamental groups and does not remove any of the operators. ◻
 
@@ -228,10 +228,10 @@ The operator $2-u-u^{-1}$ is the cyclic difference operator arising from the adj
 The cyclic covers now supply the Galois representations through which we will transfer automorphy. The involution identifies opposite rotation characters, giving each character space the determinant and Hodge–Tate weights of an elliptic curve. The integral regular-module calculation will then give congruences even at primes dividing the covering degree.
 
 Return to an imaginary quadratic field $K$ and a non-CM elliptic curve $E/K$. By Serre’s open image theorem (Serre 1972, sec. 4.4, Théorème 3), choose a prime $p>100$ such that the image of $G_K$ on $E[p]$ contains $\mathop{\mathrm{SL}}_2(\mathbb F_p)$. Set $$\begin{equation}
-\label{sys:standing-fields}
+\tag{5.1}
  n=3p,\qquad F=K(\mu_n).
 \end{equation}$$ Both $K/\mathbb Q$ and $\mathbb Q(\mu_n)/\mathbb Q$ are abelian, so $F/\mathbb Q$ is abelian. It is a CM field: complex conjugation is central, its fixed field is totally real, and $F$ has no real embedding because it contains $K$. Moreover, $$\begin{equation}
-\label{sys:no-fifth-roots}
+\tag{5.2}
  \zeta_5\notin F.
 \end{equation}$$ Indeed, $\mathbb Q(\mu_n)$ is unramified at $5$, and the ramification index of $F$ at $5$ is consequently at most $[K:\mathbb Q]=2$. A field containing $\mathbb Q(\zeta_5)$ has ramification index divisible by $4$ at $5$.
 
@@ -239,11 +239,11 @@ Apply the construction of Lemma 3.1 with this $n$. Write $U\subset\mathbb A^1_K
 
 ### Character spaces
 
-Fix an embedding $\overline\mathbb Q\hookrightarrow\mathbb C$ and put $M=\mathbb Q(\mu_n)\subset\overline\mathbb Q$. For each rational prime $\ell$, choose an embedding $j_\ell:\overline\mathbb Q\hookrightarrow\overline\mathbb Q_\ell$ and an isomorphism $\iota_\ell:\overline\mathbb Q_\ell\xrightarrow{\sim}\mathbb C$ whose composition with $j_\ell$ is the fixed complex embedding. Every rotation character in this section is a homomorphism $$\theta:\mu_n(F)\longrightarrow M^\times.$$ Write $C_m(t)=C_{m,t}$ for a fiber of the family. For the curve $C_n=C_n(t)$, define $$\begin{equation}
-\label{sys:definition}
+Fix an embedding $\overline{\mathbb Q}\hookrightarrow\mathbb C$ and put $M=\mathbb Q(\mu_n)\subset\overline{\mathbb Q}$. For each rational prime $\ell$, choose an embedding $j_\ell:\overline{\mathbb Q}\hookrightarrow\overline{\mathbb Q}_\ell$ and an isomorphism $\iota_\ell:\overline{\mathbb Q}_\ell\xrightarrow{\sim}\mathbb C$ whose composition with $j_\ell$ is the fixed complex embedding. Every rotation character in this section is a homomorphism $$\theta:\mu_n(F)\longrightarrow M^\times.$$ Write $C_m(t)=C_{m,t}$ for a fiber of the family. For the curve $C_n=C_n(t)$, define $$\begin{equation}
+\tag{5.3}
  V_{\theta,\ell}
  =\bigl\{x\in H^1_{\mathrm{\acute et}}
-       (C_{n,\overline F},\overline\mathbb Q_\ell):
+       (C_{n,\overline F},\overline{\mathbb Q}_\ell):
        u^*x=j_\ell(\theta(u))x\text{ for all }u\in\mu_n(F)\bigr\}.
 \end{equation}$$ Here $u$ denotes the deck transformation with multiplier $u$. All deck transformations are defined over $F$, so these are $G_F$-representations. We write $V_\theta$ for the collection of these realizations. In a congruence at $\ell$, all characters use the same embedding $j_\ell$; this convention is essential when comparing their reductions.
 
@@ -257,8 +257,8 @@ Fix an embedding $\overline\mathbb Q\hookrightarrow\mathbb C$ and put $M=\mathbb
 
 *Proof.* The rank-two regular-module statement of Proposition 4.2, followed by comparison between singular and $\ell$-adic cohomology, gives $\dim V_{\theta,\ell}=2$.
 
-Let $\langle\ ,\ \rangle$ be the cup-product pairing on $H^1(C_n)$, with values in $\overline\mathbb Q_\ell(-1)$. It pairs the $\theta$-space perfectly with the $\theta^{-1}$-space. The involution $w$ is defined over $F$, preserves cup product, and exchanges these two spaces. Consequently $$[x,y]_\theta=\langle x,w^*y\rangle,
- \qquad x,y\in V_{\theta,\ell},$$ is a perfect $G_F$-equivariant pairing into $\overline\mathbb Q_\ell(-1)$. It is alternating, because $$\langle y,w^*x\rangle
+Let $\langle\ ,\ \rangle$ be the cup-product pairing on $H^1(C_n)$, with values in $\overline{\mathbb Q}_\ell(-1)$. It pairs the $\theta$-space perfectly with the $\theta^{-1}$-space. The involution $w$ is defined over $F$, preserves cup product, and exchanges these two spaces. Consequently $$[x,y]_\theta=\langle x,w^*y\rangle,
+ \qquad x,y\in V_{\theta,\ell},$$ is a perfect $G_F$-equivariant pairing into $\overline{\mathbb Q}_\ell(-1)$. It is alternating, because $$\langle y,w^*x\rangle
    =\langle w^*y,x\rangle
    =-\langle x,w^*y\rangle.$$ A perfect alternating pairing on a two-dimensional space identifies its determinant with the target line. This proves $\det V_{\theta,\ell}=\epsilon_\ell^{-1}$.
 
@@ -274,8 +274,8 @@ Finally, $H^1(C_n)$ is the first cohomology of its Jacobian. Faltings’ semisim
 The characters of orders one and three will connect the new systems to elliptic curves. For the order-three character, the involution produces a genus-one quotient rather than merely an abstract rank-two summand.
 
 **Proposition 5.2**. *If $\theta$ has order $m>1$ dividing $n$, the system $V_\theta$ is realized by the corresponding character space in $H^1(C_m)$. For the trivial character, $$V_{1,\ell}\simeq H^1_{\mathrm{\acute et}}
-                  (B_{t,\overline F},\overline\mathbb Q_\ell).$$ Let $D_t=C_3(t)/\langle w\rangle$ and $A_t=\mathop{\mathrm{Jac}}(D_t)$. Then $D_t$ has genus one, $A_t$ is an elliptic curve over $F$, and for either nontrivial order-three character $\eta$ there are $G_F$-equivariant isomorphisms $$V_{\eta,\ell}\simeq
- H^1_{\mathrm{\acute et}}(A_{t,\overline F},\overline\mathbb Q_\ell)
+                  (B_{t,\overline F},\overline{\mathbb Q}_\ell).$$ Let $D_t=C_3(t)/\langle w\rangle$ and $A_t=\mathop{\mathrm{Jac}}(D_t)$. Then $D_t$ has genus one, $A_t$ is an elliptic curve over $F$, and for either nontrivial order-three character $\eta$ there are $G_F$-equivariant isomorphisms $$V_{\eta,\ell}\simeq
+ H^1_{\mathrm{\acute et}}(A_{t,\overline F},\overline{\mathbb Q}_\ell)
  \qquad\text{for every }\ell.$$*
 
 *Proof.* The quotient map $C_n\to C_m$ sends the covering coordinate $Y$ to $Y^{n/m}$. Pullback is injective on rational cohomology, since its composition with trace is multiplication by the degree. Its image is the subspace fixed by the kernel of $\mu_n\to\mu_m$. The rank-two calculation therefore identifies its order-$m$ character summand with $V_{\theta,\ell}$. The same argument for the quotient $C_n\to B_t$ identifies the trivial character space.
@@ -288,7 +288,7 @@ A character projector contains the denominator $n$ and cannot by itself establis
 
 **Lemma 5.3**. *Fix $t\in U(K)$ and a prime $\ell$. Let $L/\mathbb Q_\ell$ be a finite extension containing $j_\ell(M)$, with ring of integers $\mathcal O$, maximal ideal $\mathfrak m$, and residue field $k$. For a rotation character $\theta$, the module $$\mathcal T_\theta=
  H^1_{\mathrm{\acute et}}(C_{n,\overline F},\mathbb Z_\ell)
- \otimes_{\mathbb Z_\ell[\mu_n],\,j_\ell\theta}\mathcal O$$ is a free rank-two $G_F$-stable lattice realizing $V_{\theta,\ell}$ after extension to $\overline\mathbb Q_\ell$. If $j_\ell\theta$ and $j_\ell\theta'$ have the same reduction as characters $\mu_n\to k^\times$, then $$\mathcal T_\theta/\mathfrak m\mathcal T_\theta
+ \otimes_{\mathbb Z_\ell[\mu_n],\,j_\ell\theta}\mathcal O$$ is a free rank-two $G_F$-stable lattice realizing $V_{\theta,\ell}$ after extension to $\overline{\mathbb Q}_\ell$. If $j_\ell\theta$ and $j_\ell\theta'$ have the same reduction as characters $\mu_n\to k^\times$, then $$\mathcal T_\theta/\mathfrak m\mathcal T_\theta
  \simeq
  \mathcal T_{\theta'}/\mathfrak m\mathcal T_{\theta'}$$ as $k[G_F]$-modules.*
 
@@ -299,10 +299,10 @@ After reduction, the displayed tensor product becomes $$H^1_{\mathrm{\acute et}}
  \otimes_{\mathbb Z_\ell[\mu_n],\,\overline\theta} k.$$ It depends only on the residual evaluation map $\overline\theta$. This proves the asserted isomorphism without assuming that $\ell$ is prime to $n$. ◻
 
 Choose a primitive character $\chi$ of order $n=3p$ and write its unique primary decomposition as $$\chi=\psi\eta,\qquad \operatorname{ord}(\psi)=p,
- \qquad \operatorname{ord}(\eta)=3.$$ For a system $V_\theta$, write $\overline V_{\theta,\ell}$ for the semisimplified reduction of a stable lattice, with scalars extended to $\overline\mathbb F_\ell$. This representation is independent of the choice of stable lattice.
+ \qquad \operatorname{ord}(\eta)=3.$$ For a system $V_\theta$, write $\overline V_{\theta,\ell}$ for the semisimplified reduction of a stable lattice, with scalars extended to $\overline{\mathbb F}_\ell$. This representation is independent of the choice of stable lattice.
 
 **Corollary 5.4**. *For every $t\in U(K)$ there are isomorphisms $$\begin{equation}
-\label{sys:congruence-chain}
+\tag{5.4}
  \overline V_{\eta,p}\simeq\overline V_{\chi,p},
  \qquad
  \overline V_{\chi,3}\simeq\overline V_{\psi,3},
@@ -318,20 +318,20 @@ The direction of propagation is now fixed: automorphy will pass from $V_\eta$ to
 
 The congruences of Corollary 5.4 connect the cohomology of the auxiliary elliptic curve $A$ to that of the twist $B_t$ of $E$. To turn them into a proof of automorphy, we use two results of Caraiani–Newton. We state the precise forms needed here, and then identify the properties that the parameter $t$ must satisfy. All the results quoted from (Caraiani and Newton 2025) use the numbering of its third arXiv version.
 
-**Definition 6.1** (Decomposed genericity). Let $L$ be a number field and let $\overline r:G_L\to\mathop{\mathrm{GL}}_2(\overline\mathbb F_l)$ be continuous. The representation is *decomposed generic* if there is a rational prime $q\ne l$ splitting completely in $L$ such that, for every $v\mid q$, it is unramified at $v$ and its Frobenius eigenvalues $\alpha_v,\beta_v$ satisfy $$\alpha_v/\beta_v\ne q,\qquad \beta_v/\alpha_v\ne q
- \quad\text{in }\overline\mathbb F_l.$$
+**Definition 6.1** (Decomposed genericity). Let $L$ be a number field and let $\overline r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb F}_l)$ be continuous. The representation is *decomposed generic* if there is a rational prime $q\ne l$ splitting completely in $L$ such that, for every $v\mid q$, it is unramified at $v$ and its Frobenius eigenvalues $\alpha_v,\beta_v$ satisfy $$\alpha_v/\beta_v\ne q,\qquad \beta_v/\alpha_v\ne q
+ \quad\text{in }\overline{\mathbb F}_l.$$
 
 This is (Caraiani and Newton 2025, Definition 2.1.27). Our construction will give $q\equiv1\pmod l$, so it is enough to make the two eigenvalues distinct at *every* place above $q$.
 
 We use potential ordinarity of Galois representations in the convention of Section 2. The corresponding automorphic condition, called *$\iota$-ordinarity of weight zero*, is the ordinary Hecke condition used in (Caraiani and Newton 2025, Theorem 5.2). It is imposed at a sufficiently deep level and therefore allows ramified finite-order characters. We will obtain it only for quadratic twists of Steinberg, using the local calculation in (Caraiani and Newton 2025, Lemma 6.1.3(4)).
 
-**Theorem 6.2** (Caraiani–Newton, specialized form). *Let $L$ be a CM number field and $l$ an odd prime other than $5$. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline\mathbb Q_l)$ be continuous, unramified outside finitely many places, with determinant $\epsilon_l^{-1}$. Suppose that $r$ is potentially semistable with labeled Hodge–Tate weights $0,1$ at every $v\mid l$, that $\overline r$ is decomposed generic, and that $\overline r|_{G_{L(\zeta_l)}}$ is absolutely irreducible.*
+**Theorem 6.2** (Caraiani–Newton, specialized form). *Let $L$ be a CM number field and $l$ an odd prime other than $5$. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb Q}_l)$ be continuous, unramified outside finitely many places, with determinant $\epsilon_l^{-1}$. Suppose that $r$ is potentially semistable with labeled Hodge–Tate weights $0,1$ at every $v\mid l$, that $\overline r$ is decomposed generic, and that $\overline r|_{G_{L(\zeta_l)}}$ is absolutely irreducible.*
 
-*Suppose there are a cuspidal weight-zero regular algebraic representation $\pi$ of $\mathop{\mathrm{PGL}}_2(\mathbb A_L)$ and an isomorphism $\iota:\overline\mathbb Q_l\xrightarrow{\sim}\mathbb C$ for which $\overline{r_\iota(\pi)}\simeq\overline r$. At each $v\mid l$, assume one of the following:*
+*Suppose there are a cuspidal weight-zero regular algebraic representation $\pi$ of $\mathop{\mathrm{PGL}}_2(\mathbb A_L)$ and an isomorphism $\iota:\overline{\mathbb Q}_l\xrightarrow{\sim}\mathbb C$ for which $\overline{r_\iota(\pi)}\simeq\overline r$. At each $v\mid l$, assume one of the following:*
 
-1)  *Both local Galois representations are potentially crystalline; one is potentially ordinary of weight zero if and only if the other is; and $\mathop{\mathrm{rec}}_{L_v}(\pi_v)$ has zero monodromy.*
+(i) *Both local Galois representations are potentially crystalline; one is potentially ordinary of weight zero if and only if the other is; and $\mathop{\mathrm{rec}}_{L_v}(\pi_v)$ has zero monodromy.*
 
-2)  *Neither local Galois representation is potentially crystalline, and $\pi$ is $\iota$-ordinary of weight zero at $v$.*
+(ii) *Neither local Galois representation is potentially crystalline, and $\pi$ is $\iota$-ordinary of weight zero at $v$.*
 
 *Then $r\simeq r_\iota(\Pi)$ for a cuspidal weight-zero regular algebraic representation $\Pi$ of $\mathop{\mathrm{PGL}}_2(\mathbb A_L)$.*
 
@@ -343,7 +343,7 @@ This is (Caraiani and Newton 2025, Theorem 6.1 and Lemma 6.1.3), after dualizi
 
 For later use we also record the compatibility available after an elliptic curve itself is known to be modular.
 
-**Theorem 6.4** (Compatibility for modular elliptic curves). *Let $D/L$ be a non-CM elliptic curve over a CM number field. Suppose that a regular algebraic cuspidal representation $\pi$ realizes $H^1(D)$ at one coefficient prime. Then $\pi$ has weight zero and trivial central character, realizes $H^1(D)$ at every coefficient prime and every coefficient isomorphism, and satisfies $$\iota\mathop{\mathrm{WD}}\bigl(H^1(D,\overline\mathbb Q_l)|_{G_{L_v}}\bigr)^{\mathrm{F\text{-}ss}}
+**Theorem 6.4** (Compatibility for modular elliptic curves). *Let $D/L$ be a non-CM elliptic curve over a CM number field. Suppose that a regular algebraic cuspidal representation $\pi$ realizes $H^1(D)$ at one coefficient prime. Then $\pi$ has weight zero and trivial central character, realizes $H^1(D)$ at every coefficient prime and every coefficient isomorphism, and satisfies $$\iota\mathop{\mathrm{WD}}\bigl(H^1(D,\overline{\mathbb Q}_l)|_{G_{L_v}}\bigr)^{\mathrm{F\text{-}ss}}
  \simeq\mathop{\mathrm{rec}}^T_{L_v}(\pi_v)\qquad(v\nmid l).$$ If $D$ has potentially multiplicative reduction at $v\mid l$, then $\pi$ is $\iota$-ordinary of weight zero there.*
 
 This is (Caraiani and Newton 2025, Lemma 6.1.3). For the intermediate systems, which need not come from elliptic curves, we use instead the general existence and good-place compatibility of $r_\iota(\pi)$ from (Harris et al. 2016; Scholze 2015), and Varma’s equality of the underlying semisimplified Weil representations at $v\nmid l$ (Varma 2024, Theorem 1). The local reduction analysis in Section 7 will supply the additional facts needed in Theorem 6.2.
@@ -403,7 +403,7 @@ The third possibility in Proposition 7.3 must force nonzero monodromy on *each*
 **Lemma 7.4**. *Let $L/\mathbb Q_\ell$ be finite and let $A/L$ be an abelian variety of dimension $g$. Suppose that $A$ acquires semistable reduction of toric rank $g$ after a finite extension. For every prime $d$, the monodromy operator on the Weil–Deligne representation of $H^1_{\mathrm{et}}(A_{\overline L},\mathbb Q_d)$ has rank $g$. For $d=\ell$, the Weil–Deligne representation is the one attached to the potentially semistable representation by $\ell$-adic Hodge theory.*
 
 *Proof.* Monodromy rank does not change after finite extension. We may therefore assume that $A$ has split toric uniformization $$A^{\mathrm{an}}\simeq (\mathbb G_m^g)^{\mathrm{an}}/\Lambda,$$ where $\Lambda\simeq\mathbb Z^g$ is rational over $L$. Choosing bases of the torus and lattice writes the periods as a matrix $(q_{ij})\in(L^\times)^{g\times g}$. The valuation pairing is nondegenerate, so $$\begin{equation}
-\label{loc:valuation-matrix}
+\tag{7.1}
  \bigl(v_L(q_{ij})\bigr)_{1\leq i,j\leq g}
  \quad\text{is nonsingular.}
 \end{equation}$$ This is the toric case of the monodromy pairing for a semistable abelian variety (Grothendieck et al. 1972, Exposé IX); its realization on de Rham cohomology is described in (Coleman and Iovita 1999).
@@ -411,14 +411,14 @@ The third possibility in Proposition 7.3 must force nonzero monodromy on *each*
 If $d\ne\ell$, the same pairing describes the monodromy map from the lattice quotient to the toric subspace of the Tate module. Its nondegeneracy gives rank $g$. We now prove this rank assertion for $d=\ell$.
 
 Toric uniformization supplies an exact sequence $$\begin{equation}
-\label{loc:tate-extension}
+\tag{7.2}
  0\longrightarrow\mathbb Q_\ell(1)^g\longrightarrow V_\ell(A)
    \longrightarrow\mathbb Q_\ell^g\longrightarrow0,
-\end{equation}$$ whose extension classes are the Kummer classes of the $q_{ij}$. The representation is semistable, by the semistable comparison theorem for abelian varieties (Coleman and Iovita 1999). Let $L_{\mathrm{ur}}$ be the maximal unramified subfield of $L$, and write $D_{\mathrm{st}}$ for Fontaine’s semistable functor over $L$. On the two outer terms of (loc:tate-extension), monodromy is zero. Consequently it induces a map $$\nu:D_{\mathrm{st}}(\mathbb Q_\ell^g)
+\end{equation}$$ whose extension classes are the Kummer classes of the $q_{ij}$. The representation is semistable, by the semistable comparison theorem for abelian varieties (Coleman and Iovita 1999). Let $L_{\mathrm{ur}}$ be the maximal unramified subfield of $L$, and write $D_{\mathrm{st}}$ for Fontaine’s semistable functor over $L$. On the two outer terms of (7.2), monodromy is zero. Consequently it induces a map $$\nu:D_{\mathrm{st}}(\mathbb Q_\ell^g)
        \longrightarrow D_{\mathrm{st}}(\mathbb Q_\ell(1)^g).$$ After the standard identifications, Frobenius on these two spaces is respectively $\sigma$ and $\ell^{-1}\sigma$, with $\sigma$ the Frobenius of $L_{\mathrm{ur}}/\mathbb Q_\ell$. The identity $N\varphi=\ell\varphi N$ therefore makes $\ker\nu\subset L_{\mathrm{ur}}^g$ stable under $\sigma$.
 
-Suppose that $\nu$ has rank less than $g$. Finite Galois descent for $L_{\mathrm{ur}}/\mathbb Q_\ell$ then gives a nonzero vector $a=(a_j)\in\mathbb Q_\ell^g\cap\ker\nu$. Pull (loc:tate-extension) back along the line spanned by $a$ in its trivial quotient. The resulting extension of $\mathbb Q_\ell$ by $\mathbb Q_\ell(1)^g$ is semistable and has zero monodromy, hence is crystalline. Under Kummer theory the Bloch–Kato crystalline subspace $H_f^1(L,\mathbb Q_\ell(1))$ is the kernel of the valuation map (Bloch and Kato 1990, Example 3.9). Applying this to each coordinate of the pulled-back extension gives $$\sum_{j=1}^g a_jv_L(q_{ij})=0
- \qquad(1\leq i\leq g),$$ contrary to (loc:valuation-matrix). Thus $N$ has rank $g$ on $V_\ell(A)$. Dualizing gives the same rank on $H^1_{\mathrm{et}}(A_{\overline L},\mathbb Q_\ell)$. ◻
+Suppose that $\nu$ has rank less than $g$. Finite Galois descent for $L_{\mathrm{ur}}/\mathbb Q_\ell$ then gives a nonzero vector $a=(a_j)\in\mathbb Q_\ell^g\cap\ker\nu$. Pull (7.2) back along the line spanned by $a$ in its trivial quotient. The resulting extension of $\mathbb Q_\ell$ by $\mathbb Q_\ell(1)^g$ is semistable and has zero monodromy, hence is crystalline. Under Kummer theory the Bloch–Kato crystalline subspace $H_f^1(L,\mathbb Q_\ell(1))$ is the kernel of the valuation map (Bloch and Kato 1990, Example 3.9). Applying this to each coordinate of the pulled-back extension gives $$\sum_{j=1}^g a_jv_L(q_{ij})=0
+ \qquad(1\leq i\leq g),$$ contrary to (7.1). Thus $N$ has rank $g$ on $V_\ell(A)$. Dualizing gives the same rank on $H^1_{\mathrm{et}}(A_{\overline L},\mathbb Q_\ell)$. ◻
 
 ### Open conditions on the original parameter
 
@@ -465,24 +465,24 @@ Finally, suppose that $J_t$ has potentially toric rank $n$. Lemma 7.4 gives ran
 We now choose a single parameter for the congruence chain. The geometric monodromy supplies irreducibility and suitable Frobenius elements, whereas Hilbert irreducibility allows us to retain these elements after imposing the local conditions of Section 7. To obtain decomposed genericity, we must control every place above a split rational prime. We therefore specialize the two conjugate parameter families together.
 
 Throughout this section, $K,E,p,n,F,U$ have the meanings fixed in Section 5. In particular, $p>100$, $n=3p$, and $F=K(\mu_n)$. The pairs of covering degree and residual characteristic that require geometric monodromy are $$\begin{equation}
-\label{res:pairs}
+\tag{8.1}
  (m,\ell)=(3,p),\quad(3,5),\quad(p,3).
 \end{equation}$$ In each case $\ell\nmid m$, so the residual cohomology decomposes into rotation-character spaces after extending its finite coefficient field.
 
 ### Consequences of the two monodromy transformations
 
-**Lemma 8.1**. *For each pair in (res:pairs), the geometric monodromy of $H^1(C_m,\overline\mathbb F_\ell)$ on every nontrivial rotation-character space is absolutely irreducible. Its image contains opposite nonidentity root unipotents on that space. Moreover, one element of the geometric monodromy acts regular semisimply on all these nontrivial character spaces simultaneously. These statements also hold for the conjugate family over $K$.*
+**Lemma 8.1**. *For each pair in (8.1), the geometric monodromy of $H^1(C_m,\overline{\mathbb F}_\ell)$ on every nontrivial rotation-character space is absolutely irreducible. Its image contains opposite nonidentity root unipotents on that space. Moreover, one element of the geometric monodromy acts regular semisimply on all these nontrivial character spaces simultaneously. These statements also hold for the conjugate family over $K$.*
 
-*Proof.* We first work with homology; duality will give the cohomological statements. On the character space with generator eigenvalue $\lambda\in\overline\mathbb F_\ell^\times$, the transformations of Theorem 4.5 have the form $$T_a=\begin{pmatrix}1&\sigma c_\lambda\\0&1\end{pmatrix},
+*Proof.* We first work with homology; duality will give the cohomological statements. On the character space with generator eigenvalue $\lambda\in\overline{\mathbb F}_\ell^\times$, the transformations of Theorem 4.5 have the form $$T_a=\begin{pmatrix}1&\sigma c_\lambda\\0&1\end{pmatrix},
  \qquad
  T_b=\begin{pmatrix}1&0\\\tau c_\lambda&1\end{pmatrix},
  \qquad
  c_\lambda=2-\lambda-\lambda^{-1},$$ where $\sigma,\tau\in\{1,-1\}$. Since $c_\lambda=-(\lambda-1)^2/\lambda$, it is nonzero when $\lambda\ne1$. The two matrices have different unique invariant lines, even over the algebraic closure. Hence their common representation is absolutely irreducible.
 
 The product $T_aT_b^k$ has determinant one and trace $$\begin{equation}
-\label{res:trace-product}
+\tag{8.2}
  2+\sigma\tau k c_\lambda^2.
-\end{equation}$$ In odd characteristic, a determinant-one matrix is regular semisimple exactly when its trace is different from $2$ and $-2$. If $m=3$, then $\lambda+\lambda^{-1}=-1$, so $c_\lambda=3$ for both nontrivial characters. Take $k=2$. The two possible traces in (res:trace-product) are $20$ and $-16$. Modulo $5$ these are $0$ and $4$, and neither equals $2$ or $-2$; modulo $p>100$ they again avoid $2$ and $-2$.
+\end{equation}$$ In odd characteristic, a determinant-one matrix is regular semisimple exactly when its trace is different from $2$ and $-2$. If $m=3$, then $\lambda+\lambda^{-1}=-1$, so $c_\lambda=3$ for both nontrivial characters. Take $k=2$. The two possible traces in (8.2) are $20$ and $-16$. Modulo $5$ these are $0$ and $4$, and neither equals $2$ or $-2$; modulo $p>100$ they again avoid $2$ and $-2$.
 
 For $m=p$ and $\ell=3$, take $k=1$. Failure of regular semisimplicity would force $c_\lambda^2=4$ or $-4$, since $c_\lambda\ne0$. Multiplying either equation by $\lambda^2$ gives a polynomial of degree four over $\mathbb F_3$ satisfied by $\lambda$. Its degree over $\mathbb F_3$ is therefore some $d\le4$, and its order divides $3^d-1\le80$. This contradicts the fact that its order is the prime $p>100$. Thus the same product works for every nontrivial character in this case as well.
 
@@ -495,12 +495,11 @@ The trivial character requires a different argument, since the geometric family 
 **Lemma 8.2**. *For every $t\in U(K)$, the representation $\overline V_{1,p}$ is absolutely irreducible on $G_{F(\zeta_p)}$ and is decomposed generic over $F$.*
 
 *Proof.* Let $\Gamma$ be the image of $G_K$ on $E[p]$. The abelian extension $F/K$ implies that the image of $G_F$ contains $[\Gamma,\Gamma]$. Since $\Gamma$ contains $\mathop{\mathrm{SL}}_2(\mathbb F_p)$ and this group is perfect for $p>3$, its commutator subgroup is $\mathop{\mathrm{SL}}_2(\mathbb F_p)$: one inclusion follows from perfectness, and the other from the determinant map. Moreover, the determinant is trivial on $G_F$ because $\mu_p\subset F$. We have therefore proved $$\begin{equation}
-\label{res:SL2-image}
+\tag{8.3}
  \rho_{E,p}(G_F)=\mathop{\mathrm{SL}}_2(\mathbb F_p).
 \end{equation}$$ The same equality holds for the conjugate curve $E^c$, where $c$ is the nontrivial automorphism of $K/\mathbb Q$, because $F/\mathbb Q$ is normal.
 
-Consider the joint image $$J\subset\mathop{\mathrm{SL}}_2(\mathbb F_p)\times\mathop{\mathrm{SL}}_2(\mathbb F_p)$$ of $G_F$ on $E[p]$ and $E^c[p]$. Both projections are surjective. In $\mathop{\mathrm{SL}}_2(\mathbb F_p)$ there are exactly $p^2$ matrices of trace $2$. Indeed, writing a matrix as $\left(\begin{smallmatrix}a&b\\c&d
-\end{smallmatrix}\right)$, the trace and determinant conditions give $d=2-a$ and $bc=-(a-1)^2$. The value $a=1$ gives $2p-1$ choices for $(b,c)$; the other $p-1$ values of $a$ each give $p-1$ choices. Their sum is $p^2$. Replacing a matrix by its negative gives the same count for trace $-2$.
+Consider the joint image $$J\subset\mathop{\mathrm{SL}}_2(\mathbb F_p)\times\mathop{\mathrm{SL}}_2(\mathbb F_p)$$ of $G_F$ on $E[p]$ and $E^c[p]$. Both projections are surjective. In $\mathop{\mathrm{SL}}_2(\mathbb F_p)$ there are exactly $p^2$ matrices of trace $2$. Indeed, writing a matrix as $\left(\begin{smallmatrix}a&b\\c&d \end{smallmatrix}\right)$, the trace and determinant conditions give $d=2-a$ and $bc=-(a-1)^2$. The value $a=1$ gives $2p-1$ choices for $(b,c)$; the other $p-1$ values of $a$ each give $p-1$ choices. Their sum is $p^2$. Replacing a matrix by its negative gives the same count for trace $-2$.
 
 The order of $\mathop{\mathrm{SL}}_2(\mathbb F_p)$ is $p(p^2-1)$. Since each projection of $J$ has equal-sized fibers, the proportion of elements of $J$ whose image in at least one factor has trace $2$ or $-2$ is at most $$2\frac{2p^2}{p(p^2-1)}
  =\frac{4p}{p^2-1}<1.$$ Thus some element of $G_F$ acts regular semisimply on both $E[p]$ and $E^c[p]$.
@@ -516,15 +515,15 @@ We have obtained the requisite geometric elements and dealt with the trivial cha
 We next record precisely the specialization theorem needed to preserve these finite monodromy images. Allowing a constant field in the cover is essential: the Frobenius primes used below must split in a prescribed field.
 
 **Lemma 8.3**. *Let $W$ be a nonempty open subset of $\mathbb A^d_\mathbb Q$, let $D/\mathbb Q$ be a finite Galois extension, and let $H$ be a finite quotient of $\pi_1(W)$ through which the constant-field map factors as $$\pi_1(W)\twoheadrightarrow H\twoheadrightarrow\mathop{\mathrm{Gal}}(D/\mathbb Q).$$ Prescribe nonempty open subsets of $W(\mathbb Q_r)$ for finitely many rational primes $r$. There is a point $x\in W(\mathbb Q)$ in all the prescribed opens for which the specialization map $s_x:G_\mathbb Q\to H$ is surjective. For this point, $$\begin{equation}
-\label{res:constant-kernel}
+\tag{8.4}
  s_x(G_D)=\ker\bigl(H\longrightarrow\mathop{\mathrm{Gal}}(D/\mathbb Q)\bigr).
 \end{equation}$$*
 
-*Proof.* The quotient $H$ defines a connected finite $\acute etale$ Galois cover of $W$. Hilbert irreducibility with weak approximation gives a rational point in the prescribed local opens for which its fiber is connected; see (Serre 2008, Proposition 3.3.1 and Theorem 3.5.3). Connectedness of this Galois fiber is equivalent to surjectivity of $s_x$. Geometric connectedness of the cover is not required. The composition of $s_x$ with $H\to\mathop{\mathrm{Gal}}(D/\mathbb Q)$ is the usual restriction map of absolute Galois groups. Consequently, an element of $H$ in the displayed kernel has a preimage in $G_D$, which proves (res:constant-kernel). ◻
+*Proof.* The quotient $H$ defines a connected finite $\acute etale$ Galois cover of $W$. Hilbert irreducibility with weak approximation gives a rational point in the prescribed local opens for which its fiber is connected; see (Serre 2008, Proposition 3.3.1 and Theorem 3.5.3). Connectedness of this Galois fiber is equivalent to surjectivity of $s_x$. Geometric connectedness of the cover is not required. The composition of $s_x$ with $H\to\mathop{\mathrm{Gal}}(D/\mathbb Q)$ is the usual restriction map of absolute Galois groups. Consequently, an element of $H$ in the displayed kernel has a preimage in $G_D$, which proves (8.4). ◻
 
 **Proposition 8.4**. *Let $S_K$ be a finite set of finite places of $K$ containing all places above $3p$. For each $v_0\in S_K$, prescribe a nonempty open subset $\Omega_{v_0}\subset U(K_{v_0})$. There exists a single $t\in U(K)$ lying in every $\Omega_{v_0}$ such that the following assertions hold over $F=K(\mu_{3p})$.*
 
-1.  *For each $(m,\ell)$ in (res:pairs) and each character $\theta$ of order $m$, the representation $\overline V_{\theta,\ell}$ is absolutely irreducible on $G_{F(\zeta_\ell)}$ and is decomposed generic.*
+1.  *For each $(m,\ell)$ in (8.1) and each character $\theta$ of order $m$, the representation $\overline V_{\theta,\ell}$ is absolutely irreducible on $G_{F(\zeta_\ell)}$ and is decomposed generic.*
 
 2.  *The representation $\overline V_{1,p}$ has these same two properties at $p$.*
 
@@ -532,7 +531,7 @@ We next record precisely the specialization theorem needed to preserve these fin
 
 *In particular, when the opens above $3p$ are those of Proposition 7.5, this same parameter also satisfies all the local conclusions of Corollary 7.6.*
 
-*Proof.* Put $$W=\mathop{\mathrm{Res}}_{K/\mathbb Q}U.$$ Since $U$ is an open subset of $\mathbb A^1_K$, the scheme $W$ is an open subset of $\mathbb A^2_\mathbb Q$. Choose a finite Galois extension $D/\mathbb Q$ containing $F$ and $\zeta_\ell$ for every residual characteristic in (res:pairs). Let $c$ be the nontrivial automorphism of $K/\mathbb Q$, and write $U^c$ and $\mathcal C_m^c$ for the conjugate parameter open and curve family. Then $$W_D\simeq U_D\times (U^c)_D.$$ For all three pairs, pull back the finite local system $H^1(C_m,\mathbb F_\ell)$ from the first factor and $H^1(C_m^c,\mathbb F_\ell)$ from the second.
+*Proof.* Put $$W=\mathop{\mathrm{Res}}_{K/\mathbb Q}U.$$ Since $U$ is an open subset of $\mathbb A^1_K$, the scheme $W$ is an open subset of $\mathbb A^2_\mathbb Q$. Choose a finite Galois extension $D/\mathbb Q$ containing $F$ and $\zeta_\ell$ for every residual characteristic in (8.1). Let $c$ be the nontrivial automorphism of $K/\mathbb Q$, and write $U^c$ and $\mathcal C_m^c$ for the conjugate parameter open and curve family. Then $$W_D\simeq U_D\times (U^c)_D.$$ For all three pairs, pull back the finite local system $H^1(C_m,\mathbb F_\ell)$ from the first factor and $H^1(C_m^c,\mathbb F_\ell)$ from the second.
 
 Their joint monodromy has finite image on $\pi_1(W_D)$. Take the normal core, in $\pi_1(W)$, of the common kernel of these actions. It is an open normal subgroup contained in $\pi_1(W_D)$. The resulting finite quotient $H$ of $\pi_1(W)$ records every listed action and has a quotient $\mathop{\mathrm{Gal}}(D/\mathbb Q)$.
 
@@ -540,7 +539,7 @@ Over $\mathbb C$, a loop in either parameter factor acts trivially on local syst
 
 The prescribed local conditions are compatible with this restriction of scalars. For a rational prime $r$ one has $$W(\mathbb Q_r)=\prod_{v_0\mid r}U(K_{v_0}).$$ The sets $\Omega_{v_0}$ therefore specify nonempty open subsets of $W(\mathbb Q_r)$ for the finitely many relevant $r$; at unprescribed factors impose no additional condition. Apply Lemma 8.3. It gives a point $x\in W(\mathbb Q)$, equivalently $t\in U(K)$, satisfying all these local conditions and inducing a surjection $G_\mathbb Q\to H$. Over $D$, this point has coordinates $(t,t^c)$ in the displayed product. Smooth proper base change identifies the specialized local systems with the residual cohomology of $C_m(t)$ and $C_m^c(t^c)$.
 
-By (res:constant-kernel), every geometric monodromy element used above is the image of an element of $G_D$. The opposite unipotents therefore survive on each specialized character space already over $G_D$, and prove its absolute irreducibility. Since $G_D\subset G_{F(\zeta_\ell)}$, this also proves absolute irreducibility on the latter group. Because $\ell\nmid m$, taking rotation eigenspaces in integral cohomology of $C_m$ commutes with reduction after adjoining the character values. These specialized character spaces are thus reductions of $V_{\theta,\ell}$. The rational identifications and independence of semisimplified reduction in Section 5 show that they give precisely $\overline V_{\theta,\ell}$, including when this system is defined using $C_n$.
+By (8.4), every geometric monodromy element used above is the image of an element of $G_D$. The opposite unipotents therefore survive on each specialized character space already over $G_D$, and prove its absolute irreducibility. Since $G_D\subset G_{F(\zeta_\ell)}$, this also proves absolute irreducibility on the latter group. Because $\ell\nmid m$, taking rotation eigenspaces in integral cohomology of $C_m$ commutes with reduction after adjoining the character values. These specialized character spaces are thus reductions of $V_{\theta,\ell}$. The rational identifications and independence of semisimplified reduction in Section 5 show that they give precisely $\overline V_{\theta,\ell}$, including when this system is defined using $C_n$.
 
 To establish decomposed genericity, fix a pair $(m,\ell)$ and choose a preimage $g\in G_D$ of $h_{m,\ell}$. An element $\sigma\in G_\mathbb Q$ preserves or exchanges the two specialized covers $C_m(t)$ and $C_m^c(t^c)$, according to its restriction to $K$; it also permutes the rotation characters through its action on the roots of unity. The action of $\sigma g\sigma^{-1}$ on a character space of the first cover is therefore conjugate to the action of $g$ on some character space of one of the two covers. The construction imposed regular semisimplicity on all these spaces, so the property holds for every such conjugate.
 
@@ -569,13 +568,13 @@ The next lift also requires information about the local automorphic components a
 
 **Lemma 9.2**. *Suppose that a weight-zero regular algebraic cuspidal representation $\pi$ of $\mathop{\mathrm{PGL}}_2(\mathbb A_F)$ realizes $V_\theta$. Let $l\in\{3,p\}$ and $v\mid l$, and write $J_t=\mathop{\mathrm{Jac}}(C_n(t))$.*
 
-1)  *If $J_t$ has potentially good reduction at $v$, then $\mathop{\mathrm{rec}}_{F_v}(\pi_v)$ has zero monodromy.*
+(i) *If $J_t$ has potentially good reduction at $v$, then $\mathop{\mathrm{rec}}_{F_v}(\pi_v)$ has zero monodromy.*
 
-2)  *If $J_t$ acquires semistable reduction of toric rank $n$ at $v$, then $\pi_v$ is a quadratic or trivial twist of the Steinberg representation, and $\pi$ is $\iota_l$-ordinary of weight zero at $v$.*
+(ii) *If $J_t$ acquires semistable reduction of toric rank $n$ at $v$, then $\pi_v$ is a quadratic or trivial twist of the Steinberg representation, and $\pi$ is $\iota_l$-ordinary of weight zero at $v$.*
 
 *Proof.* Choose a coefficient prime $a$ different from the residue characteristic $l$. Lemma 9.1 identifies $r_{\iota_a}(\pi)$ with $V_{\theta,a}$. Varma’s local-global compatibility theorem identifies the underlying semisimplified Weil representations of its local Weil–Deligne parameter and $\mathop{\mathrm{rec}}^T_{F_v}(\pi_v)$ (Varma 2024, Theorem 1). We use this statement about the Weil representations first; equality of the monodromy operators is not assumed.
 
-In the potentially good case, pass to an extension where the Jacobian has good reduction. All Frobenius eigenvalues on its $H^1$, and hence on the character summand, have complex absolute value the square root of the residue cardinality. Taking a positive power of Frobenius shows that the two eigenvalues before this extension also have the same absolute value. A rank-two Weil–Deligne representation with nonzero monodromy has Frobenius eigenvalues differing by the norm character. They cannot have the same absolute value. Thus the automorphic parameter has zero monodromy. The Tate twist in (eq:tate-normalization) does not change this conclusion.
+In the potentially good case, pass to an extension where the Jacobian has good reduction. All Frobenius eigenvalues on its $H^1$, and hence on the character summand, have complex absolute value the square root of the residue cardinality. Taking a positive power of Frobenius shows that the two eigenvalues before this extension also have the same absolute value. A rank-two Weil–Deligne representation with nonzero monodromy has Frobenius eigenvalues differing by the norm character. They cannot have the same absolute value. Thus the automorphic parameter has zero monodromy. The Tate twist in (2.1) does not change this conclusion.
 
 In the totally toric case, Corollary 7.6 gives nonzero monodromy on $V_{\theta,a}$. Its semisimplified Weil representation is therefore a sum of two characters differing by the norm. For this Weil representation, the two possibilities under the local Langlands correspondence for $\mathop{\mathrm{GL}}_2$ are the special parameter with nonzero monodromy and the zero-monodromy parameter of a one-dimensional local representation. The latter is not generic. Since every local component of a cuspidal automorphic representation of $\mathop{\mathrm{GL}}_2$ is generic, $\pi_v$ is a twist of Steinberg. Its central character is trivial, so the twisting character has square one.
 
@@ -605,18 +604,18 @@ The theorem therefore applies in all three rows. Its conclusion preserves cuspid
 
 We recall why automorphy over the cyclotomic extension suffices here. The character adjustment in the following argument is important: it identifies the descended Galois representation with the prescribed one.
 
-**Lemma 9.4**. *Let $L'/L$ be a cyclic extension of prime degree between CM fields. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline\mathbb Q_l)$ be a continuous representation whose restriction to $G_{L'}$ is absolutely irreducible. Suppose that this restriction is realized by a cuspidal weight-zero regular algebraic representation $\Pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_{L'})$. Then $r$ is realized by a cuspidal weight-zero regular algebraic representation of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$.*
+**Lemma 9.4**. *Let $L'/L$ be a cyclic extension of prime degree between CM fields. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb Q}_l)$ be a continuous representation whose restriction to $G_{L'}$ is absolutely irreducible. Suppose that this restriction is realized by a cuspidal weight-zero regular algebraic representation $\Pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_{L'})$. Then $r$ is realized by a cuspidal weight-zero regular algebraic representation of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$.*
 
 *Proof.* For $\sigma\in\mathop{\mathrm{Gal}}(L'/L)$, the representations $\Pi^\sigma$ and $\Pi$ have the same good-place Hecke polynomials, because the associated Galois representation extends to $G_L$. Strong multiplicity one makes $\Pi$ Galois invariant. The cyclic base-change theorem therefore gives a cuspidal automorphic representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ whose base change is $\Pi$ (Langlands 1980; Arthur and Clozel 1989). Every archimedean place is complex, so its local extension is trivial. Consequently $\pi$ is regular algebraic of weight zero.
 
 Good-place compatibility with base change and Chebotarev imply $$\bigl(r_\iota(\pi)|_{G_{L'}}\bigr)^{\mathrm{ss}}
- \simeq r|_{G_{L'}}.$$ The right-hand side is absolutely irreducible. The restriction on the left is therefore already irreducible and isomorphic to it, without semisimplification. After choosing this isomorphism, the two representations agree on $G_{L'}$. For $g\in G_L$, their matrices at $g$ differ by a scalar, since they induce the same conjugation on the absolutely irreducible representation of $G_{L'}$. Schur’s lemma shows that these scalars form a character $\delta:\mathop{\mathrm{Gal}}(L'/L)\to\overline\mathbb Q_l^{\times}$ and $$r_\iota(\pi)\simeq r\otimes\delta.$$ The finite-order Hecke character corresponding to $\delta^{-1}$ removes this discrepancy. Twisting preserves cuspidality and weight zero, and the compatibility with Galois twisting follows at good places and hence everywhere by Chebotarev. ◻
+ \simeq r|_{G_{L'}}.$$ The right-hand side is absolutely irreducible. The restriction on the left is therefore already irreducible and isomorphic to it, without semisimplification. After choosing this isomorphism, the two representations agree on $G_{L'}$. For $g\in G_L$, their matrices at $g$ differ by a scalar, since they induce the same conjugation on the absolutely irreducible representation of $G_{L'}$. Schur’s lemma shows that these scalars form a character $\delta:\mathop{\mathrm{Gal}}(L'/L)\to\overline{\mathbb Q}_l^{\times}$ and $$r_\iota(\pi)\simeq r\otimes\delta.$$ The finite-order Hecke character corresponding to $\delta^{-1}$ removes this discrepancy. Twisting preserves cuspidality and weight zero, and the compatibility with Galois twisting follows at good places and hence everywhere by Chebotarev. ◻
 
-Since $F/K$ is abelian, choose a tower from $K$ to $F$ with cyclic prime-degree steps. Each intermediate field is abelian over $\mathbb Q$ and contains the imaginary quadratic field $K$, hence is CM. The representation $H^1(B,\overline\mathbb Q_p)$ remains absolutely irreducible over $F$: its residual representation is already absolutely irreducible there. Apply Lemma 9.4 down the tower to Proposition 9.3. This gives automorphy of $B/K$. Finally, $B$ is the quadratic twist of $E$ by $h(t)$, so twisting the automorphic representation by the same quadratic Hecke character gives a cuspidal weight-zero representation $\pi_E$ realizing $H^1(E)$.
+Since $F/K$ is abelian, choose a tower from $K$ to $F$ with cyclic prime-degree steps. Each intermediate field is abelian over $\mathbb Q$ and contains the imaginary quadratic field $K$, hence is CM. The representation $H^1(B,\overline{\mathbb Q}_p)$ remains absolutely irreducible over $F$: its residual representation is already absolutely irreducible there. Apply Lemma 9.4 down the tower to Proposition 9.3. This gives automorphy of $B/K$. Finally, $B$ is the quadratic twist of $E$ by $h(t)$, so twisting the automorphic representation by the same quadratic Hecke character gives a cuspidal weight-zero representation $\pi_E$ realizing $H^1(E)$.
 
 ### Local parameters and the CM case
 
-For non-CM $E$, Theorem 6.4 shows that $\pi_E$ has trivial central character, realizes $H^1(E)$ for every coefficient prime, and has the required Frobenius-semisimplified Weil–Deligne parameter at each finite place, by choosing a coefficient prime different from the residue characteristic. Thus every finite local $L$-factor matches. At infinity a cuspidal representation is generic. The archimedean classification with weight-zero infinitesimal character therefore gives exactly the parameter (eq:infinity-parameter); the finite-dimensional alternative is not generic. Equations (eq:tate-normalization) and (eq:L-shift) give the stated normalization of the local and global $L$-functions.
+For non-CM $E$, Theorem 6.4 shows that $\pi_E$ has trivial central character, realizes $H^1(E)$ for every coefficient prime, and has the required Frobenius-semisimplified Weil–Deligne parameter at each finite place, by choosing a coefficient prime different from the residue characteristic. Thus every finite local $L$-factor matches. At infinity a cuspidal representation is generic. The archimedean classification with weight-zero infinitesimal character therefore gives exactly the parameter (2.2); the finite-dimensional alternative is not generic. Equations (2.1) and (2.3) give the stated normalization of the local and global $L$-functions.
 
 Suppose now that $E$ has complex multiplication by an imaginary quadratic field $M$. Its endomorphisms are defined over $KM$. One way to see this is to use their faithful action on invariant differentials: the eigenvalues lie in $M$, and are fixed by $G_{KM}$. The main theorem of complex multiplication expresses the two one-dimensional constituents of $H^1(E)|_{G_{KM}}$ as the realizations of algebraic Hecke characters, with the infinity types prescribed by the CM type (Shimura and Taniyama 1961).
 

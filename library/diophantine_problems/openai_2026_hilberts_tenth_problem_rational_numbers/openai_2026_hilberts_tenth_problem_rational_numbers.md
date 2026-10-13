@@ -39,7 +39,7 @@ Garcia-Fritz, Pasten, and Vidaux instead adjoined predicates comparing the logar
 ### Proof strategy
 
 Constant polynomials can be decided directly. For each nonconstant integral polynomial $f$, we construct an effectively generated sequence of finite tests. Each test can be answered by finitely many rational-solvability queries, and the sequence satisfies $$\begin{equation}
-\label{intro:finite-test-interface}
+\tag{1.1}
  f\text{ has an integer zero}
  \quad\Longleftrightarrow\quad
  \text{every test succeeds}.
@@ -72,7 +72,7 @@ The elliptic point data first give an additive assignment of integer indices. A 
 ### Elliptic indices and the local comparison
 
 Fix the number field, involution, and elliptic curve $$\begin{equation}
-\label{ell:data}
+\tag{2.1}
  F=\mathbb Q(\sqrt2),\qquad d=75-53\sqrt2,\qquad
  E:\ y^2=x^3-d^2x,
 \end{equation}$$ where $\sigma$ is the nontrivial automorphism of $F/\mathbb Q$. The following result, proved in Section 5, supplies the integer indices.
@@ -80,7 +80,7 @@ Fix the number field, involution, and elliptic curve $$\begin{equation}
 **Proposition 2.1**. *The group $E(F)$ has rank one. Consequently there exist a positive integer $m$ and a nontorsion point $P\in E(F)$ such that $$mE(F)=\mathbb ZP.$$ We fix such $m$ and $P$ once and for all.*
 
 We now describe the point data that the recursive theory will impose. Let $R$ be an integral domain of characteristic zero for which $\sqrt2\notin\mathop{\mathrm{Frac}}(R)$, and write $$R_F=R[\sqrt2],\qquad F_R=\mathop{\mathrm{Frac}}(R)(\sqrt2).$$ For each $a\in R$, consider a point $T_a\in E(F_R)$ subject to $$\begin{equation}
-\label{red:elliptic-axioms}
+\tag{2.2}
 \begin{gathered}
  T_0=O,\qquad T_1=P,\qquad
  T_{a+a'}=T_a+T_{a'}\quad(a,a'\in R),\\
@@ -88,7 +88,7 @@ We now describe the point data that the recursive theory will impose. Let $R$ be
  a\ne0\Longrightarrow T_a\text{ is finite and }x(T_a)y(T_a)\ne0.
 \end{gathered}
 \end{equation}$$ The theory will supply six unary ring-valued functions $x_0,x_1,x_2,y_0,y_1,y_2$. For $a\ne0$, they are required to satisfy $x_2(a)y_2(a)\ne0$ and $$\begin{equation}
-\label{red:coordinate-functions}
+\tag{2.3}
  x(T_a)=\frac{x_0(a)+x_1(a)\sqrt2}{x_2(a)},\qquad
  y(T_a)=\frac{y_0(a)+y_1(a)\sqrt2}{y_2(a)}.
 \end{equation}$$ Their values at $a=0$ are unrestricted, since $T_0=O$. In the integer model we will take $T_a=aP$. Representing the coordinates by ring elements will also let a uniform height bound on $R$ control their heights.
@@ -96,12 +96,12 @@ We now describe the point data that the recursive theory will impose. Let $R$ be
 For the arithmetic analysis, consider an elementary extension of the ordinary many-sorted structure containing $\mathbb Q,\mathbb Z,\mathbb R,F$, the prime and valuation relations, the height functions, the elliptic multiple maps, and the finite-product functions. We call elements of the original structure *ordinary*; starred sorts satisfy the same first-order statements with ordinary parameters. For the moment, suppose that $R$ embeds in the rational sort ${}^*\mathbb Q$ of such an extension. Its fraction-field interpretation embeds $F_R$ in ${}^*F$. A tilde denotes the image of a ring element, field element, or point. Later compactness will supply an extension and an embedded ring with these properties.
 
 The identity $mE(F)=\mathbb ZP$ transfers to this extension: every point of $mE({}^*F)$ has a unique expression $nP$, with $n\in{}^*\mathbb Z$. Define $$\begin{equation}
-\label{red:eta}
+\tag{2.4}
                          \widetilde T_a=\eta(a)P.
 \end{equation}$$ The group-law axioms give $$\begin{equation}
-\label{red:additivity}
+\tag{2.5}
        \eta(a+a')=\eta(a)+\eta(a'),\qquad \eta(1)=1.
-\end{equation}$$ If $\eta(a)=0$, then $T_a=O$, and the finite-point axiom forces $a=0$. Thus $\eta:R\to{}^*\mathbb Z$ is injective and additive. Conjugating (red:eta) gives $\widetilde T_a^\sigma=\eta(a)P^\sigma$. We make no assumption about $\eta(aa')$.
+\end{equation}$$ If $\eta(a)=0$, then $T_a=O$, and the finite-point axiom forces $a=0$. Thus $\eta:R\to{}^*\mathbb Z$ is injective and additive. Conjugating (2.4) gives $\widetilde T_a^\sigma=\eta(a)P^\sigma$. We make no assumption about $\eta(aa')$.
 
 For nonzero $h\in R$, the index ratio of $T_{ha}$ and $T_h$ is $\eta(ha)/\eta(h)$, which need not equal $\eta(a)$. We will recover this ratio locally from point parameters, and use a second comparison to identify it with $\eta(a)$ to the required precision.
 
@@ -109,15 +109,15 @@ For a finite point with $y\ne0$, put $z=-x/y$, and set $z(O)=0$. Every nonzero m
  \ell_K(Z)=Z+\sum_{2\le t\le K}c_tZ^t$$ for the formal logarithm in this parameter and its truncation through degree $K$. The truncations are effectively computable from the fixed equation. Section 5 proves the following uniform statements about integer multiples of the fixed $F$-rational points $P,P^\sigma$.
 
 **Proposition 2.2**. *There is a fixed finite set of rational primes $S_E$ with the following properties. Let $p\notin S_E$, let $v$ be any place of $F$ above $p$, normalized by $v(p)=1$, and let $n,n'\in\mathbb Z$, with $n'\ne0$. Assume $nP,n'P$ reduce to $O$ at $v$. Then $$\begin{equation}
-\label{ell:ratio}
+\tag{2.6}
            v\!\left(\frac{z(nP)}{z(n'P)}\right)=v_p(n/n').
 \end{equation}$$ For every integer $K\ge1$, if in addition $p>K+1$ and $v_p(n/n')\ge0$, then $\ell_K(z(n'P))\ne0$ and $$\begin{equation}
-\label{ell:truncation}
+\tag{2.7}
  v\!\left(\frac{\ell_K(z(nP))}{\ell_K(z(n'P))}-\frac n{n'}\right)
                          \ge K.
 \end{equation}$$ Both assertions also hold at the same place $v$ after replacing $E,P,\ell_K$ by $E^\sigma,P^\sigma,\ell_K^\sigma$ and imposing the corresponding reduction-to-$O$ hypotheses on the conjugate points. Here and below the valuation of zero is $+\infty$, so $n=0$ is included.*
 
-The two estimates provide different kinds of local information. Equation (ell:ratio) determines the valuation of an index ratio from the point parameters without assuming that the ratio is integral. Once an index ratio is known to be integral, (ell:truncation) approximates it by a ratio of finite polynomial evaluations. The next lemma combines both forms of control.
+The two estimates provide different kinds of local information. Equation (2.6) determines the valuation of an index ratio from the point parameters without assuming that the ratio is integral. Once an index ratio is known to be integral, (2.7) approximates it by a ratio of finite polynomial evaluations. The next lemma combines both forms of control.
 
 Reduction to $O$ has its usual valuation meaning, transferred to the elementary extension. Only the stated assertions about integer multiples of the fixed $F$-rational points $P,P^\sigma$ and evaluations of the finite polynomials $\ell_K,\ell_K^\sigma$ are transferred; no infinite formal series is evaluated in the extension.
 
@@ -132,19 +132,19 @@ Reduction to $O$ has its usual valuation meaning, transferred to the elementary 
           {z(\widetilde T_{j_0}^{\sigma})}\right)\ge K.$$*
 
 *Then every $\widetilde a$ is integral at $q$, and $$v_q(\widetilde a-\eta(a))\ge K
-                       \qquad(a\in R).$$ Here $z(O)=0$. The denominator in (ii) is nonzero because $j_0\ne0$ and the nonzero points in (red:elliptic-axioms) have nonzero $x$- and $y$-coordinates.*
+                       \qquad(a\in R).$$ Here $z(O)=0$. The denominator in (ii) is nonzero because $j_0\ne0$ and the nonzero points in (2.2) have nonzero $x$- and $y$-coordinates.*
 
 *Proof.* Transfer the formal-parameter valuation equality of Proposition 2.2 to the conjugate points at $v_*$. The comparison in (ii) gives $$v_q\!\left(\frac{\eta((h-4)a)}{\eta(j_0)}\right)\ge K.$$ The denominator is a nonzero ambient integer, so its $q$-valuation is nonnegative. Consequently $$\begin{equation}
-\label{red:alternate-index}
+\tag{2.8}
                          v_q(\eta((h-4)a))\ge K.
 \end{equation}$$ Put $V_a=\eta(ha)$. Additivity applied to $(h-4)a=ha-4a$, including the case $a=1$, gives $$V_a\equiv4\eta(a)\pmod{q^K},\qquad
               V_1\equiv4\pmod{q^K}.$$ Since $q\ne2$, $V_1$ is a $q$-unit. The ambient integers $V_a,\eta(a)$ are $q$-integral, and hence $$\begin{equation}
-\label{red:actual-slope}
+\tag{2.9}
        V_a/V_1\text{ is \(q\)-integral},\qquad
        V_a/V_1\equiv\eta(a)\pmod{q^K}.
 \end{equation}$$ The primary points have indices $V_1$ and $V_a$. They reduce to $O$, the denominator index is nonzero, and their ratio is now known to be integral. The truncated-logarithm assertion of Proposition 2.2 therefore gives $$v_*\!\left(
  \frac{\ell_K(z(\widetilde T_{ha}))}{\ell_K(z(\widetilde T_h))}
-                         -\frac{V_a}{V_1}\right)\ge K.$$ The comparison in (i) relates this same logarithm ratio to $\widetilde a$. Combining it with the last display and (red:actual-slope) proves the required congruence, since $v_*$ restricts to $v_q$ on ${}^*\mathbb Q$. It also proves $q$-integrality of $\widetilde a$. Zero numerator indices are covered by the convention $v_q(0)=+\infty$. ◻
+                         -\frac{V_a}{V_1}\right)\ge K.$$ The comparison in (i) relates this same logarithm ratio to $\widetilde a$. Combining it with the last display and (2.9) proves the required congruence, since $v_*$ restricts to $v_q$ on ${}^*\mathbb Q$. It also proves $q$-integrality of $\widetilde a$. Zero numerator indices are covered by the convention $v_q(0)=+\infty$. ◻
 
 The same $h$ must serve every $a$, because the calculation uses both $a$ and $1$. We will impose ring-language versions of these comparisons and obtain their valuation hypotheses at primes detected by a height estimate.
 
@@ -153,14 +153,14 @@ The same $h$ must serve every $a$, because the calculation uses both $a$ and $1$
 Throughout the paper, $h$ denotes the absolute logarithmic Weil height. The next input identifies primes whose product controls the height of a rational point. It is proved in Section 4.
 
 **Theorem 2.4** (Five-point height estimate). *There exist five distinct points $\mathcal C\subset\mathbf P^1(\mathbb Q)$, including $\infty$, a finite set $S$ of rational primes, and constants $H,c>0$ with the following property. For each $b\in\mathcal C$, choose a primitive integral linear form $L_b(U,V)$ vanishing at $b$, with $L_\infty(U,V)=V$. For $s=(u:v)\in\mathbf P^1(\mathbb Q)\setminus\mathcal C$, let $M_S(s)$ be the product, taken without repetition, of primes $q\notin S$ for which at least one of the integers $$\begin{equation}
-\label{hei:radical}
+\tag{2.10}
  v_q(L_b(u,v))-\min\{v_q(u),v_q(v)\},\qquad b\in\mathcal C,
 \end{equation}$$ is odd. Here $v_q(q)=1$ and $v_q(0)=+\infty$. Then $$\begin{equation}
-\label{hei:height-bound}
+\tag{2.11}
                     h(s)\le H M_S(s)^c.
 \end{equation}$$*
 
-Multiplying $(u,v)$ by a nonzero rational scalar adds the same valuation to both terms in (hei:radical), so each contact order is independent of the chosen homogeneous coordinates. It is nonnegative after scaling the coordinates to be integral and primitive at $q$. With fixed primitive integral coordinates, the nonzero integers $L_b(u,v)$ have only finitely many prime divisors, so the product defining $M_S(s)$ is finite.
+Multiplying $(u,v)$ by a nonzero rational scalar adds the same valuation to both terms in (2.10), so each contact order is independent of the chosen homogeneous coordinates. It is nonnegative after scaling the coordinates to be integral and primitive at $q$. With fixed primitive integral coordinates, the nonzero integers $L_b(u,v)$ have only finitely many prime divisors, so the product defining $M_S(s)$ is finite.
 
 For a positive integer $K$ and a nonzero integer $e$ satisfying $M_S(s)^K\mid e$, the estimate gives $$h(s)\le H|e|^{c/K}.$$ In the reduction, the same polynomial error will play the role of $e$ for representations of every ring element. This is why the exponent $c$ must be fixed, although its precise value is not needed. The following immediate consequence permits the further fixed exclusions needed by the local tests.
 
@@ -175,7 +175,7 @@ To apply this estimate uniformly, the theory will write each ring element as a s
 **Corollary 2.6** (Ordinary contact representations). *Let $\mathcal K\subset\mathbb Z_{>0}$ be the finite multiplier set supplied by Lemma 6.1 in Section 6. It has the following property. For every integer $K\ge1$, every $A\in\mathbb Z$, and every real lower bound $Y_0>0$, there exist integers $u_1,u_2,v$, with $v\ne0$, such that, on setting $u_3=Av-u_1-u_2$, the following hold.*
 
 1.  *Representation and primes. Each of the thirteen numbers $$\begin{equation}
-    \label{pri:coverage-list}
+    \tag{2.12}
      v,\qquad L_b(u_i,v)
            \quad(1\le i\le3,\ b\in\mathcal C\setminus\{\infty\})
     \end{equation}$$ equals $\varepsilon k r$, where $\varepsilon\in\{1,-1\}$, $k\in\mathcal K$, and $r>Y_0$ is a positive rational prime. Every such $r$ splits in $F$, is a prime of good reduction for both $E$ and $E^\sigma$, lies outside $S_E$, and satisfies $r>K+1$.*
@@ -188,17 +188,17 @@ The two places in part (2) are the two residue branches above a split prime. At 
 
 ### A recursive theory with an ordinary integer model
 
-Let $\mathcal T$ be a theory in a countable recursive expansion of the language of rings. Its ring $R$ is required to be an integral domain of characteristic zero with $\sqrt2\notin\mathop{\mathrm{Frac}}(R)$. Add the six unary ring-valued functions above. Interpret $T_0$ as $O$ and, for $a\ne0$, require the two fractions in (red:coordinate-functions) to define the coordinates of $T_a\in E(F_R)$, with both denominators nonzero. Impose the point conditions (red:elliptic-axioms).
+Let $\mathcal T$ be a theory in a countable recursive expansion of the language of rings. Its ring $R$ is required to be an integral domain of characteristic zero with $\sqrt2\notin\mathop{\mathrm{Frac}}(R)$. Add the six unary ring-valued functions above. Interpret $T_0$ as $O$ and, for $a\ne0$, require the two fractions in (2.3) to define the coordinates of $T_a\in E(F_R)$, with both denominators nonzero. Impose the point conditions (2.2).
 
 Use the five points $\mathcal C$, primitive contact forms $L_b$, and finite multiplier set $\mathcal K$ of the preceding inputs. For each ordinary integer $K\ge1$, add the following representation axiom. For every $A\in R$ there exist $u_1,u_2,v\in R$, with $v\ne0$, such that, on setting $$u_3=Av-u_1-u_2,$$ each member of $$\begin{equation}
-\label{red:contact-list}
+\tag{2.13}
  v,\qquad L_b(u_i,v)\quad
        (1\le i\le3,\ b\in\mathcal C\setminus\{\infty\})
 \end{equation}$$ equals $\varepsilon k r$, where $\varepsilon\in\{1,-1\}$, $k\in\mathcal K$, and $r\in R$ has the following properties. The choices of $r$ and its auxiliary data are made separately for the different members of the list.
 
 First require $r\ne0$, $rR$ proper, and $R/rR$ a field. Require $B_r\in R$ satisfying $$B_r^2\equiv2\pmod{rR},\qquad
  2B_r\text{ invertible in }R/rR.$$ These conditions define two maximal ideals of $R_F$: $$\begin{equation}
-\label{red:branch-ideals}
+\tag{2.14}
  \mathfrak p_\pm
  =\ker\bigl(R_F\longrightarrow R/rR,\ \sqrt2\longmapsto\pm B_r\bigr).
 \end{equation}$$ They are the two residue branches to be tested. In the integer model they correspond to the two places of $F$ above a supplied split prime $r$. In a general model they are defined by the quotient field, independently of an ambient valuation.
@@ -206,23 +206,23 @@ First require $r\ne0$, $rR$ proper, and $R/rR$ a field. Require $B_r\in R$ satis
 For each $\mathfrak p\in\{\mathfrak p_+,\mathfrak p_-\}$, require nonzero $h,j_0\in R$, chosen at that branch and independently of $a$, such that the following hold for every $a\in R$. A point is called *formal for this localization* if it is $O$, or if $1/x\in r(R_F)_{\mathfrak p}$.
 
 1.  The points $T_h,T_{ha}$ are formal for this localization, $\ell_K(z(T_h))\ne0$, and $$\begin{equation}
-    \label{red:primary-test}
+    \tag{2.15}
      \frac{\ell_K(z(T_{ha}))}{\ell_K(z(T_h))}-a
                                 \in r^K(R_F)_{\mathfrak p}.
     \end{equation}$$
 
 2.  The points $T_{j_0}^{\sigma},T_{(h-4)a}^{\sigma}$ are formal for the conjugate curve at the same localization, and $$\begin{equation}
-    \label{red:alternate-test}
+    \tag{2.16}
      \frac{z(T_{(h-4)a}^{\sigma})}{z(T_{j_0}^{\sigma})}
                                 \in r^K(R_F)_{\mathfrak p}.
     \end{equation}$$
 
-Here $z(O)=0$, and the denominator in (red:alternate-test) is nonzero by $j_0\ne0$ and (red:elliptic-axioms). The pairs $h,j_0$ may differ between the two branches. The scheme contains every ordinary $K$; the termination proof will later select a single precision after $f$ is fixed.
+Here $z(O)=0$, and the denominator in (2.16) is nonzero by $j_0\ne0$ and (2.2). The pairs $h,j_0$ may differ between the two branches. The scheme contains every ordinary $K$; the termination proof will later select a single precision after $f$ is fixed.
 
 All these conditions have recursive first-order expressions in $R$. The absence of $\sqrt2$ from $\mathop{\mathrm{Frac}}(R)$ is expressed by $$\forall a,b\in R\quad b\ne0\Longrightarrow a^2\ne2b^2.$$ Elements of $R_F$ are pairs of ring elements, and elements of $F_R$ are fractions $(A+B\sqrt2)/D$, with $A,B,D\in R$ and $D\ne0$. Equations with fixed coefficients in $F$ can therefore be separated into two coordinates and cleared of denominators. The elliptic group law, including the identity and exceptional addition cases, is given by finitely many field equations and inequations. Membership in $mE(F_R)$ is expressed by existential coordinates for a point whose $m$-multiple is the prescribed point. These conditions are ring formulas under the same interpretation.
 
 Saying that $R/rR$ is a field means that $1\notin rR$ and every element outside $rR$ has an inverse modulo $rR$. For $D'\in F_R$, the assertion $$\begin{equation}
-\label{red:localization-definition}
+\tag{2.17}
                          D'\in r^i(R_F)_{\mathfrak p_\pm}
 \end{equation}$$ means that $D'=r^iX/Y$ for some $X,Y\in R_F$ such that the evaluation of $Y$ under $\sqrt2\mapsto\pm B_r$ is nonzero modulo $rR$, hence a unit in that field. These representations and inverse conditions are expressed by ring quantifiers. The exponent $i$ is fixed in each axiom; neither variable exponentiation nor a valuation function is part of $\mathcal T$.
 
@@ -230,7 +230,7 @@ Saying that $R/rR$ is a field means that $1\notin rR$ and every element outside 
 
 *Proof.* The ring and elliptic axioms hold for $\mathbb Z$ with $T_a=aP$. For nonzero $a$, the coordinates lie in $F$ and admit integer numerator and denominator representatives; choose arbitrary integer values for the six coordinate functions at $a=0$. Nonzero multiples of the nontorsion point $P$ avoid $O$ and the two-torsion points, so their $x$- and $y$-coordinates are nonzero.
 
-Fix $K\ge1$ and $A\in\mathbb Z$. Corollary 2.6 supplies (red:contact-list) with the required fixed multipliers and positive split primes. For each such $r$, the quotient $\mathbb Z/r\mathbb Z$ is a field. Splitness supplies a root $B_r$ of $2$ modulo $r$, and $2B_r$ is invertible because $r$ is odd. The ideals (red:branch-ideals) correspond to the two places above $r$. At each one, the corollary supplies nonzero $h,j_0$, fixed for all integers $a$, with the required formal points and both valuation comparisons. Its localization interpretation gives exactly (red:primary-test) and (red:alternate-test). Thus every representation axiom holds.
+Fix $K\ge1$ and $A\in\mathbb Z$. Corollary 2.6 supplies (2.13) with the required fixed multipliers and positive split primes. For each such $r$, the quotient $\mathbb Z/r\mathbb Z$ is a field. Splitness supplies a root $B_r$ of $2$ modulo $r$, and $2B_r$ is invertible because $r$ is odd. The ideals (2.14) correspond to the two places above $r$. At each one, the corollary supplies nonzero $h,j_0$, fixed for all integers $a$, with the required formal points and both valuation comparisons. Its localization interpretation gives exactly (2.15) and (2.16). Thus every representation axiom holds.
 
 The coefficients of $\ell_K$ are computable from the fixed equation, and the interpretations and axiom schemes above are effective. The finite sets, fixed integers, rational coefficients, and coordinates of $P$ are finitely many exact constants that can be hardcoded in the theory. Their existence suffices for the existence of the decision procedure constructed below; no effective search for those fixed choices is required. No list of all true arithmetic sentences is used. ◻
 
@@ -274,7 +274,7 @@ Let $R$ be the set of values of the ground terms. Constraint (a) makes it a subr
 
 The ambient diagram is used only in this existence argument. It is not required to be recursive and is never queried by the finite rational tests. ◻
 
-We now analyze any model and embedding supplied by Lemma 2.9. All starred objects refer to its one ambient extension. The point conditions give the additive injection $\eta$ of (red:eta)–(red:additivity).
+We now analyze any model and embedding supplied by Lemma 2.9. All starred objects refer to its one ambient extension. The point conditions give the additive injection $\eta$ of (2.4)–(2.5).
 
 ### Odd valuations select a tested branch
 
@@ -285,15 +285,15 @@ Write $M_K(s)=M_{S_K}(s)$ for the radical with these larger exceptions. Corollar
 
 Choose the representation axiom at precision $K$ for any $A\in R$, and put $\widetilde s_i=(\widetilde u_i:\widetilde v)$. All its contact forms are nonzero, so $\widetilde s_i\notin\mathcal C$. Consider any ambient prime $q$ counted in some $M_K(\widetilde s_i)$. Here and below a radical, prime, or valuation on starred sorts is the transfer of its ordinary definition.
 
-Let $t=\min\{v_q(\widetilde u_i),v_q(\widetilde v)\}$. At $q\notin S_K$, the minimum of the valuations of the five contact forms equals $t$: all their coefficients are integral and a pair has unit determinant. Since some contact depth is odd, these five valuations cannot all have the same parity. In particular one of them is odd. For its expression $\varepsilon k r$ in (red:contact-list), $k$ is a $q$-unit, and hence $$\begin{equation}
-\label{red:odd-r}
+Let $t=\min\{v_q(\widetilde u_i),v_q(\widetilde v)\}$. At $q\notin S_K$, the minimum of the valuations of the five contact forms equals $t$: all their coefficients are integral and a pair has unit determinant. Since some contact depth is odd, these five valuations cannot all have the same parity. In particular one of them is odd. For its expression $\varepsilon k r$ in (2.13), $k$ is a $q$-unit, and hence $$\begin{equation}
+\tag{2.18}
                             v_q(\widetilde r)\text{ is odd}.
 \end{equation}$$
 
 The odd valuation links this ring element $r$ to the ambient prime $q$, but it does not make the tested localization a subring of the ambient valuation ring: $R$ may have denominators at $q$. We will quotient the value group by the convex subgroup generated by the negative valuations of nonzero ring elements. Pole parity ensures that the odd value of $r$ survives positively in this quotient. The center of the resulting valuation will then select one of the two tested branches.
 
-**Lemma 2.10**. *For the prime $q$ and element $r$ in (red:odd-r), there is a branch $\mathfrak p\in\{\mathfrak p_+,\mathfrak p_-\}$ of that representation axiom and an ambient place $v_*$ of ${}^*F$ over $q$ such that, for every ordinary integer $l\ge1$ and every $D'\in F_R$, $$\begin{equation}
-\label{red:valuation-transfer}
+**Lemma 2.10**. *For the prime $q$ and element $r$ in (2.18), there is a branch $\mathfrak p\in\{\mathfrak p_+,\mathfrak p_-\}$ of that representation axiom and an ambient place $v_*$ of ${}^*F$ over $q$ such that, for every ordinary integer $l\ge1$ and every $D'\in F_R$, $$\begin{equation}
+\tag{2.19}
  D'\in r^l(R_F)_{\mathfrak p}
                \quad\Longrightarrow\quad v_*(\widetilde D')\ge l.
 \end{equation}$$ Every point formal for this tested localization actually reduces to $O$ for $v_*$.*
@@ -302,36 +302,36 @@ The odd valuation links this ring element $r$ to the ambient prime $q$, but it d
 
 Every valuation of a nonzero ring element that lies in $J$ is even. If $J=0$, this is immediate. Otherwise, given $a\ne0$ with $v_q(\widetilde a)\in J$, finite products of ring elements having negative value give $b\in R\setminus\{0\}$ with $v_q(\widetilde b)<-|v_q(\widetilde a)|$. Both $\widetilde b$ and $\widetilde a\widetilde b$ have negative valuation. The soundness of $\Phi$, transferred from Proposition 2.8, says that these two valuations are even. Their difference $v_q(\widetilde a)$ is therefore even as well.
 
-By (red:odd-r), $v_q(\widetilde r)$ is outside $J$; it is positive, because every negative ring value lies in $J$. Extend $v_q$ to an ambient place $v_*$ on ${}^*F$. Outside the fixed ramified primes, its value group is still ${}^*\mathbb Z$ with the same normalization, by transfer of the corresponding ordinary place facts. Coarsen it to the ordered quotient ${}^*\mathbb Z/J$, obtaining $w_*$. This coarsened valuation is nonnegative on $\widetilde R$: all its negative original values become zero. It is also nonnegative on $\widetilde R_F$, since $\sqrt2$ is integral.
+By (2.18), $v_q(\widetilde r)$ is outside $J$; it is positive, because every negative ring value lies in $J$. Extend $v_q$ to an ambient place $v_*$ on ${}^*F$. Outside the fixed ramified primes, its value group is still ${}^*\mathbb Z$ with the same normalization, by transfer of the corresponding ordinary place facts. Coarsen it to the ordered quotient ${}^*\mathbb Z/J$, obtaining $w_*$. This coarsened valuation is nonnegative on $\widetilde R$: all its negative original values become zero. It is also nonnegative on $\widetilde R_F$, since $\sqrt2$ is integral.
 
 The pullback of the center on the embedded $R_F$ is $$\mathfrak p=\{x\in R_F:w_*(\widetilde x)>0\}.$$ It is a proper prime ideal, and it contains $r$ because $w_*(\widetilde r)>0$. On the other hand, $$R_F/rR_F\simeq(R/rR)[X]/(X^2-2)
                          \simeq(R/rR)\times(R/rR),$$ where the last isomorphism uses $B_r^2=2$ and the invertibility of $2B_r$. A prime of this product is one of its two maximal ideals. Consequently $\mathfrak p$ is exactly one of the tested branch ideals $\mathfrak p_\pm$.
 
-If $D'=r^l X/Y$ as in (red:localization-definition), then $Y\notin\mathfrak p$, so its image has $w_*$-value zero. Thus $$w_*(\widetilde D')\ge l w_*(\widetilde r).$$ For $D'=0$, (red:valuation-transfer) is automatic. Otherwise, if $J=0$, the displayed inequality gives $v_*(\widetilde D')\ge l v_q(\widetilde r)\ge l$. If $J\ne0$, its convexity implies that it contains every ordinary integer. A positive value in the ordered quotient is represented by an ambient integer larger than every element of $J$; the same inequality again gives $v_*(\widetilde D')\ge l$.
+If $D'=r^l X/Y$ as in (2.17), then $Y\notin\mathfrak p$, so its image has $w_*$-value zero. Thus $$w_*(\widetilde D')\ge l w_*(\widetilde r).$$ For $D'=0$, (2.19) is automatic. Otherwise, if $J=0$, the displayed inequality gives $v_*(\widetilde D')\ge l v_q(\widetilde r)\ge l$. If $J\ne0$, its convexity implies that it contains every ordinary integer. A positive value in the ordered quotient is represented by an ambient integer larger than every element of $J$; the same inequality again gives $v_*(\widetilde D')\ge l$.
 
 Finally, a tested finite formal point has $1/x\in r(R_F)_{\mathfrak p}$, so its actual $x$-valuation is negative. At the good integral model this is exactly the condition for reduction to $O$. The identity point has that reduction as well. ◻
 
 ### Index congruences at every contact prime
 
 **Proposition 2.11**. *Fix an ordinary $K\ge1$ and use the exceptional set $S_K$ above. Choose a representation supplied at precision $K$ for an arbitrary $A\in R$, and put $\widetilde s_i=(\widetilde u_i:\widetilde v)$. For every prime $q$ of ${}^*\mathbb Z$ counted by any $M_K(\widetilde s_i)$, and every $a\in R$, the element $\widetilde a$ is integral at $q$ and $$\begin{equation}
-\label{red:index-congruence-equation}
+\tag{2.20}
                          v_q(\widetilde a-\eta(a))\ge K.
 \end{equation}$$*
 
-*Proof.* The odd-contact argument selects a factor $r$ with odd $q$-valuation. Lemma 2.10 supplies one of its tested branches and a place $v_*$ above $q$. At this branch the theory supplies nonzero $h,j_0$, fixed for all $a\in R$. Every tested formal point is an actual formal point at $v_*$, for its own curve. The same lemma sends the memberships (red:primary-test) and (red:alternate-test) to the two valuation comparisons of Lemma 2.3, each at precision $K$ and at this same place. The primary logarithm denominator is nonzero by its axiom and the embedding; the conjugate parameter denominator is nonzero by $j_0\ne0$ and the point conditions. Finally $q\notin S_K$ ensures $q\notin S_E$ and $q>K+1$. All hypotheses of Lemma 2.3 therefore hold, and it gives the assertion. ◻
+*Proof.* The odd-contact argument selects a factor $r$ with odd $q$-valuation. Lemma 2.10 supplies one of its tested branches and a place $v_*$ above $q$. At this branch the theory supplies nonzero $h,j_0$, fixed for all $a\in R$. Every tested formal point is an actual formal point at $v_*$, for its own curve. The same lemma sends the memberships (2.15) and (2.16) to the two valuation comparisons of Lemma 2.3, each at precision $K$ and at this same place. The primary logarithm denominator is nonzero by its axiom and the embedding; the conjugate parameter denominator is nonzero by $j_0\ne0$ and the point conditions. Finally $q\notin S_K$ ensures $q\notin S_E$ and $q>K+1$. All hypotheses of Lemma 2.3 therefore hold, and it gives the assertion. ◻
 
 ### The height contradiction
 
 **Proposition 2.12**. *Let $f\in\mathbb Z[X_1,\ldots,X_n]$ be nonconstant. If every finite system of rational constraints constructed in §2.4 for $f$ is solvable, then $f$ has a zero in $\mathbb Z^n$.*
 
-*Proof.* Choose the model supplied by Lemma 2.9, with its root tuple $\mathbf a$ and the additive map $\eta$ of (red:eta)–(red:additivity). Set $$\delta=f(\eta(a_1),\ldots,\eta(a_n))\in{}^*\mathbb Z.$$ If $\delta=0$, the ambient integer sort satisfies $\exists\mathbf x\in\mathbb Z^n\ f(\mathbf x)=0$; by elementarity the ordinary integers satisfy that sentence. It remains to consider $\delta\ne0$.
+*Proof.* Choose the model supplied by Lemma 2.9, with its root tuple $\mathbf a$ and the additive map $\eta$ of (2.4)–(2.5). Set $$\delta=f(\eta(a_1),\ldots,\eta(a_n))\in{}^*\mathbb Z.$$ If $\delta=0$, the ambient integer sort satisfies $\exists\mathbf x\in\mathbb Z^n\ f(\mathbf x)=0$; by elementarity the ordinary integers satisfy that sentence. It remains to consider $\delta\ne0$.
 
 Write $$\begin{equation}
-\label{red:B-D}
+\tag{2.21}
  B=\max(1,|\eta(a_1)|,\ldots,|\eta(a_n)|),\qquad
  D=\max(1,\deg f).
 \end{equation}$$ For an ordinary constant $C_f>0$, transfer of the elementary polynomial bound gives $$\begin{equation}
-\label{red:error-bound}
+\tag{2.22}
                               |\delta|\le C_f B^D.
 \end{equation}$$ Choose an ordinary integer $K\ge cD$, where $c$ is the fixed positive integer exponent of the height estimate. All exceptions and constants below refer to this fixed $K$.
 
@@ -340,20 +340,20 @@ Figure 1 summarizes how the chosen representations for all $A\in R$ use the sam
 **Figure 1:** The use of one nonzero $\delta$ for every $A\in R$. All slopes shown come from the representation chosen at the fixed ordinary precision $K$, and $M_K$ uses the fixed exceptional set for $K$. The comparison holds for every $a\in R$, so it applies to the fixed root tuple. The implied constant in the final bound is ordinary and independent of $A$ and $\mathbf a$.
 
 For any $A\in R$, take its representation at precision $K$ and any prime $q$ counted in any $M_K(\widetilde s_i)$. Proposition 2.11 applies to each $a_j$. Both the embedded coordinates and their integer indices are $q$-integral. Since $f(\widetilde{\mathbf a})=0$ in the ambient field and the coefficients of $f$ are integers, their coordinatewise congruences give $$\begin{equation}
-\label{red:error-divisibility}
+\tag{2.23}
                                   v_q(\delta)\ge K.
-\end{equation}$$ For each fixed slope, (red:error-divisibility) now holds for every ambient prime counted by its radical. This is the internal universal premise in the transfer of the ordinary divisibility fact: if every prime in a squarefree product divides an integer to order at least $K$, then the $K$th power of that product divides the integer. Using the transferred finite-product function gives $$\begin{equation}
-\label{red:radical-divides}
+\end{equation}$$ For each fixed slope, (2.23) now holds for every ambient prime counted by its radical. This is the internal universal premise in the transfer of the ordinary divisibility fact: if every prime in a squarefree product divides an integer to order at least $K$, then the $K$th power of that product divides the integer. Using the transferred finite-product function gives $$\begin{equation}
+\tag{2.24}
                              M_K(\widetilde s_i)^K\mid\delta.
 \end{equation}$$ The coarsenings may have been chosen externally one prime at a time; only the universal assertion just established enters this transferred implication. Although $A$ and its representation were arbitrary, the integer $\delta$ is the same for all of them.
 
-As $\delta\ne0$, (red:radical-divides) and (red:error-bound) give $$M_K(\widetilde s_i)^c
+As $\delta\ne0$, (2.24) and (2.22) give $$M_K(\widetilde s_i)^c
        \le |\delta|^{c/K}
        \le C_f^{c/K}B^{cD/K}\ll_f B.$$ The height estimate therefore implies $$\begin{equation}
-\label{red:slope-height}
+\tag{2.25}
                                h(\widetilde s_i)\ll_f B.
 \end{equation}$$ Since $v\ne0$ and $u_1+u_2+u_3=Av$, the ordinary logarithmic height inequality for a sum of three numbers, transferred to the ambient structure, gives $$\begin{equation}
-\label{red:all-ring-height}
+\tag{2.26}
  h(\widetilde A)
    =h\!\left(\frac{\widetilde u_1}{\widetilde v}
              +\frac{\widetilde u_2}{\widetilde v}
@@ -362,14 +362,14 @@ As $\delta\ne0$, (red:radical-divides) and (red:error-bound) give $$M_K(\widetil
        \ll_f B \qquad(A\in R).
 \end{equation}$$ The implicit constant is ordinary and independent of $A$ and of the root tuple. The dependence on $f$ comes only from its degree and coefficients and the resulting fixed choice of $K$.
 
-For each nonzero $a_j$, formula (red:coordinate-functions) expresses $x(T_{a_j})$ using the three ring elements $x_0(a_j),x_1(a_j),x_2(a_j)$, with $x_2(a_j)\ne0$. Applying (red:all-ring-height) to these three elements and using the logarithmic height inequalities over the fixed number field $F$ gives $$\begin{equation}
-\label{red:elliptic-upper}
+For each nonzero $a_j$, formula (2.3) expresses $x(T_{a_j})$ using the three ring elements $x_0(a_j),x_1(a_j),x_2(a_j)$, with $x_2(a_j)\ne0$. Applying (2.26) to these three elements and using the logarithmic height inequalities over the fixed number field $F$ gives $$\begin{equation}
+\tag{2.27}
                          h(x(\eta(a_j)P))\ll_f B.
 \end{equation}$$ Canonical height on the fixed elliptic curve gives, for ordinary integer $n\ne0$, and hence for ambient integer indices by transfer, $$\begin{equation}
-\label{red:elliptic-lower}
+\tag{2.28}
              h(x(nP))=2\widehat h(P)n^2+O(1),
                          \qquad\widehat h(P)>0;
-\end{equation}$$ see (Silverman 2009). The error term is uniformly bounded for the fixed curve and point. If $B>1$, choose a maximizing nonzero index in (red:B-D). Equations (red:elliptic-upper)–(red:elliptic-lower) give $$2\widehat h(P)B^2\le C B+C'$$ for ordinary constants, so $B$ is bounded by an ordinary constant. This is also true if $B=1$.
+\end{equation}$$ see (Silverman 2009). The error term is uniformly bounded for the fixed curve and point. If $B>1$, choose a maximizing nonzero index in (2.21). Equations (2.27)–(2.28) give $$2\widehat h(P)B^2\le C B+C'$$ for ordinary constants, so $B$ is bounded by an ordinary constant. This is also true if $B=1$.
 
 Every element of ${}^*\mathbb Z$ in an ordinary finite interval is an ordinary integer, by transfer of the finite description of that interval. Thus $\eta(a_j)=n_j\in\mathbb Z$ for each $j$. By additivity and $\eta(1)=1$, $\eta(n_j)=n_j$; injectivity then gives $a_j=n_j$ in $R$. The relation $f(\mathbf a)=0$ is consequently an ordinary integer solution. In the case currently under consideration this also contradicts $\delta\ne0$. ◻
 
@@ -392,10 +392,10 @@ We first define a formula from finite multiplier lists and prove the pole restri
 For now, let $\mathcal M\subset\mathbb Q^\times$ be a finite nonempty list, and for each $m\in\mathcal M$ let $\mathcal D_m\subset\mathbb Q^\times$ be a finite nonempty list. The construction below associates a formula $\Phi$ to these lists. Let $S_1$ be a finite set containing $2$, $3$, and the supports of every member of all the lists. We will make one fixed choice of the lists in the next subsection.
 
 For $l\in\mathbb Q^\times$, write $$\begin{equation}
-\label{par:curve}
+\tag{3.1}
  E_l:\quad y^2=x(x-l)(x+3l).
 \end{equation}$$ The three roots are distinct, so this is an elliptic curve with its point at infinity $O$ as origin. Define $\Phi(b)$ to hold if $b=0$, or if $b\ne0$ and, for some $m\in\mathcal M$, $m_d\in\mathcal D_m$, and $t,e\in\mathbb Q$, the following conditions hold: $$\begin{equation}
-\label{par:auxiliary-functions}
+\tag{3.2}
  d=m_db,\qquad b'=mb,\qquad
  U=b\frac{1-dt^2}{1+dt^2},\qquad H'=b'(b'-U^2),
 \end{equation}$$ $$1+dt^2\ne0,\qquad eH'\ne0,$$ and each of $E_e$ and $E_{eH'}$ has a rational point whose $x$-coordinate belongs to $b'\mathbb Q^{\times2}$.
@@ -411,15 +411,15 @@ Every nonzero $X$ on this unit-parameter curve has even valuation. Indeed, if $v
 ### Preparing integer witnesses
 
 We now choose the multiplier lists so that the formula also holds on every integer. These lists will be fixed independently of the input $b$. Choose a finite list $\mathcal M\subset\mathbb Q^\times$ with the following property: for every $b\in\mathbb Q^\times$, some $m\in\mathcal M$ makes $$\begin{equation}
-\label{par:b-prime-choices}
+\tag{3.3}
  b'=mb>0,\qquad b'\in\mathbb Q_2^{\times2},\qquad
  b'\in\text{the unit nonsquare class of }\mathbb Q_3^\times.
 \end{equation}$$ Here the last condition means that $b'$ has even $3$-adic valuation and nonsquare unit part. Such a list exists because $\mathbb R^\times/\mathbb R^{\times2}$, $\mathbb Q_2^\times/\mathbb Q_2^{\times2}$, and $\mathbb Q_3^\times/\mathbb Q_3^{\times2}$ are finite, their classes are open, and weak approximation supplies a rational representative for each specified finite tuple of classes. For each $m\in\mathcal M$, set $$S(m)=\{2,3\}\cup\operatorname{Supp}(m).$$ The same argument gives a finite list $\mathcal D_m\subset\mathbb Q^\times$ such that, for any $b\ne0$, some $m_d\in\mathcal D_m$ makes $$\begin{equation}
-\label{par:d-choices}
+\tag{3.4}
  d=m_db>0,\qquad d\in\mathbb Q_q^{\times2}\quad(q\in S(m)).
-\end{equation}$$ Use these fixed lists in $\Phi$, and fix $S_1$ containing $2$, $3$, and all their supports as above. The normalizations (par:b-prime-choices)–(par:d-choices) are used only to select entries $m,m_d$ for an integer input; they are not additional conjuncts of $\Phi$. Lemma 3.1 already proves the pole restriction for this choice.
+\end{equation}$$ Use these fixed lists in $\Phi$, and fix $S_1$ containing $2$, $3$, and all their supports as above. The normalizations (3.3)–(3.4) are used only to select entries $m,m_d$ for an integer input; they are not additional conjuncts of $\Phi$. Lemma 3.1 already proves the pole restriction for this choice.
 
-Fix $b\in\mathbb Z\setminus\{0\}$ and choose $m,m_d$ so that (par:b-prime-choices) and (par:d-choices) hold. We choose $t$ to serve two purposes. The value $U$ should be small at the places where $d$ was made a local square, while at primes outside $S(m)$ where $v_q(b')$ is odd it should retain the valuation of $b$. These properties will make $H'$ a local square at every prime where $v_q(b')$ is odd, and $b'$ a local square at every prime where $v_q(H')$ is odd.
+Fix $b\in\mathbb Z\setminus\{0\}$ and choose $m,m_d$ so that (3.3) and (3.4) hold. We choose $t$ to serve two purposes. The value $U$ should be small at the places where $d$ was made a local square, while at primes outside $S(m)$ where $v_q(b')$ is odd it should retain the valuation of $b$. These properties will make $H'$ a local square at every prime where $v_q(b')$ is odd, and $b'$ a local square at every prime where $v_q(H')$ is odd.
 
 At the real place and at every $q\in S(m)$, choose a local solution of $dt^2=1$. As $t$ tends to this solution, the rational function $U$ tends to zero: its denominator tends to the nonzero number $2$. Thus, in sufficiently small neighborhoods, $H'>0$ at the real place, and $$H'=b'^2\left(1-\frac{U^2}{b'}\right)\in\mathbb Q_q^{\times2}
  \quad(q\in S(m)),$$ by openness of the local square subgroup. At every $q\in\operatorname{Supp}(m_d)\setminus S(m)$, require $t$ to be so small that $v_q(dt^2)>0$. Weak approximation satisfies all these conditions simultaneously with a rational $t$. In particular $1+dt^2\ne0$ and $H'>0$.
@@ -428,17 +428,17 @@ Let $\beta,\theta$ be the unique positive squarefree integers representing the s
  J=\operatorname{Supp}(\theta).$$
 
 **Lemma 3.2**. *The sets $B,J$ are disjoint and avoid $2,3$. Moreover, $$\begin{equation}
-\label{par:mutual-squares}
+\tag{3.5}
  \theta\in\mathbb Q_q^{\times2}\quad(q\in B),\qquad
  \beta\in\mathbb Q_q^{\times2}\quad(q\in J).
 \end{equation}$$ Both $\beta$ and $\theta$ are squares in $\mathbb Q_2^\times$; at $3$, $\theta$ is a square and $\beta$ is a unit nonsquare. In particular $B\ne\varnothing$.*
 
-*Proof.* The assertions at $2,3$ follow from the choices already made and are unchanged on replacing numbers by square-class representatives. At a prime $q\in B\cap S(m)$, $H'$ is a local square by construction. Now suppose $q\in B\setminus S(m)$. Since $m$ is a unit at $q$ and $b$ is an integer, $v_q(b)=v_q(b')$ is a positive odd integer. If $q\notin\operatorname{Supp}(m_d)$ and $t\ne0$, then $v_q(dt^2)=v_q(b)+2v_q(t)$ is odd and nonzero, and the quotient $(1-dt^2)/(1+dt^2)$ is a unit, just as in Lemma 3.1. For $t=0$ this quotient is $1$. If instead $q\in\operatorname{Supp}(m_d)$, our additional smallness condition on $t$ also makes it a unit. Hence $v_q(U)=v_q(b)$, and $$v_q(U^2/b')=v_q(b)>0.$$ As $q$ is odd, $1-U^2/b'$ is a local square. The displayed formula for $H'$ proves the first assertion of (par:mutual-squares), and also proves $B\cap J=\varnothing$.
+*Proof.* The assertions at $2,3$ follow from the choices already made and are unchanged on replacing numbers by square-class representatives. At a prime $q\in B\cap S(m)$, $H'$ is a local square by construction. Now suppose $q\in B\setminus S(m)$. Since $m$ is a unit at $q$ and $b$ is an integer, $v_q(b)=v_q(b')$ is a positive odd integer. If $q\notin\operatorname{Supp}(m_d)$ and $t\ne0$, then $v_q(dt^2)=v_q(b)+2v_q(t)$ is odd and nonzero, and the quotient $(1-dt^2)/(1+dt^2)$ is a unit, just as in Lemma 3.1. For $t=0$ this quotient is $1$. If instead $q\in\operatorname{Supp}(m_d)$, our additional smallness condition on $t$ also makes it a unit. Hence $v_q(U)=v_q(b)$, and $$v_q(U^2/b')=v_q(b)>0.$$ As $q$ is odd, $1-U^2/b'$ is a local square. The displayed formula for $H'$ proves the first assertion of (3.5), and also proves $B\cap J=\varnothing$.
 
 For the converse assertion, let $q\in J$. Such a prime is outside $S(m)$, since $H'$ is square there, and $v_q(b')$ is even because $q\notin B$. If $U=0$, then $H'=b'^2$ and there is no such prime, so suppose $U\ne0$. Put $$\alpha=v_q(b'),\qquad \gamma=2v_q(U).$$ Both are even. If $\alpha\ne\gamma$, then $v_q(b'-U^2)=\min(\alpha,\gamma)$ is even, contrary to the oddness of $v_q(H')$. Therefore $\alpha=\gamma$. Since $v_q(H')=\alpha+v_q(b'-U^2)$ is odd, cancellation is strict: $v_q(b'-U^2)>\alpha$. Thus $b'/U^2\in1+q\mathbb Z_q$, a square in $\mathbb Q_q^\times$, proving that $\beta$ is square there. This argument also covers possible denominators in $t$ or $U$. Finally $\beta$ cannot be $1$, since its class at $3$ is nonsquare. ◻
 
 Write $H'=\theta c^2$ with $c\in\mathbb Q^\times$. For every $n\in\mathbb Q^\times$ the isomorphism $$\begin{equation}
-\label{par:twist-scaling}
+\tag{3.6}
  E_{n\theta}\longrightarrow E_{nH'},\qquad
  (x,y)\longmapsto(c^2x,c^3y)
 \end{equation}$$ preserves $x$-coordinate square classes. Thus, taking $e=n$ in the formula, it remains to find one $n$ for which both $E_n$ and $E_{n\theta}$ have a rational point with nonzero $x$-coordinate of class $\beta$, the class of $b'$. We first give a criterion for one parameter $l$, and then construct a single $n$ for which it applies to both twists.
@@ -446,7 +446,7 @@ Write $H'=\theta c^2$ with $c\in\mathbb Q^\times$. For every $n\in\mathbb Q^\tim
 ### A criterion for one twist
 
 We recall the exact part of full two-descent that we use; see (Silverman 2009, X, Proposition 1.4, p. 315). For a split separable cubic $y^2=\prod_{i=1}^3(x-e_i)$ over a field $k$ of characteristic zero, choosing two roots identifies $H^1(k,E[2])$ with $(k^\times/k^{\times2})^2$. In the coordinate corresponding to $e_i$, the Kummer map takes a point to the class of $x-e_i$; at $(e_i,0)$ the value is replaced by $\prod_{j\ne i}(e_i-e_j)$, and at $O$ it is $1$. The Kummer map is an injection of $E(k)/2E(k)$ into this group. The group $\mathop{\mathrm{Sel}}_2(E/\mathbb Q)$ is the subgroup of rational pairs lying in the Kummer image at every completion. The standard Selmer exact sequence (Silverman 2009, X, Theorem 4.2, p. 333) is $$\begin{equation}
-\label{par:selmer-exact-sequence}
+\tag{3.7}
  0\longrightarrow E(\mathbb Q)/2E(\mathbb Q)
  \longrightarrow\mathop{\mathrm{Sel}}_2(E/\mathbb Q)
  \longrightarrow\mathop{\mathrm{Sha}}(E/\mathbb Q)[2]\longrightarrow0.
@@ -457,28 +457,28 @@ We use the coordinates $(x+3l,x-l)$ for $E_l$. For a finite rational point $T$ w
 For the Selmer graph-matrix viewpoint underlying this calculation, see Monsky’s appendix to Heath-Brown (Heath-Brown 1994, Appendix, pp. 365–370). The matrix and simultaneous rank calculations below adapt that viewpoint to the present curve family.
 
 At the primes dividing $l$, the local square conditions will be recorded by binary residue symbols. For an odd prime $q$ and a $q$-adic unit $a$, write $[a/q]\in\mathbb F_2$ for the nonsquare bit: it is $0$ for a square residue and $1$ for a nonsquare residue. For a finite set $Q$ of distinct primes different from $2,3$, indexed by $i$, and a vector $w\in\mathbb F_2^Q$, write $D_w$ for the diagonal matrix with diagonal $w$. Put $$\begin{equation}
-\label{par:matrices}
+\tag{3.8}
  s_i=[-1/q_i],\qquad \lambda_i=[3/q_i],\qquad
  (Ku)_i=\sum_{j\ne i}[q_j/q_i](u_j+u_i),\qquad N=K+D_s.
 \end{equation}$$ All matrices and vectors in this calculation are over $\mathbb F_2$. Write $\mathbf1$ for the all-ones vector and $\mathbf1_B$ for the indicator of $B$ in $Q$. Quadratic reciprocity gives $$\begin{equation}
-\label{par:reciprocity-matrix}
+\tag{3.9}
  K+K^{\mathsf t}=ss^{\mathsf t}+D_s.
 \end{equation}$$ In particular, if $s^{\mathsf t}\mathbf1=1$, then $$\begin{equation}
-\label{par:matrix-null-vectors}
+\tag{3.10}
  K\mathbf1=K^{\mathsf t}\mathbf1=0,
  \qquad N=K^{\mathsf t}+ss^{\mathsf t}.
 \end{equation}$$
 
-The family $y^2=x(x-n)(x+3n)$ also occurs in the study of $\pi/3$- and $2\pi/3$-congruent numbers. Mokrani adapted Monsky matrices to these families (Mokrani 2020). For this family, Wei and Guo give a two-Selmer matrix formulation and write the same quadratic-reciprocity identity for the associated Rédei matrix as (par:reciprocity-matrix) (Wei and Guo 2022, sec. 4 and Theorem 6.2). The simultaneous kernel conditions for the two twists required here are constructed below.
+The family $y^2=x(x-n)(x+3n)$ also occurs in the study of $\pi/3$- and $2\pi/3$-congruent numbers. Mokrani adapted Monsky matrices to these families (Mokrani 2020). For this family, Wei and Guo give a two-Selmer matrix formulation and write the same quadratic-reciprocity identity for the associated Rédei matrix as (3.9) (Wei and Guo 2022, sec. 4 and Theorem 6.2). The simultaneous kernel conditions for the two twists required here are constructed below.
 
 **Lemma 3.3**. *Let $l>0$ be squarefree, prime to $6$, with $l\equiv3\pmod4$ and $l\equiv2\pmod3$. Suppose that its support $Q$ contains the nonempty set $B$ of Lemma 3.2 and a prime outside $B$, and suppose that $$\begin{equation}
-\label{par:matrix-target}
+\tag{3.11}
  \ker K=\langle\mathbf1,\mathbf1_B\rangle,
  \qquad \lambda\notin\operatorname{im}K.
 \end{equation}$$ Then $$\dim_{\mathbb F_2}\mathop{\mathrm{Sel}}_2(E_l/\mathbb Q)=3,$$ and $(\beta,1)$ is a Selmer class outside the subgroup of rational two-torsion classes, in Kummer coordinates $(x+3l,x-l)$.*
 
 *Proof.* In the stated coordinates, the points $(l,0)$ and $(-3l,0)$ have classes $$\begin{equation}
-\label{par:torsion-classes}
+\tag{3.12}
  \tau_1=(l,1),\qquad \tau_2=(3,-l),
 \end{equation}$$ respectively. For example, the replacement coordinate at $(l,0)$ is $(l+3l)l=4l^2$, and the replacement at $(-3l,0)$ is $(-3l)(-4l)=12l^2$. These two classes are independent globally: $l$ is nonsquare, and the second coordinate of $\tau_2$ is negative.
 
@@ -487,31 +487,31 @@ We first bound the Selmer group using necessary local conditions. Afterward we v
 At an odd prime $q\nmid3l$, the roots are integral and pairwise distinct modulo $q$. If $v_q(x)<0$, all three factors have that valuation, which must be even. If $x$ is integral, at most one factor has positive valuation, and that valuation must be even. The replacement classes at the roots are units as well. Hence the local Kummer image is contained in the subgroup of pairs having even coordinate valuations. This unramified subgroup has order four, so the containment is equality.
 
 At a support prime $q_i\mid l$, the valuation pairs of $\tau_1$ and $\tau_2$ are $(1,0)$ and $(0,1)$ modulo $2$; therefore they generate the entire local image, again by its order four. At $3$, $l$ is a unit nonsquare and $-l$ is a square. Thus $\tau_1$ and $\tau_2$ have independent first-coordinate classes and square second coordinates. The local image at $3$ is consequently $$\begin{equation}
-\label{par:local-three}
+\tag{3.13}
  (\mathbb Q_3^\times/\mathbb Q_3^{\times2})\times\{1\}.
 \end{equation}$$
 
-At $2$ we need the necessary condition that both Kummer coordinates have even valuation. For a point away from the roots with $v_2(x)<0$, all three factors have valuation $v_2(x)$, so that valuation is even. If $x$ is integral and even, $x+3l$ and $x-l$ are units. Suppose $x$ is odd. If $x-l=2u$ with $u$ odd, then $$(y/2)^2=(l+2u)u(u+2l)\equiv l\pmod8.$$ The right side is an odd unit congruent to $3$ or $7$ modulo $8$, which is impossible for a square. In every remaining nonroot case, $v_2(x-l)\ge2$ and $v_2(x+3l)\ge2$. Their difference is $4l$, so their minimum valuation is $2$. Since $x$ is a unit, their valuation sum is even, and hence both valuations are even. The root and identity classes also have even valuations, as follows from (par:torsion-classes). This establishes the claimed necessary condition at $2$; no sufficiency is being asserted.
+At $2$ we need the necessary condition that both Kummer coordinates have even valuation. For a point away from the roots with $v_2(x)<0$, all three factors have valuation $v_2(x)$, so that valuation is even. If $x$ is integral and even, $x+3l$ and $x-l$ are units. Suppose $x$ is odd. If $x-l=2u$ with $u$ odd, then $$(y/2)^2=(l+2u)u(u+2l)\equiv l\pmod8.$$ The right side is an odd unit congruent to $3$ or $7$ modulo $8$, which is impossible for a square. In every remaining nonroot case, $v_2(x-l)\ge2$ and $v_2(x+3l)\ge2$. Their difference is $4l$, so their minimum valuation is $2$. Since $x$ is a unit, their valuation sum is even, and hence both valuations are even. The root and identity classes also have even valuations, as follows from (3.12). This establishes the claimed necessary condition at $2$; no sufficiency is being asserted.
 
 At the real place the first coordinate is always positive. Indeed, for a nonroot real point the allowable $x$ intervals are $(-3l,0)$ and $(l,\infty)$, and the replacement first coordinates at the roots are positive as well. The sign of the second coordinate therefore gives a homomorphism from the Selmer group to $\{\pm1\}$, and it is surjective because of $\tau_2$. Its kernel, the classes with both coordinates positive, has index two. Every class in this kernel has a unique representative of the form $$\begin{equation}
-\label{par:normalized-pair}
+\tag{3.14}
  \left(3^\delta\prod_iq_i^{u_i},\ \prod_iq_i^{v_i}\right),
  \qquad \delta\in\mathbb F_2,\quad u,v\in\mathbb F_2^Q.
-\end{equation}$$ Here the good-prime restrictions and the even valuations at $2$ exclude every other prime, and (par:local-three) excludes $3$ from the second coordinate.
+\end{equation}$$ Here the good-prime restrictions and the even valuations at $2$ exclude every other prime, and (3.13) excludes $3$ from the second coordinate.
 
-At $q_i$, compare (par:normalized-pair) with the local torsion class $$\tau_1^{u_i}\tau_2^{v_i}
+At $q_i$, compare (3.14) with the local torsion class $$\tau_1^{u_i}\tau_2^{v_i}
    =(l^{u_i}3^{v_i},(-l)^{v_i}).$$ The coordinate valuations already agree modulo $2$. Requiring the resulting unit quotients to be squares gives exactly $$\begin{equation}
-\label{par:selmer-matrix-equations}
+\tag{3.15}
  Ku+D_\lambda v=\delta\lambda,\qquad Nv=0.
 \end{equation}$$ For example the first unit quotient has nonsquare bit $\sum_{j\ne i}[q_j/q_i](u_j+u_i)+(\delta+v_i)\lambda_i$; the second has bit $(Kv)_i+s_iv_i$. The requirement that the second coordinate be square at $3$ adds $$\begin{equation}
-\label{par:selmer-three-equation}
+\tag{3.16}
  (\lambda+s)^{\mathsf t}v=0,
 \end{equation}$$ using $[q_i/3]=\lambda_i+s_i$.
 
-The residue assumptions imply $s^{\mathsf t}\mathbf1=1$ and $\lambda^{\mathsf t}\mathbf1=0$. Equations (par:matrix-null-vectors) give $$\begin{equation}
-\label{par:kernel-N}
+The residue assumptions imply $s^{\mathsf t}\mathbf1=1$ and $\lambda^{\mathsf t}\mathbf1=0$. Equations (3.10) give $$\begin{equation}
+\tag{3.17}
  \ker N=\ker K^{\mathsf t}\cap s^\perp.
-\end{equation}$$ Indeed, left multiplying $Nv=0$ by $\mathbf1^{\mathsf t}$ gives $s^{\mathsf t}v=0$, and the identity $N=K^{\mathsf t}+ss^{\mathsf t}$ then gives the claim in both directions. By (par:matrix-target), $\ker K^{\mathsf t}$ has dimension two. It contains $\mathbf1$, on which $s^{\mathsf t}$ is nonzero, so (par:kernel-N) is a line. The functional $\lambda^{\mathsf t}$ is nonzero on $\ker K^{\mathsf t}$ because $\lambda\notin\operatorname{im}K=(\ker K^{\mathsf t})^\perp$. Since it vanishes on $\mathbf1$, it is nonzero on the complementary line (par:kernel-N). Equations (par:selmer-three-equation) and (par:kernel-N) therefore force $v=0$. The first equation in (par:selmer-matrix-equations) now gives $Ku=\delta\lambda$, so $\delta=0$ and $u\in\ker K=\langle\mathbf1,\mathbf1_B\rangle$. There are at most four sign-normalized classes, and hence at most eight Selmer classes.
+\end{equation}$$ Indeed, left multiplying $Nv=0$ by $\mathbf1^{\mathsf t}$ gives $s^{\mathsf t}v=0$, and the identity $N=K^{\mathsf t}+ss^{\mathsf t}$ then gives the claim in both directions. By (3.11), $\ker K^{\mathsf t}$ has dimension two. It contains $\mathbf1$, on which $s^{\mathsf t}$ is nonzero, so (3.17) is a line. The functional $\lambda^{\mathsf t}$ is nonzero on $\ker K^{\mathsf t}$ because $\lambda\notin\operatorname{im}K=(\ker K^{\mathsf t})^\perp$. Since it vanishes on $\mathbf1$, it is nonzero on the complementary line (3.17). Equations (3.16) and (3.17) therefore force $v=0$. The first equation in (3.15) now gives $Ku=\delta\lambda$, so $\delta=0$ and $u\in\ker K=\langle\mathbf1,\mathbf1_B\rangle$. There are at most four sign-normalized classes, and hence at most eight Selmer classes.
 
 For equality, we verify that $$\gamma=(\beta,1)$$ is an actual local Kummer class everywhere. At $2$ and at the real place it is the identity class, since $\beta$ is a positive local square. At $3$ it is $\tau_1$, since $\beta$ and $l$ are both unit nonsquares. At $q_i\mid l$, take $u=\mathbf1_B$ and $v=0$: the comparison with $\tau_1^{u_i}$ has square coordinate quotients precisely because $K\mathbf1_B=0$. At every other finite odd prime it is unramified, so lies in the local image already described. This proves $\gamma\in\mathop{\mathrm{Sel}}_2(E_l/\mathbb Q)$. It is neither the identity nor $\tau_1$: $B$ is nonempty, and $l$ has a prime factor outside $B$. It cannot equal $\tau_2$ or $\tau_1\tau_2$, whose second coordinates are negative. Thus $\tau_1,\tau_2,\gamma$ are three independent Selmer classes, and the upper bound is attained. ◻
 
@@ -519,14 +519,14 @@ It remains to realize this particular Selmer class by a rational point. The cons
 
 **Lemma 3.4**. *Under the hypotheses of Lemma 3.3, the curve $E_l$ has a rational point with nonzero $x$-coordinate in $\beta\mathbb Q^{\times2}$.*
 
-*Proof.* Put $r=\mathop{\mathrm{rank}}E_l(\mathbb Q)$. Since $E_l$ has full rational two-torsion, the Kummer sequence (par:selmer-exact-sequence) and Lemma 3.3 imply $$\begin{equation}
-\label{par:rank-sha}
+*Proof.* Put $r=\mathop{\mathrm{rank}}E_l(\mathbb Q)$. Since $E_l$ has full rational two-torsion, the Kummer sequence (3.7) and Lemma 3.3 imply $$\begin{equation}
+\tag{3.18}
  r+\dim_{\mathbb F_2}\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]=1.
 \end{equation}$$ This also controls the full $2$-primary Selmer group before any finiteness conclusion. The usual exact sequence is $$0\longrightarrow E_l(\mathbb Q)\otimes\mathbb Q_2/\mathbb Z_2
  \longrightarrow\mathop{\mathrm{Sel}}_{2^\infty}(E_l/\mathbb Q)
- \longrightarrow\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2^\infty]\longrightarrow0.$$ These are cofinitely generated $\mathbb Z_2$-modules. If the last group has corank $t$, its structure is $(\mathbb Q_2/\mathbb Z_2)^t\oplus F$ with $F$ finite, so $t\le\dim_{\mathbb F_2}\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]$. It follows from (par:rank-sha) that $$0\le\mathop{\mathrm{corank}}_{\mathbb Z_2}\mathop{\mathrm{Sel}}_{2^\infty}(E_l/\mathbb Q)=r+t\le1.$$ The curve has nonzero rational two-torsion, so (OpenAI 2026a, Theorem 1.1) now applies and proves that $\mathop{\mathrm{Sha}}(E_l/\mathbb Q)$ is finite.
+ \longrightarrow\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2^\infty]\longrightarrow0.$$ These are cofinitely generated $\mathbb Z_2$-modules. If the last group has corank $t$, its structure is $(\mathbb Q_2/\mathbb Z_2)^t\oplus F$ with $F$ finite, so $t\le\dim_{\mathbb F_2}\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]$. It follows from (3.18) that $$0\le\mathop{\mathrm{corank}}_{\mathbb Z_2}\mathop{\mathrm{Sel}}_{2^\infty}(E_l/\mathbb Q)=r+t\le1.$$ The curve has nonzero rational two-torsion, so (OpenAI 2026a, Theorem 1.1) now applies and proves that $\mathop{\mathrm{Sha}}(E_l/\mathbb Q)$ is finite.
 
-The Cassels–Tate pairing on this finite group is perfect and alternating. Alternation here uses the principal polarization represented by the rational divisor $(O)$; see (Cassels 1962); see also (Poonen and Stoll 1999, sec. 1 and Corollary 9). For completeness, an alternating perfect pairing on a finite abelian $2$-group forces an even number of cyclic factors. Choose an element $x$ of maximal order $2^a$. Perfection supplies $y$ whose pairing with $x$ has exact order $2^a$. The subgroup generated by $x,y$ is a nondegenerate copy of $(\mathbb Z/2^a\mathbb Z)^2$, and the whole group is its direct sum with its orthogonal complement. Induction gives a decomposition into such paired cyclic factors. Hence $$\dim_{\mathbb F_2}\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]\quad\text{is even}.$$ This conclusion uses the perfect pairing on the full finite $2$-primary group; its restriction to the subgroup killed by $2$ need not be perfect. Equation (par:rank-sha) therefore gives $\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]=0$ and $r=1$.
+The Cassels–Tate pairing on this finite group is perfect and alternating. Alternation here uses the principal polarization represented by the rational divisor $(O)$; see (Cassels 1962); see also (Poonen and Stoll 1999, sec. 1 and Corollary 9). For completeness, an alternating perfect pairing on a finite abelian $2$-group forces an even number of cyclic factors. Choose an element $x$ of maximal order $2^a$. Perfection supplies $y$ whose pairing with $x$ has exact order $2^a$. The subgroup generated by $x,y$ is a nondegenerate copy of $(\mathbb Z/2^a\mathbb Z)^2$, and the whole group is its direct sum with its orthogonal complement. Induction gives a decomposition into such paired cyclic factors. Hence $$\dim_{\mathbb F_2}\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]\quad\text{is even}.$$ This conclusion uses the perfect pairing on the full finite $2$-primary group; its restriction to the subgroup killed by $2$ need not be perfect. Equation (3.18) therefore gives $\mathop{\mathrm{Sha}}(E_l/\mathbb Q)[2]=0$ and $r=1$.
 
 The Kummer sequence now shows that $\gamma=(\beta,1)$ is the class of a rational point $T$. By Lemma 3.3 its class differs from all four two-torsion point classes. Thus $T$ is finite and none of $x(T)$, $x(T)-l$, $x(T)+3l$ is zero. The curve equation gives, modulo squares, $$[x(T)]=[x(T)+3l]\,[x(T)-l]=\beta,$$ as required. ◻
 
@@ -536,27 +536,27 @@ The Kummer sequence now shows that $\gamma=(\beta,1)$ is the class of a rational
 
 The criterion is now a condition on the prime support of one twist. We construct a single positive squarefree $n$ for which it holds both on the support of $n$ and on that of $n\theta$. The mutual local-square relations from Lemma 3.2 are what allow the second support to be added without disturbing the first construction.
 
-**Lemma 3.6**. *For $\beta,\theta,B,J$ as in Lemma 3.2, there is a positive squarefree integer $n$, prime to $6\theta$, whose support $P$ contains $B$ and at least one auxiliary prime outside $B$, such that the following statements hold for both $l=n$ and $l=n\theta$. The number $l$ satisfies $l\equiv3\pmod4$ and $l\equiv2\pmod3$. On its prime support $Q=P$ or $Q=P\cup J$, the matrices (par:matrices) satisfy (par:matrix-target).*
+**Lemma 3.6**. *For $\beta,\theta,B,J$ as in Lemma 3.2, there is a positive squarefree integer $n$, prime to $6\theta$, whose support $P$ contains $B$ and at least one auxiliary prime outside $B$, such that the following statements hold for both $l=n$ and $l=n\theta$. The number $l$ satisfies $l\equiv3\pmod4$ and $l\equiv2\pmod3$. On its prime support $Q=P$ or $Q=P\cup J$, the matrices (3.8) satisfy (3.11).*
 
 *Proof.* Since $\beta,\theta$ are odd squares at $2$, their products of $(-1)$-symbols are $1$. At $3$, reciprocity gives $[q/3]=[3/q]+[-1/q]=\lambda_q+s_q$. Consequently $$\begin{equation}
-\label{par:fixed-symbol-sums}
+\tag{3.19}
  \sum_{i\in B}s_i=\sum_{j\in J}s_j=0,\qquad
  \sum_{i\in B}\lambda_i=1,\qquad
  \sum_{j\in J}\lambda_j=0.
 \end{equation}$$ The fixed $B$–$J$ symbols need not vanish individually. Their row sums, however, satisfy $$\begin{equation}
-\label{par:cross-symbol-sums}
+\tag{3.20}
  \sum_{j\in J}[q_j/q_i]=0\quad(i\in B),\qquad
  \sum_{i\in B}[q_i/q_j]=0\quad(j\in J),
-\end{equation}$$ by (par:mutual-squares).
+\end{equation}$$ by (3.5).
 
 Introduce one auxiliary prime $q_0$ of type $(s_0,\lambda_0)=(1,1)$, and a set $I$ of $|B|-1$ auxiliary primes of type $(0,0)$. These types can be imposed by the residue classes $7$ and $1$ modulo $12$, respectively. We first prescribe all required Legendre symbols abstractly, and realize them by actual primes at the end. Until then, each unchosen symbol is a bit whose reverse is constrained by quadratic reciprocity; the matrix reciprocity identity therefore holds for every completion of these choices. On each of the sets $$Q_0=B\cup I\cup\{q_0\},\qquad Q_1=Q_0\cup J,$$ the total $s$-sum is $1$ and the total $\lambda$-sum is $0$. The former gives $l\equiv3\pmod4$, while the sum of $s+\lambda$ gives $l\equiv2\pmod3$ for the corresponding prime product.
 
 We first show that, subject to $K\mathbf1_B=0$, both matrix targets follow from one nonsingularity condition. Fix $b_*\in B$ and let $a$ have entries $1$ at $q_0,b_*$ and $0$ elsewhere. Thus $$a^{\mathsf t}\mathbf1=0,\qquad
- a^{\mathsf t}\mathbf1_B=1.$$ We shall impose $K\mathbf1_B=0$ on both supports. Assuming this condition for the moment, set $K^\#=K+\lambda a^{\mathsf t}$. The total symbol sums and (par:matrix-null-vectors) show that $K^\#$ kills $\mathbf1$ on both sides, and $$\begin{equation}
-\label{par:sharp-B}
+ a^{\mathsf t}\mathbf1_B=1.$$ We shall impose $K\mathbf1_B=0$ on both supports. Assuming this condition for the moment, set $K^\#=K+\lambda a^{\mathsf t}$. The total symbol sums and (3.10) show that $K^\#$ kills $\mathbf1$ on both sides, and $$\begin{equation}
+\tag{3.21}
  K^\#\mathbf1_B=\lambda.
-\end{equation}$$ Put $$T=\operatorname{Id}-\mathbf1_Ba^{\mathsf t}.$$ This is a projection onto $a^\perp$, with kernel $\langle\mathbf1_B\rangle$, and it fixes $\mathbf1$. By (par:sharp-B), $$\begin{equation}
-\label{par:projection-factorization}
+\end{equation}$$ Put $$T=\operatorname{Id}-\mathbf1_Ba^{\mathsf t}.$$ This is a projection onto $a^\perp$, with kernel $\langle\mathbf1_B\rangle$, and it fixes $\mathbf1$. By (3.21), $$\begin{equation}
+\tag{3.22}
  K=K^\#T.
 \end{equation}$$ Suppose that $\ker K^\#=\langle\mathbf1\rangle$. If $Kx=0$, then $Tx=c\mathbf1$, so $x=c\mathbf1+(a^{\mathsf t}x)\mathbf1_B$; the converse follows from $K\mathbf1=K\mathbf1_B=0$. This gives the required kernel of $K$. If $Kx=\lambda$, put $y=Tx$. Then $a^{\mathsf t}y=0$ and $K^\#(y-\mathbf1_B)=0$, so $y-\mathbf1_B\in\langle\mathbf1\rangle$. Applying $a^{\mathsf t}$ would give $-1=0$, a contradiction. Thus $\lambda\notin\operatorname{im}K$.
 
@@ -564,21 +564,21 @@ For either support, let $M$ be the matrix obtained from $K^\#$ by deleting the $
 
 For the smaller support, let $C$ be a $B$-by-$I$ matrix whose columns are a basis of the even-sum hyperplane $$\{x\in\mathbb F_2^B:\mathbf1_B^{\mathsf t}x=0\}.$$ These columns will form the off-diagonal block of the deleted matrix. When $|B|=1$, $C$ is the empty matrix. Prescribe $[q_i/q_b]=[q_b/q_i]=C_{bi}$ for $b\in B,i\in I$. Every other off-diagonal symbol incident with $I$ is set to zero. Prescribe $$[q_0/q_b]=\sum_{i\in I}C_{bi}\qquad(b\in B),$$ and obtain reverse symbols by reciprocity. In particular $[q_b/q_0]=[q_0/q_b]+s_b$. The $q_0$–$J$ symbols remain free.
 
-These prescriptions ensure $K\mathbf1_B=0$ on both supports. At a $B$ row, the terms from $I$ and $q_0$ cancel, and the sum from $J$, when present, is zero by (par:cross-symbol-sums). At an $I$ row the sum is a column sum of $C$, hence zero. At the $q_0$ row it is the sum of all entries of $C$ plus $\sum_B s_b$, again zero. At a $J$ row it is zero by the second equality in (par:cross-symbol-sums). It therefore remains to make the deleted matrices nonsingular.
+These prescriptions ensure $K\mathbf1_B=0$ on both supports. At a $B$ row, the terms from $I$ and $q_0$ cancel, and the sum from $J$, when present, is zero by (3.20). At an $I$ row the sum is a column sum of $C$, hence zero. At the $q_0$ row it is the sum of all entries of $C$ plus $\sum_B s_b$, again zero. At a $J$ row it is zero by the second equality in (3.20). It therefore remains to make the deleted matrices nonsingular.
 
 On $Q_0$, the deleted matrix has the form $$\begin{equation}
-\label{par:block}
+\tag{3.23}
  M_0=\begin{pmatrix}A&C\\ C^{\mathsf t}&0\end{pmatrix},
  \qquad \mathbf1_B^{\mathsf t}A\mathbf1_B=1.
-\end{equation}$$ The equality follows from (par:sharp-B) and $\sum_B\lambda_b=1$. The lower right block is zero since the only potentially nonzero symbols incident with $I$ are in $C$, whose column sums vanish. The added matrix $\lambda a^{\mathsf t}$ changes neither off-diagonal block, because $a$ and $\lambda$ both vanish on $I$. No symmetry of $A$ is required.
+\end{equation}$$ The equality follows from (3.21) and $\sum_B\lambda_b=1$. The lower right block is zero since the only potentially nonzero symbols incident with $I$ are in $C$, whose column sums vanish. The added matrix $\lambda a^{\mathsf t}$ changes neither off-diagonal block, because $a$ and $\lambda$ both vanish on $I$. No symmetry of $A$ is required.
 
-To prove $M_0$ nonsingular, let $M_0(x,y)^{\mathsf t}=0$. The second block equation says $C^{\mathsf t}x=0$. Since the columns of $C$ span the even-sum hyperplane, its annihilator is $\langle\mathbf1_B\rangle$; hence $x=c\mathbf1_B$. Left multiplying the first block equation $cA\mathbf1_B+Cy=0$ by $\mathbf1_B^{\mathsf t}$ gives $c=0$ by (par:block). The injectivity of $C$ then gives $y=0$. This proof applies also when $|B|$ is even; when $|B|=1$ it says simply that $M_0=(1)$.
+To prove $M_0$ nonsingular, let $M_0(x,y)^{\mathsf t}=0$. The second block equation says $C^{\mathsf t}x=0$. Since the columns of $C$ span the even-sum hyperplane, its annihilator is $\langle\mathbf1_B\rangle$; hence $x=c\mathbf1_B$. Left multiplying the first block equation $cA\mathbf1_B+Cy=0$ by $\mathbf1_B^{\mathsf t}$ gives $c=0$ by (3.23). The injectivity of $C$ then gives $y=0$. This proof applies also when $|B|$ is even; when $|B|=1$ it says simply that $M_0=(1)$.
 
-On adding $J$, the $B,I$ block of the deleted matrix stays equal to $M_0$. Indeed, the only possible changes to its diagonal are the $B$–$J$ row sums, which vanish by (par:cross-symbol-sums); all $I$–$J$ symbols were set to zero. Now varying the bit $[q_0/q_j]$ for one $j\in J$ also varies its reverse by the same bit, as their reciprocity discrepancy is fixed. After deleting the $q_0$ row and column, the only surviving change is a toggle of the $j$-th diagonal entry. Thus these choices independently toggle the $J$-diagonal entries of the enlarged matrix. Its determinant is a multilinear polynomial in these bits whose coefficient of their full product is $\det M_0=1$. A nonzero multilinear polynomial over $\mathbb F_2$ cannot vanish at every point of the Boolean cube: this follows by induction on the number of variables, writing it as $f_0+Xf_1$. Hence some choice makes the enlarged matrix nonsingular. If $J$ is empty, the smaller-support calculation already suffices. The chosen bits do not affect the smaller matrix.
+On adding $J$, the $B,I$ block of the deleted matrix stays equal to $M_0$. Indeed, the only possible changes to its diagonal are the $B$–$J$ row sums, which vanish by (3.20); all $I$–$J$ symbols were set to zero. Now varying the bit $[q_0/q_j]$ for one $j\in J$ also varies its reverse by the same bit, as their reciprocity discrepancy is fixed. After deleting the $q_0$ row and column, the only surviving change is a toggle of the $j$-th diagonal entry. Thus these choices independently toggle the $J$-diagonal entries of the enlarged matrix. Its determinant is a multilinear polynomial in these bits whose coefficient of their full product is $\det M_0=1$. A nonzero multilinear polynomial over $\mathbb F_2$ cannot vanish at every point of the Boolean cube: this follows by induction on the number of variables, writing it as $f_0+Xf_1$. Hence some choice makes the enlarged matrix nonsingular. If $J$ is empty, the smaller-support calculation already suffices. The chosen bits do not affect the smaller matrix.
 
-The deleted matrices are now nonsingular on both supports, so the preceding reduction proves (par:matrix-target) on both. Finally realize the prescribed symbols. Choose the auxiliary primes successively. At each step, specify the type modulo $12$ and the Legendre symbols modulo every already fixed prime in $B\cup J$ or among the earlier auxiliary primes. Each symbol can be imposed by a nonzero residue modulo that prime; reverse symbols are consistent by the prescribed reciprocity rule. The Chinese remainder theorem gives a reduced residue class, and Dirichlet’s theorem supplies infinitely many primes in it. Excluding the finitely many previously used primes causes no difficulty. The resulting product $n=\prod_{q\in B\cup I\cup\{q_0\}}q$ has all the asserted properties. ◻
+The deleted matrices are now nonsingular on both supports, so the preceding reduction proves (3.11) on both. Finally realize the prescribed symbols. Choose the auxiliary primes successively. At each step, specify the type modulo $12$ and the Legendre symbols modulo every already fixed prime in $B\cup J$ or among the earlier auxiliary primes. Each symbol can be imposed by a nonzero residue modulo that prime; reverse symbols are consistent by the prescribed reciprocity rule. The Chinese remainder theorem gives a reduced residue class, and Dirichlet’s theorem supplies infinitely many primes in it. Excluding the finitely many previously used primes causes no difficulty. The resulting product $n=\prod_{q\in B\cup I\cup\{q_0\}}q$ has all the asserted properties. ◻
 
-*Completion of the proof of Proposition 2.8.* The value $b=0$ satisfies $\Phi$ by definition. For a nonzero integer $b$, make the local choices preceding Lemma 3.2 and choose $n$ by Lemma 3.6. Both $l=n$ and $l=n\theta$ satisfy the hypotheses of Lemma 3.4, so each curve has a point with nonzero $x$-coordinate of class $\beta$, which is also the class of $b'$. The isomorphism (par:twist-scaling) sends the point on $E_{n\theta}$ to one on $E_{nH'}$ with the same $x$-coordinate square class. Taking $e=n$ gives the two points required in the definition of $\Phi$, on $E_e$ and $E_{eH'}$. This proves integer completeness, while Lemma 3.1 proves the asserted pole restriction. ◻
+*Completion of the proof of Proposition 2.8.* The value $b=0$ satisfies $\Phi$ by definition. For a nonzero integer $b$, make the local choices preceding Lemma 3.2 and choose $n$ by Lemma 3.6. Both $l=n$ and $l=n\theta$ satisfy the hypotheses of Lemma 3.4, so each curve has a point with nonzero $x$-coordinate of class $\beta$, which is also the class of $b'$. The isomorphism (3.6) sends the point on $E_{n\theta}$ to one on $E_{nH'}$ with the same $x$-coordinate square class. Taking $e=n$ gives the two points required in the definition of $\Phi$, on $E_e$ and $E_{eH'}$. This proves integer completeness, while Lemma 3.1 proves the asserted pole restriction. ◻
 
 ## A height bound from odd contact with five points
 
@@ -598,17 +598,17 @@ We use canonical models and functoriality for Shimura varieties (Deligne 1971b, 
        \bigl(\mathfrak H^\pm\times G(\mathbf A_f)/K\bigr)$$ for a compact open subgroup $K$, and define level maps and finite-adelic right actions over that field. We use the full Shimura varieties over $\mathbb Q$, including all their geometric components.
 
 At maximal level, put $$X=\operatorname{Sh}_{\widehat{\mathcal O}^{\,\times}}
-                         (G,\mathfrak H^\pm).$$ This curve is proper because $B$ is a division algebra. Strong approximation for $B^1$, the reduced-norm theorem, and $\operatorname{Nrd}(\mathcal O_p^\times)=\mathbb Z_p^\times$ give $$G(\mathbf A_f)=G(\mathbb Q)^+\widehat{\mathcal O}^{\,\times}.$$ Indeed, match the finite-adelic norm modulo $\widehat\mathbb Z^\times$ by a positive rational reduced norm and then apply strong approximation to the norm-one part. There are also rational elements of negative norm, since no real place is ramified. Consequently $X_{\mathbf C}$ is the connected compact curve $$(\mathcal O^1/\{\pm1\})\backslash\mathfrak H.$$
+                         (G,\mathfrak H^\pm).$$ This curve is proper because $B$ is a division algebra. Strong approximation for $B^1$, the reduced-norm theorem, and $\operatorname{Nrd}(\mathcal O_p^\times)=\mathbb Z_p^\times$ give $$G(\mathbf A_f)=G(\mathbb Q)^+\widehat{\mathcal O}^{\,\times}.$$ Indeed, match the finite-adelic norm modulo $\widehat{\mathbb Z}^\times$ by a positive rational reduced norm and then apply strong approximation to the norm-one part. There are also rational elements of negative norm, since no real place is ramified. Consequently $X_{\mathbf C}$ is the connected compact curve $$(\mathcal O^1/\{\pm1\})\backslash\mathfrak H.$$
 
 The uniformizing group has no nontrivial elliptic stabilizers. A noncentral norm-one unit fixing a point has integral trace of absolute value less than two, hence trace $0$ or $\pm1$. It would generate $\mathbb Q(i)$ or $\mathbb Q(\sqrt{-3})$. These fields cannot embed in $B$, since they split at the ramified primes $5$ and $7$, respectively. The Eichler area formula, in the normalization of (Voight 2021, Theorem 39.1.2), therefore gives $$\frac{\operatorname{area}(X(\mathbf C))}{2\pi}
        =\frac16\prod_{p\mid210}(p-1)=8.$$ There are no cusps or elliptic corrections, so $2g(X)-2=8$ and $g(X)=5$.
 
-The finite-adelic normalizer of $\widehat{\mathcal O}$ induces the Atkin–Lehner group $$\mathcal W\simeq(\mathbb Z/2\mathbb Z)^4$$ over $\mathbb Q$. At a split prime, the normalizer is scalars times order units. At a division prime, its quotient by scalars and order units has order two, detected by parity of reduced-norm valuation. Finite adelic scalars act trivially, since $\mathbf A_f^\times=\mathbb Q^\times\widehat\mathbb Z^\times$. The resulting action is faithful: a generic domain point has rational stabilizer equal to the center, which accounts precisely for the scalars already removed. Let $X^*=X/\mathcal W$.
+The finite-adelic normalizer of $\widehat{\mathcal O}$ induces the Atkin–Lehner group $$\mathcal W\simeq(\mathbb Z/2\mathbb Z)^4$$ over $\mathbb Q$. At a split prime, the normalizer is scalars times order units. At a division prime, its quotient by scalars and order units has order two, detected by parity of reduced-norm valuation. Finite adelic scalars act trivially, since $\mathbf A_f^\times=\mathbb Q^\times\widehat{\mathbb Z}^\times$. The resulting action is faithful: a generic domain point has rational stabilizer equal to the center, which accounts precisely for the scalars already removed. Let $X^*=X/\mathcal W$.
 
 The geometry of this discriminant-$210$ quotient has been tabulated before. Long, Maclachlan, and Reid list the signature $(0;2^5;0)$, recording a genus-zero quotient with five elliptic cycles of order two and no cusps (Long et al. 2006, Table 3). Nualart Riera gives genus $5$ for the original curve and the five involution labels $30,42,70,105,210$, and identifies the full quotient over $\mathbb Q$ with $\mathbf P^1$ (Nualart Riera 2015, Propositions 4.1–4.2). The calculation here recovers this fixed configuration and establishes the rational branch values used in the reduction.
 
 A finite stabilizer of a point on a smooth characteristic-zero curve acts faithfully on its tangent line and is cyclic. Since every nonidentity element of $\mathcal W$ has order two, each nontrivial stabilizer has order two. If $r$ is the number of geometric branch values of $X\to X^*$, Riemann–Hurwitz gives $$\begin{equation}
-\label{hei:hurwitz}
+\tag{4.1}
              2g(X^*)-2+\frac r2=\frac{2g(X)-2}{16}=\frac12.
 \end{equation}$$ Thus $r=5-4g(X^*)\le5$.
 
@@ -616,12 +616,12 @@ We exhibit five different stabilizer labels. Take $$m=30,42,70,105,210.$$ The fi
 
 An embedded $\sqrt{-m}$ lies in some maximal order: at split local places an integral element stabilizes a lattice, and at division places it lies in the unique maximal order. Intersecting these local orders gives a global maximal order containing the embedded element. Strong approximation implies that all maximal orders in this indefinite rational quaternion algebra are conjugate by $B^\times$ (Voight 2021, Theorems 28.2.10 and 28.2.11(b)), so a conjugate of the embedded element lies in our fixed $\mathcal O$. It normalizes $\mathcal O$ because it is a unit at every prime outside $210$, and at a division prime every element normalizes the unique maximal order. Its norm is $m$ and it fixes a point of $\mathfrak H$, so it gives a fixed point of the involution $w_m$ with the corresponding norm-parity label.
 
-The five labels are different. A fiber of the quotient is one $\mathcal W$-orbit, and the stabilizers along this orbit agree because $\mathcal W$ is abelian. Distinct labels thus yield distinct branch values, proving $r\ge5$. Equation (hei:hurwitz) now forces $r=5$ and $g(X^*)=0$. There is exactly one branch value for each of the five labels. Every $w_m$ is defined over $\mathbb Q$, so Galois preserves its uniquely labelled branch value. Each branch value is therefore individually rational. In particular $X^*$ is a genus-zero curve with a rational point, hence is isomorphic over $\mathbb Q$ to $\mathbf P^1$. Fix an isomorphism sending one branch value to $\infty$, and denote the five branch values by $\mathcal C$.
+The five labels are different. A fiber of the quotient is one $\mathcal W$-orbit, and the stabilizers along this orbit agree because $\mathcal W$ is abelian. Distinct labels thus yield distinct branch values, proving $r\ge5$. Equation (4.1) now forces $r=5$ and $g(X^*)=0$. There is exactly one branch value for each of the five labels. Every $w_m$ is defined over $\mathbb Q$, so Galois preserves its uniquely labelled branch value. Each branch value is therefore individually rational. In particular $X^*$ is a genus-zero curve with a rational point, hence is isomorphic over $\mathbb Q$ to $\mathbf P^1$. Fix an isomorphism sending one branch value to $\infty$, and denote the five branch values by $\mathcal C$.
 
 ### The abelian surface family
 
 We next pass to a fine level so that the cover carries abelian surfaces. The construction will provide a finite level map $Y\to X$, unramified over $X$, and a principally polarized abelian surface scheme $\mathcal A\to Y$. Write $\pi$ for the composite $$Y\longrightarrow X\longrightarrow X^*\simeq\mathbf P^1,
- \qquad \pi:Y\longrightarrow\mathbf P^1.$$ Every fiber $\mathcal A_y$ with $y\in Y(\overline\mathbb Q)$ will have an embedding $B\hookrightarrow\operatorname{End}^0_{\overline\mathbb Q}(\mathcal A_y)$ given by left multiplication. Fibers with the same image under $\pi$ will be geometrically isogenous, and the polarized moduli map will be nonconstant on every geometric component. We now construct the family and prove these properties.
+ \qquad \pi:Y\longrightarrow\mathbf P^1.$$ Every fiber $\mathcal A_y$ with $y\in Y(\overline{\mathbb Q})$ will have an embedding $B\hookrightarrow\operatorname{End}^0_{\overline{\mathbb Q}}(\mathcal A_y)$ given by left multiplication. Fibers with the same image under $\pi$ will be geometrically isogenous, and the polarized moduli map will be nonconstant on every geometric component. We now construct the family and prove these properties.
 
 Canonical-model functoriality associates algebraic maps to morphisms of Shimura data at compatible levels (Deligne 1971b, 1979). A Siegel variety at principal level at least three carries the universal principally polarized abelian scheme. The required morphism to a Siegel datum comes from the following symplectic representation.
 
@@ -634,7 +634,7 @@ Choose a rational symplectic basis for $V$. The standard lattice in that basis i
 
 There may be finitely many geometric components of the smooth projective curve $Y$. The level map $Y\to X$ is unramified by the uniformization and the absence of elliptic stabilizers on $X$. Consequently its composite $\pi$ has ramification index two at every point above $\mathcal C$ and index one elsewhere.
 
-Every geometric fiber $A=\mathcal A_y$ has left $B$-multiplication in $\operatorname{End}^0_{\overline\mathbb Q}(A)$. Left multiplication commutes with the right complex structures on $V$; the equivalence between abelian varieties up to isogeny and their polarizable rational Hodge structures supplies the endomorphisms. Homomorphisms of abelian varieties defined over $\overline\mathbb Q$ do not acquire new elements after extension to $\mathbf C$ (Mumford 1970).
+Every geometric fiber $A=\mathcal A_y$ has left $B$-multiplication in $\operatorname{End}^0_{\overline{\mathbb Q}}(A)$. Left multiplication commutes with the right complex structures on $V$; the equivalence between abelian varieties up to isogeny and their polarizable rational Hodge structures supplies the endomorphisms. Homomorphisms of abelian varieties defined over $\overline{\mathbb Q}$ do not acquire new elements after extension to $\mathbf C$ (Mumford 1970).
 
 For non-CM points, the moduli construction of Guitart and Molina gives a related description by compatible isogenies (Guitart and Molina 2009, Lemma 1, Corollary 2, and Section 3). For this fine-level family, the following Hodge argument gives the underlying geometric isogenies for all fibers needed here; compatible choices are made in the descent argument. Changing level or applying the normalizer changes the finite-adelic coordinate, while domain coordinates of fibers above a common point of $X^*$ can be identified up to $G(\mathbb Q)$. Their rational Hodge structures are therefore isomorphic, so the fibers are geometrically isogenous. In particular, if $\pi(y)=s\in\mathbf P^1(\mathbb Q)$, then $\pi({}^g y)=g(s)=s$ and $\mathcal A_y$ is isogenous to each of its Galois conjugates.
 
@@ -660,8 +660,8 @@ This use of contact multiplicities has a classical specialization precedent. Dar
 
 The fiber-field lemma identifies the primes that may ramify when a rational base point is lifted to the family. We also need to recover the height of that base point from the fiber. The next lemma depends only on the fixed family, and applies to every algebraic point of $Y$.
 
-**Lemma 4.2**. *For every $y\in Y(\overline\mathbb Q)$ one has $$\begin{equation}
-\label{hei:comparison}
+**Lemma 4.2**. *For every $y\in Y(\overline{\mathbb Q})$ one has $$\begin{equation}
+\tag{4.2}
  h(\pi(y))\le C\bigl(1+\max\{0,h_{\mathrm F}(\mathcal A_y)\}\bigr),
 \end{equation}$$ with a constant independent of $y$ and its field of definition.*
 
@@ -670,7 +670,7 @@ The fiber-field lemma identifies the primes that may ramify when a rational base
 For every fixed even integer $r\ge2$, the required algebraic theta data can be chosen after a finite cover of each geometric component of $Y$. Over a finite extension of its function field, choose a symmetric ample line bundle $\mathcal M$ representing the principal polarization, together with the theta data of (Pazuki 2012, sec. 2.3). These choices require only a finite extension: a representative of a geometric principal polarization can be made symmetric by translation, and the torsion points and finite theta data are defined after a finite extension. They spread over a dense open subset of the smooth projective covering curve, where the theta-null map is algebraic. The value of this map at a fiber is the zero-section point $\Theta(0)$ constructed from Pazuki’s good choices of theta data; after complex uniformization of that fiber, (Pazuki 2012, secs. 2.3.2–2.3.4) identifies this point, up to the finite coordinate ambiguity among good choices, with the characteristic Nullwerte displayed below. These covers and data may depend on $r$; we will fix the final level after proving nonconstancy.
 
 We next compare the projective height of this map with Pazuki’s theta height, uniformly in the fiber at any fixed $r$. For a fiber $A=\mathcal A_y$ and a period matrix $\tau$ for its principal polarization, the characteristic coordinates can be taken to be $$\begin{equation}
-\label{hei:theta-series}
+\tag{4.3}
  \theta[a,b](\tau,0)=
  \sum_{n\in\mathbb Z^2}
    \exp\bigl(\pi i(n+a)^{\mathrm t}\tau(n+a)
@@ -682,20 +682,20 @@ Put $k=r^2$. At the generic fiber of the chosen cover, let $g_x$ denote the good
 
 In analytic theta coordinates, a lift of translation by $(m+\tau l)/k$ is given by shifting the argument and multiplying by $$\exp(\pi i l^{\mathrm t}\tau l/k+2\pi i l^{\mathrm t}z).$$ Theta automorphy shows that its order divides $2k$ and that it permutes $\theta[a,b](\tau,rz)$, up to bounded-order roots of unity, by $(a,b)\mapsto(a+l/r,b+m/r)$. Two lifts of the same translation whose $2k$-th powers are one differ by a scalar in $\mu_{2k}$. Thus comparison with the algebraic $u_x$ introduces a $\mu_{2k}$ factor after the preceding $\mu_{k^2}$ change from the good lift. All these coordinate roots of unity preserve projective height, as do permutations and a common scalar.
 
-The customary Fourier change of theta basis is a fixed invertible matrix at this level, so it changes height by $O_r(1)$. Grouping $r(n+a)$ modulo $k$ in (hei:theta-series) relates these coordinates blockwise by finite Fourier matrices to $\theta[e/k,0](k\tau,0)$, $e\bmod k$. There are $r^4$ independent sections, as required by $h^0(\mathcal M^{r^2})=r^4$, and their values are not all zero since $\mathcal M^{r^2}$ is basepoint-free. Pazuki’s exact theta height uses the $\ell^2$ projective height (Pazuki 2012, Definition 2.6); its difference from the usual projective height is also bounded at this fixed level. These comparisons give one additive constant depending on $r$, not on the fiber or its field of definition.
+The customary Fourier change of theta basis is a fixed invertible matrix at this level, so it changes height by $O_r(1)$. Grouping $r(n+a)$ modulo $k$ in (4.3) relates these coordinates blockwise by finite Fourier matrices to $\theta[e/k,0](k\tau,0)$, $e\bmod k$. There are $r^4$ independent sections, as required by $h^0(\mathcal M^{r^2})=r^4$, and their values are not all zero since $\mathcal M^{r^2}$ is basepoint-free. Pazuki’s exact theta height uses the $\ell^2$ projective height (Pazuki 2012, Definition 2.6); its difference from the usual projective height is also bounded at this fixed level. These comparisons give one additive constant depending on $r$, not on the fiber or its field of definition.
 
-It remains to choose a level at which the theta-null map is nonconstant. The following argument avoids an assumption about generic injectivity of a particular theta map. Take a connected analytic disk with a fixed homology marking on which the period matrix varies. Suppose the projective vectors in (hei:theta-series) were constant at every sufficiently divisible even level. At a chosen period $\tau_0$, select rational $b_0$ with $\theta[0,b_0](\tau_0,0)\ne0$; such a $b_0$ exists since the function of real $b$ has constant Fourier coefficient one. Shrink the disk so its denominator stays nonzero. At a common level containing $b$ and $b_0$, projective constancy implies that $$\frac{\theta[0,b](\tau,0)}{\theta[0,b_0](\tau,0)}$$ is constant as $\tau$ varies, for every rational $b$. Density of rational $b$, continuity, and absolute convergence of the theta series show that the functions of real $b$ for $\tau$ and $\tau_0$ are proportional. Their constant Fourier coefficients are one, so they are equal. Consequently every $\exp(\pi i n^{\mathrm t}\tau n)$ is constant. Taking $n=e_i$ and $n=e_i+e_j$ and using continuity forces $\tau$ itself to be constant, a contradiction. A level with a nonconstant vector therefore exists. Nonconstancy persists at multiples of that level because the old characteristic coordinates occur among the new ones. A common even multiple works for the finitely many components.
+It remains to choose a level at which the theta-null map is nonconstant. The following argument avoids an assumption about generic injectivity of a particular theta map. Take a connected analytic disk with a fixed homology marking on which the period matrix varies. Suppose the projective vectors in (4.3) were constant at every sufficiently divisible even level. At a chosen period $\tau_0$, select rational $b_0$ with $\theta[0,b_0](\tau_0,0)\ne0$; such a $b_0$ exists since the function of real $b$ has constant Fourier coefficient one. Shrink the disk so its denominator stays nonzero. At a common level containing $b$ and $b_0$, projective constancy implies that $$\frac{\theta[0,b](\tau,0)}{\theta[0,b_0](\tau,0)}$$ is constant as $\tau$ varies, for every rational $b$. Density of rational $b$, continuity, and absolute convergence of the theta series show that the functions of real $b$ for $\tau$ and $\tau_0$ are proportional. Their constant Fourier coefficients are one, so they are equal. Consequently every $\exp(\pi i n^{\mathrm t}\tau n)$ is constant. Taking $n=e_i$ and $n=e_i+e_j$ and using continuity forces $\tau$ itself to be constant, a contradiction. A level with a nonconstant vector therefore exists. Nonconstancy persists at multiples of that level because the old characteristic coordinates occur among the new ones. A common even multiple works for the finitely many components.
 
 Fix this common level, and make the preceding choices of covers and theta data at that level. The finitely many covering curves, maps, and open subsets are now fixed, and can all be defined over a fixed number field. On each base component, choose a smaller marked disk avoiding the branch values of the covers and the images of their omitted points, and take a connected lift to each covering curve above it. The selected holomorphic characteristic vector remains nonconstant on the smaller disk. If the theta-null map were constant on a covering curve, the preceding pointwise identification would confine that vector on the connected lift to a fixed finite set. Continuity and connectedness would then make it constant. Thus the theta-null map is nonconstant on each covering curve and extends across the omitted points. Its pullback of $\mathcal O(1)$ has positive degree and is ample. A sufficiently large multiple of this line bundle minus the pullback by $\pi$ of $\mathcal O_{\mathbf P^1}(1)$ also has positive degree. The height machine and the lower bound for an ample height on a projective curve therefore give $$\begin{equation}
-\label{hei:theta-base}
+\tag{4.4}
                   h(\pi(y))\le C(1+h_\Theta(\mathcal A_y))
 \end{equation}$$ on the open where the theta data are defined (Bombieri and Gubler 2006).
 
-Here $h_\Theta$ is Pazuki’s exact theta height; the bounded coordinate and projective-height comparisons have already been absorbed in (hei:theta-base). Pazuki uses the Deligne normalization $$h_{\mathrm F}^{\mathrm D}(A)
+Here $h_\Theta$ is Pazuki’s exact theta height; the bounded coordinate and projective-height comparisons have already been absorbed in (4.4). Pazuki uses the Deligne normalization $$h_{\mathrm F}^{\mathrm D}(A)
    =h_{\mathrm F}(A)+\frac{\dim A}{2}\log\pi;$$ compare (Pazuki 2012, sec. 2.2) and (Gaudron and Rémond 2014b, sec. 2.3). Here $h_{\mathrm F}$ is the original stable Faltings height. For the present surfaces the difference is the fixed constant $\log\pi$.
 
 For $H_\Theta=\max\{h_\Theta,1\}$ and $H_{\mathrm D}=\max\{h_{\mathrm F}^{\mathrm D},1\}$, (Pazuki 2012, Corollary 1.3(2)) gives $$|H_\Theta-\tfrac12H_{\mathrm D}|
- \le C_2\log(\min\{H_\Theta,H_{\mathrm D}\}+2),$$ where $C_2$ depends only on dimension and level. Since $\log(H_{\mathrm D}+2)\le2H_{\mathrm D}$ and $H_{\mathrm D}\le\max\{h_{\mathrm F},1\}+\log\pi$ for these surfaces, we obtain $$h_\Theta\le C(1+\max\{0,h_{\mathrm F}\}).$$ Combining this with (hei:theta-base) proves the assertion on the chosen open sets.
+ \le C_2\log(\min\{H_\Theta,H_{\mathrm D}\}+2),$$ where $C_2$ depends only on dimension and level. Since $\log(H_{\mathrm D}+2)\le2H_{\mathrm D}$ and $H_{\mathrm D}\le\max\{h_{\mathrm F},1\}+\log\pi$ for these surfaces, we obtain $$h_\Theta\le C(1+\max\{0,h_{\mathrm F}\}).$$ Combining this with (4.4) proves the assertion on the chosen open sets.
 
 The omitted points on the fixed covering curves form a finite geometric set. Their base heights are bounded, and enlarging $C$ handles them. Absolute heights and stable Faltings heights are unchanged by field extension, so passing to points of the fixed covers introduces no dependence on their residue-field degrees. Taking the maximum over the finitely many components proves the lemma. ◻
 
@@ -715,21 +715,21 @@ All homomorphisms between conjugates, including the prescribed $B$-action, are n
 
 ### The endomorphism dichotomy and descent up to isogeny
 
-The endomorphism algebra determines which comparison will give a height bound for $A$. Put $D=\operatorname{End}^0_{\overline\mathbb Q}(A)$, and let $C_B$ be the centralizer of the prescribed left $B$-action in $D$. On rational homology the centralizer of left $B$ is right $B$. A Hodge endomorphism in that centralizer must commute, over $\mathbf R$, with the complex structure, whose centralizer in $M_2(\mathbf R)$ is $\mathbf C$. Thus $C_B$ is either $\mathbb Q$ or an imaginary quadratic field $k$ contained in $B$. More explicitly, a nonscalar rational element commuting with the complex structure generates such a quadratic field, and its real centralizer has dimension two, leaving no further possibilities.
+The endomorphism algebra determines which comparison will give a height bound for $A$. Put $D=\operatorname{End}^0_{\overline{\mathbb Q}}(A)$, and let $C_B$ be the centralizer of the prescribed left $B$-action in $D$. On rational homology the centralizer of left $B$ is right $B$. A Hodge endomorphism in that centralizer must commute, over $\mathbf R$, with the complex structure, whose centralizer in $M_2(\mathbf R)$ is $\mathbf C$. Thus $C_B$ is either $\mathbb Q$ or an imaginary quadratic field $k$ contained in $B$. More explicitly, a nonscalar rational element commuting with the complex structure generates such a quadratic field, and its real centralizer has dimension two, leaving no further possibilities.
 
 Both cases use the following quantitative isogeny theorem to transfer a known height bound. If $C_1,C_2$ are $g$-dimensional abelian varieties over a number field $k_0$ of degree $d$, and are isogenous over an extension $K/k_0$, then there are $K$-isogenies in both directions with degree at most $$\begin{equation}
-\label{hei:gr}
+\tag{4.5}
  \kappa(C_1)=
  \left((14g)^{64g^2}d
        \max\{h_{\mathrm F}(C_1),\log d,1\}^{2}\right)^{1024g^3}.
 \end{equation}$$ This is (Gaudron and Rémond 2014a, Theorem 1.4, with the definition on p. 2058). It uses the original stable Faltings height and requires neither semistability over $k_0$ nor a principal polarization. In our applications we take $K=k_0$. The stable height is additive on products and satisfies $$\begin{equation}
-\label{hei:isogeny-height}
+\tag{4.6}
  h_{\mathrm F}(C_2)\le h_{\mathrm F}(C_1)
                          +\tfrac12\log\deg\phi
  \quad\text{for an isogeny }\phi:C_1\longrightarrow C_2
-\end{equation}$$ (Faltings 1983). We will always apply (hei:gr) to a source whose height has already been bounded.
+\end{equation}$$ (Faltings 1983). We will always apply (4.5) to a source whose height has already been bounded.
 
-If $C_B=k$, the central-simple-algebra double-centralizer calculation gives $$D=B\otimes_\mathbb Qk\simeq M_2(k).$$ The last isomorphism holds because an embedded quadratic field is a maximal subfield of $B$ and splits it. Matrix idempotents, all defined over $L$ by Lemma 4.4, give $A\sim_L E^2$ for a CM elliptic curve $E/L$: take the image of an integer multiple of a rank-one idempotent, and use the matrix units to identify the two elliptic factors up to isogeny. The degree of $j(E)$ is at most $[L:\mathbb Q]$, hence is bounded. Complex multiplication theory identifies the degree of a singular modulus with the class number of its imaginary quadratic order. Class-number growth for imaginary quadratic fields and the formula for class numbers of orders imply that only finitely many such $j$-invariants have bounded degree (Cox 2013; Siegel 1935). Their stable elliptic heights, and therefore $h_{\mathrm F}(E^2)$, are bounded. Apply (hei:gr) to the source $E^2$, with dimension two, bounded height, and bounded $[L:\mathbb Q]$, and then apply (hei:isogeny-height). This bounds $h_{\mathrm F}(A)$ uniformly. Lemma 4.2 already proves Theorem 2.4 for these fibers, since $M\ge1$. The finiteness invoked here need not be effective.
+If $C_B=k$, the central-simple-algebra double-centralizer calculation gives $$D=B\otimes_\mathbb Qk\simeq M_2(k).$$ The last isomorphism holds because an embedded quadratic field is a maximal subfield of $B$ and splits it. Matrix idempotents, all defined over $L$ by Lemma 4.4, give $A\sim_L E^2$ for a CM elliptic curve $E/L$: take the image of an integer multiple of a rank-one idempotent, and use the matrix units to identify the two elliptic factors up to isogeny. The degree of $j(E)$ is at most $[L:\mathbb Q]$, hence is bounded. Complex multiplication theory identifies the degree of a singular modulus with the class number of its imaginary quadratic order. Class-number growth for imaginary quadratic fields and the formula for class numbers of orders imply that only finitely many such $j$-invariants have bounded degree (Cox 2013; Siegel 1935). Their stable elliptic heights, and therefore $h_{\mathrm F}(E^2)$, are bounded. Apply (4.5) to the source $E^2$, with dimension two, bounded height, and bounded $[L:\mathbb Q]$, and then apply (4.6). This bounds $h_{\mathrm F}(A)$ uniformly. Lemma 4.2 already proves Theorem 2.4 for these fibers, since $M\ge1$. The finiteness invoked here need not be effective.
 
 We henceforth treat the other case, $C_B=\mathbb Q$. The same double-centralizer calculation gives $D=B$. One can check this calculation after an extension splitting $B$: an algebra containing the full $2\times2$ matrix units is a matrix algebra over their centralizer. Because $B$ is division, $A$ is absolutely simple; a proper isogeny factor would give a nontrivial idempotent in $D$.
 
@@ -739,15 +739,15 @@ Our goal in this case is to find a primitive weight-two newform $f$ of level $N$
 Compatible-isogeny cocycles and their scalar splittings are part of the theory of $\mathbb Q$-curves and building blocks (Ribet 1992, sec. 6)(Pyle 1995, chaps. 4–5); compare (Quer 2001, sec. 4). The scalar cochain constructed below takes values among roots of unity of order $O(M)$, and its inertia restrictions will control the modular level.
 
 Put $\Gamma=\operatorname{Gal}(L/\mathbb Q)$. For each $g\in\Gamma$, choose a quasi-isogeny $\mu_g:{}^gA\to A$, with $\mu_1=1$, satisfying $$\begin{equation}
-\label{hei:blinear}
+\tag{4.7}
              \mu_g\,{}^g\alpha=\alpha\mu_g\qquad(\alpha\in B).
-\end{equation}$$ To obtain it, start with an isogeny between the fibers above the common rational point. Transporting the $B$-action along this isogeny gives an automorphism of $B=D$, which is inner by Skolem–Noether. Composing with the corresponding element of $B^\times$ gives (hei:blinear). All these maps are defined over $L$ by Lemma 4.4.
+\end{equation}$$ To obtain it, start with an isogeny between the fibers above the common rational point. Transporting the $B$-action along this isogeny gives an automorphism of $B=D$, which is inner by Skolem–Noether. Composing with the corresponding element of $B^\times$ gives (4.7). All these maps are defined over $L$ by Lemma 4.4.
 
 The maps $\mu_g\,{}^g\mu_h$ and $\mu_{gh}$ have the same source and target and both intertwine the $B$-actions. Their quotient therefore lies in the centralizer $\mathbb Q^\times$: $$\mu_g\,{}^g\mu_h=c(g,h)\mu_{gh},
                  \qquad c(g,h)\in\mathbb Q^\times.$$ For a quasi-isogeny, use the degree obtained by extending the geometric degree multiplicatively from isogenies. A rational scalar $c$ on a surface has degree $c^4$, so the last identity gives $$|c(g,h)|=
  \left(\frac{\deg\mu_g\,\deg\mu_h}{\deg\mu_{gh}}\right)^{1/4}.$$ Let $a_g=(\deg\mu_g)^{-1/4}$ be the positive real algebraic fourth root. We extend the coefficient scalars in the isogeny category and put $$\widetilde\mu_g=a_g\mu_g
- \in\operatorname{Hom}_L^0({}^gA,A)\otimes_\mathbb Q\overline\mathbb Q.$$ Here Galois transports the Hom factor and acts trivially on the coefficient factor $\overline\mathbb Q$. The preceding degree identity now gives $$\begin{equation}
-\label{hei:sign-cocycle}
+ \in\operatorname{Hom}_L^0({}^gA,A)\otimes_\mathbb Q\overline{\mathbb Q}.$$ Here Galois transports the Hom factor and acts trivially on the coefficient factor $\overline{\mathbb Q}$. The preceding degree identity now gives $$\begin{equation}
+\tag{4.8}
        \widetilde\mu_g\,{}^g\widetilde\mu_h
               =\epsilon(g,h)\widetilde\mu_{gh},
        \qquad
@@ -757,52 +757,50 @@ The maps $\mu_g\,{}^g\mu_h$ and $\mu_{gh}$ have the same source and target and b
 A scalar cochain with coboundary $\epsilon$ will cancel this sign. On $G_L$ the inflated cocycle is trivial, so the restriction of such a cochain will be a character. We seek one whose restricted character is conjugacy invariant and has controlled order: its kernel will then define a Galois field over which the corrected action agrees with the Tate action of $A$. Control on inertia will also be needed to bound the modular level. The following splitting supplies both properties.
 
 **Lemma 4.5** (Controlled splitting of the sign obstruction). *There is a finite Dirichlet character $\chi$ of order $m\le C M$, unramified outside $T$, and a continuous cochain $\beta:G_\mathbb Q\to\mu_{2m}$ such that $$\begin{equation}
-\label{hei:beta}
+\tag{4.9}
  \beta^2=\chi,\qquad
  \frac{\beta(g)\beta(h)}{\beta(gh)}=\epsilon(g,h).
 \end{equation}$$ The cochain can be chosen trivial on inertia at every prime outside $T$. Its restriction to $G_L$ is a conjugacy-invariant character. The local conductor of $\chi$ at any fixed prime is bounded independently of $s$, and $\chi$ is tame at odd primes.*
 
-*Proof.* Identify $H^2(G_\mathbb Q,\{\pm1\})=\operatorname{Br}(\mathbb Q)[2]$. At a prime outside $T$, the cocycle factors through the unramified quotient $\widehat\mathbb Z$, which has cohomological dimension one on torsion coefficients. Its local class is therefore zero. We use local reciprocity and the Brauer local-global theorem in the form described in (Serre 1979; Milne 2020, 2013).
+*Proof.* Identify $H^2(G_\mathbb Q,\{\pm1\})=\operatorname{Br}(\mathbb Q)[2]$. At a prime outside $T$, the cocycle factors through the unramified quotient $\widehat{\mathbb Z}$, which has cohomological dimension one on torsion coefficients. Its local class is therefore zero. We use local reciprocity and the Brauer local-global theorem in the form described in (Serre 1979; Milne 2020, 2013).
 
-For a finite character $\chi_v$ with values in $\overline\mathbb Q^{\,\times}$ with trivial coefficient action, its square-root obstruction $\partial\chi_v$ in $H^2(G_{\mathbb Q_v},\{\pm1\})$ vanishes if and only if $\chi_v$ has a continuous character square root. By reciprocity this is equivalent to its being trivial on the order-two subgroup of $\mathbb Q_v^\times$, that is, on $-1$. To verify the equivalence, use $\mathbb Z_p^\times\simeq\mu_{p-1}\times\mathbb Z_p$ for odd $p$, and $\mathbb Z_2^\times\simeq\{\pm1\}\times\mathbb Z_2$ at $2$. A character of the infinite cyclic valuation factor has a square root by choosing a square root of its value on a uniformizer; the procyclic free factors also admit character square roots. The only obstruction in the finite cyclic torsion factors is the value on their element of order two. At the real place the same assertion follows directly from $G_{\mathbf R}=\mathbb Z/2\mathbb Z$.
+For a finite character $\chi_v$ with values in $\overline{\mathbb Q}^{\,\times}$ with trivial coefficient action, its square-root obstruction $\partial\chi_v$ in $H^2(G_{\mathbb Q_v},\{\pm1\})$ vanishes if and only if $\chi_v$ has a continuous character square root. By reciprocity this is equivalent to its being trivial on the order-two subgroup of $\mathbb Q_v^\times$, that is, on $-1$. To verify the equivalence, use $\mathbb Z_p^\times\simeq\mu_{p-1}\times\mathbb Z_p$ for odd $p$, and $\mathbb Z_2^\times\simeq\{\pm1\}\times\mathbb Z_2$ at $2$. A character of the infinite cyclic valuation factor has a square root by choosing a square root of its value on a uniformizer; the procyclic free factors also admit character square roots. The only obstruction in the finite cyclic torsion factors is the value on their element of order two. At the real place the same assertion follows directly from $G_{\mathbf R}=\mathbb Z/2\mathbb Z$.
 
 At each odd finite prime with nonzero local class of $\epsilon$, choose an odd character modulo that prime, so its value at $-1$ is $-1$. At $2$, if necessary, use the nontrivial character modulo $4$. Their product is a global Dirichlet character $\chi$. Its local square-root obstruction matches that of $\epsilon$ at every finite place. The real invariant matches too, because the sum of local invariants of a Brauer class is zero. Injectivity in the Brauer local-global theorem gives $\partial\chi=[\epsilon]$.
 
 Each odd-prime factor has order at most $q-1$, and the factor at $2$ has order two. Thus the order $m$ of their product satisfies $$m\le 2\prod_{q\in T,\ q\ne2}(q-1)\le C M.$$ The conductor at an odd prime divides that prime, and the conductor at $2$ divides $4$. Factors at other primes are unramified locally; this proves the stated local conductor assertions.
 
-Choose a continuous set-theoretic square root of $\chi$, valued in $\mu_{2m}$. Equality of the obstruction classes allows its coboundary to be corrected to exactly $\epsilon$ by a sign-valued continuous cochain. The resulting $\beta$ satisfies (hei:beta). On $G_L$ the inflated cocycle is identically one, so $\beta$ restricts to a character. Its conjugacy invariance follows from the cochain identity: if $u\in G_L$ and $g\in G_\mathbb Q$, then $\epsilon(g,u)=\epsilon(gug^{-1},g)=1$, and comparison of $\beta(gu)$ computed in these two ways gives $\beta(gug^{-1})=\beta(u)$.
+Choose a continuous set-theoretic square root of $\chi$, valued in $\mu_{2m}$. Equality of the obstruction classes allows its coboundary to be corrected to exactly $\epsilon$ by a sign-valued continuous cochain. The resulting $\beta$ satisfies (4.9). On $G_L$ the inflated cocycle is identically one, so $\beta$ restricts to a character. Its conjugacy invariance follows from the cochain identity: if $u\in G_L$ and $g\in G_\mathbb Q$, then $\epsilon(g,u)=\epsilon(gug^{-1},g)=1$, and comparison of $\beta(gu)$ computed in these two ways gives $\beta(gug^{-1})=\beta(u)$.
 
-At an odd prime outside $T$, inertia fixes $L$, and $\chi$ is unramified, so the restriction of $\beta$ to inertia is a sign character. Only finitely many such restrictions are nontrivial, because a continuous function to the finite set $\mu_{2m}$ factors through a finite quotient of $G_\mathbb Q$. At an odd prime there is a unique nontrivial quadratic character of inertia: wild inertia is pro-odd and the tame quotient has a unique quotient of order two. Let $d_\beta$ be a squarefree integer whose odd prime factors are precisely these offending primes. Multiplication of $\beta$ by the quadratic character of $\mathbb Q(\sqrt{d_\beta})$ cancels all the unwanted inertia characters. This quadratic character is unramified away from those primes and possibly $2\in S$. Its square is one and its coboundary is one, so (hei:beta) and the restriction properties are preserved. Since $\{\pm1\}\subset\mu_{2m}$, the corrected cochain still takes values in $\mu_{2m}$, whose elements have orders dividing $2m\le CM$. ◻
+At an odd prime outside $T$, inertia fixes $L$, and $\chi$ is unramified, so the restriction of $\beta$ to inertia is a sign character. Only finitely many such restrictions are nontrivial, because a continuous function to the finite set $\mu_{2m}$ factors through a finite quotient of $G_\mathbb Q$. At an odd prime there is a unique nontrivial quadratic character of inertia: wild inertia is pro-odd and the tame quotient has a unique quotient of order two. Let $d_\beta$ be a squarefree integer whose odd prime factors are precisely these offending primes. Multiplication of $\beta$ by the quadratic character of $\mathbb Q(\sqrt{d_\beta})$ cancels all the unwanted inertia characters. This quadratic character is unramified away from those primes and possibly $2\in S$. Its square is one and its coboundary is one, so (4.9) and the restriction properties are preserved. Since $\{\pm1\}\subset\mu_{2m}$, the corrected cochain still takes values in $\mu_{2m}$, whose elements have orders dividing $2m\le CM$. ◻
 
 ### Two-dimensional representations and modularity
 
 We construct representations at coefficient primes $2$ and $3$. The $2$-adic one will yield a modular form. The $3$-adic one will measure the conductor at $2$, where the conductor comparison requires a coefficient prime different from the residue prime. This requires identifying both representations with the same newform.
 
-Fix coefficient embeddings $\overline\mathbb Q\hookrightarrow
-\overline\mathbb Q_\ell$ for $\ell=2,3$. On the covariant rational Tate module of $A$ with these extended coefficients put $$\begin{equation}
-\label{hei:representation}
+Fix coefficient embeddings $\overline{\mathbb Q}\hookrightarrow \overline{\mathbb Q}_\ell$ for $\ell=2,3$. On the covariant rational Tate module of $A$ with these extended coefficients put $$\begin{equation}
+\tag{4.10}
  R_\ell(g)=\beta(g)\widetilde\mu_{\bar g}\circ g,
        \qquad g\in G_\mathbb Q,\quad \bar g=g|_L.
 \end{equation}$$ Here $g$ first transports torsion points to ${}^gA$, and the quasi-isogeny returns them to $A$. In a composition the discrepancy of the maps is $\epsilon(g,h)$, and the discrepancy of the scalar cochain is the same sign. Their product is one. Thus $R_\ell$ is a genuine continuous representation. All algebraic coefficients and the splitting of $B$ can be taken in one finite extension of $\mathbb Q_\ell$ for each $\ell$.
 
-Equation (hei:blinear) shows that $R_\ell$ commutes with $B$. After coefficient extension, $B\otimes\overline\mathbb Q_\ell\simeq
-M_2(\overline\mathbb Q_\ell)$; the matrix units then give $$\begin{equation}
-\label{hei:double-copy}
+Equation (4.7) shows that $R_\ell$ commutes with $B$. After coefficient extension, $B\otimes\overline{\mathbb Q}_\ell\simeq M_2(\overline{\mathbb Q}_\ell)$; the matrix units then give $$\begin{equation}
+\tag{4.11}
                          R_\ell\simeq r_\ell\oplus r_\ell
-\end{equation}$$ for a two-dimensional representation $r_\ell$. On $G_L$ the quasi-isogeny in (hei:representation) is $\widetilde\mu_1=1$, so only the character $\beta|_{G_L}$ separates $R_\ell$ from the Tate action of $A$. Define $$G_{L'}=\ker(\beta|_{G_L}).$$ Conjugacy invariance of this character makes $L'/\mathbb Q$ Galois, and its image has order at most $2m$. Consequently $$\begin{equation}
-\label{hei:lprime-degree}
+\end{equation}$$ for a two-dimensional representation $r_\ell$. On $G_L$ the quasi-isogeny in (4.10) is $\widetilde\mu_1=1$, so only the character $\beta|_{G_L}$ separates $R_\ell$ from the Tate action of $A$. Define $$G_{L'}=\ker(\beta|_{G_L}).$$ Conjugacy invariance of this character makes $L'/\mathbb Q$ Galois, and its image has order at most $2m$. Consequently $$\begin{equation}
+\tag{4.12}
                      [L':\mathbb Q]\le 2m[L:\mathbb Q]\le C M.
 \end{equation}$$ On $G_{L'}$, the representation $R_\ell$ is exactly the Tate-module representation of $A$, with coefficients extended. This field will allow us to recover an abelian factor over $L'$. Its degree may grow with $M$; the local conductor argument will use $L$, whose degree is uniformly bounded.
 
-The modularity input is (OpenAI 2026b, Theorem 1.1) in its exact form: every continuous irreducible odd two-dimensional $2$-adic representation of $G_\mathbb Q$, unramified outside finitely many primes and de Rham at $2$ with distinct Hodge–Tate weights, is a Tate twist of the representation associated with a classical cuspidal eigenform. There is no residual-image hypothesis in that statement. We now verify its hypotheses for $r_2$. The same arguments also give the properties of $r_3$ used below. The commutant and Hodge-decomposition arguments have antecedents in (Ribet 1992, sec. 3); we apply them to the corrected action (hei:representation).
+The modularity input is (OpenAI 2026b, Theorem 1.1) in its exact form: every continuous irreducible odd two-dimensional $2$-adic representation of $G_\mathbb Q$, unramified outside finitely many primes and de Rham at $2$ with distinct Hodge–Tate weights, is a Tate twist of the representation associated with a classical cuspidal eigenform. There is no residual-image hypothesis in that statement. We now verify its hypotheses for $r_2$. The same arguments also give the properties of $r_3$ used below. The commutant and Hodge-decomposition arguments have antecedents in (Ribet 1992, sec. 3); we apply them to the corrected action (4.10).
 
 By Faltings’ semisimplicity and endomorphism theorems, $$\operatorname{End}_{G_{L'}}(V_\ell(A))
        =\operatorname{End}_{L'}(A)\otimes\mathbb Q_\ell
        =B\otimes\mathbb Q_\ell$$ (Faltings 1983). Therefore $r_\ell|_{G_{L'}}$ is semisimple with scalar commutant after algebraic coefficient extension, and is absolutely irreducible. So is $r_\ell$.
 
-The de Rham comparison theorem for smooth proper varieties, together with its Hodge–Tate decomposition, applies to $A$ over every completion of $L'$ at its coefficient prime (Scholze 2013, Corollary 1.8); see also the corrected definitions in (Scholze 2016). Since the covariant Tate module is dual to first étale cohomology, $V_\ell(A)$ is de Rham with cyclotomic exponents $0,1$, each twice. The de Rham property descends through finite local extensions (Fontaine 1994, sec. 3.9(ii)). Thus $R_\ell$ is de Rham over $\mathbb Q_\ell$, and its decomposition (hei:double-copy) gives exponents $0,1$, each once, for $r_\ell$. Here the cyclotomic character has exponent $1$ and Hodge–Tate weight $-1$.
+The de Rham comparison theorem for smooth proper varieties, together with its Hodge–Tate decomposition, applies to $A$ over every completion of $L'$ at its coefficient prime (Scholze 2013, Corollary 1.8); see also the corrected definitions in (Scholze 2016). Since the covariant Tate module is dual to first étale cohomology, $V_\ell(A)$ is de Rham with cyclotomic exponents $0,1$, each twice. The de Rham property descends through finite local extensions (Fontaine 1994, sec. 3.9(ii)). Thus $R_\ell$ is de Rham over $\mathbb Q_\ell$, and its decomposition (4.11) gives exponents $0,1$, each once, for $r_\ell$. Here the cyclotomic character has exponent $1$ and Hodge–Tate weight $-1$.
 
-For complex conjugation $j$, the involution $r_\ell(j)$ cannot be scalar. If it were, (hei:double-copy) would make $R_\ell(j)$ scalar too. Under comparison with Betti homology, $\mu_{\bar j}\circ j$ is conjugation followed by a holomorphic quasi-isogeny. It exchanges the two nonzero Hodge subspaces, whereas a scalar preserves both. Multiplying by the nonzero algebraic coefficient in (hei:representation) does not change this fact. Hence the two eigenvalues of $r_\ell(j)$ are $1$ and $-1$, and $r_\ell$ is odd.
+For complex conjugation $j$, the involution $r_\ell(j)$ cannot be scalar. If it were, (4.11) would make $R_\ell(j)$ scalar too. Under comparison with Betti homology, $\mu_{\bar j}\circ j$ is conjugation followed by a holomorphic quasi-isogeny. It exchanges the two nonzero Hodge subspaces, whereas a scalar preserves both. Multiplying by the nonzero algebraic coefficient in (4.10) does not change this fact. Hence the two eigenvalues of $r_\ell(j)$ are $1$ and $-1$, and $r_\ell$ is odd.
 
 At a prime outside $T\cup\{\ell\}$, inertia fixes $L$, $A$ has good reduction, and the corrected $\beta$ is trivial. Thus $r_\ell$ is unramified there. In particular it is ramified at only finitely many primes. All hypotheses of the stated modularity theorem now hold for $r_2$. Applying it realizes $r_2$ as a Tate twist of the representation associated with a classical cuspidal eigenform.
 
@@ -816,25 +814,25 @@ To use $r_3$ for the dyadic conductor of this level, we must identify it with th
 
 **Lemma 4.6**. *The representation $r_3$ is the $3$-adic representation of the same algebraic conjugate of $f$ that realizes $r_2$.*
 
-*Proof.* Fix a rational prime $q\notin T\cup\{2,3\}$ with $q\nmid N$, a place of $\overline\mathbb Q$ above $q$, and an arithmetic Frobenius $g$ in that decomposition group. These primes form a cofinite set, as needed for the Chebotarev argument below. The automorphism induced by $g$ on the residue field $\overline{\mathbf F}_q$ is $x\mapsto x^q$. Therefore the reduction of ${}^gA$ is the Frobenius twist $\widetilde A^{(q)}$ of the same geometric special fiber $\widetilde A$. Specialization of prime-to-$q$ torsion identifies the action of $g$ with the relative Frobenius map $\widetilde A\to\widetilde A^{(q)}$. A multiple of $\mu_{\bar g}$ extends over good reduction, and its reduction, after dividing by that integer, maps $\widetilde A^{(q)}$ back to $\widetilde A$. The composite is thus an element $$u_q=\operatorname{red}(\mu_{\bar g})\circ
+*Proof.* Fix a rational prime $q\notin T\cup\{2,3\}$ with $q\nmid N$, a place of $\overline{\mathbb Q}$ above $q$, and an arithmetic Frobenius $g$ in that decomposition group. These primes form a cofinite set, as needed for the Chebotarev argument below. The automorphism induced by $g$ on the residue field $\overline{\mathbf F}_q$ is $x\mapsto x^q$. Therefore the reduction of ${}^gA$ is the Frobenius twist $\widetilde A^{(q)}$ of the same geometric special fiber $\widetilde A$. Specialization of prime-to-$q$ torsion identifies the action of $g$ with the relative Frobenius map $\widetilde A\to\widetilde A^{(q)}$. A multiple of $\mu_{\bar g}$ extends over good reduction, and its reduction, after dividing by that integer, maps $\widetilde A^{(q)}$ back to $\widetilde A$. The composite is thus an element $$u_q=\operatorname{red}(\mu_{\bar g})\circ
                     \operatorname{Frob}^{\mathrm{rel}}_q
                     \in\operatorname{End}^0(\widetilde A).$$ Here $\operatorname{red}(\mu_{\bar g})$ is reduction of the unnormalized quasi-isogeny; the scalar $a_{\bar g}$ from degree normalization is inserted below.
 
 The characteristic polynomial of an endomorphism of an abelian variety on rational Tate modules has rational coefficients and is independent of the coefficient prime. This applies to a rational endomorphism after clearing denominators (Milne 2008, I, Theorem 10.9 and Proposition 10.20). Consequently $$\alpha_q=\frac12\beta(g)a_{\bar g}\operatorname{Tr}(u_q)
-                         \in\overline\mathbb Q$$ is a single algebraic number whose images at $2$ and $3$ are the traces of $r_2(g)$ and $r_3(g)$, respectively. The factor $1/2$ comes from (hei:double-copy). This construction is independent of any comparison of coefficient-field degrees.
+                         \in\overline{\mathbb Q}$$ is a single algebraic number whose images at $2$ and $3$ are the traces of $r_2(g)$ and $r_3(g)$, respectively. The factor $1/2$ comes from (4.11). This construction is independent of any comparison of coefficient-field degrees.
 
-The identification of $r_2$ with the representation of $f$ selects an embedding of its Hecke field in $\overline\mathbb Q$. Injectivity of the fixed embedding $\overline\mathbb Q\hookrightarrow\overline\mathbb Q_2$ then gives $\alpha_q=a_q(f)$ as algebraic numbers at every good prime. Under the chosen embedding at $3$, the same equalities hold. Chebotarev density and the character criterion for semisimple representations (Milne 2008, IV, Theorem 3.3 and Lemma 3.9) identify $r_3$ with that member of the compatible system of $f$ (Deligne 1971a). Semisimplicity on our side follows already from irreducibility. ◻
+The identification of $r_2$ with the representation of $f$ selects an embedding of its Hecke field in $\overline{\mathbb Q}$. Injectivity of the fixed embedding $\overline{\mathbb Q}\hookrightarrow\overline{\mathbb Q}_2$ then gives $\alpha_q=a_q(f)$ as algebraic numbers at every good prime. Under the chosen embedding at $3$, the same equalities hold. Chebotarev density and the character criterion for semisimple representations (Milne 2008, IV, Theorem 3.3 and Lemma 3.9) identify $r_3$ with that member of the compatible system of $f$ (Deligne 1971a). Semisimplicity on our side follows already from irreducibility. ◻
 
 ### A uniform bound for the modular level
 
 **Lemma 4.7**. *There are fixed constants $C,a>0$ such that $$\begin{equation}
-\label{hei:level}
+\tag{4.13}
                               N\le C M^a.
 \end{equation}$$*
 
 *Proof.* For a primitive weight-two form, the local newform conductor is the exponent of $q$ in its primitive level. Local–global compatibility, with conductor preservation under the local correspondence, identifies this with the Artin-conductor exponent of its $\ell$-adic representation whenever $q\ne\ell$ (Carayol 1986, Theorem A in Section 0.7, with the normalization in Section 0.5). The conductor includes the Weil–Deligne monodromy contribution. We use $r_2$ at all primes other than $2$, and $r_3$ at $2$, justified by Lemma 4.6. The exponent is zero at $q\notin T$ by the unramified assertion above.
 
-First let $q\in T$ be larger than a fixed constant that includes all primes in $S$, the primes $2,3$, and the uniform upper bound for $[L:\mathbb Q]$. Wild inertia, a pro-$q$ group, acts trivially on $L$. The surface has good reduction over $L$ at this prime, so wild inertia also acts trivially on its prime-to-$q$ Tate modules. On this subgroup $\beta$ is a character, and its square is the tame character $\chi$. Hence its wild restriction is sign-valued and must be trivial, as $q$ is odd. Formula (hei:representation) makes $R_\ell$ tame at $q$, and hence $r_\ell$ is tame there as well. Its dimension is two, so its conductor exponent is at most two.
+First let $q\in T$ be larger than a fixed constant that includes all primes in $S$, the primes $2,3$, and the uniform upper bound for $[L:\mathbb Q]$. Wild inertia, a pro-$q$ group, acts trivially on $L$. The surface has good reduction over $L$ at this prime, so wild inertia also acts trivially on its prime-to-$q$ Tate modules. On this subgroup $\beta$ is a character, and its square is the tame character $\chi$. Hence its wild restriction is sign-valued and must be trivial, as $q$ is odd. Formula (4.10) makes $R_\ell$ tame at $q$, and hence $r_\ell$ is tame there as well. Its dimension is two, so its conductor exponent is at most two.
 
 It remains to bound the exponents at the fixed finite set of smaller primes. Fix one of them, say $q$, a place $v$ of $L$ above it, and put $F=L_v$. Let $\ell\ne q$ be the coefficient prime chosen above. Only finitely many embedded extensions $F/\mathbb Q_q$ can occur, because their degrees are bounded. We seek a bound $u_q$, independent of $s$, such that for every $u>u_q$ the upper ramification group $G_{\mathbb Q_q}^u$ lies in $G_F$, is killed by the character $\beta|_{G_F}$, and acts trivially on $V_\ell(A)$. On such a group $g|_L=1$, so the quasi-isogeny in $R_\ell(g)$ is also the identity. We obtain this bound by controlling the character and the Tate action over the finitely many possible fields $F$.
 
@@ -842,55 +840,53 @@ First consider the character. By local reciprocity, the square of $\beta|_{G_F}$
 
 Next consider the Tate action. Choose a fixed prime $p_0\ge3$, different from $q$, and put $$F_1=F(A[p_0]).$$ Its degree satisfies $[F_1:F]\le|\mathrm{GL}_4(\mathbb F_{p_0})|$. The semistable reduction criterion says that inertia is unipotent over $F_1$ (Silverberg and Zarhin 1995, Theorem 3.5). Its wild pro-$q$ subgroup has trivial action on $V_\ell(A)$, since a compact unipotent subgroup of $\mathrm{GL}_4(\mathbb Q_\ell)$ has no nontrivial pro-$q$ subgroup when $\ell\ne q$. Since both $[F:\mathbb Q_q]$ and $[F_1:F]$ are bounded, the fields $F_1$ and their normal closures over $\mathbb Q_q$ also range over finite sets.
 
-Choose an upper ramification cut over $\mathbb Q_q$ exceeding the breaks of all these finite field extensions and whose images under the finitely many relevant Herbrand inverse functions exceed the cuts for $\beta|_{G_F}$. The subgroup and quotient rules for upper ramification groups then place every sufficiently high $G_{\mathbb Q_q}^u$ inside $G_F$, in the kernel of $\beta|_{G_F}$, and in the wild Tate-module kernel over $F_1$ (Serre 1979). On this group $\widetilde\mu_{\bar g}=\widetilde\mu_1=1$, so (hei:representation) makes $R_\ell$ trivial there. Its decomposition (hei:double-copy) then makes $r_\ell$ trivial there as well. We have therefore obtained the required uniform upper cut $u_q$ for $r_\ell$, independent of $s$. Its Swan conductor is at most $2u_q$. The remaining contribution from inertia invariants, including Weil–Deligne monodromy, is at most two because $r_\ell$ has dimension two. This bounds its full conductor exponent at the fixed prime.
+Choose an upper ramification cut over $\mathbb Q_q$ exceeding the breaks of all these finite field extensions and whose images under the finitely many relevant Herbrand inverse functions exceed the cuts for $\beta|_{G_F}$. The subgroup and quotient rules for upper ramification groups then place every sufficiently high $G_{\mathbb Q_q}^u$ inside $G_F$, in the kernel of $\beta|_{G_F}$, and in the wild Tate-module kernel over $F_1$ (Serre 1979). On this group $\widetilde\mu_{\bar g}=\widetilde\mu_1=1$, so (4.10) makes $R_\ell$ trivial there. Its decomposition (4.11) then makes $r_\ell$ trivial there as well. We have therefore obtained the required uniform upper cut $u_q$ for $r_\ell$, independent of $s$. Its Swan conductor is at most $2u_q$. The remaining contribution from inertia invariants, including Weil–Deligne monodromy, is at most two because $r_\ell$ has dimension two. This bounds its full conductor exponent at the fixed prime.
 
-The finitely many fixed primes contribute a constant to $N$. Every remaining ramified prime divides $M$ and has exponent at most two, so their product contributes at most $M^2$. This proves (hei:level), and the proof allows $a=2$ after altering the fixed constant. The uniform local bounds use the bounded degree of $L$; (hei:lprime-degree) supplies the degree of the field $L'$ for the global isogeny estimate. ◻
+The finitely many fixed primes contribute a constant to $N$. Every remaining ramified prime divides $M$ and has exponent at most two, so their product contributes at most $M^2$. This proves (4.13), and the proof allows $a=2$ after altering the fixed constant. The uniform local bounds use the bounded degree of $L$; (4.12) supplies the degree of the field $L'$ for the global isogeny estimate. ◻
 
 ### The modular factor and the final height bound
 
 For elliptic curves over $\mathbb Q$, Murty and Pasten earlier obtained an effective $O(N\log N)$ bound for Faltings height in terms of the conductor, with applications to $S$-unit equations (Murty and Pasten 2013, Theorems 1.1 and 7.1). The abelian-variety comparison used in this final step follows the modular height strategy of von Känel (Känel 2021, sec. 1.2 and 5); see also (Alpöge 2021). The preceding descent and ramification arguments provide the point-dependent fields and the level bound needed to apply that strategy here.
 
-Let $J=J_1(N)$. The weight-two Eichler–Shimura realization places $r_2$ in $V_2(J)\otimes\overline\mathbb Q_2$ (Ribet 1977, Theorem 2.1 and the following weight-two realization). We will turn this shared constituent into a nonzero homomorphism $A\to J$ over $L'$. The next argument descends a Hom from the extended coefficient field to $\mathbb Q_2$, giving the abelian factor over $L'$ itself.
+Let $J=J_1(N)$. The weight-two Eichler–Shimura realization places $r_2$ in $V_2(J)\otimes\overline{\mathbb Q}_2$ (Ribet 1977, Theorem 2.1 and the following weight-two realization). We will turn this shared constituent into a nonzero homomorphism $A\to J$ over $L'$. The next argument descends a Hom from the extended coefficient field to $\mathbb Q_2$, giving the abelian factor over $L'$ itself.
 
 **Lemma 4.8**. *There is an abelian variety $D_0/L'$ such that $$J\sim_{L'}A\times D_0.$$*
 
-*Proof.* Put $V=V_2(A)$, $W=V_2(J)$, and $H=G_{L'}$. After extending coefficients, $V$ is two copies of $r_2|_H$, while $W$ contains at least one copy. Hence $\operatorname{Hom}_H(V\otimes\overline\mathbb Q_2,
-W\otimes\overline\mathbb Q_2)\ne0$. Invariants commute with coefficient extension in this situation. Indeed, in the finite-dimensional space $\operatorname{Hom}_{\mathbb Q_2}(V,W)$ they are the intersection of the kernels of the linear equations expressing commutation with each $h\in H$. Finitely many of these equations cut out that same intersection, by stabilization of dimensions. Kernels of this finite system commute with scalar extension. Thus $$\operatorname{Hom}_H(V,W)\otimes\overline\mathbb Q_2
- =\operatorname{Hom}_H(V\otimes\overline\mathbb Q_2,
-                     W\otimes\overline\mathbb Q_2)\ne0.$$ Faltings’ homomorphism theorem identifies $\operatorname{Hom}_H(V,W)$ with $\operatorname{Hom}_{L'}(A,J)\otimes\mathbb Q_2$, so an actual nonzero $L'$-homomorphism $A\to J$ exists. Absolute simplicity makes its kernel finite. Poincare complete reducibility over $L'$ then gives the claimed factor (Faltings 1983; Mumford 1970). A single shared constituent was sufficient to produce the Hom; the resulting rational Tate-module injection automatically supplies its full required multiplicity. In particular $\dim J\ge2$. ◻
+*Proof.* Put $V=V_2(A)$, $W=V_2(J)$, and $H=G_{L'}$. After extending coefficients, $V$ is two copies of $r_2|_H$, while $W$ contains at least one copy. Hence $\operatorname{Hom}_H(V\otimes\overline{\mathbb Q}_2, W\otimes\overline{\mathbb Q}_2)\ne0$. Invariants commute with coefficient extension in this situation. Indeed, in the finite-dimensional space $\operatorname{Hom}_{\mathbb Q_2}(V,W)$ they are the intersection of the kernels of the linear equations expressing commutation with each $h\in H$. Finitely many of these equations cut out that same intersection, by stabilization of dimensions. Kernels of this finite system commute with scalar extension. Thus $$\operatorname{Hom}_H(V,W)\otimes\overline{\mathbb Q}_2
+ =\operatorname{Hom}_H(V\otimes\overline{\mathbb Q}_2,
+                     W\otimes\overline{\mathbb Q}_2)\ne0.$$ Faltings’ homomorphism theorem identifies $\operatorname{Hom}_H(V,W)$ with $\operatorname{Hom}_{L'}(A,J)\otimes\mathbb Q_2$, so an actual nonzero $L'$-homomorphism $A\to J$ exists. Absolute simplicity makes its kernel finite. Poincare complete reducibility over $L'$ then gives the claimed factor (Faltings 1983; Mumford 1970). A single shared constituent was sufficient to produce the Hom; the resulting rational Tate-module injection automatically supplies its full required multiplicity. In particular $\dim J\ge2$. ◻
 
-The controlled field, level, and factorization sought in the non-CM case are now established. We turn to the height of the modular Jacobian. Write $g_0=\dim J$. The modular group index bounds the degree of the map $j:X_1(N)\to\mathbf P^1$ by $C N^2$. It is branched only over $0,1728,\infty$, so after rescaling the target it is a Belyi map. Riemann–Hurwitz, or the usual genus formula, also gives $g_0\le C N^2$. Javanpeykar’s theorem (Javanpeykar 2014, Theorem 1.1.1 and Section 2.3) for a smooth projective connected curve $X$ of genus $g\ge1$ bounds its Jacobian’s stable height in his convention by $$13\cdot10^6 g\,\deg_B(X)^5.$$ Javanpeykar’s height here equals the original stable Faltings height of the Jacobian used in (hei:gr). The addition of $(g/2)\log\pi$ in (Javanpeykar 2014, Lemma 2.4.4) converts instead to the Deligne normalization $h_{\mathrm F}^{\mathrm D}$ of (Gaudron and Rémond 2014b, sec. 2.3). Thus no normalization correction is needed here; in either convention the difference is only $O(g)$. Since Lemma 4.8 ensures $g_0\ge2$, the genus hypothesis applies. We obtain $$\begin{equation}
-\label{hei:jacobian-height}
+The controlled field, level, and factorization sought in the non-CM case are now established. We turn to the height of the modular Jacobian. Write $g_0=\dim J$. The modular group index bounds the degree of the map $j:X_1(N)\to\mathbf P^1$ by $C N^2$. It is branched only over $0,1728,\infty$, so after rescaling the target it is a Belyi map. Riemann–Hurwitz, or the usual genus formula, also gives $g_0\le C N^2$. Javanpeykar’s theorem (Javanpeykar 2014, Theorem 1.1.1 and Section 2.3) for a smooth projective connected curve $X$ of genus $g\ge1$ bounds its Jacobian’s stable height in his convention by $$13\cdot10^6 g\,\deg_B(X)^5.$$ Javanpeykar’s height here equals the original stable Faltings height of the Jacobian used in (4.5). The addition of $(g/2)\log\pi$ in (Javanpeykar 2014, Lemma 2.4.4) converts instead to the Deligne normalization $h_{\mathrm F}^{\mathrm D}$ of (Gaudron and Rémond 2014b, sec. 2.3). Thus no normalization correction is needed here; in either convention the difference is only $O(g)$. Since Lemma 4.8 ensures $g_0\ge2$, the genus hypothesis applies. We obtain $$\begin{equation}
+\tag{4.14}
          g_0\le C N^2,
          \qquad \max\{0,h_{\mathrm F}(J)\}\le C N^{12}.
 \end{equation}$$
 
-For the final comparison we choose a principally polarized complement. An abelian variety over a number field has a polarization defined over that field and is consequently isogenous there to its dual. When $D_0\ne0$, choose such a polarization over $L'$. Applying Zarhin’s trick to it gives a principal polarization over $L'$ on $$D_Z=(D_0\times D_0^\vee)^4$$ (Zarhin 2023, Theorem 1.1(ii) and Remark 1.4); see also (Bost 1996, proof of Corollary 3.2). If $D_0=0$, omit this factor and take all its height and dimension contributions below to be zero. In either case this choice of complement gives $$C_1=J^8\sim_{L'} C_2=A^8\times D_Z.$$ Both sides have dimension $g=8g_0$. Their common field has degree $d=[L':\mathbb Q]\le C M$, and the source has known stable height $h_{\mathrm F}(C_1)=8h_{\mathrm F}(J)$. From (hei:level) and (hei:jacobian-height), $$g\le C M^{2a},\qquad
-           \max\{0,h_{\mathrm F}(C_1)\}\le C M^{12a}.$$ Applying (hei:gr) to this source gives an isogeny $\phi:C_1\to C_2$ whose logarithmic degree is at most $$\begin{align}
+For the final comparison we choose a principally polarized complement. An abelian variety over a number field has a polarization defined over that field and is consequently isogenous there to its dual. When $D_0\ne0$, choose such a polarization over $L'$. Applying Zarhin’s trick to it gives a principal polarization over $L'$ on $$D_Z=(D_0\times D_0^\vee)^4$$ (Zarhin 2023, Theorem 1.1(ii) and Remark 1.4); see also (Bost 1996, proof of Corollary 3.2). If $D_0=0$, omit this factor and take all its height and dimension contributions below to be zero. In either case this choice of complement gives $$C_1=J^8\sim_{L'} C_2=A^8\times D_Z.$$ Both sides have dimension $g=8g_0$. Their common field has degree $d=[L':\mathbb Q]\le C M$, and the source has known stable height $h_{\mathrm F}(C_1)=8h_{\mathrm F}(J)$. From (4.13) and (4.14), $$g\le C M^{2a},\qquad
+           \max\{0,h_{\mathrm F}(C_1)\}\le C M^{12a}.$$ Applying (4.5) to this source gives an isogeny $\phi:C_1\to C_2$ whose logarithmic degree is at most $$\begin{align}
  \log\deg\phi
  &\le1024g^3\bigl(64g^2\log(14g)+\log d
        +2\log\max\{h_{\mathrm F}(C_1),\log d,1\}\bigr)
-       \label{hei:log-isogeny}\\
+       \tag{4.15}\\
  &\le C M^C.\nonumber
 \end{align}$$ The last inequality follows by substituting the preceding bounds: every power of $g$ is a fixed power of $M$, while the remaining logarithms are bounded by $C(1+\log M)\le C'M$ for $M\ge1$. This is the point at which the explicit dependence on dimension in the isogeny theorem is needed. The theorem is applied with source $J^8$, whose height is already bounded.
 
-By additivity and (hei:isogeny-height), $$8h_{\mathrm F}(A)+h_{\mathrm F}(D_Z)
+By additivity and (4.6), $$8h_{\mathrm F}(A)+h_{\mathrm F}(D_Z)
         \le h_{\mathrm F}(C_1)+\tfrac12\log\deg\phi
         \le C M^C.$$ Bost’s lower bound applies to every abelian variety over a number field. For the complement $D_Z$ chosen above, the form in (Gaudron and Rémond 2014b, Corollary 8.4) gives $$h_{\mathrm F}^{\mathrm D}(D_Z)\ge
- -\tfrac12(\dim D_Z)\log(2\pi).$$ The normalization identity $h_{\mathrm F}^{\mathrm D}=h_{\mathrm F}
-+\tfrac12(\dim D_Z)\log\pi$ therefore yields $$h_{\mathrm F}(D_Z)\ge
+ -\tfrac12(\dim D_Z)\log(2\pi).$$ The normalization identity $h_{\mathrm F}^{\mathrm D}=h_{\mathrm F} +\tfrac12(\dim D_Z)\log\pi$ therefore yields $$h_{\mathrm F}(D_Z)\ge
  -\tfrac12(\dim D_Z)\log(2\pi^2).$$ Since $\dim D_Z\le g\le C M^{2a}$, it follows that $$\begin{equation}
-\label{hei:faltings-final}
+\tag{4.16}
                               h_{\mathrm F}(A)\le C M^C.
 \end{equation}$$ Neither a degree bound for the original $\mu_g$ nor a bound for the degree of a field of coefficients has entered this estimate.
 
-*Completion of the proof of Theorem 2.4.* For the arbitrary point $s$ fixed above, let $A=\mathcal A_y$ be the chosen fiber. The CM case gave a uniform upper bound for $h_{\mathrm F}(A)$; the other case gave (hei:faltings-final). Applying Lemma 4.2 gives $h(s)\le H M_S(s)^c$ after enlarging fixed constants $H,c$. All curves, levels, theta data, exceptional primes, and comparison constants were fixed independently of $s$. This proves the theorem. Since $M_S(s)\ge1$, the exponent $c$ may, if desired, be increased to a positive integer. ◻
+*Completion of the proof of Theorem 2.4.* For the arbitrary point $s$ fixed above, let $A=\mathcal A_y$ be the chosen fiber. The CM case gave a uniform upper bound for $h_{\mathrm F}(A)$; the other case gave (4.16). Applying Lemma 4.2 gives $h(s)\le H M_S(s)^c$ after enlarging fixed constants $H,c$. All curves, levels, theta data, exceptional primes, and comparison constants were fixed independently of $s$. This proves the theorem. Since $M_S(s)\ge1$, the exponent $c$ may, if desired, be increased to a positive integer. ◻
 
 **Remark 4.9** (Related height bounds). Let $U$ be a nonempty open subscheme of $\operatorname{Spec}\mathcal O_K$ for a number field $K$. For fixed relative dimension and $[K:\mathbb Q]$, related work bounds stable Faltings height polynomially in the radical of the product of the absolute discriminant of $K$ and the norms of the prime ideals outside $U$. Von Känel proves such a bound for abelian schemes over $U$ whose geometric generic fiber is simple, non-CM, and $\mathbb Q$-virtual of $\mathrm{GL}_2$-type, with conjugate isogenies compatible with all geometric endomorphisms (Känel 2013, Proposition 9.9). Von Känel and Kret treat the product-$\mathrm{GL}_2$-type class with $G_\mathbb Q$-isogenies and also abelian schemes with geometric CM (Känel and Kret 2023, Theorem 7.1).
 
 ## The rank-one elliptic group and its local parameters
 
-We prove Propositions 2.1 and 2.2, the two elliptic inputs used in Section 2.1. Recall the fixed data of (ell:data): $$F=\mathbb Q(\sqrt2),\qquad d=75-53\sqrt2,\qquad
+We prove Propositions 2.1 and 2.2, the two elliptic inputs used in Section 2.1. Recall the fixed data of (2.1): $$F=\mathbb Q(\sqrt2),\qquad d=75-53\sqrt2,\qquad
  E:\ y^2=x^3-d^2x,$$ with $\sigma$ the nontrivial automorphism of $F/\mathbb Q$. The algebraic integer $d$ is positive at both real embeddings and has norm $7$. In particular, $\mathfrak d=(d)$ is a prime ideal with residue field $\mathbb F_7$.
 
 In Section 6, we will choose split primes of good reduction for $E$ and its conjugate $E^\sigma$ at which $7$ is a nonsquare. The identity $dd^\sigma=7$ then makes their reductions quadratic twists with opposite Frobenius traces.
@@ -899,14 +895,14 @@ In Section 6, we will choose split primes of good reduction for $E$ and its con
 
 Consider the two-isogenous curve $$E':\ y^2=x^3+4d^2x.$$ We use the usual two-isogeny descent, with isogenies $\varphi:E\to E'$ and $\widehat\varphi:E'\to E$ whose composite is $[2]$; see (Silverman 2009, X, Proposition 4.7 and Example 4.9, pp. 336–337). Its homomorphisms $$\alpha:E(F)\longrightarrow F^*/F^{*2},\qquad
  \alpha':E'(F)\longrightarrow F^*/F^{*2}$$ send a point with nonzero $x$ to the class of $x$, send the origin to $1$, and send $(0,0)$ to the class of the linear coefficient in the equation. Their kernels are $\widehat\varphi E'(F)$ and $\varphi E(F)$, respectively. In the present case $$\begin{equation}
-\label{ell:isogeny-index}
+\tag{5.1}
              |\operatorname{im}\alpha|\,
              |\operatorname{im}\alpha'|=4\,2^{\mathop{\mathrm{rank}}E(F)}.
-\end{equation}$$ For completeness, $E$ has full rational two-torsion, and either point $(\pm d,0)$ maps under $\varphi$ to the nonidentity point of $\ker\widehat\varphi$. Hence the kernel of $E'(F)/\varphi E(F)\to \widehat\varphi E'(F)/2E(F)$ is trivial. Taking indices in $2E(F)\subset\widehat\varphi E'(F)\subset E(F)$ gives the left side of (ell:isogeny-index) as $|E(F)/2E(F)|$, which is $2^{\mathop{\mathrm{rank}}E(F)+2}$ by the Mordell–Weil Theorem.
+\end{equation}$$ For completeness, $E$ has full rational two-torsion, and either point $(\pm d,0)$ maps under $\varphi$ to the nonidentity point of $\ker\widehat\varphi$. Hence the kernel of $E'(F)/\varphi E(F)\to \widehat\varphi E'(F)/2E(F)$ is trivial. Taking indices in $2E(F)\subset\widehat\varphi E'(F)\subset E(F)$ gives the left side of (5.1) as $|E(F)/2E(F)|$, which is $2^{\mathop{\mathrm{rank}}E(F)+2}$ by the Mordell–Weil Theorem.
 
 If the linear coefficient of an equation $y^2=x^3+cx$ is a unit at a finite place, then a nonzero $x$ has even valuation there. Indeed, when $v(x)<0$ the term $x^3$ has strictly smaller valuation than $cx$, while when $v(x)>0$ the term $cx$ has strictly smaller valuation; an odd $v(x)$ would give an odd valuation of $y^2$ in either case. Applied to $E$, this shows that every class in $\operatorname{im}\alpha$ is supported, apart from its unit class, only at $\mathfrak d$. The class number calculation therefore bounds the image by $4\cdot2=8$. The torsion points already give the four distinct classes $$1,-1,d,-d.$$ Let $w=-5+4\sqrt2=d(1+\sqrt2)^3$. Direct calculation gives $w^3-w=-8d$, and consequently $$Q=(-dw,\,2\sqrt2\,d^2)\in E(F).$$ The element $-dw$ has opposite signs at the two real embeddings, whereas the four torsion classes have equal signs at both embeddings. Thus $\alpha(Q)$ is outside those four classes, proving $|\operatorname{im}\alpha|=8$.
 
-We next prove $\operatorname{im}\alpha'=\{1\}$. At both real embeddings, $x^3+4d^2x$ has the sign of $x$, so every nonzero $x$ on $E'$ is totally positive. The unit-coefficient argument excludes odd valuations away from the prime above $2$ and $\mathfrak d$. Normalize the valuation at the prime above $2$ to have value group $\mathbb Z$. Then $v(4d^2)=4$. If $v(x)$ were odd, the valuations $3v(x)$ and $4+v(x)$ would be unequal and their minimum would be odd, again impossible for $y^2$. At $\mathfrak d$ the coefficient has valuation $2$. An odd $v(x)$ is impossible unless $v(x)=1$, by the same comparison. In that remaining case write $x=du$ with $u$ a local unit. The equation becomes $$y^2=d^3u(u^2+4).$$ An even valuation would require $u^2+4\equiv0\pmod{\mathfrak d}$. But $-4=3$ is not a square in $\mathbb F_7$. Thus all finite valuations of $x$ are even. Since $\mathcal O_F$ is principal, $x$ is a square times a unit; total positivity makes that unit a square. The exceptional point $(0,0)$ also gives the trivial class $4d^2$, and the origin does likewise. This proves the assertion about $\alpha'$. Equation (ell:isogeny-index) now gives $\mathop{\mathrm{rank}}E(F)=1$.
+We next prove $\operatorname{im}\alpha'=\{1\}$. At both real embeddings, $x^3+4d^2x$ has the sign of $x$, so every nonzero $x$ on $E'$ is totally positive. The unit-coefficient argument excludes odd valuations away from the prime above $2$ and $\mathfrak d$. Normalize the valuation at the prime above $2$ to have value group $\mathbb Z$. Then $v(4d^2)=4$. If $v(x)$ were odd, the valuations $3v(x)$ and $4+v(x)$ would be unequal and their minimum would be odd, again impossible for $y^2$. At $\mathfrak d$ the coefficient has valuation $2$. An odd $v(x)$ is impossible unless $v(x)=1$, by the same comparison. In that remaining case write $x=du$ with $u$ a local unit. The equation becomes $$y^2=d^3u(u^2+4).$$ An even valuation would require $u^2+4\equiv0\pmod{\mathfrak d}$. But $-4=3$ is not a square in $\mathbb F_7$. Thus all finite valuations of $x$ are even. Since $\mathcal O_F$ is principal, $x$ is a square times a unit; total positivity makes that unit a square. The exceptional point $(0,0)$ also gives the trivial class $4d^2$, and the origin does likewise. This proves the assertion about $\alpha'$. Equation (5.1) now gives $\mathop{\mathrm{rank}}E(F)=1$.
 
 Finally, choose $m$ divisible by the exponent of the finite torsion subgroup of $E(F)$. The finitely generated group $mE(F)$ is torsion-free of rank one and therefore has a generator $P$ as claimed. ◻
 
@@ -921,16 +917,16 @@ The effective computation of the truncations in Section 2.1 can be made explici
 
 Write the invariant differential as $(1+\sum_{j\ge1}a_jZ^j)dZ$, with $a_j$ integral at $v$. Thus $v(c_t)\ge-v_p(t)$. If $v(Z)\ge1$, the term of degree $t\ge2$ in the logarithm has valuation at least $t\,v(Z)-v_p(t)>v(Z)$ for $p>2$, and these valuations tend to infinity. The logarithm consequently converges on the entire formal kernel, is a homomorphism there, and satisfies $$v(\ell(Z))=v(Z).$$ These are also the standard formal-logarithm assertions of (Silverman 2009, IV, §6); the displayed coefficient bound specifies the uniformity we require.
 
-Set $U=nP$ and $V=n'P$. The identity $[n']U=[n]V$, entirely within the formal kernel, gives $n'\ell(z(U))=n\ell(z(V))$. The point $V$ is nonzero, hence $\ell(z(V))\ne0$. Valuation preservation proves (ell:ratio), including $U=O$.
+Set $U=nP$ and $V=n'P$. The identity $[n']U=[n]V$, entirely within the formal kernel, gives $n'\ell(z(U))=n\ell(z(V))$. The point $V$ is nonzero, hence $\ell(z(V))\ne0$. Valuation preservation proves (2.6), including $U=O$.
 
 Now fix $K\ge1$ and suppose $p>K+1$ and $v_p(n/n')\ge0$. For every $t>K$, $$\begin{equation}
-\label{ell:tail-exponent}
+\tag{5.2}
                            t-1-v_p(t)\ge K.
 \end{equation}$$ For $t<p$ this is immediate. For $t\ge p$, if $j=v_p(t)>0$ then $t-1-j\ge p^j-1-j\ge p-2\ge K$; if $j=0$ it is again immediate. Therefore, for $v(Z)\ge1$, $$\begin{equation}
-\label{ell:tail}
+\tag{5.3}
                  v(\ell(Z)-\ell_K(Z))\ge v(Z)+K.
-\end{equation}$$ The inequality also holds at $Z=0$ with the stated convention. Put $q=n/n'$. The hypothesis $v_p(q)\ge0$ and (ell:ratio) give $v(z(U))\ge v(z(V))$. The identity $\ell(z(U))=q\ell(z(V))$ and (ell:tail) imply $$v\bigl(\ell_K(z(U))-q\ell_K(z(V))\bigr)
-                                    \ge v(z(V))+K.$$ The same tail estimate gives $v(\ell_K(z(V)))=v(z(V))$, in particular a nonzero denominator. Division proves (ell:truncation). The proof applies verbatim to the conjugate equation and the polynomial $\ell_K^\sigma$. ◻
+\end{equation}$$ The inequality also holds at $Z=0$ with the stated convention. Put $q=n/n'$. The hypothesis $v_p(q)\ge0$ and (2.6) give $v(z(U))\ge v(z(V))$. The identity $\ell(z(U))=q\ell(z(V))$ and (5.3) imply $$v\bigl(\ell_K(z(U))-q\ell_K(z(V))\bigr)
+                                    \ge v(z(V))+K.$$ The same tail estimate gives $v(\ell_K(z(V)))=v(z(V))$, in particular a nonzero denominator. Division proves (2.7). The proof applies verbatim to the conjugate equation and the polynomial $\ell_K^\sigma$. ◻
 
 The quantifiers in Proposition 2.2 are those used in Lemma 2.3: for each fixed $K$, a single finite set of excluded rational primes works for all integer indices and all unramified places above the remaining primes. The transfer there concerns integer multiples of the fixed $F$-rational points $P,P^\sigma$ and finite polynomial evaluations. No infinite series is evaluated in the elementary extension.
 
@@ -941,11 +937,11 @@ This section proves Corollary 2.6, the ordinary coverage input used in the recu
 Retain the five points $\mathcal C$ and the primitive integral forms $L_b$ of Theorem 2.4, choosing $L_\infty(U,V)=V$. For integers $A,u_1,u_2,v$ with $v\ne0$, setting $u_3=Av-u_1-u_2$ gives $$A=\frac{u_1}{v}+\frac{u_2}{v}+\frac{u_3}{v}.$$ Evaluating the five contact forms on $(u_i,v)$ gives the common value $v$ and four further values for each slope. We seek to express each of these thirteen entries as the product of a sign, a multiplier from one fixed finite set, and a positive prime at which the reduction orders of $E$ and $E^\sigma$ permit simultaneous local tests.
 
 **Lemma 6.1** (Prime patterns). *There is a finite set $\mathcal K\subset\mathbb Z_{>0}$ such that, for every $A\in\mathbb Z$ and every real $B>0$, there exist integers $u_1,u_2,v$, with $v\ne0$, for which, on setting $u_3=Av-u_1-u_2$, each of the thirteen numbers $$\begin{equation}
-\label{pri:forms-list}
+\tag{6.1}
        v,\qquad L_b(u_j,v)
        \quad(1\le j\le3,\ b\in\mathcal C\setminus\{\infty\})
 \end{equation}$$ has the form $\epsilon kr$, where $\epsilon\in\{1,-1\}$, $k\in\mathcal K$, and $r>B$ is a positive rational prime. Every such prime splits in $F$ and is a prime of good reduction for both $E$ and $E^\sigma$. At either place of $F$ above $r$, if $d_1,d_2$ are the cardinalities of the reduction groups of $E,E^\sigma$ over $\mathbb F_r$, then $$\begin{equation}
-\label{pri:order-conditions}
+\tag{6.2}
                     \gcd(d_1,d_2)\mid4,
                     \qquad r\nmid d_1d_2.
 \end{equation}$$ The set $\mathcal K$ is independent of $A$ and $B$.*
@@ -965,7 +961,7 @@ Before proving the lemma, we record the consequence that explains its splitting 
 *The choices of $h,j_0$ may differ at the two places.*
 
 *Proof.* Let $d_1,d_2$ be the two reduction orders at the chosen place. Choose $j_0=d_2$. Since $r\nmid d_1$ and $\gcd(d_1,d_2)\mid4$, the pair of integer congruences $$h\equiv0\pmod{d_1},\qquad
-                  h\equiv4\pmod{d_2r^K}$$ is consistent. Choose a positive solution $h$. Reduction orders show that all four indicated points are in the respective formal kernels, uniformly for $a\in\mathbb Z$. The logarithm congruence follows from Proposition 2.2 with indices $ha,h$, whose ratio is $a$. For the conjugate ratio use (ell:ratio) on the conjugate curve: $$v\!\left(\frac{z((h-4)aP^\sigma)}{z(j_0P^\sigma)}\right)
+                  h\equiv4\pmod{d_2r^K}$$ is consistent. Choose a positive solution $h$. Reduction orders show that all four indicated points are in the respective formal kernels, uniformly for $a\in\mathbb Z$. The logarithm congruence follows from Proposition 2.2 with indices $ha,h$, whose ratio is $a$. For the conjugate ratio use (2.6) on the conjugate curve: $$v\!\left(\frac{z((h-4)aP^\sigma)}{z(j_0P^\sigma)}\right)
           =v_r\!\left(\frac{(h-4)a}{d_2}\right)\ge K.$$ The nonzero denominator follows because $j_0P^\sigma$ is nontorsion. Zero numerator indices are covered by the infinite-valuation convention. Finally, at these split unramified primes the valuation ring on $F$ is the localization of $\mathcal O_F=\mathbb Z[\sqrt2]$ at the chosen prime ideal, and $r$ is a uniformizer. Thus every displayed inequality is exactly membership in $r^K(\mathcal O_F)_{\mathfrak p}$. For a finite formal point, the condition $v(x)<0$ equivalently places $1/x$ in $r(\mathcal O_F)_{\mathfrak p}$, as used in the ring-language tests of Section 2.3. ◻
 
 *Proof of Corollary 2.6.* Fix $K\ge1$, $A\in\mathbb Z$, and $Y_0>0$. Choose a real threshold larger than $Y_0$, $K+1$, and every prime in the fixed finite set $S_E$. Lemma 6.1 gives the thirteen contact values with primes above this threshold, using its one finite set $\mathcal K$. These primes split in $F$ and are good for both curves. At each of the two places above each occurrence, Corollary 6.2 gives nonzero $h,j_0$, fixed for every integer $a$, with its two formal-kernel conditions and valuation comparisons. In the identity embedding with $T_a=aP$, these are exactly conditions (i) and (ii) of Lemma 2.3. The final localization calculation in the proof of Corollary 6.2 gives the stated membership and finite-point interpretations. The choices are made separately at the different occurrences and places, as allowed. The fixed set $\mathcal K$ is independent of $K,A,Y_0$ because the prime-pattern lemma makes it independent of $A$ and of the threshold. ◻
@@ -975,7 +971,7 @@ We now prove Lemma 6.1. Constants with a subscript $A$ may depend on $A$, a sub
 ### Reduction orders and their possible common factors
 
 Restrict attention to primes $$\begin{equation}
-\label{pri:prime-residues}
+\tag{6.3}
                          r\equiv1\pmod8,
                          \qquad r\equiv3\pmod7.
 \end{equation}$$ Quadratic reciprocity gives $(2/r)=1$, so $r$ splits in $F$, and $(7/r)=(r/7)=-1$. At either chosen place above $r$, the two nonzero reductions of $d$ and $d^\sigma$ have product $7$. They therefore represent opposite square classes in $\mathbb F_r^*$. The curves $E$ and $E^\sigma$ are the quadratic twists by these classes of $E_0:y^2=x^3-x$, so their traces of Frobenius are opposite.
@@ -983,22 +979,22 @@ Restrict attention to primes $$\begin{equation}
 Here is the specific description of that trace which we need. Since $r\equiv1\pmod4$, the automorphism $(x,y)\mapsto(-x,iy)$ of $E_0$ is defined over $\mathbb F_r$ and has square $[-1]$. Its centralizer in the rational geometric endomorphism algebra is $\mathbb Q(i)$. Indeed, the faithful action of endomorphisms on an auxiliary two-dimensional rational Tate module bounds this centralizer by dimension two, while it already contains $\mathbb Q(i)$. More explicitly one may use the $3$-adic Tate module for $r>3$, on which the minimal polynomial $T^2+1$ is irreducible and its matrix centralizer has dimension two. The faithful action remains injective after extending coefficients (Silverman 2009, Theorem III.7.4).
 
 Frobenius commutes with this automorphism. Its characteristic polynomial is integral, and its determinant is $r$; these are the usual degree and trace identities for elliptic endomorphisms (Silverman 2009, Proposition III.8.6 and Chapter V, §2). It is thus an algebraic integer in $\mathbb Q(i)$, hence equals $a+bi$ for $a,b\in\mathbb Z$, with $$\begin{equation}
-\label{pri:gaussian}
+\tag{6.4}
                     a^2+b^2=r,\qquad a\ne0.
 \end{equation}$$ The last condition follows because a rational prime is not a square. Consequently, in either order, $$\begin{equation}
-\label{pri:orders}
+\tag{6.5}
                             d_1,d_2=r+1\pm2a.
-\end{equation}$$ Both orders are divisible by four, since both curves have full rational two-torsion over $\mathbb F_r$. Their sum is $2(r+1)$, whose $2$-adic valuation is exactly two by (pri:prime-residues). Thus the $2$-part of their greatest common divisor is exactly four. For sufficiently large $r$, the Hasse bound gives $0<d_i<2r$. Since $4\mid d_i$ and $r$ is odd, $d_i\ne r$, proving $r\nmid d_i$.
+\end{equation}$$ Both orders are divisible by four, since both curves have full rational two-torsion over $\mathbb F_r$. Their sum is $2(r+1)$, whose $2$-adic valuation is exactly two by (6.3). Thus the $2$-part of their greatest common divisor is exactly four. For sufficiently large $r$, the Hasse bound gives $0<d_i<2r$. Since $4\mid d_i$ and $r$ is odd, $d_i\ne r$, proving $r\nmid d_i$.
 
-If an odd prime $l$ divides both orders, their sum and difference show that $l\mid r+1$ and $l\mid a$. Equation (pri:gaussian) then gives $$\begin{equation}
-\label{pri:bad-classes}
+If an odd prime $l$ divides both orders, their sum and difference show that $l\mid r+1$ and $l\mid a$. Equation (6.4) then gives $$\begin{equation}
+\tag{6.6}
                     a\equiv0\pmod l,\qquad
                     b^2\equiv-1\pmod l.
 \end{equation}$$ In particular such an $l$ is $1$ modulo $4$. We shall first exclude small $l$ by congruences on $r+1$, then use an upper sieve to remove the remaining primes $r$ satisfying these two local conditions.
 
 ### A finite multiplier set and the initial residue conditions
 
-Write $L_b(U,V)=\alpha_bU+\gamma_bV$ for $b\ne\infty$. Here $\alpha_b\ne0$, $\gcd(\alpha_b,\gamma_b)=1$, and $\alpha_b\gamma_c-\alpha_c\gamma_b\ne0$ for $b\ne c$. For an integer $A$, put $T=(u_1,u_2,v)$ and denote the thirteen homogeneous forms in (pri:forms-list) by $F_\nu(T)$, $1\le\nu\le t=13$. Their coefficient vectors, other than $(0,0,1)$, are $$(\alpha_b,0,\gamma_b),\quad
+Write $L_b(U,V)=\alpha_bU+\gamma_bV$ for $b\ne\infty$. Here $\alpha_b\ne0$, $\gcd(\alpha_b,\gamma_b)=1$, and $\alpha_b\gamma_c-\alpha_c\gamma_b\ne0$ for $b\ne c$. For an integer $A$, put $T=(u_1,u_2,v)$ and denote the thirteen homogeneous forms in (6.1) by $F_\nu(T)$, $1\le\nu\le t=13$. Their coefficient vectors, other than $(0,0,1)$, are $$(\alpha_b,0,\gamma_b),\quad
  (0,\alpha_b,\gamma_b),\quad
  (-\alpha_b,-\alpha_b,\alpha_bA+\gamma_b).$$ Every vector is primitive, including the last one because $\gcd(\alpha_b,\alpha_bA+\gamma_b)=1$. There is a fixed threshold $p_0$, independent of $A$, above which any two vectors are linearly independent over $\mathbb F_p$. Within one of the three families this follows from the fixed nonzero determinants of the $L_b$; between different families it follows from the three distinct directions $(1,0),(0,1),(-1,-1)$ in the first two coordinates. The form $v$ is independent of each remaining form whenever $p\nmid\alpha_b$.
 
@@ -1007,7 +1003,7 @@ Choose once and for all a finite set $S_0$ consisting of all primes up to a suff
 We next choose a finite catalogue of multipliers, without selecting $A$ or any of those classes. Put $m_2=8$ and $m_p=p$ for odd $p\in S_0$. Define units $c_2=1\pmod8$, $c_7=3\pmod7$, and $c_p=1\pmod p$ for the remaining $p\in S_0$. These are the desired residues of the positive primes in Lemma 6.1. A catalogue datum consists of integers and unit residues $$e_{p\nu}\in\{0,\ldots,H_0-1\},\qquad
  \xi_{p\nu}\in(\mathbb Z/m_p\mathbb Z)^*
  \quad(p\in S_0,\ 1\le\nu\le t).$$ For such a datum set $k_{0\nu}=\prod_{p\in S_0}p^{e_{p\nu}}$. The Chinese Remainder Theorem and Dirichlet’s Theorem (Davenport 2000, sec. 4) allow us to choose distinct primes $h_1,\ldots,h_t\notin S_0$, hence above the fixed threshold, with $$\begin{equation}
-\label{pri:multiplier-primes}
+\tag{6.7}
                  h_\nu\equiv c_p^{-1}\xi_{p\nu}\pmod{m_p}
                  \qquad(p\in S_0).
 \end{equation}$$ When the datum later comes from a chosen vector class, $\xi_{p\nu}$ will be the signed unit remaining after the factors from $S_0$ have been removed. The congruence gives $\xi_{p\nu}h_\nu^{-1}\equiv c_p\pmod{m_p}$, so division by the additional factor $h_\nu$ gives the desired residue. There are only finitely many catalogue data. Fix one such tuple of primes for each datum and let $\mathcal K$ be the union of the resulting integers $k_{0\nu}h_\nu$. Thus $\mathcal K$ is finite and is fixed before $A$, the cutoff $L$, and the dilation $X$.
@@ -1020,13 +1016,13 @@ Now fix the integer $A$ for which the lemma is to be proved. Choose a bounded op
 At $p=h_\nu$, impose $F_\nu(T)=0\pmod p$. On this plane, each other $F_j$ is nonconstant. Each condition $\epsilon_jF_j(T)=0$ or $-k_j$ removes at most one line, and at most $2(t-1)p<p^2$ points are removed. There is therefore a point satisfying $$\epsilon_jF_j(T)\ne0,-k_j\pmod{h_\nu}
           \quad(j\ne\nu).$$ Lift that point modulo $p^2$ so that $$\epsilon_\nu F_\nu(T)/p
                              \ne0,-k_{0\nu}\pmod p.$$ Such a lift exists because $F_\nu$ is primitive, so varying the lift changes $F_\nu(T)/p$ through all residues modulo $p$. The Chinese Remainder Theorem combines these choices with the chosen classes at $S_0$ into one vector class modulo $$\begin{equation}
-\label{pri:initial-modulus}
+\tag{6.8}
               W_0=\prod_{p\in S_0}p^{H_0+3}
                           \prod_{\nu=1}^t h_\nu^2.
-\end{equation}$$ On this class all $$\Psi_\nu(T)=\epsilon_\nu F_\nu(T)/k_\nu$$ are integers and are nonzero modulo every prime dividing $W_0$. At a prime in $S_0$, the definition of $\xi_{p\nu}$ and (pri:multiplier-primes) give $\Psi_\nu\equiv c_p\pmod{m_p}$. The conditions at each $h_j$ give the remaining exclusions. Thus the divided forms equal $1$ modulo $8$ and $3$ modulo $7$, and avoid $-1$ modulo every odd prime dividing $W_0$. Notice also that $W_0/k_\nu$ is divisible by every prime dividing $W_0$. This extra divisibility will control the local factors of the prime-counting theorem.
+\end{equation}$$ On this class all $$\Psi_\nu(T)=\epsilon_\nu F_\nu(T)/k_\nu$$ are integers and are nonzero modulo every prime dividing $W_0$. At a prime in $S_0$, the definition of $\xi_{p\nu}$ and (6.7) give $\Psi_\nu\equiv c_p\pmod{m_p}$. The conditions at each $h_j$ give the remaining exclusions. Thus the divided forms equal $1$ modulo $8$ and $3$ modulo $7$, and avoid $-1$ modulo every odd prime dividing $W_0$. Notice also that $W_0/k_\nu$ is divisible by every prime dividing $W_0$. This extra divisibility will control the local factors of the prime-counting theorem.
 
 Fix a smaller rectangular box $\mathcal B'$ of positive volume with $\overline{\mathcal B'}\subset\mathcal B$. Since the signs agree with the forms on $\mathcal B$ and its closure avoids their zero planes, there are constants $0<c_A<C_A$ such that $$\begin{equation}
-\label{pri:value-range}
+\tag{6.9}
         c_AX\le\Psi_\nu(T)\le C_AX
           \quad(T\in X\mathcal B,\ 1\le\nu\le t).
 \end{equation}$$ All choices for this $A$, including $W_0$, are now fixed before choosing $L$. The catalogue was finite, so $W_0$ ranges in a fixed finite set as $A$ varies.
@@ -1034,79 +1030,79 @@ Fix a smaller rectangular box $\mathcal B'$ of positive volume with $\overline{\
 ### A lower bound for the prime patterns
 
 Let $L$ be a fixed cutoff larger than every prime dividing $W_0$, and put $$W=W_0\prod_{\substack{p\le L\\p\nmid W_0}}p.$$ At each new prime $p\le L$ allow all residue classes of $T$ satisfying $$\begin{equation}
-\label{pri:small-exclusions}
+\tag{6.10}
                    \epsilon_\nu F_\nu(T)\ne0,-k_\nu\pmod p
                          \quad(1\le\nu\le t).
 \end{equation}$$ At most $2t$ affine planes, each of $p^2$ points, are excluded. Thus if $\mathcal R_W$ is the set of all allowed vector classes modulo $W$, including the one fixed class modulo $W_0$, then $$\begin{equation}
-\label{pri:crt-density}
+\tag{6.11}
  \frac{|\mathcal R_W|}{W^3}
  \ge W_0^{-3}\prod_{\substack{p\le L\\p\nmid W_0}}(1-2t/p)
  \ge c_0(\log L)^{-C_0}.
-\end{equation}$$ The last bound follows by taking logarithms and using Mertens’ estimate $\sum_{p\le L}p^{-1}=\log\log L+O(1)$ (Williams 1974, equation (1.1) and Theorem 1). The constants can be fixed independently of $L$; since $W_0$ ranges in a fixed finite set they could also be made independent of $A$. Whenever $\Psi_\nu(T)=r$ is prime, these conditions and the initial conditions imply that no odd $l\le L$ divides $r+1$. Such an $l$ cannot divide both orders in (pri:orders).
+\end{equation}$$ The last bound follows by taking logarithms and using Mertens’ estimate $\sum_{p\le L}p^{-1}=\log\log L+O(1)$ (Williams 1974, equation (1.1) and Theorem 1). The constants can be fixed independently of $L$; since $W_0$ ranges in a fixed finite set they could also be made independent of $A$. Whenever $\Psi_\nu(T)=r$ is prime, these conditions and the initial conditions imply that no odd $l\le L$ divides $r+1$. Such an $l$ cannot divide both orders in (6.5).
 
 Let $N_{A,L}(X)$ be the number of $T\in X\mathcal B\cap\mathbb Z^3$ for which every $\Psi_\nu(T)$ is prime and all imposed congruences hold. We claim that $$\begin{equation}
-\label{pri:lower}
+\tag{6.12}
                   N_{A,L}(X)\ge
         c_A(\log L)^{-C_0}\frac{X^3}{(\log X)^t}
 \end{equation}$$ for sufficiently large $X$ depending on $A,L$, with $c_A>0$ independent of $L$.
 
 We use the following precise form of the Green–Tao–Ziegler theorem. For a fixed finite collection of integer affine-linear forms $\psi_1,\ldots,\psi_t$ on $\mathbb Z^d$ whose nonzero linear parts are pairwise nonproportional, and a fixed dilating box where all values are positive, the von Mangoldt weighted count is $$\begin{equation}
-\label{pri:gtz}
+\tag{6.13}
  \sum_{n\in\mathcal D_X\cap\mathbb Z^d}\prod_{\nu=1}^t\Lambda(\psi_\nu(n))
  =\operatorname{vol}(\mathcal D_X)\prod_p\beta_p+o(X^d),
 \end{equation}$$ where $$\beta_p=(1-1/p)^{-t}p^{-d}
-   \#\{n\in\mathbb F_p^d:\psi_\nu(n)\ne0\text{ for every }\nu\}.$$ Here all coefficients and the box are fixed before $X\to\infty$. This is the finite-complexity case of the Main Theorem of (Green and Tao 2010), combined with the Möbius–nilsequence theorem (Green and Tao 2012, Theorem 1.1) and the inverse theorem (Green et al. 2012, Theorem 1.3), with its correction (Green et al. 2024). Pairwise nonproportional linear parts give finite complexity: for any chosen form, the other forms can be partitioned into singletons, none spanning it. The 2024 erratum corrects intermediate factorization and filtration statements and leaves the stated inverse theorem, and hence (pri:gtz), unchanged.
+   \#\{n\in\mathbb F_p^d:\psi_\nu(n)\ne0\text{ for every }\nu\}.$$ Here all coefficients and the box are fixed before $X\to\infty$. This is the finite-complexity case of the Main Theorem of (Green and Tao 2010), combined with the Möbius–nilsequence theorem (Green and Tao 2012, Theorem 1.1) and the inverse theorem (Green et al. 2012, Theorem 1.3), with its correction (Green et al. 2024). Pairwise nonproportional linear parts give finite complexity: for any chosen form, the other forms can be partitioned into singletons, none spanning it. The 2024 erratum corrects intermediate factorization and filtration statements and leaves the stated inverse theorem, and hence (6.13), unchanged.
 
 For each $T_0\in\mathcal R_W$, use its representative in $[0,W)^3$ and write $T=T_0+Wn$. The forms $$\psi_{\nu,T_0}(n)
-              =\epsilon_\nu F_\nu(T_0+Wn)/k_\nu$$ have integer coefficients and pairwise nonproportional linear parts. Use $n\in(X/W)\mathcal B'$. For all sufficiently large $X$, depending on $A,L$, this entails $T\in X\mathcal B$, uniformly over the finite set of representatives $T_0$. The volume in (pri:gtz) is then $\operatorname{vol}(\mathcal B')X^3/W^3$.
+              =\epsilon_\nu F_\nu(T_0+Wn)/k_\nu$$ have integer coefficients and pairwise nonproportional linear parts. Use $n\in(X/W)\mathcal B'$. For all sufficiently large $X$, depending on $A,L$, this entails $T\in X\mathcal B$, uniformly over the finite set of representatives $T_0$. The volume in (6.13) is then $\operatorname{vol}(\mathcal B')X^3/W^3$.
 
 At $p\mid W$, the coefficients of the variable parts of every divided form vanish modulo $p$, whereas their constant values are nonzero. Consequently $\beta_p=(1-1/p)^{-t}\ge1$. At $p\nmid W$, multiplication by $W$ and by $k_\nu^{-1}$ is invertible. The zero sets of the forms are distinct affine hyperplanes, and each pair has an intersection of codimension two. Inclusion–exclusion, using only the first two terms for a uniform error, gives $$p^{-3}\#\{n:\psi_{\nu,T_0}(n)\ne0\ (\forall\nu)\}
                             =1-t/p+O_t(p^{-2}).$$ Thus $\beta_p=1+O_t(p^{-2})$. Taking the original fixed threshold large enough, the product over any subset of these primes is bounded below by one fixed positive convergent product. This lower bound is independent of $L$ and $T_0$.
 
-Prime powers in (pri:gtz) are negligible. On a box of scale $X$, there are $O(X^{1/2}\log X)$ proper prime powers in the range of each nonconstant form, and at most $O_{A,L}(X^2)$ lattice points for each prescribed value of that form, by solving for one coordinate. Their total weighted contribution is therefore $O_{A,L}(X^{5/2}(\log X)^{t+1})=o_{A,L}(X^3)$. For genuine prime values the weight is at most $C_A(\log X)^t$, by (pri:value-range).
+Prime powers in (6.13) are negligible. On a box of scale $X$, there are $O(X^{1/2}\log X)$ proper prime powers in the range of each nonconstant form, and at most $O_{A,L}(X^2)$ lattice points for each prescribed value of that form, by solving for one coordinate. Their total weighted contribution is therefore $O_{A,L}(X^{5/2}(\log X)^{t+1})=o_{A,L}(X^3)$. For genuine prime values the weight is at most $C_A(\log X)^t$, by (6.9).
 
-Sum (pri:gtz) over the finitely many allowed progressions. For each fixed $L$ their errors still sum to $o_{A,L}(X^3)$, while the $W^{-3}$ volume factor cancels the $W^3$ in the number of progressions in (pri:crt-density). The lower bound for the local-factor product, the removal of prime powers, and the bound on the prime weights therefore give (pri:lower), with a positive coefficient independent of $L$. We require no uniformity in the little-oh error as $A$ or $L$ varies.
+Sum (6.13) over the finitely many allowed progressions. For each fixed $L$ their errors still sum to $o_{A,L}(X^3)$, while the $W^{-3}$ volume factor cancels the $W^3$ in the number of progressions in (6.11). The lower bound for the local-factor product, the removal of prime powers, and the bound on the prime weights therefore give (6.12), with a positive coefficient independent of $L$. We require no uniformity in the little-oh error as $A$ or $L$ varies.
 
-We must now remove the patterns for which some pair of reduction orders has an odd common factor $l>L$. For one form, we will bound the number of possible bad prime values by $O_A(X/(L\log X))$ plus terms of smaller order as $X\to\infty$ for fixed $L$. For each fixed bad value, a second count will bound the points on its affine fiber for which the other $t-1$ forms remain prime by $O_A(X^2/(\log X)^{t-1})$. The contribution from the term $X/(L\log X)$ is therefore $O_A(X^3/(L(\log X)^t))$. This retains the factor $(\log X)^{-t}$ in (pri:lower) and introduces the saving $1/L$. The first count sieves the pairs $(a,b)$ in (pri:gaussian); the second sieves the two free coordinates on a fiber. Both use the following two-dimensional estimate.
+We must now remove the patterns for which some pair of reduction orders has an odd common factor $l>L$. For one form, we will bound the number of possible bad prime values by $O_A(X/(L\log X))$ plus terms of smaller order as $X\to\infty$ for fixed $L$. For each fixed bad value, a second count will bound the points on its affine fiber for which the other $t-1$ forms remain prime by $O_A(X^2/(\log X)^{t-1})$. The contribution from the term $X/(L\log X)$ is therefore $O_A(X^3/(L(\log X)^t))$. This retains the factor $(\log X)^{-t}$ in (6.12) and introduces the saving $1/L$. The first count sieves the pairs $(a,b)$ in (6.4); the second sieves the two free coordinates on a fiber. Both use the following two-dimensional estimate.
 
 ### An elementary upper sieve with uniform errors
 
 Let $\mathcal P_Z$ be a set of primes at most $Z$, with forbidden subsets $\Omega_p\subset\mathbb F_p^2$ having densities $g(p)=|\Omega_p|/p^2$ in $(0,1/2)$. Extend $g$ multiplicatively to squarefree integers supported on $\mathcal P_Z$. Let $\mathbf x$ range over a square in $\mathbb Z^2$ with $n$ integer choices in each coordinate. The simultaneous forbidden conditions at the primes dividing a squarefree integer $e$ hold at $$\begin{equation}
-\label{pri:residue-error}
+\tag{6.14}
                           n^2g(e)+O(ne+e^2)
 \end{equation}$$ points, uniformly in the location of the square. Indeed the Chinese Remainder Theorem gives $e^2g(e)$ residue classes, and the count in each differs from $n^2/e^2$ by $O(n/e+1)$.
 
 The following estimate uses Selberg’s $\lambda^2$ method (Selberg 1947); compare (Montgomery and Vaughan 2007, sec. 3.2). We give the weights and error term needed for these two-dimensional boxes.
 
 **Lemma 6.3**. *The number of points in this square avoiding every $\Omega_p$ is at most $$\begin{equation}
-\label{pri:sieve-bound}
+\tag{6.15}
             \frac{n^2}{G(Z)}+O(nZ^6+Z^8),\qquad
  G(Z)=\sum_{\substack{e\le Z\text{ squarefree}\\p\mid e\Rightarrow p\in\mathcal P_Z}}
                            \prod_{p\mid e}\frac{g(p)}{1-g(p)}.
 \end{equation}$$ The error constant is absolute.*
 
 *Proof.* All integers in the sums that follow are squarefree and supported on $\mathcal P_Z$. Put $g_*(p)=(1-g(p))/g(p)$ and extend it multiplicatively, with $g(1)=g_*(1)=1$. For real weights $\lambda_e$ supported on $e\le Z$ with $\lambda_1=1$, the square $$\left(\sum_{\substack{e\le Z\\
-                 \mathbf x\bmod p\in\Omega_p\ (p\mid e)}}\lambda_e\right)^2$$ majorizes the indicator of avoiding all forbidden sets: at such a point only $e=1$ contributes. Upon summing and applying (pri:residue-error), its main term divided by $n^2$ is $\sum_{e,f}\lambda_e\lambda_fg([e,f])$. The identity $1/g(d)=\sum_{h\mid d}g_*(h)$ gives the diagonalization $$\begin{equation}
-\label{pri:diagonalization}
+                 \mathbf x\bmod p\in\Omega_p\ (p\mid e)}}\lambda_e\right)^2$$ majorizes the indicator of avoiding all forbidden sets: at such a point only $e=1$ contributes. Upon summing and applying (6.14), its main term divided by $n^2$ is $\sum_{e,f}\lambda_e\lambda_fg([e,f])$. The identity $1/g(d)=\sum_{h\mid d}g_*(h)$ gives the diagonalization $$\begin{equation}
+\tag{6.16}
  \sum_{e,f}\lambda_e\lambda_fg([e,f])
    =\sum_hg_*(h)
             \left(\sum_{\substack{e\le Z\\h\mid e}}\lambda_eg(e)\right)^2.
 \end{equation}$$ Prescribe the inner sums to equal $\mu(h)/(G(Z)g_*(h))$. Finite Möbius inversion gives $$\begin{equation}
-\label{pri:weights}
+\tag{6.17}
  \lambda_e=\frac{\mu(e)}{G(Z)g(e)g_*(e)}
        \sum_{\substack{k\le Z/e\\(k,e)=1}}
                        \frac{\mu(k)^2}{g_*(k)}.
 \end{equation}$$ In particular $\lambda_1=1$ and $$|\lambda_e|\le\frac1{g(e)g_*(e)}
                   =\prod_{p\mid e}(1-g(p))^{-1}
-                  \le2^{\omega(e)}\le e.$$ Substitution in (pri:diagonalization) gives $1/G(Z)$. For the error at $[e,f]$, use $[e,f]\le ef$ and $|\lambda_e\lambda_f|\le ef$. Its sum is bounded by $$O\!\left(n\sum_{e,f\le Z}e^2f^2+
+                  \le2^{\omega(e)}\le e.$$ Substitution in (6.16) gives $1/G(Z)$. For the error at $[e,f]$, use $[e,f]\le ef$ and $|\lambda_e\lambda_f|\le ef$. Its sum is bounded by $$O\!\left(n\sum_{e,f\le Z}e^2f^2+
                        \sum_{e,f\le Z}e^3f^3\right)
                            =O(nZ^6+Z^8),$$ as required. ◻
 
 We shall always set $Z=X^{1/100}$. Two consequences for $G(Z)$ will be useful. If $\mathcal P_Z$ contains all primes above a fixed threshold up to $Z$, and $g(p)=s/p+O_s(p^{-2})$ for a fixed positive integer $s$, then $$\begin{equation}
-\label{pri:sieve-dimension}
+\tag{6.18}
                               G(Z)\gg(\log X)^s.
 \end{equation}$$ If instead it contains the primes $p\equiv1\pmod4$ above a fixed threshold up to $Z$, with at most one additional prime omitted, and $g(p)=2/p+O(p^{-2})$, then $$\begin{equation}
-\label{pri:split-sieve-dimension}
+\tag{6.19}
                               G(Z)\gg\log X,
 \end{equation}$$ uniformly in that omitted prime. In these two estimates the implicit constants may depend on the fixed threshold and the fixed density estimates, as well as on $s$, but not on $X$ or the omitted prime.
 
@@ -1116,28 +1112,28 @@ Here are details of the truncation behind both claims. For $y=Z^\theta$, where $
 
 ### Counting bad prime values
 
-Fix one index $\nu$. All its possible prime values lie in the interval (pri:value-range). Let $B_{A,L}(X)$ be the number of primes in that interval satisfying (pri:prime-residues) for which the two orders have a common odd factor $l>L$. We claim $$\begin{equation}
-\label{pri:bad-primes}
+Fix one index $\nu$. All its possible prime values lie in the interval (6.9). Let $B_{A,L}(X)$ be the number of primes in that interval satisfying (6.3) for which the two orders have a common odd factor $l>L$. We claim $$\begin{equation}
+\tag{6.20}
             B_{A,L}(X)\ll_A
              \frac{X}{L\log X}+X^{7/8}+\sqrt X\log X.
-\end{equation}$$ It suffices to count pairs $(a,b)\in\mathbb Z^2$ with $|a|,|b|\le C_A\sqrt X$, $a\ne0$, for which $a^2+b^2$ is a prime in the interval and (pri:bad-classes) holds for some prime $l>L$. Every bad prime supplies such a pair. Overcounting pairs, and counting a pair several times if necessary, gives an upper bound.
+\end{equation}$$ It suffices to count pairs $(a,b)\in\mathbb Z^2$ with $|a|,|b|\le C_A\sqrt X$, $a\ne0$, for which $a^2+b^2$ is a prime in the interval and (6.6) holds for some prime $l>L$. Every bad prime supplies such a pair. Overcounting pairs, and counting a pair several times if necessary, gives an upper bound.
 
 First consider $L<l\le X^{1/8}$. If $-1$ has no square root modulo $l$, there are no pairs. Otherwise take each of its two roots $b_0$ and write $$a=lU,\qquad b=b_0+lV.$$ The relevant $U,V$ lie in an encompassing square with $$\begin{equation}
-\label{pri:short-square}
+\tag{6.21}
                n\asymp_A\sqrt X/l\gg_A X^{3/8}
-\end{equation}$$ integer choices in each coordinate, uniformly for these $l$ and for least nonnegative representatives $b_0$. Sieve by all sufficiently large primes $p\equiv1\pmod4$, $p\ne l$, up to $Z=X^{1/100}$. Modulo $p$ the substitution $(U,V)\mapsto(lU,b_0+lV)$ is an affine bijection, so the forbidden equation $a^2+b^2=0$ has exactly $2p-1$ solutions: it is the union of two distinct lines meeting at one point. Thus $$g(p)=2/p-1/p^2,$$ independently of $l,b_0$. Since the prime value $a^2+b^2$ is $\asymp_A X>Z$, it avoids all these forbidden sets. Lemma 6.3 and (pri:split-sieve-dimension) give $O(n^2/\log X+nZ^6+Z^8)$ pairs. At the shortest possible squares, $$\frac{nZ^6+Z^8}{n^2/\log X}
+\end{equation}$$ integer choices in each coordinate, uniformly for these $l$ and for least nonnegative representatives $b_0$. Sieve by all sufficiently large primes $p\equiv1\pmod4$, $p\ne l$, up to $Z=X^{1/100}$. Modulo $p$ the substitution $(U,V)\mapsto(lU,b_0+lV)$ is an affine bijection, so the forbidden equation $a^2+b^2=0$ has exactly $2p-1$ solutions: it is the union of two distinct lines meeting at one point. Thus $$g(p)=2/p-1/p^2,$$ independently of $l,b_0$. Since the prime value $a^2+b^2$ is $\asymp_A X>Z$, it avoids all these forbidden sets. Lemma 6.3 and (6.19) give $O(n^2/\log X+nZ^6+Z^8)$ pairs. At the shortest possible squares, $$\frac{nZ^6+Z^8}{n^2/\log X}
        \ll_A(\log X)
                    \bigl(X^{6/100-3/8}+X^{8/100-3/4}\bigr)=o_A(1).$$ The error is therefore absorbed uniformly before summing over $l$. Each $l$ contributes $O_A(X/(l^2\log X))$, and summing over even all integers $l>L$ gives $O_A(X/(L\log X))$.
 
-For $l>X^{1/8}$ use a lattice count without a sieve. Since $a\ne0$ and $l\mid a$, necessarily $l\le C_A\sqrt X$, and the number of possible $a$ is $O_A(\sqrt X/l)$, with no additive constant. There are at most two classes for $b$, giving $O_A(\sqrt X/l+1)$ possibilities. The count for one $l$ is thus $$O_A(X/l^2+\sqrt X/l).$$ To sum it explicitly, split $X^{1/8}<l\le C_A\sqrt X$ into dyadic blocks $D<l\le2D$. Even if every integer in a block were allowed, its contribution would be $O_A(X/D+\sqrt X)$. The first terms form a geometric sum $O_A(X^{7/8})$, while there are $O_A(\log X)$ blocks. Their total is $O_A(X^{7/8}+\sqrt X\log X)$. This proves (pri:bad-primes) with constants independent of $L$.
+For $l>X^{1/8}$ use a lattice count without a sieve. Since $a\ne0$ and $l\mid a$, necessarily $l\le C_A\sqrt X$, and the number of possible $a$ is $O_A(\sqrt X/l)$, with no additive constant. There are at most two classes for $b$, giving $O_A(\sqrt X/l+1)$ possibilities. The count for one $l$ is thus $$O_A(X/l^2+\sqrt X/l).$$ To sum it explicitly, split $X^{1/8}<l\le C_A\sqrt X$ into dyadic blocks $D<l\le2D$. Even if every integer in a block were allowed, its contribution would be $O_A(X/D+\sqrt X)$. The first terms form a geometric sum $O_A(X^{7/8})$, while there are $O_A(\log X)$ blocks. Their total is $O_A(X^{7/8}+\sqrt X\log X)$. This proves (6.20) with constants independent of $L$.
 
 ### A uniform sieve on each affine fiber
 
 For a fixed prime value $r\asymp_A X$ of the $\nu$th form, consider $$\begin{equation}
-\label{pri:fiber}
+\tag{6.22}
                          F_\nu(T)=\epsilon_\nu k_\nu r.
 \end{equation}$$ We claim that the number of $T\in X\mathcal B\cap\mathbb Z^3$ on this fiber for which all other $\Psi_j(T)$ are primes is $$\begin{equation}
-\label{pri:fiber-bound}
+\tag{6.23}
                               \ll_A\frac{X^2}{(\log X)^{t-1}},
 \end{equation}$$ uniformly in $r$ and independently of $L$. In this upper bound we discard all the congruence conditions used for the lower bound.
 
@@ -1145,18 +1141,18 @@ Since $F_\nu$ is primitive, an integral unimodular coordinate change makes it th
 
 On the affine plane $F_\nu=c$ over $\mathbb F_p$, every other $F_j$ restricts to a nonconstant affine function, because $F_j$ is not proportional to $F_\nu$. Furthermore the $t-1$ zero lines of these restrictions are distinct. If two coincided, their affine functions would be scalar multiples on that plane. For some $\lambda\in\mathbb F_p^*$ and $\mu\in\mathbb F_p$ this would give the identity $$F_j-\lambda F_k=\mu(F_\nu-c).$$ The left side is homogeneous, so comparison of constant terms gives $\mu c=0$. Since $c\ne0$, one has $\mu=0$, contradicting the pairwise independence of $F_j,F_k$. This argument also covers the case that three ambient forms are jointly dependent: a nonzero constant shift then gives distinct parallel lines, rather than coincident ones.
 
-The union of the $t-1$ distinct zero lines has $(t-1)p+O_t(1)$ points. All must be avoided, since the other prime values have size $\asymp_A X$ and exceed the sieving primes; the multiplier is invertible modulo every sieving prime. Thus $g(p)=(t-1)/p+O_t(p^{-2})$, uniformly in the fiber. Lemma 6.3 and (pri:sieve-dimension) give $$O_A\!\left(\frac{X^2}{(\log X)^{t-1}}+XZ^6+Z^8\right)
-                       =O_A\!\left(\frac{X^2}{(\log X)^{t-1}}\right),$$ which proves (pri:fiber-bound). All excluded sieving primes were fixed in advance of $r,L$, and residue-count errors are uniform in the position of the encompassing square. This proves the claimed uniformity.
+The union of the $t-1$ distinct zero lines has $(t-1)p+O_t(1)$ points. All must be avoided, since the other prime values have size $\asymp_A X$ and exceed the sieving primes; the multiplier is invertible modulo every sieving prime. Thus $g(p)=(t-1)/p+O_t(p^{-2})$, uniformly in the fiber. Lemma 6.3 and (6.18) give $$O_A\!\left(\frac{X^2}{(\log X)^{t-1}}+XZ^6+Z^8\right)
+                       =O_A\!\left(\frac{X^2}{(\log X)^{t-1}}\right),$$ which proves (6.23). All excluded sieving primes were fixed in advance of $r,L$, and residue-count errors are uniform in the position of the encompassing square. This proves the claimed uniformity.
 
 ### Completing the prime-pattern construction
 
-For each of the $t$ forms, multiply the number of its possible bad prime values in (pri:bad-primes) by the uniform fiber bound (pri:fiber-bound). A union bound shows that at most $$\begin{equation}
-\label{pri:total-loss}
+For each of the $t$ forms, multiply the number of its possible bad prime values in (6.20) by the uniform fiber bound (6.23). A union bound shows that at most $$\begin{equation}
+\tag{6.24}
           \frac{C_AX^3}{L(\log X)^t}
                          +o_A\!\left(\frac{X^3}{(\log X)^t}\right)
 \end{equation}$$ of the prime patterns can have a common odd factor $l>L$ in one of their pairs of reduction orders. More explicitly, the ratios of the two other terms to $X^3/(\log X)^t$ are $O_A(X^{-1/8}\log X)$ and $O_A(X^{-1/2}(\log X)^2)$; both tend to zero. None of the constants in this upper estimate depends on $L$.
 
-Choose $L$, after all data depending on $A$ have been fixed, large enough that $$C_A/L<\tfrac12 c_A(\log L)^{-C_0}.$$ This is possible because $(\log L)^{C_0}/L\to0$. Then choose $X$ sufficiently large for (pri:lower), for all the upper estimates, and for the residual little-oh in (pri:total-loss) to be smaller than the remaining lower-bound coefficient. At least one prime pattern survives. Small common odd factors were already excluded by the CRT conditions, and all larger ones have just been removed. The $2$-part and the prime-to-$r$ assertions proved from (pri:orders) now give (pri:order-conditions). The primes have size at least $c_AX$, so increasing $X$ makes all of them exceed any prescribed $B$. This proves Lemma 6.1.
+Choose $L$, after all data depending on $A$ have been fixed, large enough that $$C_A/L<\tfrac12 c_A(\log L)^{-C_0}.$$ This is possible because $(\log L)^{C_0}/L\to0$. Then choose $X$ sufficiently large for (6.12), for all the upper estimates, and for the residual little-oh in (6.24) to be smaller than the remaining lower-bound coefficient. At least one prime pattern survives. Small common odd factors were already excluded by the CRT conditions, and all larger ones have just been removed. The $2$-part and the prime-to-$r$ assertions proved from (6.5) now give (6.2). The primes have size at least $c_AX$, so increasing $X$ makes all of them exceed any prescribed $B$. This proves Lemma 6.1.
 
 Together with Corollary 6.2, the prime-pattern lemma proves Corollary 2.6, completing the ordinary integer witnesses used in Section 2. The analysis there combines the tested representations with the parity, height, and elliptic inputs to turn success of all finite tests into an ordinary integer zero.
 

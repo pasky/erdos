@@ -73,7 +73,7 @@ We fix the coefficient and automorphic conventions before introducing deformatio
 | Object | Convention |
 |:---|:---|
 | Frobenius | Geometric by default; local reciprocity sends a uniformizer to geometric Frobenius. The tame relation with exponent $q_v$ uses arithmetic Frobenius explicitly. |
-| Weights | $\varepsilon=x|x|$, cyclotomic exponent $1$, $\mathop{\mathrm{HT}}(\varepsilon)=\{-1\}$, and $|2|=2^{-1}$. |
+| Weights | $\varepsilon=x\vert x\vert$, cyclotomic exponent $1$, $\mathop{\mathrm{HT}}(\varepsilon)=\{-1\}$, and $\vert2\vert=2^{-1}$. |
 | Determinants and blocks | $\chi=\det r$, completed-form central character $\psi=\chi\varepsilon$, local block parameter $r\otimes\varepsilon$ with determinant $\chi\varepsilon^2$. |
 | Ordinary target | At a locally reducible de Rham target choose the line character $\eta_1$ with exponent $a>b$, where $\eta_2=\chi/\eta_1$ has exponent $b$. The favorable upper-Borel, unnormalized inducing pair is $(\eta_2\varepsilon,\eta_1)$. |
 | Algebraic factor | $\operatorname{Sym}^{a-b-1}\det^{b+1}$. The continuous family retaining $\eta_1$ need not be de Rham. |
@@ -85,7 +85,7 @@ We fix the coefficient and automorphic conventions before introducing deformatio
 
 Write $\mathcal O$ for the ring of integers in a sufficiently large finite extension $E/\mathbb Q_2$, $\varpi$ for a uniformizer, and $k$ for its residue field. Finite coefficient extensions are allowed. A lattice means a finite free $\mathcal O$-module of full rank. The cyclotomic character is denoted by $\varepsilon$. We count weights as *cyclotomic exponents*, so that $\varepsilon$ has exponent $1$. In the Hodge–Tate convention $\mathop{\mathrm{HT}}(\varepsilon)=\{-1\}$, exponents are the negatives of Hodge–Tate weights.
 
-We use geometric Frobenius and local reciprocity sending a uniformizer to geometric Frobenius. Thus, as a character of $\mathbb Q_2^\times$, $$\varepsilon=x|x|,\qquad x(a)=a.$$ The determinant of a Galois representation is denoted by $\chi$. For a representation in Theorem 1.1, de Rham class field theory gives $$\chi=\chi_{\mathrm{fin}}\varepsilon^w$$ for a finite-order character $\chi_{\mathrm{fin}}$ and an integer $w$. Indeed, Tate’s local algebraicity theorem (Serre 1989, III, Section 1.2) gives the integral cyclotomic exponent at $2$. Removing this power leaves a character locally constant at every finite place. Finite ramification and global reciprocity make it a character of a finite ray class group, hence of finite order. In the convention for quaternionic forms used below, the central character is $$\psi=\chi\varepsilon.$$ The normalized local block parameter attached to a Galois representation $\rho$ is that of $\rho\otimes\varepsilon$. These conventions agree with (Pan 2022, secs. 3.1–3.5).
+We use geometric Frobenius and local reciprocity sending a uniformizer to geometric Frobenius. Thus, as a character of $\mathbb Q_2^\times$, $$\varepsilon=x|x|,\qquad x(a)=a.$$ The determinant of a Galois representation is denoted by $\chi$. For a representation in Theorem 1.1, de Rham class field theory gives $$\chi=\chi_{\mathrm{fin}}\varepsilon^w$$ for a finite-order character $\chi_{\mathrm{fin}}$ and an integer $w$. Indeed, Tate’s local algebraicity theorem (Serre 1989, Chapter III, Section 1.2) gives the integral cyclotomic exponent at $2$. Removing this power leaves a character locally constant at every finite place. Finite ramification and global reciprocity make it a character of a finite ray class group, hence of finite order. In the convention for quaternionic forms used below, the central character is $$\psi=\chi\varepsilon.$$ The normalized local block parameter attached to a Galois representation $\rho$ is that of $\rho\otimes\varepsilon$. These conventions agree with (Pan 2022, secs. 3.1–3.5).
 
 For the statement of Theorem 1.1, one may use the arithmetic normalization $V_f$ of the representation of a primitive eigenform of weight $k$ and nebentype $\psi_f$: at a good prime $q$, $$\mathop{\mathrm{tr}}V_f(\operatorname{Frob}^{\mathrm{ar}}_q)=a_q(f),\qquad
  \det V_f=\psi_f\varepsilon^{k-1}.$$ These trace and determinant formulas use the normalization of (Deligne and Serre 1974, Theorem 6.1); arithmetic Frobenius is fixed there in Section 3.1. The cyclotomic exponents of $V_f$ are $\{0,k-1\}$. Evaluating the same representation at geometric Frobenius inverts its eigenvalues; it does not change the representation into its dual. If a construction instead produces $V_f^\vee$, the wedge pairing gives $$V_f^\vee\simeq V_f\otimes\psi_f^{-1}\varepsilon^{1-k}
@@ -107,7 +107,7 @@ For a representation over any field, after extending scalars to an algebraic clo
 
 *Proof.* Let $H$ be the algebraic monodromy group of an irreducible two-dimensional representation over an algebraic closure. Lie–Kolchin and the structure of connected solvable groups (Milne 2022, Theorems 17.4 and 16.33) give the following alternatives. If $H^\circ$ is solvable and has a nontrivial unipotent radical, the latter has a unique fixed line; normality makes that line $H$-stable, contradicting irreducibility. The remaining possibilities are that $H^\circ$ is scalar, or that its two distinct character lines are permuted by $H$.
 
-In the scalar case the projective image is finite. After a finite extension of the base field, the representation is a scalar character on a two-dimensional space. Its two Hodge–Tate weights are equal, which is excluded. In the second case the action on the two lines gives a quadratic extension $L/\mathbb Q$ and $$r\simeq\mathop{\mathrm{Ind}}_{G_L}^{G_{\mathbb Q}}\theta$$ for a continuous character $\theta$. The character is de Rham and finitely ramified, hence is the $2$-adic avatar of an algebraic Hecke character, by the following rank-one consequence of Tate’s theorem and the construction in (Serre 1989, III, Sections 1.2 and 2.3). The integral algebraic exponents on open local units obey the global unit relation. Principal ideals in a suitable ray subgroup therefore receive the prescribed algebraic monomials. A positive power of each of finitely many ray-class representatives is principal in that subgroup, so its character value is algebraic. Adjoining these values places all ideal-character values in one number field and constructs the algebraic Hecke character. This argument does not assume that the given character was initially rational over a number field. If $L$ is real quadratic, its algebraic exponents at the two real embeddings are equal by the unit theorem: a unit of infinite order forces their difference to vanish in the algebraic character relation. This again contradicts regularity. For imaginary quadratic $L$, the theta-series construction gives the required cuspidal eigenform, with its algebraic Tate normalization; equivalently, use quadratic automorphic induction (Jacquet and Langlands 1970, Proposition 12.1).
+In the scalar case the projective image is finite. After a finite extension of the base field, the representation is a scalar character on a two-dimensional space. Its two Hodge–Tate weights are equal, which is excluded. In the second case the action on the two lines gives a quadratic extension $L/\mathbb Q$ and $$r\simeq\mathop{\mathrm{Ind}}_{G_L}^{G_{\mathbb Q}}\theta$$ for a continuous character $\theta$. The character is de Rham and finitely ramified, hence is the $2$-adic avatar of an algebraic Hecke character, by the following rank-one consequence of Tate’s theorem and the construction in (Serre 1989, Chapter III, Sections 1.2 and 2.3). The integral algebraic exponents on open local units obey the global unit relation. Principal ideals in a suitable ray subgroup therefore receive the prescribed algebraic monomials. A positive power of each of finitely many ray-class representatives is principal in that subgroup, so its character value is algebraic. Adjoining these values places all ideal-character values in one number field and constructs the algebraic Hecke character. This argument does not assume that the given character was initially rational over a number field. If $L$ is real quadratic, its algebraic exponents at the two real embeddings are equal by the unit theorem: a unit of infinite order forces their difference to vanish in the algebraic character relation. This again contradicts regularity. For imaginary quadratic $L$, the theta-series construction gives the required cuspidal eigenform, with its algebraic Tate normalization; equivalently, use quadratic automorphic induction (Jacquet and Langlands 1970, Proposition 12.1).
 
 Finally, restriction to finite index preserves $H^\circ$. If a restriction of a non-virtually-solvable representation were reducible, its identity component would lie in a Borel subgroup and be solvable. This is impossible. ◻
 
@@ -197,7 +197,7 @@ Let $\rho_*:G\to\mathop{\mathrm{GL}}_2(K)$ be a continuous curve representation,
 *If a component of the original complete local ring has dimension $e$ and contains the curve, its enhanced completed localization has dimension $e$. At a characteristic-zero coefficient point the corresponding assertion uses the usual completion over its finite $2$-adic coefficient field, without adjoining $z$; a horizontal integral component of dimension $e$ then gives a completed local component of dimension $e-1$.*
 
 *Proof.* We first prove the integral-order assertion underlying the functorial claim. Let $C$ be one of the Artinian algebras, with maximal ideal $\mathfrak n$, $\mathfrak n^N=0$, and $\varpi^a C=0$. Write $$A_0=\mathop{\mathrm{im}}\bigl((\mathcal O/\varpi^a)[[z]]\longrightarrow C\bigr).$$ The inverse image of $k[[t]]$ under $C\to K$ is $A_0+\mathfrak n$. A bounded subset of this inverse image lies in a finite $A_0$-order: subtract coefficientwise lifts of its residual entries, choose a finite $A_0$-lattice $U\subset\mathfrak n$ containing the resulting bounded differences, and put $$\begin{equation}
-\label{eq:curve-order}
+\tag{1}
 B=A_0+U+U^2+\cdots+U^{N-1}.
 \end{equation}$$ Powers here mean finite module spans of products. Nilpotence makes $B$ an algebra finite over $A_0$. Its quotient by $B\cap\mathfrak n$ is $k[[t]]$, with nilpotent kernel. Hence $B$ is local with residue field $k$. The finite local ring $B/zB$ is Artinian, so a power of $\mathfrak m_B$ is contained in $zB$. Its maximal-ideal topology is therefore its finite-module topology; $B$ is complete and compact.
 
@@ -207,15 +207,15 @@ Universality gives a map $R\to B$. Adjoin $z$ using its coefficient value. Eleme
 
 For dimensions, adjoining $z$ increases a component dimension from $e$ to $e+1$, while the enhanced curve quotient has dimension one: the map on $k[[z]]$ is already onto $k[[t]]$. The dimension formula for complete equidimensional excellent local rings gives height $e$ at the enhanced prime. Localization and completion have dimension $e$; see also the dimension and catenarity facts in (The Stacks Project Authors 2026, Tags 00KW, 032C, 0ECF and 07NV). At a horizontal characteristic-zero coefficient point the integral quotient again has dimension one, but no new variable has been adjoined. Its height and completed dimension are therefore $e-1$. The deformation functor uses the usual $2$-adic topology. ◻
 
-The restriction to the inverse image of $k[[t]]$ in (eq:curve-order) is essential. For example, the bounded singleton $\{z^{-1}\}$ cannot lie in a finite order having integral residual image.
+The restriction to the inverse image of $k[[t]]$ in (1) is essential. For example, the bounded singleton $\{z^{-1}\}$ cannot lie in a finite order having integral residual image.
 
 For a representation $V$ over its coefficient field $L$, write $h^i(G,V)=\dim_L H^i_{\mathrm{cts}}(G,V)$, omitting $G$ when understood. For global $V$, write $h^i_v(V)=\dim_L H^i_{\mathrm{cts}}(G_{F_v},V)$. These are ordinary cohomology dimensions; at real places the duality pairings use Tate cohomology, as specified below.
 
 **Lemma 3.5** (Curve-field cohomology). *Let $V$ be a finite-dimensional continuous $K$-representation of a local Galois group or of $G_{F,S}$. Continuous cohomology is finite dimensional and satisfies local duality, local and global Euler characteristics, and Poitou–Tate duality with arbitrary linear local conditions. The twist in characteristic two is the residual Tate twist. At real places local duality uses Tate cohomology; the $h^0_v$ appearing in the Euler and Selmer formulas below still denotes the dimension of ordinary invariants. In particular, if $F$ is totally real of degree $d$ and $\dim_KV=r$, then $$\begin{align}
 h^0_v(V)-h^1_v(V)+h^2_v(V)&=-r[F_v:\mathbb Q_2]
-                       &&(v\mid2),\\
+                       &&(v\mid2), \tag{2}\\
 h^0(V)-h^1(V)+h^2(V)&=-rd+\sum_{v\mid\infty}h^0_v(V).
-\label{eq:global-euler-curve}
+\tag{3}
 \end{align}$$ At a real place the local contribution to a Selmer dimension difference is $\dim L_v-h^0_v(V)$, where $L_v\subset H^1(F_v,V)$. The same formulas, with the usual real-place interpretation, hold for finite $2$-adic coefficient fields.*
 
 *Proof.* Choose a stable $k[[t]]$-lattice $T\subset V$. Continuous cochains with values in $T$ are the inverse limit of the cochain complexes for $T/t^nT$. Finite-level cohomology is finite, so the derived inverse limits vanish and cohomology commutes with this inverse limit. The resulting compact cohomology modules are finite over $k[[t]]$: their quotients by $t$ inject into the appropriate finite-level cohomology group, and compact Nakayama applies. Every continuous cochain into $V$ has bounded image, since its domain is compact. Thus its cochain complex is obtained by inverting $t$, and the same is true of cohomology.
@@ -229,12 +229,12 @@ Curve completion has now identified the deformation functors, and the preceding 
 Put $D=\mathop{\mathrm{ad}}^0(\rho)$ for a fixed-determinant two-dimensional representation. Its dimension is three, also in characteristic two. Its dual there is $\mathop{\mathrm{ad}}(\rho)/\text{scalars}$, not in general $D$ itself.
 
 **Proposition 3.6** (Relative relation bounds). *Let $F$ be totally real of degree $d$, let $S$ contain the real and dyadic places, and let $\rho$ be a representation over a finite residue field, a curve field as above, or a finite $2$-adic field. Use one global frame and a fixed determinant. Let $T\subset S$ consist of all real places and $m$ dyadic places, each isomorphic to $\mathbb Q_2$. Over the completed product of the unrestricted local framed deformation rings at $T$, the global framed ring has a power-series presentation with $g$ relative variables and $r$ relations satisfying $$\begin{equation}
-\label{eq:relative-one-frame}
+\tag{4}
 g-r\ge 3-6m-h^0\bigl(D^\vee(1)\bigr).
 \end{equation}$$ Local quotient conditions and local line charts may then be imposed by base change without changing this bound. This includes replacing the local base by its reduction.*
 
 *For the variable-determinant problem with independent frames at the places of $S$, the relative tangent dimension over the local framed base is $$\begin{equation}
-\label{eq:relative-independent-frames}
+\tag{5}
 h^1_{\mathrm{Sel}}(\mathop{\mathrm{ad}}\rho)
  +\sum_{v\in S}h^0_v(\mathop{\mathrm{ad}}\rho)-h^0(\mathop{\mathrm{ad}}\rho),
 \end{equation}$$ where the Selmer condition is zero at $S$ and any other prescribed conditions are included in the Selmer group. On the absolutely irreducible locus, forgetting these independent frames has smooth fiber dimension $4|S|-1$.*
@@ -252,13 +252,13 @@ g-r
        \bigl(h^0_v-h^1_v+h^2_v\bigr)(D)
  -h^0(D^\vee(1))\\
 &=3(1-d-m)+3d-3m-h^0(D^\vee(1)).
-\end{align*}$$ For the last equality, the real terms in (eq:global-euler-curve) cancel the real local terms; the dyadic Euler characteristic is $-3$. This proves (eq:relative-one-frame) in both coefficient characteristics. Base change carries the same presentation to the extra local conditions.
+\end{align*}$$ For the last equality, the real terms in (3) cancel the real local terms; the dyadic Euler characteristic is $-3$. This proves (4) in both coefficient characteristics. Base change carries the same presentation to the extra local conditions.
 
-For independent frames, first choose a global cohomology class vanishing at the prescribed local places. Local choices of trivialization contribute the local invariant spaces, and a common global infinitesimal automorphism is quotiented out. This gives (eq:relative-independent-frames). If the global representation is absolutely irreducible, the common automorphisms are exactly the scalars; the quotient of the $|S|$ frame spaces therefore has dimension $4|S|-1$. ◻
+For independent frames, first choose a global cohomology class vanishing at the prescribed local places. Local choices of trivialization contribute the local invariant spaces, and a common global infinitesimal automorphism is quotiented out. This gives (5). If the global representation is absolutely irreducible, the common automorphisms are exactly the scalars; the quotient of the $|S|$ frame spaces therefore has dimension $4|S|-1$. ◻
 
 **Corollary 3.7** (A characteristic-zero line chart). *For a two-dimensional representation of $G_{\mathbb Q_2}$ over a finite $2$-adic field with a chosen invariant line and fixed determinant, every component of its framed line-deformation chart has dimension at least five. The odd fixed-determinant real chart has dimension two. In particular, over $\mathbb Q$, the relative bound for these two local charts is $-3$ whenever $h^0(D^\vee(1))=0$.*
 
-*Proof.* Hold the line fixed in an adapted basis. The coefficient Lie algebra is the trace-zero upper triangular algebra of dimension two. The local Euler formula gives $\dim Z^1-\dim H^2=4$, so the relation bound gives local dimension at least four. Moving the line adds one formal variable. At a real place the odd involution has two distinct eigenvalues in characteristic zero and its conjugacy orbit has dimension two. The final assertion is (eq:relative-one-frame) with $d=m=1$. ◻
+*Proof.* Hold the line fixed in an adapted basis. The coefficient Lie algebra is the trace-zero upper triangular algebra of dimension two. The local Euler formula gives $\dim Z^1-\dim H^2=4$, so the relation bound gives local dimension at least four. Moving the line adds one formal variable. At a real place the odd involution has two distinct eigenvalues in characteristic zero and its conjugacy orbit has dimension two. The final assertion is (4) with $d=m=1$. ◻
 
 ### Small pseudodeformation loci and control of inertia
 
@@ -270,7 +270,7 @@ Its map to pseudorepresentations has finite image algebra. Indeed the finitely m
 
 If the projective image is finite, each scalar in the representation has square fixed by its determinant. The determinant has finite image in the special fiber, so the scalar image, and hence the whole image, is finite. Its traces are algebraic over a finite field. An element of $k'[[t]]$ algebraic over a finite field is constant; its constant reduction is already prescribed. Thus these traces give exactly the residual pseudorepresentation.
 
-Finally, a reducible determinant is a pair of characters with fixed product, so one character determines the other. For an abelian totally real $F$, Brumer’s theorem on Leopoldt’s conjecture (Brumer 1967), in the form proved in (Fresnel 1968--1969, Theorem 1 and Proposition 8, pp. 9-08–9-09 and 9-14), gives free pro-$2$ character rank one. The same finite character-image argument therefore gives a closed locus of dimension at most one. ◻
+Finally, a reducible determinant is a pair of characters with fixed product, so one character determines the other. For an abelian totally real $F$, Brumer’s theorem on Leopoldt’s conjecture (Brumer 1967), in the form proved in (Fresnel 1968–1969, Theorem 1 and Proposition 8, pp. 9-08–9-09 and 9-14), gives free pro-$2$ character rank one. The same finite character-image argument therefore gives a closed locus of dimension at most one. ◻
 
 **Lemma 3.9** (Inertia and solvable base change). *Consider finitely many complete deformation or pseudodeformation families over finite-residue coefficient rings, and a finite set of places not above two. After a fixed finite local extension at each place, all their field-valued representations have unipotent inertia. For a characteristic-two curve in such a family whose determinant has finite image, imposing the residual value of a Frobenius trace makes the local image finite.*
 
@@ -280,7 +280,7 @@ Finally, a reducible determinant is a pair of characters with fixed product, so 
 
 In characteristic two a unipotent $2\times2$ matrix has square one. After these extensions the inertia image is therefore finite: it is generated by the image of the single pro-$2$ tame generator. The original inertia image is finite as well, since the inertia subgroup upstairs has finite index in the original one. Now use the Frobenius chosen in the original local group, whose trace is prescribed by the curve constraint. Its characteristic polynomial has coefficients in a finite field, since that trace is the residual constant and the determinant has finite image. Its eigenvalues have finite order, and its possible Jordan part has order at most two. This original Frobenius consequently has finite order. The full local image is an extension of the finite inertia image by the finite quotient generated by Frobenius, and is therefore finite.
 
-Every finite Galois group over a nonarchimedean local field is solvable: wild inertia is an $\ell$-group, and the successive tame inertia and residue quotients are cyclic. A composition tower therefore realizes each required local extension through cyclic prime-degree steps. At each step the prime-degree case of the Grunwald–Wang theorem (Milne 2020b, VIII, Theorem 2.4) prescribes the finitely many local extensions while imposing splitting at dyadic and real places. For degree two this is simply weak approximation for squareclasses; no higher-power Grunwald–Wang assertion is needed. Composita and Galois closure preserve solvability, total reality, and complete dyadic splitting. An unramified local extension of even degree makes an odd residue cardinality $1$ modulo $4$. The determinant’s finite non-dyadic inertia can be killed at the same time.
+Every finite Galois group over a nonarchimedean local field is solvable: wild inertia is an $\ell$-group, and the successive tame inertia and residue quotients are cyclic. A composition tower therefore realizes each required local extension through cyclic prime-degree steps. At each step the prime-degree case of the Grunwald–Wang theorem (Milne 2020b, Chapter VIII, Theorem 2.4) prescribes the finitely many local extensions while imposing splitting at dyadic and real places. For degree two this is simply weak approximation for squareclasses; no higher-power Grunwald–Wang assertion is needed. Composita and Galois closure preserve solvability, total reality, and complete dyadic splitting. An unramified local extension of even degree makes an odd residue cardinality $1$ modulo $4$. The determinant’s finite non-dyadic inertia can be killed at the same time.
 
 Finally, inertia in the enlarged field maps into inertia downstairs. A representation unramified at a place outside the original allowed set remains unramified after restriction, even if the field extension itself ramifies there. This proves the last assertion. ◻
 
@@ -291,13 +291,13 @@ The unipotent assertion may be carried to closures of restricted pseudorepresent
 We now define the local model independently of any patched global ring. Fix $d$ real factors and $d$ dyadic factors, the latter all over $\mathbb Q_2$. At each use the prescribed fixed determinant, odd at the real places. Start with integral residual bases over a common finite field, take the completed product of the framed local rings, and form its enhanced completion at any chosen curve as in Lemma 3.4. Denote the resulting $\mathcal L$-algebra by $A^{\mathrm{rd}}$.
 
 We enlarge $\mathcal O$ once so that it contains $i$ with $i^2=-1$. Choose $u$ odd residue cardinalities $q_j\equiv1\pmod4$, and $g\ge0$. Put $$A=A^{\mathrm{rd}}[[X_1,\ldots,X_g]].$$ For $\eta\in\{1,i\}$ define $B_\eta$ by adjoining at each of the $u$ places two formal invertible matrices $\tau_j,\phi_j$, both reducing to the identity at the curve, and imposing $$\begin{equation}
-\label{eq:tame-model}
+\tag{6}
 \mathop{\mathrm{tr}}\tau_j=\eta+\eta^{-1},\qquad
 \det\tau_j=1,\qquad
 \phi_j\tau_j\phi_j^{-1}=\tau_j^{q_j}.
 \end{equation}$$ There is no condition on $\det\phi_j$. This is the raw completed matrix quotient: we do not silently replace it by its reduction. At characteristic-zero field points the $i$-condition gives the two distinct inertia eigenvalues $i,-i$, whereas the $1$-condition makes inertia unipotent. Both $i$ and $-i$ reduce to one in characteristic two. The two conditions thus have identical special-fiber equations but different characteristic-zero component geometry, described below.
 
-**Proposition 3.10** (Local component geometry). *The ring $A^{\mathrm{rd}}$ is a flat complete-intersection normal domain over $\mathcal L$, of dimension $1+8d$, and its special fiber is a normal domain of dimension $8d$. Set $$e=1+8d+4u+g.$$ Then the following statements hold for the model (eq:tame-model).*
+**Proposition 3.10** (Local component geometry). *The ring $A^{\mathrm{rd}}$ is a flat complete-intersection normal domain over $\mathcal L$, of dimension $1+8d$, and its special fiber is a normal domain of dimension $8d$. Set $$e=1+8d+4u+g.$$ Then the following statements hold for the model (6).*
 
 1.  *$\mathop{\mathrm{Spec}}B_i$ is irreducible of dimension $e$, and its unique irreducible component is horizontal.*
 
@@ -317,22 +317,22 @@ Adjoining $z$, localizing at the enhanced curve, and completing preserve normali
 
 *The integral incidence for the $i$-type.* We prove the tame assertions using proper incidences, keeping their images distinct from the incidences themselves. In the $i$-case, Cayley–Hamilton gives $\tau_j^2=-1$, hence $\tau_j^{q_j}=\tau_j$. Adjoin a $\phi_j$-stable $i$-eigenline for each $\tau_j$. This gives a closed proper incidence $Y_i$ in a product of projective lines over $\mathop{\mathrm{Spec}}B_i$. In an adapted basis on a slope chart, its matrices are $$\tau_j=\begin{pmatrix}i&n_j\\0&-i\end{pmatrix},\qquad
 \phi_j=\begin{pmatrix}1+d_j+x_j&h_j\\0&1+d_j\end{pmatrix},$$ and their sole remaining equation is $$\begin{equation}
-\label{eq:i-incidence}
+\tag{7}
 x_jn_j=2i h_j.
 \end{equation}$$ The line slopes are free chart coordinates.
 
 Here is a completion argument which also works for all places at once. On a product of affine slope charts put $$C=\widehat{A[s_1,\ldots,s_u]}^{\,\mathfrak m_A}.$$ This is completion along the entire closed fiber, not at a selected slope origin. Restricted coefficient series embed it into $A[[s_1,\ldots,s_u]]$, so $C$ is a domain. Exactness of completion identifies $C/\varpi C$ with the corresponding restricted-series ring over $A/\varpi A$, also a domain. Completion of the incidence chart along that fiber is $$\begin{equation}
-\label{eq:i-incidence-completion}
+\tag{8}
 C[[x_j,n_j,h_j,d_j:1\le j\le u]]/
                   (x_jn_j-2ih_j)_{j=1}^u.
-\end{equation}$$ Reduce each monomial by replacing paired factors $x_jn_j$ by $2ih_j$ until they never occur together. Assign weights $1,1,2$ to $x_j,n_j,h_j$. Reduction preserves weight, so it converges in the power-series topology and yields a normal form. The difference between a monomial and its reduction is a sum of the relations (eq:i-incidence) times series whose weights are lower by two; these series converge as well. The substitution $$h_j\longmapsto x_jn_j/(2i)$$ embeds these normal forms into $\mathop{\mathrm{Frac}}(C)[[x_j,n_j,d_j:1\le j\le u]]$. Indeed the two output exponents recover the exponent of $h_j$ as their minimum, and each output coefficient receives only finitely many input terms. This proves uniqueness of the normal form and shows that (eq:i-incidence-completion) is a domain. This argument needs no uniform bound on denominators. It also shows that the successive relations are nonzerodivisors and gives dimension $\dim A+4u=e$ on the incidence.
+\end{equation}$$ Reduce each monomial by replacing paired factors $x_jn_j$ by $2ih_j$ until they never occur together. Assign weights $1,1,2$ to $x_j,n_j,h_j$. Reduction preserves weight, so it converges in the power-series topology and yields a normal form. The difference between a monomial and its reduction is a sum of the relations (7) times series whose weights are lower by two; these series converge as well. The substitution $$h_j\longmapsto x_jn_j/(2i)$$ embeds these normal forms into $\mathop{\mathrm{Frac}}(C)[[x_j,n_j,d_j:1\le j\le u]]$. Indeed the two output exponents recover the exponent of $h_j$ as their minimum, and each output coefficient receives only finitely many input terms. This proves uniqueness of the normal form and shows that (8) is a domain. This argument needs no uniform bound on denominators. It also shows that the successive relations are nonzerodivisors and gives dimension $\dim A+4u=e$ on the incidence.
 
 We explain why chart completions suffice. At every point of the closed fiber, localization of the chart maps faithfully flatly to a localization of its completed chart. The latter is a domain, so the incidence is locally integral there. Every irreducible component of a proper scheme over a local base meets the closed fiber; so does any nonempty closed intersection of components. Local integrality therefore makes the components disjoint. The closed fiber is $(\mathbf P^1_K)^u$, which is connected, hence there is only one component. A nonempty nilradical support would also meet the closed fiber, so the incidence is reduced. Thus $Y_i$ is integral.
 
 After inverting two the eigenline is uniquely given by the idempotent $(\tau_j+i)/(2i)$, and the incidence projection is an isomorphism. In characteristic two, commuting matrices have a common eigenline after algebraic extension, so the proper projection covers every geometric point as well. Its image is therefore all of $\mathop{\mathrm{Spec}}B_i$ set-theoretically. The integral incidence is horizontal and generically finite over that image. This proves assertion (1). It does not assert that the raw ring $B_i$ is reduced.
 
 *The horizontal unipotent patterns.* For $\eta=1$, write $N_j=\tau_j-1$. The equations give $N_j^2=0$ and $\phi_jN_j=q_jN_j\phi_j$. At a field point either $N_j=0$, or its kernel and image are the same line. The first alternative is the unramified factor, with $\phi_j$ unrestricted. For the closure of the second alternative use the proper line incidence with adapted matrices $$\begin{equation}
-\label{eq:unipotent-incidence}
+\tag{9}
 \tau_j=\begin{pmatrix}1&n_j\\0&1\end{pmatrix},\qquad
 \phi_j=\begin{pmatrix}q_j(1+d_j)&h_j\\0&1+d_j\end{pmatrix}.
 \end{equation}$$ At a nonzero $N_j$ the relation forces exactly this diagonal ratio. Its chart has three formal matrix coordinates and one slope.
@@ -341,7 +341,7 @@ Choose either alternative at each place. The resulting proper incidence has free
 
 *Specialization and uniqueness of the containing component.* The dimension calculation alone is not enough for support transfer: we must know exactly which horizontal component contains each generic special-fiber point. It remains to identify their specializations and distinguish them. The two raw presentations reduce to the same one modulo $\varpi$, since $i\equiv1$ and $q_j$ is odd. At one place write $$\tau=\begin{pmatrix}1+a&b\\c&1+a\end{pmatrix},\qquad
 \phi=\begin{pmatrix}1+d&e'\\f&1+g'\end{pmatrix}.$$ The common special matrix factor is $$\begin{equation}
-\label{eq:tame-special-ring}
+\tag{10}
 K[[a,b,c,d,e',f,g']]/
  (a^2+bc,\ b(d+g'),\ c(d+g'),\ bf+ce').
 \end{equation}$$ Its two reduced components are $$U:\ a=b=c=0,
@@ -352,7 +352,7 @@ For several places over $A/\varpi A$, the polynomial products of the chosen $U$ 
 
 The patterns are distinct. On the generic ramified special piece $\tau_j\ne1$, whereas every unramified piece has $\tau_j=1$. On the generic unramified piece $\mathop{\mathrm{tr}}\phi_j\ne0$, whereas every ramified special piece has $\mathop{\mathrm{tr}}\phi_j=0$. Thus no horizontal image contains the generic special point of a different pattern. The images already cover the raw spectrum, proving assertions (2) and (3), including uniqueness of the horizontal component through each special-fiber generic point. ◻
 
-*Remark 3.11*. The common raw special fiber need not be reduced. In (eq:tame-special-ring), the element $a(d+g')$ can be nonzero with square zero. The proper incidence is also not a normalization: over $\tau=\phi=1$ its fiber contains $\mathbf P^1$. Our conclusions concern precisely the spectra, components, and universal matrix actions required for support propagation, and do not make either of these stronger assertions.
+*Remark 3.11*. The common raw special fiber need not be reduced. In (10), the element $a(d+g')$ can be nonzero with square zero. The proper incidence is also not a normalization: over $\tau=\phi=1$ its fiber contains $\mathbf P^1$. Our conclusions concern precisely the spectra, components, and universal matrix actions required for support propagation, and do not make either of these stronger assertions.
 
 ### Several marked scalar places
 
@@ -363,26 +363,26 @@ The marked local condition used in connectedness is different from the unrestric
 *Proof.* Move a marked line in its one-dimensional formal chart and choose the corresponding adapted basis. After the scalar twist, the diagonal entries are characters $\lambda,\lambda^{-1}$ congruent to one. Their reduced character ring is $$C_0=k[[x,y]].$$ Indeed $\mathbb Q_2^\times$ has maximal pro-$2$ quotient $\mathbb Z/2\mathbb Z\times\mathbb Z_2^2$, and the first factor contributes only a nilpotent character parameter in characteristic two.
 
 The maximal pro-$2$ Galois group of $\mathbb Q_2$ has three generators and one relation. The odd-degree dyadic case was established by Serre (Serre 1964, sec. 4.4 and 8); in Labute’s classification, the $q=2$, odd-local-degree case gives generators with relation $g_1^2g_2^4[g_2,g_3]=1$ (Labute 1967, sec. 5, Theorem 8). If $b(g)$ is the upper-right entry of the triangular matrix with diagonal entries $\lambda(g),\lambda(g)^{-1}$, put $c(g)=\lambda(g)b(g)$. Matrix multiplication gives the left-cocycle identity $$c(gh)=c(g)+\lambda(g)^2c(h).$$ Its values $u_j=c(g_j)$ satisfy one homogeneous linear equation $$\begin{equation}
-\label{eq:marked-cocycle}
+\tag{11}
 a_1(x,y)u_1+a_2(x,y)u_2+a_3(x,y)u_3=0.
 \end{equation}$$ All these deformations factor through the maximal pro-$2$ quotient: their reduction is the identity and their finite coefficient quotients have pro-$2$ congruence image. Thus this presentation does describe the complete triangular deformation ring after the diagonal reduction, rather than just a subfunctor of it.
 
 Write $B=1+x=\lambda(g_2)$ and $C=1+y=\lambda(g_3)$. The reduced diagonal relation gives $\lambda(g_1)=B^{-2}$. Using $[g_2,g_3]=g_2^{-1}g_3^{-1}g_2g_3$ and this left-cocycle identity, direct substitution gives $$(a_1,a_2,a_3)=
  \left(\frac{x^4}{B^4},\;
        \frac{x^6}{B^8}+\frac{y^2}{B^2C^2},\;
-       \frac{x^2}{B^2C^2}\right).$$ Multiply (eq:marked-cocycle) by the unit $B^2C^2$ and set $$v=u_3+\frac{x^2C^2}{B^2}u_1+\frac{x^4C^2}{B^6}u_2.$$ This triangular formal change of variables transforms the relation into $x^2v+y^2u_2=0$. Thus the coefficient ideal is exactly $(x^2,y^2)$ and its radical is $(x,y)$; the ideal itself is not radical.
+       \frac{x^2}{B^2C^2}\right).$$ Multiply (11) by the unit $B^2C^2$ and set $$v=u_3+\frac{x^2C^2}{B^2}u_1+\frac{x^4C^2}{B^6}u_2.$$ This triangular formal change of variables transforms the relation into $x^2v+y^2u_2=0$. Thus the coefficient ideal is exactly $(x^2,y^2)$ and its radical is $(x,y)$; the ideal itself is not radical.
 
 Let $A_\infty$ be the completed real special-fiber product. The real calculation in Proposition 3.10 makes it an excellent Cohen–Macaulay domain of dimension $2d$. Adjoin the independent pairs $x_j,y_j$ and the line variables $s_j$, obtaining $$A_0=A_\infty[[x_j,y_j,s_j:1\le j\le m]].$$ Before completing the upper entries, form the graded algebra $$\begin{equation}
-\label{eq:marked-polynomial-product}
+\tag{12}
 P=A_0[u_{jr}:1\le j\le m,\ 1\le r\le3]/(f_1,\ldots,f_m),
-\end{equation}$$ where each $f_j$ is the corresponding relation (eq:marked-cocycle). The coefficients of $f_j$ involve only $x_j,y_j$ and have common-zero locus $(x_j,y_j)$.
+\end{equation}$$ where each $f_j$ is the corresponding relation (11). The coefficients of $f_j$ involve only $x_j,y_j$ and have common-zero locus $(x_j,y_j)$.
 
 On a base stratum where exactly $r$ coefficient rows vanish, the base loses $2r$ dimensions and the upper-entry fiber gains only $r$ dimensions. Thus the corresponding locus in $\mathop{\mathrm{Spec}}P$ has dimension at most $$\dim A_0+2m-r.$$ Every minimal prime of the homogeneous relation ideal is homogeneous and is contained in $(\mathfrak m_{A_0},u_{jr})$. In that excellent equidimensional local ambient ring, the height theorem for the $m$ equations makes every component have dimension at least $\dim A_0+2m$. No component can therefore lie over a nonempty rank-drop stratum. Where all coefficient rows are nonzero, the quotient is a vector bundle of rank $2m$ over an integral base. There is consequently only one component, generically reduced.
 
 The same argument for every initial subset of the equations shows that their heights are the expected ones. They form a regular sequence in the Cohen–Macaulay ambient ring. The quotient has no embedded associated primes, and generic reducedness now proves that $P$ is a domain.
 
 Finally, each homogeneous piece $P_n$ is a finite, torsion-free $A_0$-module. Over $F_0=\mathop{\mathrm{Frac}}(A_0)$ the $m$ independent linear relations eliminate one upper-entry variable in each triple, so $$\prod_{n\ge0}P_n
- \lhook\joinrel\longrightarrow
+ \hookrightarrow
 \prod_{n\ge0}(P_n\otimes_{A_0}F_0)
  \simeq F_0[[v_1,\ldots,v_{2m}]]$$ is an embedding of rings. Since $A_0$ and its finite modules are complete, the left side is precisely the completed local product in question. It is a domain, of dimension $\dim A_0+2m=2d+5m$. It is also a complete intersection by the regular sequence already exhibited.
 
@@ -459,7 +459,7 @@ For an ordinary parameter with cyclotomic exponents $a>b$, the algebraic factor 
 
 A map from such a classical constituent into completed forms extends continuously from its universal unitary completion. After scaling lattices, it is a bounded map in the compact block category. Naturality of the center then identifies the central trace action on its image with the Galois parameter given by classical local-global compatibility. The normalizations give $\rho\otimes\varepsilon$, as stipulated above. The dense classical span proves equality of the two actions on the whole Banach space. Torsion-freeness of the integral lattice gives integral equality and shows that every other block projection vanishes.
 
-*Integral finiteness and coefficient fibers.* It follows from integral Paškūnas–Tung finiteness that $L$ is finite over $R_{\mathrm{loc}}^{\mathrm{ps}}$. Exactness and the equivalence imply that the action of $\mathbb T$ on $L$ is faithful. The same finite generators generate $L$ over $\mathbb T$. Moreover, $$\mathbb T\lhook\joinrel\longrightarrow
+*Integral finiteness and coefficient fibers.* It follows from integral Paškūnas–Tung finiteness that $L$ is finite over $R_{\mathrm{loc}}^{\mathrm{ps}}$. Exactness and the equivalence imply that the action of $\mathbb T$ on $L$ is faithful. The same finite generators generate $L$ over $\mathbb T$. Moreover, $$\mathbb T\hookrightarrow
  \mathop{\mathrm{End}}_{R_{\mathrm{loc}}^{\mathrm{ps}}}(L);$$ the right side is finite over the noetherian local base. Thus $\mathbb T$ is finite over that base.
 
 At $x$, the quotient of $L[1/2]$ by the Hecke maximal ideal is nonzero and finite-dimensional. Select a simple quotient after a finite coefficient extension. The commuting images of the factor endomorphism rings generate a finite-dimensional algebra. Their radicals kill the simple quotient; their central idempotents select semisimple factors; after splitting those factors, the quotient is a tensor product of simple modules for matrix algebras. The original integral actions preserve a lattice. All full finite lattices in this quotient are commensurable. Under the inverse compact equivalence, the tensor lattice corresponds to the completed tensor product of the individual Banach lattices. Dualizing the quotient therefore embeds the asserted Banach tensor product in the eigenspace.
@@ -519,7 +519,7 @@ Finally, adding a coefficient variable preserves flatness by the complete-module
 
 **Lemma 4.6**. *Let $F'/F$ be a solvable totally real Galois extension split completely at $2$. The restriction to $F'$ of a pro-modular trace locus over $F$ is pro-modular over $F'$, at one common tame level for the whole restricted locus. If all its bad inertial types are killed, this level can be taken Iwahori at the bad non-dyadic primes and hyperspecial elsewhere away from $2$. For a general solvable totally real extension split completely at $2$, the restricted locus is potentially pro-modular.*
 
-*Proof.* First suppose that $F'/F$ is Galois. Transfer the dense classical points by solvable base change, iterated through prime-degree cyclic extensions (Arthur and Clozel 1989, III, Theorems 4.2 and 5.1); for the original $\mathop{\mathrm{GL}}_2$ construction see (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4). Apply the unitary formulation after a norm twist when necessary, then undo the twist. Use Jacquet–Langlands (Jacquet and Langlands 1970, Theorems 14.4 and 16.1). A regular cuspidal packet stays cuspidal along each prime-degree cyclic step: a loss of cuspidality would make it induced from a character of a totally real quadratic field, whose parallel algebraic exponents contradict regularity. Local-global compatibility and the uniform inertia control of Lemma 3.9 bound the conductors at a fixed finite set of places. The wild kernel is common and the rank is two, so the possible tame monodromy contribution is uniformly bounded. Thus a single tame level contains every transferred packet.
+*Proof.* First suppose that $F'/F$ is Galois. Transfer the dense classical points by solvable base change, iterated through prime-degree cyclic extensions (Arthur and Clozel 1989, Chapter III, Theorems 4.2 and 5.1); for the original $\mathop{\mathrm{GL}}_2$ construction see (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4). Apply the unitary formulation after a norm twist when necessary, then undo the twist. Use Jacquet–Langlands (Jacquet and Langlands 1970, Theorems 14.4 and 16.1). A regular cuspidal packet stays cuspidal along each prime-degree cyclic step: a loss of cuspidality would make it induced from a character of a totally real quadratic field, whose parallel algebraic exponents contradict regularity. Local-global compatibility and the uniform inertia control of Lemma 3.9 bound the conductors at a fixed finite set of places. The wild kernel is common and the rank is two, so the possible tame monodromy contribution is uniformly bounded. Thus a single tame level contains every transferred packet.
 
 Their trace closure contains the restricted locus by density and continuity. Thus this locus is pro-modular over the specified field $F'$, at the common tame level just chosen. After the inertial types are killed, only unramified principal or special local factors remain at a bad non-dyadic prime, both with Iwahori invariants. The stated level follows.
 
@@ -554,12 +554,12 @@ For a set $Q_n$ of auxiliary primes, let $R_{\eta,n}$ be the $S$-framed global r
 2.  *its $\rho_*$-Frobenius is regular semisimple, with both eigenvalues in one fixed finite extension of $K$;*
 
 3.  *there are surjections $$\begin{equation}
-    \label{eq:patching-presentation}
+    \tag{13}
      B_\eta:=R_{\mathrm{loc},\eta}[[X_1,\ldots,X_g]]
      \twoheadrightarrow R_{\eta,n},\qquad g=2h+1.
     \end{equation}$$*
 
-*The two sets of maps in (eq:patching-presentation), for $\eta=1,i$, can be chosen to agree modulo $\varpi$. For each $\eta$, their composites with $R_{\eta,n}\twoheadrightarrow R_\eta$ can also be chosen independently of $n$.*
+*The two sets of maps in (13), for $\eta=1,i$, can be chosen to agree modulo $\varpi$. For each $\eta$, their composites with $R_{\eta,n}\twoheadrightarrow R_\eta$ can also be chosen independently of $n$.*
 
 *Proof.* Put $M=\mathop{\mathrm{ad}}\rho_*$. The pairing $(A,B)\mapsto\mathop{\mathrm{tr}}(AB)$ on $M_2(K)$ is perfect also in characteristic two. Thus the dual coefficient module is again $M$: the mod-two cyclotomic twist is trivial. The relative Selmer condition is zero at $S$ and full at $Q_n$. The dual condition therefore consists of classes unramified outside $S$ whose localizations at $Q_n$ vanish.
 
@@ -593,7 +593,7 @@ Choose a basis of the old space $Q_\eta$ with fixed representatives $r_{\eta,1},
 
 These choices can have identical reductions for $\eta=1,i$. First choose the lifts and the kernel-complement elements in the common special-fiber diagram. Lift an element arbitrarily to $R_{\eta,n}$. If its image in $R_\eta$ differs from the required fixed old value by $\varpi a$, subtract $\varpi$ times any preimage of $a$ in $R_{\eta,n}$. This preserves the chosen special-fiber reduction and makes the old image exact. For a kernel-complement element the required old image is zero. No flatness of the old global ring over the coefficient DVR is used.
 
-Complete relative Nakayama now gives (eq:patching-presentation). Every composite to $R_\eta$ sends the first $q$ variables to the fixed $r_{\eta,j}$ and all remaining variables to zero, independently of $n$. The two presentations still agree modulo $\varpi$. The variable count, and hence every later ambient dimension, is unchanged. ◻
+Complete relative Nakayama now gives (13). Every composite to $R_\eta$ sends the first $q$ variables to the fixed $r_{\eta,j}$ and all remaining variables to zero, independently of $n$. The two presentations still agree modulo $\varpi$. The variable count, and hence every later ambient dimension, is unchanged. ◻
 
 **Lemma 5.3** (Rank of auxiliary character twists). *Increase $h$ so that $b=h-2d+2>0$. There are quotients $$A_n=(\mathbb Z/2^{a_n}\mathbb Z)^b,\qquad a_n\longrightarrow\infty,$$ of the ray class groups defining characters trivial at every dyadic and real place and unramified outside $Q_n$. At $Q_n$ they use only the residue-unit quotients of order $2^n$.*
 
@@ -605,10 +605,10 @@ Complete relative Nakayama now gives (eq:patching-presentation). Every composite
 The resulting $b=h-2d+2$ character parameters will supply the support dimensions missing from the fixed-determinant estimate. Their vanishing at the old local conditions is what permits twisting without changing those conditions. Let $H_n$ denote the formal character group of $A_n$, completed at the trivial character and $\varpi$. Its coordinate ring is $$\mathcal L[[l_1,\ldots,l_b]]/
  \bigl((1+l_j)^{2^{a_n}}-1:1\leq j\leq b\bigr).$$ Its tautological Galois character will be denoted $\theta_n$. Twisting a fixed-determinant representation by $\theta_n$ preserves the prescribed determinants at the dyadic and real places and on bad inertia. It therefore defines a map from the variable global problem to the fixed global problem with these character parameters.
 
-The local product $R_{\mathrm{loc},\eta}$ in (eq:patching-presentation) is obtained from the enhanced real–dyadic base $A^{\mathrm{rd}}$ of Proposition 3.10 by adjoining the $u$ raw tame factors of (eq:tame-model), with $\det\phi_j$ unrestricted. Adjoining the $g=2h+1$ presentation variables gives the rings $B_\eta$ of that proposition. They therefore have dimension $$\begin{equation}
-\label{eq:patching-ambient-dimension}
+The local product $R_{\mathrm{loc},\eta}$ in (13) is obtained from the enhanced real–dyadic base $A^{\mathrm{rd}}$ of Proposition 3.10 by adjoining the $u$ raw tame factors of (6), with $\det\phi_j$ unrestricted. Adjoining the $g=2h+1$ presentation variables gives the rings $B_\eta$ of that proposition. They therefore have dimension $$\begin{equation}
+\tag{14}
  e=1+8d+4u+g=8d+4u+2h+2.
-\end{equation}$$ Their special fibers are identified. The underlying spectrum of $B_i$ is irreducible and nonvertical. All components of $B_1$ are horizontal of dimension $e$, and correspond bijectively to the top-dimensional components of its special fiber, of dimension $e-1$. The generic point of each such special-fiber component lies on just its corresponding component of $B_1$. These precise component assertions, and not only the dimension in (eq:patching-ambient-dimension), will be used below.
+\end{equation}$$ Their special fibers are identified. The underlying spectrum of $B_i$ is irreducible and nonvertical. All components of $B_1$ are horizontal of dimension $e$, and correspond bijectively to the top-dimensional components of its special fiber, of dimension $e-1$. The generic point of each such special-fiber component lies on just its corresponding component of $B_1$. These precise component assertions, and not only the dimension in (14), will be used below.
 
 ### The modules and their finite-level actions
 
@@ -616,17 +616,17 @@ Let $N_{\eta,n}$ be the block module of completed forms at the auxiliary ratio l
 
 Choose the quotient of the diamond group $\Delta_n=(\mathbb Z/2^n\mathbb Z)^h$, with generators $U_1,\ldots,U_h$, and write $V_j=U_j-1$. Lemma 4.5 gives $$\begin{align}
  &N_{\eta,n}\text{ is flat over }\mathcal L[\Delta_n],
-                                                        \label{eq:auxiliary-flatness}\\
+                                                        \tag{15}\\
  &N_{\eta,n}/(V_1,\ldots,V_h)N_{\eta,n}
-       \simeq N_\eta^{\oplus 2^h},                       \label{eq:old-level-action}\\
+       \simeq N_\eta^{\oplus 2^h},                       \tag{16}\\
  &\overline N:=N_1/\varpi N_1\simeq N_i/\varpi N_i\ne0,
- \qquad \dim\mathop{\mathrm{Supp}}\overline N\geq 2d+4s-1.             \label{eq:old-residue-dimension}
-\end{align}$$ The isomorphism (eq:old-level-action) is an isomorphism of $R_{\eta,n}$-modules through $R_{\eta,n}\twoheadrightarrow R_\eta$. In particular, it identifies the actual Galois-ring actions. The $n$-level modules and their ring and diamond actions for the two values of $\eta$ likewise agree modulo $\varpi$.
+ \qquad \dim\mathop{\mathrm{Supp}}\overline N\geq 2d+4s-1.             \tag{17}
+\end{align}$$ The isomorphism (16) is an isomorphism of $R_{\eta,n}$-modules through $R_{\eta,n}\twoheadrightarrow R_\eta$. In particular, it identifies the actual Galois-ring actions. The $n$-level modules and their ring and diamond actions for the two values of $\eta$ likewise agree modulo $\varpi$.
 
-We recall why the operations just performed preserve the assertions. Flatness over $\mathcal O[\Delta_n]$ holds in the definite function-space model and passes through the exact block functor. The $z$-adic flatness criterion applies after adjoining $z$, and base change from $\mathcal O[[z]]$ to $\mathcal L$ preserves flatness. The subsequent localizations, noetherian completions, and smooth frame extensions are flat maps of the commuting deformation rings. Tensoring a finite-ideal flatness test over $\mathcal L[\Delta_n]$ with these flat extensions preserves injectivity, proving (eq:auxiliary-flatness) after all the stated operations. The degeneracy maps giving (eq:old-level-action) are Hecke equivariant. At the regular Frobenius curve their composite is invertible, and the special contribution is absent. The augmented Galois action is consequently unramified at $Q_n$ and factors through the old quotient; the classical comparison identifies it with the old action. Finally, Proposition 4.4 gives dimension at least $1+2d$ on each Hecke component. Enhanced completion preserves this dimension, independent $S$-frames add $4s-1$, and reduction by $\varpi$ loses at most one. This proves the bound in (eq:old-residue-dimension). Nonvanishing follows from the pro-modular curve and the faithfulness of the old block module.
+We recall why the operations just performed preserve the assertions. Flatness over $\mathcal O[\Delta_n]$ holds in the definite function-space model and passes through the exact block functor. The $z$-adic flatness criterion applies after adjoining $z$, and base change from $\mathcal O[[z]]$ to $\mathcal L$ preserves flatness. The subsequent localizations, noetherian completions, and smooth frame extensions are flat maps of the commuting deformation rings. Tensoring a finite-ideal flatness test over $\mathcal L[\Delta_n]$ with these flat extensions preserves injectivity, proving (15) after all the stated operations. The degeneracy maps giving (16) are Hecke equivariant. At the regular Frobenius curve their composite is invertible, and the special contribution is absent. The augmented Galois action is consequently unramified at $Q_n$ and factors through the old quotient; the classical comparison identifies it with the old action. Finally, Proposition 4.4 gives dimension at least $1+2d$ on each Hecke component. Enhanced completion preserves this dimension, independent $S$-frames add $4s-1$, and reduction by $\varpi$ loses at most one. This proves the bound in (17). Nonvanishing follows from the pro-modular curve and the faithfulness of the old block module.
 
 For chosen tame inertia elements $\tau_{j,n}$ at the auxiliary primes, the commuting diamond actions also satisfy $$\begin{equation}
-\label{eq:diamond-quadratic}
+\tag{18}
  U_j^2-T(\tau_{j,n})U_j+1=0.
 \end{equation}$$ Here $T$ denotes the trace of the Galois deformation acting on the module. This is an identity of operators, as supplied by Lemma 4.5.
 
@@ -644,7 +644,7 @@ Fix a nonprincipal ultrafilter $\mathfrak U$ on the positive integers. For a fix
 
 3.  *Let $(D,\mathfrak a)$ be a fixed noetherian local ring and $C$ a fixed finite $D$-module. For arbitrary finite-module extensions $$0\longrightarrow P_n\longrightarrow H_n\longrightarrow C
      \longrightarrow0$$ there is a constant $c$, independent of the extension, such that $$\begin{equation}
-    \label{eq:uniform-artin-rees}
+    \tag{19}
      P_n\cap\mathfrak a^jH_n\subseteq\mathfrak a^{j-c}P_n
      \quad(j\geq c).
     \end{equation}$$ Thus a filtration of fixed length with fixed successive quotients patches exactly whenever its ambient jet filtration is uniformly cofinal with the $\mathfrak a$-adic filtrations on its pieces.*
@@ -658,46 +658,46 @@ Suppose next that $B$ is a domain and is not a field. Choose a discrete valuatio
 For the varying construction, choose a uniform number of generators at each level. Each jet ultraproduct is then a quotient of a fixed finite free module over the corresponding jet of $B^*$ and has finite length. Images of kernels at any fixed depth form a descending chain in a finite-length module, hence stabilize. The Mittag–Leffler argument gives surjectivity on inverse limits and a finite generating set over $B^*$. The same argument applied to a right-exact sequence proves the cokernel assertion. This does not assert exactness for arbitrary varying submodules.
 
 For the uniform assertion, choose one finite free presentation $F\twoheadrightarrow C$, with kernel $L$, and lift it to $f_n:F\to H_n$. Then $H_n=P_n+f_n(F)$. If $x\in P_n\cap\mathfrak a^jH_n$, write $$x=p+f_n(y),\qquad p\in\mathfrak a^jP_n,
- \quad y\in\mathfrak a^jF.$$ Since $x$ maps to zero in $C$, we have $y\in L$. Artin–Rees for the one fixed inclusion $L\subset F$ gives $y\in\mathfrak a^{j-c}L$, with $c$ independent of $n$. As $f_n(L)\subset P_n$, this proves (eq:uniform-artin-rees). Applying this successively to the fixed quotients of a finite filtration gives uniform strictness for each inclusion. Uniform cofinality transfers these bounds to the ambient jets, proving the final statement. ◻
+ \quad y\in\mathfrak a^jF.$$ Since $x$ maps to zero in $C$, we have $y\in L$. Artin–Rees for the one fixed inclusion $L\subset F$ gives $y\in\mathfrak a^{j-c}L$, with $c$ independent of $n$. As $f_n(L)\subset P_n$, this proves (19). Applying this successively to the fixed quotients of a finite filtration gives uniform strictness for each inclusion. Uniform cofinality transfers these bounds to the ambient jets, proving the final statement. ◻
 
 We now use the jet lemma in three specific ways: scalar extension of fixed modules, bounded-generation patching of the auxiliary modules, and uniform strictness of filtrations with fixed old quotients. It is the fixed quotient in the third assertion, not arbitrary varying-module exactness, that preserves the regular sequence below.
 
-The domain assertion in Lemma 5.4 can be applied to each quotient by a minimal prime. Exactness and nilpotence of the nilradical then show that a fixed finite list of irreducible components is preserved by starring. The same applies to the special fiber and to inclusions between its components and the ambient components. In particular all the geometric assertions following (eq:patching-ambient-dimension) remain valid for $B_\eta^*$. This observation does not require $B_i$ itself to be reduced.
+The domain assertion in Lemma 5.4 can be applied to each quotient by a minimal prime. Exactness and nilpotence of the nilradical then show that a fixed finite list of irreducible components is preserved by starring. The same applies to the special fiber and to inclusions between its components and the ambient components. In particular all the geometric assertions following (14) remain valid for $B_\eta^*$. This observation does not require $B_i$ itself to be reduced.
 
-Apply the construction to the surjections $B_\eta\twoheadrightarrow R_{\eta,n}$ and their fixed-determinant quotients. The module generator numbers are uniformly bounded. Indeed modulo the maximal ideal of $R_{\eta,n}$, (eq:diamond-quadratic) gives $V_j^2=0$. The quotient by all the $V_j$ is the fixed old module in (eq:old-level-action). The monomials $V_1^{e_1}\cdots V_h^{e_h}$ with $0\leq e_j\leq1$ therefore give a uniform bound, and Nakayama supplies the required generators. We obtain finite $N_{\eta,\infty}$ and surjections $$B_\eta^*\twoheadrightarrow R_{\eta,\infty}
+Apply the construction to the surjections $B_\eta\twoheadrightarrow R_{\eta,n}$ and their fixed-determinant quotients. The module generator numbers are uniformly bounded. Indeed modulo the maximal ideal of $R_{\eta,n}$, (18) gives $V_j^2=0$. The quotient by all the $V_j$ is the fixed old module in (16). The monomials $V_1^{e_1}\cdots V_h^{e_h}$ with $0\leq e_j\leq1$ therefore give a uniform bound, and Nakayama supplies the required generators. We obtain finite $N_{\eta,\infty}$ and surjections $$B_\eta^*\twoheadrightarrow R_{\eta,\infty}
  \twoheadrightarrow R_{\eta,\infty}^f
- \twoheadrightarrow(R_\eta^f)^*.$$ The commuting $U_j$ patch as well. They satisfy the patched versions of (eq:diamond-quadratic); the joint action algebra is consequently module finite over $R_{\eta,\infty}$. Modulo its original maximal ideal all the $V_j$ are nilpotent, so adjoining their actions does not change the complete separated module topology.
+ \twoheadrightarrow(R_\eta^f)^*.$$ The commuting $U_j$ patch as well. They satisfy the patched versions of (18); the joint action algebra is consequently module finite over $R_{\eta,\infty}$. Modulo its original maximal ideal all the $V_j$ are nilpotent, so adjoining their actions does not change the complete separated module topology.
 
 **Proposition 5.5** (The patched regular sequence). *On $N_{\eta,\infty}$ the sequence $\varpi,V_1,\ldots,V_h$ is regular. Moreover $$\begin{align}
  \dim\mathop{\mathrm{Supp}}_{R_{\eta,\infty}}N_{\eta,\infty}
-       &\geq2d+4s+h,                                  \label{eq:patched-dimension}\\
+       &\geq2d+4s+h,                                  \tag{20}\\
  N_{\eta,\infty}/(V_1,\ldots,V_h)N_{\eta,\infty}
-       &\simeq (N_\eta^{\oplus2^h})^*.                \label{eq:patched-augmentation}
+       &\simeq (N_\eta^{\oplus2^h})^*.                \tag{21}
 \end{align}$$*
 
 *Proof.* *Polynomial layers with a fixed old action.* Fix $\eta$, and write $\mathfrak m$ for the maximal ideal of $B_\eta$. The presentations of Lemma 5.2 give surjections $B_\eta\to R_{\eta,n}$ whose composites to $R_\eta$ are independent of $n$. Regard $$C=\overline N^{\oplus2^h}$$ as a fixed finite $B_\eta$-module through this common composite. Let $J=(\varpi,V_1,\ldots,V_h)$ denote the ideal of commuting operators on the auxiliary modules and on their patched limit.
 
-Fix a truncation length $r$. For all sufficiently large $n$, the relations $(1+V_j)^{2^n}-1$ have $J$-order greater than $r$. Flatness in (eq:auxiliary-flatness), together with the actual old-action identification (eq:old-level-action), gives multiplication isomorphisms $$\begin{equation}
-\label{eq:finite-polynomial-layers}
+Fix a truncation length $r$. For all sufficiently large $n$, the relations $(1+V_j)^{2^n}-1$ have $J$-order greater than $r$. Flatness in (15), together with the actual old-action identification (16), gives multiplication isomorphisms $$\begin{equation}
+\tag{22}
  \operatorname{gr}_J^{<r} N_{\eta,n}
    \simeq C\otimes_K K[T_0,T_1,\ldots,T_h]_{<r},
 \end{equation}$$ where $T_0,T_j$ represent $\varpi,V_j$. These are isomorphisms of $B_\eta$-modules. Indeed the Galois action commutes with the $J$-operators, so its action on each layer is obtained from its action on $N_{\eta,n}/JN_{\eta,n}=C$. The fixed old composite therefore makes every degree a fixed finite direct sum of $C$. Only the extensions joining these layers vary with $n$.
 
-*Exactness at each fixed truncation length.* Put $H_n=N_{\eta,n}/J^rN_{\eta,n}$ and $F_j=J^jH_n$ for $0\leq j\leq r$. All these modules are finite over $B_\eta$. Their successive quotients are the fixed modules in (eq:finite-polynomial-layers), so their numbers of generators are bounded independently of $n$ for this fixed $r$. If $\mathfrak q_n$ is the maximal ideal of $R_{\eta,n}$, the surjection from $B_\eta$ gives $$\mathfrak m R_{\eta,n}=\mathfrak q_n.$$ Thus the $\mathfrak m$-adic filtrations are precisely the maximal-ideal filtrations used for patching these modules.
+*Exactness at each fixed truncation length.* Put $H_n=N_{\eta,n}/J^rN_{\eta,n}$ and $F_j=J^jH_n$ for $0\leq j\leq r$. All these modules are finite over $B_\eta$. Their successive quotients are the fixed modules in (22), so their numbers of generators are bounded independently of $n$ for this fixed $r$. If $\mathfrak q_n$ is the maximal ideal of $R_{\eta,n}$, the surjection from $B_\eta$ gives $$\mathfrak m R_{\eta,n}=\mathfrak q_n.$$ Thus the $\mathfrak m$-adic filtrations are precisely the maximal-ideal filtrations used for patching these modules.
 
 Apply Lemma 5.4(3) over the one fixed ring $B_\eta$ to $$0\longrightarrow F_{j+1}\longrightarrow F_j
  \longrightarrow F_j/F_{j+1}\longrightarrow0.$$ Its fixed-quotient Artin–Rees bound makes each inclusion uniformly strict. Composing the finitely many bounds compares the induced filtration from $H_n$ with the intrinsic filtration on every $F_j$. The constants may depend on $r$, but are independent of $n$. Consequently this finite filtration patches exactly. No exactness for arbitrary varying submodules is required.
 
 The ideal $J^r$ is generated by a fixed finite number of monomials in its commuting generators. The cokernel assertion of Lemma 5.4(2) therefore identifies the patched $H_n$ with $N_{\eta,\infty}/J^rN_{\eta,\infty}$; the same argument identifies its quotients by $J^j$. These identifications respect the multiplication maps and are compatible as $r$ varies. We obtain $$\begin{equation}
-\label{eq:patched-polynomial-layers}
+\tag{23}
  \operatorname{gr}_J N_{\eta,\infty}
        \simeq C^*\otimes_{K^*}K^*[T_0,T_1,\ldots,T_h].
 \end{equation}$$ Here $C^*$ is the scalar extension of the fixed $B_\eta$-module $C$ from Lemma 5.4(1).
 
-*Regularity, dimension, and augmentation.* The finite joint action algebra generated by the $U_j$ is complete local: modulo the deformation-ring maximal ideal, every $V_j$ is nilpotent. Its module topology agrees with the one used for patching. Since $J$ lies in its maximal ideal, the finite module $N_{\eta,\infty}$ is $J$-adically separated and complete. A nonzero element killed by $\varpi$ would therefore have a first nonzero $J$-initial form, contradicting injectivity of $T_0$ in (eq:patched-polynomial-layers). The same initial-form argument gives $$\varpi N_{\eta,\infty}\cap J^mN_{\eta,\infty}
+*Regularity, dimension, and augmentation.* The finite joint action algebra generated by the $U_j$ is complete local: modulo the deformation-ring maximal ideal, every $V_j$ is nilpotent. Its module topology agrees with the one used for patching. Since $J$ lies in its maximal ideal, the finite module $N_{\eta,\infty}$ is $J$-adically separated and complete. A nonzero element killed by $\varpi$ would therefore have a first nonzero $J$-initial form, contradicting injectivity of $T_0$ in (23). The same initial-form argument gives $$\varpi N_{\eta,\infty}\cap J^mN_{\eta,\infty}
        =\varpi J^{m-1}N_{\eta,\infty}\qquad(m\geq1).$$ Hence the associated graded module after quotienting by $\varpi$ is obtained by setting $T_0=0$. Repeating the argument for $V_1,\ldots,V_h$ proves that the stated sequence is regular.
 
-The final quotient by this regular sequence is $C^*$. Its dimension is at least $2d+4s-1$ by (eq:old-residue-dimension) and Lemma 5.4(1). Each member of the regular sequence raises support dimension by one on passing back to the original module. Dimensions over the finite joint action algebra and over $R_{\eta,\infty}$ agree, giving (eq:patched-dimension). Finally, apply cokernel patching to the diamond augmentation (eq:old-level-action), without reducing by $\varpi$. The old $B_\eta$-action is fixed by the same common composite, so this gives (eq:patched-augmentation) with that actual old deformation action. ◻
+The final quotient by this regular sequence is $C^*$. Its dimension is at least $2d+4s-1$ by (17) and Lemma 5.4(1). Each member of the regular sequence raises support dimension by one on passing back to the original module. Dimensions over the finite joint action algebra and over $R_{\eta,\infty}$ agree, giving (20). Finally, apply cokernel patching to the diamond augmentation (16), without reducing by $\varpi$. The old $B_\eta$-action is fixed by the same common composite, so this gives (21) with that actual old deformation action. ◻
 
 ### Twisting and full support
 
@@ -705,14 +705,14 @@ The final quotient by this regular sequence is $C^*$. Its dimension is at least 
        \supseteq\mathop{\mathrm{Spec}}R_{1,\infty}^f.$$ Consequently the old module has full support: $\mathop{\mathrm{Supp}}_{R_1^f}N_1=\mathop{\mathrm{Spec}}R_1^f$.*
 
 *Proof.* *Finite twisting and its dimension contribution.* The finite characters of Lemma 5.3 give a local ring map after patching, $$\begin{equation}
-\label{eq:formal-twisting-map}
+\tag{24}
  \Theta_\eta:R_{\eta,\infty}\longrightarrow
           R_{\eta,\infty}^f[[l_1,\ldots,l_b]].
 \end{equation}$$ Here one takes bounded total jets in the ring and character variables. At each such depth the equations $(1+l_j)^{2^{a_n}}-1$ disappear for large $n$. Coefficientwise patching of the finitely many monomials at each depth identifies the target with the displayed power-series ring. This explains both existence of the map and its target.
 
-The map (eq:formal-twisting-map) is finite. Since $A_n$ is a character-group quotient, choose, for each $n$ and each $j$, a Galois element detecting exactly its $j$th coordinate. Its determinant divided by $\chi$ maps under twisting to $(1+l_j)^2$. Although these Galois elements may vary with $n$, their determinant functions determine elements in every patched jet, and hence in $R_{\eta,\infty}$. The resulting elements have residue one. On the closed fiber of (eq:formal-twisting-map) they impose $l_j^2=0$. At $l_1=\cdots=l_b=0$ the map is the fixed-determinant surjection. Its closed fiber is therefore an Artinian local algebra, of length at most $2^b$, with the same residue field. Complete Nakayama proves finiteness.
+The map (24) is finite. Since $A_n$ is a character-group quotient, choose, for each $n$ and each $j$, a Galois element detecting exactly its $j$th coordinate. Its determinant divided by $\chi$ maps under twisting to $(1+l_j)^2$. Although these Galois elements may vary with $n$, their determinant functions determine elements in every patched jet, and hence in $R_{\eta,\infty}$. The resulting elements have residue one. On the closed fiber of (24) they impose $l_j^2=0$. At $l_1=\cdots=l_b=0$ the map is the fixed-determinant surjection. Its closed fiber is therefore an Artinian local algebra, of length at most $2^b$, with the same residue field. Complete Nakayama proves finiteness.
 
-Let $T_\eta$ denote $N_{\eta,\infty}[[l_1,\ldots,l_b]]$, restricted along (eq:formal-twisting-map) and then regarded as a finite $B_\eta^*$-module. Its support is the closed image of the power-series-extended support. Finiteness of the map preserves its dimension, and (eq:patched-dimension) gives $$\dim\mathop{\mathrm{Supp}}_{B_\eta^*}T_\eta
+Let $T_\eta$ denote $N_{\eta,\infty}[[l_1,\ldots,l_b]]$, restricted along (24) and then regarded as a finite $B_\eta^*$-module. Its support is the closed image of the power-series-extended support. Finiteness of the map preserves its dimension, and (20) gives $$\dim\mathop{\mathrm{Supp}}_{B_\eta^*}T_\eta
  \geq 2d+4s+h+b
  =8d+4u+2h+2=e.$$ Furthermore $\varpi$ is regular on $T_\eta$, since it is regular before power-series extension and restriction of scalars. No minimal support prime of $T_\eta$ is vertical.
 
@@ -720,11 +720,11 @@ Let $T_\eta$ denote $N_{\eta,\infty}[[l_1,\ldots,l_b]]$, restricted along (eq:fo
 
 We give the component argument explicitly. Let $\mathfrak q$ be one of these generic points, and let $\mathfrak p$ be the unique minimal prime of $B_1^*$ below it. The local geometry gives $\dim B_1^*/\mathfrak p=e$ and $\dim B_1^*/\mathfrak q=e-1$; equivalently $\mathfrak q/\mathfrak p$ has height one. The latter also follows from the principal ideal theorem, since it is a minimal prime of the divisor $\varpi$ on this component. Choose a minimal support prime $\mathfrak a\subseteq\mathfrak q$ of $T_1$. The uniqueness assertion forces $\mathfrak p\subseteq\mathfrak a$. The prime $\mathfrak a$ is horizontal, so it is not $\mathfrak q$; there is no prime strictly between $\mathfrak p$ and $\mathfrak q$. Thus $\mathfrak a=\mathfrak p$. Every ambient component is obtained this way, and $T_1$ has full support.
 
-*Removing twists by actual sign intertwiners.* It remains to remove the formal twists. For each fixed sign tuple $\sigma\in\{1,-1\}^b$, the finite-level quadratic twists described above give local ring automorphisms and semilinear module isomorphisms. They preserve maximal-ideal filtrations, and therefore patch, together with their inverses. In particular the support of $N_{1,\infty}$ is stable under the resulting sign automorphisms of $R_{1,\infty}^f$. Evaluation of (eq:formal-twisting-map) at $l_j=\sigma_j-1$ is the fixed-determinant quotient followed by this patched sign twist, by its finite-level construction. The substitution is well-defined on formal series, since its values are $0$ or $-2$.
+*Removing twists by actual sign intertwiners.* It remains to remove the formal twists. For each fixed sign tuple $\sigma\in\{1,-1\}^b$, the finite-level quadratic twists described above give local ring automorphisms and semilinear module isomorphisms. They preserve maximal-ideal filtrations, and therefore patch, together with their inverses. In particular the support of $N_{1,\infty}$ is stable under the resulting sign automorphisms of $R_{1,\infty}^f$. Evaluation of (24) at $l_j=\sigma_j-1$ is the fixed-determinant quotient followed by this patched sign twist, by its finite-level construction. The substitution is well-defined on formal series, since its values are $0$ or $-2$.
 
 Let $x\in\mathop{\mathrm{Spec}}R_{1,\infty}^f$. Full support of $T_1$ supplies a point $y$ in the support of $N_{1,\infty}[[l_1,\ldots,l_b]]$ mapping to $x$. The determinant calculation, since $x$ has fixed determinant, gives in the residue field $\kappa(y)$ $$(1+l_j)^2=1,\qquad\text{or equivalently}\qquad l_j(l_j+2)=0.$$ For every $j$, primality therefore chooses $l_j=0$ or $-2$. Choose the corresponding sign tuple. Quotienting by these sign equations leaves a nonzero localized module, by Nakayama, and identifies the quotient with $N_{1,\infty}$ at a point $x'$ of its support. Its image $x$ is the sign transform of $x'$. Sign stability puts $x$ in the untwisted support. In characteristic two the two signs coincide, with the same conclusion. This proves the first assertion.
 
-*Diamond augmentation and the old action.* Finally consider the old quotient $(R_1^f)^*$. Let $\mathfrak p$ be any of its primes, viewed in $\mathop{\mathrm{Spec}}R_{1,\infty}$. It belongs to the support just proved. In the finite joint action algebra generated by the $U_j$, there is a support prime $\mathfrak P$ above $\mathfrak p$. On the old quotient each $\tau_{j,n}$ is trivial, so (eq:diamond-quadratic) becomes $$U_j^2-2U_j+1=V_j^2=0.$$ Hence $V_j\in\mathfrak P$ for all $j$. The nonzero finite module localized at $\mathfrak P$ remains nonzero after quotienting by all the $V_j$, by Nakayama. Equation (eq:patched-augmentation) shows that $(N_1^{\oplus2^h})^*$ has support at every prime of $(R_1^f)^*$. Faithful flatness in Lemma 5.4 now gives $\mathop{\mathrm{Supp}}_{R_1^f}N_1=\mathop{\mathrm{Spec}}R_1^f$. ◻
+*Diamond augmentation and the old action.* Finally consider the old quotient $(R_1^f)^*$. Let $\mathfrak p$ be any of its primes, viewed in $\mathop{\mathrm{Spec}}R_{1,\infty}$. It belongs to the support just proved. In the finite joint action algebra generated by the $U_j$, there is a support prime $\mathfrak P$ above $\mathfrak p$. On the old quotient each $\tau_{j,n}$ is trivial, so (18) becomes $$U_j^2-2U_j+1=V_j^2=0.$$ Hence $V_j\in\mathfrak P$ for all $j$. The nonzero finite module localized at $\mathfrak P$ remains nonzero after quotienting by all the $V_j$, by Nakayama. Equation (21) shows that $(N_1^{\oplus2^h})^*$ has support at every prime of $(R_1^f)^*$. Faithful flatness in Lemma 5.4 now gives $\mathop{\mathrm{Supp}}_{R_1^f}N_1=\mathop{\mathrm{Spec}}R_1^f$. ◻
 
 *Proof of Theorem 5.1.* We have proved full support on the enhanced completed global deformation germ with independent $S$-frames, global determinant $\chi$, and unipotent bad inertia. After the initial base changes, the source locus has exactly these local conditions. At its absolutely irreducible curve, the representation and pseudo-deformation problems agree after a smooth choice of frames. Adding $z$, passing to a finite curve-field extension, and taking this completed localization are faithfully flat on the indicated germ, by Lemma 3.4. Consequently the closed Hecke support contains that source germ.
 
@@ -745,7 +745,7 @@ Let $\Sigma$ be a finite set of odd rational primes, and let $\bar r$ be a semis
 3.  *In the reducible case, the characters remain distinct on $G_F$ if they were distinct on $G_{\mathbb Q}$. If $\alpha_2\ne1$, there are again no marked places. If $\alpha_2=1$, there is a dyadic place $v_0$ of $A$ and the marked set $M$ consists of all its extensions to $F$. Set $m=|M|$; thus $m=[F:A]$ and $m/d=1/d_A$ in the marked case, whereas $m=0$ otherwise.*
 
 4.  *In the reducible case, for $\beta=\alpha,\alpha^{-1}$ the following group is zero: $$\begin{equation}
-    \label{eq:dual-vanishing}
+    \tag{25}
      \left\{c\in H^1(G_{F,S_F},k(\beta)):
            \operatorname{loc}_v(c)=0\text{ for every }v\in S_F\setminus M
      \right\}=0.
@@ -754,7 +754,7 @@ Let $\Sigma$ be a finite set of odd rational primes, and let $\bar r$ be a semis
 5.  *In the reducible case, restriction preserves residual extension classes: for either ratio $\beta$, the map $$H^1(G_{A,S_A},k(\beta))\longrightarrow H^1(G_{F,S_F},k(\beta))$$ is injective.*
 
 *In the reducible case let $H^1_{\mathrm{str}}(F,k(\beta))$ denote the Selmer group with zero condition at $M$, full condition at $S_F\setminus M$ (including the real places), and unramified condition elsewhere. Then $$\begin{equation}
-\label{eq:strict-selmer}
+\tag{26}
  \dim_k H^1_{\mathrm{str}}(F,k(\beta))\le
  \begin{cases}
  d+u_F,&\alpha_2\ne1,\\
@@ -764,28 +764,28 @@ Let $\Sigma$ be a finite set of odd rational primes, and let $\bar r$ be a semis
 
 The field construction has three cases. For absolutely irreducible residue, a cyclic extension disjoint from the residual splitting field will suffice. For scalar residue, a narrow-class-group argument will give the required vanishing. For distinct residual characters, we will choose conductor primes successively so that changing the local Selmer conditions removes classes without introducing new ones. In each case we must bound the number of allowed primes independently of the degrees of the fields; this is what permits the strict dimension inequalities used in Section 7.
 
-We use class field theory with real places in the modulus (Milne 2020b, V, Theorems 1.7, 3.5, and 3.6), the Kummer identification, and inflation–restriction. Local and global duality give the following Selmer dimension formula for a finite coefficient module $V$ and linear local conditions $\mathcal L$: $$\begin{equation}
-\label{eq:field-selmer-formula}
+We use class field theory with real places in the modulus (Milne 2020b, Chapter V, Theorems 1.7, 3.5, and 3.6), the Kummer identification, and inflation–restriction. Local and global duality give the following Selmer dimension formula for a finite coefficient module $V$ and linear local conditions $\mathcal L$: $$\begin{equation}
+\tag{27}
  \begin{aligned}
  \dim H^1_{\mathcal L}(V)-\dim H^1_{\mathcal L^\perp}(V^\vee(1))
  &=h^0(V)-h^0(V^\vee(1))\\
  &\quad+\sum_v\bigl(\dim\mathcal L_v-h^0_v(V)\bigr).
  \end{aligned}
-\end{equation}$$ This is obtained by taking dimensions in Poitou–Tate and using the global Euler formula (Milne 2006, I, Theorems 4.10 and 5.1, Remark 5.2(a)). The real places are retained; their $h^0_v$ in this formula is ordinary invariant dimension. Our coefficient characters are trivial at real places, so local $H^1$ there has dimension one.
+\end{equation}$$ This is obtained by taking dimensions in Poitou–Tate and using the global Euler formula (Milne 2006, Chapter I, Theorems 4.10 and 5.1, Remark 5.2(a)). The real places are retained; their $h^0_v$ in this formula is ordinary invariant dimension. Our coefficient characters are trivial at real places, so local $H^1$ there has dimension one.
 
 ### Cyclic fields and a scalar genus argument
 
 Fix integers $n>a\ge1$. If an odd prime $r$ satisfies $$\begin{equation}
-\label{eq:conductor-power}
+\tag{28}
  r\equiv1\pmod{2^{n+1}},\qquad
                2\in(\mathbb F_r^\times)^{2^n},
 \end{equation}$$ the degree-$2^n$ cyclic subfield $L(r,n)$ of $\mathbb Q(\zeta_r)$ is real and has $2$ split completely. It is totally ramified at $r$ and unramified at other finite primes. For an odd prime $\ell\ne r$, the Frobenius of $\ell$ generates its Galois group precisely when $\ell$ is a nonsquare modulo $r$. Indeed, both assertions are read in the cyclic quotient of $\mathbb F_r^\times$ of order $2^n$; an element generates that quotient if and only if its exponent in $\mathbb F_r^\times$ is odd.
 
-The power conditions in (eq:conductor-power) say that $r$ splits in the Galois $2$-extension $$E_n=\mathbb Q(\zeta_{2^{n+1}},2^{1/2^n}).$$ This extension is unramified at odd primes. Consequently, independent square-root conditions at specified odd primes are compatible with splitting in $E_n$: any nontrivial product of their squareclasses is ramified at an odd prime, whereas every quadratic subfield of $E_n$ is unramified there. Chebotarev (Milne 2020b, V, Theorem 3.23) therefore supplies $r$ satisfying (eq:conductor-power) with every $\ell\in\Sigma$ nonsquare modulo $r$. One can avoid any further fixed finite set of primes.
+The power conditions in (28) say that $r$ splits in the Galois $2$-extension $$E_n=\mathbb Q(\zeta_{2^{n+1}},2^{1/2^n}).$$ This extension is unramified at odd primes. Consequently, independent square-root conditions at specified odd primes are compatible with splitting in $E_n$: any nontrivial product of their squareclasses is ramified at an odd prime, whereas every quadratic subfield of $E_n$ is unramified there. Chebotarev (Milne 2020b, Chapter V, Theorem 3.23) therefore supplies $r$ satisfying (28) with every $\ell\in\Sigma$ nonsquare modulo $r$. One can avoid any further fixed finite set of primes.
 
 This already proves the field assertion for absolutely irreducible $\bar r$: take $F=L(r,n)$ and its degree-$2^a$ subfield for $A$. Choose $r$ unramified in the residual splitting field. Every nontrivial subextension of $F/\mathbb Q$ is ramified at $r$, so $F$ is disjoint from that splitting field. The residual image is therefore unchanged. Each $\ell\in\Sigma$ has one prime above it at every cyclic layer. The prime $r$ need not be allowed, since restricting a representation does not introduce ramification at a prime where it was unramified.
 
-This completes the construction for absolutely irreducible residue: the residual image is unchanged and the number of allowed primes is bounded independently of the cyclic degree. For scalar residue we also need the Selmer vanishing in (eq:dual-vanishing). We obtain it from a different fixed base field and the following elementary form of the one-prime genus argument.
+This completes the construction for absolutely irreducible residue: the residual image is unchanged and the number of allowed primes is bounded independently of the cyclic degree. For scalar residue we also need the Selmer vanishing in (25). We obtain it from a different fixed base field and the following elementary form of the one-prime genus argument.
 
 **Lemma 6.2**. *Suppose that $K/E$ is a quadratic extension of totally real fields and that exactly one finite prime of $E$ ramifies. If the narrow class number of $E$ is odd, the narrow class number of $K$ is odd. For every totally real field with odd narrow class number, each totally positive unit is a square.*
 
@@ -800,13 +800,13 @@ Choose $r$ as above, additionally inert in $B$, and put $$F=B L(r,n),\qquad A=B 
 
 Let $w_1$ be the dyadic prime of $B$ generated by $\pi$, and $w_2$ the other dyadic prime. Both embeddings of $\pi$ into $\mathbb R$ are positive. At $w_2$ it is a unit congruent to seven modulo eight: the odd root of $X^2-5X+2$ is seven modulo eight. Thus $\pi$ is not a square in $B_{w_2}=\mathbb Q_2$.
 
-Choose any $v_0$ of $A$ above $w_1$. We prove a stronger version of (eq:dual-vanishing), allowing arbitrary localization at every place of $F$ above $w_1$. It suffices to work with $\mathbb F_2$ coefficients. By Kummer theory a class in this enlarged group is represented by a totally positive $x\in F^\times$ modulo squares. Its valuations are even outside the set $T$ of dyadic places above $w_1$, and it is locally a square at all places above $w_2$. The valuation-parity map $$\begin{equation}
-\label{eq:scalar-parity}
+Choose any $v_0$ of $A$ above $w_1$. We prove a stronger version of (25), allowing arbitrary localization at every place of $F$ above $w_1$. It suffices to work with $\mathbb F_2$ coefficients. By Kummer theory a class in this enlarged group is represented by a totally positive $x\in F^\times$ modulo squares. Its valuations are even outside the set $T$ of dyadic places above $w_1$, and it is locally a square at all places above $w_2$. The valuation-parity map $$\begin{equation}
+\tag{29}
              [x]\longmapsto (v(x)\bmod2)_{v\in T}
                  \quad\hbox{into }\mathbb F_2^T
 \end{equation}$$ is injective even on the larger space of totally positive squareclasses with even valuations outside $T$. Indeed, zero parity gives $(x)=\mathfrak a^2$; odd ordinary class number makes $\mathfrak a$ principal, and division by a square leaves a totally positive unit, which is a square by Lemma 6.2.
 
-Our Selmer subspace is stable under the $2$-group $\mathop{\mathrm{Gal}}(F/B)$. If nonzero, it has a nonzero invariant vector. The action on $T$ is transitive, so injectivity of (eq:scalar-parity) forces the parity vector of that invariant to be the all-ones vector. The unique totally positive squareclass with this parity is $[\pi]$: it has valuation one at every place above $w_1$, and the injectivity just proved gives uniqueness. But $\pi$ is nonsquare at every place above $w_2$, since these completions are still $\mathbb Q_2$. This contradiction proves the required vanishing, also after extending coefficients from $\mathbb F_2$ to $k$.
+Our Selmer subspace is stable under the $2$-group $\mathop{\mathrm{Gal}}(F/B)$. If nonzero, it has a nonzero invariant vector. The action on $T$ is transitive, so injectivity of (29) forces the parity vector of that invariant to be the all-ones vector. The unique totally positive squareclass with this parity is $[\pi]$: it has valuation one at every place above $w_1$, and the injectivity just proved gives uniqueness. But $\pi$ is nonsquare at every place above $w_2$, since these completions are still $\mathbb Q_2$. This contradiction proves the required vanishing, also after extending coefficients from $\mathbb F_2$ to $k$.
 
 Finally, the kernel of restriction of scalar $H^1$ from $A$ to $F$ consists of characters factoring through the cyclic group $\mathop{\mathrm{Gal}}(F/A)$. It is generated over $k$ by the unique nonzero $\mathbb F_2$-valued quadratic character, and every nonzero multiple is ramified above $r$. As $r\notin S_A$, these characters are excluded. This proves the restriction assertion in the scalar case.
 
@@ -831,7 +831,7 @@ We first record the exact local switch used below. At an odd place where the coe
 Take $B=\mathbb Q$ if $\alpha_2\ne1$. If $\alpha_2=1$, choose a prime $q_0\notin\Sigma\cup\{2\}$ with $$q_0\equiv1\pmod8,\qquad
            \alpha(\operatorname{Frob}_{q_0})\ne1,$$ and take $B=\mathbb Q(\sqrt{q_0})$. Such a prime exists by Chebotarev, since the odd-degree extension $K_\alpha$ is disjoint from $\mathbb Q(\zeta_8)$. In this second case let $w_1,w_2$ be the two dyadic places of $B$ and let $\sigma$ be its nontrivial automorphism.
 
-All later conductor primes will satisfy (eq:conductor-power), split in $K_\alpha$, and avoid the original primes and $q_0$. The first conductor $r_1$ also splits in $B$, with every $\ell\in\Sigma$ nonsquare modulo $r_1$. Compatibility follows from the independence of the odd squareclasses just used and from the coprimality of $[K_\alpha:\mathbb Q]$ with every auxiliary $2$-degree. For each subsequent conductor $r$, require every $\ell\in\Sigma$ and every earlier conductor to be a square modulo $r$. These conditions say that $r$ splits in a finite Galois $2$-extension $E_2$ obtained by adjoining $E_n$ and those square roots. In the quadratic-$B$ case, $E_2$ is unramified at $q_0$. Consequently $B\cap E_2=\mathbb Q$; the same is true of $B\cap K_\alpha E_2$. We can therefore impose either splitting or inertness in $B$ at a new conductor. In particular, $B$ is not included among the fields required to split at the final inert step.
+All later conductor primes will satisfy (28), split in $K_\alpha$, and avoid the original primes and $q_0$. The first conductor $r_1$ also splits in $B$, with every $\ell\in\Sigma$ nonsquare modulo $r_1$. Compatibility follows from the independence of the odd squareclasses just used and from the coprimality of $[K_\alpha:\mathbb Q]$ with every auxiliary $2$-degree. For each subsequent conductor $r$, require every $\ell\in\Sigma$ and every earlier conductor to be a square modulo $r$. These conditions say that $r$ splits in a finite Galois $2$-extension $E_2$ obtained by adjoining $E_n$ and those square roots. In the quadratic-$B$ case, $E_2$ is unramified at $q_0$. Consequently $B\cap E_2=\mathbb Q$; the same is true of $B\cap K_\alpha E_2$. We can therefore impose either splitting or inertness in $B$ at a new conductor. In particular, $B$ is not included among the fields required to split at the final inert step.
 
 **Lemma 6.4** (Evaluation freedom). *Fix finitely many cohomology classes over $B$ with coefficients $k_0(\beta)$, where $\beta=\alpha$ or $\alpha^{-1}$, and impose the preceding splitting conditions in $K_\alpha E_2$. Evaluations use chosen places above the rational prime and chosen Frobenius representatives in a common finite quotient through which the coefficient actions and the finitely many cocycles factor. Numerical prescriptions refer to these choices.*
 
@@ -848,9 +848,9 @@ All later conductor primes will satisfy (eq:conductor-power), split in $K_\alpha
 For independent classes $c_1,\ldots,c_t$, their joint evaluation map $N\to k_0^t$ has additive image stable under multiplication by $\beta(C)$. These scalars generate $k_0$ over $\mathbb F_2$, so its image is a $k_0$-subspace. If it were proper, a nonzero linear functional annihilating it would give a nontrivial linear combination of the $c_i$ restricting to zero on $N$, a contradiction. Its image is therefore all of $k_0^t$. The paired assertion follows by applying this to $W+\sigma W$; trivial intersection makes its two summands independent. The conjugation formula for cocycles identifies these with the evaluations at the two conjugate places.
 
 For the inert assertion choose $g\in G_{\mathbb Q}$ acting nontrivially on $B$ and trivially on $K_\alpha E_2$. Then $g^2\in N$, and $g$ represents $\sigma$ on cohomology. Since $\beta(g)=1$, for $h\in N$ the cocycle identity gives $$\begin{equation}
-\label{eq:inert-evaluation}
+\tag{30}
  c((gh)^2)=c(g^2)+\operatorname{ev}_h((1+\sigma)c).
-\end{equation}$$ The first term is a fixed affine offset. The proven evaluation surjectivity on $(1+\sigma)W$ shows that this expression is uniform in $W^\vee$ if $1+\sigma$ is injective on $W$. Also $c(g^2)=(\sigma c)(g^2)$ and $(1+\sigma)\sigma c=(1+\sigma)c$ in cohomology. Evaluations on $N$ do not see coboundaries, so (eq:inert-evaluation) gives equality for $c$ and $\sigma c$, including the affine offset.
+\end{equation}$$ The first term is a fixed affine offset. The proven evaluation surjectivity on $(1+\sigma)W$ shows that this expression is uniform in $W^\vee$ if $1+\sigma$ is injective on $W$. Also $c(g^2)=(\sigma c)(g^2)$ and $(1+\sigma)\sigma c=(1+\sigma)c$ in cohomology. Evaluations on $N$ do not see coboundaries, so (30) gives equality for $c$ and $\sigma c$, including the affine offset.
 
 For different Frobenius orbits, regard these evaluation images as $\mathbb F_2[C]$-modules. They have different simple isotypes; semisimplicity of $\mathbb F_2[C]$ makes their joint image the product of the individual images. In the remaining case the automorphism $x\mapsto x^{2^j}$ of $k_0$ carries cocycles with coefficient $\alpha$ to those with coefficient $\alpha^{-1}$. It commutes with restriction, conjugation, and evaluation. Every ramified line below is generated by an $\mathbb F_2$-valued quadratic character, so these lines, as well as the zero, full, and unramified conditions, are preserved. All evaluation matrices are entrywise Frobenius transforms and have the same ranks.
 
@@ -872,10 +872,10 @@ At a conductor the coefficient is trivial, since $r_j$ splits in $K_\alpha$. The
 
 The remaining objective is to kill both spaces $X_B^\beta$ while keeping the number of conductors bounded. First we explain why this vanishing gives the desired Selmer condition over the large field $F$; we then construct the switches that achieve it.
 
-Killing both spaces $X_B^\beta$ suffices for (eq:dual-vanishing). To see this, in the quadratic case first enlarge the possible marked set to all places above $w_1$. The resulting Selmer space over $F$ is stable under the cyclic $2$-group $\mathop{\mathrm{Gal}}(F/B)$. If it were nonzero it would have a nonzero invariant class. Since $k_0(\beta)^{G_F}=0$, inflation–restriction identifies these invariant classes with classes over $B$. At two and infinity the local conditions descend unchanged, because these places split completely. Away from the conductors, $F/B$ is unramified, so a class whose restriction is locally unramified has unramified localization downstairs. This applies both outside the allowed set and where localization was required to vanish. At a conductor the local extension is cyclic and totally ramified of degree $2^n$, and the kernel of local restriction is precisely the line of its quadratic character, namely $k_0\delta$. Thus the descended class belongs to $X_B^\beta$, giving the asserted sufficiency. For $B=\mathbb Q$ the same argument has no enlarged marked set.
+Killing both spaces $X_B^\beta$ suffices for (25). To see this, in the quadratic case first enlarge the possible marked set to all places above $w_1$. The resulting Selmer space over $F$ is stable under the cyclic $2$-group $\mathop{\mathrm{Gal}}(F/B)$. If it were nonzero it would have a nonzero invariant class. Since $k_0(\beta)^{G_F}=0$, inflation–restriction identifies these invariant classes with classes over $B$. At two and infinity the local conditions descend unchanged, because these places split completely. Away from the conductors, $F/B$ is unramified, so a class whose restriction is locally unramified has unramified localization downstairs. This applies both outside the allowed set and where localization was required to vanish. At a conductor the local extension is cyclic and totally ramified of degree $2^n$, and the kernel of local restriction is precisely the line of its quadratic character, namely $k_0\delta$. Thus the descended class belongs to $X_B^\beta$, giving the asserted sufficiency. For $B=\mathbb Q$ the same argument has no enlarged marked set.
 
 *The case $B=\mathbb Q$.* Suppose first that $B=\mathbb Q$, so $\alpha_2\ne1$. For $X_B^\beta$ the Selmer dimension formula gives $$\begin{equation}
-\label{eq:q-selmer-difference}
+\tag{31}
       \dim X_B^\beta-\dim (X_B^\beta)^{\mathrm{dual}}=-1.
 \end{equation}$$ Here the dual group has coefficient $\beta^{-1}$ and orthogonal conditions. The real zero condition contributes $-1$; the dyadic zero condition contributes zero, since its local invariants vanish; all other local conditions contribute zero. Both global invariant terms vanish. Each opposite dual is therefore nonzero.
 
@@ -884,7 +884,7 @@ Append a conductor split in $K_\alpha E_2$ at which every opposite dual has nonz
 *Preparing the quadratic case.* It remains to carry out this argument when $B$ is quadratic, so $\alpha_2=1$. We first impose an auxiliary vanishing over $\mathbb Q$. Let $X_0^\beta$ have zero dyadic condition, full real condition, and the same non-dyadic conditions as $X_B^\beta$ (unramified away from the conductors, and $k_0\delta$ at them). Its dimension minus that of its opposite dual is again $-1$: the dyadic contribution is $-1$, the real contribution is zero, and all other contributions are zero. Restriction $H^1(G_{\mathbb Q},k_0(\beta))\to H^1(G_B,k_0(\beta))$ is injective, since $H^0(G_B,k_0(\beta))=0$. Rational classes and their opposite duals can therefore be included in the evaluation spaces over $B$ in Lemma 6.4. Use the preceding one-coordinate switching argument to kill both $X_0^\beta$, requiring all the added conductors to split also in $B$. Lemma 6.4 permits this extra splitting. Keep all the resulting local switches.
 
 Let $Y_B^\beta$ be the group with coefficient $\beta$ whose conditions are dual to those of $X_B^{\beta^{-1}}$. Thus its real conditions are full, and its dyadic conditions are zero at $w_1$ and full at $w_2$. Its other conditions are the same as those of $X_B^\beta$. The dimension formula and conjugation give $$\begin{equation}
-\label{eq:b-selmer-comparison}
+\tag{32}
  \dim Y_B^\beta=\dim X_B^{\beta^{-1}}+1,
        \qquad \sigma X_B^\beta\subset Y_B^\beta.
 \end{equation}$$ Indeed, for $X_B$ the two dyadic contributions are $2$ and $-1$, the two real contributions are $-1$ each, and the remaining contributions vanish. The inclusion follows from the local conditions: conjugation exchanges the dyadic conditions and the real zero conditions are contained in the full ones.
@@ -915,20 +915,20 @@ We have arranged $X_0^\beta=0$ for both coefficient characters. The next split s
 
 3.  the evaluation on the opposite dual of the zero space $X_0^{\beta^{-1}}$ is nonzero.
 
-The third dual has dimension one, by its dimension difference. The first space has dimension at least two by (eq:b-selmer-comparison). Lemmas 6.4 and 6.5 make the paired evaluations on each of the first two spaces independent uniform functionals. For $t=\dim Y_B^\beta\ge2$, the rank failure probability is $$1-(1-q^{-t})(1-q^{1-t})\le q^{-1}+q^{-2}.$$ The second failure probability is at most $q^{-2}$, and the third is $q^{-1}$. Their sum satisfies $$\begin{equation}
-\label{eq:split-switch-probability}
+The third dual has dimension one, by its dimension difference. The first space has dimension at least two by (32). Lemmas 6.4 and 6.5 make the paired evaluations on each of the first two spaces independent uniform functionals. For $t=\dim Y_B^\beta\ge2$, the rank failure probability is $$1-(1-q^{-t})(1-q^{1-t})\le q^{-1}+q^{-2}.$$ The second failure probability is at most $q^{-2}$, and the third is $q^{-1}$. Their sum satisfies $$\begin{equation}
+\tag{33}
             (q^{-1}+q^{-2})+q^{-2}+q^{-1}<1.
 \end{equation}$$ No independence between these three failure events is needed for this union bound. Different character isotypes are independent; conjugate inverse characters give identical requirements under coefficient Frobenius. Hence an admissible conductor exists.
 
 Switching at its two places makes both $X_B$ spaces smaller and introduces no new classes. The third requirement has a separate purpose: Lemma 6.3, now over $\mathbb Q$, preserves $X_0^\beta=0$. Thus Lemma 6.5 remains applicable at the next split step. Continue until both $X_B$ spaces vanish or exactly one remains.
 
-*The final inert switch.* In the latter situation write $X_B^\beta\ne0$ and $X_B^{\beta^{-1}}=0$. Formula (eq:b-selmer-comparison) implies $$\begin{equation}
-\label{eq:one-survivor}
+*The final inert switch.* In the latter situation write $X_B^\beta\ne0$ and $X_B^{\beta^{-1}}=0$. Formula (32) implies $$\begin{equation}
+\tag{34}
  \dim X_B^\beta=\dim Y_B^\beta=1,
             \qquad Y_B^\beta=\sigma X_B^\beta.
 \end{equation}$$ If the inverse characters were Frobenius conjugate, their $X_B$ spaces would have equal dimension, so this case could not arise.
 
-Choose one final conductor inert in $B$, still split in $K_\alpha E_2$. Immediately before this step Lemma 6.5 holds, so $1+\sigma$ is injective on each relevant $X_B$ and $Y_B$: its kernel would be a fixed vector in $W\cap\sigma W$. At this conductor require nonzero evaluation on both opposite duals $Y_B^\alpha,Y_B^{\alpha^{-1}}$ and on the remaining $X_B^\beta$. There is no third independent demand in the surviving isotype. By (eq:one-survivor) and the exact equality in Lemma 6.4, the evaluations on $Y_B^\beta$ and $X_B^\beta$ coincide. The affine offset in (eq:inert-evaluation) does not change this equality. Uniform evaluation and the union bound give the conservative failure bound $2/q<1$ per isotype. The switch at the single place over this inert prime therefore kills the last $X_B$ space, while the opposite zero space stays zero. This is the final step: preservation of $X_0=0$ after it is neither required nor asserted. Its pre-step vanishing was used precisely to justify injectivity of $1+\sigma$.
+Choose one final conductor inert in $B$, still split in $K_\alpha E_2$. Immediately before this step Lemma 6.5 holds, so $1+\sigma$ is injective on each relevant $X_B$ and $Y_B$: its kernel would be a fixed vector in $W\cap\sigma W$. At this conductor require nonzero evaluation on both opposite duals $Y_B^\alpha,Y_B^{\alpha^{-1}}$ and on the remaining $X_B^\beta$. There is no third independent demand in the surviving isotype. By (34) and the exact equality in Lemma 6.4, the evaluations on $Y_B^\beta$ and $X_B^\beta$ coincide. The affine offset in (30) does not change this equality. Uniform evaluation and the union bound give the conservative failure bound $2/q<1$ per isotype. The switch at the single place over this inert prime therefore kills the last $X_B$ space, while the opposite zero space stays zero. This is the final step: preservation of $X_0=0$ after it is neither required nor asserted. Its pre-step vanishing was used precisely to justify injectivity of $1+\sigma$.
 
 ### Uniformity, restriction, and the numerical bounds
 
@@ -938,7 +938,7 @@ The number of conductors in the preceding argument is bounded independently of $
     \dim_{k_0}H^1(G_{E,T_E},k_0(\beta)),\qquad E=\mathbb Q,B,$$ where $T_E$ is the fixed set above $\Sigma$, two, and infinity. In the quadratic case one may include $q_0$ in $T_B$ without change to the relevant local cohomology. Count both characters in this sum even if they are Frobenius conjugate; the resulting bound is only larger. Allowing one new rational prime freely adds at most $2b$ to each global $H^1$ dimension over $B$, by restriction to inertia or by the localization sequence. Thus it adds at most $4b$ to their sum. This deliberately generous bound applies uniformly to every conductor and every quadratic line chosen there.
 
 After the first conductor, the sum of the two dimensions over $\mathbb Q$ is at most $C_{\mathbb Q}+4$. The first loop killing the auxiliary $X_0$ spaces therefore has length $$N_0\le C_{\mathbb Q}+4.$$ During it, the sum of the $B$-dimensions is at most $C_B+4b(1+N_0)$. Every later split switch decreases that sum by at least one and never increases either space. There is at most one final inert switch. Hence in the quadratic case the total number $t$ of conductors satisfies, for example, $$\begin{equation}
-\label{eq:uniform-conductor-count}
+\tag{35}
  t\le 2+C_B+4b+(1+4b)(C_{\mathbb Q}+4).
 \end{equation}$$ For $B=\mathbb Q$ the direct loop gives the simpler bound $t\le1+C_{\mathbb Q}+4$. These constants depend only on the fixed original data and the fixed choice of $B$.
 
@@ -946,13 +946,13 @@ Every original $\ell\in\Sigma$ has full Frobenius order in $L$ and its degree-$2
 
 Since $K_\alpha/\mathbb Q$ has odd degree, $\alpha$ remains nontrivial on every field constructed in the distinct-character case. Inflation–restriction, with $H^0(G_F,k(\beta))=0$, proves injectivity of restriction from $A$ to $F$. Together with the scalar and absolutely irreducible cases proved above, this establishes all the field and restriction assertions of Proposition 6.1.
 
-It remains to derive (eq:strict-selmer). Since the mod-two cyclotomic character is trivial, the Tate dual of $k(\beta)$ is $k(\beta^{-1})$. Its Selmer conditions dual to the strict ones are exactly those in (eq:dual-vanishing). The dual Selmer group is zero. The global invariant terms in the Selmer dimension formula cancel, whether $\beta=1$ or $\beta\ne1$. At a real place, the full condition contributes $\dim H^1_v-h^0_v=1-1=0$. At an unmarked dyadic place, local Euler characteristic gives contribution one if $\alpha_2\ne1$ and two if $\alpha_2=1$. At a marked place the zero condition contributes $-h^0_v=-1$. At a non-dyadic allowed place the full condition contributes $h^2_v\le1$, and an unramified condition elsewhere contributes zero. Adding these terms gives exactly the two bounds in (eq:strict-selmer).
+It remains to derive (26). Since the mod-two cyclotomic character is trivial, the Tate dual of $k(\beta)$ is $k(\beta^{-1})$. Its Selmer conditions dual to the strict ones are exactly those in (25). The dual Selmer group is zero. The global invariant terms in the Selmer dimension formula cancel, whether $\beta=1$ or $\beta\ne1$. At a real place, the full condition contributes $\dim H^1_v-h^0_v=1-1=0$. At an unmarked dyadic place, local Euler characteristic gives contribution one if $\alpha_2\ne1$ and two if $\alpha_2=1$. At a marked place the zero condition contributes $-h^0_v=-1$. At a non-dyadic allowed place the full condition contributes $h^2_v\le1$, and an unramified condition elsewhere contributes zero. Adding these terms gives exactly the two bounds in (26).
 
 For later use, the degree choices can in particular ensure the strict inequalities $$\begin{align}
- d+u_F+3&<2d-1 &&\text{in the unmarked reducible case},\label{eq:field-unmarked-gap}\\
- 2d-2m+u_F+3&<2d-m-1 &&\text{in the marked case},\label{eq:field-marked-gap}\\
- 2d-2m-4-u_F&>d.\label{eq:field-curve-gap}
-\end{align}$$ For example, it is enough in the marked case to have $m>U+4$ and $m(d_A-2)>U+4$. The same freedom makes $d_A$ larger than any prescribed fixed cost in the initial trace cuts. These choices are legitimate because (eq:uniform-conductor-count) and the bounds for $u_A,u_F$ are independent of both cyclic exponents.
+ d+u_F+3&<2d-1 &&\text{in the unmarked reducible case},\tag{36}\\
+ 2d-2m+u_F+3&<2d-m-1 &&\text{in the marked case},\tag{37}\\
+ 2d-2m-4-u_F&>d.\tag{38}
+\end{align}$$ For example, it is enough in the marked case to have $m>U+4$ and $m(d_A-2)>U+4$. The same freedom makes $d_A$ larger than any prescribed fixed cost in the initial trace cuts. These choices are legitimate because (35) and the bounds for $u_A,u_F$ are independent of both cyclic exponents.
 
 ## Connectedness and potential pro-modularity
 
@@ -986,7 +986,7 @@ This mod-$\varpi$ cusp form lifts to the characteristic-zero cuspidal space in t
 Fix the target’s semisimple residue $\bar r$ and determinant $\chi$. Choose a cuspidal lift of this residue by Lemma 7.2, and fix a finite allowed set over $\mathbb Q$ containing the bad primes of the target, the prescribed family when present, and this lift. This choice precedes the field construction below; it ensures that the bound for the number of allowed primes also covers the modular seed. In the reducible case write $\bar r^{\mathrm{ss}}=\bar\chi_1\oplus\bar\chi_2$ and $\alpha=\bar\chi_1/\bar\chi_2$. Use the fields $$\mathbb Q\subset A\subset F$$ of Proposition 6.1, with $d_A=[A:\mathbb Q]$, $d=[F:\mathbb Q]$. There are no marks when $\bar r$ is absolutely irreducible or $\alpha|_{G_{\mathbb Q_2}}\ne1$. Otherwise choose the distinguished place $v_0$ of $A$ and mark its $m=[F:A]$ lifts to $F$. The numbers $u_A,u_F$ of allowed non-dyadic primes are uniformly bounded as these degrees grow.
 
 Choose the degrees sufficiently large that $$\begin{equation}
-\label{eq:degree-choices}
+\tag{39}
  d>u_F+4,\qquad
  m>u_F+4\quad\text{if there are marks},\qquad
  2d-2m-4-u_F>d.
@@ -998,18 +998,18 @@ Over the characteristic-two fixed-determinant pseudo-base, take the finite-type 
 
 At a transverse point with marks, the local residual representation at each mark is scalar after untwisting. Indeed there is a global invariant line, and the different marked invariant line splits its restriction. The two local semisimple characters coincide. This simple observation is responsible for the strict Selmer condition in the next lemma.
 
-**Lemma 7.3**. *Let $F$, the marked set, and the fixed-determinant representation scheme $Y$ be as above, with the degree inequalities (eq:degree-choices). Let $y$ be a transverse closed residual point of $Y$, with finite residue field, and let $R'_y$ be the completion of $Y$ at $y$. Every component of $\mathop{\mathrm{Spec}}R'_y$ has dimension at least $2d-m$. Its components can be joined by a chain whose successive intersections have dimension at least $2d-m-1$. The globally reducible locus has dimension strictly less than $2d-m-1$.*
+**Lemma 7.3**. *Let $F$, the marked set, and the fixed-determinant representation scheme $Y$ be as above, with the degree inequalities (39). Let $y$ be a transverse closed residual point of $Y$, with finite residue field, and let $R'_y$ be the completion of $Y$ at $y$. Every component of $\mathop{\mathrm{Spec}}R'_y$ has dimension at least $2d-m$. Its components can be joined by a chain whose successive intersections have dimension at least $2d-m-1$. The globally reducible locus has dimension strictly less than $2d-m-1$.*
 
 *Proof.* Retain the real local problems and the $m$ marked dyadic line problems as the local base. Reducing this base changes no spectrum. By Lemma 3.12, it is a complete local domain of dimension $$2d+5m.$$ The relative framed presentation of Proposition 3.6 has generators minus relations at least $$3-6m-h^0((\mathop{\mathrm{ad}}^0)^\vee(1))\ge-6m.$$ The last inequality uses the three-dimensionality of $(\mathop{\mathrm{ad}}^0)^\vee(1)$. A quotient of a complete local domain with this presentation has all components of dimension at least $2d-m$. Grothendieck’s connectedness theorem gives connectedness in dimension at least $2d-m-1$: in the form used here, cutting a complete local domain of dimension $N$, after adding $a$ formal variables, by $b$ equations gives connectedness in dimension at least $N+a-b-1$. This is the component-chain formulation of the connectedness theorem (Grothendieck 2005, Exposé XIII, Théorème 2.1).
 
 We bound the reducible locus separately. It is empty for absolutely irreducible residue. Otherwise add a global invariant line by proper incidence. At a closed point of that incidence, choose an adapted basis and first hold this line fixed. Its movement costs one parameter. The diagonal global characters with fixed product vary in dimension at most one, by abelian Leopoldt over $F$; see Lemma 3.8. Freeze those character parameters.
 
-At a marked place the closed local matrices are scalar and the marked line is transverse to the chosen global line. An infinitesimal upper extension, with diagonal characters frozen, must therefore vanish locally: a nonzero upper nilpotent matrix cannot preserve a second transverse line. Thus its cohomology class is strict at the marks. Moving a marked line costs at most one further tangent parameter, giving $m$ in total. There is at most one upper coboundary parameter. The strict Selmer bounds in (eq:strict-selmer) therefore give the following dimensions: $$\begin{cases}
+At a marked place the closed local matrices are scalar and the marked line is transverse to the chosen global line. An infinitesimal upper extension, with diagonal characters frozen, must therefore vanish locally: a nonzero upper nilpotent matrix cannot preserve a second transverse line. Thus its cohomology class is strict at the marks. Moving a marked line costs at most one further tangent parameter, giving $m$ in total. There is at most one upper coboundary parameter. The strict Selmer bounds in (26) therefore give the following dimensions: $$\begin{cases}
  d+u_F+3,&\alpha|_{G_{\mathbb Q_2}}\ne1,\\
  2d-2m+u_F+3,&\alpha|_{G_{\mathbb Q_2}}=1.
  \end{cases}$$ Here the three remaining parameters account for the diagonal base, the global line, and the possible coboundary. The relative tangent estimate bounds the number of generators over the diagonal base, so it is an upper bound for the whole formal reducible chart, not only for its tangent space at a fixed diagonal character. Properness of the global-line incidence transfers the bound to its image. Finite residue extensions do not affect these dimensions.
 
-The first two inequalities in (eq:degree-choices) make both bounds smaller than $2d-m-1$. This proves the lemma. ◻
+The first two inequalities in (39) make both bounds smaller than $2d-m-1$. This proves the lemma. ◻
 
 **Lemma 7.4**. *At a transverse closed residual point, either every component of $Y$ through that point has potentially pro-modular pseudo-image, or none does. It suffices to begin with one component whose pseudo-image contains a potentially pro-modular, non-virtually-solvable curve having finite local images at the allowed non-dyadic places.*
 
@@ -1064,17 +1064,17 @@ We retain the conventions of Section 4: $\chi=\det r$, the central character of
 We first record the rank-one consequence of Bloch–Kato that fixes the orientation. For a de Rham character $\theta$ of $G_{\mathbb Q_2}$, write $H^1_g(\mathbb Q_2,\theta)$ for the subspace of de Rham extension classes. The local Euler characteristic, duality, and the Bloch–Kato formulas give $$\begin{align}
  \dim H^1(\mathbb Q_2,\theta)
  &=1+\dim H^0(\mathbb Q_2,\theta)
-       +\dim H^0(\mathbb Q_2,\theta^{-1}\varepsilon),\label{eq:rank-one-euler}\\
+       +\dim H^0(\mathbb Q_2,\theta^{-1}\varepsilon),\tag{40}\\
  \dim H^1_g(\mathbb Q_2,\theta)
  &=\dim D_{\mathrm{dR}}(\theta)/\mathop{\mathrm{Fil}}^0
    +\dim H^0(\mathbb Q_2,\theta)
    +\dim D_{\mathrm{cris}}(\theta^{-1}\varepsilon)^{\varphi=1}.
-   \label{eq:rank-one-geometric}
+   \tag{41}
 \end{align}$$ The second formula follows from the exact annihilators of (Bloch and Kato 1990, Proposition 3.8), the $H^1_f$ and $H^1_e$ dimension formulas of (Bloch and Kato 1990, Corollary 3.8.4), and local duality; it is the rank-one consequence used here. These formulas have no restriction excluding $2$.
 
 **Lemma 8.1**. *If $r|_{G_{\mathbb Q_2}}$ is reducible and has distinct cyclotomic exponents, it has an invariant line whose exponent is greater than that of the quotient.*
 
-*Proof.* Characters occurring as subquotients of a de Rham representation are de Rham. Suppose a chosen subcharacter has smaller exponent than the quotient, and let $\theta$ be their ratio. Its exponent is strictly negative, so $D_{\mathrm{dR}}(\theta)/\mathop{\mathrm{Fil}}^0=0$ and $H^0(\mathbb Q_2,\theta)=0$. The character $\theta^{-1}\varepsilon$ has strictly positive exponent. If its finite inertial part is nontrivial, its crystalline module is zero; otherwise its crystalline Frobenius eigenvalue has nonzero valuation and cannot be $1$. Equation (eq:rank-one-geometric) therefore gives $H^1_g=0$. The extension splits, and its other summand is the required line. ◻
+*Proof.* Characters occurring as subquotients of a de Rham representation are de Rham. Suppose a chosen subcharacter has smaller exponent than the quotient, and let $\theta$ be their ratio. Its exponent is strictly negative, so $D_{\mathrm{dR}}(\theta)/\mathop{\mathrm{Fil}}^0=0$ and $H^0(\mathbb Q_2,\theta)=0$. The character $\theta^{-1}\varepsilon$ has strictly positive exponent. If its finite inertial part is nontrivial, its crystalline module is zero; otherwise its crystalline Frobenius eigenvalue has nonzero valuation and cannot be $1$. Equation (41) therefore gives $H^1_g=0$. The extension splits, and its other summand is the required line. ◻
 
 **Lemma 8.2**. *Suppose $r|_{G_{\mathbb Q_2}}$ is reducible, and record the line of Lemma 8.1. Fix $\chi=\det r$. After enlarging coefficients, there is a complete local integral $\mathcal O$-algebra $\mathscr D$, together with its fixed global determinant $\chi$, its global trace, and a recorded local subcharacter $\eta_1$, with the following properties.*
 
@@ -1092,7 +1092,7 @@ We give the finiteness argument, including the recorded character. Write $T_{\ma
  \qquad g\in G_{\mathbb Q_2},$$ and is integral as well. The global determinant algebra has finitely many topological trace generators, and a continuous local character is determined topologically by its values on the uniformizer, $-1$, and $5$. Adjoining these finitely many integral elements to $A$ gives a finite complete algebra, hence a closed subalgebra of $\mathscr D$; it contains its topological generators and is all of $\mathscr D$. Finally, Proposition 4.2 makes the Hecke algebra finite over the product of the local central pseudodeformation images. Transitivity of finiteness proves the last assertion. ◻
 
 We may discard the proper globally reducible loci, including reducibility after restriction to $F$. We may also require $$\begin{equation}
-\label{eq:generic-ordinary-ratios}
+\tag{42}
  \eta_1\eta_2^{-1}\notin\{1,\varepsilon,\varepsilon^{-1}\}.
 \end{equation}$$ Indeed, each exceptional equality and the fixed determinant imply $\eta_1^2=\chi\varepsilon^a$ for $a\in\{0,1,-1\}$. The local trace image then has dimension at most one: its character values are integral over the fixed coefficient ring. Because $2$ splits in $F$ and the family comes from $\mathbb Q$, the same holds at all dyadic factors. Finiteness in Lemma 8.2 shows that none of these loci contains $\mathop{\mathrm{Spec}}\mathscr D$. Characteristic-zero points with finite coefficient fields satisfying these conditions are consequently dense.
 
@@ -1105,7 +1105,7 @@ Fix the Hecke summand of the completed forms over $F$ carrying the restricted f
  T_1=\prod_{v\mid2}(1+4\mathbb Z_2)^2,$$ where $$n^-(a)=\begin{pmatrix}1&0\\a&1\end{pmatrix},\qquad
  n^+(x)=\begin{pmatrix}1&x\\0&1\end{pmatrix},\qquad
  \mathbf p=\bigl(\operatorname{diag}(1,2)\bigr)_{v\mid2}.$$ All matrix formulas involving several places are interpreted coordinatewise. On $\mathcal H^{N_0^-}$ define $$\begin{equation}
-\label{eq:ordinary-U}
+\tag{43}
  U=\sum_{a\in(\mathbb Z/2\mathbb Z)^{[F:\mathbb Q]}}n^-(a)\mathbf p.
 \end{equation}$$ The actions are the right translation actions with the representation group law. Let $$W=\{f\in\mathcal H^{N_0^-}:U^Nf=f\text{ for some }N>0\},
  \qquad M=W^\vee,
@@ -1114,7 +1114,7 @@ Fix the Hecke summand of the completed forms over $F$ carrying the restricted f
 **Proposition 8.3** (Ordinary weight finiteness). *The space $W$ is an $\mathcal O$-submodule stable under $T_1$, the tame Hecke operators, and $U^{\pm1}$, and these actions commute. Its dual $M$ is finite over $\Omega$. The closed commutative algebra generated by these actions on $M$ is finite over $\Omega$.*
 
 *Proof.* In one factor the identity $$\begin{equation}
-\label{eq:U-representatives}
+\tag{44}
  n^-(a+2b)\operatorname{diag}(1,2)
  =n^-(a)\operatorname{diag}(1,2)n^-(b)
 \end{equation}$$ proves independence of representatives and preservation of lower invariance. Conjugation by $t=\operatorname{diag}(u_1,u_2)\in T_1$ replaces $a$ by $(u_2/u_1)a$, which permutes the residue classes. Thus $tU=Ut$ on the lower-invariant space. The tame Hecke actions commute with these local actions. A common multiple of two periods is a period of the sum of the corresponding vectors. Finally $U$ is bijective on $W$: on a vector of period $N$, its inverse is $U^{N-1}$, independently of the chosen period.
@@ -1125,8 +1125,8 @@ We show that one compact open subgroup fixes $W[\varpi]^{T_1}$. For $j\ge2$, $x\
        \operatorname{diag}(1,2)\notag\\
  &\cdot\operatorname{diag}(1+xa,(1+xa)^{-1})
        n^+\!\left(\frac{2x}{1+xa}\right).
-       \label{eq:U-upper-improvement}
-\end{align}$$ If $f$ is $T_1$-fixed and upper-$2^{j+1}$-invariant, the final two factors fix $f$. The map $a\mapsto a/(1+xa)$ permutes the lower residue classes, and (eq:U-representatives) absorbs the changes of lift. Thus $Uf$ is upper-$2^j$-invariant. Once upper-$4$ invariance is reached, it is preserved by the same identity.
+       \tag{45}
+\end{align}$$ If $f$ is $T_1$-fixed and upper-$2^{j+1}$-invariant, the final two factors fix $f$. The map $a\mapsto a/(1+xa)$ permutes the lower residue classes, and (44) absorbs the changes of lift. Thus $Uf$ is upper-$2^j$-invariant. Once upper-$4$ invariance is reached, it is preserved by the same identity.
 
 Each smooth vector of $W[\varpi]^{T_1}$ starts at some finite upper level. Iterate the preceding improvement far enough, taking an iteration number divisible by its period. The resulting vector is the original vector, so it is fixed by the single open compact subgroup generated by $N_0^-$, $T_1$, and $\prod_{v\mid2}n^+(4\mathbb Z_2)$. Proposition 4.1 gives smooth admissibility; therefore $W[\varpi]^{T_1}$ is finite-dimensional over $k$. Compact Nakayama now gives finite generation of $M$ over $\Omega$.
 
@@ -1139,17 +1139,17 @@ Let $R$ denote the fixed-determinant global pseudodeformation ring over $F$. Th
 
 Set $$\Lambda=\mathcal O[[1+4\mathbb Z_2]]\simeq\mathcal O[[T]],\qquad
  [5]=1+T.$$ The map $\Lambda\to\mathscr D$ sends $[5]$ to $\eta_1(5)$, using local reciprocity. At each place of $F$ above $2$, there are two possible inducing assignments $$\begin{equation}
-\label{eq:two-ordinary-orders}
+\tag{46}
  (\eta_1\varepsilon,\eta_2),\qquad (\eta_2\varepsilon,\eta_1).
 \end{equation}$$ For each choice $s$ of an assignment at every dyadic place, the fixed determinant and these formulas define a homomorphism $s:\Omega\to\Lambda$. Only characters on $1+4\mathbb Z_2$ enter this map; the unramified character values remain in the trace algebra.
 
-**Lemma 8.4** (Finite joint-image argument). *Let $\mathscr D$ be the domain of Lemma 8.2, let $M=W^\vee$ be the ordinary module above, and use the weight map $\Lambda\to\mathscr D$ defined by $[5]\mapsto\eta_1(5)$. Suppose a dense set of finite-coefficient characteristic-zero points of $\mathscr D$ occurs in the joint trace-and-weight support of $M$, with one of the finitely many assignments $s$ in (eq:two-ordinary-orders) at each point. Then $\mathscr D$ is finite and dominant over $\Lambda$; in particular, $\dim\mathscr D=2$.*
+**Lemma 8.4** (Finite joint-image argument). *Let $\mathscr D$ be the domain of Lemma 8.2, let $M=W^\vee$ be the ordinary module above, and use the weight map $\Lambda\to\mathscr D$ defined by $[5]\mapsto\eta_1(5)$. Suppose a dense set of finite-coefficient characteristic-zero points of $\mathscr D$ occurs in the joint trace-and-weight support of $M$, with one of the finitely many assignments $s$ in (46) at each point. Then $\mathscr D$ is finite and dominant over $\Lambda$; in particular, $\dim\mathscr D=2$.*
 
 *Proof.* For each $s$, form $S_s=S\widehat\otimes_{\Omega,s}\Lambda$, and let $T_s$ be the image of $R\widehat\otimes_{\mathcal O}\Lambda$ in $S_s$. Both are finite $\Lambda$-algebras, and their images are closed. Let $I_s$ be the kernel of the latter map. Each point in the dense set kills some $I_s$ after mapping to $\mathscr D$. Hence $$\mathop{\mathrm{Spec}}\mathscr D=\bigcup_s V(I_s\mathscr D).$$ The spectrum is irreducible, so one of these finitely many closed sets is the whole spectrum. Equivalently, the prime kernel of $R\widehat\otimes\Lambda\to\mathscr D$ contains one $I_s$. The closed trace-plus-weight image $B$ in $\mathscr D$ is therefore a quotient of $T_s$ and is finite over $\Lambda$.
 
 By Lemma 8.2, $\mathscr D$ is finite over the restricted trace image $A$, and $A\subset B$. The same finite set of $A$-module generators generates $\mathscr D$ as a $B$-module. Thus $\mathscr D$ is finite over $\Lambda$. Its dimension is at least two, whereas $\dim\Lambda=2$; a nonzero prime kernel in the domain $\Lambda$ would lower that dimension. The map is therefore injective, and the dimension is exactly two. ◻
 
-The hypotheses of the lemma hold here. At each finite-coefficient characteristic-zero point outside the excluded loci, Proposition 4.2 supplies a Banach subrepresentation of completed forms whose local factors are unitary continuous inductions in one of the orders (eq:two-ordinary-orders); the two possibilities are precisely those of (Paškūnas and Tung 2021, Corollary 6.10(3)) for the normalized parameter $r\otimes\varepsilon$. In $\mathop{\mathrm{Ind}}_B^{\mathop{\mathrm{GL}}_2(\mathbb Q_2)}(\delta_1\otimes\delta_2)$, with $B$ the upper Borel and unnormalized induction, take the function supported on $Bn^-(\mathbb Z_2)$ and equal to $1$ on $n^-(\mathbb Z_2)$. It is lower-invariant and has torus character $(\delta_1,\delta_2)$. Subdivision into the two lower disks shows that its $U$-eigenvalue is $\delta_2(2)$, a unit. The product vector has the analogous properties at all dyadic places.
+The hypotheses of the lemma hold here. At each finite-coefficient characteristic-zero point outside the excluded loci, Proposition 4.2 supplies a Banach subrepresentation of completed forms whose local factors are unitary continuous inductions in one of the orders (46); the two possibilities are precisely those of (Paškūnas and Tung 2021, Corollary 6.10(3)) for the normalized parameter $r\otimes\varepsilon$. In $\mathop{\mathrm{Ind}}_B^{\mathop{\mathrm{GL}}_2(\mathbb Q_2)}(\delta_1\otimes\delta_2)$, with $B$ the upper Borel and unnormalized induction, take the function supported on $Bn^-(\mathbb Z_2)$ and equal to $1$ on $n^-(\mathbb Z_2)$. It is lower-invariant and has torus character $(\delta_1,\delta_2)$. Subdivision into the two lower disks shows that its $U$-eigenvalue is $\delta_2(2)$, a unit. The product vector has the analogous properties at all dyadic places.
 
 Its nonzero image in completed forms can be scaled into the integral lattice. Modulo every power of the coefficient uniformizer its unit eigenvalue has finite multiplicative order, so the reduction belongs to $W$. Duality consequently places this trace-and-weight point in $\mathop{\mathrm{Spec}}S$. Finite coefficient extension is harmless, either by flat extension of the torsion space or by taking scalar coordinates. Lemma 8.4 applies.
 
@@ -1158,31 +1158,31 @@ Thus the family is finite and dominant over the one-variable weight space. We ca
 ### A dense set of ordinary modular points
 
 Let $w=\operatorname{exp}(\chi)$. After a finite extension of $E$, choose $c$ with $c^2=5^{w+1}$. Consider weights $$\begin{equation}
-\label{eq:translated-torsion-weights}
+\tag{47}
                  \eta_1(5)=c\zeta,
        \qquad \zeta\in\mu_{2^\infty}.
 \end{equation}$$ These are continuous characters of $1+4\mathbb Z_2$: this group is procyclic with generator $5$, and $c\zeta$ lies in the open unit neighborhood of $1$ in its finite coefficient field. We are specifying a character value, not asserting that $(w+1)/2$ is an integral Hodge–Tate weight.
 
-The weights in (eq:translated-torsion-weights) are Zariski dense in $\mathop{\mathrm{Spec}}\Lambda$. Indeed, after dividing by its maximal scalar power, a nonzero element of $\mathcal O[[T]]$ is a unit times a distinguished polynomial by Weierstrass preparation and has only finitely many zeros in the open unit disk. Finite dominance then gives a dense set of coefficient points of $\mathscr D$ above these weights, even after removing any prescribed proper closed subset. To see the last assertion directly, a nonzero ideal of the finite integral domain $\mathscr D$ meets $\Lambda$ nontrivially: an integral equation of minimal degree for a nonzero element of the ideal has nonzero constant term. Thus every proper closed subset has proper closed image in $\mathop{\mathrm{Spec}}\Lambda$.
+The weights in (47) are Zariski dense in $\mathop{\mathrm{Spec}}\Lambda$. Indeed, after dividing by its maximal scalar power, a nonzero element of $\mathcal O[[T]]$ is a unit times a distinguished polynomial by Weierstrass preparation and has only finitely many zeros in the open unit disk. Finite dominance then gives a dense set of coefficient points of $\mathscr D$ above these weights, even after removing any prescribed proper closed subset. To see the last assertion directly, a nonzero ideal of the finite integral domain $\mathscr D$ meets $\Lambda$ nontrivially: an integral equation of minimal degree for a nonzero element of the ideal has nonzero constant term. Thus every proper closed subset has proper closed image in $\mathop{\mathrm{Spec}}\Lambda$.
 
 On inertia, the ratio at these points has the form $$\begin{equation}
-\label{eq:ordinary-ratio-xi}
+\tag{48}
                     \eta_1\eta_2^{-1}=\varepsilon\xi,
 \end{equation}$$ where $\xi$ has finite order. This follows from $\eta_1^2/\chi$ on $1+4\mathbb Z_2$, and the remaining unit quotient is finite. The finite part of $\chi$ is fixed; at most finitely many choices of $\zeta$ make $\xi$ trivial. We discard them, as well as the globally reducible loci before and after restriction to $F$.
 
 There is a single continuous normalizing character over the family. The character $\eta_2$ on inertia factors through the local unit group $\mathbb Z_2^\times$ by local class field theory. Denote this unit character by $\eta_{2,\mathrm{u}}$, and put $$\begin{equation}
-\label{eq:normalizing-character}
+\tag{49}
  \lambda(g)=\eta_{2,\mathrm{u}}\bigl(\varepsilon(g)\bigr)^{-1},
  \qquad g\in G_{\mathbb Q}.
 \end{equation}$$ This character is continuous and unramified outside $2$. At a point chosen above, write $r'=r_x\otimes\lambda_x$ and $\eta'_j=\eta_{j,x}\lambda_x$. Then $$\begin{equation}
-\label{eq:normalized-ordinary-characters}
+\tag{50}
                 \eta'_1=u_h\xi\varepsilon,
           \qquad\eta'_2=u_l,
 \end{equation}$$ with $u_h,u_l$ unramified and $\xi$ of nontrivial finite inertia.
 
 **Lemma 8.5**. *Every representation $r'$ just constructed is odd, absolutely irreducible, finitely ramified, ordinary, and potentially crystalline with cyclotomic exponents $\{1,0\}$. It is modular.*
 
-*Proof.* The two diagonal characters in (eq:normalized-ordinary-characters) are de Rham. Their ratio $\theta=(u_h/u_l)\xi\varepsilon$ has $H^0(\theta)=H^0(\theta^{-1}\varepsilon)=0$, the latter because the finite inertial character is nontrivial. Thus (eq:rank-one-euler) gives $\dim H^1(\mathbb Q_2,\theta)=1$. In (eq:rank-one-geometric) the de Rham tangent term has dimension one, while the other two terms vanish. Hence every extension class belongs to $H^1_g$ and $r'$ is de Rham.
+*Proof.* The two diagonal characters in (50) are de Rham. Their ratio $\theta=(u_h/u_l)\xi\varepsilon$ has $H^0(\theta)=H^0(\theta^{-1}\varepsilon)=0$, the latter because the finite inertial character is nontrivial. Thus (40) gives $\dim H^1(\mathbb Q_2,\theta)=1$. In (41) the de Rham tangent term has dimension one, while the other two terms vanish. Hence every extension class belongs to $H^1_g$ and $r'$ is de Rham.
 
 The $p$-adic monodromy theorem makes it potentially semistable (Berger 2002, Theorems 0.6 and 5.19). Its two finite inertial characters are distinct. Monodromy commutes with inertia, so it preserves their two eigenspaces; it vanishes on each by nilpotence. Thus it is potentially crystalline.
 
@@ -1191,11 +1191,11 @@ Twisting preserves absolute irreducibility and finite ramification. For a comple
    u_l^{-1}&*\\0&\varepsilon^{-1}u_h^{-1}\xi^{-1}
  \end{pmatrix}.$$ All the hypotheses of (Thorne 2026, Theorem D) are now satisfied. That theorem makes the dual modular, and hence makes $r'$ modular. ◻
 
-The modular representations in this lemma have a common bound for their tame conductors. Indeed, the original noetherian Galois family has, at each non-dyadic bad prime, a common open inertia subgroup on which its action is unipotent, as in Lemma 3.9. The finite inertial quotient is fixed, and the rank-two monodromy contribution is bounded. This bounds the Artin conductor after the fixed base change to $F$. The normalizing characters add no non-dyadic inertia. Consequently, after replacing the tame compact subgroup by one smaller subgroup, all these modular forms occur at a single tame level. Solvable base change, iterated through prime-degree cyclic extensions, and Jacquet–Langlands put them in the definite forms over $F$; see (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4), (Arthur and Clozel 1989, III, Theorems 4.2 and 5.1), and (Jacquet and Langlands 1970, Theorem 16.1).
+The modular representations in this lemma have a common bound for their tame conductors. Indeed, the original noetherian Galois family has, at each non-dyadic bad prime, a common open inertia subgroup on which its action is unipotent, as in Lemma 3.9. The finite inertial quotient is fixed, and the rank-two monodromy contribution is bounded. This bounds the Artin conductor after the fixed base change to $F$. The normalizing characters add no non-dyadic inertia. Consequently, after replacing the tame compact subgroup by one smaller subgroup, all these modular forms occur at a single tame level. Solvable base change, iterated through prime-degree cyclic extensions, and Jacquet–Langlands put them in the definite forms over $F$; see (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4), (Arthur and Clozel 1989, Chapter III, Theorems 4.2 and 5.1), and (Jacquet and Langlands 1970, Theorem 16.1).
 
 ### The required inducing order
 
-We next track the order at the dense modular points, rather than selecting it from a semisimple Banach fiber. In the geometric reciprocity convention $\varepsilon=x|x|$, one has $\mathop{\mathrm{WD}}(\varepsilon)=|\cdot|$. For the normalized characters (eq:normalized-ordinary-characters), the two characters of $\mathop{\mathrm{WD}}(r'\otimes\varepsilon)$ are $$\theta_h=u_h\xi|\cdot|^2,
+We next track the order at the dense modular points, rather than selecting it from a semisimple Banach fiber. In the geometric reciprocity convention $\varepsilon=x|x|$, one has $\mathop{\mathrm{WD}}(\varepsilon)=|\cdot|$. For the normalized characters (50), the two characters of $\mathop{\mathrm{WD}}(r'\otimes\varepsilon)$ are $$\theta_h=u_h\xi|\cdot|^2,
           \qquad\theta_l=u_l|\cdot|.$$ Here the same notation for a finite or unramified character denotes its character under local reciprocity. A regular algebraic Hilbert form on $\mathop{\mathrm{GL}}_2$ is essentially self-dual via its central character. Local–global compatibility identifies the smooth principal series: the underlying semisimple Weil representation has these distinct inertial characters, and no monodromy can join them. This also follows from the compatibility up to the monodromy order of (Barnet-Lamb et al. 2014a, Corollary 1.2), since that order preserves the underlying semisimple Weil representation and monodromy is zero in this case.
 
 In the conventions of Proposition 4.2, put the smooth inducing characters in the order $$(\theta_l,\theta_h|\cdot|^{-1})
@@ -1203,12 +1203,12 @@ In the conventions of Proposition 4.2, put the smooth inducing characters in th
                          =(\eta'_2\varepsilon,\eta'_1).$$ For unnormalized smooth induction, the intertwiner changes an inducing pair $(A,B)$ to $(B|\cdot|,A|\cdot|^{-1})$. The two orders here are therefore intertwined with the appropriate modulus factors, with no exceptional ratio because their inertial characters differ. Equivalently, this is the weight-two instance of the ordinary universal completion formula (Breuil and Emerton 2010, Proposition 2.2.1); that proposition applies at $2$ and concerns the locally algebraic induction. In particular, the lower-disk vector used above already belongs to this locally algebraic representation.
 
 Undo the twist by multiplying definite functions by $\lambda_x^{-1}$ evaluated on the reduced norm, via global reciprocity. Rational reduced norms are totally positive, so this is well-defined on the definite quotient. It changes the central character back to $\chi\varepsilon$ and changes the inducing assignment to $$\begin{equation}
-\label{eq:favorable-ordinary-order}
+\tag{51}
                        (\eta_2\varepsilon,\eta_1)
                  \quad\text{at every }v\mid2.
 \end{equation}$$ Lower invariance is preserved, and the $U$-eigenvalue is multiplied by a unit. All dyadic places have the same order because they are split over $\mathbb Q$ and the family and normalizing character descend from $\mathbb Q$.
 
-At this common tame level, let $M$ and $S$ again denote the ordinary dual and its joint trace-and-weight image algebra. Write $s_{\mathrm{fav}}:\Omega\to\Lambda$ for the single assignment (eq:favorable-ordinary-order), and set $$S_{\mathrm{fav}}
+At this common tame level, let $M$ and $S$ again denote the ordinary dual and its joint trace-and-weight image algebra. Write $s_{\mathrm{fav}}:\Omega\to\Lambda$ for the single assignment (51), and set $$S_{\mathrm{fav}}
    =S\widehat\otimes_{\Omega,s_{\mathrm{fav}}}\Lambda,
  \qquad
  I_{\mathrm{fav}}
@@ -1227,11 +1227,11 @@ The favorable character order has now reached the target. To use it in a classic
 
 The corresponding nonzero map $$M\otimes_{\mathcal O}\mathcal O'\longrightarrow E'$$ is continuous. Indeed, $M$ is finite over weight space and its weight values lie in the formal open unit disk. Its image is a compact $\mathcal O'$-submodule spanning $E'$, hence a lattice; rescale it to $\mathcal O'$. The scalar actions preserve this lattice. In particular the $U$-eigenvalue is a unit because $U^{-1}$ preserves it as well.
 
-Applying $\mathcal O'$-linear Pontryagin duality, with values in $E'/\mathcal O'$, produces an equivariant injection $$E'/\mathcal O'\lhook\joinrel\longrightarrow
+Applying $\mathcal O'$-linear Pontryagin duality, with values in $E'/\mathcal O'$, produces an equivariant injection $$E'/\mathcal O'\hookrightarrow
                     W_{\mathcal O'}\subset\mathcal H_{\mathcal O'}.$$ The image $f_n$ of $\varpi'^{-n}$ has exact order $\varpi'^n$ and satisfies $\varpi'f_{n+1}=f_n$. Taking the Tate module gives a nonzero continuous integral completed-forms vector. Explicitly, a compatible sequence of continuous functions modulo $\varpi'^n$ determines a continuous $\mathcal O'$-valued function, because each of its reductions is continuous; conversely every such integral function gives that sequence. Exact orders ensure that the resulting vector is nonzero. All Hecke and torus eigenrelations, lower invariance, and the $U$-eigenrelation pass to this inverse limit. This construction finds a divisible copy inside $W$; it does not require $W$ itself to be divisible. ◻
 
 Apply the lemma to the target. Its torus eigencharacter, restricted to a sufficiently small open subgroup, is algebraic with exponents $e_{1,v},e_{2,v}$ satisfying $$\begin{equation}
-\label{eq:nonnegative-algebraic-degree}
+\tag{52}
  e_{2,v}-e_{1,v}
    =\operatorname{exp}(\eta_1)-\operatorname{exp}(\eta_2)-1\ge0.
 \end{equation}$$ The inequality follows from the choice of the higher line and the integrality and distinctness of the target weights. We have therefore obtained a genuine ordinary eigenvector whose torus exponents have the order needed for an algebraic representation. It remains to identify the algebraic form of its orbit on a sufficiently small open subgroup.
@@ -1242,35 +1242,35 @@ Apply the lemma to the target. Its torus eigencharacter, restricted to a suffici
                 \det^{e_{1,v}}\operatorname{Sym}^{\delta_v}(E'^2).$$*
 
 *Proof.* Choose $m\ge2$ so the stated torus character holds on $\prod_v(1+2^m\mathbb Z_2)^2$, and put $X=(2^m\mathbb Z_2)^{[F:\mathbb Q]}$. Lower invariance gives $$U^jf=\sum_{b\bmod 2^j}n^-(b)\mathbf p^jf,$$ independently of the integral lifts of $b$. For $x\in X$ the map $a\mapsto a/(1-xa)$ permutes these residue classes. With $c=1-xa$, direct matrix multiplication gives $$\begin{equation}
-\label{eq:polynomial-Gauss}
+\tag{53}
  n^+(x)n^-\!\left(\frac a{1-xa}\right)\mathbf p^j
  =n^-(a)\mathbf p^j
         \operatorname{diag}(c^{-1},c)n^+(2^jxc).
 \end{equation}$$ Define the $V$-valued polynomial $$P_j(x)=\alpha^{-j}\sum_{a\bmod2^j}
               \prod_v(1-x_va_v)^{\delta_v}\,
-                    n^-(a)\mathbf p^jf.$$ Its multidegree is bounded by $\delta$. Use a $G_2$-invariant nonarchimedean norm on $V$. The torus eigenrelation, (eq:polynomial-Gauss), and the ultrametric inequality give $$\begin{equation}
-\label{eq:polynomial-uniform-error}
+                    n^-(a)\mathbf p^jf.$$ Its multidegree is bounded by $\delta$. Use a $G_2$-invariant nonarchimedean norm on $V$. The torus eigenrelation, (53), and the ultrametric inequality give $$\begin{equation}
+\tag{54}
  \sup_{x\in X}\|n^+(x)f-P_j(x)\|
  \le \sup_{y\in(2^{j+m}\mathbb Z_2)^{[F:\mathbb Q]}}
                          \|n^+(y)f-f\|\longrightarrow0.
 \end{equation}$$ There is no factor for the number of residue classes: the norm of a sum is bounded by the largest norm of a summand. The unit eigenvalue and unitarity also introduce no growing factor. Continuity at the identity proves the final convergence.
 
-For each $v$, choose $\delta_v+1$ distinct points in $2^m\mathbb Z_2$. Evaluation on their product grid and inversion of the resulting Vandermonde matrices recover all coefficients of a polynomial of multidegree at most $\delta$, continuously in its values. This polynomial space is therefore closed in $C(X,V)$. Equation (eq:polynomial-uniform-error) implies $$\begin{equation}
-\label{eq:upper-orbit-polynomial}
+For each $v$, choose $\delta_v+1$ distinct points in $2^m\mathbb Z_2$. Evaluation on their product grid and inversion of the resulting Vandermonde matrices recover all coefficients of a polynomial of multidegree at most $\delta$, continuously in its values. This polynomial space is therefore closed in $C(X,V)$. Equation (54) implies $$\begin{equation}
+\tag{55}
                 n^+(x)f=\sum_{0\le\nu\le\delta}x^\nu v_\nu.
 \end{equation}$$
 
 For completeness, we identify an algebraic representation containing the resulting orbit. Put $H=\prod_v(1+2^mM_2(\mathbb Z_2))$ and write $h_v=\left(\begin{smallmatrix}A_v&B_v\\C_v&D_v\end{smallmatrix}\right)$. Its Gauss decomposition is $$h_v=n^+(B_v/D_v)
        \operatorname{diag}(\det(h_v)/D_v,D_v)n^-(C_v/D_v).$$ Every factor lies in the neighborhoods already considered. Hence $$\begin{equation}
-\label{eq:algebraic-orbit-coefficients}
+\tag{56}
  hf=\sum_{0\le\nu\le\delta}
        \prod_v\det(h_v)^{e_{1,v}}
                B_v^{\nu_v}D_v^{\delta_v-\nu_v}\,v_\nu.
 \end{equation}$$ These are regular algebraic functions on $G_2$, also when some $e_{1,v}$ is negative, since powers of the determinant are invertible in its coordinate ring.
 
-Let $z_0=\bigotimes_ve_2^{\delta_v}\in A$, with the determinant factors understood. In the binomially scaled monomial basis $E_\nu$ of $A$, one has $n^+(x)z_0=\sum_\nu x^\nu E_\nu$. Define $\Theta:A\to V$ by $\Theta(E_\nu)=v_\nu$. Formula (eq:algebraic-orbit-coefficients) says $\Theta(hz_0)=hf$ for $h\in H$. The vectors $kz_0$, $k\in H$, span $A$, by the same upper-unipotent interpolation. Thus $$\Theta(hkz_0)=hkf=h\Theta(kz_0),\qquad h,k\in H,$$ proves that $\Theta$ is $H$-equivariant. Since $H$ is Zariski dense, its invariant subspace $\ker\Theta\subset A$ is an algebraic subrepresentation. The representation $A$ is irreducible and $\Theta(z_0)=f\ne0$, so $\Theta$ is injective. Its image contains $f$ and has algebraic type $A$. This proves local algebraicity without any assertion that algebraic vectors commute with specialization. ◻
+Let $z_0=\bigotimes_ve_2^{\delta_v}\in A$, with the determinant factors understood. In the binomially scaled monomial basis $E_\nu$ of $A$, one has $n^+(x)z_0=\sum_\nu x^\nu E_\nu$. Define $\Theta:A\to V$ by $\Theta(E_\nu)=v_\nu$. Formula (56) says $\Theta(hz_0)=hf$ for $h\in H$. The vectors $kz_0$, $k\in H$, span $A$, by the same upper-unipotent interpolation. Thus $$\Theta(hkz_0)=hkf=h\Theta(kz_0),\qquad h,k\in H,$$ proves that $\Theta$ is $H$-equivariant. Since $H$ is Zariski dense, its invariant subspace $\ker\Theta\subset A$ is an algebraic subrepresentation. The representation $A$ is irreducible and $\Theta(z_0)=f\ne0$, so $\Theta$ is injective. Its image contains $f$ and has algebraic type $A$. This proves local algebraicity without any assertion that algebraic vectors commute with specialization. ◻
 
-The vector of Lemma 8.6 meets these hypotheses by (eq:nonnegative-algebraic-degree). It is therefore a nonzero locally algebraic vector with the target eigensystem.
+The vector of Lemma 8.6 meets these hypotheses by (52). It is therefore a nonzero locally algebraic vector with the target eigensystem.
 
 ### Completion of the proof over $\mathbb Q$
 
@@ -1278,7 +1278,7 @@ If $r|_{G_{\mathbb Q_2}}$ is absolutely irreducible, the preceding ordinary argu
 
 In either local case, the definite-forms comparison of Proposition 4.1 now gives a regular algebraic automorphic eigensystem on the definite quaternion algebra over $F$. It cannot be a reduced-norm character, since its global Galois representation is absolutely irreducible. Jacquet–Langlands therefore gives a regular algebraic Hilbert cusp form (Jacquet and Langlands 1970, Theorem 14.4). Its Galois representation exists at $2$ by (Barnet-Lamb et al. 2014b, Theorem 2.1.1) and agrees with $r|_{G_F}$ by the unramified Hecke identities and Chebotarev.
 
-Finally choose a tower of prime-degree cyclic extensions from $\mathbb Q$ to a solvable Galois closure of $F$, replacing $F$ by that closure if needed. At each stage the Hilbert representation upstairs is invariant under the cyclic Galois group: its conjugates have the same unramified eigensystems because the Galois representation extends downstairs, so strong multiplicity one identifies them (Langlands 1980, chap. 3, Lemma 3.1). Cyclic descent supplies a cuspidal representation downstairs, unique up to characters of that cyclic extension (Arthur and Clozel 1989, III, Theorems 4.2(d) and 5.1); see also the original degree-two construction in (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4). When needed, apply the cited unitary formulation after twisting by a power of the idelic norm, and undo that twist after descent. Every real place splits in the totally real extension, so the corresponding local extension is $\mathbb R/\mathbb R$; archimedean base change therefore preserves the regular algebraic real-place type. The Galois representation of the descended packet and the given representation become isomorphic on restriction upstairs; absolute irreducibility of that restriction implies that they differ by a character of the cyclic quotient. Twist the descended automorphic representation by the inverse finite Hecke character to correct this difference, and continue down the tower. Over $\mathbb Q$ the resulting representation is attached to a classical cusp eigenform, with the Tate twist dictated by the original weights. This proves Theorem 1.1.
+Finally choose a tower of prime-degree cyclic extensions from $\mathbb Q$ to a solvable Galois closure of $F$, replacing $F$ by that closure if needed. At each stage the Hilbert representation upstairs is invariant under the cyclic Galois group: its conjugates have the same unramified eigensystems because the Galois representation extends downstairs, so strong multiplicity one identifies them (Langlands 1980, chap. 3, Lemma 3.1). Cyclic descent supplies a cuspidal representation downstairs, unique up to characters of that cyclic extension (Arthur and Clozel 1989, Chapter III, Theorems 4.2(d) and 5.1); see also the original degree-two construction in (Langlands 1980, chap. 11, Lemma 11.3 and Proposition 11.4). When needed, apply the cited unitary formulation after twisting by a power of the idelic norm, and undo that twist after descent. Every real place splits in the totally real extension, so the corresponding local extension is $\mathbb R/\mathbb R$; archimedean base change therefore preserves the regular algebraic real-place type. The Galois representation of the descended packet and the given representation become isomorphic on restriction upstairs; absolute irreducibility of that restriction implies that they differ by a character of the cyclic quotient. Twist the descended automorphic representation by the inverse finite Hecke character to correct this difference, and continue down the tower. Over $\mathbb Q$ the resulting representation is attached to a classical cusp eigenform, with the Tate twist dictated by the original weights. This proves Theorem 1.1.
 
 ## References
 
@@ -1330,7 +1330,7 @@ Emerton, Matthew, Toby Gee, Lue Pan, and Xinwen Zhu. 2026. *Prescribed Lifts of 
 
 Fontaine, Jean-Marc, and Barry Mazur. 1995. “Geometric Galois Representations.” In *Elliptic Curves, Modular Forms, and Fermat’s Last Theorem*, edited by John Coates and Shing-Tung Yau, I. Series in Number Theory. International Press. <https://www.imo.universite-paris-saclay.fr/~fontaine/mazur.pdf>.
 
-Fresnel, Jean. 1968--1969. “Rang $p$-Adique Du Groupe Des Unités d’un Corps de Nombres.” *Séminaire de Théorie Des Nombres de Bordeaux*, 1968--1969, 1–18. <https://www.numdam.org/item/STNB_1968-1969____A9_0/>.
+Fresnel, Jean. 1968–1969. “Rang $p$-Adique Du Groupe Des Unités d’un Corps de Nombres.” *Séminaire de Théorie Des Nombres de Bordeaux*, 1968–1969, 1–18. <https://www.numdam.org/item/STNB_1968-1969____A9_0/>.
 
 Gee, Toby, and James Newton. 2022. “Patching and the Completed Homology of Locally Symmetric Spaces.” *Journal of the Institute of Mathematics of Jussieu* 21 (2): 395–458. <https://doi.org/10.1017/S1474748020000158>.
 
