@@ -1,7 +1,7 @@
 # A question of Erdős and Graham on Egyptian fractions
 
 David Conlon$^{*}$  Jacob Fox$^{†}$  Xiaoyu He$^{‡}$  Dhruv Mubayi$^{§}$  Huy Tuan Pham$^{¶}$  
-Andrew Suk$^{‖}$  Jacques Verstraëte$^{**}$
+Andrew Suk$^{\|}$  Jacques Verstraëte$^{**}$
 
 **Abstract**
 
@@ -32,7 +32,7 @@ $^{†}$Department of Mathematics, Stanford University, Stanford, CA 94305. Emai
 $^{‡}$Department of Mathematics, Princeton University, Princeton, NJ 08544. Email: xiaoyuh@princeton.edu.  
 $^{§}$Department of Mathematics, Statistics and Computer Science, University of Illinois, Chicago, IL 60607. Email: mubayi@uic.edu.  
 $^{¶}$Department of Mathematics, Stanford University, Stanford, CA 94305. Email: huypham@stanford.edu.  
-$^{‖}$Department of Mathematics, University of California at San Diego, La Jolla, CA 92093. Email: asuk@ucsd.edu.  
+$^{\|}$Department of Mathematics, University of California at San Diego, La Jolla, CA 92093. Email: asuk@ucsd.edu.  
 $^{**}$Department of Mathematics, University of California at San Diego, La Jolla, CA 92093. Email: jacques@ucsd.edu.
 
 ## 2 Counting through entropy

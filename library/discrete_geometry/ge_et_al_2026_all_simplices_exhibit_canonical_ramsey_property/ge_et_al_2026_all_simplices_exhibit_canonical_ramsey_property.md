@@ -66,7 +66,7 @@ We also use the following standard contraction from the work of Frankl and Rödl
 
 $$\lVert\bm{a}^{-}_{i}-\bm{a}^{-}_{j}\rVert^{2}=\lVert\bm{a}_{i}-\bm{a}_{j}\rVert^{2}-\lambda^{2}$$
 
-for all $1\leq i<j\leq k.
+for all $1\leq i<j\leq k$.
 
 *Proof of Lemma 2.2.* Translate $A$ so that $\bm{a}_{1}=\bm{0}$, and let $G$ be the positive definite Gram matrix of $\bm{a}_{2},\ldots,\bm{a}_{k}$. Let $I$ and $J$ be, respectively, the identity and all-ones matrices of order $k-1$. For sufficiently small $\lambda>0$, the matrix
 

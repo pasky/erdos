@@ -152,7 +152,7 @@ $$
 
 (ii) The $\alpha(p-1)$ AP's $\langle a_i^{(k)},d_i^{(k)}\rangle$ are pairwise disjoint, and each is disjoint from $\langle a,d\rangle$.
 
-Proof. (i) We prove the result for an arbitrary value of $k.
+Proof. (i) We prove the result for an arbitrary value of $k$.
 
 Let $\mathcal C$ be a minimal subcollection of $\mathcal A$ such that $\mathcal C$ covers $\langle a,p^{k-1}\rangle$ and let $\mathcal C^*$ be the reduction of $\mathcal C$ via $\langle a,p^{k-1}\rangle$. Now $\langle a,d\rangle$ is a subset of $\langle a,p^{k-1}\rangle$ so the regularity of $\mathcal A$ implies that $\langle a,d\rangle$ belongs to $\mathcal C$. By (ii) of Lemma 3 $\langle 0,d/p^{k-1}\rangle$ belongs to $\mathcal C^*$. Since $p$ divides $d/p^{k-1}$ Lemma 2 implies that $\mathcal C^*$ contains a further $p-1$ AP's $\langle a_1^*,d_1^*\rangle,\ldots,\langle a_{p-1}^*,d_{p-1}^*\rangle$ such that $\{0, a_1^*, \ldots, a_{p-1}^*\}$ is a complete residue system modulo $p$ and that each $d_i^*$ is divisible by $p$.
 

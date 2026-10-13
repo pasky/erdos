@@ -216,7 +216,7 @@ n={}&(n_{k-1}-n_{k-2}-3(k-1)u+1)\\
 \end{aligned}
 $$
 
-for \(u=1,2,\ldots,k\). Thus, if \(n\in[N_{k-1}+1,N_k-1]\), then \(n\) has at least \(k representations as a sum of two elements of $B_k\cup B_{k-1}\cup B_{k-2}$. This completes the proof of Lemma 3.
+for $u=1,2,\ldots,k$. Thus, if $n\in[N_{k-1}+1,N_k-1]$, then $n$ has at least $k$ representations as a sum of two elements of $B_k\cup B_{k-1}\cup B_{k-2}$. This completes the proof of Lemma 3.
 
 LEMMA 4. Let $B$ be the set of integers defined in Lemma 3. Let $r_B(n)$ denote the number of representations of $n$ in the form $n=b+b'$, where $b,b'\in B$ and $b\leq b'$. Then $r_B(N_k)=0$ for all $k$, and $r_B(n)\to\infty$ as $n\to\infty$, $n\ne N_k$.
 

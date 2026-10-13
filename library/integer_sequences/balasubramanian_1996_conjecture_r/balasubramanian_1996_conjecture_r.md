@@ -455,7 +455,7 @@ $$
 \frac{N+\alpha-p}{p-\alpha}\min\left(\frac{Y_1}{(Y_1,Y_2)},\frac{Y_2}{(Y_1,Y_2)}\right)\geq\frac{Y_2-Y_1}{(Y_1,Y_2)}.
 $$
 
-Since $Y_1$ and $Y_2$ divide $p-\alpha$, $\frac{Y_1Y_2}{(Y_1,Y_2)^2}\mid p-\alpha$ and so $\frac{Y_1Y_2}{(Y_1,Y_2)^2} $\leq p-\alpha$. Hence
+Since $Y_1$ and $Y_2$ divide $p-\alpha$, $\frac{Y_1Y_2}{(Y_1,Y_2)^2}\mid p-\alpha$ and so $\frac{Y_1Y_2}{(Y_1,Y_2)^2}\leq p-\alpha$. Hence
 
 $$
 \begin{aligned}
@@ -515,7 +515,7 @@ If we put $x=(Y_2,Y_3)/(Y_3,Y_1)\in(0,1)$ then we must have $4(1-x)\geq(\sqrt{N}
 
 **Proof.** An inspection of the table on page 85 of [7] reveals the existence of a prime in the interval $(x,x+\sqrt{x}/(1+\sqrt{2}))$ for $6900<x<4.44\cdot 10^{12}$. Thus for our range of $N$ we can find $p$ in $[2N-\sqrt{N},2N-\sqrt{N}/(1+\sqrt{2})]$ with $\pi(N)-\pi(p-N)\geq1$. Thus from Section 2 there exists $\alpha\in\mathbf{J}_p$ with $r_p(\alpha)\geq2$.
 
-From Lemma 2.3 it follows that either $X_1X_2\geq\alpha^2/(N-\alpha)^2$ or $Y_1Y_2\geq (p-\alpha)^2/(N+\alpha-p)^2$, where $X_i,Y_i$ have their usual meanings. Since $X_1X_2\mid\alpha and $Y_1Y_2 \mid (p-\alpha)$ we must have either $\alpha \leq (N-\alpha)^2$ or $p-\alpha \leq (N+\alpha-p)^2$. Neither of the above can hold. This completes the proof.
+From Lemma 2.3 it follows that either $X_1X_2\geq\alpha^2/(N-\alpha)^2$ or $Y_1Y_2\geq (p-\alpha)^2/(N+\alpha-p)^2$, where $X_i,Y_i$ have their usual meanings. Since $X_1X_2\mid\alpha$ and $Y_1Y_2 \mid (p-\alpha)$ we must have either $\alpha \leq (N-\alpha)^2$ or $p-\alpha \leq (N+\alpha-p)^2$. Neither of the above can hold. This completes the proof.
 
 **LEMMA 3.3.** *If for any $j = 0, 1, 2$ or $3$ there exists a prime $p$ in $[2N - \sqrt{(j+1)N}, 2N - \sqrt{jN}]$ such that $\pi(N) - \pi(p - N - 1) \geq r + 1$, where*
 

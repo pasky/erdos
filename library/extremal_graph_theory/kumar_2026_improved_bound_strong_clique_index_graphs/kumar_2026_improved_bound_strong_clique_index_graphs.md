@@ -541,9 +541,7 @@ It is possible for $\alpha\in\mathrm{PG}(2,q)$ to lie in $\alpha^\perp$ and so $
 
 *(iii) $\operatorname{diam}(L(G[H,q]))\leq 3$.*
 
-*Proof.* Consider a vertex $(u,\alpha)\in V(G[H,q])$. The vertex $u$ has degree $\Delta(H)$ in $H$. For each neighbour $v$ of $u$ in $H, the possible second coordinates $\beta$ are precisely the points of the line $\alpha^\perp$, of which there are $q+1$. Therefore, every vertex $(u,\alpha)$ of $G[H,q]$ has degree $\Delta(H)(q+1)$. This proves
-
-*(i).*
+*Proof.* Consider a vertex $(u,\alpha)\in V(G[H,q])$. The vertex $u$ has degree $\Delta(H)$ in $H$. For each neighbour $v$ of $u$ in $H$, the possible second coordinates $\beta$ are precisely the points of the line $\alpha^\perp$, of which there are $q+1$. Therefore, every vertex $(u,\alpha)$ of $G[H,q]$ has degree $\Delta(H)(q+1)$. This proves $(i)$.
 
 To see $(ii)$, observe that
 

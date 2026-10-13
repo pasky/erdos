@@ -131,7 +131,7 @@ where
 
 $$T_2=\langle(1\,3\,4),\ (1\,3)(2\,5)\rangle,\qquad T_3=\langle(1\,2\,4),\ (1\,2)(3\,5)\rangle$$
 
-are further copies of $S_3$ (index $10$). These nine cosets are pairwise disjoint and their union is all of $A_5$ (a finite check; see the appendix and the ancillary script), giving a coset partition with the stated index multiset and $\frac{3}{6}+\frac{3}{10}+\frac{3}{15}=1$. A coset partition has pairwise disjoint parts, so its index tuple is $G$-harmonic; and $(6,6,6,10,10,10,15,15,15)$ satisfies the hypotheses of Lemma 2.1(i) (three $6$’s, the entry $10$, the entry $15), so it is not $\mathbb{Z}$-harmonic. $\square$
+are further copies of $S_3$ (index $10$). These nine cosets are pairwise disjoint and their union is all of $A_5$ (a finite check; see the appendix and the ancillary script), giving a coset partition with the stated index multiset and $\frac{3}{6}+\frac{3}{10}+\frac{3}{15}=1$. A coset partition has pairwise disjoint parts, so its index tuple is $G$-harmonic; and $(6,6,6,10,10,10,15,15,15)$ satisfies the hypotheses of Lemma 2.1(i) (three $6$’s, the entry $10$, the entry $15$), so it is not $\mathbb{Z}$-harmonic. $\square$
 
 The nine indices are not pairwise distinct; the partition carries multiplicity, consistent with the Herzog–Schönheim conjecture (see Section 6).
 

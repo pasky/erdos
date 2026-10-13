@@ -342,7 +342,7 @@ This provides the necessary context for the following classical transference the
 **Proposition 3.2.** *Let $L_1(\bm{x}),\ldots,L_N(\bm{x})$ be $N\in\mathbb{N}$ homogeneous linear forms in an integral variable $\bm{x}\in\mathbb{Z}^{M}$, where $M\in\mathbb{N}$. Given $C,X>0$, if:*
 
 $$
-\max_{1\leq i\leq N}\|L_i(\bm{x})\|\geq C\quad\quad\forall\;\bm{x}\in(-X,X)^M\setminus\{\bm{0}\},
+\max_{1\leq i\leq N}\|L_i(\bm{x})\|\geq C\quad\quad\forall\;\bm{x}\in(\mkern-4mu\vert -X,X\vert\mkern-4mu)^M\setminus\{\bm{0}\},
 $$
 
 then for all $\bm{\alpha}\in[0,1)^N$, there exists an $\bm{x}\in\mathbb{Z}^M$ such that

@@ -909,7 +909,7 @@ $$
 \log z(n+h)=\log y_i\{1+O_{C_\Psi}(t^{-J-1})\}.
 $$
 
-Thus varying-threshold tuple counts lie between the fixed-cutoff counts at $y_i^{1-\epsilon}$ and $y_i^{1+\epsilon}$, where $\epsilon\ll_{C_\Psi}t^{-J-1}$. For every nonzero pattern of size $k=O_\kappa(\ell)$, all primes in this band exceed $2k eventually, so (26) gives
+Thus varying-threshold tuple counts lie between the fixed-cutoff counts at $y_i^{1-\epsilon}$ and $y_i^{1+\epsilon}$, where $\epsilon\ll_{C_\Psi}t^{-J-1}$. For every nonzero pattern of size $k=O_\kappa(\ell)$, all primes in this band exceed $2k$ eventually, so (26) gives
 
 $$
 \frac{V_E(y_i^{1\pm\epsilon})}{V_E(y_i)}=1+O(kt^{-J-1}+ke^{-\eta/3}). \tag{27}

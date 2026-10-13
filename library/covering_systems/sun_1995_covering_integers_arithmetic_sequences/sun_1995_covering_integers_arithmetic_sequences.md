@@ -70,7 +70,7 @@ $$
 (3)\quad \prod_{s=1}^k\left(1-r^{1/\beta_s}e^{2\pi i(\alpha_s-x)/\beta_s}\right)=o\left((1-r)^{m-1}\right)\quad(r\to1).
 $$
 
-Proof. Set $I=\{1\le s\le k:x\in\alpha_s+\beta_s\mathbb{Z}\}$ and $I'=\{1,\ldots,k\}\setminus I.
+Proof. Set $I=\{1\le s\le k:x\in\alpha_s+\beta_s\mathbb{Z}\}$ and $I'=\{1,\ldots,k\}\setminus I$.
 
 Clearly,
 

@@ -717,7 +717,7 @@ Given a positive integer $n$, let $m$ denote an integer such that $4^{n-1}<m\leq
 
 (2) If $m=4^n$, then consider the elements of $H_n$ and $K_n$ as representatives for the elements of $\mathbb{Z}_{4^n}$. The $2^n$ elements corresponding to $H_n$ form a complete $(2,-1)$-avoiding set in $\mathbb{Z}_m$.
 
-(3) If $\frac{1}{3}(4^n-1)+1\leq m<4^n$ then consider any interval $[x,y]$, $H_n\subseteq[x,y]\subseteq K_n$, of size $m$ as a representative for $\mathbb{Z}_m$. Then the elements corresponding to $H_n$ form a $(2,-1)$-saturating set of size less than $\sqrt{3m}$ in $\mathbb{Z}_m.
+(3) If $\frac{1}{3}(4^n-1)+1\leq m<4^n$ then consider any interval $[x,y]$, $H_n\subseteq[x,y]\subseteq K_n$, of size $m$ as a representative for $\mathbb{Z}_m$. Then the elements corresponding to $H_n$ form a $(2,-1)$-saturating set of size less than $\sqrt{3m}$ in $\mathbb{Z}_m$.
 
 If $\frac{2}{3}(4^n-1)<m$ then $H_n$ corresponds to a complete $(2,-1)$-avoiding set.
 

@@ -627,7 +627,7 @@ $$
 \text{no infinite } B\subseteq\mathbb{N}\text{ has monochromatic }B+B\text{ under }b. \tag{H}
 $$
 
-Choose $b(0)$ arbitrarily. The extension to $\mathbb{N}_0$ still satisfies (H): if an infinite witness contained $0$, deleting $0 would leave an infinite witness in $\mathbb{N}$. Define
+Choose $b(0)$ arbitrarily. The extension to $\mathbb{N}_0$ still satisfies (H): if an infinite witness contained $0$, deleting $0$ would leave an infinite witness in $\mathbb{N}$. Define
 
 $$
 c(n)=b(2n)\ \text{for each } n\in\mathbb{N}_0. \tag{3.1}
@@ -894,7 +894,7 @@ Indeed, $p+p$ and $Dp$ are free by Lemma 2.8(ii), so both orbit limits belong to
 
 **Proposition 3.7.** *Under the standing hypothesis (H), the coloring $h:\mathbb N_0\to\{0,1\}$ obtained above has the following properties:*
 
-$(i)$ no infinite set $B\subseteq\mathbb N$ has $B+B$ monochromatic under $h;
+(i) no infinite set $B\subseteq\mathbb N$ has $B+B$ monochromatic under $h$;
 
 (ii) the set $h^{-1}(1)\cap\mathbb{N}$ is thick in $\mathbb{N}$. More precisely, for every $L,N\in\mathbb{N}$, there is $n\geq N$ such that
 $h(n)=h(n+1)=\cdots=h(n+L)=1$.

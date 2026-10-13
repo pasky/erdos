@@ -193,7 +193,7 @@ $$
 
 where the first inequality uses $|I|\geq 2M\geq 2d$. Thus, the fraction of terms of $P$ that are in $I$ is at least $\frac{C}{C+1}(2/9)|I|/N\geq|I|/(5N)$. This completes the proof of part 1.
 
-To prove part 2, if $P\subset I$, then we are done. So suppose otherwise. Since $P$ wraps around and $P\not\subset I$, some two consecutive terms of $P$ cross the cut between $N-1 and $0$. Then, after possibly applying the symmetry $x\mapsto -1-x$ (which preserves $I$), there is a term $b\in\{0,\ldots,d-1\}$, and moving forward from $b$, the terms $b+jd$ with $b+jd\leq M-1$ are all in $P\cap I$. Together with the previous term $b-d\in P\cap I$, this gives at least $\lfloor M/d\rfloor$ elements in $P\cap I$.
+To prove part 2, if $P\subset I$, then we are done. So suppose otherwise. Since $P$ wraps around and $P\not\subset I$, some two consecutive terms of $P$ cross the cut between $N-1$ and $0$. Then, after possibly applying the symmetry $x\mapsto -1-x$ (which preserves $I$), there is a term $b\in\{0,\ldots,d-1\}$, and moving forward from $b$, the terms $b+jd$ with $b+jd\leq M-1$ are all in $P\cap I$. Together with the previous term $b-d\in P\cap I$, this gives at least $\lfloor M/d\rfloor$ elements in $P\cap I$.
 
 If $P$ has no full rotation, then $kd<N$, so $|P\cap I|/|P|\geq\lfloor M/d\rfloor/(N/d)\geq\frac{1}{2}M/N\geq|I|/(4N)$.
 
@@ -263,7 +263,7 @@ The next lemma is a basic product coloring lemma. From colorings of smaller grou
 
 **Lemma 4.1.** Let $k$ be a positive integer and $H_1,H_2$ be finite abelian groups. Let $G=H_1\times H_2$. Suppose for $i=1,2$ that $c_i:H_i\to[r_i]$ is an $r_i$-coloring of $H_i$ without monochromatic $k$-APs. Then the product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ also has no monochromatic $k$-APs.
 
-**Proof.** The product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ assigns to the pair $(h_1,h_2)\in H_1\times H_2$ the color $(c_1(h_1),c_2(h_2))$. As a $k$-term arithmetic progression has nonzero common difference, a $k$-term arithmetic progression in $H_1\times H_2$ also satisfies for at least one $i\in\{1,2\}$ that when restricted to coordinate $i$ it is also a $k$-AP (so has nonzero common difference). As neither $c_1$ nor $c_2$ has a monochromatic $k$-AP, so does $c_1\times c_2. $\square$
+**Proof.** The product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ assigns to the pair $(h_1,h_2)\in H_1\times H_2$ the color $(c_1(h_1),c_2(h_2))$. As a $k$-term arithmetic progression has nonzero common difference, a $k$-term arithmetic progression in $H_1\times H_2$ also satisfies for at least one $i\in\{1,2\}$ that when restricted to coordinate $i$ it is also a $k$-AP (so has nonzero common difference). As neither $c_1$ nor $c_2$ has a monochromatic $k$-AP, so does $c_1\times c_2$. $\square$
 
 While in Lemma 4.1 the size of the group we are coloring is the product of the sizes of the smaller groups, the number of colors also multiplies. This is a significant drawback, and we would prefer if the number of colors does not increase or at least not by much. This is where random shifted product constructions come to the rescue.
 

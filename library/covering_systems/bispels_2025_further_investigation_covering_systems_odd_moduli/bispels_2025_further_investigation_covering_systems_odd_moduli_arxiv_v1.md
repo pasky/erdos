@@ -250,8 +250,7 @@ Before providing a proof of Theorem 1.1, we first discuss the existence of an od
 
 Next, recall that a *Fermat number* is of the form $2^{2^a}+1$, where $a$ is a positive integer. All Fermat numbers are congruent to $2$ modulo $3$, and therefore the set of Fermat numbers has an odd covering. While the set of perfect numbers and the set Fermat numbers each has an odd covering that stems from $t_3\leq 2$, an odd covering of the union of these two sets does not immediately follow from that result. On the other hand, since any perfect number that satisfies $0\pmod{3}$ must also satisfy $0\pmod{9}$, we see that the union of perfect numbers and Fermat numbers has an odd covering by Corollary 3.2. With this observation, we are now ready to prove Theorem 1.1.
 
-*Proof of Theorem 1.1.* Let $S=\{a\in\mathbb{Z}:\text{if }3\mid a\text{ then }3^2\mid a\}$. The square of an integer is congruent to $0$, $1$, $4$, or $7$ modulo $9$. Thus, every sum of two squares is congruent to $0$, $1,
-
+*Proof of Theorem 1.1.* Let $S=\{a\in\mathbb{Z}:\text{if }3\mid a\text{ then }3^2\mid a\}$. The square of an integer is congruent to $0$, $1$, $4$, or $7$ modulo $9$. Thus, every sum of two squares is congruent to $0$, $1$,
 2, 4, 5, 7, or 8 modulo 9 and is therefore in $S$. Similarly, every sum of two cubes is in $S$ since the cube of an integer is congruent to 0, 1, or 8 modulo 9, and hence, every sum of two cubes is congruent to 0, 1, 2, 7, or 8 modulo 9.
 
 Any powerful number that is divisible by 3 is, by definition, also divisible by 9, and is therefore trivially in $S$. As for primes, the only prime that is divisible by 3 is 3 itself. Since powers of primes are powerful, all primes and powers of primes are elements of $S$.

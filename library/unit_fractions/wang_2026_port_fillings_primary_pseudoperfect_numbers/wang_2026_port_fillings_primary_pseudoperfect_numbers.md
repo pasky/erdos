@@ -63,7 +63,7 @@ $$
 \frac{1}{n}+\sum_{p\mid n}\frac{1}{p}=1, \tag{2}
 $$
 
-where the sum is over the prime divisors of $n.
+where the sum is over the prime divisors of $n$.
 
 OEIS A054377 [15] records the initial values
 
@@ -559,7 +559,7 @@ $$
 q=\frac{113323}{797},
 $$
 
-which is not an integer. Hence no proper nontrivial divisor of $B_2$ fills $H. $\square$
+which is not an integer. Hence no proper nontrivial divisor of $B_2$ fills $H$. $\square$
 
 This filling gives
 

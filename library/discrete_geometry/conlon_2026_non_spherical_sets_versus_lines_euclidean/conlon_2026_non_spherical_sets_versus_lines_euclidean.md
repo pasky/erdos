@@ -24,11 +24,7 @@ The main result of [3] was a proof of this conjecture in the particular case whe
 
 ## 2. Proof of Theorem 1
 
-**2.1. The construction.** By a result of Erdős et al [5, Lemma 14], there exist $c_1,\ldots,c_s\in\mathbb{R}$ and $B>0$ such that every copy $\{x_1,\ldots,x_s\}$ of the non-spherical configuration $X$ satisfies
-\[
-\sum_{j=1}^{s}c_j|x_j|^2=B.
-\]
-Without loss of generality, we can assume that $1\notin\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$, as otherwise we can rescale the equation by a factor $\mu\notin\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$. Now let $b_1,\ldots,b_r$ be a $\mathbb{Q}$-basis for $\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$ and let $q_{j,k}\in\mathbb{Q}$ be such that $c_j=\sum_{k=1}^{r}q_{j,k}b_k$. Let $M\in\mathbb{N}$ be such that $B':=MB>\sum_{j=1}^{s}\sum_{k=1}^{r}|q_{j,k}|$ and let $a_j:=Mb_j$. We may then recast the equation for copies of $X$ as
+**2.1. The construction.** By a result of Erdős et al [5, Lemma 14], there exist $c_1,\ldots,c_s\in\mathbb{R}$ and $B>0$ such that every copy $\{x_1,\ldots,x_s\}$ of the non-spherical configuration $X$ satisfies $\sum_{j=1}^{s}c_j|x_j|^2=B$. Without loss of generality, we can assume that $1\notin\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$, as otherwise we can rescale the equation by a factor $\mu\notin\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$. Now let $b_1,\ldots,b_r$ be a $\mathbb{Q}$-basis for $\langle c_1,\ldots,c_s\rangle_{\mathbb{Q}}$ and let $q_{j,k}\in\mathbb{Q}$ be such that $c_j=\sum_{k=1}^{r}q_{j,k}b_k$. Let $M\in\mathbb{N}$ be such that $B':=MB>\sum_{j=1}^{s}\sum_{k=1}^{r}|q_{j,k}|$ and let $a_j:=Mb_j$. We may then recast the equation for copies of $X$ as
 $$
 \sum_{j=1}^{s}\sum_{k=1}^{r}q_{j,k}a_k|x_j|^2=B'. \tag{1}
 $$

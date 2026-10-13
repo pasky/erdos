@@ -61,7 +61,7 @@ We remark that setting $p=1$ and $X=Y=Z=G$, we see that the Hall-Paige conjectur
 
 This perhaps explains why many of the commonly used tools, such as Alon’s combinatorial Nullstellensatz, were only able to go so far in addressing these questions. On the other hand, one clearly needs use some of the group theoretic structure. Indeed, the key obstruction for problems of this type ends up being some derivative of the Hall-Paige condition, which is inherently group theoretic. As surveyed by Gowers in [32], there are many problems in combinatorics which are difficult for a similar reason. These are problems where “there is too much choice for constructions to be easy to discover, and too little choice for simple probabilistic arguments to work” [32]. Our proof, similar in spirit to Keevash’s celebrated construction of designs [40], uses probabilistic tools but also exploits the algebraic structure of the problem. We give a detailed overview of our strategy in Section 2.
 
-From now on, additive notation will always imply that the corresponding operation is taking place in the abelianization of the ambient group (e.g. when for $A\subseteq G$ we write “$\sum A=e$” we mean that $\prod_{a\in A}\pi_{\mathrm{ab}}(a)=e$ where $\pi_{\mathrm{ab}}:G\to G^{\mathrm{ab}}$ is the quotient map to the abelianization of $G). Otherwise, operations within non-abelian groups will be denoted multiplicatively. The quantity $n$ always denotes the size of the ambient group. We use $e$ to denote the identity element of a group, and we sometimes use $0$ to denote $e$ in the special case of abelian groups.
+From now on, additive notation will always imply that the corresponding operation is taking place in the abelianization of the ambient group (e.g. when for $A\subseteq G$ we write “$\sum A=e$” we mean that $\prod_{a\in A}\pi_{\mathrm{ab}}(a)=e$ where $\pi_{\mathrm{ab}}:G\to G^{\mathrm{ab}}$ is the quotient map to the abelianization of $G$). Otherwise, operations within non-abelian groups will be denoted multiplicatively. The quantity $n$ always denotes the size of the ambient group. We use $e$ to denote the identity element of a group, and we sometimes use $0$ to denote $e$ in the special case of abelian groups.
 
 ### 1.1 Applications
 
@@ -636,7 +636,7 @@ So Theorem 4.3 applies to $R^1,R^2,R^3$. We also have the following property if 
 
 P: For each $i,j\in\{1,2,3\}$, $i\neq j$, $R^i\times R^j$ contains $\geq p^2n/1000$ pairs of the form $(x,x^{-1})$ where for each such pair of pairs $\{x,x^{-1}\}\cap\{y,y^{-1}\}=\emptyset$ (this follows by Chernoff’s bound).
 
-Now consider sets $X,Y,Z$ as in the theorems. Use $(P)$ to pick distinct elements $g_A,g_B,g_C$ with $g_A\in R^2$, $g_A^{-1}\in R^3$, $g_B\in R^1$, $g_B^{-1}\in R^3$, $g_C\in R^1$, $g_C^{-1}\in R^2$. Noting that we have $p^2n/1000$ choices for each $g_A,g_B,g_C$, we can choose them to have $\{g_A,g_A^{-1}\},\{g_B,g_B^{-1}\},\{g_C,g_C^{-1}\}$ disjoint from each other and from $R^1\setminus X,R^2\setminus Y,R^3\setminus Z. The result is that the three edges $f_A:=(e_A,g_A,g_A^{-1}),f_B:=(g_B,e_B,g_B^{-1}),f_C:=(g_C,g_C^{-1},e_C)$ form a matching with all vertices, other than possibly $e_B,e_B,e_C$ contained in $X\cup Y\cup Z$. Let $N=\{f_i:e_i\in X\cup Y\cup Z\}$ to get a matching contained in $X\cup Y\cup Z$ covering all copies of the identity in $X\cup Y\cup Z$.
+Now consider sets $X,Y,Z$ as in the theorems. Use $(P)$ to pick distinct elements $g_A,g_B,g_C$ with $g_A\in R^2$, $g_A^{-1}\in R^3$, $g_B\in R^1$, $g_B^{-1}\in R^3$, $g_C\in R^1$, $g_C^{-1}\in R^2$. Noting that we have $p^2n/1000$ choices for each $g_A,g_B,g_C$, we can choose them to have $\{g_A,g_A^{-1}\},\{g_B,g_B^{-1}\},\{g_C,g_C^{-1}\}$ disjoint from each other and from $R^1\setminus X,R^2\setminus Y,R^3\setminus Z$. The result is that the three edges $f_A:=(e_A,g_A,g_A^{-1}),f_B:=(g_B,e_B,g_B^{-1}),f_C:=(g_C,g_C^{-1},e_C)$ form a matching with all vertices, other than possibly $e_B,e_B,e_C$ contained in $X\cup Y\cup Z$. Let $N=\{f_i:e_i\in X\cup Y\cup Z\}$ to get a matching contained in $X\cup Y\cup Z$ covering all copies of the identity in $X\cup Y\cup Z$.
 
 Let $X'=X\setminus N,Y'=Y\setminus N,Z'=Z\setminus N$, noting that these have the same size and have $\sum X'+\sum Y'+\sum Z'=0$ in $G^{ab}$ (due to $N$ being a matching). Thus the property of Theorem 4.3 applies to give a perfect matching $M$ in $H_G[X',Y',Z']$. Now $M\cup N$ satisfies the theorem. $\square$
 
@@ -812,7 +812,7 @@ Let $g_1,\ldots,g_t\ne e$ be distinct and $U\subseteq G$ with $|U|\leq p^{800}n/
 
 The following theorem of Gallagher is key to our approach and shows that elements of the commutator subgroup can be written as a product of a small number of commutators. Its proof uses character theory.
 
-**Theorem 5.11 (Gallagher, [29]).** Let $G$ be a group. Any $g\in G'$ can be written as $g=\prod_{i=1}^t[a_i,b_i]$ for some $a_i,b_i\in G$ and $t\leq\log_4|G'|\leq 10\log n.
+**Theorem 5.11 (Gallagher, [29]).** Let $G$ be a group. Any $g\in G'$ can be written as $g=\prod_{i=1}^t[a_i,b_i]$ for some $a_i,b_i\in G$ and $t\leq\log_4|G'|\leq 10\log n$.
 
 We now prove one of the main lemmas in this section. It strengthens several earlier lemmas and shows that we can 1-absorb any pair of elements as long as they are in the same coset of $G'$.
 
@@ -1582,7 +1582,7 @@ $y_1,\ldots,y_t$-sets into a single $y$-set for each $y$.
 For $i=3,4,5$, fix $m_i=m_i(M)$. Partition $R=R_3\cup R_4\cup R_5$ into disjoint sets with $R_i$ being $q_i$-random for
 $q_i:=\frac{im_i}{3m_3+4m_4+5m_5}$. For each $i\in\{3,4,5\}$, either $q_i\leq n^{-1/10^{100}}$, or with high probability, $R_i$ satisfies the
 conclusions of Lemmas 6.23 and 6.24. We’ll suppose that $q_3\geq q_4\geq q_5$ — the proof is identical if these are
-ordered differently (switching the roles of $R_3/R_4/R_5$ correspondingly). In particular, we will suppose that $R_3
+ordered differently (switching the roles of $R_3/R_4/R_5$ correspondingly). In particular, we will suppose that $R_3$
 satisfies the conclusions of Lemmas 6.23, 6.24, as well as Lemma 6.1 with high probability. Also, with high
 probability, by Chernoff’s bound, we have $|R_i|=q_i pn\pm\sqrt n\log n$.
 

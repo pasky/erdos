@@ -363,7 +363,7 @@ $(B)_i$ $\sum_{H\in\mathcal{H}_i}|V(H)|\geq\left(1-\frac{i}{(\log\log n)^\alpha}
 
 **Proof of claim.** We prove the claim by induction. By our choice of $\mathcal{H}_1$ as discussed above, we know that $(A)_1$ holds, and that $\sum_{H\in\mathcal{H}_1}|V(H)|\geq\left(1-\frac{1}{(\log n)^\alpha}\right)n\geq\left(1-\frac{1}{(\log\log n)^\alpha}\right)n$, so $(B)_1$ holds as well. Now suppose $(A)_i$ and $(B)_i$ hold for $i=k$ for some $k\geq 1$, and we will show that they hold for $i=k+1$. Suppose that $\varepsilon_k\leq\frac{1}{10}$ (otherwise there is nothing to prove).
 
-Indeed, for every $H\in\mathcal{H}_k$ with $|V(H)|>n_{k+1}$, it follows from $(b)_k$ that $\mathcal{H}_{k+1}(H)=\{H\}$. So we have $d(H)\geq d(1-\varepsilon_k)\geq d(1-\varepsilon_{k+1})$ and $\delta(H)\geq d(H)/2$ by $(A)_k$. For every $H\in\mathcal{H}_k$ with $|V(H)|\leq n_{k+1}$, it follows from $(a)_k and $(A)_k$ that $d(F) \geq d(1-\varepsilon_k(\log |V(H)|)^{28\alpha})$ and $\delta(F) \geq d(F)/2$ for every $F \in \mathcal{H}_{k+1}(H)$. Moreover, notice that we have
+Indeed, for every $H\in\mathcal{H}_k$ with $|V(H)|>n_{k+1}$, it follows from $(b)_k$ that $\mathcal{H}_{k+1}(H)=\{H\}$. So we have $d(H)\geq d(1-\varepsilon_k)\geq d(1-\varepsilon_{k+1})$ and $\delta(H)\geq d(H)/2$ by $(A)_k$. For every $H\in\mathcal{H}_k$ with $|V(H)|\leq n_{k+1}$, it follows from $(a)_k$ and $(A)_k$ that $d(F) \geq d(1-\varepsilon_k(\log |V(H)|)^{28\alpha})$ and $\delta(F) \geq d(F)/2$ for every $F \in \mathcal{H}_{k+1}(H)$. Moreover, notice that we have
 
 $$
 \begin{aligned}

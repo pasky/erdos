@@ -412,7 +412,7 @@ $$
 $$
 
 Suppose that $0<x<\frac{1}{7}$. By (4.2), we know that the real $x$ can be written as $x=\frac{1}{m}-\frac{1}{m}y$,
-where $m\geqslant 6$ and $y\in\left[\frac{1}{7},\frac{3}{7}\right]$. It follows that there exist sequences $K_1,K_2,\ldots,K_k,\ldots\in\{2,3,4\} and $z_1,z_2,\ldots,z_k,\ldots\in\left[\frac{1}{7},\frac{3}{7}\right]$ such that
+where $m\geqslant 6$ and $y\in\left[\frac{1}{7},\frac{3}{7}\right]$. It follows that there exist sequences $K_1,K_2,\ldots,K_k,\cdots\in\{2,3,4\}$ and $z_1,z_2,\ldots,z_k,\cdots\in\left[\frac{1}{7},\frac{3}{7}\right]$ such that
 
 $$
 y=\Pi(K_1,K_2,\ldots)=\sum_{k=1}^{\infty}\frac{(-1)^{k-1}}{K_1K_2\ldots K_k}.

@@ -1482,7 +1482,7 @@ $$
 u_i=\alpha-i,\qquad k_i=\Theta(n/\log n)\quad(2\leq i\leq 5). \tag{5.17}
 $$
 
-Let $Z_{\mathbf{k}}^{\mathrm{sgn}}$ be the number of pairs consisting of a partition with exactly $k_i$ classes of size $u_i$ for $2\leq i\leq 5 and a declaration of each class as independent or complete, such that every declaration is realized by $G_n$. Direct counting gives the exact identity
+Let $Z_{\mathbf{k}}^{\mathrm{sgn}}$ be the number of pairs consisting of a partition with exactly $k_i$ classes of size $u_i$ for $2\leq i\leq 5$ and a declaration of each class as independent or complete, such that every declaration is realized by $G_n$. Direct counting gives the exact identity
 
 $$
 \mathbb{E}\!\left[Z_{\mathbf{k}}^{\mathrm{sgn}}\right]=2^{k_{\mathrm{co}}}\frac{n!}{\prod_i (u_i!)^{k_i}k_i!}2^{-\sum_i k_i\binom{u_i}{2}}, \tag{5.18}
@@ -2369,7 +2369,7 @@ $$
 \sum_{\omega\in\prod_{e\in P}(\{0\}\cup A_e)}\prod_{e\in P}u_e(\omega_e)=\prod_{e\in P}\left(1+\sum_{h\in A_e}u_e(h)\right),
 $$
 
-where each $\omega_e$ is either the zero-deficit choice, of weight one, or one positive deficit $h\in A_e.
+where each $\omega_e$ is either the zero-deficit choice, of weight one, or one positive deficit $h\in A_e$.
 
 For $2h<m$, integrality gives $2h+1\leq m$. Hence
 

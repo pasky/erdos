@@ -222,7 +222,7 @@ $$
 P(z)=\prod_{a\in S_1,\ b\in S_2}(z-(b+s_1-a)),
 $$
 
-we have $\Phi(z)=\log|P(z)|$ on $U_0$, and $P$ is a nonconstant polynomial. Thus $P$ is holomorphic and nonconstant on $U_0$, so by the open mapping theorem its image is open, implying $|P|$ (hence $\Phi$) cannot be constant on $U_0. This contradiction shows that $G$ must be connected. $\square$
+we have $\Phi(z)=\log|P(z)|$ on $U_0$, and $P$ is a nonconstant polynomial. Thus $P$ is holomorphic and nonconstant on $U_0$, so by the open mapping theorem its image is open, implying $|P|$ (hence $\Phi$) cannot be constant on $U_0$. This contradiction shows that $G$ must be connected. $\square$
 
 As a corollary of the triangle inequality, one can deduce the following elementary lemma.
 

@@ -243,7 +243,7 @@ I_L&:=[L\cdot g^{m-k},(L+1)\cdot g^{m-k})\\
 \end{aligned}
 $$
 
-We fix $r$, $m$, and $L$, and count the number of corresponding $n$. It is convenient to sort these $n$ into residue classes modulo $M=\prod_{p\leq z}p^z$, where $z=g^{10k}$. By the Prime Number Theorem, $M\leq 3^{z^2}=x^{o(1)}, where the last equality comes from our restriction on the size of $k$. Let $n'\in(0,M]$ be the least positive representative of $n\pmod M$ and $n_z$ be the $z$-smooth part of $n'$. Excluding the $o(x)$ exceptional values of $n$ described in Lemma 2.3 above, we have
+We fix $r$, $m$, and $L$, and count the number of corresponding $n$. It is convenient to sort these $n$ into residue classes modulo $M=\prod_{p\leq z}p^z$, where $z=g^{10k}$. By the Prime Number Theorem, $M\leq 3^{z^2}=x^{o(1)}$, where the last equality comes from our restriction on the size of $k$. Let $n'\in(0,M]$ be the least positive representative of $n\pmod M$ and $n_z$ be the $z$-smooth part of $n'$. Excluding the $o(x)$ exceptional values of $n$ described in Lemma 2.3 above, we have
 
 $$
 \frac{s(n)}{n}\leq\frac{s(n_z)}{n_z}\left(1+\frac{n_z}{s(n_z)}z^{-1/2}\right)\leq s(n_z)(1+kz^{-1/2}).

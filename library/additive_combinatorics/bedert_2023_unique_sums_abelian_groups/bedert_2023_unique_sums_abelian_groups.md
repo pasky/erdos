@@ -177,7 +177,7 @@ counted with multiplicity if $Z$ is a multiset. We begin by noting that the set 
 
 **Lemma 4.** Let $y\in\Sigma(Z)$ and let $(k_z)_{z\in Z}\in T(y)$ be chosen to minimise $\operatorname{supp}((k_z)_{z\in Z})$ over all elements of $T(y)$. Then $K=\{z\in Z:k_z\neq 0\}$ is a dissociated subset of $Z$.
 
-*Proof.* Suppose for a contradiction that the multiset $K$ is not dissociated. Hence there exist distinct multisubsets $K_1,K_2$ of $K$ so that $\sum_{z\in K_1}z=\sum_{z\in K_2}z$. We may further assume that $K_1$ and $K_2$ are disjoint as removing common elements in $K_1\cap K_2 from both multisets does not change that both multisets have equal sum. Also assume that $|K_1|\geqslant |K_2|$ and define $k^-=\min_{z\in K_1} k_z$. Then we can write
+*Proof.* Suppose for a contradiction that the multiset $K$ is not dissociated. Hence there exist distinct multisubsets $K_1,K_2$ of $K$ so that $\sum_{z\in K_1}z=\sum_{z\in K_2}z$. We may further assume that $K_1$ and $K_2$ are disjoint as removing common elements in $K_1\cap K_2$ from both multisets does not change that both multisets have equal sum. Also assume that $|K_1|\geqslant |K_2|$ and define $k^-=\min_{z\in K_1} k_z$. Then we can write
 
 $$
 \begin{aligned}
@@ -490,7 +490,7 @@ Assuming this proposition for the moment, we can put everything together and com
 
 $$|A|\geqslant\frac{K(A+g)}{2(2+\log_2 K(A+g))}\cdot\log_2 p(G) \tag{21}$$
 
-for some element $g\in G. As $A\subset G$ does not have a unique sum, neither does the translated set $A+g$. By Proposition 5, we then get that
+for some element $g\in G$. As $A\subset G$ does not have a unique sum, neither does the translated set $A+g$. By Proposition 5, we then get that
 
 $$K(A+g)\geqslant\omega_1(p(G)).$$
 
@@ -554,7 +554,7 @@ $$
 
 where here we used the weak bound $|A|\geqslant\log_2 p(G)$ which by Corollary 4 holds even for balanced sets. We deduce that $K(A)\gg\sqrt{\log\log\log p}$ as desired. $\square$
 
-To complete the proof, it now only remains to prove Proposition 6. So far, we have not yet used that $A$ has no unique sum but only the much weaker assumption that $A is balanced. As we saw, the conclusion of Proposition 5 fails completely for a general balanced set, even if most sums are not unique. So our proof of Proposition 6 here must inevitably use that $A$ has no unique sum. This will make the proof somewhat technical, but this seems unavoidable at this stage. We begin with a useful lemma.
+To complete the proof, it now only remains to prove Proposition 6. So far, we have not yet used that $A$ has no unique sum but only the much weaker assumption that $A$ is balanced. As we saw, the conclusion of Proposition 5 fails completely for a general balanced set, even if most sums are not unique. So our proof of Proposition 6 here must inevitably use that $A$ has no unique sum. This will make the proof somewhat technical, but this seems unavoidable at this stage. We begin with a useful lemma.
 
 **Lemma 6.** *Let $G$ be a finite Abelian group and let $S \subset G$ have size at most $\log_2 p(G)$. Then we can assign an element $s_X \in X$ to each non-empty subset $X \subset S$ such that the following holds. Let $X,Y \subset S$ be non-empty subsets, then the only solution to $x+y=s_X+s_Y$ with $x \in X$ and $y \in Y$ is the trivial solution $(x,y)=(s_X,s_Y)$.*
 
@@ -657,7 +657,7 @@ for $i=1,\dots,C_1+|D|+1$, where $e_i,e_i',s_i,s_i'$ exist by definition of $B^{
 
 $$s_{d_i}=s_d,\ s_{d_i'}=s_{d'},\ s_i=s,\ s_i'=s' \tag{38}$$
 
-for all $i. Clearly there are at most $|D|$ of these indices $i$ for which $e_i=e_i'$, so suppose without loss of generality that $e_i\neq e_i'$ for $i=1,\dots,C_1+1$. We will apply Lemma 8 with $P_i=\{d_i,d_i'\}$ and $Q_i=\{e_i,e_i'\}$ for $i=1,\dots,C_1+1$ and we first show that the condition $P_i\cap Q_i=\emptyset$ is satisfied. Indeed, if $d_i=e_i$ for a contradiction (the other cases when $P_i\cap Q_i\ne\emptyset$ can be handled similarly), then (36) would imply that $d'_i+(s_{d_1}+s_{d'_1}-s_1-s'_1)=e'_i$. In other words, $d'_1+v=e'_1$ for some $v\in 2S-2S$ and note that $v\ne 0$ as else $d'_1=e'_1$ but, as $d_1=e_1$, this would contradict (37). However, the existence of a non-zero $v\in 2S-2S$ so that $d'_1+v\in D$ means precisely that $d'_1\in B^{(1)}(D)$ and this is impossible because we removed $B^{(1)}(D)$ from $D$ to obtain $G^{(1)}(D)$. Lemma 8 therefore gives distinct $i,j$ such that $P_i\cap Q_j=\emptyset=P_j\cap Q_i$ and without loss of generality, let $i=1,j=2$. Plugging (38) in (29) then gives
+for all $i$. Clearly there are at most $|D|$ of these indices $i$ for which $e_i=e_i'$, so suppose without loss of generality that $e_i\neq e_i'$ for $i=1,\dots,C_1+1$. We will apply Lemma 8 with $P_i=\{d_i,d_i'\}$ and $Q_i=\{e_i,e_i'\}$ for $i=1,\dots,C_1+1$ and we first show that the condition $P_i\cap Q_i=\emptyset$ is satisfied. Indeed, if $d_i=e_i$ for a contradiction (the other cases when $P_i\cap Q_i\ne\emptyset$ can be handled similarly), then (36) would imply that $d'_i+(s_{d_1}+s_{d'_1}-s_1-s'_1)=e'_i$. In other words, $d'_1+v=e'_1$ for some $v\in 2S-2S$ and note that $v\ne 0$ as else $d'_1=e'_1$ but, as $d_1=e_1$, this would contradict (37). However, the existence of a non-zero $v\in 2S-2S$ so that $d'_1+v\in D$ means precisely that $d'_1\in B^{(1)}(D)$ and this is impossible because we removed $B^{(1)}(D)$ from $D$ to obtain $G^{(1)}(D)$. Lemma 8 therefore gives distinct $i,j$ such that $P_i\cap Q_j=\emptyset=P_j\cap Q_i$ and without loss of generality, let $i=1,j=2$. Plugging (38) in (29) then gives
 
 [^3]: To show that $\{d_1,e_2\},\{d_2,e_1\}$ are subsets of $D$ as opposed to multisubsets, we used the skew Two Families Theorem. For this application, a very simple direct argument would have sufficed, but we will make similar applications of the Two Families Theorem later and hence try to do this in a consistent manner.
 

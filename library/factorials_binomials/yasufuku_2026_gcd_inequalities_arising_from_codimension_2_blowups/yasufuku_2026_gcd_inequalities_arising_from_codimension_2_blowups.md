@@ -109,7 +109,7 @@ $$
 \text{GCD}(a_1+\cdots+a_{n-1}-1,a_n) < (\max_i |a_i|)^{\epsilon_n(1,1)} |a_1 \cdots a_n|'_S \tag{4}
 $$
 
-holds for $[1 : a_1 : \cdots : a_n]$ lying outside a Zariski-closed set $\subsetneq \mathbb{P}^n$. Evertse [5] has shown that for each $\delta < 1$, there are only finitely many $(a_1,\ldots,a_n)$ satisfying $a_1+\cdots+a_n=1$ with no subsum being zero and with $\prod_i |a_i|'_S < (\max |a_i|)^\delta$. Choosing $\rho$ so that $X_1+\cdots+X_{n-1}-X_0=\frac{1}{\rho}X_n is not in the exceptional set of (4) and plugging in $[1 : a_1 : \cdots : a_{n-1} : \rho a_n]$, we get a similar conclusion as [5], but with a weaker $\delta$, that is, $\delta < \frac{1-\epsilon_n(1,1)}{n}$. On the other hand, (4) can be applied even when the corresponding point does not satisfy the unit equation, controlling the GCD of $a_1 + \cdots + a_{n-1} - 1$ and $a_n$ with the outside-$S$-part of the $a_i$'s.
+holds for $[1 : a_1 : \cdots : a_n]$ lying outside a Zariski-closed set $\subsetneq \mathbb{P}^n$. Evertse [5] has shown that for each $\delta < 1$, there are only finitely many $(a_1,\ldots,a_n)$ satisfying $a_1+\cdots+a_n=1$ with no subsum being zero and with $\prod_i |a_i|'_S < (\max |a_i|)^\delta$. Choosing $\rho$ so that $X_1+\cdots+X_{n-1}-X_0=\frac{1}{\rho}X_n$ is not in the exceptional set of (4) and plugging in $[1 : a_1 : \cdots : a_{n-1} : \rho a_n]$, we get a similar conclusion as [5], but with a weaker $\delta$, that is, $\delta < \frac{1-\epsilon_n(1,1)}{n}$. On the other hand, (4) can be applied even when the corresponding point does not satisfy the unit equation, controlling the GCD of $a_1 + \cdots + a_{n-1} - 1$ and $a_n$ with the outside-$S$-part of the $a_i$'s.
 
 We also note that the Nevanlinna version holds:
 

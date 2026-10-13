@@ -376,7 +376,7 @@ M\subseteq\mathbb{F}_{2}^{t}\setminus\{0\}\\
 \end{array}
 \right\}\\
 M&\longmapsto\mathcal{C}_{M}\\
-M_{\mathcal{C}}&\longleftarrow\mathcal{C}
+M_{\mathcal{C}}&\mathrel{\longleftarrow\!\shortmid}\mathcal{C}
 \end{aligned}
 $$
 

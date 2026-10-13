@@ -231,7 +231,7 @@ $$
 (18)\quad N\leq y\leq cN
 $$
 
-(i. e. dropping the restriction $(x,y)=1) we obviously have $S(N,A,c)\subset S^*(N,A,c)$ and we assert that the inequality
+(i. e. dropping the restriction $(x,y)=1$) we obviously have $S(N,A,c)\subset S^*(N,A,c)$ and we assert that the inequality
 
 $$
 (19)\quad |S^*(N,A,c)|\leq 1-\frac{1}{40\pi A^4c^4}

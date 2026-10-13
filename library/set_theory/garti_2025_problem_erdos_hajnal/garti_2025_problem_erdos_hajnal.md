@@ -193,7 +193,7 @@ $(\beth)\quad\lambda=\bigcup_{i\in\theta}\kappa_i=\bigcup_{i\in\theta}\lambda_i.
 
 (ב) If $\alpha<\beta<\lambda^+$ then $\eta_\alpha\ne\eta_\beta$.
 
-(ג) If $B_i\in\mathscr{D}_i$ for every $i\in\theta$ then there is $\alpha_0\in\lambda^+$ such that for every $\alpha_0\leq\alpha\in\lambda^+$ one can find $i_\alpha\in\theta$ so that $\eta_\alpha(i)\in B_i$ whenever $i_\alpha\leq i\in\theta.
+(ג) If $B_i\in\mathscr{D}_i$ for every $i\in\theta$ then there is $\alpha_0\in\lambda^+$ such that for every $\alpha_0\leq\alpha\in\lambda^+$ one can find $i_\alpha\in\theta$ so that $\eta_\alpha(i)\in B_i$ whenever $i_\alpha\leq i\in\theta$.
 
 Then $\lambda^+\nrightarrow(\lambda^+,(3)_\theta)^2$.
 
@@ -205,7 +205,7 @@ We claim that $c$ witnesses the negative arrow relation $\lambda^+\nrightarrow(\
 
 To see this, assume towards contradiction that $A\in[\lambda^+]^{\lambda^+}$ is a counterexample. For every $i\in\theta$ let $A_i=\{\eta_\alpha(i)\mid\alpha\in A\}\subseteq\lambda_i$. We distinguish two cases. In the first case, $A_i\in\mathscr{D}_i^+$ for some $i\in\theta$. Fix such $i$ and choose $\alpha_\beta\in A$ for every $\beta\in A_i$ so that $\eta_{\alpha_\beta}(i)=\beta$. For every $\nu\in\prod_{j<i}\lambda_j$ let $A_{i\nu}=\{\beta\in A_i\mid\eta_{\alpha_\beta}\upharpoonright i=\nu\}$. Thus $A_i=\bigcup\{A_{i\nu}\mid\nu\in\prod_{j<i}\lambda_j\}$. Since $\mathscr{D}_i$ is $\kappa_i$-complete and $\left|\prod_{j<i}\lambda_j\right|<\kappa_i$, for some $\nu\in\prod_{j<i}\lambda_j$ one has $A_{i\nu}\in\mathscr{D}_i^+$. By assumption $(B)(\gimel)$, there are $\beta,\beta'\in A_{i\nu}$ so that $\beta\ne\beta'$ and $c_i(\{\beta,\beta'\})=\varepsilon>0$. By definition, $c(\{\alpha_\beta,\alpha_{\beta'}\})=(i,\varepsilon)\ne(0,0)$. But $\alpha_\beta,\alpha_{\beta'}\in A$, so $c(\{\alpha_\beta,\alpha_{\beta'}\})=(0,0)$, a contradiction.
 
-In the second case, $A_i=\varnothing\ \text{mod}\ \mathscr{D}_i$ for every $i\in\theta$. Recall that $\forall^*i<\theta$ means for every $i\in\theta$ apart from boundedly many ordinals of $\theta$. Define $B=\{\alpha\in\lambda\mid(\forall^*i<\theta)(\eta_\alpha(i)\in A_i)\}$. From $(C)(\gimel)$ we see that $B\in[\lambda]^{<\lambda}$, as $B_i=\lambda_i-A_i\in\mathscr{D}_i$ for every $i\in\theta$ according to the second case. Now if $\alpha\in A$ then, by definition, $\eta_\alpha(i)\in A_i$ for every $i\in\theta. Hence $A\subseteq B$ and consequently $|A|<\lambda$, a contradiction.
+In the second case, $A_i=\varnothing\ \text{mod}\ \mathscr{D}_i$ for every $i\in\theta$. Recall that $\forall^*i<\theta$ means for every $i\in\theta$ apart from boundedly many ordinals of $\theta$. Define $B=\{\alpha\in\lambda\mid(\forall^*i<\theta)(\eta_\alpha(i)\in A_i)\}$. From $(C)(\gimel)$ we see that $B\in[\lambda]^{<\lambda}$, as $B_i=\lambda_i-A_i\in\mathscr{D}_i$ for every $i\in\theta$ according to the second case. Now if $\alpha\in A$ then, by definition, $\eta_\alpha(i)\in A_i$ for every $i\in\theta$. Hence $A\subseteq B$ and consequently $|A|<\lambda$, a contradiction.
 
 $\Box_{2.2}$
 
@@ -283,7 +283,7 @@ Let $\mathbb{D}$ be the forcing notion associated with $R$, and let $V$ be the e
 
 *Proof.*
 
-Let $D$ be a dense subset of $Col^M((\lambda^{+5})^M,<\jmath(\lambda))$, and assume that $D\in M$. We must show that $D\cap K\neq\varnothing$. By the nature of $\jmath$, there are $a\in[\lambda^{++}]^n for some $n\in\omega$ and $f:[\lambda]^n\to V$ so that $\jmath f(a)=D$. Define
+Let $D$ be a dense subset of $Col^M((\lambda^{+5})^M,<\jmath(\lambda))$, and assume that $D\in M$. We must show that $D\cap K\neq\varnothing$. By the nature of $\jmath$, there are $a\in[\lambda^{++}]^n$ for some $n\in\omega$ and $f:[\lambda]^n\to V$ so that $\jmath f(a)=D$. Define
 $D'=\bigcap\{\imath f(z)\mid z\in[(\lambda^{++})^N]^n,\ \imath f(z)$ is a dense open subset of $\operatorname{Col}^N((\lambda^{+5})^N,<\imath(\lambda))\}$.
 
 Clearly $D'\in N$, and since $\operatorname{Col}^N((\lambda^{+5})^N,<\imath(\lambda))$ is $(\lambda^{+5})^N$-distributive and $D'$ is the intersection of less than $(\lambda^+)^N$ dense open sets, we see that $D'$ is dense and open. Thus $D'\cap K\ne\varnothing$ and hence $k(D')\cap K\ne\varnothing$. Notice that $D=k(\imath f)(a)$ for $a\in k([(\lambda^{++})^N]^n)$, hence $D\supseteq k(D')$. In particular, $D\cap K\ne\varnothing$ as sought.
@@ -366,7 +366,7 @@ Let $\mathbb{C}=\prod_{i\leq n}\operatorname{Col}(\rho_{i-1}^{+4},<\rho_i)$, tha
 
 (ג) If there is a direct extension $r$ of $p_\alpha$ which is the same as $p_\alpha$ except that $\bar c^r\upharpoonright n+2=s_\alpha^\frown c_{n+1}^{p_\alpha}$ and $r$ decides the truth value of the statement $\check{\xi}_\alpha\in\tilde{I}$ then $p_\alpha$ already decides this statement.
 
-Let $q$ be an upper bound of $(p_\alpha\mid\alpha\in\rho_n^{+4})$. Such an upper bound exists since all the relevant components are sufficiently closed. Let $q[s]$ denote the condition obtained from $q$ upon replacing $\bar c^q$ by $s^\frown(\bar c^q\upharpoonright[n,\ell g(\bar c^q))).
+Let $q$ be an upper bound of $(p_\alpha\mid\alpha\in\rho_n^{+4})$. Such an upper bound exists since all the relevant components are sufficiently closed. Let $q[s]$ denote the condition obtained from $q$ upon replacing $\bar c^q$ by $s^\frown(\bar c^q\upharpoonright[n,\ell g(\bar c^q)))$.
 
 Let $r_0=\bar c^q\upharpoonright n+1$. For every $s\in\mathbb{C}$ let $I_s=\{\alpha\in\rho_n^{+4}\mid q[s]\Vdash\check{\alpha}\in\tilde{I}\}$, so $I_s\in V$ and $\Vdash_{\mathbb{P}}\tilde{I}\subseteq\bigcup\{I_s\mid r_0\leq_{\mathbb{C}}s\}$. Furthermore, $I_s$ is $0$-monochromatic under $c$ for every $s$ such that $r_0\leq_{\mathbb{C}}s$, hence $I_s\in\mathcal{I}_n$, where $\mathcal{I}_n$ is the dual of $\mathcal{D}_n$. We conclude, therefore, that $\tilde{I}$ is (forced to be) covered by a ground model set in $\mathcal{I}_n$, as required.
 

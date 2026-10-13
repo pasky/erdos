@@ -46,7 +46,7 @@ $i=1,\ldots,m$, of $F$, not all zero, so that
 
 $$(2)\quad \sum_{i=1}^{m}\lambda_i\alpha_i=0.$$
 
-Let $\theta$ be an element generating $E$ over $G$. Then for each value of $i
+Let $\theta$ be an element generating $E$ over $G$. Then for each value of $i$
 satisfying $1\leq i\leq m$, we can find members $c_{ij}$ in $G$, so that
 
 $$(3)\quad \alpha_i=\sum_{j=0}^{n-1}c_{ij}\theta^j.$$
@@ -320,7 +320,7 @@ over $Q(\sqrt[k]{1})$. This can only occur if $l_{i+1}$ has a factor in common w
 
 Thus the lemma is proved.
 
-**LEMMA 6.** *Let $E, F$ be normal extensions of $G$. Then a prime ideal splits completely in the compositum of $E$ and $F$ if and only if it splits completely in $E$ and $F.*
+**LEMMA 6.** *Let $E, F$ be normal extensions of $G$. Then a prime ideal splits completely in the compositum of $E$ and $F$ if and only if it splits completely in $E$ and $F$.*
 
 Proof. For a proof of this result we refer to Hasse [6] I Erl. 17, p. 50.
 

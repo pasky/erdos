@@ -54,7 +54,7 @@ The following parametrizations of Type I and Type II solutions, as well as their
 
 **Proposition 2.1.** *Let $n,m\in\mathbb{N}$. There exists a Type I solution $(x,y,z)\in\mathbb{N}^{3}$ of (2.1) if and only if there exist $a,d,f\in\mathbb{N}$ with $f\mid ma^{2}d+1$, $mad\mid n+f$, and $(n+f)/mad$ coprime to $n$.*
 
-*Proof.* First assume that there exist $a,d,f\in\mathbb{N}$ with $f\mid ma^{2}d+1$, $mad\mid n+f$, and $(n+f)/mad$ coprime to $n$. Define $e:=\frac{ma^{2}d+1}{f}\in\mathbb{N}$, $c:=\frac{n+f}{mad}\in\mathbb{N}$, so that $c$ is coprime to $n$, and $b:=ce-a\in\mathbb{N}$, since $ce>a$. Then one easily verifies that $(x,y,z):=(abdn, acd, bcd) satisfies (2.1), and that $mabd=ne+1$, which implies $\gcd(n,abd)=1$. Since $c$ is also coprime to $n$, so are $y,z$, and the solution $(x,y,z)$ is of Type I.
+*Proof.* First assume that there exist $a,d,f\in\mathbb{N}$ with $f\mid ma^{2}d+1$, $mad\mid n+f$, and $(n+f)/mad$ coprime to $n$. Define $e:=\frac{ma^{2}d+1}{f}\in\mathbb{N}$, $c:=\frac{n+f}{mad}\in\mathbb{N}$, so that $c$ is coprime to $n$, and $b:=ce-a\in\mathbb{N}$, since $ce>a$. Then one easily verifies that $(x,y,z):=(abdn, acd, bcd)$ satisfies (2.1), and that $mabd=ne+1$, which implies $\gcd(n,abd)=1$. Since $c$ is also coprime to $n$, so are $y,z$, and the solution $(x,y,z)$ is of Type I.
 
 Conversely, assume that $(x,y,z)\in\mathbb{N}^{3}$ is a Type I solution of (2.1). We factor $x=ndx'$, $y=dy'$, $z=dz'$, where $\gcd(x',y',z')=1$. After multiplying (2.1) by $ndx'y'z'$, we get
 

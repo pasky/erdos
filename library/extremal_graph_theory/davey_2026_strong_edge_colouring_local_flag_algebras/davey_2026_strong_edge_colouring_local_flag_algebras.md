@@ -388,7 +388,7 @@ The certificate $\mathfrak{C}_{\mathrm{gen}}$ comprises:
 
 - the 39 block local types $\sigma_b$ and inner sizes $m_b$ with $2m_b-|\sigma_b|=5$ (which forces $|\sigma_b|$ odd: one block with $(|\sigma_b|,m_b)=(1,3)$ and 38 with $(3,4)$); for each block, an inner basis $(\mathrm{basis}^{(b)}_p)_{p\leq d_b}$ of size $d_b$ ranging from 1 up to 55, an integer matrix $Y_b\in\mathbb{Z}^{d_b\times d_b}$, an integer lower-triangular factor $L_b$, a pivot vector $D_b\in\mathbb{Z}^{d_b}_{>0}$, a per-block Tikhonov shift $\lambda_b\in\{1/10^{11},1/10^{12}\}$ and a per-block integer denominator $s_b>0$;
 
-- the linear residual data $(\alpha_e,\beta_\sigma)$ (coefficients of the extension-difference and black-vertex-count constraints lifted to size 5), and the minimum degree constraint coefficient $\delta$ scaling the relation $\phi(\llbracket(D^{\prime}(\sigma_1)-2(2-\eta)(\mathrm{ext}_1^{\sigma_1})^2)\cdot(\mathrm{ext}_1^{\sigma_1})\rrbracket)\geq 0;
+- the linear residual data $(\alpha_e,\beta_\sigma)$ (coefficients of the extension-difference and black-vertex-count constraints lifted to size 5), and the minimum degree constraint coefficient $\delta$ scaling the relation $\phi(\llbracket(D^{\prime}(\sigma_1)-2(2-\eta)(\mathrm{ext}_1^{\sigma_1})^2)\cdot(\mathrm{ext}_1^{\sigma_1})\rrbracket)\geq 0$;
 
 - slack budget $\Lambda_{\mathrm{gen}}:=2\times 10^{23}$.
 
@@ -481,7 +481,7 @@ $$
 \frac{2\,|E_O(G'_k)|}{\binom{\Delta(G'_k)}{2}^{2}}=\sum_{j=1}^{17{,}950}O^{(j)}\,\rho(F_j;G'_k)+o(1)\quad\text{as }\Delta(G'_k)\to\infty,
 $$
 
-*where $\rho(F_j;G'_k)$ is the local density of the size-5 basis flag $F_j$ (Section 2) and $O^{(j)}=-\mathrm{target}_{j}/\mathrm{L}\geq 0.*
+*where $\rho(F_j;G'_k)$ is the local density of the size-5 basis flag $F_j$ (Section 2) and $O^{(j)}=-\mathrm{target}_{j}/\mathrm{L}\geq 0$.*
 
 *Proof.* Each unordered pair $\{e,e^{\prime}\}$ counted by $|E_{O}(G^{\prime}_{k})|$, together with its connecting incident edge and that edge’s free endpoint, determines the vertex set of an induced size-5 $(2,2)$-coloured subgraph of $G^{\prime}_{k}$; conversely each such subgraph arises from a bounded number of pairs. Grouping by the isomorphism class $j$ of the induced flag, converting the induced counts to the local densities $\rho(F_j;G^{\prime}_{k})$ of Section 2, and collecting the $\binom{\Delta}{k}\sim\Delta^k/k!$ asymptotics (a $1+O(1/\Delta(G^{\prime}_{k}))$ error per summand into the $o(1)$), the objective density $\rho(O;G^{\prime}_{k})=2\,|E_{O}(G^{\prime}_{k})|/\binom{\Delta(G^{\prime}_{k})}{2}^{2}$ of Section 4 equals $\sum_j O^{(j)}\,\rho(F_j;G^{\prime}_{k})+o(1)$, the basis expansion of $O$. Since $\mathrm{target}_{j}\leq 0$, every $O^{(j)}\geq 0$ and both sides are non-negative; the substitution orients the cone identity into the standard form $\lambda\emptyset-O\in\mathcal{C}_{\mathrm{sem}}^{\emptyset}$ of Section 2. $\square$
 

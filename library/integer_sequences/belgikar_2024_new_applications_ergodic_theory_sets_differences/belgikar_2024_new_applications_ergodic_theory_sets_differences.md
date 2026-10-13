@@ -970,7 +970,7 @@ $$
 \Delta_1(B,\widetilde{G})=\{g\in\widetilde{G}:B\cap g^{-1}B\neq\emptyset\}\quad\text{and}\quad\Delta_2(\mathbf{F},B,\widetilde{G})=\{g\in\widetilde{G}:\overline{d}_{\mathbf{F}}(B\cap g^{-1}B)>0\}.
 $$
 
-Theorem 4.16 implies that $\mathbf{G},\mathbf{F}_1,\ldots,\mathbf{F}_k$ are Følner sequences in $\widetilde{G}$. Additionally, Theorem 4.22 shows $\mathbf{G}$ is tempered in $\widetilde{G}$. So by Theorem 4.9, there exists $S'\subseteq\widetilde{G}$ such that $d_{\mathbf{G}}(S')\geq\prod_{i=1}^{k}\overline{d}_{\mathbf{F}_i}(S_i) and $\Delta_1(S',\widetilde{G})\subseteq\bigcap_{i=1}^{k}\Delta_2(\mathbf{F}_i,S_i,\widetilde{G})$. Let $S:=S'\cap G$. Note that by Remark 4.17
+Theorem 4.16 implies that $\mathbf{G},\mathbf{F}_1,\ldots,\mathbf{F}_k$ are Følner sequences in $\widetilde{G}$. Additionally, Theorem 4.22 shows $\mathbf{G}$ is tempered in $\widetilde{G}$. So by Theorem 4.9, there exists $S'\subseteq\widetilde{G}$ such that $d_{\mathbf{G}}(S')\geq\prod_{i=1}^{k}\overline{d}_{\mathbf{F}_i}(S_i)$ and $\Delta_1(S',\widetilde{G})\subseteq\bigcap_{i=1}^{k}\Delta_2(\mathbf{F}_i,S_i,\widetilde{G})$. Let $S:=S'\cap G$. Note that by Remark 4.17
 
 $$
 d_{\mathbf{G}}(S)=d_{\mathbf{G}}(S')\geq\prod_{i=1}^{k}\overline{d}_{\mathbf{F}_i}(S_i).

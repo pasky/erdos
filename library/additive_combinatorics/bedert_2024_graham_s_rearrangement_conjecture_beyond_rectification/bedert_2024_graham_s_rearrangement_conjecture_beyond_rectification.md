@@ -111,7 +111,7 @@ $$
 \{(\lambda d/p)_{d\in D}:\lambda\in\mathbb{F}_p\}\subseteq(\mathbb{R}/\mathbb{Z})^{\dim(B)}.
 $$
 
-The pigeonhole principle provides some distinct $\lambda_1,\lambda_2\in\mathbb{F}_p$ such that $\|\lambda_1d/p-\lambda_2d/p\|_{\mathbb{R}/\mathbb{Z}}\leq p^{-1/\dim(B)}$ for all $d\in D$. Set $\lambda:=\lambda_1-\lambda_2\in\mathbb{F}_p^\times$, so that $\lambda d\in[-p^{1-1/\dim(B)},p^{1-1/\dim(B)}]$ for all $d\in D. Since $B\subseteq\operatorname{span}(D)$, we have
+The pigeonhole principle provides some distinct $\lambda_1,\lambda_2\in\mathbb{F}_p$ such that $\|\lambda_1d/p-\lambda_2d/p\|_{\mathbb{R}/\mathbb{Z}}\leqslant p^{-1/\dim(B)}$ for all $d\in D$. Set $\lambda:=\lambda_1-\lambda_2\in\mathbb{F}_p^\times$, so that $\lambda d\in[-p^{1-1/\dim(B)},p^{1-1/\dim(B)}]$ for all $d\in D$. Since $B\subseteq\operatorname{span}(D)$, we have
 
 $$
 \lambda\cdot B\subseteq[-\dim(B)p^{1-1/\dim(B)},\dim(B)p^{1-1/\dim(B)}].

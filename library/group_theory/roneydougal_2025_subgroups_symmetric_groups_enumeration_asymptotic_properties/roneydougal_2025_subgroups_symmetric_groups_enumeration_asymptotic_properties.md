@@ -578,7 +578,7 @@ We are now ready to state and prove the two main results of this section. The fi
 
 (i). This is now immediate from Proposition 5.3(ii) and (iii).
 
-(ii). For any $i\leq r$, let $X=(G\cap(G_1\times\cdots\times G_i))\pi_{i,r+1,\ldots,t}$. If $X\pi_i=G_i$, then $X\cap G_i=G_i$, and so $G\pi_{i,r+1,\ldots,t}=G_i\times G_{r+1}\times\cdots\times G_t$, contradicting the fact that $G$ is $(t-r)$-projecting. Therefore $N_i<G_i$ for all $i\leq r$, so either $n_i\leq 2$ and $d_{G_i}(N_i)=0$, or Proposition 5.3(i) shows that $d_{G_i}(N_i)\leq(n_i/4)+1$. Hence in both cases $d_{G_i}(N_i)\leq 3n_i/8$ for all $i\leq r$. Furthermore, if no such $G_i$ has excess $2$, then $d_{G_i}(N_i)\leq n_i/4$ for all $i\leq r$; while if no such $G_i$ has excess $2$ and degree $8$ then $d_{G_i}(N_i)\leq 5n_i/16$ for all $i\leq r. Part (ii) now follows, since $d_{G_i}(N_i)\leq n_i/2$ for $i\geq r+1$.
+(ii). For any $i\leq r$, let $X=(G\cap(G_1\times\cdots\times G_i))\pi_{i,r+1,\ldots,t}$. If $X\pi_i=G_i$, then $X\cap G_i=G_i$, and so $G\pi_{i,r+1,\ldots,t}=G_i\times G_{r+1}\times\cdots\times G_t$, contradicting the fact that $G$ is $(t-r)$-projecting. Therefore $N_i<G_i$ for all $i\leq r$, so either $n_i\leq 2$ and $d_{G_i}(N_i)=0$, or Proposition 5.3(i) shows that $d_{G_i}(N_i)\leq(n_i/4)+1$. Hence in both cases $d_{G_i}(N_i)\leq 3n_i/8$ for all $i\leq r$. Furthermore, if no such $G_i$ has excess $2$, then $d_{G_i}(N_i)\leq n_i/4$ for all $i\leq r$; while if no such $G_i$ has excess $2$ and degree $8$ then $d_{G_i}(N_i)\leq 5n_i/16$ for all $i\leq r$. Part (ii) now follows, since $d_{G_i}(N_i)\leq n_i/2$ for $i\geq r+1$.
 
 (iii). Our assumptions imply that $N_i=1$ whenever $i\notin J$. Furthermore, $N_i\leq G_i'$ for each $i$, so $|G_i:N_i|>2$ for all $i\in J$. It then follows from Proposition 5.3(i) that $d_{G_i}(N_i)\leq n_i/4$ for all $i\in J$, and Part (iii) now follows. $\square$
 
@@ -771,7 +771,7 @@ We start by dealing with some small cases.
 
 **Lemma 7.1.** *Let $R$ be the set of triples $(p,m,n)$ of positive integers, where $p$ is prime, $m\geq 2$, $mp\leq n<(m+1)p$, and $1-4mp^{-\lfloor m/2\rfloor}\leq 1/2$. Then there exists an $\alpha_R>0$ such that $|\mathrm{Sub}_{p}(S_n)|\geq p^{n^2/4p^2+\alpha_R n\log n}$ for all $(p,m,n)\in R$. In particular, this bound holds for all $n<24$ and $p\leq n/2$.*
 
-*Proof.* Let $(p,m)$ be as above. Then $1-4mp^{-\lfloor m/2\rfloor}\leq 1/2$ if and only if $m=2$ and $p\leq 13$, or $m=3$ and $p\leq 23$, or $m\in\{4,5\}$ and $p\leq 5$, or $m\in\{6,7\}$ and $p\in\{2,3\}$ or $m\leq 13$ and $p=2$. Thus the set $R$ contains these values of $p$ and $m together with each $n$ such that $m=\lfloor n/p\rfloor$.
+*Proof.* Let $(p,m)$ be as above. Then $1-4mp^{-\lfloor m/2\rfloor}\leq 1/2$ if and only if $m=2$ and $p\leq 13$, or $m=3$ and $p\leq 23$, or $m\in\{4,5\}$ and $p\leq 5$, or $m\in\{6,7\}$ and $p\in\{2,3\}$ or $m\leq 13$ and $p=2$. Thus the set $R$ contains these values of $p$ and $m$ together with each $n$ such that $m=\lfloor n/p\rfloor$.
 
 For each such $(p,m)$ we start by using Magma to construct the elementary abelian group $G := C_p^m \leq \mathrm{S}_{mp}$. Each subdirect product $H$ of $G$ acts as $C_p$ on each orbit, so any two such subdirect products $H$ and $H_1$ that are $\mathrm{S}_{mp}$-conjugate are also $N_{\mathrm{S}_{mp}}(G)$-conjugate, while groups with different orbit projections are not conjugate in $\mathrm{S}_{mp}$. Thus, the number of $p$-subgroups of $\mathrm{S}_n$ is at least the product of the number of subdirect products of $G$ and $|\mathrm{S}_n:\mathrm{AGL}_1(p)\wr \mathrm{S}_m|$.
 
@@ -879,7 +879,7 @@ We shall prove that this holds with $\kappa_5=1+\kappa_1+\log\kappa_3+\kappa_4$,
 
 **Case I.** Suppose first, for each $i\in\{1,\ldots,t\}$, if $G_i$ has a normal subgroup $M_i$ containing $N_i$ such that $d_{G_i}(M_i/N_i)>n_i/4$ then the quotient $Q_i$ is abelian.
 
-Index the $G_i$ so that $G_i$ has such an $M_i$ if and only if $i\leq r$, and let $A=Q_1\times\cdots\times Q_r$ and $d_1:=\sum_{i\leq r}n_i$, so that $A$ is trivial and $d_1=0$ if $r=0.
+Index the $G_i$ so that $G_i$ has such an $M_i$ if and only if $i\leq r$, and let $A=Q_1\times\cdots\times Q_r$ and $d_1:=\sum_{i\leq r}n_i$, so that $A$ is trivial and $d_1=0$ if $r=0$.
 
 Lemma 3.5 bounds $|\mathcal{S}(N_1,\ldots,N_r)|\leq|\mathrm{Subdir}(A)|\leq|\mathrm{Sub}(A)|$. Additionally, $|A|\leq 2^{d_1/2}$ by Theorem 2.8, so if $d_1\ne 0$ then $|\mathrm{Sub}(A)|\leq 2^{d_1^2/16+\log(d_1/2)+2}\leq 2^{d_1^2/16+d_1\log d_1}$, by Lemma 2.4(i). If $r=t$, then $d_1=n$ and (7.1) follows, so assume that $0\leq r<t$.
 
@@ -1172,7 +1172,7 @@ Let $d:=\max\{\delta_i:1\leq i\leq r\}<\sqrt{a}$. Then by Lemma 8.2 there exist 
 
 $$K_1\unlhd A\cap(L_1\times\cdots\times L_r)\cong A/V_1\cong(G/N_2)/(VN_2/N_2)\cong G/(VN_2).$$
 
-Since $V=\mathop{\mathrm{soc}}(G)$, it follows from Lemma 8.1 that $\mathop{\mathrm{sl}}(K_1)\leq\mathop{\mathrm{sl}}(G/V)=\mathop{\mathrm{sl}}(G)-1$. Let $\ell:=4\sqrt{a}(\mathop{\mathrm{sl}}(G)-1)$. Then the minimality of $G$ as a counterexample shows that there exist $x_1,\ldots,x_\ell\in K_1$ and a nilpotent subgroup $J$ of $K_1$ such that $K_1=\langle J,x_1,\ldots,x_\ell\rangle$. If $r=e then $V_1=V$, so $G$ can be generated by $J$ and $\ell+d\leq 4\sqrt{a}\mathop{\mathrm{sl}}(G)-3\sqrt{a}$ elements, and the result follows. Thus we may assume from now on that $r<e$.
+Since $V=\mathop{\mathrm{soc}}(G)$, it follows from Lemma 8.1 that $\mathop{\mathrm{sl}}(K_1)\leq\mathop{\mathrm{sl}}(G/V)=\mathop{\mathrm{sl}}(G)-1$. Let $\ell:=4\sqrt{a}(\mathop{\mathrm{sl}}(G)-1)$. Then the minimality of $G$ as a counterexample shows that there exist $x_1,\ldots,x_\ell\in K_1$ and a nilpotent subgroup $J$ of $K_1$ such that $K_1=\langle J,x_1,\ldots,x_\ell\rangle$. If $r=e$ then $V_1=V$, so $G$ can be generated by $J$ and $\ell+d\leq 4\sqrt{a}\mathop{\mathrm{sl}}(G)-3\sqrt{a}$ elements, and the result follows. Thus we may assume from now on that $r<e$.
 
 The group $N_2/V_2$ is isomorphic to a subdirect product of $L_{r+1}\times\cdots\times L_e$, and each $L_i$ is an irreducible subgroup of $\mathrm{GL}_{m_i}(p_i)$. Therefore each $L_i$-normal subgroup $R_i$ of $L_i$ is completely reducible, so $d_{L_i}(R_i)\leq\frac{3}{2}m_i$ by a theorem of Kovács and Robinson [14]. Thus by Lemma 3.9, letting $m^{\prime}=\sum_{i=r+1}^{e}m_i$ gives
 

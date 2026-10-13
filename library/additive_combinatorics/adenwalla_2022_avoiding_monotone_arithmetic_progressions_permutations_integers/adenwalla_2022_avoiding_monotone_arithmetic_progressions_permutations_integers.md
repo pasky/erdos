@@ -296,7 +296,7 @@ Then as $m_4 \in X_k^{s_{l_3}}$ we have $k<h+n+1$, so it follows that $(t-1)n<k\
 
 $$(t-1)n<k<h<tn\text{ and so }l_2<l_3.\qquad\diamond$$
 
-**Case 1b:** If $tn<k\leq h+n\leq(t+1)n$, then if $k=h+n$ we have $k\equiv h\pmod{n}$ so $s_{l_2}=s_{l_3}$. It follows that $m_4\equiv m_3\pmod{n}$ which implies $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
+**Case 1b:** If $tn<k\leq h+n<(t+1)n$, then if $k=h+n$ we have $k\equiv h\pmod{n}$ so $s_{l_2}=s_{l_3}$. It follows that $m_4\equiv m_3\pmod{n}$ which implies $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
 
 $$tn<k<h+n<(t+1)n\text{ and so }l_2<l_3.\qquad\diamond$$
 

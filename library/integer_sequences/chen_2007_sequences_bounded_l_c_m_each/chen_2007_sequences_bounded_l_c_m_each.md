@@ -254,7 +254,7 @@ $$
 m+\prod_{p\le m} p\le 2^{3m},
 $$
 
-*where the product is taken over all primes $p$ less than $m.*
+*where the product is taken over all primes $p$ less than $m$.*
 
 *Proof.* We use induction on $m$. It is easy to verify the assertion for $m \le 5$. Suppose that it is true for all positive integers less than $m$. If $m \ge 6$, then
 

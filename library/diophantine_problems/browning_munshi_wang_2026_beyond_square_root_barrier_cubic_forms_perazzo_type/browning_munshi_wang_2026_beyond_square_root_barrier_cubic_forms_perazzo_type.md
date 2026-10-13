@@ -1894,7 +1894,7 @@ p\mid q_4\Rightarrow v_p(q_4)=1+v_p(G(\mathbf m,\mathbf n))\geqslant 2}}
 \frac{1}{r}.
 $$
 
-Assume that $L=Q_4^{1/1000}$. Since every prime factor of $q_4$ is $\leqslant L$, it follows that the integer $q_4/r\gg Q_4/L$ has an integer factor $f$ with $Q_4^{1/4}\ll f\ll Q_4^{1/3}$, say. Since $q_4/r divides $G(\mathbf{m},\mathbf{n})$, it follows that once $\mathbf{m}$ is specified, the number of available choices for $\mathbf{n}$ is $\ll (T+f)^3(f/\gcd(\mathbf{m})^2)^{\varepsilon-1/4}$, by the case $n=1$ and $d=4$ of (3.18). Hence
+Assume that $L=Q_4^{1/1000}$. Since every prime factor of $q_4$ is $\leqslant L$, it follows that the integer $q_4/r\gg Q_4/L$ has an integer factor $f$ with $Q_4^{1/4}\ll f\ll Q_4^{1/3}$, say. Since $q_4/r$ divides $G(\mathbf{m},\mathbf{n})$, it follows that once $\mathbf{m}$ is specified, the number of available choices for $\mathbf{n}$ is $\ll (T+f)^3(f/\gcd(\mathbf{m})^2)^{\varepsilon-1/4}$, by the case $n=1$ and $d=4$ of (3.18). Hence
 
 $$
 \begin{aligned}
@@ -2873,7 +2873,7 @@ $$
 
 *Proof.* Taking $\delta=1/2-\varepsilon$ and $t_3=0$ in (9.13), and multiplying by $Q_2^{1/2}$, we obtain (9.14). Therefore, we need only prove (9.13).
 
-*Proof for $t_1t_2t_3\ne 0.* We have $h\ll M/T^2$. Let $H=M/T^2$ and
+*Proof for $t_1t_2t_3\ne 0$.* We have $h\ll M/T^2$. Let $H=M/T^2$ and
 
 $$
 (\alpha,\beta,\gamma):=\left(\frac{1}{2}-\delta,1+\varepsilon,1+\varepsilon\right).

@@ -248,8 +248,8 @@ with the interval $-x/2<n\leq x/2$ contains at most $N\log x$ points!!!
 Hence the desired result can be read out of Lemma 5.
 
 For the details: Expand the original interval threefold, arriving
-at $-3x/2<n\leq3x/2$. Replace the $N$ in Lemma 5 by $3N$, set $a=q
->x/N\log x$, $t=[3N\log x]$, and let the first term $b+q$ in the arithmetic
+at $-3x/2<n\leq3x/2$. Replace the $N$ in Lemma 5 by $3N$, set $a=q>x/N\log x$,
+$t=[3N\log x]$, and let the first term $b+q$ in the arithmetic
 progression $b+q,b+2q,\ldots,b+tq$ lie between $-3x/2$ and $-x/2$. The
 last term $b+tq>3x/2$. Thus $b$ determines a congruence class $(\text{mod }q)$
 which, in the interval $-x/2<n\leq x/2$, hits no member of the residual
@@ -301,8 +301,8 @@ crossing point (which we believe to be $<10^5$), but would provide no hint
 of a rigorous proof.
 
 Now we come to the second problem mentioned at the beginning
-of this section: namely the smallest number $x_1+y_1$ for which $\pi(x_1+y_1)
->\pi(x_1)+\pi(y_1)$. We suspect, even assuming the $k$-tuples hypothesis (B)
+of this section: namely the smallest number $x_1+y_1$ for which $\pi(x_1+y_1)>\pi(x_1)+\pi(y_1)$.
+We suspect, even assuming the $k$-tuples hypothesis (B)
 is eventually proved constructively, that the value of $x_1+y_1$ will never
 be found; and moreover that no pair $x,y$ satisfying $\pi(x+y)>\pi(x) +$
 $+\pi(y)$ will ever be computed. (Of course an effective upper bound for

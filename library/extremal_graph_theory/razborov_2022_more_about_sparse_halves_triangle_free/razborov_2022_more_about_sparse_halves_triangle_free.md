@@ -673,7 +673,7 @@ Finally, $Q_1$ is quadratic concave in $p_b$ and $\left.\frac{\partial Q_1}{\par
 
 In this section we prove Theorem 3.8, and for this particular proof we resort to absolute sizes of the sets involved rather than their densities. The reason is that the girth assumption does not survive blowing up a graph, and this makes the density-based language unnatural.
 
-So we fix a triangle-free graph $G$ with $g(G)\geq 5$, $|V(G)|=n$, and let $v_0\in V(G)$ be a vertex of the maximum degree $k$. We may assume that $k\leq\frac{n-1}{2} (otherwise the result is trivial) and also that $G$ is a *minimal* counterexample to Erdős’s conjecture, that is $\beta(G^*)\leq\frac{1}{50}$ for any proper induced subgraph $G^*$ of $G$. We let
+So we fix a triangle-free graph $G$ with $g(G)\geq 5$, $|V(G)|=n$, and let $v_0\in V(G)$ be a vertex of the maximum degree $k$. We may assume that $k\leq\frac{n-1}{2}$ (otherwise the result is trivial) and also that $G$ is a *minimal* counterexample to Erdős’s conjecture, that is $\beta(G^*)\leq\frac{1}{50}$ for any proper induced subgraph $G^*$ of $G$. We let
 
 $$
 A\stackrel{\mathrm{def}}{=}N_G(v_0),\qquad B\stackrel{\mathrm{def}}{=}V(G)\setminus(\{v_0\}\cup A).

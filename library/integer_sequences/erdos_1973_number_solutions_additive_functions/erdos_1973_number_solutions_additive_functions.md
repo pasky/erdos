@@ -274,7 +274,7 @@ t-\sum_{\substack{p\leq m\\f(p)\ne 0}}\frac{t}{p}
 >\frac{t}{2}
 $$
 
-by (12). (15) implies $G(t,c)<t/2$ for $c\ne 0.
+by (12). (15) implies $G(t,c)<t/2$ for $c\ne 0$.
 
 Now we estimate $G(t,0)$. $f(n)\ne 0$ if $n$ is divisible by precisely one prime $p\leq t$ with $f(p)\ne 0$ and $q^a\nmid n$ for $q^a>10^{1000}$, $a>1$. The number of these integers not exceeding $t$ is clearly greater than
 

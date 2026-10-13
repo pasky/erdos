@@ -244,7 +244,7 @@ $$
 \frac{a_s q_i - a_i q_s}{q_s q_i} \leq \frac{a_{i+k}}{q_{i+k}} - \frac{a_i}{q_i}.
 $$
 
-Here $a_s q_i - a_i q_s \geq 1$ and $q_i \leq Q$, hence $1/(Qq_s) \leq 2\alpha/m^2$, and so $q_s \geq $m^2/(2\alpha Q)$. Thus for any $i<s\leq i+k$,
+Here $a_s q_i - a_i q_s \geq 1$ and $q_i \leq Q$, hence $1/(Qq_s) \leq 2\alpha/m^2$, and so $q_s \geq m^2/(2\alpha Q)$. Thus for any $i<s\leq i+k$,
 
 $$
 v_Q(\gamma_s)=\left[\frac{Q+q_{s-1}}{q_s}\right]\leq\frac{Q+Q}{m^2/(2\alpha Q)}\leq4\alpha c^2.

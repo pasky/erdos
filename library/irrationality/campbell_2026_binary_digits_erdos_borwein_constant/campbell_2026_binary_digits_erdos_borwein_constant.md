@@ -552,7 +552,7 @@ By way of contradiction, suppose that there exists an element $D\in\mathcal{D}(X
 
 $$D\leq B\leq X^{1/4} \tag{59}$$
 
-for all sufficiently large $X$. Since each member of $\mathcal{D}(X)$ exceeds $\log X$, we have, for sufficiently large $X$, that $D>1$. So, the integer $D$ has at least one prime divisor. From the assumption that $D\mid B$, every prime that divides $D$ also divides $B$, and thus is among the chosen primes from $(L,2L)$. We thus choose a prime divisor $p$ of $D$, but, since $D\in\mathcal{D}(X)$ and since (59) gives us that $D\leq X^{1/4}$, we have that $p\in\mathcal{P}_{\mathrm{bad}}$. This contradicts that the chosen primes were chosen outside of $\mathcal{P}_{\mathrm{bad}}$. So, we have that no element in $\mathcal{D}(X)$ divides $B.
+for all sufficiently large $X$. Since each member of $\mathcal{D}(X)$ exceeds $\log X$, we have, for sufficiently large $X$, that $D>1$. So, the integer $D$ has at least one prime divisor. From the assumption that $D\mid B$, every prime that divides $D$ also divides $B$, and thus is among the chosen primes from $(L,2L)$. We thus choose a prime divisor $p$ of $D$, but, since $D\in\mathcal{D}(X)$ and since (59) gives us that $D\leq X^{1/4}$, we have that $p\in\mathcal{P}_{\mathrm{bad}}$. This contradicts that the chosen primes were chosen outside of $\mathcal{P}_{\mathrm{bad}}$. So, we have that no element in $\mathcal{D}(X)$ divides $B$.
 
 Now, recall the formulation of the CRT given above. Our construction gives us, in a direct way, that expressions of the forms $q_0^3$ and $P_j^2$ for $0\leq j<k$ and $j\neq 2$ are pairwise coprime. So, the CRT gives us that there is a residue $r$ simultaneously satisfying
 
@@ -776,7 +776,7 @@ $$
 
 holds.
 
-From the definition of $Y$ in (82), we see that $\log Y=O(\log X)$. Moreover, since $k=\lfloor\Lambda^{1/10}\rfloor$, we have that $\Lambda^{1/10}-1<k\leq\Lambda^{1/10}$, so that $\frac{1}{2}\Lambda^{1/10}-\frac{1}{2}< $\frac{k}{2}<\frac{1}{2}\Lambda^{1/10}$, so that $\frac{k}{2}=\frac{1}{2}\Lambda^{1/10}+O(1)$, so that, for any positive power $\alpha$, we obtain that
+From the definition of $Y$ in (82), we see that $\log Y=O(\log X)$. Moreover, since $k=\lfloor\Lambda^{1/10}\rfloor$, we have that $\Lambda^{1/10}-1<k\leq\Lambda^{1/10}$, so that $\frac{1}{2}\Lambda^{1/10}-\frac{1}{2}<\frac{k}{2}\leq\frac{1}{2}\Lambda^{1/10}$, so that $\frac{k}{2}=\frac{1}{2}\Lambda^{1/10}+O(1)$, so that, for any positive power $\alpha$, we obtain that
 
 $$
 \begin{aligned}

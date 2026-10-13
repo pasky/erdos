@@ -149,7 +149,7 @@ $$
 D_{d,a}(x)=\sum_{i=0}^{\lfloor d/2\rfloor}\frac{d}{d-i}\binom{d-i}{i}(-a)^i x^{d-2i}.
 $$
 
-[^1]: Indeed, one may easily verify that, depending on the ‘parity’ of the inverse residue $b=a^{-1}$, we have either $a\equiv(b-1)!(p-1-b)!$, or $a\equiv-(b-1)!(p-1-b)!\equiv(b-1)!(p-1-b)!(p-1)!\pmod p.
+[^1]: Indeed, one may easily verify that, depending on the ‘parity’ of the inverse residue $b\equiv a^{-1}$, we have either $a\equiv(b-1)!(p-1-b)!$, or $a\equiv-(b-1)!(p-1-b)!\equiv(b-1)!(p-1-b)!(p-1)!$ modulo $p$.
 
 For a positive integer $j$ define the polynomial
 

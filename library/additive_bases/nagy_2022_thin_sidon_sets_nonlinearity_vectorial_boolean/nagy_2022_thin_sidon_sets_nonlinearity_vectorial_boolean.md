@@ -336,7 +336,7 @@ $$
 
 of affine points.
 
-(i) There is a cyclic affine linear group $G$ that preserves $N$ and acts regularly on $C$. The only fixed point of $G$ is $N.
+(i) There is a cyclic affine linear group $G$ that preserves $N$ and acts regularly on $C$. The only fixed point of $G$ is $N$.
 
 (ii) If $s\neq 0$, then $\mathcal{D}_s$ is a $G$-orbit.
 

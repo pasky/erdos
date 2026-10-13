@@ -697,7 +697,7 @@ $$
 \beta_{m+1}\leq\frac{g_{m+1}(l)}{l}.
 $$
 
-Proof. For $m=0$ the assertion holds since $g_1(l)=l$ for all $l$. Suppose for some $m\geq 0$, the assertion holds for all values less than or equal to $m. We prove it for $m+1$. Let $\epsilon>0$ and $l$ be arbitrary. Then by the definition of $\beta_{m+1}$, there exists a large integer $L$ such that
+Proof. For $m=0$ the assertion holds since $g_1(l)=l$ for all $l$. Suppose for some $m\geq 0$, the assertion holds for all values less than or equal to $m$. We prove it for $m+1$. Let $\epsilon>0$ and $l$ be arbitrary. Then by the definition of $\beta_{m+1}$, there exists a large integer $L$ such that
 
 $$
 \frac{g_{m+1}(L)}{L}>\beta_{m+1}-\epsilon.
@@ -715,7 +715,7 @@ $$
 Y=\bigcup_{i<L}Y_i,\qquad Y_i\in B(t_1,\ldots,t_m),
 $$
 
-denotes the canonical decomposition of $Y$ into $L$ subconfigurations of order $m$, then at least $g_{m+1}(L)$ of the $Y_i$ belong to $S(t_1,\ldots,t_m)$. Write $L=\nu l+\bar l$ where $0\leq\bar l<l$. Then at least $g_{m+1}(L)-\bar l$ of the configurations $Y_0,Y_1,\ldots,Y_{\nu l-1}$ belong to $S(t_1,\ldots,t_m)$. But of course all $\nu$ of the configurations $\bigcup_{j<l}Y_{il+j}$, $i<\nu$, belong to $B(t_1,\ldots,t_m,l)$. Thus, at least one of these elements of $B(t_1,\ldots,t_m,l)$ must have at least $\frac{1}{\nu}(g_{m+1}(L)-\bar l) of its $l\,\bar Y_i$'s in $S(t_1,\ldots,t_m)$. This implies
+denotes the canonical decomposition of $Y$ into $L$ subconfigurations of order $m$, then at least $g_{m+1}(L)$ of the $Y_i$ belong to $S(t_1,\ldots,t_m)$. Write $L=l\nu+\bar l$ where $0\leq\bar l<l$. Then at least $g_{m+1}(L)-\bar l$ of the configurations $Y_0,Y_1,\ldots,Y_{l\nu-1}$ belong to $S(t_1,\ldots,t_m)$. But of course all $\nu$ of the configurations $\bigcup_{j<l}Y_{li+j}$, $i<\nu$, belong to $B(t_1,\ldots,t_m,l)$. Thus, at least one of these elements of $B(t_1,\ldots,t_m,l)$ must have at least $\frac{1}{\nu}(g_{m+1}(L)-\bar l)$ of its $l\,Y_i$'s in $S(t_1,\ldots,t_m)$. This implies
 
 $$
 g_{m+1}(l)\geq\frac{1}{v}\bigl(g_{m+1}(L)-\bar l\bigr)>\frac{1}{v}\bigl((\beta_{m+1}-\epsilon)L-\bar l\bigr)\geq\frac{1}{v}\bigl((\beta_{m+1}-\epsilon)lv-l\bigr)
@@ -1336,7 +1336,7 @@ $$
 a'\leq2\sqrt{\mu_m(l)}
 $$
 
-provided that $t_m$ is sufficiently large depending on $l. Now, let
+provided that $t_m$ is sufficiently large depending on $l$. Now, let
 
 $$
 T'_2=\{j<t_m:s^m(Y_j)\geq(\beta_m-\sqrt{\mu_m(l)})l\text{ and}
@@ -1414,7 +1414,7 @@ $$
 (9)\quad p^m(Y_j)\leq(a_m+\varepsilon_m(l))l.
 $$
 
-Therefore, for $l$ sufficiently large depending on $\delta$ and $\tau$ (and $t_m$ sufficiently large depending on $l) we have by (8) and (9),
+Therefore, for $l$ sufficiently large depending on $\delta$ and $\tau$ (and $t_m$ sufficiently large depending on $l$) we have by (8) and (9),
 
 $$
 \left|\left\{j<t_m:\left(a_m-\frac{\delta}{2}\right)l<p^m(Y_j)<\left(a_m+\frac{\delta}{2}\right)l\right\}\right|>\left(1-\frac{\tau\delta}{4}\right)t_m.

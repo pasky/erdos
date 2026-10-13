@@ -1052,7 +1052,7 @@ we must have $a_n=x_n$ for all $1\leqslant n\leqslant m$.
 
 Base case: when $m=1$, the greedy algorithm guarantees that if $1/x_1<p/q$, then $1/x_1\leqslant 1/a_1$. Hence, $1/x_1=1/a_1$ and so, $a_1=x_1$.
 
-Inductive hypothesis: suppose that there exists $d\geqslant 1$ such that the claim is true whenever $m\leqslant d.
+Inductive hypothesis: suppose that there exists $d\geqslant 1$ such that the claim is true whenever $m\leqslant d$.
 
 Let us consider $m=d+1$. Assume that
 
@@ -1124,7 +1124,7 @@ $$
 \sum_{n=1}^{s-1}\frac{1}{a_n}=\sum_{n=1}^{d+1}\frac{1}{a_n}-\sum_{n=s}^{d+1}\frac{1}{a_n}<\sum_{n=1}^{d+1}\frac{1}{x_n}-\sum_{n=s}^{d+1}\frac{1}{x_n}=\sum_{n=1}^{s-1}\frac{1}{x_n}. \tag{5.9}
 $$
 
-The inductive hypothesis guarantees that $a_n=x_n$ for all $1\leqslant n\leqslant s-1$, which is absurd due to the strict inequality in (5.9). This contradiction shows that $s=d+1$, and in this case, we already show that $a_n=x_n$ for all $1\leqslant n\leqslant d+1. $ \square$
+The inductive hypothesis guarantees that $a_n=x_n$ for all $1\leqslant n\leqslant s-1$, which is absurd due to the strict inequality in (5.9). This contradiction shows that $s=d+1$, and in this case, we already show that $a_n=x_n$ for all $1\leqslant n\leqslant d+1$. $\square$
 
 **Remark 5.4.** A nice problem for future investigation is whether it is true that when $\Upsilon(p,q)\in\{2,3\}$, $\mathcal{G}$ always gives the best $m$-term underapproximation for any $m\geqslant 3$. Theorems 1.11 and 1.12 give a positive answer for the case $\Upsilon(p,q)=1$ and the case $\Upsilon(p,q)=2$ and $q$ is odd, respectively. Similar to the proof of Theorem 1.11, the proof of Theorem 1.12 employs the key Inequality (5.7), resulting from the formula given in Proposition 1.10. This formula is different from (1.6), where $q$ is divided by $\Upsilon(p,q)$. To prove the best $m$-term underapproximation for the case $\Upsilon(p,q)=2$ and $q$ is even, we need to overcome this distinction.
 

@@ -26,7 +26,7 @@ $$(3) \quad P_n/n>f(n)$$
 
 where $f$ is a function, strictly increasing and unbounded, which can be specified explicitly in terms of $a,b$ and $x$ only.
 
-It will be observed that, since almost all integers $n$ have $(1+o(1))\times $\times\log\log n$ distinct prime factors (see p. 356 of [5]), the density of the set of integers covered by Theorem 1 is 1. Actually to demonstrate that $P_n/n\to\infty$ as $n$ runs through all integers excluding a set of density zero is relatively easy; in fact it follows from [3] or [8] that $\Phi_n(a,b)$ has a prime factor of the form $kn+1$ for all $n>6$ whence, for any $f$ as in Theorem 1, (3) holds for every $n$ such that $kn+1$ is composite for $k=1,2,\ldots,f(n)$, and, by the prime number theorem, these $n$ have density 1 if $f(n)=o(\log n)(1)$. However, this clearly does not yield the characterisation of the integers as described in our theorem.
+It will be observed that, since almost all integers $n$ have $(1+o(1))\times\log\log n$ distinct prime factors (see p. 356 of [5]), the density of the set of integers covered by Theorem 1 is 1. Actually to demonstrate that $P_n/n\to\infty$ as $n$ runs through all integers excluding a set of density zero is relatively easy; in fact it follows from [3] or [8] that $\Phi_n(a,b)$ has a prime factor of the form $kn+1$ for all $n>6$ whence, for any $f$ as in Theorem 1, (3) holds for every $n$ such that $kn+1$ is composite for $k=1,2,\ldots,f(n)$, and, by the prime number theorem, these $n$ have density 1 if $f(n)=o(\log n)$(1). However, this clearly does not yield the characterisation of the integers as described in our theorem.
 
 The size of $f$ relative to $n$ will be explicitly determined in the case when $n$ is a prime or twice a prime:
 

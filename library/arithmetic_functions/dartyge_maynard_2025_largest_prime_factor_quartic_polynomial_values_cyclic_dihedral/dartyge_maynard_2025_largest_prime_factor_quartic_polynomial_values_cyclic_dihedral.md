@@ -1213,7 +1213,7 @@ $$
 
 *Proof.* We recall from (5.11) and (5.12) that $q\mid R_0$, the resultant of $B_{13}$ and $B_{14}$ viewed as polynomials in $a_0$. Therefore since $p\mid q(a_1,a_2,a_3)$, we have that $p\mid R_0(a_1,a_2,a_3)$, and so the two quadratic polynomials in $a_0$, $B_{13}$ and $B_{14}$ have a common root in some finite extension of $\mathbb{F}_p$.
 
-If this common root is not in $\mathbb{F}_p$ then its conjugate is also a common root of $B_{13}$ and $B_{14}$, and so we would have $R_0(a_1,a_2,a_3)=q(a_1,a_2,a_3)q_3(a_1,a_2,a_3)\equiv $0\pmod{p^2}$. But this is impossible since we assume that $q(a_1,a_2,a_3)$ is squarefree and coprime to $q_3(a_1,a_2,a_3)$ with $p\mid q(a_1,a_2,a_3)$. Therefore the common root must lie in $\mathbb{F}_p$. This proves assertion (iii).
+If this common root is not in $\mathbb{F}_p$ then its conjugate is also a common root of $B_{13}$ and $B_{14}$, and so we would have $R_0(a_1,a_2,a_3)=q(a_1,a_2,a_3)q_3(a_1,a_2,a_3)\equiv 0\pmod{p^2}$. But this is impossible since we assume that $q(a_1,a_2,a_3)$ is squarefree and coprime to $q_3(a_1,a_2,a_3)$ with $p\mid q(a_1,a_2,a_3)$. Therefore the common root must lie in $\mathbb{F}_p$. This proves assertion (iii).
 
 Since the common root of $B_{13}$ and $B_{14}$ is in $\mathbb{F}_p$ and $B_{14}$ is quadratic, both the roots of $B_{14}$ (seen as a polynomial in $a_0$) are in $\mathbb{F}_p$. Thus the number of $0\leq a_0<p$ with $B_{14}\equiv 0\pmod p$ is $1$ when $p\mid\Delta_{14}$ and $2$ otherwise.
 
@@ -3998,7 +3998,7 @@ $$
 
 *Proof.* This is similar to the proof of Lemma 11.5. Since the estimates in the proof of Lemma 11.5 when $\wedge(\mathbf b_1,\mathbf b_2)\ll B^{4/3}$ didn't depend on whether $p\mid D_{\mathbf b_1,\mathbf b_2}$ or not, an identical argument shows that the contribu-tion of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\ll B^{4/3}$ contributes $O(B^{17/3})$. Therefore we just need to consider the contribution when $\wedge(\mathbf b_1,\mathbf b_2)\gg B^{4/3}$.
 
-We split the summation according to $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$. Since $\mathbf c_1\propto\mathbf c_2\ (\mathrm{mod}\ p)$, we have $\mathbf c_1\equiv\lambda_0\mathbf c_2\ (\mathrm{mod}\ p)$ for some $\lambda_0$. Since $\mathbf b_1\equiv\mathbf c_1\ (\mathrm{mod}\ p)$ and $\mathbf b_2\equiv\mathbf c_2\ (\mathrm{mod}\ p)$ we then see that $p\mid d$. The condition $D_{\mathbf b_1,\mathbf b_2}=d$ forces $\mathbf b_1\equiv\lambda\mathbf b_2\ (\mathrm{mod}\ d)$ for some $\lambda$, with $\lambda\equiv\lambda_0\ (\mathrm{mod}\ p)$. Thus, by Lemma 11.4, the number of choices of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\sim $B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$ s
+We split the summation according to $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$. Since $\mathbf c_1\propto\mathbf c_2\ (\mathrm{mod}\ p)$, we have $\mathbf c_1\equiv\lambda_0\mathbf c_2\ (\mathrm{mod}\ p)$ for some $\lambda_0$. Since $\mathbf b_1\equiv\mathbf c_1\ (\mathrm{mod}\ p)$ and $\mathbf b_2\equiv\mathbf c_2\bmod p$ we then see that $p\mid d$. The condition $D_{\mathbf b_1,\mathbf b_2}=d$ forces $\mathbf b_1=\lambda\mathbf b_2\ (\mathrm{mod}\ d)$ for some $\lambda$, with $\lambda\equiv\lambda_0\ (\mathrm{mod}\ p)$. Thus, by Lemma 11.4, the number of choices of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$ s
 
 $$
 \begin{aligned}

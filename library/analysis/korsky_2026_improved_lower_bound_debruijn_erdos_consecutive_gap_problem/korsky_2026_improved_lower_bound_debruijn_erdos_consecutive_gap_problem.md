@@ -372,7 +372,7 @@ Choose $\rho$ such that
 
 $$\limsup_{n\to\infty}R_n<\rho<1+\frac{r}{r^2-1}.$$
 
-Then $R_n\leq\rho$ for all sufficiently large $n.
+Then $R_n\leq\rho$ for all sufficiently large $n$.
 
 By the definition of $\rho$ we may choose $\eta>0$ so small that
 

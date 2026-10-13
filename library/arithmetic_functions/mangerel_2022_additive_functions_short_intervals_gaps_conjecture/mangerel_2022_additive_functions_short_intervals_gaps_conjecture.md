@@ -133,7 +133,7 @@ Thus, among other examples, $\Omega(n),\omega(n):=\sum_{p\mid n}1$ and, for any 
 
 [^3]: It is obvious that $\displaystyle\sum_{\substack{p\leq X\\ |g(p)|\geq\varepsilon^{-1}B_g(X)}}p^{-1}\ll\varepsilon^2$, and thus the proportion of integers divisible by such a prime is sparse, namely of size $O(\varepsilon^2X)$. Nevertheless, if $F_g(\varepsilon)\gg1$ for all $\varepsilon>0$ the values $g(n)^2$ at multiples of the primes with $|g(p)|\geq\varepsilon^{-1}B_g(X)$ can have an outsized influence on the second moment.
 
-[^4]: By a strongly additive function we mean an additive function $g$ such that $g(p^k)=g(p)$ for all primes $p$ and all $k\geq1.
+[^4]: By a strongly additive function we mean an additive function $g$ such that $g(p^k)=g(p)$ for all primes $p$ and all $k\geq1$.
 
 **Theorem 1.4.** *Let $g:\mathbb{N}\to\mathbb{C}$ be an additive function in $\mathcal{A}_s$. Let $10\leq h\leq X/100$ be an integer with $h=h(X)\to\infty$. Then*
 
@@ -1633,7 +1633,7 @@ $$
 \end{aligned}
 $$
 
-The above sums cover all elements of $\mathcal{G}_R(Y_k)$ besides those in $[Y_k/2,Y_k/2+R)\cup(Y_k-R,Y_k]$. To deal with these, we define $\mathcal{S}:=\bigcup_{j\geq 0}[2^j-R,2^j+R]\cap\mathbb{N}$. We see that $|\mathcal{S}(Z)|\ll R\log Z=o(Z)$, and $\mathcal{S} contains $[Y_k/2,Y_k/2+R]\cup[Y_k-R,Y_k]$ for each $k$. By Corollary 6.5 (taking $j=0$ there), we thus obtain
+The above sums cover all elements of $\mathcal{G}_R(Y_k)$ besides those in $[Y_k/2,Y_k/2+R)\cup(Y_k-R,Y_k]$. To deal with these, we define $\mathcal{S}:=\bigcup_{j\geq 0}[2^j-R,2^j+R]\cap\mathbb{N}$. We see that $|\mathcal{S}(Z)|\ll R\log Z=o(Z)$, and $\mathcal{S}$ contains $[Y_k/2,Y_k/2+R]\cup[Y_k-R,Y_k]$ for each $k$. By Corollary 6.5 (taking $j=0$ there), we thus obtain
 
 $$
 \frac{1}{Y_k}\sum_{n\in\mathcal{G}_{R}(Y_k)\cap\mathcal{S}(Y_k)}|g(n)-A_g(Y_k)|^2=o(B_g(X)^2).

@@ -184,7 +184,7 @@ $$\left[\frac{1}{4}c\sqrt n\right]=|A_1|,\qquad \left[\frac{3}{4}c\sqrt n\right]
 
 $$A_i\subset A_{i-1},\qquad |A_{i+1}-A_i|=1\qquad(i=1,\ldots,q-1).$$
 
-For every chain $(A_1,A_2,\ldots,A_q)\in Y$, $(A_i,A_{i+1})\in X$ if and only if $|A_{i+1}^*-A_i^*|\le\sqrt n$ for $1\le i\le q-1. If (4) is false, then there must be a chain $(A_1,A_2,\ldots,A_q)\in Y$ such that
+For every chain $(A_1,A_2,\ldots,A_q)\in Y$, $(A_i,A_{i+1})\in X$ if and only if $|A_{i+1}^*-A_i^*|\le\sqrt n$ for $1\le i\le q-1$. If (4) is false, then there must be a chain $(A_1,A_2,\ldots,A_q)\in Y$ such that
 
 $$\left|\{i:(A_i,A_{i+1})\notin X\}\right|>\left[\frac{1}{20}q\right].$$
 

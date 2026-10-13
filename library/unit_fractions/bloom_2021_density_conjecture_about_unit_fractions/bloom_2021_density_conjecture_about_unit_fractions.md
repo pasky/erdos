@@ -370,7 +370,7 @@ It may help to note that in our applications we will choose $\eta=N^{-o(1)}$, $k
 
 *Proof.* For brevity, let $X=c\min\left(\frac{M}{k},\frac{\eta MK^2}{N^2(\log N)^2}\right)$, where $c>0$ is some absolute constant to be chosen later, so that condition (3) becomes $q\leq X$ for all $q\in\mathcal{Q}_A$. For any set of prime powers $\mathcal{P}$ we write $[\mathcal{P}]$ for the lowest common multiple of all $q\in\mathcal{P}$. Since $A$ is fixed, in this proof we just write $\mathcal{Q}=\mathcal{Q}_A$.
 
-Let $F(A)$ count the number of subsets $S\subset A$ such that $kR(S)$ is an integer. Since $R(S)\leq R(A)<2/k$ and $R(S)=0$ if and only if $S=\emptyset$, the number of $S\subset A$ such that $R(S)=1/k$ is exactly $F(A)-1.
+Let $F(A)$ count the number of subsets $S\subset A$ such that $kR(S)$ is an integer. Since $R(S)\leq R(A)<2/k$ and $R(S)=0$ if and only if $S=\emptyset$, the number of $S\subset A$ such that $R(S)=1/k$ is exactly $F(A)-1$.
 
 We first note that, for any integers $a,b$, we have by orthogonality
 
@@ -494,7 +494,7 @@ $$
 
 (Note that this is trivial when $\mathcal{D}_h=\mathcal{Q}$.) Before establishing (7), we show how it implies (6), and hence concludes the proof.
 
-By condition (4b) of the hypotheses, since $h\in\mathfrak{m}_2$, $kh$ is distance at most $K/2\leq M/2$ from some multiple of $[\mathcal{D}_h]$. Therefore, for any $\mathcal{D}\subset\mathcal{Q}$, the number of $h\in\mathfrak{m}_2 with $\mathcal{D}_h=\mathcal{D}$ is at most $M$ times the number of multiples of $[\mathcal{D}]$ in $[1,k[\mathcal{Q}]]$, which is at most
+By condition (4b) of the hypotheses, since $h\in\mathfrak{m}_2$, $kh$ is distance at most $K/2\leq M/2$ from some multiple of $[\mathcal{D}_h]$. Therefore, for any $\mathcal{D}\subset\mathcal{Q}$, the number of $h\in\mathfrak{m}_2$ with $\mathcal{D}_h=\mathcal{D}$ is at most $M$ times the number of multiples of $[\mathcal{D}]$ in $[1,k[\mathcal{Q}]]$, which is at most
 
 $$
 Mk\frac{[\mathcal{Q}]}{[\mathcal{D}]}\leq Mk\prod_{q\in\mathcal{Q}\backslash\mathcal{D}}q\leq kN^{|\mathcal{Q}\backslash\mathcal{D}|+1}.

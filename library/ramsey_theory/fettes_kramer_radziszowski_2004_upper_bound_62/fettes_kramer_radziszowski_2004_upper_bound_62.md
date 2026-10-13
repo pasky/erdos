@@ -34,7 +34,7 @@ Two $k$-colorings are *isomorphic* if there exists a one-to-one onto mapping bet
 
 The Ramsey number $R(\underbrace{3, 3, \ldots, 3}_{k\text{ times}}) = R_k(3)$ is the smallest integer $n$ such that any edge coloring with $k$ colors of the complete graph on $n$ vertices must contain at least one monochromatic triangle. We will call an edge coloring of $K_n$ *good* if no monochromatic triangles are formed.
 
-Let $V$ be the vertex set of an edge-colored complete graph. Let $\alpha$ be a color. For $v \in V$, the *neighborhood of $v$ of color $\alpha*, denoted $N_\alpha(v)$, is defined to be the set of vertices whose edges to $v$ are of color $\alpha$. We refer to $|N_\alpha(v)|$ as the *degree of $v$ in color $\alpha$* and denote it by $deg_\alpha(v)$.
+Let $V$ be the vertex set of an edge-colored complete graph. Let $\alpha$ be a color. For $v \in V$, the *neighborhood of $v$ of color $\alpha$*, denoted $N_\alpha(v)$, is defined to be the set of vertices whose edges to $v$ are of color $\alpha$. We refer to $|N_\alpha(v)|$ as the *degree of $v$ in color $\alpha$* and denote it by $deg_\alpha(v)$.
 
 Now, for $u$ and $v$ two distinct vertices and $\delta$ any color, the set $N_\delta(u) \cap N_\delta(v)$ is referred to as a *$u$-$v$ attaching set*, or just an *attaching set*, if $u$, $v$ and $\delta$ are clear from the context.
 

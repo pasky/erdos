@@ -1678,7 +1678,7 @@ $$
 
 Now, by Lemma 14.2, the probability that $|\det(a+a^T)| < L^{-2B}$ is at most $(Qm)^{5m^2} L^{-2B}$, which is certainly $o(L^{-B})$ with the assumption $L > (Qm)^m$. Suppose from now on that $a$ has the property in equation (15.6) and $\det(a+a^T)>L^{-2B}$. We have shown that this is true with probability $1-o(L^{-B})$.
 
-Returning to the main task in equation (15.4), we divide into low-, middle- and high-frequency ranges. For the low-range frequencies $|\xi| \leq L^{1/8}$, we use Lemma 15.2 and the trivial bound $|\hat{\chi}(\xi)| \leq L^{-B} (which follows from the fact that $\int \chi \ll L^{-B}$, which is property (3) of $\chi$, obtaining
+Returning to the main task in equation (15.4), we divide into low-, middle- and high-frequency ranges. For the low-range frequencies $|\xi| \leq L^{1/8}$, we use Lemma 15.2 and the trivial bound $|\hat{\chi}(\xi)| \leq L^{-B}$ (which follows from the fact that $\int \chi \ll L^{-B}$, which is property (3) of $\chi$), obtaining
 
 $$
 \int_{|\xi|\leq L^{1/8}} \widehat{\chi}(\xi)(T_{a,b,c}(\xi)-S_{a,b,c}(\xi))\,d\xi \ll L^{-1/2}\int_{|\xi|\leq L^{1/8}} |\widehat{\chi}(\xi)|

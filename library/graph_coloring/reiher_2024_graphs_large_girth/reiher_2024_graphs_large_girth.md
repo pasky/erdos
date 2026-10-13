@@ -108,7 +108,7 @@ Before we proceed to larger girth, we quickly want to eliminate some small value
 
 Even values of $g$ were studied in the PhD thesis of Singleton [120, 121], who made the astonishing discovery that here $(d,g)$-Moore graphs can only exist if $g\in\{6,8,12\}$. At about the same time an equivalent algebraic result was obtained by Feit and Higman [47]. The odd case was solved independently by Damerell [27] and in joint work of Bannai and Ito [7]. It turned out that for odd $g\geq 7$ there are no further Moore graphs, so that altogether the following result has been established. For a somewhat streamlined proof we refer to Biggs’ textbook on algebraic graph theory [12, Theorem 23.6].
 
-**Theorem 2.4.** *Let* $d \geq 3$ *and* $g \geq 5$. *If there exists a* $d$-*regular graph* $G$ *on* $n_0(d,g) *vertices with* $\mathrm{girth}(G) \geq g$, *then* $g \in \{5,6,8,12\}$. $\square$
+**Theorem 2.4.** *Let* $d \geq 3$ *and* $g \geq 5$. *If there exists a* $d$-*regular graph* $G$ *on* $n_0(d,g)$ *vertices with* $\mathrm{girth}(G) \geq g$, *then* $g \in \{5,6,8,12\}$. $\square$
 
 In the study of Moore graphs with even girth the following observation is often useful.
 

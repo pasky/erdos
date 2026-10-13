@@ -69,7 +69,7 @@ Based on Theorem 1.1, we naturally posed the following problem for further resea
 
 **Theorem 1.3.** If $r_{A,B}(n)=1$ for every nonnegative integer $n$, then $d_{A,B}(n)=1$ for every integer $n$.
 
-We could deduce from Theorem 1.3 that, if $A$ and $B$ are infinite additive complements and $d_{A,B}(n)\leqslant 1$ for every integer $n, then $r_{A,B}(n)=1$ for every nonnegative integer $n$, otherwise $r_{A,B}(n)\geqslant 2$ for some $n$, that is $n=a+b=a'+b'$. Hence $a-b'=a'-b$, which is impossible. We posed another problem similar to Problem 1.2:
+We could deduce from Theorem 1.3 that, if $A$ and $B$ are infinite additive complements and $d_{A,B}(n)\leqslant 1$ for every integer $n$, then $r_{A,B}(n)=1$ for every nonnegative integer $n$, otherwise $r_{A,B}(n)\geqslant 2$ for some $n$, that is $n=a+b=a'+b'$. Hence $a-b'=a'-b$, which is impossible. We posed another problem similar to Problem 1.2:
 
 **Problem 1.4.** *Is it true that if $A$ and $B$ are infinite additive complements and not of the form (1.2), then $d_{A,B}(n)\geqslant 2$ for infinitely many integer $n$?*
 
@@ -116,7 +116,7 @@ Subcase 2.2. $\lfloor\frac{n}{m}\rfloor m\notin D$. It follows from $r_{C,D}(\lf
 
 Subsubcase 2.2.1. $d>0$. Hence $c<\lfloor\frac{n}{m}\rfloor m$ and $m|c$. So $c+n-\lfloor\frac{n}{m}\rfloor m\in C$. Then $n=0+n=(c+n-\lfloor\frac{n}{m}\rfloor m)+d$, where $0,c+n-\lfloor\frac{n}{m}\rfloor m\in C$ and $n,d\in D$, so $r_{C,D}(n)\geqslant 2$, a contradiction.
 
-Subsubcase 2.2.2. $d=0$. Then $\lfloor\frac{n}{m}\rfloor m\in C$. Hence $\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. It follows that
+Subcase 2.2.2. $d=0$. Then $\lfloor\frac{n}{m}\rfloor m\in C$. Hence $\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. It follows that
 
 $$n+m-1=(m-1)+n=(n-1)+m,\hspace{8.53581pt}\text{where}\hspace{8.53581pt}m-1,n-1\in C\hspace{5.69054pt}\text{and}\hspace{5.69054pt}n,m\in D,$$
 

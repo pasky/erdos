@@ -54,7 +54,7 @@ $$
 t(N)\geq\binom{N}{2}+1+\left\lfloor\frac{N-1}{4}\right\rfloor.
 $$
 
-**Conjecture 1.3 (Sharpening of Szabó’s conjecture).** *Equality holds in Theorem 1.2 for every* $N\geq 1.
+**Conjecture 1.3 (Sharpening of Szabó’s conjecture).** *Equality holds in Theorem 1.2 for every* $N\geq 1$.
 
 Conjecture 1.3 implies both parts of Szabó’s conjecture: it gives $t(N)=\binom{N}{2}+O(N)$ in the strongest form $t(N)=N^2/2-N/4+O(1)$, and our verification below is consistent with the kernel property.
 

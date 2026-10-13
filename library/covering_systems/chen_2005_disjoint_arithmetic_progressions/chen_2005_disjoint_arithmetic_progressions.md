@@ -188,7 +188,7 @@ $$
 pm\mid m_i,\quad b_i\equiv r''\pmod{pm}
 $$
 
-for at least $l/(pM)$ values of $i.
+for at least $l/(pM)$ values of $i$.
 
 *Proof.* If $l=1$, then we may take $r''=b_1$ and $p$ to be any prime divisor of $m_1/m$. Now we assume that $l\geq 2$. Let $p_1,\ldots,p_t$ be all distinct prime factors of $m_1/m$. For any $i\geq 2$, since the arithmetic progressions are disjoint, we have $(m_1,m_i)\nmid b_1-b_i$. By $b_1\equiv r'\equiv b_i\pmod{m}$, we have $(m_1,m_i)\neq m$. That is, $(m_1/m,m_i/m)\neq 1$ $(i=2,\ldots,l)$. Hence, each $m_i/m$ must be divisible by at least one of $p_1,\ldots,p_t$. Thus, there exists an index $j$ such that $p_j$ divides $m_i/m$ for at least $l/t$ values of $i$. Let $b_i = r' + ms_i$ $(i = 1,\ldots,l)$. Then there exists an integer $s$ such that
 

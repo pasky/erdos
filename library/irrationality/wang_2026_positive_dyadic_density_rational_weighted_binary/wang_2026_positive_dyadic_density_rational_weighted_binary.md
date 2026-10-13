@@ -1239,7 +1239,7 @@ $$
 
 for some integer $a$. In lowest terms write $M_w/D=a'/q$. Since $q\mid g$, the denominator $q$ is odd and $q\leq g\leq Qp$. If $q=1$, then the purely periodic binary expansion is all zero or all one. Since $w$ is nonzero and primitive, this leaves only the all-one word of primitive period $p=1$, whose density is one.
 
-Assume now $q>1$ and put $d=\operatorname{ord}_q(2)$. The purely periodic binary expansion of $a'/q$ has period $d$. But $M_w/D$ is exactly $0.\overline{w}_2$. If $d<p$, then $w$ repeats with period $d$, contrary to the primitivity of $w. Hence $d=p$. Applying Lemma A.14 with $C=Q$ gives at least $(p+1)/(2Q)$ ones in the period, and therefore
+Assume now $q>1$ and put $d=\operatorname{ord}_q(2)$. The purely periodic binary expansion of $a'/q$ has period $d$. But $M_w/D$ is exactly $0.\overline{w}_2$. If $d<p$, then $w$ repeats with period $d$, contrary to the primitivity of $w$. Hence $d=p$. Applying Lemma A.14 with $C=Q$ gives at least $(p+1)/(2Q)$ ones in the period, and therefore
 
 $$
 \operatorname{dens}(w)\geq\frac{p+1}{2Qp}\geq\frac{1}{3Q}.
@@ -1362,7 +1362,7 @@ $$
 B=L+C_Q\log p+C_Q.
 $$
 
-For $C_Q$ large enough, (A.3) gives distance $<2^{-(p-B)}$ on the circle. Choose the representative of $\nu/q$ whose circular distance to $M_w/D$ is minimal. If the interval between the two points crosses 0, the first binary cylinders are adjacent at the cut; otherwise the two points lie in the same ordinary binary interval of length $2^{-(p-B)}. In the same-cylinder case the first $p-B$ digits agree. In the adjacent-cylinder case the two binary words have the form
+For $C_Q$ large enough, (A.3) gives distance $<2^{-(p-B)}$ on the circle. Choose the representative of $\nu/q$ whose circular distance to $M_w/D$ is minimal. If the interval between the two points crosses 0, the first binary cylinders are adjacent at the cut; otherwise the two points lie in the same ordinary binary interval of length $2^{-(p-B)}$. In the same-cylinder case the first $p-B$ digits agree. In the adjacent-cylinder case the two binary words have the form
 
 $$
 \xi011\cdots1,\qquad \xi100\cdots0
