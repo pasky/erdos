@@ -84,9 +84,9 @@ n_{i+1} > Lambda n_i infinitely often that still represents all rationals in
 general sufficient condition (Proposition 8) for reciprocal sums of a sequence
 to contain an interval, related to earlier characterizations of Graham and
 Eppstein; the appendix reproves Eppstein's theorem on sets closed under
-doubling as Theorem 12. This answers problem 355, which asks whether such a lacunary
-sequence exists, in the affirmative (Theorem 1(a)); it is the Bleicher-Erdos
-conjecture that is refuted.
+doubling as Theorem 12. This answers problem 355, which asks whether such a
+lacunary sequence exists, in the affirmative (Theorem 1(a)); it is the
+Bleicher-Erdos conjecture that is refuted.
 
 Source: <https://arxiv.org/abs/2509.24971>.
 

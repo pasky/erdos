@@ -113,7 +113,7 @@ O(1).
 
 Source: <https://users.renyi.hu/~p_erdos/1956-17.pdf>. No notice is printed in
 the file; the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the
 1956 colloquium volume has no online publisher edition, so no publisher's page
 was consulted, and no Crossref license is recorded; the term is unstated.

@@ -43,7 +43,8 @@ $$
 
 (the Vardi constant, OEIS A076393).
 
-**Corollary 1.7** (p. 4). Conjecture 1.3 is true. (The print reads "Conjecture 1.3 is ture" [sic].)
+**Corollary 1.7** (p. 4). Conjecture 1.3 is true. (The print reads "Conjecture
+1.3 is ture" [sic].)
 
 The paper's footnote 2 (p. 3) says the monograph states the problem with
 $u_1=1$, $u_{n+1}=u_n(u_n+1)$, "an obvious typo" since those reciprocals do

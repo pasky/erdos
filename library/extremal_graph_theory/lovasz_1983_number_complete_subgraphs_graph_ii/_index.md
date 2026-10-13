@@ -55,7 +55,8 @@ bytes. That scan of the printed chapter on the second author's page
 (https://www.renyi.hu/~miki/LovSimBirk.pdf) states no terms; the
 publisher's chapter page states "© 1983 Springer Basel AG", names Birkhäuser,
 Basel, as publisher and carries no Creative Commons or open-access statement
-(https://link.springer.com/chapter/10.1007/978-3-0348-5438-2_41), every other right reserved.
+(https://link.springer.com/chapter/10.1007/978-3-0348-5438-2_41, read
+2026-10-02), every other right reserved.
 
 Read status: claims checked for the abstract (printed p. 459 = PDF p. 1),
 Theorem A, Problem 3, Remark 1 and the paragraph attributing the $p=3$ case
@@ -90,11 +91,11 @@ Theorems 1--4 are paged at
   Turán's $m(n,p)$ with $T^{n,p-1}$ the unique $K_p$-free graph with $m(n,p)$
   edges; Rademacher's unpublished result; Theorem A (Erdős): $U_k^n$, the
   Turán graph with $k$ edges added inside a largest class forming no
-  triangles if this is possible, is extremal for $k<c_pn$; Problem 3 (Erdős): how large can
-  $c_p$ be; Remark 1: not beyond $1/(p-1)$; "This paper contains an
-  improvement of Theorem A (see Theorem 4 below) which yields that in
-  Problem 3 the answer is $c=1/(p-1)$. For $p=3$ the proof of this was
-  given in [5]" (p. 460).
+  triangles if this is possible, is extremal for $k<c_pn$; Problem 3 (Erdős):
+  how large can $c_p$ be; Remark 1: not beyond $1/(p-1)$; "This paper contains
+  an improvement of Theorem A (see Theorem 4 below) which yields that in Problem
+  3 the answer is $c=1/(p-1)$. For $p=3$ the proof of this was given in [5]" (p.
+  460).
 - P. 461: the convention "The numbers $p$ and $d$ will be considered fixed
   and $n$ large relative to them"; Theorem 1 (Goodman's bound generalized,
   $k_p(G)\ge\binom tp(n/t)^p$ where $E=(1-1/t)n^2/2$); Theorem 2 (a

@@ -46,10 +46,10 @@ an OCR text layer that garbles the inequality signs, exponents and fractions;
 printed p. $n$ is PDF p. $n-312$. Every statement below was read on the
 rendered page images. Source: <https://users.renyi.hu/~p_erdos/1981-19.pdf>. No
 notice is printed in that scan (its first and last pages read); the publisher's
-page could not be read, the DOI leading to a login page; the
+page could not be read on 2026-10-02, the DOI leading to a login page; the
 hosting archive's site footer speaks for the site, not the paper, and prints
 only "(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only." (https://users.renyi.hu/~p_erdos/);
+scientifics purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02);
 the term is unstated.
 
 Read status: claims checked for Theorem 1, display (2$'$), display (3) with

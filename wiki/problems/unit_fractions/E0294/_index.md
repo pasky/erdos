@@ -101,17 +101,17 @@ holds. The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382
 (received 28 October 2025, accepted 23 December 2025, online 14 January
 2026, per the publisher's record read on 2026-09-17), which is the
 acceptance evidence; the library retains arXiv v1, and the published text
-has not been compared, so all locators are v1 locators. The proof (pp. 13--14) was read
-for its structure: the upper bound takes a prime $t>10N/\log N$ and shows
-that a representation starting at $1/t$ would force a congruence modulo $t$
-that the small least common multiple of the other quotients cannot satisfy;
-the lower bound represents $1$ starting from $1/t$ by one application of
-the paper's Lemma 4.1 for $t\le N^{9/10}$, and by two, at two scales, for
-larger $t$; the lemma produces prescribed smooth fractions from
-denominators in an interval of constant ratio by way of its Proposition
-3.2. The theorem page records that a complete rewrite of both bounds and
-their dependencies is not compiled; the library's proof coverage for this
-theorem is statement and sketch only.
+has not been compared, so all locators are v1 locators. The proof (pp. 13--14)
+was read for its structure: the upper bound takes a prime $t>10N/\log N$ and
+shows that a representation starting at $1/t$ would force a congruence modulo
+$t$ that the small least common multiple of the other quotients cannot satisfy;
+the lower bound represents $1$ starting from $1/t$ by one application of the
+paper's Lemma 4.1 for $t\le N^{9/10}$, and by two, at two scales, for larger
+$t$; the lemma produces prescribed smooth fractions from denominators in an
+interval of constant ratio by way of its Proposition 3.2. The theorem page
+records that a complete rewrite of both bounds and their dependencies is not
+compiled; the library's proof coverage for this theorem is statement and sketch
+only.
 
 Two remarks on the source. On p. 3 the authors report that they knew of no
 earlier study of this question, and they label it "Problem # 305" in the

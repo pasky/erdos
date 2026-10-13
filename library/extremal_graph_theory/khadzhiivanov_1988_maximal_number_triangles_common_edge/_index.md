@@ -39,10 +39,11 @@ from p. 49. The zbMATH record (read 2026-09-18) lists it as God. Sofiĭ.
 Univ., Fak. Mat. Inform. 82, 37--52 (1988) and gives the language as
 Bulgarian; the text on the page images is Russian, and the title page prints
 1988. The journal's article record
-(<https://annual.uni-sofia.bg/index.php/fmi/article/view/521>) lists volume 82, number 1, pp. 37--49, dated 12 December 1991,
-and reproduces the English abstract. Not a source key of the site: the
-site's key KhNi79 for Problem 905 is the author's 1979 note with Nikiforov,
-this paper's reference [2], which is not held.
+(<https://annual.uni-sofia.bg/index.php/fmi/article/view/521>) lists volume 82,
+number 1, pp. 37--49, dated 12 December 1991, and reproduces the English
+abstract. Not a source key of the site: the site's key KhNi79 for Problem 905 is
+the author's 1979 note with Nikiforov, this paper's reference [2], which is not
+held.
 
 **Edition read.** The copy read for this card is a 13-page image-only
 PDF (a print-to-PDF of a scan named `82-1.pdf`, per its metadata; no text

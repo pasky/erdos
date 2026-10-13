@@ -57,9 +57,9 @@ this $n$ the assumptions in part (i) hold tend to $1$ as $M$ tends to
 infinity." The remark after the proof (p. 9) notes that
 $1\le f(k_0)\le n$ and $n^{-1+o(1)}\le f(k_0+1)<1$, and that "for a given
 $k_0$, exactly one of the three possibilities described in parts (i), (ii)
-and (iii) of Theorem 1.1 occurs." The theorem's companion, Theorem 1.2 (p. 2): there is an absolute
-constant $c>0$ such that for $\frac2n\le p\le c$ and $G=G(n,p)$,
-$\tau(G)=n-\Theta(\frac{\log(np)}p)$ whp.
+and (iii) of Theorem 1.1 occurs." The theorem's companion, Theorem 1.2 (p. 2):
+there is an absolute constant $c>0$ such that for $\frac2n\le p\le c$ and
+$G=G(n,p)$, $\tau(G)=n-\Theta(\frac{\log(np)}p)$ whp.
 
 **Source.** N. Alon, *Bipartite decomposition of random graphs*,
 arXiv:1402.6466v1 (26 February 2014), 14 pages; Theorem 1.1 and the

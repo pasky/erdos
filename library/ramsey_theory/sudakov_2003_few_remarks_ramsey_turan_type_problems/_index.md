@@ -51,9 +51,9 @@ doi:10.1016/S0095-8956(02)00038-2 (Crossref record read 2026-09-18).
 
 **Edition read.** The copy read for this card
 is the journal's own PDF (Elsevier, 8 pages): printed p. n =
-PDF p. n − 98. All eight pages were read. That copy prints "© 2002 Elsevier Science (USA).
-All rights reserved." on its first page (printed p. 99), every other right
-reserved.
+PDF p. n − 98. All eight pages were read. That copy prints "© 2002 Elsevier
+Science (USA). All rights reserved." on its first page (printed p. 99), every
+other right reserved.
 
 Read status: claims checked for every result with a page here, read
 clause by clause against the print: Problem 1.1 (printed p. 100), Lemma 2.1

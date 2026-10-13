@@ -82,19 +82,20 @@ here is independently reviewed.
   Throughout, $F$ and $G$ have no isolated vertices (p. 311).
 - Section 2, sparse graphs with restricted maximum degree (pp. 312--314): a
   three-part Lemma (p. 312) on blue paths, blue matchings and graphs without
-  long suspended paths, then a Proposition (p. 312) giving, for $p_1\le\cdots\le p_m$, $k$ and $\Delta$,
-  a number $l$ with $r(K(p_1,\ldots,p_m),G)\le(m-1)(n-1)+l$ for every graph
-  $G$ on $n$ vertices with at most $n+k$ edges and maximum degree at most
-  $\Delta$, its proof splitting into cases by long suspended paths and many
-  independent end edges; then **Theorem 1** (p. 313): given
-  $s=p_1\le\cdots\le p_m$, $k$ and $\Delta$, there is $n_0$ for which every
-  connected $G$ on $n>n_0$ vertices with at most $n+k$ edges and maximum
-  degree at most $\Delta$ has $r(K(p_1,\ldots,p_m),G)=(m-1)(n-1)+s$. A
-  Corollary (p. 314) gives $r(F,G)=(m-1)(n-1)+s$ for any fixed $F$ of order
-  $p$ with $\chi(F)=m$ such that in every $m$-coloring of $V(F)$ each color
-  class has at least $s$ vertices: for some constants $C_1,C_2$ and all
-  sufficiently large $n$, every connected $G$ with $q(G)\le n+C_1n^\alpha$
-  and $\Delta(G)\le C_2n^\alpha$, where $\alpha=1/(2p-1)$, satisfies it.
+  long suspended paths, then a Proposition (p. 312) giving, for
+  $p_1\le\cdots\le p_m$, $k$ and $\Delta$, a number $l$ with
+  $r(K(p_1,\ldots,p_m),G)\le(m-1)(n-1)+l$ for every graph $G$ on $n$ vertices
+  with at most $n+k$ edges and maximum degree at most $\Delta$, its proof
+  splitting into cases by long suspended paths and many independent end edges;
+  then **Theorem 1** (p. 313): given $s=p_1\le\cdots\le p_m$, $k$ and $\Delta$,
+  there is $n_0$ for which every connected $G$ on $n>n_0$ vertices with at most
+  $n+k$ edges and maximum degree at most $\Delta$ has
+  $r(K(p_1,\ldots,p_m),G)=(m-1)(n-1)+s$. A Corollary (p. 314) gives
+  $r(F,G)=(m-1)(n-1)+s$ for any fixed $F$ of order $p$ with $\chi(F)=m$ such
+  that in every $m$-coloring of $V(F)$ each color class has at least $s$
+  vertices: for some constants $C_1,C_2$ and all sufficiently large $n$, every
+  connected $G$ with $q(G)\le n+C_1n^\alpha$ and $\Delta(G)\le C_2n^\alpha$,
+  where $\alpha=1/(2p-1)$, satisfies it.
 - Section 3, trees (pp. 314--317): a counting Lemma, **Theorem 2** (p. 315),
   which for fixed $p\ge2$ and $m$ gives constants $A_m,B_m$ such that, for
   $N=(m-1)n+k$ with $k=O(n)$, $k\ge A_mn^{\alpha(m)}$ and $n$ large, in

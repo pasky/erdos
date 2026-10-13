@@ -46,19 +46,19 @@ arXiv preprint arXiv:1503.01203v2 (2 April 2015), 6 pages, so the locators
 below are the preprint's and the journal text was not compared. Read
 status: claims checked for the definitions (p. 1), the results paragraph
 with footnote 3 (p. 2), Theorem 1 with its proof (p. 3) and Theorem 2 with
-its proof and Corollary 1 (p. 4), read clause by clause on the page images, paged at
+its proof and Corollary 1 (p. 4), read clause by clause on the page images,
+paged at
 [[extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_1|theorem_1]],
 [[extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_2|theorem_2]]
 and
 [[extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/corollary_1|corollary_1]];
-the proof of Theorem 1 read and followed; the proof of Theorem 2 read, its
-count of minimal $(a,b)$-separators failing as printed (recorded on the
-Theorem 2 page), and the constant $(24\cdot3^{46})^{1/144}=1.4521\ldots$
-recomputed. The journal version's abstract states $\omega(1.4457^n)$ where
-the preprint states $\omega(1.4521^n)$ (the abstract text of its Semantic
-Scholar record); the journal proof was not read. The arXiv
-record names arXiv's non-exclusive distribution license
-(arXiv:1503.01203), every other right reserved.
+the proof of Theorem 1 read and followed; the proof of Theorem 2 read, its count
+of minimal $(a,b)$-separators failing as printed (recorded on the Theorem 2
+page), and the constant $(24\cdot3^{46})^{1/144}=1.4521\ldots$ recomputed. The
+journal version's abstract states $\omega(1.4457^n)$ where the preprint states
+$\omega(1.4521^n)$ (the abstract text of its Semantic Scholar record); the
+journal proof was not read. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1503.01203), every other right reserved.
 
 Let sep(n) be the maximum number of minimal separators of an n-vertex graph and
 pmc(n) the maximum number of potential maximal cliques. Theorem 1 reproves the

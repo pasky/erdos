@@ -31,10 +31,9 @@ shape the ordering convention changes only the implied constant.
 **Source.** Elsholtz and Planitzer, arXiv:1805.02945v1 (8 May 2018),
 21 pp.; Theorem 1 on p. 2, read on the page image; proved on pp. 9--10,
 in Section 5 (pp. 8--11), with the patterns and relative greatest common
-divisors of Section 4 (pp. 6--8). Published as Proc. Roy. Soc. Edinburgh Sect. A 150
-(2020), no. 3, 1401--1427, DOI 10.1017/prm.2018.137, online 30 January 2019
-(Crossref record fetched 2026-09-18); the published version was not
-compared.
+divisors of Section 4 (pp. 6--8). Published as Proc. Roy. Soc. Edinburgh Sect. A
+150 (2020), no. 3, 1401--1427, DOI 10.1017/prm.2018.137, online 30 January 2019
+(Crossref record fetched 2026-09-18); the published version was not compared.
 
 **Read depth.** Claims checked: Theorem 1, Corollaries 1 and 2, Theorems 2
 and 3 and Corollary 4 and Theorem 4 (pp. 2--4) were read clause by clause on

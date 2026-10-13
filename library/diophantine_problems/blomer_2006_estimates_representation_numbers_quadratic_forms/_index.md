@@ -71,11 +71,11 @@ marks, the first page names the journal, volume and issue, and the 42 pages
 are numbered 1--42 rather than 261--302. The count matches
 the printed extent, but the page correspondence was not checked, so the
 page numbers below are the proof's. It has a text layer. Its margin on p. 34
-carries an editorial query on the conclusion of the proof of Theorem 5. Provenance:
-downloaded in the repository's survey download set of September 2026; the
-download URL was not recorded; 284,127 bytes. The typeset proof's only
-notice is "Vol. 135, No. 2, © 2006" under "DUKE MATHEMATICAL JOURNAL" on
-p. 1, naming no holder or license; the article's Project Euclid page (DOI
+carries an editorial query on the conclusion of the proof of Theorem 5.
+Provenance: downloaded in the repository's survey download set of September
+2026; the download URL was not recorded; 284,127 bytes. The typeset proof's only
+notice is "Vol. 135, No. 2, © 2006" under "DUKE MATHEMATICAL JOURNAL" on p. 1,
+naming no holder or license; the article's Project Euclid page (DOI
 10.1215/S0012-7094-06-13522-6) could not be read on 2026-10-02 (it served a bot
 challenge); the Duke University Press journal page
 (dukeupress.edu/duke-mathematical-journal, read 2026-10-02) prints "© 2024 Duke

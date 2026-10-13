@@ -68,8 +68,8 @@ Source: <https://arxiv.org/abs/2503.02317>.
 **Results.**
 
 - Theorem 8 (p. 3; on the theorem_8 page): For a positive integer n, if
-  positive integers a_1 <= a_2 <= ... satisfy sum 1/a_i = 1/n and a_i differs from s_i(n) for
-  some i, then liminf a_i^(2^{-i}) < c_n = lim s_i(n)^(2^{-i}).
+  positive integers a_1 <= a_2 <= ... satisfy sum 1/a_i = 1/n and a_i differs
+  from s_i(n) for some i, then liminf a_i^(2^{-i}) < c_n = lim s_i(n)^(2^{-i}).
 - The case n = 1 (the paper labels no corollary; p. 1 says it solves Problem
   1 and its generalization, Theorem 8): any nondecreasing sequence of positive
   integers other than the Sylvester sequence s_i(1) = 2, 3, 7, 43, ... with sum
@@ -79,8 +79,9 @@ Source: <https://arxiv.org/abs/2503.02317>.
   c_n = lim s_i(n)^(2^{-i}) exists and satisfies sqrt(n) < c_n < sqrt(n+1),
   so c_n increases in n.
 - Proposition 5 (p. 2; on the theorem_8 page): For positive integers n and
-  j, the generalized Sylvester sequence satisfies sum_{i<j} 1/s_i(n) + 1/(s_j(n)-1) = 1/n, and s_j(n) - 1
-  is the product of the earlier terms times n.
+  j, the generalized Sylvester sequence satisfies sum_{i<j} 1/s_i(n) +
+  1/(s_j(n)-1) = 1/n, and s_j(n) - 1 is the product of the earlier terms times
+  n.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

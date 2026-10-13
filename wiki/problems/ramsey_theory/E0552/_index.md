@@ -111,8 +111,8 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   [[../library/ramsey_theory/wu_2015_ramsey_numbers_c_4_versus_wheels_stars/_index|wu_2015_ramsey_numbers_c_4_versus_wheels_stars]].
 - [Bo24] Boza, L., Exact values and bounds for Ramsey numbers of $C_4$
   versus a star graph. arXiv:2409.12770 (v1 19 September 2024; v2 12 June
-  2026, the version cited, 5 pages); a preprint. Theorem 10 and Remark 12, p. 4. Library
-  home:
+  2026, the version cited, 5 pages); a preprint. Theorem 10 and Remark 12, p. 4.
+  Library home:
   [[../library/ramsey_theory/boza_2024_exact_values_bounds_ramsey_numbers_c4/_index|boza_2024_exact_values_bounds_ramsey_numbers_c4]].
 - [ZCC17] Zhang, Xuemei, Chen, Yaojun and Cheng, T. C. Edwin, Some values
   of Ramsey numbers for $C_4$ versus stars. Finite Fields Appl. 45 (2017),

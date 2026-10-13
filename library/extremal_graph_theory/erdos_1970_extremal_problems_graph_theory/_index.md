@@ -70,7 +70,7 @@ subgraph question, whose positive form for dense graphs is Theorem 1).
 Source: <https://users.renyi.hu/~p_erdos/1970-22.pdf>. The copy read for this
 card is the archive's 14-page scan (923,299 bytes). No notice is printed in
 the file; the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics [sic] purposes
 only."); the colloquium volume has no publisher page or DOI for this
 edition, so the publisher's page was not consulted and no Crossref license is

@@ -73,9 +73,10 @@ of which this is a modification.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: Theorem 1 gives the
-  lower bound $W(3,k)\ge\exp(c(\log k)^2/\log\log k)$ (colors exchanged),
-  the bound the problem page records for Hunter. It is superpolynomial, so
-  it meets the problem's non-trivial lower-bound challenge, which Green's
-  Theorem 1.1 met first; it does not determine the order of magnitude. Footnote 1 is the shape of the argument behind the
-  site's upper bound $\exp(O((\log k)^9))$, which the paper does not state.
+- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: Theorem 1 gives
+  the lower bound $W(3,k)\ge\exp(c(\log k)^2/\log\log k)$ (colors exchanged),
+  the bound the problem page records for Hunter. It is superpolynomial, so it
+  meets the problem's non-trivial lower-bound challenge, which Green's Theorem
+  1.1 met first; it does not determine the order of magnitude. Footnote 1 is the
+  shape of the argument behind the site's upper bound $\exp(O((\log k)^9))$,
+  which the paper does not state.

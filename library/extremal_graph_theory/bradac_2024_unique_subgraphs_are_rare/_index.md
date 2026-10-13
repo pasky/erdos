@@ -18,7 +18,9 @@ updated: 2026-10-08T01:29:58Z
 Domagoj Bradač, Micha Christoph, Unique subgraphs are rare. arXiv:2410.16233
 (2024); published in Proc. Amer. Math. Soc. 153 (2025), no. 11, 4585--4593,
 DOI 10.1090/proc/17303 (zbMATH record read 2026-10-07), published
-electronically 20 August 2025. The arXiv record (https://arxiv.org/abs/2410.16233, read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+electronically 20 August 2025. The arXiv record
+(https://arxiv.org/abs/2410.16233, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 A graph G is a unique subgraph of H when H has exactly one subgraph isomorphic
 to G. For an n-vertex graph H, f(H) is the number of isomorphism types of

@@ -51,7 +51,8 @@ https://doi.org/10.1090/s0002-9904-1974-13434-8 (Crossref record read on
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/corollary_1_10|Corollary 1.10]]
 (p. 425) gives, assuming the prime $k$-tuples conjecture (B), for every
 sufficiently large $x$ infinitely many $y$ with $\pi(x+y)>\pi(x)+\pi(y)$,
-against the problem's inequality for large $x$ and $y$; it is conditional on (B), and the unconditional
+against the problem's inequality for large $x$ and $y$; it is conditional on
+(B), and the unconditional
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/theorem_4_1|Theorem 4.1]]
 (p. 435) concerns admissible sets, not primes.
 [[../wiki/problems/integer_sequences/E1204/_index|#1204]]: Theorem 4.1 gives,
@@ -64,11 +65,12 @@ proof of Theorem 4.1 is a sketch.
 
 - [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/definition_1_7|Definition 1.7]]
   (p. 424; admissibility, Definition 1.5, p. 423): $\rho^*(x)$ is the largest
-  $k$ for which an admissible $k$-tuple of distinct integers lies in an interval $y<b_i\leq y+x$ of length $x$.
+  $k$ for which an admissible $k$-tuple of distinct integers lies in an interval
+  $y<b_i\leq y+x$ of length $x$.
 - [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/proposition_1_9|Proposition 1.9 and its Corollary]]
-  (p. 424; proof p. 425): under (B), $\rho^*(x)$ is the largest number of primes contained in
-  infinitely many intervals $(y,y+x]$; if also $\rho^*(x_0)>\pi(x_0)$, then (A)
-  fails at $x=x_0$ for infinitely many $y$.
+  (p. 424; proof p. 425): under (B), $\rho^*(x)$ is the largest number of primes
+  contained in infinitely many intervals $(y,y+x]$; if also
+  $\rho^*(x_0)>\pi(x_0)$, then (A) fails at $x=x_0$ for infinitely many $y$.
 - [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/corollary_1_10|Corollary 1.10]]
   (p. 425): under (B), for all sufficiently large $x$ there are infinitely many
   $y$ with $\pi(y+x)-\pi(y)>\pi(x)$.
@@ -166,8 +168,8 @@ substantially more uniform than a random model predicted, leading to the analogy
 between a short arithmetic progression and consecutive integers (§§3.1–3.2,
 printed pp. 433–435). The paper reports, as a computation rather than a theorem,
 that $\rho^*(20{,}000)>\pi(20{,}000)$, while earlier computations gave
-$\rho^*(x)\leq\pi(x)$ through $x=500$ (Note at the end of the Introduction, printed
-p. 421; Remark after Corollary 1.10, printed p. 425).
+$\rho^*(x)\leq\pi(x)$ through $x=500$ (Note at the end of the Introduction,
+printed p. 421; Remark after Corollary 1.10, printed p. 425).
 
 The proof in this article is only a sketch: §4.5 explicitly does not prove
 assertion $(**)$, and the Introduction and concluding discussion refer to

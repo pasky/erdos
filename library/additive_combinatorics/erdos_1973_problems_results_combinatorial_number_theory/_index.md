@@ -66,16 +66,16 @@ derivation of (4.5) and the sketched arguments for $f(d)<cd$, p. 121, and for
 Company, 1973" at the head of p. 117, every other right reserved.
 
 - Printed p. 118 (PDF p. 2), Section 1, for
-  [[../wiki/problems/additive_combinatorics/E0186/_index|#186]] (read on the page image, the exponents at 300 dpi): Straus's problem, as Erdős poses it:
-  "Let $a_1<\cdots<a_k\le x$ be such that no $a_i$ is the arithmetic mean of
-  any subset of the $a$'s consisting of two or more elements. Put
-  $\max k=F(x)$." Display (1.2) gives
-  $\exp(2\log x)^{\frac12}<F(x)<cx^{\frac23}$; Straus [1967] proved the
-  lower bound, Erdős and Straus [1970] the upper. Erdős reports
+  [[../wiki/problems/additive_combinatorics/E0186/_index|#186]] (read on the
+  page image, the exponents at 300 dpi): Straus's problem, as Erdős poses it:
+  "Let $a_1<\cdots<a_k\le x$ be such that no $a_i$ is the arithmetic mean of any
+  subset of the $a$'s consisting of two or more elements. Put $\max k=F(x)$."
+  Display (1.2) gives $\exp(2\log x)^{\frac12}<F(x)<cx^{\frac23}$; Straus [1967]
+  proved the lower bound, Erdős and Straus [1970] the upper. Erdős reports
   Straus's conjecture that the lower bound of (1.2) is the truth and adds that
-  even $F(x)=\mathrm o(x^\varepsilon)$ looks very hard. The display's left
-  side is printed as $\exp(2\log x)^{1/2}$, the exponent outside the
-  parenthesis. Claims checked; no proof is given.
+  even $F(x)=\mathrm o(x^\varepsilon)$ looks very hard. The display's left side
+  is printed as $\exp(2\log x)^{1/2}$, the exponent outside the parenthesis.
+  Claims checked; no proof is given.
 - Printed p. 121 (PDF p. 5), Section 2, for
   [[../wiki/problems/ramsey_theory/E0187/_index|#187]]: Cohen's question, which Erdős
   says was asked many years earlier: "Determine or estimate a function
@@ -168,14 +168,14 @@ Company, 1973" at the head of p. 117, every other right reserved.
   (Mann [1967]) for $2n-1$ elements of an Abelian group of order $n$,
   "perhaps for non-Abelian groups too".
 - Printed pp. 126--127 (PDF pp. 10--11), Graham's second problem, for
-  [[../wiki/problems/additive_combinatorics/E0475/_index|#475]] (read on the page images): "Let $a_1,\dots,a_k$ be $k$ distinct residues mod $p$, $k<p$. Is
+  [[../wiki/problems/additive_combinatorics/E0475/_index|#475]] (read on the
+  page images): "Let $a_1,\dots,a_k$ be $k$ distinct residues mod $p$, $k<p$. Is
   it true that there is a permutation $a_{i_1},\dots,a_{i_k}$ so that none of
-  the sums $a_{i_1}+\cdots+a_{i_r}$, $1\le r\le k$ are $\equiv\pmod p$?"
-  Erdős adds that Graham proved the case $k=p-1$ and that the general case
-  was open. The display is printed with "$\equiv\pmod p$" and no right-hand
-  side, the sense being that no two of the partial sums are congruent; the
-  question is the site's Problem 475 in its residue form. Claims checked; no
-  proof is given.
+  the sums $a_{i_1}+\cdots+a_{i_r}$, $1\le r\le k$ are $\equiv\pmod p$?" Erdős
+  adds that Graham proved the case $k=p-1$ and that the general case was open.
+  The display is printed with "$\equiv\pmod p$" and no right-hand side, the
+  sense being that no two of the partial sums are congruent; the question is the
+  site's Problem 475 in its residue form. Claims checked; no proof is given.
 - Printed p. 126 (PDF p. 10), Graham's first problem, for
   [[../wiki/problems/integer_sequences/E0541/_index|#541]]: the first of two problems
   of Graham that Erdős records: "Let $a_1,\ldots,a_p$ be $p$ not
@@ -186,55 +186,54 @@ Company, 1973" at the head of p. 117, every other right reserved.
   all-zero choice is printed here, where item 7 above has "(not all
   $\varepsilon_i$ are $0$)".
 - Printed p. 129 (PDF p. 13), Section 8, for
-  [[../wiki/problems/number_theory/E0362/_index|#362]] (read on the page image): for $n$ distinct numbers $a_1<\cdots<a_n$, Erdős and Moser
-  proved (reference [II]) that the number of solutions of (8.7),
-  $t=\sum_{i=1}^n\varepsilon_ia_i$ with $\varepsilon_i\in\{0,1\}$, is below
-  $c2^n(\log n)^{3/2}/n^{3/2}$; they conjectured the bound $c2^n/n^{3/2}$,
-  best possible up to $c$, which Sárközy and Szemerédi [1965] proved. Erdős
-  expects the number of solutions of (8.8), the same equation with exactly
-  $l$ summands ($\sum\varepsilon_i=l$), to be below $c2^n/n^2$ with $c$ an
-  absolute constant independent of $t$, $l$, $n$ and the sequence, and says
-  (8.8) has never been proved. He also thinks it likely, citing Van Lint
-  [1967], that for $n=2m+1$ the integers of $(-m,+m)$ maximize the count
-  in (8.7), again unproved. ([II] on p. 117 is Erdős's Mat. Lapok papers
-  "Remarks on number theory IV and V. Extremal problems in number theory I
-  and II", "see also" the 1965 Proc. Sympos. Pure Math. paper.) Claims
+  [[../wiki/problems/number_theory/E0362/_index|#362]] (read on the page image):
+  for $n$ distinct numbers $a_1<\cdots<a_n$, Erdős and Moser proved (reference
+  [II]) that the number of solutions of (8.7), $t=\sum_{i=1}^n\varepsilon_ia_i$
+  with $\varepsilon_i\in\{0,1\}$, is below $c2^n(\log n)^{3/2}/n^{3/2}$; they
+  conjectured the bound $c2^n/n^{3/2}$, best possible up to $c$, which Sárközy
+  and Szemerédi [1965] proved. Erdős expects the number of solutions of (8.8),
+  the same equation with exactly $l$ summands ($\sum\varepsilon_i=l$), to be
+  below $c2^n/n^2$ with $c$ an absolute constant independent of $t$, $l$, $n$
+  and the sequence, and says (8.8) has never been proved. He also thinks it
+  likely, citing Van Lint [1967], that for $n=2m+1$ the integers of $(-m,+m)$
+  maximize the count in (8.7), again unproved. ([II] on p. 117 is Erdős's Mat.
+  Lapok papers "Remarks on number theory IV and V. Extremal problems in number
+  theory I and II", "see also" the 1965 Proc. Sympos. Pure Math. paper.) Claims
   checked; no proof is given.
 - Printed pp. 129--130 (PDF pp. 13--14), Section 9, for
   [[../wiki/problems/additive_combinatorics/E0792/_index|#792]],
   [[../wiki/problems/additive_combinatorics/E0787/_index|#787]],
   [[../wiki/problems/additive_combinatorics/E0788/_index|#788]],
   [[../wiki/problems/additive_combinatorics/E0789/_index|#789]] and
-  [[../wiki/problems/additive_combinatorics/E0790/_index|#790]] (read on the page images): the restatement (9.1) of the 1965 selection function with
+  [[../wiki/problems/additive_combinatorics/E0790/_index|#790]] (read on the
+  page images): the restatement (9.1) of the 1965 selection function with
   $f(n)\ge\frac13n$ and "Klarner and Hilton showed $f(n)<\frac12n$ even if we
-  exclude $j_1=j_2$" (p. 129); display (9.2)
-  $c\log n<g(n)<n^{2/5+\varepsilon}$ for the subsequence no two distinct
-  members of which sum into the original sequence, Klarner and Choi; Choi's
-  interval problem, "Let $B$ be any set of integers in $(2n,4n)$ and let $C$ be
-  a maximal admissible subset of $(n,2n)$ relative to $B$. Put
-  $f(n)=\min_B(|C|+|B|)$. Choi conjectures $f(n)<n^{\frac12+\varepsilon}$, but
-  can only show $f(n)<cn^{\frac34}$"; $c_1n^{\frac13}<h(n)<c_2n^{\frac12}$ with
-  Straus [1966] for the upper bound and Choi's $h(n)>c(n\log n)^{\frac13}$
-  "will soon appear"; and the $l(n)$ paragraph with "I observed
-  $l(n)\ge\sqrt{(\frac12n)}$; this was improved by Choi to $l(n)>(1+c)\sqrt n$",
-  the expectation $l(n)/\sqrt n\to\infty$, "I claimed $l(n)=\mathrm o(n)$, but
-  have difficulties in reconstructing my proof" and "Probably $l(n)<n^{1-c}$"
-  (p. 130). The passages are on the result page
+  exclude $j_1=j_2$" (p. 129); display (9.2) $c\log n<g(n)<n^{2/5+\varepsilon}$
+  for the subsequence no two distinct members of which sum into the original
+  sequence, Klarner and Choi; Choi's interval problem, "Let $B$ be any set of
+  integers in $(2n,4n)$ and let $C$ be a maximal admissible subset of $(n,2n)$
+  relative to $B$. Put $f(n)=\min_B(|C|+|B|)$. Choi conjectures
+  $f(n)<n^{\frac12+\varepsilon}$, but can only show $f(n)<cn^{\frac34}$";
+  $c_1n^{\frac13}<h(n)<c_2n^{\frac12}$ with Straus [1966] for the upper bound
+  and Choi's $h(n)>c(n\log n)^{\frac13}$ "will soon appear"; and the $l(n)$
+  paragraph with "I observed $l(n)\ge\sqrt{(\frac12n)}$; this was improved by
+  Choi to $l(n)>(1+c)\sqrt n$", the expectation $l(n)/\sqrt n\to\infty$, "I
+  claimed $l(n)=\mathrm o(n)$, but have difficulties in reconstructing my proof"
+  and "Probably $l(n)<n^{1-c}$" (p. 130). The passages are on the result page
   [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/section_9|section_9]].
   Claims checked; every bound is reported without proof.
 - Printed pp. 130--131 (PDF pp. 14--15), the close of Section 9, for
-  [[../wiki/problems/additive_combinatorics/E0791/_index|#791]] (read on the page images): after pointing to the papers of Rohrbach and Stöhr [VII] for
-  further additive problems, Erdős singles out a problem of Rohrbach's:
-  "Let $0\le a_1<\cdots<a_k\le n$ be a sequence of integers so that every
-  integer $0\le m\le n$ can be written in the form $a_i+a_j$. Put
-  $g(n)=\min k$." He records Rohrbach's observation
-  $\sqrt{2n}\le g(n)\le2\sqrt n$, Rohrbach's proof of
-  $g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$, Moser's
-  improvement with a still very small $\varepsilon$, and Rohrbach's
-  conjecture $g(n)=2\sqrt n+\mathrm o(1)$ (as printed), which Erdős calls far
-  out of reach. The basis contains $0$ and the range is $0\le m\le n$, so
-  $g(n)$ is the site's inverse function of the maximal range. Claims checked;
-  no proof is given.
+  [[../wiki/problems/additive_combinatorics/E0791/_index|#791]] (read on the
+  page images): after pointing to the papers of Rohrbach and Stöhr [VII] for
+  further additive problems, Erdős singles out a problem of Rohrbach's: "Let
+  $0\le a_1<\cdots<a_k\le n$ be a sequence of integers so that every integer
+  $0\le m\le n$ can be written in the form $a_i+a_j$. Put $g(n)=\min k$." He
+  records Rohrbach's observation $\sqrt{2n}\le g(n)\le2\sqrt n$, Rohrbach's
+  proof of $g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$, Moser's
+  improvement with a still very small $\varepsilon$, and Rohrbach's conjecture
+  $g(n)=2\sqrt n+\mathrm o(1)$ (as printed), which Erdős calls far out of reach.
+  The basis contains $0$ and the range is $0\le m\le n$, so $g(n)$ is the site's
+  inverse function of the maximal range. Claims checked; no proof is given.
 - Printed p. 131 (PDF p. 15), Section 10, display (10.4), for
   [[../wiki/problems/integer_sequences/E0490/_index|#490]]: a conjecture Erdős calls an
   old one of his: "Let $1\le a_1<\cdots<a_k\le x$,

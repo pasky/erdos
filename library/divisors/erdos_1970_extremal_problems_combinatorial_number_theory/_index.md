@@ -50,8 +50,8 @@ to t; the average divisor-count estimate (32) puts the density of this second
 class at most 2/log t. He concludes d_t < 1/(log t)^{c_1} for large t, states
 the reverse bound d_t > 1/(log t)^{c_2}, and asks in (33) whether d_t = (1 +
 o(1)) c_3 / (log t)^{c_4}; the proof of the lower bound is asserted but not
-supplied. Theorem 2 additionally shows that the integers all of whose divisor subset
-sums are distinct have a density, and that it is positive.
+supplied. Theorem 2 additionally shows that the integers all of whose divisor
+subset sums are distinct have a density, and that it is positive.
 
 Source: <https://users.renyi.hu/~p_erdos/1970-21.pdf>.
 
@@ -61,9 +61,10 @@ whose text layer garbles the displays; the statements of Section 1 below
 were read on the page images of pp. 124--125. No notice is printed in the copy
 read (first two and last two pages read); the 1970 volume has no publisher page
 or DOI for this edition, so no publisher's page or Crossref record could be
-consulted; the hosting archive's site footer (https://users.renyi.hu/~p_erdos/),
-"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only.", speaks for the site, not the paper; the term is unstated.
+consulted; the hosting archive's site footer (https://users.renyi.hu/~p_erdos/,
+read 2026-10-02), "(C) 2005-2007 All rights reserved. All material on this site
+is for scientifics purposes only.", speaks for the site, not the paper; the term
+is unstated.
 
 Read status: claims checked for the definition of f(k, x) (p. 123),
 display (1), the definition of F(k, x), Theorem 1 and the deduction
@@ -83,10 +84,11 @@ and $x>x_0(k)$, of Erdős's 1964 Math. Comp. paper (the paper's [6]),
 $f(k,x)$ being the largest number of integers up to $x$ "so that no $k$ of
 them have pairwise the same common divisor" (p. 123), and recalls that it
 was conjectured in [6] that the lower bound "seems to give the right order
-of magnitude for $f(k,x)$". [[../wiki/problems/integer_sequences/E0536/_index|#536]]:
-Theorem 1 and the deduction on p. 124 give $F(4,x)>cx$, so the four-element
-analog of the problem fails while "At present I cannot disprove this
-conjecture for $k=3$"; the site cites this page as [Er70, p. 124]
+of magnitude for $f(k,x)$".
+[[../wiki/problems/integer_sequences/E0536/_index|#536]]: Theorem 1 and the
+deduction on p. 124 give $F(4,x)>cx$, so the four-element analog of the problem
+fails while "At present I cannot disprove this conjecture for $k=3$"; the site
+cites this page as [Er70, p. 124]
 ([[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/theorem_1|theorem_1]]).
 [[../wiki/problems/integer_sequences/E0856/_index|#856]]: display (19), printed p. 127
 (PDF p. 5, page image): for $x>x_0(c,k)$, $\sum_{a_i<x}1/a_i>c\log x$

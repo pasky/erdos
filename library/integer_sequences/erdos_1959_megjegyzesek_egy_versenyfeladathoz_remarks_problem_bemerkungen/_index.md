@@ -83,7 +83,7 @@ Sections 10--12 were read through and not independently reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1959-07.pdf>. No notice is printed on
 the scan's first or last pages; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, prints
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
 "(C) 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); Matematikai Lapok has no publisher page or DOI for this
 edition, so the publisher's page was not consulted and no Crossref license is

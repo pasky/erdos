@@ -72,7 +72,8 @@ finite computation can settle it; last edited 11 January 2026; source key
 - [Er77c] Erdős, P., Problems and results on combinatorial number theory.
   III. Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976),
   Lecture Notes in Math. 626, Springer (1977), 43--72; Section 6, printed p.
-  57 (p. 15 of the public scan https://users.renyi.hu/~p_erdos/1977-27.pdf). The library holds no copy. Library home:
+  57 (p. 15 of the public scan https://users.renyi.hu/~p_erdos/1977-27.pdf). The
+  library holds no copy. Library home:
   [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]].
 
 **Formalization.** Statement, with a proved variant. The file

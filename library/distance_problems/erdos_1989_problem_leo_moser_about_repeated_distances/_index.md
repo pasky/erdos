@@ -34,7 +34,7 @@ Zentralblatt 737.05006). The offprint prints a reprint head naming the American
 Mathematical Monthly, Vol. 96, No. 7, August-September 1989, on p. 569 and no
 copyright line (pp. 574-575 print none either); the hosting archive's site
 footer "(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only." (https://users.renyi.hu/~p_erdos/)
+scientifics purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02)
 speaks for the site, not the paper; the publisher's host returned HTTP 403 on
 2026-10-02; the Crossref record (DOI 10.1080/00029890.1989.11972243: Amer. Math.
 Monthly 96(7), 569--575, issued 1989-08; JSTOR DOI 10.2307/2325175) gives the

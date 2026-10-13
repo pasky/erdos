@@ -77,8 +77,8 @@ structure and not checked step by step.
   sequences with fewer than $2^l+1$ representations, Raikov's and Wirsing's
   results on sequences with $g(n)>0$, the distinct-subset-product problem
   (p. 419: "Erdös (1966) proved $k<\pi(x)+cx^{1/2}/\log x$ and probably",
-  followed by the display $\max k=\pi(x)+\pi(x^{1/2})+o(x^{1/2}/\log x)$), and the Erdős--Pósa
-  observation (3).
+  followed by the display $\max k=\pi(x)+\pi(x^{1/2})+o(x^{1/2}/\log x)$), and
+  the Erdős--Pósa observation (3).
 - Page 420: for two integer sequences $1\le a_1<\dots<a_k\le x$,
   $1\le b_1<\dots<b_l\le x$ with all products $a_ib_j$ ($1\le i\le k$,
   $1\le j\le l$) distinct, the paper recalls that Erdős conjectured and

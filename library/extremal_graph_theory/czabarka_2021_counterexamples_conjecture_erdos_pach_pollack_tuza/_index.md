@@ -166,8 +166,8 @@ part (ii)'s $\frac52$ at $r=2$, for that subclass only.
   connected $(2r-1)$-colorable graphs $G_{r,\delta,p}$ of minimum degree
   $\delta$ and diameter $(6r-5)n/((2r-1)\delta+2r-3)+O(1)$, for $r\ge2$ and
   $\delta\ge2r-2$, contradicting Conjecture 1(i) for every
-  $\delta>2(r-1)(3r+2)(2r-3)$ divisible by $(r-1)(3r+2)$. Preprint only (Section 3, pp. 4--8); the EJC
-  article cites it as the JCTB paper.
+  $\delta>2(r-1)(3r+2)(2r-3)$ divisible by $(r-1)(3r+2)$. Preprint only (Section
+  3, pp. 4--8); the EJC article cites it as the JCTB paper.
 - [[extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/conjecture_2|Conjecture 2]] (p. 2; EJC Conjecture 4, p. 2): for
   $k\ge3$ and $\delta\ge\lceil3k/2\rceil-1$, a $K_{k+1}$-free (weaker
   version: $k$-colorable) connected graph of order $n$ and minimum degree at

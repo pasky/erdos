@@ -30,7 +30,7 @@ to the image of sigma.
 Pollack, Paul, Remarks on fibers of the sum-of-divisors function. In: Analytic
 Number Theory, Springer, Cham (2015), 305-320, doi:10.1007/978-3-319-22240-0_18.
 The copy read for this card is the author's manuscript from the author's
-research page (https://www.pollack-math.net/research.html),
+research page (https://www.pollack-math.net/research.html, read 2026-10-02),
 which states no terms for the papers it links, and the file prints no notice;
 the term is unstated.
 

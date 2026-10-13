@@ -190,15 +190,15 @@ passage the site cites, confirms the site's transcription (above).
 
 **Remaining gaps.** (1) The Statement is false for every $r$ by the site's
 argument, given under Status, and the standing describes it; the site's OPEN
-is recorded as the site's label. If a source identifies the intended question, it
-enters the Formulation as a variant with its own answer, and the Statement keeps
-the site's wording. (2) The origin is located: item 2 of [Er97b] states the
-problem, the lower bound (1) and the expectation (3) in the site's form, with no
-proof of (1) printed and the joint paper with Gyárfás unidentified; [ErGy97]
-does not state the problem, so the site's attribution of the conjecture and of
-the lower bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's report in
-[Er97b]. (3) No source supports a form other than the site's, so nothing is
-compiled beyond the disproof of the Statement.
+is recorded as the site's label. If a source identifies the intended question,
+it enters the Formulation as a variant with its own answer, and the Statement
+keeps the site's wording. (2) The origin is located: item 2 of [Er97b] states
+the problem, the lower bound (1) and the expectation (3) in the site's form,
+with no proof of (1) printed and the joint paper with Gyárfás unidentified;
+[ErGy97] does not state the problem, so the site's attribution of the conjecture
+and of the lower bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's
+report in [Er97b]. (3) No source supports a form other than the site's, so
+nothing is compiled beyond the disproof of the Statement.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

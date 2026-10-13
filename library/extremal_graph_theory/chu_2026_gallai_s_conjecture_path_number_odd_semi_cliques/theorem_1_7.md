@@ -90,8 +90,8 @@ Sambinelli, Towards Gallai's path decomposition conjecture, J. Graph Theory
 - [[../wiki/problems/extremal_graph_theory/E0583/_index|Problem 583]]: a bound on the path
   number of the odd semi-cliques, connected graphs that need at least
   $\lceil n/2\rceil$ paths; Bonamy and Perrett's Question 1.1 asks whether
-  they are the only connected graphs that need more than $\lfloor n/2\rfloor$, and
-  Conjecture 1.6 conjectures it for connected graphs. The conjecture asks
-  for $\lceil n/2\rceil$ on this class, and the theorem gives $(4n+6)/7$,
-  which meets it only for $n\le7$. A bound on a special class, not the
-  general statement.
+  they are the only connected graphs that need more than $\lfloor n/2\rfloor$,
+  and Conjecture 1.6 conjectures it for connected graphs. The conjecture asks
+  for $\lceil n/2\rceil$ on this class, and the theorem gives $(4n+6)/7$, which
+  meets it only for $n\le7$. A bound on a special class, not the general
+  statement.

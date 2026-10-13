@@ -59,9 +59,9 @@ for all $k\ge5$" (p. 235). The claim page
 records the theorem, its postings and the acceptance evidence. The later
 refutations each have their own claim page, listed under Claims below. The
 frontmatter standing is derived from these pages. The standing rests on
-Theorem 4. Its proof was followed as a reduction to the paper's Theorems 2 and 3, and it
-is not independently checked. The paper is in the publisher's open archive. Its
-library home is
+Theorem 4. Its proof was followed as a reduction to the paper's Theorems 2 and
+3, and it is not independently checked. The paper is in the publisher's open
+archive. Its library home is
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/_index|reid_parker_1970_disproof_conjecture_erdos_moser_tournaments]],
 with result pages
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/theorem_4|Theorem 4]]

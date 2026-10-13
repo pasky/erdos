@@ -30,16 +30,17 @@ hypergraph on n vertices, conjecturing that for large n the star S_n^{(r)} with
 binom(n-1,r-1) edges is extremal. Theorem 1.1 proves that any tight-cycle-free
 r-uniform H on n vertices has at most n^{r-1+o(1)} edges, which matches the
 lower bound up to the n^{o(1)} factor; the sentence after it says the proof
-gives at most n^{r-1} e^{c sqrt{log n}} edges for some c = c(r) > 0. Before this, the best upper bounds the authors knew of were
-Verstraete's unpublished O(n^{5/2}) for the 3-uniform tight cycle of length 24
-and, for r >= 4, O(n^{r-2^{-r+1}}) from the Erdos bound for complete r-partite
-hypergraphs with parts of size two; the Sos-Verstraete exact conjecture had
-been disproved by Huang and Ma, who gave for every r >= 3 a lower bound
-c*binom(n-1,r-1) with c > 1 for large n. The method finds robust expanders in
-the line graph of H and combines them with density-increment type arguments;
-the paper contrasts it with the Allen-Bottcher-Cooley-Mycroft result for
-dense hypergraphs, whose proof uses the hypergraph regularity lemma and so
-does not apply to hypergraphs with o(n^r) edges.
+gives at most n^{r-1} e^{c sqrt{log n}} edges for some c = c(r) > 0. Before
+this, the best upper bounds the authors knew of were Verstraete's unpublished
+O(n^{5/2}) for the 3-uniform tight cycle of length 24 and, for r >= 4,
+O(n^{r-2^{-r+1}}) from the Erdos bound for complete r-partite hypergraphs with
+parts of size two; the Sos-Verstraete exact conjecture had been disproved by
+Huang and Ma, who gave for every r >= 3 a lower bound c*binom(n-1,r-1) with c >
+1 for large n. The method finds robust expanders in the line graph of H and
+combines them with density-increment type arguments; the paper contrasts it with
+the Allen-Bottcher-Cooley-Mycroft result for dense hypergraphs, whose proof uses
+the hypergraph regularity lemma and so does not apply to hypergraphs with o(n^r)
+edges.
 
 The copy read for this card is arXiv:2009.00528v1 [math.CO] of 1 September
 2020 (16 pages, complete text layer; printed and PDF pages agree), the only

@@ -103,8 +103,8 @@ set of covering congruences, and Proposition 1.9 essentially classifies
 the primitive residue classes solvable by polynomial identities;
 Theorem 1.11 bounds from below, on average only, the Type II counts of
 $m/n$ as a sum of $k$ unit fractions with $m>k\ge3$, whose case $k=3$ is
-the setting of Schinzel's generalization in the problem's commentary. Proposition 1.4
-is a divisor-sum estimate used for Theorem 1.1.
+the setting of Schinzel's generalization in the problem's commentary.
+Proposition 1.4 is a divisor-sum estimate used for Theorem 1.1.
 
 **Results.**
 

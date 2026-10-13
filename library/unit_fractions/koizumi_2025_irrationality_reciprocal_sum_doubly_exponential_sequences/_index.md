@@ -127,8 +127,9 @@ in $[2/3,4/3]$ and reciprocal sum $1$, and Corollary 20 re-derives the
 Erdős--Straus and Badea cases.
 [[../wiki/problems/irrationality/E0263/_index|#263]]: Theorem 4 gives the
 property of the first question for all $\alpha>1$ outside a countable set and
-does not decide $\alpha=2$; Remark 22 derives $\alpha=2$ from an affirmative answer to
-Question 5, a conditional implication. Nothing bears on the second question.
+does not decide $\alpha=2$; Remark 22 derives $\alpha=2$ from an affirmative
+answer to Question 5, a conditional implication. Nothing bears on the second
+question.
 [[../wiki/problems/unit_fractions/E0282/_index|#282]]: Section 2 (p. 7) records
 the termination of the odd greedy expansion as open, citing Guy's problem book,
 and p. 9 says Conjecture 6 resembles it; no result of the paper concerns the

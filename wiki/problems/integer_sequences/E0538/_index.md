@@ -109,7 +109,8 @@ Problem #538, https://www.erdosproblems.com/538, accessed 2026-09-18.
 - The external Lean development named by the formal-conjectures file: the
   repository `williamjblair/lean-proofs`, file
   [`starfleet/erdos-538/Research/FinalMatchingOrder.lean`](https://github.com/williamjblair/lean-proofs/blob/4f915a323443bfb1709a6805a013812016dca88a/starfleet/erdos-538/Research/FinalMatchingOrder.lean)
-  (added 23 July 2026; the link pins its revision of 30 July 2026); not a library source.
+  (added 23 July 2026; the link pins its revision of 30 July 2026); not a
+  library source.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/538.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/538.lean)

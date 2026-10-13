@@ -46,8 +46,8 @@ The copy read for this card
 is arXiv:2410.17197v2 [math.CO] 21 Jan 2026, 17 pages, with a text layer;
 printed page $=$ PDF page. The page numbers below are the arXiv pages and
 the journal text has not been compared. Pages 1--9 and 13--15 were read
-on rendered page images. The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2410.17197), every other right reserved.
+on rendered page images. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:2410.17197), every other right reserved.
 
 Read status: claims checked for Theorem 1.1, the remark after it and the
 introduction's attributions (pp. 1--2), and for Theorem 2.1 (p. 4),
@@ -81,11 +81,11 @@ the constant $c$ improved by Conlon and Ferber and then by Wigderson and
 Sawin, while for $r=2$ the best lower bound "still uses Erdős' random
 colouring, and only improves the bound from [6] by a factor of 2"; it also
 records the earlier upper-bound chain for $r=2$ (Rödl, Thomason, Conlon,
-Sah) and Gupta, Ndiaye, Norin and Wei's $R_2(k)\le3.8^k$ (pp. 1--2). Theorem 5.1 (p. 13) is the quantitative form, with
-$\delta=2^{-160}r^{-12}$ for every $k\ge2^{200}r^{20}$; at $r=2$ it gives
-$R(k)\le(4e^{-2^{-172}})^k$ for $k\ge2^{220}$. The paper bears on
-problem 77 as an independent proof that $\limsup R(k)^{1/k}<4$, with that
-explicit but very small saving.
+Sah) and Gupta, Ndiaye, Norin and Wei's $R_2(k)\le3.8^k$ (pp. 1--2). Theorem 5.1
+(p. 13) is the quantitative form, with $\delta=2^{-160}r^{-12}$ for every
+$k\ge2^{200}r^{20}$; at $r=2$ it gives $R(k)\le(4e^{-2^{-172}})^k$ for
+$k\ge2^{220}$. The paper bears on problem 77 as an independent proof that
+$\limsup R(k)^{1/k}<4$, with that explicit but very small saving.
 
 ## Contents
 

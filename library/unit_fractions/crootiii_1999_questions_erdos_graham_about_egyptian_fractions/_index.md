@@ -95,7 +95,8 @@ and the best lower bound to Yokota (2002), filed as
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/_index|yokota_2002_number_integers_representable_sums_unit_fractions_iii]],
 whose Corollary 1, log n + gamma - (pi^2/3 + o(1))(log log n)^2/log n <=
 |N(n)| for large n with this paper's upper bound quoted alongside, is on
-printed p. 353 (PDF p. 3), read there clause by clause on the page image and paged on
+printed p. 353 (PDF p. 3), read there clause by clause on the page image and
+paged on
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/corollary_1|corollary_1]];
 [[../wiki/problems/number_theory/E1180/_index|#1180]], through Proposition 2 (pp. 4-5,
 page images): for eps > 0 there is N_eps such that whenever n > N_eps and

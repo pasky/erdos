@@ -78,10 +78,10 @@ p < 0.5. Theorem 4.1 (p. 6) bears on no problem page.
 
 **Results.**
 
-- Theorem 1.1 (p. 2): There is an absolute c > 0 such that for G = G(n,0.5), bc(G) <=
-  n - (2+2c) log_2 n <= n - (1+c) alpha(G) with high probability.
-- Inequality (1) (p. 2): A simple three-stage-exposure and birthday-paradox argument
-  gives bc(G(n,0.5)) <= n - alpha(G) - Omega(log log n) whp.
+- Theorem 1.1 (p. 2): There is an absolute c > 0 such that for G = G(n,0.5),
+  bc(G) <= n - (2+2c) log_2 n <= n - (1+c) alpha(G) with high probability.
+- Inequality (1) (p. 2): A simple three-stage-exposure and birthday-paradox
+  argument gives bc(G(n,0.5)) <= n - alpha(G) - Omega(log log n) whp.
 - Method (Section 3, pp. 3--6): the second moment method applied to the
   number of induced copies in the random graph of members of a family of
   bipartite graphs with small biclique partition number.

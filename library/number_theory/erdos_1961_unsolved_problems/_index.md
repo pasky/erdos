@@ -208,7 +208,12 @@ no result of its own.
 
 ## Ternary formulations on p. 239
 
-The exact historical formulations and their qualifications are recorded in [[number_theory/erdos_1961_unsolved_problems/conjecture_p239]]. The printed sentence quantifies over irrational parameters and integer variables; it does not supply positivity or a nonzero-triple requirement. The companion records the failure of the imported all-positive-integer question at negative parameters and its positive-parameter reading through Margulis's theorem.
+The exact historical formulations and their qualifications are recorded in
+[[number_theory/erdos_1961_unsolved_problems/conjecture_p239]]. The printed
+sentence quantifies over irrational parameters and integer variables; it does
+not supply positivity or a nonzero-triple requirement. The companion records the
+failure of the imported all-positive-integer question at negative parameters and
+its positive-parameter reading through Margulis's theorem.
 
 **Bears on.** [[../wiki/problems/irrationality/E0496/_index|#496]].
 

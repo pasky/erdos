@@ -92,9 +92,11 @@ authored complementation, the site's sharp threshold (r-1)n - ceil(sn/(2s-1))
 with s = floor(r/2), the exact values of c_r and the 1975 conjecture
 lim (c_r - r + 2) = 1/2; the introduction (p. 2, page image) attests that
 Haxell's 2001 note, the paper's [9], proved Delta_r >= 1/2 and "settled the
-conjecture of [7]", the site's status-defining source, which is not held. Theorems 3.7 and 4.1
-([[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]], [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]]) bear on the
-problem only as the two halves of the proof of Theorem 1.1.
+conjecture of [7]", the site's status-defining source, which is not held.
+Theorems 3.7 and 4.1
+([[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]],
+[[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]])
+bear on the problem only as the two halves of the proof of Theorem 1.1.
 
 **Results.**
 

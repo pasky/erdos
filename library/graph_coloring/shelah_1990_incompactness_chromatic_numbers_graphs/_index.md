@@ -148,8 +148,9 @@ is easily modified to give any chromatic number less than |G|.
 - [[graph_coloring/shelah_1990_incompactness_chromatic_numbers_graphs/theorem_5_2|Theorem 5.2]]
   (p. 370), with Lemma 5.1 (Ben-David and Magidor) on the same page: in the
   model of Lemma 5.1, a model of ZFC + GCH with ultrafilters on every regular
-  lambda > omega_omega, consistent if a supercompact cardinal is, if 0 < n < omega and every subgraph of a graph G of power below
-  aleph_omega has chromatic number at most aleph_n, then Chr(G) <= aleph_n.
+  lambda > omega_omega, consistent if a supercompact cardinal is, if 0 < n <
+  omega and every subgraph of a graph G of power below aleph_omega has chromatic
+  number at most aleph_n, then Chr(G) <= aleph_n.
 
 Context recorded without result pages. Lemmas 1.2-1.4 (p. 363) are the
 forcing lemmas behind Theorem 1: continuous <=_alpha-increasing sequences of

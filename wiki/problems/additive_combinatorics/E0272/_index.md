@@ -240,8 +240,9 @@ manuscript; Yang's are recorded on
   $t(N)\leq\binom N2+22051N$ for $N\geq N_0$ (big-O constant $30000$ as
   Conjectures.io's record quotes it). Scope: linear-error asymptotic only; not
   the exact value, not the kernel conjecture; Conjectures.io-accepted, no
-  refereed publication, no erdosproblems.com or catalog acceptance; the kernel check is the bounty site's, on a single kernel, and
-  this corpus has not built the file.
+  refereed publication, no erdosproblems.com or catalog acceptance; the kernel
+  check is the bounty site's, on a single kernel, and this corpus has not built
+  the file.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

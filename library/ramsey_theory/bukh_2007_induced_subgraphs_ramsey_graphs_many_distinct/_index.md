@@ -21,9 +21,9 @@ subgraphs of G realize at least Omega(n^{3/2}) distinct pairs of vertex
 count and edge count.
 
 [[ramsey_theory/bukh_2007_induced_subgraphs_ramsey_graphs_many_distinct/theorem_1_1|theorem_1_1]]: Every n-vertex graph G with hom(G), the size of its largest clique or
-independent set, at most C log n has an induced subgraph of order αn in which β√n vertices
-have pairwise different degrees, with α and β depending only on C; the
-Erdős–Faudree–Sós conjecture.
+independent set, at most C log n has an induced subgraph of order αn in which
+β√n vertices have pairwise different degrees, with α and β depending only on C;
+the Erdős–Faudree–Sós conjecture.
 
 ***
 

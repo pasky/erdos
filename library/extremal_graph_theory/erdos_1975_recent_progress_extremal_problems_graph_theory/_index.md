@@ -105,7 +105,7 @@ text layer that garbles exponents; the scan carries no printed page numbers,
 and the article occupies pp. 3--14 of the proceedings, so PDF p. n is printed
 p. 2 + n by that count. No notice is printed in the scan; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the proceedings series has no online publisher page and the card gives no DOI,
 so the publisher's page was not consulted and no Crossref license is recorded;

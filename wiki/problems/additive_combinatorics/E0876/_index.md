@@ -294,7 +294,8 @@ by it; the two tab claims have claim pages and are summarized here.
   decide the gap questions.
 
 **Search scope.** None of the routes below found a source deciding either
-gap question, a copy of [Er98] or [DEM99], or a determination of the reciprocal-sum maximum.
+gap question, a copy of [Er98] or [DEM99], or a determination of the
+reciprocal-sum maximum.
 
 - The site: problem page, discussion thread and proof-claim tab on
   2026-09-18; the community database record; the formal-conjectures

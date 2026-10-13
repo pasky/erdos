@@ -81,9 +81,9 @@ the Lovász local lemma); the Hermitian unital and O'Nan's theorem
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the best upper
-  bound that a refereed paper prints, $f(n)=f_3(n)\le2^{300}\sqrt n\log n$ for
-  $n\ge2$, against the lower bound of
+- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the best
+  upper bound that a refereed paper prints, $f(n)=f_3(n)\le2^{300}\sqrt n\log n$
+  for $n\ge2$, against the lower bound of
   [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1|equation (1)]].
   The unrefereed preprint of Morris, Sahasrabudhe and Verstraëte (17 July 2026)
   claims $f(n)=\Theta(\sqrt{n\log n})$, recorded as claimed on

@@ -205,10 +205,11 @@ not treat $k\le2$ separately; for $k\ge3$ the printed thresholds give the
 theorem with $c=400$, which is the constant van Doorn reads from it; in the
 page's notation $f(n)\ge n/400-1$ (every $k<n/400$ is covered). Erdős adds
 (p. 84): "I have not been able to find the best possible value for the
-constant $c$ in the above result." The note was a letter to Mayer, put into form by Davenport
-(headnote, p. 82); its footnote cites Mayer's theorems in Quart. J. Math. 13
-(1942), 186--7. Mayer's own results ($f(n)\ge3$ for $n\ge5$; $f(n)\to\infty$)
-are second-hand here, through the site and van Doorn's introduction.
+constant $c$ in the above result." The note was a letter to Mayer, put into form
+by Davenport (headnote, p. 82); its footnote cites Mayer's theorems in Quart. J.
+Math. 13 (1942), 186--7. Mayer's own results ($f(n)\ge3$ for $n\ge5$;
+$f(n)\to\infty$) are second-hand here, through the site and van Doorn's
+introduction.
 
 **The bounds before 2026 (van Doorn).**
 [[../library/number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_1|Theorem 1]]

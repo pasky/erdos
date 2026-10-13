@@ -47,8 +47,9 @@ Soc. 23 (2010), no. 1, 247--266, DOI 10.1090/S0894-0347-09-00645-6
 2008 (the only arXiv version; abstract page <https://arxiv.org/abs/0808.3760>
 read), with a complete text layer; the folder's year follows
 that version. Provenance: 259,083 bytes. The published version was not
-compared; page locators below are the preprint's. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:0808.3760), every other right reserved.
+compared; page locators below are the preprint's. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:0808.3760), every other right
+reserved.
 
 Read status: claims checked for the Section 6.2 passage consumed by Problem
 563 (the definition of $F^{(k)}(N,\alpha)$ and the display
@@ -136,15 +137,15 @@ blow-up's edge density tends to $1$.
 - [[../wiki/problems/discrepancy/E0162/_index|#162]] (Section 6.2, p. 16: the
   same display; the site's wording of #162 prints "largest", as the paper
   does, and corrected it asks #563's question).
-- [[../wiki/problems/discrepancy/E0161/_index|#161]] (Section 6.2, p. 17, read on the page
-  image: "Erdős [4] asked (and offered a \$500 cash reward) if the change in
-  $F^{(k)}(N,\alpha)$ occurs continuously, or there are jumps? He suspected
-  the only jump occurs at $\alpha=0$", with the paper's contribution that for
-  $\alpha$ bounded away from $0$ Theorem 6.2 gives
+- [[../wiki/problems/discrepancy/E0161/_index|#161]] (Section 6.2, p. 17, read
+  on the page image: "Erdős [4] asked (and offered a \$500 cash reward) if the
+  change in $F^{(k)}(N,\alpha)$ occurs continuously, or there are jumps? He
+  suspected the only jump occurs at $\alpha=0$", with the paper's contribution
+  that for $\alpha$ bounded away from $0$ Theorem 6.2 gives
   $F^{(k)}(N,\alpha)>c(\log N)^\epsilon$, a power of $\log N$; the paper's
   reference [4], cited on p. 16 as "the book [4]", is F. Chung and R. Graham,
-  *Erdős on Graphs. His Legacy of Unsolved Problems* (A K Peters, 1998), as
-  the reference list on p. 18 gives it; the bound, recorded on the
+  *Erdős on Graphs. His Legacy of Unsolved Problems* (A K Peters, 1998), as the
+  reference list on p. 18 gives it; the bound, recorded on the
   [[ramsey_theory/conlon_2008_hypergraph_ramsey_numbers/theorem_6_2|Theorem 6.2]]
   page, does not decide whether a jump occurs).
 - [[../wiki/problems/ramsey_theory/E0564/_index|#564]] (context only:

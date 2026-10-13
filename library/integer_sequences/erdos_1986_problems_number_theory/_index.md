@@ -44,10 +44,10 @@ read for its structure and not checked step by step. The rest of the paper
 is recorded from the digest below and was not checked against the page images.
 No notice is printed on the scan's first or last pages; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All
-material on this site is for scientifics purposes only."); the Orsay volume has
-no publisher page or DOI for this edition, so no publisher's page was consulted
-and no Crossref license is recorded; the term is unstated.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
+reserved. All material on this site is for scientifics purposes only."); the
+Orsay volume has no publisher page or DOI for this edition, so no publisher's
+page was consulted and no Crossref license is recorded; the term is unstated.
 
 A fifteen-page problem paper, mostly on prime numbers and divisor functions,
 opening with Erdős's conjecture that d(n)=d(n+1) infinitely often and Claudia

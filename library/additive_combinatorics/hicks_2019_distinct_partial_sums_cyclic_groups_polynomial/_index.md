@@ -55,19 +55,19 @@ The paper attacks Alspach's Conjecture (Conjecture 1.1): any subset A of Z_n
 minus {0} whose total sum is nonzero can be ordered so that its partial sums
 s_0,...,s_k are pairwise distinct. Theorem 2.2 proves the conjecture for prime n
 and k <= 10 non-constructively via Alon's Non-vanishing Corollary of the
-Combinatorial Nullstellensatz (Theorem 2.1) applied to a polynomial whose coefficients are computed for each k, and
-Theorem 2.3 deduces the weaker conjectures of Archdeacon-Dinitz-Mattern-Stinson
-and of Costa-Morini-Pasotti-Pellegrini in the same range. Theorem 3.2 gives a
-density version: for fixed d > 3 and k > min(d-1, d^2/8) (min as printed; the
-proof invokes both k > d-1, p. 8, and k > d^2/8, p. 11), for almost all primes
-p all but at most (d-3)(d-2)(d-1)/6 values of k admit a length-k
-distinct-partial-sums sequence inside any set of 2k-d nonzero elements of Z_p,
-which yields the stated bound 2k - sqrt(8k) up to boundedly many exceptions. At
-the other extreme Theorem 4.6 settles Alspach's Conjecture for prime n = p and k
-= p-3 by an explicit construction from graceful permutations and rotational
-sequencings (Lemmas 4.1, 4.4 and 4.5, extending the proof of Theorem 4.3),
-completing the range k >= n-3. These are the partial results recorded for
-problem 475.
+Combinatorial Nullstellensatz (Theorem 2.1) applied to a polynomial whose
+coefficients are computed for each k, and Theorem 2.3 deduces the weaker
+conjectures of Archdeacon-Dinitz-Mattern-Stinson and of
+Costa-Morini-Pasotti-Pellegrini in the same range. Theorem 3.2 gives a density
+version: for fixed d > 3 and k > min(d-1, d^2/8) (min as printed; the proof
+invokes both k > d-1, p. 8, and k > d^2/8, p. 11), for almost all primes p all
+but at most (d-3)(d-2)(d-1)/6 values of k admit a length-k distinct-partial-sums
+sequence inside any set of 2k-d nonzero elements of Z_p, which yields the stated
+bound 2k - sqrt(8k) up to boundedly many exceptions. At the other extreme
+Theorem 4.6 settles Alspach's Conjecture for prime n = p and k = p-3 by an
+explicit construction from graceful permutations and rotational sequencings
+(Lemmas 4.1, 4.4 and 4.5, extending the proof of Theorem 4.3), completing the
+range k >= n-3. These are the partial results recorded for problem 475.
 
 The copy read for this card is arXiv:1809.02684v1 (7 September 2018,
 18 pp.), whose pagination is used here; the journal version is J. Combin.
@@ -95,13 +95,12 @@ Source: <https://arxiv.org/abs/1809.02684>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]:
 for prime p, Theorem 2.3 gives the problem's statement for every set of size
-at most 10, a range that Costa and Pellegrini's t <= 12 contains; Theorem 4.6 gives
-Alspach's ordering, hence the problem's, for every set of size p - 3 with
+at most 10, a range that Costa and Pellegrini's t <= 12 contains; Theorem 4.6
+gives Alspach's ordering, hence the problem's, for every set of size p - 3 with
 nonzero sum, and not for the zero-sum sets of that size, which its proof sets
-aside (p. 16); Theorem 4.3 reproves for odd n Bode and Harborth's size
-n - 2. Theorem 3.2
-concerns drawing a k-term sequence from a larger set and proves no case of
-the problem.
+aside (p. 16); Theorem 4.3 reproves for odd n Bode and Harborth's size n - 2.
+Theorem 3.2 concerns drawing a k-term sequence from a larger set and proves no
+case of the problem.
 
 **Results.**
 [[additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_2_2|Theorem 2.2]] (p. 6);

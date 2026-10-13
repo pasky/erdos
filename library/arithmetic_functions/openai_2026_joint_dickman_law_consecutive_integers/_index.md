@@ -83,10 +83,11 @@ states the three laws as theorems taking those hypotheses as arguments, and
 its `UnconditionalMain.lean` states them without hypotheses, with proof terms
 that invoke the modules the release labels as discharged inputs and proved
 short-average estimates. The release's catalog file
-`lean/formalization.yaml` carries no entry for this manuscript. All of this is read statically from the release's Lean
-documentation page, comparator files and source tree; not built, replayed or
-audited for fidelity in this repository. Whether a release declaration settles
-the problem is recorded on the problem's claim pages, not on this card.
+`lean/formalization.yaml` carries no entry for this manuscript. All of this is
+read statically from the release's Lean documentation page, comparator files and
+source tree; not built, replayed or audited for fidelity in this repository.
+Whether a release declaration settles the problem is recorded on the problem's
+claim pages, not on this card.
 
 The release groups this manuscript alone in its family; it has no
 companion manuscript in the release.

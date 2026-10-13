@@ -157,8 +157,8 @@ Lemma 3.1, Lemma 4.9, Theorem 4.6, Corollary 4.8, Theorem 2.5,
 Corollaries 3.2 and 3.3, and Theorem 2.3 (relative to its two external
 inputs), each linked above. Theorems 2.1 and 2.2 and Corollary 4.2 are claims
 checked: their statements were read against the printed v2 pages, and the
-computations of §§5–7 behind Theorems 2.1 and 2.2 were not reproduced. Lemma 4.10 and Theorem 4.11 carry
-counterexamples instead of proofs.
+computations of §§5–7 behind Theorems 2.1 and 2.2 were not reproduced. Lemma
+4.10 and Theorem 4.11 carry counterexamples instead of proofs.
 
 ## Bears on
 

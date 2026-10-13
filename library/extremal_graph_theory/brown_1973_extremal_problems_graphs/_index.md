@@ -131,8 +131,8 @@ $r=e=3$ the p. 58 question asks whether $d_3(3)\le6$.
 - Known values, r = 2, s < k (Section 2, p. 56): f^{(2)}(n;k,s) = s for
   s <= k/2, and f^{(2)}(n;k,s) = 1 + [n(2s-k)/(2s-k+1)] for k/2 < s < k (the
   print leaves the denominator 2s-k+1 unbracketed).
-- f^{(2)}(n;3,3) (Section 2, p. 57): The exact value f^{(2)}(n; 3, 3) = [n^2/4] + 1 is
-  known, and limit n^{-3/2} f^{(2)}(n; 4, 4) = 1/2.
+- f^{(2)}(n;3,3) (Section 2, p. 57): The exact value f^{(2)}(n; 3, 3) =
+  [n^2/4] + 1 is known, and limit n^{-3/2} f^{(2)}(n; 4, 4) = 1/2.
 - Erdős bounds for f^{(2)}(n;k,k) (p. 57): There are positive constants
   ε_k, a_k, b_k with a_k n^{1+ε_k} < f^{(2)}(n;k,k) < b_k n^{1+1/[k/2]} for
   all k, with ε_k = 1/[k/2] for k <= 5 at least, and the authors call this

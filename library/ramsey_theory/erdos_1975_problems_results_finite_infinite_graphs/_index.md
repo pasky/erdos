@@ -143,14 +143,14 @@ was read clause by clause on the page images: Sections I and II (pp.
 remaining questions of Sections II and III, Section V and the
 projective-plane paragraph of Section X were read but are not paged. Apart
 from the proof in Section IX and a one-line justification on p. 186, the
-paper states conjectures and reports results without proof. Nothing here is independently reviewed. No notice is
-printed in the file (pp. 183--184 and 191--192 carry no copyright or license
-line); the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
-rights reserved. All material on this site is for scientifics purposes
-only."); the 1975 Academia volume has no publisher page, so the publisher's
-page was not consulted and no Crossref license is recorded; the term is
-unstated.
+paper states conjectures and reports results without proof. Nothing here is
+independently reviewed. No notice is printed in the file (pp. 183--184 and
+191--192 carry no copyright or license line); the hosting archive's site footer
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this site
+is for scientifics purposes only."); the 1975 Academia volume has no publisher
+page, so the publisher's page was not consulted and no Crossref license is
+recorded; the term is unstated.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0582/_index|#582]] (Section
 III, p. 184: the problem is the case k = 2, l = 3 of the Erdős--Hajnal

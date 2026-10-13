@@ -80,7 +80,8 @@ sub-extractor with inner-entropy $1$ and error below $1/2$ induces a
 bipartite $2^{k_{\mathrm{out}}}$-Ramsey graph (p. 4). The construction
 builds on the challenge-response mechanism of Barak et al. (p. 5),
 organizes a source's entropy into an entropy tree, and feeds block sources
-into Li's block-source--weak-source extractor (Theorem 4.1, pp. 22--23). Not read here.
+into Li's block-source--weak-source extractor (Theorem 4.1, pp. 22--23). Not
+read here.
 
 ## Dependencies
 

@@ -48,7 +48,9 @@ first page), eight letter-size pages with a text layer, titled there
 Questions by Erdős and Tuza". The arXiv listing has v1 (28 September 2022)
 and v2 (28 November 2022) and no journal reference. Page numbers below are
 the preprint's; the journal text was not compared. The preprint predates
-the 2023 note of Clemen and Wagner on $K_4$ and does not cite it. The arXiv record (https://arxiv.org/abs/2209.13867, read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+the 2023 note of Clemen and Wagner on $K_4$ and does not cite it. The arXiv
+record (https://arxiv.org/abs/2209.13867, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for the definitions, Question 1.1, Theorem 1.2,
 Conjecture 1.3, Theorem 1.4 with its remark, Question 1.5 and Theorem 1.6

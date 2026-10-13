@@ -43,9 +43,9 @@ ranges of the block n+1, ..., n+k: the prime number theorem for k <= n <= 2k,
 the Hoheisel–Ingham prime-counting result (*) plus the numbers 2p with p > k
 prime for 2k < n <= k^{3/2}, and the binomial-coefficient argument of Theorem 1,
 giving at least k/6 such integers for large k, for n > k^{3/2}. Theorem 3 shows
-that for every n >= 0 at least (1/2 + o(1)) k / log k of the integers n+1, ..., n+k do
-not divide the product of the others, which n = 0 shows best possible. The proof
-of Theorem 1 settles u <= k^{3/2} by the Hoheisel–Ingham gap bound and
+that for every n >= 0 at least (1/2 + o(1)) k / log k of the integers n+1, ...,
+n+k do not divide the product of the others, which n = 0 shows best possible.
+The proof of Theorem 1 settles u <= k^{3/2} by the Hoheisel–Ingham gap bound and
 u > k^{3/2} by a binomial-coefficient argument: if all prime factors of C(u+t,t)
 were at most k, Legendre's formula bounds each prime power by u+t and
 contradicts C(u+t,t) > (u/t)^t. Erdős notes a lower bound f(k) > c_3 log k log

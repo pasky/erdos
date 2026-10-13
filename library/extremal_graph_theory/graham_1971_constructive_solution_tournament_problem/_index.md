@@ -39,11 +39,11 @@ inequality signs, displays (1) and (2) on p. 45). For problem 902 this is the
 source the site's forum cites, but note that its constructive threshold k^2
 2^(2k-2) is roughly the square of Erdos's probabilistic bound, so while it makes
 the existence explicit it does not narrow the gap, a factor of order k,
-between the bounds (1) and (2); the introduction says that "for small values of k, our tournaments are
-minimal" (p. 45), which the concluding remarks (p. 47) support for k = 2 and k =
-3 only (T_7 and T_19, minimal because [6] shows f(2) = 7 and f(3) = 19), while
-for k = 4 they say that T_67 has property P_4 and that, since (2) gives f(4) >=
-47, "it is possible that T_67 is also minimal".
+between the bounds (1) and (2); the introduction says that "for small values of
+k, our tournaments are minimal" (p. 45), which the concluding remarks (p. 47)
+support for k = 2 and k = 3 only (T_7 and T_19, minimal because [6] shows f(2) =
+7 and f(3) = 19), while for k = 4 they say that T_67 has property P_4 and that,
+since (2) gives f(4) >= 47, "it is possible that T_67 is also minimal".
 
 Source:
 <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0008439500057842>.
@@ -62,31 +62,31 @@ reserved.
 
 Read status: claims checked for the introduction with the quoted bounds (1)
 and (2), the construction of $T_p$ and the Theorem (p. 45), and for the
-concluding remarks (p. 47), each read clause by clause on the page images; the proof (pp. 45--47, a character-sum estimate through
-Burgess's bound) was read for structure only. Paged at
+concluding remarks (p. 47), each read clause by clause on the page images; the
+proof (pp. 45--47, a character-sum estimate through Burgess's bound) was read
+for structure only. Paged at
 [[extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]].
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: not a site
 key (the site's thread of 14 December 2025 cites it as GrSp71); p. 45 (page
 image) opens with Schütte's question of 1962, cited to [2] (Erdős, Proc. of
 Colloq. on Combinatorial Methods in Probability Theory, 1962, pp. 90--92)
-and quoted as posed: "Given $k>0$, is there a tournament $T_{n(k)}$ such that for any set $S$ of $k$ vertices of
-$T_{n(k)}$ there is a vertex $y$ which dominates all $k$ elements of $S$"
-(property $P_k$); $f(k)$ is the least such $n(k)$; display (1),
-$f(k)\le k^22^k(\log2+\varepsilon)$ for every $\varepsilon>0$ and all
-sufficiently large $k$, attributed to Erdős [3], and display (2),
-$f(k)\ge(k+2)2^{k-1}-1$, attributed to Szekeres and Szekeres [6] and
-printed without a restriction on $k$; the Theorem (quoted), "If
-$p>k^22^{2k-2}$ then $T_p$ has property $P_k$", for the Paley tournament
-$T_p$ on a prime $p\equiv3\pmod4$; p. 47, the concluding remarks, in the
-corpus's words: the threshold $k^22^{2k-2}$ is close to the square of
-Erdős's nonconstructive bound (1), and far smaller primes suffice in
-specific cases, since $T_7$ and $T_{19}$ have properties $P_2$ and
-$P_3$, both minimal because [6] gives $f(2)=7$ and $f(3)=19$; further
-(quoted) "it is true that $T_{67}$ has property $P_4$", and as (2) gives
-$f(4)\ge47$, "it is possible that $T_{67}$ is also minimal", so
-$47\le f(4)\le67$ as of the paper; the bound (2) and $f(3)=19$ are
-quoted from [6] (Math. Gaz. 49 (1965), 290--293) without proof, and that
+and quoted as posed: "Given $k>0$, is there a tournament $T_{n(k)}$ such that
+for any set $S$ of $k$ vertices of $T_{n(k)}$ there is a vertex $y$ which
+dominates all $k$ elements of $S$" (property $P_k$); $f(k)$ is the least such
+$n(k)$; display (1), $f(k)\le k^22^k(\log2+\varepsilon)$ for every
+$\varepsilon>0$ and all sufficiently large $k$, attributed to Erdős [3], and
+display (2), $f(k)\ge(k+2)2^{k-1}-1$, attributed to Szekeres and Szekeres [6]
+and printed without a restriction on $k$; the Theorem (quoted), "If
+$p>k^22^{2k-2}$ then $T_p$ has property $P_k$", for the Paley tournament $T_p$
+on a prime $p\equiv3\pmod4$; p. 47, the concluding remarks, in the corpus's
+words: the threshold $k^22^{2k-2}$ is close to the square of Erdős's
+nonconstructive bound (1), and far smaller primes suffice in specific cases,
+since $T_7$ and $T_{19}$ have properties $P_2$ and $P_3$, both minimal because
+[6] gives $f(2)=7$ and $f(3)=19$; further (quoted) "it is true that $T_{67}$ has
+property $P_4$", and as (2) gives $f(4)\ge47$, "it is possible that $T_{67}$ is
+also minimal", so $47\le f(4)\le67$ as of the paper; the bound (2) and $f(3)=19$
+are quoted from [6] (Math. Gaz. 49 (1965), 290--293) without proof, and that
 paper is not held (paged at
 [[extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]]).
 

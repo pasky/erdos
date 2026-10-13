@@ -131,8 +131,8 @@ $$
 
 For $q=2,3,4$, the paper says it is readily verified that $\varphi_q$ attains
 its global minimum at a unique point of $[0,1/2)$, namely $1/4$; the assertion
-for every $q>1$ is explicitly only a conjecture (p. 7). Equation (1) (p. 3), the fourth-moment
-instance, is cited prior work rather than a new theorem.
+for every $q>1$ is explicitly only a conjecture (p. 7). Equation (1) (p. 3), the
+fourth-moment instance, is cited prior work rather than a new theorem.
 
 For Galois polynomials of length $n=2^k-1$, Theorem 2.3 (p. 5) gives an
 analogous partition formula for every fixed $2q$-moment, now involving the

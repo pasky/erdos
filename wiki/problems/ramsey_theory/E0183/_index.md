@@ -55,11 +55,11 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
 - [Wa97] Wan, Honghui, Upper bounds for Ramsey numbers $R(3,3,\cdots,3)$ and
   Schur numbers. J. Graph Theory 26 (1997), no. 3, 119--122, DOI
   `10.1002/(SICI)1097-0118(199711)26:3<119::AID-JGT1>3.0.CO;2-U` (received
-  9 November 1990, revised 15 June 1993, per p. 119). Theorem 2.4, p. 121: $R(3;k)\le k!(e-e^{-1}+3)/2+1$ for $k\ge4$, from
-  Folkman's $R(3;4)\le65$ through a parity refinement of the
-  Greenwood–Gleason recursion. A historical factorial upper bound,
-  superseded by [XXC02] as given in Eliahou's Corollary 2 (see Known
-  Results); it does not bear on the limit. Library home:
+  9 November 1990, revised 15 June 1993, per p. 119). Theorem 2.4, p. 121:
+  $R(3;k)\le k!(e-e^{-1}+3)/2+1$ for $k\ge4$, from Folkman's $R(3;4)\le65$
+  through a parity refinement of the Greenwood–Gleason recursion. A historical
+  factorial upper bound, superseded by [XXC02] as given in Eliahou's Corollary 2
+  (see Known Results); it does not bear on the limit. Library home:
   [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/_index|wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers]]
   and its
   [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_2_4|theorem_2_4]]
@@ -168,10 +168,10 @@ obligations; this reduction changes no catalog status or formal standing.
 
 **Search scope:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the
-identified matrix/cover predecessor. The catalog page's last edit is dated 1 September 2026, so the
-formulation above, taken on 2026-09-04, is unchanged. This bounded search
-does not assert a comprehensive literature search or an independent
-community-acceptance review.
+identified matrix/cover predecessor. The catalog page's last edit is dated 1
+September 2026, so the formulation above, taken on 2026-09-04, is unchanged.
+This bounded search does not assert a comprehensive literature search or an
+independent community-acceptance review.
 
 The lower-route review examined this page as it stood on 2026-09-09, and the
 upper-route review and grade as it stood on 2026-09-10. Since the reviews,

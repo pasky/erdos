@@ -329,7 +329,8 @@ review exists. The community database records `formal_status` Lean and no
 formal-proof URL.
 
 **Search scope.** None of the routes below found a refereed or revised
-version of [Ci26], an independent written review, a dispute of the argument, or a second proof of the $5/8$ bound.
+version of [Ci26], an independent written review, a dispute of the argument, or
+a second proof of the $5/8$ bound.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database on

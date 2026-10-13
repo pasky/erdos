@@ -140,10 +140,10 @@ absence claim.
 families of subsoluble, hence Ramsey, sets (generalised prisms on two orbits
 of one soluble finite isometry group, pyramids over finite transitive
 subsoluble bases, prisms on concentric regular polygons), a sufficient
-condition and not a characterisation; Conjecture 8 conjectures a closure property of the Ramsey
-sets, which later papers address; Conjecture 6 and Theorem 7 concern the block
-sets conjecture, which implies that every subtransitive set is Ramsey. The
-paper does not decide the problem.
+condition and not a characterisation; Conjecture 8 conjectures a closure
+property of the Ramsey sets, which later papers address; Conjecture 6 and
+Theorem 7 concern the block sets conjecture, which implies that every
+subtransitive set is Ramsey. The paper does not decide the problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

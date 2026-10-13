@@ -87,12 +87,12 @@ Read status: claims checked for Theorem 3 with the setting it uses
 lemmas and the proofs (pp. 5--16) were read for structure only, no
 inequality was rechecked and no computation was rerun.
 
-**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: for the page's map $f$
-(the paper's $T$), no nontrivial cycle with at most $75$ local minima exists,
-given the verification bound $x_{\min}>5\cdot2^{60}$ of 2010 (Theorem 3(b));
-cycles with more local minima are bounded but not excluded (Theorem 3(c),
-(d)), divergent trajectories are not addressed, and Hercher's Theorem 23
-extends the exclusion to $m\le91$ from these bounds.
+**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: for the
+page's map $f$ (the paper's $T$), no nontrivial cycle with at most $75$ local
+minima exists, given the verification bound $x_{\min}>5\cdot2^{60}$ of 2010
+(Theorem 3(b)); cycles with more local minima are bounded but not excluded
+(Theorem 3(c), (d)), divergent trajectories are not addressed, and Hercher's
+Theorem 23 extends the exclusion to $m\le91$ from these bounds.
 
 **Results.**
 

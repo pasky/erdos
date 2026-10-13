@@ -66,8 +66,8 @@ Crossref record read 2026-09-18), whose text was not
 compared, so the labels and locators here are the preprint's. Read status:
 claims checked for Problem 1.1, the attribution sentence, 1.2, 1.3 and 2.1
 (printed p. 1 = PDF p. 3) and for Conjecture 4.1, 4.2, 4.3 and the reference
-list (printed p. 8 = PDF p. 10), read clause by clause on the page images; the proofs (Section 3, pp. 3--7) were not read. The consumed
-statements are paged at
+list (printed p. 8 = PDF p. 10), read clause by clause on the page images; the
+proofs (Section 3, pp. 3--7) were not read. The consumed statements are paged at
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|problem_1_1]],
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_2|result_1_2]],
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_3|result_1_3]]
@@ -79,11 +79,12 @@ The arXiv record names arXiv's non-exclusive distribution license
 **Bears on.**
 [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the site's key NSS24;
 Problem 1.1 (printed p. 1) restates the problem in the site's letters and
-says "This remains open"; 1.2 proves the problem's statement with $\chi(A)\ge c$ weakened to
-minimum degree at least $c$ on $A$; 1.3 is the minimum-degree variant with
-$K_{t,t}$ excluded; [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/conjecture_4_1|Conjecture 4.1]]
-(p. 8) is a tournament strengthening whose implication for 1.1 is
-announced for another paper, not proved here; paged at
+says "This remains open"; 1.2 proves the problem's statement with $\chi(A)\ge c$
+weakened to minimum degree at least $c$ on $A$; 1.3 is the minimum-degree
+variant with $K_{t,t}$ excluded;
+[[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/conjecture_4_1|Conjecture 4.1]]
+(p. 8) is a tournament strengthening whose implication for 1.1 is announced for
+another paper, not proved here; paged at
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|problem_1_1]],
 [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_2|result_1_2]]
 and
@@ -115,8 +116,8 @@ Erdős–Hajnal question.
   disjoint A, B with A complete to B, both of chromatic number at least c;
   the authors announce for another paper that it implies 1.1.
 - 2.1 (printed p. 1, in Section 2, "Some lemmas"): For d > 0, every graph
-  of minimum degree at least d has denseness at least d/2, and every graph of denseness at least d has a
-  subgraph of minimum degree at least d.
+  of minimum degree at least d has denseness at least d/2, and every graph of
+  denseness at least d has a subgraph of minimum degree at least d.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

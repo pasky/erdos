@@ -94,11 +94,11 @@ is independently reviewed.
   chromatic number of the non-uniform hypergraph whose vertices are the
   integers and whose edges are the solutions"), $f(n)\to\infty$ and
   $f(n)>c_1n^\alpha$ from a Lemma whose proof, said to follow easily from
-  "the ideas of Schnirelman and Brun", is not given; Spencer's *Sure sums* (Combinatorica 1 (1981), 203--208)
-  cited; then the p. 54 passage quoted below; 3 (p. 55), the Erdős--Turán
-  $B_2$ bound; 4 (pp. 55--56), a conjecture on a function of the largest
-  prime factor; 5 (pp. 56--57), an infinite-sequence problem with Harzheim;
-  6 (pp. 57--58), a problem from p. 50 of I.
+  "the ideas of Schnirelman and Brun", is not given; Spencer's *Sure sums*
+  (Combinatorica 1 (1981), 203--208) cited; then the p. 54 passage quoted below;
+  3 (p. 55), the Erdős--Turán $B_2$ bound; 4 (pp. 55--56), a conjecture on a
+  function of the largest prime factor; 5 (pp. 56--57), an infinite-sequence
+  problem with Harzheim; 6 (pp. 57--58), a problem from p. 50 of I.
 - Prime numbers (pp. 59--70), four numbered items from p. 59 ("Now I
   discuss some problems on prime numbers"), with "some miscellaneous
   somewhat unconventional results and problems on prime numbers" from
@@ -135,18 +135,18 @@ term from equalling a sum of at least two consecutive earlier terms. Erdős
 corrects an earlier question asking whether such sequences must have
 density zero: on p. 20 of II he had stated a problem he and Harzheim
 considered, whether the upper density is $1/2$, and here he gives a
-construction claimed to have upper density $1/2$ (pp. 56--57). As printed on p. 57 (read on the
-page image, printed p. 57 = PDF p. 8), given
+construction claimed to have upper density $1/2$ (pp. 56--57). As printed on p.
+57 (read on the page image, printed p. 57 = PDF p. 8), given
 $1\le a_1<\cdots<a_k$ already defined, the construction continues with
 $a_{k+1}=a_k^4$, $a_{k+2}=a_k^4+a_k^2$ and $a_{k+2+i}=a_k^4+a_k^2+i$ for
 $1\le i\le a_k^4-a_k^2$; the paper says only that this sequence "clearly"
-satisfies (1) and has upper density $1/2$, and prints no further argument.
-Erdős then asks whether the logarithmic density of such a sequence must be
-zero and whether its counting function satisfies the displayed bound
-$A(x)=\sum_{a_i<x}1\le\frac x2+O(1)$; neither is proved (p. 57). He also
-poses the extremal question for $f(x)=\max\sum_{a_i<x}1/a_i$ over the
-sequences satisfying (1), reports the Harzheim--Erdős lower bound
-$f(x)\gg\log\log x$, and asks whether $f(x)/\log\log x\to\infty$ (p. 57).
+satisfies (1) and has upper density $1/2$, and prints no further argument. Erdős
+then asks whether the logarithmic density of such a sequence must be zero and
+whether its counting function satisfies the displayed bound
+$A(x)=\sum_{a_i<x}1\le\frac x2+O(1)$; neither is proved (p. 57). He also poses
+the extremal question for $f(x)=\max\sum_{a_i<x}1/a_i$ over the sequences
+satisfying (1), reports the Harzheim--Erdős lower bound $f(x)\gg\log\log x$, and
+asks whether $f(x)/\log\log x\to\infty$ (p. 57).
 
 Write $A(x)=\#\{n:a_n\le x\}$ and $H(x)=\sum_{a_n<x}1/a_n$. E839's
 avoidance condition is equation (1) of item 5 (p. 56), except that Erdős

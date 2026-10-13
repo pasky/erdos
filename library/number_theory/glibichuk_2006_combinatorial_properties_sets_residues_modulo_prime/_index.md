@@ -115,12 +115,12 @@ independently reviewed.
 p. 385, PDF p. 2, page image: for every $\varepsilon>0$, every sufficiently
 large prime $p$ and every residue $a$, pairwise distinct positive integers
 $x_1,\ldots,x_N\le p^\varepsilon$ with $N=8([1/\varepsilon+1/2]+1)^2$ and
-$a\equiv x_1^{-1}+\cdots+x_N^{-1}\pmod p$, the site's $C_\varepsilon\ll\varepsilon^{-2}$
-for $p$ large in terms of $\varepsilon$; Lemma 4, p. 391, page image: for each
-integer $m>8([1/\varepsilon+1/2]+1)^2$ and $p$ large in terms of
-$\varepsilon$, every residue is a sum of $m$ inverses of integers in
-$[1,p^\varepsilon]$, repetition allowed, as the problem's wording allows; the
-introduction's attributions to Croot and Shparlinski)
+$a\equiv x_1^{-1}+\cdots+x_N^{-1}\pmod p$, the site's
+$C_\varepsilon\ll\varepsilon^{-2}$ for $p$ large in terms of $\varepsilon$;
+Lemma 4, p. 391, page image: for each integer $m>8([1/\varepsilon+1/2]+1)^2$ and
+$p$ large in terms of $\varepsilon$, every residue is a sum of $m$ inverses of
+integers in $[1,p^\varepsilon]$, repetition allowed, as the problem's wording
+allows; the introduction's attributions to Croot and Shparlinski)
 
 **Results.**
 
@@ -134,10 +134,10 @@ introduction's attributions to Croot and Shparlinski)
   integers in [1, p^eps], every integer m > 8([1/eps + 1/2] + 1)^2 and every
   sufficiently large prime p, mA = Z_p. Paged as
   [[number_theory/glibichuk_2006_combinatorial_properties_sets_residues_modulo_prime/lemma_4|lemma_4]].
-- Theorem 3 (p. 385): For every eps > 0, all sufficiently large primes p and every
-  residue a mod p there exist distinct positive integers x_1,...,x_N <= p^eps
-  with N = 8([1/eps + 1/2] + 1)^2 such that a is congruent to x_1^{-1} + ... +
-  x_N^{-1} mod p. Paged as
+- Theorem 3 (p. 385): For every eps > 0, all sufficiently large primes p and
+  every residue a mod p there exist distinct positive integers x_1,...,x_N <=
+  p^eps with N = 8([1/eps + 1/2] + 1)^2 such that a is congruent to x_1^{-1} +
+  ... + x_N^{-1} mod p. Paged as
   [[number_theory/glibichuk_2006_combinatorial_properties_sets_residues_modulo_prime/theorem_3|theorem_3]].
 
 No file of this source is held: no license on record permits its redistribution,

@@ -56,14 +56,14 @@ products. Erdos proved f(N) <= pi(N) + O(pi(N^{1/2})) and asked whether the
 second-order term is exactly pi(N^{1/2}) + o(pi(N^{1/2})); Theorem 1.3 answers
 this affirmatively with the sharp form f(N) = pi(N) + pi(N^{1/2}) + O(N^{5/12}).
 The method counts how elements of [N] can be divisible by large primes (at most
-one prime in (N^{1/2},N], at most two, with multiplicity, in (N^{1/3},N]) and analyses the subset
-product set Pi(S), combined with prime-counting estimates. Theorem 1.4 gives the
-improved lower bound f(N) >= pi(N) + pi(N^{1/2}) + (1/3)pi(N^{1/3}) - O(1),
-refuting Erdos's speculation that his infinite sum built from
-distinct-subset-sum sets E_k is optimal. Theorems 1.5 and 1.6 do the squarefree
-analog, showing h(N) = pi(N) + (1/2)pi(N^{1/2}) + o(pi(N^{1/2})). This is the
-direct resolution of erdosproblems.com problem 795, which the paper poses as
-Question 1.2 (Erdős #795) and cites by its URL (p. 1).
+one prime in (N^{1/2},N], at most two, with multiplicity, in (N^{1/3},N]) and
+analyses the subset product set Pi(S), combined with prime-counting estimates.
+Theorem 1.4 gives the improved lower bound f(N) >= pi(N) + pi(N^{1/2}) +
+(1/3)pi(N^{1/3}) - O(1), refuting Erdos's speculation that his infinite sum
+built from distinct-subset-sum sets E_k is optimal. Theorems 1.5 and 1.6 do the
+squarefree analog, showing h(N) = pi(N) + (1/2)pi(N^{1/2}) + o(pi(N^{1/2})).
+This is the direct resolution of erdosproblems.com problem 795, which the paper
+poses as Question 1.2 (Erdős #795) and cites by its URL (p. 1).
 
 Source: <https://arxiv.org/abs/2501.02695>.
 

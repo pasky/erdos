@@ -119,13 +119,13 @@ verification of p. 282.
 
 Source: <https://arxiv.org/abs/2512.24850>.
 
-**Bears on.** [[../wiki/problems/set_systems/E0834/_index|#834]]: Theorem 1.1 and Corollary 3.4 answer the
-degree-seven question no under the transversal reading of "$3$-critical"
-($\tau(H)=3$ and $\tau(H-e)\leq2$ for every edge), with $K_5^{(3)}$
-showing that six is attained; Theorem 1.2 answers it yes under the chromatic
-reading (weak chromatic number three, with every single edge deletion and
-every single vertex deletion 2-colorable), by the nine-vertex example of
-Theorem 4.1.
+**Bears on.** [[../wiki/problems/set_systems/E0834/_index|#834]]: Theorem 1.1
+and Corollary 3.4 answer the degree-seven question no under the transversal
+reading of "$3$-critical" ($\tau(H)=3$ and $\tau(H-e)\leq2$ for every edge),
+with $K_5^{(3)}$ showing that six is attained; Theorem 1.2 answers it yes under
+the chromatic reading (weak chromatic number three, with every single edge
+deletion and every single vertex deletion 2-colorable), by the nine-vertex
+example of Theorem 4.1.
 
 ## Results
 

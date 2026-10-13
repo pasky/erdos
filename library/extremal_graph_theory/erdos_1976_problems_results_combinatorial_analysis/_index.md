@@ -78,8 +78,8 @@ proof; nothing here is independently reviewed.
   subgraphs), the coprime labelling of trees credited to Entringer, small
   non-planar subgraphs, two conjectures with Hajnal (a subgraph of given
   chromatic number and girth, and the circuit lengths of a $k$-chromatic
-  graph), on pp. 16--17 problems on the intersections of set families, then van der
-  Waerden's theorem, the Graham--Rothschild conjecture proved by Hindman,
+  graph), on pp. 16--17 problems on the intersections of set families, then van
+  der Waerden's theorem, the Graham--Rothschild conjecture proved by Hindman,
   and the Faber--Lovász--Erdős conjecture.
 
 **The p. 15 sentence** (PDF p. 13, page image), in Section 6: "Gallai and I

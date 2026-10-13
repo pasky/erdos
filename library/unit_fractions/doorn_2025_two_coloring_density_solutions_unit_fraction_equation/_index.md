@@ -48,8 +48,8 @@ my shorter papers" (https://github.com/Woett/Mathematical-shorts, read
 Read status: claims checked for Theorem 1 and Theorem 2 (statements read
 clause by clause on the page images of pp. 1 and 3); the proofs of Theorem 1
 (Lemmas 1 and 2, pp. 1--2) and of Theorem 2 (Lemmas 3 and 4 and the final
-count, pp. 3--4) were read for structure on the page images; the finite check that every
-two-coloring of the sixteen-element set $S_1$ of Theorem 1 has a
+count, pp. 3--4) were read for structure on the page images; the finite check
+that every two-coloring of the sixteen-element set $S_1$ of Theorem 1 has a
 monochromatic solution was not rerun.
 
 ## Contents
@@ -105,13 +105,13 @@ distinct $a,b$ has no solution of $1/x+1/y=1/z$ in distinct elements, so
 $9N/10+(\log N)^3+1$, a weaker bound than the $25/28$ argument the site
 records.
 [[../wiki/problems/unit_fractions/E0303/_index|#303]]: [[unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_1|Theorem 1]]
-(p. 1, read on the page image) is the two-color case with a count: every two-coloring of
-$\{1,\ldots,n\}$ has at least $cn-\log(n)^3-1$ monochromatic triples of
-distinct $x,y,z$ with $1/x+1/y=1/z$, $c=1/390$. The problem asks for any
-finite number of colors; the abstract credits Brown and Rödl (1991) with a
+(p. 1, read on the page image) is the two-color case with a count: every
+two-coloring of $\{1,\ldots,n\}$ has at least $cn-\log(n)^3-1$ monochromatic
+triples of distinct $x,y,z$ with $1/x+1/y=1/z$, $c=1/390$. The problem asks for
+any finite number of colors; the abstract credits Brown and Rödl (1991) with a
 monochromatic solution for every finite coloring of $\mathbb N$, without
-mentioning distinctness, and the note proves nothing for more than two colors, and the finite
-check behind $S_1$ was not rerun here.
+mentioning distinctness, and the note proves nothing for more than two colors,
+and the finite check behind $S_1$ was not rerun here.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

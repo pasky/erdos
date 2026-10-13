@@ -51,7 +51,7 @@ through the library's acquisition, from
 page states "© The Weizmann Science Press of Israel" for the 1971 article,
 offers the PDF behind a paywall with reprints and permissions through the
 publisher, and carries no Creative Commons statement
-(https://link.springer.com/article/10.1007/BF02771457), every
+(https://link.springer.com/article/10.1007/BF02771457, read 2026-10-02), every
 other right reserved.
 
 Read status: claims checked for the abstract, the definitions, the quoted

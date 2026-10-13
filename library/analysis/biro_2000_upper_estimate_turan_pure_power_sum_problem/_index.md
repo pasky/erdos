@@ -94,12 +94,12 @@ lower-bound paper of the same year has its own card.
 
 **Bears on.** [[../wiki/problems/analysis/E0519/_index|#519]]: the problem
 asks whether an absolute $c>0$ lies below the largest modulus of the first
-$n$ power sums whenever $z_1=1$, and $R_n$ is the least value of that modulus. The
-paper gives upper estimates only: $\limsup R_n<1$ (the
+$n$ power sums whenever $z_1=1$, and $R_n$ is the least value of that modulus.
+The paper gives upper estimates only: $\limsup R_n<1$ (the
 [[analysis/biro_2000_upper_estimate_turan_pure_power_sum_problem/theorem|Theorem]]),
-$R_n<5/6$ for large $n$, so no $c\ge5/6$ works for all large $n$, and
-Harcos's reported computation $\limsup R_n<0.69368$. It proves no lower
-bound and does not answer the question.
+$R_n<5/6$ for large $n$, so no $c\ge5/6$ works for all large $n$, and Harcos's
+reported computation $\limsup R_n<0.69368$. It proves no lower bound and does
+not answer the question.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

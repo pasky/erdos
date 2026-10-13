@@ -34,7 +34,8 @@ when some coefficient of degree s, 2 <= s <= n, is a/q + theta/(q tau) with
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_4|theorem_4]]: Vinogradov's distribution law for the fractional parts {f(p)} over primes
 P_1 < p <= P_2, for a real function f satisfying the derivative conditions
 of Theorem 2: for every 0 < gamma <= 1 the count of p with 0 <= {f(p)} <
-gamma is gamma(pi(P_2) - pi(P_1)) + O(P^{1-rho'}), rho' = 0.044 nu^2/(log n + 2).
+gamma is gamma(pi(P_2) - pi(P_1)) + O(P^{1-rho'}), rho' = 0.044 nu^2/(log n +
+2).
 
 ***
 
@@ -106,11 +107,11 @@ that reproduction or republication "requires written permission of the copyright
 holder" (https://www.mathnet.ru/php/agreement.phtml?option_lang=eng, read
 2026-10-02), every other right reserved.
 
-**Bears on.** [[../wiki/problems/number_theory/E0972/_index|#972]] (the site's [Vi48] key, and
-Erdős's 1965 lecture, for the uniform distribution of {p alpha}, alpha irrational, from
-which the problem page derives the one-prime statement; Theorems 1-4 as read
-here do not state the linear case, a source-identity remark recorded on the
-problem page, and none addresses the two-prime question;
+**Bears on.** [[../wiki/problems/number_theory/E0972/_index|#972]] (the site's
+[Vi48] key, and Erdős's 1965 lecture, for the uniform distribution of {p alpha},
+alpha irrational, from which the problem page derives the one-prime statement;
+Theorems 1-4 as read here do not state the linear case, a source-identity remark
+recorded on the problem page, and none addresses the two-prime question;
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_1|theorem_1]],
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_2|theorem_2]],
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_3|theorem_3]],

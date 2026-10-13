@@ -60,10 +60,11 @@ for their theorems.
 Section 8 (pp. 123--125) shows that for every infinite sequence of distinct
 reals the longest monotone subsequence of the window
 $x_{i+1},\ldots,x_{i+n}$, divided by $\sqrt n$, has limit superior at least
-a constant $\gamma>1$ as $i,n\to\infty$ (Theorem 8.1), while some sequence has longest monotone subsequence exactly
-$\lceil\sqrt n\rceil$ on every initial segment (p. 124). Section 9 (p. 126)
-states a $d$-descent analogue of the Erdős--Szekeres theorem, Theorem 9.1,
-whose printed proof covers only $d=1$ and $d=n$.
+a constant $\gamma>1$ as $i,n\to\infty$ (Theorem 8.1), while some sequence has
+longest monotone subsequence exactly $\lceil\sqrt n\rceil$ on every initial
+segment (p. 124). Section 9 (p. 126) states a $d$-descent analogue of the
+Erdős--Szekeres theorem, Theorem 9.1, whose printed proof covers only $d=1$ and
+$d=n$.
 
 Section 12 reports, after Chung (1980, p. 278), Erdős's question on weighted
 versions: for nonnegative weights $w_1,\ldots,w_n$ summing to $1$, determine

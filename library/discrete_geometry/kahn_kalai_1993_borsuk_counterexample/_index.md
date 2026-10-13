@@ -50,9 +50,10 @@ published pages 60--62 break differently: journal p. 60 runs through
 Theorem 1, journal p. 61 continues through Remark 1, and journal p. 62
 holds Remarks 2 and 3, the references and the author addresses. Citations
 below use the arXiv PDF pagination. The journal pages they add come from
-the AMS's PDF of the published article, reached through the DOI and read; that PDF prints "©1993 American Mathematical Society". The
-arXiv record carries no license field, so arXiv's assumed license applies
-(arXiv:math/9307229), every other right reserved.
+the AMS's PDF of the published article, reached through the DOI and read; that
+PDF prints "©1993 American Mathematical Society". The arXiv record carries no
+license field, so arXiv's assumed license applies (arXiv:math/9307229), every
+other right reserved.
 
 Source identity and the arXiv record were checked on 2026-09-06.
 

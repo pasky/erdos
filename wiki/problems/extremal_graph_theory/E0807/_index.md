@@ -124,9 +124,9 @@ accessed 2026-09-18.
   citation index lists a version in SIAM J. Discrete Math.). Not held; its
   bounds are quoted from p. 1 of [Al15] and p. 1 of [ABH17].
 - [BoHo22] Bohman, T. and Hofstad, J., A critical probability for biclique
-  partition of $G_{n,p}$. arXiv:2206.13490 (v4 8 January 2024); published as J. Combin. Theory Ser. B 166 (2024), 50--79,
-  doi:10.1016/j.jctb.2023.12.005. A lead on the variant with $p<1/2$,
-  recorded below.
+  partition of $G_{n,p}$. arXiv:2206.13490 (v4 8 January 2024); published as J.
+  Combin. Theory Ser. B 166 (2024), 50--79, doi:10.1016/j.jctb.2023.12.005. A
+  lead on the variant with $p<1/2$, recorded below.
 - Graham and Pollak's theorem $\tau(K_n)=n-1$ ([Al15], p. 1; [KRW88], p. 638)
   is context; their paper is not held.
 

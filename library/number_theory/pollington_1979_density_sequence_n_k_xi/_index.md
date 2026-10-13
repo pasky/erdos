@@ -114,7 +114,8 @@ Katznelson's paper is filed as
 [[number_theory/katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence/_index|katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence]];
 the reduction is that paper's proof of Theorem 1.1 on printed p. 212 (PDF p. 2),
 which divides the circle into $M$ equal arcs with $M\varepsilon>1$ and
-colors $n$ by the arc containing $n\alpha$, read there in the text layer and paged on
+colors $n$ by the arc containing $n\alpha$, read there in the text layer and
+paged on
 [[number_theory/katznelson_2001_chromatic_numbers_cayley_graphs_z_recurrence/theorem_1_1|theorem_1_1]].
 
 **Results.**

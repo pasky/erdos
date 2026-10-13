@@ -70,8 +70,8 @@ $s=b$ and $t=a+1$ gives
 for integers $2\le a\le b$ the one-subdivision $H_{a,b}$ of $K_{a,b}$ has
 $\operatorname{ex}(n,H_{a,b})\le C_{a,b}n^{3/2-1/(4a-2)}$. The paper
 contrasts this with Conlon--Lee's bound $Cn^{3/2-1/(12b)}$, which it calls
-weak when $b$ is much larger than $a$. These further results are context, not a complete local
-proof reconstruction.
+weak when $b$ is much larger than $a$. These further results are context, not a
+complete local proof reconstruction.
 
 For [[../wiki/problems/extremal_graph_theory/E1021/_index|Problem 1021]], the required graph
 $G_k$ is exactly $H_k$, so one may take $c_k=1/(4k-6)>0$. The subdivision

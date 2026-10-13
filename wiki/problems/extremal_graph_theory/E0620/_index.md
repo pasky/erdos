@@ -506,26 +506,25 @@ $c\sqrt{n\log n/\log\log n}$ and $2^{300}\sqrt n\log n$; Corollary 2 of
 claim recorded on Problem 610's page), and Theorem 1.1 of [OAI26] gives it
 without that theorem (an unrefereed manuscript accepted with formalized
 evidence; the deduction is not formalized), so the open part is a factor
-$(\log n)^{1/2}$. [MSV26] claims the matching upper bound $O(\sqrt{n\log n})$; what would
-settle the order is the refereed publication or documented independent
-acceptance of [MSV26], after which its theorem would be paged and its claim
-page moved to accepted. (2) The 2014 upper bound rests on a second-hand
-quotation: [DRR14] is not held, and the account uses it through a held
-refereed introduction. [Sh95], [BoHi91] and [Wo13] were read in the
+$(\log n)^{1/2}$. [MSV26] claims the matching upper bound $O(\sqrt{n\log n})$;
+what would settle the order is the refereed publication or documented
+independent acceptance of [MSV26], after which its theorem would be paged and
+its claim page moved to accepted. (2) The 2014 upper bound rests on a
+second-hand quotation: [DRR14] is not held, and the account uses it through a
+held refereed introduction. [Sh95], [BoHi91] and [Wo13] were read in the
 publishers' copies and are filed in the library (no file is held), and the
 statements of [Sh95]'s Corollary 1, [BoHi91]'s Theorems 1 and 5 and [Wo13]'s
 Theorem 1.1 are checked against the printed pages, so the lower bound and the
 1991 and 2013 bounds are first-hand, the lower bound through the two-line
 neighborhood argument recorded on the corollary's result page. (3) Proof
-coverage is statements only: the Section 3
-Theorem, Krivelevich's Theorem 1 and Corollary 1, Mubayi--Verstraete's
-Theorem 1, [BoHi91]'s Theorems 1 and 5, [Wo13]'s Theorem 1.1 and [Sh95]'s
-Corollary 1 are paged at claims checked; apart from the one-paragraph proofs
-of [BoHi91]'s Theorem 1 and [Sh95]'s Corollary 1, followed in full (the
-latter a reduction to Theorem 1 of that paper, whose proof is checked for
-structure only), no proof is followed or reviewed. (4) The journal texts of
-[MuVe24] and [Kr94] are not compared with the editions read. (5) [Er99],
-one of the site's source keys, is not held.
+coverage is statements only: the Section 3 Theorem, Krivelevich's Theorem 1 and
+Corollary 1, Mubayi--Verstraete's Theorem 1, [BoHi91]'s Theorems 1 and 5,
+[Wo13]'s Theorem 1.1 and [Sh95]'s Corollary 1 are paged at claims checked; apart
+from the one-paragraph proofs of [BoHi91]'s Theorem 1 and [Sh95]'s Corollary 1,
+followed in full (the latter a reduction to Theorem 1 of that paper, whose proof
+is checked for structure only), no proof is followed or reviewed. (4) The
+journal texts of [MuVe24] and [Kr94] are not compared with the editions read.
+(5) [Er99], one of the site's source keys, is not held.
 
 ## Known results
 

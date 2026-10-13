@@ -302,13 +302,13 @@ gives admissible sets of size $\sim2y/\log y$ in $[0,y]$ for arbitrarily large
 $y$, and Granville states that under it the belief that the largest admissible
 set of length $y$ has $\sim y/\log y$ elements is untrue; each of the three
 manuscripts, if correct, refutes the hypothesis, and the conditional route then
-proves nothing. None of this is progress on either asymptotic. The manuscripts are unreviewed
-release preprints with no arXiv or journal record known here; the release's Lean
-declarations cover the half-plane and the Siegel bound and no application to
-admissible tuples, and nothing was built or audited in this corpus. The
-verifiable-or-falsifiable question does not arise: the site's note that no
-finite computation can settle the problem is recorded in the Source paragraph,
-and both asymptotics are statements about all large $k$.
+proves nothing. None of this is progress on either asymptotic. The manuscripts
+are unreviewed release preprints with no arXiv or journal record known here; the
+release's Lean declarations cover the half-plane and the Siegel bound and no
+application to admissible tuples, and nothing was built or audited in this
+corpus. The verifiable-or-falsifiable question does not arise: the site's note
+that no finite computation can settle the problem is recorded in the Source
+paragraph, and both asymptotics are statements about all large $k$.
 
 **Remaining gaps.** (1) Elliott's paper and the 1973 symposium paper are not
 held; the routes tried are recorded above, and the attribution of the lower

@@ -56,15 +56,14 @@ clause on the page images of pp. 1--2; the proof was not read. Result page:
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2111.01099), every other right reserved.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0721/_index|#721]]: Theorem 1 (p. 2)
-gives the lower bound W(3,k) >= exp(c (log k)^2 / log log k), colors
-exchanged, the bound the problem page records for Hunter. It is
-superpolynomial, so it meets the problem's non-trivial lower-bound
-challenge, which Green's Theorem 1.1 met first; it settles no order of
-magnitude. Footnote 1 (p. 1) is the density argument by which a Roth-type
-bound gives an upper bound on w(3,k); the problem page names it as the
-passage from a density theorem to the site's exp(O((log k)^9)), a bound
-the paper does not state.
+**Bears on.** [[../wiki/problems/ramsey_theory/E0721/_index|#721]]: Theorem 1
+(p. 2) gives the lower bound W(3,k) >= exp(c (log k)^2 / log log k), colors
+exchanged, the bound the problem page records for Hunter. It is superpolynomial,
+so it meets the problem's non-trivial lower-bound challenge, which Green's
+Theorem 1.1 met first; it settles no order of magnitude. Footnote 1 (p. 1) is
+the density argument by which a Roth-type bound gives an upper bound on w(3,k);
+the problem page names it as the passage from a density theorem to the site's
+exp(O((log k)^9)), a bound the paper does not state.
 [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]: pp. 1--2 (page images), the
 introduction: the definition of w(3,k), Schoen's upper bound w(3,k) <
 e^{k^{1-c}} with footnote 1's density derivation from the Bloom--Sisask Roth

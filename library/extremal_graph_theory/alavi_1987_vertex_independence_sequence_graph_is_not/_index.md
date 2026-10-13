@@ -60,7 +60,7 @@ the file (pp. 1–2 and 8–9 read); Congressus Numerantium has no publisher pag
 or DOI for this volume, so none was consulted;
 the hosting archive's site footer speaks for the site, not the paper, and prints
 only "(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only." (https://users.renyi.hu/~p_erdos/);
+scientifics purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02);
 the term is unstated.
 
 **Read status.** Claims checked: the Theorem (p. 16), Problem 3 (p. 21) and

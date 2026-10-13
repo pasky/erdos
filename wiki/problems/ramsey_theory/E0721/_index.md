@@ -295,9 +295,9 @@ $\exp(c(\log k)^2/\log\log k)$ and $\exp(O((\log k)^9))$; the sources
 expect $W(3,k)\le k^{O(\log k)}$, with the truth between Hunter's bound and
 that. (3) [Hu22] is cited from its preprint, not its Combinatorica version,
 [KeMe23] from its preprint, not its FOCS version, and [BlSi23] from its
-preprint; locators are preprint pages. (4) The previous bounds of Li–Shu and Cwalina–Schoen are
-second-hand. The Linked library material below is derived from the library
-links and is not progress.
+preprint; locators are preprint pages. (4) The previous bounds of Li–Shu and
+Cwalina–Schoen are second-hand. The Linked library material below is derived
+from the library links and is not progress.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

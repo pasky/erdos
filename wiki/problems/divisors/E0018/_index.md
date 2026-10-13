@@ -267,8 +267,9 @@ cited bounds only.
   explicit the claim $h(n)\ll(\log\log n)^2$ of
   [[../library/divisors/price_2026_sparse_divisor_sums/_index|Price, 24 July 2026]]
   (AI-generated, Overleaf read link, resting on Bourgain's exponential-sum
-  theorem; elementary layer kernel-checked by a third party). Either would answer the first question affirmatively and improve
-  Vose's $(\log m)^{1/2}$; the site's label was OPEN. Claim pages:
+  theorem; elementary layer kernel-checked by a third party). Either would
+  answer the first question affirmatively and improve Vose's $(\log m)^{1/2}$;
+  the site's label was OPEN. Claim pages:
   [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro 2026]]
   and [[problems/divisors/E0018/claims/2026_07_24_price|Price 2026]].
 - Applications of the same construction, claimed and not accepted:

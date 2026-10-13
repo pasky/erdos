@@ -65,8 +65,8 @@ The copy read for this card is
 arXiv:0706.4112v3 [math.CO] 27 Dec 2007, 30 pages, with a text layer. Page
 numbers below are the arXiv pages, not the journal's 1771--1800, and the
 journal text has not been compared. The pages named under Compiled scope
-were read on rendered page images. The arXiv record carries no license field, so arXiv's assumed license
-applies (arXiv:0706.4112), every other right reserved.
+were read on rendered page images. The arXiv record carries no license field, so
+arXiv's assumed license applies (arXiv:0706.4112), every other right reserved.
 
 Read status: claims checked for Theorem 1.1 (p. 3), Theorem 1.2 (p. 4),
 Theorem 1.3 (p. 5), Theorem 1.4 (p. 6), Corollaries 1.5 and 1.6 and

@@ -102,10 +102,11 @@ acceptance observations.
 
 **Bears on.**
 
-- [[../wiki/problems/extremal_graph_theory/E0621/_index|Problem 621]]: records the paper's attribution of the asked inequality to
-  Erdős, Gallai and Tuza (Conjecture 3, p. 2) and the earlier partial
-  bounds towards the stronger Conjecture 2 that it quotes (p. 2).
-- [[../wiki/problems/extremal_graph_theory/E0023/_index|Problem 23]]: records the paper's Conjecture 1 (p. 1), the conjectured
-  bound $\tau_B(G)\le n^2/25$ for triangle-free graphs on $n$ vertices, which
-  Problem 23 asks for $n$ divisible by five; the paper proves nothing
-  towards it.
+- [[../wiki/problems/extremal_graph_theory/E0621/_index|Problem 621]]: records
+  the paper's attribution of the asked inequality to Erdős, Gallai and Tuza
+  (Conjecture 3, p. 2) and the earlier partial bounds towards the stronger
+  Conjecture 2 that it quotes (p. 2).
+- [[../wiki/problems/extremal_graph_theory/E0023/_index|Problem 23]]: records
+  the paper's Conjecture 1 (p. 1), the conjectured bound $\tau_B(G)\le n^2/25$
+  for triangle-free graphs on $n$ vertices, which Problem 23 asks for $n$
+  divisible by five; the paper proves nothing towards it.

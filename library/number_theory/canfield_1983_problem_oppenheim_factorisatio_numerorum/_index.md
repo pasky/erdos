@@ -89,10 +89,10 @@ Results recorded, each with its printed label and page:
 The two unnumbered lemmas (p. 9, a crude lower bound for $\Psi$; p. 22, a
 comparison $f(qn/p)\ge\frac65f(n)$) are described on the pages of the
 theorems they serve. Table I (pp. 4--6) lists the 118 highly factorable
-numbers below $10^9$; Section 6 (pp. 20--25) closes on pp. 24--25 with conjectures and
-open questions about highly factorable numbers, and Section 7 describes the
-algorithm behind the table. Each result page records its read depth; all are
-claims checked.
+numbers below $10^9$; Section 6 (pp. 20--25) closes on pp. 24--25 with
+conjectures and open questions about highly factorable numbers, and Section 7
+describes the algorithm behind the table. Each result page records its read
+depth; all are claims checked.
 
 ## Bears on
 

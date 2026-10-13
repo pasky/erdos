@@ -203,16 +203,15 @@ Section 4 puts them back "after a lengthy argument"; Section 5 (p. 11) adds
 that for $n>n_0$ a minimal graph of diameter $2$ with at least
 $\lfloor(n-1)^2/4\rfloor+1$ edges is complete bipartite or one non-bipartite
 graph $\mathcal M$. So for $n>n_0$ the answer to the site's question is yes,
-and the equality clause holds too. Acceptance evidence: the Journal of Graph Theory is refereed
-(volume 16, issue 1, March 1992, per the Crossref record); the site's
-account. As context and not as evidence, the citing literature found
-(below), by its titles alone, suggests no dispute. Read depth:
-claims checked for Conjecture 1.1, Theorem 1.2, the remark on $n_0$, the
-earlier bounds and Section 5's statements; the proof (pp. 2--11) for
-structure only; the journal text was not compared with the preprint. The
-site's report that Füredi passes on Erdős's attribution of the conjecture to
-Ore in the 1960s is not on the preprint pages cited; it may be in the
-journal version, which is not held.
+and the equality clause holds too. Acceptance evidence: the Journal of Graph
+Theory is refereed (volume 16, issue 1, March 1992, per the Crossref record);
+the site's account. As context and not as evidence, the citing literature found
+(below), by its titles alone, suggests no dispute. Read depth: claims checked
+for Conjecture 1.1, Theorem 1.2, the remark on $n_0$, the earlier bounds and
+Section 5's statements; the proof (pp. 2--11) for structure only; the journal
+text was not compared with the preprint. The site's report that Füredi passes on
+Erdős's attribution of the conjecture to Ore in the 1960s is not on the preprint
+pages cited; it may be in the journal version, which is not held.
 
 **The finite remainder.** Theorem 1.2 leaves every $n\le n_0$ open, and
 $n_0$ is a tower of exponentials; no source cited here gives its value.

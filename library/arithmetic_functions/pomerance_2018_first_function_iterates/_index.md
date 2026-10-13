@@ -39,9 +39,9 @@ p > q with p + q = k.
 Carl Pomerance, The first function and its iterates. Connections in Discrete
 Mathematics, Cambridge University Press (2018), 125-138.
 doi:10.1017/9781316650295.008. The copy read for this card is the author's
-manuscript from the author's page (https://math.dartmouth.edu/~carlp/), which
-states no terms for the papers it links, and the file prints no notice; the term
-is unstated.
+manuscript from the author's page (https://math.dartmouth.edu/~carlp/, read
+2026-10-02), which states no terms for the papers it links, and the file prints
+no notice; the term is unstated.
 
 A survey with new results on $s(n)=\sigma(n)-n$ and its iterates $s_k$, set
 against the Catalan–Dickson conjecture (every aliquot sequence is bounded) and

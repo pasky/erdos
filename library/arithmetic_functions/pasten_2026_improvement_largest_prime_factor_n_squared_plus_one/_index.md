@@ -80,16 +80,16 @@ universal power bounds in [[../wiki/problems/arithmetic_functions/E0976/_index|P
 The paper remarks on p. 2 that the main ideas of Section 2 can be reused with
 the arguments of the Cuevas Barrientos--Pasten preprint to get similar results
 for all irreducible quadratic polynomials and for cubics $ax^3+b$, and states
-that it does not pursue that direction. It remains distinct from Pasten's 2024 paper and the Cuevas
-Barrientos--Pasten 2025 preprint.
+that it does not pursue that direction. It remains distinct from Pasten's 2024
+paper and the Cuevas Barrientos--Pasten 2025 preprint.
 
 Source: <https://arxiv.org/abs/2609.01327v1>.
 
-**Bears on.** [[../wiki/problems/arithmetic_functions/E0976/_index|#976]] (context
-only). Theorem 1.1 and Corollaries 1.2 and 1.3 concern the prime factors of
-the single value $n^2+1$ for the one polynomial $X^2+1$. They state no bound
-for the greatest prime factor of the product $\prod_{m\leq n}f(m)$ and change
-neither power target of the problem.
+**Bears on.** [[../wiki/problems/arithmetic_functions/E0976/_index|#976]]
+(context only). Theorem 1.1 and Corollaries 1.2 and 1.3 concern the prime
+factors of the single value $n^2+1$ for the one polynomial $X^2+1$. They state
+no bound for the greatest prime factor of the product $\prod_{m\leq n}f(m)$ and
+change neither power target of the problem.
 
 **Results.**
 
@@ -104,9 +104,10 @@ neither power target of the problem.
 was read on physical pp. 1--4. The source comparison covers its identity and
 date labels, definitions, Theorem 1.1 and Corollary 1.2 formulas and proof
 sites, Corollary 1.3's unconditional statement and conditional consequence
-(p. 2) and its deduction (p. 3), and acknowledgment wording (p. 4). The pointwise scope was compared
-with the statements on pp. 1--2. This is source-fidelity reading; no complete
-local proof reconstruction or independent proof review was performed.
+(p. 2) and its deduction (p. 3), and acknowledgment wording (p. 4). The
+pointwise scope was compared with the statements on pp. 1--2. This is
+source-fidelity reading; no complete local proof reconstruction or independent
+proof review was performed.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

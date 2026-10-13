@@ -77,16 +77,15 @@ quadratic non-residue modulo a prime $p\equiv3\ (\mathrm{mod}\ 4)$.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0012/_index|Problem 12]]: Property P with
-  $i<j<k$ is the problem's condition (no element divides the sum of two
-  distinct larger elements), so $S$ is a set of the kind the problem asks
-  about, with counting function
-  $\gg N^{1/2}/((\log N)^{1/2}(\log\log N)^2(\log\log\log N)^2)$ for all
-  large $N$, the bound the site's commentary credits to Elsholtz and
-  Planitzer. The bound is below $N^{1/2}$, so it gives neither the first
-  question's positive liminf against $N^{1/2}$ nor a set with at least
-  $N^{1-c}$ elements up to $N$ for every $c>0$, and the theorem says nothing
-  about reciprocal sums; it answers none of the problem's three questions.
-  The larger counting functions
-  $N/(\log N)^{O(\log\log\log N)}$ of the 2026 constructions are pending
-  claims recorded on the problem page.
+- [[../wiki/problems/integer_sequences/E0012/_index|Problem 12]]: Property P
+  with $i<j<k$ is the problem's condition (no element divides the sum of two
+  distinct larger elements), so $S$ is a set of the kind the problem asks about,
+  with counting function
+  $\gg N^{1/2}/((\log N)^{1/2}(\log\log N)^2(\log\log\log N)^2)$ for all large
+  $N$, the bound the site's commentary credits to Elsholtz and Planitzer. The
+  bound is below $N^{1/2}$, so it gives neither the first question's positive
+  liminf against $N^{1/2}$ nor a set with at least $N^{1-c}$ elements up to $N$
+  for every $c>0$, and the theorem says nothing about reciprocal sums; it
+  answers none of the problem's three questions. The larger counting functions
+  $N/(\log N)^{O(\log\log\log N)}$ of the 2026 constructions are pending claims
+  recorded on the problem page.

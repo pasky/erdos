@@ -192,9 +192,9 @@ preprint of Yi consumes for its Corollary 1, paged on
 [[extremal_graph_theory/haxell_1999_packing_covering_triangles_graphs/lemma_3|lemma_3]] and
 [[extremal_graph_theory/haxell_1999_packing_covering_triangles_graphs/lemma_4|lemma_4]];
 the proof of Theorem 5 (Lemmas 1--4 and the displayed combination,
-pp. 252--254) was read in full on the page images and followed, with the arithmetic
-recomputed. The closing remark is recorded as an author's statement without
-a printed proof. Nothing here is independently reviewed.
+pp. 252--254) was read in full on the page images and followed, with the
+arithmetic recomputed. The closing remark is recorded as an author's statement
+without a printed proof. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Theorem 5
 (printed p. 254, PDF p. 4), "We have $\tau(G)\le(3-\varepsilon)\nu$, where

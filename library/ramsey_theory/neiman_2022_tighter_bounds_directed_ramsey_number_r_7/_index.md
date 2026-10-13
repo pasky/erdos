@@ -117,8 +117,8 @@ case analysis of Section 5.2) were not checked and nothing was replayed.
 
 Pages 1--3 and 11--13 were read in the text layer for the statements above,
 and pp. 5, 10, 11 and 13--16 on the page images for the result pages of
-Sections 3--5; the rest was read for structure only. No proof was checked, no SAT
-computation was replayed, and nothing here is independently reviewed.
+Sections 3--5; the rest was read for structure only. No proof was checked, no
+SAT computation was replayed, and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: with $f(n)$ the
 largest $k$ such that every tournament on $n$ vertices contains a $TT_k$,

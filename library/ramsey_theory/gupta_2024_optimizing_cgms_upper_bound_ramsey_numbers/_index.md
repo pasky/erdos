@@ -144,14 +144,14 @@ independently reviewed.
 
 Source: <https://arxiv.org/abs/2407.19026>.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: the diagonal case of
-Theorem 1, $R(k,k)\le(3.7992\ldots)^{k+o(k)}$ (p. 3), gives
+**Bears on.** [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: the diagonal
+case of Theorem 1, $R(k,k)\le(3.7992\ldots)^{k+o(k)}$ (p. 3), gives
 $\limsup R(k)^{1/k}\le3.7992\ldots$, an upper bound on the limit should it
-exist; the existence and the value of the limit are untouched, and Remark
-17, which is not a theorem, records the authors' expectation that lowering
-the base below $3.7$, and likely below $3.75$, would require new ideas.
-No problem page of this corpus cites Corollary 6 or Corollary 21; by a
-check made here, Corollary 6 at $\ell=k$ is weaker than $4^k$.
+exist; the existence and the value of the limit are untouched, and Remark 17,
+which is not a theorem, records the authors' expectation that lowering the base
+below $3.7$, and likely below $3.75$, would require new ideas. No problem page
+of this corpus cites Corollary 6 or Corollary 21; by a check made here,
+Corollary 6 at $\ell=k$ is weaker than $4^k$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

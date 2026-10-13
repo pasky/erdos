@@ -74,7 +74,7 @@ bounds), and the 1/d expansion of the connective constant.
 Source: <https://personal.math.ubc.ca/~slade/research.html>. The copy read for
 this card is the author's manuscript dated July 24, 2007, which prints no
 notice, from the author's research page
-(https://personal.math.ubc.ca/~slade/research.html), which
+(https://personal.math.ubc.ca/~slade/research.html, read 2026-10-02), which
 states no terms; the term is unstated.
 
 **Read status.** Claims checked: equations (1), (3) and (4), the

@@ -218,17 +218,18 @@ says nothing about $R_r(n)$ for fixed $r$. The paper is a preprint and
 declares (p. 10) that the authors used ChatGPT 5.5 Pro and 5.5 Thinking to
 assist in "numerical computation, checking proofs and improving
 exposition"; it is recorded
-with that provenance and earns no status weight. The abstract of [CFS10] gives off-diagonal bounds $r_3(s,n)$ and the three-color
-bound $r_3(n,n,n)\ge2^{n^{c\log n}}$; it states no two-color diagonal
-improvement. The abstract of [CFS13] gives the improved stepping-up
-relation ($N\not\to(n)^k_\ell$ implies $2^N\not\to(n+3)^{k+1}_\ell$ for
-$k\ge4$), which sharpens the top of the tower, not its height. The abstract
-of [DoMu26] claims "a lower-order improvement to the best known
-quantitative upper bounds for hypergraph Ramsey numbers" through a sharper
-Erdős--Rado recurrence; the tower height of the upper bound is unchanged.
-The arXiv listings also show 2026 preprints on the off-diagonal numbers
-$r_4(5,n)$ (arXiv:2604.23986, 2605.04105; titles only), which the Problem
-564 page records. None concerns the two-color diagonal tower height.
+with that provenance and earns no status weight. The abstract of [CFS10] gives
+off-diagonal bounds $r_3(s,n)$ and the three-color bound
+$r_3(n,n,n)\ge2^{n^{c\log n}}$; it states no two-color diagonal improvement. The
+abstract of [CFS13] gives the improved stepping-up relation
+($N\not\to(n)^k_\ell$ implies $2^N\not\to(n+3)^{k+1}_\ell$ for $k\ge4$), which
+sharpens the top of the tower, not its height. The abstract of [DoMu26] claims
+"a lower-order improvement to the best known quantitative upper bounds for
+hypergraph Ramsey numbers" through a sharper Erdős--Rado recurrence; the tower
+height of the upper bound is unchanged. The arXiv listings also show 2026
+preprints on the off-diagonal numbers $r_4(5,n)$ (arXiv:2604.23986, 2605.04105;
+titles only), which the Problem 564 page records. None concerns the two-color
+diagonal tower height.
 
 **Search scope.** The status rests on these routes;
 none found a proof, disproof or proof claim.

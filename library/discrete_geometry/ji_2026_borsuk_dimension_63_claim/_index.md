@@ -91,11 +91,11 @@ acceptance.
 
 ## Bears on
 
-- [[../wiki/problems/discrete_geometry/E0505/_index|E0505]]: Theorem 6.2, rescaled to
-  diameter one, claims a set in $\mathbb R^{63}$ that is not the union of
-  64 sets of smaller diameter, a negative answer to the question in
-  dimension 63; unreviewed here, and the submission is withdrawn.
-  Proposition 6.1 and Lemma 4.1 bear on the problem only through it.
+- [[../wiki/problems/discrete_geometry/E0505/_index|E0505]]: Theorem 6.2,
+  rescaled to diameter one, claims a set in $\mathbb R^{63}$ that is not the
+  union of 64 sets of smaller diameter, a negative answer to the question in
+  dimension 63; unreviewed here, and the submission is withdrawn. Proposition
+  6.1 and Lemma 4.1 bear on the problem only through it.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -143,8 +143,8 @@ Corollary 3, whose uniqueness hypothesis the paper takes from the
 Curtiss--Takenouchi theorem, contains the problem's statement, widened from
 strictly increasing to nondecreasing sequences; Theorem 4 drops the
 uniqueness hypothesis for every positive rational at the cost of a
-dichotomy in the conclusion; the paper presents the case $\lambda=1$ as already proved by Li and
-Tang and by Kamio).
+dichotomy in the conclusion; the paper presents the case $\lambda=1$ as already
+proved by Li and Tang and by Kamio).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

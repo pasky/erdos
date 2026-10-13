@@ -182,14 +182,14 @@ question would be no, against the monograph's expectation.
 
 **The second question.** The weak inequality is trivial and the strict one
 open; the monograph's example at $n=4$ gives equality
-$\min_{\ne0}|\sum\delta_k/k|=1/\mathrm{lcm}(1,\ldots,n)$. Sawin's comment of 1 July 2026 in the thread of
-[[problems/unit_fractions/E0311/_index|Problem 311]] observes that even the special
-case $\delta(N)>1/\mathrm{lcm}(1,\ldots,N)$ for the sums $1-\sum_{n\in A}1/n$
-seems nontrivial: equality would force $\mathrm{lcm}(1,\ldots,N)/p\equiv\pm1
-\pmod p$ with one common sign for every prime $p\in(N/2,N]$, which Sawin
-regards as very unlikely but possibly hard to exclude. The exact zero sums
-that the second question excludes are the subject of
-[[problems/unit_fractions/E0319/_index|Problem 319]].
+$\min_{\ne0}|\sum\delta_k/k|=1/\mathrm{lcm}(1,\ldots,n)$. Sawin's comment of 1
+July 2026 in the thread of [[problems/unit_fractions/E0311/_index|Problem 311]]
+observes that even the special case $\delta(N)>1/\mathrm{lcm}(1,\ldots,N)$ for
+the sums $1-\sum_{n\in A}1/n$ seems nontrivial: equality would force
+$\mathrm{lcm}(1,\ldots,N)/p\equiv\pm1 \pmod p$ with one common sign for every
+prime $p\in(N/2,N]$, which Sawin regards as very unlikely but possibly hard to
+exclude. The exact zero sums that the second question excludes are the subject
+of [[problems/unit_fractions/E0319/_index|Problem 319]].
 
 **Leads (not status).** The prime-denominator variant and its computed
 values (thread, 25 August 2025) concern a different minimum and are

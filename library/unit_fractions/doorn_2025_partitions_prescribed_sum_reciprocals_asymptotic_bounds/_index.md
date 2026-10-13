@@ -72,15 +72,20 @@ Source: <https://arxiv.org/abs/2502.02200>.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0283/_index|#283]]
 (whether, for a suitable polynomial $p$, every large integer is a sum of
-$p(n_i)$ over distinct $n_i$ with $\sum 1/n_i=1$): all four theorems concern the case $p(x)=x$ in the form
-with reciprocal sum any positive rational $\alpha$ in place of $1$.
-[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_1|Theorem 1]] bounds the threshold $n_\alpha$ from above,
-[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_2|Theorem 2]] shows that for suitable $\alpha=p/q$ it can
-exceed $0.3q\log^2q$, [[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_3|Theorem 3]] gives its asymptotic size
-as $m\to\infty$ with $\alpha$ fixed when every part must be at least $m$, and [[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_4|Theorem 4]]
+$p(n_i)$ over distinct $n_i$ with $\sum 1/n_i=1$): all four theorems concern the
+case $p(x)=x$ in the form with reciprocal sum any positive rational $\alpha$ in
+place of $1$.
+[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_1|Theorem 1]]
+bounds the threshold $n_\alpha$ from above,
+[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_2|Theorem 2]]
+shows that for suitable $\alpha=p/q$ it can exceed $0.3q\log^2q$,
+[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_3|Theorem 3]]
+gives its asymptotic size as $m\to\infty$ with $\alpha$ fixed when every part
+must be at least $m$, and
+[[unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/theorem_4|Theorem 4]]
 bounds the number of $\alpha$ with $n_\alpha\le n$. At reciprocal sum $1$, the
-problem's own case, Graham's $n_1=78$ is already exact (p. 1); the paper
-does not treat other polynomials.
+problem's own case, Graham's $n_1=78$ is already exact (p. 1); the paper does
+not treat other polynomials.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

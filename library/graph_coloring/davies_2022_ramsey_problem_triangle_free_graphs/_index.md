@@ -108,12 +108,13 @@ $(2\sqrt2+o(1))\sqrt{n/\log n}$ bound from Shearer's $R(3,t)$ estimate.
 - [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/corollary_3|Corollary 3]]
   (p. 4 of the preprint): A triangle-free graph of genus at most g has
   chromatic number at most (3 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3} and list
-  chromatic number at most (12 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3}, as g tends to infinity;
-  the same bounds hold for graphs embeddable on a closed non-orientable
-  surface of genus at most 2g.
+  chromatic number at most (12 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3}, as g tends
+  to infinity; the same bounds hold for graphs embeddable on a closed
+  non-orientable surface of genus at most 2g.
 - Theorem 4 (Molloy, quoted, p. 4): As Delta tends to infinity, any
   triangle-free graph of maximum degree Delta has (list) chromatic number at
-  most (1+o(1)) Delta/log Delta; this is the input to the low-degree case of the induction.
+  most (1+o(1)) Delta/log Delta; this is the input to the low-degree case of the
+  induction.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -39,9 +39,10 @@ The copy read for this card is the author's manuscript dated September 28,
 2008, 10 pages with a text layer, numbered 1--10 at the foot; locators below
 are those printed numbers, which coincide with the physical pages. The
 journal version was not compared. Provenance: obtained through the survey
-download; the download URL was not recorded. 102,665 bytes. The manuscript prints no copyright or license line; its download URL
-was not recorded, so no site terms could be checked, and the journal version
-was not read; the term is unstated.
+download; the download URL was not recorded. 102,665 bytes. The manuscript
+prints no copyright or license line; its download URL was not recorded, so no
+site terms could be checked, and the journal version was not read; the term is
+unstated.
 
 Read status: proof partially verified for Theorem 1. Its statement and the
 proof of Lemma 1 were checked; Lemma 2's calculation between its determinant
@@ -68,8 +69,8 @@ it is parallelogram-free if it determines no two equal vectors.
   $o(n^2)$ distances. The construction is a quarter of Erdős's parabola
   $\{(i,i^2 \bmod n)\}$ for prime $n$.
 - [[distance_problems/dumitrescu_2008_distinct_distances_points_general_position/theorem_2|Theorem 2]]
-  (p. 2; proof in section 3.1, p. 6): from any $n$ points on a line one can select
-  $\Omega(n^{1/2})$ points with all pairwise distances distinct, and this
+  (p. 2; proof in section 3.1, p. 6): from any $n$ points on a line one can
+  select $\Omega(n^{1/2})$ points with all pairwise distances distinct, and this
   is sharp up to the constant:
   $(0.0805+o(1))n^{1/2}\le h_1(n)\le(1+o(1))n^{1/2}$.
 - [[distance_problems/dumitrescu_2008_distinct_distances_points_general_position/theorem_3|Theorem 3]]

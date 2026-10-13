@@ -133,8 +133,8 @@ summarized under The 2026 claim below. Cite as: T. F. Bloom, Erdős Problem
 - [Ko26] Korsky, S., Arithmetic progression-free subset-sum sets.
   arXiv:2606.24139v1 (23 June 2026), 15 pp.; no journal record
   (Crossref, 2026-09-18). Theorems 1.1--1.2, p. 2;
-  Theorem 1.3 and Corollary 1.4, p. 3; Proposition 4.1 and Corollary 4.2, p. 6; Remark 4.6,
-  p. 8. Library home:
+  Theorem 1.3 and Corollary 1.4, p. 3; Proposition 4.1 and Corollary 4.2, p. 6;
+  Remark 4.6, p. 8. Library home:
   [[../library/additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/_index|korsky_2026_arithmetic_progression_free_subset_sum_sets]].
 - [Co26] Costa, S., A negative answer to the Erdős--Sárkőzy question.
   Preprint, Zenodo record 22313501, DOI 10.5281/zenodo.22313501 (publication

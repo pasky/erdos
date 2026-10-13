@@ -62,19 +62,19 @@ the number of vertex subsets S of size b+1 that induce a connected subgraph and
 can be separated from the rest of G by deleting f vertices is at most n *
 binom(b+f, b); locally, the number of such connected subgraphs of size b+1
 through a fixed vertex with exactly f neighbors is at most binom(b+f, b), a
-bound the introduction (p. 2) calls tight without proof. The bound is a variation on Bollobas's theorem from extremal set
-theory. Applying it, the authors obtain an exponential-space algorithm computing
-treewidth in time O(1.7549^n) and a polynomial-space one in time O(2.6151^n),
-improving the previous O(1.8899^n) and O(2.9512^n); they also decide treewidth
-at most k in time O(((2n+k+1)/3)^{k+1} k n^6), refining
-Arnborg-Corneil-Proskurowski, and list all minimal separators in time
-O(1.6181^n) and all potential maximal cliques in time O(1.7549^n). The
-improvements come from feeding the new counting bound into the standard
-enumeration of minimal separators and potential maximal cliques, and carry over
-to related problems such as fill-in, treelength and Chordal Sandwich, which
-the introduction (p. 2) states without proof. The part bearing on problem
-150 is Theorem 1, the bound on minimal separators that the counting lemma
-yields.
+bound the introduction (p. 2) calls tight without proof. The bound is a
+variation on Bollobas's theorem from extremal set theory. Applying it, the
+authors obtain an exponential-space algorithm computing treewidth in time
+O(1.7549^n) and a polynomial-space one in time O(2.6151^n), improving the
+previous O(1.8899^n) and O(2.9512^n); they also decide treewidth at most k in
+time O(((2n+k+1)/3)^{k+1} k n^6), refining Arnborg-Corneil-Proskurowski, and
+list all minimal separators in time O(1.6181^n) and all potential maximal
+cliques in time O(1.7549^n). The improvements come from feeding the new counting
+bound into the standard enumeration of minimal separators and potential maximal
+cliques, and carry over to related problems such as fill-in, treelength and
+Chordal Sandwich, which the introduction (p. 2) states without proof. The part
+bearing on problem 150 is Theorem 1, the bound on minimal separators that the
+counting lemma yields.
 
 Source: <https://arxiv.org/abs/0803.1321>.
 

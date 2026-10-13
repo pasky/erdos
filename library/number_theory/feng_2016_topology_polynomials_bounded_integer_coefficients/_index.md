@@ -131,7 +131,8 @@ problem (the deduction is written on the problem page).
   $\mathbb R$ in three steps (pp. 8--11); read for structure only.
 - Section 3 (pp. 11--13): final remarks and open questions, among them
   Proposition 3.1 and Corollary 3.2 (p. 12) and the two closing questions
-  (p. 13), read for structure only; references, pp. 13--15 (not read beyond the headings).
+  (p. 13), read for structure only; references, pp. 13--15 (not read beyond the
+  headings).
 
 ## Compiled scope
 

@@ -64,10 +64,10 @@ sets of size k <= 11 in Z_n. Section
 Archdeacon, Dinitz, Mattern and Stinson's for every n), that a subset of Z_n
 minus zero admits an ordering with all partial sums distinct, and proves it for
 subsets of size at most 12 in cyclic groups of prime order using Alon's
-combinatorial Nullstellensatz with the Hicks-Ollis-Schmitt techniques and Magma computations;
-this extends to torsion-free abelian groups and to Z_n with large prime
-factors (Corollaries 4.3 and 4.4). Section 4.2 derives the same sizes for the
-CMPP conjecture on zero-sum sets without pairs {x, -x} (Corollaries 4.6 and
+combinatorial Nullstellensatz with the Hicks-Ollis-Schmitt techniques and Magma
+computations; this extends to torsion-free abelian groups and to Z_n with large
+prime factors (Corollaries 4.3 and 4.4). Section 4.2 derives the same sizes for
+the CMPP conjecture on zero-sum sets without pairs {x, -x} (Corollaries 4.6 and
 4.7). The paper is the site's reference for the sizes t <= 12 of Problem 475 on
 distinct partial sums.
 

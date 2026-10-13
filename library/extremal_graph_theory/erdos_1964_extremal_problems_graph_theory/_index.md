@@ -87,7 +87,7 @@ The copy read for this card is the Rényi archive's scan of the eight printed
 pages 29--36 (printed p. n = PDF p. n-28), with a text layer that misreads
 the exponents; the passages below were read on rendered page images. No notice
 is printed in the file; the hosting archive's site footer speaks for the site,
-not the paper (https://users.renyi.hu/~p_erdos/, prints "(C)
+not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C)
 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); the proceedings have no online publisher edition, so the
 publisher's page was not consulted and no Crossref license is recorded; the term

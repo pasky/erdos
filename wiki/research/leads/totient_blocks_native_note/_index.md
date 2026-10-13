@@ -130,10 +130,9 @@ authorization to solve the remaining $c\geq2$ cases.
 ## Current review state
 
 This lead is a research-only preservation record. Source identity, five-page
-layout, displayed claims, cited-input trace, and proof architecture were read. Independent source-fidelity and statement-scope reviews of this
-record are reported (2026-09-07), but their reports are not retained in this
-repository, so the record stands as author-recorded; no review of the note's
-argument exists. No full proof, formal verification, community acceptance, or
-change to the problem's open status is claimed.
- The native $c<2$ claim remains
-unverified.
+layout, displayed claims, cited-input trace, and proof architecture were read.
+Independent source-fidelity and statement-scope reviews of this record are
+reported (2026-09-07), but their reports are not retained in this repository, so
+the record stands as author-recorded; no review of the note's argument exists.
+No full proof, formal verification, community acceptance, or change to the
+problem's open status is claimed. The native $c<2$ claim remains unverified.

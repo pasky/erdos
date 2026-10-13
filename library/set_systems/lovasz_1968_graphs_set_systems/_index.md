@@ -43,10 +43,10 @@ systems without non-trivial circuits by a vertex count; Theorem 3 (p. 100)
 gives a vertex count, through components and lobes, for systems whose simple
 circuits all have length 2, answering a question of Erdős; and Theorem 4
 (p. 102), which the paper says Theorem 3 implies, is Erdős's conjecture that
-at least $|h|-1$ triples on $h$ force a simple circuit of length at least 3. Theorem 6 (p. 103) constructs, for
-given $k$, $n$, $s$, a uniform $k$-system whose non-trivial circuits are
-longer than $s$ and whose chromatic number is $n$, a direct construction for
-the probabilistic theorem of Erdős and Hajnal.
+at least $|h|-1$ triples on $h$ force a simple circuit of length at least 3.
+Theorem 6 (p. 103) constructs, for given $k$, $n$, $s$, a uniform $k$-system
+whose non-trivial circuits are longer than $s$ and whose chromatic number is
+$n$, a direct construction for the probabilistic theorem of Erdős and Hajnal.
 
 For the result relevant here, Lovász calls a set system a *forest* if
 every subsystem with vertex set $h'$ and edge family $H'$ satisfies

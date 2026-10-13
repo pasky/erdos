@@ -49,12 +49,12 @@ reals approximable from above by finite subsums, is that union, a disjoint union
 of exactly 2^{t_n} intervals, with t_n < (2^{1/n} - 1)^{-1} and t_n ~ n/ln 2.
 Corollaries 1 and 2 specialize the criterion to distinct squares and distinct
 cubes; for squares the stated consequence, which a footnote (p. 85) says Erdos
-also obtained, unpublished, is an explicit two-interval condition involving pi^2/6.
-Erdos problem 282 asks
-whether greedy algorithms with restricted denominators terminate; the site's
-commentary quotes Corollary 1's criterion for square denominators and asks
-whether the greedy algorithm for squares terminates. The paper supplies the
-existence criterion only and does not treat the greedy algorithm.
+also obtained, unpublished, is an explicit two-interval condition involving
+pi^2/6. Erdos problem 282 asks whether greedy algorithms with restricted
+denominators terminate; the site's commentary quotes Corollary 1's criterion for
+square denominators and asks whether the greedy algorithm for squares
+terminates. The paper supplies the existence criterion only and does not treat
+the greedy algorithm.
 
 Source: <https://msp.org/pjm/1964/14-1/p10.xhtml>.
 
@@ -69,7 +69,8 @@ status: claims checked. Theorem A, Definitions 1--3, Theorems 1--4, Corollaries
 were read for structure only. No notice is printed on the cover sheet or the
 article pages; the publisher's article page shows "© Copyright 1964 Pacific
 Journal of Mathematics. All rights reserved."
-(https://msp.org/pjm/1964/14-1/p10.xhtml), every other right reserved.
+(https://msp.org/pjm/1964/14-1/p10.xhtml, read 2026-10-02), every other right
+reserved.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0282/_index|#282]] (the site's [Gr64c]:
 [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/corollary_1|Corollary 1]] is the criterion x in [0, pi^2/6 - 1) or

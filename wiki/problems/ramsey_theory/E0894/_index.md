@@ -64,9 +64,9 @@ gives a proper coloring of the graph with at most
 $1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is the site's
 $\ll\epsilon^{-1} \log(1/\epsilon)$ bound. The same paper gives a self-contained
 elementary coloring with $4^K$ colors, $K=\lceil2\epsilon^{-1}\rceil$, on its
-p. 3. It also shows that the power of $\epsilon$ in the bound cannot be improved.
-The earlier solutions of the Diophantine question behind the reduction (de
-Mathan and Pollington, 1979--80) are the site's account of Problem 464.
+p. 3. It also shows that the power of $\epsilon$ in the bound cannot be
+improved. The earlier solutions of the Diophantine question behind the reduction
+(de Mathan and Pollington, 1979--80) are the site's account of Problem 464.
 Pollington's theorem gives a second route to finiteness through the reduction,
 without an explicit dependence on $\epsilon$. Katznelson's own Theorem 1.1 (p.
 211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is the original
@@ -104,7 +104,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   open access at Project Euclid. Library home:
   [[../library/number_theory/pollington_1979_density_sequence_n_k_xi/_index|pollington_1979_density_sequence_n_k_xi]].
 - [Du06] Dubickas, A., On the fractional parts of lacunary sequences. Math.
-  Scand. 99 (2006), no. 1, 136--146, doi:10.7146/math.scand.a-15004. Theorem 1 (p. 136) and the chromatic bound $\chi(G)\le9(r+2)^2$ for the graph on the
+  Scand. 99 (2006), no. 1, 136--146, doi:10.7146/math.scand.a-15004. Theorem 1
+  (p. 136) and the chromatic bound $\chi(G)\le9(r+2)^2$ for the graph on the
   reals (p. 137). Library home:
   [[../library/number_theory/dubickas_2006_fractional_parts_lacunary_sequences/_index|dubickas_2006_fractional_parts_lacunary_sequences]].
 - [AkMo04] Akhunzhanov, R. K. and Moshchevitin, N. G., On the chromatic

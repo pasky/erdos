@@ -89,11 +89,11 @@ bound for $D_3$.
 - [[diophantine_problems/luca_2014_squares_factorials_products_factorials/theorem_1|Theorem 1]] (p. 3; proof in section 3, pp. 8--11):
   $|D_3(X)|=O\big(X/\exp(c_0(\log X)^{1/4}(\log_2X)^{3/4})\big)$ for some
   constant $c_0>0$, where $\log_2$ is the iterated logarithm with
-  $\log_1x=\max\{\log x,1\}$. The proof writes $n(n-1)\cdots(n-k+1)\,j!=\square$ with $j<n-k$,
-  uses the Baker–Harman–Pintz prime-gap theorem to force $k<n^{0.53}$, the
-  Canfield–Erdős–Pomerance smooth-number estimate (Lemma 6), and Jutila's
-  lower bound for the greatest prime factor of a block of consecutive
-  integers (Lemma 7 (iv)).
+  $\log_1x=\max\{\log x,1\}$. The proof writes $n(n-1)\cdots(n-k+1)\,j!=\square$
+  with $j<n-k$, uses the Baker–Harman–Pintz prime-gap theorem to force
+  $k<n^{0.53}$, the Canfield–Erdős–Pomerance smooth-number estimate (Lemma 6),
+  and Jutila's lower bound for the greatest prime factor of a block of
+  consecutive integers (Lemma 7 (iv)).
 - [[diophantine_problems/luca_2014_squares_factorials_products_factorials/theorem_2|Theorem 2]] (p. 4; proof in section 4, pp. 12--14): with
   $O(n,k)$ the exponent of the greatest prime factor of
   $\Delta(n,k)=n(n+1)\cdots(n+k-1)$ in that product and
@@ -115,8 +115,8 @@ bound for $D_3$.
 ## Compiled scope
 
 The introduction (pp. 1--6) was read in full and the statements of
-Theorems 1--4 were checked clause by clause on the manuscript's pages; the proofs
-(sections 2--6) were skimmed for their structure and not verified. The
+Theorems 1--4 were checked clause by clause on the manuscript's pages; the
+proofs (sections 2--6) were skimmed for their structure and not verified. The
 journal version was not compared. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0374/_index|#374]], as an

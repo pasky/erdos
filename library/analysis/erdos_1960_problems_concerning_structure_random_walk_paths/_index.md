@@ -160,17 +160,17 @@ printed label and page.
 Not given pages: Theorems 2, 3 and 4A--4C with their corollaries
 (pp. 144--148), iterated-logarithm laws for $R_n$, of which the paper
 proves Theorems 2, 3 and 4C, states 4A and 4B without proof and says the
-corollary on p. 147 can be deduced from either; Theorem 5 (p. 149), averaged return laws on the
-line and in the plane; Theorem 6 (p. 151), return counts along sparse
-subsequences, stated without proof; and the estimates (2.9)--(2.18) of
-Section 2. The paper also poses an unsolved problem (p. 153): how fast
-$f(n)$ must grow so that, almost surely, the planar walk enters every
-lattice point within distance $n$ of the origin before time $f(n)$ for all
-but finitely many $n$; it says that its methods show that
-$f(n)=n^{(\log n)^{1+\varepsilon}}$ is large enough. Problem 1164 asks a
-related question about the same covering, the order in probability of the
-radius of the largest origin-centred disc the walk covers by time $n$; no
-problem page records the almost-sure question as posed here.
+corollary on p. 147 can be deduced from either; Theorem 5 (p. 149), averaged
+return laws on the line and in the plane; Theorem 6 (p. 151), return counts
+along sparse subsequences, stated without proof; and the estimates (2.9)--(2.18)
+of Section 2. The paper also poses an unsolved problem (p. 153): how fast $f(n)$
+must grow so that, almost surely, the planar walk enters every lattice point
+within distance $n$ of the origin before time $f(n)$ for all but finitely many
+$n$; it says that its methods show that $f(n)=n^{(\log n)^{1+\varepsilon}}$ is
+large enough. Problem 1164 asks a related question about the same covering, the
+order in probability of the radius of the largest origin-centred disc the walk
+covers by time $n$; no problem page records the almost-sure question as posed
+here.
 
 **Read status.** Proof partially verified: the proofs of
 [[analysis/erdos_1960_problems_concerning_structure_random_walk_paths/equation_2_5|(2.5)]],

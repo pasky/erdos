@@ -41,25 +41,25 @@ Theorem 1 states that if m > 1 subsets A_1,...,A_m of n elements contain every
 pair exactly once, then m is at least n, with equality only for the near-pencil
 (one block of n-1 points together with the n-1 pairs joining the remaining
 point to each of them) or for a system with n = k(k-1)+1 in which every block
-has k points and every point lies on k blocks. The proof is a double counting of incidences
-together with the inequality s_j <= k_i whenever the point a_i is off the block
-A_j, applied to a point of minimum degree; the equality analysis splits on
-whether the two largest degrees coincide, and the paper notes that the
+has k points and every point lies on k blocks. The proof is a double counting of
+incidences together with the inequality s_j <= k_i whenever the point a_i is off
+the block A_j, applied to a point of minimum degree; the equality analysis
+splits on whether the two largest degrees coincide, and the paper notes that the
 extremal k-uniform systems include the projective planes of order a prime power
 but also Levi's non-projective example with k = 9. A corollary is the geometric
-statement that n points in the real projective plane not all on a line
-determine at least n connecting lines, with equality only when n-1 are on a
-line; the paper quotes Gallai's theorem (the Sylvester-Gallai theorem) with
-Gallai's proof and derives the corollary from it by induction, and remarks
-that it is unknown whether the minimum number f(n) of lines through exactly two
-points tends to infinity (the authors state, without proof, that they can show
-only f(n) at least 3). Theorem 1 is the de Bruijn-Erdős bound t >= n for the
-designs of problem 903, which asks whether such a design on n = p^2+p+1
-points, p a prime power, with t > n blocks must have t >= n+p; the paper says
-nothing about block counts above n. The systems it studies are the pairwise
-balanced designs of problem 734, which asks for one with each block size used
-O(n^{1/2}) times; the paper says nothing about block sizes beyond the equality
-cases. The remark on f(n) poses the first question of problem 210.
+statement that n points in the real projective plane not all on a line determine
+at least n connecting lines, with equality only when n-1 are on a line; the
+paper quotes Gallai's theorem (the Sylvester-Gallai theorem) with Gallai's proof
+and derives the corollary from it by induction, and remarks that it is unknown
+whether the minimum number f(n) of lines through exactly two points tends to
+infinity (the authors state, without proof, that they can show only f(n) at
+least 3). Theorem 1 is the de Bruijn-Erdős bound t >= n for the designs of
+problem 903, which asks whether such a design on n = p^2+p+1 points, p a prime
+power, with t > n blocks must have t >= n+p; the paper says nothing about block
+counts above n. The systems it studies are the pairwise balanced designs of
+problem 734, which asks for one with each block size used O(n^{1/2}) times; the
+paper says nothing about block sizes beyond the equality cases. The remark on
+f(n) poses the first question of problem 210.
 
 Source: <https://users.renyi.hu/~p_erdos/1948-01.pdf>. No notice is printed on
 the scan; the hosting archive's site footer speaks for the site, not the paper

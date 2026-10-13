@@ -279,12 +279,11 @@ answer to the $n^{2/3}$ question" in seminar abstracts of 2009 and 2012
 "make no claim of priority over that announcement". The site adopted the
 bound into its commentary on 15 June 2026. No refereed publication, arXiv
 version of the appendix as a separate paper, or independent review was
-found; the two thread reservations of 11 June 2026 are recorded above. Read depth: claims
-checked for Theorem A.1 and the lemma statements; the three-page proof is
-checked for its structure only, not step by step; nothing is independently
-reviewed by this project. The claim page named
-under Status records the curator's adoption of the bound and why it is not
-an acceptance.
+found; the two thread reservations of 11 June 2026 are recorded above. Read
+depth: claims checked for Theorem A.1 and the lemma statements; the three-page
+proof is checked for its structure only, not step by step; nothing is
+independently reviewed by this project. The claim page named under Status
+records the curator's adoption of the bound and why it is not an acceptance.
 
 **The two Lean developments.** Two repositories named by the
 formal-conjectures file are pinned on the claim pages; neither was built or

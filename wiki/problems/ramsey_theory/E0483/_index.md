@@ -37,14 +37,14 @@ $f(1)=2$, $f(2)=5$, $f(3)=14$, $f(4)=45$, $f(5)=161$. The weak Schur numbers
 $WS(k)$, which require $a\ne b$, are a different quantity and are not this
 problem. The question "$f(k)<c^k$" asks whether $f$ grows at most exponentially;
 since $f$ has growth rate at least $380^{1/5}$ (Ageron et al.'s Corollary 2.9,
-below), any such $c$ is at least $380^{1/5}\approx3.28$. The request to estimate $f(k)$ is read as Erdős's 1961
-item poses it: as the growth question whether $f(k)<c^k$ for some $c$, and
-whether $f(k)^{1/k}$ tends to a finite limit. The results the site credits
-settle neither question, so none has a claim page. They are the lower bound of
-Ageron et al. (growth rate at least $380^{1/5}$) with the earlier bases of Exoo
-and of Fredricksen and Sweet; the upper bound $(e-\tfrac16)k!$ of Xu, Xie and
-Chen, with the earlier bounds of Whitehead and of Wan and Eliahou's English
-proof; and Heule's exact value $f(5)=161$.
+below), any such $c$ is at least $380^{1/5}\approx3.28$. The request to estimate
+$f(k)$ is read as Erdős's 1961 item poses it: as the growth question whether
+$f(k)<c^k$ for some $c$, and whether $f(k)^{1/k}$ tends to a finite limit. The
+results the site credits settle neither question, so none has a claim page. They
+are the lower bound of Ageron et al. (growth rate at least $380^{1/5}$) with the
+earlier bases of Exoo and of Fredricksen and Sweet; the upper bound
+$(e-\tfrac16)k!$ of Xu, Xie and Chen, with the earlier bounds of Whitehead and
+of Wan and Eliahou's English proof; and Heule's exact value $f(5)=161$.
 
 Erdős's own wording, 1961 (printed pp. 232--233): "SCHUR proved that if we split
 the integers $<en!$ into $n$ classes the equation $x+y=z$ is always solvable in
@@ -85,7 +85,8 @@ accessed 2026-09-18.
 
 - [ACPPRT21] R. Ageron, P. Casteras, T. Pellerin, Y. Portella, A. Rimmel and
   J. Tomasik, New lower bounds for Schur and weak Schur numbers.
-  arXiv:2112.03175 (v1 6 December 2021; v2 4 April 2022, read). Inequality (6) on p. 6, Corollary 2.9 on p.
+  arXiv:2112.03175 (v1 6 December 2021; v2 4 April 2022, read). Inequality (6)
+  on p. 6, Corollary 2.9 on p.
   7. Library home:
   [[../library/ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/_index|ageron_2021_new_lower_bounds_schur_weak_schur]].
 - [Ex94] G. Exoo, A lower bound for Schur numbers and multicolor Ramsey
@@ -234,8 +235,8 @@ and its
 [[../library/ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/corollary_2_9|Corollary 2.9]],
 growth rate at least $380^{1/5}\approx3.28$. The sources state the recursion
 and the growth rate, not the additive form "$(380)^{k/5}-O(1)\le f(k)$" that
-the site displays. The earlier bases $3.1717$ (Exoo) and $3.1996$ (Fredricksen and Sweet) are
-the thread's history; Rowley's abstract claims $3.273$ from
+the site displays. The earlier bases $3.1717$ (Exoo) and $3.1996$ (Fredricksen
+and Sweet) are the thread's history; Rowley's abstract claims $3.273$ from
 $S(k+5)\ge376S(k)+160$, also superseded.
 
 Upper bound for $k\ge4$: $f(k)\le(e-\tfrac16)k!$. The site's source is
@@ -250,11 +251,11 @@ computational bound $R_4(3)\le62$ of Fettes, Kramer and Radziszowski
 With $S(n)\le R_n(3)-2$ (Eliahou's display (6); Fredricksen and Sweet's
 display (2); Exoo's $R_k(3)\ge S(k)+2$, all from the difference coloring of
 $K_{S(n)+1}$), $f(k)=S(k)+1\le R_k(3)-1\le(e-\tfrac16)k!$ for $k\ge4$.
-Eliahou's introduction (pp. 1--2) attests the chain Greenwood and Gleason $n!e+1$, Whitehead $n!(e-1/24)+1$, Wan
-$n!(e-e^{-1}+3)/2+1$, Xu–Xie–Chen $n!(e-1/6)+1$, and the paper's Corollaries
-3--4 show what the conjectured $R_4(3)=51$ (giving $e-5/8$) or $R_4(3)\le54$
-(giving $e-1/2$) would yield; none of these is exponential. Wan's link of the
-chain is checked first-hand:
+Eliahou's introduction (pp. 1--2) attests the chain Greenwood and Gleason
+$n!e+1$, Whitehead $n!(e-1/24)+1$, Wan $n!(e-e^{-1}+3)/2+1$, Xu–Xie–Chen
+$n!(e-1/6)+1$, and the paper's Corollaries 3--4 show what the conjectured
+$R_4(3)=51$ (giving $e-5/8$) or $R_4(3)\le54$ (giving $e-1/2$) would yield; none
+of these is exponential. Wan's link of the chain is checked first-hand:
 [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_2_4|Theorem 2.4]]
 (p. 121) proves $R_n(3)\le n!(e-e^{-1}+3)/2+1$ for $n\ge4$ from Folkman's
 $R_4(3)\le65$ by a parity refinement of the Greenwood–Gleason recursion, and
@@ -264,8 +265,8 @@ Wan's
 page's convention; both are weaker than $(e-1/6)n!$ for every $n\ge4$, so they
 move no bound here. The folklore observation the site records,
 $f(k)\le R(3;k)-1$, is this $S(k)\le R_k(3)-2$; Problem 183's resolution
-($\lim R(3;k)^{1/k}=\infty$) runs the wrong way for this problem, since a
-lower bound on $R_k(3)$ says nothing about $f(k)$.
+($\lim R(3;k)^{1/k}=\infty$) runs the wrong way for this problem, since a lower
+bound on $R_k(3)$ says nothing about $f(k)$.
 
 So the question "is $f(k)<c^k$" is open with a gap between exponential and
 factorial growth: no source gives an upper bound of the shape $c^k$, and no
@@ -341,11 +342,12 @@ weaker $n!(e-e^{-1}+3)/2+1$; the bound is proved in Eliahou's Corollary 2,
 whose finite input $R_4(3)\le62$ is a computational theorem taken at statement
 level. (3) The site's additive display of the lower bound,
 $(380)^{k/5}-O(1)\le f(k)$, is not the form the sources state; Ageron et al.
-give the recursion (6) and the growth rate of Corollary 2.9. (4) The Bengone et al. records for $k=8$ and $13$ are an unrefereed,
-AI-assisted lead. (5) The records $S(7)\ge1696$ and $S(8)\ge5286$ (Rowley) are
-second-hand. (6) The site cites p. 233 of [Er61]; the item begins on p. 232.
-(7) Ageron et al. is read as an arXiv preprint (v2), and Heule as the arXiv v1 rather than the AAAI
-version; neither file is held.
+give the recursion (6) and the growth rate of Corollary 2.9. (4) The Bengone et
+al. records for $k=8$ and $13$ are an unrefereed, AI-assisted lead. (5) The
+records $S(7)\ge1696$ and $S(8)\ge5286$ (Rowley) are second-hand. (6) The site
+cites p. 233 of [Er61]; the item begins on p. 232. (7) Ageron et al. is read as
+an arXiv preprint (v2), and Heule as the arXiv v1 rather than the AAAI version;
+neither file is held.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

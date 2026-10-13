@@ -78,13 +78,12 @@ letters.
   and $g$": for $n=2,3,4,5,6$, $f(n)=1,2,5,7,8$ and $g(n)=1,2,5,8,12$ (see
   [[ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/table_i|table_i]]).
   On p. 195: for $n\le4$ the values are trivial; $f(5)$ and $g(5)$ are
-  read off Clancy's work [6], the $(5,8)$ graph $K_5-P_3$ being $3$-good ($g(5)=8$)
-  and the $(5,8)$ graph $K_5-2K_2$ not ($f(5)=7$); for $n=6$ the paper draws
-  on the determination of all $r(K_3,G)$ for connected $G$ of order six by
-  three of the authors [8]: the $(6,12)$ graph $K_6-P_4$ is $3$-good
-  ($g(6)=12$, and every connected $(6,q)$ graph with $q\le8$ embeds in
-  it, so $f(6)\ge8$), while the $(6,9)$ graph $K_6-2K_3$ is not
-  $3$-good, so $f(6)=8$.
+  read off Clancy's work [6], the $(5,8)$ graph $K_5-P_3$ being $3$-good
+  ($g(5)=8$) and the $(5,8)$ graph $K_5-2K_2$ not ($f(5)=7$); for $n=6$ the
+  paper draws on the determination of all $r(K_3,G)$ for connected $G$ of order
+  six by three of the authors [8]: the $(6,12)$ graph $K_6-P_4$ is $3$-good
+  ($g(6)=12$, and every connected $(6,q)$ graph with $q\le8$ embeds in it, so
+  $f(6)\ge8$), while the $(6,9)$ graph $K_6-2K_3$ is not $3$-good, so $f(6)=8$.
 - Section 3, "Asymptotic Bounds" (pp. 195--200), lemmas (pp. 195--197).
   Lemma 1.1: if $x_0$ has degree $d$ in $G$, $H=G-x_0$,
   $p\ge(d+1)(n-1)+1$ and $K_p\to(K_3,H)$, then $K_p\to(K_3,G)$.

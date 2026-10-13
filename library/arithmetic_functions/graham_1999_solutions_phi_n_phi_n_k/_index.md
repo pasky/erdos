@@ -35,7 +35,7 @@ those locator systems is inferred. The manuscript was retrieved from
 `2026-09-07T12:49:14.599601Z`--`2026-09-07T12:49:15.139899Z`. Carl Pomerance's
 official publication page separately links a file named `ghp.pdf`; the two URL
 responses have not been shown to be byte-identical. That manuscript comes from
-the author's page (https://math.dartmouth.edu/~carlp/), which
+the author's page (https://math.dartmouth.edu/~carlp/, read 2026-10-02), which
 states no terms for the papers it links, and the manuscript prints no notice;
 the term is unstated.
 

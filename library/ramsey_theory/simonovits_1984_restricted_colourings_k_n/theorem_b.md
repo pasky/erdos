@@ -87,8 +87,8 @@ $P_{2t+3+\varepsilon}$. The count on p. 106 produces that $K_{t,t+2}$ when
 $n>c\cdot t^2$. The proof is restricted to $t\ge5$; the paper says the case
 $t\le4$ "can be proved by similar arguments but need to distinguish more
 cases" (p. 104), and gives no such proof. The proof was not checked here.
-Remark 2 (p. 103) derives the upper bounds (6) $f(n,P_{2t+3})\le(t+\tfrac12)n$ and
-(7) $f(n,P_{2t+4})\le(t+1)n$ from Erdős–Gallai by choosing one edge of each
+Remark 2 (p. 103) derives the upper bounds (6) $f(n,P_{2t+3})\le(t+\tfrac12)n$
+and (7) $f(n,P_{2t+4})\le(t+1)n$ from Erdős–Gallai by choosing one edge of each
 color.
 
 ## Dependencies

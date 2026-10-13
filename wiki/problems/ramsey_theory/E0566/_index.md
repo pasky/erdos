@@ -211,9 +211,9 @@ Problem 79, answered by [Wi24].
 From [BGS24]: Ramsey size linearity holds for each subdivision of $K_4$
 having six or more vertices
 ([[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]],
-refereed, SIAM J. Discrete Math. 2024). The same paper conjectures that a connected $H$ with
-$e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves the case
-$k=3$ (its Theorem 2), an adjacent question.
+refereed, SIAM J. Discrete Math. 2024). The same paper conjectures that a
+connected $H$ with $e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves
+the case $k=3$ (its Theorem 2), an adjacent question.
 
 **Adjacent results that are not the problem.** [Wi24] proves that there
 are infinitely many graphs that are not Ramsey size linear although every

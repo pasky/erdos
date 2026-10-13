@@ -54,8 +54,9 @@ definition of strongly sum-free sets and the attributions to Choi
 p. 172 definition of $f(n)$ with the half-open intervals $[2n,4n)$ and
 $[n,2n)$, the greedy $f(n)\ge\sqrt n$ and the report of Choi's $O(n^{3/4})$
 and conjecture $O(n^{1/2+\varepsilon})$, Theorem 2 (p. 173), Corollary 3 (p.
-174) and Theorem 4 (p. 174), each read clause by clause in the text layer; the proofs of Theorem 2 and Corollary 3 were read for their
-structure and not checked. The statements are on
+174) and Theorem 4 (p. 174), each read clause by clause in the text layer; the
+proofs of Theorem 2 and Corollary 3 were read for their structure and not
+checked. The statements are on
 [[additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/theorem_2|theorem_2]]
 and
 [[additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/corollary_3|corollary_3]].

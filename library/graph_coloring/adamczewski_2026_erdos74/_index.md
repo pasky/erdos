@@ -207,9 +207,9 @@ that all related literature or alternative arguments have been covered.
 gives one divergent $f$ such that every graph with $h_G\le f$ is
 three-colorable, so no graph of infinite chromatic number satisfies that
 bound. The problem asks whether such a graph exists for every divergent
-$f$, so this one $f$ answers it in the negative. The PDF's other results are steps of that proof and bear
-on the problem only through it. It does not decide the case
-$f(n)=\sqrt n$.
+$f$, so this one $f$ answers it in the negative. The PDF's other results are
+steps of that proof and bear on the problem only through it. It does not decide
+the case $f(n)=\sqrt n$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

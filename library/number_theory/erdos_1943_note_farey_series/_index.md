@@ -34,7 +34,7 @@ pp. 82--85 are PDF pp. 1--4), with a text layer that garbles the formulas;
 every statement below was read on the rendered page images. Source:
 <https://users.renyi.hu/~p_erdos/1943-01.pdf>. No notice is printed on the four
 scanned pages; the publisher's article page
-(https://doi.org/10.1093/qmath/os-14.1.82) shows "© Oxford
+(https://doi.org/10.1093/qmath/os-14.1.82, read 2026-10-02) shows "© Oxford
 University Press" behind a paywall and names no open-access designation, every
 other right reserved.
 

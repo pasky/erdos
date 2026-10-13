@@ -84,8 +84,8 @@ a computer verification is finite evidence, not a proof of the conjecture.
 **Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: the paper
 reports that a distributed computation (September 2019 to May 2020) verified
 the conjecture for all starting values below $2^{68}$, which answers the
-question yes for each $m<2^{68}$ and says nothing about larger $m$; the same project's
-later bound $2^{71}$ is recorded in
+question yes for each $m<2^{68}$ and says nothing about larger $m$; the same
+project's later bound $2^{71}$ is recorded in
 [[number_theory/barina_2025_improved_verification_limit_convergence_collatz/_index|the author's 2025 paper]].
 Finite verification cannot settle the question for all $m$.
 

@@ -61,8 +61,9 @@ Read status: claims checked for the definition of property $S_k$ and of
 $f(k)$, the values $f(1)=3$ and $f(2)=7$ with the 7-town example, the guess
 $f(k)=2^{k+1}-1$, inequality (1) and inequalities (2) and (2.1) (printed
 p. 221, with the example on p. 220), and for the closing sentence on the
-existence of $f(k)$ (p. 223), each read clause by clause on the page images; the proofs of (1) (pp. 221--222) and (2) (pp. 222--223) were
-read for structure only. Paged at
+existence of $f(k)$ (p. 223), each read clause by clause on the page images; the
+proofs of (1) (pp. 221--222) and (2) (pp. 222--223) were read for structure
+only. Paged at
 [[extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_1|inequality_1]]
 and
 [[extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]].

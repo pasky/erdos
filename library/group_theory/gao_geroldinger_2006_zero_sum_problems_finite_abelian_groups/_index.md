@@ -71,7 +71,7 @@ The copy read for this card is a
 is available at
 <https://imsc.uni-graz.at/geroldinger/55-zero-sum-problems-survey.pdf>. The copy
 read is the author-typeset manuscript, which prints no notice on its 26 pages;
-the author's site that hosts it returned no readable content
+the author's site that hosts it returned no readable content on 2026-10-02
 (https://imsc.uni-graz.at/geroldinger/), and the Elsevier version of record is
 not the edition read, so its terms were not applied; the term is unstated.
 
@@ -110,7 +110,9 @@ $$
 d(G)=d^*(G)
 $$
 
-when $G$ is a $p$-group or has rank at most two. Conjecture 3.5 (PDF p. 5) proposes the same equality when $G=C_n^r$ with $n,r\ge3$, or when $G$ has rank three.
+when $G$ is a $p$-group or has rank at most two. Conjecture 3.5 (PDF p. 5)
+proposes the same equality when $G=C_n^r$ with $n,r\ge3$, or when $G$ has rank
+three.
 
 Conjecture 4.1 (PDF p. 6) proposes that every zero-sumfree sequence of maximum
 length $d(G)$ contains an element of order $\exp(G)$. For a cyclic group

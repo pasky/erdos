@@ -30,13 +30,13 @@ Erdős problems website, and presents Theorem 1 as an affirmative answer.
 The same page records Seymour's construction, communicated by Erdős
 ($m$ internally vertex-disjoint paths of length $4$ between two vertices, a
 graph on $3m+2$ vertices in which taking one internal vertex from each path
-gives $3^m$ minimal vertex cuts, so $\alpha\ge3^{1/3}>1.4422$), and a note added after publication: the author
-learned from Hans Raj Tiwary that the results were known earlier; Fomin,
-Kratsch, Todinca and Villanger "first proved that $\alpha<2$" with
-$\alpha\le1.7087$; and the best known bounds are
-$1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$, the upper bound due to
-Fomin and Villanger and the lower bound to Gaspers and Mackenzie, who also
-gave a simpler proof of the upper bound.
+gives $3^m$ minimal vertex cuts, so $\alpha\ge3^{1/3}>1.4422$), and a note added
+after publication: the author learned from Hans Raj Tiwary that the results were
+known earlier; Fomin, Kratsch, Todinca and Villanger "first proved that
+$\alpha<2$" with $\alpha\le1.7087$; and the best known bounds are
+$1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$, the upper bound due to Fomin
+and Villanger and the lower bound to Gaspers and Mackenzie, who also gave a
+simpler proof of the upper bound.
 
 **Source.** D. Bradač, *On a question of Erdős and Nešetřil about minimal
 cuts in a graph*, J. Graph Theory 108 (2025), no. 4, 817--818, DOI

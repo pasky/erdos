@@ -54,9 +54,9 @@ The [[../library/irrationality/kaneko_2026_refinements_erdos_s_irrationality_cri
 records the canonical statements of Theorems 1–3 and Corollaries 2–3. These
 extractions have author standing, not independent acceptance.
 
-Both full PDFs were obtained and their bytes checked. The Bell--Smertnig copy read is arXiv:2603.23456v1 (687642 bytes),
-which the library does not hold. The Kaneko--Suzuki--Tachiya copy read
-(571434 bytes) is the edition the
+Both full PDFs were obtained and their bytes checked. The Bell--Smertnig copy
+read is arXiv:2603.23456v1 (687642 bytes), which the library does not hold. The
+Kaneko--Suzuki--Tachiya copy read (571434 bytes) is the edition the
 [[../library/irrationality/kaneko_2026_refinements_erdos_s_irrationality_criterion_certain/_index|library card]]
 names; the library does not hold its file.
 

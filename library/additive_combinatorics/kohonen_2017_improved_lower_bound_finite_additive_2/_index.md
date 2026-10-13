@@ -88,8 +88,9 @@ not mention the problem.
 
 **Results.**
 
-- Equation (1) (main result, p. 1; result page written): liminf_{k->infinity} n(k)/k^2 >= 85/294 > 0.2891,
-  where n(k) is the maximal range of an additive 2-basis of size k.
+- Equation (1) (main result, p. 1; result page written): liminf_{k->infinity}
+  n(k)/k^2 >= 85/294 > 0.2891, where n(k) is the maximal range of an additive
+  2-basis of size k.
 - Generalized Mrose basis (equation (2), p. 2; stated on the Theorem 1
   page): For segment length t and placements
   I, J, K with |I|+|J|+|K| = l, the set A = (V + t^2 I) union (H + t^2 J) union

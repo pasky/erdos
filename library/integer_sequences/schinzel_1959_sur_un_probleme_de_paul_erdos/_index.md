@@ -37,14 +37,15 @@ The paper is Acta Scientiarum Mathematicarum (Szeged) 20 (1959), 221--229
 (the Szeged repository record at the source URL, read 2026-09-18; the paper
 is dated "Reçu le 17 janvier 1959" on p. 229). The repository's PDF is a
 9-page scan of printed pp. 221--229, PDF p. $n$ being printed p. $220+n$,
-with a thin text layer; every statement below was read on the page images. Read status: claims checked for condition
-(1), Theorems 1, 2 and 3, the $\{3,4,5,7,11\}$ example and the construction
-with its conclusion $|B_n|=o(n)$ on pp. 228--229, each read clause by
-clause; Lemmas 1 and 2 and the proof of Theorem 3 were read for their
-structure, and the finite verification behind Lemma 2 was not rerun. No
-notice is printed on pp. 221--222 or 228--229 of the scan, and the repository's
-record for the item states no rights, license, copyright or terms
-(https://acta.bibl.u-szeged.hu/13886/, read 2026-10-02); the term is unstated.
+with a thin text layer; every statement below was read on the page images. Read
+status: claims checked for condition (1), Theorems 1, 2 and 3, the
+$\{3,4,5,7,11\}$ example and the construction with its conclusion $|B_n|=o(n)$
+on pp. 228--229, each read clause by clause; Lemmas 1 and 2 and the proof of
+Theorem 3 were read for their structure, and the finite verification behind
+Lemma 2 was not rerun. No notice is printed on pp. 221--222 or 228--229 of the
+scan, and the repository's record for the item states no rights, license,
+copyright or terms (https://acta.bibl.u-szeged.hu/13886/, read 2026-10-02); the
+term is unstated.
 
 The paper concerns sequences of naturals a_1 < a_2 < ... < a_r <= n in which
 every pairwise least common multiple [a_i, a_j] exceeds n; Erdos had proved sum
@@ -108,9 +109,9 @@ count o(n), and prints no rate).
   sum_{q/(j+1) < p <= q/j} 1/p >= 1 for every natural q, the inner sum running
   over all integers p in the range, then every admissible sequence obeys
   sum 1/a_i <= S_n.
-- Example {3,4,5,7,11} (pp. 221-222): The sequence 3, 4, 5, 7, 11 satisfies the pairwise-lcm
-  condition and has sum 1/a_i = 1.017099..., the only example besides {2,3,5}
-  with reciprocal sum exceeding 1 known to the authors.
+- Example {3,4,5,7,11} (pp. 221-222): The sequence 3, 4, 5, 7, 11 satisfies the
+  pairwise-lcm condition and has sum 1/a_i = 1.017099..., the only example
+  besides {2,3,5} with reciprocal sum exceeding 1 known to the authors.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

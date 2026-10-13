@@ -52,10 +52,10 @@ read clause by clause on the page images of printed pp. 82--83 (PDF pp. 3--4)
 for Problems 865 and 866; Sections II, V--VII record an earlier reading that was
 not repeated. No notice is printed on pp. 80--81 or 85--86 of the scan; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All
-material on this site is for scientifics purposes only."); the university-issued
-proceedings have no publisher page, so none was consulted, and no Crossref
-license is recorded; the term is unstated.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
+reserved. All material on this site is for scientifics purposes only."); the
+university-issued proceedings have no publisher page, so none was consulted, and
+no Crossref license is recorded; the term is unstated.
 
 Source: <https://users.renyi.hu/~p_erdos/1972-05.pdf>.
 

@@ -126,17 +126,17 @@ sublinear expander, and absorption.
 [[extremal_graph_theory/chakraborti_2024_edge_disjoint_cycles_same_vertex_set/lemma_3|Lemma 3]]
 (p. 4; proved in §4, pp. 11–13, via Lemma 16, p. 11) finds a nearly regular
 subgraph containing a prescribed random vertex subset, allowing the proof to
-retain access to the original graph's expansion. Definition 5 and equation (1) (p. 8) and Lemma 8 (p. 9; proved in
-§7.1, pp. 21–23, via Lemmas 23 and 26, pp. 21–22, with Lemma 23 proved in
-§§7.2–7.6, pp. 23–30) give the expansion and connecting-set tools. Lemmas
-10–11 (p. 10) construct short absorbers; Lemma 13 (p. 11) supplies the robustly
-matchable auxiliary graph. Lemmas 17–20 (pp. 13–15) control the random vertex
-sets and nearly perfect matchings used to build linear forests. Section 6.4
-(pp. 19–20) connects those forests and absorbs unused reservoir vertices to
-give the cycles exactly the same vertex set. Lemma 30 (§7.3, p. 25), an edge
-decomposition of an expander into weaker expanders, is the main new ingredient
-of the proof of Lemma 23. Section 8 (p. 30) states further regularization
-variants in Lemmas 36–37, without proofs there.
+retain access to the original graph's expansion. Definition 5 and equation (1)
+(p. 8) and Lemma 8 (p. 9; proved in §7.1, pp. 21–23, via Lemmas 23 and 26, pp.
+21–22, with Lemma 23 proved in §§7.2–7.6, pp. 23–30) give the expansion and
+connecting-set tools. Lemmas 10–11 (p. 10) construct short absorbers; Lemma 13
+(p. 11) supplies the robustly matchable auxiliary graph. Lemmas 17–20 (pp.
+13–15) control the random vertex sets and nearly perfect matchings used to build
+linear forests. Section 6.4 (pp. 19–20) connects those forests and absorbs
+unused reservoir vertices to give the cycles exactly the same vertex set. Lemma
+30 (§7.3, p. 25), an edge decomposition of an expander into weaker expanders, is
+the main new ingredient of the proof of Lemma 23. Section 8 (p. 30) states
+further regularization variants in Lemmas 36–37, without proofs there.
 
 ## Relation to E642
 

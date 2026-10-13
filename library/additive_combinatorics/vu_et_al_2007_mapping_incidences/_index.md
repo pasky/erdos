@@ -62,8 +62,8 @@ text's section headings and numbered statements (Sections 1--8, Theorems 2.1,
 printed page numbers, all checked on the printed pages: Section 1 runs pp.
 1--3, Section 2 pp. 3--4, Section 3 pp. 4--5, Section 4 pp. 5--8, Section 5
 pp. 9--10, Section 6 pp. 10--11, Section 7 pp. 11--13, and Section 8 with the
-references pp. 13--15. The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:0711.4407), every other right reserved.
+references pp. 13--15. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:0711.4407), every other right reserved.
 
 The text was read in full. Read status: claims checked for the results
 below; the proofs were read for their mechanism but were not independently
@@ -87,10 +87,10 @@ does not bound the least usable prime in terms of $S$ and $L$ (the discussion
 after Theorem 1.1 on p. 2, and Remark 7.2 on p. 11).
 
 The proof first specializes to an algebraic-number ring without killing $L$
-(Lemma 7.1, p. 11), then uses the Frobenius Density Theorem (Theorem 6.1, p. 10) to choose a
-positive-density set of primes for which the required defining polynomial
-splits; the final quotient construction is in the proof of Theorem 1.1 in
-Section 7.
+(Lemma 7.1, p. 11), then uses the Frobenius Density Theorem (Theorem 6.1, p. 10)
+to choose a positive-density set of primes for which the required defining
+polynomial splits; the final quotient construction is in the proof of Theorem
+1.1 in Section 7.
 
 This preserves any prescribed *finite* zero/nonzero pattern of
 integer-coefficient polynomial expressions in elements of $S$. True polynomial
@@ -110,10 +110,10 @@ particular, suitable choices of $L$ preserve:
   [[additive_combinatorics/vu_et_al_2007_mapping_incidences/theorem_5_1|Theorem 5.1]]).
 
 Theorem 2.3 applies this device to the finite-field incidence estimate of
-Theorem 2.1 (p. 3), which the paper quotes as Theorem 6.2 of Bourgain, Katz and Tao,
-valid for all $N\le q$ once later sum-product estimates replace theirs
-(Remark 2.2), obtaining the same $cN^{3/2-\delta}$ point-line incidence bound
-in every characteristic-zero integral domain. Its proof protects the differences
+Theorem 2.1 (p. 3), which the paper quotes as Theorem 6.2 of Bourgain, Katz and
+Tao, valid for all $N\le q$ once later sum-product estimates replace theirs
+(Remark 2.2), obtaining the same $cN^{3/2-\delta}$ point-line incidence bound in
+every characteristic-zero integral domain. Its proof protects the differences
 needed to keep the point and line parameter sets distinct, while the equation
 $y=mx+b$ passes through the homomorphism.
 

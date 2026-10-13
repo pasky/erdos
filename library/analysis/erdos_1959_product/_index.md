@@ -55,11 +55,11 @@ the product of |1 - e^{2πitα}| over t <= n by (1+ε)^n unless α lies close to
 but not too close to, a rational with small denominator. They remark (p. 29)
 that a refinement of the method may give f(n) < exp(n^{1-c}) for some c < 1,
 without proving it, and they say the determination of f(n) seems to be a very
-difficult question. They also remark that the limit of M(1,2,...,n)^{1/n} exists and lies
-between 1 and 2, and they outline why, for almost all α (Lebesgue-almost all),
-the product of the distances |1 - e^{2πikα}| over k <= n has lower limit 0. This
-is the source of problem 256, which asks for the true growth rate of the
-minimal maximum modulus f(n).
+difficult question. They also remark that the limit of M(1,2,...,n)^{1/n} exists
+and lies between 1 and 2, and they outline why, for almost all α
+(Lebesgue-almost all), the product of the distances |1 - e^{2πikα}| over k <= n
+has lower limit 0. This is the source of problem 256, which asks for the true
+growth rate of the minimal maximum modulus f(n).
 
 Source: <https://users.renyi.hu/~p_erdos/1959-17.pdf>. The file is an offprint
 ("Extrait des Publications de l'Institut Mathématique T. XIII, Beograd 1959")

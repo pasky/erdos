@@ -70,8 +70,9 @@ the conjecture for almost all families of trees. The paper proves the
 degree-restricted case only; its concluding remarks (Section 15, pp. 147--149)
 name trees with vertices of large degree as the case it leaves. Section 1.2
 (p. 6) remarks that the maximum degree condition of Theorem 8 is optimal
-for quasirandom hosts: by an example of Komlós, Sárközy and Szemerédi, G(n,p) asymptotically almost surely contains no copy of a
-certain tree of maximum degree about Cn/log n.
+for quasirandom hosts: by an example of Komlós, Sárközy and Szemerédi, G(n,p)
+asymptotically almost surely contains no copy of a certain tree of maximum
+degree about Cn/log n.
 
 Read status: claims checked for Conjecture 2 (p. 3), Definition 4 (p. 4),
 Theorems 5--8 with the sentences joining them (p. 5), and Definition 9 and

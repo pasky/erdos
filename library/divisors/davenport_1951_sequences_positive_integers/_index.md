@@ -94,10 +94,10 @@ reliance on a union of sets of multiples.
 
 Source: <https://users.renyi.hu/~p_erdos/1951-07.pdf>. No notice is printed in
 the copy read (pp. 1--2 and 5--6 read); the hosting archive's site footer
-(https://users.renyi.hu/~p_erdos/), "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02), "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only.", speaks
 for the site, not the paper; the paper has no DOI and so no Crossref record, and
-the journal's site (informaticsjournals.co.in) could not be read;
+the journal's site (informaticsjournals.co.in) could not be read on 2026-10-02;
 the term is unstated.
 
 **Bears on.**

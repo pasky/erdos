@@ -36,9 +36,10 @@ record (https://arxiv.org/abs/2301.07758, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.
 
 Read status: claims checked for Conjectures 1.1--1.3 and Theorem 1.4 with
-the remark after it (pp. 2--3), read clause by clause on the page images; the proof of Theorem 1.4 (Section 2, pp. 3--6) was read for
-structure only, and of Section 3 only the statement of Claim 3.1 (p. 6) was
-read, on the page image. Paged at
+the remark after it (pp. 2--3), read clause by clause on the page images; the
+proof of Theorem 1.4 (Section 2, pp. 3--6) was read for structure only, and of
+Section 3 only the statement of Claim 3.1 (p. 6) was read, on the page image.
+Paged at
 [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/conjecture_1_1|conjecture_1_1]]
 and
 [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/theorem_1_4|theorem_1_4]].
