@@ -6,7 +6,9 @@ desc: |
   a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
   $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
   the manuscript derives from a transference theorem for weighted dilation
-  graphs, a Type II estimate and a sieve; bears on Problem 821 and, as background, Problem 1057.
+  graphs, a Type II estimate and a sieve; bears on Problem 821, on Problem 824
+  through a draft that reruns it with a change of sign, and, as background, on
+  Problem 1057.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
 updated: 2026-10-08T01:50:13Z
@@ -252,6 +254,15 @@ uses the printed statement labels.
   every $\varepsilon>0$ and with the same $g(n)$; the claim rests on Theorem
   1.2 and is unverified here, and the page's open status rests on acceptance
   evidence, not on this card.
+- [[../wiki/problems/arithmetic_functions/E0824/_index|Problem 824]]: claimed
+  input after a change of sign. Li and Zhuang's draft of 11 October 2026
+  (Theorem 1.4) says the argument for Theorem 1.2, rerun for primes $2u-1$ in
+  place of $2u+1$ (Sections 2--5 as stated, Sections 6--7 with the sign
+  changed), gives $x^{1-o(1)}$ primes $p\in(2x-2,5x]$ with
+  $P^+(p+1)\le x^\delta$ for every fixed $0<\delta<1/4$, the hypothesis from
+  which they derive $h(x)>x^{2-\varepsilon}$. Theorem 1.2 as stated concerns
+  $p-1$ and does not imply that hypothesis; the transfer is unverified here,
+  and the page's open status is untouched.
 - [[../wiki/problems/integer_sequences/E1057/_index|Problem 1057]]: background only.
   The manuscript names the Alford--Granville--Pomerance construction as an
   application of smooth shifted primes (p. 2) and claims nothing about

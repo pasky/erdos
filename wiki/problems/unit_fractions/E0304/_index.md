@@ -18,7 +18,7 @@ updated: 2026-10-08T01:29:59Z
 
 [[problems/unit_fractions/_index|..]]
 
-[[problems/unit_fractions/E0304/claims/_index|claims/]]: The 5 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
+[[problems/unit_fractions/E0304/claims/_index|claims/]]: The 6 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -47,7 +47,12 @@ Erdős's lower bound of 1950, $N(b)\asymp\log\log b$. The claim is accepted on
 `formalized` evidence alone, namely the Lean declarations that the corpus's
 verification built and audited,
 as [[problems/unit_fractions/E0304/claims/2026_09_25_openai|its claim page]]
-records. It has no outside review and no refereed publication.
+records. It has no outside review and no refereed publication. A second full
+claim,
+[[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|van Doorn's write-up of 9 October 2026]],
+gives the explicit bound $N(b)\le(16/\log2+o(1))\log\log b$ by a simplified
+form of the argument in Section 8 of the release's manuscript. It is pending
+and does not change the standing.
 
 The earlier bounds have accepted partial claim pages on their refereed papers.
 [[problems/unit_fractions/E0304/claims/1950_01_01_erdos|Erdős's 1950 bounds]]
@@ -134,7 +139,7 @@ many fewer than $n$ divisors are required when $n$ is large, perhaps even
 only $(\log n)^c$, which would then imply $N(b)<c'\log\log b$"; and, on
 p. 38, that $n(b)=\frac1b\sum_{a=1}^bN(a,b)$ satisfies $n(b)>c\log\log b$.
 
-**Claims.** Five claim pages. The first,
+**Claims.** Six claim pages. The first,
 [[problems/unit_fractions/E0304/claims/2026_09_25_openai|the OpenAI release's Theorem 1.1 (25 September 2026)]],
 status accepted, scope full, claim proved: $c_1\log\log b\le N(b)\le
 c_2\log\log b$ for all $b\ge b_0$, with the constants not made explicit. The
@@ -161,7 +166,14 @@ $b\ge3$, published by the GitHub account thepriceisright and annotated since
 18 September 2026 as the `formal_proof` of the formal-conjectures lower-bound
 variant; the file names no informal author, so it is an independent proof
 with its own page, and it is not built here. None of the partial claims
-changes the standing.
+changes the standing. The sixth,
+[[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|van Doorn's write-up *Short Egyptian fractions* (9 October 2026)]],
+status claimed, scope full, claim proved:
+$N(b)\le(16/\log2+o(1))\log\log b$. The write-up simplifies the
+prescribed-denominator argument of the release's Section 8, which rests on
+Vinogradov's three-prime theorem, and applies it to $a/b$ directly. Its
+announcement says it was made with the help of ChatGPT. It is unrefereed
+and pending, and it does not change the standing.
 
 **Origin.** Erdős's 1950 paper (in Hungarian):
 [[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/theorem_1|Theorem 1]]
@@ -279,7 +291,10 @@ recorded from its zbMATH review and the restatements cited; the paper is not
 held. The status-defining proof is the release's Lean development, built and
 audited here as the claim page records; its prose proof is not independently
 reviewed, and no proof is compiled on this page. The Lean proof of the lower
-bound by Harmonic's Aristotle prover is not built here.
+bound by Harmonic's Aristotle prover is not built here. Van Doorn's six-page
+proof of the explicit bound was read step by step for its claim page, which
+records what that reading took as given; it is the corpus's own reading and
+not a review.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

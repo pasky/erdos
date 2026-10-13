@@ -5,19 +5,23 @@ desc: |
   Asks for the most edges an $r$-graph on $n$ vertices can have with no $k$
   vertices spanning $s$ edges, the Brown–Erdős–Sós problem. The associated
   conjecture is proved for $s=3$ and, in its linear form, for large uniformity,
-  but open for $3$-graphs with $k=s+3$ and $s\ge4$.
+  but open for $3$-graphs with $k=s+3$ and $s\ge4$. A 2026 preprint claims the
+  asymptotics whenever $(rs-k)/(s-1)$ is an integer $t$ with $2\le t<r$, except
+  for $3$-graphs with even $s$.
 tags:
 - Hypergraphs
 - Turán numbers
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # Problem 1157
 
 [[problems/extremal_graph_theory/_index|..]]
+
+[[problems/extremal_graph_theory/E1157/claims/_index|claims/]]: The 1 claim page of Problem 1157, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -58,7 +62,17 @@ The cited sources prove the following. The Theorem of Section 4 of [BES73]
 gives the general lower bound
 $\mathrm{ex}_r(n,\mathcal F)>c_{k,s}n^{(rs-k)/(s-1)}$ for $k>r$ and $s>1$. The
 authors remark, without proof, that it is sharp in the exponent when $s-1$
-divides $rs-k$. The Brown--Erdős--Sós conjecture states that
+divides $rs-k$. When the quotient is an integer $t$ with $2\le t<r$, that is
+$k=(r-t)s+t$, the order is $n^t$: the lower bound above has exponent $t$, and
+$s$ edges through one $t$-set span at most $k$ vertices, so
+$\mathrm{ex}_r(n,\mathcal F)\le(s-1)\binom nt/\binom rt$ (an observation made
+here). The 2026 preprint [CHL26] claims the leading constant:
+$\mathrm{ex}_r(n,\mathcal F)=(\pi+o(1))n^t$ with $\pi=2/(t!(2\binom rt-1))$ for
+odd $s$ and $\pi=1/(t!\binom rt)$ for even $s$ and $r\ge4$, and $\pi>1/6$ for
+$3$-graphs with even $s\ge4$
+([[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu 2026]]).
+It is unrefereed, and as a partial result it leaves the problem open. The
+Brown--Erdős--Sós conjecture states that
 $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ once $k\ge(r-t)s+t+1$. It is proved for
 $s=3$ and every $r>t\ge2$, with a matching $n^{t-o(1)}$ lower bound (Theorem 1
 of [AlSh06],
@@ -149,7 +163,18 @@ https://www.erdosproblems.com/1157, accessed 2026-09-18.
   recorded below. [SaTy25] Santos, G. and Tyomkyn, M., The Brown--Erdős--Sós
   conjecture in dense triple systems. arXiv:2508.09841 (13 August 2025); a
   lead, cited from its abstract. The $(k+2,k)$-problem papers named below
-  are cited from their arXiv abstracts.
+  are cited from their arXiv abstracts, except [BPSWZ26].
+- [CHL26] Chao, T.-W., Huang, X. and Liu, H., Asymptotics of the
+  Brown--Erdős--Sós problem at integer exponents. arXiv:2609.38115v1 (29
+  September 2026, 22 pages); Theorems 1.1 and 1.2, p. 2; Theorems 2.3, 2.4
+  and 2.6, pp. 5--7; Lemma 3.4, p. 12; Section 5, p. 20. A preprint, not
+  cited by the site and not held in the library; its claim page is
+  [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|2026_09_29_chao_huang_liu]].
+- [BPSWZ26] Bodnár, L., Pikhurko, O., Sun, S., Wang, Y. and Zeng, J., The
+  quadratic Brown--Erdős--Sós problem for 3-uniform hypergraphs with 8 and 9
+  edges. arXiv:2610.03323v1 (2 October 2026, 16 pages); Theorem 1.1, p. 2;
+  Theorem 1.2, p. 3. A preprint, not cited by the site and not held; read for
+  its statements and its lower-bound construction (pp. 1--7).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1157.lean),
@@ -183,11 +208,20 @@ proof-claim tab are empty. The cross-referenced pages are
 [[problems/set_systems/E1178/_index|Problem 1178]], [[problems/set_systems/E0716/_index|Problem 716]]
 and [[problems/set_systems/E1076/_index|Problem 1076]], whose accounts are their
 own. The question is read as the general determination of
-$\mathrm{ex}_r(n,\mathcal F)$ for all $r$, $k$ and $s$; values for
-particular parameters, such as the limits for 3-graphs at $k=s+2$ recorded
-below or the graph values in Sections 2--3 of [BES73], are progress on the
-family and not partial claims here, and Problems 716 and 1076 carry the
-ones they ask for as claims.
+$\mathrm{ex}_r(n,\mathcal F)$ for all $r$, $k$ and $s$. A theorem that
+determines it, exactly or to first order, on a range of the parameters
+answers part of that question and is a partial claim here, as
+[[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's integer-exponent asymptotics]]
+are. Problems 716 and 1076 carry as claims the earlier results on the cases
+the site routes to them, such as the refereed limits for 3-graphs at $k=s+2$
+recorded below. The 2026 preprints on that case, the 3-graph part of [CHL26]
+and [BPSWZ26], are recorded on Problem 1076 as
+[[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's]]
+and
+[[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár, Pikhurko, Sun, Wang and Zeng's]]
+claim pages, rejected there because they answer the site's wording. The other
+earlier determinations for particular parameters, such as the graph values in
+Sections 2--3 of [BES73], have no claim pages here (Remaining gaps).
 
 **The general lower bound.**
 [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|The Theorem of Section 4 of [BES73]]]
@@ -271,8 +305,33 @@ $n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$.
   with $2k-t$ edges; a route, not a bound. Refereed (Israel J. Math. 267
   (2025)); cited from the arXiv v1.
 
-**The quadratic regime (leads, from arXiv abstracts).** For $r=3$ and
-$k=s+2$, where [BES73] gives $\Theta(n^2)$, the question becomes the value
+**The integer-exponent threshold.** When $k=(r-t)s+t$ for an integer
+$2\le t<r$, one vertex below the conjecture's range, the order of
+$\mathrm{ex}_r(n,\mathcal F)$ is $n^t$ (Status above), and the question becomes
+the limit $\pi(r,t,s)=\lim_{n\to\infty}n^{-t}\mathrm{ex}_r(n,\mathcal F)$.
+[[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Theorem 1.1 of [CHL26]]]
+(p. 2) states that for all $r>t\ge2$ and $s\ge2$ the limit equals
+$2/(t!(2\binom rt-1))$ for odd $s$, and $1/(t!\binom rt)$ for even $s$ when
+$r\ge4$. It does not cover $3$-graphs with even $s$, where the limit exists by
+Delcourt and Postle's theorem and $\pi(3,2,2)=1/6$ is Rödl's packing value;
+with that theorem it gives the existence of the limit for all $r>t\ge2$ and
+$s\ge2$ (p. 2). Theorem 1.2 (p. 2) gives $\pi(3,2,s)>1/6$ for every even
+$s\ge4$, and Section 5 (p. 20) adds $\pi(3,2,s)\le1/5$. The paper's
+$f^{(r)}(n;s,k)$ has $s$ vertices and $k$ edges, the site's $k$ and $s$. The
+even-$s$ value is the packing coefficient of a high-girth partial Steiner
+system. The odd-$s$ value is larger and comes from packing pairs of edges that
+meet in $t$ vertices, with their extra $t$-sets shared among many pairs. The
+paper cites as earlier values Rödl's case $s=2$ and Glock, Joos, Kim, Kühn,
+Lichev and Pikhurko's cases $s\in\{3,4\}$ for every $r>t\ge2$, and for
+3-graphs the cases $2\le s\le7$; at $r=3$ its odd value $1/5$ agrees with the
+limits at $s=3$, $5$ and $7$ below. Acceptance evidence: none, an unrefereed
+preprint (v1 of 29 September 2026, the only version). Read depth: the
+statements checked, the proof of Theorem 2.3 and the closing count of Theorem
+2.4 checked, and the rest read through or for structure, as the claim page
+states.
+
+**The quadratic regime (leads).** For $r=3$ and $k=s+2$, where [BES73] gives
+$\Theta(n^2)$, the question becomes the value
 of $\lim f^{(3)}(n;s+2,s)/n^2$, whose existence Brown, Erdős and Sós
 conjectured: Delcourt and Postle (arXiv:2210.01105) proved the limit exists
 for all $s\ge2$, and Shangguan (arXiv:2210.11338, SIAM J. Discrete Math. 37
@@ -280,14 +339,20 @@ for all $s\ge2$, and Shangguan (arXiv:2210.11338, SIAM J. Discrete Math. 37
 3-graphs the limit is known for $2\le s\le7$: $s=4$ is $7/36$ (Glock, Joos,
 Kim, Kühn, Lichev and Pikhurko, arXiv:2209.14177,
 $f^{(3)}(n;6,4)=(\frac7{36}+o(1))n^2$), and $s=5$, $6$ and $7$ are due to
-Glock, Kim, Lichev, Pikhurko and Sun (arXiv:2403.04474). For $s=8$,
-Pikhurko and Sun (arXiv:2506.01739) determine the limit for every uniformity
-at least 4 and give for 3-graphs only a lower bound they conjecture to be
-sharp. Letzter and Sgueglia (arXiv:2312.03856) and Wang and Zeng
-(arXiv:2603.19345) treat even $s$ at large uniformity (abstracts). This
-regime is [[problems/set_systems/E1076/_index|Problem 1076]]'s and is recorded
-here from the papers' abstracts. [SaTy25] proves the $(k+3,k)$ statement for linear
-triple systems of linear density above $4/5$ (abstract).
+Glock, Kim, Lichev, Pikhurko and Sun (arXiv:2403.04474). [CHL26] claims the
+limit $1/5$ for every odd $s$ (above), and Theorem 1.1 of [BPSWZ26] (p. 2)
+claims the value $1/5$ at $s=9$ independently, by a finite-field construction
+for the lower bound and computer-solved linear programs for the upper bound.
+For $s=8$, Pikhurko and Sun (arXiv:2506.01739) determine the limit for every
+uniformity at least 4 and give for 3-graphs only the lower bound $3/16$, which
+they conjecture to be sharp; Theorem 1.2 of [BPSWZ26] (p. 3) gives the upper
+bound $5053/26544=0.19036\ldots$, below the bound $1/5$ of [CHL26]. Letzter
+and Sgueglia (arXiv:2312.03856) and Wang and Zeng (arXiv:2603.19345) treat even
+$s$ at large uniformity (abstracts). This regime is
+[[problems/set_systems/E1076/_index|Problem 1076]]'s and is recorded here from
+the papers' abstracts, except [CHL26] and [BPSWZ26], read in the preprints.
+[SaTy25] proves the $(k+3,k)$ statement for linear triple systems of linear
+density above $4/5$ (abstract).
 
 **Erdős's statements.** [Er74c], pp. 80--81, announces the two forthcoming
 papers with Brown and Sós as the beginning of an organized treatment of extremal
@@ -314,12 +379,18 @@ determination of $\mathrm{ex}_r(n,\mathcal F)$ in general, a proof of the
 conjecture for any $s\ge4$ at small uniformity, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab, as accessed
-  2026-09-18; the formal-conjectures tree and the community database on
-  2026-09-18 and 2026-10-07 (the Formalization paragraph records what each
-  held on each date).
+  2026-09-18 and again on 2026-10-13 (the page last edited 24 January 2026,
+  no comment, no proof claim); the formal-conjectures tree and the community
+  database on 2026-09-18 and 2026-10-07 (the Formalization paragraph records
+  what each held on each date).
 - The primary sources, at the pages cited: [BES73] pp. 53--55 and 59, [Va99]
   item 3.64, [Er74c] pp. 80--81, [AlSh06] pp. 1--2, [KeLo20] pp. 1--2,
-  [ShTy23] pp. 1--3, [JMMS25] pp. 1--3, [GiSo26] pp. 1--2.
+  [ShTy23] pp. 1--3, [JMMS25] pp. 1--3, [GiSo26] pp. 1--2, [CHL26] Sections
+  1--3 and 5 (pp. 1--20), [BPSWZ26] pp. 1--7.
+- arXiv: an all-fields advanced search for "Erdős", "Erdos" and "Erdös" over
+  submissions from 2026-09-25 to 2026-10-13, which found [CHL26] and
+  [BPSWZ26], and their abstract pages, accessed 2026-10-13 (one version
+  each).
 - Crossref: the records of [JMMS25] (doi:10.19086/da.138191) and
   bibliographic queries for [AlSh06], [KeLo20], [ShTy23] and [BES73] (the
   last returned no record for the proceedings article).
@@ -336,18 +407,27 @@ conjecture for any $s\ge4$ at small uniformity, or a proof claim.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Cited second-hand:
 Ruzsa and Szemerédi 1978, Erdős, Frankl and Rödl 1986 and Sárközy and Selkow
 2005, from the introductions of [AlSh06], [KeLo20] and [JMMS25]; the
-$(k+2,k)$-problem papers, from their abstracts. [AlSh06], [KeLo20] and
-[ShTy23] are cited from the public preprints named in the References; their
-journal texts may differ.
+$(k+2,k)$-problem papers other than [CHL26] and [BPSWZ26], from their
+abstracts; the earlier values that [CHL26] cites, from its introduction.
+[AlSh06], [KeLo20] and [ShTy23] are cited from the public preprints named in
+the References; their journal texts may differ.
 
 **Remaining gaps.** (1) The Ruzsa--Szemerédi and Erdős--Frankl--Rödl
 theorems are cited second-hand from the introductions of [AlSh06] and
-[KeLo20]. (2) Proof coverage is statements only on every source; no proof
-is checked or reviewed. (3) [AlSh06], [KeLo20] and [ShTy23] are cited from
-the preprints; the journal texts may differ. (4) The quadratic regime and
-the dense-linear results are recorded from abstracts; the regime is Problem
-1076's. (5) The site's notation defect is recorded above and not resolved with the
-site.
+[KeLo20]. (2) Proof coverage is statements only on every source except
+[CHL26], of which two steps of the upper bound are checked; no proof is
+reviewed. (3) [AlSh06], [KeLo20] and [ShTy23] are cited from the preprints;
+the journal texts may differ. (4) The quadratic regime and
+the dense-linear results are recorded from abstracts, except [CHL26] and
+[BPSWZ26]; the regime is Problem 1076's. (5) The site's notation defect is
+recorded above and not resolved with the site. (6) The integer-exponent
+asymptotics rest on the unrefereed preprint [CHL26]. (7) The earlier
+determinations for particular parameters outside the cases routed to
+Problems 716 and 1076 have no claim pages here: the graph values of [BES73],
+the values at $s\le4$ for every $r>t\ge2$ that [CHL26] cites, Glock, Kim,
+Lichev, Pikhurko and Sun's limits at $s=5$ and $s=7$ and Pikhurko and Sun's
+at $s=8$ for every uniformity $r\ge4$, and the linear case $t=1$, which
+[CHL26] (p. 2) calls elementary and completely understood.
 
 ## Known results
 
@@ -370,6 +450,10 @@ site.
   [[../library/extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/conjecture_1_1|Conjecture 1.1]].
 - [Er74c] pp. 80--81 (1974): the program as Erdős stated it, displays
   (9)--(13).
+- [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao--Huang--Liu, Theorems 1.1 and 1.2]]
+  (2026 preprint, unrefereed): $\lim n^{-t}\mathrm{ex}_r(n,\mathcal F)$ at
+  $k=(r-t)s+t$ for every $r>t\ge2$ and $s\ge2$, except $3$-graphs with even
+  $s$, where for $s\ge4$ it shows that the limit lies in $(1/6,1/5]$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

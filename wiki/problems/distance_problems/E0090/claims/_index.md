@@ -1,10 +1,10 @@
 ---
 name: problems/distance_problems/E0090/claims
-desc: The 5 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # problems/distance_problems/E0090/claims
@@ -34,5 +34,10 @@ is claimed.
 [[problems/distance_problems/E0090/claims/2026_06_02_emmerich|2026_06_02_emmerich]]: Proposition 2 of Emmerich's report re-optimizes the parameters of Sawin's
 criterion, keeping Sawin's prime set, and states $u(n)>n^{1.0152}$ for
 arbitrarily large $n$. The result is claimed.
+
+[[problems/distance_problems/E0090/claims/2026_10_08_naslund|2026_10_08_naslund]]: Theorem 1.1 of Naslund's paper gives planar sets $U_j$ with
+$u(U_j)/|U_j|^{1.043171}\to\infty$ by a computer-assisted proof; a registered
+Lean development proves the exponent $1.04315$ from one unproved inequality
+for a Dedekind zeta function. The result is claimed.
 
 ***
