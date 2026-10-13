@@ -57,7 +57,7 @@ local unresolved questions do not remain gaps in the threshold proof.
 
 Plasma AI's write-up of the seven-cycle proof, held in the
 [research evidence](evidence/_index.md), also proves a lower bound at every
-edge density and a construction beating the longer-cycle formula at every
-interior density. Both are recorded among the [proof notes](proofs/_index.md)
+edge density above the Turán threshold and a construction beating the
+longer-cycle formula at every interior density. Both are recorded among the [proof notes](proofs/_index.md)
 as the write-up's results, not independently reviewed here. Its further
 questions are collected on the [open questions](open_questions.md) page.

@@ -44,8 +44,8 @@ for routes considered before the proof.
 
 Two further notes record results of Plasma AI's write-up above the threshold,
 neither independently reviewed here nor formalized: the
-[density lower bound](c7_density_lower_bound.md) for every edge density, which
-uses the threshold proof, and the
+[density lower bound](c7_density_lower_bound.md) for every edge density above
+the Turán threshold, which uses the threshold proof, and the
 [five-clique construction](c7_five_clique_construction.md), which shows that
 the Bucić–Chen–Ma coefficient fails for $C_7$ at every interior density. The
 write-up's further questions are on the

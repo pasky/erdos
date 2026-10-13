@@ -1,6 +1,6 @@
 ---
 name: research/erdos_809/proofs/c7_density_lower_bound
-title: "A lower bound for rainbow seven-cycles at every edge density"
+title: "A lower bound for rainbow seven-cycles at every edge density above the Turán threshold"
 desc: "Plasma AI's lower bound on the seven-cycle maximal anti-Ramsey function above the Turán threshold, from the finite inequality and cleaning; not independently reviewed."
 tags: [research, graph-theory, erdos-809]
 sources: []
@@ -8,7 +8,7 @@ created: 2026-10-13T02:29:30Z
 updated: 2026-10-13T02:29:30Z
 ---
 
-# A lower bound for rainbow seven-cycles at every edge density
+# A lower bound for rainbow seven-cycles at every edge density above the Turán threshold
 
 ***
 
@@ -18,8 +18,8 @@ maximal anti-Ramsey conjecture*, held as
 with its TeX source in the [research evidence](../evidence/_index.md). It is
 restated and proved here from the notes of this folder. The result is the
 paper's, credited to Plasma AI. It has not been independently reviewed here and
-is not formalized: the Lean development covers only the threshold theorem. It
-carries no tier.
+is not formalized: for $C_7$ the Lean development covers only the threshold
+theorem. It carries no tier.
 
 ## Statement
 

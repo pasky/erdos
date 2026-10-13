@@ -46,9 +46,9 @@ lie on a common seven-cycle.
    under their hypotheses; the fractional coloring argument of
    [palette savings](proofs/c7_palette_savings.md) does not produce one.
 4. **The error term.** Is
-   $\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)=n^2/8+O(n)$? The write-up's upper
-   bound, from two cliques sharing one vertex, already has this error term;
-   the two disjoint cliques of Section 5 of the solution note give
+   $\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)=n^2/8+O(n)$? As the write-up notes,
+   two cliques sharing one vertex already give an upper bound with this error
+   term; the two disjoint cliques of Section 5 of the solution note give
    $n^2/8+O(n^{3/2})$.
 5. **A proof without regularity.** Can the threshold theorem be proved without
    the Szemerédi regularity lemma, in particular by a direct structural
