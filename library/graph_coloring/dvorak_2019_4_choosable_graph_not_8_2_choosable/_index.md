@@ -89,5 +89,5 @@ counterexample to the problem's statement at $(a,b,m)=(4,1,2)$; the
 concluding remarks state, with the inductive step only sketched,
 counterexamples at $(a,1,2)$ for every $a\ge4$, and leave $a=3$ open.
 
-No file of this source is held, although the license above permits its
-redistribution; the card cites the edition it names above.
+The held file is the copy described above, under its CC-BY-4.0 term, with its
+transcription beside it.
