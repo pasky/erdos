@@ -45,14 +45,17 @@ dense-set version is Problem 310).
 with $c/K^2$ in place of $e^{-cK}$, in the monograph, without proof or
 reference. The best bound found is Korsky's
 $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for $R(A)>K\ge K_0$. It appears in an
-arXiv preprint of July 2026, whose acknowledgment declares extensive assistance
-from GPT-5.5 Pro. The preprint has no journal record, and its author states that
-no journal submission is planned. Korsky's bound settles no instance of the
+arXiv preprint of July 2026, whose second version, of October 2026, simplifies
+the proof and keeps the theorem. The first version's acknowledgment declares
+extensive assistance from GPT-5.5 Pro, and the second's says that GPT-5.5 Pro
+carried out the Fourier analysis that completes the argument. The preprint has
+no journal record, and its author stated in the thread on 9 July 2026 that no
+journal submission was planned. Korsky's bound settles no instance of the
 question, so it has no claim page. A construction shows that no bound better
-than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the site's thread; the
-preprint's display (1.4)). The conjectured exponential rate is open. No proof,
-disproof or proof claim for it was found in the search whose scope the Current
-assessment records. This is a bounded negative finding.
+than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the site's thread;
+display (1.4) of the preprint's first version). The conjectured exponential rate
+is open. No proof, disproof or proof claim for it was found in the search whose
+scope the Current assessment records. This is a bounded negative finding.
 
 **Source.** [erdosproblems.com/312](https://www.erdosproblems.com/312),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's
@@ -71,7 +74,11 @@ https://www.erdosproblems.com/312, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Ko26] Korsky, S., A stretched-exponential bound for an Erdős--Graham
   unit-fraction problem. arXiv:2607.04157v1 (5 July 2026; title page dated
-  7 July 2026), 27 pages. Library home:
+  7 July 2026), 27 pages. The v2 of 8 October 2026 (10 pages; title page
+  dated 7 July 2026) is retitled *Approximating $1$ by sums of unit
+  fractions*; its arXiv comment says it substantially simplifies v1, and its
+  Theorem 1, p. 1, states Theorem 1.1 of v1 with the same hypotheses and
+  bound. Library home:
   [[../library/unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/_index|korsky_2026_stretched_exponential_bound_erdos_graham_unit]];
   result page for Theorem 1.1.
 
@@ -129,39 +136,60 @@ then for some choice of $\varepsilon_k=0$ or $1$,
 $0\le1-\sum_{k=1}^t\varepsilon_k/s_k<e^{-c\alpha}$? We know only $c/\alpha^2$
 as an upper bound at present." The $c/\alpha^2$ bound is stated without
 proof or reference, and no published proof of it was located; Korsky's
-introduction attributes it to the monograph ("They proved the polynomial
-estimate $\varepsilon(A)\ll K^{-2}$"). It is recorded on this page as the
-proposers' attested bound, not as a compiled result.
+introduction attributes it to the monograph (v1: "They proved the polynomial
+estimate $\varepsilon(A)\ll K^{-2}$"; v2 says the same). It is recorded on
+this page as the proposers' attested bound, not as a compiled result.
 
 **Best known bound (a preprint claim).** Korsky's
 [[../library/unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/theorem_1_1|Theorem 1.1]]
-(arXiv v1, p. 1): there are absolute constants
+(arXiv v1, p. 1; Theorem 1 of v2, p. 1): there are absolute constants
 $c>0$ and $K_0$ such that every finite multiset $A$ of positive integers
 with $R(A)>K\ge K_0$ satisfies $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$,
 that is, some submultiset has reciprocal sum in
-$[1-\exp(-c\sqrt{K\log K}),1]$. The proof (Sections 2--4 and two
+$[1-\exp(-c\sqrt{K\log K}),1]$. The proof of v1 (Sections 2--4 and two
 appendices, 24 pages) removes a maximal subsum, compresses the remainder
 into a multiset $C$ with multiplicities $m_n<P^-(n)$ whose subsums lift to
 $A$ and avoid $(1-N^{-2},1)$ with $N=1/\varepsilon(A)$, and shows by a
 sparse-activation local-limit estimate that such a $C$ has reciprocal mass
 $R(C)\ll(\log N)^2/\log\log N$; since $R(C)>K-1$, this gives
-$\log N\gg\sqrt{K\log K}$. Read depth: claims checked for the theorem,
-the barrier display and the two compression lemmas, with their proofs;
-the analytic core in outline only. Acceptance: none.
-The paper is an unrefereed preprint; its acknowledgment declares that the
-author was assisted by GPT-5.5 Pro extensively during the development and
-writing of the manuscript, in particular in filling in technical details
-(the author claims the conceptual reductions and proof strategy and takes
-responsibility), the thread
-disputes its provenance and crediting as described above, and the author
-states that it will not be submitted to a journal. The site's page does not cite
-it. It is recorded on this page as the best bound found, with that provenance, and
-its correctness is neither confirmed nor doubted on this page.
+$\log N\gg\sqrt{K\log K}$. The v2 of 8 October 2026 (10 pages) keeps the
+compression, with the forbidden interval $(1-N^{-1},1)$, and replaces the
+activation package (v1's Proposition 3.1, proved in its Appendix A) by one
+estimate for a group of denominators whose ratios $m_n/n$ lie within a factor
+$4$ (Lemma 2, p. 3). Its bound depends on the largest number of the
+group's denominators that divide a single integer at most $N^3$, and Section
+5 proves it with a random subsum: near frequency zero its characteristic
+function is compared with a normal one, and at larger frequencies that
+divisor count bounds it. Elementary divisor counts for primes and composites
+(Section 4), which replace v1's Appendix B with its rough-number sieve, then
+give the same $R(C)\ll x^2/\log x$ with $x=\log N$. The v2
+omits the barrier display (1.4) and the citation of the site's page. The
+theorem and its proof's conclusion are unchanged, so v2 changes nothing this
+page records about the problem's standing. Read depth: in v1, claims checked
+for the theorem, the barrier display and the two compression lemmas, with
+their proofs, and the analytic core in outline only; v2 read in full, its
+compression and counting followed and its Fourier estimate in outline only.
+Acceptance: none. The paper is an unrefereed preprint. The acknowledgment of
+v1 declares that the author was assisted by GPT-5.5 Pro extensively during
+the development and writing of the manuscript, in particular in filling in
+technical details (the author claims the conceptual reductions and proof
+strategy and takes responsibility). The acknowledgments of v2 say that the
+author, inspired by Liu and Sawhney's random reciprocal sums and Croot's
+Fourier argument, formulated the compression and the random-sum
+construction, that GPT-5.5 Pro carried out the Fourier analysis needed to
+complete the argument, and that the author reviewed, modified and verified
+the arguments and takes full responsibility. The thread disputes the paper's
+provenance and crediting as described above, and the author stated there on
+9 July 2026 that there were no plans to send it to a journal. The site's page
+does not cite it. It is recorded on this page as the best bound found, with
+that provenance, and its correctness is neither confirmed nor doubted on this
+page.
 
 **The barrier.** Let $A_z$ contain $p-1$ copies of $1/p$ for every prime
-$p\le z$ (Kovač, 18 August 2025; Korsky's display (1.4)). No submultiset
-has reciprocal sum exactly $1$, all subsums lie on a lattice of spacing
-$1/\prod_{p\le z}p=e^{-(1+o(1))z}$, and $R(A_z)\sim z/\log z$, so
+$p\le z$ (Kovač, 18 August 2025; display (1.4) of Korsky's v1, which v2
+omits). No submultiset has reciprocal sum exactly $1$, all subsums lie on a
+lattice of spacing $1/\prod_{p\le z}p=e^{-(1+o(1))z}$, and
+$R(A_z)\sim z/\log z$, so
 $\varepsilon(A_z)\ge\exp(-(1+o(1))R(A_z)\log R(A_z))$. Any bound valid for
 all multisets is therefore at best $\exp(-(1+o(1))K\log K)$; the
 conjectured $e^{-cK}$ is compatible with it, and the truth lies between
@@ -174,34 +202,35 @@ Formalization; nothing beyond it exists.
 
 **Search scope.** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
-pinned commit; the arXiv listing for 2607.04157 (v1 only, no
-journal reference) and a Crossref bibliographic query for the title (no
-record); the Semantic Scholar record (rate-limited, no data); arXiv API
-searches for abstracts naming unit fractions and Graham (seven records,
-none on this deficit question), Egyptian fractions with subset sums or
-multisets (one unrelated record) and "Erdos problem" with the problem
-number (none); the monograph's p. 40; one general web search (Korsky's
-arXiv pages, a Wikipedia article on a different
+pinned commit; the arXiv listing for 2607.04157 (v1 only on 2026-09-18; v1
+and v2 on 2026-10-13; no journal reference) and Crossref bibliographic
+queries for the titles of v1 and v2 (no record); the Semantic Scholar record
+(rate-limited, no data); arXiv API searches for abstracts naming unit
+fractions and Graham (seven records, none on this deficit question),
+Egyptian fractions with subset sums or multisets (one unrelated record) and
+"Erdos problem" with the problem number (none); the monograph's p. 40; one
+general web search (Korsky's arXiv pages, a Wikipedia article on a different
 Erdős--Graham problem, a Discrete Analysis paper on Egyptian fractions of
 Problem 297's kind; nothing else). Not searched: MathSciNet, zbMATH, Google
 Scholar full text, X. Nothing found proves the exponential bound or
 refutes it; this is a bounded negative finding.
 
-**Remaining gaps.** (1) Korsky's analytic core is recorded in outline
-only, and the paper is unrefereed and unreviewed; it is the only source
-for the stretched exponential. (2) The monograph's $c/K^2$ has no located
-proof. (3) Whether the true worst-case rate is exponential in $K$ or of
-order $K\log K$ in the exponent is open. (4) The formal statement's
-encoding was not audited.
+**Remaining gaps.** (1) Korsky's analytic core, in both versions, is
+recorded in outline only, and the paper is unrefereed and unreviewed; it is
+the only source for the stretched exponential. (2) The monograph's $c/K^2$
+has no located proof. (3) Whether the true worst-case rate is exponential in
+$K$ or of order $K\log K$ in the exponent is open. (4) The formal
+statement's encoding was not audited.
 
 ## Progress and known results
 
 - Erdős and Graham (1980, printed p. 40): the question; the bound $c/K^2$
   stated without proof.
 - Korsky (2026, preprint):
-  [[../library/unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/theorem_1_1|Theorem 1.1]],
-  $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for $R(A)>K\ge K_0$; display
-  (1.4), the barrier $\exp(-(1+o(1))K\log K)$ from the prime multisets.
+  [[../library/unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/theorem_1_1|Theorem 1.1]]
+  of v1 (Theorem 1 of v2), $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for
+  $R(A)>K\ge K_0$; display (1.4) of v1, the barrier
+  $\exp(-(1+o(1))K\log K)$ from the prime multisets.
 - Related: the dense-subset version with bounded denominators,
   [[problems/unit_fractions/E0310/_index|Problem 310]]; the near-one subsums of
   $\{1,\ldots,N\}$ of [[problems/unit_fractions/E0311/_index|Problem 311]]; the

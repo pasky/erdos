@@ -28,6 +28,12 @@ links:
 - url: https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/252.lean
   kind: record
   date: 2026-10-06
+- url: https://github.com/tokengr1nder/Erdos252/blob/575f822540523120bcfc9e0d59fcbf731fa8b7b9/Erdos252/Solution.lean
+  kind: formalization
+  date: 2026-10-10
+- url: https://palomar-registry.org/entry?id=PALOMAR-2026-10-12-000001&version=1
+  kind: record
+  date: 2026-10-12
 created: 2026-10-07T08:08:57Z
 updated: 2026-10-08T02:32:02Z
 ---
@@ -84,6 +90,18 @@ the AI used:
 > was not a lot of intellectual effort involved in solving this I would like to
 > stay anonymous.
 
+The Palomar registry's description of entry PALOMAR-2026-10-12-000001:
+
+> For every natural number k, the series whose nth term is the sum of the kth
+> powers of the positive divisors of n, divided by n factorial, is irrational.
+> This gives the positive-exponent statement of Erdős problem 252 and also
+> includes exponent zero. The proof combines factorial-tail integrality, a
+> finite coprime dilation grid with exact finite-difference cancellation, and
+> incompatible progression means obtained by a fresh-prime refinement. It has no
+> prime-pattern conjecture or unproved number-theoretic hypothesis. The Lean
+> development also proves convergence and the equivalence of its natural-index
+> series with the series starting at one.
+
 **Claimant and postings.** The repository was created on 2026-09-08 under
 the GitHub login `tokengr1nder`, with the README author line "Tokengrinder";
 the author attributes the mathematics to an AI system ("GPT 6 Astra") and
@@ -118,15 +136,45 @@ are the statement audit behind the `formalized` evidence. Two earlier review
 rounds, of 2026-09-17 and 2026-09-18, are void for independence and warrant
 nothing.
 
-No `reviewed` or `refereed` evidence exists. As of 2026-09-17 the site labeled
-the problem open (page last edited 2026-01-22) and lists the author's entry
-under its disclaimer. The community database and formal-conjectures list it
-open, with the issue unanswered. At the revision of 2026-10-06 linked as the
-`record`, the formal-conjectures statement `erdos_252` is tagged research open
-and proved by `sorry`. There is no refereed write-up, referee, maintainer
-response or expert acknowledgment. The trust base is Lean's kernel and the
-consistency of Mathlib v4.33.1. No native L-claim, native Lean coverage or
-numerical tier is assigned.
+The author registered the development on the Palomar registry on 12 October
+2026 as PALOMAR-2026-10-12-000001 (the second `record` link), at a commit of
+10 October 2026 on the repository's branch `publication/palomar-e252` (the
+second `formalization` link), which descends from the pinned commit; it was not
+built here. Between the two commits `Erdos252/Solution.lean` gains
+module-system headers and one Mathlib import and changes three rewriting steps,
+for Lean v4.35.0-rc2 and the matching Mathlib; the statement of
+`Erdos252.erdos_252` is unchanged, the audit file changes only in its headers,
+and a new `Challenge.lean` restates the theorem for the registry's comparison.
+The registry's record reports that its two kernel checkers, nanoda and con-ron,
+accepted the theorem against that challenge with only `propext`,
+`Classical.choice` and `Quot.sound` permitted, and an automated review by a
+language model (`codex:gpt-6-sol`) with outcome neutral. The `formalized`
+evidence remains the build and review of the pinned commit.
+
+No `reviewed` or `refereed` evidence exists. The site labeled the problem open
+(page last edited 2026-01-22) and listed the author's entry under its
+disclaimer. On 2026-10-13 the community database and formal-conjectures listed
+it open, with the issue unanswered. At the revision of 2026-10-06 linked as the
+first `record`, the formal-conjectures statement `erdos_252` is tagged research
+open and proved by `sorry`. The bounty site Conjectures.io holds two decisions
+on that statement. Its
+[result 71c87792](https://conjectures.io/results/71c87792-e08f-413c-9b7a-3b61e577eed6),
+a Lean proof of the statement submitted by a pseudonymous account, was
+accepted by its Lean kernel on 16 September 2026 and rejected by its review the
+same day as already formalized elsewhere (PRIOR_EXTERNAL_FORMALIZATION): the
+review found that the submission adapts this development at the pinned commit,
+which it credits, with changes to imports, namespaces and wrappers and one
+added algebraic step; two model assessments agreed, and no fresh Lean replay was
+run. On 6 October 2026 Conjectures.io retired the statement from its pool as
+solved externally (SOLVED_EXTERNALLY), citing that result and this repository at
+the pinned commit; its
+[retirement record](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md)
+says that it did not rebuild the proof. Both are a bounty site's eligibility
+decisions, made without a rebuild or a named reviewer; they acknowledge the
+proof but are not reviews of it. There is no refereed write-up, referee,
+maintainer response or expert acknowledgment. The trust base is Lean's kernel
+and the consistency of Mathlib v4.33.1. No native L-claim, native Lean coverage
+or numerical tier is assigned.
 
 **Depends on.** Nothing in this wiki; the claim is the kernel-checked
 theorem of the cited development.

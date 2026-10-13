@@ -36,8 +36,11 @@ neither is accepted. Zhang and Li's manuscript, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|its claim page]],
 claims the conjecture for every finite forest. It was revised on 6 October 2026
 with Vallier and a Lean development. Its first arXiv submission was withdrawn
-before announcement, and the revision was posted on arXiv on 6 October 2026.
-Fang, Lu, Nevo, Yao and Zheng's arXiv preprint, on
+before announcement, and the revision was posted on arXiv on 6 October 2026. A
+later version, 2.15, deposited with restricted access on 10 October 2026, has a
+Lean formalization that uses no compiler axioms, registered on the Palomar
+registry on 11 October 2026 and not built here. Fang, Lu, Nevo, Yao and Zheng's
+arXiv preprint, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|its claim page]],
 claims to prove it for all forests on at least $N_0$ vertices, for an uncomputed
 $N_0$, with a Lean development.
@@ -55,8 +58,16 @@ https://www.erdosproblems.com/993.
   Combin. Theory Ser. B (1981), 247-250.
 
 **Formalization.** Author-reported Lean developments are recorded on the
-claim pages; no build or audit of either by this corpus is recorded.
-Formal-conjectures had no file `ErdosProblems/993.lean` on 2026-10-07.
+claim pages; this corpus has built or audited none of them. The Zhang–Li
+claim's second proof has two: the development accompanying
+arXiv:2610.07943v1, whose README reports Lean's compiler axioms, and a
+formalization of the manuscript's version 2.15 that evaluates every finite
+check in the kernel, registered on the Palomar registry on 11 October 2026 as
+PALOMAR-2026-10-11-000012. That record reports that the registry's kernel
+checkers accepted its theorem `Erdos993.erdos_993_forest`, the forest
+statement of formal-conjectures pull request #4192 renamed, on `propext`,
+`Classical.choice` and `Quot.sound` only. Formal-conjectures had no file
+`ErdosProblems/993.lean` on 2026-10-07.
 
 ## Current assessment
 
@@ -80,9 +91,12 @@ forests, and so the conjecture itself, open; the full claim of Zhang and Li
 ([[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]])
 covers every forest, in a manuscript whose authors said on 6 October 2026
 that they intend a shorter version. Neither has a referee or a named
-reviewer, and no build or review of either Lean development is recorded;
-the developments are described as their READMEs state them. The site labeled
-the problem FALSIFIABLE (2026-10-06), and the page adopts neither claim.
+reviewer, and this corpus has built or reviewed none of their Lean
+developments; the Palomar registry's kernel replay of the registered
+formalization of the Zhang–Li revision (11 October 2026) is neither a build
+by this corpus nor a review. The developments are described as their READMEs
+and the registry's record state them. The site labeled the problem
+FALSIFIABLE (2026-10-06), and the page adopts neither claim.
 
 ## Known Results
 

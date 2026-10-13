@@ -1,10 +1,10 @@
 ---
 name: problems/additive_combinatorics/E0787/claims
-desc: The 4 claim pages of Problem 787, one per claimant's result; the problem's standing derives from them.
+desc: The 5 claim pages of Problem 787, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T21:33:46Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:07:18Z
 ---
 
 # problems/additive_combinatorics/E0787/claims
@@ -29,5 +29,10 @@ with $c>0$ absolute, in which no sum of two distinct elements lies in $A$.
 for every $c<1/68$ every large finite set $A$ of integers has a subset of size
 at least $(\log|A|)^{1+c}$ with no sum of two distinct elements in $A$. There
 was no journal record on 2026-10-07.
+
+[[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|2026_09_25_zhi]]: Theorem 1.3 of Zhi's unrefereed preprint, a refinement of Beker's argument,
+states that for every $c<1/36$ every large finite set $A$ of integers has a
+subset of size at least $(\log|A|)^{1+c}$ with no sum of two distinct
+elements in $A$.
 
 ***

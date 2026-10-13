@@ -90,7 +90,8 @@ proof-claim tab accessed 2026-10-06). That label describes the distinct-factor
 reading as unsettled. The standing derives from the claim pages and judges the
 Statement (precise). The full claim
 [[problems/integer_sequences/E0786/claims/2026_09_28_li|Li 2026]] was submitted
-to the site's proof-claim tab on 28 September 2026. It is declared as produced
+to the site's proof-claim tab on 28 September 2026, and its manuscript was
+posted on arXiv the same day (2609.37471v1). It is declared as produced
 with GPT-6 Astra and GPT-5.6 Sol (OpenAI) and Claude (Anthropic). It asserts
 negative answers to both questions under the distinct-factor reading. The
 partial claim
@@ -142,9 +143,11 @@ https://www.erdosproblems.com/786.
 
 Scope: the site's full commentary (accessed 2026-09-04), the discussion thread
 (accessed 2026-09-06) and the proof-claim tab (accessed 2026-10-06), with the
-statements in [Er65], [Er73], [Er80], [ERS73] and [GrSo01]. No literature
-search beyond these sources, check of the linked Lean developments or proof
-review is recorded. The Statement (precise) takes the distinct-factor reading
+statements in [Er65], [Er73], [Er80], [ERS73] and [GrSo01]. The only
+literature search beyond these sources is an arXiv search for "Erdős" over
+submissions from 25 September 2026, which found the arXiv posting of Li's
+manuscript; no check of the linked Lean developments or proof review is
+recorded. The Statement (precise) takes the distinct-factor reading
 from [Er80], under which the site's commentary treats both questions as open;
 the negative answers under the repetitions-allowed reading come from [ERS73]
 through the transfer the commentary gives and are recorded under Formulation.
@@ -153,7 +156,8 @@ through the transfer the commentary gives and are recorded under Formulation.
 tab carries two claims, both for the distinct-factor reading, each declared
 as produced with AI systems (Gessel's with GPT-6 Astra (Codex); Li's with
 GPT-6 Astra, GPT-5.6 Sol and Claude) and each with a manuscript and a Lean
-development linked from its claim page. The partial claim
+development linked from its claim page; Li's manuscript is also on arXiv
+(2609.37471v1, 28 September 2026). The partial claim
 [[problems/integer_sequences/E0786/claims/2026_09_06_gessel|Gessel 2026]]
 (6 September 2026) bounds the natural density of an admissible set by $7/8$
 and leaves the finite question open. The full claim
