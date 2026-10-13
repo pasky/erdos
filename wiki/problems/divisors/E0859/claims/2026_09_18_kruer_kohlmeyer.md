@@ -93,10 +93,10 @@ declares no AI system, and the site's forum entry gives the system as
 unknown, so which AI system, if any, generated the proof is not disclosed.
 
 **Acceptance.** The `reviewed` evidence is the certification by the bounty site
-Conjectures.io. Its Lean kernel verified the proof under Lean 4.33.1 with the
-axioms `propext`, `Quot.sound` and `Classical.choice` permitted. Its review
-approved the record on 21 September 2026 under its policy v3. The record was
-certified on 23 September 2026 and shows the bounty as paid.
+Conjectures.io. Its Lean kernel verified the proof on 18 September 2026 under
+Lean 4.33.1 with the axioms `propext`, `Quot.sound` and `Classical.choice`
+permitted. Its review approved the record on 21 September 2026 under its policy
+v3. The record was certified on 23 September 2026 and shows the bounty as paid.
 
 The review decision says the submission "refutes the proposed positive-constant
 logarithmic power asymptotic for the natural density of integers whose distinct

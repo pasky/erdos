@@ -66,12 +66,12 @@ and Staden.
 
 The status-defining source is a Lean proof accepted by the bounty site
 Conjectures.io (record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa`, task type
-disprove). The site's Lean kernel verified the proof, its review approved the
-record, and it certified the record on 6 October 2026 under its policy v3. The
-formal statement the site attacked is the formal-conjectures statement
-`Erdos579.erdos_579`, quoted under Formalization below, with its open answer
-fixed to true. The Formulation paragraph above reads that statement as the
-Statement clause for clause (`octahedron` is $K_{2,2,2}$, `edgeFinset.card`
+disprove). The site's Lean kernel verified the proof on 3 October 2026, its
+review approved the record, and it certified the record on 6 October 2026 under
+its policy v3. The formal statement the site attacked is the formal-conjectures
+statement `Erdos579.erdos_579`, quoted under Formalization below, with its open
+answer fixed to true. The Formulation paragraph above reads that statement as
+the Statement clause for clause (`octahedron` is $K_{2,2,2}$, `edgeFinset.card`
 counts unordered edges, `indepNum` is the independence number). The accepted
 file proves the exact negation of that statement (`theorem target : ¬
 (fcTypeOfName% "Erdos579.erdos_579")`) from `Er579.not_positiveDensityClaim`,
@@ -319,7 +319,8 @@ above).
 
 ## Known results
 
-- Conjectures.io record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa` (verified, certified 6 October 2026;
+- Conjectures.io record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa` (verified 3
+  October 2026, certified 6 October 2026;
   [[problems/extremal_graph_theory/E0579/claims/2026_10_03_jordan|claim page]]):
   a Lean construction of
   $K_{2,2,2}$-free graphs on $n$ vertices with at least $(3/2048)n^2$ edges

@@ -94,12 +94,12 @@ represented sums, and a generating-function bound at $z=1-4/T^4$. Neither answer
 implies the other. But the uniform bound this obstruction gives implies both, so
 the two records are one theorem read two ways.
 
-For each record, Conjectures.io's Lean kernel verified the proof against the
-formal statement at the formal-conjectures commit the record pins, with the
-axiom closure inside `propext`, `Quot.sound` and `Classical.choice`.
-Conjectures.io's review approved the record under its policy v3 on 15
-September 2026. Conjectures.io certified the record on 16 September 2026 and paid the
-bounty.
+For each record, Conjectures.io's Lean kernel verified the proof on 14 September
+2026 against the formal statement at the formal-conjectures commit the record
+pins, with the axiom closure inside `propext`, `Quot.sound` and
+`Classical.choice`. Conjectures.io's review approved the record under its policy
+v3 on 15 September 2026. Conjectures.io certified the record on 16 September
+2026 and paid the bounty.
 
 That review is Conjectures.io's own, and its note describes how it was reached.
 Two Codex assessments each recommended approval. They ran in separate contexts

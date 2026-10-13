@@ -34,8 +34,9 @@ license, copyright or terms statement; the term is unstated.
 
 Source: <https://ywigderson.math.ethz.ch/math/static/Compactness.pdf>.
 
-Read status: claims checked for the Observation and its proof (p. 1) and
-the modified Conjecture (p. 2), read clause by clause on the page images and recomputed on the
+Read status: claims checked for the Observation and its proof (p. 1) and the
+modified Conjecture (p. 2), read clause by clause on the page images and
+recomputed on the
 [[extremal_graph_theory/wigderson_2022_erdossimonovits_compactness_conjecture_needs_more_assumptions/observation_p1|result page]];
 the cited Füredi--Simonovits Theorem 2.32 was not inspected.
 

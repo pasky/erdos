@@ -174,7 +174,7 @@ of 28 May. These are public verification and status reports. No new
 Lean or SafeVerify build, complete formal-code audit, or journal
 referee certification is asserted by this compilation. No CI result
 for the pinned May proof head was found when the formal artifacts were
-read; older successful runs do not verify those
+read on 5 September 2026; older successful runs do not verify those
 final bytes.
 The formal-conjectures files contain statement scaffolding with
 placeholders and links to the actual implementation; they are not

@@ -94,7 +94,7 @@ hash matches" gate is the evidence that the pinned statement agrees), where
 such that $\varphi(m)=n$ for some $m\in\mathbb{N}$. This is the first question
 of Problem 416 clause for clause: real $x\to\infty$, unrestricted preimages,
 each value counted once, and $m=0$ contributing only the excluded value $0$.
-The record page shows Lean verification Passed (accepted
+The record page (fetched 2026-09-27) shows Lean verification Passed (accepted
 14 September 2026 at 04:31:57 UTC; checked in 16 min 37 s in the site's
 sandbox; fourteen gates passed, among them the static scan, "Statement
 unchanged", "Only permitted axioms" with `propext`, `Quot.sound` and

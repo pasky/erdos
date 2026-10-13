@@ -171,7 +171,8 @@ $\lfloor\sqrt n\rfloor$ vertices spanning $\Omega(\sqrt n\log n)$ edges.
 "This is tight and settles a problem of Erdös [4]." The abstract states it
 with an absolute constant $c'$ and calls it a Ramsey type theorem
 "conjectured by Erdös in 1979". Acceptance evidence: publication in Random
-Structures Algorithms 9 (1996), no. 3, 271--278 (Crossref record read), a refereed journal, and the site curator's acceptance, which
+Structures Algorithms 9 (1996), no. 3, 271--278 (Crossref record read
+2026-09-18), a refereed journal, and the site curator's acceptance, which
 credits the paper; every locator here is a page of the author's preprint,
 and the journal text was not compared. The
 proof (Section 3, pp. 5--6), read for its structure: if the average degree

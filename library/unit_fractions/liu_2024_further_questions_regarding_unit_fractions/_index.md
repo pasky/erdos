@@ -82,11 +82,12 @@ fractions*. arXiv:2404.07113v1 (10 April 2024), 22 pages. Published in
 
 The copy read for this card is the 2024 arXiv version, arXiv:2404.07113v1. The
 [arXiv record](https://arxiv.org/abs/2404.07113) listed only v1 when checked on
-2026-09-05 and again. The [publisher
+2026-09-05 and again on 2026-09-17. The [publisher
 record](https://academic.oup.com/imrn/article-abstract/2026/2/rnaf382/8425337)
 confirms the same abstract bound and a later publication, but its full text has
-not been compared. That record dates the article received 28 October 2025,
-accepted 23 December 2025 and published online 14 January 2026. All labels and page numbers below refer to v1; they must not be
+not been compared. Read again on 2026-09-17, that record dates the article
+received 28 October 2025, accepted 23 December 2025 and published online 14
+January 2026. All labels and page numbers below refer to v1; they must not be
 silently transferred to the published version. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2404.07113), every other right
 reserved.

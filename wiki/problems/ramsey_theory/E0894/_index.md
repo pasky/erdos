@@ -186,7 +186,8 @@ $\mathbb N$ with no monochromatic $a-b\in A$, which is the site's question.
 The proof of Theorem 1.1 (Section 3, through Theorem 3.1 and a one-sided
 form of the Lovász local lemma, Lemma 2.1) is not compiled in this wiki;
 the constant $c$ is not made explicit ($c_0=1/240$ appears in
-Theorem 3.1). Acceptance: the Bulletin record; the arXiv abstract page carries one version and no journal reference.
+Theorem 3.1). Acceptance: the Bulletin record; the arXiv abstract page (read
+2026-09-18) carries one version and no journal reference.
 
 **Sharpness and the elementary route (pp. 2--3).** "Up
 to the $|\log\epsilon|^{-1}$ factor, (1.2) cannot be improved": with $n_j=j$

@@ -262,29 +262,29 @@ version predates the arXiv posting.
 
 **Formalization and the Lean developments (not built here).** The manuscript
 links `ErdosProblem1005.lean` in the repository `Woett/Lean-files`, last changed
-on 4 August 2026 (the revision the claim page's link pins): 175,924
-bytes, 2,557 lines, `import Mathlib`, defining `IsFarey n q`, `betweenCount n x
-y`, `BadlyOrdered n x y` and `fVal n` (the infimum of the between-count over
-badly ordered pairs) and proving `theorem erdos_1005 : Tendsto (fun n : ℕ =>
-(fVal n : ℝ) / n) atTop (nhds (1 / 4))` (line 2551) from an upper bound `fVal n
-≤ n / 4 + C` and a lower bound "$(1/4-\varepsilon)n\le$ `fVal n` eventually"; no
-`sorry` and no `axiom` declaration in the file; its `#print axioms erdos_1005`
-has no recorded output. The tab links the repository `mrricky22/erdos-1005-lean`
-(its head of 4 July 2026, the revision the claim page's link pins), a Lake
-project whose `Main.lean` proves the same statement from the same two bounds;
-nine of its fourteen Lean files (1,787 lines) contain no `sorry` and no `axiom`
-declaration, and five were not examined. Both attribute the formalization to
-Aristotle, an automated proof system. A third copy, the file `Erdos1005.lean` in
-Boris Alexeev's repository `lean-proofs` (committed 15 September 2026; the third
-formalization link on Cipollini's page), declares itself a formalization by
-Cipollini and van Doorn with Aristotle (Harmonic), combined from the Woett file;
-its main theorem `erdos_1005` is the same limit for the formal-conjectures
-definition of $f(n)$, derived from the source's by a rewriting lemma, and the
-statement file cites it as the problem's `formal_proof` (header and main
-theorem). All three formalize the intervening-count convention; the
-bridge to the page's $f(n)$ is the authored remark of the Formulation paragraph.
-Only the statements at the pinned commits are recorded: nothing was built or
-audited here and no kernel credit is claimed.
+on 4 August 2026 (the revision the claim page's link pins; accessed 2026-09-18):
+175,924 bytes, 2,557 lines, `import Mathlib`, defining `IsFarey n q`,
+`betweenCount n x y`, `BadlyOrdered n x y` and `fVal n` (the infimum of the
+between-count over badly ordered pairs) and proving `theorem erdos_1005 :
+Tendsto (fun n : ℕ => (fVal n : ℝ) / n) atTop (nhds (1 / 4))` (line 2551) from
+an upper bound `fVal n ≤ n / 4 + C` and a lower bound "$(1/4-\varepsilon)n\le$
+`fVal n` eventually"; no `sorry` and no `axiom` declaration in the file; its
+`#print axioms erdos_1005` has no recorded output. The tab links the repository
+`mrricky22/erdos-1005-lean` (its head of 4 July 2026, the revision the claim
+page's link pins), a Lake project whose `Main.lean` proves the same statement
+from the same two bounds; nine of its fourteen Lean files (1,787 lines) contain
+no `sorry` and no `axiom` declaration, and five were not examined. Both
+attribute the formalization to Aristotle, an automated proof system. A third
+copy, the file `Erdos1005.lean` in Boris Alexeev's repository `lean-proofs`
+(committed 15 September 2026; the third formalization link on Cipollini's page),
+declares itself a formalization by Cipollini and van Doorn with Aristotle
+(Harmonic), combined from the Woett file; its main theorem `erdos_1005` is the
+same limit for the formal-conjectures definition of $f(n)$, derived from the
+source's by a rewriting lemma, and the statement file cites it as the problem's
+`formal_proof` (header and main theorem). All three formalize the
+intervening-count convention; the bridge to the page's $f(n)$ is the authored
+remark of the Formulation paragraph. Only the statements at the pinned commits
+are recorded: nothing was built or audited here and no kernel credit is claimed.
 
 **Search scope.** None of the routes below found a
 refereed version of either 2026 preprint or of van Doorn's, an independent

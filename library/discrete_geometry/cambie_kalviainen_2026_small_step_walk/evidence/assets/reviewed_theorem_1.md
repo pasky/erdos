@@ -201,7 +201,7 @@ restriction.
 ## Verification and dependencies
 
 This is a complete reconstruction of the two-page v1 argument, **awaiting
-independent review**. Both source pages were visually read.
+independent review**. Both source pages were visually read on 2026-09-08.
 The reconstruction makes the source's parity, nonvanishing, and squared-slope
 deductions explicit. It assumes only elementary integer and Gaussian-integer
 arithmetic, binary digit identities, and the stated valuation rules. Equations

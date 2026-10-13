@@ -51,7 +51,7 @@ Provenance: 79,896 bytes; from the survey download set of 2026-09-05
 URL is not recorded). The published version, Integers 4
 (2004), Paper A20, is listed in the journal's volume 4 contents and deposited at
 Zenodo (DOI 10.5281/zenodo.7642509, deposit dated 15 February 2023; both records
-read); its PDF ("Received: 5/24/04, Revised: 10/11/04, Accepted:
+read 2026-09-18); its PDF ("Received: 5/24/04, Revised: 10/11/04, Accepted:
 10/21/04, Published: 11/1/04", p. 1) carries v2's text (compared by text
 extraction), so the manuscript predates the revision. No notice is printed in
 the manuscript. The arXiv abstract page of v2

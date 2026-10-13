@@ -82,7 +82,7 @@ second-hand on this page and not part of this claim.
 conversion above are the whole argument.
 
 **Acceptance.** The `refereed` evidence is the publication in Combinatorica
-(Crossref record: volume 8, issue 1, pp. 83--86, issued March 1988).
+(Crossref record, 2026-09-18: volume 8, issue 1, pp. 83--86, issued March 1988).
 
 The `reviewed` evidence is documented acceptance by a named expert and by the
 site's curator. Janzer, *The extremal number of longer subdivisions*, Bull.

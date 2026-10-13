@@ -203,6 +203,8 @@ are stated separately below.
    [[../library/distance_problems/vesztergombi_1987_bounds_number_small_distances_finite_planar_set/evidence/verify/final_review|final
    review]] filed with the source retains the report. They do not bear on the
    Statement's fixed-threshold count or certify any fixed-threshold variant.
+   On 2026-10-12 this page's frontmatter description and Status paragraph were
+   reworded; the change touches no examined statement, proof, code or input.
    [Csizmadia's publisher abstract](https://www.sciencedirect.com/science/article/pii/S0012365X98001162)
    reports refinements depending on the ratio of the two smallest distances.
    Only its abstract is cited; its theorems and proofs are not compiled.

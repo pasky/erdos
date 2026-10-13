@@ -137,7 +137,8 @@ Neither file has been built here.
   proofs of three same-paper lemmas and the main theorem, followed by the E384
   symmetry transfer. All five components have independent mathematical review
   relative to the declared external inputs. The copies examined are not
-  retained in the repository; the text on the theorem page agrees with the review's description of them.
+  retained in the repository; the text on the theorem page as it stood on
+  2026-09-16 agreed with the review's description of them.
 - **Remaining gaps and limits.** The proofs of the Rosser--Schoenfeld estimates
   and Faulkner implication were not recursively reconstructed. Guy's B31 and B33
   ([Gu04], pp. 129--130 and 134) are the basis of the Progress paragraph on
@@ -152,7 +153,9 @@ edits expanded the [Gu04] reference and the Progress paragraph on Guy's
 sections, reworded the Proof coverage and Remaining gaps items, and made the
 weak formulation the page's corrected Statement, which the standing now
 judges; the weak statement, the counterexample and the Ecklund transfer that
-the review examined are unchanged in substance.
+the review examined are unchanged in substance. On 2026-10-12 this page's
+frontmatter description and Status paragraph were reworded; the change touches
+no examined statement, proof, code or input.
 
 ## Progress
 

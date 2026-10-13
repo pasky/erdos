@@ -23,8 +23,8 @@ reviews; no tier is assigned.
 This folder holds the
 [[research/erdos_1219/evidence/verify/_index|review records]] of the three
 reconstruction pages of [[research/erdos_1219/_index|the folder]]: an
-independent focused review of each page and one
-distinct grade. No executable evidence is required or held: the pages
+independent focused review of each page as it stood at 2026-09-28T05:03:27Z and
+one distinct grade. No executable evidence is required or held: the pages
 reconstruct a source proof whose steps are cardinal arithmetic, a recursion of
 canonizing thinnings and a partition-relation argument, checked by reading. The
 source scan is held by its library source card

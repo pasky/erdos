@@ -170,8 +170,9 @@ injection). The printed proof has a known defect: the displayed identity on p.
 This was reported in the site's discussion thread on 5 September 2025, and a
 comment of 29 December 2025 reports the author's agreement, a corrected identity
 and a missing odd-$m$ hypothesis in the paper's Lemma 1, with the main result
-unaffected; the corrected argument is unpublished and unverified.
-Independently of that step,
+unaffected; the corrected argument is unpublished and unverified, and on
+2026-09-17 no erratum appeared in the MathNet, Crossref or publisher records of
+either version. Independently of that step,
 [[../library/unit_fractions/elsholtz_2016_egyptian_fractions_odd_denominators/corollary_1_2|Elsholtz's
 Corollary 1.2]] (arXiv v1, p. 3; Q. J. Math. 67 (2016)) proves that for odd $k$
 large enough the number of representations with distinct odd denominators is at
@@ -283,7 +284,7 @@ and with OEIS A006585, which the site links together with A076393. A
 computation of finitely many values settles nothing in an estimate
 question, so it has no claim page.
 
-**Search scope.** The status rests on these dated routes; none
+**Search scope.** The status rests on these routes; none
 had found a proof of an asymptotic formula, an improved bound or a proof claim.
 The release's manuscript of 25 September 2026, recorded under Claims, postdates
 this search.

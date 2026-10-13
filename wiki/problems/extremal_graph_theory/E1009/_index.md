@@ -78,8 +78,9 @@ https://www.erdosproblems.com/1009, accessed 2026-09-18.
 - [Gy88] Győri, E., On the number of edge-disjoint triangles in graphs of
   given size. Combinatorics (Eger, 1987), Colloq. Math. Soc. János Bolyai
   52, North-Holland, Amsterdam (1988), 267--276; Zbl 0706.05029 (the zbMATH
-  record identifies the volume and carries a review). Not held: a print-only
-  proceedings volume with no online route. Quoted second-hand from [BLPPPV21] and [BaWi25].
+  record, 2026-09-18, identifies the volume and carries a review). Not held: a
+  print-only proceedings volume with no online route. Quoted second-hand from
+  [BLPPPV21] and [BaWi25].
 - [Er71] Erdős, P., Some unsolved problems in graph theory and combinatorial
   analysis. Combinatorial Mathematics and its Applications (Proc. Conf.,
   Oxford, 1969), Academic Press (1971), 97--109; item 3, p. 98. Library

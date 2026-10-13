@@ -28,8 +28,8 @@ Paul Erdős, *On the Greatest Prime Factor of
 $\prod_{k=1}^x f(k)$*, *Journal of the London Mathematical Society* **27**
 (1952), no. 3, 379--384; DOI 10.1112/jlms/s1-27.3.379.
 
-The abbreviation `Zentralblatt 46,41` matches zbMATH's Zbl 0046.04102; `MR
-13,914a` was not independently verified.
+The abbreviation `Zentralblatt 46,41` matches zbMATH's Zbl 0046.04102 (read
+2026-10-07); `MR 13,914a` was not independently verified.
 
 The copy read for this card is a six-page journal scan whose physical
 pp. 1--6 are printed pp. 379--384; the time it was downloaded is unknown. The

@@ -77,10 +77,10 @@ the second limit directly for that model; that paper is not held.
 **Depends on.** Nothing in this wiki; the paper's own statements and the
 elementary deduction above are the whole argument.
 
-**Acceptance.** The paper is a refereed publication in Combinatorica (Crossref:
-volume 1, issue 1, pp. 1--12, issued March 1981). This is the
-`refereed` evidence. The `reviewed` evidence is documented acceptance by a named
-expert and by the site's curator. Erdős reported in his 1982 collection of
+**Acceptance.** The paper is a refereed publication in Combinatorica (Crossref,
+accessed 2026-09-19: volume 1, issue 1, pp. 1--12, issued March 1981). This is
+the `refereed` evidence. The `reviewed` evidence is documented acceptance by a
+named expert and by the site's curator. Erdős reported in his 1982 collection of
 recently solved problems (§1, printed p. 69 of
 [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|Erdős 1982]])
 that Ajtai, Komlós and Szemerédi proved his conjectures on the longest path in a

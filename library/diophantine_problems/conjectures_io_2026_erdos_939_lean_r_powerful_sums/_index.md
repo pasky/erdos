@@ -23,7 +23,8 @@ submission.
 
 Conjectures.io, *Erdős problem 939*, result
 `91915fc3-9040-4a31-8da5-b49d4e2cc2fb`: a Lean 4 file `Main.lean` submitted
-by the solver hotkey displayed as `5H3ZSq…NHznXs`, Lean-verified and certified, and reviewed under the site's policy v1 with the outcome
+by the solver hotkey displayed as `5H3ZSq…NHznXs`, Lean-verified and certified
+on 6 August 2026, and reviewed under the site's policy v1 with the outcome
 `FORMALIZATION_DEFECT_AWARD` (a partial award). Conjectures.io is a Bittensor
 subnet that publishes Erdős problems as Lean statements pinned to a commit of
 the formal-conjectures catalog and pays for kernel-checked proofs accepted in
@@ -124,7 +125,7 @@ one kernel; the site's second kernel (Nanoda) was not run for this task.
 
 ## Verification and review
 
-The result page shows Lean verification *Passed*, review
+The result page (read 2026-09-27) shows Lean verification *Passed*, review
 *Approved* with the state *Partial award*, reward *Paid*, certified 6 August
 2026, a bounty of 1074.7482 α locked at submission (displayed on that day as
 "$1,145 at today's rate"), verifier

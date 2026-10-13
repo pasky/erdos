@@ -6,14 +6,14 @@ desc: |
   monochromatic triangle in every k-colouring of a complete graph.
 status: solved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-09-05T03:30:17Z
 ---
 
 # Problem 183
 
 ***
 
-**Statement (site formulation).** Let $R(3;k)$ be the
+**Statement (site formulation, accessed 2026-09-04).** Let $R(3;k)$ be the
 minimal $n$ such that if the edges of $K_n$ are coloured with $k$ colours
 then there must exist a monochromatic triangle. Determine
 
@@ -61,7 +61,7 @@ external theorem is required. Historical lower-bound sources and the
 report's refined factorial upper bound are outside this reconstructed
 scope; their earlier compilation obligations are unchanged.
 
-The source check covered the selected report, its first-party
+The source check dated 2026-09-08 covered the selected report, its first-party
 announcement, pinned formalization sources and the identified matrix/cover
 predecessor. The relevant PDF chapter was inspected visually in full.
 The current catalogue page returned HTTP 403, so the dated formulation

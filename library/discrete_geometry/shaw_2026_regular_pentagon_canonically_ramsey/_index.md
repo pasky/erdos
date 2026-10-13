@@ -79,9 +79,9 @@ proof scopes, and compilation corrections. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2608.19183), every other right
 reserved.
 
-A primary-record check and bounded title/author search found only v1 and no
-journal reference, journal DOI, or acceptance record. This is a preprint, and
-the arXiv DOI
+A primary-record check and bounded title/author search on 5 September 2026 found
+only v1 and no journal reference, journal DOI, or acceptance record. This is a
+preprint, and the arXiv DOI
 [10.48550/arXiv.2608.19183](https://doi.org/10.48550/arXiv.2608.19183) is a
 repository identifier. Failure to locate acceptance in that search does not
 prove that none exists. No formal verification of these reconstructed arguments

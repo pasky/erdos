@@ -92,9 +92,10 @@ order with $r$ tending to infinity.
 
 **Acceptance.** Reviewed: the bounty site Conjectures.io holds the record
 `e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove. It records the proof
-as Lean-verified. It records the review as approved on 15 September 2026 under
-the site's manual-review policy v3, and the record as certified on 16
-September 2026. The outcome is shown as Proved and the bounty as paid.
+as Lean-verified on 11 September 2026. It records the review as approved on 15
+September 2026 under the site's manual-review policy v3, and the record as
+certified on 16 September 2026. The outcome is shown as Proved and the bounty as
+paid.
 
 The site's verification report states that its Lean kernel accepted the file
 with propext, Quot.sound and Classical.choice as the only axioms. It also states

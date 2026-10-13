@@ -134,7 +134,7 @@ asks two questions. The site's label was OPEN; the derived standing is
 `claimed`, through the OpenAI release's pending full claim on the second
 question, with two accepted partial claims on the first. The first is answered
 yes by the Lean proof the bounty site Conjectures.io accepted (record
-`51923647-3c0d-418e-b330-aa595f5cad42`; kernel verified,
+`51923647-3c0d-418e-b330-aa595f5cad42`; kernel verified 14 September 2026,
 review approved 15 September 2026, certified and bounty paid 16 September 2026).
 The formal statement the site attacked is
 `Filter.Tendsto (fun x => Erdos416.V (2 * x) / Erdos416.V x) Filter.atTop (nhds 2)`,
@@ -283,7 +283,7 @@ known to be elementary, is the pending claim on the second question.
   $V(cx)\sim cV(x)$.
 - First question answered yes (2026): $V(2x)/V(x)\to2$ as real $x\to\infty$, by
   a 64,775-line Lean proof accepted by the bounty site Conjectures.io (record
-  `51923647-3c0d-418e-b330-aa595f5cad42`; kernel verified,
+  `51923647-3c0d-418e-b330-aa595f5cad42`; kernel verified 14 September 2026,
   review approved 15 September 2026, certified and bounty paid 16 September
   2026; formal target `Erdos416.erdos_416.parts.i`; axioms `propext`,
   `Quot.sound`, `Classical.choice`). Scope: exactly the doubling limit, with $V$

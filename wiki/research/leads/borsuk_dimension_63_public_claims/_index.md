@@ -68,7 +68,8 @@ or determine the least failing dimension.
    v2 was withdrawn on 14 August 2026 after the submitter found earlier postings
    at Grinsztajn's repository and Konz's page. The withdrawal reason does not
    identify a mathematical error.
-3. [Nicholas Konz's public page](https://nickk124.github.io/borsuk/), reports an independent Claude rediscovery in August
+3. [Nicholas Konz's public page](https://nickk124.github.io/borsuk/),
+   checked 2026-09-06, reports an independent Claude rediscovery in August
    2026. Its update dated 12 August assigns priority to Grinsztajn and says
    the constructions agree point for point, including the scalar. These
    are Konz's provenance and identity claims, not an independent comparison

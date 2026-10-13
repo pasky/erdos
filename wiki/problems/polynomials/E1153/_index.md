@@ -112,7 +112,9 @@ elementary transfers have received independent strong review, retained as the
 [[../library/polynomials/tao_2026_local_bernstein_theory_lower_bounds_lebesgue/evidence/verify/transfer_review|transfer
 review]] filed with the Tao source. The copy of the text the review read is
 not retained in the repository; the current text agrees with the report's
-description of it, which is a match of description, not of bytes. Proof
+description of it, which is a match of description, not of bytes. On 2026-10-12
+this page's frontmatter description and Status paragraph were reworded; the
+change touches no examined statement, proof, code or input. Proof
 coverage: the complete source proofs are not compiled in this corpus. The
 catalog's PROVED label is the recorded acceptance; refereed publication,
 independent review of the complete source proof and formal verification are

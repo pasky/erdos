@@ -130,7 +130,8 @@ theorem statement and the stated elementary transfers, not
 Kesten's full necessity proof, which is reconstructed on the theorem page only
 for the anchored case. No literature search is recorded. The two outside Lean
 developments named under Formalization have not been built or audited in this
-corpus.
+corpus. On 2026-10-12 this page's frontmatter description and Status paragraph
+were reworded; the change touches no examined statement, proof, code or input.
 
 The claim pages record two positions. The
 [[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]] records

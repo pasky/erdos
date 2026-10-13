@@ -165,6 +165,8 @@ has a complete reconstruction and independently reviewed proof
 coverage, including its degree lemma and elementary Ramsey bounds.
 The later structural and computational exclusions are separate
 obligations; this reduction changes no catalog status or formal standing.
+On 2026-10-12 this page's frontmatter description and Status paragraph were
+reworded; the change touches no examined statement, proof, code or input.
 
 **Search scope:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the

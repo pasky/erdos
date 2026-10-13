@@ -36,9 +36,9 @@ $$
 $$
 
 **Status.** Labeled OPEN on erdosproblems.com. The site's commentary records
-Erdős's bounds and does not name a later result. No claim had been filed on the
-site's proof-claims tab. One pending partial claim answers the example question
-in the negative. It is Boon Suan Ho's preprint of 20 April 2026,
+Erdős's bounds and does not name a later result. On 2026-10-07 the site's
+proof-claims tab carried no claim. One pending partial claim answers the example
+question in the negative. It is Boon Suan Ho's preprint of 20 April 2026,
 [[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
 problem's thread on 21 April 2026.
 

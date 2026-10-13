@@ -43,7 +43,7 @@ distribution license (arXiv:2407.04226), every other right reserved.
 
 The copy read for this card is arXiv:2407.04226v5 (11 November 2025, 20
 pp.), typeset with the running head "INTEGERS: 24 (2024)" and blank
-received and accepted dates; the arXiv listing shows five
+received and accepted dates; the arXiv listing (read 2026-09-18) shows five
 versions, v1 of 5 July 2024 to v5, and the v5 comment says the version adds
 an appendix with an argument of Will Sawin matching the upper bound to the
 lower bound after a typo correction. The paper appeared as Integers 24

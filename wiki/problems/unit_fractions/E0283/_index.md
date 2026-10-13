@@ -368,10 +368,10 @@ examples $p(x)=x+5$ and $p(x)=x^2+100$), recorded under Partial results and on
 its claim page; the companion paper "Partitions with prescribed sum of
 reciprocals: computational results" (arXiv:2502.01409, cited by OEIS A380791 and
 by the asymptotic paper as its [11]; not held); OEIS A380791 (W. van Doorn,
-February 2025): the number of positive rationals $x$ whose threshold $k(x)$
-equals $n$, beginning $2,2,2,1,2,4,5,5,7,7,5,12,\ldots$, with the comment that
-Graham proved every $k\ge78$ has a partition into distinct parts with reciprocal
-sum $1$; its terms are not verified.
+February 2025, accessed 2026-09-18): the number of positive rationals $x$ whose
+threshold $k(x)$ equals $n$, beginning $2,2,2,1,2,4,5,5,7,7,5,12,\ldots$, with
+the comment that Graham proved every $k\ge78$ has a partition into distinct
+parts with reciprocal sum $1$; its terms are not verified.
 
 **Search scope.** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
