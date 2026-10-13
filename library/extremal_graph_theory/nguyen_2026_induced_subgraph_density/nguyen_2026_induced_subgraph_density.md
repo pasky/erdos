@@ -292,7 +292,7 @@ Consequently $y \geq x$. By Lemma $5.3$ applied to $F$, either:
 
 The first bullet would give a $2y^4$-sparse induced subgraph of $F$ (and so of $G$) with at least $cy\lvert G\rvert$ vertices, which contradicts the minimality of $y$ since $2y^4 \leq c^4y^3 = c(cy)^3$. If the second bullet holds, then since $\lvert F\rvert/k^{30} \geq y\lvert G\rvert/k^{30} \geq \lvert G\rvert/k^{34}$, there would be a pure $(k,\lvert G\rvert/k^{34})$-blockade in $G$, a contradiction. If the third bullet holds, then since $y^6\lvert F\rvert \geq y^7\lvert G\rvert$, there would be an $x$-sparse $(y^{-1},y^7\lvert G\rvert)$-blockade in $G$, a contradiction. This proves Lemma $5.5$. ■
 
-Next, by applying Rödl’s Theorem $1.3$, we remove the sparsity hypothesis in Lemma $5.4 completely, and prove Lemma $5.1$, which we restate:
+Next, by applying Rödl’s Theorem $1.3$, we remove the sparsity hypothesis in Lemma $5.4$ completely, and prove Lemma $5.1$, which we restate:
 
 **Lemma 5.5.** There exists $d \geq 40$ for which the following holds. For every $x \in (0,2^{-d})$ and every $\overline{P_5}$-free graph $G$ with $\lvert G\rvert \geq x^{-d}$, there exist $k \in [2,1/x]$ and a pure or $x$-sparse $(k,\lvert G\rvert/k^d)$-blockade in $G$.
 

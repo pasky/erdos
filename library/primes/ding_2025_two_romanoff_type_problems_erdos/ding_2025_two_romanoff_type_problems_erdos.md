@@ -306,7 +306,7 @@ $$
 \geq\frac{1}{L+9(C_0+\varepsilon)/\pi^2}.
 $$
 
-Letting $\varepsilon$ tend to zero proves the lemma. \hfill$\square$
+Letting $\varepsilon$ tend to zero proves the lemma. $\square$
 
 **3.2. Metric estimates for residue classes.** Fix $J=[Y_1,Y_2]$ with $1<Y_1<Y_2$. The next two lemmas give the exponential sum estimate and congruence collision bound required for Proposition 3.6.
 
@@ -411,7 +411,7 @@ $$
 \end{aligned}
 $$
 
-This proves the lemma. \hfill $\square$
+This proves the lemma. $\square$
 
 Koksma [28] proved that $y^k$ is uniformly distributed modulo one for almost all $y>1$. We shall need the following residue class version.
 
@@ -884,7 +884,7 @@ $$
 =\frac{4}{5}\frac{\zeta(2)}{\zeta(4)}.
 $$
 
-Letting $D$ tend to infinity proves (3.14). \hfill $\square$
+Letting $D$ tend to infinity proves (3.14). $\square$
 
 ### 3.3. Proof of Theorem 1.1.
 
@@ -1324,6 +1324,6 @@ The author thanks Imre Z. Ruzsa for helpful discussions on the representation of
 
 [41] I. Z. Ruzsa, *Exact additive complements*, Q. J. Math. 68 (2017), 227–235.
 
-\textsc{School of Mathematical Sciences, Yangzhou University, Yangzhou 225002, People’s Republic of China, Hun-Ren Alfréd Rényi Institute of Mathematics, Budapest, Pf. 127, H-1364 Hungary}
+School of Mathematical Sciences, Yangzhou University, Yangzhou 225002, People’s Republic of China, Hun-Ren Alfréd Rényi Institute of Mathematics, Budapest, Pf. 127, H-1364 Hungary
 
 *Email address:* ycding@yzu.edu.cn

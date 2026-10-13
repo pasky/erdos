@@ -980,7 +980,7 @@ the supremum over $(x)$ picks the worst-case overlap. The infimum over $(f)$ ask
 for the smallest possible such worst-case overlap.
 
 To prove a valid lower bound $(L)$, we need to show that every admissible $(f)$  
-satisfies $[ \sup_{x\in[-2,2]} \int_{-1}^1 f(t),g(x+t),dt \ge L. ]
+satisfies [ \sup_{x\in[-2,2]} \int_{-1}^1 f(t),g(x+t),dt \ge L. ]
 
 A natural way to do this is to replace the original infinite-dimensional problem by a constrained optimization problem. The idea is to impose a collection of constraints that every genuine admissible pair $((f,g))$ must satisfy, and then optimize over all objects satisfying those constraints.
 

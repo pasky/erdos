@@ -54,7 +54,7 @@ preserves the $s$-fold sums); for $k=3$ the sizes $27$ and $486$ are reported
 as further exceptions (see Formulation). Bloom reads the problem with a size
 condition. The commentary records the two failures as remarks on the wording,
 says "Presumably some condition like '$|A|$ sufficiently large' is intended",
-and labels the problem PROVED on the theorem of Gordon, Fraenkel and Straus
+and labeled the problem PROVED on the theorem of Gordon, Fraenkel and Straus
 [GFS62] that "for all $k$, the multiset $A_k$ uniquely determines $A$ provided
 $|A|$ is sufficiently large", added on 14 October 2025 after msellke's forum
 comment of 13 October 2025 supplied the reference. The corrected Statement

@@ -40,7 +40,7 @@ DEFINITION 1.2. For a subnormal subgroup $H$ of a group $G$ with finite index, w
 
 $$(1.2)\qquad d(G,H)=\sum_{i=1}^{n}\bigl([H_i:H_{i-1}]-1\bigr),$$
 
-where $H_0=H\subset H_1\subset\cdots\subset H_n=G$ is any composition series from $H$ to $G.
+where $H_0=H\subset H_1\subset\cdots\subset H_n=G$ is any composition series from $H$ to $G$.
 
 By [S90, Theorem 6] and [S01, Theorem 3.1], for any subnormal subgroup $H$ of a group $G$ with $[G:H]<\infty$, we have $d(G,H)\geq f([G:H])$, and equality holds if and only if $G/H_G$ is solvable, where $H_G=\bigcap_{g\in G}gHg^{-1}$ is the core of $H$ in $G$ (i.e., the largest normal subgroup of $G$ contained in $H$).
 

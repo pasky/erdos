@@ -153,7 +153,7 @@ PROPOSITION 2.2. *For every prime $p$ and positive integers $a, e,$*
 
 $$
 (2.3)\quad
-\sum'_{j=1}^{ap^e}\frac{1}{j}\equiv 0
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}\equiv 0
 \begin{cases}
 (\text{mod }2^{2e-2}), & p=2,\ e>1,\\
 (\text{mod }3^{2e-1}), & p=3,\\
@@ -165,7 +165,7 @@ $$
 
 $$
 (2.4)\quad
-\sum'_{j=1}^{ap^e}\frac{1}{j^2}\equiv 0
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}\equiv 0
 \begin{cases}
 (\text{mod }2^{e-1}), & p=2,\ e>1,\\
 (\text{mod }3^{e-1}), & p=3,\ e>1,\\
@@ -177,7 +177,7 @@ $$
 
 $$
 (2.5)\quad
-\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}\equiv 0
+\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}\equiv 0
 \begin{cases}
 (\text{mod }2^{e-2}), & p=2,\ e>2,\\
 (\text{mod }3^{e-1}), & p=3,\\
@@ -191,10 +191,10 @@ $$
 
 $$
 \begin{aligned}
-\sum'_{j=1}^{ap^e}\frac{1}{j^2}
-&\equiv a\sum'_{j=1}^{p^e}\frac{1}{j^2}
-\equiv a\sum'_{j=1}^{p^e}j^2
-= a\left(\sum'_{j=1}^{p^e}j^2-\sum_{j=1}^{p^{e-1}}(pj)^2\right)\\
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}
+&\equiv a\mathop{{\sum}'}\limits_{j=1}^{p^e}\frac{1}{j^2}
+\equiv a\mathop{{\sum}'}\limits_{j=1}^{p^e}j^2
+= a\left(\sum_{j=1}^{p^e}j^2-\sum_{j=1}^{p^{e-1}}(pj)^2\right)\\
 &=\frac{a}{6}\left[p^e(p^e+1)(2p^e+1)-p^{e+1}(p^{e-1}+1)(2p^{e-1}+1)\right].
 \end{aligned}
 $$
@@ -204,16 +204,16 @@ Now the expression inside the brackets is clearly divisible by $p^e$. As the ini
 (1) We have
 
 $$
-\sum'_{j=1}^{ap^e}\frac{1}{j}
-=\frac{1}{2}\sum'_{j=1}^{ap^e}\left(\frac{1}{j}+\frac{1}{ap^e-j}\right)
-=\frac{ap^e}{2}\sum'_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}.
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}
+=\frac{1}{2}\mathop{{\sum}'}\limits_{j=1}^{ap^e}\left(\frac{1}{j}+\frac{1}{ap^e-j}\right)
+=\frac{ap^e}{2}\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}.
 $$
 
 Now
 
 $$
-\sum'_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}
-=\sum'_{j=1}^{ap^e}\frac{-1}{j^2}\pmod{p^e},
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}
+\equiv\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{-1}{j^2}\pmod{p^e},
 $$
 
 so that, along with (2.4), we obtain (2.3).
@@ -221,8 +221,8 @@ so that, along with (2.4), we obtain (2.3).
 (3) We have
 
 $$
-\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}
-=\frac{1}{2}\left[\left(\sum'_{j=1}^{ap^e}\frac{1}{j}\right)^2-\sum'_{j=1}^{ap^e}\frac{1}{j^2}\right],
+\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}
+=\frac{1}{2}\left[\left(\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}\right)^2-\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}\right],
 $$
 
 which implies (2.5).
@@ -232,7 +232,7 @@ which implies (2.5).
 $$
 \binom{4a}{2a}
 =\prod_{j=1}^{2a}\frac{2a+j}{j}
-=\prod_{k=1}^{a}\frac{2a+2k}{2k}\prod'_{j=1}^{2a}\left(1+2\frac{a}{j}\right)
+=\prod_{k=1}^{a}\frac{2a+2k}{2k}\mathop{{\prod}'}\limits_{j=1}^{2a}\left(1+2\frac{a}{j}\right)
 =\binom{2a}{a}(1+2S),
 $$
 
@@ -242,9 +242,9 @@ $$
 \begin{aligned}
 \binom{2ap^e}{ap^e}
 &=\prod_{j=1}^{ap^e}\frac{ap^e+j}{j}
-=\prod_{k=1}^{ap^{e-1}}\frac{ap^e+kp}{kp}\prod'_{j=1}^{ap^e}\frac{2ap^e-j}{j}\\
-&=\binom{2ap^{e-1}}{ap^{e-1}}\prod'_{j=1}^{ap^e}\left(-1+2ap^e\cdot\frac{1}{j}\right)\\
-&=\binom{2ap^{e-1}}{ap^{e-1}}\cdot\left[1-2ap^e\sum'_{j=1}^{ap^e}\frac{1}{j}+4a^2p^{2e}\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}+p^{3e}S\right],
+=\prod_{k=1}^{ap^{e-1}}\frac{ap^e+kp}{kp}\mathop{{\prod}'}\limits_{j=1}^{ap^e}\frac{2ap^e-j}{j}\\
+&=\binom{2ap^{e-1}}{ap^{e-1}}\mathop{{\prod}'}\limits_{j=1}^{ap^e}\left(-1+2ap^e\cdot\frac{1}{j}\right)\\
+&=\binom{2ap^{e-1}}{ap^{e-1}}\cdot\left[1-2ap^e\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}+4a^2p^{2e}\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}+p^{3e}S\right],
 \end{aligned}
 $$
 
@@ -272,7 +272,7 @@ $$
 
 Let $R$ be the set of residue classes modulo $p^2$ appearing infinitely often among these values. Then $R$ is a subgroup of $(\mathbb{Z}/p^2\mathbb{Z})^\times$ and contains the residue classes of all numbers of the form $\binom{2g}{g}$, where $1\leq g\leq(p-1)/2$. As in the preceding case, the residue classes of $1,2,\ldots,p-1$ are in $R$. Moreover, $-1\equiv p^2-1=2\cdot\frac{p+1}{2}\cdot(p-1)$, so the residue classes of $-1,-2,\ldots,-(p-1)$ are in $R$. Consider $s$ as an element of $(\mathbb{Z}/p^2\mathbb{Z})^\times$. Suppose $s\notin R$. Then $s,2s,\ldots,(p-1)s\notin R$. Moreover, writing $(\mathbb{Z}/p^2\mathbb{Z})^\times=\bigcup_{i=0}^{p-1}C_i$, where $C_i$ consists of the residue classes of $ip+1,ip+2,\ldots,ip+p-1$, we see that none of those multiples of $s$ belongs to either $C_0$ or $C_{p-1}$. Hence for some $1\leq t_1<t_2\leq p-1$ and $1\leq i\leq p-2$ we have $t_1s,t_2s\in C_i$, so that $(t_2-t_1)s\in C_0\cup C_{p-1}$, which is a contradiction. Consequently, $R=(\mathbb{Z}/p^2\mathbb{Z})^\times$, which concludes this case.
 
-Next we turn to the case of general $e$, still with $(s,p)=1$. In view of the preceding case, we can find some $n_0\in\mathbb{N}$ such that $\binom{2n_0}{n_0}$ is a primitive root modulo $p^2$, and therefore a primitive root modulo $p^e$. Examining the proof in the preceding case we notice that $n_0$ may be assumed to contain arbitrarily many zeros ($e$ zeros is what we need) between any two non-zero digits in its base $p$ expansion. Take a $u\in\mathbb{N}$ such that $\binom{2n_0}{n_0}^u\equiv s (mod $p^e$). Construct a positive integer $n$ by concatenating $u$ times the base $p$ expansion of $n_0$, again leaving blocks of $e$ consecutive zeros between any two occurrences of the block corresponding to $n_0$ (i.e., $n = \sum_{j=0}^{u-1} p^{j(e+d)} n_0$, where $d = 1 + \lfloor \log_p n_0 \rfloor$). Again using (2.2) we obtain $\binom{2n}{n} \equiv \binom{2n_0}{n_0}^u \equiv s$ (mod $p^e$). As the condition on $u$ determines it only modulo $\phi(p^e)$, we again find infinitely many solutions for our equation.
+Next we turn to the case of general $e$, still with $(s,p)=1$. In view of the preceding case, we can find some $n_0\in\mathbb{N}$ such that $\binom{2n_0}{n_0}$ is a primitive root modulo $p^2$, and therefore a primitive root modulo $p^e$. Examining the proof in the preceding case we notice that $n_0$ may be assumed to contain arbitrarily many zeros ($e$ zeros is what we need) between any two non-zero digits in its base $p$ expansion. Take a $u\in\mathbb{N}$ such that $\binom{2n_0}{n_0}^u\equiv s$ (mod $p^e$). Construct a positive integer $n$ by concatenating $u$ times the base $p$ expansion of $n_0$, again leaving blocks of $e$ consecutive zeros between any two occurrences of the block corresponding to $n_0$ (i.e., $n = \sum_{j=0}^{u-1} p^{j(e+d)} n_0$, where $d = 1 + \lfloor \log_p n_0 \rfloor$). Again using (2.2) we obtain $\binom{2n}{n} \equiv \binom{2n_0}{n_0}^u \equiv s$ (mod $p^e$). As the condition on $u$ determines it only modulo $\phi(p^e)$, we again find infinitely many solutions for our equation.
 
 Arriving finally at the general case, we may assume that $s = cp^k$, where $1 \le c < p^{e-k}$, $(c,p) = 1$ and $1 \le k < e$. Without loss of generality we may assume that $e > 2k$. A slight modification of the discussion in the former case shows that there exist infinitely many numbers $n$ such that $n \equiv p^k$ (mod $p^e$) and $\binom{2n}{n} \equiv c(4p^k - 2)$ (mod $p^{e-k}$). For such $n$ we have
 

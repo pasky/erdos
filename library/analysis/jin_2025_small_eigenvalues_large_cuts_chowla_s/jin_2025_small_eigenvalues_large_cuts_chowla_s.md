@@ -58,10 +58,10 @@ Our proofs introduce novel spectral and linear-algebraic techniques based on sub
 
 ### 1.1 Chowla’s cosine problem
 
-In 1948, in the study of certain Dedekind zeta functions, Ankeny and Chowla came across the following question (see [23]): is it true that for every $K>0$ and sufficiently large $n>0$, if $a_1,\dots,a_n$ are distinct positive integers, then the minimum of the function $f(x)=\cos(a_1x)+\cdots+\cos(a_nx)$ is less than $-K$? Soon thereafter, Uchiyama and Uchiyama [85] answered this question affirmatively, but with poor quantitative dependencies, by observing the connection to Cohen’s work [25] on Littlewood’s $L_1$-problem. This problem asks to show that for each $n$-element set $A\subseteq\mathbb{Z}$, the $L_1$-norm of the Fourier transform of $\mathds{1}_A$ is bounded below by $\Omega(\log n)$, i.e.
+In 1948, in the study of certain Dedekind zeta functions, Ankeny and Chowla came across the following question (see [23]): is it true that for every $K>0$ and sufficiently large $n>0$, if $a_1,\dots,a_n$ are distinct positive integers, then the minimum of the function $f(x)=\cos(a_1x)+\cdots+\cos(a_nx)$ is less than $-K$? Soon thereafter, Uchiyama and Uchiyama [85] answered this question affirmatively, but with poor quantitative dependencies, by observing the connection to Cohen’s work [25] on Littlewood’s $L_1$-problem. This problem asks to show that for each $n$-element set $A\subseteq\mathbb{Z}$, the $L_1$-norm of the Fourier transform of $\mathbb{1}_A$ is bounded below by $\Omega(\log n)$, i.e.
 
 $$
-\|\widehat{\mathds{1}_A}\|_1=\int_0^1\left|\sum_{a\in A}e^{2\pi iax}\right|\,d\,x=\Omega(\log n).
+\|\widehat{\mathbb{1}_A}\|_1=\int_0^1\left|\sum_{a\in A}e^{2\pi iax}\right|\,d\,x=\Omega(\log n).
 $$
 
 Any lower bound on Littlewood’s $L_1$-problem gives a comparable upper bound for Chowla’s cosine problem, see [77] for a detailed derivation.
@@ -106,19 +106,19 @@ In Section A, we discuss further extensions of Chowla’s problem in arbitrary f
 
 Given a graph $G$, a *cut* in $G$ is a partition $(U,V)$ of the vertex set together with all the edges having exactly one endpoint in both parts. The *size of the cut* is the number of its edges. The *maximum cut* (or
 
-*MaxCut*) of $G$, denoted by $\mbox{mc}(G)$, is the largest possible size of a cut. The MaxCut is among the most extensively studied graph parameters, lying at the intersection of theoretical computer science [36, 47, 59], extremal combinatorics [2, 3, 34, 40] and probabilistic graph theory [27, 26, 31]. In theoretical computer science, one is usually interested in efficient approximations of the maximum cut, while in extremal combinatorics the emphasis is on establishing sharp bounds in terms of various graph parameters, such as the number of vertices or edges.
+*MaxCut*) of $G$, denoted by $\text{mc}(G)$, is the largest possible size of a cut. The MaxCut is among the most extensively studied graph parameters, lying at the intersection of theoretical computer science [36, 47, 59], extremal combinatorics [2, 3, 34, 40] and probabilistic graph theory [27, 26, 31]. In theoretical computer science, one is usually interested in efficient approximations of the maximum cut, while in extremal combinatorics the emphasis is on establishing sharp bounds in terms of various graph parameters, such as the number of vertices or edges.
 
-A simple probabilistic argument shows that every graph with $m$ edges has a cut of size at least $m/2$. Indeed, if one chooses a cut uniformly at random, its expected size is exactly $m/2$. The constant $1/2$ is best possible in general, and therefore it is often more natural to measure the *surplus* of a graph $G$, defined as $\surp(G)=\mbox{mc}(G)-m/2$. A fundamental result of Edwards [34, 35] asserts that any graph $G$ with $m$ edges satisfies $\mbox{mc}(G)\geq\frac{m}{2}+\frac{\sqrt{8m+1}-1}{8}$ or, equivalently, that $\surp(G)\geq\frac{\sqrt{8m+1}-1}{8}$, which is sharp when $G$ is a clique on an odd number of vertices.
+A simple probabilistic argument shows that every graph with $m$ edges has a cut of size at least $m/2$. Indeed, if one chooses a cut uniformly at random, its expected size is exactly $m/2$. The constant $1/2$ is best possible in general, and therefore it is often more natural to measure the *surplus* of a graph $G$, defined as $\operatorname{surp}(G)=\text{mc}(G)-m/2$. A fundamental result of Edwards [34, 35] asserts that any graph $G$ with $m$ edges satisfies $\text{mc}(G)\geq\frac{m}{2}+\frac{\sqrt{8m+1}-1}{8}$ or, equivalently, that $\operatorname{surp}(G)\geq\frac{\sqrt{8m+1}-1}{8}$, which is sharp when $G$ is a clique on an odd number of vertices.
 
-In general, if $G$ is a disjoint union of constantly many cliques, then its maximum cut is $m/2+O(\sqrt{m})$. This naturally raises the question: can one improve this bound if $G$ is far from being a disjoint union of cliques? One way to ensure that a graph is far from a disjoint union of cliques is to forbid some fixed graph $H$ as a subgraph. The study of the MaxCut, and in particular the surplus, in $H$-free graphs was initiated by Erdős and Lovász in the 1970’s [40]. A landmark result in the area is due to Alon [2], who proved that if a graph $G$ has $m$ edges and contains no triangles, then $\surp(G)=\Omega(m^{4/5})$, and this bound is tight. Two natural generalizations of this result are to consider graphs without short cycles, and graphs that avoid complete graphs $K_r$.
+In general, if $G$ is a disjoint union of constantly many cliques, then its maximum cut is $m/2+O(\sqrt{m})$. This naturally raises the question: can one improve this bound if $G$ is far from being a disjoint union of cliques? One way to ensure that a graph is far from a disjoint union of cliques is to forbid some fixed graph $H$ as a subgraph. The study of the MaxCut, and in particular the surplus, in $H$-free graphs was initiated by Erdős and Lovász in the 1970’s [40]. A landmark result in the area is due to Alon [2], who proved that if a graph $G$ has $m$ edges and contains no triangles, then $\operatorname{surp}(G)=\Omega(m^{4/5})$, and this bound is tight. Two natural generalizations of this result are to consider graphs without short cycles, and graphs that avoid complete graphs $K_r$.
 
-The surplus in graphs without short cycles has been studied extensively [3, 6, 12, 46], with tight bounds obtained in [12, 46]. On the other hand, determining the minimum surplus in $K_r$-free graphs is much more difficult. Alon, Bollobás, Krivelevich, and Sudakov [3] proved that for every $r$, there exists $\varepsilon_r>0$ such that every $K_r$-free graph has surplus at least $m^{1/2+\varepsilon_r}$. This was improved by Carlson, Kolla, Li, Mani, Sudakov, and Trevisan [21], and further strengthened by Glock, Janzer, and Sudakov [46], who proved $\surp(G)=\Omega_r\big(m^{\frac{1}{2}+\frac{3}{4r-2}}\big)$. Nevertheless, these bounds seem far from optimal: Alon, Bollobás, Krivelevich and Sudakov conjectured in [3] that the true bound should be $\surp(G)\geq m^{3/4+\varepsilon_r}$ for some $\varepsilon_r>0$. This conjecture remains open. For many years, it was a tantalizing open problem to find any absolute constant $\varepsilon>0$, independent of $r$, such that every $K_r$-free graph has surplus $\Omega_r(m^{1/2+\varepsilon})$. Glock, Janzer and Sudakov [46] write *“Arguably, the main open problem is to decide whether there exists a positive absolute constant $\varepsilon$ such that any $K_r$-free graph with $m$ edges has surplus $\Omega_r(m^{1/2+\varepsilon})$.”* Our next main result not only resolves this problem, but also shows that one can guarantee such a surplus by forbidding extremely large cliques as well.
+The surplus in graphs without short cycles has been studied extensively [3, 6, 12, 46], with tight bounds obtained in [12, 46]. On the other hand, determining the minimum surplus in $K_r$-free graphs is much more difficult. Alon, Bollobás, Krivelevich, and Sudakov [3] proved that for every $r$, there exists $\varepsilon_r>0$ such that every $K_r$-free graph has surplus at least $m^{1/2+\varepsilon_r}$. This was improved by Carlson, Kolla, Li, Mani, Sudakov, and Trevisan [21], and further strengthened by Glock, Janzer, and Sudakov [46], who proved $\operatorname{surp}(G)=\Omega_r\big(m^{\frac{1}{2}+\frac{3}{4r-2}}\big)$. Nevertheless, these bounds seem far from optimal: Alon, Bollobás, Krivelevich and Sudakov conjectured in [3] that the true bound should be $\operatorname{surp}(G)\geq m^{3/4+\varepsilon_r}$ for some $\varepsilon_r>0$. This conjecture remains open. For many years, it was a tantalizing open problem to find any absolute constant $\varepsilon>0$, independent of $r$, such that every $K_r$-free graph has surplus $\Omega_r(m^{1/2+\varepsilon})$. Glock, Janzer and Sudakov [46] write *“Arguably, the main open problem is to decide whether there exists a positive absolute constant $\varepsilon$ such that any $K_r$-free graph with $m$ edges has surplus $\Omega_r(m^{1/2+\varepsilon})$.”* Our next main result not only resolves this problem, but also shows that one can guarantee such a surplus by forbidding extremely large cliques as well.
 
 **Theorem 1.3.** *For every $\delta>0$ there exists $\varepsilon>0$ such that the following holds for every sufficiently large $m$. Let $G$ be a graph with $m$ edges such that $G$ contains no clique of size $m^{1/2-\delta}$. Then $G$ has a cut of size at least $\frac{m}{2}+m^{1/2+\varepsilon}$.*
 
 In the very extreme case, Balla, Hambardzumyan, and Tomon [11] recently showed that graphs with clique number $o(\sqrt{m})$ already have surplus $\omega(m^{1/2})$. Despite the similarity between this result and the previous theorem, there is no implication between the two due to the hidden dependencies. The methods achieving these results are also very different, despite both being algebraic in nature.
 
-There is a close relationship between the MaxCut of a graph $G$ and its smallest eigenvalue. It is well known that $\surp(G)\leq|\lambda_{n}|n$ (see e.g. Claim 5.1 for a short proof). A good way to think about the surplus is as a robust version of the smallest eigenvalue: in many natural cases $\surp(G)=\Theta(|\lambda_{n}|n)$, but $\surp(G)$ is much less sensitive to local modifications and harder to study.
+There is a close relationship between the MaxCut of a graph $G$ and its smallest eigenvalue. It is well known that $\operatorname{surp}(G)\leq|\lambda_{n}|n$ (see e.g. Claim 5.1 for a short proof). A good way to think about the surplus is as a robust version of the smallest eigenvalue: in many natural cases $\operatorname{surp}(G)=\Theta(|\lambda_{n}|n)$, but $\operatorname{surp}(G)$ is much less sensitive to local modifications and harder to study.
 
 The proof of Theorem 1.3 is presented in Section 10. In Section B, we discuss a variant of Theorem 1.3 which shows that graphs that are far from the disjoint union of cliques also have large surplus.
 
@@ -154,9 +154,9 @@ In its precise formulation, the Alon–Boppana theorem states that if $D$ is the
 
 In the case where the diameter $D$ is at most three, which can already happen if $d\approx n^{1/3}$, the Alon–Boppana bound is no longer meaningful. Also, one cannot hope for the bound $\lambda_2=\Omega(\sqrt{d})$ to hold unconditionally; for example the complete bipartite graph has $\lambda_2=0$. Recently, a number of authors [10, 13, 56, 74] studied the second eigenvalue in the case of denser graphs, and uncovered some highly unexpected behavior of its extremal value. In particular, [10, 74] (see [13] for a short note) proved that
 
-$$\lambda_2=\begin{cases}\Omega(d^{1/2})&\mbox{if }d\leq n^{2/3},\\
-\Omega(n/d)&\mbox{if }d\in[n^{2/3},n^{3/4}],\\
-\Omega(d^{1/3})&\mbox{if }d\in[n^{3/4},(1/2-\varepsilon)n].\end{cases}$$
+$$\lambda_2=\begin{cases}\Omega(d^{1/2})&\text{if }d\leq n^{2/3},\\
+\Omega(n/d)&\text{if }d\in[n^{2/3},n^{3/4}],\\
+\Omega(d^{1/3})&\text{if }d\in[n^{3/4},(1/2-\varepsilon)n].\end{cases}$$
 
 Moreover, these bounds are (essentially) sharp in the first two regimes, and also in case $d=\Omega(n)$ [29]. As we observed earlier, if $d=n/2$, we might have $\lambda_2=0$ by the complete bipartite graph. In general, when $d=(1-1/r)n$ for some positive integer $r$, the *Turán graph* $T_r(n)$ (the complete $r$-partite graph with parts of size $n/r$) is $d$-regular and satisfies $\lambda_2=0$.
 
@@ -206,7 +206,7 @@ In order to prove our results concerning graphs with small maximum cut, that is,
 
 ## 3 Chowla’s cosine problem
 
-In this section, we give a short proof of Theorem 1.1, assuming Theorem 1.2. We begin the section by recalling some standard notation. Let $\Gamma$ be a finite group, $A\subset \Gamma$ be a symmetric subset (i.e. a set satisfying $A=A^{-1}$), and let $G=\operatorname{Cay}(\Gamma,A)$. Recall that $\operatorname{Cay}(\Gamma,A)$ is the *Cayley graph* on $\Gamma$ generated by $A$, that is, the graph on vertex set $\Gamma$ in which $x,y\in \Gamma$ are joined by an edge if $xy^{-1}\in A$. If $\Gamma$ is abelian, it is well known that the eigenvalues of $G$ are the values of the discrete Fourier transform $\widehat{\mathds{1}_A}$. In the special case $\Gamma=\mathbb{Z}/n\mathbb{Z}$, this gives that the eigenvalues of the Cayley graph are
+In this section, we give a short proof of Theorem 1.1, assuming Theorem 1.2. We begin the section by recalling some standard notation. Let $\Gamma$ be a finite group, $A\subset \Gamma$ be a symmetric subset (i.e. a set satisfying $A=A^{-1}$), and let $G=\operatorname{Cay}(\Gamma,A)$. Recall that $\operatorname{Cay}(\Gamma,A)$ is the *Cayley graph* on $\Gamma$ generated by $A$, that is, the graph on vertex set $\Gamma$ in which $x,y\in \Gamma$ are joined by an edge if $xy^{-1}\in A$. If $\Gamma$ is abelian, it is well known that the eigenvalues of $G$ are the values of the discrete Fourier transform $\widehat{\mathbb{1}_A}$. In the special case $\Gamma=\mathbb{Z}/n\mathbb{Z}$, this gives that the eigenvalues of the Cayley graph are
 
 $$
 \sum_{a\in A}e^{\frac{2\pi i}{n}\cdot a\xi}=\sum_{a\in A}\cos\left(\frac{2\pi a\xi}{n}\right)
@@ -220,7 +220,7 @@ $$
 \sum_{a\in A}\cos(ax)\leq-\Omega(|A|^{1/10-o(1)}).
 $$
 
-*Proof.* Let $n>4\max A$ be a prime, and let $G=\Cay(\mathbb{Z}/n\mathbb{Z},A\cup-A)$. Then $G$ is an $n$-vertex $d$-regular graph with $d=2|A|$. Every $\xi\in\mathbb{Z}/n\mathbb{Z}$ corresponds to an eigenvalue of $G$ given by
+*Proof.* Let $n>4\max A$ be a prime, and let $G=\operatorname{Cay}(\mathbb{Z}/n\mathbb{Z},A\cup-A)$. Then $G$ is an $n$-vertex $d$-regular graph with $d=2|A|$. Every $\xi\in\mathbb{Z}/n\mathbb{Z}$ corresponds to an eigenvalue of $G$ given by
 
 $$
 \lambda_\xi=\sum_{a\in A\cup-A}e^{2\pi ia\xi/n}=2\sum_{a\in A}\cos\left(\frac{2\pi a\xi}{n}\right).
@@ -255,8 +255,10 @@ $$
 Then $\|v\|_2=1$ and thus
 
 $$
-\mu\leq v^T Bv=2\sum_{xy\in E(G)}v(x)v(y)=-\sqrt{\frac{k}{2}}-\frac{1}{2}<-\sqrt{\frac{k}{2}}.\hfill\Box
+\mu\leq v^T Bv=2\sum_{xy\in E(G)}v(x)v(y)=-\sqrt{\frac{k}{2}}-\frac{1}{2}<-\sqrt{\frac{k}{2}}.
 $$
+
+$\square$
 
 By Claim 3.3 and Cauchy’s interlacing theorem (cf. Section 4), $G$ does not contain $H_k$ as an induced subgraph for $k=2d^{2\gamma}=2d^{1/5-2\varepsilon}$. As $G[S]$ is a clique with $|S|>2k$, each vertex of $G$ sends either at most $k$ edges to $S$, or at least $|S|-k$ edges. We prove that every vertex in $G$ must send at least $|S|-k$ edges to $S$. This easily leads to a contradiction for $n$ sufficiently large: this implies that there are at least $(n-|S|)(|S|-k)\geq\frac{n}{2}\cdot\frac{|S|}{2}>d|S|$ edges with an endpoint in $S$, contradicting that $G$ is $d$-regular.
 
@@ -274,7 +276,7 @@ $\square$
 
 We recall some basic facts and standard notation from linear algebra and graph theory. The *edge density* of an $n$-vertex graph $G$ is $m/\binom{n}{2}$, where $m=e(G)$ is the number of edges. Given a subset $U$ of the vertices, $G[U]$ denotes the subgraph of $G$ induced on vertex set $U$. Also, if $V \subset V(G)$ is disjoint from $U$, then $G[U,V]$ is the bipartite subgraph of $V(G)$ induced between $U$ and $V$. The *complement* of $G$ is denoted by $\overline{G}$. The *maximum degree* of $G$ is denoted by $\Delta(G)$, and the average degree by $d(G)$. We will often identify the set of vertices of $G$ with $[n]=\{1,2,\dots,n\}$.
 
-The *MaxCut* of $G$, denoted by $\mbox{mc}(G)$, is the maximum size of a cut, where a *cut* is a partition $(U,V)$ of the vertices into two parts, with all the edges having exactly one endpoint in both parts. The size of a cut is the number of its edges. The *surplus* of $G$ is defined as $\surp(G)=\mbox{mc}(G)-m/2$, where $m$ is the number of edges of $G$. Note that $\surp(G)$ is always nonnegative. A useful property of the surplus is that if $G_0$ is an induced subgraph of $G$, then $\surp(G_0)\leq\surp(G)$, see e.g. [46].
+The *MaxCut* of $G$, denoted by $\text{mc}(G)$, is the maximum size of a cut, where a *cut* is a partition $(U,V)$ of the vertices into two parts, with all the edges having exactly one endpoint in both parts. The size of a cut is the number of its edges. The *surplus* of $G$ is defined as $\operatorname{surp}(G)=\text{mc}(G)-m/2$, where $m$ is the number of edges of $G$. Note that $\operatorname{surp}(G)$ is always nonnegative. A useful property of the surplus is that if $G_0$ is an induced subgraph of $G$, then $\operatorname{surp}(G_0)\leq\operatorname{surp}(G)$, see e.g. [46].
 
 Given an $n \times n$ real symmetric matrix $M$, we denote by $\lambda_1(M)\geq\dots\geq\lambda_n(M)$ the eigenvalues of $M$ with multiplicity. If $G$ is an $n$-vertex graph whose adjacency matrix is $A$, then we denote by $\lambda_i=\lambda_i(A)$ the eigenvalues of $A$, sometimes also calling them the eigenvalues of $G$. We also denote by $v_1,\dots,v_n$ a corresponding orthonormal basis of eigenvectors (all vectors in this paper will be column vectors by default). By the Perron–Frobenius theorem, we may take $v_1$ to be a vector with non-negative entries, which we call the *principal eigenvector* of $A$. Furthermore, the corresponding eigenvalue satisfies $d(G)\leq\lambda_1\leq\Delta(G)$. See the survey [28] as a general reference on the principal eigenvector.
 
@@ -286,7 +288,7 @@ For a proof of this result, see e.g. [42]. Crucially, this implies that if $G$ i
 
 Given two $n \times n$ matrices $A$ and $B$, their scalar product is defined as
 
-$$\langle A,B\rangle=\trace(AB^{T})=\sum_{1\leq i,j\leq n}A_{i,j}B_{i,j}.$$
+$$\langle A,B\rangle=\operatorname{tr}(AB^{T})=\sum_{1\leq i,j\leq n}A_{i,j}B_{i,j}.$$
 
 The *Frobenius-norm* of an $n \times n$ matrix $A$ is
 
@@ -316,7 +318,7 @@ Throughout our proofs, we omit the use of floors and ceilings whenever they are 
 
 In this section, we present bounds on the MaxCut of a graph in terms of its spectrum. These inequalities are crucial for transferring our results for the smallest eigenvalue to the MaxCut setting.
 
-**Claim 5.1.** *For an $n$-vertex graph $G$ with smallest eigenvalue $\lambda_n$, we have $\surp(G)\leq|\lambda_n|n/4$.*
+**Claim 5.1.** *For an $n$-vertex graph $G$ with smallest eigenvalue $\lambda_n$, we have $\operatorname{surp}(G)\leq|\lambda_n|n/4$.*
 
 *Proof.* Let $A$ be the adjacency matrix of $G$. We can assign a vector with entries $\pm1$ to each cut $V(G)=X\cup Y$, by setting $x_u=1$ if $u\in X$ and $x_u=-1$ otherwise. Then, the surplus of this cut equals
 
@@ -327,22 +329,22 @@ $$
 Hence, we have
 
 $$
-\surp(G)=\frac{1}{4}\max_{x\in\{-1,1\}^n}-x^TAx=\frac{1}{4}\max_{x\in[-1,1]^n}-x^TAx.
+\operatorname{surp}(G)=\frac{1}{4}\max_{x\in\{-1,1\}^n}-x^TAx=\frac{1}{4}\max_{x\in[-1,1]^n}-x^TAx.
 $$
 
-Note that $-x^TAx\leq|\lambda_n|\|x\|_2^2$ for every vector $x\in\mathbb{R}^n$, so $\surp(G)\leq\frac{1}{4}|\lambda_n|\sqrt{n}^{2}=|\lambda_n|n/4$. $\square$
+Note that $-x^TAx\leq|\lambda_n|\|x\|_2^2$ for every vector $x\in\mathbb{R}^n$, so $\operatorname{surp}(G)\leq\frac{1}{4}|\lambda_n|\sqrt{n}^{2}=|\lambda_n|n/4$. $\square$
 
-The key ingredient of the above proof is the relation $\surp(G)=\frac{1}{4}\max_{x\in[-1,1]^n}-x^TAx$. This can also be written as $\surp(G)=\frac{1}{4}\max_{x\in[-1,1]^n}\langle-A,xx^T\rangle$, where we observe that $xx^T$ is a positive-semidefinite matrix with diagonal entries bounded by $1$. Based on this, we define the semidefinite relaxation of the surplus as follows. Given an $n$-vertex graph $G$ with adjacency matrix $A$, define
+The key ingredient of the above proof is the relation $\operatorname{surp}(G)=\frac{1}{4}\max_{x\in[-1,1]^n}-x^TAx$. This can also be written as $\operatorname{surp}(G)=\frac{1}{4}\max_{x\in[-1,1]^n}\langle-A,xx^T\rangle$, where we observe that $xx^T$ is a positive-semidefinite matrix with diagonal entries bounded by $1$. Based on this, we define the semidefinite relaxation of the surplus as follows. Given an $n$-vertex graph $G$ with adjacency matrix $A$, define
 
 $$
-\surp^*(G)=\max_X-\langle A,X\rangle,
+\operatorname{surp}^*(G)=\max_X-\langle A,X\rangle,
 $$
 
-where the maximum is taken over all $n\times n$ positive semidefinite matrices $X$ such that $X_{i,i}\leq1$ for every $i\in[n]$. The following inequality between $\surp(G)$ and $\surp^*(G)$ can be found in [75], and it is a simple application of the graph Grothendieck inequality of Charikar and Wirth [22].
+where the maximum is taken over all $n\times n$ positive semidefinite matrices $X$ such that $X_{i,i}\leq1$ for every $i\in[n]$. The following inequality between $\operatorname{surp}(G)$ and $\operatorname{surp}^*(G)$ can be found in [75], and it is a simple application of the graph Grothendieck inequality of Charikar and Wirth [22].
 
-**Lemma 5.2 ([75]).** *For every graph $G$, we have $\surp^*(G)\geq\surp(G)\geq\Omega\left(\frac{\surp^*(G)}{\log n}\right)$.*
+**Lemma 5.2 ([75]).** *For every graph $G$, we have $\operatorname{surp}^*(G)\geq\operatorname{surp}(G)\geq\Omega\left(\frac{\operatorname{surp}^*(G)}{\log n}\right)$.*
 
-The semidefinite relaxation $\surp^*(G)$ allows us to obtain lower bounds on the surplus using the negative eigenvalues of a graph $G$. Parts of the following lemma and similar bounds can be also found in [74, 75]. Given a graph $G$, let
+The semidefinite relaxation $\operatorname{surp}^*(G)$ allows us to obtain lower bounds on the surplus using the negative eigenvalues of a graph $G$. Parts of the following lemma and similar bounds can be also found in [74, 75]. Given a graph $G$, let
 
 $$
 \Delta^*(G):=\min\{\Delta(G),\Delta(\overline{G})\}.
@@ -351,15 +353,15 @@ $$
 **Lemma 5.3.** *There exists an absolute constant $c>0$ such that the following holds. Let $G$ be a graph on $n$ vertices with eigenvalues $\lambda_i=\lambda_i(G)$, and let $\Delta^*=\Delta^*(G)$. Then*
 
 $$
-\text{(i)}\qquad \surp^*(G)\geq\sum_{\lambda_i<0}|\lambda_i|
+\text{(i)}\qquad \operatorname{surp}^*(G)\geq\sum_{\lambda_i<0}|\lambda_i|
 $$
 
 $$
-\text{(ii)}\qquad \surp^*(G)\geq\frac{c}{\sqrt{\Delta^*+1}}\sum_{\lambda_i<0}\lambda_i^2
+\text{(ii)}\qquad \operatorname{surp}^*(G)\geq\frac{c}{\sqrt{\Delta^*+1}}\sum_{\lambda_i<0}\lambda_i^2
 $$
 
 $$
-\text{(iii)}\qquad \surp^*(G)\geq\frac{c}{\Delta^*+1}\sum_{\lambda_i<0}|\lambda_i|^3.
+\text{(iii)}\qquad \operatorname{surp}^*(G)\geq\frac{c}{\Delta^*+1}\sum_{\lambda_i<0}|\lambda_i|^3.
 $$
 
 Before we prove Lemma 5.3, we briefly discuss two preliminary results. First, we show that the entries of eigenvectors corresponding to large eigenvalues are smoothly distributed. Then, we show that the entries of the principal eigenvector are especially well behaved.
@@ -404,7 +406,7 @@ $$
 
 where we used $\lambda_1^2\geq d^2\geq(9/10)^2(n-1)^2\geq(2/3)n^2$ in the end. Cancelling $\lambda_1$ gives $v_1(i)\geq\frac{1-3\bar{\Delta}/n}{\sqrt{n}}$. $\square$
 
-*Proof of Theorem 5.3.* We begin by showing the inequalities $(i)$ and $(iii)$, which we then combine to derive $(ii)$. Let $v_1,\ldots,v_n$ be an orthonormal basis of eigenvectors corresponding to the eigenvalues $\lambda_1,\ldots,\lambda_n$; so $A=\sum_{i=1}^n\lambda_i v_i v_i^T$. The inequalities $(i)$ and $(iii)$ will be shown by plugging in the appropriate test matrix $X$ in the formula $\surp^*(G)=\max_X-\langle A,X\rangle$. Observe that, if we choose $X=\sum_{i=1}^n\alpha_i v_i v_i^T$ for some real numbers $\alpha_1,\ldots,\alpha_n$, then
+*Proof of Theorem 5.3.* We begin by showing the inequalities $(i)$ and $(iii)$, which we then combine to derive $(ii)$. Let $v_1,\ldots,v_n$ be an orthonormal basis of eigenvectors corresponding to the eigenvalues $\lambda_1,\ldots,\lambda_n$; so $A=\sum_{i=1}^n\lambda_i v_i v_i^T$. The inequalities $(i)$ and $(iii)$ will be shown by plugging in the appropriate test matrix $X$ in the formula $\operatorname{surp}^*(G)=\max_X-\langle A,X\rangle$. Observe that, if we choose $X=\sum_{i=1}^n\alpha_i v_i v_i^T$ for some real numbers $\alpha_1,\ldots,\alpha_n$, then
 
 $$
 \langle A,X\rangle=\sum_{i=1}^n\sum_{j=1}^n\alpha_i\lambda_j\langle v_i v_i^T,v_j v_j^T\rangle=\sum_{i=1}^n\sum_{j=1}^n\alpha_i\lambda_j\langle v_i,v_j\rangle^2=\sum_{i=1}^n\alpha_i\lambda_i.
@@ -419,10 +421,10 @@ $$
 Therefore,
 
 $$
-\surp^*(G)\geq-\langle A,X\rangle=\sum_{\lambda_i<0}|\lambda_i|.
+\operatorname{surp}^*(G)\geq-\langle A,X\rangle=\sum_{\lambda_i<0}|\lambda_i|.
 $$
 
-$(iii)$ Let $\beta=\frac{1}{120(\Delta^*+1)}$, and $X=\beta\sum_{\lambda_i<0}\lambda_i^2v_i v_i^T$. Then $X$ is positive semidefinite. It is enough to prove that the diagonal entries of $X$ are bounded by $1$, as then $\surp^*(G)\geq-\langle A,X\rangle=\beta\sum_{\lambda_i<0}|\lambda_i|^3$.
+$(iii)$ Let $\beta=\frac{1}{120(\Delta^*+1)}$, and $X=\beta\sum_{\lambda_i<0}\lambda_i^2v_i v_i^T$. Then $X$ is positive semidefinite. It is enough to prove that the diagonal entries of $X$ are bounded by $1$, as then $\operatorname{surp}^*(G)\geq-\langle A,X\rangle=\beta\sum_{\lambda_i<0}|\lambda_i|^3$.
 
 First, consider the (easier) case $\Delta^*=\Delta(G)$. Observe that
 
@@ -432,7 +434,7 @@ $$
 
 is positive semidefinite, so the diagonal entries of $X$ are dominated by those of $\beta A^2$, which are simply the degrees in $G$. So, $X_{i,i}\leq\beta(A^2)_{i,i}\leq\beta\Delta\leq1$, as claimed.
 
-Next, consider the case $\Delta^*=\Delta(\overline{G})$. We may assume that the edge density of $\overline{G}$ is less than $1/10$, otherwise $\Delta^*=\Omega(n)$, and the previous case implies $\surp^*(G)=\Omega\left(\frac{1}{n}\sum_{\lambda_i<0}|\lambda_i|^3\right)$. To show that $X_{i,i}\leq1$, we analyse the matrix $B=A-\lambda_1v_1v_1^T$. Since
+Next, consider the case $\Delta^*=\Delta(\overline{G})$. We may assume that the edge density of $\overline{G}$ is less than $1/10$, otherwise $\Delta^*=\Omega(n)$, and the previous case implies $\operatorname{surp}^*(G)=\Omega\left(\frac{1}{n}\sum_{\lambda_i<0}|\lambda_i|^3\right)$. To show that $X_{i,i}\leq1$, we analyse the matrix $B=A-\lambda_1v_1v_1^T$. Since
 
 $$
 \beta B^2-X=\beta\sum_{i\ne1,\lambda_i>0}\lambda_i^2v_i v_i^T,
@@ -458,25 +460,27 @@ $$
 (B^2)_{i,i}=\sum_{j=1}^{n}(B_{i,j})^2\leq64(\Delta^*+1)+n\frac{49(\Delta^*+1)^2}{n^2}\leq120(\Delta^*+1).
 $$
 
-$(ii)$ We show that $(i)$ and $(iii)$ can be combined to give the desired lower bound on $\surp^*(G)$. Namely, we have
+$(ii)$ We show that $(i)$ and $(iii)$ can be combined to give the desired lower bound on $\operatorname{surp}^*(G)$. Namely, we have
 
 $$
-\surp^*(G)^2\geq\beta\left(\sum_{\lambda_i<0}|\lambda_i|^3\right)\left(\sum_{\lambda_i<0}|\lambda_i|\right)\geq\beta\left(\sum_{\lambda_i<0}\lambda_i^2\right)^2.
+\operatorname{surp}^*(G)^2\geq\beta\left(\sum_{\lambda_i<0}|\lambda_i|^3\right)\left(\sum_{\lambda_i<0}|\lambda_i|\right)\geq\beta\left(\sum_{\lambda_i<0}\lambda_i^2\right)^2.
 $$
 
-Note that the first inequality is the combination of $(i)$ and $(iii)$, while the second one is simply the Cauchy–Schwartz inequality applied to the sequences $(|\lambda_i|^3)_{\lambda_i<0}$ and $(|\lambda_i|)_{\lambda_i<0}$. Taking square roots then proves $(ii)$. \hfill$\square$
+Note that the first inequality is the combination of $(i)$ and $(iii)$, while the second one is simply the Cauchy–Schwartz inequality applied to the sequences $(|\lambda_i|^3)_{\lambda_i<0}$ and $(|\lambda_i|)_{\lambda_i<0}$. Taking square roots then proves $(ii)$. $\square$
 
-Finally, we remark two simple, but important properties of $\surp^{*}(\cdot)$, that will be used repeatedly.
+Finally, we remark two simple, but important properties of $\operatorname{surp}^{*}(\cdot)$, that will be used repeatedly.
 
-**Claim 5.6.** *If $G'$ is an induced subgraph of $G$, then $\surp^{*}(G') \leq \surp^{*}(G)$.*
+**Claim 5.6.** *If $G'$ is an induced subgraph of $G$, then $\operatorname{surp}^{*}(G') \leq \operatorname{surp}^{*}(G)$.*
 
-*Proof.* Write $A'$ for the adjacency matrix of $G'$, and let $X' \in \mathbb{R}^{V(G')\times V(G')}$ be a matrix such that $X'$ is positive semidefinite, $X'_{i,i}\leq 1$ for every $i\in V(G')$, and $\surp^{*}(G')=-\langle A',X'\rangle$. Then, write $A$ for the adjacency matrix of $G$ and let $X\in\mathbb{R}^{V(G)\times V(G)}$ be the matrix that agrees with $X'$ on every entry $(x,y)\in V(G')\times V(G')$, and zero everywhere else. Then
+*Proof.* Write $A'$ for the adjacency matrix of $G'$, and let $X' \in \mathbb{R}^{V(G')\times V(G')}$ be a matrix such that $X'$ is positive semidefinite, $X'_{i,i}\leq 1$ for every $i\in V(G')$, and $\operatorname{surp}^{*}(G')=-\langle A',X'\rangle$. Then, write $A$ for the adjacency matrix of $G$ and let $X\in\mathbb{R}^{V(G)\times V(G)}$ be the matrix that agrees with $X'$ on every entry $(x,y)\in V(G')\times V(G')$, and zero everywhere else. Then
 
 $$
-\surp^{*}(G)\geq-\langle A,X\rangle=-\langle A',X'\rangle=\surp^{*}(G').\hfill\square
+\operatorname{surp}^{*}(G)\geq-\langle A,X\rangle=-\langle A',X'\rangle=\operatorname{surp}^{*}(G').
 $$
 
-**Claim 5.7.** *If $G$ is an $n$-vertex graph with smallest eigenvalue $\lambda_n$, then $\surp^{*}(G)\leq|\lambda_n|n$.*
+$\square$
+
+**Claim 5.7.** *If $G$ is an $n$-vertex graph with smallest eigenvalue $\lambda_n$, then $\operatorname{surp}^{*}(G)\leq|\lambda_n|n$.*
 
 *Proof.* Let $X\in\mathbb{R}^{n\times n}$ be a positive semidefinite matrix such that $X_{i,i}\leq 1$ for every $i\in[n]$. Let $A=\sum_{i=1}^{n}\lambda_i v_i v_i^T$ be the spectral decomposition of $A$, then
 
@@ -484,7 +488,7 @@ $$
 -\langle A,X\rangle=-\sum_{i=1}^{n}\lambda_i\langle v_i v_i^T,X\rangle\leq\sum_{i=1}^{n}|\lambda_n|\langle v_i v_i^T,X\rangle=|\lambda_n|\langle I,X\rangle\leq|\lambda_n|n.
 $$
 
-In the first inequality, we used that $\langle v_i v_i^T,X\rangle=v_i^T Xv_i\geq 0$ as $X$ is positive semidefinite. \hfill$\square$
+In the first inequality, we used that $\langle v_i v_i^T,X\rangle=v_i^T Xv_i\geq 0$ as $X$ is positive semidefinite. $\square$
 
 ## 6 Main lemmas
 
@@ -556,8 +560,10 @@ $$
 *Proof.* We have
 
 $$
-\operatorname{tr}_W(A)=\sum_{i=1}^{n}\lambda_i\|\Pi_Wv_i\|_2^2\leq\sum_{\lambda_i\geq K}\lambda_i+K\sum_{i=1}^{n}\|\Pi_Wv_i\|_2^2=S_K+K\dim(W).\hfill\square
+\operatorname{tr}_W(A)=\sum_{i=1}^{n}\lambda_i\|\Pi_Wv_i\|_2^2\leq\sum_{\lambda_i\geq K}\lambda_i+K\sum_{i=1}^{n}\|\Pi_Wv_i\|_2^2=S_K+K\dim(W).
 $$
+
+$\square$
 
 ### 6.1 Main lemma – smallest eigenvalue version
 
@@ -586,7 +592,7 @@ $$
 \geq\frac{1}{n}\left(\sum_{\lambda_i\geq T}\sum_{k=1}^{n}\lambda_i v_i(k)^2\right)^2,
 $$
 
-where the inequality comes from the inequality between the quadratic and arithmetic mean. Since the eigenvectors are of unit length, we have $\sum_{k=1}^{n}v_i(k)^2=1$ for all $i$. Hence, the right-hand-side is equal to $\frac{1}{n}S_T^2$, finishing the proof. \hfill\qed
+where the inequality comes from the inequality between the quadratic and arithmetic mean. Since the eigenvectors are of unit length, we have $\sum_{k=1}^{n}v_i(k)^2=1$ for all $i$. Hence, the right-hand-side is equal to $\frac{1}{n}S_T^2$, finishing the proof. $\square$
 
 *Proof of Theorem 6.3.* The main idea is to analyse the identity $A=A\circ A$ using the spectral decomposition of $A$. In fact, (3) can be deduced by considering the $W$-traces of both sides of this identity for an appropriately chosen $W$. More precisely, in order to isolate the contribution of large eigenvalues, we define $W$ to be the subspace generated by those vectors $v_i\circ v_j$, where $\lambda_i$ and $\lambda_j$ are both at least $T$, i.e.
 
@@ -594,12 +600,12 @@ $$
 W=\langle v_i\circ v_j:\lambda_i,\lambda_j\geq T\rangle.
 $$
 
-Then, Theorem 6.2 applied with $K=\frac{T^2}{2n}$ implies that $\trace_W(A)\leq S_{\frac{T^2}{2n}}+\frac{T^2}{2n}\dim(W)$. On the other hand, we can lower-bound $\trace_W(A\circ A)$ as follows.
+Then, Theorem 6.2 applied with $K=\frac{T^2}{2n}$ implies that $\operatorname{tr}_W(A)\leq S_{\frac{T^2}{2n}}+\frac{T^2}{2n}\dim(W)$. On the other hand, we can lower-bound $\operatorname{tr}_W(A\circ A)$ as follows.
 
 **Claim 6.5.**
 
 $$
-\trace_W(A\circ A)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).
+\operatorname{tr}_W(A\circ A)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).
 $$
 
 *Proof.* We can rewrite $A\circ A$ as
@@ -615,7 +621,7 @@ Thus, the $W$-trace of $A\circ A$ can be computed as follows
 
 $$
 \begin{aligned}
-\trace_W(A\circ A)&=\sum_{i,j}(\lambda_i+|\lambda_n|)(\lambda_j+|\lambda_n|)\trace_W\big((v_i\circ v_j)(v_i\circ v_j)^T\big)-\lambda_n^2\trace_W(I)\\
+\operatorname{tr}_W(A\circ A)&=\sum_{i,j}(\lambda_i+|\lambda_n|)(\lambda_j+|\lambda_n|)\operatorname{tr}_W\big((v_i\circ v_j)(v_i\circ v_j)^T\big)-\lambda_n^2\operatorname{tr}_W(I)\\
 &=\sum_{i,j}(\lambda_i+|\lambda_n|)(\lambda_j+|\lambda_n|)\big\|\Pi_Wv_i\circ v_j\big\|_2^2-\lambda_n^2\dim(W).
 \end{aligned}
 $$
@@ -629,20 +635,24 @@ $$
 Also, each term in the sum is nonnegative, so if $\lambda_i<T$ or $\lambda_j<T$, we simply lower bound the contribution of $(\lambda_i+|\lambda_n|)(\lambda_j+|\lambda_n|)\|\Pi_Wv_i\circ v_j\|_2^2$ by 0. Finally, using Theorem 6.4, we get
 
 $$
-\trace_W(A\circ A)\geq\sum_{\lambda_i,\lambda_j\geq T}\lambda_i\lambda_j\|v_i\circ v_j\|_2^2-\lambda_n^2\dim(W)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).\hfill\qed
+\operatorname{tr}_W(A\circ A)\geq\sum_{\lambda_i,\lambda_j\geq T}\lambda_i\lambda_j\|v_i\circ v_j\|_2^2-\lambda_n^2\dim(W)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).
 $$
+
+$\square$
 
 We now complete the proof of inequality (3). We have
 
 $$
-S_{\frac{T^2}{2n}}+\frac{T^2}{2n}\dim(W)\geq\trace_W(A)=\trace_W(A\circ A)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).
+S_{\frac{T^2}{2n}}+\frac{T^2}{2n}\dim(W)\geq\operatorname{tr}_W(A)=\operatorname{tr}_W(A\circ A)\geq\frac{S_T^2}{n}-\lambda_n^2\dim(W).
 $$
 
 Note that $W$ has at most $N_T^2$ generators, so $\dim(W)\leq N_T^2=\frac{S_T^2}{T^2}$. Finally, $|\lambda_n|^2\leq T^2/4n$ and thus the previous inequality implies
 
 $$
-S_{\frac{T^2}{2n}}\geq\frac{S_T^2}{n}-\left(\frac{T^2}{2n}+\lambda_n^2\right)\dim(W)\geq\frac{S_T^2}{n}-\frac{3T^2}{4n}\cdot\frac{S_T^2}{T^2}=\frac{S_T^2}{4n}.\hfill\qed
+S_{\frac{T^2}{2n}}\geq\frac{S_T^2}{n}-\left(\frac{T^2}{2n}+\lambda_n^2\right)\dim(W)\geq\frac{S_T^2}{n}-\frac{3T^2}{4n}\cdot\frac{S_T^2}{T^2}=\frac{S_T^2}{4n}.
 $$
+
+$\square$
 
 ## 6.2 Main lemma – MaxCut version
 
@@ -684,7 +694,7 @@ Let $J\subset[n]$ be the set of indices $i$ such that $E_{i,i}>\beta$. Note that
 
 **Claim 6.7.** $|J|\leq Q/\beta$.
 
-*Proof.* By Lemma 5.3 (i), we have $\sum_{i=1}^{n}E_{i,i}=\operatorname{tr}(E)=\sum_{\lambda_i<0}|\lambda_i|\leq Q$. Hence, the sum $\sum_{i=1}^{n}E_{i,i}$ contains at most $Q/\beta$ terms larger than $\beta$. \hfill$\square$
+*Proof.* By Lemma 5.3 (i), we have $\sum_{i=1}^{n}E_{i,i}=\operatorname{tr}(E)=\sum_{\lambda_i<0}|\lambda_i|\leq Q$. Hence, the sum $\sum_{i=1}^{n}E_{i,i}$ contains at most $Q/\beta$ terms larger than $\beta$. $\square$
 
 Let $Y<\mathbb{R}^n$ be the subspace of vectors that vanish on $J$, that is,
 
@@ -814,7 +824,7 @@ $$
 S_{\frac{T^2}{2n}}+\frac{S_T^2}{2n}\geq\operatorname{tr}_W(A)=\operatorname{tr}_W(A\circ A)\geq\frac{3S_T^2}{4n}.
 $$
 
-\hfill$\square$
+$\square$
 
 ### 6.3 Recursion
 
@@ -955,13 +965,13 @@ As $\frac{u}{1-u}=\frac{\gamma}{q-\gamma}=\frac{2\gamma}{1-4\gamma}$, this finis
 
 In the next lemma, we show how to handle the case when $G$ has some vertices of too large degrees.
 
-**Lemma 7.2.** Let $C>2$ and $G$ be an $n$-vertex graph of average degree $d$ with $\surp(G)\leq\frac{dn}{100}$. Then either
+**Lemma 7.2.** Let $C>2$ and $G$ be an $n$-vertex graph of average degree $d$ with $\operatorname{surp}(G)\leq\frac{dn}{100}$. Then either
 
 (i) $G$ contains a subgraph on $n/C$ vertices of average degree at least $Cd/5$.
 
 (ii) $G$ contains a subgraph on at least $n/2$ vertices with average degree at least $d/4$, and maximum degree at most $Cd$.
 
-*Proof.* Let $X\subset V(G)$ be the set of vertices of degree more than $Cd$, then $|X|\le n/C$. Let $Y=V(G)\setminus X$. The maximum degree of $G[Y]$ is at most $Cd$, so if $G[Y]$ has average degree at least $d/4$, then (ii) holds. Otherwise, $G[Y]$ has at most $nd/8$ edges. Moreover, $e(G[X,Y])\leq\frac{e(G)}{2}+\surp(G)\leq\frac{dn}{4}+\frac{dn}{100}=0.26dn$. Hence, $G[X]$ contains at least $dn/2-dn/8-0.26dn>dn/10$ edges. Let $X_0$ be any superset of $X$ of size $n/C$. Then, $X_0$ has average degree at least $Cd/5$, so $G[X_0]$ satisfies (i). $\square$
+*Proof.* Let $X\subset V(G)$ be the set of vertices of degree more than $Cd$, then $|X|\le n/C$. Let $Y=V(G)\setminus X$. The maximum degree of $G[Y]$ is at most $Cd$, so if $G[Y]$ has average degree at least $d/4$, then (ii) holds. Otherwise, $G[Y]$ has at most $nd/8$ edges. Moreover, $e(G[X,Y])\leq\frac{e(G)}{2}+\operatorname{surp}(G)\leq\frac{dn}{4}+\frac{dn}{100}=0.26dn$. Hence, $G[X]$ contains at least $dn/2-dn/8-0.26dn>dn/10$ edges. Let $X_0$ be any superset of $X$ of size $n/C$. Then, $X_0$ has average degree at least $Cd/5$, so $G[X_0]$ satisfies (i). $\square$
 
 As mentioned before, we will repeatedly apply Theorems $7.1$ and $7.2$ to pass to denser neighbourhoods and eventually obtain a large subgraph with constant density. This is our main result for the smallest eigenvalue in this section. However, to make the constants work nicely, we adopt a slightly different proof by considering a subgraph that maximises a carefully chosen potential function. If its density is $o(1)$, Theorems $7.1$ and $7.2$ guarantee a subgraph whose potential function is even higher, which is impossible.
 
@@ -989,7 +999,7 @@ $$
 d(H)=\big(v(H)-1\big)p(H)>\big(v(H)-1\big)v(H)^{-\rho}>v(H)^{1/2}>n^{(1-\varepsilon)/2}>n^{3\gamma'}.
 $$
 
-Now apply Theorem $7.2$ to $H$ with $C=5$. The requirement $\surp(H)\leq\frac{1}{100}d(H)v(H)$ trivially holds as by Theorem $5.1$, we have $\surp(H)\leq n^{\gamma'}\cdot v(H)/4<\frac{1}{100}d(H)v(H)$. By Theorem $7.2$, either (i) $H$ contains an induced subgraph $H_0$ such that $v(H_0)=v(H)/5$ and $d(H_0)\geq d(H)$, or (ii) $H$ contains an induced subgraph $H_1$ such that $v(H_1)\geq v(H)/2,d(H_1)\geq d(H)/4$ and $\Delta(H_1)\leq 5d(H)$.
+Now apply Theorem $7.2$ to $H$ with $C=5$. The requirement $\operatorname{surp}(H)\leq\frac{1}{100}d(H)v(H)$ trivially holds as by Theorem $5.1$, we have $\operatorname{surp}(H)\leq n^{\gamma'}\cdot v(H)/4<\frac{1}{100}d(H)v(H)$. By Theorem $7.2$, either (i) $H$ contains an induced subgraph $H_0$ such that $v(H_0)=v(H)/5$ and $d(H_0)\geq d(H)$, or (ii) $H$ contains an induced subgraph $H_1$ such that $v(H_1)\geq v(H)/2,d(H_1)\geq d(H)/4$ and $\Delta(H_1)\leq 5d(H)$.
 
 Assume that (i) holds. Using that $v(H)>n^{1-\varepsilon}$ is sufficiently large, we have
 
@@ -1027,11 +1037,11 @@ Using the condition $1>\frac{\rho}{\varepsilon}+\frac{2\gamma'}{1-\varepsilon-4\
 
 Next, we prove a counterpart of Theorem 7.3 for the surplus. For this purpose, we require a surplus version of Theorem 7.1 as follows. As the proofs are more or less the same, with only some parameters changed, we only highlight the key differences.
 
-**Lemma 7.4.** Let $\gamma\in(0,1/60)$, $C>2$, and let $G$ be a $n$-vertex graph with edge density $p>n^{-1/3}$, $\Delta(G)\leq Cpn$, and $\surp(G)\leq n^{1+\gamma}$. Then $G$ has a subgraph on at least $pn$ vertices of edge density at least $c_0p^{4/5}$ for some $c_0=c_0(\gamma,C)>0$.
+**Lemma 7.4.** Let $\gamma\in(0,1/60)$, $C>2$, and let $G$ be a $n$-vertex graph with edge density $p>n^{-1/3}$, $\Delta(G)\leq Cpn$, and $\operatorname{surp}(G)\leq n^{1+\gamma}$. Then $G$ has a subgraph on at least $pn$ vertices of edge density at least $c_0p^{4/5}$ for some $c_0=c_0(\gamma,C)>0$.
 
-*Proof.* Assume $n$ is sufficiently large. By theorem 5.2, $\surp^*(G)=O(\surp(G)\log n)<n^{1+\gamma'}$ for some constant $\gamma'\in(\gamma,1/60)$. Then, Theorem 5.3 (i) implies
+*Proof.* Assume $n$ is sufficiently large. By theorem 5.2, $\operatorname{surp}^*(G)=O(\operatorname{surp}(G)\log n)<n^{1+\gamma'}$ for some constant $\gamma'\in(\gamma,1/60)$. Then, Theorem 5.3 (i) implies
 
-$$\sum_{\lambda_i>0}\lambda_i=\sum_{0<\lambda_i}|\lambda_i|\leq\surp^*(G)\leq n^{1+\gamma'}.$$
+$$\sum_{\lambda_i>0}\lambda_i=\sum_{0<\lambda_i}|\lambda_i|\leq\operatorname{surp}^*(G)\leq n^{1+\gamma'}.$$
 
 By Theorem 6.6, we also have
 
@@ -1043,17 +1053,17 @@ $$\sum_{0<\lambda_i\leq\kappa n}\lambda_i\leq c\kappa^{1-\gamma'/q}n^2.$$
 
 Furthermore, by Theorem 5.3 (ii), we have
 
-$$\sum_{\lambda_i<0}\lambda_i^2\leq O(n^{1/2}\surp^*(G))=O(n^{3/2+\gamma'}).$$
+$$\sum_{\lambda_i<0}\lambda_i^2\leq O(n^{1/2}\operatorname{surp}^*(G))=O(n^{3/2+\gamma'}).$$
 
 Write $u:=\gamma'/q<4/9$, and set $\kappa:=(8c)^{-1/(1-u)}p^{1/(1-u)}$. We get $\sum_{\lambda_i<\kappa n}\lambda_i^2\leq pn^2/4$. Thus, if $N$ is the number of triangles, then
 
-$$6N=\sum_{i=1}^n\lambda_i^3\geq\kappa n\sum_{\lambda_i\geq\kappa n}\lambda_i^2-\sum_{\lambda_i<0}|\lambda_i|^3\geq\kappa pn^3/2-O(n\surp^*(G))\geq c'p^{\frac{2-u}{1-u}}n^3-n^{2+\gamma'}.$$
+$$6N=\sum_{i=1}^n\lambda_i^3\geq\kappa n\sum_{\lambda_i\geq\kappa n}\lambda_i^2-\sum_{\lambda_i<0}|\lambda_i|^3\geq\kappa pn^3/2-O(n\operatorname{surp}^*(G))\geq c'p^{\frac{2-u}{1-u}}n^3-n^{2+\gamma'}.$$
 
 Here, we used Theorem 5.3 (iii) in the second inequality. The rest of the proof is identical to that of Theorem 7.1. $\square$
 
 Now, we state the counterpart of Theorem 7.3 for surplus – the other main result of this section. The proof of Theorem 7.5 follows almost identically to that of Theorem 7.3, except that we use Theorem 7.4 in place of Theorem 7.1.
 
-**Lemma 7.5.** *Let $\gamma \in (0,1/60)$, $\varepsilon \in (0,1/2)$. Then there exist $\rho = \rho(\gamma,\varepsilon)>0$ and $c_1 = c_1(\gamma,\varepsilon)>0$ such that the following holds for every $n > n_0(\gamma,\varepsilon)$. Let $G$ be an $n$-vertex graph with edge density $p > n^{-\rho}$ and $\surp(G) \leq n^{1+\gamma}$. Then $G$ has a subgraph on at least $n^{1-\varepsilon}$ vertices with edge density at least $c_1$.*
+**Lemma 7.5.** *Let $\gamma \in (0,1/60)$, $\varepsilon \in (0,1/2)$. Then there exist $\rho = \rho(\gamma,\varepsilon)>0$ and $c_1 = c_1(\gamma,\varepsilon)>0$ such that the following holds for every $n > n_0(\gamma,\varepsilon)$. Let $G$ be an $n$-vertex graph with edge density $p > n^{-\rho}$ and $\operatorname{surp}(G) \leq n^{1+\gamma}$. Then $G$ has a subgraph on at least $n^{1-\varepsilon}$ vertices with edge density at least $c_1$.*
 
 ## 8 Densification — Phase 2
 
@@ -1091,14 +1101,14 @@ $$
 \|A-B\|_F^2=\sum_{\lambda_i<\kappa n}\lambda_i^2\leq\varepsilon n^2.
 $$
 
-Furthermore, the rank of $B$ is at most $\kappa^{-2}$ as $n^2\geq\|A\|_F^2\geq\sum_{\lambda_i\geq\kappa n}\lambda_i^2\geq\rank(B)\cdot(\kappa n)^2$.
+Furthermore, the rank of $B$ is at most $\kappa^{-2}$ as $n^2\geq\|A\|_F^2\geq\sum_{\lambda_i\geq\kappa n}\lambda_i^2\geq\operatorname{rank}(B)\cdot(\kappa n)^2$.
 $\square$
 
 Given a graph $G$, $\delta\in(0,1)$, and two disjoint sets $X,Y\subset V(G)$, the pair $(X,Y)$ is $\delta$-empty if there are at most $\delta|X||Y|$ edges between $X$ and $Y$. Also, $(X,Y)$ is $\delta$-full if there are at least $(1-\delta)|X||Y|$ edges between $X$ and $Y$. Then $(X,Y)$ is $\delta$-homogeneous if it is either $\delta$-empty or $\delta$-full. A $\delta$-regular partition of $G$ is an equipartition (a partition where all parts share the same size) $V_1,\ldots,V_K$ of the vertex set such that all but at most $\delta K^2$ of the pairs $(V_i,V_j)$ for $1\leq i<j\leq K$ are $\delta$-homogeneous.
 
 **Lemma 8.2.** *For every $\delta\in(0,1)$, there exists $\varepsilon>0$ such that the following holds for every positive integer $r$, and every $n$ that is sufficiently large with respect to $\delta,r$. Let $G$ be a graph with adjacency matrix $A$. Assume that there exists an $n\times n$ symmetric matrix $B$ of rank $r$ such that $\|A-B\|_F^2\leq\varepsilon n^2$. Then $G$ has a $\delta$-regular partition into $K$ parts, where $1/\delta<K<O_{r,\delta}(1)$.*
 
-*Proof.* We show that $\varepsilon=\delta^2/100$ suffices. Let $B=\sum_{i=1}^r\mu_iw_iw_i^T$ be the spectral decomposition of $B. Then
+*Proof.* We show that $\varepsilon=\delta^2/100$ suffices. Let $B=\sum_{i=1}^r\mu_iw_iw_i^T$ be the spectral decomposition of $B$. Then
 
 $$
 \left(\sum_{i=1}^r\mu_i^2\right)^{1/2}=\|B\|_F\leq\|A\|_F+\|B-A\|_F<2n,
@@ -1156,14 +1166,14 @@ $$
 
 As $\|A-B\|_F^2\leq\varepsilon n^2$, this means that the number of such pairs is at most $36\varepsilon/\delta K^2\leq\delta K^2/2$. Hence, the total number of pairs that are not $\delta$-homogeneous is at most $\delta K^2$, as desired. $\square$
 
-An important feature of Lemma 8.2 that $\varepsilon$ only depends on $\delta$, and not on $r$. To continue from this point, we observe that if $X,Y,Z$ are sets of linear sizes such that $(X,Y)$ and $(Y,Z)$ are $\delta$-full, then $(X,Z)$ cannot be $\delta$-empty, assuming $\surp(G)$ is small.
+An important feature of Lemma 8.2 that $\varepsilon$ only depends on $\delta$, and not on $r$. To continue from this point, we observe that if $X,Y,Z$ are sets of linear sizes such that $(X,Y)$ and $(Y,Z)$ are $\delta$-full, then $(X,Z)$ cannot be $\delta$-empty, assuming $\operatorname{surp}(G)$ is small.
 
-**Lemma 8.3.** Let $G$ be a graph on $n$ vertices. Let $X,Y,Z\subset V(G)$ be disjoint sets such that $|X|=|Y|=|Z|$ and $(X,Y)$ and $(Y,Z)$ are $\delta$-full, but $(X,Z)$ is $\delta$-empty. Then $\surp(G)\geq(1/4-3\delta)|X|^2$.
+**Lemma 8.3.** Let $G$ be a graph on $n$ vertices. Let $X,Y,Z\subset V(G)$ be disjoint sets such that $|X|=|Y|=|Z|$ and $(X,Y)$ and $(Y,Z)$ are $\delta$-full, but $(X,Z)$ is $\delta$-empty. Then $\operatorname{surp}(G)\geq(1/4-3\delta)|X|^2$.
 
 *Proof.* Let $G'=G[X\cup Y\cup Z]$, and consider the cut $(Y,X\cup Z)$ in $G'$. This cut has at least $|X|^2(2-2\delta)$ edges. On the other hand, $e(G')\leq\frac{3}{2}|X|^2+2|X|^2+\delta|X|^2\leq(\frac{7}{2}+\delta)|X|^2$. Therefore,
 
 $$
-\surp(G)\geq\surp(G')\geq e(G[Y,X\cup Z])-\frac{e(G')}{2}\geq |X|^2(2-2\delta)-\left(\frac{7}{4}+\frac{\delta}{2}\right)|X|^2\geq |X|^2\left(\frac{1}{4}-3\delta\right). \qquad \square
+\operatorname{surp}(G)\geq\operatorname{surp}(G')\geq e(G[Y,X\cup Z])-\frac{e(G')}{2}\geq |X|^2(2-2\delta)-\left(\frac{7}{4}+\frac{\delta}{2}\right)|X|^2\geq |X|^2\left(\frac{1}{4}-3\delta\right). \qquad \square
 $$
 
 A graph is the disjoint union of cliques if and only if it does not contain an induced *cherry*, that is, the path of length 2. Therefore, by the *induced graph removal lemma* [5], being close to the disjoint union of cliques is equivalent to having few cherries. For the special case of cherries, one does not need the full power of this lemma, and a simple proof of the following quantitatively stronger bound is given by Alon and Shapira [8].
@@ -1192,7 +1202,7 @@ In order to finish the proof, we count cherries. Let $x,y,z$ be the vertices of 
 
 By Theorem 8.3, we cannot have that $(V_i,V_j)$ and $(V_j,V_k)$ are $\delta_0$-full, but $(V_i,V_k)$ is $\delta_0$-empty. Therefore, each cherry belongs to one of the four categories. We observe that the number of cherries belonging to each category is at most $O(\delta_0n^3)$. Indeed, for (i), there are $O(K^2)$ choices for the set $\{i,j,k\}$, and then there are at most $(n/K)^3$ choices for $x,y,z$, so in total $O(K^2(n/K)^3)=O(n^3/K)=O(\delta_0n^3)$. For (ii), we use the fact that at most $\delta_0K^2$ pairs $(V_i,V_j)$ are not $\delta_0$-homogeneous to derive that the number of choices for $(V_i,V_j,V_k)$ is $O(\delta_0K^3)$. So the number of cherries belonging to (ii) is $O(\delta_0K^3(n/K)^3)=O(\delta_0n^3)$. For (iii) and (iv), we observe that if we fixed $(V_i,V_j,V_k)$, then there are at most $\delta_0(n/K)^3$ choices for $x,y,z$. Indeed, if say $(V_i,V_j)$ is $\delta_0$-empty, the pair $(x,y)$ can be chosen from only the $\delta_0(n/K)^2$ edges between $V_i$ and $V_j$. So the number of cherries belonging to (iii) or (iv) is $O(\delta_0n^3)$.
 
-In conclusion, the number of cherries in $G$ is $O(\delta_0n^3)$. But then by Lemma 8.4, $G$ is $O(\delta_0)^c$-close to a disjoint union of cliques for some absolute constant $c>0$. We are done by setting $\delta_0>0$ sufficiently small with respect to $\delta$. \hfill$\square$
+In conclusion, the number of cherries in $G$ is $O(\delta_0n^3)$. But then by Lemma 8.4, $G$ is $O(\delta_0)^c$-close to a disjoint union of cliques for some absolute constant $c>0$. We are done by setting $\delta_0>0$ sufficiently small with respect to $\delta$. $\square$
 
 The following immediate corollary of this lemma will be used later.
 
@@ -1204,17 +1214,17 @@ $$
 e(H)=\sum_{i=1}^k\binom{|C_i|}{2}\leq\sum_{i=1}^k\frac{|C_i|^2}{2}\leq\frac{n}{2}\cdot\max_{i\in[k]}|C_i|.
 $$
 
-As $e(H)\geq e(G)-\delta_0n^2\geq pn^2/4$, this shows that at least one of the $C_i$'s has size at least $pn/2$. Without loss of generality, say $|C_1|\geq pn/2$. Then $G[C_1]$ has at least $\binom{|C_1|}{2}-\delta_0n^2$ edges, so $G[C_1]$ has edge density at least $1-\delta_0n^2/\binom{|C_1|}{2}\geq 1-\delta_0n^2/(|C_1|^2/4)\geq 1-\delta_0n^2/(p^2n^2/16)=1-\delta$, as desired. \hfill$\square$
+As $e(H)\geq e(G)-\delta_0n^2\geq pn^2/4$, this shows that at least one of the $C_i$'s has size at least $pn/2$. Without loss of generality, say $|C_1|\geq pn/2$. Then $G[C_1]$ has at least $\binom{|C_1|}{2}-\delta_0n^2$ edges, so $G[C_1]$ has edge density at least $1-\delta_0n^2/\binom{|C_1|}{2}\geq 1-\delta_0n^2/(|C_1|^2/4)\geq 1-\delta_0n^2/(p^2n^2/16)=1-\delta$, as desired. $\square$
 
 Next, we present the MaxCut version of the previous lemma, whose proof is almost identical. We only highlight the key differences.
 
-**Theorem 8.7.** Let $\gamma\in(0,1/30)$, $\delta>0$, then the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph such that $\surp(G)\leq n^{1+\gamma}$. Then $G$ is $\delta$-close to a disjoint union of cliques.
+**Theorem 8.7.** Let $\gamma\in(0,1/30)$, $\delta>0$, then the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph such that $\operatorname{surp}(G)\leq n^{1+\gamma}$. Then $G$ is $\delta$-close to a disjoint union of cliques.
 
-*Proof.* Note that theorem 5.2 implies $\surp^*(G)=O(\surp(G)\log n)\leq n^{1+\gamma'}$ for some constant $\gamma'\in(\gamma,1/30)$. One of the key differences compared to the proof of Theorem 1.4 is that we use Lemma 6.6 to have $4nS_{\frac{T^2}{2n}}\geq S_T^2$ satisfied for every $T\geq n^{1-\frac{1}{24}+\frac{\gamma'}{4}}$. Then, setting $q=1/30$, we know that $\gamma'<q$ and $1-q>1-\frac{1}{24}+\frac{\gamma'}{4}$. So we can apply Theorem 6.9. Another difference is that we bound $\sum_{0<\lambda_i}\lambda_i^2$ using Theorem 5.3 (ii), which gives $\sum_{0<\lambda_i}\lambda_i^2\leq O(\sqrt{n}\surp^*(G))\leq O(n^{3/2+\gamma'})=o(n^2)$. \hfill$\square$
+*Proof.* Note that theorem 5.2 implies $\operatorname{surp}^*(G)=O(\operatorname{surp}(G)\log n)\leq n^{1+\gamma'}$ for some constant $\gamma'\in(\gamma,1/30)$. One of the key differences compared to the proof of Theorem 1.4 is that we use Lemma 6.6 to have $4nS_{\frac{T^2}{2n}}\geq S_T^2$ satisfied for every $T\geq n^{1-\frac{1}{24}+\frac{\gamma'}{4}}$. Then, setting $q=1/30$, we know that $\gamma'<q$ and $1-q>1-\frac{1}{24}+\frac{\gamma'}{4}$. So we can apply Theorem 6.9. Another difference is that we bound $\sum_{0<\lambda_i}\lambda_i^2$ using Theorem 5.3 (ii), which gives $\sum_{0<\lambda_i}\lambda_i^2\leq O(\sqrt{n}\operatorname{surp}^*(G))\leq O(n^{3/2+\gamma'})=o(n^2)$. $\square$
 
 Finally, we deduce the immediate corollary of this theorem about finding dense subgraphs. The proof of this is identical to the proof of Corollary 8.6, so we omit it.
 
-**Corollary 8.8.** Let $\gamma\in(0,1/30)$, $p>0$ and $\delta>0$, then the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph of edge density $p$ such that $\surp(G)\leq n^{1+\gamma}$. Then $G$ contains a subgraph on at least $pn/2$ vertices of edge density at least $1-\delta$.
+**Corollary 8.8.** Let $\gamma\in(0,1/30)$, $p>0$ and $\delta>0$, then the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph of edge density $p$ such that $\operatorname{surp}(G)\leq n^{1+\gamma}$. Then $G$ contains a subgraph on at least $pn/2$ vertices of edge density at least $1-\delta$.
 
 ## 9 Densification — Phase 3
 
@@ -1281,7 +1291,7 @@ We also use the fact that the density of a $C$-balanced graph is robust under de
 
 **9.2 The smallest eigenvalue and surplus of dense balanced graphs**
 
-In this section, we prove that balanced graphs with a sufficiently high density $1-p$ must satisfy $|\lambda_n|=\Omega((pn)^{1/3})$ and $\surp^*(G)=\Omega((pn)^{1/4})$. Both bounds are effective as long as $p$ is not too small. Then, in the next subsection, we show complementary bounds for small $p$.
+In this section, we prove that balanced graphs with a sufficiently high density $1-p$ must satisfy $|\lambda_n|=\Omega((pn)^{1/3})$ and $\operatorname{surp}^*(G)=\Omega((pn)^{1/4})$. Both bounds are effective as long as $p$ is not too small. Then, in the next subsection, we show complementary bounds for small $p$.
 
 First, we consider the smallest eigenvalue.
 
@@ -1305,14 +1315,14 @@ $$
 0\leq\frac{1-3Cp}{\sqrt{n}}\leq\frac{1-3\bar{\Delta}/n}{\sqrt{n}}\leq v_1(i)\leq\frac{1+2p+2/n}{\sqrt{n}}\leq\frac{1+4p}{\sqrt{n}} \tag{7}
 $$
 
-We now evaluate the terms of $\mathds{1}^{T}D\mathds{1}$, where $\mathds{1}$ is the all-ones vector.
+We now evaluate the terms of $\mathbb{1}^{T}D\mathbb{1}$, where $\mathbb{1}$ is the all-ones vector.
 
-For the main term $\mathds{1}^{T}B^{\circ 3}\mathds{1}$, note that
+For the main term $\mathbb{1}^{T}B^{\circ 3}\mathbb{1}$, note that
 
 $$
 B_{i,j}=\begin{cases}
-1-\lambda_1v_1(i)v_1(j)&\mbox{if }ij\in E(G),\\
--\lambda_1v_1(i)v_1(j)&\mbox{if }ij\notin E(G).
+1-\lambda_1v_1(i)v_1(j)&\text{if }ij\in E(G),\\
+-\lambda_1v_1(i)v_1(j)&\text{if }ij\notin E(G).
 \end{cases}
 $$
 
@@ -1326,7 +1336,7 @@ This further shows $\lambda_1v_1(i)v_1(j)\geq\frac{1}{2}$. Hence, using that $C^
 
 $$
 \begin{aligned}
-\mathds{1}^{T}B^{\circ 3}\mathds{1}
+\mathbb{1}^{T}B^{\circ 3}\mathbb{1}
 &=\sum_{i\sim j}(1-\lambda_1v_1(i)v_1(j))^3-\sum_{i\not\sim j}(\lambda_1v_1(i)v_1(j))^3\\
 &\leq n^2\cdot(8Cp)^3-\big(pn(n-1)+n\big)\cdot\frac{1}{8}\leq 512C^3p^3n^2-\frac{pn^2}{8}\leq-\frac{pn^2}{16}.
 \end{aligned}
@@ -1335,13 +1345,13 @@ $$
 For the other terms, we observe that $B_{i,i}=-\lambda_1v_1(i)^2\in[-2,0]$ using $(7)$. Hence,
 
 $$
-\mathds{1}^{T}(3|\lambda_n|B\circ B\circ I+3|\lambda_n|^2B\circ I+|\lambda_n|^3I)\mathds{1}=O(n|\lambda_n|^3).
+\mathbb{1}^{T}(3|\lambda_n|B\circ B\circ I+3|\lambda_n|^2B\circ I+|\lambda_n|^3I)\mathbb{1}=O(n|\lambda_n|^3).
 $$
 
 In conclusion, we showed that
 
 $$
-0\leq\mathds{1}^{T}D\mathds{1}\leq-\frac{pn^2}{16}+O(n|\lambda_n|^3).
+0\leq\mathbb{1}^{T}D\mathbb{1}\leq-\frac{pn^2}{16}+O(n|\lambda_n|^3).
 $$
 
 This gives $|\lambda_n|=\Omega((pn)^{1/3})$, as desired. $\square$
@@ -1351,10 +1361,10 @@ Now we consider the surplus.
 **Lemma 9.5.** Let $G$ be an $n$-vertex graph with edge density $1-p$, whose complement $\overline{G}$ is $C$-balanced. If $C^2p\leq 1/100$, then
 
 $$
-\surp^{*}(G)=\Omega\big(C^{-3/4}n(pn)^{1/4}\big).
+\operatorname{surp}^{*}(G)=\Omega\big(C^{-3/4}n(pn)^{1/4}\big).
 $$
 
-*Proof.* Set $S:=\surp^{*}(G)$ and assume for contradiction that $S=o\big(C^{-3/4}n(pn)^{1/4}\big)$. Since $p\leq C^2p\leq 1/100$, there are $\Omega(n)$ non-isolated vertices in $G$. Then, a classical result of Erdős, Gyárfás, and Kohayakawa [41] asserts $\surp(G)=\Omega(n)$, so $\surp^{*}(G)\geq\surp(G)=\Omega(n)$. Hence, $S=o\big(C^{-3/4}n(pn)^{1/4}\big)$ implies $pn=\omega(1)$ and $C=o\big((pn)^{1/3}\big)$.
+*Proof.* Set $S:=\operatorname{surp}^{*}(G)$ and assume for contradiction that $S=o\big(C^{-3/4}n(pn)^{1/4}\big)$. Since $p\leq C^2p\leq 1/100$, there are $\Omega(n)$ non-isolated vertices in $G$. Then, a classical result of Erdős, Gyárfás, and Kohayakawa [41] asserts $\operatorname{surp}(G)=\Omega(n)$, so $\operatorname{surp}^{*}(G)\geq\operatorname{surp}(G)=\Omega(n)$. Hence, $S=o\big(C^{-3/4}n(pn)^{1/4}\big)$ implies $pn=\omega(1)$ and $C=o\big((pn)^{1/3}\big)$.
 
 Let $A$ be the adjacency matrix of $G$ with eigenvalues $\lambda_1\geq\cdots\geq\lambda_n$ and corresponding orthonormal basis of eigenvectors $v_1,\dots,v_n$. Define $B=A-\lambda_1v_1v_1^T$ and $E=\sum_{\lambda_i<0}|\lambda_i|v_iv_i^T$. Then, the matrices $E$ and $B+E=\sum_{\lambda_i>0,i\neq 1}\lambda_iv_iv_i^T$ are positive semidefinite. Consider
 
@@ -1365,24 +1375,24 @@ $$
 As $B+E$ is positive semidefinite, so is $D$ by the Schur product theorem (Theorem 4.1). Next, we identify a set of well-behaved vertices $U$, and carefully evaluate the product
 
 $$
-0\leq\mathds{1}_U^T D\mathds{1}_U=\mathds{1}_U^T B^{\circ 3}\mathds{1}_U+3\cdot\mathds{1}_U^T(B\circ B\circ E)\mathds{1}_U+3\cdot\mathds{1}_U^T(B\circ E\circ E)\mathds{1}_U+\mathds{1}_U^T E^{\circ 3}\mathds{1}_U.
+0\leq\mathbb{1}_U^T D\mathbb{1}_U=\mathbb{1}_U^T B^{\circ 3}\mathbb{1}_U+3\cdot\mathbb{1}_U^T(B\circ B\circ E)\mathbb{1}_U+3\cdot\mathbb{1}_U^T(B\circ E\circ E)\mathbb{1}_U+\mathbb{1}_U^T E^{\circ 3}\mathbb{1}_U.
 \tag{8}
 $$
 
 Let $\bar{d},\bar{\Delta}$ be the average degree and the maximum degree of $\overline{G}$, respectively, so we have $\bar{\Delta}\leq C\bar{d}$. Let $U$ be the set of vertices $i\in[n]$ such that $E_{i,i}\leq\frac{4CS}{n}$. Recall from Theorem 5.3 (i) that
 
 $$
-\operatorname{tr}(E)=\sum_{\lambda_i<0}|\lambda_i|\leq\surp^{*}(G)=S.
+\operatorname{tr}(E)=\sum_{\lambda_i<0}|\lambda_i|\leq\operatorname{surp}^{*}(G)=S.
 $$
 
 So at most $n/4C$ vertices $i\in[n]$ have $E_{i,i}>\frac{4CS}{n}$. This means $|U|\geq(1-\frac{1}{4C})n$. By Theorem 9.3, the density of $\overline{G}[U]$ is at least $p/2$. Moreover, Theorem 5.3 (ii) and our assumption that $S=o(n\bar{d}^{1/4}C^{-3/4})$ imply
 
 $$
-\|E\|_F^2=\sum_{\lambda_i<0}\lambda_i^2=O\left(\bar{\Delta}^{1/2}\surp^{*}(G)\right)=O\left(C^{1/2}\bar{d}^{1/2}S\right)=o\left(n\bar{d}^{3/4}C^{-1/4}\right).
+\|E\|_F^2=\sum_{\lambda_i<0}\lambda_i^2=O\left(\bar{\Delta}^{1/2}\operatorname{surp}^{*}(G)\right)=O\left(C^{1/2}\bar{d}^{1/2}S\right)=o\left(n\bar{d}^{3/4}C^{-1/4}\right).
 \tag{9}
 $$
 
-In order to bound (8), we start with the main term $\mathds{1}_U^T B^{\circ 3}\mathds{1}_U$. Repeating the same analysis as in the proof of Theorem 9.4, for all $i,j\in[n]$, we have
+In order to bound (8), we start with the main term $\mathbb{1}_U^T B^{\circ 3}\mathbb{1}_U$. Repeating the same analysis as in the proof of Theorem 9.4, for all $i,j\in[n]$, we have
 
 $$
 \frac{1-3Cp}{\sqrt{n}}\leq v_1(i)\leq\frac{1+4p}{\sqrt{n}}\quad\text{and}\quad 1-\lambda_1v_1(i)v_1(j)\leq 8Cp.
@@ -1404,22 +1414,22 @@ Since $C^3p^2\leq(C^2p)^2\leq 10^{-4}$,
 
 $$
 \begin{aligned}
-\mathds{1}_U^T B^{\circ 3}\mathds{1}_U
+\mathbb{1}_U^T B^{\circ 3}\mathbb{1}_U
 &=\sum_{i,j\in U,i\sim j}(1-\lambda_1v_1(i)v_1(j))^3-\sum_{i,j\in U,i\not\sim j}(\lambda_1v_1(i)v_1(j))^3\\
 &\leq |U|^2\cdot(8Cp)^3-\frac{(p/2)|U|(|U|-1)+|U|}{8}\\
 &\leq 216C^3p^3|U|^2-\frac{p}{16}|U|^2=-\Omega(p|U|^2)
 \end{aligned}
 $$
 
-In addition, $|U|\geq(1-\frac{1}{4C})n=\Omega(n)$, so $\mathds{1}_U^T B^{\circ 3}\mathds{1}_U=-\Omega(pn^2)=-\Omega(n\bar{d})$.
+In addition, $|U|\geq(1-\frac{1}{4C})n=\Omega(n)$, so $\mathbb{1}_U^T B^{\circ 3}\mathbb{1}_U=-\Omega(pn^2)=-\Omega(n\bar{d})$.
 
 We complete the proof by the following claim bounding the rest of the terms of (8).
 
-**Claim 9.6.** $(1)\ \mathds{1}_U^T(B\circ B\circ E)\mathds{1}_U=o(n\bar{d}),$
+**Claim 9.6.** $(1)\ \mathbb{1}_U^T(B\circ B\circ E)\mathbb{1}_U=o(n\bar{d}),$
 
-$(2)\ \mathds{1}_U^T(B\circ E\circ E)\mathds{1}_U=o(n\bar{d}),$
+$(2)\ \mathbb{1}_U^T(B\circ E\circ E)\mathbb{1}_U=o(n\bar{d}),$
 
-$(3)\ \mathds{1}_U^T E^{\circ 3}\mathds{1}_U=o(n\bar{d}).$
+$(3)\ \mathbb{1}_U^T E^{\circ 3}\mathbb{1}_U=o(n\bar{d}).$
 
 *Proof.* (1) Write $X$ for the set of pairs $(i,j)\in U^2$ where $ij\in E(G)$ and $Y=(U\times U)\setminus X$. As discussed above, $|B_{i,j}|=O(Cp)$ for all $(i,j)\in X$. So, by the Cauchy–Schwartz inequality,
 
@@ -1436,37 +1446,39 @@ $$
 Altogether, we have
 
 $$
-\mathds{1}_{U}^{T}(B\circ B\circ E)\mathds{1}_{U}=\sum_{(i,j)\in X}B_{i,j}^2E_{i,j}+\sum_{(i,j)\in Y}B_{i,j}^2E_{i,j}=O(p^{1/2}n\|E\|_F)=O((n\bar d)^{1/2}\|E\|_F).
+\mathbb{1}_{U}^{T}(B\circ B\circ E)\mathbb{1}_{U}=\sum_{(i,j)\in X}B_{i,j}^2E_{i,j}+\sum_{(i,j)\in Y}B_{i,j}^2E_{i,j}=O(p^{1/2}n\|E\|_F)=O((n\bar d)^{1/2}\|E\|_F).
 $$
 
 By (9), $\|E\|_F^2=o(n\bar d^{3/4}C^{-1/4})=o(n\bar d^{3/4})$, so
 
 $$
-\mathds{1}_{U}^{T}(B\circ B\circ E)\mathds{1}_{U}=o\big((n\bar d)^{1/2}\cdot n^{1/2}\bar d^{3/8}\big)=o(n\bar d).
+\mathbb{1}_{U}^{T}(B\circ B\circ E)\mathbb{1}_{U}=o\big((n\bar d)^{1/2}\cdot n^{1/2}\bar d^{3/8}\big)=o(n\bar d).
 $$
 
 (2) As $|B_{i,j}|\leq 2$ holds for all $i,j\in U$ and $\|E\|_F^2=o(n\bar d^{3/4})$, we have
 
 $$
-\mathds{1}_{U}^{T}(B\circ E\circ E)\mathds{1}_{U}=\sum_{i,j\in U}B_{i,j}E_{i,j}^2\leq 2\|E\|_F^2=o(n\bar d^{3/4}).
+\mathbb{1}_{U}^{T}(B\circ E\circ E)\mathbb{1}_{U}=\sum_{i,j\in U}B_{i,j}E_{i,j}^2\leq 2\|E\|_F^2=o(n\bar d^{3/4}).
 $$
 
 (3) Recall that $E_{i,i}\leq 4CS/n=o((C\bar d)^{1/4})$ for all $i\in U$. As $E$ is positive semidefinite, this implies that $|E_{i,j}|\leq 4CS/n=o((C\bar d)^{1/4})$ for all $i,j\in U$. This, together with (9), completes the proof as
 
 $$
-\mathds{1}_{U}^{T}E^{\circ 3}\mathds{1}_{U}=\sum_{i,j\in U}E_{i,j}^{3}=\max_{i,j\in U}|E_{i,j}|\cdot\sum_{i,j\in U}E_{i,j}^{2}=o((C\bar d)^{1/4})\cdot\|E\|_F^2=o(n\bar d).\hfill\Box
+\mathbb{1}_{U}^{T}E^{\circ 3}\mathbb{1}_{U}=\sum_{i,j\in U}E_{i,j}^{3}=\max_{i,j\in U}|E_{i,j}|\cdot\sum_{i,j\in U}E_{i,j}^{2}=o((C\bar d)^{1/4})\cdot\|E\|_F^2=o(n\bar d).
 $$
 
-With these estimates, we can rewrite (8) as $0\leq\mathds{1}_{U}^{T}D\mathds{1}_{U}\leq-\Omega(n\bar d)+o(n\bar d)$; a contradiction. $\Box$
+$\square$
+
+With these estimates, we can rewrite (8) as $0\leq\mathbb{1}_{U}^{T}D\mathbb{1}_{U}\leq-\Omega(n\bar d)+o(n\bar d)$; a contradiction. $\Box$
 
 ### 9.3 Further bounds on balanced graphs
 
-In this subsection, we prove that if $G$ is a balanced graph of sufficiently large density $1-p$, then $|\lambda_n|\geq\frac{\surp^*(G)}{n}=\Omega(\min\{p^{-1},(pn)^{1/2}\})$, where the first inequality holds by Theorem 5.7. Note that this beats the lower bound for $|\lambda_n|$ from the previous section when $p\ll n^{-1/4}$, and beats the lower bound for the surplus when $p\ll n^{-1/5}$.
+In this subsection, we prove that if $G$ is a balanced graph of sufficiently large density $1-p$, then $|\lambda_n|\geq\frac{\operatorname{surp}^*(G)}{n}=\Omega(\min\{p^{-1},(pn)^{1/2}\})$, where the first inequality holds by Theorem 5.7. Note that this beats the lower bound for $|\lambda_n|$ from the previous section when $p\ll n^{-1/4}$, and beats the lower bound for the surplus when $p\ll n^{-1/5}$.
 
 **Lemma 9.7.** Let $G$ be an $n$-vertex graph with edge density $1-p$, whose complement $\overline{G}$ is $C$-balanced. If $C^2p\leq 1/100$, then
 
 $$
-\surp^*(G)=\Omega\Big(C^{-3}\cdot\min\{np^{-1},n(pn)^{1/2}\}\Big).
+\operatorname{surp}^*(G)=\Omega\Big(C^{-3}\cdot\min\{np^{-1},n(pn)^{1/2}\}\Big).
 $$
 
 In particular,
@@ -1492,10 +1504,12 @@ $$
 where $\lambda_1(X)\geq\cdots\geq\lambda_n(X)$ denote the eigenvalues of a matrix $X$. Let $A$ be the adjacency matrix of $G$, and then $-A+J-I$ is the adjacency matrix of $\overline{G}$. Set $X=-A$ and $Y=J-I$. We have $\lambda_i(X)=-\lambda_{n+1-i}$, $\lambda_1(Y)=n-1$, $\lambda_i(Y)=-1$ for $i=2,\ldots,n$, and $\lambda_i(X+Y)=\mu_i$. Hence, applying the above inequality with $j=2$, we get for $i=1,2,\ldots,n-1$,
 
 $$
-\mu_{i+1}=\lambda_{i+1}(X+Y)\leq\lambda_i(X)+\lambda_2(Y)=-\lambda_{n+1-i}-1.\hfill\qed
+\mu_{i+1}=\lambda_{i+1}(X+Y)\leq\lambda_i(X)+\lambda_2(Y)=-\lambda_{n+1-i}-1.
 $$
 
-*Proof of Theorem 9.7.* We focus on the lower bounds for $\surp^*(G)$ since that of $\lambda_n$ follows from Theorem 5.7, i.e. $|\lambda_n|n\geq\surp^*(G)$.
+$\square$
+
+*Proof of Theorem 9.7.* We focus on the lower bounds for $\operatorname{surp}^*(G)$ since that of $\lambda_n$ follows from Theorem 5.7, i.e. $|\lambda_n|n\geq\operatorname{surp}^*(G)$.
 
 Let $A$ be the adjacency matrix of $G$ with eigenvalues $\lambda_1\geq\cdots\geq\lambda_n$, and let $B$ be the adjacency matrix of $\overline{G}$ with eigenvalues $\mu_1\geq\cdots\geq\mu_n$. Write $\bar{\Delta}$ for the maximum degree of $\overline{G}$, so $\mu_1\leq\bar{\Delta}\leq Cpn$. We may assume that $p>0$ and thus $\bar{\Delta}\geq1$, as otherwise the statement is trivial. For $k=1,2,3$, set
 
@@ -1506,15 +1520,15 @@ $$
 By Theorem 9.8, whenever $\mu_{i+1}\geq0$, we also have $\lambda_{n+1-i}\leq-\mu_{i+1}-1<0$. Combined with Theorem 5.3, this shows that
 
 $$
-\surp^*(G)\geq\sum_{\lambda_i<0}|\lambda_i|\geq\sum_{i\neq1,\mu_i>0}\mu_i=P_1,\tag{10}
+\operatorname{surp}^*(G)\geq\sum_{\lambda_i<0}|\lambda_i|\geq\sum_{i\neq1,\mu_i>0}\mu_i=P_1,\tag{10}
 $$
 
 $$
-\surp^*(G)=\Omega\left(\bar{\Delta}^{-1/2}\sum_{\lambda_i<0}|\lambda_i|^2\right)=\Omega\left(\bar{\Delta}^{-1/2}\sum_{i\neq1,\mu_i>0}\mu_i^2\right)=\Omega\left(\bar{\Delta}^{-1/2}P_2\right),\tag{11}
+\operatorname{surp}^*(G)=\Omega\left(\bar{\Delta}^{-1/2}\sum_{\lambda_i<0}|\lambda_i|^2\right)=\Omega\left(\bar{\Delta}^{-1/2}\sum_{i\neq1,\mu_i>0}\mu_i^2\right)=\Omega\left(\bar{\Delta}^{-1/2}P_2\right),\tag{11}
 $$
 
 $$
-\surp^*(G)=\Omega\left(\bar{\Delta}^{-1}\sum_{\lambda_i<0}|\lambda_i|^3\right)=\Omega\left(\bar{\Delta}^{-1}\sum_{i\neq1,\mu_i>0}\mu_i^3\right)=\Omega\left(\bar{\Delta}^{-1}P_3\right).\tag{12}
+\operatorname{surp}^*(G)=\Omega\left(\bar{\Delta}^{-1}\sum_{\lambda_i<0}|\lambda_i|^3\right)=\Omega\left(\bar{\Delta}^{-1}\sum_{i\neq1,\mu_i>0}\mu_i^3\right)=\Omega\left(\bar{\Delta}^{-1}P_3\right).\tag{12}
 $$
 
 We show that these three inequalities together with some simple identities suffice to prove the lemma.
@@ -1525,7 +1539,7 @@ $$
 P_2\geq pn^2/2-\mu_1^2-N_2\geq pn^2/2-C^2p^2n^2-pn^2/8\geq pn^2/4.
 $$
 
-But then, (11) implies $\surp^*(G)=\Omega(C^{-1/2}p^{1/2}n^{3/2})$, and we are done.
+But then, (11) implies $\operatorname{surp}^*(G)=\Omega(C^{-1/2}p^{1/2}n^{3/2})$, and we are done.
 
 In the rest of the proof, we may assume $N_2\geq\frac{1}{8}pn^2$. By the inequality between the quadratic and cubic mean, we have
 
@@ -1538,7 +1552,7 @@ which gives $N_3\geq N_2^{3/2}n^{-1/2}\geq p^{3/2}n^{5/2}/64$.
 Next, consider the quantity $T=N_3-P_3$. Observe that $\mu_1^3-T=\sum_{i=1}^n\mu_i^3$ is six-times the number of triangles of $\overline{G}$. In particular, $\mu_1^3-T$ it is nonnegative, showing that $T\leq\mu_1^3\leq\bar{\Delta}^3$. If $N_3\geq2T$, or equivalently, $P_3\geq N_3/2$. We are done as (12) implies
 
 $$
-\surp^*(G)=\Omega\left(\bar{\Delta}^{-1}P_3\right)=\Omega\left(\bar{\Delta}^{-1}N_3\right)=\Omega\left(C^{-1}p^{1/2}n^{3/2}\right).
+\operatorname{surp}^*(G)=\Omega\left(\bar{\Delta}^{-1}P_3\right)=\Omega\left(\bar{\Delta}^{-1}N_3\right)=\Omega\left(C^{-1}p^{1/2}n^{3/2}\right).
 $$
 
 Finally, if $N_3\leq2T$, then $\bar{\Delta}^3\geq T\geq N_3/2$. By the Cauchy–Schwartz inequality applied to the sequences $(|\mu_i|^3)_{\mu_i<0}$ and $(|\mu_i|)_{\mu_i<0}$, we have $N_1N_3\geq N_2^2$, which gives
@@ -1553,7 +1567,7 @@ $$
 P_1=N_1-\mu_1\geq\frac{n}{128C^3p}-\bar{\Delta}\geq\frac{n}{128C^3p}-Cpn\geq\frac{n}{256C^3p}.
 $$
 
-Here, we also used that $pC^2\leq 1/100$. This completes the proof by (10), i.e. $\surp^*(G)\geq P_1$. $\square$
+Here, we also used that $pC^2\leq 1/100$. This completes the proof by (10), i.e. $\operatorname{surp}^*(G)\geq P_1$. $\square$
 
 ### 9.4 Completing the proof
 
@@ -1563,7 +1577,7 @@ We can summarize the results of Sections 9.2 and 9.3 in the following theorem.
 
 (a) the smallest eigenvalue $\lambda_n$ satisfies $|\lambda_n|=\Omega\left(C^{-3}\cdot\max\left\{\min\{n/d,d^{1/2}\},d^{1/3}\right\}\right)$,
 
-(b) and the surplus satisfies $\surp^*(G)=\Omega\left(C^{-3}n\cdot\max\left\{\min\{n/d,d^{1/2}\},d^{1/4}\right\}\right)$.
+(b) and the surplus satisfies $\operatorname{surp}^*(G)=\Omega\left(C^{-3}n\cdot\max\left\{\min\{n/d,d^{1/2}\},d^{1/4}\right\}\right)$.
 
 Combining Theorem 9.2 and Theorem 9.9, we now prove the main theorem of this section.
 
@@ -1573,7 +1587,7 @@ Let $\lambda_{\min}$ be the smallest eigenvalue of $G_1$. Cauchy’s interlacing
 
 Now we know that $d_1\leq n_1^{2/3}$. In this case, $d_1^{1/3}\leq d_1^{1/2}\leq n_1/d_1$, so Theorem 9.9 implies $|\lambda_{\min}|=\Omega(C_1^{-3}\cdot d_1^{1/2})$. Recall that $|\lambda_{\min}|\leq|\lambda_n|$. It must be that $C_1^{-3}\cdot d_1^{1/2}=O(|\lambda_n|)$, i.e. $d_1=O(|\lambda_n|^2C_1^6)=O(|\lambda_n|^2(\log n)^6)$. This completes the proof as $p_1=d_1/(n_1-1)=O(|\lambda_n|^2(\log n)^7/n)$.
 
-(b) By Theorem 9.2 on $\overline{G}$, $G$ has an induced subgraph $G_1\subset G$ on $n_1=\Omega(n/\log n)$ vertices of density $1-p_1\geq 1-10^{-6}$ and with a $C_1$-balanced complement, where $C_1=O(\log n)$. By Theorem 5.2, $\surp^*(G_1)\leq\surp^*(G)=O(\surp(G)\cdot\log n)=O(n^{6/5}/(\log n)^5)$. Write $d_1=d(\overline{G_1})$. If $d_1\geq n_1^{2/3}$, one can check that $\max\{\min\{n_1/d_1,d_1^{1/2}\},d_1^{1/4}\}\geq n_1^{1/5}$, so Theorem 9.9 yields $\surp^*(G_1)=\Omega(C_1^{-3}n_1\cdot n_1^{1/5})=\Omega(n_1^{6/5}/C_1^3)=\Omega(n^{6/5}/(\log n)^{6/5+3})>n^{6/5}/(\log n)^5$; this is impossible. So $d_1\leq n_1^{2/3}$ must hold. But then, Theorem 9.9 implies $\surp^*(G_1)=\Omega(C_1^{-3}n_1\cdot d_1^{1/2})$. As $\surp^*(G_1)\leq\surp^*(G)=O(\surp(G)\cdot\log n)$, we get $d_1=O(C_1^6\surp(G)^2(\log n)^2/n_1^2)$. So, $p_1=d_1/(n_1-1)=\widetilde{O}(\surp(G)^2/n^3)$, as desired. $\square$
+(b) By Theorem 9.2 on $\overline{G}$, $G$ has an induced subgraph $G_1\subset G$ on $n_1=\Omega(n/\log n)$ vertices of density $1-p_1\geq 1-10^{-6}$ and with a $C_1$-balanced complement, where $C_1=O(\log n)$. By Theorem 5.2, $\operatorname{surp}^*(G_1)\leq\operatorname{surp}^*(G)=O(\operatorname{surp}(G)\cdot\log n)=O(n^{6/5}/(\log n)^5)$. Write $d_1=d(\overline{G_1})$. If $d_1\geq n_1^{2/3}$, one can check that $\max\{\min\{n_1/d_1,d_1^{1/2}\},d_1^{1/4}\}\geq n_1^{1/5}$, so Theorem 9.9 yields $\operatorname{surp}^*(G_1)=\Omega(C_1^{-3}n_1\cdot n_1^{1/5})=\Omega(n_1^{6/5}/C_1^3)=\Omega(n^{6/5}/(\log n)^{6/5+3})>n^{6/5}/(\log n)^5$; this is impossible. So $d_1\leq n_1^{2/3}$ must hold. But then, Theorem 9.9 implies $\operatorname{surp}^*(G_1)=\Omega(C_1^{-3}n_1\cdot d_1^{1/2})$. As $\operatorname{surp}^*(G_1)\leq\operatorname{surp}^*(G)=O(\operatorname{surp}(G)\cdot\log n)$, we get $d_1=O(C_1^6\operatorname{surp}(G)^2(\log n)^2/n_1^2)$. So, $p_1=d_1/(n_1-1)=\widetilde{O}(\operatorname{surp}(G)^2/n^3)$, as desired. $\square$
 
 ## 10 Large cliques from small eigenvalues or surplus
 
@@ -1621,11 +1635,11 @@ Now, define $G_0=G[S]$; it has $d$ vertices and density at least $d^{-\gamma}/2$
 
 Now we prove the MaxCut version of Theorem 10.1, and use it to deduce Theorem 1.3.
 
-**Theorem 10.3.** Let $\gamma\in(0,1/60)$ and $\delta>0$, then there exist $\rho>0$ such that the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph of edge density at least $n^{-\rho}$ such that $\surp(G)\leq n^{1+\gamma}$. Then $G$ contains a clique of size at least $n^{1-2\gamma-\delta}$.
+**Theorem 10.3.** Let $\gamma\in(0,1/60)$ and $\delta>0$, then there exist $\rho>0$ such that the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex graph of edge density at least $n^{-\rho}$ such that $\operatorname{surp}(G)\leq n^{1+\gamma}$. Then $G$ contains a clique of size at least $n^{1-2\gamma-\delta}$.
 
 *Proof.* The proof of this is essentially identical to the proof of Theorem 10.1. The only difference is that we cite the MaxCut versions of our main densification results: Theorem 7.5, Theorem 8.8, and $(b)$ of Theorem 9.1. $\square$
 
-*Proof of Theorem 1.3.* Let $\gamma=\delta/2$, and let $\rho$ be the constant in Theorem 10.3. We show that $\varepsilon=\min\{\rho/4,\gamma/2\}$ suffices. Suppose for contradiction that $\surp(G)<m^{0.5+\varepsilon}$. Let $n$ be the number of vertices in $G$. We may assume that $G$ contains no isolated vertices. Then, a result of Erdős, Gyárfás, and Kohayakawa [41] shows that $\surp(G)\geq \frac{n}{6}$, so $m>(n/6)^{1/(0.5+\varepsilon)}>n^{2-4\varepsilon}$. Then edge density of $G$ is at least $n^{-4\varepsilon}\geq n^{-\rho}$. As $m\leq n^2$, $\surp(G)\leq m^{0.5+\varepsilon}\leq n^{1+2\varepsilon}\leq n^{1+\gamma}$. We get the contradiction as Theorem 10.3 guarantees that $G$ contains a clique of size $n^{1-2\gamma-\delta}=n^{1-2\delta}\geq m^{1/2-\delta}$. $\square$
+*Proof of Theorem 1.3.* Let $\gamma=\delta/2$, and let $\rho$ be the constant in Theorem 10.3. We show that $\varepsilon=\min\{\rho/4,\gamma/2\}$ suffices. Suppose for contradiction that $\operatorname{surp}(G)<m^{0.5+\varepsilon}$. Let $n$ be the number of vertices in $G$. We may assume that $G$ contains no isolated vertices. Then, a result of Erdős, Gyárfás, and Kohayakawa [41] shows that $\operatorname{surp}(G)\geq \frac{n}{6}$, so $m>(n/6)^{1/(0.5+\varepsilon)}>n^{2-4\varepsilon}$. Then edge density of $G$ is at least $n^{-4\varepsilon}\geq n^{-\rho}$. As $m\leq n^2$, $\operatorname{surp}(G)\leq m^{0.5+\varepsilon}\leq n^{1+2\varepsilon}\leq n^{1+\gamma}$. We get the contradiction as Theorem 10.3 guarantees that $G$ contains a clique of size $n^{1-2\gamma-\delta}=n^{1-2\delta}\geq m^{1/2-\delta}$. $\square$
 
 ## 11 Edit distance from the union of cliques
 
@@ -1633,11 +1647,11 @@ Theorems 1.4 and 8.7 become meaningless once the graph $G$ has density at most $
 
 The proof works as follows. Using Theorem 10.1, we can repeatedly pull out “large” cliques in $G$ as long as the rest graph has “many” edges. Then, we show that the union of these cliques induce almost all edges in $G$, so it is sufficient to consider this disjoint union of cliques. Moreover, we show that between any two cliques, it is either very sparse or very dense. We use this to derive that $G$ itself must resemble a disjoint union of cliques.
 
-We start with the following simple lemma, which will be used to argue that a dense graph with large smallest eigenvalue cannot induce sparse subgraphs ($G[Y]$ in the following statement). In fact, we can prove a stronger statement in terms of the surplus (recall that $\surp(G)\leq n|\lambda_n|/4$ from Theorem 5.1).
+We start with the following simple lemma, which will be used to argue that a dense graph with large smallest eigenvalue cannot induce sparse subgraphs ($G[Y]$ in the following statement). In fact, we can prove a stronger statement in terms of the surplus (recall that $\operatorname{surp}(G)\leq n|\lambda_n|/4$ from Theorem 5.1).
 
-**Lemma 11.1.** Let $G$ be a graph on $n$ vertices. Let $X\cup Y$ be a partition of $V(G)$, and let $b=e(G[X,Y])$ and $c=e(G[Y])$. Then $\surp(G)\geq \frac{b^2}{4n^2}-c$.
+**Lemma 11.1.** Let $G$ be a graph on $n$ vertices. Let $X\cup Y$ be a partition of $V(G)$, and let $b=e(G[X,Y])$ and $c=e(G[Y])$. Then $\operatorname{surp}(G)\geq \frac{b^2}{4n^2}-c$.
 
-*Proof.* If $a=e(G[X])$ satisfies $a\leq b/2$, then $\surp(G)$ is at least
+*Proof.* If $a=e(G[X])$ satisfies $a\leq b/2$, then $\operatorname{surp}(G)$ is at least
 
 $$
 e(G[X,Y])-\frac{e(G)}{2}
@@ -1681,10 +1695,10 @@ Suppose, for the sake of contradiction, that $|Y|>n^{1-2\alpha}$. By maximality 
 *Proof.* Following the notation in the Theorem 11.1, let $b=e(G_0[X,Y])$ and $c=e(G_0[Y])$. As $G_0$ has minimum degree $d$, we have $b+2c\ge d|Y|$. If $c\ge\frac14d|Y|$, then the density of $G[Y]$ is at least $\frac14d|Y|/\binom{|Y|}{2}\ge\frac{d}{2|Y|}\ge\frac{n^{1-2\alpha}}{2|Y|}>|Y|^{-5\alpha}\ge|Y|^{-\rho}$. Now, we assume that $c<\frac14d|Y|$, so $b>\frac12d|Y|$. By Theorem 11.1, we have
 
 $$
-\surp(G)\ge\surp(G_0)\ge\frac{b^2}{4n^2}-c.
+\operatorname{surp}(G)\ge\operatorname{surp}(G_0)\ge\frac{b^2}{4n^2}-c.
 $$
 
-On the other hand, $\surp(G)\ge\frac14|\lambda_n|n\le n^{1+\gamma}$ by Theorem 5.1, so
+On the other hand, $\operatorname{surp}(G)\ge\frac14|\lambda_n|n\le n^{1+\gamma}$ by Theorem 5.1, so
 
 $$
 c\ge\frac{b^2}{4n^2}-n^{1+\gamma}>\frac{d^2|Y|^2}{16n^2}-n^{1+\gamma}\ge\frac{d^2|Y|^2}{20n^2}.
@@ -1700,7 +1714,7 @@ Next, we show that the graph between two cliques must be either very dense or ve
 
 **Lemma 11.4.** *Let $G$ be an $n$-vertex graph with the smallest eigenvalue $\lambda_n$ and let $X,Y\subset V(G)$ be disjoint cliques of the same size. Then $G[X,Y]$ has either at most $O(|\lambda_n|^2|X|)$ edges, or at least $|X|^2-O(|\lambda_n|^2|X|)$ edges.*
 
-*Proof.* Recall that in Section 3, we identified a graph $H_k$, consisting of a clique of size $2k$ and an additional vertex with $k$ neighbours in the clique, with the property that no graph $G$ with at $\lambda_n\ge-\sqrt{k/2}$ contains $H_k$ as an induced subgraph (see Claim 3.3 and the subsequent discussion). Thus, if we set $k=2|\lambda_n|^2$, the graph $G$ does not contain $H_k$ as an induced subgraph. We may assume that $|X|=|Y|\ge4k, otherwise the statement is trivial. Then each vertex in $X$ has either at most $k$ neighbours or at most $k$ non-neighbours in $Y$. Moreover, each vertex in $Y$ has at most $k$ neighbours or at most $k$ non-neighbours in $X$. Let $X_0 \subset X$ be the set of vertices with at most $k$ neighbours, and let $X_1 = X \setminus X_0$, and define $Y_0,Y_1 \subset Y$ analogously. Suppose that $X_0$ and $Y_1$ both have size at least $2k$. If the number of edges between $X_0$ and $Y_1$ is at least $|X_0||Y_1|/2$, then there is a vertex in $X_0$ with at least $|Y_1|/2 \geq k$ neighbours in $Y_1$, contradiction. On the other hand, if the number of edges between $X_0$ and $Y_1$ is at most $|X_0||Y_1|/2$, then there is a vertex in $Y_0$ with at least $|X_0|/2 \geq k$ non-neighbours, contradiction. Therefore, it must hold that at least one of $X_0$ or $Y_1$ has size at most $2k$. If $|X_0|\leq 2k$, then $G[X,Y]$ has at least $|X_1|(|X|-k) \geq |X|^2 - 3k|X| = |X|^2 - O(|\lambda_n|^2|X|)$ edges. Otherwise, if $|Y_1|\leq 2k$, then $G[X,Y]$ has at most $|Y_0|k+|Y_1||X|\leq 3k|X| = O(|\lambda_n|^2|X|)$ edges. $\square$
+*Proof.* Recall that in Section 3, we identified a graph $H_k$, consisting of a clique of size $2k$ and an additional vertex with $k$ neighbours in the clique, with the property that no graph $G$ with at $\lambda_n\ge-\sqrt{k/2}$ contains $H_k$ as an induced subgraph (see Claim 3.3 and the subsequent discussion). Thus, if we set $k=2|\lambda_n|^2$, the graph $G$ does not contain $H_k$ as an induced subgraph. We may assume that $|X|=|Y|\ge4k$, otherwise the statement is trivial. Then each vertex in $X$ has either at most $k$ neighbours or at most $k$ non-neighbours in $Y$. Moreover, each vertex in $Y$ has at most $k$ neighbours or at most $k$ non-neighbours in $X$. Let $X_0 \subset X$ be the set of vertices with at most $k$ neighbours, and let $X_1 = X \setminus X_0$, and define $Y_0,Y_1 \subset Y$ analogously. Suppose that $X_0$ and $Y_1$ both have size at least $2k$. If the number of edges between $X_0$ and $Y_1$ is at least $|X_0||Y_1|/2$, then there is a vertex in $X_0$ with at least $|Y_1|/2 \geq k$ neighbours in $Y_1$, contradiction. On the other hand, if the number of edges between $X_0$ and $Y_1$ is at most $|X_0||Y_1|/2$, then there is a vertex in $Y_0$ with at least $|X_0|/2 \geq k$ non-neighbours, contradiction. Therefore, it must hold that at least one of $X_0$ or $Y_1$ has size at most $2k$. If $|X_0|\leq 2k$, then $G[X,Y]$ has at least $|X_1|(|X|-k) \geq |X|^2 - 3k|X| = |X|^2 - O(|\lambda_n|^2|X|)$ edges. Otherwise, if $|Y_1|\leq 2k$, then $G[X,Y]$ has at most $|Y_0|k+|Y_1||X|\leq 3k|X| = O(|\lambda_n|^2|X|)$ edges. $\square$
 
 We are ready to prove Theorem 1.5, which we restate here for convenience.
 
@@ -1712,7 +1726,7 @@ By Theorem 11.2, there exists a set $X\subset V(G)$ such that $X$ can be partiti
 
 **Claim 11.6.** *$\Gamma$ contains no cherry, i.e. if $ij,jk\in E(\Gamma)$, then $ik\in E(\Gamma)$ as well.*
 
-*Proof.* If there is a triple $(C_i,C_j,C_k)$ such that $G[C_i,C_j],G[C_j,C_k]$ have density at least $1-n^{-1/6}$, but $G[C_i,C_k]$ has density at most $1-n^{-1/6}$, then we can apply Theorem 8.3. This lemma shows that $\surp(G[C_i\cup C_j\cup C_k])\geq (1/4-3n^{-1/6})|C_i|^2\geq n/8$. Then, Theorem 5.1 implies the smallest eigenvalue of $G[C_i\cup C_j\cup C_k]$ is at most $-n^{1/2}/6$, which is a contradiction since $|\lambda_n(G[C_i\cup C_j\cup C_k])|\leq|\lambda_n(G)|=n^\gamma$. $\square$
+*Proof.* If there is a triple $(C_i,C_j,C_k)$ such that $G[C_i,C_j],G[C_j,C_k]$ have density at least $1-n^{-1/6}$, but $G[C_i,C_k]$ has density at most $1-n^{-1/6}$, then we can apply Theorem 8.3. This lemma shows that $\operatorname{surp}(G[C_i\cup C_j\cup C_k])\geq (1/4-3n^{-1/6})|C_i|^2\geq n/8$. Then, Theorem 5.1 implies the smallest eigenvalue of $G[C_i\cup C_j\cup C_k]$ is at most $-n^{1/2}/6$, which is a contradiction since $|\lambda_n(G[C_i\cup C_j\cup C_k])|\leq|\lambda_n(G)|=n^\gamma$. $\square$
 
 Recall that graphs containing no cherry are the disjoint union of cliques. Therefore, we can partition $V(\Gamma)$ into sets $I_1,\ldots,I_\ell$ such that $\Gamma[I_a]$ is a clique and there are no edges between $I_a$ and $I_b$ in $\Gamma$. But this gives a partition of $X$ into sets $Y_1,\ldots,Y_\ell$ by setting $Y_a=\bigcup_{i\in I_a} C_i$. Define $\widetilde{G}$ to be the graph on vertex set $V(G)$, where $Y_1,\ldots,Y_\ell$ are cliques, and all edges of $\widetilde{G}$ are contained in one of these cliques.
 
@@ -1730,7 +1744,7 @@ We conclude our paper by discussing some open problems. One of our main contribu
 
 **Question 12.1.** *Let $G$ be an $n$-vertex graph of average degree $d$ and $|\lambda_n|=\Theta(d^\gamma)$ for some $\gamma\in(0,1/2)$. How small can its clique number $\omega(G)$ be?*
 
-Moreover, despite the substantial progress presented in this paper, finding precise exponents for the MaxCut problem in $H$-free graphs remains open. In particular, it is still an intriguing problem to determine the largest exponent $\alpha_r$ such that every $K_r$-free graph $G$ with $m$ edges satisfies $\surp(G)\geq\Omega(m^{\alpha_r})$. The work of Alon [2] shows that $\alpha_3=4/5$, but the value of $\alpha_4$ is already unknown. Following our calculations, we established that $\alpha_r>0.51$ for all fixed $r\geq 3$, improving the barrier $1/2$. However, the celebrated conjecture of Alon, Bollobás, Krivelevich and Sudakov [3] asserts that $\alpha_r>3/4$.
+Moreover, despite the substantial progress presented in this paper, finding precise exponents for the MaxCut problem in $H$-free graphs remains open. In particular, it is still an intriguing problem to determine the largest exponent $\alpha_r$ such that every $K_r$-free graph $G$ with $m$ edges satisfies $\operatorname{surp}(G)\geq\Omega(m^{\alpha_r})$. The work of Alon [2] shows that $\alpha_3=4/5$, but the value of $\alpha_4$ is already unknown. Following our calculations, we established that $\alpha_r>0.51$ for all fixed $r\geq 3$, improving the barrier $1/2$. However, the celebrated conjecture of Alon, Bollobás, Krivelevich and Sudakov [3] asserts that $\alpha_r>3/4$.
 
 ## Acknowledgements
 
@@ -1912,17 +1926,17 @@ We are grateful to Ilya Shkredov for bringing Chowla’s problem to our attentio
 
 ## A Chowla’s cosine problem in finite groups
 
-In Section 1.1 we discussed Chowla’s cosine problem and its relation to Littlewood’s $L_1$-problem over the integers. Variants of these two problems have also been studied in the setting of discrete abelian groups. Namely, in 2009, Green and Konyagin [49] studies how small the $L_1$-norm of a dense set $A\subseteq\mathbb{Z}/p\mathbb{Z}$ can be. If $\widehat{\mathds{1}_A}$ denotes the Fourier transform of the indicator function of $A$ over $\mathbb{Z}/p\mathbb{Z}$, they showed that $\sum_r|\widehat{\mathds{1}_A}(r)|\geq(\log p)^{1/3-o(1)}$, which was later improved by Sanders [80] to $(\log p)^{1/2-o(1)}$. For sparser sets $A\subseteq\mathbb{Z}/p\mathbb{Z}$, a similar question has been studied by Schoen [82] and Konyagin and Shkredov [63].
+In Section 1.1 we discussed Chowla’s cosine problem and its relation to Littlewood’s $L_1$-problem over the integers. Variants of these two problems have also been studied in the setting of discrete abelian groups. Namely, in 2009, Green and Konyagin [49] studies how small the $L_1$-norm of a dense set $A\subseteq\mathbb{Z}/p\mathbb{Z}$ can be. If $\widehat{\mathbb{1}_A}$ denotes the Fourier transform of the indicator function of $A$ over $\mathbb{Z}/p\mathbb{Z}$, they showed that $\sum_r|\widehat{\mathbb{1}_A}(r)|\geq(\log p)^{1/3-o(1)}$, which was later improved by Sanders [80] to $(\log p)^{1/2-o(1)}$. For sparser sets $A\subseteq\mathbb{Z}/p\mathbb{Z}$, a similar question has been studied by Schoen [82] and Konyagin and Shkredov [63].
 
 Paralleling the extensions of the Littlewood $L_1$-problem, Sanders [81] extended Chowla’s problem to discrete abelian groups $\Gamma$ as follows. For a symmetric subset $A\subset\Gamma$, one can define
 
-$$M_\Gamma(A)=\sup_{y\in\widehat{\Gamma}}-\widehat{\mathds{1}_A}(y),$$
+$$M_\Gamma(A)=\sup_{y\in\widehat{\Gamma}}-\widehat{\mathbb{1}_A}(y),$$
 
-where $\widehat{\Gamma}$ is the dual group of $\Gamma$. Note that since $A$ is a symmetric set, $\widehat{\mathds{1}_A}$ is a real function.
+where $\widehat{\Gamma}$ is the dual group of $\Gamma$. Note that since $A$ is a symmetric set, $\widehat{\mathbb{1}_A}$ is a real function.
 
-In this language, Chowla’s cosine problem asks to show that for every $A\subseteq\mathbb{Z}$ we have $M_{\mathbb{Z}}(A)\geq\Omega(\sqrt{|A|})$, but it is also natural to ask how small $M_\Gamma(A)$ can be in a general group $\Gamma$. One can quickly observe that $M_\Gamma(A)$ need not go to infinity with the size of $A$. Indeed, if $A$ is a subgroup of $\Gamma$, then $M_\Gamma(A)=0$. On the other hand, Sanders ([81, Theorem 1.3]) proved that if $A$ is far from a subgroup of $\Gamma$, then $M_\Gamma(A)$ is necessarily large. Formally, he proved that for every $\delta>0$ there exists $c(\delta)>0$ such that if $M_\Gamma(A)\leq|\Gamma|^{c(\delta)}$, then there is some subgroup $H<\Gamma$ satisfying $|H\triangle A|\leq\delta|\Gamma|$. Noting that the Fourier coefficients of $\mathds{1}_A$ correspond to the eigenvalues of the Cayley graph $\Cay(\Gamma,A)$ generated by $A$, we can use our main results to improve these bounds when $\Gamma$ is finite, and to extend them to non-abelian groups as well.
+In this language, Chowla’s cosine problem asks to show that for every $A\subseteq\mathbb{Z}$ we have $M_{\mathbb{Z}}(A)\geq\Omega(\sqrt{|A|})$, but it is also natural to ask how small $M_\Gamma(A)$ can be in a general group $\Gamma$. One can quickly observe that $M_\Gamma(A)$ need not go to infinity with the size of $A$. Indeed, if $A$ is a subgroup of $\Gamma$, then $M_\Gamma(A)=0$. On the other hand, Sanders ([81, Theorem 1.3]) proved that if $A$ is far from a subgroup of $\Gamma$, then $M_\Gamma(A)$ is necessarily large. Formally, he proved that for every $\delta>0$ there exists $c(\delta)>0$ such that if $M_\Gamma(A)\leq|\Gamma|^{c(\delta)}$, then there is some subgroup $H<\Gamma$ satisfying $|H\triangle A|\leq\delta|\Gamma|$. Noting that the Fourier coefficients of $\mathbb{1}_A$ correspond to the eigenvalues of the Cayley graph $\operatorname{Cay}(\Gamma,A)$ generated by $A$, we can use our main results to improve these bounds when $\Gamma$ is finite, and to extend them to non-abelian groups as well.
 
-Recall, the Cayley graph $\Cay(\Gamma,A)$, where $\Gamma$ is a finite group and $A\subseteq\Gamma$ is symmetric, has vertex set $\Gamma$ and two vertices $x,y\in\Gamma$ are adjacent if and only if $xy^{-1}\in A$. We define $M_\Gamma(A):=\max-\lambda$, where the maximum is taken among all eigenvalues of $\Cay(\Gamma,A)$, which then coincides with the earlier definition for finite abelian groups. As discussed above, $M_\Gamma(A)=0$ if $A$ is a subgroup of $\Gamma$, so $M_\Gamma(A)$ is small if $A$ is close to a subgroup of $\Gamma$. Here, we show the opposite: if $M_\Gamma(A)$ is small, then $A$ must be close to a subgroup of $\Gamma$.
+Recall, the Cayley graph $\operatorname{Cay}(\Gamma,A)$, where $\Gamma$ is a finite group and $A\subseteq\Gamma$ is symmetric, has vertex set $\Gamma$ and two vertices $x,y\in\Gamma$ are adjacent if and only if $xy^{-1}\in A$. We define $M_\Gamma(A):=\max-\lambda$, where the maximum is taken among all eigenvalues of $\operatorname{Cay}(\Gamma,A)$, which then coincides with the earlier definition for finite abelian groups. As discussed above, $M_\Gamma(A)=0$ if $A$ is a subgroup of $\Gamma$, so $M_\Gamma(A)$ is small if $A$ is close to a subgroup of $\Gamma$. Here, we show the opposite: if $M_\Gamma(A)$ is small, then $A$ must be close to a subgroup of $\Gamma$.
 
 **Theorem A.1.** *Let $\delta,\gamma>0$, then the following holds for every sufficiently large finite group $\Gamma$. Let $A\subset\Gamma$ such that $A=A^{-1}$. If $M_\Gamma(A)\leq|\Gamma|^\gamma$ and $\gamma\in(0,1/4)$ then there exists a subgroup $H<\Gamma$ such that*
 
@@ -1932,7 +1946,7 @@ $$|H\triangle A|\leq\delta|\Gamma|.$$
 
 $$|H\triangle A|\leq|\Gamma|^{1-\alpha}.$$
 
-The main idea of the proof is to show that $\Cay(\Gamma,A)$ is close to the disjoint union of cliques if and only if $A$ is close to a subgroup of $\Gamma$. This is proved in the following lemma.
+The main idea of the proof is to show that $\operatorname{Cay}(\Gamma,A)$ is close to the disjoint union of cliques if and only if $A$ is close to a subgroup of $\Gamma$. This is proved in the following lemma.
 
 **Lemma A.2.** *Let $\Gamma$ be a group and let $A\subset\Gamma$, $A=A^{-1}$, such that the number of pairs $(x,y)\in A\times A$ such that $xy\notin A$ is at most $\varepsilon|A|^2$. Then there exists a subgroup $H<\Gamma$ such that*
 
@@ -2006,11 +2020,11 @@ With Theorem A.2 in our hands, Theorem A.1 follows almost immediately from Theor
 
 *Proof of Theorem A.1.* We start with the first part of the theorem. We may assume that $|A|\geq\delta|\Gamma|$, otherwise the statement is trivial by choosing $H=\{1_\Gamma\}$. Also, fix a parameter $\beta\ll\delta^4$.
 
-Let $G=\Cay(\Gamma,A)$, and let $\lambda_n=-M_\Gamma(A)$ be the smallest eigenvalue of $G$, $n=|\Gamma|$. We may assume that $1_\Gamma\notin A$, by noting that removing $1_\Gamma$ shifts the eigenvalues by $-1$. Therefore, $G$ is a simple graph with no loops. If $n$ is sufficiently large as a function of $\delta$, Theorem 1.4 shows that the inequality $|\lambda_n| \leq n^\gamma$ for $\gamma \in (0,1/4)$ implies that $G$ is $\beta$-close to a disjoint union of cliques. But then $G$ contains at most $3\beta n^3$ induced cherries by Theorem 8.4. Recall, a cherry is a triple of vertices $u,v,w \in G$ such that $uv,vw \in E(G)$, but $uw \notin E(G)$. Since $G=\Cay(\Gamma,A)$, every cherry corresponds to a pair $x=uv^{-1}\in A,y=vw^{-1}\in A$ for which we have $xy=uw^{-1}\notin A$, and each such pair $(x,y)\in A$ corresponds to exactly $n$ cherries. Hence, there are at most $6\beta n^2 \leq 6(\beta/\delta^2)|A|^2$ pairs $(x,y)\in A\times A$ such that $xy\notin A$. By Theorem A.2, then $|A\triangle H|\leq O(\beta^{1/2}/\delta|A|)\leq\delta n$ for some subgroup $H<\Gamma$, since $\beta\ll\delta^4$.
+Let $G=\operatorname{Cay}(\Gamma,A)$, and let $\lambda_n=-M_\Gamma(A)$ be the smallest eigenvalue of $G$, $n=|\Gamma|$. We may assume that $1_\Gamma\notin A$, by noting that removing $1_\Gamma$ shifts the eigenvalues by $-1$. Therefore, $G$ is a simple graph with no loops. If $n$ is sufficiently large as a function of $\delta$, Theorem 1.4 shows that the inequality $|\lambda_n| \leq n^\gamma$ for $\gamma \in (0,1/4)$ implies that $G$ is $\beta$-close to a disjoint union of cliques. But then $G$ contains at most $3\beta n^3$ induced cherries by Theorem 8.4. Recall, a cherry is a triple of vertices $u,v,w \in G$ such that $uv,vw \in E(G)$, but $uw \notin E(G)$. Since $G=\operatorname{Cay}(\Gamma,A)$, every cherry corresponds to a pair $x=uv^{-1}\in A,y=vw^{-1}\in A$ for which we have $xy=uw^{-1}\notin A$, and each such pair $(x,y)\in A$ corresponds to exactly $n$ cherries. Hence, there are at most $6\beta n^2 \leq 6(\beta/\delta^2)|A|^2$ pairs $(x,y)\in A\times A$ such that $xy\notin A$. By Theorem A.2, then $|A\triangle H|\leq O(\beta^{1/2}/\delta|A|)\leq\delta n$ for some subgroup $H<\Gamma$, since $\beta\ll\delta^4$.
 
 The second part of the theorem follows essentially in the same manner, but we cite Theorem 1.5 instead of Theorem 1.4. We omit the details. $\square$
 
-## B \quad Stability of graphs with small MaxCut
+## B Stability of graphs with small MaxCut
 
 One of the main results of our paper, Theorem 1.5 shows that every graph with $|\lambda_n|\leq n^\gamma$, for $\gamma\in(0,1/6)$, is $n^{-\alpha}$-close to a disjoint union of cliques. Here, we present a variant of this result concerning graphs with no large MaxCut, that is, we show that graphs with small maximum cut are $n^{-\alpha}$-close to a disjoint union of cliques.
 
@@ -2018,7 +2032,7 @@ One of the main results of our paper, Theorem 1.5 shows that every graph with $|
 
 The proof of this theorem mostly follows the same strategy as the proof of Theorem 1.5. We therefore recommend the readers to familiarize themselves with the arguments of Section 11 before reading this section. In short, the proof proceeds in two steps — first, we show that the graph can be partitioned into large vertex-disjoint cliques, as the following lemma shows.
 
-**Lemma B.2.** There exist absolute constants $\alpha,\gamma>0$ such that the following holds for every sufficiently large $n$. Let $G$ be a graph on $n$ vertices such that $\surp(G)\leq n^{1+\gamma}$. Then there exists $X\subset V(G)$ such that the number of edges not in $G[X]$ is at most $n^{2-\alpha}$, and $G[X]$ can be partitioned into cliques of size $n^{1-3\gamma}$.
+**Lemma B.2.** There exist absolute constants $\alpha,\gamma>0$ such that the following holds for every sufficiently large $n$. Let $G$ be a graph on $n$ vertices such that $\operatorname{surp}(G)\leq n^{1+\gamma}$. Then there exists $X\subset V(G)$ such that the number of edges not in $G[X]$ is at most $n^{2-\alpha}$, and $G[X]$ can be partitioned into cliques of size $n^{1-3\gamma}$.
 
 *Proof.* The proof this is almost identical to the proof of Lemma 11.2. The only difference is that we use Theorem 10.3 to pull out cliques of size $n^{1-3\gamma}$ instead of using Theorem 10.1 to pull out cliques of size $\sqrt{n}$. We omit further details. $\square$
 
@@ -2037,7 +2051,7 @@ $$\|u\|_{2}\|v\|_{2}\leq\|A\|_{F}+\sqrt{\delta}n\leq 2n.$$
 We may rescale $u$ and $v$ such that $\|u\|_2=\|v\|_2\leq\sqrt{2n}$. Let $\eta=\delta^{1/6}$, and define $x,y\in\{0,1\}^n$ such that
 
 $$
-x_i=\mathds{1}_{u_i\geq\eta}\quad\text{and}\quad y_i=\mathds{1}_{v_i\geq\eta}\quad\text{for all }1\leq i\leq n.
+x_i=\mathbb{1}_{u_i\geq\eta}\quad\text{and}\quad y_i=\mathbb{1}_{v_i\geq\eta}\quad\text{for all }1\leq i\leq n.
 $$
 
 We show that $xy^T$ is a good approximation of $A$. Note that $\|A-xy^T\|_F^2$ is the number of pairs $(i,j)$ such that $A_{i,j}\neq x_i y_j$. We count these pairs in three cases, and upper bound each case by $O(\delta^{1/3}n^2)$.
@@ -2056,23 +2070,23 @@ This is symmetric to the previous case, so the number of such pairs is also at m
 
 **Case 3.** $A_{i,j}=0$ and $x_i=y_j=1$.
 
-In this case, $u_i\geq\eta$ and $v_j\geq\eta$, so $(A_{i,j}-u_i v_j)^2\geq\eta^4$. Thus, the total number of pairs $(i,j)$ in this case is at most $\delta n^2/\eta^4=\delta^{1/3}n^2$.\hfill$\square$
+In this case, $u_i\geq\eta$ and $v_j\geq\eta$, so $(A_{i,j}-u_i v_j)^2\geq\eta^4$. Thus, the total number of pairs $(i,j)$ in this case is at most $\delta n^2/\eta^4=\delta^{1/3}n^2$. $\square$
 
 Now we are ready to prove the counterpart of Theorem 11.4: if the surplus is small, then between two disjoint cliques of the same size, it is either very sparse or very dense.
 
-**Lemma B.4.** Let $\alpha,\gamma>0$ be sufficiently small constants, and let $G$ be an $n$-vertex graphs with $\surp(G)\leq n^{1+\gamma}$, and let $X,Y\subset V(G)$ be disjoint cliques of the size $|X|=|Y|\geq n^{1-3\gamma}$. Then $G[X,Y]$ has either at most $O(|X|^{2-\alpha})$ edges or at least $|X|^2-O(|X|^{2-\alpha})$.
+**Lemma B.4.** Let $\alpha,\gamma>0$ be sufficiently small constants, and let $G$ be an $n$-vertex graphs with $\operatorname{surp}(G)\leq n^{1+\gamma}$, and let $X,Y\subset V(G)$ be disjoint cliques of the size $|X|=|Y|\geq n^{1-3\gamma}$. Then $G[X,Y]$ has either at most $O(|X|^{2-\alpha})$ edges or at least $|X|^2-O(|X|^{2-\alpha})$.
 
-*Proof.* Let $|X|=|Y|=k$, and let $H=G[X\cup Y]$. For simplicity, we denote the vertices of $X$ by $1,\ldots,k$ and the vertices of $Y$ by $k+1,\ldots,2k$. Since $\surp(H)\leq\surp(G)\leq n^{1+\gamma}$ (cf. Section 4), we have $\surp(H)\leq k^{\frac{1-\gamma}{1-3\gamma}}\leq k^{1+5\gamma}$.
+*Proof.* Let $|X|=|Y|=k$, and let $H=G[X\cup Y]$. For simplicity, we denote the vertices of $X$ by $1,\ldots,k$ and the vertices of $Y$ by $k+1,\ldots,2k$. Since $\operatorname{surp}(H)\leq\operatorname{surp}(G)\leq n^{1+\gamma}$ (cf. Section 4), we have $\operatorname{surp}(H)\leq k^{\frac{1-\gamma}{1-3\gamma}}\leq k^{1+5\gamma}$.
 
 Let $A$ be the adjacency matrix of $H$ with eigenvalues $\lambda_1\geq\cdots\geq\lambda_{2k}$. Furthermore, let $M$ be the adjacency matrix of $\overline{H}$, which is a bipartite graph, and let $\mu_1\geq\cdots\geq\mu_{2k}$ be the eigenvalues of $M$. Note that $\overline{H}$ is bipartite, so $\mu_i=-\mu_{2k+1-i}$ for $i\in[2k]$.
 
 We can use Lemma 5.3 (ii) to obtain a lower bound on the surplus of $H$ based on its eigenvalues, and Lemma 9.8 to relate it to the eigenvalues of $H$. Concretely, we have
 
 $$
-\surp^*(H)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{\lambda_i<0}\lambda_i^2\right)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{i\neq1,\mu_i>0}\mu_i^2\right)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{i\neq1,2k}\mu_i^2\right).
+\operatorname{surp}^*(H)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{\lambda_i<0}\lambda_i^2\right)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{i\neq1,\mu_i>0}\mu_i^2\right)=\Omega\left(\frac{1}{\sqrt{k}}\sum_{i\neq1,2k}\mu_i^2\right).
 $$
 
-In addition, recall that $\surp(H)=\Omega(\surp^*(G)/\log k)$ from Theorem 5.2. Recall that $\surp(H)\leq k^{1+5\gamma}$. We acquire $\sum_{i\neq1,2k}\mu_i^2\leq k^{3/2+5\gamma+o(1)}$.
+In addition, recall that $\operatorname{surp}(H)=\Omega(\operatorname{surp}^*(G)/\log k)$ from Theorem 5.2. Recall that $\operatorname{surp}(H)\leq k^{1+5\gamma}$. We acquire $\sum_{i\neq1,2k}\mu_i^2\leq k^{3/2+5\gamma+o(1)}$.
 
 On the other hand, we can express $\sum_{i\neq1,2k}\mu_i^2$ as follows. The matrix $M$ has the form $M=\begin{pmatrix}0&B\\ B^T&0\end{pmatrix}$ with an appropriate $k\times k$ matrix $B$. The principal eigenvector of $M$ can be written as $v_1=(u,v)$, where $u,v\in\mathbb{R}^k$ correspond to the two vertex classes of $H$. Then the eigenvector corresponding to the smallest eigenvalue $\lambda_{2k}=-\lambda_1$ is $v_{2k}=(u,-v)$, and we have
 
@@ -2093,17 +2107,17 @@ $$
 k^2=|X||Y|+(k-|X|)|Y|+|X|(k-|Y|)+(k-|X|)(k-|Y|)\leq k^2-k^{2-\alpha}/2+k(2k-|X|-|Y|),
 $$
 
-so $|\{1,\ldots,2k\}\setminus(X\cup Y)|=2k-|X|-|Y|\geq k^{1-\alpha}/2$. Pick $X_0\subseteq X,Y_0\subseteq Y,Z_0\subseteq V(H)\setminus(X\cup Y)$ be sets of size exactly $k^{1-\alpha}/2$. Since the pairs $(X_0,Z_0)$ and $(Y_0,Z_0)$ are complete in $\overline{H'}$ while the pair $(X_0,Y_0)$ is empty in $\overline{H'}$, Theorem 8.3 guarantees $\surp(\overline{H'})\geq\frac14|X_0|^2=k^{2-2\alpha}/16$. As discussed above, $H$ and $\overline{H'}$ differ by at most $\|B-xy^T\|_F^2=O(k^{11/6+5\gamma/3+o(1)})$ edges. For sufficiently small $\gamma,\alpha>0$, we have
+so $|\{1,\ldots,2k\}\setminus(X\cup Y)|=2k-|X|-|Y|\geq k^{1-\alpha}/2$. Pick $X_0\subseteq X,Y_0\subseteq Y,Z_0\subseteq V(H)\setminus(X\cup Y)$ be sets of size exactly $k^{1-\alpha}/2$. Since the pairs $(X_0,Z_0)$ and $(Y_0,Z_0)$ are complete in $\overline{H'}$ while the pair $(X_0,Y_0)$ is empty in $\overline{H'}$, Theorem 8.3 guarantees $\operatorname{surp}(\overline{H'})\geq\frac14|X_0|^2=k^{2-2\alpha}/16$. As discussed above, $H$ and $\overline{H'}$ differ by at most $\|B-xy^T\|_F^2=O(k^{11/6+5\gamma/3+o(1)})$ edges. For sufficiently small $\gamma,\alpha>0$, we have
 
 $$
-\surp(H)\geq\surp(\overline{H'})-O(k^{11/6+5\gamma/3+o(1)})\geq\Omega(k^{2-2\alpha})>k^{1+5\gamma}.
+\operatorname{surp}(H)\geq\operatorname{surp}(\overline{H'})-O(k^{11/6+5\gamma/3+o(1)})\geq\Omega(k^{2-2\alpha})>k^{1+5\gamma}.
 $$
 
-This contradicts our assumption that $\surp(H)\leq k^{1+5\gamma}$. $\square$
+This contradicts our assumption that $\operatorname{surp}(H)\leq k^{1+5\gamma}$. $\square$
 
 Now we are ready to prove the main theorem of this section — Theorem B.1. Recall that this theorem states: if $G$ has no cut of size $m/2+m^{1/2+\varepsilon}$, then $G$ is $n^{-\alpha}$-close to a disjoint union of cliques. The proof is essentially the same as that of Theorem 1.5, and therefore we only briefly outline it.
 
-*Proof of Theorem B.1.* We may assume $m\geq n^{2-\alpha}$ since otherwise the statement is trivial. Then, it suffices to show that for small enough constants $\alpha,\gamma>0$, whenever $\surp(G)\leq n^{1+\gamma}$, $G$ is $O(n^{-\alpha/2})$-close to a disjoint union of cliques.
+*Proof of Theorem B.1.* We may assume $m\geq n^{2-\alpha}$ since otherwise the statement is trivial. Then, it suffices to show that for small enough constants $\alpha,\gamma>0$, whenever $\operatorname{surp}(G)\leq n^{1+\gamma}$, $G$ is $O(n^{-\alpha/2})$-close to a disjoint union of cliques.
 
 By Lemma B.2, there is a set $X\subset V(G)$ which can be partitioned into the union of cliques of size $n^{1-3\gamma}$, and $G$ has at most $n^{2-\alpha}$ edges not in $G[X]$. By Lemma B.4, the bipartite graph between any two of these cliques is $n^{-\alpha/2}$-close to either complete or empty. Thus, one can define an auxiliary graph on these cliques, where two cliques are adjacent if the induced bipartite graph is almost complete. Due to Lemma 8.3, the auxiliary graph has no induced cherries, meaning that it is a disjoint union of cliques.
 
@@ -2111,29 +2125,29 @@ Therefore, the graph $G[X]$ is $n^{2-\alpha/2}$-close to a disjoint union of cli
 
 ## C Bisection width
 
-The *bisection width* of a graph is defined as the minimum number of edges crossing a balanced partition of the vertex set, and it is denoted by $\bw(G)$. As a natural dual to the maximum cut, this parameter is also of central interest in theoretical computer science [52, 53, 58], probabilistic [14, 32, 31, 33] and extremal graph theory [1, 74, 76].
+The *bisection width* of a graph is defined as the minimum number of edges crossing a balanced partition of the vertex set, and it is denoted by $\operatorname{bw}(G)$. As a natural dual to the maximum cut, this parameter is also of central interest in theoretical computer science [52, 53, 58], probabilistic [14, 32, 31, 33] and extremal graph theory [1, 74, 76].
 
 It is convenient to measure the bisection width via the *deficit*, which is defined as
 
 $$
-\dfc(G)=e(G)\left(\frac{1}{2}+\frac{1}{2n-2}\right)-\bw(G).
+\operatorname{dfc}(G)=e(G)\left(\frac{1}{2}+\frac{1}{2n-2}\right)-\operatorname{bw}(G).
 $$
 
-By the uniform random balanced cut, the deficit is always non-negative, and if $G$ is a regular graph that is neither empty nor complete, then $\dfc(G)=\Omega(n)$, see e.g. [74]. This is optimal if $G$ is a Turán graph.
+By the uniform random balanced cut, the deficit is always non-negative, and if $G$ is a regular graph that is neither empty nor complete, then $\operatorname{dfc}(G)=\Omega(n)$, see e.g. [74]. This is optimal if $G$ is a Turán graph.
 
-A classic result of Alon [1] states that if $G$ is $d$-regular, and $d=O(n^{1/9})$, then $\dfc(G)=\Omega(\sqrt{d}n)$, which is optimal for random $d$-regular graphs. Recently, Räty, Sudakov, and Tomon [74] greatly extended this bound by showing that
+A classic result of Alon [1] states that if $G$ is $d$-regular, and $d=O(n^{1/9})$, then $\operatorname{dfc}(G)=\Omega(\sqrt{d}n)$, which is optimal for random $d$-regular graphs. Recently, Räty, Sudakov, and Tomon [74] greatly extended this bound by showing that
 
 $$
-\dfc(G)=\begin{cases}
+\operatorname{dfc}(G)=\begin{cases}
 \Omega(d^{1/2}n)&\text{if }d\leq n^{2/3},\\
 \Omega(n^{2}/d)&\text{if }d\in[n^{2/3},n^{4/5}],\\
 \widetilde{\Omega}(d^{1/4}n)&\text{if }d\in[n^{4/5},(1/2-\varepsilon)n].
 \end{cases}
 $$
 
-These results are sharp for $d\in[1,n^{3/4}]$, and there are $d$-regular graphs for $d\approx n/3$ with deficit $O(n^{4/3})$. For $d=n(1-1/r)$, where $r$ is a positive integer, the Turán graph $T_r(n)$ shows that we cannot hope for a bound better than $\Omega(n)$. Räty, Sudakov, and Tomon [74] conjectured that Turán graphs are the only obstruction to large deficit. Using the terminology of *positive discrepancy*, they conjectured that if $\dfc(G)=o(n^{5/4})$, then $G$ is $o(1)$-close to a Turán graph. We prove that this conjecture holds qualitatively, by establishing the bisection width analogue of our MaxCut result (Theorem B.1).
+These results are sharp for $d\in[1,n^{3/4}]$, and there are $d$-regular graphs for $d\approx n/3$ with deficit $O(n^{4/3})$. For $d=n(1-1/r)$, where $r$ is a positive integer, the Turán graph $T_r(n)$ shows that we cannot hope for a bound better than $\Omega(n)$. Räty, Sudakov, and Tomon [74] conjectured that Turán graphs are the only obstruction to large deficit. Using the terminology of *positive discrepancy*, they conjectured that if $\operatorname{dfc}(G)=o(n^{5/4})$, then $G$ is $o(1)$-close to a Turán graph. We prove that this conjecture holds qualitatively, by establishing the bisection width analogue of our MaxCut result (Theorem B.1).
 
-**Theorem C.1.** *There exists $\varepsilon>0$ such that the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex $d$-regular graph. If the bisection width of $G$ is more than $\frac{dn}{4}-n^{1+\varepsilon}$, then $G$ is $n^{-\varepsilon}$-close to a Turán graph. Thus, if $\dfc(G)\leq n^{1+\varepsilon}$, then*
+**Theorem C.1.** *There exists $\varepsilon>0$ such that the following holds for every sufficiently large $n$. Let $G$ be an $n$-vertex $d$-regular graph. If the bisection width of $G$ is more than $\frac{dn}{4}-n^{1+\varepsilon}$, then $G$ is $n^{-\varepsilon}$-close to a Turán graph. Thus, if $\operatorname{dfc}(G)\leq n^{1+\varepsilon}$, then*
 
 $$
 \frac{d}{n}\in\left\{1-\frac{1}{r}:r\in\mathbb{Z}^{+}\right\}+[-n^{-\varepsilon},n^{\varepsilon}].
@@ -2142,13 +2156,13 @@ $$
 *Proof.* Define the *positive discrepancy* of a graph $G$ of edge density $p$ as
 
 $$
-\disc^{+}(G)=\max_{U\subset V(G)}e(G[U])-p\binom{|U|}{2},
+\operatorname{disc}^{+}(G)=\max_{U\subset V(G)}e(G[U])-p\binom{|U|}{2},
 $$
 
 and define the negative discrepancy as
 
 $$
-\disc^{-}(G)=\max_{U\subset V(G)}p\binom{|U|}{2}-e(G[U]).
+\operatorname{disc}^{-}(G)=\max_{U\subset V(G)}p\binom{|U|}{2}-e(G[U]).
 $$
 
-It was proved in [74, Lemma 2.6] that if $G$ is regular, then $\surp(G)=\Theta(\disc^{-}(G))$ and $\dfc(G)=\Theta(\disc^{+}(G))$. Moreover, $\disc^{+}(G)=\disc^{-}(\overline{G})$. Therefore, the theorem follows from Theorem B.1 after taking complement of $G$, and noting that if a *regular graph* $G$ is close to a complement of a disjoint union of cliques, then $G$ is close to a Turán graph. $\square$
+It was proved in [74, Lemma 2.6] that if $G$ is regular, then $\operatorname{surp}(G)=\Theta(\operatorname{disc}^{-}(G))$ and $\operatorname{dfc}(G)=\Theta(\operatorname{disc}^{+}(G))$. Moreover, $\operatorname{disc}^{+}(G)=\operatorname{disc}^{-}(\overline{G})$. Therefore, the theorem follows from Theorem B.1 after taking complement of $G$, and noting that if a *regular graph* $G$ is close to a complement of a disjoint union of cliques, then $G$ is close to a Turán graph. $\square$

@@ -41,7 +41,7 @@ $$
 \end{aligned}
 $$
 
-We recall also, that the \textit{(Hamming)} weight of a vector is the number of its non-zero entries. The weight of a vector is of interest when considering the sums of the elements of a set containing the standard basis.
+We recall also, that the *(Hamming) weight* of a vector is the number of its non-zero entries. The weight of a vector is of interest when considering the sums of the elements of a set containing the standard basis.
 
 The Sidon property of $M$ can be characterised in terms of 2-star-sums and 3-star-sums by the following equivalent statements:
 
@@ -112,7 +112,7 @@ $$
 2^{t+1}-2 < k(k-1) \leq 2^{t+1}-\frac{1}{4}.
 $$
 
-But this contradicts $k(k-1)$ even. \hfill$\square$
+But this contradicts $k(k-1)$ even. $\square$
 
 After looking at an upper bound for the maximum size of a Sidon set, it is natural to ask whether every Sidon set can be extended to a Sidon set of maximum size by adding elements. Already in dimension 6 this is not true, as we will see later in Proposition 2.7.
 
@@ -120,7 +120,7 @@ Therefore, we now concentrate on the question how a Sidon set can be extended by
 
 **Proposition 2.2 ([13]).** Let $M$ be a Sidon set in $\mathbb{F}_2^t$ and $g\in\mathbb{F}_2^t\setminus M$. Then $M\mathbin{\dot\cup}\{g\}$ is Sidon if and only if $g\in\mathbb{F}_2^t\setminus\mathcal{S}_3(M)=\mathbb{F}_2^t\setminus\big(\mathcal{S}_3^*(M)\mathbin{\dot\cup}M\big)$.
 
-*Proof.* Let $M\subseteq\mathbb{F}_2^t$ be a Sidon set. From $g\in\mathbb{F}_2^t\setminus M$ follows that $M\mathbin{\dot\cup}\{g\}$ is not Sidon if and only if there exist $m,m_1,m_2\in M$ pairwise distinct such that $g+m=m_1+m_2$ which is equivalent to $g=m+m_1+m_2$. Hence $g\in\mathcal{S}_3^*(M)\subseteq\mathcal{S}_3^*(M)\mathbin{\dot\cup}M=\mathcal{S}_3(M)$. \hfill$\square$
+*Proof.* Let $M\subseteq\mathbb{F}_2^t$ be a Sidon set. From $g\in\mathbb{F}_2^t\setminus M$ follows that $M\mathbin{\dot\cup}\{g\}$ is not Sidon if and only if there exist $m,m_1,m_2\in M$ pairwise distinct such that $g+m=m_1+m_2$ which is equivalent to $g=m+m_1+m_2$. Hence $g\in\mathcal{S}_3^*(M)\subseteq\mathcal{S}_3^*(M)\mathbin{\dot\cup}M=\mathcal{S}_3(M)$. $\square$
 
 Those Sidon sets which can not be extended by adding elements without losing the Sidon property are of particular interest:
 
@@ -316,19 +316,19 @@ The next Proposition is about extending sum-free sets and sum-free Sidon sets by
 
 **Proposition 3.3.** *Let $M$ be a subset of $\mathbb{F}_{2}^{t}$ and $g\in\mathbb{F}_{2}^{t}\setminus M$.*
 
-*(a) Let $M$ be sum-free. Then $M\mathbin{\mathaccent 0{\cdot}\cup}\{g\}$ is sum-free if and only if $g\in\mathbb{F}_{2}^{t}\setminus\mathcal{S}_{2}(M)$.*
+*(a) Let $M$ be sum-free. Then $M\mathbin{\dot\cup}\{g\}$ is sum-free if and only if $g\in\mathbb{F}_{2}^{t}\setminus\mathcal{S}_{2}(M)$.*
 
-*(b) Let $M$ be sum-free Sidon. Then $M\mathbin{\mathaccent 0{\cdot}\cup}\{g\}$ is sum-free Sidon if and only if $g\in\mathbb{F}_{2}^{t}\setminus\bigl(\mathcal{S}_{3}(M)\cup\mathcal{S}_{2}(M)\bigr)$.*
+*(b) Let $M$ be sum-free Sidon. Then $M\mathbin{\dot\cup}\{g\}$ is sum-free Sidon if and only if $g\in\mathbb{F}_{2}^{t}\setminus\bigl(\mathcal{S}_{3}(M)\cup\mathcal{S}_{2}(M)\bigr)$.*
 
-*(c) Let $M$ be sum-free Sidon. Then $M\mathbin{\mathaccent 0{\cdot}\cup}\{g\}$ is Sidon and not sum-free if and only if $g\in\mathcal{S}_{2}(M)\setminus\mathcal{S}_{3}(M)$.*
+*(c) Let $M$ be sum-free Sidon. Then $M\mathbin{\dot\cup}\{g\}$ is Sidon and not sum-free if and only if $g\in\mathcal{S}_{2}(M)\setminus\mathcal{S}_{3}(M)$.*
 
-*Proof.* Let $M$ be sum-free and $g\in\mathbb{F}_{2}^{t}\setminus M$. We assume that $M\mathbin{\mathaccent 0{\cdot}\cup}\{g\}$ is not sum-free. Hence there exist $m_{1},m_{2}\in M\mathbin{\mathaccent 0{\cdot}\cup}\{g\}$ such that $m_{1}+m_{2}=g$. But this is equivalent to either $g\in\mathcal{S}_{2}^{*}(M)$ or $g=0$, hence $g\in\mathcal{S}_{2}(M)=\mathcal{S}_{2}^{*}(M)\cup\{0\}$ and (a) is shown. Cases (b) and (c) follow from (a) and Proposition 2.2. $\square$
+*Proof.* Let $M$ be sum-free and $g\in\mathbb{F}_{2}^{t}\setminus M$. We assume that $M\mathbin{\dot\cup}\{g\}$ is not sum-free. Hence there exist $m_{1},m_{2}\in M\mathbin{\dot\cup}\{g\}$ such that $m_{1}+m_{2}=g$. But this is equivalent to either $g\in\mathcal{S}_{2}^{*}(M)$ or $g=0$, hence $g\in\mathcal{S}_{2}(M)=\mathcal{S}_{2}^{*}(M)\cup\{0\}$ and (a) is shown. Cases (b) and (c) follow from (a) and Proposition 2.2. $\square$
 
 The case when 0 is contained in a Sidon set is of special interest.
 
 **Proposition 3.4.** *Let $M$ be a subset of $\mathbb{F}_{2}^{t}$.*
 
-*(a) If $M$ is sum-free Sidon, then $M\mathbin{\mathaccent 0{\cdot}\cup}\{0\}$ is Sidon and not sum-free.*
+*(a) If $M$ is sum-free Sidon, then $M\mathbin{\dot\cup}\{0\}$ is Sidon and not sum-free.*
 
 *(b) If $M$ is Sidon and $0\in M$, then $M\setminus\{0\}$ is sum-free Sidon.*
 
@@ -338,27 +338,27 @@ Now we consider (b). Since every subset of a Sidon set is Sidon, it remains to s
 
 Therefore, the problem to find the maximum size of a sum-free Sidon set is equivalent to find the maximum size of a Sidon set.
 
-**Proposition 3.5.** *Let $\sfs_{max}(\mathbb{F}_{2}^{t})$ denote the maximum size of a sum-free Sidon set in $\mathbb{F}_{2}^{t}$. Then*
+**Proposition 3.5.** *Let $\mathit{sfs}_{max}(\mathbb{F}_{2}^{t})$ denote the maximum size of a sum-free Sidon set in $\mathbb{F}_{2}^{t}$. Then*
 
-$$s_{max}(\mathbb{F}_{2}^{t})=\sfs_{max}(\mathbb{F}_{2}^{t})+1.$$
+$$s_{max}(\mathbb{F}_{2}^{t})=\mathit{sfs}_{max}(\mathbb{F}_{2}^{t})+1.$$
 
 ## 4 Linear Codes
 
 A (binary) *linear code* $\mathcal{C}$ of *length* $n$ and *dimension* $k$ is a $k$ dimensional vector subspace $\mathcal{C}$ in $\mathbb{F}_{2}^{n}$. Such a code $\mathcal{C}$ is called an $[n,k]$-code and $c\in\mathcal{C}$ is called a *code word* of $\mathcal{C}$. We consider all vectors to be row vectors.
 
-If the \emph{minimum distance} of $\mathcal{C}$ is $d$, that is the minimum number of non-zero entries of all non-zero code words of $\mathcal{C}$, then $\mathcal{C}$ is called a $[n,k,d]$-code.
+If the *minimum distance* of $\mathcal{C}$ is $d$, that is the minimum number of non-zero entries of all non-zero code words of $\mathcal{C}$, then $\mathcal{C}$ is called a $[n,k,d]$-code.
 
-A \emph{parity check matrix} of an $[n,k]$-code $\mathcal{C}$ is an $(n-k)\times n$ matrix $\mathcal{H}$ such that $\mathcal{C}$ equals to the kernel of $\mathcal{H}$ i.e $\mathcal{C}=\{v\in\mathbb{F}_{2}^{n}:\mathcal{H}\cdot v^{\intercal}=0\}$. We note that the rank of $\mathcal{H}$ is $n-k$.
+A *parity check matrix* of an $[n,k]$-code $\mathcal{C}$ is an $(n-k)\times n$ matrix $\mathcal{H}$ such that $\mathcal{C}$ equals to the kernel of $\mathcal{H}$ i.e $\mathcal{C}=\{v\in\mathbb{F}_{2}^{n}:\mathcal{H}\cdot v^{\intercal}=0\}$. We note that the rank of $\mathcal{H}$ is $n-k$.
 
-The \emph{covering radius} of an $[n,k]$-code $\mathcal{C}$ with parity check matrix $\mathcal{H}$ is the smallest integer $R$ such that every binary column vector with $n-k$ entries can be written as the sum of at most $R$ columns of $\mathcal{H}$.
+The *covering radius* of an $[n,k]$-code $\mathcal{C}$ with parity check matrix $\mathcal{H}$ is the smallest integer $R$ such that every binary column vector with $n-k$ entries can be written as the sum of at most $R$ columns of $\mathcal{H}$.
 
-We recall a fruitful \emph{one-to-one correspondence} between additive structures and linear codes, see [7]. It translates additive properties of a subset $M$ of $\mathbb{F}_{2}^{t}$ into properties of an associated code of length $\lvert M\rvert$, such as minimum distance or covering radius, and vice versa. Independently from us, [12] also discussed the one-to-one correspondence with the \emph{focus set} on Sidon sets. A similar discussion is done in [4] for the specific case of graphs of APN functions, which are Sidon sets.
+We recall a fruitful one-to-one correspondence between additive structures and linear codes, see [7]. It translates additive properties of a subset $M$ of $\mathbb{F}_{2}^{t}$ into properties of an associated code of length $\lvert M\rvert$, such as minimum distance or covering radius, and vice versa. Independently from us, [12] also discussed the one-to-one correspondence with the focus set on Sidon sets. A similar discussion is done in [4] for the specific case of graphs of APN functions, which are Sidon sets.
 
 When formulating the correspondence we will see that we need an ordering for the elements of $\mathbb{F}_{2}^{t}$. Therefore, for the rest of this section, we assume, that $\mathbb{F}_{2}^{n}$ is endowed with an ordering, but all what follows is independent of this ordering.
 
 Additionally, our purpose is to read information about a given set $M$ from its associated code. However, this is not possible if the associated code is trivial, that is, of dimension $0$ or $\lvert M\rvert$. So we formulate the correspondence in such a way that we never obtain a trivial associated code from a given set $M$.
 
-The \emph{one-to-one correspondence}
+The *one-to-one correspondence*
 
 $$
 \begin{aligned}
@@ -376,19 +376,19 @@ M\subseteq\mathbb{F}_{2}^{t}\setminus\{0\}\\
 \end{array}
 \right\}\\
 M&\longmapsto\mathcal{C}_{M}\\
-M_{\mathcal{C}}&\longleftarrow\mathcal{C}
+M_{\mathcal{C}}&\mathrel{\longleftarrow\!\shortmid}\mathcal{C}
 \end{aligned}
 $$
 
 is defined as follows:
 
-Let $M$ be a subset of $\mathbb{F}_{2}^{t}\setminus\{0\}$ with $\lvert M\rvert\geq t+1$. We define the \emph{associated matrix} $\mathcal{M}_{M}$ of $M$ as the $t\times\lvert M\rvert$ matrix, where the columns are the vectors of $M$, i.e
+Let $M$ be a subset of $\mathbb{F}_{2}^{t}\setminus\{0\}$ with $\lvert M\rvert\geq t+1$. We define the *associated matrix* $\mathcal{M}_{M}$ of $M$ as the $t\times\lvert M\rvert$ matrix, where the columns are the vectors of $M$, i.e
 
 $$
 \mathcal{M}_{M}=(m^{\intercal})_{m\in M}
 $$
 
-and the \emph{associated code} $\mathcal{C}_{M}$ of $M$ is the kernel of this matrix, i.e
+and the *associated code* $\mathcal{C}_{M}$ of $M$ is the kernel of this matrix, i.e
 
 $$
 \mathcal{C}_{M}=\{v\in\mathbb{F}_{2}^{\lvert M\rvert}:\mathcal{M}_{M}\cdot v^{\intercal}=0\}.

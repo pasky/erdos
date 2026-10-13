@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T14:08:51Z
+updated: 2026-10-13T15:46:56Z
 ---
 
 # Problem 1168
 
 [[problems/set_theory/_index|..]]
 
-[[problems/set_theory/E1168/claims/_index|claims/]]: ...
+[[problems/set_theory/E1168/claims/_index|claims/]]: The 1 claim page of Problem 1168, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -40,9 +40,17 @@ https://www.erdosproblems.com/1168.
 
 ## Current assessment
 
-No current assessment is recorded. The status above is imported from the dated
-site record. This page records no current literature search or independent
-assessment of proof coverage.
+The status above is imported from the dated site record. The assessment covers
+two sources. Corollary 7 of Erdős, Hajnal and Rado (p. 132) was read at $r=2$
+and $\beta=\omega+1$, with Case 1b of its proof (p. 133) and the printed
+hypothesis of Theorem 10 (p. 117), which that case cites, as
+[[problems/set_theory/E1168/claims/1965_03_01_erdos_hajnal_rado|its claim page]]
+records; no proof is reviewed here. The preprint of Garti, Hayut and Shelah
+(arXiv:2502.16625v2) was read for its Theorem 0.1, its Section 2 and Theorem
+1.3, and its statement that the question is open in ZFC. No wider literature
+search is recorded. Komjáth's 2025 survey of the Erdős–Hajnal problem list was
+not read for this question; Garti, Hayut and Shelah report that it records no
+progress on it.
 
 ## Known Results
 

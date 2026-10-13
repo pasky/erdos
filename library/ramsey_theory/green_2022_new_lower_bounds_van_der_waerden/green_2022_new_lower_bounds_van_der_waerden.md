@@ -17,29 +17,29 @@ We show that there is a red-blue colouring of $[N]$ with no blue 3-term arithmet
 
 ## Contents
 
-**I Introduction** \hfill **2**  
-**1 Statement of results and history** \hfill **2**  
-**2 Overview and structure the paper** \hfill **2**  
-2.1 Discussion and overview \dotfill 2  
-2.2 Structure of the paper \dotfill 5  
-2.3 Further comments \dotfill 5  
-**3 Notation and conventions** \hfill **6**  
-3.1 Fourier transforms \dotfill 6  
-3.2 Convention on absolute constants \dotfill 6  
-3.3 Key parameters \dotfill 6  
-3.4 Notation \dotfill 7  
+**I Introduction** **2**  
+**1 Statement of results and history** **2**  
+**2 Overview and structure the paper** **2**  
+2.1 Discussion and overview . . . 2  
+2.2 Structure of the paper . . . 5  
+2.3 Further comments . . . 5  
+**3 Notation and conventions** **6**  
+3.1 Fourier transforms . . . 6  
+3.2 Convention on absolute constants . . . 6  
+3.3 Key parameters . . . 6  
+3.4 Notation . . . 7  
 
-**II A red/blue colouring of $[N]$** \hfill **7**  
-**4 Random ellipsoidal annuli** \hfill **7**  
-4.1 A well-distributed set of centres \dotfill 7  
-4.2 Random ellipsoidal annuli \dotfill 9  
-**5 The colouring. Outline proof of the main theorem** \hfill **9**  
+**II A red/blue colouring of $[N]$** **7**  
+**4 Random ellipsoidal annuli** **7**  
+4.1 A well-distributed set of centres . . . 7  
+4.2 Random ellipsoidal annuli . . . 9  
+**5 The colouring. Outline proof of the main theorem** **9**  
 
-**III Monochromatic progressions** \hfill **11**  
-**6 No blue 3-term progressions** \hfill **11**  
-**7 Diophantine conditions** \hfill **12**  
-**8 The first step – red progressions enter balls** \hfill **15**  
-**9 The second step – red progressions hit annuli** \hfill **17**
+**III Monochromatic progressions** **11**  
+**6 No blue 3-term progressions** **11**  
+**7 Diophantine conditions** **12**  
+**8 The first step – red progressions enter balls** **15**  
+**9 The second step – red progressions hit annuli** **17**
 
 **IV** **Multidimensional structure and geometry of numbers** **21**  
 **10** **Preliminaries on volume** **21**  
@@ -208,7 +208,7 @@ Apart from occasional instances where it denotes 3.141592..., $\pi$ is the natur
 
 If $R$ is a $D \times D$ matrix over $\mathbf{R}$, then we write $\|R\|$ for the $\ell^2$-to-$\ell^2$ operator norm, that is to say $\|Rx\|_2 \leq \|R\|\|x\|_2$, and $\|R\|$ is the smallest constant with this property. Equivalently, $\|R\|$ is the largest singular value of $R$.
 
-## Part II \quad A red/blue colouring of $[N]$
+## Part II A red/blue colouring of $[N]$
 
 ### 4. Random ellipsoidal annuli
 
@@ -1678,7 +1678,7 @@ $$
 
 Now, by Lemma 14.2, the probability that $|\det(a+a^T)| < L^{-2B}$ is at most $(Qm)^{5m^2} L^{-2B}$, which is certainly $o(L^{-B})$ with the assumption $L > (Qm)^m$. Suppose from now on that $a$ has the property in equation (15.6) and $\det(a+a^T)>L^{-2B}$. We have shown that this is true with probability $1-o(L^{-B})$.
 
-Returning to the main task in equation (15.4), we divide into low-, middle- and high-frequency ranges. For the low-range frequencies $|\xi| \leq L^{1/8}$, we use Lemma 15.2 and the trivial bound $|\hat{\chi}(\xi)| \leq L^{-B} (which follows from the fact that $\int \chi \ll L^{-B}$, which is property (3) of $\chi$, obtaining
+Returning to the main task in equation (15.4), we divide into low-, middle- and high-frequency ranges. For the low-range frequencies $|\xi| \leq L^{1/8}$, we use Lemma 15.2 and the trivial bound $|\hat{\chi}(\xi)| \leq L^{-B}$ (which follows from the fact that $\int \chi \ll L^{-B}$, which is property (3) of $\chi$), obtaining
 
 $$
 \int_{|\xi|\leq L^{1/8}} \widehat{\chi}(\xi)(T_{a,b,c}(\xi)-S_{a,b,c}(\xi))\,d\xi \ll L^{-1/2}\int_{|\xi|\leq L^{1/8}} |\widehat{\chi}(\xi)|

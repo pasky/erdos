@@ -85,10 +85,10 @@ Figure 1: In the first case, given $A$ and $V\cup\chi(X,U)$, the number of candi
 It is enough to prove that for all fixed choices of $U$,
 
 $$
-\mathop{\mathbb{E}}\displaylimits_{V,X}\left[|\chi(X,W)|\right]\leq(2/3)\cdot\mathop{\mathbb{E}}\displaylimits_{X}\left[|\chi(X,U)|\right].
+\mathop{\mathbb{E}}\limits_{V,X}\left[|\chi(X,W)|\right]\leq(2/3)\cdot\mathop{\mathbb{E}}\limits_{X}\left[|\chi(X,U)|\right].
 $$
 
-So, fix $U$. If $\chi(x,U)$ is empty for any $x$, then we have $\mathop{\mathbb{E}}\displaylimits_{V,X}\left[|\chi(X,W)|\right]=\mathop{\mathbb{E}}\displaylimits_{X}\left[|\chi(X,U)|\right]=0$, so there is nothing to prove. Otherwise, we must have $\mathop{\mathbb{E}}\displaylimits_{X}\left[|\chi(X,U)|\right]\geq 1$, since $|\chi(x,U)|\geq 1$ for all $x$. The number of possible pairs $(V,X)$ is at least $r^{k}\cdot\binom{n-u}{v}$. Our bound will follow from using Lemma 5. We give a prefix-free encoding of $(V,X)$ below. In each step, we bound the length of the encoding in terms of $|\chi(X,U)|$, $|\chi(X,W)|$ and $\log\Big(r^{k}\cdot\binom{n-u}{v}\Big)$. In fact, we shall give a prefix-free encoding of $(V,X)$ where every pair will be encoded using
+So, fix $U$. If $\chi(x,U)$ is empty for any $x$, then we have $\mathop{\mathbb{E}}_{V,X}\left[|\chi(X,W)|\right]=\mathop{\mathbb{E}}_{X}\left[|\chi(X,U)|\right]=0$, so there is nothing to prove. Otherwise, we must have $\mathop{\mathbb{E}}_{X}\left[|\chi(X,U)|\right]\geq 1$, since $|\chi(x,U)|\geq 1$ for all $x$. The number of possible pairs $(V,X)$ is at least $r^{k}\cdot\binom{n-u}{v}$. Our bound will follow from using Lemma 5. We give a prefix-free encoding of $(V,X)$ below. In each step, we bound the length of the encoding in terms of $|\chi(X,U)|$, $|\chi(X,W)|$ and $\log\Big(r^{k}\cdot\binom{n-u}{v}\Big)$. In fact, we shall give a prefix-free encoding of $(V,X)$ where every pair will be encoded using
 
 $$
 \log\Big(r^{k}\cdot\binom{n-u}{v}\Big)+a\cdot|\chi(X,U)|-b\cdot|\chi(X,W)|
@@ -97,13 +97,13 @@ $$
 bits, for some $a,b>0$, with $a/b\leq 2/3$. Applying Lemma 5, we conclude that the expected length of the encoding must satisfy:
 
 $$
-\log\Big(r^{k}\cdot\binom{n-u}{v}\Big)+a\cdot\mathop{\mathbb{E}}\displaylimits_{X}\left[|\chi(X,U)|\right]-b\cdot\mathop{\mathbb{E}}\displaylimits_{X,V}\left[|\chi(X,W)|\right]\geq\log\Big(r^{k}\cdot\binom{n-u}{v}\Big),
+\log\Big(r^{k}\cdot\binom{n-u}{v}\Big)+a\cdot\mathop{\mathbb{E}}\limits_{X}\left[|\chi(X,U)|\right]-b\cdot\mathop{\mathbb{E}}\limits_{X,V}\left[|\chi(X,W)|\right]\geq\log\Big(r^{k}\cdot\binom{n-u}{v}\Big),
 $$
 
 and so
 
 $$
-\mathop{\mathbb{E}}\displaylimits_{X,V}\left[|\chi(X,W)|\right]\leq(2/3)\cdot\mathop{\mathbb{E}}\displaylimits_{X}\left[|\chi(X,U)|\right].
+\mathop{\mathbb{E}}\limits_{X,V}\left[|\chi(X,W)|\right]\leq(2/3)\cdot\mathop{\mathbb{E}}\limits_{X}\left[|\chi(X,U)|\right].
 $$
 
 To describe the encoding, for each $A\subseteq\chi(X,U)$, with $|A|=|\chi(X,W)|$, define

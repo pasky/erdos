@@ -77,8 +77,7 @@ checks Hypothesis 3 (p. 9).
 
 An unrefereed manuscript with a declared AI-assistance acknowledgment
 (proofreading), read statically; the site's Problem 318 page accepts the
-result (last edited 1 April 2026), and no independent review or journal
-record was found on 2026-09-18. Consumers state the theorem with this
+result (last edited 1 April 2026). Consumers state the theorem with this
 qualification.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0318/_index|#318]]: the third question,

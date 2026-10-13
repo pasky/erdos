@@ -310,8 +310,10 @@ $$
 For such $x$, since $\delta=0.14e^{-1}$, we have that $\varphi(x)^2<3.71943$ and, by Theorem 2.1, we conclude
 
 $$
-\limsup_{n\to\infty}g(n)=M^2\leqslant\max_{x\in(0,1/2]}\varphi(x)^2<3.71943.\qed
+\limsup_{n\to\infty}g(n)=M^2\leqslant\max_{x\in(0,1/2]}\varphi(x)^2<3.71943.
 $$
+
+$\square$
 
 ## Acknowledgements
 

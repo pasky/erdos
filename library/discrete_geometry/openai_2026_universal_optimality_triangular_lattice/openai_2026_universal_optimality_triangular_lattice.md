@@ -553,11 +553,11 @@ The power sums use nine doubling steps. Start with $U=D$ and $V_+=V_-=I$. At ste
 </thead>
 <tbody>
 <tr>
-<td style="text-align: right;">2-5 <span class="math inline">\(K\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(m=0\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(m=1\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(m=3,4\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(7\le m\le88\)</span></td>
+<td style="text-align: right;">2-5 <span class="math inline">$K$</span></td>
+<td style="text-align: right;"><span class="math inline">$m=0$</span></td>
+<td style="text-align: right;"><span class="math inline">$m=1$</span></td>
+<td style="text-align: right;"><span class="math inline">$m=3,4$</span></td>
+<td style="text-align: right;"><span class="math inline">$7\le m\le88$</span></td>
 <td style="text-align: right;">Tail</td>
 </tr>
 <tr>

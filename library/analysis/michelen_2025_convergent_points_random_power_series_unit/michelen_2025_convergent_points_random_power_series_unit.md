@@ -302,7 +302,7 @@ $$
 \left|\mathbb{E}[f(z+a_j\varepsilon_j,w+b_j\varepsilon_j)]-\mathbb{E}[f(z+a_jg_j,w+b_jg_j)]\right|\lesssim (|a_j|^3+|b_j|^3)\max_{|\alpha|=3}\|\partial^\alpha f\|_\infty.
 $$
 
-Combining with (2.13) completes the proof. \hfill$\square$
+Combining with (2.13) completes the proof. $\square$
 
 We will apply Lemma 2.5 to approximately couple $Q_{k,j}$ with its gaussian counterpart defined via
 
@@ -339,7 +339,7 @@ $$
 \mathbb{E}_{(x,y)\sim\Gamma(\mu,\nu)}[|x-y|]\lesssim N_k^{-1/6}.
 $$
 
-By Markov’s inequality, this implies that $|x-y|\lesssim N_k^{-1/12}$ with probability $N_k^{-1/12}$. \hfill$\square$
+By Markov’s inequality, this implies that $|x-y|\lesssim N_k^{-1/12}$ with probability $N_k^{-1/12}$. $\square$
 
 Since we are dealing with an intersection of Gaussians lying in convex sets, we will make use of the Gaussian Correlation Inequality of Royen [8] (see [6]).
 
@@ -361,7 +361,9 @@ $$
 
 $$
 \mathbb{P}\left(\left|\sum_{r=1}^{\ell_k}\widetilde{Q}_{k,r}(z)\right|\leq 2^{-1}k^{-2}\right)\gtrsim\frac{k^{-4}}{\delta_k^2\cdot(\log\log N_k)^2}\gtrsim\delta_k^{-2}\cdot(\log N_k)^{-5}.
-$$ \hfill$\square$
+$$
+
+$\square$
 
 We now handle the first event in $(2.2)$.
 
@@ -652,7 +654,7 @@ $$
 X=\sum_{z\in\mathcal{A}_{s+1}^{*}}G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z)).
 $$
 
-Note that $G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$ is nonnegative, 1-bounded with $\mathbbm{1}[\theta\in\mathcal{G}_{s+1}]\geq G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$. In particular, this implies $\mathcal{A}_{s+1}\geq X$. Furthermore note by Lemma 2.4, we have that
+Note that $G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$ is nonnegative, 1-bounded with $\mathbb{1}[\theta\in\mathcal{G}_{s+1}]\geq G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$. In particular, this implies $\mathcal{A}_{s+1}\geq X$. Furthermore note by Lemma 2.4, we have that
 
 $$
 \mathbb{E}[X|\mathcal{A}_{s}]\geq e^{-O((\log\log N_{s})^2\cdot\delta_s)}\cdot|\mathcal{A}_{s+1}^{*}|\geq|\mathcal{A}_{s}|\cdot M_{s+1}^{1-10^{-5}}. \tag{2.22}
@@ -681,7 +683,7 @@ $$
 \mathbb{P}(|X-\mathbb{E}[X|\mathcal{A}_{s}]|\geq\lambda\mathbb{E}[X|\mathcal{A}_{s}])\leq\lambda^{-2}\frac{|\mathcal{A}_{s+1}^{*}|^{2-1/14}}{\mathbb{E}[X|\mathcal{A}_{s}]^2}\leq\frac{M_{s+1}^{O(1)}}{|\mathcal{A}_{s}|^{1/14}}.
 $$
 
-This confirms $(2.21)$, completing the proof. \hfill $\square$
+This confirms $(2.21)$, completing the proof. $\square$
 
 ## 3. Proof of Theorem 1.2
 

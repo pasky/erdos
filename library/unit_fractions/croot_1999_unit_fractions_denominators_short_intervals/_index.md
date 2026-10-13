@@ -21,9 +21,10 @@ best-possible error term.
 
 Ernest S. Croot III, On unit fractions with denominators in short intervals.
 arXiv preprint (1999). arXiv:math/9904181. Published in Acta Arith. 99 (2001),
-no. 2, 99--114, the held edition, which this card and its result page cite. For
-the arXiv preprint, the arXiv record
-carries no license field, so arXiv's assumed license applies
+no. 2, 99--114, the held edition, which the result page cites; the digest and
+the Results list keep the preprint's labels and pages, mapped under Editions.
+For the arXiv preprint, the arXiv record carries no license field, so arXiv's
+assumed license applies
 (arXiv:math/9904181), every other right reserved. The published version,
 `croot_1999_unit_fractions_denominators_short_intervals_acta_arith_2001.pdf`,
 prints no copyright or license line; the publisher's issue listing
@@ -160,5 +161,6 @@ log N / log N) it implies is weaker than the Erdős–Straus bound and leaves th
 divergence of k(N)-(e-1)N open.
 
 Only the edition under an open license is held; the source's other editions are
-not, since no license on record permits their redistribution, and the card cites
-the edition it names above.
+not, since no license on record permits their redistribution. The result page
+cites the held edition and the Results list the preprint, as the Editions
+paragraph says.

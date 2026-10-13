@@ -761,11 +761,11 @@ Table 2 gives the coefficients at every node of $I_f=\mathcal N\cap[1,100]$. It
 <table>
 <thead>
 <tr>
-<th style="text-align: right;"><span class="math inline">\(n\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{1,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{1,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{2,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{2,n}\)</span></th>
+<th style="text-align: right;"><span class="math inline">$n$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde c_{1,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde d_{1,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde c_{2,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde d_{2,n}$</span></th>
 </tr>
 </thead>
 <tbody>

@@ -308,7 +308,7 @@ $$
 \lim_{k\to\infty}U_{\mu_{n_k}}(z_{n_k})=\overline{\lim}_{n\to\infty}\sup_F U_\mu
 $$
 
-Next, the principle of descent (c.f. [17, Theorem-6.8]) which states that for probability measures $\mu_n$, $n=1,2,\ldots$ having support in a fixed compact set and converging to some measure $\mu$ in the $\mbox{weak}^{*}$ topology, we have
+Next, the principle of descent (c.f. [17, Theorem-6.8]) which states that for probability measures $\mu_n$, $n=1,2,\ldots$ having support in a fixed compact set and converging to some measure $\mu$ in the $\text{weak}^{*}$ topology, we have
 
 $$
 \overline{\lim}_{n\to\infty}U_{\mu_n}(w_n)\leq U_\mu(w^*),
@@ -389,7 +389,7 @@ where we got the last inequality from the hypothesis of the theorem. $\blacksqua
 
 In the next two lemmas, $P_n(z)$ will denote a *random* polynomial defined by $P_n(z)=\prod_{j=1}^n(z-X_j)$, where $\{X_j\}$ is a sequence of of i.i.d. random variables.
 
-**Lemma 3.9.** (*Lower bound on first derivative*) Let \(L\) be a compact set with \(0<c(L)<1\). Let \(\nu\) be the equilibrium measure of \(L\). Consider a sequence of i.i.d. random variables \(\{X_i\}_{i=1}^{\infty}\) with law \(\nu\). Assume that for every \(1\leq p\leq 3\), there exists some positive constant \(C_p>0\), such that \(\mathbb{E}\left[\left|\log|z-X_1|\right|^p\right]<C_p\). Then for \(n\) large, there exists a constant \(C>0\), depending on \(L\) such that,
+**Lemma 3.9.** (*Lower bound on first derivative*) Let $L$ be a compact set with $0<c(L)<1$. Let $\nu$ be the equilibrium measure of $L$. Consider a sequence of i.i.d. random variables $\{X_i\}_{i=1}^{\infty}$ with law $\nu$. Assume that for every $1\leq p\leq 3$, there exists some positive constant $C_p>0$, such that $\mathbb{E}\left[\left|\log|z-X_1|\right|^p\right]<C_p$. Then for $n$ large, there exists a constant $C>0$, depending on $L$ such that,
 
 $$
 \mathbb{P}\left(\left|P_n'(X_1)\right|\geq(c(L))^{2n}\right)\geq 1-\frac{C}{\sqrt{n}}. \tag{21}
@@ -405,13 +405,13 @@ $$
 \end{aligned} \tag{22}
 $$
 
-By Frostman’s theorem (c.f. [16, Theorem-3.3.4]), \(\log|z-X_j|\) are i.i.d. random variables with mean \(\log(c(L))\) for \(\nu\) all most every \(z\in L\). Therefore adding and subtracting the mean in (22) we get,
+By Frostman’s theorem (c.f. [16, Theorem-3.3.4]), $\log|z-X_j|$ are i.i.d. random variables with mean $\log(c(L))$ for $\nu$ all most every $z\in L$. Therefore adding and subtracting the mean in (22) we get,
 
 $$
 \int_L\mathbb{P}\left(\sum_{j=2}^{n}\left(\log|z-X_j|-\mathbb{E}[\log|z-X_j|]\right)\geq 2n\log c(L)-(n-1)\log c(L)\right)d\nu(z). \tag{23}
 $$
 
-We estimate the integrand in (23) by applying the Berry–Esseen Theorem (3.6), to \(Y_j=\log|z-X_j|-\mathbb{E}[\log|z-X_j|]\) and arrive at
+We estimate the integrand in (23) by applying the Berry–Esseen Theorem (3.6), to $Y_j=\log|z-X_j|-\mathbb{E}[\log|z-X_j|]$ and arrive at
 
 $$
 \begin{aligned}
@@ -420,7 +420,7 @@ $$
 \end{aligned} \tag{24}
 $$
 
-where \(\sigma^2(z)=\mathbb{E}\left[(\log|z-X_j|)^2\right]\), \(\rho(z)=\mathbb{E}\left[\left|\log|z-X_j|\right|^3\right]\), and \(\Phi\) is the distribution function of the standard normal. As \(n\to\infty\) we have \(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\to-\infty\) since \(c(L)<1\), consequently \(\Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)\to1\). From the hypothesis, we have uniform upper and lower bounds on \(\sigma^2(z)\) and \(\rho(z)\) using which we can bound the integrand in (24) as
+where $\sigma^2(z)=\mathbb{E}\left[(\log|z-X_j|)^2\right]$, $\rho(z)=\mathbb{E}\left[\left|\log|z-X_j|\right|^3\right]$, and $\Phi$ is the distribution function of the standard normal. As $n\to\infty$ we have $\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\to-\infty$ since $c(L)<1$, consequently $\Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)\to1$. From the hypothesis, we have uniform upper and lower bounds on $\sigma^2(z)$ and $\rho(z)$ using which we can bound the integrand in (24) as
 
 $$
 \Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)-\frac{C\rho(z)}{\sigma^3(z)\sqrt{n-1}}\geq\left(1-\frac{C}{\sqrt{n}}\right). \tag{25}
@@ -432,9 +432,9 @@ $$
 \mathbb{P}\left(\left|P_n'(X_1)\right|\geq c(L)^{2n}\right)=\int_L\left(1-\frac{C}{\sqrt{n}}\right)d\nu(z)\geq1-\frac{C}{\sqrt{n}}.
 $$
 
-\(\blacksquare\)
+$\blacksquare$
 
-**Lemma 3.10.** (*Bound on higher derivatives*) Let \(\{X_i\}_{i=1}^{\infty}\) be a sequence of i.i.d. random variables with law \(\mu\), supported on the compact set \(K\). Let us define the event \(A:=\{|X_i-X_j|>\frac{1}{C_n};\forall i\neq j\}\) for some constant \(C_n>0\), then
+**Lemma 3.10.** (*Bound on higher derivatives*) Let $\{X_i\}_{i=1}^{\infty}$ be a sequence of i.i.d. random variables with law $\mu$, supported on the compact set $K$. Let us define the event $A:=\{|X_i-X_j|>\frac{1}{C_n};\forall i\neq j\}$ for some constant $C_n>0$, then
 
 $$
 \mathbb{E}\left[\frac{1}{k!}\left|\frac{P_n^{(k)}(X_1)}{P_n'(X_1)}\right|\Big|A\right]\leq\binom{n-1}{k-1}C_n^{k-1},\qquad k=2,\cdots,n-1. \tag{26}
@@ -507,7 +507,7 @@ $$
 We now define for each $1\leq i\leq n,$ the event $T_i=\{X_i\text{ forms an isolated component}\}$. Then it follows that
 
 $$
-\mathbb{E}\left[\frac{\mathcal{C}(\Lambda(R_n))}{n}\right]\geq\mathbb{E}\left[\frac{1}{n}\sum_{1}^{n_2}\mathbbm{1}_{T_i}\right]=c_2\mathbb{P}(T_1).
+\mathbb{E}\left[\frac{C(\Lambda(R_n))}{n}\right]\geq\mathbb{E}\left[\frac{1}{n}\sum_{1}^{n_2}\mathbb{1}_{T_i}\right]=c_2\mathbb{P}(T_1).
 $$
 
 We will be done if we can show that $\mathbb{P}(T_1)>c>0$ for some $c$ independent of $n$. Towards this, we start by providing a sufficient condition for having an *isolated component* at $X_1$. Let $z\in B(X_1,r_{n_2})$, with $r_{n_2}:=\frac{1}{n_2^6}$. Near $X_1$ we expand the random part of the polynomial in the Taylor series to obtain,
@@ -576,7 +576,7 @@ $$
 
 Here $C$ is independent of $n_2$. Therefore, we get the desired conclusion for all $n$ large enough. $\blacksquare$
 
-*Proof of ($c$).* Let $K$ be connected and $c(K)<\frac{1}{4}$. Since the diameter $d$ of $K$ satisfies $c(K)\geq\frac{d}{4}$, see for instance [16], it follows that $d<1$. This implies that for any polynomial $p(z)=\prod_{j=1}^{n}(z-a_j)\in\mathscr{P}_n(K)$, we have $|p(z)|<1$ for all $z\in K$. Hence $K\subset\Lambda_p$. But since the zeros themselves are contained in $K$ which is assumed connected, $\Lambda_p$ is connected. Therefore $\mathscr{C}_n(K)=1$ for all $n, which in particular gives $m(K)=0$. Suppose $c(K)=\frac{1}{4}$, then the diameter $d$ of $K$ is less than equal to 1. The case $d<1$ is the same as before, so we consider $d=1$. In this case, for any polynomial $p\in\mathscr{P}_n(K)$ we have $K\subset\overline{\Lambda_p}$. That is, $\overline{\Lambda_p}$ has exactly one component. If $\Lambda_p$ has more than one component then, by Lemma 3.3 there exists a critical point $w$ of $p$ such that $|p(w)|=1$. Since the diameter is 1, we have
+*Proof of ($c$).* Let $K$ be connected and $c(K)<\frac{1}{4}$. Since the diameter $d$ of $K$ satisfies $c(K)\geq\frac{d}{4}$, see for instance [16], it follows that $d<1$. This implies that for any polynomial $p(z)=\prod_{j=1}^{n}(z-a_j)\in\mathscr{P}_n(K)$, we have $|p(z)|<1$ for all $z\in K$. Hence $K\subset\Lambda_p$. But since the zeros themselves are contained in $K$ which is assumed connected, $\Lambda_p$ is connected. Therefore $\mathscr{C}_n(K)=1$ for all $n$, which in particular gives $m(K)=0$. Suppose $c(K)=\frac{1}{4}$, then the diameter $d$ of $K$ is less than equal to 1. The case $d<1$ is the same as before, so we consider $d=1$. In this case, for any polynomial $p\in\mathscr{P}_n(K)$ we have $K\subset\overline{\Lambda_p}$. That is, $\overline{\Lambda_p}$ has exactly one component. If $\Lambda_p$ has more than one component then, by Lemma 3.3 there exists a critical point $w$ of $p$ such that $|p(w)|=1$. Since the diameter is 1, we have
 
 $$
 |w-z_j|=1\quad\forall j\in\{1,\ldots,n\}.
@@ -788,7 +788,7 @@ Since $c(K)=1$, we have $\mathbb{E}(\log |z-X_1|)=U_\mu(z)=0$ by Frostman’s Th
 
 These two steps guarantee by Lemma 3.4 that $X_1$ forms an isolated component with probability at least $\frac{1}{2}-\frac{C}{n^\varepsilon}$. Hence $\mathbb{E}(\mathcal{C}_n)\geq \frac{n}{2}-n^{1-\varepsilon}$. Since $\varepsilon>0$ was arbitrary, this shows $\underset{n\to\infty}{\underline{\lim}}\mathbb{E}\left(\frac{\mathcal{C}_n}{n}\right)\geq\frac{1}{2}$. Hence the proof.
 
-\hfill $\blacksquare$
+$\blacksquare$
 
 ## References
 

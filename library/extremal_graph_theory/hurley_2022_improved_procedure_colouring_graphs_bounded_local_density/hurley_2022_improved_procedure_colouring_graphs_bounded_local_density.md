@@ -114,7 +114,7 @@ Given a graph $G$ and a vertex $v$, we write $N_G(v)$ for the *(open) neighbourh
 
 Given a graph $G$ and a vertex subset $S\subseteq V(G)$, we write $G[S]$ for the subgraph of $G$ induced by $S$.
 
-Given a graph $G$, a *list-assignment* for $G$ is a map $L:V(G)\to2^{\mathbb{N}}$, where $2^{\mathbb{N}}$ by convention denotes the set of all subsets of $\mathbb{N}$. We call a *list-assignment* $L$ a $k$-*list-assignment* if $|L(v)|=k$ for all $v\in V(G)$, i.e. a $k-*list-assignment* is a map $L:V(G)\to\binom{\mathbb{N}}{k}$, where $\binom{\mathbb{N}}{k}$ by convention denotes the set of all subsets of $\mathbb{N}$ of size $k$. We call $L(v)$ the *list* of the vertex $v$. Given a list-assignment $L$ of $G$, a *partial proper $L$-colouring* of $G$ is a map $c:U\to\mathbb{N}$, where $U\subseteq V(G)$, such that $c(v)\in L(v)$ for all $v\in V(G)$ and $c(v)\ne c(w)$ for any $vw\in E(G)$. We write $\operatorname{dom}(c)$ for the domain of $c$ and drop ‘partial’ if $\operatorname{dom}(c)=V(G)$. Note that the existence of a proper $L$-colouring for any constant $k$-list-assignment $L$ of $G$ is equivalent to the assertion $\chi(G) \leq k$.
+Given a graph $G$, a *list-assignment* for $G$ is a map $L:V(G)\to2^{\mathbb{N}}$, where $2^{\mathbb{N}}$ by convention denotes the set of all subsets of $\mathbb{N}$. We call a list-assignment $L$ a $k$-*list-assignment* if $|L(v)|=k$ for all $v\in V(G)$, i.e. a $k$-list-assignment is a map $L:V(G)\to\binom{\mathbb{N}}{k}$, where $\binom{\mathbb{N}}{k}$ by convention denotes the set of all subsets of $\mathbb{N}$ of size $k$. We call $L(v)$ the *list* of the vertex $v$. Given a list-assignment $L$ of $G$, a *partial proper $L$-colouring* of $G$ is a map $c:U\to\mathbb{N}$, where $U\subseteq V(G)$, such that $c(v)\in L(v)$ for all $v\in V(G)$ and $c(v)\ne c(w)$ for any $vw\in E(G)$. We write $\operatorname{dom}(c)$ for the domain of $c$ and drop ‘partial’ if $\operatorname{dom}(c)=V(G)$. Note that the existence of a proper $L$-colouring for any constant $k$-list-assignment $L$ of $G$ is equivalent to the assertion $\chi(G) \leq k$.
 
 [^1]: In fact, he posed it in a stronger form in terms of list colouring, but noted the analogous statement for independence number (which is weaker than the statement of Conjecture 1.11) is also open, as remains the case to this day.
 
@@ -161,7 +161,7 @@ Our work continues this evolution with two distinct but closely related alterati
 
 The first alteration is to improve in the conflict resolution of Step 2 by means of a priority assignment strategy. We assign independently and uniformly at random to each vertex $v$ a *priority* $\pi(v)\in[0,1]$. For each monochromatic edge $uv$ considered in Step 2, we uncolour the vertex with lower priority, i.e. if $\pi(u) \ge \pi(v)$ we uncolour $v$. Curiously, this idea was already suggested at the end of Molloy and Reed’s paper! It is worth pointing out that Pemmaraju and Srinivasan [26] also applied this same strategy, albeit not iteratively, for other graph colouring problems.
 
-There are three important benefits to note regarding this first alteration. Solely for the purposes of explaining these benefits, we find it convenient to introduce two auxiliary digraphs $\overrightharp{G}_1$ and $\overrightharp{G}_2$. These encode Bruhn and Joos’s conflict-resolution protocol (also used by Bonamy *et al.*) and ours, respectively, by having an arc $\overrightharp{uv}$ from $u$ to $v$ if $u$ uncolours $v$ whenever both are assigned the same colour in Step 1. Both digraphs have $G$ as the underlying undirected graph: $\overrightharp{G}_1$ orients each edge of $G$ independently and uniformly, and $\overrightharp{G}_2$ is an acyclic orientation of $G$ according to a uniform total ordering of $V(G)$. First, notice there can be directed cycles in $\overrightharp{G}_1$, at least one vertex of which might be needlessly uncoloured, but not in $\overrightharp{G}_2$. Second, given nonadjacent $v,w\in N(u)$, the events $(\overrightharp{uv}\in E(\overrightharp{G}_1))$ and $(\overrightharp{uw}\in E(\overrightharp{G}_1))$ are independent, whereas the events $(\overrightharp{uv}\in E(\overrightharp{G}_2))$ and $(\overrightharp{uw}\in E(\overrightharp{G}_2))$ are correlated. Thus if $|N(v)\cap N(w)|$ is large, then $v$ and $w$ are more likely to synchronise their colours. Third, note that the in-degree of a vertex $v$ in $\overrightharp{G}_1$ has a $\mathrm{Bin}(\Delta,1/2)$ distribution, while in $\overrightharp{G}_2$ it has a $\mathrm{Unif}\{0,\ldots,\Delta\}$ distribution. Thus, supposing $v$ has $x$ neighbours assigned the same colour as $v$ after Step 1, in the Bruhn–Joos protocol $v$ keeps its colour with probability $1/2^x$, while in ours the probability is a much larger $1/x$. It follows that to successfully colour in one iteration under the Bruhn–Joos protocol versus ours, one needs to maintain that $x$ is uniformly much smaller over all vertices, and the number $M$ of colours in the palette must therefore be larger.
+There are three important benefits to note regarding this first alteration. Solely for the purposes of explaining these benefits, we find it convenient to introduce two auxiliary digraphs $\overrightharpoon{G}_1$ and $\overrightharpoon{G}_2$. These encode Bruhn and Joos’s conflict-resolution protocol (also used by Bonamy *et al.*) and ours, respectively, by having an arc $\overrightharpoon{uv}$ from $u$ to $v$ if $u$ uncolours $v$ whenever both are assigned the same colour in Step 1. Both digraphs have $G$ as the underlying undirected graph: $\overrightharpoon{G}_1$ orients each edge of $G$ independently and uniformly, and $\overrightharpoon{G}_2$ is an acyclic orientation of $G$ according to a uniform total ordering of $V(G)$. First, notice there can be directed cycles in $\overrightharpoon{G}_1$, at least one vertex of which might be needlessly uncoloured, but not in $\overrightharpoon{G}_2$. Second, given nonadjacent $v,w\in N(u)$, the events $(\overrightharpoon{uv}\in E(\overrightharpoon{G}_1))$ and $(\overrightharpoon{uw}\in E(\overrightharpoon{G}_1))$ are independent, whereas the events $(\overrightharpoon{uv}\in E(\overrightharpoon{G}_2))$ and $(\overrightharpoon{uw}\in E(\overrightharpoon{G}_2))$ are correlated. Thus if $|N(v)\cap N(w)|$ is large, then $v$ and $w$ are more likely to synchronise their colours. Third, note that the in-degree of a vertex $v$ in $\overrightharpoon{G}_1$ has a $\mathrm{Bin}(\Delta,1/2)$ distribution, while in $\overrightharpoon{G}_2$ it has a $\mathrm{Unif}\{0,\ldots,\Delta\}$ distribution. Thus, supposing $v$ has $x$ neighbours assigned the same colour as $v$ after Step 1, in the Bruhn–Joos protocol $v$ keeps its colour with probability $1/2^x$, while in ours the probability is a much larger $1/x$. It follows that to successfully colour in one iteration under the Bruhn–Joos protocol versus ours, one needs to maintain that $x$ is uniformly much smaller over all vertices, and the number $M$ of colours in the palette must therefore be larger.
 
 We summarise these benefits of priority assignment as follows: (1) fewer needless uncolourings; (2) colour synchronisation for nonadjacent vertices with many common neighbours; and (3) robustness of the colouring procedure to using fewer colours.
 
@@ -423,7 +423,7 @@ $$
 \mathbb{P}_{\mathrm{keep}}(u,v,w)\leq\frac{1}{\gamma^3}\left(2f(\ell_{uv},\ell_{uw},\ell_{vw})+2f(\ell_{vw},\ell_{uv},\ell_{uw})+2f(\ell_{uw},\ell_{vw},\ell_{uv})\right),
 $$
 
-which finishes the proof of the claim. \hfill$\square$
+which finishes the proof of the claim. $\square$
 
 The function $f$ satisfies the following bound that isolates its parameters:
 $$
@@ -491,7 +491,7 @@ $$
 \tag{2.5}
 $$
 
-The claim then follows from Equations (2.4) and (2.5). \(\square\)
+The claim then follows from Equations (2.4) and (2.5). $\square$
 
 We are now ready to conclude the proof of the theorem. By Claims 3 and 5,
 
@@ -664,7 +664,7 @@ $$
 \mathbb{P}\left[|X-\mathbb{E}[X]|\ge\sqrt{\Delta}\log\Delta\right]\le4e^{-\frac{\log^2\Delta}{64}}
 $$
 
-which is less than $\Delta^{-\frac{1}{2}\log\log\Delta}$ when $\Delta$ is large enough. \hfill$\square$
+which is less than $\Delta^{-\frac{1}{2}\log\log\Delta}$ when $\Delta$ is large enough. $\square$
 
 *Proof of Claim 3.* Consider $X=S\cap U$ as a random variable on the product space $\Omega=\prod_{v\in V}\Omega_v$, where the elements of $\Omega_v$ are the pairs $(c_0(v),\pi(v))$. Let us show that $X=|S\cap U|$ has an upward $(s,c)$-certificate.
 
@@ -883,7 +883,7 @@ $$
 \mathbb{E}[P_r-T_r]\geq\frac{\widehat{\sigma}}{1+2\widehat{\sigma}}-\sigma^{3/2}+o(1),
 $$
 
-which proves (3.1) because $\sigma<2\widehat{\sigma}$. \hfill$\square$
+which proves (3.1) because $\sigma<2\widehat{\sigma}$. $\square$
 
 The remainder of the proof of Theorem 1.12 follows the proof of Theorem 1.2. More specifically, instead of Theorem 2.1 we use Theorem 3.3 to establish a codegree analogue of Lemma 2.2. We then repeatedly apply that lemma as done with Lemma 2.2 in Subsection 2.3. We omit the redundant details.
 

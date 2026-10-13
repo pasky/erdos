@@ -343,12 +343,12 @@ $$
 For $y\geq z\geq 1$,
 
 $$
-\begin{aligned}
+\begin{align}
 c_{y,z}&=C\Pi(z)(\log y-\gamma-\Sigma(z)+\zeta_{y,z}) && |\zeta_{y,z}|\leq\mathcal{E}(y),\tag{16}\\
 c_{y,z}&=C\Pi(z)(\log(y/z)+\psi_{y,z}) && |\psi_{y,z}|\leq\mathcal{E}(z)+\mathcal{E}(y),\tag{17}\\
 c_{y,z}&=C(\Pi(z)-\Pi(y))(\log y+\xi_{y,z}) && |\xi_{y,z}|\leq\mathcal{E}(z)+\mathcal{E}(y),\tag{18}\\
 c_{y,z}&\asymp(\Pi(z)-\Pi(y))\log y.\tag{19}
-\end{aligned}
+\end{align}
 $$
 
 **Table 1.** Values of the factor $c_{y,z}$.
@@ -559,8 +559,8 @@ The first estimate in Theorem 6 now follows, since $d(u)\asymp 1/u$ for $u\geq 1
 
 Let
 
-$$\delta(x)=\begin{cases}1&\mbox{if }x\geq 0\\
-0&\mbox{if }x<0.\end{cases}$$
+$$\delta(x)=\begin{cases}1&\text{if }x\geq 0\\
+0&\text{if }x<0.\end{cases}$$
 
 **Lemma 6.** For $x\geq 1$, $y\geq z\geq 3/2$,
 
@@ -1812,6 +1812,6 @@ by the anonymous referee.
 
 [20] A. Weingartner, The number of prime factors of integers with dense divisors, *J. Number Theory* **239** (2022), 57–77.
 
-\textsc{Department of Mathematics, 351 West University Boulevard, Southern Utah University, Cedar City, Utah 84720, USA}
+Department of Mathematics, 351 West University Boulevard, Southern Utah University, Cedar City, Utah 84720, USA
 
 *Email address:* **weingartner@suu.edu**

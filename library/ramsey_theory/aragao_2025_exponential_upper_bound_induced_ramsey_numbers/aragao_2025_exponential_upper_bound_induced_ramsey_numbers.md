@@ -336,27 +336,27 @@ $$
 
 where $\mathbf{s}_{\mathbf{H}}=(v(H_i))_{i\in[r]}$, and we have bounded $(\delta/8r)^{rk-t}N\geqslant\delta^{2rk}N$ for all $t\geq 0$ by $r\geq 2$ and our choice of $\delta=r^{-50}\leq 1/(8r)$.
 
-Now, with the goal of bounding each term in (17) by applying Lemma 2.8, fix \(W\subset V(G)\) with \(|W|\geqslant\delta^{2rk}N\) and \(\mathbf{H}=(H_i)_{i\in[r]}\), a collection of graphs, each with at most \(k\) vertices. Observe that letting \(G'=G[W]\), we have \(G'\sim\mathbb{G}(N',1/2)\) where \(N'=|W|\), and also that \(\mathbf{H}\) trivially satisfies
+Now, with the goal of bounding each term in (17) by applying Lemma 2.8, fix $W\subset V(G)$ with $|W|\geqslant\delta^{2rk}N$ and $\mathbf{H}=(H_i)_{i\in[r]}$, a collection of graphs, each with at most $k$ vertices. Observe that letting $G'=G[W]$, we have $G'\sim\mathbb{G}(N',1/2)$ where $N'=|W|$, and also that $\mathbf{H}$ trivially satisfies
 
 $$
 t=\sum_{i=1}^{r}v(H_i)\leq rk. \tag{18}
 $$
 
-The only assumption in Lemma 2.8 that remains to be checked is that \(N'\) satisfies (11), which it does because
+The only assumption in Lemma 2.8 that remains to be checked is that $N'$ satisfies (11), which it does because
 
 $$
 N'\geq\delta^{2rk}N\geq r^{-100rk}r^{5Crk}\geq r^{4Crk}\geq r^{C(k+t)}
 $$
 
-by our choice of \(N=r^{5Crk}\) in (12), the fixed values of \(\delta=r^{-50}\) and \(C=300\) in (10), and (18). Applying Lemma 2.8 to \(G'=G[W]\) and \(\mathbf{H}\), we conclude that
+by our choice of $N=r^{5Crk}$ in (12), the fixed values of $\delta=r^{-50}$ and $C=300$ in (10), and (18). Applying Lemma 2.8 to $G'=G[W]$ and $\mathbf{H}$, we conclude that
 
 $$
 \mathbb{P}\big(G[W]\in\mathcal{B}(\mathbf{H})\cap\mathcal{E}(\mathbf{s}_{\mathbf{H}})\big)\leq 2^{-\delta^2|W|^2}\leq 2^{-\delta^{5rk}N^2}, \tag{19}
 $$
 
-for all \(|W|\geqslant\delta^{2rk}N\). As \(W\) and \(\mathbf{H}\) were arbitrary, (19) holds for all terms in (17).
+for all $|W|\geqslant\delta^{2rk}N$. As $W$ and $\mathbf{H}$ were arbitrary, (19) holds for all terms in (17).
 
-Replacing (19) in (17), bounding the choices for \(\mathbf{H}\) by \(k^r2^{r\binom{k}{2}}\) and for \(W\subset V(G)\) by \(2^N\), we have
+Replacing (19) in (17), bounding the choices for $\mathbf{H}$ by $k^r2^{r\binom{k}{2}}$ and for $W\subset V(G)$ by $2^N$, we have
 
 $$
 \mathbb{P}\big(G\in\mathcal{B}(H;r)\big)\leq k^r2^{r\binom{k}{2}}2^N2^{-\delta^{5rk}N^2}\leq 2^{-\delta^{5rk}N^2/2}<1 \tag{20}
@@ -368,17 +368,17 @@ $$
 \frac{\delta^{5rk}N^2}{2}>N+rk+r\binom{k}{2}>0
 $$
 
-by our choice of \(N=r^{5Crk}\) and \(\delta=r^{-50}\). We have established (13) and completed the proof. \(\square\)
+by our choice of $N=r^{5Crk}$ and $\delta=r^{-50}$. We have established (13) and completed the proof. $\square$
 
-**Remark 2.10.** Observe that the bound in (20) is sufficiently small for us to take another union bound, this one over all graphs \(H\) with \(k\) vertices, for which there are at most \(2^{\binom{k}{2}}\) choices. The conclusion is that, with high probability, if \(G\sim\mathbb{G}(N,1/2)\), then \(G\xrightarrow[\;r\;]{\mathrm{ind}}H\) for all such \(H\).
+**Remark 2.10.** Observe that the bound in (20) is sufficiently small for us to take another union bound, this one over all graphs $H$ with $k$ vertices, for which there are at most $2^{\binom{k}{2}}$ choices. The conclusion is that, with high probability, if $G\sim\mathbb{G}(N,1/2)$, then $G\xrightarrow[\;r\;]{\mathrm{ind}}H$ for all such $H$.
 
 **2.3. Structure of the paper.** The bulk of the paper is concerned with proving Lemma 2.8. However, before we proceed to the proof of Lemma 2.8, we will need some tools.
 
-First, we will have two expository sections that contain many of the ideas that we use later, but in simpler settings. In Section 3, this simpler setting corresponds to showing that the probability that a vertex extends no copy of \(H_i^{-}\) in a fixed colour \(i\in[r]\) is exponentially small. This section shows how to map neighbourhoods that fail to extend a copy of \(H_i^{-}\) to independent sets in a certain hypergraph \(\mathcal{H}\), which will illustrate how the method of hypergraph containers can be applied to this problem. It is also where we explain how our induction hypothesis, the event \(\mathcal{E}(\mathbf{s})\), yields a supersaturation result for our application(s) of containers.
+First, we will have two expository sections that contain many of the ideas that we use later, but in simpler settings. In Section 3, this simpler setting corresponds to showing that the probability that a vertex extends no copy of $H_i^{-}$ in a fixed colour $i\in[r]$ is exponentially small. This section shows how to map neighbourhoods that fail to extend a copy of $H_i^{-}$ to independent sets in a certain hypergraph $\mathcal{H}$, which will illustrate how the method of hypergraph containers can be applied to this problem. It is also where we explain how our induction hypothesis, the event $\mathcal{E}(\mathbf{s})$, yields a supersaturation result for our application(s) of containers.
 
-In Section 4, we present the proof of a container theorem for “sets that are not \((p,R)\)-Janson” (see Theorem 4.1, and also Theorem 4.6, which implies it). While this result is not sufficiently strong to prove Lemma 2.8, its proof already presents the general argument that we will later adapt to prove Theorem 5.4, the container theorem that we do use in the proof of Lemma 2.8. We see that argument as a general method to reduce a problem about sets avoiding a global property to a simpler problem, where the sets only need to avoid a local property. In this particular instance, we deal with this local property by using a standard hypergraph container lemma (Theorem 3.4).
+In Section 4, we present the proof of a container theorem for “sets that are not $(p,R)$-Janson” (see Theorem 4.1, and also Theorem 4.6, which implies it). While this result is not sufficiently strong to prove Lemma 2.8, its proof already presents the general argument that we will later adapt to prove Theorem 5.4, the container theorem that we do use in the proof of Lemma 2.8. We see that argument as a general method to reduce a problem about sets avoiding a global property to a simpler problem, where the sets only need to avoid a local property. In this particular instance, we deal with this local property by using a standard hypergraph container lemma (Theorem 3.4).
 
-Section 5 contains the proof that if the hypergraph \(\mathfrak{I}_{H_i,G_i,G}[U]\) is \((p,R)\)-Janson, then adding a new vertex to \(U\) produces a \((p,R+1)\)-Janson hypergraph with probability \(1-\exp(-\gamma|U|)\) for some constant $\gamma=\gamma(r)>0$ that only depends on $r$. The proof of this statement mirrors the proof in Section 3, but replacing the hypergraph container lemma there by the (yet unproven) Theorem 5.4, the container theorem tailored to our application. We postpone the proof of Theorem 5.4 to the last section since it is the most technical part of the paper.
+Section 5 contains the proof that if the hypergraph $\mathfrak{I}_{H_i,G_i,G}[U]$ is $(p,R)$-Janson, then adding a new vertex to $U$ produces a $(p,R+1)$-Janson hypergraph with probability $1-\exp(-\gamma|U|)$ for some constant $\gamma=\gamma(r)>0$ that only depends on $r$. The proof of this statement mirrors the proof in Section 3, but replacing the hypergraph container lemma there by the (yet unproven) Theorem 5.4, the container theorem tailored to our application. We postpone the proof of Theorem 5.4 to the last section since it is the most technical part of the paper.
 
 In Section 6, we prove Lemma 2.8 in two stages. The first and easier stage uses a double counting argument to show that if $\mathfrak{J}_{H_i,G_i,G}[S]$ is roughly $(p,\delta pN/r)$-Janson for all subsets $S$ with $|S|\geqslant\delta^{2/3}N$, then $\mathfrak{J}_{H_i,G_i,G}$ is $(p,pN)$-Janson. The second stage proves Lemma 2.8 by induction on the Janson parameter of the family $\mathfrak{J}_{H_i,G_i,G}[U]$. To prove the inductive step, we use Lemma 5.1 to show that the probability one cannot increase this Janson parameter by adding a vertex to $U$ is very small. This is also the part where we take a union bound over colourings of $G[U]$, which ends up being somewhat technical because we must be careful with the randomness outside $G[U]$.
 
@@ -428,7 +428,7 @@ $$
 where
 
 $$
-E_L=\left\{\left(u,\mathds{1}\left[\phi_L(u)\in \mathrm{N}_{F}(w)\right]\right):u\in L\right\},
+E_L=\left\{\left(u,\mathbb{1}\left[\phi_L(u)\in \mathrm{N}_{F}(w)\right]\right):u\in L\right\},
 $$
 
 for every $L\in\mathfrak{J}_{F^-,\widetilde{G}',\widetilde{G}}$. In words, the vertex set of $\mathcal{H}$ is two copies of $U$, corresponding to the neighbours and non-neighbours of $w$ in $F$, and its edge set has the following property: if $u\in \mathrm{N}_{G'}(v)$ for every $(u,1)\in E_L$ and $u\notin \mathrm{N}_{G}(v)$ for every $(u,0)\in E_L$, then $L\cup\{v\}\in\mathfrak{J}_{F,G',G}$.
@@ -837,7 +837,7 @@ $$
 where $\nu_q^{\prime\prime}:\mathcal{H}[X]\to\mathbb{R}_{\geqslant 0}$ is defined by
 
 $$
-\nu_q^{\prime\prime}(E)=\frac{\mathds{1}[E\subset V_q]}{\mathbb{P}(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}))}\,\nu^{\prime\prime}(E).
+\nu_q^{\prime\prime}(E)=\frac{\mathbb{1}[E\subset V_q]}{\mathbb{P}(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}))}\,\nu^{\prime\prime}(E).
 $$
 
 The simple proof of Claim 4.8 will establish, by inspecting the definitions, that
@@ -1022,7 +1022,7 @@ for all $E\in\mathcal{H}'$, by (44), since the hypergraphs $\mathcal{H}'$ and $\
 Now, let $\nu_q^{\prime\prime}:\mathcal{H}'\to\mathbb{R}_{\geqslant 0}$ be defined by
 
 $$
-\nu_q^{\prime\prime}(E)=\frac{\mathds{1}\big[E\subset V_q\big]}{\mathbb{P}\big(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big)}\,\nu^{\prime\prime}(E).
+\nu_q^{\prime\prime}(E)=\frac{\mathbb{1}\big[E\subset V_q\big]}{\mathbb{P}\big(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big)}\,\nu^{\prime\prime}(E).
 $$
 
 We will first show that
@@ -1042,7 +1042,7 @@ $$
 *Proof.* The definitions of $e(\nu_q^{\prime\prime})$ and $\nu_q^{\prime\prime}$,
 
 $$
-e(\nu_q^{\prime\prime})=\sum_{E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathds{1}\big[E\subset V_q\big]}{P_q(E)},
+e(\nu_q^{\prime\prime})=\sum_{E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathbb{1}\big[E\subset V_q\big]}{P_q(E)},
 $$
 
 imply that
@@ -1054,7 +1054,7 @@ $$
 since, for all $E\in\mathcal{H}'$, we have that
 
 $$
-\mathbb{E}\big[\mathds{1}[E\subset V_q]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big]=P_q(E)
+\mathbb{E}\big[\mathbb{1}[E\subset V_q]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big]=P_q(E)
 $$
 
 from (61), the definition of $P_q(E)$. The claim now follows from (63) by Jensen’s inequality. $\blacksquare$
@@ -1086,13 +1086,13 @@ $$
 *Proof.* Recall that $d_{\nu_q^{\prime\prime}}(L)$ is defined as
 
 $$
-d_{\nu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{L\subset E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathds{1}\big[E\subset V_q\big]}{P_q(E)},
+d_{\nu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{L\subset E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathbb{1}\big[E\subset V_q\big]}{P_q(E)},
 $$
 
 where the last equality is using the definition of $\nu_q^{\prime\prime}$, and hence we can write, for every $L\subset V$,
 
 $$
-d_{\nu_q^{\prime\prime}}(L)^2=\sum_{L\subset E_1\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_1)}{P_q(E_1)}\sum_{L\subset E_2\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_2)}{P_q(E_2)}\mathds{1}\big[E_1\cup E_2\subset V_q\big].
+d_{\nu_q^{\prime\prime}}(L)^2=\sum_{L\subset E_1\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_1)}{P_q(E_1)}\sum_{L\subset E_2\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_2)}{P_q(E_2)}\mathbb{1}\big[E_1\cup E_2\subset V_q\big].
 $$
 
 Observe that the event $V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})$ is decreasing and also that, for every $E_1,E_2\in\mathcal{H}'$, the event $E_1\cup E_2\subset V_q$ is increasing. We can therefore use Harris’ inequality to bound, for $E_1,E_2\in\mathcal{H}'$,
@@ -1226,8 +1226,8 @@ $$
 *If $\mathcal{J}_{F,\widetilde{G}^{\prime},\widetilde{G}}$ is $(p,R^{\prime})$-Janson and $\mathcal{J}_{F^{-},\widetilde{G}^{\prime},\widetilde{G}}[W]$ is $(p,R)$-Janson for every $W\subset U=V(\widetilde{G})$ with $|W|\geqslant m/(8r)$, then*
 
 $$
-\mathbb{P}\left(\exists\,G^{\prime}\subset G:\begin{array}{@{}c@{}}G^{\prime}[U]=\widetilde{G},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
-\mathcal{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\ \middle|\ G[U]=\widetilde{G}\right)\leqslant 2^{-m/(32r)}, \tag{72}
+\mathbb{P}\left(\exists\,G^{\prime}\subset G:\begin{array}{c}G^{\prime}[U]=\widetilde{G}^{\prime},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
+\mathfrak{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\ \middle|\ G[U]=\widetilde{G}\right)\leqslant 2^{-m/(32r)}, \tag{72}
 $$
 
 where $G\sim\mathbb{G}(m+1,1/2)$ and $V(G)=U\cup\{v\}$.
@@ -1235,8 +1235,8 @@ where $G\sim\mathbb{G}(m+1,1/2)$ and $V(G)=U\cup\{v\}$.
 The first change that we need to make to the proof in Section 3 is to replace $\Gamma_{G}$, defined in (24), by $\Psi_{G}$, which is just the collection of $G^{\prime}\subset G$ satisfying the event in (72):
 
 $$
-\Psi_{G}=\left\{G^{\prime}\subset G:\begin{array}{@{}c@{}}G^{\prime}[U]=\widetilde{G},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
-\mathcal{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\right\}. \tag{73}
+\Psi_{G}=\left\{G^{\prime}\subset G:\begin{array}{c}G^{\prime}[U]=\widetilde{G}^{\prime},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
+\mathfrak{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\right\}. \tag{73}
 $$
 
 That is, we now require that $\mathcal{J}_{F,G^{\prime},G}$ is not $(p,R^{\prime}+1)$-Janson, instead of requiring it to be empty as in Lemma 3.1. The argument follows very closely the one in Section 3, so we briefly summarise the ideas in the proof of Lemma 3.1, referring to some of the definitions in that section as we progress.
@@ -1250,7 +1250,7 @@ $$
 where
 
 $$
-E_{L}=\left\{\left(u,\mathds{1}\big[\phi_{L}(u)\in\mathrm{N}_{F}(w)\big]\right):u\in L\right\},
+E_{L}=\left\{\left(u,\mathbb{1}\big[\phi_{L}(u)\in\mathrm{N}_{F}(w)\big]\right):u\in L\right\},
 $$
 
 with $\phi_{L}:L\to V(F^{-})$ being a fixed bijection and $w$ being the unique vertex in $V(F)\setminus V(F^{-})$. We then defined
@@ -2455,7 +2455,7 @@ $\blacksquare$
 Now, let $\gamma=\sqrt{8\eta}>0$ (a choice made with foresight) and $\mu''_q:\pi(\mathcal{H}')\to\mathbb{R}_{\geqslant 0}$ be defined by
 
 $$
-\mu''_q(E)=\mu''(E)\,\frac{\gamma\cdot\mathds{1}\big[E\in\pi(\mathcal{H}'[V_q])\big]}{P'_q(E)}.
+\mu''_q(E)=\mu''(E)\,\frac{\gamma\cdot\mathbb{1}\big[E\in\pi(\mathcal{H}'[V_q])\big]}{P'_q(E)}.
 $$
 
 Also define the extension $\bar{\mu}''_q$ supported on $\pi_v(\mathcal{H}'[X_q])$, where $X_q=V_q\cap X$, by
@@ -2497,7 +2497,7 @@ $$
 *Proof.* The definitions of $e(\bar{\mu}^{\prime\prime}_{q})$, $\bar{\mu}^{\prime\prime}_{q}$ and $\mu^{\prime\prime}_{q}$,
 
 $$
-e(\bar{\mu}^{\prime\prime}_{q})=\sum_{E\cup\{v\}\in\pi_v(\mathcal{H}^{\prime})}\bar{\mu}^{\prime\prime}_{q}(E\cup\{v\})=\sum_{E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathds{1}\big[E\in\pi(\mathcal{H}^{\prime}[V_q])\big]}{P^{\prime}_{q}(E)},
+e(\bar{\mu}^{\prime\prime}_{q})=\sum_{E\cup\{v\}\in\pi_v(\mathcal{H}^{\prime})}\bar{\mu}^{\prime\prime}_{q}(E\cup\{v\})=\sum_{E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathbb{1}\big[E\in\pi(\mathcal{H}^{\prime}[V_q])\big]}{P^{\prime}_{q}(E)},
 $$
 
 imply that
@@ -2509,7 +2509,7 @@ $$
 since, for all $E\in\pi(\mathcal{H}^{\prime})$, we have that
 
 $$
-\mathbb{E}\left[\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}^{\prime})\right]=P^{\prime}_{q}(E) \tag{135}
+\mathbb{E}\left[\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}^{\prime})\right]=P^{\prime}_{q}(E) \tag{135}
 $$
 
 from the definition of $P^{\prime}_{q}(E)$, (130). $\blacksquare$
@@ -2596,7 +2596,7 @@ $$
 d_{\mu^{\prime\prime}_{q}}(L)^2=
 \left(
 \sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}
-\mu^{\prime\prime}(E)\frac{\gamma\cdot\mathds{1}[E\in\pi(\mathcal{H}^{\prime}[V_q])]}{P^{\prime}_{q}(E)}
+\mu^{\prime\prime}(E)\frac{\gamma\cdot\mathbb{1}[E\in\pi(\mathcal{H}^{\prime}[V_q])]}{P^{\prime}_{q}(E)}
 \right)^2
 \leqslant\gamma^2\left(\frac{q}{2}\right)^{-2s}d_{\mu^{\prime\prime}}(L)^2,
 \tag{140}
@@ -2678,7 +2678,7 @@ $$
 \Lambda_p(\bar{\mu}_q^{\prime\prime})<\gamma^2\left(\frac{2}{q}\right)^{2s}\left(1+\frac{1}{p}+\frac{2^8rs^2}{p}\right)\leqslant\gamma^2\left(\frac{2}{q}\right)^{2s}\frac{2^{10}rs^2}{p}\leqslant\frac{\gamma^2}{2\sqrt{\eta}}
 $$
 
-as desired. \hfill$\blacksquare$
+as desired. $\blacksquare$
 
 Replacing the bound of Claim 7.13 in (137) and then taking the conditional expectation with respect to $\{V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\}$ yields
 
@@ -2698,7 +2698,7 @@ $$
 *Proof.* Note that $v\notin L$ if $L\subset U$. It then follows from Claim 7.10 and the definition of $d_{\mu_q^{\prime\prime}}(L)$ that
 
 $$
-d_{\bar{\mu}_q^{\prime\prime}}(L)=d_{\mu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]}{P_q^{\prime}(E)},
+d_{\bar{\mu}_q^{\prime\prime}}(L)=d_{\mu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]}{P_q^{\prime}(E)},
 $$
 
 so taking the conditional expectation yields, for all $L\subset U$,
@@ -2710,10 +2710,10 @@ $$
 since
 
 $$
-\mathbb{E}\left[\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\right]=P_q^{\prime}(E),
+\mathbb{E}\left[\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\right]=P_q^{\prime}(E),
 $$
 
-(135), holds for all $E\in\pi(\mathcal{H}^{\prime})$. \hfill$\blacksquare$
+(135), holds for all $E\in\pi(\mathcal{H}^{\prime})$. $\blacksquare$
 
 Substituting the bound in Claim 7.14 in the middle sum of (144) and applying the Cauchy–Schwarz inequality, we obtain
 
@@ -3054,7 +3054,7 @@ $$
 \Lambda_p(\nu)\geqslant\frac{e(\nu)^2}{\zeta p|X|},
 $$
 
-which completes the proof because $\nu$ was arbitrary. $\hfill\square$
+which completes the proof because $\nu$ was arbitrary. $\square$
 
 ## Appendix C. Properties of measures
 

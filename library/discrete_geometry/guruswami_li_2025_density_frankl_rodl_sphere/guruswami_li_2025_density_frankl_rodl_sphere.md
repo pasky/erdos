@@ -27,14 +27,14 @@ $^{\dagger}$Department of Mathematics, UC Berkeley, Berkeley, CA, 94709, USA. Em
 While the original theorem asserts that for any $A \subseteq \{-1,1\}^{n}$ of size $|A|/2^{n} \geq \epsilon(\gamma)^{n}$,
 
 $$
-\mathop{\bf Pr\/}_{\begin{subarray}{c}x,y\in\{-1,1\}^{n}\\
+\mathop{\bf Pr}_{\begin{subarray}{c}x,y\in\{-1,1\}^{n}\\
 x\cdot y=(2\gamma-1)n\end{subarray}}(x\in A,y\in A)>0,
 $$
 
 it is natural to ask whether one can give a quantitative lower bound on this probability in terms of the density $|A|/2^{n}$. Benabbas, Hatami, and Magen [BHM12] answered this by proving a density version of the Frankl–Rödl theorem: for any $0 < \alpha < 1$, if $|A|/2^{n} \geq \alpha$, then
 
 $$
-\mathop{\bf Pr\/}_{\begin{subarray}{c}x,y\in\{-1,1\}^{n}\\
+\mathop{\bf Pr}_{\begin{subarray}{c}x,y\in\{-1,1\}^{n}\\
 x\cdot y=(2\gamma-1)n\end{subarray}}(x\in A,y\in A)\geq 2\left(\alpha/2\right)^{\frac{2}{1-|2\gamma-1|}}-o(1).
 $$
 
@@ -45,7 +45,7 @@ In the continuous setting, the sphere $\mathbb{S}^{n-1}$ provides a natural high
 Regev and Klartag [RK11] established a density version of the Frankl–Rödl theorem on the sphere for pairs of orthogonal vectors:
 
 $$
-\mathop{\bf Pr\/}_{\begin{subarray}{c}x,y\in\mathbb{S}^{n-1}\\
+\mathop{\bf Pr}_{\begin{subarray}{c}x,y\in\mathbb{S}^{n-1}\\
 x\cdot y=0\end{subarray}}(x\in A,\ y\in A)\geq 0.9\,\sigma(A)^{2},
 $$
 
@@ -56,7 +56,7 @@ For configurations $\Delta_k(n,r)$ with $r > 0$, Castro-Silva et al. [CSdOFSV22]
 This sphere Ramsey theorem was recently used by Brakensiek, Guruswami, and Sandeep [BGS23] to demonstrate integrality gaps for the basic SDP relaxation of certain promise CSPs: namely Boolean symmetric promise CSPs defined by a single predicate pair that lack Majority or Alternate-Threshold (AT) polymorphisms of all odd arities. Via Raghavendra’s general connection tightly linking SDP integrality gaps to Unique-Games hardness [Rag08], this enabled BGS to conclude that such promise CSPs do not admit a robust satisfiability algorithm (in the sense of Zwick [Zwi98]) under the Unique Games conjecture. Complementing this hardness result, BGS gave a robust satisfiability algorithm for Boolean promise CSPs that admit Majority polymorphisms of all odd arities or AT polymorphisms of all odd arities—the algorithm applied in the general promise CSP setting that could have multiple predicate pairs. Together these results led to a dichotomy theorem with respect to robust satisfiability for Boolean symmetric promise CSPs defined by a single predicate. Towards extending their hardness result to Boolean symmetric PCSPs that could include multiple predicate pairs, BGS posed the following problem: can one show a density version of spherical avoidance problems for the configuration $(x_1,\cdots,x_b,-x_{b+1},\cdots,-x_k)$ where $(x_1,\cdots,x_b,x_{b+1},\cdots,x_k)\in\Delta_k(n,r)$. Namely, obtain a non-trivial lower bound on the quantity
 
 $$
-\mathop{\bf Pr\/}_{(x_1,\cdots,x_b,x_{b+1},\cdots,x_k)\in\Delta_k(n,r)}
+\mathop{\bf Pr}_{(x_1,\cdots,x_b,x_{b+1},\cdots,x_k)\in\Delta_k(n,r)}
 \left(x_1\in A,\cdots,x_b\in A,-x_{b+1}\in A,\cdots,-x_k\in A\right).
 $$
 
@@ -67,7 +67,7 @@ In this paper, we show the following result:
 **Theorem 1.1.** Fix $k,r$ such that $-\frac{1}{k-1}<r<1$, there exists constant $C=C(k,r)$, $\epsilon=\epsilon(k,r)$ such that
 
 $$
-\mathop{\bf Pr\/}_{x_1,\ldots,x_k\in\Delta_k(n,r)}(x_i\in A\ \forall i)\geq\Omega_{k,r}\left(\sigma(A)^C\right)
+\mathop{\bf Pr}_{x_1,\ldots,x_k\in\Delta_k(n,r)}(x_i\in A\ \forall i)\geq\Omega_{k,r}\left(\sigma(A)^C\right)
 $$
 
 for all measurable $A\subseteq\mathbb{S}^{n-1}$ with $\sigma(A)\geq\omega_{k,r}(n^{-\epsilon})$.
@@ -77,7 +77,7 @@ Our result generalizes the work of Castro-Silva et al. to simplices with any $-\
 Inspired by the techniques of Benabbas et al. [BHM12], who used reverse hypercontractivity of the Bonami–Beckner semigroup to show the density variant of Frankl–Rödl on $\{-1,1\}^n$, we develop analogous tools on the sphere. Specifically, we prove reverse hypercontractivity of the operator
 
 $$
-A_r f(x):=\mathop{\mathbb{E}\/}_{\substack{y\in\mathbb{S}^{n-1}\\x\cdot y=r}}[f(y)],
+A_r f(x):=\mathop{\mathbb{E}}_{\substack{y\in\mathbb{S}^{n-1}\\x\cdot y=r}}[f(y)],
 $$
 
 which enables us to derive density versions of spherical avoidance for inductive configurations. In Section 2, we analyze the eigen-decomposition of $A_r$; in Section 3, we relate $A_r$ to the Poisson Markov semigroup $P_t$ and establish reverse hypercontractive inequalities. Finally, in Section 4, we prove our main results on density versions of the Frankl–Rödl theorem on the sphere and density spherical Ramsey statements for inductive configurations.
@@ -442,7 +442,7 @@ holds for all $x\in\mathbb{S}^{n-1}$, except on a subset of measure at most $C\e
 **Theorem 4.2.** Fix an integer $k\geq 2$. For any measurable set $A\subseteq\mathbb{S}^{n-1}$, the probability that a tuple $(v_1,\cdots,v_k)$ drawn uniformly at random from $\Delta_k(n,0)$ lies entirely in $A$ is at least
 
 $$
-\mathop{\bf Pr\/}_{(x_1,\cdots,x_k)\in\Delta_k(n,0)}(x_1\in A,\cdots,x_k\in A)\geq\Omega_k\left(\sigma(A)^k-C_k\exp(-cn^{1/3})\sigma(A)^{k-1}\right),
+\mathop{\bf Pr}_{(x_1,\cdots,x_k)\in\Delta_k(n,0)}(x_1\in A,\cdots,x_k\in A)\geq\Omega_k\left(\sigma(A)^k-C_k\exp(-cn^{1/3})\sigma(A)^{k-1}\right),
 $$
 
 where $c>0$ is a universal constant and $C_k$ is a constant depending only on $k$.
@@ -459,10 +459,10 @@ When $k=2$,
 
 $$
 \begin{aligned}
-\mathop{\bf Pr\/}_{(x_1,x_2)\in\Delta_2(n,0)}(x_1\in A,x_2\in A)
-&\geq\mathop{\bf Pr\/}_{(x_1,x_2)\in\Delta_2(n,0)}(x_1\in A\cap B,x_2\in A)\\
-&=\mathop{\bf Pr\/}(x_1\in A\cap B)\cdot\mathop{\bf Pr\/}(x_2\in A\mid x_1\in A\cap B)\\
-&=\mathop{\bf Pr\/}(x_1\in A\cap B)\cdot\mathop{\mathbb{E}\/}[\sigma_{x_1,0}(A\cap S_{x_1,0})\mid x_1\in A\cap B]\\
+\mathop{\bf Pr}_{(x_1,x_2)\in\Delta_2(n,0)}(x_1\in A,x_2\in A)
+&\geq\mathop{\bf Pr}_{(x_1,x_2)\in\Delta_2(n,0)}(x_1\in A\cap B,x_2\in A)\\
+&=\mathop{\bf Pr}(x_1\in A\cap B)\cdot\mathop{\bf Pr}(x_2\in A\mid x_1\in A\cap B)\\
+&=\mathop{\bf Pr}(x_1\in A\cap B)\cdot\mathop{\mathbb{E}}[\sigma_{x_1,0}(A\cap S_{x_1,0})\mid x_1\in A\cap B]\\
 &\geq\left(\sigma(A)-C\exp(-cn^{1/3})\right)\cdot 0.9\sigma(A)\\
 &\geq\Omega\left(\sigma(A)^2-C\exp(-cn^{1/3})\sigma(A)\right)
 \end{aligned}
@@ -472,9 +472,9 @@ When $k>2$, assume the claim holds for $k-1$. Then:
 
 $$
 \begin{aligned}
-\mathop{\bf Pr\/}_{(x_1,\cdots,x_k)\in\Delta_k(n,0)}(x_1\in A,\cdots,x_k\in A)
-&\geq\mathop{\bf Pr\/}(x_1\in A\cap B)\cdot\mathop{\bf Pr\/}(x_2,\cdots,x_k\in A\mid x_1\in A\cap B)\\
-&=\mathop{\bf Pr\/}(x_1\in A\cap B)\cdot\mathop{\bf Pr\/}(x_2,\cdots,x_k\in A\cap S_{x_1,0}\mid x_1\in A\cap B).
+\mathop{\bf Pr}_{(x_1,\cdots,x_k)\in\Delta_k(n,0)}(x_1\in A,\cdots,x_k\in A)
+&\geq\mathop{\bf Pr}(x_1\in A\cap B)\cdot\mathop{\bf Pr}(x_2,\cdots,x_k\in A\mid x_1\in A\cap B)\\
+&=\mathop{\bf Pr}(x_1\in A\cap B)\cdot\mathop{\bf Pr}(x_2,\cdots,x_k\in A\cap S_{x_1,0}\mid x_1\in A\cap B).
 \end{aligned}
 $$
 
@@ -482,17 +482,17 @@ By the inductive hypothesis applied within the subsphere $S_{x_1,0}$, we have:
 
 $$
 \begin{aligned}
-\mathop{\bf Pr\/}(x_2,\cdots,x_k\in A\cap S_{x_1,0}\mid x_1\in A\cap B)
+\mathop{\bf Pr}(x_2,\cdots,x_k\in A\cap S_{x_1,0}\mid x_1\in A\cap B)
 &\geq\Omega_k\left((0.9\sigma(A))^{k-1}-C_k\exp(-cn^{1/3})(0.9\sigma(A))^{k-2}\right)\\
 &\geq\Omega_k\left(\sigma(A)^{k-1}-C_k\exp(-cn^{1/3})\sigma(A)^{k-2}\right).
 \end{aligned}
 $$
 
-Multiplying with $\mathop{\bf Pr\/}(x_1\in A\cap B)\geq\sigma(A)-C\exp(-cn^{1/3})$, we obtain:
+Multiplying with $\mathop{\bf Pr}(x_1\in A\cap B)\geq\sigma(A)-C\exp(-cn^{1/3})$, we obtain:
 
 $$
 \begin{aligned}
-\mathop{\bf Pr\/}(x_1,\cdots,x_k\in A)
+\mathop{\bf Pr}(x_1,\cdots,x_k\in A)
 &\geq\Omega_k\left(\sigma(A)^{k-1}-C_k\exp(-cn^{1/3})\sigma(A)^{k-2}\right)\cdot\left(\sigma(A)-C\exp(-cn^{1/3})\right)\\
 &\geq\Omega_k\left(\sigma(A)^k-C'_k\exp(-cn^{1/3})\sigma(A)^{k-1}\right),
 \end{aligned}
@@ -510,7 +510,7 @@ $$
 \mathbf{Pr}_{x\cdot y=r}(x\in A,\ y\in B)\geq(\sigma(A)\sigma(B))^{1/(1-|r|)}-O_r\left(\frac{1}{n}\right)\sqrt{\sigma(A)\sigma(B)}.
 $$
 
-*Proof.* The case $r=0$ follows from a stronger version of Lemma 4.1, given by [RK11, Theorem 5.1]. Now consider $r\neq 0$. Let $f=\mathbbm{1}_A$ and $g=\mathbbm{1}_B$. Applying Theorem 3.5 with $p=1-|r|$, we obtain
+*Proof.* The case $r=0$ follows from a stronger version of Lemma 4.1, given by [RK11, Theorem 5.1]. Now consider $r\neq 0$. Let $f=\mathbb{1}_A$ and $g=\mathbb{1}_B$. Applying Theorem 3.5 with $p=1-|r|$, we obtain
 
 $$
 \begin{aligned}
@@ -559,11 +559,11 @@ $$
 
 Rearranging yields
 
-$$\mathop{\bf Pr\/}(x\in A_{\mathrm{good}}\mid x\in A)\geq\mathop{\mathbb{E}\/}_{x}[\sigma_{x,r}(A\cap S_{x,r})\mid x\in A]-\frac{1}{2}\sigma(A)^{(1+|r|)/(1-|r|)},$$
+$$\mathop{\bf Pr}(x\in A_{\mathrm{good}}\mid x\in A)\geq\mathop{\mathbb{E}}_{x}[\sigma_{x,r}(A\cap S_{x,r})\mid x\in A]-\frac{1}{2}\sigma(A)^{(1+|r|)/(1-|r|)},$$
 
 and thus
 
-$$\sigma(A_{\mathrm{good}})=\mathop{\bf Pr\/}(x\in A_{\mathrm{good}}\mid x\in A)\cdot\sigma(A)\geq\frac{1}{2}\sigma(A)^{2/(1-|r|)}-O_{r}\left(\frac{1}{n}\right)\sigma(A)\ .\qed$$
+$$\sigma(A_{\mathrm{good}})=\mathop{\bf Pr}(x\in A_{\mathrm{good}}\mid x\in A)\cdot\sigma(A)\geq\frac{1}{2}\sigma(A)^{2/(1-|r|)}-O_{r}\left(\frac{1}{n}\right)\sigma(A)\ .\qquad\square$$
 
 The following proposition shows the relation between inner product on $\mathbb{S}^{n-1}$ and the normalized inner product on $S_{x,c}$:
 
@@ -581,7 +581,7 @@ with $f_{c}(r)=\frac{r-c^{2}}{1-c^{2}}$.
 
 $$\begin{aligned}\langle y_{2},y_{3}\rangle&=\frac{\langle x_{2}-cx_{1},x_{3}-cx_{1}\rangle}{1-c^{2}}\\
 &=\frac{\langle x_{2},x_{3}\rangle-c\langle x_{1},x_{3}\rangle-c\langle x_{1},x_{2}\rangle+c^{2}\|x_{1}\|_{2}^{2}}{1-c^{2}}\\
-&=\frac{r-c^{2}}{1-c^{2}}\ .\qed\end{aligned}$$
+&=\frac{r-c^{2}}{1-c^{2}}\ .\qquad\square\end{aligned}$$
 
 We now apply the above propositions to prove our main result using induction.
 
@@ -591,7 +591,7 @@ $$\|v_{k}-v_{k-1}\|_{2}\neq\operatorname{diam}\left(\bigcap_{j<k-1}S_{v_{j},r_{j
 
 Then for any measurable set $A\subseteq\mathbb{S}^{n-1}$ with $\sigma(A)\geq\omega_{R}(n^{-\epsilon_{R}})$, the probability that a uniformly random tuple $(x_{1},\ldots,x_{k})\in\Delta(n,R)$ lies entirely in $A$ satisfies
 
-$$\mathop{\bf Pr\/}_{(x_{1},\ldots,x_{k})\in\Delta(n,R)}(x_{1}\in A,\ldots,x_{k}\in A)\geq\Omega_{R}(\sigma(A)^{C_{R}}),$$
+$$\mathop{\bf Pr}_{(x_{1},\ldots,x_{k})\in\Delta(n,R)}(x_{1}\in A,\ldots,x_{k}\in A)\geq\Omega_{R}(\sigma(A)^{C_{R}}),$$
 
 as $n\to\infty$. The constant $C_{R}$ is given by
 
@@ -621,9 +621,9 @@ Then,
 
 $$
 \begin{aligned}
-\mathop{\bf Pr\/}_{(x_1,\ldots,x_k)\in\Delta(n,R)}(x_1,\ldots,x_k\in A)
-&=\mathop{\bf Pr\/}(x_1\in A)\cdot\mathop{\bf Pr\/}(x_2,\ldots,x_k\in A\mid x_1\in A)\\
-&\geq\mathop{\bf Pr\/}(x_1\in A_{\mathrm{good}})\cdot\mathop{\bf Pr\/}(x_2,\ldots,x_k\in A\mid x_1\in A_{\mathrm{good}}).
+\mathop{\bf Pr}_{(x_1,\ldots,x_k)\in\Delta(n,R)}(x_1,\ldots,x_k\in A)
+&=\mathop{\bf Pr}(x_1\in A)\cdot\mathop{\bf Pr}(x_2,\ldots,x_k\in A\mid x_1\in A)\\
+&\geq\mathop{\bf Pr}(x_1\in A_{\mathrm{good}})\cdot\mathop{\bf Pr}(x_2,\ldots,x_k\in A\mid x_1\in A_{\mathrm{good}}).
 \end{aligned}
 $$
 
@@ -636,7 +636,7 @@ $$
 Given $x_1$, the event $x_2\in A,\cdots,x_k\in A$ is equal to $y_2\in A\cap S_{x_1,c_1},\cdots,y_k\in A\cap S_{x_1,c_1}$. Conditioned on $x_1\in A_{\mathrm{good}}$, we have $\sigma_{x_1,c_1}(A\cap S_{x_1,c_1})\geq\frac{1}{2}\sigma(A)^{(1+|c_1|)/(1-|c_1|)}\geq\omega_{R'}(n^{-\epsilon_{R'}})$, so by the inductive hypothesis:
 
 $$
-\mathop{\bf Pr\/}(y_2,\ldots,y_k\in A\cap S_{x_1,c_1})\geq\Omega_R\left(\sigma(A)^{C_{R'}(1+|c_1|)/(1-|c_1|)}\right).
+\mathop{\bf Pr}(y_2,\ldots,y_k\in A\cap S_{x_1,c_1})\geq\Omega_R\left(\sigma(A)^{C_{R'}(1+|c_1|)/(1-|c_1|)}\right).
 $$
 
 with
@@ -654,13 +654,13 @@ $$
 By Proposition 4.4, we also have
 
 $$
-\mathop{\bf Pr\/}(x_1\in A_{\mathrm{good}})\geq\Omega_R(\sigma(A)^{2/(1-|c_1|)}).
+\mathop{\bf Pr}(x_1\in A_{\mathrm{good}})\geq\Omega_R(\sigma(A)^{2/(1-|c_1|)}).
 $$
 
 Multiplying the two bounds give
 
 $$
-\mathop{\bf Pr\/}(x_1,\ldots,x_k\in A)\geq\Omega_R\left(\sigma(A)^{C_R}\right),
+\mathop{\bf Pr}(x_1,\ldots,x_k\in A)\geq\Omega_R\left(\sigma(A)^{C_R}\right),
 $$
 
 where
@@ -698,7 +698,7 @@ In this case, the coefficients $c_i$ admit the closed-form expression $c_i=\frac
 **Corollary 4.9.** Fix any $r\in\left(-\frac{1}{k-1},1\right)$. For any measurable set $A\subseteq\mathbb{S}^{n-1}$ with $\sigma(A)\geq\omega_{k,r}(n^{-\epsilon_{k,r}})$, the probability that a uniformly random tuple $(x_1,\ldots,x_k)\in\Delta_k(n,r)$ lies entirely in $A$ satisfies
 
 $$
-\mathop{\bf Pr\/}_{(x_1,\ldots,x_k)\in\Delta_k(n,r)}(x_1\in A,\ldots,x_k\in A)\geq\Omega_{k,r}(\sigma(A)^{C_{k,r}}),
+\mathop{\bf Pr}_{(x_1,\ldots,x_k)\in\Delta_k(n,r)}(x_1\in A,\ldots,x_k\in A)\geq\Omega_{k,r}(\sigma(A)^{C_{k,r}}),
 $$
 
 as $n\to\infty$. The constants $C_{k,r},\ \epsilon_{k,r}$ are given by
@@ -718,13 +718,13 @@ $$
 Our density version of the Frankl–Rödl theorem on the sphere (Theorem 4.3) requires the set $A \subseteq \mathbb{S}^{n-1}$ to have spherical measure $\sigma(A) \gg n^{-(1-|r|)/(1+|r|)}$ in order to guarantee a non-trivial lower bound. In contrast, the classical Frankl–Rödl theorem asserts that for any $-1 < r < 1$, there exists a constant $\epsilon = \epsilon(r) > 0$ such that
 
 $$
-\mathop{\bf Pr\/}_{x\cdot y=r}(x \in A, y \in A) > 0
+\mathop{\bf Pr}_{x\cdot y=r}(x \in A, y \in A) > 0
 $$
 
 holds for all sets $A$ with $\sigma(A) > \Omega(\epsilon^n)$. When $r = 0$, our result in Theorem 4.2 provides a quantitative lower bound valid for all sets $A$ with $\sigma(A) \geq C\exp(-cn^{1/3})$, which is super-polynomially small but not exponentially small in $n$. A natural open problem is to extend our techniques and obtain explicit lower bounds on
 
 $$
-\mathop{\bf Pr\/}_{x\cdot y=r}(x \in A, y \in A)
+\mathop{\bf Pr}_{x\cdot y=r}(x \in A, y \in A)
 $$
 
 for all $-1 < r < 1$, even when $\sigma(A)$ is exponentially small in $n$.
@@ -732,7 +732,7 @@ for all $-1 < r < 1$, even when $\sigma(A)$ is exponentially small in $n$.
 Another direction concerns the class of configurations we consider. Our density result applies to *inductive configurations*, but Matoušek and Rödl [MR95] showed that fix constant $c$ and for any configuration $P$ with circumradius less than 1, any $c$ coloring of $\mathbb{S}^{n-1}$ contains a monochromatic copy of $P$. It remains open whether one can establish a *density* version of this theorem—that is, to show
 
 $$
-\mathop{\bf Pr\/}_{(x_{1},\ldots,x_{k})\in P}(x_i \in A\ \forall i) > \epsilon(\sigma(A))
+\mathop{\bf Pr}_{(x_{1},\ldots,x_{k})\in P}(x_i \in A\ \forall i) > \epsilon(\sigma(A))
 $$
 
 for any set $A \subseteq \mathbb{S}^{n-1}$ with constant density $\sigma(A) > \epsilon(P)$ where $\epsilon(\sigma(A))$ is a lower bound on the probability in terms of $\sigma(A)$.
@@ -740,14 +740,14 @@ for any set $A \subseteq \mathbb{S}^{n-1}$ with constant density $\sigma(A) > \e
 Finally, our current results can be almost extended to 3-point configurations. For example, using Theorem 4.3, we can obtain bounds on
 
 $$
-\mathop{\bf Pr\/}_{\begin{subarray}{c}x\cdot y=r_{1}\\
+\mathop{\bf Pr}_{\begin{subarray}{c}x\cdot y=r_{1}\\
 x\cdot z=r_{2}\end{subarray}}(x \in A,y \in A,z \in A),
 $$
 
 but this does not yet yield control over 3-point configurations, which require bounding
 
 $$
-\mathop{\bf Pr\/}_{\begin{subarray}{c}x\cdot y=r_{1}\\
+\mathop{\bf Pr}_{\begin{subarray}{c}x\cdot y=r_{1}\\
 x\cdot z=r_{2}\\
 y\cdot z=r_{3}\end{subarray}}(x \in A,y \in A,z \in A).
 $$

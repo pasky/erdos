@@ -46,8 +46,8 @@ and not read, and no step of the argument was checked. This card claims no
 correctness for the preprint's results; it records what the preprint
 states. The site's Problem 1199 page, accessed 2026-09-18, showed the label
 OPEN, seven weeks after a thread comment of 1 August 2026 reported the
-claim, and the community database (commit `3c68e941`, 9
-September 2026) records the problem open.
+claim, and the community database's entry of 9 September 2026 records the
+problem open.
 
 ## Contents
 

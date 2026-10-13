@@ -43,9 +43,8 @@ bridge between the integer problem and the set systems used below".
 **Standing.** A claim, not an accepted result. The manuscript is hosted on
 GitHub and was submitted to the site's proof-claim tab on 14 July 2026,
 where the tab labels it a partial proof claim; the site's label for Problem
-536 is OPEN and its commentary does not mention the manuscript; no arXiv
-version, refereed publication, independent review or written dispute was
-found on 2026-09-18. The tab's submission declares that the claim was
+536 was OPEN and its commentary does not mention the manuscript. The tab's
+submission declares that the claim was
 produced using an AI model (GPT-5.6 Sol); the manuscript carries no
 statement about AI use, and its title page gives the author's affiliations as
 Columbia University and Multiscalar Intelligence.

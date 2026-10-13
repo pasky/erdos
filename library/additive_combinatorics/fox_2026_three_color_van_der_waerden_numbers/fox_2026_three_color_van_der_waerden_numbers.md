@@ -193,13 +193,13 @@ $$
 
 where the first inequality uses $|I|\geq 2M\geq 2d$. Thus, the fraction of terms of $P$ that are in $I$ is at least $\frac{C}{C+1}(2/9)|I|/N\geq|I|/(5N)$. This completes the proof of part 1.
 
-To prove part 2, if $P\subset I$, then we are done. So suppose otherwise. Since $P$ wraps around and $P\not\subset I$, some two consecutive terms of $P$ cross the cut between $N-1 and $0$. Then, after possibly applying the symmetry $x\mapsto -1-x$ (which preserves $I$), there is a term $b\in\{0,\ldots,d-1\}$, and moving forward from $b$, the terms $b+jd$ with $b+jd\leq M-1$ are all in $P\cap I$. Together with the previous term $b-d\in P\cap I$, this gives at least $\lfloor M/d\rfloor$ elements in $P\cap I$.
+To prove part 2, if $P\subset I$, then we are done. So suppose otherwise. Since $P$ wraps around and $P\not\subset I$, some two consecutive terms of $P$ cross the cut between $N-1$ and $0$. Then, after possibly applying the symmetry $x\mapsto -1-x$ (which preserves $I$), there is a term $b\in\{0,\ldots,d-1\}$, and moving forward from $b$, the terms $b+jd$ with $b+jd\leq M-1$ are all in $P\cap I$. Together with the previous term $b-d\in P\cap I$, this gives at least $\lfloor M/d\rfloor$ elements in $P\cap I$.
 
 If $P$ has no full rotation, then $kd<N$, so $|P\cap I|/|P|\geq\lfloor M/d\rfloor/(N/d)\geq\frac{1}{2}M/N\geq|I|/(4N)$.
 
 If $P$ has a full rotation, then by the same argument as in part 1, the fraction of each full rotation of $P$ that lies in $I$ is at least $(\lfloor|I|/d\rfloor-1)/\lceil N/d\rceil\geq(\frac{7}{9}|I|/d)/(\frac{9}{8}N/d)>\frac{7}{10}|I|/N$. The last inequality used $|I|=2M\geq 8d$ and $N>|I|\geq 8d$. Hence, if $C\geq1$ is the number of full rotations of $P$, then $|P\cap I|/|P|\geq\frac{C}{C+1}\frac{7}{10}\frac{|I|}{N}\geq\frac{|I|}{4N}$. $\square$
 
-*Proof of Lemma 2.10.* Let $\ell=\lcm(1,2,\ldots,\lceil1/\varepsilon\rceil)$, so $\ell<2.8^{1/\varepsilon}$. As $N$ is a prime and $N\geq k>1/\varepsilon$, $\ell$ is invertible in $\mathbb{Z}_N$. Let $M:=\lfloor\varepsilon N\rfloor$ and $I\subset\mathbb{Z}_N$ be the balanced interval of size $2M$. Let $\ell\cdot I$ be the dilation of $I$ by $\ell$. We will prove that $T:=I\cup\ell\cdot I$ has the desired properties. Note that $|T|\leq|I|+|\ell\cdot I|=4M\leq4\varepsilon N$.
+*Proof of Lemma 2.10.* Let $\ell=\operatorname{lcm}(1,2,\ldots,\lceil1/\varepsilon\rceil)$, so $\ell<2.8^{1/\varepsilon}$. As $N$ is a prime and $N\geq k>1/\varepsilon$, $\ell$ is invertible in $\mathbb{Z}_N$. Let $M:=\lfloor\varepsilon N\rfloor$ and $I\subset\mathbb{Z}_N$ be the balanced interval of size $2M$. Let $\ell\cdot I$ be the dilation of $I$ by $\ell$. We will prove that $T:=I\cup\ell\cdot I$ has the desired properties. Note that $|T|\leq|I|+|\ell\cdot I|=4M\leq4\varepsilon N$.
 
 Consider a $k$-AP $P:=(a,a+d,\ldots,a+(k-1)d)$ in $\mathbb{Z}_N$. We may assume, after possibly reversing the progression, that the representative of its common difference is a positive integer $d\leq N/2$. Let $P'=\ell^{-1}\cdot P$ be the dilation of $P$ by $\ell^{-1}$, so that $P'$ is an arithmetic progression with common difference $d_1=\ell^{-1}d$.
 
@@ -263,7 +263,7 @@ The next lemma is a basic product coloring lemma. From colorings of smaller grou
 
 **Lemma 4.1.** Let $k$ be a positive integer and $H_1,H_2$ be finite abelian groups. Let $G=H_1\times H_2$. Suppose for $i=1,2$ that $c_i:H_i\to[r_i]$ is an $r_i$-coloring of $H_i$ without monochromatic $k$-APs. Then the product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ also has no monochromatic $k$-APs.
 
-**Proof.** The product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ assigns to the pair $(h_1,h_2)\in H_1\times H_2$ the color $(c_1(h_1),c_2(h_2))$. As a $k$-term arithmetic progression has nonzero common difference, a $k$-term arithmetic progression in $H_1\times H_2$ also satisfies for at least one $i\in\{1,2\}$ that when restricted to coordinate $i$ it is also a $k$-AP (so has nonzero common difference). As neither $c_1$ nor $c_2$ has a monochromatic $k$-AP, so does $c_1\times c_2. $\square$
+**Proof.** The product coloring $c_1\times c_2:H_1\times H_2\to[r_1]\times[r_2]$ assigns to the pair $(h_1,h_2)\in H_1\times H_2$ the color $(c_1(h_1),c_2(h_2))$. As a $k$-term arithmetic progression has nonzero common difference, a $k$-term arithmetic progression in $H_1\times H_2$ also satisfies for at least one $i\in\{1,2\}$ that when restricted to coordinate $i$ it is also a $k$-AP (so has nonzero common difference). As neither $c_1$ nor $c_2$ has a monochromatic $k$-AP, so does $c_1\times c_2$. $\square$
 
 While in Lemma 4.1 the size of the group we are coloring is the product of the sizes of the smaller groups, the number of colors also multiplies. This is a significant drawback, and we would prefer if the number of colors does not increase or at least not by much. This is where random shifted product constructions come to the rescue.
 

@@ -12,56 +12,56 @@ factor $\geq n^{1+c_P}$.
 ## Contents
 
 **1 Introduction** 2  
-1.1 Outline of the proof of Theorem 1.1 \dotfill 4  
+1.1 Outline of the proof of Theorem 1.1 . . . 4  
 
 **2 Acknowledgements** 6  
 
 **3 Initial steps** 7  
 
 **4 Localised divisors of values of incomplete norm forms** 8  
-4.1 Application to Theorem 1.1 \dotfill 11  
+4.1 Application to Theorem 1.1 . . . 11  
 
 **5 Algebraic properties of auxilliary polynomials** 12  
-5.1 Ideals \dotfill 12  
-5.2 The roots of $P$ modulo $m$ \dotfill 12  
-5.3 Elimination of $a_0$ \dotfill 15  
-5.4 Explicit computations of $B_{13}, B_{14}, U, V$ \dotfill 17  
-5.5 Factorisation of $q$ \dotfill 19  
-5.6 The factor $q_1$ as a an incomplete norm form \dotfill 21  
+5.1 Ideals . . . 12  
+5.2 The roots of $P$ modulo $m$ . . . 12  
+5.3 Elimination of $a_0$ . . . 15  
+5.4 Explicit computations of $B_{13}, B_{14}, U, V$ . . . 17  
+5.5 Factorisation of $q$ . . . 19  
+5.6 The factor $q_1$ as a an incomplete norm form . . . 21  
 5.7 On the solutions of some congruence equations with $B_{14}$  
-and $q$ \dotfill 23  
+and $q$ . . . 23  
 
 **6 The set of ideals $\mathcal{J}$** 26  
 
 **7 Proof of Proposition 3.3: The term $S_1$** 29  
 
 **8 Proof of Proposition 3.2: The sum $S_0$** 34  
-8.1 The variable $a_0$ in $S_0$ \dotfill 34  
-8.2 Splitting into small boxes \dotfill 36  
-8.3 Preparation for the application of Theorem 4.1 \dotfill 38  
-8.4 Application of Theorem 4.1 \dotfill 44  
-8.5 Proof of Proposition 3.2 \dotfill 47
+8.1 The variable $a_0$ in $S_0$ . . . 34  
+8.2 Splitting into small boxes . . . 36  
+8.3 Preparation for the application of Theorem 4.1 . . . 38  
+8.4 Application of Theorem 4.1 . . . 44  
+8.5 Proof of Proposition 3.2 . . . 47
 
-**9 Incomplete norm forms** \dotfill **47**  
-9.1 From $\mathcal{O}_K$ to $\mathcal{O}_V$ and vice-versa \dotfill 48  
-9.2 Multiplication in $\mathcal{O}_V$ \dotfill 51  
-9.3 Sums of Type I \dotfill 53  
-9.4 Initial steps in the Type II sum \dotfill 54  
-9.5 Switching to ideals with norms in small boxes \dotfill 55  
-9.6 Approximation weights \dotfill 57  
+**9 Incomplete norm forms** . . . **47**  
+9.1 From $\mathcal{O}_K$ to $\mathcal{O}_V$ and vice-versa . . . 48  
+9.2 Multiplication in $\mathcal{O}_V$ . . . 51  
+9.3 Sums of Type I . . . 53  
+9.4 Initial steps in the Type II sum . . . 54  
+9.5 Switching to ideals with norms in small boxes . . . 55  
+9.6 Approximation weights . . . 57  
 
-**10 Proposition 9.13: The term $T_{\mathrm{sieve}}(\mathcal{R})$.** \dotfill **62**
+**10 Proposition 9.13: The term $T_{\mathrm{sieve}}(\mathcal{R})$.** . . . **62**
 
-**11 Proposition 9.14: The term $T_1(\mathcal{R})$** \dotfill **66**  
-11.1 Cosmetic reductions \dotfill 67  
-11.2 Dispersion method \dotfill 68  
-11.3 Collinear $b_1,b_2$ \dotfill 68  
-11.4 Lattice counts \dotfill 69  
-11.5 Further lattice estimates \dotfill 71  
-11.6 The case $p_1=p_2$ \dotfill 75  
-11.7 The case $p_1\ne p_2$ \dotfill 79  
-11.8 Reduction to small residue classes and small boxes \dotfill 80  
-11.9 Localised bound and Proof of Proposition 9.14 \dotfill 82  
+**11 Proposition 9.14: The term $T_1(\mathcal{R})$** . . . **66**  
+11.1 Cosmetic reductions . . . 67  
+11.2 Dispersion method . . . 68  
+11.3 Collinear $b_1,b_2$ . . . 68  
+11.4 Lattice counts . . . 69  
+11.5 Further lattice estimates . . . 71  
+11.6 The case $p_1=p_2$ . . . 75  
+11.7 The case $p_1\ne p_2$ . . . 79  
+11.8 Reduction to small residue classes and small boxes . . . 80  
+11.9 Localised bound and Proof of Proposition 9.14 . . . 82  
 
 ## 1 Introduction
 
@@ -1213,7 +1213,7 @@ $$
 
 *Proof.* We recall from (5.11) and (5.12) that $q\mid R_0$, the resultant of $B_{13}$ and $B_{14}$ viewed as polynomials in $a_0$. Therefore since $p\mid q(a_1,a_2,a_3)$, we have that $p\mid R_0(a_1,a_2,a_3)$, and so the two quadratic polynomials in $a_0$, $B_{13}$ and $B_{14}$ have a common root in some finite extension of $\mathbb{F}_p$.
 
-If this common root is not in $\mathbb{F}_p$ then its conjugate is also a common root of $B_{13}$ and $B_{14}$, and so we would have $R_0(a_1,a_2,a_3)=q(a_1,a_2,a_3)q_3(a_1,a_2,a_3)\equiv $0\pmod{p^2}$. But this is impossible since we assume that $q(a_1,a_2,a_3)$ is squarefree and coprime to $q_3(a_1,a_2,a_3)$ with $p\mid q(a_1,a_2,a_3)$. Therefore the common root must lie in $\mathbb{F}_p$. This proves assertion (iii).
+If this common root is not in $\mathbb{F}_p$ then its conjugate is also a common root of $B_{13}$ and $B_{14}$, and so we would have $R_0(a_1,a_2,a_3)=q(a_1,a_2,a_3)q_3(a_1,a_2,a_3)\equiv 0\pmod{p^2}$. But this is impossible since we assume that $q(a_1,a_2,a_3)$ is squarefree and coprime to $q_3(a_1,a_2,a_3)$ with $p\mid q(a_1,a_2,a_3)$. Therefore the common root must lie in $\mathbb{F}_p$. This proves assertion (iii).
 
 Since the common root of $B_{13}$ and $B_{14}$ is in $\mathbb{F}_p$ and $B_{14}$ is quadratic, both the roots of $B_{14}$ (seen as a polynomial in $a_0$) are in $\mathbb{F}_p$. Thus the number of $0\leq a_0<p$ with $B_{14}\equiv 0\pmod p$ is $1$ when $p\mid\Delta_{14}$ and $2$ otherwise.
 
@@ -2786,7 +2786,7 @@ $$
 
 *Proof.* We follow the proof of [14, Proposition 7.5], but now we work with a general order $\mathcal{O}_{\mathbf{v}}$ in place of $\mathbb{Z}[\theta]$. This involves minor modifications at the beginning of the argument; the last steps require no modification. For brevity we emphasise just the key points requiring modification and only sketch the rest of the argument.
 
-We split the summation on the ideals $\mathfrak{d}$ according to their class in $Cl_{K}$. Let $\mathcal{C}$ be a given class and consider the contribution of all the $\mathfrak{d}\in\mathcal{C}$. Since the $\mathfrak{d}$ in the summation in (9.6) are coprime with $q$, we can fix a representative integral ideal $\mathfrak{c}\in\mathcal{C}$ such that $(N(\mathfrak{c}),q)=1$ and with $N(\mathfrak{c})=q^{o(1)}$. The ideal $\mathfrak{d}\mathfrak{c}^{-1}(N(\mathfrak{c}))$ is a principal ideal of $\mathcal{O}_{K}$. By Lemma 9.2 we can find a generator of the form $\delta=\frac{1}{W}\sum_{i=1}^{4}d_{i}\nu_{i}$ where the $d_{i$ are integers such that $|d_i|\ll D^{1/n}q^{o(1)}$. Then $\delta_{\mathfrak c}:=\frac{1}{WN(\mathfrak c)}\sum_{i=1}^{4}d_i\nu_i$ is a generator of the principal fractional ideal $\mathfrak d\mathfrak c^{-1}$. In [14] it is proved that $|\sigma_0(\delta_{\mathfrak c})|\gg D^{1/4}q^{o(1)}$ for all embeddings $\sigma_0$.
+We split the summation on the ideals $\mathfrak{d}$ according to their class in $Cl_{K}$. Let $\mathcal{C}$ be a given class and consider the contribution of all the $\mathfrak{d}\in\mathcal{C}$. Since the $\mathfrak{d}$ in the summation in (9.6) are coprime with $q$, we can fix a representative integral ideal $\mathfrak{c}\in\mathcal{C}$ such that $(N(\mathfrak{c}),q)=1$ and with $N(\mathfrak{c})=q^{o(1)}$. The ideal $\mathfrak{d}\mathfrak{c}^{-1}(N(\mathfrak{c}))$ is a principal ideal of $\mathcal{O}_{K}$. By Lemma 9.2 we can find a generator of the form $\delta=\frac{1}{W}\sum_{i=1}^{4}d_{i}\nu_{i}$ where the $d_{i}$ are integers such that $|d_i|\ll D^{1/n}q^{o(1)}$. Then $\delta_{\mathfrak c}:=\frac{1}{WN(\mathfrak c)}\sum_{i=1}^{4}d_i\nu_i$ is a generator of the principal fractional ideal $\mathfrak d\mathfrak c^{-1}$. In [14] it is proved that $|\sigma_0(\delta_{\mathfrak c})|\gg D^{1/4}q^{o(1)}$ for all embeddings $\sigma_0$.
 
 Let $\alpha\in\Gamma_{\mathfrak d}$, so $(\alpha)=\mathfrak a'\mathfrak d$ for some integral ideal $\mathfrak a'$. Since $(\alpha)=\mathfrak a'\mathfrak c\mathfrak d\mathfrak c^{-1}$ and $(\alpha)$ and $\mathfrak d\mathfrak c^{-1}=(\delta_{\mathfrak c})$ are principal, $\mathfrak a'\mathfrak c$ is principal too, so $\mathfrak a'\mathfrak c=(\beta)$ for some generator $\beta\in\mathcal O_K$. By Lemma 9.1, we can take $\beta=\frac{1}{W}\sum_{i=1}^{4}b_i\nu_i$ where $\mathbf b=(b_1,b_2,b_3,b_4)\in\mathbb Z^4$ satisfies $(\mathbf b\ (\mathrm{mod}\ W))\in\mathcal V_0$. Then $(\alpha)=(\beta)(\delta_{\mathfrak c})$. Let $\mathbf d=(d_1,d_2,d_3,d_4)$. We have $W^2N(\mathfrak c)\beta\delta_{\mathfrak c}=\sum_{k=1}^{4}(\mathbf d\diamond\mathbf b)_k\nu_k$.
 
@@ -3041,8 +3041,8 @@ where
 
 $$
 \begin{aligned}
-T_{sieve}(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b}),\tag{9.19}\\
-T_1(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\bigl(\mathbf{1}_{\mathcal{R}_2}(\mathfrak{b})-\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b})\bigr),\tag{9.20}
+T_{sieve}(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b}),\qquad (9.19)\\
+T_1(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\bigl(\mathbf{1}_{\mathcal{R}_2}(\mathfrak{b})-\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b})\bigr),\qquad (9.20)
 \end{aligned}
 $$
 
@@ -3439,7 +3439,7 @@ $$
 
 Putting together (10.8), (10.9), (10.18) and (10.19) now gives the result.
 
-\hfill$\square$
+$\square$
 
 We are now in a position to establish Proposition 9.13.
 
@@ -3998,7 +3998,7 @@ $$
 
 *Proof.* This is similar to the proof of Lemma 11.5. Since the estimates in the proof of Lemma 11.5 when $\wedge(\mathbf b_1,\mathbf b_2)\ll B^{4/3}$ didn't depend on whether $p\mid D_{\mathbf b_1,\mathbf b_2}$ or not, an identical argument shows that the contribu-tion of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\ll B^{4/3}$ contributes $O(B^{17/3})$. Therefore we just need to consider the contribution when $\wedge(\mathbf b_1,\mathbf b_2)\gg B^{4/3}$.
 
-We split the summation according to $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$. Since $\mathbf c_1\propto\mathbf c_2\ (\mathrm{mod}\ p)$, we have $\mathbf c_1\equiv\lambda_0\mathbf c_2\ (\mathrm{mod}\ p)$ for some $\lambda_0$. Since $\mathbf b_1\equiv\mathbf c_1\ (\mathrm{mod}\ p)$ and $\mathbf b_2\equiv\mathbf c_2\ (\mathrm{mod}\ p)$ we then see that $p\mid d$. The condition $D_{\mathbf b_1,\mathbf b_2}=d$ forces $\mathbf b_1\equiv\lambda\mathbf b_2\ (\mathrm{mod}\ d)$ for some $\lambda$, with $\lambda\equiv\lambda_0\ (\mathrm{mod}\ p)$. Thus, by Lemma 11.4, the number of choices of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\sim $B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$ s
+We split the summation according to $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$. Since $\mathbf c_1\propto\mathbf c_2\ (\mathrm{mod}\ p)$, we have $\mathbf c_1\equiv\lambda_0\mathbf c_2\ (\mathrm{mod}\ p)$ for some $\lambda_0$. Since $\mathbf b_1\equiv\mathbf c_1\ (\mathrm{mod}\ p)$ and $\mathbf b_2\equiv\mathbf c_2\bmod p$ we then see that $p\mid d$. The condition $D_{\mathbf b_1,\mathbf b_2}=d$ forces $\mathbf b_1=\lambda\mathbf b_2\ (\mathrm{mod}\ d)$ for some $\lambda$, with $\lambda\equiv\lambda_0\ (\mathrm{mod}\ p)$. Thus, by Lemma 11.4, the number of choices of $\mathbf b_1,\mathbf b_2$ with $\wedge(\mathbf b_1,\mathbf b_2)\sim B^2/C$ and $D_{\mathbf b_1,\mathbf b_2}=d$ s
 
 $$
 \begin{aligned}
@@ -4032,12 +4032,12 @@ $$
 T_{11}:={}&\sum_{\substack{p\in[P_1,P_2]\\p\equiv1\;(\mathrm{mod}\ D_f)}}\sum_{\substack{\mathbf b_1\in\mathbb Z^4\cap\mathcal C_1,\mathbf b_2\in\mathbb Z^4\cap\mathcal C_2\\
 \mathbf b_1\equiv\mathbf b_2\equiv\mathbf b_0\;(\mathrm{mod}\ m')\\
 \wedge(\mathbf b_1,\mathbf b_2)\neq0\\
-p\nmid N(\mathbf b_1)N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}}{f_{\mathbf b_1,\mathbf b_2,p,p}\det(\Lambda_{\mathbf b_1,\mathbf b_2})},\tag{11.10}\\
+p\nmid N(\mathbf b_1)N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}}{f_{\mathbf b_1,\mathbf b_2,p,p}\det(\Lambda_{\mathbf b_1,\mathbf b_2})},\qquad (11.10)\\
 T_{12}:={}&\sum_{\substack{p_1,p_2\in[P_1,P_2]\\p_1\equiv p_2\equiv1\;(\mathrm{mod}\ D_f)}}\frac{1}{p_1p_2}
 \sum_{\substack{\mathbf b_1\in\mathbb Z^4\cap\mathcal C_1,\mathbf b_2\in\mathbb Z^4\cap\mathcal C_2\\
 \mathbf b_1\equiv\mathbf b_2\equiv\mathbf b_0\;(\mathrm{mod}\ m')\\
 \wedge(\mathbf b_1,\mathbf b_2)\neq0\\
-p_1\nmid N(\mathbf b_1),\,p_2\nmid N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}D_{\mathbf b_1,\mathbf b_2}}{\wedge(\mathbf b_1,\mathbf b_2)}.\tag{11.11}
+p_1\nmid N(\mathbf b_1),\,p_2\nmid N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}D_{\mathbf b_1,\mathbf b_2}}{\wedge(\mathbf b_1,\mathbf b_2)}.\qquad (11.11)
 \end{aligned}
 $$
 
@@ -4457,7 +4457,7 @@ $$
 \end{subarray}}g_{\mathbf b_1}\ll_K\frac{B^4}{(\log x)^{100K}}.
 $$
 
-Substituting this in then gives the final bound. \(\square\)
+Substituting this in then gives the final bound. $\square$
 
 Thus we see that it is sufficient to obtain a suitable bound for $g_{\mathbf b}$ on average over hypercubes in residue classes.
 
@@ -4480,7 +4480,7 @@ First we estimate the contribution from $\mathbf{1}_{\mathcal R}(\mathbf b)$. Si
 
 The contribution from $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ can be estimated by swapping the order of summation in the sieve sum and using the fact that $\mathbf b\in\mathbb Z\cap\mathcal C$ are equidistributed in suitable arithmetic progressions as in [14, Lemmas 9.5 and 9.6]. This gives a main term and a error term $O_K(B^4/(\log B)^{10K})$.
 
-The main term contributions from $\mathbf{1}_{\mathcal R}(\mathbf b)$ and $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ are the same apart from opposite signs and so cancel, giving the result. \(\square\)
+The main term contributions from $\mathbf{1}_{\mathcal R}(\mathbf b)$ and $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ are the same apart from opposite signs and so cancel, giving the result. $\square$
 
 Finally, we are able to complete our proof of Proposition 9.14.
 

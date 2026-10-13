@@ -17,27 +17,27 @@ We prove new large sieve inequalities for the Fourier coefficients $\rho_{ja}(n)
 ## Contents
 
 **1** **Introduction** 2  
-1.1 The large sieve inequalities \dotfill 3  
+1.1 The large sieve inequalities . . . 3  
 **2** **Informal overview** 6  
-2.1 Large sieve with general sequences \dotfill 6  
-2.2 Exponential phases and a counting problem \dotfill 7  
-2.3 Sequences with frequency concentration \dotfill 8  
-2.4 Multilinear forms of Kloosterman sums \dotfill 9  
-2.5 Layout of paper \dotfill 10  
+2.1 Large sieve with general sequences . . . 6  
+2.2 Exponential phases and a counting problem . . . 7  
+2.3 Sequences with frequency concentration . . . 8  
+2.4 Multilinear forms of Kloosterman sums . . . 9  
+2.5 Layout of paper . . . 10  
 **3** **Notation and preliminaries** 10  
-3.1 Standard analytic notation \dotfill 10  
-3.2 Cusps, automorphic forms, Kloosterman sums \dotfill 12  
-3.3 The Kuznetsov formula and exceptional eigenvalues \dotfill 14  
-3.4 Bounds for Fourier coefficients \dotfill 17  
+3.1 Standard analytic notation . . . 10  
+3.2 Cusps, automorphic forms, Kloosterman sums . . . 12  
+3.3 The Kuznetsov formula and exceptional eigenvalues . . . 14  
+3.4 Bounds for Fourier coefficients . . . 17  
 **4** **Combinatorial bounds** 20  
 **5** **Spectral bounds** 27  
-5.1 A general large sieve for exceptional Maass forms \dotfill 27  
-5.2 Proofs of Theorems 1.5 and 1.7 \dotfill 30  
-5.3 Multilinear Kloosterman bounds \dotfill 32  
+5.1 A general large sieve for exceptional Maass forms . . . 27  
+5.2 Proofs of Theorems 1.5 and 1.7 . . . 30  
+5.3 Multilinear Kloosterman bounds . . . 32  
 **6** **The greatest prime factor of $n^2 + 1$** 39  
-6.1 Sketch of the argument \dotfill 40  
-6.2 Arithmetic information \dotfill 41  
-6.3 Sieve computations \dotfill 49  
+6.1 Sketch of the argument . . . 40  
+6.2 Arithmetic information . . . 41  
+6.3 Sieve computations . . . 49  
 **References** 52
 
 ## 1. Introduction

@@ -52,8 +52,7 @@ definitions and the reduction (2.1) were read clause by clause on the page
 images of pp. 1--2, and the statements of Lemmas 2--5 in the text layer. The
 proof of the lower bound (pp. 3--14) was read for structure and not
 checked step by step; no step is independently reviewed here. Acceptance:
-the site's label and commentary; no refereed publication or independent
-review found on 2026-09-18.
+the site's label and commentary; the source is a preprint.
 
 ## Proof pointer
 

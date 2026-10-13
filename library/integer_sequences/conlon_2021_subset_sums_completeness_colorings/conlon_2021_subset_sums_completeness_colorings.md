@@ -120,7 +120,7 @@ To give some sense of where our improvement comes from, let us briefly describe 
 
 As in the Alon–Erdős coloring, our coloring uses $r/2$ colors to color all integers in $[n-1]$ larger than $2n/r$ and then $r/4$ colors to color the multiples of each of the first $r/4$ primes which are coprime to $n$. However, we then add an additional third step, which makes use of the non-uniform distribution of the remaining elements in congruence classes modulo $d$ for an appropriate choice of $d$. Indeed, let $d$ be as large as possible so that $d$ is coprime to $n$ and $\phi(d)<r/32$, noting that the prime factors of $d$ must be among the first $r/4$ primes coprime to $n$ and so the remaining uncolored integers are all coprime to $d$. For each congruence class $t\pmod{d}$ with $t$ coprime to $d$, let $x_t\in[d]$ be such that $x_t\equiv t^{-1}n\pmod{d}$. If a sum of elements, each congruent to $t\pmod{d}$, is equal to $n$, then the sum must involve either $x_t$ terms, $d+x_t$ terms or more than $d+x_t$ terms. Therefore, arguing as for the first $r/2$ colors, neither the set of integers congruent to $t\pmod{d}$ which are at least $n/x_t$ nor the set of integers congruent to $t\pmod{d}$ which are at least $n/(d+x_t)$ and less than $n/x_t$ can contain a subset sum equal to $n$. Hence, using at most $2\phi(d)<r/8$ additional colors, we may color all integers in $[n-1]$ larger than $n/d$ in such a way that $n$ is not a monochromatic sum of distinct elements. To complete the coloring, we again group the remaining uncolored integers into color classes so that the sum of the elements in any given color class is less than $n$. Worked out carefully, this then returns the upper bound in Theorem 1.5. For a sketch of how we prove the matching lower bound, which is the more difficult aspect of the proof, we refer the reader to Section 2.3.
 
-In practice, since our methods allow it, we will prove a more general result. For the statement, we need some notation. For positive integers $\rho$ and $m$, writing $p_i$ for the $i^{\textrm{th}}$ prime, we let $W(\rho)=\prod_{i=1}^{\rho}p_i and $\tau(\rho,m)=\phi(W(\rho)m)/(W(\rho)m)$. For $m\in[n,\binom{n}{2}]$, we then let $\rho(n,m)$ be the smallest positive integer $\rho$ such that $\rho/\tau(\rho,m)\geq n^2/\phi(m)$. Our generalization of Theorem 1.5 is now as follows.
+In practice, since our methods allow it, we will prove a more general result. For the statement, we need some notation. For positive integers $\rho$ and $m$, writing $p_i$ for the $i^{\textrm{th}}$ prime, we let $W(\rho)=\prod_{i=1}^{\rho}p_i$ and $\tau(\rho,m)=\phi(W(\rho)m)/(W(\rho)m)$. For $m\in[n,\binom{n}{2}]$, we then let $\rho(n,m)$ be the smallest positive integer $\rho$ such that $\rho/\tau(\rho,m)\geq n^2/\phi(m)$. Our generalization of Theorem 1.5 is now as follows.
 
 **Theorem 1.6.** *For every positive integer $n$ and any $m\in[n,\binom{n}{2}]$, the minimum number of colors $f(n,m)$ for which it is possible to color the positive integers less than $n$ so that $m$ cannot be written as a monochromatic sum of distinct integers satisfies*
 
@@ -164,7 +164,7 @@ This theorem improved on an earlier result obtained independently by Freiman [25
 
 **Theorem 1.9.** *There is a constant $C$ such that if $A\subset[n]$ with $|A|\geq C\sqrt{n}$, then $\Sigma(A)$ contains a homogeneous progression of length $n$.*
 
-For the proof of Theorem 1.7, we need a slightly stronger version of Theorem 1.9. This result, Theorem 6.1, states that if $A\subset[n]$ with $|A|\geq C\sqrt{n}$, then there exists $d$ (which is typically just 1) such that most elements in $A$ are divisible by $d$ and the set of subset sums formed from adding at most $2^{50}n/|A| elements of $A$ which are divisible by $d$ contains a homogeneous progression with length $n$ and common difference $d$.
+For the proof of Theorem 1.7, we need a slightly stronger version of Theorem 1.9. This result, Theorem 6.1, states that if $A\subset[n]$ with $|A|\geq C\sqrt{n}$, then there exists $d$ (which is typically just 1) such that most elements in $A$ are divisible by $d$ and the set of subset sums formed from adding at most $2^{50}n/|A|$ elements of $A$ which are divisible by $d$ contains a homogeneous progression with length $n$ and common difference $d$.
 
 To prove Theorem 1.7, suppose now that $A$ is a subset of $[n]$ with $s(n,m)+1$ elements and we wish to show that $m\in\Sigma(A)$. Using Theorem 6.1, we may conclude that $\Sigma(A)$ contains a homogeneous progression with length $n$ and common difference $d$, where $d$ divides most elements of $A$. Moreover, if $d\mid m$, this progression will contain $m$, so we may assume that $d\geq\textrm{snd}(m)$. A simple counting argument then implies that $d$ must in fact equal $\textrm{snd}(m)$, as otherwise there will not be enough elements in $A$. Since $s(n,m)+1=\left\lfloor\frac{n}{\textrm{snd}(m)}\right\rfloor+\textrm{snd}(m)-1$, there must also be at least $\textrm{snd}(m)-1$ elements in $A$ which are not divisible by $\textrm{snd}(m)$. We complete the proof by using these additional elements to show that $m\in\Sigma(A)$, as required.
 
@@ -273,7 +273,7 @@ The upper bound in Theorem 1.1 can be easily deduced from Lemma 2.8 as follows.
 
 We now give an informal sketch of the proof of Lemma 2.8, showing how it follows from an appropriate combination of the results of Section 2.1 with some further ideas. To begin, we observe that for any fixed set $I$ of $C\log x$ indices in $[C\epsilon^{-1}\log x]$, the elements of the subsequence $(s_i:i\in I)$ of $S$ of size $\epsilon|S|$ are independently and uniformly distributed in $X$. By taking a union bound, it will therefore suffice to show that if $S'$ is a sequence of $C\log x$ elements chosen independently and uniformly from $X$, then the probability that $\Sigma(S')$ does not contain all integers in the interval $\left[\frac{Cx\log x}{4},\frac{7Cx\log x}{8}\right]$ is sufficiently small.
 
-For this, for some fixed $\ell$, we take $\ell$ disjoint random subsets $S_1^{\prime\prime},\ldots,S_\ell^{\prime\prime}$ of $S'$, each of size $|S'|/(8\ell)$, with the aim being to show that, with appropriately high probability, the set of subset sums $\Sigma(S_j^{\prime\prime}) is a dense subset of a long interval and is not contained in an arithmetic progression with common difference larger than 1. Lemma 2.2 then allows us to conclude that $S^{\prime\prime}=S_1^{\prime\prime}\cup\cdots\cup S_\ell^{\prime\prime}$ is such that $\Sigma(S^{\prime\prime})=\Sigma(S_1^{\prime\prime})+\cdots+\Sigma(S_\ell^{\prime\prime})$ contains a long interval. Note, moreover, that $S^{\prime\prime}$ only has size $|S^{\prime}|/8$, so there are at least $7|S^{\prime}|/8$ elements still remaining in $S^{\prime}$. Using Graham’s lemma, Lemma 2.1, we can use these elements to extend the long interval in $\Sigma(S^{\prime\prime})$ to a significantly longer interval containing all of the required elements.
+For this, for some fixed $\ell$, we take $\ell$ disjoint random subsets $S_1^{\prime\prime},\ldots,S_\ell^{\prime\prime}$ of $S'$, each of size $|S'|/(8\ell)$, with the aim being to show that, with appropriately high probability, the set of subset sums $\Sigma(S_j^{\prime\prime})$ is a dense subset of a long interval and is not contained in an arithmetic progression with common difference larger than 1. Lemma 2.2 then allows us to conclude that $S^{\prime\prime}=S_1^{\prime\prime}\cup\cdots\cup S_\ell^{\prime\prime}$ is such that $\Sigma(S^{\prime\prime})=\Sigma(S_1^{\prime\prime})+\cdots+\Sigma(S_\ell^{\prime\prime})$ contains a long interval. Note, moreover, that $S^{\prime\prime}$ only has size $|S^{\prime}|/8$, so there are at least $7|S^{\prime}|/8$ elements still remaining in $S^{\prime}$. Using Graham’s lemma, Lemma 2.1, we can use these elements to extend the long interval in $\Sigma(S^{\prime\prime})$ to a significantly longer interval containing all of the required elements.
 
 It only remains to show that $\Sigma(S_j^{\prime\prime})$ is a dense subset of a long interval with appropriately high probability (showing that it is also not contained in an arithmetic progression with common difference larger than 1 is reasonably straightforward). For this, we split $S_j^{\prime\prime}$ randomly into two disjoint pieces $P_1$ and $P_2$. The key remaining component is to show that for every $m\in X$, the set of integers in $[x,2x)$ with no prime factor at most $(\log x)/2$, the mod $m$ set of subset sums $\Sigma_m(P_1)$ is large with very high probability. Very roughly, this follows by exposing the elements of $P_1$ one at a time and showing that most elements expand the mod $m$ set of subset sums significantly. Though we will not give a more detailed description here, we note that this key step again relies on several results from the previous section, including the Cauchy–Davenport-type statement, Lemma 2.3, as well as Lemma 2.6, which bounds the number of almost periods, those $x$ for which $(A+x)\setminus A$ is small. Finally, once we know that $|\Sigma_m(P_1)|$ is, with high probability, large for each $m\in X$, we can apply Lemma 2.5 repeatedly to conclude that $|\Sigma(S_j^{\prime\prime})|\geq\sum_{m\in P_2}|\Sigma_m(P_1)|$, which yields the required lower bound for $|\Sigma(S_j^{\prime\prime})|$.
 
@@ -360,8 +360,10 @@ $$
 \binom{q}{q-4\log x}p^{|B|}
 =\binom{q}{4\log x}p^{|B|}
 <c^{4\log x}\left(\frac{4(\log\log x)^2}{\log x}\right)^{(c-4)\log x}
-<(\log x)^{-(c-5)\log x}.\qed
+<(\log x)^{-(c-5)\log x}.
 $$
+
+$\square$
 
 To complete the proof, it remains to verify Claims 1 and 2.
 
@@ -393,7 +395,7 @@ $$
 |\Sigma(S_j^{\prime\prime})|\geq\sum_{m\in P_2}\frac{x}{4}=\frac{x}{4}\cdot\frac{|S_j^{\prime\prime}|}{2}=\frac{Cx\log x}{64\ell}.
 $$
 
-Therefore, with high probability, the sequence $S$ is such that $|\Sigma(S_j^{\prime\prime})|\geq Cx\log x/64\ell$ for all possible choices of $I'$ and $j$, as required. \hfill $\square$
+Therefore, with high probability, the sequence $S$ is such that $|\Sigma(S_j^{\prime\prime})|\geq Cx\log x/64\ell$ for all possible choices of $I'$ and $j$, as required. $\square$
 
 ### 3.2 Proof of Theorem 1.2
 
@@ -497,7 +499,7 @@ $$
 \left|2^{k-1}P(T)-2^{k-1}P(T)\right|\geq c_k\alpha^{2^{k+1}}x^k>\alpha^{C_k}P(m)
 $$
 
-for an appropriate constant $C_k$ depending only on $k$, completing the proof. \hfill$\square$
+for an appropriate constant $C_k$ depending only on $k$, completing the proof. $\square$
 
 *Remark.* A Hilbert cube of dimension $k$ (or simply a $k$-cube) is a set $H(a_0,e_1,\ldots,e_k)$ of the form $\{a_0+\sum_{i\in I}e_i:I\subseteq[k]\}$ with $a_0$ an integer and $e_1,\ldots,e_k$ positive integers (see [27] for more on the long history of these objects). The first step in the proof of Lemma 2.10 was to iteratively build many Hilbert cubes of dimension $k$ consisting of elements of $T$, all with $e_j=y_j$ and where we can take $a_0$ to be any $x_{k,i}$. An alternative approach to this step is to build many $k$-cubes in $T$ with small $e_1,\ldots,e_k$ and then to use the pigeonhole principle to show that one can pick out many such $k$-cubes with the same $e_1,\ldots,e_k$.
 
@@ -643,7 +645,7 @@ where $o_x(1)$ tends to $0$ as $x$ tends to infinity. Thus, with high probabilit
 
 $$|\Sigma(P(S_j^{\prime\prime}))|\geq\sum_{m\in Q_2}P(m)/4=|Q_2|P(m)/4=|S_j^{\prime\prime}|P(m)/8\geq P(x)|S_j^{\prime\prime}|/8.$$
 
-Therefore, with high probability, the sequence $S$ is such that $|\Sigma(P(S_j^{\prime\prime}))|\geq P(x)|S_j^{\prime\prime}|/8$ for all possible choices of $I^{\prime}$ and $j$, as required. \hfill$\square$
+Therefore, with high probability, the sequence $S$ is such that $|\Sigma(P(S_j^{\prime\prime}))|\geq P(x)|S_j^{\prime\prime}|/8$ for all possible choices of $I^{\prime}$ and $j$, as required. $\square$
 
 ### 3.3 Proof of the lower bound in Theorem 1.1
 
@@ -653,7 +655,7 @@ We first prove a useful lemma.
 
 $$|\Sigma(S)\cap[m]|\leq 2^{m/q}\prod_{a\in S\cap[m]}(1+2^{-a/q})\leq 2^{m/q}\exp\left(\sum_{a\in S\cap[m]}2^{-a/q}\right).$$
 
-*Proof.* Let $r_S(s)$ denote the number of ways of representing $s$ as a sum of distinct elements from $S$. So if $s\in\Sigma(S)$, then $r_S(s)\geq 1$, while $r_S(s)=0$ otherwise. For each $s\in\Sigma(S)\cap[m]$, we get a contribution of one to the leftmost expression. For the middle expression, by expanding the product, for each $s\in\Sigma(S)\cap[m]$ we get a contribution of $r_S(s)\cdot 2^{m/q}\cdot 2^{-s/q}\geq 1$, proving the desired inequality. We then get the last inequality by using $1+z\leq e^z$ for $z\geq 0$. \hfill$\square$
+*Proof.* Let $r_S(s)$ denote the number of ways of representing $s$ as a sum of distinct elements from $S$. So if $s\in\Sigma(S)$, then $r_S(s)\geq 1$, while $r_S(s)=0$ otherwise. For each $s\in\Sigma(S)\cap[m]$, we get a contribution of one to the leftmost expression. For the middle expression, by expanding the product, for each $s\in\Sigma(S)\cap[m]$ we get a contribution of $r_S(s)\cdot 2^{m/q}\cdot 2^{-s/q}\geq 1$, proving the desired inequality. We then get the last inequality by using $1+z\leq e^z$ for $z\geq 0$. $\square$
 
 Using the above lemma, we prove the following theorem, giving the lower bound in Theorem 1.1.
 
@@ -1682,7 +1684,7 @@ $$
 \overline{M}(i)\leq\sum_{j\geq j_1}2^j\cdot\frac{2}{\ell}|X\cap I_j|\leq\frac{4M}{\ell},
 $$
 
-completing the proof of Claim 2. \hfill$\square$
+completing the proof of Claim 2. $\square$
 
 Both Sárközy [35] and Szemerédi and Vu [41] also state results which apply to
 
@@ -2003,7 +2005,7 @@ $$
 \binom{q}{q-2i}p^{|B|}=\binom{q}{2i}p^{|B|}<(eC_0)^{2i}\left(\frac{32\log w}{cw}\right)^{C_0i-2i}<\epsilon^{1000C_0i},
 $$
 
-where in the first inequality we used (27) and in the second inequality we assume a sufficiently large choice of $C_0$ and note that $w=\epsilon^{-4000}$ with $\epsilon$ sufficiently small. \hfill $\square$
+where in the first inequality we used (27) and in the second inequality we assume a sufficiently large choice of $C_0$ and note that $w=\epsilon^{-4000}$ with $\epsilon$ sufficiently small. $\square$
 
 To complete the proof, it remains to verify Claims 1 and 2.
 
@@ -2126,7 +2128,7 @@ p_1,p_2,\dots,p_k\mid W(r)m}}
 \frac{x}{p_1p_2\cdots p_k}+O(2^M),
 $$
 
-which is within an additive $O(2^M)$ of $x\prod_{p\mid W(r)m}(1-1/p)$, where $M$ is the number of distinct primes that divide $W(r)m$. Since $M\leq r+2(\log m)/(\log\log m)<(\log n)/10$ and $x\geq n^{1/6}$, the number of integers in $I$ coprime to $W(r)m$ is at least $\frac{1}{2}\tau(r,m)x$ and at most $2\tau(r,m)x$. \hfill $\square$
+which is within an additive $O(2^M)$ of $x\prod_{p\mid W(r)m}(1-1/p)$, where $M$ is the number of distinct primes that divide $W(r)m$. Since $M\leq r+2(\log m)/(\log\log m)<(\log n)/10$ and $x\geq n^{1/6}$, the number of integers in $I$ coprime to $W(r)m$ is at least $\frac{1}{2}\tau(r,m)x$ and at most $2\tau(r,m)x$. $\square$
 
 **Lemma 5.2.** *Let $r$, $n$ and $m$ be positive integers such that $m\in[n,\binom{n}{2}]$, $r\leq n$ and $r$ is sufficiently large. For any interval $I=[x,2x)$ with $x\geq n^{1/4}$, there are at most $8(m/\phi(m))\tau(r,m)x$ integers in $I$ of the form $qu$, where $u\mid m$, $u\leq x^{1/16}$ and $q$ is coprime to $W(r)m$. If also $x\geq r^2$, then there are at least $\frac{1}{8}(m/\phi(m))\tau(r,m)x$ integers in $I$ of this form.*
 
@@ -2149,7 +2151,7 @@ $$
 8\tau(r,m)\sum_{\substack{u\mid m,\,u\leq x^{1/16}}}\frac{x}{u}\leq 8(m/\phi(m))\tau(r,m)x,
 $$
 
-where we again used Lemma B.1. \hfill $\square$
+where we again used Lemma B.1. $\square$
 
 We now prove Lemma 5.9, which gives an upper bound on the number of integers in an arithmetic progression which are coprime to $W(r)/\gcd(W(r),m)$. The proof employs the Selberg sieve.
 
@@ -2289,7 +2291,7 @@ $$
 \frac{\rho}{\tau(\rho,m)}\leq\frac{\frac{n^2}{\phi(m)}\cdot 4\log\left(\frac{n^2/\phi(m)}{16\log(n^2/\phi(m))}\right)}{16\log(n^2/\phi(m))}\leq\frac{1}{4}\frac{n^2}{\phi(m)}
 $$
 
-and so $\rho(n,m)\geq\frac{1}{16}\frac{n^2/\phi(m)}{\log(n^2/\phi(m))}$, as required. \hfill$\square$
+and so $\rho(n,m)\geq\frac{1}{16}\frac{n^2/\phi(m)}{\log(n^2/\phi(m))}$, as required. $\square$
 
 Recall that $\psi(n,m)=\frac{m^{1/3}(m/\phi(m))}{(\log n)^{1/3}(\log\log n)^{2/3}}$ and $\mathcal{R}(n,m)=\min\left(\psi(n,m),\rho(n,m)\right)$. Using Claim B.3, it is easy to show that $\mathcal{R}(n,m)=\Theta\left(\psi(n,m)\right)$ when $m=O\left(\frac{n^{3/2}(\log\log n)^{1/2}}{(\log n)^{1/2}}\right)$ and $\mathcal{R}(m,n)=\Theta(\rho(n,m))$ when $m=\Omega\left(\frac{n^{3/2}(\log\log n)^{1/2}}{(\log n)^{1/2}}\right)$.
 
@@ -2351,7 +2353,7 @@ $$
 \sqrt{\frac{mr/\tau(r,m)}{m/\phi(m)}}\leq\sqrt{\frac{2cCmn^2/\phi(m)}{m/\phi(m)}}\leq n\sqrt{2cC}.
 $$
 
-Thus, for sufficiently small $c$, there exists an integer $y$ such that $y<\sqrt{\frac{25mr}{(m/\phi(m))\tau(r,m)}}<\frac{n}{2}$ and $y> $\sqrt{\frac{15mr}{(m/\phi(m))\tau(r,m)}}$. This integer $y$ then satisfies $y<n/2$ and
+Thus, for sufficiently small $c$, there exists an integer $y$ such that $y<\sqrt{\frac{25mr}{(m/\phi(m))\tau(r,m)}}<\frac{n}{2}$ and $y>\sqrt{\frac{15mr}{(m/\phi(m))\tau(r,m)}}$. This integer $y$ then satisfies $y<n/2$ and
 
 $$
 m \in \left[\frac{y^2(m/\phi(m))\tau(r,m)}{25r},\frac{y^2(m/\phi(m))\tau(r,m)}{15r}\right].

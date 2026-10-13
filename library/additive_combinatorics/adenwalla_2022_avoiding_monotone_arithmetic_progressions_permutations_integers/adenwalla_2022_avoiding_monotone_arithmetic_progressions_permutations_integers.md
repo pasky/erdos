@@ -294,11 +294,11 @@ Then as $m_4 \in X_k^{s_{l_3}}$ we have $k<h+n+1$, so it follows that $(t-1)n<k\
 
 **Case 1a:** If $(t-1)n<k\leq tn$, then because $m_4 \in X_k^{s_{l_3}}$ appears after $m_3 \in X_h^{s_{l_2}}$ in $R$, we have $k\leq h$. If $k=h$ then $m_3$ and $m_4$ are in the same block so $m_4\equiv m_3\pmod{n}$ and $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
 
-$$(t-1)n<k<h<tn\text{ and so }l_2<l_3.\hfill\diamond$$
+$$(t-1)n<k<h<tn\text{ and so }l_2<l_3.\qquad\diamond$$
 
-**Case 1b:** If $tn<k\leq h+n\leq(t+1)n$, then if $k=h+n$ we have $k\equiv h\pmod{n}$ so $s_{l_2}=s_{l_3}$. It follows that $m_4\equiv m_3\pmod{n}$ which implies $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
+**Case 1b:** If $tn<k\leq h+n<(t+1)n$, then if $k=h+n$ we have $k\equiv h\pmod{n}$ so $s_{l_2}=s_{l_3}$. It follows that $m_4\equiv m_3\pmod{n}$ which implies $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
 
-$$tn<k<h+n<(t+1)n\text{ and so }l_2<l_3.\hfill\diamond$$
+$$tn<k<h+n<(t+1)n\text{ and so }l_2<l_3.\qquad\diamond$$
 
 Therefore if $(t-1)n<h<tn$, we have shown by the above sub-cases that $l_1<l_2<l_3$. This concludes Case 1. $\diamond$
 
@@ -308,7 +308,7 @@ $$tn<h<j+n\leq(t+1)n\text{ and so }l_1<l_2.$$
 
 As $tn<h<(t+1)n$ and $m_4\in X_k^{s_{l_3}}$ appears after $m_3\in X_h^{s_{l_2}}$ in $R$, it follows that either $tn<k\leq h$ or $k>(t+1)n$. But $k\leq(t+1)n$ and therefore $tn<k\leq h$. Note that if $k=h$ then $m_4\equiv m_3\pmod{n}$ so $d\equiv 0\pmod{n}$ which is a contradiction. Therefore
 
-$$tn<k<h<(t+1)n\text{ so }l_2<l_3.\hfill\diamond$$
+$$tn<k<h<(t+1)n\text{ so }l_2<l_3.\qquad\diamond$$
 
 In either case we have that $l_1<l_2<l_3$. As $S$ is a permutation of $[1,n]$, we know $s_v\equiv s_w\pmod{n}$ if and only if $s_v=s_w$, which holds if and only if $v=w$. So $s_{l_1},s_{l_2},s_{l_3}$ are distinct mod $n$. $S$ avoids $3$-APs mod $n$ and $l_1<l_2<l_3$, so $s_{l_1},s_{l_2},s_{l_3}$ cannot form a $3$-AP mod $n$. This implies $m_2,m_3,m_4$ is not a $3$-AP and so $m_1,m_2,m_3,m_4$ is not a $4$-AP. Therefore there are no $4$-APs in $R$ with common difference not divisible by $n$. $\square$
 
@@ -347,7 +347,7 @@ As $k$ can be chosen to be arbitrarily large, $n=2^k$ can be arbitrarily large (
 
 $$\lim_{n\to\infty}1-\frac{a}{2n(a-1)}=1,$$
 
-we have $\beta_{\mathbb{Z}_+}(4)=1$. $\hfill\Box$
+we have $\beta_{\mathbb{Z}_+}(4)=1$. $\Box$
 
 This leaves $\alpha_{\mathbb{Z}_+}(3)$ and $\beta_{\mathbb{Z}_+}(3)$ as the only functions for the positive integers to be resolved.
 

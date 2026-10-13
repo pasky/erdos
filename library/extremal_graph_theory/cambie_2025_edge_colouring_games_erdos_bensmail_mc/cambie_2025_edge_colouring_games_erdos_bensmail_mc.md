@@ -16,7 +16,7 @@ Consider a graph $G$ of order $n$ and size $m$. Alice and Bob play a game, takin
 
 By Zermelo’s theorem [13], we know $f(G)$ and $s(G)$ are uniquely determined when both players play optimally. So, there is a unique optimal outcome $(a,b)$.
 
-The three games we will discuss are called the Clique game, the Star game and the vertex-capturing game. When played on a graph $G$, the games are denoted by $\Clique(G)$, $\Star(G)$ or $\VC(G)$ respectively, and when $G=K_n$, we write $\Clique(n)$, $\Star(n)$ or $\VC(n)$.
+The three games we will discuss are called the Clique game, the Star game and the vertex-capturing game. When played on a graph $G$, the games are denoted by $\operatorname{Clique}(G)$, $\operatorname{Star}(G)$ or $\operatorname{VC}(G)$ respectively, and when $G=K_n$, we write $\operatorname{Clique}(n)$, $\operatorname{Star}(n)$ or $\operatorname{VC}(n)$.
 
 - In the Clique game, $a=\omega(G[A])$ and $b=\omega(G[B])$.
 
@@ -28,11 +28,11 @@ stijn.cambie@hotmail.com and michiel.provoost@kuleuven.be
 - In the Star game, $a = \Delta(G[A])$ and $b = \Delta(G[B])$.
 - In the vertex-capturing game, at the end of the game; $a$ is the number of vertices for which most incident edges are red, and $b$ is the number of vertices for which most incident edges are blue ($a+b<n$ is possible if there are vertices with half of their incident edges in either colour).
 
-The outcome $(a,b)$ and score $a-b$ of the games will be denoted by respectively $\out_{\omega},\out_{\Delta},\out_{\VC}$ and $s_{\omega},s_{\Delta},s_{\VC}$.
+The outcome $(a,b)$ and score $a-b$ of the games will be denoted by respectively $\operatorname{out}_{\omega},\operatorname{out}_{\Delta},\operatorname{out}_{\operatorname{VC}}$ and $s_{\omega},s_{\Delta},s_{\operatorname{VC}}$.
 
 By a strategy-stealing argument, one can prove that the first player will never perform worse than the second player. For details, see the proof of [7, Thm. 2.1 & 2.2], which applies to all three games.
 
-**Proposition 1.** *For every graph $G$, $s_{\omega}(G),s_{\Delta}(G)\in\{0,1\}$ and $s_{\VC}(G)\in\{0,1,2\}$.*
+**Proposition 1.** *For every graph $G$, $s_{\omega}(G),s_{\Delta}(G)\in\{0,1\}$ and $s_{\operatorname{VC}}(G)\in\{0,1,2\}$.*
 
 For the Clique- and Star-game, we say a graph $G$ is a player 1 win, if $s_{\omega}(G),s_{\Delta}(G)=1$ (the maximum score possible for player 1), and otherwise it is a player 2 win.
 
@@ -40,24 +40,24 @@ Biased (asymmetric) variants of a colouring game were defined by [6], who provid
 
 In the biased setting of the earlier defined games, the first player (Alice) colours $p$ edges at her turn and the second player (Bob) colours $q$ edges at his turn. Here we assume $q>p$ and Bob wins if at the end $b>a$ for the respective parameters of the game, or $q=p$ and Bob wins if $a=b$.
 
-To specify the parameters $p$ and $q$, we write $\Clique_{(p,q)}(G)$ or $\Clique_{(p,q)}(n)$ and use analogous notation for the other two games.
+To specify the parameters $p$ and $q$, we write $\operatorname{Clique}_{(p,q)}(G)$ or $\operatorname{Clique}_{(p,q)}(n)$ and use analogous notation for the other two games.
 
-Erdős conjectured that for $\Clique(n)$, the second player can always force a win as long as $n\neq 2$, and asked the same question for $\Star(n)$.
+Erdős conjectured that for $\operatorname{Clique}(n)$, the second player can always force a win as long as $n\neq 2$, and asked the same question for $\operatorname{Star}(n)$.
 
-**Conjecture 2.** [[1]] *$\Clique(n)$ is a player 2 win, $s_{\omega}(n)=0$, for all $n\in\mathbb{N}\setminus\{2\}$.*
+**Conjecture 2.** [[1]] *$\operatorname{Clique}(n)$ is a player 2 win, $s_{\omega}(n)=0$, for all $n\in\mathbb{N}\setminus\{2\}$.*
 
-**Question 3 ([1]).** *For every $n\in\mathbb{N}$, which player wins the game $\Star(n)$ (when is $s_{\Delta}(n)=1$)?*
+**Question 3 ([1]).** *For every $n\in\mathbb{N}$, which player wins the game $\operatorname{Star}(n)$ (when is $s_{\Delta}(n)=1$)?*
 
 Bensmail and Mc Inerney [7, Conj. 7.2] conjectured the exact outcome for the vertex-capturing game (on cliques), and confirmed it for $n\leq 6$, in [7, Prop. 7.6].
 
 **Conjecture 4 ([7]).**
 
 $$
-s_{\VC}(n)=
+s_{\operatorname{VC}}(n)=
 \begin{cases}
-2 & \mbox{if } n=2\\
-1 & \mbox{if } n\equiv 3\pmod{4}\\
-0 & \mbox{otherwise.}
+2 & \text{if } n=2\\
+1 & \text{if } n\equiv 3\pmod{4}\\
+0 & \text{otherwise.}
 \end{cases}
 $$
 
@@ -65,7 +65,7 @@ We prove one implication between the validity of Conjecture 4 for two residue cl
 
 **Proposition 5.** *If Conjecture 4 is true for every $n\equiv 3\pmod{4}$, then it is true for every $n\equiv 1\pmod{4}$ as well.*
 
-This is done in Section 2, where, for completeness, we also extend an observation by [11] using strategy stealing, confirming that $\Clique(n)$ being a win for the first player implies that $\Clique(n+3)$ is a win for the second player for every $n$.
+This is done in Section 2, where, for completeness, we also extend an observation by [11] using strategy stealing, confirming that $\operatorname{Clique}(n)$ being a win for the first player implies that $\operatorname{Clique}(n+3)$ is a win for the second player for every $n$.
 
 Finally, we give our intuition, formulated in conjectures for the Clique and Star game (stated in the framework of edge-transitive and regular graphs). In particular, we are the first to conjecture the answer for Question 3.
 
@@ -75,11 +75,11 @@ Finally, we give our intuition, formulated in conjectures for the Clique and Sta
 
 **Conjecture 7.** *With the exception of $K_2$ and $K_3$, for every regular graph $G$, the Star game is winning for the second player, i.e., $s_{\Delta}(G)=0$.*
 
-At the end of their conclusion, Malekshahian and Spiro [11] wondered whether studying $\Star_{(p,q)}(n)$ would be interesting. In Section 3, more precisely Theorem 11, we notice that both $\Star_{(p,q)}(n)$ and $\VC_{(p,q)}(n)$ are (up to some small cases) player 2 wins whenever $q>p$.
+At the end of their conclusion, Malekshahian and Spiro [11] wondered whether studying $\operatorname{Star}_{(p,q)}(n)$ would be interesting. In Section 3, more precisely Theorem 11, we notice that both $\operatorname{Star}_{(p,q)}(n)$ and $\operatorname{VC}_{(p,q)}(n)$ are (up to some small cases) player 2 wins whenever $q>p$.
 
-In [11], the authors noted that $\Clique_{(p,q)}(n)$ is a player 2 win for an exponential bound of $q$ in $p$. In Section 3, we improve this drastically to a (unconditional) quadratic bound and a (conditional) linear bound. Erdős [1] also asked if $\Clique_{(1,2)}(n)$ is won by the second player whenever $n\geq 4$. We conjecture this is indeed the case. Our main result in this direction proves this when $q=2$ is replaced by $q=3$. (Notice that in [11], it is proved with $q=15$)
+In [11], the authors noted that $\operatorname{Clique}_{(p,q)}(n)$ is a player 2 win for an exponential bound of $q$ in $p$. In Section 3, we improve this drastically to a (unconditional) quadratic bound and a (conditional) linear bound. Erdős [1] also asked if $\operatorname{Clique}_{(1,2)}(n)$ is won by the second player whenever $n\geq 4$. We conjecture this is indeed the case. Our main result in this direction proves this when $q=2$ is replaced by $q=3$. (Notice that in [11], it is proved with $q=15$)
 
-**Theorem 8.** *For every $n\geq 4$, $\Clique_{(1,3)}(n)$ is won by player 2.*
+**Theorem 8.** *For every $n\geq 4$, $\operatorname{Clique}_{(1,3)}(n)$ is won by player 2.*
 
 Despite the interest of many mathematicians, little progress has been made on fully resolving Question 3 and conjectures 2 and 4, or the unbiased $p=q$ versions. At the end of our work, we highlight the underlying difficulties that may explain why this is so hard and remains unresolved.
 
@@ -89,25 +89,25 @@ In Section 5, we consider the three games for Colex graphs. A Colex graph $\math
 
 In this section, we present the proof of Proposition 5.
 
-*Proof of Proposition 5.* Let $n\equiv 1\pmod{4}$ where $n\geq 5$. Alice colours one edge, which we call $uv$, red. Bob plays on the other vertices, which induce a $K:=K_{n-2}$, optimally (being the first player there). Whenever Alice colours an edge $ux$ or $vx$, for $x\in V(K)$, Bob colours the other of the two in his colour. If Alice colours an edge in $K$, so does Bob. Since $s_{\VC}(K)=1$, and for every $x\in V(K)$, there are two edges outside $K$ with different colours, Bob captures one vertex more among those $n-2$ (by the assumption that Conjecture 4 is true for $n-2\equiv 3\pmod{4}$). By the pigeon hole principle, one vertex of $\{u,v\}$ has at least $\left\lceil\frac{n-2}{2}\right\rceil=\frac{n-1}{2}$ incident edges coloured by Bob. Hence Alice will have captured exactly one vertex among $u$ and $v$. This implies that Bob does not lose. By a strategy stealing argument, Alice will not lose either ([7, Thm. 2.2]), and this implies that $s_{\VC}(K_n)=0$. $\square$
+*Proof of Proposition 5.* Let $n\equiv 1\pmod{4}$ where $n\geq 5$. Alice colours one edge, which we call $uv$, red. Bob plays on the other vertices, which induce a $K:=K_{n-2}$, optimally (being the first player there). Whenever Alice colours an edge $ux$ or $vx$, for $x\in V(K)$, Bob colours the other of the two in his colour. If Alice colours an edge in $K$, so does Bob. Since $s_{\operatorname{VC}}(K)=1$, and for every $x\in V(K)$, there are two edges outside $K$ with different colours, Bob captures one vertex more among those $n-2$ (by the assumption that Conjecture 4 is true for $n-2\equiv 3\pmod{4}$). By the pigeon hole principle, one vertex of $\{u,v\}$ has at least $\left\lceil\frac{n-2}{2}\right\rceil=\frac{n-1}{2}$ incident edges coloured by Bob. Hence Alice will have captured exactly one vertex among $u$ and $v$. This implies that Bob does not lose. By a strategy stealing argument, Alice will not lose either ([7, Thm. 2.2]), and this implies that $s_{\operatorname{VC}}(K_n)=0$. $\square$
 
 As a corollary of Proposition 5, together with the computer verification for $n\leq 8$, we know that Conjecture 4 is true for $n\leq 9$.
 
-When $4\mid n$, the truth of Conjecture 4 appears natural since we know that $s_{\VC}(G)\in\{0,2\}$, while the size and order are both even. Nevertheless, taking into account that $\VC(\mathcal{C}(12))\not=0$ (see Table 1) while $\mathcal{C}(12)$ has even order and even size, a proof cannot be trivial. Also one might think about mirror strategies creating isomorphic coloured graphs on even size cliques $K_n$. Nevertheless, already for $n\in\{4,5\}$ it can be checked that there is no winning strategy for the second player for the creation of isomorphic coloured graphs.
+When $4\mid n$, the truth of Conjecture 4 appears natural since we know that $s_{\operatorname{VC}}(G)\in\{0,2\}$, while the size and order are both even. Nevertheless, taking into account that $\operatorname{VC}(\mathcal{C}(12))\not=0$ (see Table 1) while $\mathcal{C}(12)$ has even order and even size, a proof cannot be trivial. Also one might think about mirror strategies creating isomorphic coloured graphs on even size cliques $K_n$. Nevertheless, already for $n\in\{4,5\}$ it can be checked that there is no winning strategy for the second player for the creation of isomorphic coloured graphs.
 
-In [11], the authors proved that if Alice wins $\Clique(n)$ (something that conjecturally is only the case when $n=2$), then Bob wins $\Clique(n+3)$ for $n\geq R(5,5)$. This was later included on https://www.erdosproblems.com/778 (at that time) without the condition that $n$ has to be sufficiently large. Here we prove that it is indeed a valid statement for all $n$. This follows in essence from [11, Rem. 8] with the additional observation that $n\geq R(3,4)=9$ instead of $n\geq R(4,4)=18$ also works, and the computer check for $n\leq 8$ (checked with independent implementation for $n\leq 7$).
+In [11], the authors proved that if Alice wins $\operatorname{Clique}(n)$ (something that conjecturally is only the case when $n=2$), then Bob wins $\operatorname{Clique}(n+3)$ for $n\geq R(5,5)$. This was later included on https://www.erdosproblems.com/778 (at that time) without the condition that $n$ has to be sufficiently large. Here we prove that it is indeed a valid statement for all $n$. This follows in essence from [11, Rem. 8] with the additional observation that $n\geq R(3,4)=9$ instead of $n\geq R(4,4)=18$ also works, and the computer check for $n\leq 8$ (checked with independent implementation for $n\leq 7$).
 
-**Proposition 9.** *If Alice wins $\Clique(n)$ for $n\geq 8$, then Bob wins $\Clique(n+3)$. Bob wins $\Clique(n)$ for $3\leq n\leq 8$.*
+**Proposition 9.** *If Alice wins $\operatorname{Clique}(n)$ for $n\geq 8$, then Bob wins $\operatorname{Clique}(n+3)$. Bob wins $\operatorname{Clique}(n)$ for $3\leq n\leq 8$.*
 
-*Proof.* The fact that Bob wins $\Clique(n)$ for $3\leq n\leq 8$ was done by the implementation.
+*Proof.* The fact that Bob wins $\operatorname{Clique}(n)$ for $3\leq n\leq 8$ was done by the implementation.
 
-Next, we observe that if Alice wins $\Clique(n)$ for $n\geq 8$, she has at least 4 points, $\omega(G[A])\geq 4$.
+Next, we observe that if Alice wins $\operatorname{Clique}(n)$ for $n\geq 8$, she has at least 4 points, $\omega(G[A])\geq 4$.
 
 **Observation 10.** *Every graph with order $n=8$ and size 14 satisfies $\omega(G)\geq 3$ or $\alpha(G)\geq 4$.*
 
 *Proof.* Easily verified by exhaustive computer check. The three graphs of order 8 satisfying $\omega(G)=2$ and $\alpha(G)=3$ have size 10, 11 and 12 (and $R(2,4)<R(3,3)<8$). For more info, one can find these graphs by their HoG Id 588, 640, 26996 at https://houseofgraphs.org ([10]). $\diamond$
 
-Now, we show a strategy of Bob to ensure he wins $\Clique(n+3)$. At his first move, he colours an edge adjacent with the edge chosen by Alice. Next, Alice can choose between 5 configurations up to isomorphism (there are 5 edge orbits).
+Now, we show a strategy of Bob to ensure he wins $\operatorname{Clique}(n+3)$. At his first move, he colours an edge adjacent with the edge chosen by Alice. Next, Alice can choose between 5 configurations up to isomorphism (there are 5 edge orbits).
 
 Figure 1: The 5 possible situations after 3 edges have been coloured.
 
@@ -133,13 +133,13 @@ $\square$
 
 We answer the final question in the conclusion of [11], by noticing the relation with a result on the (degree) balancing game by Beck [2, Thm. 17.5].
 
-**Theorem 11.** *When $p<q$ are integers, then $\Delta_{(p,q)}(n)$ and $\VC_{(p,q)}(n)$ are both player 2 wins provided that $n$ is sufficiently large.*
+**Theorem 11.** *When $p<q$ are integers, then $\Delta_{(p,q)}(n)$ and $\operatorname{VC}_{(p,q)}(n)$ are both player 2 wins provided that $n$ is sufficiently large.*
 
 *Proof.* Bob can play as the first player for the balancing game from [2, Thm. 17.5], neglecting the first $p$ edges from Alice. Consequently, he can ensure that every vertex has blue degree $\frac{q+o_{n}(1)}{p+q}n$ (recall that $p=o(n)$ as well). For $n$ sufficiently large, all of these degrees are larger than $\frac{n}{2}$ and so Bob wins both the maximum degree game and the vertex capturing game, since $\delta_B>\frac{n}{2}>\Delta_A$. $\square$
 
 It can be observed that for $(p,q)=(1,2)$, $n\geq 3$ is sufficient.
 
-**Proposition 12.** *The games $\Delta_{(1,2)}(n)$ and $\VC_{(1,2)}(n)$ are both player 2 wins provided that $n\geq 3$.*
+**Proposition 12.** *The games $\Delta_{(1,2)}(n)$ and $\operatorname{VC}_{(1,2)}(n)$ are both player 2 wins provided that $n\geq 3$.*
 
 *Proof.* Write $n=3k+r$, where $k\geq 1$ and $0\leq r\leq 2$. Let the vertices be partitioned in $U=\{u_1,u_2,\ldots,u_k\}$, $V=\{v_1,v_2,\ldots,v_k\}$ and $W=\{w_1,\ldots,w_k\}$, and also $x$ if $r=1$ or $x$ and $y$ if $r=2$.
 
@@ -151,11 +151,11 @@ $$
 
 where $1\leq i,j\leq k$. In this case the number of blue incident edges to (at least one) of $u_i,v_i,w_i$ is double the number of red such edges. As such, $\Delta_A<\Delta_B$ and Bob captured at least $k$ vertices more than Alice did. $\square$
 
-Next, we consider regimes in which $\Clique_{(p,q)}(n)$ is won by the second player. By applying [4, Thm. 2], we get a general improvement for the general biased clique game. We recall the latter statement for convenience, formulated slightly different (the way applied in [4, Thm. 1]).
+Next, we consider regimes in which $\operatorname{Clique}_{(p,q)}(n)$ is won by the second player. By applying [4, Thm. 2], we get a general improvement for the general biased clique game. We recall the latter statement for convenience, formulated slightly different (the way applied in [4, Thm. 1]).
 
 **Theorem 13 ([4]).** *Let $G$ be a graph of order $n$ and size bounded by $\frac{\binom{n}{2}}{k}$. Then $\max\{\omega(G),\alpha(G)\}>c_{4}\frac{k}{\log k}\log n$.*
 
-**Theorem 14.** *There is a constant $c$ such that if $q>cp^{2}$, then for every $n$ sufficiently large, $\Clique_{(p,q)}(n)$ is won by player 2.*
+**Theorem 14.** *There is a constant $c$ such that if $q>cp^{2}$, then for every $n$ sufficiently large, $\operatorname{Clique}_{(p,q)}(n)$ is won by player 2.*
 
 *Proof.* Let $c=\frac{2}{c_{4}}$, where $c_{4}$ is as in Theorem 13. Then for $n$ sufficiently large, the ratio of edges coloured by the first player is bounded by $n+\frac{p}{p+q}\binom{n}{2}<\frac{\binom{n}{2}}{k}$ for $q+1\geq k\geq\frac{q}{p}>\frac{2}{c_{4}}p$. By Theorem 13, the graph of at least one of the two players contains a clique of order no less than $c_{4}\frac{k}{\log k}\log n$.
 
@@ -175,21 +175,21 @@ The first inequality for $m=1$ would follow from the unsolved final conjecture b
 
 This strict monotonicity immediately implies that Theorem 14 can be further improved.
 
-**Theorem 16.** *If Conjecture 15 is true, then for fixed $p$ and $n$ sufficiently large, $\Clique_{(p,2p+1)}(n)$ is won by player 2.*
+**Theorem 16.** *If Conjecture 15 is true, then for fixed $p$ and $n$ sufficiently large, $\operatorname{Clique}_{(p,2p+1)}(n)$ is won by player 2.*
 
 *Proof.* The second player uses $p$ edges as Breaker for the formation of a clique by the first player, and $p+1$ edges to form a large clique itself. The first $p$ edges of player 1 can be omitted in the building process of the second player, and if his own edges are already placed at optimal places, other edges can be put randomly. We deduce that $\omega_A\leq f_N(p,p)$ and $\omega_B\geq f_N(p+1,p)-p$. By assumption, for $N$ sufficiently large this implies $\omega_B>\omega_A$. $\square$
 
-By the results from Beck, this in particular implies that the second player wins $\Clique_{(1,3)}(n)$ provided that $n$ is sufficiently large. In Section 4, we prove this for all $n\geq 4$.
+By the results from Beck, this in particular implies that the second player wins $\operatorname{Clique}_{(1,3)}(n)$ provided that $n$ is sufficiently large. In Section 4, we prove this for all $n\geq 4$.
 
 It is also natural to conjecture the following sharp version for the game.
 
-**Conjecture 17.** *Provided that $n$ is sufficiently large, the $\Clique_{(p,p+1)}(n)$ is won by player 2.*
+**Conjecture 17.** *Provided that $n$ is sufficiently large, the $\operatorname{Clique}_{(p,p+1)}(n)$ is won by player 2.*
 
 ## 4 The biased clique game $\omega_{1,3}$
 
 There are multiple elementary proofs possible when $n$ is even. We provide the one solution we could modify for the odd case.
 
-**Theorem 18.** For every $n\geq 4$ even, $\Clique_{(1,3)}(n)$ is won by player $2$.
+**Theorem 18.** For every $n\geq 4$ even, $\operatorname{Clique}_{(1,3)}(n)$ is won by player $2$.
 
 *Proof.* We will consider a turn as one move (colouring an edge) by Alice and (at most) $3$ moves of Bob. Since Bob can also play some of the remaining edges randomly, the win for Bob will be kept, so we present the strategy for Bob in this simpler way.
 
@@ -221,11 +221,11 @@ Having sketched a winning strategy for Bob, we prove that Bob wins.
 
 Consider a largest clique induced by all vertices different from $x$ and $y$ for which all edges are coloured by Alice. Up to shifting and relabeling opposite vertices, we denote it $v_1v_2\ldots v_r$. This clique has order $r\geq 2$. In that case, by the strategy of Bob, he coloured the clique $v_{k+1}v_{k+2}\ldots v_{k+r}$ containing all symmetric edges.
 
-There are at most $r-1$ edges among $G[v_1,v_2,\ldots,v_r]$ which have been coloured by Alice at a moment at least one of its endvertices was unlabeled. For each of these edges $v_iv_j$; the clique $G[v_i,v_j,v_{i+k},v_{j+k}]\cong K_4$ contains two edges coloured by Alice. If $v_iv_j$ was already labeled before Alice coloured that edge, it is the only edge within $G[v_i,v_j,v_{i+k},v_{j+k}]$ which is coloured by her. This implies that the bipartite graph spanned by the partition classes $V_1=\{v_1,v_2,\ldots,v_r\}$ and $V_2=\{v_{k+1},v_{k+2},\ldots,v_{k+r}\}$ has at most $r-1$ blue edges. This implies that there is a vertex $v_i in $V_1$ such that $G[v_i,V_2]$ is fully coloured by Bob. That is, $G[V_2\cup\{v_i\}]$ is a clique of order $r+1$ fully coloured by Bob.
+There are at most $r-1$ edges among $G[v_1,v_2,\ldots,v_r]$ which have been coloured by Alice at a moment at least one of its endvertices was unlabeled. For each of these edges $v_iv_j$, the clique $G[v_i,v_j,v_{i+k},v_{j+k}]\cong K_4$ contains two edges coloured by Alice. If $v_iv_j$ was already labeled before Alice coloured that edge, it is the only edge within $G[v_i,v_j,v_{i+k},v_{j+k}]$ which is coloured by her. This implies that the bipartite graph spanned by the partition classes $V_1=\{v_1,v_2,\ldots,v_r\}$ and $V_2=\{v_{k+1},v_{k+2},\ldots,v_{k+r}\}$ has at most $r-1$ blue edges. This implies that there is a vertex $v_i$ in $V_1$ such that $G[v_i,V_2]$ is fully coloured by Bob. That is, $G[V_2\cup\{v_i\}]$ is a clique of order $r+1$ fully coloured by Bob.
 
 By Bob’s strategy, Alice has no triangle containing the edge $xy$ that is fully coloured. If Alice has a large fully coloured clique containing $x$, then it must be of the form $V_1\cup\{x\}$; analogously, if it contains $y$, it must be of the form $V_1\cup\{y\}$. But then the clique spanned by $V_2\cup\{v_i,y\}$ (resp. $V_2\cup\{v_i,x\}$) is fully coloured by Bob. $\square$
 
-**Theorem 19.** *For every $n\geq 5$ be odd, $\Clique_{(1,3)}(n)$ is won by player $2$.*
+**Theorem 19.** *For every $n\geq 5$ be odd, $\operatorname{Clique}_{(1,3)}(n)$ is won by player $2$.*
 
 *Proof.* The setup and initial play proceed as in Theorem 18, up to the point where either three unlabeled vertices remain and Alice colours an edge incident to at least one of them, or five unlabeled vertices remain and Alice begins colouring an edge between two of these. The labeled vertices (possibly after relabeling), can be $L=\{v_i\mid 1\leq i\leq 2k\}$ where $v_i$ and $v_{i+k}$ form a pair of opposite vertices. Here $n=2k+3$ or $n=2k+5$.
 
@@ -289,7 +289,7 @@ If a maximum clique from Alice contains at most one vertex from $\{a,b,c,x,y\}$,
 
 The only clique of Alice containing $xy$ is $xy$ itself.
 
-If $\{a,x,v_1,v_2,\ldots,v_r\}$ is a maximum clique from Alice, then $\{b,c,y,v_{k+1},v_{k+2},\ldots,v_{k+r}\}$ is a monochromatic clique coloured by Bob. In all cases, the maximum clique coloured by Bob is strictly larger than the maximum clique coloured by Alice. \hfill $\square$
+If $\{a,x,v_1,v_2,\ldots,v_r\}$ is a maximum clique from Alice, then $\{b,c,y,v_{k+1},v_{k+2},\ldots,v_{k+r}\}$ is a monochromatic clique coloured by Bob. In all cases, the maximum clique coloured by Bob is strictly larger than the maximum clique coloured by Alice. $\square$
 
 ## 5 Particular behaviour for some variants and extensions
 
@@ -299,7 +299,7 @@ Playing the Clique game on $K_{n+1}$ instead of $K_n$ implies that there are man
 
 A game can be played on any Colex graph $\mathcal{C}(m)$. If the addition of one edge, when going from $\mathcal{C}(m)$ to $\mathcal{C}(m+1)$, would have a small impact in the sense that the outcome $(a,b)$ differs in at most one entry, then by Ramsey theory (or noting the outcomes are not bounded) there would be infinitely many graphs $\mathcal{C}(m)$ for which the first player can win.
 
-To have even further information, we consider also the Colex variant of the Clique game. Here the players try to form a Colex graph of larger size. Observe that when there is a tie in the Colex game, there is also a tie in the Clique game (and even the exact outcome can be deduced). We verified the outcome of the games for some Colex graphs, which are summarised in Table 1, and observed that each game exhibits some surprising behaviour. Analogous to the other games, the outcome of the Colex game is denoted with $\out_{\col}(G)$.
+To have even further information, we consider also the Colex variant of the Clique game. Here the players try to form a Colex graph of larger size. Observe that when there is a tie in the Colex game, there is also a tie in the Clique game (and even the exact outcome can be deduced). We verified the outcome of the games for some Colex graphs, which are summarised in Table 1, and observed that each game exhibits some surprising behaviour. Analogous to the other games, the outcome of the Colex game is denoted with $\operatorname{out}_{\operatorname{col}}(G)$.
 
 **Figure 3:** The Colex graphs $\mathcal{C}(9)$ and $\mathcal{C}(12)$.
 
@@ -366,7 +366,7 @@ In particular, related to Question 20, we cannot exclude even that for every gra
 
 ## 6 Details about computer program
 
-In [8], we included two independent implementations for the computer-aided verifications, one in C and one in Sage. The Sage implementation has simpler syntax, and can be found in the files with name \textit{EP\&BMI\_Games}. This section details the strategies used in the C program(s) to solve the games. The publicly available code also serves as a tool for other researchers. The code is publicly available and may serve as a tool for further investigation.
+In [8], we included two independent implementations for the computer-aided verifications, one in C and one in Sage. The Sage implementation has simpler syntax, and can be found in the files with name *EP&BMI_Games*. This section details the strategies used in the C program(s) to solve the games. The publicly available code also serves as a tool for other researchers. The code is publicly available and may serve as a tool for further investigation.
 
 ### 6.1 General strategy
 
@@ -412,7 +412,7 @@ The process converges to the starting graph, which consequently attains the scor
 
 ## Acknowledgement
 
-The authors thank David Conlon for referring to [4], Davide Mattiolo for discussions on $\Clique_{(1,q)}(n)$, Ben Seamone for an idea that lead to Proposition 12, and Jan Goedgebeur, Jorik Jooken and especially Jarne Renders for discussions and advice on the efficient implementation of the game.
+The authors thank David Conlon for referring to [4], Davide Mattiolo for discussions on $\operatorname{Clique}_{(1,q)}(n)$, Ben Seamone for an idea that lead to Proposition 12, and Jan Goedgebeur, Jorik Jooken and especially Jarne Renders for discussions and advice on the efficient implementation of the game.
 
 ## References
 

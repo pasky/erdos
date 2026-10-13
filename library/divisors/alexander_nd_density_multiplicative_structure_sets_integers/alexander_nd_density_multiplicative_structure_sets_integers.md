@@ -188,7 +188,7 @@ $$\sum_{i=k+1}^{\infty}(a_i\log a_i)^{-1}<\varepsilon/2.$$
 
 Now if $n$ is so large that
 
-$$(1/\log n)\sum_{i=1}^k1/a_i<\varepsilon/2,$$$
+$$(1/\log n)\sum_{i=1}^k1/a_i<\varepsilon/2,$$
 
 then
 
@@ -375,7 +375,7 @@ If we have two such factorizations $n=a_1a_2\ldots a_r=a'_1a'_2\ldots a'_t$, the
 
 3.17. THEOREM. If $f$ belongs to $\Gamma$ and $l(A(f))=0$, then $\delta(A(f))=0$.
 
-Proof. Since $l(B(f))=\sum\delta\{aP(f(a)):a\in A(f)\}=1$, we conclude from 1.6 that the sets $\{aP(f(a))\}$ are $\delta$-summable. Hence $\delta(B(f))=1$ and $\delta(A(f))=0.
+Proof. Since $l(B(f))=\sum\delta\{aP(f(a)):a\in A(f)\}=1$, we conclude from 1.6 that the sets $\{aP(f(a))\}$ are $\delta$-summable. Hence $\delta(B(f))=1$ and $\delta(A(f))=0$.
 
 3.18. THEOREM. Let $f$ be a member of $\Gamma$ for which $\delta(A(f))=0$. If $E_r$ is the set of all positive integers whose $f$-factorization has at most $r$ factors, then $\delta(E_r)=0$.
 

@@ -133,7 +133,7 @@ Thus, among other examples, $\Omega(n),\omega(n):=\sum_{p\mid n}1$ and, for any 
 
 [^3]: It is obvious that $\displaystyle\sum_{\substack{p\leq X\\ |g(p)|\geq\varepsilon^{-1}B_g(X)}}p^{-1}\ll\varepsilon^2$, and thus the proportion of integers divisible by such a prime is sparse, namely of size $O(\varepsilon^2X)$. Nevertheless, if $F_g(\varepsilon)\gg1$ for all $\varepsilon>0$ the values $g(n)^2$ at multiples of the primes with $|g(p)|\geq\varepsilon^{-1}B_g(X)$ can have an outsized influence on the second moment.
 
-[^4]: By a strongly additive function we mean an additive function $g$ such that $g(p^k)=g(p)$ for all primes $p$ and all $k\geq1.
+[^4]: By a strongly additive function we mean an additive function $g$ such that $g(p^k)=g(p)$ for all primes $p$ and all $k\geq1$.
 
 **Theorem 1.4.** *Let $g:\mathbb{N}\to\mathbb{C}$ be an additive function in $\mathcal{A}_s$. Let $10\leq h\leq X/100$ be an integer with $h=h(X)\to\infty$. Then*
 
@@ -1633,7 +1633,7 @@ $$
 \end{aligned}
 $$
 
-The above sums cover all elements of $\mathcal{G}_R(Y_k)$ besides those in $[Y_k/2,Y_k/2+R)\cup(Y_k-R,Y_k]$. To deal with these, we define $\mathcal{S}:=\bigcup_{j\geq 0}[2^j-R,2^j+R]\cap\mathbb{N}$. We see that $|\mathcal{S}(Z)|\ll R\log Z=o(Z)$, and $\mathcal{S} contains $[Y_k/2,Y_k/2+R]\cup[Y_k-R,Y_k]$ for each $k$. By Corollary 6.5 (taking $j=0$ there), we thus obtain
+The above sums cover all elements of $\mathcal{G}_R(Y_k)$ besides those in $[Y_k/2,Y_k/2+R)\cup(Y_k-R,Y_k]$. To deal with these, we define $\mathcal{S}:=\bigcup_{j\geq 0}[2^j-R,2^j+R]\cap\mathbb{N}$. We see that $|\mathcal{S}(Z)|\ll R\log Z=o(Z)$, and $\mathcal{S}$ contains $[Y_k/2,Y_k/2+R]\cup[Y_k-R,Y_k]$ for each $k$. By Corollary 6.5 (taking $j=0$ there), we thus obtain
 
 $$
 \frac{1}{Y_k}\sum_{n\in\mathcal{G}_{R}(Y_k)\cap\mathcal{S}(Y_k)}|g(n)-A_g(Y_k)|^2=o(B_g(X)^2).
@@ -1957,7 +1957,7 @@ $$
 \frac{1}{X}\sum_{n\in\mathcal{B}(X)}|g(n)-g(n-1)|\leq 2\left(\frac{|\mathcal{B}(X)|}{X}\right)^{1/2}\left(\frac{1}{X}\sum_{n\leq X}|g(n)-A_g(X)|^2\right)^{1/2}\ll B_g(X)\left(\frac{|\mathcal{B}(X)|}{X}\right)^{1/2}.
 $$
 
-This implies (25), and completes the proof of the lemma. \hfill$\square$
+This implies (25), and completes the proof of the lemma. $\square$
 
 *Proof of Proposition 7.1.* The first part of the proposition follows by the triangle inequality, upon combining Lemmas 7.3 and 7.4 with Lemma 7.5 (taking $\alpha=3/2$, say). Next, we proceed to the proofs of properties (i)-(iii).
 
@@ -2041,9 +2041,9 @@ Thus, by these two estimates, Cauchy-Schwarz and Mertens’ theorem, whenever $Y
 
 $$
 \begin{aligned}
-|\lambda(Y)-\lambda_0(Y)|\log Y&\ll|\lambda(Y)-\lambda_0(Y)|\sum_{Y^{1/2}<p\leq Y}\frac{\log p}{p}\tag{26}\\
+|\lambda(Y)-\lambda_0(Y)|\log Y&\ll|\lambda(Y)-\lambda_0(Y)|\sum_{Y^{1/2}<p\leq Y}\frac{\log p}{p}\qquad (26)\\
 &\leq\sum_{Y^{1/2}<p\leq Y}\frac{|g(p)-\lambda_0(Y)\log p|}{p}+\sum_{Y^{1/2}<p\leq Y}\frac{|g(p)-\lambda(Y)\log p|}{p}\\
-&\leq B_{g_{\lambda_0}}(Y)\left(\sum_{Y^{1/2}<p\leq Y}\frac{1}{p}\right)^{1/2}+o(B_g(Y))=o(B_g(X)).\tag{27}
+&\leq B_{g_{\lambda_0}}(Y)\left(\sum_{Y^{1/2}<p\leq Y}\frac{1}{p}\right)^{1/2}+o(B_g(Y))=o(B_g(X)).\qquad (27)
 \end{aligned}
 $$
 
@@ -2273,6 +2273,6 @@ The author warmly thanks Oleksiy Klurman and Aled Walker for helpful suggestions
 
 [32] E. Wirsing. Characterization of the logarithm as an additive function. *Amer. Math. Soc. Proc. of Symp. in Pure Math.*, 20:375–381, 1971.
 
-\textsc{Centre de Recherches Mathématiques, Université de Montréal, Montréal, Québec}
+Centre de Recherches Mathématiques, Université de Montréal, Montréal, Québec
 
 *Email address:* smangerel@gmail.com

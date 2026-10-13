@@ -26,7 +26,7 @@ $$
 W := \Gamma\setminus\bigcup_{p} B_p,
 $$
 
-which is a random variable taking values in $\mathscr{P}(\Gamma)$. The set $\mathscr{P}(\Gamma)$ of all subsets of $\Gamma$ is endowed with the smallest $\sigma$-field such that for every $v\in\Gamma$, the map $P\longmapsto\mathds{1}_{P}(v)$ is measurable. This is also the smallest $\sigma$-field such that for every finite subset $F$ of $\Gamma$, the map $P\longmapsto P\cap F$ is measurable, its codomain being $\mathscr{P}(F)$ endowed with the $\sigma$-field of all subsets of $\mathscr{P}(F)$. The probability measure $\rho$ we shall be interested in is the probability distribution of $W$, which is a probability measure on $\mathscr{P}(\Gamma)$. In other words, for every measurable $\mathcal{A}\subset\mathscr{P}(\Gamma)$, we set $\rho(\mathcal{A}):=\mathbf{P}(W\in\mathcal{A})$.
+which is a random variable taking values in $\mathscr{P}(\Gamma)$. The set $\mathscr{P}(\Gamma)$ of all subsets of $\Gamma$ is endowed with the smallest $\sigma$-field such that for every $v\in\Gamma$, the map $P\longmapsto\mathbb{1}_{P}(v)$ is measurable. This is also the smallest $\sigma$-field such that for every finite subset $F$ of $\Gamma$, the map $P\longmapsto P\cap F$ is measurable, its codomain being $\mathscr{P}(F)$ endowed with the $\sigma$-field of all subsets of $\mathscr{P}(F)$. The probability measure $\rho$ we shall be interested in is the probability distribution of $W$, which is a probability measure on $\mathscr{P}(\Gamma)$. In other words, for every measurable $\mathcal{A}\subset\mathscr{P}(\Gamma)$, we set $\rho(\mathcal{A}):=\mathbf{P}(W\in\mathcal{A})$.
 
 **Figure 1.** A picture of $W$ for $\Gamma=\mathbb{Z}^{2}$. Elements of $W$ are depicted by white squares and elements of its complement are depicted by black squares. Which square corresponds to $(0,0)$ is irrelevant as the probability distribution of $W$ is invariant under translations.
 
@@ -62,7 +62,7 @@ When these conditions hold, we say that we have a Cayley graph of $\Gamma$. Noti
 
 Observe that the answer to the question may depend on $\Gamma$, $S$, and our choice of a colour, but not on the randomness of our configuration. Indeed, the probability measure $\rho$ is ergodic under the action of $\Gamma$ — see e.g. [Mar22, page 9]. Therefore, for all $\Gamma$, $S$, and colour, the answer to the question has an almost sure value.
 
-We do not fully solve Problem 1.4. Still, we are able to go beyond Theorem 1.1. As a warm-up, let us explain why certain choices of $S$ do lead to the existence of an infinite black cluster. As soon as $S$ contains some $u$ that can be written $u=nv$ for some $n\geq 2$ and $v\in\Gamma$, there is almost surely at least one infinite black cluster. Given such $(u,n,v), it suffices to pick a prime divisor $p$ of $n$ and to observe that $B_p$ is a black set containing a translate of the infinite path $(0,u,2u,3u,\dots)$. One can also produce examples of $S$ such that no element of $S$ can be written as $nv$ for $n\geqslant 2$ and $v\in\Gamma$ but there is still at least one infinite black cluster. For instance, taking $\Gamma=\mathbb{Z}^{d}$, if $p$ and $q$ are distinct primes and if $S$ contains $v:=(p,-q,0,\dots,0)$ and $w:=(-p,pq+q,0,\dots,0)$, then the black set $B_p\cup B_q$ contains translates of the infinite path $(0,v,v+w,v+w+v,v+w+v+w,\dots)$. Indeed, the Chinese Remainder Theorem guarantees that $B_p\cup B_q$ is a translate of $p\mathbb{Z}^{d}\cup q\mathbb{Z}^{d}$, in which starting the path at $(0,q,0,\dots,0)$ works. You may also argue that $B_p\cup B_q$ has a positive probability to be $p\mathbb{Z}^{d}\cup q\mathbb{Z}^{d}$ and conclude by ergodicity.
+We do not fully solve Problem 1.4. Still, we are able to go beyond Theorem 1.1. As a warm-up, let us explain why certain choices of $S$ do lead to the existence of an infinite black cluster. As soon as $S$ contains some $u$ that can be written $u=nv$ for some $n\geqslant 2$ and $v\in\Gamma$, there is almost surely at least one infinite black cluster. Given such $(u,n,v)$, it suffices to pick a prime divisor $p$ of $n$ and to observe that $B_p$ is a black set containing a translate of the infinite path $(0,u,2u,3u,\dots)$. One can also produce examples of $S$ such that no element of $S$ can be written as $nv$ for $n\geqslant 2$ and $v\in\Gamma$ but there is still at least one infinite black cluster. For instance, taking $\Gamma=\mathbb{Z}^{d}$, if $p$ and $q$ are distinct primes and if $S$ contains $v:=(p,-q,0,\dots,0)$ and $w:=(-p,pq+q,0,\dots,0)$, then the black set $B_p\cup B_q$ contains translates of the infinite path $(0,v,v+w,v+w+v,v+w+v+w,\dots)$. Indeed, the Chinese Remainder Theorem guarantees that $B_p\cup B_q$ is a translate of $p\mathbb{Z}^{d}\cup q\mathbb{Z}^{d}$, in which starting the path at $(0,q,0,\dots,0)$ works. You may also argue that $B_p\cup B_q$ has a positive probability to be $p\mathbb{Z}^{d}\cup q\mathbb{Z}^{d}$ and conclude by ergodicity.
 
 Instead of going further in the direction of counterexamples, an interesting task is to try and extend the techniques used to establish Theorem 1.1 in order to prove that some natural examples of $(\Gamma,S)$ share (at least part of) the conclusion of Theorem 1.1. In other words, we look for nice examples or setups where we can guarantee one or several of the following statements:
 
@@ -116,7 +116,7 @@ An element $u$ of $\Gamma$ is said to be *primitive* in $\Gamma$ if it does not 
 
 **2.2. In which sense is $\rho$ the correct object to consider?**— We now explain why $\rho$ deserves to be considered as “the distribution of $\mathrm{Vis}_{\Gamma}(X)$ for $X$ picked uniformly at random in $\Gamma$”. This is for motivation only and is not to be used in this paper.
 
-For every $n\geqslant 0$, let $F_{n}:=\{x\in\Gamma\,:\,\|x\|_{2}\leqslant n\}$ and let $X_{n}$ be a random point chosen uniformly at random in $F_{n}$. Endow the set $\mathscr{P}(\Gamma)$ with the smallest topology making $P\longmapsto\mathds{1}_{P}(v)$ continuous for every $x\in\Gamma$. It has been proved that $\mathrm{Vis}_{X_{n}}(\Gamma)$ converges in distribution to $\rho$ when $n$ goes to infinity. This means that for every continuous (automatically bounded) map $f:\mathscr{P}(\Gamma)\to\mathbb{R}$, the expectation of $f(\mathrm{Vis}_{X_{n}}(\Gamma))$ converges to $\int f\,\mathrm{d}\rho$. Equivalently, it means that for every finite subset $F$ of $\Gamma$ and every $\mathcal{A}\subset\mathscr{P}(F)$, the probability $\mathbf{P}(\mathrm{Vis}_{X_n}(\Gamma)\in\mathcal{A})$ converges to $\rho(\{P\in\mathscr{P}(\Gamma):P\cap F\in\mathcal{A}\})$ when $n$ goes to infinity.
+For every $n\geqslant 0$, let $F_{n}:=\{x\in\Gamma\,:\,\|x\|_{2}\leqslant n\}$ and let $X_{n}$ be a random point chosen uniformly at random in $F_{n}$. Endow the set $\mathscr{P}(\Gamma)$ with the smallest topology making $P\longmapsto\mathbb{1}_{P}(v)$ continuous for every $x\in\Gamma$. It has been proved that $\mathrm{Vis}_{X_{n}}(\Gamma)$ converges in distribution to $\rho$ when $n$ goes to infinity. This means that for every continuous (automatically bounded) map $f:\mathscr{P}(\Gamma)\to\mathbb{R}$, the expectation of $f(\mathrm{Vis}_{X_{n}}(\Gamma))$ converges to $\int f\,\mathrm{d}\rho$. Equivalently, it means that for every finite subset $F$ of $\Gamma$ and every $\mathcal{A}\subset\mathscr{P}(F)$, the probability $\mathbf{P}(\mathrm{Vis}_{X_n}(\Gamma)\in\mathcal{A})$ converges to $\rho(\{P\in\mathscr{P}(\Gamma):P\cap F\in\mathcal{A}\})$ when $n$ goes to infinity.
 
 This result was established in its second form in **[PH13]** when $\Gamma=\mathbb{Z}^{d}$. The idea there was mainly that every pattern $\mathcal{A}$ admits an asymptotic density. In **[Mar22]**, instead of thinking of one convergence of number for every choice of $\mathcal{A}$, the same problem was considered in the framework of convergence of probability measures. The lattice was again taken to be $\mathbb{Z}^{d}$ but rather general sequences $(F_n)$ were taken care of. We do not provide detailed statements here and refer the interested reader to **[Mar22]**. As the assumptions of **[Mar22]** on $(F_n)$ are stable under linear automorphisms of $\mathbb{R}^{d}$, the convergence readily adapts to any lattice $\Gamma$ for rather general sequences $(F_n)$, including that of the previous paragraph.
 
@@ -454,7 +454,7 @@ $$
 \tag{7}
 $$
 
-\emph{Proof.} — We can get the following bounds:
+*Proof.* — We can get the following bounds:
 
 $$
 \begin{aligned}
@@ -622,7 +622,7 @@ The minimal Euclidean norm of a nonzero element of the Leech lattice is $\sqrt{3
 
 - choose any octad and ask for $x$ to be zero outside the octad and to be $\pm2$ on the octad, where the signs are allowed to depend on the element of the octad under the constraint that there is an even number of minus signs,
 
-- the vector $x$ can be written $(\varepsilon_1y_1,\ldots,\varepsilon_{24}y_{24})$ where $\varepsilon$ is a vector of signs such that $(\mathds{1}_{\varepsilon_1=+},\ldots,\mathds{1}_{\varepsilon_{24}=+})$ is an element of the extended binary Golay code and all $y_i$ are equal to 1 except for exactly one $y_i$ which is equal to $-3$.
+- the vector $x$ can be written $(\varepsilon_1y_1,\ldots,\varepsilon_{24}y_{24})$ where $\varepsilon$ is a vector of signs such that $(\mathbb{1}_{\varepsilon_1=+},\ldots,\mathbb{1}_{\varepsilon_{24}=+})$ is an element of the extended binary Golay code and all $y_i$ are equal to 1 except for exactly one $y_i$ which is equal to $-3$.
 
 There are $1\,104+97\,152+98\,304=196\,560$ such vectors and they generate the Leech lattice.
 
@@ -765,7 +765,7 @@ The proof of the second conclusion is similar. Pick $u=\left\lfloor\frac{a}{c_j}
 
 **5.6. The lattices $D_d$, $E_8$, and the Leech lattice fit our setup.** — In this section, we prove that $D_d$ satisfies the assumptions of Theorem 5.3 for $d\geqslant 3$ and that $E_8$ and the Leech lattice satisfy the assumptions of Theorem 5.1. When we work with a lattice $\Gamma$ in $\mathbb{R}^d$, given $i\in\llbracket 1,d\rrbracket$, we write $H_i:=\{x\in\Gamma : x_i=0\}$.
 
-*5.6.1. The lattice $D_d$ satisfies the assumptions of Theorem 5.3 for $d\geqslant 3.* — Let us prove that the first hypothesis holds. By symmetry, let us assume without loss of generality that $i=d$. Let $x\in H_d$ and let us prove that there is a path connecting $x$ to $0$ in $H_d$. By using the generators $\pm e_1\pm e_2\in S\cap H_d$, we can stay in $H_d$ and go from $x$ to some vertex $y$ such that $y_1=0$. Similarly, by using $\pm e_j\pm e_{j+1}\in S\cap H_d$ for $j\leqslant d-2$, we can find a vertex $z$ that can be reached from $x$ inside $H_d$ and that satisfies $z_1=\dots=z_{d-2}=0$. As $z$ belongs to $H_d$, we also have $z_d=0$, and the last thing to do is to be able to adjust the $(d-1)^{\text{th}}$ entry. Since $z$ belongs to $H_d$, it must be the case that $z_{d-1}$ is even, by definition of $D_d$. Therefore, we would be done if $2e_{d-1}$ was an element of $S$. This is not the case but it can be emulated via a path of length 2 that stays in $H_d$, as $2e_{d-1} = (e_{d-1} + e_1) + (e_{d-1} - e_1)$ — this is where we use the fact that $d \geqslant 3$. The first hypothesis is thus established. As for the second one, it is clearly met as $S\subset\llbracket-1,1\rrbracket^d$.
+*5.6.1. The lattice $D_d$ satisfies the assumptions of Theorem 5.3 for $d\geqslant 3$.* — Let us prove that the first hypothesis holds. By symmetry, let us assume without loss of generality that $i=d$. Let $x\in H_d$ and let us prove that there is a path connecting $x$ to $0$ in $H_d$. By using the generators $\pm e_1\pm e_2\in S\cap H_d$, we can stay in $H_d$ and go from $x$ to some vertex $y$ such that $y_1=0$. Similarly, by using $\pm e_j\pm e_{j+1}\in S\cap H_d$ for $j\leqslant d-2$, we can find a vertex $z$ that can be reached from $x$ inside $H_d$ and that satisfies $z_1=\dots=z_{d-2}=0$. As $z$ belongs to $H_d$, we also have $z_d=0$, and the last thing to do is to be able to adjust the $(d-1)^{\text{th}}$ entry. Since $z$ belongs to $H_d$, it must be the case that $z_{d-1}$ is even, by definition of $D_d$. Therefore, we would be done if $2e_{d-1}$ was an element of $S$. This is not the case but it can be emulated via a path of length 2 that stays in $H_d$, as $2e_{d-1} = (e_{d-1} + e_1) + (e_{d-1} - e_1)$ — this is where we use the fact that $d \geqslant 3$. The first hypothesis is thus established. As for the second one, it is clearly met as $S\subset\llbracket-1,1\rrbracket^d$.
 
 #### 5.6.2. *The lattice $E_8$ satisfies the assumptions of Theorem 5.1.—*
 
@@ -899,12 +899,12 @@ This process has both weakly-mixing and almost-periodic content. Let us explain 
 
 *September 2025*
 
-\textsc{Samuel Le Fourn}, Université Grenoble Alpes, Institut Fourier, 100 rue des mathématiques, 38610  
+Samuel Le Fourn, Université Grenoble Alpes, Institut Fourier, 100 rue des mathématiques, 38610  
 Gières, France • *E-mail* : samuel.le-fourn@univ-grenoble-alpes.fr  
 *Url* : www-fourier.univ-grenoble-alpes.fr/~lefourns
 
-\textsc{Mike Liu}, ENSAE, Fairplay joint team, CREST France, 5 avenue Le Chatelier, 91120 Palaiseau, France  
+Mike Liu, ENSAE, Fairplay joint team, CREST France, 5 avenue Le Chatelier, 91120 Palaiseau, France  
 *E-mail* : mike.liu@ensae.fr
 
-\textsc{Sébastien Martineau}, Sorbonne Université, LPSM, 4 place Jussieu, Case 158, 75252 Paris Cedex 05,  
+Sébastien Martineau, Sorbonne Université, LPSM, 4 place Jussieu, Case 158, 75252 Paris Cedex 05,  
 France • *E-mail* : smartineau@lpsm.paris • *Url* : martineau-maths.github.io/webpage

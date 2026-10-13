@@ -79,8 +79,7 @@ We can also consider cycles with rational values. Figure 1 shows all cycles of l
 For any $k$ and $x$, the outermost and innermost cycles are of special interest. Let $S$ contain the smallest members of each cycle (here, $\frac{211}{13}, \frac{227}{13}, \dots, \frac{319}{13}$). The outermost cycle (called the *circuit*) contains the lowest member in $S$, while the innermost cycle (called the *high cycle*) contains the highest member in $S$.
 
 Steiner [10] showed that no positive integer circuits exist for any $k, x$ (except $k = 2, x =
-
-1). The current paper shows likewise that no high cycles of positive integers exist.
+1$). The current paper shows likewise that no high cycles of positive integers exist.
 
 ## 2 Parity vectors
 

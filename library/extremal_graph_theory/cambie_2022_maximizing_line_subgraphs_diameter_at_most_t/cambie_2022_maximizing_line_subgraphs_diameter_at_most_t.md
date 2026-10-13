@@ -82,7 +82,7 @@ For a graph $G=(V,E)$, we denote the $i^{th}$ neighbourhood of a vertex $v$ by $
 
 Let $T_{k,\Delta}$ denote a tree rooted at $v$ of height $k$ (i.e. the leafs are exactly $N_k(v)$) such that all non-leaf vertices have degree $\Delta$. Let $T^{1}_{k,\Delta}$ be one of the $\Delta$ subtrees starting at $v$, i.e. a subtree rooted at $v$ of height $k$ such that $v$ has degree $1$, such that $N_k(v)$ only contains leaves and all non-leaf vertices have degree $\Delta$.
 
-## 2 A bound on $\omega(L(G)^t)$ for $C_{2t+1}$-free $G
+## 2 A bound on $\omega(L(G)^t)$ for $C_{2t+1}$-free $G$
 
 In this section, we prove the following theorem.
 
@@ -100,7 +100,7 @@ The bound in Theorem 10 is a corollary of the following proposition.
 
 *Proof.* Suppose it is not true for some $i < t - 1$. Take an edge $yz \in E(H)$ with $y,z \in N_i$. Construct the graph $H'$ with $V(H')=V(H)\cup\{y',z'\}$ and $E(H')=E(H)\setminus yz\cup\{yy',zz'\}$, where $y'$ and $z'$ are new vertices, and let $G'$ be the corresponding modification of $G$. Then $H'\subseteq G'$ also satisfies all conditions in Proposition 11 and $\lvert E(H')\rvert=\lvert E(H)\rvert+1$, contradictory with the choice of $H$.
 
-Next, suppose there is an edge $yz \in E(H)$ with $y,z \in N_t$. Take a shortest path from $u_1$ to $yz$, which is wlog a path $P_y$ from $u_1$ to $y$. Note that a shortest path $P_z$ from $v$ to $z$ will intersect $P_y$ since $G$ is $C_{2t+1}$-free. Let $w$ be the vertex in $V(P_y)\cap V(P_z)$ that minimises $d_G(w,z)$ and assume $w\in N_m$, i.e. $m=d_G(v,w)$ is the distance from $v$ to $w. The condition $w\in V(P_y)\cap V(P_z)$ ensures that $d_G(w,z)=d_G(w,y)$. Furthermore note that $y$ and $z$ are interchangeable at this point, as both are at the same distance from $u_1$.
+Next, suppose there is an edge $yz \in E(H)$ with $y,z \in N_t$. Take a shortest path from $u_1$ to $yz$, which is wlog a path $P_y$ from $u_1$ to $y$. Note that a shortest path $P_z$ from $v$ to $z$ will intersect $P_y$ since $G$ is $C_{2t+1}$-free. Let $w$ be the vertex in $V(P_y)\cap V(P_z)$ that minimises $d_G(w,z)$ and assume $w\in N_m$, i.e. $m=d_G(v,w)$ is the distance from $v$ to $w$. The condition $w\in V(P_y)\cap V(P_z)$ ensures that $d_G(w,z)=d_G(w,y)$. Furthermore note that $y$ and $z$ are interchangeable at this point, as both are at the same distance from $u_1$.
 
 If $d_G(w,u_i)=m-1$ for every $1\leq i\leq j$, we can remove $yz$ again and add two edges $yy'$ and $zz'$ to get a graph $H'$ satisfying all conditions, leading to a contradiction again. This is the blue scenario illustrated in Figure 1.
 
@@ -152,7 +152,7 @@ Together with (1) on the number of edges that intersect $R$, this gives the resu
 
 An inspection of the proof yields that the extremal graphs $H$ for Proposition 11 satisfy Claim 12, $R=\emptyset$ and for every $x\in A_m$ where $0\leq m\leq t-1$, there are exactly $\Delta-1$ edges towards $A_{m+1}$. Hence such an extremal graph $H$ is exactly $T_{t,\Delta}$ where possibly some of its leaves are identified as one (as long as the maximum degree is still $\Delta$). Let us call such a graph a *quasi-$T_{t,\Delta}$*.
 
-Next, we discuss some properties that should be satisfied by any graph that attains the bound of Theorem 10 (provided such a graph exists for the given values of $t$ and $\Delta!). Let $H\subseteq G$ be a graph such that $E(H)$ is a clique in $L(G)^t$ and $v$ be a vertex of maximum degree in $H$, which maximises $\lvert E(H)\rvert$ among all choices for $G$ and $H$. Let $N_H(v)=\{u_1,\ldots,u_j\}$. Then in particular, in $L(G)^t$ every edge of $H$ is adjacent to every edge $vu_i$, for all $1\leq i\leq j$.
+Next, we discuss some properties that should be satisfied by any graph that attains the bound of Theorem 10 (provided such a graph exists for the given values of $t$ and $\Delta$!). Let $H\subseteq G$ be a graph such that $E(H)$ is a clique in $L(G)^t$ and $v$ be a vertex of maximum degree in $H$, which maximises $\lvert E(H)\rvert$ among all choices for $G$ and $H$. Let $N_H(v)=\{u_1,\ldots,u_j\}$. Then in particular, in $L(G)^t$ every edge of $H$ is adjacent to every edge $vu_i$, for all $1\leq i\leq j$.
 
 So by Proposition 11, for every vertex $v$ of degree $\Delta$ we observe locally a quasi-$T_{t,\Delta}$ again, and in particular every neighbour of such a $v$ has degree $\Delta$ (for $t\geq 2$). So $H$ is $\Delta$-regular and in particular a connected component of $G$. So it is not a tree and hence has some girth. The girth is at least $2t$ (as for every vertex we locally have a quasi-$T_{t,\Delta}$), but it cannot be $2t+1$ since $G$ is $C_{2t+1}$-free and it cannot be $2t+2$ or more since $E(H)$ is a clique in $L(G)^t$. Also we observe that for every $a\in A_t^*$ the condition that $w(a)\geq j$ implies that it has $\Delta$ neighbours in $A_{t-1}$ as these all have a weight function equal to $1$ and so it has no neighbours in $A_{t+1}$. Hence $H$ is a $\Delta$-regular graph with girth $2t$ and diameter $t$. In particular they need to be Moore graphs and consequently by [16, 1] the extremal graphs are polygons when $t\geq 3$.
 
@@ -205,7 +205,7 @@ $$
 \end{aligned}
 $$
 
-as $j\leq x+y<2j$, i.e. $|x+y-1.5j|\leq 0.5j$. \hfill$\diamond$
+as $j\leq x+y<2j$, i.e. $|x+y-1.5j|\leq 0.5j$. $\diamond$
 
 For every $a\in A'_t$, let $m(a)$ denote the number of neighbours (in $H$) of $a$ in $A_{t-1}$ and let $q(a)$ denote the number of neighbours (in $H$) of $a$ in $A'_t$. Furthermore, we define $f(a)=\frac{\frac{3}{2}w(a)-m(a)}{j-m(a)}$.
 

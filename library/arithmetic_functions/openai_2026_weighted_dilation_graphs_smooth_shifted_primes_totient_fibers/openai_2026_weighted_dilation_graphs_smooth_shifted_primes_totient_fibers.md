@@ -87,37 +87,37 @@ The following table locates the objects used across sections. Their full definit
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(L,T,W\)</span></td>
+<td style="text-align: left;"><span class="math inline">$L,T,W$</span></td>
 <td style="text-align: left;">Logarithmic scales and the roughness cutoff.</td>
 <td style="text-align: left;">Equation (2.1)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(\mathcal P_g,V_g,\mu_g\)</span></td>
-<td style="text-align: left;">Prime groups, harmonic masses, and probability laws; the number of groups is <span class="math inline">\(s\asymp T\)</span>.</td>
+<td style="text-align: left;"><span class="math inline">$\mathcal P_g,V_g,\mu_g$</span></td>
+<td style="text-align: left;">Prime groups, harmonic masses, and probability laws; the number of groups is <span class="math inline">$s\asymp T$</span>.</td>
 <td style="text-align: left;">Theorem 3.1</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(q,\omega_g,\omega\)</span></td>
+<td style="text-align: left;"><span class="math inline">$q,\omega_g,\omega$</span></td>
 <td style="text-align: left;">Fixed damping parameter and distinct group-prime counts.</td>
 <td style="text-align: left;">Theorem 3.1</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(J,\ell,M=J+\ell\)</span></td>
-<td style="text-align: left;">Fixed slot counts; <span class="math inline">\(J\)</span> is chosen after the comparison kernels.</td>
+<td style="text-align: left;"><span class="math inline">$J,\ell,M=J+\ell$</span></td>
+<td style="text-align: left;">Fixed slot counts; <span class="math inline">$J$</span> is chosen after the comparison kernels.</td>
 <td style="text-align: left;">Section 3</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(m\)</span>, later <span class="math inline">\(m_{\rm probe}\)</span></td>
-<td style="text-align: left;">Fixed bound on probes per big group, independent of <span class="math inline">\(J\)</span>.</td>
+<td style="text-align: left;"><span class="math inline">$m$</span>, later <span class="math inline">$m_{\rm probe}$</span></td>
+<td style="text-align: left;">Fixed bound on probes per big group, independent of <span class="math inline">$J$</span>.</td>
 <td style="text-align: left;">Theorem 4.1</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(W_{\mathbf t},W_\ell\)</span></td>
-<td style="text-align: left;">Marked divisor weights; in <span class="math inline">\(W_\ell\)</span> every group has <span class="math inline">\(\ell\)</span> marks.</td>
+<td style="text-align: left;"><span class="math inline">$W_{\mathbf t},W_\ell$</span></td>
+<td style="text-align: left;">Marked divisor weights; in <span class="math inline">$W_\ell$</span> every group has <span class="math inline">$\ell$</span> marks.</td>
 <td style="text-align: left;">Equation (5.1)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><span class="math inline">\(n_*,F_0,G_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">$n_*,F_0,G_0$</span></td>
 <td style="text-align: left;">Group-free part and endpoint cores invariant under multiplication by group primes.</td>
 <td style="text-align: left;"><p>Section 5</p>
 <p>Equation (5.3)</p></td>

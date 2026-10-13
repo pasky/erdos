@@ -2,7 +2,7 @@
 
 Shouqiao Wang
 
-Columbia University \qquad Multiscalar Intelligence
+Columbia University, Multiscalar Intelligence
 
 ## Abstract
 

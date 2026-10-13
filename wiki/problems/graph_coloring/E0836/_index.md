@@ -13,14 +13,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-13T15:46:56Z
 ---
 
 # Problem 836
 
 [[problems/graph_coloring/_index|..]]
 
-[[problems/graph_coloring/E0836/claims/_index|claims/]]: The 1 claim page of Problem 836, one per claimant's result; the problem's standing derives from them.
+[[problems/graph_coloring/E0836/claims/_index|claims/]]: The 2 claim pages of Problem 836, one per claimant's result; the problem's standing derives from them.
 
 ***
 

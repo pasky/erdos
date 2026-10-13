@@ -148,10 +148,10 @@ where $\omega$ is the (normalized) surface measure on the sphere.
 Here we consider the Euclidean metric. The independent sets in $G(V,D)$ are the sets of centers of spheres in a packing of spheres of radius $1/2$ in $\mathbb{R}^n$. So independent sets in $G(V,D)$ can be infinite but are always discrete and have Lebesgue measure $0$. The right definition of independence number in this case is the *sphere packing density*, informally the fraction of space covered by the balls in the packing. More precisely, we define the *upper density* of a Lebesgue-measurable set $X\subseteq\mathbb{R}^n$ by
 
 $$
-\bar{\delta}(X)=\sup_{p\in\mathbb{R}^n}\limsup_{T\to\infty}\frac{\vol(X\cap(p+[-T,T]^n))}{\vol[-T,T]^n},
+\bar{\delta}(X)=\sup_{p\in\mathbb{R}^n}\limsup_{T\to\infty}\frac{\operatorname{vol}(X\cap(p+[-T,T]^n))}{\operatorname{vol}[-T,T]^n},
 $$
 
-where $\vol$ is the Lebesgue measure. Then the *sphere packing density* is
+where $\operatorname{vol}$ is the Lebesgue measure. Then the *sphere packing density* is
 
 $$
 \alpha_\Delta(G(V,D))=\sup\{\bar{\delta}(I+1/2B_n): I\subseteq\mathbb{R}^n\text{ is independent}\},
@@ -197,13 +197,13 @@ $$
 
 Here, $A\colon V\times V\to\mathbb{R}$ is the optimization variable, $J\colon V\times V\to\mathbb{R}$ is the all-ones matrix, $\langle J,A\rangle=\text{tr }JA=\sum_{x,y\in V}A(x,y)$, and $\mathcal{K}(V)\subseteq\mathbb{R}^{V\times V}$ is a convex cone of symmetric matrices.
 
-The theta number of $G$, denoted by $\vartheta(G)$, is simply $\vartheta(G,\psd(V))$, where $\psd(V)$ is the cone of positive semidefinite matrices where rows and columns are indexed by the vertex set $V$. In this case the conic optimization problem becomes a semidefinite program, whose optimal value can be computed in polynomial time. We have moreover $\vartheta(G)\geq\alpha(G)$: if $I\subseteq V$ is a nonempty independent set and $\chi^{I}\colon V\to\{0,1\}$ is its characteristic vector, then $A=|I|^{-1}\chi^{I}\otimes\chi^{I}$, which is the matrix such that
+The theta number of $G$, denoted by $\vartheta(G)$, is simply $\vartheta(G,\operatorname{PSD}(V))$, where $\operatorname{PSD}(V)$ is the cone of positive semidefinite matrices where rows and columns are indexed by the vertex set $V$. In this case the conic optimization problem becomes a semidefinite program, whose optimal value can be computed in polynomial time. We have moreover $\vartheta(G)\geq\alpha(G)$: if $I\subseteq V$ is a nonempty independent set and $\chi^{I}\colon V\to\{0,1\}$ is its characteristic vector, then $A=|I|^{-1}\chi^{I}\otimes\chi^{I}$, which is the matrix such that
 
 $$
 A(x,y)=|I|^{-1}\chi^{I}(x)\chi^{I}(y),
 $$
 
-is a feasible solution of $\vartheta(G,\psd(V))$; moreover $\langle J,A\rangle=|I|$, and hence $\vartheta(G)\geq|I|$. Since $I$ is any nonempty independent set, $\vartheta(G)\geq\alpha(G)$ follows. The theta number is a relaxation of the independence number and it might happen (in fact it usually happens) that $\vartheta(G)>\alpha(G)$. A strengthening of the Lovász theta number is the parameter $\vartheta^{\prime}(G)$ introduced independently by McEliece, Rodemich, and Rumsey [60] and Schrijver [73], obtained by taking $\mathcal{K}(V)=\psd(V)\cap\nn(V)$, where $\nn(V)$ is the cone of matrices with nonnegative entries.
+is a feasible solution of $\vartheta(G,\operatorname{PSD}(V))$; moreover $\langle J,A\rangle=|I|$, and hence $\vartheta(G)\geq|I|$. Since $I$ is any nonempty independent set, $\vartheta(G)\geq\alpha(G)$ follows. The theta number is a relaxation of the independence number and it might happen (in fact it usually happens) that $\vartheta(G)>\alpha(G)$. A strengthening of the Lovász theta number is the parameter $\vartheta^{\prime}(G)$ introduced independently by McEliece, Rodemich, and Rumsey [60] and Schrijver [73], obtained by taking $\mathcal{K}(V)=\operatorname{PSD}(V)\cap\operatorname{NN}(V)$, where $\operatorname{NN}(V)$ is the cone of matrices with nonnegative entries.
 
 **3.2. A completely positive formulation.** Another choice for $\mathcal{K}(V)$ is the cone
 
@@ -382,18 +382,22 @@ $$
 For example, for the graph with vertex set $V=\{1,2,3\}$ and edge set $E=\{\{1,2\},\{1,3\}\}$, the combinatorial moment matrices of order one and two have the following form:
 
 $$
-M_1(y)=\bordermatrix{&\emptyset&1&2&3\cr
-\emptyset&y_{\emptyset}&y_1&y_2&y_3\cr
-1&y_1&y_1&0&0\cr
-2&y_2&0&y_2&y_{23}\cr
-3&y_3&0&y_{23}&y_3\cr},
+M_1(y)=\begin{array}{c}\emptyset\\ 1\\ 2\\ 3\end{array}\!\!
+\begin{pmatrix}
+\smash{\overset{\textstyle\emptyset}{y_{\emptyset}\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 1}{y_1\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 2}{y_2\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 3}{y_3\rule{0pt}{1.4em}}}\\
+y_1&y_1&0&0\\
+y_2&0&y_2&y_{23}\\
+y_3&0&y_{23}&y_3
+\end{pmatrix},
 \qquad
-M_2(y)=\bordermatrix{&\emptyset&1&2&3&23\cr
-\emptyset&y_{\emptyset}&y_1&y_2&y_3&y_{23}\cr
-1&y_1&y_1&0&0&0\cr
-2&y_2&0&y_2&y_{23}&y_{23}\cr
-3&y_3&0&y_{23}&y_3&y_{23}\cr
-23&y_{23}&0&y_{23}&y_{23}&y_{23}\cr}.
+M_2(y)=\begin{array}{c}\emptyset\\ 1\\ 2\\ 3\\ 23\end{array}\!\!
+\begin{pmatrix}
+\smash{\overset{\textstyle\emptyset}{y_{\emptyset}\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 1}{y_1\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 2}{y_2\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 3}{y_3\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle 23}{y_{23}\rule{0pt}{1.4em}}}\\
+y_1&y_1&0&0&0\\
+y_2&0&y_2&y_{23}&y_{23}\\
+y_3&0&y_{23}&y_3&y_{23}\\
+y_{23}&0&y_{23}&y_{23}&y_{23}
+\end{pmatrix}.\rule{0pt}{4.8em}
 $$
 
 Here and in the following, we simplify notation and use $y_i$ instead of $y(\{i\})$ and $y_{12}$ instead of $y(\{1,2\})$. Note that $M_1(y)$ occurs as a principal submatrix of $M_2(y)$.
@@ -548,7 +552,7 @@ $$
 
 This linear programming bound is also called a *two-point bound* because it involves constraints on the two point distribution of a configuration.
 
-More complicated is the characterization of the cone $\psd(S^{n-1})^{\mathrm{O}(n-1)}$. We consider $\mathrm{O}(n-1)$ as the subgroup of $\mathrm{O}(n)$ which stabilizes one point $e\in S^{n-1}$ on the unit sphere, the North pole. This falls slighty outside of the above mentioned recipe, since the action of $\mathrm{O}(n-1)$ on $S^{n-1}$ is not transitive. However, Bachoc and Vallentin [5] showed that the recipe can be adapted to this situation. Under the action of $\mathrm{O}(n-1)$ we have the following decomposition:
+More complicated is the characterization of the cone $\operatorname{PSD}(S^{n-1})^{\mathrm{O}(n-1)}$. We consider $\mathrm{O}(n-1)$ as the subgroup of $\mathrm{O}(n)$ which stabilizes one point $e\in S^{n-1}$ on the unit sphere, the North pole. This falls slighty outside of the above mentioned recipe, since the action of $\mathrm{O}(n-1)$ on $S^{n-1}$ is not transitive. However, Bachoc and Vallentin [5] showed that the recipe can be adapted to this situation. Under the action of $\mathrm{O}(n-1)$ we have the following decomposition:
 
 $$
 \mathrm{Pol}_{\leq d}(S^{n-1})=\bigoplus_{k=0}^{d}\left(H_{k,k}^{n-1}\oplus\cdots\oplus H_{k,d}^{n-1}\right),

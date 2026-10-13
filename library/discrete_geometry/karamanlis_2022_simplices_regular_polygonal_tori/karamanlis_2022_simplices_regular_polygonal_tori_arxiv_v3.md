@@ -128,55 +128,55 @@ $$
 n_0^{-1}\leq|x-x^{\prime}|\leq n_0\quad\text{for every }x,x^{\prime}\in X\quad\text{with }x\neq x^{\prime}. \tag{3.2}
 $$
 
-*Then for every \(n \geq 2\pi n_0^3\delta^{-1}\) the set \(X\) is \(\delta\)-embeddable into a regular polygon \(T_{m,r}\) with \(m=n^3\) and \(r=\frac{n_0n}{2\pi}\).*
+*Then for every $n \geq 2\pi n_0^3\delta^{-1}$ the set $X$ is $\delta$-embeddable into a regular polygon $T_{m,r}$ with $m=n^3$ and $r=\frac{n_0n}{2\pi}$.*
 
-*Proof.* Without loss of generality, we may assume that \(X\subset[0,n_0]\). Let \(n\geq 2\pi n_0^3\delta^{-1}\) and for every \(x\in X\) let \(j(x)\) be the unique non negative integer satisfying
+*Proof.* Without loss of generality, we may assume that $X\subset[0,n_0]$. Let $n\geq 2\pi n_0^3\delta^{-1}$ and for every $x\in X$ let $j(x)$ be the unique non negative integer satisfying
 
 $$
 \frac{j(x)}{n^2}\leq\frac{x}{n_0}<\frac{j(x)+1}{n^2}.
 $$
 
-By (3.2) the correspondence \(x\to j(x)\) is a well defined injection from \(X\) into \(\{0,1,\ldots,n^2\}\). For every \(x\in X\) we set \(y(x)=\frac{j(x)n_0}{n^2}\). Notice that \(y(x)\in[0,n_0]\) and \(0\leq x-y(x)<n_0n^{-2}\). Hence,
+By (3.2) the correspondence $x\to j(x)$ is a well defined injection from $X$ into $\{0,1,\ldots,n^2\}$. For every $x\in X$ we set $y(x)=\frac{j(x)n_0}{n^2}$. Notice that $y(x)\in[0,n_0]$ and $0\leq x-y(x)<n_0n^{-2}$. Hence,
 
 $$
 \left|\ |y(x)-y(x^{\prime})|^2-|x-x^{\prime}|^2\right|<\frac{2n_0^2}{n^2}<\frac{\delta}{2}, \tag{3.3}
 $$
 
-for every \(x,x^{\prime}\in X\).
+for every $x,x^{\prime}\in X$.
 
-Let \(\left(r,\frac{2\pi j}{m}\right)\), \(j=0,1,\ldots,m-1\) be a representation of vertices of \(T_{m,r}\) in polar coordinates. Let \(m=n^3\), \(r=n_0n/2\pi\) and let \(f:X\to T_{m,r}\) defined by
+Let $\left(r,\frac{2\pi j}{m}\right)$, $j=0,1,\ldots,m-1$ be a representation of vertices of $T_{m,r}$ in polar coordinates. Let $m=n^3$, $r=n_0n/2\pi$ and let $f:X\to T_{m,r}$ defined by
 
 $$
 f(x)=\left(r,\frac{2\pi j(x)}{m}\right)=\left(r,\frac{y(x)}{r}\right).
 $$
 
-Then \(f\) is an injection of \(X\) into \(T_{m,r}\). To finish the proof it remains to show that \(f\) is a \(\delta\)-embedding. For every \(x,x^{\prime}\in X\) with \(x\neq x^{\prime}\) we have that
+Then $f$ is an injection of $X$ into $T_{m,r}$. To finish the proof it remains to show that $f$ is a $\delta$-embedding. For every $x,x^{\prime}\in X$ with $x\neq x^{\prime}$ we have that
 
 $$
 \lVert f(x)-f(x^{\prime})\rVert=2r\sin\left(\frac{|y(x)-y(x^{\prime})|}{2r}\right).
 $$
 
-Noticing that \(\left|\sin^2t-t^2\right|\leq|t^3|\) and setting \(t=\frac{|y(x)-y(x^{\prime})|}{2r}\) we get that
+Noticing that $\left|\sin^2t-t^2\right|\leq|t^3|$ and setting $t=\frac{|y(x)-y(x^{\prime})|}{2r}$ we get that
 
 $$
 \left|\lVert f(x)-f(x^{\prime})\rVert^2-|y(x)-y(x^{\prime})|^2\right|\leq\frac{\pi n_0^2}{n}<\frac{\delta}{2} \tag{3.4}
 $$
 
-By (3.3) and (3.4) the proof is completed. \(\square\)
+By (3.3) and (3.4) the proof is completed. $\square$
 
-**Proposition 3.6.** *For every \(\delta>0\) and every finite set \(X\subset\mathbb{R}^k\) there exists \(m\in\mathbb{N}\) and \(r>0\) such that \(X\) is \(\delta\)-embeddable into an \((m,r)\)-regular polygonal torus \(T^k_{m,r}\).*
+**Proposition 3.6.** *For every $\delta>0$ and every finite set $X\subset\mathbb{R}^k$ there exists $m\in\mathbb{N}$ and $r>0$ such that $X$ is $\delta$-embeddable into an $(m,r)$-regular polygonal torus $T^k_{m,r}$.*
 
-*Proof.* Let \(X\subset\mathbb{R}^k\) and \(\delta>0\). Let \(\pi_i:\mathbb{R}^k\to\mathbb{R}\), \(i\in[k]\) be the canonical projections. By Lemma 3.5, we may choose a common pair \((m,r)\in\mathbb{N}\times\mathbb{R}\) such that for every \(i\in[k]\) there exists a \(\delta/k\)-embedding \(f_i:\pi_i(X)\to T_{m,r}\). It is easy to see that the mapping \(f:X\to\mathbb{R}^{2k}\) defined by \(f(x)=\left(f_1\left(\pi_1(x)\right),\ldots,f_k\left(\pi_k(x)\right)\right)\) is a \(\delta\)-embedding of \(X\) into \(T^k_{m,r}\). \(\square\)
+*Proof.* Let $X\subset\mathbb{R}^k$ and $\delta>0$. Let $\pi_i:\mathbb{R}^k\to\mathbb{R}$, $i\in[k]$ be the canonical projections. By Lemma 3.5, we may choose a common pair $(m,r)\in\mathbb{N}\times\mathbb{R}$ such that for every $i\in[k]$ there exists a $\delta/k$-embedding $f_i:\pi_i(X)\to T_{m,r}$. It is easy to see that the mapping $f:X\to\mathbb{R}^{2k}$ defined by $f(x)=\left(f_1\left(\pi_1(x)\right),\ldots,f_k\left(\pi_k(x)\right)\right)$ is a $\delta$-embedding of $X$ into $T^k_{m,r}$. $\square$
 
 **3.3. Regular expansions of finite sets embed into a regular polygonal torus.** We will need the following definition.
 
-**Definition 3.7.** Let \(X=\{x_i\}_{i\in[n]}\subset\mathbb{R}^k\) and \(Y=\{y_i\}_{i\in[n]}\subset\mathbb{R}^d\). We say that \(Y\) is a regular expansion of \(X=\{x_i\}_{i\in[n]}\), if there exists \(\alpha>0\) such that
+**Definition 3.7.** Let $X=\{x_i\}_{i\in[n]}\subset\mathbb{R}^k$ and $Y=\{y_i\}_{i\in[n]}\subset\mathbb{R}^d$. We say that $Y$ is a regular expansion of $X=\{x_i\}_{i\in[n]}$, if there exists $\alpha>0$ such that
 
 $$
 \lVert y_i-y_j\rVert^2=\lVert x_i-x_j\rVert^2+\alpha^2
 $$
 
-for every \(i,j\in[n]\) with \(i\neq j\).
+for every $i,j\in[n]$ with $i\neq j$.
 
 It is easy to see that a set $Y = \{y_i\}_{i\in[n]}$ is a regular expansion of $X = \{x_i\}_{i\in[n]}$, if and only if, there exists a regular simplex $\Delta = \{z_i\}_{i\in[n]}$ such that the set $Y$ is isometric to the set $Y^{\prime} = \{(x_i,z_i)\}_{i\in[n]} \subset X \times \Delta$. In particular, since $Y^{\prime}$ is affinely independent, every regular expansion of a finite set $X$ is a simplex. It was a crucial point of the proof in [6] that this property characterizes all simplices in Euclidean spaces.
 

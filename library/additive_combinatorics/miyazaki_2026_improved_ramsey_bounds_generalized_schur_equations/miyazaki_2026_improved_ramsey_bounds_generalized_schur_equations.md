@@ -218,7 +218,7 @@ $$
 N\leq(2m+1)^r(r!)^{1/m},
 $$
 
-as promised. \hfill$\square$
+as promised. $\square$
 
 To conclude the section, we now prove Corollary $1.2$.
 
@@ -228,7 +228,7 @@ $$
 x_1+\cdots+x_{d(m+1)+w}=y_1+\cdots+y_{dm+w},
 $$
 
-which is exactly equation $(2)$. Therefore any coloring avoiding the latter equation also avoids the former one, and Theorem $1.1$ applies. \hfill$\square$
+which is exactly equation $(2)$. Therefore any coloring avoiding the latter equation also avoids the former one, and Theorem $1.1$ applies. $\square$
 
 ## 4. Proof of Theorem 1.3
 

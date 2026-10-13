@@ -14,35 +14,35 @@ Erdős asked whether $\sum_{n \geq 1} p_n 2^{-n}$ is irrational. Under Kuperberg
 
 **1** **Introduction and results** **2**
 
-1.1 Main results \dotfill 2
+1.1 Main results . . . 2
 
-1.2 Overview of the proof \dotfill 4
+1.2 Overview of the proof . . . 4
 
-1.3 Related work \dotfill 5
+1.3 Related work . . . 5
 
 **2** **Telescopes and the one-point test** **5**
 
 **3** **A common digital criterion** **7**
 
-3.1 Pattern assumptions and rigidity \dotfill 7
+3.1 Pattern assumptions and rigidity . . . 7
 
-3.2 The digital transfer criterion \dotfill 8
+3.2 The digital transfer criterion . . . 8
 
-3.3 Relations and positions \dotfill 11
+3.3 Relations and positions . . . 11
 
-3.4 Rounded real gap powers \dotfill 12
+3.4 Rounded real gap powers . . . 12
 
 **4** **The finite rooted sieve model** **13**
 
 **5** **Tuple counts and local patterns** **16**
 
-5.1 The finite comparison \dotfill 16
+5.1 The finite comparison . . . 16
 
-5.2 One-sided tuple hypothesis \dotfill 17
+5.2 One-sided tuple hypothesis . . . 17
 
-5.3 Calibration and normalization \dotfill 18
+5.3 Calibration and normalization . . . 18
 
-5.4 Tail bound and Kuperberg input \dotfill 19
+5.4 Tail bound and Kuperberg input . . . 19
 
 **6** **Scope and formal verification** **20**
 
@@ -909,7 +909,7 @@ $$
 \log z(n+h)=\log y_i\{1+O_{C_\Psi}(t^{-J-1})\}.
 $$
 
-Thus varying-threshold tuple counts lie between the fixed-cutoff counts at $y_i^{1-\epsilon}$ and $y_i^{1+\epsilon}$, where $\epsilon\ll_{C_\Psi}t^{-J-1}$. For every nonzero pattern of size $k=O_\kappa(\ell)$, all primes in this band exceed $2k eventually, so (26) gives
+Thus varying-threshold tuple counts lie between the fixed-cutoff counts at $y_i^{1-\epsilon}$ and $y_i^{1+\epsilon}$, where $\epsilon\ll_{C_\Psi}t^{-J-1}$. For every nonzero pattern of size $k=O_\kappa(\ell)$, all primes in this band exceed $2k$ eventually, so (26) gives
 
 $$
 \frac{V_E(y_i^{1\pm\epsilon})}{V_E(y_i)}=1+O(kt^{-J-1}+ke^{-\eta/3}). \tag{27}
@@ -1072,7 +1072,7 @@ $$
 \mathbb{E}\left[\mathbf{1}_{\{N\geq L\}}f(\Phi_L)\right]\leq C_B\lambda(f)+O_{B,\kappa}\left(L^{-1}\|f\|_\infty+G^{-1/2}\left(\operatorname{Lip}(f)+\|f\|_\infty\right)\right).
 $$
 
-The actual positive comparison and tail bound prove (30). \hfill $\square$
+The actual positive comparison and tail bound prove (30). $\square$
 
 **Corollary B.3** (Quantitative normality under Kuperberg). *Assume (22). For every fixed integer $B\geq 2$, $\alpha_B=\sum_{n\geq1}p_nB^{-n}$ satisfies*
 

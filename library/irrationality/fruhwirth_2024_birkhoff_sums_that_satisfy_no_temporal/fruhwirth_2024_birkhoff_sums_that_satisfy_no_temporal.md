@@ -295,7 +295,7 @@ $$
 
 all exist. Since $(q_{n_\ell})_{\ell\in\mathbb{N}}\subseteq(q_{k_j})_{j\in\mathbb{N}}\subseteq A$, we have for any $\ell\in\mathbb{N}$, $\|q_{n_\ell}\gamma_i-q_{n_\ell}\gamma_1\|>\delta$ and thus, $\overline{\gamma}_i\neq\overline{\gamma}_1$ for all $i=2,\ldots,\nu$.
 
-We now turn our attention to prove (3.2). We set $\gamma_0:=0$, $\overline{\gamma}_0=0$ which allows us to define the associated sawtooth functions $s_i(x)=\iota(x-\gamma_i)-\frac{1}{2}$ for all $i=0,\ldots,\nu. We then have
+We now turn our attention to prove (3.2). We set $\gamma_0:=0$, $\overline{\gamma}_0=0$ which allows us to define the associated sawtooth functions $s_i(x)=\iota(x-\gamma_i)-\frac{1}{2}$ for all $i=0,\ldots,\nu$. We then have
 
 $$
 \tag{3.3}

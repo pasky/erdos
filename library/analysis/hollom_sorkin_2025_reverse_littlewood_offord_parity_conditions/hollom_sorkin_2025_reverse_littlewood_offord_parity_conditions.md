@@ -225,7 +225,7 @@ By Lemma 2.5, if we can find $X'\subseteq X$ such that $\lvert X'\rvert=d+1$ and
 
 The rest of the proof follows three main steps. First, we show that no vector in $Y$ is almost parallel to either $u$ or $w$. Then, we deduce that all vectors in $Y$ have short projection onto the plane $P$ spanned by $u$ and $w$. Finally, we use this information to deduce that $Z$ is $(d-\varepsilon)$-approximating.
 
-**Step 1(a). No vector in $Y$ is almost parallel to $u$ or $w.** Assume for contradiction that some $y\in Y$ has $\langle w,y\rangle>1-\zeta$ (replacing $y$ by $-y$ if necessary); the case for $\langle u,y\rangle<-1+\zeta$ is entirely similar. By Fact 2.7, we find that $\lVert w-y\rVert<\sqrt{2\zeta}$ and $\lVert u-w\rVert\in(\sqrt{2\zeta^{1/4}},\sqrt{2(1-\zeta^{1/4})})$. Thus
+**Step 1(a). No vector in $Y$ is almost parallel to $u$ or $w$.** Assume for contradiction that some $y\in Y$ has $\langle w,y\rangle>1-\zeta$ (replacing $y$ by $-y$ if necessary); the case for $\langle u,y\rangle<-1+\zeta$ is entirely similar. By Fact 2.7, we find that $\lVert w-y\rVert<\sqrt{2\zeta}$ and $\lVert u-w\rVert\in(\sqrt{2\zeta^{1/4}},\sqrt{2(1-\zeta^{1/4})})$. Thus
 
 $$
 \lVert u-y\rVert\in\left(\sqrt{2\zeta^{1/4}}-\sqrt{2\zeta},\sqrt{2(1-\zeta^{1/4})}+\sqrt{2\zeta}\right),
@@ -329,7 +329,7 @@ Let $s_m\coloneqq\sum_{i=1}^{m}(\lambda_i+\eta_i)v_i$ and assume that $\lVert s_
 
 We will now refine the above reasoning to produce the two stability-type results.
 
-First, if (without loss of generality) $\lvert\langle v_1,v_2\rangle\rvert\geq\delta$, then we consider these two vectors first. Assume that $\lambda_1\geq0$, so we pick $\eta_1=-1$, and that the angle between $v_1$ and $v_2$ is $\frac{\pi}{2}+\theta$ (after choosing the sign of $v_2$ appropriately). Applying Claim $5.1$ with $P=(-1+\lambda_1)v_1$, we have that, if $r^2-a^2=(1-\lambda_1)^2$ and $r^2\sin^2\theta+a^2\cos^2\theta=1$ for some $r$ and $a$, then let $x$ and $y$ be the two values of $(-1+\lambda_1)v_1+(\pm1+\lambda_2)v_2$. Noting that $\lVert x-y\rVert=2$, and letting $\Gamma$ and $\ell$ be as in the statement of Claim $5.1$, we see that $x$ and $y$ both lie on $\ell$, and the chord of $\Gamma$ subtended by $\ell has length 2. Thus at least one of $x$ and $y$ must be inside $\Gamma$, and thus within distance $r$ of the origin.
+First, if (without loss of generality) $\lvert\langle v_1,v_2\rangle\rvert\geq\delta$, then we consider these two vectors first. Assume that $\lambda_1\geq0$, so we pick $\eta_1=-1$, and that the angle between $v_1$ and $v_2$ is $\frac{\pi}{2}+\theta$ (after choosing the sign of $v_2$ appropriately). Applying Claim $5.1$ with $P=(-1+\lambda_1)v_1$, we have that, if $r^2-a^2=(1-\lambda_1)^2$ and $r^2\sin^2\theta+a^2\cos^2\theta=1$ for some $r$ and $a$, then let $x$ and $y$ be the two values of $(-1+\lambda_1)v_1+(\pm1+\lambda_2)v_2$. Noting that $\lVert x-y\rVert=2$, and letting $\Gamma$ and $\ell$ be as in the statement of Claim $5.1$, we see that $x$ and $y$ both lie on $\ell$, and the chord of $\Gamma$ subtended by $\ell$ has length 2. Thus at least one of $x$ and $y$ must be inside $\Gamma$, and thus within distance $r$ of the origin.
 
 It thus suffices to prove that there is some valid choice of $a$ and $r$ and that $r$, the radius of $\Gamma$, satisfies $r^2 \leq 2-\delta^2$, as then we may choose signs $\eta_3,\ldots,\eta_d$ such that $\left\|\sum_{i=1}^{d}(\lambda_i+\eta_i)v_i\right\|^2 \leq d-\delta^2$. Indeed, we may compute that $a^2=1-(1-\lambda_1)^2\sin^2\theta$ and $r^2=1+(1-\lambda_1^2)\cos^2\theta$, and it is straightforward to deduce from the above that
 
@@ -373,7 +373,7 @@ $$
 
 We claim that it suffices to prove that the sequence $W=(e_1,\ldots,e_d,y)$ is $(d-6\varepsilon^{1/4}d^3)$-approximating.
 
-Indeed, if the above does hold, then for any point $p$ in $\Conv(S(W))$, we have that
+Indeed, if the above does hold, then for any point $p$ in $\operatorname{Conv}(S(W))$, we have that
 
 $$
 \begin{aligned}
@@ -415,7 +415,7 @@ It is therefore clear that $\max\{y_2,y_3,\dotsc,y_d\}>\sqrt{\zeta/2d}$. Thus, b
 
 Recalling that $\zeta=18\varepsilon^{1/4}d^4$, we find that $\zeta/2d>6\varepsilon^{1/4}d^3$, and so $W$ can $(d-6\varepsilon^{1/4}d^3)$-approximate any point in the convex hull of a parallelotope corresponding to a $d$-subsequence $Y$ as above.
 
-**Step 5: approximating the centre of a hypercube.** The remaining part of the proof of Lemma $4.1$ is to show that the points corresponding to $\Conv(S(E))$ are suitably well-approximated. Indeed, the points close to the centre of this hypercube are not well-approximated by the vertices, and so we will have to make use of the other points of $S(W)$. Moving the origin, we must show that every point in $\Conv(S(E))$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)\cup(S(E)+2y)$. In fact, the only point of $S(E)+2y$ we will use is $\sum_{i=1}^{d}(2y_i-1)e_i$.
+**Step 5: approximating the centre of a hypercube.** The remaining part of the proof of Lemma $4.1$ is to show that the points corresponding to $\operatorname{Conv}(S(E))$ are suitably well-approximated. Indeed, the points close to the centre of this hypercube are not well-approximated by the vertices, and so we will have to make use of the other points of $S(W)$. Moving the origin, we must show that every point in $\operatorname{Conv}(S(E))$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)\cup(S(E)+2y)$. In fact, the only point of $S(E)+2y$ we will use is $\sum_{i=1}^{d}(2y_i-1)e_i$.
 
 Indeed, by Lemma $4.2$, the point $p=\sum_{i=1}^{d}\lambda_i e_i$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)$ unless, for all $i$, $\lvert\lambda_i\rvert<6\varepsilon^{1/4}d^3$.
 

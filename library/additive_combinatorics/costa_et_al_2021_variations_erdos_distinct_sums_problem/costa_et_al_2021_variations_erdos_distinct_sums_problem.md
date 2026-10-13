@@ -83,7 +83,7 @@ M\geq(1+o(1))\cdot
 \tag{1}
 $$
 
-\hfill$\Box$
+$\Box$
 
 Now, if $\lambda\geq 1/2$, we see that it is possible to improve on the term $C_n=1/\lceil\lambda n\rceil$ in (1) using the Harper isoperimetric inequality (see [16]) as done in [13] for $\lambda=1$. In particular, we see that the same bound obtained for $\lambda=1$ also holds for all $\lambda>1/2$. For $\lambda=1/2$, instead, a weakening by a factor of 2 appears, which can be explained in terms of the concentration of measure around the average value of the sums.
 
@@ -601,7 +601,7 @@ $$
 |A_2'''|=|A_2''|+|A_2\setminus[1,h]|\leq|A_2|+|A_3|.
 $$
 
-Moreover, since, $|A_2|\leq\lambda n<\frac{1}{8}(n-1)$ for $n$ large enough and $|A_3|<\frac{1}{4}(n-1)$, we obtain that $|A_2'''|<\frac{1}{8}(n-1)+\frac{1}{4}(n-1)$. We also have that, for $n$ large enough, $|A_1''|=|A_1|\leq\lambda n<\frac{1}{8}(n-1)$. Here we note that $|A_1''|+|A_2'''|<\frac{1}{2}(n-1)$ but this is in contradiction with the statement of Proposition 3.9 considered for the sets $A_1''$, $A_2'''$ and for $n-1$. \hfill$\square$
+Moreover, since, $|A_2|\leq\lambda n<\frac{1}{8}(n-1)$ for $n$ large enough and $|A_3|<\frac{1}{4}(n-1)$, we obtain that $|A_2'''|<\frac{1}{8}(n-1)+\frac{1}{4}(n-1)$. We also have that, for $n$ large enough, $|A_1''|=|A_1|\leq\lambda n<\frac{1}{8}(n-1)$. Here we note that $|A_1''|+|A_2'''|<\frac{1}{2}(n-1)$ but this is in contradiction with the statement of Proposition 3.9 considered for the sets $A_1''$, $A_2'''$ and for $n-1$. $\square$
 
 As a consequence, we have the following result.
 

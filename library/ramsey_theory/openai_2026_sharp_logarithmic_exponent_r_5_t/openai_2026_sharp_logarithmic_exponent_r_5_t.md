@@ -512,7 +512,7 @@ Normalize each nonzero projective restriction. Each restriction has at most $q^{
 \end{equation}$$ Indeed, the number of restrictions is at least the retained mass divided by $2l$, and $l\le q^{d-j}$. The density assertion holds for each restriction separately, so forgetting its multiplicity causes no problem.
 
 The decoder’s enclosures are $$U_{S_0}=U_S\cap K_0,\qquad
- U_{T_0}=\{\text{nonzero projective restrictions with at least \(l\) lifts in \(U_T\)}\}.$$ Their logarithmic gaps are bounded by $d_S+O(1)$ and $d_T+O(\log\sigma)$. The extra term in $b$ in (30) is absorbed in $O(D\sigma^{6\beta})$. Moreover, $$\sqrt\tau\le
+ U_{T_0}=\{\text{nonzero projective restrictions with at least $l$ lifts in $U_T$}\}.$$ Their logarithmic gaps are bounded by $d_S+O(1)$ and $d_T+O(\log\sigma)$. The extra term in $b$ in (30) is absorbed in $O(D\sigma^{6\beta})$. Moreover, $$\sqrt\tau\le
  \sigma^{-200\cdot2^{j-2}\beta}\qquad(j<d).$$ Thus the induction hypothesis applies after orienting the reduced pair so that its smaller side is first. The dimension decreases, and its initial value is at most four.
 
 If the recursive output captures $S_0$, it already captures a constant fraction of $S$ in a set of size at most $ne^{CP}$. Intersect it with $U_S$, if necessary. If instead it captures $T_0$, let $W_0$ be the decoded set and $C_0=W_0\cap T_0$ its hidden capture, with $|C_0|\ge c|T_0|$ and $|W_0|/|C_0|\le e^{CP}$. We convert this to a capture on the original side.

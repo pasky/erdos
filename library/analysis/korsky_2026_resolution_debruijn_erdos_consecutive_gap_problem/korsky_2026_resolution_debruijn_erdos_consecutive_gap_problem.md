@@ -621,7 +621,7 @@ $$
 Z_t(D)\leq qD+\frac{|I_x|}{\ell}Z_{t_+}(E)+8kA+\frac{4kr}{t}.
 $$
 
-Because $|I_x|/\ell=(1+q)D/E$, this is (6.5). \hfill$\square$
+Because $|I_x|/\ell=(1+q)D/E$, this is (6.5). $\square$
 
 There is also a simple terminal estimate at the original scale $r$.
 

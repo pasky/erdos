@@ -31,7 +31,7 @@ so the two readings genuinely differ when $3\mid n$.
 
 **Source.** B. Bedert, arXiv:2301.07065v1 (17 January 2023), 43 pp.;
 Theorem 2 and the surrounding remarks on p. 2, read on the page image; the
-abstract on p. 1. No journal version found on 2026-09-18.
+abstract on p. 1. A preprint.
 
 **Read depth.** Claims checked: the statement, the tightness example and
 the remarks were read clause by clause on the page images; the example's

@@ -43,10 +43,10 @@ Daniel Larsen, *Sufficiently abundant numbers are pseudoperfect*. Manuscript,
 uploaded that day with the commit message "This is most of a proof" and
 replaced on 1 February 2026 (commit `39139e2b`, the repository's head on
 2026-09-18). The paper carries no date of its own; its references cite the
-site's problem pages as accessed 29 January 2026 and the PDF's creation stamp
-is 1 February 2026, so the year in the slug is 2026. It is not on arXiv (API
-searches) and has no journal record (Crossref bibliographic
-query of 2026-09-18); it is unrefereed.
+site's problem pages "accessed 2026-01-29" and the PDF's creation stamp is
+1 February 2026, so the year in the slug is 2026. It is not on arXiv (API
+searches) and has no journal record (Crossref bibliographic query of
+2026-09-18); it is unrefereed.
 
 The copy read for this card is that 9-page file, obtained from
 `https://github.com/Larsen-Daniel/Erdos-318/blob/main/318.pdf`, the link the

@@ -60,7 +60,7 @@ Very shortly afterwards, a further breakthrough was obtained by Maynard [5] (wit
 
 (iv) $H_2 \leq 600$
 
-(v) $H_m \leq Cm^3e^{2m}$ for all $m \geq 1$ and an absolute (and effective) constant $C`
+(v) $H_m \leq Cm^3e^{2m}$ for all $m \geq 1$ and an absolute (and effective) constant $C$
 
 For a survey of these recent developments, see [6].
 
@@ -135,7 +135,7 @@ wise specified, with the exceptions of sums and products over the variable $p$, 
 
 The following important asymptotic notation will be in use throughout the paper.
 
-**Definition 6** (Asymptotic notation). We use $x$ to denote a large real parameter, which one should think of as going off to infinity; in particular, we will implicitly assume that it is larger than any specified fixed constant. Some mathematical objects will be independent of $x$ and referred to as *fixed*; but unless otherwise specified, we allow all mathematical objects under consideration to depend on $x$ (or to vary within a range that depends on $x$, e.g. the summation parameter $n$ in the sum $\sum_{x\leq n\leq 2x} f(n)$). If $X$ and $Y$ are two quantities depending on $x$, we say that $X = O(Y)$ or $X \ll Y$ if one has $|X| \leq CY$ for some fixed $C$ (which we refer to as the *implied constant*), and $X = o(Y)$ if one has $|X| \leq c(x)Y$ for some function $c(x)$ of $x (and of any fixed parameters present) that goes to zero as $x \to \infty$ (for each choice of fixed parameters). We use $X \lll Y$ to denote the estimate $X \leq x^{o(1)} Y$, $X \sim Y$ to denote the estimate $Y \ll X \ll Y$, and $X \asymp Y$ to denote the estimate $Y \lll X \lll Y$. Finally, we say that a quantity $n$ is of *polynomial size* if one has $n = O(x^{O(1)})$.
+**Definition 6** (Asymptotic notation). We use $x$ to denote a large real parameter, which one should think of as going off to infinity; in particular, we will implicitly assume that it is larger than any specified fixed constant. Some mathematical objects will be independent of $x$ and referred to as *fixed*; but unless otherwise specified, we allow all mathematical objects under consideration to depend on $x$ (or to vary within a range that depends on $x$, e.g. the summation parameter $n$ in the sum $\sum_{x\leq n\leq 2x} f(n)$). If $X$ and $Y$ are two quantities depending on $x$, we say that $X = O(Y)$ or $X \ll Y$ if one has $|X| \leq CY$ for some fixed $C$ (which we refer to as the *implied constant*), and $X = o(Y)$ if one has $|X| \leq c(x)Y$ for some function $c(x)$ of $x$ (and of any fixed parameters present) that goes to zero as $x \to \infty$ (for each choice of fixed parameters). We use $X \lll Y$ to denote the estimate $X \leq x^{o(1)} Y$, $X \sim Y$ to denote the estimate $Y \ll X \ll Y$, and $X \approx Y$ to denote the estimate $Y \lll X \lll Y$. Finally, we say that a quantity $n$ is of *polynomial size* if one has $n = O(x^{O(1)})$.
 
 If asymptotic notation such as $O()$ or $\lll$ appears on the left-hand side of a statement, this means that the assertion holds true for any specific interpretation of that notation. For instance, the assertion $\sum_{n=O(N)} |\alpha(n)| \lll \mathbb{N}$ means that for each fixed constant $C > 0$, one has $\sum_{|n|\leq CN} |\alpha(n)| \lll \mathbb{N}$.
 
@@ -327,7 +327,7 @@ absolute (and effective) constant $C$.
 (xii) $\mathrm{DHL}[3;2]$.  
 (xiii) $\mathrm{DHL}[51;3]$.
 
-Theorem 4 then follows from Theorem 16 and the following bounds on $H(k)$ (ordered by increasing value of $k):
+Theorem 4 then follows from Theorem 16 and the following bounds on $H(k)$ (ordered by increasing value of $k$):
 
 **Theorem 17** (Bounds on $H(k)$).
 
@@ -1398,7 +1398,7 @@ theorem when $\varepsilon\leq\frac{1}{10k}$. $\square$
 *Remark 32.* As in [38], one can use Proposition 14, together with the observation that
 the quantity $\lambda_F(n)$ is bounded whenever $n=O(x)$ and $p(n)\geq x^\varepsilon$, to conclude that when-
 ever the hypotheses of Lemma 18 are obeyed for some $\nu$ of the form (18), then there exists
-a fixed $\varepsilon>0$ such that for all sufficiently large $x$, there are $\gg\frac{x}{\log^k x}$ elements $n$ of $[x,2x]
+a fixed $\varepsilon>0$ such that for all sufficiently large $x$, there are $\gg\frac{x}{\log^k x}$ elements $n$ of $[x,2x]$
 such that $n+h_1,\ldots,n+h_k$ have no prime factor less than $x^\varepsilon$, and that at least $m$ of the
 $n+h_1,\ldots,n+h_k$ are prime.
 
@@ -3836,9 +3836,9 @@ Another component is
 $$
 \begin{aligned}
 J_5={}&\int_{x=1/2-\varepsilon/2}^{1/2}\int_{y=0}^{1/2-\varepsilon}\Bigl(
-\int_{z=0}^{y}F\big|_{A_{yzx}}+\int_{z=y}^{1-\varepsilon-x}F\big|_{A_{zyx}}\right.\\
-&\left.+\int_{z=1-\varepsilon-x}^{x}F\big|_{B_{zyx}}+\int_{z=x}^{1-\varepsilon-y}F\big|_{B_{xyz}}+\int_{z=1-\varepsilon-y}^{1+\varepsilon-x}F\big|_{C_{xyz}}\right.\\
-&\left.+\int_{z=1+\varepsilon-x}^{3/2-x-y}F\big|_{T_{xyz}}\,dz\right)^2dy\,dx.
+\int_{z=0}^{y}F\big|_{A_{yzx}}+\int_{z=y}^{1-\varepsilon-x}F\big|_{A_{zyx}}\\
+&+\int_{z=1-\varepsilon-x}^{x}F\big|_{B_{zyx}}+\int_{z=x}^{1-\varepsilon-y}F\big|_{B_{xyz}}+\int_{z=1-\varepsilon-y}^{1+\varepsilon-x}F\big|_{C_{xyz}}\\
+&+\int_{z=1+\varepsilon-x}^{3/2-x-y}F\big|_{T_{xyz}}\,dz\Bigr)^2dy\,dx.
 \end{aligned}
 $$
 
@@ -4207,7 +4207,7 @@ In this section, we outline the methods used to obtain the numerical bounds on $
 
 **$H(k)$ values for small $k$**
 
-The equalities in the first four bounds (1)–(4) were previously known. The case $H(3) = 6$ is obvious: the admissible 3-tuples $(0, 2, 6)$ and $(0, 4, 6)$ have diameter 6 and no 3-tuple of smaller diameter is admissible. The cases $H(50) = 246$, $H(51) = 252$, and $H(54) = 270$ follow from results of Clark and Jarvis [42]. They define $\varrho^*(x)$ to be the largest integer $k$ for which there exists an admissible $k$-tuple that lies in a half-open interval $(y, y + x]$ of length $x$. For each integer $k > 1$, the largest $x$ for which $\varrho^*(x) = k$ is precisely $H(k + 1)$. Table 1 of [42] lists these largest $x$ values for $2 \leq k \leq 170$, and we find that $H(50) = 246$, $H(51) = 252$, and $H(54) = 270$. Admissible tuples that realize these bounds are shown in Subsubsections “Admissible 50-tuple realizing $H(50) = 246$”, “Admissible 51-tuple realizing $H(51) = 252$” and “Admissible 54-tuple realizing $H(54) = 270”.
+The equalities in the first four bounds (1)–(4) were previously known. The case $H(3) = 6$ is obvious: the admissible 3-tuples $(0, 2, 6)$ and $(0, 4, 6)$ have diameter 6 and no 3-tuple of smaller diameter is admissible. The cases $H(50) = 246$, $H(51) = 252$, and $H(54) = 270$ follow from results of Clark and Jarvis [42]. They define $\varrho^*(x)$ to be the largest integer $k$ for which there exists an admissible $k$-tuple that lies in a half-open interval $(y, y + x]$ of length $x$. For each integer $k > 1$, the largest $x$ for which $\varrho^*(x) = k$ is precisely $H(k + 1)$. Table 1 of [42] lists these largest $x$ values for $2 \leq k \leq 170$, and we find that $H(50) = 246$, $H(51) = 252$, and $H(54) = 270$. Admissible tuples that realize these bounds are shown in Subsubsections “Admissible 50-tuple realizing $H(50) = 246$”, “Admissible 51-tuple realizing $H(51) = 252$” and “Admissible 54-tuple realizing $H(54) = 270$”.
 
 **Admissible 50-tuple realizing $H(50) = 246$**
 

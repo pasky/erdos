@@ -276,7 +276,7 @@ We noticed that the dependence of the estimate $d$ on the number of circles $c$ 
 
 $$
 \begin{array}{c|cc|ccc|ccccc|cc}
-k & \multicolumn{2}{c|}{\text{annulus tiling}} & \multicolumn{3}{c|}{\text{previous best}} & \multicolumn{5}{c|}{\text{our best w-graph}} & \multicolumn{2}{c}{\text{line}} \\
+k & \text{annulus tiling} & & \text{previous best} & & & \text{our best w-graph} & & & & & \text{line} & \\
 & \text{radial} & \text{arbitrary} & d & p & c & d & p & c & q & \text{time, s} & \text{pred.} & \text{slope} \\
 \hline
 3 & 1.285575 & 1.285575 & 1.28599 & 1300 & 2 & 1.2856 & 18 & 1 & 2 & 0 & & \\
@@ -319,7 +319,7 @@ In Fig. 9, $k$-UNSAT solutions are shown in black, and the nearest $k$-SAT solut
 **Table 6:** Exoo type graphs.
 
 $$
-\begin{array}{c@{\qquad}c}
+\begin{array}{cc}
 \begin{array}{c|c|c|c|c|c|c|c}
 k&a&b&d&l&m&q&\text{time, s}\\
 \hline\hline
@@ -453,7 +453,7 @@ Note that the search was not exhaustive: we did not consider all non-isomorphic 
 
 **Impregnable fortress.** We also tried to go the other way and analyze the obtained $k$-SAT solutions for possible clues in the tiling construction, which would break through the $d = \sqrt{3}$ threshold for $k = 10$ and 11. Fig. 11 shows examples of these SAT colorings. It can be seen that the colors of the vertices are grouped and form pseudo-tiles.
 
-$k=10,\quad (m,a,b)=(60,144,508)$ \qquad $k=11,\quad (m,a,b)=(45,73,279)$
+$k=10,\quad (m,a,b)=(60,144,508)\qquad k=11,\quad (m,a,b)=(45,73,279)$
 
 Figure 11: SAT-colorings.
 

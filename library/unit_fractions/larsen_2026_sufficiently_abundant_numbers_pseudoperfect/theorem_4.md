@@ -94,8 +94,8 @@ orthogonality of additive characters modulo $m$ and elementary estimates.
 ## Standing
 
 An unrefereed manuscript with a declared AI-assistance acknowledgment
-(proofreading, p. 9), read statically; no journal record was found on
-2026-09-18. Consumers state the theorem with this qualification.
+(proofreading, p. 9), read statically. Consumers state the theorem with this
+qualification.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0318/_index|#318]]: Theorem 4
 is the tool the paper applies in its proof of

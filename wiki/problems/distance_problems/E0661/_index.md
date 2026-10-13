@@ -39,8 +39,8 @@ https://www.erdosproblems.com/661.
 
 A literature check covered the published bipartite paper, its arXiv record and
 author publication list, and searches for later general bipartite distance
-bounds. It had located no exact-target resolution on 6 September 2026. This is
-a bounded currentness check, not a proof of openness.
+bounds; it located no exact-target resolution. This is a bounded currentness
+check, not a proof of openness.
 
 A complete own-words reconstruction of Theorem 3, its balanced specialization
 and every essential local step is now supplied on the linked source result
@@ -54,9 +54,8 @@ construction is separately **Verified at the stated scope** in that review,
 relative to its external counting premise, whose proof remains uncompiled.
 Theorem 4's separate unbalanced proof remains uncompiled in this account. These
 additions do not change the status of the little-o question. On 2026-10-13 the
-literature-check paragraph above was reworded so that its date qualifies the
-check's finding rather than the check; the change touches no examined
-statement, proof, code or input.
+literature-check paragraph above was reworded to drop its date; the change
+touches no examined statement, proof, code or input.
 
 ## Progress
 

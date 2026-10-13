@@ -202,7 +202,7 @@ $$
 a_iG_i\cap xH=a_iG_i\cap a_ig_ihH=a_i(g_iG_i\cap g_iH)=a_ig_i(G_i\cap H)
 $$
 
-consists of $[G_i\cap H:F]$ left cosets of $F$ in $G. Let $I$ denote the set $\{1\leq i\leq k:G_i\not\subseteq H\}$. Since $a_1G_1,\ldots,a_kG_k$ are pairwise disjoint,
+consists of $[G_i\cap H:F]$ left cosets of $F$ in $G$. Let $I$ denote the set $\{1\leq i\leq k:G_i\not\subseteq H\}$. Since $a_1G_1,\ldots,a_kG_k$ are pairwise disjoint,
 
 $$
 xH\setminus\bigcup_{i\in I}a_iG_i=xH-\bigcup_{i\in I}(a_iG_i\cap xH)
@@ -246,7 +246,7 @@ $$
 H\cap\bigcap_{i\in I}G_i=(a^p)\cap(a^n)=(a^{pn}).
 $$
 
-Suppose that the left side of (8) is non-empty. That is, $aH\supseteq a_jG_j$ for some $a\in G$ and $1\leq j\leq k. Clearly, $H\supseteq G_j$. By Theorem 2,
+Suppose that the left side of (8) is non-empty. That is, $aH\supseteq a_jG_j$ for some $a\in G$ and $1\leq j\leq k$. Clearly, $H\supseteq G_j$. By Theorem 2,
 
 $$
 \left|\{a_iH:G_i\subseteq H,1\leq i\leq k\}\right|\geq\left[\bigcap_{i\in I}G_i:H\cap\bigcap_{i\in I}G_i\right]=[(a^n):(a^{pn})]=p=[G:H].
@@ -282,7 +282,7 @@ d(G,H)=
 \end{cases}
 $$
 
-where $H_0=H$, $H_1,\ldots,H_n=G$ is a maximal chain of subgroups of $G$ such that $H_{i-1}$ is normal in $H_i$ for all $i=1,\ldots,n.
+where $H_0=H$, $H_1,\ldots,H_n=G$ is a maximal chain of subgroups of $G$ such that $H_{i-1}$ is normal in $H_i$ for all $i=1,\ldots,n$.
 
 Remark 6. Let $H$ be a subnormal subgroup of $G$. If the index of $H$ in $G$ is finite, then by Theorem 8.4.4 of [2] $d(G,H)$ does not depend on the choice of the chain $H_0,H_1,\ldots,H_n$. If $[G:H]$ is infinite and there exists a (finite) maximal chain $H_0=H,\ldots,H_n=G$ of subgroups of $G$ such that $H_{i-1}$ is normal in $H_i$ for all $i=1,\ldots,n$, then at least one of the indices $[H_i:H_{i-1}]$ is infinite since $[G:H]=\prod_{i=1}^{n}[H_i:H_{i-1}]$, and hence by the absorption law of cardinal arithmetic (cf. [1], p. 164) we have
 
@@ -460,7 +460,7 @@ $$
 
 (iv) $K_s$ is subnormal and has finite index in $K_{s-1}$, because $H_s$ is subnormal and has finite index in $G$ (cf. Fact).
 
-By the choice of $I_s$, $\{g_s^{-1}a_iG_i\cap H\}_{i\in I_s}$ is an $(M,S)$-covering of $H$. By Remark 1 for each $i\in I_s$, $g_s^{-1}a_iG_i\cap H$ is non-empty, and hence it is a left coset of $G_i\cap H$ in $H. Note that $H\in\Gamma$, $G_i\cap H$ is subnormal in $H$ and
+By the choice of $I_s$, $\{g_s^{-1}a_iG_i\cap H\}_{i\in I_s}$ is an $(M,S)$-covering of $H$. By Remark 1 for each $i\in I_s$, $g_s^{-1}a_iG_i\cap H$ is non-empty, and hence it is a left coset of $G_i\cap H$ in $H$. Note that $H\in\Gamma$, $G_i\cap H$ is subnormal in $H$ and
 
 $$
 [H:\bigcap_{i\in I_s}(G_i\cap H)]
@@ -587,7 +587,7 @@ This completes the proof.
 
 From Theorem 4 and Theorem 8, we immediately have
 
-THEOREM 9. Let $G$ be a group and $G_1,\ldots,G_k$ its subnormal subgroups such that for some $a_1,\ldots,a_k\in G$ (2) is a coset decomposition of $G. (Hence (2) is a $(Z^+\cup\{0\},\{1\})$-covering of $G$.) Then for any subgroup $K$ of $G$ not contained in $\bigcap_{i=1}^kG_i$, there exist a proper $l$-subset $\{i_1,\ldots,i_l\}$ of $\{1\leq i\leq k:K\not\subseteq G_i\}$ and $l$ distinct left cosets $C_1,\ldots,C_l$ of $K\cap\bigcap_{i=1}^kG_i$ in $K$ such that $C_s\cap G_{i_s}=\varnothing$ for all $s=1,\ldots,l$, where $l=d\left(K,K\cap\bigcap_{i=1}^kG_i\right)$. (By $l$-subset we mean a subset of $l$ elements.)
+THEOREM 9. Let $G$ be a group and $G_1,\ldots,G_k$ its subnormal subgroups such that for some $a_1,\ldots,a_k\in G$ (2) is a coset decomposition of $G$. (Hence (2) is a $(Z^+\cup\{0\},\{1\})$-covering of $G$.) Then for any subgroup $K$ of $G$ not contained in $\bigcap_{i=1}^kG_i$, there exist a proper $l$-subset $\{i_1,\ldots,i_l\}$ of $\{1\leq i\leq k:K\not\subseteq G_i\}$ and $l$ distinct left cosets $C_1,\ldots,C_l$ of $K\cap\bigcap_{i=1}^kG_i$ in $K$ such that $C_s\cap G_{i_s}=\varnothing$ for all $s=1,\ldots,l$, where $l=d\left(K,K\cap\bigcap_{i=1}^kG_i\right)$. (By $l$-subset we mean a subset of $l$ elements.)
 
 Remark 7. Let $G$ be a group and (2) its coset decomposition. J. Mycielski and W. Sierpiński [4] made a conjecture that $k\geq1+f([G:G_i])$ if $G$ is abelian and $[G:G_i]$ is finite. Š. Znám ([13]) conjectured for the infinite cyclic group $G$ that
 

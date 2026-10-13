@@ -247,9 +247,9 @@ We can make the encoding even more compact by removing a large fraction of the c
 
 $$
 \begin{aligned}
-\mathsf{c}_{i;a,b,c}&\rightarrow\Big(\big(\mathsf{o}_{a,b,c}\rightarrow(\overline{\mathsf{o}}_{a,i,b}\land\mathsf{o}_{a,i,c})\big)\land\big(\overline{\mathsf{o}}_{a,b,c}\rightarrow(\mathsf{o}_{a,i,b}\land\overline{\mathsf{o}}_{a,i,c})\big)\Big) \tag{16}\\
-\mathsf{c}_{i;a,b,c}&\rightarrow\Big(\big(\mathsf{o}_{a,b,c}\rightarrow(\mathsf{o}_{a,i,c}\land\overline{\mathsf{o}}_{b,i,c})\big)\land\big(\overline{\mathsf{o}}_{a,b,c}\rightarrow(\overline{\mathsf{o}}_{a,i,c}\land\mathsf{o}_{b,i,c})\big)\Big) \tag{17}\\
-\mathsf{h}_{a,b,c}&\leftarrow\bigwedge_{\substack{a<i<c\\i\neq b}}\overline{\mathsf{c}}_{i;a,b,c}. \tag{18}
+\mathsf{c}_{i;a,b,c}&\rightarrow\Big(\big(\mathsf{o}_{a,b,c}\rightarrow(\overline{\mathsf{o}}_{a,i,b}\land\mathsf{o}_{a,i,c})\big)\land\big(\overline{\mathsf{o}}_{a,b,c}\rightarrow(\mathsf{o}_{a,i,b}\land\overline{\mathsf{o}}_{a,i,c})\big)\Big) \qquad (16)\\
+\mathsf{c}_{i;a,b,c}&\rightarrow\Big(\big(\mathsf{o}_{a,b,c}\rightarrow(\mathsf{o}_{a,i,c}\land\overline{\mathsf{o}}_{b,i,c})\big)\land\big(\overline{\mathsf{o}}_{a,b,c}\rightarrow(\overline{\mathsf{o}}_{a,i,c}\land\mathsf{o}_{b,i,c})\big)\Big) \qquad (17)\\
+\mathsf{h}_{a,b,c}&\leftarrow\bigwedge_{\substack{a<i<c\\i\neq b}}\overline{\mathsf{c}}_{i;a,b,c}. \qquad (18)
 \end{aligned}
 $$
 

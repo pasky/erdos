@@ -156,41 +156,41 @@ and
 
 $$B\cap[n_k+1,N_k]=B\cap[n_k+1,n_k+N_{k-1}]=R_k.$$
 
-If \(N_k=2n_k+1=c+d\), where \(0\leq c\leq d\), then \(c\leq n_k\) and \(d\geq n_k+1\). If \(c\in B\) and \(c\notin Q_k\), then \(c\leq n_k-N_{k-1}\) and so \(N_k\geq d=N_k-c\geq n_k+N_{k-1}+1\). Since \(B\cap[n_k+N_{k-1}+1,N_k]=\emptyset\), it follows that \(d\notin B\). If \(c\in Q_k\), then \(c=n_k-n_{k-1}-3ku+1\) for some \(u\in[1,k+1]\), hence \(d=N_k-c=n_k+n_{k-1}+3ku\in[n_k+1,N_k]\). Since \(d\notin R_k\), it follows that \(d\notin B\) and so \(N_k\notin 2B\).
+If $N_k=2n_k+1=c+d$, where $0\leq c\leq d$, then $c\leq n_k$ and $d\geq n_k+1$. If $c\in B$ and $c\notin Q_k$, then $c\leq n_k-N_{k-1}$ and so $N_k\geq d=N_k-c\geq n_k+N_{k-1}+1$. Since $B\cap[n_k+N_{k-1}+1,N_k]=\emptyset$, it follows that $d\notin B$. If $c\in Q_k$, then $c=n_k-n_{k-1}-3ku+1$ for some $u\in[1,k+1]$, hence $d=N_k-c=n_k+n_{k-1}+3ku\in[n_k+1,N_k]$. Since $d\notin R_k$, it follows that $d\notin B$ and so $N_k\notin 2B$.
 
-(ii) Let \(k\geq 3\). We apply Lemma 2 to the set \(P_k\). If
+(ii) Let $k\geq 3$. We apply Lemma 2 to the set $P_k$. If
 
 $$
 n\in[2N_{k-1}+2k,N_k-2N_{k-1}-2k+1],\tag{2}
 $$
 
-then \(n\) has at least \(k\) distinct representations as the sum of two elements of \(P_k\).
+then $n$ has at least $k$ distinct representations as the sum of two elements of $P_k$.
 
-Define the sets \(S_k\) and \(T_k\) by
+Define the sets $S_k$ and $T_k$ by
 
 $$
 S_k=[n_k+1,n_k+n_{k-1}+k+1],\qquad T_k=[n_k+n_{k-1}+3k(k+1)+1,n_k+N_{k-1}].
 $$
 
-Then \(S_k\cup T_k\subseteq R_k\). Since
+Then $S_k\cup T_k\subseteq R_k$. Since
 
 $$
 N_{k-1}+n_k+n_{k-1}+3k(k+1)+k+1\leq N_k-2N_{k-1}-2k+2,
 $$
 
-it follows from Lemma 2, applied to the sets \(P_k\) and \(T_k\), that if
+it follows from Lemma 2, applied to the sets $P_k$ and $T_k$, that if
 
 $$
 n\in[N_k-2N_{k-1}-2k+2,N_k-k],\tag{3}
 $$
 
-then \(n\) has at least \(k\) distinct representations in the form \(n=x+y\), where \(x\in P_k\) and \(y\in T_k\subseteq R_k\). Similarly, Lemma 2, applied to the set \(S_{k-1}\), implies that if
+then $n$ has at least $k$ distinct representations in the form $n=x+y$, where $x\in P_k$ and $y\in T_k\subseteq R_k$. Similarly, Lemma 2, applied to the set $S_{k-1}$, implies that if
 
 $$
 n\in[N_{k-1}+2k-1,N_{k-1}+N_{k-2}],\tag{4}
 $$
 
-then \(n\) has at least \(k\) distinct representations as the sum of two elements of \(S_{k-1}\). Finally, Lemma 2, applied to the sets \(P_k\) and \(P_{k-2}\), shows that if
+then $n$ has at least $k$ distinct representations as the sum of two elements of $S_{k-1}$. Finally, Lemma 2, applied to the sets $P_k$ and $P_{k-2}$, shows that if
 
 $$
 \begin{aligned}
@@ -199,15 +199,15 @@ n&\in[N_{k-1}+N_{k-2}+1,2N_{k-1}+2k-1]\\
 \end{aligned}\tag{5}
 $$
 
-then \(n\) has at least \(k\) distinct representations in the form \(n=x+y\), where \(x\in P_k\), \(y\in P_{k-2}\). From (2)–(5), we conclude that if \(n\in[N_{k-1}+2k-1,N_k-k]\), then \(n\) has at least \(k\) distinct representations as a sum of two elements of \(B_k\cup B_{k-1}\cup B_{k-2}\).
+then $n$ has at least $k$ distinct representations in the form $n=x+y$, where $x\in P_k$, $y\in P_{k-2}$. From (2)–(5), we conclude that if $n\in[N_{k-1}+2k-1,N_k-k]$, then $n$ has at least $k$ distinct representations as a sum of two elements of $B_k\cup B_{k-1}\cup B_{k-2}$.
 
-Let \(n\in[N_k-k+1,N_k-1]\). Then \(n=N_k-w\) for some \(w\in[1,k-1]\) and
+Let $n\in[N_k-k+1,N_k-1]$. Then $n=N_k-w$ for some $w\in[1,k-1]$ and
 
 $$
 n=(n_k-n_{k-1}-3ku+1)+(n_k+n_{k-1}+3ku-w)\in Q_k+R_k\subseteq 2B_k
 $$
 
-for \(u=1,2,\ldots,k\). Let \(n\in[N_{k-1}+1,N_{k-1}+2k-2]\). Then \(n=N_{k-1}+w\) for some \(w\in[1,2k-2]\) and
+for $u=1,2,\ldots,k$. Let $n\in[N_{k-1}+1,N_{k-1}+2k-2]$. Then $n=N_{k-1}+w$ for some $w\in[1,2k-2]$ and
 
 $$
 \begin{aligned}
@@ -216,7 +216,7 @@ n={}&(n_{k-1}-n_{k-2}-3(k-1)u+1)\\
 \end{aligned}
 $$
 
-for \(u=1,2,\ldots,k\). Thus, if \(n\in[N_{k-1}+1,N_k-1]\), then \(n\) has at least \(k representations as a sum of two elements of $B_k\cup B_{k-1}\cup B_{k-2}$. This completes the proof of Lemma 3.
+for $u=1,2,\ldots,k$. Thus, if $n\in[N_{k-1}+1,N_k-1]$, then $n$ has at least $k$ representations as a sum of two elements of $B_k\cup B_{k-1}\cup B_{k-2}$. This completes the proof of Lemma 3.
 
 LEMMA 4. Let $B$ be the set of integers defined in Lemma 3. Let $r_B(n)$ denote the number of representations of $n$ in the form $n=b+b'$, where $b,b'\in B$ and $b\leq b'$. Then $r_B(N_k)=0$ for all $k$, and $r_B(n)\to\infty$ as $n\to\infty$, $n\ne N_k$.
 

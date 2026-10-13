@@ -74,7 +74,7 @@ $$
 \big|\{G\in UG(n)\mid|\mathrm{Aut}(G)|\geq 2\}\big|=o\left(\frac{2^{\binom{n}{2}}}{n!}\right). \tag{1}
 $$
 
-Note that by Theorem 1.1, the number of unlabelled graphs on at most \(n-1\) vertices is \(o\left(\frac{2^{\binom{n}{2}}}{n!}\right)\). Using this and (1), we have
+Note that by Theorem 1.1, the number of unlabelled graphs on at most $n-1$ vertices is $o\left(\frac{2^{\binom{n}{2}}}{n!}\right)$. Using this and (1), we have
 
 $$
 \begin{aligned}
@@ -85,31 +85,31 @@ f(H)&=\frac{n!}{2^{\binom{n}{2}}}\cdot\left|\{G\in\mathrm{UG}(n)\mid G\subseteq^
 \end{aligned}
 $$
 
-To conclude the proof, observe that \(G\to^*H\) if and only if \(G\subseteq^*H\land|\mathrm{Aut}(G)|=1\). \(\square\)
+To conclude the proof, observe that $G\to^*H$ if and only if $G\subseteq^*H\land|\mathrm{Aut}(G)|=1$. $\square$
 
 ### 2.2 Reduction to the very dense case
 
-**Lemma 2.2.** *For any \(\delta>0\), there is a constant \(C=C(\delta)\) such that the following holds. If \(H\) is a graph on \(n\) vertices satisfying \(\mathbb{P}_{G\sim\mathcal{G}(n,1/2)}[G\to^*H]\geq\delta/2\), then \(e(H)\geq\binom{n}{2}-Cn\).*
+**Lemma 2.2.** *For any $\delta>0$, there is a constant $C=C(\delta)$ such that the following holds. If $H$ is a graph on $n$ vertices satisfying $\mathbb{P}_{G\sim\mathcal{G}(n,1/2)}[G\to^*H]\geq\delta/2$, then $e(H)\geq\binom{n}{2}-Cn$.*
 
-*Proof.* Fix \(\delta>0\). Clearly, we may assume \(n\) is sufficiently large by increasing \(C\). Let \(G\sim\mathcal{G}(n,1/2)\) and let \(H\) be an \(n\)-vertex graph with \(\mathbb{P}[G\to^*H]\geq\delta/2\). By the Chernoff bound (e.g. [19]), there is a constant \(L=L(\delta)\) such that
+*Proof.* Fix $\delta>0$. Clearly, we may assume $n$ is sufficiently large by increasing $C$. Let $G\sim\mathcal{G}(n,1/2)$ and let $H$ be an $n$-vertex graph with $\mathbb{P}[G\to^*H]\geq\delta/2$. By the Chernoff bound (e.g. [19]), there is a constant $L=L(\delta)$ such that
 
 $$
 \mathbb{P}\left[\left|e(G)-\binom{n}{2}/2\right|\geq Ln\right]\leq\delta/4.
 $$
 
-Let \(I=[\binom{n}{2}/2-Ln,\binom{n}{2}/2+Ln]\). Then,
+Let $I=[\binom{n}{2}/2-Ln,\binom{n}{2}/2+Ln]$. Then,
 
 $$
 \mathbb{P}[G\to^*H\land e(G)\in I]\geq\delta/4.
 $$
 
-Set \(N=\binom{n}{2}\) and note that by Stirling’s approximation, for large enough \(n\) and any \(t\),
+Set $N=\binom{n}{2}$ and note that by Stirling’s approximation, for large enough $n$ and any $t$,
 
 $$
 \mathbb{P}[\operatorname{Bin}(N,1/2)=t]\leq\mathbb{P}[\operatorname{Bin}(N,1/2)=N/2]\leq 1/\sqrt{N}.
 $$
 
-Therefore, \(\mathbb{P}[e(G)=m]\leq 2/n\) for all \(m\). Consider the random graph process \(\widetilde{G}=(G_m)_{m=0}^N\) independent of \(G\) and let
+Therefore, $\mathbb{P}[e(G)=m]\leq 2/n$ for all $m$. Consider the random graph process $\widetilde{G}=(G_m)_{m=0}^N$ independent of $G$ and let
 
 $$
 X=\left|\{m\in I\mid G_m\to^*H\}\right|.
@@ -124,19 +124,19 @@ $$
 \end{aligned}
 $$
 
-Therefore \(\mathbb{E}[X]\geq\delta n/8\). Since \(X\leq|I|\leq 3Ln\), we have
+Therefore $\mathbb{E}[X]\geq\delta n/8$. Since $X\leq|I|\leq 3Ln$, we have
 
 $$
 \mathbb{P}[X\geq\delta n/16]\geq\frac{\delta}{48L}.
 $$
 
-If \(X\geq 1\), let (the random variable) \(m^*\) denote the minimum value of \(m\in I\) such that \(G_m\to^*H\). By the law of total probability, there exists a graph \(G^*\) such that
+If $X\geq 1$, let (the random variable) $m^*$ denote the minimum value of $m\in I$ such that $G_m\to^*H$. By the law of total probability, there exists a graph $G^*$ such that
 
 $$
 \mathbb{P}_{\widetilde{G}}[X\geq\delta n/16\mid G_{m^*}=G^*]\geq\frac{\delta}{48L}.
 $$
 
-Let \(m_2=m^*+\delta n/16-1\). Observe that the number of embeddings of \(G_m\) into \(H\) is non-increasing in \(m\). Consequently, the set of \(m\) such that \(G_m\to^*H\) forms an interval. Therefore, if \(G_{m^*}=G^*\) and \(X\geq\delta n/16\) then \(G_{m_2}\to^*H\). It follows that
+Let $m_2=m^*+\delta n/16-1$. Observe that the number of embeddings of $G_m$ into $H$ is non-increasing in $m$. Consequently, the set of $m$ such that $G_m\to^*H$ forms an interval. Therefore, if $G_{m^*}=G^*$ and $X\geq\delta n/16$ then $G_{m_2}\to^*H$. It follows that
 
 $$
 \mathbb{P}[G_{m_2}\to^*H\mid G_{m^*}=G^*]\geq\mathbb{P}[X\geq\delta n/16\mid G_{m^*}=G^*]\geq\frac{\delta}{48L}.

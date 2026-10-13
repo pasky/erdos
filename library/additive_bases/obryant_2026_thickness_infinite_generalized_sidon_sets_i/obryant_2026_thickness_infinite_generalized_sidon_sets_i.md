@@ -259,7 +259,7 @@ $$
 \end{aligned}
 $$
 
-Claim 8 is verified. \hfill $\square$
+Claim 8 is verified. $\square$
 
 Using Claim 7 and Claim 8 in Cauchy’s Inequality (4), we get a lower bound on the energy:
 
@@ -273,7 +273,7 @@ $$
 \left(\lim_{N\to\infty}\widetilde{\tau}_N\right)^2\frac{\log 2}{4}\leq 2c,
 $$
 
-where the limit exists because $\widetilde{\tau}_N$ is nondecreasing and bounded. This implies that $\widetilde{\tau}_N\leq\sqrt{\frac{8c}{\log 2}}$, so that by definition $\widetilde{\tau}_N=\tau_N$. The inequality $\tau_N\leq\sqrt{\frac{8c}{\log 2}}$ is the conclusion of Lemma 6. \hfill $\square$
+where the limit exists because $\widetilde{\tau}_N$ is nondecreasing and bounded. This implies that $\widetilde{\tau}_N\leq\sqrt{\frac{8c}{\log 2}}$, so that by definition $\widetilde{\tau}_N=\tau_N$. The inequality $\tau_N\leq\sqrt{\frac{8c}{\log 2}}$ is the conclusion of Lemma 6. $\square$
 
 We are now positioned to prove Theorem 1 quickly.
 
@@ -488,9 +488,11 @@ $$
 \limsup_{n\to\infty}\frac{|\mathcal{G}\cap[0,n)|}{\sqrt{n}}&\geq\lim_{i\to\infty}\frac{|\mathcal{G}\cap[0,q_{i+1}+2m_{i+1})|}{\sqrt{q_{i+1}+2m_{i+1}}}\\
 &=\lim_{i\to\infty}\frac{|\mathcal{G}_{i+1}|}{\sqrt{q_i^3+2(q_i^6-1)/g}}\\
 &=\lim_{i\to\infty}\frac{q_i^3-O(q_i^2)}{\sqrt{2/g}\,q_i^3+O(1)}\\
-&=\frac{\sqrt{g}}{\sqrt{2}}.\qed
+&=\frac{\sqrt{g}}{\sqrt{2}}.
 \end{aligned}
 $$
+
+$\square$
 
 ### 4.1 Nonrigorous thoughts about the proof
 

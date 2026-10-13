@@ -8,15 +8,15 @@ MATHEMATICAL INSTITUTE, UNIVERSITY OF OXFORD
 
 CONTENTS
 
-1. Introduction \hfill 1  
-2. Notation \hfill 2  
-3. Preliminaries \hfill 3  
-4. The Proof \hfill 4  
-5. Case 1: $\left|A_{\left(\frac{2}{3},1\right]}\right|\geqslant\frac{2n}{9}+\frac{4}{3}$. \hfill 5  
-6. Case 2: $\frac{n}{6}+24\leqslant\left|A_{\left(\frac{2}{3},1\right]}\right|<\frac{2n}{9}+\frac{4}{3}$. \hfill 6  
-7. Case 3: $\left|A_{\left(\frac{2}{3},1\right]}\right|<\frac{n}{6}+24$. \hfill 11  
+1. Introduction 1  
+2. Notation 2  
+3. Preliminaries 3  
+4. The Proof 4  
+5. Case 1: $\left|A_{\left(\frac{2}{3},1\right]}\right|\geqslant\frac{2n}{9}+\frac{4}{3}$. 5  
+6. Case 2: $\frac{n}{6}+24\leqslant\left|A_{\left(\frac{2}{3},1\right]}\right|<\frac{2n}{9}+\frac{4}{3}$. 6  
+7. Case 3: $\left|A_{\left(\frac{2}{3},1\right]}\right|<\frac{n}{6}+24$. 11  
 
-References \hfill 43
+References 43
 
 ## 1. INTRODUCTION
 
@@ -58,7 +58,7 @@ $$
 (\alpha,\beta]\vcentcolon=\{m\in\mathbf{N}:\alpha<m\leq\beta\}
 $$
 
-and similarly for other types of intervals. We also write $[\beta]$ for $[1,\beta]$. Throughout the paper, whenever we write the word ‘interval’, we mean a set of consecutive integers. For a set $X\subset\mathbf{Z}$, we define $\diam X\vcentcolon=\max X-\min X$ and $\gcd_{*}(X)\vcentcolon=\gcd(X-X)$ is the greatest common divisor of all differences $x-x^{\prime}$ with $x,x^{\prime}\in X$. Equivalently, $\gcd_{*}(X)$ is the largest integer $d$ such that $X$ is contained in an arithmetic progression with common difference $d$.
+and similarly for other types of intervals. We also write $[\beta]$ for $[1,\beta]$. Throughout the paper, whenever we write the word ‘interval’, we mean a set of consecutive integers. For a set $X\subset\mathbf{Z}$, we define $\operatorname{diam} X\vcentcolon=\max X-\min X$ and $\gcd_{*}(X)\vcentcolon=\gcd(X-X)$ is the greatest common divisor of all differences $x-x^{\prime}$ with $x,x^{\prime}\in X$. Equivalently, $\gcd_{*}(X)$ is the largest integer $d$ such that $X$ is contained in an arithmetic progression with common difference $d$.
 
 In our proofs of Theorems 1 and 2, we will work with a set $A\subset[n]$ having property P. We will need to consider parts of $A$ lying in various subintervals of $[n]$ and hence we will use the following notation for real numbers $0\leq\alpha<\beta\leq1$:
 
@@ -94,9 +94,9 @@ $$
 
 *Proof.* We show that $k\cdot B$ and $\left(A_{(\alpha,1]}+A_{(\alpha,1]}\right)\cap I\cap(a+q\cdot\mathbf{N})$ are disjoint sets. If not, there exists some $b\in B$ so that $kb\in A_{(\alpha,1]}+A_{(\alpha,1]}$ contradicting that $A$ has property P as $kb$ is a multiple of some number in $A_{[\alpha]}$ by assumption. Hence, $k\cdot B$ and $\left(A_{(\alpha,1]}+A_{(\alpha,1]}\right)\cap I\cap(a+q\cdot\mathbf{N})$ are disjoint sets contained in $I\cap(a+q\cdot\mathbf{N})$. As $I$ is an interval, we have the bound $\left|I\cap(a+q\cdot\mathbf{N})\right|<\frac{|I|}{q}+1$ so (1) follows. $\square$
 
-We will crucially make use of the following theorem, which is a lesser-known version of Freiman’s $3k-4$ theorem. Freiman proved that if $S$ is a set of integers with doubling $|S+S|\leqslant 3|S|-4$, then $S+S$ contains an arithmetic progression of length $2|S|-1$. We shall need the following generalisation due to Bardaji and Grynkiewicz [2]. Recall that for a set $S$ of integers, we define $\diam S\vcentcolon=\max S-\min S$ and $\gcd_{*}(S)\vcentcolon=\gcd(S-S)$ is the greatest common divisor of all differences $s-s'$ with $s,s'\in S$. One can see from this definition that the $\gcd_{*}$ of a set $S$ is in fact the largest integer $d$ such that $S$ is contained in an arithmetic progression with common difference $d$.
+We will crucially make use of the following theorem, which is a lesser-known version of Freiman’s $3k-4$ theorem. Freiman proved that if $S$ is a set of integers with doubling $|S+S|\leqslant 3|S|-4$, then $S+S$ contains an arithmetic progression of length $2|S|-1$. We shall need the following generalisation due to Bardaji and Grynkiewicz [2]. Recall that for a set $S$ of integers, we define $\operatorname{diam} S\vcentcolon=\max S-\min S$ and $\gcd_{*}(S)\vcentcolon=\gcd(S-S)$ is the greatest common divisor of all differences $s-s'$ with $s,s'\in S$. One can see from this definition that the $\gcd_{*}$ of a set $S$ is in fact the largest integer $d$ such that $S$ is contained in an arithmetic progression with common difference $d$.
 
-**Theorem 3** (Bardaji & Grynkiewicz [2], Corollary 1.2). *Let $S,T$ be non-empty subsets of $\mathbf{Z}$ with $\diam T\leqslant\diam S$ and $\gcd_{*}(S+T)=1$. If*
+**Theorem 3** (Bardaji & Grynkiewicz [2], Corollary 1.2). *Let $S,T$ be non-empty subsets of $\mathbf{Z}$ with $\operatorname{diam} T\leqslant\operatorname{diam} S$ and $\gcd_{*}(S+T)=1$. If*
 
 $$
 |S+T|\leqslant|S|+2|T|-4
@@ -500,7 +500,7 @@ $$
 
 where we used (27), (30) and (31) to obtain the third line, and for the final inequality we plugged in the trivial bound $\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|<\frac{n}{6}+1$ as there are at most this many numbers in $\left(\frac{n}{2},n\right]$ congruent to $1\!\!\mod 3$. This is stronger than the desired bound (2) for $n$ sufficiently large and hence this concludes the proof of Lemma 6. $\square$
 
-By Lemma 6 may now assume that neither of $A_{\left(\frac{1}{2},1\right]}^{1(3)},A_{\left(\frac{1}{2},1\right]}^{2(3)}$ is empty, so we can apply Theorem 4 to $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$. Hence, we deduce that either conclusion (1) from Theorem 4 holds so $\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\geqslant\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|+\min\left(\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|,\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\right)-3$ or else that conclusion (2) from Theorem 4 holds so that $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ contains an arithmetic progression $Q$ with common difference $d=\gcd_*\left(A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right)$ and size $\left|Q\right|\geqslant\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|-1$. Let us assume first that conclusion (2) holds, so $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ contains a long arithmetic progression $Q$. We show that we must have $d=3,6$ or $9$. Indeed, the sumset $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ by definition consists of multiples of 3 only so that $3\mid d$. Further, as $d=\gcd_*\left(A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right)$, we see that $A_{\left(\frac{1}{2},1\right]}^{1(3)},A_{\left(\frac{1}{2},1\right]}^{2(3)}\subset $\left(\frac{n}{2},n\right]$ both lie in progressions with common difference $d$. We can therefore trivially bound $\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\leq 2\left\lceil\frac{n}{2d}\right\rceil$. As we are in Subcase 3.1, we also get that
+By Lemma 6 may now assume that neither of $A_{\left(\frac{1}{2},1\right]}^{1(3)},A_{\left(\frac{1}{2},1\right]}^{2(3)}$ is empty, so we can apply Theorem 4 to $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$. Hence, we deduce that either conclusion (1) from Theorem 4 holds so $\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\geqslant\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|+\min\left(\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|,\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\right)-3$ or else that conclusion (2) from Theorem 4 holds so that $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ contains an arithmetic progression $Q$ with common difference $d=\gcd_*\left(A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right)$ and size $\left|Q\right|\geqslant\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|-1$. Let us assume first that conclusion (2) holds, so $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ contains a long arithmetic progression $Q$. We show that we must have $d=3,6$ or $9$. Indeed, the sumset $A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}$ by definition consists of multiples of 3 only so that $3\mid d$. Further, as $d=\gcd_*\left(A_{\left(\frac{1}{2},1\right]}^{1(3)}+A_{\left(\frac{1}{2},1\right]}^{2(3)}\right)$, we see that $A_{\left(\frac{1}{2},1\right]}^{1(3)},A_{\left(\frac{1}{2},1\right]}^{2(3)}\subset\left(\frac{n}{2},n\right]$ both lie in progressions with common difference $d$. We can therefore trivially bound $\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\leq 2\left\lceil\frac{n}{2d}\right\rceil$. As we are in Subcase 3.1, we also get that
 
 $$
 \left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|\geq\frac{2\left|A_{\left(\frac{1}{2},1\right]}\right|}{3}>\left(\frac{1}{3}-\delta\right)\frac{n}{3}
@@ -524,7 +524,7 @@ $$
 \tag{33}
 $$
 
-where the extra terms $\frac{\delta n}{3}+2$ account for the possible existence of this many multiples of $3$ in $A\cap\left[\frac{n}{2}\right]$. As $A$ has property P, the sets $C'_1$, $A_{\left(\frac{1}{2},1\right]}^{1(3)}$ and $A_{\left(\frac{1}{2},1\right]}^{2(3)}$ must be pairwise disjoint subsets of $\left(\frac{n}{2},n\right]$. Now note that every number in $A_{\left(\frac{1}{2},1\right]}^{1(3)}\cup A_{\left(\frac{1}{2},1\right]}^{2(3)}\cup C'_1$ lies in one of the residue classes $a_1,a_1+9,a_2,a_2+9,2,4,8,10,14,16\mod 18$ because $C'_1$ contains only even numbers not divisible by $3$, while $A_{\left(\frac{1}{2},1\right]}^{1(3)}$ and $A_{\left(\frac{1}{2},1\right]}^{2(3)}$ only contain numbers which are $a_1,a_2\mod 9$. Amongst these $10$ numbers there are in fact only $8 distinct residues modulo 18 as one of $a_1, a_1+9$ must be even and not a multiple of 3, and similarly for one of $a_2, a_2+9$. Hence, the trivial bound gives
+where the extra terms $\frac{\delta n}{3}+2$ account for the possible existence of this many multiples of $3$ in $A\cap\left[\frac{n}{2}\right]$. As $A$ has property P, the sets $C'_1$, $A_{\left(\frac{1}{2},1\right]}^{1(3)}$ and $A_{\left(\frac{1}{2},1\right]}^{2(3)}$ must be pairwise disjoint subsets of $\left(\frac{n}{2},n\right]$. Now note that every number in $A_{\left(\frac{1}{2},1\right]}^{1(3)}\cup A_{\left(\frac{1}{2},1\right]}^{2(3)}\cup C'_1$ lies in one of the residue classes $a_1,a_1+9,a_2,a_2+9,2,4,8,10,14,16\mod 18$ because $C'_1$ contains only even numbers not divisible by $3$, while $A_{\left(\frac{1}{2},1\right]}^{1(3)}$ and $A_{\left(\frac{1}{2},1\right]}^{2(3)}$ only contain numbers which are $a_1,a_2\mod 9$. Amongst these $10$ numbers there are in fact only $8$ distinct residues modulo 18 as one of $a_1, a_1+9$ must be even and not a multiple of 3, and similarly for one of $a_2, a_2+9$. Hence, the trivial bound gives
 
 $$
 \left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|+\left|C_1'\right|\leqslant 8\left\lceil\frac{n}{36}\right\rceil \tag{34}
@@ -561,7 +561,7 @@ $$
 C_1\cap\left(\frac{n}{3},\frac{n}{2}\right]\subset B_1\text{ and }2\cdot\left(C_1\cap\left(\frac{n}{4},\frac{n}{3}\right]\right)\subset B_1.
 $$
 
-In the paragraph preceding (18), we showed that $B_1$ and $A'''$ are disjoint. By (35), $A'''$ contains all except at most $\frac{\delta n}{3}+2$ of the numbers which are $2 \mod 3$ in $\left(\frac{n}{3},\frac{2n}{3}\right]$, so the disjointness of $A'''$ and $B_1$ and the two inclusions above imply that $\left(C_1\cap\left(\frac{n}{3},\frac{n}{2}\right]\right)\cup $2\cdot\left(C_1\cap\left(\frac{n}{4},\frac{n}{3}\right]\right)$ contains at most $\frac{\delta n}{3}+2$ numbers which are $2\!\!\mod 3$. Hence, with the exception of at most $\frac{\delta n}{3}+2$ numbers in $C_1$, every element of $C_1\cap\left(\frac{n}{4},\frac{n}{3}\right]$ must be $2\!\!\mod 3$ and every element of $C_1\cap\left(\frac{n}{3},\frac{n}{2}\right]$ must be $1\!\!\mod 3$. This yields the bound
+In the paragraph preceding (18), we showed that $B_1$ and $A'''$ are disjoint. By (35), $A'''$ contains all except at most $\frac{\delta n}{3}+2$ of the numbers which are $2 \mod 3$ in $\left(\frac{n}{3},\frac{2n}{3}\right]$, so the disjointness of $A'''$ and $B_1$ and the two inclusions above imply that $\left(C_1\cap\left(\frac{n}{3},\frac{n}{2}\right]\right)\cup 2\cdot\left(C_1\cap\left(\frac{n}{4},\frac{n}{3}\right]\right)$ contains at most $\frac{\delta n}{3}+2$ numbers which are $2\!\!\mod 3$. Hence, with the exception of at most $\frac{\delta n}{3}+2$ numbers in $C_1$, every element of $C_1\cap\left(\frac{n}{4},\frac{n}{3}\right]$ must be $2\!\!\mod 3$ and every element of $C_1\cap\left(\frac{n}{3},\frac{n}{2}\right]$ must be $1\!\!\mod 3$. This yields the bound
 
 $$
 \left|C_1\right|\leqslant\left\lceil\frac{n}{36}\right\rceil+\left\lceil\frac{n}{18}\right\rceil+\frac{\delta n}{3}+2. \tag{37}
@@ -594,7 +594,7 @@ $$
 |Q|\geqslant\left|A_{\left(\frac{1}{2},1\right]}^{1(3)}\right|+\left|A_{\left(\frac{1}{2},1\right]}^{2(3)}\right|-1\geqslant\frac{2\left|A_{\left(\frac{1}{2},1\right]}\right|}{3}-1. \tag{39}
 $$
 
-(the final inequality follows as we are in Subcase 3.1) with common difference 6 consisting of multiples of 6. So $\frac{1}{3}\cdot Q\subset A^{\prime\prime\prime}\cap(2\cdot\mathbf{N})$ by the definition (17) of $A^{\prime\prime\prime}$. Recall the construction (3) of $B_1$ and let $E_{B_1},O_{B_1}$ be the even/odd numbers in $B_1$. By the discussion preceding (18), we have that $E_{B_1}\subset B_1$ and $\frac{1}{3}\cdot Q\subset A^{\prime\prime\prime}\cap(2\cdot\mathbf{N}) are disjoint sets of even numbers contained in $\left(\frac{n}{3},\frac{2n}{3}\right]$. This yields the bound
+(the final inequality follows as we are in Subcase 3.1) with common difference 6 consisting of multiples of 6. So $\frac{1}{3}\cdot Q\subset A^{\prime\prime\prime}\cap(2\cdot\mathbf{N})$ by the definition (17) of $A^{\prime\prime\prime}$. Recall the construction (3) of $B_1$ and let $E_{B_1},O_{B_1}$ be the even/odd numbers in $B_1$. By the discussion preceding (18), we have that $E_{B_1}\subset B_1$ and $\frac{1}{3}\cdot Q\subset A^{\prime\prime\prime}\cap(2\cdot\mathbf{N})$ are disjoint sets of even numbers contained in $\left(\frac{n}{3},\frac{2n}{3}\right]$. This yields the bound
 
 $$
 \left|E_{B_1}\right|\leqslant\frac{n}{6}+1-\left|Q\right|\leqslant\frac{n}{6}-\frac{2\left|A_{(\frac{1}{2},1]}\right|}{3}+2. \tag{40}

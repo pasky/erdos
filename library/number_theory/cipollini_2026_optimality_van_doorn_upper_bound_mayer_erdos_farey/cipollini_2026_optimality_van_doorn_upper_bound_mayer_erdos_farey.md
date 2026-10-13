@@ -172,7 +172,7 @@ $$
 \end{aligned}
 $$
 
-The equation $sp-hq=e$ is identical after changing signs. \hfill $\square$
+The equation $sp-hq=e$ is identical after changing signs. $\square$
 
 **Lemma 3 (Uniform Farey count).** *Uniformly for intervals* $J\subset [0,1]$,
 
@@ -205,7 +205,7 @@ $$
 \sum_{d>n}\frac{1}{d^2}=O(1/n),
 $$
 
-the result follows. \hfill$\square$
+the result follows. $\square$
 
 **Lemma 4** (Farey gaps). *Let*
 

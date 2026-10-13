@@ -110,9 +110,9 @@ We need also the following observation form [8] (see eq. (2.2) and (2.3))
 
 $$
 \begin{aligned}
-P_q(z)&=\frac{1}{\sqrt{q}}D_q(z)-\frac{2}{\sqrt{q}}\sum_{j=0}^{N-1}\eta_j^{\prime}z^j \tag{2}\\
-&=\frac{2}{\sqrt{q}}\sum_{j=0}^{N-1}\eta_jz^j-\frac{1}{\sqrt{q}}D_q(z), \tag{3}\\
-&\text{where }e^{i\theta}=z,\ \theta\in\mathbb{R},\ \text{and }\eta_j,\eta_j^{\prime}\in\{0,1\},\ j=0,\ldots,N-1. \tag{4}
+P_q(z)&=\frac{1}{\sqrt{q}}D_q(z)-\frac{2}{\sqrt{q}}\sum_{j=0}^{N-1}\eta_j^{\prime}z^j \qquad (2)\\
+&=\frac{2}{\sqrt{q}}\sum_{j=0}^{N-1}\eta_jz^j-\frac{1}{\sqrt{q}}D_q(z), \qquad (3)\\
+&\text{where }e^{i\theta}=z,\ \theta\in\mathbb{R},\ \text{and }\eta_j,\eta_j^{\prime}\in\{0,1\},\ j=0,\ldots,N-1. \qquad (4)
 \end{aligned}
 $$
 

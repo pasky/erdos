@@ -330,7 +330,7 @@ and $n+2\left[\frac{K+1}{2}\right]+2-i\in A$, i.e., $2n+4\left[\frac{K+1}{2}\rig
 
 the same argument can be repeated for $2n+4\left[\frac{K+1}{2}\right]+4$, etc., so that
 
-for $n$ sufficiently large, $2n+4\left[\frac{K+1}{2}\right]+j+2\in S(A)$ for $1\leq j\leq4\left[\frac{K+1}{2}\right]+3. Hence $S(A)$ contains a subset $A'$ with
+for $n$ sufficiently large, $2n+4\left[\frac{K+1}{2}\right]+j+2\in S(A)$ for $1\leq j\leq4\left[\frac{K+1}{2}\right]+3$. Hence $S(A)$ contains a subset $A'$ with
 
 $$
 0<a'_1<\cdots<a'_{n+4\left[\frac{K+1}{2}\right]+3}
@@ -345,11 +345,11 @@ $$
 
 then by the induction hypothesis all integers $>2n+8\left[\frac{K+1}{2}\right]+5$ belong
 
-to $S(A)$. But since $2n+4\left[\frac{K+1}{2}\right]+j+2\in S(A)$ for $1\leq j\leq4\left[\frac{K+1}{2}\right]+3
+to $S(A)$. But since $2n+4\left[\frac{K+1}{2}\right]+j+2\in S(A)$ for $1\leq j\leq4\left[\frac{K+1}{2}\right]+3$
 
-then all integers $>2n+4\left[\frac{K+1}{2}\right]+2$ belong to $S(A)$. However, $4\left[\frac{K+1}{2}\right]+
+then all integers $>2n+4\left[\frac{K+1}{2}\right]+2$ belong to $S(A)$. However, $4\left[\frac{K+1}{2}\right]+$
 
-+2<4K-1$ for $K\geq2$ so that (6) holds in this case.
+$+2<4K-1$ for $K\geq2$ so that (6) holds in this case.
 
 (ii) Suppose $a_1\leq n+\left[\frac{K+1}{2}\right]$. Consider the $3K-1$ integers $2n+$
 

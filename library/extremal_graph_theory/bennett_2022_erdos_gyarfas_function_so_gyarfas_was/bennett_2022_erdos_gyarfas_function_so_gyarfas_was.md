@@ -270,7 +270,7 @@ $$
 p=p(t):=1-6t. \tag{8}
 $$
 
-We would also like a heuristic for the probability that some vertex $u$ has been hit by a color $k\notin S_{u}$. In this process, $u$ should be getting hit by colors at about the same rate throughout the process. In fact, the proportion of colors in $\textsc{col}\setminus S_{u}$ that have hit $u$ should be about the same as the proportion $1-p$ of edges in the graph we have colored. Thus, we heuristically assume that the probability $k\notin S_{u}$ has hit $u$ is $1-p$.
+We would also like a heuristic for the probability that some vertex $u$ has been hit by a color $k\notin S_{u}$. In this process, $u$ should be getting hit by colors at about the same rate throughout the process. In fact, the proportion of colors in $\text{\small COL}\setminus S_{u}$ that have hit $u$ should be about the same as the proportion $1-p$ of edges in the graph we have colored. Thus, we heuristically assume that the probability $k\notin S_{u}$ has hit $u$ is $1-p$.
 
 Recall that
 
@@ -278,19 +278,19 @@ $$
 s=\frac{\frac{\varepsilon}{2}}{\frac{5}{6}+\frac{\varepsilon}{2}}
 $$
 
-is the probability that (for some fixed color $k$ and vertex $u$) $k$ is chosen to be in $S_{u}$. Note that the expected number of colors in $|\textsc{col}\setminus S_{u}|$ is $(1-s)|\textsc{col}|=\frac{5}{6}n$ and so
+is the probability that (for some fixed color $k$ and vertex $u$) $k$ is chosen to be in $S_{u}$. Note that the expected number of colors in $|\text{\small COL}\setminus S_{u}|$ is $(1-s)|\text{\small COL}|=\frac{5}{6}n$ and so
 
 $$
-|\textsc{col}|=\frac{5}{6}n\cdot\frac{1}{1-s}.
+|\text{\small COL}|=\frac{5}{6}n\cdot\frac{1}{1-s}.
 $$
 
 We will need to pay careful attention to alternating paths to analyze our process. Heuristically, for some uncolored edge $e$ and a color $k$, we will assume that there is some function $r(t)$ which we treat as the probability there is no $(uv,k)$-alternating path at time $t$. We will guess the appropriate function $r(t)$ using a Poisson heuristic. For a Poisson random variable $X$, if $\lambda=E[X]$ then $\mathbb{P}(X=0)=e^{-\lambda}$. If we let $X$ be the number of $(uv,k)$-alternating path at time $t$, then we ought to have
 
 $$
-E[X]\approx n^{2}\cdot(1-p)^{3}\cdot\left(\frac{1}{|\textsc{col}|}\right)^{2},
+E[X]\approx n^{2}\cdot(1-p)^{3}\cdot\left(\frac{1}{|\text{\small COL}|}\right)^{2},
 $$
 
-since we have about $n^{2}$ choices for possible vertices $x$ and $y$ in $u-x-y-v$, each of the edges $ux$, $xy$ and $yv$ are colored with probability $1-p$, $xy$ has the color $k$ with probability $1/|\textsc{col}|$, and the edges $ux$ and $yv$ have the same color with probability $1/|\textsc{col}|$ as well. Now substituting the value of $|\textsc{col}|$ gives
+since we have about $n^{2}$ choices for possible vertices $x$ and $y$ in $u-x-y-v$, each of the edges $ux$, $xy$ and $yv$ are colored with probability $1-p$, $xy$ has the color $k$ with probability $1/|\text{\small COL}|$, and the edges $ux$ and $yv$ have the same color with probability $1/|\text{\small COL}|$ as well. Now substituting the value of $|\text{\small COL}|$ gives
 
 $$
 E[X]\approx n^{2}\cdot(1-p)^{3}\cdot\left(\frac{1}{\frac{5}{6}n\cdot\frac{1}{1-s}}\right)^{2}=\frac{36}{25}(1-s)^{2}(1-p)^{3}=\frac{7776}{25}(1-s)^{2}t^{3}.
@@ -352,7 +352,7 @@ where $u'$, $u''$ and $k'$ are fixed.
 
 **Definition 5.** For each edge $u'u''$ and each color $k'\notin S_{u'}\cup S_{u''}$ we define the random variable $A_{u'u'',k'}=A_{u'u'',k'}(i)$ to be the set of pairs $(u,k)$ such that $k$ is available at $uu'$ and $uu''$, and $k'\in S_u$.
 
-Note that technically our definition above does not assume that $k'$ is available at $u'u''$. However whenever that happens to be the case we have for all $(u,k)\in A_{u'u'',k'}$ that the color pair $(k,k')$ is available at the oriented triangle $(u,u',u'')$. Based on our heuristics we predict the following trajectory of $A_{u'u'',k'}$. First, we choose a vertex $u$ with two uncolored edges $uu'$ and $uu''$ having about $np^2$ choices. We need to make sure that $k'\in S_u$, which happens with probability $s$. The number of possible choices for $k\notin S_u\cup S_{u'}\cup S_{u''}$ is $|\textsc{col}|(1-s)^3$ and the probability that $k$ did not hit $u$, $u'$ or $u''$ in the previous steps is $p^3$. Finally, with probability $r^2$ we avoid $(uu',k)$- and $(uu'',k)$-alternating paths. Thus,
+Note that technically our definition above does not assume that $k'$ is available at $u'u''$. However whenever that happens to be the case we have for all $(u,k)\in A_{u'u'',k'}$ that the color pair $(k,k')$ is available at the oriented triangle $(u,u',u'')$. Based on our heuristics we predict the following trajectory of $A_{u'u'',k'}$. First, we choose a vertex $u$ with two uncolored edges $uu'$ and $uu''$ having about $np^2$ choices. We need to make sure that $k'\in S_u$, which happens with probability $s$. The number of possible choices for $k\notin S_u\cup S_{u'}\cup S_{u''}$ is $|\text{\small COL}|(1-s)^3$ and the probability that $k$ did not hit $u$, $u'$ or $u''$ in the previous steps is $p^3$. Finally, with probability $r^2$ we avoid $(uu',k)$- and $(uu'',k)$-alternating paths. Thus,
 
 **Figure 5.** A depiction of the $(u,k)\in A_{u'u'',k'}$.
 
@@ -439,12 +439,12 @@ Finally we define our type $Z$ variables, which are useful for tracking which co
 
 [[figure: Six side-by-side diagrams of a four-cycle with top vertices x and y and bottom vertices u and v, showing the six listed solid and dashed edge configurations.]]
 
-We anticipate the following trajectories. For example, we explain in detail how to predict $Z_{uv,k,0,1,1}$. First we choose an ordered pair $x$ and $y$ such that $xy$ and $yv$ are already colored. For this we should have $n^2p(1-p)^2$ choices. Next we need to make sure that the color of $xy$ is $k$. This should happen with probability $1/|\textsc{col}|$. The color $k^{\prime}$ is already determined by the color of $yv$ and $k^{\prime}$ must be available at $ux$. In particular, $k^{\prime}$ must not be in $S_u$ or $S_x$, which happens with probability $(1-s)^2$. Also $k^{\prime}$ must not have already hit $u$ or $x$ before, which occurs with probability $p^2$. Finally there must not be an alternating $(ux,k^{\prime})$-path, which happens with probability $r$. Thus, $Z_{uv,k,0,1,1}\approx n^2p(1-p)^2\cdot\frac{1}{|\textsc{col}|}\cdot(1-s)^2\cdot p^2\cdot r$.
+We anticipate the following trajectories. For example, we explain in detail how to predict $Z_{uv,k,0,1,1}$. First we choose an ordered pair $x$ and $y$ such that $xy$ and $yv$ are already colored. For this we should have $n^2p(1-p)^2$ choices. Next we need to make sure that the color of $xy$ is $k$. This should happen with probability $1/|\text{\small COL}|$. The color $k^{\prime}$ is already determined by the color of $yv$ and $k^{\prime}$ must be available at $ux$. In particular, $k^{\prime}$ must not be in $S_u$ or $S_x$, which happens with probability $(1-s)^2$. Also $k^{\prime}$ must not have already hit $u$ or $x$ before, which occurs with probability $p^2$. Finally there must not be an alternating $(ux,k^{\prime})$-path, which happens with probability $r$. Thus, $Z_{uv,k,0,1,1}\approx n^2p(1-p)^2\cdot\frac{1}{|\text{\small COL}|}\cdot(1-s)^2\cdot p^2\cdot r$.
 
 The remaining trajectories can be obtained similarly.
 
 $$
-Z_{uv,k,0,0,0}\approx|\textsc{col}|n^2(1-s)^6p^9r^3=\frac{5}{6}n^3(1-s)^5p^9r^3,
+Z_{uv,k,0,0,0}\approx|\text{\small COL}|n^2(1-s)^6p^9r^3=\frac{5}{6}n^3(1-s)^5p^9r^3,
 $$
 
 $$
@@ -452,7 +452,7 @@ Z_{uv,k,1,0,0}\approx Z_{uv,k,0,1,0}\approx Z_{uv,k,0,0,1}\approx n^2(1-s)^4(1-p
 $$
 
 $$
-Z_{uv,k,1,1,0}\approx Z_{uv,k,1,0,1}\approx Z_{uv,k,0,1,1}\approx\frac{n^2}{|\textsc{col}|}(1-s)^2(1-p)^2p^3r=\frac{6}{5}n(1-s)^3(1-p)^2p^3r.
+Z_{uv,k,1,1,0}\approx Z_{uv,k,1,0,1}\approx Z_{uv,k,0,1,1}\approx\frac{n^2}{|\text{\small COL}|}(1-s)^2(1-p)^2p^3r=\frac{6}{5}n(1-s)^3(1-p)^2p^3r.
 $$
 
 Thus we define the following scaled trajectories:
@@ -489,13 +489,13 @@ ple, a software such as Maple) that the system is satisfied using that $p'(t)=-6
 
 $$
 \begin{aligned}
-a'(t)=b'(t)&=-\frac{5ad}{2qc}-\frac{6a^2z_2}{qc}-\frac{2ay}{q}, \tag{10}\\
-c'_1(t)&=-\frac{5dc_1}{3qc}-\frac{3az_2c_1}{qc}, \tag{11}\\
-c'_2(t)&=-\frac{5dc_2}{2qc}-\frac{6az_2c_2}{qc}, \tag{12}\\
-d'(t)=e'(t)=f'(t)&=-\frac{20d^2}{6qc}-\frac{9az_2d}{qc}-\frac{3yd}{q}, \tag{13}\\
-z'_0(t)&=-\frac{5dz_0}{qc}-\frac{9az_2z_0}{qc}-\frac{3yz_0}{q}, \tag{14}\\
-z'_1(t)&=\frac{az_0}{qc}-\frac{10dz_1}{3qc}-\frac{6az_2z_1}{qc}-\frac{2yz_1}{q}, \tag{15}\\
-z'_2(t)&=\frac{2az_1}{qc}-\frac{5dz_2}{3qc}-\frac{3az_2^2}{qc}-\frac{yz_2}{q}. \tag{16}
+a'(t)=b'(t)&=-\frac{5ad}{2qc}-\frac{6a^2z_2}{qc}-\frac{2ay}{q}, \qquad (10)\\
+c'_1(t)&=-\frac{5dc_1}{3qc}-\frac{3az_2c_1}{qc}, \qquad (11)\\
+c'_2(t)&=-\frac{5dc_2}{2qc}-\frac{6az_2c_2}{qc}, \qquad (12)\\
+d'(t)=e'(t)=f'(t)&=-\frac{20d^2}{6qc}-\frac{9az_2d}{qc}-\frac{3yd}{q}, \qquad (13)\\
+z'_0(t)&=-\frac{5dz_0}{qc}-\frac{9az_2z_0}{qc}-\frac{3yz_0}{q}, \qquad (14)\\
+z'_1(t)&=\frac{az_0}{qc}-\frac{10dz_1}{3qc}-\frac{6az_2z_1}{qc}-\frac{2yz_1}{q}, \qquad (15)\\
+z'_2(t)&=\frac{2az_1}{qc}-\frac{5dz_2}{3qc}-\frac{3az_2^2}{qc}-\frac{yz_2}{q}. \qquad (16)
 \end{aligned}
 $$
 
@@ -1265,10 +1265,10 @@ $$
 A^+_{u'u'',k'}(0)=A_{u'u'',k'}(0)-n^2(a(0)+g_{ab}(0)). \tag{28}
 $$
 
-Recall that $A_{u'u'',k'}(0)$ is the number of pairs $(u,k)$ such that $(k,k')$ is available at $(u,u',u'')$ at step 0. The only requirement here is that $k'\in S_u$, and $k\notin S_u,S_{u'},S_{u''}$. Observe that $A_{u'u'',k'}(0)$ is a binomial random variable with $A_{u'u'',k'}(0) \sim \textrm{Bin}((n-2)|\textsc{col}|,s(1-s)^3)$. Thus, the expected value of $A_{u'u'',k'}(0)$ is
+Recall that $A_{u'u'',k'}(0)$ is the number of pairs $(u,k)$ such that $(k,k')$ is available at $(u,u',u'')$ at step 0. The only requirement here is that $k'\in S_u$, and $k\notin S_u,S_{u'},S_{u''}$. Observe that $A_{u'u'',k'}(0)$ is a binomial random variable with $A_{u'u'',k'}(0) \sim \textrm{Bin}((n-2)|\text{\small COL}|,s(1-s)^3)$. Thus, the expected value of $A_{u'u'',k'}(0)$ is
 
 $$
-\mathbb{E}[A_{u'u'',k'}(0)]=(n-2)|\textsc{col}|s(1-s)^3=n^2a(0)+O(n)\quad\textrm{and}\quad\mathbb{E}[A_{u'u'',k'}(0)]=\Theta(n^2)
+\mathbb{E}[A_{u'u'',k'}(0)]=(n-2)|\text{\small COL}|s(1-s)^3=n^2a(0)+O(n)\quad\textrm{and}\quad\mathbb{E}[A_{u'u'',k'}(0)]=\Theta(n^2)
 $$
 
 so an easy application of the Chernoff bounds (2) and (3) tells us that a.a.s. $|A_{u'u'',k'}(0)-n^2a(0)|\leq n^{3/2}$ for all $u',u'',k'$. Returning to (28) we have
@@ -1555,7 +1555,7 @@ Since there are only a polynomial number of variables $\Xi_{u,v,k}$, the union b
 
 ## 12. FINISHING THE COLORING
 
-In this section we describe Phase 2 of our coloring procedure. We assume that Phase 1 has terminated successfully (i.e. the event $\mathcal{E}_{i_{\max}}$ holds). In Phase 2 we will assign to each uncolored edge a uniform random color from the $\varepsilon n/2$ colors in $\overline{\textsc{col}}\setminus\textsc{col}$. We will use the Lovász Local Lemma (Lemma 3) to show there is a positive probability that none of the following “bad” events occur in Phase 2. Here when we say “uncolored edges” we mean edges that were not colored in Phase 1. Define the following events:
+In this section we describe Phase 2 of our coloring procedure. We assume that Phase 1 has terminated successfully (i.e. the event $\mathcal{E}_{i_{\max}}$ holds). In Phase 2 we will assign to each uncolored edge a uniform random color from the $\varepsilon n/2$ colors in $\overline{\text{\small COL}}\setminus\text{\small COL}$. We will use the Lovász Local Lemma (Lemma 3) to show there is a positive probability that none of the following “bad” events occur in Phase 2. Here when we say “uncolored edges” we mean edges that were not colored in Phase 1. Define the following events:
 
 - For two adjacent uncolored edges $e_1,e_2$ let $B_1(e_1,e_2)$ be the event that both edges get the same color.
 - For any 4-cycle of uncolored edges $e_1,e_2,e_3,e_4$, let $B_2(e_1,e_2,e_3,e_4)$ be the event that this 4-cycle becomes alternating (i.e. $e_1$ gets the same color as $e_3$, and $e_2$ gets the same color as $e_4$).
@@ -1580,7 +1580,7 @@ Next we show that any fixed uncolored edge $e_1$ is in $O(n^{2-\delta})$ events 
 Finally, we show that any fixed uncolored edge $e_1$ is in $O(n^{1-\delta})$ events of the form $B_3(e_1,e_3)$. We know that at the end of Phase 1 we have
 
 $$
-\sum_{k\in\textsc{col}} Z_{e_1,k,1,0,1}=O\left(|\textsc{col}|\cdot n^{1-3\delta}\right)=O\left(n^{2-3\delta}\right).
+\sum_{k\in\text{\small COL}} Z_{e_1,k,1,0,1}=O\left(|\text{\small COL}|\cdot n^{1-3\delta}\right)=O\left(n^{2-3\delta}\right).
 $$
 
 Each event $B_3(e_1,e_3)$ is counted in the above sum once for every color $k$ available at $e_3$. So we estimate the number of colors available at an edge. Say $u',u''$ are the endpoints of $e_3$. We know that
@@ -1603,7 +1603,7 @@ $$
 x_1:=\frac{10}{\varepsilon n},\qquad x_2:=\frac{10}{(\varepsilon n)^2},\qquad x_3:=\frac{10}{\varepsilon n}.
 $$
 
-We check the condition (4) of the Local Lemma. Since Phase 2 uses the set $\overline{\textsc{col}}\setminus\textsc{col}$ of $\varepsilon n/2$ colors, the probability of any $B_1$ event is $2/(\varepsilon n)$, which is smaller than
+We check the condition (4) of the Local Lemma. Since Phase 2 uses the set $\overline{\text{\small COL}}\setminus\text{\small COL}$ of $\varepsilon n/2$ colors, the probability of any $B_1$ event is $2/(\varepsilon n)$, which is smaller than
 
 $$
 x_1(1-x_1)^{O(n^{1-\delta})}(1-x_2)^{O(n^{2-2\delta})}(1-x_3)^{O(n^{1-\delta})}=(1+o(1))x_1.

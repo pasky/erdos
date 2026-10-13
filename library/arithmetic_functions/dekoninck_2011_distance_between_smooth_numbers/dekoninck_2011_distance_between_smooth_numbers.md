@@ -268,7 +268,7 @@ $$
 E_k = P(\delta(n) > k - 1) - P(\delta(n) > k) = \frac{1}{2k - 1} - \frac{1}{2k + 1} = \frac{2}{4k^2 - 1},
 $$
 
-which completes the proof of the theorem. \hfill $\square$
+which completes the proof of the theorem. $\square$
 
 **Remark.** Let $S_k(x) := \#\{n \leq x : \delta(n) = k\}$ and choose $x = 10^6$. Then, we obtain the following numerical evidence.
 
@@ -348,7 +348,7 @@ $$
 \sum_{n\leq x} \frac{1}{\delta(n)} = 2(2\log 2 - 1)x + O(\varepsilon x) + O(\varepsilon x) \quad (x\to\infty),
 $$
 
-which completes the proof of the theorem. \hfill $\square$
+which completes the proof of the theorem. $\square$
 
 **Remark.** Using a computer, one obtains that
 

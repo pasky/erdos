@@ -54,9 +54,8 @@ application.
 ## Read depth and standing
 
 Claims checked (statement read clause by clause on PDF p. 2); the proof was
-read for structure only. Author preprint (v1, 31 August 2026): no refereed
-acceptance, no citing paper and no independent review were found on
-2026-09-17. Consumers state the result as a preprint claim.
+read for structure only. Author preprint (v1, 31 August 2026). Consumers state
+the result as a preprint claim.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0290/_index|#290]]: the
 exact value of $\liminf_{a\to\infty}(b(a)-a)/\log a$, part of the growth

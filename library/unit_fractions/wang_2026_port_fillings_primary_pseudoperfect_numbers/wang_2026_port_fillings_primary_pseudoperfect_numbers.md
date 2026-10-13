@@ -12,42 +12,42 @@ We also prove a conditional infinitude criterion. The condition is a five-splitt
 
 ## CONTENTS
 
-1. Introduction \hfill 2  
-Relation with earlier work \hfill 3  
-2. From Erdős’ equation to primary pseudoperfect numbers \hfill 3  
-3. The arithmetic derivative formulation \hfill 4  
-4. Defect states \hfill 5  
-5. Inheritance \hfill 5  
-6. Ports and fillings \hfill 6  
-7. The central port and the key port \hfill 8  
-8. Two port-primitive fillings of the key port \hfill 9  
-9. The nine-prime-factor example \hfill 11  
-10. A Pocklington certificate for $N_9+1$ \hfill 11  
-11. The ten-prime-factor example \hfill 12  
-12. The inherited filling $B_5$ of the key port \hfill 12  
-13. No one-prime or two-prime successor for $N_{10}$ \hfill 13  
-14. Relation with the Sondow–MacMillan conjectures \hfill 13  
-15. The last-two-prime discriminant \hfill 14  
-16. A finite upper bound for the parameter $t$ \hfill 15  
+1. Introduction 2  
+Relation with earlier work 3  
+2. From Erdős’ equation to primary pseudoperfect numbers 3  
+3. The arithmetic derivative formulation 4  
+4. Defect states 5  
+5. Inheritance 5  
+6. Ports and fillings 6  
+7. The central port and the key port 8  
+8. Two port-primitive fillings of the key port 9  
+9. The nine-prime-factor example 11  
+10. A Pocklington certificate for $N_9+1$ 11  
+11. The ten-prime-factor example 12  
+12. The inherited filling $B_5$ of the key port 12  
+13. No one-prime or two-prime successor for $N_{10}$ 13  
+14. Relation with the Sondow–MacMillan conjectures 13  
+15. The last-two-prime discriminant 14  
+16. A finite upper bound for the parameter $t$ 15  
 
 *Date:* May 2026.
 
-17. Examples of the parameter $t$ \hfill 15  
-18. Modular square sieve \hfill 16  
-19. A conditional infinitude criterion \hfill 17  
-20. Scope \hfill 18  
-Appendix A. Computational notes on the $H_6$ layer \hfill 19  
-A.1. Known channel from $B_2=149\cdot3109$ \hfill 19  
-A.2. Known channel from $B_4$ \hfill 19  
-A.3. Known channel from $B_5$ \hfill 20  
-A.4. Port-primitive and unknown-channel $H_6$ fillings \hfill 20  
-Appendix B. Exploratory computational status for $H_6$ \hfill 20  
-Appendix C. Independent verification appendix \hfill 20  
-C.1. Top-level factorizations \hfill 21  
-C.2. Top-level Pocklington data \hfill 21  
-C.3. Pocklington certificate for $p_{10}$ \hfill 21  
-C.4. Verification script excerpt \hfill 22  
-References \hfill 22  
+17. Examples of the parameter $t$ 15  
+18. Modular square sieve 16  
+19. A conditional infinitude criterion 17  
+20. Scope 18  
+Appendix A. Computational notes on the $H_6$ layer 19  
+A.1. Known channel from $B_2=149\cdot3109$ 19  
+A.2. Known channel from $B_4$ 19  
+A.3. Known channel from $B_5$ 20  
+A.4. Port-primitive and unknown-channel $H_6$ fillings 20  
+Appendix B. Exploratory computational status for $H_6$ 20  
+Appendix C. Independent verification appendix 20  
+C.1. Top-level factorizations 21  
+C.2. Top-level Pocklington data 21  
+C.3. Pocklington certificate for $p_{10}$ 21  
+C.4. Verification script excerpt 22  
+References 22  
 
 ## 1. Introduction
 
@@ -63,7 +63,7 @@ $$
 \frac{1}{n}+\sum_{p\mid n}\frac{1}{p}=1, \tag{2}
 $$
 
-where the sum is over the prime divisors of $n.
+where the sum is over the prime divisors of $n$.
 
 OEIS A054377 [15] records the initial values
 
@@ -559,7 +559,7 @@ $$
 q=\frac{113323}{797},
 $$
 
-which is not an integer. Hence no proper nontrivial divisor of $B_2$ fills $H. $\square$
+which is not an integer. Hence no proper nontrivial divisor of $B_2$ fills $H$. $\square$
 
 This filling gives
 
@@ -1164,7 +1164,7 @@ $$
 4s+y_5+\frac{1}{R}s^4y_5=\frac{c}{R}.
 $$
 
-For all sufficiently small $y_5>0$ this equation has a positive solution $s=s(y_5)$, with $s(y_5)\to c/(4R)=1/(4p)+O(1/(Rp))$. Thus, for $y_5$ small enough, all $0<y_i<1/p$, and hence all $x_i=1/y_i$ exceed $p$. As $y_5\to0^+$, the coordinate $x_5$ tends to infinity. The derivative with respect to $s$ of the left-hand side is $4+4s^3y_5/R>0$, so the component is smooth near these points. The reciprocal change of variables is nonsingular in the positive orthant. \hfill$\square$
+For all sufficiently small $y_5>0$ this equation has a positive solution $s=s(y_5)$, with $s(y_5)\to c/(4R)=1/(4p)+O(1/(Rp))$. Thus, for $y_5$ small enough, all $0<y_i<1/p$, and hence all $x_i=1/y_i$ exceed $p$. As $y_5\to0^+$, the coordinate $x_5$ tends to infinity. The derivative with respect to $s$ of the left-hand side is $4+4s^3y_5/R>0$, so the component is smooth near these points. The reciprocal change of variables is nonsingular in the positive orthant. $\square$
 
 **Theorem 19.5** (conditional infinitude under Hypothesis 19.2). *Assume Hypothesis 19.2.* Then *there are infinitely many primary pseudoperfect numbers.*
 
@@ -1190,7 +1190,7 @@ $$
 R_{i+1}-\partial(R_{i+1})=c_iA_i-R_i\partial(A_i)=c_{i+1}.
 $$
 
-Thus $(R_{i+1},c_{i+1},p_{i+1})$ is again an ambient terminal port. The terminal primes strictly increase, so the primary pseudoperfect numbers obtained at successive stages are distinct. Iteration proves the result. \hfill$\square$
+Thus $(R_{i+1},c_{i+1},p_{i+1})$ is again an ambient terminal port. The terminal primes strictly increase, so the primary pseudoperfect numbers obtained at successive stages are distinct. Iteration proves the result. $\square$
 
 *Remark 19.6.* The use of five primes is deliberate. Three-prime splitting is natural, but it does not give the same simple uniform local-solubility argument. The theorem above is therefore a reduction to a specific Hardy–Littlewood–Bateman–Horn type prime-points hypothesis, not a consequence of the classical one-variable Bateman–Horn conjecture.
 

@@ -70,7 +70,7 @@ $$
 (3)\quad \prod_{s=1}^k\left(1-r^{1/\beta_s}e^{2\pi i(\alpha_s-x)/\beta_s}\right)=o\left((1-r)^{m-1}\right)\quad(r\to1).
 $$
 
-Proof. Set $I=\{1\le s\le k:x\in\alpha_s+\beta_s\mathbb{Z}\}$ and $I'=\{1,\ldots,k\}\setminus I.
+Proof. Set $I=\{1\le s\le k:x\in\alpha_s+\beta_s\mathbb{Z}\}$ and $I'=\{1,\ldots,k\}\setminus I$.
 
 Clearly,
 
@@ -330,8 +330,8 @@ Proof. (a) $\Rightarrow$ (b). This is obvious.
 $$
 \begin{aligned}
 0&=\lim_{r\to1}\frac{\prod_{s=1}^k(1-r^{1/\beta_s}e^{2\pi i(\alpha_s-x-n)/\beta_s})}{(1-r)^{m-1}}\\
-&=\lim_{r\to1}\left((1-r)^{1-m}\\
-&\qquad\times\sum_{I\subseteq\{1,\ldots,k\}}(-1)^{|I|}r^{\sum_{s\in I}1/\beta_s}e^{2\pi i\sum_{s\in I}(\alpha_s-x)/\beta_s}e^{-2\pi in\sum_{s\in I}1/\beta_s}\right)\\
+&=\lim_{r\to1}\Bigl((1-r)^{1-m}\\
+&\qquad\times\sum_{I\subseteq\{1,\ldots,k\}}(-1)^{|I|}r^{\sum_{s\in I}1/\beta_s}e^{2\pi i\sum_{s\in I}(\alpha_s-x)/\beta_s}e^{-2\pi in\sum_{s\in I}1/\beta_s}\Bigr)\\
 &=\lim_{r\to1}\sum_{\theta\in S}F(r,\theta)e^{-2\pi in\theta},
 \end{aligned}
 $$
@@ -1004,4 +1004,4 @@ NANJING 210093
 PEOPLE'S REPUBLIC OF CHINA
 
 *Received on 18.11.1993*  
-*and in revised form on 23.8.1994* \hfill (2521)
+*and in revised form on 23.8.1994* (2521)

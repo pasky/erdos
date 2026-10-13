@@ -84,7 +84,7 @@ https://www.erdosproblems.com/582.
 
 **Formalization.** The site links a
 [formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/582.lean)
-and labels the problem PROVED (LEAN). That statement file (main as of
+and labeled the problem PROVED (LEAN). That statement file (main as of
 2026-10-07, the link pinned to that revision) declares `erdos_582` under
 `category research solved` as `answer(True)` if and only if there is a
 finite simple graph `G` with `G.CliqueFree 4` every two-coloring of whose

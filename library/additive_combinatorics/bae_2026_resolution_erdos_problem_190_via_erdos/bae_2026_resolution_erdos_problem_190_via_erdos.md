@@ -61,7 +61,7 @@ A coloring $\chi:[N]\to[r]$ is:
 
 **van der Waerden number** $W(r,k)$ is the least $N$ such that every $r$-coloring of $[N]$ has a monochromatic $k$-AP. It exists by van der Waerden’s theorem (1927).
 
-**Anti-van-der-Waerden number** $\aw([n],k)$ is the least number of colors $t$ such that every *surjective* $t$-coloring (using exactly $t$ distinct colors) of $[n]$ contains a rainbow $k$-AP.
+**Anti-van-der-Waerden number** $\operatorname{aw}([n],k)$ is the least number of colors $t$ such that every *surjective* $t$-coloring (using exactly $t$ distinct colors) of $[n]$ contains a rainbow $k$-AP.
 
 **Canonical Ramsey function**
 
@@ -69,13 +69,13 @@ $$
 H(k):=\min\bigl\{N\geq 1:\text{every finite coloring of }[N]\text{ has either a mono or a rainbow }k\text{-AP}\bigr\}.
 $$
 
-**2.2. External theorems used.** The standard anti-van-der-Waerden number is known to satisfy $\aw([n],k)\geq k$ for all $n\geq k$ (the inequality is part of the anti-Ramsey framework developed by Jungić, Licht, Mahdian, Nešetřil and Radoičić [10] and systematically studied in [6]); it is a direct pigeonhole consequence of the definitions, since any surjective $t$-coloring with $t<k$ colors cannot place $k$ distinct colors on any $k$-term AP. We do not need this full surjective form in what follows. The proof of Theorem 1.1 uses only the weaker reduction in the following corollary, whose one-line argument we record for completeness.
+**2.2. External theorems used.** The standard anti-van-der-Waerden number is known to satisfy $\operatorname{aw}([n],k)\geq k$ for all $n\geq k$ (the inequality is part of the anti-Ramsey framework developed by Jungić, Licht, Mahdian, Nešetřil and Radoičić [10] and systematically studied in [6]); it is a direct pigeonhole consequence of the definitions, since any surjective $t$-coloring with $t<k$ colors cannot place $k$ distinct colors on any $k$-term AP. We do not need this full surjective form in what follows. The proof of Theorem 1.1 uses only the weaker reduction in the following corollary, whose one-line argument we record for completeness.
 
 **Corollary 2.1** (Pigeonhole reduction $H(k)\geq W(k-1,k)$). For every $k\geq 2$, $H(k)\geq W(k-1,k)$.
 
 *Proof.* Let $N=W(k-1,k)-1$. There exists a $(k-1)$-coloring $\chi:[N]\to[k-1]$ with no monochromatic $k$-AP. Since $\chi$ uses only $k-1$ colors, no $k$-AP has $k$ distinct colors, so $\chi$ is also rainbow-$k$-AP-free. Thus $\chi$ has neither mono nor rainbow $k$-APs, giving $H(k)>N$ and hence $H(k)\geq W(k-1,k)$. $\square$
 
-This reduction is folklore and is used e.g. in [6, §2]; it does not require the surjective form $\aw([n],k)\geq k$.
+This reduction is folklore and is used e.g. in [6, §2]; it does not require the surjective form $\operatorname{aw}([n],k)\geq k$.
 
 **Lemma 2.2** (Symmetric Lovász Local Lemma, Erdős–Lovász 1975 [8]). Let $A_1,\ldots,A_n$ be events in a finite probability space with $\Pr[A_i]\leq p$ for every $i$. Assume that each $A_i$ is mutually independent of all but at most $d$ of the other events. If
 
@@ -500,7 +500,7 @@ The Erdős–Graham conjectured divergence $H(k)^{1/k}/k\to\infty$ is qualitativ
 
 4.3. **Open questions.**
 
-(1) **Upper bound on $H(k)$.** No concrete asymptotic upper bound on $H(k)$, or $H(k)^{1/k}/k$ from above, is currently known. Improving this — for instance, via sharper control of $\aw([n],k)$, cf. [6] — remains open.
+(1) **Upper bound on $H(k)$.** No concrete asymptotic upper bound on $H(k)$, or $H(k)^{1/k}/k$ from above, is currently known. Improving this — for instance, via sharper control of $\operatorname{aw}([n],k)$, cf. [6] — remains open.
 
 (2) **Sharpness of $k/(e\log k)$.** Is the constant $1/e$ tight within methods of this type? Within the present method the constant $1/e$ is sharp: by the optimization in §4.2, $R(r_0)/(k/\log k)$ attains its maximum $1/e$ at $r_0=k/\log k$, so no choice of $r_0$ can do better than $(e^{-1}+o(1))k/\log k$ via this EL + BCT + BHP chain. A larger lower-order contribution would require either a sharper EL base, a prime-gap exponent below 0.525, or a replacement for the BCT step.
 

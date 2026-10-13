@@ -138,7 +138,7 @@ $\square$
 The proof of the following Theorem is partially computer aided. We use mixed integer programming solver to compute the coloring of some graphs. Coloring is modeled in a standard way: for a given graph $G$ with $V(G)=\{1,\ldots,n\}$ and a number of colors $K$. We want to check if $G$ is $K$-colorable. It is equivalent to the feasibility of the following integer linear program. For $i=1,\ldots,n$ and $k\in\{1,\ldots,K\}$, we introduce a binary variable $x_{i,k}$ indicating if vertex $i$ receives color $k$. The problem itself is a decision problem and there is no inherent objective function. However, it is useful to introduce an objective function using additional variables in order to break some symmetries of the model (see for example [70]). Hence for $k\in\{1,\ldots,K\}$, we introduce a binary variable $y_k$ indicating if color $k$ is used.
 
 $$
-\begin{array}{ll@{}ll}
+\begin{array}{llll}
 \text{minimize} && \displaystyle\sum_{k=1}^{K} k\cdot y_k &\\
 \text{subject to} && \displaystyle\sum_{k=1}^{K} x_{i,k}\geq 1, & i=1,\ldots,n\\
 && x_{i,k}+x_{j,k}\leq 1, &(i,j)\in E(G),\ k=1,\ldots,K\\

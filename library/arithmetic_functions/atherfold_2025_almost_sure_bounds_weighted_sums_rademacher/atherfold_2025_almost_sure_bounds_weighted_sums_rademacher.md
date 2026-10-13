@@ -126,15 +126,15 @@ $$
 M_f(x)\ll(\log\log(x))^{1/4+\epsilon}
 $$
 
-and for any \(V(x)\to\infty\), one can find arbitrarily large values of \(x\) such that
+and for any $V(x)\to\infty$, one can find arbitrarily large values of $x$ such that
 
 $$
 |M_f(x)|\geqslant\frac{(\log\log(x))^{1/4}}{V(x)}.
 $$
 
-However, this will not be an easy task, particularly in the lower bound since one will have to find a way to lower bound or discard the part of the sum where the \(n\) do not have a large prime factor (which as previously mentioned is rather difficult given the weight factor we have). Proving a lower bound with the restriction \(P(n)>\sqrt{x}\) should be doable by adapting the Harper’s large fluctuations result [Har23a]. Regardless, it appears that \(M_f(x)\) should diverge, with further evidence being provided by Aymone where he shows that \(M_f(x)\) has infinitely many sign changes [Aym24]. If one finds a divergent lower bound, then one could use it to prove a quantitative version of the result of Aymone. Another approach to this problem would be to implement the methods detailed in a recent paper of Klurman–Munsch–Lamzouri on sign changes in partial sums [KLM24].
+However, this will not be an easy task, particularly in the lower bound since one will have to find a way to lower bound or discard the part of the sum where the $n$ do not have a large prime factor (which as previously mentioned is rather difficult given the weight factor we have). Proving a lower bound with the restriction $P(n)>\sqrt{x}$ should be doable by adapting the Harper’s large fluctuations result [Har23a]. Regardless, it appears that $M_f(x)$ should diverge, with further evidence being provided by Aymone where he shows that $M_f(x)$ has infinitely many sign changes [Aym24]. If one finds a divergent lower bound, then one could use it to prove a quantitative version of the result of Aymone. Another approach to this problem would be to implement the methods detailed in a recent paper of Klurman–Munsch–Lamzouri on sign changes in partial sums [KLM24].
 
-Another motivation to study \(M_f(x)\) is its connection to forming large fluctuation bounds for unweighted sums of completely multiplicative Rademacher functions, which will be denoted by \(f^*(n)\). These are defined by setting \(f^*(p)\) as independent Rademacher random variables on primes \(p\) and defining \(f^*(n)\) completely multiplicatively. We then see that
+Another motivation to study $M_f(x)$ is its connection to forming large fluctuation bounds for unweighted sums of completely multiplicative Rademacher functions, which will be denoted by $f^*(n)$. These are defined by setting $f^*(p)$ as independent Rademacher random variables on primes $p$ and defining $f^*(n)$ completely multiplicatively. We then see that
 
 $$
 \sum_{n\leqslant x}f^*(n)=\sum_{ab^2\leqslant x}f^*(ab^2)=\sum_{a\leqslant x}f(a)\left(\sum_{b^2\leqslant x/a}1\right)=\sqrt{x}\sum_{a\leqslant x}\frac{f(a)}{\sqrt{a}}-\sum_{a\leqslant x}\left\{\sqrt{\frac{x}{a}}\right\}f(a). \tag{1.7}
@@ -146,9 +146,9 @@ $$
 \sum_{n\leqslant x}\frac{f^*(n)}{\sqrt{n}}=\sum_{ab^2\leqslant x}\frac{f^*(ab^2)}{b\sqrt{a}}=\sum_{b\leqslant\sqrt{x}}\frac{1}{b}\left(\sum_{a\leqslant x/b^2}\frac{f(a)}{\sqrt{a}}\right) \tag{1.8}
 $$
 
-where \(f(n)=f^*(n)\) when \(n\) is squarefree and is \(0\) otherwise. In particular, we can see that understanding the large fluctuations of \(\sum_{n\leqslant x}f^*(n)\) is intertwined with understanding the large fluctuations of \(M_f(x)\). The author does not know how one would attempt to handle the second sum because \(\{\sqrt{x/n}\}\) is known to have particularly difficult behaviour to control, on top of the fact it would break the multiplicative structure which current proofs use to study \(\sum_{n\leqslant x}f(n)\). While not as significant to understand, equation (1.8) is enough to provide an almost sure upper bound when combined with Theorem 1.
+where $f(n)=f^*(n)$ when $n$ is squarefree and is $0$ otherwise. In particular, we can see that understanding the large fluctuations of $\sum_{n\leqslant x}f^*(n)$ is intertwined with understanding the large fluctuations of $M_f(x)$. The author does not know how one would attempt to handle the second sum because $\{\sqrt{x/n}\}$ is known to have particularly difficult behaviour to control, on top of the fact it would break the multiplicative structure which current proofs use to study $\sum_{n\leqslant x}f(n)$. While not as significant to understand, equation (1.8) is enough to provide an almost sure upper bound when combined with Theorem 1.
 
-**Corollary 1.** Let \(\epsilon>0\). Then we have almost surely,
+**Corollary 1.** Let $\epsilon>0$. Then we have almost surely,
 
 $$
 \sum_{n\leqslant x}\frac{f^*(n)}{\sqrt{n}}\ll\log(x)(\log\log(x))^{3/4+\epsilon}.
@@ -934,7 +934,7 @@ $$
 \end{aligned}
 $$
 
-which given our choice of $T(\ell)$ is summable in $\ell$. \hfill$\square$
+which given our choice of $T(\ell)$ is summable in $\ell$. $\square$
 
 At this point, we observe that this good event is one of the barriers to obtaining the sharp almost sure upper bound, as every other complement event is bounded above by $\frac{\sqrt{T(\ell)}}{\ell^{K/2}\sqrt{\ell\log(\ell)}}$ almost surely (which we prove in the previous Lemmas and the next section). This is caused by taking the upper bounding $\mathcal{Q}^{(1)}_{\ell}$ by $U_j$ which lost the dependence on $i$, which means that we must consider the supremum over all the $y_j$ and not just the ones which are “close” to the individual $x_i$. The barrier to doing this is handling the part of the sum where the largest and second largest distinct prime factors of integer $n$ are of similar size. This explains why we are able to obtain a much sharper result when restricting to a unique large prime factor in Theorem 2.
 
@@ -962,8 +962,8 @@ The rest of this section and the next section is dedicated to bounding $\mathcal
 
 $$
 \begin{aligned}
-\int_{-\infty}^{\infty}S(t)dt\ll{}&\int_{-1/\log(y_{0})}^{1/\log(y_{0})}S(t)dt+\sum_{\substack{(\log(y_{0}))^{-1}<|T|\leqslant(\log_{2}(y_{0}))^{-K}\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt \tag{5.8}\\
-&+\sum_{\substack{(\log_{2}(y_{0}))^{-K}<|T|\leqslant1/1024\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt+\int_{|t|>1/512}S(t)dt \tag{5.9}
+\int_{-\infty}^{\infty}S(t)dt\ll{}&\int_{-1/\log(y_{0})}^{1/\log(y_{0})}S(t)dt+\sum_{\substack{(\log(y_{0}))^{-1}<|T|\leqslant(\log_{2}(y_{0}))^{-K}\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt \qquad (5.8)\\
+&+\sum_{\substack{(\log_{2}(y_{0}))^{-K}<|T|\leqslant1/1024\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt+\int_{|t|>1/512}S(t)dt \qquad (5.9)
 \end{aligned}
 $$
 
@@ -1501,7 +1501,7 @@ $$
 \end{aligned}
 $$
 
-\hfill$\square$
+$\square$
 
 ## 8. Lower Bound
 
@@ -1822,7 +1822,7 @@ $$
 \tag{9.5}
 $$
 
-We can bound the second sum in a near identical fashion to the way we handled Lemma 3. Note this will be a much shorter outer sum than we encountered there in Lemma 3, so we can take $r$ and $\mathcal{X}$ as we did there and it will still be summable in $\ell$. To handle the first sum, we look to Section 5.2, and this will follow after some minor changes; namely we define a normalised \emph{submartingale} sequence with respect to filtration $\mathcal{F}_n$ opposed to the normalised \emph{supermartingale} sequence used to prove Theorem 1.
+We can bound the second sum in a near identical fashion to the way we handled Lemma 3. Note this will be a much shorter outer sum than we encountered there in Lemma 3, so we can take $r$ and $\mathcal{X}$ as we did there and it will still be summable in $\ell$. To handle the first sum, we look to Section 5.2, and this will follow after some minor changes; namely we define a normalised *submartingale* sequence with respect to filtration $\mathcal{F}_n$ opposed to the normalised *supermartingale* sequence used to prove Theorem 1.
 
 To deal with the first term, we switch the order of summation and integration like we did in Section 3.3. Then the first term is
 

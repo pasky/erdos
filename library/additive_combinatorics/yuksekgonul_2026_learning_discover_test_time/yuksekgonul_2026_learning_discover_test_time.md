@@ -2490,6 +2490,7 @@ Your task is to find an improved upper bound for the \name{} minimum overlap pro
 
 Find a step function h: [0, 2] → [0, 1] that **minimizes** the overlap integral:
 
+```
 $$C_5 = \\max_k \\int h(x)(1 - h(x+k)) dx$$
 
 \textbf{Constraints}:
@@ -2505,6 +2506,7 @@ With $dx = \frac{2.0}{\texttt{n\_points}}$:
     \item $0 \leq h[i] \leq 1$ for all $i$
     \item $\sum h \cdot dx = 1$ (equivalently: $\sum h = \frac{\texttt{n\_points}}{2}$ exactly)
 \end{itemize}
+```
 
 The evaluation computes: C5 = max(np.correlate(h, 1-h, mode="full") * dx)
 
