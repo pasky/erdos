@@ -271,13 +271,12 @@ after its proof, which states the case $m=2$ for $A\subseteq Z_p$,
 $|A\wedge A|\ge\min\{p,2|A|-3\}$, as the result "conjectured by Erdös and
 Heilbronn [4]", is the problem's displayed inequality
 $|A\hat{+}A|\ge\min(2|A|-3,p)$: the paper's $A\wedge A$, the sums of the
-$2$-subsets of $A$, is the problem's restricted sumset. The problem page
-had recorded the theorem second-hand through the attributions of Alon,
-Nathanson and Ruzsa
+$2$-subsets of $A$, is the problem's restricted sumset. Alon, Nathanson and
+Ruzsa state the theorem under this paper's name
 ([[additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/theorem_2|Theorem 2]]
 of their 1995 paper and
 [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_3|Theorem 3.3]]
-of their 1996 paper) and the site. The paper's own proof is by linear
+of their 1996 paper), as does the site. The paper's own proof is by linear
 algebra and the representation theory of the symmetric group, not the
 polynomial method of the reproofs: the diagonal operator with spectrum $A$
 has a derivative on the $m$th Grassmann space whose spectrum is

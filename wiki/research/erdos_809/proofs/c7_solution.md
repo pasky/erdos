@@ -349,10 +349,9 @@ Together with the lower bound, this proves the theorem.
 
 **Standing.** This proof is author-recorded. It is the $k=3$ branch of
 native claim [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], whose
-Lean statement is accepted at tier 2 (on 2026-09-25, for the Lean sources and
-the statement as they stood on 2026-09-25T03:40:15Z, first carried by the
-default branch on 2026-09-28) after its
-independent whole-statement fidelity audit; no independent
+Lean statement stands at tier 2 on its second-cycle independent
+whole-statement fidelity review and grade of 2026-10-02 and the non-author
+clean gate of 2026-10-13; no independent
 whole-conclusion review of this prose argument has been commissioned or
 filed. Its one external premise is the equitable
 Szemerédi regularity lemma cited in Section 2, used only in the cleaning

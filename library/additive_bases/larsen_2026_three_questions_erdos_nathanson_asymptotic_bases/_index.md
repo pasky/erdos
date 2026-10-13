@@ -47,7 +47,7 @@ with (P1) true and (P3) false answers no to the first question of problem
 868; the paper credits that answer, and the stronger growth
 r_A(n) > epsilon log n of the problem's second question, to the preprint of
 D. Larsen and M. Larsen, and does not prove that growth bound here. The paper
-was first read for problem 326, which asks for a minimal basis with a_k/k^2
+does not bear on problem 326, which asks for a minimal basis with a_k/k^2
 tending to a non-zero constant; nothing in it concerns that growth
 condition.
 

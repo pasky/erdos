@@ -93,13 +93,10 @@ proof scope.
 **Review record.** The [formulation
 review](evidence/verify/formulation_review.md) of 6 September 2026 checks the
 scope of Rudin's theorem on printed p. 15. No record reviews Rudin's
-construction. On 2026-10-12 the frontmatter description and Status paragraph of
-the Problem 910 page were reworded; the change touches no examined statement,
-proof, code or input. On 2026-10-13 the Notes, Status and Progress of the
-Problem 910 page were revised: Rudin's set has dimension one, so the Rudin claim
-is rejected for the corrected second question, and the page adds an argument for
-that dimension. This touches the separation of the 1944 and 1982 questions that
-the review examined, so the review covers the page's earlier text only and does
-not cover the new argument. On 2026-10-13 the label "Results to transcribe"
-above the results list was shortened to "Results"; the change touches no
-examined statement, proof, code or input.
+construction. Since the review, the frontmatter description of the Problem 910
+page was reworded, its Notes, Status and Progress were revised to reject the
+Rudin claim for the corrected second question, as Rudin's set has dimension
+one, and to add an argument for that dimension, and the results list on this
+card was relabeled; the revision of the Problem 910 page touches the
+separation of the 1944 and 1982 questions that the review examined, so the
+review covers the earlier text only and does not cover the new argument.

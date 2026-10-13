@@ -10,9 +10,9 @@ Starting from the complete graph on $n$ vertices, repeatedly remove the three ed
 
 Begin with the complete graph $K_n$. At each step, choose uniformly from the triangles whose three edges are still present, and delete those edges. Stop when no triangle remains. The removed triangles form an edge-disjoint packing; the edges left over form its *leave*. Let $F_n$ be the number of edges in this terminal graph. The problem is to determine the typical size of this leave, including its leading constant.
 
-The accepted triangles form a partial Steiner triple system, and $F_n$ measures its uncovered pairs. Bollobás and Erdős conjectured in 1990 that the expected leave has order $n^{3/2}$, as reported in (Bohman et al. 2015, Introduction). Spencer’s branching-process analysis and the independent nibble argument of Rödl and Thoma showed that the leave is $o(n^2)$ with high probability (Spencer 1995; Rödl and Thoma 1996). Grable proved bounds $O(n^{11/6+\xi})$ for each fixed $\xi>0$ and outlined the higher-order calculations leading to $O(n^{7/4+\xi})$ (Grable 1997, Theorems 5 and 7). Bohman, Frieze and Lubetzky gave a short proof of the bound $O(n^{7/4}\log^{5/4}n)$ (Bohman et al. 2010, Theorem 1) and subsequently proved $F_n=n^{3/2+o(1)}$ with high probability (Bohman et al. 2015, Theorem 1). Their analysis uses self-correcting dynamic concentration and carefully chosen triangular extensions to determine the exponent.
+The accepted triangles form a partial Steiner triple system, and $F_n$ measures its uncovered pairs. Bollobás and Erdős conjectured in 1990 that the expected leave has order $n^{3/2}$, as reported in [BFL15, Introduction]. Spencer’s branching-process analysis and the independent nibble argument of Rödl and Thoma showed that the leave is $o(n^2)$ with high probability [Spe95, RT96]. Grable proved bounds $O(n^{11/6+\xi})$ for each fixed $\xi>0$ and outlined the higher-order calculations leading to $O(n^{7/4+\xi})$ [Gra97, Theorems 5 and 7]. Bohman, Frieze and Lubetzky gave a short proof of the bound $O(n^{7/4}\log^{5/4}n)$ [BFL10, Theorem 1] and subsequently proved $F_n=n^{3/2+o(1)}$ with high probability [BFL15, Theorem 1]. Their analysis uses self-correcting dynamic concentration and carefully chosen triangular extensions to determine the exponent.
 
-Joos and Kühn developed removal estimates for general strictly balanced hypergraphs, including pseudorandom starting hypergraphs (Joos and Kühn 2025, Theorems 1.2–1.3). Their Conjecture 16.2 predicts an asymptotic constant for the terminal leave; its triangle specialization is $1/(2\sqrt2)$ in probability. The following theorem proves this triangle case with $L^2$ convergence. Numbered references to Joos and Kühn refer throughout to version 2.
+Joos and Kühn developed removal estimates for general strictly balanced hypergraphs, including pseudorandom starting hypergraphs [JK25, Theorems 1.2–1.3]. Their Conjecture 16.2 predicts an asymptotic constant for the terminal leave; its triangle specialization is $1/(2\sqrt2)$ in probability. The following theorem proves this triangle case with $L^2$ convergence. Numbered references to Joos and Kühn refer throughout to version 2.
 
 **Theorem 1.1**. *For the uniform triangle-removal process starting from $K_n$, $$\mathbb E\left[\left(\frac{F_n}{n^{3/2}}-
                    \frac1{2\sqrt2}\right)^2\right]\longrightarrow0.$$ In particular, $$\frac{F_n}{n^{3/2}}\xrightarrow{\mathbb P}\frac1{2\sqrt2},
@@ -25,11 +25,11 @@ The only external proof input is the early-prefix control from Joos and Kühn, s
 
 The proof separates the part of the process governed by uniform subgraph counts from the final evolution of individual edges. Stop at a deterministic time when the edge density is approximately $p=n^{-1/2+\epsilon}$, for a small fixed $\epsilon>0$. The graph then has $$m=\frac{n^2p}{2}\quad\text{edges},\qquad D=np^2$$ triangles through each edge to relative error $o(1)$. Section 2 states the exact properties needed and verifies their application from the public removal estimates.
 
-The continuation analysis uses backward priority exploration, whose hypergraph form appears in Spencer’s work (Spencer 1995, secs. 2–4). Grable formulated triangle packing as a uniform priority scan and used adaptive exposure decision trees in his concentration analysis (Grable 1997, sec. 1 and 4). The quantitative issue here is to follow a growing rescaled time interval and to approximate joint survival on the scale of its vanishing probability. A fixed-time local approximation alone does not give the precision required for a second moment.
+The continuation analysis uses backward priority exploration, whose hypergraph form appears in Spencer’s work [Spe95, Sections 2–4]. Grable formulated triangle packing as a uniform priority scan and used adaptive exposure decision trees in his concentration analysis [Gra97, Sections 1 and 4]. The quantitative issue here is to follow a growing rescaled time interval and to approximate joint survival on the scale of its vanishing probability. A fixed-time local approximation alone does not give the precision required for a second moment.
 
 Give the triangles of this graph fresh independent uniform priorities and scan them in increasing order, accepting a triangle when all its edges remain. This represents the continuation of uniform removal. An edge survives precisely when a recursive test returns true. A child test asks whether the other *two* edges of a candidate triangle survive before its priority. We test the two edges with one jointly ordered list of candidates, which is essential to the later visitation estimate. Section 3 proves this rule and constructs an auxiliary tree in which each occurrence of a candidate receives an independent priority.
 
-In this independent model, the survival probabilities satisfy exact product equations. The scalar comparison is $$q(t)=(1+2Dt)^{-1/2},\qquad 0\le t\le1.$$ This is Spencer’s scalar branching law after the time change $c=Dt$ (Spencer 1995, sec. 3, equation (9)). Bal and Bennett obtained related matching estimates for fixed-degree random regular hypergraphs and regular hypergraphs of growing girth (Bal and Bennett 2023, Corollaries 3–4); here $D$ grows with $n$, and the terminal rescaled time is $D$. To prove a uniform approximation by $q$, one needs stability of a matrix acting on the graph’s edges. We obtain it from cycle counts in vertex links. Each normalized link matrix is close in Euclidean norm to its averaging projection; the sum of these projections has a directly controlled semigroup in the maximum norm. A finite perturbation expansion then gives the stability needed by the product equations (Section 4).
+In this independent model, the survival probabilities satisfy exact product equations. The scalar comparison is $$q(t)=(1+2Dt)^{-1/2},\qquad 0\le t\le1.$$ This is Spencer’s scalar branching law after the time change $c=Dt$ [Spe95, Section 3, equation (9)]. Bal and Bennett obtained related matching estimates for fixed-degree random regular hypergraphs and regular hypergraphs of growing girth [BB23, Corollaries 3–4]; here $D$ grows with $n$, and the terminal rescaled time is $D$. To prove a uniform approximation by $q$, one needs stability of a matrix acting on the graph’s edges. We obtain it from cycle counts in vertex links. Each normalized link matrix is close in Euclidean norm to its averaging projection; the sum of these projections has a directly controlled semigroup in the maximum norm. A finite perturbation expansion then gives the stability needed by the product equations (Section 4).
 
 The final issue is the difference between independent occurrences and repeated triangle types in the finite graph. We compare the complete candidate lists exposed by one or two root queries. A repetition forces an extra graph edge in the union of at most two ancestral query paths (Section 5). Small rooted-template bounds control the number of such witnesses. Joint time ordering controls the probability that their calls are visited. Their combination gives an absolute error $o(1/D)$ (Section 6). This precision matters because the two-root survival probability is itself of order $1/D$.
 
@@ -84,7 +84,7 @@ The independence of $I$ is a property of the template. Its prescribed images may
 
 *All constants and bounds are uniform over the graph and the prescribed root images.*
 
-*Proof.* We give the specialization of Joos–Kühn’s stopping estimates, including the parameters and rooted conventions. Their Sections 5–7 (pp. 9–11) set up the trajectories and stopping times; Lemma 10.1 (p. 50) controls those times, and Lemma 7.15 (pp. 16–17) supplies the two general extension bounds (Joos and Kühn 2025).
+*Proof.* We give the specialization of Joos–Kühn’s stopping estimates, including the parameters and rooted conventions. Their Sections 5–7 (pp. 9–11) set up the trajectories and stopping times; Lemma 10.1 (p. 50) controls those times, and Lemma 7.15 (pp. 16–17) supplies the two general extension bounds [JK25].
 
 ##### Public parameters and initial hypotheses.
 
@@ -119,7 +119,7 @@ Fix a graph $G$ supplied by Proposition 2.2, and retain $\mathcal E=E(G)$ and t
 
 ### Priorities and the finite test
 
-Independent priorities give the standard random greedy packing representation; see Spencer (Spencer 1995, sec. 1), Grable (Grable 1997, sec. 1), and the triangle-removal accounts (Bohman et al. 2015, sec. 1.2) (Joos and Kühn 2025, sec. 14.1).
+Independent priorities give the standard random greedy packing representation; see Spencer [Spe95, Section 1], Grable [Gra97, Section 1], and the triangle-removal accounts [BFL15, Section 1.2] [JK25, Section 14.1].
 
 Assign independent uniform priorities $U_T\in[0,1]$ to the triangles $T\in\mathcal T$. Scan the triangles in increasing priority order, accepting a triangle precisely when all three of its edges remain, and deleting those edges on acceptance. We work on the probability-one event that all priorities are distinct. An edge is *untouched before $t$* if no accepted triangle with priority strictly below $t$ contains it.
 
@@ -159,7 +159,7 @@ The parent omission is local to its call and is justified by the strict threshol
 
 ### Fresh randomness at each occurrence
 
-Backward exploration and comparison with independent branching occur in Spencer’s analysis (Spencer 1995, secs. 2–4). We retain the paired query rule above and all candidate-list exposures for the finite comparison.
+Backward exploration and comparison with independent branching occur in Spencer’s analysis [Spe95, Sections 2–4]. We retain the paired query rule above and all candidate-list exposures for the finite comparison.
 
 For a fixed root type, first construct the deterministic tree of all possible calls. Each node has one child for each candidate on its list, with the focus and parent specified above. The tree is countable and finitely branching. A triangle type may label many different child occurrences.
 
@@ -167,7 +167,7 @@ Assign an independent uniform variable to each child occurrence. This variable s
 
 We also allow a singleton root of type $e$ with a specified triangle $T\ni e$ omitted from its root list. The omission affects that list only. Descendant occurrences of $T$ remain available whenever their own parent rule allows them. A two-edge root with focus $\{f,g\}\subset T$, omitted parent $T$, and prescribed threshold $t$ is defined by the same independent construction.
 
-The finiteness argument uses factorial decay along decreasing-priority paths, as in the local construction of graph adsorption processes by Penrose and Sudbury (Penrose and Sudbury 2005, Proposition 1 and its proof). We give the argument for the present occurrence trees.
+The finiteness argument uses factorial decay along decreasing-priority paths, as in the local construction of graph adsorption processes by Penrose and Sudbury [PS05, Proposition 1 and its proof]. We give the argument for the present occurrence trees.
 
 **Lemma 3.3** (Finite evaluation). *For a fixed good graph $G$, independent unfoldings can be constructed so that, almost surely, every possible call and all thresholds $t\in[0,1]$ have finite evaluations. Their outputs are jointly measurable in the threshold and the occurrence priorities.*
 
@@ -209,7 +209,7 @@ These identities describe the auxiliary independent model. They assert no factor
 
 ## Stable unfolded probabilities
 
-We now compute the survival probabilities in the independent unfolding. Throughout this section, $G$ is any graph satisfying Proposition 2.2; every estimate is uniform over such graphs. Spencer’s branching model has survival probability $(1+Qc)^{-1/Q}$ (Spencer 1995, sec. 3, equation (9)). With $Q=2$ and $c=Dt$, its scalar comparison function is $$\begin{equation}
+We now compute the survival probabilities in the independent unfolding. Throughout this section, $G$ is any graph satisfying Proposition 2.2; every estimate is uniform over such graphs. Spencer’s branching model has survival probability $(1+Qc)^{-1/Q}$ [Spe95, Section 3, equation (9)]. With $Q=2$ and $c=Dt$, its scalar comparison function is $$\begin{equation}
 \tag{4.1}
  q(t)=(1+2Dt)^{-1/2},\qquad 0\le t\le1.
 \end{equation}$$ It solves $q'(t)=-Dq(t)^3$ with $q(0)=1$. We will show that the probabilities $q_e(t)$ and $q_{e,T}(t)$ from Section 3 are uniformly asymptotic to $q(t)$. The essential issue is stability: small discrepancies between edge types must remain small throughout the time interval.
@@ -258,7 +258,7 @@ For vectors, $\lVert\cdot\rVert_\infty$ denotes the maximum norm and $\lVert\cdo
 
 ### From link spectra to a uniform semigroup bound
 
-The passage from even closed-walk counts to spectral control follows the sparse quasirandom trace method; compare Chung and Graham (Chung and Graham 2002, Theorem 1 and Facts 7–8). We prove the quantitative form required by the link hypotheses and then transfer it to the maximum norm on the full edge space.
+The passage from even closed-walk counts to spectral control follows the sparse quasirandom trace method; compare Chung and Graham [CG02, Theorem 1 and Facts 7–8]. We prove the quantitative form required by the link hypotheses and then transfer it to the maximum norm on the full edge space.
 
 **Proposition 4.1**. *There are fixed constants $C_1,J<\infty$ such that every graph $G$ satisfying the degree, codegree and link-cycle conditions of Proposition 2.2 obeys $$\begin{equation}
 \tag{4.7}
@@ -327,7 +327,7 @@ We have thus obtained a small Euclidean error, whereas the evolution in (4.6) r
 
 ##### A finite perturbation expansion.
 
-It remains to transfer the maximum-norm estimate from $E_0$ to $E$. We use a finite form of the bounded-perturbation expansion for semigroups (Engel and Nagel 2000, Theorem III.1.10), estimating its initial terms and remainder in different norms. Choose a fixed integer $K$ with $K\gamma>2$. Iterating the variation-of-constants identity $$E(s)=E_0(s)-\int_0^s E_0(s-v)R E(v)\,dv$$ gives terms with $j=0,\ldots,K-1$ copies of $R$, followed by a remainder with $K$ copies. The term with $j$ copies is integrated over an ordered simplex of volume $s^j/j!$ and contains $j+1$ factors $E_0$, all at nonnegative times at most $s$. By (4.11), its maximum norm is at most $$(1+2s)^{j+1}\lVert R\rVert_\infty^j\frac{s^j}{j!}.$$ The remainder has the exact form $$\begin{split}
+It remains to transfer the maximum-norm estimate from $E_0$ to $E$. We use a finite form of the bounded-perturbation expansion for semigroups [EN00, Theorem III.1.10], estimating its initial terms and remainder in different norms. Choose a fixed integer $K$ with $K\gamma>2$. Iterating the variation-of-constants identity $$E(s)=E_0(s)-\int_0^s E_0(s-v)R E(v)\,dv$$ gives terms with $j=0,\ldots,K-1$ copies of $R$, followed by a remainder with $K$ copies. The term with $j$ copies is integrated over an ordered simplex of volume $s^j/j!$ and contains $j+1$ factors $E_0$, all at nonnegative times at most $s$. By (4.11), its maximum norm is at most $$(1+2s)^{j+1}\lVert R\rVert_\infty^j\frac{s^j}{j!}.$$ The remainder has the exact form $$\begin{split}
  \mathcal R_K(s)=(-1)^K
  \int_{0\le t_K\le\cdots\le t_1\le s}
  &E_0(s-t_1)R E_0(t_1-t_2)R\cdots\\[-2pt]
@@ -610,22 +610,22 @@ The normalization has the exact form $$\begin{equation}
 
 ## References
 
-Bal, Deepak, and Patrick Bennett. 2023. “The Matching Process and Independent Process in Random Regular Graphs and Hypergraphs.” *Electronic Journal of Combinatorics* 30 (1): P1.11. <https://doi.org/10.37236/10698>.
+**[BB23]** Deepak Bal and Patrick Bennett. The matching process and independent process in random regular graphs and hypergraphs. *Electronic Journal of Combinatorics*, 30(1):P1.11, 2023. 28 pp.
 
-Bohman, Tom, Alan Frieze, and Eyal Lubetzky. 2010. “A Note on the Random Greedy Triangle-Packing Algorithm.” *Journal of Combinatorics* 1 (3–4): 477–88.
+**[BFL10]** Tom Bohman, Alan Frieze, and Eyal Lubetzky. A note on the random greedy triangle-packing algorithm. *Journal of Combinatorics*, 1(3–4):477–488, 2010. [arXiv:1004.2418](https://arxiv.org/abs/1004.2418).
 
-Bohman, Tom, Alan Frieze, and Eyal Lubetzky. 2015. “Random Triangle Removal.” *Advances in Mathematics* 280: 379–438. <https://doi.org/10.1016/j.aim.2015.04.015>.
+**[BFL15]** Tom Bohman, Alan Frieze, and Eyal Lubetzky. Random triangle removal. *Advances in Mathematics*, 280:379–438, 2015. Numbered references use the preprint [arXiv:1203.4223v3](https://arxiv.org/abs/1203.4223v3).
 
-Chung, Fan, and Ronald Graham. 2002. “Sparse Quasi-Random Graphs.” *Combinatorica* 22 (2): 217–44. <https://doi.org/10.1007/s004930200010>.
+**[CG02]** Fan Chung and Ronald Graham. Sparse quasi-random graphs. *Combinatorica*, 22(2):217–244, 2002.
 
-Engel, Klaus-Jochen, and Rainer Nagel. 2000. *One-Parameter Semigroups for Linear Evolution Equations*. Vol. 194. Graduate Texts in Mathematics. Springer. <https://doi.org/10.1007/b97696>.
+**[EN00]** Klaus-Jochen Engel and Rainer Nagel. *One-Parameter Semigroups for Linear Evolution Equations*, volume 194 of *Graduate Texts in Mathematics*. Springer, New York, 2000.
 
-Grable, David A. 1997. “On Random Greedy Triangle Packing.” *Electronic Journal of Combinatorics* 4 (1): R11. <https://doi.org/10.37236/1296>.
+**[Gra97]** David A. Grable. On random greedy triangle packing. *Electronic Journal of Combinatorics*, 4(1):R11, 1997. 19 pp.
 
-Joos, Felix, and Marcus Kühn. 2025. *The Hypergraph Removal Process*. <https://arxiv.org/abs/2412.15039v2>.
+**[JK25]** Felix Joos and Marcus Kühn. The hypergraph removal process, 2025. Version 2, 3 August 2025, [arXiv:2412.15039v2](https://arxiv.org/abs/2412.15039v2).
 
-Penrose, Mathew D., and Aidan Sudbury. 2005. “Exact and Approximate Results for Deposition and Annihilation Processes on Graphs.” *Annals of Applied Probability* 15 (1B): 853–89. <https://doi.org/10.1214/105051604000000765>.
+**[PS05]** Mathew D. Penrose and Aidan Sudbury. Exact and approximate results for deposition and annihilation processes on graphs. *Annals of Applied Probability*, 15(1B):853–889, 2005. [arXiv:math/0503519v1](https://arxiv.org/abs/math/0503519v1).
 
-Rödl, Vojtěch, and Luboš Thoma. 1996. “Asymptotic Packing and the Random Greedy Algorithm.” *Random Structures & Algorithms* 8 (3): 161–77. [https://doi.org/10.1002/(SICI)1098-2418(199605)8:3\<161::AID-RSA1\>3.0.CO;2-W](https://doi.org/10.1002/(SICI)1098-2418(199605)8:3<161::AID-RSA1>3.0.CO;2-W).
+**[RT96]** Vojtěch Rödl and Luboš Thoma. Asymptotic packing and the random greedy algorithm. *Random Structures & Algorithms*, 8(3):161–177, 1996.
 
-Spencer, Joel. 1995. “Asymptotic Packing via a Branching Process.” *Random Structures & Algorithms* 7 (2): 167–72. <https://doi.org/10.1002/rsa.3240070206>.
+**[Spe95]** Joel Spencer. Asymptotic packing via a branching process. *Random Structures & Algorithms*, 7(2):167–172, 1995. Locators refer to the [author manuscript](https://cs.nyu.edu/~spencer/papers/asympacking.pdf) dated 28 March 1995.

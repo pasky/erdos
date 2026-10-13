@@ -26,8 +26,7 @@ Theorem II (p. 149) gives $F(N)=2^kp^{-1}(1+o(1))$ if $k^3p^{-2}\to\infty$.
 **Source.** P. Erdős and H. Heilbronn, *On the addition of residue classes
 mod $p$*, Acta Arith. 9 (1964), no. 2, 149--159, DOI 10.4064/aa-9-2-149-159
 (received 22 August 1963); Theorem I on printed p. 149 (PDF p. 1 of the
-eleven-page scan), read on the page image. The card's earlier digest wrote
-the exponent as $1/3$; the page prints $(6p)^{1/2}$.
+eleven-page scan), read on the page image.
 
 **Read depth.** Claims checked: the definitions, Theorems I and II and the
 best-possible remark were read clause by clause on the page image. The

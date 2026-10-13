@@ -207,8 +207,8 @@
  "compiler": [],
  "claims":
  [{"surface":
-   {"sha256": "15428696b40c0b4b0401e834232600f4b514e3015c5989818fd1fdd554af2210",
-    "external": 54,
+   {"sha256": "e0148a7151e266303528d0fc597313763ef8f0a68745723f6b1c0119b423480a",
+    "external": 50,
     "constants": 6},
    "statement":
    {"sha256Unfolded": "a1d6e9155ee16fd23ae34957d06e018666af07559aef6cba32d61916d4ce0662",

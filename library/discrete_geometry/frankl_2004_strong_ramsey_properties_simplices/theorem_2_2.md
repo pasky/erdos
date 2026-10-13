@@ -46,7 +46,7 @@ $$
 $$
 
 **External proof scope.** The full original proof and its same-paper
-prerequisites are now compiled at
+prerequisites are compiled at
 [[set_systems/frankl_1987_forbidden_intersections/theorem_1_16|Frankl–Rödl (1987), Theorem 1.16]].
 This remains an external input to the 2004 paper; the statement above
 records its exact imported form. The original statement was checked

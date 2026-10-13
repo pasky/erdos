@@ -158,16 +158,16 @@ it.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: Theorem 2.4 (p. 121),
 $r_n\le n!(e-e^{-1}+3)/2+1$ for $n\ge4$, is the bound the site credits to
-Wan in the chain from Whitehead's $e-1/24$ to Xu, Xie and Chen's $e-1/6$,
-which the page had held second-hand from Eliahou's introduction; with the
-paper's own $S_n\le r_n-1$ (p. 121) it gives $f(k)<k!(e-e^{-1}+3)/2$ for
-$k\ge4$, and Theorem 3.2 (p. 121) gives $f(k)<k!(e-e^{-1}+3)/2-k+2$ for
-even $k\ge6$, both directly in the site's convention, since the paper's
-$S_n$ is the least forcing number with the printed values $S_1=2$, $S_2=5$,
-$S_3=14$, $S_4=45$. Both bounds are weaker than the held $(e-1/6)k!$ for
-every $k\ge4$, so they change no bound on the page and settle nothing it
-leaves open. The paper credits the $e-1/24$ bound to Whitehead's 1971 note
-(its [13]), as Eliahou does; the site's [Wh73] is its [14].
+Wan in the chain from Whitehead's $e-1/24$ to Xu, Xie and Chen's $e-1/6$, as
+does Eliahou's introduction; with the paper's own $S_n\le r_n-1$ (p. 121) it
+gives $f(k)<k!(e-e^{-1}+3)/2$ for $k\ge4$, and Theorem 3.2 (p. 121) gives
+$f(k)<k!(e-e^{-1}+3)/2-k+2$ for even $k\ge6$, both directly in the site's
+convention, since the paper's $S_n$ is the least forcing number with the printed
+values $S_1=2$, $S_2=5$, $S_3=14$, $S_4=45$. Both bounds are weaker than the
+held $(e-1/6)k!$ for every $k\ge4$, so they change no bound on the page and
+settle nothing it leaves open. The paper credits the $e-1/24$ bound to
+Whitehead's 1971 note (its [13]), as Eliahou does; the site's [Wh73] is its
+[14].
 [[../wiki/problems/ramsey_theory/E0183/_index|#183]]: Theorem 2.4 (p. 121) is an upper
 bound on the problem's $R(3;k)$ for $k\ge4$, factorial like every bound in
 the chain and superseded by the $(e-1/6)k!+1$ held in Eliahou's Corollary

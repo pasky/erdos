@@ -125,7 +125,7 @@ that separation using the stated Lemma 4.7 and Proposition 3.10. No separate
 report of the independent check is identified in this source's local record.
 This local deduction is reported to have been independently checked against
 those statements; it
-is not an author-issued correction. Lemma 4.7 now includes a
+is not an author-issued correction. Lemma 4.7 includes a
 separately checked larger-end induction that supplies its forbidden-set
 allowance. Here Corollary 3.15 is used only at the fixed multiple
 $m=8(100/\varepsilon_1)\log^3n$. Its page explains the fixed

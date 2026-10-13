@@ -86,21 +86,19 @@ Inventiones mathematicae **228** (2022), 377–414,
 
 ## Source versions
 
-The canonical 38-page published PDF, held on the
-[[../library/covering_systems/balister_2018_erdos_covering_problem_density_uncovered_set/_index|source card]],
-is the actual Springer article, freely acquired through the
-[NSF repository](https://par.nsf.gov/biblio/10339936). Its printed pages
-377–414 correspond to PDF pages 1–38. The article records receipt on
-11 April 2019, acceptance on 14 October 2021, and online publication on
-16 November 2021; it belongs to the April 2022 issue. The source and
-publication metadata were checked.
+The copy read is the 38-page published Springer article, publicly available
+through the [NSF repository](https://par.nsf.gov/biblio/10339936), as the
+[[../library/covering_systems/balister_2018_erdos_covering_problem_density_uncovered_set/_index|source card]]
+records. Its printed pages 377–414 correspond to PDF pages 1–38. The article
+records receipt on 11 April 2019, acceptance on 14 October 2021, and online
+publication on 16 November 2021; it belongs to the April 2022 issue. The
+source and publication metadata were checked.
 
-The previously canonical 30-page arXiv v1 PDF, also held on the source
-card, is retained unchanged under a version-specific filename. It is
+The 30-page preprint,
 [arXiv:1811.03547v1](https://arxiv.org/abs/1811.03547v1), dated 8 November
-2018. The canonical folder keeps that preprint year to preserve its source
-identity. Result pages now cite the published pages, while explicit v1
-comparisons name their separate artifact.
+2018, was also read. The source folder keeps that preprint year to preserve
+its source identity. Result pages cite the published pages, while explicit
+v1 comparisons name the arXiv version.
 
 The versions are not interchangeable. On v1 p. 4, the square-free assertion
 is **Conjecture 1.3**, with a proof promised elsewhere. On published p. 381
@@ -331,7 +329,7 @@ No estimate for the problem's $\varepsilon_n$ is extracted here.
 
 ## Source inspection
 
-The retained arXiv v1 PDF was compared with a fresh download from the versioned
+The arXiv v1 PDF read was compared with a fresh download from the versioned
 arXiv URL and found byte-identical. The source statements have been inspected
 directly. The contextual applications to Problems 273 and 688 remain distinct
 from the paper's proved results, as explained above.

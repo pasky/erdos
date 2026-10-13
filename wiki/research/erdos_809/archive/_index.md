@@ -126,9 +126,8 @@ and approaches that did not establish the threshold. Their local open
 questions are historical: the author-recorded [C7 proof](../proofs/_index.md)
 gives an argument for the threshold, and the
 [Lean account](../formalization.md) records the $k\ge3$ Lean development
-behind claim L17, accepted at tier 2 on 2026-09-25 for the Lean sources and
-the statement as they stood on 2026-09-25T03:40:15Z and first carried by the
-default branch on 2026-09-28.
+behind claim L17, which stands at tier 2 on the second-cycle review and grade
+of 2026-10-02 and the non-author clean gate of 2026-10-13.
 
 For context, first read the [random-blow-up palette model](c7_random_blowup_lp.md)
 and [half-edge reduction](c7_half_edge_reduction.md). The

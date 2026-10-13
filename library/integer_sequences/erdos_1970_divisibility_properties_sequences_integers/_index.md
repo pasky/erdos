@@ -60,10 +60,10 @@ a set that fails the condition when the two larger terms may coincide (for
 $x=3n$, $2n\mid3n+3n$); Bedert's 2023 theorem and the site's Problem 13 use
 the coinciding reading, under which the maximum is $\lceil x/3\rceil$ for
 large $x$. No copyright or license line is printed on the scan's pages; the
-publisher's article page was not consulted (Wiley's pages had answered HTTP 403
-in earlier reading), and the Crossref record for DOI 10.1112/plms/s3-21.1.97
-(read 2026-10-02) names only Wiley's text-and-data-mining license
-(http://doi.wiley.com/10.1002/tdm_license_1.1) and its terms and conditions
+publisher's article page was not consulted, and the Crossref record for DOI
+10.1112/plms/s3-21.1.97 (read 2026-10-02) names only Wiley's
+text-and-data-mining license (http://doi.wiley.com/10.1002/tdm_license_1.1)
+and its terms and conditions
 (http://onlinelibrary.wiley.com/termsAndConditions#vor), no Creative Commons
 license, every other right reserved.
 

@@ -145,12 +145,10 @@ and its
 [[../library/graph_coloring/petkov_2026_full_sequence_chromatic_cochromatic_gap/evidence/verify/review_grade|distinct grade]]
 are filed under the source digest above. This does not establish the seed or
 the whole main-theorem proof and adds no phase-coefficient, status, tier or
-kernel claim. On 2026-10-12 this page's frontmatter description was reworded;
-the change touches no examined statement, proof, code or input. On 2026-10-13
-the Current verification paragraph of the main-theorem page was corrected to
-record the theorem as the accepted claim on E625, on the curator's review, and
-the site's label as SOLVED; the change touches no examined statement, proof,
-code or input.
+kernel claim. Since the review, this page's frontmatter description was
+reworded and the Current verification paragraph of the main-theorem page was
+revised to record the theorem's acceptance on E625 and the site's label; it
+touches no examined statement, proof, code or input.
 
 The separate
 [[../library/graph_coloring/petkov_2026_full_sequence_chromatic_cochromatic_gap/lemma_9_2|Lemma 9.2 reconstruction]]

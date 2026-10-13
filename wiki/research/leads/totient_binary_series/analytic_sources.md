@@ -58,7 +58,7 @@ Both full PDFs were obtained and their bytes checked. The Bell--Smertnig copy re
 which the library does not hold. The Kaneko--Suzuki--Tachiya copy read
 (571434 bytes) is the edition the
 [[../library/irrationality/kaneko_2026_refinements_erdos_s_irrationality_criterion_certain/_index|library card]]
-names; the library no longer holds its file.
+names; the library does not hold its file.
 
 All text on Bell--Smertnig pp. 1--29 and Kaneko--Suzuki--Tachiya
 pp. 1--20 was read from PDF extraction. Formula fidelity was additionally

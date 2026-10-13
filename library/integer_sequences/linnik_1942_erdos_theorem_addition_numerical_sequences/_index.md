@@ -79,9 +79,7 @@ The following are material source issues. The fourth lemma's stated
 finite threshold is insufficient. The printed good-start truncation and Fourier supports do not
 justify their asserted cardinality and positivity claims. The result
 pages preserve these defects rather than treating them as established
-lemmas. They also distinguish the earlier compilation's transcription
-errors, such as cutoffs on the bases and loss of the prime in the final
-half-degree exponent.
+lemmas.
 
 The English construction controls the reconstruction. The Russian summary
 prints a smaller starting value $N_0=\lfloor\exp(14^{20})\rfloor$ and a

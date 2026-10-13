@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+# Clean committed-source gate of the change that moved the Lean project to
+# Lean v4.34.1, as committed at 2026-10-13T17:35:38Z. The gate archives that
+# commit's lean/ tree into a fresh temporary directory, fetches the Mathlib
+# cache, builds, runs the axiom audit against the committed manifest and checks
+# the self-test stamp. The runner is not the author of the change. It waits for
+# the host's Lean build lock and holds it for the run.
+#
+# Filed with three values replaced by bracketed descriptions (the checked
+# source's revision, the runner's worktree and the lock's directory), SOURCE's
+# label, which named the revision, replaced by the time of its commit, and this
+# comment reworded to name no person, pull request or revision.
+REV="<the checked source's revision>"
+SOURCE="the change that moved the Lean project to Lean v4.34.1, as committed at 2026-10-13T17:35:38Z"
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+REPO="<the runner's worktree>"
+LOG="$HERE/clean_gate_log.txt"
+LOCK="<the host's Lean build lock directory>"
+
+until mkdir "$LOCK" 2>/dev/null; do sleep 60; done
+trap 'rmdir "$LOCK"' EXIT
+
+# Cap Lake's parallel compiles, as the gate's own default does.
+export LEAN_NUM_THREADS=4
+
+cd "$REPO"
+START_UTC="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+START_S="$(date +%s)"
+{
+    echo "clean gate of the archived lean/ subtree, non-author runner, fresh context"
+    echo "checked_source: $SOURCE"
+    echo "command: LEAN_NUM_THREADS=4 nice -n 10 /bin/bash lean/scripts/gate.sh --clean $REV"
+    echo "worktree_head_before: $(git rev-parse HEAD)"
+    echo "worktree_status_before: $(git status --porcelain --untracked-files=no | wc -l | tr -d ' ') tracked changes"
+    echo "start_utc: $START_UTC"
+    echo "--- streams (stdout and stderr interleaved) ---"
+} > "$LOG"
+nice -n 10 /bin/bash lean/scripts/gate.sh --clean "$REV" >> "$LOG" 2>&1
+RC=$?
+END_UTC="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+END_S="$(date +%s)"
+{
+    echo "--- end streams ---"
+    echo "worktree_head_after: $(git rev-parse HEAD)"
+    echo "worktree_status_after: $(git status --porcelain --untracked-files=no | wc -l | tr -d ' ') tracked changes"
+    echo "end_utc: $END_UTC"
+    echo "wall_seconds: $((END_S - START_S))"
+    echo "exit_code: $RC"
+} >> "$LOG"
+exit "$RC"

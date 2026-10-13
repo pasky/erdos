@@ -43,7 +43,7 @@ Printed p. 433 is PDF p. 1. The [publisher
 record](https://annals.math.princeton.edu/2004/160-2/p02) identifies the volume,
 issue and page range.
 
-An earlier copy read for this card is the
+A second copy read for this card is the
 30-page arXiv v2.
 It identifies [arXiv:math/0107191v2](https://arxiv.org/abs/math/0107191v2), 27
 November 2003. Its PDF pagination is not the published pagination, and no

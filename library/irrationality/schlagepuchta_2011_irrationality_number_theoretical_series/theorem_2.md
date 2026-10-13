@@ -54,7 +54,7 @@ digits of $f(n)$ (about $\log_bn$ of them for $f(n)=p_n$) overlap when
 placed at position $n$, with carries. For $f(n)=p_n$ the concatenation is
 the Copeland–Erdős number, not the series of problem 251. The theorem is
 therefore related to problem 251 by analogy only and records no progress on
-it; it is filed because this card's earlier digest singled it out.
+it.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (a mention that
 explains why the theorem does not apply).

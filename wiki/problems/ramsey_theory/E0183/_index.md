@@ -165,8 +165,6 @@ has a complete reconstruction and independently reviewed proof
 coverage, including its degree lemma and elementary Ramsey bounds.
 The later structural and computational exclusions are separate
 obligations; this reduction changes no catalog status or formal standing.
-On 2026-10-12 this page's frontmatter description and Status paragraph were
-reworded; the change touches no examined statement, proof, code or input.
 
 **Search scope:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the
@@ -176,11 +174,11 @@ does not assert a comprehensive literature search or an independent
 community-acceptance review.
 
 The lower-route review examined this page as it stood on 2026-09-09, and the
-upper-route review and grade as it stood on 2026-09-10. Since then the
-References, the Status field and the Known Results sentences that cite
-[He77], [KaSt68], [LaMa88] and [Wa97] at statement depth were added or
-rewritten; the statement, the lower-bound route and its reviewed proofs
-were not changed.
+upper-route review and grade as it stood on 2026-09-10. Since the reviews,
+the References, the frontmatter description, the Status paragraph and the
+Known Results sentences that cite [He77], [KaSt68], [LaMa88] and [Wa97] at
+statement depth were added or rewritten; it touches no examined statement,
+proof, code or input.
 
 ## Progress
 

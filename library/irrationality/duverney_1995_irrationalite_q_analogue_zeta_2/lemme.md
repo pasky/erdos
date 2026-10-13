@@ -216,11 +216,10 @@ deduction rederived, and both external premises checked at the reading
 depths above. The proof is therefore independently accepted compilation
 proof coverage relative to (E), not proved here, and to (T2). The reviewed
 text is the copy `evidence/assets/reviewed_pages/lemme.md`, which the
-repository does not hold; the current page differs from it only in the
-`desc` field, this Verification section, the `updated` field and, since
-2026-09-17, the reading-depth label of (T2) under Premises, restated from
-"statement checked" to "claims checked" in the read-status vocabulary of
-`docs/anatomy.md`; that change touches neither the statement nor the proof.
+repository does not hold. Since the review, only the `desc` field, this
+Verification section, the `updated` field and the reading-depth label of (T2)
+under Premises have changed; it touches no examined statement, proof, code
+or input.
 
 **Bears on.** [[../wiki/problems/irrationality/E0250/_index|#250]], through the
 [[irrationality/duverney_1995_irrationalite_q_analogue_zeta_2/theoreme|Théorème]]

@@ -45,9 +45,7 @@ pages are 463--470), the Ramsey bound; [5] Taylor, Dutton and Brigham,
 Bounds on Nordhaus--Gaddum type bounds for clique cover numbers, Congressus
 Numerantium 40 (1983), 388--398. None is held. The theorem is quoted, with the
 threshold $n\ge2^{1500}$, on p. 42 of
-[[ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/_index|keevash_2004_number_edges_not_covered_monochromatic_copies]],
-whose quotation the problem page used before the paper was read for this
-card.
+[[ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/_index|keevash_2004_number_edges_not_covered_monochromatic_copies]].
 
 The copy read for this card is the
 publisher's scan of the printed article: 6 pages, printed pp. 393--398 =

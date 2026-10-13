@@ -71,7 +71,7 @@ None.
 - [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: the double-star conjecture
   that Norin, Sun and Zhao refute on the way to the problem's disproof, and
   the paper's own statement of Burr's conjecture and of its disproof by
-  Lemma 2.4, which the problem page had quoted second-hand.
+  Lemma 2.4.
 - [[../wiki/problems/ramsey_theory/E0547/_index|Problem 547]]: remark (2) records that
   Burr's exact conjecture for trees fails, while the conjectured values
   stay at or below $2N-2$ for a double star on $N=n+m+2$ points.

@@ -14,11 +14,11 @@ How efficiently can the edges of a graph be partitioned into cycles? Single edge
 
 The parts in this theorem may share vertices. They share no edges, and every edge of $G$ occurs in exactly one part. Isolated vertices need not be covered, and the empty partition is permitted when $E(G)=\varnothing$.
 
-The conjecture appears in the 1966 paper of Erdős, Goodman and Pósa (Erdős et al. 1966, sec. 5), which explicitly distinguishes unrestricted covers from edge-disjoint covers and records an $O(n\log n)$ upper bound. Conlon, Fox and Sudakov (Conlon et al. 2014) improved the general bound to $O(n\log\log n)$ in 2014. Bucić and Montgomery (Bucić and Montgomery 2024) subsequently proved the bound $O(n\log^*n)$; their paper appeared in journal form in 2024. Here $\log^*n$ is the number of logarithm iterations needed to reach at most one. Theorem 1.1 establishes the conjectured linear bound. Its order is optimal, since a tree on $n$ vertices requires $n-1$ single-edge parts. More sharply, complete bipartite examples require $(3/2-o(1))n$ parts; see (Bucić and Montgomery 2024, sec. 6) for this lower bound and its history.
+The conjecture appears in the 1966 paper of Erdős, Goodman and Pósa [6, Section 5], which explicitly distinguishes unrestricted covers from edge-disjoint covers and records an $O(n\log n)$ upper bound. Conlon, Fox and Sudakov [5] improved the general bound to $O(n\log\log n)$ in 2014. Bucić and Montgomery [4] subsequently proved the bound $O(n\log^*n)$; their paper appeared in journal form in 2024. Here $\log^*n$ is the number of logarithm iterations needed to reach at most one. Theorem 1.1 establishes the conjectured linear bound. Its order is optimal, since a tree on $n$ vertices requires $n-1$ single-edge parts. More sharply, complete bipartite examples require $(3/2-o(1))n$ parts; see [4, Section 6] for this lower bound and its history.
 
-Linear bounds were already known for important classes. Conlon, Fox and Sudakov (Conlon et al. 2014, Theorems 1.3 and 1.4) proved them with high probability for binomial random graphs, and deterministically for graphs of linear minimum degree. Korándi, Krivelevich and Sudakov (Korándi et al. 2015) obtained asymptotically sharp counts over a broad range of random-graph probabilities. For every fixed $\alpha,\delta>0$, Girão, Granet, Kühn and Osthus (Girão et al. 2021, Theorem 1.10(iii)) proved that sufficiently large graphs of minimum degree at least $\alpha n$ admit at most $(3/2+\delta)n$ cycles and edges. Akbari, Aloni, Beikmohammadi and Clow (Akbari et al. 2025, Theorem 1.3) proved the bound $n-1$ for graphs of positive order and maximum degree at most four. The general problem allows both sparse regions and vertices of widely differing degrees.
+Linear bounds were already known for important classes. Conlon, Fox and Sudakov [5, Theorems 1.3 and 1.4] proved them with high probability for binomial random graphs, and deterministically for graphs of linear minimum degree. Korándi, Krivelevich and Sudakov [8] obtained asymptotically sharp counts over a broad range of random-graph probabilities. For every fixed $\alpha,\delta>0$, Girão, Granet, Kühn and Osthus [7, Theorem 1.10(iii)] proved that sufficiently large graphs of minimum degree at least $\alpha n$ admit at most $(3/2+\delta)n$ cycles and edges. Akbari, Aloni, Beikmohammadi and Clow [2, Theorem 1.3] proved the bound $n-1$ for graphs of positive order and maximum degree at most four. The general problem allows both sparse regions and vertices of widely differing degrees.
 
-The edge-disjoint requirement is essential to the problem. If cycles and edges may overlap, Pyber (Pyber 1985) proved that $n-1$ parts suffice to cover every graph of positive order. Akbari, Aloni, Beikmohammadi and Clow (Akbari et al. 2025, Theorem 1.7) improved this covering bound to $n-2$ for graphs containing a cycle. A cover of that kind does not supply a partition: deleting repeated edges may break its cycles into many paths. Our construction keeps a separate assignment for every original edge throughout.
+The edge-disjoint requirement is essential to the problem. If cycles and edges may overlap, Pyber [11] proved that $n-1$ parts suffice to cover every graph of positive order. Akbari, Aloni, Beikmohammadi and Clow [2, Theorem 1.7] improved this covering bound to $n-2$ for graphs containing a cycle. A cover of that kind does not supply a partition: deleting repeated edges may break its cycles into many paths. Our construction keeps a separate assignment for every original edge throughout.
 
 Theorem 1.1 also yields two cycle-only consequences. Here a graph is *Eulerian* if all its degrees are even; connectivity is not required.
 
@@ -28,11 +28,11 @@ Theorem 1.1 also yields two cycle-only consequences. Here a graph is *Eulerian*
 
 Any edge partition of $G$ into cycles needs at least $\Delta(G)/2$ cycles, since a cycle uses at most two edges incident with a given vertex. The second assertion attains this lower bound up to an arbitrarily small linear error under the stated large-cut condition.
 
-*Proof.* For the first claim, let the partition from Theorem 1.1 have $r$ cycle parts and $s$ single-edge parts, with $r+s\le Cn$. The graph formed by the latter edges has even degrees, since deleting cycles preserves degree parity. Repeatedly removing a cycle preserves this property and ends with no edges: every even graph with an edge contains a cycle. This uses at most $s$ cycles, for a total of at most $r+s\le Cn$. The equivalence of this $O(n)$ Eulerian cycle bound with the Erdős–Gallai conjecture is recorded in (Girão et al. 2021, sec. 1.1).
+*Proof.* For the first claim, let the partition from Theorem 1.1 have $r$ cycle parts and $s$ single-edge parts, with $r+s\le Cn$. The graph formed by the latter edges has even degrees, since deleting cycles preserves degree parity. Repeatedly removing a cycle preserves this property and ends with no edges: every even graph with an edge contains a cycle. This uses at most $s$ cycles, for a total of at most $r+s\le Cn$. The equivalence of this $O(n)$ Eulerian cycle bound with the Erdős–Gallai conjecture is recorded in [7, Section 1.1].
 
-The partition-cut condition in the second claim is exactly the weakly-$(\varepsilon,p)$-quasirandom condition of (Girão et al. 2021, sec. 1.2). Their Proposition 6.3 proves that Conjecture 1.14, the stated bound with these quantifiers, is equivalent to their Erdős–Gallai Conjecture 1.4, supplied by Theorem 1.1. ◻
+The partition-cut condition in the second claim is exactly the weakly-$(\varepsilon,p)$-quasirandom condition of [7, Section 1.2]. Their Proposition 6.3 proves that Conjecture 1.14, the stated bound with these quantifiers, is equivalent to their Erdős–Gallai Conjecture 1.4, supplied by Theorem 1.1. ◻
 
-Our argument builds on the expansion, hypergraph matching and path-closing methods of Bucić and Montgomery (Bucić and Montgomery 2024), with earlier reservoir and sparse-cut methods of Conlon, Fox and Sudakov (Conlon et al. 2014). We use Lovász’s path-and-cycle decomposition theorem (Lovász 1968) and the Aharoni–Haxell matching theorem (Aharoni and Haxell 2000), in the precise forms stated below. The additional mechanism is an induction that saves vertices across different scales while reserving enough edges to lift cycles from the smaller graphs. A decomposition that repeatedly pays a cost proportional to the full graph order can accumulate a factor from the number of scales. Here the work over a suitable prefix is charged to one expanding layer, and pair identifications save a fixed fraction of that layer’s order. The savings pay for the work outside the recursive calls.
+Our argument builds on the expansion, hypergraph matching and path-closing methods of Bucić and Montgomery [4], with earlier reservoir and sparse-cut methods of Conlon, Fox and Sudakov [5]. We use Lovász’s path-and-cycle decomposition theorem [10] and the Aharoni–Haxell matching theorem [1], in the precise forms stated below. The additional mechanism is an induction that saves vertices across different scales while reserving enough edges to lift cycles from the smaller graphs. A decomposition that repeatedly pays a cost proportional to the full graph order can accumulate a factor from the number of scales. Here the work over a suitable prefix is charged to one expanding layer, and pair identifications save a fixed fraction of that layer’s order. The savings pay for the work outside the recursive calls.
 
 ### Outline of the proof
 
@@ -68,11 +68,11 @@ All logarithms denoted by $\log$ are to base two; $\ln$ denotes the natural loga
 
 ### A path decomposition with controlled endpoints
 
-We use the following form of Lovász’s decomposition theorem. Disjointness in its original statement means edge-disjointness (Lovász 1968, Theorem 1); see also (Bucić and Montgomery 2024, Theorem 21).
+We use the following form of Lovász’s decomposition theorem. Disjointness in its original statement means edge-disjointness [10, Theorem 1]; see also [4, Theorem 21].
 
 **Theorem 2.1** (Lovász). *The edges of a finite simple graph on $n$ vertices can be partitioned into at most $\left\lfloor n/2\right\rfloor$ paths and cycles.*
 
-The following consequence is recorded in (Bucić and Montgomery 2024, Corollary 22). We include the deduction because endpoint multiplicities are used in two different constructions.
+The following consequence is recorded in [4, Corollary 22]. We include the deduction because endpoint multiplicities are used in two different constructions.
 
 **Corollary 2.2**. *Every finite simple graph on $n$ vertices has an edge partition into paths such that each vertex is an endpoint of at most two paths. In particular, the partition has at most $n$ paths.*
 
@@ -86,7 +86,7 @@ Delete $v_0$ from these paths and discard any edgeless remnants. Every old verte
 
 ### Disjoint representatives for hypergraphs
 
-A hypergraph here is a finite family of nonempty subsets of a finite ground set. A matching is a subfamily of pairwise disjoint edges. We use the following sufficient condition, from the hypergraph Hall theorem of Aharoni and Haxell (Aharoni and Haxell 2000), in the bounded-rank form stated in (Bucić and Montgomery 2024, Theorem 6).
+A hypergraph here is a finite family of nonempty subsets of a finite ground set. A matching is a subfamily of pairwise disjoint edges. We use the following sufficient condition, from the hypergraph Hall theorem of Aharoni and Haxell [1], in the bounded-rank form stated in [4, Theorem 6].
 
 **Theorem 2.3** (Aharoni–Haxell). *Let $s$ be a positive integer and let $(\mathcal H_i)_{i\in J}$ be a finite indexed family of hypergraphs on a common ground set. Suppose every edge is nonempty and has size at most $s$. If, for every nonempty $I\subseteq J$, the union $\bigcup_{i\in I}\mathcal H_i$ has a matching of size strictly greater than $s(|I|-1)$, then there are edges $E_i\in\mathcal H_i$, one for each $i\in J$, that are pairwise disjoint.*
 
@@ -104,7 +104,7 @@ We use linearity of expectation, Markov’s inequality, the union bound, and the
 
 ## Routing with team constraints
 
-A demand specifies two distinct vertices to be joined. Demands are indexed, so several demands may specify the same pair. Besides edge-disjointness of all routes, we will need internal vertex-disjointness for specified groups of routes. The following lemma supplies both requirements. Its proof uses the hypergraph formulation and expansion-to-connectivity method of Bucić and Montgomery (Bucić and Montgomery 2024, Proposition 8 and Lemma 9). The vertex tokens introduced in the proof impose a separate internal-disjointness constraint for each team; different teams compete only for graph edges.
+A demand specifies two distinct vertices to be joined. Demands are indexed, so several demands may specify the same pair. Besides edge-disjointness of all routes, we will need internal vertex-disjointness for specified groups of routes. The following lemma supplies both requirements. Its proof uses the hypergraph formulation and expansion-to-connectivity method of Bucić and Montgomery [4, Proposition 8 and Lemma 9]. The vertex tokens introduced in the proof impose a separate internal-disjointness constraint for each team; different teams compete only for graph edges.
 
 **Lemma 3.1** (Routing). *Let $P$ be a graph of order $r\ge 2$ with cut expansion $h>0$, and put $$\begin{equation}
 \tag{3.1}
@@ -214,7 +214,7 @@ For later estimates, the exact radii also give the useful uniform bound $$\begin
 
 ## Expansion in small reservoirs
 
-We next process a graph containing a spanning expanding subgraph. Reserving vertices and edges to connect and close paths is already central to the cycle decomposition argument of Conlon, Fox and Sudakov (Conlon et al. 2014, sec. 3). Our aim here is to leave residual graphs with arbitrarily small total vertex order, so that their recursive cost can be paid by the later folding savings. At a scale $D$, put $$\sigma=D^{0.90},\qquad \tau=D^{0.74}.$$ Throughout this section the order $r$ lies in $\sigma\le r\le D^{1.02}$. All assertions for sufficiently large $D$ are uniform over the graphs and orders in this range. Their thresholds may depend on the fixed positive constants in the statements.
+We next process a graph containing a spanning expanding subgraph. Reserving vertices and edges to connect and close paths is already central to the cycle decomposition argument of Conlon, Fox and Sudakov [5, Section 3]. Our aim here is to leave residual graphs with arbitrarily small total vertex order, so that their recursive cost can be paid by the later folding savings. At a scale $D$, put $$\sigma=D^{0.90},\qquad \tau=D^{0.74}.$$ Throughout this section the order $r$ lies in $\sigma\le r\le D^{1.02}$. All assertions for sufficiently large $D$ are uniform over the graphs and orders in this range. Their thresholds may depend on the fixed positive constants in the statements.
 
 ### Splitting the expanding edges
 
@@ -225,7 +225,7 @@ We next process a graph containing a spanning expanding subgraph. Reserving vert
 
 ### Expansion after vertex sampling
 
-The issue is to control every sampled cut without a union bound over all vertex subsets. Bucić and Montgomery establish connectivity by short paths through a random vertex set, using successive exposures and well-expanding subsets (Bucić and Montgomery 2024, sec. 4). In the polynomial cut-expansion range used here, we instead fix a small family of neighborhood unions and show that it approximates every possible failing sampled cut.
+The issue is to control every sampled cut without a union bound over all vertex subsets. Bucić and Montgomery establish connectivity by short paths through a random vertex set, using successive exposures and well-expanding subsets [4, Section 4]. In the polynomial cut-expansion range used here, we instead fix a small family of neighborhood unions and show that it approximates every possible failing sampled cut.
 
 **Lemma 4.2** (Vertex sampling). *Fix $c'>0$ and $p\in(0,1)$. Let $P$ have order $D^{0.90}\le r\le D^{1.02}$ and cut expansion at least $h=c'D^{0.90}$. Select each vertex independently with probability $p$ to form $V'$. With probability $1-o(1)$ as $D\to\infty$, all of the following hold: $$\begin{equation}
 \tag{4.1}
@@ -320,7 +320,7 @@ All uses of $o(1)$ above occur after $p$ and $c'$ have been fixed. In particular
 
 ### Closing paths through three reservoirs
 
-Bucić and Montgomery use three vertex classes and reserved connecting subgraphs to close paths through a class avoided by the original path (Bucić and Montgomery 2024, sec. 2.2 and Lemma 23). We use three disjoint reservoirs of arbitrarily small fixed relative order. Every edge has both endpoints outside at least one of them. After reserving the connecting edges, we can therefore assign each remaining edge to such a complement, partition that graph into paths, and close the paths through its reservoir. The preceding sampling lemma supplies the internal expansion needed for these routes. Unused reserved edges between a reservoir and its complement are taken singly, leaving only unused reserved edges inside reservoirs for recursion.
+Bucić and Montgomery use three vertex classes and reserved connecting subgraphs to close paths through a class avoided by the original path [4, Section 2.2 and Lemma 23]. We use three disjoint reservoirs of arbitrarily small fixed relative order. Every edge has both endpoints outside at least one of them. After reserving the connecting edges, we can therefore assign each remaining edge to such a complement, partition that graph into paths, and close the paths through its reservoir. The preceding sampling lemma supplies the internal expansion needed for these routes. Unused reserved edges between a reservoir and its complement are taken singly, leaving only unused reserved edges inside reservoirs for recursion.
 
 **Lemma 4.3** (Small residue). *Fix $\eta>0$ and $c>0$. For all sufficiently large $D$, let $G$ be an $r$-vertex graph with $D^{0.90}\le r\le D^{1.02}$ containing a spanning subgraph of cut expansion at least $cD^{0.90}$. Then $E(G)$ has a partition into at most $9r$ completed parts, each a simple cycle or a single edge, and the edge sets of at most three residual simple graphs. The residual graphs have pairwise disjoint vertex sets contained in $V(G)$, their total order is at most $\eta r$, and each has order strictly less than $r$.*
 
@@ -385,7 +385,7 @@ The graphs $H_i$ are simple, have the pairwise disjoint vertex sets $V_i$, and s
 
 ## Splitting at a scale
 
-The first operation below splits the graph into small boxes, allowing a small amount of vertex overlap. The second operation extracts expanding pieces on disjoint vertex sets within each box. Only edges leave when a piece is extracted: the residual graph retains every box vertex. Thus every earlier piece vertex still occurs in a descendant box when the operations are iterated. The overlapping split and its inverse-logarithmic order potential adapt the expander splitting argument of Bucić and Montgomery (Bucić and Montgomery 2024, Lemma 14). Here we stop at a prescribed scale and obtain a total box order of $N(1+O(1/\log D))$, which will be charged in the final induction.
+The first operation below splits the graph into small boxes, allowing a small amount of vertex overlap. The second operation extracts expanding pieces on disjoint vertex sets within each box. Only edges leave when a piece is extracted: the residual graph retains every box vertex. Thus every earlier piece vertex still occurs in a descendant box when the operations are iterated. The overlapping split and its inverse-logarithmic order potential adapt the expander splitting argument of Bucić and Montgomery [4, Lemma 14]. Here we stop at a prescribed scale and obtain a total box order of $N(1+O(1/\log D))$, which will be charged in the final induction.
 
 **Lemma 5.1** (Splitting at a scale). *There are absolute constants $D_{\mathrm{sp}}$ and $C_0$ such that, for every real $D\ge D_{\mathrm{sp}}$, every graph $G$ on a nonempty vertex set of order $N$ and with average degree at most $D$ admits the following two successive operations. One may take $C_0=2$.*
 
@@ -412,7 +412,7 @@ The first operation below splits the graph into small boxes, allowing a small am
 
 *Thus the cycles in $\mathcal C$, the pieces $R$, and the residual graphs $H_Y$ together partition $E(G)$.*
 
-We first give the elementary long-cycle argument used to find the overlapping splits. It is the depth-first-search and bypass argument of Bucić and Montgomery (Bucić and Montgomery 2024, Lemma 25), with constants suited to the present scale cutoff. Related depth-first-search balance arguments appear in Ben-Eliezer, Krivelevich and Sudakov (Ben-Eliezer et al. 2012, Lemma 2.3); Krivelevich (Krivelevich 2019, Theorem 1) gives a stronger general criterion for long cycles from local expansion. For a vertex set $U$ in a graph $H$, write $N_H(U)=\bigcup_{v\in U}N_H(v)$; its external neighbor set is $N_H(U)\setminus U$.
+We first give the elementary long-cycle argument used to find the overlapping splits. It is the depth-first-search and bypass argument of Bucić and Montgomery [4, Lemma 25], with constants suited to the present scale cutoff. Related depth-first-search balance arguments appear in Ben-Eliezer, Krivelevich and Sudakov [3, Lemma 2.3]; Krivelevich [9, Theorem 1] gives a stronger general criterion for long cycles from local expansion. For a vertex set $U$ in a graph $H$, write $N_H(U)=\bigcup_{v\in U}N_H(v)$; its external neighbor set is $N_H(U)\setminus U$.
 
 **Lemma 5.2** (Vertex expansion gives a long cycle). *Fix $\varepsilon=1/32$. For every sufficiently large integer $u$, put $\alpha=\varepsilon/\log^2 u$. If a graph $H$ of order $u$ satisfies $$\begin{equation}
 \tag{5.5}
@@ -514,7 +514,7 @@ The sum of child orders can exceed the parent order by $b$. The following potent
 
 ##### Extracting pieces of cut expansion $\sigma$.
 
-This repeated removal of sparse cuts follows the small-side charging method used by Conlon, Fox and Sudakov (Conlon et al. 2014, Lemma 3.1). We give the accounting for the precise cut expansion and residual average degree required here. Fix a box $Y$, write $y=\left|Y\right|$, and start with its assigned graph $G_Y$. Whenever a current graph on a vertex set $A$ of order at least two fails to have cut expansion $\sigma=D^{0.90}$, choose a partition $A=A_1\mathbin{\dot\cup}A_2$ into nonempty sets such that its cut has fewer than $\sigma\min\{\left|A_1\right|,\left|A_2\right|\}$ edges. Put those cut edges into the residual graph $H_Y$, and continue separately with the edges internal to each of $A_1,A_2$. Both child orders strictly decrease, so this procedure terminates. Its terminal vertex sets partition $Y$. The nonsingleton terminal graphs form $\mathcal R_Y$; by the stopping rule each has cut expansion at least $\sigma$. If such a graph has order $r$, its singleton cuts show that its minimum degree is at least $\sigma$. Simplicity then gives $r-1\ge\sigma$, and in particular (5.3). Terminal singletons carry no edges and are omitted from $\mathcal R_Y$.
+This repeated removal of sparse cuts follows the small-side charging method used by Conlon, Fox and Sudakov [5, Lemma 3.1]. We give the accounting for the precise cut expansion and residual average degree required here. Fix a box $Y$, write $y=\left|Y\right|$, and start with its assigned graph $G_Y$. Whenever a current graph on a vertex set $A$ of order at least two fails to have cut expansion $\sigma=D^{0.90}$, choose a partition $A=A_1\mathbin{\dot\cup}A_2$ into nonempty sets such that its cut has fewer than $\sigma\min\{\left|A_1\right|,\left|A_2\right|\}$ edges. Put those cut edges into the residual graph $H_Y$, and continue separately with the edges internal to each of $A_1,A_2$. Both child orders strictly decrease, so this procedure terminates. Its terminal vertex sets partition $Y$. The nonsingleton terminal graphs form $\mathcal R_Y$; by the stopping rule each has cut expansion at least $\sigma$. If such a graph has order $r$, its singleton cuts show that its minimum degree is at least $\sigma$. Simplicity then gives $r-1\ge\sigma$, and in particular (5.3). Terminal singletons carry no edges and are omitted from $\mathcal R_Y$.
 
 To bound the edges put into $H_Y$, at each split charge their number equally to the vertices in a smaller side, choosing either side in case of equality. Each charged vertex receives less than $\sigma$ at that split. Whenever a given vertex is charged, the current set containing it decreases in size by a factor of at least two; any intervening splits can only decrease its size further. If the vertex is charged $k$ times, after its last charge its set has order at most $y/2^k$ and at least one. Thus $k\le\log y$.
 
@@ -620,7 +620,7 @@ The next lemma resolves all batches within a single earlier box. Its hypotheses 
 
 ##### Removing edges to heavy neighbors.
 
-The path trimming below is the elementary operation used by Conlon, Fox and Sudakov (Conlon et al. 2014, Lemma 6.3): decompose a bipartite graph into paths and remove terminal edges so that the remaining endpoints lie on one prescribed side. We keep the endpoint loads under the single degree bound on the union of all batches. Fix a batch $W$. Its active sets are pairwise disjoint because the pieces $R$ have disjoint vertex sets. For an active set $X=X_{W,R}$ put $$H_X=\{v\in W:\left|N_{J_W}(v)\cap X\right|>a\},
+The path trimming below is the elementary operation used by Conlon, Fox and Sudakov [5, Lemma 6.3]: decompose a bipartite graph into paths and remove terminal edges so that the remaining endpoints lie on one prescribed side. We keep the endpoint loads under the single degree bound on the union of all batches. Fix a batch $W$. Its active sets are pairwise disjoint because the pieces $R$ have disjoint vertex sets. For an active set $X=X_{W,R}$ put $$H_X=\{v\in W:\left|N_{J_W}(v)\cap X\right|>a\},
  \qquad E_X=E_{J_W}(X,H_X).$$ Every vertex in any active set has degree at most $a$ in $J_W$, since $J_W\subseteq F$. Thus $H_X$ is disjoint from every active set in this batch, including $X$. If $H_X$ is nonempty, counting edges gives $$a\left|H_X\right|<\left|E_X\right|
  \le\sum_{x\in X}d_{J_W}(x)\le a\left|X\right|;$$ in all cases $\left|H_X\right|\le\left|X\right|$. The sets $E_X$ for different active $X$ are disjoint. In fact each of their edges has one endpoint in its specified active set and its other endpoint outside every active set, so it cannot belong to the set specified by a different active set.
 
@@ -895,24 +895,24 @@ Since $\phi(n)\le1$, Theorem 7.2 proves Theorem 1.1 for positive order. The ze
 
 ## References
 
-Aharoni, Ron, and Penny Haxell. 2000. “Hall’s Theorem for Hypergraphs.” *Journal of Graph Theory* 35 (2): 83–88. [https://doi.org/10.1002/1097-0118(200010)35:2\<83::AID-JGT2\>3.0.CO;2-V](https://doi.org/10.1002/1097-0118(200010)35:2<83::AID-JGT2>3.0.CO;2-V).
+**[1]** Ron Aharoni and Penny Haxell. Hall’s theorem for hypergraphs. *Journal of Graph Theory*, 35(2):83–88, 2000.
 
-Akbari, Saieed, Jonny Aloni, Arash Beikmohammadi, and Alexander Clow. 2025. *Tight Bounds for Cycle-Edge Decompositions and Covers*. <https://arxiv.org/abs/2509.01901v2>.
+**[2]** Saieed Akbari, Jonny Aloni, Arash Beikmohammadi, and Alexander Clow. Tight bounds for cycle-edge decompositions and covers, 2025. arXiv:2509.01901v2, 7 September 2025.
 
-Ben-Eliezer, Ido, Michael Krivelevich, and Benny Sudakov. 2012. “Long Cycles in Subgraphs of (Pseudo)random Directed Graphs.” *Journal of Graph Theory* 70 (3): 284–96. <https://doi.org/10.1002/jgt.20616>.
+**[3]** Ido Ben-Eliezer, Michael Krivelevich, and Benny Sudakov. Long cycles in subgraphs of (pseudo)random directed graphs. *Journal of Graph Theory*, 70(3):284–296, 2012.
 
-Bucić, Matija, and Richard Montgomery. 2024. “Towards the Erdős–Gallai Cycle Decomposition Conjecture.” *Advances in Mathematics* 437: 109434. <https://doi.org/10.1016/j.aim.2023.109434>.
+**[4]** Matija Bucić and Richard Montgomery. Towards the Erdős–Gallai cycle decomposition conjecture. *Advances in Mathematics*, 437:109434, 2024. Theorem numbering refers to arXiv:2211.07689v2, 14 November 2023.
 
-Conlon, David, Jacob Fox, and Benny Sudakov. 2014. “Cycle Packing.” *Random Structures & Algorithms* 45 (4): 608–26. <https://doi.org/10.1002/rsa.20574>.
+**[5]** David Conlon, Jacob Fox, and Benny Sudakov. Cycle packing. *Random Structures & Algorithms*, 45(4):608–626, 2014.
 
-Erdős, Paul, A. W. Goodman, and Louis Pósa. 1966. “The Representation of a Graph by Set Intersections.” *Canadian Journal of Mathematics* 18: 106–12. <https://doi.org/10.4153/CJM-1966-014-3>.
+**[6]** Paul Erdős, A. W. Goodman, and Louis Pósa. The representation of a graph by set intersections. *Canadian Journal of Mathematics*, 18:106–112, 1966.
 
-Girão, António, Bertille Granet, Daniela Kühn, and Deryk Osthus. 2021. “Path and Cycle Decompositions of Dense Graphs.” *Journal of the London Mathematical Society* 104 (3): 1085–134. <https://doi.org/10.1112/jlms.12455>.
+**[7]** António Girão, Bertille Granet, Daniela Kühn, and Deryk Osthus. Path and cycle decompositions of dense graphs. *Journal of the London Mathematical Society*, 104(3):1085–1134, 2021.
 
-Korándi, Dániel, Michael Krivelevich, and Benny Sudakov. 2015. “Decomposing Random Graphs into Few Cycles and Edges.” *Combinatorics, Probability and Computing* 24 (6): 857–72. <https://doi.org/10.1017/S0963548314000844>.
+**[8]** Dániel Korándi, Michael Krivelevich, and Benny Sudakov. Decomposing random graphs into few cycles and edges. *Combinatorics, Probability and Computing*, 24(6):857–872, 2015.
 
-Krivelevich, Michael. 2019. “Long Cycles in Locally Expanding Graphs, with Applications.” *Combinatorica* 39 (1): 135–51. <https://doi.org/10.1007/s00493-017-3701-1>.
+**[9]** Michael Krivelevich. Long cycles in locally expanding graphs, with applications. *Combinatorica*, 39(1):135–151, 2019.
 
-Lovász, László. 1968. “On Covering of Graphs.” In *Theory of Graphs (Proceedings of the Colloquium, Tihany, 1966)*, edited by P. Erdős and G. Katona. Academic Press; Akadémiai Kiadó. <https://www.researchgate.net/profile/Laszlo-Lovasz/publication/268652766_On_covering_of_graphs/links/5e1465b7299bf10bc3967731/On-covering-of-graphs.pdf>.
+**[10]** László Lovász. On covering of graphs. In P. Erdős and G. Katona, editors, *Theory of Graphs (Proceedings of the Colloquium, Tihany, 1966)*, pages 231–236. Academic Press; Akadémiai Kiadó, New York–London; Budapest, 1968.
 
-Pyber, László. 1985. “An Erdős–Gallai Conjecture.” *Combinatorica* 5 (1): 67–79. <https://doi.org/10.1007/BF02579444>.
+**[11]** László Pyber. An Erdős–Gallai conjecture. *Combinatorica*, 5(1):67–79, 1985.

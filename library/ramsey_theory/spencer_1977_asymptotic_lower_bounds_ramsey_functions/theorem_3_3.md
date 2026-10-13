@@ -46,8 +46,7 @@ $r(\le C_m,K_n)\ge c(n/\log n)^{(m-1)/(m-2)}$".
 
 **In the notation of Problem 159.** At $k=4$ the exponent is $3/2$, and
 Theorem 3.3 with $r(\le C_4,K_n)\le r(C_4,K_n)$ gives
-$R(C_4,K_n)\ge c(n/\log n)^{3/2}$, the deduction the problem page had made
-from the 1978 paper's quotation; the paper states that case directly as
+$R(C_4,K_n)\ge c(n/\log n)^{3/2}$; the paper states that case directly as
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_1|Theorem 3.1]].
 The Red graph of Theorem 3.3's coloring has girth above $k$ and independence
 number at most $t$, which is how the paper proves Theorem 3.4 (p. 76) on
@@ -95,5 +94,5 @@ bound; the quoted upper bound is the 1978 paper's Theorem 1, filed at
 
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: the general bound the 1978
   paper of Erdős, Faudree, Rousseau and Schelp quotes as its display (1.4),
-  from which the problem page derived $R(C_4,K_n)\ge c(n/\log n)^{3/2}$ while
-  this paper was not held; Theorem 3.1 now states that case directly.
+  whose case $k=4$ gives $R(C_4,K_n)\ge c(n/\log n)^{3/2}$, a case
+  Theorem 3.1 states directly.

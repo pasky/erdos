@@ -9,9 +9,9 @@ holds only comments. The claim's page records its current standing. Source files
 and a committed manifest do not by themselves establish a fresh build, statement
 fidelity, or acceptance.
 
-The toolchain is frozen to Lean `v4.32.0-rc1` and to the Mathlib revision pinned
-in `lean/lakefile.toml`. A pin change is a corpus-level decision and requires
-the full audit self-test.
+The toolchain is frozen to Lean `v4.34.1` and to the Mathlib revision pinned in
+`lean/lakefile.toml`. A pin change is a corpus-level decision and requires the
+full audit self-test.
 
 ## Warrant Model
 

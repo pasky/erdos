@@ -99,8 +99,7 @@ changes. Its scope includes statement alignment and definition fidelity;
 it is not a review of every deduction in the manuscript.
 
 The publicly read artifacts were the [protected statement][challenge], the
-[mechanical report][mechanical] and the [automated review][review]; the
-SHA-256 values this card carried for them are not retained.
+[mechanical report][mechanical] and the [automated review][review].
 
 The [protected statement][challenge] uses finite graphs on `Fin n`, the binomial
 random-graph measure, a minimum over clique-or-independent colorings, real

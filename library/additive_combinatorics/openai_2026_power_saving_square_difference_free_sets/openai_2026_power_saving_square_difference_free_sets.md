@@ -14,22 +14,22 @@ For a positive integer $N$, write $[N]=\{1,\ldots,N\}$. A set $A\subseteq[N]$ is
 
 The exponent obtained here is positive and absolute, but extremely small. The argument does not yield a useful numerical value or an optimal exponent. All finite constructions in the proof are fixed independently of $N$ and $A$; their size affects the constants and the exponent.
 
-*Remark 1.2* (Square-difference colorings). Theorem 1.1 gives a polynomial bound for the classical square-difference coloring problem (Beigel and Gasarch 2008, sec. 4). Fix its constants $c,C$, reducing $c$ so that $0<c<1$ if necessary. Whenever integers $r,N\ge1$ satisfy $N>(Cr)^{1/c}$, every $r$-coloring of $[N]$ has same-colored elements $a,a+d^2$ with $d\ge1$. Indeed, a largest color class has size at least $N/r>C N^{1-c}$. Only the two endpoints must share a color; no color restriction is imposed on $d$. Equivalently, if $G_N$ is the graph on $[N]$ joining distinct integers whose absolute difference is a square, then $$\chi(G_N)\ge \frac{N}{s(N)}\ge C^{-1}N^c,$$ since its independent sets are exactly the square-difference-free sets.
+*Remark 1.2* (Square-difference colorings). Theorem 1.1 gives a polynomial bound for the classical square-difference coloring problem [2, Section 4]. Fix its constants $c,C$, reducing $c$ so that $0<c<1$ if necessary. Whenever integers $r,N\ge1$ satisfy $N>(Cr)^{1/c}$, every $r$-coloring of $[N]$ has same-colored elements $a,a+d^2$ with $d\ge1$. Indeed, a largest color class has size at least $N/r>C N^{1-c}$. Only the two endpoints must share a color; no color restriction is imposed on $d$. Equivalently, if $G_N$ is the graph on $[N]$ joining distinct integers whose absolute difference is a square, then $$\chi(G_N)\ge \frac{N}{s(N)}\ge C^{-1}N^c,$$ since its independent sets are exactly the square-difference-free sets.
 
 ### Previous work
 
-The problem originates in a question of Lovász. Furstenberg (Furstenberg 1977, Theorem 1.2) and Sárközy (Sárközy 1978) proved independently that $s(N)=o(N)$, using ergodic theory and the circle method, respectively. Sárközy’s quantitative estimate has the form $s(N)\le N/(\log N)^{1/3+o(1)}$; see also the historical account in (Bloom and Maynard 2022). Pintz, Steiger and Szemerédi (Pintz et al. 1988, Theorem 1) strengthened this to $$s(N)\ll \frac{N}{(\log N)^{c_{\rm PSS}\log\log\log\log N}}$$ for an absolute $c_{\rm PSS}>0$. Their argument combines concentration on arithmetic progressions with an iteration that increases the collection of large Fourier coefficients. Bloom and Maynard (Bloom and Maynard 2022) subsequently obtained $$s(N)\ll \frac{N}{(\log N)^{c_{\rm BM}\log\log\log N}}$$ for an absolute $c_{\rm BM}>0$, using bounds for the additive energy of rational numbers with small denominators to improve the density-increment argument.
+The problem originates in a question of Lovász. Furstenberg [8, Theorem 1.2] and Sárközy [16] proved independently that $s(N)=o(N)$, using ergodic theory and the circle method, respectively. Sárközy’s quantitative estimate has the form $s(N)\le N/(\log N)^{1/3+o(1)}$; see also the historical account in [3]. Pintz, Steiger and Szemerédi [14, Theorem 1] strengthened this to $$s(N)\ll \frac{N}{(\log N)^{c_{\rm PSS}\log\log\log\log N}}$$ for an absolute $c_{\rm PSS}>0$. Their argument combines concentration on arithmetic progressions with an iteration that increases the collection of large Fourier coefficients. Bloom and Maynard [3] subsequently obtained $$s(N)\ll \frac{N}{(\log N)^{c_{\rm BM}\log\log\log N}}$$ for an absolute $c_{\rm BM}>0$, using bounds for the additive energy of rational numbers with small denominators to improve the density-increment argument.
 
-Green and Sawhney (Green and Sawhney 2025, Theorem 1.1) prove $$s(N)\ll N\exp\bigl(-c_1\sqrt{\log N}\bigr)$$ for an absolute $c_1>0$. Their arithmetic level-$d$ inequality transfers product-space hypercontractive estimates to rational Fourier coefficients. Theorem 1.1 answers affirmatively the fixed-power question posed in (Green and Sawhney 2025, sec. 1.1). Adajar et al. (Adajar et al. 2026, Theorem 1.1) extend the arithmetic level-$d$ approach to fixed integer polynomials having a root modulo every positive integer. For degree at least two they obtain a density saving $\exp(-c(\log N)^\mu)$ for every fixed $0<\mu<1/2$, with constants depending on the polynomial and $\mu$.
+Green and Sawhney [9, Theorem 1.1] prove $$s(N)\ll N\exp\bigl(-c_1\sqrt{\log N}\bigr)$$ for an absolute $c_1>0$. Their arithmetic level-$d$ inequality transfers product-space hypercontractive estimates to rational Fourier coefficients. Theorem 1.1 answers affirmatively the fixed-power question posed in [9, Section 1.1]. Adajar et al. [1, Theorem 1.1] extend the arithmetic level-$d$ approach to fixed integer polynomials having a root modulo every positive integer. For degree at least two they obtain a density saving $\exp(-c(\log N)^\mu)$ for every fixed $0<\mu<1/2$, with constants depending on the polynomial and $\mu$.
 
-In the opposite direction, Ruzsa (Ruzsa 1984, Theorems 1 and 2) constructed square-difference-free sets of size $\gg N^{\gamma_0}$, where $$\gamma_0=\frac12\left(1+\frac{\log 7}{\log 65}\right)
-          =0.733077\ldots.$$ His construction uses a set of residues with no square differences modulo a squarefree integer to restrict selected digits of an integer expansion. Beigel and Gasarch (Beigel and Gasarch 2008, Lemma 3.6 and the proof of Theorem 3.7) and Lewko (Lewko 2015, Theorem 3) obtained the improved exponent $$\gamma_1=\frac12\left(1+\frac{\log 12}{\log 205}\right)
-          =0.733411797\ldots$$ by exhibiting suitable sets of twelve residues modulo $205$. Krachun’s construction (Krachun 2026, Theorem 1) passes the three-quarter threshold and gives $$\liminf_{N\to\infty}\frac{\log s(N)}{\log N}
+In the opposite direction, Ruzsa [15, Theorems 1 and 2] constructed square-difference-free sets of size $\gg N^{\gamma_0}$, where $$\gamma_0=\frac12\left(1+\frac{\log 7}{\log 65}\right)
+          =0.733077\ldots.$$ His construction uses a set of residues with no square differences modulo a squarefree integer to restrict selected digits of an integer expansion. Beigel and Gasarch [2, Lemma 3.6 and the proof of Theorem 3.7] and Lewko [12, Theorem 3] obtained the improved exponent $$\gamma_1=\frac12\left(1+\frac{\log 12}{\log 205}\right)
+          =0.733411797\ldots$$ by exhibiting suitable sets of twelve residues modulo $205$. Krachun’s construction [11, Theorem 1] passes the three-quarter threshold and gives $$\liminf_{N\to\infty}\frac{\log s(N)}{\log N}
  \ge 0.752796455874514\ldots.$$ A substantial gap remains between this lower exponent and the upper exponent $1-c$ in Theorem 1.1.
 
-Reflection positivity yields multilinear inequalities through the chessboard method of Fröhlich and Lieb (Fröhlich and Lieb 1978, Theorem 2.2) and its abstract formulation by Fröhlich, Israel, Lieb and Simon (Fröhlich et al. 1978, Theorem 4.1). Hatami (Hatami 2010, Theorem 2.8 of the arXiv version) characterizes graph seminorms through mixed Hölder inequalities. Conlon and Lee (Conlon and Lee 2017, Theorems 1.2 and 1.3) use finite reflection groups to obtain such inequalities for absolute-value inputs, and also for real-valued inputs when the two defining sets of simple reflections are disjoint. The signed mixed inequality is a classical feature of the chessboard method; its role here is to permit Fourier lifts that can change sign. We construct a finite-field probability law with the particular cycle support, reflection positivity and conditional mixing needed for the integer problem, and prove the signed inequality for that law directly.
+Reflection positivity yields multilinear inequalities through the chessboard method of Fröhlich and Lieb [7, Theorem 2.2] and its abstract formulation by Fröhlich, Israel, Lieb and Simon [6, Theorem 4.1]. Hatami [10, Theorem 2.8 of the arXiv version] characterizes graph seminorms through mixed Hölder inequalities. Conlon and Lee [4, Theorems 1.2 and 1.3] use finite reflection groups to obtain such inequalities for absolute-value inputs, and also for real-valued inputs when the two defining sets of simple reflections are disjoint. The signed mixed inequality is a classical feature of the chessboard method; its role here is to permit Fourier lifts that can change sign. We construct a finite-field probability law with the particular cycle support, reflection positivity and conditional mixing needed for the integer problem, and prove the signed inequality for that law directly.
 
-The rational-frequency energy estimates of Bloom and Maynard (Bloom and Maynard 2022) and the product-space methods of Green and Sawhney (Green and Sawhney 2025) are methodological precedents for the arithmetic part. The argument retains rational Fourier analysis and rescaling along square-step progressions. Here the quantity compared between scales is a multilinear functional of a signed Fourier lift.
+The rational-frequency energy estimates of Bloom and Maynard [3] and the product-space methods of Green and Sawhney [9] are methodological precedents for the arithmetic part. The argument retains rational Fourier analysis and rescaling along square-step progressions. Here the quantity compared between scales is a multilinear functional of a signed Fourier lift.
 
 ### Outline of the proof
 
@@ -424,7 +424,7 @@ Equivalently, a selected pair under $\mu_p^\circ$ has the form $(X,X+U)$, where 
 
 ## Signed multilinear forms and conductor decay
 
-The tuple laws provide two estimates for functions on products of prime fields. The first follows the reflection and chessboard method of (Fröhlich and Lieb 1978, Theorem 2.2) and (Fröhlich et al. 1978, Theorem 4.1); the finite proof below verifies the required inequality for this particular tuple law. Reflection positivity gives a Hölder inequality for signed inputs and a seminorm that dominates the uniform mean. The conditional mixing estimate gives a separate bound for inputs supported on large Fourier denominators. This second estimate also applies to the nonexceptional laws.
+The tuple laws provide two estimates for functions on products of prime fields. The first follows the reflection and chessboard method of [7, Theorem 2.2] and [6, Theorem 4.1]; the finite proof below verifies the required inequality for this particular tuple law. Reflection positivity gives a Hölder inequality for signed inputs and a seminorm that dominates the uniform mean. The conditional mixing estimate gives a separate bound for inputs supported on large Fourier denominators. This second estimate also applies to the nonexceptional laws.
 
 Retain the index set $V=\Pi^\ell$, where $\Pi$ consists of the permutation words on $[h]$, $h=24$, and $\ell=161$, and put $d=|V|$. In particular, $d$ is even. Fix the prime threshold $P$ from Proposition 3.1 and Lemma 3.6, and put $\gamma=1/64$. For a finite set $\mathcal P$ of primes at least $P$, define $$X_{\mathcal P}=\prod_{p\in\mathcal P}\mathbb F_p,
  \qquad
@@ -476,7 +476,7 @@ To use this sequence, fix any finite nonempty list of real functions $f_1,\ldots
 Apply the folds in reverse sorting order, $\phi_T,\phi_{T-1},\ldots,\phi_1$. Pullbacks compose on the right, so the resulting assignment is $a\circ\phi_T\circ\cdots\circ\phi_1$, which is constant by (4.4). Every intermediate integral is $M$, and the last is one of the diagonal values $Z_{\mathcal P}(f_i)$. Conversely, every constant assignment was included in the maximum. It follows that $$\begin{equation}
  M=\max_{1\le i\le k}Z_{\mathcal P}(f_i).
  \tag{4.5}
-\end{equation}$$ When $M=0$, all these diagonal values are zero, so the same identity holds. This is a finite argument and requires no limiting sequence of folds. The maximizing-assignment argument is analogous to the proof of the abstract chessboard estimate in (Fröhlich et al. 1978, Theorem 4.1).
+\end{equation}$$ When $M=0$, all these diagonal values are zero, so the same identity holds. This is a finite argument and requires no limiting sequence of folds. The maximizing-assignment argument is analogous to the proof of the abstract chessboard estimate in [6, Theorem 4.1].
 
 Finally, for $\epsilon>0$, apply (4.5) to the list $$f_v=\frac{g_v}{(Z_{\mathcal P}(g_v)+\epsilon)^{1/d}},
  \qquad v\in V.$$ Every denominator is positive and $Z_{\mathcal P}(f_v)\le1$. Multilinearity consequently gives $$\left|\mathcal Z_{\mathcal P}((g_v)_{v\in V})\right|
@@ -560,7 +560,7 @@ Finally condition the multilinear integral on all labels except those in slot $v
 
 ## Uniform moment bounds for Fourier lifts
 
-We now transfer a bounded function on an integer interval to the product of its prime residue spaces. Keeping rational frequencies of bounded denominator need not preserve pointwise bounds or positivity. The replacement we require is a uniform bound for every fixed moment, valid also after retaining arbitrary complete denominator classes. We first control a square function of the exact prime supports, then recover the sum by symmetrization. For related arithmetic moment estimates and Fourier lifting, see (Bloom and Maynard 2022, Theorem 2 of the arXiv version) and (Green and Sawhney 2025, sec. 3); the uniform estimate used here is proved below.
+We now transfer a bounded function on an integer interval to the product of its prime residue spaces. Keeping rational frequencies of bounded denominator need not preserve pointwise bounds or positivity. The replacement we require is a uniform bound for every fixed moment, valid also after retaining arbitrary complete denominator classes. We first control a square function of the exact prime supports, then recover the sum by symmetrization. For related arithmetic moment estimates and Fourier lifting, see [3, Theorem 2 of the arXiv version] and [9, Section 3]; the uniform estimate used here is proved below.
 
 Let $\mathcal P$ be a finite set of primes, and give $$X_{\mathcal P}=\prod_{p\in\mathcal P}\mathbb F_p$$ uniform probability measure. A character is indexed by $\xi=\sum_{p\in\mathcal P}a_p/p\pmod1$, where $a_p\in\{0,\ldots,p-1\}$, and we write $$e(z\xi)=\prod_{p\in\mathcal P}e(a_pz_p/p),
  \qquad e(t)=\exp(2\pi i t).$$ Its exact prime support is $\{p:a_p\ne0\}$, and its reduced denominator is the product of these primes. In particular $q(0)=1$. Summing a geometric progression in each coordinate shows that these characters form an orthonormal basis. For $U\subseteq\mathcal P$, put $q_U=\prod_{p\in U}p$, with $q_\varnothing=1$.
@@ -608,7 +608,7 @@ Write its progression as $n=a+q_Jt$, where $t$ ranges over a consecutive interva
 
 These frequencies remain distinct. In fact the denominator of $\eta-\eta'$ is coprime to $q_J$, so $q_J(\eta-\eta')\in\mathbb Z$ implies $\eta=\eta'\pmod1$. Multiplication by $q_J$ also preserves each reduced outside denominator. Thus all the resulting frequencies have denominators at most $Q$, are pairwise separated in circle distance by at least $Q^{-2}$, and number at most $\sum_{q\le Q}\varphi(q)\le Q^2$, where $\varphi(1)=1$ accounts for the zero frequency.
 
-This is a separated-frequency estimate of large-sieve type; compare (Montgomery and Vaughan 1973, Theorem 1). The length hypothesis permits the following elementary Gram-matrix bound. Consider the Gram matrix of these normalized exponential vectors in $L^2(T)$. Its diagonal is 1. For distinct frequencies $\theta,\theta'$, geometric summation gives $$\left|\frac1{L_J}\sum_{t\in T}e\bigl(t(\theta-\theta')\bigr)\right|
+This is a separated-frequency estimate of large-sieve type; compare [13, Theorem 1]. The length hypothesis permits the following elementary Gram-matrix bound. Consider the Gram matrix of these normalized exponential vectors in $L^2(T)$. Its diagonal is 1. For distinct frequencies $\theta,\theta'$, geometric summation gives $$\left|\frac1{L_J}\sum_{t\in T}e\bigl(t(\theta-\theta')\bigr)\right|
  \le \frac1{2L_J\|\theta-\theta'\|_{\mathbb R/\mathbb Z}}
  \le\frac{Q^2}{2L_J}.$$ Its operator norm is at most its maximum absolute row sum, hence at most $$1+\frac{Q^4}{2L_J}
  \le1+\frac{Q^4q_J}{1.8L}
@@ -627,7 +627,7 @@ This is a separated-frequency estimate of large-sieve type; compare (Montgomery 
 *Recovering the sum.* Fix a size $j\ge1$ and color the coordinates independently and uniformly with $j$ colors. A support is called transversal if it contains exactly one coordinate of each color. Each support of size $j$ is transversal with probability $\pi_j=j!/j^j$. Fix one coloring $c$, and let $\mathcal T$ be its retained transversal supports in $\mathcal F$.
 
 Take independent copies $X_p^0,X_p^1$ of every coordinate. Write $\operatorname{swap}_p$ for interchanging that pair, and define $$D_U=\prod_{p\in U}(I-\operatorname{swap}_p)f_U(X^0).$$ Coordinatewise centering gives $\mathbb E_{X^1}D_U=f_U(X^0)$: in the expanded product, every term using at least one copied coordinate has zero conditional mean. Jensen’s inequality therefore gives $$\left\|\sum_{U\in\mathcal T}f_U\right\|_{2r}
- \le\left\|\sum_{U\in\mathcal T}D_U\right\|_{L^{2r}(X^0,X^1)}.$$ Swapping independent copies coordinate by coordinate is a standard symmetrization device; see (Peña and Montgomery-Smith 1995, sec. 4 of the arXiv version). Independently swapping each coordinate pair preserves their joint law and multiplies $D_U$ by the product of the associated signs. With independent random signs $(\epsilon_p)_{p\in\mathcal P}$, $$\begin{equation}
+ \le\left\|\sum_{U\in\mathcal T}D_U\right\|_{L^{2r}(X^0,X^1)}.$$ Swapping independent copies coordinate by coordinate is a standard symmetrization device; see [5, Section 4 of the arXiv version]. Independently swapping each coordinate pair preserves their joint law and multiplies $D_U$ by the product of the associated signs. With independent random signs $(\epsilon_p)_{p\in\mathcal P}$, $$\begin{equation}
  \left\|\sum_{U\in\mathcal T}D_U\right\|_{L^{2r}(X^0,X^1)}
  =\left\|\sum_{U\in\mathcal T}D_U\prod_{p\in U}\epsilon_p
        \right\|_{L^{2r}(X^0,X^1,\epsilon)}.
@@ -683,7 +683,7 @@ For later uniform estimates one can make the subpower dependence entirely explic
 
 ## A signed kernel for actual square differences
 
-The preceding tuple measures impose square-difference constraints in residue fields. This section supplies the passage to actual positive integer squares. We construct a signed measure supported on such squares and approximate its Fourier transform uniformly by a sum over small rational frequencies. Because every actual square shift vanishes between the supports under consideration, the signs of the measure cause no difficulty. The weighted square sums and major/minor-arc analysis have a direct antecedent in (Green and Sawhney 2025, sec. 5). Here the signed divisor weight is chosen to match the strict-square pair law of our finite-field tuples.
+The preceding tuple measures impose square-difference constraints in residue fields. This section supplies the passage to actual positive integer squares. We construct a signed measure supported on such squares and approximate its Fourier transform uniformly by a sum over small rational frequencies. Because every actual square shift vanishes between the supports under consideration, the signs of the measure cause no difficulty. The weighted square sums and major/minor-arc analysis have a direct antecedent in [9, Section 5]. Here the signed divisor weight is chosen to match the strict-square pair law of our finite-field tuples.
 
 For the remainder of the paper, fix $$\begin{equation}
  \beta=10^{-5}.
@@ -920,7 +920,7 @@ Every term in $\mathcal B_k(F,J)$ contains $F(x)J(x+m^2)$ with $m\ge1$, and this
 
 ## Comparison along square-step progressions
 
-We next compare the product-space functional with the same functional on shorter intervals. Fixing a few prime coordinates makes its low Fourier coefficients exact averages on a residue class. Splitting that class into progressions with square step preserves the forbidden integer differences and permits a change of scale. The comparison proved here uses no induction hypothesis. Restriction to square-step progressions is already a key feature of quantitative square-difference arguments; see the Main Lemma of (Pintz et al. 1988) and (Green and Sawhney 2025, Lemma 6.2). Here it is used to compare the signed multilinear functional itself.
+We next compare the product-space functional with the same functional on shorter intervals. Fixing a few prime coordinates makes its low Fourier coefficients exact averages on a residue class. Splitting that class into progressions with square step preserves the forbidden integer differences and permits a change of scale. The comparison proved here uses no induction hypothesis. Restriction to square-step progressions is already a key feature of quantitative square-difference arguments; see the Main Lemma of [14] and [9, Lemma 6.2]. Here it is used to compare the signed multilinear functional itself.
 
 Keep the constants $\gamma=1/64$ and $\beta=10^{-5}$ fixed as above. Enlarge the fixed prime threshold $P$, if necessary, so that the tuple measures are available for every prime $p\ge P$ and $$\begin{equation}
  \prod_{\substack{p\ge P\\p\ {\rm prime}}}(1+p^{-3})-1\le\frac14,
@@ -1342,34 +1342,34 @@ Suppose now that $N\ge N_*$ and $\mathcal Y(n)\le C_0n^{-a_0}$ for every positiv
 
 ## References
 
-Adajar, Carlo Francisco E., Rishika Agrawal, Mukul Rai Choudhuri, et al. 2026. *Extensions of the Furstenberg–Sárközy Theorem via the Arithmetic Level-$d$ Inequality*. [arXiv:2605.16216v2](https://arxiv.org/abs/2605.16216v2). <https://doi.org/10.48550/arXiv.2605.16216>.
+**[1]** Carlo Francisco E. Adajar, Rishika Agrawal, Mukul Rai Choudhuri, Chian Yeong Chuah, Steve Fan, Swaroop Hegde, Andrew Lott, Krishnamohan Nandakumar, and Nagendar Reddy Ponagandla. Extensions of the Furstenberg–Sárközy theorem via the arithmetic level-$d$ inequality. [arXiv:2605.16216v2](https://arxiv.org/abs/2605.16216v2), 2026. Version 2, August 28, 2026.
 
-Beigel, Richard, and William Gasarch. 2008. *Square-Difference-Free Sets of Size $\Omega(n^{0.7334\ldots})$*. [arXiv:0804.4892v3](https://arxiv.org/abs/0804.4892v3). <https://arxiv.org/abs/0804.4892v3>.
+**[2]** Richard Beigel and William Gasarch. Square-difference-free sets of size $\Omega(n^{0.7334\ldots})$. [arXiv:0804.4892v3](https://arxiv.org/abs/0804.4892v3), 2008. Version 3, May 8, 2008.
 
-Bloom, Thomas F., and James Maynard. 2022. “A New Upper Bound for Sets with No Square Differences.” *Compositio Mathematica* 158 (8): 1777–98. <https://doi.org/10.1112/S0010437X22007679>.
+**[3]** Thomas F. Bloom and James Maynard. A new upper bound for sets with no square differences. *Compositio Mathematica*, 158(8):1777–1798, 2022. arXiv version 2, February 24, 2021.
 
-Conlon, David, and Joonkyung Lee. 2017. “Finite Reflection Groups and Graph Norms.” *Advances in Mathematics* 315: 130–65. <https://doi.org/10.1016/j.aim.2017.05.009>.
+**[4]** David Conlon and Joonkyung Lee. Finite reflection groups and graph norms. *Advances in Mathematics*, 315:130–165, 2017.
 
-Fröhlich, Jürg, Robert B. Israel, Elliott H. Lieb, and Barry Simon. 1978. “Phase Transitions and Reflection Positivity. I. General Theory and Long Range Lattice Models.” *Communications in Mathematical Physics* 62 (1): 1–34. <https://doi.org/10.1007/BF01940327>.
+**[5]** Victor H. de la Peña and Stephen J. Montgomery-Smith. Decoupling inequalities for the tail probabilities of multivariate $U$-statistics. *The Annals of Probability*, 23(2):806–816, 1995. Section locators refer to [arXiv:math/9309211v2](https://arxiv.org/abs/math/9309211v2).
 
-Fröhlich, Jürg, and Elliott H. Lieb. 1978. “Phase Transitions in Anisotropic Lattice Spin Systems.” *Communications in Mathematical Physics* 60 (3): 233–67. <https://doi.org/10.1007/BF01612891>.
+**[6]** Jürg Fröhlich, Robert B. Israel, Elliott H. Lieb, and Barry Simon. Phase transitions and reflection positivity. I. general theory and long range lattice models. *Communications in Mathematical Physics*, 62(1):1–34, 1978.
 
-Furstenberg, H. 1977. “Ergodic Behavior of Diagonal Measures and a Theorem of Szemerédi on Arithmetic Progressions.” *Journal d’Analyse Mathématique* 31: 204–56. <https://doi.org/10.1007/BF02813304>.
+**[7]** Jürg Fröhlich and Elliott H. Lieb. Phase transitions in anisotropic lattice spin systems. *Communications in Mathematical Physics*, 60(3):233–267, 1978.
 
-Green, Ben, and Mehtaab Sawhney. 2025. *New Bounds for the Furstenberg–Sárközy Theorem*. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2). <https://doi.org/10.48550/arXiv.2411.17448>.
+**[8]** H. Furstenberg. Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions. *Journal d’Analyse Mathématique*, 31:204–256, 1977.
 
-Hatami, Hamed. 2010. “Graph Norms and Sidorenko’s Conjecture.” *Israel Journal of Mathematics* 175: 125–50. <https://doi.org/10.1007/s11856-010-0005-1>.
+**[9]** Ben Green and Mehtaab Sawhney. New bounds for the Furstenberg–Sárközy theorem. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2), 2025. Version 2, January 10, 2025.
 
-Krachun, Dmitry. 2026. *Square-Difference-Free Sets Beyond the Three-Quarter Barrier*. [arXiv:2608.01325v1](https://arxiv.org/abs/2608.01325v1). <https://doi.org/10.48550/arXiv.2608.01325>.
+**[10]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. Theorem locators refer to [arXiv:0806.0047v1](https://arxiv.org/abs/0806.0047v1).
 
-Lewko, Mark. 2015. “An Improved Lower Bound Related to the Furstenberg–Sárközy Theorem.” *Electronic Journal of Combinatorics* 22 (1): Paper P1.32, 6 pp. <https://doi.org/10.37236/4656>.
+**[11]** Dmitry Krachun. Square-difference-free sets beyond the three-quarter barrier. [arXiv:2608.01325v1](https://arxiv.org/abs/2608.01325v1), 2026. Version 1, August 2, 2026.
 
-Montgomery, H. L., and R. C. Vaughan. 1973. “The Large Sieve.” *Mathematika* 20 (2): 119–34. <https://doi.org/10.1112/S0025579300004708>.
+**[12]** Mark Lewko. An improved lower bound related to the Furstenberg–Sárközy theorem. *Electronic Journal of Combinatorics*, 22(1):Paper P1.32, 6 pp., 2015.
 
-Peña, Victor H. de la, and Stephen J. Montgomery-Smith. 1995. “Decoupling Inequalities for the Tail Probabilities of Multivariate $U$-Statistics.” *The Annals of Probability* 23 (2): 806–16. <https://doi.org/10.1214/aop/1176988291>.
+**[13]** H. L. Montgomery and R. C. Vaughan. The large sieve. *Mathematika*, 20(2):119–134, 1973.
 
-Pintz, J., W. L. Steiger, and E. Szemerédi. 1988. “On Sets of Natural Numbers Whose Difference Set Contains No Squares.” *Journal of the London Mathematical Society*, 2nd series, vol. 37 (2): 219–31. <https://doi.org/10.1112/jlms/s2-37.2.219>.
+**[14]** J. Pintz, W. L. Steiger, and E. Szemerédi. On sets of natural numbers whose difference set contains no squares. *Journal of the London Mathematical Society*, 37(2):219–231, 1988.
 
-Ruzsa, I. Z. 1984. “Difference Sets Without Squares.” *Periodica Mathematica Hungarica* 15 (3): 205–9. <https://doi.org/10.1007/BF02454169>.
+**[15]** I. Z. Ruzsa. Difference sets without squares. *Periodica Mathematica Hungarica*, 15(3):205–209, 1984.
 
-Sárközy, A. 1978. “On Difference Sets of Sequences of Integers. I.” *Acta Mathematica Academiae Scientiarum Hungaricae* 31 (1–2): 125–49. <https://doi.org/10.1007/BF01896079>.
+**[16]** A. Sárközy. On difference sets of sequences of integers. I. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(1–2):125–149, 1978.

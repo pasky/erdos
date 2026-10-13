@@ -101,8 +101,7 @@ at $n=4$.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: $k(4,3)\ge14$, the lower
-  half of the paper's $14\le k(4,3)\le16$; the page had "$k(4,3)>13$"
-  second-hand from the 2021 paper of Ihringer, Rajendraprasad and Weinert,
-  whose
+  half of the paper's $14\le k(4,3)\le16$; the 2021 paper of Ihringer,
+  Rajendraprasad and Weinert cites it as "$k(4,3)>13$", and its
   [[ramsey_theory/ihringer_2017_new_bounds_ramsey_number_r_i/theorem_1_1|Theorem 1.1]]
   closes the bracket at $k(4,3)=15$ with a 14-vertex construction.

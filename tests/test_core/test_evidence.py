@@ -156,7 +156,7 @@ def test_discovery_requires_a_math_root_inside_a_checkout(
         # the mode words
         ('full', {'mode': 'full'}),
         ('manual', {'mode': 'manual'}),
-        ('historical 2026-03-01', {'mode': 'historical', 'date': '2026-03-01'}),
+        ('historical', {'mode': 'historical'}),
         # the need word, alone and beside a mode
         ('lean', {'lean': True}),
         ('full lean', {'mode': 'full', 'lean': True}),
@@ -171,9 +171,7 @@ def test_discovery_requires_a_math_root_inside_a_checkout(
         # the defects
         ('bogus', {'error': "unknown word 'bogus'"}),
         ('full manual', {'error': 'full and manual conflict'}),
-        ('historical', {'error': 'historical needs a date (YYYY-MM-DD)'}),
-        ('historical soon', {'error': 'historical needs a date (YYYY-MM-DD)'}),
-        ('historical 20260301', {'error': 'historical needs a date (YYYY-MM-DD)'}),
+        ('historical 2026-03-01', {'error': "unknown word '2026-03-01'"}),
         ('args', {'error': 'args names no arguments'}),
         ('', {'error': 'empty declaration'}),
     ],
@@ -188,9 +186,7 @@ def test_discovery_requires_a_math_root_inside_a_checkout(
         'lean args',
         'unknown',
         'conflict',
-        'undated',
-        'bad date',
-        'basic date',
+        'dated historical',
         'bare args',
         'empty',
     ],
@@ -211,7 +207,7 @@ def test_declarations_are_read_from_the_leading_comments(
     entries, _ = discover_evidence(repository)
     (entry,) = entries
     assert entry.declaration == text
-    fields = {'mode': '', 'date': '', 'args': (), 'error': '', 'lean': False}
+    fields = {'mode': '', 'args': (), 'error': '', 'lean': False}
     fields.update(expected)
     assert {name: getattr(entry, name) for name in fields} == fields
 
@@ -289,7 +285,7 @@ def test_run_reports_every_state_in_both_modes(repository: pathlib.Path) -> None
     others = repository / 'wiki' / 'research' / 'g0'
     _program(
         others / 'historical' / 'evidence' / 'main.py',
-        '# evidence: historical 2026-03-01',
+        '# evidence: historical',
         *_PASS,
     )
     _program(others / 'heavy' / 'evidence' / 'main.py', '# evidence: full', *_PASS)
@@ -316,10 +312,7 @@ def test_run_reports_every_state_in_both_modes(repository: pathlib.Path) -> None
     assert re.fullmatch(r'\d+\.\d s', outcomes['L1_first'][1])
     assert outcomes['L2_second'] == ('FAIL', 'exit 1: bad input')
     assert outcomes['L3_third'] == ('SKIPPED', 'declared manual')
-    assert outcomes['historical'] == (
-        'SKIPPED',
-        'declared historical (text dated 2026-03-01)',
-    )
+    assert outcomes['historical'] == ('SKIPPED', 'declared historical')
     assert outcomes['heavy'][0] == 'PASS'
     assert outcomes['lean'] == ('SKIPPED', 'declared lean (run with --lean)')
     assert outcomes['invalid'] == ('FAIL', "invalid declaration: unknown word 'bogus'")

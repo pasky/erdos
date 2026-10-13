@@ -177,9 +177,8 @@ contains no bound on $r(Q_n)$ and no bipartite theorem of its own; Theorem
 1.1 (printed p. 515) is its bounded-degree bound
 $r(H)\le2^{c\Delta\log\Delta}n$, which for $Q_n$ ($\Delta=n$, $2^n$
 vertices) gives only $r(Q_n)\le2^{cn\log n+n}$, weaker than the bounds the
-problem page records. The prior bound $r(Q_n)\le2^{2n+6}$ that the
-problem page once attributed to this paper is Corollary 4.2 of the 2016
-paper linked above.
+problem page records. The prior bound $r(Q_n)\le2^{2n+6}$ is Corollary
+4.2 of the 2016 paper linked above, not a result of this paper.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

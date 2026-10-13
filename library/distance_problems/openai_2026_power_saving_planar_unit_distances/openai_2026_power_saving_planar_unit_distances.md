@@ -18,13 +18,13 @@ Theorem 1.1 gives a positive answer to the question whether this upper exponent
 
 ### The unit-distance problem and earlier methods
 
-Erdős introduced the repeated-distance problem in 1946 (Erdős 1946). Rescaling a configuration turns any specified positive distance into a unit distance, so the problem concerns the largest possible multiplicity of one distance. His lattice construction gives the lower bound $n^{1+c/\log\log n}$ for a positive constant $c$ and sufficiently large $n$ (Erdős 1946, Theorem 2). Spencer, Szemerédi and Trotter established the upper bound $u(n)=O(n^{4/3})$ in 1984 (Spencer et al. 1984). Székely gave a crossing-number proof and a general incidence theorem for families of curves (Székely 1997, Theorems 4 and 8). The crossing inequality was developed independently by Ajtai, Chvátal, Newborn and Szemerédi and by Leighton (Ajtai et al. 1982; Leighton 1983). Székely’s incidence theorem applies to points and unit circles using two elementary properties: two unit circles meet in at most two points, and two points belong to at most two unit circles. Later work improved the leading constant (Ágoston and Pálvölgyi 2022) and described the structure of configurations near the extremal incidence scale (Katz and Silier 2026). Pach, Raz and Solymosi connected the problem to rigidity and obtained a logarithmic improvement conditional on a rigidity conjecture (Pach et al. 2026, Conjecture 7 and Theorem 8).
+Erdős introduced the repeated-distance problem in 1946 [10]. Rescaling a configuration turns any specified positive distance into a unit distance, so the problem concerns the largest possible multiplicity of one distance. His lattice construction gives the lower bound $n^{1+c/\log\log n}$ for a positive constant $c$ and sufficiently large $n$ [10, Theorem 2]. Spencer, Szemerédi and Trotter established the upper bound $u(n)=O(n^{4/3})$ in 1984 [24]. Székely gave a crossing-number proof and a general incidence theorem for families of curves [25, Theorems 4 and 8]. The crossing inequality was developed independently by Ajtai, Chvátal, Newborn and Szemerédi and by Leighton [3, 18]. Székely’s incidence theorem applies to points and unit circles using two elementary properties: two unit circles meet in at most two points, and two points belong to at most two unit circles. Later work improved the leading constant [1] and described the structure of configurations near the extremal incidence scale [15]. Pach, Raz and Solymosi connected the problem to rigidity and obtained a logarithmic improvement conditional on a rigidity conjecture [22, Conjecture 7 and Theorem 8].
 
-The historical unit-distance conjecture of Erdős proposed the stronger bound $u(n)=n^{1+o(1)}$. An OpenAI construction disproved it by giving at least $n^{1+\varepsilon}$ unit distances, for some fixed $\varepsilon>0$, along an unbounded sequence of sizes (OpenAI 2026, Theorem 1.1). Alon et al. gave a simplified account and explained the construction’s number-theoretic ancestry (Alon et al. 2026, secs. 1.2–1.3). They credit the class-group ideas to Michel, Soundararajan, Ellenberg and Venkatesh. The construction combines these ideas with Golod–Shafarevich number-field towers having prescribed splitting, including the tower-cutting method of Hajir, Maire and Ramakrishna (Ellenberg and Venkatesh 2007; Golod and Shafarevich 1964; Hajir et al. 2021). Sawin sharpened the construction to $u(n)\gg n^{1.014114}$ along an unbounded sequence of sizes (Sawin 2026, Theorem 1). These are construction lower bounds. Theorem 1.1 bounds every configuration from above, leaving a gap between the known exponents.
+The historical unit-distance conjecture of Erdős proposed the stronger bound $u(n)=n^{1+o(1)}$. An OpenAI construction disproved it by giving at least $n^{1+\varepsilon}$ unit distances, for some fixed $\varepsilon>0$, along an unbounded sequence of sizes [21, Theorem 1.1]. Alon et al. gave a simplified account and explained the construction’s number-theoretic ancestry [4, Sections 1.2–1.3]. They credit the class-group ideas to Michel, Soundararajan, Ellenberg and Venkatesh. The construction combines these ideas with Golod–Shafarevich number-field towers having prescribed splitting, including the tower-cutting method of Hajir, Maire and Ramakrishna [9, 12, 13]. Sawin sharpened the construction to $u(n)\gg n^{1.014114}$ along an unbounded sequence of sizes [23, Theorem 1]. These are construction lower bounds. Theorem 1.1 bounds every configuration from above, leaving a gap between the known exponents.
 
-Our proof begins with the same point–circle incidence interpretation. Random cuttings isolate a piece of the incidence graph with controlled degrees; their sampled-cell construction belongs to the framework of Clarkson and Clarkson–Shor (Clarkson 1987; Clarkson and Shor 1989). The next ingredient is information: two points sampled as neighbors of one center share little information. Entropy methods already played a role in the distinct-distance estimates of Tardos and Katz–Tardos (Tardos 2003; Katz and Tardos 2004). In particular, the conditional-copy argument of Katz–Tardos retains the marginal law when resampling within a class. Here that principle enters a short-history prediction lemma whose tests may depend on a neighboring center. Its exact conditional laws and the independence of the fresh test are proved in Section 3.
+Our proof begins with the same point–circle incidence interpretation. Random cuttings isolate a piece of the incidence graph with controlled degrees; their sampled-cell construction belongs to the framework of Clarkson and Clarkson–Shor [5, 6]. The next ingredient is information: two points sampled as neighbors of one center share little information. Entropy methods already played a role in the distinct-distance estimates of Tardos and Katz–Tardos [26, 16]. In particular, the conditional-copy argument of Katz–Tardos retains the marginal law when resampling within a class. Here that principle enters a short-history prediction lemma whose tests may depend on a neighboring center. Its exact conditional laws and the independence of the fresh test are proved in Section 3.
 
-The arithmetic input is the normalized product formula (Milne 2020). We use the associated absolute height of algebraic numbers: the weighted sum of the positive parts of their logarithmic absolute values. The product formula converts relations between unit-edge jumps into bounds summed over all absolute values. The proof then combines these bounds with prediction and, at its last stage, algebraic independence and quadratic extensions. The intermediate statements connecting probability, height and algebra are proved in the paper.
+The arithmetic input is the normalized product formula [19]. We use the associated absolute height of algebraic numbers: the weighted sum of the positive parts of their logarithmic absolute values. The product formula converts relations between unit-edge jumps into bounds summed over all absolute values. The proof then combines these bounds with prediction and, at its last stage, algebraic independence and quadratic extensions. The intermediate statements connecting probability, height and algebra are proved in the paper.
 
 ### The proof in outline
 
@@ -78,13 +78,13 @@ Later arguments use number-field absolute values. The following specialization p
 
 *Proof.* Fix a neighborhood of each original point and choose a rational open rectangle containing that point inside its neighborhood. For variables $X_i=(X_{i,1},X_{i,2})$, impose membership in these rectangles, the equations $$(X_{i,1}-X_{j,1})^2+(X_{i,2}-X_{j,2})^2=1
        \qquad ((i,j)\in\mathcal E),$$ and the strict inequalities $$(X_{i,1}-X_{j,1})^2+(X_{i,2}-X_{j,2})^2>0
-       \qquad (i\ne j).$$ This finite system has rational coefficients and a real solution, namely the original configuration. The transfer principle for real closed fields (Kuhlmann 2009, Theorems 3.1 and 4.1) gives a solution in the field of real algebraic numbers. The equations preserve the required unit pairs, the inequalities preserve distinctness, and the rectangles give the prescribed closeness. ◻
+       \qquad (i\ne j).$$ This finite system has rational coefficients and a real solution, namely the original configuration. The transfer principle for real closed fields [17, Theorems 3.1 and 4.1] gives a solution in the field of real algebraic numbers. The equations preserve the required unit pairs, the inequalities preserve distinctness, and the rectangles give the prescribed closeness. ◻
 
 We henceforth apply this lemma separately to each configuration. Extra unit pairs created by the specialization are harmless; all subsequent graphs may retain only the incidences under consideration.
 
 ### Cuttings and the incidence bound
 
-For finite sets $\mathcal P$ of points and $\mathcal Q$ of distinct unit-circle centers, let $I(\mathcal P,\mathcal Q)$ denote the number of incidences. Two distinct unit circles meet in at most two points. Also, two distinct points lie on at most two unit circles: their possible centers are intersections of the two unit circles centered at the points. These two facts provide the pair-counting bounds used below. The cutting proof uses the random-sampling principle for regions with bounded defining data developed by Clarkson (Clarkson 1987, sec. 4). We give the circle boundary conventions explicitly so that every retained point belongs to its assigned open region.
+For finite sets $\mathcal P$ of points and $\mathcal Q$ of distinct unit-circle centers, let $I(\mathcal P,\mathcal Q)$ denote the number of incidences. Two distinct unit circles meet in at most two points. Also, two distinct points lie on at most two unit circles: their possible centers are intersections of the two unit circles centered at the points. These two facts provide the pair-counting bounds used below. The cutting proof uses the random-sampling principle for regions with bounded defining data developed by Clarkson [5, Section 4]. We give the circle boundary conventions explicitly so that every retained point belongs to its assigned open region.
 
 **Lemma 2.2**. *Let $\mathcal P$ be a finite planar point set and let $\mathcal Q$ be a nonempty set of $l$ distinct unit circles. For every $R\ge1$, sample $s=\lceil C R\log(2+l)\rceil$ circles independently and uniformly with replacement, where $C$ is a sufficiently large absolute constant. With probability at least $9/10$, after deleting the points on sampled circles, all remaining points can be assigned to at most $C'(1+s^2)$ open regions, each of which intersects at most $l/R$ of the original circles. Each assigned point belongs to its assigned region.*
 
@@ -104,7 +104,7 @@ Finally, all possible pieces have a description from the full circle set using a
        \bigl(m^{2/3}l^{2/3}+m+l\bigr),
 \end{equation}$$ where $C$ is an absolute constant. In particular, when $m,l$ are bounded by a fixed power of $t$, the logarithmic factor is $(\log t)^{O(1)}$.*
 
-*Proof.* Székely’s point–curve incidence theorem (Székely 1997, Theorem 8) gives the stronger bound $I=O(m^{2/3}l^{2/3}+m+l)$ when distinct curves meet in at most two points and distinct points belong to at most two curves. Distinct unit circles satisfy both hypotheses. If simple curves are taken to be arcs, cut each circle at two points outside the finite input point set; the resulting $2l$ arcs satisfy the same pair bounds and preserve every incidence. The logarithmically weakened form (2.1) follows, including the empty-set cases. ◻
+*Proof.* Székely’s point–curve incidence theorem [25, Theorem 8] gives the stronger bound $I=O(m^{2/3}l^{2/3}+m+l)$ when distinct curves meet in at most two points and distinct points belong to at most two curves. Distinct unit circles satisfy both hypotheses. If simple curves are taken to be arcs, cut each circle at two points outside the finite input point set; the resulting $2l$ arcs satisfy the same pair bounds and preserve every incidence. The logarithmically weakened form (2.1) follows, including the empty-set cases. ◻
 
 ### Degree control and a maximizing rectangle
 
@@ -253,7 +253,7 @@ We retain this graph and these probability laws for the rest of the proof: the u
 
 The incidence reduction supplies a probability law on point–center pairs whose point endpoints in a random wedge have mutual information $D=o(\log t)$. We now turn this information bound into predictions from short histories of point tests. The prediction uses only the history of the point; its accuracy is measured against a test that may depend on the center. We first prove this statement for an arbitrary finite probability law and then give the two forms needed for coordinate quantization and coordinate equality.
 
-The proof sums the information contributed by successive tests. Since that sum is at most $D$, a sufficiently long history leaves little new dependence on average. Related short conditioning arguments occur in Ahlswede’s wringing method (Ahlswede 1982, sec. 4, Lemma 3). Here the proof must additionally compare each endpoint with its own posterior law and leave the next test independent of the selected history.
+The proof sums the information contributed by successive tests. Since that sum is at most $D$, a sufficiently long history leaves little new dependence on average. Related short conditioning arguments occur in Ahlswede’s wringing method [2, Section 4, Lemma 3]. Here the proof must additionally compare each endpoint with its own posterior law and leave the next test independent of the selected history.
 
 ### The probability laws and the entropy comparison
 
@@ -269,12 +269,12 @@ Let $P,Q$ be finite nonempty sets and let $\omega(p,q)$ be a probability mass fu
  D=\mathop{\mathrm{D_{\mathrm{KL}}}}(\pi\Vert\mu\otimes\mu).
 \end{equation}$$ It is finite, since $\pi(p,r)>0$ implies $\mu(p)\mu(r)>0$.
 
-We use the standard chain rule for relative entropy (Cover and Thomas 2006, Theorem 2.5.3): $$\begin{equation}
+We use the standard chain rule for relative entropy [8, Theorem 2.5.3]: $$\begin{equation}
 \tag{3.3}
  \mathop{\mathrm{D_{\mathrm{KL}}}}(a_{XY}\Vert b_{XY})
  =\mathop{\mathrm{D_{\mathrm{KL}}}}(a_X\Vert b_X)
    +\sum_x a_X(x)\mathop{\mathrm{D_{\mathrm{KL}}}}(a_{Y\mid x}\Vert b_{Y\mid x}).
-\end{equation}$$ Nonnegativity and the chain rule imply that applying a deterministic map cannot increase relative entropy: adjoin the map to the outcome and then discard the nonnegative conditional term. We also use Pinsker’s inequality (Cover and Thomas 2006, Lemma 11.6.1), which in our natural-logarithm convention is $$\begin{equation}
+\end{equation}$$ Nonnegativity and the chain rule imply that applying a deterministic map cannot increase relative entropy: adjoin the map to the outcome and then discard the nonnegative conditional term. We also use Pinsker’s inequality [8, Lemma 11.6.1], which in our natural-logarithm convention is $$\begin{equation}
 \tag{3.4}
  2\mathop{\mathrm{TV}}(a,b)^2\le\mathop{\mathrm{D_{\mathrm{KL}}}}(a\Vert b).
 \end{equation}$$ Finally, total variation controls bounded expectations by $$\begin{equation}
@@ -352,7 +352,7 @@ We record the sampling laws used with this result. For any fixed history $H$ and
  \le\lvert H(P)\rvert\max_p\mu(p).
 \end{equation}$$ Given $H(p)$, the prediction is independent of all neighbors in (3.13). Applying a union bound to (3.12) therefore bounds the chance that at least one of the $r$ acceptance comparisons rejects this *same* predicted point at the same fresh test by $r(s_0+4\sqrt M(D/K)^{1/4})$. The union bound needs no independence of the rejection events.
 
-There is also a useful equivalent way to draw the point pair: draw $h$ with probability $\mu(H=h)$, then draw two points independently from $\mu_h$. This again has both marginals $\mu$, and its collision probability satisfies (3.14). Once $H$ is fixed, this pair law can be used unchanged for every fresh test. Sampling a second object from the first object’s fiber also appears in the entropy argument of Katz and Tardos (Katz and Tardos 2004, sec. 2, proof of Lemma 1); the identities above specify the marginals and independent test needed here.
+There is also a useful equivalent way to draw the point pair: draw $h$ with probability $\mu(H=h)$, then draw two points independently from $\mu_h$. This again has both marginals $\mu$, and its collision probability satisfies (3.14). Once $H$ is fixed, this pair law can be used unchanged for every fresh test. Sampling a second object from the first object’s fiber also appears in the entropy argument of Katz and Tardos [16, Section 2, proof of Lemma 1]; the identities above specify the marginals and independent test needed here.
 
 For the coordinate-quantization application, a test will be an independently chosen field embedding, a code will specify bounded coordinate bins together with an overflow code, and $\mathcal A_T(q)$ will consist of codes achieved by actual neighbors of $q$. The exact hypotheses needed from that construction are a fixed finite alphabet of size $M$ and acceptance of every actual edge, so $s_0=0$. If $K=o(\log t)$, $D/K=o(1)$, and $\max_p\mu(p)\le t^{-1+o(1)}$, then the prediction failure and the collision probability both tend to zero. Formula (3.13) with $r=3$ is the simultaneous three-neighbor experiment. Geometric estimates valid for all couplings with these marginals remain valid for each fixed history. More generally, additional nonnegative error quantities can be averaged together with the prediction error before choosing a prefix; this always leaves the test fresh.
 
@@ -411,7 +411,7 @@ For each configuration choose a finite normal number field $\mathcal N$ containi
  \sum_v^*\log|u|_v=0.
 \end{equation}$$ Here and below a star denotes the sum with the stated weights.*
 
-*Proof.* Use the classification of number-field places and the product formula (Milne 2020, Theorems 7.14–7.15). At a finite place $\mathfrak p$ above a rational prime $\ell$, normalize the genuine absolute value by $|\ell|_{\mathfrak p}=\ell^{-1}$, and put $n_{\mathfrak p}=[\mathcal N_{\mathfrak p}:\mathbb Q_\ell]$, where $\mathcal N_{\mathfrak p}$ is the completion. Use $n_{\mathfrak p}$ copies of this absolute value, each of weight $1/d_{\mathcal N}$. Milne’s local normalization formula (Milne 2020, Lemma 8.6) converts his finite-place value to $|\cdot|_{\mathfrak p}^{n_{\mathfrak p}}$. His complex-place value is squared modulus, so we instead use ordinary modulus once for each embedding, counting conjugate embeddings separately. Taking logarithms of the product formula and dividing by $d_{\mathcal N}$ proves (4.2). There are exactly $d_{\mathcal N}$ embeddings, giving archimedean weight one. Finally, the principal fractional ideal of any nonzero $u$ has finitely many prime factors (Milne 2020, Theorem 3.20); at every other finite place $|u|_v=1$. ◻
+*Proof.* Use the classification of number-field places and the product formula [19, Theorems 7.14–7.15]. At a finite place $\mathfrak p$ above a rational prime $\ell$, normalize the genuine absolute value by $|\ell|_{\mathfrak p}=\ell^{-1}$, and put $n_{\mathfrak p}=[\mathcal N_{\mathfrak p}:\mathbb Q_\ell]$, where $\mathcal N_{\mathfrak p}$ is the completion. Use $n_{\mathfrak p}$ copies of this absolute value, each of weight $1/d_{\mathcal N}$. Milne’s local normalization formula [19, Lemma 8.6] converts his finite-place value to $|\cdot|_{\mathfrak p}^{n_{\mathfrak p}}$. His complex-place value is squared modulus, so we instead use ordinary modulus once for each embedding, counting conjugate embeddings separately. Taking logarithms of the product formula and dividing by $d_{\mathcal N}$ proves (4.2). There are exactly $d_{\mathcal N}$ embeddings, giving archimedean weight one. Finally, the principal fractional ideal of any nonzero $u$ has finitely many prime factors [19, Theorem 3.20]; at every other finite place $|u|_v=1$. ◻
 
 Define $\log^+r=\max(0,\log r)$ for $r>0$ and $\log^+0=0$. Set $h(0)=0$, and put $$h(u)=\sum_v^*\log^+|u|_v\qquad(u\ne0).$$
 
@@ -431,7 +431,7 @@ Define $\log^+r=\max(0,\log r)$ for $r>0$ and $\log^+0=0$. Set $h(0)=0$, and put
        \tag{4.6}
 \end{align}$$*
 
-*Proof.* For a finite extension $L/\mathcal N$, the decomposition into completions (Milne 2020, Proposition 8.2) gives $\sum_{\mathfrak q\mid\mathfrak p}[L_{\mathfrak q}:\mathcal N_{\mathfrak p}] =[L:\mathcal N]$. Hence $$\sum_{\mathfrak q\mid\mathfrak p}
+*Proof.* For a finite extension $L/\mathcal N$, the decomposition into completions [19, Proposition 8.2] gives $\sum_{\mathfrak q\mid\mathfrak p}[L_{\mathfrak q}:\mathcal N_{\mathfrak p}] =[L:\mathcal N]$. Hence $$\sum_{\mathfrak q\mid\mathfrak p}
  \frac{[L_{\mathfrak q}:\mathbb Q_\ell]}{[L:\mathbb Q]}
  =\frac{[\mathcal N_{\mathfrak p}:\mathbb Q_\ell]}{[\mathcal N:\mathbb Q]}.$$ The extended absolute values restrict to the chosen normalization on $\mathcal N$, so the finite-place contribution of any $u\in\mathcal N$ is unchanged. Each embedding of $\mathcal N$ has $[L:\mathcal N]$ extensions, giving the same conclusion at infinity. A common finite normal overfield compares any two field choices. The place list includes all normalized extensions with their local-degree multiplicities, so their enumeration involves no further choice. This proves height independence; $h(0)=0$ is fixed.
 
@@ -724,7 +724,7 @@ For a center $q$, define the mixture of predictions $$\widetilde\nu_q=\mathbb E_
  \int_{\mathcal C}\mathbb P(y_q\notin\mathcal Y_\theta)
  \le k^3\int_{\mathcal C}
        \mathbb E_E[1-\nu_{H(p)}(R_{y_q})]=o(S).
-\end{equation}$$ We also need every candidate to have large mass under $\widetilde\nu_q$. The following elementary sampling bound supplies this uniformity. For its first assertion, we specialize the $\varepsilon$-net double-sampling argument to strict crosses (Haussler and Welzl 1987, Lemmas 3.4–3.5). The strict-cross trace bound, the weighted-law formulation, and the subsequent posterior-support transfer are established here.
+\end{equation}$$ We also need every candidate to have large mass under $\widetilde\nu_q$. The following elementary sampling bound supplies this uniformity. For its first assertion, we specialize the $\varepsilon$-net double-sampling argument to strict crosses [14, Lemmas 3.4–3.5]. The strict-cross trace bound, the weighted-law formulation, and the subsequent posterior-support transfer are established here.
 
 **Lemma 6.1** (Sampling strict crosses). *Let $\nu$ be a probability measure on a finite product set and let $X_1,\ldots,X_k$ be independent samples from $\nu$. For $0<\alpha<1$ and $k\alpha\ge8$, $$\mathbb P\bigl(\exists y:\nu(R_y)<1-\alpha,
                     \ X_1,\ldots,X_k\in R_y\bigr)
@@ -1076,9 +1076,9 @@ In particular, any edge ratio selected from the graphs is transcendental over $k
 
 We first restrict the graph to plane or bounded-degree curve loci of minimum total dimension among those retaining a full edge count. This restriction will give uniform bounds for the vertices satisfying additional polynomial equations, allowing us to choose a complete grid whose limiting positions have no relations, beyond the locus equations, over the field generated by their coefficients.
 
-We use two standard algebraic facts. First, for every field $K$, $K[Z,W]$ is a unique factorization domain (The Stacks Project Authors 2026, Lemma 10.120.10). A polynomial in $W$ with coefficients in $K[Z]$ is primitive if its coefficients have no common nonconstant factor. Gauss’s lemma then identifies factorization of primitive polynomials in $K[Z][W]$ with factorization over $K(Z)$: clear denominators and cancel common prime factors of the coefficients. In particular, an irreducible polynomial in $K[Z,W]$ of positive $W$-degree remains irreducible in $K(Z)[W]$. Two primitive polynomials that are scalar multiples over $K(Z)$ differ by an element of $K^\times$.
+We use two standard algebraic facts. First, for every field $K$, $K[Z,W]$ is a unique factorization domain [27, Lemma 10.120.10]. A polynomial in $W$ with coefficients in $K[Z]$ is primitive if its coefficients have no common nonconstant factor. Gauss’s lemma then identifies factorization of primitive polynomials in $K[Z][W]$ with factorization over $K(Z)$: clear denominators and cancel common prime factors of the coefficients. In particular, an irreducible polynomial in $K[Z,W]$ of positive $W$-degree remains irreducible in $K(Z)[W]$. Two primitive polynomials that are scalar multiples over $K(Z)$ differ by an element of $K^\times$.
 
-Second, two distinct irreducible plane curves of degrees at most $D$, over an algebraically closed field, have at most $D^2$ common points. Indeed their projective closures have the same degrees and no common component, so Bézout’s theorem bounds the sum of their intersection multiplicities by $D^2$ (Fulton 2008, sec. 5.3). Every affine intersection contributes at least one. We will apply this both over $\mathbb C$ at finite indices and over the algebraically closed field $\mathcal U$.
+Second, two distinct irreducible plane curves of degrees at most $D$, over an algebraically closed field, have at most $D^2$ common points. Indeed their projective closures have the same degrees and no common component, so Bézout’s theorem bounds the sum of their intersection multiplicities by $D^2$ [11, Section 5.3]. Every affine intersection contributes at least one. We will apply this both over $\mathbb C$ at finite indices and over the algebraically closed field $\mathcal U$.
 
 By a locus at an index we mean either the whole $(z,w)$-plane or the zero set of a nonconstant irreducible polynomial in $\mathbb C[z,w]$ whose degree has a fixed bound along the sequence. Its dimension is two or one, respectively. Among pairs of such locus sequences retaining a full number of graph edges, choose one of minimal total dimension. A minimum exists since the pair of planes is available and the possible total dimensions are $2,3,4$. Finite partitions let us fix all degrees and normalize one nonzero coefficient of each curve equation on a large set. Denote the limiting loci in $\mathcal U^2$ by $V_1,V_2$, their dimensions by $d_1,d_2$, and the field generated over $\mathbb Q$ by their normalized equation coefficients and $i$ by $B_0$. There are finitely many such coefficients, so $B_0$ is countable. It is a subfield of $\mathcal U$, and need not be a subfield of $F$.
 
@@ -1134,7 +1134,7 @@ Take $N=20$ and $j=5$ in Theorem 8.3, and write $\lambda_{i\ell}$ for the edge 
 
 **Lemma 8.4**. *There is a $k_0$-derivation $\partial:F\to F$ such that $\partial\lambda_{i\ell}\ne0$ for every grid edge.*
 
-*Proof.* A derivation is an additive map satisfying the product rule; being a $k_0$-derivation means that it vanishes on $k_0$. Each $\lambda_{i\ell}$ is transcendental over $k_0$ by Theorem 8.2. Put it in a transcendence basis of $F/k_0$, prescribe its derivative to be one and those of the other basis elements to be zero, and extend by the quotient rule to the rational function field. Since the characteristic is zero, this derivation extends uniquely over the algebraic extension to $F$ (Conrad, n.d., Theorems 1.5 and 4.1). For an infinite algebraic extension, take the compatible extensions to its finite subextensions; uniqueness makes them agree on overlaps (Conrad, n.d., sec. 5).
+*Proof.* A derivation is an additive map satisfying the product rule; being a $k_0$-derivation means that it vanishes on $k_0$. Each $\lambda_{i\ell}$ is transcendental over $k_0$ by Theorem 8.2. Put it in a transcendence basis of $F/k_0$, prescribe its derivative to be one and those of the other basis elements to be zero, and extend by the quotient rule to the rational function field. Since the characteristic is zero, this derivation extends uniquely over the algebraic extension to $F$ [7, Theorems 1.5 and 4.1]. For an infinite algebraic extension, take the compatible extensions to its finite subextensions; uniqueness makes them agree on overlaps [7, Section 5].
 
 We have thus obtained a witness derivation nonzero on each chosen ratio. The derivations form an $F$-vector space. A linear combination of the finitely many witnesses is nonzero on all ratios provided its coefficients avoid the zeros of a product of finitely many nonzero linear forms. This product is a nonzero polynomial over the infinite field $F$, so such coefficients exist. ◻
 
@@ -1209,7 +1209,7 @@ The excluded value $b=1$ illustrates why the deletion of popular unit circles wa
 
 ### An unused sign change
 
-We use the quadratic case of Kummer theory over the characteristic-zero field $M$. If $D_1,\ldots,D_j\in M^\times$ have independent classes modulo squares and $R_\ell^2=D_\ell$, then $$[M(R_1,\ldots,R_j):M]=2^j,$$ and every choice of signs of the $R_\ell$ is induced by an automorphism fixing $M$ (Milne 2022, Theorem 5.30 and Remark 5.32). The hypotheses hold because $M$ contains both square roots of unity and has characteristic different from two. Independence of the square classes is required in this same field $M$, as proved in Theorem 8.6.
+We use the quadratic case of Kummer theory over the characteristic-zero field $M$. If $D_1,\ldots,D_j\in M^\times$ have independent classes modulo squares and $R_\ell^2=D_\ell$, then $$[M(R_1,\ldots,R_j):M]=2^j,$$ and every choice of signs of the $R_\ell$ is induced by an automorphism fixing $M$ [20, Theorem 5.30 and Remark 5.32]. The hypotheses hold because $M$ contains both square roots of unity and has characteristic different from two. Independence of the square classes is required in this same field $M$, as proved in Theorem 8.6.
 
 Apply this fact with the radicands of Theorem 8.6, and let $\mathcal M=M(R_1,\ldots,R_j)\subset\mathcal U$, using the actual roots from (8.10). Write $H=H_i$, $A=A_i$ for the surviving point. We have the equations $$\begin{equation}
 \tag{8.16}
@@ -1230,56 +1230,56 @@ This proves Theorem 8.1. All sign changes were applied inside the finite radica
 
 ## References
 
-Ágoston, Péter, and Dömötör Pálvölgyi. 2022. “An Improved Constant Factor for the Unit Distance Problem.” *Studia Scientiarum Mathematicarum Hungarica* 59 (1): 40–57. <https://doi.org/10.1556/012.2022.01517>.
+**[1]** Péter Ágoston and Dömötör Pálvölgyi. An improved constant factor for the unit distance problem. *Studia Scientiarum Mathematicarum Hungarica*, 59(1):40–57, 2022.
 
-Ahlswede, Rudolf. 1982. “An Elementary Proof of the Strong Converse Theorem for the Multiple-Access Channel.” *Journal of Combinatorics, Information and System Sciences* 7 (3): 216–30. <https://www.math.uni-bielefeld.de/ahlswede/homepage/public/44.pdf>.
+**[2]** Rudolf Ahlswede. An elementary proof of the strong converse theorem for the multiple-access channel. *Journal of Combinatorics, Information and System Sciences*, 7(3):216–230, 1982.
 
-Ajtai, M., V. Chvátal, M. M. Newborn, and E. Szemerédi. 1982. “Crossing-Free Subgraphs.” In *Theory and Practice of Combinatorics*, edited by Alexander Rosa, Gert Sabidussi, and Jean Turgeon, vol. 60. North-Holland Mathematics Studies. North-Holland. <https://doi.org/10.1016/S0304-0208(08)73484-4>.
+**[3]** M. Ajtai, V. Chvátal, M. M. Newborn, and E. Szemerédi. Crossing-free subgraphs. In Alexander Rosa, Gert Sabidussi, and Jean Turgeon, editors, *Theory and Practice of Combinatorics*, volume 60 of *North-Holland Mathematics Studies*, pages 9–12. North-Holland, Amsterdam, 1982.
 
-Alon, Noga, Thomas F. Bloom, W. T. Gowers, et al. 2026. *Remarks on the Disproof of the Unit Distance Conjecture*. [Https://arxiv.org/abs/2605.20695v1](https://arxiv.org/abs/2605.20695v1). <https://doi.org/10.48550/arXiv.2605.20695>.
+**[4]** Noga Alon, Thomas F. Bloom, W. T. Gowers, Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang, and Melanie Matchett Wood. Remarks on the disproof of the unit distance conjecture. <https://arxiv.org/abs/2605.20695v1>, 2026. arXiv:2605.20695v1, submitted 20 May 2026.
 
-Clarkson, Kenneth L. 1987. “New Applications of Random Sampling in Computational Geometry.” *Discrete & Computational Geometry* 2: 195–222. <https://doi.org/10.1007/BF02187879>.
+**[5]** Kenneth L. Clarkson. New applications of random sampling in computational geometry. *Discrete & Computational Geometry*, 2:195–222, 1987.
 
-Clarkson, Kenneth L., and Peter W. Shor. 1989. “Applications of Random Sampling in Computational Geometry, II.” *Discrete & Computational Geometry* 4: 387–421. <https://doi.org/10.1007/BF02187740>.
+**[6]** Kenneth L. Clarkson and Peter W. Shor. Applications of random sampling in computational geometry, II. *Discrete & Computational Geometry*, 4:387–421, 1989.
 
-Conrad, Keith. n.d. *Separability II*. [Https://kconrad.math.uconn.edu/blurbs/galoistheory/separable2.pdf](https://kconrad.math.uconn.edu/blurbs/galoistheory/separable2.pdf). <https://kconrad.math.uconn.edu/blurbs/galoistheory/separable2.pdf>.
+**[7]** Keith Conrad. Separability II. <https://kconrad.math.uconn.edu/blurbs/galoistheory/separable2.pdf>. Undated author notes; accessed 23 September 2026.
 
-Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Wiley-Interscience.
+**[8]** Thomas M. Cover and Joy A. Thomas. *Elements of Information Theory*. Wiley-Interscience, 2 edition, 2006.
 
-Ellenberg, Jordan S., and Akshay Venkatesh. 2007. “Reflection Principles and Bounds for Class Group Torsion.” *International Mathematics Research Notices* 2007. <https://doi.org/10.1093/imrn/rnm002>.
+**[9]** Jordan S. Ellenberg and Akshay Venkatesh. Reflection principles and bounds for class group torsion. *International Mathematics Research Notices*, 2007, 2007. Article rnm002, 18 pp.
 
-Erdős, P. 1946. “On Sets of Distances of $n$ Points.” *The American Mathematical Monthly* 53 (5): 248–50. <https://doi.org/10.1080/00029890.1946.11991674>.
+**[10]** P. Erdős. On sets of distances of $n$ points. *The American Mathematical Monthly*, 53(5):248–250, May 1946.
 
-Fulton, William. 2008. *Algebraic Curves: An Introduction to Algebraic Geometry*. [Https://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf](https://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf). <https://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf>.
+**[11]** William Fulton. Algebraic curves: An introduction to algebraic geometry. <https://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf>, 2008. Electronic edition.
 
-Golod, E. S., and I. R. Shafarevich. 1964. “On the Class Field Tower.” *Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya* 28 (2): 261–72. <https://www.mathnet.ru/eng/im2955>.
+**[12]** E. S. Golod and I. R. Shafarevich. On the class field tower. *Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya*, 28(2):261–272, 1964. Russian; English translation in American Mathematical Society Translations, Series 2, 48 (1965), 91–102.
 
-Hajir, Farshid, Christian Maire, and Ravi Ramakrishna. 2021. “Cutting Towers of Number Fields.” *Annales Mathématiques Du Québec* 45 (2): 321–45. <https://doi.org/10.1007/s40316-021-00156-8>.
+**[13]** Farshid Hajir, Christian Maire, and Ravi Ramakrishna. Cutting towers of number fields. *Annales mathématiques du Québec*, 45(2):321–345, 2021.
 
-Haussler, David, and Emo Welzl. 1987. “$\varepsilon$-Nets and Simplex Range Queries.” *Discrete & Computational Geometry* 2: 127–51. <https://doi.org/10.1007/BF02187876>.
+**[14]** David Haussler and Emo Welzl. $\varepsilon$-nets and simplex range queries. *Discrete & Computational Geometry*, 2:127–151, 1987.
 
-Katz, Nets Hawk, and Gábor Tardos. 2004. “A New Entropy Inequality for the Erdős Distance Problem.” In *Towards a Theory of Geometric Graphs*, edited by János Pach, vol. 342. Contemporary Mathematics. American Mathematical Society. <https://doi.org/10.1090/conm/342/06136>.
+**[15]** Nets Katz and Olivine Silier. Structure of cell decompositions in extremal Szemerédi–Trotter examples. <https://arxiv.org/abs/2303.17186v2>, 2026. Version 2, 1 June 2026; first submitted 2023.
 
-Katz, Nets, and Olivine Silier. 2026. *Structure of Cell Decompositions in Extremal Szemerédi–Trotter Examples*. [Https://arxiv.org/abs/2303.17186v2](https://arxiv.org/abs/2303.17186v2). <https://arxiv.org/abs/2303.17186v2>.
+**[16]** Nets Hawk Katz and Gábor Tardos. A new entropy inequality for the Erdős distance problem. In János Pach, editor, *Towards a Theory of Geometric Graphs*, volume 342 of *Contemporary Mathematics*, pages 119–126. American Mathematical Society, Providence, RI, 2004.
 
-Kuhlmann, Salma. 2009. *Real Algebraic Geometry Lecture Notes: Lecture 09*. [Https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf](https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf). <https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf>.
+**[17]** Salma Kuhlmann. Real algebraic geometry lecture notes: Lecture 09. <https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf>, 2009. 17 November 2009, Theorems 3.1 and 4.1.
 
-Leighton, F. Thomson. 1983. *Complexity Issues in VLSI: Optimal Layouts for the Shuffle-Exchange Graph and Other Networks*. Foundations of Computing. MIT Press. <https://mitpress.mit.edu/9780262121040/complexity-issues-in-vlsi/>.
+**[18]** F. Thomson Leighton. *Complexity Issues in VLSI: Optimal Layouts for the Shuffle-Exchange Graph and Other Networks*. Foundations of Computing. MIT Press, Cambridge, MA, 1983.
 
-Milne, James S. 2020. *Algebraic Number Theory*. [Https://www.jmilne.org/math/CourseNotes/ANTc.pdf](https://www.jmilne.org/math/CourseNotes/ANTc.pdf). <https://www.jmilne.org/math/CourseNotes/ANTc.pdf>.
+**[19]** James S. Milne. Algebraic number theory. <https://www.jmilne.org/math/CourseNotes/ANTc.pdf>, 2020. Version 3.08, 19 July 2020.
 
-Milne, James S. 2022. *Fields and Galois Theory*. [Https://www.jmilne.org/math/CourseNotes/FT.pdf](https://www.jmilne.org/math/CourseNotes/FT.pdf). <https://www.jmilne.org/math/CourseNotes/FT.pdf>.
+**[20]** James S. Milne. Fields and galois theory. <https://www.jmilne.org/math/CourseNotes/FT.pdf>, 2022. Version 5.10, September 2022.
 
-OpenAI. 2026. *Planar Point Sets with Many Unit Distances*. [Https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf](https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf). <https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf>.
+**[21]** OpenAI. Planar point sets with many unit distances. <https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf>, 2026. Public manuscript, 20 May 2026.
 
-Pach, János, Orit E. Raz, and József Solymosi. 2026. “Erdős’s Unit Distance Problem and Rigidity.” In *42nd International Symposium on Computational Geometry (SoCG 2026)*, edited by Hee-Kap Ahn, Michael Hoffmann, and Amir Nayyeri, vol. 367. Leibniz International Proceedings in Informatics. Schloss Dagstuhl–Leibniz-Zentrum für Informatik. <https://doi.org/10.4230/LIPIcs.SoCG.2026.83>.
+**[22]** János Pach, Orit E. Raz, and József Solymosi. Erdős’s unit distance problem and rigidity. In Hee-Kap Ahn, Michael Hoffmann, and Amir Nayyeri, editors, *42nd International Symposium on Computational Geometry (SoCG 2026)*, volume 367 of *Leibniz International Proceedings in Informatics*, pages 83:1–83:9. Schloss Dagstuhl–Leibniz-Zentrum für Informatik, 2026.
 
-Sawin, Will. 2026. *An Explicit Lower Bound for the Unit Distance Problem*. [Https://arxiv.org/abs/2605.20579v1](https://arxiv.org/abs/2605.20579v1). <https://doi.org/10.48550/arXiv.2605.20579>.
+**[23]** Will Sawin. An explicit lower bound for the unit distance problem. <https://arxiv.org/abs/2605.20579v1>, 2026. Version 1, 20 May 2026.
 
-Spencer, J., E. Szemerédi, and W. T. Trotter Jr. 1984. “Unit Distances in the Euclidean Plane.” In *Graph Theory and Combinatorics*, edited by B. Bollobás. Academic Press. <https://trotter.math.gatech.edu/papers/44.pdf>.
+**[24]** J. Spencer, E. Szemerédi, and W. T. Trotter, Jr. Unit distances in the Euclidean plane. In B. Bollobás, editor, *Graph Theory and Combinatorics*, pages 293–303. Academic Press, London, 1984. Proceedings of the Cambridge Conference, 1983.
 
-Székely, László A. 1997. “Crossing Numbers and Hard Erdős Problems in Discrete Geometry.” *Combinatorics, Probability and Computing* 6 (3): 353–58. <https://doi.org/10.1017/S0963548397002976>.
+**[25]** László A. Székely. Crossing numbers and hard Erdős problems in discrete geometry. *Combinatorics, Probability and Computing*, 6(3):353–358, 1997.
 
-Tardos, Gábor. 2003. “On Distinct Sums and Distinct Distances.” *Advances in Mathematics* 180 (1): 275–89. <https://doi.org/10.1016/S0001-8708(03)00004-5>.
+**[26]** Gábor Tardos. On distinct sums and distinct distances. *Advances in Mathematics*, 180(1):275–289, 2003.
 
-The Stacks Project Authors. 2026. *The Stacks Project*. [Https://stacks.math.columbia.edu/tag/0BC1](https://stacks.math.columbia.edu/tag/0BC1). <https://stacks.math.columbia.edu/tag/0BC1>.
+**[27]** The Stacks Project Authors. The Stacks Project. <https://stacks.math.columbia.edu/tag/0BC1>, 2026. Lemma 10.120.10, Tag 0BC1; accessed 23 September 2026.

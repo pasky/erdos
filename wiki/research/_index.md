@@ -6,7 +6,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-04T05:59:37Z
-updated: 2026-10-08T14:38:41Z
+updated: 2026-10-13T18:32:16Z
 ---
 
 # research
@@ -54,7 +54,7 @@ settles, and the clauses that remain open.
 
 [[research/erdos_774/_index|erdos_774/]]: Source notes, the finite-block reduction and exact checks of published examples for Problem 774.
 
-[[research/erdos_809/_index|erdos_809/]]: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17 and accepted at tier 2 on 2026-09-25 for its audited Lean sources and statement.
+[[research/erdos_809/_index|erdos_809/]]: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17, which stands at tier 2 on its independent statement-fidelity review, grade and non-author clean gate.
 
 [[research/erdos_864/_index|erdos_864/]]: Published bounds and source notes for the one-exception Sidon problem.
 

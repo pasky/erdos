@@ -105,7 +105,7 @@ p. 224, PDF p. 2) is the primary source of the example the site and the
 $2=\sum_{i=1}^5\sum_{n\in I_i}1/n$ with $I_1=[2,7]$, $I_2=[9,10]$,
 $I_3=[17,18]$, $I_4=[34,35]$, $I_5=[84,85]$ that the site's commentary
 quotes, and the monograph's fourteen denominators are this set. The page
-settles the attribution the problem page had from secondary sources: the
+settles the attribution that the site and the monograph give: the
 solution is Montgomery's, and the note credits the second set to Hickerson
 as well, so "Hickerson and Montgomery" (the site) fits $S_2$ and
 "Montgomery" (the monograph) fits the solution. It also confirms that

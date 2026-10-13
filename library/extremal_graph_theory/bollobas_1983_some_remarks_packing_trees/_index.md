@@ -158,8 +158,8 @@ into $K_n$" (counting the edgeless $T_1$, as under Contents); it proves the
 smallest-trees regime of the conjecture and says more than the site's
 wording, since any partial packing of the larger trees among the first $s$
 extends. The remark of p. 204 (PDF p. 2) is the conditional
-$\frac12\sqrt3\,n$ under the Erdős--Sós conjecture that the page had from the
-later sources. The introduction (p. 203) attests Gyárfás and Lehel's proof of
+$\frac12\sqrt3\,n$ under the Erdős--Sós conjecture that later sources cite.
+The introduction (p. 203) attests Gyárfás and Lehel's proof of
 the case where all but at most two trees are stars and Straight's
 verification for $n\le7$, the earliest finite check the page records. The
 note does not settle the conjecture.

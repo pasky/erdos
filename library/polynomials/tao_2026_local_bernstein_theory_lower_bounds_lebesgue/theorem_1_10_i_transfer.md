@@ -108,10 +108,11 @@ dependencies. Their complete hypotheses and proofs must be reconstructed and
 independently reviewed before full-chain credit. No inaccessible primary input
 is alleged. The bounded transfer (T2)--(T3) received separate independent review
 on 6 September 2026, retained as the [transfer
-review](evidence/verify/transfer_review.md). That review read the statement
-section in its earlier form, which fixed a closed interval $I=[a,b]$; on
-2026-10-08 it was widened to the print's fixed interval $I$, and the
-transfer, which takes $I=[a,b]$, is unchanged. No formal, acceptance, or
+review](evidence/verify/transfer_review.md). Since the review, the statement
+section takes the print's fixed interval $I$ in place of a closed interval
+$I=[a,b]$; this touches the statement section that the review examined, so the
+review covers its earlier text only. The transfer, which takes $I=[a,b]$, is
+unchanged. No formal, acceptance, or
 complete source-proof credit is assigned here.
 
 **Bears on.** [[../wiki/problems/polynomials/E1153/_index|Problem 1153]].

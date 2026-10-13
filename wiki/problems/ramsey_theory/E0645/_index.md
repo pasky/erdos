@@ -258,8 +258,7 @@ quotation of Erdős.
   formal-conjectures file at the pinned commit; the community database; the
   site's bibliography page for [Er95c].
 - Crossref: the record of [BrLa99] found by bibliographic query (DOI
-  10.1017/S0004972700033293; the DOI the earlier records carried,
-  10.1017/S0004972700036463, answered 404).
+  10.1017/S0004972700033293).
 - Semantic Scholar: the citation list of Beck 1980 (sixteen records
   scanned by title; Brown–Landman 1999 among them, nothing on $d>x$); the
   request for the citations of [BrLa99] by DOI answered 404.

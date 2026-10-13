@@ -75,7 +75,7 @@ identity once no triangle remains), takes the terminal law to be $\binom n2$
 iterations of that step from the complete graph, and defines the normalized
 leave as the edge count divided by $n^{3/2}$ and the constant as
 $1/(2\sqrt2)$. This card read all of this statically from the release's
-catalog. The declaration was later built and its statement audited against the
+catalog. The declaration was also built and its statement audited against the
 problem, as the
 [[../wiki/problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|Problem 1155 claim page]]
 records; no fidelity between the comparator statement and Theorem 1.1 is

@@ -167,14 +167,12 @@ Darby/Larson results, E705 to O'Donnell [O'D99/O'D00], E992 to Berkes–Philipp
 and the unpublished Yuan [Yua21] result for paths. These are source pointers;
 they do not by themselves replace review of those older primary sources.
 
-## Corrections and verification layers
+## Scope and verification layers
 
-**Corrections to the inherited filing text.** The long result list has been
-replaced by the exact statements above. In particular, E1040 is restricted to
-the first question because the paper calls the second reduction incorrect; E935
-is restricted to the second question; E652's corrected incidence exponents are
-retained; and E1089's prior Bannai–Bannai attribution is stated. The five
-literature cases are recorded as citations, not new solutions.
+**Scope of the statements.** E1040 is restricted to the first question because
+the paper calls the second reduction incorrect; E935 is restricted to the
+second question; and E1089's prior Bannai–Bannai attribution is stated. The
+five literature cases are recorded as citations, not new solutions.
 
 **Formalization report.** The paper reports a Lean 4 formalization of the E1051
 argument by Kevin Barreto. It supplies no pinned formal file, version, or local

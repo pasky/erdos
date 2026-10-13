@@ -3,13 +3,13 @@ name: theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify
 title: Verification records for L17
 desc: |
   The second-cycle fidelity review and distinct grade of 2026-10-02 and the
-  non-author clean gate of 2026-10-08, the current records for the
-  kernel-only tier-2 standing of L17, beside the retained record of the
-  first acceptance of 2026-09-25.
+  non-author clean gate of 2026-10-13, the current records for the
+  kernel-only tier-2 standing of L17, beside the earlier clean gate of
+  2026-10-08 and the retained record of the first acceptance of 2026-09-25.
 tags: []
 sources: []
 created: 2026-09-25T00:00:00Z
-updated: 2026-10-08T14:21:57Z
+updated: 2026-10-13T18:32:16Z
 ---
 
 # Verification records for L17
@@ -21,6 +21,12 @@ clean mode over a fresh archive of the whole lean/ tree as it stood on
 2026-10-08T13:58:11Z, exit 0, AUDIT PASS over 1 claim with 0 compiler
 axioms and the committed self-test stamp matched; the receipt, the captured
 log and the wrapper.
+
+[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate_2/_index|clean_gate_2/]]: The non-author clean gate of 2026-10-13 for L17: the committed Lean gate in
+clean mode over a fresh archive of the whole lean/ tree of the change that
+moved the project to Lean v4.34.1, as committed at 2026-10-13T17:35:38Z,
+exit 0, AUDIT PASS over 1 claim with 0 compiler axioms and the committed
+self-test stamp matched; the receipt, the captured log and the wrapper.
 
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/statement_fidelity/_index|statement_fidelity/]]: The fidelity review, distinct grade, non-author clean gate, native binding
 and acceptance warrant for the first acceptance of L17, for the sources as
@@ -41,12 +47,15 @@ kernel-only with zero compiler axioms, bound to the `lean/` tree the
 non-author clean gate of 2026-09-29 checked and cited there, and the
 reviewer's census scripts; the assertion is in force from the filing that
 cites the grade and the gate together. The
-[clean gate](clean_gate/_index.md) of 2026-10-08 holds the non-author
-runner's receipt, captured log and wrapper for the whole `lean/` tree as it
-stood on 2026-10-08T13:58:11Z (exit 0, `AUDIT PASS` over 1 claim with 0
-compiler axioms, the self-test stamp matched), the gate the card's standing
-cites with that grade; the claim's statement is unchanged in meaning from
-the tree the grade examined to that tree. The
+[clean gate](clean_gate_2/_index.md) of 2026-10-13 holds the non-author
+runner's receipt, captured log and wrapper for the whole `lean/` tree of the
+change that moved the project to Lean v4.34.1, as committed at
+2026-10-13T17:35:38Z (exit 0, `AUDIT PASS` over 1 claim with 0 compiler
+axioms, the self-test stamp matched), the gate the card's standing cites with
+that grade and with the grade decision that applied the grade to that tree.
+The [earlier clean gate](clean_gate/_index.md) of 2026-10-08 holds the same
+for the `lean/` tree as it stood on 2026-10-08T13:58:11Z, on Lean
+v4.32.0-rc1. The
 [earlier record](statement_fidelity/_index.md) holds the first acceptance of
 2026-09-25: its fidelity review, distinct grade, non-author clean-gate
 receipt with its log and wrapper, the

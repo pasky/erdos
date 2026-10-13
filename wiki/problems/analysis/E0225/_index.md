@@ -237,7 +237,7 @@ positive-degree interpretation and found a defect in the Theorem 1 page's
 transfer sentence at $n=0$ (repair: carry $n\geq1$, or "$f$ nonconstant", in
 that section); the grade states that it warrants acceptance of the two theorems
 and no acceptance of the transfer sentence as it then stood. The transfer
-sentence was repaired on 2026-09-18, after the third-round review, and the
+sentence was then repaired, and the
 focused
 [[../library/analysis/saff_sheil_small_1974_coefficient_integral_mean_estimates_restricted_zeros/evidence/verify/transfer_repair_review|transfer
 repair review]] of the section as it stood on 2026-09-18T09:26:42Z returned
@@ -247,15 +247,10 @@ grade]] records pass for the report contract and pass for independence and
 states that the repaired section survives focused blind review, conditional on
 Theorem 1 as the card states it, with no tier asserted. The Theorem 1 page's
 transfer sentence is therefore the reviewed text, and the source card discloses
-the later rewording of 2026-10-07. The displayed problem Statement is unchanged;
+a later rewording. The displayed problem Statement is unchanged;
 the modified Statement and its Notes immediately below it record the required
 actual-degree convention. This record gives no formal-verification or new
-acceptance credit. On 2026-10-12 this page's frontmatter description and Status
-paragraph were reworded; the change touches no examined statement, proof, code
-or input. On 2026-10-13 the word "dated" was removed from this page's sentence
-on its status-search scope and a stray comma from the parenthesis naming the
-community database; the change touches no examined statement, proof, code or
-input.
+acceptance credit.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

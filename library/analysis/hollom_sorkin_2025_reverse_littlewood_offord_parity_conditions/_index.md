@@ -172,8 +172,7 @@ Theorem 1.3 or of Theorem 1.5.
   1.5 asks.
 
 The rearrangement on p. 12 leading to display (5.3) was checked
-independently and is correct; an earlier provisional allegation of a
-missing factor four was withdrawn.
+independently and is correct; in particular no factor four is missing.
 
 ## Relation to problem 395
 

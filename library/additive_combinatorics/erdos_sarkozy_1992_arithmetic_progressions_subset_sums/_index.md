@@ -92,11 +92,9 @@ clause by clause on the page images of PDF pp. 1--4 and 16. The proof of Theorem
 4 (§ 7, pp. 258--261, PDF pp. 10--13) was read in full on the page images and
 its steps were followed (its count on p. 261 has a slip, noted under § 7 below).
 The proofs of Theorems 1--3 (§§ 4--6, pp. 252--258) and of Theorem 5 (§ 8, pp.
-261--264) were first read in the text layer for structure; the statements of
-Theorems 1--3 and 5 were read again clause by clause on the page images of PDF
-pp. 2--4, and their proofs were read on the page images of PDF pp. 4--10 and
-13--16 and their outlines followed, not checked step by step. Nothing here is
-independently reviewed.
+261--264) were read on the page images of PDF pp. 4--10 and 13--16 and their
+outlines followed, not checked step by step. Nothing here is independently
+reviewed.
 
 ## Contents
 

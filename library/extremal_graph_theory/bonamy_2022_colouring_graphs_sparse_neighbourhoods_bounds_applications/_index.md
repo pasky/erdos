@@ -62,10 +62,9 @@ clause on the page images and paged on its own result page: Theorems 1.5
 and 1.6 (p. 2), Theorem 1.7 (p. 3), Theorem 1.11 with Theorems 1.9 and
 1.10 (p. 4), Theorem 3.21 (p. 16) and Lemma 4.6 (p. 22); Conjecture 1.8
 (p. 3) was read as printed. The proofs (Sections 2--5, pp. 4--26) were read
-for structure only and not checked; the other results are the import's
-reading. The arXiv
-record names arXiv's non-exclusive distribution license
-(arXiv:1810.06704), every other right reserved.
+for structure only and not checked; the other results are summarized without
+a clause-by-clause check. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1810.06704), every other right reserved.
 
 The paper develops an iterative version of the naive random coloring procedure
 for delta-sparse graphs, where no neighborhood spans more than (1-delta)

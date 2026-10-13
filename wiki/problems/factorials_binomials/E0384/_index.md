@@ -148,14 +148,13 @@ Neither file has been built here.
 
 The full-proof review and its final receipt, filed with the Ecklund source,
 name this page's proof-coverage item as it stood on 2026-09-15T18:32:52Z and
-the two standing substitutions their filing of 2026-09-16 made in it. Later
-edits expanded the [Gu04] reference and the Progress paragraph on Guy's
-sections, reworded the Proof coverage and Remaining gaps items, and made the
-weak formulation the page's modified Statement, which the standing now
-judges; the weak statement, the counterexample and the Ecklund transfer that
-the review examined are unchanged in substance. On 2026-10-12 this page's
-frontmatter description and Status paragraph were reworded; the change touches
-no examined statement, proof, code or input.
+the two standing substitutions their filing of 2026-09-16 made in it. Since
+the review, the [Gu04] reference and the Progress paragraph on Guy's sections
+were expanded, the frontmatter description, the Status paragraph and the Proof
+coverage and Remaining gaps items were reworded, and the weak formulation
+became the page's modified Statement, which the standing judges; the weak
+statement, the counterexample and the Ecklund transfer that the review
+examined are unchanged in substance.
 
 ## Progress
 

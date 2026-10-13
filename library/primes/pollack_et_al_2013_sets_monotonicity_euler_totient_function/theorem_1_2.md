@@ -41,10 +41,10 @@ published version (Ramanujan J. 30 (2013), no. 3, 379--398) was not read;
 the [source card](_index.md) records the provenance.
 
 **Read depth.** Claims checked: the statement and the p. 2 consequence were
-read clause by clause; the §5 proof was read for its structure only, and
-its inputs Theorems 3.1 and 3.3 (§3) and Lemma 4.1 (§4) were not read.
-The whole §3--§5 chain (pp. 5--10) was later read on the page images and
-its proof is written out in the author-recorded
+read clause by clause; the §5 proof was read for its structure only.
+The whole §3--§5 chain (pp. 5--10), with its inputs Theorems 3.1 and 3.3
+(§3) and Lemma 4.1 (§4), was read on the page images, and its proof is
+written out in the author-recorded
 [[../wiki/research/erdos_49/theorem_1_2_reconstruction|Theorem 1.2 reconstruction]],
 which labels the parts the source imports (Theorem 3.1 is a sketch there,
 Lemma 4.1 cites Ford's counting).

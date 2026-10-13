@@ -23,15 +23,15 @@ In particular, the quartics $x^4+2$ and $x^4+1$ have positive squarefree-value d
 
 ### Earlier results and the higher-degree consequence
 
-The power-free-value problem has a long history. Ricci obtained the asymptotic in the range $k\ge d$ (Ricci 1933). For $d\ge3$, Erdős proved infinitude for exponent $d-1$, and Hooley obtained the corresponding asymptotic (Erdős 1953; Hooley 1967); see also the historical discussion in (Heath-Brown 2013, Introduction). The cubic squarefree case therefore belongs to this classical range. Already in 1953, Erdős singled out the unresolved squarefreeness of $n^4+2$ (Erdős 1953, 425). In his 1965 survey he returned to this example when describing the obstacle at exponent $d-2$ (Erdős 1965, sec. 6, p. 219).
+The power-free-value problem has a long history. Ricci obtained the asymptotic in the range $k\ge d$ [22]. For $d\ge3$, Erdős proved infinitude for exponent $d-1$, and Hooley obtained the corresponding asymptotic [6, 16]; see also the historical discussion in [14, Introduction]. The cubic squarefree case therefore belongs to this classical range. Already in 1953, Erdős singled out the unresolved squarefreeness of $n^4+2$ [6, p. 425]. In his 1965 survey he returned to this example when describing the obstacle at exponent $d-2$ [7, Section 6, p. 219].
 
-Nair obtained the asymptotic for $k\ge(\sqrt2-\tfrac12)d$ (Nair 1976), with further developments by Nair and Huxley–Nair (Nair 1979; Huxley and Nair 1980). The 1976 bound reaches $k=d-2$ for $d\ge24$. Heath-Brown’s affine determinant method gave the range $k\ge(3d+2)/4$ (Heath-Brown 2006, Theorem 16), reaching $k=d-2$ for $d\ge10$. Combining that method with Salberger’s global determinant estimates, Browning improved the range to $k\ge(3d+1)/4$ (Browning 2011), which reaches $k=d-2$ for $d\ge9$. We use the formulation and published reproof in Xiao (Xiao 2017, Theorem 9.1 and Section 9): the input interval is $1\le n\le X$ and the constant is the Euler product over all residue classes modulo $p^k$.
+Nair obtained the asymptotic for $k\ge(\sqrt2-\tfrac12)d$ [19], with further developments by Nair and Huxley–Nair [20, 17]. The 1976 bound reaches $k=d-2$ for $d\ge24$. Heath-Brown’s affine determinant method gave the range $k\ge(3d+2)/4$ [11, Theorem 16], reaching $k=d-2$ for $d\ge10$. Combining that method with Salberger’s global determinant estimates, Browning improved the range to $k\ge(3d+1)/4$ [2], which reaches $k=d-2$ for $d\ge9$. We use the formulation and published reproof in Xiao [27, Theorem 9.1 and Section 9]: the input interval is $1\le n\le X$ and the constant is the Euler product over all residue classes modulo $p^k$.
 
-The shape of the polynomial can permit stronger estimates. Heath-Brown proved an asymptotic with a power-saving error for irreducible binomials $x^d+c$ when $k\ge(5d+3)/9$ (Heath-Brown 2013, Theorem 1). At $k=d-2$ this covers such binomials in degrees $d\ge6$, while imposing the special binomial form. Reuss obtained a power-saving error for the general degree-$d$ polynomial at exponent $d-1$ (Reuss 2015, Theorem 2). The quartic theorem above concerns squarefree values at positive integer arguments for each fixed admissible polynomial.
+The shape of the polynomial can permit stronger estimates. Heath-Brown proved an asymptotic with a power-saving error for irreducible binomials $x^d+c$ when $k\ge(5d+3)/9$ [14, Theorem 1]. At $k=d-2$ this covers such binomials in degrees $d\ge6$, while imposing the special binomial form. Reuss obtained a power-saving error for the general degree-$d$ polynomial at exponent $d-1$ [21, Theorem 2]. The quartic theorem above concerns squarefree values at positive integer arguments for each fixed admissible polynomial.
 
-Other important directions involve different hypotheses or quantifiers. Granville showed that the $abc$ conjecture yields the predicted squarefree-value density for separable integer polynomials with no fixed prime-square divisor (Granville 1998, Theorem 1). Greaves and Helfgott studied squarefree values of binary forms; Helfgott’s Theorems 5.1–5.2 distinguish univariate cubics from homogeneous forms in two variables of degree at most six (Greaves 1992; Helfgott 2004). A density in two integer variables does not by itself give the density on the fixed line with second coordinate one. Recent results of Browning–Shparlinski and Sofos study the discrepancy from the predicted squarefree count on average over polynomial coefficient families (Browning and Shparlinski 2024, Theorems 1.1–1.2), (Sofos 2026, Theorem 1.1); those averaged statements do not imply a theorem for every fixed polynomial.
+Other important directions involve different hypotheses or quantifiers. Granville showed that the $abc$ conjecture yields the predicted squarefree-value density for separable integer polynomials with no fixed prime-square divisor [8, Theorem 1]. Greaves and Helfgott studied squarefree values of binary forms; Helfgott’s Theorems 5.1–5.2 distinguish univariate cubics from homogeneous forms in two variables of degree at most six [9, 15]. A density in two integer variables does not by itself give the density on the fixed line with second coordinate one. Recent results of Browning–Shparlinski and Sofos study the discrepancy from the predicted squarefree count on average over polynomial coefficient families [3, Theorems 1.1–1.2], [25, Theorem 1.1]; those averaged statements do not imply a theorem for every fixed polynomial.
 
-Carella’s preprint claims squarefree-value asymptotics for both $n^4+1$ and $n^4+2$ (Carella 2023, Theorems 1.1–1.2). Zapata Ceballos–Jalalvand claim positive density for monic irreducible degree-$2q$ polynomials with squarefree fixed divisor whose root field contains a degree-$q$ Galois subfield, where $q$ is prime; this includes $n^4+1$ (Zapata Ceballos and Jalalvand 2026, Theorem 1.1). We do not use either claim as a theorem input. Our large-prime estimate and sieve transfer are proved independently below.
+Carella’s preprint claims squarefree-value asymptotics for both $n^4+1$ and $n^4+2$ [4, Theorems 1.1–1.2]. Zapata Ceballos–Jalalvand claim positive density for monic irreducible degree-$2q$ polynomials with squarefree fixed divisor whose root field contains a degree-$q$ Galois subfield, where $q$ is prime; this includes $n^4+1$ [28, Theorem 1.1]. We do not use either claim as a theorem input. Our large-prime estimate and sieve transfer are proved independently below.
 
 The new argument in this paper concerns degrees four through eight. For higher degrees, Browning’s theorem supplies a direct consequence.
 
@@ -48,7 +48,7 @@ The factorwise large-prime estimates also give a fixed-product consequence. Here
 
 The first assertion requires the value of the entire product $F$ to be $k$-power-free. The second imposes power-freeness separately on the $F_i(n)$, not on their product, and uses the joint local condition $\Omega_p$ rather than a product of individual local factors. All polynomials, their number, and $k$ are fixed; no uniform or power-saving error is asserted here. The proof is at the end of Section 2.
 
-Our method combines number-field factorization with approximating determinants, following the framework developed by Reuss for power-free polynomial values (Reuss 2015, secs. 3–6). Heath-Brown’s determinant arguments for squarefree values of $n^2+1$ and for power-free binomial values provide related precedents (Heath-Brown 2012, 2013). The real determinant method originates in work of Bombieri–Pila; Heath-Brown developed the prime-adic and approximating forms used in this line of arguments, and Salberger developed their local Hilbert and global congruence aspects (Bombieri and Pila 1989; Heath-Brown 2002, 2009; Salberger 2007, 2023). The uniform affine counting theorem, the explicit weighted Hilbert calculations and the quartic surface and curve arguments needed here are proved below.
+Our method combines number-field factorization with approximating determinants, following the framework developed by Reuss for power-free polynomial values [21, Sections 3–6]. Heath-Brown’s determinant arguments for squarefree values of $n^2+1$ and for power-free binomial values provide related precedents [13, 14]. The real determinant method originates in work of Bombieri–Pila; Heath-Brown developed the prime-adic and approximating forms used in this line of arguments, and Salberger developed their local Hilbert and global congruence aspects [1, 10, 12, 23, 24]. The uniform affine counting theorem, the explicit weighted Hilbert calculations and the quartic surface and curve arguments needed here are proved below.
 
 ### The large-prime problem
 
@@ -161,7 +161,7 @@ An input counted by $B_{f,Y}(N)-S_{f,k}(N)$ avoids all the small-prime condition
  \tag{2.8}
 \end{equation}$$
 
-For $d\le k$, omit the finitely many integer roots of $g$ and use $|g(n)|\ll_g X^d$. If $d<k$, the tail is empty for large $X$. If $d=k$, only primes $X<p\le C_gX$ can occur, for a fixed $C_g$. Outside finitely many primes, each has at most $d$ roots modulo $p^k$, and an interval of length $X<p^k$ contains at most one representative of each root. Thus $T_{g,k}(X)\ll_g\pi(C_gX)=o_g(X)$. If $d=k+1$, the unweighted triple estimates of Reuss (Reuss 2015, Lemma 3 and its proof, and Section 6) give $o_g(X)$ triples with $X<n\le2X$, $a>X^{1-\delta}$, $\mu^2(a)=1$, and $a^{d-1}b=g(n)$, for a suitable fixed $\delta>0$. For large $X$ the values $g(n)$ here are positive, so $a=p$ and $b=g(n)/p^k$ include every input counted by $T_{g,k}(X)$. If $d=k+2\le8$, use Proposition 1.4. Finally, if $d=k+2\ge9$, then $k=d-2\ge(3d+1)/4$ and $k/d>3/4$. Xiao’s estimate in (Xiao 2017, sec. 9) is $E_B(B^{1-\delta})=o_g(B)$ for some fixed $\delta>0$, where $$E_B(\xi)=\#\{1\le n\le B:\ b^k\mid g(n)
+For $d\le k$, omit the finitely many integer roots of $g$ and use $|g(n)|\ll_g X^d$. If $d<k$, the tail is empty for large $X$. If $d=k$, only primes $X<p\le C_gX$ can occur, for a fixed $C_g$. Outside finitely many primes, each has at most $d$ roots modulo $p^k$, and an interval of length $X<p^k$ contains at most one representative of each root. Thus $T_{g,k}(X)\ll_g\pi(C_gX)=o_g(X)$. If $d=k+1$, the unweighted triple estimates of Reuss [21, Lemma 3 and its proof, and Section 6] give $o_g(X)$ triples with $X<n\le2X$, $a>X^{1-\delta}$, $\mu^2(a)=1$, and $a^{d-1}b=g(n)$, for a suitable fixed $\delta>0$. For large $X$ the values $g(n)$ here are positive, so $a=p$ and $b=g(n)/p^k$ include every input counted by $T_{g,k}(X)$. If $d=k+2\le8$, use Proposition 1.4. Finally, if $d=k+2\ge9$, then $k=d-2\ge(3d+1)/4$ and $k/d>3/4$. Xiao’s estimate in [27, Section 9] is $E_B(B^{1-\delta})=o_g(B)$ for some fixed $\delta>0$, where $$E_B(\xi)=\#\{1\le n\le B:\ b^k\mid g(n)
                  \text{ for some squarefree integer }b>\xi\}.$$ Take $B=2X$: eventually $p>X>(2X)^{1-\delta}$, so this exceptional set contains the tail. This proves (2.8) in every case.
 
 Let $\mathcal B$ contain the prime divisors of all $c_i$, leading coefficients and discriminants of the $g\in\mathcal G$, and resultants of distinct pairs in $\mathcal G$. This set is finite: all the discriminants and pairwise resultants are nonzero. For $p\notin\mathcal B$, no two distinct factors vanish at the same residue modulo $p$, and their roots are simple. Consequently $$\begin{aligned}
@@ -176,7 +176,7 @@ For fixed $Y$ beyond $\mathcal B$, the Chinese remainder theorem leaves exactly 
 
 ## Affine counting with adaptive auxiliary primes
 
-The geometric arguments below place the points to be counted on varieties whose equations vary with the box. We first prove a counting theorem that is uniform for these moving varieties. Its input is a lower bound for the number of independent monomials on each subvariety. Its proof successively cuts residue classes by polynomial equations. A deletion argument controls the primes at which these newly constructed equations have singular reduction. The local prime-adic determinant principle is due to Heath-Brown (Heath-Brown 2002, sec. 3, Lemmas 5–6); the ordered local Hilbert and divisibility estimates are developed in (Salberger 2007, Lemmas 2.3–2.5). Simultaneous prime conditions appear in (Salberger 2007, Theorem 3.2) and (Salberger 2023, sec. 2, Theorem 2.2). The argument here includes the additional patch construction and deletion estimate needed when later varieties depend on earlier prime choices.
+The geometric arguments below place the points to be counted on varieties whose equations vary with the box. We first prove a counting theorem that is uniform for these moving varieties. Its input is a lower bound for the number of independent monomials on each subvariety. Its proof successively cuts residue classes by polynomial equations. A deletion argument controls the primes at which these newly constructed equations have singular reduction. The local prime-adic determinant principle is due to Heath-Brown [10, Section 3, Lemmas 5–6]; the ordered local Hilbert and divisibility estimates are developed in [23, Lemmas 2.3–2.5]. Simultaneous prime conditions appear in [23, Theorem 3.2] and [24, Section 2, Theorem 2.2]. The argument here includes the additional patch construction and deletion estimate needed when later varieties depend on earlier prime choices.
 
 Throughout this section, degree means the ordinary degree of projective closure; for a reducible algebraic set we use the sum of the degrees of its irreducible components. Irreducibility is over $\mathbb C$. We use the degree bounds for intersections and linear projections supplied by Bézout’s theorem. The ambient dimension is fixed.
 
@@ -319,7 +319,7 @@ To complete the choices for a prescribed $\varepsilon$, first take $\gamma$ so s
 
 ## Arithmetic factorization and paired boxes
 
-We convert a large prime-power divisor into an integral equation in a fixed number field. Balancing its factors at every embedding will put their projective coordinates in compact sets. The resulting equations then pair small boxes in the two sets of coordinates, with only boundedly many partners for each box. This factorization-and-balancing strategy follows Reuss (Reuss 2015, sec. 3), with the Gaussian factorization in Heath-Brown (Heath-Brown 2012, secs. 2–4) as an earlier model. We use the standard ideal factorization, class-group finiteness and full logarithmic unit lattice from (Milne 2020, Theorems 3.7, 4.4 and 5.9).
+We convert a large prime-power divisor into an integral equation in a fixed number field. Balancing its factors at every embedding will put their projective coordinates in compact sets. The resulting equations then pair small boxes in the two sets of coordinates, with only boundedly many partners for each box. This factorization-and-balancing strategy follows Reuss [21, Section 3], with the Gaussian factorization in Heath-Brown [13, Sections 2–4] as an earlier model. We use the standard ideal factorization, class-group finiteness and full logarithmic unit lattice from [18, Theorems 3.7, 4.4 and 5.9].
 
 Throughout this section, $f\in\mathbb Z[T]$ is primitive and irreducible, has degree $d$ and positive leading coefficient $c$, and $k=d-2\ge2$. Fix a root $\theta$, put $K=\mathbb Q(\theta)$, and let $L$ be a splitting field of $f$. Write $\sigma_i:K\hookrightarrow L$ for the $d$ embeddings, with $\theta_i=\sigma_i(\theta)$. We consider $$X<n\le2X,\qquad P\le p\le2P,\qquad p>X,\qquad p^k\mid f(n),
  \qquad P=X^\eta,$$ and put $b=d-k\eta$. All constants below may depend on $f$; none depends on the individual $n,p$ or on $X$.
@@ -337,7 +337,7 @@ Throughout this section, $f\in\mathbb Z[T]$ is primitive and irreducible, has de
 *Proof.* The element $c\theta$ is integral, with monic minimal polynomial $F(T)=c^{d-1}f(T/c)\in\mathbb Z[T]$, and $$\begin{equation}
 \tag{4.3}
  N_{K/\mathbb Q}(cn-c\theta)=F(cn)=c^{d-1}f(n).
-\end{equation}$$ Exclude the finitely many primes dividing $c$, the discriminant of $F$, or $[\mathcal O_K:\mathbb Z[c\theta]]$; the factorization theorem for this order is recalled in (Milne 2020, Theorem 3.41 and Remark 3.43). For every remaining prime $p$ dividing $f(n)$, exactly one prime ideal $\mathfrak p$ above $p$ contains $cn-c\theta$. Indeed its residue factor must be the simple linear factor $T-cn$ of $F$ modulo $p$. Thus $N(\mathfrak p)=p$, and (4.3) shows that its valuation in $(cn-c\theta)$ is exactly $v_p(f(n))$. In particular, $\mathfrak p^k\mid(cn-c\theta)$. Every excluded prime is smaller than $X$ once $X$ is sufficiently large.
+\end{equation}$$ Exclude the finitely many primes dividing $c$, the discriminant of $F$, or $[\mathcal O_K:\mathbb Z[c\theta]]$; the factorization theorem for this order is recalled in [18, Theorem 3.41 and Remark 3.43]. For every remaining prime $p$ dividing $f(n)$, exactly one prime ideal $\mathfrak p$ above $p$ contains $cn-c\theta$. Indeed its residue factor must be the simple linear factor $T-cn$ of $F$ modulo $p$. Thus $N(\mathfrak p)=p$, and (4.3) shows that its valuation in $(cn-c\theta)$ is exactly $v_p(f(n))$. In particular, $\mathfrak p^k\mid(cn-c\theta)$. Every excluded prime is smaller than $X$ once $X$ is sufficiently large.
 
 Choose fixed integral representatives for the ideal classes of $K$. One of them, denoted $\mathfrak c$, makes $\mathfrak p\mathfrak c$ principal. Write $$(\alpha)=\mathfrak p\mathfrak c.$$ Then $\alpha$ is integral and its absolute norm is $pN(\mathfrak c)$. We may multiply $\alpha$ by a unit to obtain the first estimate in (4.2). To see that this balances all embeddings, use one logarithmic coordinate for each real embedding and each complex pair, with respective weights $1$ and $2$. Subtract $d^{-1}\log(pN(\mathfrak c))$ from every coordinate. The resulting vector lies in the weighted sum-zero hyperplane. Dirichlet’s Unit Theorem allows it to be moved into a bounded fundamental parallelepiped of the unit lattice. Exponentiating gives the asserted bounds at every real and complex embedding.
 
@@ -386,7 +386,7 @@ We have reduced the selected inputs to finitely many arithmetic cases and paired
 
 ## Bihomogeneous determinant cuts
 
-We now reduce the dimension of the algebraic sets containing the points in each paired box of Lemma 4.2. The first determinant gives a hypersurface section. When one component of that section is defined using only one coordinate block, a second determinant reduces its dimension again. The estimates for this second step must be uniform in the equation of the moving component. The Taylor-determinant construction belongs to the real determinant method of Bombieri–Pila and its approximating form developed by Heath-Brown (Bombieri and Pila 1989; Heath-Brown 2009); the number-field application follows the arrangement in (Reuss 2015, sec. 4). We supply the complete estimates, including the second cut on pure components.
+We now reduce the dimension of the algebraic sets containing the points in each paired box of Lemma 4.2. The first determinant gives a hypersurface section. When one component of that section is defined using only one coordinate block, a second determinant reduces its dimension again. The estimates for this second step must be uniform in the equation of the moving component. The Taylor-determinant construction belongs to the real determinant method of Bombieri–Pila and its approximating form developed by Heath-Brown [1, 12]; the number-field application follows the arrangement in [21, Section 4]. We supply the complete estimates, including the second cut on pure components.
 
 ### The bicone and its Hilbert polynomial
 
@@ -401,7 +401,7 @@ Fix the distinct roots $\theta_1,\ldots,\theta_d$, and put $k=d-2$. In $\mathbb 
 
 *Proof.* Where all $a_i\ne0$, the coordinates $a_i,N_0,L_0$ are free and determine the $b_i$. This is an integral smooth open of dimension $d+2$. If some $a_i=0$ and the product vector is nonzero, then $N_0=\theta_iL_0$, $L_0\ne0$, and every other $a_j\ne0$, since the roots are distinct. This stratum has the $d-1$ coordinates $a_j$, together with $L_0,b_i$, and dimension $d+1$. If the product vector is zero, the equations are $a_i^kb_i=0$ for all $i$. Their zero set is a union of coordinate $d$-planes.
 
-These counts give codimension $d-2$ and a unique top-dimensional component meeting the first open. Here and below we use the following complete-intersection criterion. In a polynomial ring, homogeneous equations of the expected codimension form a regular sequence; their quotient is equidimensional and Cohen–Macaulay, with no embedded components. If there is one top-dimensional component and the scheme is reduced at its generic point, the quotient is reduced and hence a domain. For completeness, localize at the homogeneous maximal ideal. The ambient regular local ring is Cohen–Macaulay, so the expected codimension gives a regular sequence; the positive grading detects regularity globally. The quotient is Cohen–Macaulay and equidimensional by the local dimension formula (Stacks project authors 2026, Tags 00NQ, 02JN, 00NB, and 00NA). It therefore has no embedded associated primes. Generic reducedness on its unique minimal component then implies reducedness (Stacks project authors 2026, Tags 031Q and 031R). This reasoning also applies to positive weighted homogeneous equations. In the present case the indicated smooth open supplies generic reducedness, proving primeness. Passing to the two projective factors subtracts two dimensions.
+These counts give codimension $d-2$ and a unique top-dimensional component meeting the first open. Here and below we use the following complete-intersection criterion. In a polynomial ring, homogeneous equations of the expected codimension form a regular sequence; their quotient is equidimensional and Cohen–Macaulay, with no embedded components. If there is one top-dimensional component and the scheme is reduced at its generic point, the quotient is reduced and hence a domain. For completeness, localize at the homogeneous maximal ideal. The ambient regular local ring is Cohen–Macaulay, so the expected codimension gives a regular sequence; the positive grading detects regularity globally. The quotient is Cohen–Macaulay and equidimensional by the local dimension formula [26, Tags 00NQ, 02JN, 00NB, and 00NA]. It therefore has no embedded associated primes. Generic reducedness on its unique minimal component then implies reducedness [26, Tags 031Q and 031R]. This reasoning also applies to positive weighted homogeneous equations. In the present case the indicated smooth open supplies generic reducedness, proving primeness. Passing to the two projective factors subtracts two dimensions.
 
 The Hilbert series of the regular sequence is $$\frac{(1-z_1^kz_2)^{d-2}}{(1-z_1)^d(1-z_2)^d}.$$ Thus the dimension in bidegree $(A,B)$ is the $(d-2)$-fold finite difference, with step $(k,1)$, of $\binom{A+d-1}{d-1}\binom{B+d-1}{d-1}$. Its leading term is $$(k\partial_A+\partial_B)^{d-2}
  \frac{A^{d-1}B^{d-1}}{((d-1)!)^2},$$ which expands to (5.1). The remaining terms have total degree at most $d-1$. ◻
@@ -483,7 +483,7 @@ Finally, on the counted affine locus $L_0=1$, the map to $\mathcal V$ has one-di
 
 ## Lattice coordinates and exceptional fibers
 
-Membership in an approximation box of Lemma 4.2 bounds linear forms such as $Mx_i-c_ix_0$, where $c_i/M$ is the corresponding grid coordinate. We encode these bounds by lattices and choose an adapted integral basis in each coordinate block. A box requiring a larger coordinate bound has a shorter lattice vector; such boxes are correspondingly fewer. This tradeoff will allow the affine counting theorem to be summed over all boxes. The use of a short vector to count the direction boxes in which it can occur follows the method of Reuss (Reuss 2015, secs. 5–6). The common excess for the two paired lattices below is tailored to our affine Hilbert bounds.
+Membership in an approximation box of Lemma 4.2 bounds linear forms such as $Mx_i-c_ix_0$, where $c_i/M$ is the corresponding grid coordinate. We encode these bounds by lattices and choose an adapted integral basis in each coordinate block. A box requiring a larger coordinate bound has a shorter lattice vector; such boxes are correspondingly fewer. This tradeoff will allow the affine counting theorem to be summed over all boxes. The use of a short vector to count the direction boxes in which it can occur follows the method of Reuss [21, Sections 5–6]. The common excess for the two paired lattices below is tailored to our affine Hilbert bounds.
 
 ### A basis bound with uniform constants
 
@@ -661,7 +661,7 @@ Suppose $\deg S=e\ge3$. A general linear projection to an affine plane, with coo
 
 ##### A quadric $a$-image.
 
-Suppose $\deg S=2$. The degree of an irreducible projective variety is at least its codimension in its linear span plus one (Eisenbud et al. 2006, Introduction, equation $(*)$). Applying this to the projective closure shows that $S$ spans an affine three-space $A$ and is a quadratic hypersurface there: a surface spanning only an affine plane would equal that plane and have degree one.
+Suppose $\deg S=2$. The degree of an irreducible projective variety is at least its codimension in its linear span plus one [5, Introduction, equation $(*)$]. Applying this to the projective closure shows that $S$ spans an affine three-space $A$ and is a quadratic hypersurface there: a surface spanning only an affine plane would equal that plane and have degree one.
 
 The span $A$ is rational in the first-block rational coordinates. Its direction is a rational hyperplane in $K$. The nondegeneracy of the trace pairing writes its equation as $\operatorname{Tr}_{K/\mathbb Q}(\gamma\alpha)=0$ for some $\gamma\in K\setminus\{0\}$. Write $\ell_i$ for the linear part of $a_i$ on $A$. The equation of this direction space is therefore $$\sum_{i=1}^4\sigma_i(\gamma)\ell_i=0,$$ with all four coefficients nonzero. In the projective plane of this direction space, the four lines $\ell_i=0$ have no triple intersection. Their six pair intersections are therefore distinct.
 
@@ -981,7 +981,7 @@ Finally, Proposition 2.1 applies to a sign-normalized primitive part of each po
 
 ## The cyclotomic quartic as a worked example
 
-For $f(T)=T^4+1$, the preceding argument gives an explicit density. The arithmetic of $\mathbb Q(\zeta_8)$ also makes several parts of the determinant construction particularly concrete. We describe that specialization and two additional ways of organizing its estimates: the level equation on integral representatives and the negative Pell equation at the upper end of the prime range. We conclude with a conditional estimate for analytic relations. The factorization viewpoint is closely related to Heath-Brown’s Gaussian treatment of $n^2+1$ and Reuss’s number-field construction (Heath-Brown 2012; Reuss 2015).
+For $f(T)=T^4+1$, the preceding argument gives an explicit density. The arithmetic of $\mathbb Q(\zeta_8)$ also makes several parts of the determinant construction particularly concrete. We describe that specialization and two additional ways of organizing its estimates: the level equation on integral representatives and the negative Pell equation at the upper end of the prime range. We conclude with a conditional estimate for analytic relations. The factorization viewpoint is closely related to Heath-Brown’s Gaussian treatment of $n^2+1$ and Reuss’s number-field construction [13, 21].
 
 ### Local factors and the dyadic conclusion
 
@@ -1211,58 +1211,58 @@ assert 1-m-2*u-2*tau == F(15319, 120000)
 
 ## References
 
-Bombieri, Enrico, and Jonathan Pila. 1989. “The Number of Integral Points on Arcs and Ovals.” *Duke Mathematical Journal* 59 (2): 337–57. <https://doi.org/10.1215/S0012-7094-89-05915-2>.
+**[1]** Enrico Bombieri and Jonathan Pila. The number of integral points on arcs and ovals. *Duke Mathematical Journal*, 59(2):337–357, 1989.
 
-Browning, T. D. 2011. “Power-Free Values of Polynomials.” *Archiv Der Mathematik* 96 (2): 139–50. <https://doi.org/10.1007/s00013-011-0224-7>.
+**[2]** T. D. Browning. Power-free values of polynomials. *Archiv der Mathematik*, 96(2):139–150, 2011.
 
-Browning, Tim D., and Igor E. Shparlinski. 2024. “Square-Free Values of Random Polynomials.” *Journal of Number Theory* 261: 220–40. <https://doi.org/10.1016/j.jnt.2024.02.013>.
+**[3]** Tim D. Browning and Igor E. Shparlinski. Square-free values of random polynomials. *Journal of Number Theory*, 261:220–240, 2024.
 
-Carella, N. A. 2023. *Squarefree Values of Polynomials*. <https://doi.org/10.48550/arXiv.2310.16952>.
+**[4]** N. A. Carella. Squarefree values of polynomials, 2023. Preprint, [arXiv:2310.16952v1](https://arxiv.org/abs/2310.16952v1).
 
-Eisenbud, David, Mark Green, Klaus Hulek, and Sorin Popescu. 2006. “Small Schemes and Varieties of Minimal Degree.” *American Journal of Mathematics* 128 (6): 1363–89. <https://doi.org/10.1353/ajm.2006.0043>.
+**[5]** David Eisenbud, Mark Green, Klaus Hulek, and Sorin Popescu. Small schemes and varieties of minimal degree. *American Journal of Mathematics*, 128(6):1363–1389, 2006.
 
-Erdős, Paul. 1953. “Arithmetical Properties of Polynomials.” *Journal of the London Mathematical Society* s1-28 (4): 416–25. <https://doi.org/10.1112/jlms/s1-28.4.416>.
+**[6]** Paul Erdős. Arithmetical properties of polynomials. *Journal of the London Mathematical Society*, s1-28(4):416–425, 1953.
 
-Erdős, Paul. 1965. “Some Recent Advances and Current Problems in Number Theory.” In *Lectures on Modern Mathematics*, edited by Thomas L. Saaty, III. John Wiley & Sons. <https://www.renyi.hu/~p_erdos/1965-17.pdf>.
+**[7]** Paul Erdős. Some recent advances and current problems in number theory. In Thomas L. Saaty, editor, *Lectures on Modern Mathematics*, volume III, pages 196–244. John Wiley & Sons, New York, 1965.
 
-Granville, Andrew. 1998. “ABC Allows Us to Count Squarefrees.” *International Mathematics Research Notices* 1998 (19): 991–1009. <https://doi.org/10.1155/S1073792898000592>.
+**[8]** Andrew Granville. ABC allows us to count squarefrees. *International Mathematics Research Notices*, 1998(19):991–1009, 1998. [doi:10.1155/S1073792898000592](https://doi.org/10.1155/S1073792898000592).
 
-Greaves, George. 1992. “Power-Free Values of Binary Forms.” *Quarterly Journal of Mathematics*, 2nd series, vol. 43: 45–65. <https://doi.org/10.1093/qmath/43.1.45>.
+**[9]** George Greaves. Power-free values of binary forms. *Quarterly Journal of Mathematics*, 43:45–65, 1992.
 
-Heath-Brown, D. R. 2002. “The Density of Rational Points on Curves and Surfaces.” *Annals of Mathematics*, 2nd series, vol. 155 (2): 553–98. <https://doi.org/10.2307/3062125>.
+**[10]** D. R. Heath-Brown. The density of rational points on curves and surfaces. *Annals of Mathematics*, 155(2):553–598, 2002. With an appendix by J.-L. Colliot-Thélène.
 
-Heath-Brown, D. R. 2006. “Counting Rational Points on Algebraic Varieties.” In *Analytic Number Theory*, edited by Alberto Perelli and Carlo Viola, vol. 1891. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/978-3-540-36364-4_2>.
+**[11]** D. R. Heath-Brown. Counting rational points on algebraic varieties. In Alberto Perelli and Carlo Viola, editors, *Analytic Number Theory*, volume 1891 of *Lecture Notes in Mathematics*, pages 51–95. Springer, Berlin, 2006.
 
-Heath-Brown, D. R. 2009. “Sums and Differences of Three $k$Th Powers.” *Journal of Number Theory* 129 (6): 1579–94. <https://doi.org/10.1016/j.jnt.2009.01.012>.
+**[12]** D. R. Heath-Brown. Sums and differences of three $k$th powers. *Journal of Number Theory*, 129(6):1579–1594, 2009.
 
-Heath-Brown, D. R. 2012. “Square-Free Values of $n^2+1$.” *Acta Arithmetica* 155 (1): 1–13. <https://doi.org/10.4064/aa155-1-1>.
+**[13]** D. R. Heath-Brown. Square-free values of $n^2+1$. *Acta Arithmetica*, 155(1):1–13, 2012.
 
-Heath-Brown, D. R. 2013. “Power-Free Values of Polynomials.” *The Quarterly Journal of Mathematics* 64 (1): 177–88. <https://doi.org/10.1093/qmath/har030>.
+**[14]** D. R. Heath-Brown. Power-free values of polynomials. *The Quarterly Journal of Mathematics*, 64(1):177–188, 2013.
 
-Helfgott, H. A. 2004. “On the Square-Free Sieve.” *Acta Arithmetica* 115: 349–402. <https://doi.org/10.4064/aa115-4-3>.
+**[15]** H. A. Helfgott. On the square-free sieve. *Acta Arithmetica*, 115:349–402, 2004.
 
-Hooley, Christopher. 1967. “On the Power Free Values of Polynomials.” *Mathematika* 14: 21–26. <https://doi.org/10.1112/S002557930000797X>.
+**[16]** Christopher Hooley. On the power free values of polynomials. *Mathematika*, 14:21–26, 1967.
 
-Huxley, M. N., and M. Nair. 1980. “Power Free Values of Polynomials III.” *Proceedings of the London Mathematical Society*, 3rd series, vol. 41: 66–82. <https://doi.org/10.1112/plms/s3-41.1.66>.
+**[17]** M. N. Huxley and M. Nair. Power free values of polynomials III. *Proceedings of the London Mathematical Society*, 41:66–82, 1980.
 
-Milne, James S. 2020. *Algebraic Number Theory*. <https://www.jmilne.org/math/CourseNotes/ANT.pdf>.
+**[18]** James S. Milne. Algebraic number theory, 2020. Course notes, version 3.08, 19 July 2020. [Author PDF](https://www.jmilne.org/math/CourseNotes/ANT.pdf).
 
-Nair, M. 1976. “Power Free Values of Polynomials.” *Mathematika* 23: 159–83. <https://doi.org/10.1112/S0025579300008779>.
+**[19]** M. Nair. Power free values of polynomials. *Mathematika*, 23:159–183, 1976.
 
-Nair, M. 1979. “Power Free Values of Polynomials II.” *Proceedings of the London Mathematical Society*, 3rd series, vol. 38: 353–68. <https://doi.org/10.1112/plms/s3-38.2.353>.
+**[20]** M. Nair. Power free values of polynomials II. *Proceedings of the London Mathematical Society*, 38:353–368, 1979.
 
-Reuss, Thomas. 2015. “Power-Free Values of Polynomials.” *Bulletin of the London Mathematical Society* 47 (2): 270–84. <https://doi.org/10.1112/blms/bdu116>.
+**[21]** Thomas Reuss. Power-free values of polynomials. *Bulletin of the London Mathematical Society*, 47(2):270–284, 2015.
 
-Ricci, Giovanni. 1933. “Ricerche Aritmetiche Sui Polinomi.” *Rendiconti Del Circolo Matematico Di Palermo* 57: 433–75. <https://doi.org/10.1007/BF03017586>.
+**[22]** Giovanni Ricci. Ricerche aritmetiche sui polinomi. *Rendiconti del Circolo Matematico di Palermo*, 57:433–475, 1933.
 
-Salberger, Per. 2007. “On the Density of Rational and Integral Points on Algebraic Varieties.” *Journal für Die Reine Und Angewandte Mathematik* 606: 123–47. <https://doi.org/10.1515/CRELLE.2007.037>.
+**[23]** Per Salberger. On the density of rational and integral points on algebraic varieties. *Journal für die reine und angewandte Mathematik*, 606:123–147, 2007.
 
-Salberger, Per. 2023. “Counting Rational Points on Projective Varieties.” *Proceedings of the London Mathematical Society*, 3rd series, vol. 126 (4): 1092–133. <https://doi.org/10.1112/plms.12508>.
+**[24]** Per Salberger. Counting rational points on projective varieties. *Proceedings of the London Mathematical Society*, 126(4):1092–1133, 2023.
 
-Sofos, Efthymios. 2026. *Counting Square-Free Values of Random Polynomials*. <https://arxiv.org/abs/2601.19319v1>.
+**[25]** Efthymios Sofos. Counting square-free values of random polynomials, 2026. Preprint, arXiv:2601.19319v1.
 
-Stacks project authors, The. 2026. *The Stacks Project*. [Https://stacks.math.columbia.edu](https://stacks.math.columbia.edu).
+**[26]** The Stacks project authors. The stacks project. <https://stacks.math.columbia.edu>, 2026. Accessed 24 September 2026.
 
-Xiao, Stanley Yao. 2017. “Power-Free Values of Binary Forms and the Global Determinant Method.” *International Mathematics Research Notices* 2017 (16): 5078–135. <https://doi.org/10.1093/imrn/rnw165>.
+**[27]** Stanley Yao Xiao. Power-free values of binary forms and the global determinant method. *International Mathematics Research Notices*, 2017(16):5078–5135, 2017.
 
-Zapata Ceballos, Sergio Ricardo, and Fatemeh Jalalvand. 2026. *On the Squarefree Values of Degree-$2q$ Polynomials*. <https://doi.org/10.48550/arXiv.2608.10335>.
+**[28]** Sergio Ricardo Zapata Ceballos and Fatemeh Jalalvand. On the squarefree values of degree-$2q$ polynomials, 2026. Preprint, [arXiv:2608.10335v1](https://arxiv.org/abs/2608.10335v1).

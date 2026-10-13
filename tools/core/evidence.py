@@ -97,8 +97,6 @@ class EntryPoint:
     mode: str = ''
     # the documented full-check arguments from an args declaration
     args: tuple[str, ...] = ()
-    # the date of the text a historical program read
-    date: str = ''
     # why the declaration is invalid; such a program fails without running
     error: str = ''
     # the program needs the built Lean project
@@ -320,7 +318,6 @@ class _Declaration:
     text: str = ''
     mode: str = ''
     args: tuple[str, ...] = ()
-    date: str = ''
     error: str = ''
     lean: bool = False
     entry: bool = False
@@ -466,8 +463,7 @@ class _Runner:
         if entry.mode == 'manual':
             return ProgramResult(entry, 'SKIPPED', detail='declared manual')
         if entry.mode == 'historical':
-            detail = f'declared historical (text dated {entry.date})'
-            return ProgramResult(entry, 'SKIPPED', detail=detail)
+            return ProgramResult(entry, 'SKIPPED', detail='declared historical')
         if entry.mode == 'full' and self._quick:
             return ProgramResult(entry, 'SKIPPED', detail='declared full (quick run)')
         if entry.lean and not self._lean:
@@ -735,7 +731,6 @@ def _entry_point(root: pathlib.Path, relative: pathlib.Path) -> Optional[EntryPo
         declaration=declaration.text,
         mode=declaration.mode,
         args=declaration.args,
-        date=declaration.date,
         error=declaration.error,
         lean=declaration.lean,
         quick_flag=_accepts(source, '--quick', python=python),
@@ -778,7 +773,6 @@ def _parse_declaration(text: str) -> _Declaration:
         return _Declaration(text=text, error='empty declaration')
     # read the words in order: args takes the rest of the line
     mode = ''
-    date = ''
     args: tuple[str, ...] = ()
     lean = False
     entry = False
@@ -800,21 +794,11 @@ def _parse_declaration(text: str) -> _Declaration:
             break
         else:
             return _Declaration(text=text, error=f'unknown word {word!r}')
-        # a historical program names the date of the text it read
-        if word == 'historical':
-            index += 1
-            date = words[index] if index < len(words) else ''
-            try:
-                dt.datetime.strptime(date, '%Y-%m-%d')
-            except ValueError:
-                error = 'historical needs a date (YYYY-MM-DD)'
-                return _Declaration(text=text, error=error)
         index += 1
     return _Declaration(
         text=text,
         mode=mode,
         args=args,
-        date=date,
         lean=lean,
         entry=entry,
     )

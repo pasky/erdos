@@ -82,11 +82,11 @@ checked, on the page images of pp. 176 and 178, by the independent [[irrationali
 of the Duverney 1995 reconstruction, passed by its distinct [[irrationality/duverney_1995_irrationalite_q_analogue_zeta_2/evidence/verify/reconstruction_grade|grade]]; that
 review covers only this theorem and its proof, not Théorème 1 or sections
 3--5, and does not make this page a complete rewritten proof. The review
-retained a copy of the reviewed text under that card's
-`evidence/assets/reviewed_pages/`, which the library no longer holds. The
-current page differs from the reviewed text in this Coverage section, the
-`updated` field and the desc, whose "polynomially bounded" coefficients were
-corrected to hypotheses (b) and (c$_2$).
+names a copy of the reviewed text under that card's
+`evidence/assets/reviewed_pages/`, which the library does not hold. Since the
+review, only this Coverage section, the `updated` field and the desc have
+changed, the desc to state the coefficient conditions as hypotheses (b) and
+(c$_2$).
 
 **Bears on.** [[../wiki/problems/irrationality/E0250/_index|#250]], only as the external
 criterion consumed by Duverney 1995; it is not a result about the problem's

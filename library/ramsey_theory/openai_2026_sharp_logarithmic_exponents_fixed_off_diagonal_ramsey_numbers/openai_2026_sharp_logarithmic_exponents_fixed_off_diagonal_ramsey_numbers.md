@@ -20,15 +20,15 @@ The theorem determines the logarithmic exponent. It does not assert that $r(s,t)
 
 ### Background and contribution
 
-Ramsey’s finite partition theorem, developed in his work on a problem of formal logic, guarantees that these numbers are finite (Ramsey 1930, Theorem B). The classical argument of Erdős and Szekeres gives $$r(s,t)\le\binom{s+t-2}{s-1}$$ and hence the polynomial upper bound $O_s(t^{s-1})$ (Erdős and Szekeres 1935). Ajtai, Komlós, and Szemerédi obtained the logarithmic improvement $O_s(t^{s-1}/(\log t)^{s-2})$ (Ajtai et al. 1980). Li, Rousseau, and Zang subsequently proved the upper estimate with leading coefficient $1+o(1)$ (Li et al. 2001). The logarithmic power $s-2$ thus comes from the classical upper-bound side of the problem. Determining whether a lower construction attains that power requires controlling independent sets far more precisely than the polynomial exponent alone.
+Ramsey’s finite partition theorem, developed in his work on a problem of formal logic, guarantees that these numbers are finite [23, Theorem B]. The classical argument of Erdős and Szekeres gives $$r(s,t)\le\binom{s+t-2}{s-1}$$ and hence the polynomial upper bound $O_s(t^{s-1})$ [13]. Ajtai, Komlós, and Szemerédi obtained the logarithmic improvement $O_s(t^{s-1}/(\log t)^{s-2})$ [1]. Li, Rousseau, and Zang subsequently proved the upper estimate with leading coefficient $1+o(1)$ [17]. The logarithmic power $s-2$ thus comes from the classical upper-bound side of the problem. Determining whether a lower construction attains that power requires controlling independent sets far more precisely than the polynomial exponent alone.
 
-For $s=3$, Kim’s lower bound established $r(3,t)=\Theta(t^2/\log t)$ (Kim 1995). For fixed $s\ge5$, Spencer’s local-lemma construction gives $r(s,t)=\Omega_s((t/\log t)^{(s+1)/2})$ (Spencer 1977). Bohman and Keevash improved the logarithmic factor through the random $K_s$-free process, proving $$r(s,t)=\Omega_s\!\left(
- t^{(s+1)/2}(\log t)^{1/(s-2)-(s+1)/2}\right)$$ (Bohman and Keevash 2010, Theorem 1.2). A different route uses finite geometry and pseudorandom graphs. Mubayi and Verstraëte showed that suitable density-optimal $K_s$-free pseudorandom graphs would yield the lower order $t^{s-1}/(\log t)^{2s-4}$ (Mubayi and Verstraëte 2024, Corollary 2); this is a conditional construction criterion. For $s=4$, Mattheus and Verstraëte obtained the unconditional bound $\Omega(t^3/(\log t)^4)$ using a finite-geometric construction (Mattheus and Verstraëte 2024). Bradač’s projective construction then established $$r(s,t)\ge c_s\frac{t^{s-1}}{(\log t)^{2s-4}}
- \qquad(s\ge3,\ t\ge2)$$ (Bradač 2026, Theorem 1.1), determining the polynomial exponent for every fixed $s$. The remaining difference between the powers $2s-4$ and $s-2$ is the logarithmic gap addressed here.
+For $s=3$, Kim’s lower bound established $r(3,t)=\Theta(t^2/\log t)$ [15]. For fixed $s\ge5$, Spencer’s local-lemma construction gives $r(s,t)=\Omega_s((t/\log t)^{(s+1)/2})$ [26]. Bohman and Keevash improved the logarithmic factor through the random $K_s$-free process, proving $$r(s,t)=\Omega_s\!\left(
+ t^{(s+1)/2}(\log t)^{1/(s-2)-(s+1)/2}\right)$$ [5, Theorem 1.2]. A different route uses finite geometry and pseudorandom graphs. Mubayi and Verstraëte showed that suitable density-optimal $K_s$-free pseudorandom graphs would yield the lower order $t^{s-1}/(\log t)^{2s-4}$ [19, Corollary 2]; this is a conditional construction criterion. For $s=4$, Mattheus and Verstraëte obtained the unconditional bound $\Omega(t^3/(\log t)^4)$ using a finite-geometric construction [18]. Bradač’s projective construction then established $$r(s,t)\ge c_s\frac{t^{s-1}}{(\log t)^{2s-4}}
+ \qquad(s\ge3,\ t\ge2)$$ [6, Theorem 1.1], determining the polynomial exponent for every fixed $s$. The remaining difference between the powers $2s-4$ and $s-2$ is the logarithmic gap addressed here.
 
-The geometric ingredients also have an earlier history. Projective orthogonality and its spectral estimates appear in Alon and Krivelevich (Alon and Krivelevich 1997). Ordered incidence constructions of Codenotti, Pudlák, and Resta (Codenotti et al. 2000), and Kostochka, Pudlák, and Rödl (Kostochka et al. 2010), are predecessors of the flag approach. We use the ordered incident-flag graph of Bradač’s higher-dimensional construction (Bradač 2026, sec. 2.5) and adapt its marking argument (Bradač 2026, Claim 2.13). The distinction between a step that substantially shrinks a candidate set and a step with few possible choices also appears in the independent-set counting argument of Alon and Rödl (Alon and Rödl 2005, proof of Theorem 2.1). Here it must be combined with an entropy estimate for a sequence selected from the random stream: selection need not preserve the independence or uniformity of its flags.
+The geometric ingredients also have an earlier history. Projective orthogonality and its spectral estimates appear in Alon and Krivelevich [3]. Ordered incidence constructions of Codenotti, Pudlák, and Resta [7], and Kostochka, Pudlák, and Rödl [16], are predecessors of the flag approach. We use the ordered incident-flag graph of Bradač’s higher-dimensional construction [6, Section 2.5] and adapt its marking argument [6, Claim 2.13]. The distinction between a step that substantially shrinks a candidate set and a step with few possible choices also appears in the independent-set counting argument of Alon and Rödl [4, proof of Theorem 2.1]. Here it must be combined with an entropy estimate for a sequence selected from the random stream: selection need not preserve the independence or uniformity of its flags.
 
-The companion paper *The sharp logarithmic exponent of $r(5,t)$* (OpenAI 2026, Lemma 3.4 and Theorem 4.1) develops the selected-law entropy and low-dimensional sparse-pair framework for $s=5$. The present paper supplies all the required arguments locally. To pass to arbitrary fixed dimension, we prove a repeated-projection reduction for sparse pairs and a two-row high-rank description using a rich-subspace bound that follows from Nie and Wang’s finite-degree closure inequality (Nie and Wang 2015). The repeated projections and the high-rank construction require their own estimates; neither is inferred from the five-clique theorem. The low-dimensional polynomial argument adapts methods of Dvir, Guth–Katz, and Elekes–Kaplan–Sharir (Dvir 2009; Guth and Katz 2010; Elekes et al. 2011), with the positive-characteristic obstructions analyzed by Ellenberg and Hablicsek explicitly controlled (Ellenberg and Hablicsek 2016).
+The companion paper *The sharp logarithmic exponent of $r(5,t)$* [21, Lemma 3.4 and Theorem 4.1] develops the selected-law entropy and low-dimensional sparse-pair framework for $s=5$. The present paper supplies all the required arguments locally. To pass to arbitrary fixed dimension, we prove a repeated-projection reduction for sparse pairs and a two-row high-rank description using a rich-subspace bound that follows from Nie and Wang’s finite-degree closure inequality [20]. The repeated projections and the high-rank construction require their own estimates; neither is inferred from the five-clique theorem. The low-dimensional polynomial argument adapts methods of Dvir, Guth–Katz, and Elekes–Kaplan–Sharir [9, 14, 10], with the positive-characteristic obstructions analyzed by Ellenberg and Hablicsek explicitly controlled [11].
 
 ### The construction and its entropy obstruction
 
@@ -44,7 +44,7 @@ Choose $N=\lfloor q^d\sigma\rfloor$ flags independently and uniformly, and use t
 
 Suppose that every stream of flags contained a consistent sequence of length $k=\lfloor q\sigma^{1+\eta}\rfloor$. Selecting such a sequence can heavily bias its distribution. Nevertheless, a counting argument gives every selected sequence $F$ of deterministic length $\ell=\Theta(k)$ the entropy lower bound $$H(F)\ge d\sigma\ell+\eta\ell\log\sigma-O(k).$$ This bound survives any fixed number of restrictions to events of probability bounded below. We will contradict it by successively describing shorter sequences, still of length $\Theta(k)$, in smaller flag domains.
 
-The cost of the exceptional positions in the marking argument explains why these successive descriptions are needed. Bradač’s direct count records $O(q\sigma)$ expensive flags, with $O(\sigma)$ information per flag (Bradač 2026, proof of Lemma 2.12). The resulting $O(q\sigma^2)$ allowance is too coarse for the present entropy comparison: its scale exceeds the surplus $\eta\ell\log\sigma$ when $\ell=\Theta(q\sigma^{1+\eta})$. The leading term $d\sigma\ell$ already allows $d\sigma$ units for each retained flag. Smaller flag domains reduce the excess cost of the expensive positions beyond this allowance. At each stage we replace the old description instead of carrying its history into the new message.
+The cost of the exceptional positions in the marking argument explains why these successive descriptions are needed. Bradač’s direct count records $O(q\sigma)$ expensive flags, with $O(\sigma)$ information per flag [6, proof of Lemma 2.12]. The resulting $O(q\sigma^2)$ allowance is too coarse for the present entropy comparison: its scale exceeds the surplus $\eta\ell\log\sigma$ when $\ell=\Theta(q\sigma^{1+\eta})$. The leading term $d\sigma\ell$ already allows $d\sigma$ units for each retained flag. Smaller flag domains reduce the excess cost of the expensive positions beyond this allowance. At each stage we replace the old description instead of carrying its history into the new message.
 
 The description has three main components.
 
@@ -74,7 +74,7 @@ Fix an integer $d\ge5$ and $0<\eta<1/10$. Throughout the construction, $q$ is a 
 
 ### Projective incidence
 
-The following point–hyperplane calculation is the bipartite form of the projective orthogonality estimate used by Alon and Krivelevich (Alon and Krivelevich 1997); we include the weighted identity needed later.
+The following point–hyperplane calculation is the bipartite form of the projective orthogonality estimate used by Alon and Krivelevich [3]; we include the weighted identity needed later.
 
 For $j\ge1$, let $V_j=\mathbb F_q^{j+1}$ and let $V_j^*$ be its dual vector space. The two projective spaces $\mathop{\mathrm{PG}}(V_j)$ and $\mathop{\mathrm{PG}}(V_j^*)$ consist of one-dimensional vector subspaces; both have size $$Q_j=1+q+\cdots+q^j.$$ Set $Q_0=1$. A point $a\in\mathop{\mathrm{PG}}(V_j)$ and a dual point $b\in\mathop{\mathrm{PG}}(V_j^*)$ are incident, written $a\perp b$, if every covector in $b$ vanishes on $a$. Thus a dual point also represents a hyperplane in $\mathop{\mathrm{PG}}(V_j)$. All dimensions of linear spans below are *vector* dimensions; a vector subspace of dimension $r\ge1$ has $Q_{r-1}$ projective points. For sets in the opposite projective spaces, write $e(S,T)$ for their number of incident pairs.
 
@@ -94,7 +94,7 @@ For $j\ge1$, let $V_j=\mathbb F_q^{j+1}$ and let $V_j^*$ be its dual vector spac
 
 ### The flag graph and rectangles
 
-We use Bradač’s ordered flag construction (Bradač 2026, sec. 2.5). A *flag* in dimension $d$ is an incident pair $(a,b)$ in $\mathop{\mathrm{PG}}(V_d)\times\mathop{\mathrm{PG}}(V_d^*)$. There are $Q_dQ_{d-1}$ flags. Sample an ordered stream of $N$ independent uniform flags $(a_i,b_i)$, and make a graph on its positions $1,\ldots,N$ by declaring, for $i<j$, $$\begin{equation}
+We use Bradač’s ordered flag construction [6, Section 2.5]. A *flag* in dimension $d$ is an incident pair $(a,b)$ in $\mathop{\mathrm{PG}}(V_d)\times\mathop{\mathrm{PG}}(V_d^*)$. There are $Q_dQ_{d-1}$ flags. Sample an ordered stream of $N$ independent uniform flags $(a_i,b_i)$, and make a graph on its positions $1,\ldots,N$ by declaring, for $i<j$, $$\begin{equation}
  ij\in E(G)\quad\Longleftrightarrow\quad
  a_i\perp b_j\ \hbox{ and }\ a_j\not\perp b_i.
  \tag{2.4}
@@ -309,7 +309,7 @@ Apply the dimension-two description, with reorientation if needed, and then Lemm
 
 ### A polynomial bound for rich lines
 
-We give the needed algebraic estimate with its richness and characteristic hypotheses explicit. It is used only when the line richness substantially exceeds the cubic-root scale and planar concentration cannot account for many rich lines. The interpolation and tangent-plane method has antecedents in (Guth and Katz 2010; Elekes et al. 2011). Positive-characteristic obstructions are discussed in (Ellenberg and Hablicsek 2016); here the argument keeps every relevant surface degree below the characteristic.
+We give the needed algebraic estimate with its richness and characteristic hypotheses explicit. It is used only when the line richness substantially exceeds the cubic-root scale and planar concentration cannot account for many rich lines. The interpolation and tangent-plane method has antecedents in [14, 10]. Positive-characteristic obstructions are discussed in [11]; here the argument keeps every relevant surface degree below the characteristic.
 
 **Lemma 3.6** (Rich lines with a plane cap). *Let $q$ run through sufficiently large primes. Let $\mathcal S$ be at most $n\leq Cq^2$ points of $\mathop{\mathrm{PG}}(3,q)$, with at most $K_p$ points in every projective plane. Let $M>0$ satisfy $$\begin{equation}
 \tag{3.11}
@@ -660,7 +660,7 @@ Fix $d$, $\eta$, and the scales from (2.8). Let $F=(F_1,\ldots,F_\ell)$ be a con
 
 ### The marking message
 
-This marking procedure adapts the counting argument in (Bradač 2026, Claim 2.13), with earlier expensive/cheap exposure methods in (Alon and Rödl 2005). The entropy bound below concerns the actual conditional law of the selected flags.
+This marking procedure adapts the counting argument in [6, Claim 2.13], with earlier expensive/cheap exposure methods in [4]. The entropy bound below concerns the actual conditional law of the selected flags.
 
 In a forward scan, keep a vector subspace $V(y)$ of the second system for each second point $y$. Initially it is zero. Whenever a position is declared expensive, adjoin its second endpoint $b$ to $V(y)$ for every $y$ incident with its first endpoint $a$. No other position changes the state. Equivalently, $V(y)$ is the span of earlier expensive second endpoints whose first endpoints annihilate $y$.
 
@@ -744,7 +744,7 @@ We henceforth use the enlarged budget $$\begin{equation}
 
 We now arrange that representative laws can be compared with most target laws at a small information cost. It matters that the exposure round is chosen from expectations, not after inspecting its flag values.
 
-Conditioning to reduce dependence is a familiar correlation-rounding principle; compare (Raghavendra and Tan 2011, Lemma 4.5). We require a maximum over representatives from separate blocks, so we prove the precise blockwise statement under the selected law.
+Conditioning to reduce dependence is a familiar correlation-rounding principle; compare [22, Lemma 4.5]. We require a maximum over representatives from separate blocks, so we prove the precise blockwise statement under the selected law.
 
 Set $T_1=\lfloor qD\sigma^{3000\beta}\rfloor$. Before each of $T_1$ rounds, independently in every representative block choose one uniform unused index, independently also of all unexposed flags given the preceding history; then expose the chosen flags. Write $\theta_t$ for the history before round $t$, starting with $\theta_0$, and $U_t$ for the unexposed positions. Each block then has $n_t=m/4-t$ unused positions. The parameter inequalities give $$\frac{T_1}{m}=O\!\left(
  \begin{cases}
@@ -899,16 +899,16 @@ The preparation in Section 5 selects a class, an orientation, equal windows, a 
 
 ### A bound for unions of rich subspaces
 
-The rich-subspace viewpoint was motivated by the finite-field Nikodym maximal estimates of Ellenberg, Oberlin, and Tao (Ellenberg et al. 2009, sec. 4.4, Theorem 4.6). The precise closure estimate used here is the Nie–Wang inequality identified below, not an application of those maximal estimates.
+The rich-subspace viewpoint was motivated by the finite-field Nikodym maximal estimates of Ellenberg, Oberlin, and Tao [12, Section 4.4, Theorem 4.6]. The precise closure estimate used here is the Nie–Wang inequality identified below, not an application of those maximal estimates.
 
-The high-rank construction will describe a second point by requiring its associated subspace to contain many points from a known row. The following finite-field bound controls the union of all subspaces that could pass this requirement. It is a consequence of Nie and Wang’s finite-degree closure inequality (Nie and Wang 2015, Theorems 4.1 and 5.6). We give a short evaluation-rank proof to make the precise density dependence available here.
+The high-rank construction will describe a second point by requiring its associated subspace to contain many points from a known row. The following finite-field bound controls the union of all subspaces that could pass this requirement. It is a consequence of Nie and Wang’s finite-degree closure inequality [20, Theorems 4.1 and 5.6]. We give a short evaluation-rank proof to make the precise density dependence available here.
 
 **Lemma 6.2**. *Write $\mathop{\mathrm{PG}}(d,q)=\mathop{\mathrm{PG}}(\mathbb F_q^{d+1})$. Let $X\subseteq\mathop{\mathrm{PG}}(d,q)$ and $0<\delta\le1$. Let $\mathcal V$ be any family of nonzero vector subspaces of $\mathbb F_q^{d+1}$ satisfying $$|X\cap\mathop{\mathrm{PG}}(V)|\ge\delta|\mathop{\mathrm{PG}}(V)|\qquad(V\in\mathcal V).$$ Then $$\left|\bigcup_{V\in\mathcal V}\mathop{\mathrm{PG}}(V)\right|
        \le C_d\delta^{-(d+1)}|X|.$$*
 
 *Proof.* If $X$ or $\mathcal V$ is empty, the result is immediate. Suppose otherwise, and put $n=d+1$. Denote by $\widetilde X$ the set of all nonzero vector lifts of points of $X$, and by $\widetilde Y$ the nonzero vector points of the union of the spaces in $\mathcal V$.
 
-We use the Schwartz–Zippel zero bound (Schwartz 1980; Zippel 1979): a nonzero polynomial of total degree at most $h$ on $\mathbb F_q^r$ has at most $hq^{r-1}$ zeros. To see this, induct on $r$, writing the polynomial as a polynomial of degree $t$ in the last coordinate. Its nonzero leading coefficient has degree at most $h-t$ in the other coordinates. There are at most $(h-t)q^{r-2}$ choices at which that coefficient vanishes; for every other choice there are at most $t$ roots in the last coordinate. The asserted bound follows, with the univariate case starting the induction.
+We use the Schwartz–Zippel zero bound [24, 27]: a nonzero polynomial of total degree at most $h$ on $\mathbb F_q^r$ has at most $hq^{r-1}$ zeros. To see this, induct on $r$, writing the polynomial as a polynomial of degree $t$ in the last coordinate. Its nonzero leading coefficient has degree at most $h-t$ in the other coordinates. There are at most $(h-t)q^{r-2}$ choices at which that coefficient vanishes; for every other choice there are at most $t$ roots in the last coordinate. The asserted bound follows, with the univariate case starting the induction.
 
 Fix a sufficiently small constant $c>0$, and put $h=\lfloor c\delta q\rfloor$. If $V$ has vector dimension $r$, at least $\delta(q^r-1)$ of its vector points belong to $\widetilde X$. This is greater than $hq^{r-1}$. Thus every polynomial of degree at most $h$ vanishing on $\widetilde X$ vanishes identically on each such $V$, and hence on $\widetilde Y$. Writing $\mathrm{ev}_Z$ for evaluation on a set $Z$, restricted to these low-degree polynomials, gives $$\begin{equation}
 \tag{6.2}
@@ -1171,7 +1171,7 @@ Fix $s\ge6$, put $d=s-1$, and choose $0<\eta<1/10$. For a sufficiently large int
 
 ### The matching upper bound
 
-The upper estimate of Ajtai, Komlós, and Szemerédi (Ajtai et al. 1980) can be obtained from a triangle-free independence bound followed by sampling and deletion. Shearer proved a lower bound asymptotic to $n\log d/d$ as $d\to\infty$ for triangle-free graphs of average degree $d$ (Shearer 1983). The elementary proof below uses a uniformly chosen independent set, following Alon’s method (Alon 1996, proof of Proposition 2.1); sharper occupancy estimates appear in Davies, Jenssen, Perkins, and Roberts (Davies et al. 2018, Theorems 1 and 3). We retain a convenient constant and give the details separately from the lower-bound construction.
+The upper estimate of Ajtai, Komlós, and Szemerédi [1] can be obtained from a triangle-free independence bound followed by sampling and deletion. Shearer proved a lower bound asymptotic to $n\log d/d$ as $d\to\infty$ for triangle-free graphs of average degree $d$ [25]. The elementary proof below uses a uniformly chosen independent set, following Alon’s method [2, proof of Proposition 2.1]; sharper occupancy estimates appear in Davies, Jenssen, Perkins, and Roberts [8, Theorems 1 and 3]. We retain a convenient constant and give the details separately from the lower-bound construction.
 
 **Lemma 7.2** (Independent sets in a triangle-free graph). *If a triangle-free graph $H$ has $n>0$ vertices and maximum degree at most a real number $D_0\ge1$, then $$\alpha(H)\ge\frac{n\log(D_0+1)}{8(D_0+1)}.$$*
 
@@ -1215,56 +1215,56 @@ Retain each vertex independently with probability $\lambda$. Delete all retained
 
 ## References
 
-Ajtai, Miklós, János Komlós, and Endre Szemerédi. 1980. “A Note on Ramsey Numbers.” *Journal of Combinatorial Theory, Series A* 29 (3): 354–60. <https://doi.org/10.1016/0097-3165(80)90030-8>.
+**[1]** Miklós Ajtai, János Komlós, and Endre Szemerédi. A note on Ramsey numbers. *Journal of Combinatorial Theory, Series A*, 29(3):354–360, 1980.
 
-Alon, Noga. 1996. “Independence Numbers of Locally Sparse Graphs and a Ramsey Type Problem.” *Random Structures & Algorithms* 9 (3): 271–78. [https://doi.org/10.1002/(SICI)1098-2418(199610)9:3\<271::AID-RSA1\>3.0.CO;2-U](https://doi.org/10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U).
+**[2]** Noga Alon. Independence numbers of locally sparse graphs and a Ramsey type problem. *Random Structures & Algorithms*, 9(3):271–278, 1996.
 
-Alon, Noga, and Michael Krivelevich. 1997. “Constructive Bounds for a Ramsey-Type Problem.” *Graphs and Combinatorics* 13 (3): 217–25. <https://doi.org/10.1007/BF03352998>.
+**[3]** Noga Alon and Michael Krivelevich. Constructive bounds for a Ramsey-type problem. *Graphs and Combinatorics*, 13(3):217–225, 1997.
 
-Alon, Noga, and Vojtěch Rödl. 2005. “Sharp Bounds for Some Multicolor Ramsey Numbers.” *Combinatorica* 25 (2): 125–41. <https://doi.org/10.1007/s00493-005-0011-9>.
+**[4]** Noga Alon and Vojtěch Rödl. Sharp bounds for some multicolor Ramsey numbers. *Combinatorica*, 25(2):125–141, 2005.
 
-Bohman, Tom, and Peter Keevash. 2010. “The Early Evolution of the $H$-Free Process.” *Inventiones Mathematicae* 181 (2): 291–336. <https://doi.org/10.1007/s00222-010-0247-x>.
+**[5]** Tom Bohman and Peter Keevash. The early evolution of the $H$-free process. *Inventiones Mathematicae*, 181(2):291–336, 2010.
 
-Bradač, Domagoj. 2026. *Off-Diagonal Ramsey Numbers*. <https://arxiv.org/abs/2605.28793v3>.
+**[6]** Domagoj Bradač. Off-diagonal Ramsey numbers, 2026. arXiv:2605.28793v3, 16 June 2026.
 
-Codenotti, Bruno, Pavel Pudlák, and Giovanni Resta. 2000. “Some Structural Properties of Low-Rank Matrices Related to Computational Complexity.” *Theoretical Computer Science* 235 (1): 89–107. <https://doi.org/10.1016/S0304-3975(99)00185-1>.
+**[7]** Bruno Codenotti, Pavel Pudlák, and Giovanni Resta. Some structural properties of low-rank matrices related to computational complexity. *Theoretical Computer Science*, 235(1):89–107, 2000.
 
-Davies, Ewan, Matthew Jenssen, Will Perkins, and Barnaby Roberts. 2018. “On the Average Size of Independent Sets in Triangle-Free Graphs.” *Proceedings of the American Mathematical Society* 146 (1): 111–24. <https://doi.org/10.1090/proc/13728>.
+**[8]** Ewan Davies, Matthew Jenssen, Will Perkins, and Barnaby Roberts. On the average size of independent sets in triangle-free graphs. *Proceedings of the American Mathematical Society*, 146(1):111–124, 2018.
 
-Dvir, Zeev. 2009. “On the Size of Kakeya Sets in Finite Fields.” *Journal of the American Mathematical Society* 22 (4): 1093–97. <https://doi.org/10.1090/S0894-0347-08-00607-3>.
+**[9]** Zeev Dvir. On the size of Kakeya sets in finite fields. *Journal of the American Mathematical Society*, 22(4):1093–1097, 2009.
 
-Elekes, György, Haim Kaplan, and Micha Sharir. 2011. “On Lines, Joints, and Incidences in Three Dimensions.” *Journal of Combinatorial Theory, Series A* 118 (3): 962–77. <https://doi.org/10.1016/j.jcta.2010.11.008>.
+**[10]** György Elekes, Haim Kaplan, and Micha Sharir. On lines, joints, and incidences in three dimensions. *Journal of Combinatorial Theory, Series A*, 118(3):962–977, 2011.
 
-Ellenberg, Jordan S., and Márton Hablicsek. 2016. “An Incidence Conjecture of Bourgain over Fields of Positive Characteristic.” *Forum of Mathematics, Sigma* 4: e23. <https://doi.org/10.1017/fms.2016.19>.
+**[11]** Jordan S. Ellenberg and Márton Hablicsek. An incidence conjecture of Bourgain over fields of positive characteristic. *Forum of Mathematics, Sigma*, 4:e23, 2016.
 
-Ellenberg, Jordan S., Richard Oberlin, and Terence Tao. 2009. *The Kakeya Set and Maximal Conjectures for Algebraic Varieties over Finite Fields*. <https://arxiv.org/abs/0903.1879>.
+**[12]** Jordan S. Ellenberg, Richard Oberlin, and Terence Tao. The Kakeya set and maximal conjectures for algebraic varieties over finite fields, 2009. [Published version](https://doi.org/10.1112/S0025579309000400).
 
-Erdős, Paul, and George Szekeres. 1935. “A Combinatorial Problem in Geometry.” *Compositio Mathematica* 2: 463–70. <https://www.numdam.org/item/CM_1935__2__463_0/>.
+**[13]** Paul Erdős and George Szekeres. A combinatorial problem in geometry. *Compositio Mathematica*, 2:463–470, 1935.
 
-Guth, Larry, and Nets Hawk Katz. 2010. “Algebraic Methods in Discrete Analogs of the Kakeya Problem.” *Advances in Mathematics* 225 (5): 2828–39. <https://doi.org/10.1016/j.aim.2010.05.015>.
+**[14]** Larry Guth and Nets Hawk Katz. Algebraic methods in discrete analogs of the Kakeya problem. *Advances in Mathematics*, 225(5):2828–2839, 2010.
 
-Kim, Jeong Han. 1995. “The Ramsey Number $R(3,t)$ Has Order of Magnitude $t^2/\log t$.” *Random Structures & Algorithms* 7 (3): 173–207. <https://doi.org/10.1002/rsa.3240070302>.
+**[15]** Jeong Han Kim. The Ramsey number $R(3,t)$ has order of magnitude $t^2/\log t$. *Random Structures & Algorithms*, 7(3):173–207, 1995.
 
-Kostochka, Alexandr, Pavel Pudlák, and Vojtěch Rödl. 2010. “Some Constructive Bounds on Ramsey Numbers.” *Journal of Combinatorial Theory, Series B* 100 (5): 439–45. <https://doi.org/10.1016/j.jctb.2010.01.003>.
+**[16]** Alexandr Kostochka, Pavel Pudlák, and Vojtěch Rödl. Some constructive bounds on Ramsey numbers. *Journal of Combinatorial Theory, Series B*, 100(5):439–445, 2010.
 
-Li, Yusheng, Cecil C. Rousseau, and Wenan Zang. 2001. “Asymptotic Upper Bounds for Ramsey Functions.” *Graphs and Combinatorics* 17 (1): 123–28. <https://doi.org/10.1007/s003730170060>.
+**[17]** Yusheng Li, Cecil C. Rousseau, and Wenan Zang. Asymptotic upper bounds for Ramsey functions. *Graphs and Combinatorics*, 17(1):123–128, 2001.
 
-Mattheus, Sam, and Jacques Verstraëte. 2024. “The Asymptotics of $r(4,t)$.” *Annals of Mathematics* 199 (2): 919–41. <https://doi.org/10.4007/annals.2024.199.2.8>.
+**[18]** Sam Mattheus and Jacques Verstraëte. The asymptotics of $r(4,t)$. *Annals of Mathematics*, 199(2):919–941, 2024.
 
-Mubayi, Dhruv, and Jacques Verstraëte. 2024. “A Note on Pseudorandom Ramsey Graphs.” *Journal of the European Mathematical Society* 26 (1): 153–61. <https://doi.org/10.4171/JEMS/1359>.
+**[19]** Dhruv Mubayi and Jacques Verstraëte. A note on pseudorandom Ramsey graphs. *Journal of the European Mathematical Society*, 26(1):153–161, 2024.
 
-Nie, Zipei, and Anthony Y. Wang. 2015. “Hilbert Functions and the Finite Degree Zariski Closure in Finite Field Combinatorial Geometry.” *Journal of Combinatorial Theory, Series A* 134: 196–220. <https://doi.org/10.1016/j.jcta.2015.03.011>.
+**[20]** Zipei Nie and Anthony Y. Wang. Hilbert functions and the finite degree Zariski closure in finite field combinatorial geometry. *Journal of Combinatorial Theory, Series A*, 134:196–220, 2015.
 
-OpenAI. 2026. *The sharp logarithmic exponent of $r(5,t)$*. OpenAI Math Release preprint [OAI:The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026](https://github.com/openai/math/blob/main/preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026/paper.pdf).
+**[21]** OpenAI. The sharp logarithmic exponent of $r(5,t)$. OpenAI Math Release preprint [OAI:The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026](https://github.com/openai/math/blob/main/preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026/paper.pdf), 2026.
 
-Raghavendra, Prasad, and Ning Tan. 2011. *Approximating CSPs with Global Cardinality Constraints Using SDP Hierarchies*. <https://arxiv.org/abs/1110.1064v1>.
+**[22]** Prasad Raghavendra and Ning Tan. Approximating CSPs with global cardinality constraints using SDP hierarchies, 2011. arXiv:1110.1064v1.
 
-Ramsey, Frank Plumpton. 1930. “On a Problem of Formal Logic.” *Proceedings of the London Mathematical Society*, 2nd series, vol. 30: 264–86. <https://doi.org/10.1112/plms/s2-30.1.264>.
+**[23]** Frank Plumpton Ramsey. On a problem of formal logic. *Proceedings of the London Mathematical Society*, 30:264–286, 1930.
 
-Schwartz, Jacob T. 1980. “Fast Probabilistic Algorithms for Verification of Polynomial Identities.” *Journal of the ACM* 27 (4): 701–17. <https://doi.org/10.1145/322217.322225>.
+**[24]** Jacob T. Schwartz. Fast probabilistic algorithms for verification of polynomial identities. *Journal of the ACM*, 27(4):701–717, 1980.
 
-Shearer, James B. 1983. “A Note on the Independence Number of Triangle-Free Graphs.” *Discrete Mathematics* 46 (1): 83–87. <https://doi.org/10.1016/0012-365X(83)90273-X>.
+**[25]** James B. Shearer. A note on the independence number of triangle-free graphs. *Discrete Mathematics*, 46(1):83–87, 1983.
 
-Spencer, Joel. 1977. “Asymptotic Lower Bounds for Ramsey Functions.” *Discrete Mathematics* 20: 69–76. <https://doi.org/10.1016/0012-365X(77)90044-9>.
+**[26]** Joel Spencer. Asymptotic lower bounds for Ramsey functions. *Discrete Mathematics*, 20:69–76, 1977.
 
-Zippel, Richard. 1979. “Probabilistic Algorithms for Sparse Polynomials.” *Symbolic and Algebraic Computation*, Lecture notes in computer science, vol. 72: 216–26. <https://doi.org/10.1007/3-540-09519-5_73>.
+**[27]** Richard Zippel. Probabilistic algorithms for sparse polynomials. In *Symbolic and Algebraic Computation*, volume 72 of *Lecture Notes in Computer Science*, pages 216–226. Springer, 1979.

@@ -131,7 +131,7 @@ external input. No formal proof build is part of this source compilation.
 The printed recurrence on p. 113 has coefficient $a_i$ where its
 indexing requires $a_{i+1}$. More substantially, its step can use either
 $q_j$ or $q_{j-1}$, but the following calculation uses $q_j$ in both
-cases. Lemma 2 now tracks the chosen denominator and proves the needed
+cases. Lemma 2 here tracks the chosen denominator and proves the needed
 comparison with the enlarged auxiliary constant
 $(K+1)^3N^2$, replacing the source proof's $(K+1)^2N^2$.
 The theorem and lemma statements are unchanged. The local repair,

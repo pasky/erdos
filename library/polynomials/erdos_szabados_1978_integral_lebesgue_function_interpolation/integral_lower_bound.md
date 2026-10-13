@@ -81,8 +81,8 @@ for contract and independence by its [distinct
 grade](evidence/verify/full_chain_review_grade_fresh.md) on 2026-09-18. The
 earlier [full-chain review](evidence/verify/full_chain_review.md) of
 2026-09-06 is retained but void as an independent warrant for the
-composition, after a 2026-09-18 ruling that its delivered candidates carried
-the companions' earlier-review verdicts. No review credits the printed
+composition, because its delivered candidates carried the companions'
+earlier-review verdicts. No review credits the printed
 $1/40$ or the coefficient $2/\pi$.
 
 ## Proof pointer

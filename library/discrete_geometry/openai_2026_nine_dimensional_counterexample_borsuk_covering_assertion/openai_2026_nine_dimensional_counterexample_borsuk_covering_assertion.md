@@ -19,15 +19,15 @@ Thus Borsuk’s assertion fails in dimension nine. The theorem does not determin
 
 ### History and the method
 
-Borsuk posed the partition question in 1933 (Borsuk 1933). Kahn and Kalai disproved it in high dimensions (Kahn and Kalai 1993), using a forbidden-intersection theorem of Frankl and Wilson (Frankl and Wilson 1981) to force many smaller-diameter parts. Early reductions in counterexample dimension include $946$ by Nilli (Nilli 1994), the announced bound $903$ of Grey and Weissbach (Grey and Weißbach 1997), $561$ by Raigorodskii (Raigorodskii 1997), and $560$ by Weissbach (Weißbach 2000).
+Borsuk posed the partition question in 1933 [3]. Kahn and Kalai disproved it in high dimensions [13], using a forbidden-intersection theorem of Frankl and Wilson [5] to force many smaller-diameter parts. Early reductions in counterexample dimension include $946$ by Nilli [16], the announced bound $903$ of Grey and Weissbach [6], $561$ by Raigorodskii [18], and $560$ by Weissbach [20].
 
-Spherical codes led to a further series of reductions. Hinrichs obtained dimension $323$ using vectors of the Leech lattice (Hinrichs 2002). Pikhurko reduced the bound to $321$ and credited an independent discovery by Hinrichs and Richter (Pikhurko 2002); Hinrichs and Richter published their bound $298$ in 2003 (Hinrichs and Richter 2003).
+Spherical codes led to a further series of reductions. Hinrichs obtained dimension $323$ using vectors of the Leech lattice [10]. Pikhurko reduced the bound to $321$ and credited an independent discovery by Hinrichs and Richter [17]; Hinrichs and Richter published their bound $298$ in 2003 [11].
 
-A different series of advances used strongly regular graphs. Bondarenko constructed a two-distance counterexample in dimension $65$ (Bondarenko 2014); Jenrich and Brouwer obtained dimension $64$ (Jenrich and Brouwer 2014). Grinsztajn’s public proof note gives a finite counterexample in dimension $63$ (Grinsztajn 2026). Theorem 1.1 improves this dimension bound using the full compact image of projective space rather than a finite configuration.
+A different series of advances used strongly regular graphs. Bondarenko constructed a two-distance counterexample in dimension $65$ [2]; Jenrich and Brouwer obtained dimension $64$ [12]. Grinsztajn’s public proof note gives a finite counterexample in dimension $63$ [7]. Theorem 1.1 improves this dimension bound using the full compact image of projective space rather than a finite configuration.
 
-The projector embedding itself is classical. Kalai describes the map $x\mapsto x\otimes x$ and the full rank-one positive semidefinite configuration in his account of the Kahn–Kalai construction (Kalai 2015, sec. 2.3). Conway, Hardin, and Sloane use the same projection-matrix model for Grassmannian packing and its Euclidean metric (Conway et al. 1996, sec. 5, Theorem 2). Our contribution is the covering obstruction for the projector set associated with $\mathbb R^4$.
+The projector embedding itself is classical. Kalai describes the map $x\mapsto x\otimes x$ and the full rank-one positive semidefinite configuration in his account of the Kahn–Kalai construction [14, Section 2.3]. Conway, Hardin, and Sloane use the same projection-matrix model for Grassmannian packing and its Euclidean metric [4, Section 5, Theorem 2]. Our contribution is the covering obstruction for the projector set associated with $\mathbb R^4$.
 
-The relevant topological antecedents include Walkup’s eleven-vertex minimum for triangulations of $\mathbb{RP}^3$ (Walkup 1970, Theorem 3) and the projective-space vertex bounds of Arnoux and Marin (Arnoux and Marin 1991). These results cannot be applied directly to the complex here: its faces are positive coordinate supports of a map, not simplices in a triangulation of projective space. The central difficulty is to derive enough of its face structure from the map itself. We do this through an odd map on symmetric matrices, mod-two degree, and local preimage counts, and then give the finite combinatorial obstruction in full.
+The relevant topological antecedents include Walkup’s eleven-vertex minimum for triangulations of $\mathbb{RP}^3$ [19, Theorem 3] and the projective-space vertex bounds of Arnoux and Marin [1]. These results cannot be applied directly to the complex here: its faces are positive coordinate supports of a map, not simplices in a triangulation of projective space. The central difficulty is to derive enough of its face structure from the map itself. We do this through an odd map on symmetric matrices, mod-two degree, and local preimage counts, and then give the finite combinatorial obstruction in full.
 
 ### Proof overview
 
@@ -43,7 +43,7 @@ The last stage converts this topological information into a finite obstruction. 
 
 The geometric part of the proof converts a smaller-diameter cover into a smooth map whose positive coordinates separate orthogonal lines. We first make this conversion explicit, so that the remaining obstruction can be formulated entirely on projective space.
 
-The projection-matrix metric is the rank-one case of the standard Euclidean embedding of real Grassmannians (Conway et al. 1996, sec. 5, Theorem 2). Their chordal distance is $1/\sqrt2$ times the Frobenius distance used here. We give the short computation to fix the normalization throughout the proof.
+The projection-matrix metric is the rank-one case of the standard Euclidean embedding of real Grassmannians [4, Section 5, Theorem 2]. Their chordal distance is $1/\sqrt2$ times the Frobenius distance used here. We give the short computation to fix the normalization throughout the proof.
 
 Let $V=\mathbb R^k$ have its usual inner product, with $k\geq2$, and let $\mathbb P(V)$ denote its space of one-dimensional linear subspaces. For a line $x=[u]$, represented by a unit vector $u$, write $P_x=uu^{\mathsf T}$ for the orthogonal projector onto $x$. Let $\operatorname{Sym}(V)$ be the space of real symmetric operators, equipped with the Frobenius inner product $\langle A,B\rangle_F=\operatorname{tr}(AB)$, and put $$N_k=\dim\operatorname{Sym}(V)=\frac{k(k+1)}2,
  \qquad X_k=\{P_x:x\in\mathbb P(V)\}.$$
@@ -80,7 +80,7 @@ Restricting an admissible map to $\mathbb P(W)$ for a nonzero linear subspace $W
 *Proof.* Pad the cover by empty sets to write it as $A_1,\ldots,A_m$. For every nonempty $A_i$, set $d_i=\operatorname{diam}(A_i)$ and $\varepsilon_i=(\sqrt2-d_i)/4>0$, and define the relatively open set $$U_i=\{P\in X_k:\operatorname{dist}_F(P,A_i)<\varepsilon_i\}.$$ Set $U_i=\varnothing$ if $A_i=\varnothing$. The sets $U_i$ cover $X_k$. For any $P,Q\in U_i$, points of $A_i$ within $\varepsilon_i$ of $P,Q$ and the triangle inequality give $$\|P-Q\|_F<d_i+2\varepsilon_i
  =\frac{d_i+\sqrt2}{2}<\sqrt2.$$ In particular $\operatorname{diam}(U_i)\leq(d_i+\sqrt2)/2<\sqrt2$.
 
-Pull these sets back to a finite open cover $V_i$ of $\mathbb P(V)$. A smooth partition of unity subordinate to this cover (Lee 2013, Theorem 2.23) gives smooth nonnegative functions $f_i$, with sum one and $f_i(x)>0$ only if $x\in V_i$. Empty sets receive the zero function. If $i$ belonged to both $S(x)$ and $S(y)$ for orthogonal lines $x,y$, then $P_x,P_y\in U_i$ would be at distance $\sqrt2$ by Lemma 2.1, a contradiction. ◻
+Pull these sets back to a finite open cover $V_i$ of $\mathbb P(V)$. A smooth partition of unity subordinate to this cover [15, Theorem 2.23] gives smooth nonnegative functions $f_i$, with sum one and $f_i(x)>0$ only if $x\in V_i$. Empty sets receive the zero function. If $i$ belonged to both $S(x)$ and $S(y)$ for orthogonal lines $x,y$, then $P_x,P_y\in U_i$ would be at distance $\sqrt2$ by Lemma 2.1, a contradiction. ◻
 
 The strict diameter inequalities are what permit the open neighborhoods and the smooth partition of unity; merely excluding individual orthogonal pairs from arbitrary color classes does not supply this reduction.
 
@@ -160,7 +160,7 @@ Throughout this section, homology and cohomology have coefficients in $\mathbb F
 
 **Proposition 4.1** (The number of labels). *If $k\ge2$, every smooth admissible map $f:\mathbb P(\mathbb R^k)\to\Delta^{m-1}$ satisfies $m\ge N_k$. If $m=N_k$, its extension $F$ has mod-two degree one and is surjective. In this equality case, every pair of labels is an edge of the support complex of $f$.*
 
-*Proof.* An odd map $S^n\to S^d$ requires $n\le d$, and an odd self-map of $S^n$ has odd degree; see (Hatcher 2002, Proposition 2B.6 and Corollary 2B.7). Applying these facts to $F$ proves the bound and the degree assertion. A map of nonzero degree cannot omit a point of its target sphere, since the complement of a point is contractible.
+*Proof.* An odd map $S^n\to S^d$ requires $n\le d$, and an odd self-map of $S^n$ has odd degree; see [8, Proposition 2B.6 and Corollary 2B.7]. Applying these facts to $F$ proves the bound and the degree assertion. A map of nonzero degree cannot omit a point of its target sphere, since the complement of a point is contractible.
 
 Suppose $m=N_k$ and fix distinct labels $i,j$. Choose a vector in $\Sigma_m$ with every coordinate nonzero, with precisely the $i$th and $j$th coordinates positive. At a preimage $A$ under $F$, every line in the positive spectral subspace of $A$ uses only these two labels. That subspace cannot have dimension at least two: restriction to a two-dimensional subspace would contradict the bound $N_2=3$ just proved. Its dimension is therefore one. The exact spectral-support property of $F$ says that this line has both labels $i,j$ in its support, so $\{i,j\}$ is an edge. ◻
 
@@ -181,7 +181,7 @@ We will count regular preimages of maps which need not be smooth everywhere. The
 
 ##### A compact level set over one affine chart.
 
-Define $$U_I=\{x\in\mathbb P(V):f_i(x)>0\text{ for every }i\in I\}.$$ Maximality of $I$ implies $S(x)=I$ for all $x\in U_I$. Thus the coordinate map $f_I$ takes $U_I$ smoothly to the open simplex $\mathring\Delta_I$ on $I$. Moreover, $U_I$ lies in the affine projective chart $$\mathbb P(V)\setminus\mathbb P(x_0^\perp),$$ because a line orthogonal to $x_0$ cannot use any label in $I$. Choose a regular value $r\in\mathring\Delta_I$ of $f_I$, using Sard’s Theorem (Lee 2013, Theorem 6.10), and put $$L=f_I^{-1}(r)\subset U_I.$$ For now $L$ is allowed to be empty. If $\widetilde r$ denotes $r$ extended by zero on $J$, then $L=f^{-1}(\widetilde r)$: positivity of the coordinates of $r$ puts every such preimage in $U_I$. Hence $L$ is compact. It is a smooth manifold without boundary (Lee 2013, Corollary 5.14) of dimension $$\begin{equation}
+Define $$U_I=\{x\in\mathbb P(V):f_i(x)>0\text{ for every }i\in I\}.$$ Maximality of $I$ implies $S(x)=I$ for all $x\in U_I$. Thus the coordinate map $f_I$ takes $U_I$ smoothly to the open simplex $\mathring\Delta_I$ on $I$. Moreover, $U_I$ lies in the affine projective chart $$\mathbb P(V)\setminus\mathbb P(x_0^\perp),$$ because a line orthogonal to $x_0$ cannot use any label in $I$. Choose a regular value $r\in\mathring\Delta_I$ of $f_I$, using Sard’s Theorem [15, Theorem 6.10], and put $$L=f_I^{-1}(r)\subset U_I.$$ For now $L$ is allowed to be empty. If $\widetilde r$ denotes $r$ extended by zero on $J$, then $L=f^{-1}(\widetilde r)$: positivity of the coordinates of $r$ puts every such preimage in $U_I$. Hence $L$ is compact. It is a smooth manifold without boundary [15, Corollary 5.14] of dimension $$\begin{equation}
 \tag{4.2}
  \dim L=(k-1)-(s-1)=k-s=a-h.
 \end{equation}$$
@@ -223,12 +223,12 @@ The value $y$ is regular in the local sense of Lemma 4.2. To see this precisely
 ##### The double cover forces maximal supports to have size $k$.
 
 The oddness of $G$ in the sphere variable gives a quotient map $$\overline G:L\times\mathbb{RP}^{h-1}
-                  \longrightarrow\mathbb{RP}^{a-1}.$$ Write $w\in H^1(\mathbb{RP}^{a-1})$ and $u\in H^1(\mathbb{RP}^{h-1})$ for the first Stiefel–Whitney classes of the real line bundles associated with their antipodal double covers. Equivariance identifies the pullback of the target sphere cover with $$L\times S^{h-1}\longrightarrow L\times\mathbb{RP}^{h-1}.$$ Indeed, the identification sends $(x,z)$ to $((x,[z]),G(x,z))$ and is an isomorphism on each two-point fiber. This cover isomorphism induces an isomorphism of the associated real line bundles. Their first Stiefel–Whitney classes are natural under pullback (Hatcher 2017, Theorem 3.1(a)). The source cover is pulled back from the second factor, so $$\begin{equation}
+                  \longrightarrow\mathbb{RP}^{a-1}.$$ Write $w\in H^1(\mathbb{RP}^{a-1})$ and $u\in H^1(\mathbb{RP}^{h-1})$ for the first Stiefel–Whitney classes of the real line bundles associated with their antipodal double covers. Equivariance identifies the pullback of the target sphere cover with $$L\times S^{h-1}\longrightarrow L\times\mathbb{RP}^{h-1}.$$ Indeed, the identification sends $(x,z)$ to $((x,[z]),G(x,z))$ and is an isomorphism on each two-point fiber. This cover isomorphism induces an isomorphism of the associated real line bundles. Their first Stiefel–Whitney classes are natural under pullback [9, Theorem 3.1(a)]. The source cover is pulled back from the second factor, so $$\begin{equation}
 \tag{4.8}
  \overline G^*w=\operatorname{pr}_2^*u.
 \end{equation}$$ There is no contribution from $H^1(L)$ in this identity.
 
-Suppose $a>h$. The projective-space cohomology calculation (Hatcher 2002, Theorem 3.19) gives $$u^h=0,\qquad
+Suppose $a>h$. The projective-space cohomology calculation [8, Theorem 3.19] gives $$u^h=0,\qquad
  \overline G^*(w^{a-1})=
        \operatorname{pr}_2^*(u^{a-1})=0.$$ Both source and target of $\overline G$ are closed manifolds of dimension $a-1$, and $w^{a-1}$ is the target’s top cohomology generator. Evaluation on the total fundamental class therefore gives mod-two degree zero. On the other hand, $[g]$ is a regular value in local quotient coordinates, and every preimage of $[g]$ has exactly one representative mapping to $g$. Its preimage count is therefore the odd number in (4.7), a contradiction. Together with (4.1), this proves $a=h$ and $s=k$ for every facet.
 
@@ -239,7 +239,7 @@ Now $\dim L=0$, so $L$ is a finite set. For each $x\in L$, the map $G_x$ is odd 
  |f^{-1}(\widetilde r)|=|L|\equiv1\pmod2.
 \end{equation}$$
 
-Every facet has $k$ vertices, so $K$ has dimension $k-1$. Using the identification of simplicial and singular homology (Hatcher 2002, Theorem 2.27), consider the homology class $$f_*[\mathbb P(V)]\in H_{k-1}(|K|).$$ The interior point $\widetilde r$ of the facet $I$ has a neighborhood in $|K|$ contained in that facet. Passing to $H_{k-1}(|K|,|K|\setminus\{\widetilde r\})$ reads the coefficient of $I$ in a simplicial top cycle. By the regularity of $r$, Lemma 4.2 and (4.9), this coefficient is one. The same holds for every facet. Since a $(k-1)$-dimensional complex has no simplicial $k$-chains, its top homology classes are exactly its top cycles. Thus $f_*[\mathbb P(V)]$ is represented by the sum of all facets. Its boundary vanishes. Each codimension-one face consequently occurs in an even number of facets, and purity makes that number positive. ◻
+Every facet has $k$ vertices, so $K$ has dimension $k-1$. Using the identification of simplicial and singular homology [8, Theorem 2.27], consider the homology class $$f_*[\mathbb P(V)]\in H_{k-1}(|K|).$$ The interior point $\widetilde r$ of the facet $I$ has a neighborhood in $|K|$ contained in that facet. Passing to $H_{k-1}(|K|,|K|\setminus\{\widetilde r\})$ reads the coefficient of $I$ in a simplicial top cycle. By the regularity of $r$, Lemma 4.2 and (4.9), this coefficient is one. The same holds for every facet. Since a $(k-1)$-dimensional complex has no simplicial $k$-chains, its top homology classes are exactly its top cycles. Thus $f_*[\mathbb P(V)]$ is represented by the sum of all facets. Its boundary vanishes. Each codimension-one face consequently occurs in an even number of facets, and purity makes that number positive. ◻
 
 ## Triangle systems on six labels
 
@@ -359,7 +359,7 @@ All ingredients now apply to the projector set in Theorem 1.1.
 
 *Proof of Theorem 1.1.* Lemma 2.1, with $k=4$, proves compactness and identifies the trace-one affine space with Euclidean $\mathbb R^9$. It also gives the exact diameter $\sqrt2$. If ten subsets of strictly smaller diameter covered $X$, Lemma 2.4 would supply an admissible map $\mathbb{RP}^3\to\Delta^9$. This contradicts Theorem 6.5. ◻
 
-The spherical geometry of this witness also gives counterexamples in all higher dimensions. We use the familiar construction of adjoining points at diameter distance; see (Hinrichs and Richter 2003, Lemma 9) and (Bondarenko 2014, proof of Corollary 1). The following Gram-matrix description adds all the new points at once.
+The spherical geometry of this witness also gives counterexamples in all higher dimensions. We use the familiar construction of adjoining points at diameter distance; see [11, Lemma 9] and [2, proof of Corollary 1]. The following Gram-matrix description adds all the new points at once.
 
 **Corollary 7.1**. *For every integer $d\geq9$, there is a compact subset of $\mathbb R^d$ of diameter $\sqrt2$ that cannot be covered by $d+1$ subsets of strictly smaller diameter.*
 
@@ -372,42 +372,42 @@ A subset of $Z$ of strictly smaller diameter containing a new point can contain 
 
 ## References
 
-Arnoux, Pierre, and Alexis Marin. 1991. “The Kühnel Triangulation of the Complex Projective Plane from the View Point of Complex Crystallography. II.” *Memoirs of the Faculty of Science, Kyushu University. Series A, Mathematics* 45 (2): 167–244. <https://doi.org/10.2206/kyushumfs.45.167>.
+**[1]** Pierre Arnoux and Alexis Marin. The Kühnel triangulation of the complex projective plane from the view point of complex crystallography. II. *Memoirs of the Faculty of Science, Kyushu University. Series A, Mathematics*, 45(2):167–244, 1991.
 
-Bondarenko, Andriy V. 2014. “On Borsuk’s Conjecture for Two-Distance Sets.” *Discrete & Computational Geometry* 51 (3): 509–15. <https://doi.org/10.1007/s00454-014-9579-4>.
+**[2]** Andriy V. Bondarenko. On Borsuk’s conjecture for two-distance sets. *Discrete & Computational Geometry*, 51(3):509–515, 2014.
 
-Borsuk, Karol. 1933. “Drei Sätze über die $n$-dimensionale euklidische Sphäre.” *Fundamenta Mathematicae* 20: 177–90. <https://doi.org/10.4064/fm-20-1-177-190>.
+**[3]** Karol Borsuk. Drei Sätze über die $n$-dimensionale euklidische Sphäre. *Fundamenta Mathematicae*, 20:177–190, 1933.
 
-Conway, John H., Ronald H. Hardin, and Neil J. A. Sloane. 1996. “Packing Lines, Planes, Etc.: Packings in Grassmannian Spaces.” *Experimental Mathematics* 5 (2): 139–59. <https://doi.org/10.1080/10586458.1996.10504585>.
+**[4]** John H. Conway, Ronald H. Hardin, and Neil J. A. Sloane. Packing lines, planes, etc.: Packings in Grassmannian spaces. *Experimental Mathematics*, 5(2):139–159, 1996.
 
-Frankl, Peter, and Richard M. Wilson. 1981. “Intersection Theorems with Geometric Consequences.” *Combinatorica* 1 (4): 357–68. <https://doi.org/10.1007/BF02579457>.
+**[5]** Peter Frankl and Richard M. Wilson. Intersection theorems with geometric consequences. *Combinatorica*, 1(4):357–368, 1981.
 
-Grey, Jörn, and Bernulf Weißbach. 1997. *Ein weiteres Gegenbeispiel zur Borsukschen Vermutung*. 17th Kolloquium über Kombinatorik, Braunschweig, November 14–15, 1997. <https://www.kolkom.de/download/program/1997-Braunschweig-program.pdf>.
+**[6]** Jörn Grey and Bernulf Weißbach. Ein weiteres Gegenbeispiel zur Borsukschen Vermutung. 17th Kolloquium über Kombinatorik, Braunschweig, November 14–15, 1997, 1997. Conference announcement.
 
-Grinsztajn, Max. 2026. *A 63-Dimensional Counterexample to Borsuk’s Conjecture*. Author manuscript, [author’s repository](https://github.com/maaxgrin/borsuk-63-counterexample/blob/cdcdbeac2e692b8641218c70ce9f414522e125e5/borsuk_63_counterexample.pdf).
+**[7]** Max Grinsztajn. A 63-dimensional counterexample to Borsuk’s conjecture. Author manuscript, [author’s repository](https://github.com/maaxgrin/borsuk-63-counterexample/blob/cdcdbeac2e692b8641218c70ce9f414522e125e5/borsuk_63_counterexample.pdf), May 2026. 6 pp.
 
-Hatcher, Allen. 2002. *Algebraic Topology*. Cambridge University Press. <https://pi.math.cornell.edu/~hatcher/AT/AT.pdf>.
+**[8]** Allen Hatcher. *Algebraic Topology*. Cambridge University Press, 2002. Corrected 2015 reprinting.
 
-Hatcher, Allen. 2017. *Vector Bundles and $K$-Theory*. Version 2.2, [author’s notes](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf).
+**[9]** Allen Hatcher. Vector bundles and $K$-theory. Version 2.2, [author’s notes](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf), 2017. November 2017.
 
-Hinrichs, Aicke. 2002. “Spherical Codes and Borsuk’s Conjecture.” *Discrete Mathematics* 243 (1–3): 253–56. <https://doi.org/10.1016/S0012-365X(01)00202-3>.
+**[10]** Aicke Hinrichs. Spherical codes and Borsuk’s conjecture. *Discrete Mathematics*, 243(1–3):253–256, 2002.
 
-Hinrichs, Aicke, and Christian Richter. 2003. “New Sets with Large Borsuk Numbers.” *Discrete Mathematics* 270 (1–3): 137–47. <https://doi.org/10.1016/S0012-365X(02)00833-6>.
+**[11]** Aicke Hinrichs and Christian Richter. New sets with large Borsuk numbers. *Discrete Mathematics*, 270(1–3):137–147, 2003.
 
-Jenrich, Thomas, and Andries E. Brouwer. 2014. “A 64-Dimensional Counterexample to Borsuk’s Conjecture.” *Electronic Journal of Combinatorics* 21 (4): P4.29. <https://doi.org/10.37236/4069>.
+**[12]** Thomas Jenrich and Andries E. Brouwer. A 64-dimensional counterexample to Borsuk’s conjecture. *Electronic Journal of Combinatorics*, 21(4):P4.29, 2014. 3 pp.
 
-Kahn, Jeff, and Gil Kalai. 1993. “A Counterexample to Borsuk’s Conjecture.” *Bulletin of the American Mathematical Society (N.S.)* 29 (1): 60–62. <https://doi.org/10.1090/S0273-0979-1993-00398-7>.
+**[13]** Jeff Kahn and Gil Kalai. A counterexample to Borsuk’s conjecture. *Bulletin of the American Mathematical Society (N.S.)*, 29(1):60–62, 1993.
 
-Kalai, Gil. 2015. “Some Old and New Problems in Combinatorial Geometry I: Around Borsuk’s Problem.” In *Surveys in Combinatorics 2015*, vol. 424. London Mathematical Society Lecture Note Series. Cambridge University Press. <https://doi.org/10.1017/CBO9781316106853.005>.
+**[14]** Gil Kalai. Some old and new problems in combinatorial geometry I: Around Borsuk’s problem. In *Surveys in Combinatorics 2015*, volume 424 of *London Mathematical Society Lecture Note Series*, pages 147–174. Cambridge University Press, 2015.
 
-Lee, John M. 2013. *Introduction to Smooth Manifolds*. Second. Vol. 218. Graduate Texts in Mathematics. Springer. <https://doi.org/10.1007/978-1-4419-9982-5>.
+**[15]** John M. Lee. *Introduction to Smooth Manifolds*, volume 218 of *Graduate Texts in Mathematics*. Springer, second edition, 2013.
 
-Nilli, A. 1994. “On Borsuk’s Problem.” In *Jerusalem Combinatorics ’93*, vol. 178. Contemporary Mathematics. American Mathematical Society.
+**[16]** A. Nilli. On Borsuk’s problem. In *Jerusalem Combinatorics ’93*, volume 178 of *Contemporary Mathematics*, pages 209–210. American Mathematical Society, 1994.
 
-Pikhurko, Oleg. 2002. *Borsuk’s Conjecture Fails in Dimensions 321 and 322*. [arXiv:math/0202112v1](https://arxiv.org/abs/math/0202112v1). <https://arxiv.org/abs/math/0202112v1>.
+**[17]** Oleg Pikhurko. Borsuk’s conjecture fails in dimensions 321 and 322. [arXiv:math/0202112v1](https://arxiv.org/abs/math/0202112v1), 2002.
 
-Raigorodskii, A. M. 1997. “On the Dimension in Borsuk’s Problem.” *Russian Mathematical Surveys* 52 (6): 1324–25. <https://doi.org/10.1070/RM1997v052n06ABEH002184>.
+**[18]** A. M. Raigorodskii. On the dimension in Borsuk’s problem. *Russian Mathematical Surveys*, 52(6):1324–1325, 1997.
 
-Walkup, David W. 1970. “The Lower Bound Conjecture for 3- and 4-Manifolds.” *Acta Mathematica* 125: 75–107. <https://doi.org/10.1007/BF02392331>.
+**[19]** David W. Walkup. The lower bound conjecture for 3- and 4-manifolds. *Acta Mathematica*, 125:75–107, 1970.
 
-Weißbach, Bernulf. 2000. “Sets with Large Borsuk Number.” *Beiträge Zur Algebra Und Geometrie* 41 (2): 417–23. <https://ftp.gwdg.de/pub/misc/EMIS/journals/BAG/vol.41/no.2/11.html>.
+**[20]** Bernulf Weißbach. Sets with large Borsuk number. *Beiträge zur Algebra und Geometrie*, 41(2):417–423, 2000.

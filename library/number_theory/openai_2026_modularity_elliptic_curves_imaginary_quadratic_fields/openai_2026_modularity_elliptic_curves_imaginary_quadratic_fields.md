@@ -22,13 +22,13 @@ Here $r_\iota$ in the CM isobaric case is the sum of the corresponding character
 
 ### Historical context
 
-The arithmetic groups associated with imaginary quadratic fields and their action on hyperbolic three-space originate in Bianchi’s work (Bianchi 1892). Their presentations and cohomology were developed further by Swan and Harder (Swan 1971; Harder 1987). The expected relationship with elliptic curves belongs to the Langlands program: in (Langlands 1970, sec. 7), Langlands explicitly discusses the automorphy of local representations attached to elliptic curves over global fields of characteristic zero. Grunewald–Helling–Mennicke, Cremona, and Cremona–Whitley developed substantial computations relating elliptic curves and automorphic forms over imaginary quadratic fields (Grunewald et al. 1978; Cremona 1984; Cremona and Whitley 1994).
+The arithmetic groups associated with imaginary quadratic fields and their action on hyperbolic three-space originate in Bianchi’s work [5]. Their presentations and cohomology were developed further by Swan and Harder [34, 24]. The expected relationship with elliptic curves belongs to the Langlands program: in [27, Section 7], Langlands explicitly discusses the automorphy of local representations attached to elliptic curves over global fields of characteristic zero. Grunewald–Helling–Mennicke, Cremona, and Cremona–Whitley developed substantial computations relating elliptic curves and automorphic forms over imaginary quadratic fields [23, 13, 14].
 
-Over $\mathbb Q$, Wiles and Taylor–Wiles proved modularity of semistable elliptic curves (Wiles 1995; Taylor and Wiles 1995), and Breuil–Conrad–Diamond–Taylor proved modularity of every elliptic curve (Breuil et al. 2001). A central method is to lift automorphy from a residual Galois representation. Wiles’s $3$–$5$ switch also shows how an auxiliary elliptic curve, chosen with prescribed torsion and local behavior, can replace a residual representation that does not satisfy the initial lifting hypotheses.
+Over $\mathbb Q$, Wiles and Taylor–Wiles proved modularity of semistable elliptic curves [41, 38], and Breuil–Conrad–Diamond–Taylor proved modularity of every elliptic curve [9]. A central method is to lift automorphy from a residual Galois representation. Wiles’s $3$–$5$ switch also shows how an auxiliary elliptic curve, chosen with prescribed torsion and local behavior, can replace a residual representation that does not satisfy the initial lifting hypotheses.
 
-For imaginary quadratic fields, the relevant cohomology occurs in more than one degree. The construction of Galois representations and the lifting problem both require additional work. Harris–Soudry–Taylor and Taylor constructed representations attached to Bianchi forms in important cases (Harris et al. 1993; Taylor 1994). For conjugation-invariant central character, Berger–Harcos obtained Frobenius compatibility away from finitely many primes (Berger and Harcos 2007). Harris–Lan–Taylor–Thorne constructed Galois representations for general regular algebraic cuspidal representations over CM fields (Harris et al. 2016), and Scholze treated torsion cohomology as well (Scholze 2015). Calegari–Geraghty developed patching for cohomology in several degrees (Calegari and Geraghty 2018). The potential automorphy theorem of Allen–Calegari–Caraiani–Gee–Helm–Le Hung–Newton–Scholze–Taylor–Thorne implies potential modularity of every elliptic curve over a CM field (Allen, Calegari, et al. 2023, Theorem 1.0.1). Boxer–Calegari–Gee–Pilloni also proved potential modularity for genus-one curves over quadratic extensions of totally real fields (Boxer et al. 2021, Theorem 1.1.4). Potential modularity permits an extension of the ground field; automorphy over the original field is a further problem.
+For imaginary quadratic fields, the relevant cohomology occurs in more than one degree. The construction of Galois representations and the lifting problem both require additional work. Harris–Soudry–Taylor and Taylor constructed representations attached to Bianchi forms in important cases [26, 36]. For conjugation-invariant central character, Berger–Harcos obtained Frobenius compatibility away from finitely many primes [4]. Harris–Lan–Taylor–Thorne constructed Galois representations for general regular algebraic cuspidal representations over CM fields [25], and Scholze treated torsion cohomology as well [30]. Calegari–Geraghty developed patching for cohomology in several degrees [10]. The potential automorphy theorem of Allen–Calegari–Caraiani–Gee–Helm–Le Hung–Newton–Scholze–Taylor–Thorne implies potential modularity of every elliptic curve over a CM field [1, Theorem 1.0.1]. Boxer–Calegari–Gee–Pilloni also proved potential modularity for genus-one curves over quadratic extensions of totally real fields [8, Theorem 1.1.4]. Potential modularity permits an extension of the ground field; automorphy over the original field is a further problem.
 
-Allen–Khare–Thorne proved residual modularity results in small characteristics and deduced modularity for a positive proportion of elliptic curves over each CM field not containing a primitive fifth root of unity (Allen, Khare, et al. 2023). Caraiani–Newton proved a lifting theorem allowing small coefficient primes and ramified CM fields, together with the local-global compatibility needed for its applications (Caraiani and Newton 2025). Their results give modularity under suitable residual-image hypotheses in characteristic $3$ or $5$, modularity for $100\%$ of Weierstrass equations, ordered by height, over each Galois CM field not containing $\zeta_5$, and modularity of every elliptic curve over an imaginary quadratic field $K$ for which $X_0(15)(K)$ has rank zero (Caraiani and Newton 2025, Theorem 6.1 and Corollaries 6.1.2 and 7.1.2). Theorem 1.1 removes the remaining restrictions on the curve and the imaginary quadratic field. Caraiani–Newton’s lifting theorem and residual-image criterion for modularity of elliptic curves remain essential inputs.
+Allen–Khare–Thorne proved residual modularity results in small characteristics and deduced modularity for a positive proportion of elliptic curves over each CM field not containing a primitive fifth root of unity [2]. Caraiani–Newton proved a lifting theorem allowing small coefficient primes and ramified CM fields, together with the local-global compatibility needed for its applications [11]. Their results give modularity under suitable residual-image hypotheses in characteristic $3$ or $5$, modularity for $100\%$ of Weierstrass equations, ordered by height, over each Galois CM field not containing $\zeta_5$, and modularity of every elliptic curve over an imaginary quadratic field $K$ for which $X_0(15)(K)$ has rank zero [11, Theorem 6.1 and Corollaries 6.1.2 and 7.1.2]. Theorem 1.1 removes the remaining restrictions on the curve and the imaginary quadratic field. Caraiani–Newton’s lifting theorem and residual-image criterion for modularity of elliptic curves remain essential inputs.
 
 ### The geometric prime switch
 
@@ -48,7 +48,7 @@ There are two useful degenerations of the covers. At one, the Jacobian has compa
 
 Two specialization arguments complete the construction. First, finite torsion is locally constant in a family over a local field. Once semistability is secured, the full Frobenius polynomials belong to a finite set. Sufficiently deep torsion comparison with the fiber $E^n$ therefore preserves its toric rank and, in the good-reduction case, its Newton slopes. This provides simultaneous local conditions for every character piece. Second, Hilbert irreducibility is applied to the restriction of scalars of the parameter line from $K$ to $\mathbb Q$. The two conjugate families then occur in one finite monodromy quotient. This ensures the required residual genericity at every place above a rational split prime, while retaining the prescribed local conditions on $t$.
 
-The construction has close antecedents. Cyclic covers of elliptic curves with two branch points and dihedral symmetry occur in the real-multiplication constructions of Tautz–Top–Verberkmoes and in Ellenberg’s treatment of Jacobian endomorphism algebras (Tautz et al. 1991; Ellenberg 2001); Mestre’s constructions form part of the same geometric tradition (Mestre 1991). Darmon developed congruences that remove prime-power parts of monodromy and a conditional modularity argument based on successive lifts for rigid local systems (Darmon 1999, 2000). The coefficient $2-\zeta-\zeta^{-1}$ in our monodromy calculation also appears in the rank-two monodromy studied by Darmon–Mestre (Darmon and Mestre 2000). Taylor’s use of auxiliary abelian varieties with real multiplication is another higher-dimensional form of prime switching (Taylor 2002).
+The construction has close antecedents. Cyclic covers of elliptic curves with two branch points and dihedral symmetry occur in the real-multiplication constructions of Tautz–Top–Verberkmoes and in Ellenberg’s treatment of Jacobian endomorphism algebras [35, 19]; Mestre’s constructions form part of the same geometric tradition [29]. Darmon developed congruences that remove prime-power parts of monodromy and a conditional modularity argument based on successive lifts for rigid local systems [15, 16]. The coefficient $2-\zeta-\zeta^{-1}$ in our monodromy calculation also appears in the rank-two monodromy studied by Darmon–Mestre [17]. Taylor’s use of auxiliary abelian varieties with real multiplication is another higher-dimensional form of prime switching [37].
 
 The feature developed here is the combination for a *prescribed* elliptic curve: the character orders $1,p,3p,3$ occur in one integral cohomology lattice, an elliptic curve occurs at each end of the chain, and the compact-type degeneration and simultaneous residual specialization make every step applicable to the CM-field lifting theorem. The local constancy argument and the two-conjugate specialization argument are formulated separately, so they can be used independently of the final automorphy application.
 
@@ -58,7 +58,7 @@ Sections 3 and 4 establish the cover geometry and integral monodromy. Section�
 
 We use the cohomological realization $$H^1(X)=H^1_{\mathrm{\acute et}}(X_{\overline L},\mathbb Q_l)$$ for a smooth proper variety over a number field $L$; coefficient extensions will always be indicated or understood. We write $G_L=\mathop{\mathrm{Gal}}(\overline L/L)$. The cyclotomic character $\epsilon_l$ has Hodge–Tate weight $-1$ in our convention. Thus an elliptic curve has labeled Hodge–Tate weights $0,1$, and its $H^1$ has determinant $\epsilon_l^{-1}$. The bar on a characteristic-zero representation denotes the semisimplification of the reduction of a stable lattice. This semisimplification is independent of the lattice.
 
-For a regular algebraic cuspidal representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ over a CM field, let $r_\iota(\pi)$ denote the associated semisimple $l$-adic representation, where $\iota:\overline{\mathbb Q}_l\xrightarrow{\sim}\mathbb C$. We use the normalization of (Harris et al. 2016; Scholze 2015; Caraiani and Newton 2025): the local comparison is with $$\begin{equation}
+For a regular algebraic cuspidal representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ over a CM field, let $r_\iota(\pi)$ denote the associated semisimple $l$-adic representation, where $\iota:\overline{\mathbb Q}_l\xrightarrow{\sim}\mathbb C$. We use the normalization of [25, 30, 11]: the local comparison is with $$\begin{equation}
 \tag{2.1}
  \mathop{\mathrm{rec}}^T_{L_v}(\pi_v)
  :=\mathop{\mathrm{rec}}_{L_v}\bigl(\pi_v\otimes|\det|_v^{-1/2}\bigr).
@@ -130,7 +130,7 @@ At the separated sections the normalization has the smooth local description use
 
 The restriction of $f_R$ to the main elliptic component has no divisor, and is therefore constant. At its node with the exceptional component this constant is $f_{\mathrm{exc}}(\infty)=1$. The cover of the main component is consequently the disjoint union of the $m$ copies of $E$ given by $Y\in\mu_m$. On the exceptional line the substitution $$Y'=Y\left(\frac{v-1}{v+1}\right)^{n/m}$$ gives $Y'^m=(v-n)/(v+n)$. Its $m$ points over $v=\infty$ are defined over $k$ and attach to the $m$ elliptic components, one each.
 
-The dual graph is a tree, as illustrated in Figure 1. Thus the fiber is of compact type: its identity-component Picard variety is the product of the Jacobians of its components, namely $E^m$. The marked point $(O,1)$ extends to a section through the smooth locus. The relative Picard theorem for a family of nodal curves of compact type then makes the Jacobian family an abelian scheme across this fiber. More precisely, the relative identity-component Picard scheme is semi-abelian, and its torus vanishes when the dual graph is a tree; see (Bosch et al. 1990, sec. 9.4, Theorem 1, and Section 9.2, Proposition 10). Shrinking the parameter neighborhood removes the other singular fibers and gives the asserted extension. ◻
+The dual graph is a tree, as illustrated in Figure 1. Thus the fiber is of compact type: its identity-component Picard variety is the product of the Jacobians of its components, namely $E^m$. The marked point $(O,1)$ extends to a section through the smooth locus. The relative Picard theorem for a family of nodal curves of compact type then makes the Jacobian family an abelian scheme across this fiber. More precisely, the relative identity-component Picard scheme is semi-abelian, and its torus vanishes when the dual graph is a tree; see [7, Section 9.4, Theorem 1, and Section 9.2, Proposition 10]. Shrinking the parameter neighborhood removes the other singular fibers and gives the asserted extension. ◻
 
 **Remark 3.4**. Proposition 3.3 concerns an abelian scheme over an open subset of the characteristic-zero parameter curve $E_k$. After passing to a completion of $k$, it remains a family over that local field. No assertion about extending the Kummer cover over a ring of integers, particularly in residue characteristic dividing $m$, is needed here. The arithmetic reduction types of nearby Jacobians will be established separately.
 
@@ -209,7 +209,7 @@ Let $s$ approach $1/2$ in (4.1). The branch points meet at $a/2$, while the slit
  \tag{4.6}
 \end{align}$$ where $\sigma_a,\sigma_b\in\{1,-1\}$ are independent of $j$. Equivalently, their two off-diagonal entries, in the basis of the free $\mathbb Z[\Gamma_m]$-module, are $\sigma_a(2-u-u^{-1})$ and $\sigma_b(2-u-u^{-1})$. The geometric monodromy of the family over $U$ contains these actions as well, under the pullback identification.*
 
-*Proof.* The Picard–Lefschetz formula for a positively oriented loop about a semistable fiber is the product of the Dehn twists at its nodes; see (Deligne and Katz 1973, Exposé XV). In the present family, every node has smoothing order one by (3.7), so every twist has exponent one. The vanishing cycles are disjoint. Their intersection pairings with one another therefore vanish, and the product acts on a class $\gamma$ by $$\begin{equation}
+*Proof.* The Picard–Lefschetz formula for a positively oriented loop about a semistable fiber is the product of the Dehn twists at its nodes; see [18, Exposé XV]. In the present family, every node has smoothing order one by (3.7), so every twist has exponent one. The vanishing cycles are disjoint. Their intersection pairings with one another therefore vanish, and the product acts on a class $\gamma$ by $$\begin{equation}
 \tag{4.7}
  \gamma\longmapsto
  \gamma+\sigma\sum_i
@@ -227,7 +227,7 @@ The operator $2-u-u^{-1}$ is the cyclic difference operator arising from the adj
 
 The cyclic covers now supply the Galois representations through which we will transfer automorphy. The involution identifies opposite rotation characters, giving each character space the determinant and Hodge–Tate weights of an elliptic curve. The integral regular-module calculation will then give congruences even at primes dividing the covering degree.
 
-Return to an imaginary quadratic field $K$ and a non-CM elliptic curve $E/K$. By Serre’s open image theorem (Serre 1972, sec. 4.4, Théorème 3), choose a prime $p>100$ such that the image of $G_K$ on $E[p]$ contains $\mathop{\mathrm{SL}}_2(\mathbb F_p)$. Set $$\begin{equation}
+Return to an imaginary quadratic field $K$ and a non-CM elliptic curve $E/K$. By Serre’s open image theorem [31, §4.4, Théorème 3], choose a prime $p>100$ such that the image of $G_K$ on $E[p]$ contains $\mathop{\mathrm{SL}}_2(\mathbb F_p)$. Set $$\begin{equation}
 \tag{5.1}
  n=3p,\qquad F=K(\mu_n).
 \end{equation}$$ Both $K/\mathbb Q$ and $\mathbb Q(\mu_n)/\mathbb Q$ are abelian, so $F/\mathbb Q$ is abelian. It is a CM field: complex conjugation is central, its fixed field is totally real, and $F$ has no real embedding because it contains $K$. Moreover, $$\begin{equation}
@@ -262,12 +262,12 @@ Let $\langle\ ,\ \rangle$ be the cup-product pairing on $H^1(C_n)$, with values 
    =\langle w^*y,x\rangle
    =-\langle x,w^*y\rangle.$$ A perfect alternating pairing on a two-dimensional space identifies its determinant with the target line. This proves $\det V_{\theta,\ell}=\epsilon_\ell^{-1}$.
 
-To compute the Hodge numbers, make any embedding of $F$ into $\mathbb C$. Let $a_\theta$ be the multiplicity of $\theta$ in the holomorphic differentials of the resulting complex curve. The holomorphic involution $w$ gives $a_\theta=a_{\theta^{-1}}$. Hodge decomposition and complex conjugation identify the dimension of the full $\theta$-space with $a_\theta+a_{\theta^{-1}}$. Since this dimension is two, $a_\theta=1$. This argument works for every embedding and every character. The comparison theorems therefore give the labelled weights $0,1$. Potential semistability follows from semistable reduction and the semistable comparison theorem for smooth proper varieties; see (Tsuji 1999). These properties pass to the character summands.
+To compute the Hodge numbers, make any embedding of $F$ into $\mathbb C$. Let $a_\theta$ be the multiplicity of $\theta$ in the holomorphic differentials of the resulting complex curve. The holomorphic involution $w$ gives $a_\theta=a_{\theta^{-1}}$. Hodge decomposition and complex conjugation identify the dimension of the full $\theta$-space with $a_\theta+a_{\theta^{-1}}$. Since this dimension is two, $a_\theta=1$. This argument works for every embedding and every character. The comparison theorems therefore give the labelled weights $0,1$. Potential semistability follows from semistable reduction and the semistable comparison theorem for smooth proper varieties; see [39]. These properties pass to the character summands.
 
 Outside a finite set, $C_n$ has good reduction and the rotations extend to its smooth proper model. Smooth proper base change gives unramifiedness. The projector onto the $\theta$-space is $$e_\theta=\frac1n\sum_{u\in\mu_n(F)}
               j_\ell(\theta(u))^{-1}u^*.$$ This formula is used only in characteristic zero. The Lefschetz trace formula for a rotation composed with a positive power of Frobenius shows that its trace on $H^1(C_n)$ is independent of $\ell$. Applying the displayed projector gives traces in $M$, compatible under the embeddings $j_\ell$. Together with the already determined determinant, this gives the asserted common characteristic polynomial.
 
-Finally, $H^1(C_n)$ is the first cohomology of its Jacobian. Faltings’ semisimplicity theorem (Faltings 1983, sec. 5, Satz 3) makes this a semisimple $G_F$-representation. Extension of scalars and passage to a $G_F$-stable direct summand preserve semisimplicity, proving the remaining assertion. ◻
+Finally, $H^1(C_n)$ is the first cohomology of its Jacobian. Faltings’ semisimplicity theorem [20, §5, Satz 3] makes this a semisimple $G_F$-representation. Extension of scalars and passage to a $G_F$-stable direct summand preserve semisimplicity, proving the remaining assertion. ◻
 
 ### The two elliptic-curve realizations
 
@@ -316,14 +316,14 @@ The direction of propagation is now fixed: automorphy will pass from $V_\eta$ to
 
 ## Automorphy inputs and the remaining specialization conditions
 
-The congruences of Corollary 5.4 connect the cohomology of the auxiliary elliptic curve $A$ to that of the twist $B_t$ of $E$. To turn them into a proof of automorphy, we use two results of Caraiani–Newton. We state the precise forms needed here, and then identify the properties that the parameter $t$ must satisfy. All the results quoted from (Caraiani and Newton 2025) use the numbering of its third arXiv version.
+The congruences of Corollary 5.4 connect the cohomology of the auxiliary elliptic curve $A$ to that of the twist $B_t$ of $E$. To turn them into a proof of automorphy, we use two results of Caraiani–Newton. We state the precise forms needed here, and then identify the properties that the parameter $t$ must satisfy. All the results quoted from [11] use the numbering of its third arXiv version.
 
 **Definition 6.1** (Decomposed genericity). Let $L$ be a number field and let $\overline r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb F}_l)$ be continuous. The representation is *decomposed generic* if there is a rational prime $q\ne l$ splitting completely in $L$ such that, for every $v\mid q$, it is unramified at $v$ and its Frobenius eigenvalues $\alpha_v,\beta_v$ satisfy $$\alpha_v/\beta_v\ne q,\qquad \beta_v/\alpha_v\ne q
  \quad\text{in }\overline{\mathbb F}_l.$$
 
-This is (Caraiani and Newton 2025, Definition 2.1.27). Our construction will give $q\equiv1\pmod l$, so it is enough to make the two eigenvalues distinct at *every* place above $q$.
+This is [11, Definition 2.1.27]. Our construction will give $q\equiv1\pmod l$, so it is enough to make the two eigenvalues distinct at *every* place above $q$.
 
-We use potential ordinarity of Galois representations in the convention of Section 2. The corresponding automorphic condition, called *$\iota$-ordinarity of weight zero*, is the ordinary Hecke condition used in (Caraiani and Newton 2025, Theorem 5.2). It is imposed at a sufficiently deep level and therefore allows ramified finite-order characters. We will obtain it only for quadratic twists of Steinberg, using the local calculation in (Caraiani and Newton 2025, Lemma 6.1.3(4)).
+We use potential ordinarity of Galois representations in the convention of Section 2. The corresponding automorphic condition, called *$\iota$-ordinarity of weight zero*, is the ordinary Hecke condition used in [11, Theorem 5.2]. It is imposed at a sufficiently deep level and therefore allows ramified finite-order characters. We will obtain it only for quadratic twists of Steinberg, using the local calculation in [11, Lemma 6.1.3(4)].
 
 **Theorem 6.2** (Caraiani–Newton, specialized form). *Let $L$ be a CM number field and $l$ an odd prime other than $5$. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb Q}_l)$ be continuous, unramified outside finitely many places, with determinant $\epsilon_l^{-1}$. Suppose that $r$ is potentially semistable with labeled Hodge–Tate weights $0,1$ at every $v\mid l$, that $\overline r$ is decomposed generic, and that $\overline r|_{G_{L(\zeta_l)}}$ is absolutely irreducible.*
 
@@ -335,18 +335,18 @@ We use potential ordinarity of Galois representations in the convention of Secti
 
 *Then $r\simeq r_\iota(\Pi)$ for a cuspidal weight-zero regular algebraic representation $\Pi$ of $\mathop{\mathrm{PGL}}_2(\mathbb A_L)$.*
 
-This is a sufficient-hypothesis specialization of (Caraiani and Newton 2025, Theorem 5.2). Its inverse-cyclotomic determinant hypothesis permits $l=3$, including residual image $\mathop{\mathrm{SL}}_2(\mathbb F_3)$; see (Caraiani and Newton 2025, Remark 5.2.2). No additional residual adequacy assumption is being made. All three applications below have $l=3$ or $l=p>100$.
+This is a sufficient-hypothesis specialization of [11, Theorem 5.2]. Its inverse-cyclotomic determinant hypothesis permits $l=3$, including residual image $\mathop{\mathrm{SL}}_2(\mathbb F_3)$; see [11, Remark 5.2.2]. No additional residual adequacy assumption is being made. All three applications below have $l=3$ or $l=p>100$.
 
 **Theorem 6.3** (Elliptic starting point). *Let $L$ be a CM number field not containing $\zeta_5$, and let $A/L$ be a non-CM elliptic curve. If its mod-$5$ representation is decomposed generic and is absolutely irreducible on $G_{L(\zeta_5)}$, then $H^1(A)$ is realized by a cuspidal weight-zero regular algebraic representation of $\mathop{\mathrm{PGL}}_2(\mathbb A_L)$.*
 
-This is (Caraiani and Newton 2025, Theorem 6.1 and Lemma 6.1.3), after dualizing the Tate-module convention there when necessary. Absolute irreducibility and decomposed genericity in dimension two are preserved by duality.
+This is [11, Theorem 6.1 and Lemma 6.1.3], after dualizing the Tate-module convention there when necessary. Absolute irreducibility and decomposed genericity in dimension two are preserved by duality.
 
 For later use we also record the compatibility available after an elliptic curve itself is known to be modular.
 
 **Theorem 6.4** (Compatibility for modular elliptic curves). *Let $D/L$ be a non-CM elliptic curve over a CM number field. Suppose that a regular algebraic cuspidal representation $\pi$ realizes $H^1(D)$ at one coefficient prime. Then $\pi$ has weight zero and trivial central character, realizes $H^1(D)$ at every coefficient prime and every coefficient isomorphism, and satisfies $$\iota\mathop{\mathrm{WD}}\bigl(H^1(D,\overline{\mathbb Q}_l)|_{G_{L_v}}\bigr)^{\mathrm{F\text{-}ss}}
  \simeq\mathop{\mathrm{rec}}^T_{L_v}(\pi_v)\qquad(v\nmid l).$$ If $D$ has potentially multiplicative reduction at $v\mid l$, then $\pi$ is $\iota$-ordinary of weight zero there.*
 
-This is (Caraiani and Newton 2025, Lemma 6.1.3). For the intermediate systems, which need not come from elliptic curves, we use instead the general existence and good-place compatibility of $r_\iota(\pi)$ from (Harris et al. 2016; Scholze 2015), and Varma’s equality of the underlying semisimplified Weil representations at $v\nmid l$ (Varma 2024, Theorem 1). The local reduction analysis in Section 7 will supply the additional facts needed in Theorem 6.2.
+This is [11, Lemma 6.1.3]. For the intermediate systems, which need not come from elliptic curves, we use instead the general existence and good-place compatibility of $r_\iota(\pi)$ from [25, 30], and Varma’s equality of the underlying semisimplified Weil representations at $v\nmid l$ [40, Theorem 1]. The local reduction analysis in Section 7 will supply the additional facts needed in Theorem 6.2.
 
 Here is what remains to be arranged for a single parameter $t\in U(K)$. The determinant and Hodge–Tate conditions hold for every parameter by Proposition 5.1. At places above $3p$, we will make the Jacobian of $C_n(t)$ potentially good ordinary, potentially good with all Newton slopes $1/2$, or potentially totally toric, according to the reduction type of $E$. This will make all four systems potentially crystalline and potentially ordinary, potentially crystalline but not potentially ordinary, or non-potentially crystalline, respectively. Section 7 obtains these properties from nonempty local open conditions on $t$.
 
@@ -370,7 +370,7 @@ The finite torsion module will first ensure semistability and then identify a Fr
 
 **Lemma 7.2** (Finitely many semistable Frobenius polynomials). *Fix a local field $L$ with residue field of cardinality $Q$, an integer $g\geq 1$, and a prime $d$ different from the residue characteristic. For a semistable abelian variety $A/L$ of dimension $g$, let $$P_A(T)=\det\bigl(T-\operatorname{Frob}_L\mid V_d(A)\bigr),$$ where $\operatorname{Frob}_L$ is any lift of arithmetic Frobenius. Then $P_A(T)$ belongs to $\mathbb Z[T]$, is independent of the lift and of $d$, and ranges over a finite set depending only on $g$ and $Q$. Moreover, $P_A$ determines the toric rank of $A$; if that rank is zero, it also determines the Newton polygon of its good reduction.*
 
-*Proof.* Let $r$ be the toric rank of $A$. The semistable filtration of Grothendieck identifies the graded pieces of $V_d(A)$ with the rational Tate module of a torus of rank $r$, the rational Tate module of an abelian variety of dimension $g-r$ with good reduction, and a lattice of rank $r$ (Grothendieck et al. 1972, Exposé IX). The character lattice of the torus and the lattice quotient have finite unramified Galois action. Consequently the arithmetic Frobenius eigenvalues on the toric and lattice graded pieces are respectively $Q$ times roots of unity and roots of unity. The middle piece has the $2(g-r)$ Frobenius eigenvalues of an abelian variety over $\mathbb F_Q$, all of complex absolute value $Q^{1/2}$.
+*Proof.* Let $r$ be the toric rank of $A$. The semistable filtration of Grothendieck identifies the graded pieces of $V_d(A)$ with the rational Tate module of a torus of rank $r$, the rational Tate module of an abelian variety of dimension $g-r$ with good reduction, and a lattice of rank $r$ [22, Exposé IX]. The character lattice of the torus and the lattice quotient have finite unramified Galois action. Consequently the arithmetic Frobenius eigenvalues on the toric and lattice graded pieces are respectively $Q$ times roots of unity and roots of unity. The middle piece has the $2(g-r)$ Frobenius eigenvalues of an abelian variety over $\mathbb F_Q$, all of complex absolute value $Q^{1/2}$.
 
 Each graded piece has an integral characteristic polynomial independent of $d$: for the toric and lattice pieces this follows from the finite-order integral actions just described, together with the toric Tate twist; for the abelian piece it is the usual finite-field Frobenius polynomial. Inertia acts trivially on the graded pieces, so the product of these three polynomials is also independent of the lift of Frobenius. Every root has complex absolute value at most $Q$. Thus the coefficient of $T^{2g-j}$ has absolute value at most $\binom{2g}{j}Q^j$. Integral polynomials of fixed degree with these bounds form a finite set.
 
@@ -388,7 +388,7 @@ Exactly $r$ roots have absolute value $1$, exactly $r$ have absolute value $Q$, 
 
 *Proof.* Choose an odd prime $d$ different from the residue characteristic. By semistable reduction, we may choose a finite extension $L/L_0$ over which $\mathcal A_{x_0}$ is semistable and all its $d$-torsion points are rational. Lemma 7.1, applied after base change to $L$, shows that, in a neighborhood of $x_0$, all nearby fibers also have rational $d$-torsion over $L$.
 
-These fibers are semistable over $L$. Indeed, the matrix of any inertia element on their $d$-adic Tate module has the form $1+dB$ with $B$ integral. Each eigenvalue $\lambda$ therefore satisfies $v_d(\lambda-1)\geq 1$, where $v_d(d)=1$. The local monodromy theorem makes $\lambda$ a root of unity. For odd $d$ the only root of unity satisfying this inequality is $1$: a root with nontrivial prime-to-$d$ part has $v_d(\lambda-1)=0$, and a primitive $d^a$th root has valuation $1/(d^{a-1}(d-1))<1$. Thus every inertia element acts unipotently, and Grothendieck’s criterion gives semistability (Grothendieck et al. 1972, Exposé IX).
+These fibers are semistable over $L$. Indeed, the matrix of any inertia element on their $d$-adic Tate module has the form $1+dB$ with $B$ integral. Each eigenvalue $\lambda$ therefore satisfies $v_d(\lambda-1)\geq 1$, where $v_d(d)=1$. The local monodromy theorem makes $\lambda$ a root of unity. For odd $d$ the only root of unity satisfying this inequality is $1$: a root with nontrivial prime-to-$d$ part has $v_d(\lambda-1)=0$, and a primitive $d^a$th root has valuation $1/(d^{a-1}(d-1))<1$. Thus every inertia element acts unipotently, and Grothendieck’s criterion gives semistability [22, Exposé IX].
 
 Let $\mathcal P$ be the finite set of polynomials in Lemma 7.2 for dimension $g$ and the residue cardinality of $L$. Choose $j$ so large that reduction modulo $d^j$ is injective on $\mathcal P$. A second application of Lemma 7.1 gives, throughout a smaller neighborhood, $$\mathcal A_x[d^j](\overline L)\simeq
  \mathcal A_{x_0}[d^j](\overline L)
@@ -406,7 +406,7 @@ The third possibility in Proposition 7.3 must force nonzero monodromy on *each*
 \tag{7.1}
  \bigl(v_L(q_{ij})\bigr)_{1\leq i,j\leq g}
  \quad\text{is nonsingular.}
-\end{equation}$$ This is the toric case of the monodromy pairing for a semistable abelian variety (Grothendieck et al. 1972, Exposé IX); its realization on de Rham cohomology is described in (Coleman and Iovita 1999).
+\end{equation}$$ This is the toric case of the monodromy pairing for a semistable abelian variety [22, Exposé IX]; its realization on de Rham cohomology is described in [12].
 
 If $d\ne\ell$, the same pairing describes the monodromy map from the lattice quotient to the toric subspace of the Tate module. Its nondegeneracy gives rank $g$. We now prove this rank assertion for $d=\ell$.
 
@@ -414,10 +414,10 @@ Toric uniformization supplies an exact sequence $$\begin{equation}
 \tag{7.2}
  0\longrightarrow\mathbb Q_\ell(1)^g\longrightarrow V_\ell(A)
    \longrightarrow\mathbb Q_\ell^g\longrightarrow0,
-\end{equation}$$ whose extension classes are the Kummer classes of the $q_{ij}$. The representation is semistable, by the semistable comparison theorem for abelian varieties (Coleman and Iovita 1999). Let $L_{\mathrm{ur}}$ be the maximal unramified subfield of $L$, and write $D_{\mathrm{st}}$ for Fontaine’s semistable functor over $L$. On the two outer terms of (7.2), monodromy is zero. Consequently it induces a map $$\nu:D_{\mathrm{st}}(\mathbb Q_\ell^g)
+\end{equation}$$ whose extension classes are the Kummer classes of the $q_{ij}$. The representation is semistable, by the semistable comparison theorem for abelian varieties [12]. Let $L_{\mathrm{ur}}$ be the maximal unramified subfield of $L$, and write $D_{\mathrm{st}}$ for Fontaine’s semistable functor over $L$. On the two outer terms of (7.2), monodromy is zero. Consequently it induces a map $$\nu:D_{\mathrm{st}}(\mathbb Q_\ell^g)
        \longrightarrow D_{\mathrm{st}}(\mathbb Q_\ell(1)^g).$$ After the standard identifications, Frobenius on these two spaces is respectively $\sigma$ and $\ell^{-1}\sigma$, with $\sigma$ the Frobenius of $L_{\mathrm{ur}}/\mathbb Q_\ell$. The identity $N\varphi=\ell\varphi N$ therefore makes $\ker\nu\subset L_{\mathrm{ur}}^g$ stable under $\sigma$.
 
-Suppose that $\nu$ has rank less than $g$. Finite Galois descent for $L_{\mathrm{ur}}/\mathbb Q_\ell$ then gives a nonzero vector $a=(a_j)\in\mathbb Q_\ell^g\cap\ker\nu$. Pull (7.2) back along the line spanned by $a$ in its trivial quotient. The resulting extension of $\mathbb Q_\ell$ by $\mathbb Q_\ell(1)^g$ is semistable and has zero monodromy, hence is crystalline. Under Kummer theory the Bloch–Kato crystalline subspace $H_f^1(L,\mathbb Q_\ell(1))$ is the kernel of the valuation map (Bloch and Kato 1990, Example 3.9). Applying this to each coordinate of the pulled-back extension gives $$\sum_{j=1}^g a_jv_L(q_{ij})=0
+Suppose that $\nu$ has rank less than $g$. Finite Galois descent for $L_{\mathrm{ur}}/\mathbb Q_\ell$ then gives a nonzero vector $a=(a_j)\in\mathbb Q_\ell^g\cap\ker\nu$. Pull (7.2) back along the line spanned by $a$ in its trivial quotient. The resulting extension of $\mathbb Q_\ell$ by $\mathbb Q_\ell(1)^g$ is semistable and has zero monodromy, hence is crystalline. Under Kummer theory the Bloch–Kato crystalline subspace $H_f^1(L,\mathbb Q_\ell(1))$ is the kernel of the valuation map [6, Example 3.9]. Applying this to each coordinate of the pulled-back extension gives $$\sum_{j=1}^g a_jv_L(q_{ij})=0
  \qquad(1\leq i\leq g),$$ contrary to (7.1). Thus $N$ has rank $g$ on $V_\ell(A)$. Dualizing gives the same rank on $H^1_{\mathrm{et}}(A_{\overline L},\mathbb Q_\ell)$. ◻
 
 ### Open conditions on the original parameter
@@ -519,7 +519,7 @@ We next record precisely the specialization theorem needed to preserve these fin
  s_x(G_D)=\ker\bigl(H\longrightarrow\mathop{\mathrm{Gal}}(D/\mathbb Q)\bigr).
 \end{equation}$$*
 
-*Proof.* The quotient $H$ defines a connected finite $\acute etale$ Galois cover of $W$. Hilbert irreducibility with weak approximation gives a rational point in the prescribed local opens for which its fiber is connected; see (Serre 2008, Proposition 3.3.1 and Theorem 3.5.3). Connectedness of this Galois fiber is equivalent to surjectivity of $s_x$. Geometric connectedness of the cover is not required. The composition of $s_x$ with $H\to\mathop{\mathrm{Gal}}(D/\mathbb Q)$ is the usual restriction map of absolute Galois groups. Consequently, an element of $H$ in the displayed kernel has a preimage in $G_D$, which proves (8.4). ◻
+*Proof.* The quotient $H$ defines a connected finite $\acute etale$ Galois cover of $W$. Hilbert irreducibility with weak approximation gives a rational point in the prescribed local opens for which its fiber is connected; see [32, Proposition 3.3.1 and Theorem 3.5.3]. Connectedness of this Galois fiber is equivalent to surjectivity of $s_x$. Geometric connectedness of the cover is not required. The composition of $s_x$ with $H\to\mathop{\mathrm{Gal}}(D/\mathbb Q)$ is the usual restriction map of absolute Galois groups. Consequently, an element of $H$ in the displayed kernel has a preimage in $G_D$, which proves (8.4). ◻
 
 **Proposition 8.4**. *Let $S_K$ be a finite set of finite places of $K$ containing all places above $3p$. For each $v_0\in S_K$, prescribe a nonempty open subset $\Omega_{v_0}\subset U(K_{v_0})$. There exists a single $t\in U(K)$ lying in every $\Omega_{v_0}$ such that the following assertions hold over $F=K(\mu_{3p})$.*
 
@@ -572,13 +572,13 @@ The next lift also requires information about the local automorphic components a
 
 (ii) *If $J_t$ acquires semistable reduction of toric rank $n$ at $v$, then $\pi_v$ is a quadratic or trivial twist of the Steinberg representation, and $\pi$ is $\iota_l$-ordinary of weight zero at $v$.*
 
-*Proof.* Choose a coefficient prime $a$ different from the residue characteristic $l$. Lemma 9.1 identifies $r_{\iota_a}(\pi)$ with $V_{\theta,a}$. Varma’s local-global compatibility theorem identifies the underlying semisimplified Weil representations of its local Weil–Deligne parameter and $\mathop{\mathrm{rec}}^T_{F_v}(\pi_v)$ (Varma 2024, Theorem 1). We use this statement about the Weil representations first; equality of the monodromy operators is not assumed.
+*Proof.* Choose a coefficient prime $a$ different from the residue characteristic $l$. Lemma 9.1 identifies $r_{\iota_a}(\pi)$ with $V_{\theta,a}$. Varma’s local-global compatibility theorem identifies the underlying semisimplified Weil representations of its local Weil–Deligne parameter and $\mathop{\mathrm{rec}}^T_{F_v}(\pi_v)$ [40, Theorem 1]. We use this statement about the Weil representations first; equality of the monodromy operators is not assumed.
 
 In the potentially good case, pass to an extension where the Jacobian has good reduction. All Frobenius eigenvalues on its $H^1$, and hence on the character summand, have complex absolute value the square root of the residue cardinality. Taking a positive power of Frobenius shows that the two eigenvalues before this extension also have the same absolute value. A rank-two Weil–Deligne representation with nonzero monodromy has Frobenius eigenvalues differing by the norm character. They cannot have the same absolute value. Thus the automorphic parameter has zero monodromy. The Tate twist in (2.1) does not change this conclusion.
 
 In the totally toric case, Corollary 7.6 gives nonzero monodromy on $V_{\theta,a}$. Its semisimplified Weil representation is therefore a sum of two characters differing by the norm. For this Weil representation, the two possibilities under the local Langlands correspondence for $\mathop{\mathrm{GL}}_2$ are the special parameter with nonzero monodromy and the zero-monodromy parameter of a one-dimensional local representation. The latter is not generic. Since every local component of a cuspidal automorphic representation of $\mathop{\mathrm{GL}}_2$ is generic, $\pi_v$ is a twist of Steinberg. Its central character is trivial, so the twisting character has square one.
 
-The local calculation in the proof of (Caraiani and Newton 2025, Lemma 6.1.3(4)), which invokes the proof of (Geraghty 2019, Lemma 5.6), shows that a quadratic twist of Steinberg is $\iota_l$-ordinary of weight zero. This calculation uses only the stated local representation and trivial central character. In particular, it also applies when the quadratic character is ramified: the ordinary condition is imposed at a sufficiently deep level, and a finite-order twist multiplies the relevant normalized Hecke eigenvalues by units. ◻
+The local calculation in the proof of [11, Lemma 6.1.3(4)], which invokes the proof of [21, Lemma 5.6], shows that a quadratic twist of Steinberg is $\iota_l$-ordinary of weight zero. This calculation uses only the stated local representation and trivial central character. In particular, it also applies when the quadratic character is ramified: the ordinary condition is imposed at a sufficiently deep level, and a finite-order twist multiplies the relevant normalized Hecke eigenvalues by units. ◻
 
 ### The three lifts
 
@@ -606,7 +606,7 @@ We recall why automorphy over the cyclotomic extension suffices here. The charac
 
 **Lemma 9.4**. *Let $L'/L$ be a cyclic extension of prime degree between CM fields. Let $r:G_L\to\mathop{\mathrm{GL}}_2(\overline{\mathbb Q}_l)$ be a continuous representation whose restriction to $G_{L'}$ is absolutely irreducible. Suppose that this restriction is realized by a cuspidal weight-zero regular algebraic representation $\Pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_{L'})$. Then $r$ is realized by a cuspidal weight-zero regular algebraic representation of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$.*
 
-*Proof.* For $\sigma\in\mathop{\mathrm{Gal}}(L'/L)$, the representations $\Pi^\sigma$ and $\Pi$ have the same good-place Hecke polynomials, because the associated Galois representation extends to $G_L$. Strong multiplicity one makes $\Pi$ Galois invariant. The cyclic base-change theorem therefore gives a cuspidal automorphic representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ whose base change is $\Pi$ (Langlands 1980; Arthur and Clozel 1989). Every archimedean place is complex, so its local extension is trivial. Consequently $\pi$ is regular algebraic of weight zero.
+*Proof.* For $\sigma\in\mathop{\mathrm{Gal}}(L'/L)$, the representations $\Pi^\sigma$ and $\Pi$ have the same good-place Hecke polynomials, because the associated Galois representation extends to $G_L$. Strong multiplicity one makes $\Pi$ Galois invariant. The cyclic base-change theorem therefore gives a cuspidal automorphic representation $\pi$ of $\mathop{\mathrm{GL}}_2(\mathbb A_L)$ whose base change is $\Pi$ [28, 3]. Every archimedean place is complex, so its local extension is trivial. Consequently $\pi$ is regular algebraic of weight zero.
 
 Good-place compatibility with base change and Chebotarev imply $$\bigl(r_\iota(\pi)|_{G_{L'}}\bigr)^{\mathrm{ss}}
  \simeq r|_{G_{L'}}.$$ The right-hand side is absolutely irreducible. The restriction on the left is therefore already irreducible and isomorphic to it, without semisimplification. After choosing this isomorphism, the two representations agree on $G_{L'}$. For $g\in G_L$, their matrices at $g$ differ by a scalar, since they induce the same conjugation on the absolutely irreducible representation of $G_{L'}$. Schur’s lemma shows that these scalars form a character $\delta:\mathop{\mathrm{Gal}}(L'/L)\to\overline{\mathbb Q}_l^{\times}$ and $$r_\iota(\pi)\simeq r\otimes\delta.$$ The finite-order Hecke character corresponding to $\delta^{-1}$ removes this discrepancy. Twisting preserves cuspidality and weight zero, and the compatibility with Galois twisting follows at good places and hence everywhere by Chebotarev. ◻
@@ -617,92 +617,92 @@ Since $F/K$ is abelian, choose a tower from $K$ to $F$ with cyclic prime-degree 
 
 For non-CM $E$, Theorem 6.4 shows that $\pi_E$ has trivial central character, realizes $H^1(E)$ for every coefficient prime, and has the required Frobenius-semisimplified Weil–Deligne parameter at each finite place, by choosing a coefficient prime different from the residue characteristic. Thus every finite local $L$-factor matches. At infinity a cuspidal representation is generic. The archimedean classification with weight-zero infinitesimal character therefore gives exactly the parameter (2.2); the finite-dimensional alternative is not generic. Equations (2.1) and (2.3) give the stated normalization of the local and global $L$-functions.
 
-Suppose now that $E$ has complex multiplication by an imaginary quadratic field $M$. Its endomorphisms are defined over $KM$. One way to see this is to use their faithful action on invariant differentials: the eigenvalues lie in $M$, and are fixed by $G_{KM}$. The main theorem of complex multiplication expresses the two one-dimensional constituents of $H^1(E)|_{G_{KM}}$ as the realizations of algebraic Hecke characters, with the infinity types prescribed by the CM type (Shimura and Taniyama 1961).
+Suppose now that $E$ has complex multiplication by an imaginary quadratic field $M$. Its endomorphisms are defined over $KM$. One way to see this is to use their faithful action on invariant differentials: the eigenvalues lie in $M$, and are fixed by $G_{KM}$. The main theorem of complex multiplication expresses the two one-dimensional constituents of $H^1(E)|_{G_{KM}}$ as the realizations of algebraic Hecke characters, with the infinity types prescribed by the CM type [33].
 
 If $M\not\subset K$, Galois exchanges the two characters and $H^1(E)$ is induced from either one over the quadratic extension $KM/K$. Automorphic induction gives the required representation of $\mathop{\mathrm{GL}}_2(\mathbb A_K)$. If $M=K$, use the isobaric sum of the two characters. In either case normalize the resulting representation by $|\det|^{1/2}$ so that its Tate-normalized parameter realizes $H^1(E)$. Complex multiplication and local class field theory, together with local compatibility of quadratic automorphic induction in the first case, give the finite parameters and the prescribed infinity types. These are the CM alternatives allowed in Theorem 1.1. Their central character is trivial: the determinant of $H^1(E)$ is $\epsilon_l^{-1}$, so undoing the Tate normalization gives determinant one for the local automorphic parameters, and hence trivial central character.
 
-In both the CM and non-CM cases, the finite factors also agree if one uses the Weil–Deligne representation at the residue-characteristic coefficient prime. For good reduction this follows from crystalline comparison. For bad potentially good reduction, the Weil–Deligne inertia action is finite and nontrivial, and monodromy is zero. The inertia action has determinant one. Its invariant subspace cannot have dimension one, since a semisimple two-dimensional determinant-one representation with a nonzero fixed vector would be trivial. It therefore has no invariants, giving local factor one. At the residue-characteristic coefficient prime, nontriviality of inertia follows from the crystalline good-reduction criterion (Coleman and Iovita 1999). Finally, in the potentially multiplicative case the Tate-curve description, allowing a quadratic twist, gives the same special Weil–Deligne parameter at all coefficient primes. This completes the proof of Theorem 1.1.
+In both the CM and non-CM cases, the finite factors also agree if one uses the Weil–Deligne representation at the residue-characteristic coefficient prime. For good reduction this follows from crystalline comparison. For bad potentially good reduction, the Weil–Deligne inertia action is finite and nontrivial, and monodromy is zero. The inertia action has determinant one. Its invariant subspace cannot have dimension one, since a semisimple two-dimensional determinant-one representation with a nonzero fixed vector would be trivial. It therefore has no invariants, giving local factor one. At the residue-characteristic coefficient prime, nontriviality of inertia follows from the crystalline good-reduction criterion [12]. Finally, in the potentially multiplicative case the Tate-curve description, allowing a quadratic twist, gives the same special Weil–Deligne parameter at all coefficient primes. This completes the proof of Theorem 1.1.
 
 ## References
 
-Allen, Patrick B., Frank Calegari, Ana Caraiani, et al. 2023. “Potential Automorphy over CM Fields.” *Annals of Mathematics*, 2nd series, vol. 197 (3): 897–1113. <https://doi.org/10.4007/annals.2023.197.3.2>.
+**[1]** Patrick B. Allen, Frank Calegari, Ana Caraiani, Toby Gee, David Helm, Bao V. Le Hung, James Newton, Peter Scholze, Richard Taylor, and Jack A. Thorne, *Potential automorphy over CM fields*, Annals of Mathematics **197** (2023), no. 3, 897–1113.
 
-Allen, Patrick B., Chandrashekhar Khare, and Jack A. Thorne. 2023. “Modularity of $\operatorname{GL}_2(\mathbb{F}_p)$-Representations over CM Fields.” *Cambridge Journal of Mathematics* 11 (1): 1–158. <https://doi.org/10.4310/CJM.2023.v11.n1.a1>.
+**[2]** Patrick B. Allen, Chandrashekhar Khare, and Jack A. Thorne, *Modularity of $\operatorname{GL}_2(\mathbb{F}_p)$-representations over CM fields*, Cambridge Journal of Mathematics **11** (2023), no. 1, 1–158.
 
-Arthur, James, and Laurent Clozel. 1989. *Simple Algebras, Base Change, and the Advanced Theory of the Trace Formula*. Vol. 120. Annals of Mathematics Studies. Princeton University Press.
+**[3]** James Arthur and Laurent Clozel, *Simple algebras, base change, and the advanced theory of the trace formula*, Annals of Mathematics Studies, vol. 120, Princeton University Press, Princeton, NJ, 1989.
 
-Berger, Tobias, and Gergely Harcos. 2007. “$l$-Adic Representations Associated to Modular Forms over Imaginary Quadratic Fields.” *International Mathematics Research Notices* 2007 (23): Art. ID rnm113, 16. <https://doi.org/10.1093/imrn/rnm113>.
+**[4]** Tobias Berger and Gergely Harcos, *$l$-adic representations associated to modular forms over imaginary quadratic fields*, International Mathematics Research Notices **2007** (2007), no. 23, Art. ID rnm113, 16.
 
-Bianchi, Luigi. 1892. “Sui Gruppi Di Sostituzioni Lineari Con Coefficienti Appartenenti a Corpi Quadratici Immaginarı̂.” *Mathematische Annalen* 40 (3): 332–412. <https://doi.org/10.1007/BF01443558>.
+**[5]** Luigi Bianchi, *Sui gruppi di sostituzioni lineari con coefficienti appartenenti a corpi quadratici immaginarı̂*, Mathematische Annalen **40** (1892), no. 3, 332–412.
 
-Bloch, Spencer, and Kazuya Kato. 1990. “$L$-Functions and Tamagawa Numbers of Motives.” In *The Grothendieck Festschrift, Vol. I*, vol. 86. Progress in Mathematics. Birkhäuser Boston.
+**[6]** Spencer Bloch and Kazuya Kato, *$L$-functions and Tamagawa numbers of motives*, The Grothendieck Festschrift, Vol. I, Progress in Mathematics, vol. 86, Birkhäuser Boston, Boston, MA, 1990, pp. 333–400.
 
-Bosch, Siegfried, Werner Lütkebohmert, and Michel Raynaud. 1990. *Néron Models*. Vol. 21. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete, 3. Folge. Springer-Verlag. <https://doi.org/10.1007/978-3-642-51438-8>.
+**[7]** Siegfried Bosch, Werner Lütkebohmert, and Michel Raynaud, *Néron models*, Ergebnisse der Mathematik und ihrer Grenzgebiete, 3. Folge, vol. 21, Springer-Verlag, Berlin, 1990.
 
-Boxer, George, Frank Calegari, Toby Gee, and Vincent Pilloni. 2021. “Abelian Surfaces over Totally Real Fields Are Potentially Modular.” *Publications Mathématiques de l’IHÉS* 134: 153–501. <https://doi.org/10.1007/s10240-021-00128-2>.
+**[8]** George Boxer, Frank Calegari, Toby Gee, and Vincent Pilloni, *Abelian surfaces over totally real fields are potentially modular*, Publications Mathématiques de l’IHÉS **134** (2021), 153–501.
 
-Breuil, Christophe, Brian Conrad, Fred Diamond, and Richard Taylor. 2001. “On the Modularity of Elliptic Curves over $\mathbb{Q}$: Wild 3-Adic Exercises.” *Journal of the American Mathematical Society* 14 (4): 843–939. <https://doi.org/10.1090/S0894-0347-01-00370-8>.
+**[9]** Christophe Breuil, Brian Conrad, Fred Diamond, and Richard Taylor, *On the modularity of elliptic curves over $\mathbb{Q}$: wild 3-adic exercises*, Journal of the American Mathematical Society **14** (2001), no. 4, 843–939.
 
-Calegari, Frank, and David Geraghty. 2018. “Modularity Lifting Beyond the Taylor–Wiles Method.” *Inventiones Mathematicae* 211 (1): 297–433. <https://doi.org/10.1007/s00222-017-0749-x>.
+**[10]** Frank Calegari and David Geraghty, *Modularity lifting beyond the Taylor–Wiles method*, Inventiones Mathematicae **211** (2018), no. 1, 297–433.
 
-Caraiani, Ana, and James Newton. 2025. *On the Modularity of Elliptic Curves over Imaginary Quadratic Fields*. <https://arxiv.org/abs/2301.10509v3>.
+**[11]** Ana Caraiani and James Newton, *On the modularity of elliptic curves over imaginary quadratic fields*, 2025, Preprint, arXiv:2301.10509v3, 27 March 2025.
 
-Coleman, Robert, and Adrian Iovita. 1999. “The Frobenius and Monodromy Operators for Curves and Abelian Varieties.” *Duke Mathematical Journal* 97 (1): 171–215. <https://doi.org/10.1215/S0012-7094-99-09708-9>.
+**[12]** Robert Coleman and Adrian Iovita, *The Frobenius and monodromy operators for curves and abelian varieties*, Duke Mathematical Journal **97** (1999), no. 1, 171–215.
 
-Cremona, John E. 1984. “Hyperbolic Tessellations, Modular Symbols, and Elliptic Curves over Complex Quadratic Fields.” *Compositio Mathematica* 51 (3): 275–324. <https://www.numdam.org/item/CM_1984__51_3_275_0/>.
+**[13]** John E. Cremona, *Hyperbolic tessellations, modular symbols, and elliptic curves over complex quadratic fields*, Compositio Mathematica **51** (1984), no. 3, 275–324.
 
-Cremona, John E., and E. Whitley. 1994. “Periods of Cusp Forms and Elliptic Curves over Imaginary Quadratic Fields.” *Mathematics of Computation* 62 (205): 407–29. <https://doi.org/10.1090/S0025-5718-1994-1185241-6>.
+**[14]** John E. Cremona and E. Whitley, *Periods of cusp forms and elliptic curves over imaginary quadratic fields*, Mathematics of Computation **62** (1994), no. 205, 407–429.
 
-Darmon, Henri. 1999. “Modularity of Fibres in Rigid Local Systems.” *Annals of Mathematics*, 2nd series, vol. 149 (3): 1079–86. <https://doi.org/10.2307/121082>.
+**[15]** Henri Darmon, *Modularity of fibres in rigid local systems*, Annals of Mathematics **149** (1999), no. 3, 1079–1086.
 
-Darmon, Henri. 2000. “Rigid Local Systems, Hilbert Modular Forms, and Fermat’s Last Theorem.” *Duke Mathematical Journal* 102 (3): 413–49.
+**[16]** ———, *Rigid local systems, Hilbert modular forms, and Fermat’s last theorem*, Duke Mathematical Journal **102** (2000), no. 3, 413–449.
 
-Darmon, Henri, and Jean-François Mestre. 2000. “Courbes Hyperelliptiques à Multiplications réelles Et Une Construction de Shih.” *Canadian Mathematical Bulletin* 43 (3): 304–11. <https://doi.org/10.4153/CMB-2000-037-x>.
+**[17]** Henri Darmon and Jean-François Mestre, *Courbes hyperelliptiques à multiplications réelles et une construction de Shih*, Canadian Mathematical Bulletin **43** (2000), no. 3, 304–311.
 
-Deligne, Pierre, and Nicholas Katz, eds. 1973. *Groupes de Monodromie En géométrie Algébrique. II (SGA 7 II)*. Vol. 340. Lecture Notes in Mathematics. Springer-Verlag.
+**[18]** Pierre Deligne and Nicholas Katz (eds.), *Groupes de monodromie en géométrie algébrique. II (SGA 7 II)*, Lecture Notes in Mathematics, vol. 340, Springer-Verlag, Berlin–New York, 1973.
 
-Ellenberg, Jordan S. 2001. “Endomorphism Algebras of Jacobians.” *Advances in Mathematics* 162 (2): 243–71. <https://doi.org/10.1006/aima.2001.1994>.
+**[19]** Jordan S. Ellenberg, *Endomorphism algebras of Jacobians*, Advances in Mathematics **162** (2001), no. 2, 243–271.
 
-Faltings, Gerd. 1983. “Endlichkeitssätze für Abelsche Varietäten über Zahlkörpern.” *Inventiones Mathematicae* 73 (3): 349–66. <https://doi.org/10.1007/BF01388432>.
+**[20]** Gerd Faltings, *Endlichkeitssätze für abelsche varietäten über zahlkörpern*, Inventiones Mathematicae **73** (1983), no. 3, 349–366.
 
-Geraghty, David. 2019. “Modularity Lifting Theorems for Ordinary Galois Representations.” *Mathematische Annalen* 373 (3-4): 1341–427. <https://doi.org/10.1007/s00208-018-1742-4>.
+**[21]** David Geraghty, *Modularity lifting theorems for ordinary Galois representations*, Mathematische Annalen **373** (2019), no. 3-4, 1341–1427.
 
-Grothendieck, Alexandre, Michel Raynaud, and Dock Sang Rim. 1972. *Groupes de Monodromie En géométrie Algébrique. I (SGA 7 I)*. Vol. 288. Lecture Notes in Mathematics. Springer-Verlag.
+**[22]** Alexandre Grothendieck, Michel Raynaud, and Dock Sang Rim, *Groupes de monodromie en géométrie algébrique. I (SGA 7 I)*, Lecture Notes in Mathematics, vol. 288, Springer-Verlag, Berlin–New York, 1972.
 
-Grunewald, Fritz, Hermann Helling, and Jens Mennicke. 1978. “$\operatorname{SL}_2$ over Complex Quadratic Number Fields. I.” *Algebra i Logika* 17 (5): 512–80. <https://www.mathnet.ru/eng/al1621>.
+**[23]** Fritz Grunewald, Hermann Helling, and Jens Mennicke, *$\operatorname{SL}_2$ over complex quadratic number fields. I*, Algebra i Logika **17** (1978), no. 5, 512–580.
 
-Harder, Günter. 1987. “Eisenstein Cohomology of Arithmetic Groups. The Case $\operatorname{GL}_2$.” *Inventiones Mathematicae* 89: 37–118. <https://doi.org/10.1007/BF01404673>.
+**[24]** Günter Harder, *Eisenstein cohomology of arithmetic groups. The case $\operatorname{GL}_2$*, Inventiones Mathematicae **89** (1987), 37–118.
 
-Harris, Michael, Kai-Wen Lan, Richard Taylor, and Jack Thorne. 2016. “On the Rigid Cohomology of Certain Shimura Varieties.” *Research in the Mathematical Sciences* 3: Paper No. 37, 308. <https://doi.org/10.1186/s40687-016-0078-5>.
+**[25]** Michael Harris, Kai-Wen Lan, Richard Taylor, and Jack Thorne, *On the rigid cohomology of certain Shimura varieties*, Research in the Mathematical Sciences **3** (2016), Paper No. 37, 308.
 
-Harris, Michael, David Soudry, and Richard Taylor. 1993. “$l$-Adic Representations Associated to Modular Forms over Imaginary Quadratic Fields. I. Lifting to $\operatorname{GSp}_4(\mathbb{Q})$.” *Inventiones Mathematicae* 112: 377–411. <https://doi.org/10.1007/BF01232440>.
+**[26]** Michael Harris, David Soudry, and Richard Taylor, *$l$-adic representations associated to modular forms over imaginary quadratic fields. I. Lifting to $\operatorname{GSp}_4(\mathbb{Q})$*, Inventiones Mathematicae **112** (1993), 377–411.
 
-Langlands, Robert P. 1970. “Problems in the Theory of Automorphic Forms.” In *Lectures in Modern Analysis and Applications III*, edited by C. T. Taam, vol. 170. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/BFb0079065>.
+**[27]** Robert P. Langlands, *Problems in the theory of automorphic forms*, Lectures in Modern Analysis and Applications III (C. T. Taam, ed.), Lecture Notes in Mathematics, vol. 170, Springer, Berlin, 1970, pp. 18–61.
 
-Langlands, Robert P. 1980. *Base Change for $\operatorname{GL}(2)$*. Vol. 96. Annals of Mathematics Studies. Princeton University Press.
+**[28]** ———, *Base change for $\operatorname{GL}(2)$*, Annals of Mathematics Studies, vol. 96, Princeton University Press, Princeton, NJ, 1980.
 
-Mestre, Jean-François. 1991. “Familles de Courbes Hyperelliptiques à Multiplications réelles.” In *Arithmetic Algebraic Geometry (Texel, 1989)*, vol. 89. Progress in Mathematics. Birkhäuser Boston. <https://doi.org/10.1007/978-1-4612-0457-2_9>.
+**[29]** Jean-François Mestre, *Familles de courbes hyperelliptiques à multiplications réelles*, Arithmetic Algebraic Geometry (Texel, 1989), Progress in Mathematics, vol. 89, Birkhäuser Boston, Boston, MA, 1991, pp. 193–208.
 
-Scholze, Peter. 2015. “On Torsion in the Cohomology of Locally Symmetric Varieties.” *Annals of Mathematics*, 2nd series, vol. 182 (3): 945–1066. <https://doi.org/10.4007/annals.2015.182.3.3>.
+**[30]** Peter Scholze, *On torsion in the cohomology of locally symmetric varieties*, Annals of Mathematics **182** (2015), no. 3, 945–1066.
 
-Serre, Jean-Pierre. 1972. “Propriétés Galoisiennes Des Points d’ordre Fini Des Courbes Elliptiques.” *Inventiones Mathematicae* 15: 259–331. <https://doi.org/10.1007/BF01405086>.
+**[31]** Jean-Pierre Serre, *Propriétés galoisiennes des points d’ordre fini des courbes elliptiques*, Inventiones Mathematicae **15** (1972), 259–331.
 
-Serre, Jean-Pierre. 2008. *Topics in Galois Theory*. 2nd ed. Vol. 1. Research Notes in Mathematics. A K Peters.
+**[32]** ———, *Topics in Galois theory*, 2 ed., Research Notes in Mathematics, vol. 1, A K Peters, Wellesley, MA, 2008, With notes by Henri Darmon.
 
-Shimura, Goro, and Yutaka Taniyama. 1961. *Complex Multiplication of Abelian Varieties and Its Applications to Number Theory*. Vol. 6. Publications of the Mathematical Society of Japan. Mathematical Society of Japan.
+**[33]** Goro Shimura and Yutaka Taniyama, *Complex multiplication of abelian varieties and its applications to number theory*, Publications of the Mathematical Society of Japan, vol. 6, Mathematical Society of Japan, Tokyo, 1961.
 
-Swan, Richard G. 1971. “Generators and Relations for Certain Special Linear Groups.” *Advances in Mathematics* 6 (1): 1–77. <https://doi.org/10.1016/0001-8708(71)90027-2>.
+**[34]** Richard G. Swan, *Generators and relations for certain special linear groups*, Advances in Mathematics **6** (1971), no. 1, 1–77.
 
-Tautz, Walter, Jaap Top, and Alain Verberkmoes. 1991. “Explicit Hyperelliptic Curves with Real Multiplication and Permutation Polynomials.” *Canadian Journal of Mathematics* 43 (5): 1055–64. <https://doi.org/10.4153/CJM-1991-061-x>.
+**[35]** Walter Tautz, Jaap Top, and Alain Verberkmoes, *Explicit hyperelliptic curves with real multiplication and permutation polynomials*, Canadian Journal of Mathematics **43** (1991), no. 5, 1055–1064.
 
-Taylor, Richard. 1994. “$l$-Adic Representations Associated to Modular Forms over Imaginary Quadratic Fields. II.” *Inventiones Mathematicae* 116: 619–43. <https://doi.org/10.1007/BF01231575>.
+**[36]** Richard Taylor, *$l$-adic representations associated to modular forms over imaginary quadratic fields. II*, Inventiones Mathematicae **116** (1994), 619–643.
 
-Taylor, Richard. 2002. “Remarks on a Conjecture of Fontaine and Mazur.” *Journal of the Institute of Mathematics of Jussieu* 1 (1): 125–43. <https://doi.org/10.1017/S1474748002000038>.
+**[37]** ———, *Remarks on a conjecture of Fontaine and Mazur*, Journal of the Institute of Mathematics of Jussieu **1** (2002), no. 1, 125–143.
 
-Taylor, Richard, and Andrew Wiles. 1995. “Ring-Theoretic Properties of Certain Hecke Algebras.” *Annals of Mathematics*, 2nd series, vol. 141 (3): 553–72. <https://doi.org/10.2307/2118560>.
+**[38]** Richard Taylor and Andrew Wiles, *Ring-theoretic properties of certain Hecke algebras*, Annals of Mathematics **141** (1995), no. 3, 553–572.
 
-Tsuji, Takeshi. 1999. “$p$-Adic étale Cohomology and Crystalline Cohomology in the Semi-Stable Reduction Case.” *Inventiones Mathematicae* 137 (2): 233–411. <https://doi.org/10.1007/s002220050330>.
+**[39]** Takeshi Tsuji, *$p$-adic étale cohomology and crystalline cohomology in the semi-stable reduction case*, Inventiones Mathematicae **137** (1999), no. 2, 233–411.
 
-Varma, Ila. 2024. “Local-Global Compatibility for Regular Algebraic Cuspidal Automorphic Representations When $\ell\ne p$.” *Forum of Mathematics, Sigma* 12: Paper No. e21, 32. <https://doi.org/10.1017/fms.2024.7>.
+**[40]** Ila Varma, *Local-global compatibility for regular algebraic cuspidal automorphic representations when $\ell\ne p$*, Forum of Mathematics, Sigma **12** (2024), Paper No. e21, 32.
 
-Wiles, Andrew. 1995. “Modular Elliptic Curves and Fermat’s Last Theorem.” *Annals of Mathematics*, 2nd series, vol. 141 (3): 443–551. <https://doi.org/10.2307/2118559>.
+**[41]** Andrew Wiles, *Modular elliptic curves and Fermat’s last theorem*, Annals of Mathematics **141** (1995), no. 3, 443–551.

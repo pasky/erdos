@@ -10,7 +10,7 @@ We prove that the minimum possible maximum modulus on the unit circle of a polyn
 
 Write $\mathbb T=\mathbb R/\mathbb Z$ and $\mathrm e(t)=\exp(2\pi i t)$. All tori carry probability Haar measure. A Littlewood polynomial of length $N$ is a polynomial $$P(z)=\sum_{k=0}^{N-1}\varepsilon_k z^k,
  \qquad \varepsilon_k\in\{-1,1\}.$$ Its maximum modulus is $\left\lVert P\right\rVert_\infty=\max_{t\in\mathbb T}|P(\mathrm e(t))|$. Define $$m_N=\min_{\varepsilon_0,\ldots,\varepsilon_{N-1}\in\{-1,1\}}
-       \frac{1}{\sqrt N}\left\lVert \sum_{k=0}^{N-1}\varepsilon_k z^k\right\rVert_\infty.$$ Orthogonality gives $\left\lVert P\right\rVert_2^2=N$, so $m_N\ge1$. The real-sign analogue of Erdős’s fixed-gap question asks whether $m_N$ is eventually bounded below by $1+c$ for some absolute $c>0$. Erdős’s original question allowed complex unimodular coefficients and was refuted in that class by Kahane; the restriction to real signs is the question addressed here (Erdős 1957, Problem 22); see also (Kahane 1980) and (Hayman and Lingham 2018, Problems 4.13 and 4.31).
+       \frac{1}{\sqrt N}\left\lVert \sum_{k=0}^{N-1}\varepsilon_k z^k\right\rVert_\infty.$$ Orthogonality gives $\left\lVert P\right\rVert_2^2=N$, so $m_N\ge1$. The real-sign analogue of Erdős’s fixed-gap question asks whether $m_N$ is eventually bounded below by $1+c$ for some absolute $c>0$. Erdős’s original question allowed complex unimodular coefficients and was refuted in that class by Kahane; the restriction to real signs is the question addressed here [12, Problem 22]; see also [17] and [15, Problems 4.13 and 4.31].
 
 **Theorem 1.1**. *For Littlewood polynomials with real coefficients, $$\lim_{N\to\infty}m_N=1.$$ Equivalently, for every $\eta>0$ there is $N_0$ such that for every integer $N\ge N_0$ there are signs $\varepsilon_0,\ldots,\varepsilon_{N-1}$ with $$\max_{|z|=1}\left|\sum_{k=0}^{N-1}\varepsilon_kz^k\right|
  \le(1+\eta)\sqrt N.$$*
@@ -19,21 +19,21 @@ The theorem concerns every sufficiently large length, rather than a subsequence.
 
 ### Context and comparison
 
-The Shapiro–Rudin construction, obtained earlier by Shapiro and independently by Rudin, gives real-sign polynomials with maximum $O(\sqrt N)$; at dyadic lengths its paired identity gives an upper bound $\sqrt{2N}$ (Rudin 1959, Theorem I and its proof). Balister proved the all-length bound $\sqrt{6N-2}-1$ for its initial segments (Balister 2019, Theorem 1). A different problem asks for upper and lower bounds by fixed positive multiples of $\sqrt N$ throughout the circle. Such two-sided flat Littlewood polynomials were constructed by Balister, Bollobás, Morris, Sahasrabudhe and Tiba, whose proof combines the Shapiro–Rudin construction with discrepancy theory (Balister et al. 2020). These results control the scale of the maximum, but do not make the upper constant tend to one.
+The Shapiro–Rudin construction, obtained earlier by Shapiro and independently by Rudin, gives real-sign polynomials with maximum $O(\sqrt N)$; at dyadic lengths its paired identity gives an upper bound $\sqrt{2N}$ [22, Theorem I and its proof]. Balister proved the all-length bound $\sqrt{6N-2}-1$ for its initial segments [2, Theorem 1]. A different problem asks for upper and lower bounds by fixed positive multiples of $\sqrt N$ throughout the circle. Such two-sided flat Littlewood polynomials were constructed by Balister, Bollobás, Morris, Sahasrabudhe and Tiba, whose proof combines the Shapiro–Rudin construction with discrepancy theory [3]. These results control the scale of the maximum, but do not make the upper constant tend to one.
 
-The coefficient class matters. Complex coefficients of modulus one allow ultraflat constructions. Littlewood used quadratic phases near this Parseval scale, Kahane obtained ultraflatness, and Bombieri and Bourgain gave quantitative constructions (Littlewood 1966; Kahane 1980; Bombieri and Bourgain 2009). The smoothed quadratic phases and Poisson summation used in (Bombieri and Bourgain 2009, sec. 2 and 7) are analytic predecessors of the sampling argument below. Their bounded-to-unimodular correction also develops a method of Körner (Bombieri and Bourgain 2009, sec. 8). The present proof must instead preserve real coefficients and round them to signs. The distinction between the unimodular and real-sign questions is also explicit in (Hayman and Lingham 2018, Problem 4.31). Georgiev, Gómez-Serrano, Tao and Wagner recently used AlphaEvolve to search for the same real-sign minimum at degrees up to $100$; their computations do not give an asymptotic theorem (Georgiev et al. 2025, sec. 6.13).
+The coefficient class matters. Complex coefficients of modulus one allow ultraflat constructions. Littlewood used quadratic phases near this Parseval scale, Kahane obtained ultraflatness, and Bombieri and Bourgain gave quantitative constructions [18, 17, 5]. The smoothed quadratic phases and Poisson summation used in [5, Sections 2 and 7] are analytic predecessors of the sampling argument below. Their bounded-to-unimodular correction also develops a method of Körner [5, Section 8]. The present proof must instead preserve real coefficients and round them to signs. The distinction between the unimodular and real-sign questions is also explicit in [15, Problem 4.31]. Georgiev, Gómez-Serrano, Tao and Wagner recently used AlphaEvolve to search for the same real-sign minimum at degrees up to $100$; their computations do not give an asymptotic theorem [14, Section 6.13].
 
-There can still be a growing additive gap above Parseval’s bound. Erdélyi proved that every Littlewood polynomial of length $N$ satisfies (Erdélyi 2026, Theorem 2.1) $$\left\lVert P\right\rVert_\infty^2\ge N+\frac{(N-1)^{1/3}}{38}.$$ The extra term divided by $N$ tends to zero, so this is compatible with Theorem 1.1.
+There can still be a growing additive gap above Parseval’s bound. Erdélyi proved that every Littlewood polynomial of length $N$ satisfies [11, Theorem 2.1] $$\left\lVert P\right\rVert_\infty^2\ge N+\frac{(N-1)^{1/3}}{38}.$$ The extra term divided by $N$ tends to zero, so this is compatible with Theorem 1.1.
 
-The theorem implies flatness in every fixed finite $L^p$ modulus sense. This conflicts with nonflatness claims in preprints of el Abdalaoui (el Abdalaoui 2017, 2025b, 2025a). Section 7 proves the implication with our normalization. Appendix A examines specific issues in the contrary arguments.
+The theorem implies flatness in every fixed finite $L^p$ modulus sense. This conflicts with nonflatness claims in preprints of el Abdalaoui [8, 10, 9]. Section 7 proves the implication with our normalization. Appendix A examines specific issues in the contrary arguments.
 
 ### Merit factors and a symbolic spectral consequence
 
 For a binary word $A=(a_0,\ldots,a_{N-1})\in\{-1,1\}^N$ of length $N\ge2$, define its aperiodic sidelobe autocorrelations and merit factor by $$C_u(A)=\sum_{j=0}^{N-1-u}a_ja_{j+u}\quad(1\le u<N),
  \qquad
- F(A)=\frac{N^2}{2\sum_{u=1}^{N-1}C_u(A)^2}.$$ This is the standard merit-factor normalization (Downarowicz and Lacroix 1998, Definition 2 and Lemma 0); see also (Jedwab et al. 2013, Introduction) for its fourth-moment formulation. The conjectured boundedness of $F(A)$ over all such words is called Turyn’s conjecture, equivalently Erdős’s $L^4$-norm conjecture, in (Downarowicz and Lacroix 1998, 3 of the author manuscript). For comparison, Jedwab, Katz and Schmidt constructed families with limiting merit factor $6.342061\ldots$, improving the previous proven value $6$, by modifying and extending Legendre sequences (Jedwab et al. 2013, Theorem 1.1 and Corollary 3.2). Section 8 disproves this boundedness in the stronger all-length form: the largest merit factor at length $N$ tends to infinity as $N$ tends to infinity through all integers.
+ F(A)=\frac{N^2}{2\sum_{u=1}^{N-1}C_u(A)^2}.$$ This is the standard merit-factor normalization [7, Definition 2 and Lemma 0]; see also [16, Introduction] for its fourth-moment formulation. The conjectured boundedness of $F(A)$ over all such words is called Turyn’s conjecture, equivalently Erdős’s $L^4$-norm conjecture, in [7, p. 3 of the author manuscript]. For comparison, Jedwab, Katz and Schmidt constructed families with limiting merit factor $6.342061\ldots$, improving the previous proven value $6$, by modifying and extending Legendre sequences [16, Theorem 1.1 and Corollary 3.2]. Section 8 disproves this boundedness in the stronger all-length form: the largest merit factor at length $N$ tends to infinity as $N$ tends to infinity through all integers.
 
-Downarowicz and Lacroix also relate this question to binary Morse shifts, the discrete-time symbolic systems generated by iterated products of binary words. Their theorem converts unbounded binary merit factors into a uniquely ergodic binary Morse shift with simple spectrum whose zero-coordinate spectral measure is absolutely continuous with an $L^2$ density (Downarowicz and Lacroix 1998, Theorem 2 and its proof). Section 8 gives the precise spectral statement and its deduction from Theorem 1.1.
+Downarowicz and Lacroix also relate this question to binary Morse shifts, the discrete-time symbolic systems generated by iterated products of binary words. Their theorem converts unbounded binary merit factors into a uniquely ergodic binary Morse shift with simple spectrum whose zero-coordinate spectral measure is absolutely continuous with an $L^2$ density [7, Theorem 2 and its proof]. Section 8 gives the precise spectral statement and its deduction from Theorem 1.1.
 
 ### Proof overview
 
@@ -41,9 +41,9 @@ We first allow real coefficients $X_{N,k}\in[-1,1]$. Their defect from being sig
 
 To build the relaxed coefficients, we use a real trigonometric polynomial $F$ on an auxiliary torus whose absolute value is at most one and whose mean-square mass is nearly one. Each Fourier mode of $F$ is assigned a nonzero quadratic curvature. A stationary-phase calculation shows that sampling such a mode on a block spreads its Fourier contribution over an interval whose width is proportional to that curvature. There are two requirements: distinct modes and blocks must have disjoint intervals, and each individual contribution must have size at most approximately $\sqrt N$.
 
-Section 3 supplies the interval packing, even when the integer frequency vectors have linear relations. It uses a randomly constructed finite-field hypergraph and the Pippenger–Spencer coloring theorem, in the near-perfect-packing lineage of Frankl and Rödl (Frankl and Rödl 1985; Pippenger and Spencer 1989; Alon and Yuster 2005). Section 4 adjusts the Fourier coefficients of $F$ by quadratic oscillations in extra variables so that their sizes match the available widths. Section 5 samples the resulting fixed polynomial on disjoint blocks. At each angle at most one stationary contribution remains, whereas orthogonality in the sampling limit recovers nearly full mean-square mass.
+Section 3 supplies the interval packing, even when the integer frequency vectors have linear relations. It uses a randomly constructed finite-field hypergraph and the Pippenger–Spencer coloring theorem, in the near-perfect-packing lineage of Frankl and Rödl [13, 21, 1]. Section 4 adjusts the Fourier coefficients of $F$ by quadratic oscillations in extra variables so that their sizes match the available widths. Section 5 samples the resulting fixed polynomial on disjoint blocks. At each angle at most one stationary contribution remains, whereas orthogonality in the sampling limit recovers nearly full mean-square mass.
 
-Finally, Section 6 proves the defect-sensitive rounding bound. We use the partial-coloring method of Beck and Spencer (Beck 1981; Spencer 1985), in the arbitrary-vector form verified through Lovett–Meka’s theorem (Lovett and Meka 2015). A dyadic rounding procedure keeps the defect mass from increasing, which makes its total loss $o(\sqrt N)$ as the target error decreases. All auxiliary dimensions, frequencies, primes, blocks and smooth cutoffs are fixed before $N$ tends to infinity.
+Finally, Section 6 proves the defect-sensitive rounding bound. We use the partial-coloring method of Beck and Spencer [4, 23], in the arbitrary-vector form verified through Lovett–Meka’s theorem [19]. A dyadic rounding procedure keeps the defect mass from increasing, which makes its total loss $o(\sqrt N)$ as the target error decreases. All auxiliary dimensions, frequencies, primes, blocks and smooth cutoffs are fixed before $N$ tends to infinity.
 
 ## Reduction to approximation and rounding
 
@@ -81,7 +81,7 @@ For $\eta\in\mathbb T$ and $0<\ell<1$, write $$I(\eta,\ell)=\{\eta+x\pmod 1:-\el
 **Lemma 3.1** (Signed interval packing). *Let $m\ge1$ and $r\ge2$ be integers, and let $a_1,\ldots,a_r\in\mathbb Z^m\setminus\{0\}$ be pairwise nonparallel. If $w_1,\ldots,w_r>0$ satisfy $2\sum_iw_i<1$, there exist an integer $H\ge1$ and points $\theta_1,\ldots,\theta_H\in\mathbb T^m$ such that the $2rH$ closed intervals $$I\bigl(\sigma a_i\cdot\theta_h,w_i/H\bigr),
  \qquad 1\le i\le r,\quad 1\le h\le H,\quad \sigma\in\{-1,1\},$$ are pairwise disjoint.*
 
-We will use the following form of the Pippenger–Spencer edge-coloring theorem (Pippenger and Spencer 1989); the quantified statement below is (Alon and Yuster 2005, Lemma 2.1). A hypergraph here is finite and has distinct edges, each an $r$-element subset of its vertex set. Its degree $d(v)$ counts edges containing $v$, and its codegree $d(u,v)$ counts edges containing both distinct vertices $u,v$. An edge coloring partitions the edges into matchings, where a matching is a collection of pairwise disjoint edges.
+We will use the following form of the Pippenger–Spencer edge-coloring theorem [21]; the quantified statement below is [1, Lemma 2.1]. A hypergraph here is finite and has distinct edges, each an $r$-element subset of its vertex set. Its degree $d(v)$ counts edges containing $v$, and its codegree $d(u,v)$ counts edges containing both distinct vertices $u,v$. An edge coloring partitions the edges into matchings, where a matching is a collection of pairwise disjoint edges.
 
 **Theorem 3.2** (Pippenger–Spencer). *For each integer $r\ge2$ and each $\gamma>0$, there exists $\beta>0$ with the following property. If an $r$-uniform hypergraph satisfies, for some $t>0$, $$(1-\beta)t<d(v)<(1+\beta)t\quad\text{for every vertex }v,
  \qquad d(u,v)<\beta t\quad\text{for }u\ne v,$$ then its edges can be partitioned into at most $(1+\gamma)t$ matchings.*
@@ -197,7 +197,7 @@ For a trigonometric polynomial $F$ on $\mathbb T^m$, write $$\widehat F(a)=\int_
  K_\delta=\sqrt{\frac{(1+\delta)^3}{1-\delta}}.
 \end{equation}$$ All these objects depend on $\delta$ alone.*
 
-The construction starts with a polynomial of almost unit mean square. Quadratic oscillations in new variables spread its coefficients; finite Fourier truncation then gives the required polynomial. We first record the uniform quadratic estimate used to control the spread coefficients. The quadratic Fourier-inversion identity behind this estimate also appears in (Bombieri and Bourgain 2009, sec. 2, Equation (2.2)). We give the fixed-cutoff form, uniform in the linear frequency.
+The construction starts with a polynomial of almost unit mean square. Quadratic oscillations in new variables spread its coefficients; finite Fourier truncation then gives the required polynomial. We first record the uniform quadratic estimate used to control the spread coefficients. The quadratic Fourier-inversion identity behind this estimate also appears in [5, Section 2, Equation (2.2)]. We give the fixed-cutoff form, uniform in the linear frequency.
 
 **Lemma 4.2** (Uniform quadratic integration). *Let $g\in C_c^\infty(\mathbb R)$ and let $\beta\in\mathbb R\setminus\{0\}$ be fixed. As $T\to\infty$ through positive real values, $$\begin{equation}
  \tag{17}
@@ -363,7 +363,7 @@ We now prove Proposition 2.1. The auxiliary polynomial from Proposition 4.1 ha
 
 ### A uniform estimate for quadratic sums
 
-Bombieri and Bourgain (Bombieri and Bourgain 2009, sec. 7) use Poisson summation to evaluate smoothed quadratic phases in their unimodular construction. The next lemma isolates the uniformity needed here for the maximum over the whole circle. Its data are fixed while the integer $N$ tends to infinity.
+Bombieri and Bourgain [5, Section 7] use Poisson summation to evaluate smoothed quadratic phases in their unimodular construction. The next lemma isolates the uniformity needed here for the maximum over the whole circle. Its data are fixed while the integer $N$ tends to infinity.
 
 **Lemma 5.1**. *Let $\chi\in C_c^\infty(\mathbb R)$, let $x_*\in\mathbb R$ and $\lambda\in\mathbb R\setminus\{0\}$, and let $J\subset\mathbb R$ be compact. For $b\in J$ and $\ell\in\mathbb Z$, put $$x_{b,\ell}=x_*+\frac{\ell-b}{\lambda},
  \qquad
@@ -491,7 +491,7 @@ Together with (37), this proves Proposition 2.1. Every integer $N$ was allowed 
 
 ## Rounding with a small defect mass
 
-We now prove Lemma 2.2. Its input is a real coefficient vector whose entries have absolute values close to one in total. We round this vector to signs while controlling its Fourier sum. The small total defect limits the number of coordinates that need attention at each scale. Spencer’s discrepancy method gives the required square-root cancellation (Spencer 1985). Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Balister et al. 2020, secs. 4–5) apply partial coloring to round bounded Fourier coefficients to signs in their real Littlewood construction. Here we track the total defect to make the rounding loss small relative to $\sqrt N$. To specify the real-matrix input precisely, we derive it from the arbitrary-vector partial-coloring theorem of Lovett and Meka (Lovett and Meka 2015, Theorem 4 in the cited preprint version).
+We now prove Lemma 2.2. Its input is a real coefficient vector whose entries have absolute values close to one in total. We round this vector to signs while controlling its Fourier sum. The small total defect limits the number of coordinates that need attention at each scale. Spencer’s discrepancy method gives the required square-root cancellation [23]. Balister, Bollobás, Morris, Sahasrabudhe and Tiba [3, Sections 4–5] apply partial coloring to round bounded Fourier coefficients to signs in their real Littlewood construction. Here we track the total defect to make the rounding loss small relative to $\sqrt N$. To specify the real-matrix input precisely, we derive it from the arbitrary-vector partial-coloring theorem of Lovett and Meka [19, Theorem 4 in the cited preprint version].
 
 ### A discrepancy bound for real matrices
 
@@ -580,7 +580,7 @@ We now derive the autocorrelation and symbolic-dynamical consequences of the max
  \left\lVert P_A\right\rVert_4^4=N^2+2\sum_{u=1}^{N-1}C_u(A)^2,
  \qquad
  F(A)=\frac{N^2}{\left\lVert P_A\right\rVert_4^4-N^2}.
-\end{equation}$$ In the notation of Downarowicz–Lacroix, $M_A=N^{-2}\sum_{u=1}^{N-1}C_u(A)^2$ and $F(A)=1/(2M_A)$ (Downarowicz and Lacroix 1998, Definition 2 and Lemma 0).
+\end{equation}$$ In the notation of Downarowicz–Lacroix, $M_A=N^{-2}\sum_{u=1}^{N-1}C_u(A)^2$ and $F(A)=1/(2M_A)$ [7, Definition 2 and Lemma 0].
 
 **Corollary 8.1** (All-length unbounded binary merit factors). *For $N\ge2$, let $$\mathcal F_N=\max_{A\in\{-1,1\}^N}F(A).$$ Then $$\lim_{N\to\infty}\mathcal F_N=+\infty,$$ where the limit runs through all integer lengths. Equivalently, one can choose a word $A_N\in\{-1,1\}^N$ for each $N\ge2$ such that $$\sum_{u=1}^{N-1}C_u(A_N)^2=o(N^2).$$*
 
@@ -591,28 +591,28 @@ We now derive the autocorrelation and symbolic-dynamical consequences of the max
 
 This corollary refutes the bounded-merit-factor conjecture while retaining the all-length quantifier of Theorem 1.1. It supplies no quantitative rate of divergence.
 
-For completeness, we specify the symbolic class in the next consequence. For binary words $B$ and $C$ of lengths $b$ and $c$, respectively, their product is defined by $$(B\times C)(s+bt)=B(s)C(t)\qquad(0\le s<b,\ 0\le t<c).$$ If each $B_j$ begins with $1$ and has length at least two, the products $B_1\times\cdots\times B_j$ have a one-sided coordinatewise limit. This limit admits a two-sided extension with the same finite words (Downarowicz and Lacroix 1998, Definition 3 and the following paragraph). The orbit closure $X\subset\{-1,1\}^{\mathbb Z}$ of such an extension, under $Sx(n)=x(n+1)$, is a *binary Morse shift*. This is the discrete-time system called a Morse flow in that paper. Simple spectrum means that the Koopman operator has a cyclic vector: the linear span of its integer iterates is dense in the underlying $L^2$ space.
+For completeness, we specify the symbolic class in the next consequence. For binary words $B$ and $C$ of lengths $b$ and $c$, respectively, their product is defined by $$(B\times C)(s+bt)=B(s)C(t)\qquad(0\le s<b,\ 0\le t<c).$$ If each $B_j$ begins with $1$ and has length at least two, the products $B_1\times\cdots\times B_j$ have a one-sided coordinatewise limit. This limit admits a two-sided extension with the same finite words [7, Definition 3 and the following paragraph]. The orbit closure $X\subset\{-1,1\}^{\mathbb Z}$ of such an extension, under $Sx(n)=x(n+1)$, is a *binary Morse shift*. This is the discrete-time system called a Morse flow in that paper. Simple spectrum means that the Koopman operator has a cyclic vector: the linear span of its integer iterates is dense in the underlying $L^2$ space.
 
 **Corollary 8.2** (Binary Morse spectral consequence). *There is a binary Morse shift $(X,S)$ with a unique $S$-invariant Borel probability measure $\mu$ for which the Koopman operator $U_Sg=g\circ S$ on $L^2(X,\mu)$ has simple spectrum. For the zero-coordinate function $f(x)=x(0)$, let $\sigma_f$ be the spectral measure characterized by $$\widehat{\sigma_f}(n):=\int_{\mathbb T}\mathrm e(nt)\,d\sigma_f(t)
  =\int_X f(x)f(S^n x)\,d\mu(x)\qquad(n\in\mathbb Z).$$ Then $d\sigma_f=h\,dt$ for some $h\in L^2(\mathbb T)$ with $h\ge0$ almost everywhere and $\int_{\mathbb T}h\,dt=1$. In particular, the absolutely continuous spectral component is nonzero.*
 
-*Proof.* Corollary 8.1 supplies nontrivial finite binary words with arbitrarily large merit factors. The forward construction in (Downarowicz and Lacroix 1998, Theorem 2 and its proof) therefore gives a binary Morse shift with $\sum_{n=1}^{\infty}|\widehat{\sigma_f}(n)|^2<\infty$. Its defining words have frequencies of both signs tending to $1/2$; their Fact 1 gives unique ergodicity, and their Fact 2 gives simple spectrum for that invariant measure. Conjugate symmetry extends the square summability to $\mathbb Z$. Fourier Plancherel and uniqueness of Fourier coefficients then give $\sigma_f=h\,dt$ with $h\in L^2(\mathbb T)$. Positivity of $\sigma_f$ gives $h\ge0$ almost everywhere, and $\int h\,dt=\sigma_f(\mathbb T)=\left\lVert f\right\rVert_2^2=1$. ◻
+*Proof.* Corollary 8.1 supplies nontrivial finite binary words with arbitrarily large merit factors. The forward construction in [7, Theorem 2 and its proof] therefore gives a binary Morse shift with $\sum_{n=1}^{\infty}|\widehat{\sigma_f}(n)|^2<\infty$. Its defining words have frequencies of both signs tending to $1/2$; their Fact 1 gives unique ergodicity, and their Fact 2 gives simple spectrum for that invariant measure. Conjugate symmetry extends the square summability to $\mathbb Z$. Fourier Plancherel and uniqueness of Fourier coefficients then give $\sigma_f=h\,dt$ with $h\in L^2(\mathbb T)$. Positivity of $\sigma_f$ gives $h\ge0$ almost everywhere, and $\int h\,dt=\sigma_f(\mathbb T)=\left\lVert f\right\rVert_2^2=1$. ◻
 
-Here simplicity concerns the full Koopman operator, whereas absolute continuity is asserted for the cyclic subspace generated by $f$; the remaining spectral type is not identified. A different realization is given in the companion manuscript (OpenAI 2026, Theorem 1.1): it constructs a smooth volume-preserving diffeomorphism of $\mathbb T^3$ whose Koopman operator has simple Lebesgue spectrum on the entire mean-zero $L^2$ space. The present consequence instead concerns the constrained class of binary Morse shifts.
+Here simplicity concerns the full Koopman operator, whereas absolute continuity is asserted for the cyclic subspace generated by $f$; the remaining spectral type is not identified. A different realization is given in the companion manuscript [20, Theorem 1.1]: it constructs a smooth volume-preserving diffeomorphism of $\mathbb T^3$ whose Koopman operator has simple Lebesgue spectrum on the entire mean-zero $L^2$ space. The present consequence instead concerns the constrained class of binary Morse shifts.
 
 ## Comparison with contrary flatness claims
 
 Corollary 7.1 conflicts with several stated nonflatness results. We compare the precise versions listed in the bibliography and examine the proposed obstructions. This discussion is independent of the construction proving Theorem 1.1.
 
-An earlier preprint of el Abdalaoui asserted nonexistence of square-$L^2$-flat real Littlewood sequences (el Abdalaoui 2017, Theorem 3.3). Its definition fixes both endpoint signs to $+1$ (el Abdalaoui 2017, Equation (2.1)). Changing at most two endpoint signs of our length-$N$ polynomials costs at most $4/\sqrt N$ in normalized uniform norm. Their normalized maxima still tend to one, so the proof of Corollary 7.1 gives square-$L^2$ flatness with this convention as well.
+An earlier preprint of el Abdalaoui asserted nonexistence of square-$L^2$-flat real Littlewood sequences [8, Theorem 3.3]. Its definition fixes both endpoint signs to $+1$ [8, Equation (2.1)]. Changing at most two endpoint signs of our length-$N$ polynomials costs at most $4/\sqrt N$ in normalized uniform norm. Their normalized maxima still tend to one, so the proof of Corollary 7.1 gives square-$L^2$ flatness with this convention as well.
 
 ### The concentration constant and a neighborhood of zero
 
-Theorem 1 of (el Abdalaoui 2025b) claims that $L^2$-normalized real-sign polynomial sequences cannot be $L^{2p}$-flat for integers $p>1$. This conflicts with Corollary 7.1, even though our maximum estimate supplies no uniform lower bound. The final inference in the cited proof uses a concentration constant with a different quantifier order from the one needed there.
+Theorem 1 of [10] claims that $L^2$-normalized real-sign polynomial sequences cannot be $L^{2p}$-flat for integers $p>1$. This conflicts with Corollary 7.1, even though our maximum estimate supplies no uniform lower bound. The final inference in the cited proof uses a concentration constant with a different quantifier order from the one needed there.
 
 To see the distinction, let $\mathcal I$ be the nonzero analytic idempotent trigonometric polynomials $$I(t)=\sum_{k\in E_0}\mathrm e(kt),
  \qquad \varnothing\ne E_0\subset\mathbb Z_{\ge0}\text{ finite}.$$ For $\alpha>0$ and a measurable set $E\subset\mathbb T$, define $$B_\alpha(E)=\sup_{I\in\mathcal I}
-      \frac{\int_E|I(t)|^\alpha\,dt}{\int_{\mathbb T}|I(t)|^\alpha\,dt}.$$ The concentration level of Bonami–Révész is (Bonami and Révész 2008, Definitions 1–2) $$\begin{equation}
+      \frac{\int_E|I(t)|^\alpha\,dt}{\int_{\mathbb T}|I(t)|^\alpha\,dt}.$$ The concentration level of Bonami–Révész is [6, Definitions 1–2] $$\begin{equation}
 \tag{45}
  c_\alpha=\inf_{\substack{E\text{ symmetric, open}\\E\ne\varnothing}}
                 B_\alpha(E).
@@ -621,13 +621,13 @@ To see the distinction, let $\mathcal I$ be the nonzero analytic idempotent trig
 For completeness, the particular sets used in the contrary inference have optimal concentration equal to one. Suppose $E$ contains the neighborhood $(-d,d)$ of zero, where $0<d<1/2$, and put $D_q(t)=\sum_{k=0}^{q-1}\mathrm e(kt)$. The geometric-series formula gives $$|D_q(t)|\le\frac1{\sin(\pi d)}\quad(t\notin E).$$ For $|t|\le1/(2q)$, the same formula and $\sin x\ge2x/\pi$ on $[0,\pi/2]$ give $|D_q(t)|\ge2q/\pi$. Consequently, for $\alpha>1$, $$\begin{align*}
  \int_{\mathbb T\setminus E}|D_q|^\alpha&\le\sin(\pi d)^{-\alpha},\\
  \int_{\mathbb T}|D_q|^\alpha&\ge(2/\pi)^\alpha q^{\alpha-1}.
-\end{align*}$$ Their ratio tends to zero, proving $B_\alpha(E)=1$. Bonami–Révész also explicitly distinguish full concentration at zero from the uniform concentration level (Bonami and Révész 2008, Theorem 7 and Proposition 9).
+\end{align*}$$ Their ratio tends to zero, proving $B_\alpha(E)=1$. Bonami–Révész also explicitly distinguish full concentration at zero from the uniform concentration level [6, Theorem 7 and Proposition 9].
 
-Under its assumed flatness, Equation (27) of (el Abdalaoui 2025b) gives concentration tending to one in each fixed neighborhood of zero. This is compatible with (45); it does not contradict the cited upper bound $c_{2p}\le1/2$. Multiplicative normalization cancels in the ratio. Even restricting supports to $\{0,\ldots,q-1\}$ with density tending to $1/2$ does not give the required cap: use $D_{\lfloor q/2\rfloor}$. This explains the failure of that specific concluding inference.
+Under its assumed flatness, Equation (27) of [10] gives concentration tending to one in each fixed neighborhood of zero. This is compatible with (45); it does not contradict the cited upper bound $c_{2p}\le1/2$. Multiplicative normalization cancels in the ratio. Even restricting supports to $\{0,\ldots,q-1\}$ with density tending to $1/2$ does not give the required cap: use $D_{\lfloor q/2\rfloor}$. This explains the failure of that specific concluding inference.
 
 ### A later weighted assertion
 
-A separate preprint (el Abdalaoui 2025a, Theorem 1) asserts a nonflatness criterion for fixed real coefficients $a_j$ and unimodular multipliers. Its hypothesis is $$\begin{equation}
+A separate preprint [9, Theorem 1] asserts a nonflatness criterion for fixed real coefficients $a_j$ and unimodular multipliers. Its hypothesis is $$\begin{equation}
 \tag{46}
  \sum_{j=1}^n a_j^2\le\frac K{n^2}\sum_{j=1}^n j^2a_j^2,
 \end{equation}$$ and its polynomial is normalized by $(\sum_{j=1}^n a_j^2)^{1/2}$. Without any restriction preventing a dominant coefficient, this criterion is false.
@@ -638,53 +638,53 @@ Take $a_j=2^{j^2}$ and all unimodular multipliers equal to one. Let $S_n=\sum_{j
  \le\frac{\sum_{j<n}a_j}{\sqrt{S_n}}
        +\left|\frac{a_n}{\sqrt{S_n}}-1\right|\longrightarrow0.$$ The normalized moduli converge uniformly to one. This example concerns weighted coefficients, not signs.
 
-The proof of Corollary 3 in (el Abdalaoui 2025a) displays a signed-modulus identity for values at $|z|=|z'|=1$. Even reading its repeated second argument as the intended $z'$, the asserted form $$|P(z)-P(z')|=\sigma|P(z)|+\tau|P(z')|,
+The proof of Corollary 3 in [9] displays a signed-modulus identity for values at $|z|=|z'|=1$. Even reading its repeated second argument as the intended $z'$, the asserted form $$|P(z)-P(z')|=\sigma|P(z)|+\tau|P(z')|,
  \qquad \sigma,\tau\in\{-1,1\},$$ is false. For $P(z)=1+z$, $z=1$ and $z'=i$, the left side is $\sqrt2$, whereas no value $\pm2\pm\sqrt2$ equals $\sqrt2$. These observations identify defects in the proposed obstructions; the real-sign assertion of Theorem 1.1 rests on the construction and rounding proof above.
 
 ## References
 
-Alon, Noga, and Raphael Yuster. 2005. “On a Hypergraph Matching Problem.” *Graphs and Combinatorics* 21 (4): 377–84. <https://doi.org/10.1007/s00373-005-0628-x>.
+**[1]** Noga Alon and Raphael Yuster. On a hypergraph matching problem. *Graphs and Combinatorics*, 21(4):377–384, 2005.
 
-Balister, Paul. 2019. *Bounds on Rudin–Shapiro Polynomials of Arbitrary Degree*. arXiv:1909.08777v1. <https://arxiv.org/abs/1909.08777v1>.
+**[2]** Paul Balister. Bounds on Rudin–Shapiro polynomials of arbitrary degree. arXiv:1909.08777v1, 2019.
 
-Balister, Paul, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. 2020. “Flat Littlewood Polynomials Exist.” *Annals of Mathematics* 192 (3): 977–1004. <https://doi.org/10.4007/annals.2020.192.3.6>.
+**[3]** Paul Balister, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. Flat Littlewood polynomials exist. *Annals of Mathematics*, 192(3):977–1004, 2020.
 
-Beck, József. 1981. “Roth’s Estimate of the Discrepancy of Integer Sequences Is Nearly Sharp.” *Combinatorica* 1 (4): 319–25. <https://doi.org/10.1007/BF02579452>.
+**[4]** József Beck. Roth’s estimate of the discrepancy of integer sequences is nearly sharp. *Combinatorica*, 1(4):319–325, 1981.
 
-Bombieri, Enrico, and Jean Bourgain. 2009. “On Kahane’s Ultraflat Polynomials.” *Journal of the European Mathematical Society* 11 (3): 627–703. <https://doi.org/10.4171/JEMS/163>.
+**[5]** Enrico Bombieri and Jean Bourgain. On Kahane’s ultraflat polynomials. *Journal of the European Mathematical Society*, 11(3):627–703, 2009.
 
-Bonami, Aline, and Szilárd Gy. Révész. 2008. *Integral Concentration of Idempotent Trigonometric Polynomials with Gaps*. arXiv:0707.3023v2. <https://arxiv.org/abs/0707.3023v2>.
+**[6]** Aline Bonami and Szilárd Gy. Révész. Integral concentration of idempotent trigonometric polynomials with gaps. arXiv:0707.3023v2, 2008.
 
-Downarowicz, Tomasz, and Yves Lacroix. 1998. “[Merit Factors and Morse Sequences](https://doi.org/10.1016/S0304-3975(98)00121-2).” *Theoretical Computer Science* 209 (1–2): 377–87. <https://doi.org/10.1016/S0304-3975(98)00121-2>.
+**[7]** Tomasz Downarowicz and Yves Lacroix. [Merit factors and Morse sequences](https://doi.org/10.1016/S0304-3975(98)00121-2). *Theoretical Computer Science*, 209(1–2):377–387, 1998. Author manuscript: <https://lacroix.univ-tln.fr/Publis_files/Merit-Morse.pdf>.
 
-el Abdalaoui, el Houcein. 2017. *On the Erdős Flat Polynomials Problem, Chowla Conjecture and Riemann Hypothesis*. arXiv:1609.03435v2. <https://arxiv.org/abs/1609.03435v2>.
+**[8]** el Houcein el Abdalaoui. On the Erdős flat polynomials problem, Chowla conjecture and Riemann hypothesis. arXiv:1609.03435v2, 2017.
 
-el Abdalaoui, el Houcein. 2025a. *A Generalization of Littlewood’s $L^\alpha$ Flat Theorem, $\alpha>0$*. arXiv:2509.04212v1. <https://arxiv.org/abs/2509.04212v1>.
+**[9]** el Houcein el Abdalaoui. A generalization of Littlewood’s $L^\alpha$ flat theorem, $\alpha>0$. arXiv:2509.04212v1, 2025.
 
-el Abdalaoui, el Houcein. 2025b. *On $L^\alpha$-Flatness of Erdős–Littlewood’s Polynomials*. arXiv:2504.21499v1. <https://arxiv.org/abs/2504.21499v1>.
+**[10]** el Houcein el Abdalaoui. On $L^\alpha$-flatness of Erdős–Littlewood’s polynomials. arXiv:2504.21499v1, 2025.
 
-Erdélyi, Tamás. 2026. *On an Erdős Problem about the Maximum Modulus of Littlewood Polynomials on the Unit Circle*. arXiv:2608.00744v1. <https://arxiv.org/abs/2608.00744v1>.
+**[11]** Tamás Erdélyi. On an Erdős problem about the maximum modulus of Littlewood polynomials on the unit circle. arXiv:2608.00744v1, 2026.
 
-Erdős, Paul. 1957. “Some Unsolved Problems.” *Michigan Mathematical Journal* 4: 291–300. <https://doi.org/10.1307/mmj/1028997963>.
+**[12]** Paul Erdős. Some unsolved problems. *Michigan Mathematical Journal*, 4:291–300, 1957.
 
-Frankl, Peter, and Vojtěch Rödl. 1985. “Near Perfect Coverings in Graphs and Hypergraphs.” *European Journal of Combinatorics* 6 (4): 317–26. <https://doi.org/10.1016/S0195-6698(85)80045-7>.
+**[13]** Peter Frankl and Vojtěch Rödl. Near perfect coverings in graphs and hypergraphs. *European Journal of Combinatorics*, 6(4):317–326, 1985.
 
-Georgiev, Bogdan, Javier Gómez-Serrano, Terence Tao, and Adam Zsolt Wagner. 2025. *Mathematical Exploration and Discovery at Scale*. arXiv:2511.02864v3. <https://arxiv.org/abs/2511.02864v3>.
+**[14]** Bogdan Georgiev, Javier Gómez-Serrano, Terence Tao, and Adam Zsolt Wagner. Mathematical exploration and discovery at scale. arXiv:2511.02864v3, 2025. Section 6.13, Problem 6.28.
 
-Hayman, Walter K., and Eleanor F. Lingham. 2018. *Research Problems in Function Theory (New Edition)*. arXiv:1809.07200v2. <https://arxiv.org/abs/1809.07200v2>.
+**[15]** Walter K. Hayman and Eleanor F. Lingham. Research problems in function theory (new edition). arXiv:1809.07200v2, 2018. Problems 4.13 and 4.31.
 
-Jedwab, Jonathan, Daniel J. Katz, and Kai-Uwe Schmidt. 2013. “[Littlewood Polynomials with Small $L^4$ Norm](https://doi.org/10.1016/j.aim.2013.03.015).” *Advances in Mathematics* 241: 127–36. <https://doi.org/10.1016/j.aim.2013.03.015>.
+**[16]** Jonathan Jedwab, Daniel J. Katz, and Kai-Uwe Schmidt. [Littlewood polynomials with small $L^4$ norm](https://doi.org/10.1016/j.aim.2013.03.015). *Advances in Mathematics*, 241:127–136, 2013.
 
-Kahane, Jean-Pierre. 1980. “Sur Les Polynômes à Coefficients Unimodulaires.” *Bulletin of the London Mathematical Society* 12 (5): 321–42. <https://doi.org/10.1112/blms/12.5.321>.
+**[17]** Jean-Pierre Kahane. Sur les polynômes à coefficients unimodulaires. *Bulletin of the London Mathematical Society*, 12(5):321–342, 1980.
 
-Littlewood, J. E. 1966. “On Polynomials $\sum \pm z^m$, $\sum e^{\alpha_m i}z^m$, $z=e^{i\theta}$.” *Journal of the London Mathematical Society* 41: 367–76. <https://doi.org/10.1112/jlms/s1-41.1.367>.
+**[18]** J. E. Littlewood. On polynomials $\sum \pm z^m$, $\sum e^{\alpha_m i}z^m$, $z=e^{i\theta}$. *Journal of the London Mathematical Society*, 41:367–376, 1966.
 
-Lovett, Shachar, and Raghu Meka. 2015. “Constructive Discrepancy Minimization by Walking on the Edges.” *SIAM Journal on Computing* 44 (5): 1573–82. <https://doi.org/10.1137/130929400>.
+**[19]** Shachar Lovett and Raghu Meka. Constructive discrepancy minimization by walking on the edges. *SIAM Journal on Computing*, 44(5):1573–1582, 2015. Theorem 4 is cited from arXiv:1203.5747v2.
 
-OpenAI. 2026. *A smooth three-torus diffeomorphism with simple Lebesgue spectrum*. OpenAI Math Release preprint [OAI:A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2026](https://github.com/openai/math/blob/main/preprints/A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2026/paper.pdf).
+**[20]** OpenAI. A smooth three-torus diffeomorphism with simple Lebesgue spectrum. OpenAI Math Release preprint [OAI:A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2026](https://github.com/openai/math/blob/main/preprints/A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2026/paper.pdf), 2026.
 
-Pippenger, Nicholas, and Joel Spencer. 1989. “Asymptotic Behavior of the Chromatic Index for Hypergraphs.” *Journal of Combinatorial Theory, Series A* 51 (1): 24–42. <https://doi.org/10.1016/0097-3165(89)90074-5>.
+**[21]** Nicholas Pippenger and Joel Spencer. Asymptotic behavior of the chromatic index for hypergraphs. *Journal of Combinatorial Theory, Series A*, 51(1):24–42, 1989.
 
-Rudin, Walter. 1959. “Some Theorems on Fourier Coefficients.” *Proceedings of the American Mathematical Society* 10: 855–59. <https://doi.org/10.1090/S0002-9939-1959-0116184-5>.
+**[22]** Walter Rudin. Some theorems on Fourier coefficients. *Proceedings of the American Mathematical Society*, 10:855–859, 1959.
 
-Spencer, Joel. 1985. “Six Standard Deviations Suffice.” *Transactions of the American Mathematical Society* 289 (2): 679–706. <https://doi.org/10.1090/S0002-9947-1985-0784009-0>.
+**[23]** Joel Spencer. Six standard deviations suffice. *Transactions of the American Mathematical Society*, 289(2):679–706, 1985.

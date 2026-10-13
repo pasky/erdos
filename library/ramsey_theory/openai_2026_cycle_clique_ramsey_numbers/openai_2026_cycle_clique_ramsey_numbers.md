@@ -12,13 +12,13 @@ For finite simple graphs $H$ and $J$, the Ramsey number $R(H,J)$ is the least in
 
 **Theorem 1.1**. *For all integers $m\ge n\ge3$ with $(m,n)\ne(3,3)$, $$R(C_m,K_n)=(m-1)(n-1)+1.$$ For the excluded pair, $R(C_3,K_3)=6$.*
 
-Theorem 1.1 establishes the cycle–clique conjecture of Erdős, Faudree, Rousseau and Schelp (Erdős et al. 1978), in the formulation stated by Keevash, Long and Skokan (Keevash et al. 2021). The cycle length in the theorem is exact. Its lower bound comes from $n-1$ disjoint red cliques of order $m-1$, with all edges between them blue. The task is to show that one additional vertex forces one of the two specified graphs.
+Theorem 1.1 establishes the cycle–clique conjecture of Erdős, Faudree, Rousseau and Schelp [8], in the formulation stated by Keevash, Long and Skokan [10]. The cycle length in the theorem is exact. Its lower bound comes from $n-1$ disjoint red cliques of order $m-1$, with all edges between them blue. The task is to show that one additional vertex forces one of the two specified graphs.
 
 ### Previous results and the parameter range
 
-The case $n=3$ goes back to Chartrand and Schuster (Chartrand and Schuster 1971); see also Bondy and Erdős (Bondy and Erdős 1973, 47). Bondy and Erdős (Bondy and Erdős 1973, Theorem 4) established the formula when $m\ge n^2-2$. The complete conjectured range was established for $n=4$ by Yang, Huang and Zhang (Yang et al. 1999), for $n=5$ by Bollobás and coauthors (Bollobás et al. 2000), for $n=6$ by Schiermeyer (Schiermeyer 2003), and for $n=7$ by Chen, Cheng and Zhang (Chen et al. 2008). For $n=8$, further cases were established: $m=8$ (Jaradat and Alzaleq 2007; Zhang and Zhang 2009), $m=9$ (Bataineh et al. 2011), and $10\le m\le15$ (Baniabedalruhman 2023). Theorem 1 of Nikiforov (Nikiforov 2005) states the formula for $n\ge4$ and $m\ge4n+2$.
+The case $n=3$ goes back to Chartrand and Schuster [5]; see also Bondy and Erdős [4, p. 47]. Bondy and Erdős [4, Theorem 4] established the formula when $m\ge n^2-2$. The complete conjectured range was established for $n=4$ by Yang, Huang and Zhang [15], for $n=5$ by Bollobás and coauthors [3], for $n=6$ by Schiermeyer [14], and for $n=7$ by Chen, Cheng and Zhang [6]. For $n=8$, further cases were established: $m=8$ [9, 16], $m=9$ [2], and $10\le m\le15$ [1]. Theorem 1 of Nikiforov [11] states the formula for $n\ge4$ and $m\ge4n+2$.
 
-Keevash, Long and Skokan (Keevash et al. 2021, Theorem 1.1) proved that an absolute constant $C\ge1$ suffices whenever $$\begin{equation}
+Keevash, Long and Skokan [10, Theorem 1.1] proved that an absolute constant $C\ge1$ suffices whenever $$\begin{equation}
 \tag{1.1}
  n\ge3,\qquad
  m\ge C\frac{\log_2 n}{\log_2\log_2 n}.
@@ -28,7 +28,7 @@ Keevash, Long and Skokan (Keevash et al. 2021, Theorem 1.1) proved that an abs
 
 Set $k=m-1$ and $a=n-1$. A failure of the upper bound gives a graph with no cycle of order $k+1$ and independence number at most $a\le k$. Holding $k$ fixed and minimizing $a$ produces a useful expansion property: every nonempty independent set $I$ has at least $k|I|+1$ vertices in its closed neighbourhood. In particular, the minimum degree is at least $k$.
 
-The first structural step finds a clique of order $$t\ge\max\{3,\lfloor k/2\rfloor\}.$$ The proof uses distance layers in a rooted tree, followed by an explicit path-rotation argument. Independent-set expansion and rooted distance layers already appear in the cycle–clique argument of Erdős, Faudree, Rousseau and Schelp (Erdős et al. 1978, sec. 3). We prove the particular quantitative statements needed here in Sections 2 and 3. The two smallest values $k=3,4$ are then settled directly.
+The first structural step finds a clique of order $$t\ge\max\{3,\lfloor k/2\rfloor\}.$$ The proof uses distance layers in a rooted tree, followed by an explicit path-rotation argument. Independent-set expansion and rooted distance layers already appear in the cycle–clique argument of Erdős, Faudree, Rousseau and Schelp [8, Section 3]. We prove the particular quantitative statements needed here in Sections 2 and 3. The two smallest values $k=3,4$ are then settled directly.
 
 For $k\ge5$, fix a maximum clique $Q$ of order $t$. Consider paths between its vertices whose nonempty interiors lie outside $Q$ and are pairwise disjoint, and whose endpoint pairs form disjoint chains. The total number of interior vertices is called the *amount* of the system. We maximize this amount below $k+1-t$, breaking ties by minimizing the number of paths. Certain improvements of this system would close to a cycle of order exactly $k+1$; all such improvements are therefore forbidden.
 
@@ -54,7 +54,7 @@ Fix $k\ge3$ and suppose that the upper bound fails for at least one $a\in\{2,\ld
 
 Now let $2\le b<a$. If $|V(H)|\ge kb+1$, take an induced subgraph on $kb+1$ vertices. It still contains no $C_{k+1}$ and has independence number at most $b$. It would therefore be a counterexample for the smaller parameter $b$, contrary to the choice of $a$. ◻
 
-Independent-set deletion and neighbourhood expansion already enter the cycle–clique argument of Erdős, Faudree, Rousseau and Schelp (Erdős et al. 1978, sec. 3). The following closed neighbourhood bound comes directly from our fixed-parameter minimality.
+Independent-set deletion and neighbourhood expansion already enter the cycle–clique argument of Erdős, Faudree, Rousseau and Schelp [8, Section 3]. The following closed neighbourhood bound comes directly from our fixed-parameter minimality.
 
 **Lemma 2.2** (Independent-set expansion). *For every nonempty independent set $I$ in the graph $G$ fixed in (2.1), $$\begin{equation}
   |N_G[I]|\ge k|I|+1.
@@ -75,7 +75,7 @@ We continue with the graph from Section 2, and write $t=\omega(G)$ for its maxi
  \max\{3,\lfloor k/2\rfloor\}\le t\le k.
 \end{equation}$$*
 
-Lemma 2.2 gives the expansion hypothesis for our graph. We first obtain a triangle. For larger $k$, we then find an induced subgraph in a single distance layer with enough internal expansion to force a long path. Tree paths above that layer will close the path into a cycle on exactly $k+1$ vertices. This layer-and-tree strategy has its antecedent in Erdős, Faudree, Rousseau and Schelp (Erdős et al. 1978, sec. 3); the quantitative layer and coloured-path statements used here are proved below.
+Lemma 2.2 gives the expansion hypothesis for our graph. We first obtain a triangle. For larger $k$, we then find an induced subgraph in a single distance layer with enough internal expansion to force a long path. Tree paths above that layer will close the path into a cycle on exactly $k+1$ vertices. This layer-and-tree strategy has its antecedent in Erdős, Faudree, Rousseau and Schelp [8, Section 3]; the quantitative layer and coloured-path statements used here are proved below.
 
 **Lemma 3.2**. *Under the hypotheses of Theorem 3.1, we have $3\le t\le k$.*
 
@@ -171,7 +171,7 @@ Choose a longest path $P$ starting at $x$ in $K$, and write $W=V(P)$ and $r=|W|$
  \quad(e\in E).
 \end{equation}$$ If two vertices of $E$ were nonadjacent, their closed neighborhood in $H$ would have size at most $r+2\le\ell+1\le 2s-1$, contrary to the hypothesis. Thus $E$ is a clique. Also $x\notin E$, because a simple path with more than one vertex has distinct ends, and $r\ge s-1\ge3$.
 
-We use the standard fixed-end path rotation of Pósa (Pósa 1963, 358). The endpoint-clique and attachment conclusions needed here follow from our stated hypotheses. Explicitly, let $v_1=x,\ldots,v_r=e$ be any path from $x$ with vertex set $W$. For an edge $ev_j$ with $1\le j\le r-2$, the sequence $$\begin{equation}
+We use the standard fixed-end path rotation of Pósa [12, p. 358]. The endpoint-clique and attachment conclusions needed here follow from our stated hypotheses. Explicitly, let $v_1=x,\ldots,v_r=e$ be any path from $x$ with vertex set $W$. For an edge $ev_j$ with $1\le j\le r-2$, the sequence $$\begin{equation}
 \tag{3.10}
  v_1,\ldots,v_j,v_r,v_{r-1},\ldots,v_{j+1}
 \end{equation}$$ is another path from $x$ on exactly $W$. Its last vertex is $v_{j+1}$. The operation is valid also when $j=1$, so the pivot may be $x$. For $j=r-1$, the original path itself has last vertex $v_{j+1}=e$. Therefore the successor of every neighbor of $e$ along the path belongs to $E$. Different neighbors have different successors, and hence $$\begin{equation}
@@ -303,7 +303,7 @@ By Lemma 2.2, the minimal counterexample satisfies all the assumptions of Propo
 
 ## From size to independence
 
-We next show that a vertex set larger than both $k$ and twice the clique number contains three independent vertices. The argument uses only the forbidden cycle and the clique bound. We first prove two elementary facts about graphs with independence number at most two. The first is a special case of the Chvátal–Erdős Hamiltonicity theorem (Chvátal and Erdős 1972, Theorem 1). The shortening argument in the second appears in Radziszowski and Jin’s proof of their pancyclicity theorem (Radziszowski and Jin 1994, Theorem 2). We include both proofs.
+We next show that a vertex set larger than both $k$ and twice the clique number contains three independent vertices. The argument uses only the forbidden cycle and the clique bound. We first prove two elementary facts about graphs with independence number at most two. The first is a special case of the Chvátal–Erdős Hamiltonicity theorem [7, Theorem 1]. The shortening argument in the second appears in Radziszowski and Jin’s proof of their pancyclicity theorem [13, Theorem 2]. We include both proofs.
 
 **Lemma 5.1**. *Every finite simple 2-connected graph $H$ with $\alpha(H)\le2$ contains a cycle through all its vertices.*
 
@@ -874,34 +874,34 @@ Use an ordinary Python 3 interpreter without optimization flags. The independen
 
 ## References
 
-Baniabedalruhman, A. 2023. “The Cycle-Complete Graph Ramsey Numbers $R(C_n,K_8)$, for $10\le n\le15$.” *Jordan Journal of Mathematics and Statistics* 16 (4): 703–18. <https://doi.org/10.47013/16.4.6>.
+**[1]** A. Baniabedalruhman. The cycle-complete graph Ramsey numbers $R(C_n,K_8)$, for $10\le n\le15$. *Jordan Journal of Mathematics and Statistics*, 16(4):703–718, 2023. [Published article](https://doi.org/10.47013/16.4.6).
 
-Bataineh, M. S. A., M. M. M. Jaradat, and L. M. N. Al-Zaleq. 2011. “The Cycle-Complete Graph Ramsey Number $r(C_9,K_8)$.” *ISRN Algebra* 2011: 1–10. <https://doi.org/10.5402/2011/926191>.
+**[2]** M. S. A. Bataineh, M. M. M. Jaradat, and L. M. N. Al-Zaleq. The cycle-complete graph Ramsey number $r(C_9,K_8)$. *ISRN Algebra*, 2011:1–10, 2011. Article ID 926191. [Published article](https://doi.org/10.5402/2011/926191).
 
-Bollobás, B., C. Jayawardene, J. Yang, Y. R. Huang, C. Rousseau, and K. M. Zhang. 2000. “On a Conjecture Involving Cycle-Complete Graph Ramsey Numbers.” *Australasian Journal of Combinatorics* 22: 63–71. <https://ajc.maths.uq.edu.au/pdf/22/ocr-ajc-v22-p63.pdf>.
+**[3]** B. Bollobás, C. Jayawardene, J. Yang, Y. R. Huang, C. Rousseau, and K. M. Zhang. On a conjecture involving cycle-complete graph Ramsey numbers. *Australasian Journal of Combinatorics*, 22:63–71, 2000. [Publisher’s full text](https://ajc.maths.uq.edu.au/pdf/22/ocr-ajc-v22-p63.pdf).
 
-Bondy, J. A., and P. Erdős. 1973. “Ramsey Numbers for Cycles in Graphs.” *Journal of Combinatorial Theory, Series B* 14 (1): 46–54. <https://doi.org/10.1016/S0095-8956(73)80005-X>.
+**[4]** J. A. Bondy and P. Erdős. Ramsey numbers for cycles in graphs. *Journal of Combinatorial Theory, Series B*, 14(1):46–54, 1973. [Published article](https://doi.org/10.1016/S0095-8956(73)80005-X).
 
-Chartrand, Gary, and Seymour Schuster. 1971. “On the Existence of Specified Cycles in Complementary Graphs.” *Bulletin of the American Mathematical Society* 77 (6): 995–98. <https://doi.org/10.1090/S0002-9904-1971-12832-X>.
+**[5]** Gary Chartrand and Seymour Schuster. On the existence of specified cycles in complementary graphs. *Bulletin of the American Mathematical Society*, 77(6):995–998, 1971. [Published article](https://doi.org/10.1090/S0002-9904-1971-12832-X).
 
-Chen, Yaojun, T. C. Edwin Cheng, and Yunqing Zhang. 2008. “The Ramsey Numbers $R(C_m,K_7)$ and $R(C_7,K_8)$.” *European Journal of Combinatorics* 29 (5): 1337–52. <https://doi.org/10.1016/j.ejc.2007.05.007>.
+**[6]** Yaojun Chen, T. C. Edwin Cheng, and Yunqing Zhang. The Ramsey numbers $R(C_m,K_7)$ and $R(C_7,K_8)$. *European Journal of Combinatorics*, 29(5):1337–1352, 2008. [Published article](https://doi.org/10.1016/j.ejc.2007.05.007).
 
-Chvátal, V., and P. Erdős. 1972. “A Note on Hamiltonian Circuits.” *Discrete Mathematics* 2 (2): 111–13. <https://doi.org/10.1016/0012-365X(72)90079-9>.
+**[7]** V. Chvátal and P. Erdős. A note on Hamiltonian circuits. *Discrete Mathematics*, 2(2):111–113, 1972. [Published article](https://doi.org/10.1016/0012-365X(72)90079-9).
 
-Erdős, P., R. J. Faudree, C. C. Rousseau, and R. H. Schelp. 1978. “On Cycle–Complete Graph Ramsey Numbers.” *Journal of Graph Theory* 2 (1): 53–64. <https://doi.org/10.1002/jgt.3190020107>.
+**[8]** P. Erdős, R. J. Faudree, C. C. Rousseau, and R. H. Schelp. On cycle–complete graph Ramsey numbers. *Journal of Graph Theory*, 2(1):53–64, 1978. [Published article](https://doi.org/10.1002/jgt.3190020107).
 
-Jaradat, M. M. M., and B. M. N. Alzaleq. 2007. “The Cycle-Complete Graph Ramsey Number $r(C_8,K_8)$.” *SUT Journal of Mathematics* 43 (1): 85–98. <https://sites.ju.edu.jo/sites/Alzalg/Documents/Papers/r88.pdf>.
+**[9]** M. M. M. Jaradat and B. M. N. Alzaleq. The cycle-complete graph Ramsey number $r(C_8,K_8)$. *SUT Journal of Mathematics*, 43(1):85–98, 2007. [Author’s copy](https://sites.ju.edu.jo/sites/Alzalg/Documents/Papers/r88.pdf).
 
-Keevash, Peter, Eoin Long, and Jozef Skokan. 2021. “Cycle-Complete Ramsey Numbers.” *International Mathematics Research Notices* 2021 (1): 275–300. <https://doi.org/10.1093/imrn/rnz119>.
+**[10]** Peter Keevash, Eoin Long, and Jozef Skokan. Cycle-complete Ramsey numbers. *International Mathematics Research Notices*, 2021(1):275–300, 2021. [Published article](https://doi.org/10.1093/imrn/rnz119).
 
-Nikiforov, Vladimir. 2005. “The Cycle-Complete Graph Ramsey Numbers.” *Combinatorics, Probability and Computing* 14 (3): 349–70. <https://doi.org/10.1017/S096354830400642X>.
+**[11]** Vladimir Nikiforov. The cycle-complete graph Ramsey numbers. *Combinatorics, Probability and Computing*, 14(3):349–370, 2005. [Published article](https://doi.org/10.1017/S096354830400642X).
 
-Pósa, L. 1963. “On the Circuits of Finite Graphs.” *Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei* 8: 355–61. <https://real.mtak.hu/201453/1/cut_MATKUTINT_8_3_1963_pp355_-_361.pdf>.
+**[12]** L. Pósa. On the circuits of finite graphs. *Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei*, 8:355–361, 1963. [Primary scan](https://real.mtak.hu/201453/1/cut_MATKUTINT_8_3_1963_pp355_-_361.pdf).
 
-Radziszowski, Stanisław P., and Xia Jin. 1994. “Paths, Cycles and Wheels in Graphs Without Antitriangles.” *Australasian Journal of Combinatorics* 9: 221–32. <https://ajc.maths.uq.edu.au/pdf/9/ocr-ajc-v9-p221.pdf>.
+**[13]** Stanisław P. Radziszowski and Xia Jin. Paths, cycles and wheels in graphs without antitriangles. *Australasian Journal of Combinatorics*, 9:221–232, 1994. [Publisher’s full text](https://ajc.maths.uq.edu.au/pdf/9/ocr-ajc-v9-p221.pdf).
 
-Schiermeyer, Ingo. 2003. “All Cycle-Complete Graph Ramsey Numbers $r(C_m,K_6)$.” *Journal of Graph Theory* 44 (4): 251–60. <https://doi.org/10.1002/jgt.10145>.
+**[14]** Ingo Schiermeyer. All cycle-complete graph Ramsey numbers $r(C_m,K_6)$. *Journal of Graph Theory*, 44(4):251–260, 2003. [Published article](https://doi.org/10.1002/jgt.10145).
 
-Yang, J. S., Y. R. Huang, and K. M. Zhang. 1999. “The Value of the Ramsey Number $R(C_n,K_4)$ Is $3(n-1)+1$ ($n\geq4$).” *Australasian Journal of Combinatorics* 20: 205–6. <https://ajc.maths.uq.edu.au/pdf/20/ocr-ajc-v20-p205.pdf>.
+**[15]** J. S. Yang, Y. R. Huang, and K. M. Zhang. The value of the Ramsey number $R(C_n,K_4)$ is $3(n-1)+1$ ($n\geq4$). *Australasian Journal of Combinatorics*, 20:205–206, 1999. [Publisher’s full text](https://ajc.maths.uq.edu.au/pdf/20/ocr-ajc-v20-p205.pdf).
 
-Zhang, Yunqing, and Ke Min Zhang. 2009. “The Ramsey Number $R(C_8,K_8)$.” *Discrete Mathematics* 309 (5): 1084–90. <https://doi.org/10.1016/j.disc.2007.11.064>.
+**[16]** Yunqing Zhang and Ke Min Zhang. The Ramsey number $R(C_8,K_8)$. *Discrete Mathematics*, 309(5):1084–1090, 2009. [Published article](https://doi.org/10.1016/j.disc.2007.11.064).

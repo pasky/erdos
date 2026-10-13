@@ -10,44 +10,44 @@ We prove the conjecture that the irrationality exponent of $\pi$ is $2$. As a co
 
 For an irrational real number $x$, its *irrationality exponent* (also called its irrationality measure) is $$\mu(x)=\sup\left\{\nu>0:
 0<\left|x-\frac pq\right|<q^{-\nu}
-\text{ for infinitely many coprime }p,q\in\mathbb Z,\ q\ge2\right\}.$$ The pigeonhole principle gives $\mu(x)\ge2$. An upper bound limits how frequently rational numbers can approximate $x$ exceptionally closely; irrationality alone supplies no finite upper bound. The expected value for the usual positive circle constant is $2$. Waldschmidt records the corresponding epsilon-dependent approximation conjecture in (Waldschmidt 2004, 265). Our main result proves it.
+\text{ for infinitely many coprime }p,q\in\mathbb Z,\ q\ge2\right\}.$$ The pigeonhole principle gives $\mu(x)\ge2$. An upper bound limits how frequently rational numbers can approximate $x$ exceptionally closely; irrationality alone supplies no finite upper bound. The expected value for the usual positive circle constant is $2$. Waldschmidt records the corresponding epsilon-dependent approximation conjecture in [23, p. 265]. Our main result proves it.
 
 **Theorem 1.1**. *The irrationality exponent of $\pi$ is $2$. More precisely, for every real $\nu>2$, there is an integer $Q(\nu)$ such that $$\left|\pi-\frac pq\right|\ge q^{-\nu}
 \qquad(p\in\mathbb Z,\ q\in\mathbb Z,\ q\ge Q(\nu)).$$*
 
 The inequality applies to all integer numerators and denominators, whether or not the fraction is reduced. The threshold may depend on $\nu$, and the argument does not give it effectively. In particular, an exponent of $2$ is different from a uniform positive lower bound of the form $c/q^2$, or equivalently from bounded continued-fraction partial quotients.
 
-The related Flint–Hills problem, popularized by Pickover and discussed by Alekseyev (Alekseyev 2011), asks whether $$\sum_{n\ge1}\frac{1}{n^3\sin^2 n}$$ converges, with angles in radians. Integers very close to multiples of $\pi$ make individual denominators small. A rational-approximation bound controls how often such small values can occur, not just their individual size.
+The related Flint–Hills problem, popularized by Pickover and discussed by Alekseyev [1], asks whether $$\sum_{n\ge1}\frac{1}{n^3\sin^2 n}$$ converges, with angles in radians. Integers very close to multiples of $\pi$ make individual denominators small. A rational-approximation bound controls how often such small values can occur, not just their individual size.
 
 **Corollary 1.2**. *The classical Flint–Hills series converges.*
 
-Alekseyev showed that convergence requires $\mu(\pi)\le5/2$ (Alekseyev 2011, Corollary 4); Meiburg proved the sufficient strict condition $\mu(\pi)<5/2$ (Meiburg 2022, Theorem 2.5). Theorem 1.1 supplies this condition. Section 5 includes a short dyadic proof of the implication needed here. Neither cited criterion settles its equality boundary at $5/2$.
+Alekseyev showed that convergence requires $\mu(\pi)\le5/2$ [1, Corollary 4]; Meiburg proved the sufficient strict condition $\mu(\pi)<5/2$ [15, Theorem 2.5]. Theorem 1.1 supplies this condition. Section 5 includes a short dyadic proof of the implication needed here. Neither cited criterion settles its equality boundary at $5/2$.
 
 More generally, for fixed real numbers $a,b>0$, consider the family $$\sum_{n=1}^{\infty}\frac{1}{n^a|\sin n|^b}.$$ Theorem 1.1 and the spacing argument in Section 5 show that, with angles in radians, this series converges if and only if $a>\max\{1,b\}$; see Corollary 5.2.
 
 ### Quantitative approximation and related work
 
-Mahler’s 1953 paper (Mahler 1953) established a finite irrationality exponent for $\pi$ by constructing polynomial-coefficient combinations of powers of logarithms and proving determinant nonvanishing. It gave the explicit exponent $42$ for all denominators at least two and also stated an eventual improvement to $30$. Mignotte refined that construction, obtaining exponent $21$ for all such denominators and $20$ eventually (Mignotte 1974, Theorem 1). Chudnovsky developed Hermite–Padé approximation to exponential functions with precise asymptotic estimates (Chudnovsky 1982).
+Mahler’s 1953 paper [13] established a finite irrationality exponent for $\pi$ by constructing polynomial-coefficient combinations of powers of logarithms and proving determinant nonvanishing. It gave the explicit exponent $42$ for all denominators at least two and also stated an eventual improvement to $30$. Mignotte refined that construction, obtaining exponent $21$ for all such denominators and $20$ eventually [16, Theorem 1]. Chudnovsky developed Hermite–Padé approximation to exponential functions with precise asymptotic estimates [4].
 
-Hata’s integral constructions led to the bound $\mu(\pi)\le8.01604539\ldots$ (Hata 1993); Zudilin gives an account of the simultaneous logarithmic approximation and denominator arithmetic behind this value (Zudilin 2004, Theorem 2). Salikhov’s symmetric-integral method improved it to $7.606308\ldots$ (Salikhov 2008, 2010). Zeilberger and Zudilin combined parameter experiments with a rigorous arithmetic and asymptotic analysis to obtain $7.103205334137\ldots$ (Zeilberger and Zudilin 2020). Bai’s September 2026 preprint claims the further bound $\mu(\pi)<7.101862832357$ by a two-exponent variation of the latter integral (Bai 2026). These quantitative bounds are context, not inputs to our proof.
+Hata’s integral constructions led to the bound $\mu(\pi)\le8.01604539\ldots$ [8]; Zudilin gives an account of the simultaneous logarithmic approximation and denominator arithmetic behind this value [25, Theorem 2]. Salikhov’s symmetric-integral method improved it to $7.606308\ldots$ [20, 21]. Zeilberger and Zudilin combined parameter experiments with a rigorous arithmetic and asymptotic analysis to obtain $7.103205334137\ldots$ [24]. Bai’s September 2026 preprint claims the further bound $\mu(\pi)<7.101862832357$ by a two-exponent variation of the latter integral [2]. These quantitative bounds are context, not inputs to our proof.
 
-The connection with trigonometric series also has a longer history: Mahler applied approximation estimates to sine-denominator Dirichlet series in (Mahler 1953, sec. 16). For the classical Flint–Hills question, recent work of Dan on generalized series (Dan 2026) and López Zapata’s continued-fraction criterion (López Zapata 2026) leaves convergence undecided. The earlier convergence claim of Mantzakouras and López Zapata was withdrawn in September 2026 because its proof did not establish convergence or the asserted irrationality bound (Mantzakouras and López Zapata 2025). Carella claims both exponent two and the stronger bounded-partial-quotient property (Carella 2022). Neither claim is used here. The displayed proof of the stronger assertion contains a sign obstruction.[^1]
+The connection with trigonometric series also has a longer history: Mahler applied approximation estimates to sine-denominator Dirichlet series in [13, Section 16]. For the classical Flint–Hills question, recent work of Dan on generalized series [5] and López Zapata’s continued-fraction criterion [12] leaves convergence undecided. The earlier convergence claim of Mantzakouras and López Zapata was withdrawn in September 2026 because its proof did not establish convergence or the asserted irrationality bound [14]. Carella claims both exponent two and the stronger bounded-partial-quotient property [3]. Neither claim is used here. The displayed proof of the stronger assertion contains a sign obstruction.[^1]
 
 ### The proof in outline
 
-The proof uses a multivariable interpolation theorem to construct a nonzero determinant, then compares two incompatible estimates for its absolute value. This organization is related to the interpolation-determinant method discussed by Laurent (Laurent 1991, sec. 6). Successively separated approximation denominators already play a central role in Roth’s many-variable method (Roth 1960, secs. 2–3). Our application requires a different interpolation statement, adapted to logarithmic curves and with thresholds independent of their centers.
+The proof uses a multivariable interpolation theorem to construct a nonzero determinant, then compares two incompatible estimates for its absolute value. This organization is related to the interpolation-determinant method discussed by Laurent [9, Section 6]. Successively separated approximation denominators already play a central role in Roth’s many-variable method [19, Sections 2–3]. Our application requires a different interpolation statement, adapted to logarithmic curves and with thresholds independent of their centers.
 
 ##### Prescribing coefficients.
 
 A jet here means a finite packet of Taylor coefficients. Give the coordinates $Y,X_1,\ldots,X_m$ positive weights and retain polynomial monomials satisfying one weighted degree inequality. Their exponent vectors fill a simplex. At each point $(1,c_{j1},\ldots,c_{jm})$, expand after the substitution $$Y=1+t,\qquad X_i=c_{ji}+u_i+\log(1+t).$$ The variable $t$ follows the logarithmic curve; the variables $u_i$ are transverse displacements. Theorem 2.1 states that every packet below the prescribed weighted cutoff can be realized, at finitely many centers whose $X_i$-coordinates are pairwise distinct for each $i$, simultaneously. The weights of $X_1,\ldots,X_m$ are chosen successively before the center locations are known. The weights leave more polynomial coefficients than prescribed Taylor coefficients, but that dimension count alone does not prove full rank at these special centers.
 
-The proof in Section 2 starts from a local multiplicity comparison between coordinate directions and commuting differential directions. Derivative persistence and separated scales restrict any algebraic obstruction; logarithmic residues then force coordinate constancy. This stage is related to the zero-estimate methods of Philippon (Philippon 1986) and the separated multidegrees in Farhi’s Roth lemma (Farhi 2006, sec. 5.2). The resulting curve inequality bounds total weighted contact at the centers by the weighted degree of the curve. It gives positivity on an ordinary blowup, and vanishing yields all the requested coefficients. The relation between curvewise positivity and asymptotic jet generation is familiar from Demailly’s work (Demailly 1992, sec. 6); the weighted, multiple-center statement on the possibly singular schemes used here is proved explicitly.
+The proof in Section 2 starts from a local multiplicity comparison between coordinate directions and commuting differential directions. Derivative persistence and separated scales restrict any algebraic obstruction; logarithmic residues then force coordinate constancy. This stage is related to the zero-estimate methods of Philippon [18] and the separated multidegrees in Farhi’s Roth lemma [7, Section 5.2]. The resulting curve inequality bounds total weighted contact at the centers by the weighted degree of the curve. It gives positivity on an ordinary blowup, and vanishing yields all the requested coefficients. The relation between curvewise positivity and asymptotic jet generation is familiar from Demailly’s work [6, Section 6]; the weighted, multiple-center statement on the possibly singular schemes used here is proved explicitly.
 
 ##### Two ways to make the determinant small.
 
 Suppose that a fixed exponent $\nu>2$ permits exceptionally close approximations with unbounded denominators. Choose finitely many of these successively and set $c_{ji}=2\mathrm ij p_i/q_i$. They approximate the common logarithmic periods $2\pi\mathrm ij$. After truncating the logarithms by a filtration-preserving change, interpolation gives a matrix over $\mathbb Q(\mathrm i)$ with independent rows. A square minor using all rows is nonzero. Clearing its denominators gives an arithmetic lower bound.
 
-For the analytic bound, translate each row to the exact periods and expand in the transverse variables. The index $a$ denotes the chosen transverse coefficient. For a polynomial column $P$, $$[u^a]P(e^z,z+u_1,\ldots,z+u_m)$$ is an entire function of $z$. Rows test its Taylor coefficients after $z=2\pi\mathrm ij+\log(1+t)$. Rows with the same $a$ therefore test the same entire functions. On expanding those functions in $z$, repeated Taylor degrees within that group annihilate a determinant term. Distinct degrees then force a quadratic saving in the group size. This uses the Taylor-expansion mechanism also appearing in (Laurent 2000, Theorem 1). If many rows have small weighted transverse index, there are too few groups to avoid this saving. If few do, the many large indices instead supply powers of the small rational-approximation errors. Section 3 proves uniform bounds for both alternatives before summing the expansion.
+For the analytic bound, translate each row to the exact periods and expand in the transverse variables. The index $a$ denotes the chosen transverse coefficient. For a polynomial column $P$, $$[u^a]P(e^z,z+u_1,\ldots,z+u_m)$$ is an entire function of $z$. Rows test its Taylor coefficients after $z=2\pi\mathrm ij+\log(1+t)$. Rows with the same $a$ therefore test the same entire functions. On expanding those functions in $z$, repeated Taylor degrees within that group annihilate a determinant term. Distinct degrees then force a quadratic saving in the group size. This uses the Taylor-expansion mechanism also appearing in [10, Theorem 1]. If many rows have small weighted transverse index, there are too few groups to avoid this saving. If few do, the many large indices instead supply powers of the small rational-approximation errors. Section 3 proves uniform bounds for both alternatives before summing the expansion.
 
 ##### Why full simplices and separated choices matter.
 
@@ -110,7 +110,7 @@ In the regular local ring of the $k$-dimensional slice, the ideal generated by t
 Each of the $k$ combinations has weighted degree at most $N$ in the variables indexed by $A$. We claim that their local intersection length is at most $$\begin{equation}
 \tag{2.6}
  \frac{N^k}{\prod_{a\in A}\rho_a}.
-\end{equation}$$ Choose an integer $M_0$ clearing the denominators of the $\rho_a$, and make the substitutions $$x_a=\lambda_a+z_a^{M_0\rho_a}\qquad(a\in A).$$ Choose the constants $\lambda_a$ so that no preimage of the given point is ramified. There are $\prod_{a\in A}(M_0\rho_a)$ such preimages, each with the same local intersection length. The substituted polynomials have ordinary total degree at most $M_0N$. The ordinary Bézout bound for isolated complete-intersection zeros, with their local multiplicities, bounds the sum of these lengths by $(M_0N)^k$; see (Mondal 2021, Corollary VIII.3, p. 144). The multiplicities there are local quotient lengths, unchanged by completion (Mondal 2021, sec. IV.4.2). Dividing gives (2.6). This application concerns isolated zeros only and permits other components elsewhere.
+\end{equation}$$ Choose an integer $M_0$ clearing the denominators of the $\rho_a$, and make the substitutions $$x_a=\lambda_a+z_a^{M_0\rho_a}\qquad(a\in A).$$ Choose the constants $\lambda_a$ so that no preimage of the given point is ramified. There are $\prod_{a\in A}(M_0\rho_a)$ such preimages, each with the same local intersection length. The substituted polynomials have ordinary total degree at most $M_0N$. The ordinary Bézout bound for isolated complete-intersection zeros, with their local multiplicities, bounds the sum of these lengths by $(M_0N)^k$; see [17, Corollary VIII.3, p. 144]. The multiplicities there are local quotient lengths, unchanged by completion [17, Section IV.4.2]. Dividing gives (2.6). This application concerns isolated zeros only and permits other components elsewhere.
 
 Combining (2.5) and (2.6) proves the result. Neither the polynomials nor the possibly varying component enters the constant in (2.4). ◻
 
@@ -133,7 +133,7 @@ Choose a positive rational number $\sigma$ sufficiently small that $$\begin{equa
 
 Here and below a condition involving that largest index is imposed only when a positive index does differ. The successive choice is possible: if this largest index is $i$, the ratio in (2.9) is $w_i$ times a positive expression in the already chosen lower weights and the fixed zeroth weights. Every higher index occurs in both sets or in neither; in the former case its ratio is $w_j/v_j=\theta$. Hence the expression is independent of all higher weights. There are finitely many pairs of sets. A sufficiently large choice of $w_i$ enforces all conditions whose largest differing index is $i$, and subsequent choices do not disturb them. This construction involves no interpolation point.
 
-Let $C$ be an irreducible algebraic curve whose generic point lies in the affine coordinate chart. Such a curve has a smooth projective model over $\mathbb C$; see (The Stacks Project Authors 2026, Theorem 53.2.6 and Lemma 53.2.8, Tag 0BXX). On that model define $$\begin{equation}
+Let $C$ be an irreducible algebraic curve whose generic point lies in the affine coordinate chart. Such a curve has a smooth projective model over $\mathbb C$; see [22, Theorem 53.2.6 and Lemma 53.2.8, Tag 0BXX]. On that model define $$\begin{equation}
 \tag{2.10}
  \deg_W C=
  \sum_P\max\left\{0,-\frac{\operatorname{ord}_P Y}{w_0},
@@ -168,7 +168,7 @@ A polynomial of $W$-degree at most $N$ restricts to a rational function on the c
  \qquad\left(\sum_av_a\gamma_a\le\sigma N\right).
 \end{equation}$$ All the assertions about branch orders hold for formal power series: each monomial has order at least its weight times $h_P$, and cancellation can only increase the order.
 
-We have converted excess contact into vanishing of many derivatives on $C$. We next find a component on which that vanishing persists, as in the derivative-ideal method of zero estimates (Philippon 1986, sec. 5), and compare all its normal bases. Put $\delta=\sigma N/L_0$. For $0\le r\le L_0$, let $V_r$ be the common zero set in $Y\ne0$ of the derivatives of cost at most $r\delta$. Let $C^\circ$ be the part of $C$ in this affine open set. The $V_r$ form a decreasing chain, and (2.14) puts $C^\circ$ in $V_{L_0}$. Choose an irreducible component of $V_{L_0}$ containing $C^\circ$, and extend it backwards to nested irreducible components of the earlier $V_r$. Every selected component has dimension between $1$ and $m$: it contains a curve, and it lies in the proper zero set of $F_N$. Since there are $L_0+1=m+3$ levels, two adjacent selected components coincide. Denote this persistent component by $Z$, and write $k=\operatorname{codim}Z$.
+We have converted excess contact into vanishing of many derivatives on $C$. We next find a component on which that vanishing persists, as in the derivative-ideal method of zero estimates [18, Section 5], and compare all its normal bases. Put $\delta=\sigma N/L_0$. For $0\le r\le L_0$, let $V_r$ be the common zero set in $Y\ne0$ of the derivatives of cost at most $r\delta$. Let $C^\circ$ be the part of $C$ in this affine open set. The $V_r$ form a decreasing chain, and (2.14) puts $C^\circ$ in $V_{L_0}$. Choose an irreducible component of $V_{L_0}$ containing $C^\circ$, and extend it backwards to nested irreducible components of the earlier $V_r$. Every selected component has dimension between $1$ and $m$: it contains a curve, and it lies in the proper zero set of $F_N$. Since there are $L_0+1=m+3$ levels, two adjacent selected components coincide. Denote this persistent component by $Z$, and write $k=\operatorname{codim}Z$.
 
 Take the derivatives of cost at most $r\delta$ as the equations of the earlier of these two levels. Any further derivative of cost less than $\delta$ vanishes along $Z$, because the fields commute and $Z$ is also a component at the next level. Lemma 2.2, with $\varepsilon=\sigma/L_0$, gives $$\begin{equation}
 \tag{2.15}
@@ -198,7 +198,7 @@ Let that point be $a_j$. Choose a coordinate $X_l$ nonconstant on $C$. The nonze
 
 ### From the curve inequality to all coefficient packets
 
-We complete the proof of Theorem 2.1. The argument uses ordinary projective schemes and the ordinary blow-up; smoothness or normality of the compactification will not be needed. Curve positivity and asymptotic jet generation are closely related in the Seshadri-constant approach of (Demailly 1992, sec. 6). Here we supply the passage for our weighted ideals at several points, including the eventual ordinary-power comparison required on a possibly singular scheme.
+We complete the proof of Theorem 2.1. The argument uses ordinary projective schemes and the ordinary blow-up; smoothness or normality of the compactification will not be needed. Curve positivity and asymptotic jet generation are closely related in the Seshadri-constant approach of [6, Section 6]. Here we supply the passage for our weighted ideals at several points, including the eventual ordinary-power comparison required on a possibly singular scheme.
 
 Choose an integer $R$ sufficiently large that $R/w_a$ and $R/v_a$ are positive integers for every index. Embed affine space by all monomials of $W$-degree at most $R$, including the constant monomial, and let $X$ be the projective closure of the image. Since these monomials include each coordinate, the chart of the constant monomial is precisely the original affine space. Let $L=\mathcal O_X(1)$, a very ample line bundle.
 
@@ -215,7 +215,7 @@ At $a_j$ form the finite-colength ideal $$I_j=\left(t^{R/v_0},(u_1')^{R/v_1},\ld
  =\min_a\left\{(R/v_a)\operatorname{ord}_P z_a\right\}
  =Rh_P,
  \qquad z_0=t,\quad z_i=u_i'.
-\end{equation}$$ Let $p:X'\to X$ be the ordinary blow-up of $I$, namely the relative Proj of its Rees algebra, and write $$I\mathcal O_{X'}=\mathcal O_{X'}(-E).$$ The scheme $X$ is integral and Noetherian, $I$ is a coherent nonzero ideal, and $E$ is an effective Cartier divisor. The tautological bundle $\mathcal O_{X'}(-E)$ is relatively ample; these are the standard blow-up properties in (The Stacks Project Authors 2026, Tags 02OS, 02ND, and 02NS).
+\end{equation}$$ Let $p:X'\to X$ be the ordinary blow-up of $I$, namely the relative Proj of its Rees algebra, and write $$I\mathcal O_{X'}=\mathcal O_{X'}(-E).$$ The scheme $X$ is integral and Noetherian, $I$ is a coherent nonzero ideal, and $E$ is an effective Cartier divisor. The tautological bundle $\mathcal O_{X'}(-E)$ is relatively ample; these are the standard blow-up properties in [22, Tags 02OS, 02ND, and 02NS].
 
 Write $A=p^*L$ in additive divisor notation. We claim that $$\begin{equation}
 \tag{2.19}
@@ -228,19 +228,19 @@ For sufficiently large $a>1$, the divisor $aA-E$ is ample. One can see this dire
  A-E=
  \frac{a-1}{a(1+\sigma)-1}\bigl(A-(1+\sigma)E\bigr)
  +\frac{\sigma}{a(1+\sigma)-1}(aA-E)
-\end{equation}$$ expresses $A-E$ as a positive multiple of a nef class plus a positive multiple of an ample class. It is therefore ample; see (Lazarsfeld 2004, Corollary 1.4.10). This theorem applies to projective schemes and does not require a smooth blow-up.
+\end{equation}$$ expresses $A-E$ as a positive multiple of a nef class plus a positive multiple of an ample class. It is therefore ample; see [11, Corollary 1.4.10]. This theorem applies to projective schemes and does not require a smooth blow-up.
 
 For all sufficiently large $n$, the graded-piece and relative vanishing theorems for the ordinary Rees algebra give $$\begin{equation}
 \tag{2.21}
  p_*\mathcal O_{X'}(-nE)=I^n,\qquad
  R^q p_*\mathcal O_{X'}(-nE)=0\quad(q>0).
-\end{equation}$$ Indeed, on any affine open of the Noetherian base the Rees algebra is a Noetherian graded algebra generated in degree one. Its sufficiently high graded pieces recover the sections of its associated sheaf on Proj, and the higher cohomology of those twists vanishes. A finite affine cover gives one common threshold; see (The Stacks Project Authors 2026, Tags 0AG6 and 0AG7). In particular, (2.21) uses ordinary powers $I^n$, not their integral closures, and makes no assertion about small $n$.
+\end{equation}$$ Indeed, on any affine open of the Noetherian base the Rees algebra is a Noetherian graded algebra generated in degree one. Its sufficiently high graded pieces recover the sections of its associated sheaf on Proj, and the higher cohomology of those twists vanishes. A finite affine cover gives one common threshold; see [22, Tags 0AG6 and 0AG7]. In particular, (2.21) uses ordinary powers $I^n$, not their integral closures, and makes no assertion about small $n$.
 
 By the projection formula, Leray, and Serre vanishing for the ample line bundle $A-E$, $$\begin{equation}
 \tag{2.22}
  H^1(X,I^n\otimes L^n)
  =H^1(X',\mathcal O_{X'}(n(A-E)))=0
-\end{equation}$$ for all sufficiently large $n$; see (The Stacks Project Authors 2026, Tag 0B5U). The exact sequence for $I^n$ consequently gives a surjection from $H^0(X,L^n)$ onto all its local coefficient data modulo $I^n$. The constant projective coordinate trivializes $L$ on the affine chart. Finite-colength local quotients are unchanged by completion, so these algebraic classes are also the formal coefficient data used in the theorem. In these trivializations, every element of $I^n$ has weighted order at least $nR$, because every displayed generator of $I$ has weight $R$. Thus $$\begin{equation}
+\end{equation}$$ for all sufficiently large $n$; see [22, Tag 0B5U]. The exact sequence for $I^n$ consequently gives a surjection from $H^0(X,L^n)$ onto all its local coefficient data modulo $I^n$. The constant projective coordinate trivializes $L$ on the affine chart. Finite-colength local quotients are unchanged by completion, so these algebraic classes are also the formal coefficient data used in the theorem. In these trivializations, every element of $I^n$ has weighted order at least $nR$, because every displayed generator of $I$ has weight $R$. Thus $$\begin{equation}
 \tag{2.23}
  I^n\subseteq\{\text{local series of weight at least }nR\}.
 \end{equation}$$ Surjectivity modulo $I^n$ therefore implies surjectivity onto the smaller quotient consisting of the desired packets of weight less than $nR$. Equality in (2.23) is not needed.
@@ -249,7 +249,7 @@ Finally, every section of $L^n$ for sufficiently large $n$ is supplied by a homo
 
 ## The arithmetic and analytic determinant estimates
 
-Interpolation now supplies the algebraic rank needed for an interpolation determinant, in the sense of (Laurent 1991, sec. 6). We estimate one full-row minor from below arithmetically, and then translate its rows to exact logarithmic periods to obtain an analytic upper bound.
+Interpolation now supplies the algebraic rank needed for an interpolation determinant, in the sense of [9, Section 6]. We estimate one full-row minor from below arithmetically, and then translate its rows to exact logarithmic periods to obtain an analytic upper bound.
 
 Throughout this section all parameters except $H$ are fixed. Write $$w\alpha=\sum_{i=1}^m w_i\alpha_i,
  \qquad w_* =\min_{1\le i\le m}w_i,
@@ -371,7 +371,7 @@ The product of tails vanishes to order at least $\sum_i d_iT_i$. Consequently a 
 
 ### Repeated Taylor degrees force a quadratic saving
 
-The Taylor expansion of interpolation determinants eliminates repeated degrees (Laurent 2000, Theorem 1). Our rows fall into different transverse-index groups, so this cancellation is used only inside a fixed group. The next bound is uniform over all row choices.
+The Taylor expansion of interpolation determinants eliminates repeated degrees [10, Theorem 1]. Our rows fall into different transverse-index groups, so this cancellation is used only inside a fixed group. The next bound is uniform over all row choices.
 
 **Lemma 3.3** (Collision estimate). *Choose one translated test row from each row expansion in Lemma 3.2, and remove its scalar factor. Let $T$ be the resulting square matrix, and let $n_a$ be the number of its rows with index $a$. With $$\begin{equation}
  c=\frac{\log2}{4},\qquad
@@ -511,7 +511,7 @@ Finally divide the unit interval into $N$ equal parts and apply pigeonhole to $0
 
 ## Flint–Hills series and its generalization
 
-We first prove Corollary 1.2. Alekseyev showed that convergence of the classical Flint–Hills series requires $\mu(\pi)\le5/2$ (Alekseyev 2011, Corollary 4); Meiburg proved that $\mu(\pi)<5/2$ is sufficient (Meiburg 2022, Theorem 2.5). We include the short spacing argument needed for the consequence of Theorem 1.1. Write $\|x\|=\min_{p\in\mathbb Z}|x-p|$ for distance to the nearest integer.
+We first prove Corollary 1.2. Alekseyev showed that convergence of the classical Flint–Hills series requires $\mu(\pi)\le5/2$ [1, Corollary 4]; Meiburg proved that $\mu(\pi)<5/2$ is sufficient [15, Theorem 2.5]. We include the short spacing argument needed for the consequence of Theorem 1.1. Write $\|x\|=\min_{p\in\mathbb Z}|x-p|$ for distance to the nearest integer.
 
 **Lemma 5.1** (Dyadic spacing estimate). *Let $\alpha>0$ be irrational. Suppose that, for some $c>0$ and $1<\nu<5/2$, $$\|q\alpha\|\ge c q^{1-\nu}\qquad(q\in\mathbb Z,\ q\ge1).$$ Then $$\sum_{q=1}^{\infty}\frac{1}{q^3\|q\alpha\|^2}<\infty.$$*
 
@@ -550,54 +550,54 @@ If $a\le1$, including the boundary $a=1$, then $|\sin n|\le1$ compares the serie
 
 ## References
 
-Alekseyev, Max A. 2011. *On Convergence of the Flint Hills Series*. arXiv:1104.5100v1 \[math.CA\]. <https://arxiv.org/abs/1104.5100v1>.
+**[1]** Max A. Alekseyev. On convergence of the Flint Hills series. arXiv:1104.5100v1 \[math.CA\], 2011. URL <https://arxiv.org/abs/1104.5100v1>.
 
-Bai, Yufei. 2026. *The Irrationality Measure of $\pi$ Is at Most $7.101862832357$*. arXiv:2609.11276v2 \[math.NT\]. <https://doi.org/10.48550/arXiv.2609.11276>.
+**[2]** Yufei Bai. The irrationality measure of $\pi$ is at most $7.101862832357$. arXiv:2609.11276v2 \[math.NT\], 2026. URL <https://arxiv.org/abs/2609.11276v2>. Version 2, September 11, 2026.
 
-Carella, N. A. 2022. *Irrationality Measure of Pi*. arXiv:1902.08817v10 \[math.GM\]. <https://doi.org/10.48550/arXiv.1902.08817>.
+**[3]** N. A. Carella. Irrationality measure of Pi. arXiv:1902.08817v10 \[math.GM\], 2022. URL <https://arxiv.org/abs/1902.08817v10>. Version 10, May 12, 2022.
 
-Chudnovsky, G. V. 1982. “Hermite–Padé Approximations to Exponential Functions and Elementary Estimates of the Measure of Irrationality of $\pi$.” In *The Riemann Problem, Complete Integrability and Arithmetic Applications*, edited by D. V. Chudnovsky and G. V. Chudnovsky, vol. 925. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/BFb0093516>.
+**[4]** G. V. Chudnovsky. Hermite–Padé approximations to exponential functions and elementary estimates of the measure of irrationality of $\pi$. In D. V. Chudnovsky and G. V. Chudnovsky, editors, *The Riemann Problem, Complete Integrability and Arithmetic Applications*, volume 925 of *Lecture Notes in Mathematics*, pages 299–322. Springer, Berlin–Heidelberg, 1982. doi: 10.1007/BFb0093516. URL <https://link.springer.com/chapter/10.1007/BFb0093516>.
 
-Dan, Yuya. 2026. *Critical Convergence and Hausdorff Measures for Generalized Flint Hills Series*. arXiv:2609.12338v1 \[math.NT\]. <https://doi.org/10.48550/arXiv.2609.12338>.
+**[5]** Yuya Dan. Critical convergence and Hausdorff measures for generalized Flint Hills series. arXiv:2609.12338v1 \[math.NT\], 2026. URL <https://arxiv.org/abs/2609.12338v1>. Version 1, September 11, 2026.
 
-Demailly, Jean-Pierre. 1992. “Singular Hermitian Metrics on Positive Line Bundles.” In *Complex Algebraic Varieties*, edited by Klaus Hulek, Thomas Peternell, Michael Schneider, and Frank-Olaf Schreyer, vol. 1507. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/BFb0094512>.
+**[6]** Jean-Pierre Demailly. Singular hermitian metrics on positive line bundles. In Klaus Hulek, Thomas Peternell, Michael Schneider, and Frank-Olaf Schreyer, editors, *Complex Algebraic Varieties*, volume 1507 of *Lecture Notes in Mathematics*, pages 87–104. Springer, Berlin, 1992. doi: 10.1007/BFb0094512. URL <https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/bayreuth.pdf>.
 
-Farhi, Bakir. 2006. *Un Lemme de Roth Sur Les Groupes Algébriques Commutatifs*. arXiv:math/0603257v1 \[math.NT\]. <https://arxiv.org/abs/math/0603257v1>.
+**[7]** Bakir Farhi. Un lemme de Roth sur les groupes algébriques commutatifs. arXiv:math/0603257v1 \[math.NT\], 2006. URL <https://arxiv.org/abs/math/0603257v1>.
 
-Hata, Masayoshi. 1993. “Rational Approximations to $\pi$ and Some Other Numbers.” *Acta Arithmetica* 63 (4): 335–49. <https://doi.org/10.4064/aa-63-4-335-349>.
+**[8]** Masayoshi Hata. Rational approximations to $\pi$ and some other numbers. *Acta Arithmetica*, 63(4):335–349, 1993. doi: 10.4064/aa-63-4-335-349. URL <https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/63/4/107787/rational-approximations-to-and-some-other-numbers>.
 
-Laurent, Michel. 1991. “Sur Quelques résultats récents de Transcendance.” *Astérisque* 198-199-200: 209–30. <https://www.numdam.org/item/AST_1991__198-199-200__209_0/>.
+**[9]** Michel Laurent. Sur quelques résultats récents de transcendance. *Astérisque*, 198-199-200:209–230, 1991. URL <https://www.numdam.org/item/AST_1991__198-199-200__209_0/>.
 
-Laurent, Michel. 2000. “Interpolation Determinants of Exponential Polynomials.” *Publicationes Mathematicae Debrecen* 56 (3-4): 457–73. <https://doi.org/10.5486/PMD.2000.2310>.
+**[10]** Michel Laurent. Interpolation determinants of exponential polynomials. *Publicationes Mathematicae Debrecen*, 56(3-4):457–473, 2000. doi: 10.5486/PMD.2000.2310. URL <https://publi.math.unideb.hu/paper/599>.
 
-Lazarsfeld, Robert. 2004. *Positivity in Algebraic Geometry I: Classical Setting: Line Bundles and Linear Series*. Vol. 48. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete, 3. Folge. Springer-Verlag. <https://doi.org/10.1007/978-3-642-18808-4>.
+**[11]** Robert Lazarsfeld. *Positivity in Algebraic Geometry I: Classical Setting: Line Bundles and Linear Series*, volume 48 of *Ergebnisse der Mathematik und ihrer Grenzgebiete, 3. Folge*. Springer-Verlag, Berlin, 2004. doi: 10.1007/978-3-642-18808-4. URL <https://link.springer.com/book/10.1007/978-3-642-18808-4>.
 
-López Zapata, Carlos H. 2026. *A Continued-Fraction Criterion for the Flint Hills Series, and the Integer Sequences It Generates*. arXiv:2603.09719v5 \[math.GM\]. <https://doi.org/10.48550/arXiv.2603.09719>.
+**[12]** Carlos H. López Zapata. A continued-fraction criterion for the Flint Hills series, and the integer sequences it generates. arXiv:2603.09719v5 \[math.GM\], 2026. URL <https://arxiv.org/abs/2603.09719v5>. Version 5, September 13, 2026.
 
-Mahler, Kurt. 1953. “On the Approximation of $\pi$.” *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A* 56: 30–42. <https://ems.press/books/dms/252/4986>.
+**[13]** Kurt Mahler. On the approximation of $\pi$. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A*, 56:30–42, 1953. URL <https://ems.press/books/dms/252/4986>. Also Indagationes Mathematicae 15, 30–42.
 
-Mantzakouras, Nikos, and Carlos López Zapata. 2025. *Diophantine FLINT-HILLS Series*. arXiv:2502.03474v2 \[math.GM\]. <https://doi.org/10.48550/arXiv.2502.03474>.
+**[14]** Nikos Mantzakouras and Carlos López Zapata. Diophantine FLINT-HILLS series. arXiv:2502.03474v2 \[math.GM\], 2025. URL <https://arxiv.org/abs/2502.03474v2>. Withdrawn in version 2, September 14, 2026.
 
-Meiburg, Alex. 2022. *Bounds on Irrationality Measures and the Flint-Hills Series*. arXiv:2208.13356v1 \[math.NT\]. <https://arxiv.org/abs/2208.13356v1>.
+**[15]** Alex Meiburg. Bounds on irrationality measures and the Flint-Hills series. arXiv:2208.13356v1 \[math.NT\], 2022. URL <https://arxiv.org/abs/2208.13356v1>.
 
-Mignotte, Maurice. 1974. “Approximations Rationnelles de $\pi$ Et Quelques Autres Nombres.” In *Journées Arithmétiques (Grenoble, 1973)*. Bulletin de La Société Mathématique de France. Mémoire 37. Société mathématique de France. <https://doi.org/10.24033/msmf.139>.
+**[16]** Maurice Mignotte. Approximations rationnelles de $\pi$ et quelques autres nombres. In *Journées arithmétiques (Grenoble, 1973)*, number 37 in Bulletin de la Société mathématique de France. Mémoire, pages 121–132. Société mathématique de France, 1974. doi: 10.24033/msmf.139. URL <https://www.numdam.org/articles/10.24033/msmf.139/>.
 
-Mondal, Pinaki. 2021. *How Many Zeroes? Counting the Number of Solutions of Systems of Polynomials via Geometry at Infinity (Draft III)*. arXiv:1806.05346v5 \[math.AG\]. <https://arxiv.org/abs/1806.05346v5>.
+**[17]** Pinaki Mondal. How many zeroes? counting the number of solutions of systems of polynomials via geometry at infinity (Draft III). arXiv:1806.05346v5 \[math.AG\], 2021. URL <https://arxiv.org/abs/1806.05346v5>. Version 5, November 5, 2021.
 
-Philippon, Patrice. 1986. “Lemmes de zéros Dans Les Groupes Algébriques Commutatifs.” *Bulletin de La Société Mathématique de France* 114: 355–83. <https://doi.org/10.24033/bsmf.2060>.
+**[18]** Patrice Philippon. Lemmes de zéros dans les groupes algébriques commutatifs. *Bulletin de la Société Mathématique de France*, 114:355–383, 1986. doi: 10.24033/bsmf.2060. URL <https://www.numdam.org/articles/10.24033/bsmf.2060/>. Errata et addenda, ibid. 115 (1987), 397–398, doi:10.24033/bsmf.2084.
 
-Roth, K. F. 1960. “Rational Approximations to Algebraic Numbers.” In *Proceedings of the International Congress of Mathematicians 1958*, edited by J. A. Todd. Cambridge University Press. <https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1958/ICM1958.ocr.pdf>.
+**[19]** K. F. Roth. Rational approximations to algebraic numbers. In J. A. Todd, editor, *Proceedings of the International Congress of Mathematicians 1958*, pages 203–210, Cambridge, 1960. Cambridge University Press. URL <https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1958/ICM1958.ocr.pdf>.
 
-Salikhov, V. Kh. 2008. “On the Irrationality Measure of $\pi$.” *Russian Mathematical Surveys* 63 (3): 570–72. <https://doi.org/10.1070/RM2008v063n03ABEH004543>.
+**[20]** V. Kh. Salikhov. On the irrationality measure of $\pi$. *Russian Mathematical Surveys*, 63(3):570–572, 2008. doi: 10.1070/RM2008v063n03ABEH004543. URL <https://www.mathnet.ru/eng/rm9175>.
 
-Salikhov, V. Kh. 2010. “On the Measure of Irrationality of the Number $\pi$.” *Mathematical Notes* 88 (4): 563–73. <https://doi.org/10.1134/S0001434610090294>.
+**[21]** V. Kh. Salikhov. On the measure of irrationality of the number $\pi$. *Mathematical Notes*, 88(4):563–573, 2010. doi: 10.1134/S0001434610090294. URL <https://www.mathnet.ru/eng/mzm8688>.
 
-The Stacks Project Authors. 2026. *The Stacks Project*. <https://stacks.math.columbia.edu>.
+**[22]** The Stacks Project Authors. The Stacks Project, 2026. URL <https://stacks.math.columbia.edu>. Tags 02OS, 02ND, 02NS, 0AG6, 0AG7, 0B5U, 0BXX, and 0BXR; accessed September 2026.
 
-Waldschmidt, Michel. 2004. “Open Diophantine Problems.” *Moscow Mathematical Journal* 4 (1): 245–305. <https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/odp.pdf>.
+**[23]** Michel Waldschmidt. Open Diophantine problems. *Moscow Mathematical Journal*, 4(1):245–305, 2004. URL <https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/odp.pdf>.
 
-Zeilberger, Doron, and Wadim Zudilin. 2020. “The Irrationality Measure of $\pi$ Is at Most 7.103205334137….” *Moscow Journal of Combinatorics and Number Theory* 9 (4): 407–19. <https://doi.org/10.2140/moscow.2020.9.407>.
+**[24]** Doron Zeilberger and Wadim Zudilin. The irrationality measure of $\pi$ is at most 7.103205334137…. *Moscow Journal of Combinatorics and Number Theory*, 9(4):407–419, 2020. doi: 10.2140/moscow.2020.9.407. URL <https://arxiv.org/abs/1912.06345>.
 
-Zudilin, Wadim. 2004. *An Essay on Irrationality Measures of $\pi$ and Other Logarithms*. arXiv:math/0404523 \[math.NT\]. <https://arxiv.org/abs/math/0404523>.
+**[25]** Wadim Zudilin. An essay on irrationality measures of $\pi$ and other logarithms. arXiv:math/0404523 \[math.NT\], 2004. URL <https://arxiv.org/abs/math/0404523>.
 
-[^1]: In the notation of (Carella 2022, Theorem 8.1, Equations (52) and (55)), let $C=p_{n+1}-\pi q_{n+1}-1/q_n$. The convergent estimate $\lvert p_{n+1}-\pi q_{n+1}\rvert<1/q_{n+2}<1/q_n$ gives $-2/q_n<C<0$. Thus $\sin C<0$ for large $n$, contrary to the positive lower bound in that argument. This objection concerns the displayed proof of the stronger assertion; it does not decide the exponent-two claim or the truth of the stronger conclusion.
+[^1]: In the notation of [3, Theorem 8.1, Equations (52) and (55)], let $C=p_{n+1}-\pi q_{n+1}-1/q_n$. The convergent estimate $\lvert p_{n+1}-\pi q_{n+1}\rvert<1/q_{n+2}<1/q_n$ gives $-2/q_n<C<0$. Thus $\sin C<0$ for large $n$, contrary to the positive lower bound in that argument. This objection concerns the displayed proof of the stronger assertion; it does not decide the exponent-two claim or the truth of the stronger conclusion.

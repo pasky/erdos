@@ -8,7 +8,7 @@ We prove the geometric-progression case of the Erdős similarity conjecture. For
 
 ## Introduction
 
-Let $m$ denote Lebesgue measure on $\mathbb R$. A set $A\subseteq\mathbb R$ is *measure universal* if every Lebesgue-measurable set of positive measure contains a nontrivial affine copy $$x+sA=\{x+sa:a\in A\},\qquad x\in\mathbb R,\quad s\in\mathbb R\setminus\{0\}.$$ The Erdős similarity conjecture (Erdős 1974, Problem 4.33.7\*) asserts that no infinite set is measure universal. We prove its geometric-progression case. For $q\in(0,1)$, write $$G_q=\{q^n:n\in\mathbb N,\ n\ge1\}.$$
+Let $m$ denote Lebesgue measure on $\mathbb R$. A set $A\subseteq\mathbb R$ is *measure universal* if every Lebesgue-measurable set of positive measure contains a nontrivial affine copy $$x+sA=\{x+sa:a\in A\},\qquad x\in\mathbb R,\quad s\in\mathbb R\setminus\{0\}.$$ The Erdős similarity conjecture [Erd74, Problem 4.33.7*] asserts that no infinite set is measure universal. We prove its geometric-progression case. For $q\in(0,1)$, write $$G_q=\{q^n:n\in\mathbb N,\ n\ge1\}.$$
 
 **Theorem 1.1**. *For every $q\in(0,1)$ and $\eta\in(0,1)$, there is a compact set $E_{q,\eta}\subseteq[0,1]$ with $m(E_{q,\eta})>1-\eta$ such that $$\text{for every }x\in\mathbb R\text{ and }s\in\mathbb R\setminus\{0\},
  \quad x+sq^n\notin E_{q,\eta}\text{ for some integer }n\ge1.$$*
@@ -20,13 +20,13 @@ The avoiding set may depend on $q$. In particular, taking $q=1/2$ gives a compac
 Every finite pattern is measure universal. Indeed, if $F$ is finite and $A$ is measurable with finite positive measure, continuity of translations in $L^1$ gives $$m\Bigl(\bigcap_{a\in F}(A-sa)\Bigr)\longrightarrow m(A)>0
  \qquad(s\to0).$$ For an arbitrary positive-measure set, apply this observation to a bounded subset of positive measure. The conjecture asks whether this property always fails for infinite patterns.
 
-Falconer (Falconer 1984) and Eigen (Eigen 1985) proved nonuniversality for positive decreasing sequences $a_n\to0$ with $a_{n+1}/a_n\to1$. Humke and Laczkovich (Humke and Laczkovich 1998, Theorems 1–2 and Corollary 1) developed a finite covering characterization and further criteria in terms of relative gaps. Kolountzakis (Kolountzakis 1997, Theorem 3) gave a probabilistic criterion using large finite subsets with sufficiently large normalized minimum gap. In the translation-invariant form of Chlebík (Chlebík 2015, Theorem 15), a bounded infinite set is nonuniversal if it contains finite subsets $a_1>\cdots>a_m$, of arbitrarily large cardinality, for which $$-\log\left(\frac{\min_{i<m}(a_i-a_{i+1})}{a_1-a_m}\right)=o(m).$$ Geometric progressions do not satisfy this criterion. For distinct powers of $q$, we have $a_{m-1}\le q^{m-2}a_1$ and $a_1-a_m\ge(1-q)a_1$. Their normalized minimum gap is therefore at most $q^{m-2}/(1-q)$, whose negative logarithm cannot be sublinear in $m$.
+Falconer [Fal84] and Eigen [Eig85] proved nonuniversality for positive decreasing sequences $a_n\to0$ with $a_{n+1}/a_n\to1$. Humke and Laczkovich [HL98, Theorems 1–2 and Corollary 1] developed a finite covering characterization and further criteria in terms of relative gaps. Kolountzakis [Kol97, Theorem 3] gave a probabilistic criterion using large finite subsets with sufficiently large normalized minimum gap. In the translation-invariant form of Chlebík [Chl15, Theorem 15], a bounded infinite set is nonuniversal if it contains finite subsets $a_1>\cdots>a_m$, of arbitrarily large cardinality, for which $$-\log\left(\frac{\min_{i<m}(a_i-a_{i+1})}{a_1-a_m}\right)=o(m).$$ Geometric progressions do not satisfy this criterion. For distinct powers of $q$, we have $a_{m-1}\le q^{m-2}a_1$ and $a_1-a_m\ge(1-q)a_1$. Their normalized minimum gap is therefore at most $q^{m-2}/(1-q)$, whose negative logarithm cannot be sublinear in $m$.
 
-Additive structure supplies another family of results. Bourgain (Bourgain 1987) proved that the sum of three infinite sets is nonuniversal. Kolountzakis (Kolountzakis 1997) treated certain double sums, including $G_{1/2}+G_{1/2}$. Mora Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli (Mora Cuellar et al. 2026, Theorem 2) proved that the sum or difference of a geometric null sequence and any infinite set is nonuniversal. Avoiding such a larger pattern does not imply avoidance of the single geometric progression in Theorem 1.1.
+Additive structure supplies another family of results. Bourgain [Bou87] proved that the sum of three infinite sets is nonuniversal. Kolountzakis [Kol97] treated certain double sums, including $G_{1/2}+G_{1/2}$. Mora Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli [MCIK+26, Theorem 2] proved that the sum or difference of a geometric null sequence and any infinite set is nonuniversal. Avoiding such a larger pattern does not imply avoidance of the single geometric progression in Theorem 1.1.
 
-Other results concern different classes of patterns or notions of largeness. Iosevich, Kulkarni, Mora Cuéllar, Rojas Aravena and Yavicoli (Iosevich et al. 2026, Theorem 1.5) prove nonuniversality for sets supporting a probability measure whose Fourier transform tends to zero at infinity. Such a measure is atomless, so the hypothesis excludes countable sets (Iosevich et al. 2026, Proposition 4.1). Cruz, Lai and Pramanik (Cruz et al. 2023, preprint, Corollary 1.2 and Proposition 4.4) construct sets of Hausdorff dimension one avoiding certain null sequences together with their limit point; the subsets establishing that dimension have Lebesgue measure zero. In a different direction, the theorem of Feng, Lai and Xiong (Feng et al. 2024, preprint, Theorem 1.1) implies that every $G_q$ embeds into every measurable set of positive measure by a bi-Lipschitz map. The restriction to affine maps is therefore substantive.
+Other results concern different classes of patterns or notions of largeness. Iosevich, Kulkarni, Mora Cuéllar, Rojas Aravena and Yavicoli [IKMC+26, Theorem 1.5] prove nonuniversality for sets supporting a probability measure whose Fourier transform tends to zero at infinity. Such a measure is atomless, so the hypothesis excludes countable sets [IKMC+26, Proposition 4.1]. Cruz, Lai and Pramanik [CLP23, preprint, Corollary 1.2 and Proposition 4.4] construct sets of Hausdorff dimension one avoiding certain null sequences together with their limit point; the subsets establishing that dimension have Lebesgue measure zero. In a different direction, the theorem of Feng, Lai and Xiong [FLX24, preprint, Theorem 1.1] implies that every $G_q$ embeds into every measurable set of positive measure by a bi-Lipschitz map. The restriction to affine maps is therefore substantive.
 
-The proof below belongs to the probabilistic approach of Kolountzakis (Kolountzakis 1997). Random cells, fixed-center scale discretization, and integration of exceptional-center probabilities also appear in Chlebík (Chlebík 2015, sec. 5) and Kolountzakis–Papageorgiou (Kolountzakis and Papageorgiou 2025, sec. 3.1); the latter paper treats unbounded sequences. Solymosi (Solymosi 2011, sec. 3) and Tom (Tom 2015) report incomplete dyadic constructions based on random cells; Tom also considers nested dyadic intervals and tests independent of the dilation. Our contribution is the finite routing construction and its local control of the scale count. We explain that mechanism next and give a self-contained proof.
+The proof below belongs to the probabilistic approach of Kolountzakis [Kol97]. Random cells, fixed-center scale discretization, and integration of exceptional-center probabilities also appear in Chlebík [Chl15, Section 5] and Kolountzakis–Papageorgiou [KP25, Section 3.1]; the latter paper treats unbounded sequences. Solymosi [Sol11, Section 3] and Tom [Tom15] report incomplete dyadic constructions based on random cells; Tom also considers nested dyadic intervals and tests independent of the dilation. Our contribution is the finite routing construction and its local control of the scale count. We explain that mechanism next and give a self-contained proof.
 
 ### The proof mechanism
 
@@ -216,7 +216,7 @@ The estimate holds for every center-exposure atom admitting a default and every 
 
 ## All normalized scales and all centers
 
-The independent tests of Section 4 control a fixed scale at a fixed stable center. We first make this estimate simultaneous over $t\in[1,2]$, using only the grids that determine the local tests. We then choose the construction parameters and cover the remaining centers by a small open set. The finite boundary-representative argument has precedents in (Chlebík 2015, proof of Theorem 15) and (Kolountzakis and Papageorgiou 2025, sec. 3.1).
+The independent tests of Section 4 control a fixed scale at a fixed stable center. We first make this estimate simultaneous over $t\in[1,2]$, using only the grids that determine the local tests. We then choose the construction parameters and cover the remaining centers by a small open set. The finite boundary-representative argument has precedents in [Chl15, proof of Theorem 15] and [KP25, Section 3.1].
 
 **Lemma 5.1** (Conditional control of all normalized scales). *Fix $p\in(0,1)$ and the construction parameters $M,d,g,r_0$ of Sections 3 and 4. Let $x\in\mathcal S$ be a stable center, and let $\xi$ be an atom of the center-exposure field $\mathcal F_x$ on which the route of $x$ uses a default edge. If its first default occurs at a vertex $U$ of height $h$, put $r=r_h$ and $$\begin{equation}
 \tag{5.1}
@@ -268,7 +268,7 @@ Fix any stable center $x$. By (4.3), the probability that its route has no defa
  \qquad(x\in\mathcal S).
 \end{equation}$$ The probability space is finite, so this event is measurable even though its definition quantifies over all $t\in[1,2]$.
 
-It remains to turn this estimate at each center into a set that works at every center. Open-neighborhood repair for null sequences is explicit in Tom (Tom 2015, Lemma 0.2); see also Chlebík (Chlebík 2015, sec. 3, final remark; Proposition 1(vi), (viii)). We implement it with open neighborhoods, which contain sufficiently late translated points because $tq^n\to0$. For each table outcome, enlarge the finitely many selected cells per period to an open periodic set $B^+\supseteq B$ with $$\rho(B^+)\le\rho(B)+p.$$ For that outcome define the set of centers still missed by the finite collection of indices: $$\begin{equation}
+It remains to turn this estimate at each center into a set that works at every center. Open-neighborhood repair for null sequences is explicit in Tom [Tom15, Lemma 0.2]; see also Chlebík [Chl15, Section 3, final remark; Proposition 1(vi), (viii)]. We implement it with open neighborhoods, which contain sufficiently late translated points because $tq^n\to0$. For each table outcome, enlarge the finitely many selected cells per period to an open periodic set $B^+\supseteq B$ with $$\rho(B^+)\le\rho(B)+p.$$ For that outcome define the set of centers still missed by the finite collection of indices: $$\begin{equation}
 \tag{5.7}
  R=\left\{x\in\mathbb R:\ \exists t\in[1,2]\ \forall n\in\mathcal N,
                    \ x+tq^n\notin B^+\right\}.
@@ -284,30 +284,30 @@ To verify the hitting property, fix $x\in\mathbb R$ and $t\in[1,2]$. If $x\notin
 
 ## References
 
-Bourgain, Jean. 1987. “Construction of Sets of Positive Measure Not Containing an Affine Image of a Given Infinite Structure.” *Israel Journal of Mathematics* 60 (3): 333–44. <https://doi.org/10.1007/BF02780397>.
+**[Bou87]** Jean Bourgain. Construction of sets of positive measure not containing an affine image of a given infinite structure. *Israel Journal of Mathematics*, 60(3):333–344, 1987.
 
-Chlebík, Miroslav. 2015. *On the Erdős Similarity Problem*.
+**[Chl15]** Miroslav Chlebík. On the Erdős similarity problem, 2015. Preprint, [arXiv:1512.05607v1](https://arxiv.org/abs/1512.05607v1), 17 December 2015.
 
-Cruz, Angel D., Chun-Kit Lai, and Malabika Pramanik. 2023. “Large Sets Avoiding Affine Copies of Infinite Sequences.” *Real Analysis Exchange* 48 (2): 251–70. <https://doi.org/10.14321/realanalexch.48.2.1681628520>.
+**[CLP23]** Angel D. Cruz, Chun-Kit Lai, and Malabika Pramanik. Large sets avoiding affine copies of infinite sequences. *Real Analysis Exchange*, 48(2):251–270, 2023. Preprint: [arXiv:2204.12720v1](https://arxiv.org/abs/2204.12720v1).
 
-Eigen, S. J. 1985. “Putting Convergent Sequences into Measurable Sets.” *Studia Scientiarum Mathematicarum Hungarica* 20 (1–4): 411–12.
+**[Eig85]** S. J. Eigen. Putting convergent sequences into measurable sets. *Studia Scientiarum Mathematicarum Hungarica*, 20(1–4):411–412, 1985.
 
-Erdős, Paul. 1974. “Problems.” *Mathematica Balkanica* 4: 203–4.
+**[Erd74]** Paul Erdős. Problems. *Mathematica Balkanica*, 4:203–204, 1974. Problem 4.33.7\*.
 
-Falconer, K. J. 1984. “On a Problem of Erdős on Sequences and Measurable Sets.” *Proceedings of the American Mathematical Society* 90 (1): 77–78. <https://doi.org/10.1090/S0002-9939-1984-0722418-0>.
+**[Fal84]** K. J. Falconer. On a problem of Erdős on sequences and measurable sets. *Proceedings of the American Mathematical Society*, 90(1):77–78, 1984.
 
-Feng, De-Jun, Chun-Kit Lai, and Ying Xiong. 2024. “Erdős Similarity Problem via Bi-Lipschitz Embedding.” *International Mathematics Research Notices* 2024 (17): 12327–42. <https://doi.org/10.1093/imrn/rnae167>.
+**[FLX24]** De-Jun Feng, Chun-Kit Lai, and Ying Xiong. Erdős similarity problem via bi-Lipschitz embedding. *International Mathematics Research Notices*, 2024(17):12327–12342, 2024. Preprint: [arXiv:2312.01319v1](https://arxiv.org/abs/2312.01319v1).
 
-Humke, Paul D., and Miklós Laczkovich. 1998. “A Visit to the Erdős Problem.” *Proceedings of the American Mathematical Society* 126 (3): 819–22. <https://doi.org/10.1090/S0002-9939-98-04167-7>.
+**[HL98]** Paul D. Humke and Miklós Laczkovich. A visit to the Erdős problem. *Proceedings of the American Mathematical Society*, 126(3):819–822, 1998.
 
-Iosevich, A., N. Kulkarni, N. Mora Cuéllar, I. Rojas Aravena, and A. Yavicoli. 2026. *The Erdős Similarity Conjecture and Rajchman Measures*.
+**[IKMC+26]** A. Iosevich, N. Kulkarni, N. Mora Cuéllar, I. Rojas Aravena, and A. Yavicoli. The Erdős similarity conjecture and Rajchman measures, 2026. Preprint, [arXiv:2609.04456v1](https://arxiv.org/abs/2609.04456v1), 3 September 2026.
 
-Kolountzakis, Mihail N. 1997. “Infinite Patterns That Can Be Avoided by Measure.” *Bulletin of the London Mathematical Society* 29 (4): 415–24. <https://doi.org/10.1112/S0024609397003056>.
+**[Kol97]** Mihail N. Kolountzakis. Infinite patterns that can be avoided by measure. *Bulletin of the London Mathematical Society*, 29(4):415–424, 1997.
 
-Kolountzakis, Mihail N., and Effie Papageorgiou. 2025. “Large Sets Containing No Copies of a Given Infinite Sequence.” *Analysis & PDE* 18 (1): 93–108. <https://doi.org/10.2140/apde.2025.18.93>.
+**[KP25]** Mihail N. Kolountzakis and Effie Papageorgiou. Large sets containing no copies of a given infinite sequence. *Analysis & PDE*, 18(1):93–108, 2025. Preprint: [arXiv:2208.02637v2](https://arxiv.org/abs/2208.02637v2).
 
-Mora Cuellar, N., A. Iosevich, N. Kulkarni, I. Rojas Aravena, and A. Yavicoli. 2026. *The Erdős Similarity Conjecture for Two-Fold Sumsets with a Geometric Summand*.
+**[MCIK+26]** N. Mora Cuellar, A. Iosevich, N. Kulkarni, I. Rojas Aravena, and A. Yavicoli. The Erdős similarity conjecture for two-fold sumsets with a geometric summand, 2026. Preprint, [arXiv:2607.03584v2](https://arxiv.org/abs/2607.03584v2), 1 August 2026.
 
-Solymosi, David. 2011. *Patterns in Sparse Sets*. Summer NSERC USRA report, University of British Columbia.
+**[Sol11]** David Solymosi. Patterns in sparse sets. Summer NSERC USRA report, University of British Columbia, 2011. [Research report](https://oldwww.math.ubc.ca/Ugrad/NSERC/USRA-PDF/S11_solymosi.pdf).
 
-Tom, Foster. 2015. *Sets Avoiding Images of a Given Sequence*. Summer NSERC USRA report, University of British Columbia.
+**[Tom15]** Foster Tom. Sets avoiding images of a given sequence. Summer NSERC USRA report, University of British Columbia, 2015. [Research report](https://secure.math.ubc.ca/Ugrad/NSERC/USRA-PDF/S15_Tom.pdf).

@@ -19,8 +19,8 @@ Indian Mathematical Society* (New Series) **15** (1951), 19–24.
 
 **Provenance and identifier caveat.** This folder retains the Markdown reading
 copy but no PDF, so there is no local source-byte SHA-256 to record. The scan URL
-and the identifiers MR 13,326c and Zentralblatt 43,49 come from the pre-existing
-corpus record and were not independently checked against publisher metadata; no
+and the identifiers MR 13,326c and Zentralblatt 43,49 were not independently
+checked against publisher metadata; no
 DOI has been established here. The paper's reference [2] calls the predecessor
 in *Acta Arithmetica* **2**, 147–151 a 1937 paper, while the repository's
 [separate source card](davenport_erdos_1936_sequences_positive_integers.md)

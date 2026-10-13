@@ -13,9 +13,9 @@ An Egyptian-fraction expansion of a positive rational number is a finite sum of 
 
 **Theorem 1.1**. *There are absolute constants $c_1,c_2>0$ and $b_0$ such that, for every integer $b\ge b_0$, $$c_1\log\log b\le N(b)\le c_2\log\log b.$$ In particular, the upper bound holds for every integer numerator $1\le a<b$.*
 
-Nakayama’s study of $N(a,b)$ emphasized arithmetic criteria for expansions with few terms (Nakayama 1940, sec. I). The uniform problem asks how these minimum lengths behave as the numerator varies over a fixed denominator. In 1950, Erdős reported de Bruijn’s bound $N(b)\ll\log b/\log\log\log b$ and improved it to $N(b)\ll\log b/\log\log b$ (Erdős 1950, 195, Theorem 1). He proposed the double-logarithmic upper bound and proved the matching lower order, already for the numerator $b-1$ (Erdős 1950, 195, Theorem 2). The question appears again in Erdős and Graham (Erdős and Graham 1980, 37–38) and is recorded as Erdős Problem 304 (Bloom, n.d.-b). Vose subsequently obtained $N(b)\ll\sqrt{\log b}$ (Vose 1985); an explicit modern statement of his uniform bound is given in (Doorn and Tang 2026, Lemma 2.2). Theorem 1.1 proves Erdős’s conjecture affirmatively. The lower bound is classical; the issue is the uniform upper bound.
+Nakayama’s study of $N(a,b)$ emphasized arithmetic criteria for expansions with few terms [18, Section I]. The uniform problem asks how these minimum lengths behave as the numerator varies over a fixed denominator. In 1950, Erdős reported de Bruijn’s bound $N(b)\ll\log b/\log\log\log b$ and improved it to $N(b)\ll\log b/\log\log b$ [6, p. 195, Theorem 1]. He proposed the double-logarithmic upper bound and proved the matching lower order, already for the numerator $b-1$ [6, p. 195, Theorem 2]. The question appears again in Erdős and Graham [8, pp. 37–38] and is recorded as Erdős Problem 304 [2]. Vose subsequently obtained $N(b)\ll\sqrt{\log b}$ [23]; an explicit modern statement of his uniform bound is given in [22, Lemma 2.2]. Theorem 1.1 proves Erdős’s conjecture affirmatively. The lower bound is classical; the issue is the uniform upper bound.
 
-A related line of work controls the denominators as well as the length. Tenenbaum and Yokota proved that, for each fixed $\varepsilon>0$ and every sufficiently large $b$, every $a/b\in(0,1)$ has a distinct expansion of length at most $(1+\varepsilon)\log b/\log\log b$, with all denominators at most $4b(\log b)^2\log\log b$ (Tenenbaum and Yokota 1990, Theorem, p. 151). Their length estimate serves this simultaneous constraint. Here we optimize only the order of the length and leave the denominator sizes unrestricted.
+A related line of work controls the denominators as well as the length. Tenenbaum and Yokota proved that, for each fixed $\varepsilon>0$ and every sufficiently large $b$, every $a/b\in(0,1)$ has a distinct expansion of length at most $(1+\varepsilon)\log b/\log\log b$, with all denominators at most $4b(\log b)^2\log\log b$ [21, Theorem, p. 151]. Their length estimate serves this simultaneous constraint. Here we optimize only the order of the length and leave the denominator sizes unrestricted.
 
 The uniform theorem also determines the double-logarithmic order of the number of representations of one. For each positive integer $k$, put $$F(k)=\#\left\{(n_1,\ldots,n_k):
   1\le n_1<\cdots<n_k,\quad n_i\in\mathbb Z,\quad
@@ -23,7 +23,7 @@ The uniform theorem also determines the double-logarithmic order of the number o
 
 **Corollary 1.2**. *There are absolute constants $c,C>0$ and $k_0$ such that, for every integer $k\ge k_0$, $$ck\le\log\log F(k)\le Ck.$$*
 
-Erdős and Graham asked for good estimates for this counting function (Erdős and Graham 1980, 32). Konyagin stated a lower bound with double logarithm of order $k/\log k$ (Konyagin 2014, Theorem 1); Elsholtz obtained this lower order even when every denominator is congruent to $1$ or $-1$ modulo a fixed squarefree integer $P>1$: the bound holds for every sufficiently large $k$, with $k$ required to be odd when $P$ is even, and its constant may depend on $P$ (Elsholtz 2016, Theorem 1.1). Elsholtz and Planitzer proved an upper bound with double logarithm $O(k)$, allowing repetitions as well (Elsholtz and Planitzer 2021, Corollary 3(2)). Corollary 1.2 determines the double-logarithmic order for unrestricted distinct denominators.
+Erdős and Graham asked for good estimates for this counting function [8, p. 32]. Konyagin stated a lower bound with double logarithm of order $k/\log k$ [14, Theorem 1]; Elsholtz obtained this lower order even when every denominator is congruent to $1$ or $-1$ modulo a fixed squarefree integer $P>1$: the bound holds for every sufficiently large $k$, with $k$ required to be odd when $P$ is even, and its constant may depend on $P$ [4, Theorem 1.1]. Elsholtz and Planitzer proved an upper bound with double logarithm $O(k)$, allowing repetitions as well [5, Corollary 3(2)]. Corollary 1.2 determines the double-logarithmic order for unrestricted distinct denominators.
 
 We can also ask which exact denominators occur among these expansions. For each integer $k\ge1$, let $D_k$ be the set of integers $m\ge2$ for which there are positive integers $n_1<\cdots<n_k$ satisfying $$1=\sum_{i=1}^{k}\frac1{n_i},\qquad
  m\in\{n_1,\ldots,n_k\}.$$ Set $$v(k)=\min\bigl(\{2,3,\ldots\}\setminus D_k\bigr).$$ The elementary denominator bound proved below makes $D_k$ finite, so this minimum exists. Each $m\in D_k$ may use a different expansion; membership requires the exact denominator $m$ and exactly $k$ distinct terms.
@@ -33,7 +33,7 @@ We can also ask which exact denominators occur among these expansions. For each 
  \le\limsup_{k\to\infty}\frac{\log\log v(k)}k
  \le\log2.$$ Equivalently for the lower bound, every fixed $c<\log2/257$ satisfies $v(k)\ge\exp(\exp(ck))$ for every sufficiently large integer $k$. In particular $\log\log v(k)=\Theta(k)$.*
 
-The prescribed-denominator question originates in Erdős and Graham (Erdős and Graham 1980, 35); see also Problem 293 (Bloom, n.d.-a). Van Doorn and Tang prove the lower bound $v(k)\ge\exp(c k^2)$ for an absolute $c>0$ (Doorn and Tang 2026, Theorem 1.1). They also show that an exact prescribed denominator can be retained while increasing the length of a distinct expansion (Doorn and Tang 2026, Lemma 2.1) and anticipate the connection between uniform short expansions and a double-exponential lower bound for $v(k)$ (Doorn and Tang 2026, sec. 3). We give the required marker-avoidance argument below, thereby deriving the qualitative order from Theorem 1.1. A direct construction additionally gives the numerical lower slope in Corollary 1.3, without quantifying the constant $c_2$ in the uniform theorem. The elementary upper bound is convenient rather than best known: sharper public upper bounds follow from the counting estimates of Elsholtz and Planitzer (Elsholtz and Planitzer 2021, Corollary 3(2)).
+The prescribed-denominator question originates in Erdős and Graham [8, p. 35]; see also Problem 293 [1]. Van Doorn and Tang prove the lower bound $v(k)\ge\exp(c k^2)$ for an absolute $c>0$ [22, Theorem 1.1]. They also show that an exact prescribed denominator can be retained while increasing the length of a distinct expansion [22, Lemma 2.1] and anticipate the connection between uniform short expansions and a double-exponential lower bound for $v(k)$ [22, Section 3]. We give the required marker-avoidance argument below, thereby deriving the qualitative order from Theorem 1.1. A direct construction additionally gives the numerical lower slope in Corollary 1.3, without quantifying the constant $c_2$ in the uniform theorem. The elementary upper bound is convenient rather than best known: sharper public upper bounds follow from the counting estimates of Elsholtz and Planitzer [5, Corollary 3(2)].
 
 The two consequences impose different requirements on a construction. To obtain many expansions, it suffices to retain a denominator divisible by an integer with many prime factors. To include a prescribed integer $m$ in $D_k$, the exact term $1/m$ must survive. The latter requirement governs both the initial construction and the operation that increases its length.
 
@@ -48,9 +48,9 @@ The dense family is obtained by descending through $O(\log S)$ numerator ranges.
 
 The difficulty is to prevent the exceptional numerators from accumulating as these reductions are joined. For fixed $t$ and $h$, a predecessor $u$ must divide $Qt+h$. A uniform moment estimate for the number of small divisors in a shifted interval controls the total number of predecessors of a small exceptional set. Hölder’s inequality then gives a recurrence for the exceptional proportions that remains small throughout the descent. This combination of residue distribution, uniform divisor moments, and the final passage from a dense family to every numerator is the main mechanism of the proof.
 
-The use of a common auxiliary denominator connects the proof to the classical divisor method. Erdős’s construction writes suitable integers as sums of distinct divisors of a factorial and turns those sums into unit fractions (Erdős 1950, sec. 1, pp. 199–203). Tenenbaum and Yokota obtain a shorter divisor decomposition by choosing successive divisors close to the remaining numerator (Tenenbaum and Yokota 1990, Lemma 4 and Section 3). The present descent instead selects divisors through the residues they produce. Modular control by finite Fourier methods also occurs in Croot’s work (Croot 1999) and Martin’s development of it (Martin 2000, sec. 4, Lemmas 11–13), where subset sums of modular inverses remove large prime-power denominator factors. Here prime-product distributions supply many possible reductions, and a uniform divisor moment keeps their exceptional sets under control across all levels. The moment proof uses the prime-factor splitting method of Erdős (Erdős 1952, sec. 3); the truncation and shift uniformity needed here are established below.
+The use of a common auxiliary denominator connects the proof to the classical divisor method. Erdős’s construction writes suitable integers as sums of distinct divisors of a factorial and turns those sums into unit fractions [6, Section 1, pp. 199–203]. Tenenbaum and Yokota obtain a shorter divisor decomposition by choosing successive divisors close to the remaining numerator [21, Lemma 4 and Section 3]. The present descent instead selects divisors through the residues they produce. Modular control by finite Fourier methods also occurs in Croot’s work [3] and Martin’s development of it [17, Section 4, Lemmas 11–13], where subset sums of modular inverses remove large prime-power denominator factors. Here prime-product distributions supply many possible reductions, and a uniform divisor moment keeps their exceptional sets under control across all levels. The moment proof uses the prime-factor splitting method of Erdős [7, Section 3]; the truncation and shift uniformity needed here are established below.
 
-Section 2 isolates the dense-family statement and deduces Theorem 1.1 from it. Section 3 proves the divisor estimate, Section 4 constructs the residue distributions, and Section 5 completes the dense-family argument. The construction constants are fixed first, then a moment order large enough for the descent, and finally a sufficiently large lower bound on $S$. Section 6 then deduces Corollary 1.2. Theorem 1.1 supplies a short expansion containing a denominator with many prime factors. Splitting that denominator over its divisors gives many distinct expansions, and an injective padding operation gives every sufficiently large prescribed length. Divisor-rich denominators and divisor-indexed splitting appear in Konyagin and Elsholtz (Konyagin 2014; Elsholtz 2016); Konyagin explicitly records the padding injection (Konyagin 2014, 312).
+Section 2 isolates the dense-family statement and deduces Theorem 1.1 from it. Section 3 proves the divisor estimate, Section 4 constructs the residue distributions, and Section 5 completes the dense-family argument. The construction constants are fixed first, then a moment order large enough for the descent, and finally a sufficiently large lower bound on $S$. Section 6 then deduces Corollary 1.2. Theorem 1.1 supplies a short expansion containing a denominator with many prime factors. Splitting that denominator over its divisors gives many distinct expansions, and an injective padding operation gives every sufficiently large prescribed length. Divisor-rich denominators and divisor-indexed splitting appear in Konyagin and Elsholtz [14, 4]; Konyagin explicitly records the padding injection [14, p. 312].
 
 For the prescribed-denominator consequence, Section 7 reserves $1/m$ and uses a greedy prefix that skips denominator $m$. The remaining sum is smaller than every reserved reciprocal, so any positive expansion of that remainder avoids all reserved denominators. Applying Theorem 1.1 gives a short marked expansion, and a separate padding lemma retains the exact marker at every later length. For an explicit length constant, Section 8 instead constructs the tail from a common supply of rational numbers whose numerators divide one auxiliary integer. Prime-product residue collisions and the quantitative three-prime theorem provide this supply. A divisor-density property of the unreduced greedy denominator then groups the remaining numerator into few pieces. The resulting length coefficient $257/\log2$ gives the lower slope after padding and absorbing the finitely many small markers.
 
@@ -68,7 +68,7 @@ Section 5 proves Proposition 2.1. Its constants and threshold are independent 
 
 **Lemma 2.2** (Removing repetitions). *Let $k\ge1$ be an integer. If $0<x<1$ is a sum of $k$ positive unit fractions with integer denominators, then it is a sum of $k$ such fractions with distinct denominators, all at least $2$.*
 
-*Proof.* We use Takenouchi’s argument (Takenouchi 1921, secs. II–III, pp. 79–80). For fixed $x>0$ and $k$, there are only finitely many nondecreasing lists of $k$ denominators with reciprocal sum $x$. Indeed, the first denominator is at most $k/x$. Once it is chosen, induction applies to the remaining positive sum and the remaining $k-1$ terms; when no terms remain the sum must be zero.
+*Proof.* We use Takenouchi’s argument [20, Sections II–III, pp. 79–80]. For fixed $x>0$ and $k$, there are only finitely many nondecreasing lists of $k$ denominators with reciprocal sum $x$. Indeed, the first denominator is at most $k/x$. Once it is chosen, induction applies to the remaining positive sum and the remaining $k-1$ terms; when no terms remain the sum must be zero.
 
 If a denominator occurs twice, apply one of the identities $$\frac2{2p}=\frac1{p+1}+\frac1{p(p+1)},
  \qquad
@@ -91,7 +91,7 @@ For the lower bound, consider an expansion of $(b-1)/b$ with $k$ terms and appen
 
 ## A uniform divisor moment
 
-We need a divisor estimate for intervals that may be much shorter than their distance from zero. Only divisors up to a specified size are counted: for $X\ge1$ and $n\in\mathbb N$, put $$d_X(n)=\#\{a\in\mathbb N:a\le X,\ a\mid n\}.$$ In the descent, this count bounds how many larger numerators can lead to the same smaller residue. We need to control the combined contribution of residues in a small exceptional set. Hölder’s inequality turns an $r$th-moment bound into a bound proportional to $\delta^{1-1/r}$ for a set occupying a proportion $\delta$ of an interval. Choosing $r$ large limits the cumulative weakening of this bound through the $O(\log S)$ levels of the descent. The moment exponent in the following lemma can be arbitrarily large, provided it is fixed before the parameter $S$ tends to infinity. The proof follows the prime-factor splitting method of Erdős (Erdős 1952, sec. 3); the uniform bound for this truncated count is proved in full here.
+We need a divisor estimate for intervals that may be much shorter than their distance from zero. Only divisors up to a specified size are counted: for $X\ge1$ and $n\in\mathbb N$, put $$d_X(n)=\#\{a\in\mathbb N:a\le X,\ a\mid n\}.$$ In the descent, this count bounds how many larger numerators can lead to the same smaller residue. We need to control the combined contribution of residues in a small exceptional set. Hölder’s inequality turns an $r$th-moment bound into a bound proportional to $\delta^{1-1/r}$ for a set occupying a proportion $\delta$ of an interval. Choosing $r$ large limits the cumulative weakening of this bound through the $O(\log S)$ levels of the descent. The moment exponent in the following lemma can be arbitrarily large, provided it is fixed before the parameter $S$ tends to infinity. The proof follows the prime-factor splitting method of Erdős [7, Section 3]; the uniform bound for this truncated count is proved in full here.
 
 **Lemma 3.1**. *For every fixed pair of real numbers $D,r\ge1$, there is $S_0(D,r)$ such that the following holds for $S\ge S_0(D,r)$. Suppose that $X,Y$ are real numbers and $N$ is a nonnegative integer satisfying $$\frac{S}{2\log S}\le \log X\le DS,\qquad
  X^{1/2}\le Y\le X,\qquad N\le e^{DS}.$$ Then $$\begin{equation}
@@ -158,7 +158,7 @@ For the remaining integers, $\log p<v^{15/16}$, so $$\begin{equation}
 \tag{3.11}
  \log d>\tfrac12\log Y-\log p
  \ge v/4-v^{15/16}>v/5
-\end{equation}$$ once $S$ is sufficiently large. This large prefix makes integers with small next prime rare. We estimate the ensuing smooth-prefix sums by Rankin’s exponential weighting method; see (Hildebrand and Tenenbaum 1993, 414, (1.3)).
+\end{equation}$$ once $S$ is sufficiently large. This large prefix makes integers with small next prime rare. We estimate the ensuing smooth-prefix sums by Rankin’s exponential weighting method; see [13, p. 414, (1.3)].
 
 If $p<S^4$, every prime factor of $d$ is smaller than $S^4$. Multiplying each summand by $(d/e^{v/5})^{1/10}>1$ gives $$\sum_{\substack{d>e^{v/5}\\
              \ell\mid d,\ \ell\ {\rm prime}\Rightarrow\ell<S^4}}
@@ -247,7 +247,7 @@ Fix the absolute constants $$\begin{equation}
 
 *Repeated values in a list are counted with their indices. The threshold on $S$ is independent of $C$.*
 
-Here is the construction used to prove the lemma. Let $\mathcal P$ be the set of primes in $[S^K,2S^K]$, and put $P=|\mathcal P|$. The prime number theorem gives $P\ge S^{K-1}$ for sufficiently large $S$; see, for example, (Selberg 1949, 305, (1.1)). Choose distinct $p_1,\ldots,p_m\in\mathcal P$, and let $$T_0=\left(\prod_{j=1}^m p_j^{I_j}\right)_{I\in\{0,1\}^m}.$$ Its entries are distinct. For each $1\le i\le R$, choose $2m$ independent uniform samples $p_{i,j,\epsilon}\in\mathcal P$, where $1\le j\le m$ and $\epsilon\in\{0,1\}$; all samples in different blocks are also independent. Set $$\begin{gathered}
+Here is the construction used to prove the lemma. Let $\mathcal P$ be the set of primes in $[S^K,2S^K]$, and put $P=|\mathcal P|$. The prime number theorem gives $P\ge S^{K-1}$ for sufficiently large $S$; see, for example, [19, p. 305, (1.1)]. Choose distinct $p_1,\ldots,p_m\in\mathcal P$, and let $$T_0=\left(\prod_{j=1}^m p_j^{I_j}\right)_{I\in\{0,1\}^m}.$$ Its entries are distinct. For each $1\le i\le R$, choose $2m$ independent uniform samples $p_{i,j,\epsilon}\in\mathcal P$, where $1\le j\le m$ and $\epsilon\in\{0,1\}$; all samples in different blocks are also independent. Set $$\begin{gathered}
  T_i=\left(\prod_{j=1}^m p_{i,j,I_j}\right)_{I\in\{0,1\}^m},\\
  M=2^a\prod_{j=1}^m p_j
        \prod_{i=1}^R\prod_{j=1}^m p_{i,j,0}p_{i,j,1},
@@ -286,7 +286,7 @@ It remains to select the samples so that the two residue assertions hold. We fir
 
 ### Discrepancy and the deterministic list
 
-We use the Erdős–Turán discrepancy inequality (Erdős and Turán 1948, pt. I, Theorem III). For any nonempty finite indexed list $(x_t)_{t\in T}$ of real numbers, any interval $J\subset[0,1)$, and any integer $H\ge1$, it states that $$\begin{equation}
+We use the Erdős–Turán discrepancy inequality [9, Part I, Theorem III]. For any nonempty finite indexed list $(x_t)_{t\in T}$ of real numbers, any interval $J\subset[0,1)$, and any integer $H\ge1$, it states that $$\begin{equation}
 \tag{4.8}
  \left|
  \frac{\#\{t:\{x_t\}\in J\}}{|T|}-|J|
@@ -294,7 +294,7 @@ We use the Erdős–Turán discrepancy inequality (Erdős and Turán 1948, pt. I
  \ll \frac1H+
  \sum_{\ell=1}^H\frac1\ell
  \left|\frac1{|T|}\sum_{t\in T}\mathrm e(\ell x_t)\right|.
-\end{equation}$$ The implied constant is absolute, and list multiplicities are retained. The interval convention used below also retains entries at zero. For a finite list, a sufficiently small common positive rotation sends membership in $[0,\delta)$ to membership in $(0,\delta]$, including all repeated endpoint entries correctly, while preserving every Fourier modulus. Thus the interval convention in the original proof (Erdős and Turán 1948, pt. II, Sections 11–16) gives the form needed here.
+\end{equation}$$ The implied constant is absolute, and list multiplicities are retained. The interval convention used below also retains entries at zero. For a finite list, a sufficiently small common positive rotation sends membership in $[0,\delta)$ to membership in $(0,\delta]$, including all repeated endpoint entries correctly, while preserving every Fourier modulus. Thus the interval convention in the original proof [9, Part II, Sections 11–16] gives the form needed here.
 
 **Lemma 4.2**. *For all sufficiently large real $w$, suppose $u,Q$ are positive integers and $T$ is a nonempty finite list of positive integers. If $$\left|\frac1{|T|}\sum_{t\in T}\mathrm e(\ell Qt/u)\right|
  \le e^{-3\eta w}
@@ -308,7 +308,7 @@ At a level $X_j>e^S$, the large factor $C$ makes the reciprocal phases oscillate
 
 **Lemma 4.3**. *Fix $B\ge4$. There are constants $A_B,\delta_B>0$ such that, for every sufficiently large $U$, every real $Z$ with $U^4\le |Z|\le U^B$, and every interval $I\subset[U,2U]$, $$\left|\sum_{n\in I}\mathrm e(Z/n)\right|\le A_BU^{1-\delta_B}.$$*
 
-*Proof.* We give the derivative argument, including the elementary estimates it uses. This is the classical differencing method of van der Corput; see (Graham and Kolesnik 1991, Lemma 2.5) for differencing and (Graham and Kolesnik 1991, Theorem 2.2) for the second-derivative estimate.
+*Proof.* We give the derivative argument, including the elementary estimates it uses. This is the classical differencing method of van der Corput; see [12, Lemma 2.5] for differencing and [12, Theorem 2.2] for the second-derivative estimate.
 
 First, if $|a_n|\le1$ is supported on an interval of length at most $U$, then for $2\le L\le U$, $$\begin{equation}
 \tag{4.9}
@@ -546,7 +546,7 @@ The proposition supplies short expansions on one common dense set of numerators.
 
 ## Counting representations of one
 
-We prove Corollary 1.2 using the uniform upper bound in Theorem 1.1, together with the prime number theorem and elementary identities. Divisor-rich denominators and divisor-indexed splitting are also used by Konyagin and Elsholtz (Konyagin 2014; Elsholtz 2016). The first step is to obtain a short distinct expansion of one with a denominator having many divisors. Lemma 2.2 concerns totals below one; at total one we need a different repetition-removal argument, preserving an odd divisor of a denominator.
+We prove Corollary 1.2 using the uniform upper bound in Theorem 1.1, together with the prime number theorem and elementary identities. Divisor-rich denominators and divisor-indexed splitting are also used by Konyagin and Elsholtz [14, 4]. The first step is to obtain a short distinct expansion of one with a denominator having many divisors. Lemma 2.2 concerns totals below one; at total one we need a different repetition-removal argument, preserving an odd divisor of a denominator.
 
 **Lemma 6.1**. *Let $Q>1$ be odd. Suppose that a finite list of positive integers $m_1,\ldots,m_t$ satisfies $\sum_{i=1}^t1/m_i=1$ and contains a multiple of $Q$. Then $1$ has a representation by at most $t$ distinct positive unit fractions, still with a denominator divisible by $Q$.*
 
@@ -615,7 +615,7 @@ The padding injection in Section 6 may remove the denominator we wish to preser
 **Lemma 7.2** (Preserving a prescribed denominator while padding). *Let $r\ge3$ be an integer, and suppose that $$1=\sum_{i=1}^{r}\frac1{n_i},\qquad
  1\le n_1<\cdots<n_r,$$ where the denominators are integers. For every $m\in\{n_1,\ldots,n_r\}$ there is a representation of $1$ by exactly $r+1$ distinct positive unit fractions that still contains the exact denominator $m$. Consequently $D_r\subseteq D_{r+1}$.*
 
-*Proof.* This is the padding lemma of van Doorn and Tang (Doorn and Tang 2026, Lemma 2.1); we include a proof. Every denominator is at least two, since a term with denominator one would already exhaust the sum. The identity $$\frac1b=\frac1{b+1}+\frac1{b(b+1)}$$ replaces one term by two with distinct denominators larger than $b$. If $m\ne n_r$, apply it to $n_r$; the new denominators exceed all the unchanged ones, and $m$ remains.
+*Proof.* This is the padding lemma of van Doorn and Tang [22, Lemma 2.1]; we include a proof. Every denominator is at least two, since a term with denominator one would already exhaust the sum. The identity $$\frac1b=\frac1{b+1}+\frac1{b(b+1)}$$ replaces one term by two with distinct denominators larger than $b$. If $m\ne n_r$, apply it to $n_r$; the new denominators exceed all the unchanged ones, and $m$ remains.
 
 Suppose that $m=v=n_r$, and let $s=n_{r-1}$. The same split of $s$ works unless $v=s+1$ or $v=s(s+1)$, since every other unchanged denominator is smaller than $s$. In either exceptional case, if $s=ab$ with integers $a,b\ge2$, use instead $$\frac1s=\frac1{s+a}+\frac1{b(s+a)}.$$ The inequalities $$s+1<s+a<b(s+a)<s(s+1)$$ show that both new denominators avoid either exceptional value of $v$ and all the unchanged denominators below $s$.
 
@@ -652,10 +652,10 @@ We construct a moderately sized integer whose divisors, after division by positi
  h\leq16,\quad e_i\mid K_m,\quad e_i,t_i\in\mathbb Z_{>0}.
 \end{equation}$$ Repeated summands are allowed.*
 
-*Proof.* The prime number theorem (Selberg 1949, 305, (1.1)) gives $$\log P(v)=(1+o(1))\ell(v)\log\ell(v)
+*Proof.* The prime number theorem [19, p. 305, (1.1)] gives $$\log P(v)=(1+o(1))\ell(v)\log\ell(v)
  \ll\log v\log\log v.$$ Since $\ell(Y)=16\log m/\log 2+O(1)$, and $\log(\lfloor L\rfloor!)=O(L\log L)$, this proves (8.1). Also $P(Y)\geq2^{\ell(Y)}\geq Y^4$, so $K_m>m$ for large $m$.
 
-We next prove an assertion whose threshold is independent of $m$. Fix a sufficiently large odd integer $u$, and let $A$ be the set of positive divisors of $P(u)$. Write $N=|A|=2^{\ell(u)}\geq u^4$. We estimate exceptional primes by counting congruent pairs, the mechanism underlying Gallagher’s larger sieve (Gallagher 1971). The coarse count below suffices. For each prime $p\leq u$, let $A_p$ be the image of $A$ in $\mathbb F_p$. Call $p$ exceptional when $|A_p|\leq p^{3/4}$. If $c_a$ is the number of members of $A$ in residue class $a$, then Cauchy–Schwarz shows that the number of ordered pairs of distinct members of $A$ congruent modulo an exceptional prime is at least $$\sum_{a\in\mathbb F_p}c_a^2-N
+We next prove an assertion whose threshold is independent of $m$. Fix a sufficiently large odd integer $u$, and let $A$ be the set of positive divisors of $P(u)$. Write $N=|A|=2^{\ell(u)}\geq u^4$. We estimate exceptional primes by counting congruent pairs, the mechanism underlying Gallagher’s larger sieve [10]. The coarse count below suffices. For each prime $p\leq u$, let $A_p$ be the image of $A$ in $\mathbb F_p$. Call $p$ exceptional when $|A_p|\leq p^{3/4}$. If $c_a$ is the number of members of $A$ in residue class $a$, then Cauchy–Schwarz shows that the number of ordered pairs of distinct members of $A$ congruent modulo an exceptional prime is at least $$\sum_{a\in\mathbb F_p}c_a^2-N
  \geq\frac{N^2}{|A_p|}-N
  \geq\frac{N^2}{2u^{3/4}}.$$ For any two distinct members $a,b\in A$, the nonzero integer $|a-b|<P(u)$ has at most $\log P(u)/\log 2$ distinct prime divisors. Counting the same pairs prime by prime therefore bounds the number $B(u)$ of exceptional primes by $$\begin{equation}
 \tag{8.3}
@@ -663,7 +663,7 @@ We next prove an assertion whose threshold is independent of $m$. Fix a sufficie
  \ll u^{3/4}\log u\log\log u.
 \end{equation}$$
 
-We use the quantitative form of Vinogradov’s three-prime theorem: there is an absolute $c>0$ such that every sufficiently large odd integer $u$ has at least $cu^2/(\log u)^3$ ordered representations as a sum of three primes; see the statement in (Kumchev 1997, (1)–(2)) and the exposition in (Kumchev and Tolev 2005, Theorem 1 and Section 3.1). To make the uniformity in odd $u$ explicit, its singular series is $$\mathfrak S(u)=
+We use the quantitative form of Vinogradov’s three-prime theorem: there is an absolute $c>0$ such that every sufficiently large odd integer $u$ has at least $cu^2/(\log u)^3$ ordered representations as a sum of three primes; see the statement in [15, (1)–(2)] and the exposition in [16, Theorem 1 and Section 3.1]. To make the uniformity in odd $u$ explicit, its singular series is $$\mathfrak S(u)=
  \prod_{p\mid u}\left(1-\frac{1}{(p-1)^2}\right)
  \prod_{p\nmid u}\left(1+\frac{1}{(p-1)^3}\right).$$ For odd $u$ its factor at $2$ is $2$, and $$\mathfrak S(u)\geq
  2\prod_{p>2}\left(1-\frac{1}{(p-1)^2}\right)>0.$$ The infinite product is positive because the sum of the subtracted quantities converges. Thus the asymptotic formula supplies an absolute lower bound with an absolute threshold, with no dependence on the factorization of $u$.
@@ -671,7 +671,7 @@ We use the quantitative form of Vinogradov’s three-prime theorem: there is an 
 At most $3uB(u)$ ordered prime triples summing to $u$ contain an exceptional prime: choose its position, its value, and one further entry; the last entry is then fixed. By (8.3), $$3uB(u)\ll u^{7/4}\log u\log\log u
        =o\left(\frac{u^2}{(\log u)^3}\right).$$ Consequently every sufficiently large odd $u$ is the sum of three primes that are not exceptional for this same set $A$.
 
-It remains to represent each such prime using divisors of $P(u)^2$. Fix one of them, say $p$, and put $H=A_p$ and $h=|H|>p^{3/4}$. Let $U$ be the product of two independent uniformly chosen members of $H$, and write $\mathrm e_p(z)=\exp(2\pi i z/p)$. The following classical bilinear estimate is recorded in (Glibichuk and Konyagin 2007, Proposition 1.1); we give its short proof and the five-product consequence needed here. For every nonzero $r\in\mathbb F_p$, orthogonality and Cauchy–Schwarz give $$\begin{align*}
+It remains to represent each such prime using divisors of $P(u)^2$. Fix one of them, say $p$, and put $H=A_p$ and $h=|H|>p^{3/4}$. Let $U$ be the product of two independent uniformly chosen members of $H$, and write $\mathrm e_p(z)=\exp(2\pi i z/p)$. The following classical bilinear estimate is recorded in [11, Proposition 1.1]; we give its short proof and the five-product consequence needed here. For every nonzero $r\in\mathbb F_p$, orthogonality and Cauchy–Schwarz give $$\begin{align*}
  \left|\sum_{a,b\in H}\mathrm e_p(rab)\right|^2
  &\leq h\sum_{a\in\mathbb F_p}
        \left|\sum_{b\in H}\mathrm e_p(rab)\right|^2\\
@@ -739,48 +739,48 @@ The lower slope above is the consequence of the length coefficient in Propositio
 
 ## References
 
-Bloom, Thomas F. n.d.-a. *Erdős Problem 293*. [Https://www.erdosproblems.com/293](https://www.erdosproblems.com/293).
+**[1]** Thomas F. Bloom. Erdős Problem 293. <https://www.erdosproblems.com/293>.
 
-Bloom, Thomas F. n.d.-b. *Erdős Problem 304*. [Https://www.erdosproblems.com/304](https://www.erdosproblems.com/304).
+**[2]** Thomas F. Bloom. Erdős Problem 304. <https://www.erdosproblems.com/304>. Accessed 21 September 2026.
 
-Croot, Ernest S., III. 1999. “On Some Questions of Erdős and Graham about Egyptian Fractions.” *Mathematika* 46 (2): 359–72. <https://doi.org/10.1112/S0025579300007828>.
+**[3]** Ernest S. Croot, III. On some questions of Erdős and Graham about Egyptian fractions. *Mathematika*, 46(2):359–372, 1999. [Publisher version](https://doi.org/10.1112/S0025579300007828).
 
-Doorn, Wouter van, and Quanyu Tang. 2026. “The Smallest Denominator Not Contained in a Unit Fraction Decomposition of $1$ with Fixed Length.” *Mathematical Proceedings of the Cambridge Philosophical Society*, 1–9. <https://doi.org/10.1017/S0305004126102102>.
+**[4]** Christian Elsholtz. Egyptian fractions with odd denominators. *The Quarterly Journal of Mathematics*, 67(3):425–430, 2016. [Publisher version](https://doi.org/10.1093/qmath/haw020).
 
-Elsholtz, Christian. 2016. “Egyptian Fractions with Odd Denominators.” *The Quarterly Journal of Mathematics* 67 (3): 425–30. <https://doi.org/10.1093/qmath/haw020>.
+**[5]** Christian Elsholtz and Stefan Planitzer. Sums of four and more unit fractions and approximate parametrizations. *Bulletin of the London Mathematical Society*, 53(3):695–709, 2021. [Publisher version](https://doi.org/10.1112/blms.12452).
 
-Elsholtz, Christian, and Stefan Planitzer. 2021. “Sums of Four and More Unit Fractions and Approximate Parametrizations.” *Bulletin of the London Mathematical Society* 53 (3): 695–709. <https://doi.org/10.1112/blms.12452>.
+**[6]** Paul Erdős. Az $1/x_1+1/x_2+\cdots+1/x_n=a/b$ egyenlet egész számú megoldásairól. *Matematikai Lapok*, 1:192–210, 1950. [Public text](https://users.renyi.hu/~p_erdos/1950-02.pdf).
 
-Erdős, Paul. 1950. “Az $1/x_1+1/x_2+\cdots+1/x_n=a/b$ Egyenlet Egész Számú Megoldásairól.” *Matematikai Lapok* 1: 192–210. <https://users.renyi.hu/~p_erdos/1950-02.pdf>.
+**[7]** Paul Erdős. On the sum $\sum_{k=1}^{x}d(f(k))$. *Journal of the London Mathematical Society*, 27(1):7–15, 1952. [Publisher version](https://doi.org/10.1112/jlms/s1-27.1.7).
 
-Erdős, Paul. 1952. “On the Sum $\sum_{k=1}^{x}d(f(k))$.” *Journal of the London Mathematical Society* 27 (1): 7–15. <https://doi.org/10.1112/jlms/s1-27.1.7>.
+**[8]** Paul Erdős and Ronald L. Graham. *Old and New Problems and Results in Combinatorial Number Theory*, volume 28 of *Monographies de L’Enseignement Mathématique*. L’Enseignement Mathématique, Geneva, 1980. [Public text](https://mathweb.ucsd.edu/~ronspubs/80_11_number_theory.pdf).
 
-Erdős, Paul, and Ronald L. Graham. 1980. *Old and New Problems and Results in Combinatorial Number Theory*. Vol. 28. Monographies de l’enseignement Mathématique. L’Enseignement Mathématique. <https://mathweb.ucsd.edu/~ronspubs/80_11_number_theory.pdf>.
+**[9]** Paul Erdős and Pál Turán. On a problem in the theory of uniform distribution. I, II. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen*, 51:1146–1154, 1262–1269, 1948. [Part I](https://www.renyi.hu/~p_erdos/1948-02.pdf); [Part II](https://users.renyi.hu/~p_erdos/1948-03.pdf).
 
-Erdős, Paul, and Pál Turán. 1948. “On a Problem in the Theory of Uniform Distribution. I, II.” *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen* 51: 1146–54, 1262–69. <https://www.renyi.hu/~p_erdos/1948-02.pdf>.
+**[10]** P. X. Gallagher. A larger sieve. *Acta Arithmetica*, 18(1):77–81, 1971. [Publisher version](https://doi.org/10.4064/aa-18-1-77-81).
 
-Gallagher, P. X. 1971. “A Larger Sieve.” *Acta Arithmetica* 18 (1): 77–81. <https://doi.org/10.4064/aa-18-1-77-81>.
+**[11]** A. A. Glibichuk and S. V. Konyagin. Additive properties of product sets in fields of prime order. In *Additive Combinatorics*, volume 43 of *CRM Proceedings and Lecture Notes*, pages 279–286. American Mathematical Society, 2007. [Author version](https://arxiv.org/abs/math/0702729).
 
-Glibichuk, A. A., and S. V. Konyagin. 2007. “Additive Properties of Product Sets in Fields of Prime Order.” In *Additive Combinatorics*, vol. 43. CRM Proceedings and Lecture Notes. American Mathematical Society. <https://arxiv.org/abs/math/0702729>.
+**[12]** S. W. Graham and G. Kolesnik. *Van der Corput’s Method of Exponential Sums*, volume 126 of *London Mathematical Society Lecture Note Series*. Cambridge University Press, Cambridge, 1991. [Publisher version](https://doi.org/10.1017/CBO9780511661976).
 
-Graham, S. W., and G. Kolesnik. 1991. *Van Der Corput’s Method of Exponential Sums*. Vol. 126. London Mathematical Society Lecture Note Series. Cambridge University Press. <https://doi.org/10.1017/CBO9780511661976>.
+**[13]** Adolf Hildebrand and Gérald Tenenbaum. Integers without large prime factors. *Journal de Théorie des Nombres de Bordeaux*, 5(2):411–484, 1993. [Public text](https://www.numdam.org/item/JTNB_1993__5_2_411_0/).
 
-Hildebrand, Adolf, and Gérald Tenenbaum. 1993. “Integers Without Large Prime Factors.” *Journal de Théorie Des Nombres de Bordeaux* 5 (2): 411–84. <https://www.numdam.org/item/JTNB_1993__5_2_411_0/>.
+**[14]** S. V. Konyagin. Double exponential lower bound for the number of representations of unity by Egyptian fractions. *Matematicheskie Zametki*, 95(2):312–316, 2014. In Russian; [Publisher version](https://doi.org/10.4213/mzm10417).
 
-Konyagin, S. V. 2014. “Double Exponential Lower Bound for the Number of Representations of Unity by Egyptian Fractions.” *Matematicheskie Zametki* 95 (2): 312–16. <https://doi.org/10.4213/mzm10417>.
+**[15]** Angel Kumchev. On the Piatetski-Shapiro-Vinogradov theorem. *Journal de Théorie des Nombres de Bordeaux*, 9(1):11–23, 1997. [Publisher version](https://doi.org/10.5802/jtnb.186).
 
-Kumchev, Angel. 1997. “On the Piatetski-Shapiro-Vinogradov Theorem.” *Journal de Théorie Des Nombres de Bordeaux* 9 (1): 11–23. <https://doi.org/10.5802/jtnb.186>.
+**[16]** Angel V. Kumchev and Dimitar I. Tolev. An invitation to additive prime number theory. *Serdica Mathematical Journal*, 31:1–74, 2005. [Author version](https://tigerweb.towson.edu/akumchev/a17.pdf).
 
-Kumchev, Angel V., and Dimitar I. Tolev. 2005. “An Invitation to Additive Prime Number Theory.” *Serdica Mathematical Journal* 31: 1–74. <https://tigerweb.towson.edu/akumchev/a17.pdf>.
+**[17]** Greg Martin. Denser Egyptian fractions. *Acta Arithmetica*, 95(3):231–260, 2000. [Author version](https://arxiv.org/abs/math/9811112).
 
-Martin, Greg. 2000. “Denser Egyptian Fractions.” *Acta Arithmetica* 95 (3): 231–60. <https://arxiv.org/abs/math/9811112>.
+**[18]** Masayosi Nakayama. On the decomposition of a rational number into “Stammbrüche”. *Tohoku Mathematical Journal, First Series*, 46:1–21, 1940. [Public text](https://www.jstage.jst.go.jp/article/tmj1911/46/0/46_0_1/_pdf/-char/en).
 
-Nakayama, Masayosi. 1940. “On the Decomposition of a Rational Number into ‘Stammbrüche’.” *Tohoku Mathematical Journal, First Series* 46: 1–21. <https://www.jstage.jst.go.jp/article/tmj1911/46/0/46_0_1/_article/-char/en>.
+**[19]** Atle Selberg. An elementary proof of the prime-number theorem. *Annals of Mathematics. Second Series*, 50(2):305–313, 1949. [Publisher version](https://doi.org/10.2307/1969455).
 
-Selberg, Atle. 1949. “An Elementary Proof of the Prime-Number Theorem.” *Annals of Mathematics. Second Series* 50 (2): 305–13. <https://doi.org/10.2307/1969455>.
+**[20]** Tanzô Takenouchi. On an indeterminate equation. *Proceedings of the Physico-Mathematical Society of Japan, Third Series*, 3(6):78–92, 1921. [Publisher version](https://doi.org/10.11429/ppmsj1919.3.6_78).
 
-Takenouchi, Tanzô. 1921. “On an Indeterminate Equation.” *Proceedings of the Physico-Mathematical Society of Japan, Third Series* 3 (6): 78–92. <https://doi.org/10.11429/ppmsj1919.3.6_78>.
+**[21]** Gérald Tenenbaum and Hisashi Yokota. Length and denominators of Egyptian fractions, III. *Journal of Number Theory*, 35(2):150–156, 1990. [Publisher version](https://doi.org/10.1016/0022-314X(90)90109-5).
 
-Tenenbaum, Gérald, and Hisashi Yokota. 1990. “Length and Denominators of Egyptian Fractions, III.” *Journal of Number Theory* 35 (2): 150–56. <https://doi.org/10.1016/0022-314X(90)90109-5>.
+**[22]** Wouter van Doorn and Quanyu Tang. The smallest denominator not contained in a unit fraction decomposition of $1$ with fixed length. *Mathematical Proceedings of the Cambridge Philosophical Society*, pages 1–9, 2026. Published online 8 July 2026; arXiv:2512.22083v2; [Publisher version](https://doi.org/10.1017/S0305004126102102).
 
-Vose, Michael D. 1985. “Egyptian Fractions.” *Bulletin of the London Mathematical Society* 17 (1): 21–24. <https://doi.org/10.1112/blms/17.1.21>.
+**[23]** Michael D. Vose. Egyptian fractions. *Bulletin of the London Mathematical Society*, 17(1):21–24, 1985. [Publisher version](https://doi.org/10.1112/blms/17.1.21).

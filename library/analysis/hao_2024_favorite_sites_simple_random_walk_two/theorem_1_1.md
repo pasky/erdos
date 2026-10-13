@@ -35,7 +35,7 @@ The theorem is for this walk law. It does not assert the same result for
 arbitrary walks on the planar lattice.
 
 **Proof scope.** The deductions below reconstruct Sections 4.1 and the
-final step of Section 4.4. Their same-paper inputs are now fully
+final step of Section 4.4. Their same-paper inputs are fully
 reconstructed on the linked pages: Proposition 1.3 through Appendix A,
 and Proposition 4.7 through the screening chain. The latter uses the
 proved weighted, parity-specific replacement for Proposition 4.9; it

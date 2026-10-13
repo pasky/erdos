@@ -105,7 +105,7 @@ not held), and the recursion of Greenwood and Gleason (Canad. J. Math. 7
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the bound the site credits
-  to Wan in its history of the upper bound on $f(k)$, now held first-hand;
+  to Wan in its history of the upper bound on $f(k)$;
   with $S_n\le r_n-1$ it gives $f(k)<k!(e-e^{-1}+3)/2$ for $k\ge4$, weaker
   than the held $(e-1/6)k!$ for every $k\ge4$.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: a factorial upper bound on

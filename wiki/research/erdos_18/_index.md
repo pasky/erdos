@@ -133,8 +133,8 @@ current text of the Lemma 3.2, Lemma 3.3, Proposition 4.1, Theorem 1.1 and Lemma
 4 pages differs from the reviewed text at the places the grade names; the other
 five pages are the reviewed text. No tier is assigned, the van Doorn results
 remain claims, and the problem's status is unchanged. After the review, line
-wrapping was normalized on the reconstruction pages; no formula or sentence
-changed.
+wrapping was normalized on the reconstruction pages, changing no formula or
+sentence.
 
 **Mechanism.** Both arguments turn a *divisor-gap* or *residue-covering*
 property of a highly composite $N$ into a short representation by

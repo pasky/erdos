@@ -217,9 +217,9 @@ proof of
 of Fettes, Kramer and Radziszowski, the finite premise $R_4(3)\le62$ of the
 problem's factorial upper route, consumes as its embeddability filter (the
 2004 paper's pp. 45--46 and 57). The problem's solved status rests on the
-separate lower-bound route and is unchanged; the filing replaces a cited
-but unread seed-interface source of the finite premise with one read at
-statement depth, and the premise itself remains claims checked only.
+separate lower-bound route; this card reads that seed-interface source of
+the finite premise at statement depth, and the premise itself is claims
+checked only.
 Theorem 1 (printed p. 479), that every proper 3-coloring of $K_{15}$ has
 edge-vector $(35,35,35)$, bears on the problem only as the first step of
 the proof of Theorem 2.

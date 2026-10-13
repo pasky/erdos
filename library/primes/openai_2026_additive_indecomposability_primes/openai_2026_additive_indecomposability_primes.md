@@ -8,18 +8,18 @@ We prove Ostmann’s inverse Goldbach conjecture: no set differing from the prim
 
 ## Introduction
 
-Let $\mathcal P$ denote the set of positive primes, and put $\mathbb N_0=\{0,1,2,\ldots\}$. For $A,B\subseteq\mathbb N_0$, write $A+B=\{a+b:a\in A,\ b\in B\}$. Two subsets of $\mathbb N_0$ are *asymptotically equal* if their symmetric difference is finite. Ostmann’s conjecture asserts that $\mathcal P$ is asymptotically additively indecomposable: it is not asymptotically equal to $A+B$ when both summands contain at least two elements. The conjecture goes back to his 1956 treatise (Ostmann 1956, 13); the eventual-equality formulation and its terminology are recorded explicitly in (Elsholtz and Harper 2015, Definition 1.1 and Conjecture 1.2). It is also known as the inverse Goldbach problem.
+Let $\mathcal P$ denote the set of positive primes, and put $\mathbb N_0=\{0,1,2,\ldots\}$. For $A,B\subseteq\mathbb N_0$, write $A+B=\{a+b:a\in A,\ b\in B\}$. Two subsets of $\mathbb N_0$ are *asymptotically equal* if their symmetric difference is finite. Ostmann’s conjecture asserts that $\mathcal P$ is asymptotically additively indecomposable: it is not asymptotically equal to $A+B$ when both summands contain at least two elements. The conjecture goes back to his 1956 treatise [30, p. 13]; the eventual-equality formulation and its terminology are recorded explicitly in [11, Definition 1.1 and Conjecture 1.2]. It is also known as the inverse Goldbach problem.
 
 **Theorem 1.1** (Ostmann’s conjecture). *If $A,B\subseteq\mathbb N_0$ satisfy $|A|,|B|\ge2$, then $(A+B)\mathbin{\triangle}\mathcal P$ is infinite. Equivalently, every finite modification of $\mathcal P$ is additively indecomposable into two sets with at least two elements each.*
 
-Laffer and Mann showed that a hypothetical decomposition must have two infinite summands (Laffer and Mann 1964, Theorem 12). We first give a short sieve proof of this reduction in Lemma 2.2, then state the two-infinite-set contradiction as Theorem 2.3. The rest of the paper proves that theorem.
+Laffer and Mann showed that a hypothetical decomposition must have two infinite summands [25, Theorem 12]. We first give a short sieve proof of this reduction in Lemma 2.2, then state the two-infinite-set contradiction as Theorem 2.3. The rest of the paper proves that theorem.
 
 The conclusion concerns both eventual coverage of the primes and eventual exclusion of composite sums. Neither requirement is replaced by a density condition. In particular, if $|A|,|B|\ge2$ and $A+B$ contains every sufficiently large prime, then it contains infinitely many composite numbers.
 
-Earlier work established increasingly strong restrictions on a hypothetical decomposition. Hornfeck’s work (Hornfeck 1954, 1955) was followed by sieve arguments of Pomerance, Sárközy and Stewart (Pomerance et al. 1988), Hofmann and Wolke (Hofmann and Wolke 1996), and Elsholtz (Elsholtz 2001a). Write $A(x)=|A\cap[0,x]|$ and similarly for $B$. Bounds such as $A(x)B(x)\ll x$ are compatible with the coverage lower bound $A(x)B(x)\gg x/\log x$ and therefore do not by themselves exclude a decomposition. Elsholtz combined the large and larger sieves to put both counting functions at the square-root scale, up to powers of $\log x$, and ruled out a decomposition into three nontrivial summands (Elsholtz 2001b). His later refinement (Elsholtz 2006, Theorem 1.9) gives the bounds reproduced in Lemma 2.4. Croot and Elsholtz also studied thin ternary sumsets contained in the primes, obtaining restrictions under a regularity hypothesis on representation multiplicities (Croot and Elsholtz 2005, Theorem 1). Shao later proved a finite ternary obstruction: for some absolute $c>0$, three subsets of $[1,N]$, each of size at least $N^{1/3-c}$, have a composite number in their sumset once $N$ is sufficiently large (Shao 2016, Theorem 1.3 of the preprint version). In their positive-integer formulation, Elsholtz and Harper sharpened the binary counting bounds to $$\frac{\sqrt x}{\log x\log\log x}
- \ll A(x),B(x)\ll\sqrt x\log\log x$$ under a hypothetical eventual decomposition (Elsholtz and Harper 2015, Theorem 2.6).
+Earlier work established increasingly strong restrictions on a hypothetical decomposition. Hornfeck’s work [21, 22] was followed by sieve arguments of Pomerance, Sárközy and Stewart [31], Hofmann and Wolke [20], and Elsholtz [9]. Write $A(x)=|A\cap[0,x]|$ and similarly for $B$. Bounds such as $A(x)B(x)\ll x$ are compatible with the coverage lower bound $A(x)B(x)\gg x/\log x$ and therefore do not by themselves exclude a decomposition. Elsholtz combined the large and larger sieves to put both counting functions at the square-root scale, up to powers of $\log x$, and ruled out a decomposition into three nontrivial summands [8]. His later refinement [10, Theorem 1.9] gives the bounds reproduced in Lemma 2.4. Croot and Elsholtz also studied thin ternary sumsets contained in the primes, obtaining restrictions under a regularity hypothesis on representation multiplicities [3, Theorem 1]. Shao later proved a finite ternary obstruction: for some absolute $c>0$, three subsets of $[1,N]$, each of size at least $N^{1/3-c}$, have a composite number in their sumset once $N$ is sufficiently large [34, Theorem 1.3 of the preprint version]. In their positive-integer formulation, Elsholtz and Harper sharpened the binary counting bounds to $$\frac{\sqrt x}{\log x\log\log x}
+ \ll A(x),B(x)\ll\sqrt x\log\log x$$ under a hypothetical eventual decomposition [11, Theorem 2.6].
 
-Green and Harper developed inverse questions for the large sieve and proved that a suitable inverse-sieve conjecture would imply Ostmann’s conjecture (Green and Harper 2014, Conjecture 1.5 and Theorem 1.8). Their conjecture proposes a quadratic description of sets near the square-root sieve bound. Under half-residue restrictions $|C\bmod p|\le p/2+O(1)$ at every prime and $|C|\gg\sqrt N$ for $C\subseteq[1,N]$, Hanson proved additive correlation with the squares and a logarithmic-size intersection with a quadratic image (Hanson 2020, Theorem 1.2 and Corollary 1.3). Croot, Mao and Yip subsequently proved inverse theorems for local restrictions to short arithmetic progressions, with extensions to unions of progressions and other additive structures (Croot et al. 2025). More recently, Croot, Mao, Pohoata and Yip used a weighted entropy argument to derive a further necessary condition for a hypothetical decomposition of the primes into two sets of positive integers, each containing at least two elements (Croot et al. 2026, Theorem 1.10 and Corollary 1.11). For some $c>0$ and every sufficiently large $N$, each summand then has at least $\exp(c\sqrt{\log N}/(\log\log N)^{3/2})$ elements in $[1,N]$ lying in an integral quadratic image $m\pm\mathbb Z^2$; the product of the two intersection sizes is at least $\exp(c\sqrt{\log N}/\log\log N)$. These quadratics may depend on $N$.
+Green and Harper developed inverse questions for the large sieve and proved that a suitable inverse-sieve conjecture would imply Ostmann’s conjecture [16, Conjecture 1.5 and Theorem 1.8]. Their conjecture proposes a quadratic description of sets near the square-root sieve bound. Under half-residue restrictions $|C\bmod p|\le p/2+O(1)$ at every prime and $|C|\gg\sqrt N$ for $C\subseteq[1,N]$, Hanson proved additive correlation with the squares and a logarithmic-size intersection with a quadratic image [17, Theorem 1.2 and Corollary 1.3]. Croot, Mao and Yip subsequently proved inverse theorems for local restrictions to short arithmetic progressions, with extensions to unions of progressions and other additive structures [5]. More recently, Croot, Mao, Pohoata and Yip used a weighted entropy argument to derive a further necessary condition for a hypothetical decomposition of the primes into two sets of positive integers, each containing at least two elements [4, Theorem 1.10 and Corollary 1.11]. For some $c>0$ and every sufficiently large $N$, each summand then has at least $\exp(c\sqrt{\log N}/(\log\log N)^{3/2})$ elements in $[1,N]$ lying in an integral quadratic image $m\pm\mathbb Z^2$; the product of the two intersection sizes is at least $\exp(c\sqrt{\log N}/\log\log N)$. These quadratics may depend on $N$.
 
 These large intersections with quadratic images fall short of the near-containment required by Green and Harper’s conditional route. Our proof uses the simultaneous residue restrictions and coverage of every sufficiently large prime to reach a contradiction without such a classification.
 
@@ -31,7 +31,7 @@ Prime coverage enters separately in Section 5. A tensor estimate shows that the
 
 The remaining residue indicators need not have a prescribed algebraic form. Section 6 proves a finite-field comparison for the binary trees produced by the transfers, using the mixed-character decorrelation. Its hypotheses involve only a probability $L^2$ bound and mixed-character correlations; they permit highly nonuniform pointwise values. This feature is needed for the exact Fourier transforms of the residue indicators. Sections 7 and 8 construct a positive statistic and establish its comparison estimates. The arithmetic separation includes repeated internal prime labels, coprimality conditions, and the possible exceptional real character in prime progression estimates. Finally, Section 9 averages over permutations of the bulk variables. Most pairs of arrangements have few overlap components and hence small correlation. Their total contribution and the remaining diagonal terms contradict the lower bound inherited from the positive statistic. The transfer depth is chosen sufficiently large and fixed before the large scale tends to infinity.
 
-This proves asymptotic indecomposability directly from the simultaneous residue restrictions and prime coverage. The argument does not require the general inverse-sieve conjecture of (Green and Harper 2014), and no such general classification theorem is asserted here.
+This proves asymptotic indecomposability directly from the simultaneous residue restrictions and prime coverage. The argument does not require the general inverse-sieve conjecture of [16], and no such general classification theorem is asserted here.
 
 ## Finite summands and residue supports
 
@@ -48,7 +48,7 @@ We use the classical additive large sieve in the following form. If complex coef
  \sum_{q\le Q}\ \sum_{\substack{h\bmod q\\(h,q)=1}}
  \left|\sum_n c_n e_q(hn)\right|^2
  \ll (M+Q^2)\sum_n|c_n|^2.
-\end{equation}$$ Indeed, the reduced fractions with denominators at most $Q$ are $Q^{-2}$-separated modulo one, so this is the separated-frequency inequality of Montgomery and Vaughan (Montgomery and Vaughan 1973, Theorem 1); see also Green and Harper (Green and Harper 2014, Proposition 3.1). The estimate applies to arbitrary complex coefficients. Restricting its outer sum to prime or squarefree moduli is permitted by nonnegativity.
+\end{equation}$$ Indeed, the reduced fractions with denominators at most $Q$ are $Q^{-2}$-separated modulo one, so this is the separated-frequency inequality of Montgomery and Vaughan [27, Theorem 1]; see also Green and Harper [16, Proposition 3.1]. The estimate applies to arbitrary complex coefficients. Restricting its outer sum to prime or squarefree moduli is permitted by nonnegativity.
 
 **Lemma 2.1** (Fixed shifts). *Let $b_1,\ldots,b_j$ be distinct nonnegative integers, where $j\ge1$ is fixed. If $C\subset\mathbb N_0$ and each $c+b_i$ is prime for all sufficiently large $c\in C$, then $$C(Y)\ll_{b_1,\ldots,b_j} \frac{Y}{(\log Y)^j}.$$ The implicit constant depends only on the shifts; the threshold for $Y$ may also depend on the finite exceptional range.*
 
@@ -92,7 +92,7 @@ For every prime $p$, the residue sets $$\{a\bmod p:a\in A,\ a>p+N_*\},\qquad
 
 ### Sizes of the summands
 
-The following bounds are due to Elsholtz (Elsholtz 2006, Theorem 1.9). We include the large-sieve and collision argument in the present nonnegative-integer convention.
+The following bounds are due to Elsholtz [10, Theorem 1.9]. We include the large-sieve and collision argument in the present nonnegative-integer convention.
 
 **Lemma 2.4** (Square-root bounds). *Under the assumed decomposition with both summands infinite, $$\begin{equation}
 \tag{2.4}
@@ -119,7 +119,7 @@ We can now take $Y=x^2$ in (2.6), since $B(x^2)=x^{1+o(1)}$. Thus $H\ll\log x$, 
 
 ### Collision stability
 
-The congruent-pair count underlying Gallagher’s larger sieve (Gallagher 1971) also measures how close a summand is to uniform on its residue support. This quantitative use of the larger sieve is central to Green and Harper’s inverse-sieve arguments (Green and Harper 2014, Equation (2.1) and Lemma 2.4). We need the following weighted form for the two complementary supports.
+The congruent-pair count underlying Gallagher’s larger sieve [13] also measures how close a summand is to uniform on its residue support. This quantitative use of the larger sieve is central to Green and Harper’s inverse-sieve arguments [16, Equation (2.1) and Lemma 2.4]. We need the following weighted form for the two complementary supports.
 
 Write $U_E$ for uniform probability on a finite nonempty set $E$. If $\mu$ is a probability measure on integers, write $\mu_p$ for its projection modulo $p$. The norms in the next statement are counting norms of probability mass functions.
 
@@ -193,7 +193,7 @@ For $\ell\mid L$ prime write $f_\ell=\mathbf 1_{S_\ell}-\sigma_\ell$, periodical
  I:=\sum_{n\in\mathbb Z}\psi(n/X)W(n)H(n)^k
    \gg \frac{\sqrt X}{(\log X)^3}(1+\lambda/3)^Kc_\delta^k
    \geq\sqrt X\exp(.016K)
-\end{equation}$$ for sufficiently large $T$. Here $\log(1+\lambda/3)>.0206$, and $k+\log\log X=o(K)$. Poisson summation, in its periodized form (Montgomery and Vaughan 2007, Appendix D.2), gives for the $L$-periodic function $W$ $$\begin{equation}
+\end{equation}$$ for sufficiently large $T$. Here $\log(1+\lambda/3)>.0206$, and $k+\log\log X=o(K)$. Poisson summation, in its periodized form [28, Appendix D.2], gives for the $L$-periodic function $W$ $$\begin{equation}
 \tag{3.5}
  I_0:=\sum_n\psi(n/X)W(n)=X\widehat\psi(0)\ll X:
 \end{equation}$$ all nonzero frequencies vanish once $X/L$ exceeds the fixed support radius of $\widehat\psi$.
@@ -205,7 +205,7 @@ We shall use the following elementary bound. If $H=J^{-1}\sum_{i=1}^J y_i$ with 
                    y_{i_1}\cdots y_{i_k}\right|
  \leq\sum_{1\leq j\leq k/2}
              \left(\frac{k^C}{J}\right)^j|H|^{k-2j}.
-\end{equation}$$ To prove it, express the distinct-index sum by Möbius inversion on set partitions; see (Rota 1964, sec. 7, Example 1). Equivalently, sum over permutations of $[k]$, with a cycle of length $m$ contributing $\sum_i y_i^m$ and with the usual permutation sign. A partition block of size $m$ has coefficient $(-1)^{m-1}(m-1)!$, since precisely $(m-1)!$ cycles have that support. If a permutation has $k-2j$ odd cycles, those cycles contribute $(JH)^{k-2j}$, whereas every even cycle contributes at most $J$ in absolute value. The total number of cycles is at most $k-j$. Moreover, at most $3j$ positions belong to cycles of length greater than one: an odd cycle of length $m\geq3$ uses $m$ positions while contributing $m-1$ to $2j$, and an even cycle contributes all its positions to $2j$. There are at most $k^{O(j)}$ permutations with this many moved positions. The identity permutation is the term $H^k$; all the other terms give (3.6).
+\end{equation}$$ To prove it, express the distinct-index sum by Möbius inversion on set partitions; see [32, Section 7, Example 1]. Equivalently, sum over permutations of $[k]$, with a cycle of length $m$ contributing $\sum_i y_i^m$ and with the usual permutation sign. A partition block of size $m$ has coefficient $(-1)^{m-1}(m-1)!$, since precisely $(m-1)!$ cycles have that support. If a permutation has $k-2j$ odd cycles, those cycles contribute $(JH)^{k-2j}$, whereas every even cycle contributes at most $J$ in absolute value. The total number of cycles is at most $k-j$. Moreover, at most $3j$ positions belong to cycles of length greater than one: an odd cycle of length $m\geq3$ uses $m$ positions while contributing $m-1$ to $2j$, and an even cycle contributes all its positions to $2j$. There are at most $k^{O(j)}$ permutations with this many moved positions. The identity permutation is the term $H^k$; all the other terms give (3.6).
 
 Apply (3.6) pointwise and then use Hölder with respect to the positive measure $\psi(n/X)W(n)$. The relative error in $I$ is at most $$\sum_{j=1}^{k/2}
  \left(\frac{k^C}{J}\left(\frac{I_0}{I}\right)^{2/k}\right)^j=o(1).$$ Indeed, the ratio is at most a constant times $k^C\log Z\exp(-.032K/k)$, because $X^{1/k}\leq Z$; (3.3) makes this tend to zero.
@@ -226,7 +226,7 @@ Henceforth choose an ordered tuple of $k$ distinct primes of $\mathcal P$ unifor
 \end{equation}$$ In particular $g_d$ vanishes on nonunits when $d>1$, since each $f_\ell$ has mean zero. We use $g_1=1$.
 
 Expand $W=\sum_{d\mid L}\lambda^{\omega(d)}f_d$. For a fixed $d$, Poisson summation modulo $Md$ gives the complete transform of $f_d(n)\chi_M(n-t_M)$. Its factor modulo $d$ is $\sqrt d\,g_d(-u\overline M)$, and its factor modulo $M$ is $$\tau(\chi_M)\chi_M(u)\chi_M(d)
-       e_M(t_Mu\overline d),$$ where $|\tau(\chi_M)|=\sqrt M$ by the primitive quadratic Gauss-sum identity (Montgomery and Vaughan 2007, Theorems 9.6–9.7). Since $t_M+Mh_0$ is divisible by every $d\mid L$, $$e_M(t_Mu\overline d)=e\bigl((\theta+h_0)u/d\bigr).$$ It follows that the transform of the distinct-prime contribution, after division by $\sqrt X$ and multiplication by a unit complex number depending only on the tuple, is $$\begin{equation}
+       e_M(t_Mu\overline d),$$ where $|\tau(\chi_M)|=\sqrt M$ by the primitive quadratic Gauss-sum identity [28, Theorems 9.6–9.7]. Since $t_M+Mh_0$ is divisible by every $d\mid L$, $$e_M(t_Mu\overline d)=e\bigl((\theta+h_0)u/d\bigr).$$ It follows that the transform of the distinct-prime contribution, after division by $\sqrt X$ and multiplication by a unit complex number depending only on the tuple, is $$\begin{equation}
 \tag{3.9}
  \sum_{d\mid L}\frac{\lambda^{\omega(d)}\chi_M(d)}{\sqrt{Rd}}
  \sum_{u\in\mathbb Z}\chi_M(u)g_d(-u\overline M)
@@ -276,10 +276,10 @@ Put $l=\lfloor T^{\mu_0}\rfloor$ and $u_0=2l$. Let $\mathcal B$ be any fixed fam
 
 To prove the claim, first replace the maximum of the moments by their sum. Each product $M$ has probability $k!/(J)_k\leq2k!/J^k$, so positivity permits domination by the sum over all odd $m\leq(2Z)^k$ with $\chi_M(s)$ replaced by $(s/m)$. Expand one $2l$-th moment. If the product $n$ of its $2l$ indices is nonsquare, $m\mapsto(n/m)$ on odd $m$, extended by zero on even $m$, is a nonprincipal quadratic Dirichlet character with possible additional zero factors. It has a period at most $8n$ and mean zero over a period. One can see this by using the nontrivial squarefree kernel of $n$ and then imposing coprimality to its square part; the induced character remains nonprincipal on the units of a modulus dividing $8\operatorname{rad}(n)$. As $n\leq Z^{28l}$, its sum over any initial interval is $O(Z^{28l})$. The total absolute nonsquare error for an array is therefore at most $Z^{28l}(\sum_s|b_s|)^{2l}=Z^{O_c(l)}$.
 
-When the product of the indices is square, its Jacobi symbol is either zero or one. Its contribution in absolute value is bounded by $(2Z)^k$ times the $2l$-th moment of $$F(\varepsilon)=\sum_s|b_s|\prod_{p\mid s}\varepsilon_p,$$ where the $\varepsilon_p$ are independent uniform signs. Indeed, the expectation of a product of these monomials is one exactly when the product of the corresponding squarefree indices is a square, and is zero otherwise. We use the even-moment form of Bonami’s hypercontractive inequality (Bonami 1970, III, Theorems 2–3) and include its elementary proof here. For real $x,y$ the binomial theorem gives $$\left(\mathbb E_{\varepsilon=\pm1}|x+\varepsilon y|^{2l}\right)^{1/l}
+When the product of the indices is square, its Jacobi symbol is either zero or one. Its contribution in absolute value is bounded by $(2Z)^k$ times the $2l$-th moment of $$F(\varepsilon)=\sum_s|b_s|\prod_{p\mid s}\varepsilon_p,$$ where the $\varepsilon_p$ are independent uniform signs. Indeed, the expectation of a product of these monomials is one exactly when the product of the corresponding squarefree indices is a square, and is zero otherwise. We use the even-moment form of Bonami’s hypercontractive inequality [2, Chapter III, Theorems 2–3] and include its elementary proof here. For real $x,y$ the binomial theorem gives $$\left(\mathbb E_{\varepsilon=\pm1}|x+\varepsilon y|^{2l}\right)^{1/l}
  \leq x^2+(2l-1)y^2,$$ because $\binom{2l}{2i}\leq\binom li(2l-1)^i$. Apply this one sign at a time. Minkowski’s inequality, applied to the square functions of the remaining signs, shows inductively that $$\|F\|_{2l}^2\leq
        \sum_s(2l-1)^{\omega(s)}|b_s|^2
- \leq\sum_su_0^{\omega(s)}|b_s|^2.$$ This is the tensorized sign-moment form of Bonami hypercontractivity; see (Bonami 1970, III, Theorem 3, p. 376). The preceding argument proves the needed form directly; the arithmetic moment transfer around it is the adaptation used here. Squarefreeness ensures that each sign occurs with degree at most one in every monomial.
+ \leq\sum_su_0^{\omega(s)}|b_s|^2.$$ This is the tensorized sign-moment form of Bonami hypercontractivity; see [2, Chapter III, Theorem 3, p. 376]. The preceding argument proves the needed form directly; the arithmetic moment transfer around it is the adaptation used here. Squarefreeness ensures that each sign occurs with degree at most one in every monomial.
 
 The $2l$-th root of the square-product transfer factor is at most $$\left(Z^c\frac{2k!}{J^k}(2Z)^k\right)^{1/(2l)}
  \leq\exp\left(O_c\left(\frac{T+k\log T}{l}\right)\right)
@@ -414,7 +414,7 @@ For each remaining integer take its set of matching primes. Two different intege
 
 ##### The quadratic large sieve and the number of kernels.
 
-Prime-product character tests for squarefree kernels also appear in Green and Harper (Green and Harper 2014, Lemmas 6.1–6.2). Here the preceding argument has first related the independently chosen translating centers. We use Heath-Brown’s quadratic large sieve (Heath-Brown 1995, Theorem 1): for arbitrary complex coefficients on odd positive squarefree $s\leq S$, $$\begin{equation}
+Prime-product character tests for squarefree kernels also appear in Green and Harper [16, Lemmas 6.1–6.2]. Here the preceding argument has first related the independently chosen translating centers. We use Heath-Brown’s quadratic large sieve [18, Theorem 1]: for arbitrary complex coefficients on odd positive squarefree $s\leq S$, $$\begin{equation}
 \tag{3.28}
  \sum_{u\leq U}^{*}
      \left|\sum_s b_s(s/u)\right|^2
@@ -452,7 +452,7 @@ No prime divides a kernel on both sides. In fact, if a prime divides $v=u_x$ and
 
 ##### Exceptional characters and split primes.
 
-We recall the precise unconditional input about Dirichlet $L$-functions that is needed here. For the absolute constant $c_1$ fixed above, among primitive nonprincipal characters of conductor at most $Q$, all zeros with imaginary part of modulus at most one satisfy $\Re\rho\leq1-c_1/\log Q$, apart from at most one real simple zero of a real character. This is the classical zero-free region together with the Landau–Page theorem. For every fixed $\varepsilon_1>0$, such a real zero satisfies $1-\beta\gg_{\varepsilon_1}q^{-\varepsilon_1}$, by Siegel’s theorem, where $q$ is its conductor. These statements are used only for existence and asymptotics; no effective constant from Siegel’s theorem is required. We use the zero-free region and Page theorem in (Montgomery and Vaughan 2007, Theorem 11.3 and Corollary 11.10), and the real-zero bound in (Montgomery and Vaughan 2007, Corollary 11.15).
+We recall the precise unconditional input about Dirichlet $L$-functions that is needed here. For the absolute constant $c_1$ fixed above, among primitive nonprincipal characters of conductor at most $Q$, all zeros with imaginary part of modulus at most one satisfy $\Re\rho\leq1-c_1/\log Q$, apart from at most one real simple zero of a real character. This is the classical zero-free region together with the Landau–Page theorem. For every fixed $\varepsilon_1>0$, such a real zero satisfies $1-\beta\gg_{\varepsilon_1}q^{-\varepsilon_1}$, by Siegel’s theorem, where $q$ is its conductor. These statements are used only for existence and asymptotics; no effective constant from Siegel’s theorem is required. We use the zero-free region and Page theorem in [28, Theorem 11.3 and Corollary 11.10], and the real-zero bound in [28, Corollary 11.15].
 
 Apply them with $Q_0=4X^{2\eta}$. The primitive quadratic character corresponding to a signed squarefree integer $vw\ne1$ has conductor at most $4|vw|\leq Q_0$. If the exceptional character has conductor $q>(\log X)^{100}$, discard the pairs $(x,y)$ that produce it. The character determines $vw$ and hence the two kernel magnitudes by the preceding disjointness. Equation (3.31) bounds the number of discarded pairs by $$O\left(\frac X{\sqrt{|vw|}}+X^{1/2+o(1)}\right)
  \ll\frac X{(\log X)^{50}}+X^{1/2+o(1)}.$$ This is negligible compared with $|\mathcal U||\mathcal V|\gg_\delta X/(\log X)^6$. There are $O(X^{2\eta})$ possible ordered pairs of signed kernels. Among the remaining pairs we can therefore fix kernels $v,w$ whose population product is $\gg_\delta X^{1-2\eta}/(\log X)^6$. Each population is at most $O(\sqrt X)$ by (3.31); consequently each is at least $X^{1/2-3\eta}$ for sufficiently large $T$. Let $\mathcal R_1,\mathcal R_2$ be the resulting sets of positive roots $t_x,t_y$. The root maps are injective, their respective sizes are these populations, and their diameters are at most $X^{1/2+o(1)}$.
@@ -465,7 +465,7 @@ Set $Q_2=X^{1/2-5\eta}$. We claim that our choice of $\eta$ gives $$\begin{equat
 \tag{3.33}
  \sum_\rho\Re\frac1{u-\rho}
        =\frac{L'}L(u,\chi)+\frac12\log q+O(1),
-\end{equation}$$ where the zeros are the nontrivial zeros, counted with multiplicity. For clarity, the completed logarithmic derivative is $L'/L(u,\chi)+\tfrac12\log(q/\pi) +\tfrac12\Gamma'/\Gamma((u+\kappa)/2)$, with $\kappa\in\{0,1\}$; the real part of its Hadamard constant cancels the sum of $\Re(1/\rho)$. The gamma term is bounded on this interval. This proves precisely (3.33), with a uniform $O(1)$; see also (Helfgott 2019, sec. 3.7.4, Equations (3.97)–(3.102)).
+\end{equation}$$ where the zeros are the nontrivial zeros, counted with multiplicity. For clarity, the completed logarithmic derivative is $L'/L(u,\chi)+\tfrac12\log(q/\pi) +\tfrac12\Gamma'/\Gamma((u+\kappa)/2)$, with $\kappa\in\{0,1\}$; the real part of its Hadamard constant cancels the sum of $\Re(1/\rho)$. The gamma term is bounded on this interval. This proves precisely (3.33), with a uniform $O(1)$; see also [19, Section 3.7.4, Equations (3.97)–(3.102)].
 
 The zero sum is positive. At $s_0$ it is at most $2\log Q_0$ for sufficiently large $X$, because the Euler series bounds $|L'/L(s_0,\chi)|$ by $-\zeta'/\zeta(s_0)=\log Q_0+O(1)$ and $q\leq Q_0$. For a nonexceptional zero $\rho=\beta+i\gamma'$ with $|\gamma'|\leq1$, set $a=s-\beta$ and $b=s_0-\beta$. The zero-free region gives $a\geq c_1/\log Q_0$, while $0\leq b-a\leq1/\log Q_0$. Hence $$\frac{a/(a^2+(\gamma')^2)}{b/(b^2+(\gamma')^2)}
  \leq\frac ba\leq1+c_1^{-1}.$$ If $|\gamma'|>1$, the same ratio is at most five, since $0<a\leq b\leq2$. Thus the sum of all nonexceptional terms at $s$ is at most $2C_{\mathrm z}\log Q_0$, with a constant independent of $\eta$. If the exceptional zero is a zero of the retained character, its conductor is at most $(\log X)^{100}$. Siegel’s estimate with $\varepsilon_1=1/200$ then gives $$(s-\beta)^{-1}\leq(1-\beta)^{-1}
@@ -556,7 +556,7 @@ Introduce the gaps and frequency bounds $$\begin{align}
 For any such target $T$, the interval $$[\log T-2\epsilon k,\log T-\epsilon k]$$ lies inside the late block when $K_0$ is large. It contains a rich unit shell. The primes of that shell obey $\log p\le T e^{-\epsilon k}<(\log X)/4$, again by increasing $K_0$; hence this shell was among the simultaneous endpoint tests above.
 
 We record why the good cells in that shell can realize the target to bounded accuracy. Let their index set be $I\subset[b,eb]$, with $|I|\ge c'b$, and write $$h_-=\min I,\quad h_+=\max I,\quad s=h_+-h_-,
- \quad g=\gcd(I-h_-).$$ Then $s\gg b$ and $g\ll1$. Let $\mathcal U$ be the set $(I-h_-)/g$, reduced modulo $s/g$. It contains zero, generates the group, and has density bounded below. A bounded number $r_0$ of its sums covers that group. For completeness, Kneser’s sumset theorem (Kneser 1953), in the form of (DeVos 2014, Theorem 1), gives, for the stabilizer $H$ of an $r_0$-fold sumset, $$|r_0\mathcal U|
+ \quad g=\gcd(I-h_-).$$ Then $s\gg b$ and $g\ll1$. Let $\mathcal U$ be the set $(I-h_-)/g$, reduced modulo $s/g$. It contains zero, generates the group, and has density bounded below. A bounded number $r_0$ of its sums covers that group. For completeness, Kneser’s sumset theorem [24], in the form of [7, Theorem 1], gives, for the stabilizer $H$ of an $r_0$-fold sumset, $$|r_0\mathcal U|
        \ge r_0|\mathcal U+H|-(r_0-1)|H|.$$ If $H$ is proper, the generating set $\mathcal U$ meets at least two $H$-cosets, so the right side is at least $r_0|\mathcal U|/2$. For sufficiently large fixed $r_0$ this is impossible in the ambient group. Thus the sumset is the whole group. Appending zero and endpoint summands now shows that $n$ sums of $I-h_-$ cover every multiple of $g$ in $[r_0s,(n-r_0)s]$. Choose $n$ to be the integer nearest $T/((h_-+h_+)/2)$. Since the shell lies in the preceding target interval, $$c''e^{\epsilon k}\le n\le C e^{2\epsilon k}.$$ For large $K_0$, the target lies in the interior interval just described. Rounding to the appropriate residue class modulo $g$ therefore gives an ordered list of $n$ good cell indices with sum $T+O(1)$.
 
 Use such lists for every pivot target $T_j$ and the filler target $T_F$. The total number $n_c$ of cell labels, including the anchors, satisfies $$n_c\le n_{\max}\ll k e^{2\epsilon k}.$$ Every index has at most $\exp(CL)$ possibilities. Fixing all lengths, ordered lists, and anchor choices by pigeonhole costs at most $$\exp(Cn_{\max}L+O_k(1)).$$ Since $n_{\max}/z\ll k e^{-\epsilon k}\to0$, this is absorbed by $\exp(Cm)$, with a leading constant independent of $k,B_D$. The endpoint dependence of the targets causes no loss beyond this pigeonhole: every eligible rich shell had already been tested at every typical endpoint.
@@ -940,7 +940,7 @@ Set $$\begin{equation}
  \ll_{D_1,\phi,C_K}Xe^{-D_1L}.
 \end{equation}$$*
 
-*Proof.* We give the uniform details because the sum in (5.15) is unweighted over the primitive characters. Put $Q=Q_b$, $T=Q^5$, and $M=\log X=e^L$. The zero-density theorem of Montgomery (Montgomery 1969, Theorem 1), in the precise form recorded in (Inoue 2021, Lemma 1), states that $$\begin{equation}
+*Proof.* We give the uniform details because the sum in (5.15) is unweighted over the primitive characters. Put $Q=Q_b$, $T=Q^5$, and $M=\log X=e^L$. The zero-density theorem of Montgomery [26, Theorem 1], in the precise form recorded in [23, Lemma 1], states that $$\begin{equation}
 \tag{5.16}
  \sum_{\substack{q\le Q\\\chi\bmod q}}^{*}
        N(\sigma,T,\chi)
@@ -951,7 +951,7 @@ Set $$\begin{equation}
  \left(Q\ge1,\ T\ge2,\ \tfrac12\le\sigma\le1\right).
 \end{equation}$$ Here the star restricts to primitive characters, and $N$ counts nontrivial zeros, with multiplicity, having real part at least $\sigma$ and ordinate of absolute value at most $T$. There is no additional restriction relating $Q$ and $T$.
 
-The standard zero-free region and Landau–Page theorem, in the form (Ford et al. 2018, Lemma 7.1), give an absolute $c>0$ such that, after omitting at most one primitive real character of conductor at most $Q$, every zero in this family with $|\Im\rho|\le T$ satisfies $$1-\Re\rho\ge u_0:=\frac{c}{\log(QT)}.$$ One may choose the omitted character by the Landau–Page theorem at height zero with parameter $Q$; decreasing the absolute $c$ makes the displayed common strip valid up to height $T$. The omitted object is the entire character, not just one zero.
+The standard zero-free region and Landau–Page theorem, in the form [12, Lemma 7.1], give an absolute $c>0$ such that, after omitting at most one primitive real character of conductor at most $Q$, every zero in this family with $|\Im\rho|\le T$ satisfies $$1-\Re\rho\ge u_0:=\frac{c}{\log(QT)}.$$ One may choose the omitted character by the Landau–Page theorem at height zero with parameter $Q$; decreasing the absolute $c$ makes the displayed common strip valid up to height $T$. The omitted object is the entire character, not just one zero.
 
 Let $\mathcal F$ be the retained primitive nonprincipal characters. For $u_0\le y\le1/2$, (5.16) implies $$F(y):=\sum_{\chi\in\mathcal F}N(1-y,T,\chi)
  \ll B e^{Ay},\qquad
@@ -970,13 +970,13 @@ To connect zeros with the required smooth sums, write $$\Phi(s)=\int_0^\infty\ph
  =-\sum_{\rho}X^\rho\Phi(\rho)
       -\mathbf 1_{\chi(-1)=1}\Phi(0)
       +O_\phi(X^{-1/2}\log(2q)).
-\end{equation}$$ The zero sum is over nontrivial zeros with multiplicity and converges absolutely. For clarity, the residue at zero is the simple trivial zero of an even nonprincipal character. On $\Re s=-1/2$, the functional equation expresses the logarithmic derivative through its absolutely convergent counterpart on $\Re s=3/2$, together with gamma factors. It gives the uniform bound $O(\log(q(2+|\Im s|)))$ on this line. The decay of $\Phi$ proves the displayed remainder. Shifting first at suitable finite heights and then passing to the limit justifies the contour operation using the ordinary zero-count bound $N(0,t,\chi)\ll (t+1)\log(q(t+2))$; these standard functional-equation and explicit-formula facts are given in (Montgomery and Vaughan 2007, chap. 10); see also (Helfgott 2019, sec. 3.7.1 and 3.7.3). In particular the error contains no constant depending on the distance of a possible exceptional zero from 1.
+\end{equation}$$ The zero sum is over nontrivial zeros with multiplicity and converges absolutely. For clarity, the residue at zero is the simple trivial zero of an even nonprincipal character. On $\Re s=-1/2$, the functional equation expresses the logarithmic derivative through its absolutely convergent counterpart on $\Re s=3/2$, together with gamma factors. It gives the uniform bound $O(\log(q(2+|\Im s|)))$ on this line. The decay of $\Phi$ proves the displayed remainder. Shifting first at suitable finite heights and then passing to the limit justifies the contour operation using the ordinary zero-count bound $N(0,t,\chi)\ll (t+1)\log(q(t+2))$; these standard functional-equation and explicit-formula facts are given in [28, Chapter 10]; see also [19, Sections 3.7.1 and 3.7.3]. In particular the error contains no constant depending on the distance of a possible exceptional zero from 1.
 
 We sum absolute values in (5.17). The contribution from zeros with $\Re\rho\ge1/2$ and $|\Im\rho|\le T$ is $$O_\phi(XB e^{-Mu_0/2}).$$ There are $O(Q^2T\log(QT))$ zeros in the retained family at these heights, so those with real part below $1/2$ contribute at most $O_\phi(X^{1/2}Q^2T\log(QT))$. Using $|\Phi(\beta+i\gamma)|\ll_\phi(1+|\gamma|)^{-3}$ and summing the zero-count bound in dyadic height intervals, the zeros above $T$ contribute $O_\phi(XQ^2T^{-2}\log(QT))$. Finally the remainders in (5.17) sum to $$O_\phi\bigl(Q^2(1+X^{-1/2}\log(2Q))\bigr).$$
 
 Each of these terms is $O_{D_1,\phi,C_K}(Xe^{-D_1L})$. For the first, use the already proved estimate on $Mu_0$. For the second and fourth, use $Q^7=X^{o(1)}$. For the third, $Q^2T^{-2}=Q^{-8}$, whose logarithm is a negative quantity of order $K e^{.9L}$. The conductor-$1$ character is added by the classical prime number theorem with its zero-free-region error, followed by smooth partial summation; its error is $O_\phi(Xe^{-c\sqrt{\log X}})$, which is also sufficient. This proves (5.15). ◻
 
-We now perform the possible deletion promised after (5.13), using the one-prime removal of an exceptional conductor as in (Ford et al. 2018, sec. 7, following Lemma 7.1). If the exceptional primitive character of conductor at most $Q_b$ has conductor equal to a product of primes in $\mathcal S$, delete one of those primes from $\mathcal S$. Otherwise make no deletion. Keep $K,Q_b$ fixed and redefine $W,\mathcal L,\mathcal U,U,H$ using the resulting set. Equations (5.6) and (5.13) continue to hold. Every primitive character induced by a monomial of $W$ has squarefree conductor formed from primes of $\mathcal S$; hence none of those induced characters is the exceptional one.
+We now perform the possible deletion promised after (5.13), using the one-prime removal of an exceptional conductor as in [12, Section 7, following Lemma 7.1]. If the exceptional primitive character of conductor at most $Q_b$ has conductor equal to a product of primes in $\mathcal S$, delete one of those primes from $\mathcal S$. Otherwise make no deletion. Keep $K,Q_b$ fixed and redefine $W,\mathcal L,\mathcal U,U,H$ using the resulting set. Equations (5.6) and (5.13) continue to hold. Every primitive character induced by a monomial of $W$ has squarefree conductor formed from primes of $\mathcal S$; hence none of those induced characters is the exceptional one.
 
 Fix from now on a nonzero nonnegative smooth $\phi$ compactly supported in $(1/2,1)$. For $j=1,2$ and a multiplicative character $\lambda\bmod p$, write $$c_{p,j}(\lambda)
  =\frac1{p-1}\sum_{x\ne0}b_p(x)^j\overline{\lambda(x)}.$$ Multiplicative Fourier inversion expresses $b_p(x)^j$ as $\sum_\lambda c_{p,j}(\lambda)\lambda(x)$ on $\mathbb F_p^*$. Equations (5.8) and (5.9), followed by Cauchy–Schwarz, give $$\begin{equation}
@@ -1029,7 +1029,7 @@ Remove all primes possessing a representation with $a\le R+N_*$ or $-d\le R+N_*$
 Put $z=X/(m_Am_D)=R^2/(m_Am_D)$. Equation (5.5) gives $z\ge e^{-o(L)}$. Comparing (5.22) with (5.13), and canceling the positive $U$, gives $$c_\phi z e^{-L}
  \le e^{-1.6H+o(L)}\sqrt z.$$ Since $H\ge .68L$, this implies $$\sqrt z\le\exp\bigl(-.088L+o(L)\bigr),$$ contradicting $z\ge e^{-o(L)}$. Thus (5.1) cannot fail along an unbounded sequence, and Proposition 5.1 follows.
 
-**Remark 5.4** (An optional zero-free refinement). Theorem 1.1 of (OpenAI 2026) implies that (5.15) also holds when the sum includes *all* primitive characters of conductor at most $Q_b$, including the conductor-$1$ principal character. Indeed, every nontrivial zero then has real part at most $7/8$. The smoothed explicit formula (5.17), the rapid decay of $\Phi$, and the zero-count bound used above give an error $O_\phi(X^{7/8}\log(2q))$ for each primitive character of conductor $q$; for the conductor-$1$ character, subtract the pole main term. There are $O(Q_b^2)$ such characters, so their total error is $O_\phi(Q_b^2X^{7/8}\log(2Q_b))$, and $$Q_b^2X^{7/8}\log(2Q_b)=X^{7/8+o(1)}
+**Remark 5.4** (An optional zero-free refinement). Theorem 1.1 of [29] implies that (5.15) also holds when the sum includes *all* primitive characters of conductor at most $Q_b$, including the conductor-$1$ principal character. Indeed, every nontrivial zero then has real part at most $7/8$. The smoothed explicit formula (5.17), the rapid decay of $\Phi$, and the zero-count bound used above give an error $O_\phi(X^{7/8}\log(2q))$ for each primitive character of conductor $q$; for the conductor-$1$ character, subtract the pole main term. There are $O(Q_b^2)$ such characters, so their total error is $O_\phi(Q_b^2X^{7/8}\log(2Q_b))$, and $$Q_b^2X^{7/8}\log(2Q_b)=X^{7/8+o(1)}
    \ll_{D_1,C_K}Xe^{-D_1L}$$ for every fixed $D_1>0$, since $K=\lceil C_KL\rceil$ and $\log Q_b=o(\log X)$. The proof of Proposition 5.1, including its exceptional-character deletion, uses the classical estimate of Lemma 5.3, not this zero-free theorem.
 
 ## A finite-field tree comparison
@@ -1168,7 +1168,7 @@ For a proof, expand $h(d,\lambda d)$ in Mellin characters and apply Parseval in 
                                       F(r'-r'^2t).
 \end{equation}$$ The zero definition of $G$ encodes exactly the excluded values in this formula. Inversion permutes $U$, so $\|G\|_2\leq1$ and $|\mathbb EG|\leq\varepsilon_q$ by (6.1).
 
-Here is a direct operator bound for (6.15). The affine-action estimate is a concrete counterpart of the convolution bounds developed by Gowers (Gowers 2008), Babai, Nikolov and Pyber (Babai et al. 2008), and Gill (Gill 2016, Theorem 2 and Proposition 1.7). We give the weighted calculation directly in the additive Fourier basis. Let $U_rF(t)=F(r-r^2t)$, a unitary operator on the probability-normalized $L^2(\mathbb F_q)$. The map underlying $U_r^*U_s$ is $$t\longmapsto(s/r)^2t+s-s^2/r.$$ For a prescribed slope, $z=s/r$ has at most two possibilities. Unless $z=1$, the translation $r(z-z^2)$ determines $r$ uniquely; $z=1$ gives the identity and forces $r=s$. Hence every nonidentity affine map has at most two ordered representations as $U_r^*U_s$. Write the coefficient array of $T^*T$ on affine maps as $c(a,b)$, with $a\in U$, $b\in\mathbb F_q$, and action $F(t)\mapsto F(at+b)$. Its identity coefficient is at most $1/q$. Cauchy–Schwarz on each fiber of at most two nonidentity representations gives $$\begin{equation}
+Here is a direct operator bound for (6.15). The affine-action estimate is a concrete counterpart of the convolution bounds developed by Gowers [15], Babai, Nikolov and Pyber [1], and Gill [14, Theorem 2 and Proposition 1.7]. We give the weighted calculation directly in the additive Fourier basis. Let $U_rF(t)=F(r-r^2t)$, a unitary operator on the probability-normalized $L^2(\mathbb F_q)$. The map underlying $U_r^*U_s$ is $$t\longmapsto(s/r)^2t+s-s^2/r.$$ For a prescribed slope, $z=s/r$ has at most two possibilities. Unless $z=1$, the translation $r(z-z^2)$ determines $r$ uniquely; $z=1$ gives the identity and forces $r=s$. Hence every nonidentity affine map has at most two ordered representations as $U_r^*U_s$. Write the coefficient array of $T^*T$ on affine maps as $c(a,b)$, with $a\in U$, $b\in\mathbb F_q$, and action $F(t)\mapsto F(at+b)$. Its identity coefficient is at most $1/q$. Cauchy–Schwarz on each fiber of at most two nonidentity representations gives $$\begin{equation}
 \tag{6.16}
  \sum_{a,b}|c(a,b)|^2
  \leq\frac1{q^2}
@@ -1595,7 +1595,7 @@ We record the precise approximation needed for the two successive idealizations.
 *Proof.* Put $Q=\exp(e^{\mu L})$ and $S=\exp(e^{\theta L})$. The classical zero-free region and Page’s theorem give, simultaneously for primitive conductors up to $Q$ and ordinates of absolute value at most $S$, $$\begin{equation}
 \tag{8.9}
                      1-\Re\rho\geq c_0e^{-\theta L},
-\end{equation}$$ apart from at most one simple real zero of a primitive real character. One may take for $\chi_*$ the character of a zero in this latter narrow region, if there is one. This follows from (Montgomery and Vaughan 2007, Theorem 11.3 and Corollary 11.10); the analogous zero-free statement for $\zeta$ has no exception. We also use the standard zero count $N(T,\chi)\ll T\log(q(T+2))$ for primitive conductor $q$; see (Helfgott 2019, sec. 3.7.3).
+\end{equation}$$ apart from at most one simple real zero of a primitive real character. One may take for $\chi_*$ the character of a zero in this latter narrow region, if there is one. This follows from [28, Theorem 11.3 and Corollary 11.10]; the analogous zero-free statement for $\zeta$ has no exception. We also use the standard zero count $N(T,\chi)\ll T\log(q(T+2))$ for primitive conductor $q$; see [19, Section 3.7.3].
 
 Here are details giving the required short-interval precision. Let $t_0$ be the left endpoint of $I$, put $y=e^{t_0}$, and set $\epsilon=\exp(-e^{\delta'L})$. Sandwich the indicator of the corresponding interval in the variable $u=n/y$ between smooth nonnegative functions $f_-,f_+$ supported in $[1/2,4]$. They may be chosen with $$\int(f_+-f_-)\,du=O(\epsilon),\qquad
  \|f_\pm^{(j)}\|_\infty\ll_j\epsilon^{-j}.$$ This remains possible when the interval is shorter than $\epsilon$, by taking the lower function zero. For either smooth function let $$F(u)=\frac{f(u)}{u\log(yu)},\qquad
@@ -1605,7 +1605,7 @@ Here are details giving the required short-interval precision. Let $t_0$ be the 
  =\mathbf 1_{\chi=1}\int_0^\infty F(u)\,du
    -\sum_\rho y^{\rho-1}\mathcal M F(\rho)
    +O\bigl(y^{-1+o(1)}\bigr).
-\end{equation}$$ The sum is over nontrivial zeros. For completeness, shift the Mellin integral of $-L'/L$ to real part $-1/2$, taking limits through heights avoiding zeros. The functional equation bounds the logarithmic derivative on that line by $O(\log(q(|t|+2)))$. Mellin decay makes the shifted integral convergent and bounded by a fixed power of $\epsilon^{-1}$ times $y^{-3/2}\log(q+2)$; a possible residue at zero costs $y^{-1}$ times such a factor. Because $a_0>\delta'$, these bounds have the stated size. The pole and zero residues are exactly those displayed in (8.10). This is the usual explicit-formula argument underlying (Montgomery and Vaughan 2007, Theorem 11.16).
+\end{equation}$$ The sum is over nontrivial zeros. For completeness, shift the Mellin integral of $-L'/L$ to real part $-1/2$, taking limits through heights avoiding zeros. The functional equation bounds the logarithmic derivative on that line by $O(\log(q(|t|+2)))$. Mellin decay makes the shifted integral convergent and bounded by a fixed power of $\epsilon^{-1}$ times $y^{-3/2}\log(q+2)$; a possible residue at zero costs $y^{-1}$ times such a factor. Because $a_0>\delta'$, these bounds have the stated size. The pole and zero residues are exactly those displayed in (8.10). This is the usual explicit-formula argument underlying [28, Theorem 11.16].
 
 On $0\leq\Re s\leq1$, integration by parts gives, for fixed $j$, $$\begin{equation}
 \tag{8.11}
@@ -1619,7 +1619,7 @@ On $0\leq\Re s\leq1$, integration by parts gives, for fixed $j$, $$\begin{equati
 
 For a prime $n=p$, the summand $\Lambda(p)F(p/y)/y$ is $f(p/y)/p$. Prime powers of higher exponent give $y^{-1/2+o(1)}$. Passing from an induced character modulo $M_*$ to its primitive character changes only the prime powers at prime divisors of $M_*$ and gives a negligible error as well. Orthogonality of the characters modulo $M_*$ now selects the residue class $a$; its factor $1/\phi(M_*)$ cancels the number of character errors. The possible exceptional primitive character occurs among these induced characters precisely when its conductor divides $M_*$.
 
-Under $u=e^{t-t_0}$, the principal integral becomes $f(e^{t-t_0})\,dt/t$. The exceptional zero term becomes $$f(e^{t-t_0})e^{(\beta_*-1)t}\frac{dt}{t}.$$ In particular no factor $\beta_*$ is left over. Equivalently, this follows by differentiating the exceptional Chebyshev term $-\chi_*(a)y^{\beta_*}/(\beta_*\phi(M_*))$; see (Montgomery and Vaughan 2007, Corollaries 11.17 and 11.20). The resulting density is nonnegative and at most $2\,dt/(\phi(M_*)t)$. The upper and lower smooth tests therefore differ in their main integrals by $O(\epsilon)$, and their pointwise sandwich on the positive prime measure proves (8.8). ◻
+Under $u=e^{t-t_0}$, the principal integral becomes $f(e^{t-t_0})\,dt/t$. The exceptional zero term becomes $$f(e^{t-t_0})e^{(\beta_*-1)t}\frac{dt}{t}.$$ In particular no factor $\beta_*$ is left over. Equivalently, this follows by differentiating the exceptional Chebyshev term $-\chi_*(a)y^{\beta_*}/(\beta_*\phi(M_*))$; see [28, Corollaries 11.17 and 11.20]. The resulting density is nonnegative and at most $2\,dt/(\phi(M_*)t)$. The upper and lower smooth tests therefore differ in their main integrals by $O(\epsilon)$, and their pointwise sandwich on the positive prime measure proves (8.8). ◻
 
 For each row, choose the possible exceptional character in Lemma 8.1 before fixing the nongiant priors. If its conductor has a prime factor at least $$\begin{equation}
 \tag{8.13}
@@ -1692,7 +1692,7 @@ The degree is $O_k(m)$. This follows inductively because each coefficient in a r
 Replace each test by the question whether its polynomial is identically zero over $\mathbb Q$. We quantify the error in this replacement under (8.20). If a polynomial of total degree $D$ in independent variables is not identically zero and each variable has maximal atom at most $\alpha$, then $$\begin{equation}
 \tag{8.23}
                              \mathbb P(P=0)\leq D\alpha.
-\end{equation}$$ This is a maximal-atom variant of the Schwartz–Zippel argument. Schwartz (Schwartz 1980, Lemma 1, p. 702) gives the sharp total-degree estimate for uniform finite sets; Zippel (Zippel 1979, sec. 3.1, Theorem 1) gives related coordinate-degree zero estimates in sparse interpolation. Earlier random-evaluation identity testing appears in DeMillo and Lipton (DeMillo and Lipton 1978). The proof below extends the uniform-finite-set argument to independent nonuniform laws; that extension is supplied here, not imported from these references. Indeed, write it as a polynomial of degree $d$ in its last variable, with nonzero leading coefficient of degree at most $D-d$. Induction bounds the probability that this coefficient vanishes by $(D-d)\alpha$; otherwise there are at most $d$ roots in the last variable. This proves (8.23).
+\end{equation}$$ This is a maximal-atom variant of the Schwartz–Zippel argument. Schwartz [33, Lemma 1, p. 702] gives the sharp total-degree estimate for uniform finite sets; Zippel [35, §3.1, Theorem 1] gives related coordinate-degree zero estimates in sparse interpolation. Earlier random-evaluation identity testing appears in DeMillo and Lipton [6]. The proof below extends the uniform-finite-set argument to independent nonuniform laws; that extension is supplied here, not imported from these references. Indeed, write it as a polynomial of degree $d$ in its last variable, with nonzero leading coefficient of degree at most $D-d$. Induction bounds the probability that this coefficient vanishes by $(D-d)\alpha$; otherwise there are at most $d$ roots in the last variable. This proves (8.23).
 
 All variables occurring here are at least bulk size. Their maximal atoms are at most $\exp(-c e^{.004L})$, so an accidental exact zero has probability at most $O_k(m)\exp(-c e^{.004L})$. If the evaluation is nonzero, (8.22) implies that it has at most $e^{O(L)}$ distinct prime divisors. The representative $b$ is independent of this evaluation, because its whole compensation type is absent from the polynomial. Its maximal atom is at most $\exp(-c_k e^{.01L}+O(L))$, so the probability that it divides this nonzero evaluation is again negligible. A polynomial which is an identity vanishes modulo $b$ identically, because the cleared denominators are units.
 
@@ -1951,72 +1951,72 @@ For completeness, the sums in (7.1) satisfy $$\sum_{j=1}^k r_j=r-1,
 
 ## References
 
-Babai, László, Nikolay Nikolov, and László Pyber. 2008. “Product Growth and Mixing in Finite Groups.” *Proceedings of the Nineteenth Annual ACM–SIAM Symposium on Discrete Algorithms*, 248–57. <https://people.cs.uchicago.edu/~laci/papers/bnp-soda08.pdf>.
+**[1]** László Babai, Nikolay Nikolov, and László Pyber. Product growth and mixing in finite groups. In *Proceedings of the Nineteenth Annual ACM–SIAM Symposium on Discrete Algorithms*, pages 248–257. SIAM, 2008.
 
-Bonami, Aline. 1970. “Étude Des Coefficients de Fourier Des Fonctions de $L^p(G)$.” *Annales de l’Institut Fourier* 20 (2): 335–402. <https://doi.org/10.5802/aif.357>.
+**[2]** Aline Bonami. Étude des coefficients de Fourier des fonctions de $L^p(G)$. *Annales de l’Institut Fourier*, 20(2):335–402, 1970.
 
-Croot, Ernest S., III, and Christian Elsholtz. 2005. “On Thin Sets of Primes Expressible as Sumsets.” *Acta Mathematica Hungarica* 106 (3): 197–226. <https://doi.org/10.1007/s10474-005-0014-4>.
+**[3]** Ernest S. Croot, III and Christian Elsholtz. On thin sets of primes expressible as sumsets. *Acta Mathematica Hungarica*, 106(3):197–226, 2005.
 
-Croot, Ernie, Junzhe Mao, Cosmin Pohoata, and Chi Hoi Yip. 2026. *A Sharp Inverse Theorem for the Quadratic Large Sieve*. <https://arxiv.org/abs/2607.15311v2>.
+**[4]** Ernie Croot, Junzhe Mao, Cosmin Pohoata, and Chi Hoi Yip. A sharp inverse theorem for the quadratic large sieve, 2026. [arXiv:2607.15311v2](https://arxiv.org/abs/2607.15311v2), revised September 17, 2026.
 
-Croot, Ernie, Junzhe Mao, and Chi Hoi Yip. 2025. *An Inverse Theorem on Sets with Rich Additive Structure Modulo Primes*. <https://arxiv.org/abs/2510.08862v2>.
+**[5]** Ernie Croot, Junzhe Mao, and Chi Hoi Yip. An inverse theorem on sets with rich additive structure modulo primes, 2025. [arXiv:2510.08862v2](https://arxiv.org/abs/2510.08862v2), revised December 4, 2025.
 
-DeMillo, Richard A., and Richard J. Lipton. 1978. “A Probabilistic Remark on Algebraic Program Testing.” *Information Processing Letters* 7 (4): 193–95. <https://doi.org/10.1016/0020-0190(78)90067-4>.
+**[6]** Richard A. DeMillo and Richard J. Lipton. A probabilistic remark on algebraic program testing. *Information Processing Letters*, 7(4):193–195, 1978.
 
-DeVos, Matt. 2014. “A Short Proof of Kneser’s Addition Theorem for Abelian Groups.” In *Combinatorial and Additive Number Theory*, edited by Melvyn B. Nathanson, vol. 101. Springer Proceedings in Mathematics & Statistics. Springer. <https://doi.org/10.1007/978-1-4939-1601-6_3>.
+**[7]** Matt DeVos. A short proof of Kneser’s addition theorem for abelian groups. In Melvyn B. Nathanson, editor, *Combinatorial and Additive Number Theory*, volume 101 of *Springer Proceedings in Mathematics & Statistics*, pages 39–41. Springer, New York, 2014. Preprint: arXiv:1303.3539v1.
 
-Elsholtz, Christian. 2001a. “A Remark on Hofmann and Wolke’s Additive Decompositions of the Set of Primes.” *Archiv Der Mathematik* 76 (1): 30–33. <https://doi.org/10.1007/s000130050538>.
+**[8]** Christian Elsholtz. The inverse Goldbach problem. *Mathematika*, 48(1–2):151–158, 2001.
 
-Elsholtz, Christian. 2001b. “The Inverse Goldbach Problem.” *Mathematika* 48 (1–2): 151–58. <https://doi.org/10.1112/S0025579300014406>.
+**[9]** Christian Elsholtz. A remark on Hofmann and Wolke’s additive decompositions of the set of primes. *Archiv der Mathematik*, 76(1):30–33, 2001.
 
-Elsholtz, Christian. 2006. “Additive Decomposability of Multiplicatively Defined Sets.” *Functiones Et Approximatio Commentarii Mathematici* 35: 61–77. <https://doi.org/10.7169/facm/1229442617>.
+**[10]** Christian Elsholtz. Additive decomposability of multiplicatively defined sets. *Functiones et Approximatio Commentarii Mathematici*, 35:61–77, 2006.
 
-Elsholtz, Christian, and Adam J. Harper. 2015. “Additive Decompositions of Sets with Restricted Prime Factors.” *Transactions of the American Mathematical Society* 367 (10): 7403–27. <https://doi.org/10.1090/S0002-9947-2014-06384-8>.
+**[11]** Christian Elsholtz and Adam J. Harper. Additive decompositions of sets with restricted prime factors. *Transactions of the American Mathematical Society*, 367(10):7403–7427, 2015.
 
-Ford, Kevin, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. 2018. “Long Gaps Between Primes.” *Journal of the American Mathematical Society* 31 (1): 65–105. <https://doi.org/10.1090/jams/876>.
+**[12]** Kevin Ford, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. Long gaps between primes. *Journal of the American Mathematical Society*, 31(1):65–105, 2018.
 
-Gallagher, P. X. 1971. “A Larger Sieve.” *Acta Arithmetica* 18: 77–81. <https://doi.org/10.4064/aa-18-1-77-81>.
+**[13]** P. X. Gallagher. A larger sieve. *Acta Arithmetica*, 18:77–81, 1971.
 
-Gill, Nick. 2016. “Quasirandom Group Actions.” *Forum of Mathematics, Sigma* 4: e24. <https://doi.org/10.1017/fms.2016.8>.
+**[14]** Nick Gill. Quasirandom group actions. *Forum of Mathematics, Sigma*, 4:e24, 2016.
 
-Gowers, W. T. 2008. “Quasirandom Groups.” *Combinatorics, Probability and Computing* 17 (3): 363–87. <https://doi.org/10.1017/S0963548307008826>.
+**[15]** W. T. Gowers. Quasirandom groups. *Combinatorics, Probability and Computing*, 17(3):363–387, 2008.
 
-Green, Ben, and Adam J. Harper. 2014. “Inverse Questions for the Large Sieve.” *Geometric and Functional Analysis* 24 (4): 1167–203. <https://doi.org/10.1007/s00039-014-0288-1>.
+**[16]** Ben Green and Adam J. Harper. Inverse questions for the large sieve. *Geometric and Functional Analysis*, 24(4):1167–1203, 2014. Preprint: arXiv:1311.6176v1.
 
-Hanson, Brandon. 2020. “Additive Correlation and the Inverse Problem for the Large Sieve.” *Mathematical Proceedings of the Cambridge Philosophical Society* 168 (2): 211–17. <https://doi.org/10.1017/S0305004118000518>.
+**[17]** Brandon Hanson. Additive correlation and the inverse problem for the large sieve. *Mathematical Proceedings of the Cambridge Philosophical Society*, 168(2):211–217, 2020.
 
-Heath-Brown, D. R. 1995. “A Mean Value Estimate for Real Character Sums.” *Acta Arithmetica* 72 (3): 235–75. <https://doi.org/10.4064/aa-72-3-235-275>.
+**[18]** D. R. Heath-Brown. A mean value estimate for real character sums. *Acta Arithmetica*, 72(3):235–275, 1995.
 
-Helfgott, Harald Andrés. 2019. *The Ternary Goldbach Problem*. Online book manuscript. <https://webusers.imj-prg.fr/~harald.helfgott/anglais/PartI.pdf>.
+**[19]** Harald Andrés Helfgott. The ternary Goldbach problem. Online book manuscript, December 2019. Part I: Groundwork. PDF dated 15 December 2019; version posted 16 December 2019.
 
-Hofmann, Alfred, and Dieter Wolke. 1996. “On Additive Decompositions of the Set of Primes.” *Archiv Der Mathematik* 67 (5): 379–82. <https://doi.org/10.1007/BF01189097>.
+**[20]** Alfred Hofmann and Dieter Wolke. On additive decompositions of the set of primes. *Archiv der Mathematik*, 67(5):379–382, 1996.
 
-Hornfeck, Bernhard. 1954. “Ein Satz über die Primzahlmenge.” *Mathematische Zeitschrift* 60: 271–73. <https://doi.org/10.1007/BF01187376>.
+**[21]** Bernhard Hornfeck. Ein Satz über die Primzahlmenge. *Mathematische Zeitschrift*, 60:271–273, 1954.
 
-Hornfeck, Bernhard. 1955. “Berichtigung zur Arbeit: Ein Satz über die Primzahlmenge.” *Mathematische Zeitschrift* 62: 502. <https://doi.org/10.1007/BF01180652>.
+**[22]** Bernhard Hornfeck. Berichtigung zur Arbeit: Ein Satz über die Primzahlmenge. *Mathematische Zeitschrift*, 62:502, 1955.
 
-Inoue, Shōta. 2021. “Some Explicit Formulas for Partial Sums of Möbius Functions.” *Journal de Théorie Des Nombres de Bordeaux* 33 (2): 273–315. <https://doi.org/10.5802/jtnb.1162>.
+**[23]** Shōta Inoue. Some explicit formulas for partial sums of Möbius functions. *Journal de théorie des nombres de Bordeaux*, 33(2):273–315, 2021.
 
-Kneser, Martin. 1953. “Abschätzung Der Asymptotischen Dichte von Summenmengen.” *Mathematische Zeitschrift* 58: 459–84. <https://doi.org/10.1007/BF01174162>.
+**[24]** Martin Kneser. Abschätzung der asymptotischen dichte von summenmengen. *Mathematische Zeitschrift*, 58:459–484, 1953.
 
-Laffer, W. B., and H. B. Mann. 1964. “Decomposition of Sets of Group Elements.” *Pacific Journal of Mathematics* 14 (2): 547–58. <https://doi.org/10.2140/pjm.1964.14.547>.
+**[25]** W. B. Laffer and H. B. Mann. Decomposition of sets of group elements. *Pacific Journal of Mathematics*, 14(2):547–558, 1964.
 
-Montgomery, H. L. 1969. “Zeros of $L$-Functions.” *Inventiones Mathematicae* 8 (4): 346–54. <https://doi.org/10.1007/BF01404638>.
+**[26]** H. L. Montgomery. Zeros of $L$-functions. *Inventiones mathematicae*, 8(4):346–354, 1969.
 
-Montgomery, H. L., and R. C. Vaughan. 1973. “The Large Sieve.” *Mathematika* 20 (2): 119–34. <https://doi.org/10.1112/S0025579300004708>.
+**[27]** H. L. Montgomery and R. C. Vaughan. The large sieve. *Mathematika*, 20(2):119–134, 1973.
 
-Montgomery, Hugh L., and Robert C. Vaughan. 2007. *Multiplicative Number Theory I: Classical Theory*. Vol. 97. Cambridge Studies in Advanced Mathematics. Cambridge University Press. <https://doi.org/10.1017/CBO9780511618314>.
+**[28]** Hugh L. Montgomery and Robert C. Vaughan. *Multiplicative Number Theory I: Classical Theory*, volume 97 of *Cambridge Studies in Advanced Mathematics*. Cambridge University Press, Cambridge, 2007.
 
-OpenAI. 2026. *The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane $\mathrm{Re}(s)>7/8$*. OpenAI Math Release preprint [OAI:The-Quasi-Riemann-Hypothesis-September-30-2026](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf).
+**[29]** OpenAI. The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane $\mathrm{Re}(s)>7/8$. OpenAI Math Release preprint [OAI:The-Quasi-Riemann-Hypothesis-September-30-2026](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf), 2026.
 
-Ostmann, Hans-Heinrich. 1956. *Additive Zahlentheorie. Erster Teil: Allgemeine Untersuchungen*. Vol. 7. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete, 2. Folge. Springer. <https://doi.org/10.1007/978-3-662-11030-0>.
+**[30]** Hans-Heinrich Ostmann. *Additive Zahlentheorie. Erster Teil: Allgemeine Untersuchungen*, volume 7 of *Ergebnisse der Mathematik und ihrer Grenzgebiete, 2. Folge*. Springer, Berlin–Heidelberg, 1956.
 
-Pomerance, Carl, András Sárközy, and C. L. Stewart. 1988. “On Divisors of Sums of Integers, III.” *Pacific Journal of Mathematics* 133 (2): 363–79. <https://doi.org/10.2140/pjm.1988.133.363>.
+**[31]** Carl Pomerance, András Sárközy, and C. L. Stewart. On divisors of sums of integers, III. *Pacific Journal of Mathematics*, 133(2):363–379, 1988.
 
-Rota, Gian-Carlo. 1964. “On the Foundations of Combinatorial Theory I. Theory of Möbius Functions.” *Zeitschrift Für Wahrscheinlichkeitstheorie Und Verwandte Gebiete* 2: 340–68. <https://doi.org/10.1007/BF00531932>.
+**[32]** Gian-Carlo Rota. On the foundations of combinatorial theory I. theory of Möbius functions. *Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete*, 2:340–368, 1964.
 
-Schwartz, J. T. 1980. “Fast Probabilistic Algorithms for Verification of Polynomial Identities.” *Journal of the ACM* 27 (4): 701–17. <https://doi.org/10.1145/322217.322225>.
+**[33]** J. T. Schwartz. Fast probabilistic algorithms for verification of polynomial identities. *Journal of the ACM*, 27(4):701–717, 1980.
 
-Shao, Xuancheng. 2016. “On an Inverse Ternary Goldbach Problem.” *American Journal of Mathematics* 138 (5): 1167–91. <https://doi.org/10.1353/ajm.2016.0038>.
+**[34]** Xuancheng Shao. On an inverse ternary Goldbach problem. *American Journal of Mathematics*, 138(5):1167–1191, 2016. Preprint: arXiv:1404.6022v2.
 
-Zippel, Richard. 1979. “Probabilistic Algorithms for Sparse Polynomials.” In *Symbolic and Algebraic Computation*, edited by Edward W. Ng, vol. 72. Lecture Notes in Computer Science. Springer. <https://doi.org/10.1007/3-540-09519-5_73>.
+**[35]** Richard Zippel. Probabilistic algorithms for sparse polynomials. In Edward W. Ng, editor, *Symbolic and Algebraic Computation*, volume 72 of *Lecture Notes in Computer Science*, pages 216–226. Springer, 1979.
