@@ -87,7 +87,11 @@ clause, and did not read the proof.
 Two Lean developments declare a formalization of the theorem and are linked
 above as such. The first is the $k\ge4$ branch of L17, which also gives
 [[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|the project's own claim page]]
-its `formalized` evidence. The second is the development of
+its `formalized` evidence. Its repository is linked at `0f27743`, the commit
+the registry entry pins; later commits, through `f2ad237` as of 2026-10-13,
+changed only the README and the author line and one broken citation of the
+project's write-up, which is current at `eb385a8` of 29 September 2026. The
+second is the development of
 [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]], which
 formalizes the paper's argument beside its own seven-cycle proof. This corpus
 built that development at its pinned commit and audited its headline statement,

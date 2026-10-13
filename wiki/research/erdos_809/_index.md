@@ -3,7 +3,7 @@ name: research/erdos_809
 title: Proof of the rainbow odd-cycle threshold
 desc: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17 and accepted at tier 2 on 2026-09-25 for its audited Lean sources and statement.
 created: 2026-09-24T00:00:00Z
-updated: 2026-09-25T01:59:20Z
+updated: 2026-10-13T02:23:33Z
 ---
 
 # Proof of the rainbow odd-cycle threshold
@@ -13,8 +13,9 @@ updated: 2026-09-25T01:59:20Z
 [[research/erdos_809/archive/_index|archive/]]: Earlier finite-template, spectral, geometric, and construction notes, preserved with their original local scope.
 
 [[research/erdos_809/evidence/_index|evidence/]]: Retained publication files of the Erdős 809 formalization: the Mathlib-only
-challenge statement, the solution module, the comparator configuration and
-the registry draft, kept as assets beside the research folder.
+challenge statement, the solution module, the comparator configuration, the
+registry entry (PALOMAR-2026-09-30-000004) and the write-up, kept as assets
+beside the research folder.
 
 [[research/erdos_809/formalization|formalization]]: The Lean theorem covers every k≥3 by combining the seven-cycle proof with the Bucić–Chen–Ma k≥4 theorem.
 
