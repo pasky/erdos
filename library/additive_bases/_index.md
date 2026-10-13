@@ -591,6 +591,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/additive_bases/E0530/_index|E0530]]
 - [[additive_combinatorics/komlos_1975_linear_problems_combinatorial_number_theory/_index|komlos_1975_linear_problems_combinatorial_number_theory]]
   - [[../wiki/problems/additive_bases/E0530/_index|E0530]]
+- [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+  - [[../wiki/problems/additive_bases/E0152/_index|E0152]]
 - [[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/_index|erdos_1981_applications_graph_theory_combinatorial_methods_number]]
   - [[../wiki/problems/additive_bases/E0028/_index|E0028]]
 - [[distance_problems/dumitrescu_2008_distinct_distances_points_general_position/_index|dumitrescu_2008_distinct_distances_points_general_position]]

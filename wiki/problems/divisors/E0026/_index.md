@@ -48,7 +48,7 @@ https://www.erdosproblems.com/26.
 The site's formulation (accessed 2026-09-04; the site's page was last edited
 2026-04-08) asks whether every infinite $A\subset\mathbb{N}$ has a shift $k$
 for which almost all integers have a divisor in $A+k$. The answer is no, and
-the standing derives from two accepted full claims:
+the standing derives from three accepted full claims. Two are older:
 [[problems/divisors/E0026/claims/1951_01_01_davenport_erdos|Davenport and Erdős 1951]],
 whose theorem that a set of multiples of density one needs a divergent
 reciprocal sum predates the question and refutes it for every infinite set with
@@ -78,12 +78,17 @@ agent, with an infinite $A$ such that for every $k\geq 1$ the multiples of
 $A+k$ have upper density below $0.34$; the result was posted in the site's
 thread on 2026-04-06 with a
 [Lean proof](https://github.com/mo271/formal-conjectures/blob/09c54540aa51cb40dff73660c94a82e2631386f8/FormalConjectures/ErdosProblems/26.lean#L625)
-in a fork of formal-conjectures. It implies the negative answer here as well,
-with a set of divergent reciprocal sum, so it also refutes the
-formal-conjectures statement restricted to such sets; it is recorded on
-[[problems/divisors/E0026/claims/2026_04_06_deepmind|its claim page]], which
-stays `claimed`, since the curator credits the result for the variant only
-and this corpus has not built the file.
+in a fork of formal-conjectures. The agent is Google DeepMind's AlphaProof
+Nexus, whose refereed paper (Tsoukalas et al., Science, 2026) proves the
+result in its Appendix B.4, with the bound stated as upper density below $3/4$
+for every $k\ge1$
+([[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_26_variant|Erdős #26, More General Variant]]).
+It implies the negative answer here as well, with a set of divergent reciprocal
+sum, so it also refutes the formal-conjectures statement restricted to such
+sets. It is the third accepted full claim, recorded on
+[[problems/divisors/E0026/claims/2026_04_06_deepmind|its claim page]] and
+accepted on the paper's refereed publication; the curator credits the result
+for the variant only, and this corpus has not built the Lean files.
 
 Search scope: on 2026-10-07 the site's problem page and thread, the community
 database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
@@ -98,6 +103,8 @@ question.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_26_variant|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_26_variant]]
 - [[../library/divisors/davenport_1951_sequences_positive_integers/_index|davenport_1951_sequences_positive_integers]]
 - [[../library/divisors/davenport_1951_sequences_positive_integers/remark_p19|davenport_1951_sequences_positive_integers / remark_p19]]
 - [[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/_index|tenenbaum_2013_erdos_unconventional_problems_number_theory]]

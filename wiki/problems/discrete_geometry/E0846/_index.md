@@ -29,7 +29,8 @@ Is it true that $A$ is the union of a finite number of sets where no three are
 on a line?
 
 **Status.** DISPROVED (LEAN). The site credits two independent disproofs, one by
-DeepMind and one by an internal model at OpenAI. Putterman, Sawhney and Valiant
+DeepMind, found by its AlphaProof Nexus system and published in a refereed
+paper, and one by an internal model at OpenAI. Putterman, Sawhney and Valiant
 wrote up the second [PSV26]. The claim pages
 [[problems/discrete_geometry/E0846/claims/2026_02_24_putterman_sawhney_valiant|Putterman, Sawhney and Valiant]]
 and [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|DeepMind]]
@@ -66,8 +67,11 @@ construction: one point $(x_i + x_j,\, x_i^2 + x_i x_j + x_j^2)$ for each pair
 $i < j$ of a suitably generic sequence, so that collinear triples are exactly
 the triangles of the complete graph on $\mathbb{N}$; bipartite subgraphs give
 $\epsilon = 1/2$, and the infinite Ramsey theorem forbids a finite cover. A
-DeepMind prover agent found a Lean proof from the formal statement
-(announced 2026-02-25), and an internal model at OpenAI produced the
+DeepMind prover agent, AlphaProof Nexus, found a Lean proof from the formal
+statement (announced 2026-02-25; proved informally in the refereed paper of
+Tsoukalas et al., Science 2026,
+[[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_846|Erdős #846]]),
+and an internal model at OpenAI produced the
 construction that Putterman, Sawhney and Valiant wrote up (arXiv:2602.21275,
 2026-02-24). The paper reports (p. 1, after Theorem 1.1) Rödl's remark that a
 counterexample also follows from Theorem 1.7 of Reiher, Rödl and Sales
@@ -76,11 +80,12 @@ J. Lond. Math. Soc. 2024) after a generic projection; the forum announcement
 repeats the remark. The remark is recorded here and on the paper's claim page
 and has no claim page of its own, since it is a derivation reported in another
 author's paper, not a manuscript of Rödl's own. The standing rests on the two
-accepted claim pages, whose evidence is the site curator's credit; the paper is
-a preprint with no journal record found on 2026-10-07, and the Lean proof is
-third-party Lean that has not been built here. No part of the mathematics has
-been independently reviewed by this project. The original source is Erdős's
-1992 paper the site lists as [Er92b]
+accepted claim pages, whose evidence is the site curator's credit and, for
+DeepMind's, the refereed publication of its paper; Putterman, Sawhney and
+Valiant's paper is a preprint with no journal record found on 2026-10-07, and
+the Lean proofs are third-party Lean that has not been built here. No part of
+the mathematics has been independently reviewed by this project. The original
+source is Erdős's 1992 paper the site lists as [Er92b]
 ([[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|card]]).
 See also Problems 774 and 847.
 
@@ -92,6 +97,8 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_combinatorics/reiher_2024_colouring_versus_density_integers_hales_jewett_cubes/_index|reiher_2024_colouring_versus_density_integers_hales_jewett_cubes]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_846|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_846]]
 - [[../library/discrete_geometry/putterman_2026_infinite_sets_no_line/_index|putterman_2026_infinite_sets_no_line]]
 
 <!-- END problem library links -->

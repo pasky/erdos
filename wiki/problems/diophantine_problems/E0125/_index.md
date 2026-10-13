@@ -10,14 +10,14 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-13T10:05:41Z
 ---
 
 # Problem 125
 
 [[problems/diophantine_problems/_index|..]]
 
-[[problems/diophantine_problems/E0125/claims/_index|claims/]]: The 3 claim pages of Problem 125, one per claimant's result; the problem's standing derives from them.
+[[problems/diophantine_problems/E0125/claims/_index|claims/]]: The 2 claim pages of Problem 125, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -43,14 +43,16 @@ asking about positive lower density only, and the commentary adds that Erdős
 likely intended positive lower density, that is, a constant $c>0$ with
 $\lvert(A+B)\cap[1,x]\rvert\geq cx$ for all large $x$.
 
-**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN). No
-manuscript or refereed publication of the disproof exists. Its written forms are
-Lean files, a summary by the claimant and reconstructions by others. The Lean
-files are the collection's pinned file, a community file and a generated file.
-None of them was built or audited in this corpus. The claimant summarized the
-argument on the site's thread (post 5110). The site's curator reconstructed it
-in post 5114 and credits the result to DeepMind. Nat Sothanaphan reconstructed
-it in post 5115, crediting GPT-5.4 Thinking. Terence Tao's reconstruction (post
+**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN). The
+disproof is published, with an informal proof, in Google DeepMind's refereed
+paper on its AlphaProof Nexus system, [TKS26] below. Its other written forms
+are Lean files, a summary by the claimant and reconstructions by others. The
+Lean files are the collection's pinned file, a community file and the paper's
+file. None of them was built or audited in this corpus. The claimant summarized
+the argument on the site's thread (post 5110), which the paper calls its
+original communication of the result. The site's curator reconstructed it in
+post 5114 and credits the result to DeepMind. Nat Sothanaphan reconstructed it
+in post 5115, crediting GPT-5.4 Thinking. Terence Tao's reconstruction (post
 4469) covers only the earlier positive-density result. See "Current assessment"
 and the claim pages.
 
@@ -70,6 +72,12 @@ https://www.erdosproblems.com/125.
   Combinatorics and Number Theory (2024).
 - [Me01] Melfi, Giuseppe, An additive problem about powers of fixed integers.
   Rend. Circ. Mat. Palermo (2) (2001), 239-246.
+- [TKS26] Tsoukalas, G., Kovsharov, A., Shirobokov, S. and eighteen further
+  authors,
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|Advancing mathematics research with AI-driven formal proof search]].
+  Science 394 (2026), 234-239; arXiv:2605.22763. Appendix B.4 proves the
+  lower-density disproof:
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_125|Erdős #125]].
 
 **Formalization.** The site labeled the problem DISPROVED (LEAN); see
 "Formalization and the Lean label" below for the Lean account. The file
@@ -114,13 +122,13 @@ is rejected. The second,
 [[problems/diophantine_problems/E0125/claims/2026_03_30_deepmind|a Lean proof that the lower density is zero]]
 (posted 2026-03-30), answers the Statement and settles the problem; its
 acceptance evidence is the curator's record and reconstruction of the argument
-on the thread, with no refereed publication and no Lean built in this corpus.
-The commentary credits both to DeepMind; the thread's posts report a DeepMind
-prover agent finding each proof autonomously. A third page,
-[[problems/diophantine_problems/E0125/claims/2026_05_13_deepmind|a generated Lean proof by AlphaProof Nexus]]
-(2026-05-13), records a Lean file in DeepMind's AlphaProof Nexus results
-repository that proves the same lower-density statement by a different
-argument; it names no person, no source credits it, and it stays `claimed`.
+on the thread and the refereed publication of [TKS26], with no Lean built in
+this corpus. The commentary credits both to DeepMind; the thread's posts report
+a DeepMind prover agent finding each proof autonomously, and [TKS26] identifies
+that agent as AlphaProof Nexus and calls post 5110 its original communication
+of the second result. The paper's own Lean file, in DeepMind's AlphaProof Nexus
+results repository, proves the same lower-density statement by a different
+argument and is recorded on the second claim page.
 
 **Status-defining sources (Lean files; none built).** Three files prove
 that $A+B$ has lower density zero, which answers the question in the
@@ -128,15 +136,14 @@ negative.
 
 - `google-deepmind/alphaproof-nexus-results`,
   `APNOutputs/ErdosProblems/erdos_125.variants.positive_lower_density.lean`
-  (22,480 bytes, 370 lines; at the commit of 2026-05-13 pinned on its own
-  claim page, whose message is "Results for AlphaProof Nexus"; header
+  (22,480 bytes, 370 lines; at the commit of 2026-05-13 pinned on the claim
+  page, whose message is "Results for AlphaProof Nexus"; header
   "Copyright 2025 Google LLC"): defines the two digit sets as `A` and `B`, proves
   `lemma density_multi_scale (d : ℕ) : ∃ N > 0, (((Finset.Ico 0 N).filter (· ∈ A + B)).card : ℝ) ≤ ((11/12 : ℝ)^d) * (N : ℝ)`
   by induction on a scale-step lemma, `density_tends_to_zero`, and
   `theorem target_theorem_0 : answer(False) ↔ 0 < (A + B).lowerDensity`
-  between `EVOLVE-BLOCK` markers; no `sorry`. The repository's name and the
-  commit message name the system, AlphaProof Nexus; the file names no
-  person.
+  between `EVOLVE-BLOCK` markers; no `sorry`. The file names no person;
+  [TKS26] (B.4, p. 35 of arXiv v2) gives it as the Lean proof of its result.
 - `mo271/formal-conjectures` (a fork of the collection),
   `FormalConjectures/ErdosProblems/125.lean` at the commit of 2026-03-30
   pinned on the claim page (message
@@ -177,11 +184,13 @@ lemma names indicate a Dirichlet approximation aligning the scales $3^k$ and
 $4^m$ and a sparse sequence of scales at which the count is small). Nothing has
 been built, kernel-checked or audited in this corpus, and no statement-fidelity
 review exists. Acceptance evidence: the curator's commentary and thread
-reconstruction recorded on the claim pages; the site's label and the
-repositories' own records are not acceptance evidence, and no refereed
-publication, arXiv version or written review exists. Provenance, recorded not
-judged: the community file credits "a DeepMind prover agent"; the generated file
-names its system through its repository.
+reconstruction, and the refereed publication of [TKS26], recorded on the claim
+page; the site's label and the repositories' own records are not acceptance
+evidence. [TKS26] gives the informal proof (Appendix B.4 of arXiv v2; the
+Science text and its supplement were not read). Provenance: the community file
+credits "a DeepMind prover agent", and [TKS26] identifies that agent as
+AlphaProof Nexus, its own system, whose first communication of the result was
+post 5110.
 
 **Prior literature.** [HaMe24] (library home linked above) and [Me01] are the
 page's literature on sums of distinct powers of $3$ and $4$; this assessment
@@ -201,19 +210,23 @@ own comments.
 **Search scope.** The three Lean proof files at the revisions
 linked on the claim pages and the collection's statement file at its commit
 of 2026-09-18, for the Lean account; the site's problem page, commentary
-and discussion thread, with the repositories' commit records for the dates.
-arXiv, Crossref, MathSciNet, zbMATH, Google Scholar and X were not searched.
+and discussion thread, with the repositories' commit records for the dates;
+for [TKS26], its arXiv record and v2 text and the Crossref record of its
+Science DOI. arXiv and Crossref were not otherwise searched, and MathSciNet,
+zbMATH, Google Scholar and X were not searched.
 
-**Remaining gaps.** (1) No manuscript of the disproof exists; the informal
-accounts are the claimant's summary (post 5110) and the reconstructions by the
-curator (post 5114) and Nat Sothanaphan (post 5115), and the Lean texts have not
-been built in this corpus, so the accepted claim pages list `reviewed` and no
-`formalized` evidence. (2) The Statement (lower density) is answered by the
-variant; whether $A+B$ has positive upper density is open in the collection's
-file. (3) The acceptance evidence is the curator's record and reconstruction on
-the site; no refereed or independently reviewed write-up exists. (4) The dates
-of the generated file (a May 2026 commit) and the pinned collection commit (30
-March 2026) are the files' own; no earlier artifact is known.
+**Remaining gaps.** (1) The informal accounts of the disproof are the proof in
+Appendix B.4 of [TKS26] (read in arXiv v2; the Science text and its supplement
+were not read), the claimant's summary (post 5110) and the reconstructions by
+the curator (post 5114) and Nat Sothanaphan (post 5115); the Lean texts have not
+been built in this corpus, so the accepted claim page lists `reviewed` and
+`refereed` and no `formalized` evidence. (2) The Statement (lower density) is
+answered by the variant; whether $A+B$ has positive upper density is open in the
+collection's file. (3) The acceptance evidence is the curator's record and
+reconstruction on the site and the refereed publication of [TKS26]; this corpus
+has not reviewed the argument. (4) The dates of the paper's Lean file (a May
+2026 commit) and the pinned collection commit (30 March 2026) are the files'
+own; no earlier artifact is known.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -221,6 +234,8 @@ March 2026) are the files' own; no earlier artifact is known.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_125|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_125]]
 - [[../library/diophantine_problems/burr_1996_complete_sequences_sets_integer_powers/_index|burr_1996_complete_sequences_sets_integer_powers]]
 - [[../library/diophantine_problems/hasler_2024_sums_distinct_powers_3_4/_index|hasler_2024_sums_distinct_powers_3_4]]
 - [[../library/diophantine_problems/hasler_2024_sums_distinct_powers_3_4/lemma_3|hasler_2024_sums_distinct_powers_3_4 / lemma_3]]

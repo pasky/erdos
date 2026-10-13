@@ -345,6 +345,8 @@ Explicit links to this subject's problems support these cross-references.
 
 - [[additive_combinatorics/brown_1990_quasi_progressions_descending_waves/_index|brown_1990_quasi_progressions_descending_waves]]
   - [[../wiki/problems/diophantine_problems/E0782/_index|E0782]]
+- [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+  - [[../wiki/problems/diophantine_problems/E0125/_index|E0125]]
 - [[arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]]
   - [[../wiki/problems/diophantine_problems/E0676/_index|E0676]]
 - [[distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|feng_2026_semi_autonomous_mathematics_discovery_gemini_case]]

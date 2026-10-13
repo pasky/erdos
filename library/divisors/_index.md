@@ -206,6 +206,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/divisors/E1100/_index|E1100]]
 - [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|erdos_sarkozy_1992_arithmetic_progressions_subset_sums]]
   - [[../wiki/problems/divisors/E0882/_index|E0882]]
+- [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+  - [[../wiki/problems/divisors/E0026/_index|E0026]]
 - [[arithmetic_functions/erdos_1985_problems_results_number_theory/_index|erdos_1985_problems_results_number_theory]]
   - [[../wiki/problems/divisors/E0945/_index|E0945]]
 - [[arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions/_index|erdos_1987_locally_repeated_values_certain_arithmetic_functions]]

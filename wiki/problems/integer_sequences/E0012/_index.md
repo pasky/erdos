@@ -4,8 +4,8 @@ title: Problem 12
 desc: |
   Asks how large an infinite set with no element dividing the sum of two larger
   elements can be, in terms of its counting function, its density and its
-  reciprocal sum. The first two questions have claimed answers from 2026, and
-  the reciprocal-sum question is open.
+  reciprocal sum. The first two questions are answered by a refereed
+  construction of 2026, and the reciprocal-sum question is open.
 tags:
 - Number theory
 status: open
@@ -63,22 +63,24 @@ the third whether the reciprocal sum always converges.
 
 **Status.** Open; the site's label was OPEN. The standing derives from the
 problem's three parts. The first two, the liminf and density questions, are
-answered by pending claims. The third, the reciprocal sum, has no standing
-claim.
+answered by an accepted claim and a pending one. The third, the reciprocal
+sum, has no standing claim.
 
 There are sets with property P and
 $|A\cap\{1,\ldots,N\}|\ge N/(\log N)^{O(\log\log\log N)}$ for all large $N$.
 This answers the first question yes and the second no. The construction is
-credited to DeepMind's automated prover. It was simplified and sharpened in the
-thread (7--9 April 2026). It is recorded in the commentary that the site's
-curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's label was
-OPEN. Formal proofs of the first two parts sit in a fork of the
-formal-conjectures collection at pinned commits (not built by this corpus). The
-result is recorded as a pending partial claim on
+credited to DeepMind's automated prover, AlphaProof Nexus. It was simplified and
+sharpened in the thread (7--9 April 2026). It is recorded in the commentary that
+the site's curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's
+label was OPEN. Formal proofs of the first two parts sit in a fork of the
+formal-conjectures collection at pinned commits and in DeepMind's results
+repository (none built by this corpus). The result is recorded as an accepted
+partial claim on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
-It is recorded this way because the commentary credits the result but the label
-settles neither question, and because the named-author preprint that reports the
-formal proofs, [TKS26], of May 2026 and revised June 2026, is unrefereed.
+Its acceptance is the refereed publication of the named-author paper that
+reports the formal proofs and proves both answers, [TKS26] (Science, October
+2026; arXiv May 2026, revised June 2026), not the commentary's credit, since
+the label settles neither question.
 
 Nat Sothanaphan's note of 8 April 2026 gives its own construction answering the
 same two questions. The note was produced with GPT-5.4 Thinking and linked in
@@ -171,10 +173,16 @@ Erdős Problem #12, https://www.erdosproblems.com/12, accessed 2026-09-18.
   (1998), 169--180. Not held (paywalled).
 - [TKS26] Tsoukalas, G., Kovsharov, A., Shirobokov, S. and eighteen
   further authors, Advancing mathematics research with AI-driven formal
-  proof search. arXiv:2605.22763 (v1 21 May 2026; v2 8 June 2026); Table 1 of
-  Section 3 (v2) lists parts (i) and (ii) of this problem among the nine
-  Erdős problems its agent resolved, and Appendix B.4 gives informal
-  proofs of the first two questions.
+  proof search. Science 394 (2026), 234--239, DOI 10.1126/science.aej2213;
+  arXiv:2605.22763 (v1 21 May 2026; v2 8 June 2026). Table 1 of Section 3
+  (v2) lists parts (i) and (ii) of this problem among the nine Erdős problems
+  its agent resolved, and Appendix B.4 gives informal proofs of the first two
+  questions. Library home:
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]];
+  result pages
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_12_i|Erdős #12-(i)]]
+  and
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_12_ii|Erdős #12-(ii)]].
 - [So26] Sothanaphan, N., A compact block construction for parts 1 and 2 of
   Erdős Problem 12. Note dated 8 April 2026, 6 pp., produced with GPT-5.4
   Thinking as its disclosure states, linked in the site's thread on 7 April
@@ -334,16 +342,20 @@ constructions nearly optimal. The construction and the site's credit are
 recorded on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 The curator's commentary of 8 April 2026 credits the result and the thread
-endorses it, but the problem's label was OPEN and settles neither question, so
-the claim is pending; the formal proofs in the fork (below) were not built.
+endorses it, but the problem's label was OPEN and settled neither question, so
+that credit is not acceptance; the claim is accepted on the refereed
+publication of [TKS26], and the formal proofs (below) were not built.
 Provenance: the site names DeepMind; the arguments are attributed to
 an automated prover, and the thread's informal proofs are derived from its Lean
-proofs by the people named above. The preprint [TKS26] by twenty-one named
-authors, whose abstract reports that an autonomous agent "resolved 9 of 353 open
-Erdős problems" by formal proof search, is the named-author report of this work:
-Table 1 of its Section 3 (v2) lists parts (i) and (ii) of this problem among the
-nine problems resolved, Section 3 discusses the first question, and Appendix B.4
-gives informal proofs of the first two questions derived from the Lean proofs.
+proofs by the people named above. The paper [TKS26] by twenty-one named
+authors, published in Science in October 2026, whose arXiv abstract reports
+that an autonomous agent "resolved 9 of 353 open Erdős problems" by formal
+proof search, is the named-author report of this work and names the prover
+AlphaProof Nexus: Table 1 of its Section 3 (v2) lists parts (i) and (ii) of
+this problem among the nine problems resolved, Section 3 discusses the first
+question, and Appendix B.4 gives informal proofs of the first two questions
+derived from the Lean proofs. The Science text and its supplement were not
+read; the account follows arXiv v2.
 Read depth of the constructions: the informal arguments have not been checked
 step by step, and the two Lean files have not been built.
 
@@ -355,7 +367,14 @@ at line 740 from a lemma `cilleruelo_dense_good_set`, again with ten `sorry`
 elsewhere. Neither file declares an axiom or uses `native_decide`; neither was
 built or kernel-checked here, no statement-fidelity review exists, and the
 `IsGood` predicate of the collection (distinct larger elements) was compared
-with the site's wording as stated under Formulation.
+with the site's wording as stated under Formulation. The Lean files that
+[TKS26] links, `erdos_12.parts.i.lean` (1,237 lines) and
+`erdos_12.parts.ii.lean` (794 lines) in DeepMind's results repository, pinned
+on the claim page at its commit of 2026-05-13, prove the same two
+formal-conjectures statements as `target_theorem_0` by different files; the
+first builds its set from congruence conditions alone, without the
+progression-free blocks the paper's prose describes. They were read statically,
+not built.
 
 **The third question.** Open. Every construction above has
 $\sum_{n\in A}1/n<\infty$; the thread's barrier remark says why congruence
@@ -374,9 +393,9 @@ on
 a rejected partial claim that does not change the standing; the rest of the
 argument has not been examined.
 
-**Search scope.** None of the routes below found a
-refereed account of the 2026 constructions, a proof or disproof of the
-reciprocal-sum question, or a bound for general sets beyond those above.
+**Search scope.** The routes below found one refereed account of the 2026
+constructions, [TKS26], and no proof or disproof of the reciprocal-sum
+question or bound for general sets beyond those above.
 
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit and the two fork files at their
@@ -388,7 +407,7 @@ reciprocal-sum question, or a bound for general sets beyond those above.
   records, both already recorded in the library) and `abs:"non-dividing" OR abs:"nondividing" OR all:"divides the sum of two larger"`
   (twelve records, none new).
 - Crossref: the records of [ElPl17], [Sc01] (open-access license from
-  2013) and [ErSa70].
+  2013), [ErSa70] and the Science DOI of [TKS26].
 - Semantic Scholar: the citation lists of [ElPl17] and of Bedert 2023 (no
   records returned).
 - The primary sources at the pages cited: [ErSa70] pp. 97--98, [Er73]
@@ -399,13 +418,13 @@ reciprocal-sum question, or a bound for general sets beyond those above.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er95c],
 [Er97], [Er97e], [Er98].
 
-**Remaining gaps.** (1) The answers to the first two questions rest on forum
-comments and on Lean files in a fork, not built by this corpus, with the site's
-commentary credit recorded on the claim page; a refereed or independently
-reviewed account would remove the qualification. (2) The third question is open;
-the only claim on it rests on a false declared axiom and is rejected. (3) Four
-Erdős problem papers the site cites are not held; [Er97b] restates the three
-questions without new results. (4) Proofs are compiled as statements only,
+**Remaining gaps.** (1) The answers to the first two questions rest on the
+refereed publication of [TKS26], whose Science text and supplement were not
+read here (the account follows arXiv v2), and on Lean files not built by this
+corpus; this corpus has not reviewed the arguments. (2) The third question is
+open; the only claim on it rests on a false declared axiom and is rejected.
+(3) Four Erdős problem papers the site cites are not held; [Er97b] restates the
+three questions without new results. (4) Proofs are compiled as statements only,
 except Schoen's, followed step by step but not independently reviewed.
 <!-- BEGIN problem library links -->
 
@@ -416,6 +435,9 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]]
 - [[../library/additive_combinatorics/erdos_1975_problems_results_combinatorial_number_theory/_index|erdos_1975_problems_results_combinatorial_number_theory]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_12_i|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_12_i]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_12_ii|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_12_ii]]
 - [[../library/integer_sequences/baier_2004_6/_index|baier_2004_6]]
 - [[../library/integer_sequences/baier_2004_6/theorem|baier_2004_6 / theorem]]
 - [[../library/integer_sequences/elsholtz_2017_erdos_sarkozy_s_sequences/_index|elsholtz_2017_erdos_sarkozy_s_sequences]]
