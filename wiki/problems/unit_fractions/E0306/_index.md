@@ -338,8 +338,8 @@ three comments (29 September to 3 October 2026) are an exchange with Tang,
 who welcomes the proof, reports simplifying their own and publishes their August
 manuscript (recorded on
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's claim page]]);
-none is a review. The site labeled the problem OPEN (page last edited 21 June
-2026, accessed 2026-10-07).
+none is a review. The site labeled the problem OPEN; its page, accessed
+2026-10-07, was last edited 21 June 2026.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

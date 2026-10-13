@@ -284,11 +284,11 @@ is recorded above. The later development for the uniqueness variant is
 recorded under Formalization.
 
 **Leads (not status).** The Semantic Scholar citation list of [Ho13] (six
-records, titles only): [ChNo16] itself, [ChNo17], "Embedding
-graphs in Euclidean space" (Frankl, Kupavskii and Swanepoel; J. Combin.
-Theory Ser. A 2020, arXiv:1802.03092), "On the Euclidean dimension of
-graphs" (arXiv:1501.00204) and a 2020 thesis on combinatorial geometry; none
-disputes the value $9$ by its title.
+records, titles only, 2026-09-18): [ChNo16] itself, [ChNo17], "Embedding graphs
+in Euclidean space" (Frankl, Kupavskii and Swanepoel; J. Combin. Theory Ser. A
+2020, arXiv:1802.03092), "On the Euclidean dimension of graphs"
+(arXiv:1501.00204) and a 2020 thesis on combinatorial geometry; none disputes
+the value $9$ by its title.
 
 **Search scope.** None of the routes below found a dispute
 of the value $9$, a retraction, or a second determination.

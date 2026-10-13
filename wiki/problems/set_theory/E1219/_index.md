@@ -29,15 +29,15 @@ $$
 \sum_{k} 2^{\aleph_{n_k}}\to (\aleph_\omega)^2?
 $$
 
-**Status.** Proved. The site's label was PROVED (page last edited 1 September
-2026, accessed 2026-10-07), and its remark credits the proof to Shelah [Sh75].
-The frontmatter standing is derived from the accepted claim page
+**Status.** Proved. The site's remark (page last edited 1 September 2026,
+accessed 2026-10-07) credits the proof to Shelah [Sh75], and its label was
+PROVED. The frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E1219/claims/1975_01_01_shelah|Shelah's proof of the partition relation]].
 
 **Source.** [erdosproblems.com/1219](https://www.erdosproblems.com/1219),
-accessed 2026-10-07 (PROVED; last edited 1 September 2026; no comments and
-no proof claims). Cite as: T. F. Bloom, Erdős
-Problem #1219, https://www.erdosproblems.com/1219.
+accessed 2026-10-07 (last edited 1 September 2026; no comments); the page's
+last label was PROVED, and it carried no proof claims. Cite as: T. F. Bloom,
+Erdős Problem #1219, https://www.erdosproblems.com/1219.
 
 **References.**
 

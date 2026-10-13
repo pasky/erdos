@@ -163,8 +163,8 @@ claim pages as thread posts, not as review evidence. The proof-claims tab
 is empty. No proof is reconstructed in this repository and no independent
 review is recorded.
 
-**Search scope.** The site's problem page, its discussion thread and
-proof-claims tab, and the community database (2026-10-07); the two notes
+**Search scope.** The site's problem page, its discussion thread and the
+community database (2026-10-07), and its proof-claims tab; the two notes
 and Oriike's Lean file at the revisions the claim pages link; arXiv for
 the announced joint paper (2026-10-07, none found).
 

@@ -251,7 +251,7 @@ correct, that the lower bound is from the earlier work the claim cites and
 that the upper bound follows at once from the resolution of Problem 320. The
 claim page is
 [[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]].
-The Overleaf read link served no document to a request; the Lean
+The Overleaf read link served no document to a request on 2026-09-18; the Lean
 file's content is described on Problem 320 and contains no theorem about the
 order of $R(N)$ beyond the finite dissociation bridge. No refereed publication
 or independent review was found.

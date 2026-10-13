@@ -41,7 +41,7 @@ preprint's. Read status: claims checked for Definition 1, Lemma 1.1,
 displays (1.2) and (1.3), Theorem 1 and Corollary 1 (pp. 2--4), each read
 clause by clause on the page images and in the text layer, with the proof of
 Lemma 1.1 read in full; the proof of (1.2) (Sections 3--8, pp. 8--39) was not
-read. The rest of the digest records an earlier reading that was not repeated.
+read. The rest of the digest was not checked against the page images.
 
 Theorem 1 shows that G(X) = max_{p_{n+1} <= X} (p_{n+1} - p_n) is at least of
 order log X log_2 X log_4 X / log_3 X for large X, with an effective constant,

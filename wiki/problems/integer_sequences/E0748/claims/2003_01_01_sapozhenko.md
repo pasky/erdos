@@ -52,7 +52,7 @@ pages, announced the result in Doklady Akademii Nauk, also a refereed journal.
 Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
 labeled the problem PROVED. The commentary credits the result to Green and
 Sapozhenko independently. The commentary was accessed 2026-09-05 and 2026-10-07,
-and the discussion thread and the proof-claim tab were empty both times.
+the discussion thread was empty both times, and the proof-claim tab was empty.
 
 Neither paper is held in this repository, and neither was read. The statement on
 this page is taken from the site's commentary and from bibliographic records:

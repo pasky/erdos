@@ -198,16 +198,15 @@ independently verified in this repository.
 (335945 bytes), and
 [complete v0.4.2 release archive](evidence/assets/formalization.zip) (775594
 bytes), retrieved from the
-[tagged GitHub release](https://github.com/ritabe-dev/ErdosProblem274-AtLeast18/releases/tag/v0.4.2-review-candidate)
-on 2026-09-21. The archive is pinned to commit
-`40865c8c79c37fe5a9b8224fedfb52a765f84baf` and contains the manuscript source,
-complete Lean project, generated certificates, search programs, and verification
-records. The PDF prints no license line of its own; it ships inside the release
-archive retained beside it, whose LICENSE file reads "MIT License / Copyright
-(c) 2026 Rio Itabe" and whose README states "Original code and text are
-available under the MIT License. Third-party source records remain subject to
-their original terms.", the text clause covering the manuscript, and GitHub's
-record of the repository reports the license as MIT (read 2026-10-02): the MIT
-License.
+[tagged GitHub release](https://github.com/ritabe-dev/ErdosProblem274-AtLeast18/releases/tag/v0.4.2-review-candidate).
+The archive is pinned to commit `40865c8c79c37fe5a9b8224fedfb52a765f84baf` and
+contains the manuscript source, complete Lean project, generated certificates,
+search programs, and verification records. The PDF prints no license line of its
+own; it ships inside the release archive retained beside it, whose LICENSE file
+reads "MIT License / Copyright (c) 2026 Rio Itabe" and whose README states
+"Original code and text are available under the MIT License. Third-party source
+records remain subject to their original terms.", the text clause covering the
+manuscript, and GitHub's record of the repository reports the license as MIT
+(read 2026-10-02): the MIT License.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0274/_index|Problem 274]].

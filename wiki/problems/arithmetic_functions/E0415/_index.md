@@ -114,8 +114,8 @@ The manuscripts are unrefereed and the site's commentary credits only the
 April sketch, so the claim is `claimed`; the derived standing is claimed,
 disproved.
 
-**Search scope.** The site's page, its discussion thread and its proof-claims
-tab (empty on 2026-10-07), the two manuscripts linked from the thread,
+**Search scope.** The site's page, its discussion thread and its empty
+proof-claims tab, the two manuscripts linked from the thread,
 the author manuscript of [PPT13], and p. 82 of [ErGr80]; no other literature
 search was made, and no proof was independently assessed.
 

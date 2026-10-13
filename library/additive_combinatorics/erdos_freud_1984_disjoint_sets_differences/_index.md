@@ -59,7 +59,8 @@ statement below was read on the page images. The publisher's record is
 any form reserved." in the footer of p. 99, every other right reserved;
 the archive's site footer speaks for the site, not the paper ("(C)
 2005-2007 All rights reserved. All material on this site is for
-scientifics [sic] purposes only.", <https://users.renyi.hu/~p_erdos/>).
+scientifics [sic] purposes only.", <https://users.renyi.hu/~p_erdos/>, read
+2026-10-07).
 
 Read status: claims checked for the abstract and introduction with the
 quoted question of [2, p. 50] and the counterexample (pp. 99--100), the

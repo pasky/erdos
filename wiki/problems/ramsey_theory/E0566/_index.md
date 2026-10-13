@@ -97,7 +97,7 @@ openness.
 2026-09-17: the problem page (OPEN, with the site's note that no finite
 computation can resolve it; last edited 18 January 2026; source key [EFRS93];
 listed as implying Problem 567), its empty discussion thread and its proof-claim
-tab, empty as refreshed on 2026-09-17T15:40Z and, on 2026-10-07, carrying one
+tab, empty as refreshed on 2026-09-17T15:40Z and later carrying one
 proof claim, submitted 29 September 2026 and partial by its own summary. Cite
 as: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accessed
 2026-09-17.

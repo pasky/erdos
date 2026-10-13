@@ -134,9 +134,10 @@ $a!\,b!\mid n!$ and small constants only, and the authors of [EGRS75] left
 the question as a remark without a conjecture.
 
 Search scope: the site's problem page, its discussion thread, the community
-database, the formal-conjectures file and Alexeev's repository. On 2026-10-07
-the thread held 87 comments, the site listed no proof claim for the problem,
-and the forum carried no claim beyond those recorded on the claim pages.
+database, the formal-conjectures file and Alexeev's repository. The site
+listed no proof claim for the problem; on 2026-10-07 the thread held 87
+comments, and the forum carried no claim beyond those recorded on the claim
+pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

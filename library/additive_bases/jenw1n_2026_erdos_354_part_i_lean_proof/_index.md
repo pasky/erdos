@@ -53,10 +53,9 @@ declares no author and no AI system.
 **Provenance of the proof file.**
 <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>
 (the page `.../solution` shows the first 500 of its lines), fetched (HTTP 200);
-485,414 bytes, 10,152 lines; two other fetches on the same day (02:41 and 03:49
-UTC) returned identical bytes. Header: "A proof of the full Erdős
-354(levelIndex) proposition" (the "(levelIndex)" is a mechanical rename of an
-identifier `i`). The file is 130 sections, each headed
+485,414 bytes, 10,152 lines; two other fetches returned identical bytes. Header:
+"A proof of the full Erdős 354(levelIndex) proposition" (the "(levelIndex)" is a
+mechanical rename of an identifier `i`). The file is 130 sections, each headed
 `/- Source: <name>.lean -/`, from `DigitTransport.lean` to `FullTarget.lean`,
 all in the namespace `Erdos354Formal`, with the final `theorem target` at line
 10148.

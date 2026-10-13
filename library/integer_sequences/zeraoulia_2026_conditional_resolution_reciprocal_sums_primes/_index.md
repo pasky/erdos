@@ -25,8 +25,8 @@ issued 11 August 2026, CC BY 4.0,
 The record's file `EGRS_Conditional_Resolution.pdf` was not retrieved:
 zenodo.org answered the record page, its API and the file download with
 HTTP 403 ("unusual traffic") on 2026-09-27, so its size is not recorded and
-no copy was read. The bibliographic data above are the
-DataCite metadata of the DOI.
+no copy was read. The bibliographic data above are the DataCite metadata of the
+DOI, read 2026-09-27.
 
 Scope, from the record's abstract and the erdosproblems.com proof-claims
 thread: for $S(n)=\sum 1/p$ over the primes $p\le n$ with $n\bmod p>p/2$, the

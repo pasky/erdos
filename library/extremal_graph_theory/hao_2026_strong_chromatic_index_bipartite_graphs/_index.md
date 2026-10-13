@@ -33,11 +33,10 @@ Institute of Technology (p. 12).
 [folder-name PDF](hao_2026_strong_chromatic_index_bipartite_graphs.pdf) is the
 arXiv v2 text (the arXiv stamp "arXiv:2606.23824v2 [math.CO] 23 Jul 2026" on p.
 1; 12 letter-size pages, a clean text layer), retained from the repository's
-survey download set of September 2026 (retrieval date of the set not recorded);
-its arXiv address is <https://arxiv.org/abs/2606.23824v2>. Provenance: the
-survey download set, 346,985 bytes. The arXiv record
-(https://arxiv.org/abs/2606.23824, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+survey download set of September 2026; its arXiv address is
+<https://arxiv.org/abs/2606.23824v2>. Provenance: the survey download set,
+346,985 bytes. The arXiv record (https://arxiv.org/abs/2606.23824, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract and the introduction's
 history paragraph (p. 1), the bipartite conjectures, Conjecture 1.1 and

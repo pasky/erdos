@@ -49,10 +49,10 @@ nothing in the truth of the negative answer.
 least common multiples*, arXiv:2407.04226v5 (11 November 2025, 20 pp.; the copy
 read, whose running head reads "INTEGERS: 24 (2024)"); Theorem 1 on pp. 4--5 =
 PDF pp. 4--5, read in the text layer and on the page images. Published as
-Integers 24 (2024), paper A100 (the journal's volume page; the journal text was
-not compared, and the arXiv comment on v5 says it adds an appendix with an
-argument of Will Sawin matching the upper bound to the lower bound after a typo
-correction).
+Integers 24 (2024), paper A100 (the journal's volume page, read 2026-09-18; the
+journal text was not compared, and the arXiv comment on v5 says it adds an
+appendix with an argument of Will Sawin matching the upper bound to the lower
+bound after a typo correction).
 
 **Read depth.** Claims checked: the statement, the notation of p. 1 and the
 optimality sentence were read clause by clause on the page images of

@@ -259,7 +259,7 @@ asserts rather than proves in the cited sources. Acceptance evidence: the site's
 label and commentary; the community database's `proved`, as of its last update
 on 1 February 2026; the paper is an arXiv preprint (v3, 9 February 2021) with no
 journal reference on its listing, no Crossref record and no published version
-among its seven citing records in the citation index, so the path
+among its seven citing records in the citation index (2026-09-18), so the path
 half rests on a preprint accepted by the site's curator, listed as reviewed on
 its claim page. Read depth: Theorem 1, the definitions and the quoted Turán
 inputs (pp. 1--2) and Corollaries 5--6, footnote 1 and the Remark (pp. 2--3) are
@@ -286,7 +286,7 @@ Corollary 1 (p. 353), whose printed statement carries a minus sign between
 $\frac{p-2}2$ and $\frac1{p-1}$ where the abstract and the introduction (p. 343)
 have the plus sign that the formula gives, a misprint recorded on the result
 page. Its citation record is large (98 citing works per OpenAlex; 27 Semantic
-Scholar records, scanned by title: anti-Ramsey numbers of cycles
+Scholar records, scanned by title on 2026-09-18: anti-Ramsey numbers of cycles
 in prisms, plane triangulations and outerplanar graphs, of matchings and
 forests, surveys, and a 2021 "short proof of anti-Ramsey number for cycles" in a
 journal not otherwise indexed here; none disputes the formula). In the earlier

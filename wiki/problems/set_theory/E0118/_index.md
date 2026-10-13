@@ -85,8 +85,9 @@ and Larson's carry the curator's credit alone: each account rests on the paper's
 journal record, on Schipperus's report (p. 1197) and, for Darby, on Erdős 1995
 §1, and each rests on Schipperus's proof of the positive relation for the half
 those sources do not supply. [HST10], Chapter 2.9, gives the background. Search
-scope: the site's problem page, discussion thread and proof-claims page, which
-carried no further claim on 2026-10-07. Nothing on this page is independently
+scope: the site's problem page, discussion thread and proof-claims page; the
+proof-claims page carried no further claim, and on 2026-10-07 the page and
+thread carried none. Nothing on this page is independently
 reviewed.
 <!-- BEGIN problem library links -->
 

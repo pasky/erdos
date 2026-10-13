@@ -101,9 +101,9 @@ infinitely many $n$, concentration on one value for almost all $n$ is not
 excluded either, so the second question stays open.
 
 Search scope: the site's problem page (last edited 27 January 2026), its
-discussion thread and proof-claims tab (no proof claim), the community
-database (no formalized statement), formal-conjectures (no file for Problem
-1156) and arXiv, accessed 2026-10-07.
+discussion thread, the community database (no formalized statement),
+formal-conjectures (no file for Problem 1156) and arXiv, accessed 2026-10-07,
+and the site's proof-claims tab (no proof claim).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

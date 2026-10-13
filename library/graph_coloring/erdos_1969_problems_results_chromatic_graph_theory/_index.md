@@ -64,15 +64,15 @@ clause on the page image for Problem 925) and for the Moon--Moser clique-sizes
 passage on printed p. 34 (PDF p. 8), read clause by clause on the page image for
 Problem 927, and for the Pósa--Lewin passage on circuits with diagonals that
 follows it on printed p. 34 (PDF p. 8), read clause by clause on the page image
-for Problem 767; the rest of the digest was not read clause by clause. The scan
-prints at the head of its first page "REPRINTED FROM PROOF
-TECHNIQUES IN GRAPH THEORY © 1969 ACADEMIC PRESS INC. NEW YORK", a copyright
-notice that names no license; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
-"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only."); the 1969 Academic Press volume has no online edition or
-publisher page, so the publisher's page was not consulted and no Crossref
-license is recorded; by the printed notice the term is reserved.
+for Problem 767; the rest of the digest was not checked against the page images.
+The scan prints at the head of its first page "REPRINTED FROM PROOF TECHNIQUES
+IN GRAPH THEORY © 1969 ACADEMIC PRESS INC. NEW YORK", a copyright notice that
+names no license; the hosting archive's site footer speaks for the site, not the
+paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007
+All rights reserved. All material on this site is for scientifics purposes
+only."); the 1969 Academic Press volume has no online edition or publisher page,
+so the publisher's page was not consulted and no Crossref license is recorded;
+by the printed notice the term is reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1969-13.pdf>.
 

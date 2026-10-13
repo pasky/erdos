@@ -82,8 +82,8 @@ Read status: claims checked for the notation paragraph defining C =
 clause by clause on the rendered page images (printed p. n = PDF p. n-376;
 the OCR is rough); the printed form of (5) is f(n;C) <= O(n^{8/5}), which
 the digest writes as an equality of orders; the proofs of Theorems 1 and 2
-were not read; the rest of the digest records an earlier reading that was not
-repeated here. Claims checked also for Definition 1 and Theorem 1 with its
+were not read; the rest of the digest was not checked against the page images.
+Claims checked also for Definition 1 and Theorem 1 with its
 Corollary (pp. 379--380 = PDF pp. 3--4) and for the two open problems closing
 the paper (pp. 388--389 = PDF pp. 12--13), read clause by clause on the rendered
 page images: the theorem prints $e(G^n)\ge n^{1+\alpha}$ and

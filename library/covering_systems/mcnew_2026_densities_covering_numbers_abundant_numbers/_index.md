@@ -47,11 +47,11 @@ numbers*, *Mathematics of Computation*, published online 22 June 2026,
 The copy read for this card
 is **arXiv:2507.23041v2, 10 February 2026**, 25 pages.
 
-The [author's current PDF](https://www.nathanmcnew.com/covering.pdf), is a
-separate version. Its extracted text was compared with v2 to locate version
-differences; this is not a full mathematical equivalence audit. The publisher
-and DOI metadata confirm publication, but the journal PDF requires an
-unavailable login and has not been acquired. All theorem labels and page
+The [author's current PDF](https://www.nathanmcnew.com/covering.pdf), read on
+2026-09-05, is a separate version. Its extracted text was compared with v2 to
+locate version differences; this is not a full mathematical equivalence audit.
+The publisher and DOI metadata confirm publication, but the journal PDF requires
+an unavailable login and has not been acquired. All theorem labels and page
 citations below refer to v2. For the arXiv v2 PDF, the arXiv record names
 arXiv's non-exclusive distribution license (arXiv:2507.23041), every other right
 reserved. The author's PDF prints no copyright or license line; the author's

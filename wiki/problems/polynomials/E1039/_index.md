@@ -124,8 +124,8 @@ is `claimed`/`answered`, through the pending full claim of Geng and Qiu; the
 accepted claims are partial.
 
 Search scope: the site's problem page as exported (last edited 27 December
-2025), its discussion thread (16 comments) and proof-claims tab (both read
-2026-10-07), the community database entry (open), the arXiv record of the
+2025), its discussion thread (16 comments, read 2026-10-07) and proof-claims
+tab, the community database entry (open), the arXiv record of the
 Geng–Qiu preprint, and the GitHub repositories linked from the thread and
 the tab; no formal-conjectures statement exists and no OpenAI release item
 names this problem. MathSciNet and zbMATH were not searched and X was not

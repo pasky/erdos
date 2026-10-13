@@ -64,8 +64,8 @@ is recorded here.
 (arXiv 2005, *Inventiones Mathematicae* 2009), refereed and credited by the
 site's curator; the claim page records the directed statement and the
 bidirected-edge transfer to the undirected question. No other claim on the
-problem is recorded: on 2026-10-07 the site's thread showed no comments and
-its proof-claims page no claims, and the formal-conjectures file holds
+problem is recorded: the site's proof-claims page showed no claims, on
+2026-10-07 its thread showed no comments, and the formal-conjectures file holds
 statements only.
 
 ## Progress

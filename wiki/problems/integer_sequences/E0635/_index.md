@@ -81,6 +81,6 @@ database (teorth/erdosproblems) lists the problem as open and records no
 formalized statement. The site's proof-claim tab lists no claims.
 
 Search scope: the site's problem page (last edited 1 February 2026) and
-discussion thread (six comments and no proof claims on 2026-10-07), the
+discussion thread (six comments on 2026-10-07; no proof claims), the
 community database, the formal-conjectures repository and the reference listed
 above. On that date none of them held another claim on the problem.

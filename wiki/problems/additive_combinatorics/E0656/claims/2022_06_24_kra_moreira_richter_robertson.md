@@ -75,9 +75,9 @@ Mathematical Society 4 (2024), 480--494, doi:10.1090/cams/34, issued 1 August
 2024 (Crossref record accessed 2026-10-07). The acknowledgements thank the
 anonymous referee.
 
-Reviewed: the site's curator (T. F. Bloom) labeled the problem proved and states
-that it was proved by Kra, Moreira, Richter and Robertson, citing [KMRR24]
-(erdosproblems.com/656, page last edited 7 April 2026, accessed 2026-10-07).
+Reviewed: the site's curator (T. F. Bloom) states that the problem was proved by
+Kra, Moreira, Richter and Robertson, citing [KMRR24] (erdosproblems.com/656,
+page last edited 7 April 2026, accessed 2026-10-07), and labeled it proved.
 
 The preprint is arXiv:2206.12377. Its v1 was posted 24 June 2022, the date of
 this page. The text cited here is dated 7 November 2023, and the journal text

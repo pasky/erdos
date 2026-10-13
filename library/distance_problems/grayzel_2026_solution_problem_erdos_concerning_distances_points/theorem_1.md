@@ -27,9 +27,9 @@ The implicit constant is independent of $n$.
 **Source.** Grayzel, *Solution to a Problem of Erdős Concerning Distances and
 Points*,
 arXiv:2601.09102v2, Theorem 1 on p. 1. The construction and global proof are on
-pp. 1--2; the local proof is on pp. 3--4. The official arXiv history identifies
-v2 from 16 January 2026 as the latest version. The edition read is identified on
-the
+pp. 1--2; the local proof is on pp. 3--4. The official arXiv history, checked
+2026-09-06, identified v2 from 16 January 2026 as the latest version. The
+edition read is identified on the
 [[distance_problems/grayzel_2026_solution_problem_erdos_concerning_distances_points/_index|source card]].
 
 **Dependencies and scope.**

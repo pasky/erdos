@@ -46,9 +46,10 @@ Problem 860, outside this page).
 
 **Source.** P. Erdős, *Some of my forgotten problems in number theory*,
 Hardy-Ramanujan J. 15 (1992), 34--50, DOI 10.46298/hrj.1992.125 (the
-journal's open-access record at <https://hrj.episciences.org/125>); Section 1 on
-printed pp. 34--36 (PDF pp. 1--3 of the retained 17-page file), read on the page
-images because the text layer garbles the displays.
+journal's open-access record at <https://hrj.episciences.org/125>, read
+2026-09-18); Section 1 on printed pp. 34--36 (PDF pp. 1--3 of the retained
+17-page file), read on the page images because the text layer garbles the
+displays.
 
 **Read depth.** Claims checked: the definitions, displays (2)--(6) and the
 three offers were read clause by clause on the page images of pp. 35--36.

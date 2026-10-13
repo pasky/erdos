@@ -175,10 +175,9 @@ $$
 All three introductory pages were visually inspected, including this
 statement and the definition. The proof in §5 uses the anchored
 subfamilies introduced in §3 and the embedding lemmas for subdivisions
-proved in §4; it has not been reconstructed here. The current primary
-record, still lists only v1 and no journal reference.
-This is progress before the September resolution, not a later
-strengthening of it.
+proved in §4; it has not been reconstructed here. The primary record, checked
+2026-09-05, still listed only v1 and no journal reference. This is progress
+before the September resolution, not a later strengthening of it.
 
 ## Related questions and remaining historical coverage
 

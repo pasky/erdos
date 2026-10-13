@@ -19,14 +19,14 @@ Karl K. Norton, *On the frequencies of large values of divisor functions*,
 *Acta Arithmetica* **68** (1994), no. 3, 219–244,
 [DOI 10.4064/aa-68-3-219-244](https://doi.org/10.4064/aa-68-3-219-244).
 The [canonical published PDF](norton_1994_frequencies_large_values_divisor_functions.pdf)
-was acquired from the [journal archive](https://matwbn.icm.edu.pl/ksiazki/aa/aa68/aa6833.pdf)
-on 2026-09-05. The file's text layer carries no copyright or license line; the
-publisher's record (https://www.impan.pl/get/doi/10.4064/aa-68-3-219-244, read
-2026-10-02) offers the PDF under the link "Pobierz zgodnie z CC-BY" ("Free
-download under CC-BY license" on the English site), a Creative Commons
-Attribution license whose version the record does not name; the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+was acquired from the
+[journal archive](https://matwbn.icm.edu.pl/ksiazki/aa/aa68/aa6833.pdf). The
+file's text layer carries no copyright or license line; the publisher's record
+(https://www.impan.pl/get/doi/10.4064/aa-68-3-219-244, read 2026-10-02) offers
+the PDF under the link "Pobierz zgodnie z CC-BY" ("Free download under CC-BY
+license" on the English site), a Creative Commons Attribution license whose
+version the record does not name; the site footer "Copyright © 2026 by IMPAN.
+All rights reserved." speaks for the site, not the article.
 
 The [[number_theory/norton_1994_frequencies_large_values_divisor_functions/theorem_1_11|ordinary-divisor specialization of Theorem 1.11]]
 is recorded as an exact external input. Its full proof is not yet compiled.

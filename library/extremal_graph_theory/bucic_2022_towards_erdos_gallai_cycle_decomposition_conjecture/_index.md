@@ -55,12 +55,12 @@ Source: <https://arxiv.org/abs/2211.07689>.
 version, accepted for publication" (record read 2026-09-18), 26 pages with a
 text layer; the digest's citation year 2022 is the year of v1. The paper
 appeared as Advances in Mathematics 437 (2024), Paper No. 109434,
-doi:10.1016/j.aim.2023.109434 (Crossref record read: issued February 2024,
-record created 1 December 2023), after an extended abstract in the Proceedings
-of the 55th Annual ACM Symposium on Theory of Computing (STOC 2023), pp.
-839--852, doi:10.1145/3564246.3585218; neither is held and neither was compared,
-and the locators below are the preprint's, whose printed and PDF pages agree.
-The arXiv record names arXiv's non-exclusive distribution license
+doi:10.1016/j.aim.2023.109434 (Crossref record read 2026-09-18: issued February
+2024, record created 1 December 2023), after an extended abstract in the
+Proceedings of the 55th Annual ACM Symposium on Theory of Computing (STOC 2023),
+pp. 839--852, doi:10.1145/3564246.3585218; neither is held and neither was
+compared, and the locators below are the preprint's, whose printed and PDF pages
+agree. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2211.07689), every other right reserved.
 
 Read status: claims checked for Conjecture 1 (p. 1), Theorem 2 (p. 2) and

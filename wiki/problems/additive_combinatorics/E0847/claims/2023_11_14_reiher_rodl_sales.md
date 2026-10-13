@@ -72,7 +72,7 @@ Paper No. e12987, 24 pp., doi:10.1112/jlms.12987, published online 2024-10-10
 
 Reviewed: the site's curator, Thomas Bloom, labeled the problem disproved and
 credits the negative answer to Reiher, Rödl and Sales [RRS24] (page last edited
-2026-01-27; on 2026-10-07 the proof-claim tab is empty). The site's thread
+2026-01-27; the proof-claim tab was empty). The site's thread
 records how the label came about. A comment of 2026-01-19 reported a response of
 GPT 5.2 Pro that identified the paper as a negative solution. A second comment
 of the same day (Nat Sothanaphan) confirmed that Theorem 1.4 with $k=3$ gives

@@ -98,7 +98,7 @@ proof. This corpus has not built, kernel-checked or audited either file, so
 no `formalized` evidence is listed.
 
 **Search scope and read depth.** Search scope: the site's problem page and its
-proof-claims thread (empty on 2026-10-07); the community database's entry
+empty proof-claims thread; the community database's entry
 (2026-10-06); the digests of the two source cards; the arXiv record of
 [FLP10] and the Crossref records of its journal version, for dates; the
 formal-conjectures statement file and the headers, theorem statements and

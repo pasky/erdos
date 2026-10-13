@@ -40,9 +40,9 @@ extremal number of subdivisions* (this paper's [8]), filed as
 the open arXiv copy arXiv:1905.08001v1 [math.CO], stamped 20 May 2019 (the
 only arXiv version): eleven pages with a complete text layer, PDF page
 equal to printed page. Provenance: 186,712 bytes, retrieved from arXiv
-(<https://arxiv.org/abs/1905.08001v1>) on 2026-09-18T11:22:20Z. The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:1905.08001), every other
-right reserved.
+(<https://arxiv.org/abs/1905.08001v1>). The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1905.08001), every other right
+reserved.
 
 Read status: claims checked for the abstract, the definitions of
 subdivisions and of $\mathcal F_{t,k}$, Mader's theorem, the

@@ -46,11 +46,11 @@ page departs from the site's label because one side alone leaves a question
 open. So both parts, and the problem, are open.
 
 **Source.** [erdosproblems.com/1174](https://www.erdosproblems.com/1174),
-accessed 2026-09-04 and 2026-10-07: the problem page (NOT
-DISPROVABLE; remark crediting Shelah with the consistency of a graph with
-either property; source key [Va99, 7.91]; no last-edited line), its
-discussion thread (two comments, 9 February and 19 March 2026) and its
-proof-claims tab (none). Cite as: T. F. Bloom, Erdős Problem #1174,
+accessed 2026-09-04 and 2026-10-07: the problem page (remark crediting Shelah
+with the consistency of a graph with either property; source key [Va99, 7.91];
+no last-edited line) and its discussion thread (two comments, 9 February and 19
+March 2026); its last label was NOT DISPROVABLE, and its proof-claims tab held
+no claim. Cite as: T. F. Bloom, Erdős Problem #1174,
 https://www.erdosproblems.com/1174.
 
 **References.**

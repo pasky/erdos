@@ -38,8 +38,8 @@ answer to the Erdős-Harzheim question for typical permutations.
 
 Jakub Konieczny, On consecutive sums in permutations. arXiv:1504.07156v5
 (27 August 2021; v1 27 April 2015), 46 pp.; published in J. Combinatorics 12
-(2021), no. 3, 413--477, DOI 10.4310/joc.2021.v12.n3.a3 (Crossref record
-read).
+(2021), no. 3, 413--477, DOI 10.4310/joc.2021.v12.n3.a3 (Crossref record read
+2026-09-18).
 
 Konieczny studies the number of distinct sums of consecutive entries of a
 permutation of {1,...,n}. Proposition 1.1 gives an explicit permutation (1, n,

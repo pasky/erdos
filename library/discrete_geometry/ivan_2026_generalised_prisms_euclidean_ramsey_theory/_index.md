@@ -123,8 +123,8 @@ Amer. Math. Soc. **3** (1990), **1–7**, [DOI
 not the printed volume 136 and pages 119–127; source reference [6], *Block sizes
 in the block sets conjecture*, is Forum Math. Sigma **14** (2026), e67, [DOI
 10.1017/fms.2026.10212](https://doi.org/10.1017/fms.2026.10212), not volume 16.
-The latter publisher record was checked; its proof is not imported into this
-unit.
+The latter publisher record was checked on 5 September 2026; its proof is not
+imported into this unit.
 
 **Later work.** Papers of August 2026 by
 [[discrete_geometry/moore_2026_pyramid_ramsey_base/_index|Moore]] and by

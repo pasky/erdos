@@ -38,8 +38,8 @@ once k is large, and always a_2(log a_2 - 1) is at most k log(2m).
 
 F. Luca, N. Saradha and T. N. Shorey, *Squares and factorials in products
 of factorials*, Monatsh. Math. **175** (2014), no. 3, 385--400; DOI
-10.1007/s00605-014-0641-3; volume and issue are from the DOI's Crossref
-record, as the manuscript gives neither.
+10.1007/s00605-014-0641-3; volume and issue are from the DOI's Crossref record
+(read 2026-10-07), as the manuscript gives neither.
 
 The copy read for this card is
 the authors' manuscript: eighteen pages typeset with pdfTeX (file metadata

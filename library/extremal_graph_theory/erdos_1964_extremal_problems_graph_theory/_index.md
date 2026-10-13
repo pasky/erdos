@@ -97,7 +97,7 @@ Read status: claims checked for displays (6)--(8) and the unnumbered C_{2k}
 assertion on p. 33 (PDF p. 5), and for the p. 35 passage on the regular
 bodies and the cube (PDF p. 7), read clause by clause on the page images; the
 paper gives no proofs, so there is nothing further to check; the rest of the
-digest records an earlier reading that was not repeated here. Claims checked
+digest was not checked against the page images. Claims checked
 also, and on the page images, for the definitions of f_1, f_2,
 f_3 and of Turán's m(n,p) with the p. 30 convention that f stands for f_1
 (pp. 29--30 = PDF pp. 1--2), the p. 31 statements on f(n;4,5), the

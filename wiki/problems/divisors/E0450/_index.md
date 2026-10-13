@@ -109,9 +109,9 @@ axiom audit as its verification. The first record is an outside judgment that
 the result settles the order and not the question as the statement file reads
 it; it bears on the claim's scope, which the claim page records as partial.
 
-**Scope of this assessment.** The basis is the problem page and its
-proof-claims thread as of 2026-10-07, and the solution page's statements and
-the outline of its argument; its Lean project was not built. No independent
+**Scope of this assessment.** The basis is the problem page as of 2026-10-07,
+its proof-claims thread, and the solution page's statements and the outline of
+its argument; its Lean project was not built. No independent
 review of the argument is recorded.
 <!-- BEGIN problem library links -->
 

@@ -75,10 +75,10 @@ that no intersecting subfamily is larger than the largest star. The reading
 of the site's wording with infinite ground sets is a variant, and it is
 false, as the Notes record.
 
-**Status.** The site labeled the problem OPEN (discussion and proof-claims
-threads accessed 2026-10-07). This label describes the modified Statement. The
-frontmatter's standing follows from three pending full claims of September 2026,
-all proving the modified Statement:
+**Status.** The site labeled the problem OPEN. This label describes the modified
+Statement. The site's discussion thread was read 2026-10-07. The frontmatter's
+standing follows from three pending full claims of September 2026, all proving
+the modified Statement:
 [[problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu|Chang, Liu and Liu]],
 [[problems/set_systems/E0701/claims/2026_09_20_keevash|Keevash]] and
 [[problems/set_systems/E0701/claims/2026_09_23_ellis_filmus_friedgut|Ellis, Filmus and Friedgut]].

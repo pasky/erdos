@@ -30,10 +30,10 @@ Erdős, Graham, and Sós. arXiv:2603.18952 (2026).
 **Edition read.** The copy read for this card is arXiv:2603.18952v1
 (19 March 2026), twelve A4 pages with a text layer.
 The arXiv listing carries this one version and no journal reference, and a
-Crossref bibliographic query for the title found no journal record (both
-read). A preprint: no refereed version and no independent review
-of its proof are known here. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2603.18952), every other right reserved.
+Crossref bibliographic query for the title found no journal record (both read
+2026-09-18). A preprint: no refereed version and no independent review of its
+proof are known here. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:2603.18952), every other right reserved.
 
 Read status: claims checked for the definition of f(n,e,H) (p. 1),
 Conjecture 1.1, Theorem 1.2 and display (1) (p. 2), read clause by clause on

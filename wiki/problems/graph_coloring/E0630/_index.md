@@ -55,16 +55,15 @@ https://www.erdosproblems.com/630.
 - [ERT80] Erdős, Paul and Rubin, Arthur L. and Taylor, Herbert, Choosability in
   graphs. (1980), 125-157.
 
-**Formalization.** The formal-conjectures project has no statement file for
-the problem. Two third-party Lean 4 developments declare
-themselves formalizations of Alon and Tarsi's theorem and are linked at their
-commits from the claim page: the file in Boris Alexeev's lean-proofs
-collection, whose formal authors are Codex and GPT-5.6 Sol and whose planarity
-hypothesis bundles face and Euler certificates, and Collin Yuanjie Ren's
-submission of 2026-09-16, which starts from an ordinary plane
-drawing and is the Lean proof behind the community database's proved (Lean)
-status. The corpus built neither, so the claim page lists no `formalized`
-evidence.
+**Formalization.** The formal-conjectures project had no statement file for the
+problem on 2026-10-07. Two third-party Lean 4 developments declare themselves
+formalizations of Alon and Tarsi's theorem and are linked at their commits from
+the claim page: the file in Boris Alexeev's lean-proofs collection, whose formal
+authors are Codex and GPT-5.6 Sol and whose planarity hypothesis bundles face
+and Euler certificates, and Collin Yuanjie Ren's submission of 2026-09-16, which
+starts from an ordinary plane drawing and is the Lean proof behind the community
+database's proved (Lean) status. The corpus built neither, so the claim page
+lists no `formalized` evidence.
 
 ## Current assessment
 
@@ -80,8 +79,8 @@ not suffice, is [[problems/graph_coloring/E0631/_index|Problem 631]].
 
 Search scope: the site's page and discussion thread, the community database
 (teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
-collection, Ren's submission repository and Crossref. On 2026-10-07 the site
-listed no proof claims, and none of these sources showed another claim on the
+collection, Ren's submission repository and Crossref. The site listed no proof
+claims, and on 2026-10-07 none of these sources showed another claim on the
 problem. The two third-party Lean developments are linked from the claim page;
 the corpus built neither, and the community database's Lean status rests on
 Ren's.

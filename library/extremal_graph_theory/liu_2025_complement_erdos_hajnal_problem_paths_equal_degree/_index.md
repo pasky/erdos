@@ -37,9 +37,9 @@ record, and it is not cited by the site. Not a source key of the site; Problem
 **Edition read.** The copy read for this card is the arXiv copy of v2:
 fourteen pages with a complete text layer, PDF
 page equal to printed page. Provenance: 145,075 bytes, retrieved from arXiv
-(<https://arxiv.org/abs/2505.00523v2>) on 2026-09-18T15:44:19Z. The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:2505.00523), every other
-right reserved.
+(<https://arxiv.org/abs/2505.00523v2>). The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2505.00523), every other right
+reserved.
 
 Read status: claims checked for the abstract, Problem 1.1 with its
 attribution, Theorems 1.2 and 1.3 (p. 1), Theorems 1.4 and 1.5 (p. 2), and

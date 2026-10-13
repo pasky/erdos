@@ -71,15 +71,15 @@ pp. 354--360 = PDF pp. 1--7 (printed p. $n$ is PDF p. $n-353$), a 2003 scan
 (the scan's metadata names an Acrobat Capture source and a November 2003
 creation date) with an OCR text layer that locates passages and garbles the
 displays, exponents, subscripts, inequality signs and the flow chart of
-Fig. 1. Provenance: the copy read was obtained from the
-publisher's open archive, a free download from the article's PDF endpoint on
-the publisher's site
-(<https://www.sciencedirect.com/science/article/pii/0097316580900308>), the
-DOI <https://doi.org/10.1016/0097-3165(80)90030-8> resolving to the same
-article; 336,495 bytes. The scan prints "Copyright © 1980 by Academic Press,
-Inc. All rights of reproduction in any form reserved." in the footer of its
-first page (printed p. 354; the text layer renders the symbol as "0"), every
-other right reserved.
+Fig. 1. Provenance: the copy read was obtained on 2026-09-22 from the
+publisher's open archive, a free download from the article's PDF endpoint on the
+publisher's site
+(<https://www.sciencedirect.com/science/article/pii/0097316580900308>), the DOI
+<https://doi.org/10.1016/0097-3165(80)90030-8> resolving to the same article;
+336,495 bytes. The scan prints "Copyright © 1980 by Academic Press, Inc. All
+rights of reproduction in any form reserved." in the footer of its first page
+(printed p. 354; the text layer renders the symbol as "0"), every other right
+reserved.
 
 Read status: claims checked for the abstract, displays (1)--(2), the
 recalled bounds of Erdős and of Graver and Yackel and the notation (p. 354),

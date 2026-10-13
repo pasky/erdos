@@ -53,9 +53,9 @@ graphs, those of maximum degree at most 5, and not the general statement.
 Source: <https://arxiv.org/abs/1609.06257>.
 
 **Edition read.** The copy read for this card is arXiv:1609.06257v1, stamped
-"[math.CO] 20 Sep 2016" on p. 1 (the arXiv record lists this as the only
-version, "11 pages, 11 figures, submitted"); 11 pages with a text layer,
-paginated 1--11. The journal version the digest cites, Discrete Math. 342
+"[math.CO] 20 Sep 2016" on p. 1 (the arXiv record, read 2026-09-18, listed this
+as the only version, "11 pages, 11 figures, submitted"); 11 pages with a text
+layer, paginated 1--11. The journal version the digest cites, Discrete Math. 342
 (2019), no. 5, 1293--1299, doi:10.1016/j.disc.2019.01.005 (Crossref
 bibliographic query, 2026-09-18), was not compared; the locators below are the
 preprint's. The arXiv record names arXiv's non-exclusive distribution license

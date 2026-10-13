@@ -41,10 +41,9 @@ formalization of Solymosi's paper is linked on its page. This corpus has not
 built it, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/658](https://www.erdosproblems.com/658), accessed
-2026-10-07 (no last-edited date shown; empty
-proof-claim tab; two thread posts of 2026-04-20 and 2026-04-21 announcing
-the formalization). Cite as: T. F. Bloom, Erdős Problem #658,
-https://www.erdosproblems.com/658.
+2026-10-07 (no last-edited date shown; two thread posts of 2026-04-20 and
+2026-04-21 announcing the formalization); its proof-claim tab was empty. Cite
+as: T. F. Bloom, Erdős Problem #658, https://www.erdosproblems.com/658.
 
 **References.**
 

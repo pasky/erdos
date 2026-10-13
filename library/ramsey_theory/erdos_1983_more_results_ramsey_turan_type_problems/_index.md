@@ -31,8 +31,8 @@ when l is odd) has Ramsey–Turán density at most a_l, the density of K_l.
 
 P. Erdős, A. Hajnal, V. T. Sós, E. Szemerédi: More results on Ramsey-Turán type
 problems, Combinatorica 3 (1983) no. 1, 69--81 (MR 85b:05129; Zentralblatt
-526.05031). Received 3 June 1982; doi:10.1007/BF02579342 (Crossref record
-read).
+526.05031). Received 3 June 1982; doi:10.1007/BF02579342 (Crossref record read
+2026-09-18).
 
 The copy read for this card is
 the Rényi archive scan `1983-09.pdf` of the thirteen printed pages, PDF

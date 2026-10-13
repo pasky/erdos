@@ -54,12 +54,12 @@ Two editions were read for this card.
   Mathematics, Pi (2023), Vol. 11:e19 1–13" over "doi:10.1017/fmp.2023.19",
   foot "Published online by Cambridge University Press" on every page, 13
   pp., printed and PDF pages agreeing, with a text layer, in which the
-  statements below were read. Provenance: obtained in September 2026; the
-  download URL was not recorded. 329,689 bytes.
+  statements below were read. Provenance: the download URL was not recorded.
+  329,689 bytes.
 - The secondary is arXiv:2204.12455v2, stamped "[math.CO] 15 Aug 2022" on
   p. 1, 14 pp. on A4 with a text layer, both authors then at ETH Zürich.
-  Provenance: obtained in September 2026; the download URL was not recorded,
-  and the arXiv record is <https://arxiv.org/abs/2204.12455v2>. 215,390 bytes.
+  Provenance: the download URL was not recorded, and the arXiv record is
+  <https://arxiv.org/abs/2204.12455v2>. 215,390 bytes.
 
 The labels of the statements listed below (Theorems 1.1, 1.2, 3.8, 5.3 and
 6.1--6.4) are the same in both versions, and Theorems 1.2 and 6.3 stand on

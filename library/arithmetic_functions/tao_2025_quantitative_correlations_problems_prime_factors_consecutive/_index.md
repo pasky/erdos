@@ -81,7 +81,7 @@ evidence rather than a solution of that separate question.
 The remaining theorem and method summaries were outside the check of Remark 1.4.
 
 Source: [arXiv v2](https://arxiv.org/abs/2512.01739v2), 25 April
-2026; [version record](https://arxiv.org/abs/2512.01739) checked.
+2026; [version record](https://arxiv.org/abs/2512.01739) checked 2026-09-06.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0248/_index|#248]]
 (Theorem 1.1), [[../wiki/problems/irrationality/E0069/_index|#69]] (Theorem

@@ -30,7 +30,7 @@ of 20", so PDF page equals journal page, and a complete text layer; the
 article's own statement (p. 18): "Open Access This article is licensed
 under a Creative Commons Attribution 4.0 International License". Provenance:
 414,876 bytes, retained from the repository's survey download set of September
-2026 (the retrieval date and URL of the set were not recorded; the DOI above is
+2026 (the URL of the set was not recorded; the DOI above is
 the article's public address). The file prints "© The Author(s) 2025" on its
 first page and "Open Access This article is licensed under a Creative Commons
 Attribution 4.0 International License" on p. 18: the Creative Commons

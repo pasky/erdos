@@ -92,12 +92,11 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [PeSc10] Peres, Y. and Schlag, W., Two Erdős problems on lacunary
   sequences: chromatic number and Diophantine approximation. Bull. Lond.
   Math. Soc. 42 (2010), no. 2, 295--300, doi:10.1112/blms/bdp126 (Crossref
-  record, issued April 2010); arXiv:0706.0223v1 (1 June
-  2007, the only arXiv version, 9 pages; read). Problems A and B
-  (p. 1),
-  the reduction and Theorem 1.1 (p. 2), the elementary coloring (p. 3),
-  Theorem 3.1 (pp. 4--6), Section 4 (pp. 6--7), the Remark (p. 8). Page
-  references are to the preprint. Library home:
+  record, issued April 2010, read 2026-09-18); arXiv:0706.0223v1 (1 June 2007,
+  the only arXiv version, 9 pages). Problems A and B (p. 1), the reduction and
+  Theorem 1.1 (p. 2), the elementary coloring (p. 3), Theorem 3.1 (pp. 4--6),
+  Section 4 (pp. 6--7), the Remark (p. 8). Page references are to the preprint.
+  Library home:
   [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/_index|peres_2010_two_erdos_problems_lacunary_sequences_chromatic]].
 - [Po79b] Pollington, A. D., On the density of sequence $\{n_k\xi\}$.
   Illinois J. Math. 23 (1979), no. 4, 511--515, doi:10.1215/ijm/1256047933;
@@ -137,9 +136,9 @@ directory `FormalConjectures/ErdosProblems/` listed in full on 2026-09-18.
 The community database (teorth/erdosproblems) records the problem proved
 (as of its last update, dated 31 August 2025) and the statement formalized
 since 2026-09-19, and its `formal_status` field reads unformalized with no
-formal proof recorded (2026-10-06); the site's indicator reads "Formalised statement?
-Yes". The formalization of Problem 464's
-statement is recorded on that page.
+formal proof recorded (2026-10-06); the site's indicator reads "Formalised
+statement? Yes" (read 2026-10-07). The formalization of Problem 464's statement
+is recorded on that page.
 
 ## Current assessment
 

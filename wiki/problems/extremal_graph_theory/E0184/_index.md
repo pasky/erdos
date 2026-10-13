@@ -44,7 +44,7 @@ the statement.
 2026). The derived standing of this page is solved, proved. The two differ
 because the standing rests on a theorem the label did not reflect. The site's
 page was last edited before any of the 2026 claims, and the release's theorem
-below was never on the site's proof-claim tab (read 2026-10-07). Theorem 1.1 of
+below was never on the site's proof-claim tab. Theorem 1.1 of
 the OpenAI mathematics release's preprint of 24 September 2026 gives an
 absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
@@ -397,16 +397,16 @@ the construction is Bucić and Montgomery's reading of it. (4) The 1966
 upper bound is
 asserted, not proved, in the paper; the argument is recorded from [CFS14].
 (5) The formal-conjectures `covering` variant was labeled open at the
-commit read on 2026-09-18 although Pyber's theorem answers it; the file at
-main labeled it solved on 2026-10-07, as recorded above.
+commit read on 2026-09-18 although Pyber's theorem answers it; on 2026-10-07
+the file at main labeled it solved, as recorded above.
 
-**Proof claims on the site.** The site's proof-claim tab (accessed 2026-10-07)
-carries one claim, full: Ryan Coffey's paper and Lean formalization of
+**Proof claims on the site.** The site's proof-claim tab carried one claim,
+full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]
-as claimed. The release's theorem is not on the site's tab. The site labeled the
-problem OPEN (page last edited 1 April 2026); this page's standing is derived
-from the claim pages, not from the label.
+as claimed. The release's theorem was not on the site's tab. The site labeled
+the problem OPEN (page last edited 1 April 2026); this page's standing is
+derived from the claim pages, not from the label.
 
 ## Known results
 

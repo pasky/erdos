@@ -91,9 +91,9 @@ accessed 2026-09-18: the problem page (OPEN, with the site's note that no
 finite computation can settle it; last edited 27 December 2025; source key
 [Er71]; commentary citing [Bo71], [Gr13], [GKW16]; OEIS A105206 linked), its
 one-comment discussion thread (18 October 2025) and its proof-claim tab,
-empty on that date. The site's page, accessed 2026-10-07, showed OPEN and was
-last edited 27 December 2025, and its proof-claim tab held one proof claim with
-one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
+empty on that date. The site's page, accessed 2026-10-07, was last edited 27
+December 2025; its last label was OPEN, and its proof-claim tab held one proof
+claim with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
 https://www.erdosproblems.com/1016, accessed 2026-10-07.
 
 **References.**
@@ -354,7 +354,7 @@ thread's Jia 1996 bounds and its Shi 1994 remark are unverified reports.
 statement of the problem; the pending claim's own Lean development is
 described, not built or audited in this corpus, on its claim page.
 
-**Proof claims on the site (accessed 2026-10-07).** The site's proof-claim tab
+**Proof claims on the site.** The site's proof-claim tab
 carried one full claim, submitted 2026-09-24 by the account KNT, who credits the
 model GPT-6 Astra: a write-up and a Lean 4 development in an external repository
 asserting $h(n)=\log_2n+\log_*n+O(1)$ for every $n\ge3$, the lower bound from a

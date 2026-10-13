@@ -153,7 +153,7 @@ formalization of its result.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation of 2026-09-18).** The statement above;
 DISPROVED (LEAN); last edited 27 December 2025; source keys [Er77c, p. 71] and
 [ErGr80, p. 58]. The commentary notes that the identity permutation $\iota$ has
 $S(\iota)=o(n^2)$, which prompted Erdős's question whether every permutation

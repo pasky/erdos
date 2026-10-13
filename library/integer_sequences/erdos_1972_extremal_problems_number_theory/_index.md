@@ -49,8 +49,8 @@ question on N(A,B;n), read clause by clause on the page image of printed
 p. 81 (PDF p. 2), and for Section IV, read clause by clause on the page image of
 printed p. 83 (PDF p. 4) for Problems 465, 466 and 953, and for Section III,
 read clause by clause on the page images of printed pp. 82--83 (PDF pp. 3--4)
-for Problems 865 and 866; Sections II, V--VII record an earlier reading that was
-not repeated. No notice is printed on pp. 80--81 or 85--86 of the scan; the
+for Problems 865 and 866; Sections II, V--VII were not checked against the
+page images. No notice is printed on pp. 80--81 or 85--86 of the scan; the
 hosting archive's site footer speaks for the site, not the paper
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the

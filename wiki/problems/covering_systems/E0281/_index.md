@@ -45,8 +45,8 @@ recorded under Formalization.
 
 **Source.** [erdosproblems.com/281](https://www.erdosproblems.com/281), accessed
 2026-09-04 and 2026-10-07 (page last edited 18 January 2026; 28
-comments; empty proof-claim tab). Cite as: T. F. Bloom, Erdős Problem #281,
-https://www.erdosproblems.com/281.
+comments); its proof-claim tab was empty. Cite as: T. F. Bloom, Erdős
+Problem #281, https://www.erdosproblems.com/281.
 
 **References.**
 

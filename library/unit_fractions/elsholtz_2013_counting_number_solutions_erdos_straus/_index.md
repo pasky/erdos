@@ -75,21 +75,27 @@ The copy read for this card is arXiv:1107.1010v6 (2 August 2015, 55
 pages; its header carries a later compile date), whose arXiv comment says
 the statement and proof of Theorem 1.9 (Proposition 1.9 in the print) were
 corrected; the published version, J. Aust. Math. Soc. 94 (2013), no. 1,
-50--105, DOI 10.1017/S1446788712000468 (the arXiv listing's journal
-reference), was not compared, so the page numbers here are the preprint's.
-Read status: claims checked. Theorem 1.1, the prime-average corollary of
-p. 5, Propositions 1.4, 1.6, 1.7 and 1.9, Theorem 1.8, Theorem 1.11 with
-Remark 1.12 and Corollary 1.13 were read clause by clause on the page
+50--105, DOI 10.1017/S1446788712000468 (the arXiv listing's journal reference;
+Crossref record fetched 2026-09-18), was not compared, so the page numbers here
+are the preprint's. Read status: claims checked. Theorem 1.1, the prime-average
+corollary of p. 5, Propositions 1.4, 1.6, 1.7 and 1.9, Theorem 1.8, Theorem 1.11
+with Remark 1.12 and Corollary 1.13 were read clause by clause on the page
 images of pp. 4--10; no proof was read beyond its outline. Result pages:
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_1|Theorem 1.1]] (p. 4, with the corollary of p. 5),
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_4|Proposition 1.4]] (p. 6),
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_6|Proposition 1.6]] (p. 6),
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_7|Proposition 1.7]] (pp. 6--7),
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_8|Theorem 1.8]] (p. 7),
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_9|Proposition 1.9]] (p. 8) and
-[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_11|Theorem 1.11]] (pp. 9--10, with Corollary 1.13).
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1107.1010), every other right reserved.
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_1|Theorem 1.1]]
+(p. 4, with the corollary of p. 5),
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_4|Proposition 1.4]]
+(p. 6),
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_6|Proposition 1.6]]
+(p. 6),
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_7|Proposition 1.7]]
+(pp. 6--7),
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_8|Theorem 1.8]]
+(p. 7),
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/proposition_1_9|Proposition 1.9]]
+(p. 8) and
+[[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_11|Theorem 1.11]]
+(pp. 9--10, with Corollary 1.13). The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1107.1010), every other right reserved.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0242/_index|#242]]: the
 results count solutions of $4/n=1/x+1/y+1/z$ and prove existence for no

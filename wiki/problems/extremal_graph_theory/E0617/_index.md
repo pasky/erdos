@@ -35,8 +35,8 @@ and, for $r=3$, earlier to Chung and Liu 1978
 The fixed cases $r=5,\ldots,11$ are claimed in 2026 preprints, write-ups and
 Lean developments recorded on the claim pages below. None of these is refereed,
 and none has a review that counts as acceptance. No proof for all $r\ge3$ and no
-counterexample is known (site accessed 2026-09-04; proof-claim thread with its
-comments and discussion thread accessed 2026-10-07).
+counterexample is known (site accessed 2026-09-04; discussion thread accessed
+2026-10-07; proof-claim thread with its comments).
 
 **Source.** [erdosproblems.com/617](https://www.erdosproblems.com/617), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #617,
@@ -130,8 +130,8 @@ on its claim page, with AI-assisted forum reviews and reproductions that
 limit or disclaim their verdicts and no review that counts as acceptance.
 These parameter-specific results do not settle the quantified assertion for
 all $r\geq3$, so the full problem is open. Search scope: the site record
-(accessed 2026-09-04), its proof-claim thread with the comments on the claims
-and its discussion thread (accessed 2026-10-07), and the dated sources listed
+(accessed 2026-09-04), its proof-claim thread with the comments on the claims,
+its discussion thread (accessed 2026-10-07), and the dated sources listed
 above; arXiv, citation indexes, author pages and X were not searched, so the
 date is not evidence that no further result exists. Another isolated positive
 case would extend the table but would not supply a route to the full
@@ -139,8 +139,8 @@ problem; a uniform proof for infinitely many $r$ would be meaningful partial
 progress, while the target remains a proof for every $r$ or a rigorously
 verified counterexample.
 
-**Proof claims on the site (accessed 2026-10-07).** The site's proof-claim
-tab carries seven claims, all partial and all for fixed values of $r$, posted
+**Proof claims on the site.** The site's proof-claim
+tab carried seven claims, all partial and all for fixed values of $r$, posted
 between 18 and 31 July 2026: Sneiderman's four preprints for $r=5$, $r=6$,
 $r=7,8$ and $r=9$ (the library sources above), Silverstein's and Rose's
 computer-assisted proofs of $r=5$, and Winter's Lean development for $r=5$.
@@ -154,10 +154,10 @@ claimants' replies. None is by a named human referee, and the reviews limit
 or disclaim their verdicts; two comments announce self-declared Lean
 formalizations of Sneiderman's proofs (Kara's of $r=5$, Winter's of $r=6$),
 and one announces an unposted independent proof of $r=5$. They are recorded
-on the claim pages and give no acceptance evidence. The discussion thread
-holds two comments: a typo report and the 15 July 2026 priority report on
-Chung and Liu recorded above. The page's standing is derived from the claim
-pages, on which every claim is partial.
+on the claim pages and give no acceptance evidence. The discussion thread,
+accessed 2026-10-07, held two comments: a typo report and the 15 July 2026
+priority report on Chung and Liu recorded above. The page's standing is derived
+from the claim pages, on which every claim is partial.
 
 <!-- BEGIN problem library links -->
 

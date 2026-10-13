@@ -148,7 +148,7 @@ itself consumes no statement from this source.
   which combines J. Reine Angew. Math. 569 (2004), 213--234 (the problem's
   [Bl04]) and its part II, J. London Math. Soc. (2) 71 (2005), 69--84, gave
   $V(x)=x/(\log x)^{(1-2^{-1/3})+o(1)}$. The zbMATH review of part I
-  (Zbl 1051.11050) and summary of part II (Zbl 1166.11312),
+  (Zbl 1051.11050) and summary of part II (Zbl 1166.11312), read 2026-10-07,
   place this asymptotic in part II; part I proves
   $x(\log x)^{-0.253}\ll V(x)\ll x(\log x)^{-1/6}\log\log x$.
 

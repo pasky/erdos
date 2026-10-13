@@ -71,11 +71,11 @@ on 3 October 2012.
 The [canonical PDF](de_la_breteche_2013_non_intersecting_arithmetic_progressions.pdf)
 is the complete twelve-page published article, printed pp. 381–392,
 obtained from the
-[publisher download](https://www.impan.pl/shop/en/publication/transaction/download/product/82992)
-on 5 September 2026. It is 285660 bytes. The published PDF prints "© Instytut
-Matematyczny PAN, 2013" on its first page; the publisher's record labels the PDF
-download "Pobierz zgodnie z CC-BY", which the English site renders "Free
-download under CC-BY license", naming no version or license URL
+[publisher download](https://www.impan.pl/shop/en/publication/transaction/download/product/82992).
+It is 285660 bytes. The published PDF prints "© Instytut Matematyczny PAN, 2013"
+on its first page; the publisher's record labels the PDF download "Pobierz
+zgodnie z CC-BY", which the English site renders "Free download under CC-BY
+license", naming no version or license URL
 (https://www.impan.pl/get/doi/10.4064/aa157-4-5, read 2026-10-02), and that page
 grant decides over the printed copyright line. The author manuscript PDF prints
 no copyright or license line, and the author's site that provides it

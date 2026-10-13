@@ -273,7 +273,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er90],
 [Sz72], the journal texts of [FLZ15] and [Cs25].
 
 Also consulted: the site's problem page, discussion thread and proof-claim tab
-(thread and tab empty on 2026-10-07); the formal-conjectures file at its
+(tab empty; thread empty on 2026-10-07); the formal-conjectures file at its
 commit of 2026-10-06 (pinned under Formalization) and the community database
 record as of 2026-10-06 (dated there); the header, final theorem and history
 of the lean-proofs file. On 2026-10-07 none of these showed a dispute of

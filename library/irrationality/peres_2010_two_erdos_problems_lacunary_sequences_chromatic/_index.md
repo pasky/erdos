@@ -28,14 +28,13 @@ chromatic number and Diophantine approximation. Bull. Lond. Math. Soc. **42**
 April 2010, read 2026-09-18). The site's key PeSc10.
 
 The copy read for this card
-is arXiv:0706.0223v1 (1 June 2007), the only arXiv version (abstract page
-read; it carries no journal reference), nine letter-size pages
-with a complete text layer, 159,080 bytes; the statements below were read in
-the text layer and pp. 1--3 were checked on the rendered page images. The
-journal text was not compared; page references are to the
-preprint, whose printed page numbers are its PDF page numbers. The arXiv record
-carries no license field, so arXiv's assumed license applies (arXiv:0706.0223),
-every other right reserved.
+is arXiv:0706.0223v1 (1 June 2007), the only arXiv version (abstract page read
+2026-09-18; it carries no journal reference), nine letter-size pages with a
+complete text layer, 159,080 bytes; the statements below were read in the text
+layer and pp. 1--3 were checked on the rendered page images. The journal text
+was not compared; page references are to the preprint, whose printed page
+numbers are its PDF page numbers. The arXiv record carries no license field, so
+arXiv's assumed license applies (arXiv:0706.0223), every other right reserved.
 
 Read status: claims checked for Problems A and B, Katznelson's reduction,
 the history paragraph with display (1.1), Theorem 1.1 with display (1.2),

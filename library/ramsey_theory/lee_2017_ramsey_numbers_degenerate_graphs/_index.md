@@ -20,20 +20,19 @@ most n vertices, so d-degenerate graphs have linear Ramsey numbers.
 ***
 
 Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math. (2) 185
-(2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2 (the Crossref
-record, dates the issue 1 May 2017 and the record's
-creation 24 February 2017; the pages are the site's citation, not carried by
-the Crossref record). Preprint arXiv:1505.04773
-(v1 18 May 2015, v2 1 December 2016; the arXiv listing carries no journal
-reference). The two versions state the main results differently. In v1
-(32 pages; pp. 1, 3 and 4 read on the page images) the
-abstract bounds the Ramsey number of every $d$-degenerate graph with no
-condition on its order, Theorem 1.1 has no lower bound on $n$ and speaks
-of $r$-chromatic graphs, Theorem 1.2 has no condition on $\alpha$ or $n$,
-and Theorem 1.3 lacks the condition $\varepsilon<1$; v2 adds
-$|V(H)|\ge2^{d^22^{cr}}$ to the abstract, $n\ge2^{d^22^{cr}}$ to
-Theorem 1.1 (now for $r$-colorable graphs), and $\alpha\le\frac12$ and
-$n\ge\alpha^{-cd^2}$ to Theorem 1.2.
+(2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2 (the Crossref record,
+read 2026-09-18, dates the issue 1 May 2017 and the record's creation 24
+February 2017; the pages are the site's citation, not carried by the Crossref
+record). Preprint arXiv:1505.04773 (v1 18 May 2015, v2 1 December 2016; the
+arXiv listing carries no journal reference). The two versions state the main
+results differently. In v1 (32 pages; pp. 1, 3 and 4 read on the page images)
+the abstract bounds the Ramsey number of every $d$-degenerate graph with no
+condition on its order, Theorem 1.1 has no lower bound on $n$ and speaks of
+$r$-chromatic graphs, Theorem 1.2 has no condition on $\alpha$ or $n$, and
+Theorem 1.3 lacks the condition $\varepsilon<1$; v2 adds
+$|V(H)|\ge2^{d^22^{cr}}$ to the abstract, $n\ge2^{d^22^{cr}}$ to Theorem 1.1
+(now for $r$-colorable graphs), and $\alpha\le\frac12$ and $n\ge\alpha^{-cd^2}$
+to Theorem 1.2.
 
 The copy read for this card is
 arXiv:1505.04773v2 [math.CO] 1 Dec 2016, 35 pages with a text layer; its

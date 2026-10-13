@@ -128,9 +128,9 @@ https://www.erdosproblems.com/85, accessed 2026-09-18.
   pp. 88--89. Library home:
   [[../library/ramsey_theory/burr_1989_complete_bipartite_graph_tree_ramsey_numbers/_index|burr_1989_complete_bipartite_graph_tree_ramsey_numbers]].
 - [OEIS] Sloane, N. J. A., Sequence A006672, $r(C_4,K_{1,n})$, The On-Line
-  Encyclopedia of Integer Sequences (record revised 19 August 2026; read):
-  the values for $n\le38$, with Parsons, Wu et al., Zhang et al. and Boza
-  among its references.
+  Encyclopedia of Integer Sequences (record revised 19 August 2026; read
+  2026-09-18): the values for $n\le38$, with Parsons, Wu et al., Zhang et al.
+  and Boza among its references.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/85.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/85.lean)

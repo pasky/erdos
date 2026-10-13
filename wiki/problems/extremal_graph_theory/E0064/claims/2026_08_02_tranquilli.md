@@ -41,7 +41,7 @@ $6$-cycle is a Berge triangle with, up to symmetry, two rooted extensions;
 a restricted-growth search on at most $29$ points exhausts both trees, and
 the computation is checked by two separately implemented exact procedures
 and a static witness certificate, with source code and certificates in an
-accompanying repository and Zenodo archive. Read depth (2026-10-07): the
+accompanying repository and Zenodo archive. Read depth: the
 arXiv record and abstract; the proof was not read and the certificates were
 not replayed. A thread post of 31 August 2026 cites the paper by title and
 number and reports an exhaustive search of its own reaching $62$ vertices,

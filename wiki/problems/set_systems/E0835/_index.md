@@ -141,7 +141,7 @@ rather than manuscripts, and this page records none of them as a claim. No claim
 settles the problem in either direction.
 
 Search scope: the site's problem page, discussion thread and proof-claims
-listing (none on 2026-10-07), the community database (teorth/erdosproblems),
+listing (none), the community database (teorth/erdosproblems),
 the formal-conjectures statement file and the pull request behind it,
 Brouwer's table of Johnson-graph parameters, the Ma--Tang note at its posted
 address, and a web search for an arXiv or journal version of that note, which

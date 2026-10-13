@@ -42,7 +42,7 @@ images. Provenance: fetched from
 (listed at <https://danielduverney.fr/mathematical-publications/>) on 2026-09-17
 (UTC), 2,438,038 bytes. The journal issue (t. 321, no. 10) is also online in
 Gallica (<https://gallica.bnf.fr/ark:/12148/bpt6k6204514p>, printed pp.
-1287--1289 at views 19--21; record and page map read); no other
+1287--1289 at views 19--21; record and page map read 2026-10-07); no other
 version was compared. The scan prints "0764-4442/95/03211287 $ 2.00 © Académie
 des Sciences" at the foot of its first page (printed p. 1287, read on the page
 image), every other right reserved.

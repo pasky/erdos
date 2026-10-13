@@ -63,6 +63,6 @@ $g(n)$ (OEIS A000001), checks the inequality for all $n\le2048$; it is a
 thread post and has no claim page.
 
 Search scope: the site's problem page (last edited 26 January 2026), its
-discussion thread and proof-claims tab (no proof claim), the community
-database (no formalized statement) and the Mathematics Genealogy Project,
-accessed 2026-10-07.
+discussion thread, the community database (no formalized statement) and the
+Mathematics Genealogy Project, accessed 2026-10-07, and the site's proof-claims
+tab (no proof claim).

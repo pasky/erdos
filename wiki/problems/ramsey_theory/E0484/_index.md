@@ -83,9 +83,9 @@ https://www.erdosproblems.com/484, accessed 2026-09-17.
 
 **Formalization.** Statement in
 [`ErdosProblems/484.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/484.lean)
-of formal-conjectures (`main`), with an external proof tag pointing at a Lean 4
-file in another collection at a fixed commit; nothing was built or checked here.
-See Existing formalization.
+of formal-conjectures (`main`, fetched 2026-09-17), with an external proof tag
+pointing at a Lean 4 file in another collection at a fixed commit; nothing was
+built or checked here. See Existing formalization.
 
 ## Current assessment
 
@@ -100,7 +100,7 @@ refinement. The one comment in the thread (15 April 2026) reports that Aristotle
 autoformalized a solution from the referenced paper, with the site's note that
 the page was updated to address it; the proof-claim tab is empty. The community
 database (fetched 2026-09-17) lists the problem as proved (Lean) as of its last
-update on 15 April 2026 and the statement as formalized as of 3 August 2026,
+update on 15 April 2026 and the statement as formalized since 3 August 2026,
 with no formal-proof URL.
 
 **Origin.** Item 16 of Erdős's 1961 survey (p. 230):
@@ -161,7 +161,7 @@ the sequel [ESS90] are not compiled here.
 
 **Existing formalization and the Lean label.** The formal-conjectures file
 [`ErdosProblems/484.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/484.lean)
-(`main`) declares
+(`main`, fetched 2026-09-17T13:07Z) declares
 
 `erdos_484 : ∃ c : ℝ, 0 < c ∧ ∀ k : ℕ, 0 < k → ∃ N₀ : ℕ, ∀ N : ℕ, N₀ ≤ N →
 ∀ f : ℕ → Fin k, c * N ≤ (((Finset.Icc 1 N).filter fun n => ∃ a ∈

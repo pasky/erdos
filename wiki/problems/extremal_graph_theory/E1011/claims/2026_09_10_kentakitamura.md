@@ -109,7 +109,7 @@ formula, not a premise.
 
 **Standing.** Claimed. The claim is unrefereed and no paper or preprint
 carries it. The site has not accepted it: its page prints the preprint's
-range $n\ge150$ (accessed 2026-10-07) and its proof-claim tab is empty; the
+range $n\ge150$ (accessed 2026-10-07) and its proof-claim tab was empty; the
 community database (read 2026-10-06) records the problem as open and
 unformalized. The formal-conjectures issue 1069 (opened 14 October 2025)
 asks for a statement of the problem, and the repository held none on

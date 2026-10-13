@@ -126,10 +126,9 @@ https://www.erdosproblems.com/792, accessed 2026-09-18.
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/problem_1_22|Problem 1.22]].
 - [AlKl90] Alon, N. and Kleitman, D. J., Sum-free subsets. In: A Tribute to
   Paul Erdős (A. Baker, B. Bollobás and A. Hajnal, eds.), Cambridge Univ.
-  Press (1990), 13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record
-  read). Proposition 1.1, pp. 13--14; the $12/29$ remark,
-  p. 14. A scan of the chapter is posted on the first author's publication
-  page. Library home:
+  Press (1990), 13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read
+  2026-09-18). Proposition 1.1, pp. 13--14; the $12/29$ remark, p. 14. A scan of
+  the chapter is posted on the first author's publication page. Library home:
   [[../library/additive_combinatorics/alon_1990_sum_free_subsets/_index|alon_1990_sum_free_subsets]];
   result page
   [[../library/additive_combinatorics/alon_1990_sum_free_subsets/proposition_1_1|Proposition 1.1]].

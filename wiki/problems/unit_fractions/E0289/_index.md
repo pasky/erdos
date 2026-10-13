@@ -41,11 +41,12 @@ separation; the site's commentary explains the added condition, and the two
 readings have different status: the unrestricted one is answered in the
 site's discussion, the restricted one is the problem.
 
-**Status.** Labeled open on the site: the label was OPEN (page last edited 22
-September 2025; accessed 2026-10-07). The site marked the problem as not
-resolvable by a finite computation. The standing derived from the claim pages is
-claimed, claim proved, because four full proof claims are pending. Three are on
-the site's proof-claim tab, dated 4 September, 7 September and 26 September 2026
+**Status.** Labeled open on the site: the label was OPEN, and the page,
+accessed 2026-10-07, was last edited 22 September 2025. The site marked the
+problem as not resolvable by a finite computation. The standing derived from the
+claim pages is claimed, claim proved, because four full proof claims are
+pending. Three are on the site's proof-claim tab, dated 4 September, 7 September
+and 26 September 2026
 ([[problems/unit_fractions/E0289/claims/2026_09_04_land|Land]],
 [[problems/unit_fractions/E0289/claims/2026_09_07_tang|Tang]],
 [[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]). Each
@@ -64,10 +65,9 @@ settled affirmatively by an argument in the site's discussion (Kovač, September
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a
 finite computation; source key [ErGr80]; last edited 22 September 2025), its
 four-comment discussion thread (9 August 2025 to 18 December 2025) and its
-proof-claim tab with two full-proof claims (4 and 7 September 2026); on
-2026-10-07 the tab listed a third claim (26 September 2026) and comments
-under the claims. The site
-thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem #289,
+proof-claim tab with two full-proof claims (4 and 7 September 2026); the tab
+later listed a third claim (26 September 2026) and comments under the claims.
+The site thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem #289,
 https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **References.**

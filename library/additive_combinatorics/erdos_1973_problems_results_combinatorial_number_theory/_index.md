@@ -36,7 +36,7 @@ conjecture and n^(3/4) bound, c_1 n^(1/3) < h(n) < c_2 n^(1/2), and l(n)
 P. Erdos, Problems and Results on Combinatorial Number Theory. A Survey of
 Combinatorial Theory (J. N. Srivastava et al., eds.), North-Holland (1973),
 Chapter 12, 117-138, DOI 10.1016/B978-0-7204-2262-7.50017-X (Crossref record
-read).
+read 2026-10-07).
 
 This chapter surveys combinatorial problems in number theory across sequences,
 sum-free sets, covering congruences, sign patterns and additive bases, citing

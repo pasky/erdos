@@ -64,9 +64,9 @@ doi:10.1007/s00222-021-01087-5, published online 2021-11-16 (Crossref record
 read 2026-10-07). The arXiv preprint 1811.03547 was posted 2018-11-08, this
 page's date. Reviewed: the site's curator, Thomas Bloom, credits the five
 authors with the negative answer in the problem's commentary and labeled the
-problem disproved. On 2026-10-07 the page's comments and proof-claim tab were
-empty. The library's compilation of the theorem is this project's own reading
-and counts as no acceptance evidence.
+problem disproved. The page's proof-claim tab was empty, and on 2026-10-07 its
+comments were empty. The library's compilation of the theorem is this project's
+own reading and counts as no acceptance evidence.
 
 **Formalization.** The formal-conjectures statement file for the problem
 (read 2026-10-07) carries the category `research solved` and a

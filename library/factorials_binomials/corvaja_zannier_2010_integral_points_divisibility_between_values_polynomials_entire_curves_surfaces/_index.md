@@ -62,9 +62,9 @@ a quadratic form.
 
 The copy read for this card is the arXiv version stamped "arXiv:0907.1517v2
 [math.NT] 29 Jul 2009", the canonical version for this card. Provenance:
-downloaded from https://arxiv.org/pdf/0907.1517v2 on 2026-09-25; 322,064 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:0907.1517), every other right reserved.
+downloaded from https://arxiv.org/pdf/0907.1517v2; 322,064 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:0907.1517), every
+other right reserved.
 
 Pietro Corvaja, Umberto Zannier, "Integral points, divisibility between values
 of polynomials and entire curves on surfaces," arXiv:0907.1517 (2009);

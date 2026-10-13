@@ -21,9 +21,9 @@ Creative Commons Attribution 4.0 license.
 
 The held PDF is the arXiv v2 manuscript (watermark "arXiv:2509.03490v2
 [math.CO] 27 Oct 2025" on p. 1), 49 pages, fetched from
-<https://arxiv.org/pdf/2509.03490v2> on 2026-09-23; page numbers below are
-its printed page numbers. Read status: claims checked for Theorems 1.1-1.4
-and 1.6 against the page images (pp. 3-6); the proofs were not read.
+<https://arxiv.org/pdf/2509.03490v2>; page numbers below are its printed page
+numbers. Read status: claims checked for Theorems 1.1-1.4 and 1.6 against the
+page images (pp. 3-6); the proofs were not read.
 
 The graph-theoretic core (Theorem 1.2, p. 3) is that for every gamma in
 (0, 1/10) and every sufficiently large d, a graph of average degree d whose

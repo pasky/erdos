@@ -69,12 +69,12 @@ is unreadable in the text layer). No preprint or later version is known here.
 The version of record is available free of charge from the publisher's open
 archive, the DOI <https://doi.org/10.1016/S0012-365X(98)00183-6> resolving to
 the article's PDF on ScienceDirect (PII S0012365X98001836), 208,323 bytes; it
-was read there. It prints "© 1999 Elsevier Science B.V. All
-rights reserved". The open archive's terms are the Elsevier user license
+was read there on 2026-09-22. It prints "© 1999 Elsevier Science B.V. All rights
+reserved". The open archive's terms are the Elsevier user license
 <https://www.elsevier.com/open-access/userlicense/1.0/>, which the Crossref
 record names for the version of record (both read 2026-10-07): they allow
-non-commercial access, copying, translation and text and data mining, but
-not redistribution, display or adaptation; every other right is reserved.
+non-commercial access, copying, translation and text and data mining, but not
+redistribution, display or adaptation; every other right is reserved.
 
 Read status: claims checked for the abstract, the definitions of an
 independent family, a transversal, $\nu(G)$ and $\tau(G)$, the trivial

@@ -279,7 +279,7 @@ two-sided bound.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [El65],
 [HeRi73].
 
-**Outside results.** The proof-claim tab was empty on 2026-10-07, and no outside
+**Outside results.** The proof-claim tab was empty, and no outside
 claim settles any part of the problem; Granville's conditional disproof of the
 asymptotic has its own
 [[problems/integer_sequences/E1204/claims/2020_10_02_granville|claim page]],

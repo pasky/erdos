@@ -160,8 +160,8 @@ kernel and the independent checker nanoda accept the proof; the claim page
 describes it. The community database (teorth/erdosproblems) lists the problem
 as open and its statement as formalized, with entries last updated 31 August
 2025 and 7 September 2026, and the formal status as unformalized; the site's
-indicator reads "Formalised statement? Yes" (it read "No"). Nothing was built
-or checked here.
+indicator reads "Formalised statement? Yes" (it read "No" on 2026-09-05).
+Nothing was built or checked here.
 
 ## Current assessment
 

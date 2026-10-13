@@ -56,14 +56,13 @@ dpi), for Theorem 1 (p. 617), the refinement $\sum1/a_i\le2-2^{1-n}$ with
 equality only for $a_i=2^{i-1}$ printed after its proof (p. 619), the recalled
 prize conjecture (p. 619) and Theorem 2 with its closing remark (pp. 619--620);
 the proof of Theorem 1 and the outline of Theorem 2 were read for their
-structure only; the rest of the digest records an earlier reading that was not
-repeated. Result pages:
-[[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_1|theorem_1]]
-and
-[[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|theorem_2]].
-The digest's bullets for Theorems 1 and 2 agree with the page images. The copy
-read prints "Copyright © 1974, American Mathematical Society" on its first
-page, every other right reserved.
+structure only; the rest of the digest was not checked against the page
+images. Result pages:
+[[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_1|theorem_1]] and
+[[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|theorem_2]]. The
+digest's bullets for Theorems 1 and 2 agree with the page images. The copy read
+prints "Copyright © 1974, American Mathematical Society" on its first page,
+every other right reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1974-24.pdf>.
 

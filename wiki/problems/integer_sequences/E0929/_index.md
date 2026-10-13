@@ -57,7 +57,7 @@ displayed question, also open.
 
 **Status.** The site labeled the problem OPEN. No source approaching
 $S(k)\ge k^{1-o(1)}$ was found in the search whose scope the Current assessment
-records. The site's proof-claim tab was empty on 2026-10-07. One partial claim
+records. The site's proof-claim tab was empty. One partial claim
 is recorded: the refereed upper bound of [FGKMT18], inverted below. This is a
 bounded negative finding, not a certificate of openness.
 
@@ -94,9 +94,8 @@ the site's note that the problem cannot be settled by a finite computation;
 last edited 2 December 2025; source key [Er76d]; commentary citing
 [FGKMT18] and Problem 4; a thanks line naming one contributor; no formalized
 statement; OEIS marked possible), its one-comment discussion thread (15
-October 2025) and its empty proof-claim tab (also empty on 2026-10-07).
-Cite as: T. F. Bloom, Erdős Problem #929, https://www.erdosproblems.com/929,
-accessed 2026-09-18.
+October 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+Problem #929, https://www.erdosproblems.com/929, accessed 2026-09-18.
 
 **References.**
 
@@ -170,8 +169,8 @@ not have a prime factor $\le k$, and proposed $S(k)\le k+1$ with
 $n\equiv1\pmod{(k+1)!}$; the site notes under the comment that the page was
 corrected accordingly. The correction is checked here:
 $n+i\equiv i+1\pmod{(k+1)!}$, so $i+1$ divides $n+i$ for $1\le i\le k$, and
-every $n+i$ has a prime factor at most $k+1$. The proof-claim tab was empty
-on 2026-09-18 and on 2026-10-07.
+every $n+i$ has a prime factor at most $k+1$. The proof-claim tab was empty, as
+it had been on 2026-09-18.
 
 **The origin.** [Er76d] p. 26
 ([[../library/diophantine_problems/erdos_1976_problems_results_number_theoretic_properties_consecutive/conjecture_p26|result page]]):
@@ -302,7 +301,7 @@ lower bound with exponent above $1/2$, no upper bound below the inversion of
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [HaRi74],
 [Ra38]. [Iw78] was not available at the time of the search; the References
-cite its pages. The site's proof-claim tab was also empty on 2026-10-07.
+cite its pages. The site's proof-claim tab was empty.
 
 **Remaining gaps.** (1) The best refereed lower bound, $k^{1/2}$, rests on the
 Corollary of [Iw78] and on two one-line steps made on its result page and here,

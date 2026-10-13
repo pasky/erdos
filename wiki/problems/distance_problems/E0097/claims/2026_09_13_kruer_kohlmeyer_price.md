@@ -107,8 +107,8 @@ negation of the four-equidistant-vertices statement,
 `Proof.explicit_erdos_97_counterexample` for the explicit cardinality bound,
 and `Proof.main_theorem` for Theorem 1.1, and says that the file's last
 section audits the axioms of 33 results, failing on any axiom outside
-`propext`, `Classical.choice` and `Quot.sound`, and that the authors checked
-the build. The corpus has not built the file and has not
+`propext`, `Classical.choice` and `Quot.sound`, and that the authors checked the
+build on 13 September 2026. The corpus has not built the file and has not
 compared its statements with the question, so no `formalized` evidence is
 listed.
 

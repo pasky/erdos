@@ -92,8 +92,8 @@ $a$, $b$, $a+b$, which would make $18$ sharp; the site does not state whether
 $18$ is sharp. Hajnal's Hindman-set question is open and separate from the
 stated problem.
 
-**Search scope.** The site's problem page, its discussion thread and its
-proof-claim tab (both empty on 2026-10-07); the formal-conjectures statement
+**Search scope.** The site's problem page, its discussion thread (empty on
+2026-10-07) and its empty proof-claim tab; the formal-conjectures statement
 file at the pinned commit and its pull request and issue; the lean-proofs file
 at its pinned commit; the community database record (status proved, last
 updated 2025-08-31; formalized yes, last updated 2026-09-19; formal status

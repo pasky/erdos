@@ -64,12 +64,11 @@ reserved." speaks for the site, not the article.
 
 The
 [publisher record](https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/49/1/104558/on-kemperman-s-inequality-2f-x-f-x-h-f-x-2h)
-confirms the author, volume, year, pages, and DOI. On 5 September 2026,
-its free-download link redirected to PLDML and returned bytes identical
-to the retained scan. The existing source PDF is preserved unchanged;
-there is no second substantive version in this unit.
-The [source record](source_record.json) pins that identity and the
-bounded acquisition evidence.
+confirms the author, volume, year, pages, and DOI. Its free-download link
+redirected to PLDML and returned bytes identical to the retained scan. The
+existing source PDF is preserved unchanged; there is no second substantive
+version in this unit. The [source record](source_record.json) pins that identity
+and the bounded acquisition evidence.
 
 ## Results and complete proof chain
 

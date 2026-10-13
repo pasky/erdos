@@ -97,13 +97,14 @@ Erdős Problem #689, https://www.erdosproblems.com/689, accessed 2026-09-18.
   Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Gr26] Green, B., 100 open problems. Author's list, PDF compiled 30
-  January 2026, 62 pp.; Problem 45, p. 23 (the author's page; library home
+  January 2026, 62 pp.; Problem 45, p. 23 (the author's page, accessed
+  2026-09-18; library home
   [[../library/additive_bases/green_2026_100_open_problems/_index|green_2026_100_open_problems]],
   which carries its row for this problem).
 - [Ch26] Chojecki, P., A greedy matching proof of Erdős's two-fold
   residue-class problem. Working manuscript dated 27 April 2026, 10 pp.,
-  hosted at ulam.ai (271,900 bytes). An unrefereed
-  claim, pending on
+  hosted at ulam.ai (accessed 2026-09-18; 271,900 bytes). An unrefereed claim,
+  pending on
   [[problems/integer_sequences/E0689/claims/2026_04_30_chojecki|its claim page]];
   not filed.
 - [FGKMT18] Ford, K., Green, B., Konyagin, S., Maynard, J. and Tao, T.,
@@ -261,8 +262,8 @@ methods, the forum's checks and objections, and their standing, all
   count in place of Green--Tao; the registry replayed it in the Lean kernel
   against a challenge statement restating the formal-conjectures proposition,
   and says itself that it certifies neither novelty nor the match between formal
-  and informal statements and is not peer review (entry as of 2026-10-07, when
-  the site showed the one proof claim; the community database said
+  and informal statements and is not peer review (entry as of 2026-10-07; the
+  site showed the one proof claim; the community database said
   open on 2026-10-05). Not built or audited here.
 - [[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|Zribi and Chojecki, 21 July 2026]]:
   the proof-claim tab's one entry, merging the two notes above, with a
@@ -310,10 +311,9 @@ review of them.
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures `689.lean` and the community database
   (2026-09-18).
-- On 2026-10-07: the site's page, the thread (unchanged) and the
-  proof-claim tab with its ten comments; the Palomar registry's JSON entry
-  `PALOMAR-2026-09-20-000002`; formal-conjectures `689.lean` at
-  the commit the link pins (declaration unchanged).
+- On 2026-10-07: the site's page and the thread (unchanged); the Palomar
+  registry's JSON entry `PALOMAR-2026-09-20-000002`; formal-conjectures
+  `689.lean` at the commit the link pins (declaration unchanged).
 - Green's list fetched once from the author's page (HTTP 200), Problem 45;
   [Ch26] fetched once (HTTP 200), title page and Section 1; one request to
   the claim's online-editor read link (generic page, no document).

@@ -90,9 +90,8 @@ accessed 2026-09-18: the problem page (DISPROVED, with
 the site's remark that the answer is negative; last edited 7 October 2025;
 source key [ErSi70]; commentary citing [Al08], [JaSu23] and Problem 1077), its
 empty discussion thread and its empty proof-claim tab. On 2026-10-07 the page
-shows "Formalised statement? Yes", with the thread and the proof-claim tab
-empty. Cite as: T. F. Bloom, Erdős Problem #803,
-https://www.erdosproblems.com/803, accessed 2026-09-18.
+shows "Formalised statement? Yes", with the thread empty. Cite as: T. F. Bloom,
+Erdős Problem #803, https://www.erdosproblems.com/803, accessed 2026-09-18.
 
 **References.**
 

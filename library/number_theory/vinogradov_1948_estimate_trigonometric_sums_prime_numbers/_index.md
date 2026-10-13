@@ -96,9 +96,9 @@ hypotheses and conclusions of Theorems 1-4 (pp. 234-235, 243 and 246-248; PDF
 pp. 10-11, 19 and 22-24) and for the standing notation of p. 226, and for the
 introduction and footnote of p. 225, the standing notation of pp. 225-226 and
 the exponent rho_0 of Lemma 4 (p. 228); no proof was checked; the other lemma
-descriptions above were not read clause by clause. The statements of Theorems
-1-4 were read clause by clause on the page images for the result pages, with
-the structure of the proofs of Theorem 1 (pp. 235-238) and Theorems 3 and 4
+descriptions above were not checked against the page images. The statements of
+Theorems 1-4 were read clause by clause on the page images for the result pages,
+with the structure of the proofs of Theorem 1 (pp. 235-238) and Theorems 3 and 4
 (pp. 247-248); the depth of each is recorded on its page. No copyright or
 license line is printed on any of the 24 pages, and the hosting site's terms of
 use state that its materials "are fully copyrighted by Steklov Mathematical

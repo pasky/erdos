@@ -49,8 +49,8 @@ ordinary-Lagrange setting. One may reorder them as $-1\le x_1<\cdots<x_n\le1$
 without changing $\lambda$. The interval $[a,b]$ has positive length and is
 fixed independently of $n$.
 
-**Status.** Proved. The catalog labeled the problem PROVED (page last edited 1
-April 2026, accessed 2026-10-07) and credits Tao [Ta26b]. The frontmatter
+**Status.** Proved. The catalog credits Tao [Ta26b] (page last edited 1 April
+2026, accessed 2026-10-07) and labeled the problem PROVED. The frontmatter
 standing (solved, proved) derives from the accepted claim page
 [[problems/polynomials/E1153/claims/2026_03_23_tao|Tao 2026]]. The
 status-defining source is Tao's arXiv:2603.21453v3 preprint, Theorem 1.10(i),

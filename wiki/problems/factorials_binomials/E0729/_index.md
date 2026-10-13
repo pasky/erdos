@@ -107,9 +107,9 @@ page here. Problem 401 is a later, more precise question in the same spirit,
 settled the next day by the same route.
 
 Search scope: the site's problem page, its discussion thread, the community
-database, the formal-conjectures file and Alexeev's repository. On 2026-10-07
-the thread held 30 comments and the site listed no proof claim for the
-problem; the thread's literature searches, including an inquiry to Pomerance,
+database, the formal-conjectures file and Alexeev's repository. The site
+listed no proof claim for the problem, and on 2026-10-07 the thread held 30
+comments; the thread's literature searches, including an inquiry to Pomerance,
 found no earlier solution.
 <!-- BEGIN problem library links -->
 

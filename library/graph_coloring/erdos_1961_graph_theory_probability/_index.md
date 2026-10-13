@@ -39,20 +39,20 @@ number.
 
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 
-Read status: claims checked, and clause by clause on the page
-images of the archive's scan (Canad. J. Math. 13 (1961), 346–352; PDF p. $j$
-is printed p. $345+j$), for the Theorem and inequality (2) on printed p. 346
-and for the closing conjecture on printed p. 352; the proof (Lemmas 1–5,
-printed pp. 347–352) was not checked. The Theorem as printed: "Let $A$ be a
-fixed, sufficiently large number. Then for every $n>n_0$ there is a graph
-$\mathfrak G$ having $n$ vertices, which contains no triangle and which does
-not contain a set of $[An^{1/2}\log n]=x$ independent vertices." No notice is
-printed on the scan's first two or last two pages, the scan being the hosting
-archive's copy (users.renyi.hu/~p_erdos), whose index states no terms; the
-journal's article page on Cambridge Core shows "Copyright © Canadian
-Mathematical Society 1961", offers rights and permissions through copyright.com
-and carries no Creative Commons or open-access statement (DOI
-10.4153/CJM-1961-029-9, read 2026-10-02), every other right reserved.
+Read status: claims checked, clause by clause on the page images of the
+archive's scan (Canad. J. Math. 13 (1961), 346–352; PDF p. $j$ is printed p.
+$345+j$), for the Theorem and inequality (2) on printed p. 346 and for the
+closing conjecture on printed p. 352; the proof (Lemmas 1–5, printed pp.
+347–352) was not checked. The Theorem as printed: "Let $A$ be a fixed,
+sufficiently large number. Then for every $n>n_0$ there is a graph $\mathfrak G$
+having $n$ vertices, which contains no triangle and which does not contain a set
+of $[An^{1/2}\log n]=x$ independent vertices." No notice is printed on the
+scan's first two or last two pages, the scan being the hosting archive's copy
+(users.renyi.hu/~p_erdos), whose index states no terms; the journal's article
+page on Cambridge Core shows "Copyright © Canadian Mathematical Society 1961",
+offers rights and permissions through copyright.com and carries no Creative
+Commons or open-access statement (DOI 10.4153/CJM-1961-029-9, read 2026-10-02),
+every other right reserved.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0627/_index|#627]];
 [[../wiki/problems/extremal_graph_theory/E0151/_index|#151]]: the Theorem (printed p. 346,

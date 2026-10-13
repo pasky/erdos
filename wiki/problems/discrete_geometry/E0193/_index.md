@@ -102,7 +102,7 @@ rather than the earlier Hilbert proof, claim 226, which keeps
 as a pending claim. They establish named editorial
 acceptance, without documenting Bloom's whole-proof reading scope or journal
 refereeing. The authors' project
-[timeline](https://erdos-193.q5m.ai/progress.html), as read,
+[timeline](https://erdos-193.q5m.ai/progress.html), as read on 2026-09-08,
 described outside review and community acceptance as pending in its
 original-theorem paragraph; that wording lags Bloom's dated acceptance and is
 recorded as a provenance qualification.

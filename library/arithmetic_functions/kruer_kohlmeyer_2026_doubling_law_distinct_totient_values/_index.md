@@ -57,7 +57,7 @@ formally verified nor a journal publication.
 **The accepted Lean file.** Not held; recorded by URL and size, as the pages of
 Problems 653, 859 and 1062 record theirs:
 <https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution/download>,
-fetched (HTTP 200), 3,270,472 bytes, 64,775 lines, with the
+fetched 2026-09-28T03:02:29Z (HTTP 200), 3,270,472 bytes, 64,775 lines, with the
 hash the PDF prints in §6 for the accepted file and the "Proof SHA-256" of the
 site's solution page. Its header reads "Erdos 416(i): proof adapted to the
 restricted conjectures.io submission format"; its target (line 64567) is

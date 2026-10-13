@@ -51,12 +51,12 @@ The site's key Fe16.
 The copy read for this card
 is arXiv:1109.1407v3 (1 February 2015; "15 pages, to appear in J. Eur. Math.
 Soc"), 15 pages with a complete text layer; the abstract page lists three
-versions (v1 7 September 2011, v2 10 November 2011, v3 1 February 2015) and
-no journal reference. The journal text
-was not compared; the locators below are the preprint's. The statements
-were read on the rendered page images of pp. 1--6. Source:
-<https://arxiv.org/abs/1109.1407>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1109.1407), every other right reserved.
+versions (v1 7 September 2011, v2 10 November 2011, v3 1 February 2015) and no
+journal reference (read 2026-09-18). The journal text was not compared; the
+locators below are the preprint's. The statements were read on the rendered page
+images of pp. 1--6. Source: <https://arxiv.org/abs/1109.1407>. The arXiv record
+names arXiv's non-exclusive distribution license (arXiv:1109.1407), every other
+right reserved.
 
 Read status: claims checked for the abstract, Question 1.1, the two
 non-density cases with their proofs, Theorem 1.2, the definitions of

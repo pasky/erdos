@@ -65,11 +65,11 @@ $(2+\sqrt2)/16$ and the $k\ge3$ cases of the [EFR92] conjecture proved by
 of 25 October 2025 reporting the Füredi--Maleki construction through
 Construction 2 of [GHV19], after which the site records that it was updated, and
 one of 25 July 2026 on typos in the commentary) and its empty proof-claim tab.
-The community database (teorth/erdosproblems, `data/problems.yaml`) lists the
-informal state disproved (last update 25 October 2025) and the status "disproved
-(Lean)" (last update 29 July 2026), with the formal-status URL
-https://github.com/primateria/erdos608 and no formalized statement. Cite as: T.
-F. Bloom, Erdős Problem #608, https://www.erdosproblems.com/608, accessed
+The community database (teorth/erdosproblems, `data/problems.yaml`, read
+2026-10-07) lists the informal state disproved (last update 25 October 2025) and
+the status "disproved (Lean)" (last update 29 July 2026), with the formal-status
+URL https://github.com/primateria/erdos608 and no formalized statement. Cite as:
+T. F. Bloom, Erdős Problem #608, https://www.erdosproblems.com/608, accessed
 2026-10-07.
 
 **References.**
@@ -99,14 +99,14 @@ No formal-conjectures statement exists for the problem.
 
 ## Current assessment
 
-**The question (site formulation of 2026-10-07).** The statement above;
-DISPROVED (LEAN), the site's label for a negative answer whose proof the site
-records as verified in Lean; last edited 25 October 2025. The commentary
-records the Erdős--Faudree--Rousseau triangle count and Erdős's odd-cycle
-statement with its extremal example, the triangle condition that would imply a
-positive answer, the general $C_{2k+1}$ question of [EFR92], and the negative
-answer for $C_5$ credited to Füredi and Maleki as described by [GHV19], with
-the sharp constant $(2+\sqrt2)/16$ and the $k\ge3$ cases proved by [GHV19].
+**The question (site formulation of 2026-10-07).** The statement above; last
+edited 25 October 2025. The site's last label was DISPROVED (LEAN), its label
+for a negative answer whose proof the site recorded as verified in Lean. The
+commentary records the Erdős--Faudree--Rousseau triangle count and Erdős's
+odd-cycle statement with its extremal example, the triangle condition that would
+imply a positive answer, the general $C_{2k+1}$ question of [EFR92], and the
+negative answer for $C_5$ credited to Füredi and Maleki as described by [GHV19],
+with the sharp constant $(2+\sqrt2)/16$ and the $k\ge3$ cases proved by [GHV19].
 The thread holds two comments (25 October 2025 and 25 July 2026), the
 proof-claim tab is empty, and the community database lists the problem as
 disproved (last update 25 October 2025) and disproved (Lean) (last update 29

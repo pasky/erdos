@@ -32,9 +32,8 @@ two moduli with one dividing the other, so the answer is no. The claim page is
 accepted on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/586](https://www.erdosproblems.com/586), accessed
-2026-09-04 and 2026-10-07 (no comments; empty proof-claim tab). Cite
-as: T. F. Bloom, Erdős Problem #586,
-https://www.erdosproblems.com/586.
+2026-09-04 and 2026-10-07 (no comments); its proof-claim tab was empty. Cite
+as: T. F. Bloom, Erdős Problem #586, https://www.erdosproblems.com/586.
 
 **References.**
 

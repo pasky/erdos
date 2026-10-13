@@ -36,8 +36,8 @@ $$
 many even integers of the form $a_{j+1}-a_j$?
 
 **Status.** Open. The site's label was OPEN (page last edited 4 November 2025).
-A partial claim leaves the standing open. The site's proof-claim tab (accessed
-2026-10-07) carries one partial claim, submitted 2026-08-20 by the forum account
+A partial claim leaves the standing open. The site's proof-claim tab carried
+one partial claim, submitted 2026-08-20 by the forum account
 DottedCalculator, the claimant. It comes with a five-page write-up signed by the
 AI system GPT 5.6 Sol. The claim is that for every large $k$, every even number
 up to a constant times $p_k$ is a difference $a_{i+1}-a_i$. So the claim also

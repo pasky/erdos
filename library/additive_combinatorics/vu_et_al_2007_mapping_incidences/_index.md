@@ -51,19 +51,19 @@ current arXiv version: the arXiv v2 manuscript (stamp "arXiv:0711.4407v2
 [math.CO] 15 Apr 2011" on p. 1, which carries the title "Mapping Incidences",
 the three authors and the abstract), 15 pages whose printed numbers equal the
 PDF page numbers, with a text layer. Provenance: downloaded from
-<https://arxiv.org/pdf/0711.4407v2> on 2026-09-22; 211,592 bytes. The arXiv
-comments field says the paper was to appear in the Journal of the London
-Mathematical Society and that v2 dropped v1's Section 3 on the Erdős distance
-problem; the journal version, J. London Math. Soc. (2) 84 (2011), no. 2,
-433--445, DOI 10.1112/jlms/jdr017 (Crossref record read 2026-10-07), was not
-acquired and no version of record was compared. The locators below are the v2
-text's section headings and numbered statements (Sections 1--8, Theorems 2.1,
-2.3, 3.1 and 3.2, Lemma 5.4, Theorem 6.1, Lemma 7.1, Remark 7.2), with the
-printed page numbers, all checked on the printed pages: Section 1 runs pp.
-1--3, Section 2 pp. 3--4, Section 3 pp. 4--5, Section 4 pp. 5--8, Section 5
-pp. 9--10, Section 6 pp. 10--11, Section 7 pp. 11--13, and Section 8 with the
-references pp. 13--15. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:0711.4407), every other right reserved.
+<https://arxiv.org/pdf/0711.4407v2>; 211,592 bytes. The arXiv comments field
+says the paper was to appear in the Journal of the London Mathematical Society
+and that v2 dropped v1's Section 3 on the Erdős distance problem; the journal
+version, J. London Math. Soc. (2) 84 (2011), no. 2, 433--445, DOI
+10.1112/jlms/jdr017 (Crossref record read 2026-10-07), was not acquired and no
+version of record was compared. The locators below are the v2 text's section
+headings and numbered statements (Sections 1--8, Theorems 2.1, 2.3, 3.1 and 3.2,
+Lemma 5.4, Theorem 6.1, Lemma 7.1, Remark 7.2), with the printed page numbers,
+all checked on the printed pages: Section 1 runs pp. 1--3, Section 2 pp. 3--4,
+Section 3 pp. 4--5, Section 4 pp. 5--8, Section 5 pp. 9--10, Section 6 pp.
+10--11, Section 7 pp. 11--13, and Section 8 with the references pp. 13--15. The
+arXiv record names arXiv's non-exclusive distribution license (arXiv:0711.4407),
+every other right reserved.
 
 The text was read in full. Read status: claims checked for the results
 below; the proofs were read for their mechanism but were not independently

@@ -65,8 +65,8 @@ the proof is not checked in this corpus.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem proved, calls it the Erdős sumset conjecture and credits Moreira,
-Richter and Robertson [MRR19] on the problem page. The proof-claim tab was empty
-on 2026-10-07.
+Richter and Robertson [MRR19] on the problem page. The proof-claim tab was
+empty.
 
 Refereed publication: Ann. of Math. (2) 189 (2019), no. 2, 605--652,
 doi:10.4007/annals.2019.189.2.4, issued March 2019 according to the Crossref

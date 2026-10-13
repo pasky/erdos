@@ -22,8 +22,8 @@ third-party Lean certification of the claim's elementary layer.
 
 Liam Price (poster), "Sparse Divisor Sums," AI-generated write-up, 2026. The
 site's proof claim (id 131) reads "A partial proof claimed by Liam Price
-(using GPT 5.6 Sol Pro)," as read on 2026-09-27 (on 2026-10-07 the tab read
-"A proof claimed by ..."), submitted 2026-07-24 14:55:15 (site clock), with
+(using GPT 5.6 Sol Pro)," as read on 2026-09-27 (the tab later read "A proof
+claimed by ..."), submitted 2026-07-24 14:55:15 (site clock), with
 the summary that GPT-5.6 Sol Pro proves $h(n)\ll(\log\log n)^2$ for
 infinitely many practical numbers $n$, "thereby answering affirmatively the
 question whether $h(n)<(\log\log n)^{O(1)}$ for infinitely many practical

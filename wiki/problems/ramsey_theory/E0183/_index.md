@@ -46,8 +46,8 @@ refereed. This project's review of its own reconstruction (under Current
 assessment) is not counted as acceptance.
 
 **Source.** [erdosproblems.com/183](https://www.erdosproblems.com/183), accessed
-2026-09-04 and 2026-10-07: the problem page, its discussion thread (six
-comments, none an objection) and its empty proof-claim tab.
+2026-09-04 and 2026-10-07: the problem page and its discussion thread (six
+comments, none an objection); its proof-claim tab was empty.
 Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
 
 **References.**

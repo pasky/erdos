@@ -50,7 +50,7 @@ and at least -rho(B).
 Granville, Andrew and Soundararajan, K., The spectrum of multiplicative
 functions. Ann. of Math. (2) 153 (2001), no. 2, 407-470, DOI
 10.2307/2661346 (volume, issue and DOI from the Crossref record and the
-journal's article page).
+journal's article page, read 2026-10-07).
 
 The copy read for this card
 is arXiv:math/9909190v1, dated 8 September 1999 on its first page, with 59 PDF

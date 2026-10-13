@@ -44,8 +44,8 @@ question that the site places in section B16 of Guy's collection [Gu04] as well.
 
 **Status.** Verifiable, the site's label (VERIFIABLE; page last edited 16 July
 2026). The site explained this label as open but provable by a finite example.
-No claim settles the question. The site's proof-claims tab (accessed 2026-10-07)
-carries one partial proof claim: Xeff's bound on any solution under Baker's
+No claim settles the question. The site's proof-claims tab carried one partial
+proof claim: Xeff's bound on any solution under Baker's
 explicit abc conjecture. It decides nothing and gets no claim page. The Current
 assessment records it with the reason.
 
@@ -123,9 +123,9 @@ The Lean development was not built or audited by this corpus.
 
 Search scope: the site's problem page, discussion thread and proof-claims tab,
 the manuscript's abstract and main statements, the Lean repository's README, and
-the community database's entry (formal status unformalized); on 2026-10-07 none
-of them recorded another claim on the problem. Nothing on this page is
-independently reviewed.
+the community database's entry (formal status unformalized); the tab recorded no
+other claim on the problem, and on 2026-10-07 none of the others did. Nothing on
+this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -36,9 +36,9 @@ offers), and for items 8 and 14 of Part II on pp. 11 and 13 (the conjecture
 (13) on edge-disjoint monochromatic triangles with its same-color
 companion, and the $C_4$ minimum-degree questions), read clause by clause on the
 page images, and for item 9 of Part I on p. 6 (display (7) and its questions),
-read on the page image; the rest of the digest records an earlier reading. The
-copy read for this card is the author's typescript, which prints no notice on
-its first two or last two pages, from the hosting issue page
+read on the page image; the rest of the digest was not checked against the page
+images. The copy read for this card is the author's typescript, which prints no
+notice on its first two or last two pages, from the hosting issue page
 (https://www.ime.usp.br/~yoshi/resenhas/, read 2026-10-02), which states no
 copyright, license or terms; the term is unstated.
 

@@ -83,7 +83,7 @@ accessed 2026-09-05 (page last edited 2 September 2026, labeled PROVED
 (FORMALIZED), source key [ErGr75]) and 2026-10-07 (page last edited 7
 September 2026, source keys [ErGr75, p. 516] and [ReSt26], the site's key
 for Reed and Stein's arXiv:2609.05417), together with its discussion
-thread of eight comments and its empty proof-claim tab. Cite as: T. F.
+thread of eight comments; its proof-claim tab was empty. Cite as: T. F.
 Bloom, Erdős Problem #557, https://www.erdosproblems.com/557, accessed
 2026-10-07.
 

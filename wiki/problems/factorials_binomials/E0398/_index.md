@@ -49,8 +49,8 @@ accepted partial claim on
 [[problems/factorials_binomials/E0398/claims/2025_08_15_naciri|its claim page]].
 
 **Source.** [erdosproblems.com/398](https://www.erdosproblems.com/398), accessed
-2026-09-04 and, with its discussion thread (ten comments) and its empty
-proof-claims list, 2026-10-07. The site cites the problem from p. 77 of
+2026-09-04 and, with its discussion thread (ten comments), 2026-10-07; its
+proof-claims list was empty. The site cites the problem from p. 77 of
 Erdős and Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős Problem #398,
 https://www.erdosproblems.com/398.
 
@@ -137,8 +137,8 @@ known. It is a pending claim on
 proof-claims list, the OEIS entry A146968 and the sources named above. [Ov93]
 is not held in the library, and the $10^{15}$ bound rests on the OEIS entry's
 report of a program, not on a write-up. The formal-conjectures file is a
-statement of the problem, not a proof. The site's proof-claims list was empty
-on 2026-10-07, and the one claim in its discussion thread is recorded above.
+statement of the problem, not a proof. The site's proof-claims list was empty,
+and the one claim in its discussion thread is recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

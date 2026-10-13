@@ -31,9 +31,9 @@ arbitrary real shifts beta_j(n) and H growing slowly with N.
 
 The copy read for this card is the arXiv version stamped "arXiv:2201.11274v2
 [math.NT] 6 Jan 2023", the canonical version for this card. Provenance:
-downloaded from https://arxiv.org/pdf/2201.11274v2 on 2026-09-25; 293,928 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2201.11274), every other right reserved.
+downloaded from https://arxiv.org/pdf/2201.11274v2; 293,928 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2201.11274),
+every other right reserved.
 
 Ernie Croot, Hamed Mousavi, Maxie Schmidt, "On a conjecture of Graham on the
 p-divisibility of central binomial coefficients," arXiv:2201.11274 (2022);

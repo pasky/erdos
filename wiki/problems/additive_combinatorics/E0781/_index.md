@@ -42,8 +42,8 @@ claim page is
 (accepted on the refereed publication and the site's credit).
 
 **Source.** [erdosproblems.com/781](https://www.erdosproblems.com/781), accessed
-2026-10-07 (no last-edited date; empty discussion thread and proof-claim
-tab). Cite as: T. F. Bloom, Erdős Problem #781,
+2026-10-07 (no last-edited date; empty discussion thread); its proof-claim tab
+was empty. Cite as: T. F. Bloom, Erdős Problem #781,
 https://www.erdosproblems.com/781.
 
 **References.**

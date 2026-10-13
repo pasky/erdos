@@ -59,7 +59,7 @@ $$
 
 for every finite $k\ge1$; the abstract calls this "a conditional affirmative
 answer" to the problem, and the site's claim summary says the ZFC case remains
-open. When read it was the problem's single registered proof claim
+open. When read on 2026-09-27 it was the problem's single registered proof claim
 on the catalog site, listed as partial, submitted 2026-09-05 03:24:00 with the
 concept DOI as its external link and no comments, under the site's standard
 disclaimer that appearance is no guarantee of correctness and that nobody
@@ -68,8 +68,8 @@ attributed the work to Lezhe Gao with AI assistance (the tools it named were not
 recorded before its removal), and the deposit included an archive named
 `AI_interaction_logs.zip`, not fetched. The deposit's owner withdrew it from
 Zenodo on 2026-10-01 (the tombstone, read 2026-10-07, gives the reason
-"Retraction/Withdrawal of a record"), and on 2026-10-07 the site's proof-claims
-tab listed no proof claim for the problem;
+"Retraction/Withdrawal of a record"), and the site's proof-claims tab later
+listed no proof claim for the problem;
 [[../wiki/problems/set_theory/E1171/claims/2026_09_05_gao|the claim page]]
 records the claim as withdrawn. A comment in the problem's discussion thread
 (06:50 on 5 September 2026) asked for the label "not disprovable" on the

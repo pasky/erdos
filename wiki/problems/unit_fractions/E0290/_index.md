@@ -71,7 +71,7 @@ September 2026 sketches $b(a)-a\ll a^{61/80}$ (see the forum items below).
 **Source.** [erdosproblems.com/290](https://www.erdosproblems.com/290),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28
 December 2025), its discussion thread and its
-proof-claim tab, which on 2026-10-07 held five comments and two proof
+proof-claim tab, which later held five comments and two proof
 claims. The site cites [ErGr80, p. 34]. Cite as: T. F. Bloom, Erdős Problem #290,
 https://www.erdosproblems.com/290, accessed 2026-09-17.
 

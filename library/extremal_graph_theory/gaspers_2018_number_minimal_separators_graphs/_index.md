@@ -56,9 +56,10 @@ the proof of Theorem 1 read and followed; the proof of Theorem 2 read, its count
 of minimal $(a,b)$-separators failing as printed (recorded on the Theorem 2
 page), and the constant $(24\cdot3^{46})^{1/144}=1.4521\ldots$ recomputed. The
 journal version's abstract states $\omega(1.4457^n)$ where the preprint states
-$\omega(1.4521^n)$ (the abstract text of its Semantic Scholar record); the
-journal proof was not read. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1503.01203), every other right reserved.
+$\omega(1.4521^n)$ (the abstract text of its Semantic Scholar record, read
+2026-10-07); the journal proof was not read. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1503.01203), every other right
+reserved.
 
 Let sep(n) be the maximum number of minimal separators of an n-vertex graph and
 pmc(n) the maximum number of potential maximal cliques. Theorem 1 reproves the

@@ -80,7 +80,7 @@ site's curator; no Lean proof is recorded. The same paper's Theorem 1 settles
 [[problems/factorials_binomials/E0175/_index|Problem 175]].
 
 Search scope: the site's problem page, its discussion thread and the community
-database; the site listed no proof claim for the problem on 2026-10-07.
+database; the site listed no proof claim for the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

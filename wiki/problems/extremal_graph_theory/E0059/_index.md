@@ -62,8 +62,8 @@ formalization link, which gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/59](https://www.erdosproblems.com/59), accessed
 2026-09-04 and 2026-10-07 (page last edited 23 January 2026; empty
-discussion thread and proof-claim tab). Cite as: T. F. Bloom, Erdős Problem
-#59, https://www.erdosproblems.com/59, accessed 2026-10-07.
+discussion thread); its proof-claim tab was empty. Cite as: T. F. Bloom, Erdős
+Problem #59, https://www.erdosproblems.com/59, accessed 2026-10-07.
 
 **References.**
 
@@ -97,10 +97,10 @@ Neither development was built or audited by this project.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04 and 2026-10-07).** The
-statement above; the site labeled it DISPROVED (LEAN). Its commentary says the
-answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no for
-$G=C_6$, where Morris and Saxton [MoSa16] give at least
+**The question (site formulation, accessed 2026-09-04).** The statement above;
+the site labeled it DISPROVED (LEAN). Its commentary, accessed 2026-10-07, says
+the answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no
+for $G=C_6$, where Morris and Saxton [MoSa16] give at least
 $2^{(1+c)\mathrm{ex}(n;C_6)}$ such graphs for infinitely many $n$ and some
 $c>0$; that the weaker bound $2^{O(\mathrm{ex}(n;G))}$ may still hold for every
 $G$, as Morris and Saxton conjecture; and that [Va99] asks the case $G=C_4$

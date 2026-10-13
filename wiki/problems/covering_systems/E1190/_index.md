@@ -69,11 +69,11 @@ sources alone; Ho's manuscript and both Lean developments, which settle the
 modified Statement, use the same supremum. Allowing the empty family, with
 sum zero, does not change the supremum.
 
-**Status.** Solved with a Lean qualification, the site's label (SOLVED (LEAN),
-page last edited 28 May 2026, accessed 2026-10-07). The site describes the
-supremum of the modified Statement and derives the estimate from the resolution
-of Problem 202. The modified Statement is solved at the sharp logarithmic scale
-by
+**Status.** Solved with a Lean qualification; the site's label was SOLVED
+(LEAN), and its page, accessed 2026-10-07, was last edited 28 May 2026. The site
+describes the supremum of the modified Statement and derives the estimate from
+the resolution of Problem 202. The modified Statement is solved at the sharp
+logarithmic scale by
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's accepted claim page]].
 
 **Source.** [erdosproblems.com/1190](https://www.erdosproblems.com/1190)

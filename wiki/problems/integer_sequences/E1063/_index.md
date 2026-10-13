@@ -26,12 +26,11 @@ $n_k$.
 
 **Status.** Open. The site's label was OPEN (page last edited 01 February 2026).
 
-The site's proof-claims tab (proof-claims thread accessed 2026-10-07) carries
-two partial proof claims by Ricky Cipollini. Both attribute the proof to the
-model GPT-5.6 Sol, and both point to one write-up on a collaborative editing
-service. The first, submitted 2026-07-27, is an upper bound of the shape
-$\log n_k\le (1+o(1))\,k\log\log k/\log k$ with explicit second-order terms. It
-is recorded on
+The site's proof-claims tab carried two partial proof claims by Ricky Cipollini.
+Both attribute the proof to the model GPT-5.6 Sol, and both point to one
+write-up on a collaborative editing service. The first, submitted 2026-07-27, is
+an upper bound of the shape $\log n_k\le (1+o(1))\,k\log\log k/\log k$ with
+explicit second-order terms. It is recorded on
 [[problems/integer_sequences/E1063/claims/2026_07_27_cipollini|its claim page]].
 The second, submitted 2026-08-04, is a lower bound of the shape
 $\log n_k\ge c(\log k)^2$. It is recorded on

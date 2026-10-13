@@ -166,8 +166,8 @@ The
 records the problem proved, the statement formalized, no formal proof and
 OEIS A059442 (its status entry last updated 31 August 2025 and its
 formalization entry 9 September 2026); the site's indicator read
-"Formalised statement? Yes" and not on 2026-09-05. Nothing
-from either file was built or audited in this corpus.
+"Formalised statement? Yes" on 2026-09-18 and not on 2026-09-05. Nothing from
+either file was built or audited in this corpus.
 
 ## Current assessment
 

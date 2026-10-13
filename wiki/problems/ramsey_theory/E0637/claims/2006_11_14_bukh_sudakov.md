@@ -68,9 +68,9 @@ PROVED and credits Bukh and Sudakov with the proof in the problem's commentary
 commentary is the whole of the site's record. Refereed: J. Combin. Theory Ser. B
 97 (2007), no. 4, 612--619, DOI 10.1016/j.jctb.2006.09.006, received 21 June
 2006 and available online 14 November 2006 (the published article and its
-Crossref record). The acknowledgments thank both referees. On 2026-09-18
-Semantic Scholar listed 21 citing records, none of them, by its title, a
-dispute or refutation.
+Crossref record, accessed 2026-09-18). The acknowledgments thank both referees.
+On 2026-09-18 Semantic Scholar listed 21 citing records, none of them, by its
+title, a dispute or refutation.
 
 **Read depth.** Claims checked: Theorem 1.1 (p. 613), the remark after its
 proof and Proposition 2.4 (p. 616). The proof (Section 2, pp. 613--616: a

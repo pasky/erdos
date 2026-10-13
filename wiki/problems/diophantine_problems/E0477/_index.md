@@ -146,14 +146,14 @@ states that for every integer $d\geq5$ a
 computable set $A_d$ complements $\{n^d:n\geq0\}$, and explicitly
 specializes to all-integer sixth powers. The linked
 [Overleaf manuscript](https://www.overleaf.com/read/whnsywnmykqm#4b6ba0)
-showed only its application shell at the shared link in the status search, so no
-page here rests on its proof and the link is unpinned. Bloom's exposition writes
-the tiled set as $\{n^d:n\geq1\}$, while the site's commentary states the result
-for the full image $f(\mathbb Z)$ with $f(n)=n^d$ and even $d\ge6$; the
-exposition is not a local proof for the nonnegative or all-integer even-power
-image until that endpoint is reconciled, and no page here checks its cited
-Salberger theorem. These limitations do not affect the all-integer
-thirteenth-power statement above.
+showed only its application shell at the shared link in the status search of 9
+September 2026, so no page here rests on its proof and the link is unpinned.
+Bloom's exposition writes the tiled set as $\{n^d:n\geq1\}$, while the site's
+commentary states the result for the full image $f(\mathbb Z)$ with $f(n)=n^d$
+and even $d\ge6$; the exposition is not a local proof for the nonnegative or
+all-integer even-power image until that endpoint is reconciled, and no page here
+checks its cited Salberger theorem. These limitations do not affect the
+all-integer thirteenth-power statement above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

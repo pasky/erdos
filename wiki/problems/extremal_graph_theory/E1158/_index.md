@@ -341,10 +341,10 @@ paper's volume is dated 1964 (a Formulation note above).
 routes below found a construction attaining the exponent $t-r^{1-t}$ for any
 $t\ge3$, a disproof, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, as accessed
-  2026-09-18 and again on 2026-10-13 (the page last edited 23 January 2026,
-  one comment, no proof claim); the formal-conjectures directory listing and
-  the community database, as of 2026-09-18 and 2026-10-07 (the Formalization
+- The site: problem page and discussion thread, as accessed 2026-09-18 and
+  again on 2026-10-13 (the page last edited 23 January 2026, one comment), and
+  the proof-claim tab (no proof claim); the formal-conjectures directory listing
+  and the community database, as of 2026-09-18 and 2026-10-07 (the Formalization
   paragraph records what each recorded on each date).
 - The primary sources, to the depth stated above: [Er64f] pp. 183--190 (all
   eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3, [Go23] pp. 1--3 and

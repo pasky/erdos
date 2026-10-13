@@ -216,10 +216,9 @@ whether $\rho_n>1$ holds infinitely often; a suggestion for $h$; and the
 site author's note that [Er98] calls it an old problem, that [ScSz59]
 attribute it to a personal communication of Erdős, and that the strong
 conjecture would mean $\rho_n>1$ only for $n=5$ and $n=11$. The proof-claim
-tab is empty. On 2026-10-07 the page showed the same edit date, three
-comments and no proof claim. The
-[[problems/integer_sequences/E0542/claims/_index|claim pages]] record the
-results.
+tab is empty. On 2026-10-07 the page showed the same edit date and three
+comments. The [[problems/integer_sequences/E0542/claims/_index|claim pages]]
+record the results.
 
 **The origins.** [Er73], item 14.1 (pp. 134--135): condition (14.1),
 "$[a_i,a_j]>n$, $1\le i<j\le k$. In other words, no $m\le n$ is divisible by two

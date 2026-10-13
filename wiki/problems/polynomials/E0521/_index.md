@@ -152,7 +152,7 @@ written notes and Snyder's development have not been examined here, and the
 $\{0,1\}$ variant, which does not enter the standing, remains open.
 
 Search scope: the site's problem page as exported (last edited 19 October 2025),
-its discussion thread (20 comments) and proof-claims tab (accessed 2026-10-07),
+its discussion thread (20 comments, accessed 2026-10-07) and proof-claims tab,
 the community database entry (open), the formal-conjectures file and the index
 entry of the pinned Lean proof, Boris Alexeev's lean-proofs repository, the
 GitHub repositories and notes linked from the thread, and an arXiv author search

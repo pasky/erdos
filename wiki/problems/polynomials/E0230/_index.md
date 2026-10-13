@@ -99,7 +99,7 @@ construction also answers; the constant-factor flatness of real signs is
 [[problems/polynomials/E0228/_index|Problem 228]].
 
 Search scope: the site's problem page as exported (last edited 2026-01-23)
-and its empty proof-claims tab as of 2026-10-07, the formal-conjectures
+and its empty proof-claims tab, the formal-conjectures
 statement file and the header and theorem statement of the lean-proofs file
 at their pinned commits, the Bombieri–Bourgain paper, and the release's
 manuscripts and Lean folder at the pinned revision of 2026-10-06; no forum

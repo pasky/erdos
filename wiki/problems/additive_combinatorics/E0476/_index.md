@@ -296,7 +296,7 @@ Acceptance evidence: the Bulletin of the London Mathematical Society, the
 American Mathematical Monthly and the Journal of Number Theory are refereed;
 the site's commentary; the theorem is standard in the literature on restricted
 sumsets (the Dias da Silva--Hamidoune paper had 100 citing records in the
-citation index consulted, including 2026 preprints giving new
+citation index consulted on 2026-09-18, including 2026 preprints giving new
 proofs). Read depth: claims checked for Theorem 4.1, Corollary 3.3 and Theorem
 3.2 of [dSHa94], the proof of Theorem 4.1 read in full and the chain behind it
 for structure, for Theorems 1 and 2 of [ANR95], the proof of Theorem 2 read in

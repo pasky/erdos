@@ -18,8 +18,8 @@ updated: 2026-10-08T01:29:58Z
 Raphael Steiner, On the difference between the chromatic and cochromatic number.
 arXiv:2408.02400 (2024); published in SIAM J. Discrete Math. 39 (2025), no. 4,
 2268--2274, doi:10.1137/24M1715180, published online 2025-11-17 (Crossref record
-read). The copy read for this card is arXiv:2408.02400v2 (20 August 2024); the
-journal text was not compared. The arXiv record
+read 2026-10-07). The copy read for this card is arXiv:2408.02400v2 (20 August
+2024); the journal text was not compared. The arXiv record
 (https://arxiv.org/abs/2408.02400, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

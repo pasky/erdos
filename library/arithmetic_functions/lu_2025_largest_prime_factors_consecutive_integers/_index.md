@@ -28,18 +28,17 @@ Monatsh. Math. 206 (2025), no. 2, 403--418, doi:10.1007/s00605-024-02036-z
 
 The copy read for this card is the HAL v1 preprint: a HAL cover sheet (physical PDF p. 1) followed by
 the thirteen-page manuscript dated January 31, 2018 (manuscript p. $n$ is
-PDF p. $n+1$), a typeset PDF with a clean text layer. Provenance: downloaded
-in September 2026; the cover sheet names the HAL record
-<https://hal.science/hal-01797939v1>; 255,353 bytes. The published version and
-HAL v2 were not compared, so the
-statements below are those of the 2018 text and may differ from the cited 2025
-version. Read status: claims checked for Theorem 1 of this text (the abstract,
-section 1 and the statement were read clause by clause on the page images); the
-proof in sections 2--4 was read but not checked step by step. That preprint's
-cover sheet prints "HAL Authorization", and HAL's own record names the HAL
-authorization v1 (https://about.hal.science/hal-authorisation-v1/) as the
-deposit's license, the depositor's authorization for HAL to distribute it, with
-no public reuse grant (HAL API record, read 2026-10-02; the record page
+PDF p. $n+1$), a typeset PDF with a clean text layer. Provenance: the cover
+sheet names the HAL record <https://hal.science/hal-01797939v1>; 255,353 bytes.
+The published version and HAL v2 were not compared, so the statements below are
+those of the 2018 text and may differ from the cited 2025 version. Read status:
+claims checked for Theorem 1 of this text (the abstract, section 1 and the
+statement were read clause by clause on the page images); the proof in sections
+2--4 was read but not checked step by step. That preprint's cover sheet prints
+"HAL Authorization", and HAL's own record names the HAL authorization v1
+(https://about.hal.science/hal-authorisation-v1/) as the deposit's license, the
+depositor's authorization for HAL to distribute it, with no public reuse grant
+(HAL API record, read 2026-10-02; the record page
 https://hal.science/hal-01797939v1 could not be read on 2026-10-02), every other
 right reserved.
 

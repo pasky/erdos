@@ -35,9 +35,9 @@ reaches the site's question.
 
 **Source.** [erdosproblems.com/71](https://www.erdosproblems.com/71), accessed
 2026-10-07 (problem page; discussion thread with four posts, on the
-formalization and on the publisher's incomplete online copy; empty proof-claim
-tab). Cite as: T. F. Bloom, Erdős Problem #71, https://www.erdosproblems.com/71,
-accessed 2026-10-07.
+formalization and on the publisher's incomplete online copy); its proof-claim
+tab was empty. Cite as: T. F. Bloom, Erdős Problem #71,
+https://www.erdosproblems.com/71, accessed 2026-10-07.
 
 **References.**
 
@@ -69,14 +69,14 @@ or checked the proof and claims no kernel credit.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-10-07).** The statement above;
-the site labeled it PROVED (LEAN). The formal-conjectures docstring says Erdős
-credits the conjecture to himself and Burr in [Er82e], that Bollobás [Bo77]
-proved it, and that the best dependence of $c(P)$ is unknown. The discussion
-thread has four posts: one of 2026-05-24 announcing the Lean formalization, and
-three of February 2026 noting that the publisher's online copy of [Bo77] shows
-only its first page and supplying a scan of both pages. The proof-claim tab is
-empty.
+**The question (site formulation, accessed 2026-10-07).** The statement above.
+The site's last label was PROVED (LEAN). The formal-conjectures docstring says
+Erdős credits the conjecture to himself and Burr in [Er82e], that Bollobás
+[Bo77] proved it, and that the best dependence of $c(P)$ is unknown. The
+discussion thread has four posts: one of 2026-05-24 announcing the Lean
+formalization, and three of February 2026 noting that the publisher's online
+copy of [Bo77] shows only its first page and supplying a scan of both pages. The
+proof-claim tab was empty.
 
 **Status support.** [Bo77], in the scan of both pages linked from the thread.
 The conjecture the note proves (p. 97): for every odd $k$ there is $c_k$ such

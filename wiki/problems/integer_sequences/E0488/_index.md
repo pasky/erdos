@@ -112,8 +112,8 @@ accessed 2026-09-18: the problem page (FALSIFIABLE;
 last edited 8 April 2026; source keys [Er61, p. 236], [Er66, p. 150], [Er80,
 p. 112], with [Gu04] in the commentary), its 31-comment discussion thread
 (27 November 2025 to 27 August 2026) and its proof-claim tab with a partial
-claim of 28 August 2026 and a full claim of 5 September 2026; the tab's
-third entry, a partial claim of 29 September 2026, and the unchanged page
+claim of 28 August 2026 and a full claim of 5 September 2026, whose third
+entry, a partial claim of 29 September 2026, came later; and the unchanged page
 (last edited 8 April 2026) as accessed 2026-10-07. Cite as: T. F.
 Bloom, Erdős Problem #488, https://www.erdosproblems.com/488, accessed
 2026-09-18.

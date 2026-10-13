@@ -91,7 +91,7 @@ authors' note; the manuscript at the Overleaf link is not assessed. Nothing here
 is this project's own review.
 
 **Standing.** Claimed: a shared Overleaf manuscript with no arXiv or journal
-record found. On 2026-10-07 the proof-claim tab showed the claim with no
+record found. The proof-claim tab showed the claim with no
 comments and the site's standing notice that appearing on the tab means no one
 at the site has examined the proof. The site's label was OPEN (page last edited
 18 January 2026).

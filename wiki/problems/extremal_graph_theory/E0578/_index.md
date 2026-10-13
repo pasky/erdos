@@ -131,9 +131,9 @@ Acceptance evidence: Combinatorics, Probability and Computing is refereed (vol.
 statement as printed (its number, page and quantifiers), the range of $M$ in the
 normality statement, and the proof; an abstract is not the text, and the label
 rested on the site's acceptance together with this abstract, not on a reading of
-the theorem. The Semantic Scholar record of the paper counts 91 citing works,
-2001--2026, whose titles were scanned: they use it for spanning structures in
-random graphs and none is a correction or a contrary claim.
+the theorem. The Semantic Scholar record of the paper (read 2026-09-18) counts
+91 citing works, 2001--2026, whose titles were scanned: they use it for spanning
+structures in random graphs and none is a correction or a contrary claim.
 
 **The origin and the earlier partial result.**
 [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/problem_80|Problem (80)]]

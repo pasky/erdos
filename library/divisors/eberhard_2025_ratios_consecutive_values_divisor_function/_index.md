@@ -57,13 +57,13 @@ from <https://wrap.warwick.ac.uk/id/eprint/194323/7/1-s2.0-S0022314X25002926-mai
 `eberhard_2025_ratios_consecutive_values_divisor_function_arxiv_v2.pdf`, and
 arXiv v1 (27 April 2025) is retained as
 `eberhard_2025_ratios_consecutive_values_divisor_function_arxiv_v1.pdf`.
-The arXiv record and both retained versions were accessed 2026-09-05 at
-<https://arxiv.org/abs/2505.00727>.
-All three PDFs render cleanly; the published version and arXiv v2 have three
-pages, while v1 has two pages and omits the explicit equalizing exponents. The
-published file, `eberhard_2025_ratios_consecutive_values_divisor_function.pdf`,
-prints "0022-314X/© 2025 The Author(s). Published by Elsevier Inc. This is an
-open access article under the CC BY license
+The arXiv record and both retained versions were accessed at
+<https://arxiv.org/abs/2505.00727>. All three PDFs render cleanly; the published
+version and arXiv v2 have three pages, while v1 has two pages and omits the
+explicit equalizing exponents. The published file,
+`eberhard_2025_ratios_consecutive_values_divisor_function.pdf`, prints
+"0022-314X/© 2025 The Author(s). Published by Elsevier Inc. This is an open
+access article under the CC BY license
 (http://creativecommons.org/licenses/by/4.0/)." on its first page, the Creative
 Commons Attribution 4.0 license. For
 `eberhard_2025_ratios_consecutive_values_divisor_function_arxiv_v1.pdf` the

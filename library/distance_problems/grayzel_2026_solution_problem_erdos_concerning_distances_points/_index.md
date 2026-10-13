@@ -56,7 +56,7 @@ distance question, not f_d(n), and not the separate distance problems those
 entries concern.
 
 **Version read.** The copy read for this card is
-arXiv:2601.09102v2. The official arXiv history identifies
+arXiv:2601.09102v2. The official arXiv history, checked 2026-09-06, identified
 v2 from 16 January 2026 as the latest version. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2601.09102), every other right
 reserved.

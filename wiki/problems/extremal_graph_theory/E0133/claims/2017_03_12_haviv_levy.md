@@ -54,7 +54,7 @@ paper presents the theorem as extending Hanson and Seyffarth's construction,
 which covers the sequence $n=m^2+5m+2$, to every $n$. The constant $c$ is
 not made explicit, and the site's commentary records the paper as giving an
 alternative construction of the symmetric complete sum-free sets behind
-Hanson and Seyffarth's bound. The sequence case is
+Hanson and Seyffarth's bound (read 2026-10-07). The sequence case is
 [[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|Hanson and Seyffarth's]]
 and the sharper constant for all large $n$ is
 [[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|Füredi and Seress's]];

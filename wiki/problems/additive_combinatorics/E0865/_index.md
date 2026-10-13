@@ -90,9 +90,11 @@ https://www.erdosproblems.com/865, accessed 2026-09-18.
 **References.**
 
 - [Ci26] Cipollini, R., A sharp 5/8 bound for an Erdős--Sós pairwise-sums
-  problem. arXiv:2606.29361v1 (28 June 2026), 7 pp. A preprint whose first
-  page declares AI assistance. Theorem 1.1, p. 1; Remark 1.2 and Lemma
-  2.1, p. 2; Lemma 3.1, p. 4; display (6), p. 5; Section 5, p. 7. Library home:
+  problem. arXiv:2606.29361v1 (28 June 2026), 7 pp.; on 2026-09-18 the only
+  arXiv version, with no journal reference and no Crossref record. A preprint
+  whose first page declares AI assistance. Theorem 1.1, p. 1; Remark 1.2 and
+  Lemma 2.1, p. 2; Lemma 3.1, p. 4; display (6), p. 5; Section 5, p. 7. Library
+  home:
   [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/_index|cipollini_2026_sharp_5_8_bound_erdos_sos]];
   claim page
   [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/theorem_1_1|Theorem 1.1]].

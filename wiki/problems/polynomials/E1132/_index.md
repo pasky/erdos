@@ -67,9 +67,9 @@ question for an arbitrary triangular array, of which the Statement's single
 sequence is a special case; for non-nested arrays Gu's companion note claims
 the answer no.
 
-**Status.** The site labeled the problem OPEN (page last edited 01 April 2026;
-proof-claims tab accessed 2026-10-07). The derived standing in the frontmatter
-is open. The tab carries one proof claim, submitted as full, by Qiyuan Gu (using
+**Status.** The site labeled the problem OPEN (page last edited 01 April 2026).
+The derived standing in the frontmatter is open. The tab carried one proof
+claim, submitted as full, by Qiyuan Gu (using
 GPT-6 Astra, GPT-5.6 Sol, Claude Opus 5, as the tab writes it). It was posted
 2026-09-05 with a Zenodo write-up. It claims the almost-everywhere $\limsup$
 bound as asked. It also claims the first question with a constant that may

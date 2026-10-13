@@ -114,8 +114,8 @@ a single kernel implementation.
 The accepting body is the bounty site alone. This is a source-supported solution
 accepted by that site, distinct from a claim of journal refereeing. There is no
 refereed publication, no erdosproblems.com acceptance and no formal-conjectures
-agreement. The erdosproblems.com page kept the label OPEN. On 2026-10-07 the
-page showed no proof claim its curator had verified. The formal-conjectures
+agreement. The erdosproblems.com page kept the label OPEN and showed no proof
+claim its curator had verified. The formal-conjectures
 default branch of 2026-09-18 keeps both parts `research open` with
 `answer(sorry)`. Conjectures.io's own note records that the Erdős Problem a Day
 report of 26 July 2026 left both asymptotic questions unresolved.

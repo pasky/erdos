@@ -71,11 +71,11 @@ digests the paper.
 **Acceptance.** Refereed publication: Adv. Math. 298 (2016), 534--580,
 doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labeled the
 problem disproved and credits Morris and Saxton [MoSa16] with exactly this
-statement. The thread and the proof-claim tab were empty on 2026-10-07 (page
-last edited 2026-01-23). The text cited is arXiv:1309.2927v3 (11 November 2015;
-v1 posted 11 September 2013, the date of this page). Proof coverage: the
-statement of Proposition 1.4 and the opening of its proof. The proofs of
-Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
+statement. The proof-claim tab was empty, and the thread was empty on
+2026-10-07 (page last edited 2026-01-23). The text cited is arXiv:1309.2927v3
+(11 November 2015; v1 posted 11 September 2013, the date of this page). Proof
+coverage: the statement of Proposition 1.4 and the opening of its proof. The
+proofs of Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
 
 **Formalization.** The module `src/latest/ErdosProblems/Erdos59.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean `v4.33.0`; first added
