@@ -105,4 +105,6 @@ Ford's elementary scale. The release's own catalog entry names only the scaling
 question as answered. The claim therefore stays `claimed`: the site labeled the
 problem OPEN, the formal-conjectures statement `erdos_416.parts.ii` has no
 accepted proof, and no reviewer, referee or catalog has ruled that this
-equivalent is the formula asked for.
+equivalent is the formula asked for. When formal-conjectures marked `parts.i`
+solved on 11 October 2026, its commit left `parts.ii` `research open` on
+purpose, saying that the main term needs many auxiliary definitions.

@@ -61,7 +61,12 @@ https://www.erdosproblems.com/371.
   (2021), 1-11.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/371.lean).
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/371.lean)
+as `erdos_371`, at the file's commit of 2026-10-11. That commit changed the
+statement's category from `research open` to `research solved` and added a
+`formal_proof` attribute linking the release's
+[`increasing_order`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/JointDickman/PaperMain.lean#L21)
+at the revision pinned on the claim page; the catalog's own proof stays `sorry`.
 The release's declaration `OAI.JointDickmanPaper.increasing_order`, pinned by
 its comparator challenge `JointDickman.lean`, proves the Statement; this corpus
 built it from the pinned revision with the axioms `propext`, `Classical.choice`

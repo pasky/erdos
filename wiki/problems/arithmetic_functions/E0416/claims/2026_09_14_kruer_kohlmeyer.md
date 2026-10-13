@@ -105,7 +105,11 @@ of the file found no `sorry`, no axiom declaration, no `native_decide` and no
 Not refereed: no journal or arXiv version exists. The site erdosproblems.com
 lists the record as an unverified partial proof claim, posted by its maintainer
 on 2026-09-27 with an explicit non-endorsement, and labeled the problem OPEN.
-The formal-conjectures statement `parts.i` is categorized `research open`, as it
-has been since the file was added in July 2025. A second, independent formal
-proof of the same limit, for every real scale $c>0$, is the OpenAI release's
+The formal-conjectures statement `parts.i` was categorized `research open` from
+the file's addition in July 2025 until 11 October 2026, when the catalog marked
+it `research solved` with a `formal_proof` link to the OpenAI release's theorem,
+not to this file
+([`416.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
+A second, independent formal proof of the same limit, for every real scale
+$c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].

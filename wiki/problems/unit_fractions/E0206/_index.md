@@ -66,9 +66,9 @@ derives. That evidence is refereed publication and the curator's credit.
 **Source.** [erdosproblems.com/206](https://www.erdosproblems.com/206),
 accessed 2026-09-17: the problem page
 (DISPROVED (LEAN); no last-edited date shown), its five-comment discussion
-thread and its empty proof-claim tab. The site cites [ErGr80, p. 31]. Cite
-as: T. F. Bloom, Erdős Problem #206, https://www.erdosproblems.com/206,
-accessed 2026-09-17.
+thread and its empty proof-claim tab; the problem page was read again on
+2026-10-13. The site cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
+Problem #206, https://www.erdosproblems.com/206, accessed 2026-09-17.
 
 **References.**
 
@@ -91,6 +91,10 @@ accessed 2026-09-17.
 - [KoTa26] Kovač, V. and Tang, Q., Eventually greedy best Egyptian
   underapproximations of rational numbers via optimal control.
   arXiv:2607.28387v2 (4 August 2026), 30 pages; preprint.
+- [Sh26] Shi, Y., A computable transcendental number without eventually
+  greedy best Egyptian underapproximations. Version 1.0.0 (10 October 2026),
+  7 pages, Zenodo, doi:10.5281/zenodo.23283007; preprint. Its Lean
+  development is Palomar registry entry PALOMAR-2026-10-11-000014.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/206.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/206.lean)
@@ -208,8 +212,25 @@ gives, non-constructively, a transcendental number without the property.
   and Tang write that they cannot resolve it. A site comment of 9 August
   2025 speculates that all algebraic numbers are eventually greedy; it
   carries no argument.
-- an explicit non-example: open. Kovač's Corollary 2 is non-constructive.
-  In the other direction, Kovač and Tang's Example 2 gives an explicit
+- an explicit non-example: claimed in a preprint; Kovač's Corollary 2 is
+  non-constructive. Theorem 1 of Shi
+  ([Sh26](https://doi.org/10.5281/zenodo.23283007), 10 October 2026)
+  defines, by a rational nested-interval recursion with every choice fixed,
+  a transcendental $x\in(1/4,1/3)$ that is not eventually greedy in Kovač's
+  sense, ties included; the midpoints $q_n$ of its stages satisfy
+  $|x-q_n|\le2^{-n-1}$, so $x$ is computable. Stage $j$ uses Kovač's
+  two-term comparison (his (2.1) at $k=1$) to find an interval of targets on
+  which no continuation of the $j$-th finite denominator prefix is optimal at
+  every later order, and keeps the $j$-th nonzero integer polynomial away
+  from zero. A Lean development of the construction and the theorem is
+  registered in the Palomar registry as
+  [PALOMAR-2026-10-11-000014](https://palomar-registry.org/entry?id=PALOMAR-2026-10-11-000014&version=1)
+  on 11 October 2026, its repository pinned at
+  [the registered commit](https://github.com/yuhangshi888/erdos-206-explicit-counterexample/tree/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/formalization).
+  The preprint is unrefereed and claims no priority for its methods; this
+  corpus has neither checked its proof nor built the Lean development, and
+  the site's commentary (read 2026-10-13) still calls an explicit example
+  open. In the other direction, Kovač and Tang's Example 2 gives an explicit
   irrational, the Liouville number $\sum_{n\ge1}2^{-n!}$, whose greedy
   $n$-term underapproximation is the unique best one for every $n$, in both
   conventions, answering Nathanson's Open problem (1).
@@ -234,11 +255,16 @@ claimed. The community database (teorth/erdosproblems)
 lists `formal_status` Lean, as of its entry's last update on 28 April 2026,
 and no formal-proof URL.
 
-**Search scope.** None of the routes below found a refereed source changing the answer above, a published version
-of the rational claim, or an explicit non-example.
+**Search scope.** None of the routes below found a refereed source changing
+the answer above, a published version of the rational claim, or a refereed
+explicit non-example.
 
-- The site: problem page, discussion thread and proof-claim tab (empty);
-  formal-conjectures at the pinned commit; the community database file.
+- The site: problem page, discussion thread and proof-claim tab (empty), and
+  the problem page again on 2026-10-13; formal-conjectures at the pinned
+  commit; the community database file.
+- Shi's preprint [Sh26]: its Zenodo record (version 1.0.0, 10 October 2026)
+  with the PDF and its source files, and its Palomar registry record
+  (PALOMAR-2026-10-11-000014, version 1) with the repository commit it pins.
 - arXiv abstract pages for 2406.07218 (v1 11 June 2024, v2 13 June 2024, v3
   26 September 2024; no journal reference), 2607.28387 (v1 30 July 2026,
   v2 4 August 2026), 2306.12564 (v1 19 June 2023, v2 20 January 2024) and
@@ -268,8 +294,9 @@ $x=1$ theorems are paged, and no $1/m$ statement was located on the pages
 read. (3) The rational companion is a preprint claim with a disclosed
 AI-assisted proof; it becomes a recorded result when a refereed version or
 an independent review appears. (4) Published versions of three sources are
-not compared with their arXiv versions. (5) No explicit non-example and
-no result on algebraic $x$ exist in the sources read. (6) The Lean artifacts
+not compared with their arXiv versions. (5) The explicit non-example rests
+on an unrefereed preprint whose Lean development is not built here, and no
+result on algebraic $x$ exists in the sources read. (6) The Lean artifacts
 are pointers, not local evidence.
 <!-- BEGIN problem library links -->
 

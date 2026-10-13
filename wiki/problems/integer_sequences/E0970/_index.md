@@ -162,7 +162,20 @@ and `jacobsthalFunction (k : ℕ) : ℕ := sInf {m : ℕ | IsJacobsthalBound k m
 the site's $h(k)$ with distinct prime factors, and declares
 `erdos_970 : answer(sorry) ↔ ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2`
 under `category research open`, with proof `sorry` and no `formal_proof`
-attribute; its header cites [FGKMT18] and [Iw78]. The community database
+attribute; its header cites [FGKMT18] and [Iw78]. On 2026-10-11 the catalog
+changed the file
+([`970.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/970.lean)):
+there `erdos_970` has `answer(True)`, the category `research solved` and a
+`formal_proof` attribute linking the release's
+[`erdos_970_quadratic`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Jacobsthal/Conclusions/QuadraticBound.lean#L13)
+at the revision pinned on the claim page, and a new variant
+`erdos_970.variants.iterated_log`, the bound $h(k)\le Ck^2/(\log\log 3k)^2$,
+is marked `research solved` with a link to
+[`erdos_970_iterated_log`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Jacobsthal/Conclusions/IteratedLogBound.lean#L59);
+both keep `sorry` proofs in the file. These labels cover the displayed
+question and its strengthening only; the file's docstring says that the order
+of magnitude of $h(k)$ remains open, and the iterated-logarithm declaration
+stays unaccepted here. The community database
 (accessed 2026-09-18) lists the problem open as of its last update, of 31
 August 2025, the statement formalized since 7 September 2026, `formal_status`
 unformalized, no formal-proof URL, the comment "Jacobsthal's function" and

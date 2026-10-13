@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-13T11:42:48Z
 ---
 
 # Problem 1076
 
 [[problems/set_systems/_index|..]]
 
-[[problems/set_systems/E1076/claims/_index|claims/]]: The 7 claim pages of Problem 1076, one per claimant's result; the problem's standing derives from them.
+[[problems/set_systems/E1076/claims/_index|claims/]]: The 9 claim pages of Problem 1076, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -49,8 +49,11 @@ forbidden together. Under that wording the displayed asymptotic is false: the
 limit is $1/5$ at $k=5$ ([Gl19]), $7/36$ at $k=6$ ([GJKKLP24]), $1/5$, $61/330$
 and $1/5$ at $k=7,8,9$ ([GKLPS26]) and at least $3/16$ at $k=10$ ([PiSu26]), all
 refereed, and the file for the problem in Boris Alexeev's lean-proofs collection
-refutes the $k=5$ case with explicit systems of density $92/529$; only the lower
-bound $(1/6-o(1))n^2$ holds, for every $k$, by [BoWa19] and [GKLO20]. The site's
+refutes the $k=5$ case with explicit systems of density $92/529$. The preprint
+[CHL26] extends the failure to every $k\ge5$, with limit $1/5$ at every odd $k$
+and a limit above $1/6$ at every even $k$, and the preprint [BPSWZ26] proves
+independently that the limit is $1/5$ at $k=11$; only the lower bound
+$(1/6-o(1))n^2$ holds, for every $k$, by [BoWa19] and [GKLO20]. The site's
 curator, Thomas Bloom, reads the problem as the approximate form of Problem 207,
 in which every $(j,j-2)$-configuration with $4\le j\le k$ is forbidden at once.
 The site's commentary (page last edited 7 October 2025, after Zach Hunter's
@@ -72,11 +75,12 @@ literature treats the single-family question as Erdős's. The answer to the
 site's wording is no, by the four refereed papers; their results are correct,
 but they answer the printed wording (a single family $\mathcal F_k$), not the
 corrected Statement (the cumulative family), so their claim pages are kept and
-rejected and do not count toward the problem's standing, and Alexeev's file is
-rejected for the same reason. The answer to the corrected Statement is yes, and
-the problem is proved. Collin Yuanjie Ren's Lean submission states the corrected
-Statement and assembles its proof from the formalized theorem on Problem 207;
-the lean-proofs file states the site's wording. Neither is built here.
+rejected and do not count toward the problem's standing, and Alexeev's file and
+the two preprints are rejected for the same reason. The answer to the corrected
+Statement is yes, and the problem is proved. Collin Yuanjie Ren's Lean
+submission states the corrected Statement and assembles its proof from the
+formalized theorem on Problem 207; the lean-proofs file states the site's
+wording. Neither is built here.
 
 **Status.** The site's label was PROVED (page last edited 7 October 2025). That
 label describes the corrected Statement. The site's remark credits the
@@ -95,9 +99,13 @@ at $k=7,8,9$
 and at $k=10$
 ([[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|Pikhurko–Sun 2026]]),
 all refereed. It is also refuted at $k=5$ by the Lean file
-[[problems/set_systems/E1076/claims/2026_08_17_alexeev|Alexeev 2026]]. Those
-five claim pages are rejected, because they answer the site's wording, not the
-corrected Statement.
+[[problems/set_systems/E1076/claims/2026_08_17_alexeev|Alexeev 2026]], at every
+$k\ge5$ by the preprint
+[[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao–Huang–Liu 2026]]
+and at $k=11$, independently, by the preprint
+[[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár–Pikhurko–Sun–Wang–Zeng 2026]].
+Those seven claim pages are rejected, because they answer the site's wording,
+not the corrected Statement.
 
 **Source.** [erdosproblems.com/1076](https://www.erdosproblems.com/1076),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1076,
@@ -112,6 +120,13 @@ https://www.erdosproblems.com/1076.
   [[../library/set_systems/bohman_2019_large_girth_approximate_steiner_triple_systems/_index|Large
   girth approximate Steiner triple systems]]. J. Lond. Math. Soc. (2) (2019),
   895-913.
+- [BPSWZ26] Bodnár, Levente and Pikhurko, Oleg and Sun, Shumin and Wang, Yan
+  and Zeng, Jiasheng, The quadratic Brown–Erdős–Sós problem for 3-uniform
+  hypergraphs with 8 and 9 edges. Preprint, arXiv:2610.03323 (v1, 2 October
+  2026). Not cited by the site on this problem.
+- [CHL26] Chao, Ting-Wei and Huang, Xinqi and Liu, Hong, Asymptotics of the
+  Brown–Erdős–Sós problem at integer exponents. Preprint, arXiv:2609.38115 (v1,
+  29 September 2026). Not cited by the site on this problem.
 - [Er74c] Erdős, Paul,
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|Extremal
   problems on graphs and hypergraphs]]. (1974), 75-84.
@@ -187,25 +202,50 @@ Canad. J. Math. 78 (2026), 1566–1608), and at $k=10$ the limit is at least
 $3/16$
 ([[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|Pikhurko and Sun]],
 Eur. J. Combin. 135 (2026), 104364), so under this wording the answer is no for
-every $k$ from $5$ to $10$. The explicit $(5,3)$-free systems of density
-$92/529>1/6$ in
+every $k$ from $5$ to $10$. Two preprints of 2026 carry the refutation to every
+$k\ge5$. Both write $f^{(3)}(n;s,j)$ for the most edges of a $3$-graph on $n$
+vertices with no $j$ edges on at most $s$ vertices (they write $k$ for $j$, a
+letter this page keeps for the site's $k$). Their $f^{(3)}$ is the extremal
+number itself, one less than the Brown–Erdős–Sós function of the same name
+above, so in their notation $\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)$;
+the shift by one does not change any limit below. Both study the limit of
+$n^{-2}f^{(3)}(n;j+2,j)$, which Delcourt and Postle proved exists: [CHL26]
+writes it $\pi(3,2,j)$ and [BPSWZ26] writes it $\pi(j)$. The site's $k$ is
+therefore $j+2$, of the same parity as $j$. Theorem 1.1 of
+[[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu]]
+gives, at uniformity $3$ and $t=2$, $\pi(3,2,j)=2/(2!\,(2\binom32-1))=1/5$ for
+every odd $j\ge3$, so the limit is $1/5$ at every odd $k\ge5$, as the refereed
+values at $k=5,7,9$ already showed; their Theorem 1.2 gives $\pi(3,2,j)>1/6$ for
+every even $j\ge4$, so the limit exceeds $1/6$ at every even $k\ge6$, and their
+concluding remarks place it at most $1/5$ and leave its value open from $k=10$
+on. Theorem 1.1 of
+[[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár, Pikhurko, Sun, Wang and Zeng]]
+proves $\pi(9)=1/5$, the case $k=11$, by a different construction found
+independently, and their Theorem 1.2 proves $\pi(8)\le5053/26544$, so the limit
+at $k=10$ lies between $3/16=0.1875$ and $5053/26544\approx0.19036$. Under this
+wording the answer is therefore no for every $k\ge5$; at $k=11$ this rests on
+the two unrefereed preprints, and at every $k\ge12$ on [CHL26] alone. The
+explicit $(5,3)$-free systems of density $92/529>1/6$ in
 [[problems/set_systems/E1076/claims/2026_08_17_alexeev|Boris Alexeev's lean-proofs file]]
 give a weaker, self-contained refutation at $k=5$. The four refereed results are
 correct, but they answer the site's wording, not the corrected Statement, so
 their pages are rejected and do not count toward the problem's standing, and
-Alexeev's page is rejected for the same reason.
+Alexeev's page and the pages of the two preprints are rejected for the same
+reason.
 
 Standing. The two credited papers are accepted full claims on the corrected
 Statement, so the problem is proved. The four refereed papers on the single
 family, which determine the limit at $k=5$, at $k=6$ and at $k=7,8,9$ and bound
-it below by $3/16$ at $k=10$, and Alexeev's file have rejected claim pages. The
-theorem statements of [Gl19] and [GJKKLP24] are taken from the papers' arXiv
-abstracts and Crossref records, and those of [GKLPS26] and [PiSu26] from the
-arXiv versions of the papers; none of the four is in the library and their
-proofs are unreviewed.
+it below by $3/16$ at $k=10$, Alexeev's file and the two preprints, which carry
+the refutation to every $k\ge5$, have rejected claim pages. The theorem
+statements of [Gl19] and [GJKKLP24] are taken from the papers' arXiv abstracts
+and Crossref records, those of [GKLPS26] and [PiSu26] from the arXiv versions
+of the papers, and those of [CHL26] and [BPSWZ26] from their first arXiv
+versions; none of the six is in the library and their proofs are unreviewed.
 
-Search scope: the site's page and discussion thread (one comment, of 6 October
-2025, pointing to the two credited papers and to the exact results on
+Search scope: the site's page (read again on 2026-10-13, still last edited 7
+October 2025) and discussion thread (one comment, of 6 October 2025, pointing
+to the two credited papers and to the exact results on
 [[problems/set_systems/E0207/_index|Problem 207]]), the community database
 (teorth/erdosproblems), the formal-conjectures catalog, the lean-proofs catalog,
 and the arXiv and Crossref records of the papers cited above. The corpus has

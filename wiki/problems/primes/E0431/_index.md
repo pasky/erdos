@@ -59,9 +59,18 @@ https://www.erdosproblems.com/431.
   primes. J. Anal. Math. (2023), 375-389.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/431.lean).
-The release's declaration `OAI.Ostmann.twoInfiniteSummandsImpossible` proves the
-Statement with the answer no for sets of natural numbers, and
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/431.lean)
+as `erdos_431`, at the file's commit of 2026-10-11. That commit changed it from
+`research open` with `answer(sorry)` to `research solved` with `answer(False)`
+and a `formal_proof` attribute linking the release's
+[`twoInfiniteSummandsImpossible`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Ostmann/Complete.lean#L16)
+at the revision pinned on the claim page. It also added the variant
+`erdos_431.variants.ostmann`, the inverse Goldbach form, marked
+`research solved` with a link to
+[`main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Ostmann/Result.lean#L14);
+the catalog's own proofs stay `sorry`. The release's declaration
+`OAI.Ostmann.twoInfiniteSummandsImpossible` proves the Statement with the
+answer no for sets of natural numbers, and
 `OAI.Ostmann.inverseGoldbach` and `OAI.Ostmann.main` prove the stronger inverse
 Goldbach form; this corpus built all three from the pinned revision with the
 axioms `propext`, `Classical.choice` and `Quot.sound` only, as the claim page

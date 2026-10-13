@@ -143,7 +143,8 @@ accessed 2026-09-18.
   [[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|card]];
   cited here as a report only.
 
-**Formalization.** Statement only. The file
+**Formalization.** A statement in formal-conjectures, and two outside Lean
+proofs of both parts, neither built here. The file
 [`ErdosProblems/1105.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/1105.lean)
 of formal-conjectures, at the commit linked, declares two statements under
 `category research solved`, each with proof `sorry`:
@@ -155,11 +156,32 @@ Simonovits--Sós variants; the docstrings repeat the site's commentary. The
 first part quantifies over all $k\ge3$ and encodes the $O(1)$ as
 boundedness of the difference at infinity; the second uses natural-number
 division for $\lfloor(k-1)/2\rfloor$ and the site's $\epsilon$. The file
-carries no `formal_proof` attribute, and nothing was built. The site's
+carries no `formal_proof` attribute, and it was not built. The site's
 "Formalised statement? Yes" and the community database (statement
 formalized, as of its last update on 18 January 2026; no formal proof;
 informal status proved, as of its last update on 1 February 2026) refer to
-it.
+it. Linmiao Xu's Lean development, first published on 6 October 2026 and
+registered in the Palomar registry as
+[PALOMAR-2026-10-13-000006](https://palomar-registry.org/entry?id=PALOMAR-2026-10-13-000006&version=1)
+on 13 October 2026, proves at
+[the registered commit](https://github.com/linrock/math-proofs/tree/ba96303b34a95ac458958c1eb0bbdee54733484a/erdos-1105)
+the two declarations above, with `answer(True)` read as `True`, over the
+same `antiRamseyNum` definition as formal-conjectures at the linked commit;
+the registry's check of 12 October 2026 ran it through two kernels. Boris
+Alexeev's repository plby/lean-proofs proves both parts in
+[`Erdos1105.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1105.lean),
+over its own definition of $\mathrm{AR}(n,G)$, which likewise counts surjective
+colorings of the edges of $K_n$ with no rainbow copy. The file was first posted
+on 15 August 2026 as a disproof of formal-conjectures' statements under their
+definition of the time, which also colored the diagonal pairs; its proofs were
+posted on 23 August 2026, before formal-conjectures corrected its
+`antiRamseyNum` on 14 September 2026 (PR #5829). Neither proof was posted to
+the site's thread. The claim pages of the
+[[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|cycle half]]
+and the
+[[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|path half]]
+record what each proves; neither is built or audited here, so neither is
+`formalized` evidence.
 
 ## Current assessment
 
@@ -320,8 +342,9 @@ announcements have no proofs. (4) Source defects recorded, not resolved: the
 "Conjecture 2 for $k=3$" label on the triangle proof (p. 642), the two
 statements labeled Theorem 6 in the 1975 paper, the 1984 pointer to a
 Section 3 that does not exist, and the sign misprint in Corollary 1 of
-[MoNe05]. (5) The Lean file is a statement with `sorry`; nothing was built
-and no formal proof exists at the pin.
+[MoNe05]. (5) The formal-conjectures file is a statement with `sorry`. The
+two outside Lean proofs of both parts (see Formalization) are not built or
+audited here, so they are links, not evidence.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

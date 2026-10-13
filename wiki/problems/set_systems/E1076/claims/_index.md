@@ -1,10 +1,10 @@
 ---
 name: problems/set_systems/E1076/claims
-desc: The 7 claim pages of Problem 1076, one per claimant's result; the problem's standing derives from them.
+desc: The 9 claim pages of Problem 1076, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:37:30Z
+updated: 2026-10-13T11:42:48Z
 ---
 
 # problems/set_systems/E1076/claims
@@ -47,5 +47,16 @@ Statement (the cumulative family), so it does not count toward the problem's
 standing. A Lean file in Boris Alexeev's lean-proofs collection, written by
 Codex and GPT-5.6 Sol, constructs $(5,3)$-free triple systems of density
 $92/529>1/6$. The file is not built here.
+
+[[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|2026_09_29_chao_huang_liu]]: Answers the site's wording (the single families $F_k$), not the corrected
+Statement (the cumulative family), so it does not count toward the problem's
+standing. An arXiv preprint shows that the $(k,k-2)$ limit is $1/5$ for every
+odd $k\ge5$ and exceeds $1/6$ for every even $k\ge6$.
+
+[[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|2026_10_02_bodnar_pikhurko_sun_wang_zeng]]: Answers the site's wording (the single family $F_{11}$), not the corrected
+Statement (the cumulative family), so it does not count toward the problem's
+standing. An arXiv preprint proves that the $(11,9)$ limit is $1/5$,
+independently of Chao, Huang and Liu, and bounds the $(10,8)$ limit above by
+$5053/26544$.
 
 ***

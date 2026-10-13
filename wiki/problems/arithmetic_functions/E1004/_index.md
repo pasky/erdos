@@ -89,10 +89,18 @@ points has been public since 29 April 2026: the community's AI-contributions
 wiki (data to 30 June 2026) lists the note [Anon26] as a partial result
 implicit in the literature (Pollack, Pomerance and Treviño 2013), so that part
 of the question has been publicly claimed since 29 April 2026, with no outside
-review. The open part, $c\ge2$, has no route found: conjectures.io keeps a
-live bounty with one contribution of 1 September 2026, a Lean library
+review. The open part, $c\ge2$, has no route found. The bounty site
+conjectures.io holds one contribution of 1 September 2026, a Lean library
 formalizing Schinzel's even-shift collisions $\phi(qk)=\phi(qk+k)$ and a
 conditional refutation route, which claims neither a proof nor a refutation.
+On 6 October 2026 it withdrew its bounty and put the target on hold pending
+review, citing an unverified claim of the full result in a "primary-forum
+comment": the literature it inspected supplies the needed saving for odd
+shifts only, and it located no verified solution. It records the target as
+neither solved nor retired
+([holds notice](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/HOLDS-2026-10-06.md)).
+The notice does not identify the comment; the thread's argument for every
+$c>0$ recorded above was retracted on 28 April 2026.
 Li's arXiv:2606.23681 had no citing paper.
 
 ## Formulation and historical source

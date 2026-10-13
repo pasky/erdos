@@ -58,8 +58,9 @@ negative finding, not a certificate of openness. After that search, the OpenAI
 release's preprint of 23 September 2026 claimed the full statement for every $n$
 and every finite coloring. The claim page
 [[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]] records it
-as claimed, since it is unrefereed, unreviewed and has no Lean statement of the
-theorem.
+as claimed, since it is unrefereed and unreviewed, and the third-party Lean
+proof of the statement that formal-conjectures links has not been built or
+audited here.
 
 **Source.** [erdosproblems.com/172](https://www.erdosproblems.com/172),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that the
@@ -134,14 +135,29 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   $\{x+y,xy\}$. arXiv:2511.09365v2 (19 November 2025); preprint, cited
   from its abstract only.
 
-**Formalization.** Statement only. The file
+**Formalization.** A third-party Lean proof, not built or audited here. The
+file
 [`ErdosProblems/172.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/172.lean)
 of formal-conjectures at the linked commit declares
 `erdos_172 : answer(sorry) ↔ ∀ (n : ℕ) (color : ℕ → Fin n) (m), ∃ (A : Finset ℕ), A.card ≥ m ∧ ∃ c, ∀ (S : Finset A), S.Nonempty → color (∑ x ∈ S, x) = c ∧ color (∏ x ∈ S, x) = c`
 under `category research open`, with proof `sorry` and a note that the
 statements of the additional material are still to be added; its $A$ ranges
 over finite subsets of $\mathbb{N}$ including $0$, and it asks that the sum
-and the product of every nonempty subset share one color. The
+and the product of every nonempty subset share one color. Its
+[revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/1c53184677d233a8f95ab6e9e13d135281dbfa0f/FormalConjectures/ErdosProblems/172.lean)
+moved the theorem to `research solved` with `answer(True)`, kept the
+right-hand side of the equivalence and the `sorry` proof, added the OpenAI
+preprint below to its references, and linked as its formal proof a file of
+Yao Xu's repository
+[`hindman-sums-products-lean4`](https://github.com/cadamcat/hindman-sums-products-lean4/tree/3064cac5f9133a968482886ab1c7a1d69c16207f)
+that derives this right-hand side from the repository's theorem, the problem
+for every size and every finite coloring, with positive elements. The
+repository credits the theorem to the same preprint and reports a
+build without `sorry` whose theorem uses only the three standard axioms, a
+kernel replay, and Comparator checks in which the Lean kernel and the
+independent checker nanoda accept the proof; the claim page
+[[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]]
+describes it. The
 [community database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886eed34e58bed3a6a01/data/problems.yaml)
 records the statement as formalized (since 25 November 2025), the problem as
 open, and no formal proof. Nothing was built or audited here.
@@ -253,10 +269,12 @@ the problem's statement for every $n$. The manuscript is carded at
 [[../library/ramsey_theory/openai_2026_monochromatic_finite_sums_products_positive_integers/_index|openai_2026_monochromatic_finite_sums_products_positive_integers]]
 and recorded on the claim page
 [[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]]: a
-release preprint, unrefereed, with no Lean statement of the theorem and no
-independent review known; its proofs are not checked here.
-It postdates the search below and leaves the partial results above as the
-accepted record until it is accepted.
+release preprint, unrefereed, whose release has no Lean statement of the
+theorem, and with no independent review known; its proofs are not checked here.
+A third-party Lean proof of the statement, linked by formal-conjectures on 11
+October 2026, is described on the claim page and has not been built or audited
+here. The preprint postdates the search below and leaves the partial results
+above as the accepted record until it is accepted.
 
 **Results over $\mathbb{Q}$ (analog, not the problem).**
 [[../library/ramsey_theory/bowen_2022_monochromatic_products_sums_rationals/theorem_1_1|Bowen and Sabok, Theorem 1.1]]
@@ -312,8 +330,10 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. The 1980 monograph's
 passage, printed pp. 13--14, is described under References.
 
 **Remaining gaps.** (0) The statement is claimed in full by the unreviewed
-2026 preprint; what would settle it is a refereed version or a documented
-independent acceptance of that proof. (1) Hindman's 1980 paper, the source
+2026 preprint, and a third-party Lean proof of it is reported but not built
+here; what would settle it is a refereed version, a documented independent
+acceptance of that proof, or a build here of the Lean proof with an audit of
+its statement. (1) Hindman's 1980 paper, the source
 of the refutation of the infinite version, has its Theorems 2.14 and 2.15
 checked as statements; their proofs (pp. 117--119) are checked for structure
 only. (2) The proofs of Moreira's Corollary 1.5, Bowen's Theorem 1.1, Bowen
