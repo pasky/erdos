@@ -77,7 +77,8 @@ of `maxArithInterCard N` for every $N\geq1$ with an open answer (restated to the
 exact maximum on 2026-09-12, PR #5807) and is `research open`; its variant
 `Erdos272.erdos_272.variants.szabo_strong`, `(fun N ↦ (maxArithInterCard N - N ^
 2 / 2 : ℝ)) =O[atTop] fun N : ℕ ↦ (N : ℝ)`, is the statement the Conjectures.io
-proof establishes, which the catalog's default branch labels `research open`.
+proof establishes, which the catalog's default branch labeled `research open` on
+2026-09-27.
 
 ## Current assessment
 
@@ -136,7 +137,7 @@ options), "Statement unchanged", permitted axioms `propext`, `Quot.sound`,
 `Classical.choice`, "Lean kernel accepted" and a fresh isolated replay on 10
 September 2026, with the second kernel not run, so that the verdict rests on one
 kernel implementation, and the review describes itself as a decision on
-eligibility that does not vouch for originality; as of 2026-09-27 there was no
+eligibility that does not vouch for originality; on 2026-09-27 there was no
 refereed publication, no write-up, no erdosproblems.com acceptance and no
 formal-conjectures catalog agreement (the erdosproblems.com forum carried no
 proof claim, and the catalog labeled the variant `research open`).

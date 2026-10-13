@@ -319,9 +319,9 @@ multicolored $K_4$; the survey states no general question and no result.
   [[problems/ramsey_theory/E0811/claims/2026_09_15_kitamura|Kitamura 2026]]
   records the postings, the stated axiom check and the standing. This corpus
   has not read the repository or the proof; the claim is not refereed, not
-  accepted by the site (label and commentary unchanged as of 2026-10-07) and
-  does not change the status. If it holds, it settles the clique cases but
-  not the classification for other graphs.
+  accepted by the site (its label was OPEN on 2026-09-18 and its commentary
+  unchanged on 2026-10-07) and does not change the status. If it holds, it
+  settles the clique cases but not the classification for other graphs.
 
 **Search scope.** None of the routes below found a
 classification, a resolution of $C_6$, or a refereed source beyond

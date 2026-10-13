@@ -119,12 +119,12 @@ file exists.
 126, 617--623, received 28 June 1973 and issued April 1974. April 1974 is the
 issue month printed on the paper's first page and the date of this page.
 Reviewed: the site's curator (T. F. Bloom) labeled the problem proved and
-credits the proof to Ryavec as reproduced in [BeEr74] (as of 2026-09-18; no
-last-edited date). Erdős also recorded the theorem as proved in his surveys of
-1975 (p. 302) and 1977 (p. 52) and, with Graham, in the 1980 monograph (p. 60).
-These are an author's restatements. They are context, not independent review.
-The site's Lean mark dates from Alexeev's file of 25 November 2025, the first of
-the two external Lean developments above. The fork's proof entered the catalog
-in April 2026. The stronger Dirichlet-series bound of Hanson, Steele and
-Stenger has
+credits the proof to Ryavec as reproduced in [BeEr74] (the site's page, read
+2026-09-18, carried no last-edited date). Erdős also recorded the theorem as
+proved in his surveys of 1975 (p. 302) and 1977 (p. 52) and, with Graham, in the
+1980 monograph (p. 60). These are an author's restatements. They are context,
+not independent review. The site's Lean mark dates from Alexeev's file of 25
+November 2025, the first of the two external Lean developments above. The fork's
+proof entered the catalog in April 2026. The stronger Dirichlet-series bound of
+Hanson, Steele and Stenger has
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|its own page]].

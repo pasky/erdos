@@ -64,12 +64,12 @@ https://www.erdosproblems.com/163, accessed 2026-09-18.
 
 **References.**
 
-- [Le17] Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math.
-  (2) 185 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2
-  (Crossref record read: issue dated 1 May 2017); arXiv:1505.04773
-  (v2, 1 December 2016, the version cited; 35 pages; the arXiv listing
-  carries no journal reference). Theorem 1.1 and the remarks after it, p. 3;
-  Theorem 1.3 and the hypercube remark, p. 4; Section 7, p. 32. Library home:
+- [Le17] Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math. (2)
+  185 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2 (the Crossref
+  record, read 2026-09-18, dates the issue 1 May 2017); arXiv:1505.04773 (v2, 1
+  December 2016, the version cited; 35 pages; the arXiv listing carries no
+  journal reference). Theorem 1.1 and the remarks after it, p. 3; Theorem 1.3
+  and the hypercube remark, p. 4; Section 7, p. 32. Library home:
   [[../library/ramsey_theory/lee_2017_ramsey_numbers_degenerate_graphs/_index|lee_2017_ramsey_numbers_degenerate_graphs]].
 - [BuEr75] Burr, S. A. and Erdős, P., On the magnitude of generalized Ramsey
   numbers for graphs. Infinite and finite sets (Colloq., Keszthely, 1973),

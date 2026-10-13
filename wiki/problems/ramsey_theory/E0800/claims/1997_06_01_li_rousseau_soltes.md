@@ -53,11 +53,11 @@ absolute constant.
 alone.
 
 **Acceptance.** Refereed: the paper appeared in Discrete Math. 170 (1997), no.
-1--3, 269--275 (Crossref record, issue dated June 1997, as of 2026-10-07). The
-site labeled the problem PROVED, and its commentary credits Alon without naming
-this paper. The site's discussion thread and proof-claim tab are empty. So the
-acceptance rests on the refereed publication alone. The proof is unread, and the
-abstract check is not acceptance evidence.
+1--3, 269--275 (the Crossref record, read 2026-10-07, dates the issue June
+1997). The site labeled the problem PROVED, and its commentary credits Alon
+without naming this paper. The site's discussion thread and proof-claim tab are
+empty. So the acceptance rests on the refereed publication alone. The proof is
+unread, and the abstract check is not acceptance evidence.
 
 **Dating.** The page is dated by the issue month the journal record gives;
 the day in the page name is a placeholder, since no earlier posting is

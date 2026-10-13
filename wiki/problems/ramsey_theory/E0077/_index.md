@@ -182,9 +182,9 @@ and no formal proof. Three external formal artifacts concern the upper bounds,
 not the statement: the Lean 4 repository named by [GNNW24] for its Theorem 1 and
 Corollary 6
 ([RamseyLean](https://github.com/snorin239/RamseyLean/tree/90e87da214701dd6eb3d56a2c7121839d8269d14),
-as of 17 August 2026; its own claims are recorded on the [GNNW24] card); the
-Isabelle formalization of [CGMS23] reported in [Pa25] (abstract only); and the
-Lean 4 formalization that [LuWa26]'s arXiv comment names for its claim (not
+its commit of 17 August 2026; its own claims are recorded on the [GNNW24] card);
+the Isabelle formalization of [CGMS23] reported in [Pa25] (abstract only); and
+the Lean 4 formalization that [LuWa26]'s arXiv comment names for its claim (not
 examined); none of the three was built here.
 
 ## Current assessment
@@ -340,15 +340,16 @@ from Theorem 14 was obtained by OpenAI GPT-5.6 Sol "based on the outline
 provided by the authors", with the output "checked and edited by the authors,
 who take full responsibility for its correctness", the same system having
 proofread the paper; and that OpenAI Codex formalized Theorem 1 and Corollary 6
-in Lean 4. The repository states in its own documentation
-that `RamseyLean.main` is Theorem 1 with a uniform $o(k)$ error and
-exact-rational coefficients, that its numerical certificates were redone with
-kernel-checked interval arithmetic, that the sources contain no `sorry` and the
-two targets depend only on the standard axioms, and that the formalization
-itself was produced by an AI coding tool with minimal guidance from the authors;
-the statement of `RamseyLean.main` matches Theorem 1. None of this was built or
-audited here, and the $3.7992\ldots$ figure stands as a preprint bound with the
-source's own provenance; the refereed upper end is $4-2^{-7}$.
+in Lean 4. The repository's own documentation, at its commit of
+17 August 2026, states that `RamseyLean.main` is Theorem 1 with a uniform $o(k)$
+error and exact-rational coefficients, that its numerical certificates were
+redone with kernel-checked interval arithmetic, that the sources contain no
+`sorry` and the two targets depend only on the standard axioms, and that the
+formalization itself was produced by an AI coding tool with minimal guidance
+from the authors; the statement of `RamseyLean.main` matches Theorem 1. None of
+this was built or audited here, and the $3.7992\ldots$ figure stands as a
+preprint bound with the source's own provenance; the refereed upper end is
+$4-2^{-7}$.
 
 **Leads (not status).** (1) [LuWa26], 13 September 2026: its abstract states,
 for "the source bound specified here", that "A finite derivation gives

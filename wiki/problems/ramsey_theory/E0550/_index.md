@@ -224,8 +224,8 @@ here.
   arXiv link and an external link "to formalisation" pointing at the GitHub
   repository `ericlisg/erdos550-lean` (created 2 August 2026 and last pushed
   the same day; described by its owner as a full unconditional Lean 4
-  formalization of the problem; repository metadata as of 2026-09-17; no file
-  examined, nothing built). As of 2026-09-17 the community database recorded no
+  formalization of the problem; repository metadata read 2026-09-17; no file
+  examined, nothing built). On 2026-09-17 the community database recorded no
   formal-proof URL; it added one on 2026-09-18 (above).
 - Discussion, 23 June 2026: a comment reports that the paper claims to
   resolve the problem; another cites the acknowledgment and describes the

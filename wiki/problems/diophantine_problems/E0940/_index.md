@@ -35,8 +35,8 @@ proved the density-zero statement at $r=2$. They also record that at $r=3$ the
 statement is unknown even for sums of three cubes. Finally, they record that
 Heath-Brown [He88] proves every large integer is a sum of at most three
 $2$-powerful numbers
-([[problems/diophantine_problems/E0941/_index|Problem 941]]). The site's
-proof-claims tab carried one partial claim, filed 2026-09-06, as of 2026-10-06.
+([[problems/diophantine_problems/E0941/_index|Problem 941]]). On 2026-10-06 the
+site's proof-claims tab carried one partial claim, filed 2026-09-06.
 
 **Source.** [erdosproblems.com/940](https://www.erdosproblems.com/940), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #940,
@@ -61,10 +61,10 @@ https://www.erdosproblems.com/940.
 
 An unpublished manuscript of Beyer de Ryke (revised 26 July 2026) claims to
 prove that the positive integers that are not a sum of one, two or three
-$3$-powerful numbers form a set of positive lower natural density; more precisely, for each
-$\varepsilon>0$ it gives a modulus $M\geq1$ and a residue $a$ coprime to $M$
-such that the exactly-three-summand set has upper density at most
-$\varepsilon$ relative to the progression $a\pmod M$; see
+$3$-powerful numbers form a set of positive lower natural density; more
+precisely, for each $\varepsilon>0$ it gives a modulus $M\geq1$ and a residue
+$a$ coprime to $M$ such that the exactly-three-summand set has upper density at
+most $\varepsilon$ relative to the progression $a\pmod M$; see
 [[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|Beyer de Ryke (2026), Theorem 1.1 and Corollary 1.2]].
 No review of the proof and no acceptance evidence (a refereed version or an
 independent review) is recorded. No source-supported result for $r\geq4$ is
@@ -76,19 +76,19 @@ sieve), that the sums of three nonnegative cubes have positive lower
 density, so at $r=3$ the sums of at most three $3$-powerful numbers would
 not have density $0$; it is recorded as a conditional claim on
 [[problems/diophantine_problems/E0940/claims/2021_08_07_wang|its claim page]]
-and settles nothing unconditionally.
-Beyond the site record, the site's proof-claims tab and the sources cited, no status search is
-recorded on this page.
+and settles nothing unconditionally. Beyond the site record, the site's
+proof-claims tab and the sources cited, no status search is recorded on this
+page.
 
-The site's proof-claims tab (as of 2026-10-06) carries one partial proof
+On 2026-10-06 the site's proof-claims tab carried one partial proof
 claim, submitted 2026-09-06 by Basile Beyer de Ryke with a copy of the
 manuscript above, which the claimant describes as settling the infinitude
 question at $r=3$ and nothing else; it is the same result as the arXiv
 posting and is recorded, with both postings, as a pending (`claimed`) partial
 claim on
 [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
-The site's label was OPEN (page last edited 2025-11-03) and the claim had no
-comments as of 2026-10-06. It does not settle the problem as stated: the
+The site's label was OPEN (page last edited 2025-11-03), and on 2026-10-06 the
+claim had no comments. It does not settle the problem as stated: the
 density question is open for every $r$ and the infinitude question for every
 $r\ge4$.
 
