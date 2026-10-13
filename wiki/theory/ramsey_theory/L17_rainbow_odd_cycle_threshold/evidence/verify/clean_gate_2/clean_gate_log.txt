@@ -1,0 +1,341 @@
+clean gate of the archived lean/ subtree, non-author runner, fresh context
+checked_source: the change that moved the Lean project to Lean v4.34.1, as committed at 2026-10-13T17:35:38Z
+command: LEAN_NUM_THREADS=4 nice -n 10 /bin/bash lean/scripts/gate.sh --clean <the checked source's revision>
+worktree_head_before: <the runner worktree's head, a revision other than the checked source>
+worktree_status_before: 0 tracked changes
+start_utc: 2026-10-13T18:19:09Z
+--- streams (stdout and stderr interleaved) ---
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4
+info: mathlib: checking out revision 'd13f23b723b8a846827a245b89c10fc7d3f11612'
+info: plausible: cloning https://github.com/leanprover-community/plausible
+info: plausible: checking out revision '118aa17ee84656b8bd727fef7c458ee8c833385c'
+info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision 'ddf04cf3949fa556442341e87d47f9f6e6074707'
+info: importGraph: cloning https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision 'e928b72544873815af278d38681b31c0293588e3'
+info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '106ff4fafc74ef4ac99d81dbf3ab399118f497a5'
+info: aesop: cloning https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '355695d523e41d0554926416cba2a2b3544fbbc9'
+info: Qq: cloning https://github.com/leanprover-community/quote4
+info: Qq: checking out revision '6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259'
+info: batteries: cloning https://github.com/leanprover-community/batteries
+info: batteries: checking out revision 'f2effa3d803fda822b1f97b806c47cf2adfbcbc2'
+info: Cli: cloning https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision 'e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204'
+✔ [2/42] Built Cache.Cli (320ms)
+✔ [3/42] Built Cache.Lean (354ms)
+✔ [6/42] Built Cache.Cli:c.o (266ms)
+✔ [7/42] Built Cache.Lean:c.o (261ms)
+✔ [8/42] Built Cache.Env (305ms)
+✔ [9/42] Built Cache.Env:c.o (100ms)
+✔ [10/42] Built Batteries.Tactic.OpenPrivate (622ms)
+✔ [11/42] Built Cache.Infra (334ms)
+✔ [12/42] Built Cache.Infra:c.o (119ms)
+✔ [13/42] Built Batteries.Tactic.OpenPrivate:c.o (543ms)
+✔ [14/42] Built Cache.IO (868ms)
+✔ [15/42] Built Cache.Hashing (743ms)
+✔ [16/42] Built Cache.IO:c.o (770ms)
+✔ [17/42] Built Cache.Hashing:c.o (231ms)
+✔ [18/42] Built Cache.Requests (1.2s)
+✔ [19/42] Built Cache.Marker (449ms)
+✔ [20/42] Built Cache.Marker:c.o (73ms)
+✔ [21/42] Built Cache.Upload.Dest (539ms)
+✔ [22/42] Built Cache.Query (588ms)
+✔ [23/42] Built Cache.Upload.Dest:c.o (90ms)
+✔ [24/42] Built Cache.Requests:c.o (1.1s)
+✔ [25/42] Built Cache.Query:c.o (168ms)
+✔ [26/42] Built Cache.Upload.Curl (666ms)
+✔ [27/42] Built Cache.Upload.Rclone (708ms)
+✔ [28/42] Built Cache.Warning (658ms)
+✔ [29/42] Built Cache.Upload.Curl:c.o (108ms)
+✔ [30/42] Built Cache.Upload.Rclone:c.o (102ms)
+✔ [31/42] Built Cache.Warning:c.o (136ms)
+✔ [32/42] Built Cache.Upload.Azure (576ms)
+✔ [33/42] Built Cache.Upload.S3 (590ms)
+✔ [34/42] Built Cache.Upload.Azure:c.o (83ms)
+✔ [35/42] Built Cache.Upload.S3:c.o (146ms)
+✔ [36/42] Built Cache.Upload.Defs (456ms)
+✔ [37/42] Built Cache.Upload.Defs:c.o (82ms)
+✔ [38/42] Built Cache.Upload (419ms)
+✔ [39/42] Built Cache.Upload:c.o (75ms)
+✔ [40/42] Built Cache.Main (743ms)
+✔ [41/42] Built Cache.Main:c.o (395ms)
+✔ [42/42] Built cache:exe (1.0s)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 8907 already-cached file(s) (1 already decompressed)
+No files to download
+Decompressed 8907 already-cached file(s)
+Completed successfully in 16215 ms!
+✔ [694/1008] Built Erdos.Core (335ms)
+✔ [2277/2483] Built Audit.Sha256 (407ms)
+✔ [2278/2483] Built Audit.Sha256:c.o (389ms)
+⚠ [2279/2483] Built Erdos.Library.Problem809.MathlibCompat (2.6s)
+warning: Erdos/Library/Problem809/MathlibCompat.lean:6:0: 'Mathlib.Data.Set.Lattice' has been deprecated: please replace this import by
+
+import Mathlib.Data.Set.Lattice.Bounded
+import Mathlib.Data.Set.Lattice.Disjoint
+import Mathlib.Data.Set.Lattice.Image
+import Mathlib.Data.Set.Lattice.Indexed
+import Mathlib.Data.Set.Lattice.Order
+✔ [2283/2483] Built Erdos.Library.Problem809.RainbowCycles (2.7s)
+✔ [2284/2483] Built Erdos.Library.Problem809.MainTerm (2.3s)
+✔ [2285/2483] Built Erdos.Library.Problem809.CycleCopyBridge (1.8s)
+✔ [2286/2483] Built Erdos.Library.Problem809.UpperBound.SumRainbow (1.9s)
+✔ [2287/2483] Built Audit.Surface (2.7s)
+✔ [2288/2483] Built Erdos.Library.Problem809.Statement (2.3s)
+✔ [2289/2483] Built Erdos.Library.Problem809.SubgraphTransfer (1.0s)
+✔ [2290/2483] Built Erdos.Library.Problem809.UpperBound.TwoCliqueCounts (1.0s)
+✔ [2291/2483] Built Erdos.Library.Problem809.SevenCycle.Statement (2.2s)
+✔ [2292/2483] Built Erdos.Library.Problem809.BucicChenMa.Statement (2.1s)
+✔ [2293/2483] Built Audit.Surface:c.o (208ms)
+✔ [2294/2483] Built Erdos.Library.Problem809.UpperBound.Error (2.7s)
+✔ [2295/2483] Built Audit.Main (2.3s)
+✔ [2296/2483] Built Erdos.Library.Problem809.UpperBound.TwoCliqueRainbow (1.7s)
+✔ [2297/2483] Built Erdos.Library.Problem809.SevenCycle.C7VarianceDichotomy (1.0s)
+✔ [2298/2483] Built Erdos.Library.Problem809.ThresholdArithmetic (4.6s)
+✔ [2299/2483] Built Erdos.Library.Problem809.Comparison (2.2s)
+✔ [2300/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningSizes (2.3s)
+✔ [2301/2483] Built Erdos.Library.Problem809.SevenCycle.C7AsymptoticArithmetic (2.9s)
+⚠ [2302/2483] Built Erdos.Library.Problem809.SevenCycle.C7Sym2Sum (1.8s)
+warning: Erdos/Library/Problem809/SevenCycle/C7Sym2Sum.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2303/2483] Built Erdos.Library.Problem809.UpperBound.Arithmetic (9.7s)
+⚠ [2304/2483] Built Erdos.Library.Problem809.SevenCycle.WeightedHajnal (1.0s)
+warning: Erdos/Library/Problem809/SevenCycle/WeightedHajnal.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [2305/2483] Built Erdos.Library.Problem809.SevenCycle.PaletteSavings (2.6s)
+warning: Erdos/Library/Problem809/SevenCycle/PaletteSavings.lean:6:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2306/2483] Built Erdos.Library.Problem809.SevenCycle.OutsideMass (3.1s)
+✔ [2307/2483] Built Erdos.Library.Problem809.SevenCycle.Reweighting (2.7s)
+⚠ [2308/2483] Built Erdos.Library.Problem809.SevenCycle.Cleaning (2.0s)
+warning: Erdos/Library/Problem809/SevenCycle/Cleaning.lean:5:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2309/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularExtraction (2.9s)
+✔ [2310/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteSqrt (2.0s)
+✔ [2311/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonBase (2.0s)
+✔ [2312/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteCounting (2.2s)
+✔ [2313/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonDistinct (1.9s)
+✔ [2314/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegular (6.3s)
+✔ [2315/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2GoodEdgeCount (2.2s)
+✔ [2316/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonSelect (2.5s)
+✔ [2317/2483] Built Erdos.Library.Problem809.BucicChenMa.BookPigeonhole (1.8s)
+⚠ [2318/2483] Built Erdos.Library.Problem809.BucicChenMa.BookLemma (1.9s)
+warning: Erdos/Library/Problem809/BucicChenMa/BookLemma.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: Erdos/Library/Problem809/BucicChenMa/BookLemma.lean:49:18: `SimpleGraph.card_edgeFinset_turanGraph` has been deprecated: Use `SimpleGraph.turanNumber_eq` instead
+warning: Erdos/Library/Problem809/BucicChenMa/BookLemma.lean:50:19: `SimpleGraph.mul_card_edgeFinset_turanGraph_le` has been deprecated: Use `SimpleGraph.mul_turanNumber_le` instead
+✔ [2319/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2CycleTemplates (2.1s)
+✔ [2320/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2CommonNeighbors (2.2s)
+✔ [2321/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2Graph (2.4s)
+⚠ [2322/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeArithmetic (2.5s)
+warning: Erdos/Library/Problem809/BucicChenMa/LargeDiameterThreeArithmetic.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2323/2483] Built Erdos.Library.Problem809.BucicChenMa.CycleEdgeColors (2.2s)
+⚠ [2324/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathArithmetic (2.9s)
+warning: Erdos/Library/Problem809/BucicChenMa/ShortPathArithmetic.lean:2:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2325/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPaths (2.3s)
+✔ [2326/2483] Built Erdos.Library.Problem809.BucicChenMa.GreedyPath (2.1s)
+✔ [2327/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThree (2.0s)
+✔ [2328/2483] Built Audit.Main:c.o (1.3s)
+✔ [2329/2483] Built Erdos.Library.Problem809.BucicChenMa.DeletionStep (1.9s)
+✔ [2330/2483] Built Erdos.Library.Problem809.UpperBound.Construction (1.0s)
+✔ [2331/2483] Built Erdos.Library.Problem809.BucicChenMa.LowerWitnessTransfer (2.3s)
+✔ [2332/2483] Built Erdos.Library.Problem809.BucicChenMa.ThresholdConsequence (2.6s)
+✔ [2333/2483] Built Erdos.Library.Problem809.SevenCycle.PaletteProjection (2.3s)
+✔ [2334/2483] Built Erdos.Library.Problem809.SevenCycle.PaletteRestriction (2.5s)
+✔ [2335/2483] Built Erdos.Library.Problem809.SevenCycle.PaletteExactization (2.4s)
+⚠ [2336/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathDenseCase (10s)
+warning: Erdos/Library/Problem809/BucicChenMa/ShortPathDenseCase.lean:2:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2337/2483] Built Erdos.Library.Problem809.SevenCycle.JointCliqueMass (2.6s)
+✔ [2338/2483] Built Erdos.Library.Problem809.SevenCycle.FinitePerturbation (2.7s)
+✔ [2339/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningRegularity (4.4s)
+✔ [2340/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteFamily (2.4s)
+✔ [2341/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteParameters (2.9s)
+✔ [2342/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteMass (2.5s)
+✔ [2343/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteLocal (2.6s)
+✔ [2344/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningCount (6.6s)
+✔ [2345/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularDisjointCount (2.7s)
+✔ [2346/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularStructuralSplit (2.2s)
+✔ [2347/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularDisjointFinite (2.2s)
+✔ [2348/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseRobust (2.7s)
+✔ [2349/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularNonRobust (4.4s)
+✔ [2350/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2GoodEdgeOrientation (2.2s)
+✔ [2351/2483] Built Erdos.Library.Problem809.BucicChenMa.BookDoubleCount (2.4s)
+✔ [2352/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2Symmetry (2.1s)
+✔ [2353/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseGoodEdgeCount (2.4s)
+✔ [2354/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2CycleWalkBridge (2.4s)
+✔ [2355/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2CycleMap (2.3s)
+✔ [2356/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonShortPath (3.8s)
+✔ [2357/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseInducedColorCount (2.3s)
+✔ [2358/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathCrossDegree (2.3s)
+✔ [2359/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathAddEdge (2.4s)
+✔ [2360/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathDegree (2.1s)
+✔ [2361/2483] Built Erdos.Library.Problem809.BucicChenMa.SingletonCommonNeighbor (2.3s)
+✔ [2362/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2PathSelection (2.6s)
+✔ [2363/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjacentGreedy (2.5s)
+✔ [2364/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2DisjointCommonGreedy (2.4s)
+✔ [2365/2483] Built audit:exe (1.6s)
+✔ [2366/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonGreedy (2.4s)
+✔ [2367/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseGoodEdges (2.5s)
+✔ [2368/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeCounting (2.7s)
+✔ [2369/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeFarPair (2.6s)
+✔ [2370/2483] Built Erdos.Library.Problem809.BucicChenMa.LowerInduction (3.4s)
+✔ [2371/2483] Built Erdos.Library.Problem809.BucicChenMa.DeletionDensity (2.8s)
+✔ [2372/2483] Built Erdos.Library.Problem809.UpperBound.FullDensity (2.3s)
+✔ [2373/2483] Built Erdos.Library.Problem809.SevenCycle.C7Conflict (2.1s)
+✔ [2374/2483] Built Erdos.Library.Problem809.SevenCycle.CompactFeasible (2.8s)
+✔ [2375/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteBalance (2.0s)
+✔ [2376/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteMaxCut (2.0s)
+✔ [2377/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteCycles (4.8s)
+✔ [2378/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteOrientation (3.0s)
+✔ [2379/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningCountBridge (3.4s)
+✔ [2380/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseStructuralSplit (2.7s)
+✔ [2381/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteCutBridge (2.4s)
+✔ [2382/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularNonRobustAsymptotic (2.6s)
+✔ [2383/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathDeltaBound (2.7s)
+✔ [2384/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathPartition (2.9s)
+⚠ [2385/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathCommonDegree (2.6s)
+warning: Erdos/Library/Problem809/BucicChenMa/ShortPathCommonDegree.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2386/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2AdjacentCycle (2.0s)
+⚠ [2387/2483] Built Erdos.Library.Problem809.BucicChenMa.BookFull (5.3s)
+warning: Erdos/Library/Problem809/BucicChenMa/BookFull.lean:6:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2388/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2DisjointCycle (2.1s)
+✔ [2389/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseCycleWalk (2.2s)
+✔ [2390/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeDenominator (2.4s)
+✔ [2391/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeFinalCount (3.1s)
+⚠ [2392/2483] Built Erdos.Library.Problem809.BucicChenMa.OrderThreshold (2.9s)
+warning: Erdos/Library/Problem809/BucicChenMa/OrderThreshold.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2393/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseDegreeBound (3.3s)
+✔ [2394/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseGoodEdgeArithmetic (2.7s)
+✔ [2395/2483] Built Erdos.Library.Problem809.BucicChenMa.LowerReduction (2.4s)
+✔ [2396/2483] Built Erdos.Library.Problem809.UpperBound.Threshold (2.8s)
+✔ [2397/2483] Built Erdos.Library.Problem809.SevenCycle.C7CutProjection (2.4s)
+✔ [2398/2483] Built Erdos.Library.Problem809.SevenCycle.C7WalkBridge (2.4s)
+✔ [2399/2483] Built Erdos.Library.Problem809.SevenCycle.JointCliqueExtremal (3.7s)
+✔ [2400/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularDisjointRelabel (2.7s)
+✔ [2401/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteDensity (2.7s)
+✔ [2402/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartite (4.1s)
+✔ [2403/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularMaximumCutAsymptotic (2.0s)
+✔ [2404/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteRelabel (3.3s)
+✔ [2405/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathCrossSum (3.6s)
+✔ [2406/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2TriangleChoice (2.7s)
+✔ [2407/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2AllEdges (2.6s)
+✔ [2408/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningPatternRealization (6.5s)
+✔ [2409/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjusterCycle (2.5s)
+✔ [2410/2483] Built Erdos.Library.Problem809.BucicChenMa.LargeDiameterThreeTheorem (3.3s)
+⚠ [2411/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseParameterBounds (3.7s)
+warning: Erdos/Library/Problem809/BucicChenMa/SparseParameterBounds.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [2412/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseCaseArithmetic (3.5s)
+warning: Erdos/Library/Problem809/BucicChenMa/SparseCaseArithmetic.lean:3:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2413/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseDegreeBound (5.7s)
+✔ [2414/2483] Built Erdos.Library.Problem809.UpperBound.SevenCycle (2.8s)
+✔ [2415/2483] Built Erdos.Library.Problem809.BucicChenMa.QuantitativeConsequence (3.4s)
+✔ [2416/2483] Built Erdos.Library.Problem809.SevenCycle.C7FullSplit (2.7s)
+✔ [2417/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningWalkBridge (2.6s)
+✔ [2418/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularDisjointPalette (2.6s)
+✔ [2419/2483] Built Erdos.Library.Problem809.SevenCycle.C7CutSavings (3.8s)
+✔ [2420/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartitePalette (2.5s)
+✔ [2421/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteWitness (2.5s)
+✔ [2422/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathDegreeBudget (2.9s)
+✔ [2423/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjacentBase (2.0s)
+⚠ [2424/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseExtraction (7.2s)
+warning: Erdos/Library/Problem809/SevenCycle/NearRegularSparseExtraction.lean:244:19: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+✔ [2425/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2InducedCycle (2.3s)
+✔ [2426/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2DisjointCommonBase (1.8s)
+✔ [2427/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonAdjuster (2.2s)
+✔ [2428/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2Numerical (2.6s)
+✔ [2429/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseParameterBounds (2.5s)
+⚠ [2430/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseCaseProduct (3.2s)
+warning: Erdos/Library/Problem809/BucicChenMa/SparseCaseProduct.lean:5:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2431/2483] Built Erdos.Library.Problem809.SevenCycle.ThresholdClosure (1.0s)
+✔ [2432/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseDisjoint (2.4s)
+✔ [2433/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartitePaletteRight (1.9s)
+✔ [2434/2483] Built Erdos.Library.Problem809.SevenCycle.C7FiniteBound (3.1s)
+✔ [2435/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningWalkCases (3.9s)
+✔ [2436/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteBoundary (1.8s)
+✔ [2437/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathThreshold (1.8s)
+✔ [2438/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjacentRobust (1.9s)
+✔ [2439/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2DisjointCommonCycle (2.6s)
+✔ [2440/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2CountReduction (2.4s)
+⚠ [2441/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2GoodEdgeArithmetic (2.3s)
+warning: Erdos/Library/Problem809/BucicChenMa/Case2GoodEdgeArithmetic.lean:5:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2442/2483] Built Erdos.Library.Problem809.SevenCycle.ThresholdSequence (2.0s)
+✔ [2443/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonCycle (4.9s)
+✔ [2444/2483] Built Erdos.Library.Problem809.SevenCycle.C7Capacity (2.5s)
+✔ [2445/2483] Built Erdos.Library.Problem809.SevenCycle.C7CoverBound (2.4s)
+✔ [2446/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteBoundaryRight (2.1s)
+✔ [2447/2483] Built Erdos.Library.Problem809.SevenCycle.CleaningRobust (3.1s)
+✔ [2448/2483] Built Erdos.Library.Problem809.BucicChenMa.ShortPathTheorem (2.1s)
+✔ [2449/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjacentBook (1.0s)
+✔ [2450/2483] Built Erdos.Library.Problem809.BucicChenMa.Claim2Conclusion (2.1s)
+✔ [2451/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2DisjointCommonBook (2.3s)
+✔ [2452/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2NoCommonSelected (2.1s)
+✔ [2453/2483] Built Erdos.Library.Problem809.SevenCycle.C7ColorMaximum (2.3s)
+⚠ [2454/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteAsymptotic (2.5s)
+warning: Erdos/Library/Problem809/SevenCycle/NearBipartiteAsymptotic.lean:6:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+✔ [2455/2483] Built Erdos.Library.Problem809.SevenCycle.C7FiniteTheorem (2.7s)
+✔ [2456/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseCycleEmbedding (2.3s)
+✔ [2457/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2AdjacentPairwise (2.1s)
+✔ [2458/2483] Built Erdos.Library.Problem809.SevenCycle.NearBipartiteConventional (2.2s)
+✔ [2459/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2DisjointPairCycle (2.5s)
+✔ [2460/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseCycleColors (2.0s)
+✔ [2461/2483] Built Erdos.Library.Problem809.SevenCycle.C7ColorAllocation (2.6s)
+✔ [2462/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseDeletionBounds (2.2s)
+✔ [2463/2483] Built Erdos.Library.Problem809.BucicChenMa.Case2PairwiseGoodEdges (2.3s)
+✔ [2464/2483] Built Erdos.Library.Problem809.SevenCycle.C7ColorTransfer (2.7s)
+✔ [2465/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularVariableOverlap (3.5s)
+✔ [2466/2483] Built Erdos.Library.Problem809.BucicChenMa.SparseCaseConclusion (2.6s)
+✔ [2467/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseInducedThresholds (2.0s)
+✔ [2468/2483] Built Erdos.Library.Problem809.SevenCycle.C7GraphReweight (2.9s)
+✔ [2469/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseOverlap (2.8s)
+✔ [2470/2483] Built Erdos.Library.Problem809.BucicChenMa.DenseCaseConclusion (2.4s)
+✔ [2471/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularVarianceBridge (2.7s)
+✔ [2472/2483] Built Erdos.Library.Problem809.SevenCycle.C7VarianceTransfer (2.8s)
+✔ [2473/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseAlternating (1.0s)
+✔ [2474/2483] Built Erdos.Library.Problem809.SevenCycle.C7VarianceStability (3.7s)
+✔ [2475/2483] Built Erdos.Library.Problem809.BucicChenMa.QuantitativeInductionAssembly (2.4s)
+✔ [2476/2483] Built Erdos.Library.Problem809.SevenCycle.C7VarianceAsymptotic (2.5s)
+✔ [2477/2483] Built Erdos.Library.Problem809.SevenCycle.NearRegularSparseZeroVariance (2.2s)
+✔ [2478/2483] Built Erdos.Library.Problem809.SevenCycle.C7FixedLossAsymptotic (2.1s)
+✔ [2479/2483] Built Erdos.Library.Problem809.SevenCycle.C7PositiveVarianceSubsequence (2.1s)
+✔ [2480/2483] Built Erdos.Library.Problem809.SevenCycle.C7LowerSequence (1.8s)
+✔ [2481/2483] Built Erdos.Library.Problem809.FinalAssembly (1.7s)
+✔ [2482/2483] Built Erdos.L17 (1.8s)
+Build completed successfully (2483 jobs).
+audited 2307 constants in 197 modules, 1 claims, 0 compiler axioms: AUDIT PASS
+Lean gate passed.
+--- end streams ---
+worktree_head_after: <the same head as before>
+worktree_status_after: 0 tracked changes
+end_utc: 2026-10-13T18:23:47Z
+wall_seconds: 278
+exit_code: 0

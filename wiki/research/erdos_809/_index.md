@@ -1,7 +1,7 @@
 ---
 name: research/erdos_809
 title: Proof of the rainbow odd-cycle threshold
-desc: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17 and accepted at tier 2 on 2026-09-25 for its audited Lean sources and statement.
+desc: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17, which stands at tier 2 on its independent statement-fidelity review, grade and non-author clean gate.
 created: 2026-09-24T00:00:00Z
 updated: 2026-10-13T02:31:05Z
 ---
@@ -34,10 +34,10 @@ statement and the modules for both branches. The final theorem's import chain
 builds against this repository's pinned Lean and Mathlib versions. The result
 is recorded as native claim [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]]; the corpus build and native audit pass, and
 the independent whole-statement fidelity audit, its grade and a non-author
-clean gate are filed on the claim page, so the claim stands at tier 2
-(accepted on 2026-09-25 for the Lean sources and the statement as they stood
-on 2026-09-25T03:40:15Z)
-and the problem page records the question as proved.
+clean gate are filed on the claim page, so the claim stands at tier 2 (on
+the second-cycle review and grade of 2026-10-02 and the non-author clean gate
+of 2026-10-13, as the claim page states) and the problem page records the
+question as proved.
 
 Priority. Asad Shahab's independent proof claim, a proof of the seven-cycle case
 with a preprint (arXiv:2609.38286, 29 September 2026) and a Lean development

@@ -35,10 +35,9 @@ combines the finite and graph arguments. Its dependencies are, in reading order,
 and [seven-walk cleaning](c7_homomorphic_cleaning.md). The [Lean account](../formalization.md)
 identifies the corresponding Lean modules and the successful targeted build in
 this repository. The argument is the $k=3$ branch of native claim
-[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], accepted at
-tier 2 on 2026-09-25 for the Lean sources and the statement as they stood on
-2026-09-25T03:40:15Z; the
-solution note states the standing of
+[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], which
+stands at tier 2 on the second-cycle review and grade of 2026-10-02 and the
+non-author clean gate of 2026-10-13; the solution note states the standing of
 the prose proof, which remains author-recorded. [Earlier research notes](../archive/_index.md) give context
 for routes considered before the proof.
 
