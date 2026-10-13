@@ -159,8 +159,8 @@ read as raw markdown on 2026-09-17, lists under "AI standalone" a row for
 Problem 251 (GPT-5.4 Pro, 15 Apr, 2026) with the outcome "Solution to
 variant problem", marked with the page's yellow indicator for partial
 progress, and no row for the September 2026 conditional claims. The
-database's `problems.yaml` entry for 251 (commit `0adba1bd`, 2026-09-16,
-the version current on 2026-09-17) gives `state: "open"` under `status`,
+database's `problems.yaml` entry for 251 (its commit of 2026-09-16, the
+version current on 2026-09-17) gives `state: "open"` under `status`,
 `state: "unformalized"` under `formal_status` and `state: "yes"` under
 `formalized`: the statement is formalized and no solution is.
 These are listings, not acceptance.

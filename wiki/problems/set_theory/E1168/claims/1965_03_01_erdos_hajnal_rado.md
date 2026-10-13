@@ -36,8 +36,10 @@ Main Theorem, carries the mark $(*)$ that the paper prefixes to results whose
 proofs assume the General Continuum Hypothesis (pp. 96--97). For $r=2$ it
 states $\aleph_\beta\not\to(\aleph_\beta,(3)_{\aleph_{\mathrm{cr}(\beta)}})^2$
 for every ordinal $\beta$, where $\mathrm{cr}(\beta)$ is the paper's critical
-number (§15.1, p. 130), equal to $\mathrm{cf}(\alpha)$ when $\beta=\alpha+1$.
-For $\beta=\omega+1$ the critical number is $\mathrm{cf}(\omega)=0$, and the
+number (§15.1, p. 130); when $\beta=\alpha+1$,
+$\aleph_{\mathrm{cr}(\beta)}=\mathrm{cf}(\aleph_\alpha)$ (pp. 96 and 130). For
+$\beta=\omega+1$ this gives
+$\aleph_{\mathrm{cr}(\omega+1)}=\mathrm{cf}(\aleph_\omega)=\aleph_0$, and the
 statement is the relation of
 [[problems/set_theory/E1168/_index|Problem 1168]],
 
@@ -65,10 +67,18 @@ Mathematica Academiae Scientiarum Hungaricae, volume 16, issue 1--2. The issue
 is dated March 1965 and carries no day, so this page's date is the first of
 that month. The site credits the result to the paper, under GCH, on a problem
 it labeled OPEN, so no curator acceptance is listed. The proof of the case
-$\beta=\alpha+1$ with $\alpha>\mathrm{cf}(\alpha)$ (Case 1b, p. 133) cites
-Theorem 10, which is printed (p. 117) for $a>a'>\aleph_0$; at $\alpha=\omega$
-the cardinal $a=\aleph_\omega$ has $a'=\aleph_0$, outside that printed
-hypothesis. This corpus has not checked whether the proof of Theorem 10
-covers countable cofinality, and the proofs are not reviewed here.
+$\beta=\alpha+1$ with $\aleph_\alpha$ singular (Case 1b, p. 133) cites
+Theorem 10, which is printed (p. 117) for $a>a'>\aleph_0$, where $a'$ is the
+cofinality of $a$; at $\alpha=\omega$ the cardinal $a=\aleph_\omega$ has
+$a'=\aleph_0$, outside that printed hypothesis. This corpus has not checked
+whether the proof of Theorem 10 covers countable cofinality, and the proofs
+are not reviewed here. The result does not rest on that printed route alone:
+Garti, Hayut and Shelah
+([[../library/set_theory/garti_2025_problem_erdos_hajnal/_index|card]];
+Theorem 0.1, p. 2) state it for every singular $\lambda$ with
+$2^\lambda=\lambda^+$, countable cofinality included, as phrased and proved in
+the 1984 monograph of Erdős, Hajnal, Máté and Rado, *Combinatorial set
+theory: partition relations for cardinals* (North-Holland), whose Theorem 20.2
+they cite as a stronger form. The monograph is not read here.
 
 **Depends on.** No other wiki page; the claim rests on the paper above.

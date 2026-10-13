@@ -53,10 +53,11 @@ and the curator's credit.
 
 ## Current assessment
 
-Search scope: the site's problem page, which on 2026-10-07, with its discussion
-thread and proof-claim tab both empty, labeled the problem proved and credited
-Anderson and Keisler for the general case; formal-conjectures, which had no
-statement file for the problem on that date; the community database, which
+Search scope: the site's problem page (which labeled the problem proved, as
+accessed 2026-09-04, and credited Anderson and Keisler for the general case;
+its discussion thread and proof-claim tab were both empty on 2026-10-07);
+formal-conjectures, which had no statement file for the problem on that date;
+the community database, which
 records the problem proved and unformalized, as of its last update, dated 31
 August 2025; Boris Alexeev's lean-proofs repository, which holds the file
 `src/latest/ErdosProblems/Erdos909.lean`, added on 20 August 2026 and linked

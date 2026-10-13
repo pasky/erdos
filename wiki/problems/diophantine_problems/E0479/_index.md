@@ -39,8 +39,8 @@ https://www.erdosproblems.com/479.
 The assertion for every fixed integer $k\neq1$ was open on the catalog
 snapshot accessed 2026-09-04. The searches covered the site page, Tang's note,
 a web search for a proof of the full congruence question and a bibliographic
-search for the Graham–Lehmer–Lehmer publication, which on 2026-09-05 showed
-Tang's power-of-two family, no universal proof and no primary publication; they
+search for the Graham–Lehmer–Lehmer publication; on 2026-09-05 they showed
+Tang's power-of-two family, no universal proof and no primary publication. They
 also covered a secondary report of Tang's note and OEIS A036236 for the
 historical reference. The site's commentary records the cases $k=2^i$
 ($i\geq1$) and $k=-1$, which Erdős and Graham attribute to Graham, Lehmer and

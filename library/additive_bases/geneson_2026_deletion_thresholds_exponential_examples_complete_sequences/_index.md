@@ -37,13 +37,12 @@ golden ratio (Problem 349).
 Jesse Geneson, *Deletion thresholds and exponential examples for complete
 sequences*, arXiv:2609.25107v1 [math.CO], 20 September 2026, 14 pages.
 
-The copy read for this card
-is the arXiv v1 file, the only version on 2026-09-28 (submitted
-2026-09-20T03:46:32Z; no journal reference or DOI on the arXiv record;
-license arXiv non-exclusive distribution). Provenance: downloaded from <https://arxiv.org/pdf/2609.25107v1>; 423,382 bytes. A
-preprint, not refereed; no journal record was found on 2026-09-28. The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:2609.25107),
-every other right reserved.
+The copy read for this card is the arXiv v1 file, the only version on
+2026-09-28 (submitted 2026-09-20T03:46:32Z; no journal reference or DOI on the
+arXiv record; license arXiv non-exclusive distribution). Provenance: downloaded
+from <https://arxiv.org/pdf/2609.25107v1>; 423,382 bytes. A preprint, not
+refereed. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2609.25107), every other right reserved.
 
 **Read status.** Claims checked for Theorem 1 (p. 1), Theorem 9 (p. 11)
 and Corollary 12 (pp. 12--13), read clause by clause in the text layer; the

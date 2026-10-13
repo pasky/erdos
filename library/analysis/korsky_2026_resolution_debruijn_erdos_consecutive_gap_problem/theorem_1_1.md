@@ -126,6 +126,5 @@ input was checked here.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the claimed resolution
-  registered on the site as a full proof claim (2026-09-08). No acceptance
-  evidence was found on 2026-09-27; the problem page keeps status open and
-  records this theorem as a claim.
+  registered on the site as a full proof claim (2026-09-08); the problem page
+  keeps status open and records this theorem as a claim.

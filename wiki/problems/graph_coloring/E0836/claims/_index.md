@@ -1,6 +1,6 @@
 ---
 name: problems/graph_coloring/E0836/claims
-desc: The 1 claim page of Problem 836, one per claimant's result; the problem's standing derives from them.
+desc: The 2 claim pages of Problem 836, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T21:33:46Z

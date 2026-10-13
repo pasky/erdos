@@ -48,8 +48,8 @@ of the same paper (proof pp. 2--7, not checked here), through it
 ## Standing
 
 An unrefereed manuscript with a declared AI-assistance acknowledgment
-(proofreading, p. 9), read statically; no journal record was found on
-2026-09-18. Consumers state the corollary with this qualification.
+(proofreading, p. 9), read statically. Consumers state the corollary with this
+qualification.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0825/_index|#825]]:
 the problem asks for an absolute $C>0$ such that every integer $n$ with

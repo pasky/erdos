@@ -56,9 +56,8 @@ paper's authority and showed SOLVED; the site's proof-claims tab for the
 problem carries the author's full-proof claim of 14 July 2026 (the arXiv
 link added by a moderator), under the tab's notice that appearing there "is
 no guarantee of proof correctness"; the thread's one comment (4 July 2026)
-is the author's announcement. No refereed publication and no independent
-review were found on 2026-09-18; Semantic Scholar lists one citing record,
-the Wang--Xie--Zhao preprint of August 2026. This is a source-supported
+is the author's announcement. Semantic Scholar lists one citing record, the
+Wang--Xie--Zhao preprint of August 2026. This is a source-supported
 solution accepted by the site, distinct from a claim of journal refereeing.
 
 Read status: claims checked for the abstract, the definitions of Section 1,
@@ -159,7 +158,7 @@ Both developments state the theorem for the manuscript's intervening-count
 $f(n)$; the site's problem uses the largest guaranteed index gap, and the
 consuming page records the equality of the two conventions as an authored
 remark. No formal-conjectures file exists for Problem 1005 at the
-collection's commit `f5f23b44` (2026-09-18).
+collection's commit of 2026-09-18.
 
 **Bears on.** [[../wiki/problems/number_theory/E1005/_index|#1005]], as the status-defining
 source: Theorem 1 gives $f(n)=(\frac14+o(1))n$ for the minimum number of

@@ -41,8 +41,7 @@ claimed. The preprint was posted on the site's proof-claims thread for Problem
 726 on 11 August 2026 as a full proof, with the submitter's own note that the
 result is conditional; a comment of 12 August 2026 on that thread classes it as
 partial, and a third-party evidence record of 16 August 2026, linked from the
-thread on 24 August 2026, lists no independent rerun, assessment or review. No
-refereed publication and no independent review were found on 2026-09-27. A
+thread on 24 August 2026, lists no independent rerun, assessment or review. A
 conditional theorem does not resolve the problem, whatever the standing of the
 argument.
 

@@ -14,8 +14,7 @@ updated: 2026-10-05T05:52:35Z
 **Source.** Theorem 11.1, Section 11, PDF p. 12 of the retained
 arXiv:2605.21518v1 (18 May 2026), proof on p. 12; Theorem 10.1 and its
 Pocklington certificate (Table 1), Section 10, pp. 11--12. Read on the PDF
-pages in the text layer. Preprint with no journal record found on
-2026-09-18.
+pages in the text layer. An unrefereed preprint.
 
 ## Statement
 

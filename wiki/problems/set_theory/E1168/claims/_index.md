@@ -1,6 +1,6 @@
 ---
 name: problems/set_theory/E1168/claims
-desc: ...
+desc: The 1 claim page of Problem 1168, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-13T14:08:51Z

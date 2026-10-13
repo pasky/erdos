@@ -17,8 +17,9 @@ updated: 2026-10-07T20:53:40Z
 Mohammadi, Ali and Stevens, Sophie, Attaining the exponent 5/4 for the
 sum-product problem in finite fields. Int. Math. Res. Not. IMRN (2023),
 3516--3532. The held PDF is the preprint arXiv:2103.08252v3 (2 April 2021),
-not the journal version. The arXiv record (https://arxiv.org/abs/2103.08252, read 2026-10-02)
-names the Creative Commons Attribution 4.0 license.
+not the journal version. The arXiv record
+(https://arxiv.org/abs/2103.08252, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 Theorem 2 states that for a field F of characteristic p not equal to 2 and A a
 subset of F with |A| << p^{1/2} when p > 0, max{|A +- A|, |A * A|} >> |A|^{5/4}

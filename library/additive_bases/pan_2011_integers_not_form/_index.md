@@ -44,9 +44,8 @@ the download "Free download under CC-BY license", a Creative Commons Attribution
 license with no version named; the file prints "© Instytut Matematyczny PAN,
 2011" on its first page.
 
-**Statement check, 2026-09-05.** Theorem 1.1 on printed p. 56 (physical
-page 2) has the factor `log x` in its exponential, not `sqrt(log x)`.
-The latter was a transcription error in this digest. The remark on printed
+**Statement check.** Theorem 1.1 on printed p. 56 (physical page 2) has the
+factor `log x` in its exponential, not `sqrt(log x)`. The remark on printed
 p. 60 (physical page 6), stated there without proof, with its parameter K = 1
 explicitly includes nonnegative exponents a,b >= 0. Thus that convention is
 covered by the source; this check does not reconstruct the full proof or

@@ -101,7 +101,7 @@ proof; the bundled pieces carry their own digests in comments.
   file as independently developed; that is the source's own statement, not a
   finding checked here.
 - formal-conjectures marks `erdos_10.variants.grechuk` `research solved` since
-  commit `62c70dc6` (2026-09-14, PR #5998), citing this gist as its
+  its commit of 2026-09-14 (PR #5998), citing this gist as its
   `formal_proof`; this is catalog agreement with the variant, not with the
   question, which the catalog keeps research open.
 - erdosproblems.com lists one partial proof claim for Problem 10, submitted

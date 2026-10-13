@@ -38,8 +38,7 @@ footnote (p. 1) declares AI assistance "in exploring the argument and in
 writing this text"; the site's commentary attributes the proof to an AI
 model prompted by the author. The manuscript is also posted as
 arXiv:2607.15306 (submitted 14 July 2026), and the arXiv posting is not
-refereeing; no refereed publication or independent review was found on
-2026-09-18; the site accepted the manuscript as the resolution on 14 July
+refereeing; the site accepted the manuscript as the resolution on 14 July
 2026. The card records the provenance.
 
 **Read depth.** Claims checked: the statement, the definition and

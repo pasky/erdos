@@ -119,8 +119,8 @@ site labeled the problem solved with a Lean
 qualification and recorded a last edit of 28 May. Thus the mathematical
 status rests on the primary proof and dated public verification
 evidence, beyond the site's status label. The targeted primary-source search
-found no later contradiction or stronger quantitative answer published by 5
-September 2026; it is not an exhaustive search of unpublished claims.
+found no later contradiction or stronger quantitative answer; it is not an
+exhaustive search of unpublished claims.
 
 ## Known results and proof route
 

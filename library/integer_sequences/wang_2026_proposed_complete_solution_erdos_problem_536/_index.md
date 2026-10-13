@@ -39,8 +39,7 @@ finite-prime envelope is Proposition 3.1 in this version; a site comment of
 Standing: an unreviewed claim. It was submitted to the site's proof-claim
 tab for Problem 536 on 14 July 2026, where the tab labels it a partial
 proof claim; the site's label stayed OPEN and its commentary does not
-mention it; no arXiv version, refereed publication or independent review
-was found on 2026-09-18. The tab's submission declares that the claim was
+mention it. The tab's submission declares that the claim was
 produced using an AI model (GPT-5.6 Sol); the manuscript itself carries no
 statement about AI use. The file prints no notice of its own on pp. 1--2 or
 32--33; the repository holding

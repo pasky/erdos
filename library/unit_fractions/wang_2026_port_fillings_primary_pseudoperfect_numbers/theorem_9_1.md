@@ -13,8 +13,8 @@ updated: 2026-10-05T05:52:35Z
 
 **Source.** Theorem 9.1, Section 9, PDF p. 11 of the retained
 arXiv:2605.21518v1 (18 May 2026, 23 pages; the paper is dated May 2026);
-proof on p. 11. Read on the PDF pages in the text layer. Preprint with no
-journal record found on 2026-09-18.
+proof on p. 11. Read on the PDF pages in the text layer. An unrefereed
+preprint.
 
 ## Statement
 
