@@ -182,7 +182,7 @@ $\square$
 **Proof of Theorem 2.1** First, we will observe that it is sufficient to prove the statement for $\mathcal{A} = \{A_i\}_{i\in I}$ finite on a ground set $X$ with $|X| = n$. To this end, for a possibly infinite $\mathcal{A}$, let $\mathcal{H}$ be the hypergraph with vertex set $V(\mathcal{H}) = \mathcal{A}$ and edges given by
 
 $$
-\mathcal{H} = \left\{ \{A_j\}_{j\in J\cup J'} : J, J' \subseteq I \text{ finite and } \bigcup_{j\in J} A_j = \bigcup_{j'\in J'} A_{j'} \right\}.
+\mathcal{H} = \left\{ \{A_j\}_{j\in J\cup J'} : J, J' \subseteq I \text{ finite and } \biguplus_{j\in J} A_j = \biguplus_{j'\in J'} A_{j'} \right\}.
 $$
 
 That is, the edges of $\mathcal{H}$ are the subsets of $\mathcal{A}$ violating the condition of being free. Therefore, the conclusion of the statement of Theorem 2.1 is equivalent to $\chi(\mathcal{H}) \leq \frac{4}{\varepsilon} k^2 \log k$. Thus, by Theorem 1.4, it suffices to prove for any finite subgraph $\mathcal{G} \subseteq \mathcal{H}$ that $\chi(\mathcal{G}) \leq \frac{4}{\varepsilon} k^2 \log k$, i.e., to prove the theorem for a finite set system.
@@ -369,7 +369,7 @@ We order the vertices of all $C_{ij}^{(q)}$ such that $\max V(C_{ij}^{(q)}) < \m
 We finally define the $k$-graph $F$ as the graph with vertex set $V(F) = \bigcup_{1 \leq i,j \leq h!} V(F_{ij})$, where the ordering of $V(F)$ respects the total ordering of $V(F_{ij})$ described above, and edge set given by
 
 $$
-F = \left\{ f_s := \bigcup_{1 \leq i,j \leq h!} f_{ij}^s : 1 \leq s \leq 2h \right\}.
+F = \left\{ f_s := \bigcup_{1 \leq i,j, \leq h!} f_{ij}^s : 1 \leq s \leq 2h \right\}.
 $$
 
 That is, the graph $F$ consists of $2h$ edges of size $k = 2(h!)^2$ where the edge $f_s$ of $F$ is the union of all the pairs labeled with $s$.
@@ -448,7 +448,7 @@ $$
 A similar argument as in Case 1 shows that $\biguplus_{r=1}^h A_{f_r} = \biguplus_{s=h+1}^{2h} A_{f_s}$. Furthermore, note that for $1 \leq r,s \leq h$, the edges $f_r$ and $f_s$ intersect at $C_{ij}^{(q)}$ if $\sigma_i$ and $\sigma_j$ satisfies (7). As in the first case, this happens $2t(h-2)!h!$ times and therefore
 
 $$
-|f_r \cap f_s| = 2t(h-2)!h! = (h-1)!h!.
+|f_r \cap f_s| == 2t(h-2)!h! = (h-1)!h!.
 $$
 
 A similar computation obtain the same bound for $h+1 \leq r,s \leq 2h$. Finally, for $1 \leq r \leq h$ and $h+1 \leq s \leq 2h$, the counting is almost the same as in Case 1, except for the extra possibility that $f_r$ and $f_s$ intersect in the 2-cycle $C_{ij}^{(t+1)}$. This happens $2((h-1)!)^2$ times and we conclude that
@@ -799,7 +799,7 @@ We recall that the quantifications of Theorems 1.1, 3.1, and 4.1 guarantee for e
 
 The same problem may be also asked in the context of Theorem 4.1 and Theorem 3.1.
 
-In Sect. 5, we show that for every $\mu < \frac{k-1}{k}$, there exists a $k$-graph with arbitrarily large chromatic number and $\mu$-fractional property. Moreover, this is optimal, since Theorem 5.2 shows that if $H$ is a $k$-graph with the $\frac{k-1}{k}$-fractional property, then $H$ is bipartite. It seems to be an interesting problem to decide if the assumption of $H$ having the $\frac{k-1}{k}$-fractional property on Theorem 5.2 could be replaced by having the weaker $\frac{k-1}{k}$-property.
+In Sect. 5, we show that for every $\mu < \frac{k-1}{k}$, there exists a $k$-graph with arbitrarily large chromatic number and $\mu$-fractional property. Moreover, this is optimal, since Theorem 5.2 shows that if $H$ is a $k$-graph with $\frac{k-1}{k}$-fractional property, then $H$ is bipartite. It seems to be an interesting problem to decide if the assumption of $H$ having the $\frac{k-1}{k}$-fractional property on Theorem 5.2 could be replaced by having the weaker $\frac{k-1}{k}$-property.
 
 **Problem 6.2** *Is it true that there exists integer $m := m(k)$ such that $\chi(H) \leq m$ for any $k$-graph $H$ with $\frac{k-1}{k}$-property?*
 

@@ -130,7 +130,7 @@ For $m \geq 4$, Kruskal’s theorem can be “reshaped” by regarding multiple 
 
 We now state our splitting theorem, which we use in Section 5 to prove our generalization of Kruskal’s theorem, and in Sections 7, 8, and 9 to obtain further results on tensor decompositions. We first require a definition.
 
-**Definition 3.** Let $n \geq 2$ be an integer, and let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$. We say that a multiset of non-zero vectors $\{v_1, \ldots, v_n\} \subseteq \mathcal{V} \setminus \{0\}$ splits, or is *disconnected*, if there exists a subset $S \subset \{v_1, \ldots, v_n\}$ with $1 \leq |S| \leq n - 1$ for which
+**Definition 3.** Let $n \geq 2$ be an integer, and let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$. We say that a multiset of non-zero vectors $\{v_1, \ldots, v_n\} \subseteq \mathcal{V} \setminus \{0\}$ splits, or is *disconnected*, if there exists a subset $S \subseteq \{v_1, \ldots, v_n\}$ with $1 \leq |S| \leq n - 1$ for which
 
 $$\operatorname{span}\{v_1, \ldots, v_n\} = \operatorname{span}(S) \oplus \operatorname{span}(S^c),$$
 
@@ -182,7 +182,7 @@ In Section 7.2 we prove further uniqueness results for non-rank decompositions o
 
 In Section 9.2 we identify two potential applications of our uniqueness results for non-rank decompositions: First, they allow us to define a natural hierarchy of tensors in terms of “how unique” their decompositions are. Second, any uniqueness result for non-rank decompositions can be turned around to produce a result in the more standard setting, in which one starts with a decomposition into $n$ terms, and wants to control the possible decompositions into fewer than $n$ terms.
 
-From the proof sketch of our generalization of Kruskal’s theorem that appears at the end of the previous subsection, it is easy to surmise that if $\sum_{a\in[n]} x_a = \sum_{a\in[r]} y_a$, and $2n \leq \sum_{j=1}^m (d_j^{[n]} - 1) + 1$, then there exist non-trivial subsets $Q \subseteq [n]$ and $R \subseteq [r]$ for which $\sum_{a\in Q} x_a = \sum_{a\in R} y_a$. This conclusion can be viewed as an extremely weakened form of uniqueness, and it is natural to ask what statements can be made for notions of uniqueness in between the standard one and this weakened one. We answer this question in Sections 7.1 and 7.2.
+From the proof sketch of our generalization of Kruskal’s theorem that appears at the end of the previous subsection, it is easy to surmise that if $\sum_{a\in[n]} x_a = \sum_{a\in[r]} y_a$, and $2n \leq \sum_{j=1}^m (d_j^{[n]} - 1) + 1$, then there exist non-trvial subsets $Q \subseteq [n]$ and $R \subseteq [r]$ for which $\sum_{a\in Q} x_a = \sum_{a\in R} y_a$. This conclusion can be viewed as an extremely weakened form of uniqueness, and it is natural to ask what statements can be made for notions of uniqueness in between the standard one and this weakened one. We answer this question in Sections 7.1 and 7.2.
 
 We say that a set of non-zero vectors forms a *circuit* if it is linearly dependent and any proper subset is linearly independent. As a special case of our splitting theorem, in Corollary 21 we obtain an upper bound on the number of subsystems $j \in [m]$ for which a circuit of product tensors can have $d_j \geq 2$. This improves recent bounds obtained in [BBCG18, Bal20], and is sharp.
 
@@ -406,7 +406,7 @@ completing the proof. $\triangle$
 
 Now we prove Claim 9.
 
-*Proof of Claim 9.* Let $B \subseteq E_{p-1}$ be such that $\{x_a : a \in B\}$ is a basis for $\operatorname{span}\{x_a : a \in E_{p-1}\}$. By permuting $[n]$, we may assume that $E_p \setminus E_{p-1} = [q]$ for some $q \in [n]$, and that $B \cup \{x_a : a \in [s]\}$ is a basis for $\operatorname{span}\{x_a : a \in E_p\}$, where $s = d_1^{E_p} - d_1^{E_{p-1}}$. If there exists $b \in [s]$ for which $y_b \notin \operatorname{span}\{y_a : a \in [q] \setminus [s]\}$, then, as in the proof of Claim 8,
+*Proof of Claim 9.* Let $B \subseteq E_{p-1}$ be such that $\{x_a : a \in B\}$ is a basis for $\operatorname{span}\{x_a : a \in E_{p-1}\}$. By permuting $[n]$, we may assume that $E_p \setminus E_{p-1} = [q]$ for some $q \in [n]$, and that $B \cup \{x_a : a \in [s]\}$ is a basis for $\operatorname{span}\{x_a : a \in E_p\}$, where $s = d^{E_p} - d^{E_{p-1}}$. If there exists $b \in [s]$ for which $y_b \notin \operatorname{span}\{y_a : a \in [q] \setminus [s]\}$, then, as in the proof of Claim 8,
 
 $$
 x_b \otimes y_b \notin \operatorname{span}\{x_a \otimes y_a : a \in E_p \setminus \{b\}\}.
@@ -1566,7 +1566,7 @@ $$X_1^\tau=(x_{\tau(1),1},\ldots,x_{\tau(n),n})$$
 
 has reduced row echelon form
 
-$$\gamma=\left[\begin{array}{c|c}
+$$Y=\left[\begin{array}{c|c}
 \begin{matrix}1&&\\&\ddots&\\&&1\end{matrix}&Z
 \end{array}\right],$$
 
