@@ -32,7 +32,7 @@ measure. Must $A$ contain the vertices of an isosceles trapezoid of area $1$?
 What about an isosceles triangle, or a right-angled triangle, or a cyclic
 quadrilateral, or a convex polygon with congruent sides?
 
-**Status.** PROVED (LEAN). The site labels the problem proved with a Lean
+**Status.** PROVED (LEAN). The site labeled the problem proved with a Lean
 qualification. It credits Koizumi with the trapezoid question and the two
 triangle variants, recorded on the
 [[problems/discrete_geometry/E0353/claims/2025_01_03_koizumi|Koizumi claim page]].

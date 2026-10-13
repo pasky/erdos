@@ -75,7 +75,7 @@ records the problem as solved and unformalized with no formal-proof URL.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site states the problem as above, shows
+**The question.** On 2026-09-17 the site states the problem as above, showed
 SOLVED, and cites [Er95] as its source. Its commentary recalls the two-color
 bounds of Burr and Erdős [BuEr85] (no Ramsey $2$-complete $A$ has
 $|A\cap\{1,\ldots,N\}|\le c(\log N)^2$ for all large $N$, while some Ramsey

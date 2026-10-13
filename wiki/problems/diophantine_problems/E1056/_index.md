@@ -70,7 +70,7 @@ https://www.erdosproblems.com/1056.
 
 The question for every $k$ is open; the instances settled so far are finite
 witnesses, and no construction gives $k$ intervals for every $k$. The site
-labels the problem OPEN, and the derived standing stays open.
+labeled the problem OPEN, and the derived standing stays open.
 
 The case $k=2$ is Erdős's example $3\cdot4\equiv5\cdot6\cdot7\equiv1\pmod{11}$,
 from a letter of 31 October 1979 that Guy reports in A15

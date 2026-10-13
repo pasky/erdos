@@ -50,8 +50,8 @@ $\sum_{n\in A}1/n$ over all such sets, which the commentary raises from
 [Er75b] and [Er77c], is a related question outside the statement. The
 counting function is written $A(x)=|A\cap[1,x]|$.
 
-**Status.** The site's label is OPEN. The derived standing is claimed, through a
-pending full claim on the site's proof-claims tab that would settle the gap
+**Status.** The site's label was OPEN. The derived standing is claimed, through
+a pending full claim on the site's proof-claims tab that would settle the gap
 questions if accepted.
 
 The refereed sources give the following. Erdős (1962, Theorems I--III and the

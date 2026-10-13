@@ -231,7 +231,7 @@ graph is non-bipartite, so the condition is vacuous. The determination is
 an accepted partial claim on its page,
 [[problems/extremal_graph_theory/E1011/claims/1962_03_01_erdos|1962_03_01_erdos]]
 (refereed; the site's commentary credits it, which on a problem the site
-labels OPEN is not acceptance evidence). Turán's theorem, the case $r=2$,
+labeled OPEN is not acceptance evidence). Turán's theorem, the case $r=2$,
 is an accepted partial claim on its page,
 [[problems/extremal_graph_theory/E1011/claims/1941_01_01_turan|1941_01_01_turan]].
 

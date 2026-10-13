@@ -47,8 +47,8 @@ poses the conjecture for $r$-graphs as the generalization of the
 Erdős–Goodman–Pósa theorem on graphs, the case $r=2$ ([Er81], Part IV, item 3),
 and the formal-conjectures statement assumes $r\ge2$.
 
-**Status.** Open on erdosproblems.com (label OPEN). The site's notes call it a
-conjecture of Erdős and Sauer.
+**Status.** Labeled open on erdosproblems.com (label OPEN). The site's notes
+call it a conjecture of Erdős and Sauer.
 
 **Source.** [erdosproblems.com/719](https://www.erdosproblems.com/719), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #719,

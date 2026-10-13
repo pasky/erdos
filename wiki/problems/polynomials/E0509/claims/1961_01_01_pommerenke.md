@@ -52,6 +52,6 @@ bound for functions univalent outside the unit disc, which the paper cites
 and which is not held.
 
 **Acceptance.** Refereed: Michigan Math. J. 8 (1961), no. 2, 97--115. The site's
-remarks credit Pommerenke with the connected case, but the site labels the
+remarks credit Pommerenke with the connected case, but the site labeled the
 problem OPEN. So the curator's label settles neither the problem nor a part of
 it, and no `reviewed` evidence is listed.

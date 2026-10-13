@@ -44,6 +44,6 @@ closed disc of radius at least $1$; nothing about other sets or about the first
 question.
 
 **Refereed.** J. Analyse Math. 6 (1958), 125-148. The site's commentary credits
-the result on a problem it labels OPEN, which is not acceptance.
+the result on a problem it labeled OPEN, which is not acceptance.
 
 **Depends on.** Nothing in this wiki.

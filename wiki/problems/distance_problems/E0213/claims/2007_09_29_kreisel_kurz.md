@@ -59,5 +59,5 @@ formalization.
 **Acceptance.** Refereed: Discrete & Computational Geometry 39 (2008), no. 4,
 786–790, published online 2007-09-29. These data come from the Crossref record
 of the DOI. The site's remarks credit the largest known construction, seven
-points, to this paper, but the site labels the problem OPEN. That credit is
+points, to this paper, but the site labeled the problem OPEN. That credit is
 therefore commentary on an open problem, and no `reviewed` evidence is listed.

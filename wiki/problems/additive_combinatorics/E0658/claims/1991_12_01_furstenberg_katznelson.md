@@ -49,7 +49,7 @@ and as the site's commentary credits it.
 doi:10.1007/BF03041066. The Crossref record dates the volume to December 1991,
 and this page's name fills that to the first of the month.
 
-Reviewed: the site's curator, Thomas Bloom, labels the problem proved. The
+Reviewed: the site's curator, Thomas Bloom, labeled the problem proved. The
 problem page's commentary credits the answer without a bound to Furstenberg and
 Katznelson's density Hales–Jewett theorem. The proof-claim tab is empty.
 Solymosi's later

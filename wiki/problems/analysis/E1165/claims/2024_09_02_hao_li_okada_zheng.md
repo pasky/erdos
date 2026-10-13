@@ -63,7 +63,7 @@ cite the journal version's pagination.
 
 **Acceptance.** Refereed: the paper appeared in Probability Theory and Related
 Fields and was published online on 12 November 2025. Reviewed: Thomas Bloom, the
-curator of erdosproblems.com, labels the problem solved and credits this paper
+curator of erdosproblems.com, labeled the problem solved and credits this paper
 for the value $1$ at $r=3$. Bloom credits the value $0$ for $r\ge4$ to Tóth's
 2001 paper. That paper concerns the walk on $\mathbb Z$, so the planar value for
 $r\ge4$ also rests here on Theorem 1.1, which gives it with the same limit

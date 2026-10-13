@@ -105,7 +105,7 @@ pages, both of which credit this preprint with the first proof and build on
 its ideas.
 
 **Acceptance.** None recorded. The preprint is not refereed, the forum entry has
-no comments, and the site labels the problem OPEN (2026-10-07). Two later
+no comments, and the site labeled the problem OPEN. Two later
 preprints by other authors state the conjecture as proved by this one. That is
 scholarly acknowledgment, not a review record. The claim stays `claimed` until
 an independent acceptance or a refereed publication is recorded.

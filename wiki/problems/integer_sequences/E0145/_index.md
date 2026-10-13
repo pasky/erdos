@@ -29,7 +29,7 @@ $$
 
 exists?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 19 October
+**Status.** Open. The site labeled the problem OPEN (page last edited 19 October
 2025). Its commentary credits a chain of partial results, each recorded as a
 claim page. They are Erdős's range $0\le\alpha\le2$
 ([[problems/integer_sequences/E0145/claims/1951_01_01_erdos|Erdős 1951]]),

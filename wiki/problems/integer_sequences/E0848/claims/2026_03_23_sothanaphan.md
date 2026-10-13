@@ -78,7 +78,7 @@ assert closed, the first of them by certificates and envelope arguments up
 to this threshold and then this note's theorem.
 
 **Acceptance.** None on record. The note was not submitted to the site's
-proof-claim tab. The site's label is DECIDABLE for Sawhney's result (page last
+proof-claim tab. The site's label was DECIDABLE for Sawhney's result (page last
 edited 6 December 2025, before the note), and the curator has not acted on the
 note. The thread's replies report attempts by other systems to lower the
 constant further. They report no review of the argument. A comment of 19 August

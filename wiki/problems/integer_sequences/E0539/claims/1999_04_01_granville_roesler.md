@@ -78,7 +78,7 @@ Mathematical Monthly, volume 106, issue 4 (April 1999). This is the `refereed`
 evidence. The issue carries no day, so this page is dated to the first day of
 that month. The site's curator, Thomas Bloom, credits the two bounds to Erdős
 and Szemerédi and to Freiman and Lev, and points to this paper for their proofs.
-But the site labels the problem OPEN, so that credit is not `reviewed` evidence.
-The paper's statements are checked against the text. This corpus has not checked
-the proof of Theorem 1 (p. 4) or the Freiman--Lev count, and nothing is
-independently reviewed by this project.
+But the site labeled the problem OPEN, so that credit is not `reviewed`
+evidence. The paper's statements are checked against the text. This corpus has
+not checked the proof of Theorem 1 (p. 4) or the Freiman--Lev count, and nothing
+is independently reviewed by this project.

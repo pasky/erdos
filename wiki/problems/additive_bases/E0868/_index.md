@@ -29,7 +29,7 @@ $n\not\in A+A$)
 What if $1_A\ast 1_A(n) >\epsilon \log n$ (for all large $n$, for arbitrary
 fixed $\epsilon>0$)?
 
-**Status.** Disproved. The site labels the problem SOLVED (LEAN) and records a
+**Status.** Disproved. The site labeled the problem SOLVED (LEAN) and records a
 negative answer to both questions by Larsen and Larsen. They build a basis with
 representation counts above $\varepsilon\log n$ and no minimal subbasis. The
 site sets this against the positive answer of [ErNa79], which holds when every

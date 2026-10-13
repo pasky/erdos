@@ -56,7 +56,7 @@ reduction in its Subsection 1.1, names Desmond Weisenberg, and cites the
 site's page as retrieved; that retrieval date names this
 page as the latest date by which the argument was public.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marks Problem 844
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem 844
 proved and presents Weisenberg's argument as the proof, with
 [[problems/divisors/E0844/claims/2025_07_02_alexeev_mixon_sawin|the independent proof of Alexeev, Mixon and Sawin]]
 as the alternative. Chvátal's theorem is transcribed on its library card, and

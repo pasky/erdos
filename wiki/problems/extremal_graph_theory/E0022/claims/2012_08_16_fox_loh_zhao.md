@@ -55,16 +55,16 @@ records the statement as printed on p. 4 of arXiv v3.
 **Acceptance.** Refereed publication: Combinatorica 35 (2015), no. 4, 435--476,
 doi:10.1007/s00493-014-3025-3, published online 22 October 2014. The Crossref
 record and the journal reference in the arXiv listing agree on the venue. The
-site's curator, Thomas Bloom, labels the problem proved and credits the solution
-to Fox, Loh and Zhao [FLZ15]. The discussion thread and the proof-claim tab were
-empty on 2026-09-18 and on 2026-10-07. The text cited is arXiv:1208.3276v3 (23
-September 2014; v1 posted 16 August 2012, the date of this page). The journal
-text is not held. Proof coverage: the statement of Theorem 1.9. Its proof (p. 30
-of the preprint, a consequence of Corollaries 8.9 and 9.2) is not reviewed.
-Theorem 1.8 of the same paper shows that the independence number cannot be
-pushed below $cn\log\log n/\log n$ at $n^2/8$ edges. So the construction is
-within a factor of order $(\log\log n)^{1/2}(\log n)^{1/2}$ of best possible.
-The exact order is not the site's question.
+site's curator, Thomas Bloom, labeled the problem proved and credits the
+solution to Fox, Loh and Zhao [FLZ15]. The discussion thread and the proof-claim
+tab were empty on 2026-09-18 and on 2026-10-07. The text cited is
+arXiv:1208.3276v3 (23 September 2014; v1 posted 16 August 2012, the date of this
+page). The journal text is not held. Proof coverage: the statement of Theorem
+1.9. Its proof (p. 30 of the preprint, a consequence of Corollaries 8.9 and 9.2)
+is not reviewed. Theorem 1.8 of the same paper shows that the independence
+number cannot be pushed below $cn\log\log n/\log n$ at $n^2/8$ edges. So the
+construction is within a factor of order $(\log\log n)^{1/2}(\log n)^{1/2}$ of
+best possible. The exact order is not the site's question.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos22.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean `v4.33.0`; first added

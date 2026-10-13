@@ -46,7 +46,7 @@ $n^\epsilon$-smooth integers in $[n-n^c,n]$ for some $c<1$, which also gives
 both. The formal-conjectures statement `erdos_369` encodes the second reading
 (see Formalization).
 
-**Status.** Proved. The site shows PROVED (LEAN) (page last edited 2026-04-28).
+**Status.** Proved. The site showed PROVED (LEAN) (page last edited 2026-04-28).
 The problem is proved in the wording and in both readings described under
 Formulation. The site's (LEAN) suffix rests on a Lean proof of Yang's
 construction, which formal-conjectures links as the proof of its statement of

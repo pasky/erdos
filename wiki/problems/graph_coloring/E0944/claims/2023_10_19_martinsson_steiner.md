@@ -45,7 +45,7 @@ reach fixed small $k$ as $r$ grows, so $k=4$ is left open.
 
 **Acceptance.** A refereed journal publication in Combinatorics, Probability
 and Computing (`refereed`), published online on 11 October 2024. The site
-labels the problem OPEN, so its commentary crediting the paper is not
+labeled the problem OPEN, so its commentary crediting the paper is not
 acceptance.
 
 **Depends on.** No page of this wiki.

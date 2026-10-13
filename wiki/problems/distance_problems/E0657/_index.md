@@ -26,7 +26,7 @@ such that every subset of $3$ points determines $3$ distinct distances (i.e. $A$
 has no isosceles triangles) then $A$ must determine at least $f(n)n$ distinct
 distances, for some $f(n)\to \infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 15 October
+**Status.** Open. The site labeled the problem OPEN (page last edited 15 October
 2025). The standing derived from the claim pages is open, because no superlinear
 lower bound is known for planar sets in general. The assertion is proved for
 collinear sets, which are the progression-free sets of reals. On that class,

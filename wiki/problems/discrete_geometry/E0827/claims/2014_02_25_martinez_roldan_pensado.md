@@ -50,6 +50,6 @@ $k$.
 
 **Acceptance.** The paper appeared in Acta Math. Hungar. 145 (2015), no. 1,
 136–141. This is the `refereed` evidence. The site's commentary credits the
-corrected argument and the $k^9$ bound to the paper. But the site labels the
+corrected argument and the $k^9$ bound to the paper. But the site labeled the
 problem OPEN, so that credit is not acceptance. The library card is
 [[../library/discrete_geometry/martinez_2015_points_defining_triangles_distinct_circumradii/_index|Martínez and Roldán-Pensado 2015]].

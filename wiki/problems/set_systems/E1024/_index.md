@@ -31,7 +31,7 @@ The function $f(n)$ is the largest such value, the least independence number
 of a $3$-uniform linear hypergraph on $n$ vertices; the bounds the site's
 commentary records, an upper bound among them, concern that value.
 
-**Status.** The site labels the problem SOLVED. It credits Phelps and Rödl
+**Status.** The site labeled the problem SOLVED. It credits Phelps and Rödl
 [PhRo86] with $f(n)\asymp(n\log n)^{1/2}$.
 
 **Source.** [erdosproblems.com/1024](https://www.erdosproblems.com/1024),

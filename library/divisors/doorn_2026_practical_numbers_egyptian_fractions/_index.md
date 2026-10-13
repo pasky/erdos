@@ -67,7 +67,7 @@ file was not built, so no kernel credit is claimed: every result of this
 source is a claim.
 
 **Bears on.** [[../wiki/problems/divisors/E0018/_index|Problem 18]] (Theorem 1.1 answers the
-first question affirmatively with exponent $2$ if correct; the site shows
+first question affirmatively with exponent $2$ if correct; the site showed
 OPEN and no independent acceptance is documented),
 [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]] (Theorem 1.2 would improve
 Vose's $N(b)\ll(\log b)^{1/2}$ to $2c_0(\log\log b)^2$ and is implied by the

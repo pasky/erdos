@@ -27,12 +27,12 @@ updated: 2026-10-08T00:44:25Z
 \{1,\ldots,N\}$ such that the product of no $k$ many distinct elements of $A$ is
 a square. Is $F_5(N)=(1-o(1))N$? More generally, is $F_{2k+1}(N)=(1-o(1))N$?
 
-**Status.** Disproved on the site (label DISPROVED (LEAN); page last edited 17
-October 2025). Tao's Theorem 1.2 (2024) gives, for every $k\geq 4$, a constant
-$c_k>0$ with $F_k(N)\leq(1-c_k+o(1))N$. So neither $F_5(N)$ nor $F_{2k+1}(N)$
-for any $k\ge2$ is $(1-o(1))N$. The paper appeared in Acta Math. Hungar. 175
-(2025). Thomas Bloom, the site's curator, attributes the negative answer to it.
-The claim page
+**Status.** Labeled disproved on the site (label DISPROVED (LEAN); page last
+edited 17 October 2025). Tao's Theorem 1.2 (2024) gives, for every $k\geq 4$, a
+constant $c_k>0$ with $F_k(N)\leq(1-c_k+o(1))N$. So neither $F_5(N)$ nor
+$F_{2k+1}(N)$ for any $k\ge2$ is $(1-o(1))N$. The paper appeared in Acta Math.
+Hungar. 175 (2025). Thomas Bloom, the site's curator, attributes the negative
+answer to it. The claim page
 [[problems/integer_sequences/E0121/claims/2024_05_19_tao|Tao 2024]] records the
 acceptance. The site's (LEAN) suffix is a catalog label. The outside Lean proof
 it refers to is linked from the claim page and described under Formalization.

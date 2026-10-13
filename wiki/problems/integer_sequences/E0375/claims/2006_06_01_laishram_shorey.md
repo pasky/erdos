@@ -46,5 +46,5 @@ are not covered, so the problem stays open.
 
 **Acceptance.** The result appeared in 2006 in the International Journal of
 Number Theory, a refereed journal. This is the `refereed` evidence. The site
-labels the problem FALSIFIABLE, which is an open label, so the credit in its
+labeled the problem FALSIFIABLE, which is an open label, so the credit in its
 commentary is not `reviewed` evidence.

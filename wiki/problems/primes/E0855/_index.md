@@ -61,7 +61,7 @@ https://www.erdosproblems.com/855.
 
 ## Current assessment
 
-The standing above derives from the claim page below, and the site's label is
+The standing above derives from the claim page below, and the site's label was
 also OPEN. The notes below are not independently reviewed. This page records no
 current literature search or independent assessment of proof coverage.
 

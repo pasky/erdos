@@ -5,7 +5,7 @@ desc: |
   Theorem 1.1 of Kwan, Sah, Sauermann and Sawhney (2022) shows that a $C$-Ramsey
   graph $G$ on $n$ vertices has induced subgraphs of every edge count up to
   $(1-\eta)e(G)$, which gives the Erdős–McKay conjecture of Problem 88. The
-  paper is refereed, and the site lists Problem 88 as PROVED.
+  paper is refereed, and the site listed Problem 88 as PROVED.
 authors:
 - Matthew Kwan
 - Ashwin Sah
@@ -77,7 +77,7 @@ condition, as the site's commentary and the footnote both note.
 **Depends on.** Nothing in this wiki; the deduction above is the only step
 beyond the cited paper.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED, with the note that the answer is yes, and credits the solution to the
 four authors in the problem's commentary (page accessed 2026-09-18). The thread
 and the proof-claim tab are empty. The site's credit line thanks Mehtaab

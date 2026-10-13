@@ -73,7 +73,7 @@ so no `formalized` evidence is listed.
 
 **Standing.** Claimed. The result is posted on Overleaf, in a public
 repository and in the site's thread, with no review or refereed publication
-recorded, and the site labels the problem OPEN. The limsup part is restated
+recorded, and the site labeled the problem OPEN. The limsup part is restated
 with a stronger quantitative bound as Theorem 1.3 of
 [[problems/divisors/E1054/claims/2026_10_03_chae_fraiture_hou_kovac_kudeba_shakov_vidal|the
 collaboration paper]]. Nothing here is independently reviewed by this

@@ -67,7 +67,7 @@ Current assessment records; this is a bounded negative finding for the exact
 value of $\pi(K_4^-)$, not a certificate of openness.
 
 **Status.** Disproved, by an elementary counterexample to the statement as
-printed. The site's label is DISPROVED (LEAN). It carries a catalog suffix
+printed. The site's label was DISPROVED (LEAN). It carries a catalog suffix
 explained under Formalization: the counterexample has been checked in Lean in
 external files the corpus has not built. The frontmatter standing is derived
 from the accepted claim page

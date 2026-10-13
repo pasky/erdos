@@ -66,6 +66,6 @@ improvement from $6$ to $3$ is therefore the note's result, found with
 ChatGPT-6 Astra; the construction is Kohlmeyer and Kruer's.
 
 **Acceptance.** None: the note is not refereed and carries no outside review,
-and the site labels the problem OPEN. It reached the erdosproblems.com forum on
+and the site labeled the problem OPEN. It reached the erdosproblems.com forum on
 2 October 2026 as a comment under the curator's posting of the Conjectures.io
 claim. The comment links the note as an exposition.

@@ -92,7 +92,7 @@ checked neither. See Existing formalization.
 
 **The question.** On 2026-09-17 the site asks, for each $k\ge2$, for an
 integer $n_k$ whose nontrivial proper divisors cannot be $k$-colored without
-a monochromatic set of reciprocal sum one, shows PROVED (LEAN), and explains
+a monochromatic set of reciprocal sum one, showed PROVED (LEAN), and explains
 in its commentary that this follows from Croot's coloring theorem with
 $n_k\le e^{C^k}$ for some constant $C>1$ (take $n_k$ to be the least common
 multiple of an interval $[1,C^k]$), that a doubly exponential lower bound

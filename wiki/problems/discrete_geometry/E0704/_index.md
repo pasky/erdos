@@ -38,7 +38,7 @@ $$
 
 exist?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
 2026). Its proof-claims thread carried no claim as of 6 October 2026. The
 problem's three questions are listed as its parts. The accepted partial claims
 of

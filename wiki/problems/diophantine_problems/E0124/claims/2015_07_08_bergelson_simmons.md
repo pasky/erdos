@@ -55,7 +55,7 @@ is claimed in full on
 
 **Acceptance.** Refereed: Acta Arithmetica 177 (2017), no. 2, 101--131. The
 site's commentary (page last edited 1 December 2025) does not mention the paper,
-and the site labels the problem OPEN, so no `reviewed` evidence is listed. A
+and the site labeled the problem OPEN, so no `reviewed` evidence is listed. A
 post on the site's thread of 23 September 2026 cites the theorem, together with
 Fan's
 ([[problems/diophantine_problems/E0124/claims/2026_09_09_fan|claim page]]), as

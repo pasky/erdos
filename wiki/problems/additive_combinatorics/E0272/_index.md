@@ -86,7 +86,7 @@ on 2026-09-28 the page showed the label OPEN, which the site explains as not
 settled by any finite computation, seven comments from August and September
 2025 (among them the computations of $t(N)$ for $N\leq9$ described under
 Progress) and no proof claim. No source determines $t(N)$ for general $N$, so
-the site's label is open and every claim page of the problem is partial.
+the site's label was open and every claim page of the problem is partial.
 
 Best known progress. [Sz99] gives $t(N)=N^2/2+O(N^{5/3}(\log N)^3)$ and
 $t(N)\geq\binom N2+\lfloor(N-1)/4\rfloor+1$. Yang (arXiv:2607.23004,

@@ -84,7 +84,7 @@ on 1 March 2026, describing the computation as GPT run in a near-autonomous
 process. The site's commentary (page last edited 2 April 2026) credits the
 improvement of the lower bound to $0.5850788$, a truncation of the note's
 value, to GPT as prompted by Sothanaphan, and Tao's table of bounds for the
-constant records the value with the same credit. The problem's label is
+constant records the value with the same credit. The problem's label was
 OPEN, so the commentary's credit is not an acceptance. The note is not
 refereed and not formalized, and the only check of it recorded anywhere is
 the re-verification claimed in

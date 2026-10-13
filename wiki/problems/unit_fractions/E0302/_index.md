@@ -43,8 +43,8 @@ and the coloring version is [[problems/unit_fractions/E0303/_index|Problem 303]]
 $f(N)$ is OEIS A390395 ($1,2,3,4,5,5,6,\ldots$, to $N=731$). The statement
 asks for an estimate and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label is OPEN (no last-edited date shown), and the
-site marks the problem as not resolvable by a finite computation. The standing
+**Status.** Open: the site's label was OPEN (no last-edited date shown), and the
+site marked the problem as not resolvable by a finite computation. The standing
 derived from the claim pages is open, claim none. There are five pending partial
 claims, and none of them would settle the estimation question.
 [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Cambie's construction of density 5/8]]
@@ -66,7 +66,7 @@ Doorn's Theorem 2, $f(N)<9N/10+(\log N)^3+1$, from an undated GitHub note of
 is Cambie's construction in the site's commentary (elementary, checked here).
 Since $5/8>1/2$, the site's particular guess $f(N)=(1/2+o(1))N$ fails. That
 negative answer is Cambie's partial claim. It is pending because the site's
-commentary credits it while the site's label is OPEN, which the site keeps for
+commentary credits it while the site's label was OPEN, which the site kept for
 the estimation question. No proof, disproof or accepted determination of the
 asymptotic constant was found in the search whose scope the Current assessment
 records.
@@ -193,7 +193,7 @@ the frontmatter is open, claim none.
 - [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Stijn Cambie's construction]]:
   the lower bound $5/8$ above, recorded from the curator's credit in the
   commentary, which answers the particular question in the negative;
-  pending, since the site labels the problem OPEN and lists no parts; the
+  pending, since the site labeled the problem OPEN and lists no parts; the
   page is dated by the earliest archived copy of the site's page that
   carries the observation (25 March 2025), the site showing no last-edited
   date.

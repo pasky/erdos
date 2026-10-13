@@ -34,7 +34,7 @@ $v$ are in $(k,n]$.
 
 Let $f(n)$ be the smallest $k$ such that $u>n^2$. Give bounds for $f(n)$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 1 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 1 April
 2026). Its remarks record the bounds of [APSSV26] and of Tang and ChatGPT, and
 credit no solution. The standing derives from the claim pages. The problem is
 `open`, with no settling or pending full claim.

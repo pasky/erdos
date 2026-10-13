@@ -47,8 +47,8 @@ https://www.erdosproblems.com/1194.
 
 ## Current assessment
 
-The site labels the problem OPEN (remarks last edited 2026-04-24). Here $a_n$ is
-the larger member of the unique representation $n=a_n-b_n$, not the $n$th
+The site labeled the problem OPEN (remarks last edited 2026-04-24). Here $a_n$
+is the larger member of the unique representation $n=a_n-b_n$, not the $n$th
 element of $A$; the curator's post of 2026-04-23 in the site's thread warns
 against the second reading.
 

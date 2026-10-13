@@ -76,7 +76,7 @@ evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem proved,
+**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved,
 credits Cambie, Kovač and Tao on the problem page (last edited 12 January 2026)
 and records the Lean formalization in the site's label. The community database
 lists the problem's status as proved (Lean) as of its last update, dated 31

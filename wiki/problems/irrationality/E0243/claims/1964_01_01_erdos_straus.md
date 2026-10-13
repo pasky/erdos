@@ -57,7 +57,7 @@ the sequences for which the lcm-weighted error has a positive limit superior,
 which is the gap the problem concerns.
 
 **Acceptance.** Refereed: J. Indian Math. Soc. (N.S.) 27 (1964), 129--133.
-The site labels the problem OPEN and records this theorem in its remark, so
+The site labeled the problem OPEN and records this theorem in its remark, so
 no `reviewed` evidence is listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

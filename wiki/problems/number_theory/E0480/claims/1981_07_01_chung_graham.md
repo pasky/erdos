@@ -84,7 +84,7 @@ carries no proof. The proof appears in the proceedings chapter On irregularities
 of distribution, in Finite and Infinite Sets (Eger, 1981), Colloq. Math. Soc.
 János Bolyai 37, North-Holland (1984), 181--222. That chapter is not shown to be
 refereed, so the proof's acceptance rests on the curator's credit. Reviewed: the
-site's curator, Thomas F. Bloom, marks Problem 480 PROVED (LEAN) and, in the
+site's curator, Thomas F. Bloom, marked Problem 480 PROVED (LEAN) and, in the
 problem's commentary, credits the chapter with the proof (page last edited 28
 December 2025). The curator neither wrote nor submitted the result. The 1980
 monograph of Erdős and Graham reports the theorem as just proved in its

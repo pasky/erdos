@@ -27,7 +27,7 @@ that there is a colouring of the edges with $\aleph_1$ many colours such that,
 in any countable colouring of the vertices, there exists a vertex colour
 containing all edge colours?
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE, and its remark
+**Status.** Open. The site labeled the problem NOT DISPROVABLE, and its remark
 credits Hajnal and Komjáth with the consistency. The accepted partial claim
 [[problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath|Hajnal and Komjáth's consistency result]]
 shows that the statement holds in a model of ZFC, so ZFC does not refute it.

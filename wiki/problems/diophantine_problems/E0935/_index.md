@@ -92,7 +92,7 @@ formalization of that comment posted on the same thread on 22 November 2025,
 produced with Aristotle, is context, not built here. The same construction,
 found by the Gemini-based agent Aletheia, is the claimed partial page
 [[problems/diophantine_problems/E0935/claims/2026_01_29_feng|Feng and coauthors 2026]].
-The site labels the problem OPEN while crediting the construction with the
+The site labeled the problem OPEN while crediting the construction with the
 second part, and the preprint has no journal publication, so the claim stays
 claimed.
 

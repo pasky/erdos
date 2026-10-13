@@ -65,7 +65,7 @@ attests it, it proves the inequality and not the equality clause for those $n$.
 For every $n$, Füredi's paper proves $|E(G)|\le(1+o(1))n^2/4$, its
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/corollary_3_6|Corollary 3.6]].
 
-The site's label is unchanged, and no accepted proof for all $n$ was found in
+The site's label was unchanged, and no accepted proof for all $n$ was found in
 the search whose scope the Current assessment records. Whether the label should
 stand for a statement proved for all $n>n_0$, with $n_0$ astronomically large
 and unchecked for finitely many $n$, is a question of the catalog's labeling

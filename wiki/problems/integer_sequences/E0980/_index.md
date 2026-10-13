@@ -53,7 +53,7 @@ introduction for $p\equiv1\pmod k$ and sets $n_k(p)=0$ for every other prime,
 and the paper's Theorem 1 proves the asymptotic under that convention for every
 $k\ge2$ (indeed with any exponent $a<4e^{1-1/k}$ in place of $1$, and with the
 explicit constant $\sum_r k^{-r}q_r$ over the primes $q_r$ when $k$ is an odd
-prime). The site labels the problem PROVED and its commentary says "The general
+prime). The site labeled the problem PROVED and its commentary says "The general
 case was proved by Elliott [El67b]", without remarking on the convention. The
 curator therefore reads the sum as Elliott does, and the precise Statement
 adopts Elliott's convention. The change inserts
@@ -78,7 +78,7 @@ $n_d(p)$. Theorem 1 of [El67b] does not cover that sum, and no recorded source
 does, so the variant is open for composite $k$. It has no claim page and does
 not enter the standing.
 
-**Status.** PROVED on erdosproblems.com. The label describes the precise
+**Status.** Labeled PROVED on erdosproblems.com. The label describes the precise
 Statement. The variant under Formulation stays open for composite $k$. The site
 credits Elliott [El67b], who proved the asymptotic for every $k$ under the
 convention of the precise Statement

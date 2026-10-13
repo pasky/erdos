@@ -37,7 +37,7 @@ every $B$-admissible $C\subseteq I_n$ obeys $|B|+|C|\le n^{1/2+\varepsilon}$."
 This is a claim page. The statement was read; the proof was not assessed
 here, and no acceptance beyond the author's exists on 2026-09-18: the
 manuscript has no arXiv version, no journal record and no independent
-review found, and the site's Problem 788 page keeps OPEN with a commentary
+review found, and the site's Problem 788 page kept OPEN with a commentary
 that does not adopt it.
 
 **Source.** S. Wang, *A Proposed Solution to Erdős Problem 788*, a 15-page

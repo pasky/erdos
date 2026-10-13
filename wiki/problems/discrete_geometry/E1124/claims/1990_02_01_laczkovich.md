@@ -50,7 +50,7 @@ theorem.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed. It appeared in the Journal für die reine
-und angewandte Mathematik. The site's curator, Thomas Bloom, marks the problem
+und angewandte Mathematik. The site's curator, Thomas Bloom, marked the problem
 proved and credits Laczkovich, recording that the decomposition uses
 translations only. The site's page prints no last-edited date.
 

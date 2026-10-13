@@ -61,6 +61,6 @@ Brooks's theorem and $R(3,4)=9$ as external inputs.
 **Acceptance.** Refereed: Discrete Mathematics 200 (1999), issue 1--3, 79--86.
 The Crossref record dates the issue April 1999, and this page's date uses the
 issue's nominal first day. The site's commentary credits the authors with the
-cases $r=3$ and $r=4$, but the site labels the problem FALSIFIABLE. That is
+cases $r=3$ and $r=4$, but the site labeled the problem FALSIFIABLE. That is
 commentary on an open problem, not acceptance, so `reviewed` is not listed. The
 acceptance recorded here rests on the publication, not on a local review.

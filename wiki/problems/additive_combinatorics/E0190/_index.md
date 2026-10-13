@@ -65,7 +65,7 @@ and Fox and Hunter (Section 1.1) define $H(k)$ the same way. The omission is
 the site's. No result about the readings with a shorter rainbow progression is
 recorded.
 
-**Status.** The site shows SOLVED (page last edited 2 June 2026), a label that
+**Status.** The site showed SOLVED (page last edited 2 June 2026), a label that
 describes the precise Statement. The precise Statement is **proved**, by each of
 two independent 2026 preprints that the site's commentary credits. Bae proves
 $H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$

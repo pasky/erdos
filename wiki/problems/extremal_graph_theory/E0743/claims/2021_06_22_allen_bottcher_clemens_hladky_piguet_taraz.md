@@ -60,7 +60,7 @@ is not self-contained.
 
 **Standing.** Claimed: the paper is a preprint, and its arXiv record, lists no
 journal reference, so it is not refereed. The site's curator credits the result
-in the problem's commentary, but the site labels the problem FALSIFIABLE, an
+in the problem's commentary, but the site labeled the problem FALSIFIABLE, an
 open problem, so the credit is no acceptance. The problem page records the
 result with the preprint qualification. This corpus read Theorem 6 as printed in
 v2 and none of the proof.

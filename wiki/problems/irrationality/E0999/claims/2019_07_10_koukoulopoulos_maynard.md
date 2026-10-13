@@ -55,7 +55,7 @@ coprimality condition, as a corollary. The
 digests the paper.
 
 **Acceptance.** Refereed: Annals of Mathematics, Second Series, volume 192,
-issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labels Problem
+issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labeled Problem
 999 PROVED. In the problem's remarks Bloom credits this paper with the proof of
 the full conjecture (erdosproblems.com page accessed 2026-10-07). The forum
 thread has no comments or proof claims. The formal-conjectures statement file

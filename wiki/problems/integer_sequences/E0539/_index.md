@@ -48,7 +48,7 @@ including $0$ and reads "estimate" as the order of growth $\Theta(h(n))$.
 The site's source key is [Er73, p. 125]; it tags the page additive
 combinatorics and number theory.
 
-**Status.** The site's label is OPEN. The refereed bounds are
+**Status.** The site's label was OPEN. The refereed bounds are
 $n^{1/2}\ll h(n)\ll n^{2/3}$. The lower bound is Erdős and Szemerédi's, by the
 pairing argument Granville and Roesler give on p. 2 of their paper. The upper
 bound comes from the Freiman–Lev sets in two dimensions, which Granville and
@@ -69,7 +69,7 @@ into the commentary on 15 June 2026 after sketching the construction,
 while the label stayed OPEN. The bound is recorded as a pending partial claim on
 [[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|its claim page]].
 It is not refereed. The adoption of a bound into the commentary of a problem the
-site labels OPEN is not an acceptance, and nothing is reviewed by this project.
+site labeled OPEN is not an acceptance, and nothing is reviewed by this project.
 The second concerns the lower bound. A Lean development of September 2026 states
 that $h(n)/\sqrt n\to\infty$. It is on
 [[problems/integer_sequences/E0539/claims/2026_09_05_kitamura|Kitamura's claim page]]
@@ -85,8 +85,7 @@ accessed 2026-09-18: the problem page (OPEN, with
 the site's note that no finite computation can settle it; last edited 15
 June 2026; source key [Er73, p. 125]; commentary citing [GrRo99] and
 thanking two contributors), its eight-comment discussion thread (19 August
-2025 to 15 June 2026) and its empty proof-claim tab, all three unchanged
-on 2026-10-07. Cite as:
+2025 to 15 June 2026) and its empty proof-claim tab. Cite as:
 T. F. Bloom, Erdős Problem #539, https://www.erdosproblems.com/539, accessed
 2026-09-18.
 

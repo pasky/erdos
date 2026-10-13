@@ -65,6 +65,6 @@ collision.
 **Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of Egyptian
 fractions, J. Number Theory 8 (1976), no. 2, 157--168. The publisher's record
 dates the issue May 1976 and gives no day, so this page is dated the first of
-that month. The site's PROVED label credits Yokota's paper, not this one, so no
+that month. The site's PROVED label credited Yokota's paper, not this one, so no
 `reviewed` evidence is listed. This claim is partial: it settles the lower half
 of the estimate, not the question.

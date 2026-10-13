@@ -45,7 +45,7 @@ not for graphs, and the two sources that prove things about the conjecture,
 paper, whose p. 120 states it for bipartite graphs as "Perhaps the following
 result holds" (quoted below).
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) and
+**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN) and
 credits the result (page last edited 31 August 2026). The community database
 lists the status as of its last update, dated 2 August 2026, without recording
 when the state changed. The status-defining source is Theorem 1.2 of Chapter 10
@@ -261,7 +261,7 @@ $\mathrm{ex}(n,H)\le c(H)n^{2-1/r}$, tight for every $r\ge2$ by norm
 graphs; this is the site's one-sided sentence, and it is the case of the
 conjecture that holds, recorded as an accepted partial claim on
 [[problems/extremal_graph_theory/E0146/claims/2003_11_01_alon_krivelevich_sudakov|its claim page]],
-whose evidence is the refereed publication (the site's label credits the
+whose evidence is the refereed publication (the site's label credited the
 disproof, not this case). Theorem 1.2 of [OpenAI26] shows the general
 $r$-degenerate bound cannot reach the one-sided exponent at $r=2$; the
 upper bound $2-1/8$ of Theorem 3.5 at $r=2$ and the lower exponent

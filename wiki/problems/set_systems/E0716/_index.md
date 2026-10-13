@@ -29,7 +29,7 @@ $$
 \mathrm{ex}_3(n,\mathcal{F})=o(n^2)?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN). It notes that the
+**Status.** The site labeled the problem PROVED (LEAN). It notes that the
 question is a conjecture of Brown, Erdős and Sós [BES73]. It credits the answer
 yes to Ruzsa and Szemerédi [RuSz78], in the result known as the Ruzsa–Szemerédi
 or $(6,3)$-theorem. The Lean qualification refers to a Lean 4 proof posted on

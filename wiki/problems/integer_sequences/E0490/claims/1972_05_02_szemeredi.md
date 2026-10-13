@@ -52,8 +52,8 @@ common quotient in $A$ have none in $B$. It was followed here for its
 structure, not checked step by step.
 
 **Acceptance.** Refereed: the journal publication cited above. Reviewed: the
-site's curator, Thomas Bloom, marks the problem proved and credits this paper in
-the commentary as its proof. Erdős himself announced the proof in 1972. With
+site's curator, Thomas Bloom, marked the problem proved and credits this paper
+in the commentary as its proof. Erdős himself announced the proof in 1972. With
 Szemerédi, he gave a second proof in 1976, paged as
 [[problems/integer_sequences/E0490/claims/1974_12_01_erdos_szemeredi|the Erdős--Szemerédi claim]].
 

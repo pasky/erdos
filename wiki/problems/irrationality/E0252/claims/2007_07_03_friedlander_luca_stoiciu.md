@@ -61,7 +61,7 @@ Nothing unconditional about any $k\ge4$.
 **Acceptance.** Refereed: Integers, volume 7 (2007), article A31. The paper's
 header prints that it was received 8 December 2006, revised 20 March 2007,
 accepted 12 June 2007 and published 3 July 2007. Integers is a refereed
-electronic journal. The site labels the problem OPEN. Its curator's remark
+electronic journal. The site labeled the problem OPEN. Its curator's remark
 credits this paper and Schlage-Puchta with the case $k=3$, but that remark is
 commentary on an open problem and not acceptance, so no `reviewed` evidence is
 listed. The proof is not checked here.

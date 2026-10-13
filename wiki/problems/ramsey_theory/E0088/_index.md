@@ -47,7 +47,7 @@ $cn^2$ edges because, as its commentary says and as the source's footnote 2
 uses, Erdős and Szemerédi proved that a graph with no homogeneous set of
 logarithmic size has edge density bounded away from $0$ and $1$.
 
-**Status.** Proved. The site labels the problem PROVED, and its curator, T. F.
+**Status.** Proved. The site labeled the problem PROVED, and its curator, T. F.
 Bloom, credits the solution to Kwan, Sah, Sauermann and Sawhney in the
 commentary. Their Theorem 1.1 [KSSS22] fixes $C>0$ and $\eta>0$ and takes $n$
 large in terms of them. It then gives, in every $C$-Ramsey graph $G$ on $n$

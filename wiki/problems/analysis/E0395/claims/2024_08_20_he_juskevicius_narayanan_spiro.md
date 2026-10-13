@@ -52,7 +52,7 @@ resting on a pairing argument and planar geometry; the paper notes (p. 2)
 that the statement is also the planar case of a 1983 theorem of Beck, which
 has [[problems/analysis/E0395/claims/1983_03_01_beck|its own claim page]].
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
+**Acceptance.** The site's curator, Thomas Bloom, labeled the problem proved and
 credits the affirmative solution to this paper. That curator credit is the
 `reviewed` evidence. The two later papers on the problem page, Hollom, Portier
 and Souza (2025) and Hollom and Sorkin (2025), treat the radius-$\sqrt2$

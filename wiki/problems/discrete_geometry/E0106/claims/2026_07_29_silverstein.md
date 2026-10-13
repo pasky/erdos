@@ -84,7 +84,7 @@ names Claude Opus 5 for the construction, the search and the exact
 verification, and ChatGPT and Grok for independent reviews; the site credits
 the result to Claude Opus 5 prompted by Silverstein.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem disproved
+**Acceptance.** Thomas Bloom, the site's curator, marked the problem disproved
 and credits this result on the problem page (edited 2026-08-28). The site's
 label notes a Lean verification, but neither the claim nor the problem page
 links one. The Lean proof of $f(17)>4$ in Boris Alexeev's repository, credited

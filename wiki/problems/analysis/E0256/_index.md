@@ -81,7 +81,7 @@ https://www.erdosproblems.com/256.
 The site formulation asks for two things: an estimate of $f(n)$, the least
 over all choices of $n$ exponents $1\le a_1\le\cdots\le a_n$ of the maximum
 modulus on the unit circle of $\prod_i(1-z^{a_i})$, and whether
-$\log f(n)\gg n^c$ for some $c>0$. The site labels the problem OPEN (page last
+$\log f(n)\gg n^c$ for some $c>0$. The site labeled the problem OPEN (page last
 edited 20 January 2026), and its commentary answers the second question no.
 The standing targets the question as stated.
 
@@ -98,7 +98,7 @@ $\log f(n)\ll(\log n)^4$, in the Izvestiya paper that the References
 annotate; this answers the second question no, and is recorded as an accepted
 partial claim on
 [[problems/analysis/E0256/claims/1996_12_01_belov_konyagin|their claim page]],
-on its refereed publication alone, since the site's label is OPEN. For the
+on its refereed publication alone, since the site's label was OPEN. For the
 variant $f^*(n)$ with distinct exponents $a_1<\cdots<a_n$, Bourgain and Chang
 [BoCh18]
 ([[../library/analysis/bourgain_2018_paper_erdos_szekeres/_index|card]])

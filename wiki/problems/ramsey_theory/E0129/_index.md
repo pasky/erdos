@@ -49,13 +49,13 @@ named here states a variant that the site or a paper endorses as the intended
 question; [Er97b] itself states the question in the site's form and no other
 (below), and the bound $C^{\sqrt n}$ is Erdős's own print there.
 
-**Status.** Open on the site. The site explains the label by the ambiguity of
-the original source: the OPEN describes the question Erdős intended, which the
-site cannot identify, not the question the site prints. The frontmatter standing
-is claimed, through the full claim on the claim page
+**Status.** Labeled open on the site. The site explains the label by the
+ambiguity of the original source: the OPEN describes the question Erdős
+intended, which the site cannot identify, not the question the site prints. The
+frontmatter standing is claimed, through the full claim on the claim page
 [[problems/ramsey_theory/E0129/claims/2025_10_20_girao|Girão's observation]].
 That page records the disproof and its postings as a pending claim. The curator
-wrote its only posting and keeps the problem OPEN, so there is no independent
+wrote its only posting and kept the problem OPEN, so there is no independent
 review.
 
 The Statement asks for a constant $C(r)$ with $R(n;3,r)<C^{\sqrt n}$, and it

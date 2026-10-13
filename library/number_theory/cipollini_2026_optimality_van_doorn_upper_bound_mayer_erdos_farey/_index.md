@@ -52,7 +52,7 @@ source's own provenance and claims no independent check of the argument.
 
 Acceptance evidence, recorded not judged: the site's Problem 1005 page
 (last edited 1 September 2026) states $f(n)=(\frac14+o(1))n$ on this
-paper's authority and shows SOLVED; the site's proof-claims tab for the
+paper's authority and showed SOLVED; the site's proof-claims tab for the
 problem carries the author's full-proof claim of 14 July 2026 (the arXiv
 link added by a moderator), under the tab's notice that appearing there "is
 no guarantee of proof correctness"; the thread's one comment (4 July 2026)

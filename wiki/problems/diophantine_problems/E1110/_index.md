@@ -39,7 +39,7 @@ statement takes the pairwise reading. The page's standing targets the site's
 wording, and each claim page that bears on the second question says which
 reading it covers.
 
-**Status.** Open. The site labels the problem open (page last edited 1 April
+**Status.** Open. The site labeled the problem open (page last edited 1 April
 2026; proof-claims thread accessed 2026-10-06). The site's proof-claims tab
 carries three partial proof claims. Each is recorded on its own claim page, and
 none is adopted here. In a claim of 2026-08-05, the forum user Apiros3 claims

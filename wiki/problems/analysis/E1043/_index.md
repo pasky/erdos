@@ -29,8 +29,8 @@ $$
 
 onto $\ell$ has measure at most $2$?
 
-**Status.** DISPROVED (LEAN) on the site. Pommerenke's 1961 example is the
-accepted disproof
+**Status.** Labeled DISPROVED (LEAN) on the site. Pommerenke's 1961 example is
+the accepted disproof
 ([[problems/analysis/E1043/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
 It is a monic polynomial whose set $\{|f|\le1\}$ has a projection of measure
 above $2.386$ onto every line. The Lean qualifier of the site's label refers to

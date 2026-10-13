@@ -42,7 +42,7 @@ this claim; a pending negative answer to it is recorded on
 Piranian in the problem's commentary with the affirmative answer to the first
 question, and Hayman and Lingham's survey of Hayman's problems
 ([[../library/polynomials/hayman_lingham_2018_research_problems_function_theory/_index|library
-card]], Update 2.16) records the same. The site labels the problem OPEN, so
+card]], Update 2.16) records the same. The site labeled the problem OPEN, so
 the commentary is not an acceptance of the problem or of a part. The paper is
 F. Herzog and G. Piranian, *The counting function for points of maximum
 modulus*, in Entire Functions and Related Parts of Analysis, Proc. Sympos.

@@ -64,6 +64,6 @@ paper, with the external inputs the result page names.
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
 Journal in 1961 (volume 8, issue 2). The issue carries no month, so the page is
 dated to the first day of the publication year. The site's commentary credits
-the bound to this paper, cited as [Po61], but the site labels the problem OPEN.
+the bound to this paper, cited as [Po61], but the site labeled the problem OPEN.
 So the remark is not acceptance, and no `reviewed` is listed. Nothing here rests
 on this project's own review.

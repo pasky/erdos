@@ -23,12 +23,12 @@ updated: 2026-10-08T00:44:25Z
 square numbers?
 
 **Status.** Solved: the largest such $A$ has $(11/32+o(1))N$ elements. The site
-labels the problem SOLVED and credits the paper (page last edited 7 April 2026).
-The upper bound is Theorem 3 of Khalfalah, Lodha and Szemerédi (DIMACS report of
-December 2000; Discrete Math. 256 (2002), a refereed journal). The lower bound
-is Massias's construction of density $11/32$. These results came after Lagarias,
-Odlyzko and Shearer had proved $11/32$ sharp for unions of residue classes and
-had proved the general bound $0.475N$. Claim page:
+labeled the problem SOLVED and credits the paper (page last edited 7 April
+2026). The upper bound is Theorem 3 of Khalfalah, Lodha and Szemerédi (DIMACS
+report of December 2000; Discrete Math. 256 (2002), a refereed journal). The
+lower bound is Massias's construction of density $11/32$. These results came
+after Lagarias, Odlyzko and Shearer had proved $11/32$ sharp for unions of
+residue classes and had proved the general bound $0.475N$. Claim page:
 [[problems/integer_sequences/E0438/claims/2000_12_01_khalfalah_lodha_szemeredi|Khalfalah, Lodha and Szemerédi 2000]]
 (accepted).
 

@@ -45,7 +45,7 @@ diagonals, together with the more general question about $f(r)$ diagonals, and
 that Statement sets the standing; the pentagonal wheel shows that three
 diagonals are not forced.
 
-**Status.** The site labels the problem solved, with the two questions answered
+**Status.** The site labeled the problem solved, with the two questions answered
 in opposite directions. The first question asks whether a $K_4$-free graph of
 chromatic number $4$ has an odd cycle with at least two diagonals. The accepted
 partial claim

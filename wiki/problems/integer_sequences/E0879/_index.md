@@ -49,7 +49,7 @@ factors, as in Erdős's source [Er84e], p. 120, where the case of more than one
 prime factor is called easy and is phrased as not every element being a prime
 power.
 
-**Status.** Open. The site's label is OPEN. The standing in the frontmatter is
+**Status.** Open. The site's label was OPEN. The standing in the frontmatter is
 derived from the claim pages. The first question is open, and the results
 bearing on it are under Progress. Two pending partial claims bear on the second
 question. One is Erdős's statement of 1984, which the site credits to Erdős and

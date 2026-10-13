@@ -38,7 +38,7 @@ duplicated here.
 **Thread provenance.** Boris Alexeev wrote at
 <https://www.erdosproblems.com/forum/thread/303#post-2347> at 12:53 on 21
 December 2025 that Yuan's link formally solves Problem 303; the comment is
-marked as addressed by a site update. The refreshed problem page labels the
+marked as addressed by a site update. The refreshed problem page labeled the
 problem `PROVED (LEAN)` and its commentary credits Brown and Rödl's published
 proof as well as the Formal Conjectures project. The complete Problem 303
 discussion snapshot was fetched 2026-09-05.

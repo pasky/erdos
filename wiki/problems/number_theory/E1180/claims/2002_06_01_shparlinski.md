@@ -63,7 +63,7 @@ checked against its inputs.
 **Acceptance.** Refereed: Igor E. Shparlinski, *On a question of Erdős and
 Graham*, Arch. Math. (Basel) 78 (2002), no. 6, 445--448, received 30
 August 2000. The publisher's record dates the issue 1 June 2002, the date this
-page is named by. Reviewed: the site's curator, Thomas F. Bloom, labels the
+page is named by. Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem proved. In the problem's commentary, the curator credits Shparlinski
 with answering the original question in the affirmative with
 $C_\epsilon\ll\epsilon^{-3}$. The curator neither wrote nor submitted the

@@ -196,7 +196,7 @@ accepted by the site or by a named mathematician:
   orders of $F(n)$ and $f(n)$ stay open. If it holds, both "in particular"
   questions have the answer yes. Its claim page rests on the repository's
   README and file listing and the Zenodo and arXiv records; nothing was built
-  or audited, the site's label is unchanged (OPEN), and nothing here depends
+  or audited, the site's label was unchanged (OPEN), and nothing here depends
   on it.
 
 **Search scope.** None of the routes below found a

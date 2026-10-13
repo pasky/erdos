@@ -31,7 +31,7 @@ $n=a+b$?
 uniqueness of the pair $(a,b)$, not uniqueness of a polynomial input when
 different inputs have the same value.
 
-**Status.** The site labels the problem SOLVED on its problem page, accessed
+**Status.** The site labeled the problem SOLVED on its problem page, accessed
 2026-09-09 and last edited 5 September 2026. The site's export of 2026-09-04
 showed OPEN. The derived claim value is `proved`, where the site's SOLVED reads
 as `answered`. The reason is that the question asks whether such an $f$ and $A$
@@ -68,7 +68,7 @@ theorem interfaces. The repository's own compilation review of that
 reconstruction, relative to the two external premises, is recorded on the
 card and awards no standing here.
 
-The site labels the problem solved; its page was last edited on
+The site labeled the problem solved; its page was last edited on
 5 September 2026. Its commentary credits GPT, prompted independently by
 Price and by pipeline-math, with proving, against the expectation of Erdős
 and Graham, that such an $A$ exists for $f(n)=n^d$ and every even $d\ge6$,

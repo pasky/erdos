@@ -33,7 +33,7 @@ $$
 with probability $1$?
 
 **Status.** Claimed. There is one pending full claim, and it is not accepted.
-The site labels the problem OPEN (page last edited 2026-01-26). The claim was
+The site labeled the problem OPEN (page last edited 2026-01-26). The claim was
 filed on the site's proof-claims tab and is recorded here, not adopted:
 [[problems/arithmetic_functions/E1144/claims/2026_09_06_hoystad|Høystad 2026]].
 It was registered on 2026-09-06 with a write-up and a Lean 4 repository. It

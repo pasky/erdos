@@ -54,10 +54,10 @@ arguments; this outline is a reading aid, not proof coverage.
 **Covers.** The support $A$ equal to the set of primes. Not covered: the prime
 powers, which the paper only sketches, and every other infinite support.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels Problem 69
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labeled Problem 69
 PROVED (page last edited 2026-04-15). The statement of Problem 69 is exactly
 this instance. In its remarks Bloom credits the unconditional proof to Tao and
-Teräväinen. The site labels Problem 257 OPEN, and its remarks record the same
+Teräväinen. The site labeled Problem 257 OPEN, and its remarks record the same
 credit for the primes case. No journal publication of the preprint is recorded,
 and the arXiv record lists no journal reference, so the claim carries no
 `refereed` evidence. The formal-conjectures file for Problem 69 is the `record`

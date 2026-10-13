@@ -71,7 +71,7 @@ The site formulation asks, for the greedy sequence $A(n)$ with $a_0=0$ and
 $a_1=n$, whether the $a_k$ can be explicitly determined and how fast they grow;
 the Formulation above records the increasing reading of the greedy rule, which
 is the one every source uses, and the standing answers the site's wording in
-that reading. The site labels the problem OPEN (page last edited 20
+that reading. The site labeled the problem OPEN (page last edited 20
 January 2026). Sequences that start from a finite progression-free set and
 continue greedily are called Stanley sequences, and $A(n)$ is the Stanley
 sequence $S(0,n)$.

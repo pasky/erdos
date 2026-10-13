@@ -69,7 +69,7 @@ above; neither is needed for this problem.
 
 **Acceptance.** The paper is refereed. It appeared in Duke Mathematical Journal,
 volume 174 (2025), issue 3, pages 449–471. The site's curator, Thomas Bloom,
-labels the problem DISPROVED (site export of 2026-09-04) and credits the result
+labeled the problem DISPROVED (site export of 2026-09-04) and credits the result
 to Pohoata and Zakharov. The site's thread records a short exchange of
 December 2025. In it, a reader asked why a subexponential bound rules out every
 positive $c_k$ and received the argument given above. This corpus has checked

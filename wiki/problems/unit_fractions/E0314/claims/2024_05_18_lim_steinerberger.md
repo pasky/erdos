@@ -64,7 +64,7 @@ recorded on the problem page as open.
 
 **Acceptance.** Refereed: the paper is published in Mathematika 71 (2025), no.
 2, e70009 (published online 27 January 2025; DOI 10.1112/mtk.70009). Reviewed:
-the site's curator, T. F. Bloom, marks the problem proved and credits Lim and
+the site's curator, T. F. Bloom, marked the problem proved and credits Lim and
 Steinerberger. The community database lists the problem as proved, as of its
 last update of 31 August 2025. A thread comment of 22 January 2026 led to the 23
 January 2026 revision, which states their refined bound with the absolute value

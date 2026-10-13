@@ -42,9 +42,10 @@ as its source intends, as the existence of $S(r,k,n)$, with
 $\binom nr\binom kr^{-1}$ blocks, and the standing answers the site's wording
 under that reading.
 
-**Status.** Proved. The site labels the problem PROVED and records the following
-progression: Kirkman for $(r,k)=(2,3)$, Hanani [Ha61] for $(3,4)$, $(2,4)$ and
-$(2,5)$, Wilson [Wi72] for $(2,k)$, and Keevash [Ke14] for every $(r,k)$.
+**Status.** Proved. The site labeled the problem PROVED and records the
+following progression: Kirkman for $(r,k)=(2,3)$, Hanani [Ha61] for $(3,4)$,
+$(2,4)$ and $(2,5)$, Wilson [Wi72] for $(2,k)$, and Keevash [Ke14] for every
+$(r,k)$.
 
 **Source.** [erdosproblems.com/722](https://www.erdosproblems.com/722), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #722,

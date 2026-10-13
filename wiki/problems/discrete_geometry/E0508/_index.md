@@ -25,7 +25,7 @@ updated: 2026-10-07T20:00:46Z
 smallest number of colours required to colour $\mathbb{R}^2$ such that no two
 points of the same colour are distance $1$ apart?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 22 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 22 January
 2026) and records the bounds $5\le\chi\le7$ in its remarks. The claim pages
 record de Grey's refereed lower bound, a later result on the lower bound, and a
 rejected announcement of the value.

@@ -23,7 +23,7 @@ updated: 2026-10-08T00:44:24Z
 $\{1,\ldots,N\}$ that does not contain any non-trivial $k$-term arithmetic
 progression. Prove an asymptotic formula for $r_k(N)$.
 
-**Status.** Open. The site's label is OPEN (page last edited 4 April 2026). The
+**Status.** Open. The site's label was OPEN (page last edited 4 April 2026). The
 OpenAI mathematics release of 23 September 2026 claims
 $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$. For
 $k\ge4$ this upper bound goes beyond those recorded below. It gives no

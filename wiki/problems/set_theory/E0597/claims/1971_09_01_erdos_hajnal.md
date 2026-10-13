@@ -70,7 +70,7 @@ Theorem 5 by induction on $t$; nothing on this page is independently
 reviewed by this project.
 
 **Acceptance.** Refereed: a journal paper in Periodica Mathematica Hungarica.
-The site labels Problem 597 OPEN. So the curator's commentary crediting the
+The site labeled Problem 597 OPEN. So the curator's commentary crediting the
 relation is not acceptance of a claim, and `reviewed` is not listed.
 [[problems/set_theory/E0597/claims/2026_07_27_white|White's report]] uses the
 relation as the base case of its block-graph theorem.

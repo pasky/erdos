@@ -49,11 +49,11 @@ together with Straus he conjectures that $4/b$ is a sum of at most three
 distinct unit fractions for every $b>4$, and Straus had verified this for
 $4<b<5000$.
 
-**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last edited
-7 May 2026). The site explains this label as open but refutable by one finite
-counterexample. The standing derived from the claim pages is claimed, claim
-proved. Three dated manuscripts claim the whole conjecture: Alomari's preprint
-of February 2023
+**Status.** Labeled falsifiable on the site: the label was FALSIFIABLE (page
+last edited 7 May 2026). The site explained this label as open but refutable by
+one finite counterexample. The standing derived from the claim pages is claimed,
+claim proved. Three dated manuscripts claim the whole conjecture: Alomari's
+preprint of February 2023
 ([[problems/unit_fractions/E0242/claims/2023_02_06_alomari|Alomari 2023]]),
 Dyachenko's arXiv preprint of 7 November 2025
 ([[problems/unit_fractions/E0242/claims/2025_11_07_dyachenko|Dyachenko 2025]])

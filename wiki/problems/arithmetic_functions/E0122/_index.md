@@ -55,7 +55,7 @@ receive many more values of $n+f(n)$ than their length. The site's commentary
 adds that [Er97] considers only $f$ growing more slowly than $(\log n)^{1-c}$
 for some $c>0$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited
+**Status.** Open. The site labeled the problem OPEN (page last edited
 2026-04-01), and its proof-claims tab carries no entry. The one claim page,
 [[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|Erdős's report of a proof for the divisor and prime-divisor counting functions]],
 records a claimed partial answer with no published proof. The derived standing

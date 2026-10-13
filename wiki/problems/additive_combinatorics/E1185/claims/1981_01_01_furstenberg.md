@@ -79,7 +79,7 @@ not built it, so no `formalized` evidence is listed.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 solved and states that it is false already at $k=3$. The curator credits
 Furstenberg's example [Fu81] for the infinite set whose difference set is not
 $2$-intersective (page last edited 5 April 2026; the discussion thread and

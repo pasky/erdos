@@ -59,7 +59,7 @@ problem's question remains open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is refereed: it appeared in the journal Discrete
-Mathematics, volume 308 (2008). The site labels the problem OPEN. Its remark
+Mathematics, volume 308 (2008). The site labeled the problem OPEN. Its remark
 (page last edited 15 October 2025) credits Dumitrescu [Du08] with the two
 bounds. That remark on an open problem is not an acceptance, so no `reviewed`
 evidence is listed. The lower bound was later raised to $2^{c(\log n)^{1/9}}$ on

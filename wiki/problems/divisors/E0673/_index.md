@@ -32,7 +32,7 @@ $$
 Is it true that $G(n)\to \infty$ for almost all $n$? Can one prove an asymptotic
 formula for $\sum_{n\leq X}G(n)$?
 
-**Status.** The site labels the problem PROVED. The standing in the frontmatter
+**Status.** The site labeled the problem PROVED. The standing in the frontmatter
 derives from the claim pages under the parts `divergence` and `asymptotic`, and
 the problem is `solved` with the value `proved`. The accepted full claim on
 [[problems/divisors/E0673/claims/1983_01_01_erdos_tenenbaum|Erdős and Tenenbaum's 1983 paper]]

@@ -46,7 +46,7 @@ reads the Statement so: at a fixed $x_0=\cos(\pi p/q)$ with $p,q$ odd, for
 every closed $A\subseteq[-1,1]$ as the site states, the empty set meaning
 $\lvert\mathcal{L}^nf(x_0)\rvert\to\infty$.
 
-**Status.** The site labels the problem OPEN (page last edited 23 January
+**Status.** The site labeled the problem OPEN (page last edited 23 January
 2026). Its discussion thread carries a note that Przemek Chojecki posted on
 30 April 2026, produced with GPT-5.5 Pro as the poster wrote there and hosted
 at ulam.ai. The note claims the problem in full in the reading of the
@@ -82,7 +82,7 @@ page; it is not built or audited in this repository.
 
 ## Current assessment
 
-The question as the Formulation reads it is OPEN on the site. Erdős's theorem
+The question as the Formulation reads it was OPEN on the site. Erdős's theorem
 [Er41], with the 1943 corrections, gives the case $A=\emptyset$ at the points
 $x_0=\cos(\pi p/q)$ with $p,q$ odd: there some continuous $f$ has
 $\lvert\mathcal{L}^nf(x_0)\rvert\to\infty$. One full claim is pending, the note

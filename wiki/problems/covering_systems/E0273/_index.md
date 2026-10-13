@@ -73,9 +73,9 @@ with answer true, also with a `sorry` body.
 The site formulation asks whether a covering system exists all of whose moduli
 have the form $p-1$ for primes $p\ge5$; the Formulation above records the
 distinct-moduli reading, the one the source and both claim pages use, and the
-standing answers the site's wording in that reading. The site labels the problem
-OPEN (page last edited 1 October 2025); no proof claim of the problem itself is
-recorded.
+standing answers the site's wording in that reading. The site labeled the
+problem OPEN (page last edited 1 October 2025); no proof claim of the problem
+itself is recorded.
 
 Partial results. Two claims restrict where such a covering system can live
 without deciding whether one exists. The research note of July 2026 by the

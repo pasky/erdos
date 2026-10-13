@@ -76,6 +76,6 @@ evidence; the site's label DISPROVED (LEAN) refers to this development.
 **Acceptance.** The paper is refereed: J. Konieczny, *On consecutive sums in
 permutations*, J. Combinatorics 12, no. 3 (2021), 413--477. The statements cited
 here agree word for word with the arXiv text. The site's curator, Thomas F.
-Bloom, marks Problem 34 disproved and credits this paper with the explicit
+Bloom, marked Problem 34 disproved and credits this paper with the explicit
 permutation and the random-permutation asymptotic. The page is dated by the
 arXiv posting of 27 April 2015.

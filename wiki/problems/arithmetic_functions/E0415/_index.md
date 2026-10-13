@@ -53,8 +53,8 @@ with weak orderings, and "most likely" is read as the largest asymptotic
 density, following the remark on the same page of [ErGr80] that every
 permutation has a density.
 
-**Status.** The site labels the problem OPEN (page last edited 28 May 2026). The
-frontmatter standing follows from the pending full claim on
+**Status.** The site labeled the problem OPEN (page last edited 28 May 2026).
+The frontmatter standing follows from the pending full claim on
 [[problems/arithmetic_functions/E0415/claims/2026_04_19_chojecki|the Chojecki page]].
 That claim consists of Chojecki's manuscripts of April and July 2026, and the
 July manuscript answers all three questions no. The site's commentary records
@@ -89,7 +89,7 @@ consecutive totient values below $n$, is $(c+o(1))\log\log\log n$ for a
 constant $c$, read as $c>0$; whether the decreasing pattern is always the
 first to fail; and whether the natural ordering of $\phi(1),\ldots,\phi(k)$
 is the most likely, read with ties and as the largest density
-(Formulation). The site labels the problem OPEN (page last edited 28 May
+(Formulation). The site labeled the problem OPEN (page last edited 28 May
 2026).
 
 **The first question.** Theorem 1.5 of [PPT13] gives the longest monotone
@@ -98,7 +98,7 @@ $(1+o(1))\log_3x/\log_6x$, so $F(n)=o(\log_3n)$ and the answer is no for
 every $c>0$: the accepted partial claim on
 [[problems/arithmetic_functions/E0415/claims/2012_09_19_pollack_pomerance_trevino|the Pollack–Pomerance–Treviño page]],
 refereed in the Ramanujan Journal. The site's credit is commentary on a
-problem it labels OPEN, so it is not `reviewed` evidence.
+problem it labeled OPEN, so it is not `reviewed` evidence.
 
 **The pending full claim.** Chojecki's manuscript of 13 July 2026, posted on
 the discussion thread as the full solution after a circulation draft of 18

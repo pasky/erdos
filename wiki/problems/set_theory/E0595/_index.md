@@ -24,9 +24,9 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Is there an infinite graph $G$ which contains no $K_4$ and is not
 the union of countably many triangle-free graphs?
 
-**Status.** Open. The site labels Problem 595 OPEN. The one claim recorded here
+**Status.** Open. The site labeled Problem 595 OPEN. The one claim recorded here
 is imported from the site's ruling on the identical first question of
-[[problems/set_theory/E1174/_index|Problem 1174]]. The site labels that problem
+[[problems/set_theory/E1174/_index|Problem 1174]]. The site labeled that problem
 NOT DISPROVABLE, crediting Shelah. The claim page
 [[problems/set_theory/E0595/claims/1989_01_01_shelah|Shelah 1989]] records that
 result. It is one side of an independence result, so the problem is open on it.
@@ -47,7 +47,7 @@ https://www.erdosproblems.com/595.
 
 ## Current assessment
 
-The site labels the problem OPEN and its remarks record only the finite
+The site labeled the problem OPEN and its remarks record only the finite
 analog: Folkman [Fo70] for two colors and Nešetřil and Rödl [NeRo75] for
 every $n$ proved that there is a $K_4$-free graph that is not the union of
 $n$ triangle-free graphs, which is Folkman's Theorem 1 with $k_1=k_2=3$

@@ -66,8 +66,8 @@ its [[problems/set_systems/E1022/claims/2013_10_10_wood|own claim page]].
 argument looked essentially correct to Tao. Tao ran ChatGPT Pro on it, and
 ChatGPT Pro corrected $c_t<2$ to $c_t\le2$ for the construction. On 23 January
 2026 the site's curator, Thomas Bloom, wrote that Bloom would mark the problem
-solved by KoishiChan. The site marks the problem settled, under the label PROVED
-(LEAN). Its commentary says the statement is false and credits the
+solved by KoishiChan. The site marked the problem settled, under the label
+PROVED (LEAN). Its commentary says the statement is false and credits the
 counterexample (`reviewed`). The label's polarity is the reverse of the outcome,
 and the problem page records this. There is no manuscript and no refereed
 publication.

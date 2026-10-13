@@ -24,8 +24,8 @@ updated: 2026-10-08T18:26:25Z
 **Statement.** Let $m(n)$ be minimal such that there is an $n$-uniform
 hypergraph with $m(n)$ edges which is $3$-chromatic. Estimate $m(n)$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 28 December
-2025). Its note says that no finite computation can settle it.
+**Status.** Open. The site labeled the problem OPEN (page last edited 28
+December 2025). Its note says that no finite computation can settle it.
 
 **Source.** [erdosproblems.com/901](https://www.erdosproblems.com/901), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #901,

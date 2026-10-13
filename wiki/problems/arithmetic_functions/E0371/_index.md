@@ -23,14 +23,15 @@ updated: 2026-10-08T13:36:26Z
 **Statement.** Let $P(n)$ denote the largest prime factor of $n$. Show that the
 set of $n$ with $P(n)<P(n+1)$ has density $1/2$.
 
-**Status.** The site's label is OPEN (page last edited 23 January 2026), but the
-problem is proved here. The OpenAI release's manuscript *The joint Dickman law
-for consecutive integers* (2026-09-24) claims that the normalized largest prime
-factors of $n$ and $n+1$ have independent Dickman limit laws in natural density.
-From this it deduces the density $1/2$ that this problem asks for. This corpus
-built the manuscript's Lean proof of that corollary with only the three standard
-axioms, and its fingerprint is identical to the release's comparator challenge.
-The statement audit found it exact. The claim is therefore accepted on
+**Status.** The site's label was OPEN (page last edited 23 January 2026), but
+the problem is proved here. The OpenAI release's manuscript *The joint Dickman
+law for consecutive integers* (2026-09-24) claims that the normalized largest
+prime factors of $n$ and $n+1$ have independent Dickman limit laws in natural
+density. From this it deduces the density $1/2$ that this problem asks for. This
+corpus built the manuscript's Lean proof of that corollary with only the three
+standard axioms, and its fingerprint is identical to the release's comparator
+challenge. The statement audit found it exact. The claim is therefore accepted
+on
 [[problems/arithmetic_functions/E0371/claims/2026_09_24_openai|the release's joint Dickman law]],
 and the problem stands solved. The manuscript has no outside review. Wang [Wa21]
 proved the density under the Elliott–Halberstam conjecture for friable integers.

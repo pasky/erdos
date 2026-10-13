@@ -32,7 +32,7 @@ $$
 
 is irrational. Are $a_n=2^n$ or $a_n=n!$ examples of such a sequence?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 20 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 20 January
 2026). The problem asks two questions, which are its two parts. The
 powers-of-two part is answered no by
 [[problems/irrationality/E0264/claims/2024_11_27_kovac_tao|Kovač and Tao's

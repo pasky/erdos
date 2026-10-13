@@ -30,7 +30,7 @@ $$
 \limsup\frac{\log m(r)}{\log M(r)}=1?
 $$
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 28 December 2025) and credits Fuchs [Fu63] with the affirmative solution.
 The accepted claim page [[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs
 1963]] records the result, on the refereed venue and the site's acceptance, and

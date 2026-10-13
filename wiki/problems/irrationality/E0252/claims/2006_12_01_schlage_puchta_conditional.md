@@ -63,7 +63,7 @@ paper.
 
 **Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3 (December
 2006), pp. 455--460. These data come from the Crossref record of the DOI. The
-site labels the problem OPEN. Its curator remarks that, by this paper, the sum
+site labeled the problem OPEN. Its curator remarks that, by this paper, the sum
 is irrational for every $k$ under Schinzel's conjecture. That remark is
 commentary on an open problem and not acceptance, so no `reviewed` evidence is
 listed. The proof is not checked here.

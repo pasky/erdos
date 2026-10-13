@@ -59,7 +59,7 @@ over divisors. The
 [[../library/integer_sequences/bergelson_2017_density_coprime_tuples_form_where_are/_index|source card]]
 digests the paper.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 PROVED, last edited 23 January 2026. The commentary states that the assertion is
 true and attributes the proof to Bergelson and Richter. Refereed: the
 publication is a chapter of an edited Springer volume, and its Crossref record

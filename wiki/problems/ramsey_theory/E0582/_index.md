@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does there exist a graph $G$ which contains no $K_4$, and yet any
 $2$-colouring of the edges produces a monochromatic $K_3$?
 
-**Status.** The site labels the problem PROVED (LEAN). The suffix refers to a
+**Status.** The site labeled the problem PROVED (LEAN). The suffix refers to a
 third-party Lean proof of the problem's statement, which is the case $k_1=k_2=3$
 of Folkman's theorem. That proof is described under Formalization, and this
 corpus has not built it. Folkman's 1970 theorem supplies the required graph, and

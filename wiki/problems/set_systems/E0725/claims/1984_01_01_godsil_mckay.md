@@ -64,6 +64,6 @@ claims the same formula for every $k=o(n)$.
 of Latin rectangles, J. Combin. Theory Ser. B **48** (1990), no. 1, 19–44. The
 page is dated by the result's first posting, the announcement in the January
 1984 issue of Bull. Amer. Math. Soc. (N.S.). The site's curator does not credit
-the result, and the site labels the problem OPEN, so the page lists no
+the result, and the site labeled the problem OPEN, so the page lists no
 `reviewed` evidence. The proof has not been reconstructed or independently
 reviewed in this corpus.

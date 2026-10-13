@@ -68,8 +68,8 @@ and the
 [[../library/distance_problems/avis_1988_repeated_distances_space/_index|card of Avis, Erdős and Pach]]
 record the two results.
 
-**Acceptance.** The site's curator, Thomas Bloom, marks the problem proved and
-credits Swanepoel's theorem for it. The site's export of 2026-09-04 labels the
+**Acceptance.** The site's curator, Thomas Bloom, marked the problem proved and
+credits Swanepoel's theorem for it. The site's export of 2026-09-04 labeled the
 problem PROVED. The community database, which follows the site's label, records
 the status proved (Lean) and links Ren's assembly, described below. The paper
 appeared as a chapter of an edited Springer volume. No evidence that the

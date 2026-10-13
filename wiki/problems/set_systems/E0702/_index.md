@@ -84,12 +84,12 @@ points always contain two meeting in exactly one point, and that $n$ triples
 need not when $4\mid n$ ([Er75f], §6; [Er81], Part I, item 5); [Er76b], item 22,
 determines $f(n;3,1)$ for every $n$.
 
-**Status.** The site shows PROVED (page last edited 22 January 2026). This label
-describes the corrected Statement. The site attributes the conjecture to Erdős
-and Sós. It records Katona's unpublished proof of the case $k=4$ and credits
-Frankl [Fr77] with the proof for all $k\ge4$. The site's wording gives no range
-for $n$ and fails for small $n$ (for example $n=5$, $k=4$, `not_erdos_702`), as
-the Notes record.
+**Status.** The site showed PROVED (page last edited 22 January 2026). This
+label describes the corrected Statement. The site attributes the conjecture to
+Erdős and Sós. It records Katona's unpublished proof of the case $k=4$ and
+credits Frankl [Fr77] with the proof for all $k\ge4$. The site's wording gives
+no range for $n$ and fails for small $n$ (for example $n=5$, $k=4$,
+`not_erdos_702`), as the Notes record.
 
 **Source.** [erdosproblems.com/702](https://www.erdosproblems.com/702), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #702,

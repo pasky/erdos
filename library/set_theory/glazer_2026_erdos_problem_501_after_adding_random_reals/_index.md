@@ -250,7 +250,7 @@ Newelski–Pawlikowski–Seredyński theorem.
 
 Acceptance as recorded on 2026-09-27: erdosproblems.com adopted the result
 into its problem text on 2026-09-03 (the text says that Glazer proved the
-answer to the first question independent of ZFC) and labels the problem NOT
+answer to the first question independent of ZFC) and labeled the problem NOT
 DISPROVABLE; the community database changed the problem to "not
 disprovable" in teorth/erdosproblems pull request #400 (opened 2026-09-05,
 merged 2026-09-18 by the database owner, whose recorded reasoning is that

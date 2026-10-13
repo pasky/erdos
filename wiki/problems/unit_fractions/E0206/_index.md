@@ -53,9 +53,9 @@ or no, and the answer is no.
 The companion questions for every rational $x$ and for every algebraic $x$
 are variants, not the problem; they are recorded separately below.
 
-**Status.** Disproved. The site's label is DISPROVED (LEAN), and the suffix is a
-catalog label explained under Formalization. Kovač's Theorem 1 (J. Number Theory
-268 (2025), 39--48) shows that the set of $x>0$ whose best Egyptian
+**Status.** Disproved. The site's label was DISPROVED (LEAN), and the suffix is
+a catalog label explained under Formalization. Kovač's Theorem 1 (J. Number
+Theory 268 (2025), 39--48) shows that the set of $x>0$ whose best Egyptian
 underapproximations are eventually greedy has Lebesgue measure zero. So the
 assertion fails for almost every $x$, instead of holding for almost every $x$.
 The claim page

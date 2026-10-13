@@ -80,7 +80,7 @@ as an assistive tool for exploratory computation, code, checking and language
 editing, that they reviewed the arguments and reran the verification, and that
 the paper reports a partial result only. The proof claim on the site, submitted
 2026-07-27 and marked partial, had no comments as of 2026-10-07, and the site's
-label is OPEN (problem page last edited 1 October 2025). The problem's
+label was OPEN (problem page last edited 1 October 2025). The problem's
 discussion thread bears on the claim. A research note of July 2026 by the
 pseudonymous user ideal_ombrer, posted on the thread on 2026-07-12 and predating
 this deposit, claims to prove that every such covering system uses a modulus

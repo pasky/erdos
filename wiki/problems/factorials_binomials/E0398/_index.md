@@ -28,15 +28,15 @@ $$
 
 when $n=4,5,7$?
 
-**Status.** The site's label is FALSIFIABLE, an open problem. A further solution
-would be a finite witness: one more $n$ with $n!+1$ a perfect square. A proof
-that none exists has no such check. The derived standing departs from the label.
-It is claimed, proved, because Maiti's pending full claim asserts a proof. No
-full claim is accepted. The site's problem page (last edited 1 April 2026)
-records no proof and lists no proof claim, but its discussion thread carries
-one. This is Ahmad Sabihi's manuscript claiming a short elementary proof,
-brought there on 19 October 2025. Stijn Cambie exhibited an error in it, and it
-is recorded as rejected on
+**Status.** The site's label was FALSIFIABLE, an open problem. A further
+solution would be a finite witness: one more $n$ with $n!+1$ a perfect square. A
+proof that none exists has no such check. The derived standing departs from the
+label. It is claimed, proved, because Maiti's pending full claim asserts a
+proof. No full claim is accepted. The site's problem page (last edited 1 April
+2026) records no proof and lists no proof claim, but its discussion thread
+carries one. This is Ahmad Sabihi's manuscript claiming a short elementary
+proof, brought there on 19 October 2025. Stijn Cambie exhibited an error in it,
+and it is recorded as rejected on
 [[problems/factorials_binomials/E0398/claims/2017_02_14_sabihi|its claim page]].
 An arXiv manuscript of Salvador Cerdá (2015) claiming a solution was withdrawn
 by its author. It is recorded on
@@ -76,7 +76,7 @@ https://www.erdosproblems.com/398.
 **The question.** The site's formulation asks whether
 $n=4,5,7$ give the only solutions of $n!=x^2-1$, the Brocard–Ramanujan
 equation; the three known solutions are $4!+1=5^2$, $5!+1=11^2$ and
-$7!+1=71^2$. The site labels the problem falsifiable, which is a note on the
+$7!+1=71^2$. The site labeled the problem falsifiable, which is a note on the
 shape of the question and not a claim: a counterexample is a single further
 $n$ with $n!+1$ a square, settled by one computation, whereas the expected
 answer yes needs an argument. The frontmatter standing derives from the

@@ -71,7 +71,7 @@ uses.
 
 **Acceptance.** Refereed: Studia Universitatis Babeş-Bolyai Mathematica 60
 (2015), no. 2 (June 2015), 151–171. Reviewed: the site's curator, Thomas F.
-Bloom, labels the problem PROVED and credits Rack and Vajda with the four-node
+Bloom, labeled the problem PROVED and credits Rack and Vajda with the four-node
 optimum (erdosproblems.com/1129, last edited 2026-01-23). The constants $b$
 and $t$ are computed with symbolic computation in Mathematica, as the paper
 states. No formalization declares itself a formalization of this paper.

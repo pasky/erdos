@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 lengths then $\chi(G)\leq 2k+2$, with equality if and only if $G$ contains
 $K_{2k+2}$.
 
-**Status.** The site labels the problem proved, crediting Gyárfás [Gy92]. The
+**Status.** The site labeled the problem proved, crediting Gyárfás [Gy92]. The
 accepted claim is
 [[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|Gyárfás's bound with its equality case]].
 The strengthening by Gao, Huo and Ma [GaHuMa21] is an accepted partial claim,

@@ -85,7 +85,7 @@ with the argument of the first paper, and the curator credits it in the
 commentary under the PROVED (LEAN) label. The problem's standing follows
 from either accepted claim.
 
-**Formalization and the Lean label.** The site's label is PROVED (LEAN),
+**Formalization and the Lean label.** The site's label was PROVED (LEAN),
 and the community database records a Lean formal status dated 2026-08-23.
 The statement file of formal-conjectures names, in its `formal_proof`
 attribute, the file `src/latest/ErdosProblems/Erdos48.lean`

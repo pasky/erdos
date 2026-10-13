@@ -62,7 +62,7 @@ reach for non-bipartite graphs; nothing for any $r\ge3$.
 are the paper's, and the matrix-to-graph step is elementary.
 
 **Acceptance.** Refereed: Colloquium Mathematicum, a refereed journal. No
-`reviewed` evidence is listed: the site labels the problem OPEN, and its
+`reviewed` evidence is listed: the site labeled the problem OPEN, and its
 commentary names the paper for the upper bound only. This corpus supplies no
 independent proof review. The statements (1.3), (1.5), (3.1) and (6.1) are
 checked against the print, but the proof of the Section 5 construction is not.

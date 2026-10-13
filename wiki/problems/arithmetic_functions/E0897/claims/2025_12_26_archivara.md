@@ -78,7 +78,7 @@ counterexample is the one Wirsing published in 1981, recorded on
 The site's curator, Thomas F. Bloom, credits the construction to Wirsing and
 does not name the manuscript. So Bloom's credit is recorded on Wirsing's page
 and not as evidence here. The formalization was posted on the thread on
-2025-12-27. After that, the site labels the problem DISPROVED (LEAN) (page last
+2025-12-27. After that, the site labeled the problem DISPROVED (LEAN) (page last
 edited 1 April 2026), and the community database records the formal status Lean.
 The formal-conjectures statement file, at the commit linked above, marks both
 parts research solved, with their formal-proof attribute pointing at this Lean

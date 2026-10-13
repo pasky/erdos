@@ -81,9 +81,9 @@ progression, which is the absolute-constant reading of the problem. It was
 not built or audited by this corpus, so no `formalized` evidence is listed.
 
 **Acceptance.** Refereed: the Annals of Mathematics and the Journal of the
-American Mathematical Society. Reviewed: the site's curator, T. F. Bloom, labels
-Problem 344 proved at erdosproblems.com and credits the resolution to the JAMS
-paper of Szemerédi and Vu (page last edited 28 December 2025, accessed
+American Mathematical Society. Reviewed: the site's curator, T. F. Bloom,
+labeled Problem 344 proved at erdosproblems.com and credits the resolution to
+the JAMS paper of Szemerédi and Vu (page last edited 28 December 2025, accessed
 2026-10-07). The community database lists the problem as proved. The thread
 carries no comments and no dispute. The library has no card for either paper,
 and the citations above are the journals' records. Nothing here was checked by

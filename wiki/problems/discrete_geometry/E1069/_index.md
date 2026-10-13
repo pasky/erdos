@@ -67,8 +67,8 @@ $k=n^{1/2}$ the bound says that fewer than $cn^{1/2}$ lines contain at least
 $n^{1/2}$ of the points, which Erdős contrasts with a finite geometry, where
 $n=p^2+p+1$ points lie on $n$ lines of $p+1>\sqrt n$ points each.
 
-**Status.** The site labels the problem SOLVED and credits Szemerédi and Trotter
-(1983). The label and the commentary describe the corrected Statement.
+**Status.** The site labeled the problem SOLVED and credits Szemerédi and
+Trotter (1983). The label and the commentary describe the corrected Statement.
 **Proved**: Theorem 2 of Szemerédi and Trotter (Combinatorica 3 (1983),
 381--392, refereed) gives fewer than $c\,n^2/k^3$ lines with at least $k$ of the
 points for every $2\le k\le n^{1/2}$. See the

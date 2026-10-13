@@ -52,7 +52,7 @@ $n\ge n^*$ and leaves $n<n^*$ open, and that the size of $n^*$ is unknown,
 though the authors expect it to be small. The digest is on the
 [[../library/discrete_geometry/erdos_1988_solution_problem_grunbaum/_index|source card]].
 
-**Acceptance.** T. F. Bloom, the site's curator, labels the problem SOLVED and
+**Acceptance.** T. F. Bloom, the site's curator, labeled the problem SOLVED and
 credits Salamon and Erdős [ErSa88] with the complete description (problem page
 accessed 2026-09-04). This is the `reviewed` evidence. The paper is refereed: P.
 Salamon and P. Erdős, The solution to a problem of Grünbaum, Canad. Math. Bull.

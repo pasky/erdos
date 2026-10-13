@@ -134,9 +134,9 @@ two-sided bound, since its extremal number is eventually $0$. So nothing is
 vacuous. The Formal Conjectures statement file for the problem, at the commit
 linked on the problem page, states the same proposition.
 
-Not reviewed: the site labels the problem proved and formalized, and its curator
-credits the proof. But the curator submitted proof claim 243, calling the
-curator's own informal exposition lacking and both expositions placeholders
+Not reviewed: the site labeled the problem proved and formalized, and its
+curator credits the proof. But the curator submitted proof claim 243, calling
+the curator's own informal exposition lacking and both expositions placeholders
 until a proper write-up is prepared. The curator is also a co-author of the
 FrontierMath Erdős paper. So that credit is not an independent review, and no
 outside reviewer has published an examination.

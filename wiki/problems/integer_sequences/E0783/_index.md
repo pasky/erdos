@@ -54,7 +54,7 @@ February 2026 and Chojecki's Remark 31 both leave open. The site's curator reads
 the problem as Erdős's second alternative: the commentary (page last edited 28
 May 2026) says that Tao "suggests the problem (which is likely what Erdős meant)
 of whether the minimum number of integers in $[1,N]$ not divisible by any
-$a\in A$ is $(\rho(e^C)+o(1))N$", with $\rho$ the Dickman function, and labels
+$a\in A$ is $(\rho(e^C)+o(1))N$", with $\rho$ the Dickman function, and labeled
 the problem SOLVED because "Tao has resolved this question (asymptotically at
 least)". The evidence for that reading is Erdős's own parenthesis "or at least
 nearly gives the minimum", quoted in the thread on 4 February 2026 (Woett),
@@ -83,7 +83,7 @@ extremal sequence is not determined for any $C$. The standing below judges the
 corrected Statement; the exact-minimizer question is recorded here and on the
 claim pages, not as a standing.
 
-**Status.** The site labels the problem SOLVED. The corrected Statement is
+**Status.** The site labeled the problem SOLVED. The corrected Statement is
 settled. Tao [Ta26] proved that every admissible $A$ leaves at least
 $(\rho(e^C)+o(1))N$ integers up to $N$ unsifted. The prime tail attains that
 count, so it minimizes up to $o(N)$. The exact minimizer for a given $N$, the

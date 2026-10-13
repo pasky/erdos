@@ -83,5 +83,5 @@ file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e6
 links for its `erdos_330_statement`, tagged research solved. The
 formal-conjectures statement itself quantifies existentially over the order and
 stays `sorry`. Neither development has been built or audited in this corpus. So
-`formalized` is not listed, and the Lean qualification of the site's label is
+`formalized` is not listed, and the Lean qualification of the site's label was
 the site's.

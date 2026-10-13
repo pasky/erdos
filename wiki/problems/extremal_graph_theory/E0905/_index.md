@@ -69,7 +69,7 @@ conjecture. The external Lean proof behind the site's suffix declares itself a
 formalization of the 1979 note's result. It is recorded as a formalization link
 on the first page, and no build of it is recorded.
 
-The label rests on five sources. First, the refereed paper of Bollobás and
+The label rested on five sources. First, the refereed paper of Bollobás and
 Nikiforov, *Books in graphs*, European J. Combin. 26 (2005) [BoNi05], cited from
 its arXiv version. Its Corollary 3 states that every
 $G(n,\lfloor n^2/4\rfloor+1)$ has a book of size greater than $n/6$. The proof
@@ -338,7 +338,7 @@ with more than $n^2/4$ edges all of whose triangles have degree sum below
 $3n/2$. The contradiction is recorded on Problem 1033 side by side with the
 current bounds and is not resolved on this page; for this problem it means
 that the 1982 passage is not relied on as the attestation of the proof, and
-the label rests on the sources above. The thread's remark that "the proof"
+the label rested on the sources above. The thread's remark that "the proof"
 depends on the conjecture that is now Problem 904 reads the same passage;
 Problem 904's conjecture is the general form for $k(r)$ under $m\ge t_r(n)$,
 and the triangle case with $m>n^2/4$ and $3n/2$ is Problem 1033's. [Er93],

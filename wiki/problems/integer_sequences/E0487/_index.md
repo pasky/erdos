@@ -39,7 +39,7 @@ infinitely many such triples; one triple in every set of positive density
 gives infinitely many by removing finitely many members, which does not
 change the density.
 
-**Status.** The site's label is PROVED (LEAN). The site's commentary attributes
+**Status.** The site's label was PROVED (LEAN). The site's commentary attributes
 the result to Kleitman's solution of Problem 447, the union-free bound [Kl71].
 The claim pages are
 [[problems/integer_sequences/E0487/claims/1971_01_01_kleitman|Kleitman]] and
@@ -235,7 +235,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Kl71]; the
 unpublished Sárközy--Szemerédi argument Erdős reports.
 
 **Remaining gaps.** (1) The status-defining paper [Kl71] is not held; its
-theorem is quoted from the site, and the label rests on the site's
+theorem is quoted from the site, and the label rested on the site's
 attribution, Erdős's 1965 attestation and the Lean development; reopening
 condition: a copy of [Kl71]. (2) The reduction from union-free families to
 lcm triples is attested and formalized externally but not derived or

@@ -72,7 +72,7 @@ unchanged, and Erdős's stronger form of it, with $N\geq(1+o(1))p_k^2$, is not
 settled by the sources cited here. Guy's collection discusses the problem as
 B26.
 
-The site's label carries a Lean qualification: the community database records
+The site's label carried a Lean qualification: the community database records
 that the statement and its resolution are both formalized, the resolution in
 Boris Alexeev's repository, linked from the claim page with its header's
 account of the proof it follows. The file is third-party Lean that this corpus

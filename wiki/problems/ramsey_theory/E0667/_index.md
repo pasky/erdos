@@ -45,7 +45,7 @@ nondecreasing in $q$ is immediate from the definitions (a graph meeting the
 condition for $q+1$ meets it for $q$, so the forced clique can only grow);
 the question is strictness.
 
-**Status.** The site labels the problem OPEN, with the note that no finite
+**Status.** The site labeled the problem OPEN, with the note that no finite
 computation can settle it. No claim about it has been found, so the problem is
 open. The source records the bounds the site repeats. For $q=1$, the condition
 says that $G$ has no independent set of size $p$, so $H(n;p,1)$ is governed by

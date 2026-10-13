@@ -80,7 +80,7 @@ France's Astérisque, vol. 258 (1999), pp. 141--148. The Crossref record for DOI
 10.24033/ast.442 types the article as a journal article in that venue (MR
 1701192, Zbl 0979.11005; Numdam and Crossref records read). The volume carries
 the year only, so this page is named by the first day of 1999. Reviewed: the
-site's curator, Thomas Bloom, marks the problem proved on erdosproblems.com and
+site's curator, Thomas Bloom, marked the problem proved on erdosproblems.com and
 credits Deshouillers and Freiman with proving the conjecture for every large
 $N$. The curator's acceptance is the documented acceptance. Read depth: Theorem
 1, Theorem 2 and the uniqueness remark are checked clause by clause, and the

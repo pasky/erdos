@@ -55,6 +55,6 @@ exponent, $1/5-\eta$ for some $\eta>0$, is claimed on
 the London Mathematical Society, a refereed journal. The publisher's record
 dates the issue to April 1992 without a day, so this page is named by the first
 day of that month. The site's curator credits the bound in the problem's
-commentary. The site labels the problem OPEN, however, so that credit is not
+commentary. The site labeled the problem OPEN, however, so that credit is not
 acceptance of the problem and no `reviewed` evidence is listed. The corpus
 records no check of the proof.

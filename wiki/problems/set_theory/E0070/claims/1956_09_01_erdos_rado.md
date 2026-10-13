@@ -53,6 +53,6 @@ linked above.
 received by the editors on 17 May 1955. Theorem 31 is on p. 447, and the proof
 of (30) is on pp. 454–457. The page is dated by the September 1956 issue. The
 issue gives no day, so the first of the month stands in for it. The site credits
-the result in its commentary but labels the problem OPEN, so the commentary is
+the result in its commentary but labeled the problem OPEN, so the commentary is
 not `reviewed` evidence. No formal proof of the relation is recorded, so no
 `formalized` evidence is listed. Nothing here is this project's own review.

@@ -58,7 +58,7 @@ Faudree, Gyárfás and Schelp (the paper behind Problem 815), not [Er91]; [Sa19]
 $k=3$", its [2] being [EFRS90], and adds that Erdős listed the $k=3$ case
 among his favorite problems in [Er93].
 
-**Status.** Proved. The site labels the problem PROVED. The result and its
+**Status.** Proved. The site labeled the problem PROVED. The result and its
 acceptance evidence are recorded on the claim page
 [[problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann|Sauermann's proof]],
 from which the frontmatter is derived. The status-defining source is

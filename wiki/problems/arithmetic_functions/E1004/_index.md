@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 $n\leq x$ such that the values of $\phi(n+k)$ are all distinct for $1\leq k\leq
 (\log x)^c$, where $\phi$ is the Euler totient function?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 12 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 12 April
 2026). The one recorded claim,
 [[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|the anonymous note]]
 posted on 2026-04-29, is partial. It asserts the block statement for every fixed

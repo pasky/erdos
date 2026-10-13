@@ -62,6 +62,6 @@ the corrected Statement at $k=2$. It says nothing about $k\ge3$.
 
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
 Mathematics, Oxford Second Series, in 1961 (volume 12, issue 1). The record
-gives only the year, so the page is dated to its first day. The site labels the
+gives only the year, so the page is dated to its first day. The site labeled the
 problem FALSIFIABLE, an open label, so its commentary is not acceptance and no
 `reviewed` is listed. Nothing here rests on this project's own review.

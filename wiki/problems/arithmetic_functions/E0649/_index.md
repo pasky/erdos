@@ -36,7 +36,7 @@ remarks suggest that Erdős may have meant odd primes or all sufficiently
 large primes; that is a guess, and Tong's family, whose primes $q$ are odd
 and exceed $p$, refutes those forms as well.
 
-**Status.** Disproved. The site's label is DISPROVED (LEAN). The disproof is
+**Status.** Disproved. The site's label was DISPROVED (LEAN). The disproof is
 elementary. The site's remarks record two independent arguments, both accepted
 there. [[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's]]
 argument shows that for every prime $p$ infinitely many primes $q$ admit no such

@@ -30,7 +30,7 @@ $$
 
 where $f$ ranges over all functions $f:X^2\to \{-1,1\}$. Estimate $H(n)$.
 
-**Status.** SOLVED (LEAN) on erdosproblems.com, with a formulation
+**Status.** Labeled SOLVED (LEAN) on erdosproblems.com, with a formulation
 qualification. This is the label as it stood on 2026-09-04. Its Lean marker
 refers to the formalization reported in the forum and recorded below. The site's
 statement above is preserved verbatim as it stood on 2026-09-04. Its annotation

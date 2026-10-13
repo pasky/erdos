@@ -67,5 +67,5 @@ request that added it to google-deepmind/formal-conjectures as the
 18 September 2026, reports a compilation against the pinned statement with
 the axioms `propext`, `Classical.choice` and `Quot.sound` only. This corpus
 has not built or audited the file, so the page lists no `formalized`
-evidence. The site labels the problem OPEN and its commentary does not
+evidence. The site labeled the problem OPEN and its commentary does not
 mention the proof.

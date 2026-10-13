@@ -65,7 +65,7 @@ European Mathematical Society. Its Crossref record (read) gives volume 20, issue
 Its comment says the paper is to appear in that journal. The journal text was
 not compared. The page is named by the first arXiv version, submitted 26
 February 2015 (arXiv listing read). Reviewed: the site's curator, Thomas Bloom,
-marks the problem proved on erdosproblems.com and credits the four authors with
+marked the problem proved on erdosproblems.com and credits the four authors with
 this asymptotic, whose constant is determined by the residue of $n$ modulo $4$.
 Read status: the statement was checked and the proof is unread. No further
 evidence is listed.

@@ -48,7 +48,7 @@ only for $n\le8$, where Lisoněk [Li97] determines
 $M_2(1),\ldots,M_2(8)=3,5,6,10,16,27,29,45$, and the general bounds
 $\binom{n+1}{2}\le M_2(n)\le\binom{n+2}{2}$ ($n\ge3$) leave a gap at every
 $n\ge9$ where the upper bound is not attained, so the exact question is open.
-The site labels the problem SOLVED (LEAN), a label it defines as resolved
+The site labeled the problem SOLVED (LEAN), a label it defines as resolved
 other than by a proof or disproof, and its commentary (page last edited 29
 January 2026) records the upper bound of Bannai, Bannai and Stanton [BBS83]
 with Petrov and Pohoata's proof [PePo21] and the lower bounds $\binom n2$
@@ -103,7 +103,7 @@ $\mathbb{R}^{23}$ with distances $2$ and $\sqrt6$, transcribed in full in
 Theorem 1 page]]; it improves the generic lower bound at $n=23$ from
 $\binom{24}{2}=276$ to $277$, but does not close the general gap.
 
-**Status.** The site labels the problem SOLVED (LEAN), and the label describes
+**Status.** The site labeled the problem SOLVED (LEAN), and the label describes
 the corrected Statement. Its qualifier rests on the community proof of the upper
 bound. The problem lists two parts, the upper bound and the lower bound. The two
 accepted upper-bound claims in `claims/` settle the first, and the accepted

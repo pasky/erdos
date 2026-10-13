@@ -48,5 +48,5 @@ issue dated 28 June 2009. The article was posted online when its DOI was
 registered on 28 December 2008, the date of this page. That is the Crossref
 record's creation date, and OpenAlex gives the same day. No arXiv preprint
 exists. The site's curator credits the results in the commentary of a problem
-the site labels FALSIFIABLE. That label settles nothing, so the credit is not
+the site labeled FALSIFIABLE. That label settles nothing, so the credit is not
 listed as `reviewed`.

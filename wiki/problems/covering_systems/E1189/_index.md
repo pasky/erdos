@@ -52,7 +52,7 @@ trivial bound $\sum_{2\le n\le x}1/n\le\log x$, Erdős's version would then
 be $\Theta(\log x)$, a consequence that stands or falls with that pending
 claim. The standing concerns the site's formulation.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 8 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 8 April
 2026). The standing is claimed through two pending full claims, recorded without
 adoption and described below. No outside review is recorded for either.
 
@@ -115,7 +115,7 @@ this corpus has not built it.
 The four questions have different standings. The last question, whether
 infinitely many $n$ have divisors above one forming an irreducible covering set,
 is answered yes by Sun's theorem, accepted on the refereed paper; the site's
-commentary credits Sun with settling it, but on a problem the site labels OPEN
+commentary credits Sun with settling it, but on a problem the site labeled OPEN
 that remark is context and not acceptance evidence
 ([[problems/covering_systems/E1189/claims/2006_01_01_sun|claim page]]).
 Simpson's bound $n_k\le2^{k-1}$ and the upper bound on the count from the
@@ -124,7 +124,7 @@ partial claims on their refereed papers
 ([[problems/covering_systems/E1189/claims/1985_01_01_simpson|Simpson]],
 [[problems/covering_systems/E1189/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|Balister et al.]]);
 neither settles a question. The counting question and the two extremal questions
-are open on the site; two pending full claims answer all of them in the site's
+were open on the site; two pending full claims answer all of them in the site's
 size-$k$ formulation (the Formulation paragraph above records what Erdős asked),
 both recorded without adoption: a Lean 4 development released by Colin Snyder's
 Star Fleet Math system on 2026-07-13, which proves in Lean a finite reduction of

@@ -27,8 +27,8 @@ $$
 
 irrational?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
-edited 19 October 2025; accessed 2026-09-04 and 2026-10-07). It credits Chen and
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
+edited 19 October 2025; accessed 2026-09-04). It credits Chen and
 Ruzsa [ChRu99] with the proof of the stronger conjecture that every infinite
 subseries over squarefree numbers is irrational. The frontmatter standing
 derives from the
@@ -62,8 +62,8 @@ has not built or audited either file, so no `formalized` evidence is listed.
 
 ## Current assessment
 
-The site labels Problem 259 PROVED (LEAN) (page last edited 19 October 2025;
-accessed 2026-09-04 and 2026-10-07). The standing rests on Chen and Ruzsa's
+The site labeled Problem 259 PROVED (LEAN) (page last edited 19 October 2025;
+accessed 2026-09-04). The standing rests on Chen and Ruzsa's
 refereed paper and the curator's credit, the evidence on the claim page; the
 paper's theorem is recorded from the curator's remark, the formal-conjectures
 docstring, the OEIS entry A371134 and the labels of the Lean gist (the

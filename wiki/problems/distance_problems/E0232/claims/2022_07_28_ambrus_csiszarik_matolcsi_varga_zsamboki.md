@@ -67,5 +67,5 @@ The site's question asks for $m_1\le1/4$, which the bound also gives.
 Varga and P. Zsámboki, The density of planar sets avoiding unit distances,
 Mathematical Programming 207 (2024), no. 1–2, 303–327, published online
 2023-10-06. The preprint is arXiv:2207.14179, posted 2022-07-28. The curator of
-erdosproblems.com, Thomas Bloom, marks the problem proved and credits the result
-to this paper.
+erdosproblems.com, Thomas Bloom, marked the problem proved and credits the
+result to this paper.

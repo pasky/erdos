@@ -55,7 +55,7 @@ answer under each.
 
 **Acceptance.** Refereed: the paper is a journal article (J. Amer. Math. Soc.;
 published online 2005-09-13). Reviewed: the site's curator, T. F. Bloom, credits
-the affirmative answer to it and labels the problem PROVED at erdosproblems.com
+the affirmative answer to it and labeled the problem PROVED at erdosproblems.com
 (page last edited 2025-12-02). This is the site's acceptance. The page's date is
 that of the arXiv posting, the first posting of the result. The proof is not
 compiled or reviewed here.

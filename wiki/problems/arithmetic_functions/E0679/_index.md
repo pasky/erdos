@@ -73,7 +73,7 @@ whose predecessors $n-k$ all have few distinct prime factors. The first asks
 whether, for each $\epsilon>0$, infinitely many $n$ have
 $\omega(n-k)<(1+\epsilon)\log k/\log\log k$ for all $k<n$ large in terms of
 $\epsilon$; the second asks whether the version with $\log k/\log\log k+O(1)$
-in place of the factor $1+\epsilon$ is false. The site's label is OPEN. The
+in place of the factor $1+\epsilon$ is false. The site's label was OPEN. The
 remarks add that the analogous questions can be asked for $\Omega$, with
 $\log k/\log 2$ in place of $\log k/\log\log k$.
 
@@ -83,7 +83,7 @@ false, by the primorial argument on
 for every constant $C$, every large $n$ has some $k<n$ with
 $\omega(n-k)\ge\log k/\log\log k+C$, and the site's remarks state the sharper
 form with $c\log k/(\log\log k)^2$ in place of $C$. The site credits the
-result in its remarks but labels the problem OPEN, so the claim stays
+result in its remarks but labeled the problem OPEN, so the claim stays
 claimed; a Lean proof of it, assuming the prime number theorem's asymptotic
 for the $n$th prime, is linked on that page and is not built here.
 

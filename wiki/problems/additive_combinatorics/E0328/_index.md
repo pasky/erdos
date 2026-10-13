@@ -92,7 +92,7 @@ answer is trivially no for $C=1$, since every part with two elements has a
 representation; for non-integer $C$ the hypothesis already gives fewer than
 $C$ representations of every $n$, and one part suffices.
 
-**Status.** The site shows DISPROVED (LEAN) and credits Nešetřil and Rödl with
+**Status.** The site showed DISPROVED (LEAN) and credits Nešetřil and Rödl with
 the negative answer for all $C$. The label describes the corrected Statement.
 The corrected Statement is **disproved**: the answer is no for every integer
 $C \geq 2$, even when $t$ may depend on $A$. This is due to Nešetřil and Rödl

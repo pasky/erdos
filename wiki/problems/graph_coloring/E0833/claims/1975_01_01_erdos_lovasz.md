@@ -49,7 +49,7 @@ Bolyai **10**, North-Holland, Amsterdam, 1975, 609–627, Mathematical Reviews M
 52 #2938
 ([[../library/graph_coloring/erdos_1975_problems_results_3_chromatic_hypergraphs_related/_index|source card]]).
 The venue is an edited proceedings volume, not a journal, so the page lists no
-refereed evidence. The site's curator, Thomas Bloom, marks the problem proved
+refereed evidence. The site's curator, Thomas Bloom, marked the problem proved
 and names this paper as the solution, citing the bound $2^{r-1}/(4r)$ (site
 page). This corpus checked the theorem's statement and the specialization to
 $q=2$. It has not reconstructed or reviewed the proof.

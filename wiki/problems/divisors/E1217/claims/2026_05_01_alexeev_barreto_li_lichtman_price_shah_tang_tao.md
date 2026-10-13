@@ -88,7 +88,7 @@ concern its Theorems 1.1 and 1.2.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, labels the problem proved and
+**Acceptance.** Thomas Bloom, the site's curator, labeled the problem proved and
 credits the paper on the problem page (last edited 12 May 2026). The community
 database also records the problem as proved (last updated 21 April 2026). The
 preprint has no journal record known here, so the acceptance rests on the

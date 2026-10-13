@@ -64,7 +64,7 @@ results are recorded on
 [[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|the source card]];
 nothing is independently reviewed here.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labeled
 the problem PROVED (LEAN). In the problem's commentary, the curator credits
 Erdős, Hajnal and Shelah [EHS74] with the proof. The curator is independent of
 the authors. The paper appeared in a colloquium proceedings volume, not in a

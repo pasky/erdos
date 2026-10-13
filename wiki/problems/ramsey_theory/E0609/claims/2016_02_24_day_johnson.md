@@ -59,7 +59,7 @@ exponential in $n$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B, volume 124. The site labels the problem OPEN, so its
+Theory, Series B, volume 124. The site labeled the problem OPEN, so its
 commentary crediting Day and Johnson is not an acceptance, and no `reviewed`
 evidence is listed.
 

@@ -29,7 +29,7 @@ $$
 \lvert \mathcal{F}\rvert <(1+o(1))\binom{n}{\lfloor n/2\rfloor}?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Kleitman
+**Status.** The site labeled the problem PROVED (LEAN), crediting Kleitman
 [Kl71]. The accepted claim is
 [[problems/set_systems/E0447/claims/1971_01_01_kleitman|union-free families have at most (1+o(1)) times the middle layer]].
 The Lean artifact behind the qualifier is described under Formalization.

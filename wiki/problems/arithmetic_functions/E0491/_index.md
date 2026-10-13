@@ -29,7 +29,7 @@ $$
 f(n)=c'\log n+O(1)?
 $$
 
-**Status.** Proved. The site labels the problem PROVED (page last edited
+**Status.** Proved. The site labeled the problem PROVED (page last edited
 2026-04-01) and credits Wirsing [Wi70], whose theorem answers the question yes.
 The accepted full claim is on
 [[problems/arithmetic_functions/E0491/claims/1970_01_01_wirsing|the claim page]].

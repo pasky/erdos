@@ -61,4 +61,4 @@ non-square case, which the posting takes from the forum, is recorded on
 **Depends on.** No other wiki page; the square case rests on the note alone.
 
 **Acceptance.** None recorded: there is no review, publication or
-formalization, and the site labels the problem OPEN.
+formalization, and the site labeled the problem OPEN.

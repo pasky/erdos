@@ -67,8 +67,8 @@ no. 3, 384--395, received 3 May 2005 and revised 26 September 2005. The English
 translation, Math. Notes 79 (2006), no. 3--4, 356--365, is not held. The Russian
 record gives the year only, and the translation's record dates its issue to
 March 2006, so the page is named by the first of that month. Reviewed: the
-site's curator, Thomas F. Bloom, labels the problem proved and, in the problem's
-commentary, credits Glibichuk with the improvement to
+site's curator, Thomas F. Bloom, labeled the problem proved and, in the
+problem's commentary, credits Glibichuk with the improvement to
 $C_\epsilon\ll\epsilon^{-2}$. The curator neither wrote nor submitted the
 result. The theorem is cited in the sum-product literature (eighteen citing
 records on Semantic Scholar). Nothing here is independently reviewed by this

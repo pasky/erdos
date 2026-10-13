@@ -72,5 +72,5 @@ explicit witness.
 **Depends on.** No page of this wiki.
 
 **Standing.** The entry is an edited database record and the thread posts
-unrefereed announcements; the site's commentary on a problem it labels OPEN
+unrefereed announcements; the site's commentary on a problem it labeled OPEN
 points to the entry without accepting a result. The claim stays claimed.

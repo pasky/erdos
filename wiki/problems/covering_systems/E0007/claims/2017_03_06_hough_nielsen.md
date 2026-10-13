@@ -56,6 +56,6 @@ unrestricted question stays open.
 **Acceptance.** Refereed: Duke Mathematical Journal 168 (2019), no. 17,
 3261--3295, doi:10.1215/00127094-2019-0058. The arXiv v1 of 2017-03-06 names
 this page. Not reviewed: the site's commentary credits the theorem, but the site
-labels the problem VERIFIABLE, an open label. On the site's own account, the
+labeled the problem VERIFIABLE, an open label. On the site's own account, the
 credit therefore settles no part of the problem. Not formalized: no Lean proof
 of the theorem is recorded.

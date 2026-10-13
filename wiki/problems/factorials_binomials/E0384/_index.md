@@ -64,7 +64,7 @@ $\binom42=6$ and whose claim page,
 [[problems/factorials_binomials/E0384/claims/2026_08_17_alexeev|Alexeev 2026]],
 is rejected; and this page's own witness $\binom62=15$.
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Ecklund's
+**Status.** The site labeled the problem PROVED (LEAN), crediting Ecklund's
 theorem, whose bound is $p\leq n/2$. The label describes the corrected
 Statement. The standing judges the corrected Statement and is derived from the
 claim pages: `solved`, `proved`. It rests on
@@ -73,7 +73,7 @@ refereed in the Pacific Journal of Mathematics and credited by the site's
 curator. Ecklund's theorem, with the symmetry transfer under Known Results,
 proves the corrected Statement. The living verification record on the theorem
 page gives the exact accepted scope, source version, external premises, repair,
-and limitations. The site's label says that the proof was verified in Lean, but
+and limitations. The site's label said that the proof was verified in Lean, but
 it links no file. It mirrors the community database's status proved (Lean),
 recorded from 24 August 2026. That is four weeks before the formal-conjectures
 statement file was added on 22 September 2026. The Lean development matching

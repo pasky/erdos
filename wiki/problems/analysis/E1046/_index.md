@@ -28,7 +28,7 @@ $$
 
 If $E$ is connected then is $E$ contained in a disc of radius $2$?
 
-**Status.** The site labels the problem DISPROVED, but its commentary answers
+**Status.** The site labeled the problem DISPROVED, but its commentary answers
 the stated question yes. The page departs from the site's label here. DISPROVED,
 the site's "solved in the negative", contradicts Pommerenke's theorem in print
 and the site's own commentary. In addition, the formal-conjectures statement for

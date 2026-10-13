@@ -29,7 +29,7 @@ Are there infinitely many integers which are not the sum of at most $r$ many
 $r$-powerful numbers? Does the set of integers which are the sum of at most $r$
 $r$-powerful numbers have density $0$?
 
-**Status.** Open. The site's label is OPEN, and the page was last edited on
+**Status.** Open. The site's label was OPEN, and the page was last edited on
 2025-11-03. The site's remarks record that Baker and Brüdern [BaBr94] first
 proved the density-zero statement at $r=2$. They also record that at $r=3$ the
 statement is unknown even for sums of three cubes. Finally, they record that
@@ -87,7 +87,7 @@ question at $r=3$ and nothing else; it is the same result as the arXiv
 posting and is recorded, with both postings, as a pending (`claimed`) partial
 claim on
 [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
-The site's label is OPEN (page last edited 2025-11-03) and the claim had no
+The site's label was OPEN (page last edited 2025-11-03) and the claim had no
 comments as of 2026-10-06. It does not settle the problem as stated: the
 density question is open for every $r$ and the infinitude question for every
 $r\ge4$.

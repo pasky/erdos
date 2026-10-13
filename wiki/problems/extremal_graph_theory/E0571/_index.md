@@ -35,9 +35,9 @@ simple graph on $n$ vertices containing no subgraph isomorphic to $G$. The
 notation $\asymp$ means two positive constant bounds for all sufficiently
 large $n$; the graph and constants may depend on $\alpha$.
 
-**Status.** Proved. The site labels the problem proved and formalized, crediting
-GPT-6 Astra, and its curator submitted proof claim 243. The corpus accepts the
-result on the
+**Status.** Proved. The site labeled the problem proved and formalized,
+crediting GPT-6 Astra, and its curator submitted proof claim 243. The corpus
+accepts the result on the
 [[problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski|claim page]]
 on formalized evidence, so the problem stands solved and proved. The pinned Lean
 development was built here, and its axioms were found to be the three standard
@@ -94,7 +94,7 @@ formal-conjectures entry syncs the site's status and is not acceptance evidence.
 
 ## Current assessment
 
-The site labels the problem proved and formalized; its curator, T. F. Bloom,
+The site labeled the problem proved and formalized; its curator, T. F. Bloom,
 submitted
 [proof claim 243](https://www.erdosproblems.com/forum/thread/571/proof-claims#proof-claim-243),
 qualifying the preliminary informal reading, and co-wrote the FrontierMath Erdős

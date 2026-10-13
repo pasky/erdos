@@ -54,7 +54,7 @@ A$, so part (i) gives $b_{n+1}-b_n\le2$ for all large $n$ when $k=2$, and part
 claim value is `disproved`: the question asks whether the gaps are bounded
 for every basis $A$ of every order $k$, and part (ii) refutes that for each
 $k\ge3$; the case $k=2$, where the assertion holds, is the part of the
-question that survives. The site labels the problem PROVED, although its
+question that survives. The site labeled the problem PROVED, although its
 remarks report the answer no for every $k\ge3$; the claim value follows the
 question as stated, which asks about every order $k$.
 
@@ -81,7 +81,7 @@ outline is a reading aid, not proof coverage.
 in Combinatorics, Probability and Computing. Crossref gives the issue date
 2007-09-01, which is the page's date. The `reviewed` evidence is the documented
 acceptance by the catalog erdosproblems.com. Its curator, Thomas Bloom, credits
-both answers to this paper in the problem's remarks, and the page carries the
+both answers to this paper in the problem's remarks, and the page carried the
 label PROVED (accessed 2026-10-07). The proof is not compiled or reviewed here.
 
 **Formalization.** A third party formalized both answers: `not_erdos_880` in

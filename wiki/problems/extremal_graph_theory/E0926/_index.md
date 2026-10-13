@@ -58,14 +58,14 @@ Statement takes this reading: the vertex $z_{\{i,j\}}$ of the pair $\{i,j\}$,
 with edges $xy_i$, $y_iz_{\{i,j\}}$ and $y_jz_{\{i,j\}}$ and no others. The
 formal-conjectures statement (see Formalization) uses the same graph.
 
-**Status.** The site labels the problem PROVED. The status-defining source is
+**Status.** The site labeled the problem PROVED. The status-defining source is
 Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79, refereed). It
 bounds $\mathrm{ex}(n;L^{k,s})$ by an explicit multiple of $n^{3/2}$ for every
 $k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's $H_k$ of the precise
 Statement. The frontmatter is derived from two claim pages.
 [[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]] is
 accepted on the refereed publication and the acceptance of the site's curator,
-Thomas Bloom. The site's label is its discussion link.
+Thomas Bloom. The discussion link is the site's page that showed the label.
 [[problems/extremal_graph_theory/E0926/claims/2003_11_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov]]
 records Theorem 6.1 of [AKS03] (Combin. Probab. Comput. 12 (2003), refereed), a
 second proof with the sharper bound $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. It is

@@ -81,7 +81,7 @@ carries no `formal_proof` attribute.
 
 The site's formulation (page last edited 22 January 2026) asks whether a
 finite covering system with distinct odd moduli greater than one exists. The
-site's label is VERIFIABLE and its proof-claim listing for the problem is
+site's label was VERIFIABLE and its proof-claim listing for the problem is
 empty. The label is a note on an open problem, not a claim:
 a positive answer could be witnessed by a finite covering system with
 distinct odd moduli, checked over one period of its moduli, and no such

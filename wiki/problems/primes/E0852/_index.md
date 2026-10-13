@@ -38,8 +38,8 @@ $$
 h(x)=o(\log x)?
 $$
 
-**Status.** Open. The site's label is OPEN, and its commentary records only that
-Brun's sieve gives $h(x)\to\infty$. Two partial claims were posted on the
+**Status.** Open. The site's label was OPEN, and its commentary records only
+that Brun's sieve gives $h(x)\to\infty$. Two partial claims were posted on the
 problem's discussion thread on 24 April 2026:
 [[problems/primes/E0852/claims/2026_04_24_chojecki|Chojecki's bound $h(x)\gg(\log x)^{1/3}$]]
 (credited to GPT-5.5 Pro) and
@@ -61,7 +61,7 @@ The site's formulation defines $h(x)$ through a run of
 pairwise distinct consecutive gaps $d_n,\ldots,d_{n+h(x)-1}$ whose starting
 index $n$ is below $x$, so the run itself reaches primes near $x\log x$. It
 asks for an estimate of $h(x)$ and, in particular, whether $h(x)>(\log x)^c$
-for some $c>0$ and whether $h(x)=o(\log x)$. The site's label is OPEN; its
+for some $c>0$ and whether $h(x)=o(\log x)$. The site's label was OPEN; its
 commentary records only that Brun's sieve gives $h(x)\to\infty$.
 
 **Lower bounds.** Two write-ups linked from the problem's discussion thread

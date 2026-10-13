@@ -93,5 +93,5 @@ referee, so it is no acceptance evidence; the same report is recorded on the
 name GPT-5.6 Sol for exploration, drafting and verification programs, and
 GPT-5 (Codex) for later source review, replay packaging and release checks;
 the repository's fixed-hash release replay (332 reconstructed terminal cases,
-50 CNFs, 50 LRAT proofs) is the author's own; the site's label is
+50 CNFs, 50 LRAT proofs) is the author's own; the site's label was
 FALSIFIABLE. A partial claim derives nothing for the problem's standing.

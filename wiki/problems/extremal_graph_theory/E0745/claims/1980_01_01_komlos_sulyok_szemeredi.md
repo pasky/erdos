@@ -4,7 +4,7 @@ title: Komlós, Sulyok and Szemerédi's logarithmic second component
 desc: |
   Komlós, Sulyok and Szemerédi bound the second largest component by $O(\log n)$
   at edge probability $\lambda/n$ with $\lambda>1$, the supercritical case the
-  site's label credits. The result is correct, but the Statement has edge
+  site's label credited. The result is correct, but the Statement has edge
   probability $1/n$, so it does not count toward the problem's standing.
 authors: []
 status: rejected
@@ -36,7 +36,7 @@ second-hand. Erdős attests the resolution: the added-in-proof sentence of
 his 1981 Combinatorica paper says the questions
 about the second largest component were cleared up by Komlós and Szemerédi.
 The volume carries a year and no month, so this page is dated to 1980 with
-a nominal day. The site labels
+a nominal day. The site labeled
 [[problems/extremal_graph_theory/E0745/_index|Problem 745]] PROVED and
 credits this paper.
 

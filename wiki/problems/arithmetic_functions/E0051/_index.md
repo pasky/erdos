@@ -24,7 +24,7 @@ updated: 2026-10-07T20:31:26Z
 every $a\in A$ there is an integer $n$ such that $\phi(n)=a$, and yet if $n_a$
 is the smallest such integer then $n_a/a\to \infty$ as $a\to\infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
+**Status.** Open. The site labeled the problem OPEN (page last edited
 2025-09-30), and its proof-claims tab carries no entry.
 
 **Source.** [erdosproblems.com/51](https://www.erdosproblems.com/51), accessed
@@ -46,7 +46,7 @@ https://www.erdosproblems.com/51.
 
 ## Current assessment
 
-The site's label is OPEN (site record accessed 2026-09-04, problem page
+The site's label was OPEN (site record accessed 2026-09-04, problem page
 last edited 2025-09-30). No claim settles the question. One claim page is
 recorded, and it is rejected: a one-page proof posted to the site's
 discussion thread on 2026-01-11, produced by ChatGPT (free version) for the

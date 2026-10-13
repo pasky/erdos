@@ -53,7 +53,7 @@ construction, is taken from the titles and from the Lean file below.
 **Acceptance.** The Annals paper is a refereed journal publication, the
 `refereed` evidence. The publisher's record dates the issue to May 1981 and
 gives no day, so this page is dated to the first day of that month. The site's
-curator, Thomas Bloom, labels the problem proved and credits the proof of
+curator, Thomas Bloom, labeled the problem proved and credits the proof of
 Littlewood's conjecture independently to this paper and to Konyagin, whose
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|claim page]] records
 Konyagin's proof. That curator credit is the `reviewed` evidence.

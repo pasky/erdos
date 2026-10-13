@@ -41,6 +41,6 @@ interval of positive integers, $k=2$ already works.
 **Standing.** The claim is `accepted` on refereed evidence: the theorem was
 published in Illinois J. Math. 19 (1975), no. 2, 292-301. The site's remark
 crediting the case $r=1$ to this paper is not counted as review, since the site
-labels the problem OPEN.
+labeled the problem OPEN.
 
 **Depends on.** No page of this wiki.

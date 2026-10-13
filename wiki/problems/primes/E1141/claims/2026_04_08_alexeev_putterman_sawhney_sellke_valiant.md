@@ -80,9 +80,10 @@ $\gg_a\sqrt n/(\log n\log\log n)$ admissible $k$. Remark 6.2 notes that the
 bound is ineffective because Pollack's theorem rests on Siegel's theorem, and
 that computation suggests $1722$ is the largest $1$-good $n$.
 
-**Reviewed.** The site's curator, Thomas Bloom, marks Problem 1141 disproved and
-credits the resolution to the internal OpenAI model of this paper in the site's
-commentary (last edited 9 April 2026). The claim has no refereed evidence.
+**Reviewed.** The site's curator, Thomas Bloom, marked Problem 1141 disproved
+and credits the resolution to the internal OpenAI model of this paper in the
+site's commentary (last edited 9 April 2026). The claim has no refereed
+evidence.
 
 **Formalizations.** Four Lean files declare themselves formalizations of this
 result, following the paper, so they are links on this page and not claims of

@@ -85,7 +85,7 @@ https://www.erdosproblems.com/5.
 The site's formulation asks, for each $C\ge0$, whether $C$ is a limit point of
 the normalized gaps $(p_{n+1}-p_n)/\log n$; the site's commentary reads the
 problem as asking whether the set $S$ of limit points is all of $[0,\infty]$,
-and labels it OPEN. The case $C=0$ is the theorem of Goldston, Pintz and
+and labeled it OPEN. The case $C=0$ is the theorem of Goldston, Pintz and
 Yıldırım [GPY09], an accepted partial result on
 [[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]],
 and Pintz [Pi16] adds every $C$ in an initial interval $[0,c]$ with an

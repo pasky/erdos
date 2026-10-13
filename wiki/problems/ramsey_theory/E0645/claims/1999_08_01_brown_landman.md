@@ -64,7 +64,7 @@ record, whose only online date, 17 April 2009, is the digitization); the day
 in the page name is a placeholder, and the paper link carries no date for
 that reason.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED (LEAN) and, in the problem's commentary, credits the first proof of the
 problem to Brown and Landman's paper (page last edited 4 April 2026). The
 curator is independent of the authors. Refereed: Bull. Austral. Math. Soc. 60

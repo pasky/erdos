@@ -38,7 +38,7 @@ maximal Sidon sets. Sedov's Lean asks only that the positive differences of $B$
 avoid those of $A$. The write-ups of Sothanaphan, Barreto and Chojecki state the
 theorem for non-empty $A$. The claim pages answer the question so read.
 
-**Status.** The site labels the problem “SOLVED (LEAN)”. The question, read for
+**Status.** The site labeled the problem “SOLVED (LEAN)”. The question, read for
 non-empty $A$ as the Formulation records, is answered yes by a proof for every
 $M$, posted 2026-04-27 and formalized 2026-05-10. So the problem stands proved.
 The acceptance and the Lean qualifications are on the claim pages below.

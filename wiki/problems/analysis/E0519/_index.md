@@ -28,7 +28,7 @@ $$
 \max_{1\leq k\leq n}\left\lvert \sum_{i}z_i^k\right\rvert>c?
 $$
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 1 February 2026) and credits Atkinson [At61b] with the solution, $c=1/6$.
 It also names Biró's improvements to $c=1/2$ [Bi94] and to an absolute constant
 above $1/2$ [Bi00]. The Lean qualifier refers to formalizations of Atkinson's

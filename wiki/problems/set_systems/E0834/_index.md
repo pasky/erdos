@@ -59,7 +59,7 @@ formalization of a result, and no Lean proof of either reading is known.
 
 Li [Li25] treats both readings of "$3$-critical" that the Formulation records.
 
-The site marks the problem solved because [Li25] settles both documented
+The site marked the problem solved because [Li25] settles both documented
 readings. The site's discussion also argues from historical context and later
 terminology that the chromatic reading is likely the intended one. A
 [comment](https://www.erdosproblems.com/forum/thread/834#post-2006) in the
@@ -72,7 +72,7 @@ held.
 The accepted claim page
 [[problems/set_systems/E0834/claims/2025_12_31_li|Li 2025]] states both
 results, the reason the claim value is `answered` rather than proved or
-disproved, and the acceptance evidence: the site's curator marks the problem
+disproved, and the acceptance evidence: the site's curator marked the problem
 solved and credits Li under both readings, while the paper is an arXiv
 preprint with no journal record. The corpus's own review of Li's thirteen
 reconstructed proofs, recorded on the source card's evidence pages, is the

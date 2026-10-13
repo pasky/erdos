@@ -51,7 +51,7 @@ line.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The result is refereed. It appeared in the American Mathematical
-Monthly. The site's curator, Thomas Bloom, marks the problem proved and credits
+Monthly. The site's curator, Thomas Bloom, marked the problem proved and credits
 Goodman and Goodman with the proof (problem page last edited 17 April 2026).
 Four later published proofs settle the same statement and have their own pages:
 [[problems/discrete_geometry/E1121/claims/1947_12_01_hadwiger|Hadwiger's inequalities for nonseparable convex systems]],
@@ -67,7 +67,7 @@ pinned commit linked above, a Lean 4 file whose header declares it a
 formalization of a solution to Problem 1121 with Goodman and Goodman as the
 informal authors and Aristotle (Harmonic) and Amogh Parab as the formal
 authors; Parab announced it on the site's discussion thread on 16 April 2026,
-and the site's label carries a Lean marker. Its theorem
+and the site's label carried a Lean marker. Its theorem
 `Erdos1121.erdos_1121` takes a family `circles : Fin n → Circle2D` of centers
 with positive radii in `EuclideanSpace ℝ (Fin 2)` and the hypothesis
 `CirclesNonseparable circles`, that no line at distance greater than the

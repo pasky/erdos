@@ -168,7 +168,7 @@ $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$ and hence $h(n)=n^{1/2+o(1)}$, and
 wrote in the thread the same day that, seen after the fact, the idea is a
 natural one, giving Bloom's own simplified sketch of the construction; the
 label stayed OPEN, and the adoption of a bound into the commentary of a
-problem the site labels OPEN is not an acceptance, so no `reviewed`
+problem the site labeled OPEN is not an acceptance, so no `reviewed`
 evidence is listed. The authors write (p. 11) that the exact asymptotic
 order of $h(n)$ remains open, and their announcement puts it within a
 subexponential factor; this page reads the label the same way, the

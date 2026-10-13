@@ -58,7 +58,8 @@ holds for every $n\le11$, and $n=12$ is the first order it leaves undecided.
 non-existence of finite projective planes of order 10, Canad. J. Math. **41**
 (1989), no. 6, 1117–1123. The issue is dated December 1989, and the page is
 dated to the first day of that month. The site's curator records the exclusion
-under [La97], Lam's Monthly article of 1991, and labels the problem FALSIFIABLE.
-This credits the partial result without settling the problem, so the page lists
-no `reviewed` evidence. The search was not repeated, and the paper is not held
-in this corpus. The account above follows Lam's expository article [La97].
+under [La97], Lam's Monthly article of 1991, and labeled the problem
+FALSIFIABLE. This credits the partial result without settling the problem, so
+the page lists no `reviewed` evidence. The search was not repeated, and the
+paper is not held in this corpus. The account above follows Lam's expository
+article [La97].

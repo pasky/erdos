@@ -71,8 +71,8 @@ over $A\subseteq\{2,\ldots,\lfloor x\rfloor\}$ with reciprocal sum at most
 $C$, the notation used below. For $0<C<1$ the element $1$ cannot lie in $A$
 anyway, and the union bound leaves at least $(1-C)x$ integers unsifted.
 
-**Status.** The site labels the problem SOLVED and credits Ruzsa and Weingartner
-(page last edited 8 April 2026, accessed 2026-09-05 and 2026-10-07; two thread
+**Status.** The site labeled the problem SOLVED and credits Ruzsa and
+Weingartner (page last edited 8 April 2026, accessed 2026-09-05; two thread
 comments, no proof claim). For the corrected Statement the answer is yes for
 $0<C\le1$ and no for $C>1$. So the bound fails when it is asked for every $C>0$,
 which is how Erdős expected it to hold. For $0<C<1$ the union bound leaves at

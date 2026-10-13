@@ -36,7 +36,7 @@ $p_{n+1}-p_n$ with $p_n<x$, even when $p_{n+1}>x$, and the question asks
 whether, for every fixed $C>1$, the asymptotic holds as $x\to\infty$
 uniformly over real $y$ with $x/2<y<x$.
 
-**Status.** The site labels the problem DISPROVED (LEAN) (page last edited 06
+**Status.** The site labeled the problem DISPROVED (LEAN) (page last edited 06
 July 2026). It credits Sunder, Kumrawat and Cheri, working with GPT 5.5, with
 the disproof. Under the reading in the Formulation, two constants less than
 $1/2$ apart cannot both satisfy the asymptotic. So the asymptotic fails for some

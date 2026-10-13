@@ -43,7 +43,7 @@ day of the month standing in for the unknown day.
 determined.
 
 **Acceptance.** Refereed: the journal publication. The site's commentary credits
-the result, but the site labels the problem OPEN, so the credit is not
+the result, but the site labeled the problem OPEN, so the credit is not
 acceptance.
 
 **Depends on.** Nothing in this wiki: the result is the cited paper's, as the

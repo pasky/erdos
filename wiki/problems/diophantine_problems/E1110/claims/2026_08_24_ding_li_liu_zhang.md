@@ -98,7 +98,7 @@ bound for this pair, positive lower density of the representable integers,
 without determining the density.
 
 **Standing.** Claimed. The claim is a manuscript on a preprint-sharing
-site with no journal record found; the site labels the problem open (page
+site with no journal record found; the site labeled the problem open (page
 last edited 1 April 2026); no review is recorded. The later claim
 [[problems/diophantine_problems/E1110/claims/2026_09_29_becart|Bécart 2026]]
 describes itself as an extension of this finite-certificate method to the

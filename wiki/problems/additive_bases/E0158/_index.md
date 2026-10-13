@@ -50,7 +50,7 @@ The site's formulation reads "there are most [sic] $2$ solutions", omitting
 one fixed infinite set with at most two unordered representations of each
 integer, counting a diagonal once. A counterexample needs $A(N)\ge c\sqrt N$
 for some $c>0$ and every sufficiently large $N$, not just along a
-subsequence. The site labels the problem open (2026-09-10), in agreement
+subsequence. The site labeled the problem open (2026-09-10), in agreement
 with the fixed-$g$ liminf conjecture stated in
 [[../library/additive_bases/pliego_2024_erdos_turan_conjecture_growth_b_2/_index|Pliego's manuscript]],
 arXiv:2405.04154v1 (7 May 2024), p. 2, equation (1.4). Erdős's theorem that

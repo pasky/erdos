@@ -57,7 +57,7 @@ remark records the same deduction in its own words.
 **Acceptance.** Refereed: B. Lindström, Well distribution of Sidon sets in
 residue classes, J. Number Theory 69 (1998), no. 2, 197–200. The issue is dated
 April 1998, and the page name uses the first day of that month. Reviewed: the
-site's curator, T. F. Bloom, labels Problem 154 proved at erdosproblems.com on
+site's curator, T. F. Bloom, labeled Problem 154 proved at erdosproblems.com on
 the basis of this result and Kolountzakis's strengthening. This is the site's
 acceptance.
 
@@ -69,4 +69,4 @@ produced with ChatGPT. The second was first posted on 2026-06-27 and is pinned
 at its commit of 2026-08-22. It derives the sumset statement
 (`erdos_154_sumset`) from the first. formal-conjectures links both. Neither file
 has been built or audited in this corpus. So `formalized` is not listed, and the
-Lean qualification of the site's label is the site's.
+Lean qualification of the site's label was the site's.

@@ -38,13 +38,14 @@ coprimality condition; the formal statement below does the same. The
 average $\frac1b\sum_{1\le a<b}N(a,b)\gg\log\log b$ quoted by the site is a
 separate statement of the same 1950 paper.
 
-**Status.** Open on the site. The label is OPEN (page last edited 29 December
-2025), and there is no proof claim on its tab. The standing derived from the
-claim pages is solved, claim proved. Theorem 1.1 of the OpenAI mathematics
-release's manuscript of 25 September 2026 gives $N(b)\le c_2\log\log b$ for
-every $b\ge b_0$. So $N(b)\ll\log\log b$, and with Erdős's lower bound of 1950,
-$N(b)\asymp\log\log b$. The claim is accepted on `formalized` evidence alone,
-namely the Lean declarations that the corpus's verification built and audited,
+**Status.** Labeled open on the site. The label was OPEN (page last edited 29
+December 2025), and there is no proof claim on its tab. The standing derived
+from the claim pages is solved, claim proved. Theorem 1.1 of the OpenAI
+mathematics release's manuscript of 25 September 2026 gives
+$N(b)\le c_2\log\log b$ for every $b\ge b_0$. So $N(b)\ll\log\log b$, and with
+Erdős's lower bound of 1950, $N(b)\asymp\log\log b$. The claim is accepted on
+`formalized` evidence alone, namely the Lean declarations that the corpus's
+verification built and audited,
 as [[problems/unit_fractions/E0304/claims/2026_09_25_openai|its claim page]]
 records. It has no outside review and no refereed publication.
 
@@ -110,7 +111,7 @@ claim page linked under Status.
 
 ## Current assessment
 
-**The question.** The site states the problem as above, shows OPEN, cites
+**The question.** The site states the problem as above, showed OPEN, cites
 [ErGr80, p. 37], attributes $\log\log b\ll N(b)\ll\log b/\log\log b$ to
 [Er50c] and $N(b)\ll\sqrt{\log b}$ to [Vo85], records the average bound,
 relates the problem to [[problems/divisors/E0018/_index|Problem 18]] and to
@@ -184,7 +185,7 @@ The note is unrefereed, its authors' Lean formalization is not built here,
 and the claim is not adopted into the bounds above; the accepted bound under
 Claims implies it.
 
-**Site and database state.** The site shows OPEN (last edited 29 December
+**Site and database state.** The site showed OPEN (last edited 29 December
 2025), one comment and no proof claim; the van Doorn claim above is posted on
 the proof-claims tab of Problem 18 (submitted 2026-09-16; as of 2026-10-05
 no comments, not accepted, not on arXiv, and no commits to its repository

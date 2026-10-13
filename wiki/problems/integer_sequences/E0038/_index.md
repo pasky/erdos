@@ -38,7 +38,7 @@ $$
 d_s(A) = \inf_{N\geq 1}\frac{\lvert A\cap\{1,\ldots,N\}\rvert}{N}.
 $$
 
-**Status.** The site labels the problem **PROVED (LEAN)**. A six-page anonymous
+**Status.** The site labeled the problem **PROVED (LEAN)**. A six-page anonymous
 manuscript posted on 25 April 2026 constructs a set that is not an additive
 basis and has the shift property with an explicit $f(\alpha)>0$. The site
 credits the manuscript to GPT 5.5 Pro, prompted by a forum user. Thomas Bloom,
@@ -109,7 +109,7 @@ use that definition. It was not built here.
 
 ## Current assessment
 
-The site's record of 2026-09-05 labels Problem 38 PROVED (LEAN) and lists
+The site's record of 2026-09-05 labeled Problem 38 PROVED (LEAN) and lists
 [Er36c], [Er56], and [Li42]. Its discussion thread credits the [Sol26]
 construction as a positive solution and holds Nat Sothanaphan's comment
 that a standard check of the write-up found no issues; the acceptance

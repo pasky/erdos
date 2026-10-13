@@ -59,7 +59,7 @@ https://www.erdosproblems.com/247.
 
 The site's formulation (page last edited 20 January 2026) asks whether
 $\sum_{n\ge1}2^{-a_n}$ is transcendental for every increasing sequence of
-positive integers with $\limsup a_n/n=\infty$, and labels the problem OPEN.
+positive integers with $\limsup a_n/n=\infty$, and labeled the problem OPEN.
 No claim answers that question. One accepted partial claim records the
 transcendence the site credits under the stronger condition
 $\limsup a_n/n^t=\infty$ for every $t\ge1$:

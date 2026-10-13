@@ -29,8 +29,8 @@ $$
 
 for some continuous $g$ and additive $h$ (i.e. $h(x+y)=h(x)+h(y)$)?
 
-**Status.** The site labels the problem PROVED (LEAN). Its commentary credits de
-Bruijn's 1951 theorem for the affirmative answer. The formal-conjectures
+**Status.** The site labeled the problem PROVED (LEAN). Its commentary credits
+de Bruijn's 1951 theorem for the affirmative answer. The formal-conjectures
 statement file's `formal_proof` attribute points to a Lean proof of the
 statement in Alexeev's repository. Both are on the
 [[problems/analysis/E0907/claims/1951_01_01_debruijn|claim page]]. The Lean

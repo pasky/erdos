@@ -32,7 +32,7 @@ another) and the formal-conjectures statement read it: it counts the antichains
 of subsets of $[n]$, the families in which no member contains a different
 member.
 
-**Status.** The site labels the problem SOLVED (LEAN), crediting Kleitman
+**Status.** The site labeled the problem SOLVED (LEAN), crediting Kleitman
 [Kl69]. The accepted claim is
 [[problems/set_systems/E0497/claims/1969_06_01_kleitman|the number of antichains is 2 to the (1+o(1)) middle layer]].
 The Lean artifact behind the qualifier is described under Formalization.

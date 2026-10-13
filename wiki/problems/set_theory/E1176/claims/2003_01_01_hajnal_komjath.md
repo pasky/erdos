@@ -40,9 +40,9 @@ chromatic number $\aleph_1$, and announces several partial results, variants and
 consistency results concerning it. The booklet [Va99, 7.93], which is the
 problem's source, and the site's remark credit Hajnal and Komjáth with the
 consistency of the statement: it holds in some model of ZFC, so ZFC does not
-refute it, which the site labels NOT DISPROVABLE. The scope and the model of the
-consistency theorem are stated below from a secondary source. The statement is
-not known to be a theorem of ZFC.
+refute it, which the site labeled NOT DISPROVABLE. The scope and the model of
+the consistency theorem are stated below from a secondary source. The statement
+is not known to be a theorem of ZFC.
 
 **Covers.** One side of an independence result: the statement holds in a model
 of ZFC, so ZFC does not refute it. The other side, that ZFC does not prove the
@@ -77,7 +77,7 @@ can be split into $\lambda$ classes so that every partition of the vertices into
 fewer than $\kappa$ classes has a class containing an edge of every edge class.
 
 **Acceptance.** Refereed: a journal paper in Combinatorica. Reviewed: the
-curator of erdosproblems.com, T. F. Bloom, labels the problem NOT DISPROVABLE,
+curator of erdosproblems.com, T. F. Bloom, labeled the problem NOT DISPROVABLE,
 and the page's remark credits Hajnal and Komjáth with the consistency (problem
 page last edited 24 January 2026). A thread comment of 18 March 2026 asked for
 the label. The formal-conjectures statement file `erdos_1176` carries the same

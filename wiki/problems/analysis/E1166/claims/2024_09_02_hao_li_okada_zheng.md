@@ -84,7 +84,7 @@ including $F(0)$ changes the count by at most one.
 12 November 2025. The second is P. Erdős and S. J. Taylor, *Some problems
 concerning the structure of random walk paths*, Acta Math. Acad. Sci. Hungar. 11
 (1960), 137–162. The deduction itself is unpublished, so `refereed` is not
-listed. The site's curator, Thomas F. Bloom, states the deduction and marks the
+listed. The site's curator, Thomas F. Bloom, states the deduction and marked the
 problem proved. However, Bloom credits the eventual bound to Tóth rather than to
 this claimant, so no `reviewed` evidence is listed and the claim stays claimed.
 An independent Lean proof of the deduction is recorded on

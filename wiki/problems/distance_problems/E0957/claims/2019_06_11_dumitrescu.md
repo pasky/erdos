@@ -61,7 +61,7 @@ paper is carded at
 [[../library/distance_problems/dumitrescu_2019_product_inequality_extreme_distances/_index|dumitrescu_2019_product_inequality_extreme_distances]].
 
 **Acceptance.** The result is refereed: it appeared in Computational Geometry,
-after the SoCG 2019 proceedings. The site's curator, Thomas Bloom, marks the
+after the SoCG 2019 proceedings. The site's curator, Thomas Bloom, marked the
 problem PROVED and credits Dumitrescu's theorem on the problem page. The curator
 neither wrote nor submitted the result. This corpus has not reviewed the proof,
 and the standing recorded here does not need such a review. The site makes

@@ -74,7 +74,7 @@ Chatgpt Sol 5.6" as the AI used:
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Claimed. The write-up says it is new and not peer reviewed; the
-site's label is FALSIFIABLE. The claim carries three comments. Marco Del Pin
+site's label was FALSIFIABLE. The claim carries three comments. Marco Del Pin
 (23 July 2026; also issue 1 of the repository) reports an independent,
 AI-assisted verification with human review of the method and results: the
 checkers rebuilt from source, the ten $16$-vertex instances regenerated and

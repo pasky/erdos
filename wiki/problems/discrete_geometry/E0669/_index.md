@@ -28,8 +28,8 @@ through exactly $k$ points.
 Estimate $f_k(n)$ and $F_k(n)$ - in particular, determine $\lim F_k(n)/n^2$ and
 $\lim f_k(n)/n^2$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 27 December
-2025). The accepted partial claims on
+**Status.** Open. The site labeled the problem OPEN (page last edited 27
+December 2025). The accepted partial claims on
 [[problems/discrete_geometry/E0669/claims/1974_02_01_burr_grunbaum_sloane|Burr, Grünbaum and Sloane's construction]]
 and
 [[problems/discrete_geometry/E0669/claims/2012_08_23_green_tao|Green and Tao's exact bound]]

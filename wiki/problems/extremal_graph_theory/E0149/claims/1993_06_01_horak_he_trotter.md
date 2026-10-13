@@ -61,8 +61,8 @@ instance.
 **Acceptance.** Refereed: Journal of Graph Theory. The Crossref record gives
 volume 17, issue 2, pp. 151--160, with the issue dated June 1993. This page's
 date uses the issue's nominal first day. The site's curator credits the result
-in the problem's commentary. The site labels the problem OPEN, so the commentary
-is not listed as review. Read depth: the Theorem, the abstract and the paragraph
-after the Theorem were checked clause by clause, in the author's copy on
-Trotter's publication page. The proof (pp. 152--160) was not checked, so nothing
-is independently reviewed in this repository.
+in the problem's commentary. The site labeled the problem OPEN, so the
+commentary is not listed as review. Read depth: the Theorem, the abstract and
+the paragraph after the Theorem were checked clause by clause, in the author's
+copy on Trotter's publication page. The proof (pp. 152--160) was not checked, so
+nothing is independently reviewed in this repository.

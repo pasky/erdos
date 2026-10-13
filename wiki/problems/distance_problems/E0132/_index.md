@@ -71,7 +71,7 @@ counterexample at $n=4$ is recorded by the curator, by [CDL25] and in [ErFi95]
 itself; it settles no instance of the corrected Statement and counts for
 nothing. The problem's standing judges the corrected Statement.
 
-**Status.** Open. The site labels the problem OPEN. Its commentary states the
+**Status.** Open. The site labeled the problem OPEN. Its commentary states the
 first question for $n\geq5$, as the corrected Statement does.
 
 **Source.** [erdosproblems.com/132](https://www.erdosproblems.com/132), accessed
@@ -128,7 +128,7 @@ no resolution of these two rare-distance questions was identified. This
 is a scoped search, not proof that no later result exists.
 
 **Proof claims.** The standing is derived from the claim pages in `claims/`:
-every claim is partial, so the problem stays open, and the site's label is
+every claim is partial, so the problem stays open, and the site's label was
 OPEN. Two accepted partial claims rest on refereed publications: Erdős and
 Fishburn's cases $n=5$ and $n=6$ [ErFi95], on
 [[problems/distance_problems/E0132/claims/1995_06_01_erdos_fishburn|their page]],

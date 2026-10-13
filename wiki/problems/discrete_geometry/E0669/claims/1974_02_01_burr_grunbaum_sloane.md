@@ -51,5 +51,5 @@ $k\ge4$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in *Geometriae Dedicata*. The
-site labels the problem OPEN, so its remark crediting the paper is not
+site labeled the problem OPEN, so its remark crediting the paper is not
 acceptance.

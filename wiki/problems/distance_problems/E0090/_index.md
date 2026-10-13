@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Does every set of $n$ distinct points in $\mathbb{R}^2$ contain
 at most $n^{1+O(1/\log\log n)}$ many pairs which are distance 1 apart?
 
-**Status.** Disproved. The site's export of 2026-09-04 labels the problem
+**Status.** Disproved. The site's export of 2026-09-04 labeled the problem
 "DISPROVED (LEAN)" (page last edited 20 May 2026). The corpus has built none of
 the Lean developments behind the Lean marker (see "Formalization and the Lean
 label" below).
@@ -235,7 +235,7 @@ it has no claim page here.
 
 ## Formalization and the Lean label
 
-The site's export of 2026-09-04 labels the problem "DISPROVED (LEAN)". The
+The site's export of 2026-09-04 labeled the problem "DISPROVED (LEAN)". The
 developments below are described from their repositories' text at the commits
 their links pin. The corpus has built, kernel-checked or audited none of them,
 so none gives `formalized` evidence.

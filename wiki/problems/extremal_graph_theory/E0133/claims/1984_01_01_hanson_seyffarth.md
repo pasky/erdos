@@ -84,7 +84,7 @@ problem points to this declaration as its formal proof (see the problem
 page). The corpus has not built, kernel-checked or audited the file, so the
 evidence stays `reviewed` only.
 
-**Acceptance.** The site's curator, Thomas Bloom, marks the problem DISPROVED.
+**Acceptance.** The site's curator, Thomas Bloom, marked the problem DISPROVED.
 In the commentary the curator credits the bound to Hanson and Seyffarth under
 the reference [HaSe84]. That credit is the `reviewed` evidence, and Bloom took
 no part in the paper. The bound refutes the conjecture $f(n)/\sqrt n\to\infty$

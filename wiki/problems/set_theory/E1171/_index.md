@@ -27,7 +27,7 @@ $$
 \omega_1^2\to (\omega_1\omega, 3,\ldots,3)_{k+1}^2?
 $$
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE. Its label note
+**Status.** Open. The site labeled the problem NOT DISPROVABLE. Its label note
 says the question is open in general and holds in some models of set theory. The
 accepted partial claim
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner's partition ordinal under Martin's axiom]]
@@ -119,7 +119,7 @@ $\mathrm{MA}_{\aleph_1}$, Martin's axiom for $\aleph_1$ dense sets, which is
 consistent relative to ZFC [SoTe71], so ZFC does not refute it. That is one side
 of an independence result; the other side, a model in which the relation fails,
 is not known for $k\ge3$, and for $k\le2$ the relation is a theorem of ZFC. The
-site labels the problem not disprovable: its label and the community database
+site labeled the problem not disprovable: its label and the community database
 changed from open to not disprovable on 5 September 2026, after a comment in the
 discussion thread asked for the change on the strength of the deposit [Ga26].
 The author withdrew the deposit on 1 October 2026 and the site's proof-claims

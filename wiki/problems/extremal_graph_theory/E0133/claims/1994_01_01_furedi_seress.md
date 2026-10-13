@@ -63,7 +63,7 @@ determined by any source read; the problem does not ask for it.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in the Journal of Graph Theory, cited with
-its venue above. The site's curator, Thomas Bloom, marks the problem DISPROVED.
+its venue above. The site's curator, Thomas Bloom, marked the problem DISPROVED.
 In the commentary the curator credits the bound to Füredi and Seress under the
 reference [FuSe94]. That credit is the `reviewed` evidence, and Bloom took no
 part in the paper. No independent review of the argument was made here. No proof

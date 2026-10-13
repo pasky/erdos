@@ -43,7 +43,7 @@ progression whose difference is larger than its first term." The site's
 quotation "perhaps this is easy or false" is not on that page and is
 presumably from the second source key [Er95c], not held.
 
-**Status.** The site labels the problem PROVED (LEAN), a label it explains as a
+**Status.** The site labeled the problem PROVED (LEAN), a label it explains as a
 positive solution whose proof has been checked in Lean. The question is proved.
 The claim pages
 [[problems/ramsey_theory/E0645/claims/1999_08_01_brown_landman|Brown and Landman 1999]]

@@ -77,7 +77,7 @@ passage. The Lean file states the problem's form directly, for a finite set of
 $2^d+1$ points of $d$-dimensional Euclidean space, and contains no `sorry`;
 this corpus has not built or audited it.
 
-**Formalization.** The site's label carries a Lean qualification. The
+**Formalization.** The site's label carried a Lean qualification. The
 formal-conjectures statement of the problem marks it solved and points to a
 Lean 4 proof in the repository `plby/lean-proofs`, linked above at a pinned
 commit. That file declares itself a formalization of a solution to the
@@ -95,7 +95,7 @@ evidence of acceptance.
 
 **Acceptance.** The paper is refereed: L. Danzer and B. Grünbaum, Über zwei
 Probleme bezüglich konvexer Körper von P. Erdös und von V. L. Klee, Math. Z. 79
-(1962), 95–99. The curator of erdosproblems.com, Thomas Bloom, labels the
+(1962), 95–99. The curator of erdosproblems.com, Thomas Bloom, labeled the
 problem proved and credits this paper for the general case. The record gives the
 publication month, December 1962, but no day, so the page is dated to the first
 of that month.

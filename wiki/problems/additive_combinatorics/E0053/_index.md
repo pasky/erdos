@@ -58,7 +58,7 @@ https://www.erdosproblems.com/53.
 - [ErSz83] Erdős, P. and Szemerédi, E., On sums and products of integers.
   Studies in pure mathematics (1983), 213-218.
 
-**Formalization.** The Lean qualification in the site's label is a catalog
+**Formalization.** The Lean qualification in the site's label was a catalog
 label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/53.lean),
 over `Finset ℤ`; at its commit of 2026-10-06, the one linked, the file is tagged

@@ -64,9 +64,9 @@ holds with $c_4=4/3$. The cases $k\ge5$ are the subject of
 
 **Acceptance.** The paper was posted to arXiv on 6 June 2023 and published in
 Annals of Mathematics (2) **199** (2024), no. 2, 919–941. The site's curator,
-Thomas Bloom, marks the problem solved and credits the case $k=4$ to this bound,
-as the site's problem page, last edited 25 July 2026, records. This corpus has
-not reviewed the proof.
+Thomas Bloom, marked the problem solved and credits the case $k=4$ to this
+bound, as the site's problem page, last edited 25 July 2026, records. This
+corpus has not reviewed the proof.
 
 Third-party Lean formalizations exist in Boris Alexeev's `lean-proofs`
 repository, linked above, with Codex and GPT-5.6 Sol as formal authors.

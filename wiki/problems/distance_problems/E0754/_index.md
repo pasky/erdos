@@ -28,8 +28,8 @@ $A$ equidistant from $x$.
 
 Is it true that $f(n)\leq \frac{n}{2}+O(1)$?
 
-**Status.** Proved. The site marks the problem proved and credits Swanepoel's
-bound on favorite distances in four dimensions. The label is PROVED in the
+**Status.** Proved. The site marked the problem proved and credits Swanepoel's
+bound on favorite distances in four dimensions. The label was PROVED in the
 site's export of 2026-09-04, and the community database records proved (Lean).
 See the
 [[problems/distance_problems/E0754/claims/2011_08_24_swanepoel|claim page]].

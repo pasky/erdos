@@ -59,7 +59,7 @@ of the library's
 The same question is settled again, with a larger lower bound, on the page
 [[problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov|Tikhomirov 2022]].
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 DISPROVED. In the problem's commentary the curator credits Rödl and Szemerédi
 with the disproof for $d=3$ (page last edited 18 January 2026, accessed
 2026-09-17). The curator is independent of the authors. Refereed: On size Ramsey

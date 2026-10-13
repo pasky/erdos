@@ -80,7 +80,7 @@ Trans. Amer. Math. Soc. 103 (1962), claim page
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
 The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com. Its page for the problem (the `discussion` link) carries the
+erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Kesten and Sós with the proof
 that the limit exists, and notes that their argument gives no way to compute it.
 The page was accessed and shows no last-edited date. No independent check of the

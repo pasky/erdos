@@ -44,7 +44,7 @@ question $f(m)\le\sqrt m$, which has a negative answer (below). The site's
 header key is [Er95c, p. 5], with [ErSu59], [Er78], [Er86c] and [VLT26]
 cited in the commentary.
 
-**Status.** The site's label is Solved, and it attaches to the estimate
+**Status.** The site's label was Solved, and it attaches to the estimate
 $f(m)=\min(m,\lceil2\sqrt m\rceil)$ for every $m\ge1$, and
 $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (van Doorn, Li and Tang, Theorem 2.1 and
 Remark 2.2, arXiv:2603.28636v1, 30 March 2026). Consequently the displayed
@@ -65,7 +65,7 @@ exposition human-written. The site's commentary credits the upper bound to GPT
 5.4 Pro, prompted by He, Li and Tang, and the lower bound to GPT 5.4 Pro and
 Aristotle, before citing the paper. The classical bounds are Erdős and Surányi's
 $f(m)\ge\sqrt m$ (1959) and Erdős and Selfridge's $f(k^2)\le2k$, hence
-$f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The site's label carries the
+$f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The site's label carried the
 suffix (Lean), a catalog label explained under Formalization and the Lean label,
 and no local kernel credit is claimed.
 
@@ -139,7 +139,7 @@ solved` with `sorry` and no attribute. The community database, lists the problem
 as "solved (Lean)" with a last update of 6 March 2026, `formal_status` Lean, the
 statement as formalized with a last update of 4 August 2026, no formal-proof URL
 and OEIS A027434; those dates are when the entries were last updated, not
-necessarily when the states changed. The (LEAN) suffix of the site's label is a
+necessarily when the states changed. The (LEAN) suffix of the site's label was a
 catalog label; the external file it refers to is described under "Formalization
 and the Lean label" below, and this corpus has not built it.
 
@@ -275,7 +275,7 @@ theorem, not by search); the thread reports a model's direct computation
 agreeing for $4\le m\le9$ with $f(m)=m$ for $m=1,2,3$.
 
 **Formalization and the Lean label.** The (LEAN) suffix of the site's label
-is a catalog label. The formal-conjectures file at the pinned commit is a
+was a catalog label. The formal-conjectures file at the pinned commit is a
 statement with `sorry` bodies whose `formal_proof` attribute names
 `ErdosProblem650.lean` in `Woett/Lean-files` on its `main` branch, not a
 fixed commit. That file, last changed on 31 March 2026, is described here at

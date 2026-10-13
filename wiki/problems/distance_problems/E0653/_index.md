@@ -36,11 +36,11 @@ true that $g(n) \geq (1-o(1))n$?
 Lean proof certified by the bounty site Conjectures.io after its kernel check
 and review. That proof is the accepted claim on
 [[problems/distance_problems/E0653/claims/2026_09_15_gus|gus's claim page]]. The
-site has not credited it. The erdosproblems.com page labels the problem open
-(2026-10-07). It records the literature bounds $g(n)>\tfrac{7}{10}n$ and
-$g(n)<n-cn^{2/3}$. Its proof-claims tab carries two entries: a full claim
-through a Lean proof certified by Conjectures.io, and a partial-result entry
-through a Zenodo preprint.
+site has not credited it. The erdosproblems.com page labeled the problem open.
+It records the literature bounds $g(n)>\tfrac{7}{10}n$ and $g(n)<n-cn^{2/3}$.
+Its proof-claims tab carries two entries: a full claim through a Lean proof
+certified by Conjectures.io, and a partial-result entry through a Zenodo
+preprint.
 
 **Source.** [erdosproblems.com/653](https://www.erdosproblems.com/653), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #653,

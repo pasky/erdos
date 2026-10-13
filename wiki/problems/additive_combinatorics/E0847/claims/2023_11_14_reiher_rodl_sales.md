@@ -70,7 +70,7 @@ Paper No. e12987, 24 pp., doi:10.1112/jlms.12987, published online 2024-10-10
 (Crossref record of 2026-10-07). The preprint arXiv:2311.08556 was posted on
 2023-11-14, the date of this page.
 
-Reviewed: the site's curator, Thomas Bloom, labels the problem disproved and
+Reviewed: the site's curator, Thomas Bloom, labeled the problem disproved and
 credits the negative answer to Reiher, Rödl and Sales [RRS24] (page last edited
 2026-01-27; on 2026-10-07 the proof-claim tab is empty). The site's thread
 records how the label came about. A comment of 2026-01-19 reported a response of

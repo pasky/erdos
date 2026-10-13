@@ -118,7 +118,7 @@ Shah, Tang and Tao (arXiv:2605.00301v1), whose card is
 credits the sharper bound to Nat Sothanaphan, using GPT, as an analysis of a
 variant of the paper's argument, and its footnote links the note of 21 April
 2026; the paper's Remark 4.2 gives Tao's alternate Markov chain proof with the
-weaker constant $2\gamma$. The site's curator labels the problem proved,
+weaker constant $2\gamma$. The site's curator labeled the problem proved,
 credits the solution to GPT-5.4 Pro prompted by Price, and points to the
 comment section for further refinements without crediting them to anyone, so
 no reviewer is named for this claim and it stays claimed.

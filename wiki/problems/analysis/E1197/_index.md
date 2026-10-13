@@ -43,7 +43,7 @@ https://www.erdosproblems.com/1197.
   $\sum^\infty_{n=1}f(nx)$ for measurable functions. Mathematika (1999),
   337-341.
 
-**Formalization.** The site's label carries the suffix "(LEAN)", a catalog
+**Formalization.** The site's label carried the suffix "(LEAN)", a catalog
 label; this corpus has built none of the Lean developments. Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1197.lean),
 pinned to its revision of 2026-10-07 (the file was added on 20 September 2026).

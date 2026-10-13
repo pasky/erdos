@@ -57,8 +57,8 @@ proved because the result proves a bound.
 **Standing.** Claimed. The result exists only as the site's commentary: no
 written source by Adenwalla states it, and it has no arXiv version, no
 journal record, no formalization and no independent review. The commentary
-credits it to Adenwalla, but the site labels the problem OPEN (no
-last-edited stamp; OPEN on 2026-10-07) and lists no parts, so the credit is
+credits it to Adenwalla, but the site labeled the problem OPEN (no
+last-edited stamp) and lists no parts, so the credit is
 not an acceptance and no `reviewed` evidence is listed. Croot's theorem
 itself is refereed, but the deduction is not published. The claim is dated
 by the earliest archived copy of the site's page that carries the remark,

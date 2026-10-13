@@ -56,7 +56,7 @@ Combinatorial Theory 9 (1970), no. 3, October 1970, per the Crossref record);
 the day in the page name is a placeholder. The paper was received in August
 1968 (p. 225).
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 DISPROVED. In the problem's commentary, the curator credits Reid and Parker with
 the negative answer for every $n\ge14$ (page last edited 12 April 2026). The
 curator neither submitted nor co-wrote the result and is independent of the

@@ -45,7 +45,7 @@ site attributes the question to that paper.
 **Acceptance.** Refereed publication: Combinatorica 3 (1983), no. 1, 133--134,
 doi:10.1007/BF02579349. The Crossref record dates the issue to March 1983
 without a day, so the page takes the first of that month as its date. The site's
-curator, T. F. Bloom, labels the problem PROVED and credits [Th83], which the
+curator, T. F. Bloom, labeled the problem PROVED and credits [Th83], which the
 page lists as `reviewed`. The reference was supplied in the site's discussion
 thread on 30 September 2025. The thread quotes the paper's note that Erdős had
 informed Thomassen of a settlement of the question by Hajnal. No publication of

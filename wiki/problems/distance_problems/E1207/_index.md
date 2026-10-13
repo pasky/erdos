@@ -32,7 +32,7 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Open. The site's label is OPEN (page last edited 7 September 2026).
+**Status.** Open. The site's label was OPEN (page last edited 7 September 2026).
 Its remark of that date credits [LPZ26] with answering the particular question.
 The remark keeps the problem open for the general estimate of $P_d(n)$.
 
@@ -58,7 +58,7 @@ https://www.erdosproblems.com/1207.
 The site's formulation asks for estimates of $P_d(n)$,
 the size of an isosceles-free subset that every set of $n$ points in
 $\mathbb{R}^d$ is guaranteed to contain, and in particular whether
-$P_2(n)<n^{1-c}$ for some $c>0$. The site's label is OPEN.
+$P_2(n)<n^{1-c}$ for some $c>0$. The site's label was OPEN.
 
 **Known bounds.** By the site's remarks, Erdős [Er80] attributes the problem
 to Riddell and notes that $P_d(n)>n^{\epsilon_d}$ with $\epsilon_d\to 0$ as

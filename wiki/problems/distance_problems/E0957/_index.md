@@ -29,7 +29,7 @@ $$
 f(d_1)f(d_k) \leq (\tfrac{9}{8}+o(1))n^2?
 $$
 
-**Status.** Proved. The site marks the problem proved and credits
+**Status.** Proved. The site marked the problem proved and credits
 Dumitrescu's product inequality; see the
 [[problems/distance_problems/E0957/claims/2019_06_11_dumitrescu|claim page]].
 

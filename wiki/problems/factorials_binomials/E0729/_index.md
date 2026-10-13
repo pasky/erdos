@@ -31,7 +31,7 @@ $$
 
 contains only primes $\ll_C 1$?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 11 January 2026). The standing in the frontmatter derives from the claim
 page. The site credits Barreto and Leeham, using ChatGPT and Aristotle, for an
 affirmative proof that modifies the argument used for Problem 728. The result is

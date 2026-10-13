@@ -61,6 +61,6 @@ so the problem as posed, is not addressed.
 
 **Acceptance.** Refereed: Acta Arith. 83 (1998), no. 4, 331--361, a refereed
 journal. The site's commentary names Baker and Harman only for the exponent that
-Lichtman improved, and it labels the problem OPEN (page last edited 1 October
+Lichtman improved, and it labeled the problem OPEN (page last edited 1 October
 2025). So no `reviewed` evidence is listed. The journal volume gives the year
 1998 and no month or day, so the page's date carries the first day of that year.

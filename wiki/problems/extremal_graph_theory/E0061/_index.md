@@ -25,7 +25,7 @@ updated: 2026-10-07T21:38:27Z
 $G$ on $n$ vertices that does not contain $H$ as an induced subgraph contains
 either a complete graph or independent set on $\geq n^c$ vertices?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
 2026). The frontmatter standing is derived from the seven claim pages under
 `claims/`, all partial. None settles the question for every $H$, so the standing
 is open.

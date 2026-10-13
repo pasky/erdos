@@ -24,7 +24,7 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Does there exist, for every $\alpha \in [0,1]$, a ring or field
 in $\mathbb{R}$ with Hausdorff dimension $\alpha$?
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE. It credits the
+**Status.** Open. The site labeled the problem NOT DISPROVABLE. It credits the
 label to Mauldin's theorem that, assuming the continuum hypothesis, every
 $\alpha \in [0,1]$ is the Hausdorff dimension of a subfield of $\mathbb{R}$. So
 ZFC cannot refute the existence asked about unless ZFC is inconsistent. The

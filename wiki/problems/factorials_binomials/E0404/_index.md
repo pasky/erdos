@@ -35,7 +35,7 @@ Is there a prime $p$ and an infinite sequence $a_1<a_2<\cdots$ such that if
 $p^{m_k}$ is the highest power of $p$ dividing $\sum_{i\leq k}a_i!$ then $m_k\to
 \infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 29
+**Status.** Open. The site labeled the problem OPEN (page last edited 29
 September 2025). The standing in the frontmatter derives from the claim pages.
 The site credits Lin [Li76] with $f(2,2)\le254$, a pending partial claim on
 [[problems/factorials_binomials/E0404/claims/1976_01_01_lin|its claim page]].

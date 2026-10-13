@@ -24,7 +24,7 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Is there a sequence $1\leq d_1<d_2<\cdots$ with density $1$ such
 that all products $\prod_{u\leq i\leq v}d_i$ are distinct?
 
-**Status.** Solved: the answer is yes. The site labels the problem SOLVED (page
+**Status.** Solved: the answer is yes. The site labeled the problem SOLVED (page
 last edited 1 September 2026). The site's curator records the answer as yes. The
 curator describes its provenance as an approach sketched by Tao and fleshed out
 by Chojecki, full proofs claimed from GPT by several people independently, and

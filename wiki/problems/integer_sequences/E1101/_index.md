@@ -40,7 +40,7 @@ $$
 Is there a good sequence such that $u_n< n^{O(1)}$? Is there a good sequence
 such that $u_n\leq e^{o(n)}$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 19 October
+**Status.** Open. The site labeled the problem OPEN (page last edited 19 October
 2025). Its two questions are the problem's two parts. Erdős expected the first
 to have a negative answer and the second a positive one. The second asks whether
 some good sequence has $u_n\leq e^{o(n)}$. It has one pending partial claim,

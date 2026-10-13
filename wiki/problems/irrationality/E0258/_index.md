@@ -30,7 +30,7 @@ $$
 
 irrational, where $\tau(n)$ is the number of divisors of $n$?
 
-**Status.** Proved. The catalog labels the problem PROVED (LEAN) (page last
+**Status.** Proved. The catalog labeled the problem PROVED (LEAN) (page last
 edited 28 May 2026). It says the proof was verified in Lean and credits Chojecki
 and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from the
 catalog. The frontmatter standing derives from the

@@ -56,10 +56,10 @@ untouched by this construction and stays open on the problem page.
 the counterexample and its open window on p. 2 of their refereed paper in J.
 Graph Theory 102 (2023), 262--270. The site's own commentary records this paper
 as a disproof for the case of $K_{2r}$-free graphs, that is, of part (i). The
-site's label stays OPEN, which the problem page reads as leaving part (ii) open.
-The theorem is stated from the preprint. The published article is not held, so
-its theorem numbering is unchecked. The proof is not independently checked in
-this corpus. The source card is
+site's label stayed OPEN, which the problem page reads as leaving part (ii)
+open. The theorem is stated from the preprint. The published article is not
+held, so its theorem numbering is unchecked. The proof is not independently
+checked in this corpus. The source card is
 [[../library/extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/_index|czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza]].
 It records the preprint and the Electron. J. Combin. article that took the
 preprint's $k$-colorable results, and it holds neither file.

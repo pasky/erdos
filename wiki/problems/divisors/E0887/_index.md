@@ -25,7 +25,7 @@ updated: 2026-10-07T20:00:46Z
 $n$ is sufficiently large then $n$ has at most $K$ divisors in
 $(n^{1/2},n^{1/2}+C n^{1/4})$.
 
-**Status.** The site labels the problem OPEN. The answer is yes for perfect
+**Status.** The site labeled the problem OPEN. The answer is yes for perfect
 squares, by
 [[problems/divisors/E0887/claims/2013_03_08_chan|Chan's bound for squares]], and
 for a class of almost squares, by
@@ -49,8 +49,8 @@ https://www.erdosproblems.com/887.
 
 ## Current assessment
 
-The site labels the problem OPEN (page last edited 10 April 2026). The answer is
-yes for perfect squares, with $K=5$
+The site labeled the problem OPEN (page last edited 10 April 2026). The answer
+is yes for perfect squares, with $K=5$
 ([[problems/divisors/E0887/claims/2013_03_08_chan|Chan 2014]]), and for the
 numbers $(N-a)(N+b)$ with $0\le a\le b\le e^{(\log n)^{2/7}}$, with $K=18$
 ([[problems/divisors/E0887/claims/2014_06_09_chan|Chan 2015]]); the general case

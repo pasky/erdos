@@ -74,7 +74,7 @@ attributes the question to Erdős and Rosenfeld, citing [Er74d], and records
 that they could not decide the case $k=6$. For $k=2$ the three perfect
 matchings of $K_4$ give such a coloring.
 
-The site's label is verifiable: a positive answer for one $k$ is a finite
+The site's label was verifiable: a positive answer for one $k$ is a finite
 object checked by a finite computation, while a negative answer would need an
 argument for every $k$. The problem is open, and the known partial results
 all exclude values of $k$:

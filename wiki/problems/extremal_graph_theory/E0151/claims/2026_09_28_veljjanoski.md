@@ -150,6 +150,6 @@ Radziszowski's dynamic survey.
 **Standing.** Claimed. The write-up says it was checked by referee passes of an
 AI system, Claude (Anthropic) as the tab names it, and by computer checks of
 its lemmas on small graphs, not by a human referee; no outside review is known,
-the site's label is unchanged (OPEN), and no step of the argument has been
+the site's label was unchanged (OPEN), and no step of the argument has been
 checked. A partial claim derives nothing for the problem's standing, which
 stays open.

@@ -29,7 +29,7 @@ X$ we have $f(x,y)\not\in X$.
 Let $g(n)$ be such that, in every function $f$, there is an independent set of
 size at least $g(n)$. Estimate $g(n)$.
 
-**Status.** The site labels the problem SOLVED (LEAN). The community database
+**Status.** The site labeled the problem SOLVED (LEAN). The community database
 has recorded the Lean qualification since 2026-09-15. The site credits Spencer
 [Sp72] with $g(n)\gg n^{1/2}$ and Conlon, Fox and Sudakov [CFS16] with
 $g(n)\ll n^{1/2}$, so $g(n)\asymp n^{1/2}$.

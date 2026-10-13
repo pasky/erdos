@@ -78,7 +78,7 @@ on ordinary lines, and a dual argument on great circles of a sphere.
 
 **Acceptance.** The paper is refereed. It appeared in Discrete and Computational
 Geometry, volume 39 (2008), after the SCG '07 proceedings version. The site's
-curator, Thomas Bloom, labels the problem solved and credits Ackerman, Buchin,
+curator, Thomas Bloom, labeled the problem solved and credits Ackerman, Buchin,
 Knauer, Pinchasi and Rote.
 
 **Formalization.** Boris Alexeev's repository of Lean proofs of Erdős

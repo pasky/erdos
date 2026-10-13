@@ -29,7 +29,7 @@ $$
 \lvert \mathcal{F}\rvert \leq \frac{1}{2}\left(\binom{4n}{2n}-\binom{2n}{n}^2\right).
 $$
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Ahlswede and
+**Status.** The site labeled the problem PROVED (LEAN), crediting Ahlswede and
 Khachatrian [AhKh97]. The accepted claim is
 [[problems/set_systems/E0083/claims/1997_02_01_ahlswede_khachatrian|the 4m-conjecture from the complete intersection theorem]].
 The Lean behind the qualifier is described below.

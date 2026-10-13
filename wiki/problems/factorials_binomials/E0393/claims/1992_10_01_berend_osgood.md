@@ -53,7 +53,7 @@ unconditionally.
 
 **Acceptance.** Refereed: the Journal of Number Theory, volume 42, issue 2
 (October 1992), pp. 189--193; the Crossref record of the DOI gives these data.
-The site labels the problem OPEN, so its remark crediting the result is
+The site labeled the problem OPEN, so its remark crediting the result is
 commentary on an open problem and not acceptance, and no `reviewed` evidence is
 listed. The proof is not checked here.
 

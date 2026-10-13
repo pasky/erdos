@@ -32,7 +32,7 @@ $$
 is irrational. Is $a_n=2^{2^n}$ such a sequence? Must such a sequence satisfy
 $a_n^{1/n}\to \infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
+**Status.** Open. The site labeled the problem OPEN (page last edited
 2026-04-02). The problem asks two questions, which are its two parts. The first,
 whether $a_n=2^{2^n}$ is such a sequence, has no claim. The second asks whether
 an irrationality sequence of this kind must satisfy $a_n^{1/n}\to\infty$. It has
@@ -103,7 +103,7 @@ Claude Opus 4.7: a strictly increasing sequence, built from blocks of
 consecutive integers, that is an irrationality sequence in the problem's sense
 yet has $\liminf a_n^{1/n}=1$. Nat Sothanaphan replied the same day that a
 standard check found no issues and that the Lean matched the paper; that is a
-forum remark, not acceptance, and the site's label is OPEN. The claim page
+forum remark, not acceptance, and the site's label was OPEN. The claim page
 [[problems/irrationality/E0263/claims/2026_05_09_price|records the posting]].
 
 Three forum proof claims by T. Alexander Lystad, posted on

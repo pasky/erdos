@@ -92,7 +92,7 @@ fixed $k\ge2$, proved in a Lean development that its author reports as
 sorry-free on the standard axioms and that the formal-conjectures project links
 as the formal proof of both parts
 ([[problems/diophantine_problems/E0394/claims/2026_07_15_snyder|claim page]]);
-the site's label is unchanged and nothing was built here. Pickhardt's partial
+the site's label was unchanged and nothing was built here. Pickhardt's partial
 claim of 2026-07-22, written with the Omniscience Research Agent (called the
 Paratelligent Research Agent on the paper), claims to prove
 $\sum_{n\le x}t_2(n)\gg x^2/((\log x)^{1/2}\log\log x)$, which would leave no

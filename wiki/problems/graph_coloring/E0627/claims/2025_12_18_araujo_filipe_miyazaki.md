@@ -64,8 +64,8 @@ page. The argument was not checked here.
 **Acceptance.** None: the note is not refereed (Crossref lists no journal
 version), and no outside reviewer has endorsed it. The site's commentary (page
 last edited 8 February 2026) describes the conditional theorem and the improved
-constant. But the site labels the problem OPEN, so the commentary is context and
-not acceptance. The discussion thread's one post, of 19 December 2025, points to
-the note and its corrected constants.
+constant. But the site labeled the problem OPEN, so the commentary is context
+and not acceptance. The discussion thread's one post, of 19 December 2025,
+points to the note and its corrected constants.
 
 **Depends on.** No page of this wiki.

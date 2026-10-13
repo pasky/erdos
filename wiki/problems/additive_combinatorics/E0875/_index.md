@@ -45,7 +45,7 @@ bounds below, the necessary $c\ge1$ holds in either reading, while the
 sufficient exponents are for all large $n$). The site quotes Erdős (1998) on the
 related property $a_{n+1}/a_n\to1$.
 
-**Status.** Open. The site's label is OPEN (on 2026-09-18 and on 2026-10-06).
+**Status.** Open. The site's label was OPEN (on 2026-09-18 and on 2026-10-06).
 
 The primary sources give the following, each with the page it comes from. Every
 infinite admissible $A$ has $A(x)\le2\sqrt{x+1/4}-1$ for $x\ge N_0$, by Theorem
@@ -160,7 +160,7 @@ pointwise bound, and remarks that the note's abbreviations for the paper
 and for the gap question are not standard; on 9 May 2026 the poster reports
 the formalization fixed to state the all-index pointwise bound; the three
 remaining comments (8--11 May 2026) discuss the tooling and are not
-mathematical. No comment is by the site's maintainer; the label is OPEN.
+mathematical. No comment is by the site's maintainer; the label was OPEN.
 
 **What the primary sources give.** Three statements from refereed papers
 and two one-line deductions made on this page.

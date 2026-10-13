@@ -26,7 +26,7 @@ updated: 2026-10-08T00:44:25Z
 are distance $1$ apart. Must the complement of $S$ contain four points which
 form a unit square?
 
-**Status.** Proved. The site's label is PROVED (LEAN). Juhász's 1979 theorem
+**Status.** Proved. The site's label was PROVED (LEAN). Juhász's 1979 theorem
 gives the stronger conclusion that the complement contains a congruent copy of
 every prescribed four-point set. The theorem is recorded in `claims/` as an
 accepted claim, from which the problem's standing derives. The site's Lean

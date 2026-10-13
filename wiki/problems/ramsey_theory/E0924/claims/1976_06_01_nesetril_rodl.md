@@ -47,12 +47,12 @@ graphs with forbidden complete subgraphs, J. Combin. Theory Ser. B 20 (1976),
 no. 3, 243--249. The publisher's record dates the issue June 1976, which this
 page is named by, and the day is a placeholder. Reviewed: the site's curator, T.
 F. Bloom, credits the theorem with the general case in the problem's commentary,
-on a page the site labels PROVED. Spencer's refereed 1975 paper states it in its
-introduction (printed p. 278) as the full generalization of Folkman's theorem.
-Erdős's 1975 report credits Nešetřil and Rödl with the answer for every number
-of colors, when their paper was still unpublished. Semantic Scholar's citation
-list records no dispute in the first hundred records (1986 to 2026, scanned by
-title).
+on a page the site labeled PROVED. Spencer's refereed 1975 paper states it in
+its introduction (printed p. 278) as the full generalization of Folkman's
+theorem. Erdős's 1975 report credits Nešetřil and Rödl with the answer for every
+number of colors, when their paper was still unpublished. Semantic Scholar's
+citation list records no dispute in the first hundred records (1986 to 2026,
+scanned by title).
 
 **Read depth.** The paper is not held; no open copy was found on
 2026-09-18. The statement above is quoted second-hand from Spencer's

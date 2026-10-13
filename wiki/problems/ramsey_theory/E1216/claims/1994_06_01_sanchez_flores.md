@@ -53,7 +53,7 @@ attributes the bound in the form $F(n)\ge\lfloor\log_2(n/55)\rfloor+7$ to the
 (Graphs and Combinatorics 10, no. 2--4, June 1994, per Crossref); the day in
 the page name is a placeholder.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 DISPROVED. In the problem's commentary, the curator credits Sánchez-Flores
 [Sa94] with the bound $f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$ for $n\ge55$
 (page last edited 12 April 2026). The curator is independent of the author.

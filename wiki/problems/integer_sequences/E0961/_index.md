@@ -41,7 +41,7 @@ essentially equivalent to Problem 683, the site's problem on the largest
 prime factor of a binomial coefficient; the equivalence is the site's
 remark and is not made precise here.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 3 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 3 April
 2026). No source determines the order of $f(k)$. What is in hand is a two-sided
 bound with a large gap.
 

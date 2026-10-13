@@ -41,6 +41,6 @@ $1/3$.
 
 **Standing.** Claimed: the paper states the result without proof, so it is
 not listed as refereed. The site credits the result to Erdős and Szemerédi on
-a problem it labels OPEN; that credit is commentary, not acceptance.
+a problem it labeled OPEN; that credit is commentary, not acceptance.
 
 **Depends on.** No page of this wiki.

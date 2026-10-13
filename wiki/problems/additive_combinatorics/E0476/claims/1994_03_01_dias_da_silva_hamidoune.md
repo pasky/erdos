@@ -66,11 +66,11 @@ the statement is the case $|A|\ge2$.
 
 **Acceptance.** Refereed publication: Bulletin of the London Mathematical
 Society 26 (1994), no. 2, 140--146, issued March 1994, the date of this page
-(Crossref record). Reviewed: the site's curator (T. F. Bloom) labels the problem
-proved and credits Dias da Silva and Hamidoune with the affirmative answer,
-citing [dSHa94] (page last edited 30 September 2025). The theorem is standard in
-the literature on restricted sumsets. Alon, Nathanson and Ruzsa restated it with
-credit in 1995 and 1996
+(Crossref record). Reviewed: the site's curator (T. F. Bloom) labeled the
+problem proved and credits Dias da Silva and Hamidoune with the affirmative
+answer, citing [dSHa94] (page last edited 30 September 2025). The theorem is
+standard in the literature on restricted sumsets. Alon, Nathanson and Ruzsa
+restated it with credit in 1995 and 1996
 ([[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|their page]]),
 and Guy reported it in section C15 of his 2004 collection. The paper's printed
 Corollary 3.3 omits a $\min$ with $p$ that Theorem 3.2 carries and the proof of

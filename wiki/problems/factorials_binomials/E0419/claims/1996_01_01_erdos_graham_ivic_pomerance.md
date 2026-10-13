@@ -95,7 +95,7 @@ statement file for the problem tags `erdos_419` solved and names this file as
 its formal proof. This corpus has not built or audited the file, so the page
 lists no `formalized` evidence.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem solved and
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem solved and
 credits this paper. The page lists this as `reviewed`. The paper is P. Erdős, S.
 W. Graham, A. Ivić and C. Pomerance, On the number of divisors of $n!$, in
 Analytic Number Theory, Birkhäuser Boston (1996), 337--355. It appeared in an

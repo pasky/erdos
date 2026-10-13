@@ -70,15 +70,15 @@ paper.
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics in
 November 2020.
 
-Reviewed: erdosproblems.com labels the problem proved, credits the answer to
+Reviewed: erdosproblems.com labeled the problem proved, credits the answer to
 this paper for every $n\ge2$ and cites it as [BBMST20] (page last edited
 2026-01-23). The corpus counts this as documented independent acceptance by the
 site's curator, T. F. Bloom (erdosproblems.com).
 
-Not counted as formalized. The site's label is PROVED (LEAN). The Lean it refers
-to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs repository (added
-2026-08-21, last changed 2026-08-23; the formalization link). The file declares
-itself a formalization of a solution to Problem 228. It names Balister,
+Not counted as formalized. The site's label was PROVED (LEAN). The Lean it
+refers to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs repository
+(added 2026-08-21, last changed 2026-08-23; the formalization link). The file
+declares itself a formalization of a solution to Problem 228. It names Balister,
 Bollobás, Morris, Sahasrabudhe and Tiba as informal authors and Codex and
 GPT-5.6 Sol as formal authors. It proves `Erdos228.erdos_228`, the statement of
 the formal-conjectures file, which itself holds no proof. As a self-declared

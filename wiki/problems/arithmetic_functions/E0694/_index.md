@@ -32,7 +32,7 @@ $$
 (where the maximum is restricted to those $n$ of the form $n=\phi(m)$ for some
 $m$.)
 
-**Status.** Solved. The site's label is SOLVED (LEAN). The status-defining
+**Status.** Solved. The site's label was SOLVED (LEAN). The status-defining
 source is a five-page note whose title page credits "GPT-5.5 PRO". The note
 gives the asymptotic $(e^\gamma+o(1))\log\log x$. Its
 [[problems/arithmetic_functions/E0694/claims/2026_05_01_price|claim page]] is

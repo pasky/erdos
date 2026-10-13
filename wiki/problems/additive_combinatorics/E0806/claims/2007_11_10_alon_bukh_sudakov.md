@@ -75,8 +75,8 @@ doi:10.1007/s11856-009-0115-9. The Crossref record dates the issue to November
 which names this page.
 
 Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon, Bukh
-and Sudakov in the problem page's commentary and labels the problem PROVED
-(label as of 2026-10-07; no last-edited date). The problem's discussion thread
+and Sudakov in the problem page's commentary and labeled the problem PROVED
+(no last-edited date). The problem's discussion thread
 and proof-claim tab were empty. The community database lists the problem as
 proved as of its entry's last update of 31 August 2025; that update does not
 date any change of state. The acceptance rests on the publication and the

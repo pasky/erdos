@@ -38,7 +38,7 @@ one-term representation, $t(N)\ge2$; for $N\ge2$ no representation starts
 at $t=N$, so $t(N)\le N$. In the Erdős–Graham monograph the same quantity is
 written $k_1(n)$.
 
-**Status.** The site's label is PROVED, and it attaches to the estimate. The
+**Status.** The site's label was PROVED, and it attaches to the estimate. The
 derived standing is solved, answered rather than proved, because the question
 asks for an estimate rather than a yes or no. Liu and Sawhney (Int. Math. Res.
 Not. 2026) determine $t(N)$ up to a factor
@@ -80,7 +80,7 @@ audited by this corpus.
 ## Current assessment
 
 **The question.** On 2026-09-17 the site asks for the order of $t(N)$ and
-shows PROVED. Its commentary credits Erdős and Graham with the upper bound
+showed PROVED. Its commentary credits Erdős and Graham with the upper bound
 $t(N)\ll N/\log N$ and with no knowledge of the true size, and records Liu
 and Sawhney's two-sided estimate, which it describes as a solution up to a
 factor $(\log\log N)^{O(1)}$:

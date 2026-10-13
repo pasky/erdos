@@ -98,7 +98,7 @@ theorem. Nothing was built or audited here, so the page lists no
 (2024), no. 2, 309-323, published online on 5 October 2023). The paper does not
 state the answer to Problem 437, however. The deduction is Tao's post, which is
 not refereed, so `refereed` is not listed for this claim. The site's curator,
-Thomas Bloom, labels the problem proved and credits the work of Bui, Pratt and
+Thomas Bloom, labeled the problem proved and credits the work of Bui, Pratt and
 Zaharescu as Tao applied it. That credit is the `reviewed` evidence. Tao's post
 is a named expert's public derivation of the answer. This repository has not
 reviewed the proof of Theorem 1.2 or Tao's derivation. The source card records

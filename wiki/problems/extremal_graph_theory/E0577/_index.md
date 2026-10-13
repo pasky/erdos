@@ -42,7 +42,7 @@ has $n$ vertex-disjoint $C_4$'s. The report itself is not held, so its
 wording is attested only through the site, [Ch97] and [Wa10].
 
 **Status.** Proved, on the text of the proof paper and the site's acceptance.
-The site labels the problem PROVED, its label for a question answered yes, and
+The site labeled the problem PROVED, its label for a question answered yes, and
 credits the proof to Wang's paper [Wa10]. The community database records it as
 proved. The claim page
 [[problems/extremal_graph_theory/E0577/claims/2010_05_19_wang|Wang 2010]]
@@ -65,7 +65,7 @@ claims about an extremal chain of a triangle and $k-1$ disjoint four-cycles. The
 remaining 42 pages prove the claims through 22 lemmas. The statement, the sketch
 and the derivation of Theorem B from Claims 2.5--2.7 were read. The proofs of
 the claims were read for structure only, and no case analysis was checked. The
-label rests on a refereed paper whose theorem was read as printed. The proof is
+label rested on a refereed paper whose theorem was read as printed. The proof is
 not independently verified in this corpus.
 
 **Source.** [erdosproblems.com/577](https://www.erdosproblems.com/577),

@@ -336,7 +336,7 @@ the write-up that publishes it,
 
 If the construction holds, the "in particular" question has answer no and
 $h(n)/n$ would lie between about $1.4525$ and $1.463877$; none of this is
-checked here, no paper or preprint carrying it was found, and the site has
+checked here, no paper or preprint carrying it was found, and the site had
 not adopted it. The write-up is the publication carrying the refutation
 claim and has the claim page (`claimed`, `partial`); the 27 June 2026 thread
 claim (rickyc), a thread post with a chat transcript and no manuscript, is

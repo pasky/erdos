@@ -83,7 +83,7 @@ The proof is not reconstructed on this page.
 **Acceptance.** The result appeared in a refereed journal, the *Journal of the
 London Mathematical Society*, in 2024. This is the `refereed` evidence. The
 statements are those of the arXiv preprint, which were not compared with the
-published version. The site's curator, Thomas Bloom, marks the problem
+published version. The site's curator, Thomas Bloom, marked the problem
 INDEPENDENT. The commentary records that the question is undecidable when
 $\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with the model where
 the answer is yes, and Schilhan and Weinert with the model where it is no. That

@@ -84,6 +84,6 @@ which credits this paper as its inspiration.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.
 
-**Standing.** Claimed. The preprint is unrefereed, the site labels the
+**Standing.** Claimed. The preprint is unrefereed, the site labeled the
 problem FALSIFIABLE (2026-10-06), and no referee, named
 reviewer or independent build is recorded, so the page lists no evidence.

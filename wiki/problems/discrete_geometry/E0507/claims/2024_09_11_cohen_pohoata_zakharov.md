@@ -64,5 +64,5 @@ $-7/6$.
 
 **Acceptance.** Refereed: Inventiones Mathematicae published the paper. The
 site's curator credits it with the upper bound in the problem's commentary,
-but the site labels the problem OPEN, so that credit is context and not
+but the site labeled the problem OPEN, so that credit is context and not
 `reviewed` evidence.

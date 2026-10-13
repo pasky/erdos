@@ -26,10 +26,10 @@ updated: 2026-10-08T01:29:59Z
 If $a,b\geq 2$ and $a+b=k+1$ then must there exist two disjoint subgraphs of $G$
 with chromatic numbers $\geq a$ and $\geq b$ respectively?
 
-**Status.** Falsifiable on the site, with the label FALSIFIABLE. The page was
-last edited 6 December 2025. No result settles or claims to settle the question,
-so the problem is open. Four published partial results are accepted partial
-claims, each on its refereed publication:
+**Status.** Labeled falsifiable on the site, with the label FALSIFIABLE. The
+page was last edited 6 December 2025. No result settles or claims to settle the
+question, so the problem is open. Four published partial results are accepted
+partial claims, each on its refereed publication:
 [[problems/graph_coloring/E0628/claims/1969_03_01_brown_jung|Brown and Jung's case $a=b=3$]],
 [[problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz|Balogh, Kostochka, Prince and Stiebitz's quasi-line and independence-number-2 cases]],
 [[problems/graph_coloring/E0628/claims/2018_05_27_song|Song's graphs with no short hole]]
@@ -65,7 +65,7 @@ graph with chromatic number $k$ and no $K_k$ has, for every $a,b\ge 2$ with
 $a+b=k+1$, two disjoint subgraphs of chromatic numbers at least $a$ and at
 least $b$; the site calls such a graph $(a,b)$-splittable and the question
 the Erdős–Lovász Tihany conjecture. The standing is open: no result settles
-or claims to settle the question. The site labels the problem falsifiable,
+or claims to settle the question. The site labeled the problem falsifiable,
 since a counterexample is a single finite graph whose chromatic number,
 clique number and pairs of disjoint subgraphs can be checked by finite
 enumeration; this is a body note, not a claim. Two partial results credited

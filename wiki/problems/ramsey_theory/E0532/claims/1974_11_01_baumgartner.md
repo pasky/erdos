@@ -54,7 +54,7 @@ this page records the second refereed proof.
 J. Combin. Theory Ser. A 17 (1974), no. 3, 384--386, published November 1974
 (Crossref record accessed). The record gives no day, so the day in the page name
 is a placeholder for November 1974. Erdős's surveys of 1975, 1977 and 1980 name
-the note as the simplification of Hindman's proof. The site labels the problem
+the note as the simplification of Hindman's proof. The site labeled the problem
 PROVED (LEAN) and credits Hindman.
 
 **Read depth.** Theorems 1 and 2 and the definitions were checked; the

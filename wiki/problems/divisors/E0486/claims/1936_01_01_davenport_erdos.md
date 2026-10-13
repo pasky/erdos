@@ -67,7 +67,7 @@ problem asks for logarithmic density.
 
 **Acceptance.** The `refereed` evidence is the 1936 journal publication in Acta
 Arithmetica, together with the 1951 elementary proof in the Journal of the
-Indian Mathematical Society. The site labels the problem OPEN. Its remark (page
+Indian Mathematical Society. The site labeled the problem OPEN. Its remark (page
 last edited 8 April 2026) credits both papers with the case $X_n=\{0\}$. A
 remark on an open problem is not an acceptance, so no `reviewed` evidence is
 listed. The records give the publication years and no finer dates, so the page

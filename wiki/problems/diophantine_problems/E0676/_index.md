@@ -28,7 +28,7 @@ $$
 
 for some prime $p$ and integer $a\geq 1$ and $0\leq b<p$?
 
-**Status.** Open. The site's label is OPEN (page last edited 2026-04-07,
+**Status.** Open. The site's label was OPEN (page last edited 2026-04-07,
 proof-claims tab accessed 2026-10-06). The tab carries one full proof claim,
 submitted 2026-07-25 by Rafik Zeraoulia with a write-up on Zenodo. The claim's
 own summary describes the work as partial progress and not a proof. So it is
@@ -55,7 +55,7 @@ https://www.erdosproblems.com/676.
 
 Site formulation(last edit; problem page accessed, proof-claims tab 2026-10-06): is every sufficiently large integer
 of the form $ap^2+b$ with $p$ prime, $a\ge1$ and $0\le b<p$? The question
-is open on the site, and no claim page settles any part of it.
+was open on the site, and no claim page settles any part of it.
 
 The best known progress is the sieve bound that Erdős [Er79] and the site
 record. The sieve of Eratosthenes shows that almost all integers have the

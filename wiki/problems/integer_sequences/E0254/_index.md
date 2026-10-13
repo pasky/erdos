@@ -79,7 +79,7 @@ and audited that theorem; Fan's claim page records the build.
 
 The frontmatter standing is derived from the claim pages: Fan's full claim that
 the statement holds is accepted on formalized evidence, so the problem stands
-solved and proved while the site's label is OPEN; Snyder's full claim is
+solved and proved while the site's label was OPEN; Snyder's full claim is
 pending, and Cassels's accepted partial claim covers only the sets that meet his
 stronger hypotheses. The audited Lean theorem reaches the Statement through
 Fan's six-per-interval criterion; the five-per-interval Corollary 1.2 of the
@@ -123,7 +123,7 @@ details, and formal-conjectures registers the development as the formal proof of
 its statement, a catalog registration and not a review. The eight comments under
 Snyder's claim (16 to 18 July 2026) concern Fan's preprint, which one
 contributor reported reading and finding correct, and none assesses the Lean
-proof. The site's label is OPEN (page last edited 7 December 2025).
+proof. The site's label was OPEN (page last edited 7 December 2025).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

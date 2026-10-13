@@ -66,7 +66,7 @@ or by $15$. The unrestricted question stays open.
 **Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1, 377--414,
 doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
 2018-11-08 names this page. Not reviewed: the site's commentary credits the
-result, but the site labels the problem VERIFIABLE, an open label. On the site's
-own account, the credit therefore settles no part of the problem. Not
+result, but the site labeled the problem VERIFIABLE, an open label. On the
+site's own account, the credit therefore settles no part of the problem. Not
 formalized: the library's compilation is author-recorded coverage by this
 project and awards nothing here.

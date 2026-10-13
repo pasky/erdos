@@ -49,5 +49,5 @@ claimed about cuttings whose pieces are not similar to the whole triangle.
 **Depends on.** No page of this wiki.
 
 **Standing.** Accepted on its refereed publication in Discrete Mathematics.
-The site labels the problem OPEN, so its remark crediting the paper is
+The site labeled the problem OPEN, so its remark crediting the paper is
 commentary and `reviewed` is not listed.

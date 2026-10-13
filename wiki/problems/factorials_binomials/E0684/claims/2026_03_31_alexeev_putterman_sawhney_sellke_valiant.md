@@ -65,7 +65,7 @@ from the prime number theorem.
 **Standing.** The preprint is not refereed, and no journal version was found.
 The site's remarks credit the paper, as [APSSV26], with $f(n)\ll(\log n)^2$
 and with arbitrarily large $n$ having $f(n)\ge(1/2-o(1))\log n$, but the site
-labels the problem OPEN (page last edited 1 April 2026), so the remark is
+labeled the problem OPEN (page last edited 1 April 2026), so the remark is
 commentary on a partial result and not acceptance; the claim is `claimed`. In
 the discussion thread a comment of 2026-04-01 by Terence Tao describes the
 argument and expects its methods to give $f(n)\ll(\log n)^{1+o(1)}$ for

@@ -65,7 +65,7 @@ verification of that assertion, cited in the Claim, is context only.
 
 **Acceptance.** Refereed publication: J. Eur. Math. Soc. (JEMS) 26 (2024), no.
 1, 75--109, doi:10.4171/JEMS/1357. The arXiv version was posted 9 April 2019,
-the date of this page. The site labels the problem OPEN, so its commentary
+the date of this page. The site labeled the problem OPEN, so its commentary
 crediting the bound is not acceptance, and no `reviewed` evidence is listed. The
 deduction from the construction to the bound on $F(x)$ is the site's, not a
 statement of the paper.

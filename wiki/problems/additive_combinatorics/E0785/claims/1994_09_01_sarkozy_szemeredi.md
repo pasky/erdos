@@ -60,7 +60,7 @@ doi:10.1007/BF01874252. The Crossref record dates the issue to September 1994,
 and this page's name fills that to the first of the month.
 
 Reviewed: the site's curator, Thomas Bloom, credits the affirmative answer to
-Sárközy and Szemerédi in the problem page's commentary. The curator labels the
+Sárközy and Szemerédi in the problem page's commentary. The curator labeled the
 problem PROVED (LEAN) on the page, last edited 7 March 2026. The
 formal-conjectures catalog's statement file for the problem names Sárközy and
 Szemerédi as the source of the proof. The community database lists the problem

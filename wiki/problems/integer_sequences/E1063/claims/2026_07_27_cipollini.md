@@ -77,7 +77,7 @@ the two claims share one write-up link and are independent results.
 
 **Standing.** Claimed. The write-up has no arXiv version and no journal
 record, the tab carried no comment under the claim on 2026-10-07, and the
-site's label is OPEN (page last edited 1 February 2026). Nothing here is
+site's label was OPEN (page last edited 1 February 2026). Nothing here is
 this project's review, and no acceptance evidence is listed.
 
 **Depends on.** No page of this wiki.

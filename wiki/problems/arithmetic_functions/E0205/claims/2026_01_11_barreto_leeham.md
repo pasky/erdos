@@ -70,7 +70,7 @@ proves the $\log\log$ form itself, from Mathlib alone.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
+**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem DISPROVED (LEAN) and credits the negative answer to Barreto and Leeham
 in the problem's commentary (last edited 2026-04-05). Terence Tao, in the thread
 on 2026-01-11, described the construction and found it surprisingly simple. Tao
@@ -84,5 +84,5 @@ No refereed publication exists. The Overleaf write-up is ChatGPT's output and
 unrefereed, and no library card digests it. The Lean session linked above is a
 community file that this corpus has not built or audited. So no `formalized`
 evidence is listed, and the evidence is `reviewed` alone. The Lean suffix of the
-site's label is a catalog label. What the linked formal files prove is recorded
+site's label was a catalog label. What the linked formal files prove is recorded
 on the problem page and on the Tao–Alexeev page.

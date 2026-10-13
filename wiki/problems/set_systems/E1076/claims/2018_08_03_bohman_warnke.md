@@ -61,7 +61,7 @@ results that answer only that wording.
 **Acceptance.** Refereed: T. Bohman and L. Warnke, Large girth approximate
 Steiner triple systems, J. Lond. Math. Soc. (2) 100 (2019), no. 3, 895–913. It
 was published online on 10 June 2019, after the arXiv posting of 3 August 2018.
-Reviewed: the site's curator, Thomas Bloom, marks Problem 1076 proved. Bloom
+Reviewed: the site's curator, Thomas Bloom, marked Problem 1076 proved. Bloom
 credits the asymptotic version to this paper [BoWa19] and to Glock, Kühn, Lo and
 Osthus [GKLO20]. Bloom reads the question as the approximate form of
 [[problems/set_systems/E0207/_index|Problem 207]], which is the reading the

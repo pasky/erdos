@@ -37,7 +37,7 @@ $$
 
 exist? What is its explicit form?
 
-**Status.** Solved. The site labels the problem SOLVED. It credits the value
+**Status.** Solved. The site labeled the problem SOLVED. It credits the value
 $12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz and Turán [EST58], and the
 existence of the limit to Kesten and Sós [KeSo66]. It credits alternative, more
 explicit proofs of the existence of the limit to Xiong and Zaharescu [XiZa06]

@@ -48,7 +48,7 @@ the result, since the issue carries no day of publication.
 **Acceptance.** The note is a publication in the Academy's Doklady, communicated
 by an academician. It has reviews in Mathematical Reviews and zbMATH (MR
 0671639, Zbl 0512.05056 per the Math-Net.Ru record) and an English translation
-in Soviet Mathematics Doklady. The site's curator, Thomas Bloom, marks the
+in Soviet Mathematics Doklady. The site's curator, Thomas Bloom, marked the
 problem proved and credits the note.
 
 An independent attestation by named experts is in print. It is the refereed note

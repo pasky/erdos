@@ -31,7 +31,7 @@ $$
 
 be covered by a set of circles the sum of whose radii is $\leq 2$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
+**Status.** Open. The site labeled the problem OPEN (page last edited
 2025-12-29). Two accepted partial claims, both Pommerenke's, answer yes in the
 connected case, which the site's remarks credit to him. His 1959 theorem covers
 every monic $f$ whose open set $\{|f|<1\}$ is connected

@@ -30,7 +30,7 @@ $$
 
 is irrational. How slowly can $a_n$ grow?
 
-**Status.** Solved. The site labels the problem "SOLVED (LEAN)" (page last
+**Status.** Solved. The site labeled the problem "SOLVED (LEAN)" (page last
 edited 2025-09-28) and says Hančl essentially solved it. Hančl's 1991 theorem,
 that an irrationality sequence must satisfy $\limsup(\log_2\log_2 a_n)/n\ge1$,
 is recorded on

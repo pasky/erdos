@@ -41,7 +41,7 @@ infinite; an unbounded excess (an infinite limit superior) would not answer
 it. Small values from the Monthly problem: $k(1)=1$, $k(2)=3$, $k(3)=5$ (since
 $1=\frac13+\frac14+\frac15+\frac16+\frac1{20}$).
 
-**Status.** Open: the site's label is OPEN. The Erdős–Straus solution of 1971
+**Status.** Open: the site's label was OPEN. The Erdős–Straus solution of 1971
 proves $(e-1)N-c_2<k(N)<(e-1)N+c_1N/\log N$. It says that the divergence "seems
 to us certain" but is unproved. The 1980 monograph repeats both. No proof or
 disproof of the divergence was found in the search whose scope the Current
@@ -88,7 +88,7 @@ database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886ee
 
 ## Current assessment
 
-**The question.** The site states the problem as above, shows
+**The question.** The site states the problem as above, showed
 OPEN, cites [ErGr80] and [ErSt71b], and records the bounds
 $-c<k(N)-(e-1)N\ll N/\log N$. Printed p. 35 of the monograph
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham 1980]])

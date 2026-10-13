@@ -107,7 +107,7 @@ prime factors, about $n\log\log n/\log n$ of them, exceed what the pairing
 argument can absorb, a limit of the argument and not a claim that higher
 coverings fail.
 
-**Standing.** Claimed. The site's label is OPEN (page last edited 8 April
+**Standing.** Claimed. The site's label was OPEN (page last edited 8 April
 2026; the tab and its ten comments as of 2026-10-07); the tab itself warns
 that listing a claim does not mean anyone connected with the site has examined
 it, and the maintainer's pinned thread comment of 2 June 2026 defers any

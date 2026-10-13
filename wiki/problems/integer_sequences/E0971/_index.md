@@ -31,8 +31,8 @@ $$
 
 for $\gg \phi(d)$ many values of $a$?
 
-**Status.** OPEN on erdosproblems.com. Two full proof claims are pending. This
-page records the claims without adopting them.
+**Status.** Labeled OPEN on erdosproblems.com. Two full proof claims are
+pending. This page records the claims without adopting them.
 
 The site's proof-claims tab carries one entry, KyungMin Han's candidate proof of
 25 July 2026, made with GPT 5.6 Pro

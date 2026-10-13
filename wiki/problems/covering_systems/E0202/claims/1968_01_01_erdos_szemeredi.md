@@ -44,6 +44,6 @@ not determine $f(N)$; that is
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 15 (1968), no. 1, 85–90,
-doi:10.4064/aa-15-1-85-90. Not reviewed: the site labels the problem SOLVED
+doi:10.4064/aa-15-1-85-90. Not reviewed: the site labeled the problem SOLVED
 (LEAN) and credits the answer to Ho's result, not to this paper. The page is
 named by the publication year, because the journal record gives no day.

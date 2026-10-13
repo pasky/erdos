@@ -45,7 +45,7 @@ null set excluded from each variable, the hypothesis is Hartman's, which de
 Bruijn records as the earlier partial result; it is a special case of the
 plane-measure hypothesis, so the answer is the same.
 
-**Status.** PROVED (LEAN) on the site's label, which credits the result as
+**Status.** Labeled PROVED (LEAN) on the site, which credits the result as
 proved independently by de Bruijn [dB66] and Jurkat [Ju65]. Both proofs are
 recorded as accepted claims: de Bruijn's
 [[problems/analysis/E1126/claims/1966_01_01_debruijn|translation-difference proof]]

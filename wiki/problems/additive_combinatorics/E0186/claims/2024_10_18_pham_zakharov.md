@@ -68,8 +68,8 @@ of this wiki.
 **Acceptance.** Refereed: the paper appeared in Geometric and Functional
 Analysis, published online 3 December 2025 according to its Crossref record, as
 the problem page records. Reviewed: the site's curator, Thomas Bloom, credits
-the upper bound to Pham and Zakharov in the problem page's commentary and labels
-the problem SOLVED (page last edited 8 April 2026). This is documented
+the upper bound to Pham and Zakharov in the problem page's commentary and
+labeled the problem SOLVED (page last edited 8 April 2026). This is documented
 acceptance outside this project.
 
 **Read depth.** The library card checks the definition and Theorem 1; the

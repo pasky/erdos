@@ -71,7 +71,7 @@ paper, digested on
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
 evidence. The publisher's record gives the year 2015, and the page is dated by
-the preprint's first posting. The site's curator, Thomas Bloom, labels the
+the preprint's first posting. The site's curator, Thomas Bloom, labeled the
 problem proved and credits the affirmative answer to this paper, the `reviewed`
 evidence.
 

@@ -46,7 +46,7 @@ forces a zero sum in an abelian group $G$ (their Theorem 2.5, from J. E.
 Olson, *Sums of sets of group elements*, Acta Arith. 28 (1975), 147--156).
 
 **Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
-Thomas Bloom, who is independent of the authors, labels the problem PROVED
+Thomas Bloom, who is independent of the authors, labeled the problem PROVED
 (LEAN). The commentary credits this paper with the threshold $(1+o(1))\sqrt{2N}$
 for abelian groups of order $N$.
 

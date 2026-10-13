@@ -47,7 +47,7 @@ theorem solves it together with the question for $r\ge3$, which is
 the paper's threshold $n(A)$ makes the constructed sequence entirely Ramsey
 $2$-complete with the same bound up to an additive constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 SOLVED and credits the resolution to the paper in the problem's commentary. The
 commentary records the constructed Ramsey $2$-complete sequence with counting
 function $\ll(\log N)^2$ (page last edited 28 October 2025, accessed

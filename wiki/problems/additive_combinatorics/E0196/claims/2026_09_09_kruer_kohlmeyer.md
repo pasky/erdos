@@ -118,7 +118,7 @@ unresolved provenance questions alone do not deny the reward. It describes the
 approval as a decision on eligibility for the bounty, not a guarantee of
 originality.
 
-No other body accepts the result. The site's curator keeps the label Open and
+No other body accepts the result. The site's curator kept the label Open and
 lists the proof claim, but has not commented on it. The claim's three forum
 comments are by other users. The formal-conjectures statement `erdos_196` is
 tagged open on the catalog's default branch (2026-10-07). So no `refereed`

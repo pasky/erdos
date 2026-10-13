@@ -91,7 +91,7 @@ $n-\sum_{a\in A}\lfloor n/a\rfloor$ integers up to $n$ are divisible by no
 element. The Schinzel--Szekeres sets exclude $1$ (their $T_n$ is defined
 through a least prime divisor).
 
-**Status.** The site's label is Solved, and it covers two answers: yes to the
+**Status.** The site's label was Solved, and it covers two answers: yes to the
 first question and no to the second. Both are by Schinzel and Szekeres (Acta
 Sci. Math. (Szeged) 20 (1959), 221--229, a refereed journal). The label
 describes the corrected Statement. The claim pages
@@ -188,7 +188,7 @@ formalization of a solution to the problem, names Schinzel and Szekeres as
 informal authors and two AI systems, Codex and GPT-5.6 Sol, as formal authors,
 at Lean and Mathlib v4.33.0; it contains no `sorry` and no `axiom`. It uses the
 "not divisible by any element" form of the corrected Statement. Nothing was
-built or audited here, and the site does not label the problem Lean; the file is
+built or audited here, and the site did not label the problem Lean; the file is
 linked from the Schinzel--Szekeres claim page as a self-declared formalization.
 
 ## Current assessment

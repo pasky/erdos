@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:58Z
 of integers representable as the sum of exactly $r$ distinct elements from $A$
 have positive lower density?
 
-**Status.** The site labels the problem proved (page last edited 2025-10-14).
+**Status.** The site labeled the problem proved (page last edited 2025-10-14).
 Hegyvári, Hennecart and Plagne [HHP03] answered it in the affirmative, together
 with the companion upper-density question of Erdős and Graham. The accepted
 claim is

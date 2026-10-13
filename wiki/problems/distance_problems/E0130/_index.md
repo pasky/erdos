@@ -30,7 +30,7 @@ if they are an integer distance apart.
 How large can the chromatic number and clique number of this graph be? In
 particular, can the chromatic number be infinite?
 
-**Status.** Open. The site's label is OPEN, and its page credits neither of the
+**Status.** Open. The site's label was OPEN, and its page credits neither of the
 two claims below. Two pending partial claims answer the particular question yes.
 The first is Lloyd.H's proof claim of 17 July 2026 on the site's proof-claims
 tab, recorded on

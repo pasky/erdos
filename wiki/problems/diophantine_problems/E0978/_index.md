@@ -135,7 +135,7 @@ first question is settled by Hooley's asymptotic, recorded as the accepted
 partial claim
 [[problems/diophantine_problems/E0978/claims/1967_06_01_hooley|Hooley 1967]] on
 `refereed` evidence (the journal publication; the curator's remark crediting
-Hooley is commentary on a problem the site labels OPEN); that page states why
+Hooley is commentary on a problem the site labeled OPEN); that page states why
 the Euler-product constant is positive under the question's hypotheses. The
 three questions are the problem's parts, each settled by an accepted partial
 claim, so the derived standing is solved with the claim proved, every answer

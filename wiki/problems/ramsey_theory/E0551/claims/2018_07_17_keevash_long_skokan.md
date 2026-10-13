@@ -83,7 +83,7 @@ paper was first posted as arXiv:1807.06376v1 on 17 July 2018, the date this page
 is named by, and that is the only arXiv version. The statement is cited from the
 arXiv preprint, and the journal text is not compared.
 
-The site's curator, T. F. Bloom, labels the problem DECIDABLE. In the page's
+The site's curator, T. F. Bloom, labeled the problem DECIDABLE. In the page's
 commentary the curator credits this paper with the identity for all
 $k\ge C\log n/\log\log n$, and so with the conjecture for every large $n$. The
 site defines DECIDABLE as resolved up to a finite check. Here a finite check of

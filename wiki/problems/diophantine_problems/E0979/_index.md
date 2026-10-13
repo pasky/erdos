@@ -28,9 +28,10 @@ $$
 
 where the $p_i$ are prime numbers. Is it true that $\limsup f_k(n)=\infty$?
 
-**Status.** Open. The site labels the problem OPEN, and its page was last edited
-on 19 September 2025. The site credits Erdős with the case $k=2$ [Er37b]. It
-also credits him with a proof of the case $k=3$ that appears to be unpublished.
+**Status.** Open. The site labeled the problem OPEN, and its page was last
+edited on 19 September 2025. The site credits Erdős with the case $k=2$ [Er37b].
+It also credits him with a proof of the case $k=3$ that appears to be
+unpublished.
 
 **Source.** [erdosproblems.com/979](https://www.erdosproblems.com/979), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #979,

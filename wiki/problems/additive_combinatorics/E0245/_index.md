@@ -31,7 +31,7 @@ $$
 **Status.** Proved, the site's label. The answer is yes, by the theorem of
 Freĭman's 1973 monograph [Fr73]. It is recorded on
 [[problems/additive_combinatorics/E0245/claims/1973_01_01_freiman|its claim page]],
-with the site's acceptance as its only evidence. The label carries no Lean
+with the site's acceptance as its only evidence. The label carried no Lean
 qualification. The claim page links a Lean development in Boris Alexeev's
 `lean-proofs` repository that declares itself a formalization of Freĭman's
 solution. This corpus has not built or audited it.

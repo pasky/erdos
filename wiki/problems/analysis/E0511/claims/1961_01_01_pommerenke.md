@@ -47,9 +47,9 @@ above $4$.
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
 evidence. It was received 26 November 1960. The publisher's record gives the
 year 1961 and no month or day, so this page is dated to the first day of that
-year. The site's curator, Thomas Bloom, labels the problem disproved and credits
-the negative answer to this paper, the `reviewed` evidence. The site also
-records Huang's 2025 independent rediscovery, which has
+year. The site's curator, Thomas Bloom, labeled the problem disproved and
+credits the negative answer to this paper, the `reviewed` evidence. The site
+also records Huang's 2025 independent rediscovery, which has
 [[problems/analysis/E0511/claims/2025_09_15_huang|its own claim page]]. The
 result page notes that the proof quotes the approximation theorem at capacity
 one and applies it to a set of smaller capacity without spelling out the

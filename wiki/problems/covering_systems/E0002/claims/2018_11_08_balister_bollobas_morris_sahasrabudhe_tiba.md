@@ -75,7 +75,7 @@ and awards nothing here.
 
 Not listed as formalized: the catalog's statement file
 (google-deepmind/formal-conjectures, `ErdosProblems/2.lean`) carries a `sorry`
-body. The development behind the site's Lean label is the file
+body. The development behind the site's Lean label was the file
 `src/latest/ErdosProblems/Erdos2.lean` in Boris Alexeev's lean-proofs
 repository, pinned above at the commit of 2026-09-15. The file declares itself a
 formalization of a solution to Problem 2. It names Balister, Bollobás, Morris,

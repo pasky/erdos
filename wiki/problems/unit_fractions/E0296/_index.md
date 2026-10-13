@@ -34,7 +34,7 @@ disjointness gives $k(N)\le\sum_{n\le N}1/n$. The closing question is Erdős
 and Graham's guess ("No doubt $k=o(\log n)$ but we have not proved this",
 monograph printed p. 36).
 
-**Status.** The site's label is PROVED (LEAN), and it attaches to the estimate.
+**Status.** The site's label was PROVED (LEAN), and it attaches to the estimate.
 The Lean suffix is a catalog label qualified under Existing formalization below.
 The Lean files are formalization links on the claim page, and no local kernel
 credit is claimed. The estimate is $k(N)=(1-o(1))\log N$. It follows from
@@ -79,7 +79,7 @@ by this corpus. See Existing formalization.
 ## Current assessment
 
 **The question.** On 2026-09-17 the site asks for the order of $k(N)$ and
-whether $k(N)=o(\log N)$ and shows PROVED (LEAN). Its commentary credits
+whether $k(N)=o(\log N)$ and showed PROVED (LEAN). Its commentary credits
 Hunter and Sawhney with noticing that Bloom's Theorem 3, applied repeatedly
 by a greedy removal, gives $k(N)=(1-o(1))\log N$, and raises the wider
 question of how many pairwise disjoint subsets of $\{1,\ldots,N\}$ can share

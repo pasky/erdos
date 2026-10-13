@@ -38,7 +38,7 @@ https://www.erdosproblems.com/458.
 ## Current assessment
 
 The site's label FALSIFIABLE, which the site explains as open but disprovable
-by a finite counterexample, marks the problem open and records the question's
+by a finite counterexample, marked the problem open and records the question's
 logical form: a counterexample is a single $k$ with
 $[1,\ldots,p_{k+1}-1]\ge p_k[1,\ldots,p_k]$, checked by finite arithmetic,
 while a proof must cover every $k$. The label is a body note, not a claim, and

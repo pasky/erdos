@@ -76,5 +76,5 @@ claims depth; the proof (Sections 2--5) is not checked. Library home:
 
 **Acceptance.** Refereed: Combinatorica is a refereed journal. The site's
 commentary credits Erdős, Hajnal, Sós and Szemerédi with the case $\delta>1/8$,
-but the site labels the problem OPEN. So the credit is context, not `reviewed`
+but the site labeled the problem OPEN. So the credit is context, not `reviewed`
 evidence. Nothing here is independently reviewed by this corpus.

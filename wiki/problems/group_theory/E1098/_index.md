@@ -28,7 +28,7 @@ only if $g$ and $h$ do not commute, $gh\neq hg$.
 If $\Gamma$ contains no infinite complete subgraph, then is there a finite bound
 on the size of complete subgraphs of $\Gamma$?
 
-**Status.** The site's label is PROVED (LEAN).
+**Status.** The site's label was PROVED (LEAN).
 
 **Source.** [erdosproblems.com/1098](https://www.erdosproblems.com/1098),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1098,

@@ -34,7 +34,7 @@ where the implied constant is absolute.
 least $N$ such that every red-blue coloring of the edges of $K_N$ contains a
 monochromatic, not necessarily induced, copy of $G$.
 
-**Status.** The site labels the problem PROVED, and its curator credits Alon
+**Status.** The site labeled the problem PROVED, and its curator credits Alon
 [Al94]. The proof is Alon's
 [[../library/ramsey_theory/alon_1994_subdivided_graphs_have_linear_ramsey_numbers/proposition_1_3|Proposition 1.3]],
 which gives the absolute bound $R(G)\leq12n$ for this exact class. This is a

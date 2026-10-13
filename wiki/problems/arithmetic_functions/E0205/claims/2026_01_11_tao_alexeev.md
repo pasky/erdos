@@ -77,7 +77,7 @@ open.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
+**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem DISPROVED (LEAN). In the problem's commentary (last edited 2026-04-05),
 Bloom credits the quantified form of the negative answer to Tao and Alexeev and
 states the square-root bound there as the result. Nat Sothanaphan, in the site's

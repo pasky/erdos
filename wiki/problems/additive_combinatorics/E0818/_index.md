@@ -29,7 +29,7 @@ $$
 
 for some constant $C>0$?
 
-**Status.** Proved. The site labels the problem PROVED (LEAN). The corpus has
+**Status.** Proved. The site labeled the problem PROVED (LEAN). The corpus has
 not built the Lean proof, so it gives no formal evidence. The standing is
 derived from the
 [[problems/additive_combinatorics/E0818/claims/2008_06_05_solymosi|claim page]],

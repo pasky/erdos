@@ -4,8 +4,8 @@ title: Problem 915
 desc: |
   Asks whether a graph with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$ edges has
   two vertices joined by $m$ disjoint paths. False for $m\ge5$ if the paths are
-  vertex-disjoint, true for every $m$ if they are edge-disjoint; the site labels
-  it solved.
+  vertex-disjoint, true for every $m$ if they are edge-disjoint; the site
+  labeled it solved.
 tags:
 - Graph theory
 status: solved
@@ -371,7 +371,7 @@ vertex-disjoint disproof for every $m\ge5$ with the exact $k_5(n)$
 ([SoTh74]), at $m=5$ by Leonard's counterexample ([Le73]) and for every
 $m\ge5$ by Mader's examples ([Ma73]), and the edge-disjoint threshold for
 every $m\ge2$ ([Ma73]) with the earlier $m=5$ and $m=6$ ([Le72], [Le73b]).
-The site's label rests on the vertex-disjoint disproof, which rests on the
+The site's label rested on the vertex-disjoint disproof, which rests on the
 primary texts.
 
 **The origin.** [Er67b], printed pp. 56--57 = copy pp. 3--4
@@ -497,7 +497,7 @@ $j=2$ have $n=316k+4$ points and $\frac52n+\frac3{79}(n-4)+2$ edges (an
 arithmetic note made on the library page), consistent with the remark. (3)
 Proof coverage: statements only; the
 theorems for $m=3$, $\ell_5$ and $\ell_6$ are at claims checked with their
-proofs read for structure. (4) The site's label is attached to one
+proofs read for structure. (4) The site's label was attached to one
 reading of the ambiguous wording, and the derived standing records the
 outcome under that reading. (5) The collection's Lean statement takes the
 vertex-disjoint reading and names the external proof as its formal proof;

@@ -94,7 +94,7 @@ Problem von Erdös und Moser*, Acta Arith. 11, no. 2 (1965), 205--208, received
 26 November 1964. The paper prints the first author as Sárközy, while the site's
 key and Erdős's 1973 survey write Sárközi. Erdős's surveys of 1973 and 1980
 report the theorem as the proof of his conjecture with Moser. The site's
-curator, Thomas F. Bloom, marks Problem 362 proved and credits this paper with
+curator, Thomas F. Bloom, marked Problem 362 proved and credits this paper with
 the affirmative answer to the first question. The page is dated by the first day
 of the publication year, since the paper's first posting carries no finer date.
 

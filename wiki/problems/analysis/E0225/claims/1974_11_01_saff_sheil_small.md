@@ -94,7 +94,7 @@ listed.
 **Acceptance.** The paper is refereed: E. B. Saff and T. Sheil-Small,
 *Coefficient and integral mean estimates for algebraic and trigonometric
 polynomials with restricted zeros*, J. London Math. Soc. (2) 9, no. 1 (November
-1974), 16--22. The site's curator, Thomas F. Bloom, marks Problem 225 proved.
+1974), 16--22. The site's curator, Thomas F. Bloom, marked Problem 225 proved.
 The curator credits this paper with the solution for general complex
 coefficients, independently of Kristiansen's proof. That proof has its own page,
 [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]]. The

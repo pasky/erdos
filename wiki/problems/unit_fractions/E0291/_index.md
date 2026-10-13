@@ -42,15 +42,15 @@ status attaches to the pair through the first. The site's example, the
 integers whose leading digit in base $3$ is $2$, needs $n\ge6$: at $n=2$ the
 prime $3$ exceeds $n$ and $(a_2,L_2)=(3,2)=1$.
 
-**Status.** Open: the site's label is OPEN (page last edited 12 January 2026),
-and the site marks the problem as not resolvable by a finite computation. The
+**Status.** Open: the site's label was OPEN (page last edited 12 January 2026),
+and the site marked the problem as not resolvable by a finite computation. The
 standing derived from the claim pages is open, claim none. No claim settles or
 pends on the first question.
 
 Three of the four claim pages concern the second question.
 [[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]]
 is a pending partial claim answering the second question in the affirmative. The
-site's commentary credits it to Steinerberger, but the site labels the whole
+site's commentary credits it to Steinerberger, but the site labeled the whole
 problem OPEN and declares no parts, so the credit is context and not acceptance.
 [[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]]
 is a pending partial claim giving the same answer with the exact criterion. The
@@ -269,7 +269,7 @@ archived copy of the site's page that carries it (7 November 2024; the copy
 of 19 June 2024 has the statement and no commentary), and carrying as a
 `formalization` link the Lean package submitted on 16 September 2026 to a
 prize program's repository, which proves part (ii) from the observation and
-claims no novelty (no build of it is recorded); the site labels the problem
+claims no novelty (no build of it is recorded); the site labeled the problem
 OPEN and declares no parts, so the curator's credit is context and not
 acceptance, and the claim is pending;
 [[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]],

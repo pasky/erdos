@@ -115,7 +115,7 @@ sequence, every normalized liminf is at most one, and one is attained by the
 positive integers. Its header calls the file a formalization of a solution to
 the problem and names Erdős and Szemerédi as informal authors and Codex and
 GPT-5.6 Sol as formal authors; it contains no `sorry` and no `axiom`. Nothing
-was built or audited in this corpus, the site does not label the problem Lean,
+was built or audited in this corpus, the site did not label the problem Lean,
 and no kernel credit is claimed. Because the file declares itself a
 formalization of Erdős and Szemerédi's result, it is recorded as a formalization
 link on their claim page and has no page of its own.

@@ -66,9 +66,9 @@ written on the problem page and carries no independent review.
 Mathematics Research Notices, cited with its venue above.
 
 The `reviewed` evidence is the documented acceptance of the site's curator,
-Thomas Bloom, who took no part in the paper. The site's label is PROVED, and its
-commentary credits the proof to [CoLe21] with the value $c_k=6^{-k}$. A forum
-comment of 13 September 2025 pointed to the restatement of the theorem in
+Thomas Bloom, who took no part in the paper. The site's label was PROVED, and
+its commentary credits the proof to [CoLe21] with the value $c_k=6^{-k}$. A
+forum comment of 13 September 2025 pointed to the restatement of the theorem in
 Conlon, Janzer and Lee's later paper (arXiv:1903.10631, its Theorem 1.3), and
 the site marks that comment as addressed. The curator's comment of 21 January
 2026 explains that both resolving papers appeared on arXiv in 2018, this one a

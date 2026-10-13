@@ -52,8 +52,8 @@ all $0$ or $1$, and in it every sub-basis has $b_k/k^2\to0$. The site then
 rewrote the problem as the present question, which the note does not
 address, so the note gets no claim page.
 
-**Status.** Claimed. The site's label is OPEN (page last edited 2026-04-17). The
-standing derives from one pending full claim,
+**Status.** Claimed. The site's label was OPEN (page last edited 2026-04-17).
+The standing derives from one pending full claim,
 [[problems/additive_bases/E0326/claims/2026_05_20_bhalla|Bhalla's minimal basis with $a_k\sim ck^2$]].
 It is a manuscript of 2026-05-20, with a Lean formalization posted on
 2026-06-14. The formalization is not built or audited in this corpus.

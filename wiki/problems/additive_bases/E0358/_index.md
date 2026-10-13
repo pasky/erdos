@@ -36,7 +36,7 @@ $f(n)\geq 2$ for all large $n$?
 **Status.** PROVED (LEAN). Tao's 2026 probabilistic construction gives
 $f(n)\gg\log n$ for all large $n$, which answers both questions yes
 ([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]). The site's
-label rests on a third-party Lean proof that this corpus has not audited. The
+label rested on a third-party Lean proof that this corpus has not audited. The
 Lean proof establishes the two answers and not the logarithmic bound. A thread
 report of 2026-03-27 found the middle-range step of Proposition 3.1 in the
 posted manuscript false as written. Tao said the next revision will correct it.
@@ -71,7 +71,7 @@ https://www.erdosproblems.com/358.
 
 ## Current assessment
 
-The site labels the problem PROVED (LEAN) (page last edited 1 April 2026).
+The site labeled the problem PROVED (LEAN) (page last edited 1 April 2026).
 The problem's standing is solved, proved, through Tao's full claim
 ([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]), whose
 evidence is the curator's acceptance: T. F. Bloom records the construction on

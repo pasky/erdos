@@ -68,7 +68,7 @@ by the claim's summary, the new constraints are added to the earlier Fourier
 and moment relaxation, which is White's program, so the validity of White's
 constraints, with the cautions recorded there, is an input to this bound.
 
-**Standing.** Claimed. The site's label is OPEN and its commentary, last edited
+**Standing.** Claimed. The site's label was OPEN and its commentary, last edited
 23 January 2026, gives White's $0.379005$ as the record lower bound and does
 not mention this claim; the claim had no comments on its thread as of
 2026-10-06. No outside review, refereed publication or formalization is known.

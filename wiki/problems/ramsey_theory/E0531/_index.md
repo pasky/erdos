@@ -34,13 +34,14 @@ Folkman number $F(k,r)$. The existence of $F(k)$ is Folkman's theorem, proved
 independently by Folkman, Rado and Sanders; Erdős's 1973 survey calls the
 function $g(n)$. The problem asks for its order of growth.
 
-**Status.** The site labels the problem OPEN. The search whose scope the Current
-assessment records located two bounds. The lower bound is the doubly exponential
-$F(k)\ge2^{2^{k-1}/k}$ of Balogh, Eberhard, Narayanan, Treglown and Wagner
-(2017, refereed), which replaced Erdős and Spencer's $F(k)>2^{ck^2/\lg k}$
-(1989). The upper bound is Taylor's tower-type bound (1981, Corollary 3.4):
-$F(k)$ is at most a tower of threes of height $4k-3$. No source narrows the gap
-between them. This is a bounded negative finding, not a certificate of openness.
+**Status.** The site labeled the problem OPEN. The search whose scope the
+Current assessment records located two bounds. The lower bound is the doubly
+exponential $F(k)\ge2^{2^{k-1}/k}$ of Balogh, Eberhard, Narayanan, Treglown and
+Wagner (2017, refereed), which replaced Erdős and Spencer's
+$F(k)>2^{ck^2/\lg k}$ (1989). The upper bound is Taylor's tower-type bound
+(1981, Corollary 3.4): $F(k)$ is at most a tower of threes of height $4k-3$. No
+source narrows the gap between them. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/531](https://www.erdosproblems.com/531),
 accessed 2026-09-17: the problem page (labeled
@@ -85,7 +86,7 @@ and an OEIS entry marked as possible.
 ## Current assessment
 
 **The question.** On 2026-09-17 the site states the
-problem as above, shows OPEN, cites [Er73], and comments, in this page's words:
+problem as above, showed OPEN, cites [Er73], and comments, in this page's words:
 the finiteness of $F(k)$ is the theorem of Sanders and Folkman, also a
 consequence of Rado's theorem, and goes under the name Folkman's theorem; the
 lower bound $F(k)\ge2^{ck^2/\log k}$ for some constant $c>0$ is due to Erdős

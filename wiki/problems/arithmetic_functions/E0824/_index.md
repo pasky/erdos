@@ -27,7 +27,7 @@ function.
 
 Is it true that $h(x)>x^{2-o(1)}$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 28
+**Status.** Open. The site labeled the problem OPEN (page last edited 28
 September 2025). Pollack and Pomerance [PoPo16] proved $h(x)>x^{1.4}$ for all
 large $x$, which gives $h(x)/x\to\infty$. Erdős [Er74b, p. 202] had sketched
 only $\limsup h(x)/x=\infty$. He wrote that the proof of $h(x)/x\to\infty$ "can

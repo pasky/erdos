@@ -60,7 +60,7 @@ this corpus has not built it.
 
 **The question.** Erdős asked in [Er75h] whether $n_k$ exists at all, and
 said he could not prove that it does. In [Er78c] he gave an argument for an
-explicit polynomial bound, which misses a case. The site labels the problem
+explicit polynomial bound, which misses a case. The site labeled the problem
 OPEN.
 
 **Claims.**

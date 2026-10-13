@@ -84,7 +84,7 @@ conclusion (the lower limit $1/\pi$ with positive probability) the note
 upgrades to an almost-sure statement.
 
 **Standing.** Claimed. The claim has no comments on the tab, the site
-labels the problem OPEN (page last edited 19 October 2025), and no refereed
+labeled the problem OPEN (page last edited 19 October 2025), and no refereed
 or arXiv version exists. The same conclusion is claimed by other routes on
 [[problems/polynomials/E0521/claims/2026_05_07_kwon_zou|Kwon–Zou 2026]],
 [[problems/polynomials/E0521/claims/2026_08_01_an_lin|An–Lin 2026]] and the

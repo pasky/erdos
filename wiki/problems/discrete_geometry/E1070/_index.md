@@ -24,7 +24,7 @@ updated: 2026-10-08T18:28:40Z
 $\mathbb{R}^2$, there exist $f(n)$ points such that no two are distance $1$
 apart. Estimate $f(n)$. In particular, is it true that $f(n)\geq n/4$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 22 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 22 January
 2026). Its proof-claims tab carries one partial proof claim: Ákos Dúcz and
 Dániel Varga's preprint of 26 June 2026, which answers the particular question
 in the negative. The claim is recorded on

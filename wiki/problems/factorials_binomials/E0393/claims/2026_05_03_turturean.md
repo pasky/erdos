@@ -91,7 +91,7 @@ The submitter is the claimant.
 **Standing.** The write-up is not refereed, is not on arXiv and no outside
 reviewer has recorded accepting it; a commenter wrote on 2026-05-04 that a
 standard check found no issues in the write-up, which is not acceptance. The
-site labels the problem OPEN and its remarks do not mention the write-up. The
+site labeled the problem OPEN and its remarks do not mention the write-up. The
 claim is `claimed`.
 
 **Depends on.** No page of this wiki.

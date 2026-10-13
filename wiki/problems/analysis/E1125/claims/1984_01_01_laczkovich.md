@@ -56,7 +56,7 @@ leave the theorem's statement unchanged.
 
 **Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum. The
 journal received it on 22 July 1980. Reviewed: Thomas Bloom, the curator of
-erdosproblems.com, labels the problem proved and credits Laczkovich's paper for
+erdosproblems.com, labeled the problem proved and credits Laczkovich's paper for
 the solution. The page is dated by the year of publication because the fascicle
 prints no fuller date.
 

@@ -27,7 +27,7 @@ $$
 \limsup_{N\to \infty}\frac{\lvert (A-A)\cap \{1,\ldots,N\}\rvert}{\lvert A\cap \{1,\ldots,N\}\rvert}=\infty?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN): the answer is yes. The
+**Status.** The site labeled the problem PROVED (LEAN): the answer is yes. The
 accepted claim is Ruzsa's 1978 theorem, which the site credits with the proof.
 It is recorded on
 [[problems/additive_combinatorics/E0899/claims/1978_01_01_ruzsa|its claim page]]

@@ -39,7 +39,7 @@ $$
 \limsup_{x\to \infty}\frac{1}{\log\log x}\sum_{a_{n_i}<x}1 \geq \limsup_{x\to \infty} \frac{1}{\log\log x}\sum_{a_n<x}\frac{1}{a_n\log a_n}?
 $$
 
-**Status.** Proved. The site labels the problem PROVED (page last edited 12 May
+**Status.** Proved. The site labeled the problem PROVED (page last edited 12 May
 2026). It credits Theorem 1.6 of Alexeev, Barreto, Li, Lichtman, Price, Shah,
 Tang and Tao (arXiv, 1 May 2026), which is recorded on
 [[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|its claim page]].
@@ -130,7 +130,7 @@ gives the proof as its Theorem 1.6, and the site's page says that similar proofs
 were found independently by subsets of its authors and by GPT 5.4 Pro. The
 [[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|claim page]]
 records the statement, the postings and the acceptance: the site's curator
-labels the problem proved and credits the paper, the community database records
+labeled the problem proved and credits the paper, the community database records
 it proved (last updated 21 April 2026), and there is no refereed publication and
 no Lean proof of this theorem. Nothing in this repository has verified the
 proof.

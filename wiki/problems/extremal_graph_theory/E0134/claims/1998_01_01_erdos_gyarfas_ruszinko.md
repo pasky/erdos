@@ -62,5 +62,5 @@ says that its topic grew from problems Erdős and Gyárfás studied in 1995.
 Erdős's 1997 problem paper [Er97b] mentions special cases of these problems on
 p. 229, with misprints. The site credits Erdős and Gyárfás with the narrower
 case of maximum degree $\ll\log n/\log\log n$, which [Er97b] item 7 reports
-without proof. The site's label credits Alon, so its commentary is not listed as
-review of this result.
+without proof. The site's label credited Alon, so its commentary is not listed
+as review of this result.

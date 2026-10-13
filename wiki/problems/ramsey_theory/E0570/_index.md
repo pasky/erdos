@@ -33,7 +33,7 @@ $$
 $m_0(k)$ such that every graph $H$ with $m\geq m_0(k)$ edges and no isolated
 vertices satisfies the displayed bound? The pages below use this reading.
 
-**Status.** The site labels the problem PROVED (page last edited 16 January
+**Status.** The site labeled the problem PROVED (page last edited 16 January
 2026, accessed 2026-09-08). CFMPP26 states the eventual bound for every $k$.
 Direct primary-source coverage is incomplete only at $k=5$, as explained below.
 The claim pages record the results behind the label, with their postings and

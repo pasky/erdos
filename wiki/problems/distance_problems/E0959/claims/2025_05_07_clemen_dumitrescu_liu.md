@@ -56,7 +56,7 @@ the order of $M(n)$ remains open.
 Mathematica Hungarica, volume 177 (2025), pages 231-245, published online on 12
 November 2025. The preprint arXiv:2505.04283 was first posted on 7 May 2025, the
 date this page carries. Not reviewed under the corpus's rule: the site's
-commentary credits [CDL25] with the $n\log n$ bound, but the site labels the
+commentary credits [CDL25] with the $n\log n$ bound, but the site labeled the
 problem OPEN, so that commentary is not an acceptance that settles it. The later
 claims of larger gaps are on
 [[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder's page]] and

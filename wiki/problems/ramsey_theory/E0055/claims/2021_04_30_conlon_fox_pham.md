@@ -51,7 +51,7 @@ it together with the two-color question, which is
 the paper's threshold $n(A)$ makes the constructed sequence entirely
 $r$-Ramsey complete.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 SOLVED and credits the solution to the paper in the problem's commentary. The
 commentary records the construction for every $r\ge2$ and the matching lower
 bound (accessed 2026-09-17; the page shows no last-edited date). The discussion

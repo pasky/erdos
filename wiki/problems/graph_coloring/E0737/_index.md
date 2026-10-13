@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 exist an edge $e$ such that, for all large $n$, $G$ contains a cycle of length
 $n$ containing $e$?
 
-**Status.** Proved. The site labels the problem PROVED and credits Thomassen
+**Status.** Proved. The site labeled the problem PROVED and credits Thomassen
 [Th83]. Its theorem gives, in any graph of uncountable chromatic number, an edge
 lying on a cycle of every sufficiently large length. The site attributes the
 question to Erdős, Hajnal and Shelah [EHS74]. They proved that such a graph
@@ -68,8 +68,8 @@ of the Erdős–Hajnal problem list
 records the weaker statement as its Problem 46, proved independently by Erdős,
 Hajnal and Shelah and by Thomassen.
 
-Search scope, 2026-10-07: the site's problem page and discussion thread (label
-PROVED; one comment, of 30 September 2025, supplying the Thomassen reference),
+Search scope, 2026-10-07: the site's problem page and discussion thread (one
+comment, of 30 September 2025, supplying the Thomassen reference),
 the Crossref record of Thomassen's paper, and the papers of Erdős (1981), of
 Erdős, Hajnal and Shelah, and of Komjáth (2025). Thomassen's paper is not
 held in the library; its statement follows the site's record and the paper's

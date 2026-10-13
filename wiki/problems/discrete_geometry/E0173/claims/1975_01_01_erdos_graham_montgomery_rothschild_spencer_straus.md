@@ -67,5 +67,5 @@ volume, and no evidence that the volume was refereed is recorded here, so no
 `refereed` evidence is listed. The site's commentary does not cite the paper;
 the problem's discussion on the site cites it (15 February 2026) as answering
 the question for several families of triangles, which is commentary on a problem
-the site labels OPEN and not an acceptance. The proofs are not checked by this
+the site labeled OPEN and not an acceptance. The proofs are not checked by this
 corpus, and nothing is independently reviewed by this project.

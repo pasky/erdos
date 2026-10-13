@@ -85,6 +85,6 @@ Hamiltonian (its [23], cited on p. 5).
   $F(n)<84n$ for all large $n$, so $F(n)/n$ is bounded and the closing
   question "is it true that $F(n)/n\to\infty$?" would have the answer no.
   The site's commentary notes that the bound answers the final question in
-  the negative while the site keeps the problem's label open, and the
+  the negative while the site kept the problem's label open, and the
   estimation problem stays open either way. The result is a preprint's and
   has no journal record; the problem's claim page records it as pending.

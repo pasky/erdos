@@ -66,7 +66,7 @@ remark also credits Heilbronn, without a publication, with the case of $c$
 sufficiently close to $1$.
 
 **Acceptance.** Refereed: International Journal of Number Theory 9, no. 2
-(2013), 481–486. The site labels the problem OPEN, so its remark crediting
+(2013), 481–486. The site labeled the problem OPEN, so its remark crediting
 the range $c>3/4$ is not an acceptance, and no `reviewed` evidence is listed.
 
 **Depends on.**

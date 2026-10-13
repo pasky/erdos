@@ -25,7 +25,7 @@ updated: 2026-10-08T14:17:37Z
 then is the length of the curve $\{ z\in \mathbb{C} : \lvert p(z)\rvert=1\}$
 maximised when $p(z)=z^n-1$?
 
-**Status.** Falsifiable. The site's label is FALSIFIABLE (page last edited
+**Status.** Falsifiable. The site's label was FALSIFIABLE (page last edited
 2026-01-23): open, but refutable by a finite counterexample. Six partial claims
 are recorded, and none settles the question. Degree $2$ is proved twice, by Wang
 ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]], accepted,
@@ -96,7 +96,7 @@ statement file for the problem.
 
 ## Current assessment
 
-The site labels the problem FALSIFIABLE: a single monic polynomial whose
+The site labeled the problem FALSIFIABLE: a single monic polynomial whose
 lemniscate is longer than that of $z^n-1$ of the same degree would refute the
 conjecture by a finite computation of two lengths. Remark 1.3 of
 [[../library/polynomials/tao_2025_maximal_length_erdos_herzog_piranian_lemniscate/_index|Tao 2025]]
@@ -113,7 +113,7 @@ refereeing ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]],
 [[problems/polynomials/E0114/claims/1999_09_01_eremenko_hayman|Eremenko–Hayman 1999]]),
 the third pending as an arXiv preprint
 ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]]); because the
-site's label is an open one, its remarks are commentary and not acceptance. The
+site's label was an open one, its remarks are commentary and not acceptance. The
 general upper bounds $f(n)\le 2\pi n$ [Da07] and $f(n)\le 2n+O(n^{7/8})$
 [FrNa09] precede Tao's result. The degrees from $3$ up to Tao's bound remain
 open; two pending claims treat degree 3, Dahlke's manuscript

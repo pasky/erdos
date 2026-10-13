@@ -27,7 +27,7 @@ $$
 \mathrm{gcd}(a,b)\leq a/\lvert A\rvert.
 $$
 
-**Status.** Proved. The site labels the problem PROVED and credits the paper
+**Status.** Proved. The site labeled the problem PROVED and credits the paper
 (page last edited 8 April 2026). Graham's conjecture was proved for every finite
 set by Balasubramanian and Soundararajan (Acta Arith. 75 (1996), a refereed
 journal). Szegedy (1986) and Zaharescu (1987) had earlier proved it for all

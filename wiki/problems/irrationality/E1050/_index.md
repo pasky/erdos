@@ -27,7 +27,7 @@ $$
 
 irrational?
 
-**Status.** The site labels the problem PROVED and credits Borwein [Bo91]. The
+**Status.** The site labeled the problem PROVED and credits Borwein [Bo91]. The
 site was accessed 2026-09-04, and the page was last edited 2025-09-29. As of
 2026-10-06, the community database behind the site records the status as proved
 with a Lean qualifier. That qualifier rests on the third-party lean-gallery

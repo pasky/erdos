@@ -258,7 +258,7 @@ page is linked from the Status). 3 March 2026 (TerenceTao): the factor $1/2$
 from the symmetric shift, so that the method's natural limit is $q(n,\log
 n)\ge(\frac12-o(1))\log n\log\log n/\log\log\log n$, which Tao credits to GPT's
 write-up. 7 March 2026 (the account Thomas Bloom): the upper-bound question is
-spun off as Problem 1181 and this problem is marked solved. 7 March 2026
+spun off as Problem 1181 and this problem was marked solved. 7 March 2026
 (TerenceTao): a GPT attempt on one third-party site and a GPT solution on
 another made negligible or no progress; the first noted the indexing point
 recorded above. 7 March 2026 (the account Woett, whom the site names as Wouter

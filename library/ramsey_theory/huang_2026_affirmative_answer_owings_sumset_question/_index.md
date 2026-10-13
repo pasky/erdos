@@ -126,7 +126,7 @@ site adoption, no independent review and no citing paper were found.
 exactly the site's statement (two colors, $A+A$ with the doubles $2a$
 included); recorded on that page as a pending full claim on its own claim
 page, from which the problem's standing (`claimed`, `proved`) is derived,
-while the site's label stays OPEN. Section 5.3 (the 3-fold version fails)
+while the site's label stayed OPEN. Section 5.3 (the 3-fold version fails)
 and Remark 1.7 (three colors fail for every weighted form) are context.
 
 **Results.**

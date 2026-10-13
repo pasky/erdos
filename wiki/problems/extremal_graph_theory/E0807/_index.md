@@ -53,7 +53,7 @@ graphs" (no reference is given there); [Al15] (p. 1) writes "Erdős conjectured
 random graph $G(n,0.5)$, $\tau(G)=n-\alpha(G)$ with high probability", [8] being
 [KRW88].
 
-**Status.** Disproved. The site labels the problem DISPROVED. The two results
+**Status.** Disproved. The site labeled the problem DISPROVED. The two results
 below and their acceptance evidence are recorded on the claim pages
 [[problems/extremal_graph_theory/E0807/claims/2014_02_26_alon|Alon's Theorem 1.1]]
 and

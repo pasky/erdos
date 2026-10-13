@@ -51,7 +51,7 @@ sharper upper bound is recorded on
 **Acceptance.** The paper is a refereed publication in Combinatorica, which is
 the `refereed` evidence. It was issued in September 2004. The day of issue is
 not recorded, and this page's date is the first of that month. The site's remark
-credits the first problem to Verstraëte. The site labels the problem OPEN
+credits the first problem to Verstraëte. The site labeled the problem OPEN
 because the second assertion is unsettled, so no `reviewed` evidence is listed.
 The corpus's card records the theorem at statement depth from the author's
 preprint. This corpus has not checked the proof in that preprint (pp. 3--15).

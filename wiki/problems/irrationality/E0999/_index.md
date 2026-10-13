@@ -35,7 +35,7 @@ $$
 \sum_{q\geq 1}\phi(q)\frac{f(q)}{q}=\infty.
 $$
 
-**Status.** Proved. The site's label is PROVED. It credits Koukoulopoulos and
+**Status.** Proved. The site's label was PROVED. It credits Koukoulopoulos and
 Maynard's 2019 proof of the Duffin-Schaeffer conjecture, refereed in 2020 and
 recorded on
 [[problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard|its claim page]].

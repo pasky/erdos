@@ -60,7 +60,7 @@ answer is no. The claim page
 records the result as accepted on the refereed publication. The standing in the
 frontmatter is derived from it. The site's curator is not an independent
 reviewer of this result. The paper's acknowledgement records that the curator
-reviewed an earlier draft and advised the author, so the site's label is not
+reviewed an earlier draft and advised the author, so the site's label was not
 acceptance evidence. The site adds that a variant of the construction also
 answers Erdős's squarefree ($p^2$) question in the negative. That sentence is
 the site's statement: the paper does not treat squarefree numbers.
@@ -174,7 +174,7 @@ the fourth kills every shift in turn. The
 proof and the three constructions are not independently reviewed in this
 corpus. Acceptance evidence: publication in Integers, a refereed journal (the
 header dates above; the journal's volume 24 contents page lists Article A89).
-The site's label is not independent acceptance: the paper's acknowledgement
+The site's label was not independent acceptance: the paper's acknowledgement
 (p. 4) thanks the site's curator, Thomas Bloom, for reviewing an earlier
 draft and for advising the author in the Oxford mathematics master's program,
 and p. 2 reports that the site marked the problem solved when the first

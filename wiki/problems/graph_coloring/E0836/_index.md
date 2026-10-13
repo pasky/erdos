@@ -53,7 +53,7 @@ that every vertex lies in an edge; if isolated vertices were allowed, adjoining
 isolates would trivially falsify the first question even under the exact
 chromatic-number hypothesis.
 
-**Status.** Open on erdosproblems.com (label OPEN). The site credits a
+**Status.** Labeled open on erdosproblems.com (label OPEN). The site credits a
 counterexample to the first question to Alon. The same construction gives the
 lower bound of Erdős and Lovász's Theorem 8, recorded on
 [[problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz|their claim page]].

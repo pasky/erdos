@@ -42,10 +42,10 @@ monochromatic paths of possibly different colors always cover the vertex set
 (Gerencsér and Gyárfás, 1967), which is why the same-color requirement is the
 point of the problem.
 
-**Status.** The site labels the problem PROVED, and its curator credits
+**Status.** The site labeled the problem PROVED, and its curator credits
 Pokrovskiy, Versteegen and Williams with the affirmative answer. Here the
 problem stands as claimed, through the pending full claim of Chen and Chen
-described below. The site's label rests on the large-$n$ theorem, which is read
+described below. The site's label rested on the large-$n$ theorem, which is read
 here as settling the question for large $n$ only. The credited result is Theorem
 1.3 of the paper of Pokrovskiy, Versteegen and Williams (J. Combin. Theory Ser.
 B 176 (2026), 551--560, refereed; the statement here follows arXiv v2 of 7
@@ -55,7 +55,7 @@ monochromatic paths of one color always suffice. Its remark that $\sqrt n+10$
 paths suffice for every $n$ is announced "with some additional technical
 effort", not proved. The statement for every $n\ge1$ is claimed in an unrefereed
 2026 preprint of Chen and Chen. This preprint is the one entry of the site's
-proof-claims tab, and the site has not adopted it. Two claim pages record the
+proof-claims tab, and the site had not adopted it. Two claim pages record the
 results, their postings and their acceptance evidence, and the frontmatter
 standing derives from them.
 [[problems/ramsey_theory/E0518/claims/2024_09_05_pokrovskiy_versteegen_williams|Pokrovskiy, Versteegen and Williams 2024]]

@@ -53,6 +53,6 @@ alone.
 1980 by the publisher's record; the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Monatsh. Math. 90 (1980), no. 4, 315–329.
-Reviewed: the site's curator, T. F. Bloom, labels the problem PROVED (LEAN)
+Reviewed: the site's curator, T. F. Bloom, labeled the problem PROVED (LEAN)
 and credits this paper in the problem's commentary as essentially the best
 possible result. The curator is independent of the authors.

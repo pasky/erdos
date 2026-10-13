@@ -49,7 +49,7 @@ statement follows the site's commentary and the formal-conjectures variant
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 DISPROVED. The problem page's commentary credits the improved error term
 $o(N^{1/4})$ to Jurkat and to Montgomery and Vaughan. The proof-claim tab is
 empty and the thread has no posts.

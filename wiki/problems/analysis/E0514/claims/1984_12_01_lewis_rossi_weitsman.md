@@ -75,7 +75,7 @@ the growth of $f$ along the path in terms of $M(r)$.
 the specialization to $u=\log\lvert f\rvert$ is immediate.
 
 **Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a refereed
-journal. The site labels the problem OPEN and credits Boas, unpublished, with
+journal. The site labeled the problem OPEN and credits Boas, unpublished, with
 the first question. It does not credit this paper, so the page lists no
 `reviewed` evidence.
 

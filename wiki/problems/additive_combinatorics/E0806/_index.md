@@ -37,7 +37,7 @@ $|A|\le N^{1/2}$, which the resolving theorem covers directly. The question asks
 about a single $o(\cdot)$ for all $A$, that is about $M_n=o(n)$, as the origin
 makes explicit.
 
-**Status.** Proved. The site labels the problem PROVED. Theorem 1.4 of Alon,
+**Status.** Proved. The site labeled the problem PROVED. Theorem 1.4 of Alon,
 Bukh and Sudakov [ABS09] (Israel J. Math. 174 (2009) 285--301, refereed;
 [[../library/additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/theorem_1_4|result page]])
 concerns a group of order $n$ containing a non-doubling set of size between

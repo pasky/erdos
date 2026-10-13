@@ -25,8 +25,8 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $n\geq k+1$. Every graph on $n$ vertices with at least
 $\frac{k-1}{2}n+1$ edges contains every tree on $k+1$ vertices.
 
-**Status.** Proved. The site labels the problem proved and formalized, crediting
-GPT-6 Astra with the full proof. The corpus accepts that result on the
+**Status.** Proved. The site labeled the problem proved and formalized,
+crediting GPT-6 Astra with the full proof. The corpus accepts that result on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|claim page]]
 on reviewed and formalized evidence, so the problem stands solved and proved.
 The pinned Lean development was built here, and its axioms were found to be the

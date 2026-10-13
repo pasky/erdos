@@ -29,7 +29,8 @@ Any $r$-uniform hypergraph on $n$ vertices with at least $(1+\epsilon)(n/r)^r$
 many edges contains a subgraph on $m$ vertices with at least $c_rm^r$ edges,
 where $m=m(n)\to \infty$ as $n\to \infty$.
 
-**Status.** Open on the site (label OPEN; page last edited 5 October 2025). One
+**Status.** Labeled open on the site (label OPEN; page last edited 5 October
+2025). One
 full claim is pending: [[problems/set_systems/E1075/claims/2026_09_05_gu|Gu's
 disproof]] (5 September 2026). It gives explicit $5$-uniform hypergraphs meant
 to show that no $c_5>5^{-5}$ works, and lifts them to every $r\ge5$. The forum

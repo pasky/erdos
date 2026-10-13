@@ -58,4 +58,4 @@ the year of the earliest of the three papers.
 
 **Acceptance.** Refereed: the results appeared in the Journal of the Indian
 Mathematical Society and in Acta Arithmetica, as Erdős's survey attests. The
-site labels the problem OPEN, so its commentary gives no `reviewed` evidence.
+site labeled the problem OPEN, so its commentary gives no `reviewed` evidence.

@@ -33,13 +33,13 @@ $f(n)$. The interpretation of [AlSu07], which states both questions from [Er91]
 for the subgraph orders $(\log n)^2$ and $(\log n)^3$ within its general
 $f(n,s,t)$, uses $f(m,n)$ in both places: the largest independence number
 guaranteed for every graph satisfying the stated $m$-vertex local condition. The
-site labels the problem DISPROVED for this formulation as written; the
+site labeled the problem DISPROVED for this formulation as written; the
 frontmatter standing derives from the claim page under the two-variable reading.
 Separately, the source results refute the two displayed lower-bound proposals
 under the two-variable reading; they do not resolve the general estimation
 problem.
 
-**Status.** Disproved. The site labels the problem DISPROVED. Its commentary
+**Status.** Disproved. The site labeled the problem DISPROVED. Its commentary
 credits Alon and Sudakov with the two bounds that refute the displayed
 proposals. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0804/claims/2007_06_27_alon_sudakov|Alon and Sudakov's bounds]],
@@ -86,7 +86,7 @@ no `formalized` evidence.
 ## Current assessment
 
 The catalog formulation defines $f(m,n)$ but writes $f(n)$ in its guarantee and
-in the general estimation request. The site labels the problem DISPROVED for
+in the general estimation request. The site labeled the problem DISPROVED for
 this formulation as written. Under the two-variable reading of [AlSu07], the two
 displayed lower-bound proposals are false; the general estimation problem is not
 thereby resolved.

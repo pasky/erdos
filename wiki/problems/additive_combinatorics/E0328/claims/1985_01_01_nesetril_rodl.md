@@ -61,7 +61,7 @@ representation once, and its proof is not checked in this corpus.
 
 **Acceptance.** Refereed: Proceedings of the American Mathematical Society
 **93** (1985), no. 1, 185–188, at the DOI linked above. Reviewed: the site's
-curator, Thomas Bloom, labels the problem DISPROVED (LEAN). In the problem's
+curator, Thomas Bloom, labeled the problem DISPROVED (LEAN). In the problem's
 commentary (page last edited 6 April 2026), the curator credits Nešetřil and
 Rödl with showing that the answer is no for all $C$, even if $t$ may depend on
 $A$. The site's Lean mark refers to a separate public Lean refutation of the

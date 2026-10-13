@@ -45,7 +45,7 @@ factors on absolute values, with $P^+(1)=1$ for any small unit products.
 Irreducibility and $d\geq2$ exclude zero factors, and the products have
 absolute value greater than one eventually.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 1 February
+**Status.** Open. The site labeled the problem OPEN (page last edited 1 February
 2026). Neither the general fixed-$f$ power-gain question nor the stronger
 degree-scale question is resolved for every irreducible polynomial. The general
 subpower theorem and the special-family power bounds below fall short of both.

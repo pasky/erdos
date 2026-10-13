@@ -27,8 +27,8 @@ defining $a_{n+1}$ for $n\geq k$ to be the least integer exceeding $a_n$ which
 is not of the form $a_i+a_j$ with $i,j\leq n$. Is it true that the sequence of
 differences $a_{m+1}-a_m$ is eventually periodic?
 
-**Status.** Disproved; the site's label is OPEN (on 2026-10-07; page last edited
-20 January 2026). Li's full disproof of 9 August 2026 is
+**Status.** Disproved; the site's label was OPEN (page last edited 20 January
+2026). Li's full disproof of 9 August 2026 is
 [[problems/integer_sequences/E0341/claims/2026_08_09_li|an explicit 21-element seed whose greedy extension has aperiodic gaps]].
 The corpus accepts it on formalized evidence. Boris Alexeev's Lean formalization
 of it was built here, and its theorem was audited against the Statement above,
@@ -51,7 +51,7 @@ pins.
 
 The frontmatter standing is derived from the one claim page, Li's full claim
 that the answer is no, accepted on formalized evidence, so the problem stands
-solved and disproved while the site's label is OPEN. The audited Lean theorem
+solved and disproved while the site's label was OPEN. The audited Lean theorem
 asserts that some finite seed has a greedy extension whose gaps are not
 eventually periodic; it does not name Li's seed, though its proof uses it, and
 Li's infinite family of seeds is not built. The notes under Known Results

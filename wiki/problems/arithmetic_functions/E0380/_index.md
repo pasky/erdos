@@ -70,7 +70,7 @@ $x/\exp((c+o(1))\sqrt{\log x\log\log x})$ for some $c>0$. Tao's preprint [Ta26c]
 x)^{-1+o(1)}))\,\#\{n\le x:P(n)^2\mid n\}$ (Theorem 1.7) by the Guth–Maynard
 zero-density estimate and the large sieve (built on Montgomery's uncertainty
 lemma) for the long bad intervals and an anti-sieve with character-sum moment
-bounds for the short ones, and the site's curator labels the problem PROVED on
+bounds for the short ones, and the site's curator labeled the problem PROVED on
 that preprint, which is the accepted claim's `reviewed` evidence; no journal
 publication is recorded. The same preprint settles the site's companion remark:
 the integers in very bad intervals (product powerful) that are not themselves

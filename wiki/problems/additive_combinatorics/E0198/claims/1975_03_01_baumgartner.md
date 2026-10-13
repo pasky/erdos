@@ -63,7 +63,7 @@ Baumgartner because the site credits him; Baumgartner never stated the integer
 result, and as a disproof of this problem the construction was first written
 out on the site's page, by mid-May 2025.
 
-**Acceptance.** None. The site's curator, Thomas Bloom, labels the problem
+**Acceptance.** None. The site's curator, Thomas Bloom, labeled the problem
 disproved and credits the result to Baumgartner on the report of Erdős and
 Graham, with the qualification that [Ba75] does not state it exactly. But the
 curator personally wrote out the integer construction above. The

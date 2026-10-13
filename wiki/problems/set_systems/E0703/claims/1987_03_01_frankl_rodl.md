@@ -54,7 +54,7 @@ which Frankl and Wilson [FrWi81] had proved by other means.
 **Acceptance.** Refereed: Trans. Amer. Math. Soc. **300** (1987), no. 1,
 259–286, received 24 October 1985. The issue is dated March 1987, and the page
 is dated to the first day of that month. Reviewed: Thomas Bloom, the site's
-curator, marks the problem proved and credits the yes answer to Frankl and Rödl
+curator, marked the problem proved and credits the yes answer to Frankl and Rödl
 [FrRo87]. The library's compilation of the theorem's proof chain is reading
 coverage, not acceptance evidence.
 

@@ -58,7 +58,7 @@ $n\ge7$ and the second, asymptotic question are not touched.
 Discrete Applied Mathematics. The Crossref record dates the issue to June 1995
 without a day, so this page is named by the first day of that month. Not
 reviewed under the corpus's rule: the site's commentary credits [ErFi95] with
-the cases $n=5$ and $n=6$, but the site labels the problem OPEN. That commentary
-is therefore a credit on an open problem, not an acceptance that settles it.
-Clemen, Dumitrescu and Liu restate the two cases as known in their 2025 paper.
-This corpus did not independently review the proof.
+the cases $n=5$ and $n=6$, but the site labeled the problem OPEN. That
+commentary is therefore a credit on an open problem, not an acceptance that
+settles it. Clemen, Dumitrescu and Liu restate the two cases as known in their
+2025 paper. This corpus did not independently review the proof.

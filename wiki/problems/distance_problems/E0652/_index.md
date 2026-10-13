@@ -45,7 +45,7 @@ determines $O(\sqrt{kn})$ distances to the other $n$ points when
 $2\le k\le n^{1/3}$. So each $\alpha_k$ is finite, and the site asks instead
 whether these constants grow with $k$; that question sets the standing.
 
-**Status.** Proved. The site's label is PROVED.
+**Status.** Proved. The site's label was PROVED.
 [[problems/distance_problems/E0652/claims/2019_12_04_mathialagan|Mathialagan's theorem]]
 [Ma21] answers the question. It is refereed and credited by the site's curator.
 [[problems/distance_problems/E0652/claims/2026_01_29_feng|Feng and coauthors]]

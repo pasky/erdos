@@ -62,5 +62,5 @@ volume 44, issue 6 (2024). This is the `refereed` evidence. This page is dated
 to the first arXiv posting, because the journal record carries no day known
 here. The site's commentary does not cite the paper. The problem's discussion on
 the site cites it (15 February 2026). That is commentary on a problem the site
-labels OPEN, so it is not `reviewed` evidence. The proof is not checked by this
+labeled OPEN, so it is not `reviewed` evidence. The proof is not checked by this
 corpus. Nothing is independently reviewed by this project.

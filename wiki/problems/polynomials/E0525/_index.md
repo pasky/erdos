@@ -31,7 +31,7 @@ $$
 m(f)=\min_{\lvert z\rvert=1}\lvert f(z)\rvert?
 $$
 
-**Status.** Solved. The site's label is PROVED. The derived standing is
+**Status.** Solved. The site's label was PROVED. The derived standing is
 `solved`/`answered`. Both questions are answered. The first is answered yes. The
 second asks for the behavior of $m(f)$, which a limit law determines rather than
 proves or disproves.

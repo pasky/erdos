@@ -32,7 +32,7 @@ is a $k$-term monochromatic arithmetic progression then $k\ll_\epsilon
 a^\epsilon$ for all $\epsilon>0$?
 
 **Status.** Proved. The label is the site's (PROVED, page last edited 4 April
-2026, read 2026-10-07), and its commentary credits Zach Hunter's proof on the
+2026), and its commentary credits Zach Hunter's proof on the
 discussion thread. The standing is derived from the claim page. The accepted
 claim is Hunter's $2$-coloring of 10 August 2025, on
 [[problems/additive_combinatorics/E0984/claims/2025_08_10_hunter|its claim page]],

@@ -34,7 +34,7 @@ $$
 s_{n+1}-s_n \leq (1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}?
 $$
 
-**Status.** Open: the site labels the problem OPEN (page last edited 19 October
+**Status.** Open: the site labeled the problem OPEN (page last edited 19 October
 2025). Neither question is answered. Filaseta and Trifonov (1992) proved the
 first for every $\epsilon>1/5$. Pandey's 2024 preprint claims it for every
 $\epsilon>1/5-\eta$ with some $\eta>0$, as a pending partial claim. Granville
@@ -93,7 +93,7 @@ claim page: Erdős's 1951 theorem is a lower bound for infinitely many $n$,
 which shows that the constant $\pi^2/6$ could not be lowered but answers neither
 question, so it has no claim page; the Richert--Rankin bound $n^{2/9+\epsilon}$
 that [Er79] reports, and the earlier exponents the [FiTr92] card lists, are
-superseded by [FiTr92] and are recorded on the cards only. The site labels the
+superseded by [FiTr92] and are recorded on the cards only. The site labeled the
 problem OPEN, so the curator's commentary is not acceptance of any claim and no
 page lists `reviewed`; the corpus records no check of any of the proofs.
 

@@ -66,7 +66,7 @@ $3$-colorable, that subgraph is not $2$-degenerate, so it contains a finite
 subgraph of minimum degree at least three. Applying the theorem to that finite
 subgraph gives $\min(m_{i+1}-m_i)\le2$ whatever the girth. The reduction from
 chromatic number to minimum degree is not in the paper. The site's curator
-labels the problem DISPROVED (LEAN) and credits Bondy and Vince; the Lean
+labeled the problem DISPROVED (LEAN) and credits Bondy and Vince; the Lean
 qualification refers to a third-party development posted on the discussion
 thread in January 2026, not among the corpus's audited builds.
 

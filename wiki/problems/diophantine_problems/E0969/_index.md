@@ -26,7 +26,7 @@ $$
 Q(x)=\frac{6}{\pi^2}x+E(x).
 $$
 
-**Status.** Open. The site's label is OPEN. The page was last edited on
+**Status.** Open. The site's label was OPEN. The page was last edited on
 2025-10-19, and its proof-claims tab was empty on 2026-10-06. No claim page is
 recorded.
 
@@ -48,7 +48,7 @@ https://www.erdosproblems.com/969.
 ## Current assessment
 
 Site formulation(last edit): determine the order of
-magnitude of $E(x)=Q(x)-\frac{6}{\pi^2}x$. The question is open
+magnitude of $E(x)=Q(x)-\frac{6}{\pi^2}x$. The question was open
 on the site and no claim about it is on record. The site's summary of the
 literature leaves a gap between an omega result and the upper bounds. Evelyn
 and Linfoot [EvLi31] proved $E(x)=\Omega(x^{1/4})$: $|E(x)|\ge c\,x^{1/4}$

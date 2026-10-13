@@ -58,7 +58,7 @@ nontrivial subsum with denominator below $\exp(1/\alpha)$.
 
 **Acceptance.** Refereed: the paper is published in International Mathematics
 Research Notices 2026, no. 2, rnaf382 (published online 14 January 2026; DOI
-10.1093/imrn/rnaf382). Reviewed: the site's curator, T. F. Bloom, marks the
+10.1093/imrn/rnaf382). Reviewed: the site's curator, T. F. Bloom, marked the
 problem proved and credits the answer to Liu and Sawhney's observation and their
 precise version. Bloom is not an author of their paper, so the credit is
 independent of the claimants. Bloom's density theorem is the input that their

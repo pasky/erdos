@@ -105,7 +105,7 @@ states that the manuscript was drafted with the assistance of AI systems (the
 proof-claims tab names GPT-5.6 Sol) and that the author relies on the Lean
 development rather than on an independent check of the exposition.
 
-**Standing.** Claimed: the site's label was OPEN on 2026-10-07 (page last
-edited 12 January 2026), with no comment under the claim on the proof-claims
+**Standing.** Claimed: the site's label was OPEN (page last edited 12 January
+2026), with no comment under the claim on the proof-claims
 tab; the preprint is a repository draft, not on a preprint server, with no
 refereed version, site acceptance or independent review found on 2026-10-07.

@@ -62,7 +62,7 @@ its finer proof.
 **Acceptance.** Refereed: International Mathematics Research Notices is a
 refereed journal, and the paper is its version of record. It was received 19
 March 2025, accepted 27 June 2025 and published online 22 July 2025. Reviewed:
-T. F. Bloom, the site's curator, labels the problem PROVED, credits the
+T. F. Bloom, the site's curator, labeled the problem PROVED, credits the
 resolution to this paper and states its asymptotic bound in the commentary
 (snapshot of 2026-09-05). Bloom took no part in the paper. The one comment in
 the thread concerns a broken reference link, and the proof-claims tab is empty.

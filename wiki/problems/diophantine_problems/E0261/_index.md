@@ -39,7 +39,7 @@ $$
 
 has at least $2^{\aleph_0}$ solutions?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 1 December
+**Status.** Open. The site labeled the problem OPEN (page last edited 1 December
 2025; accessed 2026-10-07). The three questions are the parts `infinitely_many`,
 `all_n` and `continuum` of the frontmatter. No claim settles or pends on the
 second or the third question, so the derived standing is open, claim none. The

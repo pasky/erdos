@@ -39,11 +39,11 @@ The site states the problem with four, and that question sets the standing. The
 general form, in which some fixed $k$ replaces four, is discussed with the
 claims under Current assessment.
 
-**Status.** Falsifiable on the site. Its export of 2026-09-04 records the label
-"FALSIFIABLE", and its page was last edited 27 October 2025. The standing in the
-frontmatter is derived from the claim pages. The site's proof-claims tab carries
-one full proof claim: the manuscript of Liam Kruer, Jensen Kohlmeyer and Liam
-Price of 13 September 2026. It is recorded on
+**Status.** Labeled falsifiable on the site. Its export of 2026-09-04 records
+the label "FALSIFIABLE", and its page was last edited 27 October 2025. The
+standing in the frontmatter is derived from the claim pages. The site's
+proof-claims tab carries one full proof claim: the manuscript of Liam Kruer,
+Jensen Kohlmeyer and Liam Price of 13 September 2026. It is recorded on
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]]
 without being adopted.
 
@@ -70,7 +70,7 @@ https://www.erdosproblems.com/97.
 **Question and standing.** The site formulation above asks
 whether every convex polygon has a vertex from which no four other vertices
 are equidistant, the distance allowed to depend on the vertex. The site
-labels it falsifiable: one convex polygon in which every vertex has four
+labeled it falsifiable: one convex polygon in which every vertex has four
 other vertices at a common distance from it would refute it, a finite check
 once the polygon is given, and that is a note on an open question, not a
 claim. One pending full claim asserts exactly such polygons:
@@ -80,7 +80,7 @@ with at least $(\frac14-o(1))\log_2\log_2n$ others at distance exactly one,
 with a counterexample of at most $3432\cdot2^{36036}$ vertices, and refutes as
 well the general form in which some fixed $k$ replaces four. The manuscript is
 unrefereed and unreviewed, this corpus has not built its Lean file, and the
-site's export of 2026-09-04 labels the problem "FALSIFIABLE" with no
+site's export of 2026-09-04 labeled the problem "FALSIFIABLE" with no
 acceptance recorded, so the claim is pending and the frontmatter standing is
 claimed through it, not solved.
 

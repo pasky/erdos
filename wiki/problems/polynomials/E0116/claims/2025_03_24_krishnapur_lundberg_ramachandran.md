@@ -58,12 +58,13 @@ inradius bound of order $1/(n\sqrt{\log n})$, which bears on
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Reviewed: erdosproblems.com labels the problem proved and states
-the $(\log n)^{-1}$ lower bound and the $(\log\log n)^{-1}$ upper bound as
-proved by this paper, cited as [KLR25] (page last edited 2025-10-24). The corpus
-counts this as documented independent acceptance by the site's curator, T. F.
-Bloom (erdosproblems.com). The formal-conjectures file lists the logarithmic
-form as solved without a formal proof, so the evidence lists no `formalized`
-kind. Not refereed: the preprint is at its first arXiv version, and no journal
-version is recorded. Proof coverage: the card's digest only. The proof is
-unverified by this corpus, and the standing rests on the site's acceptance.
+**Acceptance.** Reviewed: erdosproblems.com labeled the problem proved and
+states the $(\log n)^{-1}$ lower bound and the $(\log\log n)^{-1}$ upper bound
+as proved by this paper, cited as [KLR25] (page last edited 2025-10-24). The
+corpus counts this as documented independent acceptance by the site's curator,
+T. F. Bloom (erdosproblems.com). The formal-conjectures file lists the
+logarithmic form as solved without a formal proof, so the evidence lists no
+`formalized` kind. Not refereed: the preprint is at its first arXiv version, and
+no journal version is recorded. Proof coverage: the card's digest only. The
+proof is unverified by this corpus, and the standing rests on the site's
+acceptance.

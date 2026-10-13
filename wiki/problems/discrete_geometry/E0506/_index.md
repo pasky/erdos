@@ -40,7 +40,7 @@ three points are collinear the question is a different one, with a different
 claimed answer: Wrona's repository claims $1+\binom{n-1}{2}$ for it, except $20$
 at $n=8$.
 
-**Status.** The site labels the problem DECIDABLE, a label it glosses as
+**Status.** The site labeled the problem DECIDABLE, a label it glosses as
 resolved up to a finite check (page last edited 1 February 2026). The label and
 the proof-claims thread are recorded as of 6 October 2026. The standing in the
 frontmatter derives from the claim pages. The accepted partial result is the

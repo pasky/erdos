@@ -58,7 +58,7 @@ Beck, whose reference for it is Erdős's 1976 paper in J. Indian Math. Soc.
 the "for infinitely many values of $d$" quantifier, adds that the 1973 statement
 on p. 121 "is stated incorrectly", and gives no reference for Cohen).
 
-**Status.** Open: the site labels the problem OPEN (page last edited 4 April
+**Status.** Open: the site labeled the problem OPEN (page last edited 4 April
 2026). The only results on the exact question are upper bounds. The best is
 Beck's theorem (J. Combin. Theory Ser. A 29 (1980), 376--379, refereed). For
 every $\varepsilon>0$ it gives a 2-coloring under which
@@ -153,7 +153,7 @@ Waerden's theorem forces $f(d)\to\infty$. The thread and the proof-claim tab
 are empty.
 
 **Claims.** The three results the commentary credits are upper bounds on the
-best $f$, partial results on a problem the site labels OPEN. Beck's bound is
+best $f$, partial results on a problem the site labeled OPEN. Beck's bound is
 an accepted partial claim on
 [[problems/ramsey_theory/E0187/claims/1980_11_01_beck|its claim page]], with
 `refereed` evidence only: the curator's commentary on an OPEN problem is not

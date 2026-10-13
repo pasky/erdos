@@ -24,12 +24,12 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** What is the largest possible subset $A\subseteq\{1,\ldots,N\}$
 which contains $N$ such that $\mathrm{gcd}(a,b)>1$ for all $a\neq b\in A$?
 
-**Status.** Solved on the site. The curator credits Ahlswede and Khachatrian
-(1996) with proving Erdős's refined conjecture. The conjecture says that the
-maximum is attained, for some $j$, by the integers up to $N$ divisible by one of
-$2q_1,\ldots,2q_j,q_1\cdots q_j$, where $q_1<\cdots<q_r$ are the prime factors
-of $N$. This refined conjecture came after the original guess of Erdős and
-Graham fell to easy counterexamples. See the
+**Status.** Labeled solved on the site. The curator credits Ahlswede and
+Khachatrian (1996) with proving Erdős's refined conjecture. The conjecture says
+that the maximum is attained, for some $j$, by the integers up to $N$ divisible
+by one of $2q_1,\ldots,2q_j,q_1\cdots q_j$, where $q_1<\cdots<q_r$ are the prime
+factors of $N$. This refined conjecture came after the original guess of Erdős
+and Graham fell to easy counterexamples. See the
 [[problems/divisors/E0534/claims/1996_01_01_ahlswede_khachatrian|claim page]].
 The standing in the frontmatter derives from the claim pages. The site notes
 that the 1973 source printed the condition as $(a,b)=1$, a misprint for

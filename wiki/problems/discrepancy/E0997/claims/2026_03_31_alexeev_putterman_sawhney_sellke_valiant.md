@@ -4,7 +4,7 @@ title: Alpha times the primes is never well-distributed
 desc: |
   Alexeev, Putterman, Sawhney, Sellke and Valiant proved that for every real
   $\alpha$ the fractional parts of $\alpha$ times the primes are not
-  well-distributed. The site labels the problem proved, and the preprint is not
+  well-distributed. The site labeled the problem proved, and the preprint is not
   refereed.
 authors:
 - Boris Alexeev
@@ -60,7 +60,7 @@ the partial claim
 **Depends on.** Nothing in this wiki; the result rests on the cited preprint
 and the published theorem of Banks, Freiberg and Turnage-Butterbaugh.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 proved on the strength of this paper (page last edited 2026-04-01). The
 discussion thread of 2026-04-01 carries a comment by Terence Tao stating that
 the problem is now solved and describing the argument. Tao notes that a 2013

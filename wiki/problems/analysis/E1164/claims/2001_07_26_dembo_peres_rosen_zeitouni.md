@@ -79,7 +79,7 @@ event, which is a tail probability's value against a cumulative event; the
 cumulative form is the one displayed above.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics.
-Reviewed: Thomas Bloom, the curator of erdosproblems.com, labels the problem
+Reviewed: Thomas Bloom, the curator of erdosproblems.com, labeled the problem
 proved and credits this paper for the stronger conjecture. The page is dated
 by the first arXiv posting, 26 July 2001.
 

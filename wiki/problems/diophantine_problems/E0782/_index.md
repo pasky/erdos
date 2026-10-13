@@ -35,7 +35,8 @@ $$
 a+\left\{ \sum_i \epsilon_ib_i : \epsilon_i\in \{0,1\}\right\}?
 $$
 
-**Status.** Open. The site labels the problem OPEN. By the conditional result of
+**Status.** Open. The site labeled the problem OPEN. By the conditional result
+of
 [[problems/diophantine_problems/E0782/claims/2006_08_03_cilleruelo_granville|Cilleruelo and Granville]],
 both questions have a negative answer under the Bombieri-Lang conjecture.
 

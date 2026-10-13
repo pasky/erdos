@@ -35,10 +35,10 @@ $$
 \sum_{1\leq k\leq N}f(\{ \alpha n_k\})=o(N\sqrt{\log\log N})?
 $$
 
-**Status.** OPEN on erdosproblems.com. The site's commentary records Erdős's
-bounds and does not name a later result. No claim had been filed on the site's
-proof-claims tab. One pending partial claim answers the example question in the
-negative. It is Boon Suan Ho's preprint of 20 April 2026,
+**Status.** Labeled OPEN on erdosproblems.com. The site's commentary records
+Erdős's bounds and does not name a later result. No claim had been filed on the
+site's proof-claims tab. One pending partial claim answers the example question
+in the negative. It is Boon Suan Ho's preprint of 20 April 2026,
 [[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
 problem's thread on 21 April 2026.
 
@@ -65,7 +65,7 @@ $o(N\sqrt{\log\log N})$. Theorem 1.6 of Ho's v2 (Theorem 1.5 of v1) at $p=2$
 answers the example question no, with a mean-zero $f\in L^2$ and a lacunary
 sequence whose sums exceed $N(\log N)^{1/2-\varepsilon}$ infinitely often
 almost everywhere for every $\varepsilon>0$; the claim is pending on its claim
-page; the site labels the problem OPEN and records no proof claim. Together
+page; the site labeled the problem OPEN and records no proof claim. Together
 with Erdős's upper bound $o(N(\log N)^{1/2+\varepsilon})$, the worst case over
 lacunary sequences and square-integrable $f$ grows like
 $N(\log N)^{1/2+o(1)}$, the reading on which the author suggested the growth

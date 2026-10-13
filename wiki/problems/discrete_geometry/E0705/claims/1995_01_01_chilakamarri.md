@@ -44,7 +44,7 @@ lists it in the issue of January 1995 and holds no copy online. The problem
 asks about the faithful graph of a point set, with an edge exactly when two
 points are at distance $1$, and whether this paper's point sets carry no
 unit distance besides the graphs' edges is not established from the paper,
-so `refereed` is not listed. The curator's label credits O'Donnell's
+so `refereed` is not listed. The curator's label credited O'Donnell's
 dissertation, not this paper.
 
 **Dating.** The journal's archive dates the issue January 1995; the day is a

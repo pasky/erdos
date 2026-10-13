@@ -99,7 +99,7 @@ records the bridge from length $N$ to degree $N-1$, the declaration, the
 build with axioms `propext`, `Classical.choice` and `Quot.sound` only, the
 comparator pin and the fidelity audit; the evidence is `formalized` alone,
 since nobody outside the repository has reviewed or refereed the result and
-the site lists the problem OPEN with an empty proof-claims tab. What the result trusts is Lean's kernel and the consistency of
+the site listed the problem OPEN with an empty proof-claims tab. What the result trusts is Lean's kernel and the consistency of
 Mathlib; what it does not give is a lower bound on the circle, as the
 manuscript's remark after Theorem 1.1 says, nor a convergence rate or a
 signing algorithm, as the release's family document says.

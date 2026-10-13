@@ -69,7 +69,7 @@ the bound must be replaced by $\tfrac12\{1+o(1)\}n^2$, and Hayman's Update
 Chebyshev's polynomials. The site states the problem with the $o(1)$ term,
 and that question, made monic, sets the standing.
 
-**Status.** Proved. The site's label is PROVED (LEAN), and it describes the
+**Status.** Proved. The site's label was PROVED (LEAN), and it describes the
 corrected Statement. Its Lean marker refers to a formal proof by others, linked
 from the claim page. That proof is unbuilt and unaudited in this corpus. The
 corrected Statement is proved. Eremenko and Lempert [ErLe94] prove the sharp

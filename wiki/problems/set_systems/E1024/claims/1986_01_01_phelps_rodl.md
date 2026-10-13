@@ -54,6 +54,6 @@ minimum independence number, Ars Combin. 21 (1986), 167–172, a journal article
 The citation follows the site's record, with the volume taken from Füredi's
 reference list. The record gives the year and no finer date, so the page is
 dated to the first day of that year. Reviewed: Thomas Bloom, the site's curator,
-labels the problem solved and credits the estimate to Phelps and Rödl. The
+labeled the problem solved and credits the estimate to Phelps and Rödl. The
 site's page listed no comment, proof claim or formalization. Nothing here rests
 on this project's own review.

@@ -44,6 +44,6 @@ n^n$; the upper bound $e^2n^n$ is of the order $n^n$ and does not decide it.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** `refereed`: Journal of Geometry 109 (2018), no. 1, Paper No. 19.
-The site credits the bounds in its remarks on the problem, but it labels the
+The site credits the bounds in its remarks on the problem, but it labeled the
 problem OPEN. That remark is therefore not acceptance, and no `reviewed` is
 listed.

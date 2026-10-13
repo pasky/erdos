@@ -65,6 +65,6 @@ Kurz]] and that no larger example is known.
 **Acceptance.** Refereed: Bulletin of the London Mathematical Society 52 (2020),
 no. 6, 1053–1063, published online 2020-06-29. These data come from the Crossref
 record of the DOI. The site's remarks record the conditional uniform bound and
-give this paper as its source, but the site labels the problem OPEN. That remark
-is therefore commentary on an open problem, and no `reviewed` evidence is
+give this paper as its source, but the site labeled the problem OPEN. That
+remark is therefore commentary on an open problem, and no `reviewed` evidence is
 listed.

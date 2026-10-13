@@ -102,7 +102,7 @@ of four or more), so they have no claim pages.
 The third question, the growth of $\Lambda(k,2)$ and of $\Lambda(k,3)$ for odd
 $k$ in the reading of the Formulation, is open; the exact values above are the
 only data recorded. Both accepted claims are refereed journal publications.
-The site labels the problem OPEN, so its commentary is not acceptance of the
+The site labeled the problem OPEN, so its commentary is not acceptance of the
 problem, and while Hildebrand's claim answers the first question, only the
 case $k=3$ of the second is settled and the third is open, so the derived
 standing is open. The community database lists the problem as unformalized as

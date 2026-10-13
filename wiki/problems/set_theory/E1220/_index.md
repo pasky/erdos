@@ -31,7 +31,7 @@ $$
 
 hold?
 
-**Status.** Independent. The site's label is OPEN (page last edited 1 September
+**Status.** Independent. The site's label was OPEN (page last edited 1 September
 2026). The not-provable side, that ZFC does not prove the universal statement,
 is settled by
 [[problems/set_theory/E1220/claims/1987_01_01_shelah_stanley|Shelah and Stanley's accepted result]]
@@ -162,7 +162,7 @@ between the formal and informal statements and is not peer review. No refereed
 version, site acceptance or independent review is recorded, the registered
 statement was not read and nothing was built here, so the claim stays `claimed`.
 It asserts the side that Shelah and Stanley's accepted page settles, and the
-derived standing does not rest on it; the site shows OPEN and the community
+derived standing does not rest on it; the site showed OPEN and the community
 database says open.
 
 ## Known Results

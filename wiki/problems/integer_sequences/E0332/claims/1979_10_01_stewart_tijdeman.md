@@ -55,6 +55,6 @@ some sequence of density zero.
 **Acceptance.** Refereed: Canadian Journal of Mathematics 31 (1979). The
 site's commentary credits Prikry, Tijdeman, Stewart and others with the
 positive-density condition through the surveys [St78] and [Ti79], but the
-site labels the problem OPEN, so no `reviewed` evidence is listed.
+site labeled the problem OPEN, so no `reviewed` evidence is listed.
 
 **Depends on.** No page of this wiki.

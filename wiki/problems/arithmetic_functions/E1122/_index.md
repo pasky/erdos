@@ -31,8 +31,8 @@ If $\lvert A\cap [1,X]\rvert =o(X)$ then must $f(n)=c\log n$ for some $c\in
 \mathbb{R}$?
 
 **Status.** Claimed, proved. No claim settling the problem is accepted. The site
-labels the problem OPEN (page last edited 2026-04-01). One pending full claim is
-on the site's proof-claims tab, and it is recorded and not adopted:
+labeled the problem OPEN (page last edited 2026-04-01). One pending full claim
+is on the site's proof-claims tab, and it is recorded and not adopted:
 [[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]]. This is a
 manuscript posted on Zenodo on 2026-09-08 (the record states publication date
 2026-09-07) and registered on the site the same day. It asserts the answer yes
@@ -67,7 +67,7 @@ development posted with the Gu claim is linked from its claim page.
 **The question (site formulation, page last edited 2026-04-01).** Whether an
 additive $f:\mathbb{N}\to\mathbb{R}$ whose decreases
 $A=\{n: f(n+1)<f(n)\}$ satisfy $|A\cap[1,X]|=o(X)$ must equal $c\log n$ for
-some real $c$. The site labels the problem OPEN.
+some real $c$. The site labeled the problem OPEN.
 
 **Standing.** Claimed, proved: the full claim
 [[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]], a
@@ -86,7 +86,7 @@ other is
 $f$ with $\lim_{\varepsilon\to0^+}F_f(\varepsilon)=0$ and
 $|A\cap[1,X]|\ll X/(\log X)^{2+\delta}$ for some $\delta>0$, the answer is
 yes. The site's commentary states that hypothesis as additive, which
-overstates the corollary; it credits the partial progress but labels the
+overstates the corollary; it credits the partial progress but labeled the
 problem OPEN, so no `reviewed` evidence is listed.
 
 **Lean coverage.** No formal-conjectures statement file exists for the problem

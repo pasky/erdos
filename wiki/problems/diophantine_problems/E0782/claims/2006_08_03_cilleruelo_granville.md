@@ -48,4 +48,4 @@ and the conjecture with this derivation is recorded on
 
 The Bombieri-Lang conjecture is unproved. No acceptance evidence is on record:
 the volume is a proceedings volume with no evidence of refereeing, and the
-site labels the problem OPEN.
+site labeled the problem OPEN.

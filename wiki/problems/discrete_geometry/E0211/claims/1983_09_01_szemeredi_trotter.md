@@ -47,5 +47,5 @@ The refereed evidence covers the premises, Theorems 1 and 2 of Endre Szemerédi
 and William T. Trotter, Jr., Extremal problems in discrete geometry,
 Combinatorica 3 (1983), no. 3-4, 381-392; the deduction of the $\gg kn$ bound
 rests on the curator's credit and on Erdős's note. The site's curator, T. F.
-Bloom, marks the problem proved and credits this paper beside Beck's, and Erdős
+Bloom, marked the problem proved and credits this paper beside Beck's, and Erdős
 records the deduction in his 1984 note.

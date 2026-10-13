@@ -62,7 +62,7 @@ is the 15-page manuscript `788/paper.pdf` of the author's public repository
 byte-identical to that file at the repository's head commit of 2 August 2026,
 compared 2026-09-18). No arXiv version and no journal record (Crossref
 bibliographic query, 2026-09-18); the site's proof-claim tab for Problem 788
-carries the author's full claim of 19 July 2026 and the site's label stays
+carries the author's full claim of 19 July 2026 and the site's label stayed
 OPEN. Read status: claims checked for the definitions, Theorem 1.1 and Remark
 1.2 (pp. 1--2, text layer, 2026-09-18), read as a claim; the proof was not
 assessed and no acceptance beyond the author's exists. The claim page is

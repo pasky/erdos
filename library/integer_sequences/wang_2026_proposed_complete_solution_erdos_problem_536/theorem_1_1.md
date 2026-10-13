@@ -117,7 +117,7 @@ external premises at statement level, none checked here.
 
 - [[../wiki/problems/integer_sequences/E0536/_index|Problem 536]]: the claimed answer to
   the site's question "is it true that $f(N)=o(N)$?", recorded on the page
-  as an unreviewed claim with provenance; the site's label stays OPEN.
+  as an unreviewed claim with provenance; the site's label stayed OPEN.
   Lemma 2.1 is the normal form of an lcm triangle used throughout the
   site's thread, and Proposition 3.1 is the reduction behind the thread's
   computer-assisted upper bounds of 2026.

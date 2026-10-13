@@ -36,7 +36,7 @@ $$
 
 exists (and is finite)?
 
-**Status.** The site's label is OPEN. The frontmatter standing derives from a
+**Status.** The site's label was OPEN. The frontmatter standing derives from a
 pending full claim, and it departs from the label for that reason. That claim
 was posted to the site's proof-claims tab on 15 July 2026 by Colin Snyder,
 produced with GPT 5.6 (custom harness), as the tab names the system. It answers
@@ -47,7 +47,7 @@ records it. The page also records that the formal-conjectures collection marks
 the problem as solved on the strength of a hosted copy of that proof, which is
 not acceptance. Snyder's claim answers the Statement yes and would settle it, so
 the derived standing is `claimed` with claim `proved`. The site, which has not
-accepted the claim, labels the problem OPEN.
+accepted the claim, labeled the problem OPEN.
 
 The site notes that Erdős proved the limit exists for $A$ the set of prime
 squares, when $B$ is the squarefree numbers (Publ. Math. Debrecen 2 (1951),

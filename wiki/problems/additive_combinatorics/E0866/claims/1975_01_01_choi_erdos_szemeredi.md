@@ -93,7 +93,7 @@ $k=5$ are covered for the positive variant $h_k$ only.
 **Acceptance.** Refereed: the paper appeared in Acta Arithmetica 27 (1975),
 37--50, DOI 10.4064/aa-27-1-37-50, in the volume in memory of Ju. V. Linnik. The
 page is named by the year of publication, filled to its first day. Not reviewed:
-the site labels the problem OPEN (page last edited 1 December 2025). In the
+the site labeled the problem OPEN (page last edited 1 December 2025). In the
 problem's commentary, the site's curator credits the paper with $g_3(N)=2$,
 $g_4(N)\ll1$, $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$ and the general
 bounds. This is commentary, not acceptance. The two credited values for $k=3$

@@ -56,7 +56,7 @@ updated journal version); v1 was posted on 6 June 2023.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) marks the problem
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) marked the problem
 PROVED, solved in the affirmative. In the problem's commentary the curator
 credits Mattheus and Verstraete's theorem with the proof of the statement (page
 last edited 23 January 2026). Refereed: Annals of Mathematics (2) 199 (2024),

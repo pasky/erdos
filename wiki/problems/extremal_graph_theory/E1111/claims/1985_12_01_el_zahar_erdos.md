@@ -49,5 +49,5 @@ are trivial). Nothing for $c\ge4$.
 
 **Acceptance.** Refereed: Combinatorica 5 (1985), no. 4, 295--300 (Crossref:
 December 1985; the day is the issue's nominal first day, used for this page's
-date). The site labels the problem OPEN, so its commentary crediting the result
+date). The site labeled the problem OPEN, so its commentary crediting the result
 is not review, and no `reviewed` evidence is listed.

@@ -85,7 +85,7 @@ authors (second version). The third version says instead that ChatGPT was used
 for literature searches, proofreading and checking earlier versions for
 possible mathematical errors, and drops the statement about the text.
 
-The acceptance evidence is the site's curator, Thomas Bloom, who marks Problem
+The acceptance evidence is the site's curator, Thomas Bloom, who marked Problem
 387 solved and credits the four authors' paper with the negative answer for
 every constant $c>0$ (page edited 2026-07-02). No journal publication is
 recorded so no refereed evidence is listed. The

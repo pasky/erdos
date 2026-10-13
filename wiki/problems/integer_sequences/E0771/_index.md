@@ -31,7 +31,7 @@ $$
 f(n) = \left(\frac{1}{2}+o(1)\right)\frac{n}{\log n}?
 $$
 
-**Status.** Proved. This was a conjecture of Erdős and Graham. The site labels
+**Status.** Proved. This was a conjecture of Erdős and Graham. The site labeled
 the problem PROVED and credits the paper of Alon and Freiman [AlFr88]. Erdős and
 Graham observed the lower bound $f(n)\ge(\frac12+o(1))\frac n{\log n}$. For
 every $m$, which one may take below $\binom{n+1}2$, the multiples of the least

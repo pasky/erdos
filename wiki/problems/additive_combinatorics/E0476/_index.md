@@ -56,7 +56,7 @@ $p\le2k-3$)? It is surprising this old question of Erdős and Heilbronn
 [Er-He (64)] is still open." The bound is sharp: $A=\{0,1,\ldots,k-1\}$
 has $A\hat{+}A=\{1,\ldots,2k-3\}$ ([ANR95], p. 5).
 
-**Status.** Proved. The site's label is PROVED (LEAN), and its Lean mark is a
+**Status.** Proved. The site's label was PROVED (LEAN), and its Lean mark is a
 catalog label explained under Formalization.
 
 The site's status-defining source is the paper of Dias da Silva and Hamidoune

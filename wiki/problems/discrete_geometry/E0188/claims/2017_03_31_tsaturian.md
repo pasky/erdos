@@ -60,7 +60,7 @@ published version corrects a triangle side length in a lemma of the arXiv
 version.
 
 **Acceptance.** Refereed: the Electronic Journal of Combinatorics, 24(4) (2017),
-#P4.35. The site's commentary credits Tsaturian with the bound. The site labels
+#P4.35. The site's commentary credits Tsaturian with the bound. The site labeled
 the problem OPEN, however, so that credit is not listed as `reviewed`. No
 formalization of the theorem is recorded.
 

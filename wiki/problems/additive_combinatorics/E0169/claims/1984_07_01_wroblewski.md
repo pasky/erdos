@@ -48,7 +48,7 @@ $f(3)$, any other $k$, and the displayed limit question.
 
 **Acceptance.** Refereed: J. Wróblewski, A nonaveraging set of integers with a
 large sum of reciprocals, Math. Comp. 43 (1984), no. 167, 261–262. The site's
-curator credits the bound in the problem's commentary. The site labels the
+curator credits the bound in the problem's commentary. The site labeled the
 problem OPEN, so that commentary is not acceptance of the problem, and the page
 lists no `reviewed` evidence.
 

@@ -72,7 +72,7 @@ constant factor, which the theorem's range absorbs.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 DISPROVED (LEAN). The problem's commentary credits Fox, Loh and Zhao with the
 negative answer and with the quantitative lower bound behind it (page accessed
 2026-09-18). The thread and the proof-claim tab are empty, so the commentary is

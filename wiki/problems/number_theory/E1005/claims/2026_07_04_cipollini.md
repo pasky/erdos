@@ -111,7 +111,7 @@ theorem does not rest on
 [[problems/number_theory/E1005/claims/2025_08_28_van_doorn|van Doorn's page]],
 with which the site's account pairs it.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
+**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem solved and, in the problem's commentary, credits this preprint with the
 lower bound that gives $f(n)=(\frac14+o(1))n$ (the page was last edited 1
 September 2026). The curator neither wrote nor submitted the result. Not

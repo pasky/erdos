@@ -39,7 +39,7 @@ printed the first as an expectation, not as the question: item 9 of Part I of
 [Er95] (typescript p. 6, display (7)) says "Probably $t=\pi(n)$" and then asks
 whether one can prove $t<(1+o(1))\pi(n)$ or at least $t=o(n)$, adding that the
 last will probably be easy. The site reads the problem as the quantitative
-question: its label is PROVED (LEAN), and its commentary says "Solved by Tao
+question: its label was PROVED (LEAN), and its commentary says "Solved by Tao
 [Ta24d]", citing the bound
 $\lvert A\rvert\le(1+O((\log\log x)^5/\log x))\pi(x)$, which is the asymptotic
 clause; the site's forum thread had no comments when searched. The change

@@ -30,10 +30,10 @@ $$
 
 irrational?
 
-**Status.** Open on the site. The site labels the problem OPEN (page last edited
-2026-01-22), and the community database and formal-conjectures list it open.
-Nobody outside this repository had examined or acknowledged a proof by that
-date.
+**Status.** Labeled open on the site. The site labeled the problem OPEN (page
+last edited 2026-01-22), and the community database and formal-conjectures list
+it open. Nobody outside this repository had examined or acknowledged a proof by
+that date.
 
 The frontmatter standing `solved`, `proved` derives from the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of a

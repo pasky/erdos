@@ -29,7 +29,7 @@ contains at least $F_k(p_1,\ldots,p_u)$ multiples of at least one of the $p_i$.
 Estimate $F_k(p_1,\ldots,p_u)$, particularly in the range $k=\alpha p_u$ for
 constant $\alpha>2$.
 
-**Status.** Open. The site labels the problem OPEN and notes that no finite
+**Status.** Open. The site labeled the problem OPEN and notes that no finite
 computation can resolve it. Its commentary reports from [Va99] that Erdős and
 Selfridge found the exact bound for $2<\alpha<3$ and that very little is known
 for $\alpha>3$. It gives no reference for the first of these. The reference is

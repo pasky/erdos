@@ -122,7 +122,7 @@ colors for all graphs is proved only in modules the comparator does not check
 not audited. The module `Erdos74_25usd_5h` gives three colors for finite graphs
 only.
 
-Not reviewed: the site labels the problem DISPROVED (LEAN), and its curator
+Not reviewed: the site labeled the problem DISPROVED (LEAN), and its curator
 accepts the headline formal resolution. But the curator submitted the site's
 proof claim themself and is a co-author of the FrontierMath Erdős paper that
 announces the result. So the curator's acceptance is not a review independent of

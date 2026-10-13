@@ -59,7 +59,7 @@ linked above.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
 Journal, volume 46, issue 2 (1999). The site's commentary records that Eremenko
-and Hayman proved the full conjecture for $n=2$. But the site's label is
+and Hayman proved the full conjecture for $n=2$. But the site's label was
 FALSIFIABLE, an open label, so the remark is commentary and not acceptance, and
 no `reviewed` evidence is listed. No formal proof is recorded, so no
 `formalized` evidence is listed. Nothing here is this project's own review.

@@ -43,7 +43,7 @@ Collatz conjecture. It is not Erdős's problem: the site includes it to
 record the history of the link between Erdős and the problem, and asks that
 comments stay at that intersection; this page does the same.
 
-**Status.** The site labels the problem OPEN (page last edited 12 January 2026,
+**Status.** The site labeled the problem OPEN (page last edited 12 January 2026,
 label accessed 2026-09-18). No proof, disproof or accepted resolution was found
 in the search whose scope the Current assessment records. This is a bounded
 negative finding, not a certificate of openness. The formal-conjectures file is
@@ -250,7 +250,7 @@ verify this conjecture for all numbers below $2^{68}$", superseded by
 for all numbers up to the limit of $2^{71}$ (which is equal to
 $2\,048\times2^{60}$)", the $2^{71}$ milestone dated 15 January 2025 in the
 paper's Table 10; both are computations the corpus has not rerun, and the site's
-label says that no finite computation can settle the problem. Cycles:
+label said that no finite computation can settle the problem. Cycles:
 [[../library/number_theory/hercher_2023_no_mcycles_91/theorem_23|Hercher's Theorem 23]]
 (p. 15): "There is no $m$-cycle with $m\le91$", an $m$-cycle being a nontrivial
 cycle of $f$ with $m$ local minima, proved by iterating continued-fraction lower

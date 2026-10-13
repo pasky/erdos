@@ -64,7 +64,7 @@ paper.
 
 **Acceptance.** Refereed: the paper appeared in Proceedings of the Indian
 Academy of Sciences (Mathematical Sciences) in December 1987. The site's
-commentary credits $F(n)\gg\log n$ to this paper. But the site labels the
+commentary credits $F(n)\gg\log n$ to this paper. But the site labeled the
 problem OPEN, so the commentary is not acceptance and no `reviewed` is listed.
 The [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/da878b6b63ca0439443d754c41a226a1f816bee6/FormalConjectures/ErdosProblems/1106.lean)

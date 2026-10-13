@@ -68,7 +68,7 @@ constant in the exponent. The site notes that the bound $L(x)=o(x)$, which Erdő
 and Graham called trivial, rests on Siegel's theorem. The
 [[problems/diophantine_problems/E0437/claims/2022_11_22_bui_pratt_zaharescu|claim page]]
 states the theorem, the deduction and the acceptance: Theorem 1.2 is refereed,
-the deduction is not, and the site's curator labels the problem proved and
+the deduction is not, and the site's curator labeled the problem proved and
 credits it.
 
 The sources behind this account, as of 7 October 2026, are the site's

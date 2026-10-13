@@ -83,7 +83,7 @@ line, so the first posting was in 2003 and not in the issue month, January
 "available online" day could not be retrieved, so the paper link carries no
 date. The paper was received on 9 May 2002.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED (LEAN), a label that describes the corrected Statement (page accessed
 2026-09-18). In the problem's commentary, the curator credits the complete
 solution of the problem to Keevash and Sudakov's theorem, with the same three

@@ -65,7 +65,7 @@ there]].
 journal. The publisher's record (Crossref) dates the issue December 1984, and
 this page's date is the first day of that month. Reviewed: on
 erdosproblems.com/515 (page last edited 19 October 2025), the site's curator,
-Thomas Bloom, labels the problem PROVED and credits this paper with the general
+Thomas Bloom, labeled the problem PROVED and credits this paper with the general
 case. The community database agrees and records the problem as proved. No
 independent review is recorded in this repository and none is claimed.
 

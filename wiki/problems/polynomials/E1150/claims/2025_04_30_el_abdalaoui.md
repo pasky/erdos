@@ -76,5 +76,5 @@ for every finite $\alpha\ge2$, so these polynomials are $L^\alpha$-flat for
 every even $\alpha>2$. Third, Appendix A of the release manuscript
 ([[../library/polynomials/openai_2026_asymptotically_minimal_maxima_real_littlewood_polynomials/_index|card]])
 locates the failing inference in the preprint's argument. Not reviewed, not
-refereed: the preprint has no journal version, and the site's label is
+refereed: the preprint has no journal version, and the site's label was
 OPEN (page last edited 23 January 2026, accessed 2026-10-06).

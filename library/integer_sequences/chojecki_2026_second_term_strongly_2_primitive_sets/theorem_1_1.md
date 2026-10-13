@@ -94,7 +94,7 @@ No result of the literature beyond these is consumed.
 
 - [[../wiki/problems/integer_sequences/E0793/_index|Problem 793]]: the statement is the
   problem's asymptotic with $C=27/2$, under the problem's convention
-  ($b=c$ allowed); the site labels the problem PROVED (LEAN) and its
+  ($b=c$ allowed); the site labeled the problem PROVED (LEAN) and its
   commentary credits this manuscript. The two halves are
   [[integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/proposition_2_4|Proposition 2.4]] (upper bound) and
   [[integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/proposition_3_4|Proposition 3.4]] (lower bound).

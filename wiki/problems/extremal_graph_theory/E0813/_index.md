@@ -56,7 +56,7 @@ that some such graph has $\alpha(G)\le O(n^{1/2})$ (p. 2); in the complement
 these are bounds on the largest clique forced, which is $h(n)$ only with
 "maximal". The site's own commentary credits Erdős and Hajnal with
 $n^{1/3}\ll h(n)\ll n^{1/2}$ and Bucić and Sudakov with $h(n)\gg n^{5/12-o(1)}$,
-bounds true only of the corrected form, and keeps the label OPEN, which only the
+bounds true only of the corrected form, and kept the label OPEN, which only the
 corrected form fits; the word "maximal" is the form the site uses for the
 neighboring question of Erdős and Hajnal,
 [[problems/extremal_graph_theory/E0804/_index|Problem 804]]. The poser's own
@@ -81,8 +81,8 @@ question on local and global independence numbers; the case $r=\log n$ with
 $m=(\log n)^2$ or $m=(\log n)^3$ is
 [[problems/extremal_graph_theory/E0804/_index|Problem 804]].
 
-**Status.** Open, for the corrected Statement. The site labels the problem OPEN.
-The first inequality is proved. Theorem 1.3 of [BuSu23] (Combinatorica 43
+**Status.** Open, for the corrected Statement. The site labeled the problem
+OPEN. The first inequality is proved. Theorem 1.3 of [BuSu23] (Combinatorica 43
 (2023), refereed) gives $\alpha(H)\ge n^{5/12-o(1)}$ for every $n$-vertex graph
 with $\alpha_7(H)\ge3$. So $h(n)\ge n^{5/12-o(1)}$, and any $c_1<1/12$ works.
 This is the accepted partial claim on

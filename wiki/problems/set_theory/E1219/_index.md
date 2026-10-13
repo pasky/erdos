@@ -29,9 +29,9 @@ $$
 \sum_{k} 2^{\aleph_{n_k}}\to (\aleph_\omega)^2?
 $$
 
-**Status.** Proved. The site's label is PROVED (page last edited 1 September
-2026, as of 2026-10-07), and its remark credits the proof to Shelah [Sh75]. The
-frontmatter standing is derived from the accepted claim page
+**Status.** Proved. The site's label was PROVED (page last edited 1 September
+2026, accessed 2026-10-07), and its remark credits the proof to Shelah [Sh75].
+The frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E1219/claims/1975_01_01_shelah|Shelah's proof of the partition relation]].
 
 **Source.** [erdosproblems.com/1219](https://www.erdosproblems.com/1219),
@@ -104,7 +104,7 @@ Math. Soc. János Bolyai 10 (1975), reviewed as MR 0406798 and zbMATH
 0325.04005, not in a journal, so the claim page lists no refereeing;
 Komjáth's 2025 survey [Ko25b, p. 419] records it as the proof of Problem 3
 and the last remaining case of that discussion, a named expert's acceptance;
-erdosproblems.com marks the problem proved with no comments and no proof
+erdosproblems.com marked the problem proved with no comments and no proof
 claims, and the community database marks it proved (informal) and
 unformalized, in an entry last updated 2026-09-12. Search scope 2026-09-27: erdosproblems.com (page, LaTeX
 source, revision history, discussion and proof-claim threads, bibliography

@@ -45,7 +45,7 @@ as $\sum1/a_i\le2-2^{1-n}$ with equality only for $a_i=2^{i-1}$,
 $i=1,\ldots,n$: the extremal set is the powers of two
 $\{1,2,4,\ldots,2^{n-1}\}$, which the site's notation abbreviates.
 
-**Status.** Proved. The site's label is PROVED (LEAN). The statement is Theorem
+**Status.** Proved. The site's label was PROVED (LEAN). The statement is Theorem
 1 of Benkoski and Erdős (Math. Comp. 28 (1974), 617--623, refereed). The paper
 credits the proof to C. Ryavec and reproduces it in full. The refinement
 $\sum1/a_i\le2-2^{1-n}$, with the equality case, is printed after the proof (p.

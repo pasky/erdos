@@ -68,7 +68,7 @@ property.
 
 **Acceptance.** Refereed: the Journal of Algebraic Combinatorics is a refereed
 journal, and the paper is its version of record. Reviewed: T. F. Bloom, the
-site's curator, labels the problem DISPROVED (LEAN) and answers the question
+site's curator, labeled the problem DISPROVED (LEAN) and answers the question
 with no (snapshot of 2026-09-05). Bloom credits this paper with the four-part
 partition, together with Chung's paper, which is recorded on
 [[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|its own claim page]].

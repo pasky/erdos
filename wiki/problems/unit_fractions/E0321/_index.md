@@ -51,8 +51,8 @@ $$
 The standing derives from four claim pages. One is
 [[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]],
 the accepted claim on which the matching of the two bounds behind the label
-rests. The other three are the partial claim pages of the three refereed bounds,
-linked under Progress and known results.
+rested. The other three are the partial claim pages of the three refereed
+bounds, linked under Progress and known results.
 
 The lower bound is refereed and is written out below. Bleicher and Erdős's set
 of products of rapidly growing primes (1975) has distinct subset reciprocal sums
@@ -128,7 +128,7 @@ for the site's July 2026 resolution, and no declaration carries a
 entry's last-update date, formal status unformalized, status solved as of the
 status entry's last update on 31 August 2025, OEIS A384927 and A391592.
 Nothing in the file has been built by this corpus, and the site's label
-carries no Lean suffix.
+carried no Lean suffix.
 
 ## Current assessment
 

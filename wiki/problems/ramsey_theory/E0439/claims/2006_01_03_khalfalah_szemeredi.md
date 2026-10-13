@@ -63,11 +63,11 @@ filed as
 [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|Sanders 2020]]
 and
 [[../library/ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/_index|Green and Lindqvist 2019]].
-Reviewed: the site's curator, T. F. Bloom, labels the problem PROVED and credits
-the theorem in the problem's commentary, in the general form with a non-constant
-$f$ (page last edited 7 April 2026). The thread and proof-claim tab are empty.
-None of the 23 citing papers that Semantic Scholar listed on 2026-09-18 disputes
-the theorem.
+Reviewed: the site's curator, T. F. Bloom, labeled the problem PROVED and
+credits the theorem in the problem's commentary, in the general form with a
+non-constant $f$ (page last edited 7 April 2026). The thread and proof-claim tab
+are empty. None of the 23 citing papers that Semantic Scholar listed on
+2026-09-18 disputes the theorem.
 
 **Sources of the statement.** The paper is closed access and not held, so
 its theorem is cited here through the publisher's abstract, the introduction

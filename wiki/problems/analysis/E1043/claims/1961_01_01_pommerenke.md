@@ -51,9 +51,9 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labels the problem disproved
-and credits the negative answer to this paper. Under its key [Po59], the
-commentary adds that the 1961 answer uses Pommerenke's previous work. The
+Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
+disproved and credits the negative answer to this paper. Under its key [Po59],
+the commentary adds that the 1961 answer uses Pommerenke's previous work. The
 commentary answers a thread post of 12 October 2025. That post names the
 previous work as Pommerenke's *Über die Kapazität ebener Kontinuen*, Math. Ann.
 139 (1959), 64--75, which is the source of the five-armed star that the 1961

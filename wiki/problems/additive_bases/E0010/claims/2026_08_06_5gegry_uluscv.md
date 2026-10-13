@@ -91,7 +91,7 @@ follows from Crocker's published theorem by the parity reduction.
 
 No `formalized` evidence is listed. The corpus has not built or replayed the
 file, and the basis here is its text (final theorem, target type and tokens). No
-`refereed` evidence exists. The erdosproblems.com page labels the problem OPEN,
+`refereed` evidence exists. The erdosproblems.com page labeled the problem OPEN,
 since the variant does not settle it. Since 2026-09-14 the formal-conjectures
 catalog has marked the variant `research solved`, citing the second proof's gist
 as its `formal_proof`.

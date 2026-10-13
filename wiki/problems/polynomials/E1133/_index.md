@@ -34,8 +34,8 @@ $$
 \max_{x\in [-1,1]}\lvert P(x)\rvert >C.
 $$
 
-**Status.** The site labels the problem OPEN (page last edited 31 December 2025;
-proof-claims tab accessed 2026-10-06). This page records the claims below
+**Status.** The site labeled the problem OPEN (page last edited 31 December
+2025; proof-claims tab accessed 2026-10-06). This page records the claims below
 without adopting them, and the standing in the frontmatter follows from them.
 Two manuscripts claim the assertion in full, and neither is reviewed or
 refereed.

@@ -26,8 +26,8 @@ such $k$.
 
 How does $f(n)$ grow? Is $f(n)=o(n)$?
 
-**Status.** Open. The site's label was OPEN on 2026-10-07 (page last edited 12
-January 2026). Two accepted partial claims give refereed upper bounds. One is
+**Status.** Open. The site's label was OPEN (page last edited 12 January 2026).
+Two accepted partial claims give refereed upper bounds. One is
 Hegyvári's $f(n)\le(2/3+o(1))n$ (Acta Math. Hungar. 48 (1986);
 [[problems/integer_sequences/E0357/claims/1984_10_02_hegyvari|claim page]]). The
 other is Coppersmith and Phillips's $f(n)\le(2/3-1/512)n+O(\log n)$ (SIAM J.

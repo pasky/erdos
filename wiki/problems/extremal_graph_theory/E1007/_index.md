@@ -41,7 +41,7 @@ distance 1 apart, so $G$ is not necessarily induced", p. 327), and it is
 the convention of the external Lean file described under
 Formalization (an injective map with adjacent vertices at distance $1$). The
 three conventions agree, so no Formulation qualification is needed. The
-question asks for a number, and the site labels it SOLVED, its label for a
+question asks for a number, and the site labeled it SOLVED, its label for a
 resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is a
 catalog label explained under Formalization.
 

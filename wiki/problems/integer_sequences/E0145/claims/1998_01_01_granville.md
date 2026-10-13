@@ -48,7 +48,7 @@ unconditional range stops at
 
 **Acceptance.** Refereed: International Mathematics Research Notices, volume
 1998, issue 19, pp. 991--1009, as given by the Crossref record of the DOI. The
-site labels the problem OPEN (page last edited 19 October 2025). Its curator's
+site labeled the problem OPEN (page last edited 19 October 2025). Its curator's
 remark that the statement follows from abc by this paper is therefore commentary
 on an open problem, not acceptance, and no `reviewed` evidence is listed. The
 corpus holds no card for the paper, has not checked the proof and awards no tier

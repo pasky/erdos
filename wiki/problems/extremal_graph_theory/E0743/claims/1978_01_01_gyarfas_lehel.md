@@ -43,4 +43,4 @@ Every other family is not covered.
 evidence that the volume was refereed is held, so it is not `refereed`
 under the rules of this corpus. The attestations by Bollobás and by Janzer
 and Montgomery, and the site's credit in the commentary of a problem the
-site labels FALSIFIABLE, are context and not acceptance evidence.
+site labeled FALSIFIABLE, are context and not acceptance evidence.

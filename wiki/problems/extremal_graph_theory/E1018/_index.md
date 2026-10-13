@@ -36,12 +36,12 @@ $c_\varepsilon$ and "for all large $n$" made explicit
 is non-planar and has at most $c_\varepsilon$ vertices?"). By Kuratowski's
 theorem a graph is non-planar exactly when it contains a subdivision of
 $K_5$ or of $K_{3,3}$, so a subdivided $K_5$ of bounded order is a
-non-planar subgraph of the kind asked for. The site labels the problem
+non-planar subgraph of the kind asked for. The site labeled the problem
 SOLVED, its label for a resolution that is neither a proof nor a disproof,
 although the answer is yes; the label is the site's, and the claim value
 recorded on the claim page is proved.
 
-**Status.** Solved. The site's label is SOLVED. On 2026-10-07 the page printed
+**Status.** Solved. The site's label was SOLVED. On 2026-10-07 the page printed
 no label, and the community database listed the problem as solved (Lean), with a
 last update of 16 September 2026. The answer is yes. Kostochka and Pyber
 (Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's question in
@@ -59,7 +59,7 @@ With $t=5$ this gives a non-planar subgraph on $O(1/\epsilon)$ vertices in every
 graph with $n^{1+\epsilon}$ edges once $n$ is large (an authored conversion
 below). The site's account and the restatement in Janzer's refereed paper of
 2021 (Bull. London Math. Soc. 53, 108--118; quoted from its arXiv copy) agree
-with the printed statement. The label rests on Erdős's question, the site's
+with the printed statement. The label rested on Erdős's question, the site's
 acceptance and the Theorem as printed. The proof (p. 85) was followed for
 structure and not checked.
 

@@ -63,7 +63,7 @@ $$
 Luo–Ma–Yang's exact-size upper bounds must be maximized over $m\leq n$ rather
 than copied with the page's $n$ unchanged.
 
-**Status.** Open. The site's label is OPEN. The three questions stand
+**Status.** Open. The site's label was OPEN. The three questions stand
 differently, and the frontmatter's standing is derived from the claim pages.
 Toft's constructions answer the first question yes. They also refute the third
 question's universal formula for $k\not\equiv0\pmod3$. This is an accepted
@@ -122,7 +122,7 @@ corpus has not built the archive or checked its statements, so it gives no
    $c_k>0$ with $g_k(n)\geq c_kn^2$ for every $n\geq k$ except $n=k+1$.
    Since $f_k(n)\geq g_k(n)$, this proves the first question at result level.
 2. No source listed below proves or refutes $f_6(n)\sim n^2/4$, and the site
-   labels the problem OPEN.
+   labeled the problem OPEN.
 3. The Toft constants reported by Luo–Ma–Yang exceed the proposed coefficient
    for each nonzero residue class modulo $3$ along infinitely many $n$. Thus
    the universal third assertion is false. Its multiples-of-$3$ restriction

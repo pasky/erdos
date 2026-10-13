@@ -61,7 +61,7 @@ comparison with $\log W(k)$ is the elementary one stated above.
 **Acceptance.** Refereed: E. R. Berlekamp, A construction for partitions which
 avoid long arithmetic progressions, Canad. Math. Bull. 11 (1968), no. 3,
 409–414. The site's curator credits the bound in the problem's commentary. The
-site labels the problem OPEN, so that commentary is not acceptance of the
+site labeled the problem OPEN, so that commentary is not acceptance of the
 problem, and the page lists no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record,

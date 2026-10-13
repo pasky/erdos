@@ -62,7 +62,7 @@ unreviewed), the largest exponent possible by Proposition 2.4.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 PROVED and credits Bukh and Sudakov with the proof in the problem's commentary
 (page accessed 2026-09-18). The thread and the proof-claim tab are empty, so the
 commentary is the whole of the site's record. Refereed: J. Combin. Theory Ser. B

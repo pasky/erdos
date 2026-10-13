@@ -37,7 +37,7 @@ since the middle layer alone gives $F(n)\ge\binom{n}{\lfloor n/2\rfloor}$.
 With the exponent $3/2$ the conjecture is false; the Statement carries the
 site's exponent $1/2$.
 
-**Status.** The site labels the problem SOLVED (LEAN). It credits Hunter's
+**Status.** The site labeled the problem SOLVED (LEAN). It credits Hunter's
 observation, in the problem's thread, that the solution of Problem 447 settles
 it. The answer is yes: $F(n)\sim\binom{n}{\lfloor n/2\rfloor}$, so
 $c=\sqrt{2/\pi}$.

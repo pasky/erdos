@@ -29,10 +29,10 @@ $$
 
 with $x,y,n\in \mathbb{N}$, with $xy>1$ and $k>2$?
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) (page
-last edited 30 September 2025). The standing in the frontmatter derives from the
-claim pages. The site credits Jonas Barfield with the solution $10!=48^4-36^4$,
-recorded on
+**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN)
+(page last edited 30 September 2025). The standing in the frontmatter derives
+from the claim pages. The site credits Jonas Barfield with the solution
+$10!=48^4-36^4$, recorded on
 [[problems/factorials_binomials/E0399/claims/2025_04_07_barfield|its claim page]].
 The Lean qualifier refers to the formal-conjectures file, which checks the
 witness by `decide`. This corpus has not built that file. There is no refereed

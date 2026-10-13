@@ -76,6 +76,6 @@ linked above.
 3, 297–325, doi:10.1017/S0963548300001218, an issue Crossref dates to
 September 1994. A reprint appeared in *Combinatorics, Geometry and Probability*,
 Cambridge Univ. Press (1997), 253–282. The site's commentary lists the bound
-among the authors' results. The site's label credits the disproof, not this
+among the authors' results. The site's label credited the disproof, not this
 bound, so no `reviewed` evidence is listed. No formal proof of this bound is
 built or audited in this repository.

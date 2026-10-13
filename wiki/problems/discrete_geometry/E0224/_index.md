@@ -34,7 +34,7 @@ at $d=1$ (three collinear points) and at $d=2$ (a square and its center). The
 formal-conjectures statement and the linked Lean file use the inclusive
 reading, as the claim page explains.
 
-**Status.** PROVED (LEAN). The site labels the problem proved with a Lean
+**Status.** PROVED (LEAN). The site labeled the problem proved with a Lean
 qualification. The theorem is Danzer and Grünbaum's, recorded on the
 [[problems/discrete_geometry/E0224/claims/1962_12_01_danzer_grunbaum|Danzer–Grünbaum claim page]].
 The Lean proof the label refers to is a third-party development, linked from

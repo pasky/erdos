@@ -73,7 +73,7 @@ gives the same order.
 
 **Acceptance.** The paper is a refereed publication in Combinatorica (volume 33,
 issue 2, April 2013, online 14 June 2013, per the Crossref record). The site's
-curator, Thomas Bloom, marks the problem proved and credits the paper. The
+curator, Thomas Bloom, marked the problem proved and credits the paper. The
 search found twelve records of citing literature, and none of them disputes the
 result. The reading covered the statements of Theorems 1.1, 1.2 and 3.1 in arXiv
 v3, and the one-page deduction of Theorem 1.1 from Theorem 1.2 for its

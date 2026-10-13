@@ -53,7 +53,7 @@ paper states $c=4$ for every $N>33000$ ([Sp71], p. 419), with $c=5$ in one
 case by its own counts. The site's label DISPROVED (LEAN) carries a catalog
 suffix explained under Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN). The label's Lean
+**Status.** The site labeled the problem DISPROVED (LEAN). The label's Lean
 clause is a separate matter, treated under Formalization. The claim page is
 [[problems/extremal_graph_theory/E0927/claims/1971_02_01_spencer|Spencer]],
 accepted on the refereed publication, Erdős's attestation and the site's

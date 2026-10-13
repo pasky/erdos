@@ -74,5 +74,5 @@ no asymptotic formula and no estimate up to constant factors.
 
 **Acceptance.** Refereed: the paper is published in the Bulletin of the
 London Mathematical Society. The site's commentary credits the paper with the
-upper bound, but the site labels the problem OPEN, so that commentary is not
+upper bound, but the site labeled the problem OPEN, so that commentary is not
 listed as review.

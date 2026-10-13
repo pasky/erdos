@@ -61,7 +61,7 @@ paper.
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
 Journal in 1961 (volume 8, issue 2). The issue carries no month, so the page's
 date is the first day of the publication year. Reviewed: erdosproblems.com
-labels the problem proved and states that the lower bound $\gg n^{-4}$ follows
+labeled the problem proved and states that the lower bound $\gg n^{-4}$ follows
 from this paper, cited as [Po61] (page last edited 2025-10-24). The corpus
 counts this as documented independent acceptance by the site's curator, T. F.
 Bloom (erdosproblems.com). The community database lists the problem as proved

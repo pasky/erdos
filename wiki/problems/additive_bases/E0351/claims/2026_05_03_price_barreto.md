@@ -101,7 +101,7 @@ problem page's (Lean) suffix is the site's label.
 conversation with which they checked it. They wrote that it resolves both
 Problem 283 and Problem 351, provided the manuscript's statements are the
 intended versions of the problems. The site's curator, T. F. Bloom, posted a
-summary of the proof there on 2026-05-10. The curator labels Problem 351 PROVED
+summary of the proof there on 2026-05-10. The curator labeled Problem 351 PROVED
 (LEAN) at erdosproblems.com and credits the positive solution to Barreto's
 observation that it follows from Problem 283 (page last edited 10 May 2026). The
 community database's commit of 2026-05-14 changed its status to proved (Lean),

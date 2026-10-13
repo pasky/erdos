@@ -61,7 +61,7 @@ day later by a sieve route; Maynard's result has
 [[problems/primes/E0004/claims/2014_08_21_maynard|its own claim page]].
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
-evidence. The site's curator, Thomas Bloom, labels the problem proved and
+evidence. The site's curator, Thomas Bloom, labeled the problem proved and
 credits its solution to this paper and to Maynard's, the `reviewed`
 evidence. The page is dated by the preprint's first posting; the journal
 issue appeared in May 2016.

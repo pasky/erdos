@@ -71,7 +71,7 @@ preprint, recorded on
 [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]]),
 state that Edwards and Khadzhiivanov and Nikiforov proved that every $n$-vertex
 graph with more than $n^2/4$ edges has an edge in at least $n/6$ triangles. The
-site's commentary credits the proof to this note and labels the problem proved,
+site's commentary credits the proof to this note and labeled the problem proved,
 and the community database agrees. Khadzhiivanov's 1988 paper reproves the
 statement with the surplus above. It appeared in a university annual whose
 refereeing practice is not established. Bollobás and Nikiforov's refereed paper

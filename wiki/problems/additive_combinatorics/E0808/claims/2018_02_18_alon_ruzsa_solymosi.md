@@ -74,8 +74,8 @@ doi:10.5565/publmat6412006 (Crossref record). The arXiv preprint 1802.06405 was
 submitted 18 February 2018, which names this page.
 
 Reviewed: the site's curator, Thomas Bloom, credits the disproof to Alon, Ruzsa
-and Solymosi in the problem page's commentary and labels the problem DISPROVED
-(label as of 2026-10-07; no last-edited date). The problem's discussion thread
+and Solymosi in the problem page's commentary and labeled the problem DISPROVED
+(no last-edited date). The problem's discussion thread
 and proof-claim tab were empty. The community database lists the problem as
 disproved, with its entry last updated on 2025-08-31. Nothing here rests on a
 review by this project.

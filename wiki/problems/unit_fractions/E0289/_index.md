@@ -41,11 +41,11 @@ separation; the site's commentary explains the added condition, and the two
 readings have different status: the unrestricted one is answered in the
 site's discussion, the restricted one is the problem.
 
-**Status.** Open on the site: the label is OPEN (page last edited 22 September
-2025; accessed 2026-10-07). The site marks the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is claimed, claim
-proved, because four full proof claims are pending. Three are on the site's
-proof-claim tab, dated 4 September, 7 September and 26 September 2026
+**Status.** Labeled open on the site: the label was OPEN (page last edited 22
+September 2025; accessed 2026-10-07). The site marked the problem as not
+resolvable by a finite computation. The standing derived from the claim pages is
+claimed, claim proved, because four full proof claims are pending. Three are on
+the site's proof-claim tab, dated 4 September, 7 September and 26 September 2026
 ([[problems/unit_fractions/E0289/claims/2026_09_04_land|Land]],
 [[problems/unit_fractions/E0289/claims/2026_09_07_tang|Tang]],
 [[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]). Each
@@ -220,7 +220,7 @@ A comment of 26 September 2026 under the third claim says that its author
 proposed a shorter solution to the first two authors and intends a short
 paper; that is a thread remark without a manuscript and has no page. The four
 claims derive the standing claimed, claim proved, in the frontmatter; the
-site's label is OPEN.
+site's label was OPEN.
 
 **Search scope.** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures

@@ -85,7 +85,7 @@ recently solved problems (§1, printed p. 69 of
 [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|Erdős 1982]])
 that Ajtai, Komlós and Szemerédi proved his conjectures on the longest path in a
 random graph, in the formulation the site uses. The site's curator, Thomas
-Bloom, labels the problem proved and credits this paper, and the community
+Bloom, labeled the problem proved and credits this paper, and the community
 database agrees. Claims were checked for Theorem 2, the Exponential rate, the
 Corollary and Remarks 1 and 2. The proofs (pp. 4--12) were not read.
 

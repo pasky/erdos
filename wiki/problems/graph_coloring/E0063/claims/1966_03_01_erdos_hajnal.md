@@ -55,6 +55,6 @@ held in the library. No claim page of this wiki is a dependency.
 page carries the first of that month. The cycles are subgraphs of the
 $K_{2^{m-1},\aleph_1}$ the paper supplies, so the covered statement needs no
 argument beyond the paper's. Thomas Bloom, the site's curator, credits the case
-to Penman's observation from [ErHa66]. But the site's label rests on Zach
+to Penman's observation from [ErHa66]. But the site's label rested on Zach
 Hunter's deduction from Liu and Montgomery, so that credit is context and not
 `reviewed` evidence.

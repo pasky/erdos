@@ -40,12 +40,12 @@ quantifier: whether, for $k\ge3$, every finite coloring of the integers has
 a monochromatic $k$-term progression whose common difference is a prime. Read
 as asking about some coloring, it would be trivially yes (one color).
 
-**Status.** Claimed. The site labels the problem SOLVED (page last edited 8
-April 2026, as of 2026-10-07), but the derived standing is claimed. The first
+**Status.** Claimed. The site labeled the problem SOLVED (page last edited 8
+April 2026), but the derived standing is claimed. The first
 question's yes is an accepted claim. The second question's no rests only on the
 site's own modulo-4 argument and on Kitamura's unbuilt Lean proof of it for the
 natural numbers, both pending claim pages. They are pending because the argument
-has no publication and the curator who labels the problem wrote it.
+has no publication and the curator who labeled the problem wrote it.
 
 The two questions have different answers. The first is yes for every $k\ge3$ by
 the Green–Tao theorem [GrTa08]. Some color class of a finite coloring has

@@ -27,7 +27,7 @@ $$
 \omega_1^2 \not\to (\omega_1^2, 3)^2?
 $$
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE and credits
+**Status.** Open. The site labeled the problem NOT DISPROVABLE and credits
 Hajnal's proof of the negative relation under the continuum hypothesis. There
 are later consistency results from a Suslin tree, from the stick principle, from
 $\mathfrak d=\aleph_1$ and in a model of a fragment of Martin's axiom. Together

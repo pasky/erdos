@@ -58,7 +58,7 @@ record); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Norm-graphs: variations and applications, J. Combin.
 Theory Ser. B 76 (1999), no. 2, 280--290. The site's curator, T. F. Bloom,
-credits the asymptotic to this paper in the problem's commentary. The page is
+credits the asymptotic to this paper in the problem's commentary. The page was
 labeled OPEN (last edited 8 February 2026, accessed 2026-09-17). That label does
 not mark the problem or this part settled, so the credit is recorded here and is
 not `reviewed` evidence.

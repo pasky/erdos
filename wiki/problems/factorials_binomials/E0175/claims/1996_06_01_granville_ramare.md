@@ -66,7 +66,7 @@ or audited that development, so it is not listed as evidence.
 
 **Acceptance.** The paper appeared in Mathematika, a refereed journal, and
 its acknowledgments thank an anonymous referee. Thomas Bloom, the site's
-curator, marks the problem proved and credits Granville and Ramaré, together
+curator, marked the problem proved and credits Granville and Ramaré, together
 with Velammal's independent proof, on the problem page (last edited 8
 February 2026). Velammal's proof is recorded on
 [[problems/factorials_binomials/E0175/claims/1995_01_01_velammal|its own claim page]],

@@ -59,13 +59,13 @@ label PROVED (LEAN) has the polarity of a positive answer; it contradicts the
 site's own commentary and the Lean proof of the negation, and the page follows
 the commentary (Status).
 
-**Status.** PROVED (LEAN) on erdosproblems.com (page last edited 25 January
-2026). This record departs from the site's label: the corrected Statement is
-disproved. The site's own commentary says the statement is false. It names
-Wood's construction [Wo13b] as the counterexample, with $c_t<2$ for every $t$,
-and credits KoishiChan with an independent counterexample in the comments. The
-label's Lean mark refers to the Lean proof listed under Formalization, which
-proves the negation of the corrected Statement.
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com (page last edited 25
+January 2026). This record departs from the site's label: the corrected
+Statement is disproved. The site's own commentary says the statement is false.
+It names Wood's construction [Wo13b] as the counterexample, with $c_t<2$ for
+every $t$, and credits KoishiChan with an independent counterexample in the
+comments. The label's Lean mark refers to the Lean proof listed under
+Formalization, which proves the negation of the corrected Statement.
 
 **Source.** [erdosproblems.com/1022](https://www.erdosproblems.com/1022),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1022,
@@ -106,7 +106,7 @@ https://www.erdosproblems.com/1022.
 
 ## Current assessment
 
-The site labels the problem PROVED (LEAN). That label has the wrong polarity:
+The site labeled the problem PROVED (LEAN). That label has the wrong polarity:
 the same page says the assertion is false, Wood's theorem gives
 counterexamples, and the linked Lean development proves the negation of the
 existential statement with $X$ nonempty, the corrected Statement.

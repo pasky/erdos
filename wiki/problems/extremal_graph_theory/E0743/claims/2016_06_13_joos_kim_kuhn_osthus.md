@@ -60,7 +60,7 @@ paper.
 **Acceptance.** Refereed: the Journal of the European Mathematical Society,
 volume 21, issue 12 (Crossref record read). As context and not as evidence, the
 site's curator, Thomas Bloom, credits the result in the problem's commentary.
-The site labels the problem FALSIFIABLE, an open problem, so the credit settles
+The site labeled the problem FALSIFIABLE, an open problem, so the credit settles
 nothing and is not `reviewed` evidence. This corpus read Theorem 1.2 as printed
 in the arXiv version and none of the proof. It supplies no independent proof
 review.

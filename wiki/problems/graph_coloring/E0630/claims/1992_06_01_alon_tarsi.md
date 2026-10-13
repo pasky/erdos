@@ -51,7 +51,7 @@ the $2$-choosable graphs ([ERT80] on the problem page), not $2$-choosable.
 **Acceptance.** The paper is refereed. It appeared in Combinatorica 12 (1992),
 no. 2, 125–134, in the issue of June 1992. The publication record gives no finer
 date, so the page is dated by the first day of the issue month. The site's
-curator, Thomas Bloom, marks the problem PROVED and credits Alon and Tarsi
+curator, Thomas Bloom, marked the problem PROVED and credits Alon and Tarsi
 [AlTa92] with the answer. This independent credit is listed as `reviewed`. The
 community database (teorth/erdosproblems) lists the problem as proved with a
 Lean proof from 2026-09-16, the date of Ren's formalization below.

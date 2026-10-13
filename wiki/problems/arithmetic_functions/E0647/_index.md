@@ -48,7 +48,7 @@ https://www.erdosproblems.com/647.
 
 ## Current assessment
 
-The site labels the problem verifiable: a positive answer is witnessed by one
+The site labeled the problem verifiable: a positive answer is witnessed by one
 integer $n>24$ together with the finite check of $m+\tau(m)\leq n+2$ for every
 $m<n$, so a solution could be confirmed by computation, whereas a negative
 answer would need a proof. The problem is Erdős and Selfridge's. The site's

@@ -50,7 +50,7 @@ https://www.erdosproblems.com/37.
 - [Ru87] Ruzsa, I., Essential Components. Proc. London Math. Soc. (3) 54
   (1987), no. 1, 38-56, doi:10.1112/plms/s3-54.1.38; not held.
 
-**Formalization.** The Lean qualification in the site's label is a catalog
+**Formalization.** The Lean qualification in the site's label was a catalog
 label. formal-conjectures has no file for Problem 37, and the site's indicator
 reads "Formalised statement? No" (2026-10-07). The community database
 (teorth/erdosproblems, file commit of 2026-09-28) lists `status` "disproved

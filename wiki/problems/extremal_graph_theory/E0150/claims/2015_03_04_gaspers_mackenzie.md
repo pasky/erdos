@@ -62,5 +62,5 @@ the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of Graph
 Theory. The site's curator credits the paper in the problem's commentary. The
-site lists no parts, and its label credits Bradač's note for the whole problem,
+site lists no parts, and its label credited Bradač's note for the whole problem,
 so the credit is not listed as reviewed evidence.

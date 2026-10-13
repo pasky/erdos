@@ -30,7 +30,7 @@ $\sum \frac{1}{a_i}=\infty$.
 length is counted once. Infinite chromatic number means that $G$ is not
 colorable with any finite number of colors.
 
-**Status.** The site labels the problem PROVED (LEAN) and credits the solution
+**Status.** The site labeled the problem PROVED (LEAN) and credits the solution
 to Liu and Montgomery. The accepted claim is
 [[problems/graph_coloring/E0057/claims/2020_10_29_liu_montgomery|Liu and Montgomery's odd interval theorem]].
 The Lean behind the qualifier is described below.

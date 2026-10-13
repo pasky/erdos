@@ -52,7 +52,7 @@ records how the site's wording was settled: the sequence does not depend on $n$
 (otherwise Folkman's theorem answers yes) and the bound is required infinitely
 often. Source keys [Er77c, p.57] and [ErGa91, p.268].
 
-**Status.** Disproved. The site labels the problem SOLVED. The claim page
+**Status.** Disproved. The site labeled the problem SOLVED. The claim page
 [[problems/ramsey_theory/E0948/claims/2026_06_21_price|the 2026 coloring]]
 records the result, its postings and its acceptance evidence under the site's
 label, and the frontmatter standing derives from it. Beside it,
@@ -157,7 +157,7 @@ is the external file, which this corpus has not built. The site's indicator
 reports a formalized statement, and the community database (2026-10-06) records
 the statement formalized since 18 September 2026, lists the problem as solved as
 of its last update on 6 July 2026, and gives `formal_status` unformalized and no
-formal-proof URL. The site's label carries no (Lean) suffix. The external Lean
+formal-proof URL. The site's label carried no (Lean) suffix. The external Lean
 file behind the site's account is described under "The disproof and its Lean
 artifact" below.
 
@@ -323,8 +323,8 @@ two-color case in its original monochromatic form; the 2026 coloring is,
 as the screening comment says, in the spirit of [ErGa91].
 
 **Label and commentary notes.** (a) The site's
-label is SOLVED, its label for a resolution that is neither a proof nor a
-disproof, although the answer is negative; the site labels
+label was SOLVED, its label for a resolution that is neither a proof nor a
+disproof, although the answer is negative; the site labeled
 [[problems/ramsey_theory/E1198/_index|Problem 1198]], answered negatively the same
 spring, DISPROVED. (b) The commentary's statement that the original
 question remains open even for countably many colors stands beside the

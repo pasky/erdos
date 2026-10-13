@@ -47,7 +47,7 @@ https://www.erdosproblems.com/616.
 
 ## Current assessment
 
-The site labels the problem OPEN and credits Erdős,
+The site labeled the problem OPEN and credits Erdős,
 Hajnal and Tuza [EHT91] with the bounds
 $\frac3{16}r+\frac78\le t\le\frac15r$. The paper states them with
 rounding, $\lfloor\frac3{16}r+\frac78\rfloor\le t\le\lceil r/5\rceil$

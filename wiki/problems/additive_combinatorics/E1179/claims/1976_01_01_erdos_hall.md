@@ -97,7 +97,7 @@ listed.
 **Acceptance.** Refereed publication: Houston J. Math. 2 (1976), no. 2,
 173--180, received 1 December 1975 as the paper prints. The paper has no DOI,
 and the issue month is not printed. The page's name uses the year, filled to its
-first day. Reviewed: the site's curator, Thomas Bloom, labels the problem
+first day. Reviewed: the site's curator, Thomas Bloom, labeled the problem
 proved. In the problem page's commentary the curator records the Erdős–Hall
 bound [ErHa76] as the answer, beside the trivial lower bound. Bloom is
 independent of the authors. The proof is not compiled in this corpus.

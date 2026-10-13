@@ -67,7 +67,7 @@ question for an arbitrary triangular array, of which the Statement's single
 sequence is a special case; for non-nested arrays Gu's companion note claims
 the answer no.
 
-**Status.** The site labels the problem OPEN (page last edited 01 April 2026;
+**Status.** The site labeled the problem OPEN (page last edited 01 April 2026;
 proof-claims tab accessed 2026-10-07). The derived standing in the frontmatter
 is open. The tab carries one proof claim, submitted as full, by Qiyuan Gu (using
 GPT-6 Astra, GPT-5.6 Sol, Claude Opus 5, as the tab writes it). It was posted

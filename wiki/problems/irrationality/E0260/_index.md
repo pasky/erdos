@@ -55,7 +55,7 @@ https://www.erdosproblems.com/260.
 
 ## Current assessment
 
-The site labels Problem 260 OPEN (page accessed 2026-09-04; page last edited
+The site labeled Problem 260 OPEN (page accessed 2026-09-04; page last edited
 2026-02-01). The frontmatter standing, `claimed`/`proved`, is derived from the
 pending full claim page: the 2026 preprint of Han Wang and Jose Maria Grau Ribas
 (later versions by Wang alone) asserts a positive answer through a density

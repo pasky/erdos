@@ -98,7 +98,7 @@ in Acta Arithmetica. The publisher gives the online date 2016-07-12, which is
 the paper link's date. The `reviewed` evidence is the documented acceptance by
 the catalog erdosproblems.com. Its curator, Thomas Bloom, credits the disproof
 to this paper in the problem's remarks, for almost every $\alpha$ and for
-$\alpha=\sqrt2$. The page carries the label DISPROVED (last edited 2026-01-27).
+$\alpha=\sqrt2$. The page carried the label DISPROVED (last edited 2026-01-27).
 
 The formal-conjectures statement file (the `record` link, pinned to the commit
 it names) tags `erdos_1147` research solved with the answer False. It records a

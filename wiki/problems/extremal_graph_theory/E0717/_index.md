@@ -152,7 +152,7 @@ theorem, which the paper quotes as
 (every graph with $n$ vertices and at least $256t^2n$ edges contains a
 subdivision of $K_t$; Problem 718). Acceptance evidence: Combinatorica is
 refereed (volume 33, issue 2, April 2013 per the Crossref record); the site's
-curator, Thomas Bloom, marks the problem proved and credits the paper; none of
+curator, Thomas Bloom, marked the problem proved and credits the paper; none of
 the twelve citing papers found by the search disputes or
 sharpens the theorem. Read depth: the statements of Theorems 1.1, 1.2 and 3.1
 (pp. 2 and 4) are checked, and the one-page deduction of Theorem 1.1 from

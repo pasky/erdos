@@ -53,7 +53,7 @@ and the one-edge endpoint is elementary.
 **Acceptance.** Refereed: A. F. Sidorenko, The Ramsey number of an $n$-edge
 graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B 58 (1993), no.
 2, 185--196, in the July 1993 issue, the month this page is dated by. The day is
-a placeholder. The site labels the problem OPEN, so its pages are not
+a placeholder. The site labeled the problem OPEN, so its pages are not
 acceptance.
 
 **Read depth.** The paper is not held. The statement, with its hypotheses

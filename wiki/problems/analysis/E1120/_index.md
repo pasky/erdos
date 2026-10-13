@@ -36,7 +36,7 @@ largest, over admissible $f$ of degree $n$, of the shortest length of such a
 path, as a function $S(n)$ of $n$. This is how the site's commentary reads it.
 The trivial lower bound is $S(n)\geq 1$, with equality for $f(z)=z^n$.
 
-**Status.** The site labels the problem OPEN (page last edited 30 December
+**Status.** The site labeled the problem OPEN (page last edited 30 December
 2025). Two pending partial claims by Pendyala bear on it: an arXiv preprint
 asserting $c\sqrt{\log n}\leq S(n)\leq \pi n$ for large $n$
 ([[problems/analysis/E1120/claims/2026_06_17_pendyala|claim page]]), and an

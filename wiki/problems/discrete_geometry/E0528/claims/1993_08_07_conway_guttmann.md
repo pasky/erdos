@@ -55,7 +55,7 @@ $k\ge3$, and the value of $C_2$, which is not determined.
 **Acceptance.** Refereed: A. R. Conway and A. J. Guttmann, Lower bound on the
 connective constant for square lattice self-avoiding walks, J. Phys. A 26
 (1993), no. 15, 3719--3724. The site's commentary records the bound, but the
-site labels the problem OPEN, so that remark is not acceptance of the problem
+site labeled the problem OPEN, so that remark is not acceptance of the problem
 and the page lists no `reviewed` evidence. The proof is not compiled in this
 corpus.
 

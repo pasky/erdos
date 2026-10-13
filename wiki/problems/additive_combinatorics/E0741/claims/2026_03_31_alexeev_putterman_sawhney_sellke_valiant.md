@@ -69,7 +69,7 @@ density and for an existing limit, which are on the
 **Depends on.** Nothing in this wiki: the construction and its proof are
 self-contained.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 SOLVED (LEAN), which settles both parts. The problem page's commentary (page
 last edited 2 May 2026; empty proof-claim tab) credits this paper, as [APSSV26],
 and DeepMind with independently constructed bases that answer the second

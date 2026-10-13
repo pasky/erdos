@@ -39,7 +39,7 @@ https://www.erdosproblems.com/25.
 The question, in the site's formulation accessed, asks whether
 the set $A$ of integers that avoid, for every modulus $n_i$ not exceeding
 them, the residue class $a_i$ modulo $n_i$ must have a logarithmic density;
-the site labels the problem OPEN and notes it as a special case of
+the site labeled the problem OPEN and notes it as a special case of
 [[problems/divisors/E0486/_index|Problem 486]]. The standing is open with no
 full claim. One pending partial claim is recorded: Chojecki's note of 19
 March 2026 ([[problems/integer_sequences/E0025/claims/2026_03_19_chojecki|claim

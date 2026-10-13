@@ -50,7 +50,7 @@ of the source card, whose qualifications (a misidentified reference on
 p. 9, an unproved remark on p. 16, and the secondary Theorem 32) do not
 touch the classification.
 
-**Acceptance.** T. F. Bloom, the site's curator, labels the problem Solved and
+**Acceptance.** T. F. Bloom, the site's curator, labeled the problem Solved and
 credits the classification to Beeson, Laczkovich and Zhang [BLZ26] (problem page
 last edited 2026-04-08, accessed 2026-09-05). This is the `reviewed` evidence.
 The result is a preprint, arXiv:2604.03609. It was first posted 2026-04-04 (v1,

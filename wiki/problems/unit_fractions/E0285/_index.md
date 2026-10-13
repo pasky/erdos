@@ -46,7 +46,7 @@ $\sum_{u\le n\le eu}1/n=1+o(1)$: the $k$ reciprocals of distinct
 denominators at most $f(k)$ sum to $1$, so $k\le\frac{e-1}{e}f(k)+o(f(k))$.
 The question is whether the matching upper bound holds.
 
-**Status.** The site's label is PROVED (LEAN). Its Lean suffix refers to a
+**Status.** The site's label was PROVED (LEAN). Its Lean suffix refers to a
 public Lean proof of the statement in Boris Alexeev's repository, recorded under
 Formalization and the Lean label below. The corpus has not built it, and no
 local kernel credit is claimed. Martin's Theorem 2 (Acta Arith. 95 (2000), no.
@@ -86,7 +86,7 @@ revision) declares `erdos_285 : answer(True) ↔ ...` under
 `category research solved` with proof `sorry`, a docstring "Proved by
 Martin [Ma00]", a variant `erdos_285.variants.lb` for the trivial lower
 bound (also `sorry`), and no `formal_proof` attribute. The proof behind the
-site's label is the file `src/latest/ErdosProblems/Erdos285.lean` of Boris
+site's label was the file `src/latest/ErdosProblems/Erdos285.lean` of Boris
 Alexeev's lean-proofs repository, added 2026-08-15, whose header names Greg
 Martin as the informal author and Codex and GPT-5.6 Sol as the formal
 authors and whose theorem `erdos_285` proves the formal-conjectures

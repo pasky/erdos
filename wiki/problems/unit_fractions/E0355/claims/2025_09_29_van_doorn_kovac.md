@@ -77,7 +77,7 @@ arbitrarily close to $2$, and the announcement of the paper on 14 September
 **Acceptance.** The paper is published in Acta Arithmetica, a refereed journal,
 and its acknowledgments thank an anonymous referee. That is the `refereed`
 evidence. The site's curator, Thomas Bloom, credits the result to van Doorn and
-Kovač in the commentary of the problem page. The problem page carries the label
+Kovač in the commentary of the problem page. The problem page carried the label
 PROVED (LEAN) and was last edited 18 November 2025. The curator is independent
 of the authors, and that credit is the `reviewed` evidence.
 

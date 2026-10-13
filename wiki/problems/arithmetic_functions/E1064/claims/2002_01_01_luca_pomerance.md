@@ -69,7 +69,7 @@ paper.
 
 **Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum in 2002
 (volume 92, issue 1). The issue carries no month, so the page's date is the
-first day of the publication year. Reviewed: erdosproblems.com labels the
+first day of the publication year. Reviewed: erdosproblems.com labeled the
 problem PROVED and credits the density-one statement, with the margin $o(n)$, to
 this paper as [LuPo02] (page last edited 2025-10-06). The corpus counts this as
 documented independent acceptance of this part by the site's curator, T. F.

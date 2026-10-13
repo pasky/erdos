@@ -64,7 +64,7 @@ the smallest possible limsup is at least $4/\pi$.
 
 **Acceptance.** Refereed: L. Habsieger, On the additive completion of polynomial
 sets, J. Number Theory 51 (1995), no. 1, 130–135. The site's curator records the
-bound in the problem's remarks. But the site labels the problem OPEN, so that
+bound in the problem's remarks. But the site labeled the problem OPEN, so that
 remark is not acceptance of the problem, and the page lists no `reviewed`
 evidence. The edition read is a scan of the journal paper. Its proof is not
 compiled in this corpus.

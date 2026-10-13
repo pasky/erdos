@@ -29,7 +29,7 @@ $$
 
 for any graph $H$ on $m$ edges without isolated vertices?
 
-**Status.** The site labels the problem OPEN. The pending claim gives the exact
+**Status.** The site labeled the problem OPEN. The pending claim gives the exact
 answer $c_k=2k+1$ for every $k\geq1$, by
 [[../library/ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Cambie--Freschi Theorem 3]]
 and the one-edge endpoint described below. The preprint claims the needed upper

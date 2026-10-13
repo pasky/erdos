@@ -36,7 +36,7 @@ problem is recorded as solved. It is not a geometric description of the kind
 Graham or Leader, Russell and Walters conjectured (both of which the paper
 refutes, the first in Lean built here, the second as the release's own claim),
 and no procedure for deciding the criterion from numerical data is proved. The
-site's page (last edited 16 October 2025) keeps the label OPEN and its curator
+site's page (last edited 16 October 2025) kept the label OPEN and its curator
 has not commented on the classification or on Pálvölgyi's heptagon; the
 standing here would follow the curator's ruling if the curator reads
 'characterise' more narrowly.

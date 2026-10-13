@@ -47,7 +47,7 @@ Cochromatic Numbers of a Random Graph*, [arXiv:2608.30604v1][arxiv], submitted
 **Current standing.** The uniform quantitative theorem is a pending full
 claim on E625, recorded on
 [[../wiki/problems/graph_coloring/E0625/claims/2026_07_14_petkov|its claim page]];
-the site labels the problem OPEN. The Palomar record and its automated
+the site labeled the problem OPEN. The Palomar record and its automated
 review cited below are third-party checks the corpus did not build. They
 confer no local whole-proof acceptance, native formalization, or native
 verification tier.

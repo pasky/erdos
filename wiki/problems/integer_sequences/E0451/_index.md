@@ -46,7 +46,7 @@ into the site's commentary on 21 June 2026. It would confirm Erdős's expectatio
 that $n_k$ grows faster than every power of $k$. It is recorded as a claimed
 partial claim on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]],
-since the site's commentary on a problem it labels OPEN is no acceptance. The
+since the site's commentary on a problem it labeled OPEN is no acceptance. The
 best upper bound is the elementary $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$. Erdős
 expected $n_k<e^{\epsilon k}$ for every $\epsilon>0$. A heuristic in the thread
 and the paper puts the truth at $\exp(\Theta(k/\log k))$. Before 2026 the only
@@ -169,7 +169,7 @@ proof was read for its structure and not checked step by step; no step is
 independently reviewed here. Acceptance evidence: the site's commentary (21 June
 2026), and the bound carries the preprint qualification: an
 author-recorded theorem taken into the site's commentary, without refereed
-publication or independent review found; the site labels the problem OPEN, so
+publication or independent review found; the site labeled the problem OPEN, so
 the commentary is no acceptance. It is recorded as a claimed partial claim on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]].
 Provenance, recorded not judged: the paper's declaration of AI usage (p. 2) says

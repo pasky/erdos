@@ -48,7 +48,7 @@ forum comment of 2025-10-17 that already refers to it, which dates this page;
 the site's revision history begins on 2025-10-20 with the remark present.
 
 **Acceptance.** The site's curator, Thomas F. Bloom, records the construction in
-the problem's commentary as a trivial solution and labels the problem proved.
+the problem's commentary as a trivial solution and labeled the problem proved.
 Bloom also lists Steinerberger among those thanked on the page. Terence Tao's
 forum comment of 2025-10-17 accepts an argument of Steinerberger's type as valid
 and concludes that the problem was badly worded (`reviewed`).

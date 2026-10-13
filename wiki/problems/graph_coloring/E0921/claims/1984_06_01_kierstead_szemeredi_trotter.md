@@ -64,7 +64,7 @@ records.
 On coloring graphs with locally small chromatic number, Combinatorica 4 (1984),
 no. 2--3, 183--185, DOI 10.1007/BF02579219. The Crossref record gives the
 publication month June 1984 and no day, so the page is dated to the first of
-that month. Reviewed: the site's curator, Thomas Bloom, labels the problem
+that month. Reviewed: the site's curator, Thomas Bloom, labeled the problem
 proved and credits [KST84] with the proof for every $k\ge4$. Its proof is not
 reviewed in this corpus.
 

@@ -70,7 +70,7 @@ Combinatorics, an open-access journal. The paper was received 14 January 2015
 and revised 19 July and 27 October 2015. It appeared in volume 64, part 2,
 of 2016. The journal's volume listing (2026-09-18 and 2026-10-07) dates volume
 64 February 2016, and this page's date is that month's nominal first day. The
-site's curator, Thomas Bloom, labels the problem solved and credits the
+site's curator, Thomas Bloom, labeled the problem solved and credits the
 alternative proof to Chaffee and Noble [ChNo16]. This is the `reviewed`
 evidence, and Bloom took no part in the paper. The proof-claim tab is empty.
 Read depth: claims checked for Lemma 3, Theorem 6 and Theorem 7. The proof of

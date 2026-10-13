@@ -53,7 +53,7 @@ and the finite-dimension remark at
 of the source card.
 
 **Acceptance.** The result is refereed, since it appeared in the Bulletin of the
-American Mathematical Society. Thomas Bloom, the site's curator, marks the
+American Mathematical Society. Thomas Bloom, the site's curator, marked the
 problem disproved. The curator credits Kahn and Kalai for the disproof, and
 Brouwer and Jenrich for the smallest dimension the site records (problem page
 last edited 30 December 2025). The corpus's own rewritten chain for Theorem 1
@@ -70,7 +70,7 @@ Borsuk number, constructs a finite set in $\mathbb R^{946}$ and proves that
 its Borsuk number is at least 1650 (`Erdos505.f_946_ge_1650`,
 `Erdos505.not_erdos_505`), under Lean 4.24.0 and the Mathlib revision the
 file's header names. Alexeev announced it on the site's discussion thread on
-3 February 2026; the site's label carries a Lean marker. The dimension and
+3 February 2026; the site's label carried a Lean marker. The dimension and
 the explicit set differ from the paper's $n=1325$, and this corpus has not
 built the file, audited its axioms or reviewed its statement, so the file is
 a link here and not `formalized` evidence.

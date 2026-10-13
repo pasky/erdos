@@ -44,7 +44,7 @@ every prime $p>2$ be smaller than $p$; Artin's conjecture, which the site's
 commentary cites, concerns a fixed base instead, and asks for infinitely many
 primes $p$ to which that base is a primitive root.
 
-**Status.** Open. The site's label is OPEN, which describes the corrected
+**Status.** Open. The site's label was OPEN, which describes the corrected
 Statement. No claim page is recorded.
 
 **Source.** [erdosproblems.com/985](https://www.erdosproblems.com/985), accessed
@@ -70,7 +70,7 @@ https://www.erdosproblems.com/985.
 
 ## Current assessment
 
-**Scope.** The page carries the site's label (OPEN, accessed 2026-09-04),
+**Scope.** The page carried the site's label (OPEN, accessed 2026-09-04),
 which describes the corrected Statement, and its references on Artin's
 conjecture; no status search is recorded. The notes below record the literature
 on the least prime primitive root and the release's manuscripts that bear on the

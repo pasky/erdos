@@ -53,7 +53,7 @@ infinitely many progressions $x^2, y^2, z^2, 73^3w^2$ (up to reversal), and a
 direct gcd argument makes every pair of terms coprime.
 
 **Acceptance.** The paper is refereed: Int. J. Number Theory 20 (2024), no. 1,
-19–45. The site's curator, Thomas Bloom, marks Problem 937 proved and credits
+19–45. The site's curator, Thomas Bloom, marked Problem 937 proved and credits
 this paper for the proof.
 
 The community database (teorth/erdosproblems) also records the problem as proved

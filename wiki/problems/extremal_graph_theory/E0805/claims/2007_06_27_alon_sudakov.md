@@ -56,6 +56,6 @@ says its results do not settle.
 
 **Acceptance.** `refereed`: J. Graph Theory 56 (2007), no. 2, 149--157,
 published online 9 August 2007. The site's curator, T. F. Bloom, credits the
-result in the problem's commentary. The site labels the problem OPEN, so that
+result in the problem's commentary. The site labeled the problem OPEN, so that
 commentary is not acceptance, and no `reviewed` is listed. Source card:
 [[../library/extremal_graph_theory/alon_2007_graphs_subgraphs_having_large_independence_numbers/_index|Alon and Sudakov]].

@@ -50,7 +50,7 @@ https://www.erdosproblems.com/109.
   of Theorem 3.22). Library home:
   [[../library/additive_combinatorics/moreira_2019_proof_sumset_conjecture_erdos/_index|moreira_2019_proof_sumset_conjecture_erdos]].
 
-**Formalization.** The site's label is PROVED (LEAN); its suffix is a catalog
+**Formalization.** The site's label was PROVED (LEAN); its suffix is a catalog
 label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/109.lean),
 with formal-conjectures' `Set.upperDensity` (Mathlib has no upper-density

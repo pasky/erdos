@@ -55,7 +55,7 @@ is large ($N\le2n$). Only the order of magnitude of the edge count enters, so
 the exponents recorded below do not depend on the choice of wording. The site's
 label DISPROVED (LEAN) carries a catalog suffix explained under Formalization.
 
-**Status.** Disproved. The site's label is DISPROVED (LEAN), whose catalog
+**Status.** Disproved. The site's label was DISPROVED (LEAN), whose catalog
 suffix is explained under Formalization. The original texts are not held. The
 site's commentary credits the negative answer to de Caen and Székely [DeSz92].
 Their bounds are $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for
@@ -133,7 +133,7 @@ F. Bloom, Erdős Problem #1080, https://www.erdosproblems.com/1080, accessed
 - Faudree and Simonovits: named by the site for the bound $f(n,m)\ll(nm)^{2/3}$
   with no reference key; the paper is not identified, and no copy is held.
 
-**Formalization.** The suffix (LEAN) of the site's label is a catalog label.
+**Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
 [`ErdosProblems/1080.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1080.lean)
 of formal-conjectures, at the commit the link pins, declares

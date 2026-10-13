@@ -26,7 +26,7 @@ graph or independent set on $\gg \log n$ many vertices. Must $G$ contain $\gg
 n^{5/2}$ induced subgraphs which pairwise differ in either the number of
 vertices or the number of edges?
 
-**Status.** Proved. The site labels the problem PROVED, and its curator credits
+**Status.** Proved. The site labeled the problem PROVED, and its curator credits
 the proof to Kwan and Sudakov [KwSu21]. The claim page
 [[problems/ramsey_theory/E0636/claims/2017_12_15_kwan_sudakov|Kwan and Sudakov 2017]]
 records the result, its postings and the acceptance evidence, and the

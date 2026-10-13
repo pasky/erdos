@@ -29,7 +29,7 @@ $$
 
 with $a_1<a_2<\cdots <a_k$ have only finitely many solutions?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 28 October 2025). The standing in the frontmatter derives from the claim
 pages. The site credits Frankl and Lin, independently, with the finiteness. The
 largest solution is $2^7=2!+3!+5!$. Lin's memorandum is recorded on

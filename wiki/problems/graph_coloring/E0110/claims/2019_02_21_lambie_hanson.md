@@ -55,7 +55,7 @@ size bound on them.
 
 **Acceptance.** The paper is refereed: Adv. Math. 369 (2020), 107176. The
 preprint was posted on 21 February 2019, the page's date. The site's curator,
-Thomas Bloom, labels the problem DISPROVED. The curator credits Shelah with the
+Thomas Bloom, labeled the problem DISPROVED. The curator credits Shelah with the
 consistency result, citing the Komjáth–Shelah paper, and Lambie-Hanson with the
 counterexample in ZFC. This independent credit is listed as `reviewed`.
 

@@ -23,7 +23,7 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Are there infinitely many positive integers not of the form
 $n-\phi(n)$?
 
-**Status.** Proved. The site labels the problem PROVED (LEAN). Browkin and
+**Status.** Proved. The site labeled the problem PROVED (LEAN). Browkin and
 Schinzel's 1995 theorem answers yes; see
 [[problems/arithmetic_functions/E0418/claims/1994_04_11_browkin_schinzel|the claim page]].
 The Lean qualification corresponds to the formal proof that formal-conjectures'

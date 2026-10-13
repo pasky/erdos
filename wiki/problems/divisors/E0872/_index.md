@@ -34,8 +34,8 @@ game be guaranteed to last for?
 At least $\epsilon n$ moves? (For $\epsilon>0$ and $n$ sufficiently large.) At
 least $(1-\epsilon)\frac{n}{2}$ moves?
 
-**Status.** Open on the site. The page shows OPEN and was last edited 24
-April 2026. Its proof-claims thread lists one proof claim as full. The
+**Status.** Labeled open on the site. The page showed OPEN and was last edited
+24 April 2026. Its proof-claims thread lists one proof claim as full. The
 frontmatter standing derives from the claim pages, and no full claim is recorded
 there. The pending partial claim
 [[problems/divisors/E0872/claims/2026_02_14_price|Price's Shortener strategy]]
@@ -137,7 +137,7 @@ manuscript to its theorem, the outline of its argument and its
 verification notes, its Lean project unbuilt; and on Price's write-up as
 the thread and the site's remarks describe it. No independent review of
 any argument is recorded; the curator's remark on Price's result is
-commentary on a problem the site labels OPEN.
+commentary on a problem the site labeled OPEN.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

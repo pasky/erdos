@@ -73,7 +73,7 @@ Per the article's header, it was received 24 June 2024, accepted 20 September
 2024 and published 9 October 2024. The contents page of the journal's volume 24
 lists it as Article A89.
 
-Not reviewed: the site's curator, Thomas Bloom, labels the problem DISPROVED
+Not reviewed: the site's curator, Thomas Bloom, labeled the problem DISPROVED
 (LEAN) and credits this paper in the commentary (page last edited 8 April 2026).
 The paper reports on p. 2 that the site marked the problem solved when the first
 construction appeared as a preprint. But the paper's acknowledgement (p. 4)

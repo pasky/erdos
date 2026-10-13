@@ -97,8 +97,8 @@ Two comments stand under the claim: one reports that a GPT review found no
 fatal issue but asked for Proposition 4.1 to be expanded, and one remarks that
 Sawin's recent framework for
 [[problems/unit_fractions/E0327/_index|Problem 327]] is what makes the
-argument possible; neither is an acceptance. The site's label is OPEN (page
-last edited 16 January 2026; as of 2026-10-07), and the tab's standing notice
+argument possible; neither is an acceptance. The site's label was OPEN (page
+last edited 16 January 2026), and the tab's standing notice
 says that listing a claim implies no examination. The lower bound is the input
 of
 [[problems/unit_fractions/E0302/claims/2026_08_16_khanukov|Khanukov's claim]]

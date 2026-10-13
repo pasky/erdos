@@ -50,6 +50,6 @@ also credits Corrádi and Hajnal with the case $r=3$. The claim value is
 
 **Acceptance.** Refereed: published in Acta Mathematica Academiae Scientiarum
 Hungaricae, cited with its venue above. Reviewed: the site's curator, T. F.
-Bloom, independent of the authors, labels the problem PROVED (LEAN) and
+Bloom, independent of the authors, labeled the problem PROVED (LEAN) and
 credits the case $r=3$ to this paper in the commentary. The text is not held,
 so no proof step is checked.

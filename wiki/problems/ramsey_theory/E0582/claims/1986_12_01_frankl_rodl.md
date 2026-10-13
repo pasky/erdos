@@ -47,5 +47,5 @@ $K_4$, is not held; the statement is taken from these accounts of it.
 **Acceptance.** Refereed: P. Frankl and V. Rödl, *Large triangle-free
 subgraphs in graphs without $K_4$*, Graphs and Combinatorics 2 (1986), no.
 1, 135--144 (December 1986 by its Crossref record; the day is a
-placeholder). The site's label rests on Folkman's existence proof, so the
+placeholder). The site's label rested on Folkman's existence proof, so the
 site's commentary crediting Frankl and Rödl is not listed as evidence.

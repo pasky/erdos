@@ -46,9 +46,9 @@ the recurrence $R(3,k+1)\le R(2,k+1)+R(3,k)$ with $R(2,k+1)=k+1$, at most
 $k+1$, so the second question asks whether the trivial upper bound is far
 from the truth.
 
-**Status.** The site labels the problem OPEN. The search whose scope the Current
-assessment records found no source that proves or disproves either statement,
-and no proof claim. What is proved is the following. First,
+**Status.** The site labeled the problem OPEN. The search whose scope the
+Current assessment records found no source that proves or disproves either
+statement, and no proof claim. What is proved is the following. First,
 $3\le R(3,k+1)-R(3,k)\le k+1$ for $k\ge2$. The lower bound is Graver and
 Yackel's Corollary 4 and the case $m=3$ of Burr, Erdős, Faudree and Schelp's
 Theorem 1. The upper bound is the recurrence above. Second, the site's

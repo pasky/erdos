@@ -197,7 +197,7 @@ possible. Acceptance evidence: the note is an arXiv preprint (v1 of 27
 January 2014, the only version; no journal reference on the abstract page or
 in the API record), so the
 preprint qualification applies: the site accepted the result on 29 September
-2025 and labels it PROVED, the community database records it, the argument
+2025 and labeled it PROVED, the community database records it, the argument
 is the standard deletion method and is reproduced independently in the
 thread, and the thread's comment of 29 September 2025 points to Theorem 3.1
 of the same authors' refereed paper *Short proofs of some extremal results

@@ -46,7 +46,7 @@ not pairwise coprime, and formal-conjectures uses joint coprimality
 examples and the $r\geq6$ construction would not count. Under a "for some $r$"
 reading, the first question would already be answered yes at $r=5$.
 
-**Status.** Open. The site's label is OPEN. The page was last edited on
+**Status.** Open. The site's label was OPEN. The page was last edited on
 2026-05-28, and its proof-claims thread was empty as of 2026-09-27. The site's
 remarks answer the third question yes through Nitaj [Ni95], with further
 constructions by Cohn [Co98] and Walsh [Wa24]. They record solutions of the

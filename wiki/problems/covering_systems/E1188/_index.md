@@ -41,7 +41,7 @@ pointed this out, the curator agreed, and the site kept its reworded
 question about $F(x)$, whose commentary says that Erdős asked it without the
 minimality assumption. The standing below concerns the site's $F(x)$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 17 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 17 April
 2026, as of 2026-10-06). The standing is claimed through a pending full claim,
 described below. The site's commentary records that $F(x)\to\infty$. It gives
 the elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower bound

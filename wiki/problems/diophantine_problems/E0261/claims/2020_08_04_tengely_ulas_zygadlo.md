@@ -66,7 +66,7 @@ settling it.
 10.1016/j.jnt.2020.05.006, in the December 2020 issue (`refereed`). The arXiv
 preprint 2008.01501 was posted on 4 August 2020, and this page is dated by that
 posting. The site's curator credits the verification in the problem's remarks.
-The site labels the problem OPEN, however, so the remark is not acceptance of
+The site labeled the problem OPEN, however, so the remark is not acceptance of
 the problem, and the page lists no `reviewed` evidence. The library holds no
 file of the paper. The results are recorded from its card, and the corpus
 records no check of the proofs or of the computation.

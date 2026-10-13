@@ -43,5 +43,5 @@ credits all three.
 géométrique de P. Erdős, Bull. Acad. Polon. Sci. Cl. III 5 (1957), 39–40. The
 citation, with its volume, follows the bibliography of
 [[../library/distance_problems/swanepoel_2009_unit_distances_diameters_euclidean_spaces/_index|Swanepoel's 2009 paper]].
-The curator of erdosproblems.com, Thomas Bloom, marks the problem solved and
+The curator of erdosproblems.com, Thomas Bloom, marked the problem solved and
 credits the three-dimensional case to this paper among the three.

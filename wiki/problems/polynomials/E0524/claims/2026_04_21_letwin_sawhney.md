@@ -79,6 +79,6 @@ stronger than the note on
 [[problems/polynomials/E0524/claims/2026_01_30_chojecki|Chojecki 2026]] by
 determining the constant in the Gao–Li–Wellner small-ball asymptotic, and
 that neither result pins the answer down as precisely as Salem and Zygmund
-might have wanted. The site labels the problem OPEN (page last edited 27
+might have wanted. The site labeled the problem OPEN (page last edited 27
 December 2025, before these postings). Nothing is compiled or reviewed in this
 wiki.

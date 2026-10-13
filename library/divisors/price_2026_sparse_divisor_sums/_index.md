@@ -49,7 +49,7 @@ its combinatorial core as a modular-lifting lemma (its Lemma 2.2).
 
 **Bears on.** [[../wiki/problems/divisors/E0018/_index|Problem 18]]: the first claimed
 answer to the first (prize) question, $h(n)\ll(\log\log n)^2$ for infinitely
-many practical $n$; the site shows OPEN with no acceptance, and the explicit
+many practical $n$; the site showed OPEN with no acceptance, and the explicit
 form with an author-side Lean formalization is
 [[divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_1|van Doorn and GPT-6 Astra Pro, Theorem 1.1]].
 The claim concerns general practical $n$ only and says nothing about $h(n!)$.

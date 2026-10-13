@@ -29,9 +29,9 @@ $$
 
 with the $m_i,n_j$ distinct?
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) (page
-last edited 12 January 2026). The standing in the frontmatter derives from the
-claim pages. The site credits Neel Somani, working with ChatGPT, with an
+**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN)
+(page last edited 12 January 2026). The standing in the frontmatter derives from
+the claim pages. The site credits Neel Somani, working with ChatGPT, with an
 explicit infinite family of solutions, recorded on
 [[problems/factorials_binomials/E0397/claims/2026_01_11_somani|its claim page]].
 The Lean qualifier refers to an Aristotle-generated formalization of that

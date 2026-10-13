@@ -52,5 +52,5 @@ would raise the bound to seventeen cells.
 **Acceptance.** Refereed: Beiträge zur Algebra und Geometrie 66 (2025), no.
 2, 417--441, doi:10.1007/s13366-024-00748-9, published online 2024-04-25,
 which gives the page its date. Not reviewed: the site's commentary does not
-mention the paper, and the site labels the problem OPEN. Not formalized: no
+mention the paper, and the site labeled the problem OPEN. Not formalized: no
 Lean proof of the theorem is recorded.

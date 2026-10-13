@@ -31,7 +31,7 @@ $$
 \lim \frac{1}{\log x}\sum_{a_n<x}\frac{1}{a_n}=0?
 $$
 
-**Status.** Open. The site labels the problem OPEN.
+**Status.** Open. The site labeled the problem OPEN.
 
 **Source.** [erdosproblems.com/839](https://www.erdosproblems.com/839), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #839,

@@ -29,7 +29,7 @@ $$
 
 where the $c_i\geq 0$ are integers?
 
-**Status.** Solved. The site labels the problem PROVED (LEAN). The site's
+**Status.** Solved. The site labeled the problem PROVED (LEAN). The site's
 commentary credits Hwang and Song with the first proof. The frontmatter standing
 is derived from the accepted claim page
 [[problems/diophantine_problems/E0435/claims/2024_12_23_hwang_song|Hwang and Song's formula]],

@@ -38,5 +38,5 @@ three for every $k$. The page is dated by the September 1999 issue.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Journal of Number Theory. The site labels the problem
+**Acceptance.** Refereed: Journal of Number Theory. The site labeled the problem
 OPEN, so its commentary crediting the paper is not acceptance.

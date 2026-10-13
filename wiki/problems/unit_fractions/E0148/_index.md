@@ -38,10 +38,11 @@ length $k$; the number of subsets of $\{1,\ldots,N\}$ with reciprocal sum
 $1$, a count with a denominator cutoff and no length restriction, is
 [[problems/unit_fractions/E0297/_index|Problem 297]] and is not $F(k)$.
 
-**Status.** Open on the site: the label is OPEN (page last edited 27 September
-2025), with no proof claim on its tab. The order of the double logarithm is
-fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is Corollary 1.2 of
-the OpenAI mathematics release's manuscript of 25 September 2026
+**Status.** Labeled open on the site: the label was OPEN (page last edited 27
+September 2025), with no proof claim on its tab. The order of the double
+logarithm is fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is
+Corollary 1.2 of the OpenAI mathematics release's manuscript of 25 September
+2026
 ([[problems/unit_fractions/E0148/claims/2026_09_25_openai|its claim page]]). The
 lower half is new and replaces the published bound $\exp(\exp(ck/\log k))$. The
 upper half was known from explicit bounds of the form $c^{2^k}$. The best of

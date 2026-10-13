@@ -64,12 +64,12 @@ The paper is carded at
 [[../library/distance_problems/clemen_2025_multiplicities_interpoint_distances/_index|clemen_2025_multiplicities_interpoint_distances]].
 
 **Acceptance.** The result is refereed: the paper appeared in Acta Mathematica
-Hungarica. The site's curator, Thomas Bloom, marks the problem DISPROVED (LEAN)
+Hungarica. The site's curator, Thomas Bloom, marked the problem DISPROVED (LEAN)
 and credits Clemen, Dumitrescu and Liu with the configuration on the problem
 page. The curator neither wrote nor submitted the result. This corpus has not
 reviewed the paper, and the standing recorded here does not need such a review.
 The chord computation above is a reading aid. A separate four-point
 counterexample, found by Aristotle and proved in Lean, is recorded on
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]].
-The site's label carries the Lean marker for that counterexample, which is not a
+The site's label carried the Lean marker for that counterexample, which is not a
 formalization of this result.

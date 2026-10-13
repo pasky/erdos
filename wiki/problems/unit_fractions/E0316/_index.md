@@ -44,7 +44,7 @@ wording does not exclude $a_1=1$, but with $1\in A$ no admissible split
 exists, so the site's $A\subset\mathbb N\setminus\{1\}$ makes the exclusion
 explicit.
 
-**Status.** Disproved. The site's label is DISPROVED (LEAN), and the answer is
+**Status.** Disproved. The site's label was DISPROVED (LEAN), and the answer is
 no. The divisors of $120$ other than $1$ and $120$ have reciprocal sum
 $239/120<2$ and no admissible split. The site attributes this set to Sándor's
 1997 paper. The eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of the

@@ -25,8 +25,8 @@ updated: 2026-10-08T01:29:59Z
 $G$ has chromatic number $\geq f(k)$ then $G$ contains a triangle-free subgraph
 with chromatic number $\geq k$?
 
-**Status.** PROVED (LEAN) on erdosproblems.com. The site's commentary credits
-Rödl [Ro77] with the proof
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com. The site's commentary
+credits Rödl [Ro77] with the proof
 ([[problems/graph_coloring/E0923/claims/1977_06_01_rodl|claim page]]). The Lean
 qualifier refers to Parcly Taxel's Aristotle-assisted formalization of Rödl's
 theorem, posted in the problem's thread on 20 April 2026. The formal-conjectures

@@ -65,8 +65,8 @@ doi:10.1016/0097-3165(89)90033-2. The Crossref record dates the issue to
 November 1989, and this page's name fills that to the first of the month.
 
 Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon and
-Spencer in the problem page's commentary and labels the problem disproved
-(accessed 2026-10-07; no last-edited date). The problem's discussion thread and
+Spencer in the problem page's commentary and labeled the problem disproved
+(no last-edited date). The problem's discussion thread and
 proof-claim tab were empty. The community database lists the problem as
 disproved as of its last update on 2025-08-31.
 

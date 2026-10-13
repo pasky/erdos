@@ -26,7 +26,7 @@ $2^k+m$ for some $k\geq 0$, where $\Omega(m)<\log\log m$? (Here $\Omega(m)$ is
 the number of prime divisors of $m$ counted with multiplicity.) What about
 $<\epsilon \log\log m$? Or some more slowly growing function?
 
-**Status.** The site labels the problem DISPROVED (LEAN). The answer to the
+**Status.** The site labeled the problem DISPROVED (LEAN). The answer to the
 first question is no. The site credits this answer to Barreto and Leeham, and
 credits the quantified form to Tao and Alexeev. The site leaves open whether
 arbitrarily large odd counterexamples exist. The label's Lean suffix refers to
@@ -49,7 +49,7 @@ https://www.erdosproblems.com/205.
 - [Ro34] Romanoff, N. P., Über einige Sätze der additiven Zahlentheorie. Math.
   Ann. (1934), 668-678.
 
-**Formalization.** The Lean suffix of the site's label is a catalog label;
+**Formalization.** The Lean suffix of the site's label was a catalog label;
 see "Formalization and the Lean label" below for what the files state. The
 file
 [`ErdosProblems/205.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/205.lean)
@@ -193,7 +193,7 @@ named above as the files name them.
 **Prior literature.** [Er80] and [Ro34] are the page's sources; Romanoff
 1934 has a library card, and neither paper's text bears on the disproof.
 
-**Formalization and the Lean label.** The Lean suffix of the site's label is a
+**Formalization and the Lean label.** The Lean suffix of the site's label was a
 catalog label. The Aristotle session linked from the Barreto–Leeham page proves
 the negation of the first clause from Mathlib alone, and the four community
 files prove the quantified variant. The collection's three parts are `sorry`

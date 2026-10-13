@@ -64,7 +64,7 @@ $k=3$, $t=2$ graphs of
 **Acceptance.** Refereed: the paper appeared in Advances in Mathematics, a
 refereed journal. The Princeton publication record and the author's publication
 list identify the published article. Reviewed: the site's curator, Thomas Bloom,
-labels the problem DISPROVED. In the commentary of erdosproblems.com/574 (page
+labeled the problem DISPROVED. In the commentary of erdosproblems.com/574 (page
 last edited 1 April 2026), Bloom names this paper as an alternative disproof for
 $k=3$. The commentary cites the paper's $m\times2m$ hexagon-free bipartite
 graphs with $(2/3^{4/3}+o(1))n^{4/3}$ edges for $n=3m$. Bloom took no part in

@@ -79,7 +79,7 @@ metadata, README, lakefile, toolchain, script and commit list read
 one carrying the \$250 prize; the analytic layer (the
 Bourgain input) is certified by nobody; no refereed publication, not on
 arXiv (an author search on 2026-09-27 found two unrelated papers); the site
-shows OPEN. The van Doorn note of 16 September 2026, filed as
+showed OPEN. The van Doorn note of 16 September 2026, filed as
 [[divisors/doorn_2026_practical_numbers_egyptian_fractions/_index|doorn_2026_practical_numbers_egyptian_fractions]],
 presents an elementary, explicit version of the same bound and cites this
 claim as its origin.

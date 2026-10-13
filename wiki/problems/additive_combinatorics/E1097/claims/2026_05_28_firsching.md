@@ -71,7 +71,7 @@ the exponent this construction reaches lies below that range.
 **Standing.** Claimed. Not reviewed: the formal-conjectures catalog marks its
 entry `research solved` with a `formal_proof` attribute pointing to the fork's
 theorem, but the pointer was added by the proof's own author, and the site's
-label is OPEN with its commentary (page last edited 1 April 2026) crediting the
+label was OPEN with its commentary (page last edited 1 April 2026) crediting the
 negative answer to Lemm's sums-differences bound and not to this proof; no
 outside reviewer has published an examination of it. Not refereed: it has no
 write-up. Not formalized: the development is not among the Lean the corpus has

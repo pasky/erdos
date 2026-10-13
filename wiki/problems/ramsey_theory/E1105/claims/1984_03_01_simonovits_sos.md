@@ -58,7 +58,7 @@ the full path formula for $n\ge k\ge5$ is
 theorem.
 
 **Acceptance.** The site's commentary credits the paper with a published proof
-of the path formula for $n\ge ck^2$. But the site's PROVED label rests on the
+of the path formula for $n\ge ck^2$. But the site's PROVED label rested on the
 claims that settle the two parts, so that credit is not listed as review of this
 partial claim. Refereed: Combinatorica 4 (1984), no. 1, 101--110. Its Crossref
 record dates the issue March 1984 without a day, so the page's day is a

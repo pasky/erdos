@@ -38,7 +38,7 @@ which notes that without it the remaining question would be trivial, since
 any sequence making both sums rational could be rearranged to grow as fast as
 one likes along a subsequence.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 21 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 21 January
 2026). Its commentary says that Kovač and Tao [KoTa24] have almost completely
 solved the problem by constructing a sequence growing doubly exponentially,
 $a_n^{1/\beta^n}\to\infty$ for some $\beta>1$. It says the remaining question is

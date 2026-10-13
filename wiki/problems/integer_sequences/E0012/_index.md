@@ -61,7 +61,7 @@ function of order at least $N^{1/2}$ along every $N$; the second asks whether
 every such set is thinner than $N^{1-c}$ infinitely often, for one absolute $c$;
 the third whether the reciprocal sum always converges.
 
-**Status.** Open; the site's label is OPEN. The standing derives from the
+**Status.** Open; the site's label was OPEN. The standing derives from the
 problem's three parts. The first two, the liminf and density questions, are
 answered by pending claims. The third, the reciprocal sum, has no standing
 claim.
@@ -71,7 +71,7 @@ $|A\cap\{1,\ldots,N\}|\ge N/(\log N)^{O(\log\log\log N)}$ for all large $N$.
 This answers the first question yes and the second no. The construction is
 credited to DeepMind's automated prover. It was simplified and sharpened in the
 thread (7--9 April 2026). It is recorded in the commentary that the site's
-curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's label is
+curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's label was
 OPEN. Formal proofs of the first two parts sit in a fork of the
 formal-conjectures collection at pinned commits (not built by this corpus). The
 result is recorded as a pending partial claim on
@@ -334,7 +334,7 @@ constructions nearly optimal. The construction and the site's credit are
 recorded on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 The curator's commentary of 8 April 2026 credits the result and the thread
-endorses it, but the problem's label is OPEN and settles neither question, so
+endorses it, but the problem's label was OPEN and settles neither question, so
 the claim is pending; the formal proofs in the fork (below) were not built.
 Provenance: the site names DeepMind; the arguments are attributed to
 an automated prover, and the thread's informal proofs are derived from its Lean

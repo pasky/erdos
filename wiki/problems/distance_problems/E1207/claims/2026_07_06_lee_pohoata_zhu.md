@@ -55,7 +55,7 @@ fields; that paper bears on
 with no journal publication and no Lean proof. The site's remarks, edited 7
 September 2026, credit the construction to Lee, Pohoata and Zhu, assisted by
 ChatGPT, and say that it answers the main question of Erdős; the site still
-labels the problem OPEN, and commentary on an open problem is not acceptance.
+labeled the problem OPEN, and commentary on an open problem is not acceptance.
 The paper's acknowledgment records that ChatGPT helped the first author find
 the related construction of a set in which every subset of at least
 $n^{1/2-\delta}$ points determines a repeated distance.

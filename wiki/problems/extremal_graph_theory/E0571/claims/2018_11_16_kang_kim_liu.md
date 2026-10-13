@@ -52,7 +52,7 @@ doi:10.1016/j.jctb.2020.12.003, a refereed journal. First posting:
 arXiv:1811.06916, v1 16 November 2018 (the date this page is named by). No
 `reviewed` evidence is listed. The site's commentary lists these exponents among
 the Turán exponents known before 2026 and credits the paper. But the site's
-label credits GPT-6 Astra with the full proof and is not an acceptance of this
+label credited GPT-6 Astra with the full proof and is not an acceptance of this
 result.
 
 **Read depth.** The statements are taken from the paper's abstract and the

@@ -28,7 +28,7 @@ Must $G$ have $\gg 2^{2n}$ subsets that are spanned by a cycle?
 has a Hamilton cycle, using exactly its vertices. Distinct subsets are
 counted, not distinct cycles on the same subset.
 
-**Status.** Proved by Draganić, Keevash, and Müyesser (2025). The site labels
+**Status.** Proved by Draganić, Keevash, and Müyesser (2025). The site labeled
 the problem PROVED and credits the resolution to [DKM25]. The result is recorded
 as an accepted claim on
 [[problems/extremal_graph_theory/E0622/claims/2025_03_03_draganic_keevash_muyesser|its claim page]],
@@ -55,7 +55,7 @@ no formal-conjectures file).
 
 ## Current assessment
 
-The site (2026-09-05) labels the problem PROVED, reports the asymptotic
+The site (2026-09-05) labeled the problem PROVED, reports the asymptotic
 result of [DKM25] and records no formalized statement; its discussion holds
 one comment, about a bibliography link that had been broken, and its
 proof-claims tab is empty.

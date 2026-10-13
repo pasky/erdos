@@ -219,7 +219,7 @@ even $k\ge8$. The cases $k=3,4,5$ are recorded as the partial claim page
 [[problems/extremal_graph_theory/E0815/claims/1988_01_01_erdos_faudree_gyarfas_schelp|Erdős,
 Faudree, Gyárfás and Schelp's Theorem 2]], pending because the proceedings
 volume Ars Combin. 25B carries no evidence of refereeing and the site's
-DISPROVED label credits [NPS17], not this result; the case $k=6$ stays in prose
+DISPROVED label credited [NPS17], not this result; the case $k=6$ stays in prose
 on the page of [NPS17], whose Proposition 5.1 proves it. The site's report that
 in [Er91] Erdős claimed, with Hajnal, proofs for $3\le k\le6$ gets no page: the
 paper is known here only through the site, which reports the claim without a

@@ -19,5 +19,5 @@ updated: 2026-10-08T13:55:35Z
 [Problem 963](../../problems/number_theory/E0963/_index.md) asks for the
 largest dissociated subset guaranteed in every set of $n$ reals, and in
 particular whether one of size $\lfloor\log_2 n\rfloor$ always exists. The
-site lists it as open. The source notes summarize the published work used in
+site listed it as open. The source notes summarize the published work used in
 reading it.

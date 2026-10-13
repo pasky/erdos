@@ -67,5 +67,5 @@ and Larson
 zbMATH reviews repeat it. This is a documented acceptance by named experts
 independent of the authors. Not `refereed`: the colloquium proceedings carry no
 evidence that their papers were refereed. The site's commentary credits the
-authors with the result. But the site labels the problem OPEN, so the curator's
+authors with the result. But the site labeled the problem OPEN, so the curator's
 credit is not acceptance of a claim.

@@ -49,7 +49,7 @@ claims the bound only for $f(n)$.
 does not answer whether $f(n)=o(n)$, the problem's question.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above,
-in the SIAM Journal on Discrete Mathematics. The site labels the problem OPEN,
+in the SIAM Journal on Discrete Mathematics. The site labeled the problem OPEN,
 so its commentary credits the paper without settling the problem, and no
 `reviewed` evidence is listed. The publication record dates the issue to May
 1996 and gives no finer date, so the page is dated to the first day of that

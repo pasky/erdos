@@ -66,7 +66,7 @@ paper says nothing about $k=2$ or about any $k\ge4$ other than $5$.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series B, a refereed journal. Reviewed: the site's curator, Thomas
-Bloom, labels the problem DISPROVED. In the commentary of erdosproblems.com/574
+Bloom, labeled the problem DISPROVED. In the commentary of erdosproblems.com/574
 (page last edited 1 April 2026), Bloom names this paper as apparently the first
 disproof, for $k=3$ and $5$. The commentary cites the paper's bipartite
 $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$, against the problem's

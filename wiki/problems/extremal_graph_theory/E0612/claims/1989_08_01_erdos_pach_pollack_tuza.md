@@ -57,7 +57,7 @@ and part (ii) for every $r\ge2$, the subquestion the problem page describes.
 **Acceptance.** Refereed: J. Combin. Theory Ser. B 47 (1989), no. 1, 73--79. The
 issue is headed "Vol. 47, No. 1, August 1989", and this page's date uses the
 issue's nominal first day. The site's commentary credits the authors with the
-case $2r+1=3$, but the site labels the problem OPEN. That is commentary, not
+case $2r+1=3$, but the site labeled the problem OPEN. That is commentary, not
 acceptance, so `reviewed` is not listed. The offprint is paged on the
 [[../library/extremal_graph_theory/erdos_1989_radius/_index|source card]], where
 the statement is paged at claims-checked depth. The proof (pp. 76--77) is read

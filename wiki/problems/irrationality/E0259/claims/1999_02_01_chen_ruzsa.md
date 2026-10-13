@@ -68,7 +68,7 @@ holds the bibliographic record.
 **Acceptance.** Refereed: Periodica Mathematica Hungarica, volume 38, issue 1–2,
 published in print in February 1999.
 
-Reviewed: Thomas Bloom, the site's curator, labels the problem proved and, in
+Reviewed: Thomas Bloom, the site's curator, labeled the problem proved and, in
 the problem's remarks, credits the paper with the stronger conjecture (page last
 edited 19 October 2025; accessed 2026-10-07). A comment in the site's thread of
 2025-09-02 records that the constant's OEIS entry cites the paper as the

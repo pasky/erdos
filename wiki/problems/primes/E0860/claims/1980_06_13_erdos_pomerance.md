@@ -50,7 +50,7 @@ magnitude of $h(n)$, which the problem asks to estimate, stays open.
 
 **Acceptance.** The result is refereed: Indag. Math. (Proc.) 83 (1980),
 147--161. It appeared in the issue headed 13 June 1980, which dates this page.
-The site's commentary records the bound on a problem it labels open, which is
+The site's commentary records the bound on a problem it labeled open, which is
 not acceptance.
 
 **Depends on.** Nothing on this wiki; the argument is the paper's own.

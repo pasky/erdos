@@ -73,7 +73,7 @@ same doubling question in the two divisibility readings, both answered no,
 and the forum items recorded under the Current assessment are partial
 positive results for restricted classes of $A$, not a restated question.
 
-**Status.** The site's label is FALSIFIABLE, which the site explains as an open
+**Status.** The site's label was FALSIFIABLE, which the site explains as an open
 problem that a finite counterexample could settle. It is recorded here as the
 site's label, not as the standing. The standing derives from the claim pages.
 The full claim of 5 September 2026 on the site's proof-claim tab,
@@ -184,7 +184,7 @@ to the statement's former wording. (c) The excess-fifteen claim's
 **The question (site formulation of 2026-09-18).** The statement above;
 FALSIFIABLE, last edited 8 April 2026; source keys [Er61, p. 236], [Er66, p.
 150], [Er80, p. 112]. The FALSIFIABLE label is a body note, not a claim: the
-site marks the problem as one a finite counterexample could settle, and the
+site marked the problem as one a finite counterexample could settle, and the
 pending claim below offers one. The commentary: the constant $2$ is best
 possible, by $A=\{a\}$, $n=2a-1$, $m=2a$; the problem is E5 of Guy's
 collection; in [Er61] the problem has $a\nmid n$ in place of $a\mid n$,
@@ -325,7 +325,7 @@ the sources above.
 
 **Remaining gaps.** (1) The statement has no refereed disproof and the site has
 not accepted the counterexample claim, so the standing is claimed. The site's
-proof claim itself remains unreviewed and unbuilt here, and the site's label is
+proof claim itself remains unreviewed and unbuilt here, and the site's label was
 unchanged; the site's acceptance, a referee's report or a named expert's review
 would move the claim to accepted and with it the problem to solved, disproved,
 while a build of its Lean file without a statement audit would add no acceptance

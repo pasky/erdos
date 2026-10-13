@@ -29,7 +29,7 @@ $$
 
 is $p$?
 
-**Status.** Open, the site's label (OPEN). The site marks the problem as not
+**Status.** Open, the site's label (OPEN). The site marked the problem as not
 decidable by a finite computation. Its proof-claims tab carries one partial
 proof claim, submitted 2026-07-25, which has had no response. That claim settles
 no case of the question and gets no claim page. The Current assessment records
@@ -52,7 +52,7 @@ notes that a positive answer would answer the second part of
 [[problems/arithmetic_functions/E0382/_index|Problem 382]], and that the
 heuristic probability $1-\log2$ that an integer $n$ has no prime factor of
 size at least $n^{1/2}$ predicts the answer yes. No source proves the
-statement for any $k\ge1$, and the site labels the problem OPEN.
+statement for any $k\ge1$, and the site labeled the problem OPEN.
 
 **Proof claim without a page.** The site's proof-claims tab lists a partial
 proof claim by Rafik Zeraoulia (using OpenAI GPT-5.6 Thinking, as the tab

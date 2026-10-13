@@ -68,8 +68,8 @@ paper.
 record: volume 15, issue 1--2, pp. 193--211, issued January 2006). The day in
 this page's date is the issue's nominal first day.
 
-Reviewed: the site's curator, T. F. Bloom, labels the problem proved and credits
-this paper with the sharp threshold, which contains the statement.
+Reviewed: the site's curator, T. F. Bloom, labeled the problem proved and
+credits this paper with the sharp threshold, which contains the statement.
 
 The locators are pages of the authors' preprint. The preprint is posted on
 Szabó's publication page and linked above, and it is described on the

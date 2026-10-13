@@ -56,7 +56,7 @@ https://www.erdosproblems.com/596.
 
 ## Current assessment
 
-The site labels the problem OPEN. Erdős and Hajnal originally guessed that no
+The site labeled the problem OPEN. Erdős and Hajnal originally guessed that no
 pair $(G_1,G_2)$ has both properties, and the site's remarks record that the
 guess fails for $G_1=C_4$ and $G_2=C_6$: Nešetřil and Rödl proved the finite
 property and Erdős and Hajnal the countable one, every $C_4$-free graph being

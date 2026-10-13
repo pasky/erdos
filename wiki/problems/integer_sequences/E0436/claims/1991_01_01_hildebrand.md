@@ -66,7 +66,7 @@ $\Lambda(k,3)$ grow with $k$.
 
 **Acceptance.** Refereed: the Michigan Mathematical Journal, a refereed
 journal, cited with its venue above. The site's commentary credits the theorem
-with the first question, but the site labels the problem OPEN, so the credit
+with the first question, but the site labeled the problem OPEN, so the credit
 is not `reviewed` evidence. The page is dated by the publication year, since
 the record gives only the year. The proof of Theorem 2 (sections 2 to 4 of the
 paper) carries no independent review in this corpus.

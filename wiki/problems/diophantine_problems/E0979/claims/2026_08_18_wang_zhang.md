@@ -48,7 +48,7 @@ $k\ge4$ remain open.
 **Depends on.** No page of this wiki.
 
 **Standing.** The preprint was linked in the problem's thread on 22 August
-2026 and was not filed on the site's proof-claims tab. The site's label is
+2026 and was not filed on the site's proof-claims tab. The site's label was
 OPEN, no reviewer is named, and the preprint is not refereed, so the claim
 stays claimed. The other claims of the case $k=3$ are
 [[problems/diophantine_problems/E0979/claims/1965_01_01_erdos|Erdős's unpublished claim]]

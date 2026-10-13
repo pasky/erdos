@@ -34,7 +34,7 @@ whether $M(r)$ has order exactly $r^{1/2}$, that is, whether the factor
 $r^{o(1)}$ between the two bounds can be removed. The problem stays open until
 that question is settled.
 
-**Status.** Open. The site keeps the label OPEN, and its curator has not
+**Status.** Open. The site kept the label OPEN, and its curator has not
 commented on Chojecki's upper bound. That bound is an accepted partial result,
 recorded on its
 [[problems/distance_problems/E0953/claims/2026_04_27_chojecki|claim page]].

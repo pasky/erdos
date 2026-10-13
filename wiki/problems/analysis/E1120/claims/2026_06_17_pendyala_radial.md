@@ -77,6 +77,6 @@ and the strict inequality $S(6)>1$. It says nothing about the growth of $S(n)$.
 
 **Standing.** A single-author preprint, not refereed and with no outside review,
 announced in the problem's thread on 2026-06-18 together with the author's arXiv
-preprint on the bounds. The site labels the problem OPEN.
+preprint on the bounds. The site labeled the problem OPEN.
 
 **Depends on.** No page of this wiki.

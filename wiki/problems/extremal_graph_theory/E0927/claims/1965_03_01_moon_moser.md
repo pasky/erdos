@@ -56,7 +56,7 @@ alone.
 **Acceptance.** Refereed: Israel Journal of Mathematics, volume 3, issue 1, pp.
 23--28, issued March 1965. This page's date is the issue's nominal first day.
 The site's commentary attributes both bounds to the paper, but the curator's
-label credits Spencer's disproof, so no `reviewed` evidence is listed. The
+label credited Spencer's disproof, so no `reviewed` evidence is listed. The
 source has a library
 [[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/_index|source card]].
 

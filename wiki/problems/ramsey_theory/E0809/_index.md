@@ -47,17 +47,17 @@ so a proof for all $k\ge4$ leaves it open at $k=3$, the cycle $C_7$; the cycles
 $C_3$ and $C_5$, where the function is constant and linear, are outside the
 question.
 
-**Status.** Open on the site (last edited 1 April 2026), whose commentary
-credits Bucić, Chen and Ma [BCM26] with the affirmative answer for every $k\ge4$
-and records nothing for $k=3$. The frontmatter standing is derived from the
-claim pages. Two accepted full claims settle the problem on `formalized`
-evidence. Each is a Lean proof of the full statement for every $k\ge3$ that this
-corpus built and audited. No outside review of either proof is known. The first
-is Asad Shahab's claim, filed on the site first (the site's proof claim 358,
-before the project's 367, both on 27 September 2026). It is a seven-cycle proof
-with a Lean development for every $k\ge3$. That development was built here at
-its pinned commit and audited clause by clause against the Statement (see the
-Formalization paragraph)
+**Status.** Labeled open on the site (last edited 1 April 2026), whose
+commentary credits Bucić, Chen and Ma [BCM26] with the affirmative answer for
+every $k\ge4$ and records nothing for $k=3$. The frontmatter standing is derived
+from the claim pages. Two accepted full claims settle the problem on
+`formalized` evidence. Each is a Lean proof of the full statement for every
+$k\ge3$ that this corpus built and audited. No outside review of either proof is
+known. The first is Asad Shahab's claim, filed on the site first (the site's
+proof claim 358, before the project's 367, both on 27 September 2026). It is a
+seven-cycle proof with a Lean development for every $k\ge3$. That development
+was built here at its pinned commit and audited clause by clause against the
+Statement (see the Formalization paragraph)
 ([[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|claim page]]). The
 other is the project's claim
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], a
@@ -69,8 +69,8 @@ tier-2 standing is the project's own verification, not community acceptance.
 Bucić, Chen and Ma's theorem is an accepted partial claim covering $k\ge4$ on
 `formalized` evidence, namely the $k\ge4$ branches of both developments
 ([[problems/ramsey_theory/E0809/claims/2026_03_19_bucic_chen_ma|claim page]]).
-The site's commentary credits the theorem, but on a problem the site labels OPEN
-that credit is not acceptance. Bucić, Chen and Ma's Theorem 1.2
+The site's commentary credits the theorem, but on a problem the site labeled
+OPEN that credit is not acceptance. Bucić, Chen and Ma's Theorem 1.2
 (arXiv:2603.18952v1, 19 March 2026, a preprint) gives
 $\chi_S(n,e,C_{2k+1})=e/2+(n/2)\sqrt{e-n^2/4}+o(n^2)$ over the whole range
 $\lfloor n^2/4\rfloor+1\le e\le\binom n2$. At $e=\lfloor n^2/4\rfloor+1$ this is
@@ -166,7 +166,7 @@ convergence, $C_3$ or $C_5$, novelty or community acceptance; neither the
 fidelity review nor its grade read the Bucić–Chen–Ma paper, and the $k\ge4$
 branch is a closed native proof whose truth does not rest on that attribution.
 
-**Outside claims and priority.** As of 2026-10-05 the site labels the problem
+**Outside claims and priority.** As of 2026-10-05 the site labeled the problem
 OPEN (last edited 1 April 2026), credits Bucić, Chen and Ma for $k\ge4$ only,
 and its proof-claims tab lists two full proof claims, each a proof of the $C_7$
 case with a Lean development for every $k\ge3$, both dated 27 September 2026.
@@ -257,7 +257,7 @@ deletion, as the Formulation says. Acceptance evidence: the $k\ge4$ branches of
 L17 and of Shahab's development formalize these instances (see the Formalization
 paragraph). The site's commentary, updated after the thread comment of 20 March
 2026, credits the paper with the affirmative answer for every $k\ge4$, but on a
-problem the site labels OPEN that credit is not acceptance. The paper is an
+problem the site labeled OPEN that credit is not acceptance. The paper is an
 arXiv preprint with one version, no journal reference on its listing and no
 Crossref record (2026-09-18), and no independent review of its proof was found,
 so the $k\ge4$ half rests on an unrefereed preprint whose $k\ge4$ instances both

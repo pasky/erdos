@@ -92,7 +92,7 @@ either file, so neither is listed as evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem proved,
+**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved,
 credits Barreto and Leeham on the problem page (last edited 12 January 2026) and
 records the formalization in the site's label. The community database records
 the problem as proved with a Lean proof (last updated 11 January 2026). There is

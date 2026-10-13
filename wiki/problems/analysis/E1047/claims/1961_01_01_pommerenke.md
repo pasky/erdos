@@ -53,7 +53,7 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labels the problem
+Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
 disproved and credits the negative answer to this theorem, stating the
 polynomial and the parameter range. Nothing here is independently reviewed
 by this project.

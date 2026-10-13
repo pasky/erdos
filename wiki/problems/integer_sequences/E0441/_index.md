@@ -40,14 +40,14 @@ The Statement asks the second question for each $N\ge1$; the explicit set at
 $N=336$ recorded in OEIS A068509 answers it no, and Chen and Dai's theorem
 gives failures for infinitely many $N$, so the wording stands and its answer is
 no. The asymptotic question, whether the construction is a largest set for all
-large $N$, is a variant; the site's label rests on Chen and Dai's theorem, which
-answers it no as well. Erdős's statements: item 4 of the 1965 survey [Er65,
-p. 183] asks "What is the maximum number of integers not exceeding $n$ so that
-the least common multiple of any two of them does not exceed $n$? I conjecture
-that the extremal sequence is given by the numbers $1<i$ [sic] $<(n/2)^{1/2}$
-and $(n/2)^{1/2}\le2j\le(2n)^{1/2}$" (the print's $1<i$ is a misprint for
-$1\le i$, which [Er62] and [Er73] print, since $1$ belongs to the extremal
-sequence);
+large $N$, is a variant; the site's label rested on Chen and Dai's theorem,
+which answers it no as well. Erdős's statements: item 4 of the 1965 survey
+[Er65, p. 183] asks "What is the maximum number of integers not exceeding $n$ so
+that the least common multiple of any two of them does not exceed $n$? I
+conjecture that the extremal sequence is given by the numbers $1<i$ [sic]
+$<(n/2)^{1/2}$ and $(n/2)^{1/2}\le2j\le(2n)^{1/2}$" (the print's $1<i$ is a
+misprint for $1\le i$, which [Er62] and [Er73] print, since $1$ belongs to the
+extremal sequence);
 problem 15 of the 1962 Hungarian survey (printed p. 238) asks the same,
 conjectures the same sequence, and adds that fewer than $3n^{1/2}$ such numbers
 is easy to prove while the conjecture would give $(3/2^{3/2})n^{1/2}$; the 1973

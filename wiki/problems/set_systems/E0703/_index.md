@@ -33,11 +33,11 @@ $$
 T(n,r)<(2-\delta)^n?
 $$
 
-**Status.** Proved on the site (label PROVED at the access of 2026-09-04; page
-last edited 16 October 2025). The community database lists the status as proved
-(Lean) as of its last update, dated 2026-09-16. The Lean qualification rests on
-Collin Yuanjie Ren's formalization of the Frankl–Füredi theorem, which is linked
-from
+**Status.** Labeled proved on the site (label PROVED at the access of
+2026-09-04; page last edited 16 October 2025). The community database lists the
+status as proved (Lean) as of its last update, dated 2026-09-16. The Lean
+qualification rests on Collin Yuanjie Ren's formalization of the Frankl–Füredi
+theorem, which is linked from
 [[problems/set_systems/E0703/claims/1984_03_01_frankl_furedi|the Frankl–Füredi claim page]].
 The site records that $T(n,0)=2^{n-1}$ trivially. It records that Frankl and
 Füredi [FrFu84b] determined $T(n,r)$ for fixed $r$ and $n$ large in terms of

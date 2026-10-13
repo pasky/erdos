@@ -41,14 +41,14 @@ Erdős and Graham printed: [ErGr80], p. 39, for $S_n$ the set of integers of
 the form $\sum_{k=1}^r\frac1{x_k}$ with $1\le x_1<\cdots<x_r\le n$ and $r$
 variable, asks "What is the smallest integer not in $S_n$? Is it true that
 $m\notin S_n$ implies $m+1\notin S_n$?", with no range on $n$. The site reads
-the problem through Croot's theorem: its label is PROVED, its commentary says
+the problem through Croot's theorem: its label was PROVED, its commentary says
 the problem "was essentially solved by Croot [Cr99]" and concludes that, with
 $m_N=\lfloor\sum_{n\le N}1/n\rfloor$, the representable integers are "for all
 $N$ sufficiently large, either $\{1,\ldots,m_N-1\}$ or $\{1,\ldots,m_N\}$";
 the statement file it links as its formalization (formal-conjectures
 `308.lean`, commit `9d259649abe0b02d7a25f7589b872db679b35e21`) states the
 problem as `parts.i`, $f(N)\in\{m_N,m_N+1\}$ for all large $N$, and
-`parts.ii`, the initial-segment property for all large $N$, marks both solved,
+`parts.ii`, the initial-segment property for all large $N$, marked both solved,
 and keeps the property for every $N\ge1$ as a separate open variant `all_N`;
 the site's thread has no comments. The change replaces "Let $N\geq 1$" by "Let
 $N$ be sufficiently large and $m_N=\lfloor\sum_{n\le N}\frac1n\rfloor$", in

@@ -30,7 +30,7 @@ made bipartite by deleting $m$ edges.
 Is it true that $f_k(n)\to \infty$ as $n\to \infty$? In particular, is it true
 that $f_4(n) \gg \log n$?
 
-**Status.** Disproved. The site labels the problem DISPROVED and credits Rödl
+**Status.** Disproved. The site labeled the problem DISPROVED and credits Rödl
 and Tuza. They show that $f_k(n)$ is the constant $\binom{k-1}{2}$ for all large
 $n$, so it does not tend to infinity.
 

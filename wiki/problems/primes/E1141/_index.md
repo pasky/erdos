@@ -24,7 +24,7 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Are there infinitely many $n$ such that $n-k^2$ is prime for all
 $k$ with $(n,k)=1$ and $k^2<n$?
 
-**Status.** The site labels the problem DISPROVED (LEAN). It credits the
+**Status.** The site labeled the problem DISPROVED (LEAN). It credits the
 finiteness theorem of [APSSV26b]. The authors of that paper attribute the proof
 to an internal OpenAI model. The site's Lean marker refers to third-party
 formalizations that this corpus has not built. The standing derives from

@@ -52,7 +52,7 @@ repeat the report in one sentence each and add nothing to it.
 
 **Acceptance.** None recorded. Erdős's report is the poser's word that the case
 was answered, with no argument to examine. This page does not count it as
-acceptance evidence. Thomas Bloom, the site's curator, labels the problem proved
-for Hunter's construction, which settles every $k$. That label credits nothing
-to this case. There is no refereed proof and no formalization of the Graham and
-Selfridge argument, so the claim stays `claimed`.
+acceptance evidence. Thomas Bloom, the site's curator, labeled the problem
+proved for Hunter's construction, which settles every $k$. That label credited
+nothing to this case. There is no refereed proof and no formalization of the
+Graham and Selfridge argument, so the claim stays `claimed`.

@@ -70,8 +70,8 @@ the request for the typical structure, for which no claim is recorded, so the
 problem stays open. No literature search beyond the sources named on this page
 was made, so this page certifies no openness.
 
-**Source.** [erdosproblems.com/1155](https://www.erdosproblems.com/1155),
-accessed 2026-10-07: the problem page (OPEN; last edited 25 January 2026;
+**Source.** [erdosproblems.com/1155](https://www.erdosproblems.com/1155): the
+problem page (OPEN; last edited 25 January 2026;
 source keys [Bo98], p. 231, and [Va99], 3.61; commentary citing [Gr97] and
 [BFL15]; no formalized statement), its one-comment discussion thread (24
 January 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős

@@ -63,7 +63,7 @@ PROVED (LEAN) refers to this development.
 **Acceptance.** The paper is refereed: K. F. Barth and W. J. Schneider, *On a
 problem of Erdős concerning the zeros of the derivatives of an entire function*,
 Proc. Amer. Math. Soc. 32, no. 1 (March 1972), 229--232. The site's curator,
-Thomas F. Bloom, marks Problem 229 proved and credits this paper with the
+Thomas F. Bloom, marked Problem 229 proved and credits this paper with the
 solution. The page is dated by the first day of the issue month. The publisher's
 record gives only the year 1972 and the issue, volume 32, number 1. March is
 that issue's month in the journal's 1972 schedule, and the paper's first posting

@@ -53,7 +53,7 @@ Besicovitch's sets (see The logarithmic-density theorem below), so that reading
 adds no open question. The page's parts are `convergence`, the first displayed
 assertion, and `log_density`, the second.
 
-**Status.** OPEN on the site (page last edited 24 April 2026; its
+**Status.** Labeled OPEN on the site (page last edited 24 April 2026; its
 proof-claims tab carries one claim, listed there as full).
 
 **Source.** [erdosproblems.com/143](https://www.erdosproblems.com/143), accessed

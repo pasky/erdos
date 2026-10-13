@@ -62,12 +62,12 @@ reference; no publication of Darby's proof is held or cited by either, so
 Darby's proof is disclosed here and has no page of its own.
 
 **Acceptance.** Refereed: Annals of Pure and Applied Logic. Reviewed: the
-curator of erdosproblems.com (T. F. Bloom) labels the problem PROVED and
+curator of erdosproblems.com (T. F. Bloom) labeled the problem PROVED and
 credits Schipperus [Sc10] and Darby with independent proofs in the problem's
 commentary. The curator is independent of the author.
 
 **Formalization.** The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/591.lean)
 (2026-10-07) marks its statement `erdos_591` research solved with
-`answer(True)` and no formal-proof link, and the site's label carries no
+`answer(True)` and no formal-proof link, and the site's label carried no
 Lean tag; no formalization of the proof is recorded.

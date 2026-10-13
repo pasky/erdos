@@ -78,7 +78,7 @@ removes them. The three questions, for every $n$, for $n>4$ and for all
 sufficiently large $n$, have the same answer, no, as the Current assessment
 records.
 
-**Status.** DISPROVED (LEAN), in the site's label. The site marks the problem
+**Status.** DISPROVED (LEAN), in the site's label. The site marked the problem
 disproved and credits Clemen, Dumitrescu and Liu with a second family of
 configurations. It also flags a Lean proof of a four-point counterexample. Both
 have the profile under the unordered count, so the label describes the corrected

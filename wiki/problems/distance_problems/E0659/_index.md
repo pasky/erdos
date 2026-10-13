@@ -30,7 +30,7 @@ $$
 \ll \frac{n}{\sqrt{\log n}}?
 $$
 
-**Status.** Proved. The site's label is PROVED (LEAN). The formalization that
+**Status.** Proved. The site's label was PROVED (LEAN). The formalization that
 this suffix marks assumes Bernays' theorem as an axiom, and this corpus has not
 built it. No `formalized` evidence is therefore credited.
 

@@ -52,7 +52,7 @@ Shiu's Theorem 2 on
 **Standing.** Claimed. The site's curator, Thomas Bloom, records in the
 problem's commentary that the second question has an easy affirmative
 answer and credits the observation to Stefan Steinerberger; but the site
-labels the whole problem OPEN and declares no parts, so
+labeled the whole problem OPEN and declares no parts, so
 that credit is context for this claim and not acceptance evidence, and
 `reviewed` is not listed. The observation has no written source of its own,
 so `refereed` is not listed. The site's page

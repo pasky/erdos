@@ -66,7 +66,7 @@ Approved (`REVIEW_APPROVED`, policy v3, decided 16 September 2026, two agent
 assessments of one model family, no fresh Lean replay by the reviewers);
 Certified 17 September 2026; Reward Paid; permitted axioms `propext`,
 `Quot.sound`, `Classical.choice`.
-Not refereed. The erdosproblems.com page shows OPEN, and its owner posted the
+Not refereed. The erdosproblems.com page showed OPEN, and its owner posted the
 record on the proof-claims tab on 27 September 2026 as a partial proof they had
 not verified.
 

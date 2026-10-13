@@ -85,7 +85,7 @@ records; the chapter's theorem numbering is unknown and its proof was not
 read. The volume carries only the year, so this page is dated the first of
 January 1989.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labeled
 the problem not disprovable. The page's one remark credits Baumgartner's chapter
 with $\omega_1\omega\to(\omega_1\omega,3)^2$ under a form of Martin's axiom
 (problem page last edited 26 January 2026). The label and the community database

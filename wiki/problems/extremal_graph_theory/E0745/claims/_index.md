@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 745, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T11:58:39Z
 ---
 
 # problems/extremal_graph_theory/E0745/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi|1980_01_01_komlos_sulyok_szemeredi]]: Komlós, Sulyok and Szemerédi bound the second largest component by $O(\log n)$
 at edge probability $\lambda/n$ with $\lambda>1$, the supercritical case the
-site's label credits. The result is correct, but the Statement has edge
+site's label credited. The result is correct, but the Statement has edge
 probability $1/n$, so it does not count toward the problem's standing.
 
 [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|1997_04_01_aldous]]: In a refereed paper in Ann. Probab. 25 (1997), Aldous proves that the ordered

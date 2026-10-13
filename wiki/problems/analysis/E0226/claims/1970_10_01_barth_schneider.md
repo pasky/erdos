@@ -69,6 +69,6 @@ development.
 **Acceptance.** The paper is refereed: K. F. Barth and W. J. Schneider,
 *Entire functions mapping countable dense subsets of the reals onto each
 other monotonically*, J. London Math. Soc. (2) 2, part 4 (October 1970),
-620--626. The site's curator, Thomas F. Bloom, marks Problem 226 proved and
+620--626. The site's curator, Thomas F. Bloom, marked Problem 226 proved and
 credits this paper with the solution. The page is dated by the first day of
 the issue month, since the paper's first posting carries no finer date.

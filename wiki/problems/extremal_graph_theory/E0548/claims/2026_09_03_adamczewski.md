@@ -128,7 +128,7 @@ give a simplified version of the argument that also determines the extremal
 graphs. D. R. Wood, *The Erdős--Sós Theorem*, arXiv:2609.17877 (v1 15 September
 2026), is an exposition. B. Frederickson, *Erdős-Sós via random cyclic
 orderings*, arXiv:2609.21159 (v1 18 September 2026), gives a simplified proof.
-None of these is refereed. The site labels the problem proved and formalized,
+None of these is refereed. The site labeled the problem proved and formalized,
 and its curator credits the proof. But the curator submitted the site's proof
 claim themselves and is a co-author of the FrontierMath Erdős paper, so the
 curator's credit is not counted as an independent review.

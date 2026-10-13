@@ -26,7 +26,7 @@ A finite projective plane of order $n$ is a collection of subsets of
 $\{1,\ldots,n^2+n+1\}$ of size $n+1$ such that every pair of elements is
 contained in exactly one set.
 
-**Status.** The site labels the problem FALSIFIABLE. It records that planes
+**Status.** The site labeled the problem FALSIFIABLE. It records that planes
 exist for every prime-power order. It records that the conjecture holds for
 $n\le11$, while the existence of a plane of order $12$ is open. It cites Bruck
 and Ryser's theorem [BrRy49] that an order $n\equiv1$ or $2\pmod4$ must be a sum
@@ -62,7 +62,7 @@ tagged open and the others tagged solved; it names no formal proof.
 The question asks whether every finite projective plane has prime-power
 order. The standing is open: no result settles or claims to settle the
 question, and the two claim pages are accepted partial claims on refereed
-evidence. The site labels the problem falsifiable, since a counterexample is
+evidence. The site labeled the problem falsifiable, since a counterexample is
 one finite projective plane of an order that is not a prime power, a finite
 set system whose defining property can be checked by enumeration; this is a
 body note, not a claim.

@@ -115,7 +115,7 @@ and Garonzi and Margolis's preprint for simple and symmetric groups
 ([[../library/group_theory/garonzi_margolis_2025_herzog_schonheim_conjecture_simple_symmetric_groups/_index|arXiv:2509.25118]]).
 They are cited through their library cards.
 
-As of 2026-10-05, the site shows OPEN (last edited 31 October 2025) with
+On 2026-10-05 the site showed OPEN (last edited 31 October 2025) with
 Itabe's partial claim as its one proof claim; the community database says
 open;
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/274.lean)

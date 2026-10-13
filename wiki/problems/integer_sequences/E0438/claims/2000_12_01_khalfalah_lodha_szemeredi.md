@@ -82,7 +82,7 @@ determined by the paper; the problem asks how large $A$ can be, and the
 asymptotic answer $(11/32+o(1))N$ is what the site records as the resolution.
 
 **Acceptance.** Reviewed: Thomas Bloom, the site's curator, is independent of
-the authors. Bloom labels the problem SOLVED and credits the paper in the
+the authors. Bloom labeled the problem SOLVED and credits the paper in the
 commentary (page last edited 7 April 2026; read from the cached snapshot of
 2026-09-05). The commentary names the Lagarias--Odlyzko--Shearer bounds and
 Massias's construction as the earlier steps. The discussion thread and the

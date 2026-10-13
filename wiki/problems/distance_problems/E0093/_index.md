@@ -25,7 +25,7 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** If $n$ distinct points in $\mathbb{R}^2$ form a convex polygon
 then they determine at least $\lfloor \frac{n}{2}\rfloor$ distinct distances.
 
-**Status.** Proved. The site's export of 2026-09-04 labels the problem "PROVED
+**Status.** Proved. The site's export of 2026-09-04 labeled the problem "PROVED
 (LEAN)" (page last edited 19 October 2025) and credits Altman's 1963 proof. See
 the [[problems/distance_problems/E0093/claims/1963_02_01_altman|claim page]].
 

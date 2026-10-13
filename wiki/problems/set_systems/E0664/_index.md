@@ -29,8 +29,8 @@ $\lvert A_i\cap A_j\rvert\leq 1$ for all $i\neq j$.
 Must there exist some set $B$ such that $B\cap A_i\neq \emptyset$ and $\lvert
 B\cap A_i\rvert \ll_c 1$ for all $i$?
 
-**Status.** Disproved on the site (label DISPROVED; page last edited 27 January
-2026). The standing rests on
+**Status.** Labeled disproved on the site (label DISPROVED; page last edited 27
+January 2026). The standing rests on
 [[problems/set_systems/E0664/claims/2024_08_03_alon|Alon's construction]],
 accepted on the curator's credit. The site reports that Alon answered the
 question no. For a large prime power $q$ and $n=m=q^2+q+1$, the construction
@@ -90,7 +90,7 @@ $n=m=q^2+q+1$, sets of size more than $\tfrac25\sqrt n$ with pairwise
 intersections of size at most $1$ such that every set meeting all of them
 meets one in at least $0.1\log_2 n$ points. Since the construction works at
 $c=2/5$, it refutes the statement for every $c\le2/5$, and a single failing
-$c<1$ answers the question as asked. The curator credits Alon and labels the
+$c<1$ answers the question as asked. The curator credits Alon and labeled the
 problem DISPROVED, which the claim page lists as `reviewed`; the note
 appeared in 2026 as Section 4 of Alon's chapter *Problems and Results in
 Extremal Combinatorics–V* (Problem 4.1, Theorem 4.3, Proposition 4.6 and

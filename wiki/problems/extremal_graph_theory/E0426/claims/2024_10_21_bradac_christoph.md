@@ -69,7 +69,7 @@ wiki.
 
 **Acceptance.** Reviewed: the site's curator writes in the problem's commentary
 that Bradač and Christoph proved the answer is no, with
-$f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The site's label is
+$f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The site's label was
 DISPROVED (LEAN) (site export of 2026-09-04). On 2026-10-07 the public page's
 markup showed no label text. The community database (teorth/erdosproblems,
 `data/problems.yaml` as of 2026-09-28) records status "disproved (Lean)", set by

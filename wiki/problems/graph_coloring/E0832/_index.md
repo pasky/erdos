@@ -44,7 +44,7 @@ Under either reading the answer is no, because Alon's counterexamples refute the
 lower bound itself; the equality clause of the corrected reading is not refuted
 separately.
 
-**Status.** Disproved. The site labels the problem DISPROVED and credits the
+**Status.** Disproved. The site labeled the problem DISPROVED and credits the
 disproof to Alon [Al85]. It says that the case $r=3$ is open. The claim page
 [[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]] records the
 result and its acceptance evidence.
@@ -99,7 +99,7 @@ thread, and the sources cited above. No other claim on the problem was found.
 
 **Remaining gaps.** The proof of Proposition 3 has not been rewritten. The
 equality clause of the Formulation's reading was not separately assessed, and
-the fixed case $r=3$ is open on the site and in Cherkashin–Petrov's 2019
+the fixed case $r=3$ was open on the site and in Cherkashin–Petrov's 2019
 report. Akolzin and Shabanov's bounds are taken from the site.
 
 ## Progress

@@ -50,7 +50,7 @@ this conjecture"
 ([[../library/discrepancy/erdos_1964_problems_results_diophantine_approximations/conjecture_p62|the conjecture card]]).
 Boris Alexeev's Lean theorem `not_erdos_998` (formal authors Codex and GPT-5.6
 Sol) refutes that endpoint converse for $\alpha=\sqrt2/10$, $u=1/4$. The site
-labels the problem PROVED and its commentary says "This is true, and was
+labeled the problem PROVED and its commentary says "This is true, and was
 proved by Kesten [Ke66]." The theorem credited, Theorem 4 of Kesten's paper
 (Acta Arith. 12 (1966), p. 193), is the length criterion: for fixed $\xi$ and
 $0\le a<b\le1$ with $b-a<1$, the discrepancy of $[a,b)$ is bounded in $M$ if
@@ -78,7 +78,7 @@ wording, that a bounded-discrepancy interval $[0,v)$ has $v=\{\alpha\ell\}$, is
 true and is the case of Kesten's necessity reconstructed on
 [[../library/discrepancy/kesten_1966_bounded_remainder/theorem_4|the theorem page]].
 
-**Status.** The site labels the problem PROVED and credits Kesten [Ke66]. The
+**Status.** The site labeled the problem PROVED and credits Kesten [Ke66]. The
 site was accessed 2026-09-04, and the page was last edited 2025-10-05. The
 corrected Statement is proved. Necessity is Kesten's Theorem 4 and sufficiency
 is the theorem of Hecke and Ostrowski, as accepted on the

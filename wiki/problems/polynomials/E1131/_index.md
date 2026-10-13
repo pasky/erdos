@@ -42,7 +42,7 @@ $$
 \min I =2-(1+o(1))\frac{1}{n}?
 $$
 
-**Status.** Open. The site labels the problem OPEN (page last edited
+**Status.** Open. The site labeled the problem OPEN (page last edited
 2026-01-23). Its discussion thread carries one pending partial claim, recorded
 and not adopted:
 [[problems/polynomials/E1131/claims/2026_04_26_price|Price 2026]], posted on
@@ -77,7 +77,7 @@ unformalized and no formal-conjectures statement file exists for it.
 **The question (site formulation, page last edited 2026-01-23).** For $n$
 nodes in $[-1,1]$ with Lagrange basis polynomials $l_k$, the least value of
 $I=\int_{-1}^1\sum_k|l_k(x)|^2\,dx$, and whether $\min I=2-(1+o(1))/n$. The
-site labels the problem OPEN. Erdős at first conjectured that the minimum is
+site labeled the problem OPEN. Erdős at first conjectured that the minimum is
 attained at the roots of the integral of the Legendre polynomial, the nodes
 Fejér [Fe32] had shown to minimize $\max_{x\in[-1,1]}\sum_k|l_k(x)|^2$;
 Szabados [Sz66] disproved that conjecture for every $n>3$. Erdős, Szabados,
@@ -95,7 +95,7 @@ polynomial.
 write-up posted in the site's discussion thread on 2026-04-26, credits
 GPT-5.5 Pro with a disproof of the displayed asymptotic; a reply by Nat
 Sothanaphan on 2026-04-27 reports that a standard check found no issues, and
-the site's label is unchanged. The claim would answer the second question
+the site's label was unchanged. The claim would answer the second question
 no and leaves the first open, so the problem derives no settled standing
 from it. The numerical study of Brutman and Toledano [BrTo97], raised in the
 thread on 2026-04-07 and again in the reply of 2026-04-27, had earlier

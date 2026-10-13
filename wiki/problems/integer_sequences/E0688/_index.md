@@ -43,8 +43,8 @@ also open. Problem 687 uses all primes up to $x$ and optimizes the covered
 interval; here the interval is fixed and the window of primes is truncated
 from below.
 
-**Status.** Open. The site labels the problem OPEN. Two results are in hand. The
-first is Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$. He
+**Status.** Open. The site labeled the problem OPEN. Two results are in hand.
+The first is Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$. He
 asserts it in [Er79d] p. 79 ("I can prove") and [Er80] p. 106 ("It is not
 difficult to prove"), without a proof in either source. The formal-conjectures
 collection marks it `research solved` as a variant. The second is the elementary

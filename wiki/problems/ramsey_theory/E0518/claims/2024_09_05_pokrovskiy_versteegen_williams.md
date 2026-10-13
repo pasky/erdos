@@ -60,7 +60,7 @@ obtainable with additional technical effort and not proved. The statement
 for every $n\ge1$ is the subject of the pending claim page
 [[problems/ramsey_theory/E0518/claims/2026_07_24_chen_chen|Chen and Chen 2026]].
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and names the paper as the affirmative solution in the problem's
 commentary. The label states no threshold, so whether the site reads the
 question for every $n$ or for large $n$ is not settled there. This page records

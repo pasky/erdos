@@ -67,8 +67,8 @@ settling it, as the problem page records.
 
 **Acceptance.** Refereed: Mathematics of Computation 54 (1990), no. 189,
 377--394, received 8 December 1988 (`refereed`). The site's curator gives the
-identity in the problem's remarks. The site labels the problem OPEN, however, so
-the remark is not acceptance of the problem, and the page lists no `reviewed`
+identity in the problem's remarks. The site labeled the problem OPEN, however,
+so the remark is not acceptance of the problem, and the page lists no `reviewed`
 evidence. The library holds no file of the paper. The statement is recorded from
 its card, and the corpus records no check of the proof.
 

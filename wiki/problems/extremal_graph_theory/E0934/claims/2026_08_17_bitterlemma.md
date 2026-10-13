@@ -69,7 +69,7 @@ for the lower bound $h_3(4)\ge71$, which the manuscript takes from the
 preprint; the upper bound is the manuscript's own.
 
 **Standing.** Claimed. The manuscript is a Zenodo deposit with no refereed
-version, the site's label is OPEN (2026-10-06) and its proof-claim tab does
+version, the site's label was OPEN (2026-10-06) and its proof-claim tab does
 not list the result, and no referee, named reviewer or outside build of the
 Lean development is recorded. The development is not Lean this corpus built
 or audited, so the page lists no `formalized` evidence; the repository's

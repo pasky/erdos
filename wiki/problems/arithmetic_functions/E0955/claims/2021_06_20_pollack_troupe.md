@@ -53,4 +53,4 @@ assertion stays open.
 
 **Acceptance.** Refereed: Proceedings of the American Mathematical Society,
 a journal. The site's commentary does not credit the result, and the site
-labels the problem OPEN, so no curator acceptance is listed.
+labeled the problem OPEN, so no curator acceptance is listed.

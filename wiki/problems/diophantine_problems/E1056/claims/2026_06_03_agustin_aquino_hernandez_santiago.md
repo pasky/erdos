@@ -70,5 +70,5 @@ audited, so no `formalized` evidence is listed.
 
 **Standing.** Claimed. The note is posted in a public repository and on the
 site's forum, with no review or refereed publication recorded, and the site
-labels the problem OPEN. Nothing here is independently reviewed by this
+labeled the problem OPEN. Nothing here is independently reviewed by this
 project.

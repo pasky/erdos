@@ -57,5 +57,5 @@ range. The chapter's proof is not checked here.
 **Standing.** The chapter appeared in a lecture-notes volume, and no record
 documents that the volume was refereed, so the page lists no `refereed`
 evidence. The site's curator credits the result in the problem's
-remarks, but the site labels the problem OPEN, so that credit is commentary and
+remarks, but the site labeled the problem OPEN, so that credit is commentary and
 is not counted as review. The claim stays claimed.

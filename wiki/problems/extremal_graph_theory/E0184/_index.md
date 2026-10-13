@@ -380,7 +380,7 @@ main labeled it solved as recorded above.
 tab carries one claim, full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]
-as claimed. The release's theorem is not on the site's tab. The site labels
+as claimed. The release's theorem is not on the site's tab. The site labeled
 the problem OPEN (page last edited 1 April 2026); this page's standing is
 derived from the claim pages, not from the label.
 

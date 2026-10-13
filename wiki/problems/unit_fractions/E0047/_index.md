@@ -111,7 +111,7 @@ of Theorem 3. This corpus has built neither. See Existing formalization.
 
 **The question.** On 2026-09-17 the site asks whether, for fixed $\delta>0$ and
 large $N$, $R(A)>\delta\log N$ forces a subset of $A$ with reciprocal sum one,
-shows PROVED (LEAN) with a prize, and says in its commentary that Bloom solved
+showed PROVED (LEAN) with a prize, and says in its commentary that Bloom solved
 it with the threshold $R(A)\gg\log N\log\log\log N/\log\log N$, that Liu and
 Sawhney improved this to $R(A)\gg(\log N)^{4/5+o(1)}$, and that Erdős speculated
 that even $\gg(\log\log N)^2$ might suffice, which a construction of Pomerance

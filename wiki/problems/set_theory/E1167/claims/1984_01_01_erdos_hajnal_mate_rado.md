@@ -58,6 +58,6 @@ The record carries no day or month, so this page's date is the first of the
 year.
 
 **Acceptance.** None that the schema counts. The result is in a monograph,
-not a journal paper, so it is not `refereed`. The site labels the problem
+not a journal paper, so it is not `refereed`. The site labeled the problem
 OPEN, so its remark crediting the cases is commentary, not acceptance. The
 claim is therefore claimed.

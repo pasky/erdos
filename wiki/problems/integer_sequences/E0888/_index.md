@@ -26,11 +26,11 @@ that if $a\leq b\leq c\leq d\in A$ are such that $abcd$ is a square then
 $ad=bc$?
 
 **Formulation.** The wording asks for the size $F(n)$ of the largest such set.
-The site reads it as asking for the order of magnitude and marks the problem
+The site reads it as asking for the order of magnitude and marked the problem
 solved on $F(n)\asymp n\log\log n/\log n$, and the formal-conjectures
 statement asserts the same $\Theta$ bound; this page takes that reading.
 
-**Status.** SOLVED (LEAN): the site labels the problem SOLVED (LEAN). The
+**Status.** SOLVED (LEAN): the site labeled the problem SOLVED (LEAN). The
 "(Lean)" suffix refers to a Lean proof registered by the formal-conjectures
 catalog, which was not built here. The order is $n\log\log n/\log n$. Erdős
 credits Sárközy with the bound $o(n)$, and a proof was posted in the thread on

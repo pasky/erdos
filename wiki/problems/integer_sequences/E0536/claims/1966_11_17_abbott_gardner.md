@@ -43,7 +43,7 @@ The page is named by the date the paper was received.
 $f(N)$ is settled.
 
 **Acceptance.** Refereed: the journal publication. The site's commentary credits
-the bound, but the site labels the problem OPEN, so the credit is not
+the bound, but the site labeled the problem OPEN, so the credit is not
 acceptance.
 
 **Depends on.** Nothing in this wiki: the bound and its proof are contained in

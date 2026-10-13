@@ -49,7 +49,7 @@ Theorem 2.11 (p. 7), proved in the companion preprint arXiv:2008.05313,
 and the computer-search certificates behind Lemma 2.8 (p. 6); neither is
 held here.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and credits the proof to this paper in the problem's commentary, which
 records that the answer is yes (page last edited 23 January 2026, accessed
 2026-09-18). The discussion thread holds one comment, which corrects a

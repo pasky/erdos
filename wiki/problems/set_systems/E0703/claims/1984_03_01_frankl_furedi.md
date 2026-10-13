@@ -54,7 +54,7 @@ settle.
 230–236. The issue is dated March 1984, and the page is dated to the first day
 of that month. In the problem's commentary, the site's curator records the
 theorem with its two extremal families and credits it to Frankl and Füredi
-[FrFu84b]. But the site's PROVED label rests on the Frankl–Rödl answer to the
+[FrFu84b]. But the site's PROVED label rested on the Frankl–Rödl answer to the
 second question. So that remark is context and not acceptance evidence, and the
 page lists no `reviewed`. The library card records the paper's results. No proof
 review is recorded.

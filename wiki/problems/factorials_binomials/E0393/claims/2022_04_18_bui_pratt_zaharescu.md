@@ -68,9 +68,9 @@ It does not settle whether $f(n)=1$ infinitely often, which is open
 unconditionally, nor the growth of $f(n)$ along every $n$.
 
 **Acceptance.** Refereed: Advances in Mathematics, volume 422 (June 2023),
-article 109021; the Crossref record of the DOI gives these data. The site labels
-the problem OPEN, so its remark crediting the result is commentary on an open
-problem and not acceptance, and no `reviewed` evidence is listed. The proof is
-not checked here.
+article 109021; the Crossref record of the DOI gives these data. The site
+labeled the problem OPEN, so its remark crediting the result is commentary on an
+open problem and not acceptance, and no `reviewed` evidence is listed. The proof
+is not checked here.
 
 **Depends on.** No page of this wiki.

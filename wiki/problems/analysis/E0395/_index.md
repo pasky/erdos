@@ -45,7 +45,7 @@ that question sets the standing; the formal-conjectures file states the
 radius-$1$ form as the variant `erdos_395.variants.one`, with the answer no.
 The Current assessment records what is known for odd $n$ at radius $1$.
 
-**Status.** Proved. The site shows PROVED (LEAN), a catalog label explained
+**Status.** Proved. The site showed PROVED (LEAN), a catalog label explained
 under Formalization. Two accepted full claims answer the question. The first is
 [[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]], a
 refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and its
@@ -91,7 +91,7 @@ independent uniform signs, and the probability that
 $\lvert\sum_i\epsilon_iz_i\rvert\le\sqrt2$, asked to be $\gg1/n$. The
 radius $\sqrt2$ replaces the radius $1$ of Erdős's 1945 conjecture,
 which fails for even $n$ as the Formulation records ([HJNS24], p. 2,
-crediting [CaCa11]). The site label is PROVED (LEAN).
+crediting [CaCa11]). The site label was PROVED (LEAN).
 
 **Status: proved.** The status-defining source is [HJNS24], Theorem 1.1
 (arXiv v3, p. 2): there is an absolute constant $c>0$ such that for any
@@ -174,7 +174,7 @@ quote it.
 
 ## Formalization and the Lean label
 
-The site labels the problem PROVED (LEAN). The site's page carries that label
+The site labeled the problem PROVED (LEAN). The site's page carries that label
 and supplies no proof-claim record, exposition or link to a formal statement or
 proof. The community database (`teorth/erdosproblems`, `data/problems.yaml` at
 its revision of 2026-09-18) records `formal_status` Lean, last updated

@@ -47,5 +47,5 @@ page settles no standing.
 
 **Acceptance.** As on
 [[problems/divisors/E0893/claims/2025_06_05_kovac_luca|the unconditional page]],
-the evidence is refereed: Experimental Mathematics. The site labels the problem
+the evidence is refereed: Experimental Mathematics. The site labeled the problem
 OPEN, so its commentary is not acceptance.

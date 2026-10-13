@@ -89,7 +89,7 @@ See Existing formalization.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site states the problem as above, shows
+**The question.** On 2026-09-17 the site states the problem as above, showed
 PROVED (LEAN), cites [Er61, p. 230] and [Er80, p. 112]. Its commentary
 attributes the conjecture to Roth and the solution to [ESS89], reports the
 paper's sharper count of at least $N/2-O(N^{1-1/2^{k+1}})$ even integers of this

@@ -52,8 +52,8 @@ card]]; its proofs are not reconstructed in this corpus.
 example in dimension theory*, Proc. Amer. Math. Soc. 18 (1967), no. 4, 709–713.
 The editors received it on December 16, 1966. It is reviewed in the sense of a
 documented independent acceptance: Thomas Bloom, the curator of
-erdosproblems.com, marks Problem 909 proved and credits Anderson and Keisler for
-the general case.
+erdosproblems.com, marked Problem 909 proved and credits Anderson and Keisler
+for the general case.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos909.lean` of Boris
 Alexeev's lean-proofs repository, linked above at a fixed commit and added on

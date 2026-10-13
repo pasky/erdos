@@ -80,7 +80,7 @@ a conjecture of Erdős on size Ramsey number of star forests, Ars Math. Contemp.
 published online 1 April 2025). The page is dated by the first posting,
 arXiv:2111.02065 (3 November 2021), by the same four authors under the same
 title. The site's commentary credits the further special cases to this paper.
-But the site labels the problem OPEN, so its pages are not acceptance.
+But the site labeled the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statements of Theorems 2.2--2.6 and Lemma 2.1 were read
 in the journal version; the proofs were read for structure only, and the

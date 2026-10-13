@@ -57,6 +57,6 @@ values.
 **Acceptance.** The paper is refereed: K. J. Swanepoel, Unit distances and
 diameters in Euclidean spaces, Discrete & Computational Geometry 41 (2009), no.
 1, 1–27, published online 2008-05-08. The preprint is arXiv:0707.0213, posted
-2007-07-02. The curator of erdosproblems.com, Thomas Bloom, marks the problem
+2007-07-02. The curator of erdosproblems.com, Thomas Bloom, marked the problem
 solved and credits this paper with the exact description of $f_d(n)$ for $d\ge4$
 and large $n$.

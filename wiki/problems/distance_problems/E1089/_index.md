@@ -32,13 +32,13 @@ $$
 
 exist?
 
-**Status.** SOLVED on the site. The derived standing is solved and proved. This
-is more specific than the site's label, which names no polarity, because the
-accepted claim proves that the limit exists. The site gives, for $n\ge2$, the
-bounds $\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$. So the limit
-exists and equals $1/(n-1)!$, and the limit question is answered yes. The site
-credits the lower bound to the Aletheia agent of Feng et al. [Fe26] and the
-upper bound to Bannai, Bannai and Stanton [BBS83]. The accepted proof is
+**Status.** Labeled SOLVED on the site. The derived standing is solved and
+proved. This is more specific than the site's label, which names no polarity,
+because the accepted claim proves that the limit exists. The site gives, for
+$n\ge2$, the bounds $\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$. So
+the limit exists and equals $1/(n-1)!$, and the limit question is answered yes.
+The site credits the lower bound to the Aletheia agent of Feng et al. [Fe26] and
+the upper bound to Bannai, Bannai and Stanton [BBS83]. The accepted proof is
 recorded on
 [[problems/distance_problems/E1089/claims/2026_01_29_feng|its claim page]]. The
 exact value of $g_d(n)$ is not determined.

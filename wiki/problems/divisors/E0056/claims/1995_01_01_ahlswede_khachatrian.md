@@ -54,7 +54,7 @@ gives no such bound on $n(k)$, so that form is not settled.
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Acta Arith. 72 (1995), no. 1, 77--100, a refereed
-journal. The site's DISPROVED (LEAN) label credits the 1994 paper, not this one,
-so no `reviewed` evidence is listed. The page is dated by the publication year
-alone. The publisher's record gives 1995 without a month, so the first day of
-the year stands in for the issue date.
+journal. The site's DISPROVED (LEAN) label credited the 1994 paper, not this
+one, so no `reviewed` evidence is listed. The page is dated by the publication
+year alone. The publisher's record gives 1995 without a month, so the first day
+of the year stands in for the issue date.

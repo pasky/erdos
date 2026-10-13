@@ -84,7 +84,7 @@ the site's commentary credits Szegedy and Zaharescu for large sets and
 Balasubramanian and Soundararajan for all sets.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
-of the authors, labels the problem PROVED and credits the paper in the
+of the authors, labeled the problem PROVED and credits the paper in the
 commentary (page last edited 8 April 2026). The discussion thread and the
 proof-claim tab are empty.
 

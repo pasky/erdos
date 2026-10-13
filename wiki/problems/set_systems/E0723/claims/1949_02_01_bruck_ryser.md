@@ -51,7 +51,7 @@ and $n=12$ is the first order the problem leaves undecided.
 
 **Acceptance.** Refereed: Canad. J. Math. **1** (1949), no. 1, 88–93. The issue
 is dated February 1949, and the page is dated to the first day of that month.
-The site's curator records the theorem under [BrRy49] and labels the problem
+The site's curator records the theorem under [BrRy49] and labeled the problem
 FALSIFIABLE. This credits the partial result without settling the problem, so
 the page lists no `reviewed` evidence. The library card records the paper's
 theorems. The proof has not been reconstructed or independently reviewed in this

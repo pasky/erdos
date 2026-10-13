@@ -27,8 +27,8 @@ square. Let $D_k=\{ m : F(m)=k\}$. What is the order of growth of $\lvert
 D_k\cap\{1,\ldots,n\}\rvert$ for $3\leq k\leq 6$? For example, is it true that
 $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 
-**Status.** OPEN, the site's label (problem page, discussion thread and
-proof-claims tab read 2026-10-07). The derived standing, solved and answered,
+**Status.** OPEN, the site's label (discussion thread and proof-claims tab
+read 2026-10-07). The derived standing, solved and answered,
 departs from the label. It rests on two accepted claims that reach the same
 conclusions, Hartley and Olson's
 ([[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]])

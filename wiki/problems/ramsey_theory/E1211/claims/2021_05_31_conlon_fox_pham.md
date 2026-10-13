@@ -62,7 +62,7 @@ part of this problem.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 SOLVED. In the problem's commentary, the curator credits Conlon, Fox and Pham
 with the value $c=(2+\sqrt3)/4$ and with the coloring that attains it (page last
 edited 8 April 2026). The curator is independent of the authors. The community

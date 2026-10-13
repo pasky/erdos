@@ -26,7 +26,7 @@ updated: 2026-10-08T00:44:25Z
 $\binom{n}{k}$ is squarefree for at least $r$ values of $1\leq k<n$ exist? Is
 this density $>0$?
 
-**Status.** Proved. The site labels the problem PROVED (page last edited 28
+**Status.** Proved. The site labeled the problem PROVED (page last edited 28
 October 2025). The standing in the frontmatter derives from the claim page. Both
 questions are answered yes. The site credits Theorem 5 of Granville and Ramaré
 (Mathematika, 1996). Anay Aggarwal and Stijn Cambie pointed out its bearing on

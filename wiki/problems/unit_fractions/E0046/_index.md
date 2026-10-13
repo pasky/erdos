@@ -106,7 +106,7 @@ none of them. See Existing formalization.
 
 **The question.** On 2026-09-17 the site asks whether every finite coloring of
 the integers has a monochromatic solution of $1=\sum1/n_i$ with
-$2\le n_1<\cdots<n_k$, shows PROVED (LEAN), and says in its commentary that the
+$2\le n_1<\cdots<n_k$, showed PROVED (LEAN), and says in its commentary that the
 answer is yes by Croot, that there are infinitely many pairwise disjoint such
 monochromatic solutions, and that the monochromatic representation of any
 positive rational $a/b$ asked for in the Erdős–Graham monograph follows from the

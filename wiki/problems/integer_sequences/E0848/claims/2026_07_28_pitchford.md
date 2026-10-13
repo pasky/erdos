@@ -82,7 +82,7 @@ proof-claim tab. It reached the site through a forum comment of 19 August 2026
 on Li's claim (linked above). The comment's writer reports recomputing the
 envelopes' constants exactly, replaying the per-interval checks with ablation
 controls, and finding the coverage of the ranges gapless. The writer concludes
-that two independent methods agree on the value. The site's label is DECIDABLE
+that two independent methods agree on the value. The site's label was DECIDABLE
 for Sawhney's result (page last edited 6 December 2025, before this result), and
 the curator has not acted on it. No referee or named expert has examined it, and
 nothing was downloaded, replayed or audited here. A forum comment is neither a

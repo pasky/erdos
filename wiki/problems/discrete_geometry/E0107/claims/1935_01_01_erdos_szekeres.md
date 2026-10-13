@@ -59,7 +59,7 @@ and the lower bound for every $n$ is the
 
 **Acceptance.** Refereed: the paper appeared in Compositio Mathematica, a
 journal. The site's commentary records $f(4)=5$ and credits it to Klein. The
-site labels the problem FALSIFIABLE, however, which settles nothing, so that
+site labeled the problem FALSIFIABLE, however, which settles nothing, so that
 record is not listed as `reviewed`. The claimants are the authors who published
 the result. Klein's authorship of the proposition is the paper's own
 attribution.

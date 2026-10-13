@@ -71,7 +71,7 @@ stopping constants, from $2c$ to $4c$. Chan amended the comment the same day
 and replied that it was corrected: the renormalized weight $2^{-f-1}$ restores
 the exact martingale, and the thresholds $2c$ and $w(2c)/2$ stand.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marks Problem 1027
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem 1027
 proved. Bloom credits the proof to Koishi Chan's comment of 21 September 2025 in
 the site's discussion thread (problem page last edited 1 October 2025). The
 comments were posted by the forum account KoishiChan. The result is a forum

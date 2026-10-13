@@ -66,7 +66,7 @@ results that answer only that wording.
 conjecture of Erdős on locally sparse Steiner triple systems, Combinatorica 40
 (2020), no. 3, 363–403. It was published online on 28 April 2020, after the
 arXiv posting of 12 February 2018. Reviewed: the site's curator, Thomas Bloom,
-marks Problem 1076 proved. Bloom credits the asymptotic version to this paper
+marked Problem 1076 proved. Bloom credits the asymptotic version to this paper
 [GKLO20] and to Bohman and Warnke [BoWa19]. Bloom reads the question as the
 approximate form of [[problems/set_systems/E0207/_index|Problem 207]], which is
 the reading the corrected Statement adopts. The problem page was last edited on

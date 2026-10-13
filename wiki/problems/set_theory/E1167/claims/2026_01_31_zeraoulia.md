@@ -60,8 +60,8 @@ $\kappa_0=\aleph_1$, $\lambda=\aleph_0$) as its test lemma
 formalization of this note, and the corpus has not built it, so it gives no
 `formalized` evidence.
 
-**Acceptance.** None documented. The note has no journal record. The site labels
-the problem OPEN. In the discussion thread, the curator's reply points to the
-conditions of Komjáth's Problem 2 rather than accepting a disproof, so the reply
-is not acceptance. The claim is rejected. Acceptance would not change that,
-since the rejection concerns what the result answers.
+**Acceptance.** None documented. The note has no journal record. The site
+labeled the problem OPEN. In the discussion thread, the curator's reply points
+to the conditions of Komjáth's Problem 2 rather than accepting a disproof, so
+the reply is not acceptance. The claim is rejected. Acceptance would not change
+that, since the rejection concerns what the result answers.

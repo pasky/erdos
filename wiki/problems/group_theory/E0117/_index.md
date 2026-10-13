@@ -27,9 +27,9 @@ be covered by at most $h(n)$ many Abelian subgroups.
 
 Estimate $h(n)$ as well as possible.
 
-**Status.** Open on the site (label OPEN; page last edited 23 January 2026). The
-site's proof-claims tab carries one full proof claim, submitted 18 August 2026
-by Guillaume Lecomte. It claims that $\log_2 h(n)=n/2+o(n)$, so
+**Status.** Labeled open on the site (label OPEN; page last edited 23 January
+2026). The site's proof-claims tab carries one full proof claim, submitted 18
+August 2026 by Guillaume Lecomte. It claims that $\log_2 h(n)=n/2+o(n)$, so
 $h(n)^{1/n}\to\sqrt{2}$. It is recorded as a pending claim on
 [[problems/group_theory/E0117/claims/2026_08_18_lecomte|its claim page]].
 

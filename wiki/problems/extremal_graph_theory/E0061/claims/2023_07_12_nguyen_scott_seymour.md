@@ -65,6 +65,6 @@ infinitely many of them prime. The problem stays open.
 
 **Acceptance.** The paper is a refereed publication in the Transactions of
 the American Mathematical Society, which is the `refereed` evidence. The
-site's commentary credits the result through the thesis, but the site labels
+site's commentary credits the result through the thesis, but the site labeled
 the problem OPEN, so no `reviewed` evidence is listed. This corpus has not
 checked the proof.

@@ -57,7 +57,7 @@ distinct distances, which is not part of this problem. The source card is
 **Acceptance.** The paper is refereed: it appeared in the American Mathematical
 Monthly, volume 96, issue 7 (August–September 1989), 569–575, DOI
 10.1080/00029890.1989.11972243. It is linked above together with the copy on the
-Rényi Institute's Erdős page. The site's curator, Thomas Bloom, labels the
+Rényi Institute's Erdős page. The site's curator, Thomas Bloom, labeled the
 problem PROVED and credits Erdős, Hickerson and Pach with the solution (problem
 page accessed). This is the `reviewed` evidence. The proofs are unreviewed, and
 acceptance rests on the refereed publication and the curator's credit. A

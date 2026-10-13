@@ -59,7 +59,7 @@ issue, January 1998; the day is not recorded.
 
 **Acceptance.** Refereed: Bondy, J. A. and Vince, A., Cycles in a graph whose
 lengths differ by one or two, J. Graph Theory 27 (1998), no. 1, 11–15. Reviewed:
-the site's curator, Thomas Bloom, labels the problem DISPROVED (LEAN) and
+the site's curator, Thomas Bloom, labeled the problem DISPROVED (LEAN) and
 credits the result to Bondy and Vince, independently of its authors.
 
 A Lean 4 development by the SpringSense Innovation Institute was posted on the

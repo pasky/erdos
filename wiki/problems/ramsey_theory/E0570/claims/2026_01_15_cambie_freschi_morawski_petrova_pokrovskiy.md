@@ -61,7 +61,7 @@ and [[problems/ramsey_theory/E0570/claims/1993_07_01_sidorenko|Sidorenko 1993]]
 [[problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene|Jayawardene 1999]]
 ($k=5$); Theorem 3 supplies odd $k\ge7$ on its own.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 proved. In the commentary the curator credits each range of $k$ to the source
 named above, and the odd $k\ge7$ to this paper (its key [CFMPP26]; page last
 edited 16 January 2026, accessed 2026-09-08 for the problem page). No journal

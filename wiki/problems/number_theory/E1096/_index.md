@@ -47,9 +47,9 @@ $x_{k+1}-x_k\to0$ when $\epsilon$ is small and guesses that every $q<q_0$,
 $q_0^3=q_0+1$, has this property. The site's label PROVED (LEAN) carries a
 catalog suffix explained under Formalization.
 
-**Status.** The site's label is PROVED (LEAN), whose catalog suffix is explained
-under Formalization. The frontmatter standing is derived from the three accepted
-pages described below.
+**Status.** The site's label was PROVED (LEAN), whose catalog suffix is
+explained under Formalization. The frontmatter standing is derived from the
+three accepted pages described below.
 
 The first resolution is Theorem IV of Erdős and Komornik's 1998 paper (Acta
 Math. Hungar. 79 (1998), 57--83, refereed), an accepted full claim on

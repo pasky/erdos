@@ -58,6 +58,6 @@ $\ell(n)=\Theta(n\log n)$; the constant is left open and is fixed by
 **Acceptance.** Refereed: Johansson, A., Kahn, J. and Vu, V., Factors in random
 graphs, Random Structures Algorithms 33 (2008), no. 1, 1–28, published online
 2008-05-20. The preprint is arXiv:0803.3406, posted 2008-03-24, the date of this
-page. Reviewed: the site's curator, Thomas Bloom, labels the problem solved and
+page. Reviewed: the site's curator, Thomas Bloom, labeled the problem solved and
 credits [JKV08] with the threshold $\ell(n)\asymp n\log n$. This credit is
 independent of the authors. No formalization is recorded.

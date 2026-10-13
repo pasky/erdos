@@ -30,7 +30,7 @@ $$
 \frac{\lvert A\cap [1,N]\rvert}{N}=\exp(-(c+o(1))\sqrt{\log N}\log\log N).
 $$
 
-**Status.** The site's label is OPEN (page last edited 14 September 2025;
+**Status.** The site's label was OPEN (page last edited 14 September 2025;
 proof-claim tab accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/768](https://www.erdosproblems.com/768), accessed

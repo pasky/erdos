@@ -70,6 +70,6 @@ covered: $\varepsilon\le1/4$.
 on 30 April 2026, before the first note was posted, Terence Tao asked in the
 thread whether Letendre's paper bears on the problem at all. A reply reports
 an automated check of the first note that found no issues; it is a thread
-comment, not a review. The site's label is OPEN.
+comment, not a review. The site's label was OPEN.
 
 **Depends on.** No page of this wiki.

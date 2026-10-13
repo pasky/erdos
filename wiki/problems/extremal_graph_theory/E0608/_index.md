@@ -46,15 +46,15 @@ refereed). For all large $n$ it gives a graph with $\lfloor n^2/4\rfloor+1$
 edges and only $((2+\sqrt2)/16)n^2+O(n)<2n^2/9$ edges on pentagons. The same
 paper's Theorem 1.3 shows that this count is sharp. The site's commentary adopts
 this negative answer, crediting Füredi and Maleki as described by [GHV19] (page
-last edited 25 October 2025, as of 2026-10-07). The suffix "(LEAN)" rests on the
-repository that the community database records as the problem's formal status.
-That repository is a public Lean 4 development that declares itself a
+last edited 25 October 2025, accessed 2026-10-07). The suffix "(LEAN)" rests on
+the repository that the community database records as the problem's formal
+status. That repository is a public Lean 4 development that declares itself a
 formalization of this disproof, and it is recorded as a formalization link on
 the same claim page. The corpus holds no build or audit of it, so it adds no
 evidence (Formalization below).
 
-**Source.** [erdosproblems.com/608](https://www.erdosproblems.com/608), accessed
-2026-10-07: the problem page (DISPROVED (LEAN); last edited 25 October 2025;
+**Source.** [erdosproblems.com/608](https://www.erdosproblems.com/608): the
+problem page (DISPROVED (LEAN); last edited 25 October 2025;
 source keys [EFR92], [Er97d]; a commentary recording the
 Erdős--Faudree--Rousseau triangle count, Erdős's odd-cycle statement with its
 extremal example, the triangle condition that would imply a positive answer, the

@@ -48,6 +48,6 @@ credits it.
 
 **Acceptance.** The paper is refereed: J. Clunie and W. K. Hayman, *The
 maximum term of a power series*, J. Analyse Math. 12 (1964), 143--186. The
-site's curator, Thomas F. Bloom, marks Problem 227 disproved and credits this
+site's curator, Thomas F. Bloom, marked Problem 227 disproved and credits this
 paper with the disproof. The page is dated by the first day of the issue
 month, since the paper's first posting carries no finer date.

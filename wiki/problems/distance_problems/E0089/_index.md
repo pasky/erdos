@@ -22,7 +22,7 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Does every set of $n$ distinct points in $\mathbb{R}^2$ determine
 $\gg n/\sqrt{\log n}$ many distinct distances?
 
-**Status.** Open. The site's export of 2026-09-04 labels the problem "OPEN"
+**Status.** Open. The site's export of 2026-09-04 labeled the problem "OPEN"
 (page last edited 23 January 2026). The site lists no proof claim for it.
 
 **Source.** [erdosproblems.com/89](https://www.erdosproblems.com/89), accessed

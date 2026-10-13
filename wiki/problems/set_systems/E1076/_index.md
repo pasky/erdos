@@ -58,7 +58,7 @@ thread comment of 6 October 2025 calling the problem "essentially a weaker
 version of" Problem 207) says that for $k$ satisfying the right divisibility
 conditions the extremal number is known exactly and that "the asymptotic version
 asked for here" was proved independently by Bohman and Warnke and by Glock,
-Kühn, Lo and Osthus, and it labels the problem PROVED. Each of those statements
+Kühn, Lo and Osthus, and it labeled the problem PROVED. Each of those statements
 is true of the family $\mathcal F_4\cup\dots\cup\mathcal F_k$ and false of the
 single family: a $3$-graph avoiding $\mathcal F_4$ is linear, so
 $\mathrm{ex}_3(n,\mathcal F_4\cup\dots\cup\mathcal F_k)\le\binom n2/3$ for every
@@ -78,7 +78,7 @@ the problem is proved. Collin Yuanjie Ren's Lean submission states the corrected
 Statement and assembles its proof from the formalized theorem on Problem 207;
 the lean-proofs file states the site's wording. Neither is built here.
 
-**Status.** The site's label is PROVED (page last edited 7 October 2025). That
+**Status.** The site's label was PROVED (page last edited 7 October 2025). That
 label describes the corrected Statement. The site's remark credits the
 asymptotic version to Bohman and Warnke [BoWa19] and to Glock, Kühn, Lo and
 Osthus [GKLO20]. Their lower bound $(1/6-o(1))n^2$, together with the upper

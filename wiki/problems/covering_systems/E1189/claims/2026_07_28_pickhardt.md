@@ -104,7 +104,7 @@ with their frame construction, gives the count.
 
 **Standing.** Claimed: the manuscript is a web-posted preprint with no
 journal publication, referee report, curator acceptance or outside review
-located through 2026-10-06; the site labels the problem OPEN (page last
+located through 2026-10-06; the site labeled the problem OPEN (page last
 edited 8 April 2026). The manuscript describes as
 concurrent work the Lean 4 development released by Star Fleet Math, which
 has its own page
