@@ -140,6 +140,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/openai_2026_primitive_roots_admissible_integer_base/_index|openai_2026_primitive_roots_admissible_integer_base]]
 - [[../library/integer_sequences/openai_2026_primitive_roots_admissible_integer_base/theorem_1_1|openai_2026_primitive_roots_admissible_integer_base / theorem_1_1]]
 - [[../library/integer_sequences/openai_2026_primitive_roots_admissible_integer_base/theorem_1_2|openai_2026_primitive_roots_admissible_integer_base / theorem_1_2]]
+- [[../library/integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/_index|openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases]]
+- [[../library/integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/theorem_1_1|openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases / theorem_1_1]]
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12/_index|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12]]
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12/corollary_1_2|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12 / corollary_1_2]]
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12/theorem_1_1|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12 / theorem_1_1]]

@@ -3,7 +3,7 @@ name: graph_coloring
 title: "Graph Coloring"
 desc: "Sources filed under Graph Coloring, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:25:18Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Graph Coloring
@@ -274,6 +274,12 @@ n-dimensional Euclidean space, with an explicit constant near 0.79983.
 [[graph_coloring/nastase_et_al_2010_note_robust_critical_graphs_large_odd_girth/_index|nastase_et_al_2010_note_robust_critical_graphs_large_odd_girth/]]: Constructs arbitrarily large edge-critical graphs of large odd girth that need
 quadratically many edge deletions to drop two colors, giving E917 a quadratic
 lower bound along a sequence of orders.
+
+[[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|openai_2026_correspondence_coloring_graphs_forbidden_clique/]]: A 29-page manuscript of the OpenAI mathematics release claiming that for
+each fixed r at least 4, every K_r-free graph of sufficiently large maximum
+degree Delta has correspondence chromatic number O_r(Delta/log Delta), so
+also list and ordinary chromatic number, and the same for any fixed
+forbidden subgraph; it names no Erdős problem.
 
 [[graph_coloring/parts_2020_small_6_chromatic_two_distance_graph/_index|parts_2020_small_6_chromatic_two_distance_graph/]]: Gives a 31-vertex two-distance graph proving the plane needs at least six
 colors when the forbidden distances are 1 and the golden ratio.

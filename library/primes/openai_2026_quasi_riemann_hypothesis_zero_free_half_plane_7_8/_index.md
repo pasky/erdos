@@ -144,12 +144,13 @@ the converter's reading copy beside the PDF numbers them the same way.
   Goldmakher and Louvel, Heath-Brown's cubic large sieve (Theorem 2 of the
   Kummer paper), the Hecke functional equation in Gao--Zhao's form and prime
   counting in a fixed ray class (Thorner--Zaman, Theorem 1.1). A release
-  manuscript on the first moment of cubic Gauss sums is cited and declared not
-  used. The proof overview (pp. 5--7) describes two stages that compare a
-  reflected and a Poisson representation of one completed cubic-theta sum and
-  feed a common continuation criterion with the affine powers
-  $C_{\mathrm I}(s)=s-2/3$ and $C_{\mathrm{II}}(s)=s-11/16$. The closing
-  subsection states
+  manuscript on the first moment of cubic Gauss sums
+  ([[number_theory/openai_2026_unconditional_first_moment_cubic_gauss_sums/_index|its card]])
+  is cited and declared not used. The proof overview (pp. 5--7) describes two
+  stages that compare a reflected and a Poisson representation of one completed
+  cubic-theta sum and feed a common continuation criterion with the affine
+  powers $C_{\mathrm I}(s)=s-2/3$ and $C_{\mathrm{II}}(s)=s-11/16$. The
+  closing subsection states
   [[primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/corollary_1_2|Corollary 1.2]]
   (p. 7) on the least quadratic nonresidue and deterministic square roots,
   with its two-paragraph proof (pp. 7--8).

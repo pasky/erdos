@@ -557,5 +557,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs/_index|wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs]]
 - [[../library/extremal_graph_theory/wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs/theorem_1_1|wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs / theorem_1_1]]
 - [[../library/extremal_graph_theory/wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs/theorem_1_2|wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs / theorem_1_2]]
+- [[../library/graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|openai_2026_correspondence_coloring_graphs_forbidden_clique]]
+- [[../library/graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/theorem_1_1|openai_2026_correspondence_coloring_graphs_forbidden_clique / theorem_1_1]]
 
 <!-- END problem library links -->

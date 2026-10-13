@@ -64,13 +64,13 @@ The release's Lean catalog (`lean/formalization.yaml`) lists no
 formalization for this manuscript and has no page for its family.
 
 Companions. The release groups this manuscript with *Simultaneous primitive
-roots: a conditional lower bound for prime bases* (same date), whose abstract
-claims that every fixed finite set of distinct positive primes is a set of
-simultaneous primitive roots for at least $cx/(\log x)^2$ primes in $(x,2x)$,
-conditionally on four stated analytic and sieve inputs taken from this
-manuscript; that companion is not held in this library. Three other release
-manuscripts enter as cited inputs and are held here: the marked Type II
-estimate is imported from
+roots: a conditional lower bound for prime bases* (same date;
+[[integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/_index|its card]]),
+whose abstract claims that every fixed finite set of distinct positive primes
+is a set of simultaneous primitive roots for at least $cx/(\log x)^2$ primes in
+$(x,2x)$, conditionally on four stated analytic and sieve inputs taken from
+this manuscript. Three other release manuscripts enter as cited inputs and are
+held here: the marked Type II estimate is imported from
 [[arithmetic_functions/openai_2026_poisson_dirichlet_law_prime_predecessors/_index|the Poisson--Dirichlet law for prime predecessors]]
 (its Theorem 3.1), two elementary sieve lemmas are adapted with proofs from
 [[arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|Weighted dilation graphs, smooth shifted primes and totient fibers]]
@@ -78,8 +78,9 @@ estimate is imported from
 and additive-probe method of
 [[primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/_index|The Quasi-Riemann Hypothesis]]
 (its Part I, Sections 5--7) without importing its theorem. A fourth, *Prime
-predecessors with an even number of prime factors*, is cited in Section 10
-for its Proposition 2.1 and Lemmas 3.1 and 3.3 and is not held here.
+predecessors with an even number of prime factors*
+([[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|its card]]),
+is cited in Section 10 for its Proposition 2.1 and Lemmas 3.1 and 3.3.
 
 Read status: claims checked for Theorem 1.1, Theorem 1.2, Proposition 2.1,
 Proposition 2.2 and Lemmas 2.3--2.4, read clause by clause in the TeX source

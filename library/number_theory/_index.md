@@ -3,7 +3,7 @@ name: number_theory
 title: "Other Number Theory"
 desc: "Sources filed under Other Number Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Other Number Theory
@@ -331,6 +331,26 @@ odd-degree splitter on cyclic covers, with the auxiliary primes it needs
 bounded through a cited uniform Hecke zero-free strip from a companion
 manuscript; it names no Erdős problem, and only its auxiliary-prime bound
 touches Problems 980 and 981, as background.
+
+[[number_theory/openai_2026_fontaine_mazur_modularity_prime_2/_index|openai_2026_fontaine_mazur_modularity_prime_2/]]: A 72-page release manuscript claiming the odd, regular two-dimensional
+Fontaine-Mazur conjecture over Q at the prime 2: every continuous, odd,
+irreducible two-dimensional 2-adic representation of G_Q that is finitely
+ramified and de Rham at 2 with distinct Hodge-Tate weights is a Tate twist
+of the representation of a classical cuspidal eigenform, with no residual
+hypothesis; it names no Erdős problem.
+
+[[number_theory/openai_2026_modularity_elliptic_curves_imaginary_quadratic_fields/_index|openai_2026_modularity_elliptic_curves_imaginary_quadratic_fields/]]: A 30-page release manuscript claiming that every elliptic curve over every
+imaginary quadratic field is modular, with matching local parameters at
+every place, by a prime switch through character pieces of one family of
+cyclic covers and Caraiani-Newton's lifting theorem; it names no Erdős
+problem and no problem page is identified as using it.
+
+[[number_theory/openai_2026_unconditional_first_moment_cubic_gauss_sums/_index|openai_2026_unconditional_first_moment_cubic_gauss_sums/]]: A 52-page release manuscript claiming Patterson's first-moment asymptotic
+unconditionally: normalized cubic Gauss sums over the primary primes of
+Z[omega] of norm at most X sum to (6/5)c_* X^{5/6}/log X + o(X^{5/6}/log X),
+sharp cutoff, with cancellation in each fixed nonzero angular mode, by
+corrected dispersion and an exact prime decomposition; it names no Erdős
+problem.
 
 [[number_theory/pollington_1979_density_sequence_n_k_xi/_index|pollington_1979_density_sequence_n_k_xi/]]: Proves that for every sequence of positive numbers with consecutive ratios
 at least a fixed alpha above 1 and every s_0 below 1 there are a beta > 0

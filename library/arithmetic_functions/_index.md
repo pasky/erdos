@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:03:01Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Arithmetic Functions
@@ -287,10 +287,23 @@ Dickman law in ordinary natural density for the largest prime factors of n
 and n+1, by amplifying a mixed bin-character correlation into a divisor graph
 controlled by short-interval estimates; it addresses Problems 928 and 371.
 
+[[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|openai_2026_ordinary_two_point_correlations_multiplicative_functions/]]: An 87-page manuscript of the OpenAI mathematics release claiming the ordinary
+two-point Chowla conjecture, with a power-of-logarithm saving for Liouville
+correlations along fixed nonproportional affine forms, and the binary
+corrected Elliott conjecture for ordinary averages, both by divisor-graph
+trace bounds; it names no Erdős problem.
+
 [[arithmetic_functions/openai_2026_poisson_dirichlet_law_prime_predecessors/_index|openai_2026_poisson_dirichlet_law_prime_predecessors/]]: A 74-page release manuscript claiming the Poisson-Dirichlet law for the
 ordered prime factors of p-1 over primes p up to x (the Ford-Konyagin-Luca
 conjecture) by two marked correlation estimates and size-biased sampling;
 it touches Problems 821 and 1057 only through the smooth-prime counts implied.
+
+[[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|openai_2026_prime_predecessors_even_number_prime_factors/]]: A 45-page release manuscript claiming infinitely many primes p for which
+p-1 is squarefree with an even number of prime factors, so that
+mu(p-1)=1, by sieving weights that force an odd number of prime factors
+in (p-1)/2 with a parity-twisted Type II estimate; it names no Erdős
+problem, and the release's Artin-conjecture manuscript cites its Lemmas 3.1
+and 3.3.
 
 [[arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/]]: A 68-page release manuscript claiming Erdős's conjecture on the largest
 totient fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, derived by
