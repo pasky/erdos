@@ -550,7 +550,7 @@ $$
 
 Since $B$ can be taken arbitrarily large, $T(N)=o(1)$. This completes the proof of Theorem 3.5.
 
-\hfill$\square$
+$\square$
 
 *Remark.* An important step in the proof of Theorem 1.2 is to apply Halász’s Theorem (Proposition 3.3) to prove that the functions $g_{\alpha,k}: n\mapsto \sigma(n)^{i\alpha}(n/\sigma(n))^k$ have logarithmic mean $0$ when $\alpha\in\mathbb R\setminus\{0\}$. This approach does not work in case of natural means because the functions $g_{\alpha,k}$ are $n^{i\alpha}$-pretentious in the sense of [8].
 

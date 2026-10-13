@@ -9,14 +9,14 @@ MSC: 11N56, 11L03, 11B65
 
 ## Contents
 
-1. Introduction \hfill 1  
-2. Conventions and Preliminary Results \hfill 3  
-3. On images of generic polynomials \hfill 4  
-4. Properties of polynomials $P_j$ \hfill 6  
-5. On inequality $|\mathcal{A}(p)\mathcal{A}(p)|\geqslant p+o(p)$ \hfill 7  
-6. On inequality $|\mathcal{A}_N/\mathcal{A}_N|\geqslant p+o(p)$ \hfill 8  
-Acknowledgments \hfill 9  
-References \hfill 9
+1. Introduction 1  
+2. Conventions and Preliminary Results 3  
+3. On images of generic polynomials 4  
+4. Properties of polynomials $P_j$ 6  
+5. On inequality $|\mathcal{A}(p)\mathcal{A}(p)|\geqslant p+o(p)$ 7  
+6. On inequality $|\mathcal{A}_N/\mathcal{A}_N|\geqslant p+o(p)$ 8  
+Acknowledgments 9  
+References 9
 
 ## 1. Introduction
 
@@ -303,7 +303,7 @@ $$
 \frac{1}{p^2}\sum_{r_1\in\mathbb{F}_p}|\hat{\mathcal{I}}(r_1)|\sum_{r_2\in\mathbb{F}_p}|\hat{\mathcal{I}}(r_2)|\max_{(r_1,r_2)\ne 0}\left|\sum_{\substack{(x,y)\in\mathbb{F}_p\times\mathbb{F}_p:\\ \phi(P,Q)(x,y)=0}}e^{2\pi i\frac{r_1x+r_2y}{p}}\right|\ll(\log p)^2\sqrt{p}d^2.
 $$
 
-This completes the proof. \hfill$\square$
+This completes the proof. $\square$
 
 Now, let us turn to the proof of the Lemma 2:
 
@@ -319,7 +319,7 @@ $$
 \#\{(x,y)\in\mathcal{I}\times\mathcal{I}:P(x)=P(y)\}=|\mathcal{I}|+J_{\mathcal{I}}(P,P)\leqslant|\mathcal{I}|+|\mathcal{I}|^2p^{-1}+O(d^2\sqrt{p}\log^2 p),
 $$
 
-where we applied Lemmas 5 and 4. Deriving the lower bound on $|P(\mathcal{I})|$ completes the proof. \hfill$\square$
+where we applied Lemmas 5 and 4. Deriving the lower bound on $|P(\mathcal{I})|$ completes the proof. $\square$
 
 Now we prove Lemma 3:
 
@@ -329,7 +329,7 @@ $$
 |P(\mathcal{I})\cap Q(\mathcal{I})|\leqslant J_{\mathcal{I}}(P,Q)=\frac{|\mathcal{I}|^2}{p^2}J(P,Q)+O(d^2\sqrt{p}\log^2 p)\leqslant\frac{|\mathcal{I}|^2}{p}+O(d^2\sqrt{p}\log^2 p).
 $$
 
-\hfill$\square$
+$\square$
 
 ## 4. Properties of polynomials $P_j$
 
@@ -337,7 +337,7 @@ Let us deduce the following simple lemma:
 
 **Lemma 6.** *For given $5\leqslant j<p$, the polynomial $P_j(x)\in\mathbb{F}_p[x]$ is not equal to $\alpha D_{j,a}(x+b)+c$ for $\alpha,a,b,c\in\mathbb{F}_p$. Moreover, if $j$ is prime, then $P_j(x)$ is indecomposable.*
 
-*Proof.* The second assertion is clear since $\deg P_j=j$. The first assertion can be proved by straightforward comparison of the first five leading coefficients of these two polynomials. \hfill$\square$
+*Proof.* The second assertion is clear since $\deg P_j=j$. The first assertion can be proved by straightforward comparison of the first five leading coefficients of these two polynomials. $\square$
 
 For given $k,j$ (possibly equal) we define the polynomial $Q_{kj}(x,y)$, equal to $P_k(x)-P_j(y)$, divided by all possible linear factors. If $k=j$, we denote this polynomial by $Q_j(x,y)$. One can show that for $k,j<p-2$
 
@@ -547,7 +547,7 @@ $$
 |\mathcal{A}_N/\mathcal{A}_N|\geqslant\sum_{j\leqslant M}\left(|X_j|-\sum_{k<j}|X_k\cap X_j|\right)\gg\sum_{j\leqslant M}|X_j|\gg MN,
 $$
 
-where we set $M:=\min(\sqrt{K},\sqrt[3]{Q})$, which gives the desired bound. \hfill$\square$
+where we set $M:=\min(\sqrt{K},\sqrt[3]{Q})$, which gives the desired bound. $\square$
 
 **Acknowledgments.** A. Grebennikov is supported by Ministry of Science and Higher Education of the Russian Federation, agreement № 075–15–2019–1619. A. Sagdeev is supported in part by ERC Advanced Grant ‘GeoScape’. He is also a winner of Young Russian Mathematics Contest and would like to thank its sponsors and jury. A. Semchankau was supported by the Foundation for the Advancement of Theoretical Physics and Mathematics “BASIS”. Also, A. Semchankau was partially supported by the University of Bordeaux Pause Program, the ANR project JINVARIANT, and Journal de Théorie des Nombres de Bordeaux. Besides that, he is very happy to thank the Institut de Mathématiques de Bordeaux for their hospitality and excellent working conditions. A significant part of this project was done during the research workshop “Open problems in Combinatorics and Geometry III”, held in Adygea in October 2021.
 
@@ -567,7 +567,7 @@ where we set $M:=\min(\sqrt{K},\sqrt[3]{Q})$, which gives the desired bound. \hf
 
 [7] M. Fried, *On a conjecture of Schur*, Michigan Mathematical Journal, 1970. https://doi.org/10.1307/mmj/1029000374.
 
-[8] Garaev, M.Z., Hernández, J. “A note on $n!$ modulo $p“. *Monatsh Math* 182, 23–31 (2017). https://doi.org/10.1007/s00605-015-0867-8. https://arxiv.org/abs/1505.05912.
+[8] Garaev, M.Z., Hernández, J. “A note on $n!$ modulo $p$“. *Monatsh Math* 182, 23–31 (2017). https://doi.org/10.1007/s00605-015-0867-8. https://arxiv.org/abs/1505.05912.
 
 [9] M.Z. Garaev, F. Luca, I.E. Shparlinski, *Character sums and congruences with $n!$*, Trans. Amer. Math. Soc., 356(12):5089–5102 (electronic), 2004.
 

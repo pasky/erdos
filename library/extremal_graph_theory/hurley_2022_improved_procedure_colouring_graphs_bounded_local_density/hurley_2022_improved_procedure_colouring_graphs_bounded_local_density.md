@@ -423,7 +423,7 @@ $$
 \mathbb{P}_{\mathrm{keep}}(u,v,w)\leq\frac{1}{\gamma^3}\left(2f(\ell_{uv},\ell_{uw},\ell_{vw})+2f(\ell_{vw},\ell_{uv},\ell_{uw})+2f(\ell_{uw},\ell_{vw},\ell_{uv})\right),
 $$
 
-which finishes the proof of the claim. \hfill$\square$
+which finishes the proof of the claim. $\square$
 
 The function $f$ satisfies the following bound that isolates its parameters:
 $$
@@ -664,7 +664,7 @@ $$
 \mathbb{P}\left[|X-\mathbb{E}[X]|\ge\sqrt{\Delta}\log\Delta\right]\le4e^{-\frac{\log^2\Delta}{64}}
 $$
 
-which is less than $\Delta^{-\frac{1}{2}\log\log\Delta}$ when $\Delta$ is large enough. \hfill$\square$
+which is less than $\Delta^{-\frac{1}{2}\log\log\Delta}$ when $\Delta$ is large enough. $\square$
 
 *Proof of Claim 3.* Consider $X=S\cap U$ as a random variable on the product space $\Omega=\prod_{v\in V}\Omega_v$, where the elements of $\Omega_v$ are the pairs $(c_0(v),\pi(v))$. Let us show that $X=|S\cap U|$ has an upward $(s,c)$-certificate.
 
@@ -883,7 +883,7 @@ $$
 \mathbb{E}[P_r-T_r]\geq\frac{\widehat{\sigma}}{1+2\widehat{\sigma}}-\sigma^{3/2}+o(1),
 $$
 
-which proves (3.1) because $\sigma<2\widehat{\sigma}$. \hfill$\square$
+which proves (3.1) because $\sigma<2\widehat{\sigma}$. $\square$
 
 The remainder of the proof of Theorem 1.12 follows the proof of Theorem 1.2. More specifically, instead of Theorem 2.1 we use Theorem 3.3 to establish a codegree analogue of Lemma 2.2. We then repeatedly apply that lemma as done with Lemma 2.2 in Subsection 2.3. We omit the redundant details.
 

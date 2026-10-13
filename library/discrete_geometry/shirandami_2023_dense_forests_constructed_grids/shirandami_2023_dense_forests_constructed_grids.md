@@ -516,7 +516,7 @@ $$
 \sin\varphi<\frac{d+1}{\|\bm{q}\|_\infty S^{1/d}},\tag{3.7}
 $$
 
-Inequalities (3.5) and (3.7) establish the proposition. \hfill$\square$
+Inequalities (3.5) and (3.7) establish the proposition. $\square$
 
 ## 4 The Metrical Theory
 
@@ -530,7 +530,7 @@ where $\psi$ denotes the projective distance, as defined in (1.3). Call $[\bm{v}
 
 **Lemma 4.1.** *Given $\eta\in(0,1)$, the sphere $\mathbb{S}^{d}$ may be covered by $O_d(\eta^{-d})$ bi-spherical caps with radius $\eta$.*
 
-*Proof.* Follows from Theorem 6.8.1 of [6]. \hfill$\square$
+*Proof.* Follows from Theorem 6.8.1 of [6]. $\square$
 
 Define the projective Lipschitz constant of an $M\in\mathrm{GL}_{d+1}(\mathbb{R})$ by
 
@@ -600,7 +600,7 @@ $$
 \psi([\bm{b}],[R_iM_i\bm{q}_i])\ll_{d,M_1,\ldots,M_k}\frac{J_{\mathbb{P}^d(\mathbb{R})}(M_i)}{\|\bm{q}_i\|_\infty f(2^{-l})^{1/d}}\ll_{d,M_1,\ldots,M_k}\frac{1}{\|\bm{q}_i\|_\infty f(2^{-l})^{1/d}}\cdotp \tag{4.3}
 $$
 
-Inequalities $(4.1)$ and $(4.3)$ then establish the proposition. \hfill $\square$
+Inequalities $(4.1)$ and $(4.3)$ then establish the proposition. $\square$
 
 Recalling the assumptions in Theorem $1.2$, let $M_1,\ldots,M_k\in\mathrm{GL}_{d+1}(\mathbb{R})$ be fixed, and set $\mu_k$ to be the $k$-th product of the Haar (probability) measure $\mu$ on $\mathrm{SO}(d+1)$. For $\bm{b}\in\mathbb{S}^d$, $\bm{q}_1,\ldots,\bm{q}_k\in\mathbb{Z}^{d+1}$ and $\eta_1,\ldots,\eta_k\in(0,1)$, set
 

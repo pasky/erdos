@@ -172,7 +172,7 @@ $$
 \end{aligned}
 $$
 
-The equation $sp-hq=e$ is identical after changing signs. \hfill $\square$
+The equation $sp-hq=e$ is identical after changing signs. $\square$
 
 **Lemma 3 (Uniform Farey count).** *Uniformly for intervals* $J\subset [0,1]$,
 
@@ -205,7 +205,7 @@ $$
 \sum_{d>n}\frac{1}{d^2}=O(1/n),
 $$
 
-the result follows. \hfill$\square$
+the result follows. $\square$
 
 **Lemma 4** (Farey gaps). *Let*
 
@@ -959,5 +959,5 @@ This paper was written by GPT-5.5 Pro. The mathematical findings and proof strat
 
 - [1] A. E. Mayer, A mean value theorem concerning Farey series, *Quarterly Journal of Mathematics* os-13 (1942), no. 1, 48–57.
 - [2] P. Erdős, A note on Farey series, *Quarterly Journal of Mathematics* os-14 (1943), no. 1, 82–85.
-- [3] W. van Doorn, Improved bounds for the Mayer–Erdős phenomenon on similarly ordered Farey fractions, arXiv:2509.00121 $$math.NT$$, 2025, https://arxiv.org/abs/2509.00121.
+- [3] W. van Doorn, Improved bounds for the Mayer–Erdős phenomenon on similarly ordered Farey fractions, arXiv:2509.00121 \[math.NT\], 2025, https://arxiv.org/abs/2509.00121.
 - [4] T. F. Bloom, Erdős Problem \#1005, https://www.erdosproblems.com/1005.

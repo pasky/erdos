@@ -660,11 +660,11 @@ A plausible class of extremal constructions for Conjecture 6.1 may be the $r$-pa
 
 [34] Yufei Zhao. Extremal regular graphs: independent sets and graph homomorphisms. *The American Mathematical Monthly*, 124(9):827–843, 2017.
 
-(Draganić) \textsc{Mathematical Institute, University of Oxford, UK. Supported by SNSF project 217926.}  
+(Draganić) Mathematical Institute, University of Oxford, UK. Supported by SNSF project 217926.  
 *Email address:* \texttt{nemanja.draganic@maths.ox.ac.uk}
 
-(Keevash) \textsc{Mathematical Institute, University of Oxford, UK. Supported by ERC Advanced Grant 883810.}  
+(Keevash) Mathematical Institute, University of Oxford, UK. Supported by ERC Advanced Grant 883810.  
 *Email address:* \texttt{keevash@maths.ox.ac.uk}
 
-(Müyesser) \textsc{New College, University of Oxford, UK.}  
+(Müyesser) New College, University of Oxford, UK.  
 *Email address:* \texttt{alp.muyesser@new.ox.ac.uk}

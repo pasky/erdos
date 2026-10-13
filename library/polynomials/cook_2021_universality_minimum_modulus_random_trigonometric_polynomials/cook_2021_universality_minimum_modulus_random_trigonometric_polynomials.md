@@ -1,6 +1,6 @@
 # Universality of the minimum modulus for random trigonometric polynomials
 
-Nicholas A. Cook \qquad Hoi H. Nguyen$^{*}$
+Nicholas A. Cook, Hoi H. Nguyen$^{*}$
 
 *Received 5 February 2021; Published 6 October 2021*
 
@@ -1214,7 +1214,7 @@ $$
 
 [^4]: In the general case $\alpha\ne 0$ we apply Theorem 10.2 instead of Theorem 3.1.
 
-Thus we just shown that, with $\varepsilon=n^{-K_*}$ we have $J_\gamma(n,\varepsilon)=O(e^{-\log^2 n})$, completing the proof. \hfill$\square$
+Thus we just shown that, with $\varepsilon=n^{-K_*}$ we have $J_\gamma(n,\varepsilon)=O(e^{-\log^2 n})$, completing the proof. $\square$
 
 We turn now to the proof of Theorem 3.2. We follow [DNN, Section 5] with some slight modifications. We are free to assume $K$ is larger than any fixed constant. By approximating $Q$ with a union of smaller boxes with disjoint interiors it suffices to establish the claim for boxes of the form $Q=w+B_m(\boldsymbol{\delta})$ with
 
@@ -1493,7 +1493,7 @@ $$
 \leq 2^k\sum_{i=0}^{k}\|\psi(j+i\ell q_0)\|_{\mathbb{R}/\mathbb{Z}}
 $$
 
-as desired. \hfill $\square$
+as desired. $\square$
 
 Note that $\|\boldsymbol{y}\|_2+\|\boldsymbol{y}'\|_2\gg n^{-1/8}$. Thus either (1) there exists $i$ such that $|y_i'|\gg n^{-1/16}$ (with room to spare) or (2) $|y_i'|\leq n^{-1/16}$ for all $i$ and there exists $i$ such that $|y_i|\gg_m n^{-1/8}$. In what follows we will mainly working with the first case (which is significantly harder as one needs to deal with differentials of order two). We will comment in Remark 9.4 below how to handle the second case. For the rest of the section, without loss of generality we will assume
 
@@ -1796,7 +1796,7 @@ $$
 P_n(x)=\frac{1}{\sqrt{2n+2a}}\sum_{j=-n}^{n}\zeta_j e(jx).
 $$
 
-The claim now follows from the complex Gaussian case of Theorem 1.1 and the choice $a=1/2$. \hfill $\square$
+The claim now follows from the complex Gaussian case of Theorem 1.1 and the choice $a=1/2$. $\square$
 
 We comment on the minor modifications of the proof of Theorem 1.2 that are needed to obtain Theorem 10.4. The probabilistic Lemmas 2.1 and 2.4 follow from straightforward modifications. Lemma 2.2 is deterministic and does not depend on the specific form of $P_n$ after conditioning on the good event. The remainder of the argument only depends on the specific model through the the matrix $W$ in the definition (3.2) of the random walks $S_n(\boldsymbol{t})$, and the only proofs that need modification are those of Lemma 3.6 and Theorem 3.1. For the model (10.4), we may condition on $\xi_0$ and $\eta_j,j\geq 1$. As the trigonometric series is now real, we only need to consider a $2m$-dimensional walk of the form
 

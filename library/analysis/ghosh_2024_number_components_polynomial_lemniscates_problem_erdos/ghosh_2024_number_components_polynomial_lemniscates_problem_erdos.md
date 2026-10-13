@@ -788,7 +788,7 @@ Since $c(K)=1$, we have $\mathbb{E}(\log |z-X_1|)=U_\mu(z)=0$ by Frostman’s Th
 
 These two steps guarantee by Lemma 3.4 that $X_1$ forms an isolated component with probability at least $\frac{1}{2}-\frac{C}{n^\varepsilon}$. Hence $\mathbb{E}(\mathcal{C}_n)\geq \frac{n}{2}-n^{1-\varepsilon}$. Since $\varepsilon>0$ was arbitrary, this shows $\underset{n\to\infty}{\underline{\lim}}\mathbb{E}\left(\frac{\mathcal{C}_n}{n}\right)\geq\frac{1}{2}$. Hence the proof.
 
-\hfill $\blacksquare$
+$\blacksquare$
 
 ## References
 

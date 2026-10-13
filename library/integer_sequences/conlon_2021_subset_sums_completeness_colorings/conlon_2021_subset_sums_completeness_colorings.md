@@ -395,7 +395,7 @@ $$
 |\Sigma(S_j^{\prime\prime})|\geq\sum_{m\in P_2}\frac{x}{4}=\frac{x}{4}\cdot\frac{|S_j^{\prime\prime}|}{2}=\frac{Cx\log x}{64\ell}.
 $$
 
-Therefore, with high probability, the sequence $S$ is such that $|\Sigma(S_j^{\prime\prime})|\geq Cx\log x/64\ell$ for all possible choices of $I'$ and $j$, as required. \hfill $\square$
+Therefore, with high probability, the sequence $S$ is such that $|\Sigma(S_j^{\prime\prime})|\geq Cx\log x/64\ell$ for all possible choices of $I'$ and $j$, as required. $\square$
 
 ### 3.2 Proof of Theorem 1.2
 
@@ -499,7 +499,7 @@ $$
 \left|2^{k-1}P(T)-2^{k-1}P(T)\right|\geq c_k\alpha^{2^{k+1}}x^k>\alpha^{C_k}P(m)
 $$
 
-for an appropriate constant $C_k$ depending only on $k$, completing the proof. \hfill$\square$
+for an appropriate constant $C_k$ depending only on $k$, completing the proof. $\square$
 
 *Remark.* A Hilbert cube of dimension $k$ (or simply a $k$-cube) is a set $H(a_0,e_1,\ldots,e_k)$ of the form $\{a_0+\sum_{i\in I}e_i:I\subseteq[k]\}$ with $a_0$ an integer and $e_1,\ldots,e_k$ positive integers (see [27] for more on the long history of these objects). The first step in the proof of Lemma 2.10 was to iteratively build many Hilbert cubes of dimension $k$ consisting of elements of $T$, all with $e_j=y_j$ and where we can take $a_0$ to be any $x_{k,i}$. An alternative approach to this step is to build many $k$-cubes in $T$ with small $e_1,\ldots,e_k$ and then to use the pigeonhole principle to show that one can pick out many such $k$-cubes with the same $e_1,\ldots,e_k$.
 
@@ -645,7 +645,7 @@ where $o_x(1)$ tends to $0$ as $x$ tends to infinity. Thus, with high probabilit
 
 $$|\Sigma(P(S_j^{\prime\prime}))|\geq\sum_{m\in Q_2}P(m)/4=|Q_2|P(m)/4=|S_j^{\prime\prime}|P(m)/8\geq P(x)|S_j^{\prime\prime}|/8.$$
 
-Therefore, with high probability, the sequence $S$ is such that $|\Sigma(P(S_j^{\prime\prime}))|\geq P(x)|S_j^{\prime\prime}|/8$ for all possible choices of $I^{\prime}$ and $j$, as required. \hfill$\square$
+Therefore, with high probability, the sequence $S$ is such that $|\Sigma(P(S_j^{\prime\prime}))|\geq P(x)|S_j^{\prime\prime}|/8$ for all possible choices of $I^{\prime}$ and $j$, as required. $\square$
 
 ### 3.3 Proof of the lower bound in Theorem 1.1
 
@@ -655,7 +655,7 @@ We first prove a useful lemma.
 
 $$|\Sigma(S)\cap[m]|\leq 2^{m/q}\prod_{a\in S\cap[m]}(1+2^{-a/q})\leq 2^{m/q}\exp\left(\sum_{a\in S\cap[m]}2^{-a/q}\right).$$
 
-*Proof.* Let $r_S(s)$ denote the number of ways of representing $s$ as a sum of distinct elements from $S$. So if $s\in\Sigma(S)$, then $r_S(s)\geq 1$, while $r_S(s)=0$ otherwise. For each $s\in\Sigma(S)\cap[m]$, we get a contribution of one to the leftmost expression. For the middle expression, by expanding the product, for each $s\in\Sigma(S)\cap[m]$ we get a contribution of $r_S(s)\cdot 2^{m/q}\cdot 2^{-s/q}\geq 1$, proving the desired inequality. We then get the last inequality by using $1+z\leq e^z$ for $z\geq 0$. \hfill$\square$
+*Proof.* Let $r_S(s)$ denote the number of ways of representing $s$ as a sum of distinct elements from $S$. So if $s\in\Sigma(S)$, then $r_S(s)\geq 1$, while $r_S(s)=0$ otherwise. For each $s\in\Sigma(S)\cap[m]$, we get a contribution of one to the leftmost expression. For the middle expression, by expanding the product, for each $s\in\Sigma(S)\cap[m]$ we get a contribution of $r_S(s)\cdot 2^{m/q}\cdot 2^{-s/q}\geq 1$, proving the desired inequality. We then get the last inequality by using $1+z\leq e^z$ for $z\geq 0$. $\square$
 
 Using the above lemma, we prove the following theorem, giving the lower bound in Theorem 1.1.
 
@@ -1684,7 +1684,7 @@ $$
 \overline{M}(i)\leq\sum_{j\geq j_1}2^j\cdot\frac{2}{\ell}|X\cap I_j|\leq\frac{4M}{\ell},
 $$
 
-completing the proof of Claim 2. \hfill$\square$
+completing the proof of Claim 2. $\square$
 
 Both Sárközy [35] and Szemerédi and Vu [41] also state results which apply to
 
@@ -2005,7 +2005,7 @@ $$
 \binom{q}{q-2i}p^{|B|}=\binom{q}{2i}p^{|B|}<(eC_0)^{2i}\left(\frac{32\log w}{cw}\right)^{C_0i-2i}<\epsilon^{1000C_0i},
 $$
 
-where in the first inequality we used (27) and in the second inequality we assume a sufficiently large choice of $C_0$ and note that $w=\epsilon^{-4000}$ with $\epsilon$ sufficiently small. \hfill $\square$
+where in the first inequality we used (27) and in the second inequality we assume a sufficiently large choice of $C_0$ and note that $w=\epsilon^{-4000}$ with $\epsilon$ sufficiently small. $\square$
 
 To complete the proof, it remains to verify Claims 1 and 2.
 
@@ -2128,7 +2128,7 @@ p_1,p_2,\dots,p_k\mid W(r)m}}
 \frac{x}{p_1p_2\cdots p_k}+O(2^M),
 $$
 
-which is within an additive $O(2^M)$ of $x\prod_{p\mid W(r)m}(1-1/p)$, where $M$ is the number of distinct primes that divide $W(r)m$. Since $M\leq r+2(\log m)/(\log\log m)<(\log n)/10$ and $x\geq n^{1/6}$, the number of integers in $I$ coprime to $W(r)m$ is at least $\frac{1}{2}\tau(r,m)x$ and at most $2\tau(r,m)x$. \hfill $\square$
+which is within an additive $O(2^M)$ of $x\prod_{p\mid W(r)m}(1-1/p)$, where $M$ is the number of distinct primes that divide $W(r)m$. Since $M\leq r+2(\log m)/(\log\log m)<(\log n)/10$ and $x\geq n^{1/6}$, the number of integers in $I$ coprime to $W(r)m$ is at least $\frac{1}{2}\tau(r,m)x$ and at most $2\tau(r,m)x$. $\square$
 
 **Lemma 5.2.** *Let $r$, $n$ and $m$ be positive integers such that $m\in[n,\binom{n}{2}]$, $r\leq n$ and $r$ is sufficiently large. For any interval $I=[x,2x)$ with $x\geq n^{1/4}$, there are at most $8(m/\phi(m))\tau(r,m)x$ integers in $I$ of the form $qu$, where $u\mid m$, $u\leq x^{1/16}$ and $q$ is coprime to $W(r)m$. If also $x\geq r^2$, then there are at least $\frac{1}{8}(m/\phi(m))\tau(r,m)x$ integers in $I$ of this form.*
 
@@ -2151,7 +2151,7 @@ $$
 8\tau(r,m)\sum_{\substack{u\mid m,\,u\leq x^{1/16}}}\frac{x}{u}\leq 8(m/\phi(m))\tau(r,m)x,
 $$
 
-where we again used Lemma B.1. \hfill $\square$
+where we again used Lemma B.1. $\square$
 
 We now prove Lemma 5.9, which gives an upper bound on the number of integers in an arithmetic progression which are coprime to $W(r)/\gcd(W(r),m)$. The proof employs the Selberg sieve.
 
@@ -2291,7 +2291,7 @@ $$
 \frac{\rho}{\tau(\rho,m)}\leq\frac{\frac{n^2}{\phi(m)}\cdot 4\log\left(\frac{n^2/\phi(m)}{16\log(n^2/\phi(m))}\right)}{16\log(n^2/\phi(m))}\leq\frac{1}{4}\frac{n^2}{\phi(m)}
 $$
 
-and so $\rho(n,m)\geq\frac{1}{16}\frac{n^2/\phi(m)}{\log(n^2/\phi(m))}$, as required. \hfill$\square$
+and so $\rho(n,m)\geq\frac{1}{16}\frac{n^2/\phi(m)}{\log(n^2/\phi(m))}$, as required. $\square$
 
 Recall that $\psi(n,m)=\frac{m^{1/3}(m/\phi(m))}{(\log n)^{1/3}(\log\log n)^{2/3}}$ and $\mathcal{R}(n,m)=\min\left(\psi(n,m),\rho(n,m)\right)$. Using Claim B.3, it is easy to show that $\mathcal{R}(n,m)=\Theta\left(\psi(n,m)\right)$ when $m=O\left(\frac{n^{3/2}(\log\log n)^{1/2}}{(\log n)^{1/2}}\right)$ and $\mathcal{R}(m,n)=\Theta(\rho(n,m))$ when $m=\Omega\left(\frac{n^{3/2}(\log\log n)^{1/2}}{(\log n)^{1/2}}\right)$.
 

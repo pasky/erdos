@@ -122,7 +122,7 @@ $$
 
 **Lemma 4.2.** Let $\mathcal{H}=(V,E)$ be a hypergraph with $m$ many edges and assume that the cardinality of each edge is at least $R$. Assume that for every distinct edges $e,e'\in E$ $|e\cap e'|\leq k$. Then, $|V|\geq\frac{mR^2}{R+(m-1)k}$.
 
-It is an easy consequence of ([4, Chap. 13, Prob.13]). \hfill$\square$
+It is an easy consequence of ([4, Chap. 13, Prob.13]). $\square$
 
 For every $B_k\in U_k$ let the corresponding product set be $C_k:=\{a\cdot a':(a,a')\in B_k\}$. Clearly if $a\cdot a'=a''\cdot a'''$ for some four-tuple from $C_k$ we have $\{a,a'\}=\{a'',a'''\}$.
 

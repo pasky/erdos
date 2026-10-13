@@ -423,7 +423,7 @@ $$
 
 If $x>0$ and $y>0$, then $\min\{x,y\}\leqslant\sqrt{xy}$ and we are done.
 
-This completes the proof of Theorem 1.6. \hfill$\Box$
+This completes the proof of Theorem 1.6. $\Box$
 
 ## REFERENCES
 

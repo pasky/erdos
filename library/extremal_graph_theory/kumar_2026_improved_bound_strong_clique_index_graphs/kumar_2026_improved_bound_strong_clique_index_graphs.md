@@ -669,11 +669,11 @@ We acknowledge the use of AI tools during the ideation phase. We declare that th
 339(5):1551–1556, 2016. \textsuperscript{2}
 
 Hitesh Kumar, Email: `hitesh.kumar.math@gmail.com`, `hitesh_kumar@sfu.ca`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada
 
 Bojan Mohar, Email: `mohar@sfu.ca`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}  
-\textsc{On leave from FMF, Department of Mathematics, University of Ljubljana.}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada  
+On leave from FMF, Department of Mathematics, University of Ljubljana.
 
 Shivaramakrishna Pragada, Email: `shivaramakrishna_pragada@sfu.ca`, `shivaramkratos@gmail.com`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada

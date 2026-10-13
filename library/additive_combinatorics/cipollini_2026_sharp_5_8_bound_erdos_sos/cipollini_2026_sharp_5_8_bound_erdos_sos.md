@@ -254,7 +254,7 @@ $$
 |B|-|C(B)|\leq\frac{m}{4}+2.
 $$
 
-Together with the induction case, this proves the lemma. \hfill$\square$
+Together with the induction case, this proves the lemma. $\square$
 
 ## 3. FOLDING A TRIPLE-FREE SET AROUND A PIVOT
 

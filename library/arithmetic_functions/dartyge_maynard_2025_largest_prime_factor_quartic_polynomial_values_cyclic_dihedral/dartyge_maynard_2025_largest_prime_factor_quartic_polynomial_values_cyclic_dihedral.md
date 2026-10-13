@@ -12,56 +12,56 @@ factor $\geq n^{1+c_P}$.
 ## Contents
 
 **1 Introduction** 2  
-1.1 Outline of the proof of Theorem 1.1 \dotfill 4  
+1.1 Outline of the proof of Theorem 1.1 . . . 4  
 
 **2 Acknowledgements** 6  
 
 **3 Initial steps** 7  
 
 **4 Localised divisors of values of incomplete norm forms** 8  
-4.1 Application to Theorem 1.1 \dotfill 11  
+4.1 Application to Theorem 1.1 . . . 11  
 
 **5 Algebraic properties of auxilliary polynomials** 12  
-5.1 Ideals \dotfill 12  
-5.2 The roots of $P$ modulo $m$ \dotfill 12  
-5.3 Elimination of $a_0$ \dotfill 15  
-5.4 Explicit computations of $B_{13}, B_{14}, U, V$ \dotfill 17  
-5.5 Factorisation of $q$ \dotfill 19  
-5.6 The factor $q_1$ as a an incomplete norm form \dotfill 21  
+5.1 Ideals . . . 12  
+5.2 The roots of $P$ modulo $m$ . . . 12  
+5.3 Elimination of $a_0$ . . . 15  
+5.4 Explicit computations of $B_{13}, B_{14}, U, V$ . . . 17  
+5.5 Factorisation of $q$ . . . 19  
+5.6 The factor $q_1$ as a an incomplete norm form . . . 21  
 5.7 On the solutions of some congruence equations with $B_{14}$  
-and $q$ \dotfill 23  
+and $q$ . . . 23  
 
 **6 The set of ideals $\mathcal{J}$** 26  
 
 **7 Proof of Proposition 3.3: The term $S_1$** 29  
 
 **8 Proof of Proposition 3.2: The sum $S_0$** 34  
-8.1 The variable $a_0$ in $S_0$ \dotfill 34  
-8.2 Splitting into small boxes \dotfill 36  
-8.3 Preparation for the application of Theorem 4.1 \dotfill 38  
-8.4 Application of Theorem 4.1 \dotfill 44  
-8.5 Proof of Proposition 3.2 \dotfill 47
+8.1 The variable $a_0$ in $S_0$ . . . 34  
+8.2 Splitting into small boxes . . . 36  
+8.3 Preparation for the application of Theorem 4.1 . . . 38  
+8.4 Application of Theorem 4.1 . . . 44  
+8.5 Proof of Proposition 3.2 . . . 47
 
-**9 Incomplete norm forms** \dotfill **47**  
-9.1 From $\mathcal{O}_K$ to $\mathcal{O}_V$ and vice-versa \dotfill 48  
-9.2 Multiplication in $\mathcal{O}_V$ \dotfill 51  
-9.3 Sums of Type I \dotfill 53  
-9.4 Initial steps in the Type II sum \dotfill 54  
-9.5 Switching to ideals with norms in small boxes \dotfill 55  
-9.6 Approximation weights \dotfill 57  
+**9 Incomplete norm forms** . . . **47**  
+9.1 From $\mathcal{O}_K$ to $\mathcal{O}_V$ and vice-versa . . . 48  
+9.2 Multiplication in $\mathcal{O}_V$ . . . 51  
+9.3 Sums of Type I . . . 53  
+9.4 Initial steps in the Type II sum . . . 54  
+9.5 Switching to ideals with norms in small boxes . . . 55  
+9.6 Approximation weights . . . 57  
 
-**10 Proposition 9.13: The term $T_{\mathrm{sieve}}(\mathcal{R})$.** \dotfill **62**
+**10 Proposition 9.13: The term $T_{\mathrm{sieve}}(\mathcal{R})$.** . . . **62**
 
-**11 Proposition 9.14: The term $T_1(\mathcal{R})$** \dotfill **66**  
-11.1 Cosmetic reductions \dotfill 67  
-11.2 Dispersion method \dotfill 68  
-11.3 Collinear $b_1,b_2$ \dotfill 68  
-11.4 Lattice counts \dotfill 69  
-11.5 Further lattice estimates \dotfill 71  
-11.6 The case $p_1=p_2$ \dotfill 75  
-11.7 The case $p_1\ne p_2$ \dotfill 79  
-11.8 Reduction to small residue classes and small boxes \dotfill 80  
-11.9 Localised bound and Proof of Proposition 9.14 \dotfill 82  
+**11 Proposition 9.14: The term $T_1(\mathcal{R})$** . . . **66**  
+11.1 Cosmetic reductions . . . 67  
+11.2 Dispersion method . . . 68  
+11.3 Collinear $b_1,b_2$ . . . 68  
+11.4 Lattice counts . . . 69  
+11.5 Further lattice estimates . . . 71  
+11.6 The case $p_1=p_2$ . . . 75  
+11.7 The case $p_1\ne p_2$ . . . 79  
+11.8 Reduction to small residue classes and small boxes . . . 80  
+11.9 Localised bound and Proof of Proposition 9.14 . . . 82  
 
 ## 1 Introduction
 
@@ -3439,7 +3439,7 @@ $$
 
 Putting together (10.8), (10.9), (10.18) and (10.19) now gives the result.
 
-\hfill$\square$
+$\square$
 
 We are now in a position to establish Proposition 9.13.
 

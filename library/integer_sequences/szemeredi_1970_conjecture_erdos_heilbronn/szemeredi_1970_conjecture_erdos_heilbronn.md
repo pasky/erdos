@@ -2,23 +2,23 @@ Conspectus materiae tomi XVII, fasciculi 3
 
 Pagina
 
-E. Szemerédi, On a conjecture of Erdős and Heilbronn \dotfill 227
+E. Szemerédi, On a conjecture of Erdős and Heilbronn . . . 227
 
 S. A. Stepanov, Elementary method in the theory of congruences for a prime  
-modulus \dotfill 231
+modulus . . . 231
 
-Y. Motohashi, On the sum of the number of divisors in a short segment \dotfill 249
+Y. Motohashi, On the sum of the number of divisors in a short segment . . . 249
 
-S. D. Cohen, The distribution of polynomials over finite fields \dotfill 255
+S. D. Cohen, The distribution of polynomials over finite fields . . . 255
 
-J. Lesca et M. Mendès France, Ensembles normaux \dotfill 273
+J. Lesca et M. Mendès France, Ensembles normaux . . . 273
 
 Y. Motohashi, A note on the least prime in an arithmetic progression with  
-a prime difference \dotfill 283
+a prime difference . . . 283
 
-R. M. Damerell, $L$-functions of elliptic curves with complex multiplication, I \dotfill 287
+R. M. Damerell, $L$-functions of elliptic curves with complex multiplication, I . . . 287
 
-A. J. Jones, Cyclic overlattices, I \dotfill 303
+A. J. Jones, Cyclic overlattices, I . . . 303
 
 La revue est consacrée à la Théorie des Nombres  
 The journal publishes papers on the Theory of Numbers  
@@ -182,7 +182,7 @@ $$\left|\{V:|V|=i\text{ and }\left|\{U:(U,V)\in X\}\right|\le3\sqrt n\}\right|<\
 
 $$\left[\frac{1}{4}c\sqrt n\right]=|A_1|,\qquad \left[\frac{3}{4}c\sqrt n\right]=A_q,$$
 
-$$A_i\subset A_{i-1},\qquad |A_{i+1}-A_i|=1\qquad(i=1,\ldots,q-1).$$
+$$A_i\subset A_{i+1},\qquad |A_{i+1}-A_i|=1\qquad(i=1,\ldots,q-1).$$
 
 For every chain $(A_1,A_2,\ldots,A_q)\in Y$, $(A_i,A_{i+1})\in X$ if and only if $|A_{i+1}^*-A_i^*|\le\sqrt n$ for $1\le i\le q-1$. If (4) is false, then there must be a chain $(A_1,A_2,\ldots,A_q)\in Y$ such that
 

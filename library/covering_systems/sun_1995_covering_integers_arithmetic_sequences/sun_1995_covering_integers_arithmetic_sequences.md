@@ -1004,4 +1004,4 @@ NANJING 210093
 PEOPLE'S REPUBLIC OF CHINA
 
 *Received on 18.11.1993*  
-*and in revised form on 23.8.1994* \hfill (2521)
+*and in revised form on 23.8.1994* (2521)

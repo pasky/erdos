@@ -424,4 +424,4 @@ Dépt. Réseaux
 75634 Paris 13, France  
 E-mail: zemor@res.enst.fr
 
-*Received on 18.1.1996* \hfill (2915)
+*Received on 18.1.1996* (2915)

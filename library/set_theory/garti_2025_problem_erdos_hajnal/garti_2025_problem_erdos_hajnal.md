@@ -703,16 +703,16 @@ the axioms. *Canad. J. Math.*, 73(5):1205–1238, 2021.
 Clarendon Press, Oxford University Press, New York, 1994. Oxford Science  
 Publications.
 
-\textsc{Einstein Institute of Mathematics, The Hebrew University of Jerusalem,}  
-\textsc{Jerusalem 91904, Israel}  
+Einstein Institute of Mathematics, The Hebrew University of Jerusalem,  
+Jerusalem 91904, Israel  
 *Email address:* `shimon.garty@mail.huji.ac.il`
 
-\textsc{Einstein Institute of Mathematics, The Hebrew University of Jerusalem,}  
-\textsc{Jerusalem 91904, Israel}  
+Einstein Institute of Mathematics, The Hebrew University of Jerusalem,  
+Jerusalem 91904, Israel  
 *Email address:* `yair.hayut@mail.huji.ac.il`
 
-\textsc{Institute of Mathematics The Hebrew University of Jerusalem, Jerusalem}  
-\textsc{91904, Israel and Department of Mathematics Rutgers University New Brunswick,}  
-\textsc{NJ 08854, USA}  
+Institute of Mathematics The Hebrew University of Jerusalem, Jerusalem  
+91904, Israel and Department of Mathematics Rutgers University New Brunswick,  
+NJ 08854, USA  
 *Email address:* `shelah@math.huji.ac.il`  
 *URL:* `http://www.math.rutgers.edu/~shelah`

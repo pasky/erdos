@@ -1711,7 +1711,7 @@ Calegari, Frank, Vesselin Dimitrov, and Yunqing Tang. 2025. *Arithmetic Holonomy
 
 Descartes, René. 1637. “La géométrie.” In *Discours de La méthode*. Jan Maire. <https://www.unicaen.fr/puc/sources/prodescartes/consult/descartes/Oeuvres/Oeuvres_Descartes/discours_de_la_methode.xml/la_geometrie.html>.
 
-Eskandari, Payman. 2026. *Improved Rational Approximations to Catalan’s Constant*. Preprint, arXiv:2609.26354v1 $$math.NT$$. <https://arxiv.org/abs/2609.26354v1>.
+Eskandari, Payman. 2026. *Improved Rational Approximations to Catalan’s Constant*. Preprint, arXiv:2609.26354v1 \[math.NT\]. <https://arxiv.org/abs/2609.26354v1>.
 
 Fischler, Stéphane. 2020. “Irrationality of Values of $L$-Functions of Dirichlet Characters.” *Journal of the London Mathematical Society* 101 (2): 857–76. <https://doi.org/10.1112/jlms.12290>.
 
@@ -1739,7 +1739,7 @@ Saff, Edward B. 2010. “Logarithmic Potential Theory with Applications to Appro
 
 Sarason, Donald. 1967. “Generalized Interpolation in $H^\infty$.” *Transactions of the American Mathematical Society* 127 (2): 179–203. <https://doi.org/10.1090/S0002-9947-1967-0208383-8>.
 
-Sun, Zhi-Wei. 2026. *Catalan’s Constant Is Irrational*. Preprint, arXiv:2609.04176v1 $$math.GM$$. <https://arxiv.org/abs/2609.04176v1>.
+Sun, Zhi-Wei. 2026. *Catalan’s Constant Is Irrational*. Preprint, arXiv:2609.04176v1 \[math.GM\]. <https://arxiv.org/abs/2609.04176v1>.
 
 Viola, Carlo. 2022. “Rational Approximations to Catalan’s Constant.” *Oberwolfach Reports* 19 (2): 1100–1101. <https://doi.org/10.4171/OWR/2022/21>.
 

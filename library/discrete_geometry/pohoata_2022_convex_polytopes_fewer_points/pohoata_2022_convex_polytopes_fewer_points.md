@@ -450,10 +450,10 @@ where $\operatorname{mc}(X)$ represents the maximum size of a subset of $X$ in c
 
 [32] P. Valtr, *Several results related to the Erdős-Szekeres theorem*, Doctoral Dissertation, Charles University, Prague, 1996.
 
-\textsc{School of Mathematics, Institute for Advanced Study, Princeton, NJ 08540, USA}
+School of Mathematics, Institute for Advanced Study, Princeton, NJ 08540, USA
 
 *Email address:* cosmin.pohoata@gmail.com
 
-\textsc{Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA}
+Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
 
 *Email address:* zakharov2k@gmail.com

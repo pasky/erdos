@@ -899,12 +899,12 @@ This process has both weakly-mixing and almost-periodic content. Let us explain 
 
 *September 2025*
 
-\textsc{Samuel Le Fourn}, Université Grenoble Alpes, Institut Fourier, 100 rue des mathématiques, 38610  
+Samuel Le Fourn, Université Grenoble Alpes, Institut Fourier, 100 rue des mathématiques, 38610  
 Gières, France • *E-mail* : samuel.le-fourn@univ-grenoble-alpes.fr  
 *Url* : www-fourier.univ-grenoble-alpes.fr/~lefourns
 
-\textsc{Mike Liu}, ENSAE, Fairplay joint team, CREST France, 5 avenue Le Chatelier, 91120 Palaiseau, France  
+Mike Liu, ENSAE, Fairplay joint team, CREST France, 5 avenue Le Chatelier, 91120 Palaiseau, France  
 *E-mail* : mike.liu@ensae.fr
 
-\textsc{Sébastien Martineau}, Sorbonne Université, LPSM, 4 place Jussieu, Case 158, 75252 Paris Cedex 05,  
+Sébastien Martineau, Sorbonne Université, LPSM, 4 place Jussieu, Case 158, 75252 Paris Cedex 05,  
 France • *E-mail* : smartineau@lpsm.paris • *Url* : martineau-maths.github.io/webpage

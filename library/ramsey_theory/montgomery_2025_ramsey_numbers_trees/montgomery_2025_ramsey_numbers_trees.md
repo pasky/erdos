@@ -1363,7 +1363,7 @@ $$
 \mathbb{P}(v\text{ is bad})\leq\sum_{j=1}^{j^*}\mathbb{P}(v\text{ is }j\text{-bad})\leq\sum_{j=1}^{j^*}\left(\frac{m_v}{10^{10}n}\right)^{(j^*-j+1)}\leq\frac{m_v}{10^8n},
 $$
 
-as required. \hfill$\square$
+as required. $\square$
 
 By Claim 6.4, we have
 

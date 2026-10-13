@@ -574,7 +574,7 @@ $$
 |u_n|\geq C\rho^n.
 $$
 
-This proves the lemma. \hfill$\square$
+This proves the lemma. $\square$
 
 We can now combine Granville’s structure theorem with the Bugeaud–Corvaja–Zannier bound to obtain the desired rigidity statement for common LDS factors.
 
@@ -1003,7 +1003,7 @@ $$
 ur\equiv\pm v\pmod{\ell}.
 $$
 
-\hfill$\square$
+$\square$
 
 Combining the previous two statements yields a finite certificate for the badness of a prime index.
 

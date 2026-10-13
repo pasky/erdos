@@ -242,7 +242,7 @@ $$
 M_T\leq\rho m_T\leq\rho(r-1)\alpha M_n=(r-1)(\rho-1+\eta)M_n.
 $$
 
-This is (3.2). \hfill$\square$
+This is (3.2). $\square$
 
 The interpretation is that the marked block created at a slow split (a split that does not decrease $M_n$ substantially) is frozen until $M_n$ has fallen by the multiplicative factor $\beta$.
 
@@ -358,7 +358,7 @@ $$
 N^+-N \leq \frac{N}{r}+O_{r,\eta,\rho}(1),
 $$
 
-which proves the proposition. \hfill$\square$
+which proves the proposition. $\square$
 
 ## 5 Proof of the Main Theorem
 

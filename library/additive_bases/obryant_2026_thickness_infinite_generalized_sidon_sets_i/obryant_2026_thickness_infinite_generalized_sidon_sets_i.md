@@ -259,7 +259,7 @@ $$
 \end{aligned}
 $$
 
-Claim 8 is verified. \hfill $\square$
+Claim 8 is verified. $\square$
 
 Using Claim 7 and Claim 8 in Cauchy’s Inequality (4), we get a lower bound on the energy:
 
@@ -273,7 +273,7 @@ $$
 \left(\lim_{N\to\infty}\widetilde{\tau}_N\right)^2\frac{\log 2}{4}\leq 2c,
 $$
 
-where the limit exists because $\widetilde{\tau}_N$ is nondecreasing and bounded. This implies that $\widetilde{\tau}_N\leq\sqrt{\frac{8c}{\log 2}}$, so that by definition $\widetilde{\tau}_N=\tau_N$. The inequality $\tau_N\leq\sqrt{\frac{8c}{\log 2}}$ is the conclusion of Lemma 6. \hfill $\square$
+where the limit exists because $\widetilde{\tau}_N$ is nondecreasing and bounded. This implies that $\widetilde{\tau}_N\leq\sqrt{\frac{8c}{\log 2}}$, so that by definition $\widetilde{\tau}_N=\tau_N$. The inequality $\tau_N\leq\sqrt{\frac{8c}{\log 2}}$ is the conclusion of Lemma 6. $\square$
 
 We are now positioned to prove Theorem 1 quickly.
 

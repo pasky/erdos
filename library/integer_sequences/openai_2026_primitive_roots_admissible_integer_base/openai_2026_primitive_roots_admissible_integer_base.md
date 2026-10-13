@@ -2592,7 +2592,7 @@ There is a useful check that fixes the orientation without referring to a conven
 
 **[3]** E. Bombieri, On the large sieve, *Mathematika* **12** (1965), no. 2, 201–225. [doi:10.1112/S0025579300005313](https://doi.org/10.1112/S0025579300005313).
 
-**[4]** A. Buchstab, Asymptotische Abschätzung einer allgemeinen zahlentheoretischen Funktion, *Rec. Math. $$Mat. Sbornik$$ N.S.* **2(44)** (1937), no. 6, 1239–1246 (Russian, with a German summary). [MathNet record and original text](https://www.mathnet.ru/eng/sm5649).
+**[4]** A. Buchstab, Asymptotische Abschätzung einer allgemeinen zahlentheoretischen Funktion, *Rec. Math. \[Mat. Sbornik\] N.S.* **2(44)** (1937), no. 6, 1239–1246 (Russian, with a German summary). [MathNet record and original text](https://www.mathnet.ru/eng/sm5649).
 
 **[5]** A. Dunn and M. Radziwiłł, Bias in cubic Gauss sums: Patterson’s conjecture, *Ann. of Math.* (2) **200** (2024), no. 3, 967–1057. [doi:10.4007/annals.2024.200.3.3](https://doi.org/10.4007/annals.2024.200.3.3). Author version: [arXiv:2109.07463v3](https://arxiv.org/abs/2109.07463v3).
 

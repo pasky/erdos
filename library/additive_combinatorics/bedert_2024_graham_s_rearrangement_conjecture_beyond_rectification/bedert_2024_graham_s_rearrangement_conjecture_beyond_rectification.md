@@ -431,7 +431,7 @@ again with plenty of room to spare.
 
 The proof of (ii) is nearly identical and we omit it; we remark that the bounds $|\operatorname{IS}(\mathbf{p})|,|\operatorname{IS}(\mathbf{n})|\leqslant|A|\leqslant e^{c(\log p)^{1/4}}$ hold because we fixed $\mathbf{p}$ and $\mathbf{n}$ in advance.
 
-\hfill$\square$
+$\square$
 
 As noted in remark (2) following Lemma 5.3, there remain two sorts of Type I intervals to address. The first is Type I intervals contained in $T_{2k}\cup T_{2k+1}$ for some $k$. We can avoid zero-sums here by picking the orderings $\mathbf{t}_{2k},\mathbf{t}_{2k+1}$ according to a suitable joint distribution which we will describe in section 6. The second is Type I intervals with one endpoint in $\overline{\mathbf{p}}$ or $\mathbf{n}$ and the other endpoint in the left border of $\mathbf{t}_1$ or the right border of $\mathbf{t}_u$. The crucial ingredient for dealing with these will turn out to be the last part of Proposition 4.1. Since Proposition 4.1 must be applied prior to the random splitting procedure described in this section, it is a bit of a nuisance that the input sets $Y_j^+,Y_j^-$ must be described in terms of the sets $D_j$ rather than the sets $T_j$. The following lemma will let us remedy this issue.
 

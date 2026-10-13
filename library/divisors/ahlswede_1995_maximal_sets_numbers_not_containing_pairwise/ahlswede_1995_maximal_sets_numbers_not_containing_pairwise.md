@@ -1169,4 +1169,4 @@ POSTFACH 100 131
 33501 BIELEFELD, GERMANY
 
 *Received on 26.8.1994*  
-*and in revised form on 15.11.1994* \hfill (2659)
+*and in revised form on 15.11.1994* (2659)

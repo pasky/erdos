@@ -613,7 +613,7 @@ $$
 |\mathcal{C}_1(S\cup T)|\geq|\mathcal{C}_1(S_0\cup T_0)|+1\geq\frac{\log|L|}{\log\Delta},
 $$
 
-which completes the proof. \hfill$\square$
+which completes the proof. $\square$
 
 Finally, we are ready to complete the proof of Theorem 12.
 
@@ -629,7 +629,7 @@ $$
 |\mathcal{C}_G|\geq\min_{c>0}\max\left\{\log c-1,\frac{\log n-3\log c}{\log k}\right\}=\frac{\log n-3}{3+\log k},
 $$
 
-where $\max\left\{\log c-1,\frac{\log n-3\log c}{\log k}\right\}$ achieves its minimum when $\log c=\frac{\log n+\log k}{3+\log k}$. \hfill$\square$
+where $\max\left\{\log c-1,\frac{\log n-3\log c}{\log k}\right\}$ achieves its minimum when $\log c=\frac{\log n+\log k}{3+\log k}$. $\square$
 
 Theorem 1 promptly follows by setting $k=3$ and combining Lemma 11 with Theorem 12.
 

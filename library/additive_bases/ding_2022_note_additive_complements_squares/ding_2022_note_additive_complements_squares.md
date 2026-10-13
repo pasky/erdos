@@ -399,7 +399,7 @@ $$
 \tag{3.7}
 $$
 
-which contradicts Theorem 1.1. \hfill$\square$
+which contradicts Theorem 1.1. $\square$
 
 REFERENCES
 

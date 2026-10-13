@@ -1812,6 +1812,6 @@ by the anonymous referee.
 
 [20] A. Weingartner, The number of prime factors of integers with dense divisors, *J. Number Theory* **239** (2022), 57–77.
 
-\textsc{Department of Mathematics, 351 West University Boulevard, Southern Utah University, Cedar City, Utah 84720, USA}
+Department of Mathematics, 351 West University Boulevard, Southern Utah University, Cedar City, Utah 84720, USA
 
 *Email address:* **weingartner@suu.edu**

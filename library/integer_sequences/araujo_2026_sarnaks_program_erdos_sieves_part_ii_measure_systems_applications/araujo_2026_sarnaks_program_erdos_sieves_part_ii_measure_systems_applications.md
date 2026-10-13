@@ -476,7 +476,7 @@ $$
 \bigcup_{i>L+1}R_i\setminus\bigcup_{j\leq L+1}R_j\subset\bigcup_{i>L}R_i\setminus\bigcup_{j\leq L}R_j
 $$
 
-for every $L$. \hfill $\square$
+for every $L$. $\square$
 
 This motivates us to define the notion of a *minimal sieve*.
 
@@ -845,7 +845,7 @@ $$
 
 Because $R$ is Erdős, we have that $\Delta$ is finite. Therefore, we can use the Chinese Remainder Theorem to find $a_j$ with $1\leq j\leq|R_{\mathfrak{b}}^c|$ such that each $a_j$ belongs to a different congruence class not in $R_{\mathfrak{b}}$, and $a_j\notin R_{\mathfrak{b}'}$, for any $\mathfrak{b}'\in\Delta$.
 
-Let $A$ be the set containing each of these $a_j$. We will show that it is admissible, which implies the result. For any $\mathfrak{b}' \in \Delta \cup \{\mathfrak{b}\}$, we have by definition of $A$ that $A \cap R_{\mathfrak{b}'} = \emptyset$, so we are left with showing that for $\mathfrak{b}' \notin \Delta \cup \{\mathfrak{b}\}$, we have $-A+R_{\mathfrak{b}'} \neq \mathcal{O}_K$. But for any such $\mathfrak{b}'$, we have $|A|\frac{|R_{\mathfrak{b}'}|}{N(\mathfrak{b}')}<1$. Therefore, the set $-A+R_{\mathfrak{b}'}$ cannot cover $\mathcal{O}_K$, and so $A$ is admissible. \hfill $\square$
+Let $A$ be the set containing each of these $a_j$. We will show that it is admissible, which implies the result. For any $\mathfrak{b}' \in \Delta \cup \{\mathfrak{b}\}$, we have by definition of $A$ that $A \cap R_{\mathfrak{b}'} = \emptyset$, so we are left with showing that for $\mathfrak{b}' \notin \Delta \cup \{\mathfrak{b}\}$, we have $-A+R_{\mathfrak{b}'} \neq \mathcal{O}_K$. But for any such $\mathfrak{b}'$, we have $|A|\frac{|R_{\mathfrak{b}'}|}{N(\mathfrak{b}')}<1$. Therefore, the set $-A+R_{\mathfrak{b}'}$ cannot cover $\mathcal{O}_K$, and so $A$ is admissible. $\square$
 
 Using this we can show the following lemma.
 
@@ -857,7 +857,7 @@ $$(\epsilon_i-\delta_i+A)\cap R'_i\subset(\epsilon_i-\delta_i+A)\cap(R_i-\delta_
 
 which means that $A$ is also $R'$–admissible.
 
-Let us now prove the other implication. By Theorem 4.1 we can, for each $i$, find some $R$–admissible set $A$ such that $A+\mathfrak{b}_i=R_i^c$. Since $\Omega_R\subset\Omega_{R'}$, $A$ is also $R'$–admissible, so there is some $\delta_i$ such that $A+\delta_i\subset(R'_i)^c$, which means that $-\delta_i+R'_i\subset R_i$. \hfill $\square$
+Let us now prove the other implication. By Theorem 4.1 we can, for each $i$, find some $R$–admissible set $A$ such that $A+\mathfrak{b}_i=R_i^c$. Since $\Omega_R\subset\Omega_{R'}$, $A$ is also $R'$–admissible, so there is some $\delta_i$ such that $A+\delta_i\subset(R'_i)^c$, which means that $-\delta_i+R'_i\subset R_i$. $\square$
 
 It is now easy to show the following equivalence.
 
@@ -869,7 +869,7 @@ On the other hand, assume that $\Omega_R=\Omega_{R'}$. By Theorem 4.2, for every
 
 $$R_i\subset-\delta_i+R'_i=\delta_i'+R'_i\subset R_i,$$
 
-which imply that $R_i=\delta_i'+R'_i$. \hfill $\square$
+which imply that $R_i=\delta_i'+R'_i$. $\square$
 
 As a corollary, we get the following result.
 
@@ -1451,7 +1451,7 @@ $$
 d_I(\mathcal{F}_R)=d(\mathcal{F}_{R'})=\nu_{R'}(C^{R'}_{\{0\},\emptyset})=\nu_R(C^R_{\{0\},\emptyset}).
 $$
 
-Therefore $R$ has weak light tails for $I_N$ by Theorem 2.9. \hfill$\square$
+Therefore $R$ has weak light tails for $I_N$ by Theorem 2.9. $\square$
 
 We provide some extra intuition to the fact that if $R$ has weak light tails for some $I_N$ then $\nu(X_R)=1$. When $R$ has weak light tails for some Følner sequence $I_N$, the Mirsky measure $\nu_R$ quantifies the prevalence of patterns in $\mathcal{F}_R$ (in the sense that $\nu_R(C^R_{A,B})=d_I(\{x\in\mathcal{O}_K:x+A\subset\mathcal{F}_R\text{ and }(x+B)\cap\mathcal{F}_R=\emptyset\})$). Therefore any set of the form $C^R_{A,B}$, where $A,B$ describe a finite pattern that does not appear in $\mathcal{F}_R$, should have measure 0. Consequently, the admissible sets that contain a finite pattern that does not appear in $\mathcal{F}_R$ should all be contained in a set of measure 0. By Theorem 5.2, any admissible set $A$ that contains any of these patterns, does not belong to $X_R$, hence we should expect for $\nu_R(X_R)$ to be 1. This same line of thinking was used in [17] to show that an analogue of $\nu_R(X_R)=1$ holds for every pseudosieve over $\mathbb{Z}$ of the form $R_i=b_i\mathbb{Z}$ (see Corollary 4.3 in [17]).
 

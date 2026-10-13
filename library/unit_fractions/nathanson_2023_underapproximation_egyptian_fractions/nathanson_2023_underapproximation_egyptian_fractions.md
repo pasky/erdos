@@ -211,7 +211,7 @@ $$
 \end{aligned}
 $$
 
-This completes the proof. \hfill$\square$
+This completes the proof. $\square$
 
 **Corollary 1.** *Sylvester’s sequence is the infinite greedy underapproximation sequence for $\theta=1$.*
 

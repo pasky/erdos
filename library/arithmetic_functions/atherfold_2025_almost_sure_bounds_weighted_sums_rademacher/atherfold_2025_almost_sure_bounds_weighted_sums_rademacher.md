@@ -934,7 +934,7 @@ $$
 \end{aligned}
 $$
 
-which given our choice of $T(\ell)$ is summable in $\ell$. \hfill$\square$
+which given our choice of $T(\ell)$ is summable in $\ell$. $\square$
 
 At this point, we observe that this good event is one of the barriers to obtaining the sharp almost sure upper bound, as every other complement event is bounded above by $\frac{\sqrt{T(\ell)}}{\ell^{K/2}\sqrt{\ell\log(\ell)}}$ almost surely (which we prove in the previous Lemmas and the next section). This is caused by taking the upper bounding $\mathcal{Q}^{(1)}_{\ell}$ by $U_j$ which lost the dependence on $i$, which means that we must consider the supremum over all the $y_j$ and not just the ones which are “close” to the individual $x_i$. The barrier to doing this is handling the part of the sum where the largest and second largest distinct prime factors of integer $n$ are of similar size. This explains why we are able to obtain a much sharper result when restricting to a unique large prime factor in Theorem 2.
 
@@ -1501,7 +1501,7 @@ $$
 \end{aligned}
 $$
 
-\hfill$\square$
+$\square$
 
 ## 8. Lower Bound
 

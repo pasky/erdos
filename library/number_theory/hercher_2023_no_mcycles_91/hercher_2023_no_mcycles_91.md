@@ -144,7 +144,7 @@ $$
 C^{k_i+1}(n_i')=a\cdot 3^{k_i}+\frac{3^{k_i}-1}{4}=C^{k_i+2}(n_i).
 $$
 
-\hfill$\square$
+$\square$
 
 *Remark 10.* From this lemma we also get a small result for unbounded Collatz sequences:
 
@@ -367,7 +367,7 @@ $$
 \delta<\frac{K+L}{K}<\delta+\frac{1}{K\cdot 3\cdot\log(2)}\cdot\sum_{i=1}^{m}T(n_i).
 $$
 
-\hfill$\square$
+$\square$
 
 This leads to the following result:
 
@@ -404,7 +404,7 @@ $$
 
 which proves the claim.
 
-\hfill$\square$
+$\square$
 
 *Remark 18.* Since $\frac{1}{3}\cdot\frac{97}{54}\approx 0.599$, this is an improvement of more than 40% over Corollary 5 of Simons and de Weger in [12].
 
@@ -774,7 +774,7 @@ $$
 \end{aligned}
 $$
 
-\hfill$\square$
+$\square$
 
 **Remark 28.** Theorem 27 leads to a reduction of the bounds on $X_0$ given in or computed by the methods in [3], which are needed for reaching the next threshold on $K$ in a nontrivial cycle, by $25\%$. Thus, to prove that every nontrivial cycle contains at least $K>1.375\cdot10^{11}$ odd numbers, using previous methods one would have to show $\delta<\frac{K+L}{K}<\delta+1.1032\cdot10^{-22}$, and therefore, $X_0\geq3781\cdot2^{60}$. With the result given in Theorem 27, it suffices to show $X_0\geq2836\cdot2^{60}$.
 

@@ -1781,7 +1781,7 @@ $$\eta:=\frac{\log\log n}{32\log n}.$$
 
 For all sufficiently large $n$, when $\eta<31/32$, split the sum into the disjoint ranges $m\leq\eta n$; $m>\eta n$ with $n-m>n/32$; and $n-m\leq n/32$. They are controlled respectively by the forward recurrence (7.4), the rate estimate below, and the reverse recurrence (7.6).
 
-\textsc{Empty corner.}
+Empty corner.
 
 Let
 
@@ -2895,7 +2895,7 @@ where an empty sum is zero. The quotient $q_U(\theta)/\theta^2$ extends continuo
 
 $$C_{\mathrm{small}}:=\max_{1\leq U<U_0}\ \max_{0\leq\theta\leq\Theta_U}\frac{q_U(\theta)}{\theta^2}<\infty.$$
 
-Taking $C_0=\max\{5/2,C_{\mathrm{small}}\}$ proves the lemma for every $U$. \hfill$\square$
+Taking $C_0=\max\{5/2,C_{\mathrm{small}}\}$ proves the lemma for every $U$. $\square$
 
 Because $\theta_{ab}$ was defined for every pair, the cell intensities satisfy the exact identity
 

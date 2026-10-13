@@ -148,8 +148,8 @@ The result then follows from Lemma 2. $\square$
 
 [15] Hermann Weyl. “Über die Gleichverteilung von Zahlen mod. Eins”. In: *Math. Ann.* 77.3 (1916), 313–352.
 
-\textsc{Department of Mathematics, California Institute of Technology, Pasadena, CA 91125, USA.}  
+Department of Mathematics, California Institute of Technology, Pasadena, CA 91125, USA.  
 *Email address:* dconlon@caltech.edu
 
-\textsc{Institute of Analysis and Number Theory, Graz University of Technology, Kopernikusgasse 24/II, 8010 Graz, Austria.}  
+Institute of Analysis and Number Theory, Graz University of Technology, Kopernikusgasse 24/II, 8010 Graz, Austria.  
 *Email address:* jakob.fuehrer@tugraz.at

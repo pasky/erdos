@@ -509,7 +509,7 @@ $$
 \frac{1}{p^m}\sum_{\substack{n\\(\bmod p^m)}}\chi(f(n))e\left(\frac{g(n)}{p^m}\right)=e\left(\frac{g(0)}{p^m}\right)\cdot\frac{1}{p^\ell}\sum_{\substack{n\\(\bmod p^\ell)}}\psi(f(n)).
 $$
 
-If $\ell=1$ then we can apply Proposition 3 unless $f(x)\equiv cF(x)^r\pmod p$. Since $p\nmid\Delta(f)$ we deduce that this only happens when $f(x)=cF(x)^r$ where $r_\psi=r_\chi$. For $\ell\geq 2$ our bound then follows, as above, from Corollary 5. \hfill$\square$
+If $\ell=1$ then we can apply Proposition 3 unless $f(x)\equiv cF(x)^r\pmod p$. Since $p\nmid\Delta(f)$ we deduce that this only happens when $f(x)=cF(x)^r$ where $r_\psi=r_\chi$. For $\ell\geq 2$ our bound then follows, as above, from Corollary 5. $\square$
 
 ## 5. The application in practice
 
@@ -899,7 +899,7 @@ $$
 |\mathbb{E}_q(a)|^2\leq\frac{2(M+1)^2r^2}{N^2}+\frac{2}{M}+\frac{2}{M^2}\sum_{1\leq i\neq j\leq M}\mathbb{E}_Q(A_{(ir,jr)}),
 $$
 
-so that (9) holds. \hfill $\square$
+so that (9) holds. $\square$
 
 ### 6.2. Iterating the first bound.
 
@@ -1171,7 +1171,7 @@ $$
 \left|\frac{1}{N}\sum_{n\in I}\chi(f(n))e\left(\frac{g(n)}{q}\right)\right|\ll kN^{-\frac{\epsilon}{2^k}}+(Q^*)^{-\frac{1}{2^k\cdot 12D}}\ll (Q^*)^{-\eta} \tag{12}
 $$
 
-since $kN^{-\frac{\epsilon}{2^k}}<N^{\eta-\frac{\epsilon}{2^k}}<N^{-\eta}<(Q^*)^{-\eta}$ as $Q^*<Q<N$. \hfill$\square$
+since $kN^{-\frac{\epsilon}{2^k}}<N^{\eta-\frac{\epsilon}{2^k}}<N^{-\eta}<(Q^*)^{-\eta}$ as $Q^*<Q<N$. $\square$
 
 With this established we can prove our main theorem:
 

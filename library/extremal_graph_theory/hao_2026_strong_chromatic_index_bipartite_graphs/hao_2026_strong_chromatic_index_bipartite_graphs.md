@@ -450,6 +450,6 @@ We would like to thank Ross Kang for bringing reference [8] to our attention and
 
 [18] A. Steger and M.-L. Yu, *On induced matchings*, Discrete Mathematics **120** (1993), 291–295.
 
-\textsc{School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332}
+School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332
 
 *Email address:* \texttt{yhao98@gatech.edu, tyang439@gatech.edu, yu@math.gatech.edu}

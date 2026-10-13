@@ -406,7 +406,7 @@ $$
 \end{aligned}
 $$
 
-Therefore if $s$ is large enough then $\left|\left|\mathbf{b}^{(i)}-\mathbf{b}^{(j)}\right|^2-\left|\mathbf{a}^{(i)}-\mathbf{a}^{(j)}\right|^2\right|<\delta$ as required. \hfill $\square$
+Therefore if $s$ is large enough then $\left|\left|\mathbf{b}^{(i)}-\mathbf{b}^{(j)}\right|^2-\left|\mathbf{a}^{(i)}-\mathbf{a}^{(j)}\right|^2\right|<\delta$ as required. $\square$
 
 The final ingredient of the proof is the following characterisation of Euclidean point sets.
 

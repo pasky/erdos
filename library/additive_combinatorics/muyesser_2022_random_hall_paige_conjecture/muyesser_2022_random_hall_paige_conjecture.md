@@ -1336,7 +1336,7 @@ Using similar ideas, we characterise $R$-sequenceable groups.
 
 In the rest of this section, we are focused on proving Theorem 6.9.
 
-**6.2.1\quad Sorting networks**
+**6.2.1 Sorting networks**
 
 In [43] (see in particular Lemma 4.3), an ingenious method was introduced in order to construct path systems which can connect specified endpoints. The key idea is to use an appropriate *sorting network* as a template while building the path system. In this section, we adapt the arguments from [43] to our context. First, we introduce some terminology. For a more detailed treatment, we refer the reader to [18].
 
@@ -1420,7 +1420,7 @@ Finally, to see that each $P_i$ has length exactly $t$, observe that by Lemma 6.
 
 $\square$
 
-**6.2.2\quad Deducing Lemma 6.22**
+**6.2.2 Deducing Lemma 6.22**
 
 We will need the following technical lemma, which allows us to use the nibble method to saturate large sets of non-random vertices. This is necessary, as after applying Lemma 6.19 to a random subset, we will be left with a large set of non-random vertices which do not immediately fit into the setting of our main theorem.
 

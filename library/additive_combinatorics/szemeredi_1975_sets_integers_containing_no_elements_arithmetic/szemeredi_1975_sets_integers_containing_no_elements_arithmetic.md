@@ -718,16 +718,16 @@ $$
 denotes the canonical decomposition of $Y$ into $L$ subconfigurations of order $m$, then at least $g_{m+1}(L)$ of the $Y_i$ belong to $S(t_1,\ldots,t_m)$. Write $L=l\nu+\bar l$ where $0\leq\bar l<l$. Then at least $g_{m+1}(L)-\bar l$ of the configurations $Y_0,Y_1,\ldots,Y_{l\nu-1}$ belong to $S(t_1,\ldots,t_m)$. But of course all $\nu$ of the configurations $\bigcup_{j<l}Y_{li+j}$, $i<\nu$, belong to $B(t_1,\ldots,t_m,l)$. Thus, at least one of these elements of $B(t_1,\ldots,t_m,l)$ must have at least $\frac{1}{\nu}(g_{m+1}(L)-\bar l)$ of its $l\,Y_i$'s in $S(t_1,\ldots,t_m)$. This implies
 
 $$
-g_{m+1}(l)\geq\frac{1}{v}\bigl(g_{m+1}(L)-\bar l\bigr)>\frac{1}{v}\bigl((\beta_{m+1}-\epsilon)L-\bar l\bigr)\geq\frac{1}{v}\bigl((\beta_{m+1}-\epsilon)lv-l\bigr)
+g_{m+1}(l)\geq\frac{1}{\nu}\bigl(g_{m+1}(L)-\bar l\bigr)>\frac{1}{\nu}\bigl((\beta_{m+1}-\epsilon)L-\bar l\bigr)\geq\frac{1}{\nu}\bigl((\beta_{m+1}-\epsilon)l\nu-l\bigr)
 $$
 
 so that
 
 $$
-\frac{g_{m+1}(l)}{l}>\beta_{m+1}-\epsilon-\frac{1}{v}.
+\frac{g_{m+1}(l)}{l}>\beta_{m+1}-\epsilon-\frac{1}{\nu}.
 $$
 
-Since $\epsilon>0$ was arbitrary and $v$ can be made arbitrarily large (by taking $L$ to be sufficiently large) then we must have
+Since $\epsilon>0$ was arbitrary and $\nu$ can be made arbitrarily large (by taking $L$ to be sufficiently large) then we must have
 
 $$
 \frac{g_{m+1}(l)}{l}\geq\beta_{m+1}
@@ -843,13 +843,13 @@ $$
 s^{m+1}(X)\geq(\beta_{m+1}-\sqrt{\mu_{m+1}(L)})L.
 $$
 
-Write $L=lv+\bar l$ where $0\leq\bar l<l$. Let
+Write $L=l\nu+\bar l$ where $0\leq\bar l<l$. Let
 
 $$
 X=\bigcup_{i<L}X_i,\quad X_i\in B(t_1,\ldots,t_m),
 $$
 
-be the canonical decomposition of $X$ into its $L$ subconfigurations of order $m$. For $0\leq i<v$, let
+be the canonical decomposition of $X$ into its $L$ subconfigurations of order $m$. For $0\leq i<\nu$, let
 
 $$
 Y_i=\bigcup_{j<l}X_{li+j}\in B(t_1,\ldots,t_m,l)
@@ -858,16 +858,16 @@ $$
 and let
 
 $$
-X'=\bigcup_{j<vl}X_j=\bigcup_{i<v}Y_i.
+X'=\bigcup_{j<\nu l}X_j=\bigcup_{i<\nu}Y_i.
 $$
 
 Let
 
 $$
-T=\{j<v:s^{m+1}(Y_j)<(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\}
+T=\{j<\nu:s^{m+1}(Y_j)<(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\}
 $$
 
-and let $|T|=\alpha v$. For all $j$, we have
+and let $|T|=\alpha \nu$. For all $j$, we have
 
 $$
 s^{m+1}(Y_j)\leq(\beta_{m+1}+\mu_{m+1}(l))l
@@ -877,32 +877,32 @@ by the definition of $\mu_{m+1}$. Thus,
 
 $$
 \begin{aligned}
-\sum_{j<v}s^{m+1}(Y_j)
+\sum_{j<\nu}s^{m+1}(Y_j)
 &=\sum_{j\in T}s^{m+1}(Y_j)+\sum_{j\notin T}s^{m+1}(Y_j)\\
-&\leq(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\alpha v
-+(\beta_{m+1}+\mu_{m+1}(l))l(1-\alpha)v.
+&\leq(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\alpha \nu
++(\beta_{m+1}+\mu_{m+1}(l))l(1-\alpha)\nu.
 \end{aligned}
 $$
 
 But
 
 $$
-\sum_{j<v}s^{m+1}(Y_j)=s^{m+1}(X')>s^{m+1}(X)-l\geq(\beta_{m+1}-\sqrt{\mu_{m+1}(L)})L-l.
+\sum_{j<\nu}s^{m+1}(Y_j)=s^{m+1}(X')>s^{m+1}(X)-l\geq(\beta_{m+1}-\sqrt{\mu_{m+1}(L)})L-l.
 $$
 
 Therefore,
 
 $$
 (\beta_{m+1}-\sqrt{\mu_{m+1}(L)})L-l
-\leq(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\alpha v
-+(\beta_{m+1}+\mu_{m+1}(l))l(1-\alpha)v.
+\leq(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l\alpha \nu
++(\beta_{m+1}+\mu_{m+1}(l))l(1-\alpha)\nu.
 $$
 
 Hence,
 
 $$
 \begin{aligned}
-\beta_{m+1}-\sqrt{\mu_{m+1}(L)}-\frac{1}{v}
+\beta_{m+1}-\sqrt{\mu_{m+1}(L)}-\frac{1}{\nu}
 &\leq\alpha(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})\\
 &\quad +(1-\alpha)(\beta_{m+1}+\mu_{m+1}(l))\\
 &=\beta_{m+1}+\mu_{m+1}(l)
@@ -914,7 +914,7 @@ and
 
 $$(1)\quad
 \alpha(\sqrt{\mu_{m+1}(l)}+\mu_{m+1}(l))
-\leq\mu_{m+1}(l)+\frac{1}{v}+\sqrt{\mu_{m+1}(L)}.$$
+\leq\mu_{m+1}(l)+\frac{1}{\nu}+\sqrt{\mu_{m+1}(L)}.$$
 
 There are now, two possibilities.
 
@@ -946,7 +946,7 @@ $$(2)\quad \alpha\leq2\sqrt{\mu_{m+1}(l)}$$
 
 where we note that (2) holds in case (i) as well, since in this case, $\alpha=0$.
 
-Suppose, now, that for all $j<v$, we have either
+Suppose, now, that for all $j<\nu$, we have either
 
 $$
 s^{m+1}(Y_j)<(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l
@@ -958,13 +958,13 @@ $$
 p^{m+1}(Y_j)\leq(a_{m+1}-2\varepsilon)l.
 $$
 
-There are just $\alpha v$ indices $j$ such that
+There are just $\alpha \nu$ indices $j$ such that
 
 $$
 s^{m+1}(Y_j)<(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l
 $$
 
-by the definition of $\alpha$. Therefore at least $(1-\alpha)v$ indices $j$ satisfy $p^{m+1}(Y_j)\leq(a_{m+1}-2\varepsilon)l$. However, the other indices $j$, i.e., the $j\in T$, must each satisfy
+by the definition of $\alpha$. Therefore at least $(1-\alpha)\nu$ indices $j$ satisfy $p^{m+1}(Y_j)\leq(a_{m+1}-2\varepsilon)l$. However, the other indices $j$, i.e., the $j\in T$, must each satisfy
 
 $$
 p^{m+1}(Y_j)<(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l
@@ -973,30 +973,30 @@ $$
 since $P(t_1,\ldots,t_m)\subseteq S(t_1,\ldots,t_m)$. Thus,
 
 $$
-\sum_{j<v}p^{m+1}(Y_j)
-<\alpha v(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l
-+(1-\alpha)v(a_{m+1}-2\varepsilon)l.
+\sum_{j<\nu}p^{m+1}(Y_j)
+<\alpha \nu(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l
++(1-\alpha)\nu(a_{m+1}-2\varepsilon)l.
 $$
 
 On the other hand,
 
 $$
-\sum_{j<v}p^{m+1}(Y_j)=p^{m+1}(X')\geq p^{m+1}(X)-l>(a_{m+1}-\varepsilon)L-l.
+\sum_{j<\nu}p^{m+1}(Y_j)=p^{m+1}(X')\geq p^{m+1}(X)-l>(a_{m+1}-\varepsilon)L-l.
 $$
 
 Therefore,
 
 $$
-(a_{m+1}-\varepsilon)L-l<\alpha v(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l+(1-\alpha)v(a_{m+1}-2\varepsilon)l.
+(a_{m+1}-\varepsilon)L-l<\alpha \nu(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l+(1-\alpha)\nu(a_{m+1}-2\varepsilon)l.
 $$
 
 and
 
-$$(3)\quad a_{m+1}-\varepsilon-\frac{1}{v}<\alpha(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})+(1-\alpha)(a_{m+1}-2\varepsilon).$$
+$$(3)\quad a_{m+1}-\varepsilon-\frac{1}{\nu}<\alpha(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})+(1-\alpha)(a_{m+1}-2\varepsilon).$$
 
 The right-hand side of (3) is a convex combination of $\beta_{m+1}-\sqrt{\mu_{m+1}(l)}$ and $a_{m+1}-2\varepsilon$. Since $\alpha\leq2\sqrt{\mu_{m+1}(l)}$ then the coefficient $1-\alpha$ is arbitrarily close to 1 for $l$ sufficiently large. Finally, since $\beta_{m+1}-\sqrt{\mu_{m+1}(l)}$ is bounded then by choosing $l$ (and $L$) sufficiently large, (3) is *contradicted*.
 
-Hence, there must exist an index $j<v$ such that
+Hence, there must exist an index $j<\nu$ such that
 
 $$
 s^{m+1}(Y_j)\geq(\beta_{m+1}-\sqrt{\mu_{m+1}(l)})l

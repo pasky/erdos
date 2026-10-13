@@ -175,7 +175,7 @@ $$
 \frac{|G|}{2}=|U_3U_4|=|U_3(U_4\cap U_5)|\leq|U_3U_5|=\frac{|G|}{6},
 $$
 
-a contradiction. \hfill$\square$
+a contradiction. $\square$
 
 **Theorem 4.2.** *Let $r_1,\ldots,r_5$ be pairwise coprime positive integers with $r_1$ and $r_2$ odd. Then, for every group $G$, the tuple*
 
@@ -191,7 +191,7 @@ $$
 \alpha(U_3,U_4)=3,\qquad \alpha(U_3,U_5)=\alpha(U_4,U_5)=1,\qquad 3\mid r_2.
 $$
 
-Since the $r_i$ are pairwise coprime and $3\mid r_2$, we have $3\nmid r_3r_4r_5$. Proposition 4.1, applied to $U_3,U_4,U_5$, then yields a contradiction. \hfill$\square$
+Since the $r_i$ are pairwise coprime and $3\mid r_2$, we have $3\nmid r_3r_4r_5$. Proposition 4.1, applied to $U_3,U_4,U_5$, then yields a contradiction. $\square$
 
 **Remark 4.3.** Theorem 4.2 strengthens [6, Proposition 4.7], which treated only the case $r_1=1$, i.e. where a subgroup of index exactly $3$ occurs. That index-3 hypothesis is unnecessary: the contradiction uses only $U_3,U_4,U_5$ together with the $\alpha$-values and the divisibility $3\mid r_2$ supplied by Lemma 1.1. This does rely on Lemma 1.1, a nontrivial result of Margolis and Schnabel; but their own proof of Proposition 4.7 invokes it as well, so no additional input is being smuggled in.
 

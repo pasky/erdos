@@ -39,41 +39,41 @@ The lower bound is a thirteen-layer valuation cut. The upper bound uses an exact
 | 5.4 | Anchor modifications and guards | 22 |
 | 5.5 | Donor-backed row tokens and the base charge | 23 |
 
-**6 The guarded rough-signature selector** \dotfill **24**  
-6.1 A head-compatible balanced point \dotfill 25  
-6.2 The transition-complete balanced-block estimate \dotfill 26  
-6.3 The fixed-depth exceptional expansion \dotfill 29  
-6.4 Exact row correction, including all endpoint terms \dotfill 34  
-6.5 Nonnegative exceptional charge and simultaneous feasibility \dotfill 38  
-6.6 Output of the rough stage \dotfill 40  
+**6 The guarded rough-signature selector** . . . **24**  
+6.1 A head-compatible balanced point . . . 25  
+6.2 The transition-complete balanced-block estimate . . . 26  
+6.3 The fixed-depth exceptional expansion . . . 29  
+6.4 Exact row correction, including all endpoint terms . . . 34  
+6.5 Nonnegative exceptional charge and simultaneous feasibility . . . 38  
+6.6 Output of the rough stage . . . 40  
 
-**7 Marked friable counts on the structured cells** \dotfill **41**  
-7.1 Exact head cells and a four-mark estimate \dotfill 41  
-7.2 One and two marks, prime powers, and physical tests \dotfill 43  
-7.3 Stability under compact bridge tilts \dotfill 44  
+**7 Marked friable counts on the structured cells** . . . **41**  
+7.1 Exact head cells and a four-mark estimate . . . 41  
+7.2 One and two marks, prime powers, and physical tests . . . 43  
+7.3 Stability under compact bridge tilts . . . 44  
 
-**8 The smooth-row bridge and exact finite-band fitting** \dotfill **60**  
-8.1 The integer row ledger and the active physical target \dotfill 61  
-8.2 Exact head cells and physical interpolation \dotfill 62  
-8.3 The Poisson–Dickman covariance operator \dotfill 64  
-8.4 Finite bands, the low row, and arithmetic transfer \dotfill 67  
-8.5 The weighted compensated score \dotfill 82  
-8.6 Exact nonlinear fitting \dotfill 97  
-8.7 Choice of constants and the bridge output \dotfill 102  
+**8 The smooth-row bridge and exact finite-band fitting** . . . **60**  
+8.1 The integer row ledger and the active physical target . . . 61  
+8.2 Exact head cells and physical interpolation . . . 62  
+8.3 The Poisson–Dickman covariance operator . . . 64  
+8.4 Finite bands, the low row, and arithmetic transfer . . . 67  
+8.5 The weighted compensated score . . . 82  
+8.6 Exact nonlinear fitting . . . 97  
+8.7 Choice of constants and the bridge output . . . 102  
 
-**9 The finite-band tangent absorber** \dotfill **103**  
-9.1 Uniform clean common-multiplier lists \dotfill 103  
-9.2 Finite-band earthmover estimates \dotfill 105  
-9.3 Requests and simultaneous collision avoidance \dotfill 108  
-9.4 Exact flow algebra and preserved invariants \dotfill 110  
-9.5 Final parameter order \dotfill 111  
+**9 The finite-band tangent absorber** . . . **103**  
+9.1 Uniform clean common-multiplier lists . . . 103  
+9.2 Finite-band earthmover estimates . . . 105  
+9.3 Requests and simultaneous collision avoidance . . . 108  
+9.4 Exact flow algebra and preserved invariants . . . 110  
+9.5 Final parameter order . . . 111  
 
-**10 Deterministic rounding and final assembly** \dotfill **112**  
-10.1 Column-sparse floating rounding \dotfill 113  
-10.2 The guarded exactification lemma \dotfill 114  
-10.3 The final residual set \dotfill 115  
+**10 Deterministic rounding and final assembly** . . . **112**  
+10.1 Column-sparse floating rounding . . . 113  
+10.2 The guarded exactification lemma . . . 114  
+10.3 The final residual set . . . 115  
 
-**A Numerical verification** \dotfill **116**
+**A Numerical verification** . . . **116**
 
 ## 1 Introduction
 

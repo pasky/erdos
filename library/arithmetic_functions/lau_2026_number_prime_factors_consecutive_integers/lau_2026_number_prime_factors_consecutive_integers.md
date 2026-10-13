@@ -399,7 +399,7 @@ $$
 
 *for all integers $m\geq 2s$.*
 
-*Proof.* See Rennie and Dobson (1969) for the first statement, and Graham (1994) for the last statement. \hfill$\square$
+*Proof.* See Rennie and Dobson (1969) for the first statement, and Graham (1994) for the last statement. $\square$
 
 *Proof of Proposition 5.2 using Lemma 5.3.* Recall $C_3$ from Lemma 5.3. For a $C_1$ chosen later, and we will apply Lemma 5.3 with
 
@@ -501,7 +501,7 @@ $$
 C_1\geq\max\left\{8eC_3,132eA,330C_3\left(\frac{\log C_2}{\log 2}\right)^2\right\},
 $$
 
-which is satisfied if $C_1$ is sufficiently large. \hfill$\square$
+which is satisfied if $C_1$ is sufficiently large. $\square$
 
 We may now state the main properties of the random variable $\mathbf{n}$.
 

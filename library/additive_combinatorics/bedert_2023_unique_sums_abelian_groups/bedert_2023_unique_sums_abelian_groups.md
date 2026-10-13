@@ -558,7 +558,7 @@ To complete the proof, it now only remains to prove Proposition 6. So far, we ha
 
 **Lemma 6.** *Let $G$ be a finite Abelian group and let $S \subset G$ have size at most $\log_2 p(G)$. Then we can assign an element $s_X \in X$ to each non-empty subset $X \subset S$ such that the following holds. Let $X,Y \subset S$ be non-empty subsets, then the only solution to $x+y=s_X+s_Y$ with $x \in X$ and $y \in Y$ is the trivial solution $(x,y)=(s_X,s_Y)$.*
 
-*Proof.* $S$ is rectifiable by Lemma 2 and let $\phi:S\to S'\subset\mathbf{N}$ be a Freiman isomorphism to a subset of $\mathbf{N}$. Let $X \subset S$ be non-empty. We claim that the choice $s_X=\phi^{-1}(\max \phi(X))$ works. Let $X,Y \subset S$ be non-empty. As $\phi$ is a Freiman isomorphism, it is enough to show that the only solution $(x,y)\in\phi(X)\times\phi(Y)$ to $x+y=\max\phi(X)+\max\phi(Y)$ is the trivial one. This is clear since $x+y\leqslant\max\phi(X)+\max\phi(Y)$ is an inequality in the integers, where equality only holds if $(x,y)=(\max\phi(X),\max\phi(Y))$. \hfill $\square$
+*Proof.* $S$ is rectifiable by Lemma 2 and let $\phi:S\to S'\subset\mathbf{N}$ be a Freiman isomorphism to a subset of $\mathbf{N}$. Let $X \subset S$ be non-empty. We claim that the choice $s_X=\phi^{-1}(\max \phi(X))$ works. Let $X,Y \subset S$ be non-empty. As $\phi$ is a Freiman isomorphism, it is enough to show that the only solution $(x,y)\in\phi(X)\times\phi(Y)$ to $x+y=\max\phi(X)+\max\phi(Y)$ is the trivial one. This is clear since $x+y\leqslant\max\phi(X)+\max\phi(Y)$ is an inequality in the integers, where equality only holds if $(x,y)=(\max\phi(X),\max\phi(Y))$. $\square$
 
 We are now ready to begin the proof of Proposition 6.
 
@@ -727,7 +727,7 @@ $$
 \end{aligned}
 $$
 
-so that $|\mathcal{N}|\geqslant\frac{|D|^2}{6|A|}$ as desired. \hfill$\square$
+so that $|\mathcal{N}|\geqslant\frac{|D|^2}{6|A|}$ as desired. $\square$
 
 Next, we show that for at least half the elements $a\in\mathcal{N}$, there are many unordered pairs in $N(a)$ that intersect in a common element. Let us define
 

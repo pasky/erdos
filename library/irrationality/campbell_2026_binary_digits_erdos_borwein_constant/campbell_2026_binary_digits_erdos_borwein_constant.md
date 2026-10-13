@@ -886,7 +886,7 @@ $$n+2\equiv q_0^2\bmod q_0^3. \tag{113}$$
 
 From the congruence in (113), we see that $n+2-q_0^2=zq_0^3$ for some integer $z$, so that $n+2=q_0^2(1+zq_0)$. This together with the inequivalence $1+zq_0\not\equiv 0\bmod q_0$ allow us to conclude that $\nu_{q_0}(n+2)=2$ holds. Also, our construction gives us that $d(n+2)=6$. If $z$ is a positive integer with $d(z)=6$, then either $z=p^5$ for some prime $p$ or $z=p^2q$ for distinct primes $p$ and $q$. Since $\nu_{q_0}(n+2)=2$, the first case is impossible, so that the second case forces that $n+2=q_0^2p$ for some prime $p\ne q_0$. Consequently, the inequality $n+2\ge 2q_0^2$ holds. Since $q_0>L=\lfloor\Lambda^2\rfloor\to\infty$ as $X\to\infty$, we find that $n\to\infty$. This proves that the positions at which 11 occurs are unbounded.
 
-\hfill$\square$
+$\square$
 
 ## 4 Conclusion
 
@@ -908,8 +908,8 @@ The author acknowledges extensive interactions with GPT-5.5 Pro during the explo
 
 [5] P. Erdős, On arithmetical properties of Lambert series, *J. Indian Math. Soc. (N.S.)* **12** (1948), 63–66.
 
-[6] S. \textsc{Murakami}, Linear independence results for certain gap series with monomial orders and Lambert series, PhD Thesis, Hirosaki University (2025).
+[6] S. Murakami, Linear independence results for certain gap series with monomial orders and Lambert series, PhD Thesis, Hirosaki University (2025).
 
-[7] S. \textsc{Murakami} and Y. \textsc{Tachiya}, Linear independence of certain infinite series with monomial orders, *Int. J. Number Theory* 21(8) (2025), 1777–1794.
+[7] S. Murakami and Y. Tachiya, Linear independence of certain infinite series with monomial orders, *Int. J. Number Theory* 21(8) (2025), 1777–1794.
 
-[8] J. \textsc{Vandehey}, On an incomplete argument of Erdős on the irrationality of Lambert series, *Integers* 13 (2013), Paper No. A58, 6.
+[8] J. Vandehey, On an incomplete argument of Erdős on the irrationality of Lambert series, *Integers* 13 (2013), Paper No. A58, 6.

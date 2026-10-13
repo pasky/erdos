@@ -1,6 +1,6 @@
 # On the order of Erdős-Rogers functions
 
-Dhruv Mubayi$^{*}$ \qquad Jacques Verstraete$^{\dagger}$
+Dhruv Mubayi$^{*}$, Jacques Verstraete$^{\dagger}$
 
 February 12, 2024
 
@@ -175,7 +175,7 @@ $$
 \sum_{p\in P}|X_p|=\sum_{\ell\in X}|\ell\cap P|\geq\frac{1}{2}(a\log q)\cdot|X|.
 $$
 
-Subtracting the first inequality from the second gives the lemma. \hfill$\square$
+Subtracting the first inequality from the second gives the lemma. $\square$
 
 ### 4.2 Random sampling of pairs of lines
 
@@ -249,7 +249,7 @@ $$
 \Pr(A_X)\leq\prod_{p\in P_X}\exp\left(-\frac{|X_p|}{32s}\right)=\exp\left(-\frac{1}{32s}\sum_{p\in P_X}|X_p|\right).
 $$
 
-This proves the lemma. \hfill$\square$
+This proves the lemma. $\square$
 
 ## 5 Proof of Theorem 1
 
@@ -408,7 +408,7 @@ $$
 \end{aligned}
 $$
 
-This proves the second inequality. \hfill$\square$
+This proves the second inequality. $\square$
 
 ## Concluding remarks
 

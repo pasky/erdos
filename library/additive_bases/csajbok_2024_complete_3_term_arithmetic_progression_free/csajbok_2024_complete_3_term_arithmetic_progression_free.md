@@ -231,7 +231,7 @@ $$
 |G|-|H|\leq\binom{|H|}{2},
 $$
 
-and the bound follows after rearranging. \hfill$\square$
+and the bound follows after rearranging. $\square$
 
 **Remark 2.2.** *We will see later that the lower bound above for $\operatorname{sat}((2,-1),G)$ is sharp in some cyclic groups, cf. Theorems 4.3 and 4.13. Subsection 4.5 provides further instances when Proposition 2.1 (2) is sharp.*
 
@@ -354,7 +354,7 @@ $g',h'_1,h'_2$ are pairwise distinct elements. This in turn shows that
 
 $$(g,g')=(g,h'_1)-(0,h'_2),$$
 
-where $(g,g')$, $(g,h'_1)$, $(0,h'_2)$ are pairwise distinct elements. \hfill$\square$
+where $(g,g')$, $(g,h'_1)$, $(0,h'_2)$ are pairwise distinct elements. $\square$
 
 ### 2.2 Relation to caps
 
@@ -376,7 +376,7 @@ It is clear from the definitions above that a cap is complete if and only if it 
 
 (3) Complete caps of $\mathrm{AG}(n,q)$ and complete $W$-avoiding sets of $\mathbb{F}_q^n$ are equivalent objects.
 
-If $q=3$, then $W=\{(2,2)\}$, if $q=4$, then $W=\{(i,1+i)\}$. Hence, by Part (3) of Theorem 2.3, direct sum of saturating sets is a saturating set and direct sum of complete caps is a complete cap for $q\in\{3,4\}$. \hfill$\square$
+If $q=3$, then $W=\{(2,2)\}$, if $q=4$, then $W=\{(i,1+i)\}$. Hence, by Part (3) of Theorem 2.3, direct sum of saturating sets is a saturating set and direct sum of complete caps is a complete cap for $q\in\{3,4\}$. $\square$
 
 ### 2.3 Related results on solving linear equations in algebraic structures
 
@@ -426,7 +426,7 @@ Solution for the first system exists if and only if $b-a^2$ is a square in $\mat
 
 Solution for the second system exists if and only if $2(a^2-b)$ is a square in $\mathbb F_q$. Indeed, in order to have a common solution, we should get a square value for the discriminant $16a^2-8\cdot(a^2+b)=8(a^2-b)$ of $2y^2-(4y^2-4ay+a^2)-b=0$.
 
-If $-2$ is not a square, then either the first, or the second discriminant will be a square, providing a solution to one of the systems. \hfill $\Box$
+If $-2$ is not a square, then either the first, or the second discriminant will be a square, providing a solution to one of the systems. $\Box$
 
 Theorem 3.2 in turn implies the upper bound of Theorem 1.11 (1) on complete $3$-$\mathrm{AP}$ free sets in vector spaces once one notes that $-2$ is not a square element in $\mathbb F_p$ if and only if it is not a square in $\mathbb F_p^{2k+1}$.
 
@@ -524,7 +524,7 @@ $$
 \frac{4}{3}(\sqrt{|A\times B|}-1)\leq\frac{2}{3}(a+b-2)\leq|\mathcal{L}|\leq\frac{4}{5}(a+b-2).
 $$
 
-\hfill$\square$
+$\square$
 
 Note that if $|D_g|$ is the same for each $g\in A$ and $g\in B$ where $g$ is different from the neutral element, then the size of $\mathcal{L}$ can be expressed via $a$, $b$ and $|D_g|$ for a single $g$.
 
@@ -550,7 +550,7 @@ $$
 a+\frac{1}{2}b-\frac{3}{2}\leq|\mathcal{L}^*|\leq a+\frac{3}{5}b-\frac{8}{5}.
 $$
 
-\hfill$\square$
+$\square$
 
 ## 4 Complete 3-AP free sets and saturation in abelian groups
 
@@ -800,7 +800,7 @@ $$
 
 for some elements $a_f+b_i$, $a_g+b_j$, $a_h+b_k$ of $X$. Thus $w_1(b_i+H)+w_2(b_j+H)=b_k+H$ and hence $\{b_i+H,b_j+H,b_k+H\}$ is a set of size at most 2. If it has size 2, then we may assume $b_i\ne b_k$. Then the order of $(b_i+H)-(b_k+H)$ is divisible by $w_1$, a contradiction. If $b_i+H=b_j+H=b_k+H$, then $w_1a_f+w_2a_g=a_h$. It follows that the size of $\{a_f,a_g,a_h\}$ is at most 2. If it has size 2, then we may assume $a_f\ne a_h$. Then the order of $a_f-a_h$ divides $w_1$, a contradiction. Consequently, $a_f=a_g=a_h$ holds and hence $a_f+b_i=a_g+b_j=a_h+b_k$.
 
-The third part is a direct consequence of the first two. \hfill $\square$
+The third part is a direct consequence of the first two. $\square$
 
 In the next result $\mathbb{Z}_r$ is considered as $\{0,1,\ldots,r-1\}$ with operation the usual addition in $\mathbb{Z}$ modulo $r$.
 

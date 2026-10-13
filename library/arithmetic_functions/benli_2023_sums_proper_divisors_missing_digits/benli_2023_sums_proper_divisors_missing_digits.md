@@ -533,7 +533,7 @@ $$
 \#\mathcal{W}_{s,\mathcal{D}}(x)=\#s^{-1}(\mathcal{W}_{\mathcal{D}})(x)\ll x\exp(-(\log_2 x)^\gamma)
 $$
 
-as desired. \hfill$\square$
+as desired. $\square$
 
 ## 5. Some remarks on a lower bound on $\#\mathcal{W}_{s,\mathcal{D}}(x)$
 

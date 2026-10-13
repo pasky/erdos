@@ -286,7 +286,7 @@ $$
 \sigma_\infty=\int_{X(\mathbb{R})}\eta(z)\left(\int_{-1}^{1}|t|^2\mathrm{d}t\right)\omega_X=\frac{2}{3}\tau_\infty(\widetilde{X}),
 $$
 
-which completes the proof. \hfill$\square$
+which completes the proof. $\square$
 
 Combining Lemmas 2.1 and 2.2 with (2.3) in (2.2), we finally deduce that
 
@@ -681,7 +681,7 @@ e_{p^r}(b\mathbf{n}.\mathbf{y})\\
 \end{aligned}
 $$
 
-from which the statement of the lemma easily follows. \hfill$\square$
+from which the statement of the lemma easily follows. $\square$
 
 **Lemma 4.7.** Let $p^r$ be a prime power and let $j\in\{0,1\}$. Then
 
@@ -736,7 +736,7 @@ $$
 N_1(p^r)\leqslant\sum_{a\in(\mathbb{Z}/p^r\mathbb{Z})^\times}1=\phi(p^r),
 $$
 
-as claimed. \hfill$\square$
+as claimed. $\square$
 
 **Square-free moduli.** We have multiplicativity of $S_q(\mathbf{m},\mathbf{n})$, by (4.6). Thus for square-free $q$ we can focus on the evaluation of $S_p(\mathbf{m},\mathbf{n})$ with $p$ a prime. We proceed to provide a necessary condition for the non-vanishing of $S_p(\mathbf{m},\mathbf{n})$.
 
@@ -755,7 +755,7 @@ S_p(\mathbf{m},\mathbf{n})&=p^3\sum_{a\in\mathbb{F}_p^*}\prod_{1\leqslant i\leqs
 \end{aligned}
 $$
 
-It is now clear that $S_p(\mathbf{m},\mathbf{n})=0$ unless (4.8) holds. \hfill$\square$
+It is now clear that $S_p(\mathbf{m},\mathbf{n})=0$ unless (4.8) holds. $\square$
 
 The following result gives a complete evaluation of $S_p(\mathbf{m},\mathbf{n})$ and depends on the sextic form $D(\mathbf{m},\mathbf{n})$ that was defined in (3.6).
 
@@ -914,7 +914,7 @@ p-1 & \text{if }p\mid D(\mathbf{m},\mathbf{n}),\\
 \end{cases}
 $$
 
-since $m_1n_1^2\equiv m_2n_2^2\bmod p$ if and only if $p\mid D(\mathbf{m},\mathbf{n})$, when $p\mid m_3$. The statement of the lemma follows. \hfill$\square$
+since $m_1n_1^2\equiv m_2n_2^2\bmod p$ if and only if $p\mid D(\mathbf{m},\mathbf{n})$, when $p\mid m_3$. The statement of the lemma follows. $\square$
 
 When $p=2$ we trivially have $|S_2(\mathbf{m},\mathbf{n})|\leqslant 2^7$. Noting that $p\mid D(\mathbf{m},\mathbf{n})$ if $p\mid\mathbf{n}$, the following result is an immediate consequence of combining Lemma 4.9 with $(4.6)$.
 
@@ -2641,7 +2641,7 @@ $$
 \end{aligned}
 $$
 
-In the light of (9.8), we are done. \hfill$\square$
+In the light of (9.8), we are done. $\square$
 
 **Gains from sparsity.** For $q_2$, the following variant of Lemma 9.7 will be useful.
 
@@ -3035,7 +3035,7 @@ for the number of $\mathbf{t}$, with main term
 
 $$M(T,q_2)\asymp\left(\frac{T}{q_2}\right)^3\prod_{p\nmid q_2}(1-p^{-3})\asymp\left(\frac{T}{q_2}\right)^3.$$
 
-Comparing $N(T,H)$ to its value at $T=Aq_2^2$ gives (2). \hfill $\square$
+Comparing $N(T,H)$ to its value at $T=Aq_2^2$ gives (2). $\square$
 
 The next stage of our argument is devoted to a study of the quantity
 

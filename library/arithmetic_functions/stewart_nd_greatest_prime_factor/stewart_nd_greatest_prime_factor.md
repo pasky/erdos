@@ -20,11 +20,11 @@ $$P_n=P\{\Phi_n(a,b)\}.$$
 
 Our main theorem is then as follows:
 
-**THEOREM 1.** *For any $x$ with $0<x<1/\log 2$ and any integer $n(>2)$ with at most $x\log\log n$ distinct prime factors, we have*
+**THEOREM 1.** *For any $\varkappa$ with $0<\varkappa<1/\log 2$ and any integer $n(>2)$ with at most $\varkappa\log\log n$ distinct prime factors, we have*
 
 $$(3) \quad P_n/n>f(n)$$
 
-where $f$ is a function, strictly increasing and unbounded, which can be specified explicitly in terms of $a,b$ and $x$ only.
+where $f$ is a function, strictly increasing and unbounded, which can be specified explicitly in terms of $a,b$ and $\varkappa$ only.
 
 It will be observed that, since almost all integers $n$ have $(1+o(1))\times\log\log n$ distinct prime factors (see p. 356 of [5]), the density of the set of integers covered by Theorem 1 is 1. Actually to demonstrate that $P_n/n\to\infty$ as $n$ runs through all integers excluding a set of density zero is relatively easy; in fact it follows from [3] or [8] that $\Phi_n(a,b)$ has a prime factor of the form $kn+1$ for all $n>6$ whence, for any $f$ as in Theorem 1, (3) holds for every $n$ such that $kn+1$ is composite for $k=1,2,\ldots,f(n)$, and, by the prime number theorem, these $n$ have density 1 if $f(n)=o(\log n)$(1). However, this clearly does not yield the characterisation of the integers as described in our theorem.
 
@@ -106,19 +106,21 @@ We need also a lemma on the prime decomposition of $\Phi_n=\Phi_n(a,b)$ implied 
 
 **LEMMA 3.** *The prime $P(n)$ can divide $\Phi_n$ to at most the first power. All other prime factors of $\Phi_n$ are congruent to $1\pmod n$.*
 
-**3. Proof of Theorem 1.** We shall suppose throughout that $n$ exceeds a sufficiently large number which is effectively computable in terms of $a$, $b$ and $x$ only. Further we assume that $n$ has at most $x\log\log n$ distinct prime factors, where $0<x<1/\log2$. Let $d_0=1$ and let $d_1,\ldots,d_t$ be all the divisors of $n$ with $\mu(n/d_i)\ne0$, ordered according to size. Then there exists an integer $s$ depending only on $n$ such that
+**3. Proof of Theorem 1.** We shall suppose throughout that $n$ exceeds a sufficiently large number which is effectively computable in terms of $a$, $b$ and $\varkappa$ only. Further we assume that $n$ has at most $\varkappa\log\log n$ distinct prime factors, where $0<\varkappa<1/\log2$. Let $d_0=1$ and let $d_1,\ldots,d_t$ be all the divisors of $n$ with $\mu(n/d_r)\ne0$, ordered according to size. Then there exists an integer $s$ depending only on $n$ such that
 
 $$
 \tag{6}
 \frac{d_s}{d_{s-1}}\geq e^{(\log n)^\lambda},
 $$
 
-where $\lambda=1-x\log2$. In fact one can take $s$ as the smallest integer $\geq1$ such that $d_s\geq e^{s(\log n)^\lambda}$, which exists since $d_t=n$, and then clearly $d_s\geq e^{(\log n)^\lambda}d_{s-1}$, but we have
+where $\lambda=1-\varkappa\log2$. In fact one can take $s$ as the smallest integer $\geq1$ such that $d_s\geq n^{s/t}$, which exists since $d_t=n$, and then clearly $d_s\geq n^{1/t}d_{s-1}$; but we have
 
 $$
 \tag{7}
-t\leq2^{x\log\log n}=(\log n)^{x\log2}.
+t\leq2^{\varkappa\log\log n}=(\log n)^{\varkappa\log2}
 $$
+
+and (6) follows.
 
 We proceed now to compare estimates for
 
@@ -144,7 +146,7 @@ $$
 (1+x^{d_s-1})^t<1+\sum_{l=1}^{t}(tx^{d_s-1})^l.
 $$
 
-Since also, for $n$ sufficiently large, $tx^{d_s-1}<\frac{1}{2}$ and, by hypothesis, $x<1/\log 2$, we deduce from (7) that the above sum does not exceed
+Since also, for $n$ sufficiently large, $tx^{d_s-1}<\frac{1}{2}$ and, by hypothesis, $\varkappa<1/\log 2$, we deduce from (7) that the above sum does not exceed
 
 $$
 2tx^{d_s-1}<x^{d_s}\log n.
@@ -176,7 +178,7 @@ $$
 H=\sum_{r=s}^{t}d_r\mu(n/d_r).
 $$
 
-The product here can be expressed as a rational number with numerator and denominator not exceeding $a^{d_1+\cdots+d_{s-1}}$, and, by (7) again, this is at most $a^{d_s-1\log n}$. Further, we plainly have
+The product here can be expressed as a rational number with numerator and denominator not exceeding $a^{d_1+\cdots+d_{s-1}}$, and, by (7) again, this is at most $a^{d_{s-1}\log n}$. Further, we plainly have
 
 $$
 |H|\leq\sum_{r=1}^{n}r\leq n^2.
@@ -197,7 +199,7 @@ $$
 where $B=n^2$, $C=f_1(k)$ for some positive function $f_1$ of $k$ only and
 
 $$
-\Omega=\log p_1\ldots\log p_k\log n\log a\log(a^{d_s-1\log n}).
+\Omega=\log p_1\ldots\log p_k\log n\log a\log(a^{d_{s-1}\log n}).
 $$
 
 On combining (9) and (12) we get

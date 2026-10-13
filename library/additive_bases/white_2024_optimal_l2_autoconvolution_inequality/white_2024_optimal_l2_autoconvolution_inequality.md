@@ -176,7 +176,7 @@ $$
 
 Minkowski’s inequality above must be an equality, implying $f$ and $g$ are linearly dependant. Since $f,g$ have the same average value, we conclude that $f=g$ and so the extremizing function is unique.
 
-\hfill$\blacksquare$
+$\blacksquare$
 
 Note that the uniqueness of the optimizer implies that it must be even. Throughout, we will denote the unique optimizer by $f^\diamond\in\mathcal{F}$.
 

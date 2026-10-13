@@ -320,7 +320,7 @@ $$
 
 By rearranging and noting that $\mathsf{E}_{4/3}(C)^3\approx|D|^3t^4$, we obtain the required inequality.
 
-\hfill$\square$
+$\square$
 
 We record that we have a multiplicative analogue of Proposition 1. The proof is almost identical, and involves merely swapping all instances of addition and multiplication. We can also swap all instances of the product set $AA$ with the ratio set $A/A$.
 

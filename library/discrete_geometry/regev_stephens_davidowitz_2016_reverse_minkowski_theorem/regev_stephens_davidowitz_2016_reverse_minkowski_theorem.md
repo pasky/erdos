@@ -1,6 +1,6 @@
 # A Reverse Minkowski Theorem
 
-Oded Regev$^{*\dagger}$ \qquad Noah Stephens-Davidowitz$^{\ddagger\S}$
+Oded Regev$^{*\dagger}$, Noah Stephens-Davidowitz$^{\ddagger\S}$
 
 noahsd@gmail.com
 

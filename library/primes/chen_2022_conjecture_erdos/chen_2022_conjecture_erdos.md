@@ -157,7 +157,7 @@ $$
 m \geq \frac{1}{8}\log\ell-\frac{12}{8}+\frac{\log 0.54}{8}>\frac{1}{8}\log\ell-1.6.
 $$
 
-This completes the proof of Theorem 1.1. \hfill $\Box$
+This completes the proof of Theorem 1.1. $\Box$
 
 *Proof of Corollary 1.2.* Assume that
 
@@ -172,11 +172,11 @@ $$
 \frac{1}{8}\log t-1.6>\frac{1}{8}\log\log x-1.6.
 $$
 
-This completes the proof of Corollary 1.2. \hfill $\Box$
+This completes the proof of Corollary 1.2. $\Box$
 
 *Proof of Corollary 1.3.* By Theorem 1.1, there is a positive integers $n$ such that the
 number of solutions of $n=p+a_i$ $(p\in\mathcal{P},1\leq i\leq \ell)$ is greater than $\frac{1}{8}\log\ell-1.6$. That
-is, $f_{\mathcal{A}}(n)\geq\frac{1}{8}\log\ell-1.6$. Now Corollary 1.3 follows immediately. \hfill $\Box$
+is, $f_{\mathcal{A}}(n)\geq\frac{1}{8}\log\ell-1.6$. Now Corollary 1.3 follows immediately. $\Box$
 
 ## 3. Remarks
 

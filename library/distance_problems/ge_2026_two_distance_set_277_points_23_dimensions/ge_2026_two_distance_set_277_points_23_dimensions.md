@@ -138,7 +138,7 @@ $$
 \end{aligned}
 $$
 
-\hfill$\square$
+$\square$
 
 Setting $n=3$ in the above lemma, we see that $\mathbf{u}=\mathbf{x}^{\prime}_{1}+\mathbf{x}^{\prime}_{2}+\mathbf{x}^{\prime}_{3}-\mathbf{r}$ holds whenever $\{\mathbf{x}^{\prime}_{1},\mathbf{x}^{\prime}_{2},\mathbf{x}^{\prime}_{3}\}\subseteq X$ is a set of one of the $11$ parts.
 

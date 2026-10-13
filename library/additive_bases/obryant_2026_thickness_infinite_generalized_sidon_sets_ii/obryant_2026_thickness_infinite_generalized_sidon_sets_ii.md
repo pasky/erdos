@@ -105,12 +105,12 @@ $$
 \operatorname{supp}(\beta):=\{a:\operatorname{mult}_{\beta}(a)\geq 1\}.
 $$
 
-We define the multiset intersection $\beta\cap\delta$ and sum $\beta\uplus\delta$ through the mult function:
+We define the multiset intersection $\beta\Cap\delta$ and sum $\beta\uplus\delta$ through the mult function:
 
 $$
 \begin{aligned}
 x\in\beta&\qquad\Leftrightarrow\qquad\operatorname{mult}_{\beta}(x)\geq 1\\
-U=\beta\cap\delta&\qquad\Leftrightarrow\qquad\operatorname{mult}_{U}(x)=\min\{\operatorname{mult}_{\beta}(x),\operatorname{mult}_{\delta}(x)\}\\
+U=\beta\Cap\delta&\qquad\Leftrightarrow\qquad\operatorname{mult}_{U}(x)=\min\{\operatorname{mult}_{\beta}(x),\operatorname{mult}_{\delta}(x)\}\\
 U=\beta\uplus\delta&\qquad\Leftrightarrow\qquad\operatorname{mult}_{U}(x)=\operatorname{mult}_{\beta}(x)+\operatorname{mult}_{\delta}(x)
 \end{aligned}
 $$
@@ -147,7 +147,7 @@ $$
 \Sigma(\alpha\uplus\beta)=\Sigma(\alpha\uplus\delta),\qquad|\alpha\uplus\beta|=|\alpha\uplus\delta|=h.
 $$
 
-By the $B_h$-property, $\alpha\uplus\beta=\alpha\uplus\delta$, contradicting $\beta\neq\delta$.\hfill$\square$
+By the $B_h$-property, $\alpha\uplus\beta=\alpha\uplus\delta$, contradicting $\beta\neq\delta$. $\square$
 
 [^1]: Lemma 3 has the same essence as the ubiquitous fact from elementary number theory: if $p,q$ are positive integers and $\gcd(p,q)=\gcd(p',q')=1$ and $pq'=p'q$, then $p=p'$ and $q=q'$.
 
@@ -321,7 +321,7 @@ N^*(m)&\geq\frac{\tau^k}{h^k(\log m)^{1/2}}\left(1-\frac{1}{\log u_0}\right)^k\l
 \end{aligned}
 $$
 
-This is the bound reported in Lemma 8. \hfill$\square$
+This is the bound reported in Lemma 8. $\square$
 
 We also have $\mathcal{S}_n\subseteq k\mathcal{A}_n$, so that
 
@@ -413,7 +413,7 @@ $$
 \lvert\Phi(r,p,q;x,L)\rvert\leq c_0L+r\cdot 2L\cdot c_0\sum_{j=0}^{q-1}(2r)^j=L\cdot c_0\sum_{j=0}^{q}(2r)^j,
 $$
 
-as needed to complete the induction. \hfill$\square$
+as needed to complete the induction. $\square$
 
 The particular instance we will use follows.
 
@@ -471,19 +471,19 @@ $$
 \sum_{\ell=1}^{M}\binom{F_\ell}{2}\leq\frac{1}{N}\sum_{d=1}^{N-1}(N-d)P(d). \tag{7}
 $$
 
-For each $s\in\mathcal{S}$, we identify the unique $V_s\in\left(\!\binom{\mathcal{A}}{k}\!\right)$ with $\Sigma V_s=s$ (unique because $\mathcal{A}$ is a $B_k$-set by Lemma 4). We stratify $P(d)$ by the size of $V_s\cap V_{s'}$. Namely, set
+For each $s\in\mathcal{S}$, we identify the unique $V_s\in\left(\!\binom{\mathcal{A}}{k}\!\right)$ with $\Sigma V_s=s$ (unique because $\mathcal{A}$ is a $B_k$-set by Lemma 4). We stratify $P(d)$ by the size of $V_s\Cap V_{s'}$. Namely, set
 
 $$
-P_r(d)\coloneqq\#\left\{(s,s')\in(\mathcal{S}_W)^2\colon s-s'=d,\ \lvert V_s\cap V_{s'}\rvert=r\right\}.
+P_r(d)\coloneqq\#\left\{(s,s')\in(\mathcal{S}_W)^2\colon s-s'=d,\ \lvert V_s\Cap V_{s'}\rvert=r\right\}.
 $$
 
-We have, $P(d)=\sum_{r=0}^{k}P_r(d)$. For $d\geq 1$, we have $P_k(d)=0$, as $\lvert V_s\cap V_{s'}\rvert=k$ implies that $V_s=V_{s'}$, so that $s=s'$ and $s-s'=d=0$. Thus, Line (7) becomes
+We have, $P(d)=\sum_{r=0}^{k}P_r(d)$. For $d\geq 1$, we have $P_k(d)=0$, as $\lvert V_s\Cap V_{s'}\rvert=k$ implies that $V_s=V_{s'}$, so that $s=s'$ and $s-s'=d=0$. Thus, Line (7) becomes
 
 $$
 \sum_{\ell=1}^{M-1}\binom{F_\ell}{2}\leq\frac{1}{N}\sum_{d=1}^{N-1}(N-d)P_0(d)+\sum_{r=1}^{k-1}\frac{1}{N}\sum_{d=1}^{N-1}(N-d)P_r(d). \tag{8}
 $$
 
-We now show that for $d\geq 1$, we have $P_0(d)\leq 1$. We see that $P_0(d)$ counts the number of pairs $(s,s')\in(\mathcal{S}_W)^2$ with $s-s'=d$ and $V_s\cap V_{s'}=\emptyset$. Suppose that both $(s,s')$ and $(u,u')$ are such pairs. Then $s+u'=u+s'$, an identity of $2k$-fold sums, so by the $B_{2k}$ property
+We now show that for $d\geq 1$, we have $P_0(d)\leq 1$. We see that $P_0(d)$ counts the number of pairs $(s,s')\in(\mathcal{S}_W)^2$ with $s-s'=d$ and $V_s\Cap V_{s'}=\emptyset$. Suppose that both $(s,s')$ and $(u,u')$ are such pairs. Then $s+u'=u+s'$, an identity of $2k$-fold sums, so by the $B_{2k}$ property
 
 $$
 V_s\uplus V_{u'}=V_u\uplus V_{s'}.
@@ -503,7 +503,7 @@ $$
 \sum_{\ell=1}^{M-1}\binom{F_\ell}{2}\leq\frac{1}{2}N+\sum_{r=1}^{k-1}\sum_{d=1}^{N-1}P_r(d). \tag{10}
 $$
 
-We now consider $1\leq r<k$, and show that for each such $r$ we have $\sum_d P_r(d)=o(N)$. Consider a pair $(s,s')$ counted by $\sum_{d=1}^{N-1}P_r(d)$, so that there are unique $\alpha\in\left(\!\binom{\mathcal{A}}{r}\!\right),\beta,\delta\in\left(\!\binom{\mathcal{A}}{k-r}\!\right)$ with $\alpha=V_s\cap V_{s'}$ (so $\lvert\alpha\rvert=r$), $V_s=\alpha\uplus\beta$ and $V_{s'}=\alpha\uplus\delta$ (so $\lvert\beta\rvert=k-r=\lvert\delta\rvert$). Note that $\beta\cap\delta=\emptyset$, since at each $x$ either $\operatorname{mult}_\beta(x)=0$ or $\operatorname{mult}_\delta(x)=0$. The map from $(s,s')$ to $(\alpha;\beta,\delta)$ is injective. Since $\Sigma\beta-\Sigma\delta=s-s'=d\in[1,N)$, we see that $(\beta,\delta)\in T(k-r,k-r;0,N)$.
+We now consider $1\leq r<k$, and show that for each such $r$ we have $\sum_d P_r(d)=o(N)$. Consider a pair $(s,s')$ counted by $\sum_{d=1}^{N-1}P_r(d)$, so that there are unique $\alpha\in\left(\!\binom{\mathcal{A}}{r}\!\right),\beta,\delta\in\left(\!\binom{\mathcal{A}}{k-r}\!\right)$ with $\alpha=V_s\Cap V_{s'}$ (so $\lvert\alpha\rvert=r$), $V_s=\alpha\uplus\beta$ and $V_{s'}=\alpha\uplus\delta$ (so $\lvert\beta\rvert=k-r=\lvert\delta\rvert$). Note that $\beta\cap\delta=\emptyset$, since at each $x$ either $\operatorname{mult}_\beta(x)=0$ or $\operatorname{mult}_\delta(x)=0$. The map from $(s,s')$ to $(\alpha;\beta,\delta)$ is injective. Since $\Sigma\beta-\Sigma\delta=s-s'=d\in[1,N)$, we see that $(\beta,\delta)\in T(k-r,k-r;0,N)$.
 
 Hence, using $r\geq 1$ we have the bound $\binom{A(W)+r-1}{r}\leq A(W)^r$, and so
 
@@ -558,7 +558,7 @@ $$
 \sum_{\ell=1}^{M-1}\binom{F_\ell}{2}\leq\frac{N}{2}+o(N),
 $$
 
-which concludes the proof of Lemma 11. \hfill $\square$
+which concludes the proof of Lemma 11. $\square$
 
 ## 4 The proof of Theorem 1
 
@@ -615,7 +615,7 @@ $$
 \tau^h\leq\frac{1}{\log 2}\frac{k!^2\pi}{\Gamma(1+1/h)^h},
 $$
 
-contradicting (11). \hfill $\square$
+contradicting (11). $\square$
 
 In Part I, the author describes weaknesses in the structure of those arguments. Those comments apply equally well to the arguments above.
 

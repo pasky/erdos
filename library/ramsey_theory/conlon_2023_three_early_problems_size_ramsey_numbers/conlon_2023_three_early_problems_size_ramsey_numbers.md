@@ -96,7 +96,7 @@ et2^s\frac{\binom{s^2}{s}}{\binom{2s^2}{s}}
 \geq et\exp\left(-2\sum_{i=1}^{s-1}\frac{i}{s^2}\right)\geq t
 $$
 
-times, yielding a red $K_{s,t}$, where we used the inequality $1-x\geq e^{-2x}$, valid for $x\in[0,\frac{1}{2}]$. \hfill$\square$
+times, yielding a red $K_{s,t}$, where we used the inequality $1-x\geq e^{-2x}$, valid for $x\in[0,\frac{1}{2}]$. $\square$
 
 By being a little more careful in the proof of Proposition 2.1, one can improve the bound by a factor of $8+o(1)$ to $\hat{r}(K_{s,t})\leq(e/2+o(1))s^2t2^s$, where the $o(1)$ term tends to 0 as $s\to\infty$. This can be done by picking $A$ of order $s^2/2$, $B$ of order $(e+o(1))t2^s$, using both red and blue stars out of vertices of $B$ and applying convexity, though we also need to be a little more careful with the inequalities. This stronger upper bound is also present in [16] and it follows from [28, Theorem 4.6] that it is asymptotically tight, i.e., that
 
@@ -124,7 +124,7 @@ $$
 
 where we may start the sum at $i=s$ as $i$ is the maximum index on an $s$-set of vertices and we use our assumptions that $t\geq s+2$ and $s\geq 2$ to evaluate the integral. In the final inequality, we use the bounds $\frac{s-1}{t-s-1}\leq s\leq 2^s\leq 2^t$ and $\frac{s}{s-1}\leq 2$, which hold since $t\geq s+2$ and $s\geq 2$.
 
-Now, suppose we color the edges of $G$ uniformly at random. Each copy of $K_{s,t}$ is monochromatic with probability $2^{1-st}$, so the expected number of monochromatic $K_{s,t}$ is at most $2(8e^2q/(st2^s))^t$. If we plug in $q=st2^s/100$, we find that the expected number of monochromatic $K_{s,t}$ is less than 1, which yields the desired result. \hfill$\square$
+Now, suppose we color the edges of $G$ uniformly at random. Each copy of $K_{s,t}$ is monochromatic with probability $2^{1-st}$, so the expected number of monochromatic $K_{s,t}$ is at most $2(8e^2q/(st2^s))^t$. If we plug in $q=st2^s/100$, we find that the expected number of monochromatic $K_{s,t}$ is less than 1, which yields the desired result. $\square$
 
 Note that in the upper bound argument, the worst case happens when all vertices in $B$ are incident with the same number of red and blue edges. However, in the lower bound argument, we colored all the edges uniformly at random, meaning that, for any given $b\in B$, the number of edges incident to $b$ that are colored red is binomially distributed. Usually, the difference between a binomial distribution and a hypergeometric distribution (where we condition on having equally many red and blue edges) is fairly minor, but it can have a significant effect when coloring, for instance, a complete bipartite graph between vertex sets $A$ and $B$ where $A$ is small. This suggests using a slightly different procedure for the lower bound, where we randomly color the edges from low-degree to high-degree vertices hypergeometrically rather than uniformly. This intuition is indeed at the heart of our proof of Theorem 1.1, although the actual coloring we use is somewhat more complicated: roughly speaking, we first dyadically partition according to degree and then use independent hypergeometric variables for each dyadic interval.
 
@@ -708,7 +708,7 @@ We are grateful to Mehtaab Sawhney for suggesting the simplified proof of Lemma 
 - [7] D. Conlon, The Ramsey number of books, *Adv. Comb.* (2019), Paper No. 3, 12pp.
 - [8] D. Conlon, J. Fox, and B. Sudakov, Recent developments in graph Ramsey theory, in *Surveys in combinatorics 2015*, *London Math. Soc. Lecture Note Ser.*, vol. 424, Cambridge Univ. Press, Cambridge, 2015, 49–118.
 - [9] D. Conlon, J. Fox, and Y. Wigderson, Ramsey numbers of books and quasirandomness, *Combinatorica 42* (2022), 309–363.
-- [10] D. Conlon, J. Fox, and Y. Wigderson, Off-diagonal book Ramsey numbers, to appear in *Combin. Probab. Comput.* Preprint available at arXiv:2110.14483 $$math.CO$$.
+- [10] D. Conlon, J. Fox, and Y. Wigderson, Off-diagonal book Ramsey numbers, to appear in *Combin. Probab. Comput.* Preprint available at arXiv:2110.14483 \[math.CO\].
 - [11] D. Conlon and W. T. Gowers, Combinatorial theorems in sparse random sets, *Ann. of Math. 184* (2016), 367–454.
 
 [12] D. Conlon, R. Nenadov, and M. Trujić, The size-Ramsey number of cubic graphs, *Bull. London Math. Soc.* **54** (2022), 2135–2150.

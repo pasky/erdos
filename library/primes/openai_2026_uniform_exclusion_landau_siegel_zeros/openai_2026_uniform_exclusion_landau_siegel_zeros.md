@@ -273,7 +273,7 @@ Finally let $q\to\infty$ along (6.1). The third term tends to zero because $\gam
 
 **[7]** M. Laurent, *Sur quelques résultats récents de transcendance*, Astérisque **198–199–200** (1991), 209–230. <https://www.numdam.org/item/AST_1991__198-199-200__209_0/>.
 
-**[8]** U. V. Linnik, *On the least prime in an arithmetic progression. II. The Deuring–Heilbronn phenomenon*, Rec. Math. $$Mat. Sbornik$$ N.S. **15(57)** (1944), no. 3, 347–368. <https://www.mathnet.ru/eng/sm6202>.
+**[8]** U. V. Linnik, *On the least prime in an arithmetic progression. II. The Deuring–Heilbronn phenomenon*, Rec. Math. \[Mat. Sbornik\] N.S. **15(57)** (1944), no. 3, 347–368. <https://www.mathnet.ru/eng/sm6202>.
 
 **[9]** A. Page, *On the number of primes in an arithmetic progression*, Proc. London Math. Soc. (2) **39** (1935), 116–141. [doi:10.1112/plms/s2-39.1.116](https://doi.org/10.1112/plms/s2-39.1.116).
 

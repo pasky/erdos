@@ -1763,7 +1763,7 @@ Baker, R. C., and Glyn Harman. 1998. “Shifted Primes Without Large Prime Facto
 
 Bharadwaj, Abhishek, and Brad Rodgers. 2026. “Large Prime Factors of Well-Distributed Sequences.” *Canadian Mathematical Bulletin*, 1–17. <https://doi.org/10.4153/S0008439526101982>.
 
-Buchstab, A. 1937. “Asymptotische Abschätzung Einer Allgemeinen Zahlentheoretischen Funktion.” *Rec. Math. $$Mat. Sbornik$$ N.S.* 2(44) (6): 1239–46. <https://www.mathnet.ru/eng/sm5649>.
+Buchstab, A. 1937. “Asymptotische Abschätzung Einer Allgemeinen Zahlentheoretischen Funktion.” *Rec. Math. \[Mat. Sbornik\] N.S.* 2(44) (6): 1239–46. <https://www.mathnet.ru/eng/sm5649>.
 
 Efron, Bradley, and Charles Stein. 1981. “The Jackknife Estimate of Variance.” *The Annals of Statistics* 9 (3): 586–96. <https://doi.org/10.1214/aos/1176345462>.
 

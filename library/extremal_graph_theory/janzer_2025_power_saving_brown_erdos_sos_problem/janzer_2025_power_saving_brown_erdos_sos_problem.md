@@ -147,7 +147,7 @@ $$
 \end{aligned}
 $$
 
-completing the proof of the lemma. \hfill $\square$
+completing the proof of the lemma. $\square$
 
 To start the iteration, we need to show how to find eligible graphs. The following lemma shows how to construct an eligible hypergraph $F_0$ and find many copies of it in $\mathcal H$.
 

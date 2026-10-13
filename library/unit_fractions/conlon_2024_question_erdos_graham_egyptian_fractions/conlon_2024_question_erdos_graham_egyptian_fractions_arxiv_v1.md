@@ -235,7 +235,7 @@ $$
 2^{-(n-|U|)}2^{H(P(x))-O(\sqrt{n/c})},
 $$
 
-as required. \hfill $\square$
+as required. $\square$
 
 ## 3 Subset sums of modular inverses
 
@@ -251,7 +251,7 @@ We will also need the following simple variant of Dirichlet’s simultaneous app
 
 **Lemma 7.** *Given a prime power $q$, integers $d_1,\ldots,d_k$ coprime to $q$ and positive integers $a_1,\ldots,a_k$ such that $\prod_{i=1}^k a_i=A$, there exists a positive integer $T<q$ and integers $d'_1,\ldots,d'_k$ such that $Td_i=d'_i\pmod q$ and $|d'_i|\leq 2(q/a_i)\cdot(A/q)^{1/k}$ for all $i\in[k]$.*
 
-*Proof.* Let $b_i=2(q/a_i)\cdot(A/q)^{1/k}$. Note that $\left\lfloor\overline{sd_i}/b_i\right\rfloor$ takes at most $q/b_i$ values as $s$ ranges over $\mathbb{Z}_q$. By the pigeonhole principle, there exist distinct $s\ne s'$ in $\mathbb{Z}_q$ such that $\left\lfloor\overline{sd_i}/b_i\right\rfloor=\left\lfloor\overline{s'd_i}/b_i\right\rfloor$ for all $i\in[k]$, since $\prod_{i=1}^k\frac{q}{b_i}=(q/A)2^{-k}\prod_{i=1}^k a_i<q$. Letting $T=s'-s$, we then have that $|\overline{Td_i}|\leq b_i=2(q/a_i)\cdot(A/q)^{1/k}$. \hfill $\square$
+*Proof.* Let $b_i=2(q/a_i)\cdot(A/q)^{1/k}$. Note that $\left\lfloor\overline{sd_i}/b_i\right\rfloor$ takes at most $q/b_i$ values as $s$ ranges over $\mathbb{Z}_q$. By the pigeonhole principle, there exist distinct $s\ne s'$ in $\mathbb{Z}_q$ such that $\left\lfloor\overline{sd_i}/b_i\right\rfloor=\left\lfloor\overline{s'd_i}/b_i\right\rfloor$ for all $i\in[k]$, since $\prod_{i=1}^k\frac{q}{b_i}=(q/A)2^{-k}\prod_{i=1}^k a_i<q$. Letting $T=s'-s$, we then have that $|\overline{Td_i}|\leq b_i=2(q/a_i)\cdot(A/q)^{1/k}$. $\square$
 
 We now proceed to the proof of Theorem 5. The basic idea is to use Theorem 6 to argue that there is a large subset $J$ of the set of inverses $I^{-1}$ which is contained in a proper GAP $P$ of bounded dimension $k$ such that $\Sigma^{[s]}(J)$ contains a proper translate of $csP$. We then exploit the nature of the set of inverses to argue that $k$ must in fact be 1, that is, $P$ is simply a progression, from which the required result quickly follows.
 

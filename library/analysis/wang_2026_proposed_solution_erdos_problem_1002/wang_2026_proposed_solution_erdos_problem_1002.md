@@ -287,7 +287,7 @@ $$
 -\frac{i}{2\pi n}\sum_{\substack{d\mid n\\d\leq N}}d.
 $$
 
-Combining this with Lemma 2.1 and (2.5) yields exactly the coefficient of $S_N-\frac{1}{2}\psi(N\alpha)$. Negative coefficients are conjugate, and both sides have mean zero. \hfill$\square$
+Combining this with Lemma 2.1 and (2.5) yields exactly the coefficient of $S_N-\frac{1}{2}\psi(N\alpha)$. Negative coefficients are conjugate, and both sides have mean zero. $\square$
 
 ### 2.3 Nearest cell versus full periodization
 

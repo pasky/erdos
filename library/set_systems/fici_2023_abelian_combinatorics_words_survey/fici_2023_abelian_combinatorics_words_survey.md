@@ -15,50 +15,50 @@ We survey known results and open problems in abelian combinatorics on words. Abe
 2 **Preliminaries** 3
 
 3 **Abelian complexity** 6  
-3.1 Abelian complexity and periodicity \dotfill 6  
-3.2 Abelian complexity of some families of words \dotfill 7  
-3.3 Abelian pattern complexity \dotfill 8
+3.1 Abelian complexity and periodicity . . . 6  
+3.2 Abelian complexity of some families of words . . . 7  
+3.3 Abelian pattern complexity . . . 8
 
 4 **Abelian repetitions** 9  
-4.1 Abelian complexity and abelian powers \dotfill 9  
-4.2 Abelian critical exponent \dotfill 10  
-4.3 Abelian square factors \dotfill 10  
-4.4 Abelian antipowers \dotfill 12
+4.1 Abelian complexity and abelian powers . . . 9  
+4.2 Abelian critical exponent . . . 10  
+4.3 Abelian square factors . . . 10  
+4.4 Abelian antipowers . . . 12
 
 5 **Abelian avoidability** 12  
-5.1 Avoidability of abelian powers \dotfill 12  
-5.2 Avoiding fractional abelian repetitions and other generalizations of abelian powers \dotfill 15  
-5.3 Abelian pattern avoidance \dotfill 16
+5.1 Avoidability of abelian powers . . . 12  
+5.2 Avoiding fractional abelian repetitions and other generalizations of abelian powers . . . 15  
+5.3 Abelian pattern avoidance . . . 16
 
 6 **Abelian periods and borders** 16  
-6.1 Abelian versions of classical periodicity theorems \dotfill 17  
-6.2 Abelian primitive words \dotfill 19  
-6.3 Abelian borders \dotfill 19
+6.1 Abelian versions of classical periodicity theorems . . . 17  
+6.2 Abelian primitive words . . . 19  
+6.3 Abelian borders . . . 19
 
 *The second author has been supported by Russian Foundation of Basic Research (grant 20-01-00488).
 
 **7 Abelian properties of Sturmian words** 21  
-7.1 Abelian powers in Sturmian words \dotfill 22  
-7.2 Abelian critical exponent of Sturmian words \dotfill 23  
-7.3 Abelian periods of factors of Sturmian words \dotfill 24  
-7.4 Abelian returns \dotfill 25  
-7.5 Minimal abelian squares \dotfill 25  
+7.1 Abelian powers in Sturmian words . . . 22  
+7.2 Abelian critical exponent of Sturmian words . . . 23  
+7.3 Abelian periods of factors of Sturmian words . . . 24  
+7.4 Abelian returns . . . 25  
+7.5 Minimal abelian squares . . . 25  
 
 **8 Modifications of abelian equivalence** 26  
-8.1 $k$-abelian equivalence \dotfill 26  
-    8.1.1 Avoidance \dotfill 27  
-    8.1.2 Complexity \dotfill 27  
-    8.1.3 $k$-abelian classes \dotfill 28  
-8.2 Weak abelian equivalence \dotfill 29  
-8.3 $k$-binomial equivalence \dotfill 30  
-8.4 Additive powers \dotfill 32  
+8.1 $k$-abelian equivalence . . . 26  
+    8.1.1 Avoidance . . . 27  
+    8.1.2 Complexity . . . 27  
+    8.1.3 $k$-abelian classes . . . 28  
+8.2 Weak abelian equivalence . . . 29  
+8.3 $k$-binomial equivalence . . . 30  
+8.4 Additive powers . . . 32  
 
 **9 Miscellanea** 33  
-9.1 Abelian subshifts \dotfill 33  
-    9.1.1 On abelian subshifts of binary words \dotfill 34  
-    9.1.2 On abelian subshifts of generalizations of Sturmian words to nonbinary alphabets \dotfill 34  
-9.2 Rich words and abelian equivalence \dotfill 35  
-9.3 Abelian saturated words \dotfill 35  
+9.1 Abelian subshifts . . . 33  
+    9.1.1 On abelian subshifts of binary words . . . 34  
+    9.1.2 On abelian subshifts of generalizations of Sturmian words to nonbinary alphabets . . . 34  
+9.2 Rich words and abelian equivalence . . . 35  
+9.3 Abelian saturated words . . . 35  
 
 **10 Acknowledgments** 36  
 
@@ -174,7 +174,7 @@ On the other hand, there exist aperiodic words with bounded abelian complexity. 
 
 **Lemma 1.** *If there exists $n>0$ such that $a_x(n)=1$, then $x$ is purely periodic. More precisely, the smallest period of $x$ is the least such $n$.*
 
-*Proof.* Let $n$ be the least integer such that $a_x(n)=1$, that is, all the factors of $x$ of length $n$ have the same Parikh vector. In particular, the prefix $x_1x_2\cdots x_n$ of length $n$ of $x$ has the same Parikh vector as the factor $x_2x_3\cdots x_{n+1}$. This implies that $x_{n+1}=x_1$. Analogously, one deduces that $x_{n+2}=x_2$ and so on. We therefore have that $x$ has period $n$. \hfill$\square$
+*Proof.* Let $n$ be the least integer such that $a_x(n)=1$, that is, all the factors of $x$ of length $n$ have the same Parikh vector. In particular, the prefix $x_1x_2\cdots x_n$ of length $n$ of $x$ has the same Parikh vector as the factor $x_2x_3\cdots x_{n+1}$. This implies that $x_{n+1}=x_1$. Analogously, one deduces that $x_{n+2}=x_2$ and so on. We therefore have that $x$ has period $n$. $\square$
 
 The maximal abelian complexity is realized, for example, by words with full factor complexity, like, e.g., the *binary Champernowne word* $0\,1\,10\,11\,100\,101\,110\,111\cdots$ obtained by concatenating the binary expansions of the natural numbers in the natural order (with zero represented by $0$). We have:
 
@@ -184,7 +184,7 @@ $$1\leq a_x(n)\leq\binom{n+d-1}{d-1}.$$
 
 *In particular, the abelian complexity is bounded by $O(n^d)$.*
 
-*Proof.* The maximum value of the abelian complexity of a word over $\Sigma_d$ is the maximum number of ways of writing $n$ as the sum of $d$ nonnegative integers. This well-known number is called the number of compositions of $n$ into $d$ parts and its value is given by the binomial coefficient $\binom{n+d-1}{d-1}$. \hfill$\square$
+*Proof.* The maximum value of the abelian complexity of a word over $\Sigma_d$ is the maximum number of ways of writing $n$ as the sum of $d$ nonnegative integers. This well-known number is called the number of compositions of $n$ into $d$ parts and its value is given by the binomial coefficient $\binom{n+d-1}{d-1}$. $\square$
 
 However, there exist infinite binary words having maximal abelian complexity but linear factor complexity. For example, take the alphabet $\Delta=\{a,b,c\}$ and let $f$ and $g$ be the morphisms defined by $f(a)=abc$, $f(b)=bbb$, $f(c)=ccc$, $g(a)=0=g(c)$ and $g(b)=1$. Let $x$ be the fixed point of $f$ beginning in $a$. Then the image of $x$ under $g$ is the word
 

@@ -1,6 +1,6 @@
 # Nearly Hamilton cycles in sublinear expanders, and applications
 
-Shoham Letzter$^*$ \quad Abhishek Methuku$^\dagger$ \quad Benny Sudakov$^\ddagger$
+Shoham Letzter$^*$, Abhishek Methuku$^\dagger$, Benny Sudakov$^\ddagger$
 
 ## Abstract
 
@@ -148,7 +148,7 @@ $$
 |N_{H-F}(U)| \geq \frac{\lambda}{8}|U| = \frac{|U|}{8(\log n)^c}.
 $$
 
-Therefore, $H$ is a $(\frac{1}{8},c,\frac{\lambda d}{4})$-expander, proving the lemma. \hfill $\square$
+Therefore, $H$ is a $(\frac{1}{8},c,\frac{\lambda d}{4})$-expander, proving the lemma. $\square$
 
 ### 3.3 Probabilistic tools
 

@@ -112,7 +112,7 @@ $$
 2^{t+1}-2 < k(k-1) \leq 2^{t+1}-\frac{1}{4}.
 $$
 
-But this contradicts $k(k-1)$ even. \hfill$\square$
+But this contradicts $k(k-1)$ even. $\square$
 
 After looking at an upper bound for the maximum size of a Sidon set, it is natural to ask whether every Sidon set can be extended to a Sidon set of maximum size by adding elements. Already in dimension 6 this is not true, as we will see later in Proposition 2.7.
 
@@ -120,7 +120,7 @@ Therefore, we now concentrate on the question how a Sidon set can be extended by
 
 **Proposition 2.2 ([13]).** Let $M$ be a Sidon set in $\mathbb{F}_2^t$ and $g\in\mathbb{F}_2^t\setminus M$. Then $M\mathbin{\dot\cup}\{g\}$ is Sidon if and only if $g\in\mathbb{F}_2^t\setminus\mathcal{S}_3(M)=\mathbb{F}_2^t\setminus\big(\mathcal{S}_3^*(M)\mathbin{\dot\cup}M\big)$.
 
-*Proof.* Let $M\subseteq\mathbb{F}_2^t$ be a Sidon set. From $g\in\mathbb{F}_2^t\setminus M$ follows that $M\mathbin{\dot\cup}\{g\}$ is not Sidon if and only if there exist $m,m_1,m_2\in M$ pairwise distinct such that $g+m=m_1+m_2$ which is equivalent to $g=m+m_1+m_2$. Hence $g\in\mathcal{S}_3^*(M)\subseteq\mathcal{S}_3^*(M)\mathbin{\dot\cup}M=\mathcal{S}_3(M)$. \hfill$\square$
+*Proof.* Let $M\subseteq\mathbb{F}_2^t$ be a Sidon set. From $g\in\mathbb{F}_2^t\setminus M$ follows that $M\mathbin{\dot\cup}\{g\}$ is not Sidon if and only if there exist $m,m_1,m_2\in M$ pairwise distinct such that $g+m=m_1+m_2$ which is equivalent to $g=m+m_1+m_2$. Hence $g\in\mathcal{S}_3^*(M)\subseteq\mathcal{S}_3^*(M)\mathbin{\dot\cup}M=\mathcal{S}_3(M)$. $\square$
 
 Those Sidon sets which can not be extended by adding elements without losing the Sidon property are of particular interest:
 

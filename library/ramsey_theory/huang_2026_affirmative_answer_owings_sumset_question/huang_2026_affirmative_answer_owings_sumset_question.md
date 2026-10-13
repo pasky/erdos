@@ -241,7 +241,7 @@ $$
 [n,n+L]\subset\bigcup_{f\in F}\bigl(N_T(x,U)-f\bigr),
 $$
 
-so $N_T(x,U)$ is piecewise syndetic. \hfill$\Box$
+so $N_T(x,U)$ is piecewise syndetic. $\Box$
 
 For $s\in\mathbb{N}$, let
 
@@ -1035,7 +1035,7 @@ For $x\in K$, write $Y_x=\{y:mx+\ell y\in A\}\in p$. Choose $v_1\in H\cap K$ abo
 
 $$H\cap K\cap\bigcap_{i<j}Y_{v_i}.$$
 
-All these sets belong to the free ultrafilter $p$. \hfill$\square$
+All these sets belong to the free ultrafilter $p$. $\square$
 
 *Proof of Proposition 4.1.* Suppose that $(4.5)$ fails. Since every coordinate is binary, there are $(s,r)\in\mathcal{I}$, $t\in\mathbb{Z}$, and $\gamma\in\{0,1\}$ such that the two coordinates
 

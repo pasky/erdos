@@ -508,7 +508,7 @@ $$x_{n+1} = x_n - \frac{1}{a_n} = \frac{c_n a_n - d_n}{d_n a_n} = \frac{c_n - e_
 
 $$a_n = \lfloor x_n^{-1} + 1 \rfloor \approx x_n^{-1} = \frac{d_n}{c_n}.$$
 
-The second one follows from $c_{n+1} = c_n - e_n \leq 1.5c_n$. \hfill $\square$
+The second one follows from $c_{n+1} = c_n - e_n \leq 1.5c_n$. $\square$
 
 Now we prove that Question 1 by Erdős and Graham is equivalent to our Conjecture 1.
 

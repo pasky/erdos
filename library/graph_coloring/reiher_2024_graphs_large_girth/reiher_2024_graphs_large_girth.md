@@ -456,7 +456,7 @@ $$
 \log\frac{A^{(s)}}{dn}\geq(dn)^{-1}\sum_{(x,y)\in\overline{E}}\log A^{(s)}_{xy}\geq(s-1)\log\Lambda\,,
 $$
 
-from which the result follows. \hfill$\square$
+from which the result follows. $\square$
 
 *Proof of Theorem 2.18.* We begin with the easier case that $g=2h$ is even. Due to Lemma 2.22 we have
 

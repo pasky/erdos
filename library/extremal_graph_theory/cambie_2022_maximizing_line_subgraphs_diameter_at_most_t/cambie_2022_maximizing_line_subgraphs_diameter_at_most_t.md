@@ -205,7 +205,7 @@ $$
 \end{aligned}
 $$
 
-as $j\leq x+y<2j$, i.e. $|x+y-1.5j|\leq 0.5j$. \hfill$\diamond$
+as $j\leq x+y<2j$, i.e. $|x+y-1.5j|\leq 0.5j$. $\diamond$
 
 For every $a\in A'_t$, let $m(a)$ denote the number of neighbours (in $H$) of $a$ in $A_{t-1}$ and let $q(a)$ denote the number of neighbours (in $H$) of $a$ in $A'_t$. Furthermore, we define $f(a)=\frac{\frac{3}{2}w(a)-m(a)}{j-m(a)}$.
 

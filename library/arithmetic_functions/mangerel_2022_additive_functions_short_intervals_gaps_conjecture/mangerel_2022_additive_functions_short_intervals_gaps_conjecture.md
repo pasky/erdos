@@ -1957,7 +1957,7 @@ $$
 \frac{1}{X}\sum_{n\in\mathcal{B}(X)}|g(n)-g(n-1)|\leq 2\left(\frac{|\mathcal{B}(X)|}{X}\right)^{1/2}\left(\frac{1}{X}\sum_{n\leq X}|g(n)-A_g(X)|^2\right)^{1/2}\ll B_g(X)\left(\frac{|\mathcal{B}(X)|}{X}\right)^{1/2}.
 $$
 
-This implies (25), and completes the proof of the lemma. \hfill$\square$
+This implies (25), and completes the proof of the lemma. $\square$
 
 *Proof of Proposition 7.1.* The first part of the proposition follows by the triangle inequality, upon combining Lemmas 7.3 and 7.4 with Lemma 7.5 (taking $\alpha=3/2$, say). Next, we proceed to the proofs of properties (i)-(iii).
 
@@ -2273,6 +2273,6 @@ The author warmly thanks Oleksiy Klurman and Aled Walker for helpful suggestions
 
 [32] E. Wirsing. Characterization of the logarithm as an additive function. *Amer. Math. Soc. Proc. of Symp. in Pure Math.*, 20:375–381, 1971.
 
-\textsc{Centre de Recherches Mathématiques, Université de Montréal, Montréal, Québec}
+Centre de Recherches Mathématiques, Université de Montréal, Montréal, Québec
 
 *Email address:* smangerel@gmail.com

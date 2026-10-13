@@ -306,7 +306,7 @@ $$
 \sum_{p\leq x}f(p)\gg\sum_{\substack{d,t\leq x^{1/6}\\ 1\leq\Omega(dt)\leq 3\log\log x}}\frac{|\mu(t)|x}{\varphi(mdt)\log x}\gg\frac{1}{\varphi(m)}x\log x,
 $$
 
-completing the proof of (4.2) and the lemma. \hfill $\square$
+completing the proof of (4.2) and the lemma. $\square$
 
 Let $N$ be large, let $X\leq N^{1/2}$ be a quantity specified later, and let
 $P=\prod_{p\leq X}p$. We now employ the large sieve. Let
@@ -397,7 +397,7 @@ Conversely, if $t\in T_j$ with last coordinate 0, let $t=(t_1,\ldots,t_k,0,\ldot
 
 **Lemma 5.2.** *For each positive integer $j$ and each positive real $x$ there is a positive number $\epsilon$, depending on the choice of $j$, $x$ and sequence $(a_n)$, such that the interval $(x-\epsilon,x)$ contains no member of $S_j$.*
 
-*Proof.* For each fixed $j$ there is no infinite strictly increasing sequence made up of members of $S_j$. To see this, we suppose such a sequence $(s_n)$ exists and let $s_n=s(v_n)$. Write $v_n=(a_{n,1},\dots,a_{n,j})$. Each of the sequences $(a_{n,i})_n$ has 0 as a limit point or it repeats some nonzero number infinitely often, so by passing to an infinite subsequence we may assume that either the sequence of $i$th coordinates is constant or has limit 0, and this holds for each $i$. These possibilities are incompatible with $s(v_n)$ strictly increasing, which proves that no infinite strictly increasing sequence can be formed from the elements of $S_j$. Thus, the assertion in the lemma holds. \hfill$\Box$
+*Proof.* For each fixed $j$ there is no infinite strictly increasing sequence made up of members of $S_j$. To see this, we suppose such a sequence $(s_n)$ exists and let $s_n=s(v_n)$. Write $v_n=(a_{n,1},\dots,a_{n,j})$. Each of the sequences $(a_{n,i})_n$ has 0 as a limit point or it repeats some nonzero number infinitely often, so by passing to an infinite subsequence we may assume that either the sequence of $i$th coordinates is constant or has limit 0, and this holds for each $i$. These possibilities are incompatible with $s(v_n)$ strictly increasing, which proves that no infinite strictly increasing sequence can be formed from the elements of $S_j$. Thus, the assertion in the lemma holds. $\Box$
 
 We now specify that the numbers $a_i$ are unit fractions. To prove Theorem 1.4, we use the lemmas with $a_i=1/i$, and note that there is some $\epsilon>0$, depending on the choice of $k,j$, such that $(1/k-\epsilon,1/k)$ contains no member of $S_j$. However, for $m$ sufficiently large,
 

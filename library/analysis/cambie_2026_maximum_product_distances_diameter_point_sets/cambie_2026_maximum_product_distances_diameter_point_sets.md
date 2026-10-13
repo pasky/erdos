@@ -346,7 +346,7 @@ $$
 \sum_{j\ne k}\frac{1}{z_j-z_k}=\sum_{j<k}\lambda_{j,k}(\overline{z_j}-\overline{z_k})+\sum_{j>k}\lambda_{k,j}(\overline{z_j}-\overline{z_k}),
 $$
 
-as claimed. \hfill $\square$
+as claimed. $\square$
 
 Since Theorem 12 requires that $\lambda_{j,k}g_{j,k}(\mathbf{z})=0$ for all $j$ and $k$, we know that the only Lagrange multipliers $\lambda_{j,k}$ that can be non-zero are those for which $\{j,k\}\in\mathcal{A}(\mathbf{z})$.
 
@@ -364,7 +364,7 @@ For small integers $n\leqslant 3$, the constructions are straightforward and tri
 
 For $n=2$, we have $\Delta=|z_1-z_2||z_2-z_1|=|z_1-z_2|^2\leqslant 2^2$, with equality when $|z_1-z_2|=2$. Thus $\overline{\Delta}_{\max}(2)=2^2/2^2=1$.
 
-For $n=3$, each factor $|z_i-z_j|\leqslant 2$, so $\Delta=\prod_{i\ne j}|z_i-z_j|\leqslant 2^6$. Equality holds for an equilateral triangle of side length 2, hence $\overline{\Delta}_{\max}(3)=2^6/3^3=64/27$. \hfill $\square$
+For $n=3$, each factor $|z_i-z_j|\leqslant 2$, so $\Delta=\prod_{i\ne j}|z_i-z_j|\leqslant 2^6$. Equality holds for an equilateral triangle of side length 2, hence $\overline{\Delta}_{\max}(3)=2^6/3^3=64/27$. $\square$
 
 The first interesting case is $n=4$, where the regular square on the circle of diameter 2 (e.g. $z_1=1$, $z_2=i$, $z_3=-1$, $z_4=-i$) is not optimal. For this square we have $\overline{\Delta}(z_1,z_2,z_3,z_4)=\frac{\bigl(2^2(\sqrt{2})^4\bigr)^2}{4^4}=1$. In fact, the optimum is attained by a kite-shaped configuration (see Fig. 1), with $\overline{\Delta}_{\max}(4)=16(7-4\sqrt{3})\approx 1.1487\ldots$. The square cannot be extremal because its diameter graph consists only of the two diagonals and is therefore disconnected, contradicting Lemma 8.
 
@@ -384,7 +384,7 @@ $$
 \Delta(z_1,\ldots,z_4)=(2^3)^2\cdot 4x\cdot 4y\cdot\left((2-x-y)^2+\left(\sqrt{4x-x^2}-\sqrt{4y-y^2}\right)^2\right)
 $$
 
-The maximum occurs when $\max\{x,y\}=1$, see [7, Computation_P4_n4], implying the diameter graph contains a $K_3$. In the $K_{1,3}$ case, it is easy to see that the two furthest leaves need to be at distance 2. Thus, in both cases, the diameter graph needs to be unicyclic, a $K_3$ plus a pendent edge. A trigonometric argument implies that the pendent edge is a diagonal of the triangle. \hfill $\square$
+The maximum occurs when $\max\{x,y\}=1$, see [7, Computation_P4_n4], implying the diameter graph contains a $K_3$. In the $K_{1,3}$ case, it is easy to see that the two furthest leaves need to be at distance 2. Thus, in both cases, the diameter graph needs to be unicyclic, a $K_3$ plus a pendent edge. A trigonometric argument implies that the pendent edge is a diagonal of the triangle. $\square$
 
 ### 3.2 $n\in\{5,6\}$
 
@@ -1568,7 +1568,7 @@ $$\lambda_{2,4}=\lambda_{1,3}=\frac{3}{4},\qquad\lambda_{2,3}=0,$$
 
 and the two choices of sign correspond to complex conjugation.
 
-The values of $A,B,\lambda_{1,3},\lambda_{2,3},\lambda_{2,4}$ obtained above were derived from (16), (17), (18) together with the reality constraints on the multipliers. Substituting them into (19) shows that (19) is satisfied as well. This completes the proof. \hfill $\square$
+The values of $A,B,\lambda_{1,3},\lambda_{2,3},\lambda_{2,4}$ obtained above were derived from (16), (17), (18) together with the reality constraints on the multipliers. Substituting them into (19) shows that (19) is satisfied as well. This completes the proof. $\square$
 
 Thus, by Claim 29, after our normalization (translation and rotation) the KKT system has a unique solution up to complex conjugation. We may therefore assume
 
@@ -1584,7 +1584,7 @@ $$\Delta=\prod_{1\leqslant i<j\leqslant 4}|z_i-z_j|^2=2\cdot4\cdot1\cdot4\cdot4\
 
 Consequently, case (iii) cannot achieve the global maximum since $16(7-4\sqrt{3})>1$, and any maximizer in the path regime would either satisfy KKT (and hence give $\overline{\Delta}(4)=1$) or else lie on the boundary where an additional distance constraint becomes active, which reduces to case (ii).
 
-Combining the three cases, the unique maximizers (up to congruence and relabeling) are exactly the kites from case (ii), and the maximal value is $16(7-4\sqrt{3})$. \hfill $\square$
+Combining the three cases, the unique maximizers (up to congruence and relabeling) are exactly the kites from case (ii), and the maximal value is $16(7-4\sqrt{3})$. $\square$
 
 ## B Detailed proof of Lemma 16
 
@@ -1707,7 +1707,7 @@ $$
 \max_{\varepsilon_m}\left|\sum_{m=0}^{n-1}\varepsilon_m u_m\right|\leqslant\frac{\ell}{\sin(\delta/2)}=\frac{\sin\delta}{\sin(\delta/2)}=2\cos(\delta/2).
 $$
 
-We conclude that for all $i,j$, $|B_iB_j|\leqslant\cos(\delta/2)=\cos(\pi/2n)$. Hence $\operatorname{diam}(Y)\leqslant\cos(\pi/2n)$. This completes the proof. \hfill$\square$
+We conclude that for all $i,j$, $|B_iB_j|\leqslant\cos(\delta/2)=\cos(\pi/2n)$. Hence $\operatorname{diam}(Y)\leqslant\cos(\pi/2n)$. This completes the proof. $\square$
 
 ## C Computation of the integrals in Section 4
 
@@ -1979,7 +1979,7 @@ The first term integrates to $0$, and integration by parts gives $\int_0^\pi x\c
 $$a_k=\frac{4}{\pi^2}\cdot\frac{1-(-1)^k}{k^2}=\begin{cases}\frac{8}{\pi^2 k^2},&k\ \mathrm{odd},\\
 0,&k\ \mathrm{even}.\end{cases}$$
 
-Absolute convergence follows from $\sum_{k\ \mathrm{odd}}1/k^2<\infty$. \hfill $\square$
+Absolute convergence follows from $\sum_{k\ \mathrm{odd}}1/k^2<\infty$. $\square$
 
 For integers $k$ define, for $x\ne y$,
 
@@ -2003,7 +2003,7 @@ In all cases, $R_kR_\ell$ is a finite sum of exponentials $e^{i(ax+by)}$. Using
 $$\frac{1}{2\pi}\int_0^{2\pi}e^{iax}\,dx=\begin{cases}1,&a=0,\\
 0,&a\ne 0,\end{cases}$$
 
-one checks that a nonzero contribution can occur only when the total $x$-frequency and $y$-frequency both vanish, which forces $k+\ell=2$. When $k+\ell=2$, the number of surviving terms is $1-|k-1|$, and each contributes 1. \hfill $\square$
+one checks that a nonzero contribution can occur only when the total $x$-frequency and $y$-frequency both vanish, which forces $k+\ell=2$. When $k+\ell=2$, the number of surviving terms is $1-|k-1|$, and each contributes 1. $\square$
 
 We use Fejér approximation to justify passing from the kernel identity to our Lipschitz $f$.
 

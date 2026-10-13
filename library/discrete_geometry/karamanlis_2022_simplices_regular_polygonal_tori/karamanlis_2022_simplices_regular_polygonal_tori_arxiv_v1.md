@@ -201,7 +201,7 @@ $$
 \end{aligned}
 $$
 
-Therefore, $Y$ embeds into the $m$-regular polygonal torus $T$ and the proof is completed. \hfill$\square$
+Therefore, $Y$ embeds into the $m$-regular polygonal torus $T$ and the proof is completed. $\square$
 
 ## References
 
