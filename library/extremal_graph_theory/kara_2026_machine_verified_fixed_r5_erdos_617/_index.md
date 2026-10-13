@@ -202,4 +202,5 @@ explicitly distinguish `Problem617At 5` from
 latter remains open. It also describes the result as machine-verified and
 says it has not completed independent expert review (Section 6, p. 8).
 
-No file of this source is held; the card cites the edition it names above.
+The held file is the preprint described above, under the repository's
+Apache-2.0 term, with its transcription beside it.
