@@ -249,7 +249,7 @@ holds for every $x \geq 2,657$. Büthe [5, p. 2495] proved the following result.
 
 Now we use Lemma 2 to obtain the following weaker but more compact upper bounds for $\pi(x)$.
 
-**Corollary 1.** *We have $\pi(x) < \frac{x}{\log x - 1 - \frac{a_1}{\log x} - \frac{a_2}{\log^2 x} - \frac{a_3}{\log^3 x} - \frac{a_4}{\log^4 x} - \frac{a_5}{\log^5 x}$ for every $x \geq x_0$, where*
+**Corollary 1.** *We have $\pi(x) < \frac{x}{\log x - 1 - \frac{a_1}{\log x} - \frac{a_2}{\log^2 x} - \frac{a_3}{\log^3 x} - \frac{a_4}{\log^4 x} - \frac{a_5}{\log^5 x}}$ for every $x \geq x_0$, where*
 
 $$
 \begin{array}{|c||c|c|c|c|c|}

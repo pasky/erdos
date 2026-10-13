@@ -837,8 +837,8 @@ That is,
 
 $$
 \begin{aligned}
-f(t)={}&\sum_{-T\leq i\leq t}\left(\sum_{-T\leq j\leq -1}|A_{ij}\setminus A_{(i-1)j}|q^j(q-1)\\
-&+\frac{1}{2}\sum_{0\leq j\leq L-1}|A_{ij}\setminus A_{(i-1)j}|(q-1)(q^j-q^{-j-1})\right)+\varepsilon_t(1-q^{-1}),
+f(t)={}&\sum_{-T\leq i\leq t}\Biggl(\sum_{-T\leq j\leq -1}|A_{ij}\setminus A_{(i-1)j}|q^j(q-1)\\
+&+\frac{1}{2}\sum_{0\leq j\leq L-1}|A_{ij}\setminus A_{(i-1)j}|(q-1)(q^j-q^{-j-1})\Biggr)+\varepsilon_t(1-q^{-1}),
 \end{aligned}
 $$
 

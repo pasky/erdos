@@ -962,8 +962,8 @@ The rest of this section and the next section is dedicated to bounding $\mathcal
 
 $$
 \begin{aligned}
-\int_{-\infty}^{\infty}S(t)dt\ll{}&\int_{-1/\log(y_{0})}^{1/\log(y_{0})}S(t)dt+\sum_{\substack{(\log(y_{0}))^{-1}<|T|\leqslant(\log_{2}(y_{0}))^{-K}\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt \tag{5.8}\\
-&+\sum_{\substack{(\log_{2}(y_{0}))^{-K}<|T|\leqslant1/1024\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt+\int_{|t|>1/512}S(t)dt \tag{5.9}
+\int_{-\infty}^{\infty}S(t)dt\ll{}&\int_{-1/\log(y_{0})}^{1/\log(y_{0})}S(t)dt+\sum_{\substack{(\log(y_{0}))^{-1}<|T|\leqslant(\log_{2}(y_{0}))^{-K}\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt \qquad (5.8)\\
+&+\sum_{\substack{(\log_{2}(y_{0}))^{-K}<|T|\leqslant1/1024\\ T\text{ dyadic}}}\int_{T}^{2T}S(t)dt+\int_{|t|>1/512}S(t)dt \qquad (5.9)
 \end{aligned}
 $$
 
@@ -1822,7 +1822,7 @@ $$
 \tag{9.5}
 $$
 
-We can bound the second sum in a near identical fashion to the way we handled Lemma 3. Note this will be a much shorter outer sum than we encountered there in Lemma 3, so we can take $r$ and $\mathcal{X}$ as we did there and it will still be summable in $\ell$. To handle the first sum, we look to Section 5.2, and this will follow after some minor changes; namely we define a normalised \emph{submartingale} sequence with respect to filtration $\mathcal{F}_n$ opposed to the normalised \emph{supermartingale} sequence used to prove Theorem 1.
+We can bound the second sum in a near identical fashion to the way we handled Lemma 3. Note this will be a much shorter outer sum than we encountered there in Lemma 3, so we can take $r$ and $\mathcal{X}$ as we did there and it will still be summable in $\ell$. To handle the first sum, we look to Section 5.2, and this will follow after some minor changes; namely we define a normalised *submartingale* sequence with respect to filtration $\mathcal{F}_n$ opposed to the normalised *supermartingale* sequence used to prove Theorem 1.
 
 To deal with the first term, we switch the order of summation and integration like we did in Section 3.3. Then the first term is
 

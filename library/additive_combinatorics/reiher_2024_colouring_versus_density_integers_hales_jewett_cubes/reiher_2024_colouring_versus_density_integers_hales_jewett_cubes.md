@@ -24,31 +24,31 @@ $\square$
 
 We acknowledge financial support from the Open Access Publication Fund of Universität Hamburg. The second and third author were supported by NSF grant DMS 1764385, and the second author was also supported by NSF grant DMS 2300347.
 
-In other words, Szemerédi’s theorem states that every subset of $\mathds{N}$ with positive upper density contains arbitrarily long arithmetic progressions. This result stimulated a lot of research and today there are many proofs using tools from a diverse spectrum of mathematical areas, including ergodic theory and higher order Fourier analysis (see, e.g., [13, 14, 16, 17, 20, 31, 33]).
+In other words, Szemerédi’s theorem states that every subset of $\mathbb{N}$ with positive upper density contains arbitrarily long arithmetic progressions. This result stimulated a lot of research and today there are many proofs using tools from a diverse spectrum of mathematical areas, including ergodic theory and higher order Fourier analysis (see, e.g., [13, 14, 16, 17, 20, 31, 33]).
 
-Similar to the van der Waerden property $\vdW(k,r)$ one can define a property related to Theorem 1.2. For an integer $k\geq 3$ and a real $\delta>0$ we say that a finite set of integers $X\subseteq\mathds{N}$ has the *Szemerédi property* $\Sz(k,\delta)$ if every subset $Y\subseteq X$ of size $|Y|\geq\delta|X|$ contains an $\AP_k$. So Szemerédi’s theorem states that $[n]$ has the property $\Sz(k,\delta)$ whenever $n\geq n_0(k,\delta)$.
+Similar to the van der Waerden property $\mathrm{vdW}(k,r)$ one can define a property related to Theorem 1.2. For an integer $k\geq 3$ and a real $\delta>0$ we say that a finite set of integers $X\subseteq\mathbb{N}$ has the *Szemerédi property* $\mathrm{Sz}(k,\delta)$ if every subset $Y\subseteq X$ of size $|Y|\geq\delta|X|$ contains an $\mathrm{AP}_k$. So Szemerédi’s theorem states that $[n]$ has the property $\mathrm{Sz}(k,\delta)$ whenever $n\geq n_0(k,\delta)$.
 
-By looking at the densest colour class one sees that for $\delta\leq 1/r$ the property $\Sz(k,\delta)$ yields $\vdW(k,r)$. In this sense, Szemerédi’s theorem implies van der Waerden’s theorem. One could argue that Szemerédi’s original proof shows that, conversely, van der Waerden’s theorem implies his theorem, but it is safe to say that this direction is a lot deeper. Motivated by a famous problem of Pisier [23] the following question was considered in [1, 9].
+By looking at the densest colour class one sees that for $\delta\leq 1/r$ the property $\mathrm{Sz}(k,\delta)$ yields $\mathrm{vdW}(k,r)$. In this sense, Szemerédi’s theorem implies van der Waerden’s theorem. One could argue that Szemerédi’s original proof shows that, conversely, van der Waerden’s theorem implies his theorem, but it is safe to say that this direction is a lot deeper. Motivated by a famous problem of Pisier [23] the following question was considered in [1, 9].
 
 **Question 1.3.** *Is it true that for every $k\geq 3$ there are $\delta>0$ and a set of integers $X$ such that*
 
-*(i) $X$ has the property $\vdW(k,r)$ for every $r\geq 1$;*
+*(i) $X$ has the property $\mathrm{vdW}(k,r)$ for every $r\geq 1$;*
 
-*(ii) every finite $Y\subseteq X$ fails to have property $\Sz(k,\delta)$?*
+*(ii) every finite $Y\subseteq X$ fails to have property $\mathrm{Sz}(k,\delta)$?*
 
-The question did also appear in a list of open problems in additive combinatorics compiled by Croot and Lev (see [2, Problem 3.10]). Notice that a negative answer would show that the properties $\vdW(k,r)$ and $\Sz(k,\delta)$ are equivalent. This would, in particular, provide a surprising new way of deducing Szemerédi’s theorem from van der Waerden’s theorem. For this reason, the authors of [9] conjectured that Question 1.3 has a positive answer. The present work confirms this.
+The question did also appear in a list of open problems in additive combinatorics compiled by Croot and Lev (see [2, Problem 3.10]). Notice that a negative answer would show that the properties $\mathrm{vdW}(k,r)$ and $\mathrm{Sz}(k,\delta)$ are equivalent. This would, in particular, provide a surprising new way of deducing Szemerédi’s theorem from van der Waerden’s theorem. For this reason, the authors of [9] conjectured that Question 1.3 has a positive answer. The present work confirms this.
 
-**Theorem 1.4.** *For every integer $k\geq 3$ and real $\mu\in(0,\frac{k-1}{k})$ there is a set of natural numbers $X=X(k,\mu)\subseteq\mathds{N}$ such that*
+**Theorem 1.4.** *For every integer $k\geq 3$ and real $\mu\in(0,\frac{k-1}{k})$ there is a set of natural numbers $X=X(k,\mu)\subseteq\mathbb{N}$ such that*
 
-*(i) for every $r\geq 1$ every $r$-colouring of $X$ contains a monochromatic $\AP_k$,*
+*(i) for every $r\geq 1$ every $r$-colouring of $X$ contains a monochromatic $\mathrm{AP}_k$,*
 
-*(ii) but every finite subset $Y\subseteq X$ contains a subset $Z\subseteq Y$ of size $|Z|\geq\mu|Y|$ without an $\AP_k$.*
+*(ii) but every finite subset $Y\subseteq X$ contains a subset $Z\subseteq Y$ of size $|Z|\geq\mu|Y|$ without an $\mathrm{AP}_k$.*
 
-We remark that Theorem 1.4 does not hold for $\mu>\frac{k-1}{k}$. Indeed, every set $X\subseteq\mathds{N}$ satisfying condition (i) must contain an $\AP_k$. By taking $Y\subseteq X$ to be an $\AP_k$, we have $|Y|=k$. Therefore, the only subset $Z\subseteq Y$ with $|Z|\geq\mu|Y|$ is $Y$ itself. So $Y$ has the property $\Sz(k,\mu)$.
+We remark that Theorem 1.4 does not hold for $\mu>\frac{k-1}{k}$. Indeed, every set $X\subseteq\mathbb{N}$ satisfying condition (i) must contain an $\mathrm{AP}_k$. By taking $Y\subseteq X$ to be an $\mathrm{AP}_k$, we have $|Y|=k$. Therefore, the only subset $Z\subseteq Y$ with $|Z|\geq\mu|Y|$ is $Y$ itself. So $Y$ has the property $\mathrm{Sz}(k,\mu)$.
 
-**1.2. Multidimensional version.** Gallai and Witt discovered independently that van der Waerden’s theorem generalises as follows to higher dimensions. If $F\subseteq\mathds{Z}^{d}$ is a finite configuration of $d$-dimensional lattice points and $r$ denotes a number of colours, then there is some integer $n=n(F,r)$ such that for every $r$-colouring of $[n]^d$ there is a monochromatic homothetic copy of $F$. This means that there are a vector $v\in\mathds{Z}^d$ and a positive integral scaling factor $\lambda$ such that the set $v+\lambda F=\{v+\lambda f\colon f\in F\}$ is contained in $[n]^d$ and all of its points have the same colour. There is also a multidimensional version of Szemerédi’s theorem, first proved by Fürstenberg and Katznelson [14], which asserts that for every finite configuration $F\subseteq\mathds{Z}^d$ and every positive real $\delta$ there exists some $n=n(F,\delta)$ such that every set $A\subseteq[n]^d$ of size $|A|\geq\delta n^d$ contains a homothetic copy of $F$.
+**1.2. Multidimensional version.** Gallai and Witt discovered independently that van der Waerden’s theorem generalises as follows to higher dimensions. If $F\subseteq\mathbb{Z}^{d}$ is a finite configuration of $d$-dimensional lattice points and $r$ denotes a number of colours, then there is some integer $n=n(F,r)$ such that for every $r$-colouring of $[n]^d$ there is a monochromatic homothetic copy of $F$. This means that there are a vector $v\in\mathbb{Z}^d$ and a positive integral scaling factor $\lambda$ such that the set $v+\lambda F=\{v+\lambda f\colon f\in F\}$ is contained in $[n]^d$ and all of its points have the same colour. There is also a multidimensional version of Szemerédi’s theorem, first proved by Fürstenberg and Katznelson [14], which asserts that for every finite configuration $F\subseteq\mathbb{Z}^d$ and every positive real $\delta$ there exists some $n=n(F,\delta)$ such that every set $A\subseteq[n]^d$ of size $|A|\geq\delta n^d$ contains a homothetic copy of $F$.
 
-When formulating a multidimensional version of Theorem 1.4 one can make the second clause stronger by forbidding the large subsets $Z$ to contain “copies of $F$” in a sense more general than “homothetic copies”. Given a finite configuration $F\subseteq\mathds{Z}^d$ and a set $Z\subseteq\mathds{Z}^d$ we shall say that $Z$ is $F$-free if there is no nonzero real scaling factor $\lambda$ such that $Z$ contains a congruent copy of $\lambda F$.
+When formulating a multidimensional version of Theorem 1.4 one can make the second clause stronger by forbidding the large subsets $Z$ to contain “copies of $F$” in a sense more general than “homothetic copies”. Given a finite configuration $F\subseteq\mathbb{Z}^d$ and a set $Z\subseteq\mathbb{Z}^d$ we shall say that $Z$ is $F$-free if there is no nonzero real scaling factor $\lambda$ such that $Z$ contains a congruent copy of $\lambda F$.
 
 Illustrating the difference between these concepts we consider the sets
 
@@ -56,9 +56,9 @@ $$
 F=\{(0,0),(0,1),(1,0),(1,1)\}\qquad\text{and}\qquad F^{\prime}=\{(1,0),(-1,0),(0,1),(0,-1)\},
 $$
 
-both of which are squares in $\mathds{Z}^{2}$. They fail to be homothetic copies of each other, but $F^{\prime}$ is a congruent copy of $\sqrt{2}F$.
+both of which are squares in $\mathbb{Z}^{2}$. They fail to be homothetic copies of each other, but $F^{\prime}$ is a congruent copy of $\sqrt{2}F$.
 
-**Theorem 1.5.** For every finite configuration $F\subseteq\mathds{Z}^{d}$ of $|F|=k\geq 3$ points and every real $\mu\in(0,\frac{k-1}{k})$ there is a set of lattice points $X=X(F,\mu)\subseteq\mathds{N}^{d}$ such that
+**Theorem 1.5.** For every finite configuration $F\subseteq\mathbb{Z}^{d}$ of $|F|=k\geq 3$ points and every real $\mu\in(0,\frac{k-1}{k})$ there is a set of lattice points $X=X(F,\mu)\subseteq\mathbb{N}^{d}$ such that
 
 (i) for every $r\geq 1$, every $r$-colouring of $X$ contains a monochromatic homothetic copy of $F$,
 
@@ -90,9 +90,9 @@ In fact, the set $\mathcal{X}$ we construct will also have the property that eve
 
 In this section we assume that Theorem 1.7 is true and show how to derive Theorem 1.5 from it. Since Theorem 1.4 agrees with the case $d = 1$ and $F = [k]$ of Theorem 1.5, this means that we will only have to prove Theorem 1.7 in later sections.
 
-We indicate the Euclidean norm in $\mathds{R}^{d}$ by $\|\cdot\|$ and $(x,y)\longmapsto x\cdot y$ denotes the standard scalar product in the Euclidean space $\mathds{R}^{d}$. Here is a simple statement that will later assist us in the selection of a “sufficiently large” number.
+We indicate the Euclidean norm in $\mathbb{R}^{d}$ by $\|\cdot\|$ and $(x,y)\longmapsto x\cdot y$ denotes the standard scalar product in the Euclidean space $\mathbb{R}^{d}$. Here is a simple statement that will later assist us in the selection of a “sufficiently large” number.
 
-**Lemma 2.1.** For every finite configuration $F\subseteq\mathds{R}^{d}$ there is a positive real $\varepsilon=\varepsilon(F)$ such that for all functions $\varrho$, $\sigma$ from $F$ to $F$ the following holds: If there is a real $q$ with
+**Lemma 2.1.** For every finite configuration $F\subseteq\mathbb{R}^{d}$ there is a positive real $\varepsilon=\varepsilon(F)$ such that for all functions $\varrho$, $\sigma$ from $F$ to $F$ the following holds: If there is a real $q$ with
 
 $$
 \left|q\|f^{\prime}-f^{\prime\prime}\|^{2}-\bigl(\varrho(f^{\prime})-\varrho(f^{\prime\prime})\bigr)\cdot\bigl(\sigma(f^{\prime})-\sigma(f^{\prime\prime})\bigr)\right|\leq\varepsilon\quad\text{for all }f^{\prime},f^{\prime\prime}\in F, \tag{2.1}
@@ -104,7 +104,7 @@ $$
 \overline{q}\|f^{\prime}-f^{\prime\prime}\|^{2}=\bigl(\varrho(f^{\prime})-\varrho(f^{\prime\prime})\bigr)\cdot\bigl(\sigma(f^{\prime})-\sigma(f^{\prime\prime})\bigr)\quad\text{for all }f^{\prime},f^{\prime\prime}\in F. \tag{2.2}
 $$
 
-*Proof.* We shall show first that for every fixed pair $(\varrho,\sigma)$ there is such a constant $\varepsilon_{\varrho\sigma}$. If (2.2) holds for some $\overline{q}$ there is nothing to show, so we can assume that no such $\overline{q}$ exists. This state of affairs can be expressed in the following way in the vector space $\mathds{R}^{F\times F}$. Let $v\in\mathds{R}^{F\times F}$ be the vector with $(f^{\prime},f^{\prime\prime})$-entry $\|f^{\prime}-f^{\prime\prime}\|^{2}$ for every pair $(f^{\prime},f^{\prime\prime})\in F^{2}$ and, similarly, let $w$ be the vector with $(f^{\prime},f^{\prime\prime})$-entry $\bigl(\varrho(f^{\prime})-\varrho(f^{\prime\prime})\bigr)\cdot\bigl(\sigma(f^{\prime})-\sigma(f^{\prime\prime})\bigr)$. The absence of $\overline{q}$ means that $w$ does not belong to the subspace $V=\mathds{R}v$ of $\mathds{R}^{F\times F}$ generated by $v$. Hence, there is some $\varepsilon_{\varrho\sigma}>0$ such that the distance of $w$ from any point in $V$ exceeds $|F|\varepsilon_{\varrho\sigma}$. Now if (2.1) held for some $q\in\mathds{R}$ and for $\varepsilon_{\varrho\sigma}$ instead of $\varepsilon$, then
+*Proof.* We shall show first that for every fixed pair $(\varrho,\sigma)$ there is such a constant $\varepsilon_{\varrho\sigma}$. If (2.2) holds for some $\overline{q}$ there is nothing to show, so we can assume that no such $\overline{q}$ exists. This state of affairs can be expressed in the following way in the vector space $\mathbb{R}^{F\times F}$. Let $v\in\mathbb{R}^{F\times F}$ be the vector with $(f^{\prime},f^{\prime\prime})$-entry $\|f^{\prime}-f^{\prime\prime}\|^{2}$ for every pair $(f^{\prime},f^{\prime\prime})\in F^{2}$ and, similarly, let $w$ be the vector with $(f^{\prime},f^{\prime\prime})$-entry $\bigl(\varrho(f^{\prime})-\varrho(f^{\prime\prime})\bigr)\cdot\bigl(\sigma(f^{\prime})-\sigma(f^{\prime\prime})\bigr)$. The absence of $\overline{q}$ means that $w$ does not belong to the subspace $V=\mathbb{R}v$ of $\mathbb{R}^{F\times F}$ generated by $v$. Hence, there is some $\varepsilon_{\varrho\sigma}>0$ such that the distance of $w$ from any point in $V$ exceeds $|F|\varepsilon_{\varrho\sigma}$. Now if (2.1) held for some $q\in\mathbb{R}$ and for $\varepsilon_{\varrho\sigma}$ instead of $\varepsilon$, then
 
 $$
 \|qv-w\|^{2}=\sum_{(f^{\prime},f^{\prime\prime})\in F^{2}}\left|q\|f^{\prime}-f^{\prime\prime}\|^{2}-\bigl(\varrho(f^{\prime})-\varrho(f^{\prime\prime})\bigr)\cdot\bigl(\sigma(f^{\prime})-\sigma(f^{\prime\prime})\bigr)\right|^{2}\leq |F|^{2}\varepsilon_{\varrho\sigma}^{2}
@@ -114,13 +114,13 @@ would contradict the choice of $\varepsilon_{\varrho\sigma}$. This concludes the
 
 We proceed with a finitary version of Theorem 1.5.
 
-**Proposition 2.2.** Given a finite configuration $F\subseteq\mathds{Z}^{d}$ of $k=|F|\geq 3$ points, a number of colours $r\geq 1$, and a real $\mu\in(0,\frac{k-1}{k})$ there exists a finite set $X=X(F,r,\mu)\subseteq\mathds{N}^{d}$ such that
+**Proposition 2.2.** Given a finite configuration $F\subseteq\mathbb{Z}^{d}$ of $k=|F|\geq 3$ points, a number of colours $r\geq 1$, and a real $\mu\in(0,\frac{k-1}{k})$ there exists a finite set $X=X(F,r,\mu)\subseteq\mathbb{N}^{d}$ such that
 
 (i) for every $r$-colouring of $X$ there is a monochromatic homothetic copy of $F$
 
 (ii) and every $Y\subseteq X$ has an $F$-free subset $Z\subseteq Y$ of size $|Z|\geq\mu|Y|$.
 
-*Proof.* By translating $F$ we may assume that $F\subseteq\mathds{N}^{d}$. Let $F=\{f_{1},\ldots,f_{k}\}$ enumerate the points of $F$. Owing to Theorem 1.7 there are a natural number $n$ and a set $\mathcal{X}\subseteq[k]^{n}$ such that
+*Proof.* By translating $F$ we may assume that $F\subseteq\mathbb{N}^{d}$. Let $F=\{f_{1},\ldots,f_{k}\}$ enumerate the points of $F$. Owing to Theorem 1.7 there are a natural number $n$ and a set $\mathcal{X}\subseteq[k]^{n}$ such that
 
 (a) for every $r$-colouring of $\mathcal{X}$ there is a monochromatic combinatorial line
 
@@ -156,7 +156,7 @@ for all $i,j\in[k]$. Writing $a_i=(a_i(1),\ldots,a_i(n))$ for every $i\in[k]$ we
 *for all $\nu,\nu'\in[n]$ there is a real $q_{\nu,\nu'}$, such that*
 
 $$
-(f_{a_i(\nu)}-f_{a_j(\nu)})\cdot(f_{a_i(\nu')}-f_{a_j(\nu')})=q_{\nu,\nu'}\|f_i-f_j\|^2 \tag{\star}
+(f_{a_i(\nu)}-f_{a_j(\nu)})\cdot(f_{a_i(\nu')}-f_{a_j(\nu')})=q_{\nu,\nu'}\|f_i-f_j\|^2 \tag{$\star$}
 $$
 
 *holds for all $i,j\in[k]$.*
@@ -213,7 +213,7 @@ for all $i,j\in[k]$. Hence, for every fixed $\nu$ the map $f_i\longmapsto f_{a_i
 
 After this preparation, part $(ii)$ of the theorem is straightforward. Let an arbitrary set $Y\subseteq X$ be given. Due to $(b)$ the set $\mathcal{Y}=\varphi^{-1}[Y]\subseteq\mathcal{X}$ has a subset $\mathcal{Z}\subseteq\mathcal{Y}$ of size $|\mathcal{Z}|\geq\mu|\mathcal{Y}|$ containing no quasilines. By Claim 2.3 the set $Z=\varphi(\mathcal{Z})$ is $F$-free and, since $\varphi$ is injective, it is also sufficiently dense. $\square$
 
-**Remark 2.4.** Here is a simpler proof for the special case $d=1$ and $F=[k]$ of Claim 2.3. Again we write $L=\{a_1,\ldots,a_k\}$ and $a_i=(a_i(1),\ldots,a_i(n))$ for every $i\in[k]$. Since $\varphi(a_1),\ldots,\varphi(a_k)$ is an $\AP_k$, we have
+**Remark 2.4.** Here is a simpler proof for the special case $d=1$ and $F=[k]$ of Claim 2.3. Again we write $L=\{a_1,\ldots,a_k\}$ and $a_i=(a_i(1),\ldots,a_i(n))$ for every $i\in[k]$. Since $\varphi(a_1),\ldots,\varphi(a_k)$ is an $\mathrm{AP}_k$, we have
 
 $$
 \sum_{\nu=1}^{n}T^{2^\nu}\bigl(a_{i+1}(\nu)-2a_i(\nu)+a_{i-1}(\nu)\bigr)
@@ -224,7 +224,7 @@ for every $i\in[2,k-1]$. Thus a sufficiently large choice of $T$ guarantees that
 
 It remains to deduce Theorem 1.5 from the finitary version we have just obtained.
 
-*Proof of Theorem 1.5.* For every $r\geq 1$ let $X_r=X(F,r,\mu)$ be the set generated by Proposition 2.2. Take a sequence $(v_r)_{r\geq 1}$ of vectors in $\mathds{N}^{d}$ such that $\|v_r\|$ tends to infinity sufficiently fast and define
+*Proof of Theorem 1.5.* For every $r\geq 1$ let $X_r=X(F,r,\mu)$ be the set generated by Proposition 2.2. Take a sequence $(v_r)_{r\geq 1}$ of vectors in $\mathbb{N}^{d}$ such that $\|v_r\|$ tends to infinity sufficiently fast and define
 
 $$
 X=\dot{\bigcup}_{r\geq 1}(v_r+X_r)\,.

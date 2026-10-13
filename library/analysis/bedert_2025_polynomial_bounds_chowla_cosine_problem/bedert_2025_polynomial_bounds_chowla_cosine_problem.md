@@ -792,8 +792,8 @@ $$
 
 $$
 \begin{aligned}
-\hat{1}_{B^{\prime}_{t}}+\hat{1}_{-B^{\prime}_{t}}&=R_{1}+R_{2} \tag{33}\\
-\hat{1}_{B^{\prime}_{t}}-\hat{1}_{-B^{\prime}_{t}}&=S_{1}+S_{2}, \tag{34}
+\hat{1}_{B^{\prime}_{t}}+\hat{1}_{-B^{\prime}_{t}}&=R_{1}+R_{2} \qquad (33)\\
+\hat{1}_{B^{\prime}_{t}}-\hat{1}_{-B^{\prime}_{t}}&=S_{1}+S_{2}, \qquad (34)
 \end{aligned}
 $$
 

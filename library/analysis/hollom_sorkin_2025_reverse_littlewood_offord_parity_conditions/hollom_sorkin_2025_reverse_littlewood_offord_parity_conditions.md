@@ -373,7 +373,7 @@ $$
 
 We claim that it suffices to prove that the sequence $W=(e_1,\ldots,e_d,y)$ is $(d-6\varepsilon^{1/4}d^3)$-approximating.
 
-Indeed, if the above does hold, then for any point $p$ in $\Conv(S(W))$, we have that
+Indeed, if the above does hold, then for any point $p$ in $\operatorname{Conv}(S(W))$, we have that
 
 $$
 \begin{aligned}
@@ -415,7 +415,7 @@ It is therefore clear that $\max\{y_2,y_3,\dotsc,y_d\}>\sqrt{\zeta/2d}$. Thus, b
 
 Recalling that $\zeta=18\varepsilon^{1/4}d^4$, we find that $\zeta/2d>6\varepsilon^{1/4}d^3$, and so $W$ can $(d-6\varepsilon^{1/4}d^3)$-approximate any point in the convex hull of a parallelotope corresponding to a $d$-subsequence $Y$ as above.
 
-**Step 5: approximating the centre of a hypercube.** The remaining part of the proof of Lemma $4.1$ is to show that the points corresponding to $\Conv(S(E))$ are suitably well-approximated. Indeed, the points close to the centre of this hypercube are not well-approximated by the vertices, and so we will have to make use of the other points of $S(W)$. Moving the origin, we must show that every point in $\Conv(S(E))$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)\cup(S(E)+2y)$. In fact, the only point of $S(E)+2y$ we will use is $\sum_{i=1}^{d}(2y_i-1)e_i$.
+**Step 5: approximating the centre of a hypercube.** The remaining part of the proof of Lemma $4.1$ is to show that the points corresponding to $\operatorname{Conv}(S(E))$ are suitably well-approximated. Indeed, the points close to the centre of this hypercube are not well-approximated by the vertices, and so we will have to make use of the other points of $S(W)$. Moving the origin, we must show that every point in $\operatorname{Conv}(S(E))$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)\cup(S(E)+2y)$. In fact, the only point of $S(E)+2y$ we will use is $\sum_{i=1}^{d}(2y_i-1)e_i$.
 
 Indeed, by Lemma $4.2$, the point $p=\sum_{i=1}^{d}\lambda_i e_i$ is $(d-6\varepsilon^{1/4}d^3)$-approximated by a point of $S(E)$ unless, for all $i$, $\lvert\lambda_i\rvert<6\varepsilon^{1/4}d^3$.
 

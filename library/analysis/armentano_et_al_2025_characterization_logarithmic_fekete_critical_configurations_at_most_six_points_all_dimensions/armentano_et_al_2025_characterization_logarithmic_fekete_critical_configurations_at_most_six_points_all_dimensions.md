@@ -166,7 +166,7 @@ We now use a corollary of the following well-known result.
 
 **Corollary 1.** *If $X\in\mathbb{C}^{n\times n}$ is symmetric with rank $d$, and ones on its diagonal, there exists $W\in\mathbb{C}^{d\times n}$, such that: $X=W^TW$, and $w_i^Tw_i=1,\ \forall i$.*
 
-*Proof.* As $X$ is symmetric: $X=P^TDP$. Take: $W=\sqrt{\widehat{D}}P$; where $\widehat{D}\in\mathbb{R}^{d\times n}$ is the submatrix of $D$ with the positive singular values. \hfill$\square$
+*Proof.* As $X$ is symmetric: $X=P^TDP$. Take: $W=\sqrt{\widehat{D}}P$; where $\widehat{D}\in\mathbb{R}^{d\times n}$ is the submatrix of $D$ with the positive singular values. $\square$
 
 We call $X$ the dot product matrix, as we may write $X=W^TW$. Thus, given a solution $X\in\mathbb{C}^{n\times n}$ of rank $d$, we obtain a configuration $(w_1,\ldots,w_n)$ given by the columns of $W\in\mathbb{C}^{d\times n}$. As the relation between both equation systems is obtained by taking dot product with $w_i$, $i=1,\ldots,n$, and this set is a generator of $\mathbb{C}^{d}$, we get that both systems are equivalent. Thus, we do not lose or introduce solutions in $\mathbb{C}$. The next result characterizes the correspondence between real solutions of both systems, which is the ones we are really interested in.
 
@@ -204,7 +204,7 @@ Note that this formulation gives the critical configurations for all sphere dime
 $$
 \begin{array}{ccccc}
 \hline
-& \multicolumn{4}{c}{k\ /\ \operatorname{rank}(X)\leq k}\\
+& k\ /\ \operatorname{rank}(X)\leq k & & & \\
 n & 2 & 3 & 4 & 5\\
 \hline
 5 & 25 & 1 & & \\

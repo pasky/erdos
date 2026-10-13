@@ -2041,9 +2041,9 @@ Thus, by these two estimates, Cauchy-Schwarz and Mertens’ theorem, whenever $Y
 
 $$
 \begin{aligned}
-|\lambda(Y)-\lambda_0(Y)|\log Y&\ll|\lambda(Y)-\lambda_0(Y)|\sum_{Y^{1/2}<p\leq Y}\frac{\log p}{p}\tag{26}\\
+|\lambda(Y)-\lambda_0(Y)|\log Y&\ll|\lambda(Y)-\lambda_0(Y)|\sum_{Y^{1/2}<p\leq Y}\frac{\log p}{p}\qquad (26)\\
 &\leq\sum_{Y^{1/2}<p\leq Y}\frac{|g(p)-\lambda_0(Y)\log p|}{p}+\sum_{Y^{1/2}<p\leq Y}\frac{|g(p)-\lambda(Y)\log p|}{p}\\
-&\leq B_{g_{\lambda_0}}(Y)\left(\sum_{Y^{1/2}<p\leq Y}\frac{1}{p}\right)^{1/2}+o(B_g(Y))=o(B_g(X)).\tag{27}
+&\leq B_{g_{\lambda_0}}(Y)\left(\sum_{Y^{1/2}<p\leq Y}\frac{1}{p}\right)^{1/2}+o(B_g(Y))=o(B_g(X)).\qquad (27)
 \end{aligned}
 $$
 

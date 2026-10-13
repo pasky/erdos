@@ -626,7 +626,7 @@ $$
 \end{aligned}
 $$
 
-\hfill $\square$
+$\square$
 
 **4.2. Lower triangular orbits.** For Type II sums we require the following technical propo-
 sition. The appearing functional is motivated by Lemma 3.2 with the identification $v=$
@@ -1231,8 +1231,10 @@ where for $H=X^{\eta^2}d/B$ we get by the Weil bound (cf. [9, Section 5])
 $$
 E=\frac{1}{H}\sum_{0<|h|\leq H}
 \left|\sum_{\substack{x,y\,(\mathrm{mod}\ d)\\ ax^2+by^3\equiv 0\,(\mathrm{mod}\ d)}}e_d(hy)\right|
-\ll d^{1/2+o(1)}.\hfill\square
+\ll d^{1/2+o(1)}.
 $$
+
+$\square$
 
 *Proof of Proposition 8.1 assuming Proposition 8.2.* With an application of Lemma 8.3 and expanding the $\mu(k)^2$ via Möbius function, trivially bounding the contribution from square-divisors larger than $X^{\eta^2}$, it suffices to show that
 
@@ -1345,10 +1347,10 @@ Proposition 8.2 now follows with the choice $Z_1=D$ and $Z_2=1+DB^{-1/2}$, which
 
 [11] A. Tóth. Roots of quadratic congruences. *Internat. Math. Res. Notices*, 14:719–739, 2000.
 
-\textsc{Mathematical Institute, University of Oxford, Radcliffe Observatory Quarter, Woodstock Rd, Oxford OX2 6GG, UK}
+Mathematical Institute, University of Oxford, Radcliffe Observatory Quarter, Woodstock Rd, Oxford OX2 6GG, UK
 
 *Email address:* lasse.grimmelt@maths.ox.ac.uk
 
-\textsc{Mathematical Institute, University of Oxford, Radcliffe Observatory Quarter, Woodstock Rd, Oxford OX2 6GG, UK}
+Mathematical Institute, University of Oxford, Radcliffe Observatory Quarter, Woodstock Rd, Oxford OX2 6GG, UK
 
 *Email address:* jori.merikoski@maths.ox.ac.uk

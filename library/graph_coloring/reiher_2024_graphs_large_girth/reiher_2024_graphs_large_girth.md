@@ -78,7 +78,7 @@ Hoffman and Singleton [62] constructed another such graph for $d=7$, and the sam
 
 **Theorem 2.2 (Hoffman & Singleton).** *If a $d$-regular graph $G$ on $d^2+1$ vertices satisfying $\mathrm{girth}(G)\geq 5$ exists, then $d\in\{1,2,3,7,57\}$.*
 
-*Proof.* Set $n=d^2+1$ and consider any $d$-regular graph $G$ with vertex set $[n]$ and $\mathrm{girth}(G)\geq 5$. Let $A\in{\mathds{R}}^{n\times n}$ be the adjacency matrix of $G$. Since the $(i,j)$-entry of $A^2$ is just the number of vertices $k$ such that $ik,jk\in E(G)$, we have
+*Proof.* Set $n=d^2+1$ and consider any $d$-regular graph $G$ with vertex set $[n]$ and $\mathrm{girth}(G)\geq 5$. Let $A\in{\mathbb{R}}^{n\times n}$ be the adjacency matrix of $G$. Since the $(i,j)$-entry of $A^2$ is just the number of vertices $k$ such that $ik,jk\in E(G)$, we have
 
 $$
 A^2+A=(d-1)\cdot I+J\,, \tag{2.1}
@@ -138,7 +138,7 @@ It is well known that for each finite projective plane there exists an integer $
 
 Currently it is not even known whether a projective plane of order 12 exists and it would not contradict known results if one counter-conjectured that projective planes of order $n$ exist whenever $n$ is a sufficiently large multiple of 4.
 
-There is also another construction of projective planes that on first sight might seem preferable, as it only requires an additive structure rather than a field structure. A *perfect difference set* of order $n$ is a subset $K$ of the cyclic group ${\mathds{Z}}/(n^{2}+n+1){\mathds{Z}}$ such that $|K|=n+1$ and every nonzero residue class modulo $n^{2}+n+1$ can be expressed (uniquely) as a difference of two members of $K$. For instance, $\{0,1,4,6\}$ is a perfect difference set of order 3. From any perfect difference set $K$ of order $n$ we can construct a projective plane of order $n$ whose points are the residue classes modulo $n^{2}+n+1$ and whose lines are the translates of $K$. It has been shown by Singer [119] that for every prime power $n$ there exists a perfect difference set of order $n$.
+There is also another construction of projective planes that on first sight might seem preferable, as it only requires an additive structure rather than a field structure. A *perfect difference set* of order $n$ is a subset $K$ of the cyclic group ${\mathbb{Z}}/(n^{2}+n+1){\mathbb{Z}}$ such that $|K|=n+1$ and every nonzero residue class modulo $n^{2}+n+1$ can be expressed (uniquely) as a difference of two members of $K$. For instance, $\{0,1,4,6\}$ is a perfect difference set of order 3. From any perfect difference set $K$ of order $n$ we can construct a projective plane of order $n$ whose points are the residue classes modulo $n^{2}+n+1$ and whose lines are the translates of $K$. It has been shown by Singer [119] that for every prime power $n$ there exists a perfect difference set of order $n$.
 
 **Conjecture 2.7** (Weak prime power conjecture). If a perfect difference set of order $n$ exists, then $n$ is a prime power.
 
@@ -237,16 +237,16 @@ Concerning their underlying groups, we recall that for every field $F$ the gener
 We proceed with some considerations that will eventually lead us to the generating set $S$ of the Cayley graph we wish to define. Fix a prime number $p$ such that $p\equiv1\pmod{4}$. A result due to Jacobi [65, §66] (see also [61, Theorem 386]) informs us that there are $8(p+1)$ quadruples of integers whose squares sum up to $p$. Hence there are $p+1$ quadruples $(a,b,c,d)$ such that $a$ is a positive odd integer, $b$, $c$, $d$ are even integers, and $p=a^2+b^2+c^2+d^2$. Let us now write
 
 $$
-\mathds{H}_{\mathds{Z}}=\{a+bi+cj+dk\colon a,b,c,d\in\mathds{Z}\}
+\mathbb{H}_{\mathbb{Z}}=\{a+bi+cj+dk\colon a,b,c,d\in\mathbb{Z}\}
 $$
 
-for the ring of integer quaternions. Our $p+1$ integer quadruples correspond to a set $W_p\subseteq\mathds{H}_{\mathds{Z}}$ of $p+1$ quaternions with norm $p$; they come in $(p+1)/2$ conjugate pairs. We shall require the following easy fact from quaternion arithmetic a proof of which is sketched in [84, Lemma 3.1].
+for the ring of integer quaternions. Our $p+1$ integer quadruples correspond to a set $W_p\subseteq\mathbb{H}_{\mathbb{Z}}$ of $p+1$ quaternions with norm $p$; they come in $(p+1)/2$ conjugate pairs. We shall require the following easy fact from quaternion arithmetic a proof of which is sketched in [84, Lemma 3.1].
 
 **Fact 2.14.** If $\alpha_1,\ldots,\alpha_t\in W_p$ and the product $\alpha_1\cdots\alpha_t$ is divisible$^{*}$ by $p$, then there is some $i\in[t-1]$ such that $\alpha_i$ and $\alpha_{i+1}$ are conjugates. $\square$
 
 Intuitively speaking, this means that $W_p$ behaves like $T\cup T^{-1}$, where $T$ freely generates a group, and conjugation corresponds to taking inverses. In order to build a Cayley graph from this situation, we recall that the quaternion algebra has a two-dimensional complex representation. In particular, non-zero quaternions $a+bi+cj+ck$ multiply in the same way
 
-$^{*}$Since $p$ is in the centre of $\mathds{H}_{\mathds{Z}}$, there is no need to distinguish left- and right divisibility here.
+$^{*}$Since $p$ is in the centre of $\mathbb{H}_{\mathbb{Z}}$, there is no need to distinguish left- and right divisibility here.
 
 as matrices
 
@@ -254,10 +254,10 @@ $$
 \begin{pmatrix}
 a+bi & c+di\\
 -c+di & a-bi
-\end{pmatrix}\in\mathrm{GL}(2,{\mathds{C}})\,. \tag{2.4}
+\end{pmatrix}\in\mathrm{GL}(2,{\mathbb{C}})\,. \tag{2.4}
 $$
 
-As we are aiming for a finite structure, we shall take another prime number $q\neq p$ and work with the finite field ${\mathds{F}}_{q}={\mathds{Z}}/q{\mathds{Z}}$ as opposed to ${\mathds{C}}$. Moreover, we demand $q\equiv 1\pmod{4}$, because then there exists an integer $f$ such that $f^{2}+1$ is divisible by $q$. Thus $f$ can play the rôle of $i$ in (2.4). Let us write $S_{p,q}\subseteq\mathrm{GL}(2,{\mathds{F}}_{q})$ for the image of $W_{p}$ under the map
+As we are aiming for a finite structure, we shall take another prime number $q\neq p$ and work with the finite field ${\mathbb{F}}_{q}={\mathbb{Z}}/q{\mathbb{Z}}$ as opposed to ${\mathbb{C}}$. Moreover, we demand $q\equiv 1\pmod{4}$, because then there exists an integer $f$ such that $f^{2}+1$ is divisible by $q$. Thus $f$ can play the rôle of $i$ in (2.4). Let us write $S_{p,q}\subseteq\mathrm{GL}(2,{\mathbb{F}}_{q})$ for the image of $W_{p}$ under the map
 
 $$
 a+bi+cj+dk\longmapsto
@@ -267,7 +267,7 @@ a+bf & c+df\\
 \end{pmatrix} \tag{2.5}
 $$
 
-and $\overline{S}_{p,q}$ for the corresponding set in $\mathrm{PGL}(2,{\mathds{F}}_{q})$. Clearly the matrices in $S_{p,q}$ have determinant $p$. Moreover, conjugate quaternions $\alpha,\overline{\alpha}\in W_{p}$ represent inverse cosets in $\mathrm{PGL}(2,{\mathds{F}}_{q})$. So $\overline{S}_{p,q}$ is a symmetric subset of $\mathrm{PGL}(2,{\mathds{F}}_{q})$ and one checks easily that
+and $\overline{S}_{p,q}$ for the corresponding set in $\mathrm{PGL}(2,{\mathbb{F}}_{q})$. Clearly the matrices in $S_{p,q}$ have determinant $p$. Moreover, conjugate quaternions $\alpha,\overline{\alpha}\in W_{p}$ represent inverse cosets in $\mathrm{PGL}(2,{\mathbb{F}}_{q})$. So $\overline{S}_{p,q}$ is a symmetric subset of $\mathrm{PGL}(2,{\mathbb{F}}_{q})$ and one checks easily that
 
 $$
 |\overline{S}_{p,q}|=|S_{p,q}|=|W_{p}|=p+1\,.
@@ -276,14 +276,14 @@ $$
 **Theorem 2.15 (Lubotzky, Phillips & Sarnak).** Let $p$ and $q$ be distinct primes such that $p$ is a quadratic nonresidue modulo $q$ and $p,q\equiv 1\pmod{4}$. If $t\geq 2$ denotes a further integer such that $q^{4}>4p^{t}$, then the girth of the Cayley graph
 
 $$
-G_{p,q}=\mathrm{Cayley}(\mathrm{PGL}(2,{\mathds{F}}_{q}),\overline{S}_{p,q})
+G_{p,q}=\mathrm{Cayley}(\mathrm{PGL}(2,{\mathbb{F}}_{q}),\overline{S}_{p,q})
 $$
 
 exceeds $t$. Moreover, $G_{p,q}$ is bipartite.
 
-*Proof.* As the determinants of the matrices in $S_{p,q}$ fail to be squares in ${\mathds{F}}_{q}$, every edge of $G_{p,q}$ has exactly one endvertex in $\mathrm{PSL}(2,{\mathds{F}}_{q})$ and, therefore, $G_{p,q}$ is indeed bipartite.
+*Proof.* As the determinants of the matrices in $S_{p,q}$ fail to be squares in ${\mathbb{F}}_{q}$, every edge of $G_{p,q}$ has exactly one endvertex in $\mathrm{PSL}(2,{\mathbb{F}}_{q})$ and, therefore, $G_{p,q}$ is indeed bipartite.
 
-Now consider a cycle $x_{1}-x_{2}-\cdots-x_{r}$ of length $r=\mathrm{girth}(G_{p,q})$ in $G_{p,q}$. The cosets $\overline{\beta}_{\varrho}\in\overline{S}_{p,q}$ defined by $x_{\varrho+1}=x_{\varrho}\overline{\beta}_{\varrho}$ for every index $\varrho\in{\mathds{Z}}/r{\mathds{Z}}$ have the property that $\overline{\beta}_{1}\cdots\overline{\beta}_{r}$ is the neutral element of $\mathrm{PGL}(2,{\mathds{F}}_{q})$. Therefore there is some $w\in{\mathds{F}}_{q}^{\times}$ such that
+Now consider a cycle $x_{1}-x_{2}-\cdots-x_{r}$ of length $r=\mathrm{girth}(G_{p,q})$ in $G_{p,q}$. The cosets $\overline{\beta}_{\varrho}\in\overline{S}_{p,q}$ defined by $x_{\varrho+1}=x_{\varrho}\overline{\beta}_{\varrho}$ for every index $\varrho\in{\mathbb{Z}}/r{\mathbb{Z}}$ have the property that $\overline{\beta}_{1}\cdots\overline{\beta}_{r}$ is the neutral element of $\mathrm{PGL}(2,{\mathbb{F}}_{q})$. Therefore there is some $w\in{\mathbb{F}}_{q}^{\times}$ such that
 
 $$
 \beta_{1}\cdots\beta_{r}=
@@ -309,7 +309,7 @@ Since $G_{p,q}$ is bipartite, we also know that $r$ is even. So $(p^{r/2}+W)(p^{
 
 Let us now assume for the sake of contradiction that $r\leq t$. By our assumption $4p^t<q^4$ this yields $p^{r/2}<q^2/2$ and in combination with $|W|\leq p^{r/2}$ we learn $|p^{r/2}\pm W|<q^2$. Altogether we must have $W=\pm p^{r/2}$ and $X=Y=Z=0$. So (2.6) tells us, in particular, that $\alpha_1\cdots\alpha_r$ is divisible by $p$. Owing to Fact 2.14 this means that for some $\varrho\in[r-1]$ the quaternions $\alpha_\varrho$, $\alpha_{\varrho+1}$ are conjugates. Consequently $\overline{\beta}_\varrho$, $\overline{\beta}_{\varrho+1}$ are inverse to each other, which in turn implies $x_\varrho=x_{\varrho+2}$. This contradiction to our assumption that $x_1-\cdots-x_r$ be a cycle proves $\mathrm{girth}(G_{p,q})=r>t$. $\square$
 
-Let us now connect this result to the problem of bounding $f(d,g)$. It is not difficult to see that for every $d\leq p+1$ the graph $G_{p,q}$ has a $d$-regular subgraph. Indeed, if $d$ is even we just need to replace $\overline{S}_{p,q}$ by a subset of size $d/2$, and to cover the odd case as well one can exploit that Cayley graphs have cycle factors corresponding to the left cosets of a cyclic subgroup. Thus given $d$ and $g$ we first determine the least prime $p\geq d-1$ with $p\equiv 1\pmod{4}$; next we choose the least prime $q>(4p^g)^{1/4}$ distinct from $p$ such that $p$ is a quadratic non-residue modulo $q$ and $q\equiv 1\pmod{4}$. We then have $f(d,q)\leq|\mathrm{PGL}(2,{\mathds{F}}_{q})|<q^3$. By standard results on primes in arithmetic progressions and quadratic reciprocity we have $p=(1+o(1))d$ and $q=(\sqrt{2}+o(1))p^{g/4}$ (as $d,g\longrightarrow\infty$), which proves (2.3). For the background in multiplicative number theory required here we refer to Davenports’s textbook [28].
+Let us now connect this result to the problem of bounding $f(d,g)$. It is not difficult to see that for every $d\leq p+1$ the graph $G_{p,q}$ has a $d$-regular subgraph. Indeed, if $d$ is even we just need to replace $\overline{S}_{p,q}$ by a subset of size $d/2$, and to cover the odd case as well one can exploit that Cayley graphs have cycle factors corresponding to the left cosets of a cyclic subgroup. Thus given $d$ and $g$ we first determine the least prime $p\geq d-1$ with $p\equiv 1\pmod{4}$; next we choose the least prime $q>(4p^g)^{1/4}$ distinct from $p$ such that $p$ is a quadratic non-residue modulo $q$ and $q\equiv 1\pmod{4}$. We then have $f(d,q)\leq|\mathrm{PGL}(2,{\mathbb{F}}_{q})|<q^3$. By standard results on primes in arithmetic progressions and quadratic reciprocity we have $p=(1+o(1))d$ and $q=(\sqrt{2}+o(1))p^{g/4}$ (as $d,g\longrightarrow\infty$), which proves (2.3). For the background in multiplicative number theory required here we refer to Davenports’s textbook [28].
 
 It is open whether the constant $3/4$ appearing in (2.3) can be replaced by any smaller number, but there have been some other minor improvements during the last decades. For the sake of completeness, we quote the current world record [77].
 
@@ -534,7 +534,7 @@ There are also quite a few problems on digraphs motivated by or related to the C
 
 **Conjecture 2.27** (Chudnovsky, Seymour & Sullivan). Every digraph $G$ with $\mathrm{girth}(G)>3$ satisfies $\beta(G)\leq\gamma(G)/2$, where $\beta(G)$ denotes the least number of arcs of $G$ whose deletion yields an acyclic digraph, and $\gamma(G)$ is the number of non-adjacent pairs of vertices of $G$.
 
-Equality holds for digraphs obtained from balanced blow-ups of the directed four-cycle by inserting transitive tournaments into the four vertex classes. Chudnovsky, Seymour, and Sullivan themselves proved their conjecture for a natural class of digraphs containing these examples, called *circular interval digraphs*. These are the digraphs whose vertex sets can be enumerated in such a way as $\{v_i: i\in\mathds{Z}/n\mathds{Z}\}$ that every vertex $v_i$ has an out-neighbourhood of the form $\{v_{i+1},\dots,v_{i+j(i)}\}$ and an in-neighbourhood of the form $\{v_{i-1},\dots,v_{i-k(i)}\}$. Furthermore they proved the linear bound $\beta(G)\leq\gamma(G)$ for all digraphs $G$ with $\mathrm{girth}(G)>3$, which was strengthened to $\beta(G)\leq 0.88\gamma(G)$ by Dunkum, Hamburger, and Pór [31].
+Equality holds for digraphs obtained from balanced blow-ups of the directed four-cycle by inserting transitive tournaments into the four vertex classes. Chudnovsky, Seymour, and Sullivan themselves proved their conjecture for a natural class of digraphs containing these examples, called *circular interval digraphs*. These are the digraphs whose vertex sets can be enumerated in such a way as $\{v_i: i\in\mathbb{Z}/n\mathbb{Z}\}$ that every vertex $v_i$ has an out-neighbourhood of the form $\{v_{i+1},\dots,v_{i+j(i)}\}$ and an in-neighbourhood of the form $\{v_{i-1},\dots,v_{i-k(i)}\}$. Furthermore they proved the linear bound $\beta(G)\leq\gamma(G)$ for all digraphs $G$ with $\mathrm{girth}(G)>3$, which was strengthened to $\beta(G)\leq 0.88\gamma(G)$ by Dunkum, Hamburger, and Pór [31].
 
 The next problem is due to Seymour and Spirkl [111]. They call a digraph *bipartite* if its underlying graph is bipartite; similarly, by a *bipartition* of a bipartite digraph they mean a bipartition of its underlying graph.
 
@@ -558,7 +558,7 @@ Erdős’ own proof was probabilistic and has been repeated in many textbooks (s
 
 There is a less well-known variant of this argument, due to Rödl [109], which we would like to describe in more detail, because it is sometimes quite useful in other contexts (see e.g., [105, 109]). The basic idea is that we start with a large set of vertices, which does not have any edges yet, and keep adding edges one by one. In each step we want to decrease the number of proper $r$-colourings still available by a constant proportion, so that after not too many steps all potential colourings have been ‘killed’. The only thing we need to avoid is that at some moment we cannot continue because too many candidate edges would close a short cycle. To exclude this outcome, we shall maintain a maximum degree condition, which will ensure that the number of unavailable edges stays under control.
 
-*Proof of Theorem 3.2.* Given $g$ and $r$ we choose auxiliary constants $\alpha > 0$ and $C,n \in {\mathds{N}}$ according to the hierarchy
+*Proof of Theorem 3.2.* Given $g$ and $r$ we choose auxiliary constants $\alpha > 0$ and $C,n \in {\mathbb{N}}$ according to the hierarchy
 
 $$
 n \gg C \gg \alpha^{-1} \gg g,r \, .
@@ -616,7 +616,7 @@ $$
 
 shows that the graph $G+e$ is good, contrary to the maximality of $G$. $\square$
 
-The next two subsections deal with explicit constructions of graphs and hypergraphs with large chromatic number and large girth. In §2.2 we already came quite close to seeing a number theoretic example. Suppose that we change the assumptions of Theorem 2.15 to $p$ being a quadratic residue modulo $q$. Then $G_{p,q}=\mathrm{Cayley}(\mathrm{PSL}(2,\mathds{F}_q),\overline{S}_{p,q})$ is well-defined and an argument similar to the one we have seen shows $\mathrm{girth}(G_{p,q})\geq 2\log_p q$. Lubotzky, Philipps, and Sarnak [84, p.263] have further established $\chi(G_{p,q})\geq(p+1)/2\sqrt{p}$. In particular, by choosing $p$ and $q$ appropriately, the chromatic number and girth of $G_{p,q}$ can both be made arbitrarily large. From now on, we confine ourselves to ‘combinatorial’ constructions.
+The next two subsections deal with explicit constructions of graphs and hypergraphs with large chromatic number and large girth. In §2.2 we already came quite close to seeing a number theoretic example. Suppose that we change the assumptions of Theorem 2.15 to $p$ being a quadratic residue modulo $q$. Then $G_{p,q}=\mathrm{Cayley}(\mathrm{PSL}(2,\mathbb{F}_q),\overline{S}_{p,q})$ is well-defined and an argument similar to the one we have seen shows $\mathrm{girth}(G_{p,q})\geq 2\log_p q$. Lubotzky, Philipps, and Sarnak [84, p.263] have further established $\chi(G_{p,q})\geq(p+1)/2\sqrt{p}$. In particular, by choosing $p$ and $q$ appropriately, the chromatic number and girth of $G_{p,q}$ can both be made arbitrarily large. From now on, we confine ourselves to ‘combinatorial’ constructions.
 
 ### 3.2. Historical constructions.
 
@@ -680,7 +680,7 @@ To this end Jarik employs the following construction. Let $(H,I)$ be a pair exem
 
 We contend that the pair $(H_\star,I_\star)$ is as required by $J_{k+1,r}$. The demands $\chi(H_\star)\geq r$ and $\mathrm{girth}(H_\star)\geq 8$ are clear, and $I_\star$ is obviously independent. Now we assume for the sake of contradiction that there is a proper $r$-colouring of $H_\star$ such that at most $k$ distinct colours appear on $I_\star$. Let $\alpha$ be any of these colours. Due to $\chi(H)\geq r$ there is for every $i\in[n]$ a vertex $x_i\in V(H_i)$ receiving the colour $\alpha$. The set $T=\{x_1,\ldots,x_n\}$ is a transversal and due to our matchings the colour $\alpha$ cannot appear on $I_T$. Thus there is a proper $r$-colouring of $H_T$ such that less than $k$ colours occur on $I_T$. This contradiction to the choice of the pair $(H,I)$ concludes our description of Jarik’s argument.
 
-Almost immediately after the appearance of this work, the 19-year old Lovász discovered a general construction of hypergraphs with large chromatic number and large girth [82]. Let us briefly pause to explain the terms involved here. By a *proper colouring* of a hypergraph $H$ we again mean a colouring of $V(H)$ without monochromatic edges, and the *chromatic number* $\chi(H)$ is the least natural number $r$ such that some proper $r$-colouring of $H$ exists. For $n\geq 2$ a *cycle of length $n$* in a hypergraph $H$ is a cyclic sequence $e_1v_1\ldots e_nv_n$ consisting of distinct edges $e_1,\ldots,e_n\in E(H)$ and distinct vertices $v_1,\ldots,v_n$ such that $v_i\in e_i\cap e_{i+1}$ holds for every $i\in\mathds{Z}/n\mathds{Z}$. As expected, $\mathrm{girth}(H)$ denotes the least $n$ such that $H$ contains some cycle of length $n$, if there exists any; otherwise we call $H$ a *forest* and set $\mathrm{girth}(H)=\infty$. A hypergraph is said to be *linear* if any two distinct edges intersect in at most one vertex. Notice that a hypergraph contains a *cycle of length 2* if and only if it is not *linear*.
+Almost immediately after the appearance of this work, the 19-year old Lovász discovered a general construction of hypergraphs with large chromatic number and large girth [82]. Let us briefly pause to explain the terms involved here. By a *proper colouring* of a hypergraph $H$ we again mean a colouring of $V(H)$ without monochromatic edges, and the *chromatic number* $\chi(H)$ is the least natural number $r$ such that some proper $r$-colouring of $H$ exists. For $n\geq 2$ a *cycle of length $n$* in a hypergraph $H$ is a cyclic sequence $e_1v_1\ldots e_nv_n$ consisting of distinct edges $e_1,\ldots,e_n\in E(H)$ and distinct vertices $v_1,\ldots,v_n$ such that $v_i\in e_i\cap e_{i+1}$ holds for every $i\in\mathbb{Z}/n\mathbb{Z}$. As expected, $\mathrm{girth}(H)$ denotes the least $n$ such that $H$ contains some cycle of length $n$, if there exists any; otherwise we call $H$ a *forest* and set $\mathrm{girth}(H)=\infty$. A hypergraph is said to be *linear* if any two distinct edges intersect in at most one vertex. Notice that a hypergraph contains a *cycle of length 2* if and only if it is not *linear*.
 
 It would take us too far afield to describe the details of Lovász’ construction, but it has one remarkable aspect that deserves being pointed out. There are now three parameters in the statement. Given $g$, $k$, and $r$ we seek a $k$-uniform hypergraph $H$ with $\mathrm{girth}(H)>g$ and $\chi(H)>r$. Lovász obtains such hypergraphs by an outer induction on $g$, and in the induction step he performs an inner induction on $r$. While all this happens, the value of $k$ is not kept fixed. Rather, Lovász exploits the possibility to obtain girth increments by looking at auxiliary $k^{\prime}$-uniform hypergraphs, where $k^{\prime}$ is quite huge in comparison to $k$. In particular, one cannot simply “focus on the graph case” when studying Lovász’s article. This idea of controlling girth by means of higher-order structures is still of key importance in current research and we shall encounter it again when talking about the girth Ramsey theorem later. As it can be done without much effort, we would briefly like to illustrate how hypergraphs can assist us when constructing graphs of large chromatic number and large girth. In Tutte’s construction, we can view the collection of all $n$-element subsets $X$ of $Y$ as a complete $n$-uniform hypergraph $K=K^{(n)}_{r(n-1)+1}$ of order $|Y|=r(n-1)+1$. Our use of the box principle corresponds to the fact that the chromatic number of $K$ exceeds $r$. The problem that we cannot avoid $6$-cycles (see Figure 3.2b) is caused by the fact that $K$ is not linear. If instead of $K$ we take a linear $n$-uniform hypergraph $L$ with $\chi(L)>r$ and attach our copies of the previous graph $G$ only to the edges of $L$, then we can even maintain the condition $\mathrm{girth}(G)\geq 9$. As the linearity of $L$ is equivalent to $\mathrm{girth}(L)\geq 3$, we see that edge-size can indeed be traded for girth. More generally, Tutte’s construction shows that if for all $k\geq 2$ we can construct $k$-uniform hypergraphs $H$ of arbitrarily large chromatic number with $\mathrm{girth}(H)\geq g$, then there are graphs $G$ of arbitrarily large chromatic number with $\mathrm{girth}(G)\geq 3g$. Further properties and variants of Tutte’s graphs were discovered by Kostochka and Jarik [74].
 
@@ -819,7 +819,7 @@ Currently, it is not even known whether $c(F)$ can be bounded by a function of $
 
 **Theorem 3.13** (Erdős, Galvin & Hajnal). *For every natural number $r$ there exists a $3$-uniform hypergraph $H$ with $\chi(H)\geq r$ such that every linear subhypergraph of $H$ is $2$-colourable.*
 
-*Proof.* Arguing by induction on $r$ we assume that such a hypergraph $H$ exists for some $r\in\mathds{N}$ and explain how to construct an example for $r+1$. To this end we take a set $Y$ of $r+1$ vertices and to every pair $yy^{\prime}\in Y^{(2)}$ we assign its own copy $H_{yy^{\prime}}$ of $H$, so that $Y$ and all vertex sets $V(H_{yy^{\prime}})$ are disjoint. As indicated in Figure 3.7, we also add all edges of the form $yy^{\prime}z$, where $yy^{\prime} \in Y^{(2)}$ and $z \in V(H_{yy^{\prime}})$.
+*Proof.* Arguing by induction on $r$ we assume that such a hypergraph $H$ exists for some $r\in\mathbb{N}$ and explain how to construct an example for $r+1$. To this end we take a set $Y$ of $r+1$ vertices and to every pair $yy^{\prime}\in Y^{(2)}$ we assign its own copy $H_{yy^{\prime}}$ of $H$, so that $Y$ and all vertex sets $V(H_{yy^{\prime}})$ are disjoint. As indicated in Figure 3.7, we also add all edges of the form $yy^{\prime}z$, where $yy^{\prime} \in Y^{(2)}$ and $z \in V(H_{yy^{\prime}})$.
 
 **Figure 3.7.** Construction of $H_\star$.
 
@@ -833,7 +833,7 @@ Now let $H^{\prime}$ be any linear spanning subhypergraph of $H_\star$. In order
 
 Returning to the definition of the chromatic number we can also investigate what happens when instead of demanding only a monochromatic edge we want to find a larger monochromatic substructure. The partition symbols introduced by Erdős and Rado [42] provide a systematic and concise notation for the kind of statement we have in mind.
 
-For instance, given a graph or hypergraph $H$ and $r \in {\mathds{N}}$ a lower bound of the form $\chi(H)>r$ is written in the form
+For instance, given a graph or hypergraph $H$ and $r \in {\mathbb{N}}$ a lower bound of the form $\chi(H)>r$ is written in the form
 
 $$H\longrightarrow(e)^{v}_{r}\,, \tag{3.1}$$
 
@@ -850,14 +850,14 @@ $$
 It means that for every colouring $f\colon V(H)\longrightarrow[r]$ there is an induced subgraph of $H$ isomorphic to $F$ whose vertices have the same colour. The negation of this statement is indicated by crossing out the arrow. E.g., an upper bound $\chi(H)\leq r$ can be expressed by
 
 $$
-H\mathrel{\mkern 5.5mu\arrownot\mkern-5.5mu}\longrightarrow(e)^v_r.
+H\not\longrightarrow(e)^v_r.
 $$
 
-In connection with (3.2) the first question one may ask is whether given a graph $F$ and $r\in{\mathds{N}}$ there always exists a graph $H$ such that $H\longrightarrow(F)^v_r$ holds. This was first settled by Folkman [49], whose construction was called a “gem of combinatorial ingenuity” in a review by Graham. Nevertheless, we resist the temptation of repeating the argument here, because later Jarik and Rödl [90] found an even more beautiful trick, which gives this result almost for free: they take a linear $|V(F)|$-uniform hypergraph $G$ with $\chi(G)>r$ and replace the edges of $G$ by copies of $F$, thereby generating the desired graph $H$.
+In connection with (3.2) the first question one may ask is whether given a graph $F$ and $r\in{\mathbb{N}}$ there always exists a graph $H$ such that $H\longrightarrow(F)^v_r$ holds. This was first settled by Folkman [49], whose construction was called a “gem of combinatorial ingenuity” in a review by Graham. Nevertheless, we resist the temptation of repeating the argument here, because later Jarik and Rödl [90] found an even more beautiful trick, which gives this result almost for free: they take a linear $|V(F)|$-uniform hypergraph $G$ with $\chi(G)>r$ and replace the edges of $G$ by copies of $F$, thereby generating the desired graph $H$.
 
 This construction has a further interesting property. The system $\mathscr{H}$ of all copies of $F$ in $H$ corresponding to the edges of $G$ satisfies, in an obvious sense, the partition relation $\mathscr{H}\longrightarrow(F)^v_r$. Moreover, any two distinct copies of $F$ in $\mathscr{H}$ are either disjoint or they intersect in a single vertex.[^*] One can gain even more control over the system $\mathscr{H}$ by starting with a hypergraph $G$ of large girth (cf. Theorem 3.4). In this manner we arrive at the following conclusion (see [90]).
 
-**Theorem 3.14.** *For every graph $F$ and all $r,n\in{\mathds{N}}$ there exists a graph $H$ together with a system $\mathscr{H}$ of induced copies of $F$ in $H$ such that*
+**Theorem 3.14.** *For every graph $F$ and all $r,n\in{\mathbb{N}}$ there exists a graph $H$ together with a system $\mathscr{H}$ of induced copies of $F$ in $H$ such that*
 
 *(i) $\mathscr{H}\longrightarrow(F)^v_r$ and*
 
@@ -915,7 +915,7 @@ There is a substantial body of work on the possibilities for the family of finit
 
 **Theorem 3.19 (Erdős, Hajnal & Shelah).** *Every graph of uncountable chromatic number contains odd cycles of all sufficiently large lengths.*
 
-*Proof.* Without loss of generality we can assume that the graph $G$ under consideration is connected. Let $x \in V(G)$ be arbitrary. For each $n < \omega$ let $D_n$ be the set of vertices at distance $n$ from $x$. Since $V(G)=\bigcupdot_{n<\omega}D_n$, there exists some $n < \omega$ such that the chromatic number of the induced subgraph $G[D_n]$ is uncountable. For every edge $uv$ connecting two vertices in $D_n$ there is a $u$-$v$-path $P_{uv}$ whose inner vertices are not in $D_n$ and whose length is some even number $2m_{uv}$ with $m_{uv}\leq n$. Indeed, such a path can be found by going from $u$ to $x$ in $n$ steps, in another $n$ steps to $v$, and removing all detours. By Fact 3.7 there exists some $m\leq n$ such that the spanning subgraph $H$ of $G[D_n]$ whose edges $uv$ satisfy $m_{uv}=m$ has uncountable chromatic number. For every $k\geq 2$ Theorem 3.17 yields a copy of $C_{2k}$ in $H$. Replacing one edge of such a cycle by a path of length $2m$ we obtain $C_{2m+2k-1}\subseteq G$. $\square$
+*Proof.* Without loss of generality we can assume that the graph $G$ under consideration is connected. Let $x \in V(G)$ be arbitrary. For each $n < \omega$ let $D_n$ be the set of vertices at distance $n$ from $x$. Since $V(G)=\mathop{\bigcup\mkern-10mu\cdot\mkern5mu}_{n<\omega}D_n$, there exists some $n < \omega$ such that the chromatic number of the induced subgraph $G[D_n]$ is uncountable. For every edge $uv$ connecting two vertices in $D_n$ there is a $u$-$v$-path $P_{uv}$ whose inner vertices are not in $D_n$ and whose length is some even number $2m_{uv}$ with $m_{uv}\leq n$. Indeed, such a path can be found by going from $u$ to $x$ in $n$ steps, in another $n$ steps to $v$, and removing all detours. By Fact 3.7 there exists some $m\leq n$ such that the spanning subgraph $H$ of $G[D_n]$ whose edges $uv$ satisfy $m_{uv}=m$ has uncountable chromatic number. For every $k\geq 2$ Theorem 3.17 yields a copy of $C_{2k}$ in $H$. Replacing one edge of such a cycle by a path of length $2m$ we obtain $C_{2m+2k-1}\subseteq G$. $\square$
 
 **Corollary 3.20.** *For all graphs $G$, $G'$ of uncountable chromatic number there is a finite graph $F$ with $\chi(F)=3$ such that both $G$ and $G'$ have subgraphs isomorphic to $F$.*
 
@@ -927,7 +927,7 @@ As noted in [72] it is unknown whether this holds for 4 instead of 3 as well.
 
 **3.7. Obligatory hypergraphs.** Much less is known about the analogous questions for hypergraphs. For concreteness we shall only consider the 3-uniform case here. The subject begins with an unfortunate oversight, which caused Erdős and Hajnal to believe for a while that no 3-uniform hypergraph of uncountable chromatic number could be linear$^{*}$. The argument they had in mind was supposed to be similar to the proof of Theorem 3.17. However, it only shows that linear 3-uniform hypergraphs on $\aleph_1$ vertices are indeed $\aleph_0$-colourable. In joint work with Rothschild [40, Theorem 2] they then found the following counterexample. Set $\lambda=(2^\omega)^+$ and consider the 3-uniform hypergraph $H$ on $\lambda^{(2)}$ whose edges are all triples of the form $\bigl\{\{\alpha,\beta\},\{\alpha,\gamma\},\{\beta,\gamma\}\bigr\}$, where $\alpha<\beta<\gamma<\lambda$. Clearly, $H$ is linear and the partition relation $\lambda\longrightarrow(3)^2_\omega$ entails $\chi(H)\geq\aleph_1$.
 
-A finite 3-uniform hypergraph $F$ is called *obligatory* if it is contained in every 3-uniform hypergraph whose chromatic number is uncountable. Define for every $n\geq 2$ the cycle $C_n^{(3)}$ to be the hypergraph with $2n$ vertices $x_i$, $y_i$ and $n$ edges $x_ix_{i+1}y_i$, where $i\in{\mathds{Z}}/n{\mathds{Z}}$ (see Figure 3.8). We have just seen that the cycle $C_2^{(3)}$ is not obligatory and by a result of Erdős, Galvin, and Hajnal [35, Theorem 11.6] neither is $C_3^{(3)}$.
+A finite 3-uniform hypergraph $F$ is called *obligatory* if it is contained in every 3-uniform hypergraph whose chromatic number is uncountable. Define for every $n\geq 2$ the cycle $C_n^{(3)}$ to be the hypergraph with $2n$ vertices $x_i$, $y_i$ and $n$ edges $x_ix_{i+1}y_i$, where $i\in{\mathbb{Z}}/n{\mathbb{Z}}$ (see Figure 3.8). We have just seen that the cycle $C_2^{(3)}$ is not obligatory and by a result of Erdős, Galvin, and Hajnal [35, Theorem 11.6] neither is $C_3^{(3)}$.
 
 **Figure 3.8.** The cycles $C_2^{(3)}$, $C_3^{(3)}$, $C_4^{(3)}$, and $C_5^{(3)}$.
 
@@ -1049,7 +1049,7 @@ Except for these intersections the copies in $\mathscr{N}=\{F,F_0,F_1,F_2\}$ are
 
 What this shows is that given a graph $F$ we cannot ask for Ramsey systems $\mathscr{H}$ such that all ‘small’ subsets of $\mathscr{H}$ are forests of copies. We can still demand, however, that every ‘small’ subset $\mathscr{N}\subseteq\mathscr{H}$ is contained in a forest of copies that is not much larger than $\mathscr{N}$. The following result from [104] makes this precise.
 
-**Theorem 4.9** (Girth Ramsey theorem, third version). *Given a graph $F$ and $r,n\in{\mathds{N}}$ there exists a graph $H$ together with a system of copies $\mathscr{H}\subseteq\binom{H}{F}$ satisfying not only $\mathscr{H}\longrightarrow(F)^e_r$ but also the following statement: For every $\mathscr{N}\subseteq\mathscr{H}$ with $|\mathscr{N}|\in[2,n]$ there exists a set $\mathscr{X}\subseteq\mathscr{H}$ such that $|\mathscr{X}|\leq|\mathscr{N}|-2$ and $\mathscr{N}\cup\mathscr{X}$ is a forest of copies.* $\square$
+**Theorem 4.9** (Girth Ramsey theorem, third version). *Given a graph $F$ and $r,n\in{\mathbb{N}}$ there exists a graph $H$ together with a system of copies $\mathscr{H}\subseteq\binom{H}{F}$ satisfying not only $\mathscr{H}\longrightarrow(F)^e_r$ but also the following statement: For every $\mathscr{N}\subseteq\mathscr{H}$ with $|\mathscr{N}|\in[2,n]$ there exists a set $\mathscr{X}\subseteq\mathscr{H}$ such that $|\mathscr{X}|\leq|\mathscr{N}|-2$ and $\mathscr{N}\cup\mathscr{X}$ is a forest of copies.* $\square$
 
 It deserves to be pointed out that the upper bound $|\mathscr{X}|\leq|\mathscr{N}|-2$ is best possible. Roughly this is because it requires $|\mathscr{N}|-2$ triangles to triangulate an $|\mathscr{N}|$-gon. If $F=K_3$ and there is some $C_{|\mathscr{N}|}$ in $H$ such that every copy in $\mathscr{N}$ contains a unique edge of this cycle, then the copies in $\mathscr{X}$ need to triangulate the cycle (see Figure 4.3).
 
@@ -1420,6 +1420,6 @@ no. 1, 413, DOI 10.1007/BF02941019 (German). MR3069571 $\uparrow$10
 [130] A. A. Zykov (Зыков), *О некоторых свойствах линейных комплексов*, Мат. сборник **24(66)** (1949),  
 163–188 (Russian). MR35428 $\uparrow$2, 26, 34
 
-\textsc{Fachbereich Mathematik, Universität Hamburg, Hamburg, Germany}
+Fachbereich Mathematik, Universität Hamburg, Hamburg, Germany
 
-*Email address:* \texttt{christian.reiher@uni-hamburg.de}
+*Email address:* `christian.reiher@uni-hamburg.de`

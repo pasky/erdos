@@ -196,8 +196,8 @@ Davenport [4] has shown that for each fixed $u\geq 0$, the density of $n$ with $
 
 $$
 \begin{aligned}
-\limsup_{x\to\infty}\frac{1}{x}\left(&\#\left\{n\leq x:\frac{s(n)}{n}>\frac{1}{g}(\log k)^{\log g}\right\}\right.\\
-&\left.+\#\left\{n\leq x:\frac{s(n)}{n}<\frac{g}{(\log k)^{\log g}}\right\}\right)
+\limsup_{x\to\infty}\frac{1}{x}\Biggl(&\#\left\{n\leq x:\frac{s(n)}{n}>\frac{1}{g}(\log k)^{\log g}\right\}\\
+&+\#\left\{n\leq x:\frac{s(n)}{n}<\frac{g}{(\log k)^{\log g}}\right\}\Biggr)
 \leq(1-D(M))+D(1/M).
 \end{aligned}
 $$

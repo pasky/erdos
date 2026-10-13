@@ -26,7 +26,7 @@ $$
 W := \Gamma\setminus\bigcup_{p} B_p,
 $$
 
-which is a random variable taking values in $\mathscr{P}(\Gamma)$. The set $\mathscr{P}(\Gamma)$ of all subsets of $\Gamma$ is endowed with the smallest $\sigma$-field such that for every $v\in\Gamma$, the map $P\longmapsto\mathds{1}_{P}(v)$ is measurable. This is also the smallest $\sigma$-field such that for every finite subset $F$ of $\Gamma$, the map $P\longmapsto P\cap F$ is measurable, its codomain being $\mathscr{P}(F)$ endowed with the $\sigma$-field of all subsets of $\mathscr{P}(F)$. The probability measure $\rho$ we shall be interested in is the probability distribution of $W$, which is a probability measure on $\mathscr{P}(\Gamma)$. In other words, for every measurable $\mathcal{A}\subset\mathscr{P}(\Gamma)$, we set $\rho(\mathcal{A}):=\mathbf{P}(W\in\mathcal{A})$.
+which is a random variable taking values in $\mathscr{P}(\Gamma)$. The set $\mathscr{P}(\Gamma)$ of all subsets of $\Gamma$ is endowed with the smallest $\sigma$-field such that for every $v\in\Gamma$, the map $P\longmapsto\mathbb{1}_{P}(v)$ is measurable. This is also the smallest $\sigma$-field such that for every finite subset $F$ of $\Gamma$, the map $P\longmapsto P\cap F$ is measurable, its codomain being $\mathscr{P}(F)$ endowed with the $\sigma$-field of all subsets of $\mathscr{P}(F)$. The probability measure $\rho$ we shall be interested in is the probability distribution of $W$, which is a probability measure on $\mathscr{P}(\Gamma)$. In other words, for every measurable $\mathcal{A}\subset\mathscr{P}(\Gamma)$, we set $\rho(\mathcal{A}):=\mathbf{P}(W\in\mathcal{A})$.
 
 **Figure 1.** A picture of $W$ for $\Gamma=\mathbb{Z}^{2}$. Elements of $W$ are depicted by white squares and elements of its complement are depicted by black squares. Which square corresponds to $(0,0)$ is irrelevant as the probability distribution of $W$ is invariant under translations.
 
@@ -116,7 +116,7 @@ An element $u$ of $\Gamma$ is said to be *primitive* in $\Gamma$ if it does not 
 
 **2.2. In which sense is $\rho$ the correct object to consider?**— We now explain why $\rho$ deserves to be considered as “the distribution of $\mathrm{Vis}_{\Gamma}(X)$ for $X$ picked uniformly at random in $\Gamma$”. This is for motivation only and is not to be used in this paper.
 
-For every $n\geqslant 0$, let $F_{n}:=\{x\in\Gamma\,:\,\|x\|_{2}\leqslant n\}$ and let $X_{n}$ be a random point chosen uniformly at random in $F_{n}$. Endow the set $\mathscr{P}(\Gamma)$ with the smallest topology making $P\longmapsto\mathds{1}_{P}(v)$ continuous for every $x\in\Gamma$. It has been proved that $\mathrm{Vis}_{X_{n}}(\Gamma)$ converges in distribution to $\rho$ when $n$ goes to infinity. This means that for every continuous (automatically bounded) map $f:\mathscr{P}(\Gamma)\to\mathbb{R}$, the expectation of $f(\mathrm{Vis}_{X_{n}}(\Gamma))$ converges to $\int f\,\mathrm{d}\rho$. Equivalently, it means that for every finite subset $F$ of $\Gamma$ and every $\mathcal{A}\subset\mathscr{P}(F)$, the probability $\mathbf{P}(\mathrm{Vis}_{X_n}(\Gamma)\in\mathcal{A})$ converges to $\rho(\{P\in\mathscr{P}(\Gamma):P\cap F\in\mathcal{A}\})$ when $n$ goes to infinity.
+For every $n\geqslant 0$, let $F_{n}:=\{x\in\Gamma\,:\,\|x\|_{2}\leqslant n\}$ and let $X_{n}$ be a random point chosen uniformly at random in $F_{n}$. Endow the set $\mathscr{P}(\Gamma)$ with the smallest topology making $P\longmapsto\mathbb{1}_{P}(v)$ continuous for every $x\in\Gamma$. It has been proved that $\mathrm{Vis}_{X_{n}}(\Gamma)$ converges in distribution to $\rho$ when $n$ goes to infinity. This means that for every continuous (automatically bounded) map $f:\mathscr{P}(\Gamma)\to\mathbb{R}$, the expectation of $f(\mathrm{Vis}_{X_{n}}(\Gamma))$ converges to $\int f\,\mathrm{d}\rho$. Equivalently, it means that for every finite subset $F$ of $\Gamma$ and every $\mathcal{A}\subset\mathscr{P}(F)$, the probability $\mathbf{P}(\mathrm{Vis}_{X_n}(\Gamma)\in\mathcal{A})$ converges to $\rho(\{P\in\mathscr{P}(\Gamma):P\cap F\in\mathcal{A}\})$ when $n$ goes to infinity.
 
 This result was established in its second form in **[PH13]** when $\Gamma=\mathbb{Z}^{d}$. The idea there was mainly that every pattern $\mathcal{A}$ admits an asymptotic density. In **[Mar22]**, instead of thinking of one convergence of number for every choice of $\mathcal{A}$, the same problem was considered in the framework of convergence of probability measures. The lattice was again taken to be $\mathbb{Z}^{d}$ but rather general sequences $(F_n)$ were taken care of. We do not provide detailed statements here and refer the interested reader to **[Mar22]**. As the assumptions of **[Mar22]** on $(F_n)$ are stable under linear automorphisms of $\mathbb{R}^{d}$, the convergence readily adapts to any lattice $\Gamma$ for rather general sequences $(F_n)$, including that of the previous paragraph.
 
@@ -454,7 +454,7 @@ $$
 \tag{7}
 $$
 
-\emph{Proof.} — We can get the following bounds:
+*Proof.* — We can get the following bounds:
 
 $$
 \begin{aligned}
@@ -622,7 +622,7 @@ The minimal Euclidean norm of a nonzero element of the Leech lattice is $\sqrt{3
 
 - choose any octad and ask for $x$ to be zero outside the octad and to be $\pm2$ on the octad, where the signs are allowed to depend on the element of the octad under the constraint that there is an even number of minus signs,
 
-- the vector $x$ can be written $(\varepsilon_1y_1,\ldots,\varepsilon_{24}y_{24})$ where $\varepsilon$ is a vector of signs such that $(\mathds{1}_{\varepsilon_1=+},\ldots,\mathds{1}_{\varepsilon_{24}=+})$ is an element of the extended binary Golay code and all $y_i$ are equal to 1 except for exactly one $y_i$ which is equal to $-3$.
+- the vector $x$ can be written $(\varepsilon_1y_1,\ldots,\varepsilon_{24}y_{24})$ where $\varepsilon$ is a vector of signs such that $(\mathbb{1}_{\varepsilon_1=+},\ldots,\mathbb{1}_{\varepsilon_{24}=+})$ is an element of the extended binary Golay code and all $y_i$ are equal to 1 except for exactly one $y_i$ which is equal to $-3$.
 
 There are $1\,104+97\,152+98\,304=196\,560$ such vectors and they generate the Leech lattice.
 

@@ -266,7 +266,7 @@ $$
 where [[figure: blue circle joined by a black edge to a red circle]] has one blue and one red labelled vertex joined by a black edge (a blue-red edge whose red endpoint lies on the $f$-side neighbourhood) and [[figure: black circle joined by a black edge to a green circle]] has one black and one green vertex. With $D(\sigma)$ the sum of size-4 local $\sigma$-flags whose two unlabelled vertices form a black edge connected to the labelled positions and at least one of them is on the $f$-side (black or red), the bipartite objective is
 
 $$
-O:=\bigl\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right red-outlined]]}\bigr)^{n-4}\bigr\rrbracket+\bigl\llbracket D([[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]]}\bigr)^{n-4}\bigr\rrbracket+\bigl\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right green-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right green-outlined]]}\bigr)^{n-4}\bigr\rrbracket\in\mathcal{L}_{5}^{\emptyset}.
+O:=\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right red-outlined]]}\bigr)^{n-4}\rrbracket+\llbracket D([[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]]}\bigr)^{n-4}\rrbracket+\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right green-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right green-outlined]]}\bigr)^{n-4}\rrbracket\in\mathcal{L}_{5}^{\emptyset}.
 $$
 
 The bipartite analogue of the combinatorial bridge identity is
@@ -433,7 +433,7 @@ To make the data concrete we describe block 0. Its local type $\sigma_0$ is the 
 The block-0 Tikhonov shift is $\lambda_0=1/10^{12}$, the denominator $s_0$ is an integer with $\log_{10}s_0\in[600,700]$, and the integer entries of $Y_0$ range over $|Y_0[p,q]|\leq 10^{22}$ across the $53\times53$ matrix. The LDL identity $L_0\operatorname{diag}(D_0)L_0^\top=s_0(Y_0+\lambda_0I_{53})$ holds entry-wise, with $D_0$ a strictly positive integer vector of 53 pivots. The resulting cone element
 
 $$
-\mathrm{csBlock}_0=\left\llbracket\sum_{k=0}^{52}\frac{D_0[k]}{s_0}\,\mathrm{col}^{(0)}_k\cdot\mathrm{col}^{(0)}_k\right\rrbracket\in\mathcal{C}_{\mathrm{sem}}^\emptyset
+\mathrm{csBlock}_0=\left[\!\!\left[\sum_{k=0}^{52}\frac{D_0[k]}{s_0}\,\mathrm{col}^{(0)}_k\cdot\mathrm{col}^{(0)}_k\right]\!\!\right]\in\mathcal{C}_{\mathrm{sem}}^\emptyset
 $$
 
 is one of the 39 $\mathrm{csBlock}$ summands of (4). The remaining 38 blocks are structurally identical, differing only in local type, inner dimension, and the entries of $L_b,D_b,Y_b$.
@@ -668,7 +668,7 @@ $$
 
 *where $C_1,C_2$ depend only on $p,k,\delta$; in particular this probability is $1-o(1)$.*
 
-*Proof.* By the previous subsection, the degree-bad event has probability at most $C_1/(n_A n_B)$ and the codegree-bad event at most $C_2/(n_A n_B)$ (as pairs sharing an endpoint contribute $0$). The bounded aspect ratio hypothesis gives $n_A n_B\geq(n^*)^2$, so a union bound over the two bad events leaves failure probability at most $(C_1+C_2)/(n^*)^2$, which tends to $0$. $\hfill\square$
+*Proof.* By the previous subsection, the degree-bad event has probability at most $C_1/(n_A n_B)$ and the codegree-bad event at most $C_2/(n_A n_B)$ (as pairs sharing an endpoint contribute $0$). The bounded aspect ratio hypothesis gives $n_A n_B\geq(n^*)^2$, so a union bound over the two bad events leaves failure probability at most $(C_1+C_2)/(n^*)^2$, which tends to $0$. $\square$
 
 The constant $k$ and the bounded aspect ratio are both essential to the Kim–Vu step underlying $C_1,C_2$: the deviation scale $a_d\sqrt{\mathcal{E}\,\mathcal{E}'}\,\lambda^d$ is of order $(n^*)^{2k-3}\,\mathrm{polylog}(n^*)$ — since $\mathcal{E}=\Theta((n^*)^{2k-2})$ and $\mathcal{E}'=O((n^*)^{2k-4})$ — whereas $\delta\mu_D=\Theta((n^*)^{2k-2})$, so the tail closes with margin $\Theta(\mathrm{polylog}(n^*)/n^*)\to 0$. With $k$ growing or the aspect ratio unbounded this margin is lost.
 

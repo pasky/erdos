@@ -190,7 +190,7 @@ $$
 - Given real numbers $a<b$, let
 
 $$
-\llbracket a,b\rrbracket:=[a,b]\cap\mathbb{Z},\qquad\text{and}\qquad\llparenthesis a,b\rrparenthesis:=(a,b)\cap\mathbb{Z}.
+\llbracket a,b\rrbracket:=[a,b]\cap\mathbb{Z},\qquad\text{and}\qquad(\mkern-4mu\vert a,b\vert\mkern-4mu):=(a,b)\cap\mathbb{Z}.
 $$
 
 - Subscripts are given to Vinogradov and Big O symbols when the implied constant in the expression is dependent on some given parameters, e.g., $f(x)\ll_a g(x)$ means that the implied constant in the Vinogradov symbol depends on a given parameter $a$.
@@ -368,7 +368,7 @@ This has the following consequence in the special case $N=d$, $M=1$.
 **Lemma 3.3.** Let $\delta>0$, $S\in\mathbb{N}$, and let $\bm{u}\in\mathbb{S}^{d}$ such that $\|\bm{u}\|_\infty=|u_{d+1}|$. If
 
 $$
-\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq S^{-1/d}\qquad\forall\,m\in\llparenthesis-\delta^{-1}S^{1-1/d},\delta^{-1}S^{1-1/d}\rrparenthesis\setminus\{0\},
+\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq S^{-1/d}\qquad\forall\,m\in(\mkern-4mu\vert -\delta^{-1}S^{1-1/d},\delta^{-1}S^{1-1/d}\vert\mkern-4mu)\setminus\{0\},
 \tag{3.2}
 $$
 
@@ -383,7 +383,7 @@ is $\delta$-dense in $[0,1)^{d+1}$.
 *Proof.* By Lemma 3.1, it suffices to show, given the hypotheses, that $\Sigma_S(\bm{u})$ is $\delta$-dense in $[0,1)^d$. Proposition 3.2 implies that if, given $C,X>0$,
 
 $$
-\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq C\qquad\forall\,m\in\llparenthesis-X,X\rrparenthesis\setminus\{0\},
+\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq C\qquad\forall\,m\in(\mkern-4mu\vert -X,X\vert\mkern-4mu)\setminus\{0\},
 \tag{3.3}
 $$
 
@@ -399,7 +399,7 @@ $$
 h=\lfloor X^{-1}C^{-d}\rfloor.
 $$
 
-By Dirichlet’s theorem, there exists an $m\in\llbracket 1,X\rrparenthesis$ such that
+By Dirichlet’s theorem, there exists an $m\in\llbracket 1,X\vert\mkern-4mu)$ such that
 
 $$
 \max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\leq X^{-1/d}.

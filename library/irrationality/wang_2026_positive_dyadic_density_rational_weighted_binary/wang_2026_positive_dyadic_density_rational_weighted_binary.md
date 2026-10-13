@@ -1651,7 +1651,7 @@ All minima use the stopping order of Definition B.11. Thus Endpoint, Progress, D
 **Definition B.14 (Primitive stopping predicates).** *After the old fibre has been removed and the shell-tagged weight has been charged, a residual-tagged state $\omega=(b,T,\zeta)\in\mathscr{E}^{\rm new}_{s,j}(T,Y)$ carries the actual start, threshold, endpoint/carry quotients, side label, visible $m$-strip transcript, height multipliers, and the ordered visible list $\mathcal{V}(\omega)$. For $e\in\mathcal{V}(\omega)$ the raw coordinates are
 
 $$
-\begin{array}{@{}rcl@{}}
+\begin{array}{rcl}
 \eta_e(\omega)&\in&\mathcal{R}_Q\quad\text{endpoint/carry residue and collar flag},\\
 \gamma_e(\omega)&\in&\mathcal{G}_Q\cup\{\dagger\}\quad\text{condensation vertex, or outside symbol},\\
 J_e(\omega),\,N_{J_e}(\omega),\,o_e(\omega)&&\text{owned endpoint block, raw hit count, and earliest owner},\\

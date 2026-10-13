@@ -249,7 +249,7 @@ The proof of Theorem 2.6 relies on a connection to the hard-core model from stat
 *Proof of Theorem 2.6 up to a constant factor.* The key idea is to define, for each vertex $v\in V(G)$, a random variable
 
 $$
-X_v=|N(v)\cap S|+d\cdot\mathbbm{1}[v\in S].
+X_v=|N(v)\cap S|+d\cdot\mathbb{1}[v\in S].
 $$
 
 Observe that, by linearity of expectation,
@@ -284,7 +284,7 @@ $$
 \mathbb{E}[|S|]\geqslant\frac{1}{2d}\sum_{v\in V(G)}\mathbb{E}[X_v]\geqslant\frac{n\log_2 d}{12d},
 $$
 
-as required. \hfill $\square$
+as required. $\square$
 
 The authors of [33] moreover conjectured that the maximum size of an independent set in a triangle-free graph of minimum degree $d$ should be at least $2-o(1)$ times the average size, as $d\to\infty$; similarly to Problem 2.5, any lower bound better than $1+o(1)$ would constitute a very significant breakthrough.
 
@@ -739,7 +739,7 @@ $$
 R(\ell,k)=n+1\leqslant\frac{2kd}{\log\lambda}\leqslant\left(\frac{8}{\log k}\right)^{\ell-2}k^{\ell-1},\tag{22}
 $$
 
-as required, since $k$ is sufficiently large and $\lambda\geqslant k^{1/4}$. \hfill$\square$
+as required, since $k$ is sufficiently large and $\lambda\geqslant k^{1/4}$. $\square$
 
 ## 6. Rödl’s method: counting Erdős–Szekeres paths
 
@@ -785,7 +785,7 @@ $$
 R(\ell,k)\leq\sum_{L\in\binom{[k+\ell-3]}{\ell-1}\cup\binom{[k+\ell-3]}{\ell-2}}\left(\binom{k'(L)+\ell'(L)-2}{\ell'(L)-1}\right)^{-1}R(\ell'(L),k'(L)).
 $$
 
-Now, since $\ell>c\log(k+\ell-2)+1$ and $k\geq2$, it follows that if a set $L'\in\binom{[k+\ell-2]}{\ell-1}$ is either equal to $L\in\binom{[k+\ell-3]}{\ell-1}$, or is obtained from $L\in\binom{[k+\ell-3]}{\ell-2}$ by adding the element $k+\ell-2$, then $\ell'(L)=\ell'(L')$ and $k'(L)=k'(L')$, and hence this is exactly the claimed inequality. \hfill$\square$
+Now, since $\ell>c\log(k+\ell-2)+1$ and $k\geq2$, it follows that if a set $L'\in\binom{[k+\ell-2]}{\ell-1}$ is either equal to $L\in\binom{[k+\ell-3]}{\ell-1}$, or is obtained from $L\in\binom{[k+\ell-3]}{\ell-2}$ by adding the element $k+\ell-2$, then $\ell'(L)=\ell'(L')$ and $k'(L)=k'(L')$, and hence this is exactly the claimed inequality. $\square$
 
 Alternatively, note that there are $\binom{k'+\ell'-2}{\ell'-1}$ (or zero) sets $L$ with $\ell'(L)=\ell'$ and $k'(L)=k'$ that have a given intersection with the set $\{k'+\ell'-1,\ldots,k+\ell-2\}$.
 
@@ -809,7 +809,7 @@ $$
 \binom{t}{c\log t}\binom{k+\ell-2}{\ell-1-c\log t}\leq\left(\frac{\ell\cdot t}{k}\right)^{c\log t}\binom{k+\ell-2}{\ell-1}.
 $$
 
-Applying this with $t=2\sqrt{k}$ gives the claimed bound. \hfill$\square$
+Applying this with $t=2\sqrt{k}$ gives the claimed bound. $\square$
 
 We can now easily deduce Rödl’s theorem.
 

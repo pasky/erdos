@@ -170,12 +170,12 @@ $$
 For each $|Z|$-tuple $(n_z)$ in $T(y)$, we define its support-size as follows
 
 $$
-\supp((n_z)_{z\in Z})\vcentcolon=\left|\{z\in Z:n_z\neq 0\}\right| \tag{7}
+\operatorname{supp}((n_z)_{z\in Z})\vcentcolon=\left|\{z\in Z:n_z\neq 0\}\right| \tag{7}
 $$
 
-counted with multiplicity if $Z$ is a multiset. We begin by noting that the set $T(y)$ is non-empty because $y=\sum_{z\in Z}\varepsilon_z(y)z$ by (4) and $\sum_z\varepsilon_z(y)=a(y)$ by (5) so $(\varepsilon_z(y))_{z\in Z}\in T(y)$. Hence, we can consider an element $(k_z(y))_{z\in Z}\in T(y)$ with minimal support-size $\supp((k_z(y))_{z\in Z})$. Let $K=K(y)=\{z\in Z:k_z(y)\neq 0\}$ be its support, so $K$ is a multisubset of $Z$ and we obtain the following information about $K$.
+counted with multiplicity if $Z$ is a multiset. We begin by noting that the set $T(y)$ is non-empty because $y=\sum_{z\in Z}\varepsilon_z(y)z$ by (4) and $\sum_z\varepsilon_z(y)=a(y)$ by (5) so $(\varepsilon_z(y))_{z\in Z}\in T(y)$. Hence, we can consider an element $(k_z(y))_{z\in Z}\in T(y)$ with minimal support-size $\operatorname{supp}((k_z(y))_{z\in Z})$. Let $K=K(y)=\{z\in Z:k_z(y)\neq 0\}$ be its support, so $K$ is a multisubset of $Z$ and we obtain the following information about $K$.
 
-**Lemma 4.** Let $y\in\Sigma(Z)$ and let $(k_z)_{z\in Z}\in T(y)$ be chosen to minimise $\supp((k_z)_{z\in Z})$ over all elements of $T(y)$. Then $K=\{z\in Z:k_z\neq 0\}$ is a dissociated subset of $Z$.
+**Lemma 4.** Let $y\in\Sigma(Z)$ and let $(k_z)_{z\in Z}\in T(y)$ be chosen to minimise $\operatorname{supp}((k_z)_{z\in Z})$ over all elements of $T(y)$. Then $K=\{z\in Z:k_z\neq 0\}$ is a dissociated subset of $Z$.
 
 *Proof.* Suppose for a contradiction that the multiset $K$ is not dissociated. Hence there exist distinct multisubsets $K_1,K_2$ of $K$ so that $\sum_{z\in K_1}z=\sum_{z\in K_2}z$. We may further assume that $K_1$ and $K_2$ are disjoint as removing common elements in $K_1\cap K_2 from both multisets does not change that both multisets have equal sum. Also assume that $|K_1|\geqslant |K_2|$ and define $k^-=\min_{z\in K_1} k_z$. Then we can write
 
@@ -215,7 +215,7 @@ $$
 \end{aligned}
 $$
 
-using that $|K_1|\geqslant |K_2|$. Hence, $(k'_z)_{z\in Z}\in T(y)$. Our final task to obtain the required contradiction is to show that $\supp((k'_z))<\supp((k_z))$. This is clear from (9) however as we defined $k^-=\min_{z\in K_1} k_z$. We have obtained the required contradiction as $(k_z)$ was chosen to minimise $\supp((k_z))$ over all sequences in $T(y)$. Hence, $K$ must be dissociated. $\square$
+using that $|K_1|\geqslant |K_2|$. Hence, $(k'_z)_{z\in Z}\in T(y)$. Our final task to obtain the required contradiction is to show that $\operatorname{supp}((k'_z))<\operatorname{supp}((k_z))$. This is clear from (9) however as we defined $k^-=\min_{z\in K_1} k_z$. We have obtained the required contradiction as $(k_z)$ was chosen to minimise $\operatorname{supp}((k_z))$ over all sequences in $T(y)$. Hence, $K$ must be dissociated. $\square$
 
 We continue with the proof of Proposition 1. By Lemma 4, every $y\in\Sigma(Z)$ can be written as
 

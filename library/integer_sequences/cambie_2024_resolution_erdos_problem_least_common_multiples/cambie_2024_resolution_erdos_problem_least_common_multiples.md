@@ -6,7 +6,7 @@ October 15, 2024
 
 ## Abstract
 
-Erdős posed the question whether there exist infinitely many sets of consecutive numbers whose least common multiple ($\lcm$) exceeds the $\lcm$ of another, larger set with greater consecutive numbers. In this paper, we answer this question affirmatively by proving that the ratio of the $\lcm$’s can be made arbitrarily large.
+Erdős posed the question whether there exist infinitely many sets of consecutive numbers whose least common multiple ($\operatorname{lcm}$) exceeds the $\operatorname{lcm}$ of another, larger set with greater consecutive numbers. In this paper, we answer this question affirmatively by proving that the ratio of the $\operatorname{lcm}$’s can be made arbitrarily large.
 
 A problem on primes presented $47$ years ago
 
@@ -14,31 +14,31 @@ A problem on primes presented $47$ years ago
 
 In his $1979$ paper (based on remarks from a conference in October 1977), Erdős [2] posed several questions and conjectures in number theory, which he considered as unconventional. We focus on one such simple posed question, for which the answer seemed frustratingly elusive at that time.
 
-The least common multiple ($\lcm$) of a set of numbers is the smallest positive integer divisible by each number in the set (and thus divides their product). The $\lcm$ of a set with larger values or greater cardinality is typically larger than the $\lcm$ of a set with smaller values or cardinality. However, this is not necessarily true for arbitrary sets. Therefore, Erdős considered the $\lcm$ of consecutive numbers. For sets of two consecutive natural numbers, their $\lcm$ is larger if their values are larger, since $x<y\Rightarrow\lcm(x,x+1)=x(x+1)<y(y+1)=\lcm(y,y+1)$. In contrast, for $k\geq 3$ consecutive natural numbers, this is not true. For example when $x$ is even and $y>x$ is odd and not much larger than $x$, we may have that $\lcm(x,x+1,x+2)=x(x+1)(x+2)>\frac{y(y+1)(y+2)}{2}=\lcm(y,y+1,y+2)$.
+The least common multiple ($\operatorname{lcm}$) of a set of numbers is the smallest positive integer divisible by each number in the set (and thus divides their product). The $\operatorname{lcm}$ of a set with larger values or greater cardinality is typically larger than the $\operatorname{lcm}$ of a set with smaller values or cardinality. However, this is not necessarily true for arbitrary sets. Therefore, Erdős considered the $\operatorname{lcm}$ of consecutive numbers. For sets of two consecutive natural numbers, their $\operatorname{lcm}$ is larger if their values are larger, since $x<y\Rightarrow\operatorname{lcm}(x,x+1)=x(x+1)<y(y+1)=\operatorname{lcm}(y,y+1)$. In contrast, for $k\geq 3$ consecutive natural numbers, this is not true. For example when $x$ is even and $y>x$ is odd and not much larger than $x$, we may have that $\operatorname{lcm}(x,x+1,x+2)=x(x+1)(x+2)>\frac{y(y+1)(y+2)}{2}=\operatorname{lcm}(y,y+1,y+2)$.
 
-The non-monotonicity can be extreme. Let $f(n)=\lcm\{n,n+1,\ldots,n+6\}$. Then $f(1)\leq f(2)\leq\ldots\leq f(7)\leq f(8)>f(9)$, and also $f(7)=2^{3}\cdot 3^{2}\cdot 5\cdot 7\cdot 11\cdot 13>f(10)=2^{4}\cdot 3\cdot 5\cdot 7\cdot 11\cdot 13$. This is a counterexample to behaviour that seemed plausible to Erdős.
+The non-monotonicity can be extreme. Let $f(n)=\operatorname{lcm}\{n,n+1,\ldots,n+6\}$. Then $f(1)\leq f(2)\leq\ldots\leq f(7)\leq f(8)>f(9)$, and also $f(7)=2^{3}\cdot 3^{2}\cdot 5\cdot 7\cdot 11\cdot 13>f(10)=2^{4}\cdot 3\cdot 5\cdot 7\cdot 11\cdot 13$. This is a counterexample to behaviour that seemed plausible to Erdős.
 
-When comparing the $\lcm$ of $k$ small consecutive integers with the $\lcm$ of $\ell>k$ larger consecutive integers, determining which is larger becomes harder. For example, one might wonder which of the following two quantities is larger:
+When comparing the $\operatorname{lcm}$ of $k$ small consecutive integers with the $\operatorname{lcm}$ of $\ell>k$ larger consecutive integers, determining which is larger becomes harder. For example, one might wonder which of the following two quantities is larger:
 
-$$\lcm\{676,677,\ldots,773\}\mbox{ and }\lcm\{798,799,\ldots,903\}.$$
+$$\operatorname{lcm}\{676,677,\ldots,773\}\text{ and }\operatorname{lcm}\{798,799,\ldots,903\}.$$
 
 Some minimal examples, with a cardinality of $7$ and smallest elements $37$ and $48$, respectively, illustrating the unexpected inequality are:
 
-$$\lcm\{53,54,55,56,57,58,59\}>\lcm\{63,64,65,66,67,68,69,70\}\mbox{ and }$$
+$$\operatorname{lcm}\{53,54,55,56,57,58,59\}>\operatorname{lcm}\{63,64,65,66,67,68,69,70\}\text{ and }$$
 
 \*Department of Computer Science, KU Leuven Campus Kulak-Kortrijk, 8500 Kortrijk, Belgium. Supported by a postdoctoral fellowship by the Research Foundation Flanders (FWO) with grant number 1225224N. Email: stijn.cambie@hotmail.com
 
 $$
-\lcm\{37,38,39,40,41,42,43,44\}>\lcm\{48,49,50,51,52,53,54,55,56\}.
+\operatorname{lcm}\{37,38,39,40,41,42,43,44\}>\operatorname{lcm}\{48,49,50,51,52,53,54,55,56\}.
 $$
 
-Erdős [2] posed the question whether there exist infinitely many cases in which the $\lcm$ of the larger such set is smaller than the $\lcm$ of the smaller set. This question is also listed as problem 678 at https://www.erdosproblems.com/678. We answer the question by giving an elementary proof for the following stronger result in Section 2.
+Erdős [2] posed the question whether there exist infinitely many cases in which the $\operatorname{lcm}$ of the larger such set is smaller than the $\operatorname{lcm}$ of the smaller set. This question is also listed as problem 678 at https://www.erdosproblems.com/678. We answer the question by giving an elementary proof for the following stronger result in Section 2.
 
-**Theorem 1.** *Let $C\geq 1$ be a constant. For every $k$ sufficiently large, there exist integers $0<x<y$ with $y>x+k$ such that $\lcm\{x,x+1,\ldots,x+k-1\}>C\cdot\lcm\{y,y+1,\ldots,y+k\}$.*
+**Theorem 1.** *Let $C\geq 1$ be a constant. For every $k$ sufficiently large, there exist integers $0<x<y$ with $y>x+k$ such that $\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}>C\cdot\operatorname{lcm}\{y,y+1,\ldots,y+k\}$.*
 
 We conjecture that an even stronger form of this result is true.
 
-**Conjecture 2.** *Let $C\geq 1$ be an arbitrary constant. Then there exist integers $k$ and $0<x<y$ with $y>x+k$ such that $\lcm\{x,x+1,\ldots,x+k-1\}>\lcm\{y,y+1,\ldots,y+k+C-1\}$.*
+**Conjecture 2.** *Let $C\geq 1$ be an arbitrary constant. Then there exist integers $k$ and $0<x<y$ with $y>x+k$ such that $\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}>\operatorname{lcm}\{y,y+1,\ldots,y+k+C-1\}$.*
 
 We note that a proof for Conjecture 2 along the same lines as the proof in Section 2 would follow from density results for solutions from the Chinese remainder theorem (which even only need to hold for some values of $k$). This reduction is proven in Subsection 2.1.
 
@@ -52,7 +52,7 @@ The state-of-the-art to solve this type of problem seems to be sieve-type bounds
 
 We start with two conventions. We will assume that $k$ is taken sufficiently large such that all statements work, and will use $a\mod n$ for the unique integer between $0$ and $n-1$ which has the same residue modulo $n$ as $a$.
 
-Let $M=\lcm\{1,2,\ldots,k\}=\prod_{p\leq k}p^{\lfloor\log_p(k)\rfloor}$ be the product of all maximal prime powers bounded by $k$. Using the notation $m=\prod_{p\leq\sqrt{k}}p^{\lfloor\log_p(k)\rfloor}$, we can also write $M=m\cdot\prod_{\sqrt{k}<p\leq k}p$.
+Let $M=\operatorname{lcm}\{1,2,\ldots,k\}=\prod_{p\leq k}p^{\lfloor\log_p(k)\rfloor}$ be the product of all maximal prime powers bounded by $k$. Using the notation $m=\prod_{p\leq\sqrt{k}}p^{\lfloor\log_p(k)\rfloor}$, we can also write $M=m\cdot\prod_{\sqrt{k}<p\leq k}p$.
 
 Let $A$ and $B$ be the sets of vectors $\vec{a}=(a_p\mid\sqrt{k}<p\leq k)$ and $\vec{b}=(b_p\mid\sqrt{k}<p\leq k)$, whose coordinates satisfy $1\leq a_p\leq p-(k\mod p)$ and $p-(k\mod p)\leq b_p\leq p$ for every prime $k\geq p>\sqrt{k}$ respectively.
 
@@ -91,7 +91,7 @@ By Claim 4 applied to 3 primes in $((1-\varepsilon)k,k)$, similarly as how $y$ w
 **Claim 5.**
 
 $$
-\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k)}{\lcm\{y,y+1,\ldots,y+k\}}=M\cdot\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\lcm\{x,x+1,\ldots,x+k-1\}}
+\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k)}{\operatorname{lcm}\{y,y+1,\ldots,y+k\}}=M\cdot\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}}
 $$
 
 *Proof.* We will conclude that the left hand side equals the right hand side, $LHS=RHS$, by proving that for every prime $p$, $v_p(LHS)=v_p(RHS)$.
@@ -117,7 +117,7 @@ Finishing the proof is now done by the following computation.
 
 $$
 \begin{aligned}
-\frac{\lcm\{x,x+1,\ldots,x+k-1\}}{\lcm\{y,y+1,\ldots,y+k\}}
+\frac{\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}}{\operatorname{lcm}\{y,y+1,\ldots,y+k\}}
 &=M\cdot\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}
 {y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k)}\\
 &\geq\frac{M}{y+k}\left(\frac{x}{y}\right)^k\\
@@ -136,18 +136,18 @@ Note that by the prime number theorem, $M=k^{\Theta(k/\log k)}$. The average siz
 Let $x$ and $y$ be any solution for which $x\mod p_j$ and $-y\mod p_j$ both belong to $I_j$ for every $1\leq j\leq r$. So except from an $\varepsilon$ fraction of the $r$ primes these satisfy $x\mod p_j\leq p_j-(k\mod p_j)$ and $y\mod p_j\geq p_j-(k+C-1\mod p_j)$. For those primes, we know that
 
 $$
-v_p\left(\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k+C-1)}{\lcm\{y,y+1,\ldots,y+k+C-1\}}\right)
+v_p\left(\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k+C-1)}{\operatorname{lcm}\{y,y+1,\ldots,y+k+C-1\}}\right)
 \geq
-v_p\left(\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\lcm\{x,x+1,\ldots,x+k-1\}}\right)+1.
+v_p\left(\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}}\right)+1.
 $$
 
 Let $G$ be the subset of the $r$ primes satisfying the above. Let $B$ be the subset of primes for which it is not the case (but then it is still true with $+1$ replaced by $-1$). Note that $\prod_{p\in B}p\leq M^{2\varepsilon}$ and $m=\prod_{p\leq\sqrt{k}}p^{\lfloor\log_p(k)\rfloor}<M^\varepsilon$. As such, we have $\frac{\prod_{p\in G}p}{m\prod_{p\in B}p}\geq M^{1-5\varepsilon}$. We conclude that (instead of Claim 5)
 
 $$
-\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k+C-1)}{\lcm\{y,y+1,\ldots,y+k+C-1\}}
+\frac{y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k+C-1)}{\operatorname{lcm}\{y,y+1,\ldots,y+k+C-1\}}
 >
 M^{1-5\varepsilon}\cdot
-\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\lcm\{x,x+1,\ldots,x+k-1\}}.
+\frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}{\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}}.
 $$
 
 Now by Question 3, we can choose $x,y$ such that $M^\varepsilon<y-x<3M^\varepsilon$ and $M^{2\varepsilon}<x<y+k+C<M^{3\varepsilon}$.
@@ -156,7 +156,7 @@ The proof is now done by the following computation.
 
 $$
 \begin{aligned}
-\frac{\lcm\{x,x+1,\ldots,x+k-1\}}{\lcm\{y,y+1,\ldots,y+k+C-1\}}
+\frac{\operatorname{lcm}\{x,x+1,\ldots,x+k-1\}}{\operatorname{lcm}\{y,y+1,\ldots,y+k+C-1\}}
 &>M^{1-5\varepsilon}\cdot
 \frac{x\cdot(x+1)\cdot\ldots\cdot(x+k-1)}
 {y\cdot(y+1)\cdot(y+2)\cdot\ldots\cdot(y+k+C-1)}\\

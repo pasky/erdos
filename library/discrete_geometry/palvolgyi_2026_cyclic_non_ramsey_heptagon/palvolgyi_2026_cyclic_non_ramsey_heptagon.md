@@ -140,8 +140,7 @@ Translation invariance, together with $\sum_{p}\lambda_{p}=0$, gives $\sum_{p}\l
 
 $$\sum_{p}\lambda_{p}\langle Jp,D(p)\rangle=0. \tag{A.4}$$
 
-To see this, take $A=\left(\begin{smallmatrix}c&-s\\
-s&c\end{smallmatrix}\right)$. Then $D(A)=A\omega J$, where $\omega=2D(u)/(1+u^{2})\neq 0$. The difference between the energies of $AP$ and $P$ is $2\omega\sum_{p}\lambda_{p}\langle Jp,D(p)\rangle+\omega^{2}\sum_{p}\lambda_{p}\|p\|^{2}$, whose last term vanishes by (A.3).
+To see this, take $A=\left(\begin{smallmatrix}c&-s\\ s&c\end{smallmatrix}\right)$. Then $D(A)=A\omega J$, where $\omega=2D(u)/(1+u^{2})\neq 0$. The difference between the energies of $AP$ and $P$ is $2\omega\sum_{p}\lambda_{p}\langle Jp,D(p)\rangle+\omega^{2}\sum_{p}\lambda_{p}\|p\|^{2}$, whose last term vanishes by (A.3).
 
 Translate the circle’s centre to the origin and write $p_{i}=\rho z_{i}$, where $z_{i}=(x_{i},y_{i})$ is on the unit circle. Write $D(z_{i})=b_{i}Jz_{i}$. The zero first moments and (A.4) imply $\sum_{i}\lambda_{i}b_{i}=\sum_{i}\lambda_{i}b_{i}x_{i}=\sum_{i}\lambda_{i}b_{i}y_{i}=0$. For $B$ and $W$ defined using these unit-circle coordinates, we have $W\subseteq W^{\perp}$. All weights are nonzero, so $B$ is nondegenerate; both spaces have dimension three, giving $W=W^{\perp}$. Hence $b\in W$ and $B(b,b)=0$. Finally,
 

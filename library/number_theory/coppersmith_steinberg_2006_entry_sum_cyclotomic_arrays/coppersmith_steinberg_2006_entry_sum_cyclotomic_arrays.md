@@ -464,10 +464,10 @@ $$
 \begin{aligned}
 \sum_{r\in\mathbb{Z}_{a_3}}[A^{\bar r}]
 &=[A^{\bar s}]+\sum_{r\ne s}[A^{\bar r}]\\
-&\geq (a_1-[A^{\bar s}]^-)a_2-a_1+\sum_{\substack{r\ne s\\[A^{\bar r}]^->0}}[A^{\bar r}]\\
-&\geq (a_1-[A^s]^--[A^\bullet])a_2-a_1+\sum_{\substack{r\ne s\\[A^{\bar r}]^->0}}\bigl((a_1-[A^{\bar r}]^-)a_2-a_1\bigr)\\
-&\geq a_1a_2-a_1-[A^\bullet]a_2-a_2[A^s]^-+\sum_{\substack{r\ne s\\[A^{\bar r}]^->0}}\bigl((a_1-[A^r]^- -[A^\bullet])a_2-a_1\bigr)\\
-&\geq a_1a_2-a_1-[A^\bullet]a_2-a_2[A]^-+\sum_{\substack{r\ne s\\[A^{\bar r}]^->0}}\bigl((a_1-[A^\bullet])a_2-a_1\bigr)\\
+&\geq (a_1-[A^{\bar s}]^-)a_2-a_1+\sum_{\substack{r\ne s\\{[A^{\bar r}]^->0}}}[A^{\bar r}]\\
+&\geq (a_1-[A^s]^--[A^\bullet])a_2-a_1+\sum_{\substack{r\ne s\\{[A^{\bar r}]^->0}}}\bigl((a_1-[A^{\bar r}]^-)a_2-a_1\bigr)\\
+&\geq a_1a_2-a_1-[A^\bullet]a_2-a_2[A^s]^-+\sum_{\substack{r\ne s\\{[A^{\bar r}]^->0}}}\bigl((a_1-[A^r]^- -[A^\bullet])a_2-a_1\bigr)\\
+&\geq a_1a_2-a_1-[A^\bullet]a_2-a_2[A]^-+\sum_{\substack{r\ne s\\{[A^{\bar r}]^->0}}}\bigl((a_1-[A^\bullet])a_2-a_1\bigr)\\
 &\geq a_1a_2-a_1-[A^\bullet]a_2-a_2[A]^-\\
 &\geq a_1a_2-a_1-[A^\bullet]a_2-a_2(a_1-a_1/\lambda_3)\\
 &=a_1a_2/\lambda_3-a_1-[A^\bullet]a_2.
@@ -701,14 +701,14 @@ $$
 $$
 
 $$
-\begin{aligned}
+\begin{align}
 &= a_1(a_{i-1}-1)-a_{i-1}[A]^- - \sum_{k=i}^{n}u_k a_{i-1}\\
 &\geq a_1(a_{i-1}-1)-a_{i-1}(a_1-a_1/\lambda_n)-(\lambda_{i-1}/\lambda_n-1)a_{i-1} \tag{16}\\
 &= a_1a_{i-1}/\lambda_{i-1}-a_1+a_1(a_{i-1}/\lambda_n-a_{i-1}/\lambda_{i-1})-(\lambda_{i-1}/\lambda_n-1)a_{i-1} \tag{17}\\
 &\geq a_1a_{i-1}/\lambda_{i-1}-a_1+\lambda_{i-1}(a_{i-1}/\lambda_n-a_{i-1}/\lambda_{i-1})-(\lambda_{i-1}/\lambda_n-1)a_{i-1} \tag{18}\\
 &= a_1a_{i-1}/\lambda_{i-1}-a_1 \tag{19}\\
 &> a_1a_{i-1}/\lambda_{i-1}-a_1-a_{i-1} \tag{20}
-\end{aligned}
+\end{align}
 $$
 
 which means $[A]-\sum_{k=i}^n u_k a_k\in\mathbb{Z}^{+}(a_1,\ldots,a_{i-1})$ by Proposition 4 and so $[A]\in\mathbb{Z}^{+}(a_1,\ldots,a_n)$, as desired. This concludes the proof of claim $\mathfrak{C}2$.

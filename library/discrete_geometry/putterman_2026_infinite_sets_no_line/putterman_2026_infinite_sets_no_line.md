@@ -97,14 +97,14 @@ We thank Noga Alon and Vojta Rödl for useful comments. This research was conduc
 
 [3] Christian Reiher, Vojtěch Rödl, and Marcelo Sales. Colouring versus density in integers and Hales–Jewett cubes. *J. Lond. Math. Soc. (2)* 110 (2024) 1–24. DOI: 10.1112/jlms.12987. 1
 
-\textsc{OpenAI}
+OpenAI
 
-\textit{Email address:} \texttt{mputt@openai.com}
+*Email address:* mputt@openai.com
 
-\textsc{OpenAI and Columbia University}
+OpenAI and Columbia University
 
-\textit{Email address:} \texttt{msawhney@openai.com}
+*Email address:* msawhney@openai.com
 
-\textsc{OpenAI and Stanford University}
+OpenAI and Stanford University
 
-\textit{Email address:} \texttt{valiant@openai.com}
+*Email address:* valiant@openai.com

@@ -503,7 +503,7 @@ $$
 \sum_{\ell=1}^{M-1}\binom{F_\ell}{2}\leq\frac{1}{2}N+\sum_{r=1}^{k-1}\sum_{d=1}^{N-1}P_r(d). \tag{10}
 $$
 
-We now consider $1\leq r<k$, and show that for each such $r$ we have $\sum_d P_r(d)=o(N)$. Consider a pair $(s,s')$ counted by $\sum_{d=1}^{N-1}P_r(d)$, so that there are unique $\alpha\in\left(\!\binom{\mathcal{A}}{r}\!\right),\beta,\delta\in\left(\!\binom{\mathcal{A}}{k-r}\!\right)$ with $\alpha=V_s\cap V_{s'}$ (so $\lvert\alpha\rvert=r$), $V_s=\alpha\uplus\beta$ and $V_{s'}=\alpha\uplus\delta$ (so $\lvert\beta\rvert=k-r=\lvert\delta\rvert$). Note that $\beta\cap\delta=\emptyset$, since at each $x$ either $\mult_\beta(x)=0$ or $\mult_\delta(x)=0$. The map from $(s,s')$ to $(\alpha;\beta,\delta)$ is injective. Since $\Sigma\beta-\Sigma\delta=s-s'=d\in[1,N)$, we see that $(\beta,\delta)\in T(k-r,k-r;0,N)$.
+We now consider $1\leq r<k$, and show that for each such $r$ we have $\sum_d P_r(d)=o(N)$. Consider a pair $(s,s')$ counted by $\sum_{d=1}^{N-1}P_r(d)$, so that there are unique $\alpha\in\left(\!\binom{\mathcal{A}}{r}\!\right),\beta,\delta\in\left(\!\binom{\mathcal{A}}{k-r}\!\right)$ with $\alpha=V_s\cap V_{s'}$ (so $\lvert\alpha\rvert=r$), $V_s=\alpha\uplus\beta$ and $V_{s'}=\alpha\uplus\delta$ (so $\lvert\beta\rvert=k-r=\lvert\delta\rvert$). Note that $\beta\cap\delta=\emptyset$, since at each $x$ either $\operatorname{mult}_\beta(x)=0$ or $\operatorname{mult}_\delta(x)=0$. The map from $(s,s')$ to $(\alpha;\beta,\delta)$ is injective. Since $\Sigma\beta-\Sigma\delta=s-s'=d\in[1,N)$, we see that $(\beta,\delta)\in T(k-r,k-r;0,N)$.
 
 Hence, using $r\geq 1$ we have the bound $\binom{A(W)+r-1}{r}\leq A(W)^r$, and so
 

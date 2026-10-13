@@ -161,8 +161,8 @@ $$
 $$
 \begin{aligned}
 (1.30)\quad \Delta_z(x,z^y) &\geq S(x,y;\omega)\\
-&\geq \frac{x}{\log x}\exp\left\{K+\frac{y}{L}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)+1-\gamma\right)-\frac{y}{2}\left(\frac{\log L}{L}\right)^2\\
-&\quad-\frac{y\log L}{L^2}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)-\gamma\right)+O_{\beta,\delta}\left(\frac{y}{L^2}+\frac{y}{L\log y}\right)\right\}.
+&\geq \frac{x}{\log x}\exp\biggl\{K+\frac{y}{L}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)+1-\gamma\right)-\frac{y}{2}\left(\frac{\log L}{L}\right)^2\\
+&\quad-\frac{y\log L}{L^2}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)-\gamma\right)+O_{\beta,\delta}\left(\frac{y}{L^2}+\frac{y}{L\log y}\right)\biggr\}.
 \end{aligned}
 $$
 

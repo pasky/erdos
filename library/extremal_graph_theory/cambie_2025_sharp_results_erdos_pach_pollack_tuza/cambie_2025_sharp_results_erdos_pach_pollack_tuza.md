@@ -141,9 +141,9 @@ The fundamental block (repeated once in gray) can also be given as a clump graph
 
 $$
 \begin{pmatrix}
-1&0&2&0&{\color[rgb]{0.75,0.75,0.75}1}&{\color[rgb]{0.75,0.75,0.75}0}&{\color[rgb]{0.75,0.75,0.75}2}&{\color[rgb]{0.75,0.75,0.75}0}\\
-0&1&0&1&{\color[rgb]{0.75,0.75,0.75}0}&{\color[rgb]{0.75,0.75,0.75}1}&{\color[rgb]{0.75,0.75,0.75}0}&{\color[rgb]{0.75,0.75,0.75}1}\\
-0&1&0&1&{\color[rgb]{0.75,0.75,0.75}0}&{\color[rgb]{0.75,0.75,0.75}1}&{\color[rgb]{0.75,0.75,0.75}0}&{\color[rgb]{0.75,0.75,0.75}1}
+1&0&2&0&{\color{#bfbfbf}1}&{\color{#bfbfbf}0}&{\color{#bfbfbf}2}&{\color{#bfbfbf}0}\\
+0&1&0&1&{\color{#bfbfbf}0}&{\color{#bfbfbf}1}&{\color{#bfbfbf}0}&{\color{#bfbfbf}1}\\
+0&1&0&1&{\color{#bfbfbf}0}&{\color{#bfbfbf}1}&{\color{#bfbfbf}0}&{\color{#bfbfbf}1}
 \end{pmatrix}
 $$
 
@@ -207,9 +207,9 @@ The fundamental block itself is a clump graph that can be presented by the corre
 
 $$
 \begin{pmatrix}
-1&0&2&0&1&1&0&0&2&0&{\color[rgb]{0.75,0.75,0.75}1}\\
-0&2&0&0&2&0&1&0&2&0&{\color[rgb]{0.75,0.75,0.75}0}\\
-0&2&0&1&0&2&0&2&0&1&{\color[rgb]{0.75,0.75,0.75}0}
+1&0&2&0&1&1&0&0&2&0&{\color{#bfbfbf}1}\\
+0&2&0&0&2&0&1&0&2&0&{\color{#bfbfbf}0}\\
+0&2&0&1&0&2&0&2&0&1&{\color{#bfbfbf}0}
 \end{pmatrix}
 $$
 

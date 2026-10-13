@@ -488,9 +488,11 @@ $$
 \limsup_{n\to\infty}\frac{|\mathcal{G}\cap[0,n)|}{\sqrt{n}}&\geq\lim_{i\to\infty}\frac{|\mathcal{G}\cap[0,q_{i+1}+2m_{i+1})|}{\sqrt{q_{i+1}+2m_{i+1}}}\\
 &=\lim_{i\to\infty}\frac{|\mathcal{G}_{i+1}|}{\sqrt{q_i^3+2(q_i^6-1)/g}}\\
 &=\lim_{i\to\infty}\frac{q_i^3-O(q_i^2)}{\sqrt{2/g}\,q_i^3+O(1)}\\
-&=\frac{\sqrt{g}}{\sqrt{2}}.\qed
+&=\frac{\sqrt{g}}{\sqrt{2}}.
 \end{aligned}
 $$
+
+$\square$
 
 ### 4.1 Nonrigorous thoughts about the proof
 

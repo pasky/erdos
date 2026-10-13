@@ -428,7 +428,7 @@ $$
 where
 
 $$
-E_L=\left\{\left(u,\mathds{1}\left[\phi_L(u)\in \mathrm{N}_{F}(w)\right]\right):u\in L\right\},
+E_L=\left\{\left(u,\mathbb{1}\left[\phi_L(u)\in \mathrm{N}_{F}(w)\right]\right):u\in L\right\},
 $$
 
 for every $L\in\mathfrak{J}_{F^-,\widetilde{G}',\widetilde{G}}$. In words, the vertex set of $\mathcal{H}$ is two copies of $U$, corresponding to the neighbours and non-neighbours of $w$ in $F$, and its edge set has the following property: if $u\in \mathrm{N}_{G'}(v)$ for every $(u,1)\in E_L$ and $u\notin \mathrm{N}_{G}(v)$ for every $(u,0)\in E_L$, then $L\cup\{v\}\in\mathfrak{J}_{F,G',G}$.
@@ -837,7 +837,7 @@ $$
 where $\nu_q^{\prime\prime}:\mathcal{H}[X]\to\mathbb{R}_{\geqslant 0}$ is defined by
 
 $$
-\nu_q^{\prime\prime}(E)=\frac{\mathds{1}[E\subset V_q]}{\mathbb{P}(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}))}\,\nu^{\prime\prime}(E).
+\nu_q^{\prime\prime}(E)=\frac{\mathbb{1}[E\subset V_q]}{\mathbb{P}(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}))}\,\nu^{\prime\prime}(E).
 $$
 
 The simple proof of Claim 4.8 will establish, by inspecting the definitions, that
@@ -1022,7 +1022,7 @@ for all $E\in\mathcal{H}'$, by (44), since the hypergraphs $\mathcal{H}'$ and $\
 Now, let $\nu_q^{\prime\prime}:\mathcal{H}'\to\mathbb{R}_{\geqslant 0}$ be defined by
 
 $$
-\nu_q^{\prime\prime}(E)=\frac{\mathds{1}\big[E\subset V_q\big]}{\mathbb{P}\big(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big)}\,\nu^{\prime\prime}(E).
+\nu_q^{\prime\prime}(E)=\frac{\mathbb{1}\big[E\subset V_q\big]}{\mathbb{P}\big(E\subset V_q\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big)}\,\nu^{\prime\prime}(E).
 $$
 
 We will first show that
@@ -1042,7 +1042,7 @@ $$
 *Proof.* The definitions of $e(\nu_q^{\prime\prime})$ and $\nu_q^{\prime\prime}$,
 
 $$
-e(\nu_q^{\prime\prime})=\sum_{E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathds{1}\big[E\subset V_q\big]}{P_q(E)},
+e(\nu_q^{\prime\prime})=\sum_{E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathbb{1}\big[E\subset V_q\big]}{P_q(E)},
 $$
 
 imply that
@@ -1054,7 +1054,7 @@ $$
 since, for all $E\in\mathcal{H}'$, we have that
 
 $$
-\mathbb{E}\big[\mathds{1}[E\subset V_q]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big]=P_q(E)
+\mathbb{E}\big[\mathbb{1}[E\subset V_q]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})\big]=P_q(E)
 $$
 
 from (61), the definition of $P_q(E)$. The claim now follows from (63) by Jensen’s inequality. $\blacksquare$
@@ -1086,13 +1086,13 @@ $$
 *Proof.* Recall that $d_{\nu_q^{\prime\prime}}(L)$ is defined as
 
 $$
-d_{\nu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{L\subset E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathds{1}\big[E\subset V_q\big]}{P_q(E)},
+d_{\nu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\mathcal{H}'}\nu_q^{\prime\prime}(E)=\sum_{L\subset E\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E)\mathbb{1}\big[E\subset V_q\big]}{P_q(E)},
 $$
 
 where the last equality is using the definition of $\nu_q^{\prime\prime}$, and hence we can write, for every $L\subset V$,
 
 $$
-d_{\nu_q^{\prime\prime}}(L)^2=\sum_{L\subset E_1\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_1)}{P_q(E_1)}\sum_{L\subset E_2\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_2)}{P_q(E_2)}\mathds{1}\big[E_1\cup E_2\subset V_q\big].
+d_{\nu_q^{\prime\prime}}(L)^2=\sum_{L\subset E_1\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_1)}{P_q(E_1)}\sum_{L\subset E_2\in\mathcal{H}'}\frac{\nu^{\prime\prime}(E_2)}{P_q(E_2)}\mathbb{1}\big[E_1\cup E_2\subset V_q\big].
 $$
 
 Observe that the event $V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J})$ is decreasing and also that, for every $E_1,E_2\in\mathcal{H}'$, the event $E_1\cup E_2\subset V_q$ is increasing. We can therefore use Harris’ inequality to bound, for $E_1,E_2\in\mathcal{H}'$,
@@ -1226,8 +1226,8 @@ $$
 *If $\mathcal{J}_{F,\widetilde{G}^{\prime},\widetilde{G}}$ is $(p,R^{\prime})$-Janson and $\mathcal{J}_{F^{-},\widetilde{G}^{\prime},\widetilde{G}}[W]$ is $(p,R)$-Janson for every $W\subset U=V(\widetilde{G})$ with $|W|\geqslant m/(8r)$, then*
 
 $$
-\mathbb{P}\left(\exists\,G^{\prime}\subset G:\begin{array}{@{}c@{}}G^{\prime}[U]=\widetilde{G},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
-\mathcal{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\ \middle|\ G[U]=\widetilde{G}\right)\leqslant 2^{-m/(32r)}, \tag{72}
+\mathbb{P}\left(\exists\,G^{\prime}\subset G:\begin{array}{c}G^{\prime}[U]=\widetilde{G}^{\prime},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
+\mathfrak{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\ \middle|\ G[U]=\widetilde{G}\right)\leqslant 2^{-m/(32r)}, \tag{72}
 $$
 
 where $G\sim\mathbb{G}(m+1,1/2)$ and $V(G)=U\cup\{v\}$.
@@ -1235,8 +1235,8 @@ where $G\sim\mathbb{G}(m+1,1/2)$ and $V(G)=U\cup\{v\}$.
 The first change that we need to make to the proof in Section 3 is to replace $\Gamma_{G}$, defined in (24), by $\Psi_{G}$, which is just the collection of $G^{\prime}\subset G$ satisfying the event in (72):
 
 $$
-\Psi_{G}=\left\{G^{\prime}\subset G:\begin{array}{@{}c@{}}G^{\prime}[U]=\widetilde{G},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
-\mathcal{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\right\}. \tag{73}
+\Psi_{G}=\left\{G^{\prime}\subset G:\begin{array}{c}G^{\prime}[U]=\widetilde{G}^{\prime},\ d_{G^{\prime}}(v)\geqslant m/(4r)\text{ and}\\
+\mathfrak{J}_{F,G^{\prime},G}\text{ is not }(p,R^{\prime}+1)\text{-Janson}\end{array}\right\}. \tag{73}
 $$
 
 That is, we now require that $\mathcal{J}_{F,G^{\prime},G}$ is not $(p,R^{\prime}+1)$-Janson, instead of requiring it to be empty as in Lemma 3.1. The argument follows very closely the one in Section 3, so we briefly summarise the ideas in the proof of Lemma 3.1, referring to some of the definitions in that section as we progress.
@@ -1250,7 +1250,7 @@ $$
 where
 
 $$
-E_{L}=\left\{\left(u,\mathds{1}\big[\phi_{L}(u)\in\mathrm{N}_{F}(w)\big]\right):u\in L\right\},
+E_{L}=\left\{\left(u,\mathbb{1}\big[\phi_{L}(u)\in\mathrm{N}_{F}(w)\big]\right):u\in L\right\},
 $$
 
 with $\phi_{L}:L\to V(F^{-})$ being a fixed bijection and $w$ being the unique vertex in $V(F)\setminus V(F^{-})$. We then defined
@@ -2455,7 +2455,7 @@ $\blacksquare$
 Now, let $\gamma=\sqrt{8\eta}>0$ (a choice made with foresight) and $\mu''_q:\pi(\mathcal{H}')\to\mathbb{R}_{\geqslant 0}$ be defined by
 
 $$
-\mu''_q(E)=\mu''(E)\,\frac{\gamma\cdot\mathds{1}\big[E\in\pi(\mathcal{H}'[V_q])\big]}{P'_q(E)}.
+\mu''_q(E)=\mu''(E)\,\frac{\gamma\cdot\mathbb{1}\big[E\in\pi(\mathcal{H}'[V_q])\big]}{P'_q(E)}.
 $$
 
 Also define the extension $\bar{\mu}''_q$ supported on $\pi_v(\mathcal{H}'[X_q])$, where $X_q=V_q\cap X$, by
@@ -2497,7 +2497,7 @@ $$
 *Proof.* The definitions of $e(\bar{\mu}^{\prime\prime}_{q})$, $\bar{\mu}^{\prime\prime}_{q}$ and $\mu^{\prime\prime}_{q}$,
 
 $$
-e(\bar{\mu}^{\prime\prime}_{q})=\sum_{E\cup\{v\}\in\pi_v(\mathcal{H}^{\prime})}\bar{\mu}^{\prime\prime}_{q}(E\cup\{v\})=\sum_{E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathds{1}\big[E\in\pi(\mathcal{H}^{\prime}[V_q])\big]}{P^{\prime}_{q}(E)},
+e(\bar{\mu}^{\prime\prime}_{q})=\sum_{E\cup\{v\}\in\pi_v(\mathcal{H}^{\prime})}\bar{\mu}^{\prime\prime}_{q}(E\cup\{v\})=\sum_{E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathbb{1}\big[E\in\pi(\mathcal{H}^{\prime}[V_q])\big]}{P^{\prime}_{q}(E)},
 $$
 
 imply that
@@ -2509,7 +2509,7 @@ $$
 since, for all $E\in\pi(\mathcal{H}^{\prime})$, we have that
 
 $$
-\mathbb{E}\left[\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}^{\prime})\right]=P^{\prime}_{q}(E) \tag{135}
+\mathbb{E}\left[\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_T\mathcal{J}^{\prime})\right]=P^{\prime}_{q}(E) \tag{135}
 $$
 
 from the definition of $P^{\prime}_{q}(E)$, (130). $\blacksquare$
@@ -2596,7 +2596,7 @@ $$
 d_{\mu^{\prime\prime}_{q}}(L)^2=
 \left(
 \sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}
-\mu^{\prime\prime}(E)\frac{\gamma\cdot\mathds{1}[E\in\pi(\mathcal{H}^{\prime}[V_q])]}{P^{\prime}_{q}(E)}
+\mu^{\prime\prime}(E)\frac{\gamma\cdot\mathbb{1}[E\in\pi(\mathcal{H}^{\prime}[V_q])]}{P^{\prime}_{q}(E)}
 \right)^2
 \leqslant\gamma^2\left(\frac{q}{2}\right)^{-2s}d_{\mu^{\prime\prime}}(L)^2,
 \tag{140}
@@ -2678,7 +2678,7 @@ $$
 \Lambda_p(\bar{\mu}_q^{\prime\prime})<\gamma^2\left(\frac{2}{q}\right)^{2s}\left(1+\frac{1}{p}+\frac{2^8rs^2}{p}\right)\leqslant\gamma^2\left(\frac{2}{q}\right)^{2s}\frac{2^{10}rs^2}{p}\leqslant\frac{\gamma^2}{2\sqrt{\eta}}
 $$
 
-as desired. \hfill$\blacksquare$
+as desired. $\blacksquare$
 
 Replacing the bound of Claim 7.13 in (137) and then taking the conditional expectation with respect to $\{V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\}$ yields
 
@@ -2698,7 +2698,7 @@ $$
 *Proof.* Note that $v\notin L$ if $L\subset U$. It then follows from Claim 7.10 and the definition of $d_{\mu_q^{\prime\prime}}(L)$ that
 
 $$
-d_{\bar{\mu}_q^{\prime\prime}}(L)=d_{\mu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]}{P_q^{\prime}(E)},
+d_{\bar{\mu}_q^{\prime\prime}}(L)=d_{\mu_q^{\prime\prime}}(L)=\sum_{L\subset E\in\pi(\mathcal{H}^{\prime})}\mu^{\prime\prime}(E)\,\frac{\gamma\cdot\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]}{P_q^{\prime}(E)},
 $$
 
 so taking the conditional expectation yields, for all $L\subset U$,
@@ -2710,10 +2710,10 @@ $$
 since
 
 $$
-\mathbb{E}\left[\mathds{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\right]=P_q^{\prime}(E),
+\mathbb{E}\left[\mathbb{1}\left[E\in\pi(\mathcal{H}^{\prime}[V_q])\right]\mid V_q\in\mathcal{I}(\underline{\partial}_{T}\mathcal{J}^{\prime})\right]=P_q^{\prime}(E),
 $$
 
-(135), holds for all $E\in\pi(\mathcal{H}^{\prime})$. \hfill$\blacksquare$
+(135), holds for all $E\in\pi(\mathcal{H}^{\prime})$. $\blacksquare$
 
 Substituting the bound in Claim 7.14 in the middle sum of (144) and applying the Cauchy–Schwarz inequality, we obtain
 
@@ -3054,7 +3054,7 @@ $$
 \Lambda_p(\nu)\geqslant\frac{e(\nu)^2}{\zeta p|X|},
 $$
 
-which completes the proof because $\nu$ was arbitrary. $\hfill\square$
+which completes the proof because $\nu$ was arbitrary. $\square$
 
 ## Appendix C. Properties of measures
 

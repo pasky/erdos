@@ -308,7 +308,7 @@ $$
 \lim_{k\to\infty}U_{\mu_{n_k}}(z_{n_k})=\overline{\lim}_{n\to\infty}\sup_F U_\mu
 $$
 
-Next, the principle of descent (c.f. [17, Theorem-6.8]) which states that for probability measures $\mu_n$, $n=1,2,\ldots$ having support in a fixed compact set and converging to some measure $\mu$ in the $\mbox{weak}^{*}$ topology, we have
+Next, the principle of descent (c.f. [17, Theorem-6.8]) which states that for probability measures $\mu_n$, $n=1,2,\ldots$ having support in a fixed compact set and converging to some measure $\mu$ in the $\text{weak}^{*}$ topology, we have
 
 $$
 \overline{\lim}_{n\to\infty}U_{\mu_n}(w_n)\leq U_\mu(w^*),
@@ -507,7 +507,7 @@ $$
 We now define for each $1\leq i\leq n,$ the event $T_i=\{X_i\text{ forms an isolated component}\}$. Then it follows that
 
 $$
-\mathbb{E}\left[\frac{\mathcal{C}(\Lambda(R_n))}{n}\right]\geq\mathbb{E}\left[\frac{1}{n}\sum_{1}^{n_2}\mathbbm{1}_{T_i}\right]=c_2\mathbb{P}(T_1).
+\mathbb{E}\left[\frac{C(\Lambda(R_n))}{n}\right]\geq\mathbb{E}\left[\frac{1}{n}\sum_{1}^{n_2}\mathbb{1}_{T_i}\right]=c_2\mathbb{P}(T_1).
 $$
 
 We will be done if we can show that $\mathbb{P}(T_1)>c>0$ for some $c$ independent of $n$. Towards this, we start by providing a sufficient condition for having an *isolated component* at $X_1$. Let $z\in B(X_1,r_{n_2})$, with $r_{n_2}:=\frac{1}{n_2^6}$. Near $X_1$ we expand the random part of the polynomial in the Taylor series to obtain,

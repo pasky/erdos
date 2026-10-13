@@ -106,7 +106,7 @@ $$
 \begin{array}{ccc}
 \mathrm{sat}((2,-1),G)&\geq&\mathrm{sat}(3-\mathrm{AP},G)\\
 &&\\
-\mathrel{\rotatebox{90.0}{$\geq$}}&&\mathrel{\rotatebox{90.0}{$\geq$}}\\
+\mathrel{\wedge\mkern-5mu\setminus}&&\mathrel{\wedge\mkern-5mu\setminus}\\
 &&\\
 a((2,-1),G)&\geq&a(3-\mathrm{AP},G)
 \end{array}

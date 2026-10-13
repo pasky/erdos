@@ -418,13 +418,13 @@ $$
 \operatorname{vol}(R'_{\mathfrak{c}})=\frac{\left|\bigcup_{i=1}^kR_{\mathfrak{b}_i}+\mathfrak{c}\right|}{N(\mathfrak{c})}\leq\sum_{i=1}^k\frac{\left|R_{\mathfrak{b}_i}+\mathfrak{c}\right|}{N(\mathfrak{c})}=\sum_{i=1}^k\operatorname{vol}(R_{\mathfrak{b}_i}).
 $$
 
-Since every $\mathfrak{b}$ divides at least one $\mathfrak{c}$, it follows that $\sum_{\mathfrak{c}\in\mathcal{C}}\vol(R'_{\mathfrak{c}})\leq\sum_{\mathfrak{b}\in\mathcal{B}}\vol(R_{\mathfrak{b}})$, so $R'$ is Erdős if $R$ is. On the other hand, if $x\notin R'_{\mathfrak{c}}$, then $x\notin R_{\mathfrak{b}}$ for every $\mathfrak{b}\mid\mathfrak{c}$. It follows that
+Since every $\mathfrak{b}$ divides at least one $\mathfrak{c}$, it follows that $\sum_{\mathfrak{c}\in\mathcal{C}}\operatorname{vol}(R'_{\mathfrak{c}})\leq\sum_{\mathfrak{b}\in\mathcal{B}}\operatorname{vol}(R_{\mathfrak{b}})$, so $R'$ is Erdős if $R$ is. On the other hand, if $x\notin R'_{\mathfrak{c}}$, then $x\notin R_{\mathfrak{b}}$ for every $\mathfrak{b}\mid\mathfrak{c}$. It follows that
 
 $$
-\prod_{\mathfrak{b}\mid\mathfrak{c}}(1-\vol(R_{\mathfrak{b}}))\leq(1-\vol(R'_{\mathfrak{c}})),
+\prod_{\mathfrak{b}\mid\mathfrak{c}}(1-\operatorname{vol}(R_{\mathfrak{b}}))\leq(1-\operatorname{vol}(R'_{\mathfrak{c}})),
 $$
 
-and so $\prod_{\mathfrak{b}\in\mathcal{B}}(1-\vol(R_{\mathfrak{b}}))\leq\prod_{\mathfrak{c}\in\mathcal{C}}(1-\vol(R'_{\mathfrak{c}}))$, which implies that $R$ is Erdős if $R'$ is.
+and so $\prod_{\mathfrak{b}\in\mathcal{B}}(1-\operatorname{vol}(R_{\mathfrak{b}}))\leq\prod_{\mathfrak{c}\in\mathcal{C}}(1-\operatorname{vol}(R'_{\mathfrak{c}}))$, which implies that $R$ is Erdős if $R'$ is.
 
 Next we show that $R'$ has weak/strong light tails if and only if $R$ does. Since the light tail properties don’t depend on a choice of the order of the support of the sieve, we are free to reorder $\mathcal{B}_R$ and $\mathcal{C}$, so we order them in such a way, that there is a function $f$ defined by the rule that $\mathfrak{b}_i\mid\mathfrak{c}_j$ is equivalent to $f(j)\leq i<f(j+1)$. Then we have
 
@@ -962,19 +962,10 @@ $$
 The ideal $\mathfrak{c}(A_i)=\operatorname{lcm}(\{\mathfrak{a}_{A_i}\}\cup\{\mathfrak{b}_j\}_{j\in A_i})$ can be written as the product of coprime ideals $\prod_{j\in A_i}\mathfrak{b}_j$ and some $\mathfrak{a}'_{A_i}$, which is uniquely defined since $\mathcal{O}_K$ has unique factorization of ideals into prime ideals. Hence we have the commutative diagram
 
 $$
-\begin{tikzcd}
-\mathcal{O}_K/\mathfrak{c}(A_i)
-  \arrow[r,"\phi_1"]
-  \arrow[rrr,bend right=20,"V_{A_i}"']
-&
-\mathcal{O}_K/\mathfrak{a}'(A_i)\times\mathcal{O}_K/\prod_{j\in A_i}\mathfrak{b}_j
-  \arrow[r,"\pi"]
-&
-\mathcal{O}_K/\prod_{j\in A_i}\mathfrak{b}_j
-  \arrow[r,"\phi_2"]
-&
-\prod_{j\in A_i}\mathcal{O}_K/\mathfrak{b}_j
-\end{tikzcd}
+\begin{array}{ccccccc}
+\mathcal{O}_K/\mathfrak{c}(A_i) & \xrightarrow{\phi_1} & \mathcal{O}_K/\mathfrak{a}'(A_i)\times\mathcal{O}_K/\prod_{j\in A_i}\mathfrak{b}_j & \xrightarrow{\pi} & \mathcal{O}_K/\prod_{j\in A_i}\mathfrak{b}_j & \xrightarrow{\phi_2} & \prod_{j\in A_i}\mathcal{O}_K/\mathfrak{b}_j\\
+ & \searrow & & \xrightarrow[V_{A_i}]{} & & \nearrow &
+\end{array}
 $$
 
 where $\phi_1,\phi_2$ are isomorphisms obtained by the Chinese Remainder Theorem, and $\pi$ is the projection on the second coordinate. From this, and using the fact that $\phi_1,\phi_2$ are bijections, we see that

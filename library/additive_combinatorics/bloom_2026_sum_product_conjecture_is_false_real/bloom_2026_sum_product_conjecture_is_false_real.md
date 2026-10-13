@@ -295,8 +295,10 @@ $$
 In particular, letting $s=2$, since $h_K\geq 1$ and $d\geq 2$,
 
 $$
-R_K\leq R_Kh_K\leq 4(\pi/12)^d\Delta_K\leq\Delta_K.\qed
+R_K\leq R_Kh_K\leq 4(\pi/12)^d\Delta_K\leq\Delta_K.
 $$
+
+$\square$
 
 It therefore suffices to produce $K$ with $\Delta_K\leq O(1)^d$, for arbitrarily large $d$. Such towers were first constructed by Martinet [29].
 
@@ -537,7 +539,9 @@ $$\lvert A^{(k)}\rvert\leq(CkY)^{d-1}$$
 
 for some absolute constant $C>0$. Furthermore, $A\subseteq B^+(e^Y)$, and hence $kA\subseteq B^+(ke^Y)$, so
 
-$$\lvert kA\rvert\leq(Cke^Y)^d.\qed$$
+$$\lvert kA\rvert\leq(Cke^Y)^d.$$
+
+$\square$
 
 ## 5. Numerical estimates
 
@@ -1036,7 +1040,7 @@ $$
 We can choose $x$ sufficiently large that $F_q(x,1)$ is greater than the $O\left(\frac{1}{\log q}\right)$ term by some positive multiple of $\frac{1}{\log q}$, in which case $\frac{\log_q|A+A|}{\log_q|A|}$ will be at most $2-c/\log q$ for some $c>0$, as desired. We have
 
 $$
-\log_q\left(\frac{|A|^2}{|AA|}\right)\geq |C(\mathbb{F}_q)|\left(2F_q(x,1)-F_q(2x,1)+O\left(\frac{1}{\log q}+o(1)\right)
+\log_q\left(\frac{|A|^2}{|AA|}\right)\geq |C(\mathbb{F}_q)|(2F_q(x,1)-F_q(2x,1)+O\left(\frac{1}{\log q}+o(1)\right)
 $$
 
 and

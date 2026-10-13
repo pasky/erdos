@@ -144,7 +144,7 @@ In Section 2 we will discuss the proof of [YZ] and reduce our task to establishi
 
 We write $C,C^{\prime},C_{0},c$ etc. to denote positive absolute constants, which may change from line to line, while $C(\tau)$ etc. denotes a constant that depends only on the parameter (or set of parameters) $\tau$. We use the standard asymptotic notation $f=O(g)$, $f\ll g$ and $g\gg f$ to mean $|f|\leq Cg$ for some absolute constant $C>0$, and $f=O_{\tau}(g)$, $f\ll_{\tau}g$ and $g\gg_{\tau}f$ to mean $|f|\leq C(\tau)g$. For positive sequences $\{f_n\},\{g_n\}$ we say that $g_n=o(f_n)$ and $f_n=\omega(g_n)$ if $\lim f_n/g_n\to\infty$ with $n$. We allow implied constants to depend on the sub-Gaussian constant of $\xi$ without explicitly indicating this.
 
-For a real number $x$, $\|x\|_{\mathbb{R}/\mathbb{Z}}$ denotes the distance from $x$ to the nearest integer, and $m=m_{\Leb}(\cdot)$ denotes the Lebesgue measure on $\mathbb{R}^d$ for any $d$. For a compact interval $J\subset\mathbb{R}$ we write $|J|:=m_{\Leb}(J)$ for its length. $\{t\}=t-\lfloor t\rfloor$ denotes the fractional part of $t\in\mathbb{R}$. We write $e_n(\theta)$ for $e(\theta/n)$. The singular values of a matrix $M$ are ordered $\sigma_1(M)\geq\sigma_2(M)\geq\cdots$.
+For a real number $x$, $\|x\|_{\mathbb{R}/\mathbb{Z}}$ denotes the distance from $x$ to the nearest integer, and $m=m_{\mathrm{Leb}}(\cdot)$ denotes the Lebesgue measure on $\mathbb{R}^d$ for any $d$. For a compact interval $J\subset\mathbb{R}$ we write $|J|:=m_{\mathrm{Leb}}(J)$ for its length. $\{t\}=t-\lfloor t\rfloor$ denotes the fractional part of $t\in\mathbb{R}$. We write $e_n(\theta)$ for $e(\theta/n)$. The singular values of a matrix $M$ are ordered $\sigma_1(M)\geq\sigma_2(M)\geq\cdots$.
 
 Sequences $(\xi_j)_j$ are understood to be sequences of iid copies of the variable $\xi$ from Theorem 1.2. We write $\mathbf{P}_{\mathcal{N}_{\mathbb{R}}(0,1)}$ for a probability measure under which the coefficients $\xi_j$ in (1.4) are standard real Gaussians, and write $\mathbf{E}_{\mathcal{N}_{\mathbb{R}}(0,1)}$ for the associated expectation. (This notation is only used for comparisons of random variables in law – we do not consider couplings.)
 
@@ -223,7 +223,7 @@ $$
 and define the point process
 
 $$
-\mathcal{M}_n=\sum_{\alpha=1}^{N}\delta_{X_\alpha},\qquad X_\alpha:=Z_\alpha\mathbbm{1}_{\mathcal{A}_\alpha}+\infty\mathbbm{1}_{\mathcal{A}_\alpha^c}. \tag{2.6}
+\mathcal{M}_n=\sum_{\alpha=1}^{N}\delta_{X_\alpha},\qquad X_\alpha:=Z_\alpha\mathbb{1}_{\mathcal{A}_\alpha}+\infty\mathbb{1}_{\mathcal{A}_\alpha^c}. \tag{2.6}
 $$
 
 The event $\mathcal{A}'_\alpha$ is the condition on the local linearization that was described above, while $\mathcal{A}''_\alpha$ enforces some regularity of $P_n$ on $I_\alpha$.
@@ -821,7 +821,7 @@ one sees that the left hand sides of (4.2) and (4.3) can be expressed as $|\math
 From the dimensions of the rectangles $T_i(\mathbf{b})$ we have from Fubini’s theorem that
 
 $$
-m_{\Leb}(U_i)=\int_{\mathcal{D}}m_{\Leb}(T_i(\mathbf{b}))\,d\mathbf{b}\overset{\Delta}{=}\frac{\Delta}{N}|J_i||J_i'|. \tag{4.8}
+m_{\mathrm{Leb}}(U_i)=\int_{\mathcal{D}}m_{\mathrm{Leb}}(T_i(\mathbf{b}))\,d\mathbf{b}=\frac{\Delta}{N}|J_i||J_i'| \tag{4.8}
 $$
 
 where we denote
@@ -833,7 +833,7 @@ $$
 Thus,
 
 $$
-m_{\Leb}(\mathcal U)=(\Delta/N)^m\prod_{i=1}^{m}|J_i||J_i'|=\frac{\log^{O(m)}n}{N^m}\prod_{i=1}^{m}|J_i||J_i'|. \tag{4.10}
+m_{\mathrm{Leb}}(\mathcal U)=(\Delta/N)^m\prod_{i=1}^{m}|J_i||J_i'|=\frac{\log^{O(m)}n}{N^m}\prod_{i=1}^{m}|J_i||J_i'|. \tag{4.10}
 $$
 
 For the measure of $\mathcal U$ under the law of $\Gamma$, recall from Lemma 3.6 that the norm of the inverse of the covariance matrix of $\Gamma$ has operator norm of size $O(\lambda^{-3m})$, and hence determinant of size $O(\lambda^{-O(m^2)})$. By controlling the conditional density of $\Gamma$ in directions $(\mathbf a_1,\ldots,\mathbf a_m)$ for fixed $(\mathbf b_1,\ldots,\mathbf b_m)$ by the Lebesgue measure, and then integrating over $\mathcal D^m$ under the marginal Gaussian measure, we get
@@ -844,7 +844,7 @@ $$
 
 giving (4.4) as desired.
 
-We next note that the corners of the rectangles $T_i(\mathbf b)$ are $n^{O(L_0+1)}$-Lipschitz functions of $\mathbf b\in\mathcal D$. From this it follows that if $K_*$ is sufficiently large depending on $L_0$ and $m$, we can find sets $\mathcal U_-\subset\mathcal U\subset\mathcal U_+$ such that $\mathcal U_-$ and $\mathcal U_+\setminus\mathcal U_-$ are unions of cubes in $\mathbb R^{4m}$ of side length $\delta$ with disjoint interiors, and such that $m_{\Leb}(\mathcal U_+\setminus\mathcal U_-)\leq n^{-100}m_{\Leb}(\mathcal U)$ (say).
+We next note that the corners of the rectangles $T_i(\mathbf b)$ are $n^{O(L_0+1)}$-Lipschitz functions of $\mathbf b\in\mathcal D$. From this it follows that if $K_*$ is sufficiently large depending on $L_0$ and $m$, we can find sets $\mathcal U_-\subset\mathcal U\subset\mathcal U_+$ such that $\mathcal U_-$ and $\mathcal U_+\setminus\mathcal U_-$ are unions of cubes in $\mathbb R^{4m}$ of side length $\delta$ with disjoint interiors, and such that $m_{\mathrm{Leb}}(\mathcal U_+\setminus\mathcal U_-)\leq n^{-100}m_{\mathrm{Leb}}(\mathcal U)$ (say).
 
 The bound (4.3) now follows by covering each cube in $\mathcal U_+$ with balls of bounded overlap and applying the union bound, Theorem 3.4, and (4.10).
 
@@ -857,13 +857,13 @@ $$
 where the sum runs over the cubes comprising $\mathcal U_-$. Using the union bound and Theorem 3.4 as we did for $\mathcal U_+$, the first two terms above are of size
 
 $$
-\ll m_{\Leb}(\mathcal U_+\setminus\mathcal U_-)\ll n^{-100}m_{\Leb}(\mathcal U).
+\ll m_{\mathrm{Leb}}(\mathcal U_+\setminus\mathcal U_-)\ll n^{-100}m_{\mathrm{Leb}}(\mathcal U).
 $$
 
-For the sum over $Q$, use Theorem 3.2 to bound each term by $\ll_{m,\kappa,K_*}n^{-1/2}m_{\Leb}(Q)$. Altogether we have
+For the sum over $Q$, use Theorem 3.2 to bound each term by $\ll_{m,\kappa,K_*}n^{-1/2}m_{\mathrm{Leb}}(Q)$. Altogether we have
 
 $$
-|\mathbf P(\widetilde S\in\mathcal U)-\mathbf P(\Gamma\in\mathcal U)|\ll_{m,\kappa,K_*}n^{-1/2}m_{\Leb}(\mathcal U)
+|\mathbf P(\widetilde S\in\mathcal U)-\mathbf P(\Gamma\in\mathcal U)|\ll_{m,\kappa,K_*}n^{-1/2}m_{\mathrm{Leb}}(\mathcal U)
 $$
 
 and the claim now follows from (4.10). This concludes the proof of Proposition 4.1. $\square$

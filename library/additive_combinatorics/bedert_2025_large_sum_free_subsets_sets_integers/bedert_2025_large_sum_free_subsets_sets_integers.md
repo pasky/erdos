@@ -29,7 +29,7 @@ $$
 S(N)\vcentcolon=\min_{A\subset\mathbf{N}:|A|=N}S(A). \tag{1}
 $$
 
-The following classical argument of Erdős [7] proves that $S(A)\geqslant |A|/3$ for any $A\subset\mathbf{Z}\setminus\{0\}$. Let $\mathbf{T}=\mathbf{R}/\mathbf{Z}$ and note that the interval $(1/3,2/3)\subset\mathbf{T}$ is sum-free. Hence, for any $x\in\mathbf{T}$ the set $A_x=\{a\in A:ax(\mbox{mod}\,1)\in(1/3,2/3)\}$ is sum-free. One can conclude by observing that $\mathbb{E}_{x\in\mathbf{T}}|A_x|=\sum_{a\in A}\mathbb{P}(ax(\mbox{mod}\,1)\in(1/3,2/3))=|A|/3$ which shows that one of the sum-free sets $A_x$ must have size at least $|A|/3$.
+The following classical argument of Erdős [7] proves that $S(A)\geqslant |A|/3$ for any $A\subset\mathbf{Z}\setminus\{0\}$. Let $\mathbf{T}=\mathbf{R}/\mathbf{Z}$ and note that the interval $(1/3,2/3)\subset\mathbf{T}$ is sum-free. Hence, for any $x\in\mathbf{T}$ the set $A_x=\{a\in A:ax(\text{mod}\,1)\in(1/3,2/3)\}$ is sum-free. One can conclude by observing that $\mathbb{E}_{x\in\mathbf{T}}|A_x|=\sum_{a\in A}\mathbb{P}(ax(\text{mod}\,1)\in(1/3,2/3))=|A|/3$ which shows that one of the sum-free sets $A_x$ must have size at least $|A|/3$.
 
 Despite its simplicity, only minor improvements over this lower bound have been obtained. Alon and Kleitman [2] observed that Erdős’s argument may in fact be improved to give $S(N)\geqslant(N+1)/3$. The best bound $S(N)\geqslant(N+2)/3$ before this work was established in a celebrated paper of Bourgain [4] using an elaborate Fourier analytic approach. Recent work of Shakan [22] provides an alternative proof of Bourgain’s bound using a similar method. It has been a long-standing open problem to find a more substantial improvement over Erdős’s lower bound and this question appears in the work of various authors such as [2, 4, 6, 7, 10, 11, 12, 14, 22, 23, 24]. The main problem is to prove the following widely believed estimate for $S(N)$ which asserts that one can improve the Erdős-Alon/Kleitman-Bourgain bounds by an arbitrarily large constant. This problem is also listed as Problem 1 on Green’s list [8] of 100 open problems.
 
@@ -71,7 +71,7 @@ The first five of these bounds were obtained using increasingly better explicit 
 
 ## 2. Setup and paper overview
 
-We begin by discussing a well-known strategy for obtaining lower bounds for $S(N)$, dating back (in its simplest form) to the work of Erdős [7]. Let $A\subset\mathbf{Z}$ have size $N$. By simply removing $0$ if it lies in $A$, it is sufficient to establish Theorem 1.2 for sets $A\subset\mathbf{Z}\setminus\{0\}$ so we assume throughout the rest of this paper that $0\notin A$. We write $\mathbf{T}=\mathbf{R}/\mathbf{Z}$ for the one-dimensional torus and recall that the interval $(1/3,2/3)\subset\mathbf{T}$ is sum-free. Hence, for any $x\in\mathbf{T}$ the set $\{a\in A:ax(\mbox{mod}\,1)\in(1/3,2/3)\}$ is sum-free and we deduce the following important basic estimate
+We begin by discussing a well-known strategy for obtaining lower bounds for $S(N)$, dating back (in its simplest form) to the work of Erdős [7]. Let $A\subset\mathbf{Z}$ have size $N$. By simply removing $0$ if it lies in $A$, it is sufficient to establish Theorem 1.2 for sets $A\subset\mathbf{Z}\setminus\{0\}$ so we assume throughout the rest of this paper that $0\notin A$. We write $\mathbf{T}=\mathbf{R}/\mathbf{Z}$ for the one-dimensional torus and recall that the interval $(1/3,2/3)\subset\mathbf{T}$ is sum-free. Hence, for any $x\in\mathbf{T}$ the set $\{a\in A:ax(\text{mod}\,1)\in(1/3,2/3)\}$ is sum-free and we deduce the following important basic estimate
 
 $$S(A)\geqslant\max_{x\in\mathbf{T}}\sum_{a\in A}\phi(ax)=\frac{N}{3}+\max_{x}\sum_{a\in A}(\phi-1/3)(ax),$$
 
@@ -141,12 +141,12 @@ $$\left\|\sum_{j=1}^{k}a_je(n_jt)\right\|_1\gg\sum_{j=1}^{k}\frac{|a_j|}{j}.$$
 
 We shall not, in fact, use either of these results in this paper. Rather, we will employ various non-trivial modifications of some ideas appearing in the McGehee-Pigno-Smith proof of the Littlewood $L^1$ conjecture. Their proof proceeds, like much of the earlier progress on the $L^1$ conjecture, by constructing a function $\Phi$ such that $|\Phi|\ll 1$ and $\langle\hat{1}_B,\Phi\rangle$ is ‘large’. The most basic part of their construction of such a test function is something that we will use repeatedly, so we state the following general lemma about constructing these. In fact, the construction in the following lemma already differs from that of McGehee-Pigno-Smith; the reader may notice that we do not require the one-sidedness of the Fourier spectrum (a condition that is crucial for their original construction).
 
-**Lemma 3.3 (M-P-S basic construction of test functions).** Let $f:\mathbf{Z}\to\mathbf{C}$ be a function with finite support $\supp(f)$. Let $X_{1},X_{2},\dots,X_{J}\subset\mathbf{Z}$ be finite and define the functions
+**Lemma 3.3 (M-P-S basic construction of test functions).** Let $f:\mathbf{Z}\to\mathbf{C}$ be a function with finite support $\operatorname{supp}(f)$. Let $X_{1},X_{2},\dots,X_{J}\subset\mathbf{Z}$ be finite and define the functions
 
 $$
 g_{i}:\mathbf{Z}\to\mathbf{C}:g_{i}(n)=
 \begin{cases}
-|X_{i}|^{-1}\dfrac{f(n)}{|f(n)|}&\text{if }n\in X_{i}\cap\supp f,\\
+|X_{i}|^{-1}\dfrac{f(n)}{|f(n)|}&\text{if }n\in X_{i}\cap\operatorname{supp} f,\\
 0&\text{otherwise}.
 \end{cases}
 $$
@@ -164,13 +164,13 @@ $$
 \lVert\Phi_{j}\rVert_{\infty}&\leqslant 10, \tag{3}\\
 \lVert\hat{g}_{i}\rVert_{\infty}&\leqslant 1,\\
 \lVert\hat{g}_{i}\rVert_{2}&\leqslant|X_{i}|^{-1/2},\\
-\langle\hat{f},\hat{g}_{i}\rangle&=|X_{i}|^{-1}\sum_{n\in X_{i}\cap\supp f}|f(n)|.
+\langle\hat{f},\hat{g}_{i}\rangle&=|X_{i}|^{-1}\sum_{n\in X_{i}\cap\operatorname{supp} f}|f(n)|.
 \end{align*}
 $$
 
 Moreover, the functions $Q_{i}$ satisfy the bounds $|Q_{i}|\leqslant 1$ and $|1-Q_{i}|\leqslant|\hat{g}_{i}|$.
 
-*Proof.* That $\lVert\hat{g}_{i}\rVert_{\infty}\leqslant 1$ follows immediately from the fact that $|g_{i}(n)|=|X_{i}|^{-1}$ if $n\in X_{i}\cap\supp f$ and $|g_{i}(n)|=0$ otherwise, and Parseval shows that $\lVert\hat{g}_{i}\rVert_{2}\leqslant|X_{i}|^{-1/2}$. Since $\Phi_{1}=\hat{g}_{1}$, the inequality $\lVert\Phi_{1}\rVert_{\infty}\leqslant 10$ holds. Assuming now that $\lVert\Phi_{j}\rVert_{\infty}\leqslant 10$, then one can observe that $\Phi_{j+1}=\hat{g}_{j+1}+\Phi_{j}Q_{j+1}$ so that
+*Proof.* That $\lVert\hat{g}_{i}\rVert_{\infty}\leqslant 1$ follows immediately from the fact that $|g_{i}(n)|=|X_{i}|^{-1}$ if $n\in X_{i}\cap\operatorname{supp} f$ and $|g_{i}(n)|=0$ otherwise, and Parseval shows that $\lVert\hat{g}_{i}\rVert_{2}\leqslant|X_{i}|^{-1/2}$. Since $\Phi_{1}=\hat{g}_{1}$, the inequality $\lVert\Phi_{1}\rVert_{\infty}\leqslant 10$ holds. Assuming now that $\lVert\Phi_{j}\rVert_{\infty}\leqslant 10$, then one can observe that $\Phi_{j+1}=\hat{g}_{j+1}+\Phi_{j}Q_{j+1}$ so that
 
 $$
 \begin{aligned}
@@ -182,7 +182,7 @@ $$
 where the final line follows from the basic fact that $y+10e^{-y}\leqslant 10$ whenever $y\in[0,1]$. Parseval’s theorem shows that
 
 $$
-\langle\hat{f},\hat{g}_{i}\rangle=\sum_{n\in\mathbf{Z}}f(n)\overline{g_{i}}(n)=|X_{i}|^{-1}\sum_{n\in X_{i}\cap\supp f}|f(n)|.
+\langle\hat{f},\hat{g}_{i}\rangle=\sum_{n\in\mathbf{Z}}f(n)\overline{g_{i}}(n)=|X_{i}|^{-1}\sum_{n\in X_{i}\cap\operatorname{supp} f}|f(n)|.
 $$
 
 Finally, it is trivial that $Q_{i}=e^{-|\hat{g}_{i}|}$ is 1-bounded, and the inequality $|1-Q_{i}|\leqslant|\hat{g}_{i}|$ follows from the fact that $|e^{-x}-1|\leqslant x$ for $x\geqslant 0$. $\square$
@@ -199,7 +199,7 @@ We shall also make use of the following important inequality of Rudin [20]. To s
 
 - The *additive dimension*, which we denote by $\dim(A)$, is the size of the largest dissociated subset of $A$.
 
-**Theorem 3.5 (Rudin’s inequality).** *Let $D \subset \mathbf{Z}$ be a dissociated set and let $f : \mathbf{Z} \to \mathbf{C}$ have $\supp f \subset D$. Then for any $p \in [2,\infty)$ the following bound holds:*
+**Theorem 3.5 (Rudin’s inequality).** *Let $D \subset \mathbf{Z}$ be a dissociated set and let $f : \mathbf{Z} \to \mathbf{C}$ have $\operatorname{supp} f \subset D$. Then for any $p \in [2,\infty)$ the following bound holds:*
 
 $$
 \lVert\hat{f}\rVert_p \leqslant 10\sqrt{p}\lVert\hat{f}\rVert_2.
@@ -223,9 +223,9 @@ where $c(x)=\cos(2\pi x)$ and $\chi$ is the multiplicative character given by
 
 $$
 \chi(n)=\begin{cases}
-0 & \text{if } n\equiv 0(\mbox{mod}\,3)\\
-1 & \text{if } n\equiv 1(\mbox{mod}\,3)\\
--1 & \text{if } n\equiv 2(\mbox{mod}\,3).
+0 & \text{if } n\equiv 0(\text{mod}\,3)\\
+1 & \text{if } n\equiv 1(\text{mod}\,3)\\
+-1 & \text{if } n\equiv 2(\text{mod}\,3).
 \end{cases}
 $$
 
@@ -785,7 +785,7 @@ Replacing $x$ by $ax$ and summing over $a\in A$ proves (15). We again follow the
 $$
 \begin{aligned}
 \lVert F_{\mathrm{med}}\rVert_1
-&=\left\lVert\sum_{k\mid\prod_{p\in\mathcal{P}_{\mathrm{med}}}}p}\frac{\mu(k)\chi(k)}{k}F(kx)\right\rVert_1\\
+&=\left\lVert\sum_{k\mid\prod_{p\in\mathcal{P}_{\mathrm{med}}}p}\frac{\mu(k)\chi(k)}{k}F(kx)\right\rVert_1\\
 &\leqslant\lVert F\rVert_1\prod_{p\in\mathcal{P}_{\mathrm{med}}}(1+1/p)\\
 &\ll\lVert F\rVert_1,
 \end{aligned}
@@ -853,11 +853,11 @@ $$
 \operatorname{Proj}(F_{\mathrm{med},s,(0)};r,(0)). \tag{17}
 $$
 
-We know from above that if a term $\frac{\chi(n)}{n}c(nax)$ contributes to $\operatorname{Proj}(F_{\mathrm{med}};r,(0))$, where $n\in\mathcal{R}_{\mathrm{med}}$ and $a\in A(s,(0))$ for some $s\in\prod_{p\leqslant Q_1}(\mathbb{Z}/p\mathbb{Z})^\times$, then $(n,p)=1$ for all $p\leqslant Q_1$. Hence, we must in fact have that $n\in\mathcal{R}_Q$, where we recall that $\mathcal{R}_Q$ is the set of $Q$-rough numbers. Finally, if $a\in A(s,(0))$ then $a\equiv s(\bmod\,\prod p)$ by definition, so the congruence $\pm an\equiv r(\bmod\,\prod p)$ is satisfied precisely when $n\equiv\pm rs^{-1}(\bmod\,\prod p)$. It follows that we can precisely write down the contribution of $F_{\textnormal{med},s,(0)}$ to $\Proj(F_{\textnormal{med}};r,(0))$ as[^3]
+We know from above that if a term $\frac{\chi(n)}{n}c(nax)$ contributes to $\operatorname{Proj}(F_{\mathrm{med}};r,(0))$, where $n\in\mathcal{R}_{\mathrm{med}}$ and $a\in A(s,(0))$ for some $s\in\prod_{p\leqslant Q_1}(\mathbb{Z}/p\mathbb{Z})^\times$, then $(n,p)=1$ for all $p\leqslant Q_1$. Hence, we must in fact have that $n\in\mathcal{R}_Q$, where we recall that $\mathcal{R}_Q$ is the set of $Q$-rough numbers. Finally, if $a\in A(s,(0))$ then $a\equiv s(\bmod\,\prod p)$ by definition, so the congruence $\pm an\equiv r(\bmod\,\prod p)$ is satisfied precisely when $n\equiv\pm rs^{-1}(\bmod\,\prod p)$. It follows that we can precisely write down the contribution of $F_{\textnormal{med},s,(0)}$ to $\operatorname{Proj}(F_{\textnormal{med}};r,(0))$ as[^3]
 
 $$
 \begin{aligned}
-\Proj(F_{\textnormal{med},s,(0)};r,(0))
+\operatorname{Proj}(F_{\textnormal{med},s,(0)};r,(0))
 &=\frac{1}{2}\sum_{a\in A(s,(0))}
 \sum_{\substack{n\in\mathcal{R}_Q\\ n\equiv rs^{-1}(\mod\,\prod p)}}
 \frac{\chi(n)}{n}e(nax) \tag{18}\\
@@ -867,7 +867,7 @@ $$
 \end{aligned}
 $$
 
-Our objective is to obtain a strong lower bound for the $L^1$-norm of $\Proj(F_{\textnormal{med}};r,(0))$. For this purpose, we will show that the main term comes from the projection of $F_{\textnormal{med},r,(0)}$, whereas all other $F_{\textnormal{med},s,(0)}$ contribute an error term which is negligible in an $L^2$-sense. In practice, we will find estimates for the $L^1$-norm of the convolution $\Proj(F_{\textnormal{med}};r,(0))*V_T=\Proj(F_{\textnormal{med}}*V_T;r,(0))$ where $V_T(x)$ is a de la Vallée-Poussin kernel, rather than for $\Proj(F_{\textnormal{med}};r,(0))$. Recall that $T=e^{O((\log N)^5)}$ is such that $A\subset[-T,T]$. We also recall that the *de la Vallée-Poussin kernel* is given by
+Our objective is to obtain a strong lower bound for the $L^1$-norm of $\operatorname{Proj}(F_{\textnormal{med}};r,(0))$. For this purpose, we will show that the main term comes from the projection of $F_{\textnormal{med},r,(0)}$, whereas all other $F_{\textnormal{med},s,(0)}$ contribute an error term which is negligible in an $L^2$-sense. In practice, we will find estimates for the $L^1$-norm of the convolution $\operatorname{Proj}(F_{\textnormal{med}};r,(0))*V_T=\operatorname{Proj}(F_{\textnormal{med}}*V_T;r,(0))$ where $V_T(x)$ is a de la Vallée-Poussin kernel, rather than for $\operatorname{Proj}(F_{\textnormal{med}};r,(0))$. Recall that $T=e^{O((\log N)^5)}$ is such that $A\subset[-T,T]$. We also recall that the *de la Vallée-Poussin kernel* is given by
 
 $$
 V_T(x)=\sum_{n=-2T}^{-T-1}\left(1-\frac{|2T+n|}{T}\right)e(nx)+\sum_{n=-T}^{T}e(nx)+\sum_{n=T+1}^{2T}\left(1-\frac{|2T-n|}{T}\right)e(nx)
@@ -878,26 +878,26 @@ and that it satisfies the following basic properties (see [18, Chapter VIII, (20
 - $\widehat{V}_T(n)=1$ for $|n|<T$ while $\widehat{V}_T(n)=0$ for $|n|\geqslant 2T$.
 - $\lVert V_T\rVert_1\leqslant 3$.
 
-These imply the following useful relation between $\Proj(F_{\textnormal{med}};r,(0))*V_T$ and $F_A$.
+These imply the following useful relation between $\operatorname{Proj}(F_{\textnormal{med}};r,(0))*V_T$ and $F_A$.
 
-**Lemma 7.6.** *We define $F^*=\Proj(F_{\textnormal{med}};r,(0))*V_T$. Then $\lVert F^*\rVert_1\ll\lVert F_A\rVert_1$.*
+**Lemma 7.6.** *We define $F^*=\operatorname{Proj}(F_{\textnormal{med}};r,(0))*V_T$. Then $\lVert F^*\rVert_1\ll\lVert F_A\rVert_1$.*
 
 *Proof of Lemma 7.6.* Note that from (a trivial instance of) Young’s convolution inequality we obtain
 
 $$
-\lVert\Proj(F_{\textnormal{med}};r,(0))*V_T\rVert_1\leqslant\lVert\Proj(F_{\textnormal{med}};r,(0))\rVert_1\lVert V_T\rVert_1\ll\lVert F_{\textnormal{med}}\rVert_1
+\lVert\operatorname{Proj}(F_{\textnormal{med}};r,(0))*V_T\rVert_1\leqslant\lVert\operatorname{Proj}(F_{\textnormal{med}};r,(0))\rVert_1\lVert V_T\rVert_1\ll\lVert F_{\textnormal{med}}\rVert_1
 $$
 
 where we used Lemma 7.5 and that $\lVert V_T\rVert_1\ll 1$. The result follows upon recalling Lemma 7.4. $\square$
 
-The following lemma provides properties of the functions $\Proj(F_{\textnormal{med},s,(0)};r,(0))$ appearing in the expression (17) for $\Proj(F_{\textnormal{med}};r,(0))$ which are relevant for the eventual purpose of applying a McGehee-Pigno-Smith style construction to lower bound the $L^1$ norm.
+The following lemma provides properties of the functions $\operatorname{Proj}(F_{\textnormal{med},s,(0)};r,(0))$ appearing in the expression (17) for $\operatorname{Proj}(F_{\textnormal{med}};r,(0))$ which are relevant for the eventual purpose of applying a McGehee-Pigno-Smith style construction to lower bound the $L^1$ norm.
 
 **Lemma 7.7.** *We have that*
 
 $$
 \begin{aligned}
 &\sum_{s\in\prod_{p\leqslant Q_1}(\mathbf{Z}/p\mathbf{Z})^\times}
-\Proj(F_{\textnormal{med},s,(0)};r,(0))(x)\\
+\operatorname{Proj}(F_{\textnormal{med},s,(0)};r,(0))(x)\\
 &=\frac{1}{2}\left(\sum_{a\in A(r,(0))}e(ax)+\sum_{a\in A(-r,(0))}e(-ax)+E_{(0)}(x)\right)
 \end{aligned}
 $$
@@ -908,12 +908,12 @@ $$
 
 We write $E_{(0)}$ with the subscript (0) to be consistent with the notation used in the proof of the general setting Proposition 7.9.
 
-*Proof of Lemma 7.7.* This is immediate from an application of Lemma 6.9 with the sets $B_s=A(s,(0))$ and $k=\pm 1$, and with our choice of parameters $Q=(\log N)^{20}$ and $T=e^{O((\log N)^5)}$, by noting that the explicit Fourier expansion (18) of the functions $\Proj(F_{\textnormal{med},s,(0)};r,(0))$ is precisely of the type to which Lemma 6.9 applies. Furthermore, we note that by assumption $K=\max_s|B_s|=\max_s|A(s,(0))|=|A(r,(0))|$. $\square$
+*Proof of Lemma 7.7.* This is immediate from an application of Lemma 6.9 with the sets $B_s=A(s,(0))$ and $k=\pm 1$, and with our choice of parameters $Q=(\log N)^{20}$ and $T=e^{O((\log N)^5)}$, by noting that the explicit Fourier expansion (18) of the functions $\operatorname{Proj}(F_{\textnormal{med},s,(0)};r,(0))$ is precisely of the type to which Lemma 6.9 applies. Furthermore, we note that by assumption $K=\max_s|B_s|=\max_s|A(s,(0))|=|A(r,(0))|$. $\square$
 
-Let us summarise what we have achieved thus far. We have shown that if $A\subset\mathbf{Z}\setminus\{0\}\subset[-T,T]$ where $T\leqslant e^{O((\log N)^5)}$, and moreover $|A(r,(0))|=\max_s|A(s,(0))|$, then by (17) and the lemma above, we can write the function $\Proj(F_{\textnormal{med}};r,(0))$ as
+Let us summarise what we have achieved thus far. We have shown that if $A\subset\mathbf{Z}\setminus\{0\}\subset[-T,T]$ where $T\leqslant e^{O((\log N)^5)}$, and moreover $|A(r,(0))|=\max_s|A(s,(0))|$, then by (17) and the lemma above, we can write the function $\operatorname{Proj}(F_{\textnormal{med}};r,(0))$ as
 
 $$
-\Proj(F_{\textnormal{med}};r,(0))=\frac{1}{2}\left(\sum_{a\in A(r,(0))\cup-A(-r,(0))}e(ax)+E_{(0)}(x)\right),
+\operatorname{Proj}(F_{\textnormal{med}};r,(0))=\frac{1}{2}\left(\sum_{a\in A(r,(0))\cup-A(-r,(0))}e(ax)+E_{(0)}(x)\right),
 $$
 
 and where
@@ -922,7 +922,7 @@ $$
 \|E_{(0)}*V_T\|_2\ll(\log N)^{-2}|A(r,(0))|^{1/2}.
 $$
 
-Let us finally consider the function $F^*(x)=\Proj(F_{\textnormal{med}};r,(0))*V_T$. By the above, we may write
+Let us finally consider the function $F^*(x)=\operatorname{Proj}(F_{\textnormal{med}};r,(0))*V_T$. By the above, we may write
 
 $$
 F^*(x)=\left(\frac{1}{2}\sum_{a\in A(r,(0))\cup-A(-r,(0))}e(ax)\right)*V_T+E^*(x)
@@ -992,7 +992,7 @@ $$
 F_{\textnormal{med}}(x)=\sum_{s,(\mu_p)}\sum_{a\in A(s,(\mu_p))}\left(\sum_{n\in\mathcal{R}_{\textnormal{med}}}\frac{\chi(n)}{n}c(nax)\right) \tag{19}
 $$
 
-and we shall consider the contribution from each $A(s,(\mu_p))$ to $\Proj(F_{\textnormal{med}};r,(\nu_p))$. It is convenient to write
+and we shall consider the contribution from each $A(s,(\mu_p))$ to $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$. It is convenient to write
 
 $$
 F_{\textnormal{med},s,(\mu_p)}(x)\vcentcolon=\sum_{a\in A(s,(\mu_p))}\sum_{n\in\mathcal R_{\textnormal{med}}}\frac{\chi(n)}{n}c(nax)
@@ -1004,35 +1004,35 @@ $$
 F_{\textnormal{med}}=\sum_{s,(\mu_p)}F_{\textnormal{med},s,(\mu_p)}. \tag{20}
 $$
 
-Let $a\in A(s,(\mu_p))$ for some $(s,(\mu_p))$ and suppose that one of its terms $\frac{\chi(n)}{n}c(nax)=\frac{\chi(n)}{2n}(e(nax)+e(-nax))$ contributes to $\Proj(F_{\textnormal{med}};r,(\nu_p))$. This means precisely that $n\in\mathcal R_{\textnormal{med}}$ satisfies
+Let $a\in A(s,(\mu_p))$ for some $(s,(\mu_p))$ and suppose that one of its terms $\frac{\chi(n)}{n}c(nax)=\frac{\chi(n)}{2n}(e(nax)+e(-nax))$ contributes to $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$. This means precisely that $n\in\mathcal R_{\textnormal{med}}$ satisfies
 
 $$
-\pm na\equiv r\prod_{p\leqslant Q_1}p^{\nu_p}\,(\mbox{mod}\,\prod_{p\leqslant Q_1}p^{\nu_p+1})
+\pm na\equiv r\prod_{p\leqslant Q_1}p^{\nu_p}\,(\text{mod}\,\prod_{p\leqslant Q_1}p^{\nu_p+1})
 $$
 
-and in particular this implies that $\nu_p\geqslant\nu_p(a)=\mu_p$ and that $\nu_p(n)=\nu_p-\mu_p$ for all $p\leqslant Q_1$ (here $\nu_p(n)$ denotes the largest integer such that $p^{\nu_p}$ divides $n$). We deduce that $\Proj(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))=0$ unless $(\mu_p)\preceq(\nu_p)$, meaning that the only terms in (20) which contribute to $\Proj(F_{\textnormal{med}};r,(\nu_p))$ come from those $(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p)$ and so
+and in particular this implies that $\nu_p\geqslant\nu_p(a)=\mu_p$ and that $\nu_p(n)=\nu_p-\mu_p$ for all $p\leqslant Q_1$ (here $\nu_p(n)$ denotes the largest integer such that $p^{\nu_p}$ divides $n$). We deduce that $\operatorname{Proj}(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))=0$ unless $(\mu_p)\preceq(\nu_p)$, meaning that the only terms in (20) which contribute to $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$ come from those $(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p)$ and so
 
 $$
-\Proj(F_{\textnormal{med}};r,(\nu_p))=\sum_{(s,(\mu_p)):(\mu_p)\preceq(\nu_p)}\Proj(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)). \tag{21}
+\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))=\sum_{(s,(\mu_p)):(\mu_p)\preceq(\nu_p)}\operatorname{Proj}(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)). \tag{21}
 $$
 
-Let us consider $(\mu_p)\preceq(\nu_p)$. We know from our discussion above that if a term $\frac{\chi(n)}{n}c(nax)$ contributes to $\Proj(F_{\textnormal{med}};r,(\nu_p))$, where $n\in\mathcal R_{\textnormal{med}}$ and $a\in A(s,(\mu_p))$ for some $s\in\prod_{p\leqslant Q_1}(\mathbf{Z}/p\mathbf{Z})^{\times}$, then $\nu_p(n)=\nu_p-\mu_p$ for all $p\leqslant Q_1$. Hence, we can write $n=n^{\prime}\prod_{p\leqslant Q_1}p^{\nu_p-\mu_p}$ for some $n^{\prime}\in\mathcal R_Q$, where we recall that $\mathcal R_Q$ is the set of $Q$-rough numbers. Finally, if $a\in A(s,(\mu_p))$ then $a\equiv s\prod p^{\mu_p}(\mbox{mod}\,\prod p^{\mu_p+1})$ by definition, so the congruence $\pm an^{\prime}\prod_{p\leqslant Q_1}p^{\nu_p-\mu_p}\equiv r\prod_{p\leqslant Q_1}p^{\nu_p}(\mbox{mod}\,\prod_{p\leqslant Q_1}p^{\nu_p+1})$ is satisfied precisely when $n^{\prime}\equiv\pm rs^{-1}(\mbox{mod}\,\prod p)$. It follows that for each $(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p)$, we can precisely write down the contribution of $F_{\textnormal{med},s,(\mu_p)}$ to $\Proj(F_{\textnormal{med}};r,(\nu_p))$ as
+Let us consider $(\mu_p)\preceq(\nu_p)$. We know from our discussion above that if a term $\frac{\chi(n)}{n}c(nax)$ contributes to $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$, where $n\in\mathcal R_{\textnormal{med}}$ and $a\in A(s,(\mu_p))$ for some $s\in\prod_{p\leqslant Q_1}(\mathbf{Z}/p\mathbf{Z})^{\times}$, then $\nu_p(n)=\nu_p-\mu_p$ for all $p\leqslant Q_1$. Hence, we can write $n=n^{\prime}\prod_{p\leqslant Q_1}p^{\nu_p-\mu_p}$ for some $n^{\prime}\in\mathcal R_Q$, where we recall that $\mathcal R_Q$ is the set of $Q$-rough numbers. Finally, if $a\in A(s,(\mu_p))$ then $a\equiv s\prod p^{\mu_p}(\text{mod}\,\prod p^{\mu_p+1})$ by definition, so the congruence $\pm an^{\prime}\prod_{p\leqslant Q_1}p^{\nu_p-\mu_p}\equiv r\prod_{p\leqslant Q_1}p^{\nu_p}(\text{mod}\,\prod_{p\leqslant Q_1}p^{\nu_p+1})$ is satisfied precisely when $n^{\prime}\equiv\pm rs^{-1}(\text{mod}\,\prod p)$. It follows that for each $(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p)$, we can precisely write down the contribution of $F_{\textnormal{med},s,(\mu_p)}$ to $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$ as
 
 $$
 \begin{aligned}
-\Proj\bigl(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)\bigr)(x)
+\operatorname{Proj}\bigl(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)\bigr)(x)
 &=\sum_{a\in A(s,(\mu_p))}
 \sum_{\begin{subarray}{c}
 n=n^{\prime}\prod p^{\nu_p-\mu_p}\\
 n^{\prime}\in\mathcal R_Q\\
-n^{\prime}\equiv rs^{-1}(\mbox{\scriptsize mod}\,\prod p)
+n^{\prime}\equiv rs^{-1}(\text{mod}\,\prod p)
 \end{subarray}}
 \frac{\chi(n)}{2n}e(nax)\\
 &\quad+\sum_{a\in A(s,(\mu_p))}
 \sum_{\begin{subarray}{c}
 n=n^{\prime}\prod p^{\nu_p-\mu_p}\\
 n^{\prime}\in\mathcal R_Q\\
-n^{\prime}\equiv-rs^{-1}(\mbox{\scriptsize mod}\,\prod p)
+n^{\prime}\equiv-rs^{-1}(\text{mod}\,\prod p)
 \end{subarray}}
 \frac{\chi(n)}{2n}e(-nax),
 \end{aligned}
@@ -1042,7 +1042,7 @@ Using the multiplicative nature of $\chi$, we can take out the factor $k(\mu_p):
 
 $$
 \begin{aligned}
-\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))
+\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))
 &=\frac{\chi(k(\mu_p))}{2k(\mu_p)}
 \sum_{a\in A(s,(\mu_p))}
 \sum_{\substack{n'\in\mathcal R_Q\\ n'\equiv rs^{-1}(\bmod\,\prod p)}}
@@ -1055,17 +1055,17 @@ $$
 \tag{22}
 $$
 
-Contrary to the model case in Proposition 7.3, these functions $\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$ can contribute to $\Proj(F_{\mathrm{med}};r,(\nu_p))$ for all $s\in\prod_{p\leqslant Q_1}(\mathbb Z/p\mathbb Z)^\times$ and all $(\mu_p)\preceq(\nu_p)$, rather than only for $(\mu_p)=(\nu_p)$. For the purpose of obtaining a lower bound for the $L^1$-norm of $\Proj(F_{\mathrm{med}};r,(\nu_p))$, we will show that the main term still comes from the projection of $F_{\mathrm{med},r,(\nu_p)}$, whereas all other $F_{\mathrm{med},s,(\mu_p)}$ with $(\mu_p)\preceq(\nu_p)$ contribute an error term which is negligible in an $L^2$-sense due to our assumption that $\max_{(\mu_p)\prec(\nu_p)}\max_s|A(s,(\mu_p))|<(\log N)^{-4}|A(r,(\nu_p))|$. Again, we will in practice find estimates for the $L^1$-norm of the convolution $\Proj(F_{\mathrm{med}};r,(\nu_p))*V_T$ where $V_T(x)$ is a de la Vallée-Poussin kernel, and $T=e^{O((\log N)^5)}$ is such that $A\subset[-T,T]$. Analogously to Lemma 7.6, we note the following useful relation between $\Proj(F_{\mathrm{med}};r,(\nu_p))*V_T$ and $F_A$.
+Contrary to the model case in Proposition 7.3, these functions $\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$ can contribute to $\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))$ for all $s\in\prod_{p\leqslant Q_1}(\mathbb Z/p\mathbb Z)^\times$ and all $(\mu_p)\preceq(\nu_p)$, rather than only for $(\mu_p)=(\nu_p)$. For the purpose of obtaining a lower bound for the $L^1$-norm of $\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))$, we will show that the main term still comes from the projection of $F_{\mathrm{med},r,(\nu_p)}$, whereas all other $F_{\mathrm{med},s,(\mu_p)}$ with $(\mu_p)\preceq(\nu_p)$ contribute an error term which is negligible in an $L^2$-sense due to our assumption that $\max_{(\mu_p)\prec(\nu_p)}\max_s|A(s,(\mu_p))|<(\log N)^{-4}|A(r,(\nu_p))|$. Again, we will in practice find estimates for the $L^1$-norm of the convolution $\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))*V_T$ where $V_T(x)$ is a de la Vallée-Poussin kernel, and $T=e^{O((\log N)^5)}$ is such that $A\subset[-T,T]$. Analogously to Lemma 7.6, we note the following useful relation between $\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))*V_T$ and $F_A$.
 
-**Lemma 7.12.** *We define $F^*=\Proj(F_{\mathrm{med}};r,(\nu_p))*V_T$. Then $\|F^*\|_1\ll\|F_A\|_1$.*
+**Lemma 7.12.** *We define $F^*=\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))*V_T$. Then $\|F^*\|_1\ll\|F_A\|_1$.*
 
-Recall that we have an explicit expression (21) for $\Proj(F_{\mathrm{med}};r,(\nu_p))$ in terms of the contributions $\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\mu_p))$ which are given by (22), for $(\mu_p)\preceq(\nu_p)$. The following lemma provides a useful description of these $\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$.
+Recall that we have an explicit expression (21) for $\operatorname{Proj}(F_{\mathrm{med}};r,(\nu_p))$ in terms of the contributions $\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\mu_p))$ which are given by (22), for $(\mu_p)\preceq(\nu_p)$. The following lemma provides a useful description of these $\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$.
 
 **Lemma 7.13.** *Let $(\mu_p)\preceq(\nu_p)$ and define $k(\mu_p)=\prod_{p\leqslant Q_1}p^{\nu_p-\mu_p}$. Then*
 
 $$
 \begin{aligned}
-\sum_s\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))(x)
+\sum_s\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))(x)
 &=\frac{\chi(k(\mu_p))}{2k(\mu_p)}
 \left(\sum_{a\in A(r,(\mu_p))}e(ak(\mu_p)x)\right.\\
 &\qquad\left.+\sum_{a\in A(-r,(\mu_p))}e(-ak(\mu_p)x)+E_{(\mu_p)}(x)\right)
@@ -1074,14 +1074,14 @@ $$
 
 for some function $E_{(\mu_p)}:\mathbf{T}\to\mathbf{C}$ satisfying $\|E_{(\mu_p)}*V_T\|_2\ll(\log N)^{-2}|A(r,(\nu_p))|^{1/2}$.
 
-*Proof of Lemma 7.13.* This is immediate from an application of Lemma 6.9 with $B_s=A(s,(\mu_p))$ and $k=\pm k(\mu_p)$, and with our choice of parameters $Q=(\log N)^{20}$ and $T=e^{O((\log N)^5)}$, by noting that the explicit Fourier expansion (22) of the functions $\Proj(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$ is precisely of the type to which Lemma 6.9 applies. Furthermore, we note that by assumption $K=\max_s|B_s|=\max_s|A(s,(\mu_p))|\leqslant|A(r,(\nu_p))|$ for all $(\mu_p)\preceq(\nu_p)$. $\square$
+*Proof of Lemma 7.13.* This is immediate from an application of Lemma 6.9 with $B_s=A(s,(\mu_p))$ and $k=\pm k(\mu_p)$, and with our choice of parameters $Q=(\log N)^{20}$ and $T=e^{O((\log N)^5)}$, by noting that the explicit Fourier expansion (22) of the functions $\operatorname{Proj}(F_{\mathrm{med},s,(\mu_p)};r,(\nu_p))$ is precisely of the type to which Lemma 6.9 applies. Furthermore, we note that by assumption $K=\max_s|B_s|=\max_s|A(s,(\mu_p))|\leqslant|A(r,(\nu_p))|$ for all $(\mu_p)\preceq(\nu_p)$. $\square$
 
-Let us summarise what we have achieved thus far. We have shown that if $A\subset\mathbf{Z}\setminus\{0\}$ is a set of $N$ integers with $A\subset[-T,T]$ where $T\leqslant e^{O((\log N)^5)}$, and moreover $|A(r,(\nu_p))|\geqslant\max_s|A(s,(\mu_p))|$ for all $(\mu_p)\preceq(\nu_p)$, then by (21) we can write the function $\Proj(F_{\textnormal{med}};r,(\nu_p))$ as
+Let us summarise what we have achieved thus far. We have shown that if $A\subset\mathbf{Z}\setminus\{0\}$ is a set of $N$ integers with $A\subset[-T,T]$ where $T\leqslant e^{O((\log N)^5)}$, and moreover $|A(r,(\nu_p))|\geqslant\max_s|A(s,(\mu_p))|$ for all $(\mu_p)\preceq(\nu_p)$, then by (21) we can write the function $\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))$ as
 
 $$
-\Proj(F_{\textnormal{med}};r,(\nu_p))
+\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))
 =\sum_{(\mu_p):(\mu_p)\preceq(\nu_p)}
-\sum_s\Proj(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)), \tag{23}
+\sum_s\operatorname{Proj}(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p)), \tag{23}
 $$
 
 and where there exists, for each $(\mu_p)\preceq(\nu_p)$, a function $E_{(\mu_p)}$ satisfying
@@ -1094,7 +1094,7 @@ such that
 
 $$
 \begin{aligned}
-\sum_s\Proj(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))(x)
+\sum_s\operatorname{Proj}(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))(x)
 ={}&\frac{\chi(k(\mu_p))}{2k(\mu_p)}
 \left(\sum_{a\in A(r,(\mu_p))\cup-A(-r,(\mu_p))}
 e(ak(\mu_p)x)+E_{(\mu_p)}(x)\right),
@@ -1109,18 +1109,18 @@ $$
 \max_s|A(s,(\mu_p))|\leqslant(\log N)^{-4}|A(r,(\nu_p))| \tag{26}
 $$
 
-for all $(\mu_p)\prec(\nu_p)$. We show that this implies that out of all terms (25), the contribution from $A(r,(\nu_p))\cup-A(-r,(\nu_p))$ turns out to form, for the purpose of obtaining a lower bound for $\lVert\Proj(F_{\textnormal{med}};r,(\nu_p))\rVert_1$, the main term. In practice, this means that we prove that the contribution of all other terms combined is negligible in an $L^2$-sense. To make this precise, we define
+for all $(\mu_p)\prec(\nu_p)$. We show that this implies that out of all terms (25), the contribution from $A(r,(\nu_p))\cup-A(-r,(\nu_p))$ turns out to form, for the purpose of obtaining a lower bound for $\lVert\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))\rVert_1$, the main term. In practice, this means that we prove that the contribution of all other terms combined is negligible in an $L^2$-sense. To make this precise, we define
 
 $$
 E(x)\vcentcolon=\frac{1}{2}E_{(\nu_p)}(x)+
 \sum_{(\mu_p)\prec(\nu_p)}\sum_s
-\Proj(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))(x)
+\operatorname{Proj}(F_{\textnormal{med},s,(\mu_p)};r,(\nu_p))(x)
 $$
 
 which by (23) and (25) allows us to write
 
 $$
-\Proj(F_{\textnormal{med}};r,(\nu_p))(x)
+\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))(x)
 =\frac{1}{2}\sum_{a\in A(r,(\nu_p))\cup-A(-r,(\nu_p))}e(ax)+E(x), \tag{27}
 $$
 
@@ -1191,7 +1191,7 @@ $$
 
 $\square$
 
-Let us finally consider the function $F^*(x)=\Proj(F_{\textnormal{med}};r,(\nu_p))*V_T$. From (27) and Lemma 7.14, we may write
+Let us finally consider the function $F^*(x)=\operatorname{Proj}(F_{\textnormal{med}};r,(\nu_p))*V_T$. From (27) and Lemma 7.14, we may write
 
 $$
 F^*(x)=\left(\frac{1}{2}\sum_{a\in A(r,(\nu_p))\cup-A(-r,(\nu_p))}e(ax)\right)*V_T+E^*(x)
@@ -1281,7 +1281,7 @@ assuming the existence of the sets $A(r^{(i)},(\nu_p^{(i)}))$ satisfying (i), (i
 
 $$
 \begin{aligned}
-\Proj(c_A+R_Q;r^{(i)},(\nu_p^{(i)}))(x)
+\operatorname{Proj}(c_A+R_Q;r^{(i)},(\nu_p^{(i)}))(x)
 &=\frac{1}{2}\sum_{a\in A(r^{(i)},(\nu_p^{(i)}))\cup-A(-r^{(i)},(\nu_p^{(i)}))}e(ax) \\
 &\quad+\sum_s\sum_{a\in A(s,(\nu_p^{(i)}))}
 \left(
@@ -1292,12 +1292,12 @@ $$
 \tag{29}
 $$
 
-These projections of $c_A+R_Q$ are simpler to analyse than those of $F_{\mathrm{med}}$ in the proof of Proposition 7.9 in the sense that, here, only those $A(s,(\mu_p))$ with $(\mu_p)=(\nu_p^{(i)})$ contribute, rather than all $A(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p^{(i)})$. To see why (29) holds, note that $\Proj(c_A;r^{(i)},(\nu_p^{(i)}))$ is precisely the first term on the right hand side. Further, if $a\in A$ and $1<n\in\mathcal{R}_Q$ are such that $\frac{\chi(n)}{n}c(nax)$ contributes to $\Proj(R_Q;r^{(i)},(\nu_p^{(i)}))$, then $na\equiv\pm r^{(i)}\prod_{p\leqslant Q_1}p^{\nu_p^{(i)}}\pmod{\prod_{p\leqslant Q_1}p^{\nu_p^{(i)}+1}}$ and hence, since $n$ is $Q$-rough and $Q_1=(\log N)^{1/2}<Q$, we need that $a\in\bigcup_s A(s,(\nu_p^{(i)}))$. We finally observe that if $a\in A(s,(\nu_p^{(i)}))$, then $\frac{\chi(n)}{n}c(nax)$ contributes if and only if $ns\equiv\pm r^{(i)}\pmod{\prod_{p\leqslant Q_1}p}$.
+These projections of $c_A+R_Q$ are simpler to analyse than those of $F_{\mathrm{med}}$ in the proof of Proposition 7.9 in the sense that, here, only those $A(s,(\mu_p))$ with $(\mu_p)=(\nu_p^{(i)})$ contribute, rather than all $A(s,(\mu_p))$ with $(\mu_p)\preceq(\nu_p^{(i)})$. To see why (29) holds, note that $\operatorname{Proj}(c_A;r^{(i)},(\nu_p^{(i)}))$ is precisely the first term on the right hand side. Further, if $a\in A$ and $1<n\in\mathcal{R}_Q$ are such that $\frac{\chi(n)}{n}c(nax)$ contributes to $\operatorname{Proj}(R_Q;r^{(i)},(\nu_p^{(i)}))$, then $na\equiv\pm r^{(i)}\prod_{p\leqslant Q_1}p^{\nu_p^{(i)}}\pmod{\prod_{p\leqslant Q_1}p^{\nu_p^{(i)}+1}}$ and hence, since $n$ is $Q$-rough and $Q_1=(\log N)^{1/2}<Q$, we need that $a\in\bigcup_s A(s,(\nu_p^{(i)}))$. We finally observe that if $a\in A(s,(\nu_p^{(i)}))$, then $\frac{\chi(n)}{n}c(nax)$ contributes if and only if $ns\equiv\pm r^{(i)}\pmod{\prod_{p\leqslant Q_1}p}$.
 
 The second term on the right hand side of (29) is of a form that we have studied in Lemma 6.9 which in this situation states exactly that we may write
 
 $$
-\Proj(c_A+R_Q;r^{(i)},(\nu_p^{(i)}))
+\operatorname{Proj}(c_A+R_Q;r^{(i)},(\nu_p^{(i)}))
 =\frac{1}{2}\sum_{a\in A(r^{(i)},(\nu_p^{(i)}))\cup-A(-r^{(i)},(\nu_p^{(i)}))}e(ax)+E^{(i)}(x),
 \tag{30}
 $$
@@ -1323,7 +1323,7 @@ Our final task was to prove (28) assuming the existence of the sets $A(r^{(i)},(
 
 *(ii) Let $q_1|q_2|\cdots|q_J$ and assume that the residue classes $\{n\in\mathbf{Z}:n\equiv r_i(\bmod q_i)\}$ are pairwise disjoint.*
 
-*If $E\in L^1(\mathbf{T})$ is a function such that $\lVert\Proj(E;r_i(\bmod q_i))\rVert_2\leqslant |B_i|^{1/2}/10$, then $\lVert\widehat{1_B}+E\rVert_1\gg J$.*
+*If $E\in L^1(\mathbf{T})$ is a function such that $\lVert\operatorname{Proj}(E;r_i(\bmod q_i))\rVert_2\leqslant |B_i|^{1/2}/10$, then $\lVert\widehat{1_B}+E\rVert_1\gg J$.*
 
 *Proof.* We employ the same basic McGehee-Pigno-Smith construction as per usual and take
 
@@ -1469,7 +1469,7 @@ We define for each $i\in[J]$ the basic function $g_i:A_i\to\mathbf{C}$ by $g_i(n
 
 $$
 \begin{aligned}
-\supp(g_i)&\subseteq A_i \tag{31}\\
+\operatorname{supp}(g_i)&\subseteq A_i \tag{31}\\
 \lVert\hat{g}_i\rVert_\infty&\leqslant 1\\
 \langle\hat{f},\hat{g}_i\rangle&\geqslant 1.
 \end{aligned}
@@ -1488,7 +1488,7 @@ and we also define the ‘correction’ function $Q_i(x)=\exp(-h_i(x))$ and we n
 $$
 \begin{aligned}
 \Re(h_i(x))&=|\hat{g}_i(x)|\\
-\supp\hat{h}_i&\subset\mathbf{Z}_{\leqslant 0}\\
+\operatorname{supp}\hat{h}_i&\subset\mathbf{Z}_{\leqslant 0}\\
 \lVert h_i\rVert_2&\leqslant 2\lVert\hat{g}_i\rVert_2.
 \end{aligned}
 $$
@@ -1497,7 +1497,7 @@ $$
 
 $$
 \begin{aligned}
-\supp\hat{Q}_i&\subset\mathbf{Z}_{\leqslant 0}\\
+\operatorname{supp}\hat{Q}_i&\subset\mathbf{Z}_{\leqslant 0}\\
 |Q_i(x)|&\leqslant 1\\
 |1-Q_i(x)|&\leqslant|h_i(x)|.
 \end{aligned}

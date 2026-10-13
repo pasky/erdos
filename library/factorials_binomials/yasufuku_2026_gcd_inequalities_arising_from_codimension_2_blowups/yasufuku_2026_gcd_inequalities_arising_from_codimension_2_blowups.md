@@ -425,7 +425,7 @@ Since
 $$
 \begin{aligned}
 &\sqrt{(n+1)^2d^2+2(n^2-1)d+(n+1)^2}-((n+1)d+(n-1))\\
-&= \frac{4n}{\sqrt{(n+1)^2d^2+2(n^2-1)d+(n+1)^2}+((n+1)d+(n-1))}}\\
+&= \frac{4n}{\sqrt{(n+1)^2d^2+2(n^2-1)d+(n+1)^2}+((n+1)d+(n-1))}\\
 &< \frac{4n}{2((n+1)d+(n-1))}
 \end{aligned}
 $$

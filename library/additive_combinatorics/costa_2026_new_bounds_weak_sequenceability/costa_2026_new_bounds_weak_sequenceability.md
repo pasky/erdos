@@ -209,11 +209,11 @@ for each $1\leq j\leq K$, and apply Proposition 2.3. This provides orderings $\m
 
 We say that an ordering $t_1,\ldots,t_{|T_1|}$ of $T_1$ is *acceptable* if
 
-$$t_1+\cdots+t_k\notin-\IS(\mathbf{p})\cup(\delta+\IS(\mathbf{n}))\quad\text{for all }1\leq k\leq K,$$
+$$t_1+\cdots+t_k\notin-\operatorname{IS}(\mathbf{p})\cup(\delta+\operatorname{IS}(\mathbf{n}))\quad\text{for all }1\leq k\leq K,$$
 
 and say that an ordering $t_1,\ldots,t_{|T_u|}$ of $T_u$ is *acceptable* if
 
-$$t_1+\cdots+t_k\notin-\IS(\mathbf{n})\cup(\delta+\IS(\mathbf{p}))\quad\text{for all }1\leq k\leq K.$$
+$$t_1+\cdots+t_k\notin-\operatorname{IS}(\mathbf{n})\cup(\delta+\operatorname{IS}(\mathbf{p}))\quad\text{for all }1\leq k\leq K.$$
 
 We then state the following lemma, which is an improvement of Lemma 6.1 of [4].
 
@@ -221,19 +221,19 @@ We then state the following lemma, which is an improvement of Lemma 6.1 of [4].
 
 *Proof.* We prove only the statement for $\mathbf{t}_1$ since the argument for $\mathbf{t}_u$ is identical. Let $\mathbf{t}_1=t_1,\ldots,t_{|T_1|}$ be our random ordering induced by $\sigma_1$ on $T_1$. By the union bound, it suffices to show that
 
-$$\mathbb{P}(t_1+\cdots+t_k\in-\IS(\mathbf{p})\cup(\delta+\IS(\mathbf{n})))\leq 0.01K^{-1}$$
+$$\mathbb{P}(t_1+\cdots+t_k\in-\operatorname{IS}(\mathbf{p})\cup(\delta+\operatorname{IS}(\mathbf{n})))\leq 0.01K^{-1}$$
 
 for each $1\leq k\leq K$. Fix some $1\leq k\leq K$. Then the quantity $t_1+\cdots+t_k$ is uniformly distributed on the set $\sum_{=k}(D_1)$, which has size $\binom{|D_1|}{k}$. Then by Proposition 2.3, with $L:=\lfloor|Y_k^+|^{1/2}\rfloor$, we have that
 
-$$\left|\sum_{=k}(D_1)\cap\left(-\IS(\mathbf{p})\cup(\delta+\IS(\mathbf{n}))\right)\right|=O\left(|Y_k^+|^{1/2}+\sum_{j<k}|Y_j^+|+1\right).$$
+$$\left|\sum_{=k}(D_1)\cap\left(-\operatorname{IS}(\mathbf{p})\cup(\delta+\operatorname{IS}(\mathbf{n}))\right)\right|=O\left(|Y_k^+|^{1/2}+\sum_{j<k}|Y_j^+|+1\right).$$
 
 For $1\leq k\leq K$ (recall that $K=c_2R^{1/2}$) it gives
 
-$$\left|\sum_{=k}(D_1)\cap\left(-\IS(\mathbf{p})\cup(\delta+\IS(\mathbf{n}))\right)\right|=O\left(\binom{|D_1|}{k}\cdot\frac{K}{|D_1|}\right)=O\left(\binom{|D_1|}{k}\cdot c_2^2K^{-1}\right).$$
+$$\left|\sum_{=k}(D_1)\cap\left(-\operatorname{IS}(\mathbf{p})\cup(\delta+\operatorname{IS}(\mathbf{n}))\right)\right|=O\left(\binom{|D_1|}{k}\cdot\frac{K}{|D_1|}\right)=O\left(\binom{|D_1|}{k}\cdot c_2^2K^{-1}\right).$$
 
 It follows that for $1\leq k\leq K$ we have that
 
-$$\mathbb{P}(t_1+\cdots+t_k\in-\IS(\mathbf{p})\cup(\delta+\IS(\mathbf{n})))=O(c_2^2K^{-1})$$
+$$\mathbb{P}(t_1+\cdots+t_k\in-\operatorname{IS}(\mathbf{p})\cup(\delta+\operatorname{IS}(\mathbf{n})))=O(c_2^2K^{-1})$$
 
 is at most $0.01K^{-1}$ as long as $c_2$ is sufficiently small. $\square$
 
@@ -292,16 +292,16 @@ $$
 (ii) For each $1\leq j\leq\min\{t,u-1\}$,
 
 $$
-0\in\IS_t(\mathbf{p})+\tau_1+\cdots+\tau_j+\left(-\sum_{\leq K}(T_j)\cup\sum_{\leq K}(T_{j+1})\right);
+0\in\operatorname{IS}_t(\mathbf{p})+\tau_1+\cdots+\tau_j+\left(-\sum_{\leq K}(T_j)\cup\sum_{\leq K}(T_{j+1})\right);
 $$
 
 and for each $\max\{2,u-t+1\}\leq j\leq u$,
 
 $$
-0\in\IS_t(\mathbf{n})+\tau_u+\cdots+\tau_j+\left(-\sum_{\leq K}(T_j)\cup\sum_{\leq K}(T_{j-1})\right).
+0\in\operatorname{IS}_t(\mathbf{n})+\tau_u+\cdots+\tau_j+\left(-\sum_{\leq K}(T_j)\cup\sum_{\leq K}(T_{j-1})\right).
 $$
 
-By the deterministic order (2), there exists $\ell$ such that each proper nonempty interval $J\subseteq [u]$ contains some but not all of $D_{\ell}^{(1)},\ldots,D_{\ell}^{(4)}$; hence $\sum_{j\in J}\tau_j$ includes a subset-sum of $D_{\ell}$ of fixed size, which is distributed uniformly among all such subset-sums. By dissociativity, all these sums are distinct, so each value is attained with probability at most $\binom{|D_{\ell}|}{|D_{\ell}|/4}^{-1}\leq\exp(-\Theta(R))$ thanks to Lemma 2.4. Then since $|T_j|=\Theta(R)$ and $K=o(R)$ we have that $\left|\sum_{\leq K}(T_j)\right|=\exp(o(R))$. Also note that $|\IS_t(\mathbf{p})|,|\IS_n(\mathbf{n})|\leq t=\exp(o(R))$, therefore we find that conditions $(i)$, $(ii)$ have probability of at most $\exp(-\Theta(R))$. This handles all Type I intervals except the ones starting in the last $K$ elements of $\mathbf{t}_{2j}$ and ending in the first $K$ elements of $\mathbf{t}_{2j+1}$ and the ones starting in $\overline{\mathbf{p}}$ and ending in the first $K$ elements of $\mathbf{t}_1$ or the ones starting last $K$ elements of $\mathbf{t}_u$ and ending in $\mathbf{n}$ but these lat two cases are avoided since we are conditioning on the event that both $\mathbf{t}_1$ and $\mathbf{t}_u$ are acceptable and the pairs $(\mathbf{t}_{2j},\mathbf{t}_{2j+1})$ are permissible.
+By the deterministic order (2), there exists $\ell$ such that each proper nonempty interval $J\subseteq [u]$ contains some but not all of $D_{\ell}^{(1)},\ldots,D_{\ell}^{(4)}$; hence $\sum_{j\in J}\tau_j$ includes a subset-sum of $D_{\ell}$ of fixed size, which is distributed uniformly among all such subset-sums. By dissociativity, all these sums are distinct, so each value is attained with probability at most $\binom{|D_{\ell}|}{|D_{\ell}|/4}^{-1}\leq\exp(-\Theta(R))$ thanks to Lemma 2.4. Then since $|T_j|=\Theta(R)$ and $K=o(R)$ we have that $\left|\sum_{\leq K}(T_j)\right|=\exp(o(R))$. Also note that $|\operatorname{IS}_t(\mathbf{p})|,|\operatorname{IS}_n(\mathbf{n})|\leq t=\exp(o(R))$, therefore we find that conditions $(i)$, $(ii)$ have probability of at most $\exp(-\Theta(R))$. This handles all Type I intervals except the ones starting in the last $K$ elements of $\mathbf{t}_{2j}$ and ending in the first $K$ elements of $\mathbf{t}_{2j+1}$ and the ones starting in $\overline{\mathbf{p}}$ and ending in the first $K$ elements of $\mathbf{t}_1$ or the ones starting last $K$ elements of $\mathbf{t}_u$ and ending in $\mathbf{n}$ but these lat two cases are avoided since we are conditioning on the event that both $\mathbf{t}_1$ and $\mathbf{t}_u$ are acceptable and the pairs $(\mathbf{t}_{2j},\mathbf{t}_{2j+1})$ are permissible.
 
 *$t$-weak via LLL.* Consider bad events $E_I$ for intervals $I\subset[1,|A|]$, $|I|\leq t$, defined by $\sum_{i\in I}a_i=0$. By the previous two parts, $\mathbb{P}(E_I)\leq P$ with $P\leq\exp(-\Theta(K\log R))$. We now bound the dependency degree in the Lovász Local Lemma.
 

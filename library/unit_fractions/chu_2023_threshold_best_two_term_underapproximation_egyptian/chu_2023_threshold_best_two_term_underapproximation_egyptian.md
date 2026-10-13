@@ -412,8 +412,8 @@ where
 
 $$
 v=\begin{cases}
-1&\mbox{ if }2\nmid q,\\
-2&\mbox{ if }2\mid q.
+1&\text{ if }2\nmid q,\\
+2&\text{ if }2\mid q.
 \end{cases}
 $$
 

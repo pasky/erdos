@@ -330,8 +330,8 @@ Proof. (a) $\Rightarrow$ (b). This is obvious.
 $$
 \begin{aligned}
 0&=\lim_{r\to1}\frac{\prod_{s=1}^k(1-r^{1/\beta_s}e^{2\pi i(\alpha_s-x-n)/\beta_s})}{(1-r)^{m-1}}\\
-&=\lim_{r\to1}\left((1-r)^{1-m}\\
-&\qquad\times\sum_{I\subseteq\{1,\ldots,k\}}(-1)^{|I|}r^{\sum_{s\in I}1/\beta_s}e^{2\pi i\sum_{s\in I}(\alpha_s-x)/\beta_s}e^{-2\pi in\sum_{s\in I}1/\beta_s}\right)\\
+&=\lim_{r\to1}\Bigl((1-r)^{1-m}\\
+&\qquad\times\sum_{I\subseteq\{1,\ldots,k\}}(-1)^{|I|}r^{\sum_{s\in I}1/\beta_s}e^{2\pi i\sum_{s\in I}(\alpha_s-x)/\beta_s}e^{-2\pi in\sum_{s\in I}1/\beta_s}\Bigr)\\
 &=\lim_{r\to1}\sum_{\theta\in S}F(r,\theta)e^{-2\pi in\theta},
 \end{aligned}
 $$

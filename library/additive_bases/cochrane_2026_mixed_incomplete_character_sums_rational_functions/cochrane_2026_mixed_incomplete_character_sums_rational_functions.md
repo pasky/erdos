@@ -527,8 +527,7 @@ g^{+}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{\ell,0}\\
 h_{1,1},\ldots,h_{\ell,1}\end{array}\right]}(t)=\sum_{j_1,\ldots,j_\ell\in\{0,1\}}\sigma(\mathbf{j})\cdot g(t+h_{1,j_1}q_1+\cdots+h_{\ell,j_\ell}q_\ell),
 $$
 
-with $\sigma(\mathbf{j})=(-1)^{j_1+\cdots+j_\ell}$. We wish to apply Theorem 2 and Corollary 5 with $f=f^*$ and $g=g^+$ (and with $g=g^++b$ for an arbitrary constant $b$). By definition, the leading coefficient of $f^{*}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{k,0}\\
-h_{1,1},\ldots,h_{k,1}\end{array}\right]}(t)$ will be 1 for all $k\geq 1$.
+with $\sigma(\mathbf{j})=(-1)^{j_1+\cdots+j_\ell}$. We wish to apply Theorem 2 and Corollary 5 with $f=f^*$ and $g=g^+$ (and with $g=g^++b$ for an arbitrary constant $b$). By definition, the leading coefficient of $f^{*}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{k,0}\\ h_{1,1},\ldots,h_{k,1}\end{array}\right]}(t)$ will be 1 for all $k\geq 1$.
 
 **5.1. The $p$-divisibility of the rational function differences.** This is the key new result in this article.
 
@@ -1395,15 +1394,15 @@ Amer. Math. Soc. **4** (1991), 793–835.
 
 [18] P. Xi and J. Zheng, *On the Brun–Titchmarsh theorem. I*, arXiv:2404.01003 [math.NT].
 
-\textsc{Dept. of Mathematics, Kansas State University, Manhattan, KS 66506}  
-\emph{Email address:} \texttt{cochrane@math.ksu.edu}
+Dept of Mathematics, Kansas State University, Manhattan, KS 66506  
+*Email address*: `cochrane@math.ksu.edu`
 
-\textsc{Département de Mathématiques et Statistique, Université de Montréal, CP 6128}  
-\textsc{Succ Centre-Ville, Montréal, QC H3C 3J7, Canada.}  
-\emph{Email address:} \texttt{and.granville@gmail.com}
+Départment de Mathématiques et Statistique, Université de Montréal, CP 6128  
+succ Centre-Ville, Montréal, QC H3C 3J7, Canada.  
+*Email address*: `and.granville@gmail.com`
 
-\textsc{Junren Zheng, School of Mathematics and Statistics, Xi’an Jiaotong University,}  
-\textsc{Xi’an, China, Xi’an, 710049, P. R. China and Département de Mathématiques et Statis-}  
-\textsc{tique, Université de Montréal, CP 6128 Succ Centre-Ville, Montréal, QC H3C 3J7,}  
-\textsc{Canada.}  
-\emph{Email address:} \texttt{junrenzheng03@gmail.com}
+Junren Zheng, School of Mathematics and Statistics, Xi’an Jiaotong University,  
+Xi’an, China, Xi’an, 710049, P. R. China and Départment de Mathématiques et Statis-  
+tique, Université de Montréal, CP 6128 succ Centre-Ville, Montréal, QC H3C 3J7,  
+Canada.  
+*Email address*: `junrenzheng03@gmail.com`

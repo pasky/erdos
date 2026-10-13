@@ -92,49 +92,41 @@ The graph $F$ has $a+b-1$ vertices and satisfies $F\not\supseteq C_4$. If there 
 In this section, we present the new exact values or bounds of $f(n)$ for small values of $n$, marked with an asterisk $(*)$ in the following tables.
 
 $$
-\begin{array}{|c|*{24}{c|}}
+\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-n & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24\\
+\hspace{-0.5em}\begin{array}{c}n\\ \hline f(n)\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}1\\ \hline 4\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c|c}2&3&4\\ \hline 4&6&7\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}5\hphantom{]}\\ \hline 8\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}6\hphantom{]}\\ \hline 9\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}7\\ \hline \hphantom{[}11\hphantom{]}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}8&9\\ \hline 12&13\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}10&11\\ \hline 14&16\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}12\hphantom{]}\\ \hline 17\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}13&14\\ \hline 18&19\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}15\hphantom{]}\\ \hline 20\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}16&17\\ \hline 21&22\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}18\hphantom{]}\\ \hline 23\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}19&20\\ \hline 24&25\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}21\hphantom{]}\\ \hline 27\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}22\hphantom{]}\\ \hline 28\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}23\hphantom{]}\\ \hline 29\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}24\hphantom{]}\\ \hline 30\end{array}\hspace{-0.5em}\\
 \hline
-f(n) & 4 & 4 & 6 & 7 & 8 & 9 & 11 & 12 & 13 & 14 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 & 25 & 27 & 28 & 29 & 30\\
-\hline
-\mathit{Ref.} & & & [2] & & [4] & [9] & [6] & & [13] & & [9] & & [13] & & [5] & & [18] & & [4] & & [10] & [12] & [10] & [15]\\
+\mathit{Ref.}&&[2]&[4]&[9]&[6]&[13]&[9]&[13]&[5]&[18]&[9]&[18]&[14]&[10]&[12]&[10]&[15]\\
 \hline
 \end{array}
 $$
 
 $$
-\begin{array}{|c|*{21}{c|}}
+\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-n&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45\\
+\hspace{-0.5em}\begin{array}{c}n\\ \hline f(n)\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}25&26\\ \hline 31&32\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c|c|c|c|c|c}27&28&29&30&31&32&33\\ \hline \mathbf{33}&\mathbf{35}&\mathbf{36}&\mathbf{37}&\mathbf{38}&\mathbf{39}&\mathbf{40}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}34\hphantom{]}\\ \hline 41\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}35\hphantom{]}\\ \hline 42\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}36\hphantom{]}\\ \hline 43\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}37\\ \hline \mathbf{44}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}38\hphantom{]}\\ \hline 45\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}39\\ \hline \hphantom{[}/46\hphantom{]}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}40\hphantom{]}\\ \hline 47\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}41&42\\ \hline 49&/50\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}43\hphantom{]}\\ \hline 51\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}44\\ \hline /52\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}45\hphantom{]}\\ \hline 53\end{array}\hspace{-0.5em}\\
 \hline
-f(n)&31&32&\mathbf{33}&\mathbf{35}&\mathbf{36}&\mathbf{37}&\mathbf{38}&\mathbf{39}&\mathbf{40}&41&42&43&\mathbf{44}&45&/46&47&49&/50&51&/52&53\\
-\hline
-\text{Ref.}&\multicolumn{2}{|c|}{[9]}&\multicolumn{7}{|c|}{*}&[14]&[14]&[14]&*&[16]&[14]&[16]&\multicolumn{2}{|c|}{[9]}&[14]&[9]&[17]\\
+\mathit{Ref.}&[9]&*&[14]&[14]&[14]&*&[16]&[14]&[16]&[9]&[14]&[9]&[17]\\
 \hline
 \end{array}
 $$
 
 $$
-\begin{array}{|c|*{18}{c|}}
+\begin{array}{|c|c|c|c|c|c|c|c|c|c|}
 \hline
-n&46&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63\\
+\hspace{-0.5em}\begin{array}{c}n\\ \hline f(n)\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}46\\ \hline /54\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}47\hphantom{]}\\ \hline 55\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}48\hphantom{]}\\ \hline 56\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}49&50\\ \hline 57&58\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c|c}51&52&53\\ \hline \mathbf{59}/60&\mathbf{60}/61&\mathbf{61}/62\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}54\\ \hline \hphantom{[}62/63\hphantom{]}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}55\hphantom{]}\\ \hline 64\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}56\\ \hline /65\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c|c|c|c|c|c}57&58&59&60&61&62&63\\ \hline 66&67&68&69&70&71&72\end{array}\hspace{-0.5em}\\
 \hline
-f(n)&/54&55&56&57&58&\mathbf{59}/60&\mathbf{60}/61&\mathbf{61}/62&62/63&64&/65&66&67&68&69&70&71&72\\
-\hline
-\text{Ref.}&[8]&[14]&[17]&\multicolumn{2}{|c|}{[9]}&\multicolumn{3}{|c|}{*/[9]}&[3]/[9]&[15]&[9]&\multicolumn{7}{|c|}{[15]}\\
+\mathit{Ref.}&[8]&[14]&[17]&[9]&*/[9]&[3]/[9]&[15]&[9]&[15]\\
 \hline
 \end{array}
 $$
 
 $$
-\begin{array}{|c|*{19}{c|}}
+\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-n&64&65&66&67&68&69&70&71&72&73&74&75&76&77&78&79&80&81&82\\
+\hspace{-0.5em}\begin{array}{c}n\\ \hline f(n)\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}64\hphantom{]}\\ \hline 73\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}65\hphantom{]}\\ \hline 74\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}66\hphantom{]}\\ \hline 75\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}67\\ \hline \mathbf{76}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}68\hphantom{]}\\ \hline 77\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}69\\ \hline \mathbf{78}/\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}\hphantom{[}70\hphantom{]}\\ \hline 79\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}71\\ \hline \mathbf{80}/81\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c}72\\ \hline \hphantom{[}81/82\hphantom{]}\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c|c|c|c|c|c|c}73&74&75&76&77&78&79&80\\ \hline 83&84&85&86&87&88&89&90\end{array}\hspace{-0.5em}&\hspace{-0.5em}\begin{array}{c|c}81&82\\ \hline 91&92\end{array}\hspace{-0.5em}\\
 \hline
-f(n)&73&74&75&\mathbf{76}&77&\mathbf{78}/&79&\mathbf{80}/81&81/82&83&84&85&86&87&88&89&90&91&92\\
-\hline
-\text{Ref.}&[9]&[15]&[16]&*&[16]&*&[16]&*/[9]&[3]/[9]&\multicolumn{8}{|c|}{[15]}&\multicolumn{2}{|c|}{[9]}\\
+\mathit{Ref.}&[9]&[15]&[16]&*&[16]&*&[16]&*/[9]&[3]/[9]&[15]&[9]\\
 \hline
 \end{array}
 $$

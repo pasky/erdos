@@ -2786,7 +2786,7 @@ $$
 
 *Proof.* We follow the proof of [14, Proposition 7.5], but now we work with a general order $\mathcal{O}_{\mathbf{v}}$ in place of $\mathbb{Z}[\theta]$. This involves minor modifications at the beginning of the argument; the last steps require no modification. For brevity we emphasise just the key points requiring modification and only sketch the rest of the argument.
 
-We split the summation on the ideals $\mathfrak{d}$ according to their class in $Cl_{K}$. Let $\mathcal{C}$ be a given class and consider the contribution of all the $\mathfrak{d}\in\mathcal{C}$. Since the $\mathfrak{d}$ in the summation in (9.6) are coprime with $q$, we can fix a representative integral ideal $\mathfrak{c}\in\mathcal{C}$ such that $(N(\mathfrak{c}),q)=1$ and with $N(\mathfrak{c})=q^{o(1)}$. The ideal $\mathfrak{d}\mathfrak{c}^{-1}(N(\mathfrak{c}))$ is a principal ideal of $\mathcal{O}_{K}$. By Lemma 9.2 we can find a generator of the form $\delta=\frac{1}{W}\sum_{i=1}^{4}d_{i}\nu_{i}$ where the $d_{i$ are integers such that $|d_i|\ll D^{1/n}q^{o(1)}$. Then $\delta_{\mathfrak c}:=\frac{1}{WN(\mathfrak c)}\sum_{i=1}^{4}d_i\nu_i$ is a generator of the principal fractional ideal $\mathfrak d\mathfrak c^{-1}$. In [14] it is proved that $|\sigma_0(\delta_{\mathfrak c})|\gg D^{1/4}q^{o(1)}$ for all embeddings $\sigma_0$.
+We split the summation on the ideals $\mathfrak{d}$ according to their class in $Cl_{K}$. Let $\mathcal{C}$ be a given class and consider the contribution of all the $\mathfrak{d}\in\mathcal{C}$. Since the $\mathfrak{d}$ in the summation in (9.6) are coprime with $q$, we can fix a representative integral ideal $\mathfrak{c}\in\mathcal{C}$ such that $(N(\mathfrak{c}),q)=1$ and with $N(\mathfrak{c})=q^{o(1)}$. The ideal $\mathfrak{d}\mathfrak{c}^{-1}(N(\mathfrak{c}))$ is a principal ideal of $\mathcal{O}_{K}$. By Lemma 9.2 we can find a generator of the form $\delta=\frac{1}{W}\sum_{i=1}^{4}d_{i}\nu_{i}$ where the $d_{i}$ are integers such that $|d_i|\ll D^{1/n}q^{o(1)}$. Then $\delta_{\mathfrak c}:=\frac{1}{WN(\mathfrak c)}\sum_{i=1}^{4}d_i\nu_i$ is a generator of the principal fractional ideal $\mathfrak d\mathfrak c^{-1}$. In [14] it is proved that $|\sigma_0(\delta_{\mathfrak c})|\gg D^{1/4}q^{o(1)}$ for all embeddings $\sigma_0$.
 
 Let $\alpha\in\Gamma_{\mathfrak d}$, so $(\alpha)=\mathfrak a'\mathfrak d$ for some integral ideal $\mathfrak a'$. Since $(\alpha)=\mathfrak a'\mathfrak c\mathfrak d\mathfrak c^{-1}$ and $(\alpha)$ and $\mathfrak d\mathfrak c^{-1}=(\delta_{\mathfrak c})$ are principal, $\mathfrak a'\mathfrak c$ is principal too, so $\mathfrak a'\mathfrak c=(\beta)$ for some generator $\beta\in\mathcal O_K$. By Lemma 9.1, we can take $\beta=\frac{1}{W}\sum_{i=1}^{4}b_i\nu_i$ where $\mathbf b=(b_1,b_2,b_3,b_4)\in\mathbb Z^4$ satisfies $(\mathbf b\ (\mathrm{mod}\ W))\in\mathcal V_0$. Then $(\alpha)=(\beta)(\delta_{\mathfrak c})$. Let $\mathbf d=(d_1,d_2,d_3,d_4)$. We have $W^2N(\mathfrak c)\beta\delta_{\mathfrak c}=\sum_{k=1}^{4}(\mathbf d\diamond\mathbf b)_k\nu_k$.
 
@@ -3041,8 +3041,8 @@ where
 
 $$
 \begin{aligned}
-T_{sieve}(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b}),\tag{9.19}\\
-T_1(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\bigl(\mathbf{1}_{\mathcal{R}_2}(\mathfrak{b})-\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b})\bigr),\tag{9.20}
+T_{sieve}(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b}),\qquad (9.19)\\
+T_1(\mathcal{R})&:=\sum_{\substack{p\in[P_1,P_2]\\p\equiv 1\pmod{D_f}}}\sum_{\mathfrak{I}\in\mathcal{I}}\sum_{\mathfrak{M}_0\mathfrak{I}\mathfrak{a}\mathfrak{b}\in\widetilde{\mathcal{A}}(\mathbf{v}_0,m',p)}\mathbf{1}_{\mathcal{R}_1}(\mathfrak{a})\bigl(\mathbf{1}_{\mathcal{R}_2}(\mathfrak{b})-\widetilde{\mathbf{1}}_{\mathcal{R}_2}(\mathfrak{b})\bigr),\qquad (9.20)
 \end{aligned}
 $$
 
@@ -4032,12 +4032,12 @@ $$
 T_{11}:={}&\sum_{\substack{p\in[P_1,P_2]\\p\equiv1\;(\mathrm{mod}\ D_f)}}\sum_{\substack{\mathbf b_1\in\mathbb Z^4\cap\mathcal C_1,\mathbf b_2\in\mathbb Z^4\cap\mathcal C_2\\
 \mathbf b_1\equiv\mathbf b_2\equiv\mathbf b_0\;(\mathrm{mod}\ m')\\
 \wedge(\mathbf b_1,\mathbf b_2)\neq0\\
-p\nmid N(\mathbf b_1)N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}}{f_{\mathbf b_1,\mathbf b_2,p,p}\det(\Lambda_{\mathbf b_1,\mathbf b_2})},\tag{11.10}\\
+p\nmid N(\mathbf b_1)N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}}{f_{\mathbf b_1,\mathbf b_2,p,p}\det(\Lambda_{\mathbf b_1,\mathbf b_2})},\qquad (11.10)\\
 T_{12}:={}&\sum_{\substack{p_1,p_2\in[P_1,P_2]\\p_1\equiv p_2\equiv1\;(\mathrm{mod}\ D_f)}}\frac{1}{p_1p_2}
 \sum_{\substack{\mathbf b_1\in\mathbb Z^4\cap\mathcal C_1,\mathbf b_2\in\mathbb Z^4\cap\mathcal C_2\\
 \mathbf b_1\equiv\mathbf b_2\equiv\mathbf b_0\;(\mathrm{mod}\ m')\\
 \wedge(\mathbf b_1,\mathbf b_2)\neq0\\
-p_1\nmid N(\mathbf b_1),\,p_2\nmid N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}D_{\mathbf b_1,\mathbf b_2}}{\wedge(\mathbf b_1,\mathbf b_2)}.\tag{11.11}
+p_1\nmid N(\mathbf b_1),\,p_2\nmid N(\mathbf b_2)}}\frac{g_{\mathbf b_1}g_{\mathbf b_2}D_{\mathbf b_1,\mathbf b_2}}{\wedge(\mathbf b_1,\mathbf b_2)}.\qquad (11.11)
 \end{aligned}
 $$
 

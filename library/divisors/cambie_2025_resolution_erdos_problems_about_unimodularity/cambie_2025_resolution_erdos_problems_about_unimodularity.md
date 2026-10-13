@@ -86,7 +86,7 @@ Next, we prove there are superpolynomially many local maxima.
 
 **Claim 4.** *There exists $c>0$ such that for every sufficiently large $n$ and $m=\Theta(\exp(3n^c))$, $\delta_0(n,m+1)>\delta_1(n,m+1)$.*
 
-*Proof.* Let $L=\lcm\{n+1,n+2,\ldots,m\}=\lcm\{1,2,\ldots,m\}$. By the definition of Euler’s totient function and by Mertens (third) theorem [5] $\frac{\varphi(L)}{L}=\prod_{p\leq m}\frac{p-1}{p}\sim\exp(-\gamma)\frac{1}{\log(m)}$, where $\exp(\gamma)<2$ is a constant. As a corollary, we have $\frac{\varphi(L)}{L}>\frac{1}{2\log(m)}$. A classical estimate of the harmonic numbers says $H_n=\sum_{i=1}^n\frac{1}{i}>\log(n)$. Using these two inequalities, we derive that
+*Proof.* Let $L=\operatorname{lcm}\{n+1,n+2,\ldots,m\}=\operatorname{lcm}\{1,2,\ldots,m\}$. By the definition of Euler’s totient function and by Mertens (third) theorem [5] $\frac{\varphi(L)}{L}=\prod_{p\leq m}\frac{p-1}{p}\sim\exp(-\gamma)\frac{1}{\log(m)}$, where $\exp(\gamma)<2$ is a constant. As a corollary, we have $\frac{\varphi(L)}{L}>\frac{1}{2\log(m)}$. A classical estimate of the harmonic numbers says $H_n=\sum_{i=1}^n\frac{1}{i}>\log(n)$. Using these two inequalities, we derive that
 
 $$
 \delta_0(n,m)=\frac{\sum_{i=1}^n\varphi\left(\frac{L}{i}\right)}{L}\geq\frac{\sum_{i=1}^n\frac{\varphi(L)}{i}}{L}\geq\frac{H_n\cdot\varphi(L)}{L}>\frac{\log(n)}{2\log(m)}.
@@ -106,7 +106,7 @@ The result then follows from taking the longest sequences $(p_i)_i$ and $(q_i)_i
 
 To prove that $\delta_1(n,p+1)>\delta_1(n,p)$, note that $\delta_1(n,p+1)=\frac{p-1}{p}\delta_1(n,p)+\frac{1}{p}\delta_0(n,p)$, and this is larger than $\delta_1(n,p)$ by Claim 4 for $p=\Theta(\exp(3n^c))$.
 
-The inequality $\delta_1(n,2p+1)<\delta_1(n,2p)$ for a prime $p>n$ is almost trivial. Since multiples of $2p$ are multiples of $p$, there are no numbers whose only divisor in $(n,2p+1)$ is $2p$. On the other hand, there are multiples of $2p$ (this only depends on the residue modulo $\lcm\{n+1,\ldots,2p\}$) that have only one divisor in $(n,2p)$, but with two divisors in $(n,2p+1)$. $\square$
+The inequality $\delta_1(n,2p+1)<\delta_1(n,2p)$ for a prime $p>n$ is almost trivial. Since multiples of $2p$ are multiples of $p$, there are no numbers whose only divisor in $(n,2p+1)$ is $2p$. On the other hand, there are multiples of $2p$ (this only depends on the residue modulo $\operatorname{lcm}\{n+1,\ldots,2p\}$) that have only one divisor in $(n,2p)$, but with two divisors in $(n,2p+1)$. $\square$
 
 ## 3 Main proofs for problem 690
 

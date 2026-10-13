@@ -376,7 +376,7 @@ $$
 \left\{\left[-\sqrt{\frac{(n-2)(d+1)}{n-d-2}}\right]^{n-d-2},\left[\sqrt{\frac{(n-2)(n-d-2)}{d+1}}\right]^{d+1}\right\}.
 $$
 
-\hfill $\square$
+$\square$
 
 **Theorem 3.2 ([10]).** *Let $X$ be an $n$ two-distance points set in $\mathbb{R}^d$ with distances $1,\delta$. If $n>2d+4$, $-\gamma=(1+\delta^2)/(1-\delta^2)$ is an odd integer.*
 
@@ -595,10 +595,10 @@ $$
 
 $\square$
 
-\[
+$$
 \begin{array}{c|cccc|c}
-\text{upper bound} & \multicolumn{4}{c|}{k} & M^{+}(d)\\
-\text{dimension} & 2 & 3 & 4 & 5 & \\
+\text{upper bound}\quad k & & & & & \\
+\text{dimension} & 2 & 3 & 4 & 5 & M^{+}(d)\\
 \hline
 5 & 10 & 6 & 5 & 5 & 16\\
 6 & 16 & 7 & 6 & 6 & 27\\
@@ -620,7 +620,7 @@ $\square$
 21 & & 126 & 36 & 28 & 231\\
 22 & & 176 & 39 & 29 & 275\\
 23 & & 276 & 42 & 31 & 276\\
-24 & 576 & 46 & 33 & 300\\
+24 & & 576 & 46 & 33 & 300\\
 \hline
 25 & & & 50 & 35 & 325\\
 26 & & & 54 & 37 & 351\\
@@ -632,7 +632,7 @@ $\square$
 32 & & & 90 & 56 & 528\\
 33 & & & 99 & 58 & 561
 \end{array}
-\]
+$$
 
 **Table 3:** Upper bounds on spherical two-distance sets in $d$-dimensional Euclidean space with $a+b\geq 0$, as given by Theorem 5.1. For each dimension $d$, the upper bound applies for the L.R.S. constant $k=2,3,4,5$, where $-(a+b-2)/(b-a)=2k-1$.
 
@@ -875,7 +875,7 @@ $$
 \right\}.
 $$
 
-According to Theorem 7.1, $S$ is a Seidel matrix which corresponds to an equiangular tight frame with $n-1$ vectors in $\mathbb{R}^{d+1}$. \hfill$\square$
+According to Theorem 7.1, $S$ is a Seidel matrix which corresponds to an equiangular tight frame with $n-1$ vectors in $\mathbb{R}^{d+1}$. $\square$
 
 Theorem 7.2 implies that given $d,n,\delta$ such that $n=\dfrac{(d+1)\left(\left(\dfrac{1+\delta^{2}}{1-\delta^{2}}\right)^{2}-1\right)}{\left(\dfrac{1+\delta^{2}}{1-\delta^{2}}\right)^{2}-(d+1)}\in\mathbb{Z}$. If there does not exist an equiangular tight frame having $\dfrac{(d+1)\left(\left(\dfrac{1+\delta^{2}}{1-\delta^{2}}\right)^{2}-1\right)}{\left(\dfrac{1+\delta^{2}}{1-\delta^{2}}\right)^{2}-(d+1)}$ vectors in $\mathbb{R}^{d+1}$, then
 

@@ -91,7 +91,7 @@ $$
 
 Moreover, there is no duality gap between the two problems.
 
-[^4]: We identify the Banach space $\ell^\infty(G;\mathbb{R})$ of real-valued bounded functions over $G$ with the topological dual space of $\ell^1(G;\mathbb{R}).
+[^4]: We identify the Banach space $\ell^\infty(G;\mathbb{R})$ of real-valued bounded functions over $G$ with the topological dual space of $\ell^1(G;\mathbb{R})$.
 
 [^5]: For the “primal” problem described here the assumption that $\rho$ is even, means no loss of generality. Indeed, since a positive definite real-valued function $f\in\ell^1(G;\mathbb{R})$ is even, if $\varrho\in\ell^\infty(G;\mathbb{R})$ is odd, then $\langle f,\varrho\rangle=\sum_{g\in G}f(g)\varrho(g)=0$. So we can always consider the even part of a given $\rho\in\ell^\infty(G;\mathbb{R})$ without changing the primal problem.
 
@@ -171,7 +171,7 @@ $$
 \widetilde{\omega}:=\sup\{s\in\mathbb{R}:\rho-s\sigma\in(P\cap Q)^*\}\geq\sup\{s\in\mathbb{R}:\rho-s\sigma\in P^*+Q^*\}=\omega_{\sigma}^{\rho}(\Omega_+^c,\Omega_-^c).
 $$
 
-By Lemma 2.3, as $\sigma$ is assumed to be strictly positive definite, we have $\alpha_{\sigma}^{\rho}(\Omega_+,\Omega_-)=\widetilde{\omega}$. We have $0\in P\cap Q$ and, by the assumption $0\in\Omega_+$, also $\mathbf{1}_{\{0\}}\in Q\cap\mbox{\rm int\,}P$, so Lemma 2.4 applies. We conclude that $\widetilde{\omega}=\omega_{\sigma}^{\rho}(\Omega_+^c,\Omega_-^c)$, finishing the proof. $\square$
+By Lemma 2.3, as $\sigma$ is assumed to be strictly positive definite, we have $\alpha_{\sigma}^{\rho}(\Omega_+,\Omega_-)=\widetilde{\omega}$. We have $0\in P\cap Q$ and, by the assumption $0\in\Omega_+$, also $\mathbf{1}_{\{0\}}\in Q\cap\operatorname{int}P$, so Lemma 2.4 applies. We conclude that $\widetilde{\omega}=\omega_{\sigma}^{\rho}(\Omega_+^c,\Omega_-^c)$, finishing the proof. $\square$
 
 Theorem 1.2 is obtained by taking $\Omega_+=\Omega$ and $\Omega_-=G$ in Theorem 2.1.
 
@@ -195,7 +195,7 @@ We start with recalling the following structural result.
 
 *There is a discrete subgroup $L$ in $G$ which is isomorphic to $\mathbb{Z}^{d}$ and there is a relatively compact Borel set $B\subseteq G$ such that $G/L$ is compact, $B$ tiles with complement $L$, i.e., $G=L+B$ with each $g\in G$ represented uniquely as $g=\ell+b$ with $\ell\in L$ and $b\in B$.*
 
-*Moreover, the set $B$ can be chosen such that its closure $\overline{B}$ is symmetric, i.e., $\overline{B}=-\overline{B}$, and its boundary has Haar measure zero: $\lambda_G(\partial B)=\lambda_G(\overline{B}\setminus\mbox{\rm int\,}B)=0$.*
+*Moreover, the set $B$ can be chosen such that its closure $\overline{B}$ is symmetric, i.e., $\overline{B}=-\overline{B}$, and its boundary has Haar measure zero: $\lambda_G(\partial B)=\lambda_G(\overline{B}\setminus\operatorname{int}B)=0$.*
 
 *Proof.* This is directly seen from the structure theorem of compactly generated LCA groups, and is actually an ingredient of the proof of this central result; e.g. [49, 2.4.2 Lemma]. $\square$
 
@@ -406,7 +406,7 @@ $$
 \psi(g)=\int_V g\,d\psi^+-\int_V g\,d\psi^-\leq\varepsilon+\int_H g\,d\psi^+-\int_H g\,d\psi^-=\varepsilon+\int_H g\,d\psi^+=\varepsilon-\psi^+(H)<0.
 $$
 
-It follows that $\psi\notin Q_A^*$, a contradiction. We thus conclude $\psi^+(A)=0$, so $\psi^+=0$. The proof is complete. \hfill$\square$
+It follows that $\psi\notin Q_A^*$, a contradiction. We thus conclude $\psi^+(A)=0$, so $\psi^+=0$. The proof is complete. $\square$
 
 An *even* function $f:G\to\mathbb R$ is one that is invariant under inversion $\mathrm{inv}:G\to G$, $g\mapsto-g$, i.e., that satisfies $f\circ\mathrm{inv}=f$; while $f$ is *odd* if $f\circ\mathrm{inv}=-f$. Dually a Radon measure $\psi$ is even, respectively odd, if it satisfies $\psi(f\circ\mathrm{inv})=\psi(f)$, respectively, $\psi(f\circ\mathrm{inv})=-\psi(f)$ for every $f\in C_c(G;\mathbb R)$. The family of real-valued and translation bounded, odd Radon measures will be denoted as $\mathcal O$. Obviously, $\mathcal O$ is a closed subspace, hence is also a closed cone of $M(G;\mathbb R)$.
 

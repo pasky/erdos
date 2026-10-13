@@ -360,8 +360,10 @@ $$
 \binom{q}{q-4\log x}p^{|B|}
 =\binom{q}{4\log x}p^{|B|}
 <c^{4\log x}\left(\frac{4(\log\log x)^2}{\log x}\right)^{(c-4)\log x}
-<(\log x)^{-(c-5)\log x}.\qed
+<(\log x)^{-(c-5)\log x}.
 $$
+
+$\square$
 
 To complete the proof, it remains to verify Claims 1 and 2.
 

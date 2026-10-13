@@ -3836,9 +3836,9 @@ Another component is
 $$
 \begin{aligned}
 J_5={}&\int_{x=1/2-\varepsilon/2}^{1/2}\int_{y=0}^{1/2-\varepsilon}\Bigl(
-\int_{z=0}^{y}F\big|_{A_{yzx}}+\int_{z=y}^{1-\varepsilon-x}F\big|_{A_{zyx}}\right.\\
-&\left.+\int_{z=1-\varepsilon-x}^{x}F\big|_{B_{zyx}}+\int_{z=x}^{1-\varepsilon-y}F\big|_{B_{xyz}}+\int_{z=1-\varepsilon-y}^{1+\varepsilon-x}F\big|_{C_{xyz}}\right.\\
-&\left.+\int_{z=1+\varepsilon-x}^{3/2-x-y}F\big|_{T_{xyz}}\,dz\right)^2dy\,dx.
+\int_{z=0}^{y}F\big|_{A_{yzx}}+\int_{z=y}^{1-\varepsilon-x}F\big|_{A_{zyx}}\\
+&+\int_{z=1-\varepsilon-x}^{x}F\big|_{B_{zyx}}+\int_{z=x}^{1-\varepsilon-y}F\big|_{B_{xyz}}+\int_{z=1-\varepsilon-y}^{1+\varepsilon-x}F\big|_{C_{xyz}}\\
+&+\int_{z=1+\varepsilon-x}^{3/2-x-y}F\big|_{T_{xyz}}\,dz\Bigr)^2dy\,dx.
 \end{aligned}
 $$
 

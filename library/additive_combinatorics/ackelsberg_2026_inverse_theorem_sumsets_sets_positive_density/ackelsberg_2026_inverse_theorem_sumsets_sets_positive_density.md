@@ -10,80 +10,80 @@ Let $d(\cdot)$ denote the natural density on the positive integers. We character
 
 ## Contents
 
-**1 Introduction** \hfill **2**
+**1 Introduction** **2**
 
-**2 Notation** \hfill **6**
+**2 Notation** **6**
 
-**3 Outline of the proof** \hfill **7**
+**3 Outline of the proof** **7**
 
-**4 Sumsets in abelian groups** \hfill **11**
+**4 Sumsets in abelian groups** **11**
 
-4.1 Schnirelmann density \dotfill 11
+4.1 Schnirelmann density . . . 11
 
-4.2 An inverse theorem for sumsets in finite cyclic groups \dotfill 12
+4.2 An inverse theorem for sumsets in finite cyclic groups . . . 12
 
-4.3 Popular sumsets in finite abelian groups \dotfill 16
+4.3 Popular sumsets in finite abelian groups . . . 16
 
-**5 Uniform distribution and discrepancies of sequences mod 1** \hfill **18**
+**5 Uniform distribution and discrepancies of sequences mod 1** **18**
 
-5.1 The Erdős–Turán and Erdős–Turán–Koksma inequalities \dotfill 18
+5.1 The Erdős–Turán and Erdős–Turán–Koksma inequalities . . . 18
 
-5.2 Local densities of Bohr intervals \dotfill 19
+5.2 Local densities of Bohr intervals . . . 19
 
-5.2.1 Minor arcs \dotfill 20
+5.2.1 Minor arcs . . . 20
 
-5.2.2 Rational frequencies \dotfill 20
+5.2.2 Rational frequencies . . . 20
 
-5.2.3 Major arcs \dotfill 21
+5.2.3 Major arcs . . . 21
 
-5.3 Multidimensional discrepancy estimates and a result on simultaneous approximation \dotfill 28
+5.3 Multidimensional discrepancy estimates and a result on simultaneous approximation . . . 28
 
-**6 Gowers norms and arithmetic regularity** \hfill **30**
+**6 Gowers norms and arithmetic regularity** **30**
 
-**7 Ergodic theory** \hfill **32**
+**7 Ergodic theory** **32**
 
-7.1 Measure-preserving systems, factors, and the ergodic decomposition \dotfill 33
+7.1 Measure-preserving systems, factors, and the ergodic decomposition . . . 33
 
-7.2 Topological dynamical systems and invariant measures \dotfill 34
+7.2 Topological dynamical systems and invariant measures . . . 34
 
-7.3 Host–Kra uniformity seminorms \dotfill 35
+7.3 Host–Kra uniformity seminorms . . . 35
 
-7.3.1 The $U^1$ seminorm and the $\mathcal{Z}_0$ factor \dotfill 36
+7.3.1 The $U^1$ seminorm and the $\mathcal{Z}_0$ factor . . . 36
 
-7.3.2 The $U^2$ seminorm and the $\mathcal{Z}_1$ factor \dotfill 36
+7.3.2 The $U^2$ seminorm and the $\mathcal{Z}_1$ factor . . . 36
 
-7.4 Furstenberg systems \dotfill 38
+7.4 Furstenberg systems . . . 38
 
-7.5 Hilbert spaces of functions on $\mathbb{N}$ \dotfill 39
+7.5 Hilbert spaces of functions on $\mathbb{N}$ . . . 39
 
-7.6 Host–Kra seminorms on $\mathbb{N}$ \dotfill 40
+7.6 Host–Kra seminorms on $\mathbb{N}$ . . . 40
 
-7.6.1 The $U^1(\mathbf{N})$-seminorm and local ergodicity \dotfill 40  
-7.6.2 The $U^2(\mathbf{N})$-seminorm \dotfill 45  
-**8 The intermediate-scale seminorms \hfill 45**  
-8.1 Notation \dotfill 45  
-8.2 The $U^1(\mathbf{N},\mathbf{H})$ seminorm \dotfill 45  
-8.3 The $U^2(\mathbf{N},\mathbf{H})$ seminorm \dotfill 53  
-**9 Sumsets and $\delta$-popular sumsets in the integers at intermediate scales \hfill 62**  
-9.1 A new proof of a corollary of Kneser’s theorem \dotfill 62  
-9.2 Convolution at intermediate scales \dotfill 63  
-9.3 Almost-periods for $U^2(\mathbf{N},\mathbf{H})$-structured functions \dotfill 67  
-9.4 Modulated $\delta$-popular sumsets at intermediate scales \dotfill 70  
-9.5 Modulated sumsets at intermediate scales \dotfill 72  
-**10 A local inverse theorem for sumsets of sets of positive density \hfill 73**  
-**11 From local residue classes to global residue classes \hfill 77**  
-**12 Eliminating rational frequencies \hfill 85**  
-**13 Local ergodicity \hfill 91**  
-**14 Completing the proof with ergodic theory \hfill 94**  
-14.1 Dynamical model \dotfill 95  
-14.2 Reducing to the rotational factor \dotfill 99  
-14.3 Finishing the proof \dotfill 104  
-**15 Relevant examples \hfill 107**  
-15.1 Examples of sets satisfying $d(A+B)=d(A)$ \dotfill 107  
-15.2 Examples of sets satisfying $d(A+B)=d(A)+d(B)$ and $\overline{d}(A+B)>d(A)+d(B)$ \dotfill 109  
-**16 Further explorations \hfill 111**  
-16.1 More on direct theorems for sumsets in the integers \dotfill 111  
-16.2 More on inverse theorems for sumsets in the integers \dotfill 113  
+7.6.1 The $U^1(\mathbf{N})$-seminorm and local ergodicity . . . 40  
+7.6.2 The $U^2(\mathbf{N})$-seminorm . . . 45  
+**8 The intermediate-scale seminorms 45**  
+8.1 Notation . . . 45  
+8.2 The $U^1(\mathbf{N},\mathbf{H})$ seminorm . . . 45  
+8.3 The $U^2(\mathbf{N},\mathbf{H})$ seminorm . . . 53  
+**9 Sumsets and $\delta$-popular sumsets in the integers at intermediate scales 62**  
+9.1 A new proof of a corollary of Kneser’s theorem . . . 62  
+9.2 Convolution at intermediate scales . . . 63  
+9.3 Almost-periods for $U^2(\mathbf{N},\mathbf{H})$-structured functions . . . 67  
+9.4 Modulated $\delta$-popular sumsets at intermediate scales . . . 70  
+9.5 Modulated sumsets at intermediate scales . . . 72  
+**10 A local inverse theorem for sumsets of sets of positive density 73**  
+**11 From local residue classes to global residue classes 77**  
+**12 Eliminating rational frequencies 85**  
+**13 Local ergodicity 91**  
+**14 Completing the proof with ergodic theory 94**  
+14.1 Dynamical model . . . 95  
+14.2 Reducing to the rotational factor . . . 99  
+14.3 Finishing the proof . . . 104  
+**15 Relevant examples 107**  
+15.1 Examples of sets satisfying $d(A+B)=d(A)$ . . . 107  
+15.2 Examples of sets satisfying $d(A+B)=d(A)+d(B)$ and $\overline{d}(A+B)>d(A)+d(B)$ . . . 109  
+**16 Further explorations 111**  
+16.1 More on direct theorems for sumsets in the integers . . . 111  
+16.2 More on inverse theorems for sumsets in the integers . . . 113  
 
 ### 1. Introduction
 
@@ -251,67 +251,69 @@ For other notation used in the paper, we provide the following list with referen
 
 ### List of Notation
 
-$*$ \quad convolution $\dotfill$ 17
+$*$ convolution . . . 17
 
-$*_{(\mathbf{N},\mathbf{H})}$ \quad convolution at scale $(\mathbf{N},\mathbf{H})$ $\dotfill$ 63
+$*_{(\mathbf{N},\mathbf{H})}$ convolution at scale $(\mathbf{N},\mathbf{H})$ . . . 63
 
-$+_{\bmod Q}$ \quad sumset reduced mod $Q$ $\dotfill$ 62
+$+_{\bmod Q}$ sumset reduced mod $Q$ . . . 62
 
-$+_{\delta,\bmod Q}$ \quad $\delta$-popular sumset mod $Q$ $\dotfill$ 70
+$+_{\delta,\bmod Q}$ $\delta$-popular sumset mod $Q$ . . . 70
 
-$+_{\delta}$ \quad $\delta$-popular sumset $\dotfill$ 16
+$+_{\delta}$ $\delta$-popular sumset . . . 16
 
-$[N]$ \quad $\{1,\ldots,N\}$ $\dotfill$ 4
+$[N]$ $\{1,\ldots,N\}$ . . . 4
 
-$\operatorname{Bohr}(\cdot,\cdot)$ \quad Bohr interval in $\mathbb{N}$ $\dotfill$ 19 $\mathbb{E}[\cdot\mid\cdot]$ \quad conditional expectation \dotfill 33
+$\operatorname{Bohr}(\cdot,\cdot)$ Bohr interval in $\mathbb{N}$ . . . 19
 
-$\mathbb{E}_{n\in\mathbf{N}}$ \quad average along a sequence $\mathbf{N}$ \dotfill 38
+$\mathbb{E}[\cdot\mid\cdot]$ conditional expectation . . . 33
 
-$\langle\cdot,\cdot\rangle_{[N]}$ \quad inner product over $[N]$ \dotfill 32
+$\mathbb{E}_{n\in\mathbf{N}}$ average along a sequence $\mathbf{N}$ . . . 38
 
-$\langle\cdot,\cdot\rangle_{\mathbf{N}}$ \quad inner product along a sequence $\mathbf{N}$ \dotfill 39
+$\langle\cdot,\cdot\rangle_{[N]}$ inner product over $[N]$ . . . 32
 
-$\|\cdot\|_{2,[N]}$ \quad $L^2$ norm over $[N]$ \dotfill 32
+$\langle\cdot,\cdot\rangle_{\mathbf{N}}$ inner product along a sequence $\mathbf{N}$ . . . 39
 
-$\|\cdot\|_{2,\mathbf{N}}$ \quad $L^2$ norm along a sequence $\mathbf{N}$ \dotfill 40
+$\|\cdot\|_{2,[N]}$ $L^2$ norm over $[N]$ . . . 32
 
-$\|\cdot\|_{\mathbb{T}}$ \quad distance to nearest integer \dotfill 18
+$\|\cdot\|_{2,\mathbf{N}}$ $L^2$ norm along a sequence $\mathbf{N}$ . . . 40
 
-$\|\cdot\|_{U^2(\{x+1,\ldots,x+N\})}$ \quad Fourier norm on a discrete interval \dotfill 32
+$\|\cdot\|_{\mathbb{T}}$ distance to nearest integer . . . 18
 
-$\|\cdot\|_{U^k(\mathbf{N})}$ \quad Host–Kra seminorm along a sequence $\mathbf{N}$ \dotfill 40
+$\|\cdot\|_{u^2(\{x+1,\ldots,x+N\})}$ Fourier norm on a discrete interval . . . 32
 
-$\|\cdot\|_{U^k(\mathbf{N},\mathbf{H})}$ \quad intermediate scale seminorm \dotfill 45
+$\|\cdot\|_{U^k(\mathbf{N})}$ Host–Kra seminorm along a sequence $\mathbf{N}$ . . . 40
 
-$\|\cdot\|_{U^k(\{x+1,\ldots,x+N\})}$ \quad Gowers norm on a discrete interval \dotfill 31
+$\|\cdot\|_{U^k(\mathbf{N},\mathbf{H})}$ intermediate scale seminorm . . . 45
 
-$\|\cdot\|_{U^k(G)}$ \quad Gowers norm on a group $G$ \dotfill 31
+$\|\cdot\|_{U^k(\{x+1,\ldots,x+N\})}$ Gowers norm on a discrete interval . . . 31
 
-$\|\cdot\|_{U^k}$ \quad Host–Kra seminorm \dotfill 35
+$\|\cdot\|_{U^k(G)}$ Gowers norm on a group $G$ . . . 31
 
-$\mathcal{L}^2(\mathcal{A},\mathbf{N})$ \quad $L^2$ space of functions associated to an algebra $\mathcal{A}$ along a sequence $\mathbf{N}$ \dotfill 39
+$\|\cdot\|_{U^k}$ Host–Kra seminorm . . . 35
 
-$\mathbb{N}$ \quad positive integers \dotfill 4
+$\mathcal{L}^2(\mathcal{A},\mathbf{N})$ $L^2$ space of functions associated to an algebra $\mathcal{A}$ along a sequence $\mathbf{N}$ . . . 39
 
-$\prec,\preceq$ \quad asymptotic ordering of non-decreasing sequences in $\mathbb{N}$ \dotfill 45
+$\mathbb{N}$ positive integers . . . 4
 
-$\sigma$ \quad Schnirelmann density \dotfill 11
+$\prec,\preceq$ asymptotic ordering of non-decreasing sequences in $\mathbb{N}$ . . . 45
 
-$\sim,\sim_{\mathbf{N}}$ \quad equality up to zero density (along a sequence $\mathbf{N}$) \dotfill 8
+$\sigma$ Schnirelmann density . . . 11
 
-$\subseteq_\mu,\supseteq_\mu,=_\mu$ \quad set relations up to $\mu$-null sets \dotfill 99
+$\sim,\sim_{\mathbf{N}}$ equality up to zero density (along a sequence $\mathbf{N}$) . . . 8
 
-$\mathbb{T}$ \quad circle group $\mathbb{R}/\mathbb{Z}$ \dotfill 3
+$\subseteq_\mu,\supseteq_\mu,=_\mu$ set relations up to $\mu$-null sets . . . 99
 
-$\mathrm{Disc}$ \quad discrepancy \dotfill 18
+$\mathbb{T}$ circle group $\mathbb{R}/\mathbb{Z}$ . . . 3
 
-$\underline{d},\overline{d}$ \quad lower and upper density \dotfill 4
+$\mathrm{Disc}$ discrepancy . . . 18
 
-$d$ \quad density \dotfill 4
+$\underline{d},\overline{d}$ lower and upper density . . . 4
 
-$d_{\mathbf{N}}$ \quad density along a sequence $\mathbf{N}$ \dotfill 5
+$d$ density . . . 4
 
-$e(\cdot)$ \quad complex exponential function \dotfill 18
+$d_{\mathbf{N}}$ density along a sequence $\mathbf{N}$ . . . 5
+
+$e(\cdot)$ complex exponential function . . . 18
 
 ### 3. Outline of the proof
 
@@ -715,7 +717,7 @@ where in the last inequality we have used the choice of parameters $\varepsilon'
 
 (iv.c) $|B'| < \eta|K|$.
 
-The final case to consider is when (III) holds. The argument above handling the case $\alpha > \frac{1}{2}$ did not directly use any assumption on $\alpha$ so applies equally well for $\alpha \leq \frac{1}{2}$. Hence, property (iii) holds with $H = \mathbb{Z}/Q\mathbb{Z}$. \hfill$\square$
+The final case to consider is when (III) holds. The argument above handling the case $\alpha > \frac{1}{2}$ did not directly use any assumption on $\alpha$ so applies equally well for $\alpha \leq \frac{1}{2}$. Hence, property (iii) holds with $H = \mathbb{Z}/Q\mathbb{Z}$. $\square$
 
 **4.3. Popular sumsets in finite abelian groups**
 
@@ -1070,7 +1072,7 @@ $$
 \end{aligned}
 $$
 
-This completes the proof. \hfill $\square$
+This completes the proof. $\square$
 
 **Corollary 5.6.** Let $\theta=\frac{p}{q}$ expressed in lowest terms and $\alpha\in(0,1)$ with $\{q\alpha\}=q\alpha-\lfloor q\alpha\rfloor\geq\delta>0$. Let $\varepsilon\in\left(0,\frac{\delta}{q}\right)$, $K>1$, and $KM\leq\varepsilon^{-1}\leq K^{-1}H$. Let $I\subseteq\mathbb{T}$ be an interval of length $|I|=\alpha$.
 
@@ -1179,7 +1181,7 @@ $$
 (q\mathbb{Z}+r_x)\cap\{x+1,\ldots,x+M\}\subseteq\operatorname{Bohr}(\theta+\varepsilon,I)\cap\{x+1,\ldots,x+M\}
 $$
 
-for $r_x=x+s_x\bmod q$. \hfill $\square$
+for $r_x=x+s_x\bmod q$. $\square$
 
 In the final case, when both $\theta$ and the interval length $|I|$ are approximately rational numbers with denominator $q$, the discrepancy is again small as soon as $M$ is large compared with $q$.
 
@@ -1794,7 +1796,7 @@ $$
 \mathcal{L}^{2}(\mathcal{A},\mathbf{N})=\left\{f:\mathbb{Z}\to\mathbb{C}:\ \forall\varepsilon>0\ \exists a\in\mathcal{A},\limsup_{s\to\infty}\frac{1}{N_s}\sum_{n=1}^{N_s}|f(n)-a(n)|^{2}<\varepsilon\right\}/\sim_{\mathbf{N}},
 $$
 
-where $f\sim_{\mathbf{N}}g$ if and only if $\mathbb{E}_{n\in\mathbf{N}}|f(n)-g(n)|^{2}=0.
+where $f\sim_{\mathbf{N}}g$ if and only if $\mathbb{E}_{n\in\mathbf{N}}|f(n)-g(n)|^{2}=0$.
 
 **Theorem 7.10** (cf. [Far24, Theorem 2.1]). *The space $\mathcal{L}^{2}(\mathcal{A},\mathbf{N})$ is a Hilbert space with inner product*
 
@@ -2025,7 +2027,7 @@ $$
 \mathbb{E}[1_E\mid\mathcal{I}](x)=\int_X1_E\,d\mu_x=\mu_x(E)
 $$
 
-for almost every $x\in X$.\hfill$\square$
+for almost every $x\in X$. $\square$
 
 Let $\mathcal{L}^{\infty}(\mathcal{A},\mathbb{N})$ denote the space of bounded functions in $\mathcal{L}^{2}(\mathcal{A},\mathbb{N})$, i.e. $\mathcal{L}^{\infty}(\mathcal{A},\mathbb{N})=\mathcal{L}^{2}(\mathcal{A},\mathbb{N})\cap\ell^{\infty}(\mathbb{Z})$. Note that $\mathcal{A}$ is $\mathcal{L}^{2}$-dense in $\mathcal{L}^{\infty}(\mathcal{A},\mathbb{N})$. Therefore, by continuity of $\Phi$ with respect to the $\mathcal{L}^{2}$ norm, the Gelfand representation $\Phi:\mathcal{A}\to C(X)$ extends to a $C^*$-algebra isomorphism $\Phi:\mathcal{L}^{\infty}(\mathcal{A},\mathbb{N})\to L^{\infty}(\mu)$. With this observation, we can prove the following theorem, which succinctly captures the sense in which the Furstenberg system encodes the statistical behavior of functions $f\in\mathcal{A}$.
 
@@ -2060,7 +2062,7 @@ $$
 \end{aligned}
 $$
 
-\hfill$\square$
+$\square$
 
 ##### 7.6.2. The $U^{2}(\mathbf{N})$-seminorm
 
@@ -2281,7 +2283,7 @@ $$
 1\prec\mathbf{K}^{-}\prec\mathbf{K}^{+}\preceq\mathbf{N}.
 $$
 
-After replacing $(\mathbf{N},\mathbf{K}^{+},\mathbf{K}^{-})$ by a subsequence if necessary, there exist sequences $\mathbf{H}^{+}=(H_s^{+})_{s\in\mathbb{N}}$ and $\mathbf{H}^{-}=(H_s^{-})_{s\in\mathbb{N}}$ with $\mathbf{K}^{-}\prec\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{K}^{+}$ and such that for any $\mathbf{H}=(H_s)_{s\in\mathbb{N}} with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$, and any $k,C\in\mathbb{N}$, if
+After replacing $(\mathbf{N},\mathbf{K}^{+},\mathbf{K}^{-})$ by a subsequence if necessary, there exist sequences $\mathbf{H}^{+}=(H_s^{+})_{s\in\mathbb{N}}$ and $\mathbf{H}^{-}=(H_s^{-})_{s\in\mathbb{N}}$ with $\mathbf{K}^{-}\preceq\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{K}^{+}$ and such that for any $\mathbf{H}=(H_s)_{s\in\mathbb{N}}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$, and any $k,C\in\mathbb{N}$, if
 
 $$
 V_{s,k,C}=\left\{n\in[N_s-H_s+1]:\left|\frac{1}{CH_s}\sum_{h=1}^{CH_s}f_k(n+h)-\frac{1}{\lfloor H_s/C\rfloor}\sum_{h=1}^{\lfloor H_s/C\rfloor}f_k(n+h)\right|<\frac{1}{C}\right\}
@@ -2564,7 +2566,7 @@ We now introduce the order-2 analogue of a $U^1$-good scale from Theorem 8.1.
 
 **Definition 8.6** (*$U^2$ good scale*). Let $f\colon\mathbb{N}\to[0,1]$, and suppose $\mathbf{N}=(N_s)_{s\in\mathbb{N}}$ and $\mathbf{H}=(H_s)_{s\in\mathbb{N}}$ are sequences in $\mathbb{N}$ with $1\prec\mathbf{H}\preceq\mathbf{N}$. We say that $(\mathbf{N},\mathbf{H})$ is a $U^2$ good scale for $f$ if there exists a decomposition $f=f_{\mathrm{str}}+f_{\mathrm{unf}}$ such that:
 
-(i) (Nonnegativity) $f_{\mathrm{str}}$ takes values in $[0,1]$ and $\mathbb{E}_{n\in\mathbb{N}}f_{\mathrm{unf}}=0.
+(i) (Nonnegativity) $f_{\mathrm{str}}$ takes values in $[0,1]$ and $\mathbb{E}_{n\in\mathbb{N}}f_{\mathrm{unf}}=0$.
 
 (ii) (Structure) For every $\varepsilon>0$ there exist $d\in\mathbb{N}$, $c_1,\ldots,c_d:\mathbb{N}\to\mathbb{C}$ with $\|c_i\|_\infty\leqslant 1$, and $\alpha_1,\ldots,\alpha_d:\mathbb{N}\to\mathbb{R}$ such that if $\mathcal{P}(n)=\sum_{i=1}^d c_i(n)e(n\alpha_i(n))$ then
 
@@ -2626,7 +2628,7 @@ $$
 \mathbf{K}^{-}\preceq\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{K}^{+}
 $$
 
-such that for any $\mathbf{H}=(H_s)_{s\in\mathbb{N}}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ the pair $(\mathbf{N},\mathbf{H})$ is a $U^2$ good scale for $f.
+such that for any $\mathbf{H}=(H_s)_{s\in\mathbb{N}}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ the pair $(\mathbf{N},\mathbf{H})$ is a $U^2$ good scale for $f$.
 
 For the proof of Theorem 8.7, we require a short technical lemma. We endow the unit square $[0,1]^2$ with the standard lexigographic order: given two points $(\lambda,\eta),(\lambda',\eta')\in[0,1]^2$, we write $(\lambda,\eta)\prec(\lambda',\eta')$ if either $\lambda<\lambda'$ or if $\lambda=\lambda'$ and $\eta<\eta'$. This yields a total ordering of $[0,1]^2$.
 
@@ -2803,7 +2805,7 @@ $$
 c_{k,i}(n)\text{ and }\alpha_{k,i}(n)\text{ are constant on subintervals longer than }\geq H_s^+/2\text{ in }\{N_{s-1}+1,\ldots,N_s\}. \tag{8.25}
 $$
 
-Also, using Theorem 8.4, after replacing $\mathbf{H}^{-}$ and $\mathbf{H}^{+}$ with a narrower pair of sequences if needed, we get that for all $C\in\mathbb{N}$ and all $(w_1,\ldots,w_{d_k^\star})\in[-C,C]^{d_k^\star}\cap\mathbb{Z}^{d_k^\star}$, if $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+} and
+Also, using Theorem 8.4, after replacing $\mathbf{H}^{-}$ and $\mathbf{H}^{+}$ with a narrower pair of sequences if needed, we get that for all $C\in\mathbb{N}$ and all $(w_1,\ldots,w_{d_k^\star})\in[-C,C]^{d_k^\star}\cap\mathbb{Z}^{d_k^\star}$, if $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ and
 
 $$
 V_{s,w_1,\ldots,w_{d_k^*},C}
@@ -3099,11 +3101,11 @@ $$
 
 $$
 \begin{aligned}
-\lim_{s\to\infty}\frac{1}{N_s}\sum_{n=1}^{N_s}\sup_{u_1,u_2,g_1,g_2,g_3}\left|&
+\lim_{s\to\infty}\frac{1}{N_s}\sum_{n=1}^{N_s}\sup_{u_1,u_2,g_1,g_2,g_3}\Biggl|&
 \frac{1}{H_{1,s}}\sum_{h_1=-H_{1,s}}^{H_{1,s}}
 \frac{1}{H_{2,s}}\sum_{h_2=-H_{2,s}}^{H_{2,s}}
 u_1(h_1)u_2(h_2)g_1(n)g_2(n+h_1)\\
-&\cdot g_3(n+h_2)\overline{f(n+h_1+h_2)}\right|=0,
+&\cdot g_3(n+h_2)\overline{f(n+h_1+h_2)}\Biggr|=0,
 \end{aligned}
 $$
 
@@ -3439,7 +3441,7 @@ $$
 \frac{1}{H_s}\sum_{h=0}^{H_s-1}\left|f*_{(\mathbf{N},\mathbf{H})}g(n+h)-f*_{(\mathbf{N},\mathbf{H})}g(n+h+Q_n)\right|\leqslant\varepsilon_s.
 $$
 
-as desired. \hfill $\square$
+as desired. $\square$
 
 #### 9.4. Modulated $\delta$-popular sumsets at intermediate scales
 
@@ -3447,8 +3449,8 @@ Given $Q\in\mathbb{N}$, $E,F\subseteq\{0,1,\ldots,Q-1\}$, and $\delta>0$, we def
 
 $$
 \begin{aligned}
-E+_{\delta,\bmod Q}F=\left\{h\in\{0,1,\ldots,Q-1\}:{}&\frac{1}{Q}\sum_{m=0}^{h}1_E(h-m)1_F(m)\\
-&+\frac{1}{Q}\sum_{m=h+1}^{Q-1}1_E(h+Q-m)1_F(m)>\delta\right\}.
+E+_{\delta,\bmod Q}F=\Biggl\{h\in\{0,1,\ldots,Q-1\}:{}&\frac{1}{Q}\sum_{m=0}^{h}1_E(h-m)1_F(m)\\
+&+\frac{1}{Q}\sum_{m=h+1}^{Q-1}1_E(h+Q-m)1_F(m)>\delta\Biggr\}.
 \end{aligned}
 $$
 
@@ -3797,7 +3799,7 @@ $$
 
 (e) $|\widetilde{B}_{n,0}|\leq\frac{\varepsilon}{2h_n}Q_n<\varepsilon H_s$.
 
-When we have such a decomposition, we say that $(A,B)$ satisfies property $(2_{h_n,\varepsilon})$ at $n.
+When we have such a decomposition, we say that $(A,B)$ satisfies property $(2_{h_n,\varepsilon})$ at $n$.
 
 We have shown that for every $\varepsilon>0$, every $k\in\mathbb{N}$, every $s\in\mathbb{N}$, and all but $o(N_s)$ many $n\in\{N_{s-1}+1,\ldots,N_s\}$, the pair $(A,B)$ satisfies either property $(1_{h_n,\varepsilon,k})$ or $(2_{h_n,\varepsilon})$ for some $h_n\leqslant\frac{2}{1-\beta}$. Now taking $\varepsilon=\varepsilon'_s$ with $\varepsilon'_s\to0$ and $k=k_s$ with $k_s\to\infty$ sufficiently slowly, we have that for every $s\in\mathbb{N}$ and all but $o(N_s)$ many $n\in\{N_{s-1}+1,\ldots,N_s\}$, the pair $(A,B)$ satisfies either property $(1_{h_n,\varepsilon'_s,k_s})$ or $(2_{h_n,\varepsilon'_s})$ for some $h_n\leqslant\frac{2}{1-\beta}$.
 
@@ -4067,7 +4069,7 @@ $$
 \underline{d}_{\mathbf{N}}(A+B_1)\geqslant\liminf_{s\to\infty}\frac{\left|(A\cap[N_s])+(B\cap[H_s])\right|}{N_s}.
 $$
 
-Since $\mathbf{H}\succ\mathbf{H}_{G,A}$ and $d(A)=\alpha>0$, we have that for all but $o(N_s)$ many $n\in[N_s]$, there exists $t_n\in\mathbb{N}$ with $t_n=o(H_s)$ such that $n+t_n\in A$. Adding the elements $n+t_n$ to $B\cap[H_s], we have
+Since $\mathbf{H}\succ\mathbf{H}_{G,A}$ and $d(A)=\alpha>0$, we have that for all but $o(N_s)$ many $n\in[N_s]$, there exists $t_n\in\mathbb{N}$ with $t_n=o(H_s)$ such that $n+t_n\in A$. Adding the elements $n+t_n$ to $B\cap[H_s]$, we have
 
 $$
 \liminf_{s\to\infty}\frac{|(A\cap[N_s])+(B\cap[H_s])|}{N_s}\geq\beta.
@@ -4150,7 +4152,7 @@ $$
 \end{aligned}
 $$
 
-so $|I_n|=\delta_n=\alpha_0+o(1)$ as desired. \hfill$\square$
+so $|I_n|=\delta_n=\alpha_0+o(1)$ as desired. $\square$
 
 ### 12. Eliminating rational frequencies
 
@@ -4349,7 +4351,7 @@ $$
 \frac{1}{H'_s}\sum_{x=1}^{H'_s}\left|\frac{|\phi_s^{-1}(J_s)\cap h\mathbb{Z}\cap\{x+1,\ldots,x+M'_s\}|}{M'_s}-\frac{\beta_0}{h}\right|\geq\frac{\|q\beta_0\|_{\mathbb{T}}}{qh}-o(1). \tag{12.1}
 $$
 
-Now, by Theorem 8.5(ii) applied to the function $f=1_B-\beta$, let $(V_N)_{N\in\mathbb{N}}$ with $\lim_{N\to\infty}V_N $\lim_{N\to\infty}\frac{N}{V_N}=\infty$ such that if $(W_N)_{N\in\mathbb{N}}$ satisfies $\lim_{N\to\infty}\frac{W_N}{V_N}=\lim_{N\to\infty}\frac{N}{W_N}=\infty$, then
+Now, by Theorem 8.5(ii) applied to the function $f=1_B-\beta$, let $(V_N)_{N\in\mathbb{N}}$ with $\lim_{N\to\infty}V_N=\lim_{N\to\infty}\frac{N}{V_N}=\infty$ such that if $(W_N)_{N\in\mathbb{N}}$ satisfies $\lim_{N\to\infty}\frac{W_N}{V_N}=\lim_{N\to\infty}\frac{N}{W_N}=\infty$, then
 
 $$
 \lim_{N\to\infty}\frac{1}{N}\sum_{n=1}^N\left|\frac{|B\cap\{n+1,\ldots,n+w_N\}|}{W_N}-\beta\right|=0. \tag{12.2}
@@ -4649,7 +4651,7 @@ Combining the results of the preceding sections, we can prove Theorem 3.2, repro
 
 (2) there exist integers $h\geq 2$ and $a_0,b_0\in\{0,1,\ldots,h-1\}$ such that $A\subseteq h\mathbb{N}-a_0$, $A+h\sim_{\mathbf{N}'}A$, and $B\sim_{\mathbf{N}'}(\mathbb{N}\backslash h\mathbb{N})-b_0$.
 
-*Proof.* By Theorem 8.5, let $\mathbf{H}_{G,A}$ and $\mathbf{H}_{G,B}$ be Gowers scales for $A$ and $B$ respectively. Define $\mathbf{H}_G=(H_{G,s})_{s\in\mathbb{N}}$ by $H_{G,s}=\max\{H_{G,A,s},H_{G,B,s}\}$. Then by Theorem 8.7, there is a subsequence $(\mathbf{N}',\mathbf{H}_G')$ of $(\mathbf{N},\mathbf{H}_G)$ such that there exist scales $\mathbf{H}^{-},\mathbf{H}^{+}$ such that $\mathbf{H}_G'\preceq\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{N}'$ and for every $\mathbf{H}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$, the pair $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale for $A$. Applying Theorem 8.7 again, after replacing $(\mathbf{N}',\mathbf{H}^{+},\mathbf{H}^{-})$ by a subsequence, there exists $\mathbf{H}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ such that $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale for $B$. Hence, $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale and a Gowers scale for both $A$ and $B.
+*Proof.* By Theorem 8.5, let $\mathbf{H}_{G,A}$ and $\mathbf{H}_{G,B}$ be Gowers scales for $A$ and $B$ respectively. Define $\mathbf{H}_G=(H_{G,s})_{s\in\mathbb{N}}$ by $H_{G,s}=\max\{H_{G,A,s},H_{G,B,s}\}$. Then by Theorem 8.7, there is a subsequence $(\mathbf{N}',\mathbf{H}_G')$ of $(\mathbf{N},\mathbf{H}_G)$ such that there exist scales $\mathbf{H}^{-},\mathbf{H}^{+}$ such that $\mathbf{H}_G'\preceq\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{N}'$ and for every $\mathbf{H}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$, the pair $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale for $A$. Applying Theorem 8.7 again, after replacing $(\mathbf{N}',\mathbf{H}^{+},\mathbf{H}^{-})$ by a subsequence, there exists $\mathbf{H}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ such that $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale for $B$. Hence, $(\mathbf{N}',\mathbf{H})$ is a $U^2$ good scale and a Gowers scale for both $A$ and $B$.
 
 By passing to a further subsequence, we may assume $\lim_{s\to\infty}N'_s/N'_{s+1}=0$. Now by Theorem 11.4, there exists $h\in\mathbb{N}$ such that either (1') or (2') holds. The property (2') gives conclusion (2). Suppose (1') holds. Then by Theorem 12.1, the frequency $\theta$ is irrational. Theorem 13.1 and Theorem 13.2 then imply that (1) holds. $\square$
 
@@ -4774,7 +4776,7 @@ $$
 \nu_{A,y}(F_A)=\int_{Y_A}1_{F_A}\,d\nu_{A,y}=\mathbb{E}_{\nu_A}[1_{F_A}\mid\mathcal{I}](y)=\alpha
 $$
 
-for $\nu_A$-almost every $y\in Y_A. That is, the set
+for $\nu_A$-almost every $y\in Y_A$. That is, the set
 
 $$
 G_2=\{y:\nu_{A,y}(F_A)=\alpha\}
@@ -5481,7 +5483,7 @@ $$
 \left|((A+B)\cap[N])\backslash(A\cap[N])\right|=\mathrm{O}\left(\frac{b_{i-1}N}{t_i}+\frac{b_{i-2}N}{t_{i-1}}+b_{i-2}+b_{i-1}+i^2K_{i-1}\right)=\mathrm{o}(N).
 $$
 
-This finishes the proof. \hfill$\square$
+This finishes the proof. $\square$
 
 **15.2. Examples of sets satisfying $\underline{d}(A+B)=d(A)+d(B)$ and $\overline{d}(A+B)>d(A)+d(B)$**
 
@@ -5799,18 +5801,18 @@ Finally, we inquire about an analogue of Freiman’s theorem for infinite sets i
 
 [Tao12] T. Tao, *Higher Order Fourier Analysis*, *Graduate Studies in Mathematics* **142**, American Mathematical Society, Providence, RI, 2012.
 
-[TV06] T. \textsc{Tao} and V. H. \textsc{Vu}, *Additive Combinatorics, Cambridge Studies in Advanced Mathematics*, Cambridge University Press, Cambridge, 2006. https://doi.org/10.1017/CBO9780511755149.
+[TV06] T. Tao and V. H. Vu, *Additive Combinatorics, Cambridge Studies in Advanced Mathematics*, Cambridge University Press, Cambridge, 2006. https://doi.org/10.1017/CBO9780511755149.
 
-[Vos56a] A. G. \textsc{Vosper}, Addendum to “The critical pairs of subsets of a group of prime order”, *J. London Math. Soc.* 31 (1956), 280–282. https://doi.org/10.1112/jlms/s1-31.3.280.
+[Vos56a] A. G. Vosper, Addendum to “The critical pairs of subsets of a group of prime order”, *J. London Math. Soc.* 31 (1956), 280–282. https://doi.org/10.1112/jlms/s1-31.3.280.
 
-[Vos56b] A. G. \textsc{Vosper}, The critical pairs of subsets of a group of prime order, *J. London Math. Soc.* 31 (1956), 200–205. https://doi.org/10.1112/jlms/s1-31.2.200.
+[Vos56b] A. G. Vosper, The critical pairs of subsets of a group of prime order, *J. London Math. Soc.* 31 (1956), 200–205. https://doi.org/10.1112/jlms/s1-31.2.200.
 
-[Wey16] H. \textsc{Weyl}, Über die Gleichverteilung von Zahlen mod. Eins, *Math. Ann.* **77** no. 3 (1916), 313–352. https://doi.org/10.1007/BF01475864.
+[Wey16] H. Weyl, Über die Gleichverteilung von Zahlen mod. Eins, *Math. Ann.* **77** no. 3 (1916), 313–352. https://doi.org/10.1007/BF01475864.
 
 Ethan Ackelsberg  
-\textsc{École Polytechnique Fédérale de Lausanne (EPFL)}  
+École Polytechnique Fédérale de Lausanne (EPFL)  
 ethan.ackelsberg@epfl.ch
 
 Florian K. Richter  
-\textsc{École Polytechnique Fédérale de Lausanne (EPFL)}  
+École Polytechnique Fédérale de Lausanne (EPFL)  
 f.richter@epfl.ch

@@ -652,7 +652,7 @@ $$
 X=\sum_{z\in\mathcal{A}_{s+1}^{*}}G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z)).
 $$
 
-Note that $G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$ is nonnegative, 1-bounded with $\mathbbm{1}[\theta\in\mathcal{G}_{s+1}]\geq G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$. In particular, this implies $\mathcal{A}_{s+1}\geq X$. Furthermore note by Lemma 2.4, we have that
+Note that $G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$ is nonnegative, 1-bounded with $\mathbb{1}[\theta\in\mathcal{G}_{s+1}]\geq G((Q_{s,1}(z),\ldots,Q_{s,\ell_s}(z))$. In particular, this implies $\mathcal{A}_{s+1}\geq X$. Furthermore note by Lemma 2.4, we have that
 
 $$
 \mathbb{E}[X|\mathcal{A}_{s}]\geq e^{-O((\log\log N_{s})^2\cdot\delta_s)}\cdot|\mathcal{A}_{s+1}^{*}|\geq|\mathcal{A}_{s}|\cdot M_{s+1}^{1-10^{-5}}. \tag{2.22}

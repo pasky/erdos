@@ -50,7 +50,7 @@ Before jumping into the proofs, we set a few pieces of notation.
 - We denote dilation by $\lambda\cdot A\vcentcolon=\{\lambda a:a\in A\}$.
 - We denote the restricted sumset by $B\hat{+}B\vcentcolon=\{b+b^{\prime}:b,b^{\prime}\in B\text{ and }b\neq b^{\prime}\}$.
 - Let $\sum_{=M}(S)\vcentcolon=\{\sum_{s\in S^{\prime}}s:S^{\prime}\subseteq S,|S^{\prime}|=M\}$ denote the set of all sums of exactly $M$ elements of $S$. Likewise, let $\sum_{\leqslant M}(S)\vcentcolon=\{\sum_{s\in S^{\prime}}s:S^{\prime}\subseteq S,|S^{\prime}|\leqslant M\}$ denote the set of all sums of at most $M$ elements of $S$, and let $\sum_{\geqslant M}(S)\vcentcolon=\{\sum_{s\in S^{\prime}}s:S^{\prime}\subseteq S,|S^{\prime}|\geqslant M\}$ denote the set of all sums of at least $M$ elements of $S$.
-- For a sequence $\mathbf{b}=b_{1},\ldots,b_{r}$, let $\IS(\mathbf{b})\vcentcolon=\{b_{1}+\cdots+b_{j}:0\leq j\leq r\}$ denote the set of initial segment sums of $\mathbf{b}$, and let $\overline{\mathbf{b}}\vcentcolon=b_{r},\ldots,b_{1}$ denote the reverse of $\mathbf{b}$.
+- For a sequence $\mathbf{b}=b_{1},\ldots,b_{r}$, let $\operatorname{IS}(\mathbf{b})\vcentcolon=\{b_{1}+\cdots+b_{j}:0\leq j\leq r\}$ denote the set of initial segment sums of $\mathbf{b}$, and let $\overline{\mathbf{b}}\vcentcolon=b_{r},\ldots,b_{1}$ denote the reverse of $\mathbf{b}$.
 
 We use standard asymptotic notation. We write $f=O(g)$ or $f\ll g$ if there is a universal constant $C>0$ such that $|f|\leq Cg$. If $f$ is non-negative and $f=O(g)$, then we also write $g=\Omega(f)$. We write $f\asymp g$ when $f\ll g$ and $g\ll f$. Finally, we write $f(p)=o(g(p))$ if $\lim_{p\to\infty}f(p)/g(p)=0$.
 
@@ -201,20 +201,20 @@ Absorbing $p_1,p_2$ into $D_1$ gives the desired decomposition of $\lambda\cdot 
 
 With Proposition 3.5 in hand, we can say a bit more about the remainder of the proof of Theorem 1.2. We will aim to find orderings $\mathbf{p}$ of $P$, $\mathbf{n}$ of $N$, and $\mathbf{d}$ of $\bigcup_jD_j$ such that $\overline{\mathbf{p}},\mathbf{d},\mathbf{n}$ is a two-sided valid ordering of $A$. Of course, we will need each of the three orderings to be two-sided valid on its own, and we will need to avoid creating zero-sum intervals when we concatenate them.
 
-Condition (i) from Proposition 3.5 means that the problem of constructing $\mathbf{p}$ and $\mathbf{n}$ naturally lives in the integers rather than in $\mathbb{F}_p$, as follows. Identify $\delta$ and the elements of $P\cup N$ with elements of $(-p/4,p/4)\subseteq\mathbb{Z}$ in the natural way, and note that sums of these elements can be computed equivalently in $\mathbb{F}_p$ and in $(-p/2,p/2)\subseteq\mathbb{Z}$ because the sums in $\mathbb{F}_p$ do not exhibit any wrap-around. Likewise, for any ordering $\mathbf{d}$ of $\bigcup_jD_j$, we can identify $\IS(\mathbf{d})$ and $\IS(\overline{\mathbf{d}})$ with subsets of $(-p/2,p/2)\subseteq\mathbb{Z}$. Now we observe that the ordering $\overline{\mathbf{p}},\mathbf{d},\mathbf{n}$ is two-sided valid if and only if the ordering $\overline{\mathbf{p}},\delta,\mathbf{n}$ is two-sided valid in the integers, the ordering $\mathbf{d}$ is two-sided valid in $\mathbb{F}_p$, and $\IS(\mathbf{p})\cap-\IS(\mathbf{d})=\IS(\mathbf{n})\cap-\IS(\overline{\mathbf{d}})=\emptyset$; the key point is that the first condition lives entirely in the integers, the second condition does not concern $\mathbf{p}$ and $\mathbf{n}$, and the third condition lives in the integers for each fixed choice of $\mathbf{d}$.
+Condition (i) from Proposition 3.5 means that the problem of constructing $\mathbf{p}$ and $\mathbf{n}$ naturally lives in the integers rather than in $\mathbb{F}_p$, as follows. Identify $\delta$ and the elements of $P\cup N$ with elements of $(-p/4,p/4)\subseteq\mathbb{Z}$ in the natural way, and note that sums of these elements can be computed equivalently in $\mathbb{F}_p$ and in $(-p/2,p/2)\subseteq\mathbb{Z}$ because the sums in $\mathbb{F}_p$ do not exhibit any wrap-around. Likewise, for any ordering $\mathbf{d}$ of $\bigcup_jD_j$, we can identify $\operatorname{IS}(\mathbf{d})$ and $\operatorname{IS}(\overline{\mathbf{d}})$ with subsets of $(-p/2,p/2)\subseteq\mathbb{Z}$. Now we observe that the ordering $\overline{\mathbf{p}},\mathbf{d},\mathbf{n}$ is two-sided valid if and only if the ordering $\overline{\mathbf{p}},\delta,\mathbf{n}$ is two-sided valid in the integers, the ordering $\mathbf{d}$ is two-sided valid in $\mathbb{F}_p$, and $\operatorname{IS}(\mathbf{p})\cap-\operatorname{IS}(\mathbf{d})=\operatorname{IS}(\mathbf{n})\cap-\operatorname{IS}(\overline{\mathbf{d}})=\emptyset$; the key point is that the first condition lives entirely in the integers, the second condition does not concern $\mathbf{p}$ and $\mathbf{n}$, and the third condition lives in the integers for each fixed choice of $\mathbf{d}$.
 
-We will later choose $\mathbf{d}$ randomly, but it turns out that we can model $-\IS(\mathbf{d}),-\IS(\overline{\mathbf{d}})$ by somewhat larger deterministic sets that encode all of the “potentially important” intersections with $\IS(\mathbf{p}),\IS(\mathbf{n})$ (respectively); it will suffice to ensure that $\IS(\mathbf{p}),\IS(\mathbf{n})$ have fairly small intersections with these deterministic sets. With this in mind, the main result of this section is as follows.
+We will later choose $\mathbf{d}$ randomly, but it turns out that we can model $-\operatorname{IS}(\mathbf{d}),-\operatorname{IS}(\overline{\mathbf{d}})$ by somewhat larger deterministic sets that encode all of the “potentially important” intersections with $\operatorname{IS}(\mathbf{p}),\operatorname{IS}(\mathbf{n})$ (respectively); it will suffice to ensure that $\operatorname{IS}(\mathbf{p}),\operatorname{IS}(\mathbf{n})$ have fairly small intersections with these deterministic sets. With this in mind, the main result of this section is as follows.
 
 **Proposition 4.1.** Let $P\subseteq(0,\infty)$ and $N\subseteq(-\infty,0)$ be finite sets of integers, and let $\delta>0$ be a positive integer not contained in $-N$; moreover, assume that $\delta\neq-\sum_{n\in N}n$ if $P\neq\emptyset$. Let $Y_1^+,\ldots,Y_m^+,Y_1^-,\ldots,Y_m^-\subseteq\mathbb{Z}$ be finite sets. Then there are orderings $\mathbf{p}$ of $P$ and $\mathbf{n}$ of $N$ such that $\overline{\mathbf{p}},\delta,\mathbf{n}$ is two-sided valid and we have
 
 $$
-|\IS(\mathbf{p})\cap Y_j^+|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^+|}{L}+L+4+4\sum_{i=1}^{j-1}|Y_i^+|\right)\tag{3}
+|\operatorname{IS}(\mathbf{p})\cap Y_j^+|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^+|}{L}+L+4+4\sum_{i=1}^{j-1}|Y_i^+|\right)\tag{3}
 $$
 
 and
 
 $$
-|\IS(\mathbf{n})\cap Y_j^-|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^-|}{L}+L+4+4\sum_{i=1}^{j-1}|Y_i^-|\right)\tag{4}
+|\operatorname{IS}(\mathbf{n})\cap Y_j^-|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^-|}{L}+L+4+4\sum_{i=1}^{j-1}|Y_i^-|\right)\tag{4}
 $$
 
 for all $1\leq j\leq m$.
@@ -255,7 +255,7 @@ Now, consider the case where $\pi_k-P'_k\subseteq\cup_jY_j^+$. Let $i$ be minima
 
 Now, consider the case where $\nu_\ell-N'_\ell\subseteq\cup_jY_j^-$. Let $i$ be minimal such that $\nu_\ell-N'_\ell$ intersects $Y_i^-$, and say that the current step is an *$i$-step for $N$*. If $\nu_\ell-N'_\ell\subseteq Y_i^-$, then let $n_\ell$ be the smallest (i.e., most negative) element of $N'_\ell$. If $\nu_\ell-N'_\ell\not\subseteq Y_i^-$, then let $n_\ell$ be the smallest (i.e., most negative) $n^*\in N'_\ell$ such that $\nu_\ell-n^*\notin Y_i^-$.
 
-We begin with $(k,\ell)=(|P|,|N|)$ and run the above procedure until we reach $(k,\ell)=(0,0)$. To establish Proposition 4.1, we must show three things: that the algorithm actually runs and produces orderings $\mathbf{p}$ of $P$ and $\mathbf{n}$ of $N$; that the resulting ordering $\mathbf{p},\delta,\overline{\mathbf{n}}$ is two-sided valid; and that $\IS(\mathbf{p})$ and $\IS(\mathbf{n})$ have small intersections with the $Y_j^+$'s and $Y_j^-$'s (respectively).
+We begin with $(k,\ell)=(|P|,|N|)$ and run the above procedure until we reach $(k,\ell)=(0,0)$. To establish Proposition 4.1, we must show three things: that the algorithm actually runs and produces orderings $\mathbf{p}$ of $P$ and $\mathbf{n}$ of $N$; that the resulting ordering $\mathbf{p},\delta,\overline{\mathbf{n}}$ is two-sided valid; and that $\operatorname{IS}(\mathbf{p})$ and $\operatorname{IS}(\mathbf{n})$ have small intersections with the $Y_j^+$'s and $Y_j^-$'s (respectively).
 
 **Claim 4.2.** *The above algorithm runs all the way to $(k,\ell)=(0,0)$ and produces orderings $\mathbf{p}$ of $P$ and $\mathbf{n}$ of $N$.*
 
@@ -290,20 +290,20 @@ Let us now consider the sums $\delta+\nu_\ell$. We can again quickly dispose of 
 **Claim 4.4.** *The orderings* $\mathbf{p}$ *and* $\mathbf{n}$ *satisfy*
 
 $$
-|\IS(\mathbf{p})\cap Y_j^+|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^+|}{L}+L+2+4\sum_{i=1}^{j-1}|Y_i^+|\right)
+|\operatorname{IS}(\mathbf{p})\cap Y_j^+|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^+|}{L}+L+2+4\sum_{i=1}^{j-1}|Y_i^+|\right)
 $$
 
 *and*
 
 $$
-|\IS(\mathbf{n})\cap Y_j^-|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^-|}{L}+L+2+4\sum_{i=1}^{j-1}|Y_i^-|\right)
+|\operatorname{IS}(\mathbf{n})\cap Y_j^-|\leqslant\inf_{L\in\mathbb{N}}\left(\frac{|Y_j^-|}{L}+L+2+4\sum_{i=1}^{j-1}|Y_i^-|\right)
 $$
 
 *for all $1\leqslant j\leqslant m$.*
 
-*Proof.* We will prove the statement only for $|\IS(\mathbf{n})\cap Y_j^-|$ since the argument for $|\IS(\mathbf{p})\cap Y_j^+|$ is essentially identical. Recall that $\IS(\mathbf{n})=\{\nu_\ell=\sum_{i=1}^{\ell}n_i:0\leqslant\ell\leqslant|N|\}$. For $0\leqslant\ell<|N|$, write $\nu_\ell=\nu_{\ell+1}-n_{\ell+1}$. This quantity can lie in $Y_j^-$ only when the choice of $n_{\ell+1}$ is a $j$-step or an $i$-step for some $i<j$. We will bound these two contributions separately. Note that skip-steps and $i$-steps for $i>j$ never contribute.
+*Proof.* We will prove the statement only for $|\operatorname{IS}(\mathbf{n})\cap Y_j^-|$ since the argument for $|\operatorname{IS}(\mathbf{p})\cap Y_j^+|$ is essentially identical. Recall that $\operatorname{IS}(\mathbf{n})=\{\nu_\ell=\sum_{i=1}^{\ell}n_i:0\leqslant\ell\leqslant|N|\}$. For $0\leqslant\ell<|N|$, write $\nu_\ell=\nu_{\ell+1}-n_{\ell+1}$. This quantity can lie in $Y_j^-$ only when the choice of $n_{\ell+1}$ is a $j$-step or an $i$-step for some $i<j$. We will bound these two contributions separately. Note that skip-steps and $i$-steps for $i>j$ never contribute.
 
-We first consider the contribution of $j$-steps. Notice that the partial sums $\nu_\ell$ are strictly increasing (becoming less negative) as $\ell$ decreases. Suppose that the choice of $n_{\ell+1}$ is a $j$-step and $\nu_\ell=\nu_{\ell+1}-n_{\ell+1}\in Y_j^-$. Then we must have $\nu_{\ell+1}-N'_{\ell+1}\subseteq Y_j^-$. Since $n_{\ell+1}$ is the smallest (most negative) element of $N'_{\ell+1}$, the other $|N'_{\ell+1}\setminus\{n_{\ell+1}\}|\geqslant\ell+1-3=\ell-2$ elements of $\nu_{\ell+1}-N'_{\ell+1}\subseteq Y_j^-$ lie in the interval $(\nu_{\ell+1},\nu_\ell)$; it follows that these elements are “skipped” and can never appear in $\IS(\mathbf{n})$. In particular, from such $j$-steps with $\ell\geqslant L+1$ we obtain at most $|Y_j^-|/L$ elements of $\IS(\mathbf{n})\cap Y_j^-$. From $j$-steps with $\ell\leqslant L$ we trivially obtain at most $L+1$ elements of $\IS(\mathbf{n})\cap Y_j^-$.
+We first consider the contribution of $j$-steps. Notice that the partial sums $\nu_\ell$ are strictly increasing (becoming less negative) as $\ell$ decreases. Suppose that the choice of $n_{\ell+1}$ is a $j$-step and $\nu_\ell=\nu_{\ell+1}-n_{\ell+1}\in Y_j^-$. Then we must have $\nu_{\ell+1}-N'_{\ell+1}\subseteq Y_j^-$. Since $n_{\ell+1}$ is the smallest (most negative) element of $N'_{\ell+1}$, the other $|N'_{\ell+1}\setminus\{n_{\ell+1}\}|\geqslant\ell+1-3=\ell-2$ elements of $\nu_{\ell+1}-N'_{\ell+1}\subseteq Y_j^-$ lie in the interval $(\nu_{\ell+1},\nu_\ell)$; it follows that these elements are “skipped” and can never appear in $\operatorname{IS}(\mathbf{n})$. In particular, from such $j$-steps with $\ell\geqslant L+1$ we obtain at most $|Y_j^-|/L$ elements of $\operatorname{IS}(\mathbf{n})\cap Y_j^-$. From $j$-steps with $\ell\leqslant L$ we trivially obtain at most $L+1$ elements of $\operatorname{IS}(\mathbf{n})\cap Y_j^-$.
 
 We now consider the contribution of $i$-steps with $i<j$. We will trivially bound this contribution by the total number of $i$-steps with $i<j$. We claim that the number of $i$-steps is at most $4|Y_i^-|$ for each $i$. For each $i$-step $\ell$, let $y(\ell)$ denote the largest (least negative) element of $(\nu_\ell-N'_\ell)\cap Y_i^-$. It suffices to show that each $y\in Y_i^-$ appears as $y(\ell)$ for at most $4$ different $i$-steps $\ell$. If $y(\ell)$ is not the largest element of $\nu_\ell-N'_\ell$, then it is distinct from $y(\ell')$ for all $\ell'<\ell$ since
 
@@ -317,7 +317,7 @@ Combining these contributions (and adding $1$ for $\nu_{|N|}$) gives the desired
 
 These three claims together imply Proposition 4.1. $\square$
 
-[^2]: To bound the intersection between $\IS(\mathbf{p})$ and $Y_j^+$, one simply interchanges “smaller” and “larger” throughout the proof. Since we have $|P_k\setminus P'_k|\leqslant1$ instead of $|N_\ell\setminus N'_\ell|\leqslant2$, we could replace $\ell-2$ with $k-1$ in the second paragraph and replace $4|Y_j^-|$ with $3|Y_j^+|$ in the third paragraph to obtain even a slightly tighter bound.
+[^2]: To bound the intersection between $\operatorname{IS}(\mathbf{p})$ and $Y_j^+$, one simply interchanges “smaller” and “larger” throughout the proof. Since we have $|P_k\setminus P'_k|\leqslant1$ instead of $|N_\ell\setminus N'_\ell|\leqslant2$, we could replace $\ell-2$ with $k-1$ in the second paragraph and replace $4|Y_j^-|$ with $3|Y_j^+|$ in the third paragraph to obtain even a slightly tighter bound.
 
 ## 5. Splitting the dissociated sets
 
@@ -429,7 +429,7 @@ $$
 
 again with plenty of room to spare.
 
-The proof of (ii) is nearly identical and we omit it; we remark that the bounds $|\IS(\mathbf{p})|,|\IS(\mathbf{n})|\leqslant|A|\leqslant e^{c(\log p)^{1/4}}$ hold because we fixed $\mathbf{p}$ and $\mathbf{n}$ in advance.
+The proof of (ii) is nearly identical and we omit it; we remark that the bounds $|\operatorname{IS}(\mathbf{p})|,|\operatorname{IS}(\mathbf{n})|\leqslant|A|\leqslant e^{c(\log p)^{1/4}}$ hold because we fixed $\mathbf{p}$ and $\mathbf{n}$ in advance.
 
 \hfill$\square$
 

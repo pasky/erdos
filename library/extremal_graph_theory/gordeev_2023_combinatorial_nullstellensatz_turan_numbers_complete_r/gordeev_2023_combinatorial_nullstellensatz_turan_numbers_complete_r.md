@@ -4,7 +4,7 @@ Alexey Gordeev
 
 **Abstract**
 
-In this note we describe how Lasoń’s generalization of Alon’s Combinatorial Nullstellensatz gives a framework for constructing lower bounds on the Turán number $\ex(n,K^{(r)}_{s_1,\ldots,s_r})$ of the complete $r$-partite $r$-uniform hypergraph $K^{(r)}_{s_1,\ldots,s_r}$. To illustrate the potential of this method, we give a short and simple explicit construction for the Erdős box problem, showing that $\ex(n,K^{(r)}_{2,\ldots,2})=\Omega(n^{r-1/r})$, which asymptotically matches best known bounds when $r\leq 4$.
+In this note we describe how Lasoń’s generalization of Alon’s Combinatorial Nullstellensatz gives a framework for constructing lower bounds on the Turán number $\operatorname{ex}(n,K^{(r)}_{s_1,\ldots,s_r})$ of the complete $r$-partite $r$-uniform hypergraph $K^{(r)}_{s_1,\ldots,s_r}$. To illustrate the potential of this method, we give a short and simple explicit construction for the Erdős box problem, showing that $\operatorname{ex}(n,K^{(r)}_{2,\ldots,2})=\Omega(n^{r-1/r})$, which asymptotically matches best known bounds when $r\leq 4$.
 
 ## 1 Introduction
 
@@ -12,15 +12,15 @@ In this note we describe how Lasoń’s generalization of Alon’s Combinatorial
 
 A hypergraph $H=(V,E)$ consists of a set of vertices $V$ and a set of edges $E$, each edge being some subset of $V$. A hypergraph is $r$-uniform if each edge in it contains exactly $r$ vertices. An $r$-uniform hypergraph is $r$-partite if its set of vertices can be represented as a disjoint union of $r$ parts with every edge containing one vertex from each part. The complete $r$-partite $r$-uniform hypergraph with parts of sizes $s_1,\ldots,s_r$ contains all $s_1\cdots s_r$ possible edges and is denoted by $K^{(r)}_{s_1,\ldots,s_r}$.
 
-Let $H$ be an $r$-uniform hypergraph. The Turán number $\ex(n,H)$ is the maximum number of edges in an $r$-uniform hypergraph on $n$ vertices containing no copies of $H$. A classical result of Erdős [4] implies that for $s_1\leq\ldots\leq s_r$,
+Let $H$ be an $r$-uniform hypergraph. The Turán number $\operatorname{ex}(n,H)$ is the maximum number of edges in an $r$-uniform hypergraph on $n$ vertices containing no copies of $H$. A classical result of Erdős [4] implies that for $s_1\leq\ldots\leq s_r$,
 
-$$\ex(n,K^{(r)}_{s_1,\ldots,s_r})=O\left(n^{r-\frac{1}{s_1\cdots s_{r-1}}}\right). \tag{1}$$
+$$\operatorname{ex}(n,K^{(r)}_{s_1,\ldots,s_r})=O\left(n^{r-\frac{1}{s_1\cdots s_{r-1}}}\right). \tag{1}$$
 
 In [9], Mubayi conjectured that bound (1) is asymptotically tight. Recently, Pohoata and Zakharov [10] showed that this is true whenever $s_1,\ldots,s_r\geq 2$ and $s_r\geq ((r-1)(s_1\cdots s_{r-1}-1))!+1$, extending earlier results of Alon, Kollár, Rónyai and Szabó [6, 2] and Ma, Yuan and Zhang [8].
 
-Nevertheless, the conjecture remains open even in a special case $\ex(n,K^{(r)}_{2,\ldots,2})$, which is often referred to as the Erdős box problem. The best known lower bound is due to Conlon, Pohoata and Zakharov [3], who showed that for any $r\geq 2$,
+Nevertheless, the conjecture remains open even in a special case $\operatorname{ex}(n,K^{(r)}_{2,\ldots,2})$, which is often referred to as the Erdős box problem. The best known lower bound is due to Conlon, Pohoata and Zakharov [3], who showed that for any $r\geq 2$,
 
-$$\ex(n,K^{(r)}_{2,\ldots,2})=\Omega\left(n^{r-\lceil\frac{2^r-1}{r}\rceil^{-1}}\right). \tag{2}$$
+$$\operatorname{ex}(n,K^{(r)}_{2,\ldots,2})=\Omega\left(n^{r-\lceil\frac{2^r-1}{r}\rceil^{-1}}\right). \tag{2}$$
 
 ### 1.2 Generalized Combinatorial Nullstellensatz
 
@@ -48,7 +48,7 @@ The set $Z(f;B_{1},\ldots,B_{r})$ can be viewed as the set of edges of an $r$-pa
 
 **Lemma 2.1.** Let $x_{1}^{d_{1}}\cdots x_{r}^{d_{r}}$ be a maximal monomial of $f$. Then for any subsets $B_{1},\ldots,B_{r}$ of $\mathbb{F}$ the hypergraph $H(f;B_{1},\ldots,B_{r})$ is free of copies of $K^{(r)}_{d_{1}+1,\ldots,d_{r}+1}$.
 
-This lemma gives us a new tool for constructing lower bounds on $\ex(n,K^{(r)}_{s_{1},\ldots,s_{r}})$. In Section 3 we give a simple example of such construction for $\ex(n,K^{(r)}_{2,\ldots,2})$ which asymptotically matches (2) when $r\leq 4$.
+This lemma gives us a new tool for constructing lower bounds on $\operatorname{ex}(n,K^{(r)}_{s_{1},\ldots,s_{r}})$. In Section 3 we give a simple example of such construction for $\operatorname{ex}(n,K^{(r)}_{2,\ldots,2})$ which asymptotically matches (2) when $r\leq 4$.
 
 Combining Lemma 2.1 with (1), we also get the following Schwartz–Zippel type corollary, which may be of independent interest.
 
@@ -89,7 +89,7 @@ Now let us fix $a_{2},\ldots,a_{r}\in\mathbb{F}_{p^{r}}^{*}$. As $a_{1}$ runs ov
 **Theorem 3.2.** For any $r\geq 2$,
 
 $$
-\ex(n,K^{(r)}_{2,\ldots,2})=\Omega\left(n^{r-\frac{1}{r}}\right).
+\operatorname{ex}(n,K^{(r)}_{2,\ldots,2})=\Omega\left(n^{r-\frac{1}{r}}\right).
 $$
 
 *Proof.* Note that $x_{1}\cdots x_{r}$ is a maximal monomial of the polynomial $f$ from Lemma 3.1. Thus, due to Lemma 2.1, a hypergraph $H_{p}=H(f;\mathbb{F}_{p^{r}}^{*},r)$ with $r(p^{r}-1)$ vertices and $p^{r-1}(p^{r}-1)^{r-1}$ edges is free of copies of $K^{(r)}_{2,\ldots,2}$ for every prime $p$, which gives the desired bound. $\square$

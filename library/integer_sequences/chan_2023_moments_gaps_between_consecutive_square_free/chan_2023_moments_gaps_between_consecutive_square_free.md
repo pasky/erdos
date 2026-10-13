@@ -363,7 +363,7 @@ $$
 as $H\ll x^{1/5}\log x$. This implies
 
 $$
-\sum_K K S_{1a}(H,P,K)\ \mbox{satisfies (9) for }\ \gamma<3.8. \tag{22}
+\sum_K K S_{1a}(H,P,K)\ \text{satisfies (9) for }\ \gamma<3.8. \tag{22}
 $$
 
 ## 4 Proof of Theorem 1
@@ -399,7 +399,7 @@ $$
 by Proposition 2 with $r=5$. One can check that the above first upper bound is $<\frac{H}{192\gamma\log H}$ when $P\leq\frac{H^{15/8}}{x^{1/8}\log^2H}$, the second upper bound is $<\frac{H}{192\gamma\log H}$ when $P\leq\frac{H^{5/4}}{\log^2H}$, and the third upper bound is $<\frac{H}{192\gamma\log H}$ when $P\leq\frac{H^{3/4}x^{1/4}}{\log^2H}$. Hence, (8) holds unless
 
 $$
-P>\frac{H^{15/8}}{x^{1/8}\log^2H},\;\;\frac{H^{5/4}}{\log^2H}\;\;\mbox{or}\;\;\frac{H^{3/4}x^{1/4}}{\log^2H}. \tag{25}
+P>\frac{H^{15/8}}{x^{1/8}\log^2H},\;\;\frac{H^{5/4}}{\log^2H}\;\;\text{or}\;\;\frac{H^{3/4}x^{1/4}}{\log^2H}. \tag{25}
 $$
 
 If $P>\frac{H^{5/4}}{\log^2H}$, then $P\gg H^{(2\gamma-4)/3}\log^{7/3}H$ for $\gamma<3.875$. This would imply $S(H,P)$ satisfies (9), (10) or (11) by (12), (15), (22) and (13).

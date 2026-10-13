@@ -639,7 +639,7 @@ Our goal is, as in the previous case, to find many vertices of the same color cl
 
 We note that the minimality of $i$ implies that $v_{i+1}$ is the only vertex in $S_L$ not colored in its expected color. By Claim 4.9 and since $\varphi(v_i)=\varphi(v_{i+1})=c$, there are at most $2r$ vertices of color $c$ in $S_L$, and so at most $2r-1$ of expected color $c$. The set $S_L\cup S_R$ consists of $4m-3$ consecutive vertices, and so by Remark 4.5 at least $m-3$ of them have expected color $c$. Therefore, the set $S_R\setminus S_L$ contains at least $m-3-(2r-1)$ vertices of expected color $c$. Since $i\in S_L\cap S_R$ we can conclude that $S_R$ contains a set $S_c$ of at least $m-2r-1$ vertices of expected color $c$.
 
-Using Claim 4.9 and $\varphi(v_i)=\varphi(v_{i+1})=c$ we get that $S_R$ contains at most $2r$ vertices of color $c$. As $\varphi(v_{i+1})=c$ but $v_{i+1}\notin S_c$, we have that $S_c$ contains at most $2r-1$ vertices of color $c. Without loss of generality let us assume in the following that $i$ is even (the argument in the case when the parity of $i$ is odd is fully analogous, switching odd and even in the relevant places of the following argument). In particular, since $\varphi_e(v_i)=c$, it follows by our observation at the beginning of the proof about parities of vertices of a given expected color, that *all* vertices of expected color $c$ are even, so $c$ is an even color.
+Using Claim 4.9 and $\varphi(v_i)=\varphi(v_{i+1})=c$ we get that $S_R$ contains at most $2r$ vertices of color $c$. As $\varphi(v_{i+1})=c$ but $v_{i+1}\notin S_c$, we have that $S_c$ contains at most $2r-1$ vertices of color $c$. Without loss of generality let us assume in the following that $i$ is even (the argument in the case when the parity of $i$ is odd is fully analogous, switching odd and even in the relevant places of the following argument). In particular, since $\varphi_e(v_i)=c$, it follows by our observation at the beginning of the proof about parities of vertices of a given expected color, that *all* vertices of expected color $c$ are even, so $c$ is an even color.
 
 Let $c_1:=\varphi(v_{i-1})$ and note that $i-1$ is odd while all elements of $S_c$ are even. Therefore, at most $2r-1$ vertices in $S_c$ can have color $c_1$, for otherwise $\{v_{i-1}\}\cup S_c\subseteq S_R$ would contain more than $2r$ vertices of color $c_1$, not all of the same parity, contradicting Claim 4.9.
 
@@ -1052,8 +1052,8 @@ Taking the difference between (7) and (8) we obtain
 
 $$
 \begin{aligned}
-i-y&\in 2+\{-2m-1,-2m,-1,0,2m-1,2m\}+n_{k,m}\mathbb{Z} \tag{9}\\
-&=\{-2m+1,-2m+2,1,2,2m+1,2m+2\}+n_{k,m}\mathbb{Z}. \tag{10}
+i-y&\in 2+\{-2m-1,-2m,-1,0,2m-1,2m\}+n_{k,m}\mathbb{Z} \qquad (9)\\
+&=\{-2m+1,-2m+2,1,2,2m+1,2m+2\}+n_{k,m}\mathbb{Z}. \qquad (10)
 \end{aligned}
 $$
 

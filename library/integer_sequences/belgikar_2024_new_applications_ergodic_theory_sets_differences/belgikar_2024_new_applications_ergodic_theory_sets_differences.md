@@ -337,8 +337,8 @@ and let $f=\limsup_{N\rightarrow\infty}f_N$. Note that $0\leq f_N\leq 1$ for all
 
 $$
 \begin{aligned}
-\int 1_B\cdot f_N&=\int 1_B\cdot\frac{1}{N}\sum_{n=1}^{N}1_B\left(T^{[g(n)]}\right)=\frac{1}{N}\sum_{n=1}^{N}\int 1_B\cdot 1_B\left(T^{[g(n)]}\right) \tag{3.11}\\
-&=\frac{1}{N}\sum_{n=1}^{N}\int 1_B\cdot 1_{T^{-[g(n)]}B}=\frac{1}{N}\sum_{n=1}^{N}\mu(B\cap T^{-[g(n)]}B), \tag{3.12}
+\int 1_B\cdot f_N&=\int 1_B\cdot\frac{1}{N}\sum_{n=1}^{N}1_B\left(T^{[g(n)]}\right)=\frac{1}{N}\sum_{n=1}^{N}\int 1_B\cdot 1_B\left(T^{[g(n)]}\right) \qquad (3.11)\\
+&=\frac{1}{N}\sum_{n=1}^{N}\int 1_B\cdot 1_{T^{-[g(n)]}B}=\frac{1}{N}\sum_{n=1}^{N}\mu(B\cap T^{-[g(n)]}B), \qquad (3.12)
 \end{aligned}
 $$
 
@@ -370,8 +370,8 @@ exists almost everywhere, so there must be some $x_0\in B$ such that $f(x_0)\geq
 
 $$
 \begin{aligned}
-\lim_{N\to\infty}\frac{1}{N}\sum_{n=1}^{N}1_B(x_0)\cdot 1_B\left(T^{[g(n)]}(x_0)\right)&=1_B(x_0)\cdot\lim_{N\to\infty}f_N(x_0) \tag{3.17}\\
-&=\lim_{N\to\infty}f_N(x_0)=f(x_0)\geq\mu(B). \tag{3.18}
+\lim_{N\to\infty}\frac{1}{N}\sum_{n=1}^{N}1_B(x_0)\cdot 1_B\left(T^{[g(n)]}(x_0)\right)&=1_B(x_0)\cdot\lim_{N\to\infty}f_N(x_0) \qquad (3.17)\\
+&=\lim_{N\to\infty}f_N(x_0)=f(x_0)\geq\mu(B). \qquad (3.18)
 \end{aligned}
 $$
 

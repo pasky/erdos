@@ -46,7 +46,7 @@ $$
 
 <sup>¶</sup>School of Mathematics and Statistics, Xi’an Jiaotong University, Xi’an 710049, P. R. China. Email: tang_quanyu@163.com.
 
-Equivalently, writing $P$ for a configuration whose vertex set is $\{z_1,\ldots,z_n\}$, we assume $\diam(P)=2$ (if not, rescale it to have diameter $2$). This rescaling is essential: if we multiply all points by a factor $s>0$, then every distance $|z_i-z_j|$ scales by $s$, and therefore
+Equivalently, writing $P$ for a configuration whose vertex set is $\{z_1,\ldots,z_n\}$, we assume $\operatorname{diam}(P)=2$ (if not, rescale it to have diameter $2$). This rescaling is essential: if we multiply all points by a factor $s>0$, then every distance $|z_i-z_j|$ scales by $s$, and therefore
 
 $$
 \Delta(sz_1,\ldots,sz_n)=s^{n(n-1)}\Delta(z_1,\ldots,z_n),
@@ -82,7 +82,7 @@ Our objective couples all $\binom{n}{2}$ pairwise distances multiplicatively. Co
 
 It is instructive that even problems optimizing functionals that are simpler than $\Delta$ remain only partially understood. For instance, discrete isoperimetric and small-polygon questions related to perimeter, width, or area often require substantial geometric classification and, for specific $n$, heavy computational or symbolic assistance. Audet, Hansen and Messine [2] resolved the convex small octagon with maximum perimeter by combining geometric reasoning with interval-arithmetic-based global optimization. Audet et al. [1] treated small hexagons and heptagons for a sum-of-distances objective, again through nonconvex programs with a delicate global analysis. Audet, Hansen and
 
-[^1]: By translation invariance we may assume $z_1=0$, hence $|z_j|\leqslant 2$ for all $j$ and the feasible set is compact. Since $\Delta$ is continuous, the supremum is attained; moreover any maximizer must satisfy $\diam(P)=2$ by scaling.
+[^1]: By translation invariance we may assume $z_1=0$, hence $|z_j|\leqslant 2$ for all $j$ and the feasible set is compact. Since $\Delta$ is continuous, the supremum is attained; moreover any maximizer must satisfy $\operatorname{diam}(P)=2$ by scaling.
 
 Svrtan [3] used symbolic elimination to obtain exact algebraic characterizations in the octagonal area setting, but their methodology explicitly relies on an axial symmetry conjecture to make even this case tractable. Bingane [4] constructed families of convex small $n$-gons with $n = 2^s$ whose perimeters and widths are within high-order error of the (unknown) optima, and in doing so disproved a natural diameter-graph conjecture for $s\geqslant 4$. These works emphasize a common theme: even when the objective involves only a subset of distances or a lower-order functional, complete solutions quickly become case-dependent, and some of the sharpest statements remain conditional on symmetry assumptions or yield only near-optimal constructions for infinite families of $n$.
 
@@ -92,7 +92,7 @@ In our setting, these difficulties are amplified rather than alleviated: maximiz
 
 Our first contribution is a structural theorem restricting the diameter graph of an extremal configuration. Here the diameter graph is the graph on the vertex set where edges correspond to pairs at distance equal to the diameter. Diameter graphs of polygons have a rich history; for instance, Foster and Szabó [10] proved a conjecture of Graham by translating geometric extremality into strong combinatorial constraints on diameter graphs. In the present paper, we show that extremizers for $\Delta$ must have a constrained diameter-graph shape.
 
-**Theorem 1.** Let $P=\{z_1,\ldots,z_n\}\subset\mathbb{C}$ satisfy $\diam(P)\leqslant 2$ and attain $\Delta(P)=\Delta_{\max}(n)$. Then the diameter graph on vertex set $P$ is either unicyclic or a caterpillar.
+**Theorem 1.** Let $P=\{z_1,\ldots,z_n\}\subset\mathbb{C}$ satisfy $\operatorname{diam}(P)\leqslant 2$ and attain $\Delta(P)=\Delta_{\max}(n)$. Then the diameter graph on vertex set $P$ is either unicyclic or a caterpillar.
 
 Second, we provide explicit extremal and conjectured extremal constructions for small $n$ and extract numerical evidence about the values of $\overline{\Delta}(P)$ and the likely combinatorial types that occur at optimality. In Section 3, we present some extremal and conjectured extremal polygons for $3\leqslant n\leqslant 12$ and list the expected values of $\overline{\Delta}(P)$ for small (even) order $n$.
 
@@ -100,7 +100,7 @@ Third, motivated by the Erdős Problems Forum discussion of \#1045 [5], we addre
 
 From the complex nature of the constructions, we are convinced that determining the extremal polygon for even $n$ in general seems out of reach with current techniques. Still, the following theorem addresses a subquestion raised by Thomas Bloom[^2], may provide a good approximation to the limsup of $\overline{\Delta}$ over even values of $n$.
 
-**Theorem 2.** For every $n$ divisible by $6$, there exists a set $P=\{z_1,\ldots,z_n\}\subset\mathbb{C}$ with $\diam(P)\leqslant 2$ such that, as $n\to\infty$ along multiples of $6$,
+**Theorem 2.** For every $n$ divisible by $6$, there exists a set $P=\{z_1,\ldots,z_n\}\subset\mathbb{C}$ with $\operatorname{diam}(P)\leqslant 2$ such that, as $n\to\infty$ along multiples of $6$,
 
 $$
 \overline{\Delta}(P)\to C_*=\frac{3^{9/4}}{2^3}\exp\left(\frac{\pi^2-2\sqrt{3}\pi}{8}\right)\approx 1.304457.
@@ -128,7 +128,7 @@ We now summarize the organization of the paper and state the main conjectural pr
 
 Finally, we record a conjectural description of the maximizers suggested by our results and by computations for small values of $n$.
 
-**Conjecture 4.** Fix $n\geqslant 3$. Let $P=\{z_{1},\ldots,z_{n}\}\subset\mathbb{C}$ be an $n$-gon with $\diam(P)\leqslant 2$ that attains $\Delta(P)=\Delta_{\max}(n)$. Then:
+**Conjecture 4.** Fix $n\geqslant 3$. Let $P=\{z_{1},\ldots,z_{n}\}\subset\mathbb{C}$ be an $n$-gon with $\operatorname{diam}(P)\leqslant 2$ that attains $\Delta(P)=\Delta_{\max}(n)$. Then:
 
 (i) If $n$ is odd, $P$ is a regular $n$-gon.
 
@@ -511,7 +511,7 @@ Figure 4: Constructions for $n = 6$ and $n = 12$ assuming dihedral symmetry and 
 
 [[figure: Two diagrams labeled (a) $n=6$ and (b) $n=12$, showing labeled points connected by black and blue edges; the right diagram includes green and pink angle annotations.]]
 
-Since $\omega z_1,\omega z_2\in\widetilde{P}$ and $\diam(\widetilde{P})\leq 2$, we have
+Since $\omega z_1,\omega z_2\in\widetilde{P}$ and $\operatorname{diam}(\widetilde{P})\leq 2$, we have
 
 $$
 |z_1-\omega z_1|=\sqrt{3}\,z_1\leq 2,\qquad |z_2-\omega z_2|=\sqrt{3}\,|z_2|\leq 2,
@@ -732,7 +732,7 @@ We sketch first one way to conclude so. Set $\delta := \pi/n$. In triangle $B_kB
 
 Let $P$ be a regular $2n$-gon with center $B_i$ and radius $\cos(\delta/2)$, with one vertex equal to $B_{i+3k}$. Then all side lengths of $Y$ and $P$ are equal to $\sin\delta$. All internal angles of $P$ equal $\pi-\pi/n$, while the internal angles of $Y$ are bounded by $\pi-\pi/n$. From this, one can conclude that $Y$ lies completely within $P$.
 
-Since the above is true for every $1\leqslant i\leqslant 6k$, and the diameter of a convex polygon can be found among the distances between the vertices, we conclude that $\diam Y=\cos(\pi/2n)$. A detailed proof is deferred to Appendix B. $\square$
+Since the above is true for every $1\leqslant i\leqslant 6k$, and the diameter of a convex polygon can be found among the distances between the vertices, we conclude that $\operatorname{diam} Y=\cos(\pi/2n)$. A detailed proof is deferred to Appendix B. $\square$
 
 **Lemma 17.** *The ratio $\prod_{1\leqslant i,j\leqslant k}\frac{|B_{k-i}B_{k+j}|^2|B_{2k-i}B_{2k+j}|^2}{|A_{k-i}A_{k+j}|^2|A_{2k-i}A_{2k+j}|^2}$ converges to*
 
@@ -974,8 +974,10 @@ $$
 Given $\theta,\varphi\in\mathbb{R}$, choose $k\in\mathbb{Z}$ with $|\theta-(\varphi+2\pi k)|=d(\theta,\varphi)$. Using $2\pi$–periodicity of $g$,
 
 $$
-|g(\theta)-g(\varphi)|=|g(\theta)-g(\varphi+2\pi k)|\leqslant\frac{6}{\pi}|\theta-(\varphi+2\pi k)|=\frac{6}{\pi}d(\theta,\varphi).\qed
+|g(\theta)-g(\varphi)|=|g(\theta)-g(\varphi+2\pi k)|\leqslant\frac{6}{\pi}|\theta-(\varphi+2\pi k)|=\frac{6}{\pi}d(\theta,\varphi).
 $$
+
+$\square$
 
 #### 5.1.2 The perturbed $n$-gon for even $n$
 
@@ -1193,8 +1195,10 @@ $$
 By Lemma 25 the linear term vanishes. For the remainder, using $|R(u)|\leqslant \frac{2}{3}|u|^3$ and $|\rho_{ij}|\leqslant 4$,
 
 $$
-\left|\sum_{i\ne j}R(t_n\rho_{ij})\right|\leqslant\frac{2}{3}n(n-1)(4t_n)^3=O(n^2t_n^3)=O(1/n)\to 0.\qed
+\left|\sum_{i\ne j}R(t_n\rho_{ij})\right|\leqslant\frac{2}{3}n(n-1)(4t_n)^3=O(n^2t_n^3)=O(1/n)\to 0.
 $$
+
+$\square$
 
 ### 5.3 Limit of the quadratic term and evaluation of $J$
 
@@ -1729,8 +1733,8 @@ $$
 $$
 \begin{aligned}
 &-4\sin(c)^2\sin(b)^2\cos(r)^2\\
-&+\left(4\cos(b)^3\cos(c)\sin(c)\sin(b)-4\cos(b)^2\sin(c)^2\sin(b)^2+4\cos(b)\cos(c)^3\sin(c)\sin(b)\\
-&\qquad-4\cos(c)^2\sin(c)^2\sin(b)^2-8\cos(b)\cos(c)\sin(c)\sin(b)+8\sin(c)^2\sin(b)^2\right)\cos(r)\\
+&+\Bigl(4\cos(b)^3\cos(c)\sin(c)\sin(b)-4\cos(b)^2\sin(c)^2\sin(b)^2+4\cos(b)\cos(c)^3\sin(c)\sin(b)\\
+&\qquad-4\cos(c)^2\sin(c)^2\sin(b)^2-8\cos(b)\cos(c)\sin(c)\sin(b)+8\sin(c)^2\sin(b)^2\Bigr)\cos(r)\\
 &-4\cos(b)^3\cos(c)\sin(c)\sin(b)+4\cos(b)^2\sin(c)^2\sin(b)^2\\
 &-4\cos(b)\cos(c)^3\sin(c)\sin(b)-4\sin(c)^4\sin(b)^2+8\cos(b)\cos(c)\sin(c)\sin(b)
 \end{aligned}
@@ -1748,8 +1752,8 @@ $$
 
 $$
 \begin{aligned}
-h &:= (b,c)\mapsto-\left(2\cdot\cos(c)\cdot\cos(b)^3-2\cdot\sin(b)\cdot\sin(c)\cdot\cos(b)^2+2\\
-&\qquad\cdot(\cos(c)^3-2\cdot\cos(c))\cdot\cos(b)-2\cdot\sin(b)\cdot\sin(c)\cdot\cos(c)^2\right)\cdot\sin(b)\cdot\sin(c)
+h &:= (b,c)\mapsto-\bigl(2\cdot\cos(c)\cdot\cos(b)^3-2\cdot\sin(b)\cdot\sin(c)\cdot\cos(b)^2+2\\
+&\qquad\cdot(\cos(c)^3-2\cdot\cos(c))\cdot\cos(b)-2\cdot\sin(b)\cdot\sin(c)\cdot\cos(c)^2\bigr)\cdot\sin(b)\cdot\sin(c)
 \end{aligned}
 \tag{33}
 $$
@@ -1789,13 +1793,13 @@ $>\,\mathit{collect}(\mathit{expand}(g(b,c,r)),\cos(r))$
 
 $$
 \begin{aligned}
-&\left(\sin(c)\sqrt{3}\cos(c)\sin(b)^2+\sin(c)^2\sin(b)\sqrt{3}\cos(b)\\
-&\quad+\cos(c)^2\cos(b)^2-\sin(c)\cos(c)\sin(b)\cos(b)-1\right)\cos(r)^2\\
-&+\left(-3\cos(b)^4+\frac{7\cos(b)^2}{4}+4\cos(b)^4\cos(c)^2+4\cos(b)^2\cos(c)^4\\
+&\bigl(\sin(c)\sqrt{3}\cos(c)\sin(b)^2+\sin(c)^2\sin(b)\sqrt{3}\cos(b)\\
+&\quad+\cos(c)^2\cos(b)^2-\sin(c)\cos(c)\sin(b)\cos(b)-1\bigr)\cos(r)^2\\
+&+\Biggl(-3\cos(b)^4+\frac{7\cos(b)^2}{4}+4\cos(b)^4\cos(c)^2+4\cos(b)^2\cos(c)^4\\
 &\quad-8\cos(c)^2\cos(b)^2+\sqrt{3}\sin(b)\cos(b)^3-\frac{13\sin(b)\sqrt{3}\cos(b)}{4}+\sin(c)\sqrt{3}\cos(c)^3\\
 &\quad-\frac{13\sin(c)\sqrt{3}\cos(c)}{4}+2\sqrt{3}\sin(b)\cos(b)\cos(c)^2+8\sin(c)\cos(c)\sin(b)\cos(b)\\
 &\quad-4\sin(c)\cos(c)\sin(b)\cos(b)^3+2\sin(c)\sqrt{3}\cos(c)\cos(b)^2\\
-&\quad-4\sin(c)\cos(c)^3\sin(b)\cos(b)+\frac{5}{2}-3\cos(c)^4+\frac{7\cos(c)^2}{4}\right)\cos(r)\\
+&\quad-4\sin(c)\cos(c)^3\sin(b)\cos(b)+\frac{5}{2}-3\cos(c)^4+\frac{7\cos(c)^2}{4}\Biggr)\cos(r)\\
 &+\frac{9\sin(c)\sqrt{3}\cos(c)}{4}-\sqrt{3}\sin(b)\cos(b)^3+\frac{9\sin(b)\sqrt{3}\cos(b)}{4}\\
 &\quad-\sin(c)\sqrt{3}\cos(c)^3+4\sin(c)\cos(c)\sin(b)\cos(b)^3-\sin(c)\sqrt{3}\cos(c)\cos(b)^2\\
 &\quad+4\sin(c)\cos(c)^3\sin(b)\cos(b)-\sqrt{3}\sin(b)\cos(b)\cos(c)^2\\
@@ -1898,9 +1902,9 @@ $\displaystyle\texttt{>\,}\mathit{collect}(\mathit{expand}(g(b,c,r)),\cos(r))\,$
 
 $$
 \begin{aligned}
-&-\frac{\cos(r)^2}{4}+\left(\sin(b)\cos(b)\sin(c)\cos(c)-\sin(b)\cos(b)\sqrt{3}\cos(c)^2\right.\\
-&\left.\quad+\frac{\sqrt{3}\cos(b)\sin(b)}{2}-\sin(c)\cos(c)\sqrt{3}\cos(b)^2-\cos(c)^2\cos(b)^2\right.\\
-&\quad+\frac{\cos(b)^2}{2}+\frac{\sin(c)\sqrt{3}\cos(c)}{2}+\frac{\cos(c)^2}{2}-\frac{1}{4}\right)\cos(r)+\frac{\sin(b)^2}{2}\\
+&-\frac{\cos(r)^2}{4}+\Biggl(\sin(b)\cos(b)\sin(c)\cos(c)-\sin(b)\cos(b)\sqrt{3}\cos(c)^2\\
+&\quad+\frac{\sqrt{3}\cos(b)\sin(b)}{2}-\sin(c)\cos(c)\sqrt{3}\cos(b)^2-\cos(c)^2\cos(b)^2\\
+&\quad+\frac{\cos(b)^2}{2}+\frac{\sin(c)\sqrt{3}\cos(c)}{2}+\frac{\cos(c)^2}{2}-\frac{1}{4}\Biggr)\cos(r)+\frac{\sin(b)^2}{2}\\
 &-\sin(b)\cos(b)\sin(c)\cos(c)+\sin(b)\cos(b)\sqrt{3}\cos(c)^2-\frac{\sqrt{3}\cos(b)\sin(b)}{2}\\
 &\quad+\sin(c)\cos(c)\sqrt{3}\cos(b)^2+\cos(c)^2\cos(b)^2-\frac{\sin(c)\sqrt{3}\cos(c)}{2}-\frac{\cos(c)^2}{2}
 \end{aligned}
@@ -2021,18 +2025,18 @@ $$
 |f(x)-f(y)|\leqslant Ld(x,y)\qquad\text{for all }x,y\in\mathbb{R}, \tag{52}
 $$
 
-and we write $\Lip(f)$ for the smallest such $L$.
+and we write $\operatorname{Lip}(f)$ for the smallest such $L$.
 
 **Lemma 33.** If $f$ is $2\pi$–periodic and Lipschitz on the circle, then for every $N\geqslant 0$,
 
 $$
-\Lip\bigl(f^{(N)}\bigr)\leqslant\Lip(f).
+\operatorname{Lip}\bigl(f^{(N)}\bigr)\leqslant\operatorname{Lip}(f).
 $$
 
 *Moreover, for all $x,y\in\mathbb{R}$ with $d(x,y)>0$,*
 
 $$
-\left|\frac{f^{(N)}(x)-f^{(N)}(y)}{e^{ix}-e^{iy}}\right|\leqslant\frac{\pi}{2}\,\Lip(f),
+\left|\frac{f^{(N)}(x)-f^{(N)}(y)}{e^{ix}-e^{iy}}\right|\leqslant\frac{\pi}{2}\,\operatorname{Lip}(f),
 $$
 
 *uniformly in $N$.*
@@ -2040,10 +2044,10 @@ $$
 *Proof.* Since $K_N\geqslant 0$ and $\frac{1}{2\pi}\int_0^{2\pi}K_N(t)\,dt=1$, and since $d(x-t,y-t)=d(x,y)$, we have
 
 $$
-|f^{(N)}(x)-f^{(N)}(y)|\leqslant\frac{1}{2\pi}\int_0^{2\pi}|f(x-t)-f(y-t)|K_N(t)\,dt\leqslant\Lip(f)\,d(x,y),
+|f^{(N)}(x)-f^{(N)}(y)|\leqslant\frac{1}{2\pi}\int_0^{2\pi}|f(x-t)-f(y-t)|K_N(t)\,dt\leqslant\operatorname{Lip}(f)\,d(x,y),
 $$
 
-which implies $\Lip(f^{(N)})\leqslant\Lip(f)$. For $x\ne y$ we have $|e^{ix}-e^{iy}|=2\sin(d(x,y)/2)\geq 2d(x,y)/\pi$, and the quotient bound follows. $\square$
+which implies $\operatorname{Lip}(f^{(N)})\leqslant\operatorname{Lip}(f)$. For $x\ne y$ we have $|e^{ix}-e^{iy}|=2\sin(d(x,y)/2)\geq 2d(x,y)/\pi$, and the quotient bound follows. $\square$
 
 **Lemma 34.** Let $\rho(x,y)=\frac{f(x)-f(y)}{e^{ix}-e^{iy}}$ as in (14) and define
 
@@ -2065,7 +2069,7 @@ $$
 \rho_N(x,y)=\frac{f^{(N)}(x)-f^{(N)}(y)}{e^{ix}-e^{iy}}.
 $$
 
-By uniform convergence $f^{(N)}\to f$, we have $\rho_N(x,y)\to\rho(x,y)$ for every $x\ne y$. For our specific $f(x)=g(x)e^{ix}$, Lemma 20 implies $|g|\leq 1$ and $\Lip(g)\leq L$. Hence, for all $x,y\in\mathbb{R}$,
+By uniform convergence $f^{(N)}\to f$, we have $\rho_N(x,y)\to\rho(x,y)$ for every $x\ne y$. For our specific $f(x)=g(x)e^{ix}$, Lemma 20 implies $|g|\leq 1$ and $\operatorname{Lip}(g)\leq L$. Hence, for all $x,y\in\mathbb{R}$,
 
 $$
 |f(x)-f(y)|\leq|g(x)-g(y)|+|g(y)|\,|e^{ix}-e^{iy}|\leq Ld(x,y)+2\sin(d(x,y)/2)\leq(L+1)d(x,y),

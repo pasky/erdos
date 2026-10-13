@@ -153,7 +153,7 @@ PROPOSITION 2.2. *For every prime $p$ and positive integers $a, e,$*
 
 $$
 (2.3)\quad
-\sum'_{j=1}^{ap^e}\frac{1}{j}\equiv 0
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}\equiv 0
 \begin{cases}
 (\text{mod }2^{2e-2}), & p=2,\ e>1,\\
 (\text{mod }3^{2e-1}), & p=3,\\
@@ -165,7 +165,7 @@ $$
 
 $$
 (2.4)\quad
-\sum'_{j=1}^{ap^e}\frac{1}{j^2}\equiv 0
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}\equiv 0
 \begin{cases}
 (\text{mod }2^{e-1}), & p=2,\ e>1,\\
 (\text{mod }3^{e-1}), & p=3,\ e>1,\\
@@ -177,7 +177,7 @@ $$
 
 $$
 (2.5)\quad
-\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}\equiv 0
+\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}\equiv 0
 \begin{cases}
 (\text{mod }2^{e-2}), & p=2,\ e>2,\\
 (\text{mod }3^{e-1}), & p=3,\\
@@ -191,10 +191,10 @@ $$
 
 $$
 \begin{aligned}
-\sum'_{j=1}^{ap^e}\frac{1}{j^2}
-&\equiv a\sum'_{j=1}^{p^e}\frac{1}{j^2}
-\equiv a\sum'_{j=1}^{p^e}j^2
-= a\left(\sum'_{j=1}^{p^e}j^2-\sum_{j=1}^{p^{e-1}}(pj)^2\right)\\
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}
+&\equiv a\mathop{{\sum}'}\limits_{j=1}^{p^e}\frac{1}{j^2}
+\equiv a\mathop{{\sum}'}\limits_{j=1}^{p^e}j^2
+= a\left(\sum_{j=1}^{p^e}j^2-\sum_{j=1}^{p^{e-1}}(pj)^2\right)\\
 &=\frac{a}{6}\left[p^e(p^e+1)(2p^e+1)-p^{e+1}(p^{e-1}+1)(2p^{e-1}+1)\right].
 \end{aligned}
 $$
@@ -204,16 +204,16 @@ Now the expression inside the brackets is clearly divisible by $p^e$. As the ini
 (1) We have
 
 $$
-\sum'_{j=1}^{ap^e}\frac{1}{j}
-=\frac{1}{2}\sum'_{j=1}^{ap^e}\left(\frac{1}{j}+\frac{1}{ap^e-j}\right)
-=\frac{ap^e}{2}\sum'_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}.
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}
+=\frac{1}{2}\mathop{{\sum}'}\limits_{j=1}^{ap^e}\left(\frac{1}{j}+\frac{1}{ap^e-j}\right)
+=\frac{ap^e}{2}\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}.
 $$
 
 Now
 
 $$
-\sum'_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}
-=\sum'_{j=1}^{ap^e}\frac{-1}{j^2}\pmod{p^e},
+\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j(ap^e-j)}
+\equiv\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{-1}{j^2}\pmod{p^e},
 $$
 
 so that, along with (2.4), we obtain (2.3).
@@ -221,8 +221,8 @@ so that, along with (2.4), we obtain (2.3).
 (3) We have
 
 $$
-\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}
-=\frac{1}{2}\left[\left(\sum'_{j=1}^{ap^e}\frac{1}{j}\right)^2-\sum'_{j=1}^{ap^e}\frac{1}{j^2}\right],
+\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}
+=\frac{1}{2}\left[\left(\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}\right)^2-\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j^2}\right],
 $$
 
 which implies (2.5).
@@ -232,7 +232,7 @@ which implies (2.5).
 $$
 \binom{4a}{2a}
 =\prod_{j=1}^{2a}\frac{2a+j}{j}
-=\prod_{k=1}^{a}\frac{2a+2k}{2k}\prod'_{j=1}^{2a}\left(1+2\frac{a}{j}\right)
+=\prod_{k=1}^{a}\frac{2a+2k}{2k}\mathop{{\prod}'}\limits_{j=1}^{2a}\left(1+2\frac{a}{j}\right)
 =\binom{2a}{a}(1+2S),
 $$
 
@@ -242,9 +242,9 @@ $$
 \begin{aligned}
 \binom{2ap^e}{ap^e}
 &=\prod_{j=1}^{ap^e}\frac{ap^e+j}{j}
-=\prod_{k=1}^{ap^{e-1}}\frac{ap^e+kp}{kp}\prod'_{j=1}^{ap^e}\frac{2ap^e-j}{j}\\
-&=\binom{2ap^{e-1}}{ap^{e-1}}\prod'_{j=1}^{ap^e}\left(-1+2ap^e\cdot\frac{1}{j}\right)\\
-&=\binom{2ap^{e-1}}{ap^{e-1}}\cdot\left[1-2ap^e\sum'_{j=1}^{ap^e}\frac{1}{j}+4a^2p^{2e}\sum'_{1\leq j<k\leq ap^e}\frac{1}{jk}+p^{3e}S\right],
+=\prod_{k=1}^{ap^{e-1}}\frac{ap^e+kp}{kp}\mathop{{\prod}'}\limits_{j=1}^{ap^e}\frac{2ap^e-j}{j}\\
+&=\binom{2ap^{e-1}}{ap^{e-1}}\mathop{{\prod}'}\limits_{j=1}^{ap^e}\left(-1+2ap^e\cdot\frac{1}{j}\right)\\
+&=\binom{2ap^{e-1}}{ap^{e-1}}\cdot\left[1-2ap^e\mathop{{\sum}'}\limits_{j=1}^{ap^e}\frac{1}{j}+4a^2p^{2e}\mathop{{\sum}'}\limits_{1\leq j<k\leq ap^e}\frac{1}{jk}+p^{3e}S\right],
 \end{aligned}
 $$
 

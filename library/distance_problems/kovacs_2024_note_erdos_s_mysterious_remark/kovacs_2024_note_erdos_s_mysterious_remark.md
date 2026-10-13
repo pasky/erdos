@@ -191,17 +191,17 @@ $$
 
 A geometric realization of the obtained points can be seen in Figure 1.
 
-In Figure 2 we identify that $A_1$ and $A_2$ together with 3 additional points may form a set like a \dice{5}. This affects 9 points that cover 5 sets (some points are covered twice).
+In Figure 2 we identify that $A_1$ and $A_2$ together with 3 additional points may form a set like a ⚄. This affects 9 points that cover 5 sets (some points are covered twice).
 
 The remaining 24 points can be classified into 6 sets. Each set consists of 4 points plus $A_1$ and $A_2$: they appear as 5 vertices of a regular pentagon with the center. The sets are shown in Figure 3.
 
-Now, we have found all possible solutions if $\left|S^{\prime}\right|=5$: either a \dice{5} shape or a subset of a pentagram with its center.
+Now, we have found all possible solutions if $\left|S^{\prime}\right|=5$: either a ⚄ shape or a subset of a pentagram with its center.
 
 **Figure 1:** A geometric realization of the obtained 33 points.
 
 [[figure: Coordinate-plane plot with a grid, axes, green points, and blue points labeled $A_1$ and $A_2$.]]
 
-**Figure 2:** Configurations with a $\dice{5}$ shape.
+**Figure 2:** Configurations with a ⚄ shape.
 
 [[figure: Coordinate-plane plot with the points and selected points highlighted in cyan, yellow, red, magenta, and orange.]]
 
@@ -289,7 +289,7 @@ Hence, by running the following Giac code, we get a quick answer:
     r4:=x3^5+2*x3^3*y3^2+x3*y3^4-10*x3^3-6*x3*y3^2+9*x3
     ei:=eliminate([p1,p5,p6,p7,p11,p12,p13,p17,p18,p19,q1*q5*q9*q10*q11*t-1,r1,r2,r3,r4],[t])
 
-The answer is $\langle 1\rangle$, and this means that there is no solution (the system is contradictory), that is, the $\dice{5}$ shape cannot be extended with a 6th point to fulfill the requirements of Problem E 735. Only the originally stated configuration is possible.
+The answer is $\langle 1\rangle$, and this means that there is no solution (the system is contradictory), that is, the ⚄ shape cannot be extended with a 6th point to fulfill the requirements of Problem E 735. Only the originally stated configuration is possible.
 
 Clearly, by considering the configuration with the regular pentagon and its center, it is impossible to add a 7th point such that for any of its triplets form isosceles triangles. A simple argument why this is impossible: Consider a set $\hat{S}$ with 7 points that satisfies the requirements. Then for any 6-point subsets $S_1 \subset \hat{S}$ and $S_2 \subset \hat{S}$ we have a regular pentagon with its center (perhaps they are different). Now, $S_1$ and $S_2$ are identical, except for at most one point. This means that at least 5 points of them are identical. At least 4 of these points are vertices of the same regular pentagon, so they are adjacent vertices. Then the remaining 2 points of the 6-point subset must be the 5th vertex of the pentagon and its center, therefore $S_1=S_2$ and $\hat{S}=S_1=S_2$. But in this case $|\hat{S}|=6<7$.
 
@@ -302,7 +302,7 @@ Now we address the remark of \#91. The statement is:
 > Suppose $A \subset \mathbb{R}^{2}$ has $\left|A\right|=n$ and minimizes the number of distinct distances between points in $A$.  
 > Prove that for large $n$ there are at least two (and probably many) such $A$ which are non-similar.
 
-In the remark, Erdős states that for $n=5$ the regular pentagon is the unique such set. Now, let us assume that there is another 5-point set $B$ such that the number of distinct distances between points is 2. This means that each triplet in $B$ must be isosceles. Since we proved that the only options for $B$ are the $\dice{5}$ shape and a 5-point subset of the union of a regular pentagon and its center, we only have to check these two options:
+In the remark, Erdős states that for $n=5$ the regular pentagon is the unique such set. Now, let us assume that there is another 5-point set $B$ such that the number of distinct distances between points is 2. This means that each triplet in $B$ must be isosceles. Since we proved that the only options for $B$ are the ⚄ shape and a 5-point subset of the union of a regular pentagon and its center, we only have to check these two options:
 
 1. For the case of the [[figure: square containing five dots]] shape, the number of distinct distances is 3: if the side of the square is 1, then there are distances $\frac{\sqrt{2}}{2}$, 1 and $\sqrt{2}$.
 

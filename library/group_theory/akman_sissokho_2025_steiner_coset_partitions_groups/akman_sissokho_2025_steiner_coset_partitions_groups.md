@@ -399,7 +399,7 @@ $$
 **Proof** By linearity of the map $J \mapsto xJ + J'$, it suffices to show that the kernel of this map is trivial. Suppose that $xJ = -J'$. If $x = 0$, we are done. If $x \neq 0$, then we can show by induction on $k$, for $1 \leq k \leq n-2$, that
 
 $$
-j_1 = 0,\quad j_2 = 0,\ldots, j_{n-2} = 0. \hfill\blacksquare
+j_1 = 0,\quad j_2 = 0,\ldots, j_{n-2} = 0. \quad\blacksquare
 $$
 
 **Proposition 4.12** Let $n \geq 3$, $p$ be a prime, and $G = C_p^n = \langle a_1 \rangle \times \cdots \times \langle a_n \rangle \cong \mathbb{F}_p^n$. Let $t = 1 \in \mathbb{F}_2$ if $p = 2$, and for $p > 2$, let $t$ be any element of the nonempty set

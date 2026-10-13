@@ -309,7 +309,7 @@ In order to help illustrate the problem, Figure 4 depicts one of the maximal UDG
 **Algorithm 2** Diverse backtracking beam search. Where $B$ is the UDG beam, $L$ is the indices of the  
 highest edge count UDGs in $B$, $M$ contains the maximum old scores, and $O$ contains those edge counts.
 
-**procedure** $\textsc{Backward}(B,L,M,O)$
+**procedure** $\text{Backward}(B,L,M,O)$
 
 $\mathscr{B},\mathscr{L},\mathscr{M},\mathscr{O}\leftarrow\{B\},\{L\},\{M\},\{O\}$ $\triangleright$ Initialize lists with current values  
 $PB,PL,PM,PO\leftarrow B,L,MO$ $\triangleright$ Initialize parents with current values  
@@ -318,7 +318,7 @@ $PB,PL,PM,PO\leftarrow$ Parent values associated with $PB$
 **break** if $PB$ is empty or the vertex counts are $\leq 4$  
 $\mathscr{B},\mathscr{L},\mathscr{M},\mathscr{O}\leftarrow\mathscr{B}\cup\{PB\},\mathscr{L}\cup\{PL\},\mathscr{M}\cup\{PM\},\mathscr{O}\cup\{PO\}$ $\triangleright$ Temporally ordered lists  
 **break** if $PM_{PL_{1_1}}<T_{\dim(PB_1)}$ $\triangleright$ $T$ is the list of highest edge counts at each vertex  
-$C,H\leftarrow\textsc{Canonization}(PB_{PL})$ $\triangleright$ The indices of $PB$ from $PL$  
+$C,H\leftarrow\text{Canonization}(PB_{PL})$ $\triangleright$ The indices of $PB$ from $PL$  
 **break** if all visitation counts of $C$ are not 0  
 **end while**
 
@@ -330,11 +330,11 @@ $check\leftarrow$ False
 **if** $\#CB=0\lor\dim(CB_0)\leq 6$ **then continue**  
 **else if** $CM_{CL_{11}}>M_{L_{11}}$ **then** $check\leftarrow$ True  
 **else if** $CM_{CL_{11}}=T_{\dim(CB_1)}$ **then**  
-$C,H\leftarrow\textsc{Canonization}(CB_{CL})$ $\triangleright$ The indices of $CB$ from $CL$  
+$C,H\leftarrow\text{Canonization}(CB_{CL})$ $\triangleright$ The indices of $CB$ from $CL$  
 $check\leftarrow$ at least one zero visitation count in $C$  
 **end if**  
 **if** $check$ **then**  
-$GB,GL,GM,GO\leftarrow\textsc{Backward}(CB,CL,CM,CO)$ $\triangleright$ Recursive step  
+$GB,GL,GM,GO\leftarrow\text{Backward}(CB,CL,CM,CO)$ $\triangleright$ Recursive step  
 $check\leftarrow\#GB=0$  
 **end if**  
 $AO,AM\leftarrow O\cup CO\cup GO,M\cup CM\cup GM$  

@@ -112,7 +112,7 @@ for a sufficiently large constant $C$. As noted in Tao and Teräväinen (2025), 
 To prove (2.1), we construct $\mathbf{n}$ by weighting the uniform distribution on $[x,2x]$ with a product of independent Selberg-type sieves. Specifically, we choose $n\in[x,2x]$ with probability proportional to
 
 $$
-w(n)\coloneqq\mathds{1}_{p\mid n\,\forall p\leq 0.15\log x}\prod_{k=1}^{K}w_{R_k}(n+k)^2,
+w(n)\coloneqq\mathbb{1}_{p\mid n\,\forall p\leq 0.15\log x}\prod_{k=1}^{K}w_{R_k}(n+k)^2,
 $$
 
 where $w_{R_k}(n+k)$ are sieve weights of Goldston–Pintz–Yıldırım type and $K=(\log x)^{1/1000}$. Morally, these weights act as a proxy for the indicator function that $n+k$ has no prime factors less than the sieve level $R_k$.
@@ -211,11 +211,11 @@ $$
 $$
 
 $$
-\mathbb{P}\left(\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\geq C_1\log k\right)\ll\frac{1}{C_2^2k^2}, \tag{5.3}
+\mathbb{P}\left(\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\geq C_1\log k\right)\ll\frac{1}{C_2^2k^2}, \tag{5.3}
 $$
 
 $$
-\mathbb{P}\left(\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)\ll\frac{1}{C_2^2k^2}, \tag{5.4}
+\mathbb{P}\left(\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)\ll\frac{1}{C_2^2k^2}, \tag{5.4}
 $$
 
 $$
@@ -230,10 +230,10 @@ $$
 \begin{aligned}
 \Omega(\mathbf{n}+k)\leq{}&
 \sum_{\substack{p\leq w\\p^4\nmid k}}\nu_p(\mathbf{n}+k)
-+\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}
-+\sum_{R_k<p\leq T}\mathds{1}_{p\mid\mathbf{n}+k}
++\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}
++\sum_{R_k<p\leq T}\mathbb{1}_{p\mid\mathbf{n}+k}
 +11A\log k\\
-&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}
+&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}
 +\sum_{\substack{p\leq w\\p^4\mid k}}\nu_p(\mathbf{n}+k)
 \end{aligned}
 $$
@@ -264,9 +264,9 @@ where for any real number $y$, we denote $(y)_+ = \max\{y,0\}$. Altogether, this
 $$
 \begin{aligned}
 \Omega(\mathbf{n}+k)\leq{}&
-\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}
-+\sum_{R_k<p\leq T}\mathds{1}_{p\mid\mathbf{n}+k}+(12A+2)\log k\\
-&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}
+\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}
++\sum_{R_k<p\leq T}\mathbb{1}_{p\mid\mathbf{n}+k}+(12A+2)\log k\\
+&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}
 +\sum_{\substack{p\leq w\\p^4\mid k}}(\nu_p(\mathbf{n}+k)-\nu_p(k))_+,
 \end{aligned}
 $$
@@ -275,7 +275,7 @@ under the condition that $p^4\mid\mathbf{n}$ for every prime $p\leq w$. For the 
 
 $$
 \omega_{R_k<\cdot\leq T}(\mathbf{n}+k)
-=\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
+=\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
 +\sum_{R_k<p\leq T}\frac{1}{p}.
 $$
 
@@ -305,10 +305,10 @@ Therefore, we have
 $$
 \begin{aligned}
 \Omega(\mathbf{n}+k)\leq{}&
-\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}
-+\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
+\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}
++\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
 +(12A+1002)\log k\\
-&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}
+&+\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}
 +\sum_{\substack{p\leq w\\p^4\mid k}}(\nu_p(\mathbf{n}+k)-\nu_p(k))_+,
 \end{aligned}
 \tag{5.6}
@@ -323,9 +323,9 @@ $$
 Note that $\Omega(\mathbf{n}+k)>C\log k$ implies
 
 $$
-\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}
-+\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
-+\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}
+\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}
++\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)
++\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}
 +\sum_{\substack{p\leq w\\p^4\mid k}}(\nu_p(\mathbf{n}+k)-\nu_p(k))_+
 >4C_1\log k,
 $$
@@ -366,15 +366,15 @@ $$
 *Then one can construct a random variable $\mathbf{n}$ taking values in the interval $[x,2x]$ such that, with probability 1, the integer $\mathbf{n}$ is divisible by $p^4$ for every prime $p\leq w$. Moreover, the following additional properties hold for some constant $C_3\geq 3$:*
 
 $$
-\mathbb{E}\left|\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}\right|^{s_1}\ll(2C_3s_1)^{s_1},\tag{5.7}
+\mathbb{E}\left|\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}\right|^{s_1}\ll(2C_3s_1)^{s_1},\tag{5.7}
 $$
 
 $$
-\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}\ll(132A\log k)^{2s_2},\tag{5.8}
+\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}\ll(132A\log k)^{2s_2},\tag{5.8}
 $$
 
 $$
-\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\ll\left(\max\left\{4e^2C_3,968\left(\frac{A\log k}{s_3}\right)^2\right\}s_3\right)^{s_3},\tag{5.9}
+\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\ll\left(\max\left\{4e^2C_3,968\left(\frac{A\log k}{s_3}\right)^2\right\}s_3\right)^{s_3},\tag{5.9}
 $$
 
 $$
@@ -422,13 +422,13 @@ $$
 for $C_1\geq8eC_3$. To prove (5.3), we choose $s_2=\left\lceil\log(C_2k)\right\rceil$, and using (5.8) we have
 
 $$
-\mathbb{P}\left(\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\geq C_1\log k\right)\leq\frac{\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}}{(C_1\log k)^{2s_2}}\ll\left(\frac{132A}{C_1}\right)^{2s_2}\leq\frac{1}{C_2^2k^2}
+\mathbb{P}\left(\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\geq C_1\log k\right)\leq\frac{\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}}{(C_1\log k)^{2s_2}}\ll\left(\frac{132A}{C_1}\right)^{2s_2}\leq\frac{1}{C_2^2k^2}
 $$
 
 for $C_1\geq132Ae$. To prove (5.4), we use (5.9) to get
 
 $$
-\mathbb{P}\left(\sum_{j\geq2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)\ll\frac{\left(\max\left\{4e^2C_3,968\left(\frac{A\log k}{s_3}\right)^2\right\}s_3\right)^{s_3}}{(C_1\log k)^{s_3}}.
+\mathbb{P}\left(\sum_{j\geq2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)\ll\frac{\left(\max\left\{4e^2C_3,968\left(\frac{A\log k}{s_3}\right)^2\right\}s_3\right)^{s_3}}{(C_1\log k)^{s_3}}.
 $$
 
 We choose
@@ -447,7 +447,7 @@ we have $A\log k/s_3\geq\sqrt{e^2C_3/242}$, which implies
 
 $$
 \begin{aligned}
-\mathbb{P}\left(\sum_{j\geq2}\sum_{w<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)&\ll\left(\frac{968A^2\log k}{s_3C_1}\right)^{s_3}\\
+\mathbb{P}\left(\sum_{j\geq2}\sum_{w<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}\geq C_1\log k\right)&\ll\left(\frac{968A^2\log k}{s_3C_1}\right)^{s_3}\\
 &\leq\left(\frac{2000A\log C_2}{C_1\log 2}\sqrt{\frac{e^2C_3}{242}}\right)^{s_3}\\
 &\leq(C_2k)^{\frac{A\log 2}{2\log C_2}\sqrt{\frac{242}{e^2C_3}}\log\left(\frac{2000A\log C_2}{C_1\log 2}\sqrt{\frac{e^2C_3}{242}}\right)},
 \end{aligned}
@@ -557,11 +557,11 @@ Here all implied constants are absolute and independent of $A$.
 *Proof of Lemma 5.3 using Proposition 5.5.* We first prove (5.7). Since there are no primes satisfying $w<p\leq R_k$ if $K<k\leq K_+$, it suffices to assume $k\leq K$. Expanding, we get
 
 $$
-\mathbb{E}\left|\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}\right|^{s_1}
+\mathbb{E}\left|\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}\right|^{s_1}
 =
 \mathbb{E}\left[
 \sum_{w<p_1,\ldots,p_{s_1}\leq R_k}
-\mathds{1}_{p_1\mid\mathbf{n}+k}\cdots\mathds{1}_{p_{s_1}\mid\mathbf{n}+k}
+\mathbb{1}_{p_1\mid\mathbf{n}+k}\cdots\mathbb{1}_{p_{s_1}\mid\mathbf{n}+k}
 \right].
 $$
 
@@ -569,14 +569,14 @@ For each $1\leq j\leq s_1$, the number of terms above with exactly $j$ distinct 
 
 $$
 \sum_{\substack{w<p_1,\ldots,p_j\leq R_k\\ p_i\text{ mutually distinct}}}
-\mathds{1}_{p_1\mid\mathbf{n}+k}\cdots\mathds{1}_{p_j\mid\mathbf{n}+k}.
+\mathbb{1}_{p_1\mid\mathbf{n}+k}\cdots\mathbb{1}_{p_j\mid\mathbf{n}+k}.
 $$
 
 Therefore, by Lemma 5.4 and Proposition 5.5(C), we have
 
 $$
 \begin{aligned}
-\mathbb{E}\left|\sum_{w<p\leq R_k}\mathds{1}_{p\mid\mathbf{n}+k}\right|^{s_1}
+\mathbb{E}\left|\sum_{w<p\leq R_k}\mathbb{1}_{p\mid\mathbf{n}+k}\right|^{s_1}
 &\ll\left(\frac{s_1}{\log s_1}\right)^{s_1}
 \sum_{j=1}^{s_1}
 \sum_{\substack{w<p_1,\ldots,p_j\leq R_k\\
@@ -589,7 +589,7 @@ $$
 We now prove (5.8). From Proposition 5.5(B), we have
 
 $$
-\left|\mathbb{E}\prod_{i=1}^{j}\mathds{1}_{p_i\mid\mathbf{n}+k}\right|
+\left|\mathbb{E}\prod_{i=1}^{j}\mathbb{1}_{p_i\mid\mathbf{n}+k}\right|
 \ll\frac{8^{2s_2}}{[p_1,\ldots,p_j]},
 $$
 
@@ -597,13 +597,13 @@ and since $\sum_{R_k<p\leq T}1/p<1000\log k$, we have
 
 $$
 \begin{aligned}
-\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathds{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}
+\mathbb{E}\left|\sum_{R_k<p\leq T}\left(\mathbb{1}_{p\mid\mathbf{n}+k}-\frac{1}{p}\right)\right|^{2s_2}
 &\leq\sum_{R_k<p_1,\ldots,p_{2s_2}\leq T}
-\mathbb{E}\prod_{i=1}^{2s_2}\left(\mathds{1}_{p_i\mid\mathbf{n}+k}-\frac{1}{p_i}\right)\\
+\mathbb{E}\prod_{i=1}^{2s_2}\left(\mathbb{1}_{p_i\mid\mathbf{n}+k}-\frac{1}{p_i}\right)\\
 &\leq\sum_{j=0}^{2s_2}\binom{2s_2}{j}
 \sum_{R_k<p_1,\ldots,p_{2s_2}\leq T}
 \frac{1}{p_{j+1}\cdots p_{2s_2}}
-\left|\mathbb{E}\prod_{i=1}^{j}\mathds{1}_{p_i\mid\mathbf{n}+k}\right|\\
+\left|\mathbb{E}\prod_{i=1}^{j}\mathbb{1}_{p_i\mid\mathbf{n}+k}\right|\\
 &\ll s_2 16^{2s_2}
 \sum_{R_k<p_1,\ldots,p_{2s_2}\leq T}
 \frac{1}{[p_1,\ldots,p_{2s_2}]}\\
@@ -625,10 +625,10 @@ $$
 where Lemma 5.4 in the last line, and $m^j \leq e^jm!/(m-j)!$ for all integers $m \geq 3j/2$ in the second to last line. To prove (5.9), we assume $k \leq K_+$ and split the primes into ranges $p\leq w$, $w<p\leq R_k$, and $R_k<p\leq T$. We begin with the contribution of primes with $R_k<p\leq T$. We have
 
 $$
-\mathbb{E}\left|\sum_{\substack{j\geq 2\\R_k<p\leq T}}\mathds{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}
+\mathbb{E}\left|\sum_{\substack{j\geq 2\\R_k<p\leq T}}\mathbb{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}
 =\sum_{\substack{j_1,\ldots,j_{s_3}\geq 2\\
 R_k<p_i\leq T\ \forall 1\leq i\leq s_3}}
-\mathbb{E}\left[\mathds{1}_{p_1^{j_1}\mid\mathbf{n}+k}\cdots\mathds{1}_{p_{s_3}^{j_{s_3}}\mid\mathbf{n}+k}\right].
+\mathbb{E}\left[\mathbb{1}_{p_1^{j_1}\mid\mathbf{n}+k}\cdots\mathbb{1}_{p_{s_3}^{j_{s_3}}\mid\mathbf{n}+k}\right].
 $$
 
 By grouping terms depending on the number of distinct primes amongst $p_1,\ldots,p_{s_3}$, this equals
@@ -656,7 +656,7 @@ S_i\ne\emptyset\ \forall 1\leq i\leq r\\
 \mathbb{P}\left(p_1^{j_1}\cdots p_r^{j_r}\mid\mathbf{n}+k\right)\\
 &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 {}\times\sum_{j'_1,\ldots,j'_{s_3}\geq 2}
-\mathds{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}.
+\mathbb{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}.
 \end{aligned}
 $$
 
@@ -676,7 +676,7 @@ j_1^{|S_1|}\cdots j_r^{|S_r|}
 {p_1^{j_1-1}\cdots p_r^{j_r-1}}\\
 &\qquad\qquad\qquad\qquad\qquad
 {}+x^{-0.1}\sum_{j'_1,\ldots,j'_{s_3}\geq 2}
-\mathds{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}
+\mathbb{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}
 \Bigg)
 \end{aligned}
 \tag{5.13}
@@ -696,7 +696,7 @@ S_i\ne\emptyset\ \forall 1\leq i\leq r\\
 8^{s_3}\frac{j_1^{|S_1|}\cdots j_r^{|S_r|}}
 {p_1^{j_1}\cdots p_r^{j_r}}
 +x^{-0.1}\sum_{j'_1,\ldots,j'_{s_3}\geq 2}
-\mathds{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}
+\mathbb{1}_{j_i=\max_{t_i\in S_i}j'_{t_i}\ \forall 1\leq i\leq r}
 \right).
 \end{aligned}
 \tag{5.14}
@@ -988,7 +988,7 @@ $$
 Combining the two estimates, we conclude that
 
 $$
-\mathbb{E}\left|\sum_{j\geq 2}\sum_{R_k<p\leq T}\mathds{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\ll\left(\frac{968A^2(\log k)^2}{s_3}\right)^{s_3},
+\mathbb{E}\left|\sum_{j\geq 2}\sum_{R_k<p\leq T}\mathbb{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\ll\left(\frac{968A^2(\log k)^2}{s_3}\right)^{s_3},
 $$
 
 if $x$ is sufficiently large.
@@ -997,7 +997,7 @@ To establish (5.9), we establish an analogous bound for the primes $w < p \leq R
 
 $$
 \begin{aligned}
-&\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq R_k}\mathds{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\\
+&\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq R_k}\mathbb{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\\
 &\ll\sum_{r=1}^{s_3}\sum_{\substack{j_1,\ldots,j_r\geq 2\\
 w<p_1,\ldots,p_r\leq R_k\\
 p_1^{j_1}\cdots p_r^{j_r}\leq 3x\\
@@ -1010,7 +1010,7 @@ S_i\ne\varnothing\ \forall 1\leq i\leq r\\
 {p_1^{j_1-1}\cdots p_r^{j_r-1}}\\
 &\hspace{190.00029pt}
 +x^{-0.1}\sum_{j_1',\ldots,j_{s_3}'\geq 2}
-\mathds{1}_{j_i=\max_{t_i\in S_i}j_{t_i}'\ \forall 1\leq i\leq r}\Bigg).
+\mathbb{1}_{j_i=\max_{t_i\in S_i}j_{t_i}'\ \forall 1\leq i\leq r}\Bigg).
 \end{aligned}
 $$
 
@@ -1018,7 +1018,7 @@ As before, the $x^{-0.1}$ term contributes $O((968A^2(\log k)^2/s_3)^{s_3})$. Re
 
 $$
 \begin{aligned}
-&\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq R_k}\mathds{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\\
+&\mathbb{E}\left|\sum_{j\geq 2}\sum_{w<p\leq R_k}\mathbb{1}_{p^j\mid\mathbf{n}+k}\right|^{s_3}\\
 &\ll\sum_{r=1}^{s_3}\sum_{j_1,\ldots,j_r\geq 2}\sum_{\substack{S_1\sqcup\cdots\sqcup S_r=\{1,\ldots,s_3\}\\
 S_i\neq\emptyset\ \forall 1\leq i\leq r\\
 \min S_{i-1}<\min S_i\ \forall 2\leq i\leq r}}
@@ -1199,7 +1199,7 @@ $$
 We will use the sieve weight
 
 $$
-\nu(n)=\mathds{1}_{n\in[x,2x]}\mathds{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\begin{subarray}{c}(d,P(w))=1\\
+\nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\begin{subarray}{c}(d,P(w))=1\\
 d\mid n+k\end{subarray}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2
 $$
 
@@ -1239,11 +1239,11 @@ $$
 and let $d_\ast=p_1\cdots p_j$. Recall the sieve weight
 
 $$
-\nu(n)=\mathds{1}_{n\in[x,2x]}\mathds{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\
+\nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\
 d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
 $$
 
-and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathds{1}_{d_\ast\mid n+k_\ast}$. Then for some constant $c'>0$, $P_{k_\ast}(d_\ast)$ may be written
+and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}$. Then for some constant $c'>0$, $P_{k_\ast}(d_\ast)$ may be written
 
 $$
 \begin{aligned}
@@ -1270,7 +1270,7 @@ $$
 To compute $P_{k_\ast}(d_\ast)$, we expand it as
 
 $$
-\sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\sum_{\substack{n\in[x,2x]\\ W\mid n}}\mathds{1}_{d_\ast\mid n+k_\ast}\prod_{k=1}^{K}\mathds{1}_{[d_k,d'_k]\mid n+k}. \tag{6.3}
+\sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\sum_{\substack{n\in[x,2x]\\ W\mid n}}\mathbb{1}_{d_\ast\mid n+k_\ast}\prod_{k=1}^{K}\mathbb{1}_{[d_k,d'_k]\mid n+k}. \tag{6.3}
 $$
 
 Since $k\leq K\leq w$, the summand is nonzero only if the quantities $[d_k,d'_k]$ are pairwise coprime, and each $p_i$ divides at most one of $\{[d_k,d'_k]\}_{1\leq k\leq K}$. The product of all $d_k$ and $d'_k$, together with $d_\ast$ and $W$, satisfies the crude bound
@@ -1294,7 +1294,7 @@ $$
 which will be negligible for our purposes. Thus, the main term is
 
 $$
-\frac{x}{Wd_\ast}\sideset{}{{}^{\ast}}\sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\prod_{1\leq k\leq K}\frac{\gcd([d_k,d'_k],d_\ast)}{[d_k,d'_k]}.
+\frac{x}{Wd_\ast}\mathop{{\sum}^{\ast}}\limits_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\prod_{1\leq k\leq K}\frac{\gcd([d_k,d'_k],d_\ast)}{[d_k,d'_k]}.
 $$
 
 Here, the asterisk on the sum indicates that the integers $[d_k,d'_k]$ are required to be pairwise coprime. Note each $p_j$ divides at most one of $\{[d_k,d'_k]\}_{1\leq k\leq K}$, and if there is such a $k$, then $p_j\mid n+k$ and $p_j\mid n+k_\ast$, so $p_j\mid|k_\ast-k|$.
@@ -1695,10 +1695,10 @@ Suppose $k_\ast$ satisfies $2\leq k_\ast\leq K$, and let $j$ be an integer satis
 Recall the sieve weight
 
 $$
-\nu(n)=\mathds{1}_{n\in[x,2x]}\mathds{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\ d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
+\nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\ d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
 $$
 
-and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathds{1}_{d_\ast\mid n+k_\ast}$ and $P_{k_\ast}(1):=\sum_n\nu(n)$. We define the random variable $\mathbf{n}$ taking values in $[x,2x]$ by drawing $n$ from $[x,2x]$ with probability density $\nu(n)/P_{k_\ast}(1)$. Then,
+and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}$ and $P_{k_\ast}(1):=\sum_n\nu(n)$. We define the random variable $\mathbf{n}$ taking values in $[x,2x]$ by drawing $n$ from $[x,2x]$ with probability density $\nu(n)/P_{k_\ast}(1)$. Then,
 there are constants $C_3>0$ such that
 
 $$
@@ -1899,10 +1899,10 @@ $$
 Recall the sieve weight
 
 $$
-\nu(n)=\mathds{1}_{n\in[x,2x]}\mathds{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\ d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
+\nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\ d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
 $$
 
-and let \(P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathds{1}_{d_\ast\mid n+k_\ast}\) and \(P_{k_\ast}(1):=\sum_n\nu(n)\). We define the random variable \(\mathbf{n}\) taking values in \([x,2x]\) by drawing \(n\) from \([x,2x]\) with probability density \(\nu(n)/P_{k_\ast}(1)\). Then,
+and let \(P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}\) and \(P_{k_\ast}(1):=\sum_n\nu(n)\). We define the random variable \(\mathbf{n}\) taking values in \([x,2x]\) by drawing \(n\) from \([x,2x]\) with probability density \(\nu(n)/P_{k_\ast}(1)\). Then,
 
 $$
 \mathbb{P}(p_1^{a_1}\cdots p_j^{a_j}\mid\mathbf{n}+k)=\frac{P_{k_\ast}(p_1^{a_1}\cdots p_j^{a_j})}{P_{k_\ast}(1)}=\frac{\mathbb{P}(p_1\cdots p_j\mid\mathbf{n}+k)}{p_1^{a_1-1}\cdots p_j^{a_j-1}}+O(x^{-0.1}).
@@ -1911,7 +1911,7 @@ $$
 *Proof.* Define
 
 $$
-f(n):=\mathds{1}_{p_1^{a_1}\cdots p_j^{a_j}\mid n+k_\ast}-\frac{\mathds{1}_{p_1\cdots p_j\mid n+k_\ast}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}.
+f(n):=\mathbb{1}_{p_1^{a_1}\cdots p_j^{a_j}\mid n+k_\ast}-\frac{\mathbb{1}_{p_1\cdots p_j\mid n+k_\ast}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}.
 $$
 
 Then it suffices to show
@@ -1935,7 +1935,7 @@ $$
 Expanding \(\nu(n)\) and interchanging summations, the left-hand side becomes
 
 $$
-\sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\sum_{n\in[x,2x]}f(n)\mathds{1}_{W\mid n}\prod_{k=1}^{K}\mathds{1}_{[d_k,d'_k]\mid n+k}.
+\sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\sum_{n\in[x,2x]}f(n)\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\mathbb{1}_{[d_k,d'_k]\mid n+k}.
 \tag{6.12}
 $$
 
@@ -1961,18 +1961,18 @@ $$
 Therefore, since $p_1,\ldots,p_j>w$ we have
 
 $$
-\sum_{n\in[x,2x]}f(n)\mathds{1}_{W\mid n}\prod_{k=1}^{K}\mathds{1}_{[d_k,d'_k]\mid n+k}
+\sum_{n\in[x,2x]}f(n)\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\mathbb{1}_{[d_k,d'_k]\mid n+k}
 =\sum_{\substack{n\in[x,2x]\\n\equiv b\pmod q}}f(n)
 $$
 
 $$
-=\sum_{m\in[(x-b)/q,(2x-b)/q]}\left(\mathds{1}_{P'\mid m+b'}-\frac{\mathds{1}_{\prod_{i\notin I}p_i\mid m+b'}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}\right),
+=\sum_{m\in[(x-b)/q,(2x-b)/q]}\left(\mathbb{1}_{P'\mid m+b'}-\frac{\mathbb{1}_{\prod_{i\notin I}p_i\mid m+b'}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}\right),
 $$
 
 where $b'=(b+k_\ast)/\prod_{i\in I}p_i$, which is an integer since $\prod_{i\in I}p_i\mid\mathrm{lcm}([d_1,d'_1],\ldots,[d_K,d'_K])$. So the above equals
 
 $$
-\sum_{m\in[(x-b)/q,(2x-b)/q]}\left(\mathds{1}_{P'\mid m+b'}-\frac{\mathds{1}_{\prod_{i\notin I}p_i\mid m+b'}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}\right)=\frac{x/q}{P'}-\frac{x/q}{p_1^{a_1-1}\cdots p_j^{a_j-1}\prod_{i\notin I}p_i}+O(1)\ll 1.
+\sum_{m\in[(x-b)/q,(2x-b)/q]}\left(\mathbb{1}_{P'\mid m+b'}-\frac{\mathbb{1}_{\prod_{i\notin I}p_i\mid m+b'}}{p_1^{a_1-1}\cdots p_j^{a_j-1}}\right)=\frac{x/q}{P'}-\frac{x/q}{p_1^{a_1-1}\cdots p_j^{a_j-1}\prod_{i\notin I}p_i}+O(1)\ll 1.
 $$
 
 Therefore, (6.12) is bounded above by
@@ -2007,10 +2007,10 @@ $$
 Suppose $k_\ast$ satisfies $2\leq k_\ast\leq K_+$. Let $\mathcal{P}\subseteq\{p\leq w:p^4\mid k_\ast\}$, and $h_p\in\mathbb{Z}^{+}$ for each $p\in\mathcal{P}$. Recall the sieve weight
 
 $$
-\nu(n)=\mathds{1}_{n\in[x,2x]}\mathds{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
+\nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
 $$
 
-and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathds{1}_{d_\ast\mid n+k_\ast}$ and $P_{k_\ast}(1):=\sum_n\nu(n)$. We define the random variable $\mathbf{n}$ taking values in $[x,2x]$ by drawing $n$ from $[x,2x]$ with probability density $\nu(n)/P_{k_\ast}(1)$. Then,
+and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}$ and $P_{k_\ast}(1):=\sum_n\nu(n)$. We define the random variable $\mathbf{n}$ taking values in $[x,2x]$ by drawing $n$ from $[x,2x]$ with probability density $\nu(n)/P_{k_\ast}(1)$. Then,
 
 $$
 \mathbb{P}\left(\nu_p(\mathbf{n}+k_\ast)-\nu_p(k_\ast)\geq h_p\ \forall p\in\mathcal{P}\right)\leq 2\left(\prod_{p\in\mathcal{P}}p^{-h_p}+x^{-0.3}\right).
@@ -2021,7 +2021,7 @@ $$
 $$
 \begin{aligned}
 &\mathbb{P}\left(\nu_p(\mathbf{n}+k_\ast)-\nu_p(k_\ast)\geq h_p\ \forall p\in\mathcal P\right)P_{k_\ast}(1)\\
-&=\sum_{\substack{x<n\leq 2x\\ W\mid n}}\mathds{1}_{\nu_p(n+k_\ast)\geq e_p+h_p\ \forall p\in\mathcal P}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\d\mid n+k_\ast}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2\\
+&=\sum_{\substack{x<n\leq 2x\\ W\mid n}}\mathbb{1}_{\nu_p(n+k_\ast)\geq e_p+h_p\ \forall p\in\mathcal P}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\d\mid n+k_\ast}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2\\
 &=\sum_{\substack{d_1,\ldots,d_K\\ d_1',\ldots,d_K'\\ (d_i,P(w))=(d_i',P(w))=1\ \forall i}}\prod_{k=1}^{K}\mu(d_k)\mu(d_k')\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d_k'}{\log R_k}\right)\\
 &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
 \sum_{\substack{x<n\leq 2x\\ n\equiv 0\ (\mathrm{mod}\ W)\\ n\equiv-k_\ast\ (\mathrm{mod}\ p^{e_p+h_p})\ \forall p\in\mathcal P\\ n\equiv-k_\ast\ (\mathrm{mod}\ [d_k,d_k'])\ \forall 1\leq k\leq K}}1.

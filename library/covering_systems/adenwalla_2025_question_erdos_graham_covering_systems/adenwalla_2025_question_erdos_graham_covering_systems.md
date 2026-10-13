@@ -55,7 +55,7 @@ $$
 \delta(A)=\lim_{n\to\infty}\frac{A(n)}{n}.
 $$
 
-Let $D = \lcm(d_1,\ldots,d_t)$ and $m$ be the number of residue classes mod $D$ that are covered by $A$. Then as $A(n)=m\frac{n}{D}+O(D)$, we see that
+Let $D = \operatorname{lcm}(d_1,\ldots,d_t)$ and $m$ be the number of residue classes mod $D$ that are covered by $A$. Then as $A(n)=m\frac{n}{D}+O(D)$, we see that
 
 $$
 \delta(A)=\frac{m}{D}.

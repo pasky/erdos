@@ -287,8 +287,8 @@ Then
 
 $$
 \begin{aligned}
-2\beta(G)&\leq 2\beta(G,\mu_1)=p_1\rho_{a_1,b}+p_1^2\rho_b, \tag{6}\\
-2\beta(G)&\leq 2\beta(G,\mu_2)=p_2\rho_{a_2,b}+p_2^2\rho_b. \tag{7}
+2\beta(G)&\leq 2\beta(G,\mu_1)=p_1\rho_{a_1,b}+p_1^2\rho_b, \qquad (6)\\
+2\beta(G)&\leq 2\beta(G,\mu_2)=p_2\rho_{a_2,b}+p_2^2\rho_b. \qquad (7)
 \end{aligned}
 $$
 
@@ -779,10 +779,10 @@ For every $u\in[0,\lceil n/2-k\rceil]$ such that $R(3,u)\leq n-k-1\ (=|B|)$ we a
 Pick a subset $B_u\in\binom{B}{R(3,u)}$ with the only restriction that it contains as many vertices in $C$ as possible. Then we have
 
 $$
-|E(A,B_u)|=|B_u\setminus C|=R(3,u)\dotminus|C|\leq R(3,u)\dotminus(n-k^2-1), \tag{21}
+|E(A,B_u)|=|B_u\setminus C|=R(3,u)\mathbin{\dot{-}}|C|\leq R(3,u)\mathbin{\dot{-}}(n-k^2-1), \tag{21}
 $$
 
-where $x\dotminus y\stackrel{\rm def}{=}\max(0,x-y)$. Finally, let $B'_u\subseteq B_u$ be an independent subset of size $u$ existing by the definition of Ramsey numbers. Further analysis splits into two more cases.
+where $x\mathbin{\dot{-}} y\stackrel{\rm def}{=}\max(0,x-y)$. Finally, let $B'_u\subseteq B_u$ be an independent subset of size $u$ existing by the definition of Ramsey numbers. Further analysis splits into two more cases.
 
 **Case 2.1.** $u=\lceil n/2-k\rceil$.
 
@@ -794,7 +794,7 @@ $$
 \left\{
 \begin{aligned}
 \beta(G)&\leq\beta_u\\
-&\stackrel{\rm def}{=}\frac{1}{n^2}\left(\min(u,R(3,u)-(n-k^2-1))\dotminus\frac{1}{2}(n\bmod 2)\right)\\
+&\stackrel{\rm def}{=}\frac{1}{n^2}\left(\min(u,R(3,u)-(n-k^2-1))\mathbin{\dot{-}}\frac{1}{2}(n\bmod 2)\right)\\
 &(u=\lceil n/2-k\rceil).
 \end{aligned}
 \right.
@@ -808,7 +808,7 @@ Let us stress that this bound is defined only when $R(3,\lceil n/2-k\rceil)\leq 
 In this case we have[^2]
 
 $$
-\beta(G)\leq\beta_u\stackrel{\rm def}{=}\gamma(k,n,k+u,\min(u,R(3,u)\dotminus(n-k^2-1))), \tag{23}
+\beta(G)\leq\beta_u\stackrel{\rm def}{=}\gamma(k,n,k+u,\min(u,R(3,u)\mathbin{\dot{-}}(n-k^2-1))), \tag{23}
 $$
 
 where the function $\gamma(k,n,t,e)\ (t\leq n/2)$ abstracts our situation as follows:

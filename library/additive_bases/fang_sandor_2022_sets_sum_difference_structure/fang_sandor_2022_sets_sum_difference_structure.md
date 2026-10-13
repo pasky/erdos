@@ -104,7 +104,7 @@ Before the proof of *Necessity*, we first prove the following preliminary lemma.
 
 *Case 1.* $n\in C$, $n\notin D$. Then $\lfloor\frac{n}{m}\rfloor m$, $\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\notin C$. It follows from $r_{C,D}(\lfloor\frac{n}{m}\rfloor m)=1$ that there exists an integer $d$ with $0<d<\lfloor\frac{n}{m}\rfloor m$, $m|d$ and $d\in D$ such that $\lfloor\frac{n}{m}\rfloor m-d\in C$. Since
 
-$$m|\lfloor\frac{n}{m}\rfloor m-d\hspace{8.53581pt}\mbox{and}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m-d<\lfloor\frac{n}{m}\rfloor m,$$
+$$m|\lfloor\frac{n}{m}\rfloor m-d\hspace{8.53581pt}\text{and}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m-d<\lfloor\frac{n}{m}\rfloor m,$$
 
 so $n-d\in C$. Hence $n=(n-d)+d=n+0$, where $n-d,n\in C$ and $0,d\in D$, then $r_{C,D}(n)\geqslant 2$, a contradiction.
 
@@ -118,13 +118,13 @@ Subsubcase 2.2.1. $d>0$. Hence $c<\lfloor\frac{n}{m}\rfloor m$ and $m|c$. So $c+
 
 Subsubcase 2.2.2. $d=0$. Then $\lfloor\frac{n}{m}\rfloor m\in C$. Hence $\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. It follows that
 
-$$n+m-1=(m-1)+n=(n-1)+m,\hspace{8.53581pt}\mbox{where}\hspace{8.53581pt}m-1,n-1\in C\hspace{5.69054pt}\mbox{and}\hspace{5.69054pt}n,m\in D,$$
+$$n+m-1=(m-1)+n=(n-1)+m,\hspace{8.53581pt}\text{where}\hspace{8.53581pt}m-1,n-1\in C\hspace{5.69054pt}\text{and}\hspace{5.69054pt}n,m\in D,$$
 
 so $r_{C,D}(n-m-1)\geqslant 2$, a contradiction.
 
 *Case 3.* $n\notin C$, $n\notin D$. Then $\lfloor\frac{n}{m}\rfloor m$, $\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. If $n=c+d$, then $0<d\leqslant\lfloor\frac{n}{m}\rfloor m$, so $d\geqslant m$ and $c<n$. Then $\lfloor\frac{c}{m}\rfloor m\in C$. It follows that
 
-$$\lfloor\frac{n}{m}\rfloor m=\lfloor\frac{n}{m}\rfloor m+0=\lfloor\frac{c}{m}\rfloor m+d,\hspace{8.53581pt}\mbox{where}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{c}{m}\rfloor m\in C\hspace{5.69054pt}\mbox{and}\hspace{5.69054pt}d,0\in D,$$
+$$\lfloor\frac{n}{m}\rfloor m=\lfloor\frac{n}{m}\rfloor m+0=\lfloor\frac{c}{m}\rfloor m+d,\hspace{8.53581pt}\text{where}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{c}{m}\rfloor m\in C\hspace{5.69054pt}\text{and}\hspace{5.69054pt}d,0\in D,$$
 
 so $r_{C,D}(\lfloor\frac{n}{m}\rfloor m)\geqslant 2$, a contradiction.
 
@@ -167,8 +167,8 @@ This completes the proof of Theorem 1.1.
 
 $$
 \begin{aligned}
-A_k-B_k={}&\left[-(m_2-1)m_1-(m_4-1)m_1m_2m_3-\cdots-(m_{2k}-1)m_1m_2\cdots m_{2k-1},\\
-&\qquad (m_1-1)+(m_3-1)m_1m_2+\cdots+(m_{2k-1}-1)m_1m_2\cdots m_{2k-2}\right].\tag{2.2}
+A_k-B_k={}&[-(m_2-1)m_1-(m_4-1)m_1m_2m_3-\cdots-(m_{2k}-1)m_1m_2\cdots m_{2k-1},\\
+&\qquad (m_1-1)+(m_3-1)m_1m_2+\cdots+(m_{2k-1}-1)m_1m_2\cdots m_{2k-2}].\tag{2.2}
 \end{aligned}
 $$
 

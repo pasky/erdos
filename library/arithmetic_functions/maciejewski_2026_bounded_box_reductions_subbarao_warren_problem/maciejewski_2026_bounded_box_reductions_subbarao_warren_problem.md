@@ -55,7 +55,7 @@ The headline computational bound is therefore $|H_{\mathrm{even}}\cap[2,40000]|\
 Decompose $n=2^a\prod_i p_i^{e_i}$ with $p_i$ odd. Multiplicativity of $\sigma^{*}$ with $\sigma^{*}(2^a)=2^a+1$ and $\sigma^{*}(p^e)=p^e+1$ makes the defining equation $\sigma^{*}(n)=2n$ the full balance
 
 $$
-\tag{(\ast)}
+\tag{$\ast$}
 (2^a+1)\prod_i(p_i^{e_i}+1)=2^{a+1}\prod_i p_i^{e_i}.
 $$
 
