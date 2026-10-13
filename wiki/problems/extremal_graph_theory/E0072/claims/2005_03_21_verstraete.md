@@ -38,7 +38,7 @@ without exhibiting one.
 
 **Acceptance.** The paper is a refereed publication in the Journal of Graph
 Theory. The site's curator, Thomas Bloom, records the problem as solved by it
-and labels the problem proved, which is the reviewed evidence listed. The
+and labeled the problem proved, which is the reviewed evidence listed. The
 author's undated preprint is the edition described on its
 [[../library/extremal_graph_theory/verstraete_2005_unavoidable_cycle_lengths_graphs/_index|source card]].
 The basis here is the statement of Theorem 1 on p. 1 of the preprint alone, not

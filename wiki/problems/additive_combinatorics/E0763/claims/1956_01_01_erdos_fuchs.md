@@ -75,7 +75,7 @@ Research technical report of August 1954, which preceded the journal paper. The
 journal's pagination comes from the Crossref record and the zbMATH review, not
 from that printing.
 
-Reviewed: the site's curator, Thomas Bloom, labels the problem DISPROVED. The
+Reviewed: the site's curator, Thomas Bloom, labeled the problem DISPROVED. The
 problem page's commentary credits the answer, in its strong form, to Erdős and
 Fuchs. The proof-claim tab is empty and the thread has no posts.
 

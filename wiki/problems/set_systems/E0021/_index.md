@@ -32,7 +32,7 @@ $$
 f(n) \ll n?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Kahn [Ka94].
+**Status.** The site labeled the problem PROVED (LEAN), crediting Kahn [Ka94].
 The accepted claim is
 [[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]]. The
 Lean behind the qualifier is described below.

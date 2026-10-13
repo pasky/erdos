@@ -72,7 +72,7 @@ vertices and $q\ge2p-2$ edges is not Ramsey size linear. The site's commentary
 credits [EFRS93] with Ramsey size linearity for every graph on $n$ vertices
 having at most $n+1$ edges; [EFRS93] Theorem 4 states this for connected $G$.
 
-**Status.** The site labels the problem OPEN, and the corrected Statement is
+**Status.** The site labeled the problem OPEN, and the corrected Statement is
 open. No full claim exists, so the problem is open with no claim. The search
 whose scope the Current assessment records found no proof or disproof. Partial
 results are known from two refereed papers, both recorded as accepted partial

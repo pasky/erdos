@@ -29,10 +29,10 @@ $$
 
 is irrational.
 
-**Status.** Disproved. The site (page last edited 2025-09-28) labels the problem
-DISPROVED (LEAN) and credits Kovač and Tao with the negative answer. Their 2024
-construction of a sequence whose shifted reciprocal sums are rational for every
-rational shift is recorded on
+**Status.** Disproved. The site (page last edited 2025-09-28) labeled the
+problem DISPROVED (LEAN) and credits Kovač and Tao with the negative answer.
+Their 2024 construction of a sequence whose shifted reciprocal sums are rational
+for every rational shift is recorded on
 [[problems/irrationality/E0266/claims/2024_11_27_kovac_tao|its claim page]]. The
 Lean proof behind the label is a public formalization of their argument, linked
 from the claim page. It has not been built or audited in this corpus.

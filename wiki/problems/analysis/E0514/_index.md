@@ -48,7 +48,7 @@ $\lvert f\rvert\to\infty$ along the path of the first question and any
 slower function of $M(r)$ then works. The standing targets this reading,
 with the power $M(r)^\epsilon$ as its special case.
 
-**Status.** The site labels the problem OPEN (page last edited 18 January 2026)
+**Status.** The site labeled the problem OPEN (page last edited 18 January 2026)
 and credits Boas, unpublished, with the first question. The site has adopted
 none of the claims below. Accepted and pending claims together settle every
 part, so the derived standing is claimed. Its value is `answered` because the
@@ -106,7 +106,7 @@ $\lvert f(z)/z^n\rvert\to\infty$ for every $n$ (`path`); can the length
 of such a path be bounded in terms of $M(r)$ (`length`); and does a path
 exist on which $\lvert f\rvert$ grows faster than a fixed function of
 $M(r)$, such as $M(r)^\epsilon$ (`growth`)? The Formulation above fixes
-the reading of the third question. The label is OPEN; the site credits
+the reading of the third question. The label was OPEN; the site credits
 Boas, unpublished, with the first question, as [Er61] does, where Erdős
 says he conjectured it and Boas proved it without publishing; the
 statement was given the word transcendental after a thread comment of 17

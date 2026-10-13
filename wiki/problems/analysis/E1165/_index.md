@@ -80,7 +80,7 @@ Révész raised the question (1984, 1987 and 1991, cited by both papers). No
 result about any other law is recorded. The standing judges this precise
 Statement.
 
-**Status.** Solved on the site's label, which credits the value $0$ for $r\ge4$
+**Status.** Labeled solved on the site, which credits the value $0$ for $r\ge4$
 to Tóth [To01] and the value $1$ for $r=3$ to Hao, Li, Okada and Zheng [HLOZ24].
 The probability is $1$ for $r=3$ and $0$ for every integer $r\ge4$.
 [[../library/analysis/hao_2024_favorite_sites_simple_random_walk_two/theorem_1_1|Hao–Li–Okada–Zheng, Theorem 1.1]]

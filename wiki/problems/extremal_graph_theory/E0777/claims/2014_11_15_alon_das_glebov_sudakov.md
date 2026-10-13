@@ -99,5 +99,5 @@ corpus has not built or audited the file, so `formalized` is not listed.
 (2015), 164--185 (issued November 2015 in the Crossref record). Reviewed: the
 site's curator, T. F. Bloom, records the problem as solved and credits this
 paper with the answer to the first question in the problem's commentary
-(erdosproblems.com/777, accessed 2026-10-07). The site's label is SOLVED, and
+(erdosproblems.com/777, accessed 2026-10-07). The site's label was SOLVED, and
 the site has no comment and no proof claim.

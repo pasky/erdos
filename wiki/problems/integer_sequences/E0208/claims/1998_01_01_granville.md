@@ -57,5 +57,5 @@ and claimed for every $\epsilon>1/5-\eta$
 **Acceptance.** Refereed: International Mathematics Research Notices is a
 refereed journal. The publisher's record dates the article to 1998 without a
 month or day, so this page is named by the first day of that year. The site
-labels the problem OPEN, so the curator's credit is not acceptance and no
+labeled the problem OPEN, so the curator's credit is not acceptance and no
 `reviewed` evidence is listed. The corpus records no check of the proof.

@@ -61,9 +61,9 @@ three-term arithmetic progressions; the forum announcement repeats the remark.
 The remark has no page of its own: it is a derivation reported in this paper,
 not a manuscript of Rödl's.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved on
-the problem's page at erdosproblems.com (page last edited 2026-04-10, read
-2026-10-07). The curator credits this paper there, beside the independent proof
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem disproved on
+the problem's page at erdosproblems.com (page last edited 2026-04-10). The
+curator credits this paper there, beside the independent proof
 of
 [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|a DeepMind prover agent]]
 with essentially the same construction. That credit is the `reviewed` evidence.

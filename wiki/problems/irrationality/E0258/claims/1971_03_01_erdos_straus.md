@@ -69,7 +69,7 @@ $\log n$, which is the gap the problem's question concerns.
 
 **Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36, issue 3
 (March 1971), pp. 635--646. These data come from the Crossref record of the DOI.
-The site labels the problem PROVED (LEAN) and credits Chojecki with the full
+The site labeled the problem PROVED (LEAN) and credits Chojecki with the full
 answer. Its remark that Erdős and Straus proved the monotone case credits this
 paper with a part only, so no `reviewed` evidence is listed. The proofs are not
 checked here.

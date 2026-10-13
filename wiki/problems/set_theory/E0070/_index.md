@@ -41,7 +41,7 @@ poses the main question on $\mathbb R$ with its usual order, after a correction
 of 2026-09-12, while its variant `omega_three` uses the initial ordinal of the
 continuum.
 
-**Status.** Open. The site's label is OPEN. One accepted partial claim,
+**Status.** Open. The site's label was OPEN. One accepted partial claim,
 [[problems/set_theory/E0070/claims/1956_09_01_erdos_rado|Erdős and Rado 1956]],
 settles the instances with $\beta<\omega 2$ and $n\le4$. The question stays
 open.
@@ -71,7 +71,7 @@ https://www.erdosproblems.com/70.
 The question, in the site's formulation read as the Formulation says, asks
 whether $\lambda\to(\beta,n)^3_2$ for every countable ordinal $\beta$ and every
 finite $n\ge2$, where $\lambda$ is the order type of the real line. The site
-labels the problem OPEN, and its only remark credits Erdős and Rado with
+labeled the problem OPEN, and its only remark credits Erdős and Rado with
 $\mathfrak c\to(\omega+n,4)^3_2$ for every finite $n\ge2$. That result is
 Theorem 31, relation (30), of [ErRa56], and it is the accepted partial claim
 [[problems/set_theory/E0070/claims/1956_09_01_erdos_rado|Erdős and Rado 1956]],

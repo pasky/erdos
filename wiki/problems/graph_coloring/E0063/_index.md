@@ -25,7 +25,7 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Does every graph with infinite chromatic number contain a
 cycle of length $2^n$ for infinitely many $n$?
 
-**Status.** The site labels the problem PROVED (LEAN). It credits Zach Hunter
+**Status.** The site labeled the problem PROVED (LEAN). It credits Zach Hunter
 with deducing it from Liu and Montgomery's even-cycle interval theorem. The
 accepted full claim is
 [[problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery|powers of two from the even-cycle interval theorem]].

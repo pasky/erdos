@@ -63,7 +63,7 @@ hypothesis is not the source of the change. No result about the site's wording
 exists beyond the check recorded here, which settles no instance of the
 corrected Statement.
 
-**Status.** PROVED (LEAN) on erdosproblems.com. This label describes the
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com. This label describes the
 corrected Statement. The site's commentary credits Hegyvári and, unpublished,
 Cambie. The Lean mark refers to a third-party Lean formalization of Hegyvári's
 paper, which this repository has not built. The claim page
@@ -100,11 +100,11 @@ large $m>n$, and for every $s$ there are infinitely many pairs with
 $|A_n\cap A_m|=s$. The site credits an independent unpublished solution by
 Cambie with the same conclusions. The
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|claim page]]
-states the theorems and the acceptance: the site's curator labels the problem
+states the theorems and the acceptance: the site's curator labeled the problem
 proved and credits the paper, which is a preprint without a journal
 publication found.
 
-The site's label carries the mark Lean. The proof it refers to is a file in
+The site's label carried the mark Lean. The proof it refers to is a file in
 Boris Alexeev's repository, produced with the system Aristotle and announced
 on the forum thread on 4 February 2026, whose header names Hegyvári and
 Cambie as the informal authors and lists the paper's Theorem 1.1, Corollary

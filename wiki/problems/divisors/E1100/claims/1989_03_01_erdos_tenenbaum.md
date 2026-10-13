@@ -84,4 +84,4 @@ volume 31, issue 3 (March 1989). It was communicated by R. L. Graham and
 received 10 December 1987. The Crossref record of its DOI gives these data. Read
 depth: the numbered theorems of the introduction, read from the author-archive
 scan (second link). The proofs are not checked. The site's problem page (last
-edited 19 October 2025) does not cite the paper and lists the problem as open.
+edited 19 October 2025) does not cite the paper and listed the problem as open.

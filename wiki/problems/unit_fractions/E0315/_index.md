@@ -59,7 +59,7 @@ excluded sequence as Sylvester's $2,3,7,43,\ldots$ and the constant as the
 Vardi constant, so their statements are the site's question in either
 convention.
 
-**Status.** Proved, by two independent sources. The site's label is PROVED
+**Status.** Proved, by two independent sources. The site's label was PROVED
 (LEAN). Its Lean qualifier is a catalog label whose scope is qualified under
 Formalization and the Lean label below, and no local kernel credit is claimed.
 The two accepted claims are recorded on

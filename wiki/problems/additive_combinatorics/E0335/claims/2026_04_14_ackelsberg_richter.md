@@ -71,6 +71,6 @@ the theorem's hypothesis excludes.
 version, of 2026-04-14, and no journal reference. The site's curator, T. F.
 Bloom, records in the problem page's commentary that the problem is
 partially resolved by this paper under the residue-class assumption, but the
-site labels the problem OPEN (page last edited 2026-04-15), so the commentary
+site labeled the problem OPEN (page last edited 2026-04-15), so the commentary
 is not acceptance and no `reviewed` evidence is listed. The proof is not
 checked here.

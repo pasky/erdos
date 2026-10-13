@@ -47,7 +47,7 @@ the largest number of integers up to $x$ no $k$ of which have pairwise the
 same least common multiple. The formal-conjectures file encodes the density
 form only.
 
-**Status.** The site's label is Open (page last edited 29 April 2026,
+**Status.** The site's label was Open (page last edited 29 April 2026,
 proof-claims tab as of 2026-10-06). No proof or disproof of $f(N)=o(N)$ accepted
 by the site or by a refereed venue was found in the search whose scope the
 Current assessment records. This is a bounded negative finding, not a
@@ -334,28 +334,28 @@ exact-arithmetic verifier for the finite checks (Appendix A), and the proof
 completed in Section 8 (p. 32). The finite-prime envelope (Proposition 3.1, pp.
 3--4) is the elementary reduction of the forum's 7 September 2026 comment, which
 treats it as agreeing with its own computation. Acceptance: none. The site's
-label is OPEN and its commentary, last edited before the claim, does not mention
-it; the tab warns that an entry there is no guarantee of correctness and that
-nobody connected with the site need have examined it; no arXiv version, refereed
-publication, independent review or written dispute was found (search scope
-below). The tab's four comments, as of 2026-10-06: a reader's remark of 14 July
-2026 that the manuscript answers only the second part of the question and leaves
-the estimate of $f(N)$ open; the author's reply the same day that they had taken
-$f(N)=o(N)$ for the whole problem, that the draft does not determine the order
-of magnitude of $f(N)$, and that they would withdraw the submission; the
-curator's answer that the entry need not be deleted and is relabeled a partial
-proof, the choice of main question being a matter of taste; and the author's
-note of 27 July 2026 adding a Lean directory to the repository (not built by the
-corpus). Provenance, recorded not judged: the tab's submission declares that the
-claim was produced using an AI model (GPT-5.6 Sol); the manuscript carries no
-statement about AI use; its title page gives the author's two affiliations,
-Columbia University and Multiscalar Intelligence; the repository holds the
-manuscript's source, a Lean directory and the verifier (at the head commit of 2
-August 2026; nothing built or run). Read depth: Lemma 2.1 with its proof; the
-statements of Theorem 1.1 and Propositions 2.2, 2.3 and 3.1; Sections 4--8 are
-outside this page's basis, and nothing is independently reviewed. The thread
-comment of 7 December 2025 that the probabilistic method may settle the
-density-near-one case is a remark without an argument.
+label was OPEN and its commentary, last edited before the claim, does not
+mention it; the tab warns that an entry there is no guarantee of correctness and
+that nobody connected with the site need have examined it; no arXiv version,
+refereed publication, independent review or written dispute was found (search
+scope below). The tab's four comments, as of 2026-10-06: a reader's remark of 14
+July 2026 that the manuscript answers only the second part of the question and
+leaves the estimate of $f(N)$ open; the author's reply the same day that they
+had taken $f(N)=o(N)$ for the whole problem, that the draft does not determine
+the order of magnitude of $f(N)$, and that they would withdraw the submission;
+the curator's answer that the entry need not be deleted and is relabeled a
+partial proof, the choice of main question being a matter of taste; and the
+author's note of 27 July 2026 adding a Lean directory to the repository (not
+built by the corpus). Provenance, recorded not judged: the tab's submission
+declares that the claim was produced using an AI model (GPT-5.6 Sol); the
+manuscript carries no statement about AI use; its title page gives the author's
+two affiliations, Columbia University and Multiscalar Intelligence; the
+repository holds the manuscript's source, a Lean directory and the verifier (at
+the head commit of 2 August 2026; nothing built or run). Read depth: Lemma 2.1
+with its proof; the statements of Theorem 1.1 and Propositions 2.2, 2.3 and 3.1;
+Sections 4--8 are outside this page's basis, and nothing is independently
+reviewed. The thread comment of 7 December 2025 that the probabilistic method
+may settle the density-near-one case is a remark without an argument.
 
 **Search scope.** None of the routes below found a
 refereed proof or disproof of $f(N)=o(N)$, an acceptance of the manuscript,

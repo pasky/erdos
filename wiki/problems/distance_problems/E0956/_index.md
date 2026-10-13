@@ -42,7 +42,7 @@ $$
 Determine $h(n)$ - in particular, prove that there exists a constant $c>0$ such
 that $h(n)>n^{1+c}$ for all large $n$.
 
-**Status.** Open. The site labels the problem OPEN. Two pending claims of the
+**Status.** Open. The site labeled the problem OPEN. Two pending claims of the
 order $n^{4/3}$, Valtr's announcement of 2005 and Chojecki's note of 2026, are
 recorded on their claim pages. The Current assessment lists those pages.
 

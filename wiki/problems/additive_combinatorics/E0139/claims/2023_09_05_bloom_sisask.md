@@ -55,7 +55,7 @@ whose argument the note modifies.
 **Standing.** Claimed. The note is an arXiv preprint, posted 2023-09-05 and
 not revised with no journal record (Crossref, 2026-09-18;
 the authors' exposition in Essential Number Theory is a separate paper), so
-`refereed` is not listed. The site's curator labels
+`refereed` is not listed. The site's curator labeled
 the problem proved on Szemerédi's theorem and cites this note in the
 commentary only as the improvement of the best known bound for $k=3$, which
 credits the bound and not a settlement of the problem, so no `reviewed`

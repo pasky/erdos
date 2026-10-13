@@ -23,7 +23,7 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Does there exist $A\subset \mathbb{N}$ with lower density $>1/3$
 such that $a+b\neq 2^k$ for any $a,b\in A$ and $k\geq 0$?
 
-**Status.** The site labels the problem PROVED (LEAN) (page last edited 20
+**Status.** The site labeled the problem PROVED (LEAN) (page last edited 20
 January 2026). Müller ([Mu11], refereed) shows that the integers whose odd part
 is $3\pmod4$ have density $1/2$, and that no two of them, equal or not, sum to a
 power of two. The paper also shows that no set with the property has lower

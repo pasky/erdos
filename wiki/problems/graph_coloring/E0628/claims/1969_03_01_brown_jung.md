@@ -45,5 +45,5 @@ other pair $(a,b)$ or any larger $k$.
 **Acceptance.** Refereed: Acta Math. Acad. Sci. Hungar. 20 (1969), no. 1-2,
 129–134. The issue is dated March 1969. The page carries the first day of that
 month because the day is not recorded. The site's curator credits the result in
-the commentary of a problem the site labels FALSIFIABLE. That label settles
+the commentary of a problem the site labeled FALSIFIABLE. That label settles
 nothing, so the credit is not listed as `reviewed`.

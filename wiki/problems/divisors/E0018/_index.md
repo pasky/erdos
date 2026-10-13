@@ -36,9 +36,9 @@ $$
 
 Is it true that $h(n!)<n^{o(1)}$? Or perhaps even $h(n!)<(\log n)^{O(1)}$?
 
-**Status.** OPEN on the site (page last edited 11 April 2026), with the prize
-attached to the first question. The frontmatter standing `open` derives from the
-claim pages. The accepted partial claim
+**Status.** Labeled OPEN on the site (page last edited 11 April 2026), with the
+prize attached to the first question. The frontmatter standing `open` derives
+from the claim pages. The accepted partial claim
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N's Lean proof]] settles
 the second question, $h(n!)<n^{o(1)}$. The first question carries two pending
 partial claims, [[problems/divisors/E0018/claims/2026_07_24_price|Price's]] and
@@ -189,7 +189,7 @@ simplification of (i); this corpus has not built the Lean file
 (`import Mathlib`, Lean v4.28.0, formalized by Aristotle, `#print axioms` lines,
 no `sorry`). The site's discussion (25 July 2026) notes that such a bound would
 improve Problems 293 and 304, and the note claims those improvements (below).
-The site shows OPEN and no independent acceptance is documented, so (a) is
+The site showed OPEN and no independent acceptance is documented, so (a) is
 recorded as claimed, on
 [[problems/divisors/E0018/claims/2026_07_24_price|Price's claim page]] and
 [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn's claim page]],
@@ -260,7 +260,7 @@ and (c) carry claims and cited bounds only.
   [[../library/divisors/price_2026_sparse_divisor_sums/_index|Price, 24 July 2026]]
   (AI-generated, Overleaf read link, resting on Bourgain's exponential-sum
   theorem; elementary layer kernel-checked by a third party). Either would answer the first question affirmatively and improve
-  Vose's $(\log m)^{1/2}$; the site's label is OPEN. Claim pages:
+  Vose's $(\log m)^{1/2}$; the site's label was OPEN. Claim pages:
   [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro 2026]]
   and [[problems/divisors/E0018/claims/2026_07_24_price|Price 2026]].
 - Applications of the same construction, claimed and not accepted:

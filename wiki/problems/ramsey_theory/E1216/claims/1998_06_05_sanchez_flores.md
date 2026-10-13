@@ -50,7 +50,7 @@ $n$ in $[54\cdot2^j,2^{j+6})$ for each $j\ge0$.
 **Source.** The page is dated by the issue date of the journal record (Graphs
 and Combinatorics 14, no. 2, 5 June 1998, per Crossref).
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 DISPROVED. In the problem's commentary, the curator credits Sánchez-Flores
 [Sa98b] with the bound $f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$
 (page last edited 12 April 2026). The curator is independent of the author.

@@ -66,7 +66,7 @@ developments below state it; the library holds no card for the paper.
 
 **Acceptance.** The paper is refereed: Hanno Lefmann and Torsten Thiele, Point
 sets with distinct distances, Combinatorica 15 (1995), no. 3, 379–408. The
-site's curator, Thomas Bloom, marks the problem proved and credits the paper's
+site's curator, Thomas Bloom, marked the problem proved and credits the paper's
 theorem on the problem page. The site's export of 2026-09-04 records the label
 "PROVED (LEAN)". The community database at teorth/erdosproblems records the
 proved status from 2026-01-15.

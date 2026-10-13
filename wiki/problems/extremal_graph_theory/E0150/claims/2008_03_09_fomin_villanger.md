@@ -56,5 +56,5 @@ the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in Combinatorica. The
 site's curator credits the paper in the problem's commentary. The site lists no
-parts, and its label credits Bradač's note for the whole problem, so the credit
+parts, and its label credited Bradač's note for the whole problem, so the credit
 is not listed as reviewed evidence.

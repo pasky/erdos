@@ -193,7 +193,7 @@ Not refereed: the paper is a preprint, first on SSRN and now in the repository.
 The site's proof-claims tab lists the claim as a partial proof claim, matching
 that submission; the revised paper and the claimant's comment of 2026-10-05,
 which calls the repository a full Lean verification of the problem, assert the
-whole determination. The site's label is unchanged and the curator has not
+whole determination. The site's label was unchanged and the curator has not
 credited the result. The paper's acknowledgment says it was prepared with AI
 assistance in derivation, internal checking, source verification, exposition and
 formalization, naming ChatGPT Astra, Google's Gemini 3.1 Pro and Gemini 3.8

@@ -53,7 +53,7 @@ a sequence answering it also answers the source's question. The page's
 standing concerns the site's wording; the results of Cassels and Erdős below
 are stated in the source's count.
 
-**Status.** Proved. The site labels the problem PROVED (LEAN) and credits
+**Status.** Proved. The site labeled the problem PROVED (LEAN) and credits
 Haight's thesis [Ha]. The site was accessed 2026-09-04, and the page was last
 edited 2025-12-05. The Lean qualifier refers to a third-party formalization
 linked on the

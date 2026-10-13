@@ -35,7 +35,7 @@ Nicolás, Gerken, Heule and Scheucher), which is the reading of every claim page
 The negative answer is the same under both readings; the values $g(4)=5$,
 $g(5)=10$ and $g(6)=30$ hold only under this one.
 
-**Status.** Disproved. The site labels the problem disproved on the strength of
+**Status.** Disproved. The site labeled the problem disproved on the strength of
 Horton's construction of arbitrarily large point sets with no empty convex
 heptagon, recorded on the
 [[problems/discrete_geometry/E0216/claims/1983_12_01_horton|Horton claim page]].

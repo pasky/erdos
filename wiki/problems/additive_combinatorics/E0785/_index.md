@@ -30,7 +30,7 @@ $$
 
 as $x\to \infty$?
 
-**Status.** The site labels the problem PROVED (LEAN). The Lean qualifier is
+**Status.** The site labeled the problem PROVED (LEAN). The Lean qualifier is
 explained under Formalization. The status-defining source is the theorem of
 Sárközy and Szemerédi [SaSz94] (Acta Math. Hungar. 64 (1994), 237--245,
 refereed). Let $A,B$ be infinite, with $A+B$ containing every large integer and

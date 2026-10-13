@@ -68,7 +68,7 @@ repository, is recorded on
 
 ## Current assessment
 
-The site labels the problem falsifiable; the label is the site's, not a
+The site labeled the problem falsifiable; the label is the site's, not a
 standing from this project. A counterexample to the first question would be a
 finite set of $n$ points, no three on a line, that determines fewer than
 $\lfloor n/2\rfloor$ distinct distances, and its distances are a finite

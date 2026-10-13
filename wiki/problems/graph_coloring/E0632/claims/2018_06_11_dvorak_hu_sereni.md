@@ -54,9 +54,9 @@ prints it; no independent check of the gadget lemmas or the proof is recorded.
 5, 9 pp., doi:10.19086/aic.10811. The paper was received on 11 June 2018 and
 published on 30 October 2019. The preprint is arXiv:1806.03880, first posted on
 11 June 2018, which is the date of this page. The site's curator, T. F. Bloom,
-labels the problem disproved and credits [DHS19] with the construction. The page
-lists this credit as `reviewed`. The question is from Erdős, Rubin and Taylor,
-who printed it as an open question in
+labeled the problem disproved and credits [DHS19] with the construction. The
+page lists this credit as `reviewed`. The question is from Erdős, Rubin and
+Taylor, who printed it as an open question in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]
 (1980).
 

@@ -27,9 +27,10 @@ updated: 2026-10-08T01:29:59Z
 that $a\mid b$ and $a\mid c$. How large can $f(n)$ be? Is $\lim f(n)/n$
 irrational?
 
-**Status.** Open on the site. The problem is labeled OPEN, with the site's note
-that it cannot be settled by a finite computation. Its commentary (last edited 6
-January 2026) records only the trivial bound and Lebensold's bracket.
+**Status.** Labeled open on the site. The problem was labeled OPEN, with the
+site's note that it cannot be settled by a finite computation. Its commentary
+(last edited 6 January 2026) records only the trivial bound and Lebensold's
+bracket.
 
 The standing derived here rests on the claim pages. A Lean proof submitted to
 the bounty site Conjectures.io under the username JenW1N proves that
@@ -61,7 +62,7 @@ formula for $f(n)$ and that the limit is transcendental
 full, unreviewed).
 
 **Source.** [erdosproblems.com/1062](https://www.erdosproblems.com/1062),
-accessed 2026-09-22 and 2026-10-07 (OPEN; source keys [Gu04] and [Le76]; last
+accessed 2026-09-22 (OPEN; source keys [Gu04] and [Le76]; last
 edited 6 January 2026; a formalized statement; fourteen comments and one
 proof-claim entry on 2026-10-07; OEIS A038372), and the Conjectures.io record
 [conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc](https://conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc),
@@ -101,7 +102,7 @@ certification is the outside review, and the problem's standing rests on nothing
 else. The reviewed target answers the first question in asymptotic form only;
 the exact closed formula for $f(n)$ and the value of the limit,
 $0.6729656511994\ldots$, are intermediate theorems of the accepted file, outside
-the site's statement check, and the section below states them. On 2026-10-07 the
+the site's statement check, and the section below states them. The
 erdosproblems.com page showed OPEN, last edited 6 January 2026, with fourteen
 comments and the curator's proof-claim entry of 27 September 2026 pointing at
 that Conjectures.io solution without endorsing it; its thread carries a post of

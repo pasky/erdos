@@ -55,7 +55,7 @@ $L(n,k)=p_\ell$; $S(k)=p_\ell$ for the least $\ell$ with $\alpha(k,\ell)>0$.
 Two questions: the estimate, to which the label OPEN attaches, and the
 displayed question, also open.
 
-**Status.** The site labels the problem OPEN. No source approaching
+**Status.** The site labeled the problem OPEN. No source approaching
 $S(k)\ge k^{1-o(1)}$ was found in the search whose scope the Current assessment
 records. The site's proof-claim tab was empty on 2026-10-07. One partial claim
 is recorded: the refereed upper bound of [FGKMT18], inverted below. This is a

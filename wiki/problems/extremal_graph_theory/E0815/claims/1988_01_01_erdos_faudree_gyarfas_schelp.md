@@ -64,7 +64,7 @@ for $3\le k\le6$ in a 1991 collection known here only through the site.
 **Standing.** Claimed. Ars Combinatoria 25B is the proceedings of the
 Eleventh British Combinatorial Conference, and no evidence that the volume
 was refereed is recorded, so the page lists no `refereed`; the site's
-curator labels the problem DISPROVED and credits the disproof, so the
+curator labeled the problem DISPROVED and credits the disproof, so the
 commentary's sentence crediting this paper with $C_3$, $C_4$ and $C_5$ on
 $n\ge5$ vertices settles nothing and gives no `reviewed`. Narins, Pokrovskiy
 and Szabó (Combinatorica 37 (2017), 495--519, p. 3) restate the results as

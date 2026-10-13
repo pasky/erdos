@@ -28,7 +28,7 @@ Is it true that $m_n<p_n$ for almost all $n$? Does $p_n/m_n\to \infty$ for
 almost all $n$? Are there infinitely many primes $p$ such that $p-1$ is the only
 $n$ for which $m_n=p$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 07 October
+**Status.** Open. The site labeled the problem OPEN (page last edited 07 October
 2025). The derived standing is `claimed`. The site's proof-claims tab carries
 one full proof claim, by David Turturean, submitted 2026-09-23 with an Overleaf
 write-up and a Lean repository. The claim names GPT-6-Astra Pro as the system

@@ -66,7 +66,7 @@ Proposition 2, but we cannot prove this even if we take a much larger set of
 $Cn^{1/2}$ elements in the interval $[1,n]$" (p. 204; see the References).
 
 **Status.** OPEN, the site's label (page last edited 14 September 2025). The
-erdosproblems.com page keeps the problem open and notes that no finite
+erdosproblems.com page kept the problem open and notes that no finite
 computation can settle it. Its proof-claims tab lists two entries that its
 curator posted without verifying them. The page's standing, solved and answered,
 departs from that label on the accepted claim below. For the site's wording
@@ -114,7 +114,7 @@ a single kernel implementation.
 The accepting body is the bounty site alone. This is a source-supported solution
 accepted by that site, distinct from a claim of journal refereeing. There is no
 refereed publication, no erdosproblems.com acceptance and no formal-conjectures
-agreement. The erdosproblems.com page keeps the label OPEN and shows no proof
+agreement. The erdosproblems.com page kept the label OPEN and shows no proof
 claim its curator has verified. The formal-conjectures default branch of
 2026-09-18 keeps both parts `research open` with `answer(sorry)`.
 Conjectures.io's own note records that the Erdős Problem a Day report of 26 July

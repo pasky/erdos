@@ -58,7 +58,7 @@ is context, not a premise.
 
 **Standing.** Claimed. The paper is a preprint: no journal reference on
 arXiv and no Crossref record on 2026-09-18. The site's commentary credits
-the result on a problem the site labels OPEN, which is not acceptance, and
+the result on a problem the site labeled OPEN, which is not acceptance, and
 the proof-claim tab is empty; the community database records the problem
 open. Read depth: Theorems 1.2 and 1.4 and the family $\mathcal G(n)$ were
 read clause by clause; the proof (Section 4, through a vertex-stability form

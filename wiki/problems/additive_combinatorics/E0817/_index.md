@@ -61,8 +61,8 @@ translation). The displayed question appears there (p. 252) as whether
 $K(N)=\log N/\log3+O(1)$, with the authors' tentative "perhaps, we have
 $K(N)=[\log N/\log3]+2$".
 
-**Status.** Open. The site's label was OPEN on 2026-09-18, 2026-10-06 and
-2026-10-07. The sources support the following bounds. For $k=3$,
+**Status.** Open. The site's label was OPEN on 2026-09-18 and
+2026-10-06. The sources support the following bounds. For $k=3$,
 
 $$
 \Bigl(\frac{\sqrt3}{2\sqrt\pi}+o(1)\Bigr)\frac{3^n}{\sqrt n}\ \le\ g_3(n)\ \le\ 3^{n-1},
@@ -103,7 +103,7 @@ question and leaves the estimate open. For the estimate, this is a bounded
 negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/817](https://www.erdosproblems.com/817),
-accessed 2026-09-18 and 2026-10-07: the problem page (labeled OPEN, with
+accessed 2026-09-18: the problem page (labeled OPEN, with
 the site's note that the problem cannot be settled by a finite computation;
 no last-edited date; source key [Er91]; a one-sentence commentary
 attributing the problem to Erdős and Sárközy and crediting them with
@@ -308,7 +308,7 @@ separately from the AI-generated construction it cites, and that the
 author "checked the mathematical statements and references and takes full
 responsibility for the paper"; the arXiv record (v1, 5 September 2026)
 carries the same abstract. Acceptance evidence: none. No journal record,
-no site adoption (label OPEN on 2026-10-07), no independent review. The
+no site adoption (label OPEN), no independent review. The
 claim's thread carries four comments: on 5 September 2026 the author of
 [Ko26] thanked the claimant; on 6 September a commenter wrote that the
 argument looks correct and later edited the comment to add that it

@@ -42,7 +42,7 @@ $a_i\in A$; he notes that a positive answer would give three $a$'s with
 pairwise the same least common multiple, the question of Problem 536. The
 site cites [Er73] as its only source.
 
-**Status.** The site's label is DISPROVED (LEAN). The standing derives from the
+**Status.** The site's label was DISPROVED (LEAN). The standing derives from the
 claim page
 [[problems/integer_sequences/E0537/claims/1973_01_01_ruzsa|Ruzsa's construction]],
 accepted on the site's acceptance of the construction, so the problem is solved,

@@ -63,7 +63,7 @@ records the paper.
 **Acceptance.** Refereed: Ardal, H., Brown, T. and Jungić, V., Chaotic orderings
 of the rationals and reals, Amer. Math. Monthly 118 (2011), no. 10, 921–925.
 This is the December 2011 issue, which gives the date of this page. Reviewed:
-the site's curator, Thomas Bloom, labels the problem disproved, states the
+the site's curator, Thomas Bloom, labeled the problem disproved, states the
 negative answer for every $k\ge 3$ and credits it to [ABJ11]. The catalog
 statement `Erdos194.erdos_194` is marked solved with a `formal_proof` link. That
 link and the site's label DISPROVED (LEAN) point at a Lean file written with

@@ -36,7 +36,7 @@ the day is not recorded in any source read.
 the site's citation.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance by the site's
-curator, Thomas Bloom, who labels the problem PROVED and names this note as one
+curator, Thomas Bloom, who labeled the problem PROVED and names this note as one
 of its two independent proofs. The community database agrees: it lists the
 problem as proved as of its last update, 10 September 2025. Nothing else is in
 hand. The note is not held. A Crossref bibliographic query returned nothing

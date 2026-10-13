@@ -41,7 +41,7 @@ and $B$, the reading of the thread and of formal-conjectures, the answer is
 still no, by Theorem 2 of Erdős and Newman as their claim page derives. Both
 readings give the negative answer recorded here.
 
-**Status.** The site labels the problem disproved, with a Lean qualifier (page
+**Status.** The site labeled the problem disproved, with a Lean qualifier (page
 last edited 2025-12-27). The negative answer follows from Theorem 2 of [ErNe77],
 which Erdős and Graham appear to have overlooked. A separate direct construction
 has a Lean 4 proof. Both are accepted claims.

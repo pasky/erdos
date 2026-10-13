@@ -88,6 +88,6 @@ are the journal version's.
 
 **Acceptance.** Refereed: the result is a journal paper in Annals of Pure and
 Applied Logic, communicated by T. Jech. Reviewed: the curator of
-erdosproblems.com, T. F. Bloom, marks Problem 118 disproved. Bloom credits
+erdosproblems.com, T. F. Bloom, marked Problem 118 disproved. Bloom credits
 Schipperus's thesis and its published version, together with Darby, as the
 independent disproofs (problem page last edited 17 January 2026).

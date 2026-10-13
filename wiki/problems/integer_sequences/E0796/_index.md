@@ -50,7 +50,7 @@ those bounds, and so the question, with the denominator $(\log n)^2$ in the
 second term; the site prints $\log n$, reading the printed $(\log n)^2$ as a
 typo repeated through the display. Both printed forms are recorded below.
 
-**Status.** The site's label is OPEN (page last edited 16 January 2026;
+**Status.** The site's label was OPEN (page last edited 16 January 2026;
 proof-claim tab accessed 2026-10-06). The standing derives from the claim pages.
 Two pending full claims that agree make it `claimed`, with `proved` the answer
 they assert. Nothing is accepted. The asymptotic
@@ -131,7 +131,7 @@ development in
 linked at the commit the attribute names; its docstring says "The answer is
 yes: the rescaled error `normalizedError` converges." The collection's
 category and attribute record one of the July 2026 proof claims, while the
-site's label is OPEN; the disagreement is recorded under "Formalization and
+site's label was OPEN; the disagreement is recorded under "Formalization and
 the proof claims" below. The community database (as of 2026-09-18) lists the
 problem open as of its entry's last update of 31 August 2025, which does not
 date any change of state, with the statement formalized since 7 August 2026,
@@ -234,7 +234,7 @@ formal-conjectures statement; a two-sided bound with distinct constants
 would leave the question open.
 
 **Formalization and the proof claims.** The proof-claim tab lists two
-full claims of 15 July 2026, neither examined by the site, which labels
+full claims of 15 July 2026, neither examined by the site, which labeled
 the problem OPEN (page last edited 16 January 2026); each has a claim page,
 and the problem's standing is `claimed` through them:
 

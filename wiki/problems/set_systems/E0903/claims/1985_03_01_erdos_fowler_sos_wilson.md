@@ -65,11 +65,11 @@ $v$ points can have.
 **Acceptance.** Published in the Journal of Combinatorial Theory, Series A 38
 (1985), no. 2, 131–142 (`refereed`). The paper prints its receipt date,
 1982-12-09. The issue is dated March 1985 without a day, so the page is dated to
-the first day of that month. The site's curator, Thomas Bloom, lists Problem 903
-as proved and credits it to Erdős, Fowler, Sós and Wilson [EFSW85] (`reviewed`).
-The reference was reported in the problem's forum thread on 14 October 2025 by a
-commenter who says it was located with GPT-5, and the site's page was updated to
-credit it. No Lean formalization is known. The formal-conjectures statement
-file, linked from the problem page, states the result as `research solved` with
-a `sorry` body and no `formal_proof` pointer. A statement file is not a
-formalization.
+the first day of that month. The site's curator, Thomas Bloom, listed Problem
+903 as proved and credits it to Erdős, Fowler, Sós and Wilson [EFSW85]
+(`reviewed`). The reference was reported in the problem's forum thread on 14
+October 2025 by a commenter who says it was located with GPT-5, and the site's
+page was updated to credit it. No Lean formalization is known. The
+formal-conjectures statement file, linked from the problem page, states the
+result as `research solved` with a `sorry` body and no `formal_proof` pointer. A
+statement file is not a formalization.

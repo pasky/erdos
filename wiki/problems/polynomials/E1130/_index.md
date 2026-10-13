@@ -45,7 +45,7 @@ $$
 
 Describe which choice of $x_i$ maximise $\Upsilon(x_1,\ldots,x_n)$.
 
-**Status.** The site labels the problem PROVED (page last edited 17 January
+**Status.** The site labeled the problem PROVED (page last edited 17 January
 2026, label accessed 2026-09-04). The problem pairs a yes-or-no question,
 answered yes, with a request to describe the maximizing choice, so the derived
 claim value is `answered`. The site records that de Boor and Pinkus [dBPi78]

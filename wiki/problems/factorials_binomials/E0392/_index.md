@@ -33,8 +33,8 @@ $$
 A(n)=\frac{n}{2}-\frac{n}{2\log n}+o\left(\frac{n}{\log n}\right)?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived from
-the claim pages is `claimed`, `proved`, through the pending full claim
+**Status.** The site labeled the problem PROVED (LEAN). The standing derived
+from the claim pages is `claimed`, `proved`, through the pending full claim
 [[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]]. The
 claim lists no acceptance evidence, for two reasons. The site's commentary
 credits only Cambie's pairing reduction and does not name the proof's author.

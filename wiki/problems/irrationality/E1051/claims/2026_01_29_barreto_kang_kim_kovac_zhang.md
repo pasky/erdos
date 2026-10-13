@@ -81,8 +81,8 @@ up separately at
 same title and authors. The theorem labels used on this page follow the third
 arXiv version, whose comment of 2026-07-08 announces the journal acceptance.
 
-Reviewed: Thomas Bloom, the site's curator, labels the problem PROVED (LEAN). In
-the remarks the curator credits this paper with extending the solution and
+Reviewed: Thomas Bloom, the site's curator, labeled the problem PROVED (LEAN).
+In the remarks the curator credits this paper with extending the solution and
 settling the growth threshold up to the limit rate, and restates the
 golden-ratio theorem and its converse (page last edited 2026-02-01). Bloom is
 an author of neither paper.

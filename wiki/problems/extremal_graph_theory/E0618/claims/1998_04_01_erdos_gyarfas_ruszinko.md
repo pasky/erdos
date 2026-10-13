@@ -57,7 +57,7 @@ on the result page linked above.
 
 **Acceptance.** Refereed: Combinatorica 18 (1998), no. 4, 493--501. The site's
 commentary credits the authors with the bounded-degree bound. But the site's
-PROVED (LEAN) label credits Alon's solution, so the curator's credit is not an
+PROVED (LEAN) label credited Alon's solution, so the curator's credit is not an
 acceptance of this result, and `reviewed` is not listed.
 
 **Dating.** The page is dated by the issue date Crossref records for the

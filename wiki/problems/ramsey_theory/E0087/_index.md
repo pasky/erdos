@@ -152,7 +152,7 @@ September 2026, and no formal proof. Nothing was built.
 
 ## Current assessment
 
-**The question.** The corrected Statement above; the site's page is labeled
+**The question.** The corrected Statement above; the site's page was labeled
 OPEN, with the site's note that no finite computation can settle it; last
 edited 17 January 2026; no prize. The commentary, restated
 here, makes three points: Erdős's original conjecture was the unweakened

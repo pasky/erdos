@@ -53,6 +53,6 @@ and for every $n$ on
 **Acceptance.** Refereed: the paper appeared in Combinatorics, Probability and
 Computing 21 (2012), no. 1–2, 141–148, published online on 2012-02-02, the
 page's date. The site's commentary credits the range to the paper as [FRR12].
-The site labels the problem FALSIFIABLE, an open label, so this commentary is
+The site labeled the problem FALSIFIABLE, an open label, so this commentary is
 not acceptance and no `reviewed` is listed. Nothing here rests on this project's
 own review.

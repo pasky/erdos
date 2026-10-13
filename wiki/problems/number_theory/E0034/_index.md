@@ -45,7 +45,7 @@ round ("Perhaps some permutation of $\{1,2,\ldots,n\}$ has $cn^2$ such
 'interval' sums"). The site's label DISPROVED (LEAN) carries a catalog
 suffix explained under Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN), a catalog label
+**Status.** The site labeled the problem DISPROVED (LEAN), a catalog label
 explained under Formalization. Konieczny's Proposition 1.1 (J. Combinatorics 12
 (2021), 413--477, refereed; arXiv:1504.07156v5) gives, for every $n\ge1$, the
 permutation $1,n,2,n-1,3,n-2,\ldots$ with $S(\pi)\ge n^2/4$. So $S(\pi)=o(n^2)$

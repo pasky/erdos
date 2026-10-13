@@ -49,6 +49,6 @@ settles $n=1$ and $n=2$ completely.
 
 **Acceptance.** Refereed: the result is a journal paper in the Bulletin of the
 American Mathematical Society. Reviewed: the curator of erdosproblems.com, T. F.
-Bloom, labels Problem 1127 independent and credits Erdős and Kakutani with the
+Bloom, labeled Problem 1127 independent and credits Erdős and Kakutani with the
 case $n=1$ under CH (problem page last edited 30 December 2025). The curator is
 independent of the authors.

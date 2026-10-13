@@ -61,24 +61,24 @@ Appl. Math. 44 (2010)), both proved with the Lovász Local Lemma (Green,
 p. 2). A weaker reading that counted them would leave the part settled and
 the standing unchanged.
 
-**Status.** The site labels the problem SOLVED, its label for a problem resolved
-other than by a proof or disproof: the label attaches to the two explicit
-challenges, both met by refereed papers that the site's curator credits; the
-site's own commentary says that the growth of $W(3,k)$ is not fully understood
-but that both of Erdős's specific challenges have been met. The frontmatter
-lists the two challenges as the problem's parts, each settled by an accepted
-partial claim, so the derived standing is solved; the derived claim is proved,
-because both challenges are met by proved bounds. The open-ended sentence "Give
-reasonable bounds for $W(3,k)$" is not listed as a part: it is the site's
-framing of Erdős's remarks, and every question Erdős himself put, quoted in
-**Formulation.**, is answered by the claims (1980: $f_{3,v}$ grows faster than
-polynomially, by Green; 1981: a non-trivial lower bound, by Green and Hunter,
-and $f(3,v)<\exp v^\alpha$ for some $\alpha<1$, by Schoen); the order of
-magnitude that remains unknown is recorded in the Current assessment and in the
-remaining gaps. The lower-bound challenge: Green's Theorem 1.1 (Forum of
-Mathematics, Pi 10 (2022), e18), $W(3,k)\ge k^{c(\log k/\log\log k)^{1/3}}$, the
-first superpolynomial bound, improved by Hunter's Theorem 1 (Combinatorica 42
-(2022), 1231--1252; cited from the arXiv v3) to
+**Status.** The site labeled the problem SOLVED, its label for a problem
+resolved other than by a proof or disproof: the label attaches to the two
+explicit challenges, both met by refereed papers that the site's curator
+credits; the site's own commentary says that the growth of $W(3,k)$ is not fully
+understood but that both of Erdős's specific challenges have been met. The
+frontmatter lists the two challenges as the problem's parts, each settled by an
+accepted partial claim, so the derived standing is solved; the derived claim is
+proved, because both challenges are met by proved bounds. The open-ended
+sentence "Give reasonable bounds for $W(3,k)$" is not listed as a part: it is
+the site's framing of Erdős's remarks, and every question Erdős himself put,
+quoted in **Formulation.**, is answered by the claims (1980: $f_{3,v}$ grows
+faster than polynomially, by Green; 1981: a non-trivial lower bound, by Green
+and Hunter, and $f(3,v)<\exp v^\alpha$ for some $\alpha<1$, by Schoen); the
+order of magnitude that remains unknown is recorded in the Current assessment
+and in the remaining gaps. The lower-bound challenge: Green's Theorem 1.1 (Forum
+of Mathematics, Pi 10 (2022), e18), $W(3,k)\ge k^{c(\log k/\log\log k)^{1/3}}$,
+the first superpolynomial bound, improved by Hunter's Theorem 1 (Combinatorica
+42 (2022), 1231--1252; cited from the arXiv v3) to
 $W(3,k)\ge k^{c\log k/\log\log k}$. The upper-bound challenge: Schoen's
 Theorem 1 (Electron. J. Combin. 28 (2021), P2.34), $W(3,k)\le\exp(Ck^{1-c})$
 with absolute $C,c>0$. What remains open is the order of magnitude, between

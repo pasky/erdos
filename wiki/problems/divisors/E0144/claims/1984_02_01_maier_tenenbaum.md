@@ -66,7 +66,7 @@ link is pinned to the last commit that touched the file, which was added on
 problem on 2026-10-07. This corpus has not built or audited the file, so no
 `formalized` evidence is listed.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem proved and
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved and
 credits this paper. This is listed as `reviewed`. The paper is H. Maier and G.
 Tenenbaum, On the set of divisors of an integer, Invent. Math. 76 (1984), no. 1,
 121--128, received 1983-09-20. It appeared in a refereed journal and is listed

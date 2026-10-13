@@ -50,7 +50,7 @@ it out, as the site's commentary records. The change replaces "non-zero" by
 "transcendental"; a transcendental entire function is non-zero, and nothing
 else changes. The evidence is the site's own commentary, which records the
 polynomial failure and gives the intended form, $f$ transcendental, while the
-site keeps the label OPEN, which only that form fits; the formal-conjectures
+site kept the label OPEN, which only that form fits; the formal-conjectures
 statement file, which counts with the site, states the same form. The defect is
 already in the poser's text: Erdős's question (i) in [Er82e, p. 72, §IV.1] asks
 for an entire function $f(z)$ with the roots of the $f^{(n_i)}$ everywhere
@@ -63,7 +63,7 @@ it. The polynomial observation answers the site's wording only and counts for
 nothing; no claim page records it, since no one presented it as settling the
 problem. The page's standing judges the corrected Statement.
 
-**Status.** The site labels the problem OPEN (page last edited 1 October 2025),
+**Status.** The site labeled the problem OPEN (page last edited 1 October 2025),
 a label that describes the corrected Statement. The derived standing is claimed.
 Four pending full claims, each with declared AI assistance, construct such a
 transcendental function. Two were posted on the site's discussion thread on 25
@@ -104,7 +104,7 @@ above: a transcendental entire $f$ such that for every infinite sequence
 $n_1<n_2<\cdots$ the zeros of the derivatives $f^{(n_k)}$, taken together, are
 dense in $\mathbb{C}$. The site's wording, which also admits polynomials, is
 answered yes by any non-zero polynomial, as the Notes record. The site's label
-is OPEN.
+was OPEN.
 
 **History.** Erdős [Er82e] writes that the existence of the function of his
 question (i), the problem here, and of the function of his question (ii) had

@@ -53,7 +53,7 @@ coincide (Remark 1.2).
 **Covers.** The first two questions; not the third.
 
 **Standing.** Claimed: posted in the thread and not refereed. The site's label
-is OPEN; its commentary credits DeepMind's construction and thanks the
+was OPEN; its commentary credits DeepMind's construction and thanks the
 author.
 
 **Depends on.** No page of this wiki.

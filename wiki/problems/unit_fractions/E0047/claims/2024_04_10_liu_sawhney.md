@@ -66,9 +66,9 @@ Research Notices. According to the publisher's record, it was received on 28
 October 2025, accepted on 23 December 2025 and published online on 14
 January 2026.
 
-Reviewed: the site's curator, Thomas Bloom, marks the problem proved and credits
-Liu and Sawhney's improved threshold in the commentary. This acceptance is
-independent of the claimants.
+Reviewed: the site's curator, Thomas Bloom, marked the problem proved and
+credits Liu and Sawhney's improved threshold in the commentary. This acceptance
+is independent of the claimants.
 
 The corrected Theorem 1.1 chain of the rewritten proof has the corpus's graded
 independent review of 2026-09-18. It consists of a fresh-context blind

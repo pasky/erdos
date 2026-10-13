@@ -43,7 +43,7 @@ second; no converse implication is available. The site's source key is
 [Er91], a 1991 problem paper that is not held; the closest passages in other
 papers of Erdős are quoted below.
 
-**Status.** Open: the site labels the problem OPEN. The only source results in
+**Status.** Open: the site labeled the problem OPEN. The only source results in
 hand are additive. The Corollary of Burr, Erdős, Faudree and Schelp specializes
 on the diagonal to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the site's commentary
 prints $4n-8$). With the lower bound for $R(3,k)$, their Theorem 2 gives the

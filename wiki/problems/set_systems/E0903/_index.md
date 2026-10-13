@@ -34,7 +34,7 @@ one-point blocks were allowed, the wording would fail trivially, since a
 projective plane of order $p$ plus one singleton block has $n+1$ blocks. The
 page's standing concerns the reading with blocks of at least two points.
 
-**Status.** Proved. The site labels the problem PROVED (page last edited 24
+**Status.** Proved. The site labeled the problem PROVED (page last edited 24
 October 2025).
 
 **Source.** [erdosproblems.com/903](https://www.erdosproblems.com/903), accessed

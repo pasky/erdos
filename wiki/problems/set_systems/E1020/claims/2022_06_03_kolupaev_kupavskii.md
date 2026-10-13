@@ -59,6 +59,6 @@ cost of the lower bound on $k$.
 **Acceptance.** Refereed: the paper appeared in Discrete Mathematics 346 (2023),
 no. 4, Paper No. 113304. It was first posted as arXiv:2206.01526 on 2022-06-03.
 The site's commentary credits the range to the paper as [KoKu23]. The site
-labels the problem FALSIFIABLE, which is an open label, so this commentary is
+labeled the problem FALSIFIABLE, which is an open label, so this commentary is
 not acceptance and no `reviewed` is listed. Nothing here rests on this project's
 own review.

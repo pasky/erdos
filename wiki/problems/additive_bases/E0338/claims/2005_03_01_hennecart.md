@@ -54,7 +54,7 @@ covered for bases of order $3$ or more, nor for the statement's third
 question, the conditions under which the restricted order equals the order.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited
-above, in the Ramanujan Journal. The site labels the problem OPEN, so its
+above, in the Ramanujan Journal. The site labeled the problem OPEN, so its
 remarks credit the paper without settling the problem and no `reviewed`
 evidence is listed. The publication record dates the issue to March 2005 and
 gives no finer date, so the page is dated to the first day of that month.

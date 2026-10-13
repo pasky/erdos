@@ -72,8 +72,8 @@ Theorems 2.3 and 2.4 are not checked.
 149--157, published online 9 August 2007, as the journal's first page and the
 Crossref record give it. Reviewed: the site's curator, T. F. Bloom, credits the
 paper with both displayed bounds in the problem's commentary and thanks Alon
-(erdosproblems.com/804, accessed 2026-10-07). The site's label is DISPROVED, and
-the site has no comment and no proof claim. The site's formulation mixes
+(erdosproblems.com/804, accessed 2026-10-07). The site's label was DISPROVED,
+and the site has no comment and no proof claim. The site's formulation mixes
 $f(m,n)$ with a one-variable $f(n)$. The problem page records that defect and
 the two-variable reading this page targets.
 

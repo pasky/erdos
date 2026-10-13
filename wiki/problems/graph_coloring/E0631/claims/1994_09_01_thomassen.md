@@ -47,7 +47,7 @@ settled separately by
 **Acceptance.** Refereed publication: J. Combin. Theory Ser. B 62 (1994), no. 1,
 180--181, doi:10.1006/jctb.1994.1062. The Crossref record dates the issue to
 September 1994 without a day, so the page takes the first of that month as its
-date. The site's curator, T. F. Bloom, labels the problem proved and credits
+date. The site's curator, T. F. Bloom, labeled the problem proved and credits
 [Th94] for the bound. The page lists this credit as `reviewed`. The question was
 raised by Erdős, Rubin and Taylor in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]

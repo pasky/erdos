@@ -34,7 +34,7 @@ and the site reads it so, labeling the problem solved on $f(n)\sim\frac56n$.
 The exact value of $f(n)$ is not known.
 
 **Status.** Solved. The site reads the instruction to determine the size of
-$f(n)$ as asking for the constant in $f(n)\sim cn$, and labels the problem
+$f(n)$ as asking for the constant in $f(n)\sim cn$, and labeled the problem
 solved. The exact value of $f(n)$ is not known. Erdős and Gyárfás [EG97] proved
 $f(n)\ge\frac56(n-1)$ for all $n\ge4$ and $f(n)\le n$ for odd $n$, and reported
 $f(9)=8$

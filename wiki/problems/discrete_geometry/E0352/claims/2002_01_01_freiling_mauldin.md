@@ -59,7 +59,7 @@ linked above is dated April 23, 2001.
 
 **Acceptance.** None listed. The chapter appeared in a Bolyai Society volume,
 not a journal, and no evidence that the volume was refereed is recorded. The
-site's curator credits the result in the problem's commentary but labels the
+site's curator credits the result in the problem's commentary but labeled the
 problem OPEN, which is not acceptance of a claim. The convex case is classical
 through Sas's refereed theorem. Sas's paper is not credited by the site and has
 no page here.

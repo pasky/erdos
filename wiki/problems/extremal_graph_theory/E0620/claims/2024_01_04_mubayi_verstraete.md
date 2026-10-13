@@ -56,5 +56,5 @@ bound and the order of $f(n)$.
 
 **Acceptance.** `refereed`: published in the Bulletin of the London
 Mathematical Society (received 29 July 2024, accepted 14 November 2024,
-published online 20 December 2024, per the Crossref record). The site labels
+published online 20 December 2024, per the Crossref record). The site labeled
 the problem OPEN, so its commentary crediting the bound is not acceptance.

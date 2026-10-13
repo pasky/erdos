@@ -57,5 +57,5 @@ carries the first of January.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Acta Arithmetica (the paper thanks its referee). The
-site labels the problem OPEN, so its commentary crediting the paper is not
+site labeled the problem OPEN, so its commentary crediting the paper is not
 acceptance.

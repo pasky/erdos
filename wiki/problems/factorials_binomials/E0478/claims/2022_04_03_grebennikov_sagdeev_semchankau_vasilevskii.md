@@ -59,5 +59,5 @@ open.
 theorem.
 
 **Acceptance.** Refereed: Revista Matemática Iberoamericana 40 (2024). The site
-labels the problem OPEN. Its remarks credit this paper with the best known lower
-bound, but that credit is not acceptance.
+labeled the problem OPEN. Its remarks credit this paper with the best known
+lower bound, but that credit is not acceptance.

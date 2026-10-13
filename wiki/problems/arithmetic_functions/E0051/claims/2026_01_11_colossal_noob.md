@@ -53,7 +53,7 @@ problems"
 (https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems,
 Section 1(a), AI standalone) as a standalone AI attempt by ChatGPT free version
 on 11 Jan 2026 whose outcome the row gives as an incorrect proof found. The
-site's label is OPEN (page last edited 2025-09-30) and the problem's
+site's label was OPEN (page last edited 2025-09-30) and the problem's
 proof-claims tab carries no entry; the claim is recorded as rejected and decides
 nothing about the question.
 

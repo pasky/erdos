@@ -76,5 +76,5 @@ within $C+2$ of $n^{1/2}$, and the problem stays open.
 **Acceptance.** Refereed: S. S. Shrikhande and N. M. Singhi, On a problem of
 Erdős and Larson, Combinatorica 5 (1985), no. 4, 351–358, received 21 June 1983.
 It was issued in December 1985, the date this page is named by. The day is a
-placeholder for the issue month. The site labels the problem OPEN, so its credit
-is not `reviewed` evidence.
+placeholder for the issue month. The site labeled the problem OPEN, so its
+credit is not `reviewed` evidence.

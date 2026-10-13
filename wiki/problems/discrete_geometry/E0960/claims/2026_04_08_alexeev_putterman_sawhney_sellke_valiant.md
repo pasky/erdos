@@ -74,7 +74,7 @@ Erdős posed the question in his 1984 research-problem note
 ([[../library/discrete_geometry/erdos_1984_research_problems/_index|card]],
 p. 102), where he conjectured the $o(n^2)$ bound and suggested a linear one.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem disproved
+**Acceptance.** Thomas Bloom, the site's curator, marked the problem disproved
 and credits this bound on the problem's page at erdosproblems.com. The page was
 last edited 2026-04-09, and its label and credit showed on 2026-10-06. That
 credit is the `reviewed` evidence. The paper is a preprint, and no refereed

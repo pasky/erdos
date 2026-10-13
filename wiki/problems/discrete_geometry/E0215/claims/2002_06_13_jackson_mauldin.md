@@ -52,9 +52,9 @@ Daniel Mauldin, On a lattice problem of H. Steinhaus, J. Amer. Math. Soc. 15
 announcement cited by the site is Steve Jackson and R. Daniel Mauldin, Sets
 meeting isometric copies of the lattice $\mathbb Z^2$ in exactly one point,
 Proc. Natl. Acad. Sci. USA 99 (2002), no. 25, 15883-15887. The site's curator,
-T. F. Bloom, marks the problem proved and credits the result to this work.
+T. F. Bloom, marked the problem proved and credits the result to this work.
 
-The site's label carries a Lean qualification:
+The site's label carried a Lean qualification:
 [the formal-conjectures entry for the problem](https://github.com/google-deepmind/formal-conjectures/blob/11a72f9b4ffeb8a92af67ea9fd22d7a880850db1/FormalConjectures/ErdosProblems/215.lean)
 points to a Lean development in the lean-proofs repository that declares itself
 a formalization of Jackson and Mauldin's solution, with the systems Codex and

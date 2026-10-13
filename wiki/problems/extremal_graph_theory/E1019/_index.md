@@ -69,7 +69,7 @@ The forum proof is recorded below with its provenance and is not reproduced as
 this page's own. No refereed text of the theorem was found. Two third-party Lean
 developments state and prove the theorem (recorded under Formalization). Neither
 was built or audited here, so they are formal support and not acceptance
-evidence. The label rests on a printed attestation of an unpublished thesis
+evidence. The label rested on a printed attestation of an unpublished thesis
 together with a site-accepted forum proof. The claim page
 [[problems/extremal_graph_theory/E1019/claims/1971_01_01_simonovits|Simonovits]]
 records the result as accepted on that documented evidence, with the same
@@ -273,7 +273,7 @@ search for Simonovits's thesis or its later publications was made beyond
 the thread's account. Not held: the thesis, [Si75].
 
 **Remaining gaps.** (1) The status-defining text is an unpublished thesis,
-not held, known here through a forum summary; the label rests on Erdős's
+not held, known here through a forum summary; the label rested on Erdős's
 1971 attestation and the site's acceptance of that summary. Reopening
 condition: a published text of the theorem (a translation of the thesis
 chapter or a paper; the thread comment of 21 November 2025 says Simonovits

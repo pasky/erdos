@@ -60,7 +60,7 @@ which forces it to be $f_n$.
 paper.
 
 **Acceptance.** Refereed: the paper appeared in the Proceedings of the American
-Mathematical Society in September 1994. Reviewed: erdosproblems.com labels the
+Mathematical Society in September 1994. Reviewed: erdosproblems.com labeled the
 problem proved, states that Eremenko and Lempert showed the bound with Chebyshev
 polynomials as the extreme examples, and cites the paper as [ErLe94]. The corpus
 counts this as documented independent acceptance by the site's curator, T. F.

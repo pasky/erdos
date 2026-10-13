@@ -64,7 +64,7 @@ $\phi(6t+5)=4t+4$; and the first branch's solutions are exactly $2^a s$ with $s$
 in that set and $a\ge a_s$ ($a_1=2$, $a_s=1$ otherwise). The site's commentary
 credits the reduction and the branches to the preprint and relates the second
 branch to whether $\phi(q)=\tfrac23(q+1)$ has infinitely many solutions; it
-labels the problem OPEN, so the claim is pending, not accepted. The preprint is
+labeled the problem OPEN, so the claim is pending, not accepted. The preprint is
 on arXiv only, with no journal reference on its record.
 
 **Proof claim on the site.** The site's proof-claims tab carries one partial

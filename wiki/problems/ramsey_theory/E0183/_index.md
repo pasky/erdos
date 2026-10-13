@@ -29,7 +29,7 @@ $$
 \lim_{k\to \infty}R(3;k)^{1/k}.
 $$
 
-**Status.** Solved: the limit is $+\infty$. The site labels the problem SOLVED
+**Status.** Solved: the limit is $+\infty$. The site labeled the problem SOLVED
 (LEAN), and its page was last edited 1 September 2026. Its commentary credits
 the proof to an internal model at OpenAI, in the form
 $R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. The site also hosts Rob Morris's

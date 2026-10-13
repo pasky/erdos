@@ -27,7 +27,7 @@ $$
 \prod_{0\leq i\leq k}(n-i) \mid \binom{2n}{n}?
 $$
 
-**Status.** Open. The site labels the problem OPEN. The standing in the
+**Status.** Open. The site labeled the problem OPEN. The standing in the
 frontmatter derives from the claim pages. The site's commentary points to the
 OEIS entry A375077 for the least $n$ of each $k$. The entry's sixteen terms
 settle the instances $1\le k\le16$ with the answer yes. They are pending partial

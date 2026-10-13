@@ -60,7 +60,7 @@ cites the paper (no file is held); its digest is written from the arXiv v1 PDF
 
 **Acceptance.** Refereed: Colloq. Math. 179 (2025), 55–68,
 doi:10.4064/cm9628-5-2025. Reviewed: the erdosproblems.com page for Problem 270
-(last edited 2025-09-28) is labeled disproved by the site's curator, Thomas
+(last edited 2025-09-28) was labeled disproved by the site's curator, Thomas
 Bloom, who credits Crmarić and Kovač with the negative answer and states the
 every-value theorem. The site lists no proof claim or proof exposition for the
 problem. The formal-conjectures statement file for the problem, at the linked

@@ -43,14 +43,14 @@ asks for an absolute constant $C$ with $R^*(G)\le2^{Cn}$ for every $n$-vertex
 $G$; since $R^*(K_n)=R(K_n)\ge2^{n/2}$, an exponential bound is best possible
 up to the constant.
 
-**Status.** The site labels the problem PROVED. The frontmatter standing derives
-as solved from the claim page
+**Status.** The site labeled the problem PROVED. The frontmatter standing
+derives as solved from the claim page
 [[problems/ramsey_theory/E0565/claims/2025_09_26_aragao_campos_dahia_filipe_marciano|Aragão, Campos, Dahia, Filipe and Marciano 2025]],
 which records the theorem, its postings and its acceptance evidence. The answer
 is yes. Theorem 1.1 of Aragão, Campos, Dahia, Filipe and Marciano gives a
 constant $C>0$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on $n$ vertices. Their
 Theorem 1.2 gives $r^{Crn}$ for $r$ colors. The status-defining source is an
-arXiv paper (v2, 13 November 2025). The site's curator, T. F. Bloom, labels the
+arXiv paper (v2, 13 November 2025). The site's curator, T. F. Bloom, labeled the
 problem PROVED and credits the paper. Morris, whom the authors thank for reading
 the paper, reports the result as proved, with a proof outline, in the published
 text of Morris's plenary lecture at the 2026 International Congress of
@@ -153,7 +153,7 @@ Erdős--Szekeres-type induction, with a union bound over all colorings of
 $G[U]$ (Section 1.1, p. 3). Acceptance evidence: the paper is a preprint (v2
 of 13 November 2025, whose arXiv comment says the presentation was simplified
 "for journal submission"); the site's curator, T. F. Bloom,
-labels the problem PROVED and credits it, which is the acceptance the claim
+labeled the problem PROVED and credits it, which is the acceptance the claim
 page records. As context, not acceptance: the ICM 2026 plenary lecture text of
 Morris, published in the congress proceedings in July 2026, reports the
 conjecture as "recently proved" by the five authors, states it as its

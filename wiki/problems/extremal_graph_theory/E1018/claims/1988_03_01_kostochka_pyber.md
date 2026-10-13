@@ -91,7 +91,7 @@ London Math. Soc. 53 (2021), 108--118 (refereed; its arXiv copy filed on its
 opens by crediting Kostochka and Pyber with answering Erdős's question on planar
 subgraphs through this theorem, stated with the same constants. Janzer calls it
 the first result giving a subdivided $K_t$ of bounded size. The site's curator,
-Thomas Bloom, who took no part in the paper, labels the problem SOLVED and
+Thomas Bloom, who took no part in the paper, labeled the problem SOLVED and
 credits the paper with a bounded subdivision of $K_5$. The community database
 agrees. It listed the problem as solved as of its last update of 12 December
 2025, and on 2026-10-07 it listed it as solved (Lean), with a last update of 16

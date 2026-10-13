@@ -72,13 +72,13 @@ rather than proved or disproved.
 **Acceptance.** The counting theorem is refereed: Invent. Math. 201 (2015),
 925–992. The Sidon proof is in J. Combin. Theory Ser. B 121 (2016), 248–283. The
 deduction to the two questions is recorded by the site's curator, T. F. Bloom.
-Bloom labels the problem solved and states the lower bound on $A_1(N)$ in the
+Bloom labeled the problem solved and states the lower bound on $A_1(N)$ in the
 problem's remarks (page last edited 2025-12-28). This followed a forum comment
 of 2025-11-23 that pointed the deduction out. That record is the reviewed
 evidence. The source card is
 [[../library/additive_bases/saxton_2015_hypergraph_containers/_index|saxton_2015_hypergraph_containers]].
 
-**Formalization.** The site's label carries a Lean qualifier. A Lean 4 proof
+**Formalization.** The site's label carried a Lean qualifier. A Lean 4 proof
 of the conclusion (Lean v4.24.0), produced automatically by Aristotle (from
 Harmonic) from a proof of ChatGPT's choice, with the theorem statement
 written by Aristotle, and posted on 2026-01-21, proves that

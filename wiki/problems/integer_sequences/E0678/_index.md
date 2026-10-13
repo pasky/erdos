@@ -46,7 +46,7 @@ target; the fixed-$k$ reading is a Formulation note on the 1979 item, not a
 defect of the site's question. The site's source keys are [Er79, p. 67] and
 [Er92e, p. 47], with [Ca24] cited in the commentary.
 
-**Status.** Proved. The site's label is PROVED (LEAN). The status-defining
+**Status.** Proved. The site's label was PROVED (LEAN). The status-defining
 source is Cambie's Theorem 1 (arXiv:2410.09138v1, 11 October 2024, 5 pages). It
 states that for every constant $C\ge1$ and every sufficiently large $k$ there
 are integers $0<x<y$ with $y>x+k$ and

@@ -31,7 +31,7 @@ $\limsup f(n)/n=\infty$?
 
 **Formulation.** The second sentence can be read as one question, whether
 $f(n)=o(n)$ holds only for almost all $n$ with $\limsup f(n)/n=\infty$, or as
-two. The site keeps the problem OPEN after crediting Tao's disproof of
+two. The site kept the problem OPEN after crediting Tao's disproof of
 $f(n)=o(n)$, and
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1054.lean)
 states three parts: (i) is $f(n)=o(n)$? (ii) is $f(n)=o(n)$ along a set of
@@ -44,7 +44,7 @@ forum post by jif of 16 April 2026, with a verifier repository, argues that $f$
 is defined at every other $n$, using explicit constants of Helfgott and of
 Rosser and Schoenfeld.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 6 December
+**Status.** Open. The site labeled the problem OPEN (page last edited 6 December
 2025). The frontmatter standing derives from the claim pages. Two pending full
 claims answer all three parts, so the standing is claimed. The site's commentary
 credits Tao, in comments first posted under Problem 468, with disproving the

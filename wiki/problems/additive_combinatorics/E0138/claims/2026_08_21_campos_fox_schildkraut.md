@@ -70,6 +70,6 @@ this paper and has
 [[problems/additive_combinatorics/E0138/claims/2026_08_28_meta|its own claim page]].
 The OpenAI release manuscript of 23 September 2026 credits this paper with
 settling the $W(k)/2^k$ question. The site's commentary (page last edited 2
-June 2026) does not mention the paper, and the site labels the problem OPEN.
+June 2026) does not mention the paper, and the site labeled the problem OPEN.
 No Lean formalization of the paper's theorem is known, and this corpus has
 built nothing, so the page lists no evidence.

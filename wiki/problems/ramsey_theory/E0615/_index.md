@@ -48,7 +48,7 @@ by Szemerédi's upper bound and the Bollobás--Erdős construction. The site's
 label DISPROVED (LEAN) carries a catalog suffix explained under
 Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN). The claim page
+**Status.** The site labeled the problem DISPROVED (LEAN). The claim page
 [[problems/ramsey_theory/E0615/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao
 2012]] records the refereed disproof with its postings and acceptance evidence,
 and the frontmatter standing derives from that page. As a formalization link,
@@ -111,8 +111,8 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
   behind the threshold; not consumed on this page (its card and result pages
   are on [[problems/extremal_graph_theory/E0022/_index|Problem 22]]).
 
-**Formalization.** The suffix (LEAN) of the site's label is a catalog label. The
-file
+**Formalization.** The suffix (LEAN) of the site's label was a catalog label.
+The file
 [`ErdosProblems/615.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/615.lean)
 of formal-conjectures, linked at the `main` commit(5,479
 bytes), declares

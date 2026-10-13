@@ -46,7 +46,7 @@ length.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 proved. The curator credits the case $k=3$ to Goddard and Kleitman and to
 Sidorenko independently (page last edited 16 January 2026, accessed 2026-09-08
 for the problem page). The site cites Sidorenko's 1991 note in J. Graph Theory

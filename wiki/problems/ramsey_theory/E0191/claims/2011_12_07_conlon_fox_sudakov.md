@@ -61,7 +61,7 @@ is not the claim.
 **Acceptance.** Refereed: Duke Math. J. 162 (2013), no. 15, 2903--2927 (the
 arXiv record's journal reference and the Crossref record). The journal text was
 not compared with the preprint read, so locators are preprint pages. Reviewed:
-the site's curator, T. F. Bloom, labels the problem PROVED (LEAN). In the
+the site's curator, T. F. Bloom, labeled the problem PROVED (LEAN). In the
 problem's commentary the curator credits the paper with the theorem above and
 with showing Rödl's order best possible (page last edited 8 February 2026).
 

@@ -33,7 +33,7 @@ $\pi(X^{\alpha})+\pi((X+1)^{\beta})$ integers, so a density statement for
 either set holds for the other; the claim page below states the bridge, which
 is elementary and not in Lean.
 
-**Status.** Proved here. The site labels the problem OPEN (page last edited 3
+**Status.** Proved here. The site labeled the problem OPEN (page last edited 3
 April 2026). The OpenAI release of September 2026 claims that the density exists
 and equals $\rho(1/\alpha)\rho(1/\beta)$, where $\rho$ is Dickman's function.
 This is the independence Erdős asked for. The release proves the theorem in

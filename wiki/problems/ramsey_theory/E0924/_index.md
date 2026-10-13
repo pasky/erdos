@@ -40,7 +40,7 @@ colorings the question is settled for every $k$ by Folkman's Theorem 2). The
 site's Problem 582 is the case $l=3$, $k=2$; Problem 966 is the arithmetic
 analog.
 
-**Status.** The site labels the problem PROVED. The claim pages
+**Status.** The site labeled the problem PROVED. The claim pages
 [[problems/ramsey_theory/E0924/claims/1970_01_01_folkman|Folkman 1970]] (the
 case $k=2$, partial) and
 [[problems/ramsey_theory/E0924/claims/1976_06_01_nesetril_rodl|Nešetřil and Rödl 1976]]

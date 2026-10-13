@@ -29,9 +29,9 @@ $$
 
 has only finitely many solutions?
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived from
-the claim pages is `solved`, `proved`. Brindza and Erdős bounded every solution
-by an effective absolute constant
+**Status.** The site labeled the problem PROVED (LEAN). The standing derived
+from the claim pages is `solved`, `proved`. Brindza and Erdős bounded every
+solution by an effective absolute constant
 ([[problems/factorials_binomials/E0405/claims/1991_08_01_brindza_erdos|Brindza and Erdős 1991]]).
 The three solutions were determined in two refereed papers of 1996, by Yu and
 Liu

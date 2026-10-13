@@ -103,7 +103,7 @@ Sahasrabudhe and Tiba, has
 The arXiv preprint math/0507374 of 2005-07-18 is the first posting and gives the
 page its date.
 
-Reviewed: the site's curator, Thomas F. Bloom, labels the problem DISPROVED and
+Reviewed: the site's curator, Thomas F. Bloom, labeled the problem DISPROVED and
 records the answer as no. Bloom credits the paper in the problem's commentary
 and restates its density bound there (page last edited 16 July 2026). The
 problem's thread carries two editorial comments, of 12 and 13 July 2026, on the

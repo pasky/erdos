@@ -79,5 +79,5 @@ Garaev's refereed paper of 2011 (Mosc. J. Comb. Number Theory 1 (2011), no. 3,
 $\exp((\log\log x)^{A})$ for every $A>0$. Garaev's paper has its own accepted
 claim page,
 [[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]].
-The site's label is PROVED (LEAN). This corpus has not built or audited the Lean
-development linked above, so no `formalized` evidence is listed.
+The site's label was PROVED (LEAN). This corpus has not built or audited the
+Lean development linked above, so no `formalized` evidence is listed.

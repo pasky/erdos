@@ -30,7 +30,7 @@ for example, prove that $W(k)^{1/k}\to \infty$.
 bounds the site's commentary cites as the current records: Berlekamp's
 $W(p+1)\ge p2^p$ for primes $p$ [Be68], Gowers's tower upper bound [Go01]
 and Kozik and Shabanov's $W(k)\gg2^k$ [KoSh16]. The site credits them as
-the known bounds and labels the problem OPEN. They are the baseline the
+the known bounds and labeled the problem OPEN. They are the baseline the
 request asks to beat, and they settle none of the questions the problem and
 its commentary pose. The formal-conjectures file linked under Formalization
 restates Berlekamp's and Gowers's bounds as solved variants

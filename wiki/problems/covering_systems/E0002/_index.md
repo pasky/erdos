@@ -106,7 +106,7 @@ https://www.erdosproblems.com/2.
 
 **Formalization.** The site's linked artifact is a catalog statement of the
 qualitative answer whose theorem body is `sorry`; the development
-behind the site's Lean label is a lean-proofs file formalizing the proof of
+behind the site's Lean label was a lean-proofs file formalizing the proof of
 Balister, Bollobás, Morris, Sahasrabudhe and Tiba, linked at a pinned commit
 on their claim page. See Formalization and verification scope below for the
 pinned revisions and public-build limits. This corpus has built neither

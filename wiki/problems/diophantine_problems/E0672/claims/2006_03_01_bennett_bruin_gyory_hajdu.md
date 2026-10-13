@@ -51,5 +51,5 @@ Not covered: every length $k\ge12$.
 
 **Acceptance.** Refereed: Proceedings of the London Mathematical Society
 (3) 92 (2006), no. 2 (received 27 September 2004, revised 7 June 2005). The
-site's commentary credits the theorem, but the site labels the problem
+site's commentary credits the theorem, but the site labeled the problem
 VERIFIABLE, an open label, so the commentary is not `reviewed` evidence.

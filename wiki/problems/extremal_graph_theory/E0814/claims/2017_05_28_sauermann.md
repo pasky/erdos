@@ -72,13 +72,14 @@ the acceptance below credits it with the full conjecture.
 refereed journal. The Crossref record of the DOI gives volume 134 (January
 2019), pages 36--75, and the paper link's date is the issue's nominal first day.
 The acknowledgment of arXiv v2 thanks the anonymous referees. `reviewed`: the
-site's curator, Thomas Bloom, labels the problem PROVED and credits Sauermann's
+site's curator, Thomas Bloom, labeled the problem PROVED and credits Sauermann's
 paper with the proof of the full conjecture. Bloom records its bound as
 $c_k\gg1/k^3$ (the site's page on 2026-09-18, with an empty thread and an empty
-proof-claim tab). The curator is independent of the author, and the site's label
-is the `discussion` link. The community database lists the problem as proved as
-of its last update on 31 August 2025, and as formalized since 21 September 2026.
-Page numbers are those of arXiv v2 (26 June 2018), the edition on its
+proof-claim tab). The curator is independent of the author, and the `discussion`
+link is the site's page that showed the label. The community database lists the
+problem as proved as of its last update on 31 August 2025, and as formalized
+since 21 September 2026. Page numbers are those of arXiv v2 (26 June 2018), the
+edition on its
 [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|source card]].
 Fact 1.1, Conjecture 1.2, Theorem 1.3 and the deduction (pp. 1--2) were checked,
 as was the induced-subgraph remark (p. 3). The proof (pp. 3--34) was not read,

@@ -77,7 +77,7 @@ $S(k)$, which stay open.
 covering equivalence stated above.
 
 **Acceptance.** Refereed: J. Amer. Math. Soc. 31 (2018), no. 1, 65--105
-(published online 23 February 2017). The site labels the problem OPEN, so
+(published online 23 February 2017). The site labeled the problem OPEN, so
 its commentary crediting the paper's large-gap bound is not reviewed
 evidence. The page is dated by the preprint's first posting, as on
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|the paper's claim page on Problem 4]].

@@ -56,7 +56,7 @@ arbitrary. The length counts points, so a five-term progression has four
 unit gaps. "With distance $1$" means a unit common difference, as the
 site's remarks explain.
 
-**Status.** Open. The site labels the problem OPEN. The public sources compiled
+**Status.** Open. The site labeled the problem OPEN. The public sources compiled
 as of 2026-09-13 give
 
 $$

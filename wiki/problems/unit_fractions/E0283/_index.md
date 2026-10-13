@@ -52,7 +52,7 @@ $p(x)=x$ (Graham 1963, refereed) and $p(x)=x^2$ (Alekseyev 2019, a
 published book chapter) are recorded below (Graham's accepted, Alekseyev's
 pending); the general case is the question.
 
-**Status.** The site's label is PROVED (LEAN). The Lean suffix is a catalog
+**Status.** The site's label was PROVED (LEAN). The Lean suffix is a catalog
 label explained under Formalization and the Lean label. The standing in the
 frontmatter derives from the claim pages. These are the full claim
 [[problems/unit_fractions/E0283/claims/2026_05_03_price|Price 2026]], accepted

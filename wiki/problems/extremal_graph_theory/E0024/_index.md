@@ -28,7 +28,7 @@ counted once, not one of its ten cyclically ordered vertex labelings. Every
 five-cycle in a triangle-free graph is induced, since any chord would create a
 triangle.
 
-**Status.** Proved. The site's label reads "PROVED (LEAN)". The claim pages are
+**Status.** Proved. The site's label read "PROVED (LEAN)". The claim pages are
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik]] and
 [[problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov|Hatami, Hladký, Král', Norine and Razborov]],
 both accepted on their refereed publications and the curator's credit. The 2026

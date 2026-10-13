@@ -63,7 +63,7 @@ structure only, and nothing here is independently reviewed.
 sequence $\{n_k\xi\}$*, Illinois J. Math. 23, no. 4 (December 1979), 511--515,
 received 14 February 1979. Erdős announced in 1982 that de Mathan and Pollington
 had settled the problem independently. Katznelson records the same, and Peres
-and Schlag credit both papers. The site's curator, Thomas F. Bloom, marks
+and Schlag credit both papers. The site's curator, Thomas F. Bloom, marked
 Problem 464 proved and credits this paper, with de Mathan's, with the solution.
 The page is dated by the first day of the issue month, since the paper's first
 posting carries no finer date.

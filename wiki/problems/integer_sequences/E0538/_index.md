@@ -48,7 +48,7 @@ of the bound on $r$ is a further question. For $r=2$ the hypothesis is the
 one Ruzsa's construction satisfies on Problem 537. The site cites [Er73] as
 its only source.
 
-**Status.** The site labels the problem OPEN (the page shows no last-edited
+**Status.** The site labeled the problem OPEN (the page shows no last-edited
 date). The derived standing is claimed, answered. It departs from the site's
 OPEN only by counting a pending full claim, following the claimant's own scope
 label on the tab. It is not a judgment on the argument, which no outside review

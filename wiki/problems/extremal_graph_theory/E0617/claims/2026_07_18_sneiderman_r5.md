@@ -100,7 +100,7 @@ July 2026. The corpus has not built this Lean development, so it gives no
 `formalized` evidence.
 
 **Standing.** Claimed. The preprint is unrefereed, and the proof-claim entry
-names GPT 5.6 Sol as the system used; the site's label is FALSIFIABLE. The
+names GPT 5.6 Sol as the system used; the site's label was FALSIFIABLE. The
 claim carries three comments (23 to 25 July 2026): Johan Land reports an
 independent, AI-assisted proof of the same case by a different route
 (edge-floor chains with a $K_{21}$ obstruction and a degree-amplified

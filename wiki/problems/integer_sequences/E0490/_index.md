@@ -42,8 +42,8 @@ the primes in $(N/2,N]$) shows the bound is best possible up to the
 constant; Erdős and Szemerédi's construction (1976, display (6)) gives
 $|A||B|>N^2/\log N-N^2\log\log N/(\log N)^2+o(N^2\log\log N/(\log N)^2)$.
 
-**Status.** The site's label is PROVED (LEAN). The site records the statement as
-true and attributes the proof to Szemerédi [Sz76] (J. Number Theory 8 (1976),
+**Status.** The site's label was PROVED (LEAN). The site records the statement
+as true and attributes the proof to Szemerédi [Sz76] (J. Number Theory 8 (1976),
 264--270). The standing derives from the claim pages.
 [[problems/integer_sequences/E0490/claims/1972_05_02_szemeredi|Szemerédi's claim]]
 is accepted on the refereed publication and the site's acceptance, and

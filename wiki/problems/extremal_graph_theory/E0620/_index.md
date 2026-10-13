@@ -87,7 +87,7 @@ and the deduction is written out on the corollary's result page.
 
 No refereed source determining the order was found in the search whose scope the
 Current assessment records. The July 2026 preprint that the search found is the
-claim above, which the site has not adopted. This is a bounded negative finding
+claim above, which the site had not adopted. This is a bounded negative finding
 about the refereed record, not a certificate of openness. Refereed results give
 more than they print. Corollary 2 of [JMRS21] yields $f(n)\ge c\sqrt{n\log n}$
 in one line, as the Current assessment records, so the gap they leave is of
@@ -448,7 +448,7 @@ source of this page's derived standing; it is not accepted.
   behind the corollary. The route through [OAI26] above reaches the same bound
   without that theorem. The new part of the claim is the upper bound. A
   discussion comment of 7 September 2026 reports the preprint as a solution;
-  the site's label is OPEN and the page carries no
+  the site's label was OPEN and the page carries no
   update note. The preprint is
   unrefereed (no journal reference on the arXiv record on 2026-10-07 and no
   Crossref record on 2026-09-18) and not held; no review or acceptance

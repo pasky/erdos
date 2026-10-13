@@ -57,6 +57,6 @@ by the logarithm and was superseded by the linear range of
 **Acceptance.** Refereed: the paper appeared in the Electronic Journal of
 Combinatorics, volume 19, issue 2, Paper 42, published on 2012-06-13, which is
 the page's date. The site's commentary credits the range to the paper as
-[FLM12]. The site labels the problem FALSIFIABLE, which is an open label, so
+[FLM12]. The site labeled the problem FALSIFIABLE, which is an open label, so
 this commentary is not acceptance and no `reviewed` is listed. Nothing here
 rests on this project's own review.

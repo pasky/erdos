@@ -60,6 +60,6 @@ None outside the paper beyond elementary additive combinatorics (Section
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the statement is the
-  problem's question, answered yes; the site's label rests on it, and the
+  problem's question, answered yes; the site's label rested on it, and the
   companion [[integer_sequences/bedert_2023_problem_erdos_sarkozy_about_sequences_no/theorem_2|Theorem 2]]
   gives the exact value for large $n$.

@@ -59,7 +59,7 @@ $2^{\sqrt{2\log_2n}-O(1)}$, is far smaller.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Mathematical Proceedings
-of the Cambridge Philosophical Society, volume 181. The site labels the
+of the Cambridge Philosophical Society, volume 181. The site labeled the
 problem OPEN, so its commentary crediting Janzer and Yip is not an acceptance,
 and no `reviewed` evidence is listed.
 

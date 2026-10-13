@@ -112,7 +112,7 @@ yes),
 indecomposable ordinals, no for four or more). Apart from the trivial
 $\beta\le1$, only $\beta=\omega^\gamma$ with $\gamma$ the sum of three
 indecomposable ordinals stays undecided, so the problem stays open. The site's
-label is OPEN, and its commentary is not acceptance; the claims rest on their
+label was OPEN, and its commentary is not acceptance; the claims rest on their
 journal publication. This page records no current literature search.
 <!-- BEGIN problem library links -->
 

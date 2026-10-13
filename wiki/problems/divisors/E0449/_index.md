@@ -31,11 +31,11 @@ $$
 
 for almost all $n$, where $\tau(n)$ is the number of divisors of $n$?
 
-**Status.** Disproved on the site. The curator credits Kevin Ford's observation
-that $r(n)>K\tau(n)$ holds on a set of positive density for every $K$. The
-observation is deduced by a Cauchy-Schwarz bound from the dyadic divisor count
-of Problem 448. The curator also cites Hall and Tenenbaum's book for the
-argument on an essentially identical problem. See the
+**Status.** Labeled disproved on the site. The curator credits Kevin Ford's
+observation that $r(n)>K\tau(n)$ holds on a set of positive density for every
+$K$. The observation is deduced by a Cauchy-Schwarz bound from the dyadic
+divisor count of Problem 448. The curator also cites Hall and Tenenbaum's book
+for the argument on an essentially identical problem. See the
 [[problems/divisors/E0449/claims/2024_07_13_ford|claim page]]. The standing in
 the frontmatter derives from the claim pages. A December 2025 report in the
 discussion thread said that ByteDance Seed's Seed-Prover 1.5 had solved this

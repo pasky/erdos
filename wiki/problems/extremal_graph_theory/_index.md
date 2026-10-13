@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-13T11:00:13Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -133,7 +133,7 @@ $n-c\sqrt{n\log n}$ asymptotically.
 
 [[problems/extremal_graph_theory/E0167/_index|E0167/]]: Asks whether a graph
 with at most $k$ edge-disjoint triangles can be made triangle-free by deleting
-at most $2k$ edges (Tuza's conjecture). It is open, the site's label is
+at most $2k$ edges (Tuza's conjecture). It is open, the site's label was
 falsifiable, and Haxell's $66/23$ is the best refereed constant.
 
 [[problems/extremal_graph_theory/E0180/_index|E0180/]]: Asks whether every
@@ -473,7 +473,7 @@ copies of $K_r$. This is Erdős's conjecture, proved by Hajnal and Szemerédi in
 [[problems/extremal_graph_theory/E0915/_index|E0915/]]: Asks whether a graph
 with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$ edges has two vertices joined by
 $m$ disjoint paths. False for $m\ge5$ if the paths are vertex-disjoint, true for
-every $m$ if they are edge-disjoint; the site labels it solved.
+every $m$ if they are edge-disjoint; the site labeled it solved.
 
 [[problems/extremal_graph_theory/E0916/_index|E0916/]]: Asks whether, for
 $n\ge4$, every graph with $n$ vertices and $2n-2$ edges has a cycle and another

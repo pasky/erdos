@@ -23,11 +23,11 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Find all $n$ such that there is at least one triangle which can
 be cut into $n$ congruent triangles.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 30 December
-2025) and has adopted none of the claims below. Its proof-claims thread carries
-two partial claims, posted 17 and 24 July 2026. Seven further partial claims,
-each with a claim page below, come from the literature the site's remarks credit
-and from manuscripts posted elsewhere.
+**Status.** Open. The site labeled the problem OPEN (page last edited 30
+December 2025) and has adopted none of the claims below. Its proof-claims thread
+carries two partial claims, posted 17 and 24 July 2026. Seven further partial
+claims, each with a claim page below, come from the literature the site's
+remarks credit and from manuscripts posted elsewhere.
 
 **Source.** [erdosproblems.com/634](https://www.erdosproblems.com/634), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #634,

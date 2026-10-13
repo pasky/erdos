@@ -24,7 +24,7 @@ updated: 2026-10-08T13:36:53Z
 set $E\subset \mathbb{R}$ of positive measure which does not contain any set of
 the shape $aA+b$ for some $a,b\in\mathbb{R}$ and $a\neq 0$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 23 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 23 January
 2026). The derived standing is open. None of the claims below touches the
 general question, and the one claim of the full conjecture, by
 [[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|Cruz, Lai and Pramanik in 2020]],
@@ -93,7 +93,7 @@ hypothesis that $A$ is infinite is needed; the conjecture holds in many
 special cases, and the commentary names the dyadic sequence
 $\{1,1/2,1/4,\ldots\}$ as an open one, Problem 94 on Green's list, pointing
 to the surveys of Svetic [Sv00] and of Jung, Lai and Mooroogen [JLM24] for
-the known cases. The label is OPEN, the tab of proof claims is empty, and the
+the known cases. The label was OPEN, the tab of proof claims is empty, and the
 discussion thread carries three comments.
 
 **Known results.** The survey [JLM24], whose card this corpus holds, records the

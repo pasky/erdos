@@ -146,7 +146,7 @@ a Lean repository: for every odd $n\ge2^{10^8}$ the regular polygon is the
 unique maximizer, and for every even $n\ge2^{10^{120}}$ the maximizer is
 unique and its diameter graph is a cycle on $n-3$ vertices with three
 pendant edges. The one thread comment notes that the problem asks for every
-$n$. The site labels the problem OPEN (page last edited 02 April 2026),
+$n$. The site labeled the problem OPEN (page last edited 02 April 2026),
 and the claim is recorded as a partial claim on
 [[problems/analysis/E1045/claims/2026_09_22_hu|its page]].
 <!-- BEGIN problem library links -->

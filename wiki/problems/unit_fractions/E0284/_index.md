@@ -51,7 +51,7 @@ $\max\{x_1\}\sim k/(e-1)$, and notes that the monograph misstated it. The
 site's statement is the corrected form.
 
 **Status.** Proved, in the site's label. The site's commentary calls the problem
-essentially solved by Croot, and its PROVED label rests on that credit. The
+essentially solved by Croot, and its PROVED label rested on that credit. The
 status-defining source is Croot's Main Theorem (Acta Arith. 99 (2001), no. 2,
 99--114; refereed). For every $N>1$ it gives a representation $1=\sum1/x_i$ with
 $N<x_1<\cdots<x_k\le(e+o(1))N$. This gives $f(k)=(1+o(1))k/(e-1)$ for the

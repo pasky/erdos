@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T23:28:38Z
+updated: 2026-10-13T11:00:13Z
 ---
 
 # Ramsey Theory
@@ -93,7 +93,7 @@ coloring of $\mathbb{N}$ has arbitrarily large finite sets $A$ whose sums and
 products of distinct elements all have one color.
 
 [[problems/ramsey_theory/E0181/_index|E0181/]]: Asks whether $R(Q_n)\ll 2^n$ for
-the $n$-dimensional hypercube graph $Q_n$, which has $2^n$ vertices. It is open
+the $n$-dimensional hypercube graph $Q_n$, which has $2^n$ vertices. It was open
 on the site, and a 2026 OpenAI release preprint claims the linear bound in full.
 
 [[problems/ramsey_theory/E0183/_index|E0183/]]: Asks for
@@ -419,8 +419,8 @@ site's thread deduced in 2026.
 
 [[problems/ramsey_theory/E1199/_index|E1199/]]: Asks whether every two-coloring
 of $\mathbb{N}$ admits an infinite set whose pairwise sums, doubles included,
-share one color (Owings's question). The site lists it as open, the analogue for
-three colors is false, and a proof for two colors is claimed.
+share one color (Owings's question). The site listed it as open, the analogue
+for three colors is false, and a proof for two colors is claimed.
 
 [[problems/ramsey_theory/E1211/_index|E1211/]]: Asks how large the larger upper
 logarithmic density of the two subset-sum sets must be when $\mathbb{N}$ is

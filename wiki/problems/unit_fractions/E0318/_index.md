@@ -49,7 +49,7 @@ density has it, the third whether the squares other than $1$ have it.
 and $1$ must be excluded from the squares because
 $\sum_{k\ge2}1/k^2=\pi^2/6-1<1$: on all the squares, $f(1)=1$ and $f=-1$
 elsewhere has no zero-sum, the trivial failure the site notes. The three
-questions have mixed answers (yes, no, yes), which is why the site labels the
+questions have mixed answers (yes, no, yes), which is why the site labeled the
 problem SOLVED rather than PROVED or DISPROVED.
 
 **Status.** Solved, in the site's label, which the site glosses as a resolution
@@ -271,7 +271,7 @@ author's thread comment of 1 February 2026 announcing the note as an
 application of the technical result of Larsen's work on Problem 825; no arXiv
 listing, journal record or
 independent review was found, and the proof is unchecked by
-this corpus. For the third question the label rests on this preprint; Ren's
+this corpus. For the third question the label rested on this preprint; Ren's
 Lean package of 16 September 2026, linked on the claim page, formalizes it
 but has not been built here.
 

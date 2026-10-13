@@ -27,7 +27,7 @@ updated: 2026-10-08T14:17:37Z
 then some vertex has at least $\lfloor \frac{n}{2}\rfloor$ different distances
 to other vertices.
 
-**Status.** Falsifiable. The site labels the problem FALSIFIABLE, since a
+**Status.** Falsifiable. The site labeled the problem FALSIFIABLE, since a
 counterexample is a finite check. Its page was last edited on 19 October 2025,
 and the label was unchanged on 2026-10-06. The site credits three refereed lower
 bounds that settle small cases, and each has an accepted partial claim page:

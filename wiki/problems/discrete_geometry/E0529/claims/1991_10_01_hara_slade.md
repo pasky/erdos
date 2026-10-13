@@ -81,8 +81,9 @@ Self-avoiding walk in five or more dimensions. I. The critical behaviour, Comm.
 Math. Phys. 147 (1992), no. 1, 101--136, and The lace expansion for
 self-avoiding walk in five or more dimensions, Rev. Math. Phys. 4 (1992), no. 2,
 235--327. The site's commentary records the result for $k\ge5$, but the site
-labels the problem OPEN, so that remark is not acceptance of the problem and the
-page lists no `reviewed` evidence. The proofs are not compiled in this corpus.
+labeled the problem OPEN, so that remark is not acceptance of the problem and
+the page lists no `reviewed` evidence. The proofs are not compiled in this
+corpus.
 
 **Dating.** The page is dated by the issue month of the announcement in the
 publisher's record, October 1991; the day is a placeholder. The two proof

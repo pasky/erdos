@@ -105,7 +105,7 @@ $\log n_k\asymp k/\log k$ are unproved.
 **Standing.** Claimed. The site's curator, Thomas Bloom, who is
 independent of the authors, took the theorem into the problem's commentary
 on 21 June 2026, stating the bound with an unspecified constant and
-crediting the argument to GPT 5.5 Pro and to Tang; the site labels the
+crediting the argument to GPT 5.5 Pro and to Tang; the site labeled the
 problem OPEN, so that commentary is not an acceptance of the claim and no
 evidence is listed. Not refereed: on 2026-09-18 the
 arXiv listing showed one version and no journal reference, and Crossref

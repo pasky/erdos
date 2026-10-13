@@ -72,7 +72,7 @@ whose criterion refines the sphere condition proved here.
 Combinatorial Theory, Series A, volume 14, issue 3 (May 1973). This is the
 `refereed` evidence. The issue carries no day, so this page is dated to the
 first day of that month. In the problem's commentary the site's curator credits
-both results to [EGMRSS73]. The site labels the problem OPEN, however, so that
+both results to [EGMRSS73]. The site labeled the problem OPEN, however, so that
 credit is not `reviewed` evidence. The library's complete reconstructions of
 Theorems 13 and 20 are the corpus's own reading. They are not an independent
 review.

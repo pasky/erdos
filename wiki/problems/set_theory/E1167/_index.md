@@ -76,7 +76,7 @@ states the question for finite $r$ with $\kappa_\nu>r$ and a condition on
 $\gamma$ that the site's curator reads as $\gamma\ge2$, taking the printed
 inequality for a misprint. The curator's reply in the
 [discussion thread](https://www.erdosproblems.com/forum/thread/1167) points to
-these conditions rather than accepting a disproof, and the site keeps the label
+these conditions rather than accepting a disproof, and the site kept the label
 OPEN. The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1167.lean)
 adds $\gamma\ge2$ and $\kappa_\alpha>r$ and proves the first counterexample as
@@ -89,7 +89,7 @@ on
 [[problems/set_theory/E1167/claims/2026_01_31_zeraoulia|Zeraoulia's rejected claim page]].
 The problem's standing judges the corrected Statement.
 
-**Status.** The site's label is OPEN. The corrected Statement, with the
+**Status.** The site's label was OPEN. The corrected Statement, with the
 conditions $\gamma\ge2$ and $\kappa_\alpha>r$, is open. The counterexample to
 the site's wording at $\gamma=1$ is credited in the Notes and recorded on a
 rejected claim page.
@@ -123,10 +123,10 @@ the premise holds and the conclusion fails. Rafik Zeraoulia gave this
 counterexample in a note of 31 January 2026, recorded as rejected on
 [[problems/set_theory/E1167/claims/2026_01_31_zeraoulia|Zeraoulia's page]],
 since it answers the site's wording, not the corrected Statement. The site
-labels the problem OPEN, and its curator's reply in the discussion thread points
-to the conditions of the Erdős–Hajnal list rather than accepting a disproof. The
-corrected Statement, which adds those conditions, is the statement this page's
-standing judges.
+labeled the problem OPEN, and its curator's reply in the discussion thread
+points to the conditions of the Erdős–Hajnal list rather than accepting a
+disproof. The corrected Statement, which adds those conditions, is the statement
+this page's standing judges.
 
 The corrected Statement, with the list's conditions $2\le r<\omega$,
 $\gamma\ge2$ and $\kappa_\alpha>r$, is open. Erdős, Hajnal, Máté and Rado prove

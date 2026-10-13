@@ -51,5 +51,5 @@ Bombieri–Vinogradov theorem as its level of distribution.
 **Acceptance.** Refereed publication: Ann. of Math. (2) 170 (2009), no. 2,
 819--862, doi:10.4007/annals.2009.170.819. The arXiv version was first posted on
 10 August 2005, the date of this page. Not reviewed: the site's commentary
-credits $0$ as a limit point to [GPY09], but the site labels the problem OPEN,
+credits $0$ as a limit point to [GPY09], but the site labeled the problem OPEN,
 so that commentary is not acceptance.

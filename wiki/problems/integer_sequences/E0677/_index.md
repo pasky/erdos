@@ -43,7 +43,7 @@ $A(n;k)=\prod_{i\le k}(n+i)$; the passage is quoted under Current
 assessment. The site's source keys are
 [Er79], [Er79d] and [ErGr80], with [Gu04] cited in the commentary.
 
-**Status.** The site's label is Open. No proof or disproof of the same-$k$
+**Status.** The site's label was Open. No proof or disproof of the same-$k$
 conjecture was found in the search whose scope the Current assessment records.
 This is a bounded negative finding, not a certificate of openness.
 

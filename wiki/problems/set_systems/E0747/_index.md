@@ -34,7 +34,7 @@ formal-conjectures statement `erdos_747` asks for $(1\pm\varepsilon)n\log n$.
 Johansson, Kahn and Vu's abstract calls their order-of-magnitude threshold a
 solution of Shamir's problem; under this reading it is a partial answer.
 
-**Status.** Solved. The site labels the problem SOLVED. It records that Shamir
+**Status.** Solved. The site labeled the problem SOLVED. It records that Shamir
 asked the question of Erdős in 1979, hence the name Shamir's problem, and that
 Erdős saw no way to guess the answer. It credits Johansson, Kahn and Vu [JKV08]
 with the threshold $\ell(n)\asymp n\log n$ and Kahn [Ka23] with the asymptotic

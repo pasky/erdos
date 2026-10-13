@@ -325,7 +325,7 @@ in which every edge lies in at most two triangles, and which says where the
 method stops ($n\ge40$). It is recorded, with its links and its own account of
 what was and was not checked, on
 [[problems/extremal_graph_theory/E0151/claims/2026_09_28_veljjanoski|its claim page]]
-as claimed; the site's label is unchanged (OPEN; page last edited 2 December
+as claimed; the site's label was unchanged (OPEN; page last edited 2 December
 2025), and no step of the write-up has been checked. A partial claim derives
 nothing for the standing. The write-up credits its reduction to [issue
 9934](https://github.com/the-omega-institute/trureturing/issues/9934) of a

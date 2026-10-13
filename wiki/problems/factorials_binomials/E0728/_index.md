@@ -32,7 +32,7 @@ $$
 
 and $a+b>n+C\log n$?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 6 January 2026). The standing in the frontmatter derives from the claim
 pages. The site's commentary notes that the statement as printed is ambiguous
 (see the assessment below).

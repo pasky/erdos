@@ -59,7 +59,7 @@ not covered.
 arXiv on 2026-09-29; a comment in the site's discussion thread linked it on
 2026-10-03. The authors state that AI tools were used only for proofreading
 and not in generating the mathematical ideas. The preprint is not refereed,
-the site's label is OPEN and its commentary does not credit the result, and
+the site's label was OPEN and its commentary does not credit the result, and
 nothing was built here, so the claim stays `claimed`.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited preprint.

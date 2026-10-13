@@ -68,7 +68,7 @@ the question with the site's number 305; its statement matches this problem.
 DOI 10.1093/imrn/rnaf382. According to the publisher's record, it was received
 on 28 October 2025, accepted on 23 December 2025 and published online on 14
 January 2026. This is the `refereed` evidence. The site's curator, Thomas Bloom,
-labels the problem proved and credits the estimate to this paper on the problem
+labeled the problem proved and credits the estimate to this paper on the problem
 page (last edited 18 November 2025). The curator is not an author, and that
 credit is the `reviewed` evidence.
 

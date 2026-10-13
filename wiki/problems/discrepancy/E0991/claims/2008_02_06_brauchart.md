@@ -72,7 +72,7 @@ $s=0$, which is $O(N^{-1/4})$ on $S^2$. The paper is not held in the library.
 alone.
 
 **Acceptance.** Refereed: Math. Comp. 77 (2008), 1599–1613, published
-electronically 2008-02-06. Reviewed: the site's curator, T. F. Bloom, lists the
+electronically 2008-02-06. Reviewed: the site's curator, T. F. Bloom, listed the
 problem as proved. The curator credits this paper with the rate $\ll n^{3/4}$
 and with the remark that the qualitative statement is classical potential
 theory. The site notes that the attribution is therefore unclear (site page

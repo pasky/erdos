@@ -72,7 +72,7 @@ introduction of Chen, Garti and Weinert, as the
 records, and the chapter's theorem numbering is unknown. The volume carries
 only the year, so this page is dated the first of January 1989.
 
-**Acceptance.** None, so the claim stays `claimed`. The site labels Problem 597
+**Acceptance.** None, so the claim stays `claimed`. The site labeled Problem 597
 OPEN, and its commentary does not mention the theorem. The chapter appeared in a
 Springer Lecture Notes in Mathematics proceedings volume. There is no evidence
 that the volume's chapters were refereed, so `refereed` is not listed. The same

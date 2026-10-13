@@ -53,7 +53,7 @@ sets $s$. With that reading the site's positive integers with two colors
 follow by assigning $0$ to either class, and no removal of $0$ from $X$ is
 needed (an observation made here).
 
-**Status.** The site labels the problem PROVED (LEAN), and its curator credits
+**Status.** The site labeled the problem PROVED (LEAN), and its curator credits
 Hindman [Hi74] with the proof for every finite number of colors. Hindman's
 theorem (J. Combin. Theory Ser. A 17 (1974), 1--11, refereed) answers the
 question for every finite coloring. The paper is in the publisher's open

@@ -30,15 +30,15 @@ updated: 2026-10-07T21:38:27Z
 $\mathbb{R}^d$, there exist at most $f_d(n)$ pairs of points which distance $1$
 apart. Estimate $f_d(n)$.
 
-**Status.** OPEN on the site (page last edited 23 May 2026). The standing in the
-frontmatter, derived from the claim pages, is open, because the plane and space
-are open. The site's remarks call $d=2$ and $d=3$ the most difficult cases. They
-credit the results that determine $f_d(n)$ in dimension four and above. The
-frontmatter lists the problem's parts as `plane` ($d=2$), `space` ($d=3$),
-`even_dimensions` (even $d\ge4$) and `odd_dimensions` (odd $d\ge5$). The claim
-pages in `claims/` record the literature for $d\ge4$ as partial claims that
-settle the last two parts. They record OpenAI's planar power saving as an
-accepted partial claim that settles no part.
+**Status.** Labeled OPEN on the site (page last edited 23 May 2026). The
+standing in the frontmatter, derived from the claim pages, is open, because the
+plane and space are open. The site's remarks call $d=2$ and $d=3$ the most
+difficult cases. They credit the results that determine $f_d(n)$ in dimension
+four and above. The frontmatter lists the problem's parts as `plane` ($d=2$),
+`space` ($d=3$), `even_dimensions` (even $d\ge4$) and `odd_dimensions` (odd
+$d\ge5$). The claim pages in `claims/` record the literature for $d\ge4$ as
+partial claims that settle the last two parts. They record OpenAI's planar power
+saving as an accepted partial claim that settles no part.
 
 **Source.** [erdosproblems.com/1085](https://www.erdosproblems.com/1085),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1085,

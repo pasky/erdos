@@ -82,7 +82,7 @@ difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by at
 most one edge). The site's label PROVED (LEAN) carries a catalog suffix
 explained under Formalization.
 
-**Status.** The site shows PROVED (LEAN). The label describes the corrected
+**Status.** The site showed PROVED (LEAN). The label describes the corrected
 Statement, the form the sources prove. Its Lean qualification is a catalog
 suffix explained under Formalization. The corrected Statement holds by Theorem 2
 of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$. This is
@@ -196,7 +196,7 @@ Yes".
 
 **The question (site wording accessed).** The site's statement
 above, which fails for $n<r$, and the corrected Statement below it (Notes);
-the site shows PROVED (LEAN), the label of the corrected Statement; last
+the site showed PROVED (LEAN), the label of the corrected Statement; last
 edited 3 April 2026. The commentary attributes the conjecture to Bollobás and
 Erdős, mentions the name balanced clique for an $r$-clique whose average
 degree is at least the graph's, says that [Er75] conjectured only the case

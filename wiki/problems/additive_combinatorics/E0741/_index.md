@@ -40,12 +40,12 @@ question has the answer no (the counterexample on the
 the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
-**Status.** Proved. The site labels the problem SOLVED (LEAN), and the suffix is
-a catalog label explained under Formalization. Both questions are answered yes.
-The first is answered under the upper-density reading of the Formulation. The
-second is answered by an explicit basis of order $2$ that no bipartition splits
-into two self-sumsets with bounded gaps. There are three claim pages. The first
-is the
+**Status.** Proved. The site labeled the problem SOLVED (LEAN), and the suffix
+is a catalog label explained under Formalization. Both questions are answered
+yes. The first is answered under the upper-density reading of the Formulation.
+The second is answered by an explicit basis of order $2$ that no bipartition
+splits into two self-sumsets with bounded gaps. There are three claim pages. The
+first is the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind prover agent's three Lean proofs]],
 posted on the site's thread by Moritz Firsching. It is a full claim, accepted on
 the site curator's credit. The second is the

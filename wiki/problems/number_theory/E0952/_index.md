@@ -44,7 +44,7 @@ steps by an integer $C$, the same condition. The statement prescribes no
 starting point; the computational "moats" around the origin (below)
 concern walks that start there.
 
-**Status.** Disproved. The site labels the problem OPEN (page last edited 08
+**Status.** Disproved. The site labeled the problem OPEN (page last edited 08
 April 2026; accessed 2026-09-18). The accepted claim is
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the 2026 OpenAI manuscript]].
 It answers the question negatively for every step bound and every starting
@@ -199,7 +199,7 @@ the corpus's verification built the release's Lean declaration
 pinned by the release's comparator challenge, is exactly the question above
 with every real step bound, every starting point, and associates and axis
 primes included. No refereed publication or review independent of the release
-is recorded, and the site's label is unchanged. The statement audit and the
+is recorded, and the site's label was unchanged. The statement audit and the
 links are on
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the claim page]]; the
 manuscript's statements are on the library card cited in the References, with
@@ -274,7 +274,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. [JoRa70], [GWW98] and
 [Ts05] are known here by their records, and [Va98] by pp. 276--277.
 
 **Remaining gaps.** (1) The question is settled negatively by the accepted
-claim; the site's label is OPEN, and no refereed
+claim; the site's label was OPEN, and no refereed
 publication or review independent of the release is recorded. The bound $B_D$
 of [OAI26] is not explicit, so the size of the largest component for a given
 step length remains undetermined. (2) [JoRa70], [GWW98] and [Ts05] are known

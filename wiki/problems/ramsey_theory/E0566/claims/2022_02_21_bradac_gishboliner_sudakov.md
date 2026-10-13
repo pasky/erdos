@@ -56,7 +56,7 @@ alone.
 **Acceptance.** Refereed: SIAM J. Discrete Math. 38 (2024), no. 1, 225--242. The
 paper was received on 1 March 2022, accepted in revised form on 10 August 2023
 and published electronically on 9 January 2024. The page is dated by the first
-arXiv posting, 21 February 2022. The site labels the problem OPEN, and its
+arXiv posting, 21 February 2022. The site labeled the problem OPEN, and its
 commentary on Problem 566 does not mention the paper.
 
 **Read depth.** The statement of Theorem 4 and the paper's definition of Ramsey

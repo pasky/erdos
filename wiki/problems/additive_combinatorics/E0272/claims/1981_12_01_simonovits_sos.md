@@ -74,7 +74,7 @@ page.
 **Acceptance.** Refereed: European Journal of Combinatorics 2 (1981), no. 4,
 363--372, at the DOI linked above. The publication record dates the issue to
 December 1981, so the date was filled to the first of the month for this page's
-name. Reviewed is not listed. The site labels the problem OPEN. Its commentary
+name. Reviewed is not listed. The site labeled the problem OPEN. Its commentary
 credits the paper with $t\ll N^2$ and with the refutation of the Erdős–Graham
 guess, but that is commentary on an open problem and not acceptance of a
 solution. Formalized is not listed. The formal-conjectures catalog states the

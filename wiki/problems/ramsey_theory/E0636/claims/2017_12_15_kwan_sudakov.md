@@ -73,7 +73,7 @@ with $n$ is claimed.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and credits Kwan and Sudakov [KwSu21] with the proof in the problem's
 commentary (page accessed, as the problem page records). The commentary is the
 site's record cited here. Refereed: Transactions of the American Mathematical

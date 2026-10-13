@@ -32,7 +32,7 @@ $$
 as $A\subseteq\mathbb{N}$ ranges over all infinite sets with $\sum_{n\in
 A}\frac{1}{n}<\infty$. Does $X$ contain an open set?
 
-**Status.** Proved. The site shows PROVED (LEAN). The parenthesis is a catalog
+**Status.** Proved. The site showed PROVED (LEAN). The parenthesis is a catalog
 label explained under Formalization. Kovač's Theorem 1 (arXiv:2405.07681, May
 2024; Amer. Math. Monthly 132 (2025), 895--911, refereed) proves that $X$ has
 nonempty interior, which is the question's affirmative answer. It is recorded as

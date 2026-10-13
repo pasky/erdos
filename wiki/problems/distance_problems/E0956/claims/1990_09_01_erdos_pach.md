@@ -43,5 +43,5 @@ $h(n)>n^{1+c}$ follows from it.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in Combinatorica. Not reviewed:
-the site's remarks credit the bound to the paper, but the site labels the
+the site's remarks credit the bound to the paper, but the site labeled the
 problem OPEN, so the remark is not an acceptance.

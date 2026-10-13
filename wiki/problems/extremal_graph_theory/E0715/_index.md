@@ -180,7 +180,7 @@ zbMATH (MR 0671639, Zbl 0512.05056 per the Math-Net.Ru record); the English
 translation in Soviet Math. Dokl.; the attestation in the refereed note
 [AFK84], p. 93: "The result mentioned in the title is related
 to the well known Berge--Sauer conjecture [2], which has recently been proved
-[4]"; and the site's curator, Thomas Bloom, who marks the problem proved and
+[4]"; and the site's curator, Thomas Bloom, who marked the problem proved and
 credits Tashkinov. What is not established here: the proofs, which
 the note only sketches; the English translation's text.
 

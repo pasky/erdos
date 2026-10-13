@@ -29,7 +29,7 @@ $A\backslash B$ is not a basis of order $k$.
 Must there exist an infinite $B\subset A$ such that $A\backslash B$ is a basis
 of order $k+1$?
 
-**Status.** Claimed. The site's label is OPEN, and the site lists no proof
+**Status.** Claimed. The site's label was OPEN, and the site lists no proof
 claim. A pending full claim answers the question no. That claim is
 [[problems/additive_bases/E0881/claims/2026_05_03_svyable|Svyable]], a
 manuscript posted in the site's thread on 2026-05-03. It claims a complete

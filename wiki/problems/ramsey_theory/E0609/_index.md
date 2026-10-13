@@ -112,7 +112,7 @@ argument with a finite enumeration and a SAT check for the upper bound. It
 concerns the case $n=3$ only and leaves the asymptotic question untouched.
 It is recorded, with its provenance, on
 [[problems/ramsey_theory/E0609/claims/2026_09_25_cai|its claim page]]; the
-site's label is OPEN, and the claim is not accepted.
+site's label was OPEN, and the claim is not accepted.
 
 ## Progress
 

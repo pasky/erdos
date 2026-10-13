@@ -23,8 +23,8 @@ updated: 2026-10-08T14:17:37Z
 
 **Statement.** Give an asymptotic formula for $\mathrm{ex}(n;C_4)$.
 
-**Status.** The site labels the problem SOLVED (LEAN). The asymptotic formula is
-the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim page
+**Status.** The site labeled the problem SOLVED (LEAN). The asymptotic formula
+is the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]].
 Brown's independent proof of the same year is recorded on the claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]]. The

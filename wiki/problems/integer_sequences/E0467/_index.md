@@ -125,7 +125,7 @@ say only this: a positive answer would give, for every large $x$, a choice
 of residue classes $a_p\pmod p$ for the primes $p\le x$ under which every
 $n<x$ satisfies at least two of the congruences, that is $f(x)\ge2$ in the
 notation of Problem 689, which Erdős could not prove in 1980 and which the
-site keeps open; and each of the two classes is itself a covering of
+site kept open; and each of the two classes is itself a covering of
 $[1,x)$ by one residue class per prime, the object whose least prime bound
 Problem 687 asks for. Neither remark is a result about this problem.
 

@@ -46,5 +46,5 @@ hypergraphs without property B*, Discrete Appl. Math. 163 (2014), part 2,
 199--204, a refereed journal (`refereed`). The record dates the issue to January
 2014 without a day, so the page is dated to the first day of that month. The
 site lists $m(4)=23$ in the problem's commentary without crediting a source, and
-it labels the problem OPEN. The commentary is therefore not acceptance of this
+it labeled the problem OPEN. The commentary is therefore not acceptance of this
 partial claim.

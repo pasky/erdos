@@ -165,7 +165,7 @@ undated current version, and shows no status labels.
 Neither dated version carries a disproof sentence: the current version
 attributes the disproof to an internal model at OpenAI and points to the
 remarks under Problem 575, where the 2026-08-31 version only cross-references
-Problem 575. The [problem page](https://www.erdosproblems.com/180) shows the
+Problem 575. The [problem page](https://www.erdosproblems.com/180) showed the
 label DISPROVED (LEAN), the site's note that the problem is solved in the
 negative with a Lean-verified proof, and a last-edit date of 31 August 2026.
 The discussion thread includes the counterexample

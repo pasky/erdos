@@ -41,7 +41,7 @@ Erdős write $D(N)=\max_{0<a<N}D(a,N)$, and the question is their Conjecture
 $D(N)\le K(\varepsilon)N(\ln N)^{1+\varepsilon}$; the site's
 $D(b)\ll b(\log b)^{1+o(1)}$ says the same.
 
-**Status.** Proved. The site's label is PROVED (page last edited 18 November
+**Status.** Proved. The site's label was PROVED (page last edited 18 November
 2025), and the answer is yes. Two accepted full claims carry the standing:
 [[problems/unit_fractions/E0305/claims/1988_10_01_yokota|Yokota's 1988 theorem]],
 the site's citation, and
@@ -112,7 +112,7 @@ September 2026, and the Bleicher–Erdős bound, the prime lower bound,
 Yokota's bound and Liu and Sawhney's bound as further `sorry` variants. As
 of 2026-10-07 the site's page shows the statement as formalized and links
 the statement file, and the community database records the problem as
-formalized since 20 September 2026; the site's status label carries no Lean
+formalized since 20 September 2026; the site's status label carried no Lean
 suffix. The top file of the Alexeev development declares itself a Lean
 formalization of the affirmative resolution of Problem 305 with informal
 authors Bleicher, Erdős, Yokota, Liu and Sawhney and formal authors Codex,
@@ -125,7 +125,7 @@ built neither file, so no `formalized` evidence is listed.
 ## Current assessment
 
 **The question.** The site states the problem as
-above, shows PROVED, cites [ErGr80, p. 38], and says: Bleicher and Erdős
+above, showed PROVED, cites [ErGr80, p. 38], and says: Bleicher and Erdős
 [BlEr76] showed $D(b)\ll b(\log b)^2$ and $D(p)\gg p\log p$ for primes; it
 credits the solution to Yokota [Yo88], with the bound
 $D(b)\ll b(\log b)(\log\log b)^4(\log\log\log b)^2$, and records Liu and

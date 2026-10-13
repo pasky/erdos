@@ -87,8 +87,8 @@ lists the theorems. Whether $2^n\pm1$ or $n!\pm1$ has property $P$ is left
 open, a side question of the site's commentary and not of the statement.
 
 **Acceptance.** The site's curator, Thomas Bloom, credits the paper with the
-result. The problem page is labeled SOLVED (LEAN). Its commentary (last edited 2
-December 2025, accessed 2026-10-07) states that most of the questions are
+result. The problem page was labeled SOLVED (LEAN). Its commentary (last edited
+2 December 2025, accessed 2026-10-07) states that most of the questions are
 resolved by this paper and summarizes the density results above. The thread's
 posts of October and November 2025 carry the development of the arguments before
 the paper, and the arXiv announcement was posted there on 2 December 2025. Both

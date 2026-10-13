@@ -28,8 +28,8 @@ $$
 \textrm{gcd}\left( \binom{n}{i},\binom{n}{j}\right) \geq h(n)?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived from
-the claim page is `solved`, `proved`. It rests on
+**Status.** The site labeled the problem PROVED (LEAN). The standing derived
+from the claim page is `solved`, `proved`. It rests on
 [[problems/factorials_binomials/E0698/claims/2008_06_03_bergman|Bergman 2011]],
 a refereed paper credited by the site's curator. Its bound tends to infinity
 with $n$ uniformly in $i$, and the claim page derives the explicit

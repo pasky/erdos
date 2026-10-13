@@ -149,7 +149,7 @@ open, and no formal proof. Nothing was built or audited here.
 ## Current assessment
 
 **The question.** The site states the problem as
-above, shows OPEN, cites [Er77c], [ErGr79] and [ErGr80], and in its
+above, showed OPEN, cites [Er77c], [ErGr79] and [ErGr80], and in its
 commentary attributes the question to Hindman, records that Hindman [Hi80]
 disproved the version asking for an infinite $A$ with seven colors, and
 notes that [Er77c] asks about an infinite $A$ with two colors, which it

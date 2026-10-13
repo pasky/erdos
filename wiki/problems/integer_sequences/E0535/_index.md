@@ -39,7 +39,7 @@ pairwise the same greatest common divisor, one more than the largest
 admissible size, so every bound below transfers with a change of at most
 one. Abbott and Gardner write $f(n,k)$ for the largest size.
 
-**Status.** The site's label is Open. Three bounds are in hand. Erdős's 1964
+**Status.** The site's label was Open. Three bounds are in hand. Erdős's 1964
 theorem gives $N^{c_r/\log\log N}<f_r(N)<N^{3/4+\varepsilon}$ for every fixed
 $r\ge3$ and $\varepsilon>0$
 ([[problems/integer_sequences/E0535/claims/1964_03_20_erdos|Erdős (1964)]]).

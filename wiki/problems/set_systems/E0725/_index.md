@@ -22,7 +22,7 @@ updated: 2026-10-07T19:24:20Z
 **Statement.** Give an asymptotic formula for the number of $k\times n$ Latin
 rectangles.
 
-**Status.** The site labels the problem OPEN. Its commentary records the
+**Status.** The site labeled the problem OPEN. Its commentary records the
 asymptotic $L_{k,n}\sim e^{-\binom k2}(n!)^k$ of Erdős and Kaplansky [ErKa46]
 for $k=o((\log n)^{3/2-\epsilon})$, and Yamamoto's extension of it to
 $k\le n^{1/3-o(1)}$ [Ya51]. The commentary calls sequence A001009 of the OEIS

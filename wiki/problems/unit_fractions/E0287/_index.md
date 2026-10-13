@@ -42,11 +42,11 @@ statement asserts that none exists. The representation
 $1=\tfrac12+\tfrac13+\tfrac16$ has gaps $1$ and $3$, so the bound $3$
 cannot be raised.
 
-**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last edited
-23 January 2026). The site explains this label as open but refutable by one
-finite counterexample. The site's proof-claim tab is empty. The standing in the
-frontmatter derives from the claim pages, which are both pending partial claims.
-They are the Lean developments
+**Status.** Labeled falsifiable on the site: the label was FALSIFIABLE (page
+last edited 23 January 2026). The site explained this label as open but
+refutable by one finite counterexample. The site's proof-claim tab is empty. The
+standing in the frontmatter derives from the claim pages, which are both pending
+partial claims. They are the Lean developments
 [[problems/unit_fractions/E0287/claims/2026_08_26_pr_huang|Pr_Huang 2026]]
 (largest denominator up to $4\times10^9$, then about $3.74\times10^{60}$) and
 [[problems/unit_fractions/E0287/claims/2026_09_02_ramji|Ramji 2026]] (up to
@@ -105,7 +105,7 @@ built any of these files.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks the statement above, shows
+**The question.** On 2026-09-17 the site asks the statement above, showed
 FALSIFIABLE, which it explains as open but refutable
 by a finite counterexample, cites [Er32], [ErGr80] and [Va99], and lists no
 proof exposition and no proof claim. Its commentary makes three points: the

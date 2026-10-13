@@ -69,7 +69,7 @@ and Cauchy–Schwarz, which Alexeev's post identifies with the paper's Section 3
 argument; the thread then identified this paper as the first published proof. A
 thread post is not a manuscript and has no page.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels the problem
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labeled the problem
 solved. Bloom credits the first proof of the stronger conjecture to Tidor, Wang
 and Yang, with Wagner's paper as implicit prior work. Not refereed: the arXiv
 record lists two versions, of 14 August and 22 September 2016, and no journal

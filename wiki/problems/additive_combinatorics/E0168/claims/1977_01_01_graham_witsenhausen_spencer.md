@@ -54,7 +54,7 @@ and the problem repeats.
 
 **Standing.** Claimed. The paper appeared in the collected volume *Number
 Theory and Algebra* (Academic Press, New York, 1977), pp. 103–109, which is not
-shown to be refereed, so the page lists no `refereed` evidence. The site labels
+shown to be refereed, so the page lists no `refereed` evidence. The site labeled
 the problem OPEN and its commentary credits the result, as does the
 formal-conjectures statement file
 ([`erdos_168.variants.limit_exists`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/168.lean),

@@ -38,7 +38,7 @@ unpublished work, as the introduction of [Gr04] records (its display (1) and
 Proposition 12). The bound $O(2^{n/2})$ and the two-valued
 asymptotic below are the later results of Green and Sapozhenko.
 
-**Status.** The site labels the problem PROVED and credits Green [Gr04] and
+**Status.** The site labeled the problem PROVED and credits Green [Gr04] and
 Sapozhenko [Sa03]. They independently proved the stronger bound $f(n)\ll2^{n/2}$
 of the Cameron–Erdős conjecture. In fact they proved the asymptotic
 $f(n)\sim c_n2^{n/2}$, with $c_n$ taking one of two values according to the
@@ -61,7 +61,7 @@ and so no claim page.
 2026-09-04 and 2026-09-05: PROVED, header keys [CaEr90], [Er94b], [Er98], no
 last-edited line, an empty discussion thread and an empty proof-claim tab,
 no formalized statement, OEIS A007865. At the access of 2026-10-07 the page
-shows the same label and commentary, the thread and the tab still empty, and
+shows the same commentary, the thread and the tab still empty, and
 links the formal-conjectures statement with its formal proof (see
 Formalization). Cite as: T. F. Bloom, Erdős Problem #748,
 https://www.erdosproblems.com/748.

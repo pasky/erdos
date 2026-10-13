@@ -60,7 +60,7 @@ commentary thus attaches the companion note's erratum to this paper.
 
 **Acceptance.** The paper is refereed: G. K. Kristiansen, *Proof of an
 inequality for trigonometric polynomials*, Proc. Amer. Math. Soc. 44, no. 1 (May
-1974), 49--57. The site's curator, Thomas F. Bloom, marks Problem 225 proved.
+1974), 49--57. The site's curator, Thomas F. Bloom, marked Problem 225 proved.
 The curator credits this paper with an independent solution of the case
 $c_k\in\mathbb R$ only. That is narrower than the paper's theorem, so the
 curator's credit is not listed as `reviewed`. The page is dated by the first

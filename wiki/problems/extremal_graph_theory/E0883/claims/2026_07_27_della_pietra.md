@@ -101,5 +101,5 @@ objected that the site's first question carries no largeness quantifier, the
 author answered that the question of Erdős and Sárközy attaches to their
 asymptotic Theorem 1, and the site's curator wrote on 29 July 2026 that the
 problem was meant for sufficiently large $n$, with the small cases a subsidiary
-question; the site labels the problem OPEN. No referee, named reviewer or
+question; the site labeled the problem OPEN. No referee, named reviewer or
 independent build is recorded, so the page lists no evidence.

@@ -74,5 +74,5 @@ gives no `formalized` evidence.
 
 **Standing.** Claimed. The site's remarks (page last edited 17 April 2026)
 credit DottedCalculator with disproving the stronger version, but the site
-labels the problem OPEN, so the remark is commentary and not acceptance.
+labeled the problem OPEN, so the remark is commentary and not acceptance.
 There is no refereed version.

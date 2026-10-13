@@ -32,7 +32,7 @@ $n^{1/3}/(\log n)^{4/3}\ll f(n)\ll n^{1/3}(\log\log n)^{1/3}/(\log n)^{1/3}$. Vu
 Fox and Pham ([CFP21], Theorem 1.5, to appear in J. Eur. Math. Soc.) determined
 the order of growth,
 $f(n)\asymp n^{1/3}(n/\phi(n))/((\log n)^{1/3}(\log\log n)^{2/3})$. The site's
-page is labeled SOLVED. Its commentary records the first two bounds as proved
+page was labeled SOLVED. Its commentary records the first two bounds as proved
 and credits the order of growth to Conlon, Fox and Pham. The first two are
 accepted partial claims
 ([[problems/integer_sequences/E0360/claims/1995_05_15_alon_erdos|Alon and

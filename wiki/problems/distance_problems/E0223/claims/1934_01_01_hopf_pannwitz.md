@@ -45,7 +45,7 @@ for Erdős's note]]; the bound is attained, for odd $n$, by the vertices of a
 regular $n$-gon, whose longest diagonals form a cycle of length $n$. Erdős
 also records there Vázsonyi's conjecture for the three-dimensional case.
 
-**Acceptance.** The curator of erdosproblems.com, Thomas Bloom, marks the
+**Acceptance.** The curator of erdosproblems.com, Thomas Bloom, marked the
 problem solved and credits the planar case to Hopf and Pannwitz, with
 Erdős's 1946 Monthly note (Amer. Math. Monthly 53 (1946), 248–250) as the
 published exposition of the proof. The 1934 item itself is a problem

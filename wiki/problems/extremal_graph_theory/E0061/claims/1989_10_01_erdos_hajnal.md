@@ -52,6 +52,6 @@ statement about every $H$.
 **Acceptance.** The paper is a refereed publication in Discrete Applied
 Mathematics, which is the `refereed` evidence. It appeared in the issue of
 October 1989. The day is not recorded, and this page's date is the first of that
-month. The site's commentary credits the cases to the paper, but the site labels
-the problem OPEN, so no `reviewed` evidence is listed. This corpus has not
-checked the proof.
+month. The site's commentary credits the cases to the paper, but the site
+labeled the problem OPEN, so no `reviewed` evidence is listed. This corpus has
+not checked the proof.

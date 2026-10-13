@@ -33,7 +33,7 @@ uniform in $d$; he adds that the conjecture is settled only on the line, and
 Ho [Ho26, Remark 9] states that the fixed-dimension question remains open for
 every $d\ge2$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 17 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 17 April
 2026). The case $d=1$ is the pending partial claim on
 [[problems/distance_problems/E0670/claims/1997_05_22_erdos|Erdős's proof on the line]].
 
@@ -57,7 +57,7 @@ The diameter is trivially at least $\binom n2$, since the $\binom n2$ distances
 are distinct and differ pairwise by at least $1$. Erdős proved the conjecture
 for $d=1$; that result is the pending partial claim on
 [[problems/distance_problems/E0670/claims/1997_05_22_erdos|its claim page]],
-pending because the site labels the problem OPEN and no evidence that the
+pending because the site labeled the problem OPEN and no evidence that the
 volume was refereed is recorded. For every fixed $d\ge2$ the question is open.
 
 Ho [Ho26] (arXiv:2604.15305, 16 April 2026) constructs, for every prime power

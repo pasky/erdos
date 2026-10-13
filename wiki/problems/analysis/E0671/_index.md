@@ -59,8 +59,8 @@ $$
 \mathcal{L}^nf(x) \to f(x)?
 $$
 
-**Status.** The site labels the problem OPEN (page last edited 23 January 2026).
-The derived standing is claimed. Two pending full claims on the site's
+**Status.** The site labeled the problem OPEN (page last edited 23 January
+2026). The derived standing is claimed. Two pending full claims on the site's
 proof-claims tab, both with declared AI assistance, answer both questions yes
 with one construction. The first is
 [[problems/analysis/E0671/claims/2026_06_22_price|Price's claim]] of 22 June
@@ -110,7 +110,7 @@ $\limsup_n\lambda_n(x)=\infty$ and yet $\mathcal{L}^nf(x)\to f(x)$; the second
 asks for a node system with $\limsup_n\lambda_n(x)=\infty$ at every point of
 $[-1,1]$ such that every continuous $f$ still has a point of convergence. A
 system answering the second question answers the first, since each of its
-points has an unbounded Lebesgue function. The site's label is OPEN.
+points has an unbounded Lebesgue function. The site's label was OPEN.
 
 **Known results.** As the site's commentary records them: Bernstein [Be31]
 proved that for every node system some $x_0\in[-1,1]$ has

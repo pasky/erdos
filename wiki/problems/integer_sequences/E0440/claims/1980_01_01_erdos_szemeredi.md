@@ -129,7 +129,7 @@ attained by the positive integers. The first, fourth and fifth answer the
 problem's two questions; the third asserts what the paper does not state.
 The file contains no `sorry` and no `axiom`; nothing was built,
 replayed or audited in this corpus, no statement-fidelity review exists, the
-site does not label the problem Lean, and the file gives no `formalized`
+site did not label the problem Lean, and the file gives no `formalized`
 evidence.
 
 **Depends on.** No page of this wiki. The proofs are self-contained in the

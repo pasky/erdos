@@ -44,7 +44,7 @@ $n^2/8$ is exact: Szemerédi's theorem (1972) says that $(1/8+\epsilon)n^2$
 edges force a $K_4$ or an independent set of size $\delta(\epsilon)n$, so the
 question asks what happens at the threshold itself.
 
-**Status.** Proved. The site's label reads "PROVED (LEAN)". Its suffix is a
+**Status.** Proved. The site's label read "PROVED (LEAN)". Its suffix is a
 catalog label, explained under Formalization. The claim page is
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao]],
 accepted on the refereed publication and the curator's credit. The 2026 Lean

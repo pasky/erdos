@@ -44,7 +44,7 @@ Szemerédi's 1980 paper [KSS80] (Studia Sci. Math. Hungar. 15 (1980), 391--395)
 with proving Erdős's expectation that the second largest component has size
 $\ll\log n$ almost surely. The frontmatter standing is derived from the claim
 pages and differs from the label. The theorem of [KSS80] is correct, but it
-answers the supercritical case the site's label credits ($\lambda>1$), not the
+answers the supercritical case the site's label credited ($\lambda>1$), not the
 Statement ($p=1/n$). So it does not count toward the problem's standing, and its
 claim page,
 [[problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1980]],

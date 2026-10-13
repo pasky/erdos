@@ -59,4 +59,4 @@ the authors jointly (p. 613), and asks whether $cr$ or even $r-c$ holds.
 with no evidence of refereeing on record, so `refereed` is not listed. The site
 credits a counterexample to the first question to Alon, giving the same
 construction with $\asymp4^r/\sqrt r$ vertices. That credit is commentary on a
-problem the site labels OPEN, and it is not an acceptance.
+problem the site labeled OPEN, and it is not an acceptance.

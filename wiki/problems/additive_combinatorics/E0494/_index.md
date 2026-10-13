@@ -99,7 +99,7 @@ two large exceptions rest on the credit to Fomin and Izhboldin (1994) in the
 formal-conjectures statement file; the exceptional sizes are finite in
 number for every $k>2$ by [GFS62].
 
-**Status.** The site labels the problem PROVED. It credits Gordon, Fraenkel and
+**Status.** The site labeled the problem PROVED. It credits Gordon, Fraenkel and
 Straus with uniqueness for every $k$ once $|A|$ is sufficiently large. The
 corrected Statement is Bloom's reading, so the label describes it. The theorem
 of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196, refereed) settles

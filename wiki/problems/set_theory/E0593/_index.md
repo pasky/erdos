@@ -26,9 +26,9 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Characterize those finite 3-uniform hypergraphs which appear in
 every 3-uniform hypergraph of chromatic number $>\aleph_0$.
 
-**Status.** The site labels the problem OPEN. Its proof-claims tab carries two
+**Status.** The site labeled the problem OPEN. Its proof-claims tab carries two
 full proof claims, both found with AI systems and both with Lean developments.
-The site shows no verdict on either, and its label is unchanged (proof-claims
+The site shows no verdict on either, and its label was unchanged (proof-claims
 thread accessed 2026-10-06). The derived standing departs from the label. The
 two claims are pending full claims that give the same characterization, recorded
 on their claim pages, so the problem is claimed as answered. Neither claim is

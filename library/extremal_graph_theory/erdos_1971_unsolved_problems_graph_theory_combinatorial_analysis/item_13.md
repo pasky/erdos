@@ -67,5 +67,5 @@ None.
 - [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the site's source
   passage ([Er71, p. 102]); the site's statement is the conjecture with
   $\lfloor n^2/4\rfloor+\lfloor\tfrac{n+1}2\rfloor$ edges, its commentary
-  quotes "easy to construct", and its `proved` label rests on the last
+  quotes "easy to construct", and its `proved` label rested on the last
   sentence together with the thread's account of the thesis.

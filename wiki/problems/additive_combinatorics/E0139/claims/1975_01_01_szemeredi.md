@@ -59,7 +59,7 @@ workable upper bound on the van der Waerden function. The page name carries
 the publication year; the publication records give only the year.
 
 **Acceptance.** Refereed: Acta Arithmetica 27 (1975), 199–245, the DOI linked
-above. Reviewed: the site's curator, Thomas Bloom, marks the problem proved and
+above. Reviewed: the site's curator, Thomas Bloom, marked the problem proved and
 credits the proof to Szemerédi [Sz75] in the problem's commentary (page last
 edited 2026-04-04). The community database also lists the problem as proved. The
 theorem has been reproved independently by different methods. Furstenberg

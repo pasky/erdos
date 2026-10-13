@@ -70,7 +70,7 @@ credits only the lower bound.
 
 **Acceptance.** The paper is refereed. The Electronic Journal of Combinatorics
 accepted it on 1 November 2021 and published it on 19 November 2021. The site's
-curator, Thomas Bloom, labels the problem proved, cites the paper as [Ma21] and
+curator, Thomas Bloom, labeled the problem proved, cites the paper as [Ma21] and
 states the theorem with the deduction above (problem page last edited 18 January
 2026). This is the `reviewed` evidence. The proof has the journal's refereeing
 and the curator's endorsement. No other review of it is recorded.

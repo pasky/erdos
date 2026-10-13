@@ -37,7 +37,7 @@ the order in which the $a_n$ are listed. A sequence with a length of at least
 $1$ is covered with probability one. The accepted claim states how Shepp's
 criterion answers the question under this reading.
 
-**Status.** Solved. The site labels the problem SOLVED and credits Shepp's
+**Status.** Solved. The site labeled the problem SOLVED and credits Shepp's
 necessary and sufficient condition [Sh72], recorded as the accepted claim
 [[problems/discrete_geometry/E0526/claims/1972_09_01_shepp|Shepp 1972]].
 Kahane's sufficient and necessary conditions [Ka59] give the case $a_n=(1+c)/n$

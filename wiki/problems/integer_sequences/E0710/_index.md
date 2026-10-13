@@ -182,7 +182,7 @@ reply asked whether the document had been written with Opus 4.6 (answered
 yes, and the document updated to say so), another contributor reported that
 a preliminary check with GPT found several major issues, and the submitter
 answered, with Claude writing the reply, the eight issues GPT had raised.
-Nothing in the thread is a proof claim, and the site's label is unchanged.
+Nothing in the thread is a proof claim, and the site's label was unchanged.
 
 **Search scope.** None of the routes below found an
 asymptotic formula or a published bound beyond Theorems 2 and 3 and display
@@ -222,7 +222,7 @@ $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$ in the site's convention, by weighted
 matching arguments on the bipartite graph of indices against candidate
 multiples, with a manuscript on a shared editor. The claim, its four comments and its provenance are recorded on
 [[problems/integer_sequences/E0710/claims/2026_09_23_turturean|its claim page]];
-the site's label is unchanged (OPEN), and nothing is adopted here.
+the site's label was unchanged (OPEN), and nothing is adopted here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -63,5 +63,5 @@ of moduli.
 **Acceptance.** Refereed: Journal of the European Mathematical Society 26
 (2024), no. 1, 75–109, at the DOI linked above. The page is named by the arXiv
 posting of 2019-04-09. The site's commentary credits the bound to these authors,
-but the site labels the problem OPEN, so that remark is context and not
+but the site labeled the problem OPEN, so that remark is context and not
 acceptance.

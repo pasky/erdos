@@ -54,6 +54,6 @@ crossover, $n\ge(r+1)(k-1)$ for $k-1\ge s_0(r)$, is the pending claim on
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series B, 157 (2022), 366–400. It was first posted as arXiv:1806.08855
-on 2018-06-22. The site's commentary does not cite the paper. The site labels
+on 2018-06-22. The site's commentary does not cite the paper. The site labeled
 the problem FALSIFIABLE, which is an open label, so no `reviewed` is listed.
 Nothing here rests on this project's own review.

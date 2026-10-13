@@ -118,7 +118,7 @@ $H(n)>\exp(n^{(c-\epsilon)/\log\log n})$ for infinitely many $n$ and
 $H(n)<\exp(n^{(c+\epsilon)/\log\log n})$ for all sufficiently large $n$; and
 does a similar eventual upper bound hold for $K(n)$?
 
-**Status.** Open. The site labels the problem OPEN (commentary last edited 2
+**Status.** Open. The site labeled the problem OPEN (commentary last edited 2
 December 2025), and the corrected Statement is open. The infinitely-often
 coprimality question is unresolved in the sources searched. The quantitative
 **existence** question would have an affirmative answer if the pending upper

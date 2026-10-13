@@ -50,7 +50,7 @@ $O(n^{3/2}2^{n/2})$.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The paper is an arXiv preprint with no journal record
-in Crossref, and the site labels the problem OPEN, so its commentary crediting
+in Crossref, and the site labeled the problem OPEN, so its commentary crediting
 Girão and Hunter is not an acceptance; no evidence kind is listed.
 
 **Read depth.** The statement of Theorem 1.2 is checked; the proof was not

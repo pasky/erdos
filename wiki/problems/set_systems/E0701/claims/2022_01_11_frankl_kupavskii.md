@@ -58,5 +58,5 @@ of Kleitman and Magnanti
 ([[problems/set_systems/E0701/claims/2018_09_05_eifler_gleixner_pulaj|claim page]]).
 
 **Acceptance.** Refereed: Discrete Math. 346 (2023), no. 5, Paper No.
-113323. The site's curator credits the result, but the site labels the
+113323. The site's curator credits the result, but the site labeled the
 problem OPEN, so no review is listed.

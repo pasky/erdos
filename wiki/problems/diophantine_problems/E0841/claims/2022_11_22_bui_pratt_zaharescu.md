@@ -5,7 +5,7 @@ desc: |
   Bui, Pratt and Zaharescu show that $t_n\le n^c$ holds for the same proportion
   of integers as the bound $P(n)\le n^c$ on the largest prime factor, and they
   give upper and lower bounds on $t_n$. The paper is refereed, and the site's
-  curator labels the problem solved.
+  curator labeled the problem solved.
 authors:
 - Hung M. Bui
 - Kyle Pratt
@@ -73,7 +73,7 @@ commentary records that Erdős first asked whether the integers with
 $t_n\ge n^{1-o(1)}$ have density zero. These are the background to the claim,
 not part of it.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem solved and
+**Acceptance.** The site's curator, Thomas Bloom, labeled the problem solved and
 credits the result to Bui, Pratt and Zaharescu in the page's commentary. This is
 the `reviewed` evidence. The paper appeared in Math. Proc. Cambridge Philos.
 Soc. 176 (2024), no. 2, 309–323, which is the `refereed` evidence.
@@ -92,7 +92,7 @@ family of small values with explicit constant $20$, and the lower bound. The
 for the problem, added 2026-09-21, tags its `erdos_841` declaration and four
 variants as research solved, points each at this development and says the
 formalization is by Codex; the community database (teorth/erdosproblems)
-records the problem as formalized, while the site's label stays SOLVED without
+records the problem as formalized, while the site's label stayed SOLVED without
 a Lean marker. Since the development names the paper's results as what it
 formalizes, it is recorded as the claimants' `formalization` link. This corpus
 has not built or audited it, so it is not `formalized` evidence.

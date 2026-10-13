@@ -69,7 +69,7 @@ unproven, so this page derives nothing for the problem's standing.
 March 2026 as the outcome of extended work with GPT-5.4 Pro; Chojecki is the
 claimant as its submitter, and GPT-5.4 Pro is the system they name. The note
 has no refereed publication, no formalization and no outside review, and the
-site's label is unchanged (OPEN). The claim stays claimed. The note's two
+site's label was unchanged (OPEN). The claim stays claimed. The note's two
 unconditional special cases are the partial claim on
 [[problems/integer_sequences/E0025/claims/2026_03_19_chojecki|its own page]].
 

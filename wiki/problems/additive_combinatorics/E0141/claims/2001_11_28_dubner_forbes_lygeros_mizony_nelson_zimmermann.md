@@ -55,7 +55,7 @@ Schinzel and Sierpiński derive every $k$ from Hypothesis H on
 
 **Acceptance.** Refereed: Mathematics of Computation, volume 71, number 239
 (July 2002), pp. 1323--1328, as given by the Crossref record of the DOI. The
-site labels the problem OPEN (page last edited 28 September 2025). Its
+site labeled the problem OPEN (page last edited 28 September 2025). Its
 commentary says that such progressions have been found for every $k\le10$. That
 is commentary on an open problem and not acceptance, so no `reviewed` evidence
 is listed. The corpus holds no card for the paper and has not recomputed the

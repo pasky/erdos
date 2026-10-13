@@ -41,4 +41,4 @@ Galois group $V_4$. It does not give $F_f(n)\gg n^4$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Acta Arithmetica 169 (2015), no. 3, 221--250,
-published online on 22 June 2015. The site labels the problem OPEN.
+published online on 22 June 2015. The site labeled the problem OPEN.

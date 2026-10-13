@@ -50,7 +50,7 @@ pages Theorem 2 and Corollary 4), v1 4 September 2026 (the date this page is
 named by), v2 8 September 2026, under the CC BY 4.0 license; no journal
 version is known. The site's commentary, last edited
 7 September 2026, records the result as [ReSt26], but the site's label
-credits GPT-6 Astra with the full proof and is not an acceptance of this
+credited GPT-6 Astra with the full proof and is not an acceptance of this
 paper; nothing is refereed or formalized. The companion preprint of the same
 authors, *The extremal cases of the Erdős--Sós conjecture*
 (arXiv:2609.05411, [ReSt26b] on the site), proves the conjecture for host

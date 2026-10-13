@@ -57,7 +57,7 @@ credits, its date and its authors; the earlier solo posting is disclosed
 here.
 
 **Acceptance.** The result is refereed, since the Electronic Journal of
-Combinatorics published it. Thomas Bloom, the site's curator, marks the problem
+Combinatorics published it. Thomas Bloom, the site's curator, marked the problem
 disproved. The curator names Brouwer and Jenrich's dimension 64 as the smallest
 dimension in which the conjecture is known to fail (problem page last edited 30
 December 2025).

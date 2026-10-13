@@ -33,7 +33,7 @@ $$
 \lvert A_p\rvert \sim (1-\tfrac{1}{e})p?
 $$
 
-**Status.** Open. The site labels the problem OPEN (page last edited 12 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 12 April
 2026) and credits no solution. Its remarks credit [GSSV24] with the best known
 lower bound $|A_p|\ge(\sqrt2-o(1))p^{1/2}$. The standing derives from the claim
 pages, which hold two partial claims. The accepted partial claim

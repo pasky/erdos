@@ -233,7 +233,7 @@ out to be false [24]", [24] being the Reid--Parker paper. The site's bound
 $f(n)\ge\lfloor\log_2n+4-\log_27\rfloor$ for $n\ge14$ is
 $R(k)\le7\cdot2^{k-4}$ for $k\ge5$, the paper's Corollary 1, read inversely.
 None of these later sources reproduces the proof; [NeLa94] gives a shorter
-proof of Corollary 1 (its zbMATH review), and the label rests on the paper's
+proof of Corollary 1 (its zbMATH review), and the label rested on the paper's
 Theorem 4 as recorded above.
 
 **The function as far as it is known (assembled here from the sources

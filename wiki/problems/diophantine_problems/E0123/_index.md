@@ -43,7 +43,7 @@ the Corollary of [ErLe96, p. 838] shows that those are $d$-complete only for
 $\{b,c\}=\{2,3\}$. Erdős's stronger conjecture of [Er92b] for $2,3,5$, with all
 summands in a window $[x,(1+\epsilon)x)$, is discussed with the claims below.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN). The proof
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN). The proof
 and its acceptance are recorded on the claim pages. This corpus has built none
 of the Lean.
 

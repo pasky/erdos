@@ -51,7 +51,7 @@ https://www.erdosproblems.com/857.
 The site's formulation asks for an estimate, or an
 asymptotic formula, for $m(n,k)$, the least $m$ such that any $m$ subsets of
 $\{1,\ldots,n\}$ contain $k$ with pairwise equal intersections; the site
-calls this the weak sunflower problem and labels it OPEN. The only bound its
+calls this the weak sunflower problem and labeled it OPEN. The only bound its
 commentary credits is for $k=3$:
 [[problems/set_systems/E0857/claims/2016_06_30_naslund_sawin|Naslund and Sawin]]
 prove $m(n,3)\le(3/2^{2/3})^{(1+o(1))n}$, with $3/2^{2/3}=1.889\ldots$, by

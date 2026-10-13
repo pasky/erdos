@@ -52,6 +52,6 @@ question. The problem stays open.
 
 **Acceptance.** The paper is a refereed publication in the Proceedings of
 the London Mathematical Society, which is the `refereed` evidence. The site's
-commentary credits the case to the paper, but the site labels the problem
+commentary credits the case to the paper, but the site labeled the problem
 OPEN, so no `reviewed` evidence is listed. This corpus has not checked the
 proof.

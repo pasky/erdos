@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0181
 title: Problem 181
 desc: |
   Asks whether $R(Q_n)\ll 2^n$ for the $n$-dimensional hypercube graph $Q_n$,
-  which has $2^n$ vertices. It is open on the site, and a 2026 OpenAI release
+  which has $2^n$ vertices. It was open on the site, and a 2026 OpenAI release
   preprint claims the linear bound in full.
 tags:
 - Graph theory
@@ -39,7 +39,7 @@ cubes as "an interesting test case" with a prize and states no expected answer,
 and Erdős's 1981 survey says "Burr and I expected (16) to be true and (16') to
 be false" ([Er81], p. 13).
 
-**Status.** Open: the site labels the problem OPEN. The derived standing is
+**Status.** Open: the site labeled the problem OPEN. The derived standing is
 claimed, through the claim page of a preprint that appeared after the search
 described here. The best bounds located in that search, whose scope the Current
 assessment records, are the following. The first is the trivial $R(Q_n)\ge2^n$,

@@ -33,7 +33,7 @@ $$
 as $f\in \mathbb{R}[x]$ ranges over all non-constant monic polynomials, all of
 whose roots are real and in the interval $[-1,1]$.
 
-**Status.** Open. The site's label is unchanged (OPEN; page last edited 11
+**Status.** Open. The site's label was unchanged (OPEN; page last edited 11
 January 2026). The site's proof-claims tab carries three full proof claims, each
 with AI systems named on the tab. They are by Shouqiao Wang (14 July 2026), by
 Tamás Darvas, Binghui Peng and Runzhou Tao (15 July 2026), and by Cristian

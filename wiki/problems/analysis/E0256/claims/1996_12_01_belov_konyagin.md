@@ -57,6 +57,6 @@ settled: the bounds in force are $2\sqrt n\le f(n)\le\exp(C(\log n)^4)$.
 issue to 31 December 1996, and the Russian original's record gives only the year
 and issue. The page is named by the issue month, December 1996, filled to the
 first of the month. Reviewed is not listed: the site credits the bound in its
-commentary on a problem it labels OPEN, which is commentary and not acceptance
+commentary on a problem it labeled OPEN, which is commentary and not acceptance
 of a solution. Formalized is not listed: no Lean statement or proof of the bound
 is recorded.

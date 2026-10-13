@@ -58,7 +58,7 @@ https://www.erdosproblems.com/945.
 
 ## Current assessment
 
-The site labels the problem OPEN (page last edited 5 October 2025). Erdős and
+The site labeled the problem OPEN (page last edited 5 October 2025). Erdős and
 Mirsky [ErMi52] prove
 $(\log x)^{1/2}/\log\log x\ll F(x)\ll\exp(O((\log x)^{1/2}/\log\log x))$
 ([[../library/divisors/erdos_1952_distribution_values_divisor_function/_index|card]]);

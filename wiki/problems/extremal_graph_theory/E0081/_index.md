@@ -24,8 +24,8 @@ updated: 2026-10-07T23:33:05Z
 induced cycles of length greater than $3$. Can the edges of $G$ be partitioned
 into $n^2/6+O(n)$ many cliques?
 
-**Status.** The site labels the problem OPEN (page last edited 28 December 2025;
-proof-claims tab and thread as of 2026-10-07). The frontmatter standing is
+**Status.** The site labeled the problem OPEN (page last edited 28 December
+2025; proof-claims tab and thread as of 2026-10-07). The frontmatter standing is
 derived from the five claim pages under `claims/`. Three pending full claims
 assert the answer yes, so the standing is claimed. None is refereed,
 independently reviewed or adopted by the site.

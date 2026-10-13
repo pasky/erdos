@@ -36,7 +36,7 @@ divisible by primes from $P$ have the translation property? If $A$ is the set of
 squarefree numbers then how fast does the minimal such $t_n$ grow? Is it true
 that $t_n>\exp(n^c)$ for some constant $c>0$?
 
-**Status.** The site's label is Open (proof-claims thread accessed 2026-10-06).
+**Status.** The site's label was Open (proof-claims thread accessed 2026-10-06).
 The site notes that elementary sieve theory gives the squarefree numbers the
 translation property. It also notes that Brun's sieve gives the property to the
 integers divisible by no member of a set $B$ of pairwise coprime integers with

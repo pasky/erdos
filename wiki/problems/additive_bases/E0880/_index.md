@@ -26,7 +26,7 @@ $B=\{b_1<b_2<\cdots\}$ be the set of integers which are the sum of $k$ or fewer
 distinct $a\in A$. Is it true that $b_{n+1}-b_n=O(1)$? (Where the implied
 constant may depend on both $A$ and $k$.)
 
-**Status.** The site labels the problem PROVED, but the page departs from that
+**Status.** The site labeled the problem PROVED, but the page departs from that
 label: the Statement is disproved. PROVED, the site's "solved in the
 affirmative", contradicts both the theorem in print and the site's own
 commentary. No source offers a reading of the question under which the answer is

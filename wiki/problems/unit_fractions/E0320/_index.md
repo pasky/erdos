@@ -131,7 +131,7 @@ update on 31 August 2025, OEIS A072207 and no formal-proof URL. Two external
 Lean developments are linked from the proof-claim tab, at pinned commits on
 the two claim pages, and described below; neither is a formal proof of the
 order of magnitude, and neither has been built or audited by this corpus. The
-site's label carries no Lean suffix.
+site's label carried no Lean suffix.
 
 ## Current assessment
 

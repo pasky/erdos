@@ -53,4 +53,4 @@ set such as the geometric progressions, are not covered.
 
 **Standing.** Claimed: an arXiv preprint with no refereed version or outside
 review known to this corpus, not registered on the site's proof-claims tab or
-named in its commentary; the site labels the problem OPEN.
+named in its commentary; the site labeled the problem OPEN.

@@ -36,7 +36,7 @@ $$
 
 is the Schnirelmann density?
 
-**Status.** The site labels the problem PROVED (LEAN). It is proved by
+**Status.** The site labeled the problem PROVED (LEAN). It is proved by
 Plünnecke's density bound below, recorded on
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|its claim page]].
 The Lean proof behind the label is linked from that claim page and is qualified
@@ -84,7 +84,7 @@ stated inequality. The recorded full proof uses Jin's sixteen-page author
 manuscript and its cited external truncated Plünnecke graph inequality;
 Plünnecke's original proof is cited, not compiled. This page records no
 independent review verdict for the reconstructed proofs. The site's Lean label
-rests on the public Lean proof linked from
+rested on the public Lean proof linked from
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|Plünnecke's claim
 page]], which carries no formal-verification credit in this corpus. Status
 search of 2026-10-07: the site's page and remarks, its forum thread (one

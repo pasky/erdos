@@ -118,9 +118,9 @@ stated above follows by $2^n\le nN+1$ and is not separately formalized. The real
 variant is not formalized in this repository, which defines
 `IsSumDistinctRealSet` and never uses it.
 
-Not reviewed: the site labels the problem disproved and credits GPT-6 Astra.
+Not reviewed: the site labeled the problem disproved and credits GPT-6 Astra.
 However, the curator submitted this proof claim as part of the FrontierMath
-Erdős work with Epoch AI, so the site's label is not an independent review of
+Erdős work with Epoch AI, so the site's label was not an independent review of
 it. No outside reviewer has published an examination.
 
 Not refereed: there is no journal publication. The claim note describes the

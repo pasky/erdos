@@ -61,7 +61,7 @@ which is at most $\binom{n+s}{s}$. The library's
 1.2 page]] the rank and inertia lemma, with the source's indexing misprint
 corrected there.
 
-**Formalization.** The site's label carries a Lean qualification. The
+**Formalization.** The site's label carried a Lean qualification. The
 formal-conjectures statement of the upper bound points to a Lean 4
 development in Alexeev's lean-proofs repository, linked above at a pinned
 commit,
@@ -78,5 +78,5 @@ and not evidence of acceptance.
 sets with few distances in $\mathbb R^d$, Proceedings of the American
 Mathematical Society 149 (2021), no. 2, 569–571, published online 2020-11-25.
 The preprint is arXiv:1912.08181, posted 2019-12-17. The curator of
-erdosproblems.com, Thomas Bloom, marks the problem solved and credits this paper
-with the simple proof of the upper bound.
+erdosproblems.com, Thomas Bloom, marked the problem solved and credits this
+paper with the simple proof of the upper bound.

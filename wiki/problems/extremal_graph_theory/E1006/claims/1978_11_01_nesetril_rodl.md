@@ -67,7 +67,7 @@ which the site's commentary states the result.
 Mathematical Society. The paper was received 20 May 1977 and revised 6
 January 1978. The Crossref record (2026-10-07) places it in volume 72, number 2,
 issued November 1978, and this page's date is that issue's nominal first day.
-The site's curator, Thomas Bloom, labels the problem disproved and credits
+The site's curator, Thomas Bloom, labeled the problem disproved and credits
 Nešetřil and Rödl [NeRo78b] with the disproof. This is the `reviewed` evidence,
 and Bloom took no part in the paper. The credit came after the forum comment of
 28 September 2025, which pointed to Corollary 4 by a link to the paper on the

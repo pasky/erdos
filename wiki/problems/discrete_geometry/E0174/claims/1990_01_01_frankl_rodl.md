@@ -59,7 +59,7 @@ not decide affinely dependent sets; the full classification is
 the American Mathematical Society, volume 3, issue 1 (January 1990). This is the
 `refereed` evidence. The issue carries no day, so this page is dated to the
 first day of that month. In the problem's commentary the site's curator credits
-non-degenerate simplices to [FrRo90]. The site labels the problem OPEN, however,
-so that credit is not `reviewed` evidence. The library's complete reconstruction
-of the same-paper chain is the corpus's own reading. It is not an independent
-review.
+non-degenerate simplices to [FrRo90]. The site labeled the problem OPEN,
+however, so that credit is not `reviewed` evidence. The library's complete
+reconstruction of the same-paper chain is the corpus's own reading. It is not an
+independent review.

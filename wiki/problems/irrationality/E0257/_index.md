@@ -68,7 +68,7 @@ https://www.erdosproblems.com/257.
 
 ## Current assessment
 
-The question for arbitrary infinite supports is open: the site labels Problem
+The question for arbitrary infinite supports is open: the site labeled Problem
 257 OPEN (page last edited 2026-04-15), and no result or claim settles it. The
 settled classes of supports, each with its claim page or its recorded reason,
 are these. $A=\mathbb N$ and its sets of multiples $d\mathbb N$: Erdős's 1948

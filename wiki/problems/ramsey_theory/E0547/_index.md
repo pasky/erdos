@@ -103,7 +103,7 @@ Ajtai--Komlós--Simonovits--Szemerédi proof of
 alternative proof. Zhao's is the refereed one, recorded on the accepted partial
 claim page [[problems/ramsey_theory/E0547/claims/2011_02_04_zhao|Zhao 2011]].
 The label and the commentary predate the proof of #548, which the site itself
-marks PROVED (FORMALIZED) on 3 September 2026. Two comments in the problem's
+marked PROVED (FORMALIZED) on 3 September 2026. Two comments in the problem's
 discussion, of 6 and 17 September 2026, asked for the label PROVED. No curator
 reply follows them. The site states the implication on its pages for #548 and
 #547 but has not relabeled #547. The curator posted the #548 proof claim, so the
@@ -128,10 +128,10 @@ proceedings volume the corpus has not examined. Also, every star on $N\geq3$
 vertices is the double star $S(N-2,0)$, an instance the Grossman--Harary--Klawe
 page already covers.
 
-**Source.** [erdosproblems.com/547](https://www.erdosproblems.com/547), accessed
-2026-10-07: the problem page (DECIDABLE; last edited 18 January 2026), its
-seven-comment discussion thread (11 September 2025 to 17 September 2026) and its
-empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #547,
+**Source.** [erdosproblems.com/547](https://www.erdosproblems.com/547),
+accessed 2026-10-07: the problem page (DECIDABLE; last edited 18 January 2026),
+its seven-comment discussion thread (11 September 2025 to 17 September 2026) and
+its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #547,
 https://www.erdosproblems.com/547.
 
 **References.**

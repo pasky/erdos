@@ -27,10 +27,10 @@ updated: 2026-10-08T01:29:59Z
 such that every graph of chromatic number $\geq f(k,r)$ contains a subgraph of
 girth $\geq r$ and chromatic number $\geq k$?
 
-**Status.** Open on the site, with the label OPEN. The page was last edited 23
-January 2026. On 27 September 2026 the curator posted the Conjectures.io claim
-below on the site's proof-claims forum without endorsing it. The derived
-standing rests on the accepted claim page of
+**Status.** Labeled open on the site, with the label OPEN. The page was last
+edited 23 January 2026. On 27 September 2026 the curator posted the
+Conjectures.io claim below on the site's proof-claims forum without endorsing
+it. The derived standing rests on the accepted claim page of
 [[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and
 Kruer's Lean counterexample family]], published under the handle JenW1N and
 certified by Conjectures.io in September 2026. The family gives, for every $M$,
@@ -148,7 +148,7 @@ bounty site alone, distinct from a refereed result: the result has no refereed
 publication, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement (the catalog's file at the revision linked above agrees with the
 statement the site prints and marks the problem research open with
-`answer(sorry)`). The site labels the problem OPEN; its forum has carried the
+`answer(sorry)`). The site labeled the problem OPEN; its forum has carried the
 claim since 27 September 2026 with the curator's note that they have not
 verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
 

@@ -47,7 +47,7 @@ no finite-$N$ formula.
 **Acceptance.** The paper is refereed: *On further questions regarding unit
 fractions*, International Mathematics Research Notices 2026, no. 2, rnaf382. It
 was received on 28 October 2025, accepted on 23 December 2025 and published
-online on 14 January 2026. The site's curator, Thomas Bloom, marks the problem
+online on 14 January 2026. The site's curator, Thomas Bloom, marked the problem
 solved and credits this theorem, independently of the authors, as one of two
 proofs of the rate. The arXiv record lists one version, v1 of 10 April 2024. The
 published text has not been compared with it, and the library's locators are v1

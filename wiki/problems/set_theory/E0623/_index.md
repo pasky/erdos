@@ -26,7 +26,7 @@ function from the finite subsets of $X$ to $X$ such that $f(A)\not\in A$ for all
 $A$. Must there exist an infinite $Y\subseteq X$ that is independent - that is,
 for all finite $B\subset Y$ we have $f(B)\not\in Y$?
 
-**Status.** Open. The site's label is OPEN. The results claimed against the
+**Status.** Open. The site's label was OPEN. The results claimed against the
 problem are recorded on the claim pages, and the standing in the frontmatter is
 derived from them.
 
@@ -58,7 +58,7 @@ text is not covered. No literature search beyond the site was made, and the
 proof coverage of neither claimed argument was assessed.
 
 **Claims.** Two results are claimed from outside the project, neither
-accepted by the site, which keeps the label OPEN.
+accepted by the site, which kept the label OPEN.
 [[problems/set_theory/E0623/claims/2026_06_04_lee|Lee's independence result]]
 (manuscript dated 2026-06-04, found with GPT-5.5 Pro) asserts that the
 positive answer is equiconsistent with a measurable cardinal and the negative

@@ -32,7 +32,7 @@ $$
 
 is finite?
 
-**Status.** Proved. The site labels the problem PROVED (page last edited 19
+**Status.** Proved. The site labeled the problem PROVED (page last edited 19
 October 2025) and credits Lewis, Rossi and Weitsman [LRW84] with the general
 case. Before them, Zhang [Zh77] had settled the entire functions of finite
 order. Huber [Hu57] had found, for each fixed $\lambda$, a path on which that

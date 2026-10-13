@@ -44,7 +44,7 @@ https://www.erdosproblems.com/238.
 
 The site's formulation (last edited 16 July 2026) fixes $c_1,c_2>0$ and asks
 whether every sufficiently large $x$ admits more than $c_1\log x$ consecutive
-primes below $x$ with all pairwise differences above $c_2$. The site labels the
+primes below $x$ with all pairwise differences above $c_2$. The site labeled the
 problem OPEN, and its commentary credits Erdős [Er49c] with the case of small
 $c_1$: for every $c_2>0$ the answer is yes once $c_1$ is small enough in terms
 of $c_2$ (Theorem 3 of that paper, proved by Brun's method through

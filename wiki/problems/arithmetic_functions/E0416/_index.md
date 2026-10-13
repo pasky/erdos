@@ -34,7 +34,7 @@ for $V(x)$ in elementary functions (Er74b p. 201; doubted in Er79e p. 80 and in
 p. 82, where Erdős and Graham say such a formula may not exist). The pending
 full claim on the second question stands against this reading.
 
-**Status.** The site labels the problem OPEN (page last edited 30 September
+**Status.** The site labeled the problem OPEN (page last edited 30 September
 2025, fetched 2026-09-27). It marks the problem as not decidable by a finite
 computation. The standing in the frontmatter is derived from the claims recorded
 here:
@@ -122,10 +122,10 @@ commented out); this corpus has not built the file, and the site's second kernel
 ## Current assessment
 
 The site formulation (page last edited 30 September 2025, fetched 2026-09-27)
-asks two questions. The site's label is OPEN; the derived standing is `claimed`,
-through the OpenAI release's pending full claim on the second question, with two
-accepted partial claims on the first. The first is answered yes by the Lean
-proof the bounty site Conjectures.io accepted (record
+asks two questions. The site's label was OPEN; the derived standing is
+`claimed`, through the OpenAI release's pending full claim on the second
+question, with two accepted partial claims on the first. The first is answered
+yes by the Lean proof the bounty site Conjectures.io accepted (record
 `51923647-3c0d-418e-b330-aa595f5cad42`; kernel verified,
 review approved 15 September 2026, certified and bounty paid 16 September 2026).
 The formal statement the site attacked is

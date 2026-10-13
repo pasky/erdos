@@ -64,7 +64,7 @@ two-page computation, followed here.
 The claim page
 [[problems/extremal_graph_theory/E1034/claims/2025_10_20_ma_tang|Ma and Tang]]
 records the disproof as accepted on the site's documented acceptance. The site's
-label is DISPROVED (LEAN), and its page was last edited 28 October 2025. The
+label was DISPROVED (LEAN), and its page was last edited 28 October 2025. The
 community database lists "disproved (Lean)" as of its last update of 4
 December 2025. The claim page carries, as a `formalization` link, the external
 Lean file that declares itself a formalization of the note's solution and proves

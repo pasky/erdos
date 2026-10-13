@@ -62,7 +62,7 @@ The site asks whether some fixed $k$ lets every sufficiently large integer
 be written as $a_1\cdots a_k-(a_1+\cdots+a_k)$ with all $a_i\ge2$. As
 stated the answer is yes with $k=2$: for $n\ge0$, $a_1=2$ and $a_2=n+2$
 give $2(n+2)-(n+4)=n$. The site's commentary credits this observation to Eli
-Seamans without a date, and the site's curator labels the problem proved on
+Seamans without a date, and the site's curator labeled the problem proved on
 its strength; the
 [[problems/diophantine_problems/E0493/claims/2024_07_21_seamans|claim page]]
 records the identity, its acceptance and the dated records: an archived
@@ -77,7 +77,7 @@ suggests on the thread that it may have been meant for every $k\ge2$, and
 a thread comment examines $k=3$ through covering congruences. Those
 variants have no standing here.
 
-The site's label carries the mark Lean. The proof it refers to is a file in
+The site's label carried the mark Lean. The proof it refers to is a file in
 Boris Alexeev's repository, posted on the thread on 27 December 2025, whose
 header names Seed-Prover 1.5, Aristotle, ChatGPT and Zheng Yuan as formal
 authors and no informal author, and which proves the same identity with

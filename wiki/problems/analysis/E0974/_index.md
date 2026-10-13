@@ -63,7 +63,7 @@ site's curator, Thomas Bloom, resolves the word through Tijdeman's theorem. The
 commentary (page last edited 1 October 2025) states the conclusion as "if $n$ is
 odd then the $z_i$ must be exactly the $n$th roots of unity, and if $n$ is even
 they must be the vertices of two regular $(n/2)$-gons with the same
-circumscribed circle centred at the origin", credits Tijdeman [Ti66] and labels
+circumscribed circle centred at the origin", credits Tijdeman [Ti66] and labeled
 the problem PROVED (LEAN); replying to the $n=2$ example in the thread on 20
 September 2025, Bloom wrote that it "is not a counterexample though", given how
 vaguely the problem is described; and the formal-conjectures statement

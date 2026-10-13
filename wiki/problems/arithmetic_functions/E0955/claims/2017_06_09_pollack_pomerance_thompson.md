@@ -50,5 +50,5 @@ assertion stays open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Mathematika. The site's commentary credits the
-result, but the site labels the problem OPEN, so no curator acceptance is
+result, but the site labeled the problem OPEN, so no curator acceptance is
 listed.

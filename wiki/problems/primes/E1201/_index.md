@@ -161,7 +161,7 @@ $1-\eta$ for large $k$; in the thread Terence Tao held the problem technically
 open because the existence of the natural density was not established, while
 Will Sawin and the site's curator, Thomas Bloom, read the statement's density
 bound as a lower-density bound, Bloom adding that this is how Erdős generally
-used the terms. The site's label is unchanged. The note answers the precise
+used the terms. The site's label was unchanged. The note answers the precise
 Statement, pending acceptance; the natural-density variant is open, with
 Chojecki's second note claiming the natural-density asymptotic only under an
 unproven correlation hypothesis for the large prime divisors of consecutive

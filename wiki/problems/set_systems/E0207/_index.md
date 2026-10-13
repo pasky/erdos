@@ -27,7 +27,7 @@ every pair of vertices is contained in exactly one edge (i.e. the graph is a
 Steiner triple system) and for any $2\leq j\leq g$ any collection of $j$ edges
 contains at least $j+3$ vertices.
 
-**Status.** The site labels the problem proved, crediting Kwan, Sah, Sawhney
+**Status.** The site labeled the problem proved, crediting Kwan, Sah, Sawhney
 and Simkin [KSSS22b]. The accepted claim is
 [[problems/set_systems/E0207/claims/2022_01_12_kwan_sah_sawhney_simkin|Steiner triple systems of arbitrarily high girth]].
 

@@ -81,7 +81,7 @@ The publisher's record dates the issue, volume 61, numbers 1--2, to March
 1993 and carries no day, so this page is dated the first of that month.
 
 **Acceptance.** Refereed: a journal paper in Acta Mathematica Hungarica.
-Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels the problem not
+Reviewed: the curator of erdosproblems.com, T. F. Bloom, labeled the problem not
 disprovable. The page's remark credits Shelah with the consistency of a graph
 with either property, without citing a paper. The written source found for the
 second property is this joint paper, whose introduction claims it. The thread

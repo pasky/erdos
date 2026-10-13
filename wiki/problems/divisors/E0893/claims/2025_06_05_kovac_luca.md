@@ -46,4 +46,4 @@ stays open; the paper's conditional Theorem 3 is on
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Experimental Mathematics. The site credits the result
-but labels the problem OPEN, so its commentary is not acceptance.
+but labeled the problem OPEN, so its commentary is not acceptance.

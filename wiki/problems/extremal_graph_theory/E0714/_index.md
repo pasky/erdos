@@ -40,7 +40,7 @@ appears in Erdős's own words in [Er81] ("Is it true that
 $f(n;K(r,r))>cn^{2-1/r}$?", display (3)) and, in matrix form, already in
 [KST54] (inequality (6.1)).
 
-**Status.** Open. The site labels the problem OPEN. No full claim is recorded,
+**Status.** Open. The site labeled the problem OPEN. No full claim is recorded,
 and the frontmatter standing derives from the partial claims. The answer is yes
 for $r=2$ (Kővári, Sós and Turán 1954; Erdős, Rényi and Sós 1966; Brown 1966)
 and for $r=3$ (Brown 1966). These results are recorded as accepted partial
@@ -213,7 +213,7 @@ a system of $p^j$ combinations for $n=p^j$; the case $j=2$ is its Section 5.
 them: [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán]]
 ($r=2$), [[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
 ($r=2$) and [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown]]
-($r=3$ and $r=2$), each on refereed evidence alone, since the site labels
+($r=3$ and $r=2$), each on refereed evidence alone, since the site labeled
 the problem OPEN. For $r=2$, [KST54]'s (1.3), $\lim k_2(n)/n^{3/2}=1$,
 proved by the Section 5 construction, already gives a bipartite
 $C_4$-free graph with $n$ vertices a side and $n^{3/2}$ edges, hence

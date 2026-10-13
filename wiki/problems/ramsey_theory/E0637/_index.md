@@ -49,7 +49,7 @@ quantity $f(G)$ of Jenssen, Keevash, Long and Yepremyan, the largest number
 of distinct degrees in an induced subgraph of any size, is a different
 quantity from the one this statement bounds; see the assessment.
 
-**Status.** Proved. The site labels the problem PROVED, and its curator credits
+**Status.** Proved. The site labeled the problem PROVED, and its curator credits
 the proof to Bukh and Sudakov. The claim page
 [[problems/ramsey_theory/E0637/claims/2006_11_14_bukh_sudakov|Bukh and Sudakov 2006]]
 records the result, its postings and the acceptance evidence, and the

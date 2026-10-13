@@ -97,7 +97,7 @@ version in the claimant's thread. This corpus has built and audited none of
 them, so no `formalized` evidence is listed, and the formal-conjectures
 statement file is not a formalization link.
 
-**Acceptance.** The site's curator, Thomas F. Bloom, marks Problem 1197
+**Acceptance.** The site's curator, Thomas F. Bloom, marked Problem 1197
 disproved, with the Lean qualification, and credits the counterexample to
 ebarschkis. This is the `reviewed` evidence. The manuscript is not refereed.
 Thread comments report checks made with AI systems, and these checks are not

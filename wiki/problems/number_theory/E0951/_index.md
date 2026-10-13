@@ -48,16 +48,16 @@ leaves the quantifier over $x$ implicit: read for every $x\ge1$ it is a
 statement about each finite initial segment of the sequence, and read for all
 sufficiently large $x$ it is an asymptotic statement about the density of the
 generators. The site's commentary states this ambiguity itself, reports that
-the first reading fails by a finite calculation and keeps OPEN, and the
-formal-conjectures file encodes the second reading. This page lists the two
-readings as its parts: `every_x`, the reading for every $x$, which the finite
-counterexamples of January and February 2026 refute as pending claims, and
-`large_x`, the reading for all sufficiently large $x$, which is open; the two
-readings are kept apart below. Erdős's 1980 survey adds a second question,
+the first reading fails by a finite calculation, and the site kept the label
+OPEN; the formal-conjectures file encodes the second reading. This page lists
+the two readings as its parts: `every_x`, the reading for every $x$, which the
+finite counterexamples of January and February 2026 refute as pending claims,
+and `large_x`, the reading for all sufficiently large $x$, which is open; the
+two readings are kept apart below. Erdős's 1980 survey adds a second question,
 whether equality can hold only when the $a_i$ are the primes; it is a
 variant, not the problem.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 06 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 06 April
 2026) and says that no finite computation can resolve it. The site's label and
 the formal-conjectures statement follow the reading for all sufficiently large
 $x$, and that reading is open. No proof, disproof, refereed partial result or

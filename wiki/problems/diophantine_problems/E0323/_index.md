@@ -38,7 +38,7 @@ $$
 
 for sufficiently large $x$?
 
-**Status.** Open. The site labels the problem OPEN. Its commentary credits
+**Status.** Open. The site labeled the problem OPEN. Its commentary credits
 Landau with resolving the case $k=2$, through his asymptotic
 $f_{2,2}(x)\sim cx/\sqrt{\log x}$. This is recorded as an accepted partial claim
 on

@@ -55,7 +55,7 @@ and 2. Nothing is claimed for any other graph.
 **Standing.** Claimed. Crossref types the paper as a book chapter of Annals
 of Discrete Mathematics 55, and no refereeing of the volume is documented,
 so `refereed` is not listed; the site credits the paper for the $d_{C_4}(n)$
-bounds, but it labels the problem OPEN, so no `reviewed` evidence is listed
+bounds, but it labeled the problem OPEN, so no `reviewed` evidence is listed
 either. This corpus checked the statements clause by clause and did not
 reconstruct the proofs.
 

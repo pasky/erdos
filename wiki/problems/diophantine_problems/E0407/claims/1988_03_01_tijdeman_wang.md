@@ -75,7 +75,7 @@ the proof was not checked.
 
 **Acceptance.** The paper is a refereed publication in the Pacific Journal of
 Mathematics, which is the `refereed` evidence. The site's curator, T. F. Bloom,
-labels the problem proved and credits this paper in the problem's commentary
+labeled the problem proved and credits this paper in the problem's commentary
 with the quantitative bound. That documented acceptance is the `reviewed`
 evidence. Bajpai and Bennett's introduction restates the theorem as their
 Theorem 2 and builds on it. Their effective version has its own

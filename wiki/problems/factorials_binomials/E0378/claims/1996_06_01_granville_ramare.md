@@ -73,7 +73,7 @@ Ramaré's, so their paper's date and names name this page.
 
 **Acceptance.** The paper appeared in Mathematika, a refereed journal, and
 its acknowledgments thank an anonymous referee. Thomas Bloom, the site's
-curator, marks the problem proved and credits the paper, with Aggarwal and
+curator, marked the problem proved and credits the paper, with Aggarwal and
 Cambie's observation, on the problem page (last edited 28 October 2025); the
 community database records the problem as proved from 31 August 2025. The
 paper has no Lean formalization known here.

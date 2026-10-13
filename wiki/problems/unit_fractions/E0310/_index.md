@@ -45,7 +45,7 @@ $((1/e+\gamma)N,N]$ has density above $\alpha$ for small $\gamma$ and all
 of its subsums are below $1$, so none is an integer (checked on this page from Liu
 and Sawhney's remark after their Theorem 1.3).
 
-**Status.** Proved. The site's label is PROVED (LEAN). The accepted claim is
+**Status.** Proved. The site's label was PROVED (LEAN). The accepted claim is
 recorded on
 [[problems/unit_fractions/E0310/claims/2024_04_10_liu_sawhney|Liu and Sawhney's claim page]].
 The status-defining source is Liu and Sawhney's Proposition 1.4 (Int. Math. Res.

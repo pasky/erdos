@@ -28,7 +28,7 @@ $$
 
 for every $x\in \mathbb{R}$ and $h>0$. Must $f$ be monotonic?
 
-**Status.** PROVED (LEAN) on the site's label, which credits Laczkovich [La84]
+**Status.** Labeled PROVED (LEAN) on the site, which credits Laczkovich [La84]
 for the solution. By Laczkovich's published Theorem 1, every such function is
 **nondecreasing**, without any regularity assumption. This result is recorded as
 an [[problems/analysis/E1125/claims/1984_01_01_laczkovich|accepted claim]].

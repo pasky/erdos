@@ -59,7 +59,7 @@ a large cochromatic number, J. Graph Theory 25 (1997), no. 4, 295–297, as the
 publisher's record gives it. The paper's own printed header reads volume 26. The
 issue is dated August 1997, and this page carries the first of that month
 because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
-marks Problem 760 proved on the problem page and credits the theorem [AKS97].
+marked Problem 760 proved on the problem page and credits the theorem [AKS97].
 The community database records the problem as proved, with a Lean proof, from
 2026-04-23.
 

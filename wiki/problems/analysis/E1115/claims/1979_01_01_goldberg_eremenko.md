@@ -74,7 +74,7 @@ the record gives alone.
 
 **Acceptance.** Refereed: the paper appeared in Matematicheskii Sbornik, with
 its translation in Mathematics of the USSR-Sbornik. Reviewed: the site's
-curator, T. F. Bloom, labels the problem solved and records that Gol'dberg and
+curator, T. F. Bloom, labeled the problem solved and records that Gol'dberg and
 Eremenko disproved it with the functions of Theorems 1 and 2. Hayman and
 Lingham's 2018 survey of Hayman's problems (Update 2.41) records the problem as
 completely solved by this paper. Toppila's 1980 note has

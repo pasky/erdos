@@ -104,7 +104,7 @@ taken from the paper, and not independently reviewed.
 289–303, received 1977-04-01. The publisher's record places it in the issue
 dated December 1978, which dates this page.
 
-Reviewed: the site's curator, Thomas F. Bloom, labels the problem proved. The
+Reviewed: the site's curator, Thomas F. Bloom, labeled the problem proved. The
 commentary records that de Boor and Pinkus proved the characterization Erdős
 conjectured. It also records that the bound $(2/\pi)\log n+O(1)$ for $\Upsilon$
 then follows from the estimates recorded on Problem 1129

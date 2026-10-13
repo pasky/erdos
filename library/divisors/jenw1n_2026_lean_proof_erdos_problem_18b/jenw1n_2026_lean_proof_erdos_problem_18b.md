@@ -141,7 +141,7 @@ reviewers; nothing built here; `subsetSums` (FormalConjecturesUtil) and
 catalog commits unreachable, with fidelity resting on `main` and the site's
 type-hash check.
 
-**Site status.** erdosproblems.com/18 shows OPEN, last edited 11 April 2026.
+**Site status.** erdosproblems.com/18 showed OPEN, last edited 11 April 2026.
 On 2026-09-27 13:28:50 (site clock) the site owner posted the record on the
 proof-claims tab as "A partial proof claimed by conjectures.io (using
 Unknown)" with the summary "This formalisation claims a proof that

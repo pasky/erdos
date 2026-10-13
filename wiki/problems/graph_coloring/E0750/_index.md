@@ -78,7 +78,7 @@ through
 a note of 2026-05-03 signed with the AI system GPT-5.5 Pro that proves the
 stronger statement that every $m$-vertex finite subgraph becomes bipartite after
 deleting at most $g(m)$ vertices, for any nondecreasing unbounded $g$. The
-site's curator labels the problem PROVED (LEAN) and credits that result; there
+site's curator labeled the problem PROVED (LEAN) and credits that result; there
 is no refereed publication, and the linked Lean developments, the first
 declaring Stiebitz's theorem on generalized Mycielski graphs as an axiom and a
 later one proving it, whose single-file vendoring formal-conjectures'
@@ -124,7 +124,7 @@ argues that a positive answer to Problem 74 would imply a positive answer to
 this problem; its lemma, that a graph made bipartite by deleting $\beta$ edges
 has an independent set of size at least $(n-\beta)/2$, gives this problem for
 $f$ from Problem 74 for the budget $2f$. Problem 74 has been answered no (the
-site labels it disproved, and the corpus accepts the disproof), so the note's
+site labeled it disproved, and the corpus accepts the disproof), so the note's
 hypothesis is false. Applied rate by rate, the known positive case of Problem
 74,
 [[problems/graph_coloring/E0074/claims/1982_12_01_rodl|Rödl's linear budgets]],

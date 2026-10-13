@@ -90,7 +90,7 @@ $\mathrm{ex}(n;G)\asymp n^\alpha$ in place of the asymptotic formula; no proof
 or disproof of that variant for every bipartite graph is compiled on this
 page.
 
-**Status.** Open. The site labels the problem OPEN, with a prize (snapshot
+**Status.** Open. The site labeled the problem OPEN, with a prize (snapshot
 accessed 2026-09-04). This label describes the corrected Statement. Neither
 question of the corrected Statement has a claim page, so the frontmatter
 standing derived from the claim pages is open with no claim. The site's wording
@@ -170,7 +170,7 @@ development; its Theorem 1.1 is on p. 1.
 
 The source unit records Bloom's proof claim of 3 September 2026, which called
 that exposition and Bloom's own informal exposition placeholders until a
-proper writeup is prepared, and it records that the site labels Problem 571
+proper writeup is prepared, and it records that the site labeled Problem 571
 proved, with the proof checked in Lean, and that the public build and
 Comparator checks succeeded. These document named acceptance and public
 checks, not independent refereeing or a build reproduced by this corpus. This

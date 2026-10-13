@@ -106,6 +106,6 @@ user whose headline bound was Lin's $0.8642$, withdrawn once Lin's prior work
 was found; the claim's notes of 6 October 2026 report a computation with the
 prime $23$ in progress.
 
-**Standing.** Claimed. The site's label is OPEN (page last edited 7 October
+**Standing.** Claimed. The site's label was OPEN (page last edited 7 October
 2025; proof-claims thread accessed 2026-10-06), the claim's thread had no
 comments, and nothing outside the write-up records acceptance.

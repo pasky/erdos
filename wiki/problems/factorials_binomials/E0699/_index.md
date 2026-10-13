@@ -84,7 +84,7 @@ which the frontmatter standing derives. Price's partial claim of 2026-07-18, on
 the
 [[problems/factorials_binomials/E0699/claims/2026_07_18_price|Price claim page]],
 proves the cases $j\le3i/2$ and $n=2j$ with GPT 5.6 Sol Pro and is pending: the
-site credits it, but on a problem it labels FALSIFIABLE. Van Doorn and Rocca's
+site credits it, but on a problem it labeled FALSIFIABLE. Van Doorn and Rocca's
 partial claim of 2026-07-25, on the
 [[problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca|van Doorn–Rocca claim page]],
 is the forum posting of the first manuscript above, with the second added to the

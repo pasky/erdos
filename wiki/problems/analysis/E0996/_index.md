@@ -38,8 +38,8 @@ $$
 
 for almost every $\alpha$?
 
-**Status.** Open. The site's label is unchanged (OPEN). The pending claims, both
-negative answers, are on
+**Status.** Open. The site's label was unchanged (OPEN). The pending claims,
+both negative answers, are on
 [[problems/analysis/E0996/claims/2026_04_20_ho|Ho's page]] and
 [[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]. The site's
 proof-claims tab carries one full proof claim, filed 26 September 2026 by Ethan

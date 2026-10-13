@@ -40,8 +40,8 @@ target. It takes the entire question, with finite $a\ne b$, as a variant; an
 entire $f$ has $n(r,\infty)=0$. Toppila's Theorem 2 answers the target, and
 Toppila's Theorem 3 and Gol'dberg's theorem answer the variant.
 
-**Status.** SOLVED on the site. The answer is yes. The derived standing is
-solved, proved rather than answered, because the question asks whether such a
+**Status.** Labeled SOLVED on the site. The answer is yes. The derived standing
+is solved, proved rather than answered, because the question asks whether such a
 function exists and Toppila's accepted full claim proves that one does.
 Toppila's 1976 Theorems 2 and 3 give a meromorphic function and an entire
 function with $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every pair of

@@ -76,7 +76,7 @@ Mazur posted the exact-size failure in
 2026, attributing the observation to GPT-5.5 Pro. The page's standing judges the
 corrected Statement.
 
-**Status.** The site's label is Open, and both questions of the corrected
+**Status.** The site's label was Open, and both questions of the corrected
 Statement are open. A partial proof claim of 5 September 2026 gives explicit
 linear upper bounds in the at-most convention. It gives $g(n)\le12n$ for every
 $n$, with a Lean development its author reports kernel-checked, and the
@@ -111,7 +111,7 @@ it was not built or audited here.
 ## Current assessment
 
 The corrected Statement, the sources' at-most reading of the site's question, is
-the dated target; the site labels the question OPEN.
+the dated target; the site labeled the question OPEN.
 
 This account checks the selection convention against the two cited sources; it
 does not resolve either asymptotic question. Read as written, the site's
@@ -143,7 +143,7 @@ with $\max(A)\ge8n^3$, which the claimant presents as partial progress and
 not as a resolution of the $(2+o(1))n$ question. The claim, its write-up, its
 repository and its one comment are recorded on
 [[problems/integer_sequences/E0708/claims/2026_09_05_chen|its claim page]];
-the site's label is OPEN, and nothing is adopted here.
+the site's label was OPEN, and nothing is adopted here.
 
 ## Progress
 

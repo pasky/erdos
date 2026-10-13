@@ -51,7 +51,7 @@ coefficients through a Lindeberg comparison and applies the Gaussian
 correlation inequality. The theorem statements follow the card's digest.
 
 **Acceptance.** Reviewed: on erdosproblems.com/527, the site's curator, Thomas
-Bloom, labels the problem PROVED and credits this paper. The community database
+Bloom, labeled the problem PROVED and credits this paper. The community database
 agrees and has recorded the problem as proved since 8 September 2025. The paper
 is a preprint. Its arXiv record lists no journal reference, so `refereed` is not
 listed. No independent review is recorded in this repository and none is

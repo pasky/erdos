@@ -26,7 +26,7 @@ updated: 2026-10-07T19:40:10Z
 particular, is it true that $f(N)\leq N^{o(1)}$, or even $f(N) \leq (\log
 N)^{O(1)}$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 3 December
+**Status.** Open. The site labeled the problem OPEN (page last edited 3 December
 2025). Its commentary credits three sets of bounds, each recorded on a claim
 page: Erdős and Sárközy's $\log N\ll f(N)\ll N^{3/4}\log N$,
 [[problems/integer_sequences/E1109/claims/1987_03_01_erdos_sarkozy|Erdős and Sárközy 1987]];

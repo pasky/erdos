@@ -75,7 +75,7 @@ Avart, Kay, Reiher and Rödl (2017). A commenter's check with GPT-5.4 Thinking
 found one minor issue and noted the stronger bound $\gg n/\log n$; the curator
 replied that the construction was already studied in [EHS82] and that the
 lower bound was perhaps known but unpublished. The note is unrefereed and the
-site labels the problem OPEN, so the claim is partial and pending, and the
+site labeled the problem OPEN, so the claim is partial and pending, and the
 problem's standing is open. The second question, an independent set of size
 $\gg n$, has no claim: [EHS82, Theorem 2] bounds the least independence number
 over $m$-vertex subsets of the countable Specker graph by

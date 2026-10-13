@@ -28,7 +28,7 @@ $$
 g(n) > n^{1-\epsilon}?
 $$
 
-**Status.** Claimed: a pending full claim would settle it. The site labels the
+**Status.** Claimed: a pending full claim would settle it. The site labeled the
 problem OPEN (page last edited 1 October 2025; accessed 2026-09-04).
 
 The OpenAI release of September 2026 claims a proof that for every $\epsilon>0$
@@ -90,7 +90,7 @@ refereed paper; Corollary 1.3 of Lichtman [Li22] gives $g(n)\ge n^{0.7156}$
 for infinitely many $n$, and its Theorem 1.1 makes the inequality strict, every
 $\epsilon\ge0.2844$, a partial claim that is pending
 because the arXiv paper has no journal record and the site's commentary on a
-problem it labels OPEN is not an acceptance. Erdős [Er35b] proved
+problem it labeled OPEN is not an acceptance. Erdős [Er35b] proved
 $g(n)>n^{c}$ for infinitely many $n$ with some $c>0$, but the exponent is not
 explicit (Part 3 of the paper gives $m^{C_5}$ with $C_5>\sigma/2$ for a small
 unspecified $\sigma$), so the result settles no named $\epsilon$ and gets no

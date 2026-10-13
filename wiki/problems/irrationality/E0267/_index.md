@@ -30,7 +30,7 @@ $$
 
 be irrational?
 
-**Status.** Claimed. The site labels the problem OPEN (page last edited 18
+**Status.** Claimed. The site labeled the problem OPEN (page last edited 18
 January 2026). The frontmatter standing follows from one pending full claim,
 [[problems/irrationality/E0267/claims/2026_07_15_snyder|a Lean 4 proof of 2026]],
 which asserts the answer yes for every $c>1$. The case $c\ge2$ is settled by
@@ -82,7 +82,7 @@ proof: a Lean 4 development stating that the sum is irrational for every index
 sequence with $n_{k+1}/n_k\ge c$ for some real $c>1$, which would close the
 range $1<c<2$. The claim page
 [[problems/irrationality/E0267/claims/2026_07_15_snyder|records the formal statement and its standing]]:
-the site labels the problem OPEN, the proof-claim entry has no comments, the
+the site labeled the problem OPEN, the proof-claim entry has no comments, the
 only referee report is an automated one on the hosting site, and the
 formal-conjectures catalog tags the statement solved and cites the proof. The
 corpus records no build or audit of the Lean files. The problem's discussion

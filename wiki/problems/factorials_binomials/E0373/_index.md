@@ -107,7 +107,7 @@ $P(n(n+1))/\log n\to\infty$ would suffice, an observation Guy's section B23
 reduction gets no claim page: it is a conditional theorem whose hypothesis
 is itself open, it decides nothing unconditionally, and its source is a
 conference proceedings paper with no refereeing evidence while the site
-labels the problem OPEN, so a page would carry no acceptance evidence; the
+labeled the problem OPEN, so a page would carry no acceptance evidence; the
 reduction is recorded here instead.
 
 Unconditional results. Luca [Lu07b] proved that the set of $n$ with a

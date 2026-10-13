@@ -84,7 +84,7 @@ https://www.erdosproblems.com/4.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/4.lean),
 at the linked commit: a statement with `sorry` marked research solved, with
-Rankin's bound as a variant; the site's label carries no Lean qualification. In
+Rankin's bound as a variant; the site's label carried no Lean qualification. In
 Boris Alexeev's `lean-proofs` repository, `Erdos4.lean` and `Erdos4b.lean` prove
 the statement for every $C>0$ and
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|the 2018 five-author bound]],

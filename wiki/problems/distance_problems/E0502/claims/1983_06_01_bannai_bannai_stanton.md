@@ -54,5 +54,5 @@ own claim page in this folder and whose
 **Acceptance.** The paper is refereed: E. Bannai, E. Bannai and D.
 Stanton, An upper bound for the cardinality of an $s$-distance subset in
 real Euclidean space, II, Combinatorica 3 (1983), no. 2, 147–152. The
-curator of erdosproblems.com, Thomas Bloom, marks the problem solved and
+curator of erdosproblems.com, Thomas Bloom, marked the problem solved and
 credits the upper bound to this paper.

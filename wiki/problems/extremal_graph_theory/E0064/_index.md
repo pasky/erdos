@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Does every finite graph with minimum degree at least 3 contain a
 cycle of length $2^k$ for some $k\geq 2$?
 
-**Status.** Falsifiable. The site labels the problem FALSIFIABLE (page last
+**Status.** Falsifiable. The site labeled the problem FALSIFIABLE (page last
 edited 10 April 2026). This label is a note on an open problem (Current
 assessment), not a claim. The frontmatter standing is derived from the seventeen
 claim pages under `claims/`: one withdrawn full claim and sixteen partial
@@ -153,7 +153,7 @@ Nowbandegani, Esfandiari, Shirdareh Haghighi and Bibak
 ([[problems/extremal_graph_theory/E0064/claims/2011_09_25_nowbandegani_esfandiari_haghighi_bibak|claim page]]).
 The results with a journal publication are accepted on it; the proceedings
 papers and Carr's arXiv preprint, whose acceptance is author-reported, are
-claimed; the curator's remark is not reviewed evidence, since the site labels
+claimed; the curator's remark is not reviewed evidence, since the site labeled
 the problem FALSIFIABLE. The
 comment's two further items are the 2011 result of Salehi Nowbandegani and
 Esfandiari that a bipartite counterexample has at least $32$ vertices, a

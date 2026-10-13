@@ -115,7 +115,7 @@ v1 on 2026-10-07. The proof claim had two comments,
 both of 27 July 2026: the first author's remark that this may be the only full
 claim made without AI since the site's feature changed, and the comment
 linking the audit. No journal version was found (Crossref and OpenAlex,
-2026-09-09). The site labels the problem OPEN (page last edited 18 January
+2026-09-09). The site labeled the problem OPEN (page last edited 18 January
 2026) and the community database records it open. The dispute is unresolved
 and unverified either way; it is neither an acceptance nor a refutation, and
 the proof was not reconstructed or reviewed here, so no evidence kind is

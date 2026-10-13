@@ -49,7 +49,7 @@ covered in full. Two distinct values do occur with a unique zero-sum length:
 $1^{p-1}x$ for any $x$, and $1^{p-2}(q+1)^2$ for $p=2q+1$
 (Gao--Hamidoune--Wang, p. 2).
 
-**Status.** The site's label is PROVED (LEAN). The frontmatter standing derives
+**Status.** The site's label was PROVED (LEAN). The frontmatter standing derives
 from the claim pages. The pages
 [[problems/integer_sequences/E0541/claims/2009_02_27_gao_hamidoune_wang|Gao, Hamidoune and Wang 2009]]
 and

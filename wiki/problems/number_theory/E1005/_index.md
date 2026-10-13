@@ -316,7 +316,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not opened: the
 editable online document linked in the thread and the tab. Not held:
 [Ma42], Mayer's second 1942 paper, [Za06], [MeZa14].
 
-**Remaining gaps.** (1) The label rests on a preprint with declared AI
+**Remaining gaps.** (1) The label rested on a preprint with declared AI
 assistance and no refereed publication or independent review, and both halves of
 the asymptotic ($\frac n4+O(1)$ above, $(\frac14-o(1))n$ below) are preprint
 results; reopening condition for the qualification: a refereed version or an

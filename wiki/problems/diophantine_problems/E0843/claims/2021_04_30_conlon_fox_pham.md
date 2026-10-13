@@ -56,7 +56,7 @@ proof was never published, and the paper's p. 4 says its theorem subsumes
 that result. With no manuscript, Burr's proof has no claim page of its own;
 the problem's standing rests on the published argument above.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
+**Acceptance.** The site's curator, Thomas Bloom, labeled the problem proved and
 credits the stronger result to Conlon, Fox and Pham in the page's commentary.
 This is the `reviewed` evidence. The paper is an arXiv preprint. Its arXiv
 record lists no journal reference and no published version is recorded, so there

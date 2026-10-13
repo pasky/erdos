@@ -73,7 +73,7 @@ April 2026).** The statement above: with $\mu(r,f)=\max_n\lvert a_nr^n\rvert$
 the maximum term and $M(r,f)$ the maximum modulus of a transcendental entire
 $f$ on $\lvert z\rvert=r$, the question asks for the largest possible value
 of $\liminf_{r\to\infty}\mu(r,f)/M(r,f)$; write $B$ for the supremum of
-these values over all such $f$. The label is OPEN; the site cross-references
+these values over all such $f$. The label was OPEN; the site cross-references
 [[problems/analysis/E0227/_index|Problem 227]]. The discussion thread
 holds six comments: two of December 2025 agreeing that the
 statement needs the word transcendental, which Clunie and Hayman assumed;
@@ -111,7 +111,7 @@ thus $0.585078819653\le B\le2/\pi-c$, and the value of $B$ is open.
 **Pending claims.** He and Tang's paper, recorded above, is a dated arXiv
 manuscript announced in the discussion thread and not on the proof-claims
 tab; it is unrefereed, and the commentary's credit on a problem the site
-labels OPEN is not an acceptance, so it stays claimed on its page,
+labeled OPEN is not an acceptance, so it stays claimed on its page,
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
 lower bound]]. Sothanaphan's note, recorded above, is a dated manuscript
 posted in the discussion thread and not on the proof-claims tab; it is

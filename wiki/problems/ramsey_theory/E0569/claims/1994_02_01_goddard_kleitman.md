@@ -58,7 +58,7 @@ and the one-edge endpoint is elementary.
 **Acceptance.** Refereed: W. Goddard and D. J. Kleitman, An upper bound for the
 Ramsey numbers $r(K_3,G)$, Discrete Math. 125 (1994), no. 1--3, 177--182, in the
 February 1994 issue, the month this page is dated by. The day is a placeholder.
-The site labels the problem OPEN, so its pages are not acceptance.
+The site labeled the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statement on p. 1 of the author manuscript described on
 the source card was checked against the problem's formula; the proof was not

@@ -79,9 +79,9 @@ that the Lean proof compiles and proves the right statement, that it corresponds
 to the informal note, and that the note is correct apart from omitted details
 they list. Their post states that this assessment was made with ChatGPT. Tao
 wrote on 2026-01-21 that the handling of the slowly growing block length looks
-plausible. The site's curator, T. F. Bloom, labels Problem 347 PROVED (LEAN) at
+plausible. The site's curator, T. F. Bloom, labeled Problem 347 PROVED (LEAN) at
 erdosproblems.com and credits the result to Barschkis (page last edited 22
-January 2026, accessed 2026-10-07). The community database lists the problem as
+January 2026). The community database lists the problem as
 proved (Lean), and its entry was last updated on 2026-01-21. A later thread
 comment (2026-02-04) describes a parametric generalization of the construction
 in Lean. It is not part of this claim. Nothing here was checked by this project.

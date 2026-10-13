@@ -53,7 +53,7 @@ version, accepted in Combinatorica"); v1 was posted on 11 October 2022, the date
 this page is named by. The original disproof is the page
 [[problems/ramsey_theory/E0559/claims/2000_02_01_rodl_szemeredi|Rödl and Szemerédi 2000]].
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 DISPROVED. In the problem's commentary the curator credits Tikhomirov with
 raising the lower bound for cubic graphs to $n\exp(c\sqrt{\log n})$ (page last
 edited 18 January 2026, accessed 2026-09-17). The curator is independent of the

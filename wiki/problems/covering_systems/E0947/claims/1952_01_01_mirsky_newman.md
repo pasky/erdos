@@ -82,7 +82,7 @@ proof is the one printed by Erdős. The library's Sun cards on covering
 multiplicity give exact-cover background without asserting this theorem,
 as their pages say.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels the problem
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
 proved and credits the theorem to Mirsky and Newman and, independently, to
 Davenport and Rado (the site's page as of 2026-10-07). The page's thread holds
 one comment, of 2026-02-02, and its proof-claim tab is empty. Erdős, who posed
@@ -96,7 +96,7 @@ proof. Newman reproved and sharpened the theorem in 1971.
 Refereed: Erdős prints the theorem and its proof in his journal paper Mat. Lapok
 3 (1952), 122–128. Mirsky and Newman did not publish it themselves.
 
-Not listed as formalized: the site's label carries a Lean qualification. It
+Not listed as formalized: the site's label carried a Lean qualification. It
 rests on Wouter van Doorn's Lean 4 file of 2026-02-02 (Lean v4.24.0 with the
 Mathlib commit the file names). As the file's header and the thread post state,
 Aristotle, the Harmonic system, wrote its proof from an exposition of the

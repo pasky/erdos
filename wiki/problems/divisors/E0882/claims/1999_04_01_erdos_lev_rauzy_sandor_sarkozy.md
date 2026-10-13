@@ -58,7 +58,7 @@ had expected this after the greedy algorithm gave only $(1-o(1))\log_3 n$.
 
 **Acceptance.** The paper is a refereed journal publication (Discrete
 Mathematics 200, April 1999), which is the `refereed` evidence. The site's
-curator, Thomas Bloom, marks the problem solved. In the problem's remarks the
+curator, Thomas Bloom, marked the problem solved. In the problem's remarks the
 curator credits the lower bound to this paper and the upper bound to the
 distinct-subset-sums bound of Problem 1. This is the `reviewed` evidence. The
 statement and its proof are recorded on the library result page

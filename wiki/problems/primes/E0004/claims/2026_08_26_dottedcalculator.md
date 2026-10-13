@@ -90,7 +90,7 @@ used:
 > intact. $o\left(\frac x{\log x}\right)$ remain, which can be removed by
 > slightly larger primes.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
+**Acceptance.** The site's curator, Thomas Bloom, labeled the problem proved and
 records this bound in the problem's commentary as an improvement of the 2018
 result. The curator also wrote the problem's proof exposition on the
 manuscript's two new ideas. That credit is the `reviewed` evidence.

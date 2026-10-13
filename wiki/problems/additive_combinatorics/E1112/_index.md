@@ -57,7 +57,7 @@ Statement is the site's question rather than Erdős's words. Under the precise
 Statement Johan Land's dichotomy (a ratio exists exactly when $d_2 \geq k+1$,
 with the ratio $192 d_2$ in the built development and $d_2 + 2$ in the September
 2026 revision) settles every triple, so the problem is solved; [BHJ97] settles
-the triple $(3,2,3)$ and is a partial claim. The site keeps the label OPEN
+the triple $(3,2,3)$ and is a partial claim. The site kept the label OPEN
 (LEAN): on 13 July 2026 the curator confirmed on the thread that `erdos_1112` is
 a correct formalization and compiles without `sorry`, and wrote of not yet
 having tried to understand the proof; the acceptance here rests instead on the
@@ -139,7 +139,7 @@ records. The built development proves the ratio $192d_2$ above the threshold;
 the ratio $d_2+2$ of the September revision of the paper is not built. On 13
 July 2026 the curator confirmed that the main Lean statement of the original
 development formalizes the question and compiles without `sorry`, and wrote of
-not yet having tried to understand the proof. The site's label stays OPEN
+not yet having tried to understand the proof. The site's label stayed OPEN
 (LEAN), so no `reviewed` evidence is listed, and there is no refereed write-up.
 Tang and Yang [TaYa21] give further nonexistence results whose instances the
 available review does not name (see Status). The two-summand results the site

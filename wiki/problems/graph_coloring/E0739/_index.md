@@ -27,7 +27,7 @@ with chromatic number $\mathfrak{m}$. Is it true that, for every infinite
 cardinal $\mathfrak{n}< \mathfrak{m}$, there exists a subgraph of $G$ with
 chromatic number $\mathfrak{n}$?
 
-**Status.** Open. The site labels the problem NOT PROVABLE, on the strength of
+**Status.** Open. The site labeled the problem NOT PROVABLE, on the strength of
 Komjáth's consistency result. In a model of ZFC there is a graph of chromatic
 number $\aleph_2$ with no subgraph of chromatic number $\aleph_1$, so ZFC does
 not prove the statement. That settles one side only. It is open whether the

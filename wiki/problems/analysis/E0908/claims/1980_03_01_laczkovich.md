@@ -44,7 +44,7 @@ supplies the negative shifts. Its proof is not reconstructed in this corpus.
 measurable differences*, Acta Mathematica Academiae Scientiarum Hungaricae 35
 (1980), 217–235. The journal received it on August 10, 1978. It is reviewed in
 the sense of a documented independent acceptance: Thomas Bloom, the curator of
-erdosproblems.com, marks Problem 908 proved and credits this paper for the
+erdosproblems.com, marked Problem 908 proved and credits this paper for the
 affirmative answer. No Lean proof is recorded.
 
 The page is dated by the first day of the issue month. The publisher's record

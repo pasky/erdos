@@ -45,10 +45,10 @@ an equality, and the site was updated to say so. $f(N)$ is OEIS A390394
 ($1,2,3,4,5,5,6,\ldots$, to $N=60$). The statement asks for an estimate of
 $f(N)$ and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label is OPEN (page last edited 16 January 2026; as
-of 2026-10-07), and the site marks the problem as not resolvable by a finite
-computation. The standing derived from the claim pages is open, claim none. The
-four claim pages are all pending partial claims:
+**Status.** Open: the site's label was OPEN (page last edited 16 January 2026;
+accessed 2026-10-07), and the site marked the problem as not resolvable by a
+finite computation. The standing derived from the claim pages is open, claim
+none. The four claim pages are all pending partial claims:
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's upper bound 25/28]]
 (recorded from the site's commentary),
 [[problems/unit_fractions/E0301/claims/2026_05_27_wang|Wang's upper bound 667/806]],
@@ -174,7 +174,7 @@ and the frontmatter is open, claim none.
 
 - [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|Wouter van Doorn, dated 16 September 2025]]:
   the $25/28$ argument above, recorded from the site's commentary, which
-  credits it; pending, since the site labels the problem OPEN and the
+  credits it; pending, since the site labeled the problem OPEN and the
   argument has no written source. The page is dated by the earliest
   archived copy of the site's page that carries the remark; the archived
   copy of 4 October 2024 carries the earlier formulation without it.

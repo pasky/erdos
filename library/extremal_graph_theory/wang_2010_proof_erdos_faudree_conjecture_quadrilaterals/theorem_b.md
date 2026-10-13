@@ -100,5 +100,5 @@ Graph Theory (1978). None of the three is held.
   statement as a theorem, in the paper's words ("order $4k$" for "$4k$
   vertices", "disjoint cycles of length 4" for "vertex-disjoint
   $4$-cycles"), with no lower bound on $k$ or other hypothesis beyond the
-  abstract's. The site labels the problem PROVED and credits the proof
+  abstract's. The site labeled the problem PROVED and credits the proof
   to this paper; the proof is read here for structure only.

@@ -35,8 +35,8 @@ $$
 
 as $t\to \infty$?
 
-**Status.** Open on the site. On 2026-10-07 the problem page showed OPEN, no
-comment, and one proof-claim entry. The curator posted that entry on 2026-09-27
+**Status.** Labeled open on the site. The problem page showed OPEN, no comment
+and one proof-claim entry. The curator posted that entry on 2026-09-27
 to make the Conjectures.io claim known, without verifying it. The frontmatter
 standing derives from the accepted claim page
 [[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and
@@ -52,7 +52,7 @@ $(\log t)^{\delta}d_t\to0$.
 **Source.** [erdosproblems.com/859](https://www.erdosproblems.com/859), accessed
 2026-09-22 (the problem page: OPEN, marked as not resolvable by a finite
 computation; source key [Er70]; Proof expositions (0), Comments (0), Proof
-claims (0); "Formalised statement? Yes") and 2026-10-07 (OPEN; Comments
+claims (0); "Formalised statement? Yes") and 2026-10-07 (Comments
 (0); Proof claims (1), the curator's entry of 2026-09-27), and the
 Conjectures.io record
 [conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19](https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19),
@@ -106,7 +106,7 @@ after two agent assessments and a human reviewer's authorization, and it
 certified the record and paid the bounty; its own decision text says the
 approval is neither a novelty certification nor an independent kernel replay,
 and its verification report records that only one kernel implementation ran. No
-refereed publication exists; erdosproblems.com lists the problem as open, and
+refereed publication exists; erdosproblems.com listed the problem as open, and
 its only proof-claim entry is the curator's notice of 2026-09-27, which
 misstates the direction of the claim and links a different file (next
 paragraph). That notice lists the claimant as conjectures.io with the system

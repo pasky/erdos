@@ -62,6 +62,6 @@ $\omega^3\not\to(\omega^3,3)^2$ and the transfer of partition relations along
 pinning maps, which the paper's proof of Theorem 9 cites.
 
 **Acceptance.** Refereed: the paper appeared in Fundamenta Mathematicae,
-volume 82. The site labels the problem OPEN. Its commentary credits Galvin and
+volume 82. The site labeled the problem OPEN. Its commentary credits Galvin and
 Larson, but credit on an open problem is not an acceptance, so no `reviewed`
 evidence is listed.

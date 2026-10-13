@@ -206,7 +206,7 @@ narrowing the search space, programming, LaTeX formatting and other forms of
 orchestration", the author taking full responsibility; the site's proof-claim
 entry (submitted 17 July 2026) declares the claim as made using GPT-5.5 Pro.
 Acceptance evidence: none. No journal record (Crossref); no citing
-paper (Semantic Scholar); the site's label is OPEN (LEAN), which keeps the
+paper (Semantic Scholar); the site's label was OPEN (LEAN), which keeps the
 informal status open. Version note: the text cited is v1 (20 pages,
 complete); the arXiv listing shows v2 of 2 August 2026 (26 pages) with the
 comment "The proof has been formally verified in Lean", not compared here.

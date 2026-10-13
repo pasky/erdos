@@ -54,7 +54,7 @@ $M$ bounded. The authors attribute the proof to an internal OpenAI model. The
 paper is held on its
 [[../library/discrete_geometry/alexeev_2026_short_proofs_combinatorics_probability_number_theory/_index|library card]].
 
-**Reviewed.** The site's curator, Thomas Bloom, marks Problem 990 disproved
+**Reviewed.** The site's curator, Thomas Bloom, marked Problem 990 disproved
 and credits the construction of this paper in the site's commentary (last
 edited 10 April 2026). The arXiv record lists one version and no journal
 reference, so the claim has no refereed evidence.

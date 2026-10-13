@@ -38,7 +38,7 @@ quantifies over every $G$; the cycle-restricted statement is also answered
 no, by Morris and Saxton's $C_6$ construction, so the two have the same
 answer.
 
-**Status.** Disproved. The site's label reads "DISPROVED (LEAN)", and its suffix
+**Status.** Disproved. The site's label read "DISPROVED (LEAN)", and its suffix
 is a catalog label explained under Formalization. The Statement quantifies over
 every graph $G$, and its answer is no. It fails trivially for forests. For
 $G=P_3$, the path with two edges, the $G$-free graphs are the matchings. Then
@@ -97,7 +97,7 @@ Neither development was built or audited by this project.
 ## Current assessment
 
 **The question (site formulation, accessed and 2026-10-07).** The
-statement above; the site labels it DISPROVED (LEAN). Its commentary says the
+statement above; the site labeled it DISPROVED (LEAN). Its commentary says the
 answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no for
 $G=C_6$, where Morris and Saxton [MoSa16] give at least
 $2^{(1+c)\mathrm{ex}(n;C_6)}$ such graphs for infinitely many $n$ and some

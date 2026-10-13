@@ -53,7 +53,7 @@ for every $R>0$ answers the precise Statement in the higher-order direction,
 and the answer to whether the count is $\sim cx$ is no. Such a bound does not
 determine the order of growth, which remains open.
 
-**Status.** Open. The site labels the problem OPEN. Li's preprint of June 2026
+**Status.** Open. The site labeled the problem OPEN. Li's preprint of June 2026
 (arXiv:2606.25849, written with GPT-5.5 Pro) claims that the number of solutions
 with $a+b\le x$ exceeds $x(\log x)^{R}$ for every fixed $R>0$, so that no
 asymptotic $cx$ holds. The author posted it as a full proof claim on the site's
@@ -83,7 +83,7 @@ commit; no formal proof is filed there).
 
 **The question (site formulation).** How many pairs
 $(a,b)$ with $a+b\le x$ satisfy $\sigma(a)+\sigma(b)=\sigma(a+b)$, and
-whether the count is $\sim cx$ for some constant $c>0$. The site labels the
+whether the count is $\sim cx$ for some constant $c>0$. The site labeled the
 problem OPEN.
 
 **Standing.** Claimed, disproved: the full claim

@@ -46,7 +46,7 @@ vertices meets the hypothesis vacuously, so no budget, not even zero,
 satisfies it; the fixed-size Lean statement's convention gives $f_r(m)=0$.
 Both questions again have the answer no.
 
-**Status.** The site labels the problem DISPROVED (LEAN), crediting Rödl's
+**Status.** The site labeled the problem DISPROVED (LEAN), crediting Rödl's
 construction of nearly bipartite graphs of large chromatic number [Ro82] as
 noted in the thread. The Lean behind the qualifier is described under
 Formalization. The accepted claim is

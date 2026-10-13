@@ -55,7 +55,7 @@ so $g(n)=(\log n)^3$ stays open, as the paper says.
 
 **Acceptance.** `refereed`: Proc. Amer. Math. Soc. 149 (2021), no. 8,
 3145--3157, published online 14 May 2021. The site's curator, T. F. Bloom,
-credits the construction in the problem's commentary. The site labels the
+credits the construction in the problem's commentary. The site labeled the
 problem OPEN, so that commentary is not acceptance, and no `reviewed` is
 listed. Source card:
 [[../library/extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|Alon, Bucić and Sudakov]].

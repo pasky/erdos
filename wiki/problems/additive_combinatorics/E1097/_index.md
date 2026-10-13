@@ -115,7 +115,7 @@ $D(A)$. The curator adopted this on the thread and in the page's commentary,
 which places the optimal exponent between Lemm's $1.77898\ldots$ [Le15]
 (slightly improved by AlphaEvolve [GGTW25]) and Katz and Tao's $11/6$ [KaTa99];
 already Katz and Tao's digit example, with exponent $\log6/\log3\approx1.63$,
-exceeds $3/2$ through the embedding. The curator credits Chan and Tao and keeps
+exceeds $3/2$ through the embedding. The curator credits Chan and Tao and kept
 the label OPEN because the first question is open. Lemm's and Katz and Tao's
 bounds are accepted partial claims (see Status). The thread's constructions and
 the embedding are thread posts and get no page. AlphaEvolve's improvement

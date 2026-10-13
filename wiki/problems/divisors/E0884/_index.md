@@ -32,8 +32,8 @@ $$
 where the implied constant is absolute?
 
 **Status.** DISPROVED (LEAN). The site's remarks credit a conditional disproof
-to Tao and an unconditional one to Larsen. The Lean label rests on a third-party
-formalization of Larsen's proof. See
+to Tao and an unconditional one to Larsen. The Lean label rested on a
+third-party formalization of Larsen's proof. See
 [[problems/divisors/E0884/claims/2026_03_27_larsen|Larsen's unconditional disproof]].
 The conditional result has its own pending page,
 [[problems/divisors/E0884/claims/2025_09_10_tao|Tao's conditional disproof]].
@@ -82,7 +82,7 @@ Hardy--Littlewood prime tuples conjecture. Both are credited by the site's
 curator and neither is refereed. A Lean repository posted in July 2026 declares
 itself a formalization of Larsen's proof and reports a build on Mathlib with the
 three standard axioms; it is linked from Larsen's claim page as a formalization,
-and the site's Lean label rests on it, but this corpus has not built it, so the
+and the site's Lean label rested on it, but this corpus has not built it, so the
 acceptance evidence recorded here is the curator's credit alone. Numerical
 experiments posted in the discussion thread list the record values of the ratio,
 which grow slowly along numbers with densely packed small divisors (factorials

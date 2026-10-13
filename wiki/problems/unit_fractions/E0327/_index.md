@@ -42,10 +42,11 @@ two-term relations of [[problems/unit_fractions/E0302/_index|Problem 302]],
 since here the third denominator $ab/(a+b)$ need not lie in $A$. $f_1(N)$ is
 OEIS A384927 ($1,2,3,4,5,5,6,\ldots$, to $N=5000$).
 
-**Status.** Open on the site. The label is OPEN (the page shows no last-edited
-date), and the site marks the problem as not resolvable by a finite computation.
-The standing derived from the claim pages is claimed, claim answered. It rests
-on one full claim, Della Pietra's AI-assisted manuscript of 29 July 2026
+**Status.** Labeled open on the site. The label was OPEN (the page shows no
+last-edited date), and the site marked the problem as not resolvable by a finite
+computation. The standing derived from the claim pages is claimed, claim
+answered. It rests on one full claim, Della Pietra's AI-assisted manuscript of
+29 July 2026
 ([[problems/unit_fractions/E0327/claims/2026_07_29_della_pietra|its page]]). The
 manuscript asserts a positive answer to the first question and an independent
 negative answer to the second. The claim is pending and accepted by nobody.

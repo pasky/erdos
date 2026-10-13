@@ -77,7 +77,7 @@ and not checked.
 
 **Acceptance.** Refereed publication: Journal of Number Theory 18 (1984), no. 1,
 99--109. It was received 20 January 1982, communicated by H. Zassenhaus, and
-issued February 1984, the date of this page. The site's label credits Ruzsa and
+issued February 1984, the date of this page. The site's label credited Ruzsa and
 does not cite this paper, so no `reviewed` evidence is listed. The page of the
 site's credited counterexample discloses this earlier publication. The paper is
 linked at the publisher's record and at the Rényi Institute's archive of Erdős's

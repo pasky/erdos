@@ -32,8 +32,8 @@ the $p$-adic valuation of $n!$ be even for each prime $p$ of the set. Read as
 the site words it, divisibility by an even power of each $p_i$ holds for every
 $n$, since $p_i^0$ divides $n!$, and $p_i^2$ does once $n\ge2p_i$.
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived from
-the claim page is `solved`, `proved`. It rests on
+**Status.** The site labeled the problem PROVED (LEAN). The standing derived
+from the claim page is `solved`, `proved`. It rests on
 [[problems/factorials_binomials/E0646/claims/1997_05_01_berend|Berend 1997]], a
 refereed paper credited by the site's curator. The Lean proof that the site's
 label refers to is third-party work and is not built here.

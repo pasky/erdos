@@ -54,7 +54,7 @@ on the Lean build). The site's label OPEN (page last edited 19 October 2025)
 reflects that neither claim on its proof-claims tab has been reviewed, not a
 different reading of the question.
 
-**Status.** Disproved. The site labels the problem OPEN as of 2026-10-06 (page
+**Status.** Disproved. The site labeled the problem OPEN as of 2026-10-06 (page
 last edited 19 October 2025). The label reflects that neither of the two claims
 on its proof-claims tab has been reviewed, not a different reading of the
 question. The tab carries two full proof claims, both disproofs, with no

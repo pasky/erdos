@@ -62,7 +62,7 @@ inside Badea's 1993 condition
 
 **Acceptance.** Refereed: The Fibonacci Quarterly, volume 14, number 5 (December
 1976). The site's commentary credits Bicknell and Hoggatt, with Good, with the
-irrationality of the sum over the indices $2^n$. The site labels the problem
+irrationality of the sum over the indices $2^n$. The site labeled the problem
 OPEN, so that commentary is not listed as `reviewed` evidence. The corpus has
 not reproved the closed form and awards no tier of its own.
 

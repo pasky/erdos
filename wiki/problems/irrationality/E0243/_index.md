@@ -63,7 +63,7 @@ https://www.erdosproblems.com/243.
 The site's formulation (page last edited 21 January 2026) states that an
 increasing sequence of positive integers with $a_n/a_{n-1}^2\to1$ and
 rational reciprocal sum satisfies $a_n=a_{n-1}^2-a_{n-1}+1$ for all large
-$n$, and labels the problem OPEN; the sequences obeying the recurrence from
+$n$, and labeled the problem OPEN; the sequences obeying the recurrence from
 the start are Sylvester's sequence $2,3,7,43,\ldots$ and its tails. No claim
 answers the statement for every sequence. Four claim pages record results
 that decide it for classes of sequences, and no full claim is pending.

@@ -67,9 +67,9 @@ and Pomerance 2002]] proved the next year.
 self-contained in the paper.
 
 **Acceptance.** Refereed: the paper appeared in Publicationes Mathematicae
-Debrecen in July 2001. Reviewed: erdosproblems.com labels the problem PROVED and
-credits the lower density $0.54$ and the infinitude of $A_<$ to this paper as
-[GLW01] (page last edited 2025-10-06). The corpus counts this as documented
+Debrecen in July 2001. Reviewed: erdosproblems.com labeled the problem PROVED
+and credits the lower density $0.54$ and the infinitude of $A_<$ to this paper
+as [GLW01] (page last edited 2025-10-06). The corpus counts this as documented
 independent acceptance of the second part by the site's curator, T. F. Bloom
 (erdosproblems.com). The [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1064.lean)

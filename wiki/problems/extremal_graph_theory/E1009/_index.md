@@ -57,7 +57,7 @@ attested in the refereed paper of Balogh and Wigal (arXiv:2502.16683v2, p. 10).
 With $k<cn$ the loss $O(k^2/n^2)$ is $O(c^2)$ for all large $n$, which is the
 site's $f(c)\ll c^2$ (an authored conversion below).
 
-The label rests on Erdős's question, the site's acceptance and the refereed
+The label rested on Erdős's question, the site's acceptance and the refereed
 quotation. The text of the theorem, its constants and its range of $n$ are not
 available, as the Remaining gaps below record. The claim page
 [[problems/extremal_graph_theory/E1009/claims/1988_01_01_gyori|Győri 1988]]

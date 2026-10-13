@@ -27,8 +27,8 @@ updated: 2026-10-08T14:17:37Z
 $\aleph_1$ has, for all large $n$, a subgraph with chromatic number $n$ on at
 most $F(n)$ vertices?
 
-**Status.** Disproved on the site, with the label DISPROVED. The page was last
-edited 1 October 2025. The standing rests on
+**Status.** Labeled disproved on the site, with the label DISPROVED. The page
+was last edited 1 October 2025. The standing rests on
 [[problems/graph_coloring/E0110/claims/2019_02_21_lambie_hanson|Lambie-Hanson's
 theorem]], accepted on its refereed publication and the curator's credit. For
 every function $f$ there is a graph of chromatic number $\aleph_1$ in which, for

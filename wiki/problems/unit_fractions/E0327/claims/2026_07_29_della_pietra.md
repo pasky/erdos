@@ -113,8 +113,8 @@ standard axioms, and describe a numerical verifier and a recorded
 certificate in the release. This corpus has not built or audited the Lean
 archive, so it gives no `formalized` evidence.
 
-**Standing.** Claimed. The site's label is OPEN and its commentary does
-not mention the claim (2026-10-07); the tab carries its standing notice
+**Standing.** Claimed. The site's label was OPEN and its commentary does
+not mention the claim; the tab carries its standing notice
 that listing a claim implies no examination, and no comment stands under
 the claim. There is no arXiv or journal version, and no independent review
 was found on 2026-09-17. In a comment under Sawin's claim on 29 July 2026,

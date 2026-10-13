@@ -36,7 +36,7 @@ $F_G(\aleph_1)\cap F_H(\aleph_1)$ is non-empty.
 If $\kappa,\lambda$ are uncountable cardinals and $F_G(\kappa)$ is non-empty
 then $F_G(\lambda)$ is non-empty.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 23 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 23 January
 2026). The one result claimed against the problem is recorded on its claim page,
 and the standing in the frontmatter is derived from it.
 

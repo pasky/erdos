@@ -141,7 +141,7 @@ theorem's infimum and supremum run over sequences of distinct points,
 while neither the site's wording nor the 1949 note's Section 1 excludes
 coincident points, and whether the constants agree over the two families
 is not settled in the sources read; and the paper's constants $c$, $r_0$
-are unspecified. The site shows the problem OPEN with this as its one
+are unspecified. The site showed the problem OPEN with this as its one
 registered proof claim, the community database keeps the entry open, and the
 two site comments on the claim (10 September 2026) discuss the speed of
 posting and the attribution of the AI's role, not the mathematics. The

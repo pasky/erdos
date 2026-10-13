@@ -74,9 +74,9 @@ of Math. (2) 198 (2023), no. 2, 537–618, doi:10.4007/annals.2023.198.2.2. The
 Crossref record dates the issue to September 2023. The site's reference key
 [KKKMO21] cites the arXiv preprint, first posted on 12 January 2021, which is
 the claim's date. The site's curator, Thomas Bloom, credits the authors with the
-answer yes for all sufficiently large $n$ and labels the problem decidable. That
-label does not settle the problem, so the credit is context and not `reviewed`
-evidence. The acceptance rests on the refereed publication.
+answer yes for all sufficiently large $n$ and labeled the problem decidable.
+That label does not settle the problem, so the credit is context and not
+`reviewed` evidence. The acceptance rests on the refereed publication.
 
 The Lean 4 file linked above, in Boris Alexeev's repository of Lean proofs,
 formalizes the result. Its theorem `erdos19` states that for some $N$ and every

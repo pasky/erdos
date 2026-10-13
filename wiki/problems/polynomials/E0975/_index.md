@@ -33,7 +33,7 @@ $$
 
 where $\tau$ is the divisor function?
 
-**Status.** Open. The site labels the problem OPEN, with its note that no
+**Status.** Open. The site labeled the problem OPEN, with its note that no
 finite computation can settle it (page last edited 27 December 2025).
 
 **Source.** [erdosproblems.com/975](https://www.erdosproblems.com/975), accessed

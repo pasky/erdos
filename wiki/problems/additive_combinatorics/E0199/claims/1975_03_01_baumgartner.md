@@ -59,12 +59,12 @@ Waerden's theorem and related topics, L'Enseignement Math. (2) 25 (1979),
 325–344, printed p. 339). The
 [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/_index|survey's card]]
 holds no file and records this passage in its Bears-on paragraph. The site's
-curator, Thomas Bloom, also labels the problem disproved on erdosproblems.com
+curator, Thomas Bloom, also labeled the problem disproved on erdosproblems.com
 and credits Baumgartner with showing that the answer is no. The source card's
 own reconstruction and reported review warrant nothing. The acceptance rests on
 the publication and on these two outside records.
 
-**Formalization.** The site's label carries a Lean mark. It refers to a Lean 4
+**Formalization.** The site's label carried a Lean mark. It refers to a Lean 4
 formalization of Baumgartner's paper, except its closing remark on the
 fixed-length strengthening, which the forum user JoshuaB posted in the site's
 discussion thread on 2026-02-25 (the time the site displays), written by the

@@ -74,7 +74,7 @@ answer under $\mathfrak{c}=\aleph_1$ after posing the question in 1954. No
 publication of that proof earlier than this paper is recorded here.
 
 **Acceptance.** Refereed: Acta Mathematica Academiae Scientiarum Hungaricae,
-volume 16, issue 1--2. The site labels Problem 474 NOT PROVABLE on the basis of
+volume 16, issue 1--2. The site labeled Problem 474 NOT PROVABLE on the basis of
 Shelah's consistency result. Its remark crediting Erdős with the CH case is
 therefore commentary, not acceptance of this claim, and no `reviewed` evidence
 is listed. The proof is not checked here.

@@ -63,6 +63,6 @@ and to order $rk$ on
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
 Mathematics, Oxford Second Series, in 1976 (volume 27, issue 1). The record
 gives only the year, so the page is dated to its first day. The site's
-commentary credits the range to the paper as [BDE76]. The site labels the
+commentary credits the range to the paper as [BDE76]. The site labeled the
 problem FALSIFIABLE, an open label, so this commentary is not acceptance and no
 `reviewed` is listed. Nothing here rests on this project's own review.

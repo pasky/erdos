@@ -37,7 +37,7 @@ https://www.erdosproblems.com/382.
 site's formulation (its revision of 20 October 2025) asks, for intervals
 $[u,v]$ whose product has its largest prime factor to an exponent at least
 $2$, whether $v-u=v^{o(1)}$ and whether $v-u$ can be arbitrarily large; the
-site labels the problem OPEN. Erdős and Graham report that results of
+site labeled the problem OPEN. Erdős and Graham report that results of
 Ramachandra give $v-u\le v^{1/2+o(1)}$, and Remark 6.2 of Tao's preprint
 [[../library/diophantine_problems/tao_2026_products_consecutive_integers_unusual_anatomy/_index|Tao 2026]]
 says that Ramachandra's Selberg-sieve argument gives $v-u\ll v^{1/2-c}$ for

@@ -77,7 +77,7 @@ self-contained.
 **Acceptance.** The `refereed` evidence is the paper's refereed, open-access
 publication in the Electronic Journal of Combinatorics. The `reviewed` evidence
 is the site's documented acceptance. Its curator, Thomas Bloom, credits the full
-conjecture to this paper in the commentary and labels the problem proved, and
+conjecture to this paper in the commentary and labeled the problem proved, and
 the community database agrees. The formal-conjectures statement for the problem,
 tagged solved, encodes the same $n\ge r$ range. Proof coverage: the statements
 of Theorems 1, 2 and 3 and Corollary 1 are checked. The proof of Theorem 2 (pp.

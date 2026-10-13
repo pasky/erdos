@@ -269,7 +269,7 @@ Posted to the site's forum by Moritz Firsching on 16 April 2026:
 **Depends on.** Nothing in this wiki: the constructions and the
 upper-density argument are self-contained.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
 solved. The problem page's commentary (page last edited 2 May 2026) credits
 DeepMind with the basis that answers the second question. It also credits
 DeepMind with the set that refutes the first question when density means an

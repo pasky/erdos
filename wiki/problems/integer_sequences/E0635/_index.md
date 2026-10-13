@@ -31,7 +31,7 @@ $$
 \lvert A\rvert \leq \left(\frac{1}{2}+o_t(1)\right)N?
 $$
 
-**Status.** The site's label is OPEN. Its commentary records that
+**Status.** The site's label was OPEN. Its commentary records that
 ChatGPT-5.2, prompted by Leeham, answered the second question yes, and that a
 positive answer also follows from an inequality of Elliott [El79]. The first
 question is open. The pending claim is
@@ -69,7 +69,7 @@ Aristotle, with a human-readable write-up
 ([[problems/integer_sequences/E0635/claims/2026_01_30_leeham|claim page]]).
 The site's commentary credits that resolution to ChatGPT-5.2, prompted by
 Leeham, and records Tao's observation that a positive answer also follows from
-an inequality of Elliott [El79], Lemma 4.7 of that book; the label is OPEN, so
+an inequality of Elliott [El79], Lemma 4.7 of that book; the label was OPEN, so
 the credit is no acceptance under the corpus's rule, and the claim is
 `claimed`. The first question is open: the known bounds leave a gap between
 $N/2+c\log N$ and $(1/2+o_t(1))N$, and Tao remarked in the thread that

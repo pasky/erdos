@@ -41,7 +41,7 @@ proof determines $R(s,k)$ for fixed $s$ up to a polylogarithmic factor.
 Theorem 1.1 (arXiv:2605.28793v3, 16 June 2026) states that for any $s\ge3$ there
 is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all $k\ge2$. So
 $c(s)=2s-4$ works. The status-defining source is this arXiv preprint. The site's
-curator, Thomas Bloom, accepted it: the site labels the problem PROVED and
+curator, Thomas Bloom, accepted it: the site labeled the problem PROVED and
 credits the lower bound to this paper as the resolution. No journal acceptance,
 other expert review or checked formalization of the paper was found. The paper
 credits the step that raised the exponent from $s-2$ to $s-1$ to an internal
@@ -141,7 +141,7 @@ linked from
 beside the two Trellis repositories. The community database lists the problem as
 proved, as of its entry's last update on 21 June 2026, lists the statement as
 formalized with the date 9 September 2026, and records no formal proof or
-formal-proof URL. The site's status label carries no Lean suffix. None of these
+formal-proof URL. The site's status label carried no Lean suffix. None of these
 files was built or audited here. The OpenAI release's two Lean declarations for
 its $s\ge5$ claim, built and audited by the corpus's verification, are recorded
 on [[problems/ramsey_theory/E0986/claims/2026_09_24_openai|that claim's page]];
@@ -193,9 +193,9 @@ v3 (16 June 2026, titled "Off-diagonal Ramsey numbers") carries the statement
 above, with the arXiv comment "The new version achieves the tight exponent
 $r(s,k)\ge k^{s-1+o(1)}$ compared to the previous $r(s,k)\ge k^{s-2+o(1)}$"; the
 site's reference [Br26] pairs the v1 title with the arXiv identifier. Acceptance
-evidence: the site's curator, Thomas Bloom, labels the problem PROVED (page last
-edited 21 June 2026) and credits the paper with the resolution, which the claim
-page records as `reviewed`. No journal record exists under either title
+evidence: the site's curator, Thomas Bloom, labeled the problem PROVED (page
+last edited 21 June 2026) and credits the paper with the resolution, which the
+claim page records as `reviewed`. No journal record exists under either title
 (publisher bibliographic queries); Semantic Scholar lists three
 citing records (a 2026 paper on Erdős--Rogers problems, a paper on pathwidth and
 the paper of an autoformalization system), none a review or refutation. Read

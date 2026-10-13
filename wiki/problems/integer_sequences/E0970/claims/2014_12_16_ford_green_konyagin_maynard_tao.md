@@ -54,6 +54,6 @@ of $h(k)$ nor $h(k)\ll k^2$ is settled by it.
 
 **Acceptance.** Refereed: K. Ford, B. Green, S. Konyagin, J. Maynard and
 T. Tao, Long gaps between primes, J. Amer. Math. Soc. 31 (2018), no. 1,
-65--105. The site labels the problem OPEN, so its commentary crediting the
+65--105. The site labeled the problem OPEN, so its commentary crediting the
 lower bound is not reviewed evidence. The page is dated by the first arXiv
 posting, 16 December 2014, as the paper's page for Problem 4 is.

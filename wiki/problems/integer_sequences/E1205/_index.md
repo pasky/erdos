@@ -148,7 +148,7 @@ term, or a dispute of the site's argument.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
-**Remaining gaps.** (1) The label rests on the site's own argument, which has
+**Remaining gaps.** (1) The label rested on the site's own argument, which has
 no publication and no independent review, so its claim page is `claimed` and
 the problem's standing is `claimed`; a written proof, a review or a refereed
 source is the evidence that would accept it. (2) The second-order term is

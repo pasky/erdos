@@ -76,7 +76,7 @@ prefix summation are not formalized, so there is no Lean theorem of the form
 $f(N)\le(c+o(1))N$, and the formalized block corresponds to the constant
 $145/168\approx0.8631$, not to $15437/19344$. Nothing was built here and no
 `formalized` evidence is listed. The result has no arXiv version, no journal
-record and no independent review; the site's label is OPEN (page last edited
-16 January 2026; as of 2026-10-07), and its commentary records the bound
+record and no independent review; the site's label was OPEN (page last edited
+16 January 2026; accessed 2026-10-07), and its commentary records the bound
 $25/28$ of
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's claim page]].

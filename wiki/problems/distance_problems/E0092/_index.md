@@ -28,7 +28,7 @@ $A$ equidistant from $x$.
 
 Is it true that $f(n)\leq n^{o(1)}$? Or even $f(n) < n^{O(1/\log\log n)}$?
 
-**Status.** Disproved. The site's export of 2026-09-04 labels the problem
+**Status.** Disproved. The site's export of 2026-09-04 labeled the problem
 "DISPROVED" (page last edited 21 May 2026). Its remarks say that the disproof of
 Problem 90 disproves this stronger form. See the
 [[problems/distance_problems/E0092/claims/2026_05_20_openai|claim page]].

@@ -57,7 +57,7 @@ checks.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and credits the paper with the proof in the problem's commentary. The
 commentary notes that the proof is not explicit and that no example beyond $K_4$
 is known. The thread and the proof-claim tab were empty on 2026-09-18. Refereed:

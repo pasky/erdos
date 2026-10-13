@@ -51,7 +51,7 @@ claimant's later postings predict infinitely many exceptions. A thread post of
 [[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|the 2026 write-up]]
 conjectures $x^{2/3+o(1)}$ exceptions in the version with any modulus. No
 acceptance evidence is on record: there is no journal publication, review or
-formalization, and the site labels the problem OPEN.
+formalization, and the site labeled the problem OPEN.
 
 **Depends on.** No other wiki page; the claim rests on the preprint and its
 unproved hypothesis.

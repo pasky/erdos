@@ -25,10 +25,10 @@ updated: 2026-10-07T19:40:10Z
 n\textrm{ for some }a\in A\}$ be the set of multiples of $A$. Find a necessary
 and sufficient condition on $A$ for $M_A$ to have density $1$.
 
-**Status.** The site's label is Open. The site credits Tenenbaum's 1996 theorem.
-For block sequences whose consecutive ratios lie between two constants above $1$
-and whose blocks have relative length $j^{-\alpha}$, it proves Erdős's threshold
-conjecture with critical exponent $\log 2$
+**Status.** The site's label was Open. The site credits Tenenbaum's 1996
+theorem. For block sequences whose consecutive ratios lie between two constants
+above $1$ and whose blocks have relative length $j^{-\alpha}$, it proves Erdős's
+threshold conjecture with critical exponent $\log 2$
 ([[problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum|claim page]]).
 This is an accepted partial claim with refereed evidence. It does not answer the
 general question, so the derived standing is `open` with claim `none`. A thread

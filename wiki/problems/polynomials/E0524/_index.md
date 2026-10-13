@@ -78,7 +78,7 @@ exists, and the community database lists the problem as unformalized.
 
 ## Current assessment
 
-The site labels the problem OPEN (page last edited 27 December 2025) and its
+The site labeled the problem OPEN (page last edited 27 December 2025) and its
 remarks record two bounds. Salem and Zygmund [SaZy54, Theorem (6.1.1)] proved
 the upper envelope: almost surely
 $\limsup_n M_n(t)/\sqrt{2n\log\log n}=1$. The remarks credit Chung with

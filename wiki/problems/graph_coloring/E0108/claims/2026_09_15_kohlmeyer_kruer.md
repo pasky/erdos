@@ -128,4 +128,4 @@ listed.
 On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
 erdosproblems.com proof-claims forum so that it could be discussed. The curator
 stated that they had not verified the proof, did not claim the formalization
-correct and did not endorse the platform. The site labels the problem OPEN.
+correct and did not endorse the platform. The site labeled the problem OPEN.

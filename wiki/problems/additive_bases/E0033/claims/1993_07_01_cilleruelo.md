@@ -69,7 +69,7 @@ the smallest possible limsup is at least $4/\pi$.
 
 **Acceptance.** Refereed: J. Cilleruelo, The additive completion of $k$th
 powers, J. Number Theory 44 (1993), no. 3, 237–243. The site's curator records
-the bound in the problem's remarks. But the site labels the problem OPEN, so
+the bound in the problem's remarks. But the site labeled the problem OPEN, so
 that remark is not acceptance of the problem, and the page lists no `reviewed`
 evidence. The edition read is an author-typeset manuscript. Its proof is not
 compiled in this corpus.

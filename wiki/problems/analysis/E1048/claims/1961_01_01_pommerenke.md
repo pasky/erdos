@@ -72,7 +72,7 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labels the problem
+Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
 disproved and credits the negative answer for $r>1$ to this example, with
 its $n$ components whose diameter tends to $0$, and records the three
 bounds of Theorem 3 as the affirmative answer for $0<r\le1$. Nothing here

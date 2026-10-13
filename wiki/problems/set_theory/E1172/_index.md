@@ -62,7 +62,7 @@ sets of types $\omega_2$ and $\omega_1+2$. The standing answers the site's
 wording. Its first relation holds; the other two relations and the consistency
 question are open.
 
-**Status.** Open. The site's label is OPEN.
+**Status.** Open. The site's label was OPEN.
 
 **Source.** [erdosproblems.com/1172](https://www.erdosproblems.com/1172),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1172,

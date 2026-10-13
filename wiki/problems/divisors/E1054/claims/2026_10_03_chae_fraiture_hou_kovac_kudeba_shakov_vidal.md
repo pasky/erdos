@@ -77,5 +77,5 @@ It is third-party Lean that this corpus has not built or audited, so no
 `formalized` evidence is listed.
 
 **Standing.** Claimed. The manuscript is posted in a public repository, with
-no refereed publication or review recorded, and the site labels the problem
+no refereed publication or review recorded, and the site labeled the problem
 OPEN. Nothing here is independently reviewed by this project.

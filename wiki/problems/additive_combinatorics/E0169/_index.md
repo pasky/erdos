@@ -34,7 +34,7 @@ $$
 
 where $W(k)$ is the van der Waerden number?
 
-**Status.** Open. The site's label is OPEN (page last edited 4 April 2026). Six
+**Status.** Open. The site's label was OPEN (page last edited 4 April 2026). Six
 partial claims are recorded, and none bears on the displayed limit question.
 
 The refereed lower bounds the site credits are accepted partial claims.

@@ -58,6 +58,6 @@ two displayed bounds; it does not determine the order of magnitude of $f$,
 which the later full claim does.
 
 Accepted: the result is refereed (Acta Arithmetica). The site's commentary
-records both bounds, but its SOLVED label credits the order of growth to
+records both bounds, but its SOLVED label credited the order of growth to
 Conlon, Fox and Pham, so the curator's label is not review of this result.
 Nothing here is this project's own review.

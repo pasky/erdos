@@ -79,6 +79,6 @@ question.
 **Standing.** Claimed: the manuscript is published on the Paratelligent site,
 not on a preprint server, has no refereed version and no Lean development, and
 was linked as a thread comment rather than filed on the proof-claims tab; the
-site's label was OPEN on 2026-10-07 (page last edited 12 January 2026), with
+site's label was OPEN (page last edited 12 January 2026), with
 no reply to the comment on the thread, and no independent review was found on
 2026-10-07. This corpus has not reviewed the proofs.

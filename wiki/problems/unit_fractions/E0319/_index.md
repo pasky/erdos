@@ -53,16 +53,17 @@ $[1-\frac1e,1]$, and whether $c(N)=(1-o(1))N$ is unknown. The
 formal-conjectures file also poses the $\Theta$-order variant, which the
 lower bound together with $c(N)\le N$ would answer with $N$.
 
-**Status.** Open on the site. The label is OPEN (2026-10-07; the page shows no
-last-edited stamp), and the site marks the problem as not resolvable by a finite
-computation. The standing derived from the claim pages is open, claim none. Both
-claim pages are partial and pending, and a partial claim derives nothing.
+**Status.** Labeled open on the site. The label was OPEN (the page shows no
+last-edited stamp), and the site marked the problem as not resolvable by a
+finite computation. The standing derived from the claim pages is open, claim
+none. Both claim pages are partial and pending, and a partial claim derives
+nothing.
 
 The site's commentary credits Adenwalla with the lower bound
 $c(N)\ge(1-\frac1e+o(1))N$, from Croot's Main Theorem (Acta Arith. 99 (2001);
 refereed). The bound is written out below and recorded on
 [[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]].
-The credit is commentary on a problem the site labels OPEN, not an acceptance,
+The credit is commentary on a problem the site labeled OPEN, not an acceptance,
 so the bound is site-credited and pending. With the trivial upper bound $N$, it
 would give $c(N)$ the order $N$. The one claim on the site's proof-claim tab is
 an
@@ -76,9 +77,8 @@ openness.
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a
 finite computation; source key [ErGr80]; no last-edited stamp; a formalized
 statement recorded), its empty discussion thread and its proof-claim tab
-with one partial claim; on 2026-10-07 the label was OPEN with the same
-commentary. The site cites [Cr01] in its commentary and thanks Sarosh
-Adenwalla and Hayato Egami. Cite as: T. F. Bloom, Erdős Problem #319,
+with one partial claim. The site cites [Cr01] in its commentary and thanks
+Sarosh Adenwalla and Hayato Egami. Cite as: T. F. Bloom, Erdős Problem #319,
 https://www.erdosproblems.com/319, accessed 2026-09-18.
 
 **References.**

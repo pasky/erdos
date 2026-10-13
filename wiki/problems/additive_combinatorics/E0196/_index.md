@@ -66,7 +66,7 @@ The bounty site's verification of 9 September 2026 precedes it, while the first
 public postings found of the Kruer–Kohlmeyer proof are of 14 September 2026. The
 two constructions share their binary order and nested-prefix shape.
 
-The accepting body is the bounty site alone. The erdosproblems.com page keeps
+The accepting body is the bounty site alone. The erdosproblems.com page kept
 the label OPEN. It lists the proof claim of Kruer and Kohlmeyer, submitted on
 2026-09-14 with the same Lean file. The curator has not commented on that claim.
 The claim's three forum comments, by other users, post a reproduction of the

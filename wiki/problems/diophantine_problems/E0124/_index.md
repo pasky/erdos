@@ -66,7 +66,7 @@ misprint. The change replaces $d_r$ by $d_i$ in the summand. The first question
 has a claimed affirmative answer; the second is open apart from the instances
 the claim pages settle.
 
-**Status.** Open. The site's label is OPEN (page last edited 1 December 2025).
+**Status.** Open. The site's label was OPEN (page last edited 1 December 2025).
 The claim pages are named under Current assessment.
 
 **Source.** [erdosproblems.com/124](https://www.erdosproblems.com/124), accessed
@@ -89,7 +89,7 @@ https://www.erdosproblems.com/124.
 
 ## Current assessment
 
-The site's label is OPEN, and the standing derived from the claim pages is
+The site's label was OPEN, and the standing derived from the claim pages is
 open: no claim settles both questions, and the corrected Statement above fixes
 the misprinted condition. Four results have claim pages. The first question has
 a claimed affirmative answer,
@@ -97,7 +97,7 @@ a claimed affirmative answer,
 a Lean proof found by Aristotle from Harmonic and posted by Boris Alexeev on
 the site's thread, which gives every integer, not only the large ones, as a
 sum of one number with base-$d_i$ digits $0$ and $1$ for each $i$ whenever
-$\sum_i1/(d_i-1)\ge1$; the site's commentary credits it, but the site keeps
+$\sum_i1/(d_i-1)\ge1$; the site's commentary credits it, but the site kept
 the problem OPEN and the Lean file has not been built in this corpus. The
 second question is settled only at instances. Burr, Erdős, Graham and Li
 ([[problems/diophantine_problems/E0124/claims/1996_01_01_burr_erdos_graham_li|claim page]],

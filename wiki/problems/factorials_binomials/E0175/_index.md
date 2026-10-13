@@ -25,7 +25,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Show that, for any $n\geq 5$, the binomial coefficient
 $\binom{2n}{n}$ is not squarefree.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 8 February 2026). The standing in the frontmatter derives from the claim
 pages. The site credits Sárközy for all sufficiently large $n$ and,
 independently, Granville and Ramaré and Velammal for every $n\ge5$. The three

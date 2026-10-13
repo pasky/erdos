@@ -64,6 +64,6 @@ it. Nothing on this page is independently reviewed by this project.
 
 **Acceptance.** Refereed: the result is a journal paper in the Transactions of
 the American Mathematical Society. Reviewed: the curator of erdosproblems.com,
-T. F. Bloom, labels Problem 1123 independent of ZFC and credits Just and
+T. F. Bloom, labeled Problem 1123 independent of ZFC and credits Just and
 Krawczyk with the isomorphism under the continuum hypothesis (problem page last
 edited 5 March 2026). The curator is independent of the authors.

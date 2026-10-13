@@ -24,7 +24,7 @@ updated: 2026-10-08T02:55:41Z
 $A=\{a_1,a_2,\ldots,\}\subset \mathbb{Z}^3$ be an infinite $S$-walk, so that
 $a_{i+1}-a_i\in S$ for all $i$. Must $A$ contain three collinear points?
 
-**Status.** The site labels the problem DISPROVED (LEAN) on its problem page as
+**Status.** The site labeled the problem DISPROVED (LEAN) on its problem page as
 accessed 2026-09-08. The site's export of 2026-09-04 gave the label OPEN. That
 was the day the curator confirmed the update. The site credits Cambie and
 Kalviainen, assisted by AI, with an infinite bounded-step walk in $\mathbb{Z}^3$

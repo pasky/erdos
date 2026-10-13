@@ -147,7 +147,7 @@ computer-assisted proofs of $r=5$, and Winter's Lean development for $r=5$.
 Each has a claim page named above with its links, the claimant's own account
 of its checks and the standing claimed; Kara's formalization, not on the tab,
 is a link on Sneiderman's five-color page, and Terpstra's artifact, not on
-the tab either, has a claim page. The site's label is FALSIFIABLE (page last
+the tab either, has a claim page. The site's label was FALSIFIABLE (page last
 edited 1 April 2026). The comments on the claims (23 July to 1 August 2026)
 are forum users' AI-assisted reviews, reproductions and announcements, and the
 claimants' replies. None is by a named human referee, and the reviews limit

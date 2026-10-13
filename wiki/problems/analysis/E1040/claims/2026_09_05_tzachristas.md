@@ -98,7 +98,7 @@ are not independent human verification, and that no proof-assistant
 formalization or external endorsement is asserted. The claim's notes assert
 priority over the two claims filed on 6 September 2026, the preprint having been
 posted on 5 September. The thread carries no comment on the claim, the site
-labels the problem OPEN, no reviewer is named and nothing is refereed, so the
+labeled the problem OPEN, no reviewer is named and nothing is refereed, so the
 claim stays claimed. The two Lean-backed claims of the same statement are
 [[problems/analysis/E1040/claims/2026_09_06_shlummi|shlummi's page]] and
 [[problems/analysis/E1040/claims/2026_09_06_gessel|Gessel's page]].

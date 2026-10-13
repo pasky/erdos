@@ -59,7 +59,7 @@ every lacunary sequence, with a weaker explicit dependence on $\epsilon$
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and, in the commentary, credits the paper with the 1987 question and with
 the reduction that answers it. Refereed: the paper appeared in Combinatorica 21
 (2001), no. 2, 211--219, received 7 February 2000. The Crossref record was read.

@@ -68,7 +68,7 @@ basis of this page is the statement and its reduction as the arXiv preprint
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|the manuscript posted by DottedCalculator]].
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
-evidence. The site's curator, Thomas Bloom, labels the problem proved and
+evidence. The site's curator, Thomas Bloom, labeled the problem proved and
 names this theorem in the problem's commentary as the best bound available
 before the 2026 improvement, the `reviewed` evidence. The page is dated by
 the preprint's first posting; the journal published the paper online on 23

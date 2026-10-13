@@ -39,7 +39,7 @@ $$
 
 for all $r,e\geq 3$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 26 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 26 January
 2026). Two accepted partial claims, each together with the Brown–Erdős–Sós lower
 bound, settle the case $e=3$ for every $r\ge3$:
 [[problems/set_systems/E1178/claims/1986_12_01_erdos_frankl_rodl|Erdős, Frankl and Rödl's theorem]]

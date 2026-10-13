@@ -64,7 +64,7 @@ Rényi and Sós with $r=3$, which their paper does not contain.
 prime-distribution input and the counting are the paper's.
 
 **Acceptance.** Refereed: Studia Scientiarum Mathematicarum Hungarica, a
-refereed journal. No `reviewed` evidence is listed: the site labels the problem
+refereed journal. No `reviewed` evidence is listed: the site labeled the problem
 OPEN, and commentary on an open problem is not an acceptance. This corpus
 supplies no independent proof review. The statements of Theorem 1 and Corollary
 2 are checked against the print, but the prime-distribution input and the proofs

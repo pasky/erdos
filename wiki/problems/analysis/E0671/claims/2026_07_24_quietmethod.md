@@ -87,7 +87,7 @@ used:
 > https://quietmethod-erdos671.gintsuta-kobo.chatgpt.site/
 
 **Standing.** The claim was filed on the site's proof-claims tab on 24 July
-2026 as a full proof, with no comments. The site's label is OPEN with the
+2026 as a full proof, with no comments. The site's label was OPEN with the
 page last edited 23 January 2026, before the claim, and its commentary does
 not mention it. No refereed publication and no outside review was found.
 The notes report a Lean formalization checked with Lean 4 and Mathlib, with

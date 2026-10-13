@@ -37,7 +37,7 @@ report). Riordan's theorem, as the publisher's abstract states it, is for
 every fixed edge probability $p>1/4$; the statement is the case $p=1/2$.
 
 **Status.** Proved, on the site's account and the publisher's abstract of
-Riordan's paper. The site labels the problem PROVED, its label for a question
+Riordan's paper. The site labeled the problem PROVED, its label for a question
 answered in the affirmative. It credits the solution to Riordan [Ri00], noting
 that the paper proved it for every edge probability above $1/4$ and that the
 count of $d$-cubes is asymptotically normal. The community database records the
@@ -128,7 +128,7 @@ Acceptance evidence: Combinatorics, Probability and Computing is refereed (vol.
 9, no. 2, March 2000). What this page does not establish: the theorem's exact
 statement as printed (its number, page and quantifiers), the range of $M$ in the
 normality statement, and the proof; an abstract is not the text, and the label
-rests on the site's acceptance together with this abstract, not on a reading of
+rested on the site's acceptance together with this abstract, not on a reading of
 the theorem. The Semantic Scholar record of the paper counts 91 citing works,
 2001--2026, whose titles were scanned: they use it for spanning structures in
 random graphs and none is a correction or a contrary claim.

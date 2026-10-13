@@ -83,7 +83,7 @@ $n$ is not of the form $ap^2+b$ with $a\ge1$ and $0\le b<p$ for any prime $p$
 (a prime $p>\sqrt n$ would force $a=0$). Since an exception for every modulus
 $m\ge2$ is in particular an exception for every prime, the
 unrestricted-modulus exceptions are exceptions to the question's form. No
-acceptance evidence of any kind is on record: the site's label is OPEN (page
+acceptance evidence of any kind is on record: the site's label was OPEN (page
 last edited 2026-04-07), the tab's claim had no comments on 2026-10-06, and
 there is no refereed publication, independent review or formalization.
 

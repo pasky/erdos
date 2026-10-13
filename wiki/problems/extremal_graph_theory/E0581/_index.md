@@ -168,7 +168,7 @@ proof of the lower bound (pp. 5--6) was read for structure and not checked;
 the deductions from Proposition 3.2 to every $e$ were not checked; nothing
 here is independently reviewed.
 
-**Why the label is SOLVED and not PROVED.** The question asks to determine
+**Why the label was SOLVED and not PROVED.** The question asks to determine
 $f(m)$; the sources determine it to the order of the surplus over $m/2$,
 with the exponent sharp and the constants $c',C'$ implicit (Alon "make[s] no
 attempt to optimize the absolute constants", p. 5). The site's estimate

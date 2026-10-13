@@ -56,7 +56,7 @@ answered by Theorem 4, which gives only the upper bound. The matching lower
 bound $\exp(cn^{1/2})$, which Erdős called easy, is not proved in the paper.
 
 **Acceptance.** The paper is refereed. It appeared in Combinatorica, volume 3
-(1983). The site's curator, Thomas Bloom, labels the problem proved and credits
+(1983). The site's curator, Thomas Bloom, labeled the problem proved and credits
 Szemerédi and Trotter.
 
 **Formalization.** A third party formalized the theorem: `erdos_733` in

@@ -45,7 +45,7 @@ The case $r=3$ is the theorem of Ajtai, Komlós and Szemerédi, and the paper
 says the question is undecided already at $p=4$. The paper states that the
 $r=3$ bound "is best possible up to constant multiple".
 
-**Status.** Proved. The site's label is OPEN, with the remark that the problem
+**Status.** Proved. The site's label was OPEN, with the remark that the problem
 cannot be resolved by a finite computation, and its proof-claims tab is empty.
 The question is settled by one accepted full claim, on
 [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page]].

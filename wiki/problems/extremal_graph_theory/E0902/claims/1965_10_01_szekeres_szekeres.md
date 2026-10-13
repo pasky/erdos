@@ -53,7 +53,7 @@ not the order of magnitude, which the problem asks to estimate.
 
 **Acceptance.** Refereed: published in The Mathematical Gazette, cited with its
 venue above. The site credits Szekeres and Szekeres with $f(3)=19$ and
-$n2^n\ll f(n)$, but only in commentary on a problem it labels OPEN. That is not
+$n2^n\ll f(n)$, but only in commentary on a problem it labeled OPEN. That is not
 acceptance, so `reviewed` is not listed.
 
 **Formalization.** The repository `jaredwilder/erdos902`, linked above at its

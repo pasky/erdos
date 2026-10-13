@@ -34,7 +34,7 @@ $$
 
 converges?
 
-**Status.** Proved. The site labels the problem PROVED and credits Michelen and
+**Status.** Proved. The site labeled the problem PROVED and credits Michelen and
 Sawhney [MiSa25]. Their Theorem 1.1 gives a convergent point almost surely.
 Their Theorem 1.2 gives a set of convergent points of Hausdorff dimension one.
 The accepted claim page

@@ -54,7 +54,7 @@ https://www.erdosproblems.com/655.
   $n$-gon satisfies the hypothesis and spans only $\lfloor n/2\rfloor$
   distances, as
   [[problems/distance_problems/E0655/claims/2025_04_24_hunter|the claim page credited to Hunter]]
-  records. That claim is unrefereed, the site labels the problem OPEN, and the
+  records. That claim is unrefereed, the site labeled the problem OPEN, and the
   Lean proof of it that the formal-conjectures catalog records is not built by
   the corpus, so the derived standing is claimed and disproved. Chojecki's note
   of 22 April 2026 shows that $\lfloor n/2\rfloor$ is the exact minimum under

@@ -61,7 +61,7 @@ no. 1, 73--79, doi:10.1090/S0273-0979-1995-00569-0, a refereed journal. It
 appeared there as a research announcement (received 26 October 1993). First
 posting: arXiv:math/9501231, 1 January 1995 (the date this page is named by). No
 `reviewed` evidence is listed. The site credits the paper with the general lower
-bound but labels the problem OPEN, and commentary on an open problem is not an
+bound but labeled the problem OPEN, and commentary on an open problem is not an
 acceptance. The site cites the authors' 1999 paper only for history.
 
 **Read depth.** Proposition 2.1, Theorem 3.2, Corollary 3.3 and the

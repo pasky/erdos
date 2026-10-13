@@ -57,7 +57,7 @@ records the theorem and Rubin's characterization.
 **Standing.** The claim is `claimed`. The venue is a conference proceedings
 volume with no evidence on record that it was refereed, so no `refereed`
 evidence is listed. The curator of erdosproblems.com, Thomas Bloom, credits
-$n(2)=6$ to this paper in the problem's remarks, but the site labels the
+$n(2)=6$ to this paper in the problem's remarks, but the site labeled the
 problem OPEN, so that remark is not acceptance of this partial claim. Hanson,
 MacGillivray and Toft recall $n(2)=6=2m(2)$ as a known value (p. 184 of their
 paper), which corroborates the claim without being a review of it.

@@ -62,7 +62,7 @@ addresses.
 
 **Acceptance.** Refereed: The Ramanujan Journal, volume 30, issue 3 (2013),
 published online 19 September 2012. The site's commentary records that the
-asymptotic answers the first question in the negative. But the site labels the
+asymptotic answers the first question in the negative. But the site labeled the
 problem OPEN, so that commentary is not listed as `reviewed` evidence. The
 corpus has not reproved the theorem and awards no tier of its own.
 

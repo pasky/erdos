@@ -33,7 +33,7 @@ a $3$-coloring of the pairs of $\mathbb{R}$ such that every uncountable
 $A\subseteq\mathbb{R}$ contains a pair of each color.
 
 **Status.** Independent of ZFC, relative to the consistency of ZFC with an Erdős
-or measurable cardinal. The site labels the problem NOT PROVABLE, based on
+or measurable cardinal. The site labeled the problem NOT PROVABLE, based on
 Shelah's result. It credits the coloring under the continuum hypothesis to
 Erdős, but does not record that this classical result settles the other side, so
 this page departs from the site's label.

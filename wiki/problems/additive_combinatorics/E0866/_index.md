@@ -53,9 +53,9 @@ thresholds as $k>\tfrac n2+\cdots$ for sets in $[1,n]$; the site's
 normalization is the 1975 paper's. The site's source keys are [CES75]
 and [Er92c, p. 41].
 
-**Status.** Open. The site's label is OPEN (page last edited 1 December 2025; so
-labeled on 2026-09-18 and 2026-10-06). The results that settle instances of the
-question are recorded on three claim pages:
+**Status.** Open. The site's label was OPEN (page last edited 1 December 2025;
+so labeled on 2026-09-18 and 2026-10-06). The results that settle instances of
+the question are recorded on three claim pages:
 [[problems/additive_combinatorics/E0866/claims/1975_01_01_choi_erdos_szemeredi|Choi, Erdős and Szemerédi]]
 (accepted, partial: the order of $g_4$ and $g_6$ and the general bounds),
 [[problems/additive_combinatorics/E0866/claims/2026_04_28_van_doorn|van Doorn]]

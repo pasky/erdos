@@ -36,7 +36,7 @@ $$
 \lvert \cap_i D(N_i)\rvert \geq k?
 $$
 
-**Status.** The site labels the problem OPEN, and the general question is open.
+**Status.** The site labeled the problem OPEN, and the general question is open.
 The instances $k=2$ and $k=3$ are settled by
 [[problems/divisors/E0885/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's two shared values and Guiduli's triples]]
 and
@@ -67,7 +67,7 @@ stated with proof `sorry`.
 
 ## Current assessment
 
-The site labels the problem OPEN: the answer is yes for $k\le4$ and unknown
+The site labeled the problem OPEN: the answer is yes for $k\le4$ and unknown
 for every $k\ge5$. Erdős and Rosenfeld show that any number of integers can
 share two factor differences, and their paper prints two triples, found by
 Barry Guiduli, that share four values, which settles $k=2$ and $k=3$

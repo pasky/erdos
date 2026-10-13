@@ -97,7 +97,7 @@ bound $\ell(N)\gg N^{1/2}$ is the theorem of Komlós, Sulyok and Szemerédi
 [KSS75], the accepted partial claim
 [[problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1975]],
 accepted on its refereed publication alone, since the site's credit on a
-problem it labels OPEN is not acceptance; it supersedes Erdős's
+problem it labeled OPEN is not acceptance; it supersedes Erdős's
 $\ell(N)\gg N^{1/3}$, which the site's commentary records without a proof
 reference. The upper bound $\ell(N)\le(1+o(1))N^{1/2}$ is the interval
 $\{1,\ldots,N\}$ with the Erdős--Turán bound, as the site's commentary

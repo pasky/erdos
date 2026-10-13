@@ -25,7 +25,7 @@ updated: 2026-10-07T20:39:38Z
 that $ab+1$ is never squarefree (for all $a,b\in A$) achieved by taking those
 $n\equiv 7\pmod{25}$?
 
-**Status.** The site's label is DECIDABLE (page last edited 6 December 2025;
+**Status.** The site's label was DECIDABLE (page last edited 6 December 2025;
 proof-claim tab accessed 2026-10-06). The label means that the site counts the
 problem as resolved except for a finite check. It is recorded here, not adopted
 as the standing. The standing derives from the claim pages.

@@ -38,7 +38,7 @@ rests on the pending
 [[problems/arithmetic_functions/E0690/claims/2026_05_08_wang_crapis|Wang–Crapis claim]],
 which covers every $k\ge4$.
 
-**Status.** Solved. The site's label is SOLVED, decided in the thread on
+**Status.** Solved. The site's label was SOLVED, decided in the thread on
 2026-05-07 for
 [[problems/arithmetic_functions/E0690/claims/2025_01_17_cambie|Cambie's refereed theorem]].
 By that theorem the sequence is unimodal for $k=1,2,3$ and not unimodal for

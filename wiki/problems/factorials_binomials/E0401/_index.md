@@ -37,7 +37,7 @@ Problems 728 and 729, and that reading is the statement above and the target
 of the standing. The reading with all sufficiently large $n$ is false; see the
 Current assessment.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 12 January 2026). The standing in the frontmatter derives from the claim
 pages. The site credits a proof by Barreto and Leeham, working with ChatGPT,
 recorded on

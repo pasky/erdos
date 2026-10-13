@@ -29,7 +29,7 @@ $$
 
 with $a_1<\cdots <a_t=a_1+m$. What is the behaviour of $f(n)$?
 
-**Status.** Open. The site labels the problem OPEN and credits no solution. Its
+**Status.** Open. The site labeled the problem OPEN and credits no solution. Its
 remarks credit Berend and Osgood, and Bui, Pratt and Zaharescu, with density and
 counting bounds for the $n$ with $f(n)=m$. They also credit Luca, under the abc
 conjecture, with $f(n)\to\infty$. The standing derives from the claim pages: the

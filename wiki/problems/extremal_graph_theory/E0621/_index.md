@@ -62,7 +62,7 @@ the Formalization details section below.
 
 ## Current assessment
 
-The site labels the problem PROVED (LEAN) (accessed 2026-09-05), with a
+The site labeled the problem PROVED (LEAN) (accessed 2026-09-05), with a
 discussion thread carrying the 2025 comment that located the paper and the
 2026 formalization announcement. The site's displayed last-edit date, 14 October
 2025, is not the date of the later formalization announcement. The ordinary

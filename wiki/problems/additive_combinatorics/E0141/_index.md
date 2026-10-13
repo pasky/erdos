@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $k\geq 3$. Are there $k$ consecutive primes in arithmetic
 progression?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 28
+**Status.** Open. The site labeled the problem OPEN (page last edited 28
 September 2025). Its commentary reports such progressions for every $k\le10$ and
 notes that whether infinitely many exist is open even for three terms. The
 instances $3\le k\le10$ are the accepted partial claim on

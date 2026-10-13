@@ -47,7 +47,7 @@ suggests (p. 2), and the question asks whether every set much denser than the
 primes, in this logarithmic sense, has large pairwise greatest common divisors
 on average.
 
-**Status.** Disproved. The site's label is DISPROVED (LEAN). The suffix is a
+**Status.** Disproved. The site's label was DISPROVED (LEAN). The suffix is a
 catalog label explained under Formalization, and no local kernel credit is
 claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100; arXiv:2407.04226, v5)
 constructs, for every $C_0>0$, a set $A$ with

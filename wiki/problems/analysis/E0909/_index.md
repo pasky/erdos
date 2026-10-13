@@ -54,7 +54,7 @@ and the curator's credit.
 ## Current assessment
 
 Dated search scope (2026-10-07): the site's problem page, with its empty
-discussion thread and empty proof-claim tab, labels the problem proved and
+discussion thread and empty proof-claim tab, labeled the problem proved and
 credits Anderson and Keisler for the general case; formal-conjectures has no
 statement file for the problem; the community database records the problem
 proved and unformalized, as of its last update, dated 31 August 2025; Boris

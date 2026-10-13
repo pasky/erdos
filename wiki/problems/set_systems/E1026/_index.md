@@ -66,7 +66,7 @@ be taken positive. A stronger finite form, from the same thread: $k^2$
 distinct positive reals with sum $1$ have a monotone subsequence of sum at
 least $1/k$.
 
-**Status.** The site labels the problem SOLVED (LEAN): $c=1$. It credits the
+**Status.** The site labeled the problem SOLVED (LEAN): $c=1$. It credits the
 first proof of the lower bound $c\ge1$, in its stronger finite form, to Tidor,
 Wang and Yang [TWY16], and notes that it is implicit in Wagner [Wa17]. It also
 names the Lean proof of the finite form that the AI system Aristotle produced,

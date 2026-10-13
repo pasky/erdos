@@ -43,7 +43,7 @@ asking about positive lower density only, and the commentary adds that Erdős
 likely intended positive lower density, that is, a constant $c>0$ with
 $\lvert(A+B)\cap[1,x]\rvert\geq cx$ for all large $x$.
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN). No
+**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN). No
 manuscript or refereed publication of the disproof exists. Its written forms are
 Lean files, a summary by the claimant and reconstructions by others. The Lean
 files are the collection's pinned file, a community file and a generated file.
@@ -71,7 +71,7 @@ https://www.erdosproblems.com/125.
 - [Me01] Melfi, Giuseppe, An additive problem about powers of fixed integers.
   Rend. Circ. Mat. Palermo (2) (2001), 239-246.
 
-**Formalization.** The site labels the problem DISPROVED (LEAN); see
+**Formalization.** The site labeled the problem DISPROVED (LEAN); see
 "Formalization and the Lean label" below for the Lean account. The file
 [`ErdosProblems/125.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/125.lean)
 of formal-conjectures (at its commit of 2026-09-18; 4,102 bytes) declares
@@ -188,7 +188,7 @@ page's literature on sums of distinct powers of $3$ and $4$; this assessment
 does not draw on either, and the incoming library rows below list the library's
 entries for them.
 
-**Formalization and the Lean label.** The site labels the problem DISPROVED
+**Formalization and the Lean label.** The site labeled the problem DISPROVED
 (LEAN). In the collection's file at its commit of 2026-09-18 both `erdos_125`
 and the lower-density variant are `sorry` statements whose `formal_proof`
 attributes point at pinned copies, the collection's commit of 2026-02-25 for

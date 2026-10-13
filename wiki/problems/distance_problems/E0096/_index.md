@@ -27,9 +27,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** If $n$ points in $\mathbb{R}^2$ form a convex polygon then there
 are $O(n)$ many pairs which are distance $1$ apart.
 
-**Status.** Open on the site. Its export of 2026-09-04 records the label "OPEN".
-Its page, last edited 23 January 2026, carries no proof claim and no proof
-exposition.
+**Status.** Labeled open on the site. Its export of 2026-09-04 records the label
+"OPEN". Its page, last edited 23 January 2026, carries no proof claim and no
+proof exposition.
 
 The standing in the frontmatter derives from the claim pages. The disproof of
 Kruer and Kohlmeyer is a Lean proof that the bounty site Conjectures.io verified

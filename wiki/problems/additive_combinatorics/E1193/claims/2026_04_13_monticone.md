@@ -75,7 +75,7 @@ the counterexample identity, not the two density questions themselves.
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, adopted the
 counterexample. The problem's commentary states that both questions have the
 answer no with no work needed. It gives $A=\mathbb N$ with $1_A\ast1_A(n)=n+1$
-and presumes unrecorded restrictions in [Er80]. The page is labeled SOLVED
+and presumes unrecorded restrictions in [Er80]. The page was labeled SOLVED
 (LEAN), and the thread carries no proof claim. The community database
 (teorth/erdosproblems) records the problem solved, with formal status Lean. Not
 refereed: there is no publication. Not listed as formalized: nothing was built,

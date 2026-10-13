@@ -72,7 +72,7 @@ on which it does not depend. The proof was not reconstructed here.
 **Acceptance.** The result appeared in a refereed journal, the *Electronic
 Journal of Combinatorics*, in 2025. This is the `refereed` evidence. The text
 cited here is the arXiv preprint, which was not compared with the published
-version. The site's curator, Thomas Bloom, marks the problem DISPROVED (LEAN).
+version. The site's curator, Thomas Bloom, marked the problem DISPROVED (LEAN).
 The commentary records that Bowler and Pitz gave a simpler elementary example.
 That curator credit is the `reviewed` evidence.
 

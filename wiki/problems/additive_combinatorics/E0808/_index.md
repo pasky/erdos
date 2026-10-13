@@ -54,7 +54,7 @@ page is
 accepted on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/808](https://www.erdosproblems.com/808), accessed
-2026-09-04 and 2026-10-07 (label DISPROVED; no last-edited date; empty
+2026-09-04 (label DISPROVED; no last-edited date; empty
 discussion thread and proof-claim tab). Cite as: T. F. Bloom, Erdős Problem #808,
 https://www.erdosproblems.com/808.
 

@@ -60,8 +60,8 @@ with no journal reference, and Crossref has no record of the journal version, as
 of 2026-10-07), so `refereed` is not listed and the acceptance evidence is the
 site's documented acceptance: the commentary of Thomas Bloom, the site's
 curator, states that the three authors determined the order of growth of $f(n)$
-up to a multiplicative constant, and the site labels the problem SOLVED
-(erdosproblems.com/360, accessed 2026-10-07). Nothing here is this project's own
+up to a multiplicative constant, and the site labeled the problem SOLVED
+(erdosproblems.com/360). Nothing here is this project's own
 review.
 
 **Formalization.** The entry file `src/latest/ErdosProblems/Erdos360.lean` of
@@ -84,8 +84,8 @@ two-sided form of Theorem 1.5, and prints the axioms of its two theorems with
 `Core.lean` header names a proof document `tex/360.tex` that the repository
 does not contain at the pinned commit. No outside record registers the
 development: the repository's own source list and Erdős problems index have
-no entry for the problem, the site shows no formalized statement and no Lean
-label, formal-conjectures has no `360.lean`, and the community database
+no entry for the problem, the site shows no formalized statement and showed no
+Lean label, formal-conjectures has no `360.lean`, and the community database
 recorded the problem unformalized on 2025-08-31 (all). This
 description rests on the entry file and the two definitions and not on the
 component files, and nothing was built or audited here, so the development

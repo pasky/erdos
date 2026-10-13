@@ -65,10 +65,10 @@ $v(k)=\min\{m>1:m\notin D_k\}$. Van Doorn and Tang's Lemma 2.1 records
 $D_2=\emptyset$ and $D_3=\{2,3,6\}$, and $D_1=\{1\}$, so $v(1)=v(2)=2$ and
 $v(3)=4$.
 
-**Status.** Open on the site: the label is OPEN, and the commentary attaches it
-to the corrected Statement. The page was last edited 29 December 2025 and read
-2026-10-07, and there is no proof claim on its tab. The standing derived from
-the claim pages is open, since every claim is partial.
+**Status.** Labeled open on the site: the label was OPEN, and the commentary
+attaches it to the corrected Statement. The page was last edited 29 December
+2025 and read 2026-10-07, and there is no proof claim on its tab. The standing
+derived from the claim pages is open, since every claim is partial.
 
 The growth of $v(k)$ is fixed at the double-logarithmic scale and not beyond.
 For all large $k$, $e^{e^{k/600}}\le v(k)$ and $\log\log v(k)=\Theta(k)$, with
@@ -123,7 +123,7 @@ https://www.erdosproblems.com/293, accessed 2026-09-17.
 October 2026 that would add one formalizes the setting only and says it is not
 a solution. The community database (fetched and 2026-10-06)
 records the problem as unformalized with no formal-proof URL, and the site's
-status label carries no Lean suffix. The release's Lean proof of the partial
+status label carried no Lean suffix. The release's Lean proof of the partial
 result, Corollary 1.3, built and audited by the corpus's verification, is
 recorded on
 [[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]];
@@ -134,7 +134,7 @@ and is not built.
 ## Current assessment
 
 **The question.** On 2026-09-17 the site states the problem as above,
-shows OPEN, cites [ErGr80, p. 35], attributes $v(k)\gg k!$ to [BlEr75],
+showed OPEN, cites [ErGr80, p. 35], attributes $v(k)\gg k!$ to [BlEr75],
 records the elementary bound $v(k)\le kc_0^{2^k}$ with $c_0=1.26408\ldots$,
 and records van Doorn and Tang's $v(k)\ge e^{ck^2}$ together with their
 connection to [[problems/unit_fractions/E0304/_index|Problem 304]]. The
@@ -186,7 +186,7 @@ been built by the corpus, and the claim is not adopted into the bounds
 above; the release's accepted bound exceeds it for large $k$ and so implies
 it.
 
-**Site and database state (read 2026-10-05 and 2026-10-06).** The site shows
+**Site and database state (read 2026-10-05 and 2026-10-06).** The site showed
 OPEN (last edited 29 December 2025), five comments and no proof claim on this
 problem;
 the van Doorn claim above sits on the proof-claims tab of Problem 18 (submitted

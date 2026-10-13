@@ -63,7 +63,7 @@ summarizes it. This page rests on the statement of Theorem 3 and the
 introduction of the paper; the proof was not checked.
 
 **Acceptance.** The paper is a refereed publication in Acta Arithmetica, which
-is the `refereed` evidence. The site's curator, T. F. Bloom, labels the problem
+is the `refereed` evidence. The site's curator, T. F. Bloom, labeled the problem
 proved and credits this paper in the problem's commentary with the effective
 bounds. In the site's thread on 2025-09-08, the curator noted that the details
 and references had been added. That documented acceptance is the `reviewed`

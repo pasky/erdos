@@ -48,5 +48,5 @@ cites the theorem; the site's remark and the thread's family list of
 
 **Standing.** Claimed: an arXiv preprint with no refereed version,
 formalization or outside review known to this corpus, and a computer search
-that is author-reported and has not been replayed here. The site labels the
+that is author-reported and has not been replayed here. The site labeled the
 problem FALSIFIABLE and its commentary does not credit the paper.

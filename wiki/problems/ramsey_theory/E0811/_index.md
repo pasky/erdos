@@ -49,7 +49,7 @@ turns to the challenge of its two sources); recorded, not repaired. The
 Erdős--Tuza variant with one more color than $G$ has edges (their Problem 5,
 p. 82) is a different question and is kept apart below.
 
-**Status.** Open: the site labels the problem OPEN (last edited 14 October
+**Status.** Open: the site labeled the problem OPEN (last edited 14 October
 2025), and the classification is not known. Refereed sources exclude several
 graphs from the answer set.
 [[problems/ramsey_theory/E0811/claims/2022_09_28_axenovich_clemen|Axenovich and Clemen 2022]]

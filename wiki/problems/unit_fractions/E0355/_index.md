@@ -40,7 +40,7 @@ and the question is whether this set can contain every rational number of
 some non-empty open interval. Bleicher and Erdős conjectured that it cannot
 (Conjecture 4 of their 1976 paper, quoted below); the answer is yes.
 
-**Status.** Proved, with the answer yes. The site's label is PROVED (LEAN). Van
+**Status.** Proved, with the answer yes. The site's label was PROVED (LEAN). Van
 Doorn and Kovač's Theorem 1(a) (Acta Arith. 223 (2026), 275--295; refereed)
 constructs, for every $\lambda\in(1,2)$, a $\lambda$-lacunary sequence of
 positive integers whose finite reciprocal sums contain every rational in

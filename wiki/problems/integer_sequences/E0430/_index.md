@@ -42,9 +42,9 @@ own elementary check. The change replaces the range $[1,a_{k-1})$ by
 $[2,a_{k-1})$, so that the sequence stops when no integer greater than $1$
 qualifies; nothing else changes. The evidence is the site's own commentary:
 its worked example for $n=8$ stops after $a_1=7$ and $a_2=5$, which holds only
-when $1$ is excluded, and it keeps the label OPEN and the equivalence with
-Problem 385 credited to Sarosh Adenwalla, both of which fit only the corrected
-question. The defect is already in the poser's text: Erdős and Graham
+when $1$ is excluded; the site kept the label OPEN, and the commentary credits
+the equivalence with Problem 385 to Sarosh Adenwalla, both of which fit only the
+corrected question. The defect is already in the poser's text: Erdős and Graham
 [ErGr80, p. 85] index the sequence from the other end, with $a_1=1$ and $a_k$
 the least integer exceeding $a_{k-1}$ for which all prime factors of
 $n-a_k>0$ are greater than $a_k$, and the value $n-a_k=1$ qualifies vacuously

@@ -55,7 +55,7 @@ question as posed stays open.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series B. The site's commentary credits both edge ranges to the paper
-but labels the problem FALSIFIABLE, which settles nothing, so that credit is
+but labeled the problem FALSIFIABLE, which settles nothing, so that credit is
 not listed as `reviewed`.
 
 **Dating.** The article prints that it was available online on 5 January

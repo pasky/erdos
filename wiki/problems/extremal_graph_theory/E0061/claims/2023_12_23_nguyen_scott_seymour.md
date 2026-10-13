@@ -66,5 +66,5 @@ The $P_5$ theorem itself rests on no page of this wiki.
 **Acceptance.** The paper is a refereed publication in the Proceedings of the
 London Mathematical Society, published online 2026-03-23, which is the
 `refereed` evidence. The site's commentary credits the case to the paper and
-draws the same five-vertex conclusion. But the site labels the problem OPEN, so
+draws the same five-vertex conclusion. But the site labeled the problem OPEN, so
 no `reviewed` evidence is listed. This corpus has not checked the proof.

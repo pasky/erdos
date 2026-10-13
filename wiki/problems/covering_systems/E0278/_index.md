@@ -29,7 +29,7 @@ congruences $a_i\pmod{n_i}$?
 
 Is the minimum density achieved when all the $a_i$ are equal?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 20 January
+**Status.** Open. The site labeled the problem OPEN (page last edited 20 January
 2026). The page lists the two questions as parts, the maximum covered density
 and equal residues. Simpson's accepted claim settles the second. Onishi's
 pending claim asserts a complete answer to the first: an exact characterization
@@ -45,7 +45,7 @@ The same theorem, credited to Rogers, had appeared in Halberstam and Roth's
 *Sequences* in 1966. It is recorded as a claimed partial result on
 [[problems/covering_systems/E0278/claims/1966_01_01_rogers|Rogers' claim page]].
 
-The first question is open on the site. Three claims about it are recorded
+The first question was open on the site. Three claims about it are recorded
 without adoption, two from the proof-claims tab and one from the discussion
 thread. The curator has ruled on none of the three.
 

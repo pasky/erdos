@@ -97,7 +97,7 @@ and $2$ modulo $3$ are closed under $(a,b)\mapsto ab-1$, so no integer congruent
 to $1$ modulo $3$ ever appears and the set has upper density at most $2/3$, an
 observation the site credits to Steinerberger.
 
-**Status.** The site labels the problem OPEN (page last edited 31 March 2026;
+**Status.** The site labeled the problem OPEN (page last edited 31 March 2026;
 proof-claims thread accessed 2026-10-06). This record's derived standing is
 settled: the precise Statement is proved. The claim page
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|Korsky's proof]]
@@ -164,7 +164,7 @@ its links, on the same claim page. In the thread, Boris Alexeev reported a Lean
 file in `plby/lean-proofs`), and confirmed its statement, and on 21 September
 2026 formal-conjectures tagged its lower-density statement `research solved`
 with that file linked as the formal proof, while its natural-density variant
-stays `research open`. The site's label is OPEN and the community database
+stays `research open`. The site's label was OPEN and the community database
 records the problem as open; no refereed version or site acceptance exists. The
 Lean file was built here at a commit of 15 September 2026 with only the
 standard axioms `propext`, `Classical.choice` and `Quot.sound`, its `erdos_424`

@@ -144,8 +144,9 @@ $h(x)=o(\log x)$ rests on an unproved hypothesis and settles nothing.
 sieve and Gallagher's mean-value estimate for singular series.
 
 **Standing.** Claimed. The write-up is unrefereed and lives in a live Overleaf
-project; the site's label is OPEN, its commentary records only that Brun's sieve
-gives $h(x)\to\infty$, and its proof-claims tab lists nothing for the problem,
-so the curator records no acceptance. A reply on the thread the same day reports
-that a check found two minor issues, without naming them or saying which of the
-two write-ups it checked. No independent review of the argument is recorded.
+project; the site's label was OPEN, its commentary records only that Brun's
+sieve gives $h(x)\to\infty$, and its proof-claims tab lists nothing for the
+problem, so the curator records no acceptance. A reply on the thread the same
+day reports that a check found two minor issues, without naming them or saying
+which of the two write-ups it checked. No independent review of the argument is
+recorded.

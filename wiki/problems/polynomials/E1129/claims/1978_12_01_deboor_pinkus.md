@@ -106,7 +106,7 @@ Section 3] recall it.
 289–303, received 1977-04-01. The publisher's record places it in the issue
 dated December 1978, which dates this page.
 
-Reviewed: the site's curator, Thomas F. Bloom, labels the problem proved. The
+Reviewed: the site's curator, Thomas F. Bloom, labeled the problem proved. The
 commentary records that de Boor and Pinkus proved the existence of a unique
 minimizing choice, after the results of Kilgore and Cheney and of Kilgore
 (erdosproblems.com/1129, last edited 2026-01-23, accessed 2026-09-04). The

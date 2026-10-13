@@ -93,7 +93,7 @@ Stein in the problem's commentary (page last edited 7 September 2026). The
 credit is for establishing the Erdős--Sós conjecture for dense graphs and
 deducing that $R_k(T)\le k(n-2)+3$ once $n$ is large enough depending on $k$.
 The curator states that the problem follows from that theorem, which it does
-under reading (a). The curator is independent of the claimants. The problem is
+under reading (a). The curator is independent of the claimants. The problem was
 marked proved. The site printed PROVED (FORMALIZED) on 2026-09-05. The community
 database (teorth/erdosproblems, as of 2026-10-06) lists its status as proved
 (Lean), with last update 3 September 2026. The static text of the problem page

@@ -58,7 +58,7 @@ commentary that the problem was proved independently by Selfridge and by
 Crittenden and Vanden Eynden (page last edited 2026-01-23). The theorem is a
 standard input in the later literature, as the sources above show.
 
-The site's label carries a Lean qualification. Formal-conjectures marks the
+The site's label carried a Lean qualification. Formal-conjectures marks the
 problem solved and points to a Lean proof in Boris Alexeev's lean-proofs
 repository. That proof follows the short proof of Balister, Bollobás, Morris,
 Sahasrabudhe and Tiba, so it is recorded on

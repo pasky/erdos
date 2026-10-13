@@ -52,7 +52,7 @@ length.
 whose proof takes the case of minimum degree 1 from Sidorenko's 1991 note
 (J. Graph Theory 15 (1991), 15--17), cited on the manuscript's p. 2.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 proved and credits the case $k=3$ to this paper and to Sidorenko (its key
 [GoKl94]; page last edited 16 January 2026, accessed 2026-09-08 for the problem
 page). The 2026 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy

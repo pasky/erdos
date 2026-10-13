@@ -59,7 +59,7 @@ results Erdős describes do not really appear in that paper.
 
 **Acceptance.** None recorded. Erdős's report is the poser's word that a proof
 exists, with no argument to examine. This page does not count it as acceptance
-evidence. The site labels the problem OPEN (page last edited 2026-04-01), and
+evidence. The site labeled the problem OPEN (page last edited 2026-04-01), and
 its proof-claims tab has no entry, so the commentary that repeats the report
 credits nothing. The curator's doubt of 2026-03-27 is not a refutation. There is
 no refereed proof and no formalization, so the claim stays `claimed`.

@@ -53,6 +53,6 @@ polynomial bounds, on their own claim pages, supersede it.
 Lapok, volume 17 (1966), which is the `refereed` evidence. The volume carries no
 month or day, so this page is dated to the first day of that year. The site's
 curator credits the bound to [Er66] in the problem's commentary. But the site
-labels the problem OPEN, so that credit is not `reviewed` evidence. The
+labeled the problem OPEN, so that credit is not `reviewed` evidence. The
 statement is as printed on p. 137. The paper gives no proof of the bound to
 check, and nothing is independently reviewed by this project.

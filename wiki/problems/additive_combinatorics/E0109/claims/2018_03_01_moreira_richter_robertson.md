@@ -63,7 +63,7 @@ the proof is not checked in this corpus.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
+**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem proved, calls it the Erdős sumset conjecture and credits Moreira,
 Richter and Robertson [MRR19] on the problem page. The proof-claim tab was empty
 on 2026-10-07.

@@ -94,13 +94,13 @@ no. 1, 187--196. The paper was received 29 March 1961 and issued March 1962.
 March 1962 is the Crossref record's date and the date of this page; the
 article's cover prints January 1962.
 
-Reviewed: the site's curator (T. F. Bloom) labels the problem PROVED and credits
-Gordon, Fraenkel and Straus with the uniqueness for all $k$ once $|A|$ is
-sufficiently large (erdosproblems.com/494, page last edited 14 October 2025).
+Reviewed: the site's curator (T. F. Bloom) labeled the problem PROVED and
+credits Gordon, Fraenkel and Straus with the uniqueness for all $k$ once $|A|$
+is sufficiently large (erdosproblems.com/494, page last edited 14 October 2025).
 This uniqueness result is the corrected Statement. Guy's 2004 collection reports
 the problem in its section C5.
 
-No `formalized` evidence is listed. The site's label carries no Lean suffix, and
+No `formalized` evidence is listed. The site's label carried no Lean suffix, and
 no formalization of this theorem is known. The 2026 Lean package on the
 Selfridge--Straus cases notes that Ridout's theorem is not in Mathlib. The
 development `Erdos494.lean` in Boris Alexeev's repository names Gordon, Fraenkel

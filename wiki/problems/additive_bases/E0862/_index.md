@@ -36,7 +36,7 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Solved. The site labels the problem SOLVED (LEAN). It records both
+**Status.** Solved. The site labeled the problem SOLVED (LEAN). It records both
 questions as answered by Saxton and Thomason's count of Sidon sets, the first no
 and the second yes. The accepted claim is
 [[problems/additive_bases/E0862/claims/2012_04_30_saxton_thomason|Saxton and Thomason]].

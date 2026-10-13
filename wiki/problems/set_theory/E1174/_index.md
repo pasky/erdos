@@ -32,7 +32,7 @@ Does there exist a graph $G$ with no $K_{\aleph_1}$ such that every edge
 colouring of $G$ with countably many colours contains a monochromatic
 $K_{\aleph_0}$?
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE, crediting Shelah
+**Status.** Open. The site labeled the problem NOT DISPROVABLE, crediting Shelah
 with the consistency of a graph with either property. The problem has two parts,
 which the frontmatter lists, and each has an accepted consistency result. The
 first part has

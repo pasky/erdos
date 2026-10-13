@@ -86,6 +86,6 @@ line. The published text has not been compared with it. Version v1 is dated 26
 December 2025, the date of this page.
 
 The site's commentary credits van Doorn and Tang with the lower bound, but the
-site labels the problem OPEN. So that commentary is not acceptance, and
+site labeled the problem OPEN. So that commentary is not acceptance, and
 `reviewed` is not listed. The second author announced the result in the
 problem's discussion thread on 29 December 2025.

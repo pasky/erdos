@@ -37,7 +37,7 @@ as $f$ ranges over all polynomials of the shape $\prod (z-z_i)$ with $z_i\in F$.
 Is $\mu(F)$ determined by the transfinite diameter of $F$? In particular, is
 $\mu(F)=0$ whenever the transfinite diameter of $F$ is $\geq 1$?
 
-**Status.** Open. The site labels the problem OPEN. Its commentary (last edited
+**Status.** Open. The site labeled the problem OPEN. Its commentary (last edited
 1 February 2026) credits Aletheia [Fe26] with the negative answer to the first
 question. The proof-claims tab carries three full proof claims on the second
 question, with AI systems named on the tab. They are by shlummi and by Declan
@@ -97,7 +97,7 @@ records.
 The first question has the answer no. The Aletheia agent of Feng and coauthors
 produced two countable compact sets of transfinite diameter $0$ with
 $\mu(F_1)\ge\pi/4$ and $\mu(F_2)$ arbitrarily small; the site's commentary
-credits the result on a problem the site labels OPEN, which is not acceptance,
+credits the result on a problem the site labeled OPEN, which is not acceptance,
 and it is the pending partial claim on
 [[problems/analysis/E1040/claims/2026_01_29_feng|Aletheia's page]]. Ghosh and
 Ramachandran's Example 2.1 gives two compact sets of any prescribed capacity in

@@ -46,7 +46,7 @@ Székely. It does not bear on part (ii).
 **Standing.** A preprint (arXiv v1 of 12 February 2025, 16 pages); no later
 version and no journal record were found on 2026-09-17. The site's commentary
 cites the example as a further counterexample to the original conjecture and
-thanks the first author, and the page's label stays OPEN and the proof-claim
+thanks the first author, and the page's label stayed OPEN and the proof-claim
 tab is empty. The construction's statement is paged on the result page
 [[../library/extremal_graph_theory/cambie_2025_sharp_results_erdos_pach_pollack_tuza/counterexample_p4|counterexample_p4]]
 at claims checked; the computer search behind the $\delta=16$ block is the

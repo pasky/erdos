@@ -70,7 +70,7 @@ received by the editors on 7 March 1996, with the English translation in
 Sbornik: Mathematics.
 
 Reviewed: Thomas Bloom, the site's curator, credits this theorem with the answer
-in the problem's remarks and labels the problem proved (page last edited 28
+in the problem's remarks and labeled the problem proved (page last edited 28
 September 2025, as of 2026-09-17). zbMATH reviews the paper (Zbl 0898.11031,
 reviewer J. Wolfart) and the announcement (Zbl 0859.11047) without objection.
 The theorem was the subject of Waldschmidt's Bourbaki exposé of November 1996

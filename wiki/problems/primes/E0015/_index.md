@@ -30,7 +30,7 @@ $$
 
 converges, where $p_n$ is the sequence of primes?
 
-**Status.** Open. The site's label is OPEN. The best result is conditional. Tao
+**Status.** Open. The site's label was OPEN. The best result is conditional. Tao
 proves that the series converges assuming a quantitative Hardy-Littlewood prime
 tuples conjecture (Theorem 1.4 of arXiv:2308.07205, published as Comm. Amer.
 Math. Soc. 4 (2024), 80-96). The result is recorded as the accepted conditional

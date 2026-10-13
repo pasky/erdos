@@ -56,8 +56,8 @@ $\aleph_\delta$, and the further colors may be left unused. The current relation
 is the stronger one, since it has the smaller first target; the earlier wording
 is the subject of the one claim below.
 
-**Status.** Open. The site's label is OPEN (page last edited 7 September 2026,
-as of 2026-10-07). The one result claimed against the problem addresses the
+**Status.** Open. The site's label was OPEN (page last edited 7 September
+2026). The one result claimed against the problem addresses the
 site's earlier wording, and its claim page rejects it. The standing in the
 frontmatter is derived from the claim pages.
 
@@ -89,7 +89,7 @@ https://www.erdosproblems.com/1218.
 The site's formulation (accessed 2026-10-06) asks, under GCH and with
 $\beta=\omega_{\omega+1}$, whether
 $\aleph_{\beta+1}\not\to(\aleph_\beta,(4)_{\aleph_0})^3$, the least instance of
-the conjecture of [EHR65, p. 131]. The site's label is OPEN. No result on this
+the conjecture of [EHR65, p. 131]. The site's label was OPEN. No result on this
 relation is compiled; the same-cardinal relation of the earlier wording is a
 theorem of [EHR65], as Known Results records. Search scope: the site's problem
 page, discussion thread and proof-claims tab; [EHR65]. Not searched: arXiv,

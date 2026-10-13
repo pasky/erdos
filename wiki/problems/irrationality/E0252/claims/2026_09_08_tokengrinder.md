@@ -118,7 +118,7 @@ are the statement audit behind the `formalized` evidence. Two earlier review
 rounds, of 2026-09-17 and 2026-09-18, are void for independence and warrant
 nothing.
 
-No `reviewed` or `refereed` evidence exists. As of 2026-09-17 the site labels
+No `reviewed` or `refereed` evidence exists. As of 2026-09-17 the site labeled
 the problem open (page last edited 2026-01-22) and lists the author's entry
 under its disclaimer. The community database and formal-conjectures list it
 open, with the issue unanswered. At the revision of 2026-10-06 linked as the

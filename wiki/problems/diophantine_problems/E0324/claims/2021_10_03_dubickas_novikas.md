@@ -50,7 +50,7 @@ other quartics or about higher degrees.
 **Acceptance.** Refereed: Mathematische Nachrichten 294 (2021), no. 10,
 1859--1865 (received 7 July 2020, accepted 30 November 2020). The page is dated
 to the Crossref online publication of 3 October 2021. The site's commentary
-credits the cubic case to Dubickas and Novikas. The site labels the problem
+credits the cubic case to Dubickas and Novikas. The site labeled the problem
 OPEN, however, so that commentary is not review. The paper's
 [[../library/diophantine_problems/dubickas_2021_no_cubic_integer_polynomial_generates_sidon/_index|library card]]
 records the theorem.

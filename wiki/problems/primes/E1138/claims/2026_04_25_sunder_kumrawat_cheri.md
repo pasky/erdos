@@ -79,7 +79,7 @@ differ by one prime while the predicted main terms differ by $d/\log y$,
 which tends to infinity); the behavior when $C$ grows slowly with $x$ is
 also open. Neither is part of this claim.
 
-**Acceptance.** The site's curator, Thomas F. Bloom, marks Problem 1138
+**Acceptance.** The site's curator, Thomas F. Bloom, marked Problem 1138
 disproved and credits the result to Sunder, Kumrawat and Cheri together with GPT
 5.5. This is the `reviewed` evidence. The paper is H. Sunder, S. Kumrawat and K.
 Cheri, *An elementary obstruction to a uniform prime-gap asymptotic*, dated

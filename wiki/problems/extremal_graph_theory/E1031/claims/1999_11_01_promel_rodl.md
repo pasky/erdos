@@ -90,7 +90,7 @@ its axioms. The development is therefore a link on this page, and
 Combinatorial Theory, Series A, cited with its venue above.
 
 The `reviewed` evidence is the site's documented acceptance. The site's curator,
-Thomas Bloom, who took no part in the paper, labels the problem PROVED and
+Thomas Bloom, who took no part in the paper, labeled the problem PROVED and
 credits Prömel and Rödl [PrRo99] with the proof in the commentary. The
 commentary was revised after the forum comment of 13 September 2025 pointed to
 the paper, which Bloom acknowledged the same day. The proof-claim tab is empty,

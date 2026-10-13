@@ -55,7 +55,7 @@ $k$. Nothing about odd cycle lengths.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 proved and credits the even case to this paper (its key [EFRS93]; page last
 edited 16 January 2026, accessed 2026-09-08 for the problem page). The 2026
 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy records on p. 2

@@ -67,5 +67,5 @@ pages; the proofs of Theorems 2 and 3 and of Corollary 1 are recorded there in
 outline and not verified.
 
 **Acceptance.** Refereed: Discrete Mathematics 200 (1999), no. 1--3, 119--135
-(April 1999). The site's commentary credits both bounds, but the site labels the
-problem OPEN, so `reviewed` is not listed.
+(April 1999). The site's commentary credits both bounds, but the site labeled
+the problem OPEN, so `reviewed` is not listed.

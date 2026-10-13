@@ -56,7 +56,7 @@ equal to $\epsilon_0+1$; the translation is checked on the
 page. The site's range $n\ge\frac54k+C$ for the 1975 announcement is that
 paper's $n\ge(5t+3+c)/2$.
 
-**Status.** The site's label is PROVED. The problem lists two parts, cycles and
+**Status.** The site's label was PROVED. The problem lists two parts, cycles and
 paths, and the two halves rest on different evidence. The claim pages
 [[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|Montellano-Ballesteros and Neumann-Lara 2005]]
 (accepted on the curator's credit and the refereed publication, partial: the

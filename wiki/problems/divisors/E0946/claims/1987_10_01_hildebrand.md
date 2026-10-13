@@ -45,5 +45,5 @@ The issue is nominally dated June 1987; the publisher records publication on
 Heath-Brown's paper).
 
 **Acceptance.** Refereed: Pacific Journal of Mathematics. The site's PROVED
-label credits Heath-Brown, so the site's credit is not counted as review of
+label credited Heath-Brown, so the site's credit is not counted as review of
 this paper.

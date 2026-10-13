@@ -60,7 +60,7 @@ papers of 1978--1982 pose (i) and (ii) as the site does, and [Er82e] adds the
 expectation $\hat r(C_n,C_n)/n^2\to0$, which is (iii). No source read poses
 (iii) as a question in [EFRS78b], which says nothing about cycles.
 
-**Status.** The site labels the problem PROVED. The label attaches to the
+**Status.** The site labeled the problem PROVED. The label attaches to the
 resolution of the problem: the answers are no to (i) and yes to (ii) and (iii),
 because both size Ramsey numbers are linear. The frontmatter lists the three
 questions as the problem's parts. The frontmatter standing derives from the

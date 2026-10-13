@@ -25,13 +25,13 @@ updated: 2026-10-08T13:36:19Z
 disk contains three points which determine a triangle of area at most
 $\alpha(n)$. Estimate $\alpha(n)$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 30 December
-2025). Its proof-claims thread carried no claim as of 6 October 2026. The claim
-pages record the refereed bounds of Komlós, Pintz and Szemerédi and of Cohen,
-Pohoata and Zakharov as accepted partial claims. They also record a pending
-release result on the lower bound, and two earlier arXiv preprints asserting
-stronger bounds for the disk. One of these preprints is conditional on an
-unproved assumption, and the other is rejected.
+**Status.** Open. The site labeled the problem OPEN (page last edited 30
+December 2025). Its proof-claims thread carried no claim as of 6 October 2026.
+The claim pages record the refereed bounds of Komlós, Pintz and Szemerédi and of
+Cohen, Pohoata and Zakharov as accepted partial claims. They also record a
+pending release result on the lower bound, and two earlier arXiv preprints
+asserting stronger bounds for the disk. One of these preprints is conditional on
+an unproved assumption, and the other is rejected.
 
 **Source.** [erdosproblems.com/507](https://www.erdosproblems.com/507), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #507,

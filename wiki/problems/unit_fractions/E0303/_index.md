@@ -30,7 +30,7 @@ $$
 
 with distinct $a,b,c$?
 
-**Status.** Proved. The site's label is PROVED (LEAN) (page last edited 28
+**Status.** Proved. The site's label was PROVED (LEAN) (page last edited 28
 December 2025). Two accepted full claims carry the standing. The first is
 [[problems/unit_fractions/E0303/claims/1991_06_01_brown_rodl|Brown and Rödl's 1991 theorem]],
 refereed and credited by the site, which proves the stronger positive-integer

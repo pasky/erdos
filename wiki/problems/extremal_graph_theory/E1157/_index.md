@@ -45,7 +45,7 @@ $f^{(r)}(n;k,s)-1$; later
 papers write $f_r(n,v,e)$ or $f^{(r)}(n;s,k)$ with the vertex and edge
 counts in various orders, and this page keeps the site's letters ($r$ the
 uniformity, $k$ vertices, $s$ edges, $t$ the exponent). The question is
-"Determine" and the site labels it OPEN, so the wording is a notation
+"Determine" and the site labeled it OPEN, so the wording is a notation
 defect, not a degenerate statement, and the field describes the question as
 written. The 1999 booklet [Va99] states the same question as its item 3.64
 in yet other letters (quoted below).

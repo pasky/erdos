@@ -120,7 +120,7 @@ accessed 2026-09-18.
 **Formalization.** None: formal-conjectures had no `ErdosProblems/795.lean`
 on 18 September or 7 October 2026, and the community database records the
 problem as proved (last updated 31 August 2025), not formalized, with
-`formal_status` unformalized and no formal proof. The site's label carries
+`formal_status` unformalized and no formal proof. The site's label carried
 no Lean suffix.
 
 ## Current assessment

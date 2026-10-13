@@ -30,7 +30,7 @@ $$
 \limsup S(n)=\infty?
 $$
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 12 January 2026). The standing in the frontmatter derives from the claim
 pages. The site credits a proof worked out in its discussion thread by Cambie,
 Kovač and Tao in August 2025, recorded on

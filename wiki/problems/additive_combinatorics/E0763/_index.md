@@ -29,14 +29,14 @@ $$
 \sum_{n\leq N} 1_A\ast 1_A(n) = cN+O(1)?
 $$
 
-**Status.** The site labels the problem DISPROVED. The status-defining source is
-Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73, refereed).
-It shows that for no sequence and no $c>0$ does the number of pairs with
-$a_i+a_j\le n$ equal $cn+o(n^{1/4}(\log n)^{-1/2})$. So a bounded error term is
-impossible, and the answer is no. The copy read is the 1954 technical-report
-printing of the paper, which states the theorem with the weaker exponent
-$-1/2-\varepsilon$ (see References). Montgomery and Vaughan [MoVa90], after
-unpublished work of Jurkat, extended the impossibility to an error term
+**Status.** The site labeled the problem DISPROVED. The status-defining source
+is Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73,
+refereed). It shows that for no sequence and no $c>0$ does the number of pairs
+with $a_i+a_j\le n$ equal $cn+o(n^{1/4}(\log n)^{-1/2})$. So a bounded error
+term is impossible, and the answer is no. The copy read is the 1954
+technical-report printing of the paper, which states the theorem with the weaker
+exponent $-1/2-\varepsilon$ (see References). Montgomery and Vaughan [MoVa90],
+after unpublished work of Jurkat, extended the impossibility to an error term
 $o(N^{1/4})$. That result answers the question on its own. The claim pages are
 [[problems/additive_combinatorics/E0763/claims/1956_01_01_erdos_fuchs|Erdős–Fuchs]]
 and

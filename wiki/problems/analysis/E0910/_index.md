@@ -35,7 +35,7 @@ than one contain more than $2^{\aleph_0}$ many connected subsets?
 
 **Notes.** Both questions are defective as the site words them: the first
 does not exclude points or the empty set, and the second reads Erdős's
-dimension hypothesis as the ambient dimension. The site labels the problem
+dimension hypothesis as the ambient dimension. The site labeled the problem
 DISPROVED and its commentary says that "the answer to both is in fact no, as
 shown by Rudin [Ru58] (conditional on the continuum hypothesis)"; its thread
 has no comments. The corrected Statement follows Erdős's own words, which the
@@ -59,7 +59,7 @@ is asserted by [Er82e] and the site and has not been found here. The first
 defect is already in [Er82e], which excludes points for the subset only; the
 second is the site's. The $2^c$ form of [Er44] is a variant.
 
-**Status.** The site labels the problem DISPROVED on the strength of Rudin's
+**Status.** The site labeled the problem DISPROVED on the strength of Rudin's
 1958 construction [Ru58]. Its commentary credits the construction, under the
 continuum hypothesis, with a negative answer to both questions. That result is
 recorded as an

@@ -55,7 +55,7 @@ site's commentary records it. The change inserts "closed under taking subgraphs"
 after "a family of finite graphs", in the words of the site's commentary, which
 records Barreto's note that $S$ is presumably intended to be closed under taking
 subgraphs, or else a sparse family of complete graphs is a trivial
-counterexample; the site keeps the label OPEN, which only the hereditary form
+counterexample; the site kept the label OPEN, which only the hereditary form
 fits. That is the only evidence for the change, and it is weak: it is the site's
 own, and no text of Erdős or of the literature independent of a claimant states
 the hereditary form. Erdős's item 9 of [Er97d] (pp. 83--84), which the site's
@@ -86,7 +86,7 @@ subgraphs. An analog with induced subgraphs in place of subgraphs, with $S$
 closed under induced subgraphs, is a variant; the note [Sa26] claims the same
 negative answer for it (Main Theorem 1, p. 2; Proposition 18, p. 10).
 
-**Status.** The site shows OPEN, a label that fits the corrected Statement and
+**Status.** The site showed OPEN, a label that fits the corrected Statement and
 not the site's wording. A negative answer to the corrected Statement is claimed
 in an unreviewed note. It is recorded at claimed on
 [[problems/ramsey_theory/E0638/claims/2026_04_26_saturnino|Saturnino's claim page]],
@@ -218,7 +218,7 @@ version, independent mathematical review or complete formalization was found,
 and the site's label and commentary do not mention the note. Under the corpus's
 rules the note is a forum-posted, AI-assisted claim, recorded as a lead with
 this provenance; it does not set the answer to the corrected Statement, which
-the site labels OPEN. The poster's account name is not written on this page.
+the site labeled OPEN. The poster's account name is not written on this page.
 
 **Search scope.** None of the routes below found a refereed or independently
 reviewed resolution of the hereditary question, a second source on it, or a

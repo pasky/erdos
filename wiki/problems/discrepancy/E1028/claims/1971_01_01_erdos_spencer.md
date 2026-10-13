@@ -71,7 +71,7 @@ qualification. The claim settles the question as the historical papers and
 the site's label intend it and asserts no exact finite-$n$ value or
 leading constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 solved. In the site's commentary the curator credits the lower bound
 $H(n)\gg n^{3/2}$ to Erdős and Spencer [ErSp71] and the upper bound to Erdős
 [Er63d]. The site's label on 2026-09-04 was SOLVED (LEAN). The curator is

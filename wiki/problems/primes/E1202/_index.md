@@ -36,7 +36,7 @@ site, $\eta$ enters only through $k$, and the site's non-strict bound in place
 of the strict one changes no answer on this page. The standing answers the
 site's wording, with the bound $\epsilon n$.
 
-**Status.** Disproved. The site labels the problem SOLVED. Its curator credits
+**Status.** Disproved. The site labeled the problem SOLVED. Its curator credits
 Price and GPT-5.4 Pro with a negative answer. That credit is the acceptance
 evidence on [[problems/primes/E1202/claims/2026_04_07_price|the claim page]],
 and the standing derives from that page. The corpus does not hold the
@@ -169,7 +169,7 @@ classes each and more than $n/10$ survivors, which would answer Problem 44
 in the negative under the reading of "half the residue classes" as
 $(p-1)/2$ classes; nothing about this was checked or built.
 
-**Formalization and the Lean label.** The site's label carries no Lean suffix,
+**Formalization and the Lean label.** The site's label carried no Lean suffix,
 formal-conjectures has no statement file at the collection's path for 1202,
 and the site offers no formalization link (both). The only
 formal artifact is the external community file above; it declares itself a

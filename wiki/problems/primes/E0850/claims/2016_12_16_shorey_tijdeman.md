@@ -54,7 +54,7 @@ gives no unconditional answer.
 preprint, which describes itself as a corrected and extended version of the
 chapter; no journal publication is recorded, so `refereed` is not listed. The
 site's commentary credits the conditional answer to Shorey and Tijdeman, but
-on a problem the site labels OPEN that commentary is not acceptance, so the
+on a problem the site labeled OPEN that commentary is not acceptance, so the
 claim stays `claimed`. The page is dated by the arXiv posting of 16 December
 2016, before the chapter's online date of 31 December 2016.
 

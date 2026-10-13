@@ -28,7 +28,7 @@ size $n$. Let $X=\cup_{A\in \mathcal{F}}A$.
 Must there exist $\gg_c 2^{\lvert X\rvert}$ many sets $B\subset X$ which
 intersect every set in $\mathcal{F}$, yet contain none of them?
 
-**Status.** Proved. The site marks the problem proved (page last edited 1
+**Status.** Proved. The site marked the problem proved (page last edited 1
 October 2025). It credits a proof that Koishi Chan posted in the problem's
 comment thread on 21 September 2025. The claim page
 [[problems/set_systems/E1027/claims/2025_09_21_koishichan|Koishi Chan 2025]]

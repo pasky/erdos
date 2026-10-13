@@ -44,7 +44,7 @@ yes.
 **Acceptance.** Refereed: H. Plünnecke, Eine zahlentheoretische Anwendung der
 Graphentheorie, Journal für die reine und angewandte Mathematik 243 (1970),
 171–183. Reviewed: Thomas Bloom, the site's curator, records in the problem's
-remarks that the asked bound follows from Plünnecke's theorem, and labels the
+remarks that the asked bound follows from Plünnecke's theorem, and labeled the
 problem proved (page accessed). Jin's Theorem 2 of 2014 gives a later proof of
 the same bound by a different method. This repository holds a rewritten proof of
 it on

@@ -24,7 +24,7 @@ updated: 2026-10-08T00:44:24Z
 **Statement.** Given any infinite set $A\subset \mathbb{N}$ there is a set $B$
 of density $0$ such that $A+B$ contains all except finitely many integers.
 
-**Status.** Proved, and the site's label is PROVED (LEAN). Lorentz's Theorem 1
+**Status.** Proved, and the site's label was PROVED (LEAN). Lorentz's Theorem 1
 [Lo54] gives every infinite $A$ a density-zero complement with $A+B$ cofinite.
 The Lean qualification of the site's label corresponds to the proof the
 formal-conjectures catalog links, a third party's Lean proof. The claim page

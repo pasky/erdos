@@ -50,7 +50,7 @@ $c(n/\log n)^{3/2}$ and $(1+o(1))(n/\log n)^2$ (see
 linear formula, and [KLS21] Theorem 1.2 gives $r(C_\ell,K_n)>n\log n$ for
 $3\le\ell\le(1-\varepsilon)\log n/\log\log n$ and $n\ge n_0(\varepsilon)$.
 
-**Status.** The site labels the problem DECIDABLE, which the site defines as
+**Status.** The site labeled the problem DECIDABLE, which the site defines as
 resolved up to a finite check. The derived standing, solved, proved, departs
 from the site's DECIDABLE by counting an accepted full claim. A full proof of
 the identity, closing that check, is given by the OpenAI release's preprint of

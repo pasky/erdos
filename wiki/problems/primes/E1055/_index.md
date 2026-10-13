@@ -59,7 +59,7 @@ definition, excluding the lower classes since its revision of 2026-08-16. Class
 $1$ is the same set in both forms, and no result about the site's wording is
 recorded.
 
-**Status.** Open. The site labels the problem OPEN.
+**Status.** Open. The site labeled the problem OPEN.
 
 **Source.** [erdosproblems.com/1055](https://www.erdosproblems.com/1055),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1055,

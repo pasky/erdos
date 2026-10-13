@@ -63,7 +63,7 @@ this claim uses neither.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in the Israel Journal of Mathematics, cited
-with its venue above. The site's curator, Thomas Bloom, marks the problem
+with its venue above. The site's curator, Thomas Bloom, marked the problem
 DISPROVED. In the commentary the curator credits the paper, under the reference
 [HaLe18], with an alternative construction of the complete sum-free sets behind
 the bound. That credit is the `reviewed` evidence, and Bloom took no part in the

@@ -37,7 +37,7 @@ $$
 where the maximum is taken over all spherical caps $C$ and $\alpha_C$ is the
 area of $C$ (normalised so that the entire sphere has area $1$)?
 
-**Status.** Proved. The site labels the problem proved (page last edited
+**Status.** Proved. The site labeled the problem proved (page last edited
 2025-09-16) on the strength of two refereed papers, while remarking that the
 attribution is unclear. Brauchart (Math. Comp. 2008) proves the quantitative
 bound $\max_C\lvert\lvert A\cap C\rvert-\alpha_C n\rvert\ll n^{3/4}$. The

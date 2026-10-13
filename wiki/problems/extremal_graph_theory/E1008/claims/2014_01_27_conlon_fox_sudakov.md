@@ -81,7 +81,7 @@ Ser. B 121 (2016), 173--196 (Crossref record, 2026-10-07: issued November 2016).
 Its journal text was not compared with the arXiv v2, so the printed statement is
 matched against the preprint only.
 
-The site's curator, Thomas Bloom, labels the problem proved and credits Conlon,
+The site's curator, Thomas Bloom, labeled the problem proved and credits Conlon,
 Fox and Sudakov [CFS14b] with the first solution. This is the `reviewed`
 evidence, and Bloom took no part in the paper. The credit came after the forum
 comment of 29 September 2025 identified the paper. The proof-claim tab is empty,

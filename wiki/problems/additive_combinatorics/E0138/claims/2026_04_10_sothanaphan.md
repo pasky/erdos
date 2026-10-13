@@ -66,6 +66,6 @@ $W_r$ and not the problem's two-color number.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed: the note has no journal record and no outside review,
-the site's commentary does not mention it, and the site labels the problem
+the site's commentary does not mention it, and the site labeled the problem
 OPEN. No Lean formalization of the note's theorem is known, and this corpus
 has built nothing, so the page lists no evidence.

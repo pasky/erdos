@@ -73,7 +73,7 @@ this page records the bound the site names as the best known.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and, in the commentary, names the paper's bound as the best known
 quantitative answer. Refereed: the paper appeared in Bull. Lond. Math. Soc. 42
 (2010), no. 2, 295--300 (Crossref record, issue dated April 2010). The text

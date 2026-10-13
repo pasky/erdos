@@ -32,9 +32,9 @@ Is there a graph with $\aleph_{\omega+1}$ vertices and chromatic number
 $\aleph_1$ such that every subgraph on $\aleph_\omega$ vertices has chromatic
 number $\leq\aleph_0$?
 
-**Status.** Open. The site labels the problem OPEN. The first question (the part
-`q1`) is independent of ZFC + GCH, relative to a huge cardinal. Baumgartner 1984
-settles its not disprovable side, and Foreman and Laver 1988 settle its not
+**Status.** Open. The site labeled the problem OPEN. The first question (the
+part `q1`) is independent of ZFC + GCH, relative to a huge cardinal. Baumgartner
+1984 settles its not disprovable side, and Foreman and Laver 1988 settle its not
 provable side. The second question (the part `q2`) is open. Rinot 2015 settles
 its not disprovable side, and one side alone leaves the question open.
 
@@ -98,7 +98,7 @@ Foreman and Laver's page together settle the first question as independent,
 the one as not disprovable and the other as not provable. Rinot's page settles
 only the not disprovable side of the second question, and one side alone
 leaves that question open, so the problem is open. Neither question is
-answered in ZFC alone, and the site labels the problem OPEN.
+answered in ZFC alone, and the site labeled the problem OPEN.
 
 ## Known Results
 

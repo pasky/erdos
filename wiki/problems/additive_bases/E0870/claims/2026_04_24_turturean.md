@@ -106,7 +106,7 @@ natural-language proof and GPT-5.5-Pro, Codex (GPT-5.5-xhigh) and Claude Code
 (Opus 4.8, maximum thinking) for the Lean. Johan Land reported on the thread
 on 2026-09-01 that Land had validated the formalization as a full solution of
 the at-most-$k$ reading. This corpus has not built or audited the Lean, the
-site labels the problem OPEN, and there is no refereed publication.
+site labeled the problem OPEN, and there is no refereed publication.
 
 The claim answers the site's at-most-$k$ wording only. It does not address
 the version in [ErNa88], with sums of $h$ elements and disjoint

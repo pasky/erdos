@@ -42,7 +42,7 @@ site reads it. Read as the site words it, the question has a trivial answer no:
 $f(n)/\log n=c$ determines $n$ from $f(n)$, so each value of $f$ gives at most
 one such $n$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 30
+**Status.** Open. The site labeled the problem OPEN (page last edited 30
 September 2025). Its commentary credits [EGPS90] with a yes to the first two
 questions under a form of the Elliott--Halberstam conjecture. That conditional
 theorem is the claim on
@@ -87,7 +87,7 @@ https://www.erdosproblems.com/408.
 number of totient iterations needed to reach $1$ divided by $\log n$, has a
 distribution function; whether it is almost always constant, read as a
 normal order (Formulation); and what can be said about the largest prime
-factor of $\phi_k(n)$ for $k=\log\log n$. The site labels the problem OPEN
+factor of $\phi_k(n)$ for $k=\log\log n$. The site labeled the problem OPEN
 (page last edited 30 September 2025).
 
 **Standing.** Open. The one claim page,
@@ -99,7 +99,7 @@ the usual conjecture and unproven; under it $f(n)/\log n\to\alpha$ on a set
 of density one, and the first two questions have the answer yes. The claim
 is `claimed`: the chapter is in a proceedings volume with no evidence of
 refereeing recorded, and the site's credit is commentary on a problem it
-labels OPEN. Unconditionally, the site's commentary records Pillai's bounds
+labeled OPEN. Unconditionally, the site's commentary records Pillai's bounds
 $\log n/\log3<f(n)<\log n/\log2$ for all large $n$ [Pi29] and Shapiro's
 result that $f(n)$ is essentially multiplicative [Sh50]; [EGPS90] notes on
 p. 166 that the values of $f(n)/\log n$ are dense in $[1/\log3,1/\log2]$,

@@ -79,7 +79,7 @@ that the statement shape is false at $r=2$. The corpus has not built it, so
 it gives no `formalized` evidence.
 
 **Standing.** Claimed. Unrefereed, and the proof-claim entry names GPT 5.6
-Sol as the system used; the site's label is FALSIFIABLE. The claim carries
+Sol as the system used; the site's label was FALSIFIABLE. The claim carries
 two comments by Nick Winter. The first (31 July 2026) reports a review by their
 GPT-5.6 Sol and Claude Fable 5 agents: every inference re-derived, the hand
 case classifications replaced by exhaustive enumeration, and the lemmas

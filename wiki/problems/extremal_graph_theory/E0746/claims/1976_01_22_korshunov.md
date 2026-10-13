@@ -73,7 +73,7 @@ Kurshonov [sic] and Komlós-Szemerédi" (p. 69). He credits Korshunov by name, b
 that paper's reference list has no Korshunov item. The abstract of Komlós and
 Szemerédi's refereed paper [KoSz83] credits the $f(n)\to\infty$ case to
 Korshunov by name, again with no Korshunov item among its references. The site's
-curator, Thomas Bloom, labels the problem PROVED and credits the theorem to
+curator, Thomas Bloom, labeled the problem PROVED and credits the theorem to
 [Ko77] in the problem's commentary. The curator cites the 1977 paper with its
 venue, as the 1985 paper's own reference list does.
 

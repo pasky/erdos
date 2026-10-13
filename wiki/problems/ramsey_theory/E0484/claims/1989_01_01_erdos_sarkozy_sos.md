@@ -53,7 +53,7 @@ logarithmic error term is of the right order. Their Theorem 2, recorded on
 the problem page, shows that the $M/2-o(M)$ shape cannot become $M/2-O(1)$
 for every $k$.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED (LEAN) and credits the solution to this paper in the problem's commentary
 (page last edited 8 April 2026, accessed 2026-09-17). The proof-claim tab is
 empty. Published: P. Erdős, A. Sárközy and V. T. Sós, On a conjecture of Roth

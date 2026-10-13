@@ -102,7 +102,7 @@ Source: <https://doi.org/10.1002/jgt.3190160110>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0742/_index|#742]]: Theorem 1.2
 (preprint p. 2 = PDF p. 3, page image), the conjecture for all n > n_0 with
 n_0 computable but "a tower of 2's of height about 1000", the large-n theorem
-that the site credits in its commentary when it labels the problem DECIDABLE;
+that the site credits in its commentary when it labeled the problem DECIDABLE;
 Conjecture 1.1 (p. 1) is the problem's inequality with an equality clause the
 problem does not ask; Fan's n <= 24 and n = 26 (p. 1), for the inequality
 (the conjecture's first part) only, are the part of the remainder n <= n_0

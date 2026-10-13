@@ -48,8 +48,8 @@ rational $\alpha\in[1,2)$ is settled by the accepted claim page
 this page is named by), 28 pp.; no journal version is known. The site's
 commentary lists these exponents among the previously known Turán exponents,
 those known before the 2026 resolution, and credits the paper, but its label
-credits GPT-6 Astra with the full proof and is not an acceptance of this result;
-nothing is refereed or formalized.
+credited GPT-6 Astra with the full proof and is not an acceptance of this
+result; nothing is refereed or formalized.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

@@ -53,7 +53,7 @@ each would be a minimal non-Ramsey-size-linear graph if it failed (see
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_6|Question 6]]).
 The site cites [Er95, p. 177] for the $K_{3,3}$ case.
 
-**Status.** The site labels the problem OPEN, and no claim about it exists, so
+**Status.** The site labeled the problem OPEN, and no claim about it exists, so
 the frontmatter standing is open. No source cited here decides any of the three
 cases. The one accepted formal result is a Lean refutation accepted by the
 bounty site Conjectures.io on 7 August 2026 (record

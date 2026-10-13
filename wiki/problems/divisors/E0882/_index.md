@@ -32,12 +32,12 @@ no two distinct elements divide each other?
 
 **Formulation.** The question is read as Erdős and Sárközy read it in [Er98],
 where they expected $\lvert A\rvert=(1-o(1))\log_2 n$, and as the site's solved
-label reads it: it asks for the size of the largest such $A$ to leading order.
+label read it: it asks for the size of the largest such $A$ to leading order.
 The exact value of that size, $R(n)$, is a stronger question that remains
 open; Korsky's pending claim bears on it.
 
-**Status.** Solved on the site. The site's remarks credit the lower bound to
-Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper bound to the
+**Status.** Labeled solved on the site. The site's remarks credit the lower
+bound to Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper bound to the
 distinct-subset-sums bound of Problem 1. The frontmatter standing derives from
 the accepted claim page
 [[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the
@@ -47,7 +47,7 @@ $\log_2 n+O(\log\log n)$. A pending partial claim,
 narrows it to two consecutive values.
 
 **Source.** [erdosproblems.com/882](https://www.erdosproblems.com/882), accessed
-2026-09-04 and 2026-10-07 (the problem page: SOLVED; source keys [ELRSS99],
+2026-09-04 (the problem page: SOLVED; source keys [ELRSS99],
 [Er98]; Comments (0), Proof claims (1); "Formalised statement? No"). Cite as:
 T. F. Bloom, Erdős Problem #882, https://www.erdosproblems.com/882.
 
@@ -93,7 +93,7 @@ bound from the witness $\{2^m-2^{m-1},\ldots,2^m-1\}$ with
 $m=\lfloor\log_2(n+1)\rfloor$ and the upper bound because the primitivity
 condition forces all subset sums to be distinct, so the Erdős--Moser bound of
 Problem 1 applies. That fixes $R(n)$ to its leading term and is what the
-site's solved label rests on; the second-order term is open in the refereed
+site's solved label rested on; the second-order term is open in the refereed
 literature, and the remarks expect $R(n)\le\log_2 n+O(1)$. The pending
 partial claim
 [[problems/divisors/E0882/claims/2026_07_27_korsky|Korsky's near-exact

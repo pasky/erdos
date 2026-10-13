@@ -51,4 +51,4 @@ $F_P(n)\gg n^4$.
 
 **Acceptance.** Refereed: the *Journal of the European Mathematical Society*
 accepted the paper on 12 October 2023 and published it online on 31 January
-2025 (DOI 10.4171/JEMS/1586). The site labels the problem OPEN.
+2025 (DOI 10.4171/JEMS/1586). The site labeled the problem OPEN.

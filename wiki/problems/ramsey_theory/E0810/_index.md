@@ -35,7 +35,7 @@ paper calls $\chi_S$ nondecreasing in $e$ on its p. 281). The 1989 authors
 expected the answer to be no. The site's source key is printed "[BEGS8,p.273]",
 a misprint of BEGS89 that the commentary's "[BEGS89]" corrects.
 
-**Status.** Open: the site labels the problem OPEN (last edited 1 April 2026),
+**Status.** Open: the site labeled the problem OPEN (last edited 1 April 2026),
 and no source found in the search proves or refutes the statement. The 1989
 paper states without proof that $n$ colors suffice for $C_4$ at $e=c\,g(n;7,4)$
 edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has order $n^2$, which is

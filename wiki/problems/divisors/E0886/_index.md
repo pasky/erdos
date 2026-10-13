@@ -24,7 +24,7 @@ updated: 2026-10-07T20:00:46Z
 **Statement.** Let $\epsilon>0$. Is it true that, for all large $n$, the number
 of divisors of $n$ in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$ is $O_\epsilon(1)$?
 
-**Status.** The site labels the problem OPEN. The answer is yes for every
+**Status.** The site labeled the problem OPEN. The answer is yes for every
 $\epsilon\ge1/4$, by
 [[problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's bound]].
 The range $0<\epsilon<1/4$ is open.
@@ -43,7 +43,7 @@ https://www.erdosproblems.com/886.
 
 ## Current assessment
 
-The site labels the problem OPEN (page last edited 1 February 2026). For every
+The site labeled the problem OPEN (page last edited 1 February 2026). For every
 $\epsilon\ge1/4$ the answer is yes: the window lies within $n^{1/4}$ of
 $\sqrt n$, where the bound of Erdős and Rosenfeld allows at most two divisors
 for every $n$

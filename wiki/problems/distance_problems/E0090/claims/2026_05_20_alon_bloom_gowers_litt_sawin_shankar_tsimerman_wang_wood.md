@@ -61,7 +61,7 @@ declares are recorded at statement level on the result pages and not
 reproved there.
 
 **Acceptance.** None documented. The manuscript is an arXiv preprint, and no
-journal record is known here. The site's page labels the problem disproved and
+journal record is known here. The site's page labeled the problem disproved and
 credits the model, not this manuscript. The site's curator is also one of the
-authors, so the site's label is not an independent review of this proof. The
+authors, so the site's label was not an independent review of this proof. The
 corpus's own reading awards no standing. The claim is therefore claimed.

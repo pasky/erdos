@@ -58,7 +58,7 @@ Scottish Book problems, the site's [Er81b]) and at Oberwolfach in 1983
 ([Er83d], p. 323), speculating that $C=4\pi/\sqrt{27}$ might be the right
 constant: the open disk of radius $2\cdot3^{-3/4}$ has that area and contains
 no triangle of area $1$, since the largest triangle inscribed in a circle is
-equilateral. The site labels the problem OPEN, and no claim page settles it,
+equilateral. The site labeled the problem OPEN, and no claim page settles it,
 so the standing is open with claim none; the claimed partial results below
 settle special cases only.
 

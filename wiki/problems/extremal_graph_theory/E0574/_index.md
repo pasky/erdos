@@ -28,8 +28,8 @@ $$
 \mathrm{ex}(n;\{C_{2k-1},C_{2k}\})=(1+o(1))(n/2)^{1+\frac{1}{k}}.
 $$
 
-**Status.** Disproved. The site labels the problem DISPROVED (page last edited 1
-April 2026; one comment, no proof claims) and credits two refereed papers. It
+**Status.** Disproved. The site labeled the problem DISPROVED (page last edited
+1 April 2026; one comment, no proof claims) and credits two refereed papers. It
 names [LUW94b] as apparently the first disproof, at $k=3$ and $k=5$, through
 bipartite $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$. It names [FNV06]
 as an alternative disproof at $k=3$. Both are accepted claims here, on the

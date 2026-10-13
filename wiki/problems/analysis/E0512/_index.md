@@ -55,7 +55,7 @@ which names as its formal proof the file `problems/512/Erdos512.lean` of
 the `Jayyhk/erdos-lean` repository, a proof produced by Aristotle (Harmonic)
 from the paper of McGehee, Pigno and Smith, as the thread's one comment
 reports, and linked at its pinned commit from their claim page; it was not
-built here, and the "(LEAN)" suffix of the site's label is a catalog label.
+built here, and the "(LEAN)" suffix of the site's label was a catalog label.
 
 ## Current assessment
 

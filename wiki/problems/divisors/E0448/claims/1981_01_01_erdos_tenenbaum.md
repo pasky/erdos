@@ -62,7 +62,7 @@ not been built or audited in this repository, so it gives no `formalized`
 evidence; the site's Lean qualifier on its DISPROVED label refers to it.
 
 **Acceptance.** Refereed: Ann. Inst. Fourier (Grenoble) 31 (1981), no. 1,
-17–37. Reviewed: the site's curator, T. F. Bloom, marks Problem 448 disproved
+17–37. Reviewed: the site's curator, T. F. Bloom, marked Problem 448 disproved
 and credits this paper. The page's date is the year of the paper, whose
 publication record gives no month or day. This repository has not checked
 the proof independently.

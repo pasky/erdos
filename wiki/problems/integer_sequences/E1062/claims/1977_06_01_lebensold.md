@@ -38,7 +38,7 @@ formal-conjectures
 [statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1062.lean)
 states it as the solved variant `erdos_1062.variants.lebensold_bounds`.
 
-**Acceptance.** A refereed journal publication (`refereed`). The site labels
+**Acceptance.** A refereed journal publication (`refereed`). The site labeled
 the problem OPEN, so its commentary is not acceptance. The issue is dated June
 1977 and gives no day, so this page is named by the first day of that month.
 

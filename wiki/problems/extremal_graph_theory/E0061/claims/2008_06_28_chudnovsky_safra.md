@@ -49,6 +49,6 @@ instance it shares with its complement. The problem stays open.
 **Acceptance.** The paper is a refereed publication in the Journal of
 Combinatorial Theory, Series B, which is the `refereed` evidence. Its DOI was
 registered on 2008-06-28 (this page's date), and it was issued in November 2008.
-The site's commentary credits the case to the paper, but the site labels the
+The site's commentary credits the case to the paper, but the site labeled the
 problem OPEN, so no `reviewed` evidence is listed. This corpus has not checked
 the proof.

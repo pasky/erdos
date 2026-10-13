@@ -53,7 +53,7 @@ pages of the folder assert larger lower bounds.
 
 **Acceptance.** Refereed: the paper appeared in the Journal d'Analyse
 Mathématique, a refereed journal. The site's commentary credits the two bounds
-to the paper, but the site labels the problem OPEN, so that credit is not
+to the paper, but the site labeled the problem OPEN, so that credit is not
 acceptance of the problem and the page lists no `reviewed` evidence. Three later
 lower bounds supersede $4/7$, all pending:
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified

@@ -99,7 +99,7 @@ external inputs whose proofs are not reconstructed there.
 
 The theorem interface and the displayed specialization are checked against
 manuscript pages 1, 2, 4 and 8--11 only; this is not a whole-proof review.
-The Lean suffix of the site's label is its formal status: the
+The Lean suffix of the site's label was its formal status: the
 formal-conjectures statement file registers the outside Lean 4 development
 stating the disproof as its formal proof, that development is linked, unbuilt
 and unaudited, from

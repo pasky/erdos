@@ -25,7 +25,7 @@ updated: 2026-10-08T00:44:25Z
 $P\in \mathbb{Q}[x]$ ranges over all polynomials with exactly $k$ non-zero
 terms. Is it true that $f(k)\to\infty$ as $k\to \infty$?
 
-**Status.** Proved. The site labels the problem PROVED. The answer is yes.
+**Status.** Proved. The site labeled the problem PROVED. The answer is yes.
 Schinzel proved in 1987 that $f(k)>\log\log k/\log2$. Schinzel and Zannier
 sharpened this in 2009 to $f(k)\gg\log k$. Both results are refereed, and the
 accepted claim pages are
@@ -89,7 +89,7 @@ $t\ll T^{\log8/\log13}$ along a sequence of polynomials, and a comment of
 integer polynomials as the best known. The gap between $\log k$ and a power of
 $k$ is open and is not part of the problem's question.
 
-**Formalization.** The site's label carries no Lean qualification. The
+**Formalization.** The site's label carried no Lean qualification. The
 problem's statement is formalized in formal-conjectures, whose file leaves
 its theorem unproved and points to a Lean 4 file in the lean-proofs
 repository that declares itself a formalization of Schinzel's solution and

@@ -26,14 +26,14 @@ updated: 2026-10-08T00:44:25Z
 for every cardinal number $m$, some graph $G_m$ of chromatic number $m$ such
 that every finite subgraph of $G_m$ is a subgraph of $G$?
 
-**Status.** Open. The site labels the problem NOT PROVABLE, since Komjáth and
+**Status.** Open. The site labeled the problem NOT PROVABLE, since Komjáth and
 Shelah [KoSh05] proved it consistent with ZFC that the answer is no. They did
 this through a graph of chromatic number $\aleph_1$ such that every graph whose
 finite subgraphs all occur in it has chromatic number at most $\aleph_2$. So no
 $G_m$ exists for $m>\aleph_2$. That result settles one side: ZFC does not prove
 a positive answer. It is not settled whether a positive answer is itself
 consistent, and so whether ZFC also fails to disprove it. This page departs from
-the site's label and shows the problem open, because one side alone leaves the
+the site's label and showed the problem open, because one side alone leaves the
 question open.
 
 The question is Walter Taylor's conjecture at $\aleph_1$. The general form
@@ -69,8 +69,8 @@ independence result. The result says nothing about disprovability: the paper's
 Theorem 4 gives a consistent positive direction only for graphs of chromatic
 number at least $\aleph_2$, and no model is recorded in which the statement
 holds at $\aleph_1$. The problem would be settled as independent by such a
-model, and as disproved by a refutation in ZFC alone. The site labels the
-problem NOT PROVABLE on this result; this page shows it open, because one side
+model, and as disproved by a refutation in ZFC alone. The site labeled the
+problem NOT PROVABLE on this result; this page showed it open, because one side
 alone leaves the question open. The site's commentary credits the consistency
 result to Komjáth alone; the paper is joint and attributes Theorem 3 to Komjáth.
 Erdős printed Taylor's conjecture, with the broader question about the families

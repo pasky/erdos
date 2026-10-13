@@ -32,12 +32,12 @@ $$
 
 (or perhaps even $>(\log n)^{-O(1)}$)?
 
-**Status.** The site labels the problem PROVED (LEAN). The Lean suffix refers to
-a formal proof by others, recorded on the Pommerenke claim page. This corpus has
-not built or audited that proof. The site credits the answer yes to Pommerenke
-[Po61]. He proves that the set contains a disk of radius $(2e)^{-1}n^{-2}$, so
-its area is at least a constant times $n^{-4}$. His paper is refereed in the
-Michigan Mathematical Journal, and its claim page is
+**Status.** The site labeled the problem PROVED (LEAN). The Lean suffix refers
+to a formal proof by others, recorded on the Pommerenke claim page. This corpus
+has not built or audited that proof. The site credits the answer yes to
+Pommerenke [Po61]. He proves that the set contains a disk of radius
+$(2e)^{-1}n^{-2}$, so its area is at least a constant times $n^{-4}$. His paper
+is refereed in the Michigan Mathematical Journal, and its claim page is
 [[problems/polynomials/E0116/claims/1961_01_01_pommerenke|Pommerenke 1961]]. The
 parenthetical stronger bound asks for an area of at least $(\log n)^{-O(1)}$.
 Krishnapur, Lundberg and Ramachandran [KLR25] prove it with exponent $1$, in a

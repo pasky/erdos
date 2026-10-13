@@ -62,9 +62,9 @@ The lower-bound construction is on the
 (printed pp. 301–302), which gives both the printed unit-circle form and the
 radius-$1/\sqrt2$ correction.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem proved on the
-problem's page at erdosproblems.com (page last edited 2025-10-16). The curator
-credits the result to this paper, in a strong form. That credit is the
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved on
+the problem's page at erdosproblems.com (page last edited 2025-10-16). The
+curator credits the result to this paper, in a strong form. That credit is the
 `reviewed` evidence. No journal publication was found on 2026-10-07. The arXiv
 record carries no journal reference, so the claim is not `refereed`.
 

@@ -25,7 +25,7 @@ updated: 2026-10-08T14:17:37Z
 graph with vertex set $\alpha$ then $G$ must have either an infinite path or
 independent set on a set of vertices with order type $\alpha$?
 
-**Status.** Open. The site labels the problem OPEN. It credits [EHM70] with
+**Status.** Open. The site labeled the problem OPEN. It credits [EHM70] with
 every limit $\alpha<\omega_1^{\omega+2}$, and [La90] with every limit
 $\alpha<2^{\aleph_0}$ under Martin's axiom. The site's commentary records that
 in [Er82e] Erdős offered a prize for the case $\alpha=\omega_1^{\omega+2}$ and a

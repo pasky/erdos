@@ -44,7 +44,7 @@ https://www.erdosproblems.com/1049.
 
 ## Current assessment
 
-The site labels Problem 1049 OPEN and credits Erdős with the integer case. Two
+The site labeled Problem 1049 OPEN and credits Erdős with the integer case. Two
 accepted partial claims, both refereed, settle part of the question:
 [[problems/irrationality/E1049/claims/1948_01_01_erdos|Erdős 1948]] proves
 irrationality for every integer $t\ge2$, and

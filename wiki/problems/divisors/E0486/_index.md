@@ -38,7 +38,7 @@ $$
 
 exists?
 
-**Status.** The site's label is OPEN (2026-10-06). The derived standing departs
+**Status.** The site's label was OPEN (2026-10-06). The derived standing departs
 from it: the problem is claimed as disproved. The reason is a 2026 manuscript of
 Wang, produced with GPT-5.6 Sol. It claims a disproof by a fixed delayed
 congruence system whose survivor set has no logarithmic density. The manuscript
@@ -79,7 +79,7 @@ catalog links a formal proof and does not referee it.
 
 ## Current assessment
 
-The site labels the problem OPEN (2026-10-06; commentary last edited 8 April
+The site labeled the problem OPEN (2026-10-06; commentary last edited 8 April
 2026), and the standing follows the claim pages. The outstanding claim is
 [[../library/integer_sequences/wang_2026_proposed_solution_erdos_problem_486/_index|Wang's 2026 manuscript]],
 titled a proposed solution, whose Theorem 1.1 constructs fixed infinite $A$

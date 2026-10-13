@@ -59,7 +59,7 @@ axiom audit or statement audit of the repository was made in this corpus.
 
 **Depends on.** Nothing in this wiki.
 
-**Standing.** A manuscript statement, pending: the site's label is OPEN (page
+**Standing.** A manuscript statement, pending: the site's label was OPEN (page
 last edited 7 October 2025), no referee report or arXiv record exists, and no
 outside reviewer has accepted the argument. The card's digest is
 author-recorded and is not an acceptance.

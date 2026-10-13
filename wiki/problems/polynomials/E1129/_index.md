@@ -44,7 +44,7 @@ endpoints: exactly one such system has an equioscillating Lebesgue function,
 and it alone minimizes the Lebesgue constant among them. The minimal value
 $\lambda^*$ is the same for free and canonical nodes.
 
-**Status.** The site labels the problem PROVED (page last edited 23 January
+**Status.** The site labeled the problem PROVED (page last edited 23 January
 2026, label accessed 2026-09-04). The community database at teorth/erdosproblems
 lists its status as proved (Lean) as of its last update on 2026-09-16. It points
 to a third-party Lean development described below. The question asks for a

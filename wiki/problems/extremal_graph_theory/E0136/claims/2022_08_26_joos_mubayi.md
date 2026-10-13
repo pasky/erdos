@@ -64,7 +64,7 @@ matching theorem is cited, not reproved.
 
 **Acceptance.** Refereed publication in the Proceedings of the American
 Mathematical Society, cited with its venue above. The site's curator, Thomas
-Bloom, marks the problem SOLVED. In the commentary the curator credits this
+Bloom, marked the problem SOLVED. In the commentary the curator credits this
 paper, under the reference [JoMu22], with a shorter proof of the asymptotic.
 That credit is the `reviewed` evidence, and Bloom took no part in the paper. The
 two independent proofs of the same asymptotic corroborate each other. No

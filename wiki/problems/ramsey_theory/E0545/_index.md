@@ -105,7 +105,7 @@ collection, as the thread records.
 
 **Status.** OPEN, the site's label (page last edited 2 December 2025). The label
 describes the corrected Statement. The site's commentary records that the
-displayed statement fails for small $m$, and the site keeps the label. The
+displayed statement fails for small $m$, and the site kept the label. The
 formal-conjectures statement takes all sufficiently large $m$. The one claim
 page, for the account LouisD's small-$m$ counterexamples, is rejected because it
 answers the site's wording, not the corrected Statement. So the frontmatter
@@ -168,7 +168,7 @@ September 2026 with no formal proof.
 ## Current assessment
 
 **The question (site formulation).** The statement above, false at $m=2$ and
-corrected to all sufficiently large $m$ (Notes); the site shows OPEN, the label
+corrected to all sufficiently large $m$ (Notes); the site showed OPEN, the label
 of the corrected Statement; last edited 2 December 2025. The commentary calls it
 a question of Erdős and Graham, says the weaker question whether
 $R(G)\le2^{O(m^{1/2})}$ is [[problems/ramsey_theory/E0546/_index|Problem 546]]

@@ -70,7 +70,7 @@ or checked the proof and claims no kernel credit.
 ## Current assessment
 
 **The question (site formulation).** The statement above;
-the site labels it PROVED (LEAN). The formal-conjectures docstring says Erdős
+the site labeled it PROVED (LEAN). The formal-conjectures docstring says Erdős
 credits the conjecture to himself and Burr in [Er82e], that Bollobás [Bo77]
 proved it, and that the best dependence of $c(P)$ is unknown. The discussion
 thread has four posts: one of 2026-05-24 announcing the Lean formalization, and

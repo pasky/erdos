@@ -62,8 +62,8 @@ year 1959 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
 Journal. The site's remarks credit the paper with the connected case, but the
-site labels the problem OPEN. So the curator's label settles neither the problem
-nor a part of it, and no `reviewed` evidence is listed. Nothing here is
+site labeled the problem OPEN. So the curator's label settles neither the
+problem nor a part of it, and no `reviewed` evidence is listed. Nothing here is
 independently reviewed by this project.
 
 **Depends on.** No page of this wiki. The proof rests on the cited paper and

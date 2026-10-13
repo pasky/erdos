@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:59Z
 $n$ such that $n-i$ divides $\binom{n}{k}$ for all but one $0\leq i<k$. Estimate
 $n_k$.
 
-**Status.** Open. The site's label is OPEN (page last edited 01 February 2026).
+**Status.** Open. The site's label was OPEN (page last edited 01 February 2026).
 
 The site's proof-claims tab (proof-claims thread accessed 2026-10-07) carries
 two partial proof claims by Ricky Cipollini. Both attribute the proof to the
@@ -37,7 +37,7 @@ The second, submitted 2026-08-04, is a lower bound of the shape
 $\log n_k\ge c(\log k)^2$. It is recorded on
 [[problems/integer_sequences/E1063/claims/2026_08_04_cipollini|its claim page]].
 Neither of Cipollini's claims settles the problem, and neither has acceptance
-evidence. The site's label is unchanged, and these claims are recorded without
+evidence. The site's label was unchanged, and these claims are recorded without
 being adopted.
 
 Two further upper bounds lie outside the tab. Patrick White's repository of 25

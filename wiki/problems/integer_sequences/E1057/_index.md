@@ -21,7 +21,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $C(x)$ count the number of Carmichael numbers in the interval
 $[1,x]$. Is it true that $C(x)=x^{1-o(1)}$?
 
-**Status.** Open. The site's label is OPEN, and no claim page is recorded.
+**Status.** Open. The site's label was OPEN, and no claim page is recorded.
 
 **Source.** [erdosproblems.com/1057](https://www.erdosproblems.com/1057),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1057,
@@ -56,7 +56,7 @@ https://www.erdosproblems.com/1057.
 ## Current assessment
 
 **Scope.** The question, status and literature are not assessed here: the
-page carries the site's label (OPEN) and its references,
+page carried the site's label (OPEN) and its references,
 and no status search is recorded. The only authored note is the one below.
 
 **Two release manuscripts on smooth shifted primes.** Two manuscripts of the

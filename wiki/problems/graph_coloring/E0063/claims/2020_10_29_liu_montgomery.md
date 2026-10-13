@@ -63,7 +63,7 @@ $2^n$ is infinite, the question as asked. The formal-conjectures catalog's
 statement file for the problem
 ([`FormalConjectures/ErdosProblems/63.lean`](https://github.com/google-deepmind/formal-conjectures/blob/385455575cd8231996f89b3dc5ddfeda40d9f1dc/FormalConjectures/ErdosProblems/63.lean),
 added 2026-09-09) is tagged research solved and, since 2026-09-18, points to
-that file as its formal proof, and the site's label is proved with a Lean
+that file as its formal proof, and the site's label was proved with a Lean
 qualifier. This corpus has not built the file, so it is a link, not
 `formalized` evidence.
 
@@ -76,7 +76,7 @@ of the powers of two, and de Bruijn and Erdős's compactness theorem,
 of *A colour problem for infinite graphs and a problem in the theory of
 relations*. No claim page of this wiki is a dependency.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, marks the problem
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, marked the problem
 proved and credits Zach Hunter with the deduction from Liu and Montgomery's
 Theorem 1.1. The theorem the deduction rests on is refereed (J. Amer. Math. Soc.
 **36** (2023), 1191–1234). But the problem's statement is not itself a theorem

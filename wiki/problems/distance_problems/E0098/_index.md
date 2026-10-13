@@ -24,7 +24,7 @@ updated: 2026-10-08T18:26:20Z
 three on a line and no four on a circle, determine at least $h(n)$ distinct
 distances. Does $h(n)/n\to \infty$?
 
-**Status.** Open. The site labels the problem OPEN (snapshot of 5 September
+**Status.** Open. The site labeled the problem OPEN (snapshot of 5 September
 2026). No result about the problem has been claimed, so it has no claim page and
 the frontmatter standing is open.
 
@@ -61,7 +61,7 @@ whether the fewest distinct distances $h(n)$ determined by $n$ points in the
 plane with no three on a line and no four on a circle satisfies
 $h(n)/n\to\infty$. The site reports that Erdős could not prove $h(n)\geq n$
 and records the upper constructions of Pach and of Erdős, Füredi, Pach and
-Ruzsa [EFPR93]. The site labels the problem OPEN, its proof-claims tab
+Ruzsa [EFPR93]. The site labeled the problem OPEN, its proof-claims tab
 carries no claim, and no forum claim, release manuscript or lead names the
 problem, so it has no claim page.
 

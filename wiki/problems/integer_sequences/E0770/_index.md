@@ -98,7 +98,7 @@ would be answered yes by Zeng's claimed bound below, taking any
 $\epsilon>1/2$; the first two questions are open under either reading, so
 the standing does not depend on the choice.
 
-**Status.** The site's label is OPEN (page last edited 24 September 2025). The
+**Status.** The site's label was OPEN (page last edited 24 September 2025). The
 standing derives from the claim pages. The only claim page,
 [[problems/integer_sequences/E0770/claims/2026_07_24_zeng|Zeng 2026]], is
 partial, so the problem's standing is open, with no pending full claim. The

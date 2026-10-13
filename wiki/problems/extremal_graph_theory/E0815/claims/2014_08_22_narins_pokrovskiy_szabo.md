@@ -76,15 +76,15 @@ Theorem 1.4 shows the graphs are pancyclic, as the problem page explains.
 **Acceptance.** `refereed`: Combinatorica is a refereed journal. The Crossref
 record of the DOI (2026-09-18) gives volume 37, issue 3, pages 495--519,
 published online 10 August 2016, which is the paper link's date. `reviewed`: the
-site's curator, Thomas Bloom, labels the problem DISPROVED and credits this
+site's curator, Thomas Bloom, labeled the problem DISPROVED and credits this
 paper with the disproof, by degree $3$-critical graphs of unbounded order
 without a $23$-cycle (the site's page on 2026-09-18, with an empty thread and an
 empty proof-claim tab). The curator is independent of the authors, and the
-site's label is the `discussion` link. The community database (2026-09-18) lists
-the problem as disproved, with a last update of 31 August 2025. A 2026
-Combinatorica paper of Di Braccio, Katsamaktsis, Ma, Malekshahian and Zhao
-builds on the result and restates the even case as open. Page numbers are those
-of the arXiv version, the only one, the edition on its
+`discussion` link is the site's page that showed the label. The community
+database (2026-09-18) lists the problem as disproved, with a last update of 31
+August 2025. A 2026 Combinatorica paper of Di Braccio, Katsamaktsis, Ma,
+Malekshahian and Zhao builds on the result and restates the even case as open.
+Page numbers are those of the arXiv version, the only one, the edition on its
 [[../library/extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/_index|source card]].
 Theorem 1.2, Theorem 1.3, Lemma 2.1 and the remarks of Section 6 were checked
 (pp. 3--4 and 21). No proof was read, and the journal text was not compared.

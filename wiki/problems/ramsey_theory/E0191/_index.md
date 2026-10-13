@@ -52,7 +52,7 @@ problem; in terms of the largest forced weight $f(n)$ it is an upper bound,
 $f(n)=O(\log\log\log n)$, a point a reader raised in the thread on 5 February
 2026.
 
-**Status.** Proved: the site labels the problem PROVED (LEAN). The answer is
+**Status.** Proved: the site labeled the problem PROVED (LEAN). The answer is
 yes. Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
 $f(n)\to\infty$, with $f(n)=\Omega(\log\log\log\log n/\log\log\log\log\log n)$.
 This is the rate both second-hand accounts give (under Rödl's results below).

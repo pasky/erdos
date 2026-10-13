@@ -39,7 +39,7 @@ $$
 \liminf \nu(r)=\infty?
 $$
 
-**Status.** The site labels the problem OPEN (page last edited 29 December
+**Status.** The site labeled the problem OPEN (page last edited 29 December
 2025). The derived standing is claimed, with the value answered. It departs from
 OPEN because a pending claim answers the second question, which the site's
 commentary records as open. Together with the pending affirmative answer to the

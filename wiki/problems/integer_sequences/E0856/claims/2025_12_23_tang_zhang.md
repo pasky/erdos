@@ -89,7 +89,7 @@ paper.
 leave open for every $k$.
 
 **Standing.** Claimed: the paper has an arXiv record only. The site's
-commentary credits the bounds to Tang and Zhang on a problem it labels OPEN;
+commentary credits the bounds to Tang and Zhang on a problem it labeled OPEN;
 that credit is commentary, not acceptance.
 
 **Depends on.** No page of this wiki.

@@ -45,7 +45,7 @@ credits. The corpus records it as the pending partial claim
 [[problems/arithmetic_functions/E0367/claims/2025_11_20_van_doorn|van Doorn 2025]].
 It records Hughes's sharpening of the rate as
 [[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes|Hughes 2026]].
-Both are `claimed`, since the site labels the problem OPEN and neither has a
+Both are `claimed`, since the site labeled the problem OPEN and neither has a
 refereed publication or Lean the corpus built.
 
 The first question is open unconditionally. Hughes's conditional yes, under a

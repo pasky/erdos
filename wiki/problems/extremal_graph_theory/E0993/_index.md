@@ -81,7 +81,7 @@ forests, and so the conjecture itself, open; the full claim of Zhang and Li
 covers every forest, in a manuscript whose authors said on 6 October 2026
 that they intend a shorter version. Neither has a referee or a named
 reviewer, and no build or review of either Lean development is recorded;
-the developments are described as their READMEs state them. The site labels
+the developments are described as their READMEs state them. The site labeled
 the problem FALSIFIABLE (2026-10-06), and the page adopts neither claim.
 
 ## Known Results

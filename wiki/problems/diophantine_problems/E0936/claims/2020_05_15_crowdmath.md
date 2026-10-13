@@ -48,5 +48,5 @@ claim gives no unconditional answer and settles no standing of the problem.
 the hypothesis stated above.
 
 **Acceptance.** None. The paper is an arXiv preprint, and no journal version was
-found. The site labels the problem OPEN, so the site's commentary crediting the
+found. The site labeled the problem OPEN, so the site's commentary crediting the
 paper is not acceptance.

@@ -27,8 +27,8 @@ f(z)\rvert\leq c\}$ has $m$ distinct connected components.
 
 Must all these components be convex?
 
-**Status.** DISPROVED (LEAN) on the site. Pommerenke's Theorem 14 of 1961 is the
-accepted disproof in the problem's exact terms
+**Status.** Labeled DISPROVED (LEAN) on the site. Pommerenke's Theorem 14 of
+1961 is the accepted disproof in the problem's exact terms
 ([[problems/analysis/E1047/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
 Its example is $z^p(z-a)$, whose closed sublevel set at level $1$ has two
 components, one of them not convex. Goodman's 1966 quartics, one with four

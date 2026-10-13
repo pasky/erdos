@@ -50,7 +50,7 @@ October 2008 (per the Crossref record of DOI 10.1016/j.disc.2007.08.103, created
 pages, announced the result in Doklady Akademii Nauk, also a refereed journal.
 
 Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
-labels the problem PROVED. The commentary credits the result to Green and
+labeled the problem PROVED. The commentary credits the result to Green and
 Sapozhenko independently. The commentary was accessed 2026-09-05 and 2026-10-07,
 and the discussion thread and the proof-claim tab were empty both times.
 

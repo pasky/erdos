@@ -44,7 +44,7 @@ with the circle. The definite question asks whether every entire function of
 finite order has such a path.
 
 **Status.** SOLVED, the site's label. The derived standing is solved, disproved.
-It records a disproof where the label says only SOLVED, because the problem's
+It records a disproof where the label said only SOLVED, because the problem's
 definite question asks whether every entire function of finite order has a path
 with $\ell(r)\ll r$, and the accepted full claims refute that. The site's
 commentary records a disproof by Gol'dberg and Eremenko

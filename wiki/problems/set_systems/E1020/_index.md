@@ -76,14 +76,15 @@ corrected Statement, since the values $n<kr$ are trivial. The formal-conjectures
 statement, as the Formalization paragraph records, assumes $0<k$ and
 $rk-1\le n$, which adds only the instance $n=rk-1$.
 
-**Status.** Open on the site, under the label FALSIFIABLE (page last edited 28
-December 2025). The site's commentary calls this the Erdős matching conjecture.
-It records the Erdős–Gallai theorem for $r=2$ [ErGa59]. Its parenthesis ties the
-Erdős–Ko–Rado theorem to $r=2$ as well, but that theorem gives the case $k=2$
-for every $r$. The commentary notes that two examples show the conjectured value
-cannot be raised: all $r$-sets of an $(rk-1)$-set, and all $r$-sets meeting a
-fixed $(k-1)$-set. It notes that the second term dominates once $n\ge(r+1)k$. It
-also records Frankl's bound $f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ [Fr87].
+**Status.** The site labeled the problem FALSIFIABLE, an open label (page last
+edited 28 December 2025). The site's commentary calls this the Erdős matching
+conjecture. It records the Erdős–Gallai theorem for $r=2$ [ErGa59]. Its
+parenthesis ties the Erdős–Ko–Rado theorem to $r=2$ as well, but that theorem
+gives the case $k=2$ for every $r$. The commentary notes that two examples show
+the conjectured value cannot be raised: all $r$-sets of an $(rk-1)$-set, and all
+$r$-sets meeting a fixed $(k-1)$-set. It notes that the second term dominates
+once $n\ge(r+1)k$. It also records Frankl's bound
+$f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ [Fr87].
 
 The commentary lists the ranges in which the conjecture is known. For small $n$,
 it holds trivially for $n<kr$, at $n=kr$ by Kleitman [Kl68], for

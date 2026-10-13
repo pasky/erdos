@@ -47,7 +47,7 @@ not been able to prove (2)" (printed p. 78), and again in 1970 as display
 could not prove (2)" (printed p. 136). The site's source keys are [Er69]
 and [Er70b].
 
-**Status.** The site's label is PROVED (LEAN) (page last edited 14 July 2026).
+**Status.** The site's label was PROVED (LEAN) (page last edited 14 July 2026).
 The standing derives from the claim page
 [[problems/integer_sequences/E0793/claims/2026_07_13_chojecki|Chojecki 2026]],
 an accepted full claim whose evidence is `reviewed`: the site's curator, Thomas

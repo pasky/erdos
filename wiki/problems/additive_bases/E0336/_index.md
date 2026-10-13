@@ -41,8 +41,8 @@ is exactly $r$; their own lower-bound construction for $g(r)$ is shown only to
 have order at most $r$ (their (19)). Since $g(r)\le h(r)$, a value of
 $\lim_r h(r)/r^2$ bounds only $\limsup_r g(r)/r^2$ for that variant.
 
-**Status.** Claimed. The site's label is OPEN (page last edited 2025-10-28). One
-pending full claim is recorded,
+**Status.** Claimed. The site's label was OPEN (page last edited 2025-10-28).
+One pending full claim is recorded,
 [[problems/additive_bases/E0336/claims/2026_07_15_snyder|Snyder's Lean proof
 that the limit is one third]]. It is a Lean 4 development, posted on 2026-07-15
 and entered the same day on the site's proof-claims thread. It states that the
@@ -94,7 +94,7 @@ The one pending claim is recorded at
 that the limit is one third]]: a full claim that the limit is $1/3$, posted
 2026-07-15 with a Lean 4 development, unreviewed, not built or audited in this
 corpus, and without a refereed publication, so the problem's standing is
-`claimed` and the site's label stays OPEN. If it holds, the matching upper
+`claimed` and the site's label stayed OPEN. If it holds, the matching upper
 bound $1/3$ is the new content; the lower bound is Grekos's.
 
 **Search scope (2026-10-07).** The account above rests on the site's problem

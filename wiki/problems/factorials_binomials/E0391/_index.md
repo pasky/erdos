@@ -43,7 +43,7 @@ $$
 
 for infinitely many $n$?
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Alexeev,
+**Status.** The site labeled the problem PROVED (LEAN), crediting Alexeev,
 Conway, Rosenfeld, Sutherland, Tao, Uhr and Ventullo with answering both
 questions. The standing derived from the claim pages is `solved`, `proved`, by
 the accepted claim
@@ -93,7 +93,7 @@ $t(n)/n=1/e-c_0/\log n+O(1/(\log n)^{1+c})$ with the explicit
 $c_0=0.30441901\ldots$, so the limit is $1/e$ and the deficit holds for every
 $c<c_0$ and all large $n$ (library card
 [[../library/factorials_binomials/alexeev_2025_decomposing_factorial_into_large_factors/_index|Alexeev and others 2025]]).
-The site's curator marks the problem proved on this paper, which Mathematics
+The site's curator marked the problem proved on this paper, which Mathematics
 of Computation has accepted (articles in press, DOI 10.1090/mcom/4249); the
 Lean formalization in Alexeev's repository has not been built here, so the
 acceptance rests on the curator's review and the journal's refereeing.

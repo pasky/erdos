@@ -31,7 +31,7 @@ the possible values of $f(n)$, for all sufficiently large $n$?
 
 **Notes.** The site's wording asks for the possible values of $f(n)$ for every
 $n$, as Grünbaum's question is stated in Erdős's 1972 paper (p. 23) and in
-Salamon and Erdős [ErSa88]. The site labels the problem SOLVED and its
+Salamon and Erdős [ErSa88]. The site labeled the problem SOLVED and its
 commentary says "Solved (for all sufficiently large $n$) completely by Erdős
 and Salamon [ErSa88]; the full description is too complicated to be given
 here". The curator's reading is the question for all sufficiently large $n$, and

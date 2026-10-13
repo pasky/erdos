@@ -51,7 +51,7 @@ settled by the accepted claim page
 of graphs*, Acta Math. Acad. Sci. Hungar. 10 (1959), no. 3--4, 337--356,
 doi:10.1007/BF02024498, a refereed journal. The publisher's record gives the
 issue month, September 1959, and this page's date is the first day of that
-month. No `reviewed` evidence is listed. The site's label credits GPT-6 Astra
+month. No `reviewed` evidence is listed. The site's label credited GPT-6 Astra
 with the full proof, and its commentary names Erdős and Gallai for the path case
 without a label of its own.
 

@@ -85,7 +85,7 @@ positive-coordinate step. The site's [Ma89] is Margulis's Oslo chapter; the
 Banach Center paper cited here is a distinct 1989 paper by the same author
 that states and proves the theorem the site credits.
 
-**Status.** The site, accessed 2026-09-04 and 2026-10-07, labels the problem
+**Status.** The site, accessed 2026-09-04, labeled the problem
 PROVED and credits the proof to Margulis [Ma89]. That label describes the
 corrected Statement, which Margulis's theorem settles. The result is recorded as
 [[problems/irrationality/E0496/claims/1989_01_01_margulis|an accepted full claim]],

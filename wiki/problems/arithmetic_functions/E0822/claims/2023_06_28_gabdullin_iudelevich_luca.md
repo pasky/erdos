@@ -70,8 +70,8 @@ project.
 published version of arXiv:2306.16035 (v1, 28 June 2023). Reviewed: a thread
 post of 2025-10-13 located the reference, and the site's curator, Thomas Bloom,
 adopted it. The remarks record the result as proved by the three authors, with
-the $\tau$ and $\omega$ analogues. The site labels the problem PROVED (page last
-edited 14 October 2025). Bloom is independent of the authors.
+the $\tau$ and $\omega$ analogues. The site labeled the problem PROVED (page
+last edited 14 October 2025). Bloom is independent of the authors.
 
 **Lean.** Not `formalized` evidence: this repository has not built,
 kernel-checked or audited the Lean development linked above. The file

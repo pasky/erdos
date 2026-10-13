@@ -67,7 +67,7 @@ ultrafilters collected in Section 2. None of these was checked here; the
   the site's question verbatim (a 2-coloring of $\mathbb N$, an infinite $A$
   with all of $A+A$ one color). The page records it as a pending full claim
   on its own claim page, from which the problem's standing (`claimed`,
-  `proved`) is derived; the site's label is OPEN, the
+  `proved`) is derived; the site's label was OPEN, the
   community database records the problem open, the formal-conjectures
   statement is `research open`, and no acceptance evidence for this
   preprint was found.

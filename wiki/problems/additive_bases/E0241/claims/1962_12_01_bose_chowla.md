@@ -49,5 +49,5 @@ $f(N)\le((7/2)^{1/3}+o(1))N^{1/3}$ [Gr01], which settles neither half.
 theory of numbers, Comment. Math. Helv. 37 (1962), no. 1, 141--147. The Crossref
 record gives the issue as December 1962 and no day, so the page is dated to the
 first day of that month. The site's commentary credits Bose and Chowla with one
-half of the asymptotic. But the site labels the problem OPEN, so that commentary
-is not review.
+half of the asymptotic. But the site labeled the problem OPEN, so that
+commentary is not review.

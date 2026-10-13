@@ -54,5 +54,5 @@ MAX-CUT for Ramsey arrowing of triangles*, J. Combin. Math. Combin. Comput. 88
 (2014), 61--71, as the
 [[../library/ramsey_theory/lange_2014_use_max_cut_ramsey_arrowing_triangles/_index|source card]]
 records it. The journal has no DOI, so the links go to the arXiv versions. The
-site's label rests on Folkman's existence proof, so the site's commentary
+site's label rested on Folkman's existence proof, so the site's commentary
 crediting this paper is not listed as evidence.

@@ -45,7 +45,7 @@ $1\le a\le n/2$. The formal-conjectures statement `erdos_65.parts.ii` keeps the
 site's wording, and the standing answers it; the claim page for the 2026
 preprint says how its edge-threshold theorem covers it.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 8 February
+**Status.** Open. The site labeled the problem OPEN (page last edited 8 February
 2026). The frontmatter standing is derived from the three claim pages under
 `claims/`, all partial, and the problem's two questions are its parts. The first
 question is settled. Gyárfás, Komlós and Szemerédi's refereed theorem gives

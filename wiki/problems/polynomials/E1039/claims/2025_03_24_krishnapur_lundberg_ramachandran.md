@@ -58,6 +58,6 @@ $\rho_n\gg1/n$; the order $1/n$ is the later claim on
 
 **Standing.** Claimed. The preprint is at its first arXiv version and no
 journal version is recorded, so no `refereed` is listed. The site's
-commentary credits the bound to the paper, cited as [KLR25], but labels the
+commentary credits the bound to the paper, cited as [KLR25], but labeled the
 problem OPEN, so the credit is not acceptance and no `reviewed` is listed.
 The proof is not verified by this corpus.

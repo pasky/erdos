@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T05:32:07Z
+updated: 2026-10-13T11:00:13Z
 ---
 
 # Sequences and Densities of Integers
@@ -326,8 +326,8 @@ of $1/e$.
 
 [[problems/integer_sequences/E0689/_index|E0689/]]: Asks whether, for large $n$,
 one residue class can be chosen for each prime $p\le n$ so that every integer in
-$[1,n]$ lies in at least two of them. It is open on the site, with three pending
-AI-assisted full claims from April and July 2026.
+$[1,n]$ lies in at least two of them. It was open on the site, with three
+pending AI-assisted full claims from April and July 2026.
 
 [[problems/integer_sequences/E0691/_index|E0691/]]: Asks for a necessary and
 sufficient condition on a set of positive integers for its set of multiples to

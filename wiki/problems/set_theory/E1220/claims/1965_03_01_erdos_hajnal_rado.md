@@ -71,7 +71,7 @@ and the two pages together settle the problem as independent of ZFC.
 **Acceptance.** Refereed: the result is a journal paper in the Acta Mathematica
 Academiae Scientiarum Hungaricae, volume 16, issue 1--2. The issue is dated
 March 1965 and carries no day, so this page's date is the first of that month.
-The site labels the problem OPEN, so no curator acceptance is listed. This page
+The site labeled the problem OPEN, so no curator acceptance is listed. This page
 states Theorem I and the steps of the proof of its part (iv) as the published
 paper prints them. The proofs of Lemma 4, Corollary 1 and Theorem 5 are not
 reviewed in this corpus.

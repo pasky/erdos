@@ -64,4 +64,4 @@ the proofs. The second arXiv version (7 December 2025) drops Theorems 7 and 8,
 keeps the construction as a remark that refers to the first version, and states
 the lower bound obtained from Konyagin's. The abstract of the published version,
 Acta Arith. 224 (2026), 173–195, no longer mentions squarefree sums, so no
-refereed version of these theorems is known. The site labels the problem OPEN.
+refereed version of these theorems is known. The site labeled the problem OPEN.

@@ -41,7 +41,7 @@ and the asymptotic statements below do not depend on the shift; where an
 exact inequality is quoted, its convention is named. The formal-conjectures
 statement uses the site's convention.
 
-**Status.** The site's label is PROVED (LEAN), and the Lean suffix is a catalog
+**Status.** The site's label was PROVED (LEAN), and the Lean suffix is a catalog
 label explained under Formalization. For every $a\ge1$ such a $b$ exists, and
 $b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$ for $a>1$,
 and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in van Doorn's

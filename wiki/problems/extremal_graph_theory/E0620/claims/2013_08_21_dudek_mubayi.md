@@ -54,4 +54,4 @@ the independence bound the argument applies.
 
 **Acceptance.** `refereed`: Journal of Graph Theory (published online 21 August
 2013). Shearer's input appeared in Random Structures Algorithms 7 (1995). The
-site labels the problem OPEN, so its commentary is not acceptance.
+site labeled the problem OPEN, so its commentary is not acceptance.

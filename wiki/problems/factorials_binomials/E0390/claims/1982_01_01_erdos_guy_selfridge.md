@@ -54,6 +54,6 @@ raises the lower constant.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None listed. The paper appeared in a proceedings volume, Congr.
-Numer. 34, with no evidence on record that it was refereed. The site labels the
+Numer. 34, with no evidence on record that it was refereed. The site labeled the
 problem OPEN (LEAN), so its remark crediting the result is commentary on an open
 problem and not acceptance. This corpus has not checked the proof.

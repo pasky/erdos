@@ -34,7 +34,7 @@ $$
 \limsup_{N\to \infty}\frac{\sum_{m\leq N}f(m)}{\sqrt{N\log\log N}}=c?
 $$
 
-**Status.** The site labels the problem OPEN. The derived standing is `solved`
+**Status.** The site labeled the problem OPEN. The derived standing is `solved`
 with the claim `disproved`. It rests on the self-contained Lean development
 submitted by Sigurd Høystad on 2026-08-04
 ([[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|claim page]]).
@@ -103,7 +103,7 @@ on `formalized` evidence: this corpus built the port of the claimant's Lean
 development in `plby/lean-proofs`, found the axioms of `not_erdos_520` and
 `normalized_tendsto_zero` to be the three standard ones, matched both to the
 repository's comparator challenge and audited their statements clause by clause
-against the Statement above. The site labels the problem OPEN; its proof-claims tab carries two full claims with no comments, and the community
+against the Statement above. The site labeled the problem OPEN; its proof-claims tab carries two full claims with no comments, and the community
 database records the problem open; the accepted claim has no review by the site
 and no refereed version. The three claims assert one theorem, an almost sure
 upper bound with the exponent $1/4+\varepsilon$ on the iterated logarithm, which
@@ -128,7 +128,7 @@ Results and on the claim pages under `claims/`.
 Accepted on formalized evidence, Høystad's Lean development: the
 formal-conjectures catalog tagged its statement of the problem `research solved`
 with a linked formal proof on 2026-09-18, crediting Høystad 2026, while the site
-labels the problem OPEN and the community database records it open. The linked
+labeled the problem OPEN and the community database records it open. The linked
 file, `src/latest/ErdosProblems/Erdos520.lean` in Boris Alexeev's repository
 `plby/lean-proofs`, is a 35-line wrapper whose header declares it a
 formalization by Høystad with GPT-5.6 Pro and Claude Fable 5 from the `v1.1.0`
@@ -165,7 +165,7 @@ The same bound, for both the Steinhaus and the Rademacher model, is the
 theorem of Durkan and Pearce-Crump's arXiv preprint of 2026-07-31, stated
 there as settling Harper's conjecture
 ([[problems/arithmetic_functions/E0520/claims/2026_07_31_durkan_pearce_crump|claim page]]).
-Both are pending; the site labels the problem OPEN.
+Both are pending; the site labeled the problem OPEN.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

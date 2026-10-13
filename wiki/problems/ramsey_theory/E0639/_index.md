@@ -70,7 +70,7 @@ Keevash and Sudakov (p. 42) cite the item as "Problem 10" and read that
 sentence as Erdős suggesting "that generalizations of this result should be
 possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
 
-**Status.** The site shows PROVED (LEAN), a label that describes the corrected
+**Status.** The site showed PROVED (LEAN), a label that describes the corrected
 Statement. The suffix is a catalog label explained under Formalization, and no
 local kernel credit is claimed. The corrected Statement is **proved**. The claim
 page

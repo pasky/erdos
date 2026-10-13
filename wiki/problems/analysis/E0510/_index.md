@@ -79,7 +79,7 @@ https://www.erdosproblems.com/510.
 
 **The question (site formulation).** Chowla's cosine problem: whether an
 absolute $c>0$ exists such that every finite $A\subset\mathbb Z$ of size $N$ has
-some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$. The site labels the
+some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$. The site labeled the
 problem OPEN (page last edited 28 September 2025); the site's wording fails at
 the sets $\{0\}$ and $\{0,a\}$, as the Notes above record, and the corrected
 Statement for sets of positive integers is the question the literature studies.

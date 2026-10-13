@@ -37,7 +37,7 @@ $$
 \lim_{n\to \infty}\lvert \{ \alpha\in (0,1): f(\alpha,n)\leq c\}\rvert=g(c)?
 $$
 
-**Status.** The site labels the problem OPEN (proof-claims thread of
+**Status.** The site labeled the problem OPEN (proof-claims thread of
 2026-10-07). This page departs from the site's label and records the problem as
 proved. The reason is that this corpus built and audited a port of Wang's Lean
 proof, whose two main theorems answer the site's question yes and pin the Cauchy
@@ -71,7 +71,7 @@ Lean development are linked from their claim pages; neither was built here.
 
 ## Current assessment
 
-The site labels Problem 1002 OPEN (accessed 2026-09-04; proof-claims thread
+The site labeled Problem 1002 OPEN (accessed 2026-09-04; proof-claims thread
 of 2026-10-07). This corpus accepts the answer yes, with the centered Cauchy
 law of scale $1/(2\pi)$ as the limit, on Wang's claim: the port of its Lean
 proof that this corpus built proves both the existence of an asymptotic
@@ -97,7 +97,7 @@ its axioms and its statement against the site's wording, and read Kwon's
 manuscript without finding a fatal error. A Lean formalization of Kwon's
 proof, co-authored with that report's authors, followed in September 2026.
 The claim pages record the statements, the links and the limits of this
-evidence: the site labels the problem OPEN, no curator comment exists and
+evidence: the site labeled the problem OPEN, no curator comment exists and
 nothing is refereed; this corpus built a port of Wang's Lean development
 and not Kwon's, which stays a pending full claim.
 

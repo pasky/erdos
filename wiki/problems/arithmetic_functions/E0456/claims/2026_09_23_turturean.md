@@ -105,6 +105,6 @@ audit of the repository was made in this corpus.
 [[problems/arithmetic_functions/E0456/claims/2026_05_04_turturean|the earlier manuscript]].
 
 **Standing.** A manuscript statement, pending, with no formalization of its own:
-the site's label is OPEN (page last edited 7 October 2025), the proof-claims tab
-carries this one full claim with no comments, no referee report or arXiv record
-exists, and no outside reviewer has accepted the argument.
+the site's label was OPEN (page last edited 7 October 2025), the proof-claims
+tab carries this one full claim with no comments, no referee report or arXiv
+record exists, and no outside reviewer has accepted the argument.

@@ -94,7 +94,7 @@ GPT-5.5 Pro in a prover-verifier framework, that the first complete AI-generated
 proof was obtained on 11 July 2026, and that the authors then verified, revised
 and simplified it and identified attributions. The submitter's notes ask the
 community about norms for announcing AI-assisted proofs, and the claim's one
-comment records the move to the repository. The site's label is unchanged
+comment records the move to the repository. The site's label was unchanged
 (OPEN), no reviewer is named and nothing is refereed, so the claim stays
 claimed. The two other claims of the same infimum are
 [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]] and

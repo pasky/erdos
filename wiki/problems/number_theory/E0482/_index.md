@@ -47,7 +47,7 @@ which p. 144 shows equal to the shifted form the site prints, and Stoll's
 paragraph is a
 request, not a proposition: it names no class of recurrences and no
 criterion for "similar", so it has no truth value and admits no proof or
-disproof, which is why the site's label is SOLVED rather than PROVED and why
+disproof, which is why the site's label was SOLVED rather than PROVED and why
 the site's commentary describes the statement as open-ended. The site's source is
 [ErGr80, p. 96]; the monograph's passage poses it as "a very
 unconventional problem" and closes "It seems clear that there must
@@ -236,7 +236,7 @@ $2r\sqrt2-2\lfloor r\sqrt2\rfloor$ according to whether
 $m=\lfloor r(1+1/\sqrt2)\rfloor$ or $m=\lfloor r(1+\sqrt2)\rfloor$ (Beatty's
 theorem), unifying the Borwein--Bailey examples for $1\le m\le10$; $m=1$
 gives $w=\sqrt2$ (checked here). Acceptance: both papers are refereed
-publications (J. Integer Seq.; Acta Arith.), and the site's label rests on
+publications (J. Integer Seq.; Acta Arith.), and the site's label rested on
 them. Read depth: claims checked for Fact 1, Theorems 1.2, 1.3, 3.1, 3.3,
 3.4 and Corollaries 1.1, 1.2, 3.2, 3.5; the inductive proofs were followed
 for structure and not checked; nothing is independently reviewed.

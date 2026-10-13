@@ -47,7 +47,7 @@ triangle-free completion of diameter at most two cannot have diameter one,
 since it would then be a complete graph containing a triangle, and the
 question is asymptotic in $n$. No result about the site's wording is recorded.
 
-**Status.** PROVED (LEAN). The site's label credits Alon's note with the
+**Status.** PROVED (LEAN). The site's label credited Alon's note with the
 solution. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0618/claims/2024_07_01_alon|Alon's theorem]],
 whose acceptance evidence is the site's own. The standing judges the corrected

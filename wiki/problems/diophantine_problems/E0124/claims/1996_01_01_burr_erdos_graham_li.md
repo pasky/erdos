@@ -57,7 +57,7 @@ proved the conjecture for $\{3,4,7\}$; the result covers only $k=1$.
 
 **Acceptance.** Refereed: Acta Arithmetica 77 (1996), no. 2, 133--138. The
 site's commentary (page last edited 1 December 2025) credits the $\{3,4,7\}$
-case to this paper. The site labels the problem OPEN, however, so no `reviewed`
+case to this paper. The site labeled the problem OPEN, however, so no `reviewed`
 evidence is listed. The formal-conjectures statement file for the problem states
 the $\{3,4,7\}$ case at $k=1$ as `erdos124.ne_zero_three_four_seven`. It marks
 that statement `research solved` and credits it to this paper, but gives no

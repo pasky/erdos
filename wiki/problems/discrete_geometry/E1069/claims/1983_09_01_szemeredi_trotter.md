@@ -53,7 +53,7 @@ and Erdős and records this proof.
 **Acceptance.** The paper is refereed: E. Szemerédi and W. T. Trotter, Jr.,
 Extremal problems in discrete geometry, Combinatorica 3 (1983), no. 3-4,
 381–392. The page is dated to the issue month, September 1983, which the
-publisher's record gives. Thomas Bloom, the site's curator, marks the problem
+publisher's record gives. Thomas Bloom, the site's curator, marked the problem
 solved and credits this paper on the problem's page at erdosproblems.com (page
 last edited 2025-10-02). That credit is the `reviewed` evidence. No Lean proof
 is recorded.

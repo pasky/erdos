@@ -71,5 +71,5 @@ reference [3], not held), used as the note describes it.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0743/_index|Problem 743]]: the published
-  frontier of the finite check behind the site's FALSIFIABLE label is
+  frontier of the finite check behind the site's FALSIFIABLE label was
   $n\le11$; the cases $n\le9$ are Fishburn's, and $n=12$ has, only an unreviewed forum computation.

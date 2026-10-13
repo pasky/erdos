@@ -54,7 +54,7 @@ absolute $c>0$, gave a single power above one and not every power.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels the problem
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
 proved and credits the proof to Kelley and Meka, citing [KeMe23] (page last
 edited 20 December 2025). The page's discussion thread and proof-claim tab were
 empty on 2026-10-07. In addition, Bloom and Sisask, two named experts on the

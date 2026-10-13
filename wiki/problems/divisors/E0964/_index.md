@@ -30,7 +30,7 @@ $$
 
 everywhere dense in $(0,\infty)$?
 
-**Status.** Proved. The site labels the problem `PROVED (LEAN)` and credits
+**Status.** Proved. The site labeled the problem `PROVED (LEAN)` and credits
 Eberhard's proof, which answers the question affirmatively. The accepted claim
 is recorded on
 [[problems/divisors/E0964/claims/2025_04_27_eberhard|Eberhard's claim page]].

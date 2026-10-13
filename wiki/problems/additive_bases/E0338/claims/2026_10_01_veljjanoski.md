@@ -121,7 +121,7 @@ existence part of White's classification, recorded at
 [[problems/additive_bases/E0338/claims/2026_07_28_white|White 2026]].
 
 **Standing.** Claimed. The proof-claim entry of 2026-10-01 has no comments
-and the site's label is OPEN (page last edited 2025-09-14); no named
+and the site's label was OPEN (page last edited 2025-09-14); no named
 mathematician has examined the write-up, there is no refereed publication and
 no Lean development. The author reports not having
 found the theorem in the literature, while noting that three recent papers on

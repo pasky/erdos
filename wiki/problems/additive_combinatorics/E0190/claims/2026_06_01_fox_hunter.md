@@ -57,7 +57,7 @@ as an independent resolution.
 **Depends on.** No page of this wiki: the proof is self-contained in the
 preprint apart from the published results it cites.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels Problem 190
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled Problem 190
 solved. In the commentary last edited 2026-06-02, the curator states the bound
 $H(k)\ge k^{(1-o(1))k\log k}$ as Fox and Hunter's. In a discussion-thread post
 of 2026-09-14, Bae acknowledges that Fox and Hunter obtained the stronger bound.

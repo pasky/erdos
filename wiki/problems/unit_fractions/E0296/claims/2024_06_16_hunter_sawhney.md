@@ -74,7 +74,7 @@ thanks to Zachary Hunter and Mehtaab Sawhney, and the label SOLVED. So the
 remark predates that date, and that date dates this page. The site's revision
 history begins only with a version of 20 October 2025 and records no finer date.
 
-The site's curator, Thomas Bloom, labels the problem proved on the strength of
+The site's curator, Thomas Bloom, labeled the problem proved on the strength of
 the estimate and credits the observation to Hunter and Sawhney. The curator is
 not one of them, and that credit is the `reviewed` evidence. The curator is the
 author of Theorem 3, which is refereed, but the deduction itself is unpublished,

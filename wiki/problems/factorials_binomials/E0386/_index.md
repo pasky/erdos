@@ -29,7 +29,7 @@ $$
 \binom{21}{2}=2\cdot 3\cdot 5\cdot 7.
 $$
 
-**Status.** Open. The site labels the problem OPEN and credits no solution. The
+**Status.** Open. The site labeled the problem OPEN and credits no solution. The
 standing derives from the claim pages: the problem is `open`, with no settling
 or pending full claim. There are two pending partial claims.
 [[problems/factorials_binomials/E0386/claims/2026_09_29_martins|Martins 2026]]

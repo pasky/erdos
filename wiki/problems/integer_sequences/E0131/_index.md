@@ -43,9 +43,10 @@ Problem 13 is the two-summand relative with the summands larger than the
 divisor; here the summands may be smaller than $a$ and any number of them
 is allowed.
 
-**Status.** Open on the site, for the estimate: the label OPEN attaches to the
-estimate. The estimate carries one pending full claim, $F(N)=N^{1/5+o(1)}$. It
-was submitted to the site's proof-claim tab on 24 July 2026 and is recorded on
+**Status.** Labeled open on the site, for the estimate: the label OPEN attaches
+to the estimate. The estimate carries one pending full claim,
+$F(N)=N^{1/5+o(1)}$. It was submitted to the site's proof-claim tab on 24 July
+2026 and is recorded on
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
 The site has not examined it, and it is unreviewed. The frontmatter standing
 `claimed` derives from this claim and certifies nothing.

@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Is there an absolute constant $c>0$ such that, for all $1\leq k<
 n$, the binomial coefficient $\binom{n}{k}$ has a divisor in $(cn,n]$?
 
-**Status.** The site labels the problem SOLVED, crediting Bui, Naprienko, Pratt
+**Status.** The site labeled the problem SOLVED, crediting Bui, Naprienko, Pratt
 and Zaharescu with the negative answer. The standing derived from the claim
 pages is `solved`, `disproved`. By the accepted claim
 [[problems/factorials_binomials/E0387/claims/2026_06_30_bui_naprienko_pratt_zaharescu|Bui, Naprienko, Pratt and Zaharescu 2026]],

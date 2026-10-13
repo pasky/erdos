@@ -256,7 +256,7 @@ not a refereed publication, and this page relies on the theorem at the
 standing its claim page records: the claim page
 [[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] of
 [[problems/ramsey_theory/E0183/_index|Problem 183]] records the bound as
-accepted, reviewed by the site's curator, who labels that problem SOLVED
+accepted, reviewed by the site's curator, who labeled that problem SOLVED
 (LEAN) and credits the result, and through Rob Morris's exposition hosted
 on the site, from an unrefereed report. It refutes the conjecture
 $R_k(K_3)\le C^k$ that the site's commentary on this problem still records

@@ -64,7 +64,7 @@ lower bound, whose construction the proof of Theorem 3.4 cites.
 genus and girth, Trans. Amer. Math. Soc. 349 (1997), no. 11, 4555–4564. The
 issue is dated November 1997, and this page carries the first of that month
 because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
-marks Problem 759 solved on the problem page and credits Gimbel and Thomassen
+marked Problem 759 solved on the problem page and credits Gimbel and Thomassen
 [GiTh97].
 
 **Formalizations.** Two Lean 4 developments declare themselves

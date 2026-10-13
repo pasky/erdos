@@ -49,7 +49,7 @@ The theorem is deduced from the paper's addition theorem for subsums
 is not covered.
 
 **Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
-Thomas Bloom, who is independent of the author, labels the problem PROVED
+Thomas Bloom, who is independent of the author, labeled the problem PROVED
 (LEAN). The commentary credits this paper with Selfridge's conjecture for prime
 $N$. The erratum has not been compared with the arXiv version.
 

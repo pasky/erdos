@@ -39,7 +39,7 @@ as last changed on 18 September 2026, likewise asks whether the ratio tends to
 infinity. Read as asking for a finite limit, the question is answered no by
 their Theorem 1.
 
-**Status.** The site labels the problem OPEN.
+**Status.** The site labeled the problem OPEN.
 [[problems/divisors/E0893/claims/2025_06_05_kovac_luca|Kovač and Luca's unboundedness theorem]]
 rules out every finite limit. Divergence to infinity is proved only under
 unproven conjectures. That result is on
@@ -62,7 +62,7 @@ https://www.erdosproblems.com/893.
 
 ## Current assessment
 
-The site labels the problem OPEN. Under the formulation above, the open
+The site labeled the problem OPEN. Under the formulation above, the open
 question is whether $f(2n)/f(n)\to\infty$. Kovač and Luca
 ([[../library/divisors/kovac_2025_number_divisors_mersenne_numbers/_index|card]])
 prove the ratios unbounded, which rules out every finite limit

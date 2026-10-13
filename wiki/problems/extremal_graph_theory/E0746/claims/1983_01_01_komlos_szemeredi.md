@@ -67,7 +67,7 @@ Korshunov's 1985 comment calls this paper an independent solution.
 **Acceptance.** Refereed: Discrete Mathematics 43 (1983), no. 1, per the
 publisher's Crossref record. Reviewed: Erdős cites the paper, then "to appear",
 as settling the conjecture in his 1981 Combinatorica paper (Part VIII) and in
-his 1982 Singapore paper (§ 1). The site's curator, Thomas Bloom, labels the
+his 1982 Singapore paper (§ 1). The site's curator, Thomas Bloom, labeled the
 problem proved and records the limit law in the problem's commentary. Frieze's
 2021 bibliography records the paper. Theorems 1 and 2 are taken as printed, and
 the proof (§§ 1--2) for structure only. The equivalence of the two random-graph

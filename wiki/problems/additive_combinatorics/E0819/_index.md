@@ -41,8 +41,8 @@ removing $o(N^{1/2})$ elements from a set of $O(N^{1/2})$ loses $o(N)$
 sums (a one-line step made here). [Er91] is not held, so the problem's
 original wording is known here only as the site states it.
 
-**Status.** Open. The site labels the problem OPEN. Its commentary credits Erdős
-and Freud [ErFr91] (J. Number Theory 38 (1991) 196--205, refereed) with
+**Status.** Open. The site labeled the problem OPEN. Its commentary credits
+Erdős and Freud [ErFr91] (J. Number Theory 38 (1991) 196--205, refereed) with
 $(\tfrac38-o(1))N\le f(N)\le(\tfrac12+o(1))N$. It ties the problem to how large
 a quasi-Sidon set can be, [[problems/additive_bases/E0840/_index|Problem 840]].
 
@@ -71,7 +71,7 @@ search whose scope the Current assessment records. This is a bounded negative
 finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/819](https://www.erdosproblems.com/819),
-accessed 2026-09-18 and 2026-10-07: the problem page (labeled
+accessed 2026-09-18: the problem page (labeled
 OPEN, with the site's note that the problem cannot be settled by a finite
 computation; no last-edited date; source key [Er91]; commentary citing
 [ErFr91] and Problem 840; a

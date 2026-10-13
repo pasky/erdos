@@ -27,7 +27,7 @@ cardinal of $2^{\aleph_0}$. Can one colour the countable subsets of $m$ using
 $\kappa$ many colours so that every $X\subseteq m$ with $\lvert X\rvert=\kappa$
 contains subsets of all possible colours?
 
-**Status.** Open. The site labels the problem OPEN, with no commentary and no
+**Status.** Open. The site labeled the problem OPEN, with no commentary and no
 proof claim. The results posted on its discussion thread and outside the site
 are recorded in the Current assessment and on the claim pages.
 

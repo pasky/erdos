@@ -74,7 +74,7 @@ file was added on 2026-08-17 and the link pins the last commit that touched it
 at its path. The file's text at that commit contains no `sorry`. This corpus has
 not built or audited the file, so the page lists no `formalized` evidence.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem proved and
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved and
 credits this paper for the finiteness. The page lists this as `reviewed`. The
 paper is B. Brindza and P. Erdős, On some diophantine problems involving powers
 and factorials, J. Austral. Math. Soc. Ser. A 51 (1991), no. 1, 1--7. It

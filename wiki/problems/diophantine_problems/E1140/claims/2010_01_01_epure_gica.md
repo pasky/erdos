@@ -69,7 +69,7 @@ a numbered theorem with a written proof; the finiteness conclusion is what the
 site accepts.
 
 **Acceptance.** Refereed: Bull. Math. Soc. Sci. Math. Roumanie 53(101), no. 3
-(2010). Reviewed: the site's curator, Thomas Bloom, labels the problem
+(2010). Reviewed: the site's curator, Thomas Bloom, labeled the problem
 disproved. The curator credits Theorem 4.1 of Epure and Gica for the residue
 class $1\pmod 4$, and their remark with the Mollin–Williams result for the class
 $3\pmod 4$. The problem page was last edited 2026-01-26, and the community

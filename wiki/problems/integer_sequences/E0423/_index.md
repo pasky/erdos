@@ -25,7 +25,7 @@ updated: 2026-10-07T23:33:05Z
 least integer $>a_{k-1}$ which is the sum of at least two consecutive terms of
 the sequence. What is the asymptotic behaviour of this sequence?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 23 March
+**Status.** Open. The site labeled the problem OPEN (page last edited 23 March
 2026). It credits Bolan and Tang [Ta26], independently, with the sequence
 omitting infinitely many integers. It credits Tang with the bounds
 $n+\Omega(\log\log n)\le a_n\ll n^{688/413+o(1)}$. The exponent $688/413$ is
@@ -80,7 +80,7 @@ infinitely many positive integers, was proved independently by Tang (note of
 integer); the two claim pages record the results. The conjecture of Erdős and
 Hegyvári that convex sets satisfy $|A-A|\ge|A|^{2-o(1)}$ would give
 $a_n\le n^{1+o(1)}$, and the site and Tang's paper expect $a_n=n+o(n)$;
-neither is proved. None of the results is refereed, and the site's label is
+neither is proved. None of the results is refereed, and the site's label was
 OPEN, so both claims are pending. The formal-conjectures statement file
 (linked at its commit in the Formalization line) marks the main statement
 $a_n=n+o(n)$ research open and five variants research solved: the

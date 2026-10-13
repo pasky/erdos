@@ -59,7 +59,7 @@ which supplies the matching lower half $d_r(3)\ge3r-3$.
 **Acceptance.** Refereed publication in Graphs and Combinatorics. The
 publisher's record gives volume 2, issue 1, pp. 113--121, issued December 1986
 with no day recorded, so this page is dated the issue's first day. The site
-labels the problem OPEN, so its commentary crediting the theorem with
+labeled the problem OPEN, so its commentary crediting the theorem with
 $d_r(3)=3r-3$ is not listed as `reviewed` evidence. The text cited is the scan
 in the Rényi Institute's Erdős archive,
 https://users.renyi.hu/~p_erdos/1986-17.pdf. This claim is partial, so the

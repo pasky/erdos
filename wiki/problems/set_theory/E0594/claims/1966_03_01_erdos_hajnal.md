@@ -62,7 +62,7 @@ day, so this page carries the first day of that month as a placeholder.
 refereed journal article, but it states the result without proof and no
 proof of this case was published, so `refereed` does not apply to the
 result; the site's remark crediting Erdős and Hajnal with the case of
-chromatic number at least $\aleph_2$ is a credit on a problem the site labels
+chromatic number at least $\aleph_2$ is a credit on a problem the site labeled
 PROVED (LEAN) for the full theorem of Erdős, Hajnal and Shelah, not an
 acceptance of this unpublished case, so `reviewed` is not listed. Nothing is
 independently reviewed here.

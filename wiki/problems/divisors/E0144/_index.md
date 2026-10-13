@@ -69,7 +69,7 @@ restated in 1970, has its own page,
 withdrawn, and the Maier and Tenenbaum page records the sharpness. Guy's
 collection discusses the problem as E3.
 
-The site's label carries a Lean qualification: the community database records
+The site's label carried a Lean qualification: the community database records
 that the resolution is formalized while no formal-conjectures statement file
 exists; the Lean proof lives in Boris Alexeev's repository and is linked from
 the claim page. The file is third-party Lean that this corpus has not built,

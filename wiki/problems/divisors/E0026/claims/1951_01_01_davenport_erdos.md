@@ -66,11 +66,11 @@ which Erdős and Tenenbaum asked. An explicit construction with the same effect,
 and the formalization the site records, is on the claim page
 [[problems/divisors/E0026/claims/1995_01_01_ruzsa|Ruzsa's counterexample]].
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved and
-credits the Davenport--Erdős theorem for the negative answer. The page lists
+**Acceptance.** The site's curator, T. F. Bloom, marked the problem disproved
+and credits the Davenport--Erdős theorem for the negative answer. The page lists
 this as `reviewed`. The paper is H. Davenport and P. Erdős, On sequences of
 positive integers, J. Indian Math. Soc. (N.S.) 15 (1951), 19--24. It appeared in
-a refereed journal and is listed as `refereed`. The site's label carries a Lean
+a refereed journal and is listed as `refereed`. The site's label carried a Lean
 qualification. The Lean file it refers to formalizes Ruzsa's construction as its
 own statement. For the formal-conjectures variant, the file proves the
 convergent-sum disproof for the set $\{2^{2^n}\}$ by a direct union bound on the

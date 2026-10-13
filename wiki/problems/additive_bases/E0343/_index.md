@@ -58,7 +58,7 @@ Graham's monograph [ErGr80], p. 54, asks Folkman's question for a
 nondecreasing sequence with $s_n<cn$ "for some $c$ and all $n$", and Folkman's
 own closing question ([Fo66], p. 655) is whether $a_n\le Mn$ for all $n$
 forces subcompleteness; in both the constant may depend on the sequence. The
-site labels the problem PROVED and its commentary says that "the original
+site labeled the problem PROVED and its commentary says that "the original
 question was answered by Szemerédi and Vu [SzVu06] (who proved that the answer
 is yes)"; its thread has no comments. The curator's reading is therefore the
 statement Szemerédi and Vu prove, which they state as Folkman's conjecture
@@ -88,7 +88,7 @@ as `erdos_343_eventual` with the explicit constant $C=512F^2$,
 $F=200000\cdot200^{49}$; this corpus has not built it, so it gives no
 `formalized` evidence. Unread: Section 6 of [ErGr80] beyond p. 54.
 
-**Status.** The site labels the problem PROVED (LEAN) (page last edited
+**Status.** The site labeled the problem PROVED (LEAN) (page last edited
 2025-12-02), and the label describes the corrected Statement. The community
 database has listed it as proved (Lean) since its commit of 2026-09-26. Folkman
 [Fo66] proved the case of counting function $\gg N^{1+\epsilon}$ and showed that

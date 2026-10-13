@@ -81,11 +81,11 @@ for large $N$ even when $f$ varies with $N$. The site's commentary gives this
 transfer and names Theorem 2; the paper itself never mentions the product
 question, and the deduction carries no independent review. The site's
 curator agrees that [ERS73] answers both questions no in this reading and
-keeps the problem OPEN until the distinct-factor reading is settled
+kept the problem OPEN until the distinct-factor reading is settled
 ([forum post 4060](https://www.erdosproblems.com/forum/thread/786#post-4060),
 2 February 2026).
 
-**Status.** The site labels the problem OPEN (page last edited 11 April 2026;
+**Status.** The site labeled the problem OPEN (page last edited 11 April 2026;
 proof-claim tab accessed 2026-10-06). That label describes the distinct-factor
 reading as unsettled. The standing derives from the claim pages and judges the
 Statement (precise). The full claim
@@ -164,7 +164,7 @@ logarithmic density at most $1/2$ for an admissible infinite set. Gessel's
 note says that Erdős's 1980 survey reports a stronger unpublished negative
 result of Ruzsa in this setting, and Li's note says that the survey reports
 Ruzsa as having shown both answers negative there, with no proof published;
-neither claims priority. The site's label is OPEN, no comment has been posted
+neither claims priority. The site's label was OPEN, no comment has been posted
 on either claim, and neither manuscript nor either Lean development has been
 reviewed in this corpus.
 

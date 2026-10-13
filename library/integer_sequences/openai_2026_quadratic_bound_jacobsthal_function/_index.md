@@ -94,7 +94,7 @@ verification covers Problem 970's displayed question, whether $h(k)\ll k^2$,
 answered yes: one absolute $C>0$ gives $h(k)\le Ck^2$ for every $k\ge1$,
 where $h$ counts $n$ by distinct prime factors and a block of consecutive
 integers may start at any integer; the order-of-magnitude question, which
-carries the OPEN label, is not settled. The record is kept on the claim page
+carried the OPEN label, is not settled. The record is kept on the claim page
 of [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]], not on
 this card. The declaration states a bound for $h(k)$ alone: no bound for
 $Y(x)$ or $S(k)$ is a declaration of the release, and

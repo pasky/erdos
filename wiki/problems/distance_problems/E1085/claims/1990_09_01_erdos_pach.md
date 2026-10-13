@@ -60,7 +60,7 @@ points on a two-sphere.
 
 **Acceptance.** Refereed: P. Erdős and J. Pach, Variations on the theme of
 repeated distances, Combinatorica 10 (1990), no. 3, 261–269. Not reviewed: the
-site's remarks credit this result to the paper, but the site labels the problem
+site's remarks credit this result to the paper, but the site labeled the problem
 OPEN, so the remark is not an acceptance of the problem or of a part. The
 statement is taken from the site's remarks and from the introduction of [Sw09].
 The paper has no library card.

@@ -46,7 +46,7 @@ question the label answers; the first is answered only by the bounds
 below, and the belief recorded by the site and the monograph, that
 $n^{2+\delta}\epsilon(n)\to\infty$ for every $\delta>0$, is open.
 
-**Status.** Proved. The site's label is PROVED (LEAN). Lim and Steinerberger's
+**Status.** Proved. The site's label was PROVED (LEAN). Lim and Steinerberger's
 Theorem 1 (Mathematika 71 (2025), no. 2, e70009; refereed) gives, for every
 $c>0$, infinitely many pairs $(m,n)$ with $1\le\sum_{\ell=n}^m1/\ell\le1+c/n^2$.
 For such a pair the minimal $m(n)$ is at most $m$, so $\epsilon(n)\le c/n^2$.

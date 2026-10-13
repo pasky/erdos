@@ -43,9 +43,10 @@ related
 question with $k$ separated intervals of length at least $2$ summing to
 exactly $1$ is [[problems/unit_fractions/E0289/_index|Problem 289]].
 
-**Status.** Open on the site: the label is OPEN, with no last-edited date shown.
-The site marks the problem as not resolvable by a finite computation. The
-standing derived from the claim pages is open, claim none. The one claim page,
+**Status.** Labeled open on the site: the label was OPEN, with no last-edited
+date shown. The site marked the problem as not resolvable by a finite
+computation. The standing derived from the claim pages is open, claim none. The
+one claim page,
 [[problems/unit_fractions/E0288/claims/2026_05_03_nayak|Nayak's note on the intersecting case]],
 is a pending partial claim. It claims that the pairs of intersecting intervals
 with an integer sum are exactly four small pairs. No claim settles or pends on
@@ -89,7 +90,7 @@ build of the file is recorded.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks the statement above, shows
+**The question.** On 2026-09-17 the site asks the statement above, showed
 OPEN, marked as not resolvable by a finite computation, cites [ErGr80],
 lists no proof exposition and no proof claim, and gives the example and the
 two remarks recorded under Formulation.

@@ -26,7 +26,7 @@ updated: 2026-10-07T10:49:42Z
 coloured with $k$ colours so that every four-term arithmetic progression must
 contain at least three distinct colours. Estimate $h(N)$.
 
-**Status.** Open. The site's label is OPEN (page last edited 2 December 2025).
+**Status.** Open. The site's label was OPEN (page last edited 2 December 2025).
 Its commentary records two upper bounds. The first is $h(N)\ll N^{2/3}$, from a
 MathOverflow answer. The second is $h(N)\ll N^{\log3/\log22+o(1)}$, an exponent
 of about $0.355$. The site credits this bound to Hunter's comment, and the

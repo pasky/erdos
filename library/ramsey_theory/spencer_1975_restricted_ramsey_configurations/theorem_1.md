@@ -75,5 +75,5 @@ positional games, Trans. Amer. Math. Soc. 106 (1963), 222--229; the paper's
 - [[../wiki/problems/ramsey_theory/E0966/_index|Problem 966]]: with $c=r$ the theorem is the
   problem's statement (a set with no non-trivial arithmetic progression of
   length $k+1$ every $r$-coloring of which has a monochromatic non-trivial
-  arithmetic progression of length $k$); the site's label rests on this theorem
+  arithmetic progression of length $k$); the site's label rested on this theorem
   together with an external Lean proof recorded on the problem page.

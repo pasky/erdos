@@ -43,7 +43,7 @@ https://www.erdosproblems.com/385.
 
 **Open; no result decides either question.** The site formulation above asks
 whether $F(n)>n$ for all large $n$ and whether $F(n)-n\to\infty$; the site
-labels the problem OPEN. Its commentary records that Erdős, Eggleton and
+labeled the problem OPEN. Its commentary records that Erdős, Eggleton and
 Selfridge wrote that plausible conjectures on primes imply $F(n)\leq n$ for
 only finitely many $n$, that $F(n)$ may always be at least
 $n+(1-o(1))\sqrt n$, and that $F(n)\leq n+\sqrt n$ trivially. The elementary

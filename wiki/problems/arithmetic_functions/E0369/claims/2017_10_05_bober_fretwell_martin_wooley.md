@@ -65,7 +65,7 @@ which gives infinitely many $n$. The source card is
 
 **Acceptance.** Published in J. Aust. Math. Soc. 108 (2020), no. 2, 245–261, a
 refereed journal, online 2019-02-01 in the publisher's record (`refereed`). The
-arXiv posting of 2017-10-05 dates this page. The site's curator labels the
+arXiv posting of 2017-10-05 dates this page. The site's curator labeled the
 problem PROVED (LEAN). In the problem's commentary (page last edited
 2026-04-28), the curator credits the paper's main result with the stronger
 statement above (`reviewed`). The Lean proofs linked by formal-conjectures

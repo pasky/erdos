@@ -36,7 +36,7 @@ as $n\to \infty$?
 
 In general, estimate $f(k,n)$, particularly when $\pi(n)+1<k=o(n)$.
 
-**Status.** Open. The site's label is OPEN. A disproof of the first
+**Status.** Open. The site's label was OPEN. A disproof of the first
 question, posted in the thread on 30 April 2026, is pending
 ([[problems/integer_sequences/E0983/claims/2026_04_30_price|claim page]]).
 

@@ -69,7 +69,7 @@ The library card
 digests the paper.
 
 **Acceptance.** Refereed publication: Adv. Math. 298 (2016), 534--580,
-doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labels the
+doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labeled the
 problem disproved and credits Morris and Saxton [MoSa16] with exactly this
 statement. The thread and the proof-claim tab were empty on 2026-10-07 (page
 last edited 2026-01-23). The text cited is arXiv:1309.2927v3 (11 November 2015;

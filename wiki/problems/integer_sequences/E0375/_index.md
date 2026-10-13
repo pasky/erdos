@@ -25,8 +25,8 @@ updated: 2026-10-07T21:33:46Z
 composite then there are distinct primes $p_1,\ldots,p_k$ such that $p_i\mid
 n+i$ for $1\leq i\leq k$?
 
-**Status.** Falsifiable: the site's label (page last edited 24 January 2026,
-accessed 2026-10-07). The question is open, with no proof and no counterexample
+**Status.** Falsifiable: the site's label (page last edited 24 January 2026).
+The question is open, with no proof and no counterexample
 recorded. The label is explained in a body note under Current assessment.
 
 **Source.** [erdosproblems.com/375](https://www.erdosproblems.com/375), accessed
@@ -59,7 +59,7 @@ https://www.erdosproblems.com/375.
 comments as of 2026-10-07), the two sources with library cards named under
 References, [Gu04] and [LaSh06], and the papers of the claim pages; no wider
 literature search has been made. The site's label is a body note, not a claim:
-the problem is marked falsifiable because a counterexample, a run of
+the problem was marked falsifiable because a counterexample, a run of
 composites $n+1,\ldots,n+k$ whose terms admit no system of distinct prime
 divisors, would be a finite check, while a proof would not; no counterexample
 and no proof is recorded. Three refereed partial results have claim pages,

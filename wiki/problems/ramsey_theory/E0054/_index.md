@@ -199,7 +199,7 @@ order is $\log^2n$ and what remains is the constant factor. Method (p. 3): the
 upper bound rests on Lemma 2.8, a density statement that a random sequence of
 $C\epsilon^{-1}\log x$ elements of $[x,2x)$ without small prime factors has a
 long interval of subset sums inside any subset of size $C\log x$, concatenated
-over the dyadic intervals. Acceptance evidence: the site's curator labels the
+over the dyadic intervals. Acceptance evidence: the site's curator labeled the
 problem SOLVED and credits the resolution to the paper in the commentary (28
 October 2025), a documented acceptance by a reader independent of the authors;
 the arXiv listing shows v1 only and no journal reference, and a Crossref

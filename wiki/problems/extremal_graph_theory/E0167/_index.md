@@ -4,7 +4,7 @@ title: Problem 167
 desc: |
   Asks whether a graph with at most $k$ edge-disjoint triangles can be made
   triangle-free by deleting at most $2k$ edges (Tuza's conjecture). It is open,
-  the site's label is falsifiable, and Haxell's $66/23$ is the best refereed
+  the site's label was falsifiable, and Haxell's $66/23$ is the best refereed
   constant.
 tags:
 - Graph theory
@@ -38,7 +38,7 @@ $\nu=2$, $\tau=4$ (recomputed on the origin's result page). A single graph with
 $\tau>2\nu$ would answer no, which is what the site's label FALSIFIABLE records:
 the problem is open, and one finite counterexample would settle it.
 
-**Status.** Falsifiable. The site labels the problem FALSIFIABLE: it is open,
+**Status.** Falsifiable. The site labeled the problem FALSIFIABLE: it is open,
 and a single finite counterexample would disprove it. The label is a note on an
 open problem, not a claim. No proof claim on the statement for every graph is
 recorded on the site or found elsewhere. No proof, disproof or proof claim for

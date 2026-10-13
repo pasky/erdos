@@ -58,8 +58,9 @@ records the summation and the passage to infinite chromatic number.
 
 **Acceptance.** Refereed: the paper appeared in J. Amer. Math. Soc. **36**
 (2023), 1191–1234, after its first posting as arXiv:2010.15802 on 2020-10-29.
-Reviewed: Thomas Bloom, the site's curator, marks the problem proved and credits
-the solution to Liu and Montgomery. The site's label adds a Lean qualification.
+Reviewed: Thomas Bloom, the site's curator, marked the problem proved and
+credits the solution to Liu and Montgomery. The site's label adds a Lean
+qualification.
 
 The Lean 4 file linked above, in Boris Alexeev's repository of Lean proofs,
 declares itself a formalization of a solution to the problem. It names Erdős,

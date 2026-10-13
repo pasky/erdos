@@ -63,7 +63,7 @@ prime. It is unproved, so the claim gives no unconditional answer; the
 unconditional content is only that (A) and (B) cannot both hold.
 
 **Acceptance.** The result is refereed in Acta Arithmetica 25. The symposium
-volume is not counted as refereed. The site's commentary on a problem it labels
+volume is not counted as refereed. The site's commentary on a problem it labeled
 open is not acceptance. The page is dated by the year of the site's key, the
 symposium paper of 1973.
 

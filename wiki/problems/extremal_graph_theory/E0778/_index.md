@@ -35,7 +35,7 @@ Alice's, then does Bob have a winning strategy for $n>3$?
 Finally, consider the game when Alice wins if the maximum degree of the red
 subgraph is larger than the maximum degree of the blue subgraph. Who wins?
 
-**Status.** Open. The site's label is OPEN. Two claims are recorded, and the
+**Status.** Open. The site's label was OPEN. Two claims are recorded, and the
 frontmatter standing is derived from the claim pages. Didin and Pimenov's
 potential argument, on
 [[problems/extremal_graph_theory/E0778/claims/2026_08_05_didin_pimenov|its claim page]],

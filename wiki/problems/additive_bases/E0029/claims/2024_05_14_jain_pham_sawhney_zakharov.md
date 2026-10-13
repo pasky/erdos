@@ -63,7 +63,7 @@ polynomial-time membership, the sense the authors adopt.
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
 The `reviewed` evidence is the documented acceptance by the catalog
 erdosproblems.com. Its page for the problem (last edited 28 December 2025, the
-`discussion` link) carries the label PROVED (LEAN), and its curator, Thomas
+`discussion` link) carried the label PROVED (LEAN), and its curator, Thomas
 Bloom, credits these authors with the explicit construction. The
 formal-conjectures catalog tags its statement `erdos_29` as `research solved`
 with `answer(True)` and links the Lean proof below.

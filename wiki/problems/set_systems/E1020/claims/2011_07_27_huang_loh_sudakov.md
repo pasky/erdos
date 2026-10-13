@@ -60,6 +60,6 @@ and to order $rk$ on
 **Acceptance.** Refereed: the paper appeared in Combinatorics, Probability and
 Computing 21 (2012), no. 3, 442–450, after its first posting as arXiv:1107.5544
 on 2011-07-27. The site's commentary credits the range to the paper as [HLS12].
-The site labels the problem FALSIFIABLE, an open label, so this commentary is
+The site labeled the problem FALSIFIABLE, an open label, so this commentary is
 not acceptance and no `reviewed` is listed. Nothing here rests on this project's
 own review.

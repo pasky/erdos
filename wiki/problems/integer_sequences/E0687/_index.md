@@ -306,21 +306,22 @@ and says the further factor $L_2$ comes from combining the ideas with [FGKMT18];
 it remarks that the ideas are elementary and could have been found decades ago.
 Acceptance evidence: the site's commentary edit of 31 August 2026 and the
 maintainer's exposition; no refereed publication, arXiv version or independent
-review of the argument was found on 2026-09-18, and the label stays OPEN because
-the bound is an estimate, not a resolution. Provenance: the site names the model
-on this page and on Problem 4; the manuscript's author line is the model's name;
-the human contributor is the account named above. This page records the
-improvement as the site's account of an AI-generated bound and keeps [FGKMT18]'s
-(1.2) as the bound in hand from a refereed source. The claim was posted on
-Problem 4, not here, and a lower bound settles neither displayed question, so it
-has no claim page on this problem. A second item on the Problem 4 tab (as of
-2026-09-05) postdates this page's last edit: a full-proof claim submitted 4
-September 2026 by the account BorisAlexeev with OpenAI named as claimant, using
-a model of that organization, announcing an improvement of the largest prime gap
-by about a factor $\log\log n$ over Rankin's bound, with a main input about
-translates of a set $S\subseteq[1,H]$, $x<H\le x(\log x)^2$, $|S|\le\delta x$,
-and a manuscript, an abridged reasoning transcript and a repository linked;
-whether it yields a bound for $Y(x)$ is not determined on this page.
+review of the argument was found on 2026-09-18, and the label stayed OPEN
+because the bound is an estimate, not a resolution. Provenance: the site names
+the model on this page and on Problem 4; the manuscript's author line is the
+model's name; the human contributor is the account named above. This page
+records the improvement as the site's account of an AI-generated bound and keeps
+[FGKMT18]'s (1.2) as the bound in hand from a refereed source. The claim was
+posted on Problem 4, not here, and a lower bound settles neither displayed
+question, so it has no claim page on this problem. A second item on the Problem
+4 tab (as of 2026-09-05) postdates this page's last edit: a full-proof claim
+submitted 4 September 2026 by the account BorisAlexeev with OpenAI named as
+claimant, using a model of that organization, announcing an improvement of the
+largest prime gap by about a factor $\log\log n$ over Rankin's bound, with a
+main input about translates of a set $S\subseteq[1,H]$, $x<H\le x(\log x)^2$,
+$|S|\le\delta x$, and a manuscript, an abridged reasoning transcript and a
+repository linked; whether it yields a bound for $Y(x)$ is not determined on
+this page.
 
 **Bounds map.** From refereed and attested sources,
 $x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the accepted partial claim of 25

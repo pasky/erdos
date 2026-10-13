@@ -74,7 +74,7 @@ posts are forum comments, not a dated manuscript, so they have no claim page
 of their own and are recorded here; the OEIS entry A389479 lists the
 sequence of values.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem proved and
+**Acceptance.** The site's curator, T. F. Bloom, labeled the problem proved and
 credits this paper with the first proof. That documented acceptance is the
 `reviewed` evidence. The paper is a preprint, so `refereed` is not listed.
 

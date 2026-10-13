@@ -122,7 +122,7 @@ are the claimants' result formalized, so they are links on this page and not
 claims of their own. The corpus has built neither, so no `formalized` evidence
 is listed.
 
-**Standing.** The preprint is unrefereed; the site's label is unchanged, its
+**Standing.** The preprint is unrefereed; the site's label was unchanged, its
 page was last edited on 22 January 2026 and the tab shows no comment on the
 entry as of 2026-10-07; the site's thanks to Varga on the problem page is
 not an acceptance of the result. No outside review is recorded, and the

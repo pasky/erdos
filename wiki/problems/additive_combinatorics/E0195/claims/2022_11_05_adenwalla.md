@@ -52,5 +52,5 @@ It supersedes the bound $k\le5$ of
 
 **Acceptance.** Refereed: Discrete Mathematics 347 (2024), no. 11, Paper
 No. 114183, doi:10.1016/j.disc.2024.114183. The site's commentary credits
-the bound to [Ad22], but the site labels the problem OPEN, so the credit is
+the bound to [Ad22], but the site labeled the problem OPEN, so the credit is
 not listed as `reviewed`.

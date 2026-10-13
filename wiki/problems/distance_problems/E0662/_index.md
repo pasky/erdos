@@ -64,7 +64,7 @@ compares the distances below the $n$th lattice distance $t_n$ with $f(t_n)$,
 and the repaired questions under Known Results are variants with their own
 answers.
 
-The site labels the problem OPEN, and its commentary says the wording,
+The site labeled the problem OPEN, and its commentary says the wording,
 essentially verbatim from [Er97e] p. 532, "does not make sense as written;
 there must be at least one typo", invites suggestions about what it intends,
 and calls the stronger shell conjecture it quotes "nonsense interpreted
@@ -96,7 +96,7 @@ than $12$ neighbors below $\sqrt3-\epsilon$, which the write-up proves. If the
 curator adopts a form, or [Er97e] is read and prints one that differs from the
 site's wording, the page takes the steps again on that form.
 
-**Status.** The site labels the problem OPEN and credits no result. This page
+**Status.** The site labeled the problem OPEN and credits no result. This page
 departs from that label. Its frontmatter standing derives from two pending full
 claims that refute the wording. The Formulation explains the departure:
 following the label would state as open a wording refuted under every counting

@@ -42,7 +42,7 @@ Selfridge's conjecture (1976; monograph p. 95; Balandraud's Theorem 9): the
 largest zero-sum free subset of $\mathbb Z/p\mathbb Z$ has $k$ elements where
 $k$ is the greatest integer with $k(k+1)/2<p$.
 
-**Status.** The site's label is PROVED (LEAN). The standing derives from the
+**Status.** The site's label was PROVED (LEAN). The standing derives from the
 claim page
 [[problems/integer_sequences/E0540/claims/1969_05_15_szemeredi|Szemerédi's theorem]],
 accepted on the refereed publication and the site's acceptance, so the problem

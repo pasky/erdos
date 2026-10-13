@@ -61,7 +61,7 @@ and the relation with $3$ is undecided.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Pure and Applied
-Logic, volume 161. The site labels the problem OPEN. Its commentary credits
+Logic, volume 161. The site labeled the problem OPEN. Its commentary credits
 Schipperus, but credit on an open problem is not an acceptance, so no `reviewed`
 evidence is listed.
 

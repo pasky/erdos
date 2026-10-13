@@ -34,7 +34,7 @@ dates the question to 1985, when Erdős asked it of the young Terence Tao, whose
 recollection and a letter of Erdős describing the problem the site acknowledges;
 Nguyen and Vu date it to 1986.
 
-**Status.** Solved. The site's curator, Thomas Bloom, labels the problem SOLVED
+**Status.** Solved. The site's curator, Thomas Bloom, labeled the problem SOLVED
 and credits Nguyen and Vu, describing the problem as solved in essence. The
 Formulation above records the reading under which the label attaches to the
 order of magnitude. The claim page
@@ -50,7 +50,7 @@ bound by a corrected route (see the claim page). The site points to
 [[problems/integer_sequences/E0438/_index|Problem 438]] as related.
 
 **Source.** [erdosproblems.com/587](https://www.erdosproblems.com/587), accessed
-2026-09-04 and 2026-10-07 (label SOLVED; last edited 27 October 2025; source
+2026-09-04 (label SOLVED; last edited 27 October 2025; source
 keys [Er89] and [NgVu10]; formalized statement indicated; OEIS A372040; no
 comments and no proof claims). Cite as: T. F. Bloom, Erdős Problem #587,
 https://www.erdosproblems.com/587, accessed 2026-10-07.
@@ -83,7 +83,7 @@ the claim pages record it.
 ## Current assessment
 
 The target is the site's formulation (accessed 2026-09-04; page last edited 27
-October 2025), read as the Formulation above records. The site labels the
+October 2025), read as the Formulation above records. The site labeled the
 problem SOLVED and credits Nguyen and Vu; the problem stands solved and answered
 on the [[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|Nguyen and
 Vu claim page]], whose evidence is the curator's credit. Nothing on this page is

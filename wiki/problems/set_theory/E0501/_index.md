@@ -35,8 +35,8 @@ Must there exist an infinite independent set, that is, some infinite $X\subseteq
 If the sets $A_x$ are closed and have measure $<1$, then must there exist an
 independent set of size $3$?
 
-**Status.** The site labels the problem NOT DISPROVABLE. This label composes the
-outcomes of the two questions by the catalog's rule (the strongest status
+**Status.** The site labeled the problem NOT DISPROVABLE. This label composes
+the outcomes of the two questions by the catalog's rule (the strongest status
 holding of every part). The two questions have different outcomes.
 
 The frontmatter lists the two questions as the problem's parts. Each is settled
@@ -148,7 +148,7 @@ in this corpus; details on the [Gla26] card.
 above, unchanged on the site's revision history since at least 2025-10-20 and
 identical to its LaTeX source; origin keys [Er61] (Problem II.9 of Erdős's 1961
 list) and [ErHa71] (Problem 38 (B) and (C) of the Erdős–Hajnal list). The site's
-label is NOT DISPROVABLE. Its commentary says that under the assumptions of the
+label was NOT DISPROVABLE. Its commentary says that under the assumptions of the
 second question Gładysz [Gl62] found an independent pair and [NPS87] an infinite
 independent set, and, for the first question, lists [ErHa60] (arbitrarily large
 finite independent sets), [He72] (no, under CH), [NPS87] (yes, when all $A_x$

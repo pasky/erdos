@@ -92,7 +92,7 @@ disclosed here and gets no page of its own.
 
 **Standing.** An arXiv preprint (v1 of 2025-04-10) with no journal reference on
 its arXiv record and no formalization; the site's commentary reports the result
-but labels the problem OPEN (page last edited 28 October 2025; the later claim
+but labeled the problem OPEN (page last edited 28 October 2025; the later claim
 carries no comments), and the community database notes a partial $r=2$ result
 without changing the problem's open status, so no acceptance evidence is listed
 and the claim stays claimed.

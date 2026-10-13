@@ -51,7 +51,7 @@ two*, Adv. Comb. (2022), Paper No. 9, 10 pp., doi:10.19086/aic.2022.9, a
 refereed journal. First posting: arXiv:2203.03375, with v1 on 7 March 2022 (the
 date this page is named by) and v2 on 13 December 2022. No `reviewed` evidence
 is listed. The site's commentary lists these exponents among the Turán exponents
-known before 2026 and credits the paper. But the site's label credits GPT-6
+known before 2026 and credits the paper. But the site's label credited GPT-6
 Astra with the full proof, and it is not an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the

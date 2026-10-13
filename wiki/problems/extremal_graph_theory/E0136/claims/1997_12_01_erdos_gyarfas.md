@@ -63,8 +63,8 @@ page]]).
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in Combinatorica, cited with its venue
-above. Reviewed: the site's curator, Thomas Bloom, labels the problem SOLVED and
-in the commentary credits the bounds $\frac56(n-1)<f(n)<n$ and $f(9)=8$ to Erdős
-and Gyárfás. Bloom took no part in the paper. Bennett, Cushman, Dudek and
+above. Reviewed: the site's curator, Thomas Bloom, labeled the problem SOLVED
+and in the commentary credits the bounds $\frac56(n-1)<f(n)<n$ and $f(9)=8$ to
+Erdős and Gyárfás. Bloom took no part in the paper. Bennett, Cushman, Dudek and
 Prałat, and also Joos and Mubayi, each take the lower bound from this paper. No
 proof step was checked by this corpus.

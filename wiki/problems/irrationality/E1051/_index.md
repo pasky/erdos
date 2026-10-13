@@ -35,7 +35,7 @@ $$
 
 is irrational?
 
-**Status.** The site labels the problem PROVED (LEAN) (page last edited
+**Status.** The site labeled the problem PROVED (LEAN) (page last edited
 2026-02-01). Its remarks credit the affirmative answer to the agent Aletheia, as
 written up in [Fe26]. They credit the extension to the sharp golden-ratio growth
 rate to [BKKKZ26]. Both are accepted claims, on the acceptance of the site's

@@ -27,7 +27,7 @@ contain no subset of size $k$ with the same pairwise least common multiple.
 
 Estimate $f_k(N)$.
 
-**Status.** Open. The site's label is OPEN (page last edited 18 January 2026).
+**Status.** Open. The site's label was OPEN (page last edited 18 January 2026).
 The standing in the frontmatter is open. It derives from the pending partial
 claims, since no full claim is recorded. Four pending partial claims are
 recorded. Two of them bound $f_k(N)$ without determining its order. The first is

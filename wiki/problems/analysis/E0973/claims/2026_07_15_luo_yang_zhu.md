@@ -75,7 +75,7 @@ Pro" as the AI used:
 write-up; the tab names GPT 5.6 Sol Pro, and the claim's notes say that
 generative AI assisted the exploratory stage and that the authors then rewrote
 the proof. The arXiv preprint followed on 24 July 2026 and lists no journal
-reference. The site's label is unchanged (OPEN; page last
+reference. The site's label was unchanged (OPEN; page last
 edited 23 January 2026, before the claim) and its commentary does not name the
 authors, so no reviewer is named and the claim stays claimed. The
 formal-conjectures statement file for the problem marks it research solved with

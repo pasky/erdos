@@ -36,11 +36,11 @@ $$
 
 for all $1\leq i\leq m$?
 
-**Status.** Open on erdosproblems.com (label OPEN; page last edited 18 January
-2026). No unconditional result settles the question. The site records the
-question as Erdős and Larson's. It also records Erdős's wider question: find the
-slowest-growing $h$ such that, for all large $n$, some pairwise balanced design
-has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and Larson [ErLa82] reach
+**Status.** Labeled open on erdosproblems.com (label OPEN; page last edited 18
+January 2026). No unconditional result settles the question. The site records
+the question as Erdős and Larson's. It also records Erdős's wider question: find
+the slowest-growing $h$ such that, for all large $n$, some pairwise balanced
+design has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and Larson [ErLa82] reach
 $h(n)\ll n^{1/2-c}$ for some $c>0$, and $h(n)\ll(\log n)^2$ under a Cramér-type
 bound on prime gaps. Shrikhande and Singhi [ShSi85] embed every large design
 with blocks of size at least $n^{1/2}-c$ in a projective plane. So the answer is

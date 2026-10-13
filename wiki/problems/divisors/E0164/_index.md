@@ -67,7 +67,7 @@ second paper addresses the related problems
 [[problems/divisors/E1196/_index|Problem 1196]] and
 [[problems/divisors/E1217/_index|Problem 1217]].
 
-The site's label carries a Lean qualification: the formal-conjectures
+The site's label carried a Lean qualification: the formal-conjectures
 statement file names as its formal proof a Lean file in Boris Alexeev's
 repository, which formalizes a variant of the second proof and is linked from
 that claim page. The file is third-party Lean that this corpus has not built,

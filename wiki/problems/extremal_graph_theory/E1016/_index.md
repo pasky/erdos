@@ -51,7 +51,7 @@ lower bound can be raised from $\log_2n+O(1)$ to $\log_2n+\log_*n-O(1)$; the
 site's commentary quotes Erdős's weaker unproved statement
 $h(n)-\log_2n\to\infty$.
 
-**Status.** The site labels the problem OPEN. The derived standing, claimed,
+**Status.** The site labeled the problem OPEN. The derived standing, claimed,
 proved, departs from the site's OPEN only by counting one pending full proof
 claim, which no outside review has accepted. The standing becomes solved, proved
 if the claim is accepted. The claim is a proof-claim tab entry of 2026-09-24
@@ -91,9 +91,9 @@ accessed 2026-09-18: the problem page (OPEN, with the site's note that no
 finite computation can settle it; last edited 27 December 2025; source key
 [Er71]; commentary citing [Bo71], [Gr13], [GKW16]; OEIS A105206 linked), its
 one-comment discussion thread (18 October 2025) and its proof-claim tab,
-empty on that date. The site's page, shows OPEN, last
-edited 27 December 2025, and one proof claim with one comment on its
-proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1016,
+empty on that date. The site's page showed OPEN and was
+last edited 27 December 2025, and its proof-claim tab held one proof claim
+with one comment. Cite as: T. F. Bloom, Erdős Problem #1016,
 https://www.erdosproblems.com/1016, accessed 2026-10-07.
 
 **References.**
@@ -363,7 +363,7 @@ comment of 2026-09-26 replaced the first write-up by a shorter one with a
 smaller formalization. The claim, its postings, its Lean statement and its
 standing are recorded on
 [[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|the claim page]]
-as claimed: the site's label is unchanged (OPEN; page last edited 27 December
+as claimed: the site's label was unchanged (OPEN; page last edited 27 December
 2025), the entry has no comment but the author's, nothing is refereed or
 reviewed, and nothing was built or checked in this corpus. If it stands, it answers the
 displayed question yes and proves Bondy's upper bound, closing gaps (2) and

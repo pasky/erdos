@@ -54,7 +54,7 @@ year 1959 alone, and the page is named by the record's date.
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
 Journal. The site's commentary, by its curator T. F. Bloom, records the answer
 to the stated question as yes, with the center of the disc at the centroid of
-the roots, and credits this paper. The site labels the problem DISPROVED. That
+the roots, and credits this paper. The site labeled the problem DISPROVED. That
 label contradicts the answer and names no result. For that reason the curator's
 credit is not counted as review, and the page departs from the site's label. The
 only refutation the commentary reports is of a different conjecture from the

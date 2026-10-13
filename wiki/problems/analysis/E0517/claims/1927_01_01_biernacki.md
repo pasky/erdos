@@ -57,5 +57,5 @@ answer, and those of infinite order remain open.
 stronger statement in a refereed journal, but no evidence that the
 Bulletin of the Polish Academy or the Comptes Rendus refereed Biernacki's
 publications is recorded, so `refereed` is not listed. The site credits the
-theorem in its commentary on a problem it labels OPEN, which is not
+theorem in its commentary on a problem it labeled OPEN, which is not
 acceptance of a solution, so `reviewed` is not listed either.

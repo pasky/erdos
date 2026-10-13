@@ -35,9 +35,9 @@ acceptance of Price's argument needs this reading. Price's argument gives
 lower density at least $1-\epsilon$; it does not show that the density
 exists.
 
-**Status.** Proved. The answer is yes. The site's curator, Thomas Bloom, labels
+**Status.** Proved. The answer is yes. The site's curator, Thomas Bloom, labeled
 the problem PROVED and credits the solution to Price (page last edited 2 April
-2026, accessed 2026-09-05 and 2026-10-07; five comments, no proof claim, no
+2026, accessed 2026-09-05; five comments, no proof claim, no
 exposition). Price posted an argument generated with GPT-5.2 Pro in the site's
 thread on 5 February 2026. It is a sieve count of the representations $2^k+m$
 with $m$ free of primes in $(z,x^{1/t}]$ for large constants $z,t$. The

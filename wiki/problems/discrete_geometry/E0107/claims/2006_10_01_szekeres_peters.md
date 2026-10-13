@@ -52,7 +52,7 @@ for the lower bound $f(6)\ge17$; the upper bound $f(6)\le17$ is the paper's
 own.
 
 **Acceptance.** Refereed: the paper appeared in The ANZIAM Journal, a
-journal. The paper is not among the site's references, and the site labels
+journal. The paper is not among the site's references, and the site labeled
 the problem FALSIFIABLE, which settles nothing, so no `reviewed` evidence is
 listed. The computer search has not been rerun in this corpus.
 

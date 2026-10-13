@@ -65,6 +65,6 @@ open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is refereed. It appeared in Combinatorica, volume 1
-(1981). The site labels the problem OPEN. Its remark (page last edited 10 April
+(1981). The site labeled the problem OPEN. Its remark (page last edited 10 April
 2026) credits Frankl and Wilson with the exponential growth. A remark on an open
 problem is not an acceptance, so no `reviewed` evidence is listed.

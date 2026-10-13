@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0689
 title: Problem 689
 desc: |
   Asks whether, for large $n$, one residue class can be chosen for each prime
-  $p\le n$ so that every integer in $[1,n]$ lies in at least two of them. It is
+  $p\le n$ so that every integer in $[1,n]$ lies in at least two of them. It was
   open on the site, with three pending AI-assisted full claims from April and
   July 2026.
 tags:
@@ -47,14 +47,14 @@ question for large $n$. Whether the classes are chosen for every prime up
 to $n$ or only some does not matter, since an unused prime can take any
 class; the count is of classes containing the integer.
 
-**Status.** Open on the site, with pending full claims. The frontmatter standing
-`claimed`/`proved` derives from those claims, while the site keeps the label
-OPEN. Its maintainer wrote in the thread on 2 June 2026 that two full-solution
-claims had been posted, both built on the sketch developed in the thread mainly
-by Sawhney and Tao. The maintainer wrote that they would wait for a refereed
-publication or a careful reading by an expert before changing the label. No
-refereed proof or disproof was found in the searches whose scope the Current
-assessment records.
+**Status.** Labeled open on the site, with pending full claims. The frontmatter
+standing `claimed`/`proved` derives from those claims, while the site kept the
+label OPEN. Its maintainer wrote in the thread on 2 June 2026 that two
+full-solution claims had been posted, both built on the sketch developed in the
+thread mainly by Sawhney and Tao. The maintainer wrote that they would wait for
+a refereed publication or a careful reading by an expert before changing the
+label. No refereed proof or disproof was found in the searches whose scope the
+Current assessment records.
 
 Three claim pages record the pending claims. All answer yes for all large $n$,
 and all declare AI assistance. The first is for Zribi's notes of 25 April to 2
@@ -74,7 +74,7 @@ construction for $r=2$ and its obstruction remarks for $r\ge3$, and the trivial
 bound that the multiplicity cannot exceed $(1+o(1))\log\log n$.
 
 **Source.** [erdosproblems.com/689](https://www.erdosproblems.com/689),
-accessed 2026-09-18 and 2026-10-07: the problem page (OPEN, with the site's
+accessed 2026-09-18: the problem page (OPEN, with the site's
 note that no finite
 computation can settle it; last edited 8 April 2026; source keys [Er79d],
 [Er80, p. 108]; commentary citing Problems 687, 688 and 1205 and Green's
@@ -261,7 +261,7 @@ methods, the forum's checks and objections, and their standing, all
   against a challenge statement restating the formal-conjectures proposition,
   and says itself that it certifies neither novelty nor the match between formal
   and informal statements and is not peer review (entry as of 2026-10-07, when
-  the site showed OPEN with the one proof claim; the community database said
+  the site showed the one proof claim; the community database said
   open on 2026-10-05). Not built or audited here.
 - [[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|Zribi and Chojecki, 21 July 2026]]:
   the proof-claim tab's one entry, merging the two notes above, with a
@@ -295,7 +295,7 @@ that comment could not improve it); the thread's sketch argues that $r=2$
 is within reach of the linear-equations-in-primes and hypergraph covering
 methods and that $r\ge3$ meets a sieve obstruction at the primes up to
 $n^{1/2-\varepsilon}$; nothing is proved either way in a refereed source.
-Problem 1205 (all moduli) is settled on the site with $F(x)\sim\log x$. A
+Problem 1205 (all moduli) was settled on the site with $F(x)\sim\log x$. A
 positive answer here gives, by the Chinese remainder theorem, intervals of
 length $n$ free of primes and semiprimes at a height of about $e^{n}$, that
 is, gaps of the order of $\log k$ in the notation of Problem 1139, which
@@ -329,7 +329,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; the file-sharing
 notes, the shared AI transcripts and the prover dashboard linked in the
 thread and on the tab. Not held: [Ka96], Ford's lecture notes.
 
-**Remaining gaps.** (1) The problem is open on the site while three
+**Remaining gaps.** (1) The problem was open on the site while three
 AI-assisted full-solution claims stand unreviewed on their claim pages; an
 independent whole-argument review or a refereed publication of any of them is
 the reopening condition. (2) The thread's sketch and obstruction remarks are

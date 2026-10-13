@@ -55,7 +55,7 @@ that paper.
 **Acceptance.** Refereed: European J. Combin. **18** (1997), no. 2, 125–136. The
 publisher's record dates the issue February 1997 without a day, and the page's
 date is the first of that month. Reviewed: Thomas Bloom, the site's curator,
-marks the problem proved and credits the proof to Ahlswede and Khachatrian
+marked the problem proved and credits the proof to Ahlswede and Khachatrian
 [AhKh97]. The site's label adds a Lean qualification. The formal-conjectures
 statement file for the problem states the bound and leaves its proof as `sorry`.
 Its `formal_proof` attribute points at the Lean file in Boris Alexeev's

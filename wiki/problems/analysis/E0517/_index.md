@@ -24,8 +24,8 @@ updated: 2026-10-07T20:33:08Z
 (with $a_k\neq 0$ for all $k\geq 1$). Is it true that if $n_k/k\to \infty$ then
 $f(z)$ assumes every value infinitely often?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 29 December
-2025) and notes that it cannot be resolved by a finite computation. The
+**Status.** Open. The site labeled the problem OPEN (page last edited 29
+December 2025) and notes that it cannot be resolved by a finite computation. The
 frontmatter standing derives from the claim pages and stays open, since no claim
 settles the whole question. Three partial claims settle subclasses of the
 question. [[problems/analysis/E0517/claims/1929_12_01_polya|Pólya 1929]]

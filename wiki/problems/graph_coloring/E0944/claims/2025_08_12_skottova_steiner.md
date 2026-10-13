@@ -39,8 +39,8 @@ $n$ and $f_k(n)=O(n/(\log n)^{\Omega(1)})$ for every $k\ge4$.
 **Covers.** Every $k\ge5$ and every $r\ge1$ of
 [[problems/graph_coloring/E0944/_index|Problem 944]]; not $k=4$.
 
-**Standing.** Claimed. The site labels the problem OPEN, and its commentary
-crediting the preprint on a problem it labels OPEN is not acceptance. The
+**Standing.** Claimed. The site labeled the problem OPEN, and its commentary
+crediting the preprint on a problem it labeled OPEN is not acceptance. The
 preprint has one arXiv version and no journal version. The Lean proof of
 Kruer and Kohlmeyer
 ([[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]])

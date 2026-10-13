@@ -52,7 +52,7 @@ takes it as a hypothesis. For finite $G$ the two forms coincide, since no
 finite graph contains $K_{\aleph_0,\aleph_0}$. The site states the problem
 with both excluded subgraphs, and that question sets the standing.
 
-**Status.** Open. The site labels the problem OPEN and shows no verdict on its
+**Status.** Open. The site labeled the problem OPEN and shows no verdict on its
 one proof claim. The site's proof-claims tab files that claim as a full claim.
 Its text answers only the first question, granted Baumgartner's unproved
 relation. Its claim page records it as a conditional claim.
@@ -106,7 +106,7 @@ question is not disprovable in ZFC, as
 [[problems/set_theory/E0597/claims/1989_01_01_baumgartner|Baumgartner's claim page]]
 records.
 
-The 2026 claims are pending, not accepted. The site labels the problem OPEN
+The 2026 claims are pending, not accepted. The site labeled the problem OPEN
 (page last edited 23 January 2026) with no comments and one proof claim, and
 the community database lists it as open. The claim of Alex Chengyu Li, recorded on
 [[problems/set_theory/E0597/claims/2026_09_09_li|its claim page]], answers

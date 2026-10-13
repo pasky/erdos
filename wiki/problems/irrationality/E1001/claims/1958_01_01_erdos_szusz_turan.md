@@ -64,7 +64,7 @@ and [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]].
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
 The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com. Its page for the problem (the `discussion` link) carries the
+erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Erdős, Szüsz and Turán with the
 value $12A\log c/\pi^2$ in this range. Bloom is not an author of the paper. No
 independent check of the proof is recorded. The claim value is `proved` because

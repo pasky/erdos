@@ -89,5 +89,5 @@ peer review and names no human referee, so it is no acceptance evidence.
 **Standing.** Claimed. Unrefereed and computer-assisted, with GPT 5.6 named
 in the proof-claim entry as the system used; the repository's replay of the
 $r=7$ enumeration and of the $r=8$ reconstructions and certificates is the
-author's own; the site's label is FALSIFIABLE, and the claim itself carries no
+author's own; the site's label was FALSIFIABLE, and the claim itself carries no
 comments. A partial claim derives nothing for the problem's standing.

@@ -28,10 +28,10 @@ $$
 
 is irrational?
 
-**Status.** Disproved. The site (page last edited 2025-09-28) labels the problem
-DISPROVED (LEAN) and credits Crmarić and Kovač with the negative answer. Their
-2025 theorem, that every positive real number is the value of such a series for
-some $f(n)\to\infty$, is recorded on
+**Status.** Disproved. The site (page last edited 2025-09-28) labeled the
+problem DISPROVED (LEAN) and credits Crmarić and Kovač with the negative answer.
+Their 2025 theorem, that every positive real number is the value of such a
+series for some $f(n)\to\infty$, is recorded on
 [[problems/irrationality/E0270/claims/2025_04_25_crmaric_kovac|its claim page]].
 The Lean proof behind the label is a public formalization of their argument,
 linked from the claim page. It has not been built or audited in this corpus.

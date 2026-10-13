@@ -71,7 +71,7 @@ subgraph.
 **Acceptance.** Refereed: P. Komjáth and S. Shelah, Forcing constructions for
 uncountably chromatic graphs, J. Symbolic Logic 53 (1988), no. 3, 696–707,
 doi:10.2307/2274566. The Crossref record dates the issue to September 1988
-without a day, so the page carries the first of that month. The site labels the
+without a day, so the page carries the first of that month. The site labeled the
 problem OPEN and its notes do not record the result, so the page lists no
 `reviewed` evidence.
 

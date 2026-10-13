@@ -86,7 +86,7 @@ built or audited it, so it gives no `formalized` evidence.
 Crossref record: volume 31, issue 1, pp. 111--114, issued August 1981). The day
 in this page's date is the issue's nominal first day.
 
-Reviewed: the site's curator, T. F. Bloom, labels the problem solved and names
+Reviewed: the site's curator, T. F. Bloom, labeled the problem solved and names
 this paper as the proof. Bondy restates the theorem as a known result in a
 refereed note of 1983
 ([[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Theorem 1]]).
@@ -100,7 +100,7 @@ holds no file, and it records four observations on the printed proof. Nothing is
 independently reviewed. The acceptance recorded here rests on the publication,
 the restatement and the site's acceptance, not on a local review.
 
-The site labels the problem SOLVED. Since the result is an affirmative proof,
+The site labeled the problem SOLVED. Since the result is an affirmative proof,
 the claim value here is proved, and the problem page's Status sentence keeps the
 site's label. Bondy's own strengthening has the page
 [[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]].

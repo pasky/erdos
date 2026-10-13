@@ -49,7 +49,7 @@ two forms is written on the problem page and carries no independent review.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance independent of
 the 1970 paper's authors. The site's curator, T. F. Bloom, credits the proof to
-the 1970 paper for every $r\ge4$ and labels the problem proved, and the
+the 1970 paper for every $r\ge4$ and labeled the problem proved, and the
 community database agrees with the site. Kierstead and Kostochka (Combin.
 Probab. Comput. 17 (2008), refereed, not held) publish a short proof under the
 theorem's name. Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 30

@@ -60,6 +60,6 @@ for every $r>70$, the bounds differ and the best $t$ is not determined.
 
 **Acceptance.** Refereed: Journal of Combinatorial Theory, Series A 58 (1991),
 no. 1, 78--84, received 2 July 1989. The publisher's record dates the issue
-September 1991, and the page's date is the month's first day. The site labels
+September 1991, and the page's date is the month's first day. The site labeled
 the problem OPEN and credits the paper only with the two bounds, so `reviewed`
 is not listed. No independent proof review and no formalization are recorded.

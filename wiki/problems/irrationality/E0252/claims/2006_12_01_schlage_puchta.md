@@ -71,7 +71,7 @@ Nothing unconditional about any $k\ge4$.
 
 **Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3 (December
 2006), pp. 455--460. These data come from the Crossref record of the DOI. The
-journal version was not compared with the arXiv posting. The site labels the
+journal version was not compared with the arXiv posting. The site labeled the
 problem OPEN. Its curator's remark credits this paper and Friedlander, Luca and
 Stoiciu with the case $k=3$, but that remark is commentary on an open problem
 and not acceptance, so no `reviewed` evidence is listed. The proof is not

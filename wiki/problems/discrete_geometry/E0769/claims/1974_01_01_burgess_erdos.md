@@ -53,4 +53,4 @@ source card's
 
 **Acceptance.** None on record. The volume collects the papers of a congress,
 and there is no evidence that it was refereed. The site credits the bound
-$c(n)\ll n^{n+1}$ to Burgess and Erdős, but it labels the problem OPEN.
+$c(n)\ll n^{n+1}$ to Burgess and Erdős, but it labeled the problem OPEN.

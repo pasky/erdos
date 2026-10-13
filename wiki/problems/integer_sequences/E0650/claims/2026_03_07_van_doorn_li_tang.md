@@ -127,7 +127,7 @@ paper adopts. Tang's note on the gap, added to the same repository on 21 March
 day.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
-of the authors, labels the problem SOLVED (LEAN). The page was last edited 2
+of the authors, labeled the problem SOLVED (LEAN). The page was last edited 2
 April 2026. The commentary states the formula and cites the corrected paper. The
 `reviewed` evidence rests on that label and commentary.
 

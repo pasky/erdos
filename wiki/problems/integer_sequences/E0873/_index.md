@@ -35,7 +35,7 @@ $$
 F(A,X,k)<X^\epsilon?
 $$
 
-**Status.** Open. The site's label is OPEN. The standing in the frontmatter is
+**Status.** Open. The site's label was OPEN. The standing in the frontmatter is
 derived from the claim pages. Three pending partial claims answer the question
 yes for a range of exponents. The first is the bound $F(A,X,3)\ll X^{1/3}\log X$
 that Erdős reports with Szemerédi in 1992

@@ -45,7 +45,7 @@ while a set meeting all of them needs five, so $f(3,4)\ge5$.
 and the second question for $r\ge7$ are not covered.
 
 **Acceptance.** Refereed: Siberian Adv. Math. 2 (1992), no. 1, 82–88. The site
-labels the problem OPEN, so its commentary is not acceptance, and no `reviewed`
+labeled the problem OPEN, so its commentary is not acceptance, and no `reviewed`
 evidence is listed.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

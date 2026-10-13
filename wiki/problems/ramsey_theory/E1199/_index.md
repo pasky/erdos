@@ -4,7 +4,7 @@ title: Problem 1199
 desc: |
   Asks whether every two-coloring of $\mathbb{N}$ admits an infinite set whose
   pairwise sums, doubles included, share one color (Owings's question). The site
-  lists it as open, the analogue for three colors is false, and a proof for two
+  listed it as open, the analogue for three colors is false, and a proof for two
   colors is claimed.
 tags:
 - Additive combinatorics

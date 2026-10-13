@@ -54,7 +54,7 @@ $r\geq 2$ and every large $d$ divisible by $(r-1)(3r+2)$, connected
 $K_{2r}$-free graphs of diameter $\frac{6r-5}{(2r-1)d+2r-3}n+O(1)$, above the
 first bound; Cambie and Jooken (2025 preprint) add $r=2$, $d=16$. The site cites
 both results in its commentary, calls the first a disproof 'for the case of
-$K_{2r}$-free graphs', and keeps the label OPEN while presenting the amended
+$K_{2r}$-free graphs', and kept the label OPEN while presenting the amended
 conjecture of Czabarka, Singgih and Székely as the live question. The page
 follows that reading: the display is two questions, part (i) for $K_{2r}$-free
 and part (ii) for $K_{2r+1}$-free graphs, and the problem is settled only when
@@ -81,7 +81,7 @@ and part (ii) holds at $r=1$ by Theorem 2 and is open beyond. The divisibility
 conditions are part of the statement, and the $O(1)$ may depend on $r$ and
 $\delta$.
 
-**Status.** The site labels the problem OPEN. Read as the two questions of the
+**Status.** The site labeled the problem OPEN. Read as the two questions of the
 Statement (precise), part (i) is disproved and part (ii) is open. The
 frontmatter standing, claimed, disproved, is derived from the claim pages: part
 (i) is settled by an accepted refutation, and part (ii) only by the pending

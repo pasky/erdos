@@ -63,7 +63,7 @@ Sárközy and the general $k$ as something they believed but could not prove
 
 **Acceptance.** Refereed: Studia Sci. Math. Hungar. 15 (1980), 467–479, and J.
 Number Theory 15 (1982), no. 1, 115–136. Reviewed: the site's curator, T. F.
-Bloom, marks Problem 444 proved and credits Part IV. Part IV appears in the
+Bloom, marked Problem 444 proved and credits Part IV. Part IV appears in the
 volume dated 1980, but it was received on 25 September 1981 and cites Part II as
 J. Number Theory 15 (1982). The page is dated by Part II's issue, August 1982,
 where the theorem was first published. No formalization is recorded, and this

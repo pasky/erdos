@@ -38,7 +38,7 @@ the second question at $k=2$.
 
 **Standing.** Claimed: the result is stated without proof, and the volume is a
 society's commemoration volume, not a journal, so it is not listed as
-refereed. The site's credit on a problem it labels OPEN is commentary, not
+refereed. The site's credit on a problem it labeled OPEN is commentary, not
 acceptance.
 
 **Depends on.** No page of this wiki.

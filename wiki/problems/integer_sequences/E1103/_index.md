@@ -23,7 +23,7 @@ updated: 2026-10-07T20:39:38Z
 **Statement.** Let $A$ be an infinite sequence of integers such that every $n\in
 A+A$ is squarefree. How fast must $A$ grow?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 3 December
+**Status.** Open. The site labeled the problem OPEN (page last edited 3 December
 2025). Its commentary credits two bounds. Konyagin's 2004 bound on the finite
 analogue, Problem 1109, gives $a_j\ge j^{15/11-o(1)}$ for every infinite set
 with squarefree sums. It is recorded on

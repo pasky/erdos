@@ -120,7 +120,7 @@ certifying site, not a named person, is therefore the independent party. No
 `formalized` evidence is listed, because this corpus has not built the file. No
 `refereed` evidence exists.
 
-As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labels
+As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
 the problem OPEN, says the $k=4$ case remains open even for $r=1$, and lists
 Chan's proof claim. On that date, the formal-conjectures catalog file on its
 default branch agreed with the statement the site prints and tagged the theorem

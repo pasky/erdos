@@ -81,7 +81,7 @@ and that no unconditional resolution is claimed. A proof of the hypothesis
 would make this an unconditional claim; nothing in hand proves it.
 
 **Standing.** Claimed, conditional: it settles nothing about the problem
-on its own. The site labels the problem OPEN; a forum comment of 12 August
+on its own. The site labeled the problem OPEN; a forum comment of 12 August
 2026 under the claim classes it as partial, and a third-party evidence
 record of 16 August 2026, linked from the thread on 24 August 2026, lists
 no rerun, assessment or independent review, and this corpus has not checked

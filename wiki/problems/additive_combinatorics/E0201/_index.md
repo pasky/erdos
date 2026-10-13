@@ -30,7 +30,7 @@ $$
 \lim_{N\to \infty}\frac{R_3(N)}{G_3(N)}=1?
 $$
 
-**Status.** Open. The site's label is OPEN (page last edited 8 April 2026; site
+**Status.** Open. The site's label was OPEN (page last edited 8 April 2026; site
 export of 2026-10-06). Its commentary records the trivial $G_k(N)\le R_k(N)$ and
 notes that the inequality can be strict ($G_3(5)=3$ against $R_3(5)=4$). It also
 records the theorem of Komlós, Sulyok and Szemerédi [KSS75] that

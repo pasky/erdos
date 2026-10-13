@@ -59,7 +59,7 @@ $\mathfrak G(n;2n-3)$ has a circuit with a diagonal, false for $2n-4$, is the
 site's $g_1(n)=2n-4$ ("for $n\ge4$" in [Er75]). Jiang's abstract and the 2026
 preprint [ChNi26] use the site's indexing.
 
-**Status.** Proved. The site labels the problem PROVED and credits Jiang [Ji04]
+**Status.** Proved. The site labeled the problem PROVED and credits Jiang [Ji04]
 (J. Graph Theory 46 (2004), no. 3, 180--182; refereed). The theorem is recorded
 on the claim page
 [[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|Jiang]], from

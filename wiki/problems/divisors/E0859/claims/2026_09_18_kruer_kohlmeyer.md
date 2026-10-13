@@ -111,7 +111,7 @@ report gives a second kernel as "Not run", so "The verdict rests on a single
 kernel implementation".
 
 Beyond the bounty site there is no acceptance. There is no refereed publication,
-and erdosproblems.com lists the problem as open. The curator, Thomas Bloom,
+and erdosproblems.com listed the problem as open. The curator, Thomas Bloom,
 posted a proof-claim entry on the problem's forum on 27 September 2026 (fourth
 link) to make the Conjectures.io claim known. The entry lists the claimant as
 conjectures.io and gives the system as unknown. In it the curator says they had

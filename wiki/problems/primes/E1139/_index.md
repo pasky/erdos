@@ -35,8 +35,8 @@ or not. This is how the OEIS sequence A037143 that the site links and the
 ($\Omega(n)\le2$) read the wording, and the claimed construction uses it,
 counting a forced square factor $p^2$ as two prime factors.
 
-**Status.** The site labels the problem OPEN (page last edited 23 January 2026),
-with the explanation that the question cannot be settled by a finite
+**Status.** The site labeled the problem OPEN (page last edited 23 January
+2026), with the explanation that the question cannot be settled by a finite
 computation. The derived standing is `claimed`. It comes from the one entry on
 the site's proof-claims tab: a full claim by Liam Price, made with GPT Pro, as
 the tab gives it. The claim was first posted in the site's thread on 2026-06-19

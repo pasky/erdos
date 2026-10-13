@@ -52,7 +52,7 @@ outright, the twin blow-up extends it to the Statement, and the site's curator
 credits it as the proof of the site's statement. Erdős's own wording (1979, the
 typescript page headed 15) is quoted in the Current assessment.
 
-**Status.** The site labels the problem PROVED, and its curator credits Alon
+**Status.** The site labeled the problem PROVED, and its curator credits Alon
 [Al96b]. The frontmatter standing is derived from the claim pages. Alon's
 theorem is an accepted full claim on the site curator's acceptance and its
 refereed publication

@@ -90,13 +90,13 @@ library result.
 **Acceptance.** `refereed`: the Electronic Journal of Combinatorics is a
 refereed journal. The paper's first page records its acceptance on 21 July 2021
 and publication on 10 September 2021, and the Crossref record lists no
-correction. `reviewed`: the site's curator, Thomas Bloom, labels the problem
+correction. `reviewed`: the site's curator, Thomas Bloom, labeled the problem
 PROVED (LEAN). In the problem's commentary (page last edited 28 May 2026), Bloom
 derives the inequality $\tau(G)\le n-c\sqrt{n\log n}$ from this paper's
 clique-coloring bound, by taking the complement of the largest color class. This
 is a documented acceptance by the site. The community database lists the problem
 as proved (Lean), as of its record's last update of 7 June 2026. The suffix of
-the site's label rests on the separate pending claim recorded on its own page,
+the site's label rested on the separate pending claim recorded on its own page,
 not on this paper.
 
 **The disputed input.** A post of 26 August 2026 on the site's thread reports

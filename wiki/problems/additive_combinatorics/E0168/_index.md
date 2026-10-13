@@ -30,8 +30,8 @@ $$
 
 Is this limit irrational?
 
-**Status.** Open. The site's label is OPEN (page last edited 23 March 2026). One
-partial claim is recorded.
+**Status.** Open. The site's label was OPEN (page last edited 23 March 2026).
+One partial claim is recorded.
 [[problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer|Graham, Witsenhausen and Spencer]]
 proved that the limit exists and equals $\frac13\sum_{k\in K}1/d_k$. This is a
 series over the $3$-smooth numbers $d_1<d_2<\cdots$, indexed by the set $K$ of

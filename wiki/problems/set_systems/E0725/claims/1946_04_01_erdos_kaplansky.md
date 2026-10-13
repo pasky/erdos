@@ -57,7 +57,7 @@ asymptotic formula without restricting $k$, is not settled by it.
 
 **Acceptance.** Refereed: Amer. J. Math. **68** (1946), no. 2, 230–236. The
 issue is dated April 1946, and the page is dated to the first day of that month.
-The site's curator records the theorem under [ErKa46] and labels the problem
+The site's curator records the theorem under [ErKa46] and labeled the problem
 OPEN. This credits the partial result without settling the problem, so the page
 lists no `reviewed` evidence. The library card records the paper's theorems. The
 proof has not been reconstructed or independently reviewed in this corpus.

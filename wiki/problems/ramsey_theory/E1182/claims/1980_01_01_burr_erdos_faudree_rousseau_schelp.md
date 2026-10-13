@@ -75,7 +75,7 @@ the inputs of the paper's bounds.
 and R. H. Schelp, *An extremal problem in generalized Ramsey theory*, Ars
 Combin. 10 (1980), 193--203 (MR 82b:05096; no Crossref record). The scan in the
 Rényi Institute's Erdős archive is linked above. Not reviewed: the site's
-commentary credits the paper with these bounds, but the site labels the problem
+commentary credits the paper with these bounds, but the site labeled the problem
 OPEN. So no curator credit exists, and `reviewed` is not listed. The journal
 issue gives only the year, so this page is dated the first of January 1980.
 Nothing here is independently reviewed by this project.

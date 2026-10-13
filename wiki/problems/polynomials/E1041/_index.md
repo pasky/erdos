@@ -41,7 +41,7 @@ posted on the thread on 2026-09-07. That claim offers a degree-seven polynomial
 in which, it argues, no path of length less than $2$ inside the lemniscate joins
 two roots. Two readers reported checks, and Cook formalized one member of the
 family in Lean. The formal-conjectures catalog marked the problem solved with
-answer false on 2026-09-23. Meanwhile the site labels the problem FALSIFIABLE,
+answer false on 2026-09-23. Meanwhile the site labeled the problem FALSIFIABLE,
 and the community database records it as falsifiable (status dated 2025-09-15,
 as of 2026-10-06). No human review is documented.
 
@@ -84,7 +84,7 @@ all roots in the open unit disk two roots are joined by a path of length
 less than $2$ inside $\{z:\lvert f(z)\rvert<1\}$; Erdős, Herzog and
 Piranian [EHP58] proved that some component of that set contains at least
 two roots, and the thread settled in December 2025 that a repeated root
-counts as joined by the constant path. The site's label is falsifiable: one
+counts as joined by the constant path. The site's label was falsifiable: one
 polynomial with no short path would settle the question in the negative, and
 that is what the pending claim offers. The thread's history is a sequence of
 AI-assisted attempts. Two general proofs were posted and rejected: a
@@ -103,7 +103,7 @@ needs a repair, and formalized the member $s=10^{-6}$ in Lean, with a theorem
 stating that every connected subset of the lemniscate holding two distinct
 roots has one-dimensional Hausdorff measure greater than $2$; the
 formal-conjectures catalog linked that file and marked the problem solved with
-answer false on 2026-09-23. The site labels the problem FALSIFIABLE (page last
+answer false on 2026-09-23. The site labeled the problem FALSIFIABLE (page last
 edited 06 December 2025); no named reader beyond the two thread comments has
 reviewed the counterexample or its formalization, and neither the write-up's
 proofs nor the Lean file are compiled or audited in this wiki.

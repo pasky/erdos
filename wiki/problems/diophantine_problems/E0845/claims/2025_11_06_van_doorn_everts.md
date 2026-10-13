@@ -66,13 +66,13 @@ hundred further members of a candidate extremal sequence, that they are no
 longer sure it is attained infinitely often. The original conjecture of
 [[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|Erdős 1992]],
 Problem 21 (p. 239), expected that almost all integers fail to be such a sum
-for any constant; the site reads the question as that conjecture and labels
+for any constant; the site reads the question as that conjecture and labeled
 it disproved, which is the standing recorded here.
 
 **Acceptance.** Van Doorn announced in the site's thread on 2025-10-23 that van
 Doorn and Everts could resolve the problem in the negative. Van Doorn posted the
 arXiv paper there on 2025-11-07. The site's curator, Thomas Bloom, credits the
-disproof to van Doorn and Everts with $C=6$ and labels the problem DISPROVED
+disproof to van Doorn and Everts with $C=6$ and labeled the problem DISPROVED
 (LEAN). This is the `reviewed` evidence. The community database records the
 problem as disproved (Lean). The paper is an arXiv preprint. Its arXiv record
 lists no journal reference and no published version is known, so there is no

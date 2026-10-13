@@ -137,7 +137,7 @@ audited the Lean development, so the page lists no `formalized` evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem proved on
+**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved on
 the problem page (last edited 11 January 2026). The curator credits Barreto and
 Leeham, using ChatGPT and Aristotle. The page lists this as `reviewed`. The
 community database records the problem as proved, with a Lean proof. Its entry's

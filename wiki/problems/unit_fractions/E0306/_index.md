@@ -45,7 +45,7 @@ however a proof of this result was never published", prove the
 natural-number case, and "conjecture that a similar result holds for
 $\omega=2$".
 
-**Status.** Open, in the site's label. The site labels the problem OPEN (page
+**Status.** Open, in the site's label. The site labeled the problem OPEN (page
 last edited 21 June 2026), and the community database agrees, as of 2026-10-07.
 The frontmatter standing is `claimed` with claim `proved`. It derives from two
 pending full claims, each on its own page. The first is
@@ -232,7 +232,7 @@ from these pages, which hold the details of each posting.
   primes whose reciprocals sum to $1$, the first such representation, found
   with a pocket calculator; it settles the instance $a/b=1$. The venue is a
   problem-solving journal and no refereeing of the article is evidenced, and
-  the site's credit is commentary on a problem it labels OPEN, so the page
+  the site's credit is commentary on a problem it labeled OPEN, so the page
   lists no acceptance evidence.
 - [[problems/unit_fractions/E0306/claims/1978_08_01_johnson|Johnson's 48-term representation of 1]]
   (partial, claimed): [Jo78], a letter to the editor answering Barbeau's
@@ -335,8 +335,8 @@ three comments (29 September to 3 October 2026) are an exchange with Tang,
 who welcomes the proof, reports simplifying their own and publishes their August
 manuscript (recorded on
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's claim page]]);
-none is a review. The site labels the problem OPEN (page last edited 21 June
-2026, as of 2026-10-07).
+none is a review. The site labeled the problem OPEN (page last edited 21 June
+2026, accessed 2026-10-07).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

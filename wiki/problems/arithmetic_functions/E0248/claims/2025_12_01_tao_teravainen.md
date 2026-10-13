@@ -50,7 +50,7 @@ $k=o(\log\log n)$ carry the difficulty. The source card is
 
 **Acceptance.** The site's curator, Thomas F. Bloom, records in the problem's
 commentary (page last edited 2026-04-17) that the problem has been resolved by
-this result, and labels the problem proved. That documented acceptance is the
+this result, and labeled the problem proved. That documented acceptance is the
 `reviewed` evidence. The preprint (arXiv:2512.01739, v1 of 2025-12-01, v2 of
 2026-04-25) has no journal publication on record, so `refereed` is not listed.
 

@@ -30,7 +30,7 @@ $$
 
 where $p(m)$ denotes the least prime factor of $m$?
 
-**Status.** Proved, on the site's label. The label credits Gafni and Tao
+**Status.** Proved, on the site's label. The label credited Gafni and Tao
 [GaTa25] with the affirmative answer: all but $O(X/(\log X)^2)$ of the prime
 gaps starting in $[X,2X]$ contain an integer whose least prime factor is at
 least the gap. Alexeev's repository holds a Lean proof of the statement. That

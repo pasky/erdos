@@ -106,7 +106,7 @@ the records; nothing was built, kernel-checked or audited here.
 
 **Standing.** Claimed: the result was announced as a comment under the
 earlier claim, not filed as a proof claim of its own; the manuscript is a
-repository document, not on a preprint server; the site's label is OPEN (page
+repository document, not on a preprint server; the site's label was OPEN (page
 last edited 17 October 2025; proof-claims tab accessed 2026-10-07), and no
 refereed version, site acceptance or independent review was found on
 2026-10-07.

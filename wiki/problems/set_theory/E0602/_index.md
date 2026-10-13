@@ -25,7 +25,7 @@ for all $i$, such that for any $i\neq j$ we have $\lvert A_i\cap A_j\rvert$
 finite and $\neq 1$. Is there a $2$-colouring of $\cup A_i$ such that no $A_i$
 is monochromatic?
 
-**Status.** Open. The site labels the problem OPEN and shows no verdict. Its
+**Status.** Open. The site labeled the problem OPEN and shows no verdict. Its
 proof-claims tab carries one partial proof claim, filed 2026-10-01. The claim
 gives a finite criterion for Property B, and its author says it does not resolve
 the problem. The filing is recorded below. It gets no claim page, since it

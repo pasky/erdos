@@ -44,7 +44,7 @@ that the printed statement looks wrong even at $k=0$); the site's
 count is the one for which Erdős's "best possible" holds, and it is the
 count Bondy's 1971 paper [Bo71b], which attributes its $k=1$ case to Erdős
 at the Oxford conference, prints for the general problem (its $g(r,n)$ at
-$r=k+1$, p. 126). The site labels the problem
+$r=k+1$, p. 126). The site labeled the problem
 SOLVED, its label for a resolution that is neither a proof nor a disproof:
 the question is a determination, answered by a theorem giving
 $f(k)\le2k+3$.

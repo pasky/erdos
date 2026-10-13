@@ -78,6 +78,6 @@ order $\log\log n$ and order $\sqrt{\log n}$); and every $t\ge4$.
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Israel Journal of Mathematics, volume 181, issue 1. Not reviewed under the
 corpus's rule: the site's commentary credits [CFS11] with the case $t=3$, but
-the site labels the problem OPEN. That commentary is therefore a credit on an
+the site labeled the problem OPEN. That commentary is therefore a credit on an
 open problem, not an acceptance that settles it. The proof was not independently
 reviewed by this corpus.

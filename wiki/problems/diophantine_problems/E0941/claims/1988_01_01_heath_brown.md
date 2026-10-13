@@ -36,7 +36,7 @@ and Ivić; the site also cites Erdős's 1976 Manitoba survey [Er76d].
 three powerful numbers is a value of a form $a^3x^2+b^3y^2+c^3z^2$. No account
 of the paper's argument is recorded.
 
-**Acceptance.** The site's curator, Thomas Bloom, marks Problem 941 proved and
+**Acceptance.** The site's curator, Thomas Bloom, marked Problem 941 proved and
 credits this paper for the proof. The volume is an edited seminar proceedings
 rather than a journal, so no `refereed` evidence is listed. No formal proof is
 on record. In formal-conjectures, the result is stated without proof and tagged

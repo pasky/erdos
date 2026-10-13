@@ -96,4 +96,4 @@ the commit of 16 August 2026 that added it. The posting user is the claimant
 of record, the system being named as the author of the text.
 
 **Acceptance.** None: the write-up is not refereed, no outside reviewer has
-endorsed it, and the site labels the problem OPEN.
+endorsed it, and the site labeled the problem OPEN.

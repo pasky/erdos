@@ -55,7 +55,7 @@ at $n=5$ by the result the site credits to Makai and Turán, and at $n=6$ by
 **Acceptance.** Refereed: the paper appeared in the Annales Universitatis
 Scientiarum Budapestinensis de Rolando Eötvös Nominatae, Sectio Mathematica, a
 journal. The site's commentary credits the lower bound to this paper. The site
-labels the problem FALSIFIABLE, however, which settles nothing, so that credit
+labeled the problem FALSIFIABLE, however, which settles nothing, so that credit
 is not listed as `reviewed`.
 
 **Dating.** The journal volume carries the years 1960/61 and no month; the

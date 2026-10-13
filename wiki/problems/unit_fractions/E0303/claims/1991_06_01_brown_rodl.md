@@ -64,8 +64,8 @@ solutions to equations with unit fractions, Bull. Austral. Math. Soc. 43 (1991),
 no. 3, 387--392. The publisher's record dates the issue June 1991 and gives no
 day. The day in this page's name is the first of that month.
 
-Reviewed: the site's curator, Thomas Bloom, marks Problem 303 proved and credits
-the coloring statement to Brown and Rödl in the problem's commentary.
+Reviewed: the site's curator, Thomas Bloom, marked Problem 303 proved and
+credits the coloring statement to Brown and Rödl in the problem's commentary.
 
 The library holds the journal PDF and the author's copy on the
 [[../library/unit_fractions/brown_1991_monochromatic_solutions_equations_unit_fractions/_index|source card]].

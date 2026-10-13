@@ -62,8 +62,8 @@ bound; the pending full claim on it is
 Functional Analysis, December 2025). The site's curator, Thomas Bloom, records
 the inclusion, the bound and the negative answer to the displayed question in
 the commentary (page last edited 30 September 2025, accessed 2026-09-18 and
-2026-10-07). The site labels the problem OPEN, however, so the commentary is not
-acceptance and the claim lists no `reviewed` evidence. Nothing here is this
+2026-10-07). The site labeled the problem OPEN, however, so the commentary is
+not acceptance and the claim lists no `reviewed` evidence. Nothing here is this
 project's own review beyond the one-line inclusion.
 
 **Depends on.** No page of this wiki.

@@ -29,7 +29,7 @@ $$
 \limsup_{x\to \infty} \frac{\max_{n<x}d_A(n)}{\left(\sum_{n\in A\cap[1,x)}\frac{1}{n}\right)^k}=\infty?
 $$
 
-**Status.** Proved. The site labels the problem PROVED. By the Erdős–Sárközy
+**Status.** Proved. The site labeled the problem PROVED. By the Erdős–Sárközy
 theorem, $\max_{n\le x}d_A(n)$ exceeds $\exp(c(\log f_A(x))^2)$ infinitely
 often, where $f_A(x)$ is the reciprocal sum. This answers the question yes for
 every $k$, as the claim page below records.

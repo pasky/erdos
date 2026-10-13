@@ -39,7 +39,7 @@ that way. He and Tang's bounds, which give $n_0(r)=2r+o(r)$ together with the
 exact values at $r=2$ and $r=3$, answer it in that sense; the exact threshold
 for every $r$, which Thiim claims, is a sharper answer.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
 2026). The derived standing is claimed, with the claim answered, from two
 pending full claims. The first is
 [[problems/set_systems/E0776/claims/2026_02_10_he_tang|He and Tang 2026]], whose

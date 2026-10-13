@@ -74,7 +74,7 @@ linked from the
 [[problems/set_systems/E0231/claims/1957_11_16_de_bruijn_erdos|de Bruijn–Erdős page]]
 and settles no instance of the corrected Statement.
 
-**Status.** The site shows DISPROVED (LEAN), crediting the negative answer for
+**Status.** The site showed DISPROVED (LEAN), crediting the negative answer for
 all $k\geq4$ to Keränen's infinite abelian-square-free word on four letters
 [Ke92]. This label describes the corrected Statement. The corrected Statement is
 **disproved**. The accepted claim is

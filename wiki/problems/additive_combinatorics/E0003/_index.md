@@ -93,7 +93,7 @@ long arithmetic progressions. The answer is yes by Corollary 1.2 of the
 OpenAI release manuscript of 23 September 2026, accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]]
 on the release's Lean declaration, which this corpus built and whose axioms
-it checked; the site's label is OPEN and the release has no journal record
+it checked; the site's label was OPEN and the release has no journal record
 or outside review.
 
 Known results before the release, as the site's commentary and the cited papers

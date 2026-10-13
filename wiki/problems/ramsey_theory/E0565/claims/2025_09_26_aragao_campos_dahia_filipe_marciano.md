@@ -58,7 +58,7 @@ $2^{O(k(\log k)^2)}$ (Kohayakawa, Prömel and Rödl 1998; an explicit Paley
 host by Fox and Sudakov 2008) and $2^{O(k\log k)}$ (Conlon, Fox and
 Sudakov 2012) are history recorded on the problem page, not claims on it.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and credits the proof to this paper in the problem's commentary (page
 last edited 18 January 2026, accessed 2026-09-17). The discussion thread and
 proof-claim tab are empty.

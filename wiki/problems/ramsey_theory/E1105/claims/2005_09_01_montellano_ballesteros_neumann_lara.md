@@ -69,7 +69,7 @@ formula for $\mathrm{AR}(n,P_k)$ for $n\ge k\ge5$, is the subject of
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 and the 1975 lower bound it takes over.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED. In the commentary, the curator credits the paper with the exact formula
 for $\mathrm{AR}(n,C_k)$ and the asymptotic it implies. The curator is
 independent of the authors. Refereed: Graphs and Combinatorics 21 (2005), no. 3,

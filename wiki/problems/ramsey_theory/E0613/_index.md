@@ -42,7 +42,7 @@ degree below $n$ exactly when its edges can be colored with no red odd cycle
 and no blue $K_{1,n}$. The site's label DISPROVED (LEAN) carries a catalog
 suffix explained under Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN). The frontmatter
+**Status.** The site labeled the problem DISPROVED (LEAN). The frontmatter
 standing derives from the claim page
 [[problems/ramsey_theory/E0613/claims/2001_07_01_pikhurko|Pikhurko 2001]], which
 records the refereed disproof (accepted) with its postings and its acceptance
@@ -102,7 +102,7 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   stars versus cliques. arXiv:1601.06599 (2016). Context on the clique
   generalization (abstract only).
 
-**Formalization.** The suffix (LEAN) of the site's label is a catalog label.
+**Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
 [`ErdosProblems/613.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/613.lean)
 of formal-conjectures, linked at the `main` commit as of 2026-09-18, declares

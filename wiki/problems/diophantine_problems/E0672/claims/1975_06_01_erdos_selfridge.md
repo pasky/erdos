@@ -45,5 +45,5 @@ $\ell\ge2$. Not covered: every $d\ge2$.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper.
 
 **Acceptance.** Refereed: Illinois Journal of Mathematics 19 (1975), no. 2.
-The site's commentary credits the theorem, but the site labels the problem
+The site's commentary credits the theorem, but the site labeled the problem
 VERIFIABLE, an open label, so the commentary is not `reviewed` evidence.

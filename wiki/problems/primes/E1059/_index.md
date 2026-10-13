@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Are there infinitely many primes $p$ such that $p-k!$ is
 composite for each $k$ such that $1\leq k!<p$?
 
-**Status.** The site labels the problem OPEN, with the explanation that the
+**Status.** The site labeled the problem OPEN, with the explanation that the
 question cannot be settled by a finite computation. The derived standing is
 claimed, proved. It departs from the site's OPEN only by counting Johan Land's
 pending full claim, which neither the site nor an outside review has accepted.

@@ -43,9 +43,9 @@ $$
 \sum_{k\leq n}M_k > n^{1+c}?
 $$
 
-**Status.** The site labels the problem SOLVED (LEAN). The Lean suffix refers to
-formal proofs by others, recorded on the claim pages. This corpus has not built
-or audited them. The site credits the first question to Wagner [Wa80], the
+**Status.** The site labeled the problem SOLVED (LEAN). The Lean suffix refers
+to formal proofs by others, recorded on the claim pages. This corpus has not
+built or audited them. The site credits the first question to Wagner [Wa80], the
 second to Beck [Be91], and the third, the prize question, to Korsky with GPT
 5.6-Pro. The claim pages are
 [[problems/polynomials/E0119/claims/1980_03_01_wagner|Wagner 1980]]

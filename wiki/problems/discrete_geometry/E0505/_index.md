@@ -23,9 +23,9 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Is every set of diameter $1$ in $\mathbb{R}^n$ the union of at
 most $n+1$ sets of diameter $<1$?
 
-**Status.** Disproved. The site marks the problem disproved, crediting Kahn
+**Status.** Disproved. The site marked the problem disproved, crediting Kahn
 and Kalai, with Brouwer and Jenrich for the smallest dimension it records,
-and flags a Lean formalization.
+and flagged a Lean formalization.
 
 **Source.** [erdosproblems.com/505](https://www.erdosproblems.com/505), accessed
 2026-09-04; the problem page and its discussion thread as of 2026-10-07. Cite

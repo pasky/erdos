@@ -70,12 +70,12 @@ question are open.
 [[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]
 of Khadzhiivanov's 1988 account, the proof relied on.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels Problem 905, whose
+**Acceptance.** The site's curator, T. F. Bloom, labeled Problem 905, whose
 statement is the claim above, PROVED (LEAN) and credits it to Edwards and,
 independently, to Khadzhiivanov and Nikiforov. The curator also records the
 bound $f_c(n)\ge n/6$ for $c>1/4$ in this problem's commentary, with a pointer
 to Problem 905 (both pages last edited 7 April 2026, accessed 2026-09-18). That
-label settles Problem 905, not Problem 80 or a part of it. The site labels
+label settles Problem 905, not Problem 80 or a part of it. The site labeled
 Problem 80 OPEN, and its commentary on Problem 80 is not acceptance. So no
 `reviewed` evidence is listed.
 

@@ -28,8 +28,8 @@ contains a clique of size $\geq \log n$ and an independent set of size $\geq
 
 In particular, is there such a graph for $g(n)=(\log n)^3$?
 
-**Status.** Open. The site labels the problem OPEN. Two refereed partial results
-have claim pages.
+**Status.** Open. The site labeled the problem OPEN. Two refereed partial
+results have claim pages.
 [[problems/extremal_graph_theory/E0805/claims/2007_06_27_alon_sudakov|Alon and Sudakov]]
 show that no such graph exists for $g(n)\le c(\log n)^3/\log\log n$, and
 [[problems/extremal_graph_theory/E0805/claims/2020_04_09_alon_bucic_sudakov|Alon, Bucić and Sudakov]]

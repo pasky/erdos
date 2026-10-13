@@ -36,7 +36,7 @@ always $0$? Is the upper density always $<c$ for some constant $c<1$?
 stands. Take $A=\mathbb N$ and $g(n)=n+1$. Then the set in question is all of
 $\mathbb N$, of density $1$, so neither conjectured bound holds. The derived
 standing therefore records a disproof rather than the plain answer the site's
-label carries. Both questions ask whether a bound always holds, and the
+label carried. Both questions ask whether a bound always holds, and the
 counterexample refutes each. The counterexample was posted on the site's thread
 on 2026-04-13 with a Lean file. The site's commentary adopted it, presuming that
 Erdős intended restrictions on $g$ or $A$ not recorded in [Er80]. It is recorded

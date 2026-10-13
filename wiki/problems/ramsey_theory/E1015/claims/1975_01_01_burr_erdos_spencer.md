@@ -67,7 +67,7 @@ $k=3$ and does not repair it.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem over Ramsey's theorem.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 SOLVED. In the site's commentary, the curator credits Burr, Erdős and Spencer
 with the determination of $f$ for $n$ large in terms of $t$. The curator is
 independent of the authors. Refereed: the paper appeared in Transactions of the

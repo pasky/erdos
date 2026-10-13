@@ -75,7 +75,7 @@ that no intersecting subfamily is larger than the largest star. The reading
 of the site's wording with infinite ground sets is a variant, and it is
 false, as the Notes record.
 
-**Status.** The site labels the problem OPEN (discussion and proof-claims
+**Status.** The site labeled the problem OPEN (discussion and proof-claims
 threads accessed 2026-10-07). This label describes the corrected Statement. The
 frontmatter's standing follows from three pending full claims of September 2026,
 all proving the corrected Statement:
@@ -133,7 +133,7 @@ Kleitman's and Chvátal's conjectures.
 (23 September) give a short spectral proof. The later two credit the first
 and build on its ideas, as their authors state, and all three disclose AI
 assistance. None is refereed or reviewed by a named outside party, and the
-site's label is OPEN, so the problem is `claimed` with the claim `proved` by
+site's label was OPEN, so the problem is `claimed` with the claim `proved` by
 derivation and no claim is accepted.
 
 Three earlier partial results are refereed and have accepted partial claim

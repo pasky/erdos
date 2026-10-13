@@ -221,7 +221,7 @@ full-sequence question.
 
 Search scope: the primary arXiv records, the authors' and publishers' pages,
 Petkov's manuscript and the pinned public formal records. The
-site labels the problem SOLVED, a label set on 5 September 2026, the day its
+site labeled the problem SOLVED, a label set on 5 September 2026, the day its
 page was last edited, and credits Petkov's improvement in its commentary; its
 forum carries the two claims recorded above, Petkov's with comments in which the
 curator asked for the Palomar registration and edited that link into the claim,

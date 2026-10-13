@@ -64,7 +64,7 @@ https://www.erdosproblems.com/107.
 
 ## Current assessment
 
-The site labels the problem falsifiable; the label is the site's, not a
+The site labeled the problem falsifiable; the label is the site's, not a
 standing from this project. The lower bound $2^{n-2}+1\le f(n)$ is the
 Erdős–Szekeres construction [ErSz60], so the equality can fail only in one way:
 a counterexample would be a finite set of $2^{n-2}+1$ points, no three on a

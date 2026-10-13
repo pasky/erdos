@@ -53,7 +53,7 @@ page's reference [MaRe59] records.
 
 **Acceptance.** Refereed: Proc. Amer. Math. Soc. **13** (1962), no. 4, 571–579.
 The issue is dated August 1962, and the page is dated to the first day of that
-month. Reviewed: Thomas Bloom, the site's curator, marks the problem proved and
+month. Reviewed: Thomas Bloom, the site's curator, marked the problem proved and
 credits the proof to Marcus and Minc.
 
 **Formalization.** Boris Alexeev posted on the site's thread, on
@@ -64,7 +64,7 @@ cites their PAMS paper [MaMi62], and it also lists *Inequalities for the
 permanent function* (Ann. of Math. **75** (1962), 47–62) and credits it to
 Marcus and Minc, although that paper is by Marcus and Newman. The file is
 linked above at the commit that added it, compiled against Lean 4.24.0 and
-its Mathlib release. The site's label carries the Lean qualification on this
+its Mathlib release. The site's label carried the Lean qualification on this
 account, and the community database (teorth/erdosproblems) lists the problem
 as proved with a Lean proof from 2025-11-29. The corpus did not build or
 audit that development, so the page lists no `formalized` evidence; the

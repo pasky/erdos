@@ -329,7 +329,7 @@ made using Claude Fable 5.1 (Anthropic), and the claimant's notes say that
 system produced the arguments, code and write-up under Kataria's direction. It
 is recorded, with its provenance, on
 [[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|its claim page]];
-the site's label is unchanged (OPEN; page last edited 11 April 2026), and
+the site's label was unchanged (OPEN; page last edited 11 April 2026), and
 nothing here adopts the claim.
 
 **Search scope.** None of the routes below found a bound

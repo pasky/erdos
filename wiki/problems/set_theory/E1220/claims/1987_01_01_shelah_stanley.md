@@ -62,7 +62,7 @@ asserts the same not-provable side.
 **Acceptance.** Refereed: the result is a journal paper in the Annals of Pure
 and Applied Logic, volume 36 (1987), received 3 March 1986 and communicated by
 A. Nerode. The DOI record gives only the year, so this page's date is the first
-day of 1987. The site labels the problem OPEN, so no curator acceptance is
+day of 1987. The site labeled the problem OPEN, so no curator acceptance is
 listed. This page states Theorem 3 and the remarks of p. 125 as the Shelah
 archive's copy of the published version (Sh:258) prints them. The proof in §3 is
 not reviewed in this corpus.

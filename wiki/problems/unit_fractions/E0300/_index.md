@@ -32,7 +32,7 @@ fixed $\gamma>0$ and large $N$ the integers in $((1/e+\gamma)N,N]$ have
 reciprocal sum below one, so $A(N)\ge(1-1/e-\gamma)N-1$; the site calls
 $A(N)\ge(1-1/e+o(1))N$ trivial.
 
-**Status.** Solved. The site's label is SOLVED (LEAN), which marks an estimate
+**Status.** Solved. The site's label was SOLVED (LEAN), which marks an estimate
 carried out rather than a proof or disproof. The estimate is
 $A(N)=(1-1/e+o(1))N$, by Liu and Sawhney's Theorem 1.3 (Int. Math. Res. Not.
 2026) together with the trivial lower bound. Erdős and Graham had expected
@@ -93,7 +93,7 @@ partial claim
 recorded as the attribution the site and Liu and Sawhney make. The
 frontmatter standing is derived from these pages.
 
-**The question.** The site asks for the order of $A(N)$, shows SOLVED
+**The question.** The site asks for the order of $A(N)$, showed SOLVED
 (LEAN), and says in its commentary that Erdős and Graham believed
 $A(N)=(1+o(1))N$, that Croot disproved this by showing $A(N)<cN$ for some
 constant $c<1$ and all large $N$, that $A(N)\ge(1-1/e+o(1))N$ is trivial,

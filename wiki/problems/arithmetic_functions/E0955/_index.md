@@ -33,7 +33,7 @@ be the sum of proper divisors function.
 If $A\subset \mathbb{N}$ has density $0$ then $s^{-1}(A)$ must also have density
 $0$.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 30
+**Status.** Open. The site labeled the problem OPEN (page last edited 30
 September 2025). Its commentary credits proofs for the following choices of $A$:
 the primes, the integers with unusually many prime factors, the sums of two
 squares, and the sets of size $x^{1/2+o(1)}$. Each is an accepted partial claim.

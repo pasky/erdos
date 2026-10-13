@@ -84,20 +84,20 @@ Superintelligence © (open-weight models, white-box reasoning)" as the AI used:
 claim on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 
-**Standing.** Rejected. The site's label is OPEN and its commentary, last edited
-8 April 2026, does not mention the claim; the tab's notice says that appearance
-there is no guarantee of correctness. Two comments of 30 July 2026: one asks for
-a summary of the block decomposition lemma's proof; the other points at the
-declared axiom `growth_ineq` and reports that GPT 5.6 Sol, which the commenter
-consulted, did not find it correct. The axiom states that for every good set $A$
-and every $i\ge0$ the $(S_i+1)$-th smallest element of $A$ is at least $P_i$,
-where $S_i=\sum_{j<i}\lfloor\sqrt{P_{j+1}}\rfloor$ and $P_i=10V_iY_i+C_i$, with
-$Y_i=3^{(i+20)^3}$, is the start of the $i$-th block of DeepMind's construction
-for the first question. It is false: at $i=0$ it says that every good set has
-least element at least $P_0>3^{8000}$, while the squares of the primes
-$p\equiv3\pmod4$ form a good set with least element $9$ (the 1970 example of
-Erdős and Sárközy, stated in formal-conjectures as `isGood_example`). The
-development's theorem `summable_of_isGood` rests on this axiom, so the Lean
+**Standing.** Rejected. The site's label was OPEN and its commentary, last
+edited 8 April 2026, does not mention the claim; the tab's notice says that
+appearance there is no guarantee of correctness. Two comments of 30 July 2026:
+one asks for a summary of the block decomposition lemma's proof; the other
+points at the declared axiom `growth_ineq` and reports that GPT 5.6 Sol, which
+the commenter consulted, did not find it correct. The axiom states that for
+every good set $A$ and every $i\ge0$ the $(S_i+1)$-th smallest element of $A$ is
+at least $P_i$, where $S_i=\sum_{j<i}\lfloor\sqrt{P_{j+1}}\rfloor$ and
+$P_i=10V_iY_i+C_i$, with $Y_i=3^{(i+20)^3}$, is the start of the $i$-th block of
+DeepMind's construction for the first question. It is false: at $i=0$ it says
+that every good set has least element at least $P_0>3^{8000}$, while the squares
+of the primes $p\equiv3\pmod4$ form a good set with least element $9$ (the 1970
+example of Erdős and Sárközy, stated in formal-conjectures as `isGood_example`).
+The development's theorem `summable_of_isGood` rests on this axiom, so the Lean
 development proves nothing, and the claim is rejected; the third question stays
 open. No reply from the claimants, no refereed version and no outside review
 were found on 2026-10-07. The repository link is pinned to its head commit of 10

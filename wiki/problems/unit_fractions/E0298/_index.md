@@ -40,7 +40,7 @@ implies the upper-density reading, so the paper's two sentences point to
 different readings. The site's commentary says that Bloom's proof covers
 positive upper density, which it calls likely to be what Erdős intended.
 
-**Status.** Proved. The site's label is PROVED (LEAN). Bloom's theorem applies
+**Status.** Proved. The site's label was PROVED (LEAN). Bloom's theorem applies
 under the assumption of positive upper density, so it answers the Statement in
 each of its readings. The existing formal proof and the statement-only
 declarations are distinguished below.

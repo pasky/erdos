@@ -60,5 +60,5 @@ general approach; the submitters of that claim replied that the arXiv posting
 followed their public release by a week and asked for a disclosure of AI use,
 which the abstract does not carry. The priority dispute is recorded, not
 adjudicated. The paper is not registered on the site's proof-claims tab, and
-the site labels the problem OPEN (page last edited 28 December 2025, as of
+the site labeled the problem OPEN (page last edited 28 December 2025, accessed
 2026-10-07).

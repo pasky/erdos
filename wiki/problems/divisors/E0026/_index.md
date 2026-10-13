@@ -61,7 +61,7 @@ refereed. The site reports van Doorn's modification of Ruzsa's construction to a
 set with divergent reciprocal sum, and the formal-conjectures statement file
 restricts the question to such sets while the site's statement does not.
 
-The site's label carries a Lean qualification: the community database records
+The site's label carried a Lean qualification: the community database records
 that the statement and its resolution are both formalized, the resolution in
 Boris Alexeev's repository as a formalization of Ruzsa's construction, linked
 from that claim page. The file proves Ruzsa's set as its own statement and the

@@ -38,7 +38,7 @@ tends to $0$ with $\delta$ (a remark of this page); Theorem 1.1 of Bui, Pratt
 and Zaharescu gives the same conclusion. The site's Statement asks instead for
 an estimate of $t_n$.
 
-"Estimate $t_n$" is open-ended. The site labels the problem SOLVED after
+"Estimate $t_n$" is open-ended. The site labeled the problem SOLVED after
 listing Selfridge's exact value $t_n=P(n)$ when $P(n)>\sqrt{2n}+1$, with
 $t_n\ll n^{1/2}$ otherwise, and three results of Bui, Pratt and Zaharescu.
 First, the proportion of $n\le x$ with $t_n\le n^c$ tends to that with

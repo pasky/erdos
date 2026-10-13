@@ -70,7 +70,7 @@ $k\ge2$ is implicit in the question: a graph with minimum degree $1$ may be
 a forest and have no cycle at all.
 
 **Acceptance.** Refereed: Combinatorica, per the publisher's Crossref
-record. Reviewed: the site's curator, Thomas Bloom, labels the problem
+record. Reviewed: the site's curator, Thomas Bloom, labeled the problem
 PROVED and records the theorem as answering the question in the problem's
 commentary. This corpus supplies no independent proof review.
 

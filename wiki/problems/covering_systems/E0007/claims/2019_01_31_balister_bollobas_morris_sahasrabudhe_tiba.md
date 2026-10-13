@@ -63,7 +63,7 @@ stays open.
 doi:10.2140/ant.2021.15.609. The paper was received 31 January 2019, accepted 18
 September 2020 and published 20 May 2021. The arXiv v1 of 2019-01-31 names this
 page. Not reviewed: the site's commentary credits the result, but the site
-labels the problem VERIFIABLE, an open label. On the site's own account, the
+labeled the problem VERIFIABLE, an open label. On the site's own account, the
 credit therefore settles no part of the problem. Not formalized: the library's
 exact certificate checks are author-recorded coverage by this project and award
 nothing here.

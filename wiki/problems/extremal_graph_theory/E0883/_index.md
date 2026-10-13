@@ -97,7 +97,7 @@ of 27 July 2026 (p. 1) also records the second question as settled by [Sa99].
 The result is recorded on the claim page
 [[problems/extremal_graph_theory/E0883/claims/1999_05_01_sarkozy|Sárközy's Theorem 1]].
 
-**Status.** Claimed. The site's label is OPEN. Pending claims answer the first
+**Status.** Claimed. The site's label was OPEN. Pending claims answer the first
 question, and an accepted claim settles the second.
 
 **Source.** [erdosproblems.com/883](https://www.erdosproblems.com/883), accessed

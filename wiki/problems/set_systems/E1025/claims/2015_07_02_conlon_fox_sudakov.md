@@ -73,7 +73,7 @@ cites and does not reprove.
 
 **Acceptance.** Refereed: the paper appeared in J. Combin. Theory Ser. B 121
 (2016), 173–196. It was first posted as arXiv:1507.00547 on 2015-07-02.
-Reviewed: Thomas Bloom, the site's curator, labels the problem solved and
+Reviewed: Thomas Bloom, the site's curator, labeled the problem solved and
 credits Conlon, Fox and Sudakov with the upper bound $g(n)\ll n^{1/2}$ beside
 Spencer's lower bound.
 

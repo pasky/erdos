@@ -55,7 +55,7 @@ in either reading is strictness. The Statement is the site's minimum of Turán
 numbers. The departure from the passage changes no known answer, since both
 readings are open, so the Statement stands and the $f_1$ reading is a variant.
 
-**Status.** Open. The site labels the problem OPEN. The search whose scope the
+**Status.** Open. The site labeled the problem OPEN. The search whose scope the
 Current assessment records found no source that estimates $f(n;k,l)$ for general
 $(k,l)$ in the range $k<l\le k^2/4$, beyond the pairs recorded below. It also
 found none that decides strict monotonicity in $l$ in either reading. This is a

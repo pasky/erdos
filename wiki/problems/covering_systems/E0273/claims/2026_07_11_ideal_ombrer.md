@@ -68,5 +68,5 @@ commit of the linked revision, both 2026-07-11; the repository was created on
 announcing it followed on 2026-07-12. The note is not refereed, no outside
 review is recorded, and the Lean file covers only part of the parity reduction,
 which this corpus has not built or audited, so no evidence kind is listed. The
-site's label is OPEN, and the claim is partial and derives nothing for the
+site's label was OPEN, and the claim is partial and derives nothing for the
 problem's standing.

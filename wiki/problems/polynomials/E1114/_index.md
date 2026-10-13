@@ -57,7 +57,7 @@ text of Erdős's on the question is known, and the site's commentary records
 that Bálint gives none; the degree slip is the site's, and the stray index
 follows Bálint's English summary. No result concerns the site's wording.
 
-**Status.** Proved. The site's label is PROVED. Bálint proved the corrected
+**Status.** Proved. The site's label was PROVED. Bálint proved the corrected
 Statement in 1960, in Matematikai Lapok, and the accepted claim page is
 [[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]]. Lorch gave
 generalizations in 1976. No Lean proof that the corpus built and audited checks
@@ -111,7 +111,7 @@ reprove the monotonicity theorem itself, so the paper carries no claim page.
 Whether the convergence of the gaps is monotone in the degree is left open
 there.
 
-**Formalization.** The site labels the problem PROVED, not PROVED (LEAN),
+**Formalization.** The site labeled the problem PROVED, not PROVED (LEAN),
 and no formal-conjectures statement file exists for the problem.
 A Lean 4 file in Boris Alexeev's lean-proofs repository declares itself a
 formalization of Bálint's solution and proves the gap monotonicity for a

@@ -24,9 +24,9 @@ updated: 2026-10-08T18:28:45Z
 **Statement.** Let $g(k)>k+1$ be the smallest $n$ such that all prime factors of
 $\binom{n}{k}$ are $>k$. Estimate $g(k)$.
 
-**Status.** Open on the site (OPEN; page last edited 21 June 2026). The standing
-in the frontmatter derives from the claim pages, and the problem stands open
-with a pending partial claim.
+**Status.** Labeled open on the site (OPEN; page last edited 21 June 2026). The
+standing in the frontmatter derives from the claim pages, and the problem stands
+open with a pending partial claim.
 
 The site's remarks credit the bounds $k^{1+c}<g(k)\le\exp((1+o(1))k)$ to
 Ecklund, Erdős and Selfridge. They credit the lower-bound record
@@ -41,7 +41,7 @@ The only claim is the pending partial claim
 It is a manuscript of September 2026 with a Lean development, produced with
 GPT-6 Astra and GPT-5.6 Sol. It proves $g(k)<L_k$ for every sufficiently large
 $k$. It does not estimate $g(k)$. No reviewer has accepted it, this corpus has
-not built its Lean, and the site's label is unchanged.
+not built its Lean, and the site's label was unchanged.
 
 **Source.** [erdosproblems.com/1095](https://www.erdosproblems.com/1095),
 accessed 2026-09-04 and 2026-10-06 (the problem page and its proof-claims tab:

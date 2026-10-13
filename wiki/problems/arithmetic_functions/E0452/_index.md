@@ -47,7 +47,7 @@ https://www.erdosproblems.com/452.
 **The question (site formulation).** With $\omega(n)$ the number of distinct
 prime factors of $n$, the size $L(x)$ of the largest interval
 $I\subseteq[x,2x]$ on which $\omega(n)>\log\log n$ throughout. The site
-labels the problem OPEN (page last edited 28 October 2025).
+labeled the problem OPEN (page last edited 28 October 2025).
 
 **Standing.** Open. One pending partial claim, White's report of 2026-07-26
 ([[problems/arithmetic_functions/E0452/claims/2026_07_26_white|claim page]]),

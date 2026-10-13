@@ -77,7 +77,7 @@ Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975), received 20
 November 1973. This is the `refereed` evidence. The citation gives the year
 without a month or day, so this page is dated to the first day of that year. The
 site's curator, Thomas Bloom, credits the bound $N^{1/2}\ll\ell(N)$ to this
-paper in the problem page's commentary. The site labels the problem OPEN, so
+paper in the problem page's commentary. The site labeled the problem OPEN, so
 that credit is not `reviewed` evidence. The library's result pages reconstruct
 the paper's proof chain and await independent review. They award nothing by this
 corpus.

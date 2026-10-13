@@ -101,7 +101,7 @@ The site's formulation, last edited 11 April 2026 and accessed 2026-09-28, is
 the Statement above word for word: is there some $k$ such that every large
 integer is the sum of a prime and at most $k$ powers of $2$. The exact
 question is open. No resolution claim was found in the search scope stated
-under Status: the erdosproblems.com page shows OPEN, with the site's note
+under Status: the erdosproblems.com page showed OPEN, with the site's note
 that no finite computation can resolve it, its discuss thread holds one
 comment (a typo report of 11 April 2026) and its proof-claims thread one
 partial claim, submitted 2026-08-07, whose own summary says that it does not

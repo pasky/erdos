@@ -60,8 +60,8 @@ analysis of digraphs, was not reconstructed here.
 **Acceptance.** The result appeared in a refereed journal, *Inventiones
 Mathematicae*, in 2009. This is the `refereed` evidence. The inspected text is
 the arXiv v4 final version, which was not compared with the version of record.
-The site's curator, Thomas Bloom, marks the problem PROVED and credits the proof
-to Aharoni and Berger. That curator credit is the `reviewed` evidence. The
+The site's curator, Thomas Bloom, marked the problem PROVED and credits the
+proof to Aharoni and Berger. That curator credit is the `reviewed` evidence. The
 formal-conjectures statement file for the problem is linked from the problem
 page. At the commit read, it holds only statements with `sorry` bodies. So no
 formalization is linked, and the page lists no `formalized` evidence.

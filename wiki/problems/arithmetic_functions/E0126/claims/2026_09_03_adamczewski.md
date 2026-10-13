@@ -150,7 +150,7 @@ run on the pinned commit (the first `record` link), dated 2026-09-06, reported a
 successful build and comparison of the primary module against the limit
 statement.
 
-Not reviewed: the site labels the problem PROVED (LEAN), and its export of
+Not reviewed: the site labeled the problem PROVED (LEAN), and its export of
 2026-09-04 printed PROVED (FORMALIZED). Its commentary, last edited 2026-09-03,
 credits the proof to GPT-6 Astra. But the curator submitted the site's proof
 claim directly and is a co-author of the FrontierMath Erdős paper that announces

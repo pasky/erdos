@@ -38,8 +38,8 @@ The reading over typical $x$, and the regimes in which $\epsilon$ shrinks with
 $n$, which the site's remarks discuss, are not settled by any claim, so the
 problem stays open.
 
-**Status.** Open on the site (OPEN with one proof claim listed as full). The
-frontmatter standing `open` derives from the claim pages, and no claim is
+**Status.** Labeled open on the site (OPEN with one proof claim listed as full).
+The frontmatter standing `open` derives from the claim pages, and no claim is
 accepted. The pending partial claim page
 [[problems/divisors/E0450/claims/2026_07_15_snyder|Snyder's linear order for the window length]]
 answers the every-$x$ reading only.
