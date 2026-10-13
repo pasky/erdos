@@ -184,7 +184,12 @@ Konyagin's printed proof. The earlier lower bounds were $e^{n^{2-\varepsilon}}$
 and attributed by Elsholtz (2016, p. 2) to Sándor (Period. Math. Hungar. 47
 (2003), 215--219; not held). The release's accepted claim gives
 $\log\log F(k)\ge ck$ for all large $k$, which exceeds every bound of this
-paragraph; the constant $c$ is not explicit.
+paragraph; the constant $c$ is not explicit. Van Doorn's forum post of 10
+October 2026 announcing the write-up recorded on
+[[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
+states $F(k)>e^{e^{ck}}$ as a consequence, through $v(k)>e^{e^{ck}}$ from a
+greedy start that never takes $1/b$, but the write-up itself proves only the
+bound for $N(b)$ of Problem 304 and does not carry out this step.
 
 **Upper bound.**
 [[../library/unit_fractions/elsholtz_2021_sums_four_more_unit_fractions_approximate/corollary_3|Elsholtz--Planitzer's

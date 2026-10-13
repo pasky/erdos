@@ -34,11 +34,14 @@ The site's commentary names the dyadic sequence $\{1,1/2,1/4,\ldots\}$ as an
 open special case. That case is settled by an accepted partial claim of the
 OpenAI mathematics release,
 [[problems/analysis/E0120/claims/2026_09_25_openai|the dyadic case]]. This
-corpus's verification built and audited its Lean declaration. Three pending
+corpus's verification built and audited its Lean declaration. Four pending
 partial claims assert further special cases. One is the release's
 [[problems/analysis/E0120/claims/2026_10_05_openai|geometric-progression case for each fixed ratio]],
-of which only the ratio $1/2$ is formally verified. The other two are arXiv
-preprints of 2026 by Iosevich and coauthors, on
+of which only the ratio $1/2$ is formally verified. An arXiv preprint of Jiang
+and Xi adapts the release's construction to
+[[problems/analysis/E0120/claims/2026_10_08_jiang_xi|every positive null sequence whose adjacent ratios stay bounded away from $0$]],
+which contains both geometric cases. The other two are arXiv preprints of 2026
+by Iosevich and coauthors, on
 [[problems/analysis/E0120/claims/2026_07_03_mora_cuellar_iosevich_kulkarni_rojas_aravena_yavicoli|sums and differences of a geometric sequence and an infinite set]]
 and on
 [[problems/analysis/E0120/claims/2026_09_03_iosevich_kulkarni_mora_cuellar_rojas_aravena_yavicoli|sets supporting a Rajchman measure]].
@@ -114,8 +117,9 @@ the manuscripts below cite his 1974 problem list instead. A 2020 preprint of
 Cruz, Lai and Pramanik claimed the full conjecture and was withdrawn three days
 later over a gap in its Proposition 3.3; its
 [[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|claim page]]
-records the claim and the withdrawal. The newest special cases are two arXiv
-preprints of 2026, both cited in the release's geometric manuscript. Mora
+records the claim and the withdrawal. Two arXiv preprints of 2026 that
+predate the release, both cited in its geometric manuscript, give further
+special cases. Mora
 Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli
 ([arXiv:2607.03584](https://arxiv.org/abs/2607.03584), 3 July 2026) state that
 for every infinite $A\subseteq\mathbb{R}$, every $a\ne0$ and every $0<|r|<1$
@@ -157,12 +161,51 @@ alone and the geometric claim stays claimed; both being partial, the problem's
 derived standing is open. Their claim pages rest on the theorem statements, read
 clause by clause on the result pages of the cards; no proof step was checked.
 
+**Null sequences with ratios bounded below.** Kan Jiang and Lifeng Xi
+([arXiv:2610.11449v1](https://arxiv.org/abs/2610.11449v1), 8 October 2026)
+claim the release's conclusion for every sequence of positive reals $a_n\to0$
+with $\liminf a_{n+1}/a_n>0$, monotone or not: for every $\eta\in(0,1)$ a
+compact $E\subseteq[0,1]$ of measure above $1-\eta$ such that every copy
+$x+s\{a_n\}$ with $s\ne0$ has a point outside $E$ (Theorem 1.1;
+[[problems/analysis/E0120/claims/2026_10_08_jiang_xi|claim page]]). The case
+$a_n=q^n$ is the release's geometric theorem [OAI26b] for each ratio, in the
+same form, and $q=1/2$ is the dyadic theorem [OAI26a]; ratios tending to $1$
+give the theorem of Eigen and Falconer. The paper credits the finite-tree
+construction and the geometric case to the release manuscripts and writes the
+adapted proof out in full, so it is a second written proof of the geometric
+claim, not a review of it. Its Corollary 6.1 also gives one avoiding set for
+any countable family of such sequences, so for countably many ratios at once,
+which [OAI26b] does not assert. The preprint is unrefereed and unreviewed, so
+its claim stays claimed, and the geometric claim keeps its own standing.
+
+**What remains open.** A set that contains no copy of a subset of $A$
+contains no copy of $A$; an unbounded set is avoided by any bounded set of
+positive measure; and a bounded infinite set contains a positive null sequence
+after a translation and possibly a reflection. So if Jiang and Xi's theorem
+holds, the question is settled for every infinite set with an accumulation
+point $p$ approached from one side by points of the set whose distances to $p$
+shrink by at most a fixed factor at each step. It stays open for the bounded
+infinite sets with no accumulation point of that kind: at each accumulation
+point $p$ and on each side of it, for every $\alpha\in(0,1)$ there are
+arbitrarily small $t>0$ such that no point of the set on that side lies at
+distance between $\alpha t$ and $t$ from $p$. Among positive null sequences
+these are exactly the sequences whose terms, listed in decreasing order, have
+$\liminf a_{n+1}/a_n=0$, such as $2^{-2^n}$, the paper's example of where its
+estimate fails, or $1/n!$. None of the claims recorded here reaches them, and
+the whole conjecture reduces to them, as the paper's closing remark notes:
+every positive null sequence has a subsequence $(c_j)$ with
+$c_{j+1}\le2^{-j}c_j$. Among uncountable sets they include the Cantor sets
+whose dissection ratios tend to $0$, which have Hausdorff dimension zero; the
+Rajchman-measure claim above reaches those of them that support such a
+measure.
+
 **Search scope.** The site's problem page and proof-claims tab as read, the release's two manuscripts, family Lean page and comparator
 file (linked at the pinned revision from the claim pages), the library cards
 named above, and the bibliographies of the two release manuscripts, from
-which the 2026 preprints in Known results come. No literature search beyond
-those sources was made; the refereed theorems Known results cites through
-[JLM24] are not separately listed in References.
+which the 2026 preprints in Known results come. A later search of arXiv's new
+mathematics listings found Jiang and Xi's preprint. No other literature search
+was made; the refereed theorems Known results cites through [JLM24] are not
+separately listed in References.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

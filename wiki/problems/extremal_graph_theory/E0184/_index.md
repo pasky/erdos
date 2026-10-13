@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # Problem 184
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E0184/claims/_index|claims/]]: The 2 claim pages of Problem 184, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0184/claims/_index|claims/]]: The 3 claim pages of Problem 184, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -43,10 +43,10 @@ the statement.
 **Status.** OPEN, the site's label (page last edited 1 April 2026; proof-claim
 tab read 2026-10-07). The derived standing of this page is solved, proved. The
 two differ because the standing rests on a theorem the label does not reflect.
-The site's page was last edited before either 2026 claim, and the release's
-theorem below is not on the site's proof-claim tab. Theorem 1.1 of the OpenAI
-mathematics release's preprint of 24 September 2026 gives an absolute $C$ with
-$f(n)\le Cn$ for every $n$. It is recorded as accepted on
+The site's page was last edited before any of the 2026 claims, and the
+release's theorem below is not on the site's proof-claim tab. Theorem 1.1 of
+the OpenAI mathematics release's preprint of 24 September 2026 gives an
+absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
 with evidence formalized only. The corpus's verification of 2026-10-07 built the
 release's Lean declarations `OAI.ErdosGallai.erdos_gallai`, `MainStatement`,
@@ -58,6 +58,9 @@ informal manuscript is unrefereed, and its proof was read for structure only. A
 second full claim, Ryan Coffey's Lean-formalized proof of the formal-conjectures
 statement (1 October 2026), is recorded as claimed on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
+A third, Jaehoon Kim's arXiv preprint (v1 6 October 2026, v2 9 October 2026),
+proves the statement by a different route and is recorded as claimed on
+[[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|its claim page]].
 
 Before these claims, the best upper bound in the refereed record was
 [[../library/extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/theorem_2|Bucić and Montgomery's Theorem 2]],
@@ -72,7 +75,7 @@ Montgomery give for Erdős's 1983 remark. So the constant $C$ is at least
 $\tfrac32$ and is not determined. The conjecture was known for the random graph
 $G(n,p)$ and for graphs of linear minimum degree (Conlon, Fox and Sudakov,
 Theorems 1.3 and 1.4). The search whose scope the Current assessment records
-predates both claims and found neither a proof nor a disproof.
+predates the 2026 claims and found neither a proof nor a disproof.
 
 **Source.** [erdosproblems.com/184](https://www.erdosproblems.com/184),
 accessed 2026-09-18: the problem page (OPEN,
@@ -299,7 +302,7 @@ and repeats the $(\tfrac32-o(1))n$ lower bound. The preprint was not read
 beyond its abstract, is not held and is not refereed as far as found; a
 special class, not the general problem.
 
-**Resolution (2026).** Two full claims postdate the search below.
+**Resolution (2026).** Three full claims postdate the search below.
 
 - The OpenAI mathematics release's preprint *A linear cycle-and-edge
   decomposition of every graph* (24 September 2026) states as its Theorem 1.1
@@ -331,9 +334,28 @@ special class, not the general problem.
   pinned statement and the forum entry, with the paper and the proof not
   checked; it is recorded as claimed on
   [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
+- Jaehoon Kim's preprint *A proof of the Erdős–Gallai cycle decomposition
+  conjecture* (arXiv:2610.07840, v1 6 October 2026, v2 9 October 2026)
+  proves $f(n)=O(n)$ as its Theorem 1.1 by a single procedure. The procedure
+  records single edges at vertices of small degree and removes heavy cycles,
+  those through many vertices of small degree, while a degree potential
+  bounds how many it removes. In the remaining light graphs it finds a set
+  $S$ inducing minimum degree $|S|^{1/1000}$ with many vertices that have at
+  most two neighbors outside $S$, and it decomposes that subgraph by an
+  extension of Conlon, Fox and Sudakov's linear-minimum-degree theorem to
+  polynomial minimum degree. The paper declares extensive use of ChatGPT and
+  Claude in developing the arguments and preparing the text. Its note added
+  says it was submitted before the release was announced and that the two
+  proofs follow different strategies. The deduction of the main theorem from
+  its two ingredients was checked here, and the proofs of the ingredients
+  were not; it is recorded as claimed on
+  [[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|its claim page]].
+  The preprint is not on the site's proof-claim tab, which closed to new
+  claims on 6 October 2026, the day version 1 was submitted.
 
-**Search scope.** The search predates both claims under Resolution; none of
-the routes below found a proof of $f(n)=O(n)$, a disproof, or a proof claim.
+**Search scope.** The search predates the three claims under Resolution;
+none of the routes below found a proof of $f(n)=O(n)$, a disproof, or a
+proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the community database record; formal-conjectures `184.lean` at
@@ -365,7 +387,7 @@ and Section 5.6 of [BM22] read for structure; the release's Theorem 1.1 is
 paged at claims checked with its proof read for structure; what is checked is
 the release's formal statement and kernel-checked proof, by the corpus's own
 build and audit and by no outside reviewer, not any informal argument, and
-no refereed version of either 2026 claim exists. The constant
+no refereed version of any 2026 claim exists. The constant
 $C$ is not determined (between $\tfrac32$ and an unspecified value). (2) The
 journal version of [BM22] was not compared with the arXiv v2.
 (3) The 1983 remark behind the $(\tfrac32-o(1))n$ bound names no graph, so
@@ -390,7 +412,10 @@ derived from the claim pages, not from the label.
   (accepted on the formal proof; unrefereed): $f(n)\le Cn$ for an absolute
   $C$, the problem's answer;
   [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|Coffey 2026]]
-  (claimed): a second Lean-formalized proof of $f(n)=O(n)$.
+  (claimed): a second Lean-formalized proof of $f(n)=O(n)$;
+  [[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|Kim 2026, Theorem 1.1]]
+  (claimed; arXiv preprint): a third proof of $f(n)=O(n)$, by a different
+  route and not formalized.
 - [[../library/extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/theorem_2|Bucić--Montgomery, Theorem 2]]
   (2023; Adv. Math. 2024): $f(n)=O(n\log^\star n)$, the best refereed upper
   bound;

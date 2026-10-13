@@ -3,25 +3,32 @@ name: problems/integer_sequences/E1057
 title: Problem 1057
 desc: |
   Asks whether the number $C(x)$ of Carmichael numbers up to $x$ satisfies
-  $C(x)=x^{1-o(1)}$.
+  $C(x)=x^{1-o(1)}$. A Lean proof submitted to a bounty site in October 2026
+  claims the answer yes.
 tags:
 - Number theory
-status: open
-claim: none
+status: claimed
+claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # Problem 1057
 
 [[problems/integer_sequences/_index|..]]
 
+[[problems/integer_sequences/E1057/claims/_index|claims/]]: ...
+
 ***
 
 **Statement.** Let $C(x)$ count the number of Carmichael numbers in the interval
 $[1,x]$. Is it true that $C(x)=x^{1-o(1)}$?
 
-**Status.** Open. The site's label was OPEN, and no claim page is recorded.
+**Status.** The site labeled the problem OPEN (page last edited 16 January
+2026). The derived standing is `claimed`. It comes from one pending full
+claim: a Lean proof of the affirmative answer, submitted to the bounty site
+Conjectures.io under the handle JenW1N and recorded on
+[[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|its claim page]].
 
 **Source.** [erdosproblems.com/1057](https://www.erdosproblems.com/1057),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1057,
@@ -57,7 +64,7 @@ https://www.erdosproblems.com/1057.
 
 **Scope.** The question, status and literature are not assessed here: the
 page carried the site's label (OPEN) and its references,
-and no status search is recorded. The only authored note is the one below.
+and no status search is recorded. The authored notes are the two below.
 
 **Two release manuscripts on smooth shifted primes.** Two manuscripts of the
 OpenAI mathematics release, both dated 24 September 2026, *Weighted dilation
@@ -84,6 +91,23 @@ not make. A lower bound for $C(x)$ obtained by feeding these claims into the
 method of [AGP94] would be a new result, not one the release claims; nothing
 in either manuscript is verified in this corpus, and neither has a claim
 page.
+
+**A Lean proof of the full statement.** A Lean 4 file submitted to the
+bounty site Conjectures.io under the handle JenW1N, verified by the site's
+kernel on 10 October 2026 and approved by its review on 12 October 2026,
+claims the affirmative answer: its final theorem is the formal-conjectures
+statement that $\log C(x)/\log x\to1$, with no hypothesis left, and that
+statement is the question above with the same quantity, limit and polarity
+([[problems/integer_sequences/E1057/claims/2026_10_10_jenw1n|the claim page
+records the file, its target and what it inlines]]). It follows the method of
+[AGP94], building Carmichael numbers from primes with smooth predecessors,
+and supplies both inputs in Lean: a zero-free half-plane
+$\operatorname{Re}s>23/24$ for all Dirichlet $L$-functions, taken from the
+OpenAI release's Lean formalization of its zero-free half-plane work, and a
+supply of primes with smooth predecessors, which the file proves itself; it
+names neither manuscript above. This corpus has neither built nor replayed
+the file, and no refereed publication or independent review exists, so the
+claim is pending.
 
 <!-- BEGIN problem library links -->
 

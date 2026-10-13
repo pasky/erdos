@@ -7,7 +7,7 @@ desc: |
   factors, the largest prime factor — along with general additive and
   multiplicative functions and perfect, amicable and aliquot-type questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # Arithmetic Functions
@@ -199,7 +199,9 @@ $n_k/m_k\to\alpha$, where $\sigma$ is the sum of divisors.
 [[problems/arithmetic_functions/E0824/_index|E0824/]]: Asks whether the number
 $h(x)$ of coprime pairs $a<b<x$ with $\sigma(a)=\sigma(b)$ satisfies
 $h(x)>x^{2-o(1)}$. An AI-assisted write-up of August 2026 claims
-$h(x)>x^{\gamma}$ for every $\gamma<13/8$.
+$h(x)>x^{\gamma}$ for every $\gamma<13/8$, and a draft of October 2026 claims
+the answer yes under a hypothesis on primes $p$ with $p+1$ free of large prime
+factors.
 
 [[problems/arithmetic_functions/E0825/_index|E0825/]]: Asks whether there is a
 constant $C$ such that every integer $n$ with $\sigma(n)>Cn$ is a sum of

@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 1139, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # problems/primes/E1139/claims
@@ -15,5 +15,10 @@ updated: 2026-10-11T22:24:14Z
 integers with at most two prime factors exceed any constant multiple of the
 logarithm of the index infinitely often. It is a thread and tab claim, and it
 is pending.
+
+[[problems/primes/E1139/claims/2026_10_05_xu|2026_10_05_xu]]: Linmiao Xu's Lean development, registered in the Palomar registry, proves the
+infinite limsup from the Green-Tao-Ziegler linear-forms asymptotic, a
+published theorem it takes as a hypothesis, and proves without it a limsup
+of at least some $A>1$. It is pending.
 
 ***

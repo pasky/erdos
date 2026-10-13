@@ -39,14 +39,18 @@ $$
 exist?
 
 **Status.** Open. The site labeled the problem OPEN (page last edited 10 April
-2026). Its proof-claims thread carried no claim as of 6 October 2026. The
+2026). Its proof-claims thread carried no claim when the site froze it on 6
+October 2026. The
 problem's three questions are listed as its parts. The accepted partial claims
 of
 [[problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson|Frankl and Wilson]]
 and
 [[problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii|Raigorodskii]]
-settle the exponential-growth question. The estimate and the existence of the
-limit are open, so the standing derived from the claim pages is open.
+settle the exponential-growth question. A pending partial claim of
+[[problems/discrete_geometry/E0704/claims/2026_10_08_davies|Davies]] raises
+the lower bound to $(2+o(1))^n$ and lowers the upper bound to
+$(3\sqrt3/2+o(1))^n$. The estimate and the existence of the limit are open, so
+the standing derived from the claim pages is open.
 
 **Source.** [erdosproblems.com/704](https://www.erdosproblems.com/704), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #704,
@@ -82,18 +86,39 @@ $(3+o(1))^n$, conjecturing that the truth is $(2^{3/2}+o(1))^n$, with
 $2^{3/2}\approx2.828$; and Prosanov [Pr20]
 ([[../library/discrete_geometry/prosanov_2020_new_proof_larman_rogers_upper_bound/_index|card]])
 gave another proof of the Larman–Rogers bound. Whether the limit of
-$\chi(G_n)^{1/n}$ exists, and its value if it does, are open; the
-established bounds confine it to the interval $[1.239\ldots,3]$.
+$\chi(G_n)^{1/n}$ exists, and its value if it does, are open; the refereed
+bounds confine it to the interval $[1.239\ldots,3]$, and Davies's pending
+bounds below to $[2,3\sqrt3/2]$, with $3\sqrt3/2=2.598\ldots$.
 
 Frankl and Wilson's exponential lower bound and Raigorodskii's larger base
-are the problem's two claim pages, accepted partial claims on their refereed
-publications; each proves exponential growth and so settles the
-exponential-growth part, and the later one sharpens the estimate. The
-Larman–Rogers upper bound and Prosanov's new proof of it get no claim pages:
-an upper bound answers none of the three questions. One recent result is
-recorded here
-because it concerns the family: OpenAI's release preprint *The Euclidean
-plane is not five-colorable* (OpenAI Math Release, 23 September 2026;
+are accepted partial claims on their refereed publications; each proves
+exponential growth and so settles the exponential-growth part, and the later
+one sharpens the estimate. The Larman–Rogers upper bound and Prosanov's new
+proof of it get no claim pages: an upper bound answers none of the three
+questions.
+
+The best bounds claimed are those of James Davies
+([arXiv:2610.12301v1](https://arxiv.org/abs/2610.12301v1), 8 October 2026;
+[[problems/discrete_geometry/E0704/claims/2026_10_08_davies|claim page]]),
+$(2+o(1))^n\le\chi(G_n)\le(3\sqrt3/2+o(1))^n$, his Theorems 1.4 and 1.5. Both
+bases are new: the paper names Raigorodskii's $1.239\ldots$ and the
+Larman–Rogers $3$ as the previous bounds. The abstract prints the upper base as
+$3\sqrt3/4$, a misprint for the $3\sqrt3/2$ of Theorem 1.5 and its proof. The
+lower bound is proved for measurable colorings by a Fourier certificate built
+from Bessel functions and carried to all colorings by the paper's main
+theorem, that the chromatic number of $\mathbb R^n$ equals its measurable
+chromatic number for every $n\ge4$. The upper bound is a random construction
+of a Borel coloring. If Theorem 1.5 holds, the Larman–Rogers guess
+$(2^{3/2}+o(1))^n$ is false, since $3\sqrt3/2<2^{3/2}$ ($27/4<8$); the paper
+does not mention that guess and conjectures instead that one of its two bases
+is tight. The preprint is unrefereed, so its claim is pending. The claim is
+partial: its lower bound answers the exponential-growth part, which the
+accepted claims already settle, and it settles neither the estimate nor the
+existence of the limit.
+
+One recent result is recorded here because it concerns the family: OpenAI's
+release preprint *The Euclidean plane is not five-colorable* (OpenAI Math
+Release, 23 September 2026;
 [[../library/discrete_geometry/openai_2026_euclidean_plane_not_five_colorable/_index|card]])
 proves that $6\le\chi(G_2)\le7$, which is the accepted partial claim on
 [[problems/discrete_geometry/E0508/claims/2026_09_23_openai|Problem 508's
@@ -102,7 +127,8 @@ growth of $\chi(G_n)$ in $n$, and so gets no claim page here; its transfer
 theorem between arbitrary and measurable colorings is stated for the plane.
 
 Search scope, 6 October 2026: the site's page and proof-claims thread, and
-the release of 23 September 2026; no further literature search.
+the release of 23 September 2026; no further literature search. A later search
+of arXiv's new mathematics listings found Davies's preprint.
 
 <!-- BEGIN problem library links -->
 

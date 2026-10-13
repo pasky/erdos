@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 704, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T11:54:58Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:25:58Z
 ---
 
 # problems/discrete_geometry/E0704/claims
@@ -19,5 +19,11 @@ $n$-dimensional space. This answers the exponential-growth question yes.
 distance graph of $n$-dimensional space is at least $(1.239\ldots+o(1))^n$.
 This raises Frankl and Wilson's base and answers the exponential-growth
 question yes.
+
+[[problems/discrete_geometry/E0704/claims/2026_10_08_davies|2026_10_08_davies]]: An arXiv preprint of Davies claims
+$(2+o(1))^n\le\chi(G_n)\le(3\sqrt3/2+o(1))^n$ for the unit distance graph of
+$\mathbb R^n$, improving both Raigorodskii's lower base $1.239\ldots$ and the
+Larman–Rogers upper base $3$. The lower bound answers the exponential-growth
+question yes; the existence of the limit stays open.
 
 ***

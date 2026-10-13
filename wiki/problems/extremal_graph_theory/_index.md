@@ -634,12 +634,14 @@ constant is formally verified, but the typical structure is open.
 an $r$-graph on $n$ vertices can have with no $k$ vertices spanning $s$ edges,
 the Brown–Erdős–Sós problem. The associated conjecture is proved for $s=3$ and,
 in its linear form, for large uniformity, but open for $3$-graphs with $k=s+3$
-and $s\ge4$.
+and $s\ge4$. A 2026 preprint claims the asymptotics whenever $(rs-k)/(s-1)$ is
+an integer $t$ with $2\le t<r$, except for $3$-graphs with even $s\ge4$.
 
 [[problems/extremal_graph_theory/E1158/_index|E1158/]]: Asks whether Erdős's
 1964 upper exponent for the Turán number of $K_t(r)$, the complete $t$-partite
 $t$-uniform hypergraph with $r$ vertices per class, is attained up to $o(1)$. It
-is known only for $t=2$ and $r\le3$.
+is known for $t=2$ and $r\le3$, and a 2026 preprint claims the case $t=3$,
+$r=2$.
 
 ***
 

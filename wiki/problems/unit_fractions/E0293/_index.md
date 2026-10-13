@@ -258,6 +258,11 @@ their method gives $v(k)\ge e^{e^{ck}}$. The first direction is a two-line
 argument; the second is a stated expectation that the release's Corollary 1.3
 realizes by its own route (the claim page above). Neither changes the
 status.
+Van Doorn's forum post of 10 October 2026 announcing the write-up recorded on
+[[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
+states $v(k)>e^{e^{ck}}$ as a consequence of running its greedy start on
+$(b-1)/b$ without ever taking $1/b$, but the write-up itself proves only the
+bound for $N(b)$ and does not carry out this step.
 Erdős's own proof of the lower bound $N(b-1,b)>\log\log b-1$
 ([[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/theorem_2|Theorem 2 of 1950]])
 already runs through the same link.
