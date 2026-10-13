@@ -196,7 +196,7 @@ that Pollington's introduction quotes with the ratio condition written
 $\ge\alpha>1$, and that Erdős's 1982 paper restates as "not everywhere
 dense". The printed wording carries the irrationality clause and asks about
 density of the fractional parts modulo $1$, not of the distances to the
-nearest integer, as the problem page's corrected Statement does; the strict
+nearest integer, as the problem page's modified Statement does; the strict
 ratio bound $>c>1$ and the site's $n_{k+1}\ge(1+\epsilon)n_k$ describe the
 same class of sequences. The same page reports the Erdős--Taylor theorem
 that the multipliers $\alpha$ for which $(n_k\alpha)$ is not uniformly

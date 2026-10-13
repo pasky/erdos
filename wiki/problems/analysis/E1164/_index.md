@@ -32,7 +32,7 @@ $$
 \log R_n \asymp \sqrt{\log n}?
 $$
 
-**Statement (corrected).** Let $R_n$ be the maximal integer such that the
+**Statement (modified).** Let $R_n$ be the maximal integer such that the
 random walk from the origin in $\mathbb{Z}^2$ visits every $x\in\mathbb{Z}^2$
 with $\| x\|\leq R_n$ in at most $n$ steps.
 
@@ -79,7 +79,7 @@ event with $<x$, and the 2007 paper prints $e^{-4y}$ for the event with
 $\ge y$.
 
 **Status.** PROVED, the site's label (page last edited 25 January 2026), which
-describes the corrected Statement. The derived standing is solved, proved. The
+describes the modified Statement. The derived standing is solved, proved. The
 commentary credits the order as proved independently by Révész [Re90] and
 Kesten. It credits the stronger limit law to Dembo, Peres, Rosen and Zeitouni
 [DPRZ04]. Both results are accepted full claims:
@@ -94,7 +94,7 @@ Alexeev's repository, is a
 
 **Source.** T. F. Bloom,
 [Erdős Problem #1164](https://www.erdosproblems.com/1164), accessed 2026-09-05.
-The corrected Statement follows *Some of Paul's favorite problems* (1999),
+The modified Statement follows *Some of Paul's favorite problems* (1999),
 Problem 6.76, printed p. 12. The published proof of the stronger limit law is
 Dembo–Peres–Rosen–Zeitouni (2004), Theorem 1.4.
 
@@ -106,7 +106,7 @@ corpus has not built or audited it.
 
 ## Current assessment
 
-The corrected Statement is proved. Révész's two-sided bound for the disc
+The modified Statement is proved. Révész's two-sided bound for the disc
 cover time, as the 2004 introduction reports it, gives the order of
 $\log R_n$ in probability, and Dembo–Peres–Rosen–Zeitouni (2004), Theorem
 1.4, gives the stronger limit law with rate $4$; both are accepted full

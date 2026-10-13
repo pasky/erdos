@@ -28,7 +28,7 @@ $H$ with $m$ edges and no isolated vertices.
 Are there infinitely many graphs $G$ which are not Ramsey size linear but such
 that all of its subgraphs are?
 
-**Statement (corrected).** We say $G$ is Ramsey size linear if $R(G,H)\ll m$
+**Statement (modified).** We say $G$ is Ramsey size linear if $R(G,H)\ll m$
 for all graphs $H$ with $m$ edges and no isolated vertices.
 
 Are there infinitely many graphs $G$ which are not Ramsey size linear but such
@@ -59,7 +59,7 @@ $H\subseteq G$, and a graph differing from $G$ only by isolated vertices is
 Ramsey size linear exactly when $G$ is, so a minimal graph has no isolated
 vertices and its proper subgraphs are the subgraphs of its one-edge-deleted
 graphs). No result about the site's wording is published. The problem's standing
-judges the corrected Statement.
+judges the modified Statement.
 
 **Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). $R(G,H)$ is the least $N$ such that every red-blue coloring
@@ -77,7 +77,7 @@ also cites [Er95], which restates the question.
 [[../library/ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/theorem_1|Theorem 1]]
 of [Wi24]. It shows that infinitely many graphs fail to be Ramsey size-linear
 while each of their proper subgraphs has the property. This answers the
-corrected Statement yes. The version cited is arXiv:2409.05931v2 (5 May 2025).
+modified Statement yes. The version cited is arXiv:2409.05931v2 (5 May 2025).
 The paper appeared in European J. Combin. 128 (2025), 104175, so the result is
 refereed. The version of record is dated August 2025, under an open license from
 8 May 2025. The site's curator, T. F. Bloom, credits the paper under the label

@@ -22,7 +22,7 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Let $u_n=p_n/n$, where $p_n$ is the $n$th prime. Does the set of
 $n$ such that $u_n<u_{n+1}$ have positive density?
 
-**Statement (precise).** Let $u_n=p_n/n$, where $p_n$ is the $n$th prime.
+**Statement (modified).** Let $u_n=p_n/n$, where $p_n$ is the $n$th prime.
 Does the set of $n$ such that $u_n<u_{n+1}$ have positive lower density?
 
 **Notes.** The site's wording does not say which density it means: "positive
@@ -66,7 +66,7 @@ The OpenAI release's preprint of 25 September 2026 proves that for every fixed
 $C>0$ a positive proportion of the consecutive prime gaps $p_{n+1}-p_n$ exceed
 $C\log p_n$, uniformly over all large initial segments. It deduces that the $n$
 with $u_n<u_{n+1}$ have positive lower asymptotic density. This is the question
-the precise Statement asks. The release's Lean declaration states both results.
+the modified Statement asks. The release's Lean declaration states both results.
 This corpus built it, checked its axioms and found it identical to the release's
 comparator challenge. So the result is accepted on
 [[problems/integer_sequences/E0968/claims/2026_09_25_openai|its claim page]].

@@ -58,7 +58,7 @@ between and has integral zero, so it equals $\chi_I-\mathrm{mes}\,I$.
 ## Bears on
 
 - [[../wiki/problems/irrationality/E0998/_index|Problem 998]]: the theorem is
-  the converse of the problem's corrected statement (an interval of length
+  the converse of the problem's modified Statement (an interval of length
   $\{j\alpha\}$ has bounded discrepancy), which the problem page credits to
   Hecke and Ostrowski. Because the position is arbitrary, it also gives
   bounded discrepancy for translates whose endpoints are not fractional parts

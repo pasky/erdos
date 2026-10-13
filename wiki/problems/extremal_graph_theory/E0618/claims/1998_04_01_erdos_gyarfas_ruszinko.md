@@ -38,7 +38,7 @@ diameter of triangle-free graphs*, Combinatorica **18** (1998), no. 4,
 [[problems/extremal_graph_theory/E0618/_index|Problem 618]]; the paper writes
 $h(G)$ for $h_2(G)$ and takes logarithms to base two. So every sequence of
 triangle-free graphs of bounded maximum degree has $h_2(G_n)=O(n\log n)$,
-which is $o(n^2)$, and the corrected Statement holds for such sequences. The
+which is $o(n^2)$, and the modified Statement holds for such sequences. The
 upper bound needs no assumption on isolated vertices; the site's commentary
 states the result for graphs without isolated vertices, an assumption that
 belongs to the paper's matching lower bound
@@ -46,7 +46,7 @@ belongs to the paper's matching lower bound
 and
 [[../library/extremal_graph_theory/erdos_1998_decrease_diameter_triangle_free_graphs/corollary_2_7|Corollary 2.7]]).
 
-**Covers.** The bounded-degree case of the corrected Statement: sequences
+**Covers.** The bounded-degree case of the modified Statement: sequences
 whose maximum degree is $O(1)$. The constant $c(d)$ is not uniform in $d$, so
 the theorem does not reach growing degrees; the whole question, maximum degree
 $o(n^{1/2})$, is the accepted full claim

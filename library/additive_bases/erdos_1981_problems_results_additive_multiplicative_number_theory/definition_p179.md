@@ -67,5 +67,5 @@ None.
   [Er81h] source. The problem's properties P and Q are the paper's, and its
   question how fast sequences with property P or Q must increase answers to
   Erdős's remarks that he has no results on the rate. The problem page's
-  corrected Statement rests on the definition of Q printed here, whose condition
+  modified Statement rests on the definition of Q printed here, whose condition
   ranges over the terms of $A$ below $n$.

@@ -31,7 +31,7 @@ $$
 For $k>2$ does the multiset $A_k$ (together with the size of $A$) uniquely
 determine the set $A$?
 
-**Statement (corrected).** If $A\subset \mathbb{C}$ is a finite set and
+**Statement (modified).** If $A\subset \mathbb{C}$ is a finite set and
 $k\geq 1$ then let
 
 $$
@@ -57,7 +57,7 @@ says "Presumably some condition like '$|A|$ sufficiently large' is intended",
 and labeled the problem PROVED on the theorem of Gordon, Fraenkel and Straus
 [GFS62] that "for all $k$, the multiset $A_k$ uniquely determines $A$ provided
 $|A|$ is sufficiently large", added on 14 October 2025 after msellke's forum
-comment of 13 October 2025 supplied the reference. The corrected Statement
+comment of 13 October 2025 supplied the reference. The modified Statement
 adopts that reading in Bloom's words, adding "provided $|A|$ is sufficiently
 large in terms of $k$" and changing nothing else. It is the conjecture Gordon,
 Fraenkel and Straus attribute to Selfridge and Straus [GFS62, §1, p. 187], that
@@ -78,12 +78,12 @@ Codex and GPT-5.6 Sol as formal authors; [file at a pinned
 commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos494.lean)),
 whose only theorem, `card_eq_2k`, proves the failure at $|A|=2k$ for every $k>2$
 and whose own section heading reads "The literal problem has a negative answer".
-The theorem answers the site's wording, not the corrected
+The theorem answers the site's wording, not the modified
 Statement, which asks only about sufficiently large $|A|$; it presents itself as
 a solution of Problem 494 and so has a
 [[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|claim page]],
 which is rejected and does not count toward the standing. The page's standing
-judges the corrected Statement.
+judges the modified Statement.
 
 **Formulation.** In [Er61] (item I.33, p. 238) Erdős states the problem of
 Selfridge and Straus with products of $k$ of the numbers in place of sums;
@@ -101,7 +101,7 @@ number for every $k>2$ by [GFS62].
 
 **Status.** The site labeled the problem PROVED. It credits Gordon, Fraenkel and
 Straus with uniqueness for every $k$ once $|A|$ is sufficiently large. The
-corrected Statement is Bloom's reading, so the label describes it. The theorem
+modified Statement is Bloom's reading, so the label describes it. The theorem
 of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196, refereed) settles
 it. For every $k>2$, all but finitely many sizes $|A|$ admit no two distinct
 sets with the same multiset $A_k$. Selfridge and Straus [SeSt58] settle three
@@ -140,7 +140,7 @@ https://www.erdosproblems.com/494.
 at its commit of 2026-09-18: the file states the Selfridge--Straus cases, the
 counterexamples at $|A|=k$ and $|A|=2k$ and the large-size theorem as variants
 with `sorry` bodies, and has no unqualified main statement; the large-size
-variant is the corrected Statement. The counterexample variants and the $k=2$
+variant is the modified Statement. The counterexample variants and the $k=2$
 power-of-two variant point to formal proofs in a fork of the repository
 (commit of 2026-03-12), linked on
 [[problems/additive_combinatorics/E0494/claims/1958_12_01_selfridge_straus|Selfridge and Straus's claim page]]
@@ -154,7 +154,7 @@ Straus) calls itself a formalization of a solution, but its only theorem,
 `card_eq_2k`, is the formal-conjectures variant that uniqueness fails at
 $|A|=2k$ for every $k>2$. It has
 [[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|its own claim page]],
-rejected because it answers the site's wording, not the corrected Statement
+rejected because it answers the site's wording, not the modified Statement
 (its only theorem is the variant `card_eq_2k`, the failure at $|A|=2k$), and
 the Notes credit it. No formalization of the Gordon--Fraenkel--Straus theorem
 is known, and this corpus has built none of these developments, so no

@@ -33,7 +33,7 @@ updated: 2026-10-07T20:39:38Z
 **Claim.** For $k\ge1$ let $D_k$ be the set of integers that occur as a
 denominator in some representation $1=1/n_1+\cdots+1/n_k$ with
 $1\le n_1<\cdots<n_k$, and let $v(k)$ be the least integer $m>1$ not in
-$D_k$, as in the problem page's corrected Statement. Van Doorn and Tang's
+$D_k$, as in the problem page's modified Statement. Van Doorn and Tang's
 [[../library/unit_fractions/doorn_2025_smallest_denominator_not_contained_unit_fraction/theorem_1_1|Theorem 1.1]]
 states that there is an absolute constant $c>0$ with
 

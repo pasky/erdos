@@ -28,7 +28,7 @@ pseudoperfect, that is, it is not the sum of any set of its divisors.
 Are there any odd weird numbers? Are there infinitely many primitive weird
 numbers, i.e. those such that no proper divisor of $n$ is weird?
 
-**Statement (corrected).** Call $n$ weird if $\sigma(n)\geq 2n$ and $n$ is not
+**Statement (modified).** Call $n$ weird if $\sigma(n)\geq 2n$ and $n$ is not
 pseudoperfect, that is, it is not the sum of any set of distinct proper divisors
 of $n$.
 
@@ -37,7 +37,7 @@ numbers, i.e. those such that no proper divisor of $n$ is weird?
 
 **Notes.** Read as the site words it, the gloss of pseudoperfect allows the
 one-element set $\{n\}$. That would make every $n$ pseudoperfect and both
-questions trivially negative. The corrected Statement replaces "any set of its
+questions trivially negative. The modified Statement replaces "any set of its
 divisors" by "any set of distinct proper divisors of $n$"; nothing else changes.
 The sources read it with proper divisors. Erdős and Graham (1980), p. 94, the
 site's source for the wording, call $n$ weird when $\sigma(n)/n\ge2$ and $n$ is

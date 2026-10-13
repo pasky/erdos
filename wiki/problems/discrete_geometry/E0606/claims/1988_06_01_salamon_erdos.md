@@ -4,7 +4,7 @@ title: Salamon and Erdős's spectrum of line counts
 desc: |
   Salamon and Erdős determine, for every sufficiently large $n$, exactly which
   integers occur as the number of lines determined by $n$ points in the plane.
-  This answers the corrected Statement of Problem 606 in full, and the site
+  This answers the modified Statement of Problem 606 in full, and the site
   credits the refereed paper as the solution.
 authors:
 - Peter Salamon
@@ -31,7 +31,7 @@ updated: 2026-10-08T00:44:25Z
 
 **Claim.** For every sufficiently large $n$, Salamon and Erdős [ErSa88]
 determine the set of integers $m$ for which some $n$ points in the plane
-determine exactly $m$ lines, which answers the corrected Statement of
+determine exactly $m$ lines, which answers the modified Statement of
 [[problems/discrete_geometry/E0606/_index|Problem 606]]. They sort
 configurations into bands by $k$, the number of points off a largest collinear
 subset: $k=0$ gives $m=1$, and in the $k$-th band $m$ lies between

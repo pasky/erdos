@@ -55,5 +55,5 @@ each link, proves the structural Theorem 1, and iterates it in Theorem 2.
 ## Bears on
 
 - [[../wiki/problems/set_systems/E0702/_index|Problem 702]]: this statement,
-  with its range $n>n_0(k)$, is the problem's corrected Statement, and the
+  with its range $n>n_0(k)$, is the problem's modified Statement, and the
   paper proves it. The paper says nothing about smaller $n$.

@@ -31,7 +31,7 @@ $$
 f(n;r,k)=\max\left(\binom{rk-1}{r}, \binom{n}{r}-\binom{n-k+1}{r}\right).
 $$
 
-**Statement (corrected).** Let $f(n;r,k)$ be the maximal number of edges in an
+**Statement (modified).** Let $f(n;r,k)$ be the maximal number of edges in an
 $r$-uniform hypergraph on $n$ vertices which contains no set of $k$ many
 independent edges.
 
@@ -61,7 +61,7 @@ slip. The missing range is already in the poser's text: [Er65d] display (9), p.
 95, prints the conjectured value with no range on $n$, and the site reproduces
 it. The form rests on these sources alone, not on which results settle it. No
 result concerns the site's wording alone: each claim page settles a range of the
-corrected Statement. The problem's standing judges the corrected Statement.
+modified Statement. The problem's standing judges the modified Statement.
 
 **Formulation.** The sources state the problem in two equivalent ways. Erdős
 [Er65d] writes $f(n;r,k)$ for the least number of edges that forces $k$
@@ -72,7 +72,7 @@ $r$-subsets of an $n$-set with matching number at most $s=k-1$, usually with the
 uniformity written $k$. For $n\ge kr$ the upper bound and the equality are the
 same statement, since the two families of the site's commentary attain the right
 side; read as the upper bound for every $n$, the conjecture is again the
-corrected Statement, since the values $n<kr$ are trivial. The formal-conjectures
+modified Statement, since the values $n<kr$ are trivial. The formal-conjectures
 statement, as the Formalization paragraph records, assumes $0<k$ and
 $rk-1\le n$, which adds only the instance $n=rk-1$.
 
@@ -146,7 +146,7 @@ problem as formalized since 7 September 2026.
 ## Current assessment
 
 The site's formulation displays the value of $f(n;r,k)$
-for every $r\ge3$ with no restriction on $n$; the standing judges the corrected
+for every $r\ge3$ with no restriction on $n$; the standing judges the modified
 Statement above, the conjecture for $n\ge kr$. The site's label FALSIFIABLE
 records that a counterexample would be a finite object, an $r$-uniform
 hypergraph on $n$ vertices with no $k$ pairwise disjoint edges and more edges

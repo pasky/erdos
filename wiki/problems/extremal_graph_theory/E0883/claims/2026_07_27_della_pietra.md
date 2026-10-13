@@ -89,7 +89,7 @@ cases below the argument's threshold are not a routine check; the threshold
 $n_0$ is not named), and the second question, on complete tripartite
 subgraphs, which the claim does not address and which
 [[problems/extremal_graph_theory/E0883/claims/1999_05_01_sarkozy|Sárközy's Theorem 1]]
-settles. The page settles the part `odd_cycles` of the corrected Statement;
+settles. The page settles the part `odd_cycles` of the modified Statement;
 the all-$n$ form of the site's wording is the subject of
 [[problems/extremal_graph_theory/E0883/claims/2026_10_05_pan|Pan's later claim]],
 which names the part.

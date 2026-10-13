@@ -81,7 +81,7 @@ of the same paper, with the refinement note; otherwise self-contained.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: the other original solution
-  of the corrected Statement (fractional parts not dense modulo $1$, with
+  of the modified Statement (fractional parts not dense modulo $1$, with
   an irrational multiplier supplied by uncountability), independent of
   [[number_theory/pollington_1979_density_sequence_n_k_xi/theorem|Pollington's Theorem]];
   the two papers credit each other (p. 241 here, p. 511 there). The

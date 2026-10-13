@@ -29,7 +29,7 @@ $$
 \mathrm{ex}_3(n,\mathcal{F}_k)\sim \frac{n^2}{6}?
 $$
 
-**Statement (corrected).** Let $k\geq 5$ and let $\mathcal{F}_k$ be the family
+**Statement (modified).** Let $k\geq 5$ and let $\mathcal{F}_k$ be the family
 of all $3$-uniform hypergraphs with $j$ vertices and $j-2$ edges for some
 $4\leq j\leq k$. Is it true that
 
@@ -67,23 +67,23 @@ single family: a $3$-graph avoiding $\mathcal F_4$ is linear, so
 $\mathrm{ex}_3(n,\mathcal F_4\cup\dots\cup\mathcal F_k)\le\binom n2/3$ for every
 $k$, the two credited papers give the matching lower bound, and a Steiner triple
 system of high girth (Problem 207, proved by Kwan, Sah, Sawhney and Simkin)
-gives the exact value $n(n-1)/6$ for large admissible $n$. The corrected
+gives the exact value $n(n-1)/6$ for large admissible $n$. The modified
 Statement replaces "with $k$ vertices and $k-2$ edges" by "with $j$ vertices and
 $j-2$ edges for some $4\le j\le k$" and changes nothing else. It follows Bloom's
 reading; nothing in Erdős's text points to it, and the Brown–Erdős–Sós
 literature treats the single-family question as Erdős's. The answer to the
 site's wording is no, by the four refereed papers; their results are correct,
 but they answer the printed wording (a single family $\mathcal F_k$), not the
-corrected Statement (the cumulative family), so their claim pages are kept and
+modified Statement (the cumulative family), so their claim pages are kept and
 rejected and do not count toward the problem's standing, and Alexeev's file and
-the two preprints are rejected for the same reason. The answer to the corrected
+the two preprints are rejected for the same reason. The answer to the modified
 Statement is yes, and the problem is proved. Collin Yuanjie Ren's Lean
-submission states the corrected Statement and assembles its proof from the
+submission states the modified Statement and assembles its proof from the
 formalized theorem on Problem 207; the lean-proofs file states the site's
 wording. Neither is built here.
 
 **Status.** The site's label was PROVED (page last edited 7 October 2025). That
-label describes the corrected Statement. The site's remark credits the
+label describes the modified Statement. The site's remark credits the
 asymptotic version to Bohman and Warnke [BoWa19] and to Glock, Kühn, Lo and
 Osthus [GKLO20]. Their lower bound $(1/6-o(1))n^2$, together with the upper
 bound $\binom n2/3$ that linearity gives, proves it
@@ -105,7 +105,7 @@ $k\ge5$ by the preprint
 and at $k=11$, independently, by the preprint
 [[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár–Pikhurko–Sun–Wang–Zeng 2026]].
 Those seven claim pages are rejected, because they answer the site's wording,
-not the corrected Statement.
+not the modified Statement.
 
 **Source.** [erdosproblems.com/1076](https://www.erdosproblems.com/1076),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1076,
@@ -152,20 +152,20 @@ https://www.erdosproblems.com/1076.
 **Formalization.** None recorded by the site, and the formal-conjectures catalog
 has no statement file for the problem. Two third-party Lean developments are
 linked from the claim pages: Collin Yuanjie Ren's submission states the
-corrected Statement and assembles its proof, linked from the two pages it
+modified Statement and assembles its proof, linked from the two pages it
 credits, and the file in Boris Alexeev's lean-proofs collection refutes the
 site's wording, on its own rejected claim page. The corpus has built neither.
 
 ## Current assessment
 
-The corrected Statement forbids, for $k\ge5$, every $3$-graph with $j$ vertices
+The modified Statement forbids, for $k\ge5$, every $3$-graph with $j$ vertices
 and $j-2$ edges for some $4\le j\le k$, the family
 $\mathcal F_4\cup\dots\cup\mathcal F_k$ in the single-family notation of the
 site's wording, and asks whether the extremal number is asymptotic to $n^2/6$.
 The site's wording forbids only the single family $\mathcal F_k$ of $3$-graphs
 with $k$ vertices and $k-2$ edges, and the sources answer the two differently.
 
-Corrected Statement. The site's remark calls the problem essentially a weaker
+Modified Statement. The site's remark calls the problem essentially a weaker
 form of Problem 207, Erdős's conjecture that Steiner triple systems avoiding
 every $(j,j-2)$-configuration with $4\le j\le k$ exist for all large admissible
 orders, and credits the asymptotic version to [BoWa19] and [GKLO20]. A $3$-graph
@@ -228,12 +228,12 @@ the two unrefereed preprints, and at every $k\ge12$ on [CHL26] alone. The
 explicit $(5,3)$-free systems of density $92/529>1/6$ in
 [[problems/set_systems/E1076/claims/2026_08_17_alexeev|Boris Alexeev's lean-proofs file]]
 give a weaker, self-contained refutation at $k=5$. The four refereed results are
-correct, but they answer the site's wording, not the corrected Statement, so
+correct, but they answer the site's wording, not the modified Statement, so
 their pages are rejected and do not count toward the problem's standing, and
 Alexeev's page and the pages of the two preprints are rejected for the same
 reason.
 
-Standing. The two credited papers are accepted full claims on the corrected
+Standing. The two credited papers are accepted full claims on the modified
 Statement, so the problem is proved. The four refereed papers on the single
 family, which determine the limit at $k=5$, at $k=6$ and at $k=7,8,9$ and bound
 it below by $3/16$ at $k=10$, Alexeev's file and the two preprints, which carry

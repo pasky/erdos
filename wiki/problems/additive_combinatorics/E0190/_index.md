@@ -34,7 +34,7 @@ $$
 
 as $k\to\infty$?
 
-**Statement (precise).** Let $H(k)$ be the smallest $N$ such that in any
+**Statement (modified).** Let $H(k)$ be the smallest $N$ such that in any
 finite colouring of $\{1,\ldots,N\}$ (into any number of colours) there is
 always either a monochromatic $k$-term arithmetic progression or a rainbow
 $k$-term arithmetic progression (i.e. all elements are different colours).
@@ -66,8 +66,8 @@ the site's. No result about the readings with a shorter rainbow progression is
 recorded.
 
 **Status.** The site showed SOLVED (page last edited 2 June 2026), a label that
-describes the precise Statement. The precise Statement is **proved**, by each of
-two independent 2026 preprints that the site's commentary credits. Bae proves
+describes the modified Statement. The modified Statement is **proved**, by each
+of two independent 2026 preprints that the site's commentary credits. Bae proves
 $H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$
 ([[problems/additive_combinatorics/E0190/claims/2026_04_22_bae|claim page]]).
 Fox and Hunter prove the stronger $H(k)\ge k^{(1-o(1))k\log k}$
@@ -106,7 +106,7 @@ audited here.
 
 ## Current assessment
 
-The precise Statement asks whether $H(k)^{1/k}/k\to\infty$, where $H(k)$ is
+The modified Statement asks whether $H(k)^{1/k}/k\to\infty$, where $H(k)$ is
 the least $N$ such that every coloring of $\{1,\ldots,N\}$ with any number
 of colors has a monochromatic or a rainbow $k$-term arithmetic progression.
 The answer is yes, by two independent 2026 preprints whose standing the

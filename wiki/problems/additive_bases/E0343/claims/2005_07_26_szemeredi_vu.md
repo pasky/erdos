@@ -2,7 +2,7 @@
 name: problems/additive_bases/E0343/claims/2005_07_26_szemeredi_vu
 title: Szemerédi and Vu's progressions in subset sums
 desc: |
-  Theorem 6.3 of Szemerédi and Vu (2006) proves the corrected Statement of
+  Theorem 6.3 of Szemerédi and Vu (2006) proves the modified Statement of
   Problem 343 in full. There is an absolute constant $C$ such that every
   nondecreasing sequence of positive integers with at least $CN$ terms up to
   $N$, for all large $N$, is subcomplete.
@@ -38,7 +38,7 @@ updated: 2026-10-07T21:53:11Z
 ***
 
 **Claim.** Szemerédi and Vu answer
-[[problems/additive_bases/E0343/_index|Problem 343]] yes in its corrected
+[[problems/additive_bases/E0343/_index|Problem 343]] yes in its modified
 Statement, the form they give Folkman's conjecture. Theorem 6.3 of E.
 Szemerédi and V. Vu, *Long arithmetic progressions in sumsets: thresholds and
 bounds*, J. Amer. Math. Soc. 19 (2006), no. 1, 119--169 (arXiv math/0507539,

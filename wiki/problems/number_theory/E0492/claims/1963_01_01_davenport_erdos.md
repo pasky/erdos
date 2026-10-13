@@ -49,7 +49,7 @@ conversely). The Theorem and (9) are compiled on the result page
 the digest is on the card
 [[../library/number_theory/davenport_1963_theorem_uniform_distribution/_index|davenport_1963_theorem_uniform_distribution]].
 
-**Covers.** The corrected Statement of
+**Covers.** The modified Statement of
 [[problems/number_theory/E0492/_index|Problem 492]] for every real sequence
 $a_1<a_2<\cdots$ tending to infinity with $a_{i+1}/a_i\to1$ and at most
 $\ll N^{2-\delta}$ terms below $N$ for some fixed $\delta>0$: for each

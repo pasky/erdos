@@ -179,7 +179,7 @@ claims follow by applying the tree-free inequality to every color class
 and summing; the stronger case additionally uses parity. The complete
 deduction is in the
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|canonical
-corollary]]. Taking $k=2$ also proves the corrected Statement of
+corollary]]. Taking $k=2$ also proves the modified Statement of
 [[problems/ramsey_theory/E0547/_index|#547]].
 
 The comment of 4 September 2026 in the site's discussion states the parity

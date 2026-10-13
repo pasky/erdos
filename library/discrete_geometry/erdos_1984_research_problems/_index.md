@@ -126,7 +126,7 @@ displays (1)-(5).
   α_i on p. 102 asks for the problem's possible numbers of lines; the note
   records α_1 = 1 and α_2 = n.
 - [[../wiki/problems/discrete_geometry/E0210/_index|#210]]: the note's g_2(n)
-  (p. 102) is the problem's f(n) in its corrected Statement; on pp. 101-102 the
+  (p. 102) is the problem's f(n) in its modified Statement; on pp. 101-102 the
   note reports Gallai's proof of Sylvester's conjecture and Hansen's
   dissertation result g_2(n) = n/2 for even n > n_1, and proves nothing about
   ordinary lines itself.

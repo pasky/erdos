@@ -26,7 +26,7 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** Is it true that if the edges of $K_n$ are 2-coloured then there
 are at most $n^2/4$ many edges which do not occur in a monochromatic triangle?
 
-**Statement (corrected).** Is it true that if the edges of $K_n$ are
+**Statement (modified).** Is it true that if the edges of $K_n$ are
 2-coloured then there are at most $n^2/4$ many edges which do not occur in a
 monochromatic triangle for large $n$?
 
@@ -54,7 +54,7 @@ wording is the small-$n$ part of the same Theorem 1.1 (Keevash and Sudakov,
 J. Combin. Theory Ser. B 90 (2004), 41--53,
 [doi:10.1016/S0095-8956(03)00075-3](https://doi.org/10.1016/S0095-8956(03)00075-3)),
 which refutes it at $n=3,4,5,6$; it is credited here and counts for nothing.
-The site's label describes the corrected Statement, and the standing judges
+The site's label describes the modified Statement, and the standing judges
 it.
 
 **Formulation.** The site's wording of 2026-09-18 (the page shows no
@@ -62,7 +62,7 @@ last-edited date). An edge "does not occur in a monochromatic triangle" if no
 third vertex closes it into a triangle of its own color; Keevash and Sudakov
 call such edges NIM-$\triangle$ edges and write $f(n,\triangle)$ for their
 maximum number over all $2$-edge-colorings of $K_n$ (p. 42). In this notation
-the corrected Statement asks whether $f(n,\triangle)\le n^2/4$ for all
+the modified Statement asks whether $f(n,\triangle)\le n^2/4$ for all
 sufficiently large $n$. Item 10 of [Er97d], the site's source, states the
 result rather than the question, and its second sentence reads: "Many further
 related questions can be asked, but they have not yet been investigated."
@@ -70,9 +70,9 @@ Keevash and Sudakov (p. 42) cite the item as "Problem 10" and read that
 sentence as Erdős suggesting "that generalizations of this result should be
 possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
 
-**Status.** The site showed PROVED (LEAN), a label that describes the corrected
+**Status.** The site showed PROVED (LEAN), a label that describes the modified
 Statement. The suffix is a catalog label explained under Formalization, and no
-local kernel credit is claimed. The corrected Statement is **proved**. The claim
+local kernel credit is claimed. The modified Statement is **proved**. The claim
 page
 [[problems/ramsey_theory/E0639/claims/2003_07_16_keevash_sudakov|Keevash and Sudakov 2003]]
 records the theorem, its postings and its acceptance evidence, and the
@@ -133,7 +133,7 @@ declares
 `erdos_639 : answer(True) ↔ ∀ᶠ (n : ℕ) in atTop, ∀ C : Sym2 (Fin n) → Fin 2, {e : Sym2 (Fin n) | ¬e.IsDiag ∧ ∀ x y : Fin n, e = s(x, y) → ¬∃ z, z ≠ x ∧ z ≠ y ∧ C s(x, z) = C e ∧ C s(y, z) = C e}.ncard ≤ n ^ 2 / 4`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming an external Lean 4 file at a fixed commit. The statement
-is the corrected Statement: "for all sufficiently large $n$", with
+is the modified Statement: "for all sufficiently large $n$", with
 `n ^ 2 / 4` in natural-number division, that is, $\lfloor n^2/4\rfloor$.
 The community database lists the state
 `proved (Lean)` as of its last update on 6 May 2026, the statement
@@ -155,9 +155,9 @@ $n=6$. The thread's one comment
 $n\ge10$ made with Aristotle, an automated proof system, and links a Lean
 web-editor page; the proof-claim tab is empty.
 
-**The site's wording.** The Notes under the corrected Statement give the
+**The site's wording.** The Notes under the modified Statement give the
 defect and its evidence. The site's own commentary carries the values that
-refute the site's wording at $n\le6$, its label describes the corrected
+refute the site's wording at $n\le6$, its label describes the modified
 Statement, and the formal statement encodes the same bound for large $n$
 (its docstring: "Since the bound fails for small $n$ (at $n=6$ the
 threshold is $10>6^2/4$), the statement is formalized in the asymptotic
@@ -266,7 +266,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. The
 Erdős--Rousseau--Schelp argument is unpublished.
 
 **Remaining gaps.** (1) The site's wording drops Erdős's "for large $n$"
-and is false at $n=3,4,5,6$; the page judges the corrected Statement, which
+and is false at $n=3,4,5,6$; the page judges the modified Statement, which
 Theorem 1.1 proves and the site's PROVED (LEAN) describes. (2) Item 10 of
 [Er97d], the site's only source key, states the large-$n$ result without
 proof. Theorem 1 of [Py86] is checked at statement depth, but the paper

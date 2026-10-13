@@ -62,7 +62,7 @@ a root $n>2s$. The statements of Theorems 1 to 6 are recorded on the
 form [[problems/additive_combinatorics/E0494/_index|Problem 494]] asks it,
 following a problem of L. Moser.
 
-**Covers.** The corrected Statement of Problem 494 for $k=3$ and $k=4$:
+**Covers.** The modified Statement of Problem 494 for $k=3$ and $k=4$:
 uniqueness holds for $k=3$ at every size $|A|>6$ other than $27$ and $486$,
 and for $k=4$ at every size $|A|>12$, so the exceptional sizes are finite in
 number for these $k$. For every $k>2$ it also covers the sizes $|A|$ with a
@@ -84,7 +84,7 @@ exceptions rest on the credit to Fomin and Izhboldin (1994) in the
 formal-conjectures statement file linked above. The site's commentary
 states the $k=3$ case for all $|A|>6$, without the two exceptions. Theorem
 3, the failure at $|A|=2k$, answers only the site's wording, which the
-corrected Statement replaces.
+modified Statement replaces.
 
 **Depends on.** Nothing in this wiki.
 

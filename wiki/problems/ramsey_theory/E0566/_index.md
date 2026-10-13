@@ -30,7 +30,7 @@ $$
 R(G,H)\ll m?
 $$
 
-**Statement (corrected).** Let $G$ be such that any subgraph on $k\geq 2$
+**Statement (modified).** Let $G$ be such that any subgraph on $k\geq 2$
 vertices has at most $2k-3$ edges. Is it true that, if $H$ has $m$ edges and
 no isolated vertices, then
 
@@ -56,7 +56,7 @@ supplies a range. Above the excluded sizes no failure remains: for $k=2$ and
 $k=3$ the bound ($1$ and $3$ edges) holds in every graph, and at $k=4$ it
 excludes exactly $K_4$, which is not Ramsey size linear by [EFRS93] Corollary 1
 ($p=4$, $q=6=2p-2$). No result about the site's wording exists beyond the
-vacuity check recorded here, which settles no instance of the corrected
+vacuity check recorded here, which settles no instance of the modified
 Statement.
 
 **Formulation.** The site's wording as of the refresh of 2026-09-17T15:40Z (page
@@ -72,7 +72,7 @@ vertices and $q\ge2p-2$ edges is not Ramsey size linear. The site's commentary
 credits [EFRS93] with Ramsey size linearity for every graph on $n$ vertices
 having at most $n+1$ edges; [EFRS93] Theorem 4 states this for connected $G$.
 
-**Status.** The site labeled the problem OPEN, and the corrected Statement is
+**Status.** The site labeled the problem OPEN, and the modified Statement is
 open. No full claim exists, so the problem is open with no claim. The search
 whose scope the Current assessment records found no proof or disproof. Partial
 results are known from two refereed papers, both recorded as accepted partial
@@ -132,7 +132,7 @@ of formal-conjectures (main) declares `erdos_566 : answer(sorry) ↔ ∀ (p : �
 : SimpleGraph (Fin p)), (∀ S : Finset (Fin p), 2 ≤ S.card → (G.induce
 S).edgeSet.ncard ≤ 2 * S.card - 3) → G.IsRamseySizeLinear` under `category
 research open`, with proof `sorry`. It restricts the density condition to vertex
-sets of at least two elements, so it states the corrected Statement and the
+sets of at least two elements, so it states the modified Statement and the
 degeneracy at $k=1$ does not arise (for two vertices the natural-number
 subtraction gives the bound $1$, which is automatic), and it counts the edges of
 induced subgraphs, which is equivalent to the statement's "any subgraph" since a
@@ -148,7 +148,7 @@ proof; the site's formalized-statement indicator reads yes.
 ## Current assessment
 
 **The question (site formulation of 2026-09-17T15:40Z).** The statement above;
-status OPEN (the site's label, which describes the corrected Statement; the
+status OPEN (the site's label, which describes the modified Statement; the
 wording's degeneracy is recorded under Notes); last edited 18 January 2026. The
 commentary restates the question as asking whether $G$ is Ramsey size linear,
 notes that a graph $G$ on $n$ vertices with $2n-2$ edges is not Ramsey size
@@ -259,7 +259,7 @@ of Balister, Schelp and Simonovits that [BGS24] extends (not identified here).
 $K_{3,3}$, $K_5-(K_{1,2}\cup K_2)$ and $Q_3$ (Problem 567) are undecided in the
 sources found; reopening condition: a proof for one of them, a counterexample to
 the density question, or a general proof. (2) The site's wording is met by no
-graph; the corrected Statement excludes only the sizes $k\le1$, and no source
+graph; the modified Statement excludes only the sizes $k\le1$, and no source
 gives a different restriction; the two accepted claims and the one pending claim
 are partial, so the problem is open. (3) Proof coverage: statements checked; the
 proofs of Theorems 3, 4 and 5 were read for structure; nothing is independently

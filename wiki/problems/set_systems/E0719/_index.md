@@ -30,7 +30,7 @@ Is every $r$-hypergraph $G$ on $n$ vertices the union of at most
 $\mathrm{ex}_{r}(n;K_{r+1}^r)$ many copies of $K_r^r$ and $K_{r+1}^r$, no two of
 which share a $K_r^r$?
 
-**Statement (corrected).** Let $\mathrm{ex}_r(n;K_{r+1}^r)$ be the maximum
+**Statement (modified).** Let $\mathrm{ex}_r(n;K_{r+1}^r)$ be the maximum
 number of $r$-edges that can be placed on $n$ vertices without forming a
 $K_{r+1}^r$ (the $r$-uniform complete graph on $r+1$ vertices).
 
@@ -42,7 +42,7 @@ which share a $K_r^r$?
 no range for $r$. With $r=1$ it fails trivially: the edges of a $1$-uniform
 hypergraph are single vertices, $\mathrm{ex}_1(n;K_2^1)=1$, and the hypergraph
 of all $n\ge3$ singletons needs at least $\lceil n/2\rceil\ge2$ copies of
-$K_1^1$ and $K_2^1$. The corrected Statement adds only the range $r\ge2$. Erdős
+$K_1^1$ and $K_2^1$. The modified Statement adds only the range $r\ge2$. Erdős
 poses the conjecture for $r$-graphs as the generalization of the
 Erdős–Goodman–Pósa theorem on graphs, the case $r=2$ ([Er81], Part IV, item 3),
 and the formal-conjectures statement assumes $r\ge2$.
@@ -74,7 +74,7 @@ catalog holds no file for the problem.
 
 ## Current assessment
 
-The corrected Statement asks, for every $r\ge2$, whether every $r$-uniform
+The modified Statement asks, for every $r\ge2$, whether every $r$-uniform
 hypergraph on $n$ vertices is the union of at most $\mathrm{ex}_r(n;K_{r+1}^r)$
 copies of $K_r^r$ (single edges) and
 $K_{r+1}^r$, no two sharing an edge. Erdős states the conjecture in [Er81]

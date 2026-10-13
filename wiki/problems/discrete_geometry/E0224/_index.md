@@ -23,7 +23,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $A\subseteq \mathbb{R}^d$ is any set of $2^d+1$ points then
 some three points in $A$ determine an obtuse angle.
 
-**Statement (precise).** If $A\subseteq \mathbb{R}^d$ is any set of $2^d+1$
+**Statement (modified).** If $A\subseteq \mathbb{R}^d$ is any set of $2^d+1$
 points then some three points in $A$ determine an obtuse angle, that is, an
 angle greater than a right angle, a straight angle included.
 

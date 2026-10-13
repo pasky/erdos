@@ -93,7 +93,7 @@ record found; its results are recorded with that qualification.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0816/_index|#816]]:
 [[extremal_graph_theory/liu_2025_complement_erdos_hajnal_problem_paths_equal_degree/theorem_1_3|Theorem 1.3]]
-(p. 1 = PDF p. 1, page image) states the corrected Statement's answer for
+(p. 1 = PDF p. 1, page image) states the modified Statement's answer for
 every $n\ge2$, in the strong form that $K_{n,n+1}$ is the unique extremal
 graph, covering the range $2\le n\le599$ left by Chen and Ma's Theorem 2
 (quoted here as Theorem 1.2); Problem 1.1 poses the site's question, with

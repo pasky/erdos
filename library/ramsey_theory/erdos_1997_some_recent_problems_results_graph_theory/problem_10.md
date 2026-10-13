@@ -21,7 +21,7 @@ Many further related questions can be asked, but they have not yet been
 investigated."
 
 The bound is stated for large $n$ only, which is the reading Problem 639
-records as its corrected Statement; the paper says nothing about small $n$.
+records as its modified Statement; the paper says nothing about small $n$.
 No proof, sketch or reference is printed, and the paper's one reference
 (p. 85) is unrelated; the result is an author's statement.
 Keevash and Sudakov's 2004 paper cites this item as "[2], Problem 10" for
@@ -55,5 +55,5 @@ None.
 - [[../wiki/problems/ramsey_theory/E0639/_index|Problem 639]]: the site's source for the
   problem and the primary attestation of the unpublished large-$n$ result
   the page records as [ERS]; the wording "for large $n$" supports the
-  page's corrected Statement and says nothing about the failures of the
+  page's modified Statement and says nothing about the failures of the
   site's wording at $n\le6$.

@@ -50,7 +50,7 @@ Source: <https://arxiv.org/abs/1310.2972>.
 [[set_systems/wood_2013_hypergraph_colouring_degeneracy/theorem_3|Theorem 3]]
 (p. 2) at $d=2$, $r=t$ gives, for every $t\geq2$, a $t$-uniform hypergraph
 without property B that has fewer than $2|X|$ edges inside every nonempty set
-$X$, so every constant for which the implication of the corrected statement
+$X$, so every constant for which the implication of the modified Statement
 (nonempty $X$) holds is below $2$.
 The application is the corpus's; the paper does not mention the problem.
 

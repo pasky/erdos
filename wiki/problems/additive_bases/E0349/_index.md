@@ -25,7 +25,7 @@ updated: 2026-10-08T00:44:24Z
 $\lfloor t\alpha^n\rfloor$ complete (that is, all sufficiently large integers
 are the sum of distinct integers of the form $\lfloor t\alpha^n\rfloor$)?
 
-**Statement (corrected).** For what values of $t,\alpha \in (0,\infty)$ is the
+**Statement (modified).** For what values of $t,\alpha \in (0,\infty)$ is the
 sequence $\lfloor t\alpha^n\rfloor$, $n\ge1$, complete (that is, all
 sufficiently large integers are of the form
 $\sum_{n\ge1}\varepsilon_n\lfloor t\alpha^n\rfloor$ with $\varepsilon_n=0$ or
@@ -67,7 +67,7 @@ the same sums. No text of the posers counts values once or starts the index at
 $n=0$, so the defect is the site's. The monograph's card does not transcribe the
 printed p. 57 passage. The form follows the posers' statement of this question,
 not the results that settle parts of it, and the change moves no standing: the
-problem is open under the site's wording and under the corrected Statement.
+problem is open under the site's wording and under the modified Statement.
 
 Results about the site's wording are credited here and count for nothing. The
 Lean proofs contributed to formal-conjectures under the account cepadugato in
@@ -151,14 +151,14 @@ https://www.erdosproblems.com/349.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/349.lean),
 which states the site's wording: completeness of the set of values
-$\lfloor t\alpha^n\rfloor$, $n\ge0$. It gives no evidence for the corrected
+$\lfloor t\alpha^n\rfloor$, $n\ge0$. It gives no evidence for the modified
 Statement.
 
 ## Current assessment
 
 The site records Problem 349 as OPEN as of 2026-10-06, and the derived standing
 is `open`/`none`: every claim page is partial. The picture they give for the
-corrected Statement: the sequence is never complete for $\alpha>2$ or
+modified Statement: the sequence is never complete for $\alpha>2$ or
 $\alpha<1$; at $\alpha=1$ it is complete exactly for $1\le t<2$;
 at $\alpha=2$ exactly for $t=1/2^k$ with $k\ge1$; for $(1+\sqrt5)/2\le\alpha<2$
 the complete pairs are determined (Graham for $t<1$, van Doorn for $t\ge1$); for

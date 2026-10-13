@@ -86,5 +86,5 @@ the [[set_systems/erdos_1965_problem_independent_tuples/_index|source card]].
   the paper's $f(n;r,k)\ge1+\binom{rk-1}r$, and where the Theorem applies it
   forces $g(n;r,k-1)\ge\binom{rk-1}r$ (a deduction of this page). So for
   $n>c_rk$ and $n\ge kr$ the Theorem gives the equality of the problem's
-  corrected Statement, with $c_r$ unspecified; it says nothing for
+  modified Statement, with $c_r$ unspecified; it says nothing for
   $n\le c_rk$. The problem's claim page for this paper records the claim.

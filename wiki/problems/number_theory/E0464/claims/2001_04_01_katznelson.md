@@ -43,7 +43,7 @@ dimension $1$, so it is uncountable and contains an irrational $\theta$
 (the rationals are countable); such a $\theta$ has
 $\inf_k\|\theta n_k\|>0$, so the fractional parts $\{\theta n_k\}$ avoid
 a neighborhood of $0$ modulo $1$ and $(\theta n_k)$ is not dense modulo
-$1$, which is the problem page's corrected Statement. Theorem 1.2 alone
+$1$, which is the problem page's modified Statement. Theorem 1.2 alone
 produces $\alpha\in\mathbb T$ without an irrationality clause; the
 irrational multiplier comes from Claim 2 by this authored line. The paper
 records on p. 212 that the question was raised by Erdős in his 1975 chapter

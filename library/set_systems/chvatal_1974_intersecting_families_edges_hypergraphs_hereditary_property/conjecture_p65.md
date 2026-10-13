@@ -4,7 +4,7 @@ title: "Conjecture (p. 65): Chvátal's conjecture on intersecting subfamilies of
 desc: |
   Chvátal's 1974 conjecture that every family of subsets of a finite set
   closed under taking subsets has an element whose star is at least as large
-  as every intersecting subfamily; the corrected Statement of Problem 701.
+  as every intersecting subfamily; the modified Statement of Problem 701.
 created: 2026-10-08T14:17:40Z
 updated: 2026-10-08T14:17:40Z
 ---
@@ -48,6 +48,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/set_systems/E0701/_index|Problem 701]]: this Conjecture
-  is the problem's corrected Statement, which restores the finite ground set
+  is the problem's modified Statement, which restores the finite ground set
   $S$ that the site's wording omits. The paper records no proof of it; the
   claims about it are recorded on the problem page.

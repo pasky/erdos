@@ -119,7 +119,7 @@ are no results"; paged at
 [[../wiki/problems/set_systems/E0702/_index|#702]]: the site's key Er76b,
 cited at p. 186; Problem 22 states the conjecture of Erdős and Sós with the
 range "$n>n_0(k)$" as (1) $f(n;k,1)=\binom{n-2}{k-2}+1$, the form and range
-of #702's corrected Statement, reports Katona's unpublished proof for $k=4$,
+of #702's modified Statement, reports Katona's unpublished proof for $k=4$,
 and determines $f(n;3,1)$ for every $n$ in (2); transcribed under Contents
 above.
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: the end of Problem 29,

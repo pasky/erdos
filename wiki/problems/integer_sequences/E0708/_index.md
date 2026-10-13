@@ -39,7 +39,7 @@ $$
 
 Or perhaps even $g(n)\leq 2n$?
 
-**Statement (corrected).** Let $g(n)$ be minimal such that for any
+**Statement (modified).** Let $g(n)$ be minimal such that for any
 $A\subseteq [2,\infty)\cap \mathbb{N}$ with $\lvert A\rvert =n$ and any set $I$
 of $\max(A)$ consecutive integers there exists some $B\subseteq I$ with
 $\lvert B\rvert\le g(n)$ such that
@@ -74,9 +74,9 @@ one can find, and its equation (1) is the same lower bound on that count. Lech
 Mazur posted the exact-size failure in
 [comment 6301](https://www.erdosproblems.com/forum/thread/708#post-6301), 6 May
 2026, attributing the observation to GPT-5.5 Pro. The page's standing judges the
-corrected Statement.
+modified Statement.
 
-**Status.** The site's label was Open, and both questions of the corrected
+**Status.** The site's label was Open, and both questions of the modified
 Statement are open. A partial proof claim of 5 September 2026 gives explicit
 linear upper bounds in the at-most convention. It gives $g(n)\le12n$ for every
 $n$, with a Lean development its author reports kernel-checked, and the
@@ -110,13 +110,13 @@ it was not built or audited here.
 
 ## Current assessment
 
-The corrected Statement, the sources' at-most reading of the site's question, is
+The modified Statement, the sources' at-most reading of the site's question, is
 the dated target; the site labeled the question OPEN.
 
 This account checks the selection convention against the two cited sources; it
 does not resolve either asymptotic question. Read as written, the site's
 exact-size question fails for large $n$; that observation answers the printed
-wording, not the corrected Statement. The corrected Statement is open, with
+wording, not the modified Statement. The modified Statement is open, with
 Chen's partial claim pending.
 
 **The at-most reading.** Both displayed questions are open: the 1959
@@ -159,7 +159,7 @@ $$
 $$
 
 This explicitly normalizes the selected cardinality while retaining the
-displayed interval domain; it is the $g(n)$ of the corrected Statement. It is an
+displayed interval domain; it is the $g(n)$ of the modified Statement. It is an
 interpretation of the selection question in Erdős and Surányi (1959), section 1,
 Theorem II, section 9 and the summaries; neither source prints this exact modern
 quantifier formula as an erratum. No general finite bound for this normalized

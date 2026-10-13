@@ -64,7 +64,7 @@ $n\ge r^2$) and Faudree ($n>r^2(r-1)/4$), which have their own claim pages,
 [[problems/extremal_graph_theory/E0904/claims/1978_01_01_edwards|Edwards]] and
 [[problems/extremal_graph_theory/E0904/claims/1992_09_01_faudree|Faudree]].
 The theorem's hypotheses ("Let $r\ge2$, $n\ge r$, $m\ge t_r(n)$") are those of
-the corrected Statement of
+the modified Statement of
 [[problems/extremal_graph_theory/E0904/_index|Problem 904]], so the theorem
 proves it in full. The site's wording leaves $n$ free and fails for $n<r$,
 where no graph has a clique on $r$ vertices; the problem page's Notes record
@@ -103,7 +103,7 @@ the author identified this paper as the proof formalized; the lemma names
 follow the paper's display numbers (`equation_8`, `equation_11`,
 `equation_12`, `equation_16`) and its `IsPSequence` is Faudree's greedy
 clique. A closing comment records the axioms `propext`, `Classical.choice` and
-`Quot.sound`. The formal statement's range $r\le n$ is the corrected
+`Quot.sound`. The formal statement's range $r\le n$ is the modified
 Statement's $n\ge r$ widened to $r=1$. No build, replay or audit of it is
 recorded and the fidelity of the Lean statement to the question has not been
 independently reviewed; the site's "(LEAN)" suffix and the community

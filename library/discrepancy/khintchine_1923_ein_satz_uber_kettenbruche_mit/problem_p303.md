@@ -62,7 +62,7 @@ Anwendungen, Math. Z. 18 (1923), 289--306; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/discrepancy/E0994/_index|Problem 994]]: this question
-  is the problem in the form of its precise statement (the set $E$ fixed
+  is the problem in the form of its modified Statement (the set $E$ fixed
   first, then almost all $x$), posed here by Khintchine; the paper answers
   it only for the special class of
   [[discrepancy/khintchine_1923_ein_satz_uber_kettenbruche_mit/theorem_p305|the Satz of § 5]].

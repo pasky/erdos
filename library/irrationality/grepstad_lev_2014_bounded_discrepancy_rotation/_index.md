@@ -88,7 +88,7 @@ the measure of every bounded remainder set lies in
 $\mathbb Z+\mathbb Z\alpha_1+\cdots+\mathbb Z\alpha_d$, and Theorem 2.6
 (p. 9, Hecke-Ostrowski), that every interval with length in
 $\mathbb Z\alpha+\mathbb Z$ is a bounded remainder set. Problem 998's
-corrected statement asks for the necessity half for an interval $[u,v)$ with
+modified Statement asks for the necessity half for an interval $[u,v)$ with
 $0\le u<v\le1$ and $v-u<1$, counted along the orbit from one point. The
 criterion constrains only the length,
 so every translate of a bounded remainder interval is again one, and bounded
@@ -105,11 +105,11 @@ reserved.
 
 **Bears on.** [[../wiki/problems/irrationality/E0998/_index|#998]]: in
 dimension one, Proposition 2.4 together with Proposition 2.2 yields the
-problem's corrected statement (a bounded-discrepancy interval $[u,v)$ with
+problem's modified Statement (a bounded-discrepancy interval $[u,v)$ with
 $0\le u<v\le1$ and $v-u<1$ has $v-u=\{j\alpha\}$), a derivation written out on the
 Proposition 2.4 page and not printed in the paper; Theorem 2.6 is the
 converse, which the problem page credits to Hecke and Ostrowski. The problem
-page credits the corrected statement to Kesten. The paper recalls the
+page credits the modified Statement to Kesten. The paper recalls the
 one-dimensional criterion and does not treat the problem itself, and neither
 result says anything about the endpoints that the site's wording asks
 about.

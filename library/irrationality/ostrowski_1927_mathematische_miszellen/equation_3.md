@@ -122,7 +122,7 @@ mathematics. This coverage grants no full Kesten proof, formal verification or
 community-acceptance finding.
 
 **Bears on.** [[../wiki/problems/irrationality/E0998/_index|Problem 998]]:
-(O3) is the direction of the length criterion opposite to the one the corrected
-statement asks for, giving bounded discrepancy to every translate of an
-interval of length $\{j\alpha\}$, $j\ne0$. It does not decide the corrected
-statement, whose direction is Kesten's necessity.
+(O3) is the direction of the length criterion opposite to the one the modified
+Statement asks for, giving bounded discrepancy to every translate of an
+interval of length $\{j\alpha\}$, $j\ne0$. It does not decide the modified
+Statement, whose direction is Kesten's necessity.

@@ -31,7 +31,7 @@ $$
 with $a+b\leq x$, where $\sigma$ is the sum of divisors function? Is it $\sim
 cx$ for some constant $c>0$?
 
-**Statement (precise).** How many solutions are there to
+**Statement (modified).** How many solutions are there to
 
 $$
 \sigma(a)+\sigma(b)=\sigma(a+b)
@@ -49,7 +49,7 @@ $S(x)\sim cx$ for some $c>0$. Ordered pairs are counted. There are no
 solutions with $a=b$ (Remark 1.2 of
 [[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]), so the
 unordered count is exactly half. A proof that the count exceeds $x(\log x)^R$
-for every $R>0$ answers the precise Statement in the higher-order direction,
+for every $R>0$ answers the modified Statement in the higher-order direction,
 and the answer to whether the count is $\sim cx$ is no. Such a bound does not
 determine the order of growth, which remains open.
 
@@ -93,7 +93,7 @@ Pro) asserts that the count exceeds $x(\log x)^{R}$ for every fixed $R>0$,
 so that no asymptotic $cx$ holds. The author posted it as a full proof claim
 on the site's proof-claims tab on 2026-07-26; the thread carried no comments
 as of 2026-10-06, and no referee report or outside review of the proof is
-known. The claim's full scope rests on the precise Statement above: it answers
+known. The claim's full scope rests on the modified Statement above: it answers
 Guy's dichotomy and the question whether the count is $\sim cx$, but it does
 not determine the order of growth.
 

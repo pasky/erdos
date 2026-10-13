@@ -93,8 +93,8 @@ Source: <https://users.renyi.hu/~furedi/>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0794/_index|#794]]: the site's
 commentary reads the problem as asking for the density of $m(n,3,4,3)$, which
-the problem page records as a variant with its own answer, not as a corrected
-statement. For that variant Theorem 3 (p. 325;
+the problem page records as a variant with its own answer, not as a modified
+Statement. For that variant Theorem 3 (p. 325;
 [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|theorem_3]])
 gives the site's $2/7$ lower bound and de Caen's $1/3$ upper bound, and the
 p. 324 sentence disproves Turán's $n^3/24$ (density $1/4$), which the site

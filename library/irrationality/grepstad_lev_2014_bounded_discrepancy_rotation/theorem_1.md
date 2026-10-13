@@ -85,7 +85,7 @@ comparing Fourier series ends the proof (§3.6, p. 17).
   length in $\mathbb Z\alpha+\mathbb Z$ is a BRS, a case of the
   Hecke-Ostrowski sufficiency that the paper states for every interval as
   [[irrationality/grepstad_lev_2014_bounded_discrepancy_rotation/theorem_2_6|Theorem 2.6]],
-  the converse of the problem's corrected statement, which the problem page
+  the converse of the problem's modified Statement, which the problem page
   credits to Hecke and Ostrowski. The paper presents Theorem 1 as the
   higher-dimensional extension of that result; its content for $d\ge2$ does
   not bear on the problem.

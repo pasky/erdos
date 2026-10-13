@@ -28,7 +28,7 @@ $$
 R(T) \leq 2n-2.
 $$
 
-**Statement (corrected).** If $T$ is a tree on $n\geq2$ vertices then
+**Statement (modified).** If $T$ is a tree on $n\geq2$ vertices then
 
 $$
 R(T) \leq 2n-2.
@@ -58,16 +58,16 @@ implication and to Zhao [Zh11]. The site has not addressed $n=1$, and its label
 and commentary (last edited 18 January 2026) predate the proof of
 [[problems/extremal_graph_theory/E0548/_index|#548]] (3 September 2026) and the
 two requests in the discussion (6 and 17 September 2026) to relabel the problem
-proved. The corrected Statement excludes exactly $n=1$, the one value at which,
+proved. The modified Statement excludes exactly $n=1$, the one value at which,
 because of its size, no host can meet the conclusion; it is the corpus's
 correction, not the site's, and the formal-conjectures statement file, which
 counts with the site, states the bound for $n\geq2$ as well (Formalization,
 below). Under the site's wording the answer is: false at $n=1$ and true for
-every $n\geq2$. Under the corrected Statement the answer is yes, proved for
+every $n\geq2$. Under the modified Statement the answer is yes, proved for
 every $n\geq2$ by the Ramsey corollary of the #548 theorem, with $R(T)\leq2n-3$
-for odd $n$ (Progress, below). The problem's standing judges the corrected
+for odd $n$ (Progress, below). The problem's standing judges the modified
 Statement. The $n=1$ refutations answer the site's wording (every $n$, the
-one-vertex tree included), not the corrected Statement (trees on $n\geq2$
+one-vertex tree included), not the modified Statement (trees on $n\geq2$
 vertices), so they do not count toward the problem's standing; they are credited
 here and on
 [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|Alexeev's rejected claim page]].
@@ -86,13 +86,13 @@ label describes the large-$n$ bound: $R(T)\leq2n-2$ for every tree on $n$
 vertices once $n$ is large, with the threshold not explicit. The frontmatter
 standing, solved and proved, derives from the claim page
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|from the 2026 proof of #548]].
-That page records an accepted full claim: the corrected Statement, the bound for
+That page records an accepted full claim: the modified Statement, the bound for
 every $n\geq2$, follows from the new proof of
 [[problems/extremal_graph_theory/E0548/_index|#548]] through the
 [[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|Ramsey corollary]].
 The acceptance rests on a third party's Lean derivation of that consequence,
 announced in the problem's discussion on 17 September 2026, which this corpus
-built and audited (Formalization, below). The corrected Statement's exclusion of
+built and audited (Formalization, below). The modified Statement's exclusion of
 $n=1$ is the corpus's own correction. The site has not addressed $n=1$ (Notes,
 above).
 
@@ -186,7 +186,7 @@ colors. Its author announced it in the problem's discussion on 17 September
 commit, with the #548 development at a later commit that changes only its
 README (claim page), checked that the three declarations use only the axioms
 `propext`, `Classical.choice` and `Quot.sound`, and audited their statements
-directly against the corrected Statement, since the repository has no
+directly against the modified Statement, since the repository has no
 comparator challenge; the claim page records the check and lists
 `formalized`. Two Lean developments in Boris Alexeev's repository, added on 26
 August 2026 and not built here, treat the problem as well: `Erdos547b.lean`
@@ -209,7 +209,7 @@ implication was traced. The site's label DECIDABLE describes the large-order
 bound, by the Erdős--Sós implication under the announced
 Ajtai--Komlós--Simonovits--Szemerédi proof and by Zhao's theorem, and predates
 the #548 proof; the label's partial result is recorded as an accepted partial
-claim and the corrected Statement as an accepted full claim, on the third
+claim and the modified Statement as an accepted full claim, on the third
 party's formalization of it that this corpus built and audited (Formalization,
 above); the site states the implication without relabeling the problem, and
 nothing refereed or independently reviewed accepts the consequence. The #548
@@ -237,7 +237,7 @@ pages it examined, this page among them, stated that the reconstruction had
 passed independent review. Both are the project's own reviews and award no
 acceptance. The reviews examined this page as it stood on 2026-09-10 and
 2026-09-18; since then the references gained their library homes and page
-locators, and the corrected Statement, Notes and the partial claims were
+locators, and the modified Statement, Notes and the partial claims were
 added, while the mathematics of Progress and Known Results is unchanged.
 
 The two-tree corollary and the two-color star sharpness passed a separate
@@ -251,7 +251,7 @@ and double stars are not fully reconstructed here. The star formula now
 has the direct proof linked below; its historical derivations and the full
 proofs of the finer bipartition-dependent results remain separate coverage
 gaps. Those gaps concern distinct methods and sharper information, not a
-remaining finite check for the corrected Statement.
+remaining finite check for the modified Statement.
 
 ## Progress
 

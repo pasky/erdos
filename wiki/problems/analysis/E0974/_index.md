@@ -37,7 +37,7 @@ $$
 
 where $e(x)=e^{2\pi ix}$.
 
-**Statement (precise).** Let $z_1,\ldots,z_n\in \mathbb{C}$ be a sequence such
+**Statement (modified).** Let $z_1,\ldots,z_n\in \mathbb{C}$ be a sequence such
 that $z_1=1$. Suppose that the sequence of
 
 $$
@@ -68,7 +68,7 @@ the problem PROVED (LEAN); replying to the $n=2$ example in the thread on 20
 September 2025, Bloom wrote that it "is not a counterexample though", given how
 vaguely the problem is described; and the formal-conjectures statement
 `erdos_974`, which the site's Lean mark follows, concludes that configuration.
-The precise Statement replaces "(essentially) $z_j=e(j/n)$" by that conclusion
+The modified Statement replaces "(essentially) $z_j=e(j/n)$" by that conclusion
 and changes nothing else. Under it the problem is proved: Tijdeman [Ti66] proves
 the classification from two runs of $n-1$ vanishing power sums for pairwise
 distinct $z_i$, and a single run already forces the $z_i$ to be distinct and
@@ -81,8 +81,8 @@ $2\le i\le n$, which the site's wording omits; neither answer changes, since the
 conclusion forces $|z_i|=1$ and the construction lies on the unit circle.
 Unread: Turán's own statement of the conjecture, and its statement in [Ti66].
 
-**Status.** PROVED (LEAN). The site's label describes the precise Statement. The
-standing derives from
+**Status.** PROVED (LEAN). The site's label describes the modified Statement.
+The standing derives from
 [[problems/analysis/E0974/claims/1966_01_01_tijdeman|Tijdeman's claim page]].
 The site credits Tijdeman [Ti66], who proved the stronger form with two runs of
 vanishing power sums. The site also notes an independent proof in its thread.
@@ -112,8 +112,8 @@ built neither.
 
 ## Current assessment
 
-The problem is proved under the precise Statement, by Tijdeman's classification,
-the accepted claim recorded on
+The problem is proved under the modified Statement, by Tijdeman's
+classification, the accepted claim recorded on
 [[problems/analysis/E0974/claims/1966_01_01_tijdeman|Tijdeman's claim page]]
 with its refereed publication and the curator's credit, stated as the site and
 its thread give it. The even-$n$ construction in the Notes answers the site's

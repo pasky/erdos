@@ -57,6 +57,6 @@ Proposition 12 and Lemma 10 of the paper, the estimates (1.2) and (2.1), and
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E1102/_index|Problem 1102]]: with
-  property Q as in the problem page's corrected Statement, this shows that the
+  property Q as in the problem page's modified Statement, this shows that the
   upper density bound $6/\pi^2$ of Theorem 2 is attained, so property Q forces
   no growth beyond $a_j\ge(\pi^2/6-o(1))j$.

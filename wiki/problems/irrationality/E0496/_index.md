@@ -29,7 +29,7 @@ $$
 \lvert x^2+y^2-z^2\alpha\rvert <\epsilon?
 $$
 
-**Statement (corrected).** Let $\alpha>0$ be irrational and $\epsilon>0$. Are
+**Statement (modified).** Let $\alpha>0$ be irrational and $\epsilon>0$. Are
 there positive integers $x,y,z$ such that
 
 $$
@@ -48,7 +48,7 @@ quadratic forms in at least three variables (Banach Center Publ. 23 (1989), p.
 399, §1 and Theorem 1; §1 calls it Davenport's conjecture, and its footnote 1
 credits the case of at least five variables to Oppenheim, Ann. of Math. 32
 (1931), 271--288). The form $x^2+y^2-\alpha z^2$ is indefinite exactly when
-$\alpha>0$ and positive definite when $\alpha<0$, so the corrected Statement
+$\alpha>0$ and positive definite when $\alpha<0$, so the modified Statement
 is the ternary case of that conjecture with the coordinates made positive; the
 form follows from the setting, not from the result that settles it. The site's
 credit to Oppenheim and Margulis corroborates Margulis's statement of the
@@ -58,7 +58,7 @@ question of 1961 (p. 239), which asks about every irrational $\alpha$ in
 integers with no positivity or nonzero condition; there the zero triple
 answers the negative case trivially, and the site's requirement of positive
 integers turns that case into a failure. One result answers the site's wording
-(every irrational $\alpha$), not the corrected Statement ($\alpha>0$), so it
+(every irrational $\alpha$), not the modified Statement ($\alpha>0$), so it
 does not count toward the problem's standing. A Lean development
 `Erdos496.lean` in Boris Alexeev's repository, added on 2026-08-21 with Codex
 and GPT-5.6 Sol as formal authors ([file at a pinned
@@ -66,7 +66,7 @@ commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897
 proves the negation of the site's wording at $\alpha=-\sqrt2$, $\epsilon=1$
 (`not_erdos_496`); it is recorded as
 [[problems/irrationality/E0496/claims/2026_08_21_alexeev|a rejected claim page]].
-The page's standing judges the corrected Statement.
+The page's standing judges the modified Statement.
 
 **Formulation.** Erdős's 1961 p. 239 asks whether, for every irrational
 $\alpha$ and every $\epsilon>0$, the inequalities
@@ -87,11 +87,11 @@ that states and proves the theorem the site credits.
 
 **Status.** The site, accessed 2026-09-04, labeled the problem
 PROVED and credits the proof to Margulis [Ma89]. That label describes the
-corrected Statement, which Margulis's theorem settles. The result is recorded as
+modified Statement, which Margulis's theorem settles. The result is recorded as
 [[problems/irrationality/E0496/claims/1989_01_01_margulis|an accepted full claim]],
 with the site's curator as reviewer. Alexeev's Lean disproof of the site's
 wording is [[problems/irrationality/E0496/claims/2026_08_21_alexeev|rejected]],
-since it answers the site's wording, not the corrected statement.
+since it answers the site's wording, not the modified Statement.
 
 **Source.** [erdosproblems.com/496](https://www.erdosproblems.com/496), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #496,
@@ -113,13 +113,13 @@ positive-parameter transfer from the Oppenheim–Margulis theorem taken as a
 hypothesis; it is linked at a pinned commit from the two claim pages above. This
 corpus's verification built it at that commit, with only the standard axioms
 behind both theorems and both statements matching the file's comparator
-challenge. The hypothesis is the whole depth of the corrected Statement and is
-unformalized, so the build formalizes neither Margulis's claim nor the corrected
+challenge. The hypothesis is the whole depth of the modified Statement and is
+unformalized, so the build formalizes neither Margulis's claim nor the modified
 Statement.
 
 ## Current assessment
 
-The corrected Statement, for positive irrational $\alpha$, is true by
+The modified Statement, for positive irrational $\alpha$, is true by
 Margulis's theorem and the completed coordinate transfer. The site's wording
 fails at every negative irrational $\alpha$, as the Notes record.
 

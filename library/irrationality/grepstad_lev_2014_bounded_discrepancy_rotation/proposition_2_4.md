@@ -51,7 +51,7 @@ finitely many smaller $n$ change nothing, so the sums are bounded in $n$ at
 that point. $I$ is Riemann measurable, so $I$ is a BRS by Proposition 2.2,
 and Proposition 2.4 gives $v-u=n_0+n_1\alpha$. Since $0<v-u<1$, $n_1\ne0$ and
 $v-u=\{n_1\alpha\}$. This is the necessity half of Kesten's length criterion,
-the corrected statement of Problem 998.
+the modified Statement of Problem 998.
 
 **Read depth.** Claims checked: the statement, the definitions it uses and
 Propositions 2.1 and 2.2 were read clause by clause on the page images. The
@@ -81,7 +81,7 @@ Petersen.
 
 - [[../wiki/problems/irrationality/E0998/_index|Problem 998]]: with
   Proposition 2.2 it gives, as worked out above, the necessity half of the
-  problem's corrected statement (a bounded-discrepancy interval $[u,v)$ with
+  problem's modified Statement (a bounded-discrepancy interval $[u,v)$ with
   $0\le u<v\le1$ and $v-u<1$ has $v-u=\{j\alpha\}$ for some integer $j$),
   which the problem page credits to
   [[discrepancy/kesten_1966_bounded_remainder/theorem_4|Kesten's Theorem 4]].

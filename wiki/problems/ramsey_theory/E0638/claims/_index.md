@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 638, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:37:30Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # problems/ramsey_theory/E0638/claims
@@ -12,7 +12,7 @@ updated: 2026-10-11T22:37:30Z
 [[problems/ramsey_theory/E0638/_index|..]]
 
 [[problems/ramsey_theory/E0638/claims/2026_01_05_barreto|2026_01_05_barreto]]: Answers the site's wording (every family $S$ meeting the hypothesis), not the
-corrected Statement (families closed under taking subgraphs), so it does not
+modified Statement (families closed under taking subgraphs), so it does not
 count toward the problem's standing. The remark, recorded in the site's
 commentary, is that a sparse family of complete graphs meets the hypothesis of
 Problem 638, while no graph has all its finite subgraphs in it.

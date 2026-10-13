@@ -44,7 +44,7 @@ for all large enough $n$?
 Does a similar upper bound hold for the smallest $k$ such that
 $(k^n-1,2^n-1)=1$?
 
-**Statement (corrected).** Let $H(n)$ be the smallest integer $l$ such that
+**Statement (modified).** Let $H(n)$ be the smallest integer $l$ such that
 there exist $2\le k<l$ with $(k^n-1,l^n-1)=1$.
 
 Is it true that $H(n)=3$ infinitely often? (That is, $(2^n-1,3^n-1)=1$
@@ -119,7 +119,7 @@ $H(n)<\exp(n^{(c+\epsilon)/\log\log n})$ for all sufficiently large $n$; and
 does a similar eventual upper bound hold for $K(n)$?
 
 **Status.** Open. The site labeled the problem OPEN (commentary last edited 2
-December 2025), and the corrected Statement is open. The infinitely-often
+December 2025), and the modified Statement is open. The infinitely-often
 coprimality question is unresolved in the sources searched. The quantitative
 **existence** question would have an affirmative answer if the pending upper
 bound below holds. This follows by the limit-superior argument below, which does

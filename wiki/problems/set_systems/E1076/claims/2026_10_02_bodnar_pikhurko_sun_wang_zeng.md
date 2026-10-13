@@ -2,7 +2,7 @@
 name: problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng
 title: The (11,9) limit 1/5 refutes the site's wording at k = 11
 desc: |
-  Answers the site's wording (the single family $F_{11}$), not the corrected
+  Answers the site's wording (the single family $F_{11}$), not the modified
   Statement (the cumulative family), so it does not count toward the problem's
   standing. An arXiv preprint proves that the $(11,9)$ limit is $1/5$,
   independently of Chao, Huang and Liu, and bounds the $(10,8)$ limit above by
@@ -67,9 +67,9 @@ it places the limit at $k=10$ between $3/16=0.1875$ and
 $5053/26544\approx0.19036$.
 
 **Why it is rejected.** It answers the site's wording, the single family
-$\mathcal F_{11}$, not the corrected Statement of
+$\mathcal F_{11}$, not the modified Statement of
 [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
-cumulative: under the corrected Statement a $3$-graph avoiding
+cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_{11}$ is linear, so the theorem says
 nothing against it, and the page does not count toward the problem's standing.
 The problem page's Notes credit the result.

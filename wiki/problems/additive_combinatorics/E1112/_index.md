@@ -32,7 +32,7 @@ $$
 
 for all $i\geq 1$ and $(kA)\cap B=\emptyset$, where $kA$ is the $k$-fold sumset?
 
-**Statement (precise).** For which integers $k \geq 3$ and $1 \leq d_1 < d_2$
+**Statement (modified).** For which integers $k \geq 3$ and $1 \leq d_1 < d_2$
 does there exist an integer $r$ such that, whenever $B = \{b_1 < b_2 < \cdots\}$
 is a sequence of positive integers with $b_{i+1} \geq r b_i$ for all $i$, there
 is a sequence of positive integers $A = \{a_1 < a_2 < \cdots\}$ with
@@ -50,10 +50,10 @@ commentary defines $r_k(d_1,d_2)$ as the least ratio that works for a given
 triple, records that $r_3(2,3)$ does not exist, and says that "the more general
 question of existence of $r_k(a,b)$ for $k \geq 3$ remains open"; the problem
 was posted as open with [BHJ97] already in its commentary, which is only
-consistent with the per-triple reading. The Statement (precise) above states
+consistent with the per-triple reading. The Statement (modified) above states
 that reading. The curator also notes that the question is the curator's own
 generous reading of a vague remark of Erdős and Graham [ErGr80, p. 18], so the
-Statement is the site's question rather than Erdős's words. Under the precise
+Statement is the site's question rather than Erdős's words. Under the modified
 Statement Johan Land's dichotomy (a ratio exists exactly when $d_2 \geq k+1$,
 with the ratio $192 d_2$ in the built development and $d_2 + 2$ in the September
 2026 revision) settles every triple, so the problem is solved; [BHJ97] settles

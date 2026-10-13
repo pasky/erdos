@@ -31,7 +31,7 @@ $$
 \lvert \mathcal{F}'\rvert \leq \lvert \{ A\in \mathcal{F} : x\in A\}\rvert.
 $$
 
-**Statement (corrected).** Let $\mathcal{F}$ be a family of subsets of a finite
+**Statement (modified).** Let $\mathcal{F}$ be a family of subsets of a finite
 set closed under taking subsets (i.e. if $B\subseteq A\in\mathcal{F}$ then
 $B\in \mathcal{F}$). There exists some element $x$ such that whenever
 $\mathcal{F}'\subseteq \mathcal{F}$ is an intersecting subfamily we have
@@ -65,10 +65,10 @@ silence. The formal-conjectures statement assumes a finite ground set.
 
 Results about the site's wording are credited here and count for nothing:
 Kearnes's construction above refutes the wording with infinite ground sets
-and settles no instance of the corrected Statement. It was not presented as
+and settles no instance of the modified Statement. It was not presented as
 settling the problem, so it has no claim page.
 
-**Formulation.** The corrected Statement is Chvátal's conjecture, the form
+**Formulation.** The modified Statement is Chvátal's conjecture, the form
 the three full claims below prove. A star of the family, the members
 containing a fixed element, is itself intersecting, so the conjecture says
 that no intersecting subfamily is larger than the largest star. The reading
@@ -76,9 +76,9 @@ of the site's wording with infinite ground sets is a variant, and it is
 false, as the Notes record.
 
 **Status.** The site labeled the problem OPEN (discussion and proof-claims
-threads accessed 2026-10-07). This label describes the corrected Statement. The
+threads accessed 2026-10-07). This label describes the modified Statement. The
 frontmatter's standing follows from three pending full claims of September 2026,
-all proving the corrected Statement:
+all proving the modified Statement:
 [[problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu|Chang, Liu and Liu]],
 [[problems/set_systems/E0701/claims/2026_09_20_keevash|Keevash]] and
 [[problems/set_systems/E0701/claims/2026_09_23_ellis_filmus_friedgut|Ellis, Filmus and Friedgut]].
@@ -115,11 +115,11 @@ set, an undetermined answer and a `sorry` body.
 
 The site's formulation is Chvátal's conjecture: a
 family closed under subsets has an element whose star is at least as large as
-any intersecting subfamily. The corrected Statement adds Chvátal's finite
+any intersecting subfamily. The modified Statement adds Chvátal's finite
 ground set, as the Notes record; it is the statement of Chvátal [Ch74], of
 the formal-conjectures file and of the three claims.
 
-Three preprints of September 2026 prove the corrected Statement in full, each
+Three preprints of September 2026 prove the modified Statement in full, each
 pending.
 [[problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu|Chang, Liu and Liu]]
 (16 September) prove it through a sharp correlation inequality for increasing

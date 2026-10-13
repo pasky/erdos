@@ -63,5 +63,5 @@ count by induction on the number of pairs gives (i) or (ii).
 - [[../wiki/problems/set_systems/E0702/_index|Problem 702]]: the structural
   step from which
   [[set_systems/frankl_1977_families_finite_sets_intersect_singleton/theorem_2|Theorem 2]]
-  derives the problem's corrected Statement; on its own it does not give the
+  derives the problem's modified Statement; on its own it does not give the
   bound.

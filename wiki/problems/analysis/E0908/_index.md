@@ -32,7 +32,7 @@ $$
 where $g$ is continuous, $h$ is additive (so $h(x+y)=h(x)+h(y)$), and
 $r(x+h)-r(x)=0$ for every $h$ and almost all (depending on $h$) $x$?
 
-**Statement (corrected).** Let $f:\mathbb{R}\to \mathbb{R}$ be such that
+**Statement (modified).** Let $f:\mathbb{R}\to \mathbb{R}$ be such that
 $f(x+h)-f(x)$ is measurable for every $h>0$. Is it true that
 
 $$
@@ -52,14 +52,14 @@ it. Laczkovich proved the measurable form: Theorem 3 of [La80], printed
 p. 224, proves it, and the paper's introduction, printed p. 217, states Erdős's
 conjecture with $g$ measurable. The defect is already in [Er82e], and the
 site's wording follows it. The site's label and the problem's standing judge
-the corrected Statement. The site also cites [Er81b], Erdős's 'Problems' in
+the modified Statement. The site also cites [Er81b], Erdős's 'Problems' in
 The Scottish Book (1981), whose statement of the problem is not recorded here;
 the correction rests on [dB51], [Er82e] and [La80].
 
 **Status.** PROVED, the site's label (page last edited 30 December 2025), which
-describes the corrected Statement. The site's commentary calls the problem a
+describes the modified Statement. The site's commentary calls the problem a
 conjecture of de Bruijn and Erdős and credits Laczkovich [La80] with the
-affirmative answer. Laczkovich's Theorem 3 proves the corrected Statement and is
+affirmative answer. Laczkovich's Theorem 3 proves the modified Statement and is
 recorded as an
 [[problems/analysis/E0908/claims/1980_03_01_laczkovich|accepted full claim]].
 
@@ -93,7 +93,7 @@ https://www.erdosproblems.com/908.
 
 ## Current assessment
 
-Laczkovich's Theorem 3 proves the corrected Statement. The theorem is
+Laczkovich's Theorem 3 proves the modified Statement. The theorem is
 refereed and the site's curator credits it; its proof is not reconstructed
 in this corpus. The negative-shift identity that carries the positive-shift
 hypothesis to every shift is elementary and recorded below. Keleti's
@@ -114,7 +114,7 @@ $$
 with $g$ measurable, $H$ additive, and, for every fixed real $h$,
 $\Delta_hS=0$ almost everywhere. The exceptional null set may depend on $h$.
 The hypothesis for negative shifts follows from the positive-shift hypothesis
-using $\Delta_u f(x)=-\Delta_{-u}f(x+u)$ for $u<0$. This is the corrected
+using $\Delta_u f(x)=-\Delta_{-u}f(x+u)$ for $u<0$. This is the modified
 Statement. Its proof has not been reconstructed here.
 
 The primary sources differ on the required regularity of $g$. Erdős's *Some
@@ -122,7 +122,7 @@ of my favourite problems which recently have been solved* (1982), Chapter V,
 §3, printed p.76 / physical p.18, states the continuous-$g$ formulation under
 measurable differences and attributes a proof to Laczkovich. De Bruijn's
 statement of Erdős's conjecture, Laczkovich's own introduction and Theorem 3
-state the measurable-$g$ formulation. The Notes under the corrected Statement
+state the measurable-$g$ formulation. The Notes under the modified Statement
 record why the continuous summand is a misprint.
 
 Keleti's *Difference functions of periodic measurable functions*,

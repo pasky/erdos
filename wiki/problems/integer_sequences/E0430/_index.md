@@ -26,7 +26,7 @@ $[1,a_{k-1})$ such that all of the prime factors of $a_k$ are $>n-a_k$.
 Is it true that, for sufficiently large $n$, not all of this sequence can be
 prime?
 
-**Statement (corrected).** Fix some integer $n$ and define a decreasing sequence
+**Statement (modified).** Fix some integer $n$ and define a decreasing sequence
 in $[1,n)$ by $a_1=n-1$ and, for $k\geq 2$, letting $a_k$ be the greatest
 integer in $[2,a_{k-1})$ such that all of the prime factors of $a_k$ are
 $>n-a_k$.
@@ -59,10 +59,10 @@ beyond the trivial check recorded here.
 $n$ minus the site's, so their condition, that all prime factors of $n-a_k$
 exceed $a_k$, is the site's, and their question, whether for all large $n$ not
 all the quantities $n-a_k$ can be prime, is the site's, with the same vacuous
-value $n-a_k=1$; with that value excluded it is the corrected Statement:
+value $n-a_k=1$; with that value excluded it is the modified Statement:
 whether, for all large $n$, some term of the sequence is composite.
 
-**Status.** Open, the site's label (OPEN), which describes the corrected
+**Status.** Open, the site's label (OPEN), which describes the modified
 Statement.
 
 **Source.** [erdosproblems.com/430](https://www.erdosproblems.com/430), accessed
@@ -79,7 +79,7 @@ https://www.erdosproblems.com/430.
 
 ## Current assessment
 
-The site's OPEN label concerns the corrected Statement: whether, for all large
+The site's OPEN label concerns the modified Statement: whether, for all large
 $n$, the sequence has a composite term. For each integer $n\geq5$, the
 sequence has a composite term exactly when $F(n)>n$, so the question is
 equivalent to the first question of Problem 385; the site credits this
@@ -92,7 +92,7 @@ for this problem.
 
 For integer $n\geq5$, the sequence contains a composite term if and only if
 $F(n)>n$ in [[problems/arithmetic_functions/E0385/_index|E0385]]. Hence the
-corrected Statement is equivalent to that problem's first eventual inequality.
+modified Statement is equivalent to that problem's first eventual inequality.
 This does not address its stronger question $F(n)-n\to\infty$.
 
 ## Known Results

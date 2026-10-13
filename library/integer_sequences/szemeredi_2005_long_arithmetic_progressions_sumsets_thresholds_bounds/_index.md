@@ -126,7 +126,7 @@ Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0343/_index|#343]]:
 [[integer_sequences/szemeredi_2005_long_arithmetic_progressions_sumsets_thresholds_bounds/theorem_6_3|Theorem 6.3]] (p. 28) states, for one constant $C$, the
-property the problem's corrected Statement asks about, a counting bound
+property the problem's modified Statement asks about, a counting bound
 $A(n)\ge Cn$ for all sufficiently large $n$ on a non-decreasing sequence of
 positive integers with repetitions, and concludes subcompleteness; its proof
 uses [[integer_sequences/szemeredi_2005_long_arithmetic_progressions_sumsets_thresholds_bounds/lemma_6_5|Lemma 6.5]], [[integer_sequences/szemeredi_2005_long_arithmetic_progressions_sumsets_thresholds_bounds/lemma_6_10|Lemma 6.10]] and

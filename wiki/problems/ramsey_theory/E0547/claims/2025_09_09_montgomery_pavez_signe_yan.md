@@ -4,7 +4,7 @@ title: Montgomery, Pavez-Signé and Yan, Burr's formula for trees of small maxim
 desc: |
   A 2025 preprint credited in the site's remarks gives
   $R(T)=\max\{2t_1,t_1+2t_2\}-1\le2n-2$ for every tree $T$ on $n$ vertices with
-  maximum degree at most $cn$. This is the corrected statement of Problem 547
+  maximum degree at most $cn$. This is the modified Statement of Problem 547
   for those trees.
 authors:
 - Richard Montgomery
@@ -41,11 +41,11 @@ Burr's formula. With $t_1+t_2=n$ and $t_2\ge1$ for $n\ge2$, both
 $2t_1-1$ and $t_1+2t_2-1=n+t_2-1$ are at most $2n-2$, so every such tree
 satisfies the bound of the problem.
 
-**Covers.** The corrected Statement of
+**Covers.** The modified Statement of
 [[problems/ramsey_theory/E0547/_index|Problem 547]] for every tree on
 $n\ge2$ vertices whose maximum degree is at most $cn$, with $c$ the
 preprint's unstated small constant. Every other tree is outside this claim;
-the full corrected Statement is settled by the accepted claim page
+the full modified Statement is settled by the accepted claim page
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|the 2026
 claim]].
 

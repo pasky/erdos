@@ -101,9 +101,9 @@ survey *Some of my favorite unsolved problems* (1990).
 ## Bears on
 
 - [[../wiki/problems/polynomials/E0115/_index|Problem 115]]: the problem's
-  corrected Statement asks whether a monic polynomial $p$ of degree $n$ with
+  modified Statement asks whether a monic polynomial $p$ of degree $n$ with
   $\{\lvert p\rvert\le1\}$ connected has $\lvert p'\rvert\le(\tfrac12+o(1))n^2$
   there. The form for the whole set gives the bound $2^{(1/n)-1}n^2$, which is
   $(\tfrac12+o(1))n^2$, so it answers that question yes; the normalization
-  (1) is the corrected Statement's monic hypothesis. The polynomial $f_n$
+  (1) is the modified Statement's monic hypothesis. The polynomial $f_n$
   shows that the exact bound $\tfrac12n^2$ fails for every $n$.

@@ -29,7 +29,7 @@ $$
 \#\{ m\leq x : a\nmid m\textrm{ for all }a\in A\}\gg\frac{x}{(\log x)^c}?
 $$
 
-**Statement (corrected).** Let $C>0$. Does there exist a $c>0$ (depending on
+**Statement (modified).** Let $C>0$. Does there exist a $c>0$ (depending on
 $C$) such that, for all sufficiently large $x$, if $A\subseteq [1,x]$ with
 $1\notin A$ has $\sum_{n\in A}\frac{1}{n}\leq C$ then
 
@@ -59,7 +59,7 @@ question asks whether $H_C(x)\gg x/(\log x)^{O_C(1)}$. The defect is already in
 keeps it; no source states the question as one about sets containing $1$. With
 $1$ excluded the recorded failure is removed, and the answer is decided by
 Ruzsa's and Weingartner's theorems rather than by the degenerate set. The
-observation about $A=\{1\}$ settles no instance of the corrected Statement and
+observation about $A=\{1\}$ settles no instance of the modified Statement and
 is credited here, not counted.
 
 **Formulation.** The site's wording as of 2026-09-05 (page last edited
@@ -73,7 +73,7 @@ anyway, and the union bound leaves at least $(1-C)x$ integers unsifted.
 
 **Status.** The site labeled the problem SOLVED and credits Ruzsa and
 Weingartner (page last edited 8 April 2026, accessed 2026-09-05; two thread
-comments, no proof claim). For the corrected Statement the answer is yes for
+comments, no proof claim). For the modified Statement the answer is yes for
 $0<C\le1$ and no for $C>1$. So the bound fails when it is asked for every $C>0$,
 which is how Erdős expected it to hold. For $0<C<1$ the union bound leaves at
 least $(1-C)x$ integers unsifted. Ruzsa (J. Number Theory 14 (1982), a refereed

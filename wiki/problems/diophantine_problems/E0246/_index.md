@@ -24,14 +24,14 @@ updated: 2026-10-08T03:43:48Z
 is, every large integer is the sum of distinct integers of the form $a^kb^l$
 with $k,l\geq 0$.
 
-**Statement (corrected).** Let $a,b\geq2$ with $(a,b)=1$. The set
+**Statement (modified).** Let $a,b\geq2$ with $(a,b)=1$. The set
 $\{a^kb^l: k,l\geq 0\}$ is complete - that is, every large integer is the sum
 of distinct integers of the form $a^kb^l$ with $k,l\geq 0$.
 
 **Notes.** The site's wording fixes only $(a,b)=1$. Read as the site words it,
 it includes $a=1$, where the set $\{b^l\}$ is complete only for $b=2$; for $b=3$
 its subset sums, the integers with base-3 digits $0$ and $1$, have density zero,
-and $a=b=1$ fails as well. The corrected Statement adds $a,b\geq2$, the setting
+and $a=b=1$ fails as well. The modified Statement adds $a,b\geq2$, the setting
 of Birch's theorem [Bi59], of the later literature and of the formal-conjectures
 statement; the standing judges it.
 

@@ -61,7 +61,7 @@ arXiv:2310.13038, v1 of 19 October 2023, v2 of 13 June 2025. Library home:
 [[../library/integer_sequences/weingartner_2025_schinzel_szekeres_function/_index|weingartner_2025_schinzel_szekeres_function]].
 
 **Formulation.** The paper's $H(x,z)$ excludes $1$ from the sifting set, as
-the problem page's corrected Statement does; see the formulation note on
+the problem page's modified Statement does; see the formulation note on
 Ruzsa's claim page.
 
 **Acceptance.** Refereed: the paper appeared in Research in Number Theory.

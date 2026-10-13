@@ -28,7 +28,7 @@ updated: 2026-10-08T00:44:24Z
 subsets $A_1,\ldots,A_t$ (where $t=t(C)$ depends only on $C$) such that
 $1_{A_i}\ast 1_{A_i}(n)<C$ for all $1\leq i\leq t$ and $n\in \mathbb{N}$?
 
-**Statement (corrected).** Suppose $A\subseteq\mathbb{N}$ and $C>0$ is such
+**Statement (modified).** Suppose $A\subseteq\mathbb{N}$ and $C>0$ is such
 that $f_A(n)\leq C$ for all $n\in\mathbb{N}$, where $f_B(n)$ denotes the
 number of solutions to $n=b+b'$ with $b,b'\in B$, $b<b'$. Can $A$ be
 partitioned into $t$ many subsets $A_1,\ldots,A_t$ (where $t=t(C)$ depends
@@ -75,7 +75,7 @@ file](https://github.com/AxiomMath/erdos-public/blob/8c05a325f5b5cfa7a5eeb2de533
 that refutes the ordered-count statement at $C=2$ with the powers of two, with
 copies in the repository `Jayyhk/erdos-lean` (added 2026-06-22) and in Boris
 Alexeev's lean-proofs collection (added 2026-08-26). It answers
-the site's ordered count, not the corrected Statement's count of sums of two
+the site's ordered count, not the modified Statement's count of sums of two
 distinct elements, so it does not count toward the standing and its
 [[problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath|claim page]]
 is rejected.
@@ -93,8 +93,8 @@ representation; for non-integer $C$ the hypothesis already gives fewer than
 $C$ representations of every $n$, and one part suffices.
 
 **Status.** The site showed DISPROVED (LEAN) and credits Nešetřil and Rödl with
-the negative answer for all $C$. The label describes the corrected Statement.
-The corrected Statement is **disproved**: the answer is no for every integer
+the negative answer for all $C$. The label describes the modified Statement.
+The modified Statement is **disproved**: the answer is no for every integer
 $C \geq 2$, even when $t$ may depend on $A$. This is due to Nešetřil and Rödl
 [NeRo85], recorded on
 [[problems/additive_combinatorics/E0328/claims/1985_01_01_nesetril_rodl|its claim page]]
@@ -104,7 +104,7 @@ recorded on
 [[problems/additive_combinatorics/E0328/claims/1980_03_01_erdos|its own claim page]].
 The label's Lean mark rests on AxiomMath's Lean refutation of the site's
 ordered-count wording, which the formal-conjectures statement shares. That
-refutation gives no evidence for the corrected Statement, and its
+refutation gives no evidence for the modified Statement, and its
 [[problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath|claim page]]
 is rejected.
 
@@ -127,7 +127,7 @@ https://www.erdosproblems.com/328.
 Its theorem `erdos_328` states the site's wording for natural numbers $C>0$,
 with a representation function `sumRep` that counts ordered pairs, and the file
 records the `Jayyhk/erdos-lean` copy of AxiomMath's development as its formal
-proof; it gives no evidence for the corrected Statement.
+proof; it gives no evidence for the modified Statement.
 
 ## Progress
 

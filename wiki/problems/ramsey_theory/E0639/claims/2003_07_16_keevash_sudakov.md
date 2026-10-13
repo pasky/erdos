@@ -42,7 +42,7 @@ f(n,\triangle)=\binom n2\ \text{for } n\le5,\qquad f(6,\triangle)=10,\qquad
 f(n,\triangle)=\Bigl\lfloor\frac{n^2}4\Bigr\rfloor\ \text{for all } n\ge7.
 $$
 
-[[problems/ramsey_theory/E0639/_index|Problem 639]], in its corrected
+[[problems/ramsey_theory/E0639/_index|Problem 639]], in its modified
 Statement, asks whether every $2$-coloring of the edges of $K_n$ leaves at
 most $n^2/4$ edges in no monochromatic triangle for large $n$, the form in
 which Erdős stated the bound. The theorem proves it: the maximum is
@@ -84,7 +84,7 @@ line, so the first posting was in 2003 and not in the issue month, January
 date. The paper was received on 9 May 2002.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED (LEAN), a label that describes the corrected Statement (page accessed
+PROVED (LEAN), a label that describes the modified Statement (page accessed
 2026-09-18). In the problem's commentary, the curator credits the complete
 solution of the problem to Keevash and Sudakov's theorem, with the same three
 small values. The thread's one comment concerns the formalization below, and the
@@ -111,7 +111,7 @@ theorem erdos639 (hn : 10 ≤ n V) : #(nimt C).edgeFinset ≤ n V ^ 2 / 4
 
 for every finite vertex type `V` with at least $10$ vertices, that is,
 Proposition 2.1 of the paper: the bound for $n\ge10$, which gives the
-corrected Statement's bound for all sufficiently large $n$. It formalizes
+modified Statement's bound for all sufficiently large $n$. It formalizes
 neither the exact values for $n\le9$ nor the small-$n$ failures of the
 site's wording. Two of its lemmas are marked as proved by Aristotle, and its
 closing comment records `#print axioms erdos639` as `propext`,

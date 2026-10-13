@@ -76,7 +76,7 @@ and de Bruijn's reduction (de Bruijn 1951, §1, cited by the paper as [1]).
 ## Bears on
 
 - [[../wiki/problems/analysis/E0908/_index|Problem 908]]: the theorem
-  answers the problem's corrected Statement, which asks for a measurable
+  answers the problem's modified Statement, which asks for a measurable
   summand, in the affirmative. The problem's hypothesis is stated for
   $h>0$; the identity $\Delta_uf(x)=-\Delta_{-u}f(x+u)$ for $u<0$, where
   $\Delta_tf(x)=f(x+t)-f(x)$, recorded on the problem page, carries it to

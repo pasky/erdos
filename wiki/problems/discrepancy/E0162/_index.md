@@ -35,7 +35,7 @@ $$
 
 for some constant $c_\alpha$.
 
-**Statement (corrected).** Let $0\leq \alpha<1/2$ and $n\geq 1$. Let
+**Statement (modified).** Let $0\leq \alpha<1/2$ and $n\geq 1$. Let
 $F(n,\alpha)$ be the smallest $k$ such that there exists some 2-colouring of
 the edges of $K_n$ in which any induced subgraph $H$ on at least $k$ vertices
 contains more than $\alpha\binom{\lvert H\rvert}{2}$ many edges of each
@@ -71,11 +71,11 @@ known result is the two-sided bound
 $c_1(\alpha)\log n<F(n,\alpha)<c_2(\alpha)\log n$, asserted without proof by
 Erdős (display (29)) and by Conlon, Fox and Sudakov (Section 6.2). A comment in
 the site's thread raised the three failures on 28 April 2026; it is a thread
-post, so it has no claim page. The page's standing judges the corrected
+post, so it has no claim page. The page's standing judges the modified
 Statement.
 
 **Status.** Open, the site's label (page last edited 30 December 2025). The
-corrected Statement is the question of Problem 563, which is open.
+modified Statement is the question of Problem 563, which is open.
 
 **Source.** [erdosproblems.com/162](https://www.erdosproblems.com/162), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #162,

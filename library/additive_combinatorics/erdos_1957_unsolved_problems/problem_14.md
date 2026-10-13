@@ -45,7 +45,7 @@ None.
 
 - [[../wiki/problems/covering_systems/E0002/_index|Problem 2]]: the first
   question asks for covering systems with distinct moduli all exceeding any
-  given $n_0$, which is the problem's corrected Statement. The paper records
+  given $n_0$, which is the problem's modified Statement. The paper records
   smallest moduli $3$, $4$ and $6$ and does not resolve it.
 - [[../wiki/problems/covering_systems/E0007/_index|Problem 7]]: the second
   question, a system of this kind with all moduli odd, is the problem. The

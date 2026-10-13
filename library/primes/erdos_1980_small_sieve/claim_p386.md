@@ -66,7 +66,7 @@ None in this paper.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0784/_index|Problem 784]]: the
-  quantity of that problem's corrected statement is $H(x,C)$, with $1$
+  quantity of that problem's modified Statement is $H(x,C)$, with $1$
   excluded as in (1.5). For fixed $K>1$ the claimed limit makes $H(x,K)$ at
   most $x^{\theta}$ for some $\theta<1$ and all large $x$, which is
   eventually below $x/(\log x)^c$ for every $c$, so the claim, if proved,

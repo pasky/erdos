@@ -61,7 +61,7 @@ The corpus records the measurable case as Laczkovich's Theorem 3; see
 ## Bears on
 
 - [[../wiki/problems/analysis/E0908/_index|Problem 908]]: the conjecture is
-  the problem's corrected Statement, with a measurable summand, as printed
+  the problem's modified Statement, with a measurable summand, as printed
   in 1951, except that the paper assumes measurable differences for each
   $h$ where the Statement says every $h>0$; the two hypotheses are
   equivalent, since a difference with a negative shift is minus a translate

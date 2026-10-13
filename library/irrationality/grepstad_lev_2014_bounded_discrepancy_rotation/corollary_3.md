@@ -75,5 +75,5 @@ Theorem 2 supplies the equidecomposition.
   the Hecke-Ostrowski-Kesten criterion
   ([[irrationality/grepstad_lev_2014_bounded_discrepancy_rotation/proposition_2_4|Proposition 2.4]],
   [[irrationality/grepstad_lev_2014_bounded_discrepancy_rotation/theorem_2_6|Theorem 2.6]]),
-  which bear on the problem's corrected statement, and the corollary adds
+  which bear on the problem's modified Statement, and the corollary adds
   nothing to the problem.

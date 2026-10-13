@@ -38,7 +38,7 @@ preprint *A proof of Chvátal's conjecture via a sharp correlation inequality*
 states that if $\mathcal{D}\subseteq2^{[n]}$ is closed under subsets and
 $\mathcal{F}\subseteq\mathcal{D}$ is intersecting, then
 $|\mathcal{F}|\le|\mathcal{D}(k)|$ for some $k\in[n]$, where $\mathcal{D}(k)$ is
-the star of the members containing $k$: the corrected Statement of
+the star of the members containing $k$: the modified Statement of
 [[problems/set_systems/E0701/_index|Problem 701]], Chvátal's conjecture of 1972,
 for subsets of the ground set $\{1,\dots,n\}$. The proof goes through the
 correlation formulation of Friedgut, Kahn, Kalai and Keller: for increasing
@@ -75,7 +75,7 @@ The Palomar registry's description of entry PALOMAR-2026-09-17-000004:
 > sharpness results, and weighted strengthening. The formalization was
 > completely prepared by GPT-6.
 
-**Formulation.** The problem page's corrected Statement adds Chvátal's finite
+**Formulation.** The problem page's modified Statement adds Chvátal's finite
 ground set to the site's wording, and the theorem is that Statement.
 
 **Formalization.** Boon Suan Ho's Lean 4 development *A formalization of

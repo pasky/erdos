@@ -29,7 +29,7 @@ $$
 R_3(C_n) \leq 4n-3.
 $$
 
-**Statement (corrected).** Let $R_3(G)$ denote the minimal $m$ such that if
+**Statement (modified).** Let $R_3(G)$ denote the minimal $m$ such that if
 the edges of $K_m$ are $3$-coloured then there must be a monochromatic copy of
 $G$. Show that for every $n>3$
 
@@ -57,7 +57,7 @@ wording. The threshold is the literature's statement of the conjecture as
 Bondy and Erdős's: [KSS05] p. 2, display (2), "Bondy and Erdős [4] conjectured
 that if $n>3$ is odd, then $R(C_n,C_n,C_n)=4n-3$", and [BeSk09] p. 2, display
 (1), which states the same equality for odd $n>3$; both papers settle only
-large $n$, so neither settles the corrected Statement. The corrected Statement
+large $n$, so neither settles the modified Statement. The modified Statement
 is a combined form: the literature's "$n>3$", kept for even $n$ as Erdős's
 bound and the site's are; it is the form OEIS A389335 prints, "$a(n)\le4n-3$
 for $n\ge4$". The form rests on these sources alone, not on which results
@@ -65,11 +65,11 @@ settle it. The one result about the site's wording alone is the value
 $R(3,3,3)=17$ of R. E. Greenwood and A. M. Gleason, Combinatorial relations
 and chromatic graphs, Canad. J. Math. 7 (1955), 1--7,
 [doi:10.4153/CJM-1955-001-4](https://doi.org/10.4153/CJM-1955-001-4); it
-is correct, but it answers the site's wording (every $n\ge3$), not the corrected
+is correct, but it answers the site's wording (every $n\ge3$), not the modified
 Statement (every $n>3$), so it does not count toward the problem's standing; it
 is credited here and on its rejected claim page,
 [[problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason|Greenwood and Gleason 1955]].
-The problem's standing judges the corrected Statement.
+The problem's standing judges the modified Statement.
 
 **Formulation.** The site's wording (page last edited 8 February 2026).
 $R_3(C_n)$ is the three-color Ramsey number the sources write $R(C_n,C_n,C_n)$.
@@ -86,8 +86,8 @@ even $n$ it is far from sharp, the value being $2n$ for all large even $n$.
 
 **Status.** Decidable, in the site's label (page last edited 8 February 2026),
 which the site defines as resolved up to a finite check. The label describes the
-corrected Statement, which excludes $n=3$. The frontmatter standing, derived
-from the claim pages, judges the corrected Statement and is open. The partial
+modified Statement, which excludes $n=3$. The frontmatter standing, derived
+from the claim pages, judges the modified Statement and is open. The partial
 claim pages
 [[problems/ramsey_theory/E0556/claims/2005_06_01_kohayakawa_simonovits_skokan|Kohayakawa, Simonovits and Skokan 2005]]
 and
@@ -257,10 +257,10 @@ case predicts. The thresholds are not made explicit: [KSS05], [BeSk09] and
 Jenssen and Skokan all use the regularity method and name no $n_0$, and
 Jenssen and Skokan add that their compactness argument gives no effective
 bound. The uncovered range is therefore $9\le n\le\max\{n_0,n_1\}$ with both
-thresholds unknown, and no source found closes any $n$ in it. So the corrected
+thresholds unknown, and no source found closes any $n$ in it. So the modified
 Statement is true for $4\le n\le8$ and for all $n$ beyond the thresholds and
 unchecked in between, which is the finite check the site's label refers to;
-the site's wording also fails at $n=3$, where the corrected Statement makes no
+the site's wording also fails at $n=3$, where the modified Statement makes no
 claim (Notes above).
 
 **Adjacent results (not status).** For $k\ge4$ colors and odd $n$, [LSS12]
@@ -300,10 +300,10 @@ values (Radziszowski's survey); [Er81c] beyond pp. 12--13; the journal texts of
 [BeSk09] and [JeSk21]; the GRACO2005 abstract.
 
 **Remaining gaps.** (1) The residue $9\le n\le\max\{n_0,n_1\}$ of the
-corrected Statement is open in the sources found and the thresholds are not
+modified Statement is open in the sources found and the thresholds are not
 made explicit; reopening condition: an explicit $n_0$ or $n_1$, or a source
 treating the small odd or even $n$. (2) The site's wording is false at $n=3$;
-the page judges the corrected Statement for $n>3$, which the site's label
+the page judges the modified Statement for $n>3$, which the site's label
 DECIDABLE describes. (3) Proof coverage is statements only: Theorem 1 of
 [KSS05], Theorem 1 of [BeSk09] and Theorem 1.2 of [JeSk21] are recorded at
 claims checked; the full proof of the odd case is a research report and a

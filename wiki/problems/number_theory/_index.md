@@ -7,7 +7,7 @@ desc: |
   irrational rotations and floor sequences, quadratic residues and character
   sums, and other one-off constructions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T23:28:38Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # Other Number Theory
@@ -46,7 +46,7 @@ proved by Sárközy (the first bound) and Konyagin (the sharp exponent $1/2$).
 $\delta>0$, the largest number $N(X,\delta)$ of points in a disc of radius $X$
 with all pairwise distances at least $\delta$ from the integers tends to
 infinity with $X$. The site misprints the limit variable; Sárközy's power lower
-bound proves the corrected statement.
+bound proves the modified Statement.
 
 [[problems/number_theory/E0480/_index|E0480/]]: Asks whether every sequence
 $x_1,x_2,\ldots$ in $[0,1]$ satisfies

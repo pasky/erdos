@@ -31,7 +31,7 @@ $$
 n^{1/3+c_1}\ll h(n) \ll n^{1/2-c_2}?
 $$
 
-**Statement (corrected).** Let $h(n)$ be maximal such that every graph on $n$
+**Statement (modified).** Let $h(n)$ be maximal such that every graph on $n$
 vertices where every set of $7$ vertices contains a triangle (a copy of $K_3$)
 must contain a clique on at least $h(n)$ vertices. Estimate $h(n)$ - in
 particular, do there exist constants $c_1,c_2>0$ such that
@@ -81,7 +81,7 @@ question on local and global independence numbers; the case $r=\log n$ with
 $m=(\log n)^2$ or $m=(\log n)^3$ is
 [[problems/extremal_graph_theory/E0804/_index|Problem 804]].
 
-**Status.** Open, for the corrected Statement. The site labeled the problem
+**Status.** Open, for the modified Statement. The site labeled the problem
 OPEN. The first inequality is proved. Theorem 1.3 of [BuSu23] (Combinatorica 43
 (2023), refereed) gives $\alpha(H)\ge n^{5/12-o(1)}$ for every $n$-vertex graph
 with $\alpha_7(H)\ge3$. So $h(n)\ge n^{5/12-o(1)}$, and any $c_1<1/12$ works.

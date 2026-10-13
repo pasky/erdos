@@ -64,7 +64,7 @@ doi:10.1002/jgt.3190180103; Section 6 on pp. 22--23, Theorem 6.1 on p. 23.
 - [[../wiki/problems/extremal_graph_theory/E0133/_index|Problem 133]]:
   the paper's $D_2(n)$ is the least maximum degree of a triangle-free graph
   of diameter $2$ on $n$ vertices, which is the quantity $f(n)$ of the
-  problem page's corrected statement. Theorem 6.1 with
+  problem page's modified Statement. Theorem 6.1 with
   $D_2(n)\ge\sqrt{n-1}$ gives that $D_2(n)$ has order $\sqrt n$, so
   $D_2(n)/\sqrt n$ does not tend to infinity. The paper presents the
   theorem as an improved bound for a problem of Erdős and Fajtlowicz

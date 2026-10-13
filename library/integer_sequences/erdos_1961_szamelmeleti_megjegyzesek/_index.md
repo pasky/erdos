@@ -81,7 +81,7 @@ primes that have none; the paper proves nothing for k > 2.
 [[../wiki/problems/integer_sequences/E0985/_index|#985]]: the remark on p. 11
 that it is not even known that every prime p has a prime q < p which is a
 primitive root of p is the problem's question in the site's wording (every
-prime p; the corrected Statement takes p > 2), recorded as not known and
+prime p; the modified Statement takes p > 2), recorded as not known and
 not proved.
 
 **Read status.** Claims checked for the three result pages below, read

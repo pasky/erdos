@@ -15,7 +15,7 @@ from tools.core.problem_layout import lint_problem_layout
 __all__ = [
     'test_problem_generator_creates_unassessed_pages_and_preserves_existing_bytes',
     'test_layout_accepts_qualified_openings_and_flexible_bodies_without_writing',
-    'test_layout_accepts_one_corrected_or_precise_statement_below_the_statement',
+    'test_layout_accepts_one_modified_statement_below_the_statement',
     'test_code_comments_and_navigation_do_not_change_the_authored_structure',
     'test_legacy_exception_requires_the_exact_complete_tail',
     'test_layout_rejects_incomplete_repeated_and_reordered_openings',
@@ -180,16 +180,14 @@ def test_layout_accepts_qualified_openings_and_flexible_bodies_without_writing(
     } == before
 
 
-@pytest.mark.parametrize('qualifier', ['corrected', 'precise'])
-def test_layout_accepts_one_corrected_or_precise_statement_below_the_statement(
+def test_layout_accepts_one_modified_statement_below_the_statement(
     tmp_path: pathlib.Path,
-    qualifier: str,
 ) -> None:
-    """Test a corrected or precise Statement and its Notes follow the site's Statement."""
-    # keep the site's wording first and the qualified statement with its reason below
+    """Test a modified Statement and its Notes follow the site's Statement."""
+    # keep the site's wording first and the modified statement with its reason below
     opening = _OPENING.replace(
         '**Status.**',
-        f'**Statement ({qualifier}).** A corrected synthetic question.\n\n'
+        '**Statement (modified).** A modified synthetic question.\n\n'
         '**Notes.** A synthetic reason.\n\n**Status.**',
     )
     _page(tmp_path, 'E0001', opening + _ASSESSMENT)
@@ -267,11 +265,11 @@ def test_legacy_exception_requires_the_exact_complete_tail(
         ('**References.**', '**References.** Repeated.\n\n**References.**'),
         ('**Status.**', '**Source.** An early source.\n\n**Status.**'),
         ('**Status.**', '**Statement (variant).** A variant question.\n\n**Status.**'),
-        ('**Source.**', '**Statement (corrected).** A late correction.\n\n**Source.**'),
+        ('**Source.**', '**Statement (modified).** A late change.\n\n**Source.**'),
         (
             '**Status.**',
-            '**Statement (corrected).** A corrected question.\n\n'
-            '**Statement (precise).** A precise question.\n\n**Status.**',
+            '**Statement (modified).** A modified question.\n\n'
+            '**Statement (modified).** Another modified question.\n\n**Status.**',
         ),
         ('**Statement.**', 'An introduction before Statement.\n\n**Statement.**'),
         ('**Source.** A synthetic site snapshot.', '> **Source.** A quoted source.'),
@@ -293,8 +291,8 @@ def test_legacy_exception_requires_the_exact_complete_tail(
         'duplicate-references',
         'out-of-order',
         'variant-statement',
-        'late-corrected-statement',
-        'two-qualified-statements',
+        'late-modified-statement',
+        'two-modified-statements',
         'nonleading-statement',
         'quoted-field',
         'fenced-field',

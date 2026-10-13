@@ -29,7 +29,7 @@ $$
 \max_{\substack{z\in\mathbb{C}\\ \lvert p(z)\rvert\leq 1}} \lvert p'(z)\rvert \leq (\tfrac{1}{2}+o(1))n^2?
 $$
 
-**Statement (corrected).** If $p(z)=z^n+\ldots$ is a polynomial of degree $n$
+**Statement (modified).** If $p(z)=z^n+\ldots$ is a polynomial of degree $n$
 such that $\{z : \lvert p(z)\rvert\leq 1\}$ is connected then is it true that
 
 $$
@@ -70,9 +70,9 @@ Chebyshev's polynomials. The site states the problem with the $o(1)$ term,
 and that question, made monic, sets the standing.
 
 **Status.** Proved. The site's label was PROVED (LEAN), and it describes the
-corrected Statement. Its Lean marker refers to a formal proof by others, linked
+modified Statement. Its Lean marker refers to a formal proof by others, linked
 from the claim page. That proof is unbuilt and unaudited in this corpus. The
-corrected Statement is proved. Eremenko and Lempert [ErLe94] prove the sharp
+modified Statement is proved. Eremenko and Lempert [ErLe94] prove the sharp
 bound $2^{1/n-1}n^2$, which a shifted Chebyshev polynomial attains. Their paper
 is refereed in the Proceedings of the AMS and credited by the site. The corpus
 accepts it on the claim page
@@ -103,7 +103,7 @@ has built and audited neither.
 
 ## Current assessment
 
-The corrected Statement asks whether a monic polynomial of degree $n$ with
+The modified Statement asks whether a monic polynomial of degree $n$ with
 connected set $E_p=\{\lvert p(z)\rvert\le1\}$ has
 $\lvert p'\rvert\le(\tfrac12+o(1))n^2$ on $E_p$; the Notes give the evidence
 for the normalization, and the formal-conjectures statement also takes $p$

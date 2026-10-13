@@ -75,7 +75,7 @@ Theorem 7 on p. 3, its proof on pp. 5--6. The edition is identified on the
 
 - [[../wiki/problems/set_systems/E0701/_index|Problem 701]]: Conjecture 1,
   which the paper credits to Chvátal and states for a down-set in $2^X$, is
-  the problem's corrected Statement when $X$ is finite. Theorem 7 proves its
+  the problem's modified Statement when $X$ is finite. Theorem 7 proves its
   inequality for the intersecting subfamilies of covering number at most
   $2$; a single element of largest degree in $\mathcal G$ serves for all of
   them. The covering condition is on the intersecting subfamily, not on the

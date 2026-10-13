@@ -112,7 +112,7 @@ Crossref license is recorded; the term is unstated.
 - [[../wiki/problems/covering_systems/E0002/_index|#2]]: the first question
   of [[additive_combinatorics/erdos_1957_unsolved_problems/problem_14|Problem 14]]
   (p. 295), a covering system with moduli $n_0<n_1<\cdots<n_k$ for every
-  $n_0$, is the problem's corrected Statement. The paper does not resolve it.
+  $n_0$, is the problem's modified Statement. The paper does not resolve it.
 - [[../wiki/problems/covering_systems/E0007/_index|#7]]: the second question
   of [[additive_combinatorics/erdos_1957_unsolved_problems/problem_14|Problem 14]]
   (p. 295), such a system with all moduli odd, is the problem. The paper does
@@ -122,7 +122,7 @@ Crossref license is recorded; the term is unstated.
   (p. 298) prints the conjecture $N(k)=2^k-1$, reports its disproof by de
   Bruijn and Erdős without a construction, and says it is not known whether
   $N(4)$ is finite. In the paper's notation the site's Statement asks whether
-  $N(k)\le2^k-1$, and the corrected Statement whether $N(k)\le2^k$.
+  $N(k)\le2^k-1$, and the modified Statement whether $N(k)\le2^k$.
 
 **Results.**
 

@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 502, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:37:30Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # problems/distance_problems/E0502/claims
@@ -16,7 +16,7 @@ determine only two distinct distances has at most $\binom{n+2}{2}$ points.
 More generally, an $s$-distance set has at most $\binom{n+s}{s}$ points.
 
 [[problems/distance_problems/E0502/claims/1997_02_01_lisonek|1997_02_01_lisonek]]: Correct, but answers the site's wording (the exact maximum, for $n\le8$), not
-the corrected Statement (the asymptotic behavior of $M_2(n)$), so it does not
+the modified Statement (the asymptotic behavior of $M_2(n)$), so it does not
 count toward the problem's standing. Lisoněk (1997) determines the largest
 two-distance sets in $\mathbb{R}^n$ for every $n\le8$: 3, 5, 6, 10, 16, 27, 29
 and 45 points, the last attaining the Bannai–Bannai–Stanton bound.

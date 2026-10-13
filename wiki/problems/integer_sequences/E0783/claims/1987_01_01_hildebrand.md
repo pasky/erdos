@@ -69,7 +69,7 @@ composite elements. Erdős and Ruzsa had asserted the extension to all pairwise
 coprime $A$ relative to the prime case without writing out its proof (their
 display (1.12);
 [[problems/integer_sequences/E0783/claims/1980_08_01_erdos_ruzsa|their claim page]]).
-That display and this corollary together would give the corrected Statement,
+That display and this corollary together would give the modified Statement,
 and [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao's claim page]]
 deduces the extension from this corollary with a written proof. The exact
 minimizer for a given $N$, the site's wording, is determined by none of

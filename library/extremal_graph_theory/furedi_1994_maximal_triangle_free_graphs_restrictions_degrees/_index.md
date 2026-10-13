@@ -90,7 +90,7 @@ Source: <https://users.renyi.hu/~furedi/>.
 
 - [[../wiki/problems/extremal_graph_theory/E0133/_index|#133]]: the paper's
   D_2(n) is the least maximum degree of a triangle-free graph of diameter 2 on
-  n vertices, the f(n) of the problem page's corrected statement. Theorem 6.1
+  n vertices, the f(n) of the problem page's modified Statement. Theorem 6.1
   (p. 23), D_2(n) <= (2/sqrt(3))(sqrt(n) + n^{7/24}) for all n > n_0, with
   D_2(n) >= sqrt(n-1), gives that D_2(n) has order sqrt(n), so D_2(n)/sqrt(n)
   does not tend to infinity; the graphs come from Example 2.2 (pp. 13-14). The

@@ -32,7 +32,7 @@ $$
 Is it true that there must be $\gg n$ many $m\leq n$ which do not divide any
 $a\in A$?
 
-**Statement (corrected).** Is it true that if $A\subseteq\{1,\ldots,n\}$ is a
+**Statement (modified).** Is it true that if $A\subseteq\{1,\ldots,n\}$ is a
 set such that $[a,b]>n$ for all $a\neq b$, where $[a,b]$ is the least common
 multiple, then
 
@@ -77,8 +77,8 @@ $1\notin A$ for the same reason and counts with the site, and the sets of
 prints the divisor form, and the site copies it. The form rests on these
 sources alone, not on which results settle it. The only result about the
 site's wording is the observation above; it settles no instance of the
-corrected Statement and counts for nothing. The first question is unchanged.
-The problem's standing judges the corrected Statement.
+modified Statement and counts for nothing. The first question is unchanged.
+The problem's standing judges the modified Statement.
 
 **Formulation.** The site's wording of 2026-09-18 (page last edited 8 April
 2026). The condition says that no $m\le n$ is a multiple of two distinct
@@ -86,7 +86,7 @@ elements of $A$ (Erdős 1973, p. 134), so the sets of multiples of the
 elements up to $n$ are pairwise disjoint and
 $\sum_{a\in A}\lfloor n/a\rfloor\le n$, which gives $\sum1/a<2$ at once. The
 first question is sharp for $A=\{2,3,5\}$, $n=5$: $1/2+1/3+1/5=31/30$. In the
-second question of the corrected Statement exactly
+second question of the modified Statement exactly
 $n-\sum_{a\in A}\lfloor n/a\rfloor$ integers up to $n$ are divisible by no
 element. The Schinzel--Szekeres sets exclude $1$ (their $T_n$ is defined
 through a least prime divisor).
@@ -94,10 +94,10 @@ through a least prime divisor).
 **Status.** The site's label was Solved, and it covers two answers: yes to the
 first question and no to the second. Both are by Schinzel and Szekeres (Acta
 Sci. Math. (Szeged) 20 (1959), 221--229, a refereed journal). The label
-describes the corrected Statement. The claim pages
+describes the modified Statement. The claim pages
 [[problems/integer_sequences/E0542/claims/1959_01_17_schinzel_szekeres|Schinzel and Szekeres 1959]]
 and [[problems/integer_sequences/E0542/claims/1996_01_01_chen|Chen 1996]] record
-the results. The frontmatter standing, which judges the corrected Statement,
+the results. The frontmatter standing, which judges the modified Statement,
 derives from them. The Schinzel and Szekeres page records the acceptance and
 links the Lean file of 2026 that declares itself a formalization of their
 theorems, not built here.
@@ -187,7 +187,7 @@ $c>0$ gives $cn$ such integers for all admissible sets. Its header declares it a
 formalization of a solution to the problem, names Schinzel and Szekeres as
 informal authors and two AI systems, Codex and GPT-5.6 Sol, as formal authors,
 at Lean and Mathlib v4.33.0; it contains no `sorry` and no `axiom`. It uses the
-"not divisible by any element" form of the corrected Statement. Nothing was
+"not divisible by any element" form of the modified Statement. Nothing was
 built or audited here, and the site did not label the problem Lean; the file is
 linked from the Schinzel--Szekeres claim page as a self-declared formalization.
 
@@ -276,7 +276,7 @@ $1.1\,n\log\log n\exp\{(\log\log n)^2-(\log n)^{1-1.1\log2}\}<n\,e^{-(\log n)^\d
 counts only the others. It is not a bound for $|B_n|$: Erdős's
 $c_2x/(\log x)^{\beta_1}<A'(x)<c_1x/(\log x)^{\beta_2}$ ([Er80], p. 111) puts
 the count at least $c_2n/(\log n)^{\beta_1}$, and its upper bound is the site's
-$n/(\log n)^c$. This answers the second question of the corrected Statement in
+$n/(\log n)^c$. This answers the second question of the modified Statement in
 the negative. Acceptance: Acta Scientiarum Mathematicarum is refereed; the paper
 is dated received 17 January 1959 (p. 229); Erdős's 1973 and 1980 surveys and
 the site accept the results. Read depth: claims checked for condition (1), the
@@ -340,7 +340,7 @@ two-sequence conjecture are second-hand; reopening condition for the record,
 either text. (3) Whether $\sum1/a\le1+o(1)$, and whether $\rho_n>1$ for any $n$
 other than $5$ and $11$, is open per the sources; not this problem. (4) The
 site's second question follows Erdős's 1973 sentence and reverses the
-divisibility of the other sources; the corrected Statement and its evidence are
+divisibility of the other sources; the modified Statement and its evidence are
 in the Notes.
 <!-- BEGIN problem library links -->
 

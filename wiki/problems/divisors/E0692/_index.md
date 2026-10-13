@@ -27,7 +27,7 @@ exactly one divisor in $(n,m)$. Is $\delta_1(n,m)$ unimodular for $m>n+1$ (i.e.
 increases until some $m$ then decreases thereafter)? For fixed $n$, where does
 $\delta_1(n,m)$ achieve its maximum?
 
-**Statement (precise).** Let $\delta_1(n,m)$ be the density of the set of
+**Statement (modified).** Let $\delta_1(n,m)$ be the density of the set of
 integers with exactly one divisor in $(n,m)$. Is $\delta_1(n,m)$ unimodular
 for $m>n+1$ (i.e. increases until some $m$ then decreases thereafter)?
 
@@ -38,7 +38,7 @@ defines as solved in the negative, answers a yes-or-no question, and its
 commentary records only the answer to the first: Cambie's computations for
 $n=2$ and $n=3$ and Cambie's theorem [Ca25] that the sequence has
 superpolynomially many local maxima. The curator therefore reads the problem
-as the unimodality question, and the precise Statement keeps that question
+as the unimodality question, and the modified Statement keeps that question
 alone. Erdős's source supports the reading. In [Er79e], after the bound
 $\epsilon'(n,m)<c/(\log n)^\alpha$, Erdős writes: "Perhaps $\epsilon'(n,m)$
 is unimodular for $m>n+1$, but I know nothing about this. I don't know where
@@ -50,7 +50,7 @@ $m$ is known only for $n=1$, where Cambie's Theorem 1 shows that
 $\delta_1(1,m)$ is non-increasing, so the maximum $1/2$ is attained at $m=3$
 and $m=4$; for every $n\ge2$ no recorded source determines it, and that
 question is recorded as a variant with its own answer under Formulation.
-Under the precise Statement the problem is disproved, by Cambie's explicit
+Under the modified Statement the problem is disproved, by Cambie's explicit
 dip $\delta_1(3,6)=7/20>\delta_1(3,7)=1/3<\delta_1(3,8)=38/105$, Cambie's
 computer check for $2\le n\le20$ and Theorem 3 of [Ca25], recorded as
 [[problems/divisors/E0692/claims/2025_01_17_cambie|Cambie's claim page]].
@@ -68,7 +68,7 @@ is attained at $m=3$ and $m=4$. For every $n\ge2$ the variant is open: no
 recorded source determines the maximizing $m$, and the formal-conjectures
 file marks this part research open.
 
-**Status.** DISPROVED (LEAN). The site's label describes the precise Statement.
+**Status.** DISPROVED (LEAN). The site's label describes the modified Statement.
 [[problems/divisors/E0692/claims/2025_01_17_cambie|Cambie's accepted claim]]
 disproves that Statement, so the derived standing is disproved. The Lean
 qualification refers to an Aristotle autoformalization of Cambie's finite
@@ -99,7 +99,7 @@ as of 2026-08-08.
 
 Cambie's explicit arithmetic example and Theorem 3 supply the mathematical
 disproof of unimodularity recorded on the claim page, which settles the
-precise Statement, so the problem's derived standing is disproved.
+modified Statement, so the problem's derived standing is disproved.
 Determining a maximizing $m$ for arbitrary fixed $n$ is the variant recorded
 under Formulation, answered only for $n=1$ and claimed by no one for $n\ge2$.
 Ford's Theorem 4, quoted under Known Results, is the analytic input to

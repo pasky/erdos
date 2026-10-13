@@ -81,4 +81,4 @@ construction never does.
 - [[../wiki/problems/set_systems/E1022/_index|Problem 1022]]: through
   [[set_systems/wood_2013_hypergraph_colouring_degeneracy/theorem_3|Theorem 3]]
   at $d=2$, $r=t$, which bounds every constant for which the implication of
-  the corrected statement (nonempty $X$) holds below $2$. The paper does not mention the problem.
+  the modified Statement (nonempty $X$) holds below $2$. The paper does not mention the problem.

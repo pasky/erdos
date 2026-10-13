@@ -25,7 +25,7 @@ updated: 2026-10-08T00:44:25Z
 $a_1,\ldots,a_n$ all possible values of $a_ia_j-1$ with $i\neq j$. Is it true
 that the set of integers which eventually appear has positive density?
 
-**Statement (precise).** Let $a_1=2$ and $a_2=3$ and continue the sequence by
+**Statement (modified).** Let $a_1=2$ and $a_2=3$ and continue the sequence by
 appending to $a_1,\ldots,a_n$ all possible values of $a_ia_j-1$ with $i\neq j$.
 Is it true that the set of integers which eventually appear has positive lower
 density?
@@ -56,7 +56,7 @@ generally how Erdős used these terms", that Erdős was "generally clear" when
 asking whether a density exists, and that the curator had tried to update all
 the site's problem descriptions to reflect this. The formal-conjectures
 statement follows the site: its `erdos_424` asks for positive lower density and
-its variant `exact_density` for a positive natural density. Under the precise
+its variant `exact_density` for a positive natural density. Under the modified
 Statement the answer is yes: Samuel Korsky's proof, recorded on
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|its claim page]],
 gives a $c>0$ with at least $cx$ members in $[1,x]$ for all large $x$, and the
@@ -75,13 +75,13 @@ report of Hofstadter's problem ([Er77c], p. 71; library card:
 which asks only "Does this sequence have positive density?"; the same section
 (p. 70) asks of another sequence whether its density or its lower density is
 $0$, and is unsure of the answer for the density while expecting the lower
-density to be $0$. The precise Statement takes the lower-density reading,
+density to be $0$. The modified Statement takes the lower-density reading,
 following the site's commentary (Notes), and the formal-conjectures statement
 ([424.lean](https://github.com/google-deepmind/formal-conjectures/blob/3cba9473f51e96b271278f34a97b31c2af3c2016/FormalConjectures/ErdosProblems/424.lean))
 follows the site: its main theorem asks for positive lower density. Samuel
 Korsky's proof, recorded on
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|its claim page]],
-answers the precise Statement yes.
+answers the modified Statement yes.
 
 Variant (natural density): does the set of integers that appear have a natural
 density, and is that density positive? This is open. No source here shows that
@@ -99,7 +99,7 @@ observation the site credits to Steinerberger.
 
 **Status.** The site labeled the problem OPEN (page last edited 31 March 2026;
 proof-claims thread accessed 2026-10-06). This record's derived standing is
-settled: the precise Statement is proved. The claim page
+settled: the modified Statement is proved. The claim page
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|Korsky's proof]]
 records the proof as an accepted full claim on formalized evidence. That
 standing departs from the site's label OPEN, which predates the claims. The
@@ -107,9 +107,9 @@ acceptance rests on the kernel-checked formalization, not on the site.
 
 Samuel Korsky posted a proof claim to the site's proof-claims tab as a full
 claim on 20 July 2026, after a partial claim of 18 July 2026 for a variant. It
-claims a proof of positive lower density, which is the precise Statement. It was
-written with GPT 5.6-Pro and is on arXiv (August 2026). Codex formalized it in
-Lean 4, with Boris Alexeev as formal co-author. The file is in
+claims a proof of positive lower density, which is the modified Statement. It
+was written with GPT 5.6-Pro and is on arXiv (August 2026). Codex formalized it
+in Lean 4, with Boris Alexeev as formal co-author. The file is in
 `plby/lean-proofs`, and it was built and audited here on 2026-10-07. The
 formal-conjectures statement of the lower-density reading is tagged solved. The
 site has not accepted the claim. Its proof-claims tab says that a claim's
@@ -134,13 +134,13 @@ https://www.erdosproblems.com/424.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/424.lean).
 A Lean proof of positive lower density, in Boris Alexeev's lean-proofs
 repository at a pinned commit, was built here and its statement audited against
-the precise Statement; the claim page
+the modified Statement; the claim page
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|Korsky's proof]]
 records the build.
 
 ## Current assessment
 
-The precise Statement asks for positive lower density, the reading of the
+The modified Statement asks for positive lower density, the reading of the
 site's curator (Notes). It is settled yes by Korsky's claim, accepted on
 formalized evidence (a Lean build, axiom audit and comparator match in this
 corpus) and not independently reviewed or refereed; the notes under Known
@@ -170,7 +170,7 @@ Lean file was built here at a commit of 15 September 2026 with only the
 standard axioms `propext`, `Classical.choice` and `Quot.sound`, its `erdos_424`
 matches the repository's comparator challenge, and it states positive lower
 density. The claim is therefore accepted on `formalized` evidence with scope
-full: it proves the precise Statement, and the natural-density variant stays
+full: it proves the modified Statement, and the natural-density variant stays
 open.
 <!-- BEGIN problem library links -->
 

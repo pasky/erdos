@@ -27,7 +27,7 @@ of edges that need to be added to $G$ so that it has diameter $2$ and is still
 triangle-free. Is it true that if $G$ has maximum degree $o(n^{1/2})$ then
 $h(G)=o(n^2)$?
 
-**Statement (corrected).** For a triangle-free graph $G$ let $h_2(G)$ be the
+**Statement (modified).** For a triangle-free graph $G$ let $h_2(G)$ be the
 smallest number of edges that need to be added to $G$ so that it has diameter
 $2$ and is still triangle-free. Is it true that if $G$ has maximum degree
 $o(n^{1/2})$ then $h_2(G)=o(n^2)$?
@@ -50,7 +50,7 @@ question is asymptotic in $n$. No result about the site's wording is recorded.
 **Status.** PROVED (LEAN). The site's label credited Alon's note with the
 solution. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0618/claims/2024_07_01_alon|Alon's theorem]],
-whose acceptance evidence is the site's own. The standing judges the corrected
+whose acceptance evidence is the site's own. The standing judges the modified
 Statement. The Lean part of the label refers to the formalization of Alon's
 solution that is linked from that claim page. The formalization's header names
 Aristotle and Alexeev as formal authors. The corpus has not built that Lean

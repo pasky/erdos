@@ -69,7 +69,7 @@ counts excursions between concentric circles across many scales and
 transfers Brownian estimates to the walk by strong approximation; it is not
 reconstructed in this corpus, while the inversion to the radius is.
 
-The law settles the corrected Statement of
+The law settles the modified Statement of
 [[problems/analysis/E1164/_index|Problem 1164]]: it gives the order of
 $\log R_n$ in probability, which
 [[problems/analysis/E1164/claims/1990_09_01_revesz|Révész's bound]] had

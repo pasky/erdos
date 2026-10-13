@@ -59,5 +59,5 @@ None.
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: this passage is the problem.
   The site's wording inherits the normalization slip; the problem page shows the
-  mean-normalized form as its corrected Statement and records the 2026 preprint
+  mean-normalized form as its modified Statement and records the 2026 preprint
   that claims all three parts of it.

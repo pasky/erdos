@@ -31,7 +31,7 @@ where $H_k$ is the graph on vertices
 $x,y_1,\ldots,y_k,z_1,\ldots,z_{\binom{k}{2}}$, where $x$ is adjacent to all
 $y_i$ and each pair of $y_i,y_j$ is adjacent to a unique $z_i$.
 
-**Statement (precise).** Let $k\geq 4$. Is it true that
+**Statement (modified).** Let $k\geq 4$. Is it true that
 
 $$
 \mathrm{ex}(n;H_k) \ll_k n^{3/2},
@@ -53,7 +53,7 @@ Füredi's paper on this question [Fu91] (printed p. 76) defines the same graph
 $L^k$, the lowest three levels of the Boolean lattice, with one vertex $x_{ij}$
 for each pair $1\leq i<j\leq k$ joined to exactly $y_i$ and $y_j$, and the
 site's commentary credits that theorem with the answer. The site's own vertex
-list, with $\binom{k}{2}$ vertices $z$, has one for each pair. The precise
+list, with $\binom{k}{2}$ vertices $z$, has one for each pair. The modified
 Statement takes this reading: the vertex $z_{\{i,j\}}$ of the pair $\{i,j\}$,
 with edges $xy_i$, $y_iz_{\{i,j\}}$ and $y_jz_{\{i,j\}}$ and no others. The
 formal-conjectures statement (see Formalization) uses the same graph.
@@ -61,7 +61,7 @@ formal-conjectures statement (see Formalization) uses the same graph.
 **Status.** The site labeled the problem PROVED. The status-defining source is
 Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79, refereed). It
 bounds $\mathrm{ex}(n;L^{k,s})$ by an explicit multiple of $n^{3/2}$ for every
-$k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's $H_k$ of the precise
+$k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's $H_k$ of the modified
 Statement. The frontmatter is derived from two claim pages.
 [[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]] is
 accepted on the refereed publication and the acceptance of the site's curator,
@@ -98,7 +98,7 @@ of formal-conjectures (added 2026-09-20; the link pins the version of
 2026-10-07) declares `erdos_926` under `category research solved`, with
 `answer(True)`: for every $k\ge4$ the extremal number of its graph `H k` is
 $O(n^{3/2})$. Its `H k` has one vertex for each unordered pair of the $k$ branch
-vertices, the graph of the precise Statement. The statement's `formal_proof`
+vertices, the graph of the modified Statement. The statement's `formal_proof`
 attribute names the file
 [`src/latest/ErdosProblems/Erdos926.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos926.lean)
 of Boris Alexeev's repository plby/lean-proofs (linked at the commit the

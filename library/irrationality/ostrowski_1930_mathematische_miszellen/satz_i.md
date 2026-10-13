@@ -112,6 +112,6 @@ for the second.
 - [[../wiki/problems/irrationality/E0998/_index|Problem 998]]: for
   irrational $\alpha$ and $0\le u<v\le1$ with $v-u=R(j\alpha)$ for a nonzero
   integer $j$, Satz I bounds the discrepancy of $[u,v)$ by $|j|$ at every
-  $n$; this is the sufficiency direction of the problem's corrected
+  $n$; this is the sufficiency direction of the problem's modified
   Statement, the same bound as the 1927 note's equation (3). It says nothing
   about the converse, which the problem asks.

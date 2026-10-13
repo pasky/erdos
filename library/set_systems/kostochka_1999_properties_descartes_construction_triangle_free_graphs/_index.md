@@ -80,8 +80,8 @@ public access page.
 
 - [[../wiki/problems/set_systems/E1022/_index|#1022]]: Property 7 (p. 5),
   applied with $r=t$ and $m$ chosen so that $1+1/m<c$, gives for every
-  $t\geq2$ and every $c>1$ a $t$-uniform family that meets the corrected
-  statement's counting condition (every nonempty $X$) with constant $c$ and
+  $t\geq2$ and every $c>1$ a $t$-uniform family that meets the modified
+  Statement's counting condition (every nonempty $X$) with constant $c$ and
   has no property B. For $c\leq1$ the paper proves nothing; it only reports
   (p. 5) that Burstein, Lovász, Seymour and Woodall independently proved that
   every 3-chromatic hypergraph has density at least $1$, and the corpus takes

@@ -44,9 +44,9 @@ f(n;r,2)=\max\left(\binom{2r-1}{r},\binom nr-\binom{n-1}{r}\right)
 \qquad(n\ge2r),
 $$
 
-the conjectured value at $k=2$ over the whole range $n\ge2r$ of the corrected
+the conjectured value at $k=2$ over the whole range $n\ge2r$ of the modified
 Statement. For $n\le2r-1$ any two $r$-sets meet, so $f(n;r,2)=\binom nr$; these
-values lie outside the corrected Statement. The paper is P. Erdős, Chao Ko and
+values lie outside the modified Statement. The paper is P. Erdős, Chao Ko and
 R. Rado, Intersection theorems for systems of finite sets, Quart. J. Math.
 Oxford Ser. (2) 12 (1961), 313–320, carded at
 [[../library/set_systems/erdos_1961_intersection_theorems_systems_finite_sets/_index|Intersection theorems for systems of finite sets]].
@@ -56,7 +56,7 @@ the Erdős–Ko–Rado theorem. The site's commentary attaches the theorem to $r
 in a parenthesis; the theorem gives the case $k=2$ for every $r$.
 
 **Covers.** The case $k=2$ for every $r\ge3$ and every $n\ge2r$, the whole of
-the corrected Statement at $k=2$. It says nothing about $k\ge3$.
+the modified Statement at $k=2$. It says nothing about $k\ge3$.
 
 **Depends on.** No page of this wiki.
 

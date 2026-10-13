@@ -81,7 +81,7 @@ None.
   is the origin of the problem's first question, whether for every
   bipartite $\mathcal G$ the extremal number is asymptotic to $cn^\alpha$
   with $c>0$. The paper states it for $f(n;\mathcal G)$ with
-  $0\le\alpha<2$, where the problem's corrected Statement takes
+  $0\le\alpha<2$, where the problem's modified Statement takes
   $\mathrm{ex}(n;G)$, $\alpha\in[1,2)$ and graphs with at least two edges,
   as the problem page explains. The paper's guess about the possible
   values of $\alpha$ is on

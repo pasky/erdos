@@ -34,7 +34,7 @@ two such congruences.
 
 Estimate $\epsilon_m$.
 
-**Statement (corrected).** Let
+**Statement (modified).** Let
 
 $$
 \epsilon_m=\sup \sum \frac{1}{n_i}
@@ -66,20 +66,20 @@ estimate $\epsilon_m=L(m)^{-1+o(1)}$ under the label SOLVED (LEAN), which
 only the supremum fits, and the formal-conjectures statement, which counts
 with the site, defines $\epsilon_m$ as an `sSup`. The form rests on these
 sources alone; Ho's manuscript and both Lean developments, which settle the
-corrected Statement, use the same supremum. Allowing the empty family, with
+modified Statement, use the same supremum. Allowing the empty family, with
 sum zero, does not change the supremum.
 
 **Status.** Solved with a Lean qualification, the site's label (SOLVED (LEAN),
 page last edited 28 May 2026, accessed 2026-10-07). The site describes the
-supremum of the corrected Statement and derives the estimate from the resolution
-of Problem 202. The corrected Statement is solved at the sharp logarithmic scale
+supremum of the modified Statement and derives the estimate from the resolution
+of Problem 202. The modified Statement is solved at the sharp logarithmic scale
 by
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's accepted claim page]].
 
 **Source.** [erdosproblems.com/1190](https://www.erdosproblems.com/1190)
 (the statement above is the site's wording as of 2026-09-05; page last
 edited 28 May 2026). Cite as: T. F. Bloom, Erdős Problem #1190,
-https://www.erdosproblems.com/1190. The Statement (corrected) above
+https://www.erdosproblems.com/1190. The Statement (modified) above
 replaces its maximum with a supremum.
 
 **References.**
@@ -99,7 +99,7 @@ below for the pinned public implementations and recorded verification limits.
 ## Current assessment
 
 The standing in the frontmatter is derived from the claim pages and judges
-the corrected Statement. The corrected Statement is solved at the sharp
+the modified Statement. The modified Statement is solved at the sharp
 logarithmic scale by Ho's Corollary 1.2, an accepted full claim on
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's claim page]];
 the account below concerns it. Two contemporary notes on the same estimate
@@ -154,7 +154,7 @@ formalizations, including the Park–Pham input. The [community
 ledger](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
 records Ho's full solution and the 14 May formalization. The site's page,
 labeled this problem SOLVED (LEAN) and records a last edit of 28 May. These
-dated records supplement the primary proof; the solved answer to the corrected
+dated records supplement the primary proof; the solved answer to the modified
 Statement does not rest on the site label alone.
 
 Two other contemporary notes posted in the

@@ -109,7 +109,7 @@ source of status.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0638/_index|#638]]:
 [[ramsey_theory/saturnino_2026_counterexample_hereditary_triangle_ramsey_compactness_problem/main_theorem_1|Main Theorem 1]] (Propositions 14 and 18) states, as an
-unreviewed claim, a negative answer to the problem page's corrected
+unreviewed claim, a negative answer to the problem page's modified
 Statement, for families closed under taking subgraphs, and to the
 induced-subgraph variant the page records in its Formulation; the problem
 page records it on its claim page and derives its standing there.

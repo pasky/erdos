@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason
 title: Greenwood and Gleason, R(3,3,3) = 17 refutes the bound at the triangle
 desc: |
   Correct, but answers the site's wording (every cycle length $n\ge3$), not the
-  corrected Statement (every $n>3$), so it does not count toward the problem's
+  modified Statement (every $n>3$), so it does not count toward the problem's
   standing. The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad.
   J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
 authors:
@@ -44,13 +44,13 @@ by all crossing edges in the third color gives a $3$-coloring of $K_{10}$ with
 no monochromatic triangle, so $R(3,3,3)\ge11$; the
 [[problems/ramsey_theory/E0556/_index|problem page]] records that check. The
 exact value is the refereed result recorded here as the claimant's. The
-corrected Statement, for $n>3$, is not touched by this page; its state is
+modified Statement, for $n>3$, is not touched by this page; its state is
 recorded on the problem page and on the partial claim pages
 [[problems/ramsey_theory/E0556/claims/2005_06_01_kohayakawa_simonovits_skokan|Kohayakawa, Simonovits and Skokan 2005]]
 and
 [[problems/ramsey_theory/E0556/claims/2008_09_21_benevides_skokan|Benevides and Skokan 2008]].
 
-**Why it is rejected.** It answers the site's wording, not the corrected
-statement.
+**Why it is rejected.** It answers the site's wording, not the modified
+Statement.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.

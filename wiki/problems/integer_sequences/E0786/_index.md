@@ -28,7 +28,7 @@ A$ can only hold when $r=s$?
 Similarly, can one always find a set $A\subset\{1,\ldots,N\}$ with this property
 of size $\geq (1-o(1))N$?
 
-**Statement (precise).** Let $\epsilon>0$. Is there some set $A\subset
+**Statement (modified).** Let $\epsilon>0$. Is there some set $A\subset
 \mathbb{N}$ of density $>1-\epsilon$ such that $a_1\cdots a_r=b_1\cdots b_s$
 with $a_i,b_j\in A$ (where each product runs over a subset of $A$) can only
 hold when $r=s$?
@@ -66,7 +66,7 @@ February 2026), all recorded under Formulation and Known Results.
 **Formulation.** The site's wording as of the snapshot accessed 2026-09-04
 (page last edited 11 April 2026); its
 [full commentary](https://www.erdosproblems.com/latex/786) distinguishes the
-two conventions. The two subsets in the Statement (precise) may overlap, and
+two conventions. The two subsets in the Statement (modified) may overlap, and
 the Lean definition quoted in
 [forum post 4031](https://www.erdosproblems.com/forum/thread/786#post-4031)
 likewise has no disjointness hypothesis. The reading not adopted, with
@@ -88,7 +88,7 @@ kept the problem OPEN until the distinct-factor reading is settled
 **Status.** The site labeled the problem OPEN (page last edited 11 April 2026;
 proof-claim tab accessed 2026-10-06). That label describes the distinct-factor
 reading as unsettled. The standing derives from the claim pages and judges the
-Statement (precise). The full claim
+Statement (modified). The full claim
 [[problems/integer_sequences/E0786/claims/2026_09_28_li|Li 2026]] was submitted
 to the site's proof-claim tab on 28 September 2026, and its manuscript was
 posted on arXiv the same day (2609.37471v1). It is declared as produced
@@ -147,7 +147,7 @@ statements in [Er65], [Er73], [Er80], [ERS73] and [GrSo01]. The only
 literature search beyond these sources is an arXiv search for "Erdős" over
 submissions from 25 September 2026, which found the arXiv posting of Li's
 manuscript; no check of the linked Lean developments or proof review is
-recorded. The Statement (precise) takes the distinct-factor reading
+recorded. The Statement (modified) takes the distinct-factor reading
 from [Er80], under which the site's commentary treats both questions as open;
 the negative answers under the repetitions-allowed reading come from [ERS73]
 through the transfer the commentary gives and are recorded under Formulation.

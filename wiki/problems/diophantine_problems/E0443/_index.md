@@ -30,7 +30,7 @@ $$
 Can it be arbitrarily large? Is it $\leq (mn)^{o(1)}$ for all sufficiently large
 $m,n$?
 
-**Statement (corrected).** Let $m,n\geq 1$ with $m\neq n$. What is
+**Statement (modified).** Let $m,n\geq 1$ with $m\neq n$. What is
 
 $$
 \# \{ k(m-k) : 1\leq k\leq m/2\} \cap \{ l(n-l) : 1\leq l\leq n/2\}?
@@ -61,10 +61,10 @@ in the poser's text, which states no restriction on $m$ and $n$. Hegyvári's
 paper quotes the question without one and proves its theorems for $m>n$; that
 hypothesis is not the source of the change. No result about the site's wording
 exists beyond the check recorded here, which settles no instance of the
-corrected Statement.
+modified Statement.
 
 **Status.** Labeled PROVED (LEAN) on erdosproblems.com. This label describes the
-corrected Statement. The site's commentary credits Hegyvári and, unpublished,
+modified Statement. The site's commentary credits Hegyvári and, unpublished,
 Cambie. The Lean mark refers to a third-party Lean formalization of Hegyvári's
 paper, which this repository has not built. The claim page
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|Hegyvári]]
@@ -89,7 +89,7 @@ repository for both; see the claim page.
 
 ## Current assessment
 
-For $k\ge2$ let $A_k=\{r(k-r):1\le r\le k/2\}$. The corrected Statement asks
+For $k\ge2$ let $A_k=\{r(k-r):1\le r\le k/2\}$. The modified Statement asks
 for the size of $A_n\cap A_m$ for $m\ne n$, whether it can be arbitrarily
 large, and whether it is $(mn)^{o(1)}$ for all large $m,n$. Hegyvári answers
 the first question with a divisor-count bound and both yes-or-no questions

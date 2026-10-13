@@ -113,7 +113,7 @@ corpus's [[analysis/dembo_2004_cover_times_brownian_motion_random_walks/radius_d
 inverts it to the law
 $\mathbb P((\log\max\{R_n,1\})^2/\log n\le x)\to1-e^{-4x}$, $x>0$, for
 the covered radius $R_n$, which implies the two-sided comparison
-$\log R_n\asymp\sqrt{\log n}$ in probability that the problem's corrected
+$\log R_n\asymp\sqrt{\log n}$ in probability that the problem's modified
 Statement asks about. Theorems 1.1–1.3 do not bear on the problem.
 
 No file of this source is held: no license on record permits its redistribution,

@@ -12,7 +12,7 @@ __all__ = ['lint_problem_layout']
 _PROBLEM_FOLDER = 'E[0-9][0-9][0-9][0-9]'
 _INDEX = '_index.md'
 _SPINE = ('Statement', 'Status', 'Source', 'References', 'Formalization')
-_QUALIFIED = ('Statement (corrected)', 'Statement (precise)')
+_QUALIFIED = 'Statement (modified)'
 _FIELD = re.compile(
     r'^ {0,3}\*\*(Statement(?: \([^*\n]*\))?|Status|Source|References|'
     r'Formalization)\.\*\*(?=\s|$)',
@@ -143,10 +143,10 @@ def _lint_body(body: str) -> tuple[list[str], bool]:
     start = headings[0].start() if headings else len(visible)
     opening = visible[:start]
     fields = list(_FIELD.finditer(opening))
-    # keep a corrected or precise Statement apart from the site's qualified Statement
+    # keep a modified Statement apart from the site's qualified Statement
     labels = [
         'Statement'
-        if field[1].startswith('Statement') and field[1] not in _QUALIFIED
+        if field[1].startswith('Statement') and field[1] != _QUALIFIED
         else field[1]
         for field in fields
     ]
@@ -165,20 +165,19 @@ def _lint_body(body: str) -> tuple[list[str], bool]:
         elif count != 1:
             issues.append(f'opening has {count} {label} fields; expected one')
 
-    # allow one corrected or precise Statement, directly after the site's Statement
-    qualified = [label for label in labels if label in _QUALIFIED]
+    # allow one modified Statement, directly after the site's Statement
+    qualified = [label for label in labels if label == _QUALIFIED]
     if len(qualified) > 1:
         issues.append(
-            f'opening has {len(qualified)} corrected or precise Statement fields; '
+            f'opening has {len(qualified)} modified Statement fields; '
             'expected at most one'
         )
     expected = [label for label in _SPINE if label != 'References' or label in labels]
     expected[1:1] = qualified[:1]
     if labels != expected:
         issues.append(
-            'opening fields must follow Statement, optional Statement (corrected) '
-            'or Statement (precise), Status, Source, optional References, '
-            'Formalization'
+            'opening fields must follow Statement, optional Statement (modified), '
+            'Status, Source, optional References, Formalization'
         )
 
     # retain only the exact legacy tail, including its authored whitespace

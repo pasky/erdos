@@ -5,7 +5,7 @@ desc: |
   Asks whether, for some $\delta>0$, the largest number $N(X,\delta)$ of points
   in a disc of radius $X$ with all pairwise distances at least $\delta$ from the
   integers tends to infinity with $X$. The site misprints the limit variable;
-  Sárközy's power lower bound proves the corrected statement.
+  Sárközy's power lower bound proves the modified Statement.
 tags:
 - Number theory
 status: solved
@@ -38,7 +38,7 @@ $$
 \lim_{x\to \infty}N(X,\delta)=\infty?
 $$
 
-**Statement (corrected).** Let $N(X,\delta)$ denote the maximum number of
+**Statement (modified).** Let $N(X,\delta)$ denote the maximum number of
 points $P_1,\ldots,P_n$ which can be chosen in a circle of radius $X$ such
 that
 
@@ -70,7 +70,7 @@ the 1980 monograph [ErGr80], printed p. 93, prints
 "$\lim_{x\to\infty}N(X,\delta_0)=\infty$" with the lowercase $x$ the site
 reproduces, so the misprint is the monograph's and the site's wording copies
 it. The site's commentary, which credits Graham and Sárközy with proving the
-question, answers the corrected statement. The standing judges the corrected
+question, answers the modified Statement. The standing judges the modified
 Statement.
 
 **Formulation.** The site's wording, accessed 2026-09-18 (page last edited 16
@@ -81,11 +81,11 @@ and $N(X,\delta)$ is nondecreasing in $X$ (a disc of radius $X$ contains every
 smaller disc), so "$N(X,\delta)\to\infty$ as $X\to\infty$" and "$N(X,\delta)$ is
 unbounded in $X$" say the same thing (an authored one-line remark). Erdős's 1982
 survey writes the radius as a lowercase $x$ throughout and Sárközy as a capital
-$X$; both state the question with the limit in the radius, and the corrected
+$X$; both state the question with the limit in the radius, and the modified
 Statement keeps the site's capital $X$.
 
 **Status.** PROVED, the site's label (page last edited 16 September 2025). The
-label describes the corrected Statement. The commentary credits Graham's
+label describes the modified Statement. The commentary credits Graham's
 construction and Sárközy's power lower bound. The derived standing is solved,
 proved. The result is recorded as an
 [[problems/number_theory/E0466/claims/1976_01_01_sarkozy|accepted full claim]].
@@ -152,7 +152,7 @@ audited in this corpus. The file
 [`ErdosProblems/466.lean`](https://github.com/google-deepmind/formal-conjectures/blob/b1679779cb2a9f852751c26557dcbe5fb9afeac7/FormalConjectures/ErdosProblems/466.lean)
 of formal-conjectures, added on 20 September 2026, declares
 `erdos_466 : answer(True) ↔ ∃ δ : ℝ, 0 < δ ∧ Tendsto (fun X ↦ N X δ) atTop atTop`
-under `category research solved`, which states the corrected Statement, with
+under `category research solved`, which states the modified Statement, with
 the radius as the limit variable. Its `formal_proof` attribute names
 `Erdos466.lean` in Boris Alexeev's repository plby/lean-proofs, whose header
 names Ronald Graham as the informal author and the AI systems Codex and
@@ -209,7 +209,7 @@ with the Corollary (p. 107) that for every $\varepsilon>0$ there is
 $\delta_0(\varepsilon)>0$ with $N(X,\delta)>X^{1/2-\varepsilon}$ for
 $0<\delta<\delta_0(\varepsilon)$ and $X$ large. Since the exponent is
 positive in the range (5), $N(X,\delta)\to\infty$ for every such $\delta$,
-which proves the corrected Statement. The paper's p. 105 reports the
+which proves the modified Statement. The paper's p. 105 reports the
 question as Erdős's conjecture ("Erdős conjectured that for some $\delta_0>0$,
 $\lim_{X\to+\infty}N(X,\delta_0)=+\infty$. This conjecture has been proved
 by R. L. Graham (Erdős's oral communication)") and gives Graham's
@@ -265,7 +265,7 @@ scan that contains the two papers. Not searched: MathSciNet, zbMATH, Google
 Scholar, X. Nothing found disputes the results or names a paper of Graham's.
 
 **Remaining gaps.** (1) The site's wording keeps the misprinted limit
-variable that the thread asks to correct; the standing judges the corrected
+variable that the thread asks to correct; the standing judges the modified
 Statement. (2) Graham's construction is known only as Sárközy reports it, with
 a sketch, and as the third-party Lean proof under Formalization renders it,
 since Erdős reports the bound alone; the accepted claim rests on Sárközy's

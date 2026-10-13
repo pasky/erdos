@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 606, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T17:25:54Z
 ---
 
 # problems/discrete_geometry/E0606/claims
@@ -17,7 +17,7 @@ values, is the number of lines determined by some $n$ points in the plane.
 
 [[problems/discrete_geometry/E0606/claims/1988_06_01_salamon_erdos|1988_06_01_salamon_erdos]]: Salamon and Erdős determine, for every sufficiently large $n$, exactly which
 integers occur as the number of lines determined by $n$ points in the plane.
-This answers the corrected Statement of Problem 606 in full, and the site
+This answers the modified Statement of Problem 606 in full, and the site
 credits the refereed paper as the solution.
 
 ***

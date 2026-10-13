@@ -4,7 +4,7 @@ title: Grossman, Harary and Klawe, the Ramsey bound for double stars
 desc: |
   Theorem 3.1 of Grossman, Harary and Klawe (Discrete Math. 1979) bounds the
   Ramsey number of every double star $S(n,m)$ by $2n+m+2$, which is at most
-  $2N-2$ when it has $N$ vertices. This is the corrected statement of Problem
+  $2N-2$ when it has $N$ vertices. This is the modified Statement of Problem
   547 for double stars.
 authors:
 - Jerrold W. Grossman
@@ -39,10 +39,10 @@ value for $n\ge3m$, the site's $R(S_{t_1,t_2})=2t_1$ for
 $t_1\ge3t_2-2$ in its notation, which disproves Burr's exact conjecture
 for trees.
 
-**Covers.** The corrected Statement of
+**Covers.** The modified Statement of
 [[problems/ramsey_theory/E0547/_index|Problem 547]] for every double star,
 including the stars $S(n,0)=K_{1,n+1}$ on at least three vertices. Every
-other tree is outside this claim; the full corrected Statement is settled
+other tree is outside this claim; the full modified Statement is settled
 by the accepted claim page
 [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|the 2026
 claim]].

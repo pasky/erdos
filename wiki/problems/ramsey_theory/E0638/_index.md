@@ -31,7 +31,7 @@ Is it true that for every infinite cardinal $\aleph$ there is a graph $G$ of
 which every finite subgraph is in $S$ and if the edges of $G$ are coloured with
 $\aleph$ many colours then there is a monochromatic triangle.
 
-**Statement (corrected).** Let $S$ be a family of finite graphs, closed under
+**Statement (modified).** Let $S$ be a family of finite graphs, closed under
 taking subgraphs, such that for every $n$ there is some $G_n\in S$ such that if
 the edges of $G_n$ are coloured with $n$ colours then there is a monochromatic
 triangle.
@@ -62,7 +62,7 @@ the hereditary form. Erdős's item 9 of [Er97d] (pp. 83--84), which the site's
 wording follows nearly word for word, says only "a family of finite graphs" and
 is silent on closure, so the defect is already in Erdős's text. Barreto's
 counterexample answers the site's wording (every family $S$
-meeting the hypothesis), not the corrected Statement (families closed under
+meeting the hypothesis), not the modified Statement (families closed under
 taking subgraphs), so it does not count toward the problem's standing; it is
 credited here and on
 [[problems/ramsey_theory/E0638/claims/2026_01_05_barreto|Barreto's claim page]],
@@ -86,8 +86,8 @@ subgraphs. An analog with induced subgraphs in place of subgraphs, with $S$
 closed under induced subgraphs, is a variant; the note [Sa26] claims the same
 negative answer for it (Main Theorem 1, p. 2; Proposition 18, p. 10).
 
-**Status.** The site showed OPEN, a label that fits the corrected Statement and
-not the site's wording. A negative answer to the corrected Statement is claimed
+**Status.** The site showed OPEN, a label that fits the modified Statement and
+not the site's wording. A negative answer to the modified Statement is claimed
 in an unreviewed note. It is recorded at claimed on
 [[problems/ramsey_theory/E0638/claims/2026_04_26_saturnino|Saturnino's claim page]],
 and the frontmatter standing derives from the claim pages. The note [Sa26] runs
@@ -170,7 +170,7 @@ taking subgraphs is still false by a similar counterexample, which it does not
 give, and distinguishes that closure from closure under finite subgraphs
 without explaining the distinction; for a family of finite graphs the two
 closures coincide as worded, and this page does not guess at another intended
-reading. The corrected Statement is the question the note [Sa26] answers.
+reading. The modified Statement is the question the note [Sa26] answers.
 
 **The note.** [Sa26], dated April 26, 2026 on p. 1, states in its abstract that
 it addresses "the hereditary interpretation of Erdős Problem 638, suggested by
@@ -217,7 +217,7 @@ initial draft produced with the same system. No refereed publication, arXiv
 version, independent mathematical review or complete formalization was found,
 and the site's label and commentary do not mention the note. Under the corpus's
 rules the note is a forum-posted, AI-assisted claim, recorded as a lead with
-this provenance; it does not set the answer to the corrected Statement, which
+this provenance; it does not set the answer to the modified Statement, which
 the site labeled OPEN. The poster's account name is not written on this page.
 
 **Search scope.** None of the routes below found a refereed or independently
@@ -242,7 +242,7 @@ and the Lean repository named in the thread were not fetched. Not read:
 **Remaining gaps.** (1) The correction rests only on the site's commentary
 and label; a text of Erdős or of the literature stating the hereditary form
 would strengthen it, and one stating another form would reopen it. (2) The
-corrected Statement has one negative claim, unreviewed and AI-assisted, with an
+modified Statement has one negative claim, unreviewed and AI-assisted, with an
 incomplete formalization; what would change its standing: an independent
 review or refereed publication of [Sa26], a second proof, or a
 counter-argument in the thread or the literature. (3) The original wording of

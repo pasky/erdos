@@ -79,7 +79,7 @@ Astra; GPT-5 Pro; GPT-6 Pro (OpenAI, via ChatGPT)" as the AI used:
 
 **Covers.** The case $r=4$ of [[problems/set_systems/E1020/_index|Problem 1020]]
 for every $k\ge2$ and $n\ge4k$, the manuscript's own range, which is the whole
-case $r=4$ of the corrected Statement. Below it the site's displayed equality
+case $r=4$ of the modified Statement. Below it the site's displayed equality
 holds trivially at $n=4k-1$ and fails for $n\le4k-2$, since
 $f(n;4,k)=\binom{n}{4}<\binom{4k-1}{4}$ there, as the problem page records. Hou,
 Hu and Liu had claimed the same case for $k\ge6005$, so the claimed novelty is

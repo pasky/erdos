@@ -31,7 +31,7 @@ $$
 
 is everywhere dense?
 
-**Statement (corrected).** Is there an entire transcendental function
+**Statement (modified).** Is there an entire transcendental function
 $f:\mathbb{C}\to \mathbb{C}$ such that, for any infinite sequence
 $n_1<n_2<\cdots$, the set
 
@@ -61,10 +61,10 @@ Hungarian paper (Some remarks on a paper of Kővári, Mat. Lapok 7 (1956),
 follows from the site's commentary and label, not from the results that settle
 it. The polynomial observation answers the site's wording only and counts for
 nothing; no claim page records it, since no one presented it as settling the
-problem. The page's standing judges the corrected Statement.
+problem. The page's standing judges the modified Statement.
 
 **Status.** The site labeled the problem OPEN (page last edited 1 October 2025),
-a label that describes the corrected Statement. The derived standing is claimed.
+a label that describes the modified Statement. The derived standing is claimed.
 Four pending full claims, each with declared AI assistance, construct such a
 transcendental function. Two were posted on the site's discussion thread on 25
 April 2026:
@@ -99,7 +99,7 @@ the density property and tags the question open.
 
 ## Current assessment
 
-**The question (page last edited 1 October 2025).** The corrected Statement
+**The question (page last edited 1 October 2025).** The modified Statement
 above: a transcendental entire $f$ such that for every infinite sequence
 $n_1<n_2<\cdots$ the zeros of the derivatives $f^{(n_k)}$, taken together, are
 dense in $\mathbb{C}$. The site's wording, which also admits polynomials, is
@@ -119,7 +119,7 @@ solution is recorded on the site or on this wiki.
 **Pending claims.** Four full claims each construct a transcendental entire
 function whose high derivatives have a zero in every fixed nonempty open set,
 which is equivalent to the question's density condition and so answers the
-corrected Statement yes. Two were posted on the site's discussion thread on 25
+modified Statement yes. Two were posted on the site's discussion thread on 25
 April 2026, each with a dated manuscript.
 [[problems/analysis/E0906/claims/2026_04_25_almeida|Almeida's claim]], whose
 manuscript says it was prepared with AI assistance and whose document metadata

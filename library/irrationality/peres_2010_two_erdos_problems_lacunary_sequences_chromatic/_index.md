@@ -116,7 +116,7 @@ coloring with at most $1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors (the
 status-defining theorem, refereed in 2010), the p. 3 argument gives $4^K$
 colors elementarily, and the sharpness remark shows the order
 $\epsilon^{-1}$ cannot be improved. [[../wiki/problems/number_theory/E0464/_index|#464]],
-whose corrected Statement is Problem B with the multiplier required to be
+whose modified Statement is Problem B with the multiplier required to be
 irrational (Problem B, p. 1, asks only for $\theta\in(0,1)$): Theorem 1.1 gives
 the separation
 $\inf_j\|\theta n_j\|>c\epsilon|\log\epsilon|^{-1}$ for $0<\epsilon<1/4$

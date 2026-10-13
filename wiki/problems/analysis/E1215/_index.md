@@ -31,7 +31,7 @@ $$
 
 which connects $0$ to the unit circle of length at most $C$?
 
-**Statement (corrected).** Does there exist a constant $C$ such that for every
+**Statement (modified).** Does there exist a constant $C$ such that for every
 nonconstant polynomial $P$ with $P(0)=1$, all of whose roots are on the unit
 circle, there exists a path in
 
@@ -70,10 +70,10 @@ fails this way. The defect is already in the posers' question, which states the
 exemption for Cohen's path but not again in the question, and says nothing of
 degree $0$. The one result about the site's wording is the trivial answer above,
 the corpus's own observation, published nowhere else; it is credited here and
-counts for nothing. Mac Lane's theorem answers the corrected Statement no, and
-the problem's label and standing judge the corrected Statement.
+counts for nothing. Mac Lane's theorem answers the modified Statement no, and
+the problem's label and standing judge the modified Statement.
 
-**Status.** Disproved, the site's label, which describes the corrected
+**Status.** Disproved, the site's label, which describes the modified
 Statement. Mac Lane proved that for every compact set inside a simply connected
 subdomain of the open disc avoiding $0$, all large degrees admit such a
 polynomial with modulus above $2$ on the set. A spiral forces arbitrarily long

@@ -45,7 +45,7 @@ is named on the
 ## Bears on
 
 - [[../wiki/problems/covering_systems/E0002/_index|Problem 2]]: the
-  conjecture asserts the yes answer to the problem's corrected statement,
+  conjecture asserts the yes answer to the problem's modified Statement,
   covering systems with distinct moduli and arbitrarily large smallest
   modulus; the paper prints the distinctness as $n_1<n_2<\cdots<n_k$. The
   problem page records the later work on the question.

@@ -107,7 +107,7 @@ equidistribution result of the introduction.
 
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: through
   [[number_theory/de_mathan_1980_numbers_contravening_condition_density_modulo_1/corollary_1|Corollary 1]],
-  the other original solution of the corrected Statement; the proof's
+  the other original solution of the modified Statement; the proof's
   separation $\|\varphi_n(x)\|\ge\varepsilon$, with the explicit
   $\varepsilon=\mu^{1-2n_0}/2$, is the bound that Katznelson, Dubickas and
   Peres and Schlag later improved. The site's thread (comment of 21 June

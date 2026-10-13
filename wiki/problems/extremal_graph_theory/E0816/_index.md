@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 $G$ contain two vertices of the same degree which are joined by a path of length
 $3$?
 
-**Statement (corrected).** Let $G$ be a graph with $2n+1$ vertices and
+**Statement (modified).** Let $G$ be a graph with $2n+1$ vertices and
 $n^2+n+1$ edges, where $n\geq 2$. Must $G$ contain two vertices of the same
 degree which are joined by a path of length $3$?
 
@@ -58,7 +58,7 @@ added on 2026-09-20, notes that at $n=1$ the graph is a triangle with no path
 of length $3$; and the docstring of Boris Alexeev's [Lean
 development](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos816.lean)
 (commit of 15 September 2026) names $K_3$ as a counterexample at $n=1$. The
-page's standing judges the corrected Statement.
+page's standing judges the modified Statement.
 
 **Formulation.** The site's wording (the page carries no last-edited date). For
 $n\ge2$ the question is the extremal problem of Erdős and Hajnal ([Er91], as
@@ -82,14 +82,14 @@ two-edge path; so it is not the site's.
 **Status.** PROVED. This is the site's label, and it rests on the commentary's
 credit to [ChMa25], whose theorem needs $n\ge600$. The derived standing is
 claimed, proved, because the range $3\le n\le599$ rests on [LiZe25] alone. The
-corrected Statement is proved for $n\ge600$ by Theorem 2 of [ChMa25] (J. Combin.
+modified Statement is proved for $n\ge600$ by Theorem 2 of [ChMa25] (J. Combin.
 Theory Ser. B 179 (2026), 1--18; refereed; cited from arXiv v1). The theorem
 proves it in a stronger form: $K_{n,n+1}$ is the only graph with $2n+1$ vertices
 and at least $n^2+n$ edges without such a pair. It is recorded as an accepted
 partial claim on
 [[problems/extremal_graph_theory/E0816/claims/2025_03_25_chen_ma|Chen and Ma's claim page]].
 The preprint [LiZe25] (arXiv:2505.00523v2, August 2025) states the same theorem
-for every $n\ge2$ (its Theorem 1.3). That is the whole corrected Statement, and
+for every $n\ge2$ (its Theorem 1.3). That is the whole modified Statement, and
 the preprint presents it as resolving the question completely. No journal record
 and no independent review of it was found on 2026-09-18, and its proof (pp.
 2--14) is unread. It is recorded as the pending full claim on
@@ -148,7 +148,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/dbf791ccb6137ed409b0f8c608d397acb141921b/FormalConjectures/ErdosProblems/816.lean),
 added on 2026-09-20 (no file existed on 2026-09-18, when the site's indicator
 read "Formalised statement? No"), states the problem as `erdos_816` for every
-$n\ge2$ with exactly $n^2+n+1$ edges, the corrected Statement, tagged
+$n\ge2$ with exactly $n^2+n+1$ edges, the modified Statement, tagged
 `research solved` with answer true, and notes that at $n=1$ the graph is a
 triangle, which contains no path of length $3$; two variants state Theorem 2 of
 [ChMa25] for $n\ge600$ and the edge count and extremality of $K_{n,n+1}$. It
@@ -184,7 +184,7 @@ three edges, as fixed in the Notes.
 
 - $n=1$. Three vertices and three edges: $K_3$, whose vertices all have
   degree $2$. A path of length $3$ has four distinct vertices, so $K_3$
-  contains none, and the site's wording fails; the corrected Statement
+  contains none, and the site's wording fails; the modified Statement
   excludes this case. Under the two-edge reading the statement holds, since
   any two vertices of $K_3$ are joined through the third.
 - $n=2$. Five vertices and seven edges; the complement has three edges, so up to
@@ -197,7 +197,7 @@ three edges, as fixed in the Notes.
   $ac,ad,ae,bd,be,ce,de$; $a$ and $d$ have degree $3$ and $aebd$ is a path of
   length $3$. (iv) Complement the path $abc$ and the edge $de$: $G$ has the
   edges $ac,ad,ae,bd,be,cd,ce$; $a$ and $e$ have degree $3$ and $adbe$ is a path
-  of length $3$. So the corrected Statement holds at $n=2$; under the two-edge
+  of length $3$. So the modified Statement holds at $n=2$; under the two-edge
   reading it holds too (in each graph the named pair has a common neighbor).
 
 **Status-defining source (claims checked).**
@@ -206,7 +206,7 @@ reads, as printed on p. 2 of arXiv v1: "Let $n\ge600$. The unique
 $(2n+1)$-vertex graph with at least $n^2+n$ edges, that does not contain two
 vertices of the same degree joined by a path of length three, is the complete
 bipartite graph $K_{n,n+1}$." Hence for $n\ge600$ every graph with $2n+1$
-vertices and at least $n^2+n+1$ edges contains such a pair: the corrected
+vertices and at least $n^2+n+1$ edges contains such a pair: the modified
 Statement for those $n$, in the "at least" form, which the paper points out is
 stronger because the property is not monotone (p. 2). In the paper's notation
 $p_3(2n+1)=n^2+n$ for $n\ge600$ (p. 13), and Theorem 3 (p. 2) gives the
@@ -232,7 +232,7 @@ checked.
 [LiZe25], as printed on p. 1 of arXiv:2505.00523v2, the edition on its card:
 "Let $n\ge2$. The unique $(2n+1)$-vertex graph with at least $n^2+n$ edges, that
 does not contain two vertices of the same degree joined by a path of length
-three, is the complete bipartite graph $K_{n,n+1}$." It implies the corrected
+three, is the complete bipartite graph $K_{n,n+1}$." It implies the modified
 Statement for every $n\ge2$, and the paper's concluding remarks (p. 10) say that
 it and Chen and Ma's result "resolve the question of Erdős and Hajnal
 completely". The paper says its method "is different and useful for graphs with
@@ -280,7 +280,7 @@ record the $n=1$ exception and state the problem for $n\ge2$.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not read: [Er91]; the
 journal version of [ChMa25].
 
-**Remaining gaps.** (1) The corrected Statement rests on the corpus's own
+**Remaining gaps.** (1) The modified Statement rests on the corpus's own
 exclusion of $n=1$ (see Notes); a text of Erdős's that states the range would
 replace it. (2) [Er91] was not read; Erdős's own wording and the attribution to
 Hajnal rest on [ChMa25], [LiZe25] and the site. (3) The range $3\le n\le599$
@@ -295,11 +295,11 @@ compared with arXiv v1.
 - [[../library/extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_2|Chen--Ma, Theorem 2]]
   (2026, refereed; cited from arXiv v1): for $n\ge600$, $K_{n,n+1}$ is the
   unique $(2n+1)$-vertex graph with at least $n^2+n$ edges and no two
-  equal-degree vertices joined by a path of length $3$; the corrected
+  equal-degree vertices joined by a path of length $3$; the modified
   Statement for $n\ge600$.
 - [LiZe25], Theorem 1.3 (preprint, 2025): the same for every $n\ge2$, the whole
-  corrected Statement; a pending claim.
-- The checks above: the site's wording fails at $n=1$; the corrected Statement
+  modified Statement; a pending claim.
+- The checks above: the site's wording fails at $n=1$; the modified Statement
   holds at $n=2$ (four graphs).
 - Chen--Ma, Theorem 3, Theorems 12--13, Conjecture 14, Problem 15, and the
   2026 preprints on other path lengths: variants, not the statement.

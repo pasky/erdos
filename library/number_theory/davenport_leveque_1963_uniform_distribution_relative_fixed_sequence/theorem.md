@@ -76,7 +76,7 @@ Math. J. 10 (1963), 311--314), not held; otherwise self-contained.
 - [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: with $a_k=k$ this is the
   decreasing-gap half of the site's "Davenport and LeVeque [DaLe63] proved
   this under the assumption that $a_n-a_{n-1}$ is monotonic", for real
-  sequences $z_n\to\infty$ as in the problem's corrected Statement. The
+  sequences $z_n\to\infty$ as in the problem's modified Statement. The
   theorem does not assume the problem's condition $a_{i+1}/a_i\to1$, which
   for the theorem's sequence reads $z_{n+1}/z_n\to1$; with decreasing gaps
   and $z_n\to\infty$ that condition holds automatically, since the gaps are

@@ -34,7 +34,7 @@ $$
 
 for all $t,r$?
 
-**Statement (corrected).** Let $K_{t}(r)$ be the complete $t$-partite
+**Statement (modified).** Let $K_{t}(r)$ be the complete $t$-partite
 $t$-uniform hypergraph with $r$ vertices in each class.
 
 Is it true that
@@ -63,7 +63,7 @@ formal-conjectures statement, which asks the question for $t,r\ge2$ and
 counts with the site, agree with the change. The change leaves $t$
 unrestricted; for $t=1$ and $r>1$ the inequality holds trivially, since
 $\mathrm{ex}_1(n,K_1(r))=r-1\ge1$. The form rests on these sources alone.
-No result concerns the site's wording at $r=1$, and the corrected Statement
+No result concerns the site's wording at $r=1$, and the modified Statement
 is open.
 
 **Formulation.** The site's wording as of 2026-09-18 (page last edited 23

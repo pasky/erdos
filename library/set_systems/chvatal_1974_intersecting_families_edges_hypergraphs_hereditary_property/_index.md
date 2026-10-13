@@ -7,7 +7,7 @@ desc: |
   some element's star is at least as large as every intersecting subfamily.
 license: reserved
 created: 2026-09-17T10:30:00Z
-updated: 2026-10-08T14:17:40Z
+updated: 2026-10-13T17:25:58Z
 ---
 
 # set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property
@@ -16,7 +16,7 @@ updated: 2026-10-08T14:17:40Z
 
 [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/conjecture_p65|conjecture_p65]]: Chvátal's 1974 conjecture that every family of subsets of a finite set
 closed under taking subsets has an element whose star is at least as large
-as every intersecting subfamily; the corrected Statement of Problem 701.
+as every intersecting subfamily; the modified Statement of Problem 701.
 
 [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/remark_p66|remark_p66]]: Chvátal's closing remark that the natural extension of the paper's theorem to
 subfamilies with no k+1 pairwise disjoint sets fails for every k > 1, and
@@ -99,7 +99,7 @@ independently reviewed.
 **Bears on.**
 
 - [[../wiki/problems/set_systems/E0701/_index|#701]]: the
-  [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/conjecture_p65|Conjecture (p. 65)]] is the problem's corrected
+  [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/conjecture_p65|Conjecture (p. 65)]] is the problem's modified
   Statement (Chvátal's conjecture), with the finite ground set that the site's
   wording omits; the [[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/theorem_p62|Theorem (p. 62)]] proves its
   conclusion, with the star at $1$, for families of subsets of

@@ -28,7 +28,7 @@ $$
 \frac{\#\{ n\in \mathbb{N} : n+f(n)\in (x,x+F(x))\}}{F(x)}\to \infty?
 $$
 
-**Statement (corrected).** For which number theoretic functions $f$ is it true
+**Statement (modified).** For which number theoretic functions $f$ is it true
 that, for any $F(n)$ with $F(n)\to\infty$ such that $F(n)/f(n)\to 0$ for almost
 all $n$, there are infinitely many $x$ such that
 

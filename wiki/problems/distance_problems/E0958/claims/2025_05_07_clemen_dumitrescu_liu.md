@@ -49,7 +49,7 @@ on no line and on no circle, since three of its points fix the circle and
 the center is not on it. So the "only if" direction of the question fails
 for every $n\geq4$: the profile $k=n-1$ with $\{f(d_i)\}=\{n-1,\ldots,1\}$
 does not force equally spaced points on a line or a circle. The paper counts
-multiplicities over unordered pairs, as the corrected Statement of the
+multiplicities over unordered pairs, as the modified Statement of the
 problem page does. Section 5 of the paper poses the question for all
 sufficiently large $n$, states that Erdős conjectured that no configurations
 other than the line and the circle exist for large $n$, and presents the
@@ -58,7 +58,7 @@ problem page as [Er84c, p. 135], conjectures the characterization for $n>4$
 and then for all sufficiently large $n$, after recording the exceptions at
 $n=4$, $5$ and $6$. The site's remark that Erdős conjectured the answer to be
 no contradicts both sources, which the problem page records as an unresolved
-contradiction. The family refutes the corrected Statement at every $n\geq4$,
+contradiction. The family refutes the modified Statement at every $n\geq4$,
 and with it Erdős's questions for $n>4$ and for all sufficiently large $n$.
 The paper is carded at
 [[../library/distance_problems/clemen_2025_multiplicities_interpoint_distances/_index|clemen_2025_multiplicities_interpoint_distances]].

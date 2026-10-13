@@ -92,7 +92,7 @@ doi:10.1007/978-1-4612-0801-3_9; the edition read is named on the
 - [[../wiki/problems/set_systems/E1026/_index|Problem 1026]]: the
   maximal-sum question is the problem's Statement, which the paper repeats
   as Erdős's and reports no progress on. The weighted quantity
-  $\tau(n,0)$ uses the same normalization as the problem's precise
+  $\tau(n,0)$ uses the same normalization as the problem's modified
   Statement, with nonnegative weights summing to $1$ in place of distinct
   reals; the paper sketches the upper bound
   $\tau(n,0)\le n^{-1}\lceil n^{1/2}\rceil$ and leaves

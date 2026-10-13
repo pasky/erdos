@@ -32,7 +32,7 @@ for every graph $G$ with chromatic number $\chi(G)=k$?
 Even stronger, is there some $c>0$ such that, for all large $k$, $R(G)>cR(k)$
 for every graph $G$ with chromatic number $\chi(G)=k$?
 
-**Statement (corrected).** Let $0<\epsilon<1$. Is it true that, if $k$ is
+**Statement (modified).** Let $0<\epsilon<1$. Is it true that, if $k$ is
 sufficiently large, then
 
 $$
@@ -67,7 +67,7 @@ formal-conjectures statement, which counts with the site, takes $0<\epsilon<1$.
 No text of the poser lets $\epsilon$ exceed $1$, so the defect is the site's.
 The site's universal question against Erdős's "for some" is the site's own
 restatement and stands; Formulation records Erdős's wording with its answer. The
-change moves no standing: both questions of the corrected Statement are open,
+change moves no standing: both questions of the modified Statement are open,
 and no result about the site's wording beyond the trivial failure above is
 recorded.
 
@@ -93,7 +93,7 @@ because a graph with $\chi(G)\ge k$ has an induced subgraph $H$ with
 $\chi(H)=k$ and $R(G)\ge R(H)$ (an observation made here). The unweakened
 conjecture is not the page's question; the two weakened questions are.
 
-**Status.** Open, the site's label (OPEN). Neither question of the corrected
+**Status.** Open, the site's label (OPEN). Neither question of the modified
 Statement has a source in either direction. Erdős proposed them in 1995, after
 the unweakened conjecture had been refuted at $k=4$. The refutation is Faudree
 and McKay's computer-search value $r(W_6)=17<18=r(K_4)$ (J. Combin. Math.
@@ -145,14 +145,14 @@ and
 `erdos_87.parts.ii : answer(sorry) ↔ ∃ c > (0 : ℝ), ∀ᶠ k : ℕ in atTop, ∀ (V : Type) [Fintype V] (G : SimpleGraph V), G.chromaticNumber = (k : ℕ∞) → (SimpleGraph.diagonalGraphRamsey G : ℝ) > c * (SimpleGraph.diagonalRamsey k : ℝ)`,
 both under `category research open` with proof `sorry`; the docstring of
 the first says "The restriction $\epsilon<1$ excludes negative bases in
-$(1-\epsilon)^k$". The two declarations state the corrected Statement. The
+$(1-\epsilon)^k$". The two declarations state the modified Statement. The
 community database (fetched 2026-09-18T01:45Z) records the problem open (its
 record last updated 31 August 2025), the statement formalized since 9
 September 2026, and no formal proof. Nothing was built.
 
 ## Current assessment
 
-**The question.** The corrected Statement above; the site's page was labeled
+**The question.** The modified Statement above; the site's page was labeled
 OPEN, with the site's note that no finite computation can settle it; last
 edited 17 January 2026; no prize. The commentary, restated
 here, makes three points: Erdős's original conjecture was the unweakened
@@ -210,7 +210,7 @@ for every $n>4$" ([Er95], p. 13) is an expectation.
 refutes either. Two elementary bounds frame them. The site notes that the
 first question is trivial for $\epsilon\ge3/4$. The reason, that
 $R(k)\le4^k$ gives $(1-\epsilon)^kR(k)\le1<R(G)$, holds for
-$3/4\le\epsilon\le5/4$, so the first question of the corrected Statement is
+$3/4\le\epsilon\le5/4$, so the first question of the modified Statement is
 trivial for $3/4\le\epsilon<1$. On the lower side, Chvátal and Harary's
 $r(G,G)>(1+c)^t$ for $t$-chromatic $G$ (as quoted in [Er81c], p. 12) and
 the site's remark that $R(G)\gg2^{k/2}$ for every $G$ with $\chi(G)=k$

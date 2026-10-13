@@ -48,7 +48,7 @@ poses further problems about p_k/k. On p. 256 it asks whether the k with p_k/k <
 p_{k+1}/(k+1), and the k with p_k/k > p_{k+1}/(k+1), have positive lower
 density; it shows that the second set has positive density and says that
 proving positive lower density for the first set seems difficult. The question
-for the first set is the precise statement of Problem 968.
+for the first set is the modified Statement of Problem 968.
 
 Source: <https://users.renyi.hu/~p_erdos/1961-21.pdf>. No copyright or license
 line is printed on the pages; the publisher's article page was not consulted,
@@ -59,7 +59,7 @@ Creative Commons license, every other right reserved.
 **Bears on.** [[../wiki/problems/integer_sequences/E0968/_index|#968]]:
 the [[integer_sequences/erdos_1961_satze_und_probleme_uber_german/question_p256|question on p. 256]]
 asks whether the k with p_k/k < p_{k+1}/(k+1) have positive lower density,
-which is the problem's precise statement. The paper shows that the k with
+which is the problem's modified Statement. The paper shows that the k with
 p_k/k > p_{k+1}/(k+1) have positive density, says that the first set seems
 difficult, and proves nothing about it.
 
