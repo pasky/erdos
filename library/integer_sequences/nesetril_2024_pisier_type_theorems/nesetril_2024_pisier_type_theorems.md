@@ -366,7 +366,7 @@ Let $S_h$ be the set of permutations $\sigma : [h] \rightarrow [h]$. Write $S_h 
 
 We order the vertices of all $C_{ij}^{(q)}$ such that $\max V(C_{ij}^{(q)}) < \min V(C_{i'j'}^{(q')})$ if and only if $(i, j, q) <_{\mathrm{lex}} (i', j', q')$ in the lexicographical ordering. This in particular gives us a total ordering of $\bigcup_{1 \leq i,j \leq h!} V(F_{ij})$. For a fixed $F_{ij}$, each one of its $4t = 2h$ edges is labeled by precisely one of the labels from $[2h]$. Set $F_{ij} = \{f_{ij}^1, \ldots, f_{ij}^{2h}\}$, where $f_{ij}^s$ is the edge of $F_{ij}$ labeled with $s$.
 
-We finally define the $k$-graph $F$ as the graph with vertex set $V(F) = \bigcup_{1 \leq i,j \leq h!} V(F_{ij})$, where the ordering of $V(F)$ respects the total ordering of $V(F_{ij})$ described above, and edge set given by
+We finally define the $k$-graph $F$ as the graph with vertex set $V(F) = \bigcup_{1 \leq i,j, \leq h!} V(F_{ij})$, where the ordering of $V(F)$ respects the total ordering of $V(F_{ij})$ described above, and edge set given by
 
 $$
 F = \left\{ f_s := \bigcup_{1 \leq i,j, \leq h!} f_{ij}^s : 1 \leq s \leq 2h \right\}.
@@ -821,7 +821,7 @@ Note that the statement is true for $k = 2$ and $m = 2$, since every non-biparti
 6. de Bruijn, N.G., Erdős, P.: A colour problem for infinite graphs and a problem in the theory of relations. *Nederl. Akad. Wetensch. Proc. Ser. A.* **54**, 369–373 (1951)
 7. Erdős, P., Hajnal, A., Szemerédi, E.: On almost bipartite large chromatic graphs. In: *Theory and Practice of Combinatorics*, pp. 117–123 (1982)
 8. Erdős, P., Nešetřil, J., Rödl, V.: A remark on Pisier type theorems, pp. 101–109. *Festschrift for C. St. J. A. Nash–Williams* (1996)
-9. Erdős, P., Nešetřil, J., Rödl, V.: On Pisier type problems and results (combinatorial applications to number theory). In: *Mathematics of Ramsey Theory*, pp. 214–231. Springer, Berlin (1990)
+9. Erdős, P., Nešetřil, J., Röd, V.: On Pisier type problems and results (combinatorial applications to number theory). In: *Mathematics of Ramsey Theory*, pp. 214–231. Springer, Berlin (1990)
 10. Erdős, P., Turán, P.: On a problem of Sidon in additive number theory, and on some related problems. *J. Lond. Math. Soc.* **16**, 212–215 (1941)
 11. Nešetřil, J., Rödl, V.: Strong Ramsey theorems for Steiner systems. *Trans. Am. Math. Soc.* **303**(1), 183–192 (1987)
 12. Pisier, G.: Arithmetic characterizations of Sidon sets. *Bull. Am. Math. Soc. (N.S.)* **8**(1), 87–89 (1983)

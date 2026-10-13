@@ -1284,7 +1284,7 @@ The first line is obvious, the second follows from (33) and the fact that every 
 
 Theorem 32 immediately implies the following uniqueness result for non-Waring rank decompositions.
 
-**Corollary 33** (Uniqueness result for non-Waring rank decompositions). *Let $n \geq 2$ and $m \geq 2$ be integers, let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$ with $\operatorname{Char}(\mathbb{F}) = 0$ or $\operatorname{Char}(\mathbb{F}) > m$, let $\{v_a : a \in [n]\} \subseteq \mathcal{V} \setminus \{0\}$ be a multiset of non-zero vectors with $\operatorname{k-rank}(v_a : a \in [n]) \geq 2$, let $\{\alpha_a : a \in [n]\} \subseteq \mathbb{F}^\times$ be a multiset of non-zero scalars, and let $d = \dim \operatorname{span}\{v_a : a \in [n]\}$. If*
+**Corollary 33** (Uniqueness result for non-Waring rank decompositions). *Let $n \geq 2$ and $m \geq 2$ be integers, let $\mathcal{W}$ be a vector space over a field $\mathbb{F}$ with $\operatorname{Char}(\mathbb{F}) = 0$ or $\operatorname{Char}(\mathbb{F}) > m$, let $\{v_a : a \in [n]\} \subseteq \mathcal{W} \setminus \{0\}$ be a multiset of non-zero vectors with $\operatorname{k-rank}(v_a : a \in [n]) \geq 2$, let $\{\alpha_a : a \in [n]\} \subseteq \mathbb{F}^\times$ be a multiset of non-zero scalars, and let $d = \dim \operatorname{span}\{v_a : a \in [n]\}$. If*
 
 $$
 2n + 1 \leq m + 2d - 2,
@@ -1375,7 +1375,7 @@ $$
 F = \{v_a : a \in [m]\} \sqcup \{v_a : a \in [d + m] \setminus [m + 2]\} \sqcup \left\{\sum_{a \in [k]} v_a\right\}.
 $$
 
-Here, $|E| + |F| = 2d + m$, exceeding our lower bound by 2. When $k = d$, take the same multisets $E$ and $F$, with $\sum_{a \in [d]} v_a$ removed, to observe that our bound is sharp under the choice $n = d$ and $r = m + d - 2$. Note that the k-rank is brought down to $k$ because of a single vector in the multiset. This is a concrete demonstration of the fact that the k-rank is a very crude measure of genericity. We emphasize that this construction relies on the particular choice of parameters $n = d + 1$, and $r = m + d - 1$. It is possible that the inequality (32) could be significantly strengthened for other choices of $n$ and $r$. Indeed, we have exhibited such an improvement for $r \leq n$ in Corollary 31.
+Here, $|E| + |F| = 2d + m$, exceeding our lower bound by 2. When $k = d$, take the same multisets $E$ and $F$, with $\sum_{a \in [d]} v_a$ removed, to observe that our bound is sharp under the choice $n = d$ and $r = m + d - 2$. Note that the k-rank is brought down to $k$ because of a single vector in the multiset. This is a concrete demonstration of the fact that the k-rank is a very crude measure of genericity. We emphasize that this construction relies on the particular choice of parameters $n = d + 1$, and $r = m + d - 1$. It is possible that the inequality (32) could be significantly stengthened for other choices of $n$ and $r$. Indeed, we have exhibited such an improvement for $r \leq n$ in Corollary 31.
 
 ## 9.2 Applications of non-rank uniqueness results
 
@@ -1622,7 +1622,7 @@ $$
 \{y_a : a \in [r]\} \subseteq \operatorname{Prod}(\mathcal{V}_1 : \mathcal{V}_2 : \mathcal{V}_3).
 $$
 
-By Proposition 4.3 in [DL13a] (or rather, the extension of this result to an arbitrary field), $r = n$, and there exists a permutation $\sigma \in S_n$ and nonnegative integers $\alpha_1, \ldots, \alpha_n \in \mathbb{F}^\times$ such that $\alpha_a x_{a,1} = y_{\sigma(a),1}$ for all $a \in [n]$. Let $\Pi_1 \in L(\mathcal{V}_1)$ be any operator for which $\ker(\Pi_1) = \operatorname{span}\{x_{a,1}\}$ and (37) holds (recall that $\tau$ is trivial). Then
+By Proposition 4.3 in [DL13a] (or rather, the extension of this result to an arbitrary field), $r = n$, and there exists a permutation $\sigma \in S_n$ and nonegative integers $\alpha_1, \ldots, \alpha_n \in \mathbb{F}^\times$ such that $\alpha_a x_{a,1} = y_{\sigma(a),1}$ for all $a \in [n]$. Let $\Pi_1 \in L(\mathcal{V}_1)$ be any operator for which $\ker(\Pi_1) = \operatorname{span}\{x_{a,1}\}$ and (37) holds (recall that $\tau$ is trivial). Then
 
 $$
 \sum_{a \in [n] \setminus \{1\}} (\Pi_1 x_{a,1}) \otimes x_{a,2} \otimes x_{a,3}

@@ -88,7 +88,7 @@ where the $S_i$ are the sums obtained by restricting $S$ to equivalence classes.
 
 In view of Theorem 1 we now restrict our attention to sums involving only roots of squarefree order. Our next theorem gives an exact criterion for such a sum to vanish.
 
-**THEOREM 2.** *Consider $S=\sum c_\alpha\alpha$, where $\alpha$ ranges over all $n$-th roots and $n$ is squarefree, then $S$ vanishes if and only if we have*
+**THEOREM 2.** *Consider $S=\sum c_\alpha\boldsymbol{\alpha}$, where $\alpha$ ranges over all $n$-th roots and $n$ is squarefree, then $S$ vanishes if and only if we have*
 
 $$
 (4)\qquad \sum_{d\mid n}\mu(d)c_{\omega[d]}=0
@@ -196,7 +196,7 @@ $$
 l(S')\leq l(S),\quad r(S')<r(S),\quad l(S'')<l(S),\quad r(S'')\leq r(S).
 $$
 
-**Proof.** We suppose $S$ monic, so that $r(S)=e(S)=r$, say, and after Theorem 1 we can suppose $r$ squarefree. If $r$ is prime Lemma 1 proves that $S$ is similar to $\mathbf{1}+\omega+\cdots+\omega^{r-1}$, $\omega$ a primitive $r$th root, so that we suppose $r$ composite. If now every $r$th root is involved in $S$, we can take $S'$ as $a\mathbf{1}+a\omega+\cdots+a\omega^{p-1}$ and $S''$ as $S-S'$, where $\omega$ is a primitive $p$th root for some $p\mid r$, and $a$ is the coefficient of $\mathbf{1}$ in $S$. Then
+**Proof.** We suppose $S$ monic, so that $r(S)=e(S)=r$, say, and after Theorem 1 we can suppose $r$ squarefree. If $r$ is prime Lemma 1 proves that $S$ is similar to $\mathbf{1}+\omega+\cdots+\omega^{p-1}$, $\omega$ a primitive $r$th root, so that we suppose $r$ composite. If now every $r$th root is involved in $S$, we can take $S'$ as $a\mathbf{1}+a\omega+\cdots+a\omega^{p-1}$ and $S''$ as $S-S'$, where $\omega$ is a primitive $p$th root for some $p\mid r$, and $a$ is the coefficient of $\mathbf{1}$ in $S$. Then
 
 $$
 l(S')=r(S')=p<r=r(S)=l(S)
@@ -236,7 +236,7 @@ $$
 
 This is an immediate corollary of the following lemma.
 
-**LEMMA 2.** Let $S$ be a vanishing sum of the form $\sum S_\alpha\alpha$, where $\alpha$ ranges over all the $r$-th roots, and the $S_\alpha$ are sums with exponents coprime to $r$. Then either there is a divisor $d$ of $r$ with $d>1$ such that for each $d$-th root $\omega$ the sum vanishes when restricted to the $\alpha$ with $\alpha[d]=\omega$ (when we call it $d$-splitting) or the number of non-vanishing $S_\alpha$ is at least $f(r)$.
+**LEMMA 2.** Let $S$ be a vanishing sum of the form $\sum S_\alpha\boldsymbol{\alpha}$, where $\alpha$ ranges over all the $r$-th roots, and the $S_\alpha$ are sums with exponents coprime to $r$. Then either there is a divisor $d$ of $r$ with $d>1$ such that for each $d$-th root $\omega$ the sum vanishes when restricted to the $\alpha$ with $\alpha[d]=\omega$ (when we call it $d$-splitting) or the number of non-vanishing $S_\alpha$ is at least $f(r)$.
 
 Remark. For $d=1$ $d$-splitting means that the sum $S$ is a vanishing sum, and $r$-splitting means that each term of the sum is zero.
 
@@ -394,7 +394,7 @@ References
 
 [2] W. J. R. Crosby, *Solution to problem 4136*, Amer. Math. Monthly 53 (1946), pp. 103–107.
 
-[3] M. Dehn, *Über den Rauminhalt*, Math. Ann. 55 (1902), pp. 465–478; Göttingen Nachr. Math. Phys. 1900, pp. 345–354.
+[3] M. Dehn, *Über den Rauminhalt*, Math. Ann. 55 (1902), pp. 465–478; Gottingen Nachr. Math. Phys. 1900, pp. 345–354.
 
 [4] M. Goldberg, *Two more tetrahedra equivalent to cubes by dissection*, Elemente der Math. 24 (1969), pp. 130–132; 25 (1970), p. 48.
 
