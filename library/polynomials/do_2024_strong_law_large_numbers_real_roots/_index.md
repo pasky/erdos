@@ -67,10 +67,10 @@ analogue and the lower bound 1/pi on the whole line, not the full-line limit.
 Source: <https://arxiv.org/abs/2403.06353>.
 
 Read status: claims checked for Theorem 1.1, Lemma 2.3 and Theorem 3.1, read
-clause by clause on the page images of the print, with the proof of Lemma 2.3
-and the deduction of Theorem 1.1 from Lemmas 2.3 and 2.4 followed; the proofs
-of Lemmas 2.1, 2.2 and 2.4 and of Theorem 3.1 were not read. Nothing here is
-independently reviewed. Result pages:
+clause by clause on the page images of arXiv:2403.06353v2, with the proof of
+Lemma 2.3 and the deduction of Theorem 1.1 from Lemmas 2.3 and 2.4 followed;
+the proofs of Lemmas 2.1, 2.2 and 2.4 and of Theorem 3.1 were not read. Nothing
+here is independently reviewed. Result pages:
 [[polynomials/do_2024_strong_law_large_numbers_real_roots/theorem_1_1|theorem_1_1]],
 [[polynomials/do_2024_strong_law_large_numbers_real_roots/lemma_2_3|lemma_2_3]] and
 [[polynomials/do_2024_strong_law_large_numbers_real_roots/theorem_3_1|theorem_3_1]].

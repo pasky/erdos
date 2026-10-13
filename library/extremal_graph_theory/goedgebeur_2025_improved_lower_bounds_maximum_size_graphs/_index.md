@@ -5,34 +5,37 @@ desc: |
   number of edges in a girth-five graph for nearly all n from 74 to 198.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:36:14Z
+updated: 2026-10-13T13:29:25Z
 ---
 
 # extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs
 
 [[extremal_graph_theory/_index|..]]
 
-[[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_1|table_1]]: The preprint's computed lower bounds on the most edges of an n-vertex graph
+[[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_1|table_1]]: The paper's computed lower bounds on the most edges of an n-vertex graph
 of girth at least 5, improving the best known bound for every n from 74 to
-198 except 96 and 97; finite data, unrefereed.
+198 except 96 and 97; finite data.
 
-[[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_3|table_3]]: The preprint's by-product: graphs found by its search improve the best known
+[[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_3|table_3]]: The paper's by-product: graphs found by its search improve the best known
 upper bounds on n({r,m};5) for {r,m} = {8,9}, {9,12}, {10,11} and {11,12};
-finite data, unrefereed.
+finite data.
 
 ***
 
 Jan Goedgebeur, Jorik Jooken, Gwenaël Joret, Tibo Van den Eede, Improved lower
-bounds on the maximum size of graphs with girth 5. arXiv preprint (2025).
-arXiv:2508.05562. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:2508.05562), every other right reserved.
+bounds on the maximum size of graphs with girth 5. Experimental Mathematics
+(2026), 1--12, doi:10.1080/10586458.2026.2731953 (published online 21
+September 2026); arXiv:2508.05562 (2025). The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2508.05562), every other right
+reserved.
 
 The copy read for this card is arXiv:2508.05562v1 [math.CO] of 7 August 2025
-(17 pages, complete text layer; printed and PDF pages agree). On 2026-09-18
-the arXiv abstract page listed v1 as the only version and carried no journal
-reference, and a Crossref bibliographic query found no published version: the
-paper is an unrefereed preprint, and its results are computational lower
-bounds whose graphs and code the authors publish (p. 3).
+(17 pages, complete text layer; printed and PDF pages agree). The paper was
+published in Experimental Mathematics (Crossref record), and the arXiv abstract
+page lists a v2 of 22 September 2026 with no journal reference; neither the
+journal text nor v2 was compared, so every locator below is a page of v1. Its
+results are computational lower bounds whose graphs and code the authors
+publish (p. 3).
 
 Read status: claims checked for the abstract (p. 1), the introduction's
 paragraph on Erdős's conjecture and the Garnick--Kwong--Lazebnik bounds and its
@@ -68,8 +71,8 @@ gives the paper's computed lower bounds on ex(n;{C_3,C_4}) for 50 <= n <= 198
 (for example 285 at n = 74, 940 at n = 164 and 1166 at n = 198, against the
 previous 284, 880 and 1163), and p. 2 records the conjecture, the asymptotic
 bounds 1/(2 sqrt 2) <= limsup ex(n;{C_3,C_4})/n^{3/2} <= 1/2 of Garnick, Kwong
-and Lazebnik, and the exact values known up to n = 53; a preprint, finite
-lower-bound data only, with no bearing on the asymptotic constant.
+and Lazebnik, and the exact values known up to n = 53; finite lower-bound data
+only, with no bearing on the asymptotic constant.
 
 **Results.**
 

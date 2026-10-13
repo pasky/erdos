@@ -100,7 +100,7 @@ https://www.erdosproblems.com/290, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/290.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/290.lean)
-of formal-conjectures at the linked commit (main,)
+of formal-conjectures at the linked commit (main)
 declares
 `erdos_290 : answer(True) ↔ (∀ a : ℕ, 1 ≤ a → ∃ b : ℕ, a < b ∧ harmonicDen a (b + 1) < harmonicDen a b)`
 under `category research solved`, with proof `sorry`, and a `formal_proof`
@@ -260,7 +260,7 @@ the commit of 10 July 2026 that the claim page links. These are facts
 about the files' text: no build or audit is recorded and no kernel credit
 is claimed, so the 2024 claim page links the files as formalizations and
 lists no `formalized` evidence. The community database
-(teorth/erdosproblems,) records `formal_status` Lean since
+(teorth/erdosproblems) records `formal_status` Lean since
 14 January 2026 and no formal-proof URL.
 
 **Search scope.** None of the routes below found a

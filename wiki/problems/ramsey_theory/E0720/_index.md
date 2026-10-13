@@ -112,7 +112,7 @@ accessed 2026-09-18.
   page.
 - [Be83b] Beck, J., On size Ramsey number of paths, trees, and circuits. I. J.
   Graph Theory 7 (1983), no. 1, 115--129, doi:10.1002/jgt.3190070115 (Crossref
-  record accessed). Not held here; quoted second-hand as stated.
+  record). Not held here; quoted second-hand as stated.
 - [Be90] Beck, J., On size Ramsey number of paths, trees and circuits. II.
   Mathematics of Ramsey theory, Algorithms Combin. 5, Springer, Berlin (1990),
   34--45. Library home:
@@ -125,14 +125,14 @@ accessed 2026-09-18.
   $\hat r(P_n)>(9/4-\epsilon)n$; those pages say nothing about cycles.
 - [HKL95] Haxell, P. E., Kohayakawa, Y. and Łuczak, T., The induced size-Ramsey
   number of cycles. Combin. Probab. Comput. 4 (1995), no. 3, 217--239,
-  doi:10.1017/S0963548300001619 (Crossref record accessed). Theorem
+  doi:10.1017/S0963548300001619 (Crossref record). Theorem
   10 and Corollary 11, preprint p. 11; the attribution, p. 3 and reference [6],
   p. 21. Library home:
   [[../library/ramsey_theory/haxell_1995_induced_size_ramsey_number_cycles/_index|haxell_1995_induced_size_ramsey_number_cycles]]
   (the authors' preprint, without journal pagination).
 - [JKOP19] Javadi, R., Khoeini, F., Omidi, G. R. and Pokrovskiy, A., On the
   size-Ramsey number of cycles. Combin. Probab. Comput. 28 (2019), no. 6,
-  871--880, doi:10.1017/S0963548319000221 (Crossref record accessed); arXiv:1701.07348v1 (25 January 2017). Theorem 1.1 and the
+  871--880, doi:10.1017/S0963548319000221 (Crossref record); arXiv:1701.07348v1 (25 January 2017). Theorem 1.1 and the
   introduction, p. 2. Library home:
   [[../library/ramsey_theory/javadi_2019_size_ramsey_number_cycles/_index|javadi_2019_size_ramsey_number_cycles]].
 - [DrPe22] Draganić, N. and Petrova, K., Size-Ramsey numbers of graphs with

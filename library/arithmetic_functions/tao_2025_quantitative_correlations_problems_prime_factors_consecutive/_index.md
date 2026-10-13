@@ -20,8 +20,8 @@ consecutive divisor values and its explicitly incomplete proof status.
 Terence Tao and Joni Teräväinen, *Quantitative correlations and some problems
 on prime factors of consecutive integers*. The copy read for this card is the
 61-page [arXiv:2512.01739v2](https://arxiv.org/abs/2512.01739v2), dated
-25 April 2026. The official arXiv record checked UTC listed
-v2 as the latest version. It is a preprint; no journal acceptance is claimed.
+25 April 2026. The arXiv record lists v2 as the latest version. It is a
+preprint; no journal acceptance is claimed.
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2512.01739), every other right reserved.
 

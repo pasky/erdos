@@ -59,7 +59,7 @@ claim page above; this corpus has not built it.
 
 ## Current assessment
 
-The site's formulation (accessed; label OPEN on 2026-10-06,
+The site's formulation (label OPEN on 2026-10-06,
 with no comments, two proof claims, and the community database
 recording the problem as open) asks for infinitely many primes $p$ such
 that $p-k!$ is composite for every $k$ with $k!<p$. The site's label is the

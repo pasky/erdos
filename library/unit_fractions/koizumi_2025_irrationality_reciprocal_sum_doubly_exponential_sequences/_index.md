@@ -54,10 +54,11 @@ The copy read for this card is arXiv:2504.05933v1 (8 April 2025, 14 pages;
 the only arXiv version listed on 2026-09-18). The paper is published as
 Integers 26 (2026), paper A28, 17 pages (received 10/9/25, accepted 1/15/26,
 published 2/20/26), compared below (Editions); the labels and pages named in
-this digest and on the problem pages are the preprint's. Koizumi proves that if
-a sequence of positive integers has finite reciprocal sum r and its ratios
-a_n^2/a_{n+1} all lie within 1/3 of a fixed real beta >= 0, then each term with
-a_n >= 8(beta+1/3)^2 is the integer nearest to beta +
+this digest and on its result pages are the preprint's. The page of Problem 263
+cites the preprint's labels, and the page of Problem 243 the journal's. Koizumi
+proves that if a sequence of positive integers has finite reciprocal sum r and
+its ratios a_n^2/a_{n+1} all lie within 1/3 of a fixed real beta >= 0, then each
+term with a_n >= 8(beta+1/3)^2 is the integer nearest to beta +
 1/(r - 1/a_1 - ... - 1/a_{n-1}) (Theorem 1, p. 2), so that for instance the
 Sylvester sequence is the only sequence of positive integers with every
 a_n^2/a_{n+1} in [2/3,4/3] and reciprocal sum 1 (Corollary 2). Koizumi deduces

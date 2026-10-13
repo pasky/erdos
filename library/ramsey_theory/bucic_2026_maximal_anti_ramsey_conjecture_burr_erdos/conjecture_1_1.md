@@ -65,4 +65,7 @@ None.
 
 - [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the problem in the paper's
   words, with the site's $\chi_S$ written as $f$; proved for $k\ge4$ by
-  Theorem 1.2 and open for $k=3$ in the sources read.
+  Theorem 1.2. The paper proves nothing for $k=3$, which is proved by Plasma
+  AI's kernel-checked Lean proof, covering every $k\ge3$ and accepted with
+  formalized evidence on
+  [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|its claim page]].

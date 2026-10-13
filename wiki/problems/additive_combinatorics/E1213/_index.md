@@ -35,7 +35,7 @@ $$
 \sum_{i\in I}a_i=\sum_{j\in J}a_j?
 $$
 
-**Formulation.** The Statement is the site's wording(page last
+**Formulation.** The Statement is the site's wording (page last
 edited 10 April 2026). An interval is a nonempty set of consecutive indices
 $\{u,\ldots,v\}\subseteq\{1,\ldots,s\}$, and the sums run over the terms $a_i$
 with those indices; the two intervals are distinct and may overlap (two distinct

@@ -26,7 +26,7 @@ updated: 2026-10-08T14:06:00Z
 no $K_{l+1}$ such that every $k$-colouring of the edges of $G$ contains a
 monochromatic copy of $K_l$?
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). The graphs of the sources are finite. A graph with no
 $K_{l+1}$ that forces a monochromatic $K_l$ has clique number exactly $l$, so
 the question asks for a graph of clique number $l$ that is Ramsey for $K_l$ in

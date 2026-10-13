@@ -252,7 +252,7 @@ def _problem_links_leg(
     root: pathlib.Path,
     requested: tuple[str, ...],
 ) -> LegResult:
-    """Check the bounded incoming-link rollout and disclose its remaining debt."""
+    """Check the selected incoming-link blocks and count the pages without one."""
     # require the mathematics root
     if not (root / MATH_DIR).is_dir():
         return LegResult(
@@ -606,8 +606,8 @@ def _problem_scope_detail(checked: int, missing: int) -> str:
     """Render the incoming-link scope without implying mathematical review."""
     return (
         f'checked {checked} problem(s); {missing} canonical problem page(s) '
-        'have no managed block (rollout debt; markers are structural, not '
-        'mathematical acceptance)'
+        'have no managed block (no library page links them, or a new link '
+        'awaits its block; markers are structural, not mathematical acceptance)'
     )
 
 

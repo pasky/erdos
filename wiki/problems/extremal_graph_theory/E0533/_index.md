@@ -413,7 +413,9 @@ commit at main on 2026-09-18, has not been built or audited by the corpus.
   (1962): the $K_4$-free graphs with no large triangle-free set behind
   $\delta_3(7)\ge1/4$ and behind Corollary 4.
 - Related: [[problems/extremal_graph_theory/E0579/_index|Problem 579]] (the
-  $K_{2,2,2}$ Ramsey--Turán question, open) and
+  $K_{2,2,2}$ Ramsey--Turán question, disproved: false at $\delta=3/2048$ by
+  a [[problems/extremal_graph_theory/E0579/claims/2026_10_03_jordan|Lean construction]]
+  that Conjectures.io certified) and
   [[problems/extremal_graph_theory/E0620/_index|Problem 620]] (the Erdős--Rogers
   function).
 <!-- BEGIN problem library links -->

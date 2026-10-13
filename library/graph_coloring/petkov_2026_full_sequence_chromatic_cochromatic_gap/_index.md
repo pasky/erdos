@@ -44,10 +44,11 @@ Samuil Petkov, *A Full-Sequence Quantitative Gap Between the Chromatic and
 Cochromatic Numbers of a Random Graph*, [arXiv:2608.30604v1][arxiv], submitted
 31 August 2026; manuscript dated 30 August 2026, 51 pages.
 
-**Current standing.** The uniform quantitative theorem is a pending full
-claim on E625, recorded on
+**Current standing.** The uniform quantitative theorem is the accepted full
+claim on E625, accepted on the site curator's review and recorded on
 [[../wiki/problems/graph_coloring/E0625/claims/2026_07_14_petkov|its claim page]];
-the site labeled the problem OPEN. The Palomar record and its automated
+the curator changed the site's label for the problem from OPEN to SOLVED on
+5 September 2026. The Palomar record and its automated
 review cited below are third-party checks the corpus did not build. They
 confer no local whole-proof acceptance, native formalization, or native
 verification tier.
@@ -143,9 +144,9 @@ proof coverage for the finite bounded-differences derivation, Lemmas
 retained original subject; the native rendition passed fidelity review
 and hand-check before it was filed. The seed is an explicit hypothesis,
 not proved by this unit. This is not a complete source-proof reconstruction
-or local acceptance of the entire manuscript. The pending claim on E625
-does not establish local full-proof coverage; the public formal report
-does not extend to the separate phase-dependent manuscript claim.
+or local acceptance of the entire manuscript. The claim on E625, accepted on
+the curator's review, does not establish local full-proof coverage; the public
+formal report does not extend to the separate phase-dependent manuscript claim.
 
 A focused author-recorded [Proposition 9.7 record](proposition_9_7.md)
 records the source-owned normalized second-moment premise and its

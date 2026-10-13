@@ -78,8 +78,8 @@ is used in Section 5.
 
 Claims checked: Theorem 1.1, the reduction to (2.1), the deduction of (2.1)
 from Lemmas 2.3 and 2.4 (p. 5) and the Section 7 remark were read clause by
-clause on the page images of the print. The proofs of Lemmas 2.1, 2.2 and
-2.4 (Sections 4--6 and Appendix A) were not read. Nothing here is
+clause on the page images of arXiv:2403.06353v2. The proofs of Lemmas 2.1,
+2.2 and 2.4 (Sections 4--6 and Appendix A) were not read. Nothing here is
 independently reviewed.
 
 ## Dependencies

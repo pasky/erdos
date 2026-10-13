@@ -81,7 +81,7 @@ https://www.erdosproblems.com/926.
 - [AKS03] Alon, Noga and Krivelevich, Michael and Sudakov, Benny, Turán numbers
   of bipartite graphs and related Ramsey-type questions. Combin. Probab. Comput.
   12 (2003), no. 5--6, 477--494, doi:10.1017/S0963548303005741 (Crossref
-  record accessed; the issue is dated November 2003). Theorem 6.1
+  record; the issue is dated November 2003). Theorem 6.1
   (p. 491), Section 6 (pp. 491--493); result page
   [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_6_1|theorem_6_1]].
   Library home:

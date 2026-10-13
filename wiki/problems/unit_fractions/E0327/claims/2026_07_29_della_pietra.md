@@ -59,7 +59,7 @@ are selected by their number of prime factors; budgets on the prime-factor
 count centered at its typical value, together with an upper-bound sieve over
 three linear forms, show that the members lost to conflicts between an odd
 and an even element are fewer than the even elements gained. The claim value
-is recorded as solved because the two questions receive opposite answers,
+is recorded as answered because the two questions receive opposite answers,
 yes and no, so neither a proof nor a disproof describes the whole. A
 companion manuscript at the repository head, *Admissibility variants of
 Erdős Problem 327: the multipliers $k\ge2$* (16 pages, linked above),

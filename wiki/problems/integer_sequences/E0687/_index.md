@@ -166,7 +166,7 @@ accessed 2026-09-18.
 exists in google-deepmind/formal-conjectures(none of the 673 entries of the
 directory `FormalConjectures/ErdosProblems/`, or of the 1,740 entries of the
 recursive tree, is for this problem), and the site's indicator shows no
-formalized statement. The community database (teorth/erdosproblems,) records the
+formalized statement. The community database (teorth/erdosproblems) records the
 problem open (31 August 2025), the statement not formalized, `formal_status`
 unformalized, no formal-proof URL, the prize "$1000" and the OEIS entries
 A048670 and A058989.
@@ -348,9 +348,10 @@ Iwaniec's $a(n)\ll n^2(\log n)^2$; and A058989, the largest number of
 consecutive integers each divisible by a prime at most the $n$-th prime, which
 is $Y(p_n)=$ A048670$(n)-1$.
 
-**Search scope.** None of the routes below found an upper
-bound below $x^2$, a refereed account of the site-accepted improvement, or a
-proof claim on this page.
+**Search scope.** Apart from the release behind the accepted partial claim
+above, which the routes below do not cover, none of them found an upper bound
+below $x^2$, a refereed account of the site-accepted improvement, or a proof
+claim on this page.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree as of 2026-09-18 (no file); the

@@ -43,7 +43,7 @@ case.
 
 That preprint
 is arXiv:2007.03667v3, dated 14 January 2023 on its first page. PDF pp.
-1 and 4-5 were visually checked UTC. On p. 5 the authors specify
+1 and 4-5 were visually checked. On p. 5 the authors specify
 that, for graphs with local independence condition alpha_m(G) >= r, asymptotics
 are in the vertex count n, with m and r treated as constants unless otherwise
 specified. The discussion before Theorem 1.7 on p. 4 keeps r fixed while taking

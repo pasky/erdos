@@ -262,7 +262,7 @@ version predates the arXiv posting.
 
 **Formalization and the Lean developments (not built here).** The manuscript
 links `ErdosProblem1005.lean` in the repository `Woett/Lean-files`, last changed
-on 4 August 2026 (the revision the claim page's link pins; accessed): 175,924
+on 4 August 2026 (the revision the claim page's link pins): 175,924
 bytes, 2,557 lines, `import Mathlib`, defining `IsFarey n q`, `betweenCount n x
 y`, `BadlyOrdered n x y` and `fVal n` (the infimum of the between-count over
 badly ordered pairs) and proving `theorem erdos_1005 : Tendsto (fun n : ℕ =>
@@ -281,7 +281,7 @@ Cipollini and van Doorn with Aristotle (Harmonic), combined from the Woett file;
 its main theorem `erdos_1005` is the same limit for the formal-conjectures
 definition of $f(n)$, derived from the source's by a rewriting lemma, and the
 statement file cites it as the problem's `formal_proof` (header and main
-theorem; accessed). All three formalize the intervening-count convention; the
+theorem). All three formalize the intervening-count convention; the
 bridge to the page's $f(n)$ is the authored remark of the Formulation paragraph.
 Only the statements at the pinned commits are recorded: nothing was built or
 audited here and no kernel credit is claimed.

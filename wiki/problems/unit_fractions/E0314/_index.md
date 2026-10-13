@@ -35,7 +35,7 @@ $$
 \liminf n^2\epsilon(n)=0?
 $$
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 23 January 2026). For each $n\ge1$ the block
 $n,n+1,\ldots,m$ is the shortest block of consecutive integers starting at
 $n$ whose reciprocals sum to at least $1$ (it exists since the harmonic
@@ -75,9 +75,9 @@ Problem #314, https://www.erdosproblems.com/314, accessed 2026-09-18.
 - [LiSt24] Lim, J. and Steinerberger, S., On differences of two harmonic
   numbers. arXiv:2405.11354 (v1 18 May 2024, v2 30 May 2024, v3 11 June
   2024, 13 pages); Mathematika 71 (2025), no. 2, e70009, DOI
-  10.1112/mtk.70009, published online 27 January 2025 (Crossref record
-  accessed). Theorem 1, p. 1, and Theorem 2, p. 2, of arXiv v3;
-  the journal text is not held. Library home:
+  10.1112/mtk.70009, published online 27 January 2025 (Crossref record). Theorem
+  1, p. 1, and Theorem 2, p. 2, of arXiv v3; the journal text is not held.
+  Library home:
   [[../library/unit_fractions/lim_2024_differences_two_harmonic_numbers/_index|lim_2024_differences_two_harmonic_numbers]];
   result pages
   [[../library/unit_fractions/lim_2024_differences_two_harmonic_numbers/theorem_1|theorem_1]]
@@ -158,7 +158,7 @@ Theorem 2 together with the paper's remark, not on the theorem as stated.
 The site's commentary states the refined bound with the absolute value, as
 the preprint does; the journal text is not held. Acceptance
 evidence: the paper is published in Mathematika 71 (2025), no. 2, e70009
-(online 27 January 2025; Crossref record accessed), a refereed
+(online 27 January 2025; Crossref record), a refereed
 journal, and the site accepts it. Proof coverage: the result pages record
 the proofs (Section 2, pp. 2--7, an elementary construction from the
 continued fraction of $e$; Section 3, pp. 8--12, quadratic rational

@@ -33,8 +33,9 @@ $$
 **Status.** Open, in the site's label (OPEN; page last edited 8 April 2026). The
 question whether $f_d(n)=2^{o(d)}$ is open for every $n\ge4$, so the standing in
 the frontmatter, derived from the claim pages, is open. The site's remarks
-credit exact values and orders of growth for small cases. These are recorded as
-partial claims in `claims/`.
+credit exact values and orders of growth for small cases. These, and Ionin's
+exact values for $n=3$ and $d\le8$, are recorded as partial claims in
+`claims/`.
 
 **Source.** [erdosproblems.com/1088](https://www.erdosproblems.com/1088),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1088,
@@ -56,23 +57,26 @@ The site's formulation (page last edited 8 April 2026) asks for an estimate
 of $f_d(n)$, the least $m$ such that every $m$ points of $\mathbb{R}^d$
 contain $n$ points whose pairwise distances are all distinct, and in
 particular whether $f_d(n)=2^{o(d)}$ for each fixed $n\ge3$. The general
-estimate is open; four results settle instances.
+estimate is open; five results settle instances.
 
-**The case $n=3$.** Three points have three distinct distances exactly when
-they do not form an isosceles triangle, so $f_d(3)-1$ is the largest size of
-an isosceles set in $\mathbb{R}^d$, the subject of
-[[problems/distance_problems/E0503/_index|Problem 503]]. The solution of
-Monthly problem E735 gives $f_2(3)=7$
-([[problems/discrete_geometry/E1088/claims/1947_04_01_erdos_kelly|claim
-page]]), and Croft [Cr62] proved $f_3(3)=9$
-([[problems/discrete_geometry/E1088/claims/1962_01_01_croft|claim page]]),
-both accepted on their journal publication. Blokhuis's bound for isosceles
-sets gives $f_d(3)\le(d+1)(d+2)/2+1$, and two-distance sets give a lower
-bound of the same order, so $f_d(3)=d^2/2+O(d)$ and the answer for $n=3$ is
-yes; Erdős [Er75f] had written that he and Straus could not prove this even
-for $n=3$. That claim page
-([[problems/discrete_geometry/E1088/claims/1984_01_01_blokhuis|Blokhuis]])
-is pending, since the source is a CWI Tract and not a journal publication.
+**The case $n=3$.** Three points have three distinct distances exactly when they
+do not form an isosceles triangle, so $f_d(3)-1$ is the largest size of an
+isosceles set in $\mathbb{R}^d$, the subject of
+[[problems/distance_problems/E0503/_index|Problem 503]]. The solution of Monthly
+problem E735 gives $f_2(3)=7$
+([[problems/discrete_geometry/E1088/claims/1947_04_01_erdos_kelly|claim page]]),
+and Croft [Cr62] proved $f_3(3)=9$
+([[problems/discrete_geometry/E1088/claims/1962_01_01_croft|claim page]]). Ionin
+determined the largest isosceles sets for every $d\le8$, which gives
+$f_d(3)=4,7,9,12,18,29,31,46$ for $d=1,\ldots,8$
+([[problems/discrete_geometry/E1088/claims/2009_11_24_ionin|claim page]]); Kido
+found $f_4(3)=12$ independently. All three are accepted on their journal
+publication. Blokhuis's bound for isosceles sets gives
+$f_d(3)\le(d+1)(d+2)/2+1$, and two-distance sets give a lower bound of the same
+order, so $f_d(3)=d^2/2+O(d)$ and the answer for $n=3$ is yes; Erdős [Er75f] had
+written that he and Straus could not prove this even for $n=3$. That claim page
+([[problems/discrete_geometry/E1088/claims/1984_01_01_blokhuis|Blokhuis]]) is
+pending, since the source is a CWI Tract and not a journal publication.
 
 **The case $d=1$.** Points of the line have distinct distances exactly when
 they form a Sidon set, the subject of

@@ -134,12 +134,13 @@ the leg's detail, and `--settled` makes each such problem a finding.
 values first, and repeatable `--problem E####` options scope both to the named
 folders. Exit 0 means no findings, 1 findings, 2 a command or usage error.
 
-Incoming-library navigation is still being rolled out. By default its leg checks
-the sorted union of problem pages already carrying either managed marker. Add a
-newly affected page with repeated `--problem E####` options. An empty union is
-visibly skipped, never converted to `--all`; every run reports the number
-checked and the number of canonical pages with no managed block. These markers
-establish generated structure only, not mathematical acceptance or review.
+By default the incoming-library leg checks the sorted union of problem pages
+carrying either managed marker. Add a newly affected page with repeated
+`--problem E####` options. An empty union is visibly skipped, never converted to
+`--all`; every run reports the number checked and the number of canonical pages
+with no managed block, which the generator omits on a page that no library page
+links. These markers establish generated structure only, not mathematical
+acceptance or review.
 
 The expensive native Lean build, audit, and self-test stamp validation are also
 visibly skipped by default. `--lean` runs `lean/scripts/gate.sh` and, when it

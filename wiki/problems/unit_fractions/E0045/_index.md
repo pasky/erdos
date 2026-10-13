@@ -99,7 +99,7 @@ multiple of an interval $[1,C^k]$), that a doubly exponential lower bound
 also holds (an observation the commentary attributes to Sawhney), and that
 Guy's collection mentions the existence of such $n_k$ in problem B2. The
 thread and the proof-claim tab are empty. The community database record
-(teorth/erdosproblems,) says proved (Lean), statement
+(teorth/erdosproblems) says proved (Lean), statement
 formalized, no formal-proof URL.
 
 **Status support.** The status-defining source is Croot's Corollary

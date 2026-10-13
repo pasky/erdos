@@ -228,7 +228,7 @@ $k(n,m)=r(I_n,L_m)$ of [IRW21]. Known exactly:
   [[../library/ramsey_theory/ihringer_2017_new_bounds_ramsey_number_r_i/proposition_3_4|Proposition 3.4]]
   and two explicit oriented graphs on 14 and 22 vertices (p. 10; the
   constructions were not verified here). Acceptance evidence: Discrete
-  Mathematics 344 (2021), a refereed journal (Crossref record accessed); the
+  Mathematics 344 (2021), a refereed journal (Crossref record); the
   locators are those of the arXiv v3 of 8 April 2020, whose arXiv comment
   says that it incorporates reviewers' comments, not compared with the
   journal text.

@@ -26,7 +26,7 @@ updated: 2026-10-08T14:17:37Z
 with $n$ vertices and $\geq (1/8-c)n^2$ edges then $G$ must contain either a
 $K_4$ or an independent set on at least $n/\log n$ vertices?
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). In the Ramsey--Turán notation the
 site also gives, with $\mathrm{rt}(n;4,\ell)$ (the sources write
 $\mathbf{RT}(n,K_4,m)$) the largest number of edges of a $K_4$-free graph
@@ -88,12 +88,12 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 - [EHSSS93] Erdős, P., Hajnal, A., Simonovits, M., Sós, V. T. and
   Szemerédi, E., Turán-Ramsey theorems and simple asymptotically extremal
   structures. Combinatorica 13 (1993), no. 1, 31--56 (received October 31,
-  1989), doi:10.1007/BF01202788 (Crossref record accessed). Problem
+  1989), doi:10.1007/BF01202788 (Crossref record). Problem
   4, p. 54; displays (7)--(8), p. 36. Library home:
   [[../library/ramsey_theory/erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal/_index|erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal]].
 - [Su03] Sudakov, B., A few remarks on Ramsey-Turán-type problems. J.
   Combin. Theory Ser. B 88 (2003), no. 1, 99--106 (received 21 August
-  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record accessed). Problem 1.1, p. 100; Theorem 3.1, p. 102; the $K_4$
+  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record). Problem 1.1, p. 100; Theorem 3.1, p. 102; the $K_4$
   corollary, p. 103. Library home:
   [[../library/ramsey_theory/sudakov_2003_few_remarks_ramsey_turan_type_problems/_index|sudakov_2003_few_remarks_ramsey_turan_type_problems]].
 - [EHSS83] Erdős, P., Hajnal, A., Sós, V. T. and Szemerédi, E., More

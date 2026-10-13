@@ -33,9 +33,12 @@ other than -1, with an absolute implied constant.
 ***
 
 Ben Green, Imre Ruzsa, On the arithmetic Kakeya conjecture of Katz and Tao.
-arXiv preprint (2017). arXiv:1712.02108. The copy read for this card is
-arXiv:1712.02108v1 (6 December 2017), 22 pages, the only version. The arXiv
-record names arXiv's non-exclusive distribution license
+Period. Math. Hungar. 78 (2019), no. 2, 135--151,
+doi:10.1007/s10998-018-0270-z (published online 2 November 2018);
+arXiv:1712.02108 (2017). The copy read for this card is arXiv:1712.02108v1 (6
+December 2017), 22 pages, the only version; the journal text was not compared,
+so the labels and pages below are the preprint's. The arXiv record names
+arXiv's non-exclusive distribution license
 (<https://arxiv.org/abs/1712.02108>), recorded as `reserved`.
 
 Green and Ruzsa discuss the arithmetic Kakeya conjecture of Katz and Tao, a

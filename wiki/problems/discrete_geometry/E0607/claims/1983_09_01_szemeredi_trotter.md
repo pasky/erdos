@@ -46,7 +46,7 @@ directly. The site's commentary also reports Erdős's view that the bound
 is best possible, which is not part of this claim.
 
 **Acceptance.** T. F. Bloom, the site's curator, labeled the problem PROVED and
-credits Szemerédi and Trotter [SzTr83] (problem page accessed). This is the
+credits Szemerédi and Trotter [SzTr83]. This is the
 `reviewed` evidence. The paper is refereed: E. Szemerédi and W. T. Trotter, Jr.,
 Extremal problems in discrete geometry, Combinatorica 3 (1983), no. 3–4,
 381–392, DOI 10.1007/BF02579194, received 1982-08-19 and revised 1983-03-14. The

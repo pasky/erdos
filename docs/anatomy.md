@@ -457,16 +457,18 @@ source's text.
 
 Every short work the library holds under an open license has its full
 transcription beside its PDF, the markdown file of the PDF's stem
-(`author_year_slug.md`). Three cases may go without one, and the card says which
-in a sentence and in its `transcription` key: `book` for a whole book, `terms`
-for a work whose holding terms forbid a full copy, and `unreadable` for a source
-the converter cannot read. The key is a scalar for a card holding one PDF and,
-like `license`, maps each untranscribed PDF's file name to its reason for a card
-holding several. Where the holding policy admits only open licenses, a work not
-under an open license has no transcription, since the library holds no file of
-it; where a repository holds works under the terms their cards record, a
-transcription shares its PDF's term. The license audit checks each held PDF for
-its transcription or a reason ([[tools]] "License audit contract").
+(`author_year_slug.md` beside `author_year_slug.pdf`,
+`author_year_slug_arxiv_v2.md` beside `author_year_slug_arxiv_v2.pdf`). Three
+cases may go without one, and the card says which in a sentence and in its
+`transcription` key: `book` for a whole book, `terms` for a work whose holding
+terms forbid a full copy, and `unreadable` for a source the converter cannot
+read. The key is a scalar for a card holding one PDF and, like `license`, maps
+each untranscribed PDF's file name to its reason for a card holding several.
+Where the holding policy admits only open licenses, a work not under an open
+license has no transcription, since the library holds no file of it; where a
+repository holds works under the terms their cards record, a transcription
+shares its PDF's term. The license audit checks each held PDF for its
+transcription or a reason ([[tools]] "License audit contract").
 
 Each source digest in `library/` carries a **read status** identifying which
 statements the corpus consumes and at what depth: **unread** means the consumed
@@ -515,9 +517,9 @@ the part it names, open; one of each, accepted, settles the problem or that part
 as `independent`, and with one of them pending it is `claimed`. `tags` lists the
 problem's tag strings; the repository-specific section says where they come
 from. The problem page never carries a hand-set standing: a problem without a
-claim page keeps a provisional standing, which the schema check counts as
-transition debt and, in its settled mode, fails, unless that standing is `open`
-with claim `none`, which needs no claim page.
+claim page keeps a provisional standing, which the schema check counts and, in
+its settled mode (the release mode), fails, unless that standing is `open` with
+claim `none`, which needs no claim page.
 
 A claim page carries `authors`, `status` (`claimed`, `accepted`, `rejected` or
 `withdrawn`), `claim` (the problem values without `none` and `contested`, plus
@@ -537,7 +539,7 @@ note posted under its author's own account takes that person's name); a username
 or account name is never listed, so when no real name is known `authors` is the
 empty list `[]` and the body names the handle where there is one. A claim of
 this corpus's own (a `corpus` page) has no publication and lists none. The
-schema check counts any other claim page without `authors` as transition debt
+schema check counts any other claim page without `authors` in its summary line
 and, in its settled mode, fails it. `evidence` lists the kinds of acceptance
 evidence in the fixed order `reviewed`, `refereed`, `formalized`; an accepted
 claim lists at least one, and its prose names who reviewed. `links` lists every
@@ -782,10 +784,10 @@ a claim stays `claimed`, and the problem's `status` stays `claimed` with it.
 Source-supported standing, local proof coverage and formal verification remain
 distinct. A provisional standing retained from the site's label, on a problem
 with no claim page yet, still needs the qualifications above; unless it is
-`open`/`none`, the schema check counts it as transition debt, and it certifies
-nothing. Project-authored resolutions require the independent whole-conclusion
-and exact-formulation scrutiny in [[verification]] before acceptance as project
-solutions.
+`open`/`none`, the schema check counts it and fails it in its settled mode, and
+it certifies nothing. Project-authored resolutions require the independent
+whole-conclusion and exact-formulation scrutiny in [[verification]] before
+acceptance as project solutions.
 
 A claim page with an erdosproblems.com proof claim, a claimant's forum post that
 the page cites, or a Palomar registry link carries a `**Submission note.**`
@@ -802,11 +804,13 @@ wording (...), not the corrected Statement" otherwise.
 
 - **One folder per source.** `library/<subject>/author_year_slug/` holds the
   source, an `_index.md` — the source card — whose desc is the catalog entry and
-  whose body is the digest, and one page per extracted result. The source is the
-  PDF under the folder's name when one exists, with its markdown transcription
-  beside it as `author_year_slug.md` unless the card's `transcription` key
-  records why not ("Library cards"). When no PDF exists — a web page, a forum
-  answer — that markdown file is the source itself and records the URL.
+  whose body is the digest, and one page per extracted result. The source is its
+  PDF when one exists, named after the folder (`author_year_slug.pdf`) or after
+  the folder and its edition (`author_year_slug_arxiv_v2.pdf`), with its
+  markdown transcription beside it at the PDF's stem (`author_year_slug.md`,
+  `author_year_slug_arxiv_v2.md`) unless the card's `transcription` key records
+  why not ("Library cards"). When no PDF exists — a web page, a forum answer —
+  that markdown file is the source itself and records the URL.
 - **Conversion sidecars sit beside the PDF.** An arXiv source may carry
   `.arxiv/` (the record of the arXiv version held), `.tex/` and `.html/` (its
   extracted source and rendered pages) in its folder. A source bundle from
@@ -824,16 +828,16 @@ wording (...), not the corrected Statement" otherwise.
   for a canonical, so it treats a tracked canonical as curated and never
   replaces it without a deliberate re-conversion. The generated exclude list in
   `library/.wiki/settings.json` (regenerated by
-  `scripts/build_wiki_excludes.py`) keeps the canonical `author_year_slug.md`
-  beside the PDF and `.convert/` out of the library wiki. The canonical and the
+  `scripts/build_wiki_excludes.py`) keeps the canonical `<stem>.md` beside each
+  `<stem>.pdf` and `.convert/` out of the library wiki. The canonical and the
   `.arxiv/` record land byte-exact: pre-commit's rewriting hooks skip them. The
-  canonical `author_year_slug.md` beside each PDF is a faithful conversion of
-  the paper: the one place the paper's own words are kept in full, distinct from
-  the card and result pages written in the corpus's own words. A hand-made
-  transcription already at that name is kept as it stands. Since the converter
-  is not distributed, a contributor supplies that transcription by hand, in
-  Markdown faithful to the PDF, and only for a work the library holds under an
-  open license.
+  canonical `<stem>.md` beside each PDF is a faithful conversion of the paper:
+  the one place the paper's own words are kept in full, distinct from the card
+  and result pages written in the corpus's own words. A hand-made transcription
+  already at that name is kept as it stands. Since the converter is not
+  distributed, a contributor supplies that transcription by hand, in Markdown
+  faithful to the PDF, and only for a work the library holds under an open
+  license.
 - **Result pages take the paper's own label.** `theorem_1`, `lemma_2_3`,
   `corollary_4`; `conjecture_p30` for an unnumbered statement on page 30; a
   descriptive name such as `main_theorem` when the paper gives none. Each page
@@ -958,10 +962,10 @@ uv run --no-sync wiki lint --path library
 ```
 
 Use the same selections when running the gate. Reserve `--all` for an
-intentional all-problem navigation rollout; see [[tools]]. Both generators
-accept `--wiki <path>`, `--taxonomy <path>`, and a read-only `--check`; the
-incoming generator requires an explicit selected or all-problem scope. Fix its
-rows by editing the underlying authored links, never the managed block.
+intentional all-problem regeneration; see [[tools]]. Both generators accept
+`--wiki <path>`, `--taxonomy <path>`, and a read-only `--check`; the incoming
+generator requires an explicit selected or all-problem scope. Fix its rows by
+editing the underlying authored links, never the managed block.
 
 ### Project claims
 

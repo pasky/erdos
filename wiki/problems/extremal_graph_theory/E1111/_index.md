@@ -152,9 +152,9 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
   checked.
 
 **Formalization.** None. No file `ErdosProblems/1111.lean` exists in
-google-deepmind/formal-conjectures (main,); the site's
+google-deepmind/formal-conjectures (main); the site's
 indicator shows no formalized statement, and the community database
-(teorth/erdosproblems, `data/problems.yaml`,) records the
+(teorth/erdosproblems, `data/problems.yaml`) records the
 problem open (last changed 7 December 2025), unformalized, with no formal proof.
 
 ## Current assessment

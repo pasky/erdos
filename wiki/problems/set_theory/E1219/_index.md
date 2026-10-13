@@ -81,7 +81,7 @@ has no statement file for 1219.
 
 ## Current assessment
 
-The site formulation, as accessed (its revision history shows
+The site formulation (its revision history shows
 one rewording of the opening clause on 1 September 2026), asks whether $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ for an
 increasing sequence $(n_k)$ with $2^{\aleph_{n_k}}$ strictly increasing and
 $2^{\aleph_{n_0}}>\aleph_\omega$; the omitted subscript means two colors, and

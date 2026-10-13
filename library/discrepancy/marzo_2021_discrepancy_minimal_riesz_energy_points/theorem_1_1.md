@@ -72,10 +72,10 @@ $d-2<s<d$ and $\epsilon=N^{-2/(d(d-s+1))}$ for $0\le s\le d-2$ (p. 27).
 ## Read depth
 
 Claims checked: the setting, Theorem 1.1, Remark 1.2 and the comparison with
-earlier bounds were read clause by clause on the page images of the print,
-and the deduction from Theorem 1.5 through Proposition 5.2 was followed for
-structure. Nothing here is independently reviewed. For the case $d=2$,
-$s=0$, see the read-depth note on Theorem 1.5.
+earlier bounds were read clause by clause on the page images of
+arXiv:1907.04814v1, and the deduction from Theorem 1.5 through Proposition 5.2
+was followed for structure. Nothing here is independently reviewed. For the case
+$d=2$, $s=0$, see the read-depth note on Theorem 1.5.
 
 ## Dependencies
 

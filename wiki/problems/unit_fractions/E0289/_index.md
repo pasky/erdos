@@ -93,7 +93,7 @@ https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/289.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/289.lean)
-of formal-conjectures at the linked commit (main,) declares
+of formal-conjectures at the linked commit (main) declares
 `erdos_289 : answer(sorry) ↔ (∀ᶠ k : ℕ in atTop, ∃ I : Fin k → ℕ × ℕ, (∀ i, (I
 i).1 < (I i).2) ∧ (∀ i j, i ≠ j → (I i).2 + 1 < (I j).1 ∨ (I j).2 + 1 < (I
 i).1) ∧ ∑ i, ∑ n ∈ .Icc (I i).1 (I i).2, (n⁻¹ : ℚ) = 1)` under `category

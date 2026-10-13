@@ -96,7 +96,7 @@ https://www.erdosproblems.com/306, accessed 2026-09-18.
   Mathematicorum in 1978, and the issue is in the Canadian Mathematical
   Society's archive,
   [Crux_v3n07_Aug.pdf](https://cms.math.ca/wp-content/uploads/crux-pdfs/Crux_v3n07_Aug.pdf)
-  (accessed; the 101 denominators are printed on pp. 178--179). Claim
+  (the 101 denominators are printed on pp. 178--179). Claim
   page
   [[problems/unit_fractions/E0306/claims/1977_08_01_barbeau|1977_08_01_barbeau]].
 - [Jo78] Johnson, A. W., Jr., Letter to the editor. Crux Mathematicorum 4

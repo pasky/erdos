@@ -26,7 +26,7 @@ updated: 2026-10-08T14:17:37Z
 \{1,\ldots,N\}$ with $\lvert A\rvert=\lfloor N^{1/2}\rfloor$ such that $\lvert
 (A+A)\cap [1,N]\rvert=f(N)$. Estimate $f(N)$.
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $A+A$ is the full sumset
 $\{a+b:a,b\in A\}$, doubles included; only the sums in $[1,N]$ are counted,
 and $|A|$ is exactly $\lfloor N^{1/2}\rfloor$. Since $|A+A|\le\binom{|A|+1}2$,

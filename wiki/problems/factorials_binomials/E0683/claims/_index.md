@@ -1,10 +1,10 @@
 ---
 name: problems/factorials_binomials/E0683/claims
-desc: The 2 claim pages of Problem 683, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 683, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T13:29:21Z
 ---
 
 # problems/factorials_binomials/E0683/claims
@@ -20,5 +20,10 @@ $n/2\le k\le n-1$.
 Wisk.) states that any $c_1k/\log k$ consecutive integers above $k$ include
 one with a prime factor greater than $k$. It gives
 $P(\binom nk)\gg\min(n-k+1,k\log k)$.
+
+[[problems/factorials_binomials/E0683/claims/1973_01_01_jutila_ramachandra_shorey|1973_01_01_jutila_ramachandra_shorey]]: Jutila, Ramachandra and Shorey's refereed bound on the function of Problem
+961, attested by Erdős's 1976 survey, gives by the 1955 claim's deduction
+$P(\binom nk)\gg\min(n-k+1,k\log k\log\log k/\log\log\log k)$ for
+$k\le n/2$.
 
 ***

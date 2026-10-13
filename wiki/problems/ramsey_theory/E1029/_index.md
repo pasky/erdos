@@ -27,7 +27,7 @@ $$
 \frac{R(k)}{k2^{k/2}}\to \infty.
 $$
 
-**Formulation.** The site's wording as accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $R(k)=R(k,k)$ is the diagonal Ramsey number. The known
 lower bounds are constant multiples of $k2^{k/2}$, Erdős's
 $(1+o(1))k2^{k/2}/(e\sqrt2)$ of 1947 and Spencer's

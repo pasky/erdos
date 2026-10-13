@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 with probability $1/2$, then $G$ almost surely contains a copy of $Q_d$ (the
 $d$-dimensional hypercube with $2^d$ vertices and $d2^{d-1}$ many edges).
 
-**Formulation.** The site's wording(the page carries no
+**Formulation.** The site's wording (the page carries no
 last-edited date). $G$ is the binomial random graph
 $G(2^d,1/2)$; "almost surely" means with probability tending to $1$ as
 $d\to\infty$; since $Q_d$ has $2^d$ vertices, a copy of $Q_d$ in $G$ is a

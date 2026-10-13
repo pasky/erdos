@@ -130,7 +130,7 @@ Bloom, Erdős Problem #490, https://www.erdosproblems.com/490, accessed
   (10.4), printed p. 131. Library home:
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]].
 - [OEIS] Kitamura, K., Sequence A397205, The On-Line Encyclopedia of Integer
-  Sequences (created 28 June 2026; accessed): the maximum of
+  Sequences (created 28 June 2026): the maximum of
   $|S||T|$ over $S,T\subseteq\{1,\dots,n\}$ with the products $st$ pairwise
   distinct, $1,2,4,6,9,12,16,20,25,28,35,40,\dots$ for $n\le39$; cites
   [Sz76] and [ErSz76].

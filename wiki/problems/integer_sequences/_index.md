@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T11:00:13Z
+updated: 2026-10-13T13:29:21Z
 ---
 
 # Sequences and Densities of Integers
@@ -461,7 +461,7 @@ $N^2/((\log N)^{\delta}(\log\log N)^{3/2})$.
 that a positive density of $n$ have each of $n+1,\ldots,n+k$ divisible by a
 prime $\le x$, and whether it is at least $k^{1-o(1)}$. It is the inverse of the
 covering function of Problem 687 and is open, with lower bounds only of order
-$\sqrt{k}$.
+$\sqrt{k}\log k$.
 
 [[problems/integer_sequences/E0932/_index|E0932/]]: Asks whether infinitely many
 prime gaps $(p_r,p_{r+1})$ contain at least two integers whose prime factors are

@@ -31,7 +31,7 @@ $$
 R(n+1)-R(n) \gg n^2?
 $$
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $R(n)=R(n,n)$ is the diagonal Ramsey
 number, the least $N$ such that every red-blue coloring of the edges of
 $K_N$ contains a monochromatic $K_n$; the 1989 paper writes $r(m,n)$. The

@@ -126,7 +126,7 @@ Erdős Problem #536, https://www.erdosproblems.com/536, accessed 2026-09-18.
   Richard K. Guy, "for mailing prior to 1992 (Corvallis) meeting"; problem
   91:01, PDF p. 9 of the 18-page image-only scan at
   https://westcoastnumbertheory.org/wp-content/uploads/2018/02/wcnt-problems-1991.pdf
-  (the site's link, 13,746,604 bytes; accessed). Library home:
+  (the site's link, 13,746,604 bytes). Library home:
   [[../library/number_theory/guy_1991_western_number_theory_problems/_index|guy_1991_western_number_theory_problems]]
   (the card carries the row for this problem).
 - [Wa26] Wang, S., A Proposed Complete Solution to Erdős Problem 536.

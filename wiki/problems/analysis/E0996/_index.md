@@ -97,6 +97,25 @@ bounded construction, neither is refereed or credited by the site, and the
 proofs were not checked here. The frontmatter's standing derives from these two
 agreeing pending claims.
 
+The site's commentary records two further questions of Erdős from [Er64b]. The
+first asks whether the conclusion holds for every bounded $f$ and every lacunary
+$n_k$, and the constructions of both preprints answer it no. Ho's Theorem 1.7
+(p. 5) gives, for each $0<\varepsilon<1$, a set $E$ with $|E|<\varepsilon$ and a
+sequence with $n_{j+1}/n_j\ge2$ along which the averages of $\mathbf 1_E$ have
+limit superior $1$ almost everywhere, so the averages of the bounded mean-zero
+function $\mathbf 1_E-|E|$ fail to converge almost everywhere. Yang's
+$\{0,1\}$-valued function above is a second bounded example. Ho presents that
+theorem as a companion construction and remarks that stronger qualitative
+small-set statements were already known from the lacunary sweeping-out
+literature, citing Akcoglu, Bellow, Jones, Losert, Reinhold-Larsson and Wierdl
+(Ergodic Theory Dynam. Systems 16 (1996), 207--253) and Mondal, Roy and Wierdl
+(New York J. Math. 29 (2023), 1060--1074). Those papers are not held or read
+here, so that earlier credit is Ho's remark, and the proofs of the two preprints
+were not checked here. The second asks whether Raikov's conclusion, for every
+$f\in L^2([0,1])$ with no condition on its Fourier tail, holds for
+$n_k=\lfloor a^k\rfloor$ for some $a>1$; the status of that question has not
+been checked here.
+
 Yang's repository carries a Lean 4 development that the author reports as a
 complete disproof of a statement reproducing the formal-conjectures statement of
 the problem, which at its revision of 18 September 2026 tags the problem

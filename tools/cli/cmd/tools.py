@@ -621,7 +621,7 @@ def reflint(app: typer.Typer) -> typer.Typer:
     def _reflint(
         path: Optional[str] = path,
     ) -> None:
-        """Check retired page names and inline links over the repository Markdown.
+        """Check retired names, inline links and cited standings in repository pages.
 
         Reads every Markdown page of the repository outside its
         dot-folders, among the tracked and non-ignored untracked
@@ -637,9 +637,14 @@ def reflint(app: typer.Typer) -> typer.Typer:
         there, from the page's folder, or one whose target is an
         absolute path. The filed records under `evidence/**/verify/`
         are read for retired names only; their links stay as written.
-        Wikilinks are the wiki tool's lint's surface. The path must be
-        the repository root, the folder holding `wiki/`; a subfolder
-        is refused. Nothing is written.
+        Wikilinks are the wiki tool's lint's surface. A page of the
+        research layer (`wiki/research/`, `wiki/theory/`), outside
+        evidence records, refutation records and the folders of
+        refuted claims, that writes a tier or a status beside a claim
+        id must write the ledger's, and a refuted claim cited as a
+        warrant in a sentence that does not say it is refuted is a
+        defect too. The path must be the repository root, the folder
+        holding `wiki/`; a subfolder is refused. Nothing is written.
 
         The gate's `reflint` leg runs the same check. Scripts should
         branch on the exit code: 0 no findings, 1 findings, 2 a

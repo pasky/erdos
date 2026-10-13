@@ -108,7 +108,7 @@ Problem #1155, https://www.erdosproblems.com/1155, accessed 2026-10-07.
   [[../library/extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|theorem_1_1]].
 
 **Formalization.** None in the catalogs: formal-conjectures has no file
-`ErdosProblems/1155.lean` (main,), the site's page shows no formalized
+`ErdosProblems/1155.lean` (main), the site's page shows no formalized
 statement, and the community database records the problem open (last update 23
 January 2026) and unformalized (both). The OpenAI release proves its theorem in
 Lean against its own model of the process, the declaration

@@ -142,10 +142,10 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
   3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94`, gives "(1994),
+  text at `/bibs/Er94` gives "(1994),
   217-227. (MR 1319165)"; the volume and publisher from the graphs problem
   collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (the archive's index, lists no paper
+  archive's cutoff (the archive's index lists no paper
   after 1989), with no open copy identified. The graphs problem collection's
   page "CliqueTransversalUpperBound" attributes to it the
   question "Is it true that $\tau(G)<n-g(n)\sqrt n$ and $g(n)\to\infty$ as
@@ -154,7 +154,7 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
   Combin. Probab. Comput. 8 (1999), 1--6. Not held; no open copy identified.
 - [Note26] *A note on the clique-transversal number*, a four-page note dated
   "April 21, 2026", with no author named in its text, hosted at
-  https://www.ulam.ai/research/erdos610.pdf (; PDF metadata
+  https://www.ulam.ai/research/erdos610.pdf (PDF metadata
   21 April 2026). Theorem 1 ($T(n)=n-\Theta(\sqrt{n\log n})$),
   Lemma 2 (the color-class transfer), Theorem 3 ([JMRS21] quoted), Corollary
   4, Lemma 5, Theorem 6 ([Ki95] quoted), Corollary 7, Remark 8. The thread
@@ -177,7 +177,7 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
 **Formalization.** The suffix of the site's label PROVED (LEAN) is a catalog
 label with no file in the collection: formal-conjectures has no file
 `ErdosProblems/610.lean` (main, 2026-09-19); the page records no formalized
-statement; the community database (teorth/erdosproblems, `data/problems.yaml`,)
+statement; the community database (teorth/erdosproblems, `data/problems.yaml`)
 lists `status` "proved (Lean)" as of its record's last update of 7 June 2026,
 `formal_status` Lean with no URL, `formalized` no, and no formal-proof field.
 The development behind the label is the file `erdos610.lean` at

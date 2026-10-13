@@ -66,4 +66,7 @@ reviewed.
   asks for the growth rate of $z(S_n)$, which is the paper's $Z(S_n)$. The
   theorem bounds it between constant multiples of $\sqrt n/\ln n$ and
   $\sqrt n$, so it determines the growth rate up to a factor of order
-  $\ln n$ and leaves open which bound has the right order.
+  $\ln n$ and leaves open which bound has the right order. Theorem 3.4 of
+  [[graph_coloring/gimbel_1997_coloring_graphs_fixed_genus_girth/theorem_3_4|Gimbel and Thomassen 1997]]
+  settles this: $z(S_n)$ is of order $\sqrt n/\log n$, so the lower bound
+  here has the right order.

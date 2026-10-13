@@ -107,7 +107,7 @@ T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed
   whose digest records the random model and the conjecture that no
   bounded-step infinite component of Gaussian primes exists (Conjectures
   1.1--1.2 on p. 276 and Theorem 1.1 on p. 277).
-- Withdrawn preprints (arXiv records accessed; each has a claim
+- Withdrawn preprints (arXiv records; each has a claim
   page): arXiv:1908.10392 (Das, 2019; version 2 of 6 September 2024 marks
   it withdrawn: "The claim in Theorem 3 is incorrect. The defined paths P_i
   (for i=1,2,3,...) do not cover all the Gaussian primes. Additionally, the

@@ -10,7 +10,7 @@ desc: |
   points below n infinitely often.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:35:15Z
+updated: 2026-10-13T13:29:25Z
 ---
 
 # ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems
@@ -24,7 +24,8 @@ and which has at least c log_{r-1} n points below n for infinitely many n.
 [[ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/problem_4_2|problem_4_2]]: Erdős and Galvin's question whether for some k a function φ bounds, infinitely
 often, a sequence whose finite sums miss one of k + 1 classes in every
 partition of N: Problem 948 (first asked by Erdős in 1977), negative for
-k = 1 by Theorem 4.1 and left open from k = 2.
+k = 1 by Theorem 4.1 and left open by the paper for k >= 2; answered
+negatively for every k in 2026.
 
 [[ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/theorem_2_1|theorem_2_1]]: Erdős and Galvin's main result: if n → (φ(n))^r_{k+1} for all large n, then
 every k-coloring of the r-subsets of N has a set A whose r-subsets take at

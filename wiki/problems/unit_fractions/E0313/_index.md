@@ -29,11 +29,10 @@ $$
 
 where $m\geq 2$ is an integer and $p_1<\cdots<p_k$ are distinct primes?
 
-**Formulation.** The site's wording, accessed
-(the page carries no last-edited stamp). Clearing denominators shows that
-$1/m=1-\sum1/p_i$ has numerator prime to every $p_i$ over the denominator
-$p_1\cdots p_k$, so $m=p_1\cdots p_k$ (the site's commentary) and a
-solution is the same thing as a squarefree $m>1$ with
+**Formulation.** The site's wording (the page carries no last-edited stamp).
+Clearing denominators shows that $1/m=1-\sum1/p_i$ has numerator prime to every
+$p_i$ over the denominator $p_1\cdots p_k$, so $m=p_1\cdots p_k$ (the site's
+commentary) and a solution is the same thing as a squarefree $m>1$ with
 $1/m+\sum_{p\mid m}1/p=1$, a primary pseudoperfect number; each $m$ gives at
 most one solution. The question is whether there are infinitely many
 primary pseudoperfect numbers. With $k=1$ the equation allows

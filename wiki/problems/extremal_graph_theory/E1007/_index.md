@@ -28,7 +28,7 @@ segment.
 
 What is the smallest number of edges in a graph with dimension $4$?
 
-**Formulation.** The site's wording(the page carries
+**Formulation.** The site's wording (the page carries
 no last-edited date). An embedding places the vertices at
 distinct points of $\mathbb R^n$ with every pair of adjacent vertices at
 Euclidean distance exactly $1$; non-adjacent pairs are unconstrained. This is
@@ -94,7 +94,7 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [ChNo16] Chaffee, Joe and Noble, Matt, Dimension 4 and dimension 5 graphs with
   minimum edge set. Australas. J. Combin. 64 (2016), no. 2, 327--333 (received
   14 January 2015, revised 19 July and 27 October 2015; the journal's volume
-  listing carries the article,). Library home:
+  listing carries the article). Library home:
   [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/_index|chaffee_2016_dimension_4_dimension_5_graphs_minimum]].
   Lemma 3 and Theorem 6, p. 328; Theorem 7, p. 329; Theorems 10 and 11, pp.
   330--331.

@@ -81,7 +81,7 @@ Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed
   that [Er78] reports on p. 40 without a reference. Not identified.
 - [Ch26] Chojecki, P., Monochromatic union-closed and lattice subfamilies of
   the Boolean lattice. Manuscript dated 18 March 2026, nine pages, hosted at
-  https://www.ulam.ai/research/erdos1183.pdf (accessed; 94,159
+  https://www.ulam.ai/research/erdos1183.pdf (94,159
   bytes). No arXiv identifier, journal or review record was found. Recorded on
   its claim page below; not held in the library.
 

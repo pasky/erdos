@@ -343,7 +343,7 @@ page. (3) [CJMS25] p. 4 announces a companion paper with a construction
 from the sum-free process on $\mathbb F_2^d$ that would conjecturally give
 the constant $1/2$ along an infinite sequence of $k$; not found in the
 search below. (4) Semantic Scholar lists 20 records citing [HHKP25] and 24
-citing [CJMS25] (by title,): the 2026 items concern
+citing [CJMS25] (by title): the 2026 items concern
 Erdős--Rogers functions, hypergraph Ramsey numbers, cycle-complete numbers,
 the odd Hadwiger conjecture and Morris's survey; none claims a constant
 above $1/2$ or a matching upper bound.

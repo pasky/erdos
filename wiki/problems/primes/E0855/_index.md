@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-13T13:29:21Z
 ---
 
 # Problem 855
 
 [[problems/primes/_index|..]]
 
-[[problems/primes/E0855/claims/_index|claims/]]: The 1 claim page of Problem 855, one per claimant's result; the problem's standing derives from them.
+[[problems/primes/E0855/claims/_index|claims/]]: The 5 claim pages of Problem 855, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -61,9 +61,58 @@ https://www.erdosproblems.com/855.
 
 ## Current assessment
 
-The standing above derives from the claim page below, and the site's label was
-also OPEN. The notes below are not independently reviewed. This page records no
-current literature search or independent assessment of proof coverage.
+The standing above derives from the claim pages below, and the site's label
+was also OPEN. The notes below are not independently reviewed. Their scope is
+the sources the library holds on the inequality; the page records no
+systematic literature search beyond them, and no independent assessment of
+proof coverage.
+
+The inequality is proved on every region in which the smaller entry $u$ of
+the pair is not too small against the larger entry $v$. Dusart's refereed
+Theorem 1 covers $v\le\frac75u\log u\log\log u$
+([[problems/primes/E0855/claims/2002_01_01_dusart|accepted partial claim]];
+[[../library/primes/dusart_2002_sur_la_conjecture_pi_x_y_pi_x_pi_y/_index|card]]).
+Alkan's refereed Theorem 1 gives the strict inequality for $u,v\ge x_0$ and
+$u\ge Kv/\log v$, a region inside Dusart's for large pairs
+([[problems/primes/E0855/claims/2022_06_03_alkan|accepted partial claim]];
+[[../library/primes/alkan_2022_generalization_hardy_littlewood_conjecture/_index|card]]).
+Axler's preprint claims $u\ge c_0v/\log^2v$ with $c_0=0.7088\ldots$
+([[../library/primes/axler_2019_some_results_conjecture_hardy_littlewood/theorem_1_3|Theorem 1.3]];
+[[problems/primes/E0855/claims/2019_09_27_axler|pending partial claim]]).
+The widest unconditional range is that of Chahal, Elma, Fellini, Vatwani and
+Vo, refereed in Acta Arithmetica: $u\ge3CR(2v)\log^2v/\log\log v$ for large
+$v$, where $CR$ bounds the error in the prime number theorem, so that the
+lower end is $v$ times a factor tending to zero faster than any power of
+$1/\log v$
+([[../library/primes/chahal_et_al_2025_second_hardy_littlewood_conjecture/theorem_1_1|Theorem 1.1]];
+[[problems/primes/E0855/claims/2025_03_04_chahal_elma_fellini_vatwani_vo|accepted partial claim]]).
+Under the Riemann hypothesis their
+[[../library/primes/chahal_et_al_2025_second_hardy_littlewood_conjecture/corollary_1_2|Corollary 1.2]]
+reaches $u\ge(2+\epsilon)\sqrt v\log^2v/(8\pi)$, and Axler's
+[[../library/primes/axler_2019_some_results_conjecture_hardy_littlewood/theorem_1_5|Theorem 1.5]]
+a range of the same order. Every one of these ranges has a lower end that
+grows with $v$, so none covers, for instance, the pairs with
+$u=\lfloor\sqrt v\rfloor$, even under the Riemann hypothesis, and the
+problem stays open. The same papers show that failures have density zero
+among pairs of entries at most $X$ (Dusart's Proposition 4, Alkan's
+Corollary 1,
+[[../library/primes/chahal_et_al_2025_second_hardy_littlewood_conjecture/corollary_1_5|Chahal et al.'s Corollary 1.5]]);
+a density-zero set may still hold infinitely many large pairs, so this
+decides nothing.
+
+Finite checks rule out small counterexamples only. Segal's
+[[../library/primes/segal_1962_x_y_x_y/theorem_i|Theorem I]] (Trans. Amer.
+Math. Soc. 104 (1962)) shows that the inequality for all $x,y\ge2$ is
+equivalent to $p_n\ge p_{n-q}+p_{q+1}-1$ for $n\ge3$ and
+$1\le q\le(n-1)/2$; his
+[[../library/primes/segal_1962_x_y_x_y/theorem_ii|Theorem II]] places the
+least failing sum at the least prime failing that inequality, and his machine
+check gives the inequality whenever $x+y\le101{,}081$.
+[[../library/primes/segal_1962_x_y_x_y/lemma_iv|Lemma IV]] turns a prime in a
+certain window into an explicit violating pair. Axler's
+[[../library/primes/axler_2019_some_results_conjecture_hardy_littlewood/proposition_2_4|Proposition 2.4]]
+extends the check to $x+y\le39\,708\,229\,123$. A finite check says
+nothing about large $x$ and $y$, so these get no claim pages.
 
 Hensley and Richards proved in Acta Arithmetica that the prime $k$-tuples
 conjecture is incompatible with the inequality: under that conjecture, for

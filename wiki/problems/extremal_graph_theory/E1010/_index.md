@@ -24,7 +24,7 @@ updated: 2026-10-08T02:55:41Z
 **Statement.** Let $t<\lfloor n/2\rfloor$. Does every graph on $n$ vertices with
 $\lfloor n^2/4\rfloor+t$ edges contain at least $t\lfloor n/2\rfloor$ triangles?
 
-**Formulation.** The site's wording as accessed (the page
+**Formulation.** The site's wording (the page
 carries no last-edited date). The range $t<\lfloor n/2\rfloor$ is exactly
 Erdős's 1962 conjecture as printed ([Er62d], p. 122: "Further I
 conjectured that for $t<[n/2]$ every $G^{(n)}_{f(n)+t}$ contains at least

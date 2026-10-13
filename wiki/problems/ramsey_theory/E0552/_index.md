@@ -138,16 +138,27 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er94b] Erdős, Paul, Some problems in number theory, combinatorics and
-  combinatorial geometry. Math. Pannon. (1994), 261--269. Not held.
+  combinatorial geometry. Math. Pannon. 5 (1994), no. 2, 261--269. Item 2.5,
+  printed p. 266: for the least minimum degree that forces a $C_4$ in a graph
+  on $n$ vertices (that paper's $f(n)$, not this page's), whether it is
+  nondecreasing for $n>n_0$ and, if not, whether it drops by at most an
+  absolute constant, the questions of Problem 85. Library home:
+  [[../library/distance_problems/erdos_1994_some_problems_number_theory_combinatorics_combinatorial_geometry/_index|erdos_1994_some_problems_number_theory_combinatorics_combinatorial_geometry]].
 - [Er95] Erdős, Paul, Some of my favourite problems in number theory,
-  combinatorics, and geometry. Resenhas 2 (1995), 165--186. Library home:
-  [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]];
-  its passage on this problem was not read.
+  combinatorics, and geometry. Resenhas 2 (1995), 165--186. Item 14 of
+  Part II, p. 13 of the author's typescript, which does not carry the
+  journal pagination: the same two questions, the first without the
+  restriction $n>n_0$, and the same question for other graphs in place of
+  $C_4$. Library home:
+  [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]].
 - [Er96] Erdős, Paul, Some of my favourite problems on cycles and
   colourings. Tatra Mt. Math. Publ. 9 (1996), 7--9. The site's source for
-  the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of the question. Not held;
-  reopening condition, the volume 9 listing of the journal's archive or
-  another lawful copy.
+  the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of the question: item 5, printed
+  p. 8, writes $h(n)$ for the largest minimum degree of a $C_4$-free graph
+  on $n$ vertices, recalls $h(n)=(1+o(1))\sqrt n$ (display (3)) and asks
+  "$h(n)=n^{1/2}+O(1)$?" (display (6)), adding "Very likely (6) is too
+  optimistic." Library home:
+  [[../library/ramsey_theory/erdos_1996_some_my_favourite_problems_cycles_colourings/_index|erdos_1996_some_my_favourite_problems_cycles_colourings]].
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/552.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/552.lean)
@@ -323,26 +334,29 @@ question, or a value below $n+\sqrt n$.
   79--89); a bibliographic query for Boza's title (no journal record).
 - Semantic Scholar citing records: Wu et al. (two, of 2015 and 2021,
   neither on stars); Boza (none).
-- Open archives: the AMS back file for [Pa75]; the Tatra Mountains archive
-  for [Er96] (the volume 9 listing was not reached).
+- Open archives: the AMS back file for [Pa75].
 - The primary sources: [Pa75] pp. 35, 41--42; [BEFRS89] pp. 80, 81, 84;
   [WSZR15] the article's first three pages; [Bo24] pp. 1--4; and, after the
   search, [ZCC17] pp. 73--76 and 78 and [ZCC17b] pp. 655--656 and 659.
 
-Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er94b],
-[Er96], Parsons 1976. [Er93], Baker--Harman--Pintz 2001 and [Ch97] were
-not part of the search and were consulted.
+Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: Parsons
+1976. [Er93], [Er94b], [Er95], [Er96], Baker--Harman--Pintz 2001 and [Ch97]
+were not part of the search and were consulted, the four surveys at the
+passages cited under References.
 
 **Remaining gaps.** (1) [ZCC17] and [ZCC17b] are cited at statement
 depth; their proofs were not read. The $q^2-t$ family of Parsons 1976 is
 known here only from its restatement in [ZCC17] and [ZCC17b] and from the
 site; that paper is not held.
-(2) [Er96], the source of the $n+\sqrt n-O(1)$ form, and [Er94b] are not
-held, and the passage of [Er95] was not read. [Er93], problem 7 (p. 345),
-asks, for the largest minimum degree $f(n)$ of a $C_4$-free graph on $n$
-vertices, whether $f(n+1)\ge f(n)$ and whether "for every $c$ there is an
-$n$ for which $f(n)<\sqrt n-c$", the minimum-degree form of Problem 85 that
-the site's commentary calls equivalent; the survey states no result and
+(2) The four surveys are compiled only at the passages cited. [Er96],
+item 5 (p. 8), the source of the $n+\sqrt n-O(1)$ form, asks whether
+$h(n)=n^{1/2}+O(1)$ and calls this very likely too optimistic; [Er94b],
+item 2.5 (p. 266), and [Er95], item 14, ask Problem 85's monotonicity
+questions; none of the three proves anything there. [Er93], problem 7
+(p. 345), asks, for the largest minimum degree $f(n)$ of a $C_4$-free graph
+on $n$ vertices, whether $f(n+1)\ge f(n)$ and whether "for every $c$ there
+is an $n$ for which $f(n)<\sqrt n-c$", the minimum-degree form of Problem 85
+that the site's commentary calls equivalent; the survey states no result and
 offers no prize there. (3) Proof coverage is at statement
 level: claims checked for Parsons's Theorems 1--2, Burr et al.'s Theorem 1,
 Lemma 1.3 and Theorem 2, Wu et al.'s Theorem 3, Boza's Theorem 10 and Zhang,

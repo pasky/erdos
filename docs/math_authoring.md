@@ -39,7 +39,9 @@ before exploring an idea. Shared provisional work and editable arguments follow
 - **Claim frontmatter.** Wiki fields (name, desc, tags, sources, created,
   updated) PLUS the anatomy fields (id, statement, status, tier, lean,
   depends_on, and the optional standing) coexist in one block; `wiki update`
-  preserves the anatomy fields and maintains `updated:`.
+  preserves the anatomy fields and owns `created:` and `updated:`. It re-stamps
+  `updated:` only when it writes the file itself, so a body edit alone leaves
+  the stamp unchanged; never hand-edit either stamp.
 - **Generated stubs.** `wiki update --path wiki` creates `_index.md` stubs for
   new directories (e.g. `evidence/`) with `desc: ...` placeholders and generates
   the link blocks in every `_index.md`. Fill the stub descs yourself -- lint

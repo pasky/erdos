@@ -2,8 +2,9 @@
 name: extremal_graph_theory/adamczewski_2026_erdos548/evidence
 title: Evidence for the two-tree bound and star sharpness
 desc: |
-  Holds exact reviewed subjects and the independent review, distinct grade
-  and source-reading record for the two-tree and two-color star unit.
+  Holds the independent review, distinct grade and source-reading record for
+  the two-tree and two-color star unit; the exact reviewed subjects are not
+  held.
 created: 2026-09-10T19:09:26Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -19,7 +20,10 @@ two-page subject, reading limits and explicitly recorded corrections.
 
 The [verification records](verify/_index.md) concern the two-tree Ramsey
 upper bound and its two-colour star-sharpness companion as one unit.
-Opaque assets retain the exact reviewed subjects. The whole-unit review
+Copies of the two pages as reviewed
+(`assets/reviewed_v1_two_tree_corollary.md.txt` and
+`assets/reviewed_v1_star_sharpness.md.txt`), which the records cite as their
+exact subjects, are not held in the repository. The whole-unit review
 and distinct grade are relative to Theorem 1 at its recorded standing;
 the source proof chain and PDF were not rechecked, and their earlier
 six-page review does not transfer to this unit. That earlier review of the

@@ -33,7 +33,7 @@ $$
 
 where $\log_*n$ is the iterated logarithmic function?
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 27 December 2025). A graph on $n$ vertices with a cycle of
 every length from $3$ to $n$ is pancyclic; writing $m(n)$ for the least
 number of edges of a pancyclic graph on $n$ vertices, as Griffin does,

@@ -30,7 +30,7 @@ $\tau(G)=o_c(n)$?
 Similarly, estimate for $c>0$ the minimal $k_c(n)$ such that if every maximal
 clique in $G$ has at least $k_c(n)$ vertices then $\tau(G)<(1-c)n$.
 
-**Formulation.** The site's wording as accessed (no last-edited
+**Formulation.** The site's wording (no last-edited
 date shown). A maximal clique is what the 1992 paper
 calls a clique, "a complete subgraph maximal under inclusion and having at
 least two vertices" (p. 279); under the hypotheses here every maximal clique
@@ -107,10 +107,10 @@ Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
   3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94`, gives "(1994),
+  text at `/bibs/Er94` gives "(1994),
   217-227. (MR 1319165)"; the volume and publisher from the graphs problem
   collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (the archive's index, lists no paper
+  archive's cutoff (the archive's index lists no paper
   after 1989), with no open copy identified. The graphs problem collection's
   page "SublinearCliqueTransversal" gives it as the source of
   the first question.
@@ -151,7 +151,7 @@ Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
 **Formalization.** None. The formal-conjectures repository has no file
 `ErdosProblems/611.lean` (main, 2026-09-19); the site's page records no
 formalized statement; the community database (teorth/erdosproblems,
-`data/problems.yaml`,) records the problem open (last update 31 August 2025),
+`data/problems.yaml`) records the problem open (last update 31 August 2025),
 unformalized, with no formalized statement and no OEIS entry.
 
 ## Current assessment

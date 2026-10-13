@@ -61,7 +61,7 @@ vertices and its proper subgraphs are the subgraphs of its one-edge-deleted
 graphs). No result about the site's wording is published. The problem's standing
 judges the corrected Statement.
 
-**Formulation.** The site's wording as accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $R(G,H)$ is the least $N$ such that every red-blue coloring
 of the edges of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$" means
 $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$ ([EFRS93], Definition 1,
@@ -105,7 +105,7 @@ Bloom, Erdős Problem #79, https://www.erdosproblems.com/79, accessed
 - [Wi24] Wigderson, Y., Infinitely many minimally non-Ramsey size-linear
   graphs. arXiv:2409.05931v2 (5 May 2025, the version cited; v1
   9 September 2024); European J. Combin. 128 (2025), 104175,
-  doi:10.1016/j.ejc.2025.104175 (Crossref record accessed).
+  doi:10.1016/j.ejc.2025.104175 (Crossref record).
   Theorem 1 and Lemmas 2--3, p. 1; Lemma 4, the proof, the remark and Open
   problem 5, p. 2. Library home:
   [[../library/ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/_index|wigderson_2024_infinitely_many_minimally_non_ramsey_size]].
@@ -136,7 +136,7 @@ built here.
 
 ## Current assessment
 
-**The question (site formulation accessed).** The statement
+**The question (site formulation).** The statement
 above; status PROVED; no last-edited date. The commentary attributes the
 question to Erdős, Faudree, Rousseau and Schelp [EFRS93], names $K_4$ as
 the only known example, and credits Wigderson [Wi24] with the proof that

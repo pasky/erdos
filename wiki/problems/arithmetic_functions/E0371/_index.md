@@ -117,9 +117,39 @@ and the hypothesis.
 
 The site's commentary records, besides the results above, Erdős's further
 question [Er79e] whether for every $\alpha$ the set of $n$ with
-$P(n+1)>P(n)n^{\alpha}$ has a density, and Teräväinen's logarithmic-density
-answer to it with the value given by an explicit double integral against the
-Dickman function. The nontrivial neighbors are
+$P(n+1)>P(n)n^{\alpha}$ has a density. For $0\le\alpha\le1$ Teräväinen proved
+that its logarithmic density exists and equals
+
+$$
+\iint_{[0,1]^2}\mathbf 1_{y\ge x+\alpha}\,u(x)u(y)\,dx\,dy,
+\qquad u(x)=x^{-1}\rho(x^{-1}-1),
+$$
+
+with $\rho$ the Dickman function
+([[../library/arithmetic_functions/teravainen_2018_binary_correlations_multiplicative_functions/theorem_1_17|Teräväinen 2018, Theorem 1.17]]),
+and Wang [Wa21] proved the natural density with the same value under the
+Elliott–Halberstam conjecture for friable integers, the third conjecture on
+[[problems/arithmetic_functions/E0371/claims/2021_01_20_wang|Wang's page]].
+
+The accepted joint Dickman law answers this question without hypothesis, by a
+corollary drawn here rather than in the manuscript. Theorem 1.1, accepted as
+formalized on
+[[problems/arithmetic_functions/E0928/claims/2026_09_24_openai|Problem 928's claim page]],
+gives the joint law of $U_n=\log P(n)/\log n$ and $V_n=\log P(n+1)/\log n$.
+The manuscript's proof of Corollary 1.2 (its Section 11.4, recorded on the
+library's
+[[../library/arithmetic_functions/openai_2026_joint_dickman_law_consecutive_integers/corollary_1_2|Corollary 1.2]]
+page) turns that law into weak convergence of the empirical law of
+$(U_n,V_n)$, $2\le n\le X$, to the product of two copies of the continuous
+law with distribution function $\rho(1/t)$, whose density is $u$. The
+condition $P(n+1)>P(n)n^{\alpha}$ is exactly $V_n>U_n+\alpha$, the region
+$y>x+\alpha$ in the coordinates of the integral. Its boundary, the line
+$y=x+\alpha$, has zero product mass because the marginal law has no atoms. So
+weak convergence passes to the region: for every real $\alpha$ the natural
+density exists and equals the integral above. This step from Theorem 1.1 is not
+formalized and has not been independently reviewed.
+
+The nontrivial neighbors are
 [[problems/arithmetic_functions/E0372/_index|Problem 372]] (three consecutive
 largest prime factors in decreasing order) and
 [[problems/arithmetic_functions/E0928/_index|Problem 928]] (the joint

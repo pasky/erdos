@@ -78,7 +78,7 @@ https://www.erdosproblems.com/451, accessed 2026-09-18.
   [[../library/integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/theorem_1_1|Theorem 1.1]].
 - [Er79d] Erdős, P., Some unconventional problems in number theory. Acta
   Math. Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI
-  10.1007/BF01903382 (Crossref record accessed); Section 3,
+  10.1007/BF01903382 (Crossref record); Section 3,
   printed p. 78. Library home:
   [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in

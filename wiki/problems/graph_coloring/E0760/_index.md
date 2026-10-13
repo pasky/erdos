@@ -52,7 +52,7 @@ variants, is linked from the claim page; the corpus did not build it.
 
 ## Current assessment
 
-The site's formulation (accessed; its wording "independent set" for
+The site's formulation (its wording "independent set" for
 a color class replaced "empty graph" on 2026-04-24, with no change of meaning)
 asks whether every graph with chromatic number $m$ has a subgraph $H$ with
 $\zeta(H)\gg m/\log m$. The answer is yes:

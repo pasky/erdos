@@ -78,9 +78,12 @@ Montgomery's
 28 July 2026, presents this exact minimum-degree question as Question 5.1,
 separately from the high-average-degree result. Guillem Duran Ballester's
 [Zenodo working-paper record](https://zenodo.org/records/22019344), published
-20 August 2026 as version 1, announces a structural proof of the conjecture.
-Only its record was inspected; neither its proof nor independent acceptance
-was established by this search.
+20 August 2026 as version 1, announced a structural proof of the conjecture.
+The author's repository manuscript of 1 October 2026 retitles the work a
+reduction that leaves six outcomes open, so the claim is recorded as withdrawn
+([[problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester|claim page]]).
+This search inspected only the Zenodo record; it established neither a proof
+nor independent acceptance.
 
 Daniel Garcia's
 [arXiv:2609.04686v1](https://arxiv.org/abs/2609.04686v1), submitted

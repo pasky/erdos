@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 f(k)$ vertices with at least $\binom{n-k-1}{2}+\binom{k+2}{2}+1$ edges contains
 a cycle on $n-k$ vertices. Determine or estimate $f(k)$.
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 28 December 2025). $f(k)$ is a threshold: any $f(k)$ for
 which the implication holds for all $n\ge f(k)$, and "determine or estimate"
 asks how small it can be taken. The edge count is one more than the number of

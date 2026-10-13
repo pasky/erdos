@@ -186,7 +186,7 @@ some declaration names follow the paper's equation numbers, which the lemma
 names bear out. The file is a formalization link on the
 [[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov claim page]];
 no build, audit or kernel check of it is recorded, so it gives no `formalized`
-evidence. The community database (`data/problems.yaml`,)
+evidence. The community database (`data/problems.yaml`)
 lists `status` "proved (Lean)" as of its last update on 18 April 2026,
 `formal_status` Lean with no URL, the statement formalized since 26 June 2026
 and no formal-proof field; the site's indicator reads "Formalised statement?

@@ -121,7 +121,7 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   [[../library/integer_sequences/chen_2007_sequences_bounded_l_c_m_each/_index|chen_2007_sequences_bounded_l_c_m_each]].
 - [Ch72b] Choi, S. L. G., The largest subset in $[1,n]$ whose integers have
   pairwise l.c.m. not exceeding $n$. Mathematika 19 (1972), no. 2,
-  221--230, DOI 10.1112/S0025579300005684 (Crossref record accessed). The Theorem, printed p. 221:
+  221--230, DOI 10.1112/S0025579300005684 (Crossref record). The Theorem, printed p. 221:
   $g(n)<(1+\lambda-\lambda^*)n^{1/2}+o(n^{1/2})$ with $\lambda$, $\lambda^*$
   two explicit series and the paper's numerical values
   $0.6368<\lambda-\lambda^*<0.6380$, the source of the bound $1.638\sqrt n$
@@ -250,9 +250,9 @@ the construction.
 $-2\le R(x)\le45\sqrt{x/\log x}\,\log\log x$, the constant $45$ improvable;
 they conjecture $R(x)\to\infty$. Every set counted by $g(N)$ is a set
 counted by $|A_N|$ and conversely ($A_N\subseteq[1,N]$ automatically), so
-$g(N)=|A_N|$. Acceptance: Acta Arithmetica is refereed (Crossref records
-accessed). Read depth: claims checked for both theorems; the
-proofs (sieve arguments) were not read beyond the first lemma of each paper.
+$g(N)=|A_N|$. Acceptance: Acta Arithmetica is refereed (Crossref records). Read
+depth: claims checked for both theorems; the proofs (sieve arguments) were not
+read beyond the first lemma of each paper.
 
 **The second question: the construction is not optimal.**
 [[../library/integer_sequences/chen_2007_sequences_bounded_l_c_m_each/theorem_1|Chen and Dai's Theorem 1]]

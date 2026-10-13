@@ -37,7 +37,7 @@ $$
 
 for all non-empty $A'\subsetneq A$?
 
-**Formulation.** The site's wording as accessed (the page shows
+**Formulation.** The site's wording (the page shows
 no last-edited stamp). Write $c(N)$ for the largest size
 of a set $A\subseteq\{1,\ldots,N\}$ carrying signs $\delta$ whose signed
 reciprocals sum to zero while no nonempty proper subset of $A$, with the
@@ -115,7 +115,7 @@ a `formal_proof` attribute. The community database, records a formalized stateme
 
 ## Current assessment
 
-**The question (site formulation accessed).** The statement
+**The question (site formulation).** The statement
 above; status OPEN; source key [ErGr80]. In its commentary the site
 attributes to Adenwalla the bound $|A|\ge(1-\frac1e+o(1))N$, deduced from
 Croot's main result [Cr01]: Croot's theorem yields integers near the top of
@@ -125,7 +125,7 @@ integer $1$ as $+1$ gives a signed zero-sum set (written out under Known
 results). The commentary also notes that the formal-conjectures project has
 a Lean statement of the problem. The thread is empty; the proof-claim tab
 lists one claim (below). The community database (teorth/erdosproblems,
-`data/problems.yaml`,) records open since 31 August 2025,
+`data/problems.yaml`) records open since 31 August 2025,
 statement formalized, OEIS "possible", no formal proof.
 
 **Origin.** Printed p. 43 of the 1980 monograph (PDF p. 39 of the public

@@ -83,7 +83,10 @@ $\kappa$ that is not weakly compact with chromatic number $\kappa$ and all
 smaller subgraphs countably chromatic, which at $\kappa=\aleph_2$ answers
 the first question. Lambie-Hanson and Rinot list these results in Section 2.1
 of their paper on reflection of the coloring and chromatic numbers
-(Combinatorica 39 (2019), 165--214).
+(Combinatorica 39 (2019), 165--214). A positive answer to the first question
+of [[problems/graph_coloring/E0919/_index|Problem 919]] would be a positive
+answer to this one, so Foreman and Laver's model also makes that question not
+provable; Problem 919's page records the step.
 
 **Second question.**
 [[problems/graph_coloring/E0918/claims/2014_08_05_rinot|Rinot 2015]] gives a

@@ -45,3 +45,13 @@ Not yet compiled.
 ## Known Results
 
 Not yet compiled.
+<!-- BEGIN problem library links -->
+
+## Linked library material
+
+These entries are derived from explicit links on library pages. They are
+navigation only and do not by themselves record mathematical progress.
+
+- [[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|lau_2026_number_prime_factors_consecutive_integers]]
+
+<!-- END problem library links -->

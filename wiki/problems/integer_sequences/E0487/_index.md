@@ -84,7 +84,7 @@ https://www.erdosproblems.com/487, accessed 2026-09-18.
 - [Kl71] Kleitman, D., Collections of subsets containing no two sets and
   their union. Combinatorics (Proc. Sympos. Pure Math., Vol. XIX, Univ.
   California, Los Angeles, 1968), Amer. Math. Soc. (1971), 153--155, DOI
-  10.1090/pspum/019/0317947 (Crossref record accessed). Not held:
+  10.1090/pspum/019/0317947 (Crossref record). Not held:
   the volume is sold by the publisher and no open copy was found; no request
   was made. Quoted second-hand from the site's Problem 447 page.
 - [Er65b] Erdős, Paul, Some recent advances and current problems in number

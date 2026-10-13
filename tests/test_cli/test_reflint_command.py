@@ -5,6 +5,9 @@ from __future__ import annotations
 import pathlib
 
 import pytest
+import typer
+
+from tools.cli.cmd.tools import reflint
 
 from .._helpers import run_git, write_page
 from .conftest import run_erdos
@@ -12,6 +15,7 @@ from .conftest import run_erdos
 __all__ = [
     'test_reflint_reports_findings_with_exit_codes',
     'test_reflint_reports_unusable_roots_as_command_errors',
+    'test_reflint_summary_names_every_check',
 ]
 
 
@@ -75,3 +79,13 @@ def test_reflint_reports_unusable_roots_as_command_errors(
     assert result.stdout == ''
     assert message in result.stderr
     assert 'Traceback' not in result.stderr
+
+
+@pytest.mark.parametrize(
+    argnames='check',
+    argvalues=['retired names', 'inline links', 'cited standings'],
+)
+def test_reflint_summary_names_every_check(check: str) -> None:
+    """Test that the command's one-line summary names each check the lint runs."""
+    command = typer.main.get_command(reflint(typer.Typer()))
+    assert check in command.get_short_help_str(limit=200)

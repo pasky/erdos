@@ -27,7 +27,7 @@ updated: 2026-10-08T02:16:54Z
 on $n$ vertices with no $K_{2,2,2}$ and at least $\delta n^2$ edges then $G$
 contains an independent set of size $\gg_\delta n$.
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $K_{2,2,2}$ is the complete tripartite graph with three
 classes of two vertices, the octahedron graph (the 1983
 source calls it "the two by two Turán graph"). The statement claims: for
@@ -123,7 +123,7 @@ no source either way, and the site-certified record is the first.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/e4934265-aa96-4bf5-a3c0-d01153dfcfaa/solution
-and its download link, accessed (810,011 bytes, 18,336 lines).
+and its download link (810,011 bytes, 18,336 lines).
 
 **Source.** [erdosproblems.com/579](https://www.erdosproblems.com/579),
 accessed 2026-09-18 and 2026-10-06, on both

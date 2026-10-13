@@ -78,7 +78,10 @@ problem's request for z(n) at small n or its question whether z(12) = 4.
 [[../wiki/problems/graph_coloring/E0759/_index|#759]]: the genus theorem
 bounds the problem's z(S_n) between constant multiples of sqrt(n)/ln n and
 sqrt(n), determining its growth rate up to a factor of order ln n and leaving
-open which bound has the right order.
+open which bound has the right order. Theorem 3.4 of
+[[graph_coloring/gimbel_1997_coloring_graphs_fixed_genus_girth/theorem_3_4|Gimbel and Thomassen 1997]]
+settles this: z(S_n) is of order sqrt(n)/log n, so the lower bound here has
+the right order.
 
 **Results.**
 [[graph_coloring/gimbel_1986_three_extremal_problems_cochromatic_theory/theorem_p73_order|Theorem]] (p. 73, unnumbered): the order of Z(n);

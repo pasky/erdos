@@ -102,7 +102,7 @@ thanks Quanyu Tang and Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
   authors' paper Generalizing a conjecture of Erdős and Graham via best
   Egyptian underapproximations, Acta Math. Hungar. 177 (2025), no. 1,
   41--63, DOI 10.1007/s10474-025-01566-8, online 13 October 2025 (Crossref
-  record accessed). That paper is not held; its published abstract
+  record). That paper is not held; its published abstract
   says that the conjecture was resolved constructively by Kamio and
   independently by the authors and that the paper proves a generalization
   assuming the eventually-greedy claim (Theorem 1.6 there, Theorem 1.9 of

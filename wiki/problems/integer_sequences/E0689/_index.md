@@ -102,7 +102,7 @@ Erdős Problem #689, https://www.erdosproblems.com/689, accessed 2026-09-18.
   which carries its row for this problem).
 - [Ch26] Chojecki, P., A greedy matching proof of Erdős's two-fold
   residue-class problem. Working manuscript dated 27 April 2026, 10 pp.,
-  hosted at ulam.ai (accessed; 271,900 bytes). An unrefereed
+  hosted at ulam.ai (271,900 bytes). An unrefereed
   claim, pending on
   [[problems/integer_sequences/E0689/claims/2026_04_30_chojecki|its claim page]];
   not filed.

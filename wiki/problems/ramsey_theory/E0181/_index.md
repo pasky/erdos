@@ -29,7 +29,7 @@ $$
 R(Q_n) \ll 2^n.
 $$
 
-**Formulation.** The site's wording, accessed (the page shows no last-edited
+**Formulation.** The site's wording (the page shows no last-edited
 date). $R(Q_n)$ is the least $N$ such that every red-blue coloring of the edges
 of $K_N$ contains a monochromatic copy of $Q_n$, and "$R(Q_n)\ll2^n$" means
 $R(Q_n)\le C\,2^n$ for an absolute constant $C$; in the words of the 1975

@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1088, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T13:29:21Z
 ---
 
 # problems/discrete_geometry/E1088/claims
@@ -27,5 +27,9 @@ Erdős–Turán bound, this fixes the order $n^2$ of the one-dimensional case.
 $(d+1)(d+2)/2$ points, so $f_d(3)\le(d+1)(d+2)/2+1$, which is polynomial in
 $d$, and the question has answer yes for $n=3$. The source is a CWI Tract, not
 a journal publication.
+
+[[problems/discrete_geometry/E1088/claims/2009_11_24_ionin|2009_11_24_ionin]]: Ionin determines the largest isosceles sets in $\mathbb{R}^d$ for $d\le8$,
+with 3, 6, 8, 11, 17, 28, 30 and 45 points, so $f_d(3)$ is 4, 7, 9, 12, 18,
+29, 31 and 46 for $d=1,\dots,8$.
 
 ***

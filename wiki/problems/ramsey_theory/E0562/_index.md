@@ -136,7 +136,7 @@ log^[r - 1] (hypergraphRamsey r n)) =Θ[atTop] (fun n ↦ (n : ℝ))` under `cat
 research open`, with proof `sorry`: the $(r-1)$-fold iterated natural logarithm
 of `hypergraphRamsey r n` is required to be $\Theta(n)$, which matches the
 site's $\asymp_r$ with constants depending on $r$. The community database
-(teorth/erdosproblems,) records the statement as formalized since 30 December
+(teorth/erdosproblems) records the statement as formalized since 30 December
 2025 and no formal proof. Nothing was built or checked here.
 
 ## Current assessment

@@ -24,7 +24,7 @@ updated: 2026-10-08T14:06:00Z
 edges can be partitioned into at most $f(n,k)$ edge-disjoint complete graphs.
 Estimate $f(n,k)$ for $k>n^2/4$.
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 28 December 2025). $f(n,k)$ is the least number such that
 the edge set of every graph with $n$ vertices and $k$ edges is the union of
 at most $f(n,k)$ pairwise edge-disjoint complete subgraphs (the site's

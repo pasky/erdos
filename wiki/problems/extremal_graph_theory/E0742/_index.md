@@ -25,7 +25,7 @@ updated: 2026-10-08T18:27:22Z
 deleting any edge increases the diameter of $G$. Is it true that $G$ has at most
 $n^2/4$ edges?
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). Such a graph is a minimal graph of diameter $2$ (Füredi's
 term) or a diameter-$2$-critical graph; since the number of edges is an
 integer, "at most $n^2/4$" is "at most $\lfloor n^2/4\rfloor$", the bound

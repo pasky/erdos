@@ -52,7 +52,7 @@ this page records the second refereed proof.
 
 **Acceptance.** Refereed: J. E. Baumgartner, A short proof of Hindman's theorem,
 J. Combin. Theory Ser. A 17 (1974), no. 3, 384--386, published November 1974
-(Crossref record accessed). The record gives no day, so the day in the page name
+(Crossref record). The record gives no day, so the day in the page name
 is a placeholder for November 1974. Erdős's surveys of 1975, 1977 and 1980 name
 the note as the simplification of Hindman's proof. The site labeled the problem
 PROVED (LEAN) and credits Hindman.

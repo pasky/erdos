@@ -32,7 +32,7 @@ $$
 \lim_{l\to \infty}\frac{R(k,l+1)}{R(k,l)}=1.
 $$
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 24 April 2026). $R(k,l)$ is the off-diagonal Ramsey number
 in the graph form the statement gives; $R(k,l)=R(l,k)$ by complementation,
 and the source writes $R(k,\ell)$ with the same meaning. For fixed $k\ge2$

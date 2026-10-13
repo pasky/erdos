@@ -67,9 +67,9 @@ smoothed caps (p. 24).
 ## Read depth
 
 Claims checked: Definition 1.3, Theorem 1.5 and its proof on pp. 23--24 were
-read clause by clause on the page images of the print. The upper estimate
-on p. 24 is displayed for $0<s<d$ and for $s=0$ with $d>2$. For $d=2$ and
-$d-2\le s<d$, including $s=0$, Corollary 3.7 rests on Theorem 3.4
+read clause by clause on the page images of arXiv:1907.04814v1. The upper
+estimate on p. 24 is displayed for $0<s<d$ and for $s=0$ with $d>2$. For $d=2$
+and $d-2\le s<d$, including $s=0$, Corollary 3.7 rests on Theorem 3.4
 (p. 19, stated for $d>2$ and $0<s<d$) through Remark 3.6 (p. 20), which
 says the extension to $d\ge2$ and $0\le s<d$ is not hard and omits the
 details. Nothing here is independently reviewed.

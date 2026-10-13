@@ -64,8 +64,9 @@ https://www.erdosproblems.com/1143.
   Hungar. 30 (1995), 123--125. Not cited by the site. Library home:
   [[../library/primes/ruzsa_1995_few_multiples_many_primes/_index|ruzsa_1995_few_multiples_many_primes]].
 - [GrRu17] Green, B. and Ruzsa, I. Z., On the arithmetic Kakeya conjecture
-  of Katz and Tao. arXiv:1712.02108 (2017); Proposition 4.1. Not cited by the
-  site. Library home:
+  of Katz and Tao. Period. Math. Hungar. 78 (2019), no. 2, 135--151,
+  doi:10.1007/s10998-018-0270-z; arXiv:1712.02108 (2017), whose labels and
+  pages are cited; Proposition 4.1. Not cited by the site. Library home:
   [[../library/primes/green_2017_arithmetic_kakeya_conjecture_katz_tao/_index|green_2017_arithmetic_kakeya_conjecture_katz_tao]].
 
 **Formalization.** None recorded. The community database recorded no

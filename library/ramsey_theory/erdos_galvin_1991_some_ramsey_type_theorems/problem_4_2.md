@@ -5,7 +5,8 @@ desc: |
   Erdős and Galvin's question whether for some k a function φ bounds, infinitely
   often, a sequence whose finite sums miss one of k + 1 classes in every
   partition of N: Problem 948 (first asked by Erdős in 1977), negative for
-  k = 1 by Theorem 4.1 and left open from k = 2.
+  k = 1 by Theorem 4.1 and left open by the paper for k >= 2; answered
+  negatively for every k in 2026.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---

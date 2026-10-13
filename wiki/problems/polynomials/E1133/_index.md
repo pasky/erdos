@@ -73,7 +73,11 @@ https://www.erdosproblems.com/1133.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1133.lean);
 the file states the problem and a weaker variant without proofs and names no
-formal proof. The community database at teorth/erdosproblems lists the statement
+formal proof. Its
+[commit of 8 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/121d72ce6ac513360240a84cd49af59684e3f6fc/FormalConjectures/ErdosProblems/1133.lean)
+relabels the statement research solved with `answer(True)`, citing Yang's
+arXiv preprint, a catalog label change and not acceptance (Current
+assessment). The community database at teorth/erdosproblems lists the statement
 as formalized since 2026-06-08 and the problem as unformalized otherwise.
 
 ## Current assessment
@@ -101,9 +105,10 @@ substitution $x=\cos\theta$; it gives no rate for $\epsilon$ in $C$, and a
 same-day reply reporting a tool-assisted check is not a review.
 [[problems/polynomials/E1133/claims/2026_09_13_yang|Yang 2026]]: a
 manuscript submitted to the proof-claims tab on 2026-09-13, using GPT-6 as
-the tab discloses, which claims the obstruction for sign data at any
-pointwise tolerance $\rho$ with $\epsilon$ of exponential order in
-$C/(1-\rho)$, shows that order optimal through interpolation at
+the tab discloses, and posted the same day as arXiv:2609.14769, which claims
+the obstruction for sign data at any pointwise tolerance $\rho$ with
+$\epsilon$ of exponential order in $C/(1-\rho)$, shows that order optimal
+through interpolation at
 Chebyshev–Lobatto nodes, and identifies the sharp coefficient $\pi/2$ on the
 full Chebyshev–Lobatto grids, the sharp coefficient for arbitrary nodes
 being left open; it credits the earlier note for the angular reduction and
@@ -112,7 +117,11 @@ derived standing is `claimed` with the claim value `proved`. Neither proof
 is compiled or reviewed in this wiki.
 
 **Formalization.** The formal-conjectures file linked above states the problem
-and a weaker variant without proofs and names no formal proof; no Lean
+and a weaker variant without proofs and names no formal proof. The catalog's
+commit of 8 October 2026 changes the statement's category from research open
+to research solved and its answer from `sorry` to `True`, citing Theorem 2.1
+of Yang's arXiv preprint; this is a catalog label change, not a formal proof,
+a review or an acceptance, and Yang's claim stays `claimed`. No Lean
 development of either claim is known.
 
 **Search scope (2026-10-07).** The site's problem page, its thread with the
