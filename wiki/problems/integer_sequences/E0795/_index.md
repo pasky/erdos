@@ -50,7 +50,7 @@ the same sum as (15).
 **Status.** Proved. Raghavan's Theorem 1.3 (Acta Math. Hungar. 177 (2025), no.
 2, 363--377; refereed; arXiv:2501.02695) gives
 $g(n)=\pi(n)+\pi(n^{1/2})+O(n^{5/12})$. Its error term is smaller than the
-$o(n^{1/2}/\log n)$ asked for, so the answer is yes. His Theorem 1.4 gives
+$o(n^{1/2}/\log n)$ asked for, so the answer is yes. Theorem 1.4 gives
 $g(n)\ge\pi(n)+\pi(n^{1/2})+\tfrac13\pi(n^{1/3})-O(1)$, which disproves Erdős's
 1980 expansion. The copy read is arXiv v2, of which no file is held. The journal
 text was not compared. Claim page:

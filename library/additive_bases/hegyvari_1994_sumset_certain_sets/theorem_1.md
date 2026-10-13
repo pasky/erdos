@@ -30,7 +30,7 @@ progression.
 $(\alpha,\beta)$ for which $A_{\alpha\beta}$ is not subcomplete."
 
 It sharpens Theorem A, recalled on p. 116 from the author's earlier paper
-(his reference [3], Acta Math. Hungar. 53, 149--154): there are continuum
+(reference [3], Acta Math. Hungar. 53, 149--154): there are continuum
 many pairs $(\alpha,\beta)$ for which $A_{\alpha\beta}$ is not complete.
 
 **The pairs built** (pp. 117--118). Every pair in the proof has

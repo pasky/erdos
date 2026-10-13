@@ -68,4 +68,4 @@ paper
 ([[../library/diophantine_problems/bennett_2012_squares_blocks_consecutive_integers_problem_erdos/_index|card]])
 builds on the method. It is the second author's own later work, so it is not
 independent review. Ulas's earlier disproof is on
-[[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|his own claim page]].
+[[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|its own claim page]].

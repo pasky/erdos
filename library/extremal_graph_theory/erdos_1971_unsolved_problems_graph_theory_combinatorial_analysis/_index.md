@@ -361,7 +361,7 @@ paged, with the paper's wording, at
 [[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: the site's key Er71: item
 10, printed p. 101 = PDF p. 5 (page image), Bondy's $h(n)$, the least
 integer for which some $G(n;n+h(n))$ contains a $C_k$ for every
-$3\leqslant k\leqslant n$, his unpublished (2)
+$3\leqslant k\leqslant n$, the unpublished (2)
 $\log n/\log2<h(n)<\log n/\log2+L(n)$ (strict on both sides), the remark
 that the upper bound in (2) is close to the truth while Erdős writes he
 could not prove even $h(n)-\log n/\log2\to\infty$ [12], and the note that Bondy's
@@ -377,7 +377,7 @@ when $k>\tfrac14n^2$, and Lovász's bound: with $e=\binom n2-k$ and $t$ the
 largest integer such that $t^2-t\leqslant e$, every $G(n;k)$ is covered by
 $e+t$ complete subgraphs, a count that cannot be lowered when $e=t^2$ or
 $e=t^2-t$; Lovász's subgraphs may share edges, the bound fails if they may
-not (his own remark), and for edge-disjoint pieces no substantial
+not (Lovász's own remark), and for edge-disjoint pieces no substantial
 improvement of the $[\tfrac14n^2]$ theorem was known in 1971; the passage
 opens the paged
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]].

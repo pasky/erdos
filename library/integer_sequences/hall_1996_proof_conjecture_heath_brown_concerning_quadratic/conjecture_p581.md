@@ -2,8 +2,8 @@
 name: integer_sequences/hall_1996_proof_conjecture_heath_brown_concerning_quadratic/conjecture_p581
 title: "Heath-Brown's conjecture (p. 581): an absolute positive proportion of the integers up to n are quadratic residues mod p"
 desc: |
-  Heath-Brown's conjecture, which Hall proves as a corollary of his Theorem:
-  there is an absolute delta > 0 such that for every prime p and every
+  Heath-Brown's conjecture, which Hall proves as a corollary of the paper's
+  Theorem: there is an absolute delta > 0 such that for every prime p and every
   positive integer n, at least a proportion delta of the integers up to n
   are quadratic residues mod p; the paper states delta >= (1+c)/2.
 created: 2026-10-08T18:06:47Z

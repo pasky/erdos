@@ -53,7 +53,7 @@ https://www.erdosproblems.com/696.
 **Formalization.** No formal-conjectures statement file exists for the
 problem. Three Lean developments of Turturean's asymptotics, none built or
 audited here, are linked at pinned revisions from
-[[problems/divisors/E0696/claims/2026_04_26_turturean|his claim page]].
+[[problems/divisors/E0696/claims/2026_04_26_turturean|the claim page]].
 
 ## Current assessment
 

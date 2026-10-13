@@ -311,11 +311,11 @@ carries the same abstract. Acceptance evidence: none. No journal record,
 no site adoption (label OPEN on 2026-10-07), no independent review. The
 claim's thread carries four comments: on 5 September 2026 the author of
 [Ko26] thanked the claimant; on 6 September a commenter wrote that the
-argument looks correct to him and later edited the comment to add that it
+argument looks correct and later edited the comment to add that it
 is not a full solution, since Erdős asked for an estimate and, as the
 site's curator had noted under Problem 1, the construction will not close
 the gap, an informal reading and not a review; on 6 September the claimant
-replied that he regards the displayed question as the main one, and a
+replied that they regard the displayed question as the main one, and a
 moderator's note inside that comment calls the full-or-partial question
 debatable and records the relabeling of the claim from full to partial; on
 7 September the claimant announced the Lean verification in the second

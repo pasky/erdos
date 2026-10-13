@@ -61,7 +61,7 @@ $\mu(X,\Delta_2)=\mu(L_1\cup L_2,\Delta_2)$; Vesztergombi's bound $3n/2$ on
 the multiplicity of the second largest distance gives the first term. For
 the other two, the graph of $\Delta_2$-pairs is pruned of vertices of degree
 below $2$, and the remaining graph is bounded using Vesztergombi's
-structural propositions on the two largest distances and his bound $4n/3$
+structural propositions on the two largest distances and the bound $4n/3$
 for points in convex position.
 
 ## Dependencies and read depth

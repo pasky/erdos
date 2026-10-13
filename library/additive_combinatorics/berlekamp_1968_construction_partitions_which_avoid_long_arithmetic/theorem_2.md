@@ -86,7 +86,7 @@ of the same paper and its proof, and Fermat's little theorem.
 - [[../wiki/problems/ramsey_theory/E0187/_index|Problem 187]]: context only.
   Beck's 1980 paper cites this paper, with unpublished work of Erdős and
   Lovász, for the bound on the longest monochromatic progression guaranteed
-  in every two-colouring of $\{1,\ldots,n\}$ against which his remark on the
-  optimality of his estimate is made. The theorem concerns progressions of
+  in every two-colouring of $\{1,\ldots,n\}$ against which the remark on the
+  optimality of Beck's estimate is made. The theorem concerns progressions of
   any difference and says nothing about lengths as a function of the
   difference, which is what Problem 187 asks.

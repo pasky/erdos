@@ -29,7 +29,7 @@ the survey does not define, is the order type of the real line. It says these
 give a positive answer to Problem 10 with $\rho=0$ and to Problems 10/A, 11
 and 11/A of that list.
 
-On p. 272 it reports, without proof, F. Galvin's combinatorial proof and his
+On p. 272 it reports, without proof, F. Galvin's combinatorial proof and
 extension to partial order types: if $\varphi\to(\eta)^1_{\aleph_0}$ then
 $\varphi\to(\alpha)^2_k$ and $\varphi\to(\eta,(\alpha^*\vee\alpha)_k)^2$ for
 $\alpha<\omega_1$, $k<\omega$.

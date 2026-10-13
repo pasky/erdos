@@ -87,7 +87,7 @@ The thread's partial results, none of which decides the question:
   Scott Hughes (2026-05-27 to 2026-06-08;
   [repository](https://github.com/scottdhughes/erdos647-proof-chain))
   refined the modular reduction to $n=2520N$ with $N$ in $41$ residue classes
-  modulo $46189$, which his repository states is checked in Lean, and gave a
+  modulo $46189$, which the repository states is checked in Lean, and gave a
   prime-chain reduction to two explicit families, from which the Brun sieve
   bounds the number $|C(x)|$ of solutions up to $x$ by $x/(\log x)^7$ up to a
   constant; companion manuscripts described as submitted claim

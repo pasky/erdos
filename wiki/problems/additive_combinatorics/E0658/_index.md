@@ -30,14 +30,14 @@ label explained under Formalization. The answer is yes. Without a bound, it
 follows from Furstenberg and Katznelson's density Hales–Jewett theorem (J.
 Analyse Math. 57 (1991), 64--119, refereed). Solymosi (Combin. Probab. Comput.
 13 (2004), 263--267, refereed) gives a quantitative proof. Because of the
-regularity lemma, his bound on the threshold $N_0(\delta)$ is at best of tower
+regularity lemma, its bound on the threshold $N_0(\delta)$ is at best of tower
 type. Both prove Graham's axis-parallel form, which implies the form allowing
 any square. The claim pages are
 [[problems/additive_combinatorics/E0658/claims/1991_12_01_furstenberg_katznelson|Furstenberg–Katznelson]]
 and
 [[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|Solymosi]],
 both accepted on the refereed publications and the site's credit. The 2026 Lean
-formalization of Solymosi's paper is linked on his page. This corpus has not
+formalization of Solymosi's paper is linked on its page. This corpus has not
 built it, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/658](https://www.erdosproblems.com/658), accessed

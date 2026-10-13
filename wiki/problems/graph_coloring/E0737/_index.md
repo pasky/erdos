@@ -26,7 +26,7 @@ exist an edge $e$ such that, for all large $n$, $G$ contains a cycle of length
 $n$ containing $e$?
 
 **Status.** Proved. The site labels the problem PROVED and credits Thomassen
-[Th83]. His theorem gives, in any graph of uncountable chromatic number, an edge
+[Th83]. Its theorem gives, in any graph of uncountable chromatic number, an edge
 lying on a cycle of every sufficiently large length. The site attributes the
 question to Erdős, Hajnal and Shelah [EHS74]. They proved that such a graph
 contains odd cycles of every sufficiently large length. That result is

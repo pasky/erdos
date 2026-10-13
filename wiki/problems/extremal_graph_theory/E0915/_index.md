@@ -259,8 +259,8 @@ works under either reading, defines $k_m(n)$ and $\ell_m(n)$, and summarizes
 the literature: $k_2(n)=n$; Bártfai [Ba60], $k_3(2n)=3n-1$ and
 $k_3(2n+1)=3n+1$; Bollobás [Bo66], $k_4(n)=2n-1$; Leonard [Le73], the disproof
 at $m=5$ by a graph with $57$ vertices and $141$ edges and
-$k_5(n)>(\frac52+c)n-O(1)$ for some $c>0$, with the site's own remark that his
-paper seems to allow $c=\frac3{80}$; Sørensen and Thomassen [SoTh74],
+$k_5(n)>(\frac52+c)n-O(1)$ for some $c>0$, with the site's own remark that
+Leonard's paper seems to allow $c=\frac3{80}$; Sørensen and Thomassen [SoTh74],
 $k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$, the conjectured bound for
 $3$-connected graphs, and $k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely
 many $n$ for every fixed $m\ge2$; Mader [Ma73], the disproof in general, for
@@ -311,7 +311,7 @@ update of 28 October 2025.
   ([Le73], pp. 281--282), the graph $G$ with $57$ points and
   $141$ edges and no 5-way, the problem's parameters at $m=5$, $n=14$ and
   the first published disproof, and
-  [[../library/extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|his graphs $F_6$]]
+  [[../library/extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|the graphs $F_6$]]
   (pp. 282--283) with $2k(78j+2)+4$ points, $12k+2$ more edges
   than $\frac52$ times that number and no 5-way, so that $k_5(n)$ "cannot
   be given by a linear function of $n$ with coefficient $5/2$"; p. 281 also
@@ -420,7 +420,7 @@ and the $k_4$ guess, and [Er67b] to the general conjecture.
   paths has at most $\lfloor m(n-1)/2\rfloor$ edges, and of its multigraph
   version $|E(G)|\le(m-1)(n-1)$ with equality only for a tree of edge
   multiplicity $m-1$; unrefereed, recorded as the thread's own argument.
-- A post of 27 October 2025 reports that Bollobás no longer recalls his
+- A post of 27 October 2025 reports that Bollobás no longer recalls the
   1966 paper and, in a personal communication, offers a local argument at a
   vertex of degree 3 in a minimal counterexample; another post of the same
   day suggests a comprehensive survey of the topic, with modern streamlined

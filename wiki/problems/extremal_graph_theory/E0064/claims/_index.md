@@ -4,7 +4,7 @@ desc: The 17 claim pages of Problem 64, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # problems/extremal_graph_theory/E0064/claims
@@ -76,8 +76,9 @@ length 4, 8 or 16. So a cubic bipartite counterexample has at least 60
 vertices.
 
 [[problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester|2026_08_19_duran_ballester]]: Duran Ballester deposited on Zenodo a case analysis of a minimal
-counterexample as a proof of the Erdős–Gyárfás conjecture. In his manuscript
-of 1 October 2026 he retitled it as a reduction that leaves six outcomes open.
+counterexample as a proof of the Erdős–Gyárfás conjecture. In a manuscript
+of 1 October 2026 the claimant retitled it as a reduction that leaves six
+outcomes open.
 
 [[problems/extremal_graph_theory/E0064/claims/2026_09_04_garcia|2026_09_04_garcia]]: Garcia reports a SAT search with DRAT certificates showing that every graph of
 minimum degree at least three on at most 23 vertices has a cycle of length 4

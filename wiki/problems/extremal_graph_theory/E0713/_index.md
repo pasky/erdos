@@ -165,7 +165,7 @@ source unit]], states that every rational $\alpha\in[1,2)$ is realized by one
 finite bipartite graph with $\Theta(n^\alpha)$ extremal number. The source unit
 attributes the proof to a prerelease GPT-6 Astra run in the FrontierMath Erdős
 benchmark; Adamczewski packaged the output. Bloom's seven-page preliminary
-exposition, unsigned, was produced by GPT at his request from the Lean
+exposition, unsigned, was produced by GPT at the curator's request from the Lean
 development; its Theorem 1.1 is on p. 1.
 
 The source unit records Bloom's proof claim of 3 September 2026, which called

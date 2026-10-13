@@ -27,7 +27,7 @@ that $S^0(i)\subset\psi(\mathcal{G},\omega)$."
 
 The paper says it has no counterexample, that the authors think the answer
 is no, and (p. 252, footnote) that Problem 2 was already stated by Taylor in
-his Problem 42 (the paper's reference [8], dated 1969). A positive answer,
+Problem 42 (the paper's reference [8], dated 1969). A positive answer,
 by the paper's account (p. 252), would show through the old lemmas that
 $\psi(\mathcal G,\omega)$ is $\omega$-unbounded with the restriction
 $\exp_n^+$ for some $n<\omega$ whenever $\chi(\mathcal G)>\omega$, so that

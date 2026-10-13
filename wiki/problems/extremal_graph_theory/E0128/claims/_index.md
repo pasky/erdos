@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 128, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # problems/extremal_graph_theory/E0128/claims
@@ -27,7 +27,7 @@ The result is refereed.
 
 [[problems/extremal_graph_theory/E0128/claims/2021_04_19_razborov|2021_04_19_razborov]]: Razborov (Mat. Sb. 2022) proves the sparse-halves conjecture for triangle-free
 graphs with no induced $2K_2$, with girth at least $5$, with independence
-number at least $2n/5$, with low density, or strongly regular. He also proves
-the general bound $27n^2/1024$, and the paper is refereed.
+number at least $2n/5$, with low density, or strongly regular. The author also
+proves the general bound $27n^2/1024$, and the paper is refereed.
 
 ***

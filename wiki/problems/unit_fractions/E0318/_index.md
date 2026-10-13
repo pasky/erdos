@@ -242,7 +242,7 @@ $m\in A$ of $n$ with $f(m)=1$ have positive upper density, then Bloom's
 density theorem
 ([[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_2|Theorem 2]]
 of [Bl21]) applied to $\{m/n\}$ gives a finite $S'$ with
-$\sum_{c\in S'}1/c=1$, and $S=\{n\}\cup nS'$ is a zero-sum; his comment of 2
+$\sum_{c\in S'}1/c=1$, and $S=\{n\}\cup nS'$ is a zero-sum; Meza's comment of 2
 February 2026 sketches, through Elliott's inequality, that some such $n$
 exists when both sign classes have positive lower density and the primes in
 both have divergent reciprocal sums. These forum arguments are unchecked; they
@@ -268,7 +268,7 @@ closing line acknowledges the AI systems Claude Opus 4.5 and ChatGPT 5.2 Pro
 for proofreading, recorded here as the source's own declaration. Acceptance
 evidence: the site's page, which credits Larsen with the affirmative answer for the squares (last edited 1 April 2026), and the
 author's thread comment of 1 February 2026 announcing the note as an
-application of the technical result of his work on Problem 825; no arXiv
+application of the technical result of Larsen's work on Problem 825; no arXiv
 listing, journal record or
 independent review was found, and the proof is unchecked by
 this corpus. For the third question the label rests on this preprint; Ren's
@@ -313,7 +313,7 @@ question, is not held; its statement is second-hand, and the 1975 partial
 results likewise. (2) The third question rests on an unrefereed manuscript
 acknowledging Claude Opus 4.5 and ChatGPT 5.2 Pro for proofreading, accepted
 by the site; a refereed version or an independent review would strengthen
-it. (3) Larsen's proof and his Theorem 4 are not compiled beyond a structural
+it. (3) Larsen's proof and Theorem 4 are not compiled beyond a structural
 sketch. (4) The Lean proofs of the three parts (Alexeev's file and Ren's
 package) have not been built or audited by this corpus.
 

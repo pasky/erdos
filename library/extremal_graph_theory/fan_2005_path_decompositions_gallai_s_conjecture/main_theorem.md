@@ -75,7 +75,7 @@ structure only. Nothing here is independently reviewed.
 ## Proof pointer
 
 Pages 124--125, by induction on $|E(G)|$. Let $F$ be the E-subgraph. If
-$E(F)=\emptyset$ the theorem "is a special case of Pyber's result", his
+$E(F)=\emptyset$ the theorem "is a special case of Pyber's result", the cited
 Theorem 0 (the citation is printed "[Theorem 0, 4]", though Pyber's paper is
 the reference list's [6]; a filing observation). Otherwise take an
 $\alpha$-ordering of $V(F)$ whose last vertex $a$ is not isolated in $F$,

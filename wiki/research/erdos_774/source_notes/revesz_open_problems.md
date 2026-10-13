@@ -24,7 +24,7 @@ Henri Poincaré working group 2006--2007, open-problem session of 28 June
 The card carries the digest of the whole proceedings-style collection.
 Only one contribution bears on E0774: Myriam Déchamps, "Quelques questions
 ouvertes sur les racines de l'unité et les ensembles de Sidon"
-(pp. 18--21). She works in the additive group $\mathbb R^2\cong\mathbb C$,
+(pp. 18--21). Déchamps works in the additive group $\mathbb R^2\cong\mathbb C$,
 calls a set quasi-independent when it admits no nontrivial finite relation
 with coefficients in $\{-1,0,1\}$ (dissociated, in E0774's terms), lets
 $\psi(n)$ be the largest size of a quasi-independent subset of the $n$-th
@@ -32,7 +32,7 @@ roots of unity, and poses Questions 35--39: whether $\psi(n)/\varphi(n)$
 is bounded (35), whether $n/\psi(n)$ is bounded (36), the value of
 $\psi(n)$ (37), whether the set $e^{2\pi i\mathbb Q}$ of all roots of
 unity is a finite union of quasi-independent sets (38), and whether that
-set is Sidon (39). She recalls Pisier's characterization and records the
+set is Sidon (39). Déchamps recalls Pisier's characterization and records the
 Graham–Ramsey structure theorem as Theorem A with arithmetic properties of
 $\psi$ as Theorems B--C.
 

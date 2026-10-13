@@ -54,7 +54,7 @@ pp. 7--9) and the proofs of Theorems 3 and 4 (pp. 20--21 and 24--25) were
 read for structure only; Sections 4--5 (pp. 10--19), which prove
 Propositions 7 and 8, were not read.
 
-Martin combines Croot's techniques with his own earlier method to sharpen
+Martin combines Croot's techniques with the author's earlier method to sharpen
 results on Egyptian fraction representations of a rational r, that is, sums of
 reciprocals of distinct positive integers. Theorem 1 shows that for large x
 there is a set E of integers at most x with sum of 1/n over E equal to r and |E|

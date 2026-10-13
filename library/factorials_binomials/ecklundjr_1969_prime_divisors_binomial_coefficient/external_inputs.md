@@ -26,10 +26,10 @@ Ecklund opens with the classical theorem, independently due to Sylvester and
 Schur, that among $k$ consecutive integers, all greater than $k$, at least one
 has a prime divisor greater than $k$.
 
-He also gives the equivalent form used by Erdős: if $n\geq2k$, then
+Ecklund also gives the equivalent form used by Erdős: if $n\geq2k$, then
 $\binom nk$ has a prime divisor $p>k$. This is historical and methodological
 context for Ecklund's complementary bound. The proof of Ecklund's theorem does
-not invoke Sylvester--Schur as an unproved inference. Ecklund calls his general
+not invoke Sylvester--Schur as an unproved inference. Ecklund calls the general
 case "a Sylvester-Schur type argument" and draws the other cases'
 contradictions from bounds on (6) of Lemma 1 (printed p.268). Cases 1 and 3
 use (6), so the general case is Case 2, which rests on the Faulkner bound

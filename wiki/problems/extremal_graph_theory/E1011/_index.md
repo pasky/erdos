@@ -66,8 +66,8 @@ is recorded below.
 
 For general $r$, Theorem 2.7 of [Si74] (p. 358) gives
 $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$. Simonovits
-attributes it to his thesis and prints no proof. Remark 2.8(a) of the same paper
-(p. 359) asserts without proof that
+attributes it to the author's thesis and prints no proof. Remark 2.8(a) of the
+same paper (p. 359) asserts without proof that
 $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$. The site reports both.
 It also reports, from its discussion thread, that $g(r)\asymp r^2\log r$. The
 inputs to the thread's derivation, Theorem 1 of [DaIl22] and Theorem 1.3 of
@@ -197,7 +197,7 @@ known theorem of Turán) and $u_3=[\tfrac14(n-1)^2]+2$. $u_4$ is unknown
 [5].†", with the note added in proof "† Simonovits determined $u_r$." The
 footnote is Erdős's printed attestation of the result the site takes from
 [Si74]; the theorem it refers to is Theorem 2.7 of [Si74] (p. 358), which
-Simonovits attributes to his thesis.
+Simonovits attributes to the author's thesis.
 
 **The case $r=3$ (refereed).**
 [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|Lemma 1]]
@@ -397,7 +397,7 @@ below is derived from the library links and records no progress.
   the question for $u_r$, the values $u_2$, $u_3$, "$u_4$ is unknown", and
   the note "Simonovits determined $u_r$".
 - [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|Simonovits, Theorem 2.7]]
-  (1974, attributed to his thesis, no proof printed):
+  (1974, attributed to the author's thesis, no proof printed):
   $f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$, and
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|Remark 2.8(a)]]:
   $\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$, asserted without

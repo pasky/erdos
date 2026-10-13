@@ -54,7 +54,7 @@ the $n$ with $P^-(P_{\mathcal H}(n))<n^{c_1(k)}$.
 ## Proof pointer
 
 Pages 6--9. The paper describes only the changes to earlier work, not a
-self-contained proof. Zhang's method (his Theorem A, p. 1) is run with these
+self-contained proof. Zhang's method (Theorem A, p. 1) is run with these
 modifications: the Goldston--Pintz--Yıldırım argument behind Theorem B allows
 $H\ll\log N$; the Motohashi--Pintz step that discards non-smooth moduli stays
 uniform under $H\ll\log N$, at the cost of the extra error (3.8); and Lemmas 1

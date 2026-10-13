@@ -18,7 +18,7 @@ question is no.
 
 [[problems/set_theory/E0118/claims/1999_07_01_darby|1999_07_01_darby]]: Darby (J. Combin. Theory Ser. B, 1999) is credited, independently of
 Schipperus, with the counterexample $\alpha=\omega^{\omega^2}$, a partition
-ordinal with $\alpha\not\to(\alpha,6)^2$. His paper is not held here.
+ordinal with $\alpha\not\to(\alpha,6)^2$. The paper is not held here.
 
 [[problems/set_theory/E0118/claims/2000_09_01_larson|2000_09_01_larson]]: Larson (J. Symbolic Logic, 2000) proved
 $\omega^{\omega^2}\not\to(\omega^{\omega^2},5)^2$, which sharpens the

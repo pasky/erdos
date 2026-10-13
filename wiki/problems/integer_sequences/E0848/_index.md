@@ -77,7 +77,7 @@ for all sufficiently large $N$, carries a `formal_proof` attribute naming
 the file `formal/lean/Erdos/848.lean` of the repository
 `The-Obstacle-Is-The-Way/erdos-banger` at a commit of 31 January 2026,
 whose header says it formalizes Sawhney's asymptotic theorem; that file is
-linked from Sawhney's claim page. Li's Lean 4 project is linked from his
+linked from Sawhney's claim page. Li's Lean 4 project is linked from their
 claim page. Nothing was built or audited here.
 
 ## Current assessment
@@ -124,5 +124,5 @@ $\exp(1420)$, that the range between
 was not covered, and which Sothanaphan then reported a GPT-5.4 Thinking
 check as finding likely incorrect; it is a thread post with a conceded gap
 and has no claim page. Tao noted on 22 March 2026 a square-moduli large sieve in the
-appendix of a paper of his with van Doorn. The proof-claim tab's two
+appendix of a joint paper with van Doorn. The proof-claim tab's two
 comments are recorded on Li's page.

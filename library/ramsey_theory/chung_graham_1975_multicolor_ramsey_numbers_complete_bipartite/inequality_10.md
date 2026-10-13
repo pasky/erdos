@@ -64,7 +64,7 @@ made here of the step the page leaves implicit).
 
 Brown, On graphs that do not contain a Thomsen graph, Canad. Math. Bull. 9
 (1966), 281--285 (the paper's [1], not held), for the lower bound on
-$T(K_{3,3};n)$ given by his construction, the direction (10) uses (the
+$T(K_{3,3};n)$ given by Brown's construction, the direction (10) uses (the
 paper credits Brown with the full $T(K_{3,3};n)=(n^{5/3}/2)(1+o(1))$, but
 Alon, Rónyai and Szabó, manuscript p. 2, credit its upper half to Füredi,
 1996); Spencer's unprinted probabilistic argument for (9) (the paper's

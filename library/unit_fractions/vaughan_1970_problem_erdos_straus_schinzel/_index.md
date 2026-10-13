@@ -127,8 +127,8 @@ no other proof was checked, and nothing here is independently reviewed.
   $t$ squarefree and $s\le((p+1)/(at))^{1/2}$ give distinct classes
   $rn+s\equiv0\pmod p$, by comparing $s_1^2t_1$ and $s_2^2t_2$, both below
   $p$. Lemma 3, attributed to Montgomery as a special case of the corollary
-  to Theorem 2 of his 1968 note: removing $\omega(p)$ classes modulo each
-  prime $p\le\sqrt N$, where $0\le\omega(p)<p$, from the first $N$ natural
+  to Theorem 2 of Montgomery's 1968 note: removing $\omega(p)$ classes modulo
+  each prime $p\le\sqrt N$, where $0\le\omega(p)<p$, from the first $N$ natural
   numbers leaves at most $4N/S$ of them,
   $S=\sum_{s\le\sqrt N}\mu^2(s)\prod_{p\mid s}\omega(p)/(p-\omega(p))$.
   With $\omega(p)=f(p)$ every insoluble $n\le N$ survives, so (5)

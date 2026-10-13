@@ -67,7 +67,7 @@ shows that $A(x)>Cx^{1/2}$ does not suffice when $C<\sqrt2$, and the sharper
 form with $A(N)\ge(2N)^{1/2}$, which that paper shows would be best possible, is
 not claimed here and is recorded as open on the problem page. Y.-G. Chen proved
 the same theorem in 2003 by a different method; the closing remark of the JAMS
-paper's Section 9 says so, and his result has its own
+paper's Section 9 says so, and that result has its own
 [[problems/additive_bases/E0344/claims/2003_01_01_chen|claim page]].
 
 **Formalization.** The repository `plby/lean-proofs` holds a Lean file for

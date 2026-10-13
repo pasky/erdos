@@ -15,8 +15,8 @@ updated: 2026-10-08T14:17:40Z
 
 Section 3, "Graphs without quadrangles" (pp. 284--285). Brown writes $f(n)$
 for the largest integer $m$ such that some graph with $n$ vertices and $m$
-edges contains no quadrilateral, so $f(n)=\operatorname{ex}(n;C_4)$. He cites
-Kővári, Sós and Turán (his reference [7]) for
+edges contains no quadrilateral, so $f(n)=\operatorname{ex}(n;C_4)$. The
+paper cites Kővári, Sós and Turán (its reference [7]) for
 $\limsup_{n\to\infty}f(n)n^{-3/2}=1/2$ and states that, with the
 construction below, one can show
 
@@ -47,7 +47,7 @@ $$
 edges, and $G$ contains no quadrilateral; Brown leaves the proof of the last
 claim to the reader (p. 285).
 
-Brown adds (p. 284) that Erdős conjectured, in his reference [5] and
+Brown adds (p. 284) that Erdős conjectured, in the paper's reference [5] and
 elsewhere, that the limit exists, with a different value, and that the
 construction was found independently by Rényi, "Mrs. Turán" (V. T. Sós) and
 Erdős, in a paper then forthcoming.

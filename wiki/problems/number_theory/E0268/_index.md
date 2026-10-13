@@ -42,7 +42,7 @@ Tao's Corollary 2.10 (arXiv:2406.17593v3, November 2024; Acta Math. Hungar. 175
 (2025), 572--608, refereed) is the same statement in every dimension. It is
 recorded as a second accepted claim,
 [[problems/number_theory/E0268/claims/2024_11_27_kovac_tao|Kovač and Tao 2024]].
-The two Lean developments that follow Kovač's proof are linked from his claim
+The two Lean developments that follow Kovač's proof are linked from its claim
 page and were not built here.
 
 **Source.** [erdosproblems.com/268](https://www.erdosproblems.com/268),
@@ -77,7 +77,7 @@ source uses `native_decide` in one arithmetic step. The thread's first
 comment (13 April 2026) reports this autoformalization from Kovač's paper,
 and its second (26 May 2026) links the repository `Jayyhk/erdos-lean`, where
 the same development appears without `native_decide`. Both files are linked
-from Kovač's claim page as formalizations of his proof, at the linked
+from Kovač's claim page as formalizations of its proof, at the linked
 revisions. Neither artifact was built or audited line by line here, so these
 are formal-source records rather than formal-proof credit.
 

@@ -57,8 +57,8 @@ Sidon set has $O((x/\log x)^{1/2})$ elements up to $x$ for infinitely many $x$
 gives $a_n\gg n\log n$, as the site's remarks derive. A note by GPT-5.4 Pro that
 Price posted claims $a_n\gg n^{3/2}$
 ([[problems/additive_bases/E1194/claims/2026_04_23_price|Price]]). The same day
-the curator posted in the thread an argument that GPT Pro found at his request,
-giving $a_n\gg n^{2-o(1)}$ and, he believed, $a_n\gg n^2/f(n)$ for every
+the curator posted in the thread an argument GPT Pro found at their request,
+giving $a_n\gg n^{2-o(1)}$ and, they believed, $a_n\gg n^2/f(n)$ for every
 reasonable $f$ with $\sum1/(nf(n))$ convergent. The site's remarks credit this
 argument to GPT-5.4 Pro but state the condition as divergence of the series, a
 misprint that a reader pointed out in the thread on 2026-04-24 and the curator

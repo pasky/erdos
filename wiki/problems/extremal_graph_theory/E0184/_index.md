@@ -151,7 +151,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 `OAI.ErdosGallai.erdos_gallai` was built by the corpus's verification at the
 pinned revision, with the axioms `propext`, `Classical.choice` and
 `Quot.sound` only, as the accepted claim page records, and Coffey's claim
-page records his claimed Lean proof of `erdos_184` itself. On the site's
+page records the claimed Lean proof of `erdos_184` itself. On the site's
 side: statement only. The file
 [`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean)
 of formal-conjectures, declares `erdos_184` under `category

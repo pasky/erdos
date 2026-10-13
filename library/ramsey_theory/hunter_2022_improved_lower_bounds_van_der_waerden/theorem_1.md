@@ -59,7 +59,7 @@ pp. 1--2. The proof (Sections 2 onward) was not read.
 ## Proof pointer
 
 The paper modifies Green's construction (translates of one random
-ellipsoidal annulus in a torus, p. 3): in place of Green's long proof of his
+ellipsoidal annulus in a torus, p. 3): in place of Green's long proof of
 Proposition 5.4 (Sections 9--16 of [6]) it gives a short probabilistic argument
 (p. 2); Section 1.1 sketches the Behrend-sphere idea. The paper reproduces parts
 of Green's argument "for the sake of completeness" with Green's permission

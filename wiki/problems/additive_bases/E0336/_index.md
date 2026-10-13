@@ -82,11 +82,11 @@ $\frac54(1+o(1))r^2$ (their (7)) and stated $g(2)=4$ without proof (their
 concluding remark 1); Grekos [Gr88] raised the lower constant to $1/3$ and
 Nash [Na93] lowered the upper constant to $1/2$, so $1/3\le\liminf_r h(r)/r^2$
 and $\limsup_r h(r)/r^2\le1/2$ as the site records them; Nash showed $h(3)=7$;
-and Plagne [Pl04] sharpened the lower-order terms, proving for his function
+and Plagne [Pl04] sharpened the lower-order terms, proving for the function
 $X(h)$ the two-sided bound
-$\lfloor h(h+4)/3\rfloor\le X(h)\le h(h+1)/2+\lceil(h-1)/3\rceil$ (his
+$\lfloor h(h+4)/3\rfloor\le X(h)\le h(h+1)/2+\lceil(h-1)/3\rceil$ ([Pl04],
 Théorème 1), from which the site takes $10\le h(4)\le11$. Whether $X(r)$
-equals $h(r)$ is discussed on the claim page; the Plagne card records his
+equals $h(r)$ is discussed on the claim page; the Plagne card records the
 definition by removal of an element.
 
 The one pending claim is recorded at

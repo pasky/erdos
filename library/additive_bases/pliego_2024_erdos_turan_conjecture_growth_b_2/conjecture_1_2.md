@@ -4,7 +4,7 @@ title: "Conjecture 1.2 (p. 4): for every eps > 0 a Sidon sequence in which every
 desc: |
   Pliego's prediction that for every eps > 0 some Sidon sequence represents
   every large integer as a sum of three of its elements with one summand at
-  most n^eps, the Sidon analogue of his Corollary 1.1; the paper proves
+  most n^eps, the Sidon analogue of the author's Corollary 1.1; the paper proves
   nothing on it.
 created: 2026-10-08T14:30:02Z
 updated: 2026-10-08T14:30:02Z

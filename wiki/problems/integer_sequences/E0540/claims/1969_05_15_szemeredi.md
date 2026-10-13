@@ -55,8 +55,8 @@ and
 
 **Acceptance.** Refereed: the journal publication cited above. Reviewed: the
 site's curator, Thomas Bloom, who is independent of the author, accepts the
-theorem as the proof of the conjecture of Erdős and Heilbronn. He gives the
-problem the label PROVED (LEAN). His commentary attributes the general case to
+theorem as the proof of the conjecture of Erdős and Heilbronn, and gives the
+problem the label PROVED (LEAN). The commentary attributes the general case to
 this paper and the prime case to Olson (1968). Erdős acknowledged the proof in
 his 1973 survey and, with Graham, in the 1980 monograph.
 

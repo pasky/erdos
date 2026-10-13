@@ -40,7 +40,7 @@ the trivial lower bound $f(n)\ge2^{\lceil n/2\rceil}$ this gives
 $f(n)=2^{(1+o(1))n/2}$. The result is the same as Green's, proved
 independently; the sibling page
 [[problems/integer_sequences/E0748/claims/2003_04_04_green|Green 2003]]
-states the theorem in Green's form and digests his proof. The site's
+states the theorem in Green's form and digests the paper's proof. The site's
 commentary attributes both the bound and the asymptotic to both papers.
 
 **Acceptance.** Refereed: the full version appeared in Discrete Mathematics, a
@@ -50,7 +50,7 @@ October 2008 (per the Crossref record of DOI 10.1016/j.disc.2007.08.103, created
 pages, announced the result in Doklady Akademii Nauk, also a refereed journal.
 
 Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
-labels the problem PROVED. His commentary credits the result to Green and
+labels the problem PROVED. The commentary credits the result to Green and
 Sapozhenko independently. The commentary was accessed 2026-09-05 and 2026-10-07,
 and the discussion thread and the proof-claim tab were empty both times.
 

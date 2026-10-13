@@ -66,7 +66,7 @@ consequence is the accepted full claim recorded on the claim page
 [[problems/ramsey_theory/E0557/claims/2026_09_03_adamczewski|Adamczewski 2026]].
 The acceptance rests on a third party's Lean derivation of it, which this corpus
 built and audited (Formalization, below). The credit of the site's curator for
-it was not independent, since he submitted the proof claim himself and
+it was not independent, since the curator submitted the proof claim and
 co-authored the paper recording the result. Nothing is refereed. The frontmatter
 standing, solved and proved, derives from this claim page.
 

@@ -24,14 +24,14 @@ Math. 325 (1981), 183-188. doi:10.1515/crll.1981.325.183. The file prints
 its first-page footer, read on the page image because the scan has no text
 layer, every other right reserved.
 
-Pomerance improves his earlier bound for A(x), the number of integers up to x
+Pomerance improves their earlier bound for A(x), the number of integers up to x
 belonging to an amicable pair, from x exp(-c(log log log x log log log log
 x)^{1/2}) to the far stronger A(x) <= x exp(-(log x)^{1/3}) for all large x
 (the Theorem of Section 2, p. 184). This immediately gives convergence of the
 sum of reciprocals of the amicable numbers, which was not known before, and
 settles a conjecture of Erdos that A(x) = O(x/(log x)^k) for every k. The proof
 is a structural sieve argument: writing l = e^{(log x)^{1/3}} and L =
-e^{(1/8)(log x)^{2/3} log log x}, he successively discards o(x/l) exceptional n
+e^{(1/8)(log x)^{2/3} log log x}, it successively discards o(x/l) exceptional n
 by imposing that n and s(n) have largest prime factors at least L^2, that no
 k^a >= l^3 with a >= 2 divides n or s(n), that every prime dividing both n and
 sigma(n) is below l^4, that n/P(n) and s(n)/P(s(n)) are at least L, and that

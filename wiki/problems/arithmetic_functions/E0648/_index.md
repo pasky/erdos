@@ -32,9 +32,9 @@ where $P(m)$ is the greatest prime factor of $m$. Estimate $g(n)$.
 **Status.** Solved. The site's label is SOLVED (LEAN). Cambie's 2025 paper gives
 the order of growth; see
 [[problems/arithmetic_functions/E0648/claims/2025_03_13_cambie|the claim page]].
-The site's Lean label follows the formalization of his proof announced in the
-site's thread on 2026-02-04. This corpus has not built or audited that Lean 4
-development, so it gives no formalized evidence.
+The site's Lean label follows the formalization of Cambie's proof announced in
+the site's thread on 2026-02-04. This corpus has not built or audited that
+Lean 4 development, so it gives no formalized evidence.
 
 **Source.** [erdosproblems.com/648](https://www.erdosproblems.com/648), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #648,

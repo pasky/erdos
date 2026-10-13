@@ -39,7 +39,7 @@ simultaneous system t = 2^{a_i} (mod p_i) for distinct odd primes p_i with
 prime and c avoiding every p_i + 2^d modulo p_{h+1}, and t odd, so that for
 every positive power 2^d < t the difference t - 2^d is a multiple of some p_i
 other than p_i itself. Lemmas I and II, obtained by the method of the author's
-earlier note (Lemma I, which the author says Schinzel communicated to him, also
+earlier note (Lemma I, which the author says was communicated by Schinzel, also
 appears in Sierpiński's book; Lemma II is this paper's generalization of it),
 show that for n >= 3 the number 2^{2^n} - 1 and suitable products
 w B_0 ... B_{n-1} are not a prime plus two distinct positive powers of two;

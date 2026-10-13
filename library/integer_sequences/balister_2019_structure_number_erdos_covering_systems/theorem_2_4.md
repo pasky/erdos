@@ -79,7 +79,7 @@ system of size $n$ (pp. 23 and 28).
 - [[../wiki/problems/covering_systems/E1189/_index|Problem 1189]]: the
   problem asks, among other things, how large the largest modulus $n_k$ of
   an irreducible covering set of size $k$ can be; the bound
-  $n_k\le2^{k-1}$ recorded there is Simpson's, from his 1985 paper, which
+  $n_k\le2^{k-1}$ recorded there is from Simpson's 1985 paper, which
   this paper recalls on p. 2, pointing to Section 2. The paper does not
   write out a deduction of that bound from Theorem 2.4; the deduction it
   writes, on p. 23, gives only $\operatorname{lcm}(\mathcal A)\le2^n$.

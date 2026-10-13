@@ -18,7 +18,7 @@ updated: 2026-10-08T15:50:52Z
 c fixed, whose distinct members meet in o(r) points has cover number below
 (c/(c+1)+o(1))r, so such families cannot show n(r) = O(r).
 
-[[set_systems/kahn_1994_problem_erdos_lovasz_ii/theorem_2_3|theorem_2_3]]: Kahn's covering theorem for the hypergraph of his construction: an edge
+[[set_systems/kahn_1994_problem_erdos_lovasz_ii/theorem_2_3|theorem_2_3]]: Kahn's covering theorem for the hypergraph of the construction: an edge
 cover of size r = Kq+t meets each part H_l through some point x in exactly q
 edges, or t edges on the line through x and x_0, which gives edge cover
 number r.

@@ -70,4 +70,4 @@ the closed form $a_n=[\tau(2^{(n-1)/2}+2^{(n-2)/2})]$, at $m=1$.
   $\lfloor\sqrt2(a_n+1/2)\rfloor$ that p. 144 shows equal to the original.
   Stoll's 2006 paper restates the identity as its
   [[number_theory/stoll_2006_problem_erdos_graham_concerning_digits/fact_1|Fact 1]]
-  and recovers it from his Theorem 3.3.
+  and recovers it from its Theorem 3.3.

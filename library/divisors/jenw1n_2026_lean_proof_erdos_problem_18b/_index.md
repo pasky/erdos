@@ -67,7 +67,7 @@ assessments of one model family, no fresh Lean replay by the reviewers);
 Certified 17 September 2026; Reward Paid; permitted axioms `propext`,
 `Quot.sound`, `Classical.choice`.
 Not refereed. The erdosproblems.com page shows OPEN, and its owner posted the
-record on the proof-claims tab on 27 September 2026 as a partial proof he had
+record on the proof-claims tab on 27 September 2026 as a partial proof they had
 not verified.
 
 **Read status.** Claims checked: the target type, the `exact_target_type`

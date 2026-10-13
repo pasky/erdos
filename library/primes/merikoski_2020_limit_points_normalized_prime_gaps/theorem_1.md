@@ -29,8 +29,8 @@ about sets meeting every such difference set (Propositions 4 and 5, pp. 3--4).
 would give Theorem 1 with three reals in place of four, and so
 $\mu(\mathbb{L}\cap[0,T])\geq T/2$, if the prime-pair bound (1.6) held with a
 constant $A<3$ in place of $3.99$, and would give $\mathbb{L}=[0,\infty]$ if it
-held with $A<2$; he adds that by the parity principle this should be as hard
-as a lower bound for the same sum over prime pairs.
+held with $A<2$; Merikoski adds that by the parity principle this should be
+as hard as a lower bound for the same sum over prime pairs.
 
 **Source.** Jori Merikoski, Limit points of normalized prime gaps, J. Lond.
 Math. Soc. (2) 102 (2020), 99--124, doi:10.1112/jlms.12314; arXiv:1811.03008.

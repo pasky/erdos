@@ -37,7 +37,7 @@ Sós*, Combinatorica 26 (2006), no. 6, 627--645, doi:10.1007/s00493-006-0035-9
 **Edition read.** The copy read for this card is an authors' preprint: 15
 pages with a text layer, no journal header, PDF
 metadata dated 31 May 2004, the second author's footnote saying the work is
-part of his Ph.D. thesis; printed and PDF pages agree. The journal version
+part of their Ph.D. thesis; printed and PDF pages agree. The journal version
 was not compared, so its labels and text may differ from the preprint's.
 Provenance: obtained in September 2026 (the download URL was not recorded);
 192,842 bytes. No notice is printed on any page of the preprint, so no host's

@@ -43,8 +43,8 @@ Harman's refereed bound $g(n)>n^{0.7039}$ for infinitely many $n$ settles every
 $\epsilon\ge0.2961$. It is on
 [[problems/arithmetic_functions/E0821/claims/1998_01_01_baker_harman|Baker and Harman 1998]].
 Lichtman's bound $g(n)\ge n^{0.7156}$ for infinitely many $n$ settles every
-$\epsilon\ge0.2844$. It is strict by his Theorem 1.1, it is the site's best
-known bound, and it is on
+$\epsilon\ge0.2844$. It is strict by Theorem 1.1 of [Li22], it is the site's
+best known bound, and it is on
 [[problems/arithmetic_functions/E0821/claims/2022_11_14_lichtman|Lichtman 2022]].
 
 **Source.** [erdosproblems.com/821](https://www.erdosproblems.com/821), accessed
@@ -87,7 +87,7 @@ release each settle a range of $\epsilon$ and have partial claim pages:
 Corollary 1 of Baker and Harman [BaHa98] gives $g(n)>n^{0.7039}$ for
 infinitely many $n$, every $\epsilon\ge0.2961$, an accepted partial claim on the
 refereed paper; Corollary 1.3 of Lichtman [Li22] gives $g(n)\ge n^{0.7156}$
-for infinitely many $n$, and his Theorem 1.1 makes the inequality strict, every
+for infinitely many $n$, and its Theorem 1.1 makes the inequality strict, every
 $\epsilon\ge0.2844$, a partial claim that is pending
 because the arXiv paper has no journal record and the site's commentary on a
 problem it labels OPEN is not an acceptance. Erdős [Er35b] proved

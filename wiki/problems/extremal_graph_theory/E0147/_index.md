@@ -31,8 +31,8 @@ $$
 
 **Status.** DISPROVED (LEAN). The site's commentary (page last edited 18 January
 2026) credits Janzer's rainbow Turán paper [Ja23] with the disproof for even
-$r\ge4$, and his later paper [Ja23b] with the case $r=3$. Both are refereed.
-Each is recorded as an accepted claim, on
+$r\ge4$, and the author's later paper [Ja23b] with the case $r=3$. Both are
+refereed. Each is recorded as an accepted claim, on
 [[problems/extremal_graph_theory/E0147/claims/2020_06_01_janzer|the blow-up page]]
 and
 [[problems/extremal_graph_theory/E0147/claims/2021_09_13_janzer|the 3-regular page]].

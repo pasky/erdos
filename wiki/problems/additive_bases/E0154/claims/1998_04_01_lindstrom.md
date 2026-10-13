@@ -41,7 +41,7 @@ assumptions $m=2$ and $\lvert A\rvert\ge N^{1/2}$ bounds the error by
 $O(N^{3/8})$; these hypotheses are as Kolountzakis reports them
 (arXiv:math/9808061, p. 1), recorded on the card of
 [[../library/additive_bases/kolountzakis_1999_uniform_distribution_residue_classes_dense_sets/_index|Kolountzakis's strengthening]],
-which notes that Lindström states his bound for $m=2$ and
+which notes that Lindström states the bound for $m=2$ and
 $\lvert A\rvert\ge N^{1/2}$ and that Kolountzakis removes both restrictions.
 
 The question of Problem 154 concerns $A+A$, and it follows from the statement

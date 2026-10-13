@@ -73,10 +73,10 @@ run twice in the residue classes $1$ and $3$ modulo $4$; the post of
 covering lemma in those two classes (its Lemma 1) that the note asserts with
 a remark in place of a proof. Terence Tao found it unlikely that the lemma
 would be easy, since only half the primes are available for sieving, and the
-author replied that he would concentrate on proving it, so no complete proof
-was claimed and the note has no claim page. A covering-reduction framework
-posted on 2026-04-29 isolates a sparse multi-covering statement as the open
-technical point and claims no proof.
+author replied that they would concentrate on proving it, so no complete
+proof was claimed and the note has no claim page. A covering-reduction
+framework posted on 2026-04-29 isolates a sparse multi-covering statement as
+the open technical point and claims no proof.
 
 **Search scope (2026-10-07).** The site's problem page, its thread and its
 proof-claims tab, and the formal-conjectures statement file at the pinned

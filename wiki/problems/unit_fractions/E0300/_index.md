@@ -171,7 +171,7 @@ the Lean 4 proof behind the label's suffix is unbuilt and unaudited here.
 
 - Erdős and Graham (1980, printed p. 36): the expectation $A(n)=n+o(n)$.
 - Croot (2003): a constant $c<1$ with $A(N)<cN$ for large $N$, as
-  attributed by the site to his paper and by Liu and Sawhney to his work;
+  attributed by the site to the paper and by Liu and Sawhney to Croot's work;
   neither names a theorem or writes the deduction, and the paper's
   [[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/main_theorem|Main Theorem]]
   does not state the bound.

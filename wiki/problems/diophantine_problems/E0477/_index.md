@@ -148,7 +148,7 @@ specializes to all-integer sixth powers. The linked
 [Overleaf manuscript](https://www.overleaf.com/read/whnsywnmykqm#4b6ba0)
 showed only its application shell at the shared link in the status search, so no page here rests on its proof and the link is
 unpinned. Bloom's exposition writes the tiled set as $\{n^d:n\geq1\}$, while
-his commentary states the result for the full image $f(\mathbb Z)$ with
+the site's commentary states the result for the full image $f(\mathbb Z)$ with
 $f(n)=n^d$ and even $d\ge6$; the exposition is
 not a local proof for the nonnegative or all-integer even-power image
 until that endpoint is reconciled, and no page here checks its cited

@@ -264,7 +264,7 @@ this page, and with the theorems stated in the notes themselves neither is
 needed as a second-hand attestation. The same lists carry a run of 2022--2026
 spectral Turán papers citing the two notes for context. The one further proof of
 the theorem named in the notes is the Erdős--Sós preprint that Bondy credits
-alongside [BoTh81] for his Theorem 1; the note gives it no title. The site's
+alongside [BoTh81] for Theorem 1; the note gives it no title. The site's
 label SOLVED, glossed as a resolution by neither a proof nor a disproof, sits on
 a yes-or-no question answered affirmatively by two refereed theorems; the claim
 pages therefore carry the value proved, and the Status sentence keeps the site's
@@ -346,7 +346,7 @@ Bollobás--Thomason theorem with its proof and the card's four observations
 on it, and Bondy's Theorem 2 with its twelve-line proof, so the Formulation
 questions (the "$+1$", the Turán-graph exception, the constant $c_r$) are
 settled from the texts. Nothing is independently reviewed. Not needed for
-the status: the Erdős--Sós preprint that Bondy credits alongside [BoTh81] for his
+the status: the Erdős--Sós preprint that Bondy credits alongside [BoTh81] for
 Theorem 1, the 1999 JCTB paper and Faudree 1992. (2) The site's statement
 differs from Erdős's in both edge counts and, as it stands, is satisfied by
 the Turán graph; the 1981 theorem carries the "$+1$" that makes the site's

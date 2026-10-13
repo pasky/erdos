@@ -54,7 +54,7 @@ reserved.
 
 Building on Zhang's bounded gap theorem and the Goldston-Pintz-Yildirim sieve,
 Pintz derives a series of unconditional results on prime gaps from one
-strengthened tuple theorem, his Main Theorem (p. 6): for k >= 3.5 x 10^6, the
+strengthened tuple theorem, the Main Theorem (p. 6): for k >= 3.5 x 10^6, the
 paper's Conjecture DHL*(k,2) holds, so every admissible k-tuple contained in
 [0, eps log N], eps sufficiently small, has, for at least
 c_2(k) S(H) N/log^k N integers n in [N,2N), two consecutive primes among the
@@ -72,7 +72,7 @@ earlier small-gap results: Goldston, Pintz and Yildirim's
 liminf d_n/((log n)^{1/2}(log log n)^2) < infinity (Theorem D, p. 3) and the
 author's improvement of the exponent to 3/7,
 liminf d_n/((log n)^{3/7}(log log n)^{4/7}) < infinity (Theorem E, p. 3), cited
-from his Turán Memorial paper and not proved here. Theorem 5 (p. 4) proves
+from Pintz's Turán Memorial paper and not proved here. Theorem 5 (p. 4) proves
 Erdős's conjectures liminf d_{n+1}/d_n = 0 and limsup d_{n+1}/d_n = infinity in
 a stronger form (liminf (d_{n+1}/d_n) log n < infinity and
 limsup (d_{n+1}/d_n)/log n > 0), and Theorem 6 (p. 5) gives a d <= 7 x 10^7

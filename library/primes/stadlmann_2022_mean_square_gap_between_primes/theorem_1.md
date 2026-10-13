@@ -64,7 +64,7 @@ Lemma 1 rests on Proposition 1 (pp. 5--6, Section 3, pp. 9--19), which
 reduces the comparison to large-value conditions on Dirichlet polynomials,
 and Proposition 2 (p. 6, Section 4, pp. 19--41), which verifies those
 conditions under conditions on the factor lengths, using Heath-Brown's $R^*$
-bound and his mean value theorem for sparse Dirichlet polynomials.
+bound and mean value theorem for sparse Dirichlet polynomials.
 
 ## Dependencies
 

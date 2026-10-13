@@ -32,7 +32,7 @@ Chung's 1997 survey [Ch97] (Problem (69), preprint p. 18) states the site's
 vertex form, "contains any tree on at most $n/2$ vertices", and attributes
 it to Erdős, Füredi, Loebl and Sós [EFLS95]. Zhao states the edge form, "all
 trees with at most $n/2$ edges" (Conjecture 1.3, attributed to Loebl through
-[EFLS95]), and his theorem uses the rounded hypothesis
+[EFLS95]), and the paper's theorem uses the rounded hypothesis
 "at least $\lceil n/2\rceil$ vertices have degree at least $\lceil n/2\rceil$"
 and the rounded conclusion "all trees with at most $\lfloor n/2\rfloor$
 edges". A tree on at most $n/2$ vertices has at most $n/2-1$ edges, hence at
@@ -89,7 +89,7 @@ Problem #580, https://www.erdosproblems.com/580, accessed 2026-09-18.
 - [AKS95] Ajtai, Miklós and Komlós, János and Szemerédi, Endre, On a
   conjecture of Loebl. Graph theory, combinatorics, and algorithms, Vol. 1,
   2 (Kalamazoo, MI, 1992) (1995), 1135--1146. Not held; its theorem is
-  quoted here as Zhao's Theorem 1.5 (his [2]).
+  quoted here as Zhao's Theorem 1.5 (its [2]).
 - [EFLS95] Erdős, P. and Füredi, Z. and Loebl, M. and Sós, V. T., Discrepancy of
   trees. Studia Sci. Math. Hungar. 30 (1995), no. 1--2, 47--57 (the site's
   reference text and Zhao's [8]). Not held (past the Rényi archive's 1989

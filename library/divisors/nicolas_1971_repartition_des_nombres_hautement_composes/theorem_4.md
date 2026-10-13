@@ -3,7 +3,7 @@ name: divisors/nicolas_1971_repartition_des_nombres_hautement_composes/theorem_4
 title: "Théorème 4 (p. 127): the number Q(X) of highly composite numbers below X is O((log X)^{1+c}), with c as in Théorème 3"
 desc: |
   Nicolas's upper bound for the counting function of highly composite
-  numbers: Q(X) = O((log X)^{1+c}), with c the constant of his Théorème 3,
+  numbers: Q(X) = O((log X)^{1+c}), with c the constant of Théorème 3,
   so Q(X) stays below a fixed power of log X.
 created: 2026-10-08T17:54:55Z
 updated: 2026-10-08T17:54:55Z

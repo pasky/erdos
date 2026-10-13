@@ -126,8 +126,8 @@ $H_k$ is 2-degenerate, the question is a special case of Problem 146; the
 graph with $x$ removed is the subject of Problem 1021. The discussion thread
 and the proof-claim tab are empty.
 
-Füredi's strict inequality and the definition of his graphs are on printed
-pp. 75--76, and the proof, through his set-system Lemma 1.5, on pp. 76--77.
+Füredi's strict inequality and the definition of the graphs are on printed
+pp. 75--76, and the proof, through the set-system Lemma 1.5, on pp. 76--77.
 No step of the proof is checked in this corpus, and no Lean proof of the
 problem has been built or audited here; the standing rests on the refereed
 publication and the site's acceptance.

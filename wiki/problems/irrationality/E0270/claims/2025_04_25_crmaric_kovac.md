@@ -61,12 +61,12 @@ cites the paper (no file is held); its digest is written from the arXiv v1 PDF
 **Acceptance.** Refereed: Colloq. Math. 179 (2025), 55–68,
 doi:10.4064/cm9628-5-2025. Reviewed: the erdosproblems.com page for Problem 270
 (last edited 2025-09-28) is labeled disproved by the site's curator, Thomas
-Bloom. He credits Crmarić and Kovač with the negative answer and states the
+Bloom, who credits Crmarić and Kovač with the negative answer and states the
 every-value theorem. The site lists no proof claim or proof exposition for the
 problem. The formal-conjectures statement file for the problem, at the linked
 commit, tags the negation and the every-value variant research solved. It tags
 the nondecreasing and $f(n)=n$ variants research open. Kovač answered the
-$f(n)=n$ case yes on the site's discussion thread (2026-07-12). He writes
+$f(n)=n$ case yes on the site's discussion thread (2026-07-12), writing
 $\sum_n n!/(2n)!=\sum_n 1/(a_1\cdots a_n)$ with $a_k=4k-2$, a Cantor series with
 increasing integer terms, hence irrational. This corpus has not reproved the
 theorem and awards no tier of its own.

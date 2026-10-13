@@ -78,7 +78,7 @@ $0<C\le1$ and no for $C>1$. So the bound fails when it is asked for every $C>0$,
 which is how Erdős expected it to hold. For $0<C<1$ the union bound leaves at
 least $(1-C)x$ integers unsifted. Ruzsa (J. Number Theory 14 (1982), a refereed
 journal) proves $c_1x/\log x<H_1(x)<x/(\log x)^{c_2}$, and the lower bound
-answers yes at $C=1$. He also proves $\log H_C(x)/\log x\to e^{1-C}$ for
+answers yes at $C=1$. Ruzsa also proves $\log H_C(x)/\log x\to e^{1-C}$ for
 $C\ge1$. So for fixed $C>1$ the unsifted count can be $x^{e^{1-C}+o(1)}$, which
 is below every $x/(\log x)^c$. Erdős's 1980 survey acknowledges that Ruzsa's
 construction overturned his expectation. Weingartner (Res. Number Theory 11

@@ -31,11 +31,11 @@ graph into nearly regular pieces (the ancestor of the regularity lemma), with
 notation k_I(X,Y) and density beta(X,Y) = k(X,Y)|X|^{-1}|Y|^{-1} introduced
 there. Szemeredi stresses that the proof still invokes van der Waerden's
 theorem, so it does not fulfill the Erdos-Turan aim of a workable upper bound on
-the van der Waerden function f(n), and he also records the higher-dimensional
-Erdos conjecture generalizing Gallai's theorem, which he and Ajtai can prove
-only when the pattern S is a square. For problem 139 this is the theorem itself,
-the source of the statement that positive-density integer sets contain k-term
-progressions for every k.
+the van der Waerden function f(n), and the paper also records the
+higher-dimensional Erdos conjecture generalizing Gallai's theorem, which
+Szemeredi and Ajtai can prove only when the pattern S is a square. For problem
+139 this is the theorem itself, the source of the statement that
+positive-density integer sets contain k-term progressions for every k.
 
 Source: <https://doi.org/10.4064/aa-27-1-199-245>. No notice is printed on the
 scan's first and last pages; the publisher's article page offers the PDF as a

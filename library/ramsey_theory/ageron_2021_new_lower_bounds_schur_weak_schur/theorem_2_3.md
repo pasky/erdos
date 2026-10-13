@@ -40,7 +40,7 @@ $$
 obtained, as the paper says, by taking $q=S^+(n+1)$ and $p=S(k)$ in
 Theorem 2.3; $m_{n+1}$ refers to the template used.
 
-The paper attributes the construction to Rowley, stated by him for Ramsey
+The paper attributes the construction to Rowley, who stated it for Ramsey
 numbers (its reference [7]), and presents Theorem 2.3 as a rephrasing of it
 in terms of Schur numbers (p. 3); Abbott and Hanson's construction is a
 special case of it (p. 14), and Figures 1 and 2 (p. 4) show an instance of

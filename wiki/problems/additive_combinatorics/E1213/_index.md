@@ -102,9 +102,9 @@ nothing was built or audited here.
 **The question (site formulation of 2026-09-18).** The statement above; labeled
 proved with an affirmative answer, last edited 10 April 2026. The commentary
 consists of two sentences: that Hegyvári [He86] proved the answer yes with an
-explicit bound of the shape $f(a,K)\ll ae^{O(K)}$, and that he believes the
-exponential dependence on $K$ is not the truth. The discussion thread and the
-proof-claim tab were empty on 2026-09-18; the community database (copy of
+explicit bound of the shape $f(a,K)\ll ae^{O(K)}$, and that the author believes
+the exponential dependence on $K$ is not the truth. The discussion thread and
+the proof-claim tab were empty on 2026-09-18; the community database (copy of
 2026-10-06) records the problem proved and a formalized statement, with formal
 status unformalized (see Formalization above).
 

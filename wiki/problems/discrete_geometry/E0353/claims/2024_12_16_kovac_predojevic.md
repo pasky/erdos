@@ -77,5 +77,5 @@ not built or audited it, so it is a link, not evidence.
 unit area with vertices in sets of infinite planar measure, Canad. Math. Bull.
 69 (2026), no. 3, 849–864, published online 2025-12-01, DOI
 10.4153/S0008439525101537. Thomas Bloom, the curator of erdosproblems.com,
-labels the problem proved. He credits this paper with the two parts it settles:
-the cyclic quadrilateral and the polygon with congruent sides.
+labels the problem proved. The curator credits this paper with the two parts it
+settles: the cyclic quadrilateral and the polygon with congruent sides.

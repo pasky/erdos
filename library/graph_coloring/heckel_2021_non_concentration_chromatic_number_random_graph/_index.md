@@ -15,8 +15,8 @@ updated: 2026-10-08T17:04:21Z
 [[graph_coloring/_index|..]]
 
 [[graph_coloring/heckel_2021_non_concentration_chromatic_number_random_graph/conjecture_p12|conjecture_p12]]: Heckel's conjecture that no sequence of intervals of length below
-n^(1/2-eps) contains the chromatic number of G(n,1/2) whp, with her open
-questions whether a lower bound on the interval length holds for every
+n^(1/2-eps) contains the chromatic number of G(n,1/2) whp, with the paper's
+open questions whether a lower bound on the interval length holds for every
 large n and whether an exponent rho(n) governs the concentration.
 
 [[graph_coloring/heckel_2021_non_concentration_chromatic_number_random_graph/corollary_p12|corollary_p12]]: Heckel's unnumbered corollary, credited to Alex Scott, that Theorem 3's

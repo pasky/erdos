@@ -76,7 +76,7 @@ moduli 1 < a_1 < ... < a_n <= x and arbitrary residues that cover every
 integer 1 <= m <= x, showing that the least reciprocal sum mu(x) satisfies
 1/2 < mu(x) < log(5/2) + o(1/x), as printed; the reciprocal sum of the
 explicit construction of Section 5 exceeds log(5/2) by a quantity of order
-1/x. Ruzsa states, without proof, that he can improve the lower bound to
+1/x. Ruzsa states, without proof, that the lower bound can be improved to
 log(2^5 3^6/5^2 23^2), which is approximately 0.5675438, while the exact
 value and even the existence of the limit are left open. The moduli there are
 any distinct integers in (1,x], composite ones included; problem 1200 asks

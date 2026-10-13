@@ -223,7 +223,7 @@ $2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$ elements", and its abstract states
 that "$m>(2/3-\epsilon)n+(\log n)$ is impossible for $\epsilon=1/512$",
 having written the simple bound as $2n/3+O(\log n)$; the site and the
 formal-conjectures variant print that last term as $+\log N$; the paper
-nowhere prints $1/3584$, so Freud's figure is not the published one (his
+nowhere prints $1/3584$, so Freud's figure is not the published one (the
 note of January 1993 predates the paper's receipt in February 1993 and its
 revised acceptance in April 1995). The paper's Lemma 1.1 (p. 173) is the
 layer argument above with the explicit bound $2n/3+\tfrac32(\log_4n+1)$, and

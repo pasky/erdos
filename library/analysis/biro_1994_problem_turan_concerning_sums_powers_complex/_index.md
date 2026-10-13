@@ -20,7 +20,7 @@ consecutive coefficient partial sum.
 [[analysis/biro_1994_problem_turan_concerning_sums_powers_complex/theorem_1|theorem_1]]: Derives two power-sum identities from Newton--Girard and combines them with
 the coefficient-sum dichotomy to prove a strict one-half bound.
 
-[[analysis/biro_1994_problem_turan_concerning_sums_powers_complex/theorem_2|theorem_2]]: Biró's refinement of his one-half bound to systems whose first m members
+[[analysis/biro_1994_problem_turan_concerning_sums_powers_complex/theorem_2|theorem_2]]: Biró's refinement of the one-half bound to systems whose first m members
 equal one: the largest modulus among the first n-m+1 power sums exceeds m
 times 1/2 + (1/8)(m/n) + (3/64)(m/n)^2, which for m = 1 sharpens Theorem 1
 by a term of order 1/n.

@@ -40,7 +40,7 @@ journal's own name is Matematikai Lapok), filed as
 [[additive_combinatorics/erdos_1962_szamelmeleti_megjegyzesek/_index|erdos_1962_szamelmeleti_megjegyzesek]];
 Erdős, Nicolas and Sárközy, Sommes de sous-ensembles (1991), filed as
 [[additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/_index|erdos_1991_sommes_de_sous_ensembles]];
-Freiman's 1959 paper The addition of finite sets (Russian) and his 1973
+Freiman's 1959 paper The addition of finite sets (Russian) and 1973
 monograph Foundations of a Structural Theory of Set Addition; and Straus, On
 a problem in combinatorial number theory, J. Math. Sci. 1 (1966), 77--80
 (not held). The sequel, part 2 (Astérisque 258 (1999), 141--148), is filed

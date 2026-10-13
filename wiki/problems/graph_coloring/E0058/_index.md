@@ -49,8 +49,8 @@ https://www.erdosproblems.com/58.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/58.lean),
 added on 2026-09-09, after the site access. The Lean development that
-declares itself a formalization of Gyárfás's solution is linked from his
-claim page.
+declares itself a formalization of Gyárfás's solution is linked from the
+solution's claim page.
 
 ## Current assessment
 

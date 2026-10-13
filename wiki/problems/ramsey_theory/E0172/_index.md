@@ -320,8 +320,8 @@ only. (2) The proofs of Moreira's Corollary 1.5, Bowen's Theorem 1.1, Bowen
 and Sabok's Theorem 1.1 and Alweiss's Theorem 1.3 are not compiled
 (statements only). (3) The published versions of Bowen 2022 and Bowen--Sabok
 were not compared with the arXiv versions cited, and Alweiss's acceptance
-rests on his arXiv comment. (4) The preprints [ABS25], [GrSa25] and [HIL23]
-are cited from their abstracts only.
+rests on the author's arXiv comment. (4) The preprints [ABS25], [GrSa25] and
+[HIL23] are cited from their abstracts only.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

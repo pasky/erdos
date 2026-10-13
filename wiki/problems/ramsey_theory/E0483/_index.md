@@ -223,7 +223,7 @@ lower half is Exoo's
 from Fredricksen and Sweet's
 [[../library/ramsey_theory/fredricksen_2000_symmetric_sum_free_partitions_lower_bounds/constructions_p6|constructions]]
 (2000; the 536 partition recomputed here), $f(7)\ge1697$ and $f(8)\ge5287$
-from Rowley (2021; second-hand from his arXiv abstract and from Table 1 of
+from Rowley (2021; second-hand from its arXiv abstract and from Table 1 of
 Ageron et al.), and $f(9)\ge17\,804$, $f(10)\ge60\,949$, $f(11)\ge203\,829$,
 $f(12)\ge644\,629$ from Table 3 of Ageron et al.
 
@@ -241,7 +241,7 @@ $S(k+5)\ge376S(k)+160$, also superseded.
 Upper bound for $k\ge4$: $f(k)\le(e-\tfrac16)k!$. The site's source is
 [XXC02], not held; the bound is proved in English as Eliahou's
 [[../library/ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/corollary_2|Corollary 2]],
-$R_n(3)\le n!(e-1/6)+1$ for $n\ge4$, proved from his
+$R_n(3)\le n!(e-1/6)+1$ for $n\ge4$, proved from
 [[../library/ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/theorem_1|Theorem 1]]
 (any bound $R_k(3)\le k!(e-q)+1$ with $k!q\in\mathbb N$ propagates through the
 Greenwood–Gleason recursion $R_n(3)\le n(R_{n-1}(3)-1)+2$) and the
@@ -251,14 +251,14 @@ With $S(n)\le R_n(3)-2$ (Eliahou's display (6); Fredricksen and Sweet's
 display (2); Exoo's $R_k(3)\ge S(k)+2$, all from the difference coloring of
 $K_{S(n)+1}$), $f(k)=S(k)+1\le R_k(3)-1\le(e-\tfrac16)k!$ for $k\ge4$.
 Eliahou's introduction (pp. 1--2) attests the chain Greenwood and Gleason $n!e+1$, Whitehead $n!(e-1/24)+1$, Wan
-$n!(e-e^{-1}+3)/2+1$, Xu–Xie–Chen $n!(e-1/6)+1$, and his Corollaries 3--4 show
-what the conjectured $R_4(3)=51$ (giving $e-5/8$) or $R_4(3)\le54$ (giving
-$e-1/2$) would yield; none of these is exponential. Wan's link of the chain is
-checked first-hand: his
+$n!(e-e^{-1}+3)/2+1$, Xu–Xie–Chen $n!(e-1/6)+1$, and the paper's Corollaries
+3--4 show what the conjectured $R_4(3)=51$ (giving $e-5/8$) or $R_4(3)\le54$
+(giving $e-1/2$) would yield; none of these is exponential. Wan's link of the
+chain is checked first-hand:
 [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_2_4|Theorem 2.4]]
 (p. 121) proves $R_n(3)\le n!(e-e^{-1}+3)/2+1$ for $n\ge4$ from Folkman's
 $R_4(3)\le65$ by a parity refinement of the Greenwood–Gleason recursion, and
-his
+Wan's
 [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_3_2|Theorem 3.2]]
 (p. 121) gives $f(n)<n!(e-e^{-1}+3)/2-n+2$ for even $n\ge6$ directly in this
 page's convention; both are weaker than $(e-1/6)n!$ for every $n\ge4$, so they

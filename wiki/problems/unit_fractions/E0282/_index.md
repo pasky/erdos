@@ -42,7 +42,7 @@ removed from $A$), and the 1980 monograph asks Stein's question for
 representations by *distinct* odd unit fractions (below). Pihko's published
 form of the question takes the greatest odd unit fraction not exceeding the
 remainder, which repeats a denominator only as $x_1=x_2=3$ when $x\ge2/3$
-(his Remark 2.4 for $x_2=x_1$; later denominators increase strictly); under
+(Pihko's Remark 2.4 for $x_2=x_1$; later denominators increase strictly); under
 the unused-denominator rule $2/3$ gives $1/3+1/5+1/9+1/45$. So the greedy odd
 algorithm never repeats a denominator when $x<2/3$, and the two conventions
 make the same choice at every step and produce the same run for every $x<2/3$;
@@ -328,7 +328,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar full text, X. Not held: the
 monograph's [Al-Li (63)], [Stew$_1$ (54)] and [Bre (54)], and Klee and
 Wagon's problem book.
 
-**Remaining gaps.** (1) Stein's question has no publication of his own:
+**Remaining gaps.** (1) Stein's question has no publication by its poser:
 the monograph cites a personal communication, and Guy's book attributes the
 question to Stein, Selfridge, Graham and others. (2) The site's
 unused-denominator convention and Pihko's agree on every $x<2/3$

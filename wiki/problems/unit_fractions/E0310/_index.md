@@ -183,12 +183,12 @@ the printed proof that are to be compared with the published version before
 any rewrite; the status rests on the refereed publication, and the read
 depth is claims checked.
 
-Bloom's qualitative route, as the site attributes it: his
+Bloom's qualitative route, as the site attributes it:
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_2|Theorem 2]]
 (arXiv v2, p. 1; J. Eur. Math. Soc. 27 (2025); refereed, and formally
 verified by Bloom and Mehta per the paper's Appendix B) says that every
 set of positive upper density has a finite subset with reciprocal sum $1$;
-its proof begins by applying his
+its proof begins by applying
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/proposition_1|Proposition 1]]
 (p. 4) to a dense finite set $A\subseteq[1,N]$, after discarding a small
 exceptional part, with parameters $y,z$ depending only on the density, and
@@ -273,7 +273,7 @@ statement file `310.lean`, added 20 September 2026, is a `sorry` whose
 `formal_proof` attribute points at this file; it is a statement, not a
 formalization, and is not linked from the claim pages. Bloom and Mehta's
 Lean 3 formalization of Bloom's paper (recorded on the Bloom card) proves
-his density theorem, not this problem's statement.
+the density theorem, not this problem's statement.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

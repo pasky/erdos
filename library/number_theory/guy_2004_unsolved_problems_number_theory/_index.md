@@ -472,7 +472,7 @@ Elliott--Halberstam conjecture, and their normal order $he^\gamma\ln\ln\ln n$
 for $\phi_h(n)/\phi_{h+1}(n)$.
 [[../wiki/problems/arithmetic_functions/E0409/_index|#409]], not named on the
 page: B41, p. 148 (PDF p. 166, text layer), Finucane's iteration of $\phi(n)+1$
-and his questions: in how many steps a prime is reached; for a prime $p$, how
+and their questions: in how many steps a prime is reached; for a prime $p$, how
 the $n$ whose sequences end in $p$ are distributed; whether 5, 8, 10, 12 are
 the only numbers leading to 5, and 7, 9, 14, 15, 16, 18, 20, 24, 30 the only
 ones leading to 7.
@@ -517,8 +517,9 @@ further questions on $B(x)$ and $C(x)$.
 page: A14 '"Good" primes and the prime number graph', p. 54 (PDF p. 73, text
 layer), the Erdős--Straus good primes, those $p_n$ with $p_n^2>p_{n-i}p_{n+i}$
 for all $1\le i\le n-1$ (for example 5, 11, 17 and 29), Pomerance's proof by
-the prime number graph (see A5) that there are infinitely many, and his further
-questions on their density and on the sums and products of neighboring primes.
+the prime number graph (see A5) that there are infinitely many, and
+Pomerance's further questions on their density and on the sums and products
+of neighboring primes.
 [[../wiki/problems/divisors/E0470/_index|#470]], not named on the page: B2, p.
 77 (PDF p. 95, text layer), Benkoski's weird numbers, abundant but not
 pseudoperfect, the 24 primitive weird numbers below a million, Benkoski and
@@ -683,8 +684,8 @@ $d(n+k)$ are all distinct; only trivial bounds are known, and the section
 guesses $k=(\ln n)^c$.
 [[../wiki/problems/divisors/E0946/_index|#946]], not named on the page: B18,
 pp. 111--112 (PDF pp. 129--130, text layer), Claudia Spiro's proof that
-$d(n)=d(n+5040)$ has infinitely many solutions, Heath-Brown's use of her ideas
-to show that $d(n)=d(n+1)$ has infinitely many solutions, and Pinner's
+$d(n)=d(n+5040)$ has infinitely many solutions, Heath-Brown's use of Spiro's
+ideas to show that $d(n)=d(n+1)$ has infinitely many solutions, and Pinner's
 extension to $d(n)=d(n+a)$ for every integer $a$, with the counts
 $\ll x/(\ln\ln x)^{1/2}$ (Erdős, Pomerance and Sárközy) and
 $\gg x/(\ln\ln x)^3$ (Hildebrand).

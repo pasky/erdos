@@ -92,7 +92,7 @@ for $n=3$ and $n=5$ blocks of four, so for every $n\geq 3$; and
 for every $n\geq 5$ blocks of five. The last three also answer the
 fixed-$n$ reading. Each of the last three pages lists `refereed` evidence
 and the curator's credit as `reviewed`; the site does not credit Skałba, so
-his page lists `refereed` alone. Ulas conjectured that, for every fixed
+the first page lists `refereed` alone. Ulas conjectured that, for every fixed
 block size, the solutions become infinite in number once $n$ is large
 enough; that conjecture is open, and
 [[problems/diophantine_problems/E0930/_index|Problem 930]] asks a more general

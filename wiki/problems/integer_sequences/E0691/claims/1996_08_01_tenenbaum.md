@@ -40,7 +40,7 @@ and is not Behrend if $\alpha>\log2$. The paper notes that Erdős's original
 claim, a critical exponent under the one-sided condition
 $T_{j+1}/T_j\ge1+c_1$ alone, is false as it stands: Theorem A of Hall and
 Tenenbaum makes $A$ non-Behrend for every $\alpha$ when, for instance,
-$T_j=\exp\exp j$. Tenenbaum writes that he understood from later discussions
+$T_j=\exp\exp j$. Tenenbaum writes of having understood from later discussions
 with Erdős that a two-sided condition on the ratios was meant, so that the
 corollary confirms the conjecture exactly, with the added information that
 the critical exponent is $\log2$. The paper presents the corollary as an

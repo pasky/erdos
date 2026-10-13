@@ -64,8 +64,8 @@ explicit in their 1985 note. The note's six pages indeed contain no such
 construction. Fan's § 2 (pp. 251--252) prints the construction in full, with the
 bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
 ([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]]).
-Fan credits it to "the construction described in [4]", his reference [4] being
-that same 1985 note.
+Fan credits it to "the construction described in [4]", the paper's reference [4]
+being that same 1985 note.
 
 The value of $h(n)/n$ is not known. No source settling the "in particular"
 question was found in the search whose scope the Current assessment records.
@@ -210,7 +210,7 @@ is empty; the community database record says open.
   existence of a tringle [sic] $xyz$, with $\deg x+\deg y+\deg z>n(1+\eta)$ for
   small $\eta>0$" (the triangle with its incident edges being the chordal
   subgraph). So $h(n)\ge(1+\eta)n$ for large $n$ and an unspecified $\eta>0$,
-  the bound Fan's abstract says he improves (p. 249). Read depth: claims
+  the bound Fan's abstract says the paper improves (p. 249). Read depth: claims
   checked; the proof (pp. 83--85) read for structure.
 - The regime $e\ge n^2/3$ is different: there Edwards's 1977 theorem, as
   [ErLa85] p. 82 states it ("any graph $G(n,m)$ with $m\ge n^2/3$ contains a
@@ -246,8 +246,8 @@ the site credits [ErLa85] and says the bound is not explicit there; the six
 pages of [ErLa85] carry no construction bounding a triangle's degree sum
 from above (their only extremal graph is the complete bipartite
 graph of Theorem 1, which has no triangle); Fan writes "we use the
-construction described in [4]" (p. 251), and his reference [4] (p. 263) is
-[ErLa85], not [ErLa83]. [Er93], Chapter V, problem 3, printed p. 344,
+construction described in [4]" (p. 251), and the paper's reference [4] (p. 263)
+is [ErLa85], not [ErLa83]. [Er93], Chapter V, problem 3, printed p. 344,
 states the bounds as display (1),
 "$2(\sqrt3-1)n\ge h(n)>\frac{21n}{16}$", and says "The upper bound is due to
 Renu Laskar and myself [45] and the lower bound is due to G. Fan [46] who

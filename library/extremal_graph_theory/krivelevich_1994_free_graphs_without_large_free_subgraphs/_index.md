@@ -39,7 +39,7 @@ Krivelevich, Michael, $K^s$-free graphs without large $K^r$-free subgraphs.
 Combin. Probab. Comput. 3 (1994), no. 3, 349-354,
 doi:10.1017/S0963548300001243 (Crossref record read).
 
-The copy read for this card is the author's AMS-TeX typescript from his
+The copy read for this card is the AMS-TeX typescript from the author's
 publications page, five pages
 paginated 1-5 with a text layer; it carries no journal pagination, so the
 locators here are typescript pages (the definition and the Bollobás-Hind

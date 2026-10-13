@@ -174,7 +174,7 @@ with the axiom discharged by its PNT+ library, and formal-conjectures links
 that file as the problem's formal proof since 2026-09-18. The claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
 records these artifacts at pinned revisions, and Brown's page links the
-repository file, whose header names him; this corpus has built, replayed
+repository file, whose header names Brown; this corpus has built, replayed
 or checked none of them for statement fidelity, so no external Lean
 acceptance and no native Lean proof coverage is claimed. The classical
 source theorem supports the mathematical status independently of the

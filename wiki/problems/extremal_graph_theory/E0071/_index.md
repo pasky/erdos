@@ -112,8 +112,8 @@ residue count.
 **The Lean label.** As recorded under Formalization: a statement-only
 formal-conjectures file whose `formal_proof` attribute names the erdos-lean
 proof of 2026-05-24. That proof follows Bollobás's argument, so it is a
-formalization link on his claim page and not a claim of its own; this corpus
-has not built or audited it, and no outside review of its statement is
+formalization link on the argument's claim page and not a claim of its own; this
+corpus has not built or audited it, and no outside review of its statement is
 published. It adds no acceptance evidence to the refereed one.
 
 **Search scope (2026-10-07 UTC).** The site's problem page, thread and

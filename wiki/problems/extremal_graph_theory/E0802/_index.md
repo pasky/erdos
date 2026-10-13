@@ -236,7 +236,7 @@ $r$), with $t$ the average degree:
   the 1981 bound $c'(r)\,n\ln\ln d/d$ and "does not settle the question
   (asked in [1])" of the $\ln d/d$ order, which it notes holds for
   triangle-free graphs; so the paper records this problem open as of 1995.
-  Alon's quotation of the bound on p. 1 of [Al96b], in his indexing
+  Alon's quotation of the bound on p. 1 of [Al96b], in its indexing
   ($K_{r+1}$-free), agrees with the printed corollary up to that shift of
   index. The corollary is a two-step reduction (delete the vertices of
   degree above $2d$, then regularize) to the paper's Theorem 1, the same

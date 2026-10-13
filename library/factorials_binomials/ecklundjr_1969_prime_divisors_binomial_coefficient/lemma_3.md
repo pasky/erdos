@@ -20,7 +20,7 @@ $$
 $$
 
 Ecklund prints Lemma 3 (p.268) as display (8) alone, with $n$ for the power
-parameter written $a$ here and no stated range; he says it is proved by
+parameter written $a$ here and no stated range; the paper says it is proved by
 induction on that parameter for all values of $k$. The range $a\geq1$ is
 needed, since at $a=0$ the left side exceeds $\binom kk=1$ once $k\geq2$.
 The theorem applies it with $a=2,3,4$.

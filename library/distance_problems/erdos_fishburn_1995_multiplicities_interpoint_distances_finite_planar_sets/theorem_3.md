@@ -25,7 +25,7 @@ The paper proves neither bound. It credits the lower bound to a construction
 of Edelsbrunner and Hajnal (its reference [4], J. Combin. Theory Ser. A 56
 (1991), 312-316) and the upper bound to Füredi (its reference [13],
 J. Combin. Theory Ser. A 55 (1990), 316-320), adding that Füredi says a
-refinement of his proof replaces $6$ by $\pi$ (p. 144).
+refinement of the proof replaces $6$ by $\pi$ (p. 144).
 
 **Source.** Paul Erdős and Peter C. Fishburn, Multiplicities of interpoint
 distances in finite planar sets, Discrete Appl. Math. 60 (1995), no. 1-3,

@@ -26,9 +26,9 @@ such that $a+b\neq 2^k$ for any $a,b\in A$ and $k\geq 0$?
 **Status.** The site labels the problem PROVED (LEAN) (page last edited 20
 January 2026). Müller ([Mu11], refereed) shows that the integers whose odd part
 is $3\pmod4$ have density $1/2$, and that no two of them, equal or not, sum to a
-power of two. He also shows that no set with the property has lower density
-above $1/2$. The site's curator, Thomas Bloom, records this as the resolution.
-The claim page
+power of two. The paper also shows that no set with the property has lower
+density above $1/2$. The site's curator, Thomas Bloom, records this as the
+resolution. The claim page
 [[problems/integer_sequences/E1136/claims/2011_01_01_muller|Müller 2011]]
 records the acceptance. The site's (LEAN) suffix is its catalog label. The
 outside Lean files it rests on are described under Formalization and on the

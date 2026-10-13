@@ -91,7 +91,7 @@ $\varrho^+_Q(p^\nu)\leq g^t(\nu+1)^{t-1}p^{\nu(t-1/g)+v_p(c(Q))/g}$ for any
 $Q$ of degree $g$, by induction on $t$ from Stewart's bound; Lemma 4.3
 (pp. 5--6) is the combinatorial-sieve count of $\boldsymbol n$ in the box
 with prescribed $a_h\Vert R_h(\boldsymbol n)$. Substituting Lemma 4.3 for
-Henriot's Lemma 6 in his proof of Theorem 5 gives (3.3); the proof of
+Lemma 6 in Henriot's proof of Theorem 5 gives (3.3); the proof of
 Lemma 4.3 omits further details.
 
 ## Read depth

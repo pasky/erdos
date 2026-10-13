@@ -83,8 +83,8 @@ electronically 20 August 2025. The arXiv record (v1 of 21 October 2024, CC BY
 Not counted as formalized: a public Lean formalization exists, but the corpus
 has not built it or audited its statement. On 20 April 2026, Lorenzo Luccioli
 posted to the problem's thread a formalization of the paper's result produced
-with Aristotle. On 24 April 2026 he posted a refined version that carries the
-paper's quantitative rate for the normalized quantity `fSeq`. Both gists are
+with Aristotle. On 24 April 2026 Luccioli posted a refined version that carries
+the paper's quantitative rate for the normalized quantity `fSeq`. Both gists are
 linked above by their posting dates. The file in plby/lean-proofs, linked at its
 commit of 1 August 2026, collects this formalization. It names Bradač and
 Christoph as informal authors and Aristotle and Luccioli as formal authors. It

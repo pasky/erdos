@@ -35,7 +35,7 @@ edited 12 January 2026). The standing in the frontmatter derives from the claim
 pages. The site credits a proof worked out in its discussion thread by Cambie,
 Kovač and Tao in August 2025, recorded on
 [[problems/factorials_binomials/E0379/claims/2025_08_28_cambie_kovac_tao|its claim page]].
-The Lean qualifier refers to Tao's formalization of that proof in his analysis
+The Lean qualifier refers to the formalization of that proof in Tao's analysis
 repository, which this corpus has not built. There is no refereed write-up. A
 second, independent proof was produced by the Seed-Prover 1.5 system and posted
 in the thread by Zheng Yuan on 21 December 2025. It is an accepted claim on

@@ -25,7 +25,7 @@ updated: 2026-10-07T22:00:37Z
 **Claim.** Theorem 1.3 of R. D. Mauldin, Some problems in set theory,
 analysis and geometry, in Paul Erdős and his Mathematics I, Bolyai Soc. Math.
 Stud. 11 (2002), 493–506, which Mauldin states as a result of Chris Freiling
-and himself: if $A\subseteq\mathbb{R}^2$ contains no three points spanning a
+and the author: if $A\subseteq\mathbb{R}^2$ contains no three points spanning a
 triangle of area greater than $1$, then the disk whose area equals the outer
 measure of $A$ contains no such triangle either, so the outer measure of $A$
 is at most $c_0=4\pi/(3\sqrt3)=4\pi/\sqrt{27}$. The proof passes from $A$ to
@@ -35,7 +35,7 @@ Steiner symmetrizations of that convex body, which converge to a disk of the
 same area. Mauldin presents the theorem as evidence for Erdős's conjecture
 that $c_0$ is the best constant in
 [[problems/discrete_geometry/E0352/_index|Problem 352]]; the conjecture itself
-he states as open.
+the author states as open.
 
 **Covers.** The convex sets among the measurable $A\subseteq\mathbb{R}^2$
 that the question quantifies over, answered yes with any $c>4\pi/\sqrt{27}$:

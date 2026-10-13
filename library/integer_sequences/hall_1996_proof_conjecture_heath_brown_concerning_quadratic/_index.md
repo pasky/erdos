@@ -12,8 +12,8 @@ updated: 2026-10-08T18:25:18Z
 
 [[integer_sequences/_index|..]]
 
-[[integer_sequences/hall_1996_proof_conjecture_heath_brown_concerning_quadratic/conjecture_p581|conjecture_p581]]: Heath-Brown's conjecture, which Hall proves as a corollary of his Theorem:
-there is an absolute delta > 0 such that for every prime p and every
+[[integer_sequences/hall_1996_proof_conjecture_heath_brown_concerning_quadratic/conjecture_p581|conjecture_p581]]: Heath-Brown's conjecture, which Hall proves as a corollary of the paper's
+Theorem: there is an absolute delta > 0 such that for every prime p and every
 positive integer n, at least a proportion delta of the integers up to n
 are quadratic residues mod p; the paper states delta >= (1+c)/2.
 

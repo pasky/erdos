@@ -170,8 +170,8 @@ site key for the problem.
 [[../wiki/problems/set_systems/E1178/_index|#1178]]: printed pp. 299--300 (PDF
 pp. 5--6), page images, Chapter I: with $f_r(n;k,l)$ the least number of
 $r$-tuples on $n$ vertices that forces $k$ vertices spanning $l$ of them, the
-conjecture (7) of Sós, Brown and Erdős that $f_3(n;6,3)=o(n^2)$, which
-Szemerédi had just proved with his lemma; Ruzsa's $f_3(n;6,3)>cn\,r_3(n)$; the
+conjecture (7) of Sós, Brown and Erdős that $f_3(n;6,3)=o(n^2)$, which Szemerédi
+had just proved with the regularity lemma; Ruzsa's $f_3(n;6,3)>cn\,r_3(n)$; the
 expectation that $f_3(n;k,k-3)=o(n^2)$ for every $k$; and the guess (8),
 $c_1n\,r_{k-3}(n)<f_3(n;k,k-3)<c_2n\,r_{k-3}(n)$ for every $k\ge6$, whose
 lower bound Ruzsa had proved for $k=6,7,8$. This is the $r=3$ case of the

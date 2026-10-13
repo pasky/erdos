@@ -296,7 +296,7 @@ and on 2026-10-06 the label was OPEN and the commentary did not mention the
 claim, and none of the five comments on the claim reviews the write-up: one
 asks whether Erdős wanted an exact first-order asymptotic, one distinguishes an
 estimate from an order of growth, and the site's curator, Thomas F. Bloom,
-writes that he keeps the problem open where there is ambiguity and asks whether
+writes of keeping the problem open where there is ambiguity and asks whether
 $h(n)=o(n^{1/2})$. Since 2026-09-29 the formal-conjectures catalog has carried
 the lower bound as the variant `erdos_789.variants.sqrt_loglog_div_log_isBigO`,
 marked solved with a `formal_proof` in a fork, as the Formalization paragraph

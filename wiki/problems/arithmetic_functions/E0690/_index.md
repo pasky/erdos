@@ -98,7 +98,7 @@ no literature database searched.
 ## Known Results
 
 Cambie's $d_k(p)$ counts the event that $p$ is the $k$th smallest
-*distinct* prime divisor; exponents do not affect the event. His Theorem 5
+*distinct* prime divisor; exponents do not affect the event. Theorem 5 of [Ca25]
 proves unimodularity for $k=1,2,3$ and non-unimodularity for every
 $4\leq k\leq20$. The finite checks in this transcription were recomputed with
 exact rational recurrence arithmetic. For example,

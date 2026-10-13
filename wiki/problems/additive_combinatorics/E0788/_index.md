@@ -54,7 +54,7 @@ The bounds in hand are $n^{1/2}\ll f(n)\le n^{3/5+o(1)}$. The lower bound is
 elementary. It comes from the greedy argument of Baltz, Schoen and Srivastav (p.
 172, $f(n)\ge\sqrt n$; Colloq. Math. 86 (2000), refereed) and from the interval
 construction the site credits to its discussion thread ($f(n)\ge2\sqrt n-2$).
-Choi's $f(n)\ll n^{3/4}$ and his conjecture $f(n)\le n^{1/2+o(1)}$ (1971, not
+Choi's $f(n)\ll n^{3/4}$ and the conjecture $f(n)\le n^{1/2+o(1)}$ (1971, not
 held) are attested by Erdős 1973 and by the 2000 paper. Theorem 2 of that paper
 gives the best refereed upper bound found, $f(n)=O((n\log n)^{2/3})$. Both are
 accepted partial claims, on

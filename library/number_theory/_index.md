@@ -239,9 +239,9 @@ totient iterates and weird numbers of part B and the 3x+1 problem of E16.
 d-space can fall into one unit ball: 2^n n^{-d/2} for d-dimensional
 configurations (Theorem 1), 2^n n^{-1-d/2} when the vectors are also
 1-separated (Theorem 2) and 2^n n^{-3d/2} for scattered ones (Theorem 3),
-from his concentration inequality for sums of independent random vectors
-(Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the number
-of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
+from the paper's concentration inequality for sums of independent random
+vectors (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the
+number of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
 
 [[number_theory/halbeisen_hungerbuhler_1997_optimal_rational_cycle_bounds/_index|halbeisen_hungerbuhler_1997_optimal_rational_cycle_bounds/]]: Proves optimal length bounds for positive rational Collatz cycles and derives
 a lower bound of 102225496 on the length of any nontrivial integer cycle,

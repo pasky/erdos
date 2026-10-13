@@ -181,8 +181,8 @@ The
 calls a coloring with no monochromatic triangle *good*, writes
 $(3,3,3;n)$-coloring for a good 3-coloring of $K_n$, and takes
 isomorphism in the weak sense that permutes colors as well as vertices
-(its pp. 42 and 54); Heinrich's "proper" is its "good", her isomorphism,
-which allows "an exchange of colours", is its weak isomorphism, and her
+(its pp. 42 and 54); Heinrich's "proper" is its "good", Heinrich's isomorphism,
+which allows "an exchange of colours", is its weak isomorphism, and Heinrich's
 "embedded in" is its "contained in". Its two statements attributed to
 Heinrich [6] are both Theorem 2: on its pp. 45--46, that deleting one point
 from each of the two good 3-colorings of $K_{16}$ gives exactly two

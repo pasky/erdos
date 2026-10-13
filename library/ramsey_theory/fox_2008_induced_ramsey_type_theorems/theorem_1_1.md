@@ -25,7 +25,7 @@ $2^{-ck(\log\frac1\epsilon)^2}n$ vertices with edge density either at most
 $\epsilon$ or at least $1-\epsilon$."
 
 Rödl's theorem gives the same conclusion with a positive constant
-$\delta(\epsilon,H)$ in place of $2^{-ck(\log\frac1\epsilon)^2}$; his proof
+$\delta(\epsilon,H)$ in place of $2^{-ck(\log\frac1\epsilon)^2}$; its proof
 uses Szemerédi's regularity lemma, and the bound it gives on
 $\delta(\epsilon,H)$ is poor (pp. 2--3). Theorem 1.1 makes that constant
 explicit without the regularity lemma. The paper adds that the same

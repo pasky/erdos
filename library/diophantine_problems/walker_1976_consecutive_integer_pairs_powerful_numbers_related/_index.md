@@ -48,17 +48,17 @@ Diophantine equations. Fibonacci Quart. 14(2) (1976), 111-116.
 Following Golomb's split of consecutive powerful-number pairs into Type I (one
 member a perfect square) and Type II (neither a square), Walker gives a complete
 description of both. Type I pairs correspond to solutions of the Pell equation
-X^2 - D Y^2 = +-1 in which D Y^2 is powerful, which he encodes as 'property Q':
-a solution u + v sqrt(D) has property Q if every prime dividing D also divides
-v. Theorem 2.1 recalls how powers of the fundamental solution generate all
-positive solutions, and Theorem 2.2 settles when property Q occurs: with the
-minus sign and D even no solution has it; if the fundamental solution has
-property Q then all positive solutions do; otherwise the least solution with
-property Q, when it exists, is the i-th power of the fundamental solution x + y
-sqrt(D), with i the product of those odd primes that divide D and do not divide
-y. Lemmas 2.3 and 2.4 show property Q is preserved under multiplication of
-solutions and relate the least such solutions for the two signs, and Theorem 2.5
-shows the powers of the least property-Q solution (odd powers for the minus
+X^2 - D Y^2 = +-1 in which D Y^2 is powerful, which Walker encodes as
+'property Q': a solution u + v sqrt(D) has property Q if every prime dividing D
+also divides v. Theorem 2.1 recalls how powers of the fundamental solution
+generate all positive solutions, and Theorem 2.2 settles when property Q occurs:
+with the minus sign and D even no solution has it; if the fundamental solution
+has property Q then all positive solutions do; otherwise the least solution with
+property Q, when it exists, is the i-th power of the fundamental solution
+x + y sqrt(D), with i the product of those odd primes that divide D and do not
+divide y. Lemmas 2.3 and 2.4 show property Q is preserved under multiplication
+of solutions and relate the least such solutions for the two signs, and Theorem
+2.5 shows the powers of the least property-Q solution (odd powers for the minus
 sign) give all positive property-Q solutions. The second part of the paper
 treats Type II pairs through solutions of m X^2 - n Y^2 = +-1 (Theorems 3.2 and
 3.5), and its closing example (p. 116) is a Type II pair, 48,689,748,233,307 =

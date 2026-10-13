@@ -33,7 +33,7 @@ Sárközy and Sós, and the site's remark accepts that answer. In that reading,
 for every residue $r$ the proportion of the elements of $A+A$ congruent to $r$
 modulo $m$ tends to $1/m$ as $N\to\infty$, and the standing below answers it.
 Kolountzakis's bounds also allow moduli that grow with $N$, but only in ranges
-that depend on $N^{1/2}-\lvert A\rvert$, as his claim page states; for a set
+that depend on $N^{1/2}-\lvert A\rvert$, as their claim page states; for a set
 known only to satisfy $\lvert A\rvert\sim N^{1/2}$ they give no range of moduli
 up to a fixed power of $N$.
 

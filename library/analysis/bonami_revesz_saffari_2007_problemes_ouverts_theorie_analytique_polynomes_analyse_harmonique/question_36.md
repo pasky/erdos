@@ -28,7 +28,7 @@ step toward positive answers to
 [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_38|Question 38]]
 and
 [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_39|Question 39]].
-She does not say that it implies them.
+Déchamps does not say that it implies them.
 
 **Source.** Myriam Déchamps, "Quelques questions ouvertes sur les racines de
 l'unité et les ensembles de Sidon," pp. 18--21 of *Problèmes ouverts: Théorie

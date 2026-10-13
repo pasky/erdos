@@ -43,14 +43,14 @@ $C_1\log n<a+b-n<C_2\log n$ and $a!\,b!\mid n!\,(a+b-n)!$. The result is
 recorded on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]].
 The Lean qualifier refers to Aristotle's formalization of the ChatGPT-5.2
-argument. Barreto posted it, and Boris Alexeev shortened it in his repository of
+argument. Barreto posted it, and Boris Alexeev shortened it in a repository of
 formalized Erdős problems. This corpus has not built it. Nothing about the
 AI-generated proof is refereed.
 
 Carl Pomerance gave a separate proof, which gives a far larger gap for almost
-all $n$. It extends his 2015 method and was written after the thread asked him
-about the AI-generated proof. It was published in Integers in 2026 and is on the
-claim page
+all $n$. It extends Pomerance's 2015 method and was written after the thread
+asked the author about the AI-generated proof. It was published in Integers in
+2026 and is on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_14_pomerance|Pomerance 2026]].
 Two later AI-generated proofs posted to the site's thread are on the pending
 page

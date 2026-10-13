@@ -45,7 +45,7 @@ as printed there), and the site's Problem 791 asks its asymptotic form,
 "is it true that $g(n)\sim2n^{1/2}$?". Each of the three forms implies
 $\lim n_2(k)/k^2=\frac14$, and each is refuted by
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|Mrose's equation (3)]],
-$n_2(k)\ge\frac87(\frac k2)^2+O(k)$ (his $k$ counting positive elements,
+$n_2(k)\ge\frac87(\frac k2)^2+O(k)$ (its $k$ counting positive elements,
 which changes no ratio), so that $\liminf n_2(k)/k^2\ge\frac27>\frac14$
 and $\limsup g(n)/\sqrt n\le\sqrt{7/2}<2$; Kohonen 2017 raises the
 $\liminf$ to $\frac{85}{294}$.

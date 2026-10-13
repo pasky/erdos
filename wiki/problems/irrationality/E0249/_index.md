@@ -124,7 +124,7 @@ Of the three 1948 analogs, two are settled and this one is not:
 
 - $\sigma$ ([[problems/irrationality/E0250/_index|Problem 250]]): irrational for
   every integer base $q$ with $|q|\ge2$ by Duverney's Théorème ([Du95],
-  p. 1287; for $q=2$ his
+  p. 1287; for $q=2$ the paper's
   $\zeta(q;2)=(q-1)^2\sum\sigma(n)/q^n$ is the series itself), and
   transcendental as a corollary of Nesterenko's theorem on the algebraic
   independence of the values of the Ramanujan functions $P$, $Q$, $R$

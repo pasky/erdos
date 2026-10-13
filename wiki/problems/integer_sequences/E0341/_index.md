@@ -73,7 +73,7 @@ satisfies the exact greedy recurrence beyond $97$, and the controller's
 aperiodicity transfers to the gaps; a modification gives an infinite family of
 seeds. The accompanying Lean 4 development states the fixed-seed theorem and
 the family's, and its README reports the standard axioms only; that repository
-is not built here. Boris Alexeev's formalization of the result in his public
+is not built here. The formalization of the result in Boris Alexeev's public
 repository carries Li's fixed-seed files; this corpus built it at a pinned
 commit, checked its axioms and its fingerprint against the comparator
 challenge, and audited its theorem, as the claim page records. The

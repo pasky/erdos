@@ -129,9 +129,9 @@ $\min_{q\ne q'\in Q_n}|q-q'|<c/2^n$, notes $|Q_n|=\exp(nf(n)/\log n)$ with
 $f(n)\to\infty$ at rate $(\log\log\log n)^{1+o(1)}$ by the results of
 Problem 320, and since $Q_n\subseteq[0,\log n+1]$ obtains by the pigeonhole
 principle two members within $(\log n+1)/|Q_n|=2^{-n(\log\log\log
-n)^{1+o(1)}/\log n}$; he adds that $|Q_n|$ uniformly random points in
+n)^{1+o(1)}/\log n}$; van Doorn adds that $|Q_n|$ uniformly random points in
 $[0,\log n+1]$ would have minimum gap of order $|Q_n|^{-2-o(1)}$, the
-shape of the upper bound, which he reads as some doubt about the first
+shape of the upper bound, which they read as some doubt about the first
 question. The proof-claim tab is empty. The community database says open.
 
 **Origin.** Printed p. 42 of the 1980 monograph, after the discussion of
@@ -186,7 +186,7 @@ $\min_{\ne0}|\sum\delta_k/k|=1/\mathrm{lcm}(1,\ldots,n)$. Sawin's comment of 1 J
 [[problems/unit_fractions/E0311/_index|Problem 311]] observes that even the special
 case $\delta(N)>1/\mathrm{lcm}(1,\ldots,N)$ for the sums $1-\sum_{n\in A}1/n$
 seems nontrivial: equality would force $\mathrm{lcm}(1,\ldots,N)/p\equiv\pm1
-\pmod p$ with one common sign for every prime $p\in(N/2,N]$, which he
+\pmod p$ with one common sign for every prime $p\in(N/2,N]$, which Sawin
 regards as very unlikely but possibly hard to exclude. The exact zero sums
 that the second question excludes are the subject of
 [[problems/unit_fractions/E0319/_index|Problem 319]].

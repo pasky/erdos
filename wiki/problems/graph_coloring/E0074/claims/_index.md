@@ -11,7 +11,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/graph_coloring/E0074/_index|..]]
 
-[[problems/graph_coloring/E0074/claims/1982_12_01_rodl|1982_12_01_rodl]]: As the site credits him, Rödl (Combinatorica, 1982) builds for every fixed
+[[problems/graph_coloring/E0074/claims/1982_12_01_rodl|1982_12_01_rodl]]: As credited by the site, Rödl (Combinatorica, 1982) builds for every fixed
 $\epsilon>0$ a graph of infinite chromatic number whose $n$-vertex subgraphs
 become bipartite after deleting at most $\epsilon n$ edges. This corpus does
 not hold the paper.

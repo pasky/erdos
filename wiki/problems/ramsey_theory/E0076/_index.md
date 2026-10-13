@@ -161,7 +161,7 @@ $h(n)=(1+o(1))\frac{n^2}{12}$ (13)", which he notes is easily seen to be
 best possible if true, by the two-part coloring. The item then asks whether
 some absolute constant $c>0$ gives more than $(1+c)n^2/24$ edge-disjoint
 monochromatic triangles all of one color, and records Jacobson's conjecture
-that the right answer is $n^2/20$, with a simple example of his showing
+that the right answer is $n^2/20$, with a simple example of Jacobson's showing
 that this would be best possible. The 1999 booklet, item 3.54,
 attributes the question to Erdős, Faudree and Ordman and asks,
 with $f(n)$ the least number of edge-disjoint monochromatic triangles every

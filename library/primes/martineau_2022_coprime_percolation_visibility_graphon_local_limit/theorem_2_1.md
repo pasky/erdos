@@ -43,7 +43,7 @@ $F_r:=\{x\in\mathbb{Z}^{d}:r^{-1}x\in F\}$. Then, $\mu_{F_r,\mathsf{cop}}$
 converges to $\mu_{\infty,\mathsf{cop}}$ when $r$ goes to infinity."
 
 Remark 2.2 (p. 5) records that convergence for some sequences of balls was
-conjectured by Vardi (Conjecture 1 of his 1999 paper "Deterministic
+conjectured by Vardi (Conjecture 1 of the 1999 paper "Deterministic
 percolation") and proved by Pleasants and Huck (Theorem 1 of their 2013
 paper). For $d\ge2$ the theorem is a particular case of
 [[primes/martineau_2022_coprime_percolation_visibility_graphon_local_limit/theorem_1_1|Theorem 1.1]] (p. 4).

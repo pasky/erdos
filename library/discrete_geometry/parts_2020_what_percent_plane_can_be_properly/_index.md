@@ -22,7 +22,7 @@ partial tiling with six colors whose voids occupy a fraction about
 0.000143017209 of the plane, found by numerical optimization.
 
 [[discrete_geometry/parts_2020_what_percent_plane_can_be_properly/table_2|table_2]]: Parts' table of bounds on the order of unit-distance graphs in the plane,
-derived from his partial tilings by Pritikin's pigeonhole argument: every
+derived from the partial tilings by Pritikin's pigeonhole argument: every
 such graph with at most 6992 vertices is 6-colorable, every one with at
 most 24 vertices is 5-colorable, and a 7-chromatic one has at least 6993
 vertices.
@@ -38,7 +38,7 @@ print no page numbers; the result pages cite its pages counted from 1.
 Parts studies the largest fraction of the Euclidean plane that admits a proper
 partial tiling with a given number of colors, measured by the ratio rho_k of
 the plane's area to the area of the uncolored voids. Refining Pritikin's
-construction, a generalization of Pegg's heptagonal tiling, he obtains a
+construction, a generalization of Pegg's heptagonal tiling, Parts obtains a
 six-color partial tiling by non-convex curved 17-gons with rho_6 approximately
 6992.1655504123, so that more than 99.985698 percent of the plane is covered;
 this raises rho_6 by about 12.8 percent over Pritikin's construction (p. 10),

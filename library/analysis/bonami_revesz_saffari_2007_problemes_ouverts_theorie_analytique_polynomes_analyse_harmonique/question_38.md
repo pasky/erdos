@@ -27,10 +27,10 @@ of unity a union of finitely many quasi-independent subsets of $\mathbb C$?
 Context on the same pages. The author recalls (p. 19) that $e^{2\pi i\mathbb Q}$
 is not a finite union of sets linearly independent over $\mathbb Q$: the set of
 $n$-th roots of unity is a union of $M_n=[n/\phi(n)]+1$ independent sets, and
-the sequence $(M_n)$ is unbounded because $\sum_p1/p=\infty$. She recalls (pp.
-19--20) that a finite union of quasi-independent subsets of a discrete group is
-a Sidon set, and that the converse is open once groups whose elements all have
-order bounded by a given integer are excluded. A positive answer to
+the sequence $(M_n)$ is unbounded because $\sum_p1/p=\infty$. Déchamps recalls
+(pp. 19--20) that a finite union of quasi-independent subsets of a discrete
+group is a Sidon set, and that the converse is open once groups whose elements
+all have order bounded by a given integer are excluded. A positive answer to
 [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_35|Question 35]]
 would give negative answers to Questions 38 and 39 (p. 20).
 

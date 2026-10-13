@@ -18,7 +18,7 @@ there is no even cycle of length at least four, vertices off an odd cycle
 are pairwise nonadjacent and each meets the cycle at most once, so the
 graph has at most one cycle.
 
-[[distance_problems/shinohara_2008_uniqueness_maximum_planar_five_distance_sets/theorem_1_1|theorem_1_1]]: The results of Erdős and Fishburn that Shinohara quotes as his starting
+[[distance_problems/shinohara_2008_uniqueness_maximum_planar_five_distance_sets/theorem_1_1|theorem_1_1]]: The results of Erdős and Fishburn that Shinohara quotes as the starting
 point: a planar four-distance set has at most nine points, the nine-point
 ones are classified, and a planar five-distance set has at most twelve
 points, with a twelve-point example.
@@ -127,7 +127,7 @@ $$
 \Delta(A)=\{\|x-y\|:x,y\in A,\ x\ne y\},\qquad \mu_A(r)=\bigl|\{\{x,y\}\subset A:\|x-y\|=r\}\bigr|.
 $$
 
-Shinohara's $A(X)$ is $\Delta(A)$, and his diameter graph satisfies
+Shinohara's $A(X)$ is $\Delta(A)$, and the paper's diameter graph satisfies
 
 $$
 |E(DG(A))|=\mu_A(D),\qquad D=\max\Delta(A).

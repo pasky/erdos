@@ -43,11 +43,11 @@ $e=\binom m2$, that $e=19$ is the first case where it is not tight
 ($f(19)=12$ against the formula's $11$), and that the resulting question,
 whether the surplus of $f(e)$ over the formula is bounded, has been answered
 by Alon: for even $n$ and $e=n^2/2$ the surplus is at least $ce^{1/4}$ for an
-absolute constant $c>0$, while a construction of his bounds it above by
+absolute constant $c>0$, while Alon's construction bounds it above by
 $Ce^{1/4}$ for every positive $e$. Theorem 4 (p. 270) also gives, by the same partition method, the bound
 $b(G)\geq e/2+n/6$ for graphs of order $n$ without isolated vertices and the
 connected-graph bound $b(G)\geq e/2+(n-1)/4$, the second of which the paper
-credits to Edwards (Theorem 6 of his 1973 paper). The connected-graph bound
+credits to Theorem 6 of Edwards's 1973 paper. The connected-graph bound
 rests on Lemma 2 (p. 269), which for connected $G$ chooses the matching
 partition with at most one vertex outside its blocks; the paper deduces from
 it Corollary 3 (p. 270), a forest of induced stars covering all vertices but

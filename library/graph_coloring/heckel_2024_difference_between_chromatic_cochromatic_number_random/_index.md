@@ -14,8 +14,8 @@ updated: 2026-10-08T15:28:38Z
 
 [[graph_coloring/heckel_2024_difference_between_chromatic_cochromatic_number_random/conjecture_19|conjecture_19]]: Heckel's conjecture that the chromatic number of G(n,1/2) exceeds its
 cochromatic number by Θ(n/log³ n) with high probability, a conjecture the
-paper says was first mentioned in her earlier note on the Erdős–Gimbel
-question.
+paper says was first mentioned in the author's earlier note on the
+Erdős–Gimbel question.
 
 [[graph_coloring/heckel_2024_difference_between_chromatic_cochromatic_number_random/proposition_5|proposition_5]]: The key proposition behind Heckel's Theorem 1: under
 n^{0.05+ε} ≤ μ_α ≤ n^{1−ε} there is an (α−1)-bounded profile with

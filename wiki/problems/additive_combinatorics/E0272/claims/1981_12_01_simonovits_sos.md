@@ -58,7 +58,7 @@ $$
 
 and the authors conjecture (their Problem 1) that this lower bound is the
 exact value for large $N$, a conjecture Szabó later refuted on
-[[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|his claim page]].
+[[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|that author's claim page]].
 
 **Covers.** The quadratic upper bound $t(N)\le(\pi^2/24+1/2+o(1))N^2$, the
 lower bound $t(N)\ge\binom N2+1$, and the refutation of the Erdős–Graham

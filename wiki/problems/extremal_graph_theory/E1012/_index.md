@@ -33,8 +33,8 @@ asks how small it can be taken. The edge count is one more than the number of
 edges of the graph made of a $K_{n-k-1}$ and a $K_{k+2}$ sharing one vertex,
 which has $n$ vertices and no cycle on more than $n-k-1$ vertices when
 $n\ge2k+3$ (every cycle lies in one block; an elementary remark, and the
-statement Woodall [Wo72] makes of this graph, his $G_4(n,k)$, on p. 741),
-so the count cannot be lowered there; at $k=0$ it is Ore's threshold
+statement Woodall [Wo72] makes of this graph, the paper's $G_4(n,k)$, on
+p. 741), so the count cannot be lowered there; at $k=0$ it is Ore's threshold
 $\binom{n-1}2+2$. Erdős's 1971 item 4 prints the count as
 $\binom{n-k}2+\binom{k+1}2+1$, with "for $n>n_0(k)$" and the request to
 "determine or estimate $n_0(k)$"; the site's $f(k)$ is his $n_0(k)$, and the

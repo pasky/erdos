@@ -2,8 +2,8 @@
 name: integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/corollary_1
 title: "Corollary 1 (PDF p. 32): under the prime k-tuple conjecture, pi(x+y) - pi(x) - pi(y) >> x (log x)^{-2} log log log x for some y"
 desc: |
-  Konyagin's announced corollary of his Theorem 1, stated without proof in
-  his 2022 slides: assuming the prime k-tuple conjecture, for large x some y
+  Konyagin's announced corollary of Theorem 1, stated without proof in
+  the 2022 slides: assuming the prime k-tuple conjecture, for large x some y
   has pi(x+y) - pi(x) - pi(y) at least a constant times
   x (log x)^{-2} log log log x.
 created: 2026-10-08T17:21:06Z

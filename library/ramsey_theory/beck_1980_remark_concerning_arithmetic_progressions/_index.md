@@ -37,7 +37,7 @@ Lemma 3: a finite set system whose edges all have at least r >= 2 points is
 2-chromatic when, at every point p, the sum over the edges E through p of
 (1 - 1/r)^{-|E|} 2^{-|E|+1} is at most 1/r. Beck notes the estimate is best
 possible in the sense that any improvement would improve the then-best upper
-bound W(n) <= log_2 n for van der Waerden's function, and he records Spencer's
+bound W(n) <= log_2 n for van der Waerden's function, and records Spencer's
 question of whether a recursive 2-coloring achieves the same bound. This is the
 direct source of the best known upper bound for problem 187. The paper was read
 in full.

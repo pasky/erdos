@@ -21,8 +21,8 @@ avoids a set of measure below epsilon.
 
 [[number_theory/schmidt_1969_disproof_conjectures_diophantine_approximations/question_p138|question_p138]]: Schmidt's open question whether a measurable set of positive reals in
 which no quotient of two distinct elements is an integer must have finite
-measure, with his note added in proof that Erdos reported Szemeredi can
-show the measure need not be finite.
+measure, with the author's note added in proof that Erdos reported
+Szemeredi can show the measure need not be finite.
 
 [[number_theory/schmidt_1969_disproof_conjectures_diophantine_approximations/theorem_1|theorem_1]]: Schmidt's disproof of the Davenport-Erdős conjecture: there is a strictly
 increasing real sequence with consecutive ratios tending to one relative
@@ -96,10 +96,10 @@ Dirichlet's theorem on simultaneous approximation, which is used to build a
 function f* that is invariant under multiplication by each integer m <= N
 outside an exceptional set of small measure; Theorem 2's construction uses
 Dirichlet's theorem again, with a measure estimate (Lemma 2). Schmidt credits
-Erdos with drawing his attention to these problems, leaves open whether a
-measurable set S in which no ratio of two distinct elements is an integer must
-have finite measure, and records in a note added in proof that Erdos informed
-him Szemeredi can show mu(S) need not be finite.
+Erdos with drawing the author's attention to these problems, leaves open
+whether a measurable set S in which no ratio of two distinct elements is an
+integer must have finite measure, and records in a note added in proof that
+Erdos informed the author Szemeredi can show mu(S) need not be finite.
 
 Source: <https://real-j.mtak.hu/5455/>.
 
@@ -119,7 +119,7 @@ has gaps tending to zero (p. 141), so it is not a set of integers
 leaves open on printed p. 138 (physical p. 140), whether a measurable set of
 positive reals in which the quotient of two distinct elements is never an
 integer must have finite measure, and its footnote 2, added in proof, that
-Erdős told him Szemerédi can show the measure need not be finite
+Erdős told the author Szemerédi can show the measure need not be finite
 ([[number_theory/schmidt_1969_disproof_conjectures_diophantine_approximations/question_p138|question_p138]]); the problem asks how fast the
 measure of such a set can grow, which the paper does not address.
 

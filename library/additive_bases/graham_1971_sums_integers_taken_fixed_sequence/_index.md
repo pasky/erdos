@@ -41,7 +41,7 @@ carry as [Gr71] and the author's publication page files under 1971. The
 text is consistent with that date: its latest dated reference is
 Mendelsohn's 1970 paper (reference 35), and it cites four works as to
 appear: Burr's paper for the proceedings of the 1969 Atlas Symposium on
-Computers and Number Theory (reference 4), his Pacific J. Math. paper
+Computers and Number Theory (reference 4), Burr's Pacific J. Math. paper
 (reference 5) and two Erdős--Graham papers (references 10 and 11). Cited
 as [Gr71] on the problem pages; the 1980 Erdős--Graham monograph's
 "[Gr (71)]" and Pham and Sauermann's "[7, p. 36]" on Problem 475 name it.

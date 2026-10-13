@@ -112,8 +112,8 @@ The source and its reconstruction are organized in the following order.
 - [[covering_systems/nielsen_2009_covering_system_smallest_modulus_40/main_theorem|The main-result page]] states the published theorem (abstract, p. 1) and points to the sections of the paper that construct it.
 
 Nielsen remarks on physical p. 23 that the single prime $107$ can close
-every arrow; on physical p. 7 he says a single fixed prime suffices but does
-not prove it. The arrow lemma compiled here uses the simpler alternative
+every arrow; on physical p. 7 the author says a single fixed prime suffices but
+does not prove it. The arrow lemma compiled here uses the simpler alternative
 allowed on physical p. 7: a fresh terminal prime for each realized arrow
 occurrence.
 That settles finiteness and terminal collisions once the regular symbolic

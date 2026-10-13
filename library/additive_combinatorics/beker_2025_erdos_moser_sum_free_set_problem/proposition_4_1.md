@@ -62,7 +62,7 @@ Theorem 3.1 of the same paper; Proposition 4.2 and Lemma 4.3 (p. 17), both
 taken from the literature (Shao; Sudakov, Szemerédi and Vu; Ruzsa); the
 Plünnecke--Ruzsa inequality. The deduction of Theorem 1.2 from Proposition 4.1
 is not written out: the paper says it is the same as Sanders's deduction of
-his Theorem 1.2 from his Proposition 2.7.
+their Theorem 1.2 from their Proposition 2.7.
 
 ## Bears on
 

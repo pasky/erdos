@@ -5,7 +5,8 @@ desc: |
   Simonovits's remark after Theorem 2.7: the function ĝ_3(t) is well defined
   by Lovász's graphs of large chromatic number and girth; comparing it with
   the g_3 of Erdős's 1959 paper gives c_1 t^2 log t / log log t < ĝ_3(t) <
-  c_2 t^2 (log t)^2, asserted without proof; the K_4 analogue is open to him.
+  c_2 t^2 (log t)^2, asserted without proof; the K_4 analogue is open to
+  the author.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T14:33:42Z
 ---

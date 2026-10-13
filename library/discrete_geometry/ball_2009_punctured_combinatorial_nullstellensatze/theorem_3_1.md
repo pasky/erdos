@@ -40,7 +40,7 @@ multiplicity it bounds only from below.
 
 ## Proof pointer
 
-Pp. 3–4, a double induction on $n$ and $t$, after Bruen's proof of his
+Pp. 3–4, a double induction on $n$ and $t$, after the proof of Bruen's
 Theorem 1.3. The base cases are $n=1$, where $g_1^t$ divides $f$, and
 $t=1$, which is Theorem 2.1. Dividing successively by $X_n-\alpha$ for
 the elements $\alpha$ of $S_n$, and applying the case of $n-1$

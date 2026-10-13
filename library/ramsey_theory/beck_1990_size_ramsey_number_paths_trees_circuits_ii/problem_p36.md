@@ -58,7 +58,7 @@ None stated.
 - [[../wiki/problems/ramsey_theory/E0559/_index|Problem 559]]: the Problem is the
   problem's statement with edges in place of vertices; it is the passage
   Tikhomirov and Conlon, Nenadov and Trujić cite for the question, and it
-  shows Beck posing the question in 1990 in his own name. Erdős's 1982
+  shows Beck posing the question in 1990 in their own name. Erdős's 1982
   conjecture (2) for graphs of bounded edge density, on the
   [[discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|1982 card]],
   is the stronger form; whether Beck (1983) poses the question is not

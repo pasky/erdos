@@ -45,13 +45,13 @@ copyrighted material.", every other right reserved.
 
 Answering a question of Hajnal and Komjath, Shelah shows that the negation of
 their consistency result is also consistent: in some generic extension, for
-every graph G there is a graph H with H -> (G)^2_2. He in fact proves much
-stronger positive partition relations, stated for models rather than graphs;
-sections 1 and 2 assume a class of measurable cardinals (Conclusion 1.6), and
-sections 3 and 4 eliminate that assumption. Conclusion 4.2 starts from GCH and
-gives a generic extension, collapsing no cardinals and changing no
-cofinalities, in which for all n, m < omega, every model N in K^{<n}_sigma and
-every theta there are k < omega and a model M with |M| <
+every graph G there is a graph H with H -> (G)^2_2. The author in fact proves
+much stronger positive partition relations, stated for models rather than
+graphs; sections 1 and 2 assume a class of measurable cardinals
+(Conclusion 1.6), and sections 3 and 4 eliminate that assumption. Conclusion 4.2
+starts from GCH and gives a generic extension, collapsing no cardinals and
+changing no cofinalities, in which for all n, m < omega, every model N in
+K^{<n}_sigma and every theta there are k < omega and a model M with |M| <
 beth_k(||N|| + sigma + theta) and M -> (N)^m_theta (the typescript prints the
 iterated exponential with a glyph reading as l or 1, or leaves its symbol blank; the result pages read it
 as beth). Section 5 addresses the

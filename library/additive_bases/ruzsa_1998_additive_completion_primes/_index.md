@@ -29,7 +29,7 @@ O(log x log log x) bound. Theorem 1(a) gives, for every eps > 0, a set B with
 counting function B(x) = O(log x) whose sumset has lower asymptotic density
 greater than 1 - eps; Theorem 1(b) gives, for every omega(x) tending to
 infinity, a set B with B(x) = O(omega(x) log x) and d(S) = 1. Since d(S) = 1
-forces liminf B(x)/log x >= 1 by counting, this is essentially optimal, and he
+forces liminf B(x)/log x >= 1 by counting, this is essentially optimal; Ruzsa
 conjectures the sharper statements that d(S) = 1 forces B(x)/log x -> infinity
 (Conjecture 1, weakened in Conjectures 2 and 3). In that direction Theorem 2
 proves that if x - S(x) <= x^{1 - log log log x / log log x} for large x, in

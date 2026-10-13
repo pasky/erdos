@@ -5,7 +5,7 @@ desc: |
   Simonovits's theorem that in every k-critical graph on n vertices, for
   4 <= k <= m+1 <= n, at least (1/2)((k-2)! nm)^{1/(k-1)} vertices lie
   outside any independent set of vertices of valence at least m, proved by
-  his vertex-splitting Lemma 1.
+  the paper's vertex-splitting Lemma 1.
 created: 2026-10-08T16:54:35Z
 updated: 2026-10-08T16:54:35Z
 ---

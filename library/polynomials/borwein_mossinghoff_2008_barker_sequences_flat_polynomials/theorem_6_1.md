@@ -26,7 +26,7 @@ reports that $g_m$ is irreducible for $6<m\le900$ and says a short proof of
 this for large $m$ would be interesting (p. 86); Turyn and Storer's theorem that odd Barker lengths are
 at most $13$, which the section offers this route to reproving, is recalled
 on pp. 76 and 84. The paper records Erich Kaltofen's observation that every
-$g_m$ is reducible modulo every prime and includes, with his permission, his
+$g_m$ is reducible modulo every prime and includes, with permission, Kaltofen's
 proof of the more general Theorem 6.2 (p. 86): an even reciprocal polynomial with integer coefficients and degree at least
 $4$ is reducible modulo every prime $p$.
 

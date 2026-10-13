@@ -51,7 +51,7 @@ the prime $k$-tuples conjecture, is the conditional claim on
 [[problems/irrationality/E0252/claims/2007_07_03_friedlander_luca_stoiciu_conditional|its own page]].
 A note added in March 2007 records that Schlage-Puchta obtained the same two
 results independently, with a rather different sieve proof for $k=3$
-([[problems/irrationality/E0252/claims/2006_12_01_schlage_puchta|his claim page]]),
+([[problems/irrationality/E0252/claims/2006_12_01_schlage_puchta|Schlage-Puchta's claim page]]),
 and formal-conjectures tags its variant `erdos_252.variants.k_eq_three`
 research solved, citing both papers.
 

@@ -15,7 +15,7 @@ updated: 2026-10-07T20:53:41Z
 [[ramsey_theory/_index|..]]
 
 [[ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_1|corollary_1]]: Erdős's probabilistic lower bound for the diagonal Ramsey number, as
-restated by Spencer before his improvement.
+restated by Spencer before the paper's improvement.
 
 [[ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_2|corollary_2]]: Spencer's local-lemma improvement of Erdős's diagonal Ramsey lower bound
 by a factor of two.

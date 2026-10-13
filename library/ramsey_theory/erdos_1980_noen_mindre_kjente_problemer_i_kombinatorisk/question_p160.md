@@ -38,10 +38,11 @@ $m_1=1$ and, for $n>1$, $m_n$ the least positive integer not of a displayed
 form, printed as $\sum_{i=1}^{l}m_i$ with $1\le i<l\le n-1$; the summation
 index and the range do not match as printed, and the definition is read
 here as excluding every sum of consecutive earlier terms.
-Andrews's conjecture (4) is $m_n=(1+o(1))\,n\log n/\log\log n$, and the paper lists three further
-conjectures of his (p. 160): (i) $\lim_{n\to\infty}m_nn^{-\Delta}=0$ for some
-$\Delta<2$; (ii) $\lim_{n\to\infty}m_nn^{-1}=\infty$; (iii) $m_n<p_n$ for all
-$n$, $p_n$ the $n$th prime.
+Andrews's conjecture (4) is $m_n=(1+o(1))\,n\log n/\log\log n$, and the paper
+lists three further conjectures of Andrews (p. 160): (i)
+$\lim_{n\to\infty}m_nn^{-\Delta}=0$ for some $\Delta<2$; (ii)
+$\lim_{n\to\infty}m_nn^{-1}=\infty$; (iii) $m_n<p_n$ for all $n$, $p_n$ the
+$n$th prime.
 
 **Source.** P. Erdős, Noen mindre kjente problemer i kombinatorisk tallteori,
 Normat 28 (1980), no. 4, 155--164, 180; Section 3, printed pp. 159--160, read

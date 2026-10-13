@@ -87,7 +87,7 @@ https://www.erdosproblems.com/346.
 The counterexample's Lean proof, completed by GPT-5.5 in Codex, was posted as
 code embedded in a `live.lean-lang.org` link and is ported in the repository
 `plby/lean-proofs`, pinned on Price's claim page; Kitamura's Lean development
-for the limit-exists reading is pinned on his claim page. Nothing was built or
+for the limit-exists reading is pinned on its claim page. Nothing was built or
 audited here.
 
 ## Progress

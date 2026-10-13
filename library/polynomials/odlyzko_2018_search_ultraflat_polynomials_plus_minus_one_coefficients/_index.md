@@ -12,7 +12,7 @@ updated: 2026-10-08T17:47:53Z
 
 [[polynomials/_index|..]]
 
-[[polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p4|conjecture_p4]]: Odlyzko's conjecture, drawn from his exhaustive computations, that the
+[[polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p4|conjecture_p4]]: Odlyzko's conjecture, drawn from the paper's exhaustive computations, that the
 normalized extremal maximum, minimum and annulus width of plus or minus one
 polynomials of degree n each tend to a limit, estimated as 1.27, 0.64 and
 0.79; the paper proves none of it.
@@ -21,7 +21,7 @@ polynomials of degree n each tend to a limit, estimated as 1.27, 0.64 and
 polynomials of even degree does not change the limits of the normalized
 extremal maximum, minimum and annulus width; the paper proves none of it.
 
-[[polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p9|conjecture_p9]]: Odlyzko's statement, offered as what his computations strongly suggest,
+[[polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p9|conjecture_p9]]: Odlyzko's statement, offered as what the computations strongly suggest,
 that there are constants 0 < delta < C, even delta = 0.5 and C = 1.5, such
 that for all large n some plus or minus one polynomial of degree n stays
 strictly between delta and C times the square root of n+1 on the unit

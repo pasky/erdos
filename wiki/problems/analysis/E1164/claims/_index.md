@@ -11,7 +11,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/analysis/E1164/_index|..]]
 
-[[problems/analysis/E1164/claims/1990_09_01_revesz|1990_09_01_revesz]]: In his 1990 monograph Révész proves two-sided exponential bounds on the
+[[problems/analysis/E1164/claims/1990_09_01_revesz|1990_09_01_revesz]]: In a 1990 monograph Révész proves two-sided exponential bounds on the
 distribution of the time a planar simple random walk needs to cover a disc.
 The bounds give the covered radius its typical scale, and the site credits the
 result.

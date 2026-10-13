@@ -34,10 +34,10 @@ $[1,n]-\{c\}$, some triples $\{c,c+x,c+4x\}$ by $\{c,c+x,c+2x,c+4x\}$, and
 some triples $\{c-x,c,c+2x\}$ by $\{c-x,c+x,c+2x\}$. They add that these
 are probably all the extremal systems.
 
-**Later answer.** Szabó (1999) answered Problem 1 in the negative: his
+**Later answer.** Szabó (1999) answered Problem 1 in the negative: that paper's
 [[additive_combinatorics/szabo_1999_intersection_properties_subsets_integers/construction_p21|construction]]
 gives such a family with $\binom n2+\left[\frac{n-1}4\right]+1$ members, more
-than $\binom{n-1}2+n$ for $n\ge5$, while his
+than $\binom{n-1}2+n$ for $n\ge5$, while Szabó's
 [[additive_combinatorics/szabo_1999_intersection_properties_subsets_integers/theorem_2_1|Theorem 2.1]]
 gives the asymptotic value $\frac{n^2}2+O(n^{5/3}\log^3n)$.
 

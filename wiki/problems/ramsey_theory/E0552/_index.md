@@ -197,7 +197,7 @@ Friendship Theorem for strictness.
 [[../library/ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/theorem_2|Theorem 2]]
 (pp. 41--42): $f(q^2+1)=q^2+q+2=n+\lceil\sqrt n\rceil$ and
 $f(q^2)=q^2+q+1=n+\lceil\sqrt n\rceil+1$ for every prime power $q$, from the
-polarity graph of the projective plane over $GF(q)$; his Remark on p. 35
+polarity graph of the projective plane over $GF(q)$; the paper's Remark on p. 35
 also gives $R(C_4,K_{1,7})=11$ from the Petersen graph. Burr et al.
 tabulate $f(m)$ for $m\le10$ (p. 80): $4,4,6,7,8,9,11,12,13,14$. Wu, Sun,
 Zhang and Radziszowski's Theorem 3 (the article's second page; its pages
@@ -207,8 +207,8 @@ $R(C_4,K_{1,q^2-k-1})=q^2+q-k$ for $0\le k\le q$, $k\notin\{1,q-1\}$;
 stated here from the article, with the card as its record. Boza's
 [[../library/ramsey_theory/boza_2024_exact_values_bounds_ramsey_numbers_c4/theorem_10|Theorem 10]]
 (arXiv v2, p. 4): $f(27)=33$, $f(n)=n+7$ for $28\le n\le33$, $f(37)=44$
-and $f(67)=76$, which with his tables gives $f(n)$ for every $n\le38$; his
-Remark 12 records $f(n)\ge n+\lceil\sqrt n\rceil$ for $2\le n\le82$ and
+and $f(67)=76$, which with the paper's tables gives $f(n)$ for every $n\le38$;
+its Remark 12 records $f(n)\ge n+\lceil\sqrt n\rceil$ for $2\le n\le82$ and
 $f(n)\ge f(n-1)+1$ for $3\le n\le39$, with no counterexample known for
 larger $n$. Zhang, Chen and Cheng's
 [[../library/ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/theorem_6|Theorem 6]]
@@ -282,7 +282,7 @@ and do not answer it. The same question is Question 1 of [ZCC17b] (p. 656),
 with the same remark on Conjecture 1.
 Parsons asked in 1975 (p. 35) whether the upper end
 $f(n)=n+\lceil\sqrt n\rceil+1$ occurs for infinitely many non-square $n$
-(he writes it as $m=n+[\sqrt n]+1$, where $m=f(n)-1$ is the largest order
+(written there as $m=n+[\sqrt n]+1$, where $m=f(n)-1$ is the largest order
 of a $C_4$-free graph whose complement has maximum valence below $n$), a
 question about the other side of the window. The reduction
 [[../library/ramsey_theory/burr_1989_complete_bipartite_graph_tree_ramsey_numbers/theorem_1|Theorem 1]]

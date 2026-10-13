@@ -44,7 +44,7 @@ The constant $N_0$ is not made explicit; the proof (pp. 252--254) takes $N$
 large at two steps. The paper's stated goal (p. 250) is to extend the
 study of $F(N,t)$ and $G(N,t)$ to the case $t=o(N^{1/2})$, below the range
 of Sárközy's bound $(G(N,t)\ge)F(N,t)>8^{-1}10^{-4}t^2$ for $N>N_0$,
-$t>100(N\log N)^{1/2}$ (p. 249, cited to his Finite addition theorems II);
+$t>100(N\log N)^{1/2}$ (p. 249, cited to Finite addition theorems II);
 Theorem 1 reaches down to $t$ of order $(\log N)^2$.
 
 **Source.** P. Erdős and A. Sárközy, Arithmetic progressions in subset sums,

@@ -153,7 +153,7 @@ of finite order; the post states no theorem, the site does not credit the
 papers, and they are recorded here without a claim page. The joint paper
 of Chojecki and Oriike announced in the thread on 5 June 2026 is not
 recorded as a preprint. Sothanaphan's thread checks of the two notes (20
-April, 29 April and 10 May 2026), and his streamlined derivation of
+April, 29 April and 10 May 2026), and Sothanaphan's streamlined derivation of
 Chojecki's result produced with GPT-5.5 Thinking, are recorded on the two
 claim pages as thread posts, not as review evidence. The proof-claims tab
 is empty. No proof is reconstructed in this repository and no independent

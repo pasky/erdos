@@ -3,8 +3,8 @@ name: number_theory/bernstein_1994_noniterative_2adic/conjecture_p1
 title: "Conjecture (p. 1): the positive integers lie in Φ((1/3)ℤ)"
 desc: |
   Bernstein's non-iterative conjecture that every positive integer is the
-  image under the 2-adic permutation Phi of a third of an integer, which his
-  Theorems 2 and 3 show equivalent to the 3N+1 conjecture.
+  image under the 2-adic permutation Phi of a third of an integer, which the
+  paper's Theorems 2 and 3 show equivalent to the 3N+1 conjecture.
 created: 2026-10-08T17:21:06Z
 updated: 2026-10-08T17:21:06Z
 ---

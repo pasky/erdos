@@ -69,7 +69,7 @@ Section 3, pp. 5--7. Lower bound (pp. 5--6): put $d=\lfloor e^{2/5}\rfloor$.
 Case 1, $G$ has no subgraph of minimum degree at least $d$: a degeneracy
 ordering gives $\sum_v\sqrt{d(v)}>e/\sqrt d=\Omega(e^{4/5})$, and Shearer's
 inequality (8), $f(G)\ge e/2+\tfrac1{8\sqrt2}\sum_i\sqrt{d_i}$ for
-triangle-free $G$ (quoted from his paper, the note's [16]), gives (4). Case
+triangle-free $G$ (quoted from Shearer, the note's [16]), gives (4). Case
 2, an induced subgraph $H$ on $m$ vertices has minimum degree at least $d$:
 a random set $R$ of at most $r=\lceil2m/d\rceil$ vertices of $H$ leaves an
 induced subgraph $H'$ with at least $md/4$ edges whose vertices all have a

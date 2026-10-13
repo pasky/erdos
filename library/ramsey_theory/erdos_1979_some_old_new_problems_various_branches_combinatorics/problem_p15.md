@@ -83,7 +83,7 @@ affirmative by
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_2|Theorem 1.2]]
 of Alon, whose
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/proposition_3_1|Proposition 3.1]]
-supplies the matching upper bound; Alon cites this paper as his [4].
+supplies the matching upper bound; Alon cites this paper as reference [4].
 
 ## Dependencies
 

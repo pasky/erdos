@@ -3,7 +3,7 @@ name: set_systems/wilson_1974_number_mutually_orthogonal_latin_squares/theorem_5
 title: "Theorem 5.1 (p. 196): N(n) >= 6 whenever n > 90"
 desc: |
   Wilson's bound that six mutually orthogonal Latin squares of order n exist
-  for every n above 90, obtained from his inequalities with m = 7.
+  for every n above 90, obtained from the paper's inequalities with m = 7.
 created: 2026-10-08T14:48:26Z
 updated: 2026-10-08T14:48:26Z
 ---

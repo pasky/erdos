@@ -2,7 +2,7 @@
 name: primes/vardi_1998_prime_percolation/question_p277
 title: "Question (p. 277, item (c)): whether the unit-distance graph of coprime pairs has a nonzero limiting density"
 desc: |
-  The question Vardi raises among the aspects his paper leaves unexamined:
+  The question Vardi raises among the aspects the paper leaves unexamined:
   for the pairs of relatively prime integers in the plane joined at distance
   one, whether the set has a limiting density and whether it is nonzero; the
   paper proves nothing on it.

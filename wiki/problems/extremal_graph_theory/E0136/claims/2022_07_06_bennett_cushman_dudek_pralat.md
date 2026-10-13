@@ -89,10 +89,10 @@ so the evidence stays `reviewed` and `refereed`.
 
 **Acceptance.** Refereed publication in the Journal of Combinatorial Theory,
 Series B, cited with its venue above. The site's curator, Thomas Bloom, marks
-the problem SOLVED. In the commentary he credits the asymptotic to this paper
-under the reference [BCDP22]. That credit is the `reviewed` evidence, and Bloom
-took no part in the paper. Joos and Mubayi (Proc. Amer. Math. Soc. 152 (2024))
-reprove the asymptotic by a different method and present their argument as a new
-proof of this result. They are a second documented acceptance by named experts.
-No independent review of the argument was made here. No proof step was checked
-beyond the statement and the proof overview.
+the problem SOLVED. In the commentary the curator credits the asymptotic to this
+paper under the reference [BCDP22]. That credit is the `reviewed` evidence, and
+Bloom took no part in the paper. Joos and Mubayi (Proc. Amer. Math. Soc. 152
+(2024)) reprove the asymptotic by a different method and present their argument
+as a new proof of this result. They are a second documented acceptance by named
+experts. No independent review of the argument was made here. No proof step was
+checked beyond the statement and the proof overview.

@@ -236,8 +236,8 @@ here is independently reviewed.
   for every triangle-free $G$, with Turán's bound covering $t<e^{99}$ (and
   the bound trivial for $t<1$, where $\ln t<0$); Shearer's introduction
   (p. 83) states the same bound as "$\alpha>n\ln d/(100d)$ for $d\ge d_0$"
-  but credits it to the authors' Sidon-sequence paper (his [1]), not to
-  this note (his [2]); the 1981 paper (p. 314) restates it as
+  but credits it to the authors' Sidon-sequence paper (its [1]), not to
+  this note (its [2]); the 1981 paper (p. 314) restates it as
   "$\alpha>0.01(n/t)\log t$", crediting both papers; both print strict
   inequalities. The paper
   states no bound of the form $H(n)\gg\sqrt{n\log n}$ on the least

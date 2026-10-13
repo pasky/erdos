@@ -55,7 +55,7 @@ claim on
 [[problems/irrationality/E0252/claims/2007_07_03_friedlander_luca_stoiciu|its own page]];
 Schlage-Puchta proved a parallel conditional theorem under Schinzel's
 Hypothesis H
-([[problems/irrationality/E0252/claims/2006_12_01_schlage_puchta_conditional|his conditional page]]),
+([[problems/irrationality/E0252/claims/2006_12_01_schlage_puchta_conditional|Schlage-Puchta's conditional page]]),
 as the paper's note added in March 2007 records. formal-conjectures tags its
 variant `erdos_252.variants.prime_tuples`, which takes the conjecture as an
 explicit hypothesis for $k\ge4$, research solved, citing this paper.

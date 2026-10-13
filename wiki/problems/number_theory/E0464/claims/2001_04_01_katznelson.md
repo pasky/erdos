@@ -26,11 +26,11 @@ updated: 2026-10-07T20:39:38Z
 
 ***
 
-Katznelson proves, as Theorem 1.2 of his 2001 paper (p. 212), that for every
+Katznelson proves, as Theorem 1.2 of the 2001 paper (p. 212), that for every
 $\rho>1$ there is $\varepsilon=\varepsilon(\rho)>0$ such that every lacunary
 $\Lambda=\{\lambda_j\}\subset\mathbb N$ with parameter $\rho$, that is with
 $\lambda_{j+1}/\lambda_j\ge\rho$, has some $\alpha\in\mathbb T$ with
-$\|\lambda\alpha\|>\varepsilon$ for all $\lambda\in\Lambda$; his footnote 2
+$\|\lambda\alpha\|>\varepsilon$ for all $\lambda\in\Lambda$; its footnote 2
 gives $\varepsilon(\rho)>(\rho-1)^2\log^{-2}(\rho-1)$ for $\rho$ close to
 $1$. The proof establishes two claims, and Claim 2 (p. 212) states that for a
 finite union $\Lambda$ of lacunary sequences the set

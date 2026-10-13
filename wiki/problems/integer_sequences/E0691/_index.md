@@ -76,7 +76,7 @@ wrote that a threshold $\alpha\in(0,1)$ seemed certain to exist such that for
 $\eta_k=k^{-\beta}$ the density is $1$ when $\beta<\alpha$ and less than $1$
 when $\beta>\alpha$. Tenenbaum [Te96] notes that this fails as written, since
 for $n_k$ growing fast enough the sequence is never Behrend, and that Erdős
-had a two-sided condition on $n_{k+1}/n_k$ in mind; his Corollary 2 then
+had a two-sided condition on $n_{k+1}/n_k$ in mind; the paper's Corollary 2 then
 proves the two-sided conjecture with $\alpha=\log2$ (claim page
 [[problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum|Tenenbaum 1996]]).
 The same paper gives a sufficient condition for a block sequence to be

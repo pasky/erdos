@@ -55,7 +55,7 @@ result.
 
 **Acceptance.** The evidence is the refereed publication in the Proceedings of
 the American Mathematical Society, together with the acceptance of the site's
-curator, Thomas Bloom. His commentary names the paper as a generalization of
+curator, Thomas Bloom. The commentary names the paper as a generalization of
 Klarner's result. Nothing was reviewed here.
 
 **Depends on.** No page of this wiki.

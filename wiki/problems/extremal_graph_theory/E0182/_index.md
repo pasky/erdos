@@ -218,7 +218,7 @@ site's PROVED credits Janzer and Sudakov's determination of the order; the
 **Erdős's statements and the early bounds.** The 1975 survey
 ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p10|Section 3]]) defines $f(n,k)$,
 records $f(n,2)=n$, the upper bound $f(n,3)<cn^{8/5}$ from the Turán number
-of the cube, and Chvátal's lower bound $f(2n+3,3)>6n$ with his graph, and
+of the cube, and Chvátal's lower bound $f(2n+3,3)>6n$ with its graph, and
 calls the lack of any better estimate "a great surprise". The 1978 paper
 (p. 31) states the problem for valency three with a prize offer. The 1981
 survey (p. 7 of the retyped version) states the conjecture

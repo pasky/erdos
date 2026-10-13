@@ -55,7 +55,7 @@ vertices with no clique or independent set of size $(\log N)^c$, for an
 unspecified constant $c>1$. This inverts to the constructive bound
 $R(k)>2^{k^{1/c}}$, which is subexponential in $k$. Cohen's earlier
 $2^{(\log\log n)^{O(1)}}$ (2015; STOC 2016) and the classical constructions
-listed in his Table 1 are weaker. The search whose scope the Current assessment
+listed in its Table 1 are weaker. The search whose scope the Current assessment
 records found no explicit construction reaching $O(\log n)$, and no proof that
 none exists. This is a bounded negative finding, not a certificate of openness.
 Erdős offered a prize for a constructive proof in 1981, 1988, 1993, 1995
@@ -166,9 +166,9 @@ request of [Er69b], a construction whose cliques and independent sets have
 $o(n^{1/2})$ vertices, has since been met; Cohen [Co15] built graphs on $n$
 vertices whose cliques and independent sets all have fewer than
 $2^{(\log\log n)^C}$ vertices, for a constant $C>0$ (the commentary points to
-his introduction for the history), and Li [Li23b] lowered that threshold to
-$(\log n)^C$. The thread (five comments): on 15 January 2026 a question whether
-a derandomization by the method of conditional expectations counts as
+Cohen's introduction for the history), and Li [Li23b] lowered that threshold
+to $(\log n)^C$. The thread (five comments): on 15 January 2026 a question
+whether a derandomization by the method of conditional expectations counts as
 constructive, a commenter's reply that the problem asks for an explicit
 construction and that such a derandomization only proves existence, and a
 proposal to ask instead for a deterministic algorithm producing a graph on

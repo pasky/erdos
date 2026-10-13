@@ -15,7 +15,7 @@ updated: 2026-10-08T17:04:21Z
 [[graph_coloring/simonovits_1972_colour_critical_graphs/theorem_1|theorem_1]]: Simonovits's theorem that in every k-critical graph on n vertices, for
 4 <= k <= m+1 <= n, at least (1/2)((k-2)! nm)^{1/(k-1)} vertices lie
 outside any independent set of vertices of valence at least m, proved by
-his vertex-splitting Lemma 1.
+the paper's vertex-splitting Lemma 1.
 
 [[graph_coloring/simonovits_1972_colour_critical_graphs/theorem_2|theorem_2]]: Simonovits's theorem that for every k at least 4 and infinitely many n
 some k-critical graph on n vertices has all but O(n^{1/(2[(k-1)/3])})
@@ -29,12 +29,12 @@ configurations C_{3,s,t}.
 
 [[graph_coloring/simonovits_1972_colour_critical_graphs/theorem_4|theorem_4]]: Simonovits's theorem that for every sufficiently large even n there are
 4-critical graphs on n vertices with all but at most 20 sqrt(nm) vertices
-forming an independent set of vertices of valence at least m, from his
-block construction Q.
+forming an independent set of vertices of valence at least m, from the
+paper's block construction Q.
 
 [[graph_coloring/simonovits_1972_colour_critical_graphs/theorem_5|theorem_5]]: Simonovits's theorem that for every sufficiently large even n there is a
 4-critical graph W^n on n vertices whose minimum valence is at least
-n^{1/3}/6, built from cyclically linked copies of his block Q.
+n^{1/3}/6, built from cyclically linked copies of the paper's block Q.
 
 [[graph_coloring/simonovits_1972_colour_critical_graphs/theorem_6|theorem_6]]: Simonovits's theorem, on a question of Jacobsen, that for every
 sufficiently large even n there is a 4-critical graph W^n on n vertices

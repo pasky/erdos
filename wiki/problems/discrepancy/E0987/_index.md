@@ -64,8 +64,8 @@ whole.
 
 The site's Lean qualifier matches the community database's Lean status, dated
 2026-08-23. Boris Alexeev set this status in a batch of forty problems whose
-solutions his lean-proofs collection formalizes. That collection's file for this
-problem proves both questions (see Formalization).
+solutions Alexeev's lean-proofs collection formalizes. That collection's file
+for this problem proves both questions (see Formalization).
 
 **Source.** [erdosproblems.com/987](https://www.erdosproblems.com/987), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #987,
@@ -116,7 +116,7 @@ finite-support case), carry `category research solved`, proof `sorry`, and a
 contributor's fork of the repository at a pinned commit; the attributes were
 merged into main on 2 July 2026. The community database recorded no formalized
 solution for seven weeks after that; its Lean status, dated 2026-08-23, came in
-Boris Alexeev's batch of forty problems whose solutions his lean-proofs
+Boris Alexeev's batch of forty problems whose solutions Alexeev's lean-proofs
 collection formalizes. The fork's file (15,913 lines) proves `parts.i` by an
 argument its comments say is adapted from Tao's formalization, proves
 `sqrt_log_upper_bound` from the construction of [APSSV26b, §3] for $k\ge2$ and a
@@ -128,7 +128,7 @@ None of these files was built or audited here, so no claim carries `formalized`
 evidence. The fork is linked, pinned, from the claim pages of Erdős, Clunie, Tao
 and Alexeev et al. as a formalization link; Tao's own Lean proof of the first
 question is linked from
-[[problems/discrepancy/E0987/claims/2025_08_30_tao|his claim page]] and is not
+[[problems/discrepancy/E0987/claims/2025_08_30_tao|Tao's claim page]] and is not
 built here either.
 
 ## Progress

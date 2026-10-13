@@ -187,7 +187,7 @@ independently reviewed.
   of Lemma 2.3) or $n$ is odd and $m\ge3$ (Lemma 2.4), and agrees with it
   otherwise. Remark (2) of p. 254 counts colorings of the type of Lemma 2.3
   among Burr's canonical colorings and names only the construction of Lemma 2.4
-  as disproving his conjecture.
+  as disproving Burr's conjecture.
 
 ## Compiled scope
 

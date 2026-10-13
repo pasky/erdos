@@ -75,7 +75,7 @@ checking.
 site's proof exposition. It states that its presentation follows the proofs of
 Chojecki and Sneiderman with minor modifications. It credits Sneiderman with
 improving quantitative aspects of Chojecki's proof. The site's curator, Thomas
-Bloom, has no part in the note. He records the answer as yes and labels the
+Bloom, who has no part in the note, records the answer as yes and labels the
 problem SOLVED (page last edited 1 September 2026). The proof-claim tab carries
 the site's standing notice that a listing is no guarantee of correctness and
 does not mean anyone associated with the site examined the proof. Not refereed.

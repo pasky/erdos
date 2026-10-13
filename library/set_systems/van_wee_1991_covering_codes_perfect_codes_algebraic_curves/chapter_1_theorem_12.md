@@ -2,7 +2,7 @@
 name: set_systems/van_wee_1991_covering_codes_perfect_codes_algebraic_curves/chapter_1_theorem_12
 title: "Chapter 1, Theorem 12 (p. 48): K(n+2,2) <= K(n,1) for n >= 2, n != 9"
 desc: |
-  Van Wee's verification, from his table of bounds, of the Cohen-Lobstein-Sloane
+  Van Wee's verification, from the table of bounds, of the Cohen-Lobstein-Sloane
   inequality K(n+2,R+1) <= K(n,R) in the case R = 1 for all n >= 2 except n = 9.
 created: 2026-10-08T18:28:39Z
 updated: 2026-10-08T18:28:39Z

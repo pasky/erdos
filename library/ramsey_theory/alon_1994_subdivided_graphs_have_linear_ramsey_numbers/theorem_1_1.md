@@ -35,12 +35,12 @@ maximum degree and no connectivity condition on $G$.
 on p. 2, which gives $c=12$; the proof of the proposition is on pp. 3--5.
 
 **Context in the source.** Alon states on p. 1 that the result was
-conjectured by Burr and Erdős (his reference [1], p. 236), and that it
+conjectured by Burr and Erdős (the paper's reference [1], p. 236), and that it
 strengthens the result of that reference for graphs in which any two vertices
-of degree at least three are at distance greater than two. On p. 2 he
+of degree at least three are at distance greater than two. On p. 2 Alon
 describes it as a very special case of the general Burr--Erdős conjecture on
-graphs whose subgraphs all have minimum degree at most a fixed $d$, which he
-records as open at the time of writing.
+graphs whose subgraphs all have minimum degree at most a fixed $d$, which the
+paper records as open at the time of writing.
 
 **Relation to Problem 800.** The theorem's class is exactly the class of
 [[../wiki/problems/ramsey_theory/E0800/_index|Problem 800]], and its

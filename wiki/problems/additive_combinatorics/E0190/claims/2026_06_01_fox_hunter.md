@@ -58,10 +58,10 @@ as an independent resolution.
 preprint apart from the published results it cites.
 
 **Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels Problem 190
-solved. In the commentary last edited 2026-06-02, he states the bound
+solved. In the commentary last edited 2026-06-02, the curator states the bound
 $H(k)\ge k^{(1-o(1))k\log k}$ as Fox and Hunter's. In a discussion-thread post
 of 2026-09-14, Bae acknowledges that Fox and Hunter obtained the stronger bound.
-He also contests the commentary's attribution of the $H(k)=k^{\omega(k)}$
+The post also contests the commentary's attribution of the $H(k)=k^{\omega(k)}$
 observation to Hunter's 2025 paper and asks that it be credited to this
 preprint. The preprint has no refereed publication, and no formalization of the
 result is recorded, so the evidence is `reviewed` only. The preprint is also the

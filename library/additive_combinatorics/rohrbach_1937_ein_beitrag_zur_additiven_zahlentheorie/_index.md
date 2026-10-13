@@ -78,7 +78,7 @@ the origin of Problem 791's function and conjecture, as
 [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|Erdős 1973]]
 reports them, and the paper whose constant $c_2=1$
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/_index|Mrose 1979]]
-(p. 118) records as the previous record before his $8/7$.
+(p. 118) records as the previous record before its $8/7$.
 
 The copy read for this card
 is the publisher's scan of the printed article: 30 pages, printed

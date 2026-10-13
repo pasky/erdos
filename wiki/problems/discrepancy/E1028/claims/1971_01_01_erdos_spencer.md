@@ -72,10 +72,10 @@ the site's label intend it and asserts no exact finite-$n$ value or
 leading constant.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-solved. In the site's commentary he credits the lower bound $H(n)\gg n^{3/2}$ to
-Erdős and Spencer [ErSp71] and the upper bound to Erdős [Er63d]. The site's
-label on 2026-09-04 was SOLVED (LEAN). The curator is independent of the
-authors.
+solved. In the site's commentary the curator credits the lower bound
+$H(n)\gg n^{3/2}$ to Erdős and Spencer [ErSp71] and the upper bound to Erdős
+[Er63d]. The site's label on 2026-09-04 was SOLVED (LEAN). The curator is
+independent of the authors.
 
 Refereed: the paper appeared in the journal *Networks*, volume 1, issue 4, pp.
 379--385, under DOI 10.1002/net.3230010407. Its imprint gives the year 1972,

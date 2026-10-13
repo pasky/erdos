@@ -274,7 +274,7 @@ $\ll(\log n)e^{\sqrt{8\log2\,\log n}}$ (display (2.1)), and the base-$m$
 projection $x\mapsto x_1+mx_2+\cdots+m^{d-1}x_d$ carries $U_r$ to positive
 integers preserving $\lambda$, after which the $n$ largest elements are kept.
 The paper names no source for the construction; Sanders describes it as
-Behrend's adapted, and his
+Behrend's adapted, and
 [[../library/additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/theorem_1_1|Theorem 1.1]]
 ([Sa21], p. 1: "Given a natural number there is a set $A$ of that size such that
 $M(A)=\exp(O(\sqrt{\log|A|}))$") restates it with the exponent suppressed
@@ -312,7 +312,7 @@ above.
 
 **Remaining gaps.** (1) The order of growth of $g(n)$ is unknown between
 $(\log n)^{1+c}$ and $\exp(O(\sqrt{\log n}))$; nothing is proved beyond the
-bounds above. (2) [Ch71] is not held: Choi's $n^{2/5+o(1)}$ and his integer
+bounds above. (2) [Ch71] is not held: Choi's $n^{2/5+o(1)}$ and the integer
 reduction are second-hand from the papers above ([Ru05], pp. 77 and 79, adds a
 primary citation of the paper and a quotation from it on Klarner's proof, but
 prints neither the reduction nor the bound's proof). The upper bound of record

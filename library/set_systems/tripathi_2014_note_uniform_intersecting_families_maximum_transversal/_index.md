@@ -13,7 +13,7 @@ updated: 2026-10-08T18:25:18Z
 
 [[set_systems/_index|..]]
 
-[[set_systems/tripathi_2014_note_uniform_intersecting_families_maximum_transversal/corollary_2_2|corollary_2_2]]: Tripathi's new proof, through his Lemma 1.4, of the known value q(3) = 6:
+[[set_systems/tripathi_2014_note_uniform_intersecting_families_maximum_transversal/corollary_2_2|corollary_2_2]]: Tripathi's new proof, through Lemma 1.4, of the known value q(3) = 6:
 no intersecting family of five 3-sets has transversal size 3.
 
 [[set_systems/tripathi_2014_note_uniform_intersecting_families_maximum_transversal/lemma_1_1|lemma_1_1]]: Tripathi's construction, for every positive integer k, of an intersecting

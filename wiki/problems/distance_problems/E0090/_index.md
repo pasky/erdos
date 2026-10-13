@@ -321,12 +321,12 @@ files of about 87 MB, including `src/submission/Challenge.lean` and
 `Solution.lean`; this page records the development's statement, axiom and
 `sorry` status only as the comparator's provenance record reports it. That
 `formalization.yaml` describes the repository as Boris Alexeev's formalization,
-"verified on lean-eval", and says he reports that Codex produced it over about a
-month with himself as the one person in the loop, that the proof path carries no
-sorries, and that the repository's three axiom declarations, stating Remark
-II.3.12 of Milne's *Class Field Theory*, are in a module the proof does not
-import. Those are the comparator maintainer's reports of Alexeev's reports. The
-formal-conjectures statement file, from its revision of 23 September 2026,
+"verified on lean-eval", and says Alexeev reports that Codex produced it over
+about a month with Alexeev as the one person in the loop, that the proof path
+carries no sorries, and that the repository's three axiom declarations, stating
+Remark II.3.12 of Milne's *Class Field Theory*, are in a module the proof does
+not import. Those are the comparator maintainer's reports of Alexeev's reports.
+The formal-conjectures statement file, from its revision of 23 September 2026,
 attaches `src/submission/Solution.lean` as the formal proof of its fixed-power
 variant.
 

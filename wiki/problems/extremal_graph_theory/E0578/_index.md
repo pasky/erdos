@@ -39,9 +39,9 @@ every fixed edge probability $p>1/4$; the statement is the case $p=1/2$.
 **Status.** Proved, on the site's account and the publisher's abstract of
 Riordan's paper. The site labels the problem PROVED, its label for a question
 answered in the affirmative. It credits the solution to Riordan [Ri00], noting
-that he proved it for every edge probability above $1/4$ and that the count of
-$d$-cubes is asymptotically normal. The community database records the problem
-as proved. The claim page
+that the paper proved it for every edge probability above $1/4$ and that the
+count of $d$-cubes is asymptotically normal. The community database records the
+problem as proved. The claim page
 [[problems/extremal_graph_theory/E0578/claims/2000_03_01_riordan|Riordan 2000]]
 records the result as accepted on the refereed venue and the site's acceptance,
 and the frontmatter standing is derived from it. The paper is Combin. Probab.

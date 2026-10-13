@@ -84,7 +84,7 @@ moment. The replies report an off-by-one defect, which the author says is
 fixed by lowering a parameter by one, and a review carried out with ChatGPT
 Pro, as the post names it, which found minor issues; on 23 January 2026 the
 site's curator, Thomas Bloom, wrote in post 3664 that the argument looked
-good to him and asked for a formal write-up; the site labels the problem
+good and asked for a formal write-up; the site labels the problem
 OPEN and lists no proof claim (page last edited 23 January 2026). The bound
 is recorded here as an unverified community claim: an asymptotic lower
 bound, which would not by itself decide the $\lfloor\log_2 n\rfloor$

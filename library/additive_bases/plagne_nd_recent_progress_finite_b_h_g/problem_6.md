@@ -2,7 +2,7 @@
 name: additive_bases/plagne_nd_recent_progress_finite_b_h_g/problem_6
 title: "Problem 6: does c_{h,g} = lim F_{h,g}(N)/N^{1/h} exist?"
 desc: |
-  Plagne's Problem 6, which he calls the main unsolved question, asks
+  Plagne's Problem 6, which the author calls the main unsolved question, asks
   whether the limit c_{h,g} of F_{h,g}(N)/N^{1/h} exists; Problems 7 and 8
   ask to compute it, in particular c_{3,1} and c_{2,2}.
 created: 2026-10-08T15:50:54Z

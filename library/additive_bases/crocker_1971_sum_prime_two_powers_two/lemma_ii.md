@@ -63,8 +63,8 @@ So the difference is a proper multiple of $B_r$ and is not prime.
 
 ## Dependencies
 
-Lemma I of the same paper (p. 104), which the author says was communicated to
-him by A. Schinzel and which also appears in Sierpiński's Elementary Theory of
+Lemma I of the same paper (p. 104), which the author says was communicated
+by A. Schinzel and which also appears in Sierpiński's Elementary Theory of
 Numbers (footnote 1); both lemmas come from the method of the author's 1960/61
 note in Mathematics Magazine (the paper's reference [1]).
 

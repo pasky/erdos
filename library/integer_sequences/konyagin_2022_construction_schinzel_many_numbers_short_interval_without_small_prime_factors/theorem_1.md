@@ -2,7 +2,7 @@
 name: integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/theorem_1
 title: "Theorem 1 (PDF p. 32): rho*(x) - pi(x) >> x (log x)^{-2} log log log x"
 desc: |
-  Konyagin's announced lower bound, stated without proof in his 2022 slides:
+  Konyagin's announced lower bound, stated without proof in the 2022 slides:
   for large x the largest admissible subset of {1, ..., x} exceeds pi(x) by
   at least a constant times x (log x)^{-2} log log log x.
 created: 2026-10-08T17:21:06Z

@@ -103,7 +103,7 @@ proves the sum irrational whenever $n(k+1)\ge2n(k)-1$ for all large $k$, and
 Badea notes that this answers the problem for every $c\ge2$. Nguyen's
 [[../library/irrationality/nguyen_2022_transcendental_series_reciprocals_fibonacci_lucas_numbers/_index|Theorem 1.2]]
 adds that the sum is transcendental whenever the index ratio is at least a
-fixed $c>2$, even if Fibonacci and Lucas reciprocals are mixed; his
+fixed $c>2$, even if Fibonacci and Lucas reciprocals are mixed; the paper's
 introduction notes that irrationality in this range follows already from a
 simpler denominator-and-tail estimate. The question remains open for index
 ratios bounded below by a constant in $(1,2)$. Good's evaluation for indices

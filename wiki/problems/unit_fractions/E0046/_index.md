@@ -139,8 +139,8 @@ A second route is
 positive upper density contains a finite set with reciprocal sum one. Among
 $r$ color classes of the positive integers one has upper density at least
 $1/r$, so the theorem gives a monochromatic solution; Bloom states on p. 1
-that his Theorem 2 implies Croot's theorem, which he quotes as Theorem 1.
-The library holds a complete rewritten proof of Theorem 2, with the
+that the paper's Theorem 2 implies Croot's theorem, which it quotes as
+Theorem 1. The library holds a complete rewritten proof of Theorem 2, with the
 explicit variant of its technical proposition used by the existing
 formalization; see [[problems/unit_fractions/E0298/_index|Problem 298]]. This
 route is the one the existing formal proofs take.

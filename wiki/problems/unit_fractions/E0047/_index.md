@@ -156,7 +156,7 @@ of a subset of $\{1,\ldots,N\}$ with no unit subsum, the two theorems give
 $\lambda(N)\ll(\log N)^{4/5+o(1)}$, while Pomerance's construction
 ([[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_4|Bloom's Theorem 4]],
 Appendix A) gives $\lambda(N)\gg(\log\log N)^2$. The order of $\lambda(N)$
-is not known; Bloom writes (p. 2) that he suspects
+is not known; Bloom suspects (p. 2) that
 $\lambda(N)\le(\log N)^{o(1)}$. This quantitative question lies beyond the
 yes-or-no question the page carries and does not affect the status.
 

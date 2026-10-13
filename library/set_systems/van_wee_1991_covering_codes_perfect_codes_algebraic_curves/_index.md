@@ -23,7 +23,7 @@ even n and determines K(2^r,1) exactly for every r >= 1.
 multiple coverage on radius-two balls, which fills some of the cases left by
 Theorem 9.
 
-[[set_systems/van_wee_1991_covering_codes_perfect_codes_algebraic_curves/chapter_1_theorem_12|chapter_1_theorem_12]]: Van Wee's verification, from his table of bounds, of the Cohen-Lobstein-Sloane
+[[set_systems/van_wee_1991_covering_codes_perfect_codes_algebraic_curves/chapter_1_theorem_12|chapter_1_theorem_12]]: Van Wee's verification, from the table of bounds, of the Cohen-Lobstein-Sloane
 inequality K(n+2,R+1) <= K(n,R) in the case R = 1 for all n >= 2 except n = 9.
 
 [[set_systems/van_wee_1991_covering_codes_perfect_codes_algebraic_curves/chapter_1_theorem_9|chapter_1_theorem_9]]: Van Wee's lower bound on K(n,R), the least size of a binary code of length n

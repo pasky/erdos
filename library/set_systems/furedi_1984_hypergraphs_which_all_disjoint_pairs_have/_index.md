@@ -25,8 +25,8 @@ in a star and forming no alternating 4-cycle, have at most
 2 binom(|A|,2) + 2 binom(|B|,2) + (|A|+|B|)t/2 + binom(t,2) edges in all.
 
 [[set_systems/furedi_1984_hypergraphs_which_all_disjoint_pairs_have/proposition_6_1|proposition_6_1]]: Füredi's remark that f_3(n)/binom(n,2) converges as n tends to infinity,
-to a limit between 1 and 3.5; he could not prove the analogous statement
-for f_r(n) with r greater than 3.
+to a limit between 1 and 3.5; the author could not prove the analogous
+statement for f_r(n) with r greater than 3.
 
 [[set_systems/furedi_1984_hypergraphs_which_all_disjoint_pairs_have/theorem_1_2|theorem_1_2]]: Füredi's main theorem: for r at least 3 the largest disjoint-union-free
 family of r-subsets of an n-set has at least binom(n-1,r-1) plus

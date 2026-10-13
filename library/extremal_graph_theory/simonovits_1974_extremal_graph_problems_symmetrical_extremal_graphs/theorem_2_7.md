@@ -2,12 +2,12 @@
 name: extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7
 title: "Theorem 2.7 (p. 358): the most edges in a triangle-free graph on n vertices with chromatic number at least t is n²/4 − ĝ_3(t)·n/2 + O(1)"
 desc: |
-  Simonovits's statement, attributed to his thesis and printed without proof,
-  that the maximum number of edges of a triangle-free graph on n vertices with
-  chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1), where ĝ_3(t) is
-  the largest m such that every such graph needs at least m vertices removed
-  to become bipartite; the expansion the catalog's Problem 1011 attributes to
-  the paper.
+  Simonovits's statement, attributed to the author's thesis and printed
+  without proof, that the maximum number of edges of a triangle-free graph on
+  n vertices with chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1),
+  where ĝ_3(t) is the largest m such that every such graph needs at least m
+  vertices removed to become bipartite; the expansion the catalog's
+  Problem 1011 attributes to the paper.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T14:33:42Z
 ---
@@ -31,7 +31,8 @@ $$
 It then records Erdős's question, prompted by that
 theorem: "**Problem.** What is the maximum number of edges, a graph of $n$
 vertices and chromatic number $\ge t$ can have if it does not contain
-$K_3$?" The author says he showed the answer in his thesis, the paper's [13]:
+$K_3$?" The author says they showed the answer in their thesis, the
+paper's [13]:
 
 **Theorem 2.7** (printed p. 358). "Let $f_t(n;K_3)$ denote the maximum in
 the problem above. Then

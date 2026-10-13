@@ -53,7 +53,7 @@ so no covering system has those moduli. Since $\sigma(H)/H\to\infty$ along
 these $H$, for every $c$ there is such an $H$ with $\sigma(H)>cH$, which is
 the question's affirmative answer. The paper presents the theorem as a new
 and short proof of a stronger form of the result of Haight recorded on
-[[problems/covering_systems/E0277/claims/1979_06_01_haight|his claim page]];
+[[problems/covering_systems/E0277/claims/1979_06_01_haight|its claim page]];
 its Section 2 derives it from Lemma 2.1, the inequality
 $\delta(C)\ge\alpha(C)-\beta(C)$ between the uncovered density, the product
 $\prod(1-1/d)$ and the sum of $1/(d_id_j)$ over non-coprime pairs of moduli,

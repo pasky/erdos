@@ -18,7 +18,7 @@ updated: 2026-10-08T14:17:40Z
 closed under taking subsets has an element whose star is at least as large
 as every intersecting subfamily; the corrected Statement of Problem 701.
 
-[[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/remark_p66|remark_p66]]: Chvátal's closing remark that the natural extension of his theorem to
+[[set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/remark_p66|remark_p66]]: Chvátal's closing remark that the natural extension of the paper's theorem to
 subfamilies with no k+1 pairwise disjoint sets fails for every k > 1, and
 that a restricted form might imply Erdős's conjecture on sets with no k+1
 pairwise coprime integers, the question of Problem 56.

@@ -88,4 +88,4 @@ Dirichlet's theorem on simultaneous approximation; Lemma 2 of the paper
 
 No problem page is reached by this result. The Croft question it settles
 is not an Erdős problem in the corpus; Schmidt credits Erdős with drawing
-his attention to these problems (p. 138).
+the author's attention to these problems (p. 138).

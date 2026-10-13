@@ -31,7 +31,8 @@ elements of order mn when n is a prime power, and at least the ceiling of
 
 [[group_theory/girard_2008_inverse_zero_sum_algebraic_invariants/theorem_7_2|theorem_7_2]]: Girard's theorem that when the positive integer n is not a prime power,
 every zero-sumfree sequence in C_n with cross number at least k*(C_n) has
-length at most the floor of n/2, the cyclic evidence for his Conjecture 7.1.
+length at most the floor of n/2, the cyclic evidence for the paper's
+Conjecture 7.1.
 
 ***
 

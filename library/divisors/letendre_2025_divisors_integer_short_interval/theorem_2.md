@@ -2,7 +2,7 @@
 name: divisors/letendre_2025_divisors_integer_short_interval/theorem_2
 title: "Theorem 2 (p. 2): constants in Conjecture 2 grow exponentially in 1/eps"
 desc: |
-  Letendre's lower bound for the constants of his Conjecture 2: if the
+  Letendre's lower bound for the constants of Conjecture 2: if the
   conjecture holds for fixed 0 < theta < 1 and 0 < epsilon < theta, then
   k_epsilon(theta) >> sqrt(epsilon) (theta(1-theta))^{3/2} times
   (theta^theta (1-theta)^{1-theta})^{-1/epsilon}.

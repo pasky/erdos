@@ -75,7 +75,7 @@ problem DISPROVED (LEAN) and credits the negative answer to Barreto and Leeham
 in the problem's commentary (last edited 2026-04-05). Terence Tao, in the thread
 on 2026-01-11, described the construction and found it surprisingly simple. Tao
 also listed it as a full solution under Section 1, primary contributions, of the
-AI-contributions wiki of the community database he maintains. The same day Nat
+AI-contributions wiki of the community database Tao maintains. The same day Nat
 Sothanaphan posted a human-readable version of the quantified Lean proof and
 wrote that they had checked everything by hand. That write-up is linked from the
 Tao–Alexeev page.

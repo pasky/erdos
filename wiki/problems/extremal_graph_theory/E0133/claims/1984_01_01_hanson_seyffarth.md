@@ -85,12 +85,12 @@ page). The corpus has not built, kernel-checked or audited the file, so the
 evidence stays `reviewed` only.
 
 **Acceptance.** The site's curator, Thomas Bloom, marks the problem DISPROVED.
-In the commentary he credits the bound to Hanson and Seyffarth under the
-reference [HaSe84]. That credit is the `reviewed` evidence, and Bloom took no
-part in the paper. The bound refutes the conjecture $f(n)/\sqrt n\to\infty$ of
-Erdős and Pach, as [Er97b] words it. Two refereed papers restate the result as
-established. Füredi and Seress (J. Graph Theory 18 (1994), Section 6) write that
-Hanson and Seyffarth determined the true order of magnitude. Haviv and Levy
+In the commentary the curator credits the bound to Hanson and Seyffarth under
+the reference [HaSe84]. That credit is the `reviewed` evidence, and Bloom took
+no part in the paper. The bound refutes the conjecture $f(n)/\sqrt n\to\infty$
+of Erdős and Pach, as [Er97b] words it. Two refereed papers restate the result
+as established. Füredi and Seress (J. Graph Theory 18 (1994), Section 6) write
+that Hanson and Seyffarth determined the true order of magnitude. Haviv and Levy
 (Israel J. Math. 227 (2018), Section 1) extend it to every $n$. These are
 documented acceptances by named experts. It is not documented here whether
 Congressus Numerantium refereed the paper, so `refereed` is not listed.

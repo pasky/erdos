@@ -1321,8 +1321,8 @@ c1 log n has at least 2^(c2 n) non-isomorphic induced subgraphs.
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/]]: Simonovits 1974: when one forbidden graph is almost d-chromatic, some
 extremal graph, also under a chromatic condition such as chromatic number
 at least t, lies in a class of very symmetric graphs (Theorems 1.a, 1-3);
-with Theorem 2.7, from his thesis, that the most edges in a triangle-free
-graph on n vertices with chromatic number at least t is
+with Theorem 2.7, from the author's thesis, that the most edges in a
+triangle-free graph on n vertices with chromatic number at least t is
 n^2/4 - ĝ_3(t) n/2 + O(1), and Remark 2.8's bounds on ĝ_3(t).
 
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/_index|sleszynskanowak_2016_clique_number_square_line_graph/]]: Proves the clique number of the square of the line graph of any simple graph

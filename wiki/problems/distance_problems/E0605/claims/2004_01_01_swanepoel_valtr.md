@@ -54,9 +54,9 @@ points and no parallelogram, is not part of this problem. The source card is
 
 **Acceptance.** The site's curator, Thomas Bloom, records the theorem as the
 current lower bound for the problem's quantity, $u_D(n)\gg n\sqrt{\log n}$
-(problem page accessed). He records it beside the solution he credits to Erdős,
-Hickerson and Pach. That record is the `reviewed` evidence. The venue is the one
-the publisher's record gives, DOI 10.1090/conm/342/06148 (Contemporary
+(problem page accessed). It is listed beside the solution Bloom credits to
+Erdős, Hickerson and Pach. That record is the `reviewed` evidence. The venue is
+the one the publisher's record gives, DOI 10.1090/conm/342/06148 (Contemporary
 Mathematics 342, *Towards a Theory of Geometric Graphs*, 273–279, 2004). It is
 linked above with the first author's publication list. The volume is a
 proceedings volume, not a journal, and no evidence that it was refereed is

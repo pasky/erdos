@@ -53,7 +53,7 @@ Theorem 1.2 gives $r^{Crn}$ for $r$ colors. The status-defining source is an
 arXiv paper (v2, 13 November 2025). The site's curator, T. F. Bloom, labels the
 problem PROVED and credits the paper. Morris, whom the authors thank for reading
 the paper, reports the result as proved, with a proof outline, in the published
-text of his plenary lecture at the 2026 International Congress of
+text of Morris's plenary lecture at the 2026 International Congress of
 Mathematicians. No independent review and no formal verification were found. The
 earlier bounds, $2^{O(n(\log n)^2)}$ (Kohayakawa, Prömel and Rödl; an explicit
 host by Fox and Sudakov) and $2^{O(n\log n)}$ (Conlon, Fox and Sudakov,
@@ -160,7 +160,7 @@ conjecture as "recently proved" by the five authors, states it as its
 [[../library/ramsey_theory/morris_2026_recent_results_ramsey_theory/theorem_1_5|Theorem 1.5]]
 and outlines the proof in its Section 10 (arXiv v1 p. 4), but the paper's
 acknowledgments thank Morris for carefully reading it and suggesting
-improvements and corrections, so his report is not independent of the authors;
+improvements and corrections, so that report is not independent of the authors;
 six works of 2025--2026, the survey and five preprints, cite the paper, one of
 them (arXiv:2606.02873, abstract only) transferring "the weighted random-host
 proof of Aragão, Campos, Dahia, Filipe, and Marciano" to sparse random graphs.

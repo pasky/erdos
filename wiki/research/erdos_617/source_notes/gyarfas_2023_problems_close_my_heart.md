@@ -44,8 +44,8 @@ of those cliques, so they contain an edge of that color; applying this to each
 color proves balance at the threshold
 $\lceil(r^2+r+1)/r\rceil=r+2$ (pp. 4--5).
 
-Gyárfás writes retrospectively that he and Erdős thought
-$r^2+r+1$ was the least order admitting a balanced $r$-coloring. He then uses
+Gyárfás writes retrospectively that the author and Erdős thought $r^2+r+1$ was
+the least order admitting a balanced $r$-coloring. Gyárfás then uses
 
 $$
 \left\lceil\frac{r^2+r+1-i}{r}\right\rceil=r+1

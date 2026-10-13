@@ -66,7 +66,7 @@ record the two ZFC disproofs. The claim page
 records the disproof under CH as a conditional claim. The frontmatter standing
 derives from these pages. The site's (Lean) suffix is a catalog label, explained
 under Formalization. The external Lean file declares itself a formalization of
-Komjáth's argument and is linked from his claim page. It was not built here.
+Komjáth's argument and is linked from its claim page. It was not built here.
 
 **Source.** [erdosproblems.com/965](https://www.erdosproblems.com/965),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label

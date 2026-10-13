@@ -27,7 +27,7 @@ Latin squares of order n: beyond the constant n_0 of Lemma 4.1, N(n) is at
 least n to the power 1/17, minus 2.
 
 [[set_systems/wilson_1974_number_mutually_orthogonal_latin_squares/theorem_5_1|theorem_5_1]]: Wilson's bound that six mutually orthogonal Latin squares of order n exist
-for every n above 90, obtained from his inequalities with m = 7.
+for every n above 90, obtained from the paper's inequalities with m = 7.
 
 ***
 

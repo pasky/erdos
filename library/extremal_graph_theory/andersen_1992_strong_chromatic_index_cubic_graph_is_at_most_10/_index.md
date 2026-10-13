@@ -249,7 +249,7 @@ conjecture $\frac54\Delta^2$ to Erdős and Nešetřil through the paper's
 "P. Horák, H. Quin and W.T. Trotter Jr") also had a proof that the strong
 chromatic index of a cubic graph is at most $10$, known to the author
 through a private communication, and that the author did not know how far
-it resembled his own. The paper writes the conjecture without
+it resembled this one. The paper writes the conjecture without
 an odd-degree refinement. Page 251 repeats from the paper's [3] the
 question whether a cubic bipartite graph has strong chromatic index at most
 $9$, the first nontrivial case of the bipartite variant the problem page

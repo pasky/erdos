@@ -60,7 +60,7 @@ on pp. 2--4 for its structure only.
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E1192/_index|Problem 1192]]: background
-  only. The paper reports (p. 1) that Ruzsa, in proving his basis of order
+  only. The paper reports (p. 1) that Ruzsa, in proving a basis of order
   two with $\sum_{n\le N}f_A^2(n)\ll N$, essentially proved that $R_m$ is
   bounded by a constant; Theorem 1.1 gives the explicit bound $128$ for that
   quantity. The theorem is a statement about $\mathbb Z_m$; the paper derives

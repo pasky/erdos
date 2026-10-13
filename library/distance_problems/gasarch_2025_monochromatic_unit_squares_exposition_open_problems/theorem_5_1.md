@@ -30,7 +30,7 @@ proved), which implies Theorem 5.1: for a rectangle $T$ and
 $c\in\mathbb N$, every 2-coloring of $\mathbb R^5$ contains a monochromatic
 rectangle congruent to $T$, and every $c$-coloring of
 $\mathbb R^{c^2+3c^{3/2}}$ does as well; the column notes that Tóth stated
-the second part with dimension $c^2+o(c^2)$ and that his proof gives
+the second part with dimension $c^2+o(c^2)$ and that the proof gives
 $c^2+3c^{3/2}$.
 
 ## Proof pointer

@@ -4,8 +4,8 @@ title: "Conjecture 19: χ(G) − ζ(G) = Θ(n/log³ n) whp for G ~ G(n,1/2)"
 desc: |
   Heckel's conjecture that the chromatic number of G(n,1/2) exceeds its
   cochromatic number by Θ(n/log³ n) with high probability, a conjecture the
-  paper says was first mentioned in her earlier note on the Erdős–Gimbel
-  question.
+  paper says was first mentioned in the author's earlier note on the
+  Erdős–Gimbel question.
 created: 2026-10-08T15:28:38Z
 updated: 2026-10-08T15:28:38Z
 ---

@@ -109,7 +109,7 @@ statements to the site's question, so the page lists no `formalized` evidence.
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, who took no part in
 the construction, labels the problem DISPROVED (LEAN) and credits the
 construction to the three authors in the commentary. In the thread (19 January
-2026) he fixed the quantifier reading of the question that the construction
+2026) Bloom fixed the quantifier reading of the question that the construction
 refutes: for every $\epsilon>0$ and every $C>0$, every large graph with at least
 $(\tfrac12+\epsilon)n$ distinct degrees has a trivial subgraph on more than
 $C\log n$ vertices. The problem page's Formulation records this reading with the

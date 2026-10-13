@@ -355,10 +355,10 @@ GitHub proof of 5 September 2026 (the author's axiom report only), its
 catalog PR open and the existential quantifier disputed as a
 misformalization in issue #6542. The thread adds two site-attested items,
 neither verified by anyone in the thread or by this corpus: van Doorn's remark
-of 20 September 2025 that his
+of 20 September 2025 that the
 proof of completeness for $\min(\alpha,\beta)<2$, $\max(\alpha,\beta)<3$
-carries over at once to every base $\gamma\in(1,2)$, and his suspicion of 19
-October 2025 that Hegyvári 1989 settles $\gamma=\sqrt2$ or even
+carries over at once to every base $\gamma\in(1,2)$, and van Doorn's suspicion
+of 19 October 2025 that Hegyvári 1989 settles $\gamma=\sqrt2$ or even
 $1<\gamma\le\sqrt2$, which nobody in the thread verified. Fan's Remark
 4.2 ([Fa26],
 [[../library/additive_bases/fan_2026_strongly_complete_sets_conjecture_erdos/remark_4_2|Remark 4.2]])

@@ -4,7 +4,7 @@ title: "Definition 1.7 (p. 424): ρ*(x), the largest admissible tuple in an inte
 desc: |
   Richards's definition of rho*(x) as the largest k for which an admissible
   k-tuple of distinct integers lies in an interval of x consecutive integers,
-  with admissibility as in his Definition 1.5.
+  with admissibility as in the paper's Definition 1.5.
 created: 2026-10-08T15:38:39Z
 updated: 2026-10-08T15:38:39Z
 ---

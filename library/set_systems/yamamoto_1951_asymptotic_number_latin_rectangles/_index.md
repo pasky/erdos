@@ -43,14 +43,14 @@ generally a positive function of n tending to zero with n^{-delta} -> 0 (p.
 follows from Theorem 1 (p. 118): for k < n^{1/2-epsilon}, epsilon > 0 constant,
 |N e^k/n! - 1| < c n^{-2 epsilon} with c absolute, for large n. The method is a direct continuation and refinement of the
 Erdos-Kaplansky argument: starting from their fundamental formula for the number
-N of ways to extend an n by k rectangle by one row, he rewrites N in Jordan
-factorial notation as a sum over quantities G_t built from the counting function
-F(s,t) of pairs of repeated symbols, and evaluates G_t by classifying choices
-according to restricted non-unitary bipartite partitions. He notes the technique
-also applies to the probleme des menages solved by Touchard and by Kaplansky and
-Riordan, and to a verification of Sade's enumeration of 7-sided Latin squares.
-erdosproblems.com cites it for problem 725, on the asymptotic count of Latin
-rectangles, as [Ya51].
+N of ways to extend an n by k rectangle by one row, Yamamoto rewrites N in
+Jordan factorial notation as a sum over quantities G_t built from the counting
+function F(s,t) of pairs of repeated symbols, and evaluates G_t by classifying
+choices according to restricted non-unitary bipartite partitions. The author
+notes the technique also applies to the probleme des menages solved by Touchard
+and by Kaplansky and Riordan, and to a verification of Sade's enumeration of
+7-sided Latin squares. erdosproblems.com cites it for problem 725, on the
+asymptotic count of Latin rectangles, as [Ya51].
 
 Source: <https://www.jstage.jst.go.jp/article/jjm1924/21/0/21_0_113/_article>.
 

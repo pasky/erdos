@@ -61,4 +61,4 @@ None.
   in the $\sqrt{n\log n}$ size of the maximum modulus on the circle; #523 asks
   for it almost surely, with the sum from $k=0$. Update 4.17 credits Halász
   with the common value $1$ in the book's form; the problem page records what
-  his paper proves for the almost-sure form.
+  Halász's paper proves for the almost-sure form.

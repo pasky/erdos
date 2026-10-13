@@ -4,8 +4,8 @@ title: "Question on p. 138: must a measurable set of positive reals with no inte
 desc: |
   Schmidt's open question whether a measurable set of positive reals in
   which no quotient of two distinct elements is an integer must have finite
-  measure, with his note added in proof that Erdos reported Szemeredi can
-  show the measure need not be finite.
+  measure, with the author's note added in proof that Erdos reported
+  Szemeredi can show the measure need not be finite.
 created: 2026-10-08T14:48:52Z
 updated: 2026-10-08T14:48:52Z
 ---
@@ -49,7 +49,7 @@ None.
   a set of infinite measure in which no ratio of two distinct elements is an
   integer and asks how fast its measure in $(0,x)$ can grow; Schmidt's
   question is whether a set of positive reals with this property can have
-  infinite measure at all, and his
+  infinite measure at all, and the paper's
   footnote records only Erdős's report that Szemerédi can show it can. The
   page bears on the problem's background and says nothing about the growth
   rate it asks for.

@@ -65,8 +65,8 @@ introduction of the paper; the proof was not checked.
 **Acceptance.** The paper is a refereed publication in Acta Arithmetica, which
 is the `refereed` evidence. The site's curator, T. F. Bloom, labels the problem
 proved and credits this paper in the problem's commentary with the effective
-bounds. In the site's thread on 2025-09-08, he noted that the details and
-references had been added. That documented acceptance is the `reviewed`
+bounds. In the site's thread on 2025-09-08, the curator noted that the details
+and references had been added. That documented acceptance is the `reviewed`
 evidence. The thread also carries a reader's computed values under the ordered
 convention. The thread itself attributes those values to double counting of
 permuted summands. Those posts are unverified comments and change nothing here.

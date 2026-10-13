@@ -65,7 +65,7 @@ formulation above asks whether an infinite set of density zero always has a
 difference set whose counting function is infinitely often arbitrarily larger
 than the set's own. The answer is yes: Ruzsa [Ru78] proved that the ratio of the
 two counting functions has $\limsup=\infty$ for every such set, and the site's
-curator credits him with the proof. The result is recorded on
+curator credits Ruzsa with the proof. The result is recorded on
 [[problems/additive_combinatorics/E0899/claims/1978_01_01_ruzsa|the claim page]]
 as an accepted full claim with `reviewed` as its only evidence: the paper
 appeared in a colloquium proceedings volume, and no evidence that the volume was

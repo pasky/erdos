@@ -76,7 +76,7 @@ equivalently be taken as $z_1=1$ (both noted on p. 499).
   the trivial $R_n\le1$; the Komlós--Sárközy--Szemerédi bounds
   $R_n<1-1/(250n)$ for $n>n_0$ and $R_n<1-\tfrac13\log n/n$ for infinitely
   many $n$; the author's $R_n<1-(1-\varepsilon)\log\log n/\log n$ for large
-  $n$ (his "Notes on a problem of Turán", not held); and the numerical
+  $n$ (Biró's "Notes on a problem of Turán", not held); and the numerical
   conjecture of Cheer and Goldston that $R_n$ has a limit about $0.7$.
 - Method (pp. 500--502): the power sums are prescribed as $S_l=1-\alpha$
   for $l\le T=[n/2]$ and chosen for $T<l\le n$ so that the numbers $b_l$

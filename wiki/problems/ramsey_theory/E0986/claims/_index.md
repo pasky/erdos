@@ -11,7 +11,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/ramsey_theory/E0986/_index|..]]
 
-[[problems/ramsey_theory/E0986/claims/1977_01_01_spencer|1977_01_01_spencer]]: Spencer's Theorem 2.1, in his refereed 1977 paper in Discrete Mathematics,
+[[problems/ramsey_theory/E0986/claims/1977_01_01_spencer|1977_01_01_spencer]]: Spencer's Theorem 2.1, in a refereed 1977 paper in Discrete Mathematics,
 proves $R(3,t)\ge(1/27-o(1))(t/\ln t)^2$ by the local lemma. This is the case
 $s=3$ of the problem, with $c(3)=2$.
 

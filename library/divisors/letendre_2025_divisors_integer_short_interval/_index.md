@@ -28,7 +28,7 @@ n^theta + n^eta] with 0 < eta < theta < 1: at most tau(n) to the power
 1 - xi(theta,eta), times V(n) log tau(n) / (theta(1-theta)), with an
 explicit five-case saving exponent xi equal to 1 when eta <= theta^2.
 
-[[divisors/letendre_2025_divisors_integer_short_interval/theorem_2|theorem_2]]: Letendre's lower bound for the constants of his Conjecture 2: if the
+[[divisors/letendre_2025_divisors_integer_short_interval/theorem_2|theorem_2]]: Letendre's lower bound for the constants of Conjecture 2: if the
 conjecture holds for fixed 0 < theta < 1 and 0 < epsilon < theta, then
 k_epsilon(theta) >> sqrt(epsilon) (theta(1-theta))^{3/2} times
 (theta^theta (1-theta)^{1-theta})^{-1/epsilon}.

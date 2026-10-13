@@ -343,7 +343,7 @@ vertices are Hamiltonian. This question seems to be difficult. Recently Moon and
 Moser and I. Palásti proved $f(n)<cn^{3/2}$, but it seems certain that
 $f(n)<n^{1+\varepsilon}$ [24]." So in 1971 the expectation was
 $n^{1+\varepsilon}$; Frieze (p. 2) records that Komlós and Szemerédi proved
-$n^{1+\varepsilon}$ in a 1973 proceedings paper (his [151], not held), as
+$n^{1+\varepsilon}$ in a 1973 proceedings paper (Frieze's [151], not held), as
 [KoSz83] itself says (p. 55: "the present authors [3] proved the estimation
 $f(n)<n^{1+\varepsilon}$"), and that Pósa's $O(n\log n)$ "introduced the idea of
 using rotations". Pósa's own introduction ([Po76], pp. 359--360) states the

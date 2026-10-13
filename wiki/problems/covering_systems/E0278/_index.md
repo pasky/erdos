@@ -50,7 +50,7 @@ without adoption, two from the proof-claims tab and one from the discussion
 thread. The curator has ruled on none of the three.
 
 [[problems/covering_systems/E0278/claims/2025_08_25_cambie|Cambie]] argues that
-no efficient general formula should be expected. His argument rests on exact
+no efficient general formula should be expected. The argument rests on exact
 balanced-partition formulas for structured moduli, a hard knapsack order for
 distinct moduli, and NP-hardness of deciding zero uncovered density for lists
 with repeated moduli. It is an arXiv note, submitted as a proof claim on
@@ -63,10 +63,10 @@ inclusion-exclusion value over the realizable compatibility graphs. The claim
 includes a dynamic program enumerating these graphs and a Lean companion. The
 manuscript and proof claim date from 2026-09-10 and were written with GPT-5.6
 Sol and GPT-6 Astra. The claim has two comments. Cambie calls it a complementary
-attempt reaching an essentially opposite answer to his own, and leaves the
-thread's closure to the curator. He also notes that for moduli up to
-$2^{\varepsilon r}$ its running-time bound is no smaller than enumerating all
-residue choices. Onishi replies that he sees no mathematical contradiction.
+attempt reaching an essentially opposite answer to Cambie's own, and leaves the
+thread's closure to the curator. The same comment also notes that for moduli up
+to $2^{\varepsilon r}$ its running-time bound is no smaller than enumerating all
+residue choices. Onishi replies that they see no mathematical contradiction.
 
 [[problems/covering_systems/E0278/claims/2026_09_22_schroeder|Schroeder]] claims
 several results. They are an inclusion-exclusion formula for the maximum covered
@@ -81,8 +81,8 @@ OpenAI and Anthropic.
 
 Cambie's partition formulas and Schroeder's closed formula settle only
 structured families. Schroeder's exact formula for general sets is a finite
-optimization of the same kind as Onishi's. He offers it as one part of a
-combined answer rather than as a resolution.
+optimization of the same kind as Onishi's. The manuscript offers it as one
+part of a combined answer rather than as a resolution.
 
 **Source.** [erdosproblems.com/278](https://www.erdosproblems.com/278), accessed
 2026-09-04 and 2026-10-06 (five comments in the discussion thread, two proof

@@ -44,7 +44,7 @@ $\mathbb C(z)$; the differential system (1); the zero estimate Theorem 3
 (p. 69), which bounds $\operatorname{ord}_{z=0}A(z,P(z),Q(z),R(z))$ by
 $2\cdot10^{45}L_1L_2^3$ for nonzero $A$ with $\deg_zA\le L_1$,
 $\deg_{x_i}A\le L_2$; an auxiliary polynomial (Lemma 2.1, p. 69); and
-Philippon's algebraic independence criterion (his Theorem 2.11, which
+Philippon's algebraic independence criterion (their Theorem 2.11, which
 gives Lemma 2.5, p. 75). Expositions: Waldschmidt, Séminaire Bourbaki
 exposé 824 (1997), section 2.2 (p. 118) for the statement and section 2.5
 (from p. 126) for the proof; the Lecture Notes in Mathematics 1752 chapter

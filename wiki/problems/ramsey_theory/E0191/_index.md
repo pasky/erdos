@@ -55,15 +55,15 @@ $f(n)=O(\log\log\log n)$, a point a reader raised in the thread on 5 February
 **Status.** Proved: the site labels the problem PROVED (LEAN). The answer is
 yes. Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
 $f(n)\to\infty$, with $f(n)=\Omega(\log\log\log\log n/\log\log\log\log\log n)$.
-This is the rate both second-hand accounts give (under Rödl's results below). He
-also gave a coloring showing $f(n)=O(\log\log\log n)$. Theorem 1.1 of Conlon,
-Fox and Sudakov (Duke Math. J. 162 (2013), 2903--2927) gives
+This is the rate both second-hand accounts give (under Rödl's results below).
+The paper also gives a coloring showing $f(n)=O(\log\log\log n)$. Theorem 1.1
+of Conlon, Fox and Sudakov (Duke Math. J. 162 (2013), 2903--2927) gives
 $f(n)\ge2^{-8}\log\log\log n$ for large $n$, so $f(n)=\Theta(\log\log\log n)$.
 The claim pages
 [[problems/ramsey_theory/E0191/claims/2003_04_23_rodl|Rödl 2003]] and
 [[problems/ramsey_theory/E0191/claims/2011_12_07_conlon_fox_sudakov|Conlon, Fox and Sudakov 2011]]
 record the two refereed proofs with their postings and acceptance evidence. The
-frontmatter standing derives from these pages. Rödl's paper is not held, so his
+frontmatter standing derives from these pages. Rödl's paper is not held, so its
 results are quoted second-hand from the Conlon--Fox--Sudakov introduction, the
 site and Erdős's 1982 report. The refereed theorem of Conlon, Fox and Sudakov
 answers the question on its own. It is cited from the arXiv version headed
@@ -299,7 +299,7 @@ compared: the Duke text of [CFS13].
 **Remaining gaps.** (1) Rödl's paper, the first proof and the source of the
 construction and the three-color remark, is not held; everything attributed
 to it is second-hand from [CFS13], [Er82e] and the site, which agree on
-the rate of his lower bound; reopening condition: a
+the rate of its lower bound; reopening condition: a
 copy of J. Combin. Theory Ser. A 102 (2003), 229--240, which the
 publisher's record marks as open archive. (2) Proof coverage is at the
 level of statements; the proof of Theorem 1.1 was not read. (3) The Lean

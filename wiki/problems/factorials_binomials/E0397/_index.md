@@ -92,13 +92,13 @@ Terence Tao gave an entropy argument that forces coincidences among the
 products over subsets of $\{1,\dots,N\}$ for large $N$ (12 January 2026).
 Nat Sothanaphan posted a counting version of Tao's argument and an exponential
 lower bound, $(2/\sqrt e)^{(1-o(1))N}$, for the number of coincidences with
-indices at most $N$ (13 and 14 January 2026); both came from ChatGPT, as his
-posts state, and he wrote that he had not fully checked the counting rewrite.
-These posts confirm the answer by other routes and have no claim page, since
-the site credits the disproof to Somani and they are not dated manuscripts. A
-related earlier MathOverflow question (number 138209, from 2013) asked for
-nontrivial solutions with equal index sums, repeated indices allowed, and
-Noam Elkies answered it with a construction of solutions; whether that
+indices at most $N$ (13 and 14 January 2026); both came from ChatGPT, as the
+posts state, and Sothanaphan wrote of not having fully checked the counting
+rewrite. These posts confirm the answer by other routes and have no claim page,
+since the site credits the disproof to Somani and they are not dated
+manuscripts. A related earlier MathOverflow question (number 138209, from 2013)
+asked for nontrivial solutions with equal index sums, repeated indices allowed,
+and Noam Elkies answered it with a construction of solutions; whether that
 construction gives infinitely many solutions with distinct indices was
 discussed in the thread and not settled, so it is context here and not a
 claim.

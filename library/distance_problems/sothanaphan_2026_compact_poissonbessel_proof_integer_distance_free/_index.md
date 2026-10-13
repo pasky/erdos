@@ -77,7 +77,7 @@ corpus; the outside review of the argument is recorded on
 with Sárközy's cited lower bound, the exponent in $M(R)=R^{1/2+o(1)}$; it
 does not decide whether $M(R)$ has order exactly $R^{1/2}$, which the problem
 page leaves open. The bound is Chojecki's, recorded at
-[[distance_problems/chojecki_2026_poisson_bessel_kernel_bound_planar_sets/theorem_1_1|his Theorem 1.1]];
+[[distance_problems/chojecki_2026_poisson_bessel_kernel_bound_planar_sets/theorem_1_1|their Theorem 1.1]];
 this manuscript gives a shorter proof of it.
 
 **Results.** Labels and pages are those of the manuscript named above

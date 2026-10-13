@@ -50,7 +50,7 @@ refereed publication or Lean the corpus built.
 
 The first question is open unconditionally. Hughes's conditional yes, under a
 consequence of the abc conjecture, is
-[[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes_conditional|his conditional claim]].
+[[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes_conditional|the conditional claim]].
 
 **Source.** [erdosproblems.com/367](https://www.erdosproblems.com/367), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #367,
@@ -78,7 +78,7 @@ by Aristotle from Harmonic, proves the failure of the $O(n^2)$ bound at
 $k=3$ and is linked on van Doorn's claim page. Scott Hughes's repository of
 2026-06-10 strengthens the rate: the ratio of the $k=3$ product to
 $n^2\log n$ is unbounded, by running the construction over many primes
-$p\equiv5\pmod8$ at once; his claim page records that the repository's
+$p\equiv5\pmod8$ at once; Hughes's claim page records that the repository's
 headline Lean statement is vacuous at $n=1$ and that the content lies in
 its key lemma. Neither result has a refereed publication, and the corpus has
 built neither Lean development.
@@ -102,13 +102,13 @@ superior. As printed, with every $\varepsilon>0$, this is false, since
 $B_r(m)\mid m$ bounds the product by about $n^k$. The intended reading, with
 $\varepsilon=\varepsilon(r,k)>0$ depending on $r$ and $k$, is open in the
 formal-conjectures file and is claimed by Hughes for all $r,k\ge2$ with any
-$\varepsilon<(r+1)/r^2$; his Lean covers odd $r$ only (the theorem
-`erdos367_iv`, with $n=(q^r-1)^r$), and the even case rests on the paper his
+$\varepsilon<(r+1)/r^2$; the claimant's Lean covers odd $r$ only (the theorem
+`erdos367_iv`, with $n=(q^r-1)^r$), and the even case rests on the paper the
 README cites, which has no public posting. Hughes also claims
 $40/27\le E_3\le3/2$ for $E_3=\limsup\log(B_3(n)B_3(n+1))/\log n$, the
-upper bound under abc; his Lean proves only an arithmetic core of the lower
-bound under explicit prime-supply hypotheses, so the bounds are recorded as
-his claims and no claim page carries them.
+upper bound under abc; the claimant's Lean proves only an arithmetic core of
+the lower bound under explicit prime-supply hypotheses, so the bounds are
+recorded as Hughes's claims and no claim page carries them.
 
 The
 [formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/2e3d4a09db6b02a85ca5964ab8f9dd08b0a3adbf/FormalConjectures/ErdosProblems/367.lean)

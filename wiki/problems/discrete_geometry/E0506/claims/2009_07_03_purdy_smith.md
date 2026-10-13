@@ -78,7 +78,8 @@ pending.
 Geometry published the paper. Its Section 2.1 asserts the modification of
 Elliott's argument without printing it. The refereed text therefore vouches for
 the counterexample and for that assertion. Thomas Bloom, the site's curator,
-labels the problem DECIDABLE. He credits Purdy and Smith with observing the
-error in Elliott's proof and the corrected bound, best possible for all $n>393$
-(problem page last edited 1 February 2026). The label DECIDABLE does not settle
-the problem, so the curator's credit is context and not acceptance evidence.
+labels the problem DECIDABLE. The curator credits Purdy and Smith with
+observing the error in Elliott's proof and the corrected bound, best possible
+for all $n>393$ (problem page last edited 1 February 2026). The label DECIDABLE
+does not settle the problem, so the curator's credit is context and not
+acceptance evidence.

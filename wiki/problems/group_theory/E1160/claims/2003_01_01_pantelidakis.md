@@ -46,4 +46,4 @@ the odd case.
 
 **Standing.** Claimed: a thesis, not a journal publication, under the site's
 label OPEN. The curator wrote in the site's discussion thread on 26 January
-2026 that he had found no online copy of the thesis to check the result.
+2026 that they had found no online copy of the thesis to check the result.

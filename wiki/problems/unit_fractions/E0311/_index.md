@@ -113,7 +113,7 @@ note announcing first the bound with $(\log\log N)^4$ and then the
 strengthened one with $(\log\log N)^3$, each comment linking the GitHub
 note (the second its version 2); 13 January 2026, a comparison with the
 bounds of Problem 317; 1 July 2026, two observations by Sawin: proving
-even $\delta(N)>1/[1,\ldots,N]$ is in his view already nontrivial, since
+even $\delta(N)>1/[1,\ldots,N]$ is in their view already nontrivial, since
 equality forces $[1,\ldots,N]/p\equiv\pm1\pmod p$ with one sign for all
 primes $p\in(N/2,N]$, and a heuristic value for $c$,
 $c=\int_0^1h(e^{-\alpha/t})\,dt$ with $\alpha$ solving
@@ -174,7 +174,7 @@ consistency checks, not evidence for the conjectured rate.
   the number of distinct values of $\sum_{n\in A}1/n$ over
   $A\subseteq\{1,\ldots,N\}$ is $e^{O(N\log\log N/\log N)}$ (split by
   whether the largest prime factor of $n$ exceeds $N/\log N$), which leads
-  him to guess that $\delta(N)\ge e^{-O(N\log\log N/\log N)}$, so that the
+  Sawin to guess that $\delta(N)\ge e^{-O(N\log\log N/\log N)}$, so that the
   answer would be no. The same comment claims, by comparing the
   denominators of $\delta(N)$, $\delta(N-1)$ and their signed difference
   at an $N$ with $\delta(N)<\delta(N-1)$, that

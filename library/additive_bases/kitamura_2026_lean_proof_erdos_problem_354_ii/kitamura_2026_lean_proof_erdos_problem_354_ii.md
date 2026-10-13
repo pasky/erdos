@@ -28,7 +28,7 @@ at line 316, `gamma := Real.sqrt φ` at line 292, closing with
 `#print axioms single_complete`). The README describes a second directory
 `lean4web/` with a standalone Mathlib-only proof for the Lean web editor.
 
-**Author.** Kenta Kitamura, who names himself and his GitHub handle in
+**Author.** Kenta Kitamura, who gives that name and the GitHub handle in
 the erdosproblems.com thread comment of 5 September 2026.
 
 **The author's own statements (README).** Verification: `lean/` pins Lean

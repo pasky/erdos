@@ -193,9 +193,9 @@ suggestion; Cambie's examples answer it when $1$ is admitted, and the site
 records no example without $1$. Barbeau's own article of 1977 [Ba77]
 (p. 178) poses the question from the arithmetic derivative $D$: an integer
 $n$ with $D(D(n))=n\ne D(n)$ would give $1=(\sum_i1/p_i)(\sum_j1/q_j)$ for
-two sets of distinct primes, and the author writes that he does not know
-whether such a representation exists; his 101-term example of $1$ follows as
-the representation such a product would in particular give. The MathOverflow
+two sets of distinct primes, and the author writes of not knowing whether such a
+representation exists; Barbeau's 101-term example of $1$ follows as the
+representation such a product would in particular give. The MathOverflow
 answer of 19 August 2019 points to the same monograph page, gives Barbeau's
 1976 and 1977 references and lists Johnson's 48 two-prime denominators for
 $1$.
@@ -206,7 +206,7 @@ finite check on this page, with the public source that states it.
 - *Disjointness and the identities $N(P)=\prod Q$, $N(Q)=\prod P$*, as in the
   Formulation; Robert Israel's comment on [MO19] of 14 January 2019 gives
   the disjointness by the $p$-adic order $-1$ of each sum, and [Bo26]
-  credits him with the "disjointness core" (p. 3; p. 5 calls the
+  credits Israel with the "disjointness core" (p. 3; p. 5 calls the
   disjointness lemma the Israel mechanism). Neither sum is
   $1$, since $\sum_{p\in P}1/p=N(P)/\prod P$ is in lowest terms with
   $\prod P>1$; so with $s=\sum_P1/p$ and $t=\sum_Q1/q$, $st=1$ and $s\ne1$
@@ -255,7 +255,7 @@ exact-integer verification over the $49{,}961$ admissible $59$-element
 supports, no solution has $|P\cup Q|=59$, hence $|P\cup Q|\ge60$ and
 $\min(\prod P,\prod Q)>3.50\times10^{57}$. It presents Kovič's 2012 conditions
 [Ko12] (Propositions 16, 17 and 19 and the search below $10^4$) as the prior
-literature, and shows that the proof of his Proposition 18 ($r+s\ge34$) is
+literature, and shows that the proof of Proposition 18 of [Ko12] ($r+s\ge34$) is
 invalid (§14, p. 63). The manuscript's own contributions are the product
 bounds and the step from $59$ to $60$; it credits the disjointness to Israel
 and the $59$ to Rosen (pp. 1--3, 5 and 6). The paper says "The problem remains
@@ -300,7 +300,7 @@ Not consulted: [Ba76] (J. Rec. Math.; no open archive found), Burshtein
 the Lean files of [Bo26].
 
 **Remaining gaps.** (1) Barbeau's 1976 posing [Ba76] is known second-hand
-(the monograph and [MO19]); his 1977 article [Ba77] states the question
+(the monograph and [MO19]); the 1977 article [Ba77] states the question
 first-hand. (2) The site's bound $60$ rests,
 beyond the elementary $59$, on an unrefereed finite verification; the
 commentary's inference overstates what the displayed inequality gives. (3)

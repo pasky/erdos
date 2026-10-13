@@ -65,8 +65,8 @@ its statement.
 volume 57, issue 1. Its Crossref record dates the issue to December 1991 without
 a day, so this page is named by the first day of that month. Reviewed: the
 site's curator, Thomas Bloom, records the answer as yes in the problem page's
-commentary (label PROVED (LEAN)). He records it as a corollary of the density
-Hales--Jewett theorem of Furstenberg and Katznelson. This is documented
+commentary (label PROVED (LEAN)). The curator records it as a corollary of the
+density Hales--Jewett theorem of Furstenberg and Katznelson. This is documented
 acceptance outside this project. The site's Lean marker traces to a
 formalization of the problem through the Dodos--Kanellopoulos--Tyros proof of
 the theorem, which is pinned on

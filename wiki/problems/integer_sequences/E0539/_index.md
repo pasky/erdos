@@ -65,7 +65,7 @@ A.1 of an arXiv preprint of July 2026 by Schmitt, Gehrunger, Dekoninck, Bérczi,
 Kreitner, Price and Holmes gives $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$, hence
 $h(n)=n^{1/2+o(1)}$. The preprint describes their system ProofCouncil, to which
 they attribute the theorem. The site's curator, Thomas Bloom, adopted the bound
-into the commentary on 15 June 2026 after sketching the construction himself,
+into the commentary on 15 June 2026 after sketching the construction,
 while the label stayed OPEN. The bound is recorded as a pending partial claim on
 [[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|its claim page]].
 It is not refereed. The adoption of a bound into the commentary of a problem the

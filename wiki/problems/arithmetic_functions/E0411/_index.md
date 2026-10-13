@@ -88,8 +88,8 @@ read as concerning the $n$ for which the relation holds from $k=0$, which are
 the solutions of Steinerberger's equation. Cambie has reduced the problem to the
 question of which integers $r,t\ge1$ and primes $p\equiv7\pmod8$ satisfy
 $g_r(2p^t)=4p^t$ (the site prints $g_k$). The known cases are $g_2(14)=28$ and
-$g_2(94)=188$, and he conjectures no solutions beyond $t=1$ and $p\in\{7,47\}$.
-The site also reports his observed shift-four relations
+$g_2(94)=188$, and Cambie conjectures no solutions beyond $t=1$ and
+$p\in\{7,47\}$. The site also reports Cambie's observed shift-four relations
 $g_{k+4}(738)=3g_k(738)$, $g_{k+4}(148646)=4g_k(148646)$ and
 $g_{k+4}(4325798)=4g_k(4325798)$ for all $k\ge1$. None of these settles an
 instance of the multiplier-$2$ question: the conjecture and the reduction decide

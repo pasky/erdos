@@ -31,7 +31,7 @@ Arithmetica, answers the question; see
 The site's Lean qualification refers to a Lean proof of the theorem in Boris
 Alexeev's lean-proofs repository, which formal-conjectures points to. That
 development declares itself a formalization of Szemerédi's theorem and is linked
-from his claim page. This corpus has neither built nor audited it. The OpenAI
+from its claim page. This corpus has neither built nor audited it. The OpenAI
 release's quasipolynomial bound for every fixed $k\ge3$ is a second route. It is
 accepted on
 [[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|its claim page]]

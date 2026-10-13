@@ -7,7 +7,7 @@ desc: |
   irrational rotations and floor sequences, quadratic residues and character
   sums, and other one-off constructions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # Other Number Theory
@@ -28,8 +28,8 @@ set.
 [[problems/number_theory/E0362/_index|E0362/]]: Asks whether $\ll2^N/N^{3/2}$
 subsets of a set of $N$ naturals have sum $t$, and $\ll2^N/N^2$ if their size is
 fixed too. Sárközy and Szemerédi proved the first (Stanley found the exact
-maximizers), and Halász the second, via his bound on signed sums of
-$1$-separated plane vectors in a unit ball.
+maximizers), and Halász the second, via a bound on signed sums of $1$-separated
+plane vectors in a unit ball.
 
 [[problems/number_theory/E0464/_index|E0464/]]: Asks whether every lacunary
 sequence ($n_{k+1}\ge(1+\epsilon)n_k$) has an irrational $\theta$ with $\{\theta
@@ -89,7 +89,7 @@ only for almost all $\alpha$.
 $\sum_{p<x}f_\epsilon(p)\sim c_\epsilon x/\log x$, where $f_\epsilon(p)$ is the
 least $m$ with $\sum_{n\le N}(\frac{n}{p})<\epsilon N$ for all $N\ge m$. Elliott
 (1969) proved it for the two-sided threshold, with the one-sided form covered
-only by his remark.
+only by Elliott's remark.
 
 [[problems/number_theory/E1005/_index|E1005/]]: Asks to estimate $f(n)$, the
 largest $d$ such that Farey fractions of order $n$ at most $d$ places apart are

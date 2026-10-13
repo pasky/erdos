@@ -5,9 +5,9 @@ desc: |
   d-space can fall into one unit ball: 2^n n^{-d/2} for d-dimensional
   configurations (Theorem 1), 2^n n^{-1-d/2} when the vectors are also
   1-separated (Theorem 2) and 2^n n^{-3d/2} for scattered ones (Theorem 3),
-  from his concentration inequality for sums of independent random vectors
-  (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the number
-  of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
+  from the paper's concentration inequality for sums of independent random
+  vectors (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the
+  number of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
 license: reserved
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T15:28:38Z
@@ -25,14 +25,14 @@ unit vector, at least delta n of the vectors have inner product at least
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_2|theorem_2]]: Halász's bound that at most c(delta, d) 2^n n^{-1-d/2} of the 2^n signed
 sums of n vectors in d-space lie in one open unit ball when the vectors are
 1-separated and, for every unit vector, at least delta n of them have inner
-product at least 1 in absolute value with it, with his remark that this
-confirms Erdős's conjecture 2^n n^{-2} for the Sárközy–Szemerédi problem
+product at least 1 in absolute value with it, with the author's remark that
+this confirms Erdős's conjecture 2^n n^{-2} for the Sárközy–Szemerédi problem
 with the number of plus signs also fixed.
 
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_3|theorem_3]]: Halász's bound that at most c(delta, d) 2^n n^{-3d/2} of the 2^n signed
 sums of n vectors in d-space lie in one open unit ball when the condition
-of his Theorem 1 holds and at least delta n^d of the signed d-fold sums of
-the vectors can be chosen pairwise at distance at least 1.
+of the paper's Theorem 1 holds and at least delta n^d of the signed d-fold
+sums of the vectors can be chosen pairwise at distance at least 1.
 
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_4|theorem_4]]: Halász's bound c(d) mu n^{-1} D^{-d/2}, for n at least 8, on the largest
 probability that a sum of n independent random vectors in d-space lies in

@@ -128,7 +128,7 @@ above; DISPROVED (LEAN), last edited 27 September 2025; source key [ErGr80,
 p. 88]. The commentary attributes the disproof to Tao [Ta24b]: a set
 $A\subset\mathbb N$ with
 $\sum_{n\in A\cap[1,x)}1/n\gg\exp((\tfrac12+o(1))\sqrt{\log\log x}\log\log\log x)$
-whose normalized sum is $\ll1$; and it records his converse as the best
+whose normalized sum is $\ll1$; and it records Tao's converse as the best
 possible result, that the normalized sum does tend to infinity once
 $\sum_{n\in A\cap[1,x)}1/n$ grows faster than
 $\exp(O(\sqrt{\log\log x}\log\log\log x))$. The thread and the proof-claim

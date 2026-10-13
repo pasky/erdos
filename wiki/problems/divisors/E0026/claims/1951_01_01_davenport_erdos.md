@@ -48,9 +48,9 @@ $\sum_{j>m}1/a_j<1$ a positive fraction of that set has no divisor in the
 sequence at all. Tenenbaum's survey
 ([[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/_index|Tenenbaum 2013]])
 reaches the general statement from the Davenport--Erdős formula for the lower
-density of a set of multiples as the limit over its finite stages (his (25))
-and Behrend's inequality (his (26)): a divergent reciprocal sum is necessary
-for a Behrend sequence (his (27)).
+density of a set of multiples as the limit over its finite stages (the survey's
+(25)) and Behrend's inequality (its (26)): a divergent reciprocal sum is
+necessary for a Behrend sequence (its (27)).
 
 **The disproof.** Call a set Behrend when almost all integers have a divisor
 in it. By the theorem with the step above, or by Tenenbaum's (27), a Behrend

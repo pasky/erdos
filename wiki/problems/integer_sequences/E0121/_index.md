@@ -103,7 +103,7 @@ recorded on
   commentary records; the paper is not held.
 - For $F(N)$, the largest size of a subset of $\{1,\ldots,N\}$ with no
   odd number of elements multiplying to a square, a question Erdős, Hall
-  and Montgomery asked (Hall [Ha96] does not state it, but his bounds on
+  and Montgomery asked (Hall [Ha96] does not state it, but the paper's bounds on
   the least mean value of a completely multiplicative $f$ with values
   $\pm1$, above $-1$ uniformly and at most $-0.656999\ldots$ in the limit,
   bound $F(N)/N$), Ruzsa [Ru77] observed $1/2<\lim F(N)/N<1$, and Tao
@@ -115,7 +115,7 @@ recorded on
   subset products; the published text was not compared. This is a different
   question from the problem's and is not part of the claim.
 - Tao [Ta24], Theorem 1.2: $F_k(N)\le(1-c_k+o(1))N$ with $c_k>0$ for every
-  $k\ge4$; his Remark 1.3 records Sándor's inequality
+  $k\ge4$; the paper's Remark 1.3 records Sándor's inequality
   $F_{k+l}(N)\le\max(F_k(N),F_l(N)+k)$, which gives the monotonicity
   $c_{k+2}\ge c_k$ for odd $k$.
 <!-- BEGIN problem library links -->

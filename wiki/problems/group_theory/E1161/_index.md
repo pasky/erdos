@@ -27,7 +27,7 @@ For which values of $k$ will $f_k(n)$ be maximal?
 credits and the site's label read it. Beker takes up the question of Erdős
 and Turán (1968, p. 414), restated by Acan, Burnette, Eberhard, Schmutz and
 Thomas, as one about the most probable order of a random permutation, and
-calls his answer, which holds for all sufficiently large $n$, essentially
+calls the answer, which holds for all sufficiently large $n$, essentially
 complete. Read for every $n$, the question is settled only beyond a threshold
 the argument does not make explicit, and some small $n$ have other maximizers
 (Remark 1.3). The page's standing targets the large-$n$ reading.

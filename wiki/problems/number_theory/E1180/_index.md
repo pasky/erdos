@@ -41,12 +41,12 @@ nonzero residue (each $a\ne0$ is $(a^{-1})^{-1}$) and
 $0\equiv1^{-1}+(p-1)^{-1}$, so two summands suffice and the question is in
 substance about $0<\epsilon<1$; a larger $\epsilon$ enlarges the set, so
 $C_\epsilon$ may be taken nonincreasing in $\epsilon$ (two authored remarks;
-Croot makes the second reduction inside his proof). The sources state two
+Croot makes the second reduction inside the proof). The sources state two
 variants: Shparlinski and Glibichuk require pairwise distinct summands and treat
-sufficiently large $p$ only; Croot states his theorem for every prime $p\ge2$
+sufficiently large $p$ only; Croot states the theorem for every prime $p\ge2$
 with repetition allowed, but with exactly $N$ summands as printed, which fails
-for the primes with $p^\epsilon<2$, so his statement too needs the at-most
-reading for the small primes (see his page).
+for the primes with $p^\epsilon<2$, so that statement too needs the at-most
+reading for the small primes (see Croot's page).
 
 **Status.** Proved, in the site's label. The three claim pages below are
 accepted full claims, and the frontmatter standing is derived from them.
@@ -322,7 +322,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: the
 Math. Notes translation; the published Integers PDF; Karatsuba's papers;
 the Friedlander--Iwaniec paper; the Bourgain--Katz--Tao paper.
 
-**Remaining gaps.** (1) Shparlinski's exponential-sum input (his Lemma 2) rests
+**Remaining gaps.** (1) Shparlinski's exponential-sum input (Lemma 2) rests
 on Theorem 2 of Friedlander and Iwaniec, which is not held, so the bound behind
 the $4\epsilon^{-3}$ is second-hand at that one step. (2) Proof coverage: claims
 checked for Shparlinski's Theorem 3, Croot's Theorem 2, Glibichuk's Theorem 3

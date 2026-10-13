@@ -73,10 +73,10 @@ alone.
 
 **Acceptance.** Refereed: Math. Comp. 77 (2008), 1599–1613, published
 electronically 2008-02-06. Reviewed: the site's curator, T. F. Bloom, lists the
-problem as proved. He credits this paper with the rate $\ll n^{3/4}$ and with
-the remark that the qualitative statement is classical potential theory. He
-notes that the attribution is therefore unclear (site page last edited
-2025-09-16).
+problem as proved. The curator credits this paper with the rate $\ll n^{3/4}$
+and with the remark that the qualitative statement is classical potential
+theory. The site notes that the attribution is therefore unclear (site page
+last edited 2025-09-16).
 
 The thread's one comment (2025-10-17) is by Terence Tao, not by the curator. It
 reports a literature search with ChatGPT (the version the comment calls

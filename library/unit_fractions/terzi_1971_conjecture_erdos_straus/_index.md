@@ -21,7 +21,7 @@ sum of three unit fractions, with the 34 classes modulo 9240 and the six
 classes modulo 840 it refines.
 
 [[unit_fractions/terzi_1971_conjecture_erdos_straus/verification_p215|verification_p215]]: Terzi's statement that the Erdős–Straus conjecture holds for all n up to
-10^8, crediting Obláth, Rosati and Yamamoto below 10^7 and his own second
+10^8, crediting Obláth, Rosati and Yamamoto below 10^7 and the author's second
 algorithm between 10^7 and 10^8, with the seven printed Rosati quadruples
 of Table 3.
 

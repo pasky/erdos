@@ -36,7 +36,7 @@ some $c>0$ and all large $N$. A lacunary set has only $O(\log N)$ elements up to
 $N$, so the answer is no. The claim page is
 [[problems/additive_combinatorics/E0037/claims/1987_01_01_ruzsa|Ruzsa]],
 accepted on the site curator's credit and the refereed publication. The 2026
-Lean development that declares itself a formalization of his theorem is linked
+Lean development that declares itself a formalization of the theorem is linked
 there. It gives no `formalized` evidence, since this corpus has not built or
 audited it.
 
@@ -60,7 +60,7 @@ The locatable artifact is the Lean development
 `src/latest/ErdosProblems/Erdos37.lean` of Boris Alexeev's lean-proofs
 repository (added 2026-08-17; pinned on the
 [[problems/additive_combinatorics/E0037/claims/1987_01_01_ruzsa|Ruzsa claim page]]
-as a formalization of his theorem), which states the question under its own
+as a formalization of the theorem), which states the question under its own
 definitions. This corpus has not built or checked it, and no local kernel
 credit is claimed.
 

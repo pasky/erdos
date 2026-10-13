@@ -12,7 +12,7 @@ updated: 2026-10-08T01:29:58Z
 
 [[unit_fractions/_index|..]]
 
-[[unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/conjecture_p2|conjecture_p2]]: Croot's conjecture that the upper bound of his Main Theorem is the truth,
+[[unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/conjecture_p2|conjecture_p2]]: Croot's conjecture that the upper bound of the Main Theorem is the truth,
 so that for large x the set N(x) is {1,…,m} when the fractional part of
 the harmonic sum exceeds (1/2+o(1))(log log x)^2/log x and {1,…,m−1} when
 it is smaller.

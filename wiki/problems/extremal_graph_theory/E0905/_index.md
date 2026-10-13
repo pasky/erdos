@@ -122,7 +122,7 @@ Bloom, Erdős Problem #905, https://www.erdosproblems.com/905, accessed
   graph. C. R. Acad. Bulgare Sci. 32 (1979), no. 10, 1315--1318 (in Russian
   per its 1988 citation, "Dokl. BAN 32, No. 10, 1979"). The coauthor is
   V. (Vladimir) Nikiforov: [Kh88]'s reference [2] prints "Вл. Никифоров"
-  and its p. 44 calls him, in translation, the author's diploma student
+  and its p. 44 calls the coauthor, in translation, the author's diploma student
   V. Nikiforov, and [FoLo12]'s reference [13] and [BoNi05]'s reference [10]
   give "V. Nikiforov"; the site's reference text prints "S. V. Nikiforov".
   Not held; no DOI; its theorem is known through [Kh88], [BoNi05]

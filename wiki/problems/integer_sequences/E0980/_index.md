@@ -83,8 +83,8 @@ Statement. The variant under Formulation stays open for composite $k$. The site
 credits Elliott [El67b], who proved the asymptotic for every $k$ under the
 convention of the precise Statement
 ([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]).
-When $k$ is an odd prime, he gives the constant $C_{k,1}$ as an explicit prime
-series. Before him, Erdős [Er61e] had proved the case $k=2$
+When $k$ is an odd prime, Elliott gives the constant $C_{k,1}$ as an explicit
+prime series. Earlier, Erdős [Er61e] had proved the case $k=2$
 ([[problems/integer_sequences/E0980/claims/1961_01_01_erdos|claim page]]) and
 conjectured the general case.
 

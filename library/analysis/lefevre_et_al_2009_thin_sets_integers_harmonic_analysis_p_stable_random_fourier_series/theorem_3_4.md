@@ -17,8 +17,8 @@ and Luis Rodríguez-Piazza, *Thin sets of integers in Harmonic analysis and
 p-stable random Fourier series*, arXiv:0902.2625v1 (2009), as identified on the
 [[analysis/lefevre_et_al_2009_thin_sets_integers_harmonic_analysis_p_stable_random_fourier_series/_index|source card]].
 The paper attributes the theorem to L. Rodríguez-Piazza (C. R. Acad. Sci.
-Paris Sér. I 305 (1987), 237--240, its [20]; and his 1991 Sevilla thesis, its
-[21], Teorema IV.1.3) and gives no proof.
+Paris Sér. I 305 (1987), 237--240, its [20]; and Rodríguez-Piazza's 1991 Sevilla
+thesis, its [21], Teorema IV.1.3) and gives no proof.
 
 ## Statement
 

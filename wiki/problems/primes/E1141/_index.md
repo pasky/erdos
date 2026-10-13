@@ -69,7 +69,7 @@ journal publication known and the corpus has not built the
 four Lean files the page links.
 
 Before the resolution, Tang, with ChatGPT-5.2 Thinking, showed by Montgomery's
-sieve that few integers have the property. Theorem 2.1 of his
+sieve that few integers have the property. Theorem 2.1 of the
 [note](https://github.com/QuanyuTang/erdos-problem-1141/blob/5208af7a852221fd656c5651058673aeaa218cef/On_Erd%C5%91s_Problem_1141.pdf)
 *A note on Problem #1141* (25 January 2026, with ChatGPT-5.2 Thinking named as
 co-author) states that the number $g(N)$ of such $n\leq N$ satisfies
@@ -82,13 +82,13 @@ whose largest known member is $1722$, and [APSSV26b] remarks that computation
 suggests it is the largest. The thread also holds a summary of the argument for
 $a=1$, the exchange on effectivity, a Lean proof of Mertens' third theorem that
 removes one hypothesis of the first formalization, a forum user's report of 25
-January 2026 that he and ChatGPT judged Tang's note correct at an intermediate
-level of scrutiny, which is not acceptance evidence, a sketch of 28 January 2026
-of an upper-bound sieve that would give the negative answer under the
-generalized Riemann hypothesis and suggests that the exceptional $n$ are very
-thin unconditionally, and a remark that $30$ is the largest $n$ with $n-k$ never
-composite for every admissible $k$, by Bonse's inequality; none of these is a
-claim on the question, so none has a page.
+January 2026 that the user and ChatGPT judged Tang's note correct at an
+intermediate level of scrutiny, which is not acceptance evidence, a sketch of
+28 January 2026 of an upper-bound sieve that would give the negative answer
+under the generalized Riemann hypothesis and suggests that the exceptional
+$n$ are very thin unconditionally, and a remark that $30$ is the largest $n$
+with $n-k$ never composite for every admissible $k$, by Bonse's inequality;
+none of these is a claim on the question, so none has a page.
 
 Search scope (2026-10-07): the site page, its thread, the arXiv record and
 the linked repositories.

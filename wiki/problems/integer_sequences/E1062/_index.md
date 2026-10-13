@@ -43,8 +43,8 @@ $f(n)=(l+o(1))\,n$ with $l$ irrational.
 The site's one proof-claim entry was registered on 27 September 2026 by the
 curator, Thomas Bloom. It attributes to conjectures.io a proof that the limit
 exists and is irrational, by an AI system the entry gives as unknown. The entry
-says that he has not verified it, and that the program does not disclose who
-runs the AI or which system. So the entry is not an acceptance.
+says that Bloom has not verified it, and that the program does not disclose
+who runs the AI or which system. So the entry is not an acceptance.
 
 Davis's paper of April 2026 gives $f(n)=c_2n+o(n)$ with $c_2$ effectively
 computable, and leaves irrationality open

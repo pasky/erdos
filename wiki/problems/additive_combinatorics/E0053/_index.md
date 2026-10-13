@@ -30,7 +30,7 @@ distinct elements of $A$?
 **Status.** **PROVED (LEAN)**, the site's label. Its suffix is a catalog label
 explained under Formalization. The status-defining source is Chang (Ann. of
 Math. (2) 157 (2003), 939--957, refereed). Section 2 proves the lower bound of
-her Theorem 2 in the form (2.2):
+Theorem 2 in the form (2.2):
 $g(A)>k^{(\frac18-\varepsilon)\log k/\log\log k}$ for every $\varepsilon>0$ and
 every set $A$ of $k$ positive integers with $k$ large. Here $g(A)$ is the number
 of simple sums plus the number of simple products of $A$. Theorem 2 as printed,
@@ -39,7 +39,7 @@ exceeds every fixed power of $k$. The case of a set of integers of either sign
 follows by the sign reduction on the claim page, so the answer is yes. The claim
 page is [[problems/additive_combinatorics/E0053/claims/2003_05_01_chang|Chang]],
 accepted on the site curator's credit and the refereed publication. The 2026
-Lean development that declares itself a formalization of her result is linked
+Lean development that declares itself a formalization of the result is linked
 there. It gives no `formalized` evidence, since this corpus has not built or
 audited it.
 
@@ -68,7 +68,7 @@ Alexeev's lean-proofs repository as the formal proof. The community database
 (Lean)" as of its last update of 2026-08-24 and `formalized` "yes" as of its
 last update of 2026-09-22. The development (added 2026-08-17) is pinned on the
 [[problems/additive_combinatorics/E0053/claims/2003_05_01_chang|Chang claim page]]
-as a formalization of her result. This corpus has not built or checked it, and
+as a formalization of the result. This corpus has not built or checked it, and
 no local kernel credit is claimed.
 
 ## Progress

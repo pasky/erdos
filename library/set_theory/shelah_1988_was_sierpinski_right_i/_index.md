@@ -50,10 +50,10 @@ consulted, every other right reserved.
 
 Prompted by Todorcevic's ZFC theorem that aleph_1 does not arrow
 [aleph_1]^2_{aleph_1}, Shelah proves complementary consistency and outright
-theorems for square-bracket partition relations. In 1.1 he forces, under the
-printed cardinal arithmetic, 2^mu = lambda while making lambda arrow (lambda,
-[kappa; kappa]) and collapsing no cardinals (the introduction's GCH form
-raises 2^{aleph_0} to any chi >= lambda = kappa^{+3}), so Todorcevic's
+theorems for square-bracket partition relations. In 1.1 the author forces, under
+the printed cardinal arithmetic, 2^mu = lambda while making lambda arrow
+(lambda, [kappa; kappa]) and collapsing no cardinals (the introduction's GCH
+form raises 2^{aleph_0} to any chi >= lambda = kappa^{+3}), so Todorcevic's
 restriction to aleph_1 is removed and aleph_0 can be replaced by any regular mu
 using mu-complete forcing. The main result, in 2.1, is the consistency with ZFC
 of the positive relation 2^{aleph_0} arrow [aleph_1]^2_3 on the continuum - in
@@ -69,8 +69,8 @@ above aleph_0 and some stationary subset of lambda is not reflected then
 lambda does not arrow [lambda]^2_lambda (covering Mahlo but not 2-Mahlo
 lambda and successors of regulars), plus result (B), on aleph_{omega+1} when
 instances of Chang's conjecture fail, and result (C), a club-guessing
-consequence of lambda arrow [lambda]^2_{aleph_0}. He lists the minimal remaining
-cases, such as aleph_2 arrow [aleph_1]^2_3 and 2^{aleph_0} arrow
+consequence of lambda arrow [lambda]^2_{aleph_0}. Shelah lists the minimal
+remaining cases, such as aleph_2 arrow [aleph_1]^2_3 and 2^{aleph_0} arrow
 [aleph_1]^3_{aleph_0} (triples with aleph_0 colors). The paper is the source for
 problem 474 on these Erdos-Hajnal partition relations for the continuum.
 

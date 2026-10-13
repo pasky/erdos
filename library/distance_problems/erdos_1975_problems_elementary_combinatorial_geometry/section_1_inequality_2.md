@@ -3,9 +3,9 @@ name: distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/se
 title: "Section 1, inequality (2) (p. 100): Szemerédi's bound when no k points lie on a line, and conjecture (6)"
 desc: |
   Szemerédi's result, with Erdős's sketch, that n planar points with no k on a
-  line have a point with more than ε_k n distinct distances; his conjecture
-  (6) that no three on a line gives a point with at least [n/2]; and the
-  reported bound [n/3].
+  line have a point with more than ε_k n distinct distances; Szemerédi's
+  conjecture (6) that no three on a line gives a point with at least [n/2];
+  and the reported bound [n/3].
 created: 2026-10-08T14:17:40Z
 updated: 2026-10-08T14:17:40Z
 ---

@@ -4,8 +4,8 @@ title: Problem 1019
 desc: |
   Asks whether every graph on $n$ vertices with
   $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}{2}\rfloor$ edges contains a saturated
-  planar subgraph on more than $3$ vertices. Proved by Simonovits in his thesis,
-  as attested by Erdős and the site.
+  planar subgraph on more than $3$ vertices. Proved by Simonovits in a PhD
+  thesis, as attested by Erdős and the site.
 tags:
 - Graph theory
 - Planar graphs
@@ -155,7 +155,7 @@ $\lfloor n^2/4\rfloor+\lfloor\frac{n-1}{2}\rfloor$ edges and no saturated
 planar subgraph on more than three vertices; Erdős [Er69c] proved, answering
 a question of Dirac, that $\lfloor n^2/4\rfloor+k$ edges on $n$ vertices
 force a saturated planar subgraph with $\gg k/n$ vertices; and Simonovits
-proved the question in the affirmative in his PhD thesis, in the stronger
+proved the question in the affirmative in a PhD thesis, in the stronger
 form that the graph contains a $K_4$ or a $C_l+2K_1$ with $l\ge3$; the
 comments carry the proof, which the site attributes to Cambie. The
 proof-claim tab is empty. The community database lists the problem as
@@ -175,10 +175,10 @@ $2$-connected planar subgraphs that the paper leaves for a sequel, so that
 the solution may be lost to the literature. 19 October, 06:44 (the
 curator): the problem should be marked unsolved, Erdős having presumably
 been misinformed about what Simonovits would go on to prove. 19 October,
-12:11 (pisoir): Simonovits could be asked himself. 30 October, 12:49
-(StijnC): an undertaking to ask him. 21 November, 09:39 (StijnC), marked as
+12:11 (pisoir): Simonovits could be asked. 30 October, 12:49
+(StijnC): an undertaking to do so. 21 November, 09:39 (StijnC), marked as
 addressed by the site: the answer, obtained through correspondence with
-Simonovits and presented as his resolution in Chapter 9 of his thesis: (i)
+Simonovits and presented as the resolution in Chapter 9 of the thesis: (i)
 every graph $G$ on $n$ vertices
 with $e(G)\ge\lfloor n^2/4\rfloor+\lfloor\frac{n+1}2\rfloor$ contains a
 saturated planar graph with $m\ge4$ vertices; (ii) a graph with
@@ -277,7 +277,7 @@ not held, known here through a forum summary; the label rests on Erdős's
 1971 attestation and the site's acceptance of that summary. Reopening
 condition: a published text of the theorem (a translation of the thesis
 chapter or a paper; the thread comment of 21 November 2025 says Simonovits
-was then preparing translations of his main works for his website), after
+was then preparing translations of their main works for their website), after
 which the statement is paged and the proof read. (2) The forum proof is
 unreviewed here. (3) [Si75] is unidentified on the site and not held; the
 thread's judgment that it does not settle the statement is recorded, not

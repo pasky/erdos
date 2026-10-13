@@ -30,9 +30,9 @@ repetitions allowed)? Is it $\{n,n-1,\ldots,n-k+1\}$?
 literally, $k\leq n$ admits $k=1$, where $\mathrm{gcd}(A)=1$ leaves only
 $A=\{1\}$ and the proposed set $\{n\}$ is admissible only for $n=1$, so the
 second question fails trivially for $k=1<n$. Kiss restates Erdős and Graham's
-question as his Theorem 1 under the hypothesis $1<n\le t$ (his $n$ is the
-problem's $k$, his $t$ the problem's $n$), so the question concerns
-$2\le k\le n$; he and the site's commentary read its first question as asking
+question as Theorem 1 under the hypothesis $1<n\le t$ (the paper's $n$ is the
+problem's $k$, its $t$ the problem's $n$), so the question concerns
+$2\le k\le n$; Kiss and the site's commentary read its first question as asking
 for a maximizing set, not for every maximizer, and the formal-conjectures
 statement reads it the same way (hypothesis $2\le k$, with a note on $k=1$). The
 claim pages and the derived frontmatter standing address that question, on which

@@ -95,9 +95,10 @@ log(z/y+10)/log(z/y+10) when c > 0, y >= y_0(c), y + 1 <= z <= x^{5/8} and yz
 Corollary 7 deduces that epsilon_r(y,lambda y) >>_{r,lambda} epsilon(y,lambda
 y) for every lambda > 1 and r >= 1, while epsilon_r(y,z)/epsilon(y,z) -> 0 as
 z/y -> infinity; so Erdos's Conjecture 1 is false, Tenenbaum's Conjecture 3 is
-true, and his Conjecture 2 is true provided z >= y + y/(log y)^{log 4 - 1 - b}
-for a fixed b > 0. The method combines uniform order statistics with sieve-style
-reductions to volume and integral estimates. For #859 this is the material
+true, and Tenenbaum's Conjecture 2 is true provided
+z >= y + y/(log y)^{log 4 - 1 - b} for a fixed b > 0. The method combines
+uniform order statistics with sieve-style reductions to volume and integral
+estimates. For #859 this is the material
 upper-route source: it pins the order of H(x,y,z) and of epsilon(y,cy), and with
 y = t/(log t)^2 and z = t, the case 2y <= z <= y^2 of Theorem 1 (v) gives the
 integers with a divisor in (t/(log t)^2, t) density of order (log t)^{-delta}

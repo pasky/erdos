@@ -2,7 +2,7 @@
 name: discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/corollary_17
 title: "Corollary 17 (p. 28): mean norm of non-symmetric isotropic convex bodies"
 desc: |
-  Vritsiou's corollary to her Proposition 15: every isotropic convex body
+  Vritsiou's corollary to Proposition 15: every isotropic convex body
   in R^n, symmetric or not, has mean norm M(K) at most
   C log^{5/22}(n)/(n^{1/22} L_K), with a conditional bound of order
   log^{1/6}(n)/(n^{1/18} L_K) carrying the factor 1 + h_K(-b(K°)).

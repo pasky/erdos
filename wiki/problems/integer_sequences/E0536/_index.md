@@ -165,8 +165,8 @@ upper bound $f(N)\le(221/225+o(1))N$; Problems 535, 537 and 856 are related, and
 Problem 857 is the combinatorial analog. The thread, oldest first: 19 August
 2025 (the account DesmondWeisenberg), the distinctness remark and the
 lower-bound construction below (the site was updated); 7 December 2025 (the
-account TerenceTao), a suggestion that the probabilistic method of his paper on
-Problem 121 may give the density-near-one case through triangles
+account TerenceTao), a suggestion that the probabilistic method of Tao's paper
+on Problem 121 may give the density-near-one case through triangles
 $n_0n_{12}n_{13}$, $n_0n_{12}n_{23}$, $n_0n_{13}n_{23}$; 21 December 2025
 (DesmondWeisenberg), the page locators [Er70, p. 124] and [Er73, p. 124] and the
 upper bound $(221/225+o(1))N$ below (the site was updated); 3 May 2026, a
@@ -263,7 +263,7 @@ exactly $k=\lfloor\log\log N/e\rfloor$ prime factors, kept when a random
 $k$-coloring of the primes gives its factors all $k$ colors; its author
 announces a note with a smaller exponent. Both forum bounds are recorded as
 sketches with their dates; neither is a refereed source, and the second's author
-declares that the argument is his own and that GPT 5.5 wrote up the comment.
+declares that the argument is their own and that GPT 5.5 wrote up the comment.
 
 **Upper bounds.** Erdős's 1964 remark that the density-near-one case is trivial
 has the forum's quantitative forms. The comment of 21 December 2025 (accepted
@@ -340,14 +340,14 @@ nobody connected with the site need have examined it; no arXiv version, refereed
 publication, independent review or written dispute was found (search scope
 below). The tab's four comments, as of 2026-10-06: a reader's remark of 14 July
 2026 that the manuscript answers only the second part of the question and leaves
-the estimate of $f(N)$ open; the author's reply the same day that he had taken
+the estimate of $f(N)$ open; the author's reply the same day that they had taken
 $f(N)=o(N)$ for the whole problem, that the draft does not determine the order
-of magnitude of $f(N)$, and that he would withdraw the submission; the curator's
-answer that the entry need not be deleted and is relabeled a partial proof, the
-choice of main question being a matter of taste; and the author's note of 27
-July 2026 adding a Lean directory to the repository (not built by the corpus).
-Provenance, recorded not judged: the tab's submission declares that the claim
-was produced using an AI model (GPT-5.6 Sol); the manuscript carries no
+of magnitude of $f(N)$, and that they would withdraw the submission; the
+curator's answer that the entry need not be deleted and is relabeled a partial
+proof, the choice of main question being a matter of taste; and the author's
+note of 27 July 2026 adding a Lean directory to the repository (not built by the
+corpus). Provenance, recorded not judged: the tab's submission declares that the
+claim was produced using an AI model (GPT-5.6 Sol); the manuscript carries no
 statement about AI use; its title page gives the author's two affiliations,
 Columbia University and Multiscalar Intelligence; the repository holds the
 manuscript's source, a Lean directory and the verifier (at the head commit of 2

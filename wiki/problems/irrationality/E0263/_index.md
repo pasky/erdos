@@ -113,7 +113,7 @@ and on 2026-08-02
 and
 [claim 181](https://www.erdosproblems.com/forum/thread/263/proof-claims#proof-claim-181)),
 have no claim page: they are Lean 4 developments generated with Kimi K3 under
-his direction, archived on Zenodo, of the folklore sufficient criteria for
+Lystad's direction, archived on Zenodo, of the folklore sufficient criteria for
 being an irrationality sequence, and they settle no instance of either
 question, as the claimant states. The first claims that a strictly increasing
 sequence with $c\,a_n^{2+\epsilon}\le a_{n+1}$ for all large $n$ is an

@@ -3,8 +3,8 @@ name: analysis/murai_1983_deficiency_entire_functions_fejer_gaps/construction_p5
 title: "Section 5 (pp. 52-55): an entire function with Fabry gaps and deficiency 1 at 0"
 desc: |
   Murai constructs an entire function with Fabry gaps, k/n_k tending to 0,
-  whose Nevanlinna deficiency at 0 equals 1, so his theorem fails when Fejér
-  gaps are weakened to Fabry gaps.
+  whose Nevanlinna deficiency at 0 equals 1, so the paper's theorem fails when
+  Fejér gaps are weakened to Fabry gaps.
 created: 2026-10-08T16:43:12Z
 updated: 2026-10-08T16:43:12Z
 ---

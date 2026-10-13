@@ -41,7 +41,7 @@ $\{x\}=x-\lfloor x\rfloor$. A sequence of integers is *complete*, in the
 source's convention (p. 1), if every sufficiently large integer is a sum
 of terms with distinct indices. $\varphi=(1+\sqrt5)/2$.
 
-**Imported (Lemma 10, Dubickas, his Theorem 6).** Let $\gamma$ be a Pisot
+**Imported (Lemma 10, Dubickas's Theorem 6).** Let $\gamma$ be a Pisot
 or Salem number with minimal polynomial $P$ and $P(1)=-q$ for an integer
 $q\ge2$. For every $\epsilon>0$ there is a real $\xi\in\mathbb Q(\gamma)$
 with

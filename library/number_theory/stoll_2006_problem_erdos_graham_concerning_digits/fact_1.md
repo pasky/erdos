@@ -59,7 +59,7 @@ the closing statement for $m=1$ on printed p. 145 were read clause by
 clause on the page images; its proof of the closed form (pp. 143--145) was
 not read for this page and is recorded on the held card. Stoll's paper
 derives the identity as the case $w=\sqrt2$, $\varepsilon=1/2$,
-$(m,l,k)=(1,0,0)$ of his Theorem 3.3 (p. 93).
+$(m,l,k)=(1,0,0)$ of its Theorem 3.3 (p. 93).
 
 ## Proof pointer
 

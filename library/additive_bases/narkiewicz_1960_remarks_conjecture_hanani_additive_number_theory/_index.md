@@ -41,12 +41,12 @@ and $B=\{b_j\}$, write $A(x)=\#\{i:a_i\le x\}$, $B(x)=\#\{j:b_j\le x\}$, and
 $f(n)=\#\{(i,j):a_i+b_j=n\}$. Narkiewicz recalls Hanani's conjecture $(H_0)$,
 as Erdős states it in "Some unsolved problems" (Michigan Math. J. 4 (1957)): if
 $f(n)\ge1$ for every sufficiently large $n$, then the asymptotic upper ratio
-$A(x)B(x)/x$ is strictly greater than $1$. He gives the equivalent
+$A(x)B(x)/x$ is strictly greater than $1$. The author gives the equivalent
 contrapositive formulation $(H'_0)$, using the paper's upper-limit notation: if
 $f(n)\ge1$ eventually and $\limsup A(x)B(x)/x\le1$, one sequence must be finite.
-He then proposes the stronger conjecture $(H_1)$, replacing $1$ by an arbitrary
-fixed positive integer $k$. These are explicitly conjectures, not results
-(opening discussion, p. 161).
+Narkiewicz then proposes the stronger conjecture $(H_1)$, replacing $1$ by an
+arbitrary fixed positive integer $k$. These are explicitly conjectures, not
+results (opening discussion, p. 161).
 
 The paper proves a necessary structural consequence of the hypotheses in
 $(H_1)$, not $(H_1)$ itself. Its unnumbered **Theorem** states that if

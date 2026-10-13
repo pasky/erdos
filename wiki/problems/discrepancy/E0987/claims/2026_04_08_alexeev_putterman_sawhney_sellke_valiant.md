@@ -104,9 +104,9 @@ kind.
 
 **Acceptance.** Reviewed: a thread comment of 2026-04-09 noted that the site
 still listed the second question as open. The site's curator, Thomas Bloom,
-changed the problem's status to proved the same day. In the commentary he
-credits the result to an internal OpenAI model through this preprint. The
-community database lists the problem's informal status as proved. Tao posted a
-detailed exposition of the construction in the thread that day. Not refereed:
-the preprint has one arXiv version, and no journal publication is recorded. Not
-formalized: no Lean checked in this corpus proves the theorem.
+changed the problem's status to proved the same day. In the commentary the
+curator credits the result to an internal OpenAI model through this preprint.
+The community database lists the problem's informal status as proved. Tao
+posted a detailed exposition of the construction in the thread that day. Not
+refereed: the preprint has one arXiv version, and no journal publication is
+recorded. Not formalized: no Lean checked in this corpus proves the theorem.

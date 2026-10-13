@@ -27,8 +27,8 @@ $n+\lfloor\sqrt{n-1}\rfloor+2$; the known values for $6\le n\le50$ are those
 of the paper's Table 1 (p. 656), described on the
 [[ramsey_theory/zhang_2017_polarity_graphs_ramsey_numbers_c_4_versus_stars/_index|source digest]].
 The lower of the two lines is Parsons's bound for $n=q^2+1$ and the upper
-one his bound for all $n\ge2$, the paper's Theorem 1 (p. 655). Since
-$\lfloor\sqrt{n-1}\rfloor+1=\lceil\sqrt n\rceil$ for every integer $n\ge2$
+one the same author's bound for all $n\ge2$, the paper's Theorem 1 (p. 655).
+Since $\lfloor\sqrt{n-1}\rfloor+1=\lceil\sqrt n\rceil$ for every integer $n\ge2$
 (an elementary check made here), the two lines are
 $n+\lceil\sqrt n\rceil$ and $n+\lceil\sqrt n\rceil+1$.
 

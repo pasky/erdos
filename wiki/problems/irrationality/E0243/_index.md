@@ -115,7 +115,7 @@ recorded on the card
 Badea's criterion (Acta Arith. 63 (1993)), the conclusion whenever
 $a_{n+1}\ge a_n^2-a_n+1$ for all large $n$, and an improvement of the
 Erdős--Straus Theorem 3. Koizumi's Corollary 4 recovers the Badea and
-Erdős--Straus cases within his framework.
+Erdős--Straus cases within the paper's framework.
 
 **Dated search scope (2026-10-07).** The site's page, its discussion
 thread (comments from 2025 to 11 September 2026, after which posting was

@@ -72,6 +72,6 @@ with the bound $616000$ on
 (2007), no. 2, 495--517, doi:10.1090/S0894-0347-06-00549-2, published online
 2006-09-19. The arXiv preprint math/0507374 of 2005-07-18 names this page. Not
 reviewed: the site's curator credits the answer to Hough and names this paper
-only as the groundwork of his proof. Not formalized: no Lean proof of Theorem A
-is recorded. The library card records the statement, and the proof is not
-compiled in this corpus.
+only as the groundwork of Hough's proof. Not formalized: no Lean proof of
+Theorem A is recorded. The library card records the statement, and the proof
+is not compiled in this corpus.

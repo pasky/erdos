@@ -36,8 +36,8 @@ the acceptance. Konieczny's theorem ([Ko15]) concerns the permutation variant
 question. The Lean suffix is the site's label for a 2026 formalization of
 Beker's result in Boris Alexeev's public repository, registered by the community
 database. It declares Beker as its informal author, so it is a formalization
-link on his claim page. This corpus has not built or audited it, and it gives no
-`formalized` evidence.
+link on Beker's claim page. This corpus has not built or audited it, and it
+gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/356](https://www.erdosproblems.com/356), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #356,

@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 149, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T12:39:51Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # problems/extremal_graph_theory/E0149/claims
@@ -22,8 +22,8 @@ three, and the result is refereed.
 
 [[problems/extremal_graph_theory/E0149/claims/2000_10_01_mahdian|2000_10_01_mahdian]]: Mahdian proves that a $C_4$-free graph of large maximum degree $\Delta$ has
 strong chromatic index at most $(2+o(1))\Delta^2/\log\Delta$. The result is in
-his Toronto M.Sc. thesis and in Random Structures Algorithms 17 (2000), and is
-refereed.
+the author's Toronto M.Sc. thesis and in Random Structures Algorithms 17
+(2000), and is refereed.
 
 [[problems/extremal_graph_theory/E0149/claims/2002_01_01_vu|2002_01_01_vu]]: Vu's list-coloring theorem for locally sparse graphs (Combin. Probab. Comput.
 2002) extends Mahdian's bound: graphs without a fixed bipartite $H$ have

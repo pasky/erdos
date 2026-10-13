@@ -48,8 +48,8 @@ whom the site credits as co-poser, records the conjecture as Erdős's in [dB51],
 printed p. 195, "where $g(x)$ is measurable". Erdős's 1982 retrospective
 [Er82e], Chapter V, §3, printed p. 76, prints "where $g(x)$ is continuous",
 cites [dB51] and [La80] beside the problem and reports that Laczkovich proved
-it. Laczkovich proved the measurable form: his Theorem 3 [La80], printed
-p. 224, proves it, and his introduction, printed p. 217, states Erdős's
+it. Laczkovich proved the measurable form: Theorem 3 of [La80], printed
+p. 224, proves it, and the paper's introduction, printed p. 217, states Erdős's
 conjecture with $g$ measurable. The defect is already in [Er82e], and the
 site's wording follows it. The site's label and the problem's standing judge
 the corrected Statement. The site also cites [Er81b], Erdős's 'Problems' in

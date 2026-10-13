@@ -19,7 +19,7 @@ Harrington asks (p. 1748): "Given an odd integer $d\geq 3$ does there exist a
 covering system that uses $d$ as a modulus at most twice, such that all other
 moduli are distinct, odd, square-free and greater than 1?" (Question 6.1)
 
-He records from Guy's *Unsolved Problems in Number Theory* (p. 384) the
+Harrington records from Guy's *Unsolved Problems in Number Theory* (p. 384) the
 question (p. 1748): "Does there exists [sic] a covering system with minimum
 modulus 3 such that all moduli are distinct and square-free?" (Question 6.2)
 

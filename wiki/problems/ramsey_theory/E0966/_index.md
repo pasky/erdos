@@ -39,8 +39,8 @@ and $r$-coloring. The site adds $k,r\ge2$; for $k=1$ or $r=1$ the question is
 trivial. Spencer's paper, the status-defining source, calls a set of integers
 a $V$-set (for $k$, $c$) if every $c$-coloring of it yields a monochromatic
 arithmetic progression of $k$ elements, and constructs such a set with no
-progression of length $k+1$; his $c$ is the site's $r$, his progressions have
-nonzero difference in both clauses, and his set is a finite subset of
+progression of length $k+1$; the paper's $c$ is the site's $r$, its progressions
+have nonzero difference in both clauses, and its set is a finite subset of
 $\{0,\dots,p^n-1\}$ that a translation by $1$ moves into the positive
 integers, so the reading of $\mathbb N$ is immaterial.
 
@@ -81,7 +81,7 @@ source key [Er75b]), its three-comment discussion thread (25 and 26 February
   [[../library/additive_combinatorics/erdos_1975_problems_results_combinatorial_number_theory/_index|erdos_1975_problems_results_combinatorial_number_theory]].
 - [HJ63] Hales, A. W. and Jewett, R. I., Regularity and positional games.
   Trans. Amer. Math. Soc. 106 (1963), 222--229. Spencer's reference [5], the
-  input of his proof; not held and not requested. Mathlib carries the theorem
+  input of the proof; not held and not requested. Mathlib carries the theorem
   as `Combinatorics.Line.exists_mono_in_high_dimension`, which the external
   Lean proof below invokes.
 

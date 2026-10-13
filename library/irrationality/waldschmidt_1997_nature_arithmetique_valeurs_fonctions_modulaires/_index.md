@@ -51,9 +51,9 @@ sur $\mathbb Q$ du corps $\mathbb Q(q,P(q),Q(q),R(q))$ est au moins égal à 3."
   "le résultat principal de [2] et [3]", where [2] is Nesterenko's Mat. Sb.
   paper
   ([[irrationality/nesterenko_1996_modular_functions_transcendence_questions/_index|card]])
-  and [3] his C. R. note. Mahler's theorem that $P,Q,R$ are algebraically
-  independent over $\mathbb C(z)$ and the Ramanujan differential system are
-  recalled.
+  and [3] the same author's C. R. note. Mahler's theorem that $P,Q,R$ are
+  algebraically independent over $\mathbb C(z)$ and the Ramanujan differential
+  system are recalled.
 - Consequences (pp. 119--122): Bertrand's conjecture that $J(q),DJ(q),D^2J(q)$
   are algebraically independent for algebraic $q$ with $0<|q|<1$ (p. 119); Corollaire 1,
   for complex $q$ with $0<|q|<1$ and $J(q)$ algebraic the numbers

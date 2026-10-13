@@ -35,7 +35,7 @@ then there exists a subset $S\subset C$ for which $\sum_{n\in S}1/n=1$."
 The membership condition $\omega(n)\sim\Omega(n)\sim\log\log n$ is written
 asymptotically in the source, so the tolerance it allows is not fixed by the
 statement; Section 2 (p. 548) uses it only through the fact that almost all
-integers satisfy it, and Bloom's later summary of the theorem (p. 2 of his
+integers satisfy it, and Bloom's later summary of the theorem (p. 2 of the
 2021 paper) reads the smoothness condition as "$n^{1/4-o(1)}$-smooth". The
 source calls the result "Theorem 1" once, at the end of its reduction on
 p. 547.

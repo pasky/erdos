@@ -14,10 +14,10 @@ updated: 2026-10-07T20:53:40Z
 was published with the proof.
 
 **Author and method attribution.** Zheng Yuan, writing on behalf of
-Seed-Prover. Yuan identifies himself and Seed-Prover in the post, says that
-their proved problem was Erdős Problem 303, and supplies the code link. The
-mathematical method summarized in this folder was extracted from that linked
-payload.
+Seed-Prover. In the post Yuan gives that name and identifies Seed-Prover, says
+that their proved problem was Erdős Problem 303, and supplies the code link.
+The mathematical method summarized in this folder was extracted from that
+linked payload.
 
 **Date shown by the site.** 00:44 on 21 December 2025.
 

@@ -97,7 +97,7 @@ For E132, write
 
 $$\Delta(A)=\{\|x-y\|:x,y\in A,\ x\ne y\},\qquad \mu_A(r)=\bigl|\{\{x,y\}\subset A:\|x-y\|=r\}\bigr|.$$
 
-Shinohara's $A(X)$ is $\Delta(A)$, and his diameter graph satisfies
+Shinohara's $A(X)$ is $\Delta(A)$, and the paper's diameter graph satisfies
 
 $$|E(DG(A))|=\mu_A(D),\qquad D=\max\Delta(A).$$
 

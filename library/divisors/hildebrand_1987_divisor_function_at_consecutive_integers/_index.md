@@ -108,8 +108,8 @@ $[-x,0]$; it does not decide whether the ratios are dense in $(0,\infty)$.
 - [[divisors/hildebrand_1987_divisor_function_at_consecutive_integers/theorem_5|Theorem 5]] (p. 309): the integers $a$ with
   $\Omega(n)-\Omega(n+1)=a$ for infinitely many $n$ have positive lower
   density.
-- [[divisors/hildebrand_1987_divisor_function_at_consecutive_integers/lemma_1|Lemma 1]] (p. 309): Heath-Brown's Key Lemma, taken from his
-  paper: for every positive integer $k$ there are positive integers
+- [[divisors/hildebrand_1987_divisor_function_at_consecutive_integers/lemma_1|Lemma 1]] (p. 309): Heath-Brown's Key Lemma, taken from the
+  original paper: for every positive integer $k$ there are positive integers
   $a_1<\cdots<a_k$ with
   $a_j-a_i\mid(a_i,a_j)$ and
   $d(a_j)d(a_i/(a_j-a_i))=d(a_i)d(a_j/(a_j-a_i))$ for all $i<j$.

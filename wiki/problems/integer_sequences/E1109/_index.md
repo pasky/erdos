@@ -35,9 +35,9 @@ Gyarmati's second proof of $f(N)\gg\log N$,
 and Konyagin's $\log^2N\log\log N\ll f(N)\ll N^{11/15+o(1)}$, the best known,
 [[problems/integer_sequences/E1109/claims/2004_06_30_konyagin|Konyagin 2004]].
 None answers either question. G. N. Sárközy [Sa92c] extends the problem to sums
-$A+B$ and to $k$-power-free sums. As Konyagin records (p. 494), he also improves
-the upper bound to $f(N)\ll N^{3/4}$. That bound is superseded by Konyagin's,
-and the site does not credit it, so it has no claim page.
+$A+B$ and to $k$-power-free sums. As Konyagin records (p. 494), Sárközy also
+improves the upper bound to $f(N)\ll N^{3/4}$. That bound is superseded by
+Konyagin's, and the site does not credit it, so it has no claim page.
 
 **Source.** [erdosproblems.com/1109](https://www.erdosproblems.com/1109),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1109,

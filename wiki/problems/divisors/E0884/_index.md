@@ -64,9 +64,9 @@ copy.
 reciprocals of all differences between divisors of $n$ is bounded by an absolute
 constant times one plus the sum over consecutive divisors only. Erdős asks it in
 [Er98] on p. 177; Tao's note remarks that the statement there uses $j<\tau(n)$
-in place of $j\le\tau(n)$, which he calls likely a typo with no impact on the
-question. The two sides differ by at most a factor of order $\log\tau(n)$ by the
-harmonic-mean inequality and telescoping, so the question is whether that
+in place of $j\le\tau(n)$, which the note calls likely a typo with no impact on
+the question. The two sides differ by at most a factor of order $\log\tau(n)$ by
+the harmonic-mean inequality and telescoping, so the question is whether that
 logarithmic slack is ever needed.
 
 **What is established.** The answer is no. The accepted claim page

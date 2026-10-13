@@ -43,7 +43,7 @@ the corpus writes $c_f$ and $\gg_f$ for that dependence.
 
 This is unconditional positive-power progress for the full class of monic
 irreducible cubics. The paper recalls (p. 3) that Heath-Brown asked whether
-his result for $x^3+2$ generalizes to arbitrary cubic polynomials; the
+their result for $x^3+2$ generalizes to arbitrary cubic polynomials; the
 theorem does so for the monic irreducible ones. It covers only that class among the irreducible
 polynomials of degree at least two in
 [[../wiki/problems/arithmetic_functions/E0976/_index|Problem 976]], and it

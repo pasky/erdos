@@ -74,8 +74,8 @@ attestation shape: the statement is first-hand in a refereed proof paper, whose
 proof is followed here at filing depth only, and the second proof is
 second-hand.
 
-Mader's earlier bound is stated in his own text, Satz 2 of [Ma67] (Math. Ann.
-174 (1967), 265--268; printed p. 266), paged at
+Mader's earlier bound is stated in the author's own text, Satz 2 of [Ma67]
+(Math. Ann. 174 (1967), 265--268; printed p. 266), paged at
 [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]].
 It gives a subdivision of $K_r$ in every finite graph with $n$ vertices and at
 least $2^{\binom{r-1}2-1}(r-1)n$ edges. This constant is smaller than the
@@ -291,7 +291,7 @@ concerns the number of $\{4\}$-s and $\{4U\}$-s through a given cycle of a
 Where Dirac stated the $K_5$ conjecture that [Er81] and the site attribute
 to this paper was not checked here.
 
-**Mader's bound in his own text.**
+**Mader's bound in the author's own text.**
 [[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]]
 of [Ma67] (printed p. 266): "Jeder
 endliche Graph $G$ mit $k(G)\ge2^{\binom{n-1}2-1}\cdot(n-1)\cdot e(G)$

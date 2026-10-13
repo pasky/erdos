@@ -47,7 +47,7 @@ of Lemma 2.4 (pp. 248--249, Fig. 1): its red graph has one point of degree
 $n+1$, every other point has monochromatic degree at most $n$, and the red
 neighbors of that point have at most two red lines outside its star, so no
 monochromatic $S(n,m)$ with $m\ge3$ exists. The paper's remark (2) on p. 254
-says that Lemma 2.4 disproves Burr's conjecture that his lower bound
+says that Lemma 2.4 disproves Burr's conjecture that the lower bound
 $\max\{2t_1,t_1+2t_2\}-1$ is exact for every tree with classes
 $t_1\ge t_2$; the statement of Problem 549 is the case $t_1=2t_2$ of that
 conjecture. The theorem and the lemma are recorded on the result page

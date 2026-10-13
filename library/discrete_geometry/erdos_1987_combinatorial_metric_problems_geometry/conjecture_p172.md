@@ -30,7 +30,7 @@ contain some convex $n$-gon for $n>n_0$."
 **The same section continues** (pp. 172-173) with the question whether,
 for every $n$, there are $n$ points in general position (no three on a
 line, no four on a circle) with all $\binom n2$ distances integers; Erdős
-reports Lagrange's six such points (Fig. 2) and Harborth's message that he
+reports Lagrange's six such points (Fig. 2) and Harborth's message that Harborth
 and Kemnitz showed it is the example of least diameter, and the only one
 of diameter at most $220$.
 

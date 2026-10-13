@@ -201,14 +201,14 @@ disjoint edges is a star or a triangle, so $\mathrm{ex}(n;2K_2)=n-1$ for $n\ge4$
 joint one is $1$, so neither member $G$ satisfies
 $\mathrm{ex}(n;G)\le C\,\mathrm{ex}(n;\mathcal F)$ for all $n$ with any constant
 $C$: the answer to the question is no. This is Wigderson's Observation (p. 1;
-his proof cites the linear extremal number of forests for the upper bounds,
+its proof cites the linear extremal number of forests for the upper bounds,
 which the exact values above make unnecessary), and [OpenAI26] (p. 237) prints
 the same three values for $n\ge4$, calling the family "folklore". Wigderson
 attributes the example to Jordan Lefkowitz, points to Chvátal--Hanson for a more
 general form, and reports Simonovits's private communication that such
 counterexamples had long been known.
 
-**Route (2): the no-forest form.** Wigderson's p. 2 Conjecture, which he
+**Route (2): the no-forest form.** Wigderson's p. 2 Conjecture, which the paper
 attributes to Simonovits: for every finite collection $\mathcal F$ containing no
 forest there exist $H\in\mathcal F$ and $c>0$ with
 $\mathrm{ex}(n,\mathcal F)\ge c\cdot\mathrm{ex}(n,H)$ for all $n$; by

@@ -106,7 +106,7 @@ and write
 
 $$\mu(\lambda)=\bigl|\{\{x,y\}\subset A:|x-y|=\lambda\}\bigr|.$$
 
-Then Vesztergombi's $d_i$ is $\lambda_i$ and her $n_i$ is $\mu(\lambda_i)$. The
+Then Vesztergombi's $d_i$ is $\lambda_i$ and $n_i$ is $\mu(\lambda_i)$. The
 cited Hopf–Pannwitz–Sutherland result (Theorem A, p. 191) gives
 
 $$\mu(\lambda_1)\le N,$$

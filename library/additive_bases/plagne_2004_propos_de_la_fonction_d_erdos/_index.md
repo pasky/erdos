@@ -13,8 +13,8 @@ updated: 2026-10-08T17:41:31Z
 [[additive_bases/_index|..]]
 
 [[additive_bases/plagne_2004_propos_de_la_fonction_d_erdos/conjecture_2|conjecture_2]]: Plagne's conjecture that the Erdős–Graham function satisfies
-X(h) <= h(h+1)/2 + 1 for every h >= 2, the value his method reaches as its
-limit; the paper does not prove it.
+X(h) <= h(h+1)/2 + 1 for every h >= 2, the value the author's method
+reaches as its limit; the paper does not prove it.
 
 [[additive_bases/plagne_2004_propos_de_la_fonction_d_erdos/inequality_1_7|inequality_1_7]]: Plagne's refinement of two of the small-case bounds (1.6) on the
 Erdős–Graham function X: the upper bounds become X(5) <= 16 and
@@ -70,7 +70,7 @@ whose proof draws, through the interval-covering results of Section 3.2,
 on the three-distance theorem. Along the way the paper proves
 Théorème 3 (p. 1721), on periodicity of sumsets in $\mathbb Z/n\mathbb Z$.
 Plagne states Conjecture 2 (p. 1720), that $X(h)\le h(h+1)/2+1$ for all
-$h\ge2$, the value at which his method stops.
+$h\ge2$, the value at which the author's method stops.
 
 Source: <https://www.numdam.org/item/10.5802/aif.2064/>.
 

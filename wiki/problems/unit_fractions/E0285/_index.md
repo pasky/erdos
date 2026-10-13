@@ -189,7 +189,7 @@ gives $f(k)=\frac{e}{e-1}k+O\bigl(\frac{k\log\log k}{\log k}\bigr)$ for all
 $k\ge3$, with the error term best possible in order; it is the accepted
 claim [[problems/unit_fractions/E0285/claims/1998_11_18_martin|Martin 1998]].
 The lower bound is the elementary estimate of the Formulation. Martin
-recounts (p. 2) that his earlier paper Dense Egyptian fractions (Trans.
+recounts (p. 2) that the earlier paper Dense Egyptian fractions (Trans.
 Amer. Math. Soc.; arXiv:math/9804045; in the library as
 [[../library/unit_fractions/martin_1998_dense_egyptian_fractions/_index|martin_1998_dense_egyptian_fractions]])
 gave $M_t(1)\ll t$ for infinitely many $t$ only. Theorem 4 of [Ma00] settles

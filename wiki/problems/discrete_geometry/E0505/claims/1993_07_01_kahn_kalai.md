@@ -54,12 +54,12 @@ of the source card.
 
 **Acceptance.** The result is refereed, since it appeared in the Bulletin of the
 American Mathematical Society. Thomas Bloom, the site's curator, marks the
-problem disproved. He credits Kahn and Kalai for the disproof, and Brouwer and
-Jenrich for the smallest dimension the site records (problem page last edited 30
-December 2025). The corpus's own rewritten chain for Theorem 1 passed an
-independent review at its stated scope, and that review is retained on the
-source card. The record is local proof coverage and is not counted as acceptance
-evidence here.
+problem disproved. The curator credits Kahn and Kalai for the disproof, and
+Brouwer and Jenrich for the smallest dimension the site records (problem page
+last edited 30 December 2025). The corpus's own rewritten chain for Theorem 1
+passed an independent review at its stated scope, and that review is retained
+on the source card. The record is local proof coverage and is not counted as
+acceptance evidence here.
 
 **Formalization.** Boris Alexeev's GitHub repository `lean-proofs` holds, at
 the pinned commit linked above, a Lean 4 file whose header declares it a

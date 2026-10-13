@@ -81,7 +81,7 @@ https://www.erdosproblems.com/1100.
 **Formalization.** No Formal Conjectures statement is recorded by the site.
 Woett's discussion-thread post of 2 November 2025
 ([#post-1659](https://www.erdosproblems.com/forum/thread/1100#post-1659), its
-item on the formalization added 17 March 2026) links a Lean file in his
+item on the formalization added 17 March 2026) links a Lean file in the poster's
 repository,
 [ErdosProblem1100.lean](https://github.com/Woett/Lean-files/blob/9b3a6f8f1c95c3875b07d7ef6980a7ceba19415e/ErdosProblem1100.lean)
 (pinned to the commit of 22 April 2026 that last changed it), whose proof the

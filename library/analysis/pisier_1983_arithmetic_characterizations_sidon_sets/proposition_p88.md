@@ -48,8 +48,8 @@ as the Haar probability measure of $G$.
 The article says the Proposition is proved in Pisier's "Condition d'entropie
 et caractérisations arithmétiques des ensembles de Sidon" (its reference [5],
 then to appear), that the equivalence of (v) and (vi) is formal, and that the
-implication (v) $\Rightarrow$ (i) answers affirmatively Problem 8.3 of his
-"De nouvelles caractérisations des ensembles de Sidon" (reference [4],
+implication (v) $\Rightarrow$ (i) answers affirmatively Problem 8.3 of the
+author's "De nouvelles caractérisations des ensembles de Sidon" (reference [4],
 Advances in Math. Supplementary Studies 7B (1981), 685--726) (p. 88).
 
 ## Dependencies

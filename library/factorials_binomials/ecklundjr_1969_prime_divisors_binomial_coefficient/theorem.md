@@ -183,7 +183,7 @@ $K\geq128$, so its endpoint condition is automatic.
 ### Case 3: \(n/16<k\leq n/2\)
 
 Ecklund carries out the calculation only for Subcase 3a. For Subcases 3b and
-3c he states the conclusions, for $k\geq32$ and $k>105$ respectively, as
+3c the paper states the conclusions, for $k\geq32$ and $k>105$ respectively, as
 following by similar arguments (printed p.269); the cutoffs $1000$ and
 $100000$ and the endpoint checks used there are this page's.
 

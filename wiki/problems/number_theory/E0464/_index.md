@@ -109,7 +109,7 @@ $\theta$ in that set. For this $\theta$ the finitely many excepted terms have
 $\|\theta n_k\|>0$, so $\inf_k\|\theta n_k\|>0$ (two authored lines).
 
 Katznelson's Theorem 1.2 [Ka01] (Combinatorica 21 (2001), refereed) gives the
-separation again. His Claim 2 gives the set of multipliers with a positive
+separation again. Its Claim 2 gives the set of multipliers with a positive
 separation Hausdorff dimension 1, so the same uncountability line supplies an
 irrational $\theta$. Pollington (p. 511), Katznelson (p. 212), Erdős's 1982
 restatement (p. 63) and the site attest that the two original solutions are
@@ -246,7 +246,7 @@ closure of $\{\|\theta n_k\|:k\ge1\}$, which the comment says "corresponds to
 the argument that proves Theorem 1 Part 1 of de Mathan" (the existence
 statement of p. 237, before its Hausdorff-dimension clause), and flagged the
 wording. The file is linked from de Mathan's claim page as a formalization of
-his result.
+its result.
 
 ## Current assessment
 

@@ -2,8 +2,8 @@
 name: discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/theorem_1
 title: "Theorem 1 (p. 553): the arrangements A_{d,k} have no Gallai triangle in four families of (d, k) covering every d >= 4"
 desc: |
-  García Escudero's theorem that his real line arrangements A_{d,k} have no
-  Gallai triangle for d = 3q+1, 3q+2 or 9n with k = 0 and for d = 3q with q
+  García Escudero's theorem that the paper's real line arrangements A_{d,k} have
+  no Gallai triangle for d = 3q+1, 3q+2 or 9n with k = 0 and for d = 3q with q
   not a multiple of 3 and k = 2, which with Lemma 1 answers Erdős's Gallai
   triangle question negatively for every d >= 4.
 created: 2026-10-08T18:17:13Z

@@ -65,7 +65,7 @@ discussion thread, an audit of v1 posted on 2026-07-08 and made with GPT-5.5 Pro
 found that the preprint's Lemma B.6 does not support its Theorems 6.1 and 6.4. A
 second attempt of 2026-07-11, with GPT-5.6 Sol Pro, did not complete the
 argument. On 2026-07-16 Wang wrote there that v1 contained errors, corrected in
-the revised version that his Lean development formalizes. The comments on the
+the revised version that the Lean development formalizes. The comments on the
 proof claim itself discuss only the limsup question. Erdős's 1981 note proves
 the statement under the stronger hypothesis $a_{n+1}-a_n\to\infty$, which forces
 $a_n/n\to\infty$, so it settles those instances; it is the accepted partial
@@ -84,9 +84,9 @@ made, and no assessment of proof coverage is recorded.
 
 Erdős's note in the Comptes Rendus, issue of 11 May 1981, proves the case of
 gaps tending to infinity. Wang and Grau Ribas posted arXiv:2606.24972 v1 on
-2026-06-23; Wang's v2 and v3 followed on 2026-07-15 and 2026-07-17, his proof
-claim on the site's proof-claims thread on 2026-07-17, and v4, retitled and
-generalized to polynomial weights and integer bases, on 2026-08-24.
+2026-06-23; Wang's v2 and v3 followed on 2026-07-15 and 2026-07-17, Wang's
+proof claim on the site's proof-claims thread on 2026-07-17, and v4, retitled
+and generalized to polynomial weights and integer bases, on 2026-08-24.
 formal-conjectures tagged its statement `erdos_260` research solved on
 2026-09-21, citing the paper and Wang's Lean file.
 
@@ -100,7 +100,7 @@ $S$ forces $S$ to have positive density on every large dyadic block, so that
 $a_n/n\to\infty$ makes the series irrational and the answer is yes. The claim
 page
 [[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]]
-records the statement, Wang's disclosure of machine assistance, his Lean
+records the statement, Wang's disclosure of machine assistance, the Lean
 development (pinned, not built here), the formal-conjectures tag of 2026-09-21
 that marks the catalog statement `research solved` with a link to that
 development, the audit of v1 posted in the site's discussion thread on

@@ -50,7 +50,7 @@ consequence; the 1962 paper of Bollobás and Erdős does, for graphs without
 multiple lines
 ([[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/theorem_p144|theorem_p144]]:
 "egyszerű meggondolás mutatja, hogy bizonyítása azt is adja", p. 143, a
-simple consideration shows that his proof also gives it).
+simple consideration shows that the proof also gives it).
 
 **Source.** P. Bártfai (solution), Problem 10 of the 1959 Schweitzer
 competition, Mat. Lapok 11 (1960), 175--176; pp. 177--178 of the volume scan

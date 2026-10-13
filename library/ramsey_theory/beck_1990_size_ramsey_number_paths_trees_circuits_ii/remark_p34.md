@@ -2,7 +2,7 @@
 name: ramsey_theory/beck_1990_size_ramsey_number_paths_trees_circuits_ii/remark_p34
 title: "Remark (p. 34): r̂(P_n) < 900n for large n, attesting Beck 1983, and the universal graph for bounded-degree trees"
 desc: |
-  Beck's own attestation of his 1983 bound, the size Ramsey number of the
+  Beck's own attestation of the 1983 bound, the size Ramsey number of the
   path of length n is below 900n for large n, with the universal graph for
   bounded-degree trees and its corollary (2).
 created: 2026-09-18T04:40:00Z
@@ -41,7 +41,7 @@ Observations made here. $P_n$ is the path of length $n$, that is with $n$
 edges and $n+1$ vertices, as on the site's Problem 720; sources that take
 $P_n$ on $n$ vertices differ by one vertex, which changes no linear bound.
 The passage is Beck's
-citation of his own 1983 paper, not a proof: the source for $\hat r(P_n)<900n$
+citation of their own 1983 paper, not a proof: the source for $\hat r(P_n)<900n$
 remains Beck (1983), which is not held, so the bound is attested here at
 second hand by its author.
 

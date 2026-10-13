@@ -60,7 +60,7 @@ The pointwise bound below was announced by skominers in
 20 July 2026, using squarefree injectivity and a coloring argument. In
 [comment 8849](https://www.erdosproblems.com/forum/thread/1060#post-8849),
 6 September 2026, marinov transmitted a direct proof credited to Nikola Gyulev.
-He also reported that the argument had appeared at a team competition in
+The poster also reported that the argument had appeared at a team competition in
 Bulgaria the preceding day; that event has not been independently verified.
 The reconstruction below follows the direct proof. The uniform product
 majorant is too large in general to imply either asymptotic bound requested in

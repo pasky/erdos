@@ -64,10 +64,10 @@ were not read here.
 ## Proof pointer
 
 None here. Verification: Oliveira e Silva, Math. Comp. 68 (1999), 371--384
-(the survey's [61]), and his web page ([62]); neither is held. Roosendaal's
-figure is a claim on his web page of records ([65]). Cycle length: Tempkin
-and Arteaga ([75], a 1997 draft, not held), as reported in Section 5 of the
-survey.
+(the survey's [61]), and the same author's web page ([62]); neither is held.
+Roosendaal's figure is a claim on their web page of records ([65]). Cycle
+length: Tempkin and Arteaga ([75], a 1997 draft, not held), as reported in
+Section 5 of the survey.
 
 ## Dependencies
 

@@ -44,8 +44,8 @@ statement uses the site's convention.
 **Status.** The site's label is PROVED (LEAN), and the Lean suffix is a catalog
 label explained under Formalization. For every $a\ge1$ such a $b$ exists, and
 $b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$ for $a>1$,
-and his Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in his convention.
-Corollary 1 comes from the $3$-adic valuation of the block ending at
+and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in van Doorn's
+convention. Corollary 1 comes from the $3$-adic valuation of the block ending at
 $2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked table of endpoints for
 $a\le3^{10}$, and beyond that from $3$-adic valuations at endpoints chosen on
 six subintervals of $(3^k,3^{k+1}]$. This is the accepted claim
@@ -178,7 +178,7 @@ $$
 where $\delta(f_d)$ is the density of primes modulo which $f_d$ has a root:
 $1/(1+c)\le\liminf\le1/(2c)$ (Lemmas 31 and 30) and $0.82<c<0.85$ (Lemma
 32). Van Doorn conjectured (Section 5) that the lower value is exact, and
-his 2026 preprint
+their 2026 preprint
 [[../library/unit_fractions/doorn_2026_shortest_harmonic_sums_decreasing_denominator/theorem_1|Theorem 1]]
 proves $\liminf_{a\to\infty}(b(a)-a)/\log a=1/(1+c)$, approximately $0.546$,
 in the stronger form that for every $C<1+c$ and all large $n$ there are
@@ -198,7 +198,7 @@ Upper bounds: nothing below linear is proved in a manuscript. The author's
 site comment of 27 November 2025 explains that the $3$-adic method has a
 barrier at $4a$ (for $a=\lfloor3^{k+1}/2\rfloor$ the least $b$ it can
 produce is $2\cdot3^{k+1}-1>4a$) and expects
-$b(a)<a+O_\varepsilon(a^\varepsilon)$; his comment of 24 September 2026
+$b(a)<a+O_\varepsilon(a^\varepsilon)$; van Doorn's comment of 24 September 2026
 sketches a sublinear bound (below); Section 5 of [vD24] conjectures
 $b(a)=a+O(a^\varepsilon)$, plausibly $a+O(\log^ka)$, and records a
 conjectured global minimum of $(b(a)-a)/\log a$ at

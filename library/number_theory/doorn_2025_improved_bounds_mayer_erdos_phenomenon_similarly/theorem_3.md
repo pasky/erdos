@@ -2,10 +2,10 @@
 name: number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_3
 title: "Theorem 3 (p. 8): two Farey fractions x/n apart either bracket a Farey fraction of denominator below 6/x or lie more than nx(1/12 - o(1)) places apart"
 desc: |
-  Van Doorn's 2025 local-density form of his lower bound for Problem 1005:
-  two Farey fractions of order n that differ by x/n either enclose a Farey
-  fraction of denominator below 6/x or are more than nx(1/12 - o(1)) places
-  apart in the sequence.
+  Van Doorn's 2025 local-density form of the paper's lower bound for
+  Problem 1005: two Farey fractions of order n that differ by x/n either
+  enclose a Farey fraction of denominator below 6/x or are more than
+  nx(1/12 - o(1)) places apart in the sequence.
 created: 2026-10-08T15:25:14Z
 updated: 2026-10-08T15:25:14Z
 ---

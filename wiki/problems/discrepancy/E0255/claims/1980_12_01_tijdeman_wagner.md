@@ -43,7 +43,7 @@ unbounded discrepancy, which answers
 [[problems/discrepancy/E0255/_index|Problem 255]] yes with a rate of growth;
 the existence of one such interval is Schmidt's 1968 theorem
 ([[problems/discrepancy/E0255/claims/1968_01_01_schmidt|Schmidt 1968]]),
-and the countability of the exceptional anchors is his 1972 theorem
+and the countability of the exceptional anchors is the 1972 theorem
 ([[problems/discrepancy/E0255/claims/1972_01_01_schmidt|Schmidt 1972]]).
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper

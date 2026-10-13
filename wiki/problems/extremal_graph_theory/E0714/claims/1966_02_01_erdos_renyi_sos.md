@@ -57,7 +57,7 @@ of the same asymptotic by the same construction, recorded on
 
 **Covers.** The instance $r=2$ of the statement for every $r\ge2$, and
 nothing else: the paper says nothing about $K_{r,r}$ for $r\ge3$. The case
-$r=3$ is Brown's, on his claim page; the site's commentary credits Erdős,
+$r=3$ is Brown's, on its own claim page; the site's commentary credits Erdős,
 Rényi and Sós with $r=3$, which their paper does not contain.
 
 **Depends on.** Nothing in this wiki: the construction, the

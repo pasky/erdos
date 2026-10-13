@@ -165,10 +165,10 @@ query, that Erdős had already obtained the bound in [Er86c] and stated it in
 very differently, and asked for [Er95c]; the site's curator, Thomas Bloom,
 transcribed the [Er95c] passage from a library scan (below); the same day Tang
 posted a model-generated proof of $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (a
-second PDF), which his own GPT 5.4 Pro check had judged sound; it was reviewed
-as sound in outline by Tao and by the site's curator, who reproduced the
-injection $a\mapsto(c_a,c_a+a)$ and the bound $|\Gamma(S)|\ge2|S|^{1/2}$ in a
-few lines and described the rest as routine checking of edge cases, while a
+second PDF), which the poster's own GPT 5.4 Pro check had judged sound; it was
+reviewed as sound in outline by Tao and by the site's curator, who reproduced
+the injection $a\mapsto(c_a,c_a+a)$ and the bound $|\Gamma(S)|\ge2|S|^{1/2}$ in
+a few lines and described the rest as routine checking of edge cases, while a
 Gemini 3.1 Pro check posted by another forum user found one small error in a
 strict inequality and a third user's check found only a typo; the formalization
 by Aristotle, Harmonic's automated prover, was announced on 7 March and extended

@@ -87,7 +87,7 @@ and fixed $X_n$ for which the logarithmic averages of the survivor set $B$
 have liminf at most $177/200$ and limsup at least $49/50$, so that $B$ has no
 logarithmic density; if correct, this disproves the exact question above. The
 claim was posted to the site's proof-claims tab on 16 July 2026 with a Lean
-development following on 17 July; the curator wrote that he had not checked
+development following on 17 July; the curator wrote that they had not checked
 the proof and would wait for a formalized version, a forum commenter reported
 a kernel replay of the development on 2 August 2026, and formal-conjectures
 has linked two formal proofs since 18 September 2026. None of these is a

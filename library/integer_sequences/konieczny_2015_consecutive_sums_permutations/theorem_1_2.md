@@ -4,8 +4,9 @@ title: "Theorem 1.2: the maximum number of distinct consecutive sums of a permut
 desc: |
   Konieczny's bounds on the largest number of distinct consecutive sums of a
   permutation of [n]: at least (3/2 - 2/sqrt(e) + o(1)) n^2 = (0.286... + o(1))
-  n^2 and at most (1/4 + pi/16 + o(1)) n^2 = (0.446... + o(1)) n^2, with his
-  Question 2 whether the maximum is (c + o(1)) n^2 for some constant c.
+  n^2 and at most (1/4 + pi/16 + o(1)) n^2 = (0.446... + o(1)) n^2, with
+  the paper's Question 2 whether the maximum is (c + o(1)) n^2 for some
+  constant c.
 created: 2026-09-18T15:30:00Z
 updated: 2026-10-07T15:58:30Z
 ---

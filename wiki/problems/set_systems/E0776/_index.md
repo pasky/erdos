@@ -58,8 +58,8 @@ https://www.erdosproblems.com/776.
 
 **Formalization.** None recorded on the site, whose page shows no formalised
 statement, and formal-conjectures carries no statement file for the problem.
-Thiim's own Lean development of his claimed thresholds, which this corpus has
-not built, is linked from his claim page.
+Thiim's own Lean development of the claimed thresholds, which this corpus has
+not built, is linked from the claim page.
 
 ## Current assessment
 
@@ -100,13 +100,13 @@ answered, through the two pending full claims.
 
 Four items in the site's discussion thread have no claim page. The curator,
 Thomas Bloom, wrote on 10 April 2026 that, the problem being loosely phrased,
-he was minded to mark it solved on He and Tang's results and asked for views;
+they were minded to mark it solved on He and Tang's results and asked for views;
 the label was not changed, and the comment is recorded on He and Tang's page.
 Tang posted on 17 April 2026 numerical experiments suggesting $n_0(r)\le 2r+4$
 for $4\le r\le10$ and asked whether $n_0(r)=2r+C$ for a constant $C$; a
 conjecture from experiments is not a claim. Thiim posted on 15 July 2026 the
 value $n_0(11)=27$, with a construction checked by computer and the guess
-$n_0(r)=2r+5$ for $r\ge11$; it is a precursor of his full claim two days
+$n_0(r)=2r+5$ for $r\ge11$; it is a precursor of the full claim two days
 later, which subsumes it. A post of 6 September 2026 reports an independent
 rederivation of the cases $r=5$, $6$ and $11$ from the Kruskal–Katona
 recurrence, with finite certificates, a verifier, and Lean lemmas that import

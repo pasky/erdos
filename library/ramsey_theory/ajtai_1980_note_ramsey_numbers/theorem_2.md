@@ -45,8 +45,8 @@ definition of $f_4$). The later literature states the bound with strict
 inequalities: "$\alpha>0.01(n/t)\log t$" as Theorem 1 of Ajtai, Erdős,
 Komlós and Szemerédi 1981 (p. 314), credited to this note and the authors'
 Sidon-sequence paper, and "$\alpha>n\ln d/(100d)$ for $d\ge d_0$" in
-Shearer 1983 (p. 83), credited to the Sidon-sequence paper (his [1]) rather
-than to this note (his [2]).
+Shearer 1983 (p. 83), credited to the Sidon-sequence paper (its [1]) rather
+than to this note (its [2]).
 
 **Sharpness.** Remark 2 (p. 357, quoted): "When $t<n^{1/3+o(1)}$ Theorem 2
 is 'best possible.' A random graph $G$ with $n$ vertices and $nt/2$ edges
@@ -54,9 +54,9 @@ has $\alpha(G)\lesssim(n/t)\ln t$ and $t^3/6$ triangles. Deleting all
 points lying on triangles gives a graph $G'$ with $n'=n(G')\sim n$,
 $t'=t(G')\sim t$ and $\alpha(G')\le\alpha(G)\lesssim c(n'/t')\ln t'$." No
 further argument is printed. Shearer's Theorem 1 (1983) raises the constant
-$0.01$ to $(1-o(1))$ with the natural logarithm, and his Remark 2 puts the
-least independence ratio of triangle-free graphs of average degree $d$
-below $2\ln d/d$.
+$0.01$ to $(1-o(1))$ with the natural logarithm, and the same paper's
+Remark 2 puts the least independence ratio of triangle-free graphs of
+average degree $d$ below $2\ln d/d$.
 
 **Source.** M. Ajtai, J. Komlós and E. Szemerédi, A note on Ramsey numbers,
 J. Combin. Theory Ser. A 29 (1980), no. 3, 354--360; Theorem 2 and the

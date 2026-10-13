@@ -3,7 +3,7 @@ name: additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/theorem
 title: "Theorem 1.2: for every c < 1/68 and large finite A in Z, a subset of size (log |A|)^(1+c) whose distinct pairwise sums avoid A"
 desc: |
   Beker's new proof, after Sanders's, of a lower bound of the form
-  (log n)^(1+c) for the Erdős–Moser problem, deduced from his bound for sets
+  (log n)^(1+c) for the Erdős–Moser problem, deduced from Beker's bound for sets
   lacking k-configurations: every sufficiently large finite set of integers A
   contains B of size at least (log |A|)^(1+c), for any fixed c below 1/68,
   with b_1 + b_2 outside A for distinct b_1, b_2 in B.
@@ -49,7 +49,7 @@ the printed page. The proofs of Theorem 3.1 and of Proposition 4.2 (Sections
 Section 4 (p. 17). The paper obtains Theorem 1.2 from
 [[additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/proposition_4_1|Proposition 4.1]],
 an explicit form of Sanders's Proposition 2.7, by Sanders's own deduction of
-his Theorem 1.2, which it does not repeat. Proposition 4.1 is proved by
+their Theorem 1.2, which it does not repeat. Proposition 4.1 is proved by
 applying
 [[additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/theorem_3_1|Theorem 3.1]]
 to a Freiman-isomorphic image in a cyclic group of odd order; the paper
@@ -64,8 +64,8 @@ Vu, as the paper recounts in Section 1. Not reconstructed here.
 Proposition 4.1 and, through it, Theorem 3.1 of the same paper; Theorem 3.1
 rests on the graph counting lemma of Section 2 (Theorem 2.1, from Lemma 2.2),
 whose v1 proof of Lemma 2.2 the arXiv comment of v2 says contained an error
-that v2 corrects. Sanders's deduction of his Theorem 1.2 from his Proposition
-2.7, and the Kelley--Meka method, at statement level.
+that v2 corrects. Sanders's deduction of their Theorem 1.2 from their
+Proposition 2.7, and the Kelley--Meka method, at statement level.
 
 ## Bears on
 

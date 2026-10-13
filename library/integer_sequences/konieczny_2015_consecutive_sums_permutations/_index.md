@@ -19,13 +19,15 @@ question whether every permutation has o(n^2) such sums.
 
 [[integer_sequences/konieczny_2015_consecutive_sums_permutations/proposition_6_1|proposition_6_1]]: Konieczny's lower bound for the minimum number of distinct consecutive sums
 of a permutation of [n], n^{3/2}/(4 sqrt 2), by a variant of an argument of
-Solymosi; with his Questions 3 and 4 whether the minimum is n^{2-o(1)} and
-whether it is at least a constant times the count for the identity.
+Solymosi; with the paper's Questions 3 and 4 whether the minimum is
+n^{2-o(1)} and whether it is at least a constant times the count for
+the identity.
 
 [[integer_sequences/konieczny_2015_consecutive_sums_permutations/theorem_1_2|theorem_1_2]]: Konieczny's bounds on the largest number of distinct consecutive sums of a
 permutation of [n]: at least (3/2 - 2/sqrt(e) + o(1)) n^2 = (0.286... + o(1))
-n^2 and at most (1/4 + pi/16 + o(1)) n^2 = (0.446... + o(1)) n^2, with his
-Question 2 whether the maximum is (c + o(1)) n^2 for some constant c.
+n^2 and at most (1/4 + pi/16 + o(1)) n^2 = (0.446... + o(1)) n^2, with
+the paper's Question 2 whether the maximum is (c + o(1)) n^2 for some
+constant c.
 
 [[integer_sequences/konieczny_2015_consecutive_sums_permutations/theorem_1_3|theorem_1_3]]: Konieczny's theorem that for a uniformly random permutation a of [n] the
 number of distinct consecutive sums satisfies |S(a)|/n^2 -> (1+e^-2)/4 =

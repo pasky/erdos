@@ -88,7 +88,7 @@ reviewed.
   authors name *untwisted*, and the other by computer search, which they
   name *twisted* (p. 120). Chung [1] generalized the pattern of the
   untwisted $K_{16}$ to a lower bound for the largest triangle-free
-  $k$-colored complete graph for every $k$; the authors record that her
+  $k$-colored complete graph for every $k$; the authors record that Chung's
   bound was still the best known for $k=4$ while Fredericksen [2] had a
   better one for $k=5$ (p. 120). Page 121 notes the paradox that drove the
   paper: $v_0$ plays a special role in Chung's construction, yet every

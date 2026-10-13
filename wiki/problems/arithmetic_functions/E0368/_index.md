@@ -74,8 +74,8 @@ earlier theory of the Pell equation $x^2-Dy^2=1$ already gives the same
 conclusion. Mahler [Ma35] proved $F(n)>(\log\log n)/(1+\varepsilon)$ for
 all large $n$, from his theorem on the largest prime factor of $D_1x_0^2-A_0$
 at $x_0=2n+1$. Pasten [Pa24b] proved $F(n)\gg(\log\log n)^2/\log\log\log n$,
-his Corollary 1.5 on the largest prime factor of $xy(x+y)$ for coprime $x<y$
-taken at $x=1$, $y=n$, the best lower bound known. In the other direction
+the paper's Corollary 1.5 on the largest prime factor of $xy(x+y)$ for coprime
+$x<y$ taken at $x=1$, $y=n$, the best lower bound known. In the other direction
 Schinzel [Sc67b] proved that $F(n)\le n^{O(1/\log\log\log n)}$ for
 infinitely many $n$, his Theorem 14 with $A=E=1$, $r=2$, $s=1$, since
 $(2x+1)^2-1=4x(x+1)$. Between these the truth is unknown: the site's

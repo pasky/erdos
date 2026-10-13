@@ -44,7 +44,7 @@ second question of [[problems/set_theory/E0501/_index|Problem 501]] has a
 positive answer; the paper presents the corollary as the answer to Problem
 38(B) of the Erdős–Hajnal list. Gładysz had earlier found a free pair under
 an integral condition on the sets, as the paper describes it on p. 335 (the
-site states his result under the second question's hypotheses; Acta Math.
+site states that result under the second question's hypotheses; Acta Math.
 Acad. Sci. Hungar. 13 (1962), 199–201; not held).
 
 **Covers.** The second question only: closed sets $A_x$ of measure $<1$

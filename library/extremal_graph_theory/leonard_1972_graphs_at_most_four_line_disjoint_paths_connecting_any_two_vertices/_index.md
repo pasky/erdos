@@ -183,7 +183,7 @@ with the constructions of pp. 245--246 and the conclusion of p. 250), read
 on the page images and quoted above, with a result page for each. The closing
 formula and open question (p. 250) are recorded as the author's statement.
 The proof of the Theorem was read for structure only. The introduction's
-report of the $k_5$ counterexample is the author's forward citation of his
+report of the $k_5$ counterexample is a forward citation of the author's
 own paper [6], not a text of that paper. Nothing here is independently
 reviewed.
 

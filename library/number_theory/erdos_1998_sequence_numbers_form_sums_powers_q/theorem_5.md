@@ -28,8 +28,8 @@ is true when $1<q<\sqrt2$ and $q$ is transcendental."
 
 The sequence $(y_k)$ is the sequence $(x_k)$ of Problem 1096. Feng's 2016
 paper cites this theorem (its footnote 3) as the first proof, for $m=1$, of
-the implication $\ell_m(q^2)=0\Rightarrow L_m(q)=0$ that, combined with his
-Corollary 1.3, gives his Theorem 1.4; so this theorem is part of the proof
+the implication $\ell_m(q^2)=0\Rightarrow L_m(q)=0$ that, combined with its
+Corollary 1.3, gives its Theorem 1.4; so this theorem is part of the proof
 chain behind the problem's held answer.
 
 **Source.** P. Erdős, I. Joó and V. Komornik, *On the sequence of numbers of the

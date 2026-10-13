@@ -193,7 +193,7 @@ previous lower bounds, $w(3,k)\gg k^{2-1/\log\log k}$ (Brown, Landman and
 Robertson) and $w(3,k)\gg(k/\log k)^2$ (Li and Shu), and the quadratic guess
 supported by data ($w(3,20)\ge389$, $w(3,30)\ge903$) and stated as a
 conjecture by Ahmed, Kullmann and Snevily, which the paper refutes; Green
-writes that he first heard the question whether $w(3,k)=O(k^2)$ from Graham
+writes of first hearing the question whether $w(3,k)=O(k^2)$ from Graham
 around 2004, and the site's commentary names the refuted statement Graham's
 conjecture. Hunter's
 [[../library/ramsey_theory/hunter_2022_improved_lower_bounds_van_der_waerden/theorem_1|Theorem 1]]
@@ -239,8 +239,8 @@ the true order is unknown. Green expects it "somewhere in between the bound
 of Theorem 1.1 and something like $k^{c\log k}$, which is what a Behrend
 construction of the blue points would give if only the complement of such a
 set 'behaved randomly'" (p. 6); Hunter's Remark 1.1 records the same
-expectation, $w(3,k)\le k^{O(\log k)}$, and infers that his Theorem 1 "is
-likely to be essentially best possible" (p. 2). The gap is therefore
+expectation, $w(3,k)\le k^{O(\log k)}$, and infers that the paper's Theorem 1
+"is likely to be essentially best possible" (p. 2). The gap is therefore
 between $\exp(c(\log k)^2/\log\log k)$ and $\exp(O((\log k)^9))$; the
 sources expect only the upper bound $W(3,k)\le k^{O(\log k)}$, with the
 truth between Hunter's bound and that, and neither conjectures a matching

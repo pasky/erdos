@@ -20,8 +20,8 @@ $3n^2$, $6n^2$ and $n^2+m^2$ congruent triangles. The site's remarks credit
 these constructions, and the later manuscripts call them classical.
 
 [[problems/discrete_geometry/E0634/claims/2018_11_23_beeson|2018_11_23_beeson]]: Beeson proves that no triangle can be cut into seven congruent triangles, nor
-into eleven. The site's remarks credit this result through his talk slides,
-and the paper is a preprint without a journal record.
+into eleven. The site's remarks credit this result through Beeson's talk
+slides, and the paper is a preprint without a journal record.
 
 [[problems/discrete_geometry/E0634/claims/2025_12_27_zhang|2025_12_27_zhang]]: In a preprint, Zhang proves that for an integer-sided tile with sides $a$, $b$
 and $c=\sqrt{a^2+ab+b^2}$, an equilateral triangle can be cut into $m^2ab$

@@ -4,7 +4,7 @@ title: "Remark after Lemma 1, p. 35: R(C_4, K_{1,7}) = 11 and the non-square que
 desc: |
   The paper's remark on when the bound of Lemma 1 is attained: for square n
   it is attained at prime-power roots, at n = 7 the Petersen graph attains it
-  and gives R(C_4, K_{1,7}) = 11, and the author states that he does not know
+  and gives R(C_4, K_{1,7}) = 11, and the author states not knowing
   whether it is attained for infinitely many non-square n.
 created: 2026-10-08T14:56:45Z
 updated: 2026-10-08T14:56:45Z

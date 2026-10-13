@@ -32,7 +32,7 @@ Then $P$ has at least $\alpha n^2$ good edges, where $\alpha=1/11.981$, and
 therefore, $Z(P)\le(10.981/11.981)n^2$."
 
 It improves Dumitrescu's count of at least $n^2/12$ good edges (Corollary 8,
-p. 5) and his resulting $Z(P)<(11/12)n^2$ (p. 6). The paper's Problem 1
+p. 5) and the resulting $Z(P)<(11/12)n^2$ (p. 6). The paper's Problem 1
 (p. 3) asks for the largest possible $Z(P)$ over $n$-point sets in convex (or
 general) position; its concluding remarks (p. 10) give a convex set with
 $Z(P)\ge3n^2/4-O(n)$.

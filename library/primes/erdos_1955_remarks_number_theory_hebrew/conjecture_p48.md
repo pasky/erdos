@@ -37,7 +37,7 @@ inequality
 at once $xy\le A(n)=o(n^2/(\log n)^\alpha)$, a consequence the paper does not
 draw. It was later proved
 by Szemerédi, as recorded on
-[[integer_sequences/szemeredi_1976_problem_p_erdos/main_theorem|his main theorem]].
+[[integer_sequences/szemeredi_1976_problem_p_erdos/main_theorem|their main theorem]].
 
 **Read depth.** Claims checked: the hypotheses, the inequality and both
 constructions were read clause by clause on the page image of p. 48, in the

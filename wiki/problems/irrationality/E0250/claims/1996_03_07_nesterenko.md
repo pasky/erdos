@@ -63,7 +63,7 @@ the same theorem in C. R. Acad. Sci. Paris Sér. I Math. 322 (1996), no. 10,
 909–914 (the second `record` link, its zbMATH entry Zbl 0859.11047), of which
 the library holds no copy. The irrationality alone had been proved a few
 months earlier by Duverney, on
-[[problems/irrationality/E0250/claims/1995_09_18_duverney|his own claim page]].
+[[problems/irrationality/E0250/claims/1995_09_18_duverney|its own claim page]].
 
 **Acceptance.** Refereed: Matematicheskii Sbornik, volume 187, number 9 (1996),
 received by the editors on 7 March 1996, with the English translation in

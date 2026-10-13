@@ -78,7 +78,7 @@ comments, of 3 December 2025, 22 December 2025 and 20 January 2026: a 1996
 photograph of Ahlswede and Khachatrian receiving Erdős's prize, a variant of
 Erdős and Sós on families with a forbidden intersection size with recent
 progress at arXiv:2512.17544, and an interview of Katona recalling the
-$t$-intersecting generalization as one he had hoped to solve; no proof
+$t$-intersecting generalization as one they had hoped to solve; no proof
 claims); the community database (teorth/erdosproblems), which lists the
 problem as proved (Lean) as of its last update on 2026-08-24, without dating
 the change of state, and as formalized since 2026-09-19; and the

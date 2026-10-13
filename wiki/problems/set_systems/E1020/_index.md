@@ -198,7 +198,7 @@ mentioned by the site's label or commentary.
 [[problems/set_systems/E1020/claims/2026_02_01_mishra|Mishra 2026]] claimed
 the full conjecture in a preprint of 1 February 2026; a reader located an
 error in its Lemma 4 on the thread and the author withdrew it on 1 June 2026
-with the comment that the proof has a major error he cannot fix. Three
+with the comment that the proof has a major error they cannot fix. Three
 preprints claim ranges:
 [[problems/set_systems/E1020/claims/2026_02_22_frankl_lu_ma_wu|Frankl, Lu, Ma and Wu 2026]]
 claim $r=4$ for $n\ge5(k-1)$ with $n$ large;

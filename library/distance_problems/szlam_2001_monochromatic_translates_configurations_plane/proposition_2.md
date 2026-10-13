@@ -2,7 +2,7 @@
 name: distance_problems/szlam_2001_monochromatic_translates_configurations_plane/proposition_2
 title: "Proposition 2 (p. 174): a regular proper n-coloring of R^m yields an admissible coloring forbidding red translates of an n-point configuration"
 desc: |
-  Szlam's partial converse to his reduction, turning a proper n-coloring of
+  Szlam's partial converse to the reduction, turning a proper n-coloring of
   R^m whose color classes are translates of one class into an admissible
   red-blue coloring with no red translate of some n-point configuration.
 created: 2026-10-08T17:52:46Z

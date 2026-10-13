@@ -32,7 +32,7 @@ $\lambda$ have colouring number at most $\omega$ has countable colouring
 number. Komjáth (the paper's reference [10]) made a counterexample for the
 chromatic number of size $\aleph_{\omega_1}$ consistent, in a model where
 the continuum is $\aleph_{\omega_1+1}$; the paper says Theorem 1 answers
-his question by making such a counterexample consistent with GCH.
+Komjáth's question by making such a counterexample consistent with GCH.
 
 ## Proof pointer
 

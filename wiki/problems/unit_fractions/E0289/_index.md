@@ -125,7 +125,7 @@ Montgomery's solution of Hahn's Monthly problem E2689. The thread
 [[problems/unit_fractions/E0288/_index|Problem 288]] as its dual; 29 August
 2025, a comment noting the monograph's observation that the intervals of a
 solution cannot all coincide; 22 September 2025, Kovač's argument for the
-unrestricted formulation and his doubt about the intended reading (below); 18
+unrestricted formulation and their doubt about the intended reading (below); 18
 December 2025, Kovač's request that the Lean statement adopt the
 non-overlapping, non-adjacent form. The community
 database records open, formalized statement, no OEIS
@@ -157,7 +157,7 @@ reciprocal sums total $1$ are built from four large primes by the Chinese
 remainder theorem, and the adjustable counts cover every large $k$. The site's
 commentary adopts this argument and thanks its author; the argument is not
 independently checked, and it says nothing about the restricted question, for
-which Kovač's comment says he has no approach.
+which Kovač's comment says they have no approach.
 
 **The example for $2$.** The
 five separated intervals $[2,7]$, $[9,10]$, $[17,18]$, $[34,35]$, $[84,85]$
@@ -202,7 +202,7 @@ build or review of any of them is recorded.
   theorem and Haxell's independent-transversal theorem; a manuscript at the
   repository's tag v1.0.0 (7 September 2026), an exact-arithmetic verifier and
   a formalization in progress; AI systems named on the page. Its author states
-  in the first claim's thread that his manuscript was complete in mid-August
+  in the first claim's thread that the manuscript was complete in mid-August
   2026.
 - [[problems/unit_fractions/E0289/claims/2026_09_26_budden|David Budden with the system PingYou, 26 September 2026]]:
   every positive rational as a reciprocal sum over exactly $k$ intervals of

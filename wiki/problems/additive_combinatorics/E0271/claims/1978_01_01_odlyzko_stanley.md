@@ -71,5 +71,5 @@ is listed; the site labels the problem OPEN, and its commentary credits the
 descriptions to the memorandum as commentary on an open problem. The
 descriptions for $m\ge1$ were later proved, with proof, by Rolnick in a
 refereed paper, recorded as an accepted partial claim on
-[[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|his claim page]].
+[[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|its claim page]].
 The claim is partial and derives nothing for the problem's standing.

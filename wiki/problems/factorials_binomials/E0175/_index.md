@@ -36,7 +36,7 @@ results are recorded on the claim pages
 and
 [[problems/factorials_binomials/E0175/claims/1996_06_01_granville_ramare|Granville and Ramaré 1996]].
 The two full proofs are refereed. The Lean qualifier refers to Boris Alexeev's
-formalization of the Granville–Ramaré argument in his repository of formalized
+formalization of the Granville–Ramaré argument in a repository of formalized
 Erdős problems, which this corpus has not built.
 
 **Source.** [erdosproblems.com/175](https://www.erdosproblems.com/175), accessed

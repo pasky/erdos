@@ -41,11 +41,11 @@ proof determines $R(s,k)$ for fixed $s$ up to a polylogarithmic factor.
 Theorem 1.1 (arXiv:2605.28793v3, 16 June 2026) states that for any $s\ge3$ there
 is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all $k\ge2$. So
 $c(s)=2s-4$ works. The status-defining source is this arXiv preprint. The site's
-curator, Thomas Bloom, accepted it: he labels the problem PROVED and credits the
-lower bound to this paper as the resolution. No journal acceptance, other expert
-review or checked formalization of the paper was found. The paper credits the
-step that raised the exponent from $s-2$ to $s-1$ to an internal model at
-OpenAI.
+curator, Thomas Bloom, accepted it: the site labels the problem PROVED and
+credits the lower bound to this paper as the resolution. No journal acceptance,
+other expert review or checked formalization of the paper was found. The paper
+credits the step that raised the exponent from $s-2$ to $s-1$ to an internal
+model at OpenAI.
 
 The frontmatter standing is derived from the claim pages. Bradač's result is an
 accepted full claim
@@ -159,7 +159,7 @@ bounds are $k^{s-1}/(\log k)^{2s-4}\ll_sR(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$ (the
 site writes $\ll_k$ on the lower bound; the constant depends on $s$, as Bradač's
 $c_s$ shows), the lower bound Bradač's [Br26], which the site counts as the
 resolution of the problem, improving Bohman and Keevash [BoKe10], with a
-parenthetical note that an earlier version of his paper had reached only the
+parenthetical note that an earlier version of the paper had reached only the
 exponent $s-2$ and that an internal model at OpenAI supplied the step to $s-1$;
 the upper bound is Ajtai, Komlós and Szemerédi's [AKS80], its constant improved
 to $1+o(1)$ by Li, Rousseau and Zang [LRZ01]; the cases $s=3$ and $s=4$ are
@@ -211,7 +211,7 @@ p. 4 that the argument improving the exponent from $s-2$ to $s-1$ "was
 found by an internal model at OpenAI and communicated to the author", that
 AI tools played no significant part in the rest of the ideas and proofs,
 that Claude produced the computation in the appendix, and that the author
-wrote the text himself. This page records these statements as the source's
+wrote the text personally. This page records these statements as the source's
 own provenance; no independent check of the argument is claimed here.
 
 **Earlier partial results (refereed) and the upper bound.** The upper bound
@@ -278,8 +278,8 @@ likewise; that is, $r(s,t)=t^{s-1}/(\log t)^{s-2+o(1)}$ for every fixed $s\ge5$,
 the sharp logarithmic exponent. The lower bounds give the statement for $s\ge5$
 with any $c>s-2$ and leave $s=3,4$ to the refereed partial claims above, so the
 claim is partial. By their introductions the manuscripts work with the ordered
-incident-flag graph of Bradač's construction (his Subsection 2.5) and adapt his
-marking argument (his Claim 2.13), the improvement lying in an entropy and
+incident-flag graph of Bradač's construction (Subsection 2.5) and adapt the
+marking argument of [Br26] (Claim 2.13), the improvement lying in an entropy and
 compression analysis of long independent sequences; the proofs are not checked
 here. The release's Lean tree states both theorems as comparator challenges and
 holds solution modules proving them, imported by its root module, though its own

@@ -2,9 +2,9 @@
 name: covering_systems/sun_2007_covering_numbers/conjecture_1_1
 title: "Conjecture 1.1 (p. 5): every primitive covering number satisfies the condition of Theorem 1.1 in some prime order"
 desc: |
-  Sun's conjecture, the converse of his Theorem 1.1 for primitive covering
-  numbers: each one can be written as p_1^{a_1} ... p_r^{a_r} with distinct
-  primes so that the product of (a_t + 1) over t < s is at least
+  Sun's conjecture, the converse of the paper's Theorem 1.1 for primitive
+  covering numbers: each one can be written as p_1^{a_1} ... p_r^{a_r} with
+  distinct primes so that the product of (a_t + 1) over t < s is at least
   p_s - [r != s] for every s; the paper notes it is stronger than the
   Erdős-Selfridge conjecture.
 created: 2026-10-08T17:28:14Z

@@ -53,7 +53,7 @@ without proof.
 **Acceptance.** Refereed: Mathematics of Computation 33 (1979), no. 145,
 399--408, DOI 10.1090/S0025-5718-1979-0514836-7 (Crossref record accessed, issue
 dated January 1979). Reviewed: the site's curator, Thomas Bloom, is independent
-of the author. He labels the problem DISPROVED (LEAN) and credits the disproof
+of the author, and labels the problem DISPROVED (LEAN) and credits the disproof
 to this paper. The commentary (page last edited 8 April 2026, accessed
 2026-09-05) says the answer is no, as shown by Pomerance, and reproduces the
 convex-hull argument. Read depth: the card checks the claims of Theorems 2.1 and

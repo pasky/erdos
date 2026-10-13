@@ -4,8 +4,8 @@ title: "Theorem 4 (p. 68): n - i(4,n,m) <= 20 sqrt(nm) for every even n large en
 desc: |
   Simonovits's theorem that for every sufficiently large even n there are
   4-critical graphs on n vertices with all but at most 20 sqrt(nm) vertices
-  forming an independent set of vertices of valence at least m, from his
-  block construction Q.
+  forming an independent set of vertices of valence at least m, from the
+  paper's block construction Q.
 created: 2026-10-08T16:56:52Z
 updated: 2026-10-08T16:56:52Z
 ---

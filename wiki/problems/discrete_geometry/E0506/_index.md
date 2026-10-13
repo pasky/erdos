@@ -113,7 +113,7 @@ carry no acceptance evidence. The site's discussion thread carries two
 unpublished posts on small $n$, recorded here without claim pages because they
 are thread posts. On 11 June 2026 Yuriy Peysakhov posted the eight points
 $(\pm1,\pm1)$ and $(\pm2,\pm2)$, found with Citadel, an AI-assisted
-verified-discovery engine he is building; they determine $18$ circles, so
+verified-discovery engine Peysakhov is building; they determine $18$ circles, so
 $f(8)\le18<19$. On 18 August 2026, two days before Wrona's claim, the user mzn
 posted, with AI assistance, the values $f(5),\dots,f(8)=5,8,11,17$ with explicit
 configurations. The lower bounds at $n=6$ and $n=8$ come from an exhaustive

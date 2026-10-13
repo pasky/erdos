@@ -101,7 +101,7 @@ in one class; Hindman had just told Erdős that the proof "may" have a gap,
 which Erdős hoped would be corrected by the time his own survey appeared.
 Hindman also found a partition into three classes A_1, A_2, A_3 with no such
 infinite sequence, one class A_1 having density 0, with (1) A_1(x) = sum_{a_i
-in A_1, a_i <= x} 1 < c x^{1/2} in his example; whether, and how far, (1)
+in A_1, a_i <= x} 1 < c x^{1/2} in that example; whether, and how far, (1)
 can be improved was unclear. The p. 58 sums-and-products passage described
 above for #172 also carries the multilinear question of #1198: "Is there an
 infinite sequence a_1 < a_2 < ... so that all the multilinear expressions
@@ -279,9 +279,9 @@ site source key),
 [[../wiki/problems/ramsey_theory/E1198/_index|#1198]] (p. 58: the multilinear-expressions
 question in its 1977 form; the site's key is the 1980 survey),
 [[../wiki/problems/ramsey_theory/E1199/_index|#1199]] (p. 58: Owings's question, Hindman's
-announced two-class proof, which he had just told Erdős "may" have a gap,
-and his three-class decomposition with a class of density zero; the site's
-key is the 1980 survey)
+announced two-class proof, which its author had just told Erdős "may" have
+a gap, and Hindman's three-class decomposition with a class of density
+zero; the site's key is the 1980 survey)
 
 **Results to transcribe.**
 
@@ -306,7 +306,7 @@ key is the 1980 survey)
   x, y in S are distinct.
 - Owings's question (p. 58): Whether every two-class partition of the
   integers has an infinite sequence with all sums x_i + x_j (i = j
-  permitted) in one class; Hindman's announced proof "may" have a gap; his
+  permitted) in one class; Hindman's announced proof "may" have a gap; Hindman's
   three-class decomposition has no such sequence, with one class A_1 of
   density 0 satisfying A_1(x) < c x^{1/2} (display (1)).
 - Sums and products (p. 58): Whether every two-class partition of the

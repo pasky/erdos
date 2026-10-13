@@ -29,9 +29,9 @@ least-common-multiple property and $x>x_0(\varepsilon)$; and whether
 $\sum_{a\in A}1/a>1$ can occur for large $x$, the only example known being
 $A=\{2,3,5\}$ for $x=5$ or $6$.
 
-After the proof (p. 265) the author states, without proof, that he can
-improve the bound to $1+O(\delta\log\delta^{-1})$, and conjectures that it
-holds with $1+O(\delta)$.
+After the proof (p. 265) the author states, without proof, that the bound can
+be improved to $1+O(\delta\log\delta^{-1})$, and conjectures that it holds
+with $1+O(\delta)$.
 
 **Source.** I. Z. Ruzsa, *On the small sieve. II. Sifting by composite
 numbers*, J. Number Theory 14 (1982), 260–268; Lemma 2.8 and the Remark on

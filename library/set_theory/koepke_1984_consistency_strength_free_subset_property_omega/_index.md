@@ -46,8 +46,8 @@ Koepke notes that omega_omega can be replaced by cardinals such as
 omega_{omega+omega} and omega_{omega*omega}, and announces without proof that
 "higher" core models make
 Fr_omega(omega_{omega_1}, omega_1) equiconsistent with omega_1 measurable
-cardinals, adding that these results form part of his doctoral thesis. The
-paper does not mention set mappings; the corpus's pages on Problem 623 cite
+cardinals, adding that these results form part of the author's doctoral thesis.
+The paper does not mention set mappings; the corpus's pages on Problem 623 cite
 it for Theorems 2.2 and 4.4, which fix the consistency strength of Fr_omega(omega_omega, omega).
 
 Source:

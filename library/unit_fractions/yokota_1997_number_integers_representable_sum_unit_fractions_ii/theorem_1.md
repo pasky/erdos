@@ -52,8 +52,8 @@ The initial segment $\{1,\ldots,\lfloor\log n-5\log\log n\rfloor\}$ is the
 form the opening sentence states, not one the printed steps reach. Croot's
 1999 paper states the same range,
 $\{n:1\le n\le\log x-5\log\log x\}\subseteq N(x)$, crediting the 1998
-Corrigendum (his [6], typescript p. 1), and uses "the main result in [5]
-(and [6])", his [5] being this paper, in the proof of its Main Theorem for
+Corrigendum (its [6], typescript p. 1), and uses "the main result in [5]
+(and [6])", its [5] being this paper, in the proof of its Main Theorem for
 the integers below a fixed bound (typescript p. 12).
 
 The 1998 Corrigendum (J. Number Theory 72, 150) is not held, so what it

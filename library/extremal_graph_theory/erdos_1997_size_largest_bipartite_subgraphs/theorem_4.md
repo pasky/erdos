@@ -33,7 +33,7 @@ Let $G$ be a graph of order $n$ and size $e$.
 
 The paper's standing convention (p. 268) takes $G$ to be a multigraph with
 $e$ edges, and the theorem is stated in that setting. The paper credits the
-second assertion to Edwards (Theorem 6 of his 1973 paper) and offers a
+second assertion to Theorem 6 of Edwards's 1973 paper and offers a
 shorter proof. Before the theorem it says that the bounds are sharp in the
 sense that infinitely many graphs attain them; it gives no example.
 

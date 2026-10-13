@@ -37,8 +37,8 @@ recorded on
 The Lean qualification refers to a development in Boris Alexeev's repository
 that this corpus has neither built nor audited (see Formalization). The site
 attributes the convex case to Altman, but that attribution has no claim page,
-since his paper prints no statement about the sum (see the claim page and the
-card below). The convex case is
+since Altman's paper prints no statement about the sum (see the claim page and
+the card below). The convex case is
 [[problems/distance_problems/E0094/_index|Problem 94]].
 
 **Source.** [erdosproblems.com/95](https://www.erdosproblems.com/95), accessed

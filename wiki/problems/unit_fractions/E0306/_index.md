@@ -332,9 +332,9 @@ names GPT-5.6-sol, GPT-6-astra and Claude Opus 5.5 as the systems used, with
 asserts the whole statement and sketches the construction recorded on
 [[problems/unit_fractions/E0306/claims/2026_09_26_li|its claim page]]. Its
 three comments (29 September to 3 October 2026) are an exchange with Tang,
-who welcomes the proof, reports simplifying his own and publishes his August
+who welcomes the proof, reports simplifying their own and publishes their August
 manuscript (recorded on
-[[problems/unit_fractions/E0306/claims/2026_06_19_tang|his claim page]]);
+[[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's claim page]]);
 none is a review. The site labels the problem OPEN (page last edited 21 June
 2026, as of 2026-10-07).
 <!-- BEGIN problem library links -->

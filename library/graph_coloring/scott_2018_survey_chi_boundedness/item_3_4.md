@@ -21,7 +21,7 @@ $\chi$-bounded.
 **3.4** (p. 5, quoted). "Every path is $\chi$-bounding."
 
 The survey credits it to Gyárfás. A footnote (p. 5) adds that Gyárfás gave
-a proof of the triangle-free case in an earlier paper, where he says J.
+a proof of the triangle-free case in an earlier paper, which says J.
 Gerlits proved that case first and Lovász proved the general case, and that
 Gyárfás's later paper seems to be the first place a general proof is
 published.

@@ -87,7 +87,7 @@ on that lattice.
 ## Dependencies
 
 T. C. Hales, Dense Sphere Packing, Theorem 5 (p. 4) and Lemma 9.13 (cited
-as p. 228); Molnár's density bound for cap packings (Satz I of his 1965
+as p. 228); Molnár's density bound for cap packings (Satz I of the 1965
 paper); the isoperimetric inequality; the solution of the thirteen-spheres
 problem (no unit ball touches more than twelve); for (ii), Voronoi's
 theorem on obtuse superbases with Conway and Sloane's list of strict

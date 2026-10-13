@@ -305,9 +305,9 @@ maximum modulus.
 the extremal escape-path length in a lemniscate problem of Erdős.
 
 [[analysis/pisier_1983_arithmetic_characterizations_sidon_sets/_index|pisier_1983_arithmetic_characterizations_sidon_sets/]]: Pisier characterizes Sidon sets by the existence of linearly sized
-quasi-independent subsets in every finite subset, which, he says, in some sense
-reduces the finite-union question for Sidon sets to a combinatorial question
-whose case of sets of positive integers is E0774.
+quasi-independent subsets in every finite subset, which, the author says, in
+some sense reduces the finite-union question for Sidon sets to a combinatorial
+question whose case of sets of positive integers is E0774.
 
 [[analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/_index|pommerenke_1959_some_problems_erdos_herzog_piranian/]]: Pommerenke's 1959 answers to questions of Erdős, Herzog and Piranian on
 the lemniscate |f(z)| = 1 of a monic polynomial: a lemniscate lying within

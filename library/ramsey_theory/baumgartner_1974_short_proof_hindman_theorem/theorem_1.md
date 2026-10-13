@@ -35,7 +35,7 @@ p. 384 (PDF p. 1 of the scan), read on the rendered page image.
 The original proof is N. Hindman, J. Combin. Theory Ser. A 17 (1974), 1--11,
 cataloged as
 [[ramsey_theory/hindman_1974_finite_sums_sequences_within_cells_partition_n/_index|hindman_1974_finite_sums_sequences_within_cells_partition_n]];
-Hindman's own statement is his
+Hindman's own statement is that paper's
 [[ramsey_theory/hindman_1974_finite_sums_sequences_within_cells_partition_n/theorem_3_1|Theorem 3.1]]
 on printed p. 9, read there clause by clause on the page image.
 

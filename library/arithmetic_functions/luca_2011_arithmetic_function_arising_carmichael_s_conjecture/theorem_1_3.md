@@ -15,7 +15,7 @@ updated: 2026-10-08T17:27:22Z
 ## Statement
 
 Setting (p. 698). $L(x):=x^{\log\log\log x/\log\log x}$. The paper quotes
-Pomerance's bound (1.1), $\max_{n\le x}F(n)\le x/L(x)^{1+o(1)}$, and his
+Pomerance's bound (1.1), $\max_{n\le x}F(n)\le x/L(x)^{1+o(1)}$, and Pomerance's
 result that equality holds under an unproved hypothesis on smooth shifted
 primes. Theorem 1.3 describes what a value near that size must look like.
 

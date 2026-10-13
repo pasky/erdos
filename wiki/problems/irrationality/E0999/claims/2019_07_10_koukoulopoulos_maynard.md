@@ -56,11 +56,11 @@ digests the paper.
 
 **Acceptance.** Refereed: Annals of Mathematics, Second Series, volume 192,
 issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labels Problem
-999 PROVED. In the problem's remarks he credits this paper with the proof of the
-full conjecture (erdosproblems.com page accessed 2026-10-07). The forum thread
-has no comments or proof claims. The formal-conjectures statement file for the
-problem is tagged as solved research. This corpus has not reproved the theorem
-and awards no tier of its own.
+999 PROVED. In the problem's remarks Bloom credits this paper with the proof of
+the full conjecture (erdosproblems.com page accessed 2026-10-07). The forum
+thread has no comments or proof claims. The formal-conjectures statement file
+for the problem is tagged as solved research. This corpus has not reproved the
+theorem and awards no tier of its own.
 
 **Formalization.** A third party formalized the site's statement: `erdos_999`
 in `src/latest/ErdosProblems/Erdos999.lean` of Boris Alexeev's repository

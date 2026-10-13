@@ -39,8 +39,8 @@ doi:10.1016/j.jnt.2003.12.012.
 Nathanson studies representation functions of one set of nonnegative integers.
 For $A\subseteq\mathbf N_0$, $r_A(n,h)$ counts nondecreasing $h$-term
 representations of $n$. Given sequences $\mathcal H=\{H_n\}$ and
-$\mathcal R=\{R_n\}$ of nonempty finite subsets of the positive integers, he
-defines
+$\mathcal R=\{R_n\}$ of nonempty finite subsets of the positive integers,
+Nathanson defines
 
 $$
 r_A(n,H_n)=\sum_{h\in H_n}r_A(n,h).

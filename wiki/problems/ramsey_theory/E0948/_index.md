@@ -194,7 +194,7 @@ produced, with two links (the argument document and a Lean web-editor page), the
 argument formalized in Lean with Aristotle; the same day, a comment reporting
 that a screening check it links to found no issue and that the Lean matched the
 paper, and judging the argument an extension of [ErGa91]; 22 June 2026, Cambie
-on notation and then reporting that his review had confirmed the proof, with
+on notation and then reporting that their review had confirmed the proof, with
 minor comments sent to the author for the note, a comment the site marked as
 addressed; 6 July 2026, the site's author with a sketch of the construction
 (below). The proof-claim tab is empty.

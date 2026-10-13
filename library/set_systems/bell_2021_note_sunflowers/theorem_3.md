@@ -33,8 +33,8 @@ possible.
 
 ## Proof pointer
 
-Appendix, p. 3. The paper says the theorem follows from Tao's proof of his
-Proposition 5, and gives a short derivation from Rao's proof of his Lemma 4:
+Appendix, p. 3. The paper says the theorem follows from the proof of Tao's
+Proposition 5, and gives a short derivation from the proof of Rao's Lemma 4:
 Rao's argument controls a uniformly random subset of size
 $\lceil\delta|X|/2\rceil$, and a Chernoff bound transfers this to
 $X_\delta$, using that $|\mathcal S|\geq r^k$ forces $|X|\geq r$. The

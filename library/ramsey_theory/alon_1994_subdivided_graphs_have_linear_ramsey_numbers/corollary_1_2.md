@@ -41,8 +41,8 @@ Hence $H$ satisfies the hypothesis of
 which gives $r(H)\leq12|V(H)|$.
 
 **Context in the source.** Alon notes on p. 2 that the special case of
-essential subdivisions of complete graphs was proved by Burr and Erdős (his
-reference [1]).
+essential subdivisions of complete graphs was proved by Burr and Erdős (the
+paper's reference [1]).
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0800/_index|#800]]: a special
 case only; every essential subdivision lies in the problem's class, so the

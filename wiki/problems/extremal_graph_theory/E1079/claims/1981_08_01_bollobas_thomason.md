@@ -87,11 +87,11 @@ Crossref record: volume 31, issue 1, pp. 111--114, issued August 1981). The day
 in this page's date is the issue's nominal first day.
 
 Reviewed: the site's curator, T. F. Bloom, labels the problem solved and names
-this paper as the proof. Bondy restates the theorem as a known result in his
+this paper as the proof. Bondy restates the theorem as a known result in a
 refereed note of 1983
 ([[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Theorem 1]]).
-He also credits it to an independent proof by Erdős and Sós in a preprint, which
-is not a source of this page.
+The note also credits it to an independent proof by Erdős and Sós in a preprint,
+which is not a source of this page.
 
 The
 [[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/_index|source card]]

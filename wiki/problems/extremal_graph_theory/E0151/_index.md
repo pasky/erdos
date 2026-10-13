@@ -183,7 +183,7 @@ behavior of $\tau(G)$ to Problem 610. The thread has three comments. The
 comment of 8 September 2025 points to the 1992 paper's Problem 1, after which
 the site was updated; the comments of 23 and 28 September 2026 are
 Veljjanoski's SAT and integer-programming check of the inequality for every
-graph on at most $22$ vertices and his announcement of the write-up for
+graph on at most $22$ vertices and an announcement of the write-up for
 $n\le39$. The proof-claim tab carries one partial claim, posted 2026-09-28 and
 recorded below. The community database record says open.
 

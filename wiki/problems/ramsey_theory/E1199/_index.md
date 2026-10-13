@@ -194,7 +194,7 @@ classes there is always an infinite sequence $x_1<x_2<\ldots$ with "all the sums
 $x_i+x_j$ ($i=j$ permitted)" in one class; that Hindman had just told Erdős of a
 possible gap in the proof, which Erdős hoped would be repaired before the survey
 appeared; and that Hindman had split the integers into three classes
-$A_1,A_2,A_3$ admitting no such sequence, one class of density $0$, his example
+$A_1,A_2,A_3$ admitting no such sequence, one class of density $0$, the example
 satisfying (1) $A_1(x)=\sum_{a_i\in A_1,\,a_i\le x}1<cx^{1/2}$, with the
 question of improving (1) left open. [Er80], pp. 104--105, writes that "Ewing
 conjectured" the existence of an infinite sequence $a_1<\cdots$ with all sums
@@ -265,7 +265,7 @@ $[4^{k/3},4^{(k+1)/3})$ over $k$ in one residue class modulo $3$ and has
 positive upper density, while Hindman's $A_0$ has density $0$ (p. 23); both are
 interval partitions in which doubling moves every cell (an observation made
 here). The coloring by the parity of $v_2(n)$ that the thread proposed appears
-on [Hi79], p. 19, as Hindman's example that his 1974 theorem fails "if one
+on [Hi79], p. 19, as Hindman's example that the 1974 theorem fails "if one
 allows so much as a single repetition", there defeating a pattern that contains
 both $x$ and $2x$.
 

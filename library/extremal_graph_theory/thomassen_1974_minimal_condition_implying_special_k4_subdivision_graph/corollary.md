@@ -2,7 +2,7 @@
 name: extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/corollary
 title: "Corollary (p. 215): a graph with n ≥ 3 vertices and at least 2n−3 edges contains a subdivision of K_4 unless it is a K_3-cockade"
 desc: |
-  Thomassen's corollary of his Theorem that a graph with n at least 3
+  Thomassen's corollary of the paper's Theorem that a graph with n at least 3
   vertices and at least 2n−3 edges contains a subdivision of K_4 unless it is
   a K_3-cockade, a form of Dirac's 1960 theorem on subdivisions of K_4.
 created: 2026-10-08T15:09:19Z

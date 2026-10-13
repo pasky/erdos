@@ -137,7 +137,7 @@ restated:
   The editor's remark points to 86:18 above, notes that a deficient
   binomial coefficient $\binom{n+k}k$ must have $n+k\ge g(k)$, and reports
   that Lacampagne later wrote that Erdős had proved $g(k)>ck^2/\ln k$ for
-  large $k$ and that Granville thought he might be able to prove $g(k)$
+  large $k$ and that Granville thought it might be possible to prove $g(k)$
   larger than any power of $k$ for large $k$.
 - 91:04 (Paul Erdős), p. 9: "Let $a_1<a_2<\ldots<a_k\le n$ be a Sidon
   sequence, i.e., all the sums $a_i+a_j$ are distinct. Is it true that

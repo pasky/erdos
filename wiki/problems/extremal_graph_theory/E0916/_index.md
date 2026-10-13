@@ -212,7 +212,7 @@ which carries the four-vertex floor the site's wording lacks (the file's
 statement is the corrected Statement above); no
 `#print axioms` line is in the main file. Since the file declares itself a
 formalization of Thomassen's result, it is a formalization link on
-[[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|his claim page]];
+[[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|its claim page]];
 the catalog does not cite it, nothing was built, and no credit is claimed.
 
 **Search scope.** None of the routes below found a dispute

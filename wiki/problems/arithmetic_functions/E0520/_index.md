@@ -78,7 +78,7 @@ of formal-conjectures, pinned at the file's last change of 2026-09-18:
 `formal_proof` attribute naming `src/latest/ErdosProblems/Erdos520.lean` in
 Boris Alexeev's repository `plby/lean-proofs`, a file whose header declares
 it a formalization by Høystad, with GPT-5.6 Pro and Claude Fable 5, from the
-`v1.1.0` tag of his repository. The file states two theorems,
+`v1.1.0` tag of Høystad's repository. The file states two theorems,
 `normalized_tendsto_zero` (almost surely the normalized sums tend to $0$)
 and `not_erdos_520` (no positive constant is the almost sure limit
 superior), for a model that is exactly the problem's Rademacher model; the
@@ -99,8 +99,8 @@ cover the development's $(\log\log N)^{1/4+\eta}$ bound itself.
 
 The standing is solved and disproved through one accepted full claim, the
 [[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|Høystad claim]],
-on `formalized` evidence: this corpus built the port of his Lean development in
-`plby/lean-proofs`, found the axioms of `not_erdos_520` and
+on `formalized` evidence: this corpus built the port of the claimant's Lean
+development in `plby/lean-proofs`, found the axioms of `not_erdos_520` and
 `normalized_tendsto_zero` to be the three standard ones, matched both to the
 repository's comparator challenge and audited their statements clause by clause
 against the Statement above. The site labels the problem OPEN; its proof-claims tab carries two full claims with no comments, and the community
@@ -132,7 +132,7 @@ labels the problem OPEN and the community database records it open. The linked
 file, `src/latest/ErdosProblems/Erdos520.lean` in Boris Alexeev's repository
 `plby/lean-proofs`, is a 35-line wrapper whose header declares it a
 formalization by Høystad with GPT-5.6 Pro and Claude Fable 5 from the `v1.1.0`
-tag of his repository. It derives two theorems from the development's
+tag of Høystad's repository. It derives two theorems from the development's
 unconditional ones: `normalized_tendsto_zero`, that almost surely
 $|\sum_{m\le N}f(m)|/\sqrt{N\log\log N}\to0$, and `not_erdos_520`, that no
 constant $c>0$ is almost surely the limit superior. Their model is exactly the
