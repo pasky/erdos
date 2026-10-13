@@ -76,5 +76,5 @@ None; the argument is elementary.
   first question, under the upper-density reading the site adopts, is answered
   yes. The paper calls the problem's thread its original communication of the
   result (p. 38). The result is recorded on the claim page
-  [[../wiki/problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|Google DeepMind 2026]],
+  [[../wiki/problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind 2026]],
   which also records the exact-density answer that the linked Lean file proves.

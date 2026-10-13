@@ -64,7 +64,7 @@ basis of order $2$ that no bipartition splits into two self-sumsets with
 bounded gaps. The paper does not address the first question in any density
 reading; the site's commentary credits DeepMind with its answers for upper
 density and for an existing limit, which are on the
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind claim page]].
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|DeepMind claim page]].
 
 **Depends on.** Nothing in this wiki: the construction and its proof are
 self-contained.

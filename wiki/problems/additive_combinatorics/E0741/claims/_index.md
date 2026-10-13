@@ -16,7 +16,7 @@ gives an explicit basis of order $2$ that no bipartition splits into two
 self-sumsets with bounded gaps. This answers the second question yes and is
 accepted.
 
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|2026_03_31_firsching]]: Three Lean proofs found by Google DeepMind's AlphaProof Nexus and posted by
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|2026_03_31_deepmind]]: Three Lean proofs found by Google DeepMind's AlphaProof Nexus and posted by
 Moritz Firsching settle both questions, accepted on the site's credit and in
 a refereed paper. The first question is answered yes for upper density and no
 for an existing limit, and the second is answered yes.
