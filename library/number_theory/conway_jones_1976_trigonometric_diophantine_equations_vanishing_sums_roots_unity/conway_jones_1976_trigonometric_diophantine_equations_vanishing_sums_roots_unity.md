@@ -28,11 +28,11 @@ $$
 x\cos\pi\left(\frac{y}{x^2+2}\right)+(y^2+3x)\tan\pi\left(\frac{3xy}{5y^2-7x}\right)=1
 $$
 
-which do not already arise in the solution of ordinary diophantine equations. Of course it follows from the work of Matijasević [8] that this reduction is not necessarily helpful since arbitrarily hard problems can still arise! Nevertheless we show in the second part of this paper that a detailed consideration of vanishing sums of roots of unity yields a method which is quite practicable in simple cases.
+which do not already arise in the solution of ordinary diophantine equations. Of course it follows from the work of Matijasevič [8] that this reduction is not necessarily helpful since arbitrarily hard problems can still arise! Nevertheless we show in the second part of this paper that a detailed consideration of vanishing sums of roots of unity yields a method which is quite practicable in simple cases.
 
 We are grateful to the referee for drawing our attention to several obscurities and for providing the reference to the important paper of Rédei [9].
 
-**2. Preliminary reductions.** Our problem as stated has a certain artificiality, and is not very well defined, since we have neglected the problems concerned with infinite arguments or values of the trigonometric functions. We proceed at once to strip it of its spurious generality. It is plain that we can suppose all the trigonometric functions to be cosines, since for example we can replace $\tan\pi\theta$ by $\cos\pi(\frac12-\theta)/\cos\pi\theta$, and it is reasonable to interpret ‘zero of $R'$ as ‘zero of the numerator of $R'$, so that we can suppose $R$ to be a polynomial. (Other, perhaps more reasonable, interpretations of this phrase can be accomodated almost as readily — we choose this one to simplify the exposition). If we now replace $2\cos2\pi\theta$ by $e(\theta)+e(-\theta)$, where $e(x)$ denotes $e^{2\pi ix}$, and use the identity $e(x)e(y)=e(x+y)$ we get an equation of the form
+**2. Preliminary reductions.** Our problem as stated has a certain artificiality, and is not very well defined, since we have neglected the problems concerned with infinite arguments or values of the trigonometric functions. We proceed at once to strip it of its spurious generality. It is plain that we can suppose all the trigonometric functions to be cosines, since for example we can replace $\tan\pi\theta$ by $\cos\pi(\frac12-\theta)/\cos\pi\theta$, and it is reasonable to interpret ‘zero of $R$’ as ‘zero of the numerator of $R$’, so that we can suppose $R$ to be a polynomial. (Other, perhaps more reasonable, interpretations of this phrase can be accomodated almost as readily — we choose this one to simplify the exposition). If we now replace $2\cos2\pi\theta$ by $e(\theta)+e(-\theta)$, where $e(x)$ denotes $e^{2\pi ix}$, and use the identity $e(x)e(y)=e(x+y)$ we get an equation of the form
 
 $$
 (1)\qquad X_1e(\Theta_1)+\ldots+X_Ne(\Theta_N)=0
@@ -72,7 +72,7 @@ The reader now appreciates just how artificial our problem was. However several 
 
 **3. The ring of formal sums of roots of unity.** A number of the form $e(\theta)$ with rational $\theta$ is a complex number of finite multiplicative order, or in other words a root of unity. From now on we shall call a complex number satisfying $x^n=1$ an $n$-th root, or just a root when $n$ is immaterial. We call it a *primitive* $n$th root if $n$ is its exact order. The least common order of a set of roots is the least $n$ for which they all satisfy $x^n=1$. Our problem has been reduced to that of finding all linear dependences among roots of unity, and it seems natural to attack it with the following terminology.
 
-Take an infinite dimensional vector space over the rationals, with one basis vector $a$ for each root $\alpha$, and convert it into a ring by writing $a\beta=\gamma$ whenever $\alpha\beta=\gamma$. The elements of this ring we call *formal sums of roots of unity*, or just *formal sums*. The formal sum $S$ involves the root $\alpha$ when the expression for $S$ in terms of the above basis has non-zero coefficient of $a$. The *length* $l(S)$ of $S$ is the number of roots involved in $S$, and its *exponent* $e(S)$ is their least common order. The sum $S$ is called *similar* to $k\cdot aS$ for any root $\alpha$ and any non-zero rational number $k$, and the *reduced exponent* $r(S)$ of $S$ is the least exponent of any sum similar to $S$. If $S$ involves 1 we call it *monic*; its exponent then coincides with its reduced exponent. The *value* $v(S)$ of $S=\sum c_a a$ is of course the complex number $\sum c_a\alpha$, and we call $S$ a *vanishing sum* when $v(S)=0$.
+Take an infinite dimensional vector space over the rationals, with one basis vector $\boldsymbol{\alpha}$ for each root $\alpha$, and convert it into a ring by writing $\boldsymbol{\alpha}\boldsymbol{\beta}=\boldsymbol{\gamma}$ whenever $\alpha\beta=\gamma$. The elements of this ring we call *formal sums of roots of unity*, or just *formal sums*. The formal sum $S$ involves the root $\alpha$ when the expression for $S$ in terms of the above basis has non-zero coefficient of $\boldsymbol{\alpha}$. The *length* $l(S)$ of $S$ is the number of roots involved in $S$, and its *exponent* $e(S)$ is their least common order. The sum $S$ is called *similar* to $k\cdot\boldsymbol{\alpha}S$ for any root $\alpha$ and any non-zero rational number $k$, and the *reduced exponent* $r(S)$ of $S$ is the least exponent of any sum similar to $S$. If $S$ involves 1 we call it *monic*; its exponent then coincides with its reduced exponent. The *value* $v(S)$ of $S=\sum c_\alpha\boldsymbol{\alpha}$ is of course the complex number $\sum c_\alpha\alpha$, and we call $S$ a *vanishing sum* when $v(S)=0$.
 
 We call roots $\alpha,\beta$ equivalent if $\alpha/\beta$ has squarefree order, noting that equivalence is an equivalent relation. If $n=ab$, where $a$ and $b$ are coprime, then any $n$th root $\omega$ factorises as a product of $a$th and $b$th roots $\alpha$ and $\beta$ in a unique way. We write $\alpha=\omega[a]$, $\beta=\omega[b]$. Finally we call a vanishing sum *minimal* if no proper subsum vanishes.
 
@@ -88,7 +88,7 @@ where the $S_i$ are the sums obtained by restricting $S$ to equivalence classes.
 
 In view of Theorem 1 we now restrict our attention to sums involving only roots of squarefree order. Our next theorem gives an exact criterion for such a sum to vanish.
 
-**THEOREM 2.** *Consider $S=\sum c_a a$, where $a$ ranges over all $n$-th roots and $n$ is squarefree, then $S$ vanishes if and only if we have*
+**THEOREM 2.** *Consider $S=\sum c_\alpha\boldsymbol{\alpha}$, where $\alpha$ ranges over all $n$-th roots and $n$ is squarefree, then $S$ vanishes if and only if we have*
 
 $$
 (4)\qquad \sum_{d\mid n}\mu(d)c_{\omega[d]}=0
@@ -98,17 +98,17 @@ for every primitive $n$-th root $\omega$, $\mu$ being the Möbius function.
 
 **Remark.** This theorem appears in Rédei ([9], Satz 3).
 
-**Proof.** Let $a$ be an imprimitive $n$th root, so that the order of $a$ is not divisible by some prime factor $p$ of $n$, and let $\Omega$ be a primitive $p$th root. Then the equation
+**Proof.** Let $\alpha$ be an imprimitive $n$th root, so that the order of $\alpha$ is not divisible by some prime factor $p$ of $n$, and let $\Omega$ be a primitive $p$th root. Then the equation
 
 $$
-a+a\Omega+a\Omega^2+\ldots+a\Omega^{p-1}=0
+\alpha+\alpha\Omega+\alpha\Omega^2+\ldots+\alpha\Omega^{p-1}=0
 $$
 
-enables us to express $a$ as a linear combination of $n$th roots whose orders are strictly larger than that of $a$, and repeating the process, if necessary, we ultimately express $a$ as a linear combination of primitive $n$th roots.
+enables us to express $\alpha$ as a linear combination of $n$th roots whose orders are strictly larger than that of $\alpha$, and repeating the process, if necessary, we ultimately express $\alpha$ as a linear combination of primitive $n$th roots.
 
-But the above equation, considered as an equation of the type $\sum c_\omega\omega=0$ (with many zero coefficients) satisfies the criterion (4), because if $a=\omega[e]$ for some primitive root $\omega$, then $\omega[pe]$ has the form $a\Omega^i$ and only for $d=e$ or $pe$ is $c_{\omega[d]}\neq0$.
+But the above equation, considered as an equation of the type $\sum c_\omega\omega=0$ (with many zero coefficients) satisfies the criterion (4), because if $\alpha=\omega[e]$ for some primitive root $\omega$, then $\omega[pe]$ has the form $\alpha\Omega^i$ and only for $d=e$ or $pe$ is $c_{\omega[d]}\neq0$.
 
-It therefore follows that our criterion for the vanishing of $S$ holds in general if and only if it holds for sums $S$ with $c_a=0$ for all imprimitive $a$. But for such $S$ the criterion merely demands that $c_a=0$ for all the remaining $a$, so that our theorem holds if and only if the primitive $n$th roots are linearly independent over the rationals. However we have just shown that the $\varphi(n)$ primitive $n$th roots span the field they generate, and since this field has degree $\varphi(n)$ they must form a basis for it as a vector space over the rationals, and the result follows.
+It therefore follows that our criterion for the vanishing of $S$ holds in general if and only if it holds for sums $S$ with $c_\alpha=0$ for all imprimitive $\alpha$. But for such $S$ the criterion merely demands that $c_\alpha=0$ for all the remaining $\alpha$, so that our theorem holds if and only if the primitive $n$th roots are linearly independent over the rationals. However we have just shown that the $\varphi(n)$ primitive $n$th roots span the field they generate, and since this field has degree $\varphi(n)$ they must form a basis for it as a vector space over the rationals, and the result follows.
 
 We could also have completed the proof along the same lines as our proof of Theorem 1, using the following lemma.
 
@@ -160,12 +160,12 @@ $$
 \theta_i-s_i=p_i+g(i)/r,
 $$
 
-where $p_i$ is integral and $g(i)\in\{0,1,\ldots,r-1\}$. If we number the equivalence classes by numbers from 1, 2, \ldots, $N$ (at most), and let $f(i)$ be the number of the class containing $e(g(i)/r)$, then we can write $s_i=q_{f(i)}$, obtaining (6).
+where $p_i$ is integral and $g(i)\in\{0,1,\ldots,r-1\}$. If we number the equivalence classes by numbers from 1, 2, \ldots, $N$ (at most), and let $f(i)$ be the number of the class containing $e(\theta_i)$, then we can write $s_i=q_{f(i)}$, obtaining (6).
 
-Now for each pair $f, g$ we must find the conditions the $x_i$ must satisfy to give a solution of (5). For each $r$th root $\omega$, define $e_\omega(k)$ as the sum of all the $x_i$ for which $f(i)=k$ and $e(g(i)/r)=\omega$. Then Theorem 2 shows that the required conditions are simply that
+Now for each pair $f, g$ we must find the conditions the $x_i$ must satisfy to give a solution of (5). For each $r$th root $\omega$, define $c_\omega(k)$ as the sum of all the $x_i$ for which $f(i)=k$ and $e(g(i)/r)=\omega$. Then Theorem 2 shows that the required conditions are simply that
 
 $$
-\sum_{d\mid r}\mu(d)e_{\omega[d]}(k)=0
+\sum_{d\mid r}\mu(d)c_{\omega[d]}(k)=0
 $$
 
 for each primitive $r$th root $\omega$ and each $k\in\{1,\ldots,N\}$. Since these are linear conditions on the $x_i$, we can express their general solution in the form (7), thereby proving the theorem.
@@ -176,7 +176,7 @@ This also completes the proof of our assertion that trigonometric diophantine eq
 
 $$
 S=\begin{vmatrix}
-\mathbf{1} & a & a^2\\
+\mathbf{1} & \alpha & \alpha^2\\
 \mathbf{1} & \beta+\beta^2 & \beta^3+\beta^4\\
 \mathbf{1}+\gamma & \gamma^2+\gamma^3 & \gamma^4+\gamma^5+\gamma^6
 \end{vmatrix}
@@ -196,7 +196,7 @@ $$
 l(S')\leq l(S),\quad r(S')<r(S),\quad l(S'')<l(S),\quad r(S'')\leq r(S).
 $$
 
-**Proof.** We suppose $S$ monic, so that $r(S)=e(S)=r$, say, and after Theorem 1 we can suppose $r$ squarefree. If $r$ is prime Lemma 1 proves that $S$ is similar to $\mathbf{1}+\omega+\cdots+\omega^{r-1}$, $\omega$ a primitive $r$th root, so that we suppose $r$ composite. If now every $r$th root is involved in $S$, we can take $S'$ as $a\mathbf{1}+a\omega+\cdots+a\omega^{p-1}$ and $S''$ as $S-S'$, where $\omega$ is a primitive $p$th root for some $p\mid r$, and $a$ is the coefficient of $\mathbf{1}$ in $S$. Then
+**Proof.** We suppose $S$ monic, so that $r(S)=e(S)=r$, say, and after Theorem 1 we can suppose $r$ squarefree. If $r$ is prime Lemma 1 proves that $S$ is similar to $\mathbf{1}+\omega+\cdots+\omega^{p-1}$, $\omega$ a primitive $r$th root, so that we suppose $r$ composite. If now every $r$th root is involved in $S$, we can take $S'$ as $a\mathbf{1}+a\omega+\cdots+a\omega^{p-1}$ and $S''$ as $S-S'$, where $\omega$ is a primitive $p$th root for some $p\mid r$, and $a$ is the coefficient of $\mathbf{1}$ in $S$. Then
 
 $$
 l(S')=r(S')=p<r=r(S)=l(S)
@@ -208,7 +208,7 @@ $$
 \mathbf{1}S_0+\omega S_1+\cdots+\omega^{p-1}S_{p-1},
 $$
 
-in which the exponent of each $S_i$ divides $r/p$ and $\omega$ is a primitive $p$th root, then Lemma 1 shows that the value of the $S_i$ are all equal. But since $p\nmid l(S)$ their lengths cannot all be equal. We let $S_i$ have the minimal length, and suppose $l(S_i)<l(S_j)$. Then we can take $S'$ as $(S_j-S_i)\omega^i$, when $S''$ will be the sum obtained from $S$ by replacing $S_j$ by $S_i$. We then have
+in which the exponent of each $S_i$ divides $r/p$ and $\omega$ is a primitive $p$th root, then Lemma 1 shows that the value of the $S_i$ are all equal. But since $p\nmid l(S)$ their lengths cannot all be equal. We let $S_i$ have the minimal length, and suppose $l(S_i)<l(S_j)$. Then we can take $S'$ as $(S_j-S_i)\omega^j$, when $S''$ will be the sum obtained from $S$ by replacing $S_j$ by $S_i$. We then have
 
 $$
 l(S')\leq l(S_i)+l(S_j)\leq l(S)
@@ -236,11 +236,11 @@ $$
 
 This is an immediate corollary of the following lemma.
 
-**LEMMA 2.** Let $S$ be a vanishing sum of the form $\sum S_a a$, where $a$ ranges over all the $r$-th roots, and the $S_a$ are sums with exponents coprime to $r$. Then either there is a divisor $d$ of $r$ with $d>1$ such that for each $d$-th root $\omega$ the sum vanishes when restricted to the $a$ with $a[d]=\omega$ (when we call it $d$-splitting) or the number of non-vanishing $S_a$ is at least $f(r)$.
+**LEMMA 2.** Let $S$ be a vanishing sum of the form $\sum S_\alpha\boldsymbol{\alpha}$, where $\alpha$ ranges over all the $r$-th roots, and the $S_\alpha$ are sums with exponents coprime to $r$. Then either there is a divisor $d$ of $r$ with $d>1$ such that for each $d$-th root $\omega$ the sum vanishes when restricted to the $\alpha$ with $\alpha[d]=\omega$ (when we call it $d$-splitting) or the number of non-vanishing $S_\alpha$ is at least $f(r)$.
 
 Remark. For $d=1$ $d$-splitting means that the sum $S$ is a vanishing sum, and $r$-splitting means that each term of the sum is zero.
 
-**Proof.** We suppose $S$ is not $d$-splitting for any $d<r$. It does not affect the lemma to suppose also that any two $S_a$ which have the same value are identical. For any divisor $d$ of $r$ we can express $S$ in the form
+**Proof.** We suppose $S$ is not $d$-splitting for any $d<r$. It does not affect the lemma to suppose also that any two $S_\alpha$ which have the same value are identical. For any divisor $d$ of $r$ we can express $S$ in the form
 
 $$
 S_0+\omega S_1+\cdots+\omega^{d^*-1}S_{d^*-1}
@@ -272,7 +272,7 @@ $$
 S_i=\varepsilon_i(1+\omega_i+\dots+\omega_i^{p_i-1}),
 $$
 
-where $\omega_i$ is a primitive $p_i$th root, $\varepsilon_i$ is an arbitrary root and $\varepsilon_{i+1}$ is chosen so that one of the terms of $S_{i+1}$ is the negative of some term in $S_1+\dots+S_i$. It is an interesting exercise to show (by considering when equality holds in the proof of the theorem) that this is in fact the most general example for which the bound is exactly attained.
+where $\omega_i$ is a primitive $p_i$th root, $\varepsilon_1$ is an arbitrary root and $\varepsilon_{i+1}$ is chosen so that one of the terms of $S_{i+1}$ is the negative of some term in $S_1+\dots+S_i$. It is an interesting exercise to show (by considering when equality holds in the proof of the theorem) that this is in fact the most general example for which the bound is exactly attained.
 
 Our Theorem 5 improves a similar result of Mann ([7], Theorem 1). We can also readily deduce the following
 
@@ -288,20 +288,20 @@ The proof is routine and we suppress it, but the corollary is worth mentioning b
 
 Professor Schinzel remarked, upon seeing an earlier draft of this paper, that an immediate consequence is that, for squarefree $n$, the number of non-vanishing coefficients in the $n$th cyclotomic polynomial is $\gg(\log n)^2/\log\log n$. An interesting problem in its own right would be to substantially improve this estimate.
 
-**5. Vanishing sums of small length.** According to our previous definitions formal sums such as $1+a+a^2$ and $1-(-a)+a^2$ are unequal, but from now on we intend to regard them as identical. This is equivalent to replacing our original ring of formal sums of roots of unity by a new one obtained by adding relations $-(-\omega)=\omega$ for all roots $\omega$.
+**5. Vanishing sums of small length.** According to our previous definitions formal sums such as $1+\alpha+\alpha^2$ and $1-(-\alpha)+\alpha^2$ are unequal, but from now on we intend to regard them as identical. This is equivalent to replacing our original ring of formal sums of roots of unity by a new one obtained by adding relations $-(-\omega)=\omega$ for all roots $\omega$.
 
-**THEOREM 6.** Let $S$ be a non-empty$^{(1)}$ vanishing sum of length at most 9. Then either $S$ involves $\theta$, $a\theta$, $a^2\theta$ for some root $\theta$, or $S$ is similar to one of
+**THEOREM 6.** Let $S$ be a non-empty$^{(1)}$ vanishing sum of length at most 9. Then either $S$ involves $\theta$, $\alpha\theta$, $\alpha^2\theta$ for some root $\theta$, or $S$ is similar to one of
 
 $$
 \begin{aligned}
-1+\beta+\beta^2+\beta^3+\beta^4, &\quad -a-a^2+\beta+\beta^2+\beta^3+\beta^4,\\
-1+\gamma+\gamma^2+\gamma^3+\gamma^4+\gamma^5+\gamma^6, &\quad 1+\beta+\beta^4-(a+a^2)(\beta^2+\beta^3),\\
--a-a^2+\gamma+\gamma^2+\gamma^3+\gamma^4+\gamma^5+\gamma^6, &\quad \beta+\beta^4-(a+a^2)(1+\beta^2+\beta^3),\\
-1+\gamma^2+\gamma^3+\gamma^4+\gamma^5-(a+a^2)(\gamma+\gamma^6), &\quad 1-(a+a^2)(\beta+\beta^2+\beta^3+\beta^4),
+1+\beta+\beta^2+\beta^3+\beta^4, &\quad -\alpha-\alpha^2+\beta+\beta^2+\beta^3+\beta^4,\\
+1+\gamma+\gamma^2+\gamma^3+\gamma^4+\gamma^5+\gamma^6, &\quad 1+\beta+\beta^4-(\alpha+\alpha^2)(\beta^2+\beta^3),\\
+-\alpha-\alpha^2+\gamma+\gamma^2+\gamma^3+\gamma^4+\gamma^5+\gamma^6, &\quad \beta+\beta^4-(\alpha+\alpha^2)(1+\beta^2+\beta^3),\\
+1+\gamma^2+\gamma^3+\gamma^4+\gamma^5-(\alpha+\alpha^2)(\gamma+\gamma^6), &\quad 1-(\alpha+\alpha^2)(\beta+\beta^2+\beta^3+\beta^4),
 \end{aligned}
 $$
 
-where $a$, $\beta$, $\gamma$ are primitive roots of orders 3, 5, 7 respectively.
+where $\alpha$, $\beta$, $\gamma$ are primitive roots of orders 3, 5, 7 respectively.
 
 **Proof.** Suppose that $S$ is minimal. In this case we can further suppose its exponent is squarefree and, using the remark before the theorem, also odd. Let $p$ be the largest prime divisor of $e(S)$ so that by Theorem 5 $p\leq7$. Express $S$ as
 
@@ -309,15 +309,15 @@ $$
 S_0+\omega S_1+\dots+\omega^{p-1}S_{p-1},
 $$
 
-where $\omega$ is a primitive $p$th root and the $S_i$ have exponents prime to $p$. If $p=3$, then $S$ can involve only $1$, $a$, $a^2$, and so must be $1+a+a^2$. If $p\geq5$ however, some $S_i$ has at most one term (otherwise $l(S)\geq2p\geq10$). Since the $S_i$ have the same value, by Lemma 1, no $S_i$ has value zero, and we can suppose without loss of generality that $S_0=1$. All the $S_i$ have therefore the value 1.
+where $\omega$ is a primitive $p$th root and the $S_i$ have exponents prime to $p$. If $p=3$, then $S$ can involve only $1$, $\alpha$, $\alpha^2$, and so must be $1+\alpha+\alpha^2$. If $p\geq5$ however, some $S_i$ has at most one term (otherwise $l(S)\geq2p\geq10$). Since the $S_i$ have the same value, by Lemma 1, no $S_i$ has value zero, and we can suppose without loss of generality that $S_0=1$. All the $S_i$ have therefore the value 1.
 
-Now if some $S_i\ne1$, $1-S_i$ is a vanishing sum of exponent prime to $p$, and this exponent must be 3, for otherwise we should obtain $35\mid e(S)$, contradicting Theorem 5. It follows that $1-S_i=k\delta(1+a+a^2)$ for some rational $k$ and root $\delta$. Now if $k\delta\ne1$, $S$ involves $\delta\omega^i$, $a\delta\omega^i$, $a^2\delta\omega^i$, and if $k\delta=1$ then $S_i=-a-a^2$. But any case in which $S_i$ is either 1 or
+Now if some $S_i\ne1$, $1-S_i$ is a vanishing sum of exponent prime to $p$, and this exponent must be 3, for otherwise we should obtain $35\mid e(S)$, contradicting Theorem 5. It follows that $1-S_i=k\delta(1+\alpha+\alpha^2)$ for some rational $k$ and root $\delta$. Now if $k\delta\ne1$, $S$ involves $\delta\omega^i$, $\alpha\delta\omega^i$, $\alpha^2\delta\omega^i$, and if $k\delta=1$ then $S_i=-\alpha-\alpha^2$. But any case in which $S_i$ is either 1 or
 
 (1) Under the new rules sums such as $1+i^2=1-1=0$ are the empty sum.
 
-$-a-a^2$ and $l(S)\leq 9$ is readily seen to be similar to one from the displayed list.
+$-\alpha-\alpha^2$ and $l(S)\leq 9$ is readily seen to be similar to one from the displayed list.
 
-Finally, if $S$ is not minimal, any minimal subsum of $S$ has already been shown to satisfy the theorem. However one such subsum has at most 4 terms, hence it, and *a fortiori* $S$ itself, must involve, $\theta$, $a\theta$, $a^2\theta$ for some root $\theta$.
+Finally, if $S$ is not minimal, any minimal subsum of $S$ has already been shown to satisfy the theorem. However one such subsum has at most 4 terms, hence it, and *a fortiori* $S$ itself, must involve, $\theta$, $\alpha\theta$, $\alpha^2\theta$ for some root $\theta$.
 
 ### 6. Rational sums of cosines of rational angles. We can now use Theorem 6 to find the complete solution of the equation
 
@@ -346,9 +346,9 @@ $$
 
 This generalizes the result of Włodarski [11].
 
-**Proof.** On replacing $2\cos2\pi a$ by $e(a)+e(-a)$ we obtain a non-empty vanishing sum $S$ of roots of unity with at most 9 terms. Conversely from such a vanishing sum in which each root appears with the same coefficient as its complex conjugate we obtain a rational linear combination of at most four cosines in which we can normalize the angles to the range $[0,\pi/2)$.
+**Proof.** On replacing $2\cos2\pi x$ by $e(x)+e(-x)$ we obtain a non-empty vanishing sum $S$ of roots of unity with at most 9 terms. Conversely from such a vanishing sum in which each root appears with the same coefficient as its complex conjugate we obtain a rational linear combination of at most four cosines in which we can normalize the angles to the range $[0,\pi/2)$.
 
-We now apply Theorem 6. If $\theta$, $a\theta$, $a^2\theta$ are all involved we have two cases. Firstly if $e^{i\pi a}$ and $e^{-i\pi a}$ are two of the corresponding three terms, or if one of them is the constant term, we obtain a equation which normalizes to $\cos\pi/3=\frac{1}{2}$. In the second case $\theta$, $a\theta$, $a^2\theta$ correspond to terms from three distinct cosines for which the normalized angles satisfy the second equation on our list.
+We now apply Theorem 6. If $\theta$, $\alpha\theta$, $\alpha^2\theta$ are all involved we have two cases. Firstly if $e^{i\pi x}$ and $e^{-i\pi x}$ are two of the corresponding three terms, or if one of them is the constant term, we obtain a equation which normalizes to $\cos\pi/3=\frac{1}{2}$. In the second case $\theta$, $\alpha\theta$, $\alpha^2\theta$ correspond to terms from three distinct cosines for which the normalized angles satisfy the second equation on our list.
 
 Otherwise the sum is similar to one of those displayed in Theorem 6 and, since each root appears as often as its complex conjugate, we may suppose it is exactly one of these listed. Taking all possibilities for the primitive roots involved, and normalizing the resulting angles, we obtain the results quoted, together with a few cases in which partial sums are linearly dependent on some of the above list.
 
@@ -392,9 +392,9 @@ References
 
 [1] H. S. M. Coxeter, *Regular polytopes*, Methuen 1948.
 
-[2] W. J. R. Crosby, *Solution to problem 4136*, Amer. Math. Monthly 53 (1948), pp. 103–107.
+[2] W. J. R. Crosby, *Solution to problem 4136*, Amer. Math. Monthly 53 (1946), pp. 103–107.
 
-[3] M. Dehn, *Über den Rauminhalt*, Math. Ann. 55 (1902), pp. 465–478; Göttingen Nachr. Math. Phys. 1900, pp. 345–354.
+[3] M. Dehn, *Über den Rauminhalt*, Math. Ann. 55 (1902), pp. 465–478; Gottingen Nachr. Math. Phys. 1900, pp. 345–354.
 
 [4] M. Goldberg, *Two more tetrahedra equivalent to cubes by dissection*, Elemente der Math. 24 (1969), pp. 130–132; 25 (1970), p. 48.
 
@@ -410,7 +410,7 @@ References
 
 [10] A. Schinzel, *On sums of roots of unity*, Acta Arith. 11 (1966), pp. 419–432.
 
-[11] L. Włodarski, *On the equation $\cos a_1+\cos a_2+\cos a_3+\cos a_4=0$*, Ann. Univ. Budapestiniensis 12 (1969), pp. 147–155.
+[11] L. Włodarski, *On the equation $\cos\alpha_1+\cos\alpha_2+\cos\alpha_3+\cos\alpha_4=0$*, Ann. Univ. Budapestiniensis 12 (1969), pp. 147–155.
 
 D. P. M. M. S.  
 Cambridge, England
@@ -430,16 +430,16 @@ RIHO TERRAS (Del Mar, Calif.)
 Define a function $X$ on the natural numbers $N=\{0,1,2,\ldots\}$ by setting $X(n)=1$ when $n$ is odd and $X(n)=0$ when $n$ is even. Now define a function $T$ mapping $N$ into itself by setting
 
 $$
-T_n=(3^{X(n)}n+X(n))/2.
+Tn=(3^{X(n)}n+X(n))/2.
 $$
 
-Note that if $n$ is odd then $T_n=(3n+1)/2$ else $T_n=n/2$. Given an $n\in N$ the number $T_n$ is to be regarded as a successor to $n$. We shall be interested in analyzing the successor function $T$ when it is applied iteratively to $n$.
+Note that if $n$ is odd then $Tn=(3n+1)/2$ else $Tn=n/2$. Given an $n\in N$ the number $Tn$ is to be regarded as a successor to $n$. We shall be interested in analyzing the successor function $T$ when it is applied iteratively to $n$.
 
-Before describing the principal result it will be convenient to introduce some additional notation. Set $T^0$ to be the identity function on $N$. If $T^k$ has been defined then define $T^{k+1}$ by setting $T^{k+1}_n=T(T^k_n)$.
+Before describing the principal result it will be convenient to introduce some additional notation. Set $T^0$ to be the identity function on $N$. If $T^k$ has been defined then define $T^{k+1}$ by setting $T^{k+1}n=T(T^kn)$.
 
-**DEFINITION 0.1.** Set $\chi(n)=k$ if $k$ is the smallest positive integer such that $T^k_n=\infty$. If no such integer exists set $\chi(n)=\infty$. The number $\chi(n)$ will be called the stopping time of $n$.
+**DEFINITION 0.1.** Set $\chi(n)=k$ if $k$ is the smallest positive integer such that $T^kn<n$. If no such integer exists set $\chi(n)=\infty$. The number $\chi(n)$ will be called the stopping time of $n$.
 
-Observe that $\chi(0)=\chi(1)=\infty$. The conjecture concerning $\chi$ is that $\chi(n)$ is finite for all $n\geq2$. It is easy to see that this conjecture is true if and only if for every integer $n\geq2$ there exists a positive integer $k$ such that $T^k_n=1$. In this guise the problem has fascinated computer scientists [3] and has also circulated in popular mathematics circles [1]. In mathematical circles this problem is frequently referred to as the Collatz-Kakutani problem.
+Observe that $\chi(0)=\chi(1)=\infty$. The conjecture concerning $\chi$ is that $\chi(n)$ is finite for all $n\geq2$. It is easy to see that this conjecture is true if and only if for every integer $n\geq2$ there exists a positive integer $k$ such that $T^kn=1$. In this guise the problem has fascinated computer scientists [3] and has also circulated in popular mathematics circles [1]. In mathematical circles this problem is frequently referred to as the Collatz-Kakutani problem.
 
 The principal result of this paper touching on this problem is the demonstration that $\chi$ possesses a well defined distribution function
 

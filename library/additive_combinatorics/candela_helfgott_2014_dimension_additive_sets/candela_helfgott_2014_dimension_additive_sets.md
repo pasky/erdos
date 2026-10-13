@@ -6,7 +6,7 @@ P. CANDELA (Budapest) and H. A. HELFGOTT (Paris)
 
 **1. Introduction.** Let $A$ be an additive set, that is, a finite subset of an abelian group. A *subset sum* of $A$ is a sum of the form $\sum_{a\in A'} a$ for some set $A'\subset A$. By a $[-1,1]$-combination of $A$ we mean a sum $\sum_{a\in A}\varepsilon_a a$ with coefficients $\varepsilon_a$ lying in $[-1,1]=\{-1,0,1\}$.
 
-**DEFINITION 1.1.** A subset $D$ of an abelian group is said to be *dissociated* if the subset sums of $D$ are pairwise distinct; equivalently, the only $[-1,1]$-combination of $D$ that equals $0$ is the one with all coefficients equal to $0$. We say that $D$ is a *maximal* dissociated subset of $A$ if there is no dissociated set $D'\subset A$ such that $D'\supseteq D$.
+**DEFINITION 1.1.** A subset $D$ of an abelian group is said to be *dissociated* if the subset sums of $D$ are pairwise distinct; equivalently, the only $[-1,1]$-combination of $D$ that equals $0$ is the one with all coefficients equal to $0$. We say that $D$ is a *maximal* dissociated subset of $A$ if there is no dissociated set $D'\subset A$ such that $D'\supsetneq D$.
 
 Dissociativity plays an important role in additive combinatorics and harmonic analysis; see [7] and [10, §4.5]. In particular, it provides an analogue, in the setting of general abelian groups, of the concept of linear independence from linear algebra, and it is often used to define a notion of dimension for an additive set. For a recent instance, in the work of Schoen and Shkredov [9] the term ‘additive dimension of $A$’ is used for the maximal cardinality of a dissociated subset of $A$. We shall call this quantity the dissociativity dimension.
 

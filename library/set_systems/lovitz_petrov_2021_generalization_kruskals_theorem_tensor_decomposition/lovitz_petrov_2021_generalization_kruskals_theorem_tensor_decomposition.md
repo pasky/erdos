@@ -130,7 +130,7 @@ For $m \geq 4$, Kruskal’s theorem can be “reshaped” by regarding multiple 
 
 We now state our splitting theorem, which we use in Section 5 to prove our generalization of Kruskal’s theorem, and in Sections 7, 8, and 9 to obtain further results on tensor decompositions. We first require a definition.
 
-**Definition 3.** Let $n \geq 2$ be an integer, and let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$. We say that a multiset of non-zero vectors $\{v_1, \ldots, v_n\} \subseteq \mathcal{V} \setminus \{0\}$ splits, or is *disconnected*, if there exists a subset $S \subset \{v_1, \ldots, v_n\}$ with $1 \leq |S| \leq n - 1$ for which
+**Definition 3.** Let $n \geq 2$ be an integer, and let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$. We say that a multiset of non-zero vectors $\{v_1, \ldots, v_n\} \subseteq \mathcal{V} \setminus \{0\}$ splits, or is *disconnected*, if there exists a subset $S \subseteq \{v_1, \ldots, v_n\}$ with $1 \leq |S| \leq n - 1$ for which
 
 $$\operatorname{span}\{v_1, \ldots, v_n\} = \operatorname{span}(S) \oplus \operatorname{span}(S^c),$$
 
@@ -182,7 +182,7 @@ In Section 7.2 we prove further uniqueness results for non-rank decompositions o
 
 In Section 9.2 we identify two potential applications of our uniqueness results for non-rank decompositions: First, they allow us to define a natural hierarchy of tensors in terms of “how unique” their decompositions are. Second, any uniqueness result for non-rank decompositions can be turned around to produce a result in the more standard setting, in which one starts with a decomposition into $n$ terms, and wants to control the possible decompositions into fewer than $n$ terms.
 
-From the proof sketch of our generalization of Kruskal’s theorem that appears at the end of the previous subsection, it is easy to surmise that if $\sum_{a\in[n]} x_a = \sum_{a\in[r]} y_a$, and $2n \leq \sum_{j=1}^m (d_j^{[n]} - 1) + 1$, then there exist non-trivial subsets $Q \subseteq [n]$ and $R \subseteq [r]$ for which $\sum_{a\in Q} x_a = \sum_{a\in R} y_a$. This conclusion can be viewed as an extremely weakened form of uniqueness, and it is natural to ask what statements can be made for notions of uniqueness in between the standard one and this weakened one. We answer this question in Sections 7.1 and 7.2.
+From the proof sketch of our generalization of Kruskal’s theorem that appears at the end of the previous subsection, it is easy to surmise that if $\sum_{a\in[n]} x_a = \sum_{a\in[r]} y_a$, and $2n \leq \sum_{j=1}^m (d_j^{[n]} - 1) + 1$, then there exist non-trvial subsets $Q \subseteq [n]$ and $R \subseteq [r]$ for which $\sum_{a\in Q} x_a = \sum_{a\in R} y_a$. This conclusion can be viewed as an extremely weakened form of uniqueness, and it is natural to ask what statements can be made for notions of uniqueness in between the standard one and this weakened one. We answer this question in Sections 7.1 and 7.2.
 
 We say that a set of non-zero vectors forms a *circuit* if it is linearly dependent and any proper subset is linearly independent. As a special case of our splitting theorem, in Corollary 21 we obtain an upper bound on the number of subsystems $j \in [m]$ for which a circuit of product tensors can have $d_j \geq 2$. This improves recent bounds obtained in [BBCG18, Bal20], and is sharp.
 
@@ -406,7 +406,7 @@ completing the proof. $\triangle$
 
 Now we prove Claim 9.
 
-*Proof of Claim 9.* Let $B \subseteq E_{p-1}$ be such that $\{x_a : a \in B\}$ is a basis for $\operatorname{span}\{x_a : a \in E_{p-1}\}$. By permuting $[n]$, we may assume that $E_p \setminus E_{p-1} = [q]$ for some $q \in [n]$, and that $B \cup \{x_a : a \in [s]\}$ is a basis for $\operatorname{span}\{x_a : a \in E_p\}$, where $s = d_1^{E_p} - d_1^{E_{p-1}}$. If there exists $b \in [s]$ for which $y_b \notin \operatorname{span}\{y_a : a \in [q] \setminus [s]\}$, then, as in the proof of Claim 8,
+*Proof of Claim 9.* Let $B \subseteq E_{p-1}$ be such that $\{x_a : a \in B\}$ is a basis for $\operatorname{span}\{x_a : a \in E_{p-1}\}$. By permuting $[n]$, we may assume that $E_p \setminus E_{p-1} = [q]$ for some $q \in [n]$, and that $B \cup \{x_a : a \in [s]\}$ is a basis for $\operatorname{span}\{x_a : a \in E_p\}$, where $s = d^{E_p} - d^{E_{p-1}}$. If there exists $b \in [s]$ for which $y_b \notin \operatorname{span}\{y_a : a \in [q] \setminus [s]\}$, then, as in the proof of Claim 8,
 
 $$
 x_b \otimes y_b \notin \operatorname{span}\{x_a \otimes y_a : a \in E_p \setminus \{b\}\}.
@@ -1284,7 +1284,7 @@ The first line is obvious, the second follows from (33) and the fact that every 
 
 Theorem 32 immediately implies the following uniqueness result for non-Waring rank decompositions.
 
-**Corollary 33** (Uniqueness result for non-Waring rank decompositions). *Let $n \geq 2$ and $m \geq 2$ be integers, let $\mathcal{V}$ be a vector space over a field $\mathbb{F}$ with $\operatorname{Char}(\mathbb{F}) = 0$ or $\operatorname{Char}(\mathbb{F}) > m$, let $\{v_a : a \in [n]\} \subseteq \mathcal{V} \setminus \{0\}$ be a multiset of non-zero vectors with $\operatorname{k-rank}(v_a : a \in [n]) \geq 2$, let $\{\alpha_a : a \in [n]\} \subseteq \mathbb{F}^\times$ be a multiset of non-zero scalars, and let $d = \dim \operatorname{span}\{v_a : a \in [n]\}$. If*
+**Corollary 33** (Uniqueness result for non-Waring rank decompositions). *Let $n \geq 2$ and $m \geq 2$ be integers, let $\mathcal{W}$ be a vector space over a field $\mathbb{F}$ with $\operatorname{Char}(\mathbb{F}) = 0$ or $\operatorname{Char}(\mathbb{F}) > m$, let $\{v_a : a \in [n]\} \subseteq \mathcal{W} \setminus \{0\}$ be a multiset of non-zero vectors with $\operatorname{k-rank}(v_a : a \in [n]) \geq 2$, let $\{\alpha_a : a \in [n]\} \subseteq \mathbb{F}^\times$ be a multiset of non-zero scalars, and let $d = \dim \operatorname{span}\{v_a : a \in [n]\}$. If*
 
 $$
 2n + 1 \leq m + 2d - 2,
@@ -1375,7 +1375,7 @@ $$
 F = \{v_a : a \in [m]\} \sqcup \{v_a : a \in [d + m] \setminus [m + 2]\} \sqcup \left\{\sum_{a \in [k]} v_a\right\}.
 $$
 
-Here, $|E| + |F| = 2d + m$, exceeding our lower bound by 2. When $k = d$, take the same multisets $E$ and $F$, with $\sum_{a \in [d]} v_a$ removed, to observe that our bound is sharp under the choice $n = d$ and $r = m + d - 2$. Note that the k-rank is brought down to $k$ because of a single vector in the multiset. This is a concrete demonstration of the fact that the k-rank is a very crude measure of genericity. We emphasize that this construction relies on the particular choice of parameters $n = d + 1$, and $r = m + d - 1$. It is possible that the inequality (32) could be significantly strengthened for other choices of $n$ and $r$. Indeed, we have exhibited such an improvement for $r \leq n$ in Corollary 31.
+Here, $|E| + |F| = 2d + m$, exceeding our lower bound by 2. When $k = d$, take the same multisets $E$ and $F$, with $\sum_{a \in [d]} v_a$ removed, to observe that our bound is sharp under the choice $n = d$ and $r = m + d - 2$. Note that the k-rank is brought down to $k$ because of a single vector in the multiset. This is a concrete demonstration of the fact that the k-rank is a very crude measure of genericity. We emphasize that this construction relies on the particular choice of parameters $n = d + 1$, and $r = m + d - 1$. It is possible that the inequality (32) could be significantly stengthened for other choices of $n$ and $r$. Indeed, we have exhibited such an improvement for $r \leq n$ in Corollary 31.
 
 ## 9.2 Applications of non-rank uniqueness results
 
@@ -1566,7 +1566,7 @@ $$X_1^\tau=(x_{\tau(1),1},\ldots,x_{\tau(n),n})$$
 
 has reduced row echelon form
 
-$$\gamma=\left[\begin{array}{c|c}
+$$Y=\left[\begin{array}{c|c}
 \begin{matrix}1&&\\&\ddots&\\&&1\end{matrix}&Z
 \end{array}\right],$$
 
@@ -1622,7 +1622,7 @@ $$
 \{y_a : a \in [r]\} \subseteq \operatorname{Prod}(\mathcal{V}_1 : \mathcal{V}_2 : \mathcal{V}_3).
 $$
 
-By Proposition 4.3 in [DL13a] (or rather, the extension of this result to an arbitrary field), $r = n$, and there exists a permutation $\sigma \in S_n$ and nonnegative integers $\alpha_1, \ldots, \alpha_n \in \mathbb{F}^\times$ such that $\alpha_a x_{a,1} = y_{\sigma(a),1}$ for all $a \in [n]$. Let $\Pi_1 \in L(\mathcal{V}_1)$ be any operator for which $\ker(\Pi_1) = \operatorname{span}\{x_{a,1}\}$ and (37) holds (recall that $\tau$ is trivial). Then
+By Proposition 4.3 in [DL13a] (or rather, the extension of this result to an arbitrary field), $r = n$, and there exists a permutation $\sigma \in S_n$ and nonegative integers $\alpha_1, \ldots, \alpha_n \in \mathbb{F}^\times$ such that $\alpha_a x_{a,1} = y_{\sigma(a),1}$ for all $a \in [n]$. Let $\Pi_1 \in L(\mathcal{V}_1)$ be any operator for which $\ker(\Pi_1) = \operatorname{span}\{x_{a,1}\}$ and (37) holds (recall that $\tau$ is trivial). Then
 
 $$
 \sum_{a \in [n] \setminus \{1\}} (\Pi_1 x_{a,1}) \otimes x_{a,2} \otimes x_{a,3}

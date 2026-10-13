@@ -5,7 +5,7 @@ BY
 K. J. HARRISON (MURDOCH, WESTERN AUSTRALIA) AND  
 L. THOMAS RAMSEY (HONOLULU, HAWAII)
 
-Sidon subsets have been characterized by Pisier as having proportional quasi-independent subsets [8]. There remains the open problem of whether Sidon subsets of $\mathbb{Z}$ must be finite unions of quasi-independent sets. Grow and Whicher produced an interesting example of a Sidon set whose Pisier proportionality was $1/2$ but the set was not the union of two quasi-independent sets [3]. On the other hand, the present paper provides probabilistic evidence in favor of an affirmative answer with a construction of random Sidon sets which borrows heavily from ideas of Professors Katznelson and Malliavin [6, 4, 5]. Katznelson provided a random construction of integer Sidon sets which, almost surely, were not dense in the Bohr compactification of the integers [4, 5]. This paper presents a modification of that construction and emphasizes a stronger conclusion which is implicit in the earlier construction: almost surely, the random sets are finite unions of quasi-independent sets (also of $N$-independent sets, defined below). In this paper, random subsets of size $O(\log n_j)$ are chosen from disjoint arithmetic progressions of length $n_j$ (the maximum density allowed for a Sidon set), with $n_j \to \infty$ fast enough and the progressions rapidly dilated as $j \to \infty$.
+Sidon subsets have been characterized by Pisier as having proportional quasi-independent subsets [8]. There remains the open problem of whether Sidon subsets of $\mathbb{Z}$ must be finite unions of quasi-independent sets. Grow and Whicher produced an interesting example of a Sidon set whose Pisier proportionality was $1/2$ but the set was not the union of two quasi-independent sets [3]. On the other hand, the present paper provides probabilistic evidence in favor of an affirmative answer with a construction of random Sidon sets which borrows heavily from ideas of Professors Katznelson and Malliavin [6, 4, 5]. Katznelson provided a random construction of integer Sidon sets which, almost surely, were not dense in the Bohr compactifaction of the integers [4, 5]. This paper presents a modification of that construction and emphasizes a stronger conclusion which is implicit in the earlier construction: almost surely, the random sets are finite unions of quasi-independent sets (also of $N$-independent sets, defined below). In this paper, random subsets of size $O(\log n_j)$ are chosen from disjoint arithmetic progressions of length $n_j$ (the maximum density allowed for a Sidon set), with $n_j \to \infty$ fast enough and the progressions rapidly dilated as $j \to \infty$.
 
 This paper concludes with several deterministic results. If every Sidon subset of $\mathbb{Z} \setminus \{0\}$ is a finite union of quasi-independent sets, then the required number of quasi-independent sets is bounded by a function of the Sidon constant. Analogs of this result are proved for all Abelian groups, and for other special Sidon sets (the $N$-independent sets). Throughout this paper, unspecified variables denote positive integers.
 
@@ -239,13 +239,13 @@ where $C = 8N(1-\lambda)K$. $\blacksquare$
 
 **The efficiency of the proof.** The proof does not provide elegant estimates for $\lambda$ in terms of *a priori* values of $N$ and $K$. To evaluate the efficiency of the proof, assume that $p_j = \lfloor K \log(j^2) \rfloor$ (the maximum density allowed by condition (1) of Theorem 1).
 
-One can view the choice of $K\log(j^2)$ points as approximately $K/K_0$ choices of sets of size $K_0\log(j^2)$. Let $K_0 = K(N,1/2)$. (By using Lagrange multipliers to find the maximum of $K\lambda$ subject to $\lambda \in [0,1/2]$ and $W(N,K,\lambda) = 1/2$, one can show that the maximum occurs at the boundary of this manifold with $\lambda = 1/2$. Thus, $K_0 = K(N,1/2)$ is optimal for this comparison argument.) The details require some explanation. Assume first that $K$ is not an integer multiple of $K_0$. Then one may find $K'_0 \in (0,K_0)$ for which $W(N,K'_0,1/2) < 1/2$, $[K/K_0] = [K/K'_0]$, and $K$ is not an integer multiple of $K'_0$. Then the number of $N$-independent sets required for sets chosen from $Q_j$'s with large $j$ is
+One can view the choice of $K\log(j^2)$ points as approximately $K/K_0$ choices of sets of size $K_0\log(j^2)$. Let $K_0 = K(N,1/2)$. (By using Lagrange multipliers to find the maximum of $K\lambda$ subject to $\lambda \in [0,1/2]$ and $W(N,K,\lambda) = 1/2$, one can show that the maximum occurs at the boundary of this manifold with $\lambda = 1/2$. Thus, $K_0 = K(N,1/2)$ is optimal for this comparison argument.) The details require some explanation. Assume first that $K$ is not an integer multiple of $K_0$. Then one may find $K'_0 \in (0,K_0)$ for which $W(N,K'_0,1/2) < 1/2$, $\lceil K/K_0\rceil = \lceil K/K'_0\rceil$, and $K$ is not an integer multiple of $K'_0$. Then the number of $N$-independent sets required for sets chosen from $Q_j$'s with large $j$ is
 
 $$
-2\limsup_j\left[\frac{\lfloor K\log(j^2)\rfloor}{\lfloor K'_0\log(j^2)\rfloor}\right]\leq 2\limsup_j\left[\frac{K\log(j^2)}{K'_0\log(j^2)-1}\right]=2[K/K_0].
+2\limsup_j\left\lceil\frac{\lfloor K\log(j^2)\rfloor}{\lfloor K'_0\log(j^2)\rfloor}\right\rceil\leq 2\limsup_j\left\lceil\frac{K\log(j^2)}{K'_0\log(j^2)-1}\right\rceil=2\lceil K/K_0\rceil.
 $$
 
-Thus at most $2\lceil\log(8N)K\rceil$ $N$-independent sets are required for all but finitely many $j$'s (almost surely). If $K$ is an integer multiple of $K_0$, one can not choose $K'_0<K_0$ without making $[K/K'_0]$ greater than $[K/K_0]$. In this case, the limsup is $\lceil 1+K/K_0\rceil$. In summary, the number of $N$-independent sets required for all but finitely many $j$'s, almost surely, is bounded by
+Thus at most $2\lceil\log(8N)K\rceil$ $N$-independent sets are required for all but finitely many $j$'s (almost surely). If $K$ is an integer multiple of $K_0$, one can not choose $K'_0<K_0$ without making $\lceil K/K'_0\rceil$ greater than $\lceil K/K_0\rceil$. In this case, the limsup is $\lceil 1+K/K_0\rceil$. In summary, the number of $N$-independent sets required for all but finitely many $j$'s, almost surely, is bounded by
 
 $$
 2\lfloor 1+\log(8N)K\rfloor.
@@ -304,14 +304,14 @@ $$
 Therefore,
 
 $$
-[1/\lambda(N,K)^-]=[(2+\varepsilon_N)K\log(2N)],
+\lceil 1/\lambda(N,K)^-\rceil=\lceil(2+\varepsilon_N)K\log(2N)\rceil,
 $$
 
 with $\lim_{N\to\infty}\varepsilon_N=0$. By the previous equation for $\varepsilon_N$,
 
 $$
-[1/\lambda(N,K)^-]
-=[2K\{\log(2N)+\log(\log(2N))+\log(K)+1+\log(2+\varepsilon_N)\}].
+\lceil 1/\lambda(N,K)^-\rceil
+=\lceil 2K\{\log(2N)+\log(\log(2N))+\log(K)+1+\log(2+\varepsilon_N)\}\rceil.
 $$
 
 A lower bound for $1/\lambda$ will follow from the next proposition.
@@ -526,9 +526,9 @@ $f \in B(F),$
 $$
 \begin{aligned}
 |\langle f,p\rangle| &= \left|\sum_{j=1}^{\infty}\langle f,p_j\rangle\right| \leq \sum_{j=1}^{\infty}|\langle f,p_j\rangle| \\
-&\leq \sum_{j=1}^{\infty}\|f\|_{k_jF_j}\|_{B(k_jF_j)}\|p_j\|_\infty \\
-&\leq \left(\sup_t\|f\|_{k_tF_t}\|_{B(k_tF_t)}\right)\sum_{j=1}^{\infty}\|p_j\|_\infty \\
-&\leq \left(r\sup_t\|f\|_{k_tF_t}\|_\infty\right)(2\pi\|p\|_\infty), \quad \text{since }\alpha(k_tF_t)\leq r, \\
+&\leq \sum_{j=1}^{\infty}\|f|_{k_jF_j}\|_{B(k_jF_j)}\|p_j\|_\infty \\
+&\leq \left(\sup_t\|f|_{k_tF_t}\|_{B(k_tF_t)}\right)\sum_{j=1}^{\infty}\|p_j\|_\infty \\
+&\leq \left(r\sup_t\|f|_{k_tF_t}\|_\infty\right)(2\pi\|p\|_\infty), \quad \text{since }\alpha(k_tF_t)\leq r, \\
 &\leq (2\pi r\|f\|_\infty)\|p\|_\infty.
 \end{aligned}
 $$

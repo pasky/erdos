@@ -1293,7 +1293,7 @@ $$
 *where the supremum is over stable lattices $\mathcal{L} \subset \mathbb{R}^d$. Then, for any lattice $\mathcal{L} \subset \mathbb{R}^n$,*
 
 $$
-\mu(\mathcal{L}) \leq \sqrt{2e[\log(2n)]} \cdot C_\mu(n) \cdot \mu_{\det}(\mathcal{L}).
+\mu(\mathcal{L}) \leq \sqrt{2e\lceil\log(2n)\rceil} \cdot C_\mu(n) \cdot \mu_{\det}(\mathcal{L}).
 $$
 
 *Proof.* Let $\{\mathbf{0}\} = \mathcal{L}_0 \subset \mathcal{L}_1 \subset \cdots \subset \mathcal{L}_k = \mathcal{L}$ be the canonical filtration of some lattice $\mathcal{L} \subset \mathbb{R}^n$. Let $d_i := \operatorname{rank}(\mathcal{L}_i/\mathcal{L}_{i-1})$. Note that $\mathcal{L}_i/\mathcal{L}_{i-1}$ is a scaling of a stable lattice, i.e., $\det(\mathcal{L}_i/\mathcal{L}_{i-1})^{-1/d_i} \cdot (\mathcal{L}_i/\mathcal{L}_{i-1})$ is stable. (See Item 2 of Proposition 2.5.) We therefore have by Claim 2.6 and Lemma 2.8 that
@@ -1311,14 +1311,14 @@ Next, we recall from Item 3 of Proposition 2.5 that $a_i := \det(\mathcal{L}_i/\
 
 $$
 \begin{aligned}
-&2e[\log(2n)] \cdot C_\mu(n)^2 \cdot \max_i \operatorname{rank}(\mathcal{L}/\mathcal{L}_i) \cdot \det(\mathcal{L}/\mathcal{L}_i)^{\frac{2}{\operatorname{rank}(\mathcal{L}/\mathcal{L}_i)}} \\
-&\leq 2e[\log(2n)] \cdot C_\mu(n)^2 \max_{W \subset \mathbb{R}^n} \dim(W^\perp) \cdot \det(\pi_{W^\perp}(\mathcal{L}))^{\frac{2}{\dim(W^\perp)}},
+&2e\lceil\log(2n)\rceil \cdot C_\mu(n)^2 \cdot \max_i \operatorname{rank}(\mathcal{L}/\mathcal{L}_i) \cdot \det(\mathcal{L}/\mathcal{L}_i)^{\frac{2}{\operatorname{rank}(\mathcal{L}/\mathcal{L}_i)}} \\
+&\leq 2e\lceil\log(2n)\rceil \cdot C_\mu(n)^2 \max_{W \subset \mathbb{R}^n} \dim(W^\perp) \cdot \det(\pi_{W^\perp}(\mathcal{L}))^{\frac{2}{\dim(W^\perp)}},
 \end{aligned}
 $$
 
 as needed. $\square$
 
-Theorem 1.5 now follows as an immediate corollary of the above results. In particular, we have $C_\mu(n) \leq 4(\log n + 10)$ and therefore $\sqrt{2e[\log(2n)]} \cdot C_\mu(n) \leq 10(\log n + 10)^{3/2}$. The result then follows from Proposition 6.4.
+Theorem 1.5 now follows as an immediate corollary of the above results. In particular, we have $C_\mu(n) \leq 4(\log n + 10)$ and therefore $\sqrt{2e\lceil\log(2n)\rceil} \cdot C_\mu(n) \leq 10(\log n + 10)^{3/2}$. The result then follows from Proposition 6.4.
 
 ## 6.1 Connection with the Slicing Conjecture
 
@@ -1476,7 +1476,7 @@ $$
 \rho_s(\mathcal{L}) \leq \prod_i \rho_s(\mathcal{L}_i/\mathcal{L}_{i-1}).
 $$
 
-Note that, if $s < \sqrt{2\pi/(n+2)}$, then we also have $s < \sqrt{2\pi/(d_i+2)}$ for all $i$. And, $\alpha_i \cdot (\mathcal{L}_i/\mathcal{L}_{i-1})$ is a stable lattice for some $\alpha_i \leq 1$. (See Items 2 and 3 of Proposition 2.5.) So, in this case we may apply Proposition 7.3 to obtain
+Note that, if $s \leq \sqrt{2\pi/(n+2)}$, then we also have $s \leq \sqrt{2\pi/(d_i+2)}$ for all $i$. And, $\alpha_i \cdot (\mathcal{L}_i/\mathcal{L}_{i-1})$ is a stable lattice for some $\alpha_i \leq 1$. (See Items 2 and 3 of Proposition 2.5.) So, in this case we may apply Proposition 7.3 to obtain
 
 $$
 \rho_s(\mathcal{L}) \leq \prod_i \rho_s(\alpha_i \cdot (\mathcal{L}_i/\mathcal{L}_{i-1})) \leq \prod_i \rho_s(\mathbb{Z}^{d_i}) = \rho_s(\mathbb{Z}^n).
