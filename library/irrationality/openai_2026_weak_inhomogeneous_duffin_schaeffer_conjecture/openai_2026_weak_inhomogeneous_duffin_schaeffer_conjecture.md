@@ -11,7 +11,7 @@ We prove the weak inhomogeneous Duffin–Schaeffer conjecture. For every fixed $
 For a real number $t$, write $\|t\|$ for its distance to the nearest integer, and let $\phi$ denote Euler’s totient function. We study approximation with a fixed additive shift and an arbitrary sequence of tolerances. The exceptional null set in the result below is allowed to depend on both of these data.
 
 **Theorem 1.1** (Weak inhomogeneous Duffin–Schaeffer). *Let $\gamma\in\mathbb R$ be fixed, and let $\psi:\mathbb N\to[0,\infty)$ be finite-valued. If $$\begin{equation}
-\label{eq:main-divergence}
+\tag{1.1}
   \sum_{q=1}^{\infty}\frac{\phi(q)}q\,\psi(q)=\infty,
 \end{equation}$$ then, for Lebesgue-almost every $x\in\mathbb R$, the inequality $$\|qx-\gamma\|<\psi(q)$$ holds for infinitely many positive integers $q$.*
 
@@ -77,7 +77,7 @@ For $v\ge1$ set $r(v)=\psi(v)/v$, and let $$E_v=\bigcup_{z\in\mathbb Z}
 Henceforth suppose $v r(v)\to0$. Replace every positive width by a dyadic number between half its value and its value, retaining the notation $r(v)$. This preserves divergence of $\sum_v\phi(v)r(v)$ and can only shrink the approximation sets. If Theorem 1.1 fails, there is a measurable set $A\subset\mathbb T$ of measure $\mu>0$ that avoids every $E_v$ in some tail. Indeed the complement of the limsup is the union over $n$ of $\bigcap_{v\ge n}E_v^c$.
 
 **Lemma 2.2**. *For every fixed $0<w\le1/2$ there are arbitrarily late, pairwise disjoint finite sets $\mathcal B$ of positive-width rows such that $$\begin{equation}
-\label{eq:block-mass}
+\tag{2.1}
  w\le W:=\sum_{v\in\mathcal B}\phi(v)r(v)\le2w.
 \end{equation}$$ Their least denominator tends to infinity, and all their spatial widths tend uniformly to zero.*
 
@@ -90,7 +90,7 @@ All subsequent constructions are on one such finite block. Constants may depend 
 For positive integers $d,e$, write $(d,e)$ and $[d,e]$ for their gcd and lcm. Let $\nu_p(n)$ be the exponent of a prime $p$ in $n$, let $\tau(n)$ be the number of positive divisors, and let $\omega(n)$ be the number of distinct prime divisors. Put $$R(n)=\frac{\phi(n)}n,\qquad R_p=1-\frac1p.$$ All logarithms are natural unless a dyadic index is explicitly specified. The symbols $O$, $\ll$, and $\asymp$ have constants uniform in the varying block data; dependence on fixed parameters will be indicated when needed.
 
 **Definition 2.3**. A mask on an integer $L\ge1$ is a divisor $d\mid L$. Its deficit law is $$\begin{equation}
-\label{eq:deficit-law}
+\tag{2.2}
  \pi_L(d)=\frac{\phi(L/d)}L.
 \end{equation}$$ An exponent in $d$ records the corresponding deficit from $L$ in $L/d$.
 
@@ -102,19 +102,19 @@ The identity $\sum_{d\mid L}\phi(d)=L$ makes this a probability law. Euler facto
 
 **Lemma 2.4**. *Uniformly for $z\ge2$, $b\ge a\ge2$, and integers $n\ge1$, $$\begin{align}
  \sum_{p\le z}\log p&\ll z,
- &\sum_{p\le z}\frac{\log p}{p}&\ll\log(2z),\label{eq:prime-log-sums}\\
+ &\sum_{p\le z}\frac{\log p}{p}&\ll\log(2z),\tag{2.3}\\
  \sum_{a\le p\le b}\frac1p
  &\ll \frac1{\log a}+\log\frac{\log b}{\log a},
  &\prod_{p\le z}R_p^{-1}&\ge\sum_{1\le m\le z}\frac1m.
- \label{eq:prime-reciprocals}
+ \tag{2.4}
 \end{align}$$ For every fixed $C,\epsilon>0$, $$\begin{equation}
-\label{eq:divisor-small-power}
+\tag{2.5}
  \tau(n)^C+R(n)^{-C}\ll_{C,\epsilon}n^\epsilon.
 \end{equation}$$*
 
-*Proof.* The primes in $(N,2N]$ divide $\binom{2N}{N}\le4^N$. Summing over dyadic intervals gives the first bound in (eq:prime-log-sums); partial summation gives the second. The same binomial estimate gives $O(t/\log t)$ primes in a dyadic interval at scale $t$. Decomposing $[a,b]$ into multiplicative intervals and summing their reciprocal costs gives the first bound in (eq:prime-reciprocals), including the possible endpoint interval. The Euler product on its right expands into reciprocals of all positive integers with prime factors at most $z$, including every integer at most $z$.
+*Proof.* The primes in $(N,2N]$ divide $\binom{2N}{N}\le4^N$. Summing over dyadic intervals gives the first bound in (2.3); partial summation gives the second. The same binomial estimate gives $O(t/\log t)$ primes in a dyadic interval at scale $t$. Decomposing $[a,b]$ into multiplicative intervals and summing their reciprocal costs gives the first bound in (2.4), including the possible endpoint interval. The Euler product on its right expands into reciprocals of all positive integers with prime factors at most $z$, including every integer at most $z$.
 
-For (eq:divisor-small-power), at all sufficiently large primes the factor $(j+1)^C$ is bounded by $p^{\epsilon j/2}$ for every $j\ge1$, and $R_p^{-C}\le p^{\epsilon/2}$. Each of the finitely many remaining primes has a bounded supremum after division by its positive exponential factor $p^{\epsilon j}$, or contributes a fixed constant in the $R(n)$ bound. Multiplication proves the assertion. ◻
+For (2.5), at all sufficiently large primes the factor $(j+1)^C$ is bounded by $p^{\epsilon j/2}$ for every $j\ge1$, and $R_p^{-C}\le p^{\epsilon/2}$. Each of the finitely many remaining primes has a bounded supremum after division by its positive exponential factor $p^{\epsilon j}$, or contributes a fixed constant in the $R(n)$ bound. Multiplication proves the assertion. ◻
 
 We will use Cauchy–Schwarz, Hölder, the Chinese remainder theorem, Markov’s inequality, and finite orbit averaging. Size parameters and vertex totals in independent arithmetic estimates are local to those estimates; the centre and table notation is introduced only when needed.
 
@@ -170,7 +170,7 @@ The largest host exists: at a fixed positive width, all popular multiples are at
  \delta_L=\sum_{v\in\mathcal V}\frac{\phi(v)}L,\qquad
  m_L=k_L\delta_L.$$ Then $$\begin{equation}
  \delta_L\ll_{k_0} k_L^{H_0}.
- \label{eq:centre-density}
+ \tag{3.1}
 \end{equation}$$ Moreover $\delta_L\le1$.*
 
 *Proof.* The last assertion follows from $\sum_{v\mid L}\phi(v)=L$. If the family is nonempty, $2L$ cannot be popular at width $r$: any assigned nonraw row would then have an original host at least $2L$, whereas any assigned raw row would no longer be raw. If $2Lr\le k_0$, failure of popularity gives $$\frac12\delta_L
@@ -185,7 +185,7 @@ A *centre family* consists of an integer $L$, a common width $r$, and an assigne
  =(m_Lm_M)^{1/2}(UT)^{-1/2}
  \left(\frac{r_{\min}}{r_{\max}}\right)^{1/2}
  (\delta_L\delta_M)^{-1/2}
- \label{eq:centre-kernel}
+ \tag{3.2}
 \end{equation}$$ will convert arithmetic separation into a summable mass kernel. We apply it only to nonempty families, so its inverse densities are defined.
 
 **Lemma 3.3** (Centre-kernel summation). *Consider centre families satisfying Lemma 3.2, with at most one family for each pair $(L,r)$ and total mass at most $W\le1$. For every fixed $\alpha>1/2$ and sufficiently small fixed $\epsilon>0$, there is $c>0$ such that $$\sum_{i,j}\Theta_{ij}(\delta_{L_i}\delta_{L_j})^\alpha
@@ -193,7 +193,7 @@ A *centre family* consists of an integer $L$, a common width $r$, and an assigne
  \ll_{k_0,\alpha,\epsilon} W^{1+c}.$$*
 
 *Proof.* Choose $u>1/2$ sufficiently close to $1/2$ that $H_0(\alpha-u)>u-1/2$, and then $\epsilon<u-1/2$. For a single centre, $$m_L^{1/2-u}\delta_L^{\alpha-1/2}
- =k_L^{1/2-u}\delta_L^{\alpha-u}\ll_{k_0}1.$$ Indeed use (eq:centre-density) when $k_L\le1$, and use $\delta_L\le1$ when $k_L>1$. Hence the summand is at most $$C_{k_0}(m_Lm_M)^u(UT)^{-1/2+\epsilon}
+ =k_L^{1/2-u}\delta_L^{\alpha-u}\ll_{k_0}1.$$ Indeed use (3.1) when $k_L\le1$, and use $\delta_L\le1$ when $k_L>1$. Hence the summand is at most $$C_{k_0}(m_Lm_M)^u(UT)^{-1/2+\epsilon}
  \left(\frac{r_{\min}}{r_{\max}}\right)^{1/2}.$$ At each pair of exact widths Lemma 2.6 applies, since $1/2-\epsilon>1-u$. If $M_r$ is the total mass at width $r$, the remaining sum is bounded by $$C\sum_{r,s}(M_rM_s)^u
  \left(\frac{\min(r,s)}{\max(r,s)}\right)^{1/2}
  \ll\sum_r M_r^{2u}\le W^{2u}.$$ The middle inequality is convolution with a summable geometric kernel on dyadic width indices. Take $c=2u-1$. ◻
@@ -214,7 +214,7 @@ For a nonraw row $v$ of width $r$, minimize over all original popular centres $(
  b=-\log(Dr_0),\quad
  a=\log\frac{v}{(v,D)},\quad c=\log\frac r{r_0},
  \end{gathered}
- \label{cen:assignment-cost}
+ \tag{3.3}
 \end{equation}$$ where $t_+=\max(t,0)$. Choose a minimizer, resolving ties arbitrarily, and put $L=[D,v]=De^a$. Consolidate assignments with the same triple $$(L,r,B^*),\qquad B^*=\lfloor\text{minimum cost}\rfloor,$$ into one *centre object*; call the integer $B^*$ its *shell*. Write $i$ for such an object, and let $B_i$ be the dyadic power of two with $B_i\le B_i^*<2B_i$. We call $B_i$ its band. All costs, and hence all these bands, are large when $k_0$ is small.
 
 For each object define $k_{L_i},\delta_{L_i},m_{L_i}$ as in Lemma 3.2, using precisely its assigned rows, and put $$\mathcal F_i=\{L_i/v:v\text{ is assigned to }i\}.$$ Thus $\pi_{L_i}(\mathcal F_i)=\delta_{L_i}$. Different objects partition the assigned rows, including their masses. These symbols will always refer to the original assignments, even when some masks or numerator points are subsequently removed.
@@ -222,7 +222,7 @@ For each object define $k_{L_i},\delta_{L_i},m_{L_i}$ as in Lemma 3.2, using pr
 **Lemma 3.5** (Scale and number of adjusted centres). *Every adjusted centre satisfies Lemma 3.2 and $$|\log k_{L_i}|\le B_i^*+1,\qquad
  \log k_{L_i}\le .1(B_i^*+1).$$ The number of original popular centres at a fixed width $r$ and with $-\log(Dr)\in[b,b+1)$ is $$\ll W_r e^{(1+3H_0)b}.$$ The total number of adjusted centre objects with $B_i^*\le t$, including all widths, is $\ll e^{2t}$. Deleting objects with $\delta_{L_i}<e^{-.32B_i^*}$ loses $o(W)$ as $k_0\to0$.*
 
-*Proof.* For the chosen candidate in (cen:assignment-cost), $\log k_L=-b+a+c$. Since $b>0$ and $a\ge0$, the cost bounds $|\log k_L|$, and it is at least $10\log k_L$ when the latter is positive. The cost is no larger than the cost obtained by using the row’s original host at its own width, namely minus the log of that host’s spatial scale. Since the cost also bounds $-\log k_L$, the adjusted $L$ is at least that original host. This proves the first assertions.
+*Proof.* For the chosen candidate in (3.3), $\log k_L=-b+a+c$. Since $b>0$ and $a\ge0$, the cost bounds $|\log k_L|$, and it is at least $10\log k_L$ when the latter is positive. The cost is no larger than the cost obtained by using the row’s original host at its own width, namely minus the log of that host’s spatial scale. Since the cost also bounds $-\log k_L$, the adjusted $L$ is at least that original host. This proves the first assertions.
 
 Let $n$ be the number of original popular centres in the indicated unit $b$-range. Sum the popularity inequality after multiplying by $Dr$, and apply Cauchy–Schwarz to row incidences. Using $\sum_{v\mid g}\phi(v)=g$ gives $$\bigl(n e^{-(1+H_0)b}\bigr)^2
  \ll W_r\sum_{D,D'}(D,D')r.$$ Here $D,D'\asymp e^{-b}/r$, so Lemma 2.6 gives, for $u>1/2$ arbitrarily close to $1/2$, $$\sum_{D,D'}(D,D')r\ll e^{-b}n^{2u}.$$ Consequently $$n\ll W_r^{1/(2-2u)}
@@ -235,7 +235,7 @@ At a fixed source width $r_0$, sort the assignments into unit boxes of $(b,a,c)$
 Retain the remaining objects. In addition to their upper density bound, their original assigned families satisfy the following lower bounds, before any subsequent mask or numerator removals: $$\begin{equation}
  \delta_L\ge e^{-.32B_i^*},\qquad
  m_L\gg e^{-1.32B_i^*}.
- \label{eq:centre-lower}
+ \tag{3.4}
 \end{equation}$$
 
 ### Exterior separation and summation with height decay
@@ -244,18 +244,18 @@ Retain the remaining objects. In addition to their upper density bound, their or
  \frac{v}{(v,L_i)}\frac{r_j}{r_{\min}}>e^{.015B_j^*},
  \qquad
  \log(r_i/r_j)>.7B_j^*.
- \label{eq:exterior-gain}
+ \tag{3.5}
 \end{equation}$$*
 
-*Proof.* Choose a source $(D_i,r_{0i})$ that produced an assignment in object $i$. Then $D_i\mid L_i$, and its source parameters in (cen:assignment-cost) are $O(B_i)$. In particular $$\log\frac{v}{(v,D_i)}
+*Proof.* Choose a source $(D_i,r_{0i})$ that produced an assignment in object $i$. Then $D_i\mid L_i$, and its source parameters in (3.3) are $O(B_i)$. In particular $$\log\frac{v}{(v,D_i)}
  \le \log\frac{v}{(v,L_i)}+\log\frac{L_i}{D_i}.$$ Using $(D_i,r_{0i})$ as a candidate for $v$, and comparing the two widths through $r_i$, bounds its minimum cost by $$O(B_i)+10\log\frac{v}{(v,L_i)}
  +10\log\frac{r_j}{r_{\min}}+\log^+\frac{r_i}{r_j}.$$ If both conclusions failed, this would be at most $O(B_i)+.85B_j^*<B_j^*$, contrary to the definition of the shell. ◻
 
-We record two ways in which (eq:centre-kernel) will absorb errors. This also explains why the shell label in an adjusted centre does not invalidate the earlier tensor summations.
+We record two ways in which (3.2) will absorb errors. This also explains why the shell label in an adjusted centre does not invalidate the earlier tensor summations.
 
-**Lemma 3.7** (Width and height gains). *Under (eq:centre-lower), the following kernels are summable with a positive power of total mass beyond linear. First, restrict to pairs with sufficiently small $B_i/B_j$ and $\log(r_i/r_j)>.65B_j^*$. For sufficiently small absolute $c_s,\epsilon>0$, the kernel is $$\Theta_{ij}e^{c_sB_j}(UT)^\epsilon.$$ Second, fix $c>0$ and $C>0$. Sum over dyadic $Y$ and pairs with $B_i,B_j\le Y/A_0$. For $A_0$ sufficiently large the kernel is $$\Theta_{ij}e^{-cY}\tau(UT)^C.$$ The bounds permit the shell multiplicities of the adjusted objects and the displayed height summation.*
+**Lemma 3.7** (Width and height gains). *Under (3.4), the following kernels are summable with a positive power of total mass beyond linear. First, restrict to pairs with sufficiently small $B_i/B_j$ and $\log(r_i/r_j)>.65B_j^*$. For sufficiently small absolute $c_s,\epsilon>0$, the kernel is $$\Theta_{ij}e^{c_sB_j}(UT)^\epsilon.$$ Second, fix $c>0$ and $C>0$. Sum over dyadic $Y$ and pairs with $B_i,B_j\le Y/A_0$. For $A_0$ sufficiently large the kernel is $$\Theta_{ij}e^{-cY}\tau(UT)^C.$$ The bounds permit the shell multiplicities of the adjusted objects and the displayed height summation.*
 
-*Proof.* In (eq:centre-kernel), changing the mass exponent from $1/2$ to $u>1/2$, including the inverse densities there, costs at most $$C\exp\left(
+*Proof.* In (3.2), changing the mass exponent from $1/2$ to $u>1/2$, including the inverse densities there, costs at most $$C\exp\left(
   \bigl(.16+1.32(u-1/2)\bigr)(B_i^*+B_j^*)\right).$$ For the first kernel, take $0<u-1/2\le .005$ and use band separation so that $B_i^*/B_j^*\le .01$. The displayed conversion cost is then at most $Ce^{.18B_j^*}$. Reserve the width power $1/8$ for summation. Its remaining power $3/8$, together with $\log(r_i/r_j)>.65B_j^*$, supplies $e^{-.24375B_j^*}$. For $c_s\le .01$ this leaves at least $e^{-.05B_j^*}$. Choose $\epsilon<u-1/2$, so the remaining $UT$-price still meets the tensor inequality.
 
 At a fixed pair of integer shells $s,t$, there is at most one object at a given $(L,r)$. Tensor summation followed by convolution in the widths, now with their power $1/8$, bounds this pair of shells by $CW_s^uW_t^u\le CW^{2u}$, where $W_s,W_t$ are their total masses. Thus the first kernel is bounded by $$CW^{2u}\sum_{t\ge1}(t+1)e^{-.05t}\ll W^{2u}.$$ There is no summation of an undamped uniform shell bound.
@@ -279,7 +279,7 @@ We give the order here because all subsequent selections must be uniform down th
 1.  *Prime powers and geometry.* Choose first a sufficiently large absolute $C_{\rm mask}$, bounding the excess prime powers in a deficit mask. Choose a sufficiently large absolute $\beta$, which will join centres at height $Y$ when $\log UT\le\beta Y$. It must absorb the absolute prime-product costs $e^{CY}$ in the distant comparisons of Sections 9 and 10. Set $\sigma_g=.1$. Choose a small dyadic $\sigma>0$ so that absolute harmonic costs below height $\sigma Y$ are at most $e^{Y/100}$. Choose $$0<h_*\ll\sigma h_H,\qquad 0<h_H\ll\sigma,
      \qquad 3h_*<h_a\ll\sigma_g,$$ with arbitrarily large separations. Here $h_*$ controls the logarithmic sizes of comparison data within a component, $h_H$ controls the rational-model heights, and $h_a$ bounds the number of offset grids used to record very close pairs. Finally in this stage take the dyadic $A_0$ sufficiently large. In particular, path costs $e^{CY/A_0}$ must be at most $e^{h_*Y/10}$, and the height-decay applications of Lemma 3.7 must hold.
 
-2.  *Occupancy and band separation.* Choose $s'>0$ sufficiently small absolutely for the later powers of divisor counts used with (eq:exterior-gain), then take $s_{\rm low}>0$ sufficiently smaller for the mask-moment deletion. Choose dyadic $\ell>0$ and $\kappa>0$ such that $\ell<\sigma$ and both $\ell$ and $\kappa A_0$ are arbitrarily small relative to $s_{\rm low}$. Next take dyadic $D_0$ large compared with $1/\kappa$ and $A_0$. The colour separation is now taken large compared with $D_0/\ell$, $D_0/(\sigma A_0)$, and the requirements of (eq:exterior-gain) and the centre counts.
+2.  *Occupancy and band separation.* Choose $s'>0$ sufficiently small absolutely for the later powers of divisor counts used with (3.5), then take $s_{\rm low}>0$ sufficiently smaller for the mask-moment deletion. Choose dyadic $\ell>0$ and $\kappa>0$ such that $\ell<\sigma$ and both $\ell$ and $\kappa A_0$ are arbitrarily small relative to $s_{\rm low}$. Next take dyadic $D_0$ large compared with $1/\kappa$ and $A_0$. The colour separation is now taken large compared with $D_0/\ell$, $D_0/(\sigma A_0)$, and the requirements of (3.5) and the centre counts.
 
 3.  *Rational models and localization.* The direct rotation-switch budget $D'$ in Section 7 is large compared with $\beta,D_0$ and the costs depending on them. Choose the large model exponent $E$ after these resulting linear exponential bounds, then $Q_0\gg E$ for the deep direct comparisons, and then a still larger $J>4E$ for the tag cutoff $e^{JB_i}$. Choose $E_g$ sufficiently large after these constants for the birth spatial scale $r_i e^{-E_gB_i}$, and then choose $E_2$ much larger than $E_g$ for the raw partition spacing.
 
@@ -287,11 +287,11 @@ We give the order here because all subsequent selections must be uniform down th
 
     The remaining choices in this stage control inverse estimates and rotation switches. Small powers in the inverse and period estimates can be chosen arbitrarily small after the fixed comparisons. Choose the harmonic-mask cutoff $d_0>0$ after the corresponding period cutoffs. In particular the powers used for period costs and $\tau(UT)$ in mixed comparisons are small relative to $\beta A_0$. Coefficients of harmonic exponents to be absorbed by $s_{\rm low}$, $\kappa A_0$, or $\beta$ are absolute; they do not arise from these tiny-power constants.
 
-    The sparse-bin switch budget $D''$ in Section 8 need only be sufficiently large absolutely; a factor $\tau(UT)^C$ is carried separately there. For the last direct subcases choose a small signature exponent $h'>0$, a small switch threshold $t_1$, a large fixed $J_1$, and a small rotation-budget exponent $\epsilon'$ in their required order. Concretely these choices permit $h'\ll h_0$, $t_1\ll h'/Q_0$, $J_1\gg J/\ell_{\rm sh}$, and $C_1\epsilon'\ll t_1$, with $C_1$ the absolute constant in Lemma 6.2. All are fixed before taking the arbitrarily small saturation exponent $\vartheta$ and the associated parameters of (eq:small-saving).
+    The sparse-bin switch budget $D''$ in Section 8 need only be sufficiently large absolutely; a factor $\tau(UT)^C$ is carried separately there. For the last direct subcases choose a small signature exponent $h'>0$, a small switch threshold $t_1$, a large fixed $J_1$, and a small rotation-budget exponent $\epsilon'$ in their required order. Concretely these choices permit $h'\ll h_0$, $t_1\ll h'/Q_0$, $J_1\gg J/\ell_{\rm sh}$, and $C_1\epsilon'\ll t_1$, with $C_1$ the absolute constant in Lemma 6.2. All are fixed before taking the arbitrarily small saturation exponent $\vartheta$ and the associated parameters of (6.4).
 
 4.  *Final cutoffs.* Take $k_0$ sufficiently small after all these choices. Every band and every bin at a fixed positive linear scale in a band is then as large as needed; in particular $\ell B_i$ and $\sigma Y$ are bin heights. A sufficiently large fixed $\lambda_0$ for the small-scale arithmetic comparisons and the hole deletion may still depend on $k_0$. Then choose $w$ sufficiently small after the constants depending on these data. Finally choose a fixed cap $N_0$ as large as necessary. The comparison bounds used for clipping in Section 5 will be independent of this cap.
 
-The objects retained so far have a common type and colour, disjoint row assignments, the upper density bound (eq:centre-density), and the lower bounds (eq:centre-lower). We next specify their initial numerator weights, without using any later adaptive table.
+The objects retained so far have a common type and colour, disjoint row assignments, the upper density bound (3.1), and the lower bounds (3.4). We next specify their initial numerator weights, without using any later adaptive table.
 
 ## Masks and initial numerator prescriptions
 
@@ -328,7 +328,7 @@ For the last condition, independence and the reciprocal sum in the dense bin giv
  \left(1-\frac{1-e^{-1}}p\right)
  \le e^{-c_1\kappa Y_d}.$$ For sufficiently small $c$, failure has probability $e^{-c_2\kappa Y_d}$. Since $Y_d>D_0B$ on high type, choose $D_0$ after $\kappa$ so that $c_2\kappa D_0>2$.
 
-Take $C_{\rm mask}$ large in the first estimate. All four probabilities are then $o(e^{-.64B})$, uniformly as the minimum band tends to infinity. Since $B_i^*<2B_i$, (eq:centre-lower) gives $\delta_L\ge e^{-.64B}$. Multiplying each failure probability by $k_L$, and using $m_L=k_L\delta_L$, proves the claimed relative and total losses. ◻
+Take $C_{\rm mask}$ large in the first estimate. All four probabilities are then $o(e^{-.64B})$, uniformly as the minimum band tends to infinity. Since $B_i^*<2B_i$, (3.4) gives $\delta_L\ge e^{-.64B}$. Multiplying each failure probability by $k_L$, and using $m_L=k_L\delta_L$, proves the claimed relative and total losses. ◻
 
 From now on assigned masks are good. Nonnegative upper bounds may still extend sums to the unrestricted mask laws.
 
@@ -343,8 +343,8 @@ The first projection restores only factors omitted in the unprocessed tail; the 
  \\
  r_i\pi_{P_I}(a)(VP/m)R(VP_M/m)=r_i\phi(v).
  \end{gathered}
- \label{pre:birth-grid}
-\end{equation}$$ The true row points are exactly the subarray $a\mid z$. The identity in (pre:birth-grid) follows from multiplicativity across the three disjoint prime supports. It is the first-mass normalization: the entire projection receives the single coefficient $\pi_{P_I}(a)$, while the baseline numerator density is $R(VP_M/m)$. The coefficient is not an additional numerator test.
+ \tag{4.1}
+\end{equation}$$ The true row points are exactly the subarray $a\mid z$. The identity in (4.1) follows from multiplicativity across the three disjoint prime supports. It is the first-mass normalization: the entire projection receives the single coefficient $\pi_{P_I}(a)$, while the baseline numerator density is $R(VP_M/m)$. The coefficient is not an additional numerator test.
 
 ### Tagged hard factors
 
@@ -382,28 +382,27 @@ For every recognized model $n_0/q$, require at each $p\mid V$ $$\begin{equation}
  p\nmid qz+n_0
  \quad\text{if}\quad p>H_v(\zeta)^{\epsilon_s}
  \text{ and }p\nmid q.
- \label{pre:low-hard-tests}
+ \tag{4.2}
 \end{equation}$$ If no exclusion is active at $p$, multiply by $R_p$ instead. When two models impose exclusions, impose both. The resulting low factors, together with Construction 4.3, are called the *hard birth weights*.
 
 **Lemma 4.6** (Hard first-mass bounds). *There is $c_{\rm hard}>0$, independent of $k_0$ once it is sufficiently small, such that the mean hard birth weight on a row’s projected numerator grid lies in $$[c_{\rm hard}R(VP_M/m),\ R(VP_M/m)].$$ Consequently its first mass, including the single coefficient $\pi_{P_I}(a)$ and the spatial width, lies between $c_{\rm hard}\phi(v)r(v)$ and $\phi(v)r(v)$.*
 
 *Proof.* Fix the anchor choices. At a prime with one active exclusion the uniform residue mean is exactly $R_p$; the same is true of its scalar replacement. At an omitted tag factor the scalar is present exactly when that prime remains in the projected non-tail denominator. The prime coordinates of the numerator are uniform and independent by CRT.
 
-Only two distinct medium models can reduce the mean below this one-factor product. By Lemma 4.5, their additional narrow-model hard primes exceed $e^{c\epsilon_sB}$. On medium type every prime of $V$ is at most $e^{JB}$. Thus the reciprocal sum of these additional primes is bounded by a constant independent of $B$ and $k_0$. They are also all large when $k_0$ is small; in particular two distinct active exclusions cannot occur at $p=2$. The local mean with two exclusions is at least $1-2/p$, whose ratio to $R_p$ is $1-1/(p-1)$. Multiplying these ratios gives a positive uniform lower constant. The upper mean is always at most the one-factor product. These bounds persist after averaging the anchor choices. The last assertion is (pre:birth-grid). ◻
+Only two distinct medium models can reduce the mean below this one-factor product. By Lemma 4.5, their additional narrow-model hard primes exceed $e^{c\epsilon_sB}$. On medium type every prime of $V$ is at most $e^{JB}$. Thus the reciprocal sum of these additional primes is bounded by a constant independent of $B$ and $k_0$. They are also all large when $k_0$ is small; in particular two distinct active exclusions cannot occur at $p=2$. The local mean with two exclusions is at least $1-2/p$, whose ratio to $R_p$ is $1-1/(p-1)$. Multiplying these ratios gives a positive uniform lower constant. The upper mean is always at most the one-factor product. These bounds persist after averaging the anchor choices. The last assertion is (4.1). ◻
 
 ### Soft tests and the remaining initial deletion
 
 In addition to the hard weights, require for every recognized model $$\begin{equation}
  (qz+n_0,V)\le H_v(\zeta)^{h_s}.
- \label{pre:soft-tests}
+ \tag{4.3}
 \end{equation}$$
 
-**Lemma 4.7** (Relative cost of the soft tests). *Under the probability measure obtained by normalizing a row’s hard birth weights, the probability that at least one of the tests (pre:soft-tests) fails is $O(\epsilon_s/h_s)$, with an absolute implied constant. In particular their relative first-mass loss can be made arbitrarily small compared with $\mu$ by the stated choice of $\epsilon_s$.*
+**Lemma 4.7** (Relative cost of the soft tests). *Under the probability measure obtained by normalizing a row’s hard birth weights, the probability that at least one of the tests (4.3) fails is $O(\epsilon_s/h_s)$, with an absolute implied constant. In particular their relative first-mass loss can be made arbitrarily small compared with $\mu$ by the stated choice of $\epsilon_s$.*
 
 *Proof.* Fix a recognized model $n_0/q$ and the static anchor choices. For $p\mid q$, reducedness gives $p\nmid n_0$, so that prime does not divide $qz+n_0$. For $p\nmid q$ above the threshold $H_v^{\epsilon_s}$, the model’s own hard exclusion already makes its valuation zero. At a remaining prime, at most the other model can impose a nonconstant exclusion. Conditioning on it inflates each geometric valuation tail by at most an absolute factor. The scalar factors and the tag factors do not change this conclusion. Therefore $$\mathbb E_{\mathrm{hard}}\log(qz+n_0,V)
  \ll\sum_{p\le H_v^{\epsilon_s}}\frac{\log p}{p-1}
-\ll\epsilon_s\log H_v.$$ For the last inequality, if $H_v^{\epsilon_s}<2$ the prime sum is empty; otherwise $\log(2H_v^{\epsilon_s})\ll
-\epsilon_s\log H_v$. At $p=2$ conditioning on the one possible other exclusion costs at most a factor two, so the same absolute tail bound applies. If $n_0=0$, reducedness gives $q=1$; the valuation tails are still the same geometric tails, truncated at the exponents in $V$, including the numerator residue zero. Markov’s inequality gives failure probability $O(\epsilon_s/h_s)$ for this model. There are at most two recognized models, so the union bound proves the assertion. For each fixed anchor choice this bounds failed hard mass by $O(\epsilon_s/h_s)$ times its hard mass. Integrate this inequality over anchor choices before normalizing. The normalized average is a mixture of the conditioned laws, and has the same relative bound, without an additional factor $c_{\rm hard}^{-1}$. ◻
+\ll\epsilon_s\log H_v.$$ For the last inequality, if $H_v^{\epsilon_s}<2$ the prime sum is empty; otherwise $\log(2H_v^{\epsilon_s})\ll \epsilon_s\log H_v$. At $p=2$ conditioning on the one possible other exclusion costs at most a factor two, so the same absolute tail bound applies. If $n_0=0$, reducedness gives $q=1$; the valuation tails are still the same geometric tails, truncated at the exponents in $V$, including the numerator residue zero. Markov’s inequality gives failure probability $O(\epsilon_s/h_s)$ for this model. There are at most two recognized models, so the union bound proves the assertion. For each fixed anchor choice this bounds failed hard mass by $O(\epsilon_s/h_s)$ times its hard mass. Integrate this inequality over anchor choices before normalizing. The normalized average is a mixture of the conditioned laws, and has the same relative bound, without an additional factor $c_{\rm hard}^{-1}$. ◻
 
 One additional medium-type birth deletion is needed: it removes small neighborhoods of rational points after specified integer dilations. Its explicit definition and cost proof are given in Section 7. It uses only the aggregate lists of good rows and squarefree moduli of the low numerator. In particular it is specified before, and independently of, all running-table deletions or estimates.
 
@@ -422,19 +421,19 @@ Activate a centre $L_i$ at its start height $Y_0(i)$. At the beginning of each d
 Every active band satisfies $B_i\le Y/A_0$. The centre count from Section 3 therefore bounds the number of vertices by $\exp(4Y/A_0+O(1))$. Sum edge log-ratios along a path and use $|\log k_{L_i}|=O(B_i)$ to obtain, for any two vertices of one component, $$\begin{equation}
  \log\bigl(2+UT+K+r_{\max}/r_{\min}\bigr)
  \le \exp(h_*Y/10).
- \label{eq:component-path}
+ \tag{5.1}
 \end{equation}$$ Here $K=[L_i,L_j]r_{\max}$, and the parameter hierarchy makes $A_0$ sufficiently large for this bound. Read the common tail primes of the bin in increasing order. The block is finite, so finitely many height steps, including empty ones if necessary, process every prime and start and eventually join every centre.
 
 At an intermediate time let $I$ be the common remaining prime-power part of a component. A row assigned to $L_i$ has a processed deficit $d$ and a remaining deficit $a\mid I$, with $$v=\frac{L_i}{da}.$$ Its current projected grid is $$\begin{equation}
  x=\frac{z+a\gamma}{L_i/d},\qquad z\in\mathbb Z.
- \label{tab:projected-grid}
+ \tag{5.2}
 \end{equation}$$ We distinguish labels even when their locations coincide. A label records the centre, the assigned row, and the numerator coordinate. Each label has a raw weight $w_x\in[0,1]$. Its weighted point mass is $$\lambda_x=\pi_I(a)w_x.$$ We also write $\lambda$ for the atomic point measure with these label masses; coincident labels retain their multiplicities. All point sums are per unit length. The first mass of an array is $\sum_x r_x\lambda_x$, with $r_x=r_i$ on a row of centre $i$. We call the collection of these labelled arrays and raw weights for one component its *projected table*.
 
 The role of the mask law is expressed by the exact identity $$\begin{equation}
  r_i\pi_I(a)\frac{L_i}{d}
  R\left(\frac{L_i/I}{d}\right)
  =r_i\phi(v)=k_{L_i}\pi_{L_i}(da).
- \label{tab:first-currency}
+ \tag{5.3}
 \end{equation}$$ Thus the single coefficient $\pi_I(a)$ in first mass is distinct from a numerator-density factor. We sum only over the assigned good masks; we do not interpret their mask coefficients as automatic numerator exclusions.
 
 At birth the raw weights are the static prescriptions of Section 4, including the additional static test constructed in Section 7. Subsequent locations descend from labels of the same row at the same physical point. For example, if a further mask portion $b$ is processed, the old denominator, phase, and numerator are all $b$ times their new values. Raw weights never increase. Dead labels may be omitted or assigned weight zero. We use the circle for partitions and the periodic lifts for pair counts; these give the same nearby pairs because all physical widths are small.
@@ -448,8 +447,8 @@ The structural requirement on every operation is invariance, or equivariance of 
 The loss of the core is bounded by $$\begin{equation}
  \log\frac{L_i}{\mathrm{core}_p}
  \ll \exp(h_*Y/10)+p+\exp(O(X))\ll p.
- \label{eq:core-loss}
-\end{equation}$$ For the gcd loss, sum the edge log-ratios over a spanning tree. At a fixed prime the maximal exponent loss needed to reach the common gcd is at most the sum of the absolute exponent changes on that tree. The remaining loss follows from the prime-log bound and the reductions just specified. For instance, primes not exceeding $\exp(O(X))$ give the last term; above that threshold the sum of the terms $4\log l+CX$ up to $p$ is $O(p)$. Since $\log p\ge\exp(Y)$ and $2h_H<1$, the last inequality follows. The path term is bounded using (eq:component-path) and the choice of $A_0$.
+ \tag{5.4}
+\end{equation}$$ For the gcd loss, sum the edge log-ratios over a spanning tree. At a fixed prime the maximal exponent loss needed to reach the common gcd is at most the sum of the absolute exponent changes on that tree. The remaining loss follows from the prime-log bound and the reductions just specified. For instance, primes not exceeding $\exp(O(X))$ give the last term; above that threshold the sum of the terms $4\log l+CX$ up to $p$ is $O(p)$. Since $\log p\ge\exp(Y)$ and $2h_H<1$, the last inequality follows. The path term is bounded using (5.1) and the choice of $A_0$.
 
 In particular, if $p^\nu\parallel L_i$ is a currently unprocessed tail prime power, then $p^\nu$ divides the pre-$p$ core. All previous decisions therefore preserve translation by $1/p^\nu$. This includes the transport of earlier projection data along the same-location ancestor of a current label: at every earlier time that prime power belonged to the core of its then-component.
 
@@ -459,16 +458,16 @@ The construction uses, separately for each exact width in a component, a partiti
 
 After the partition tests, any surviving points in the same cell, across all masks, are separated by $$\begin{equation}
  O\bigl(r_i e^{-E_gB_i}\bigr)
- \label{tab:cell-span}
+ \tag{5.5}
 \end{equation}$$ when measured at an entry of centre $i$ there. For a high-type component having direct newborn comparisons at height $Y$, the stronger bound $O(r_i e^{-E_gY})$ holds. Cells are padded at surviving points: in a later sparse step at height $Y'$ of the same unchanged component, same-width pairs at distance at most $$r_i\exp\left(-\tfrac12\exp(\sigma_gY')\right)$$ lie in the same cell. At a component change, survivors from one old child that lie in one new cell come from one of that child’s old cells.
 
 For each current remaining mask separately, cap the total raw load in a cell at $N_0$ by scaling all its weights if necessary. If $x_0$ is its pre-clip load and $x_D$ is the contribution of an old child $D$, then the inherited cap gives $$\begin{equation}
  \sum_Dx_D^2\le N_0x_0.
- \label{tab:clip-child}
+ \tag{5.6}
 \end{equation}$$ When $x_0>N_0$, it follows that $$x_0-N_0
  \le\frac{x_0^2-\sum_Dx_D^2}{N_0}.$$ Consequently the first mass lost in clipping is at most $N_0^{-1}$ times the same-width, same-mask pair count in the new cells, excluding pairs from the same old child and including newborn diagonals. Its currency is $$\begin{equation}
  r_i\pi_I(a)w_xw_y,
- \label{tab:one-law}
+ \tag{5.7}
 \end{equation}$$ with *one* mask-law factor. This is the narrow count in Proposition 5.2.
 
 There is also an equivalence relation on surviving labels, separately for each exact width but not separately for each mask. Its equivalence classes, called *accounting classes*, lie inside cells. At a component change retain each old-child class restricted to its surviving labels; newborn labels start as singletons. At each sparse-prime step coarsen these classes only after updating weights, using the tightly aligned successful plus pairs selected in Proposition 5.3. At every thinning or projection we restrict a class to its surviving descendants without splitting its equivalence relation further. In particular, deleting an old connecting label does not split a class. The new partitions must respect all these inherited equivalences.
@@ -484,7 +483,7 @@ Fractionally match the residual-scaled plus weights to the minus weights in that
 For these fixed before-prime and after-prime masks, the probabilities satisfy $$\begin{equation}
  \pi_I(a)=R_p\pi_{I'}(a),\qquad
  \pi_I(pa)=\frac{R_p^{[\nu\ge2]}}p\pi_{I'}(a).
- \label{tab:mask-transition}
+ \tag{5.8}
 \end{equation}$$ Translation by $1/p^\nu$ changes the plus numerator by a unit modulo $p$. Its success indicator $S$ thus has orbit mean $1/p$. The pre-link weights and the matching matrix transport equivariantly on this orbit. A matched portion of residual-scaled size $m$ has, in units of $\pi_{I'}(a)$, before-prime masses $m/p$ and $mR_p$ and after-prime masses $mS$ and $m(1-S)$. Unpaired portions give the same marginal identities. Summing over the finite translation orbits proves first-mass preservation. The orbit is a simultaneous translation of all lists; the assertion does not require independent success colors. ◻
 
 ### The three quantitative inputs
@@ -492,7 +491,7 @@ For these fixed before-prime and after-prime masks, the probabilities satisfy $$
 We specify the counts with their different pair-weight conventions explicit. For labels $x,y$ of widths $r_x,r_y$, write $r_{xy}^- =\min(r_x,r_y)$ and $r_{xy}^+=\max(r_x,r_y)$. The broad pair currency is $$\begin{equation}
  r_{xy}^-\lambda_x\lambda_y
  =r_{xy}^-\pi_I(a_x)\pi_I(a_y)w_xw_y.
- \label{tab:product-law}
+ \tag{5.9}
 \end{equation}$$ The product of probabilities is used even when $a_x=a_y$. A centre pair has a *first-sharing time* when its two centres first lie in one component; a self-pair has its birth as first-sharing time. At a join, counts involving new labels are taken before the fresh cap clipping and after its preliminary partition tests. For the broad majorants those tests can be dropped. For the narrow majorants they first supply the cell-span restriction, after which the point weights can be bounded by their incoming values.
 
 The distinction between these currencies is essential. Broad energy compares two weighted arrays and therefore multiplies their two mask coefficients. Clipping controls raw load at one fixed mask, so it uses that mask coefficient once. Table 1 records these conventions for reference throughout the remaining proof.
@@ -507,14 +506,14 @@ The distinction between these currencies is essential. Broad energy compares two
 
 **Proposition 5.2** (First-sharing comparison input). *For the selected finite blocks, there is a static additional birth test, depending only on the row data and squarefree low numerator moduli and not on the running tables, with arbitrarily small relative first-mass loss against the hard birth means, such that the following statements hold.*
 
-*For any fixed required absolute $C$, the sum, over first-sharing times and centre pairs, of the broad currencies (tab:product-law) for point pairs at distance at most $Cr_{xy}^+$ is $O(1)$.*
+*For any fixed required absolute $C$, the sum, over first-sharing times and centre pairs, of the broad currencies (5.9) for point pairs at distance at most $Cr_{xy}^+$ is $O(1)$.*
 
-*For exact same-width, same-remaining-mask point pairs in one new cell, sum the currencies (tab:one-law), excluding pairs from the same old child and including all newborn self and diagonal contributions. This sum is $$\begin{equation}
+*For exact same-width, same-remaining-mask point pairs in one new cell, sum the currencies (5.7), excluding pairs from the same old child and including all newborn self and diagonal contributions. This sum is $$\begin{equation}
  \ll W+O_{k_0}(W^{1+c})
- \label{tab:narrow-input}
-\end{equation}$$ for a fixed $c>0$. Both bounds are uniform in the finite block and in prior table histories obeying the stated operations and core symmetries. The constants in (tab:narrow-input) may depend on the preceding fixed cutoffs but not on $N_0$.*
+ \tag{5.10}
+\end{equation}$$ for a fixed $c>0$. Both bounds are uniform in the finite block and in prior table histories obeying the stated operations and core symmetries. The constants in (5.10) may depend on the preceding fixed cutoffs but not on $N_0$.*
 
-The direct adjacent simultaneous-birth part, including the static additional test, is proved in Proposition 7.1. The remaining first-sharing times are treated in Section 10. For the narrow estimates these proofs use the span bounds (tab:cell-span), rather than any unspecified independence of cell membership.
+The direct adjacent simultaneous-birth part, including the static additional test, is proved in Proposition 7.1. The remaining first-sharing times are treated in Section 10. For the narrow estimates these proofs use the span bounds (5.5), rather than any unspecified independence of cell membership.
 
 **Proposition 5.3** (Sparse-alignment input). *For each sparse-prime step in bin $Y$, there is an equivariant selection of exceptional same-width successful plus pairs at distance at most $$r_i\exp\left(-\tfrac12\exp(\sigma_gY)\right).$$ Coarsen accounting classes by every nonexceptional pair in this range whose two arriving masses are retained. Uniformly under the allowed prior histories, the following three sums over components, steps, applicable centre pairs, masks, and locations are bounded.*
 
@@ -528,9 +527,9 @@ The direct adjacent simultaneous-birth part, including the static additional tes
 
 Section 8 gives an explicit selection by deterministic trains of short intervals and proves these bounds. Thus the exception selection is part of the construction, not a choice made after seeing the total energy.
 
-**Proposition 5.4** (Chronological partition input). *The cells and accounting classes described above can be constructed chronologically for every finite block. The construction preserves current-core equivariance, the cell spans and padding stated in (tab:cell-span) and the paragraph following it, all inherited accounting classes without splitting, and the property that one new cell meets at most one surviving old cell of each old child. After clipping, the raw cap per cell and remaining mask is $N_0$. It supports the coarsening rule of Proposition 5.3 at each subsequent sparse step.*
+**Proposition 5.4** (Chronological partition input). *The cells and accounting classes described above can be constructed chronologically for every finite block. The construction preserves current-core equivariance, the cell spans and padding stated in (5.5) and the paragraph following it, all inherited accounting classes without splitting, and the property that one new cell meets at most one surviving old cell of each old child. After clipping, the raw cap per cell and remaining mask is $N_0$. It supports the coarsening rule of Proposition 5.3 at each subsequent sparse step.*
 
-*Aside from the cap clipping separately bounded by (tab:narrow-input), its total first-mass loss can be made arbitrarily small relative to the selected block mass by the fixed parameter cutoffs. An expected loss bound over the specified finite partition jitters suffices; the structural assertions and core equivariance hold for every realized construction. The comparison bounds apply to the actual running tables or to the nonnegative majorants indicated in their proofs.*
+*Aside from the cap clipping separately bounded by (5.10), its total first-mass loss can be made arbitrarily small relative to the selected block mass by the fixed parameter cutoffs. An expected loss bound over the specified finite partition jitters suffices; the structural assertions and core equivariance hold for every realized construction. The comparison bounds apply to the actual running tables or to the nonnegative majorants indicated in their proofs.*
 
 This proposition is proved in Section 9. Its construction only uses previously generated interval trains and inherited classes. Conversely, the sparse estimates apply to the history before the current coarsening. The two inputs are therefore used by finite chronological induction: the partition at a change is constructed from the past, and the next sparse estimate is applied before its new classes are joined. No future partition is used to establish a past estimate.
 
@@ -564,10 +563,10 @@ We now show what these inputs accomplish. Write $$\mathcal B
 For this purpose define the accounting energy $$\begin{equation}
  \mathcal A=\sum_A r_A\lambda(A)^2,
  \qquad \lambda(A)=\sum_{x\in A}\lambda_x,
- \label{tab:accounting-energy}
+ \tag{5.11}
 \end{equation}$$ where $A$ ranges over current accounting classes, all of whose labels have the same width $r_A$. Since a class is inside one cell, the cap for each mask and $\sum_{a\mid I}\pi_I(a)=1$ give $\lambda(A)\le N_0$. This applies to inherited old classes even before a fresh clipping.
 
-**Lemma 5.5** (Variance budget). *Let $J_p$ be the increment of (tab:accounting-energy) on old classes during a sparse-prime update, before coarsening, and let $K_p'\ge0$ be the increment from the subsequent coarsening. Then $$J_p\ge0,\qquad
+**Lemma 5.5** (Variance budget). *Let $J_p$ be the increment of (5.11) on old classes during a sparse-prime update, before coarsening, and let $K_p'\ge0$ be the increment from the subsequent coarsening. Then $$J_p\ge0,\qquad
  \sum_p(J_p+K_p')\ll N_0W,$$ where the sum includes all component steps.*
 
 *Proof.* Transport old labels and classes by the pre-core translations $1/p^\nu$, assigning zero post-weight to vanished labels. For a residual-scaled matched portion let $\mu$ denote its raw mass times its after-mask probability. Its contribution to the increment of a class $A$ is $$\mu\bigl(\mathbf1_{\{\text{plus}\in A\}}
@@ -576,7 +575,7 @@ For this purpose define the accounting energy $$\begin{equation}
 Let $\mathcal G$ be the finite group generated by $1/p^\nu$. Write $Y_A(g)$ for the post-mass on the transported class $gA$, and $m_A$ for its old mass, which is constant on its class orbit. The formula above gives $\mathbb E_{g\in\mathcal G}Y_A(g)=m_A$. Since each $g$ permutes the complete set of old classes per unit length, $$J_p=\sum_A r_A\bigl(\mathbb E_gY_A(g)^2-m_A^2\bigr)
      =\sum_A r_A\operatorname{Var}_g Y_A(g)\ge0.$$ Possible stabilizers cause no change: averaging over the whole group repeats every element of a class orbit equally. This is an identity for the actual summed energy increment, not an extra randomized construction. Coarsening adds the cross products between distinct old classes that are joined, giving $K_p'\ge0$.
 
-The total first mass inserted at births is at most $W$, by the hard mean upper bound and (tab:first-currency). Lemma 5.1 preserves first mass at sparse steps, so the total first mass lost in all discards is at most $W$. Discarding class mass $d_A$ drops its square by at most $2N_0d_A$. Restriction to survivors creates no further drop through splitting, because the equivalence relation is retained. New singleton classes contribute nonnegative injections, and the final accounting energy is at most $N_0W$. Telescoping the energy gives the asserted budget. ◻
+The total first mass inserted at births is at most $W$, by the hard mean upper bound and (5.3). Lemma 5.1 preserves first mass at sparse steps, so the total first mass lost in all discards is at most $W$. Discarding class mass $d_A$ drops its square by at most $2N_0d_A$. Restriction to survivors creates no further drop through splitting, because the equivalence relation is retained. New singleton classes contribute nonnegative injections, and the final accounting energy is at most $N_0W$. Telescoping the energy gives the asserted budget. ◻
 
 **Proposition 5.6** (Broad-energy bound). *Assuming Propositions 5.2–5.4, the final broad energy is bounded uniformly down the finite-block tail. The bound may depend on the fixed cap $N_0$ and preceding hierarchy parameters, but not on the block.*
 
@@ -586,7 +585,7 @@ The broad distance kernel is invariant under simultaneous translation. On expand
 
 Whenever an endpoint pair contributes to a broad signed kernel, the two corresponding plus positions are within $O(r_{xy}^+)$, by the cell-span bound. The total link fractions emanating from one plus label are at most its mass. Therefore all the absolute $1/p^2$ terms and all joint-success terms outside the tightest range are bounded by the first two parts of Proposition 5.3.
 
-*Tight cancellation.* At distance at most $r_{xy}^+\exp(-\exp(\sigma_gY))$ between the plus positions, all endpoint distances, including those involving matched minus positions, qualify for the broad kernel. More explicitly, choose $k_0$ small enough that the constant in (tab:cell-span) times $e^{-E_gB_i}$ is at most $1/10$ for every retained centre. Each linked displacement is then at most one tenth of its own width. All four endpoint distances are at most $(1+1/10+1/10)r_{xy}^+<10r_{xy}^+$. Matching preserves each endpoint’s width, so their four kernel values, including the factor $r_{xy}^-$, are identical. The signed contribution of a transfer consequently cancels. Only products of genuinely unpaired plus arrivals remain in this range.
+*Tight cancellation.* At distance at most $r_{xy}^+\exp(-\exp(\sigma_gY))$ between the plus positions, all endpoint distances, including those involving matched minus positions, qualify for the broad kernel. More explicitly, choose $k_0$ small enough that the constant in (5.5) times $e^{-E_gB_i}$ is at most $1/10$ for every retained centre. Each linked displacement is then at most one tenth of its own width. All four endpoint distances are at most $(1+1/10+1/10)r_{xy}^+<10r_{xy}^+$. Matching preserves each endpoint’s width, so their four kernel values, including the factor $r_{xy}^-$, are identical. The signed contribution of a transfer consequently cancels. Only products of genuinely unpaired plus arrivals remain in this range.
 
 *One-width self cost.* First fix one exact width $r$. Consider the self cost consisting of products of aligned unpaired plus arrivals within the relaxed range $r\exp(-\tfrac12\exp(\sigma_gY))$, multiplied by $r$. Pairs in different old classes are paid either by exceptions in Proposition 5.3 or by the coarsening increment $K_p'$.
 
@@ -595,7 +594,7 @@ For the within-class pairs, let $P_A$ be the successful arriving plus mass in an
  &\le J_p+
  r\sum_A\left\{\bigl(\mathbb E(P_A-N_A)\bigr)^2
                     +2\mathbb E(P_AN_A)\right\}.
- \label{tab:self-cost}
+ \tag{5.12}
 \end{align}$$ To check the inequality, expand $P_A^2=(P_A-N_A)^2+2P_AN_A-N_A^2$ and discard the last, nonpositive term. The variance part is included in $J_p$.
 
 *Capacity bounds.* Here are explicit capacity bounds for both charges. Index plus sources by $\xi$, with old class $B_\xi$, success indicator $S_\xi$, and mass $c_\xi$ that it would carry upon success (its residual-scaled raw weight times its after-mask probability). Let $q_{\xi A}$ be the weighted mass of its links to minus portions in $A\ne B_\xi$, and put $q_{\xi B_\xi}=0$. Then $$\sum_Aq_{\xi A}\le c_\xi,\qquad
@@ -611,9 +610,9 @@ For the within-class pairs, let $P_A$ be the successful arriving plus mass in an
  &\le\sum_{\substack{B_\xi\ne B_\eta\\
                   \operatorname{dist}(\xi,\eta)=O(r)}}
        c_\xi c_\eta S_\xi S_\eta.
-\end{align*}$$ The distance restrictions are justified before enlarging the sums: a nonzero term in a common class $A$ has both source locations in its cell, either directly or through a link. The first bound is paid by the before-plus counts times $1/p^2$. In the second, each ordered source pair occurs only once, regardless of how many destination classes receive parts of one source. The far or exceptional pairs are paid by Proposition 5.3. Each remaining pair is in the relaxed range and joins two old classes, so its charge is at most the corresponding product of retained post-class masses included in $K_p'$. Summing (tab:self-cost) over widths, components, and primes and applying Lemma 5.5 bounds the total relaxed self cost.
+\end{align*}$$ The distance restrictions are justified before enlarging the sums: a nonzero term in a common class $A$ has both source locations in its cell, either directly or through a link. The first bound is paid by the before-plus counts times $1/p^2$. In the second, each ordered source pair occurs only once, regardless of how many destination classes receive parts of one source. The far or exceptional pairs are paid by Proposition 5.3. Each remaining pair is in the relaxed range and joins two old classes, so its charge is at most the corresponding product of retained post-class masses included in $K_p'$. Summing (5.12) over widths, components, and primes and applying Lemma 5.5 bounds the total relaxed self cost.
 
-*Unequal widths.* Finally take unequal widths. Bin the actual post-projection locations in bins of length $\delta=r_{\max}e^{-E_Y}$, where $E_Y=\exp(\sigma_gY)$. By (eq:component-path), $$\log(r_{\max}/r_{\min})+\log3
+*Unequal widths.* Finally take unequal widths. Bin the actual post-projection locations in bins of length $\delta=r_{\max}e^{-E_Y}$, where $E_Y=\exp(\sigma_gY)$. By (5.1), $$\log(r_{\max}/r_{\min})+\log3
  \le \exp(h_*Y/10)+\log3<\tfrac12E_Y$$ for all permitted heights, so $3\delta$ is below the smaller width’s relaxed self scale. Let $X_{i,b}$ be the unpaired arriving mass of width $r_i$ in bin $b$, and let $\mathcal S_i$ be its full relaxed self cost at this step. A tight pair is in the same or adjacent bins, whence $$r_{\min}\sum_{|b-c|\le1}X_{i,b}X_{j,c}
  \le3r_{\min}
        \left(\sum_bX_{i,b}^2\sum_cX_{j,c}^2\right)^{1/2}
@@ -645,7 +644,7 @@ Because this row is full at $p$, its later grid is preserved by the same transla
 
 Multiply these adaptive fields by the full hard birth weight, omitting soft tests, the additional static discard, clipping, and partition discards. To handle hard anchor averaging, first fix all static anchor choices but use the *same* adaptive multiplier functions computed from the actual averaged tables. Every such fixed earlier hard field is invariant along each future prime orbit. Independence of the anchor choices from the adaptive plans is therefore unnecessary. Average the resulting virtual products over the anchor choices at the end.
 
-For the actual averaged hard weight, the actual final weight is its product with these multipliers and the intervening discard fractions. All discard fractions lie in $[0,1]$, so the virtual weight dominates it. Reverse orbit averaging removes the adaptive fields one by one. CRT then gives the hard birth means, bounded between $c_{\rm hard}$ and $1$ times the ordinary totient density. The true-grid omission proportions supply exactly the missing mask factors, as in (tab:first-currency). This proves the first item.
+For the actual averaged hard weight, the actual final weight is its product with these multipliers and the intervening discard fractions. All discard fractions lie in $[0,1]$, so the virtual weight dominates it. Reverse orbit averaging removes the adaptive fields one by one. CRT then gives the hard birth means, bounded between $c_{\rm hard}$ and $1$ times the ordinary totient density. The true-grid omission proportions supply exactly the missing mask factors, as in (5.3). This proves the first item.
 
 *Subset means.* The same reverse averaging works for any selected subset of the actual fields: remove the selected adaptive fields in reverse order, retaining all selected earlier hard fields, then use CRT on the hard fields. Their residue colours may depend on the fixed anchors, but their means are $1-b_p/p$ with $b_p\le2$, or $R_p$ for a scalar. All these means are positive: two active distinct exclusions occur only at large primes by the model-separation estimate. No lower bound on their full product is needed for this exact subset identity. For an upper version choose, within each fixed static anchor prescription, one of the exclusions at a prime with an active exclusion, independently of the partner in a pair count. Its mean is $R_p$; if none is active keep the prescribed scalar $R_p$. Dropping other exclusions and filters gives a pointwise upper bound. Any retained subset of these fields and of the adaptive fields again has product mean, proving the third item.
 
@@ -654,11 +653,11 @@ For the actual averaged hard weight, the actual final weight is its product with
     \left(\prod_{k<j}f_kd_k\right)f_j(1-d_j)
     \left(\prod_{k>j}f_k\right).$$ Thus every term has the actual prefix and the virtual suffix, even when adaptive plans depend on the actual preceding tables. Future full multipliers eliminate in reverse because the discard decision and its prefix are invariant under the corresponding unprocessed-prime translations. Future omitted coordinates restrict to their true numerator subarrays and contribute their residual scalars. More explicitly, for a remaining mask $a\mid I$, averaging the future full fields on that subarray leaves the factor $R(I/a)$. The current prefix-weighted discard array meets the subarray in exactly the fraction $1/a$, by its still-full unprocessed core. The factor recovered at the discard time is thus $$\begin{equation}
  \frac{R(I/a)}a=\pi_I(a).
- \label{tab:discard-currency}
+ \tag{5.13}
 \end{equation}$$ This is precisely its present first-mass currency. Summing these telescoping terms proves the assertion. Soft-test losses may accordingly be compared to hard birth means; future fields restore those same means.
 
 *Period control.* Finally an adaptive field through $p$ is invariant under the post-$p$ core translations. Intersect this translation group with a later grid of denominator $v'$. Its period in the later numerator coordinate divides $v'$ and is at most $$\frac{v'}{(v',\mathrm{core}_p)}
- \le\frac{L_i}{\mathrm{core}_p}\le\exp(O(p)),$$ by (eq:core-loss). Earlier field cores are divisible by the post-$p$ core, so this also gives a common period for all fields through $p$. The constant is fixed by the hierarchy and independent of the block. Static hard fields use only residue colours modulo their respective primes, so their joint modulus divides $\prod_{l\le p}l\le\exp(O(p))$. The potentially large rational model numerator and denominator specify the colour, not its modulus; if the denominator is divisible by the prime, that exclusion is inactive. Soft and hole tests are omitted from the virtual product. Thus their larger allowed moduli and the hole cutoff $\lambda_0$ do not affect this period bound. This proves the fourth item. ◻
+ \le\frac{L_i}{\mathrm{core}_p}\le\exp(O(p)),$$ by (5.4). Earlier field cores are divisible by the post-$p$ core, so this also gives a common period for all fields through $p$. The constant is fixed by the hierarchy and independent of the block. Static hard fields use only residue colours modulo their respective primes, so their joint modulus divides $\prod_{l\le p}l\le\exp(O(p))$. The potentially large rational model numerator and denominator specify the colour, not its modulus; if the denominator is divisible by the prime, that exclusion is inactive. Soft and hole tests are omitted from the virtual product. Thus their larger allowed moduli and the hole cutoff $\lambda_0$ do not affect this period bound. This proves the fourth item. ◻
 
 We will also use the preceding argument before the last projection. The following version makes explicit the interface needed to count an existing table against a fixed spatial query in Sections 9 and 10.
 
@@ -690,8 +689,8 @@ Since $r(v)\to0$, integrals of the weighted interval trains are squeezed between
 
 The soft loss must be compared with the actual virtual first mass, rather than with its uniform lower bound. Put $$V=\mathbb E\int F^{\rm vir},\qquad M_-\le V\le M_+.$$ By Lemma 4.7 and the discard telescoping identity, its contribution to the expected final loss is at most $\eta_s V$, where $\eta_s=C\epsilon_s/h_s\le\mu/20$. This is the choice of $\epsilon_s$ already made in the hierarchy; it does not require $\epsilon_s$ to be selected after the resulting $c_{\rm hard}$.
 
-With $c_{\rm hard}$ now fixed, make the additional static and partition losses small using Propositions 5.2 and 5.4. The clipping loss is at most $$\frac1{N_0}\{O(W)+O_{k_0}(W^{1+c})\},$$ by (tab:clip-child) and (tab:narrow-input). Choose the fixed cap only after those comparison constants. Since $W\le2w$, the later loss budgets and the cap can be chosen so that the combined non-soft loss is at most $\mu M_-/20$. Thus $$\mathbb E\|F^{\rm vir}-F\|_1
- \le \eta_s V+\mu M_-/20.$$ If no jitters are used, omit the expectation. The telescoping identity (tab:discard-currency) ensures that these are exactly the relevant final losses, including the soft loss measured against the hard birth means.
+With $c_{\rm hard}$ now fixed, make the additional static and partition losses small using Propositions 5.2 and 5.4. The clipping loss is at most $$\frac1{N_0}\{O(W)+O_{k_0}(W^{1+c})\},$$ by (5.6) and (5.10). Choose the fixed cap only after those comparison constants. Since $W\le2w$, the later loss budgets and the cap can be chosen so that the combined non-soft loss is at most $\mu M_-/20$. Thus $$\mathbb E\|F^{\rm vir}-F\|_1
+ \le \eta_s V+\mu M_-/20.$$ If no jitters are used, omit the expectation. The telescoping identity (5.13) ensures that these are exactly the relevant final losses, including the soft loss measured against the hard birth means.
 
 Proposition 5.6 gives a uniform bound on $\|F\|_2$. Indeed, the intersection length of two half-width intervals is at most $r_{xy}^-$ and vanishes unless their centres are at distance at most $r_{xy}^+$. It is therefore bounded by the final broad energy. If jitters are used, the same bound holds for $\mathbb E F$ by Jensen’s inequality. Fix a uniform constant $C_2$ with $\|\mathbb E F\|_2\le C_2$.
 
@@ -777,7 +776,7 @@ If the drift inequality fails, then $$l\le e^{100u},\qquad
 ### A weighted least-common-multiple estimate
 
 We now isolate the arithmetic structure of denominator pairs. The prime-stripping induction and common-pivot reduction follow the structural approach of Green and Walker (Green and Walker 2021, Proposition 1.2 and Section 3) and Hauke-Treuer, Vazquez and Walker (Hauke-Treuer, Vazquez, et al. 2026, Proposition 2.1). The lcm cutoff, totient-bounded vertex weights and moment-controlled edge inflation below require the stated local argument. For related unweighted small-lcm counts on dyadic integer sets, see Gou (Gou 2026, Corollary 1.4 and Theorem 1.5). Here we allow arbitrary finite supports and weighted edges, with the following inflation assumptions. Let $h_p\ge1$ be bounded, tend to one, and satisfy $$\begin{equation}
-\label{ar:h-moments}
+\tag{6.1}
  \prod_p\left(1+\frac{h_p^m-1}{p}\right)<\infty
  \qquad(m>0).
 \end{equation}$$ Put $h(n)=\prod_{p\mid n}h_p$. Uniformity in a family of such functions means a uniform bound for $\sup_ph_p$ and for every fixed moment product used below. Constants may depend on these bounds. In particular, for each $\epsilon>0$, $h(n)\ll_\epsilon n^\epsilon$ uniformly in such a family.
@@ -787,7 +786,7 @@ A weighted bipartite graph consists here of finite sets of positive integers, ve
 
 **Proposition 6.3** (Lcm bound). *Suppose $f(v)\le\phi(v)$, $g(w)\le\phi(w)$, and $$e(v,w)\le f(v)g(w)
  h\bigl(v/(v,w)\bigr)h\bigl(w/(v,w)\bigr).$$ If every positive edge satisfies $[v,w]\le Z$, then, for each fixed $1/2<u<1$, $$\begin{equation}
-\label{eq:lcm}
+\tag{6.2}
  \mathcal E\ll Z^{2(1-u)}(FG)^u.
 \end{equation}$$ More generally, in a cell fixing the exponents $i_p,j_p$ at a specified set of primes, its edge total satisfies the same bound with its own vertex totals and the additional factor $$h(K)K^{-(1-u)},\qquad K=\prod_p p^{|i_p-j_p|}.$$*
 
@@ -805,7 +804,7 @@ It suffices first to prove the bound for graphs with no prime below a fixed larg
 ##### Large-prime induction and common pivots.
 
 For the large-prime graph use induction on the number of occurring primes, with a constant to be fixed below. The zero-prime graph is immediate. If the assertion with this constant fails, normalize the edge weights to a probability law. At each occurring prime the induction hypothesis on a fixed exponent cell gives $$\begin{equation}
-\label{eq:prime-cell}
+\tag{6.3}
  m_{ij}\le p^{-(1-u)|i-j|}
  h_p^{\mathbf1_{i\ne j}}(\alpha_i\beta_j)^u,
 \end{equation}$$ where $\alpha_i,\beta_j$ are the fractions of the two vertex totals in those exponent classes. Lemma 2.5 gives a common exponent $k_p$ with total off-pivot vertex mass $O(1/p)$. The edge probability of two off-pivot exponents is $O(p^{-2u})$, and that of a single deviation of size at least two is $$O\bigl(p^{-2(1-u)-u}\bigr)=O(p^{-(2-u)}).$$ Both sums converge. Increasing $p_0$ therefore permits us to discard less than half the total edge weight while excluding both events at every prime.
@@ -817,12 +816,12 @@ Put $N=\prod_pp^{k_p}$. Every remaining edge has the form $$v=Na/b,\qquad w=Nc/d
 
 For $a\in[A,2A)$, set $$C=\frac Z{NA},\qquad D_1=NA^2,\qquad D_2=NC^2.$$ There are no such edges unless $C\ge1$. For each fixed $m>0$, the total upper vertex weight on the first side, inflated by $h(ab)^m$, is $O_m(D_1)$. To see this, use $$\phi(Na/b)\le a\phi(N/b),\qquad
  \sum_{b\mid N}\frac{\phi(N/b)}N h(b)^m
- \le\prod_{p\mid N}\left(1+\frac{h_p^m-1}{p}\right),$$ and expand $h(a)^m$ into its nonnegative squarefree divisor sum. Divisibility by $j$ among $a\le2A$ occurs at most $2A/j$ times. Equation (ar:h-moments) proves the bound. The same calculation on $c\le C$ gives $O_m(D_2)$.
+ \le\prod_{p\mid N}\left(1+\frac{h_p^m-1}{p}\right),$$ and expand $h(a)^m$ into its nonnegative squarefree divisor sum. Divisibility by $j$ among $a\le2A$ occurs at most $2A/j$ times. Equation (6.1) proves the bound. The same calculation on $c\le C$ gives $O_m(D_2)$.
 
 Holder’s inequality now bounds the retained edges in this dyad by $$O_m\left((D_1D_2)^{1/m}
    \bigl(\min(F,D_1)\min(G,D_2)\bigr)^{1-1/m}\right).$$ Indeed apply Holder under the actual product measure $f(v)g(w)$. Its mass on the dyad is at most $\min(F,O(D_1))\min(G,O(D_2))$, and the $m$th inflation moment under that measure is $O_m(D_1D_2)$ by the totient capacities. These constants depend only on the prescribed moment bounds, not on $N$ or its prime support. Choose $1-1/m>u$. Since $D_1D_2=Z^2$, divide this expression by $Z^{2(1-u)}(FG)^u$ and put $f_1=F/D_1$, $g_1=G/D_2$. The quotient is at most a constant times $$\frac{\min(f_1,1)^{1-1/m}}{f_1^u}
  \frac{\min(g_1,1)^{1-1/m}}{g_1^u}
- \le\min(f_1,f_1^{-1})^{c(u)}$$ for some $c(u)>0$. This is summable over dyadic $A$, since $D_1=NA^2$ changes geometrically. Thus the retained edges satisfy (eq:lcm) with a constant independent of the number of primes. Choose the inductive constant larger than twice this constant. Since at least half the original edge weight was retained, this contradicts the supposed failure and closes the induction. Stripping small primes as above proves the unrestricted bound and its cell form. ◻
+ \le\min(f_1,f_1^{-1})^{c(u)}$$ for some $c(u)>0$. This is summable over dyadic $A$, since $D_1=NA^2$ changes geometrically. Thus the retained edges satisfy (6.2) with a constant independent of the number of primes. Choose the inductive constant larger than twice this constant. Since at least half the original edge weight was retained, this contradicts the supposed failure and closes the induction. Stripping small primes as above proves the unrestricted bound and its cell form. ◻
 
 ### Structure when the determinant scale is small
 
@@ -830,12 +829,12 @@ For the application, vertex weights are multiplied by spatial widths. Thus, from
  \mathcal R=\frac{\max(r_1',r_2')}{\min(r_1',r_2')}.$$ At determinant scale $0<\eta<1$, meaning that the edge lcms are comparable to $\eta/r_+'$, the ordinary bound supplies a factor $\eta^{2(1-u)}$. Since $2(1-u)<1$, this alone does not give a summable saving after a pair count costs $1/\eta$. We shall show that failure of a stronger estimate forces a structured family of denominator pairs. The following alternative is the structural output of the section.
 
 **Proposition 6.4** (Small-scale extraction). *Fix positive constants $c_-,c_+$. Suppose $F,G\le1$ and every positive edge satisfies $$c_-\eta/r_+'\le[v,w]\le c_+\eta/r_+',\qquad 0<\eta<1.$$ Given any sufficiently small fixed $\vartheta>0$, there are $u\in(1/2,1)$, $\chi>0$, and $\eta_0>0$ such that for $\eta<\eta_0$ either $$\begin{equation}
-\label{eq:small-saving}
+\tag{6.4}
  \mathcal E\le\eta^{1+\chi}\mathcal R^{-1/10}(FG)^u,
 \end{equation}$$ or $\mathcal R\le\eta^{-\vartheta}$ and a subfamily of edges has the form $$v=NU_0a/b,\qquad w=NT_0c/d_1,\qquad
  [v,w]=NU_0T_0ac.$$ Here $N,U_0,T_0$ are fixed positive integers, $$(U_0,T_0)=1,\qquad U_0T_0\le\eta^{-\vartheta},$$ $b,d_1\mid N$, and $a,b,c,d_1$ are pairwise coprime squarefree integers coprime to $U_0T_0$. Moreover, $a\in[A,2A)$ and $c\in[C,2C)$ for fixed dyadic $A,C$. The capacities $$D_1=r_1'NU_0A^2,\qquad D_2=r_2'NT_0C^2$$ satisfy $\eta^{2+\vartheta}\le D_i\le\eta^{-\vartheta}$, and the captured normalized edge weight is at least $\eta^\vartheta D_1D_2$. Every prime in the parameters occurs in the original lists.*
 
-*Proof.* We may suppose $\mathcal E>0$ and that (eq:small-saving) fails. We shall first fix exceptional exponent coordinates, then concentrate the remaining coordinates at common pivots, and finally select one occupied pair of dyadic ranges. Small losses in powers of $\eta$ will be chosen within a reserve much smaller than $\vartheta$.
+*Proof.* We may suppose $\mathcal E>0$ and that (6.4) fails. We shall first fix exceptional exponent coordinates, then concentrate the remaining coordinates at common pivots, and finally select one occupied pair of dyadic ranges. Small losses in powers of $\eta$ will be chosen within a reserve much smaller than $\vartheta$.
 
 ##### Choosing a cell of maximal quality.
 
@@ -846,14 +845,14 @@ Every occurring small prime is fixed in this cell. Otherwise maximality would bo
 
 In normalized variables, Proposition 6.3 and its cell version give $$\mathcal E'\ll
  \eta^{2(1-u)}\mathcal R^{-(1-u)}
- h(K)K^{-(1-u)}(F'G')^u.$$ Compare this with the quality inherited from the unrestricted graph and the failure of (eq:small-saving). It follows that $$\begin{equation}
-\label{ar:fixed-ratio}
+ h(K)K^{-(1-u)}(F'G')^u.$$ Compare this with the quality inherited from the unrestricted graph and the failure of (6.4). It follows that $$\begin{equation}
+\tag{6.5}
  K^{.02}h(K)^{-1}\mathcal R^{1-u-1/10}
  \ll_{p_0}\eta^{-2\epsilon_0-\chi}.
 \end{equation}$$ Since $h(K)\ll_\epsilon K^\epsilon$, both $K$ and $\mathcal R$ are bounded by arbitrarily small powers of $1/\eta$ on choosing $\epsilon_0,\chi$ small and subsequently $\eta$ small.
 
 Let $m$ be the normalized edge law in the selected cell. At a remaining prime, maximality gives the bound of Lemma 2.5 with price $p^{-s|i-j|}$, even without an $h_p$ factor. On any joint subset of remaining primes, the proved cell bound additionally gives $$\begin{equation}
-\label{eq:joint-cell}
+\tag{6.6}
  m_{ij}\ll_{p_0}\eta^{-2\epsilon_0-\chi}
  K_{ij}^{-(1-u)}h(K_{ij})(\alpha_i\beta_j)^u.
 \end{equation}$$ In this display $i,j$ are exponent vectors on the queried subset and $K_{ij}$ is their ratio product. To obtain it, divide the combined-cell upper bound by the quality lower bound for $\mathcal E'$; the fixed factor $h(K)K^{-.02}$ and the favorable power of $\mathcal R$ are bounded.
@@ -870,14 +869,14 @@ For a remaining prime let $k$ be its pivot, let $d=(1-\alpha_k)+(1-\beta_k)$, an
 
 Choose $\epsilon'>0$ so small that $(1-\epsilon')2u'>1$. For primes with $x\le p^{-1+\epsilon'}$, all costs $x^{2u'}\log p$ are summable. For the other primes we claim $$\begin{align}
  \operatorname{Ent}_m(i)+\operatorname{Ent}_m(j)
- &\le x\log(1/x)+O(x)+O(x^{2u'}),\label{ar:marginal-entropy}\\
- \mathbb E_m|i-j|&\ge x-2B_p'.\label{ar:ratio-expectation}
+ &\le x\log(1/x)+O(x)+O(x^{2u'}),\tag{6.7}\\
+ \mathbb E_m|i-j|&\ge x-2B_p'.\tag{6.8}
 \end{align}$$ Entropy means $-\sum_aP(a)\log P(a)$, with the summand zero at a zero atom. For the first inequality, single deviations at distance at most four occupy a bounded number of offsets, of total mass at most $x$. Single deviations at distance at least five have entropy $O(x^{2u'})$: indeed the sum of the $.8$ powers of their geometric majorants is $O(p^{-4s})$, and $4s>2u'(1-\epsilon')$ for the choices above. Double-off entropy was already bounded. Passing from entries to marginal atoms only decreases these entropy upper bounds. The second inequality follows because each single deviation contributes at least one, while double deviations are counted twice in $x$. For clarity, the leading entropy term is not counted twice. Set $x_1=m(i\ne k)$ and $x_2=m(j\ne k)$. The bounded-offset part of the two marginals has entropy at most $$x_1\log(1/x_1)+x_2\log(1/x_2)+O(x)
  \le x\log(1/x)+O(x),\qquad x_1+x_2=x.$$ The unbounded-offset contributions are the double-off and far-single errors already estimated. In the far-single estimate, the explicit geometric sum is $O(\sum_{a\ge5}p^{-.8sa})=O(p^{-4s})$.
 
 ##### An entropy budget across primes.
 
-We now combine the coordinate bounds without assuming independence among primes. Apply (eq:joint-cell) on the joint subset with $x>p^{-1+\epsilon'}$, take logarithms, and average under $m$. The cross-entropy against $\alpha$ is at least the entropy of the first edge marginal, and similarly for $\beta$. The joint edge entropy is at most the sum of its two vector marginal entropies, which in turn are at most their coordinate entropy sums. Thus $$\begin{align*}
+We now combine the coordinate bounds without assuming independence among primes. Apply (6.6) on the joint subset with $x>p^{-1+\epsilon'}$, take logarithms, and average under $m$. The cross-entropy against $\alpha$ is at least the entropy of the first edge marginal, and similarly for $\beta$. The joint edge entropy is at most the sum of its two vector marginal entropies, which in turn are at most their coordinate entropy sums. Thus $$\begin{align*}
  (1-u)\mathbb E_m\log K_{ij}
  &\le (1-u)\sum_p
    \bigl(\operatorname{Ent}_m(i_p)+\operatorname{Ent}_m(j_p)\bigr)\\
@@ -885,19 +884,19 @@ We now combine the coordinate bounds without assuming independence among primes.
        +O_{p_0}(1)+(2\epsilon_0+\chi)|\log\eta|.
 \end{align*}$$ Indeed, if $\mu,\nu$ are the two vector edge marginals, the entropy expression obtained by averaging the logarithm is $$\operatorname{Ent}(m)-u\operatorname{CE}(\mu,\alpha)
                          -u\operatorname{CE}(\nu,\beta)
- \le(1-u)\bigl(\operatorname{Ent}(\mu)+\operatorname{Ent}(\nu)\bigr).$$ Here $\operatorname{CE}(\mu,\alpha)=-\sum_i\mu_i\log\alpha_i$. If a vertex-law atom is zero, the majorant forces the corresponding edge marginal atom to be zero, so all cross-entropy terms are taken on their positive support. No equality of vertex and edge laws, or independence among prime coordinates, is used. Here $\log(1/x)\le(1-\epsilon')\log p$. Equations (ar:marginal-entropy)–(ar:ratio-expectation) therefore leave a positive multiple of $\epsilon'\sum_px\log p$ on the left. For sufficiently large $p_0$, the $h$ term, $B_p'\log p$, and the $O(x)$ terms are absorbed into that margin. Consequently $$\begin{equation}
-\label{ar:entropy-budget}
+ \le(1-u)\bigl(\operatorname{Ent}(\mu)+\operatorname{Ent}(\nu)\bigr).$$ Here $\operatorname{CE}(\mu,\alpha)=-\sum_i\mu_i\log\alpha_i$. If a vertex-law atom is zero, the majorant forces the corresponding edge marginal atom to be zero, so all cross-entropy terms are taken on their positive support. No equality of vertex and edge laws, or independence among prime coordinates, is used. Here $\log(1/x)\le(1-\epsilon')\log p$. Equations (6.7)–(6.8) therefore leave a positive multiple of $\epsilon'\sum_px\log p$ on the left. For sufficiently large $p_0$, the $h$ term, $B_p'\log p$, and the $O(x)$ terms are absorbed into that margin. Consequently $$\begin{equation}
+\tag{6.9}
  \sum_{p:\,x>p^{-1+\epsilon'}}x\log p
  \ll_{u,\epsilon'}|\log\eta|.
 \end{equation}$$ The proportional constant is independent of a further increase of $p_0$, after decreasing $\eta_0$ to absorb its additive constant. The choices occur in this order: first $\epsilon_0,\chi$, hence $u$; then $u'\in(1/2,u)$; then $\epsilon'$ with $(1-\epsilon')2u'>1$; then $p_0$; and finally $\eta_0$. The constant depending on $u,\epsilon'$ may be large, but is fixed before $p_0$ is increased.
 
 ##### Fixing the exceptional pattern.
 
-The purpose of (ar:entropy-budget) is to control the entire exceptional pattern, not only each prime separately. Record $(i_p,j_p)$ when both differ from the pivot, and record a blank otherwise. Its coordinate entropy, including the blank atom, is $O(x^{2u'})$; its expected log-ratio is $O(x^{2u'}\log p)$. On the small-$x$ primes these costs have an arbitrarily small tail. On the remaining primes they are an arbitrarily small multiple of the budget (ar:entropy-budget), by increasing $p_0$ and using $x\ll p^{-s/(1-u)}$. Subadditivity therefore makes both the full pattern entropy and its expected log-ratio as small a multiple of $|\log\eta|$ as desired.
+The purpose of (6.9) is to control the entire exceptional pattern, not only each prime separately. Record $(i_p,j_p)$ when both differ from the pivot, and record a blank otherwise. Its coordinate entropy, including the blank atom, is $O(x^{2u'})$; its expected log-ratio is $O(x^{2u'}\log p)$. On the small-$x$ primes these costs have an arbitrarily small tail. On the remaining primes they are an arbitrarily small multiple of the budget (6.9), by increasing $p_0$ and using $x\ll p^{-s/(1-u)}$. Subadditivity therefore makes both the full pattern entropy and its expected log-ratio as small a multiple of $|\log\eta|$ as desired.
 
 Single deviations of distance at least two have total probability bounded by the tail of $$\sum_p O\bigl(p^{-2s-us/(1-u)}\bigr).$$ Its exponent is greater than one for $u$ sufficiently close to $1/2$. Discard these deviations. Markov’s inequality for the double-pattern log-ratio and its information $-\log\Pr(\text{pattern})$ leaves a fixed positive probability on patterns of log-ratio at most $\rho|\log\eta|$ and information at most $\rho|\log\eta|$, where $\rho>0$ can be as small as desired. There are at most $\eta^{-\rho}$ such patterns. One pattern therefore retains at least a fixed constant times $\eta^\rho$ of the original edge probability after the discards.
 
-Fix it. At its primes and the previously fixed primes put the minimum of the two exponents into $N$, and put the two surplus parts into $U_0,T_0$. At every other prime put the pivot into $N$. The remaining single-step deviations give $a,b,c,d_1$. They are squarefree, pairwise coprime, and supported away from $U_0T_0$; also $b,d_1\mid N$. This proves the required algebraic form. Equations (ar:fixed-ratio) and the pattern log-ratio bound make $\mathcal R,U_0T_0$ at most arbitrarily small powers of $1/\eta$.
+Fix it. At its primes and the previously fixed primes put the minimum of the two exponents into $N$, and put the two surplus parts into $U_0,T_0$. At every other prime put the pivot into $N$. The remaining single-step deviations give $a,b,c,d_1$. They are squarefree, pairwise coprime, and supported away from $U_0T_0$; also $b,d_1\mid N$. This proves the required algebraic form. Equations (6.5) and the pattern log-ratio bound make $\mathcal R,U_0T_0$ at most arbitrarily small powers of $1/\eta$.
 
 ##### Selecting an occupied dyadic box.
 
@@ -937,7 +936,7 @@ We prove the part of Proposition 5.2 concerning adjacent simultaneous births. T
 
 A *direct pair* is an ordered pair of centres inserted at the same height $Y=Y_0$ and satisfying $\log UT\le\beta Y$, with self-pairs allowed. Simultaneous newborn pairs that first share a component but satisfy $\log UT>\beta Y$ are treated in Section 10. On medium type, the band separation implies $B_i=B_j$; moreover, the two centres have the same product $P$ and the same tagged/tail division, since $J\gg\beta D_0$. On high type they have the same last dense height $Y_d$ and the same $P$. Indeed, any graph neighbour of a high centre at its insertion has the same last dense bin, so its entire component is newborn. Group centres by this common $P$, start, and tagged/tail division, including the band on medium type but not splitting bands on high type. Each row belongs to one group, and direct pairs do not cross groups. Write $$X_0=B_i=B_j\quad\hbox{on medium type},
  \qquad X_0=Y_d\quad\hbox{on high type}.$$ The definitions of the starts and the centre-scale bounds give $$\begin{equation}
-\label{eq:direct-size}
+\tag{7.1}
  \log\bigl(2+UT+K+r_{\max}/r_{\min}\bigr)\ll X_0.
 \end{equation}$$
 
@@ -956,7 +955,7 @@ We first establish the estimates common to both sums. Write $L_i=S_iP$, $L_j=S_j
  \quad \mathcal L_j=\lfloor d_j\alpha_j\rfloor.$$ Define $$f=(m_i,m_j),\qquad f_0=(Td_i,Ud_j),
  \qquad \sigma_0=\frac{Td_i}{f_0}=\frac{s m_i}{f},
  \quad \tau_0=\frac{Ud_j}{f_0}=\frac{t m_j}{f}.$$ The identities follow from the disjoint prime supports of low and tagged parts; in particular, $\sigma_0$ and $\tau_0$ are coprime. A pair within the tested distance, henceforth a *cohit*, satisfies $$\begin{equation}
-\label{eq:direct-determinant}
+\tag{7.2}
  \begin{split}
  |\sigma_0(z_i+\alpha_i)-\tau_0(z_j+\alpha_j)|&\le\Delta,\\
  \Delta&=\frac{CK\varepsilon}{f_0}
@@ -967,7 +966,7 @@ We first establish the estimates common to both sums. Write $L_i=S_iP$, $L_j=S_j
  \end{split}
 \end{equation}$$ where $\varepsilon=1$ for broad comparisons and $\varepsilon=e^{-E_gX_0}$ for narrow ones. Constants in distance tests are absorbed into $C$. For each determinant integer the bare count, multiplied by $r_{\min}$, is at most $$\Theta_{ij}\frac{f_0}{d_i d_j}.$$ Indeed, writing $G=(L_i,L_j)$, the projected denominators $L_i/d_i,L_j/d_j$ have gcd $Gf_0/(d_i d_j)$, and $$Td_i=[S_i,S_j]m_i/V,\qquad
  Ud_j=[S_i,S_j]m_j/W',\qquad
- f_0=[S_i,S_j]f/[V,W'].$$ Put $\eta_1=[V,W']P r_{\max}$. Call a comparison *ultra* if it is narrow, or if it is broad and either $f>1$ or $-\log\eta_1\ge Q_0X_0$. The tag-prime lower bounds, the choices of $J,E_g$, and (eq:direct-size) imply $$\Delta\ll e^{-.9Q_0X_0}
+ f_0=[S_i,S_j]f/[V,W'].$$ Put $\eta_1=[V,W']P r_{\max}$. Call a comparison *ultra* if it is narrow, or if it is broad and either $f>1$ or $-\log\eta_1\ge Q_0X_0$. The tag-prime lower bounds, the choices of $J,E_g$, and (7.1) imply $$\Delta\ll e^{-.9Q_0X_0}
  \qquad\text{in every ultra comparison}.$$
 
 Every narrow comparison is therefore ultra. Lemmas 7.2 and 7.3 reduce this regime to rational models and low coordinates; Lemmas 7.4 and 7.5 then complete its count. The remaining broad comparisons have $f=1$ and are controlled by the row kernel of Lemma 7.6. Before extracting a small-scale box, we fix the static holes in Construction 7.7. The final three lemmas exclude high, shallow medium, and deeper medium boxes, respectively.
@@ -981,16 +980,16 @@ The first lemma extracts rational phases at ultra tolerance. A switch is only a 
        \ll\Delta e^{O(D')X_0},
  \qquad A_i-A_j=-(\sigma_0z_i-\tau_0z_j).$$ They are unique within these bounds. For every switched divisor $h$ on side $i$, the reduced denominator of $A_i/h$ is at most $e^{C_3D'X_0}$, where $C_3\ll C_1$ is absolute; the analogous assertion holds on side $j$. In particular, switched large primes divide the appropriate reduced numerator. There is a fixed $E'\ll E$ such that $A_i/\sigma_0$ and $A_j/\tau_0$ have denominators at most $e^{E'X_0}$. If no switch is available, both $\sigma_0,\tau_0\le e^{E'X_0}$.*
 
-*Proof.* Every $h\mid(d_i,\sigma_0)$ can be removed from $d_i$ without changing $f_0$: at each affected prime the first argument of the gcd has an exponent surplus at least the removed exponent. Fix the centres, widths, outer masks, $d_i/h$, and $d_j$. On a dyad for $h$, equation (eq:direct-determinant) is a rotation condition with $h$ occurring linearly, fixed slope $\sigma_0\alpha_i/h$, and unchanged tolerance. Lemma 6.2, with budget $D'X_0$, therefore gives the rational alternative except on $O(e^{-D'X_0})$ of that dyad’s normalized count. Its approximation error for the slope is at most $\Delta e^{C_3D'X_0}/h$.
+*Proof.* Every $h\mid(d_i,\sigma_0)$ can be removed from $d_i$ without changing $f_0$: at each affected prime the first argument of the gcd has an exponent surplus at least the removed exponent. Fix the centres, widths, outer masks, $d_i/h$, and $d_j$. On a dyad for $h$, equation (7.2) is a rotation condition with $h$ occurring linearly, fixed slope $\sigma_0\alpha_i/h$, and unchanged tolerance. Lemma 6.2, with budget $D'X_0$, therefore gives the rational alternative except on $O(e^{-D'X_0})$ of that dyad’s normalized count. Its approximation error for the slope is at most $\Delta e^{C_3D'X_0}/h$.
 
 Stripping $h$ contributes exactly $1/h$ to the bare ratio $f_0/(d_i d_j)$. We may drop all other assignment and eligibility restrictions when summing the exception. At equal centre exponents the local unrestricted sum is at most $$\sum_{a,b\ge0}p^{-\max(a,b)}=1+O(1/p).$$ At unequal exponents, say $\nu_p(U)=g>0$, it is at most $$\sum_{a,b\ge0}p^{\min(a,g+b)-a-b}
-       \le (1+g)^C(1+C/p)$$ with absolute $C$. The processed-prime harmonic sum is $O(Y_0)$, so the stripped-mask sum costs at most $\exp(CY_0)\tau(UT)^C$. Outer masks still integrate as probabilities, including the one-law coupling in the narrow case. There are at most $\exp(O(Y_0))$ dyads in all the indicated tests. Choosing $D'$ large against these costs bounds the exceptional count for a centre pair by $$\Theta_{ij}e^{-D'X_0/2}.$$ The centre kernel (eq:centre-kernel), lower bounds (eq:centre-lower), and (eq:direct-size) sum these errors to $O_{k_0}(W^{1+c})$, leaving exponential decay for shell multiplicities.
+       \le (1+g)^C(1+C/p)$$ with absolute $C$. The processed-prime harmonic sum is $O(Y_0)$, so the stripped-mask sum costs at most $\exp(CY_0)\tau(UT)^C$. Outer masks still integrate as probabilities, including the one-law coupling in the narrow case. There are at most $\exp(O(Y_0))$ dyads in all the indicated tests. Choosing $D'$ large against these costs bounds the exceptional count for a centre pair by $$\Theta_{ij}e^{-D'X_0/2}.$$ The centre kernel (3.2), lower bounds (3.4), and (7.1) sum these errors to $O_{k_0}(W^{1+c})$, leaving exponential decay for shell multiplicities.
 
 For precision at the switch endpoints, round the lower cutoff up to a dyad start, use divisor dyads from there through its square, and use prime dyads from there onwards. On every nonexceptional pair every available test gives its rational alternative. Multiplication by $h$ gives $A_i$; the determinant relation defines $A_j=A_i+\sigma_0z_i-\tau_0z_j$. Candidates obtained from any two switches have denominators at most $e^{C_3D'X_0}$ and differ by at most $O(\Delta e^{C_3D'X_0})$. The latter is smaller than the reciprocal product of their denominators, by $Q_0\gg D'$. Thus the candidates coincide. This proves the exact displayed relation and simultaneous uniqueness, and $A_i/h$ has the stated small denominator for every switched $h$.
 
-It remains to divide by the whole signature. We have $\sigma_0/(d_i,\sigma_0)\mid T$: at a prime, writing $a=\nu_p(d_i)$, $b=\nu_p(T)$, $c=\nu_p(f_0)$, the exponent in this quotient is $\max(b-c,0)\le b$. The good-mask condition bounds the prime-power excess on $(d_i,\sigma_0)$ by $e^{C_{\rm mask}B_i}$, and every sufficiently large prime there divides the reduced numerator of $A_i$. Among the smaller distinct primes not dividing that numerator, the product is below the lower switch cutoff, up to a fixed factor. Otherwise, a first-crossing subproduct would lie between the cutoff and its square and would be a tested divisor. Dividing by this product, which is coprime to the numerator, would give a denominator larger than the allowed $e^{C_3D'X_0}$. Explicitly, if $A_i=n/q$ is reduced and $(n,h)=1$, then the reduced denominator of $A_i/h$ is $qh$, even if $h$ and $q$ share primes. The remaining factor $T$, excess powers, and subcutoff product are all singly exponential in $X_0$ by (eq:direct-size); this proves the denominator bound with a fixed $E'\ll E$. If no tested divisor occurs, the same factor decomposition bounds the signatures themselves. The argument on side $j$ is identical. ◻
+It remains to divide by the whole signature. We have $\sigma_0/(d_i,\sigma_0)\mid T$: at a prime, writing $a=\nu_p(d_i)$, $b=\nu_p(T)$, $c=\nu_p(f_0)$, the exponent in this quotient is $\max(b-c,0)\le b$. The good-mask condition bounds the prime-power excess on $(d_i,\sigma_0)$ by $e^{C_{\rm mask}B_i}$, and every sufficiently large prime there divides the reduced numerator of $A_i$. Among the smaller distinct primes not dividing that numerator, the product is below the lower switch cutoff, up to a fixed factor. Otherwise, a first-crossing subproduct would lie between the cutoff and its square and would be a tested divisor. Dividing by this product, which is coprime to the numerator, would give a denominator larger than the allowed $e^{C_3D'X_0}$. Explicitly, if $A_i=n/q$ is reduced and $(n,h)=1$, then the reduced denominator of $A_i/h$ is $qh$, even if $h$ and $q$ share primes. The remaining factor $T$, excess powers, and subcutoff product are all singly exponential in $X_0$ by (7.1); this proves the denominator bound with a fixed $E'\ll E$. If no tested divisor occurs, the same factor decomposition bounds the signatures themselves. The argument on side $j$ is identical. ◻
 
-We next average the high numerator coordinates. The exact lift used in this averaging is $$D=T(d_i z_i+\mathcal L_i)-U(d_j z_j+\mathcal L_j).$$ It is invariant under joint unit translation, and every cohit satisfies $$|D|\ll T+U+K.$$ The bound follows by replacing the two floors with their arguments and using (eq:direct-determinant).
+We next average the high numerator coordinates. The exact lift used in this averaging is $$D=T(d_i z_i+\mathcal L_i)-U(d_j z_j+\mathcal L_j).$$ It is invariant under joint unit translation, and every cohit satisfies $$|D|\ll T+U+K.$$ The bound follows by replacing the two floors with their arguments and using (7.2).
 
 **Lemma 7.3** (Tag arrangements and folding). *Apart from the exceptions of Lemma 7.2, tag masks in each bin may be restricted to the following arrangements: they are identical, or they are disjoint. There are only boundedly many bin arrangements. If $f=1$, all bins are disjoint.*
 
@@ -1033,24 +1032,24 @@ Let $\mathbf b$ denote this vector, and include all assigned good rows and all r
 
 For an exact equality between $V$ and $W'$, write $$H_V=2+q+b_V,\qquad
  b_V=\frac{|\alpha-\zeta|m}{VP r_i},$$ and define $H_{W'},b_{W'}$ similarly. The soft tests and the identity $$s(qZ_i+m'n_0)=t(qZ_j+m'n_0)$$ imply $$\begin{equation}
-\label{dir:soft-ratios}
+\tag{7.3}
  q\mid s-t,\qquad
  s\le H_{W'}^{h_s},\qquad t\le H_V^{h_s}.
 \end{equation}$$ Indeed, $(s,t)=1$ gives $t\mid qZ_i+m'n_0$ and $s\mid qZ_j+m'n_0$. Since $t\mid V$, division by the unit $m'$ in the low test bounds $t$ by its soft gcd; the other side is the same. Reduction modulo $q$, using $(q,m'n_0)=1$, gives the first assertion. If $\alpha\ne\zeta$ and the two interval bumps intersect, their centres also give $$\begin{equation}
-\label{dir:bias-overlap}
+\tag{7.4}
  m'|\alpha-\zeta|\,|1/V-1/W'|\ll\rho_i+\rho_j,
  \qquad
  |s-t|\ll s/b_V+t/b_{W'}.
 \end{equation}$$
 
-Orient so that $H_V\le H_{W'}$. First suppose $H_{W'}\le H_V^{1/(3h_s)}$. Then $s\le H_V^{1/3}$ and $t\le H_V^{h_s}$. For large $H_V$, either $q>s+t$, in which case (dir:soft-ratios) forces $s=t$, or $q\le s+t\le2H_V^{1/3}=o(H_V)$. In the latter case $b_V\ge H_V/2$ and $b_{W'}\ge H_{W'}/2$ for large $H_V$, so the right side of (dir:bias-overlap) is $O(H_V^{-2/3}+H_V^{h_s-1})<1$ and again $s=t$. The zero-bias case belongs to the first alternative at large height. Thus large comparable heights give the same row, while bounded heights permit only boundedly many pairs of ratios $(s,t)$.
+Orient so that $H_V\le H_{W'}$. First suppose $H_{W'}\le H_V^{1/(3h_s)}$. Then $s\le H_V^{1/3}$ and $t\le H_V^{h_s}$. For large $H_V$, either $q>s+t$, in which case (7.3) forces $s=t$, or $q\le s+t\le2H_V^{1/3}=o(H_V)$. In the latter case $b_V\ge H_V/2$ and $b_{W'}\ge H_{W'}/2$ for large $H_V$, so the right side of (7.4) is $O(H_V^{-2/3}+H_V^{h_s-1})<1$ and again $s=t$. The zero-bias case belongs to the first alternative at large height. Thus large comparable heights give the same row, while bounded heights permit only boundedly many pairs of ratios $(s,t)$.
 
 Now suppose $H_{W'}>H_V^{1/(3h_s)}$. Then $b_{W'}\asymp H_{W'}$, and $$\begin{equation}
-\label{dir:disparate-widths}
+\tag{7.5}
  \frac{\rho_j}{\rho_i}
    =\frac{V}{W'}\frac{b_V}{b_{W'}}
    \ll\frac{H_V^{1+h_s}}{H_{W'}}.
-\end{equation}$$ The identity is needed only when the bias is nonzero; zero bias makes $H_V=H_{W'}$ and cannot occur in this case. Per point on $V$, the number of possible partners in a dyad $H_{W'}\asymp D$ is $O(H_V^{h_s}D^{h_s})$, by (dir:soft-ratios). Each ratio determines $W'$, which determines its row, and exact equality determines its point. Consequently the sum of partner lengths relative to $\rho_i$ is at most $$O\left(
+\end{equation}$$ The identity is needed only when the bias is nonzero; zero bias makes $H_V=H_{W'}$ and cannot occur in this case. Per point on $V$, the number of possible partners in a dyad $H_{W'}\asymp D$ is $O(H_V^{h_s}D^{h_s})$, by (7.3). Each ratio determines $W'$, which determines its row, and exact equality determines its point. Consequently the sum of partner lengths relative to $\rho_i$ is at most $$O\left(
  H_V^{1+2h_s}
  \sum_{D\gtrsim H_V^{1/(3h_s)}}D^{h_s-1}
  \right)=O(1).$$ Here the sum is dyadic, and $1+2h_s+(h_s-1)/(3h_s)<0$ for $h_s<.01$. Since $H_V\ge3$, this is uniform also for bounded $H_V$ and infinitely many possible partner height dyads. In the comparable case, charge the first bump length and use the bounded number of partners. Products of low weights are at most the charged row’s low weight. Its average is at most $R(V)$, so the same-mask square is bounded by constant times low first mass.
@@ -1066,9 +1065,9 @@ Now suppose $H_{W'}>H_V^{1/(3h_s)}$. Then $b_{W'}\asymp H_{W'}$, and $$\begin{eq
 
 **Lemma 7.5** (Completion of ultra comparisons). *All ultra comparisons in Proposition 7.1 have total cost $O(W)+O_{k_0}(W^{1+c})$.*
 
-*Proof.* When a switch is available, division of the approximants of Lemma 7.2 by $\sigma_0,\tau_0$ gives phase errors, in units of $\psi_i,\psi_j$, bounded by $\varepsilon e^{O(D')X_0}$; here (eq:direct-size) absorbs the width ratio. These rationals qualify in the birth tiers: the large broad tier in a medium broad comparison is enabled by $\psi_i,\psi_j\ll\Delta$; a medium narrow comparison uses the narrow tier; a high comparison uses its unique broad tier. The choices $E\gg E'$, $Q_0\gg E$, and $E_g\gg E$ ensure the required denominator, height, and error bounds. Their coupled determinant identity gives exact modeled equality, covered by Lemma 7.4.
+*Proof.* When a switch is available, division of the approximants of Lemma 7.2 by $\sigma_0,\tau_0$ gives phase errors, in units of $\psi_i,\psi_j$, bounded by $\varepsilon e^{O(D')X_0}$; here (7.1) absorbs the width ratio. These rationals qualify in the birth tiers: the large broad tier in a medium broad comparison is enabled by $\psi_i,\psi_j\ll\Delta$; a medium narrow comparison uses the narrow tier; a high comparison uses its unique broad tier. The choices $E\gg E'$, $Q_0\gg E$, and $E_g\gg E$ ensure the required denominator, height, and error bounds. Their coupled determinant identity gives exact modeled equality, covered by Lemma 7.4.
 
-It remains to count nonexact pairs with no switch. Fix the group and the two outer and tagged masks, treating broad and narrow comparisons separately. There can be at most one coprime signature vector $(\sigma_0,\tau_0)$ among these pairs. Indeed, two distinct coprime vectors give an invertible pair of equations (eq:direct-determinant). Solving them with the integral determinants as exact right sides gives rational replacements of the two fixed phases, of denominators at most $2e^{2E'X_0}$, and errors at most $e^{O(E')X_0}$ times the larger of the two tolerances. At the pair with that larger tolerance, each error is at most the corresponding numerator width, $\psi_i$ or $\psi_j$, times $\varepsilon e^{O(E')X_0}$. Explicitly, put $M=e^{E'X_0}$. The coefficient determinant is a nonzero integer of absolute value at most $2M^2$, so the phase errors are at most $2M\Delta_{\max}$. On the pair attaining $\Delta_{\max}$, both sides satisfy $$\frac{\Delta_{\max}}{\psi_i}
+It remains to count nonexact pairs with no switch. Fix the group and the two outer and tagged masks, treating broad and narrow comparisons separately. There can be at most one coprime signature vector $(\sigma_0,\tau_0)$ among these pairs. Indeed, two distinct coprime vectors give an invertible pair of equations (7.2). Solving them with the integral determinants as exact right sides gives rational replacements of the two fixed phases, of denominators at most $2e^{2E'X_0}$, and errors at most $e^{O(E')X_0}$ times the larger of the two tolerances. At the pair with that larger tolerance, each error is at most the corresponding numerator width, $\psi_i$ or $\psi_j$, times $\varepsilon e^{O(E')X_0}$. Explicitly, put $M=e^{E'X_0}$. The coefficient determinant is a nonzero integer of absolute value at most $2M^2$, so the phase errors are at most $2M\Delta_{\max}$. On the pair attaining $\Delta_{\max}$, both sides satisfy $$\frac{\Delta_{\max}}{\psi_i}
       =C\varepsilon\sigma_0\frac{r_{\max}}{r_i}
       \le C\varepsilon M e^{CX_0},$$ and the analogous inequality with $\tau_0,\psi_j$. The same tier verification as above would make that pair exact modeled, a contradiction.
 
@@ -1083,7 +1082,7 @@ All narrow comparisons have now been counted. For the remaining broad comparison
 The homogeneous antecedent of this determinant-sieving strategy is the Pollington–Vaughan overlap estimate (Pollington and Vaughan 1990), as restated in (Koukoulopoulos and Maynard 2020, Lemma 5.3). The shifted, weighted row kernel with the model-dependent restrictions used here is proved below; it is not asserted to follow from that homogeneous estimate.
 
 **Lemma 7.6** (Nonexact row kernel). *At fixed masks, the weighted folded count of the remaining broad determinants is at most a constant times $$\begin{equation}
-\label{eq:row-kernel}
+\tag{7.6}
  (r_i'\phi(V))(r_j'\phi(W'))
  \max(1,1/\eta_1)
  \prod_{\substack{p\mid st\\p>\eta_1^{c_1}}}R_p^{-C},
@@ -1095,32 +1094,32 @@ The homogeneous antecedent of this determinant-sieving strategy is the Pollingto
  \ll_{C,c_1,\epsilon_s}\log M.$$ The integer is nonzero precisely because this lifted determinant is not an exact primary-modeled equality. If its upper size bound is below one, no such integer occurs at all. Thus the coincidence loss is uniform even when $\eta_1<1$ or $H$ is large. If either factor is a scalar, there is no coincidence loss. At mismatch primes, pay the displayed product.
 
 When $\eta_1$ is large, average larger common digits first, keeping the smaller ones fixed, then widen the determinant set and apply Lemma 6.1 through $\eta_1^{c_1}$. For bounded $\eta_1$ the remaining small primes cost only a constant. Write $g=(V,W')$ and $r_{\min}'=\min(r_i',r_j')$. The resulting width-weighted bound is $g r_{\min}'\max(1,\eta_1)R(V)R(W')$ times the displayed mismatch product. Since $\eta_1=[V,W']r_{\max}'$, its mass factor is $$g r_{\min}'\max(1,\eta_1)R(V)R(W')
- =(r_i'\phi(V))(r_j'\phi(W'))\max(1,1/\eta_1).$$ This proves (eq:row-kernel). A nonnegative count vanishes when its actual-cohit predicate fails, so the predicate may be retained throughout the majorization. ◻
+ =(r_i'\phi(V))(r_j'\phi(W'))\max(1,1/\eta_1).$$ This proves (7.6). A nonnegative count vanishes when its actual-cohit predicate fails, so the predicate may be retained throughout the majorization. ◻
 
 ##### A preliminary linear charge.
 
 For small determinant scales use bins $e^{-\lambda}\le\eta_1<e^{1-\lambda}$ with integer $\lambda\ge\lambda_0$, and put $\eta=e^{-\lambda}$. Before aggregating the broad comparisons in the medium range $\ell_{\rm sh}B\le\lambda\le Q_0B+O(1)$, charge nonexact pairs for which $$\begin{equation}
-\label{dir:small-signatures}
+\tag{7.7}
  s m_i,\ t m_j,\ \mathcal R\le e^{h'B},
 \end{equation}$$ where the fixed exponent $h'$ is sufficiently small against $h_0$. At fixed outer and tagged masks there is at most one such coprime signature over the whole range. Otherwise the two-equation argument of Lemma 7.5 gives exact phase rationals of small denominator, with relative errors at most $e^{O(h')B}$ in units of the widths at the pair with the larger tolerance. At that pair $\psi_i,\psi_j\ll e^{-\ell_{\rm sh}B}$, so the small broad tier, or the larger tier, is enabled. The solved models qualify and force exact modeled equality, a contradiction. The one-neighbour count from Lemma 7.5 therefore gives a linear charge $O(W)$. We exclude this family from the remaining edge counts, without changing the aggregate good-row lists.
 
 For an exact width in a group, aggregate the low vertices $V$ with normalized weights $$\begin{equation}
-\label{dir:aggregate-vertices}
+\tag{7.8}
  r_i'\phi(V)\sum_{m,a}\pi_{P_M}(m)\pi_{P_I}(a)
  \mathbf1_{\{\text{the row }VP/(ma)\text{ is assigned here at width }r_i\}}.
-\end{equation}$$ Only retained good masks enter this sum. Its total is the ordinary block mass on the sublist. After division by $r_i'$, each weight is at most $\phi(V)$: fixed $V,m,a$ prescribe one actual row, and the unrestricted mask laws have total mass one. Edge weights below are products of these normalized weights, with the mismatch factors and necessary cohit predicates incorporated inside the mask and anchor averages, excluding the pairs already charged in (dir:small-signatures). Their totals, multiplied by $\max(1,1/\eta_1)$ on a scale, bound Lemma 7.6. For a fixed pair of normalized exact-width sublists, write $F,G$ for their respective total weights.
+\end{equation}$$ Only retained good masks enter this sum. Its total is the ordinary block mass on the sublist. After division by $r_i'$, each weight is at most $\phi(V)$: fixed $V,m,a$ prescribe one actual row, and the unrestricted mask laws have total mass one. Edge weights below are products of these normalized weights, with the mismatch factors and necessary cohit predicates incorporated inside the mask and anchor averages, excluding the pairs already charged in (7.7). Their totals, multiplied by $\max(1,1/\eta_1)$ on a scale, bound Lemma 7.6. For a fixed pair of normalized exact-width sublists, write $F,G$ for their respective total weights.
 
 For large $\eta_1$, edges with $\sum_{p\mid st,\ p>\eta_1^{c_1}}1/p\le1$ cost only a constant times the product of vertex weights. On a dyad $\eta_1\asymp H_1\ge2$, give the other edges the extra factor $$\exp\left(C'\log H_1
-       \sum_{\substack{p\mid st\\p\gg H_1^{c_1}}}\frac1p\right),$$ with its cutoff no higher than required by the preceding condition. Together with the original mismatch product, this is an admissible inflation $h$ for (eq:lcm), uniformly in $H_1$: $h_p-1=O((\log p)/p)$. Since the extra factor is at least a fixed multiple of $H_1^{C'}$ on these edges, their uninflated contribution is $$O\bigl(
+       \sum_{\substack{p\mid st\\p\gg H_1^{c_1}}}\frac1p\right),$$ with its cutoff no higher than required by the preceding condition. Together with the original mismatch product, this is an admissible inflation $h$ for (6.2), uniformly in $H_1$: $h_p-1=O((\log p)/p)$. Since the extra factor is at least a fixed multiple of $H_1^{C'}$ on these edges, their uninflated contribution is $$O\bigl(
  H_1^{-C'+2(1-u)}
  \mathcal R^{-(1-u)}(FG)^u
- \bigr).$$ Here $u>1/2$ is fixed. The scale sum converges. The width sum uses geometric decay and Cauchy–Schwarz, and the group sum uses disjointness of row assignments. Scales with $\eta_1$ bounded away from zero are similarly covered by (eq:lcm).
+ \bigr).$$ Here $u>1/2$ is fixed. The scale sum converges. The width sum uses geometric decay and Cauchy–Schwarz, and the group sum uses disjointness of row assignments. Scales with $\eta_1$ bounded away from zero are similarly covered by (6.2).
 
-The only remaining task is therefore to obtain the saving (eq:small-saving) at small $\eta_1$. That saving is summable even after multiplication by $1/\eta_1$.
+The only remaining task is therefore to obtain the saving (6.4) at small $\eta_1$. That saving is summable even after multiplication by $1/\eta_1$.
 
 ### A static discard near low rational grids
 
-We now define the additional birth rule promised in Proposition 7.1. Its definition uses only the aggregate good-row lists (dir:aggregate-vertices), not an extracted box and not any previous table deletion.
+We now define the additional birth rule promised in Proposition 7.1. Its definition uses only the aggregate good-row lists (7.8), not an extracted box and not any previous table deletion.
 
 **Construction 7.7** (Low rational holes). Fix a medium group and exact width, and let $F$ be its aggregate list mass. For each integer $\lambda\ge\lambda_0$ put $\eta=e^{-\lambda}$. For every dyad $[A,2A)$ with $A\ge\eta^{-16}$, test all positive integer pivots $L_*$ satisfying $$\eta^4\le D_0'=r_i'L_*A^2\le\eta^{-1}$$ whose incidence class $$\{V: V/(V,L_*)\in[A,2A)\}$$ has list mass at least $\eta^{.1}D_0'$.
 
@@ -1132,27 +1131,27 @@ Only finitely many parameters are relevant in a finite block: a nonempty inciden
 **Lemma 7.8** (Cost of low rational holes). *For every fixed $\delta>0$, Construction 7.7 loses at most $\delta W$ in total birth first mass when $\lambda_0$ is sufficiently large. The choice is uniform over all groups and widths. The rule depends on numerator residues only through squarefree low moduli.*
 
 *Proof.* Fix a group, width, $\lambda$, and $A$. Group the pivots by dyads, so that $D_0'$ has a common value $D$ up to fixed factors. For two pivots $L',L''$ in such a dyad, put $$g=(L',L''),\qquad k'=L'/g,\qquad l'=L''/g.$$ Their incidence classes have intersection mass at most $$\begin{equation}
-\label{dir:pivot-intersection}
+\tag{7.9}
  C D(k'l')^{-1/2}\tau(k')\tau(l').
-\end{equation}$$ To see this, set $$u=\frac{V}{(V,g)},\qquad k=(u,k'),\qquad l=(u,l'),\qquad u=nkl.$$ Since $(k',l')=1$, the integers $k,l$ are coprime. The two incidence conditions imply $nk,nl<2A$. For fixed $u$, all possible $V$ divide $gu$, so their aggregate weight is at most $r_i'\sum_{V\mid gu}\phi(V)=r_i'gu$. For fixed $k,l$, summing $nkl$ over $n\le2A/\max(k,l)$ costs $O(A^2)$. Summing over divisors $k\mid k'$, $l\mid l'$ gives $O(r_i'g A^2\tau(k')\tau(l'))$, which equals the upper bound (dir:pivot-intersection) because $L',L''$ lie in the same dyad.
+\end{equation}$$ To see this, set $$u=\frac{V}{(V,g)},\qquad k=(u,k'),\qquad l=(u,l'),\qquad u=nkl.$$ Since $(k',l')=1$, the integers $k,l$ are coprime. The two incidence conditions imply $nk,nl<2A$. For fixed $u$, all possible $V$ divide $gu$, so their aggregate weight is at most $r_i'\sum_{V\mid gu}\phi(V)=r_i'gu$. For fixed $k,l$, summing $nkl$ over $n\le2A/\max(k,l)$ costs $O(A^2)$. Summing over divisors $k\mid k'$, $l\mid l'$ gives $O(r_i'g A^2\tau(k')\tau(l'))$, which equals the upper bound (7.9) because $L',L''$ lie in the same dyad.
 
 If $M_0$ pivots in this dyad qualify, incidence Cauchy–Schwarz and Lemma 2.6 give, for any sufficiently small fixed $\epsilon>0$, $$(M_0\eta^{.1}D)^2
-       \ll F D\,M_0^{1+\epsilon}.$$ The divisor factors in (dir:pivot-intersection) are absorbed by an arbitrarily small loss in its exponent price. Thus $M_0^{1-\epsilon}D\ll F\eta^{-.2}$. Since $F\le1$ and $D\gg\eta^4$, putting $X=M_0D$ gives $$X\ll
+       \ll F D\,M_0^{1+\epsilon}.$$ The divisor factors in (7.9) are absorbed by an arbitrarily small loss in its exponent price. Thus $M_0^{1-\epsilon}D\ll F\eta^{-.2}$. Since $F\le1$ and $D\gg\eta^4$, putting $X=M_0D$ gives $$X\ll
  F^{1/(1-\epsilon)}
  \eta^{-(.2+4\epsilon)/(1-\epsilon)}
  \ll F\eta^{-1}$$ for, say, $\epsilon<.1$. Thus $$\begin{equation}
-\label{dir:pivot-total}
+\tag{7.10}
  M_0D\ll F\eta^{-1}.
 \end{equation}$$ Each individual incidence class also has mass $O(D)$.
 
 On an actual tested row the values of $L_*P x_i$ form a translated uniform grid of size $n=V/(V,L_*)\asymp A$: indeed $P x_i=m_i(z_i+\alpha_i)/V$ and $m_i$ is a unit modulo $V$. There are $O(\eta^{-.2})$ rational residues of denominator at most $\eta^{-.1}$. A neighborhood of radius $1/A$ around one residue captures $O(1/A)$ of this grid. Conditioning on the hard birth laws inflates this proportion by at most $$R(n)^{-C}\ll A^{.1}.$$ Here $n$ is squarefree; the tag coordinates are independent of its low digits by CRT, and double exclusions occur only at large primes, so the conditioning estimate follows prime by prime. Dropping the soft tests can only enlarge this loss. The hole probability relative to hard first mass is consequently $O(\eta^{-.2}A^{-.9})$.
 
-Combining with (dir:pivot-total), and weakening exponents slightly, gives the convenient bound $O(F\eta^{-2}A^{-.8})$ per pivot dyad. For each $A$ there are $O(1+\lambda)$ pivot dyads, by the permitted range of $D_0'$. The sum over $A\ge\eta^{-16}$ and then over $\lambda\ge\lambda_0$ is an arbitrarily small multiple of $F$. Summing the disjoint group and width masses gives the result. The query on a row uses only the squarefree modulus $n$; hence it has the asserted numerator dependence. Since the hard birth mean is at least $c_{\rm hard}$ times assigned first mass, choosing $\delta$ smaller by this fixed factor makes the loss an arbitrarily small fraction of that hard mean as well. ◻
+Combining with (7.10), and weakening exponents slightly, gives the convenient bound $O(F\eta^{-2}A^{-.8})$ per pivot dyad. For each $A$ there are $O(1+\lambda)$ pivot dyads, by the permitted range of $D_0'$. The sum over $A\ge\eta^{-16}$ and then over $\lambda\ge\lambda_0$ is an arbitrarily small multiple of $F$. Summing the disjoint group and width masses gives the result. The query on a row uses only the squarefree modulus $n$; hence it has the asserted numerator dependence. Since the hard birth mean is at least $c_{\rm hard}$ times assigned first mass, choosing $\delta$ smaller by this fixed factor makes the loss an arbitrarily small fraction of that hard mean as well. ◻
 
 ### Excluding saturated small-scale boxes
 
-We use the small-scale bins and residual edge graph defined above. First set notation common to the three cases below. Whenever the saving (eq:small-saving) fails and we invoke Proposition 6.4, it gives, for an arbitrarily small fixed $\vartheta>0$, a saturated configuration $$\begin{equation}
-\label{dir:saturated-form}
+We use the small-scale bins and residual edge graph defined above. First set notation common to the three cases below. Whenever the saving (6.4) fails and we invoke Proposition 6.4, it gives, for an arbitrarily small fixed $\vartheta>0$, a saturated configuration $$\begin{equation}
+\tag{7.11}
  \begin{aligned}
  V&=NU_0a_0/b_0,&\qquad
  W'&=NT_0c_0/d_1,\\
@@ -1164,31 +1163,31 @@ We use the small-scale bins and residual edge graph defined above. First set not
  \eta^{2+\vartheta}\le D_i\le\eta^{-\vartheta}.$$ The captured edge weight is at least $\eta^\vartheta D_1D_2$. On its edges, $$\|s m_i\alpha_i-t m_j\alpha_j\|\ll\eta.$$
 
 We use the unrestricted box sampling of Corollary 6.5, together with the independent mask laws, followed on each side by the conditional anchor law of its sampled tagged mask. An event of probability $O(\eta^{10\vartheta})$ cannot account for this saturation. The same is true of a first-list set of mass $O(\eta^{10\vartheta}D_1)$. All switches below are made within these unrestricted laws; the changed values need not themselves form edges. We retain the necessary predicate of an actual cohit, passing all filters and not an exact primary-modeled equality. Thus for relevant masks and anchors there are actual integral numerators $Z_i=m_i z_i$, $Z_j=m_j z_j$ with $$\begin{equation}
-\label{dir:actual-small-determinant}
+\tag{7.12}
  |s(Z_i+m_i\alpha_i)-t(Z_j+m_j\alpha_j)|\ll\eta.
-\end{equation}$$ The outer phases depend only on their respective tail masks, not on the box’s dyadic or defect parameters. These facts specify the sampling interface needed in each of the three cases below. In the deeper medium case, the small-signature family (dir:small-signatures) has already received its linear charge and is absent from this graph. The contradictions will come from tag exclusions on high type, density or the static holes on shallow medium type, and broad-model recognition on deeper medium type.
+\end{equation}$$ The outer phases depend only on their respective tail masks, not on the box’s dyadic or defect parameters. These facts specify the sampling interface needed in each of the three cases below. In the deeper medium case, the small-signature family (7.7) has already received its linear charge and is absent from this graph. The contradictions will come from tag exclusions on high type, density or the static holes on shallow medium type, and broad-model recognition on deeper medium type.
 
-**Lemma 7.9** (High-type boxes). *No saturated configuration (dir:saturated-form) occurs on high type among the remaining non-ultra comparisons.*
+**Lemma 7.9** (High-type boxes). *No saturated configuration (7.11) occurs on high type among the remaining non-ultra comparisons.*
 
 *Proof.* Here $\lambda\le Q_0Y_d+O(1)$. Since $f=1$, the tagged masks are disjoint; by the occupancy purge each has at least $c\kappa Y_d$ prime omissions. Switch the sampled anchor on each side, using the prime alternative in Lemma 6.2 with budget $\epsilon'\lambda$, where $C_1\epsilon'$ is small and $\vartheta\ll\epsilon'$. Stripping the prime from its mask costs $O(1/p)$ under the deficit law. The anchor selection probability is at most $O(1/(\kappa Y_d))$. Therefore the failure probability on one side is at most $$\frac{C e^{-\epsilon'\lambda}}{\kappa Y_d}
  \sum_{\substack{H:\ p\asymp H\\\text{in the dense bin}}}
        \frac1{\log H}
  \ll_\kappa e^{-\epsilon'\lambda}.$$ The sum of reciprocal logarithms over these ordinary dyads is $O(Y_d)$. This failure is negligible under the box sampling.
 
-Successful switches give unique coupled rationals $A_i,A_j$ for $s m_i\alpha_i,t m_j\alpha_j$, of denominators $e^{O(\epsilon'\lambda)}$ and errors $O(\eta e^{O(\epsilon'\lambda)})$. By the precision and (dir:actual-small-determinant), their exact difference is the negative integral determinant. Each reduced numerator is divisible by its own sampled anchor. As in Lemma 7.3, the predictions $$\mathcal L_i-\frac{S_i}{[V,W']}A_i,\qquad
- \mathcal L_j-\frac{S_j}{[V,W']}A_j$$ have sizes and denominators at most $e^{O(Y_d)}$, by (eq:direct-size), and fit these anchor choices. Their exact lifted relation contradicts survival at an anchor in the disjoint masks. Saturation therefore cannot occur. ◻
+Successful switches give unique coupled rationals $A_i,A_j$ for $s m_i\alpha_i,t m_j\alpha_j$, of denominators $e^{O(\epsilon'\lambda)}$ and errors $O(\eta e^{O(\epsilon'\lambda)})$. By the precision and (7.12), their exact difference is the negative integral determinant. Each reduced numerator is divisible by its own sampled anchor. As in Lemma 7.3, the predictions $$\mathcal L_i-\frac{S_i}{[V,W']}A_i,\qquad
+ \mathcal L_j-\frac{S_j}{[V,W']}A_j$$ have sizes and denominators at most $e^{O(Y_d)}$, by (7.1), and fit these anchor choices. Their exact lifted relation contradicts survival at an anchor in the disjoint masks. Saturation therefore cannot occur. ◻
 
 **Lemma 7.10** (Shallow medium boxes). *No saturated configuration occurs on medium type with $\lambda<\ell_{\rm sh}B$ after Construction 7.7.*
 
 *Proof.* The extracted size bounds imply, for small enough $\vartheta$, $$\eta^2\le A/C_0\le\eta^{-2}.$$ *Bounded dyads: the density estimate.* First suppose both $A,C_0\le\eta^{-20}$. For a fixed $a_0$ put $L'=PNU_0a_0$. Every first-list row at the structured vertex divides $L'$, and the lcm and width bounds give $$\eta^{23}\le L'r_i\le C\eta.$$ In detail, $$L'r_i=\eta_1\frac{r_i/r_{\max}}{T_0c_0}
-       \ge c\eta^{21+2\vartheta}\ge\eta^{23}$$ for sufficiently small $\eta$, while $T_0c_0\ge1$ gives the upper bound. The largest original popular host of such a row has minus-log-scale at least its minimized cost, which is at least $B$. Since $23\lambda<B$, the integer $L'$ is at least that original host. The density bound (eq:centre-density) consequently applies to the assigned structured subfamily dividing $L'$. Its density is $O_{k_0}((L'r_i)^{H_0})$ whenever it contributes. Its entire first mass is therefore at most $O_{k_0}(\eta^{H_0}L'r_i)$, including all its low defects and masks. Summing over $a_0$ uses $\sum_{a_0\asymp A}L'r_i\asymp r_i'NU_0A^2=D_1$. The first-list mass is consequently $$O_{k_0}(\eta^{H_0}D_1),$$ which is negligible for saturation when $\vartheta$ is sufficiently small and $\lambda_0$ sufficiently large.
+       \ge c\eta^{21+2\vartheta}\ge\eta^{23}$$ for sufficiently small $\eta$, while $T_0c_0\ge1$ gives the upper bound. The largest original popular host of such a row has minus-log-scale at least its minimized cost, which is at least $B$. Since $23\lambda<B$, the integer $L'$ is at least that original host. The density bound (3.1) consequently applies to the assigned structured subfamily dividing $L'$. Its density is $O_{k_0}((L'r_i)^{H_0})$ whenever it contributes. Its entire first mass is therefore at most $O_{k_0}(\eta^{H_0}L'r_i)$, including all its low defects and masks. Summing over $a_0$ uses $\sum_{a_0\asymp A}L'r_i\asymp r_i'NU_0A^2=D_1$. The first-list mass is consequently $$O_{k_0}(\eta^{H_0}D_1),$$ which is negligible for saturation when $\vartheta$ is sufficiently small and $\lambda_0$ sufficiently large.
 
 *Large dyads: a qualifying static hole.* Otherwise the ratio bound implies $A,C_0\ge\eta^{-17}$. Switch $a_0,c_0$ as whole factors, using the integer alternative in Lemma 6.2 with budget $\epsilon'\lambda$. Its failure probability is negligible under the box sampling. On the remaining configurations there are rationals $\xi_i,\xi_j$ of denominators $e^{O(\epsilon'\lambda)}$ satisfying $$\left|T_0b_0m_i\alpha_i-\xi_i\right|
        \ll\frac{\eta e^{O(\epsilon'\lambda)}}{C_0},
  \qquad
  \left|U_0d_1m_j\alpha_j-\xi_j\right|
-       \ll\frac{\eta e^{O(\epsilon'\lambda)}}{A}.$$ Rational separation and (dir:actual-small-determinant) force $$\begin{equation}
-\label{dir:common-rational}
+       \ll\frac{\eta e^{O(\epsilon'\lambda)}}{A}.$$ Rational separation and (7.12) force $$\begin{equation}
+\tag{7.13}
  c_0(T_0b_0Z_i+\xi_i)
        =a_0(U_0d_1Z_j+\xi_j).
 \end{equation}$$ Set $L_*=NU_0T_0$ and $y_i=P x_i$. The common rational $$\frac{T_0b_0Z_i+\xi_i}{a_0}
@@ -1200,7 +1199,7 @@ At this stage high boxes and shallow medium boxes have been excluded. The remain
 
 **Lemma 7.11** (Deeper medium boxes). *For medium type with $\ell_{\rm sh}B\le\lambda\le Q_0B+O(1)$, an additional nonexact comparison count of size $O(W)$ may be charged directly. No saturated configuration remains after that charge.*
 
-*Proof.* The $O(W)$ charge for (dir:small-signatures) was established before defining the aggregate graph. It remains to exclude saturation among its other edges.
+*Proof.* The $O(W)$ charge for (7.7) was established before defining the aggregate graph. It remains to exclude saturation among its other edges.
 
 *The switch families.* In a resulting saturated box, switch the following factors on side $i$: the whole factor $c_0$ when $C_0\ge\eta^{-t_1}$; every divisor of $b_0$ in dyads between $2\eta^{-t_1}$ and $\eta^{-J_1}$; and every prime of $m_i$. On side $j$ use $a_0,d_1,m_j$. Here $t_1>0$ is sufficiently small against $h'/Q_0$, $J_1\gg J/\ell_{\rm sh}$ is fixed, then $C_1\epsilon'$ is small against $t_1$, and finally $\vartheta$ is sufficiently small.
 
@@ -1214,9 +1213,9 @@ The errors after division, measured in $\psi_i,\psi_j$, are at most $e^{O(\epsil
 
 If no switch is available on either side, the same factor bounds give $s m_i,t m_j\le e^{O(t_1)\lambda}$; the extracted width ratio is at most $\eta^{-\vartheta}$. These fit the small-signature and width bounds of the already charged family. This too is excluded, and hence saturation is impossible. ◻
 
-*Proof of Proposition 7.1.* Lemma 7.8 supplies the static birth discard, its loss, and its squarefree low-coordinate dependence. Lemma 7.5 gives the asserted narrow estimate and the same estimate for the ultra broad portion. For the remaining broad portion, exact primary-modeled equalities have a linear charge by Lemma 7.4. The preliminary charge for (dir:small-signatures) is also $O(W)$, and Lemma 7.6 reduces the residual counts to weighted arithmetic edges.
+*Proof of Proposition 7.1.* Lemma 7.8 supplies the static birth discard, its loss, and its squarefree low-coordinate dependence. Lemma 7.5 gives the asserted narrow estimate and the same estimate for the ultra broad portion. For the remaining broad portion, exact primary-modeled equalities have a linear charge by Lemma 7.4. The preliminary charge for (7.7) is also $O(W)$, and Lemma 7.6 reduces the residual counts to weighted arithmetic edges.
 
-The large and bounded-away-from-zero determinant scales were summed above. At small scales, Lemmas 7.9, 7.10, and 7.11 exclude every saturation alternative in this residual graph. Thus (eq:small-saving) holds on all remaining edges. After the factor $1/\eta_1$ in (eq:row-kernel), its scale contribution is $$O\bigl(\eta^\chi\mathcal R^{-1/10}(FG)^u\bigr).$$ The $\lambda$ sum converges; summing dyadic widths uses the geometric factor $\mathcal R^{-1/10}$ and Cauchy–Schwarz, and summing groups uses disjointness. Since $W\le1$ and $2u>1$, these terms are bounded independently of the block. All steps used unclipped birth weights, so none of the constants depends on $N_0$. Finally, further thinning decreases each nonnegative comparison count. This proves all assertions. ◻
+The large and bounded-away-from-zero determinant scales were summed above. At small scales, Lemmas 7.9, 7.10, and 7.11 exclude every saturation alternative in this residual graph. Thus (6.4) holds on all remaining edges. After the factor $1/\eta_1$ in (7.6), its scale contribution is $$O\bigl(\eta^\chi\mathcal R^{-1/10}(FG)^u\bigr).$$ The $\lambda$ sum converges; summing dyadic widths uses the geometric factor $\mathcal R^{-1/10}$ and Cauchy–Schwarz, and summing groups uses disjointness. Since $W\le1$ and $2u>1$, these terms are bounded independently of the block. All steps used unclipped birth weights, so none of the constants depends on $N_0$. Finally, further thinning decreases each nonnegative comparison count. This proves all assertions. ◻
 
 ## Alignments in sparse prime steps
 
@@ -1224,7 +1223,7 @@ We now estimate the alignment terms that arise during a sparse-prime update in a
 
 Fix a component at height $Y$ and a common prime $q$ in its current bin. For two centres $L=L_i$ and $M=L_j$, retain the notation $$G=(L,M),\qquad U=L/G,\qquad T=M/G,\qquad
  \Theta_{ij}=G r_{\min},\qquad K=[L,M]r_{\max}.$$ At a successful plus endpoint the denominator has the form $$V'=\frac{L}{dq},\qquad\text{or}\qquad W'=\frac{M}{eq},$$ where $d,e$ are processed deficits below $q$. Write $a,b$ for the remaining masks above $q$, and put $$\begin{equation}
-\label{sp:signatures}
+\tag{8.1}
  f_0=(Td,Ue),\qquad s_0=Td/f_0,\qquad t_0=Ue/f_0.
 \end{equation}$$ Thus the successful positions are $(z+a\gamma)/V'$ and $(z'+b\gamma)/W'$. Throughout this section their mask coefficients are the *product* of the two after-$q$ probabilities, including when the two masks happen to be equal. They are not the single mask probability used in clipping.
 
@@ -1247,41 +1246,41 @@ We prove the proposition in stages. All upper estimates below may drop assignmen
 ### Bare counts and switching
 
 A pair at distance at most $C_0r_{\max}$ satisfies $$\begin{equation}
-\label{sp:determinant}
+\tag{8.2}
  \left|s_0(z+a\gamma)-t_0(z'+b\gamma)\right|
  \le \frac{C_0K}{qf_0}.
-\end{equation}$$ By (eq:component-path), the right side is less than $1/2$ after increasing the fixed lower cutoff. Thus there is at most one possible integer $s_0z-t_0z'$ for fixed masks. The gcd of the two successful denominators is $Gf_0/(qde)$, so their width-weighted bare count is at most $$\begin{equation}
-\label{sp:bare-count}
+\end{equation}$$ By (5.1), the right side is less than $1/2$ after increasing the fixed lower cutoff. Thus there is at most one possible integer $s_0z-t_0z'$ for fixed masks. The gcd of the two successful denominators is $Gf_0/(qde)$, so their width-weighted bare count is at most $$\begin{equation}
+\tag{8.3}
  \Theta_{ij}\frac{f_0}{qde}.
 \end{equation}$$ The same primewise gcd-ratio calculation used in Lemma 7.2 bounds the unrestricted sum of $f_0/(de)$ by $\exp(CY)\tau(UT)^C$. Outer masks still integrate as independent probabilities.
 
-For the second assertion of Proposition 8.1, use the before-$q$ denominators instead. The number of determinant integers is $O(1+K/f_0)$, and the width-weighted pre-count is therefore at most $$C\Theta_{ij}\frac{K+f_0}{de}.$$ Multiply by $q^{-2}$ and sum over $q\ge\exp(\exp Y)$. The resulting double-exponential saving absorbs both the crude mask cost and the bound on $K$ from (eq:component-path). This proves the required $\Theta_{ij}e^{-cY}\tau(UT)^C$ estimate.
+For the second assertion of Proposition 8.1, use the before-$q$ denominators instead. The number of determinant integers is $O(1+K/f_0)$, and the width-weighted pre-count is therefore at most $$C\Theta_{ij}\frac{K+f_0}{de}.$$ Multiply by $q^{-2}$ and sum over $q\ge\exp(\exp Y)$. The resulting double-exponential saving absorbs both the crude mask cost and the bound on $K$ from (5.1). This proves the required $\Theta_{ij}e^{-cY}\tau(UT)^C$ estimate.
 
 For the remaining assertions, use the switching argument with budget $u=D''Y$, where $D''$ is sufficiently large absolutely. Test divisors $h\mid(d,s_0)$ in the ordinary dyads between $\exp(C_1u)$ and $\exp(3C_1u)$, with the cutoff rounded as in Lemma 7.2, and test every such prime in dyads above the lower cutoff. Make the symmetric tests on $(e,t_0)$.
 
-On a fiber with $d/h,e,a,b,q$ fixed, stripping $h$ leaves $f_0$ unchanged. Indeed, at a prime $l$, write $A_l=\nu_l(Td)$, $B_l=\nu_l(Ue)$, and $j_l=\nu_l(h)$. The divisibility $h\mid(d,s_0)$ gives $j_l\le A_l-\min(A_l,B_l)$, so $$\min(A_l-j_l,B_l)=\min(A_l,B_l).$$ It replaces $s_0$ by $s_0/h$ and extracts a factor $1/h$ from (sp:bare-count). The tolerance in (sp:determinant) stays fixed, while $h$ occurs linearly in the phase. The integer rotation estimate therefore applies on this fiber. The stripped row need not remain assigned or good, because those restrictions have been discarded in this nonnegative upper bound. Summing its exceptional alternatives over the tested dyads, stripped masks, and current primes gives $$\begin{equation}
-\label{eq:sparse-switch}
+On a fiber with $d/h,e,a,b,q$ fixed, stripping $h$ leaves $f_0$ unchanged. Indeed, at a prime $l$, write $A_l=\nu_l(Td)$, $B_l=\nu_l(Ue)$, and $j_l=\nu_l(h)$. The divisibility $h\mid(d,s_0)$ gives $j_l\le A_l-\min(A_l,B_l)$, so $$\min(A_l-j_l,B_l)=\min(A_l,B_l).$$ It replaces $s_0$ by $s_0/h$ and extracts a factor $1/h$ from (8.3). The tolerance in (8.2) stays fixed, while $h$ occurs linearly in the phase. The integer rotation estimate therefore applies on this fiber. The stripped row need not remain assigned or good, because those restrictions have been discarded in this nonnegative upper bound. Summing its exceptional alternatives over the tested dyads, stripped masks, and current primes gives $$\begin{equation}
+\tag{8.4}
  \ll \Theta_{ij}e^{-cD''Y}\tau(UT)^C.
-\end{equation}$$ There are only $\exp(O(Y))$ prime-size dyads below the end of the bin; the divisor-test dyads are fewer. The crude mask and reciprocal-prime sums have the same $\exp(O(Y))$ allowance. These costs are absorbed by the choice of $D''$, leaving the divisor factor displayed in (eq:sparse-switch).
+\end{equation}$$ There are only $\exp(O(Y))$ prime-size dyads below the end of the bin; the divisor-test dyads are fewer. The crude mask and reciprocal-prime sums have the same $\exp(O(Y))$ allowance. These costs are absorbed by the choice of $D''$, leaving the divisor factor displayed in (8.4).
 
-The argument is also valid if the tolerance in (sp:determinant) is multiplied by one of the smaller gap factors used below. Outside the union of these failures, any available switch gives coupled, unique rational approximants $A_i,A_j$ to $s_0a\gamma,t_0b\gamma$. Their denominators are at most $e^{O(u)}$, their errors are at most $e^{O(u)}$ times the tolerance, and $$A_i-A_j=-(s_0z-t_0z').$$ Division by a switched divisor retains a denominator bounded by $e^{O(u)}$. In particular a sufficiently large switched prime divides the relevant numerator. The divisor-assembly argument in Lemma 7.2, together with the good-mask prime-power bound, then gives the corresponding small denominators after division by the full signatures. If no switch is available, the signatures themselves are at most $\exp(\exp(h_*Y))$. Indeed $s_0/(d,s_0)\mid T$ and $t_0/(e,t_0)\mid U$, the unmatched prime-power excess is bounded by the purge, and a larger uncancelled squarefree product would contain a divisor in the tested range. The remaining centre-ratio cost is covered by (eq:component-path).
+The argument is also valid if the tolerance in (8.2) is multiplied by one of the smaller gap factors used below. Outside the union of these failures, any available switch gives coupled, unique rational approximants $A_i,A_j$ to $s_0a\gamma,t_0b\gamma$. Their denominators are at most $e^{O(u)}$, their errors are at most $e^{O(u)}$ times the tolerance, and $$A_i-A_j=-(s_0z-t_0z').$$ Division by a switched divisor retains a denominator bounded by $e^{O(u)}$. In particular a sufficiently large switched prime divides the relevant numerator. The divisor-assembly argument in Lemma 7.2, together with the good-mask prime-power bound, then gives the corresponding small denominators after division by the full signatures. If no switch is available, the signatures themselves are at most $\exp(\exp(h_*Y))$. Indeed $s_0/(d,s_0)\mid T$ and $t_0/(e,t_0)\mid U$, the unmatched prime-power excess is bounded by the purge, and a larger uncancelled squarefree product would contain a divisor in the tested range. The remaining centre-ratio cost is covered by (5.1).
 
 ### Neutralizing earlier dense bins
 
 Call the intermediate-distance range in the first assertion of Proposition 8.1 the *off-gap* range. The crude factor $\exp(CY)$ is too large for its sum. We now remove the contribution of any earlier dense bins near the current height by using the birth prescriptions.
 
-The centre exponents agree in every bin of height $Y'\ge\sigma Y$, by (eq:component-path). If no such bin is dense, the reciprocal sum through the current bin is already $O((\sigma+\kappa)Y)$: bins below $\sigma Y$ have the absolute harmonic bound, and all remaining bins are sparse. Otherwise the last dense height $Y_d\ge\sigma Y$ is common to both centres, since bins after the start are sparse. The starts are also common. On medium type, $$\frac{\sigma Y}{D_0}\le B_i,B_j\le\frac{Y}{A_0};$$ the retained band separation forces $B_i=B_j$. On high type each start is $2Y_d$. On medium type all bins with $\sigma Y\le Y'<Y_0$ are ordinary tag bins.
+The centre exponents agree in every bin of height $Y'\ge\sigma Y$, by (5.1). If no such bin is dense, the reciprocal sum through the current bin is already $O((\sigma+\kappa)Y)$: bins below $\sigma Y$ have the absolute harmonic bound, and all remaining bins are sparse. Otherwise the last dense height $Y_d\ge\sigma Y$ is common to both centres, since bins after the start are sparse. The starts are also common. On medium type, $$\frac{\sigma Y}{D_0}\le B_i,B_j\le\frac{Y}{A_0};$$ the retained band separation forces $B_i=B_j$. On high type each start is $2Y_d$. On medium type all bins with $\sigma Y\le Y'<Y_0$ are ordinary tag bins.
 
 Write $d=d^0u_i$ and $e=e^0u_j$, where $d^0,e^0$ are below this common start. At birth, the ancestors of the current successful points had phase and numerator $$\alpha_i^0=u_iqa\gamma,\qquad z_i^0=u_iqz,
  \qquad
- \alpha_j^0=u_jqb\gamma,\qquad z_j^0=u_jqz'.$$ Consequently the birth integer on the first side is $\mathcal L_i=\lfloor dqa\gamma\rfloor$, and similarly on the second. Switch every tag mismatch prime in the indicated bins of height at least $\sigma Y$; on high type use its tag bin $Y_d$. Such a prime is eligible for (eq:sparse-switch): centre exponents agree, its good deficit has exponent at most one, and it divides the relevant signature when it occurs on just one side.
+ \alpha_j^0=u_jqb\gamma,\qquad z_j^0=u_jqz'.$$ Consequently the birth integer on the first side is $\mathcal L_i=\lfloor dqa\gamma\rfloor$, and similarly on the second. Switch every tag mismatch prime in the indicated bins of height at least $\sigma Y$; on high type use its tag bin $Y_d$. Such a prime is eligible for (8.4): centre exponents agree, its good deficit has exponent at most one, and it divides the relevant signature when it occurs on just one side.
 
 If a mismatch occurs, form the predicted tag lifts $$\begin{equation}
-\label{sp:predicted-tags}
+\tag{8.5}
  F_i^{\mathrm{pred}}=\mathcal L_i-\frac{qf_0}{T}A_i,
  \qquad
  F_j^{\mathrm{pred}}=\mathcal L_j-\frac{qf_0}{U}A_j.
-\end{equation}$$ Their log sizes and log denominators are at most $\exp(h_*Y)$. For the size bound, the large phase cancels: $(qf_0/T)s_0a\gamma=dqa\gamma$, so the remaining size is controlled by the approximation error times $qf_0/T$, plus the floor error. The denominator bound follows from the same approximant bounds and (eq:component-path). These bounds fit the recognized tag heights because $h_*\ll\sigma h_H$.
+\end{equation}$$ Their log sizes and log denominators are at most $\exp(h_*Y)$. For the size bound, the large phase cancels: $(qf_0/T)s_0a\gamma=dqa\gamma$, so the remaining size is controlled by the approximation error times $qf_0/T$, plus the floor error. The denominator bound follows from the same approximant bounds and (5.1). These bounds fit the recognized tag heights because $h_*\ll\sigma h_H$.
 
 At every included anchor on the first side, $F_i^{\mathrm{pred}}\equiv\mathcal L_i$. A common omission supplies the prime through $f_0$; a mismatched omission supplies it through the approximant numerator. The denominators are units there. Thus every included anchor reconstructs this prediction. The coupled exact identity gives $$T(d^0z_i^0+\mathcal L_i-F_i^{\mathrm{pred}})
  =U(e^0z_j^0+\mathcal L_j-F_j^{\mathrm{pred}}).$$ Reduction at a mismatch prime contradicts the full side’s tag exclusion if both tag masks in that bin are nonempty. Hence each such bin has identical masks or one empty mask. On high type the occupancy purge forces the tag masks to be the same nontrivial mask $m$.
@@ -1289,8 +1288,8 @@ At every included anchor on the first side, $F_i^{\mathrm{pred}}\equiv\mathcal L
 ##### Earlier low bins on high type.
 
 On high type it remains to handle bins $\sigma Y\le Y'<Y_d$. Use the birth signatures $$f_B=(Td^0,Ue^0),\qquad s_B=Td^0/f_B,
- \qquad t_B=Ue^0/f_B.$$ Their birth determinant has tolerance $C_0K/f_B\le C_0K/m$, which is sufficiently small by the size of a prime in the common nontrivial tag mask and (eq:component-path). Make the same divisor and prime switches on $(d^0,s_B)$ and $(e^0,t_B)$, holding the birth phases fixed. Stripping such a factor preserves both $f_B$ and $f_0$, since its primes are below the common start: at each of them $u_i,u_j$ have zero valuation, so the preceding primewise minimum calculation applies to both gcds. Fixing $q,u_i,u_j,a,b,e^0,d^0/h$ fixes both birth phases during the rotation test. The exact rescaling is $$s_Bu_iq=\frac{qf_0}{f_B}s_0,
- \qquad t_Bu_jq=\frac{qf_0}{f_B}t_0.$$ Thus the birth determinant is the current determinant multiplied by $qf_0/f_B$, and its tolerance is $C_0K/f_B$, unchanged on the stripping fiber. The charge is still the current success count $$\Theta_{ij}\frac{f_0}{q d^0u_i e^0u_j}:$$ stripping extracts $1/h$ without removing its factor $1/q$. The rotation error is uniform in the fixed birth phases, even though those phases vary when $q$ is subsequently summed. Hence (eq:sparse-switch), including its $1/q$ summation, still applies.
+ \qquad t_B=Ue^0/f_B.$$ Their birth determinant has tolerance $C_0K/f_B\le C_0K/m$, which is sufficiently small by the size of a prime in the common nontrivial tag mask and (5.1). Make the same divisor and prime switches on $(d^0,s_B)$ and $(e^0,t_B)$, holding the birth phases fixed. Stripping such a factor preserves both $f_B$ and $f_0$, since its primes are below the common start: at each of them $u_i,u_j$ have zero valuation, so the preceding primewise minimum calculation applies to both gcds. Fixing $q,u_i,u_j,a,b,e^0,d^0/h$ fixes both birth phases during the rotation test. The exact rescaling is $$s_Bu_iq=\frac{qf_0}{f_B}s_0,
+ \qquad t_Bu_jq=\frac{qf_0}{f_B}t_0.$$ Thus the birth determinant is the current determinant multiplied by $qf_0/f_B$, and its tolerance is $C_0K/f_B$, unchanged on the stripping fiber. The charge is still the current success count $$\Theta_{ij}\frac{f_0}{q d^0u_i e^0u_j}:$$ stripping extracts $1/h$ without removing its factor $1/q$. The rotation error is uniform in the fixed birth phases, even though those phases vary when $q$ is subsequently summed. Hence (8.4), including its $1/q$ summation, still applies.
 
 When a switch occurs, divide the resulting coupled approximants by $s_B,t_B$. Their denominators are at most $\exp(\exp(h_*Y))$: use $s_B/(s_B,d^0)\mid T$, the analogous divisibility on the other side, the prime-power purge, and the divisor-assembly consequences of the switches. If $\psi_i^0=(L/d^0)r_i$ is the first birth numerator width, then $$\frac{C_0K/f_B}{s_B}
  =\frac{C_0Lr_{\max}}{d^0}
@@ -1301,7 +1300,7 @@ When a switch occurs, divide the resulting coupled approximants by $s_B,t_B$. Th
 We can now sum the neutralized coordinates using only static upper weights, dropping other processed filters. On an identical bin, the gcd-ratio coordinate is $1/p$ at a common omission and $1$ at a full factor. If a common residual power remains, retain one side’s scalar or hard factor. Its mean is $R_p$ on the residual common digit, since $s_0,t_0,u_iq$ are units at $p$. The summed local cost is at most $$R_p+\frac1p R_p^{[\text{common exponent at least }2]}\le1.$$ For a low static prime on high type, retain any one active hard exclusion, or the actual scalar if no exclusion is active; discard the other low tests for this upper count.
 
 In a one-empty tag bin the empty side uses the ordinary scalar factors $R_p$ prescribed at birth. Neither-omitted coordinates cost at most $R_p^2$ on averaging the common digit. The two possible one-sided omissions have bare cost $1/p$ each. Even allowing both choices bounds the total by $1+O(p^{-2})$. Fix masks and anchor choices before using digit CRT, as in Lemma 7.3. There are only a bounded number of bins between $\sigma Y$ and $Y$, so summing their identical/empty arrangements costs a constant. All unneutralized bins together now cost only $$\begin{equation}
-\label{sp:reduced-harmonic-cost}
+\tag{8.6}
  \exp\bigl(C(\sigma+\kappa)Y\bigr)\tau(UT)^C,
 \end{equation}$$ with absolute coefficients in the harmonic exponent.
 
@@ -1309,7 +1308,7 @@ The earlier dense bins have therefore been removed from the harmonic cost. We ne
 
 ### The off-gap prime window
 
-We retain the factor $1/q$ in (sp:bare-count). To make the remaining variables independent of the position of $q$ inside its bin, extend $d,e$ through the end of that bin. Write $a=a_Ya_>$ and $b=b_Yb_>$ for their within-bin and above-bin parts. Let $I_{>q}$ be the common prime-power part above $q$, and let $I_>$ be its part above the bin. The actual outer laws satisfy the pointwise bound $$\pi_{I_{>q}}(a)\pi_{I_{>q}}(b)
+We retain the factor $1/q$ in (8.3). To make the remaining variables independent of the position of $q$ inside its bin, extend $d,e$ through the end of that bin. Write $a=a_Ya_>$ and $b=b_Yb_>$ for their within-bin and above-bin parts. Let $I_{>q}$ be the common prime-power part above $q$, and let $I_>$ be its part above the bin. The actual outer laws satisfy the pointwise bound $$\pi_{I_{>q}}(a)\pi_{I_{>q}}(b)
  \le \frac{\pi_{I_>}(a_>)\pi_{I_>}(b_>)}{a_Yb_Y},$$ because $\pi_{p^\nu}(p^j)=R(p^{\nu-j})p^{-j}\le p^{-j}$. Pad $a_Y,b_Y$ to arbitrary divisors of the whole bin product. At each common bin prime $p^\nu$, the total cost of the four extended coordinates is bounded by $$\left(\sum_{j,k=0}^{\nu}p^{-\max(j,k)}\right)
  \left(\sum_{j=0}^{\nu}p^{-j}\right)^2
  \le 1+\frac Cp.$$ Thus padding costs at most $\exp(C\kappa Y)$. Actual allowed choices still require that $q$ be absent from all four masks and that their before/after supports have the proper order; dropping these restrictions later only enlarges the prime window.
@@ -1317,11 +1316,11 @@ We retain the factor $1/q$ in (sp:bare-count). To make the remaining variables i
 We also need a bound for each fixed padded tuple that is independent of $q$, not merely a bound after summing masks at a fixed $q$. At a neutralized earlier prime, write $j,k\in\{0,1\}$ for its two deficits. After static digit averaging, the identical-bin mode is bounded by the local majorant $$Q_p(0,0)=R_p,\qquad
  Q_p(1,1)=p^{-1}R_p^{[\nu\ge2]},\qquad
  Q_p(1,0)=Q_p(0,1)=0.$$ In the one-empty mode use instead $$Q_p(0,0)=R_p^2,\qquad
- Q_p(1,0)=Q_p(0,1)=p^{-1},\qquad Q_p(1,1)=0.$$ The latter permits either one-sided omission separately at each prime and hence enlarges a bin with one globally empty mask. The coordinate sums are at most $1$ and $1+O(p^{-2})$, respectively. These majorants hold for every fixed anchor choice: their derivation uses only one test’s mean, or an ordinary scalar $R_p$ together with the other test’s mean, and is independent of the forbidden offsets. Thus the birth offsets may vary with $q$ without changing $Q_p$. Adaptive weights have already been dropped. Sum over the bounded number of bin-mode patterns, not over a separate union of modes at each prime. Together with the unneutralized gcd coordinates and the padded outer-law bound, this gives a $q$-independent majorant for every fixed tuple, whose sum is bounded by (sp:reduced-harmonic-cost) with the padding allowance.
+ Q_p(1,0)=Q_p(0,1)=p^{-1},\qquad Q_p(1,1)=0.$$ The latter permits either one-sided omission separately at each prime and hence enlarges a bin with one globally empty mask. The coordinate sums are at most $1$ and $1+O(p^{-2})$, respectively. These majorants hold for every fixed anchor choice: their derivation uses only one test’s mean, or an ordinary scalar $R_p$ together with the other test’s mean, and is independent of the forbidden offsets. Thus the birth offsets may vary with $q$ without changing $Q_p$. Adaptive weights have already been dropped. Sum over the bounded number of bin-mode patterns, not over a separate union of modes at each prime. Together with the unneutralized gcd coordinates and the padded outer-law bound, this gives a $q$-independent majorant for every fixed tuple, whose sum is bounded by (8.6) with the padding allowance.
 
 For a fixed choice of these integers, the normalized distance of an actual cohit is $$\frac{\text{distance}}{r_{\max}}
  =\|s_0a\gamma-t_0b\gamma\|\frac{qf_0}{K}.$$ The nearest determinant is unique. If the norm vanishes the pair is not an off-gap pair; otherwise the required distance range restricts $q$ to a multiplicative window whose logarithmic width is $O(1+\exp(\sigma_gY))$. Elementary prime counting in ordinary dyads therefore gives $$\sum_{q\text{ in this window and bin}}\frac1q
- \ll \exp\bigl(-(1-\sigma_g)Y\bigr),$$ since $\log q\ge\exp Y$. The neutralized digit factors above are independent of this $q$ summation: they belong to earlier bins. We may first enlarge the actual allowed prime support to this whole window and then sum those local bounds. Combining with (sp:reduced-harmonic-cost), and using the choices of $\sigma$ and $\kappa$, proves the first estimate of Proposition 8.1.
+ \ll \exp\bigl(-(1-\sigma_g)Y\bigr),$$ since $\log q\ge\exp Y$. The neutralized digit factors above are independent of this $q$ summation: they belong to earlier bins. We may first enlarge the actual allowed prime support to this whole window and then sum those local bounds. Combining with (8.6), and using the choices of $\sigma$ and $\kappa$, proves the first estimate of Proposition 8.1.
 
 ### Train coverage of tightly aligned pairs
 
@@ -1331,16 +1330,16 @@ Only the relaxed tight equal-width scale remains. We construct its exceptional s
 
 The endpoint test requires $x$ to lie within $$r_i\exp\bigl(-.4\exp(\sigma_gY)\bigr)$$ of a point $(z+y_0)/V'$, for an integer $z$ and a listed residue. The stored train history uses the same grids with the larger radius $$r_i\exp\bigl(-.3\exp(\sigma_gY)\bigr).$$ The supply consists of all these grids for the indicated good processed masks, whether or not any actual arrival uses them.
 
-The list-size bound follows because the rational residues number at most $O(\exp(2\exp(h_*Y)))$ and the quantiles number $O(N+1)$, while $3h_*<h_a$. The outer law used for the quantiles depends only on the centre and the current prime, not on matching decisions, partitions, or which rows survive. Each train is invariant under the post-$q$ core: that core divides $V'$, by the construction underlying (eq:core-loss). Thus this invariance persists at every later component change.
+The list-size bound follows because the rational residues number at most $O(\exp(2\exp(h_*Y)))$ and the quantiles number $O(N+1)$, while $3h_*<h_a$. The outer law used for the quantiles depends only on the centre and the current prime, not on matching decisions, partitions, or which rows survive. Each train is invariant under the post-$q$ core: that core divides $V'$, by the construction underlying (5.4). Thus this invariance persists at every later component change.
 
-Consider an actual successful pair of common width $r$ with distance at most $r\exp(-\tfrac12\exp(\sigma_gY))$. Apply the switching estimate (eq:sparse-switch) at this smaller tolerance. If a switch is available outside its paid failures, the recovered rational models for $a\gamma,b\gamma$ have denominators at most $\exp(\exp(h_*Y))$. Their errors are respectively at most $$V'r\exp(-.4\exp(\sigma_gY)),\qquad
+Consider an actual successful pair of common width $r$ with distance at most $r\exp(-\tfrac12\exp(\sigma_gY))$. Apply the switching estimate (8.4) at this smaller tolerance. If a switch is available outside its paid failures, the recovered rational models for $a\gamma,b\gamma$ have denominators at most $\exp(\exp(h_*Y))$. Their errors are respectively at most $$V'r\exp(-.4\exp(\sigma_gY)),\qquad
  W'r\exp(-.4\exp(\sigma_gY)).$$ Indeed division by the signature converts the determinant tolerance to the corresponding phase radius, and all switch losses are absorbed by the gap between the exponents $-.5$ and $-.4$. These rationals are on the lists, so both endpoint tests hold.
 
-If no switch is available, $s_0,t_0\le\exp(\exp(h_*Y))$. Fix $b$. The determinant condition restricts $a\gamma\pmod1$ to at most $s_0$ arcs, each of radius $$O\bigl(V'r\exp(-\tfrac12\exp(\sigma_gY))\bigr).$$ To see the factor $V'$, divide the determinant tolerance by $s_0$; the lcm of the successful denominators equals $s_0V'$. Every such arc has diameter smaller than the phase padding in the endpoint test. This also handles marked endpoints: a closed admissible arc meeting a mark places all its phases within that diameter of the mark. Arcs crossing $0$ may be split at $0$, which is itself marked. For the possibly atomic phase law, every component of the complement of the quantile marks has mass at most $1/N$; otherwise its cumulative distribution would cross some $k/N$ inside that component, placing a generalized inverse mark there. In particular every atom of mass greater than $1/N$ is marked. Thus an admissible arc failing the endpoint test is disjoint from the marks and has unrestricted mass $O(1/N)$. Failure on the first side therefore has probability $O(s_0/N)$, and failure on the second side has probability $O(t_0/N)$. We may drop assignment restrictions for this estimate, keeping the two outer laws independent. These superexponentially small probabilities absorb the crude mask costs and the current-prime sum. Together with (eq:sparse-switch), they prove the third estimate of Proposition 8.1.
+If no switch is available, $s_0,t_0\le\exp(\exp(h_*Y))$. Fix $b$. The determinant condition restricts $a\gamma\pmod1$ to at most $s_0$ arcs, each of radius $$O\bigl(V'r\exp(-\tfrac12\exp(\sigma_gY))\bigr).$$ To see the factor $V'$, divide the determinant tolerance by $s_0$; the lcm of the successful denominators equals $s_0V'$. Every such arc has diameter smaller than the phase padding in the endpoint test. This also handles marked endpoints: a closed admissible arc meeting a mark places all its phases within that diameter of the mark. Arcs crossing $0$ may be split at $0$, which is itself marked. For the possibly atomic phase law, every component of the complement of the quantile marks has mass at most $1/N$; otherwise its cumulative distribution would cross some $k/N$ inside that component, placing a generalized inverse mark there. In particular every atom of mass greater than $1/N$ is marked. Thus an admissible arc failing the endpoint test is disjoint from the marks and has unrestricted mass $O(1/N)$. Failure on the first side therefore has probability $O(s_0/N)$, and failure on the second side has probability $O(t_0/N)$. We may drop assignment restrictions for this estimate, keeping the two outer laws independent. These superexponentially small probabilities absorb the crude mask costs and the current-prime sum. Together with (8.4), they prove the third estimate of Proposition 8.1.
 
 Declare precisely these pairs failing at least one endpoint test to be the exceptions to coarsening. Join every actual surviving nonexceptional successful pair at the relaxed scale. Its connecting segment lies in the stored trains: the distance to an endpoint train centre is at most the test radius plus the pair distance, which is smaller than the stored radius for large $Y$. This remains a valid historical cover if an intermediate label later disappears.
 
-Finally, every error obtained above is bounded by $C\Theta_{ij}e^{-cY}\tau(UT)^C$. Since $Y\ge A_0\max(B_i,B_j)$, the centre-kernel summation using (eq:centre-kernel) and (eq:centre-lower) applies, retaining exponential decay for shells and heights. This proves all assertions of Proposition 8.1. We have both the required within-component energy bounds and a history-independent family of train intervals covering every class-joining segment; the next section uses exactly that family to preserve classes when components change.
+Finally, every error obtained above is bounded by $C\Theta_{ij}e^{-cY}\tau(UT)^C$. Since $Y\ge A_0\max(B_i,B_j)$, the centre-kernel summation using (3.2) and (3.4) applies, retaining exponential decay for shells and heights. This proves all assertions of Proposition 8.1. We have both the required within-component energy bounds and a history-independent family of train intervals covering every class-joining segment; the next section uses exactly that family to preserve classes when components change.
 
 ## Construction of the operational partitions
 
@@ -1367,22 +1366,22 @@ A source train generated by centre $L=L_i$ in an earlier sparse bin $Y'$ has den
  R_{\mathrm{done}}(W')e^{CY'}
  \left(V'rR+\frac{(2UT)^\epsilon}{m}\right).
 \end{split}
-\label{eq:target-grid}
+\tag{9.1}
 \end{equation}$$ The constant $C$ in the harmonic factor is absolute. The estimate is uniform in the preceding history, fixed masks and phases. It holds also at a new insertion, where only static target fields are present.*
 
 *Proof.* Use the single-row product upper fields from Corollary 5.8. First fix the static anchor choices, select one active birth exclusion at each applicable prime, and work inside their average. Soft tests, holes and intervening discards can be dropped. The resulting product upper version dominates the actual weight after the static average is taken. Each retained field at a processed prime divisor of $W'$ has its prescribed one-row mean $R_p$.
 
-Set $P_0=\rho\log(2UT)$, where $\rho>0$ will be sufficiently small in terms of $\epsilon$. The proximity multiplicity on the left of (eq:target-grid) is a query modulo $m$ in $z$. Drop the fields at processed primes $p\mid m$ with $p>P_0$. Relative to their ordinary means, this costs at most $$\prod_{\substack{p\mid m\\p>P_0}}R_p^{-1}
+Set $P_0=\rho\log(2UT)$, where $\rho>0$ will be sufficiently small in terms of $\epsilon$. The proximity multiplicity on the left of (9.1) is a query modulo $m$ in $z$. Drop the fields at processed primes $p\mid m$ with $p>P_0$. Relative to their ordinary means, this costs at most $$\prod_{\substack{p\mid m\\p>P_0}}R_p^{-1}
  \le \exp\bigl(CY'+O_\rho(1)\bigr).$$ Indeed $m\mid Td$, primes of $d$ lie below the end of bin $Y'$, and their reciprocal sum is $O(Y')$. For primes of $T$ above $\rho\log(2UT)$, the bounds on their size and on $\sum_{p\mid T}\log p$ give a bounded reciprocal sum, with constant depending only on $\rho$.
 
 Keep every multiplier as the function defined by the actual prior history; removing a field from an upper product does not recompute any matching plan. Average the retained large fields in decreasing prime order. At an adaptive full factor $p^\nu$, the current grid still contains that full power. Since $p\nmid m$, $p^\nu\mid V'$ also, so translation by $1/p^\nu$ preserves both the grid and the proximity query. Every retained earlier field is invariant on this orbit, and the adaptive field supplies exactly its mean $R_p$. An adaptive omission supplies only the scalar $R_p$ when its residual power is positive, and supplies no field when that power is zero. At a retained static prime of residual exponent $\mu>0$, translation by $1/p^\mu$ fixes the query and all other retained static residues, while its numerator step is a unit modulo $p$; hence its single exclusion again averages to $R_p$. All static primes of this target precede its adaptive range, so no unaveraged adaptive field remains when this static averaging is performed. No independence of the matching plans is used.
 
 Deleting any of the high fields has left the low fields themselves unchanged. If $p_*\le P_0$ is the last adaptive update at such a prime, let $Q_*$ be its historical post-update core. The low fields are individually invariant under translation by $1/Q_*$. Intersect this group with the current grid: the intersection consists of translations by multiples of $1/(W',Q_*)$. Thus their joint numerator period divides $$D=\frac{W'}{(W',Q_*)}\le\frac{M}{Q_*}
-   \le\exp(O(p_*))\le\exp(O(P_0)).$$ Here $Q_*\mid M$ and $W'\mid M$ give the first inequality prime by prime, and (eq:core-loss) gives the second. If no low adaptive update exists, only static residue fields and scalars remain; one can take $D=\prod_{p\mid W',\ p\le P_0}p$, which divides $W'$ and has the same bound. Hence the period estimate remains valid after projection and after arbitrary deletion of the specified high fields. Choose $\rho$ small in terms of $\epsilon$ to obtain $D\ll_\epsilon(2UT)^\epsilon$. Bounded $P_0$, including $U=T=1$, is harmless; with no nonconstant low fields take $D=1$.
+   \le\exp(O(p_*))\le\exp(O(P_0)).$$ Here $Q_*\mid M$ and $W'\mid M$ give the first inequality prime by prime, and (5.4) gives the second. If no low adaptive update exists, only static residue fields and scalars remain; one can take $D=\prod_{p\mid W',\ p\le P_0}p$, which divides $W'$ and has the same bound. Hence the period estimate remains valid after projection and after arbitrary deletion of the specified high fields. Choose $\rho$ small in terms of $\epsilon$ to obtain $D\ll_\epsilon(2UT)^\epsilon$. Bounded $P_0$, including $U=T=1$, is harmless; with no nonconstant low fields take $D=1$.
 
 Write $g=(W',V')$. In units of the source grid, the target coordinate has the form $$V'x_z-y_0
    =\frac{V'/g}{m}z+\text{a fixed shift},
- \qquad (V'/g,m)=1.$$ Conditional on a residue of $z$ modulo $D$, its residues modulo $m$ run uniformly through a coset whose mesh, after this unit multiplication, is $(D,m)/m$. Thus the average number of source centres in the query is $$O\left(V'rR+\frac{(D,m)}{m}\right),$$ uniformly in that residue modulo $D$. This is the ordinary uniform grid count, including multiplicities. Multiply by the low product field and average over its residues. Its product mean, together with the already averaged large fields, supplies the ordinary factors in $R_{\mathrm{done}}(W')$, apart from the bounded restoration cost already displayed. Finally average the static anchor choices. This proves (eq:target-grid). ◻
+ \qquad (V'/g,m)=1.$$ Conditional on a residue of $z$ modulo $D$, its residues modulo $m$ run uniformly through a coset whose mesh, after this unit multiplication, is $(D,m)/m$. Thus the average number of source centres in the query is $$O\left(V'rR+\frac{(D,m)}{m}\right),$$ uniformly in that residue modulo $D$. This is the ordinary uniform grid count, including multiplicities. Multiply by the low product field and average over its residues. Its product mean, together with the already averaged large fields, supplies the ordinary factors in $R_{\mathrm{done}}(W')$, apart from the bounded restoration cost already displayed. Finally average the static anchor choices. This proves (9.1). ◻
 
 The next mask calculation separates an unrestricted source sum from the target assignment. This distinction will be important when the target density is too small to discard its assignment restriction. For a processed mask $c$, let $c_{\le Y'}$ be its part supported on primes up through the end of bin $Y'$.
 
@@ -1391,11 +1390,11 @@ The next mask calculation separates an unrestricted source sum from the target a
  \sum_d\frac1m
  \ll E_{\mathrm{ext}}^{-1}
        \tau(U)\tau(c_{\le Y'})e^{CY'}.
-\label{part:conditional-mask-sum}
+\tag{9.2}
 \end{equation}$$ Under the unrestricted deficit law on the processed target mask, $$\begin{equation}
  \mathbb E\bigl[(T,c)\tau(c_{\le Y'})\bigr]
  \le \tau(T)^C e^{CY'}.
-\label{part:target-mask-moment}
+\tag{9.3}
 \end{equation}$$ All the harmonic exponents here have absolute coefficients.*
 
 *Proof.* We may extend each nonnegative source sum to all divisors of $L$ supported below the end of bin $Y'$. The first inequality follows by multiplying the geometric sums and using the reciprocal-prime bound. The generating prime introduces no additional sum: it is the largest prime divisor of $d$, so is determined by that mask.
@@ -1403,16 +1402,16 @@ The next mask calculation separates an unrestricted source sum from the target a
 For the second inequality, fix a prime and write $n=\nu_p(L)$ and $w=\nu_p(W')$. If the exponent of $p$ in $d$ is $j$, then its exponent in $m$ is $$(w-n)_++\bigl(j-(n-w)_+\bigr)_+.$$ The first term is the exponent in $E_{\mathrm{ext}}$. Writing $a=(n-w)_+$, the local sum after removal of that term is at most $$\sum_{j=0}^n p^{-(j-a)_+}
  \le \frac{a+1}{1-1/p}.$$ Moreover $$a\le \nu_p(U)+\nu_p(c),
  \qquad
- a+1\le (\nu_p(U)+1)(\nu_p(c)+1).$$ Only primes in the indicated source segment contribute the second factor involving $c$. Multiplication proves (part:conditional-mask-sum). The formula for $E_{\mathrm{ext}}$ is also immediate prime by prime from $W'=M/c$.
+ a+1\le (\nu_p(U)+1)(\nu_p(c)+1).$$ Only primes in the indicated source segment contribute the second factor involving $c$. Multiplication proves (9.2). The formula for $E_{\mathrm{ext}}$ is also immediate prime by prime from $W'=M/c$.
 
-To prove (part:target-mask-moment), use independence of the deficit coordinates. At $p^t\parallel T$, with deficit exponent $J$, its geometric tail gives $$\mathbb E\bigl[p^{\min(t,J)}(J+1)\bigr]
+To prove (9.3), use independence of the deficit coordinates. At $p^t\parallel T$, with deficit exponent $J$, its geometric tail gives $$\mathbb E\bigl[p^{\min(t,J)}(J+1)\bigr]
  \ll (t+1)^2.$$ For example, the terms with $J<t$ sum to at most a constant times $\sum_{j<t}(j+1)$, and the geometric tail with $J\ge t$ costs $O(t+1)$. If the divisor factor is absent, this estimate only improves. At primes not dividing $T$, the needed divisor moment is $1+O(1/p)$. Their product over the source segment is $e^{CY'}$, while the other factors are bounded by a fixed power of $\tau(T)$. This proves the assertion. ◻
 
 Let $b$ denote a target outer mask and $I$ its remaining part. Its baseline first-mass coefficient satisfies $$\begin{equation}
  rW'R_{\mathrm{done}}(W')\pi_I(b)
        =k_M\pi_M(cb).
-\label{part:target-currency}
-\end{equation}$$ Summing this over the original assigned masks gives $m_M=k_M\delta_M$. Consequently the main term in (eq:target-grid) may always retain the target assignment. In contrast, when we sum its error without that restriction, (part:target-mask-moment) introduces the relative factor $1/(T\delta_M)$, up to arbitrarily small powers of $2UT$. At a fixed assigned target mask we can instead use (part:conditional-mask-sum), with its factor $E_{\mathrm{ext}}^{-1}\tau(c_{\le Y'})$, and incur no inverse assignment density.
+\tag{9.4}
+\end{equation}$$ Summing this over the original assigned masks gives $m_M=k_M\delta_M$. Consequently the main term in (9.1) may always retain the target assignment. In contrast, when we sum its error without that restriction, (9.3) introduces the relative factor $1/(T\delta_M)$, up to arbitrarily small powers of $2UT$. At a fixed assigned target mask we can instead use (9.2), with its factor $E_{\mathrm{ext}}^{-1}\tau(c_{\le Y'})$, and incur no inverse assignment density.
 
 ### History tests and their first-mass cost
 
@@ -1432,37 +1431,37 @@ At the present component change there are two kinds of tests. Every target centr
  \qquad
  Y_{\mathrm{prev}}\ge\max(Y',Y_D),
  \qquad B_i,B_j\le Y_{\mathrm{prev}}/A_0.
-\label{part:foreign-separation}
+\tag{9.5}
 \end{equation}$$
 
 **Lemma 9.3** (Cost of a history test). *For either kind of test, the first mass discarded from the tested target array on $M=L_j$ by one source centre-bin pair $(i,Y')$ is at most $e^{-cY'}m_M$. Here $c>0$ can be taken sufficiently large for the centre-count summations below, after the fixed parameter choices and then a sufficiently small $k_0$. The bound is uniform in the prior history and does not depend on the slot cap $N_0$.*
 
-*Proof.* *Threatening main term.* In a threatening bin, apply (eq:target-grid) with $R=\ell'+2t$, sum the at most $Z'$ offsets for each $d$, and then sum $d$. Keeping the target assignment in the main term and using $V'=L/d$ and Lemma 9.2 gives the relative main cost $$\begin{equation}
+*Proof.* *Threatening main term.* In a threatening bin, apply (9.1) with $R=\ell'+2t$, sum the at most $Z'$ offsets for each $d$, and then sum $d$. Keeping the target assignment in the main term and using $V'=L/d$ and Lemma 9.2 gives the relative main cost $$\begin{equation}
  \ll e^{CY'}Z'k_L(\ell'+2t).
-\label{part:threat-main}
-\end{equation}$$ The threatening inequality implies $t\le\exp(-.003\exp(\sigma_gY'))$. Also $B_i\le Y'/A_0$ and $\log k_L\le .2B_i+O(1)$. Since $h_a<\sigma_g$, expression (part:threat-main) is smaller than any required fixed exponential in $-Y'$ once the heights are large.
+\tag{9.6}
+\end{equation}$$ The threatening inequality implies $t\le\exp(-.003\exp(\sigma_gY'))$. Also $B_i\le Y'/A_0$ and $\log k_L\le .2B_i+O(1)$. Since $h_a<\sigma_g$, expression (9.6) is smaller than any required fixed exponential in $-Y'$ once the heights are large.
 
-*Nonthreatening tests.* For a nonthreatening bin, an interval of radius $r\ell'$ meeting $[x-2r,x+2r]$ has its centre within $3r$ of $x$. Apply (eq:target-grid) at this constant relative radius, and use Markov’s inequality for the length threshold $e^{-Y'}tr$. The length per counted interval is $2r\ell'$. The factor $e^{Y'}$ from the threshold is absorbed in the harmonic exponential. In the main term retain the target assignment; only in the error extend the target-mask sum to the unrestricted law. By (part:target-mask-moment) and arbitrarily small divisor powers, the relative cost is at most $$\begin{equation}
+*Nonthreatening tests.* For a nonthreatening bin, an interval of radius $r\ell'$ meeting $[x-2r,x+2r]$ has its centre within $3r$ of $x$. Apply (9.1) at this constant relative radius, and use Markov’s inequality for the length threshold $e^{-Y'}tr$. The length per counted interval is $2r\ell'$. The factor $e^{Y'}$ from the threshold is absorbed in the harmonic exponential. In the main term retain the target assignment; only in the error extend the target-mask sum to the unrestricted law. By (9.3) and arbitrarily small divisor powers, the relative cost is at most $$\begin{equation}
  C_\epsilon\frac{\ell'}{t}e^{CY'}Z'
  \left(k_L+\frac{(2UT)^\epsilon}{T\delta_M}\right).
-\label{part:nonthreat-cost}
+\tag{9.7}
 \end{equation}$$ All small powers of $2UT$ here may be enlarged and renamed $\epsilon$.
 
-We check that (part:nonthreat-cost) is negligible for both scales. Equal widths imply $$\begin{equation}
+We check that (9.7) is negligible for both scales. Equal widths imply $$\begin{equation}
  \log U-\log T=\log k_L-\log k_M,
  \qquad |\log U-\log T|\ll B_i+B_j.
-\label{part:equal-width-ratios}
-\end{equation}$$ Thus, for $\epsilon<1/2$, the ratio $(2UT)^\epsilon/T$ is bounded by an exponential in a small fixed multiple of $B_i+B_j$. By (eq:centre-lower), the density loss is at most $\delta_M^{-1}\le \exp(.32B_j^*)\le\exp(.64B_j)$. Write $A=|\log\ell'|$ and $a=|\log t|$. In the present case $A>100a$, so $\ell'/t=\exp(-(A-a))$ has a fixed large margin over $\exp(-a)$. At the intrinsic scale, $a=2E_gB_j$; at the child-gap scale, $a=1.5E_2Y_D$ and $B_j\le Y_D/A_0$. In both cases this margin pays the displayed density and ratio losses. It also pays $e^{CY'}Z'$ and $k_L$, because $\log Z'=\exp(h_aY')=o(\exp(\sigma_gY'))$.
+\tag{9.8}
+\end{equation}$$ Thus, for $\epsilon<1/2$, the ratio $(2UT)^\epsilon/T$ is bounded by an exponential in a small fixed multiple of $B_i+B_j$. By (3.4), the density loss is at most $\delta_M^{-1}\le \exp(.32B_j^*)\le\exp(.64B_j)$. Write $A=|\log\ell'|$ and $a=|\log t|$. In the present case $A>100a$, so $\ell'/t=\exp(-(A-a))$ has a fixed large margin over $\exp(-a)$. At the intrinsic scale, $a=2E_gB_j$; at the child-gap scale, $a=1.5E_2Y_D$ and $B_j\le Y_D/A_0$. In both cases this margin pays the displayed density and ratio losses. It also pays $e^{CY'}Z'$ and $k_L$, because $\log Z'=\exp(h_aY')=o(\exp(\sigma_gY'))$.
 
 *Threatening error term.* It remains to estimate the threatening error, where the factor $\ell'/t$ is unavailable. Its unrestricted relative bound is $$\begin{equation}
  C_\epsilon e^{CY'}Z'
        \frac{(2UT)^\epsilon}{T\delta_M}.
-\label{part:threat-error}
-\end{equation}$$ For a foreign-child test, the threatening inequality gives $\exp(\sigma_gY')=O(Y_D)$ and hence $\log Z'=o(Y_D)$. Equations (part:foreign-separation) and (part:equal-width-ratios) show that the denominator $T$ pays (part:threat-error): its logarithmic saving is $(1/2-\epsilon)\log(UT)$ up to $O(B_i+B_j)$, whereas the remaining height costs are $CY'+o(Y_D)+O(B_j)$. Taking $\beta$ sufficiently large absolutely absorbs these costs, uniformly since $Y',Y_D\le Y_{\mathrm{prev}}$.
+\tag{9.9}
+\end{equation}$$ For a foreign-child test, the threatening inequality gives $\exp(\sigma_gY')=O(Y_D)$ and hence $\log Z'=o(Y_D)$. Equations (9.5) and (9.8) show that the denominator $T$ pays (9.9): its logarithmic saving is $(1/2-\epsilon)\log(UT)$ up to $O(B_i+B_j)$, whereas the remaining height costs are $CY'+o(Y_D)+O(B_j)$. Taking $\beta$ sufficiently large absolutely absorbs these costs, uniformly since $Y',Y_D\le Y_{\mathrm{prev}}$.
 
 For an intrinsic test, the threatening inequality instead gives $$Y'=O(1+\log B_j)=o(B_j),\qquad
- \log Z'=o(B_j),\qquad B_i/B_j=o(1).$$ If $\log(UT)\ge C_0B_j$ for a sufficiently large fixed $C_0$, the same use of (part:equal-width-ratios) makes (part:threat-error) exponentially small in $B_j$. Suppose therefore that $\log(UT)<C_0B_j$. Retain the target assignment and apply (part:conditional-mask-sum) separately at each of its masks. For every true assigned row $v$ at $M$, equal widths rule out the width alternative in (eq:exterior-gain), so $$\frac{v}{(v,L)}>\exp(.015B_j^*).$$ Since $v\mid W'$, it follows that $$E_{\mathrm{ext}}=\frac{W'}{(W',L)}
-       \ge \frac{v}{(v,L)}\ge \exp(.01B_j).$$ The reciprocal-prime sum in the initial segment through bin $Y'$ is $O(Y')=o(B_j)$. The good-mask initial-segment condition therefore gives $\tau(c_{\le Y'})\le e^{s'B_j}$. Relative to this assigned mask’s own baseline (part:target-currency), its error is consequently at most $$C_\epsilon e^{CY'}Z'(2UT)^\epsilon
+ \log Z'=o(B_j),\qquad B_i/B_j=o(1).$$ If $\log(UT)\ge C_0B_j$ for a sufficiently large fixed $C_0$, the same use of (9.8) makes (9.9) exponentially small in $B_j$. Suppose therefore that $\log(UT)<C_0B_j$. Retain the target assignment and apply (9.2) separately at each of its masks. For every true assigned row $v$ at $M$, equal widths rule out the width alternative in (3.5), so $$\frac{v}{(v,L)}>\exp(.015B_j^*).$$ Since $v\mid W'$, it follows that $$E_{\mathrm{ext}}=\frac{W'}{(W',L)}
+       \ge \frac{v}{(v,L)}\ge \exp(.01B_j).$$ The reciprocal-prime sum in the initial segment through bin $Y'$ is $O(Y')=o(B_j)$. The good-mask initial-segment condition therefore gives $\tau(c_{\le Y'})\le e^{s'B_j}$. Relative to this assigned mask’s own baseline (9.4), its error is consequently at most $$C_\epsilon e^{CY'}Z'(2UT)^\epsilon
  E_{\mathrm{ext}}^{-1}\tau(c_{\le Y'})
  \le \exp\bigl(-.01B_j+s'B_j+\epsilon C_0B_j+o(B_j)\bigr).$$ Here the factor $\tau(U)$ has been absorbed by enlarging the arbitrarily small power. Choose that power sufficiently small; $s'$ was already chosen small absolutely. This gives the required saving without a factor $\delta_M^{-1}$. Summing the retained target assignments completes all cases. ◻
 
@@ -1470,7 +1469,7 @@ We next sum these estimates without charging an unchanged history repeatedly. At
 
 At height $Y'$, the number of possible source centres is at most $\exp(4Y'/A_0+O(1))$. Summing Lemma 9.3 over sources and dyadic heights, then over target first masses $m_M$, gives $o(W)$ as $k_0\to0$. The same count, without target weights, bounds the total physical length per unit period of all danger intervals by $$\begin{equation}
  \sum_{i,Y'} e^{CY'}Z'k_{L_i}\ell'<.01,
-\label{part:global-danger-length}
+\tag{9.10}
 \end{equation}$$ after decreasing $k_0$ if necessary. Indeed each source mask contributes at most $2Z'(L_i/d)r\ell'$, and $\sum_d1/d\le e^{CY'}$. The double-exponential decay of $\ell'$ pays both this harmonic factor and the centre count.
 
 All history tests are equivariant under the current core. Each source supply was invariant under its post-generation core, and the current common core divides that earlier core. The predicates use only distances, lengths and the fixed centre scales. The preliminary survivors after these tests therefore retain the required core symmetry.
@@ -1485,7 +1484,7 @@ The preliminary positions, inherited hulls and preliminary gaps between occupied
 
 **Lemma 9.4** (Location of inherited class hulls). *Every positive-length inherited class hull lies in the union of the danger intervals belonging to its old child. It lies in its old cell, and the hull operation respects current-core translations.*
 
-*Proof.* An inherited equivalence can be witnessed by a historical chain of actual coarsening edges. The endpoints never change location under subsequent projections. Construction 8.2 covers each connecting segment by that child’s stored history. If intermediate labels have disappeared, retain their segments in the witnessing chain: the full deterministic supply has not been reduced. The historical chains may backtrack, but their images lie in one connected component $K$ of the old child’s finite closed danger union. By (part:global-danger-length), $K$ is an arc of length less than $.01$; a chain with nonzero winding would cover the circle and is impossible.
+*Proof.* An inherited equivalence can be witnessed by a historical chain of actual coarsening edges. The endpoints never change location under subsequent projections. Construction 8.2 covers each connecting segment by that child’s stored history. If intermediate labels have disappeared, retain their segments in the witnessing chain: the full deterministic supply has not been reduced. The historical chains may backtrack, but their images lie in one connected component $K$ of the old child’s finite closed danger union. By (9.10), $K$ is an arc of length less than $.01$; a chain with nonzero winding would cover the circle and is impossible.
 
 The current class also lies in one occupied old cell $C$. By the stronger induction specified at the start of the section, its actual arc length is at most $2r\exp(-2E_gB_j)<1/4$ at any surviving centre-$j$ point. Choose a cut outside $C\cup K$. Both become real intervals, and the interval between the extreme surviving class positions lies in both. Its length is less than $.01$, so it is the uniquely determined short circular hull. Old padding keeps it inside the old cell, including with the half-open endpoint convention. All classes and histories are equivariant, and this hull operation commutes with the current core translations. Singleton hulls require no historical segment and satisfy the equivariance assertion directly. ◻
 
@@ -1512,7 +1511,7 @@ We record a quantitative non-repetition condition for both the intrinsic segment
  \end{aligned}$$ Take the minimum bands and heights sufficiently large that each right-hand side is at most $1/4$. For either segment length $s=t_jr$ or $s=t_Dr$, this ensures $s+a_P\le T_{\mathrm{core}}/2<T_{\mathrm{core}}$. Distinct periodic copies of one microinterval are separated by a gap $T_{\mathrm{core}}-a_P>s$. Thus the tested segment meets at most one copy of each independently sampled microinterval, even when it crosses the chosen fundamental-period boundary. For any measurable available subset $A$ of the segment, the probability that no raw line falls in $A$ is $$\prod_J\left(1-\frac{|A\cap J|}{a_P}\right)
  \le \exp\left(-\frac{|A|}{a_P}\right),$$ where the product is over those microintervals. Hence the two-direction failure probability is at most $$\begin{equation}
  2\exp\bigl(-c t_j\exp(E_2Y_P)\bigr).
-\label{part:intrinsic-jitter}
+\tag{9.11}
 \end{equation}$$ This estimate permits any fragmentation of the available set. Since $B_j\le Y_P/A_0$ and $E_2\gg E_g$, it is uniformly negligible. Every occupied new cell now has actual arc length at most $2t_jr<1/4$ as measured from each surviving point of centre $j$. This proves the stronger occupied-cell induction used for the hulls. In particular it has the required intrinsic span $\ll r\exp(-E_gB_j)$.
 
 At an insertion containing a high-type newborn, the entire component is newborn. Indeed the last dense bin agrees across each component edge at that height: the edge ratio is too small to change any exponent in that bin. Every active centre in the component consequently has the same last dense bin and starts now. There are thus no inherited hulls to skip. With one raw line in each microinterval, every cell has length at most $2a_P\ll r\exp(-E_gY_P)$, which is the stronger span needed for high-type direct births.
@@ -1526,15 +1525,15 @@ The child’s own current hulls do not enter this gap, by Lemma 9.4 and the cho
 
 For each nonempty old cell test its two adjacent gaps in these directions. If either test finds no unskipped line, discard all entries of this child in that old cell. Always use the fixed preliminary positions and gaps, even if other subsequent tests have already removed some points. The same independent-jitter calculation gives a failure probability per old cell of at most $$\begin{equation}
  2\exp\bigl(-c t_D\exp(E_2Y_P)\bigr).
-\label{part:child-jitter}
+\tag{9.12}
 \end{equation}$$ Since $Y_P\ge2Y_D$, $$t_D\exp(E_2Y_P)
    =\exp\bigl(E_2Y_P-1.5E_2Y_D\bigr)
    \ge\exp(E_2Y_P/4).$$ Thus this failure probability is uniformly negligible as well.
 
 Two old cells of this child that still contain survivors now have an unskipped line between their preliminary live positions in each direction around the circle. This remains true if intermediate old cells have lost all their entries: the separating lines were selected using the original gaps and are never removed or redrawn. Consequently surviving points from this child in a common new cell come from one old cell.
 
-Let $\mathcal F$ denote all data after the preliminary history tests and before the current jitter draws. The pointwise bounds for raw-line padding and (part:intrinsic-jitter) multiply the corresponding fixed preliminary weights. For an old cell $C$, let $M_C^0$ be its preliminary first mass, including the outer-mask factors, and let $E_C$ be its gap-test failure event defined using the fixed preliminary gaps and hulls. Any earlier pointwise discards only reduce the mass left in $C$, so its subsequent cell-purge loss is at most $\mathbf1_{E_C}M_C^0$ for every realization. Consequently $$\mathbb E[\text{cell-purge loss in }C\mid\mathcal F]
- \le \mathbb P(E_C\mid\mathcal F)M_C^0.$$ We never condition on the outcomes of the other tests. Their correlation with $E_C$ is therefore irrelevant, and overlapping loss estimates only overcount the actual discard. The preliminary old-cell label sets are disjoint, and their total first mass is at most $W$. Thus (part:child-jitter) can be summed with these mass weights. The total entering first mass at each height is also at most $W$. Summation over the finite dyadic chronology gives $o(W)$, uniformly in its length. Together with the history-test loss this is the required negligible partition discard.
+Let $\mathcal F$ denote all data after the preliminary history tests and before the current jitter draws. The pointwise bounds for raw-line padding and (9.11) multiply the corresponding fixed preliminary weights. For an old cell $C$, let $M_C^0$ be its preliminary first mass, including the outer-mask factors, and let $E_C$ be its gap-test failure event defined using the fixed preliminary gaps and hulls. Any earlier pointwise discards only reduce the mass left in $C$, so its subsequent cell-purge loss is at most $\mathbf1_{E_C}M_C^0$ for every realization. Consequently $$\mathbb E[\text{cell-purge loss in }C\mid\mathcal F]
+ \le \mathbb P(E_C\mid\mathcal F)M_C^0.$$ We never condition on the outcomes of the other tests. Their correlation with $E_C$ is therefore irrelevant, and overlapping loss estimates only overcount the actual discard. The preliminary old-cell label sets are disjoint, and their total first mass is at most $W$. Thus (9.12) can be summed with these mass weights. The total entering first mass at each height is also at most $W$. Summation over the finite dyadic chronology gives $o(W)$, uniformly in its length. Together with the history-test loss this is the required negligible partition discard.
 
 No unskipped boundary enters an inherited closed hull, so restricting a class to survivors does not split it across new cells. Every surviving point has distance at least $\delta_P$ from all new boundaries. At a later sparse step of this unchanged component, of height $Y'\ge Y_P$, the relaxed coarsening scale satisfies $$r\exp\bigl(-\tfrac12\exp(\sigma_gY')\bigr)
    \ll r\exp(-1.5E_2Y_P)=\delta_P.$$ Thus the new good coarsening edges cannot cross a boundary. The inequalities hold from the chosen minimum height onward, because $\exp(\sigma_gY_P)\gg E_2Y_P$.
@@ -1561,18 +1560,18 @@ We prove the proposition in stages. All point counts below are per unit length, 
 ### The two kinds of first join
 
 **Lemma 10.2** (Classification of the remaining pairs). *Suppose centres $i,j$ first share a component at height $Y$, and their comparison is not a simultaneous-birth comparison treated in Section 7. Either $$\begin{equation}
-\label{join:distant}
+\tag{10.1}
  \log(UT)>\beta Y/2,
 \end{equation}$$ or, after interchanging the centres, $i$ is old, $j$ is a medium-type newborn, and $$\begin{equation}
-\label{join:mixed}
+\tag{10.2}
  Y=A_0 B_j.
 \end{equation}$$ In this case $B_i/B_j$ is a sufficiently small fixed fraction, $\log(UT)=O(\beta A_0 B_j)$, and the sum of the reciprocals of all prime divisors of both centres below bin $Y$ is at most $s_{\rm low}B_j$, with the arbitrarily small constant specified in the parameter hierarchy. The same alternatives apply after replacing an old endpoint by a centre in one of its earlier components.*
 
-*Proof.* If both centres are newborn but their pair was not treated by the direct comparisons, then $\log(UT)>\beta Y$: those comparisons cover the adjacent newborn pairs. Such a pair satisfies (join:distant), even if a path of other newborn centres puts the two centres in one component.
+*Proof.* If both centres are newborn but their pair was not treated by the direct comparisons, then $\log(UT)>\beta Y$: those comparisons cover the adjacent newborn pairs. Such a pair satisfies (10.1), even if a path of other newborn centres puts the two centres in one component.
 
-If both centres are old, they belonged to different components at the preceding height $Y/2$. The previous adjacency threshold therefore gives (join:distant). This also defines the distant case when one or both centres are newborn.
+If both centres are old, they belonged to different components at the preceding height $Y/2$. The previous adjacency threshold therefore gives (10.1). This also defines the distant case when one or both centres are newborn.
 
-Suppose (join:distant) fails. The two centres are then directly adjacent at activation. A high-type newborn has the same last dense bin as every neighbour at that height, since an exponent discrepancy at a prime in that bin already exceeds the edge log-cost. Such neighbours start together, so they give a simultaneous-birth comparison. The remaining newborn is consequently medium type. Initially its start is at most $2D_0 B_j$ up to the fixed onset convention, and hence $\log(UT)=O(\beta D_0B_j)$. The centre exponents agree at every prime whose bin has height at least $\ell B_j$.
+Suppose (10.1) fails. The two centres are then directly adjacent at activation. A high-type newborn has the same last dense bin as every neighbour at that height, since an exponent discrepancy at a prime in that bin already exceeds the edge log-cost. Such neighbours start together, so they give a simultaneous-birth comparison. The remaining newborn is consequently medium type. Initially its start is at most $2D_0 B_j$ up to the fixed onset convention, and hence $\log(UT)=O(\beta D_0B_j)$. The centre exponents agree at every prime whose bin has height at least $\ell B_j$.
 
 Centres in the same band would have the same start. A centre in a larger retained band cannot start earlier. Thus the old centre belongs to a smaller band, separated from $B_j$ by the prescribed large factor. If a common dense bin existed at height at least $\ell B_j$, its height would exceed $D_0 B_i$, contradicting the retained medium type of $i$. There is therefore no such dense bin. In particular the newborn starts at $A_0B_j$, rather than at twice a later dense height. The bins below $\ell B_j$ contribute $O(\ell B_j)$ to the reciprocal-prime sum; all later bins below $Y$ are sparse and contribute $O(\kappa A_0 B_j)$. The choices of $\ell$ and $\kappa A_0$ give the assertion.
 
@@ -1582,23 +1581,23 @@ Call the alternatives *distant* and *mixed*, respectively. For a comparison at h
  H=B_i+B_j+\log(2UT),\qquad P_0=\rho H,$$ where the fixed constant $\rho>0$ is sufficiently small.
 
 At relative distance at most $S r_{\max}$, the determinant integer lies in an interval of length $O(SK/f_0)$. Its cycle has width-weighted size $$\begin{equation}
-\label{join:bare-cycle}
+\tag{10.3}
  r_{\min}(v',w')=\Theta_{ij}\frac{f_0}{de}.
 \end{equation}$$ The bare main term is consequently $O(S k_L k_M/(de))$. In a broad comparison $S$ is a fixed constant. In the clipping comparison the preliminary partition tests permit $$\begin{equation}
-\label{join:narrow-distance}
+\tag{10.4}
  S\ll \exp\bigl(-E_g\max(B_i,B_j)\bigr),\qquad r_i=r_j.
 \end{equation}$$ We drop actual common-cell membership after using this distance bound. This removes the history-dependent cell predicate from all the subsequent counts.
 
 For a projected denominator $v'$, put $$R_{\rm done}(v')=
  \prod_{\substack{l\mid v'\\l\ \mathrm{processed}}}R_l.$$ The identity $$\begin{equation}
-\label{join:processed-currency}
+\tag{10.5}
  \frac{R_{\rm done}(v')}{d}=\pi_{\rm done}(d)
 \end{equation}$$ uses the deficit law on the prime powers already processed at this join. We will return the main terms to this currency, preserving the outer coefficients separately.
 
 ### A backward expansion of the actual weights
 
 For an old side, its *adaptive range* consists of the primes from its start up to, but not including, the present bin. The adaptive range of a newborn is empty. Above $P_0$, the reciprocal sum of mismatch primes dividing $UTde$ is bounded uniformly. For $UT$ this follows from its log-size; for $d,e$ it follows from the good-mask reciprocal purge, since $d_0\ll\rho$. In particular, for every fixed $C$, $$\begin{equation}
-\label{join:mismatch-restoration}
+\tag{10.6}
  \prod_{\substack{p>P_0\\p\mid UTde}}R_p^{-C}\ll 1.
 \end{equation}$$ The constant can depend on the fixed cutoffs, but not on the centres or masks in the block.
 
@@ -1618,26 +1617,26 @@ When this procedure leaves a side’s adaptive range, its actual birth weight is
 
 If both adaptive ranges are empty, make these static replacements immediately. There are no bad-omission or joint-loss terms in that case. The continuing term goes directly to the remaining-field count, which retains all high static factors above its low cutoff. This includes nonadjacent newborn pairs in the distant case.
 
-Stop the continuing term at its first bad omission. At any other mismatch, whether a centre-exponent discrepancy or an actual omission, drop the field at $p$. Equation (join:mismatch-restoration) pays for restoring its ordinary factor throughout this branch.
+Stop the continuing term at its first bad omission. At any other mismatch, whether a centre-exponent discrepancy or an actual omission, drop the field at $p$. Equation (10.6) pays for restoring its ordinary factor throughout this branch.
 
 It remains to describe a common full factor $p^\nu$. Simultaneous translation by $1/p^\nu$ preserves the two current grids and their distance. On adaptive sides it preserves the actual pre-$p$ prefixes and transports the links equivariantly. On a static side the smaller retained factors are invariant. Write the adaptive multiplier as $1-\mathcal D_p$, where $\mathcal D_p$ is the linked-success deletion fraction plus $1/p$ times the unpaired fraction. Its orbit mean is $1/p$. A static field is either a fixed forbidden colour or the constant $R_p$.
 
 More explicitly, at an adaptive full-factor point $x$, the centered deleted raw mass is $$\begin{equation}
-\label{join:centered-link-loss}
+\tag{10.7}
  \sum_{\xi}\mathfrak m_{x,\xi}
  \left(\mathbf 1_{\{\xi\ \mathrm{succeeds}\}}-\frac1p\right),
 \end{equation}$$ where $\mathfrak m_{x,\xi}$ is the actual raw mass linked from $x$ to the plus entry $\xi$. These masses are transported unchanged on the joint orbit. Indeed, writing $M_x=\sum_\xi\mathfrak m_{x,\xi}\le w_x^-$ and $I_\xi=\mathbf1_{\{\xi\ \mathrm{succeeds}\}}$, the deleted raw mass is $$\frac{w_x^--M_x}{p}+\sum_\xi\mathfrak m_{x,\xi}I_\xi.$$ Consequently $$w_x^+=R_pw_x^-
        -\sum_\xi\mathfrak m_{x,\xi}(I_\xi-1/p).$$ For two adaptive full-factor sides, orbit averaging gives the exact identity $$\begin{equation}
-\label{join:raw-covariance}
+\tag{10.8}
  \mathbb E(w_x^+w_y^+)
  =R_p^2w_x^-w_y^-
  +\sum_{\xi,\eta}\mathfrak m_{x,\xi}\mathfrak m_{y,\eta}
        \left(\mathbb E(I_\xi I_\eta)-\frac1{p^2}\right).
-\end{equation}$$ The centered part of a static forbidden field has the same form with one indicator; a scalar field has no centered part. Expanding the product of the two updates, the orbit average is at most $R_p^2$ times the two pre-prefixes plus the average joint term of their nonconstant success-losses. Indeed the covariance expansion of (join:centered-link-loss) contains the joint-success kernel minus the nonnegative product-of-means kernel.
+\end{equation}$$ The centered part of a static forbidden field has the same form with one indicator; a scalar field has no centered part. Expanding the product of the two updates, the orbit average is at most $R_p^2$ times the two pre-prefixes plus the average joint term of their nonconstant success-losses. Indeed the covariance expansion of (10.7) contains the joint-success kernel minus the nonnegative product-of-means kernel.
 
 Continue only the product-main term. Stop each joint-loss term at this prime, retaining the actual link masses and, for a static indicator, its smaller static factors. At least one side is adaptive at a prime in the union being read, so a nonzero separately stopped term has an adaptive linked side. Summing over locations turns the joint orbit averages into the corresponding counts of actual successes. Such a stopped term is not subsequently expanded into further adaptive covariance terms.
 
-This construction never assumes independent match plans. It retains the actual prefix whenever a link decision is needed, and each nonconstant coefficient is precisely $\mathfrak m_{x,\xi}$, not a fractional coefficient multiplied by an enlarged prefix. All the ordinary factors from larger read primes are now constants. Their mismatch restoration is uniformly bounded by (join:mismatch-restoration), proving the stated form of every branch. ◻
+This construction never assumes independent match plans. It retains the actual prefix whenever a link decision is needed, and each nonconstant coefficient is precisely $\mathfrak m_{x,\xi}$, not a fractional coefficient multiplied by an enlarged prefix. All the ordinary factors from larger read primes are now constants. Their mismatch restoration is uniformly bounded by (10.6), proving the stated form of every branch. ◻
 
 The expansion has three kinds of terminal term: the continuing product reaches the low fields, it stops at its first bad omission, or a separate joint-loss term stops where it splits off. The first two keep the original centre pair and require a periodic count of the remaining fields. The third requires an additional calculation before it can be charged to the positions that tested the corresponding deletions.
 
@@ -1645,19 +1644,19 @@ The expansion has three kinds of terminal term: the continuing product reaches t
 
 **Lemma 10.4** (Remaining-field count). *The retained fields through $P_0$ on the two projected grids have periods dividing those denominators, of sizes at most $\exp(O(P_0))$, and their separate product means are the corresponding ordinary factors. Remaining high static fields, if present, increase the main-term constant by a bounded factor and the roundoff by at most $\exp(C\Sigma)$, where $$\Sigma=\sum_{\substack{p\mid LM\\ \log\log p<Y}}\frac1p.$$ The period loss can be taken at most $\exp(\epsilon H)$ by choosing $\rho$ sufficiently small after $\epsilon>0$ is fixed.*
 
-*Proof.* For adaptive low fields, the modulus and separate product means follow from Corollary 5.8 and Equation (eq:core-loss). If only static factors remain, their prime residue periods give the same bound directly. Apply Lemma 2.7 to the product of the two retained low-field weights. Their separate means give the independent residue mean in that lemma, and the product of their periods is at most $\exp(O(P_0))$.
+*Proof.* For adaptive low fields, the modulus and separate product means follow from Corollary 5.8 and Equation (5.4). If only static factors remain, their prime residue periods give the same bound directly. Apply Lemma 2.7 to the product of the two retained low-field weights. Their separate means give the independent residue mean in that lemma, and the product of their periods is at most $\exp(O(P_0))$.
 
 Suppose some high static factors remain. Then their low companion fields are static and have coprime moduli. Drop high mismatch factors at the uniformly bounded restoration cost. At a high common full factor, the two forbidden residues either coincide on the determinant cycle or do not. Their cycle density, relative to the two ordinary factors, is at most $$\begin{equation}
-\label{join:static-coincidence}
+\tag{10.9}
  \prod_p\left(1+\frac Cp
        \mathbf 1_{\{n\equiv n_p\pmod p\}}\right),
 \end{equation}$$ where $n$ is the determinant integer and $n_p$ is the possible coincidence residue. With only one static factor at $p$ there is no extra factor. The digit CRT separates these high factors from the low fields.
 
-Expand (join:static-coincidence). A term imposes one congruence on $n$ modulo a squarefree product $Q'$. Since $Q'$ is coprime to the low periods, the progression form of Lemma 2.7 gives the interval length divided by $Q'$, plus $O(\exp(O(P_0)))$ roundoff, both multiplied by the ordinary mean of the low fields. The main extra product has local increments $O(1/p^2)$ and is bounded. The roundoff extra product is at most $\exp(C\Sigma)$.
+Expand (10.9). A term imposes one congruence on $n$ modulo a squarefree product $Q'$. Since $Q'$ is coprime to the low periods, the progression form of Lemma 2.7 gives the interval length divided by $Q'$, plus $O(\exp(O(P_0)))$ roundoff, both multiplied by the ordinary mean of the low fields. The main extra product has local increments $O(1/p^2)$ and is bounded. The roundoff extra product is at most $\exp(C\Sigma)$.
 
 There is no unhandled combination of high static fields and adaptive low fields. If either side is adaptive at or below $P_0$ on the continuing term, the union of adaptive ranges covers every higher prime below the join; those factors have already been read. Replace the remaining actual prefix by its product upper version through $P_0$ on the current grid. If a bad omission has stopped the branch and lower adaptive fields are dropped, only static residue fields are needed. Finally $P_0=\rho H$ and a sufficiently small $\rho$ give the claimed period loss. ◻
 
-Consider first the continuing term when it reaches the low fields. Lemma 10.4 restores $R_{\rm done}$ on both sides in the main term. By (join:processed-currency), summing the masks with their assignment restrictions gives $O(m_Lm_M)$. In the clipping count the small factor $S$ in (join:narrow-distance) absorbs the possible inverse assignment density arising from the common outer mask. To see this explicitly, for side $i$ let $$A_i(a)=\sum_{\substack{d:\,da\text{ assigned and good}}}
+Consider first the continuing term when it reaches the low fields. Lemma 10.4 restores $R_{\rm done}$ on both sides in the main term. By (10.5), summing the masks with their assignment restrictions gives $O(m_Lm_M)$. In the clipping count the small factor $S$ in (10.4) absorbs the possible inverse assignment density arising from the common outer mask. To see this explicitly, for side $i$ let $$A_i(a)=\sum_{\substack{d:\,da\text{ assigned and good}}}
                \pi_{{\rm done},i}(d).$$ Then $0\le A_i\le1$ and $\mathbb E_a A_i\le\delta_{L_i}$. Independent outer laws give at most $\delta_L\delta_M$. For one outer law, $$\mathbb E_a(A_i(a)A_j(a))\le\min(\delta_L,\delta_M),\qquad
  \frac{S\mathbb E_a(A_iA_j)}{\delta_L\delta_M}
  \le\frac{S}{\max(\delta_L,\delta_M)}\ll1,$$ by $\delta_{L_i}\ge e^{-.64B_i}$ and the choice of $E_g$.
@@ -1666,16 +1665,15 @@ Now suppose the term stops at a bad omission $p$, in bin $Y_p$. Drop adaptive cu
 
 Designate one adaptive omitted side, say $L$. Drop its assignment restriction. Summing its processed mask gives a factor $1/p$ while the other side’s assignment remains in force. This assertion is uniform in the fixed outer mask: the unrestricted processed law has $\Pr(p\mid d)=1/p$. Thus for the common outer law the remaining sum is at most $\mathbb E_a A_j(a)/p\le\delta_M/p$, and the same bound holds with independent outer laws. If $p\mid UT$, then $p>P_0$ and $$\sum_{\substack{p\mid UT\\p>P_0}}\frac{\log p}{p}
  \le \frac{\log(UT)}{P_0}\ll_\rho1.$$ Since $\log\log p\ge A_0B_i$ on the designated adaptive side and $\exp(C\kappa Y_p)\le(\log p)^{C\kappa}$, this implies $$\begin{equation}
-\label{join:bad-prime-saving}
+\tag{10.10}
  \sum_{\substack{p\mid UT,\ p>P_0\\
                   \log\log p\ge A_0B_i}}
  \frac{\exp(C\kappa Y_p)}p
  \ll \exp(-cA_0B_i).
-\end{equation}$$ If instead $p$ divides the partner mask $e$, the same bound holds at each fixed good partner mask. Indeed $p>P_0>d_0B_j$, and its good-mask bound controls $\sum_{p\mid e}(\log p)^{.3}/p$ in this range. Choose $C\kappa<.3$ to obtain the exponential saving from the same lower cutoff. This saving pays for $\delta_L^{-1}$ in (eq:centre-lower), also for a coupled outer law. The resulting main terms again sum to $O(m_Lm_M)$: before this last restoration their bound is $k_Lk_M\delta_M e^{-cA_0B_i}
- =m_Lm_M\delta_L^{-1}e^{-cA_0B_i}$.
+\end{equation}$$ If instead $p$ divides the partner mask $e$, the same bound holds at each fixed good partner mask. Indeed $p>P_0>d_0B_j$, and its good-mask bound controls $\sum_{p\mid e}(\log p)^{.3}/p$ in this range. Choose $C\kappa<.3$ to obtain the exponential saving from the same lower cutoff. This saving pays for $\delta_L^{-1}$ in (3.4), also for a coupled outer law. The resulting main terms again sum to $O(m_Lm_M)$: before this last restoration their bound is $k_Lk_M\delta_M e^{-cA_0B_i} =m_Lm_M\delta_L^{-1}e^{-cA_0B_i}$.
 
 For either kind of terminal term just described, the roundoff per fixed mask choice, with its outer coefficients still outside, is at most $$\begin{equation}
-\label{eq:no-link-roundoff}
+\tag{10.11}
  C\Theta_{ij}\frac{f_0}{de}
  \exp(\epsilon H+C\Sigma)
  \bigl(1+\omega(d)+\omega(e)\bigr).
@@ -1704,7 +1702,7 @@ More precisely, put $V_0=L/d_{<p}$, so $\nu_l(V_0)=\nu_l$. The designated numera
 Below-$p$ origin masks are already labels in this one link matrix; they are included in its column sum. Moreover each involved minus ancestor already has an original assigned-row label, including its entire future mask. It therefore has only one possible current row and mask labelling, with its later numerator fixed by the projection condition before that condition was averaged. Thus no additional processed-mask sum occurs after the capacity bound. If both sides are mapped, widening the domain to a predicate on the image pair alone permits the two column bounds to be multiplied. If a side is static, keep its same upper static choice throughout this summation and then average its anchors. Other origin restrictions may be discarded.
 
 In particular, for two fixed successful image labels $\xi,\eta$ with the same outer mask $a$, let $c_\xi,c_\eta$ denote their preserved ordinary and later-omission factors. Nonnegativity and the column capacities give $$\begin{equation}
-\label{join:one-law-capacity}
+\tag{10.12}
  \begin{split}
  &\sum_{x,y}\pi_I(a)c_\xi c_\eta
            \mathfrak m_{x,\xi}\mathfrak m_{y,\eta}\\
@@ -1720,21 +1718,21 @@ The earlier $p$-component of each mapped centre is contained in the appropriate 
 
 Bound the mapped plus raw weights by one, retaining the smaller static factors on any unmapped side. The joint-loss term is then bounded by a count on two grids with denominators $$\frac{L'}{pd'},\qquad \frac{M'}{pe'}.$$ On a mapped side $d'$ is the below-$p$ processed mask of the new plus row. On a static side put $e'=e$; its forbidden residue at $p$ turns the current grid into one of denominator $M/(pe)$ with a modified phase. This transformation multiplies the smaller static residues by a $p$-unit and translates them, so their counts and means remain unchanged. There is at most one static side in this branch.
 
-Primed centre parameters now refer to the image pair. The path log-costs to the image centres are $\ll\exp(h_*Y_p/10)$ by (eq:component-path), whereas a mapped centre has band at most $Y_p/A_0$. The original inequality $p>\rho H$ therefore implies $$p>\rho'H'$$ for some fixed $\rho'>0$. Use a smaller smoothing cutoff against $H'$ in Lemma 10.4. Any high mismatches of the image pair restore at bounded relative cost by its good masks, after taking $d_0$ small enough. Retained static fields need no adaptive averaging here.
+Primed centre parameters now refer to the image pair. The path log-costs to the image centres are $\ll\exp(h_*Y_p/10)$ by (5.1), whereas a mapped centre has band at most $Y_p/A_0$. The original inequality $p>\rho H$ therefore implies $$p>\rho'H'$$ for some fixed $\rho'>0$. Use a smaller smoothing cutoff against $H'$ in Lemma 10.4. Any high mismatches of the image pair restore at bounded relative cost by its good masks, after taking $d_0$ small enough. Retained static fields need no adaptive averaging here.
 
 The image determinant cycle has width-weighted size $$\Theta'\frac{(T'd',U'e')}{pd'e'},$$ and its determinant interval has length $$O\left(\frac{[L',M']r_{\max}}
                   {p(T'd',U'e')}\right).$$ Its main term is therefore $$\begin{equation}
-\label{join:linked-main}
+\tag{10.13}
  \frac{k_{L'}k_{M'}}{p^2d'e'},
 \end{equation}$$ multiplied by the carried upper ordinary factors, the factors $1/b_i^+$ on the mapped sides, and the ordinary factors supplied by the remaining static tests.
 
-For a mapped side the first-mass quantity to restore is $$k_{L'}\pi_{\rm done}(d'pb_i^+).$$ Its geometric factor $k_{L'}/(pd'b_i^+)$ and its ordinary factors above $p$ are exactly present in (join:linked-main). Explicitly, if $D'$ is the processed prime-power part of $L'$ at the join, then $$\pi_{D'}(d'pb_i^+)
+For a mapped side the first-mass quantity to restore is $$k_{L'}\pi_{\rm done}(d'pb_i^+).$$ Its geometric factor $k_{L'}/(pd'b_i^+)$ and its ordinary factors above $p$ are exactly present in (10.13). Explicitly, if $D'$ is the processed prime-power part of $L'$ at the join, then $$\pi_{D'}(d'pb_i^+)
  =\frac{R(D'/(d'pb_i^+))}{pd'b_i^+}.$$ Only its ordinary factors through $p$ remain to be restored, at cost at most $\exp(CY_p)$. Drop this side’s assignment restriction and sum the deficit law: the required deficit one at $p$ has unrestricted probability at most $1/p$. Thus the geometric $1/p$ becomes the forced-omission probability; it does not disappear in this sum. On a static partner keep the actual assignment restriction on $e'$; its forbidden $p$-residue supplies an additional $O(1/p)$. The same calculation works with a coupled outer mask, because mapped sides have dropped their assignment restrictions while the static side retains its own. At a fixed common outer mask $a$, the mapped processed sum is at most $1/p$ and the static side contributes at most $A_j(a)/p$ after its field means are restored. Averaging $a$ gives at most $\delta_{M'}/p^2$. Two mapped sides instead give at most $1/p^2$ before restoring their assignment densities.
 
-For each mapped centre, $Y_p\ge A_0B'$. Summing the resulting $1/p^2$ over these primes more than pays both $\exp(CY_p)$ and the inverse assignment densities from (eq:centre-lower). Thus all such main terms are charged by $O(m_{L'}m_{M'})$ to the image pair. This conclusion uses the capacities and unique comparison epoch of Lemma 10.6 before summing centre pairs.
+For each mapped centre, $Y_p\ge A_0B'$. Summing the resulting $1/p^2$ over these primes more than pays both $\exp(CY_p)$ and the inverse assignment densities from (3.4). Thus all such main terms are charged by $O(m_{L'}m_{M'})$ to the image pair. This conclusion uses the capacities and unique comparison epoch of Lemma 10.6 before summing centre pairs.
 
 The roundoff, per image masks and stopping prime, is at most $$\begin{equation}
-\label{eq:linked-roundoff}
+\tag{10.14}
  C\Theta'\frac{(T'd',U'e')}{pd'e'}
  \prod_{\mathrm{mapped}\ i}(b_i^+)^{-1}
  \exp(\epsilon H'+C\Sigma').
@@ -1742,33 +1740,33 @@ The roundoff, per image masks and stopping prime, is at most $$\begin{equation}
 
 ### Summing roundoff and completing the comparisons
 
-All main terms are now bounded by products of first masses. It remains to sum the two roundoff bounds (eq:no-link-roundoff) and (eq:linked-roundoff). The charged pair is the original pair in the first bound and the image pair in the second. Write its parameters without primes in either formula. At common centre exponents the local unrestricted mask sum for the gcd ratio is $1+O(1/p)$; at an exponent discrepancy it is bounded by a fixed divisor power times $1+O(1/p)$, as in Section 7. The same calculation permits the factor $2^{\omega(d)+\omega(e)}$, which bounds the omega factor in (eq:no-link-roundoff). Additional upper masks sum reciprocally, and in (eq:linked-roundoff) the stopping primes are summed with their factor $1/p$. These sums give $$\begin{equation}
-\label{eq:summed-roundoff}
+All main terms are now bounded by products of first masses. It remains to sum the two roundoff bounds (10.11) and (10.14). The charged pair is the original pair in the first bound and the image pair in the second. Write its parameters without primes in either formula. At common centre exponents the local unrestricted mask sum for the gcd ratio is $1+O(1/p)$; at an exponent discrepancy it is bounded by a fixed divisor power times $1+O(1/p)$, as in Section 7. The same calculation permits the factor $2^{\omega(d)+\omega(e)}$, which bounds the omega factor in (10.11). Additional upper masks sum reciprocally, and in (10.14) the stopping primes are summed with their factor $1/p$. These sums give $$\begin{equation}
+\tag{10.15}
  C\Theta_{ij}\tau(UT)^C
        \exp(\epsilon H+C\Sigma).
 \end{equation}$$ The outer laws, including the one-law version, are probability laws throughout. The coefficients of $\Sigma$ in this estimate are absolute.
 
 ##### Distant pairs.
 
-Here $\Sigma\ll Y$ and (join:distant) holds. Take $\beta$ sufficiently large and then $\epsilon$ sufficiently small. Substituting (eq:centre-kernel) and (eq:centre-lower) into (eq:summed-roundoff), the factor $\exp(CY)$ is paid by a small part of the available negative power of $UT$. With mass exponent $u=.75$, a strict margin remains for the tensor estimate, as does a fixed residual exponential decay in $Y$. The factor $\tau(UT)^C$ costs an arbitrarily small further power. The residual decay pays the shell multiplicities and the height sum, while a positive power of the width ratio remains for summing exact dyadic widths. These roundoffs consequently total $O_{k_0}(W^{1+c})$ for some $c>0$.
+Here $\Sigma\ll Y$ and (10.1) holds. Take $\beta$ sufficiently large and then $\epsilon$ sufficiently small. Substituting (3.2) and (3.4) into (10.15), the factor $\exp(CY)$ is paid by a small part of the available negative power of $UT$. With mass exponent $u=.75$, a strict margin remains for the tensor estimate, as does a fixed residual exponential decay in $Y$. The factor $\tau(UT)^C$ costs an arbitrarily small further power. The residual decay pays the shell multiplicities and the height sum, while a positive power of the width ratio remains for summing exact dyadic widths. These roundoffs consequently total $O_{k_0}(W^{1+c})$ for some $c>0$.
 
 ##### Mixed pairs.
 
-Let $j$ be the newborn larger-band centre. By Lemma 10.2, $\log(UT)=O(\beta A_0B_j)$ and $\Sigma$ is arbitrarily small relative to $B_j$. If $$\log(r_i/r_j)>.65 B_j^*,$$ the width-gain consequence following (eq:exterior-gain) applies to (eq:summed-roundoff). With sufficiently small harmonic and period exponents, it leaves an exponential saving in $B_j$ and a positive residual width power, again summable with a mass power beyond one.
+Let $j$ be the newborn larger-band centre. By Lemma 10.2, $\log(UT)=O(\beta A_0B_j)$ and $\Sigma$ is arbitrarily small relative to $B_j$. If $$\log(r_i/r_j)>.65 B_j^*,$$ the width-gain consequence following (3.5) applies to (10.15). With sufficiently small harmonic and period exponents, it leaves an exponential saving in $B_j$ and a positive residual width power, again summable with a mass power beyond one.
 
-Otherwise the exterior alternative in (eq:exterior-gain) holds for every assigned row of $j$. Keep its processed mask $c_j$ fixed and set $W'=M/c_j$. Its good-mask condition gives $\tau(c_j)\le e^{s'B_j}$, since the entire processed segment has the small reciprocal-prime sum. Divide (eq:no-link-roundoff) by this row’s first-mass quantity $r_jW'R_{\rm done}(W')$, leaving its outer law in place. Summing only the old side’s processed mask gives $$\begin{equation}
-\label{join:mixed-relative-error}
+Otherwise the exterior alternative in (3.5) holds for every assigned row of $j$. Keep its processed mask $c_j$ fixed and set $W'=M/c_j$. Its good-mask condition gives $\tau(c_j)\le e^{s'B_j}$, since the entire processed segment has the small reciprocal-prime sum. Divide (10.11) by this row’s first-mass quantity $r_jW'R_{\rm done}(W')$, leaving its outer law in place. Summing only the old side’s processed mask gives $$\begin{equation}
+\tag{10.16}
  C\exp(\epsilon H+C\Sigma)\frac{r_{\min}}{r_j}
  \left(\frac{W'}{(W',L)}\right)^{-1}
  \tau(U)^C\tau(c_j)^C.
-\end{equation}$$ For completeness, before this sum the geometric ratio is $\frac{r_{\min}}{r_j}(W',L/d)/W'$. Its sum is bounded exactly as in the conditional target-grid calculation of (eq:target-grid); the extra omega factor is absorbed by fixed divisor moments. The inverse ordinary density costs at most $\exp(C\Sigma)$. Writing $E_{\rm ext}=W'/(W',L)$, the primewise sum just used is $$\sum_d\frac{(W',L/d)}{W'}
+\end{equation}$$ For completeness, before this sum the geometric ratio is $\frac{r_{\min}}{r_j}(W',L/d)/W'$. Its sum is bounded exactly as in the conditional target-grid calculation of (9.1); the extra omega factor is absorbed by fixed divisor moments. The inverse ordinary density costs at most $\exp(C\Sigma)$. Writing $E_{\rm ext}=W'/(W',L)$, the primewise sum just used is $$\sum_d\frac{(W',L/d)}{W'}
  \ll E_{\rm ext}^{-1}\tau(U)^C\tau(c_j)^C\exp(C\Sigma).$$ At a prime, the free deficit allowance before the denominator of this ratio grows is at most $\nu_p(U)+\nu_p(c_j)$; beyond that allowance the terms decrease geometrically. This proves the bound also with the fixed divisor moments for the omega factor.
 
-In a mixed joint-loss term the newborn side is necessarily static; its centre and assigned row are unchanged. Its fictitious restricted denominator is $W'/p$, and the other counted denominator also contains the factor $1/p$. Relative to the original newborn first mass this gives the same bound (join:mixed-relative-error), with an additional $1/p$ whose sum is absorbed in $\exp(C\Sigma)$. The exterior ratio is unchanged by dividing this common full factor from both denominators: at the stopping prime $p$ the two image centres have the same full exponent and $p$ divides neither $d'$ nor $c_j$, so $$\left(\frac{L'}{pd'},\frac{W'}p\right)
+In a mixed joint-loss term the newborn side is necessarily static; its centre and assigned row are unchanged. Its fictitious restricted denominator is $W'/p$, and the other counted denominator also contains the factor $1/p$. Relative to the original newborn first mass this gives the same bound (10.16), with an additional $1/p$ whose sum is absorbed in $\exp(C\Sigma)$. The exterior ratio is unchanged by dividing this common full factor from both denominators: at the stopping prime $p$ the two image centres have the same full exponent and $p$ divides neither $d'$ nor $c_j$, so $$\left(\frac{L'}{pd'},\frac{W'}p\right)
    =\frac1p(L'/d',W'),\qquad
  \frac{W'/p}{(W'/p,L'/p)}=\frac{W'}{(W',L')}.$$ The classification of Lemma 10.2 still applies to the image pair, so its old centre has the required smaller band. Dropping origin restrictions did not change the newborn assigned row or its divisibility by $W'$.
 
-An assigned true denominator $v$ of $j$ divides $W'$. Therefore $$\frac{W'}{(W',L)}\ge \frac{v}{(v,L)},$$ and (eq:exterior-gain) makes the product of the width factor and the inverse exterior ratio in (join:mixed-relative-error) exponentially small in $B_j$. Choose first $s'$ small enough for $\tau(c_j)^C$, then the small harmonic allowance, and finally the period and divisor-function powers sufficiently tiny relative to $\beta A_0$. There remains an exponential saving more than sufficient to sum all smaller-band centres $i$ by their centre count. The resulting contribution is $O(W)$, and can be made a small fixed multiple of $W$ where needed.
+An assigned true denominator $v$ of $j$ divides $W'$. Therefore $$\frac{W'}{(W',L)}\ge \frac{v}{(v,L)},$$ and (3.5) makes the product of the width factor and the inverse exterior ratio in (10.16) exponentially small in $B_j$. Choose first $s'$ small enough for $\tau(c_j)^C$, then the small harmonic allowance, and finally the period and divisor-function powers sufficiently tiny relative to $\beta A_0$. There remains an exponential saving more than sufficient to sum all smaller-band centres $i$ by their centre count. The resulting contribution is $O(W)$, and can be made a small fixed multiple of $W$ where needed.
 
 All terminal main terms were bounded by the product of the original or charged image masses, so their total is $O(W^2)$. The distant and width-separated roundoffs are $O_{k_0}(W^{1+c})$, and the oriented mixed roundoffs are $O(W)$. These conclusions apply separately to the broad and narrow counts with their respective mask laws. Since $W\le1$, they prove Proposition 10.1. In particular none of the constants used for clipping depends on $N_0$.
 

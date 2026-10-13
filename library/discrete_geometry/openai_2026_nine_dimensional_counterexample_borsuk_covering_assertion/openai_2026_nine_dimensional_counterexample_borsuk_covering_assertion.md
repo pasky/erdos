@@ -50,10 +50,10 @@ Let $V=\mathbb R^k$ have its usual inner product, with $k\geq2$, and let $\mathb
 
 **Lemma 2.1** (Projector geometry). *The map $x\mapsto P_x$ identifies $\mathbb P(V)$ homeomorphically with the compact set $X_k$ in the trace-one affine subspace of $\operatorname{Sym}(V)$. This affine subspace is Euclidean of dimension $N_k-1$. If $u,v$ are unit representatives of $x,y$, then $$\begin{equation}
  \|P_x-P_y\|_F^2=2-2\langle u,v\rangle^2.
- \label{eq:projector-distance}
+ \tag{2.1}
 \end{equation}$$ Consequently $\operatorname{diam}(X_k)=\sqrt2$, and two projectors are at this distance exactly when their lines are orthogonal.*
 
-*Proof.* The formula $uu^{\mathsf T}$ is unchanged when $u$ is replaced by $-u$, so it gives a continuous map on projective space. Its range as an operator is exactly $x$, which proves injectivity. A continuous injection from the compact space $\mathbb P(V)$ into a Hausdorff space is a homeomorphism onto its image. Every $P_x$ has trace one, and the trace-one hyperplane has codimension one in $\operatorname{Sym}(V)$. Finally, $\operatorname{tr}(P_x^2)=\operatorname{tr}(P_y^2)=1$ and $\operatorname{tr}(P_xP_y)=\langle u,v\rangle^2$, proving (eq:projector-distance). Orthogonal lines exist because $k\geq2$. ◻
+*Proof.* The formula $uu^{\mathsf T}$ is unchanged when $u$ is replaced by $-u$, so it gives a continuous map on projective space. Its range as an operator is exactly $x$, which proves injectivity. A continuous injection from the compact space $\mathbb P(V)$ into a Hausdorff space is a homeomorphism onto its image. Every $P_x$ has trace one, and the trace-one hyperplane has codimension one in $\operatorname{Sym}(V)$. Finally, $\operatorname{tr}(P_x^2)=\operatorname{tr}(P_y^2)=1$ and $\operatorname{tr}(P_xP_y)=\langle u,v\rangle^2$, proving (2.1). Orthogonal lines exist because $k\geq2$. ◻
 
 *Remark 2.2* (Euclidean coordinates). An explicit isometry from the trace-one symmetric $4\times4$ matrices to $\mathbb R^9$ is $$\begin{equation}
 \begin{split}
@@ -63,14 +63,14 @@ Let $V=\mathbb R^k$ have its usual inner product, with $k\geq2$, and let $\mathb
  &\sqrt2a_{12},\sqrt2a_{13},\sqrt2a_{14},
    \sqrt2a_{23},\sqrt2a_{24},\sqrt2a_{34}\bigg).
 \end{split}
-\label{eq:euclidean-coordinates}
+\tag{2.2}
 \end{equation}$$ The first three coordinates use an orthonormal basis of the trace-zero diagonal matrices. The factors $\sqrt2$ in the remaining six coordinates account for the two equal off-diagonal entries in the Frobenius norm. Thus the nine-dimensional witness will be $X_4$ with exactly its stated metric.
 
 Write $[m]=\{1,\ldots,m\}$ and $\Delta^{m-1}=\{(t_1,\ldots,t_m):t_i\ge0,\ \sum_i t_i=1\}$.
 
 **Definition 2.3**. A smooth map $f=(f_1,\ldots,f_m):\mathbb P(V)\to\mathbb R^m$ is *admissible* if each $f_i$ is nonnegative, $\sum_i f_i=1$, and, writing $S(x)=\{i:f_i(x)>0\}$, $$\begin{equation}
  x\perp y\quad\Longrightarrow\quad S(x)\cap S(y)=\varnothing.
- \label{eq:admissibility}
+ \tag{2.3}
 \end{equation}$$ Here smoothness means smoothness of the real coordinate functions on the usual smooth manifold $\mathbb P(V)$.
 
 Restricting an admissible map to $\mathbb P(W)$ for a nonzero linear subspace $W\subseteq V$ preserves admissibility. Coordinates that vanish identically on this subspace may be omitted.
@@ -93,14 +93,14 @@ Fix an admissible map $f:\mathbb P(V)\to\mathbb R^m$, where $\dim V=k$. We exten
 
 Define the continuous degree-two homogeneous function $H:V\to\mathbb R^m$ by $$H(v)=\begin{cases}\|v\|^2f([v]),&v\ne0,\\0,&v=0.\end{cases}$$ Continuity at zero follows from $\|H(v)\|_1=\|v\|^2$. For a positive semidefinite operator $Q$, let $$\begin{equation}
  E_V(Q)=k\int_{\mathbb S(V)}H(Q^{1/2}u)\,d\mu_V(u),
- \label{eq:extension}
+ \tag{3.1}
 \end{equation}$$ where $\mu_V$ is rotation-invariant probability measure on the unit sphere. The positive square root is meant throughout. We usually write $E$ when the ambient space is clear.
 
 **Lemma 3.1** (Properties of the positive extension). *The map $E_V$ is continuous on the full positive semidefinite cone, including its singular boundary. For $t\geq0$ it satisfies $$E_V(tQ)=tE_V(Q),\qquad E_V(Q)_i\geq0,\qquad
  \sum_{i=1}^m E_V(Q)_i=\operatorname{tr}Q.$$ Its positive coordinates are exactly the labels used on the range of $Q$: $$\begin{equation}
  \{i:E_V(Q)_i>0\}
  =\bigcup_{x\in\mathbb P(\operatorname{ran}Q)}S(x),
- \label{eq:extension-support}
+ \tag{3.2}
 \end{equation}$$ where the right side is empty for $Q=0$. Moreover:*
 
 1.  *$E_V(P_x)=f(x)$ for every line $x$;*
@@ -109,10 +109,10 @@ Define the continuous degree-two homogeneous function $H:V\to\mathbb R^m$ by $$H
 
 3.  *this last expression is smooth when $W$ varies smoothly with fixed dimension and $Q|_W$ varies smoothly through positive definite operators.*
 
-*Proof.* The positive square root depends continuously on a positive semidefinite matrix. For example, approximate the square-root function uniformly by polynomials on a compact interval containing the spectra under consideration, and apply those polynomials to the matrices. Thus the integrand in (eq:extension) is jointly continuous in $(Q,u)$; integration over the compact sphere proves continuity of $E_V$. Its homogeneity and nonnegativity follow from the corresponding properties of $H$. Since $\sum_i H(v)_i=\|v\|^2$ and $\int uu^{\mathsf T}\,d\mu_V(u)=k^{-1}I$, we have $$\sum_i E_V(Q)_i=k\int\langle Qu,u\rangle\,d\mu_V(u)
+*Proof.* The positive square root depends continuously on a positive semidefinite matrix. For example, approximate the square-root function uniformly by polynomials on a compact interval containing the spectra under consideration, and apply those polynomials to the matrices. Thus the integrand in (3.1) is jointly continuous in $(Q,u)$; integration over the compact sphere proves continuity of $E_V$. Its homogeneity and nonnegativity follow from the corresponding properties of $H$. Since $\sum_i H(v)_i=\|v\|^2$ and $\int uu^{\mathsf T}\,d\mu_V(u)=k^{-1}I$, we have $$\sum_i E_V(Q)_i=k\int\langle Qu,u\rangle\,d\mu_V(u)
  =\operatorname{tr}Q.$$
 
-Every nonzero $Q^{1/2}u$ lies in $\operatorname{ran}Q$. Conversely, every line in that range is spanned by some $Q^{1/2}u$ with $\|u\|=1$, because $Q^{1/2}$ is invertible on its range. If $f_i$ is positive on such a line, the $i$th integrand is positive at that $u$, and hence on a nonempty open set of the sphere. Such a set has positive measure. This proves (eq:extension-support) in both directions. For $Q=P_x$, every nonzero integrand is a scalar multiple of $f(x)$, and the scalars integrate to $\operatorname{tr}P_x=1$. Thus $E_V(P_x)=f(x)$.
+Every nonzero $Q^{1/2}u$ lies in $\operatorname{ran}Q$. Conversely, every line in that range is spanned by some $Q^{1/2}u$ with $\|u\|=1$, because $Q^{1/2}$ is invertible on its range. If $f_i$ is positive on such a line, the $i$th integrand is positive at that $u$, and hence on a nonempty open set of the sphere. Such a set has positive measure. This proves (3.2) in both directions. For $Q=P_x$, every nonzero integrand is a scalar multiple of $f(x)$, and the scalars integrate to $\operatorname{tr}P_x=1$. Thus $E_V(P_x)=f(x)$.
 
 To prove the subspace identity, write $r=\dim W$ and let $\pi_W$ be orthogonal projection. The finite measure on $\mathbb S(W)$ defined by $$B\longmapsto\int_{\mathbb S(V)}
  \|\pi_Wu\|^2\,\mathbf1_{\{\pi_Wu\ne0,\;
@@ -123,32 +123,32 @@ Finally choose, locally in the parameters, a smooth orthonormal frame $T:\mathbb
 
 For a symmetric operator $A$, let $|A|=(A^2)^{1/2}$ and $A_+=(|A|+A)/2$, $A_-=(|A|-A)/2$. These are its positive and negative parts, so $A=A_+-A_-$ and their ranges are orthogonal. Define $$\begin{equation}
  F(A)=E_V(A_+)-E_V(A_-).
- \label{eq:signed-extension}
+ \tag{3.3}
 \end{equation}$$
 
 **Lemma 3.2** (The odd sphere map). *The map $F:\operatorname{Sym}(V)\to\mathbb R^m$ is continuous, odd, and homogeneous of degree one for nonnegative scalars. It satisfies $$\begin{equation}
  \|F(A)\|_1=\operatorname{tr}|A|,
  \qquad \sum_iF(A)_i=\operatorname{tr}A.
- \label{eq:extension-norms}
+ \tag{3.4}
 \end{equation}$$ More precisely, its positive and negative label sets are $$\begin{equation}
 \begin{aligned}
  \{i:F(A)_i>0\}&=\bigcup_{x\in\mathbb P(\operatorname{ran}A_+)}S(x),\\
  \{i:F(A)_i<0\}&=\bigcup_{x\in\mathbb P(\operatorname{ran}A_-)}S(x).
 \end{aligned}
- \label{eq:spectral-support}
+ \tag{3.5}
 \end{equation}$$ If every coordinate of $F(A)$ is nonzero, then $A$ is nonsingular. If all coordinates of $F(A)$ are strictly negative, then $A$ is negative definite; the analogous statement holds with both signs reversed. The map $F$ is smooth on the open set of nonsingular symmetric operators. In particular, it restricts to a continuous odd map $$\begin{equation}
  \{A:\operatorname{tr}|A|=1\}\longrightarrow
  \{y\in\mathbb R^m:\|y\|_1=1\}.
- \label{eq:norm-sphere-map}
+ \tag{3.6}
 \end{equation}$$*
 
-*Proof.* Continuity and homogeneity follow from Lemma 3.1 and the continuous formulas for $A_\pm$. Replacing $A$ by $-A$ exchanges $A_+$ and $A_-$, so $F$ is odd. Any line in $\operatorname{ran}A_+$ is orthogonal to every line in $\operatorname{ran}A_-$. Admissibility and (eq:extension-support) therefore imply that $E_V(A_+)$ and $E_V(A_-)$ have disjoint positive coordinates. There is no cancellation in their difference. This proves (eq:spectral-support) and, by summing coordinates, (eq:extension-norms).
+*Proof.* Continuity and homogeneity follow from Lemma 3.1 and the continuous formulas for $A_\pm$. Replacing $A$ by $-A$ exchanges $A_+$ and $A_-$, so $F$ is odd. Any line in $\operatorname{ran}A_+$ is orthogonal to every line in $\operatorname{ran}A_-$. Admissibility and (3.2) therefore imply that $E_V(A_+)$ and $E_V(A_-)$ have disjoint positive coordinates. There is no cancellation in their difference. This proves (3.5) and, by summing coordinates, (3.4).
 
-If $\ker A$ contains a line $x$, choose $i\in S(x)$, which is possible because $\sum_i f_i(x)=1$. The line $x$ is orthogonal to both spectral ranges. Thus label $i$ is absent from both unions in (eq:spectral-support), so $F(A)_i=0$. This proves the nonsingularity assertion. If all coordinates of $F(A)$ are negative, then $E_V(A_+)=0$ by disjointness of the two positive supports. Hence $\operatorname{tr}A_+=0$, so $A_+=0$, and nonsingularity makes $A$ negative definite. Oddness gives the positive case.
+If $\ker A$ contains a line $x$, choose $i\in S(x)$, which is possible because $\sum_i f_i(x)=1$. The line $x$ is orthogonal to both spectral ranges. Thus label $i$ is absent from both unions in (3.5), so $F(A)_i=0$. This proves the nonsingularity assertion. If all coordinates of $F(A)$ are negative, then $E_V(A_+)=0$ by disjointness of the two positive supports. Hence $\operatorname{tr}A_+=0$, so $A_+=0$, and nonsingularity makes $A$ negative definite. Oddness gives the positive case.
 
 For local smoothness, fix nonsingular $A$. In a neighborhood of $A$, the positive and negative spectral subspaces have constant dimensions and depend smoothly on the matrix. Explicitly their projections are $$\Pi_\pm(A)=\frac12\bigl(I\pm A(A^2)^{-1/2}\bigr),$$ which are smooth there because $A^2$ is positive definite. Each projection admits a local smooth orthonormal frame: project a fixed basis for its range and apply Gram–Schmidt after shrinking the neighborhood. In these frames, $A_+$ and $A_-$ restrict to positive definite operators on their respective ranges. The last assertion of Lemma 3.1 proves smoothness of $E_V(A_+)$ and $E_V(A_-)$, with a zero term if the corresponding range has dimension zero. This proves smoothness of $F$. ◻
 
-The two norm spheres in (eq:norm-sphere-map) are not being regarded as globally smooth hypersurfaces. Radial normalization identifies them antipodally with the ordinary Euclidean spheres of dimensions $N_k-1$ and $m-1$. These identifications are homeomorphisms everywhere and smooth diffeomorphisms locally at nonsingular matrices and label vectors with every coordinate nonzero. Indeed, $\operatorname{tr}|A|$ is smooth near a nonsingular $A$, while the $\ell^1$ norm is a fixed linear form within each open sign orthant. Consequently ordinary sphere degree applies to (eq:norm-sphere-map) when $m=N_k$, and local differential arguments are valid at every preimage of a full-support value.
+The two norm spheres in (3.6) are not being regarded as globally smooth hypersurfaces. Radial normalization identifies them antipodally with the ordinary Euclidean spheres of dimensions $N_k-1$ and $m-1$. These identifications are homeomorphisms everywhere and smooth diffeomorphisms locally at nonsingular matrices and label vectors with every coordinate nonzero. Indeed, $\operatorname{tr}|A|$ is smooth near a nonsingular $A$, while the $\ell^1$ norm is a fixed linear form within each open sign orthant. Consequently ordinary sphere degree applies to (3.6) when $m=N_k$, and local differential arguments are valid at every preimage of a full-support value.
 
 ## The equality case gives a simplicial cycle
 
@@ -175,29 +175,29 @@ We will count regular preimages of maps which need not be smooth everywhere. The
 
 *Proof.* The edge assertion is Proposition 4.1. We prove the remaining assertions by examining an arbitrary facet $I$. Set $$s=|I|,\qquad J=\{1,\ldots,m\}\setminus I,\qquad
  a=|J|,\qquad h=N_{k-1}.$$ Since $I$ is a maximal support face, there is a line $x_0$ with $S(x_0)=I$. Every line in $x_0^\perp$ uses only labels in $J$. Proposition 4.1, applied in $x_0^\perp$, gives $$\begin{equation}
-\label{eq:facet-size-upper}
+\tag{4.1}
  a\ge h,\qquad s=m-a\le N_k-N_{k-1}=k.
 \end{equation}$$
 
 ##### A compact level set over one affine chart.
 
 Define $$U_I=\{x\in\mathbb P(V):f_i(x)>0\text{ for every }i\in I\}.$$ Maximality of $I$ implies $S(x)=I$ for all $x\in U_I$. Thus the coordinate map $f_I$ takes $U_I$ smoothly to the open simplex $\mathring\Delta_I$ on $I$. Moreover, $U_I$ lies in the affine projective chart $$\mathbb P(V)\setminus\mathbb P(x_0^\perp),$$ because a line orthogonal to $x_0$ cannot use any label in $I$. Choose a regular value $r\in\mathring\Delta_I$ of $f_I$, using Sard’s Theorem (Lee 2013, Theorem 6.10), and put $$L=f_I^{-1}(r)\subset U_I.$$ For now $L$ is allowed to be empty. If $\widetilde r$ denotes $r$ extended by zero on $J$, then $L=f^{-1}(\widetilde r)$: positivity of the coordinates of $r$ puts every such preimage in $U_I$. Hence $L$ is compact. It is a smooth manifold without boundary (Lee 2013, Corollary 5.14) of dimension $$\begin{equation}
-\label{eq:level-dimension}
+\tag{4.2}
  \dim L=(k-1)-(s-1)=k-s=a-h.
 \end{equation}$$
 
-If $s<k$, the level-set dimension in (eq:level-dimension) is positive. We will construct a map on a sphere bundle over $L$ whose regular preimages have odd cardinality, by comparison with $F$. The affine-chart trivialization will force the induced map on the projective bundle to have degree zero when $\dim L>0$, contradicting that count. When $s=k$, the same count will determine the coefficient of $I$ in the desired cycle.
+If $s<k$, the level-set dimension in (4.2) is positive. We will construct a map on a sphere bundle over $L$ whose regular preimages have odd cardinality, by comparison with $F$. The affine-chart trivialization will force the induced map on the projective bundle to have degree zero when $\dim L>0$, contradicting that count. When $s=k$, the same count will determine the coefficient of $I$ in the desired cycle.
 
 For $x\in U_I$, admissibility ensures that $f$ on $\mathbb P(x^\perp)$ uses only labels in $J$. Apply the extension construction in this $(k-1)$-dimensional space to obtain an odd map $$G_x:\Sigma(x^\perp)\longrightarrow\Sigma_a.$$ The subspace-restriction and continuity properties of the extension make these maps a continuous map on the corresponding sphere bundle. Restrict that bundle to $L$ and write $$M=\{(x,B):x\in L,\ B\in\operatorname{Sym}(x^\perp),
                      \ \operatorname{tr}|B|=1\},
  \qquad G(x,B)=G_x(B).$$
 
 The bundle $x\mapsto x^\perp$ is trivial on the affine chart above. Indeed, choose the unit representative $u$ of $x$ having positive inner product with a fixed unit representative of $x_0$. Orthogonal projection from $x_0^\perp$ onto $u^\perp$ is invertible and varies smoothly with $x$; orthonormalizing its images of a fixed basis gives a smooth orthonormal trivialization. The induced trivialization of symmetric operators, followed by radial change from trace norm to a Euclidean norm, gives $$\begin{equation}
-\label{eq:product-sphere-bundle}
+\tag{4.3}
  M\cong L\times S^{h-1},\qquad
  (x,B)\longmapsto(x,-B)\quad\leftrightarrow\quad(x,z)\longmapsto(x,-z).
 \end{equation}$$ Equip $M$ with the smooth structure given by the Euclidean sphere bundle. The trace-norm parametrization is smooth near every definite $B$, which is all that will be needed. In particular, $$\begin{equation}
-\label{eq:bundle-dimension}
+\tag{4.4}
  \dim M=(a-h)+(h-1)=a-1.
 \end{equation}$$
 
@@ -206,17 +206,17 @@ The bundle $x\mapsto x^\perp$ is trivial on the affine chart above. Indeed, choo
 Consider the open negative orthant of $\Sigma_a$, where all $J$ coordinates are strictly negative. At a preimage of this orthant, $B$ has no positive spectral subspace. It has no kernel either: the exact support property says that all $J$ labels occur on its range, leaving no label for a kernel line. Thus $B$ is negative definite on $x^\perp$. Consequently $G$ is smooth on the preimage of the negative orthant. Sard’s Theorem allows us to choose a regular value $g$ in that orthant. Its preimage is finite by compactness, including the possibility of an empty preimage.
 
 Fix $0<\lambda<1$ and form the full-support vector $$y=(\lambda r,(1-\lambda)g)\in\Sigma_m,$$ with the two coordinate blocks indexed by $I$ and $J$. We claim that $F^{-1}(y)$ corresponds exactly to $G^{-1}(g)$. Every $A\in F^{-1}(y)$ is nonsingular by the full-support property. All lines in its nonzero positive spectral subspace use only labels in $I$. That subspace must be one-dimensional: a subspace of dimension at least two intersects the hyperplane $x_0^\perp$, where no label in $I$ is available. Call the resulting positive line $x$. The positive output block has every $I$ coordinate nonzero, so $S(x)=I$ and $x\in U_I$. Since the sum of the positive coordinates of $F(A)$ is $\lambda$, the positive eigenvalue is $\lambda$. Therefore $$\begin{equation}
-\label{eq:preimage-splitting}
+\tag{4.5}
  A=\lambda P_x+(1-\lambda)B,
  \qquad B<0\text{ on }x^\perp,\quad \operatorname{tr}|B|=1.
-\end{equation}$$ The subspace formula for the extension now gives $f_I(x)=r$ and $G_x(B)=g$. Conversely, every $(x,B)\in G^{-1}(g)$ gives a preimage by (eq:preimage-splitting).
+\end{equation}$$ The subspace formula for the extension now gives $f_I(x)=r$ and $G_x(B)=g$. Conversely, every $(x,B)\in G^{-1}(g)$ gives a preimage by (4.5).
 
 The value $y$ is regular in the local sense of Lemma 4.2. To see this precisely, near a preimage use $(\lambda',x',B')$ as coordinates for symmetric operators of signature $(1,k-1)$, with $B'$ negative definite and normalized on $x'^\perp$. The single positive eigenvalue and its line vary smoothly, so these are smooth coordinates on the trace-norm sphere near that preimage. In the target orthant, use the positive mass followed by the two normalized coordinate blocks. In these coordinates $F$ is $$\begin{equation}
-\label{eq:triangular-derivative}
+\tag{4.6}
  (\lambda',x',B')\longmapsto
        (\lambda',f_I(x'),G_{x'}(B')).
 \end{equation}$$ The first derivative block is the identity. The second is surjective because $r$ is regular for $f_I$. On the kernel of these two blocks, the third block is the derivative of $G|_M$, which is surjective because $g$ is regular. Thus the full derivative is surjective, and is an isomorphism since source and target both have dimension $m-1$. By the odd degree of $F$ and Lemma 4.2, $$\begin{equation}
-\label{eq:bundle-odd-count}
+\tag{4.7}
  |G^{-1}(g)|=|F^{-1}(y)|\equiv1\pmod2.
 \end{equation}$$ This proves, in particular, that $L$ is nonempty.
 
@@ -224,22 +224,22 @@ The value $y$ is regular in the local sense of Lemma 4.2. To see this precisely
 
 The oddness of $G$ in the sphere variable gives a quotient map $$\overline G:L\times\mathbb{RP}^{h-1}
                   \longrightarrow\mathbb{RP}^{a-1}.$$ Write $w\in H^1(\mathbb{RP}^{a-1})$ and $u\in H^1(\mathbb{RP}^{h-1})$ for the first Stiefel–Whitney classes of the real line bundles associated with their antipodal double covers. Equivariance identifies the pullback of the target sphere cover with $$L\times S^{h-1}\longrightarrow L\times\mathbb{RP}^{h-1}.$$ Indeed, the identification sends $(x,z)$ to $((x,[z]),G(x,z))$ and is an isomorphism on each two-point fiber. This cover isomorphism induces an isomorphism of the associated real line bundles. Their first Stiefel–Whitney classes are natural under pullback (Hatcher 2017, Theorem 3.1(a)). The source cover is pulled back from the second factor, so $$\begin{equation}
-\label{eq:cover-class}
+\tag{4.8}
  \overline G^*w=\operatorname{pr}_2^*u.
 \end{equation}$$ There is no contribution from $H^1(L)$ in this identity.
 
 Suppose $a>h$. The projective-space cohomology calculation (Hatcher 2002, Theorem 3.19) gives $$u^h=0,\qquad
  \overline G^*(w^{a-1})=
-       \operatorname{pr}_2^*(u^{a-1})=0.$$ Both source and target of $\overline G$ are closed manifolds of dimension $a-1$, and $w^{a-1}$ is the target’s top cohomology generator. Evaluation on the total fundamental class therefore gives mod-two degree zero. On the other hand, $[g]$ is a regular value in local quotient coordinates, and every preimage of $[g]$ has exactly one representative mapping to $g$. Its preimage count is therefore the odd number in (eq:bundle-odd-count), a contradiction. Together with (eq:facet-size-upper), this proves $a=h$ and $s=k$ for every facet.
+       \operatorname{pr}_2^*(u^{a-1})=0.$$ Both source and target of $\overline G$ are closed manifolds of dimension $a-1$, and $w^{a-1}$ is the target’s top cohomology generator. Evaluation on the total fundamental class therefore gives mod-two degree zero. On the other hand, $[g]$ is a regular value in local quotient coordinates, and every preimage of $[g]$ has exactly one representative mapping to $g$. Its preimage count is therefore the odd number in (4.7), a contradiction. Together with (4.1), this proves $a=h$ and $s=k$ for every facet.
 
 ##### The coefficients of the facet cycle.
 
-Now $\dim L=0$, so $L$ is a finite set. For each $x\in L$, the map $G_x$ is odd between spheres of the same dimension $h-1$. Regularity of $g$ for $G$ implies its regularity for each such fiber map. Each fiber therefore contributes an odd number to (eq:bundle-odd-count), and hence $$\begin{equation}
-\label{eq:facet-odd-count}
+Now $\dim L=0$, so $L$ is a finite set. For each $x\in L$, the map $G_x$ is odd between spheres of the same dimension $h-1$. Regularity of $g$ for $G$ implies its regularity for each such fiber map. Each fiber therefore contributes an odd number to (4.7), and hence $$\begin{equation}
+\tag{4.9}
  |f^{-1}(\widetilde r)|=|L|\equiv1\pmod2.
 \end{equation}$$
 
-Every facet has $k$ vertices, so $K$ has dimension $k-1$. Using the identification of simplicial and singular homology (Hatcher 2002, Theorem 2.27), consider the homology class $$f_*[\mathbb P(V)]\in H_{k-1}(|K|).$$ The interior point $\widetilde r$ of the facet $I$ has a neighborhood in $|K|$ contained in that facet. Passing to $H_{k-1}(|K|,|K|\setminus\{\widetilde r\})$ reads the coefficient of $I$ in a simplicial top cycle. By the regularity of $r$, Lemma 4.2 and (eq:facet-odd-count), this coefficient is one. The same holds for every facet. Since a $(k-1)$-dimensional complex has no simplicial $k$-chains, its top homology classes are exactly its top cycles. Thus $f_*[\mathbb P(V)]$ is represented by the sum of all facets. Its boundary vanishes. Each codimension-one face consequently occurs in an even number of facets, and purity makes that number positive. ◻
+Every facet has $k$ vertices, so $K$ has dimension $k-1$. Using the identification of simplicial and singular homology (Hatcher 2002, Theorem 2.27), consider the homology class $$f_*[\mathbb P(V)]\in H_{k-1}(|K|).$$ The interior point $\widetilde r$ of the facet $I$ has a neighborhood in $|K|$ contained in that facet. Passing to $H_{k-1}(|K|,|K|\setminus\{\widetilde r\})$ reads the coefficient of $I$ in a simplicial top cycle. By the regularity of $r$, Lemma 4.2 and (4.9), this coefficient is one. The same holds for every facet. Since a $(k-1)$-dimensional complex has no simplicial $k$-chains, its top homology classes are exactly its top cycles. Thus $f_*[\mathbb P(V)]$ is represented by the sum of all facets. Its boundary vanishes. Each codimension-one face consequently occurs in an even number of facets, and purity makes that number positive. ◻
 
 ## Triangle systems on six labels
 

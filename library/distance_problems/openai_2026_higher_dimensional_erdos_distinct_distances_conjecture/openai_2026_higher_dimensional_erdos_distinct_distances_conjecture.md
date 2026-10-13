@@ -75,7 +75,7 @@ This section proves Theorem 1.1 from the sparse-cones theorem, the rich-motion 
 ### The contradiction regime
 
 Suppose that Theorem 1.1 fails, and take the least dimension $d\ge3$ in which it fails. There is then a sequence of finite sets $P\subset\mathbb R^d$ for which, with $$\begin{equation}
-\label{red:regime}
+\tag{2.1}
  N=|P|,\qquad M=1+|\Delta(P)|,\qquad
  B=N^{1/d},\qquad A=B^2,
  \qquad N\longrightarrow\infty,\quad M/A\longrightarrow0.
@@ -83,7 +83,7 @@ Suppose that Theorem 1.1 fails, and take the least dimension $d\ge3$ in which i
 
 For $3\le u<d$, the assertion in dimension $u$ is available by minimality of $d$. We also use the planar result proved in Theorem B.12. These give the following bounds.
 
-**Lemma 2.1** (Occupancy of proper flats). *In the regime (red:regime), a real affine $u$-flat contains at most $$\begin{cases}
+**Lemma 2.1** (Occupancy of proper flats). *In the regime (2.1), a real affine $u$-flat contains at most $$\begin{cases}
   1,&u=0,\\
   2M,&u=1,\\
   C M\log(2M),&u=2,\\
@@ -98,14 +98,14 @@ We use complex varieties for polynomial arguments. Degree means the degree of th
 
 Here is the form of the sparse-cones theorem that we will use.
 
-> In the regime (red:regime), one cannot assign to each $p\in P$ a union $C_p$ of irreducible projective curves, each spanning a projective space of dimension at most two, with $$\deg C_p\le\delta N/A,\qquad\delta\to0,$$ such that all but $o(N^2)$ unordered pairs $\{p,q\}$ satisfy $\pi_p(q)\in C_p$ or $\pi_q(p)\in C_q$.
+> In the regime (2.1), one cannot assign to each $p\in P$ a union $C_p$ of irreducible projective curves, each spanning a projective space of dimension at most two, with $$\deg C_p\le\delta N/A,\qquad\delta\to0,$$ such that all but $o(N^2)$ unordered pairs $\{p,q\}$ satisfy $\pi_p(q)\in C_p$ or $\pi_q(p)\in C_q$.
 
 This is Theorem 6.1. Both the alternative between the two endpoints and the absence of a prescribed rate for $\delta$ are important.
 
 ### A symmetric selection of directions
 
 **Proposition 2.2**. *After passing to a subsequence, there is an undirected graph $\mathcal G$ on $P$ with at least $cN^2$ edges such that, for every vertex $p$ and every irreducible projective variety $Y\subset\mathbb P^{d-1}$ of dimension $a$, $$\begin{equation}
-\label{eq:direction-count}
+\tag{2.2}
  \#\{q:\{p,q\}\in\mathcal G,\ \pi_p(q)\in Y\}
  \le C\,\deg(Y)A^a.
 \end{equation}$$ The positive constants $c,C$ are fixed along the subsequence.*
@@ -117,12 +117,12 @@ At each $p$, independently of the other stars, greedily remove directions on any
 
 There must be fixed $H,K$ and a subsequence on which a positive fraction of pairs survives. Otherwise, a diagonal choice with $H,K\to\infty$ sufficiently slowly would make the surviving fraction tend to zero, while the first, rich-line discard also has vanishing fraction. The recorded curves would then cover all but $o(N^2)$ pairs from one endpoint or the other and have total degree at most $N/(KA)=o(N/A)$ in every star. This contradicts Theorem 6.1. Fix such $H,K$ and a positive-density subsequence.
 
-We prove (eq:direction-count) by induction on $a$. For $a=0$ it is the light-line bound. Fix a variety $Y$ of dimension $a\ge1$, a center $p$, and the selected partners counted on $Y$. Let $U$ be the real linear span of their displacements from $p$, and put $\ell=\dim U$. There is nothing to prove if this collection is empty.
+We prove (2.2) by induction on $a$. For $a=0$ it is the light-line bound. Fix a variety $Y$ of dimension $a\ge1$, a center $p$, and the selected partners counted on $Y$. Let $U$ be the real linear span of their displacements from $p$, and put $\ell=\dim U$. There is nothing to prove if this collection is empty.
 
 Consider a full radius class about $p$, meaning all points of $P$ at one prescribed distance from $p$. Suppose it has $L\ge2M$ distinct orthogonal projections to $U$, and choose physical points $z_1,\ldots,z_L\in P$ in that class representing those projections. For each counted partner $q$, the distances $|q-z_i|$, including zero when it occurs, take at most $M$ values. Consequently at least $$L^2/M-L\ge L^2/(2M)$$ ordered pairs $i\ne j$ have equal distance to $q$. As the $z_i$ lie in a common radius class, $$|q-z_i|=|q-z_j|
  \quad\Longrightarrow\quad
  (q-p)\cdot(z_i-z_j)=0.$$ The projection of $z_i-z_j$ to $U$ is nonzero. The resulting hyperplane section is proper on $Y$: if its linear equation vanished on $Y$, it would vanish on all counted displacements and hence on $U$, which is impossible for its nonzero normal in $U$. Bézout’s theorem and the induction hypothesis bound the number of partners on each section by $C\deg(Y)A^{a-1}$. Double counting gives $$\#\{q\text{ counted}\}\frac{L^2}{2M}
- \le C L^2\deg(Y)A^{a-1}.$$ This is (eq:direction-count), since $M\le A$.
+ \le C L^2\deg(Y)A^{a-1}.$$ This is (2.2), since $M\le A$.
 
 In the remaining case, each of the at most $M$ radius classes has fewer than $2M$ projections to $U$. Thus the full sample has $O(M^2)$ fibers on which both the radius about $p$ and the projection to $U$ are fixed. A fiber lies on a sphere in an affine space of dimension $d-\ell$. If $\ell\ge4$ and $d-\ell\ge3$, lower-dimensional induction bounds each fiber by $O(M^{(d-\ell)/2})$. If $d-\ell=2$, the circle bound is $O(M)$; if $d-\ell\le1$, the fiber has at most two points. In all cases the total is $O(M^{d/2})$, contradicting $N/M^{d/2}\to\infty$. Thus this alternative is impossible when $\ell\ge4$.
 
@@ -131,11 +131,11 @@ It remains to consider $\ell\le3$. For $a\ge2$, Lemma 2.1 bounds the counted pa
 **Proposition 2.3** (Independent evaluations in every star). *A further symmetric selection retains at least $c'N^2$ pairs and has the following property: the direction-evaluation vectors of the partners in each star are linearly independent for homogeneous polynomials of degree $D=\lfloor A\rfloor$. In particular each selected star admits homogeneous separators of degree $D$.*
 
 *Proof.* First consider any subset $S$ of the partners in one star, counting physical partners even when their projective directions agree. Form the projective envelope of those directions at degree $D$. Assign each direction to an irreducible component containing it, and group these components by dimension. For a group of total degree $a_j$ and dimension $j$, Proposition 2.2 bounds the assigned physical partners by $C a_j A^j$. The component Hilbert lower bound in Lemma 3.6, applied at the defining degree $D$, gives $$H_S(D)=H_{\mathop{\mathrm{Env}}_D(S)}(D)\ge c_d a_jD^j.$$ There are at most $d$ groups, and $D\asymp A$. Therefore $$\begin{equation}
-\label{eq:star-rank}
+\tag{2.3}
  H_S(D)\ge c_1|S|
 \end{equation}$$ with a fixed $c_1>0$, uniformly for every subset $S$.
 
-Take a maximal undirected subset of the edges from Proposition 2.2 whose evaluations are independent at both endpoints. Each omitted edge is blocked at an endpoint: its evaluation vector lies in the span of the selected vectors there. Charge it to one such endpoint. If the selected degree at $p$ is $s_p$, all vectors charged to $p$ together have rank at most $s_p$. Equation (eq:star-rank) bounds their number by $s_p/c_1$. Summing over vertices bounds the number of omitted edges by $2/c_1$ times the number of selected edges. Positive density follows.
+Take a maximal undirected subset of the edges from Proposition 2.2 whose evaluations are independent at both endpoints. Each omitted edge is blocked at an endpoint: its evaluation vector lies in the span of the selected vectors there. Charge it to one such endpoint. If the selected degree at $p$ is $s_p$, all vectors charged to $p$ together have rank at most $s_p$. Equation (2.3) bounds their number by $s_p/c_1$. Summing over vertices bounds the number of omitted edges by $2/c_1$ times the number of selected edges. Positive density follows.
 
 Independent evaluation vectors mean that the evaluation map onto the coordinates indexed by the star is surjective. Taking the coordinate basis in its image gives the asserted homogeneous separators. ◻
 
@@ -145,7 +145,7 @@ Write $\mathcal S$ for this final selection. A selected star has at most one par
 
 Take $Q=RP$, where $R$ is a sufficiently generic real rotation, and transport $\mathcal S$ to $Q$. On the $N^2$ vertices $(p,q)\in P\times Q$, put an edge between $(p,q)$ and $(p',q')$ exactly when $$\{p,p'\}\in\mathcal S,\qquad
  \{q,q'\}\in R\mathcal S,\qquad |p-p'|=|q-q'|.$$ If $s_\rho$ is the number of selected physical pairs of length $\rho$, the number of these edges is $2\sum_\rho s_\rho^2$. Cauchy–Schwarz gives $$\begin{equation}
-\label{eq:equality-edges}
+\tag{2.4}
  2\sum_\rho s_\rho^2
  \ge \frac{2|\mathcal S|^2}{M}
  \ge c_2 N^4/M.
@@ -157,14 +157,14 @@ For $d=3$, let $g(x)=Sx+h$, with $S\in O(3)$ and $h\in\mathbb R^3$, range over s
  =o(N^4/M).$$ Overlapping sets $V_g$ can only decrease the actual deletion count. After this deletion, no vertex can have at least $C_{\mathrm{rich}}A$ remaining neighbors which, together with that vertex, are matches of one spatial isometry. Such a motion would have at least $C_{\mathrm{rich}}A$ matches, and all those incident edges would have been deleted.
 
 In every dimension, let $E_0$ be the edge count at the start of pruning, and repeatedly delete vertices of degree below $E_0/(2N^2)$. The total number of deleted edges is less than $E_0/2$, so at least one edge survives. The resulting nonempty graph $\mathcal H$ has minimum degree $$\begin{equation}
-\label{eq:minimum-degree}
+\tag{2.5}
  \delta(\mathcal H)\ge c_3N^2/M,\qquad
  \delta(\mathcal H)/A^{d-1}\longrightarrow\infty.
 \end{equation}$$ Only subsets of the original stars have been retained, so their independence and separators remain valid.
 
 Identify skew forms on $\mathbb C^{d+1}$ with matrices $$\begin{pmatrix} Z&c\\-c^{\mathsf T}&0\end{pmatrix},
  \qquad Z^{\mathsf T}=-Z,\quad c\in\mathbb C^d.$$ The pair $(p,q)$ defines an affine flat $$\begin{equation}
-\label{eq:pair-flat}
+\tag{2.6}
  F_{p,q}=\{(Z,c):Zv_0+c=y_0\},\qquad
  v_0=(p+q)/2,\quad y_0=(p-q)/2 .
 \end{equation}$$ Its dimension is $s_0=d(d-1)/2$. Distinct pairs give distinct flats: at $Z=0$ one recovers $y_0$, and equality for every skew $Z$ then recovers $v_0$.
@@ -172,12 +172,12 @@ Identify skew forms on $\mathbb C^{d+1}$ with matrices $$\begin{pmatrix} Z&c\\-c
 Each $F_{p,q}$ is the complexification of the corresponding real point-pair flat in the construction of Bardwell-Evans and Sheffer before their generic section (Bardwell-Evans and Sheffer 2019, Theorem 6.1).
 
 The parameter in the split quadric of $\mathbb P(\mathbb C^{d+1}\oplus(\mathbb C^{d+1})^*)$ is $$\begin{equation}
-\label{eq:global-parameter}
+\tag{2.7}
  [v:y]=[(v_0,1):(y_0,-v_0\cdot y_0)].
 \end{equation}$$ Indeed, on $F_{p,q}$, $$\begin{pmatrix}Z&c\\-c^{\mathsf T}&0\end{pmatrix}
  \binom{v_0}{1}
  =\binom{Zv_0+c}{-c\cdot v_0}
- =\binom{y_0}{-v_0\cdot y_0},$$ where the last coordinate uses $v_0\cdot Zv_0=0$. Conversely, the first $d$ coordinates of this evaluation equation give (eq:pair-flat). Thus $F_{p,q}$ is exactly the evaluation flat for this parameter. This parameter satisfies $y(v)=0$ and $v\ne0$. We next check every hypothesis needed for the two different versions of Theorem A.1.
+ =\binom{y_0}{-v_0\cdot y_0},$$ where the last coordinate uses $v_0\cdot Zv_0=0$. Conversely, the first $d$ coordinates of this evaluation equation give (2.6). Thus $F_{p,q}$ is exactly the evaluation flat for this parameter. This parameter satisfies $y(v)=0$ and $v\ne0$. We next check every hypothesis needed for the two different versions of Theorem A.1.
 
 ### Global and local concentration
 
@@ -185,17 +185,17 @@ The parameter in the split quadric of $\mathbb P(\mathbb C^{d+1}\oplus(\mathbb C
 
 *Proof.* In Theorem A.1, take $e=d+1$, so $r=d$. Physical separators from Lemma 3.1, one in $p$ and one in $q$, have a product of degree $O(M)$. Express them in the coordinates $v_0,y_0$ and homogenize with the last coordinate of $v$, which is $1$ on every parameter. They give positive-degree homogeneous separators of degree $O(M)\le O(A)$.
 
-Suppose parameters lie in one projective maximal isotropic plane. Their original real representatives in (eq:global-parameter) belong to its underlying isotropic vector space. Polarization gives, for any two of them, $$(v_0-v'_0)\cdot(y_0-y'_0)=0,\qquad
+Suppose parameters lie in one projective maximal isotropic plane. Their original real representatives in (2.7) belong to its underlying isotropic vector space. Polarization gives, for any two of them, $$(v_0-v'_0)\cdot(y_0-y'_0)=0,\qquad
  |p-p'|^2=|q-q'|^2.$$ The first physical coordinate $p$ is therefore injective on this set of parameters, because $p=p'$ forces $q=q'$. There are at most $N\le A^{d-1}$ such parameters. The total number of parameters is at most $N^2=A^d$. Thus Specification (a) of Theorem A.1 applies, with one fixed constant absorbing the separator degree.
 
 For $h=0$, an irreducible variety containing a same-dimensional flat equals that flat. For $h=d$, the total-count bound suffices. These give the two endpoints. ◻
 
 Fix a retained vertex $(p,q)$. On its flat, use $Z$ as coordinates, so $c=y_0-Zv_0$. A neighbor $(p',q')$, with $u=p'-p$ and $w=q'-q$, cuts out $$\begin{equation}
-\label{eq:neighbor-flat}
+\tag{2.8}
  Z(u+w)=u-w.
 \end{equation}$$ Here $u,w$ are nonzero real vectors with $|u|=|w|$. The rotation $R$ may be chosen to ensure $u+w\ne0$ simultaneously for the finite set of relevant displacement pairs.
 
-**Lemma 2.5** (Local concentration). *Every nonzero polynomial of degree at most $A$ on $F_{p,q}$ contains in its zero set at most $C A^{d-1}$ of the neighbor flats in (eq:neighbor-flat).*
+**Lemma 2.5** (Local concentration). *Every nonzero polynomial of degree at most $A$ on $F_{p,q}$ contains in its zero set at most $C A^{d-1}$ of the neighbor flats in (2.8).*
 
 *Proof.* The local skew-form model has $e=d$, $r=d-1$, and parameters $$[v:y]=[u+w:u-w].$$ They lie on the split quadric, with nonzero $v$. They are distinct. Indeed, proportional parameters give $(u',w')=\lambda(u,w)$. Since the vectors are real and nonzero, $\lambda$ is real; uniqueness of a selected partner in its projective direction first gives $u'=u$, then $\lambda=1$ and $w'=w$.
 
@@ -214,17 +214,17 @@ Factor the polynomial on $F_{p,q}$ into irreducible hypersurfaces. Each componen
 
 *Proof.* Let $\mathcal F$ be the family of retained global pair flats and $m=|\mathcal F|$. At degree $D=\lfloor A\rfloor$, form the envelope of their union. Each flat is contained in one of its irreducible components. Assign it to one such component and group components by their dimensions $s_0+h$, $0\le h\le d$. If a group has total degree $a_h$, global concentration bounds its assigned flats by $C a_h A^h$. The Hilbert lower bound at the defining degree gives $$H_{\bigcup\mathcal F}(D)
  \ge c a_hD^{s_0+h}.$$ There are only $d+1$ groups. Since $D\asymp A$, $$\begin{equation}
-\label{eq:global-rank-lower}
+\tag{2.9}
  H_{\bigcup\mathcal F}(D)\ge c_4mA^{s_0}.
 \end{equation}$$ This includes the case in which the envelope is the entire ambient space.
 
-Choose each flat independently with a small fixed probability $\theta>0$. With probability at least $1/2$, the number selected is at most $2\theta m$, by Markov’s inequality. On that event their restriction rank is at most $$2\theta m\binom{D+s_0}{s_0}\le C_4\theta m A^{s_0}.$$ Choose $\theta$ so small that this is less than the right side of (eq:global-rank-lower).
+Choose each flat independently with a small fixed probability $\theta>0$. With probability at least $1/2$, the number selected is at most $2\theta m$, by Markov’s inequality. On that event their restriction rank is at most $$2\theta m\binom{D+s_0}{s_0}\le C_4\theta m A^{s_0}.$$ Choose $\theta$ so small that this is less than the right side of (2.9).
 
 At any vertex the sampled neighbors have binomial distribution of mean at least $\theta\delta(\mathcal H)$. The probability of fewer than half that mean is at most $\exp(-c\theta\delta(\mathcal H))$. There are at most $N^2$ vertices, and $\delta(\mathcal H)\gg A^{d-1}$, a fixed positive power of $N$. A union bound shows that, with probability tending to one, every vertex has at least $\theta\delta(\mathcal H)/2\gg A^{d-1}$ sampled neighbors. Both events thus hold for some choice of sample.
 
 Its rank is strictly smaller than that of all flats. Hence a polynomial $f$ of degree at most $D$ vanishes on every sampled flat but does not vanish identically on some $F\in\mathcal F$. For each sampled neighbor $F'$, it vanishes on the neighbor flat $F\cap F'$ inside $F$. These neighbor flats are distinct by the local parameter check above. There are more than $C A^{d-1}$ of them, contradicting Lemma 2.5 applied to the nonzero restriction $f|_F$. ◻
 
-Proposition 2.6, together with the three ingredients proved below, rules out (red:regime) in the least possible failing dimension. Thus there is no failing dimension. Equivalently, in each fixed dimension the ratio $|\Delta(P)|/|P|^{2/d}$ has a positive infimum: if it did not, a sequence with ratio tending to zero would give (red:regime). This proves Theorem 1.1, including its constant-factor strength.
+Proposition 2.6, together with the three ingredients proved below, rules out (2.1) in the least possible failing dimension. Thus there is no failing dimension. Equivalently, in each fixed dimension the ratio $|\Delta(P)|/|P|^{2/d}$ has a positive infimum: if it did not, a sequence with ratio tending to zero would give (2.1). This proves Theorem 1.1, including its constant-factor strength.
 
 ## Polynomial interpolation, regularity, and multiplicity
 
@@ -234,7 +234,7 @@ The section supplies interpolation from defining equations, restriction-rank bou
 
 For a subset $T\subset\mathbb C^n$, put $$H_T(D)=\dim_{\mathbb C}\bigl(\mathbb C[x_1,\ldots,x_n]_{\le D}/
            I(T)_{\le D}\bigr),\qquad D\in\mathbb Z_{\ge0}.$$ Here $I(T)$ consists of the polynomials vanishing on $T$. The degree-$D$ envelope is $$\mathop{\mathrm{Env}}_D(T)=\{x:f(x)=0\text{ for every }f\in I(T)_{\le D}\}.$$ Its defining collection can be replaced by a finite basis of $I(T)_{\le D}$. Directly from the definition, $$\begin{equation}
-\label{poly:envelope-equality}
+\tag{3.1}
  H_{\mathop{\mathrm{Env}}_D(T)}(D)=H_T(D).
 \end{equation}$$ For a projective set we use restrictions of homogeneous polynomials of exact degree $D$. Dehomogenizing in any affine chart meeting every component gives the same rank: homogenization identifies polynomials of degree at most $D$ with homogeneous polynomials of degree $D$, and a polynomial vanishes on a component if and only if it vanishes on a dense affine part of that component. We always choose charts generically for the finitely many points and components under discussion.
 
@@ -245,17 +245,17 @@ These intersection bounds are the componentwise refined Bézout inequality (Fult
 ### Separators supplied by the distance set
 
 **Lemma 3.1** (Physical separators and sample bounds). *Let $P\subset\mathbb R^n$ be finite and let $M=1+|\Delta(P)|$. Each $p\in P$ has a polynomial $s_p$ of degree at most $2(M-1)$ such that $$s_p(p)=1,\qquad s_p(q)=0\quad(q\in P\setminus\{p\}).$$ If $V\subset\mathbb C^n$ is a pure $u$-dimensional variety of degree $a$, then $$\begin{equation}
-\label{poly:physical-count}
+\tag{3.2}
  |P\cap V|\le C_n aM^u.
 \end{equation}$$ Moreover, $P$ is precisely the common zero set of a system of polynomials of degree at most $2M+1$. In particular, all its points are isolated components of that system.*
 
 *Proof.* For $p\in P$ define $$s_p(x)=\prod_{\rho\in\Delta(P)}
        \frac{\sum_{j=1}^n(x_j-p_j)^2-\rho^2}{-\rho^2}.$$ Every denominator is nonzero. The stated values on the real sample follow even though we subsequently regard $s_p$ as a polynomial over $\mathbb C$.
 
-We prove (poly:physical-count) by induction on $u$ and add over the irreducible components of $V$. For $u=0$ the number of points is at most $a$. Suppose $V$ is irreducible of positive dimension and contains a sample point $p$. The polynomial $s_p$ does not vanish identically on $V$, because it is nonzero at $p$, and it vanishes at every other sample point of $V$. Its proper section has degree at most $2Ma$. The induction hypothesis therefore gives $$|P\cap V|\le 1+C_n(2Ma)M^{u-1}.$$ Increasing the dimension-dependent constant proves the claim. This argument requires no smoothness or general-position assumption on the sample points.
+We prove (3.2) by induction on $u$ and add over the irreducible components of $V$. For $u=0$ the number of points is at most $a$. Suppose $V$ is irreducible of positive dimension and contains a sample point $p$. The polynomial $s_p$ does not vanish identically on $V$, because it is nonzero at $p$, and it vanishes at every other sample point of $V$. Its proper section has degree at most $2Ma$. The induction hypothesis therefore gives $$|P\cap V|\le 1+C_n(2Ma)M^{u-1}.$$ Increasing the dimension-dependent constant proves the claim. This argument requires no smoothness or general-position assumption on the sample points.
 
 Finally use the polynomials $$\begin{equation}
-\label{poly:exact-isolation}
+\tag{3.3}
  1-\sum_{p\in P}s_p(x),\qquad
  (x_j-p_j)s_p(x)\quad(p\in P,\ 1\le j\le n).
 \end{equation}$$ They vanish at every point of $P$. At any common zero, the first equation forces some $s_p$ to be nonzero, and the corresponding $n$ coordinate equations then force $x=p$. Thus there are no additional zeros. ◻
@@ -270,7 +270,7 @@ The next lemma concerns the isolated points of a system, not a system whose enti
 *Proof.* The coordinate parameters form a regular sequence. The regular local ring $R$ is Cohen–Macaulay, so the $c$ elements $f_i$, being a system of parameters, also form a regular sequence (The Stacks Project Authors 2026, Tags 00OQ, 00NQ, and 02JN). Their Koszul complexes are therefore free resolutions of $R/(f)$ and $R/(Z)=F$, respectively (The Stacks Project Authors 2026, Tag 062F). The matrix $Q$ induces a chain map from the first Koszul resolution to the second, lifting the quotient map $R/(f)\longrightarrow F$; its map in top degree is multiplication by $\det Q$.
 
 For completeness, the vanishing needed to see that this top map is nonzero is especially simple. The coordinate Koszul resolution gives $$\operatorname{Ext}^i_R(F,R)=0\quad(i<c),\qquad
- \operatorname{Ext}^c_R(F,R)=F.$$ Every finite-length $R$-module has a composition series with factors $F$. The long exact sequence for $\operatorname{Ext}$ therefore gives $\operatorname{Ext}^i_R(K,R)=0$ for every finite-length $K$ and $i<c$. Apply this to the kernel $K$ of $R/(f)\longrightarrow F$. The long exact sequence supplies an injection $$\operatorname{Ext}^c_R(F,R)\lhook\joinrel\longrightarrow
+ \operatorname{Ext}^c_R(F,R)=F.$$ Every finite-length $R$-module has a composition series with factors $F$. The long exact sequence for $\operatorname{Ext}$ therefore gives $\operatorname{Ext}^i_R(K,R)=0$ for every finite-length $K$ and $i<c$. Apply this to the kernel $K$ of $R/(f)\longrightarrow F$. The long exact sequence supplies an injection $$\operatorname{Ext}^c_R(F,R)\hookrightarrow
        \operatorname{Ext}^c_R(R/(f),R).$$ Under the identifications provided by the two Koszul resolutions, this map sends the class of $1$ to the class of $\det Q$, up to an irrelevant sign. Its image is nonzero. ◻
 
 **Lemma 3.3** (Isolated-point interpolation, including first derivatives). *Let $F$ be algebraically closed, and let $S\subset F^c$ be any selection of distinct isolated points of the common zero set of polynomials of degree at most $L$, where $L\ge1$. There are polynomials of degree at most $c(L-1)$ separating the points of $S$. In fact a separator for one point can be chosen to vanish at every other common zero of the original system, including its positive-dimensional components.*
@@ -280,15 +280,15 @@ For completeness, the vanishing needed to see that this top map is nonzero is es
 *Proof.* Fix an isolated point $z$ of the original system. Its local defining ideal is primary to the maximal ideal at $z$. We may choose $c$ constant linear combinations $f_1,\ldots,f_c$ of the given equations whose local ideal has finite colength. To see this, choose the combinations successively, avoiding the finitely many minimal primes of the preceding proper intersections other than the maximal ideal. The original ideal is not contained in any of those primes. Over an infinite field the forbidden coefficient vectors form a finite union of proper linear subspaces, so each choice is possible. Each $f_i$ still has degree at most $L$. The same avoidance can be imposed simultaneously at any finite list of isolated points. Thus a generic choice of $c$ combinations is a local parameter sequence at every point of that list, although the argument below only needs this property at $z$.
 
 Introduce two sets of variables $Y,Z$. Telescoping one coordinate at a time gives a divided-difference matrix $Q(Y,Z)$ such that $$\begin{equation}
-\label{poly:divided-difference}
+\tag{3.4}
  f(Y)-f(Z)=Q(Y,Z)(Y-Z).
 \end{equation}$$ Every entry has degree at most $L-1$ in $Y$, and hence $\det Q(Y,Z)$ has degree at most $c(L-1)$ in $Y$. Take the coefficients in the local Artin algebra $$A_z=F[Z]_{(Z-z)}/(f_1(Z),\ldots,f_c(Z)).$$ If $y\ne z$ is any common zero of the original system, then $f(y)=0$ and one coordinate of $y-Z$ is a unit in $A_z$. Multiplying $Q(y,Z)(y-Z)=0$ by the adjugate of $Q(y,Z)$ shows that $$\det Q(y,Z)=0\quad\hbox{in }A_z.$$ This works for every such $y$, whether or not it is isolated.
 
-On setting $Y=z$ in (poly:divided-difference), we obtain $f(Z)=Q(z,Z)(Z-z)$. Lemma 3.2, after translation, says that $\det Q(z,Z)$ is nonzero in $A_z$. Choose an $F$-linear functional $\lambda:A_z\longrightarrow F$ which is nonzero on this element. Applying $\lambda$ coefficientwise to $\det Q(Y,Z)$ and normalizing produces a polynomial $s_z$ of the required degree, with $s_z(z)=1$ and $s_z(y)=0$ at every other common zero.
+On setting $Y=z$ in (3.4), we obtain $f(Z)=Q(z,Z)(Z-z)$. Lemma 3.2, after translation, says that $\det Q(z,Z)$ is nonzero in $A_z$. Choose an $F$-linear functional $\lambda:A_z\longrightarrow F$ which is nonzero on this element. Applying $\lambda$ coefficientwise to $\det Q(Y,Z)$ and normalizing produces a polynomial $s_z$ of the required degree, with $s_z(z)=1$ and $s_z(y)=0$ at every other common zero.
 
 Here are explicit first-order interpolants, which also show that the number of points does not enter the degree bound. The polynomial $$u_z=3s_z^2-2s_z^3$$ has value $1$ and all first derivatives zero at $z$, and has value and all first derivatives zero at the other selected points. The polynomial $$v_{z,j}=(Y_j-z_j)s_z^2$$ has zero value at every selected point, derivative $1$ in coordinate $j$ at $z$, and all other prescribed first derivatives zero. Linear combinations of the $u_z$ and $v_{z,j}$ give arbitrary first-order data. Their degrees are at most $\max\{3c(L-1),2c(L-1)+1\}\le C_cL$.
 
-The exact-isolation Equations (poly:exact-isolation), with these normalized $s_z$ and the set $S$, now have degree at most $c(L-1)+1$ and have precisely $S$ as their common zero set. The empty selection is isolated by the equation $1=0$. ◻
+The exact-isolation Equations (3.3), with these normalized $s_z$ and the set $S$, now have degree at most $c(L-1)+1$ and have precisely $S$ as their common zero set. The empty selection is isolated by the equation $1=0$. ◻
 
 *Remark 3.4*. The local quotient $A_z$ need not be reduced. The determinant in Lemma 3.2 records its nonzero top class, and a linear functional extracts a polynomial which separates the underlying point. Thus Lemma 3.3 does not assume that the original equations have independent differentials, and it makes no assertion about the thickness of other components.
 
@@ -303,13 +303,13 @@ We now relate polynomial restriction rank to total component degree. For the low
 The upper estimate below is Chardin’s Hilbert-function bound (Chardin 1989). For components of a single equation system, the shifted lower estimate follows from the isolated-component bound of Chardin–Philippon (Chardin and Philippon 1999, Corollary 3); see also their erratum (Chardin and Philippon 2002). We give the proof, including the extension to several equation systems used here.
 
 **Lemma 3.6** (Upper and lower component ranks). *Let $V\subset\mathbb C^n$ be a finite union of distinct irreducible varieties of pure dimension $k$ and total degree $a$. For every $D\ge0$, $$\begin{equation}
-\label{poly:hilbert-upper}
+\tag{3.5}
  H_V(D)\le a\binom{D+k}{k}.
 \end{equation}$$ Suppose in addition that every member of this family is an irreducible component of a common locus defined by equations of degree at most $L\ge1$. Other components of that locus may have any dimension. There is an integer $q\le C_nL$ such that, for $D\ge q$, $$\begin{equation}
-\label{poly:hilbert-lower}
+\tag{3.6}
  H_V(D)\ge a\binom{D-q+k}{k}.
 \end{equation}$$ In particular, $$\begin{equation}
-\label{poly:hilbert-at-L}
+\tag{3.7}
  H_V(L)\ge c_n aL^k.
 \end{equation}$$ The same assertions hold for projective varieties, with homogeneous restriction rank.*
 
@@ -319,25 +319,25 @@ The upper estimate below is Chardin’s Hilbert-function bound (Chardin 1989). 
  h^0(V,\mathcal O_V(D-1))+
  h^0(V\cap H,\mathcal O_{V\cap H}(D)).$$ For dimension zero, the last space has dimension equal to the number of reduced points, namely the degree. In every dimension, $h^0(V,\mathcal O_V)\le a$: it is at most the number of irreducible components, since a regular function on an irreducible projective variety is constant. Induction on dimension, followed by summation in $D$, gives $$h^0(V,\mathcal O_V(D))
  \le a\sum_{j=0}^D\binom{j+k-1}{k-1}
- =a\binom{D+k}{k}$$ for $k\ge1$. This proves (poly:hilbert-upper); alternatively one may add the bound for the irreducible components. Affine homogenization gives exactly the same restriction rank.
+ =a\binom{D+k}{k}$$ for $k\ge1$. This proves (3.5); alternatively one may add the bound for the irreducible components. Affine homogenization gives exactly the same restriction rank.
 
 For the lower bound, choose generic linear coordinates $$(t_1,\ldots,t_k,y_1,\ldots,y_{n-k})$$ such that projection to the $t$ coordinates is finite of degree $\deg V_i$ on every irreducible component $V_i$ of the family. This is the usual generic linear normalization: in the projective closure the projection center is disjoint from $V_i$, and a general fiber is a complementary linear section. In characteristic zero the generic fibers are reduced. Put $K=\mathbb C(t_1,\ldots,t_k)$ and let $F$ be an algebraic closure of $K$. The geometric generic fiber of the selected family consists of $a$ distinct points of $F^{n-k}$.
 
 These points are isolated in the generic fiber of the *entire* given system. Indeed, if $W$ is any different irreducible component of that system, then $V_i\cap W$ is a proper subvariety of $V_i$. Its projection to the $k$-dimensional base is not dominant. Thus no point of the generic fiber of $V_i$ lies on $W$. This argument also handles components $W$ of dimension larger than $k$; their generic fibers may be positive-dimensional, but they do not contain the selected sheets.
 
 The equations on the generic fiber have degree at most $L$ in $y$. Lemma 3.3 says that evaluation on its $a$ selected points is surjective from $F[y]_{\le q}$ for some $q\le C_nL$. Since ordinary monomials span this space, we can select $a$ monomials $m_1(y),\ldots,m_a(y)$ of degree at most $q$ whose evaluation columns are linearly independent over $F$. For each $i$, multiply $m_i$ by all base monomials $t^\alpha$ with $|\alpha|\le D-q$. The resulting global polynomials have total degree at most $D$ and are linearly independent on $V$. In fact a relation over $\mathbb C$ would give $$\sum_i\left(\sum_\alpha c_{i,\alpha}t^\alpha\right)
-                m_i\big|_{\text{generic fiber}}=0.$$ Independence over $F$ forces each coefficient polynomial in $t$ to vanish, and algebraic independence of the $t_j$ forces every $c_{i,\alpha}$ to be zero. Counting these monomials proves (poly:hilbert-lower). Notice that no rational coefficient has been cleared: only ordinary transverse monomials were selected.
+                m_i\big|_{\text{generic fiber}}=0.$$ Independence over $F$ forces each coefficient polynomial in $t$ to vanish, and algebraic independence of the $t_j$ forces every $c_{i,\alpha}$ to be zero. Counting these monomials proves (3.6). Notice that no rational coefficient has been cleared: only ordinary transverse monomials were selected.
 
 We explain the passage to degree $L$, since the lower bound above initially starts at a constant multiple of $L$. In a monomial order refining total degree, the standard monomials of $I(V)$ form a set closed under division, and their number of degree at most $D$ is $H_V(D)$. Fix an integer $b\ge1$. The map $$x^\alpha\longmapsto x^{\lfloor\alpha/b\rfloor}$$ sends standard monomials of degree at most $bL$ to standard monomials of degree at most $L$. Each image has at most $b^n$ preimages, by the possible coordinatewise remainders. Hence $$\begin{equation}
-\label{poly:rank-rescaling}
+\tag{3.8}
  H_V(bL)\le b^n H_V(L).
-\end{equation}$$ Take a fixed $b$ large enough that $bL-q\ge L$ and use (poly:hilbert-lower). This proves (poly:hilbert-at-L).
+\end{equation}$$ Take a fixed $b$ large enough that $bL-q\ge L$ and use (3.6). This proves (3.7).
 
-For the union-of-systems assertion, take a generic base projection simultaneously for the finitely many systems and components. On its geometric generic fiber, Lemma 3.5 supplies the same surjectivity at degree $C_nL_*$. The monomial argument and (poly:rank-rescaling) are unchanged. This proof does not claim that a component of one system stays an isolated component of the union of all the original loci; it uses the selected finite lists on the generic fiber instead. ◻
+For the union-of-systems assertion, take a generic base projection simultaneously for the finitely many systems and components. On its geometric generic fiber, Lemma 3.5 supplies the same surjectivity at degree $C_nL_*$. The monomial argument and (3.8) are unchanged. This proof does not claim that a component of one system stays an isolated component of the union of all the original loci; it uses the selected finite lists on the generic fiber instead. ◻
 
 **Corollary 3.7** (Mixed-dimensional envelopes). *Let $Z$ be a locus of equations of degree at most $L\ge1$, and let $a_k$ be the total degree of any chosen subfamily of its $k$-dimensional irreducible components. For their union $V$, $$H_V(L)\ge c_n\sum_{k=0}^n a_kL^k.$$ For an arbitrary reduced union with dimension-by-dimension degrees $a_k$, without a hypothesis on its equations, $$H_V(D)\le\sum_{k=0}^n a_k\binom{D+k}{k}.$$ In particular these statements apply to the components of $\mathop{\mathrm{Env}}_L(T)$.*
 
-*Proof.* For the lower bound, $H_V(L)$ is at least the rank of each pure dimensional subfamily. Lemma 3.6 bounds each of those below by $c_na_kL^k$; taking a maximum loses at most the fixed factor $n+1$. For the upper bound, restriction to the entire union injects into the direct sum of its restrictions to the pure-dimensional subfamilies. Apply (poly:hilbert-upper) to each. ◻
+*Proof.* For the lower bound, $H_V(L)$ is at least the rank of each pure dimensional subfamily. Lemma 3.6 bounds each of those below by $c_na_kL^k$; taking a maximum loses at most the fixed factor $n+1$. For the upper bound, restriction to the entire union injects into the direct sum of its restrictions to the pure-dimensional subfamilies. Apply (3.5) to each. ◻
 
 ### Common regular equations and pooled proper cuts
 
@@ -346,7 +346,7 @@ The rank bounds have two uses. They give common equations with independent diffe
 Tidor, Yu, and Zakharov formulate regular approximate complete intersections whose Jacobian recovers the tangent space generically (Tidor et al. 2026, Theorem 4.1). The next lemma has a different family-level interface: its equations vanish on the whole component family, and one degree cutoff controls an explicit exceptional-degree loss. We prove this interface below.
 
 **Lemma 3.8** (Regularity for a whole component family). *Let $V$ be a pure $k$-dimensional family of total degree $a$ as in the lower-bound part of Lemma 3.6, with equation bound $L$. The union-of-systems version is allowed, with $L=\sum_\nu L_\nu$. If $D\ge C_nL$, then, except for components of total degree at most $$\begin{equation}
-\label{poly:regularity-loss}
+\tag{3.9}
  C_n aL/D,
 \end{equation}$$ the equations of degree at most $D$ vanishing on the *whole* family have Jacobian rank $n-k$ generically on every component.*
 
@@ -360,27 +360,27 @@ We give the vector-space argument carefully. Write $$W_D=\mathbb C[t,y]_{\le D},
  \mathop{\mathrm{rank}}_{\mathbb C}E_D=H_V(D).$$ No linearity of this truncated kernel over $K$ is asserted.
 
 At a failing sheet $z_i$, the common kernel of the ambient gradients of the equations in $I(V)_{\le D}$ has dimension at least $k+1$ over $F$. Its intersection with the $(n-k)$-dimensional vertical space therefore contains a nonzero vector $v_i$. The tangent space of the component projects isomorphically to the base at a generic sheet, so this vertical vector is transverse to the component. Define a first derivative functional $$J_i(f)=v_i\mathbin{\cdot}\partial_yf(t,z_i).$$ Its coefficients may be algebraic functions of $t$. They are coefficients of this functional, not functions to be differentiated. By construction $J_i$ annihilates $\ker_{\mathbb C}E_D$. If $J$ collects these $b$ functionals, then $$\begin{equation}
-\label{poly:jet-factorization}
+\tag{3.10}
  \mathop{\mathrm{rank}}_{\mathbb C}(E_D,J)=\mathop{\mathrm{rank}}_{\mathbb C}E_D=H_V(D).
 \end{equation}$$
 
 First-order interpolation on the geometric generic fiber gives surjectivity onto these $a$ values and $b$ transverse derivatives from $F[y]_{\le q}$, where $q\le C_nL$. Select $a+b$ ordinary $y$-monomials $m_i$ of degree at most $q$ with linearly independent augmented columns $w_i\in F^{a+b}$. Vertical differentiation gives the identity $$(E_D,J)(t^\alpha m_i)=t^\alpha w_i
        \qquad(|\alpha|\le D-q).$$ All these input polynomials lie in $W_D$. A relation over $\mathbb C$ among their columns becomes an $F$-linear relation among the $w_i$, with coefficients that are polynomials in $t$. Independence over $F$, followed by algebraic independence of $t$ over $\mathbb C$, makes every coefficient zero. Thus $$\begin{equation}
-\label{poly:augmented-lower}
+\tag{3.11}
  (a+b)\binom{D-q+k}{k}\le H_V(D)
                   \le a\binom{D+k}{k}.
-\end{equation}$$ For $D\ge2q$, the ratio of the two binomial coefficients is at most $1+C_nq/D$; this follows by multiplying the $k$ factors $(D+i)/(D-q+i)$. Rearranging (poly:augmented-lower) proves (poly:regularity-loss). When $k=0$ the binomial coefficients are both $1$ and the argument gives $b=0$.
+\end{equation}$$ For $D\ge2q$, the ratio of the two binomial coefficients is at most $1+C_nq/D$; this follows by multiplying the $k$ factors $(D+i)/(D-q+i)$. Rearranging (3.11) proves (3.9). When $k=0$ the binomial coefficients are both $1$ and the argument gives $b=0$.
 
 Choose a basis $f_1,\ldots,f_s$ of $I(V)_{\le D}$. All $(n-k)$-row Jacobian minors have degree at most $(n-k)(D-1)$. On each retained component at least one is nonzero. A generic constant linear combination $g$ of all these minors is consequently nonzero on every retained component, since the excluded coefficient vectors are a finite union of proper linear subspaces. Wherever $g\ne0$, some $n-k$ of the $f_i$ have independent differentials. Their zero locus is a smooth $k$-fold locally by the complex implicit function theorem. The pure $k$-dimensional set $V$ is contained in it and has the same local dimension, so its reduced germ is that smooth germ. All remaining $f_i$ vanish on this germ as well. Two distinct irreducible components cannot share this germ: an open common germ is Zariski dense in either component and would make them equal. ◻
 
 We have obtained regular equations vanishing on the entire family. We next combine different proper cuts on its components, controlling those components on which the combined polynomial vanishes identically.
 
 **Lemma 3.9** (Pooling different proper cuts). *Let $V=\bigcup_iV_i$ be a pure $k$-dimensional family of total degree $a$ satisfying the lower-bound hypotheses of Lemma 3.6, with bound $L$. On each $V_i$ let $h_i$ be a polynomial of degree at most $L'\ge1$ which does not vanish identically on $V_i$. If $D\ge C_n\max\{L,L'\}$, there is a polynomial $g$ of degree at most $D$ which vanishes on every proper cut $V_i\cap\{h_i=0\}$ and is not identically zero on any member except possibly a subfamily of total degree at most $$\begin{equation}
-\label{poly:pooling-loss}
+\tag{3.12}
  C_n aL'/D.
 \end{equation}$$ The union-of-systems version of the family is again allowed.*
 
-*Proof.* For $k=0$ all the cuts are empty, and take $g=1$. Suppose $k\ge1$ and let $C$ be the union of their reduced supports. Bézout gives $\deg C\le aL'$ in dimension $k-1$, so $$H_C(D)\le aL'\binom{D+k-1}{k-1}.$$ Let $U_D=I(C)_{\le D}$, and call a component $V_i$ forced if every polynomial in $U_D$ vanishes identically on it. If their union has degree $b$, the kernel inclusion $I(C)_{\le D}\subset I(\bigcup_{i\text{ forced}}V_i)_{\le D}$ implies $$H_{\bigcup_{i\text{ forced}}V_i}(D)\le H_C(D).$$ The lower bound of Lemma 3.6 applies to this subfamily with the same $L$. For $D\ge C_nL$ it bounds the left side below by $c_n bD^k$, proving (poly:pooling-loss).
+*Proof.* For $k=0$ all the cuts are empty, and take $g=1$. Suppose $k\ge1$ and let $C$ be the union of their reduced supports. Bézout gives $\deg C\le aL'$ in dimension $k-1$, so $$H_C(D)\le aL'\binom{D+k-1}{k-1}.$$ Let $U_D=I(C)_{\le D}$, and call a component $V_i$ forced if every polynomial in $U_D$ vanishes identically on it. If their union has degree $b$, the kernel inclusion $I(C)_{\le D}\subset I(\bigcup_{i\text{ forced}}V_i)_{\le D}$ implies $$H_{\bigcup_{i\text{ forced}}V_i}(D)\le H_C(D).$$ The lower bound of Lemma 3.6 applies to this subfamily with the same $L$. For $D\ge C_nL$ it bounds the left side below by $c_n bD^k$, proving (3.12).
 
 For each unforced component, the polynomials in $U_D$ which vanish identically on it form a proper linear subspace of $U_D$. Choose $g$ outside the finite union of these subspaces. On increasing the fixed lower bound for $D/L'$, the degree estimate makes $b<a$ for a nonempty family, so such a $g$ is a nonzero polynomial. It has precisely the required properties. ◻
 
@@ -392,21 +392,21 @@ We use multiplicity of a polynomial at a point in the elementary sense of order 
  g|_S=0,\qquad g(x_*)\ne0.$$ The degree bound has no dependence on $|S|$.*
 
 *Proof.* An empty set $S$ is handled by $g=1$. Otherwise $E\ge r$, because $f$ is a nonzero polynomial vanishing to order at least $r$ somewhere. First work over an algebraically closed field of characteristic $p$, where $p\ge r$. Set $$m=\left\lceil\frac{np}{r}\right\rceil.$$ The Frobenius map is surjective on this field, so grouping monomials by their exponent vectors modulo $p$ gives a unique expression $$\begin{equation}
-\label{poly:frobenius-decomposition}
+\tag{3.13}
  f(X)^m=\sum_{0\le i_1,\ldots,i_n<p}X^i h_i(X)^p.
 \end{equation}$$ Every nonzero $h_i$ has $$\deg h_i\le mE/p\le nE/r+E/p\le(n+1)E/r.$$
 
-Fix $z\in S$. The order of $f^m$ at $z$ is at least $mr\ge np$. Every monomial in $X-z$ of total degree at least $np$ has some coordinate exponent at least $p$. It follows that $$f^m\in J_z=((X_1-z_1)^p,\ldots,(X_n-z_n)^p).$$ Modulo $J_z$, the identity $h_i(X)^p\equiv h_i(z)^p$ holds. The monomials $X^i$, with every digit below $p$, form a basis of the quotient by $J_z$: translating the usual basis $(X-z)^i$ is an invertible triangular change of basis. Reducing (poly:frobenius-decomposition) modulo $J_z$ therefore gives $h_i(z)=0$ for every $i$. This applies at every point of $S$. Evaluation at $x_*$ shows that at least one $h_i(x_*)$ is nonzero, because $f(x_*)^m\ne0$. That $h_i$ proves the assertion in characteristic $p$.
+Fix $z\in S$. The order of $f^m$ at $z$ is at least $mr\ge np$. Every monomial in $X-z$ of total degree at least $np$ has some coordinate exponent at least $p$. It follows that $$f^m\in J_z=((X_1-z_1)^p,\ldots,(X_n-z_n)^p).$$ Modulo $J_z$, the identity $h_i(X)^p\equiv h_i(z)^p$ holds. The monomials $X^i$, with every digit below $p$, form a basis of the quotient by $J_z$: translating the usual basis $(X-z)^i$ is an invertible triangular change of basis. Reducing (3.13) modulo $J_z$ therefore gives $h_i(z)=0$ for every $i$. This applies at every point of $S$. Evaluation at $x_*$ shows that at least one $h_i(x_*)$ is nonzero, because $f(x_*)^m\ne0$. That $h_i$ proves the assertion in characteristic $p$.
 
 We include a concrete specialization argument to transfer this fixed degree assertion to $\mathbb C$. Put $q=\lfloor(n+1)E/r\rfloor$ and suppose that no degree-$q$ polynomial separates the given $S=\{z_1,\ldots,z_s\}$ from $x_*$. In the finite-dimensional space of polynomials of degree at most $q$, this says that evaluation at $x_*$ belongs to the linear span of the evaluations at the $z_j$. Thus there are $\lambda_1,\ldots,\lambda_s\in\mathbb C$ with $$\begin{equation}
-\label{poly:failed-separation}
+\tag{3.14}
  x_*^\alpha=\sum_{j=1}^s\lambda_j z_j^\alpha
             \qquad(|\alpha|\le q).
-\end{equation}$$ Let $R\subset\mathbb C$ be the finitely generated $\mathbb Z$-algebra generated by the coefficients of $f$, all coordinates of these points, the $\lambda_j$, and $f(x_*)^{-1}$. All hypotheses are polynomial identities over $R$: order at least $r$ is expressed by the vanishing of the coefficients of total degree below $r$ in $f(z_j+Y)$. The inverse in $R$ preserves $f(x_*)\ne0$ under every specialization. The identities (poly:failed-separation) also hold in $R$.
+\end{equation}$$ Let $R\subset\mathbb C$ be the finitely generated $\mathbb Z$-algebra generated by the coefficients of $f$, all coordinates of these points, the $\lambda_j$, and $f(x_*)^{-1}$. All hypotheses are polynomial identities over $R$: order at least $r$ is expressed by the vanishing of the coefficients of total degree below $r$ in $f(z_j+Y)$. The inverse in $R$ preserves $f(x_*)\ne0$ under every specialization. The identities (3.14) also hold in $R$.
 
 Such an $R$ has specializations to algebraically closed fields of arbitrarily large positive characteristic. Here is the required algebraic justification. Noether normalization for the finitely generated domain $R\otimes_{\mathbb Z}\mathbb Q$ gives algebraically independent elements $t_1,\ldots,t_b$ over which it is finite. After inverting one nonzero integer $a$, these elements belong to $R[1/a]$ and the finitely many generators of $R[1/a]$ satisfy monic equations over $\mathbb Z[1/a,t_1,\ldots,t_b]$. Hence $R[1/a]$ is finite integral over that polynomial ring. For every prime $p\nmid a$, the lying-over property supplies a maximal ideal above $(p,t_1,\ldots,t_b)$. Its residue field is a finite extension of $\mathbb F_p$, and embeds in $\overline{\mathbb F}_p$.
 
-Choose such a prime $p\ge r$. Specializing the coefficients, points, and identities gives characteristic-$p$ data satisfying the hypotheses and (poly:failed-separation). The characteristic-$p$ construction produces a degree-$q$ polynomial which vanishes at all the specialized $z_j$ but not at the specialized $x_*$. This contradicts (poly:failed-separation). Repeated specialized points cause no problem: the evaluation identity and the compression construction remain valid. The contradiction proves the complex assertion. ◻
+Choose such a prime $p\ge r$. Specializing the coefficients, points, and identities gives characteristic-$p$ data satisfying the hypotheses and (3.14). The characteristic-$p$ construction produces a degree-$q$ polynomial which vanishes at all the specialized $z_j$ but not at the specialized $x_*$. This contradicts (3.14). Repeated specialized points cause no problem: the evaluation identity and the compression construction remain valid. The contradiction proves the complex assertion. ◻
 
 **Lemma 3.11** (Rank loss gives ambient multiplicity). *Let $A(x)$ be a matrix of polynomials on $\mathbb C^n$, and let $F(x)$ be a $q$-row, $q$-column minor. If $\mathop{\mathrm{rank}}A(p)\le q-h$, then $\mathop{\mathrm{mult}}_pF\ge h$. In particular, if $F$ is nonzero at a test point, has degree at most $E$, and the indicated rank loss occurs at finitely many points, Lemma 3.10 gives a polynomial of degree at most $(n+1)E/h$ vanishing at those points but not at the test point.*
 
@@ -422,12 +422,12 @@ For an integral variety $X$ of dimension $k$ and $p\in X$, we write $\mathop{\ma
 **Lemma 3.12** (Projection degree and multiplicity). *Let $X\subset\mathbb P^n_{\mathbb C}$ be irreducible of dimension $k\ge1$ and degree $a$.*
 
 1.  *If projection from a point $p$ has image $Y$ of dimension $k$ and generic degree $t$, then $$\begin{equation}
-    \label{poly:point-projection-formula}
+    \tag{3.15}
      t\deg Y=a-\mathop{\mathrm{mult}}_pX.
     \end{equation}$$*
 
 2.  *If $k<n$, there is a generic linear projection to $\mathbb P^{k+1}$ which is finite and birational on $X$. Its image is an irreducible hypersurface of degree $a$. Given finitely many specified points $p_i\in X$, the projection can simultaneously be chosen so that their fibers are singletons and $$\begin{equation}
-    \label{poly:projection-multiplicity}
+    \tag{3.16}
      \mathop{\mathrm{mult}}_{\pi(p_i)}\pi(X)\ge\mathop{\mathrm{mult}}_{p_i}X.
     \end{equation}$$ Given in addition a point $x_*\notin X$, it can also be required that $\pi(x_*)\notin\pi(X)$.*
 
@@ -444,15 +444,14 @@ We recall each term in this self-intersection. The divisor $H$ restricts trivial
 For (ii), the case $n=k+1$ is the identity projection. Otherwise choose a linear center $\Lambda\simeq\mathbb P^{n-k-2}$. For a fixed point $q$, let $J(q,X)$ be the closure of the union of the lines joining $q$ to points of $X$ different from $q$. Its dimension is at most $k+1$. Choose one smooth point $q_0\in X$. A general $\Lambda$ is disjoint from each of $$X,\quad J(p_i,X),\quad J(q_0,X),\quad T_{q_0}X,
  \quad\text{and, if specified, }J(x_*,X).$$ There are finitely many conditions, and each is a nonempty open condition on the Grassmannian: the dimension of the relevant closed set plus $n-k-2$ is strictly less than $n$.
 
-The resulting projection defines a morphism $\pi:X\longrightarrow
-\mathbb P^{k+1}$. It is finite. Indeed, a fiber lies in a projective linear space in which $\Lambda$ is a hyperplane; a positive-dimensional projective fiber would meet that hyperplane, contradicting $\Lambda\cap X=\varnothing$. Avoidance of the joins makes the fibers over the specified $p_i$, and over $q_0$, singletons. Avoidance of $T_{q_0}X$ makes the differential injective at $q_0$, so the fiber at $q_0$ is a reduced point. More explicitly, its Artinian local ring has zero cotangent space and hence zero maximal ideal by Nakayama’s Lemma. The generic rank of a finite module is at most the dimension of any fiber, again by Nakayama’s Lemma. The generic degree is therefore one. The image is an integral $k$-fold in $\mathbb P^{k+1}$, hence a hypersurface, and its degree equals $a$ by pulling back $k$ general hyperplanes. The additional join condition ensures $\pi(x_*)\notin\pi(X)$.
+The resulting projection defines a morphism $\pi:X\longrightarrow \mathbb P^{k+1}$. It is finite. Indeed, a fiber lies in a projective linear space in which $\Lambda$ is a hyperplane; a positive-dimensional projective fiber would meet that hyperplane, contradicting $\Lambda\cap X=\varnothing$. Avoidance of the joins makes the fibers over the specified $p_i$, and over $q_0$, singletons. Avoidance of $T_{q_0}X$ makes the differential injective at $q_0$, so the fiber at $q_0$ is a reduced point. More explicitly, its Artinian local ring has zero cotangent space and hence zero maximal ideal by Nakayama’s Lemma. The generic rank of a finite module is at most the dimension of any fiber, again by Nakayama’s Lemma. The generic degree is therefore one. The image is an integral $k$-fold in $\mathbb P^{k+1}$, hence a hypersurface, and its degree equals $a$ by pulling back $k$ general hyperplanes. The additional join condition ensures $\pi(x_*)\notin\pi(X)$.
 
 It remains to verify the local multiplicity assertion without a smoothness assumption at $p_i$. Write $$A=\mathcal O_{\pi(X),\pi(p_i)},\qquad
  B=\mathcal O_{X,p_i},$$ with maximal ideals $\mathfrak m$ and $\mathfrak n$. Because the fiber is a singleton, $B$ is a finite local $A$-algebra; because the projection is birational, it has rank one and $A\subset B$. The quotient $B/A$ is annihilated by a nonzero element of $A$ and therefore has dimension at most $k-1$. The Artin–Rees property gives a fixed $c$ such that $$\mathfrak m^jA\subseteq\mathfrak m^jB\cap A
                   \subseteq\mathfrak m^{j-c}A\qquad(j\ge c).$$ Using the exact sequence $$0\longrightarrow A/(\mathfrak m^jB\cap A)
  \longrightarrow B/\mathfrak m^jB
  \longrightarrow (B/A)/\mathfrak m^j(B/A)\longrightarrow0$$ shows that $A/\mathfrak m^jA$ and $B/\mathfrak m^jB$ have the same leading coefficient of degree $k$ in their lengths. Since $\mathfrak mB\subseteq\mathfrak n$, $$\dim_{\mathbb C} B/\mathfrak m^jB\ge
-       \dim_{\mathbb C}B/\mathfrak n^j.$$ Comparison of the leading coefficients proves (poly:projection-multiplicity). ◻
+       \dim_{\mathbb C}B/\mathfrak n^j.$$ Comparison of the leading coefficients proves (3.16). ◻
 
 **Corollary 3.13** (A bounded-degree test for high multiplicity). *Let $X\subsetneq\mathbb C^n$ be irreducible of degree $a$, and let $S\subset X$ be finite with $\mathop{\mathrm{mult}}_pX>a/2$ for every $p\in S$. For any specified $x_*\notin X$, there is a polynomial of degree at most $2(n+1)$ which vanishes on $S$ and is nonzero at $x_*$. In particular the specified high-multiplicity centers lie in a proper hypersurface of degree bounded in terms of the ambient dimension alone.*
 
@@ -462,11 +461,10 @@ It remains to verify the local multiplicity assertion without a smoothness assum
 
 *Proof.* Choose an affine hyperplane through $p+T_pX$ which does not contain $z$. Its linear equation $\ell$ restricts to an element of $\mathfrak m_{X,p}^2$, because its value and differential on $X$ both vanish at $p$. On the curve it therefore belongs to $\mathfrak m_{C,p}^2$, and it is not identically zero.
 
-The one-dimensional reduced local ring of the curve is Cohen–Macaulay. Thus, writing $R=\mathcal O_{C,p}$, the local intersection number with the hyperplane is $\operatorname{length}(R/(\ell))$, and $\operatorname{length}(R/(\ell^j))=
-j\operatorname{length}(R/(\ell))$. Since $(\ell^j)\subseteq\mathfrak m_{C,p}^{2j}$, comparison with the Hilbert–Samuel leading term gives $$\operatorname{length}(R/(\ell))\ge2\mathop{\mathrm{mult}}_pC.$$ Bézout bounds this local intersection number by $\deg C$. The final assertion follows from (poly:point-projection-formula). ◻
+The one-dimensional reduced local ring of the curve is Cohen–Macaulay. Thus, writing $R=\mathcal O_{C,p}$, the local intersection number with the hyperplane is $\operatorname{length}(R/(\ell))$, and $\operatorname{length}(R/(\ell^j))= j\operatorname{length}(R/(\ell))$. Since $(\ell^j)\subseteq\mathfrak m_{C,p}^{2j}$, comparison with the Hilbert–Samuel leading term gives $$\operatorname{length}(R/(\ell))\ge2\mathop{\mathrm{mult}}_pC.$$ Bézout bounds this local intersection number by $\deg C$. The final assertion follows from (3.15). ◻
 
 **Lemma 3.15** (The plane-curve polar bound). *Let $C\subset\mathbb P^2_{\mathbb C}$ be a reduced plane curve of degree $a$. If $m_q=\mathop{\mathrm{mult}}_qC$, then $$\begin{equation}
-\label{poly:polar-sum}
+\tag{3.17}
  \sum_{q:\,m_q\ge2}m_q(m_q-1)\le a(a-1),
  \qquad
  \sum_{q:\,m_q\ge2}m_q^2\le2a(a-1).
@@ -480,7 +478,7 @@ In an affine chart at $q$, write $f$ for the local equation of the curve. The th
 
 ## Secants and terminal curves
 
-We work in the contradiction regime (red:regime). In particular, $N=B^d$, $A=B^2$, and $M=o(A)$. We use the flat bounds of Lemma 2.1: for some fixed $c_0>0$ every proper complex affine flat contains at most $NB^{-c_0}$ sample points, a plane contains at most $B^{2+o(1)}$ sample points, and a line contains at most $2M$ sample points. The complex-flat assertion follows by taking the real affine span of its real points. Constants throughout this section depend only on $d$. For an affine point $p$, write $$\pi_p(y)=[y-p]\in\mathbb P^{d-1},\qquad y\ne p.$$ All varieties in the geometric arguments are reduced complex varieties; their degrees are degrees of projective closures.
+We work in the contradiction regime (2.1). In particular, $N=B^d$, $A=B^2$, and $M=o(A)$. We use the flat bounds of Lemma 2.1: for some fixed $c_0>0$ every proper complex affine flat contains at most $NB^{-c_0}$ sample points, a plane contains at most $B^{2+o(1)}$ sample points, and a line contains at most $2M$ sample points. The complex-flat assertion follows by taking the real affine span of its real points. Constants throughout this section depend only on $d$. For an affine point $p$, write $$\pi_p(y)=[y-p]\in\mathbb P^{d-1},\qquad y\ne p.$$ All varieties in the geometric arguments are reduced complex varieties; their degrees are degrees of projective closures.
 
 ### The secant tangent calculation
 
@@ -490,7 +488,7 @@ The generic conclusion is a form of generalized trisecant geometry; compare (Kam
 
 *There is also the following local assertion. Suppose $p\in X$ and $q\in Y$ are smooth, and the map $$\psi(x,y)=(x,\pi_x(y))$$ has differential of rank $k+l$ at $(p,q)$. Suppose a smooth local variety $W$ of dimension $k+l$ at $(p,\pi_pq)$ contains both product images $\psi(X\times Y)$ and $\psi(X\times Y')$ locally at the relevant pairs. If $z\in Y'\setminus\{p,q\}$ has $\pi_pz=\pi_pq$, then $$\overline{T_pX}\subseteq\overline{T_qY}
  \quad\hbox{in }\mathbb C^d/\mathbb C(q-p).
- \tag{\ref*{geo:secants}.1}\label{geo:tangent-inclusion}$$ Here bars denote the images of vector tangent spaces. In particular, if these images have dimensions $k=l$ and are unequal, no such $z$ exists. The same source component $X$ must occur at both roots.*
+ \tag{4.1.1}$$ Here bars denote the images of vector tangent spaces. In particular, if these images have dimensions $k=l$ and are unequal, no such $z$ exists. The same source component $X$ must occur at both roots.*
 
 *Proof.* Choose a direction chart by requiring one coordinate of the direction to equal one. Write $y-x=a u$ and $z-x=b u$ in that chart; the two nonzero longitudinal parameters $a,b$ are distinct. For a source velocity $\xi\in T_xX$, variation of $x$ with the other endpoint fixed has direction derivative $-\bar\xi/a$ at $y$, and $-\bar\xi/b$ at $z$. The first coordinates of these two image tangent vectors are both $\xi$. Their difference is therefore vertical and has direction component $(b^{-1}-a^{-1})\bar\xi$.
 
@@ -532,7 +530,7 @@ Fix, for each $p\in P$, a union $C_p$ of irreducible curves in $\mathbb P^{d-1}$
 **Proposition 4.3** (Terminal-curve deletion). *Assign sample points to finitely many irreducible physical curves $Y_i$, each containing its assigned points. Pool repetitions of a curve, and require every line member to be real. Then the number of ordered pairs $(p,q)$, $p\ne q$, for which $q$ is assigned to $Y_i$ and $$\overline{\pi_pY_i}\subseteq C_p$$ is $o(N^2)$. The estimate is uniform in the assignment and the curves.*
 
 *Proof.* Write $n_i$ for the assigned mass of $Y_i$ and $d_i=\deg Y_i$. Lemma 3.1 gives $$\sum_i n_i\le N,\qquad n_i\le C M d_i.
- \label{geo:curve-mass}\tag{\ref*{geo:terminal}.1}$$ We treat lines first, then nonlinear curves.
+ \tag{4.3.1}$$ We treat lines first, then nonlinear curves.
 
 ##### Assigned lines.
 
@@ -540,13 +538,13 @@ Centers on their assigned target line contribute at most $2M\sum_i n_i=o(N^2)$. 
  \qquad h_H=|P\cap H|.$$ Planes with $S_H<A$ account for at most $NAE=\delta N^2$ pairs, because a center has at most $E$ line components in $C_p$. For the other planes it suffices to prove $\sum_{S_H\ge A}h_HS_H=o(N^2)$. They form a finite family determined by pairs of distinct assigned lines: one line has weight at most $2M=o(A)$.
 
 If an assigned line in $H$ has weight $b$, then $$\begin{equation}
-\label{geo:line-plane-product}
+\tag{4.1}
  b h_H\le C M^2.
-\end{equation}$$ To prove this, choose plane coordinates with that line as the first axis and map a point $(x_1,x_2)$ to $(x_1,x_1^2+x_2^2)$. Every fiber has size at most two. A distance from an axis point $(a,0)$ becomes a line equation $v-2au=r^2-a^2$ in these coordinates. There are at most $bM$ distinct such lines, with different slopes for different axis points, and the incidence count is at least $bh_H/2$. The point-line estimate gives $$bh_H\le C\bigl((bh_HM)^{2/3}+h_H+bM\bigr).$$ For $b$ above a sufficiently large fixed constant, absorb the $h_H$ term. If $h_H=O(M)$, use $b\le2M$; otherwise absorb $bM$ as well and cube the remaining inequality. Both cases give (geo:line-plane-product). For bounded $b$, the case $h_H\le1$ is immediate. Otherwise choose two distinct sample points in $H$. Every point of $P\cap H$ is an intersection of two circles whose radii belong to the at most $M$ distance values; two distinct-center circles have at most two intersections. Thus $h_H\le2M^2$, which proves the bounded-$b$ case too.
+\end{equation}$$ To prove this, choose plane coordinates with that line as the first axis and map a point $(x_1,x_2)$ to $(x_1,x_1^2+x_2^2)$. Every fiber has size at most two. A distance from an axis point $(a,0)$ becomes a line equation $v-2au=r^2-a^2$ in these coordinates. There are at most $bM$ distinct such lines, with different slopes for different axis points, and the incidence count is at least $bh_H/2$. The point-line estimate gives $$bh_H\le C\bigl((bh_HM)^{2/3}+h_H+bM\bigr).$$ For $b$ above a sufficiently large fixed constant, absorb the $h_H$ term. If $h_H=O(M)$, use $b\le2M$; otherwise absorb $bM$ as well and cube the remaining inequality. Both cases give (4.1). For bounded $b$, the case $h_H\le1$ is immediate. Otherwise choose two distinct sample points in $H$. Every point of $P\cap H$ is an intersection of two circles whose radii belong to the at most $M$ distance values; two distinct-center circles have at most two intersections. Thus $h_H\le2M^2$, which proves the bounded-$b$ case too.
 
-Group the planes by dyadic values $h\le h_H<2h$ and $s\le S_H<2s$, where $h,s\gtrsim A$. For a dyadic line weight $b$, let $N_b$ be the total assigned mass of all lines with weight in $[b,2b)$. Equation (geo:line-plane-product) permits only $b\le L=CM^2/h$. Let $F$ be the number of planes in this $(h,s)$ group. A generic hyperplane slice turns the finite line arrangement into points and the relevant planes into lines, preserving exactly the needed incidences. A further generic planar projection permits use of the real point-line estimate. Applying it to each weight class and multiplying by its weight yields $$Fs\le C F^{2/3}T(L)+CN+CLF,
+Group the planes by dyadic values $h\le h_H<2h$ and $s\le S_H<2s$, where $h,s\gtrsim A$. For a dyadic line weight $b$, let $N_b$ be the total assigned mass of all lines with weight in $[b,2b)$. Equation (4.1) permits only $b\le L=CM^2/h$. Let $F$ be the number of planes in this $(h,s)$ group. A generic hyperplane slice turns the finite line arrangement into points and the relevant planes into lines, preserving exactly the needed incidences. A further generic planar projection permits use of the real point-line estimate. Applying it to each weight class and multiplying by its weight yields $$Fs\le C F^{2/3}T(L)+CN+CLF,
  \qquad T(L)=\sum_{b\le L}b^{1/3}N_b^{2/3}.$$ Since $L/s\le CM^2/A^2=o(1)$, the last term is absorbed, giving $$\begin{equation}
-\label{geo:weighted-plane-count}
+\tag{4.2}
  F\le C\left(N/s+T(L)^3/s^3\right).
 \end{equation}$$ The contribution of $N/s$ to $\sum hsF$ is at most $CN B^{2+o(1)}(1+\log N)^2=o(N^2)$, using the plane cap and $d\ge3$. For the other contribution, Hölder’s inequality gives $$T(L)^3\le
  L\left(\sum_{b\le L}(b/L)^{1/2}N_b^2\right)
@@ -557,7 +555,7 @@ Group the planes by dyadic values $h\le h_H<2h$ and $s\le S_H<2s$, where $h,s\gt
 
 ##### Nonlinear curves when $d\ge4$.
 
-If $\overline{\pi_pY_i}$ spans at most a projective plane, the affine span of $Y_i$ has dimension at most three. A curve with three-dimensional span requires the center to lie in that fixed three-flat; the flat cap and (geo:curve-mass) in the form $\sum n_i\le N$ show that these pairs cost $o(N^2)$. For a planar curve, centers in its own plane also cost $o(N^2)$. It remains to consider planar curves viewed from outside their planes. Projection is then a projective isomorphism of the plane onto its image and preserves the curve’s degree.
+If $\overline{\pi_pY_i}$ spans at most a projective plane, the affine span of $Y_i$ has dimension at most three. A curve with three-dimensional span requires the center to lie in that fixed three-flat; the flat cap and (4.3.1) in the form $\sum n_i\le N$ show that these pairs cost $o(N^2)$. For a planar curve, centers in its own plane also cost $o(N^2)$. It remains to consider planar curves viewed from outside their planes. Projection is then a projective isomorphism of the plane onto its image and preserves the curve’s degree.
 
 At a center $p$, group curves by their common nonlinear projection $\gamma\subset C_p$, writing $e_\gamma=\deg\gamma$ and $W_{p,\gamma}=\sum_{i\text{ in the group}}n_i$. Each individual mass is at most $CMe_\gamma$. For two different curves in this group, their planes are distinct and lie, with $p$, in a projective three-space. Their intersection is a projective line $L$.
 
@@ -573,18 +571,17 @@ Discard groups with $W_{p,\gamma}\le KMe_\gamma$, for a sufficiently large fixed
 The degree and multiplicity analysis of curves sharing a radial projection here is closely related to the curve–cone estimates of Tidor, Yu, and Zakharov (Tidor et al. 2026, secs. 10.2–10.3).
 
 We first delete centers where $\operatorname{mult}_pY_i>d_i/2$. There are only boundedly many such centers for each curve. To see this, take a generic birational plane projection, preserving or increasing multiplicities at this finite list of points, as in Lemma 3.12. For a reduced plane curve of degree $D$, intersection with a general polar derivative gives $$\begin{equation}
-\label{geo:polar-bound}
+\tag{4.3}
  \sum_{z:\,\operatorname{mult}_z\ge2}
        (\operatorname{mult}_z)^2\le 2D(D-1).
 \end{equation}$$ Indeed the intersection multiplicity at a point of multiplicity $m$ is at least $m(m-1)$, and $m^2\le2m(m-1)$ for $m\ge2$. A nonlinear irreducible degree-two curve has no point of multiplicity greater than one; for all other degrees this bounds the number with multiplicity greater than half the degree by an absolute constant. The deletion therefore costs $O(\sum n_i)=O(N)$ pairs. Projection to a line requires the curve and center to lie in one fixed plane; these pairs cost $o(N^2)$ by the plane cap.
 
-Group the remaining curves at $p$ by their common nonlinear projection $\gamma$. Let $t_i$ be the generic degree of $\pi_p:Y_i\dashrightarrow
-\gamma$ in this group. The point-projection formula, obtained from the linear-system degree formula with its base-point contribution (Fulton 1998, Proposition 4.4), and the multiplicity deletion give $$\begin{equation}
-\label{geo:map-degree-comparison}
+Group the remaining curves at $p$ by their common nonlinear projection $\gamma$. Let $t_i$ be the generic degree of $\pi_p:Y_i\dashrightarrow \gamma$ in this group. The point-projection formula, obtained from the linear-system degree formula with its base-point contribution (Fulton 1998, Proposition 4.4), and the multiplicity deletion give $$\begin{equation}
+\tag{4.4}
  d_i-\operatorname{mult}_pY_i=t_i e_\gamma,
  \qquad d_i\le2t_i e_\gamma.
 \end{equation}$$ An ordered triple $(i,j,k)$ in a group is called valid if each index occurs at most its corresponding map degree. We claim that for each fixed ordered triple of curve indices $$\begin{equation}
-\label{geo:triple-center-bound}
+\tag{4.5}
  \sum_{p:\,(i,j,k)\text{ valid at }p} e_\gamma^{-2}\le C.
 \end{equation}$$
 
@@ -595,14 +592,13 @@ We first claim that, viewed from $v$, each of $Y_j,Y_k$ projects birationally to
 Failure of birationality would give a further point on the same target curve over a general joining direction. Equality of the two plane images for $Y_j\ne Y_k$ would give a further point on the other target curve. In either case Lemma 4.1 puts $Y_i$ and the first target curve in a common plane. At any center $p$ contributing to the sum, the curves belong to one original nonlinear group. If the two curves are distinct, this is impossible: projection from a point in their plane has a line image, whereas projection from outside that plane is injective. If the first target is $Y_i$ itself, the conclusion makes $Y_i$ planar. The repeated first index then makes validity at that center require $t_i\ge2$, whereas a planar curve in a nonlinear group is projected from outside its plane and has map degree one. This proves the claim.
 
 For a valid center $p$, the line $pv$ consequently gives at least $$r_j=t_j-\mathbf1_{i=j},\qquad
- r_k=t_k-\mathbf1_{i=k}$$ distinct preimages other than $v$ on the respective curves. They can be chosen generic on those curves by the original choice of $v$. Birationality identifies the normalizations of the projective closures of the curve and its plane image. These distinct generic smooth preimages therefore give distinct normalization points, hence distinct branches at the corresponding point of the plane image. Validity and (geo:map-degree-comparison) imply $$r_j\ge t_j/2\ge d_j/(4e_\gamma),\qquad
- r_k\ge t_k/2\ge d_k/(4e_\gamma).$$ If the two plane images are distinct, Bézout bounds the sum of their local multiplicity products at these distinct projected centers by $d_jd_k$. If they agree, then $j=k$, and the residual multiplicity is at least two: it is $t_j\ge2$ when $i\ne j$, and $t_i-1\ge2$ when all indices agree. Equation (geo:polar-bound) bounds the sum of squared residual multiplicities by $2d_j^2$. Both cases give (geo:triple-center-bound).
+ r_k=t_k-\mathbf1_{i=k}$$ distinct preimages other than $v$ on the respective curves. They can be chosen generic on those curves by the original choice of $v$. Birationality identifies the normalizations of the projective closures of the curve and its plane image. These distinct generic smooth preimages therefore give distinct normalization points, hence distinct branches at the corresponding point of the plane image. Validity and (4.4) imply $$r_j\ge t_j/2\ge d_j/(4e_\gamma),\qquad
+ r_k\ge t_k/2\ge d_k/(4e_\gamma).$$ If the two plane images are distinct, Bézout bounds the sum of their local multiplicity products at these distinct projected centers by $d_jd_k$. If they agree, then $j=k$, and the residual multiplicity is at least two: it is $t_j\ge2$ when $i\ne j$, and $t_i-1\ge2$ when all indices agree. Equation (4.3) bounds the sum of squared residual multiplicities by $2d_j^2$. Both cases give (4.5).
 
-Discard once more groups of mass $W_{p,\gamma}\le KMe_\gamma$. Their contribution is $O(NME)=o(N^2)$. In a larger group, an invalid ordered triple must repeat an index whose map degree is at most two. Such an index has mass at most $4CMe_\gamma$ by (geo:curve-mass) and (geo:map-degree-comparison). The weight of invalid triples is at most $$3W_{p,\gamma}\sum_{t_i\le2}n_i^2
+Discard once more groups of mass $W_{p,\gamma}\le KMe_\gamma$. Their contribution is $O(NME)=o(N^2)$. In a larger group, an invalid ordered triple must repeat an index whose map degree is at most two. Such an index has mass at most $4CMe_\gamma$ by (4.3.1) and (4.4). The weight of invalid triples is at most $$3W_{p,\gamma}\sum_{t_i\le2}n_i^2
  \le 12CMe_\gamma W_{p,\gamma}^2.$$ Choose $K$ so this is at most half of $W_{p,\gamma}^3$. If the remaining pair mass were at least $\varepsilon N^2$, Hölder in each row and then in the centers would imply $$\sum_{p,\gamma}\frac{1}{e_\gamma^2}
        \sum_{(i,j,k)\text{ valid}}n_i n_j n_k
- \ge \frac{\varepsilon^3N^4}{2E^2}.$$ Indeed $\sum_\gamma W_{p,\gamma}^3/e_\gamma^2\ge
-(\sum_\gamma W_{p,\gamma})^3/E^2$, and the sum of the row cubes is at least their total cubed divided by $N^2$. On the other hand, (geo:triple-center-bound) bounds this expression by $C\sum_{i,j,k}n_i n_j n_k\le CN^3$. For $d=3$ we have $E=\delta N^{1/3}$, so $N^4/E^2$ exceeds $N^3$ by an unbounded factor. This contradiction proves the proposition. ◻
+ \ge \frac{\varepsilon^3N^4}{2E^2}.$$ Indeed $\sum_\gamma W_{p,\gamma}^3/e_\gamma^2\ge (\sum_\gamma W_{p,\gamma})^3/E^2$, and the sum of the row cubes is at least their total cubed divided by $N^2$. On the other hand, (4.5) bounds this expression by $C\sum_{i,j,k}n_i n_j n_k\le CN^3$. For $d=3$ we have $E=\delta N^{1/3}$, so $N^4/E^2$ exceeds $N^3$ by an unbounded factor. This contradiction proves the proposition. ◻
 
 ## Polynomial scale profiles
 
@@ -611,7 +607,7 @@ We work along the contradiction sequence, with $$N=|P|,\qquad B=N^{1/d},\qquad A
 ### Conventions and the partition
 
 For a width $s\to\infty$, $s\le\log B$, put $$\begin{equation}
-\label{prof:testing-degree}
+\tag{5.1}
  T_s(b)=B\exp(bs).
 \end{equation}$$ Degrees are rounded to integers. Throughout, an estimate $U\ge V\exp(-o(s))$ means $$\liminf\frac{\log(U/V)}s\ge0.$$ Equivalently, every fixed $\varepsilon>0$ can replace $o(s)$ by $\varepsilon s$, for all sufficiently large indices. The analogous convention applies to upper bounds. We only use such errors in the presence of a subsequently specified strict positive margin.
 
@@ -631,16 +627,16 @@ At testing degree $D$, the normalized time is $\log(D/B)/s$. We record each cut 
 *The assertions about error terms and negligible proportions hold along every sequence of pieces. In particular, a violating choice of one piece at each index is not permitted.*
 
 *Proof.* Choose $s_*\to\infty$ sufficiently slowly that $$s_*\le\tfrac14\log B,\qquad \delta\exp(6s_*)\longrightarrow0.$$ Start with width $\log B$, halve the width at each step, and stop on entry to the first width in $[s_*,2s_*]$. On entry to a step of width $s$, the unresolved set is isolated by equations of degree $$\begin{equation}
-\label{prof:entry-upper}
+\tag{5.2}
  B\exp((1+o(1))s).
 \end{equation}$$ This is true initially by Lemma 3.1, since $M=o(B^2)$. Except at the initial step, the unresolved set also has no nonzero polynomial of degree at most $B\exp(-s)$ capturing as many as $N\exp(-\sqrt{2s})$ points.
 
 At a step which is not the final one, first remove greedily batches of at least $N\exp(-\sqrt{s})$ points on zero sets of nonzero polynomials of degree at most $B\exp(-s/2)$. These batches are sent to the regularization below. From the remaining points remove greedily batches of at least $N\exp(-\sqrt{s})$ points which occur as isolated zero-dimensional components of some system of degree at most $B\exp(s/2)$. Only the union of these latter batches proceeds to the next window. The final remainder is sent to regularization if its size is at least $N\exp(-s^{1/3})$, and otherwise is discarded.
 
-There are at most $\exp(\sqrt{s})$ batches of either kind. Isolated point interpolation in Lemma 3.3 gives equations of degree $O(B\exp(s/2))$ for precisely each batch of the second kind. Indeed, from normalized separators $q_i$ for its points $p_i$ use $1-\sum_iq_i$ and all coordinates of $(x-p_i)q_i$. Their common zero set is precisely the batch. A union of finitely many such zero sets is cut out by products, taking one equation from each system; the degrees add. Thus the union proceeding to the next step has isolation degree at most $$B\exp(s/2+O(\sqrt{s})).$$ This is (prof:entry-upper) at width $s/2$. The first greedy operation supplies exactly the asserted lower boundary there. Consequently the final core has isolation degree at most $B\exp(3s_*)$ for large indices, and hence $EL^2=o(N)$.
+There are at most $\exp(\sqrt{s})$ batches of either kind. Isolated point interpolation in Lemma 3.3 gives equations of degree $O(B\exp(s/2))$ for precisely each batch of the second kind. Indeed, from normalized separators $q_i$ for its points $p_i$ use $1-\sum_iq_i$ and all coordinates of $(x-p_i)q_i$. Their common zero set is precisely the batch. A union of finitely many such zero sets is cut out by products, taking one equation from each system; the degrees add. Thus the union proceeding to the next step has isolation degree at most $$B\exp(s/2+O(\sqrt{s})).$$ This is (5.2) at width $s/2$. The first greedy operation supplies exactly the asserted lower boundary there. Consequently the final core has isolation degree at most $B\exp(3s_*)$ for large indices, and hence $EL^2=o(N)$.
 
 The shrinking windows have produced the core and the batches that will become non-core pieces. It remains to give each retained batch one path of proper cuts and to ensure that a proper polynomial test between cut times captures a vanishing fraction of the piece. We now enforce this condition while discarding only $o(N)$ points. For each width $s$ use a grid in normalized time from $-1$ to $1+o(1)$, containing the upper isolation degree, with mesh tending to zero and $G=O(1+\sqrt{\log s})$ grid points. Index the potential steps by increasing grid time, and, within one grid time, by decreasing positive dimension. There are $K=O_d(G)$ indices. Choose thresholds $\lambda_i=\exp(-a_i)$ with $$\begin{equation}
-\label{prof:lambda-hierarchy}
+\tag{5.3}
  a_K=s^{1/10},\qquad a_i=10a_{i+1}.
 \end{equation}$$ The same indexed thresholds are used in all trees of this width.
 
@@ -648,16 +644,16 @@ In a node of dimension $k$ and original size $m$, repeatedly extract at least $\
 
 Every path visits an index at most once. Extraction decreases dimension; taking a residual increases time. Sibling extractions are alternative branches, not repeated steps on one path. Therefore $$\sum_i a_i=s^{1/10+o(1)}=o(s^{1/3}),\qquad
  \sum_{r>i}a_r<\frac{a_i}{9}.$$ If a residual survives at step $i$, every later terminal piece inside it has size at least $m\exp(-a_i/2-\sum_{r>i}a_r)$. A proper cut available when extraction stopped captured fewer than $m\exp(-a_i)$ residual points. Its captured fraction in that terminal piece is consequently at most $$\begin{equation}
-\label{prof:fragmentation-bound}
+\tag{5.4}
  \exp\left(-\frac{a_i}{2}+\sum_{r>i}a_r\right)
  \le \exp(-7a_i/18)\longrightarrow0.
 \end{equation}$$ This proves the required no-capture assertion on any limiting open plateau. To allow a fixed multiplicative factor in the testing degree, choose a slightly later grid time which is still inside that plateau.
 
 At a fixed index the nodes in all these trees are disjoint. Their discarded residual mass is at most $\exp(-a_i/2)$ times their total mass. Thus the regularization discards at most $$\begin{equation}
-\label{prof:window-discard}
+\tag{5.5}
  C_d N(1+\sqrt{\log s})\exp(-s^{1/10}/2)
 \end{equation}$$ points at width $s$. This estimate is summable over windows even if $s_*$ grows arbitrarily slowly. To see this, reverse their order and bound by widths $2^m u$, $m\ge0$, with $u\ge s_*$. Put $t=u^{1/10}$ and $c=(\log2)/10$. The inequalities $$2^{m/10}\ge1+cm,\qquad
- \sqrt{\log(2^m u)}\le\sqrt{\log u}+\sqrt{m\log2}$$ bound the sum of the fractions in (prof:window-discard) by $$C_d e^{-t/2}\sum_{m\ge0}
+ \sqrt{\log(2^m u)}\le\sqrt{\log u}+\sqrt{m\log2}$$ bound the sum of the fractions in (5.5) by $$C_d e^{-t/2}\sum_{m\ge0}
  (1+\sqrt{\log u}+\sqrt{m\log2})e^{-ctm/2}
  =O_d((1+\sqrt{\log u})e^{-u^{1/10}/2})=o(1).$$ The separately discarded small remainders have fractions $\exp(-s^{1/3})$ and are summable by the same argument. No factor equal to the number of windows is used.
 
@@ -670,35 +666,35 @@ The discarded mass is therefore negligible across all windows. We check the rema
 The partition supplies paths and intervals on which proper tests capture few points. We now prove that their degree scales are balanced and control both component masses and restriction ranks. In particular, small exceptional component degree will imply small sample mass.
 
 For a limiting profile define $$\begin{equation}
-\label{prof:profile-functions}
+\tag{5.6}
  D_i=B e^{b_i s},\qquad e_j=\prod_{i\le j}D_i,\qquad e_0=1,
  \qquad \sigma(b)=\prod_{i=1}^d\min(T_s(b),D_i).
 \end{equation}$$ On a plateau after $j$ cuts, $\sigma(b)=e_jT_s(b)^{d-j}$. Figure 2 illustrates this relation.
 
 **Proposition 5.2** (Budgets and balanced profiles). *For every non-core profile, $$\begin{equation}
-\label{prof:balance}
+\tag{5.7}
  \sum_{i=1}^d b_i=0,\qquad b_1<0<b_d,\qquad b_1+b_2<0.
 \end{equation}$$ On a plateau after $j$ cuts, its carrier family has degree at most $e_j\exp(o(s))$. Every subcollection of total degree $a$ meets the piece in at most $$\begin{equation}
-\label{prof:mass-budget}
+\tag{5.8}
  a\left(\prod_{i>j}D_i\right)\exp(o(s))
 \end{equation}$$ points. This counts all points touching those components, whether or not they have been assigned to them. Finally, for every fixed $\alpha>0$, every subset $S$ of at least $\alpha n$ piece points has $$\begin{equation}
-\label{prof:rank-budget}
+\tag{5.9}
  H_S(T_s(b))\ge\sigma(b)\exp(-o(s))
 \end{equation}$$ at each interior testing time, and with the usual limiting interpretation at a cut time.*
 
-*Proof.* Apply Bézout successively, retaining the proper intersections through counted points. It gives the carrier degree bound and, after applying the later cuts to a specified carrier subcollection, (prof:mass-budget). Applied to the entire path it gives $n\le(\prod_iD_i)\exp(o(s))$. Since $n=N\exp(-o(s))$ and $N=B^d$, this proves $\sum_i b_i\ge0$.
+*Proof.* Apply Bézout successively, retaining the proper intersections through counted points. It gives the carrier degree bound and, after applying the later cuts to a specified carrier subcollection, (5.8). Applied to the entire path it gives $n\le(\prod_iD_i)\exp(o(s))$. Since $n=N\exp(-o(s))$ and $N=B^d$, this proves $\sum_i b_i\ge0$.
 
-We prove (prof:rank-budget) by propagation through the finitely many plateaux; the assertion is always for every fixed positive density subset, including subsets chosen during the proof. Before the first cut, no nonzero polynomial of the testing degree can vanish on $S$. Its envelope is therefore the ambient space, whose rank is comparable to $T_s(b)^d$.
+We prove (5.9) by propagation through the finitely many plateaux; the assertion is always for every fixed positive density subset, including subsets chosen during the proof. Before the first cut, no nonzero polynomial of the testing degree can vanish on $S$. Its envelope is therefore the ambient space, whose rank is comparable to $T_s(b)^d$.
 
 On a plateau of dimension $l$, let $V$ be the testing-degree envelope of $S$. At all but $o(n)$ points of $S$, at least one local carrier is contained in $V$. Indeed, if no carrier through a point is contained, a generic linear combination of the envelope equations is proper on all those carriers and vanishes at the point. There are finitely many components and sample points, so the combination can be chosen simultaneously; no-capture then applies.
 
 For this envelope, choose at each such point one contained local carrier, and choose one irreducible component of $V$ containing each distinct carrier so chosen. Let the points inherit the component chosen for their carrier. Group all irreducible components of $V$ by dimension, counting the points by these choices; components receiving no points remain in the degree of their group. Some dimension $h\ge l$ group, of total degree $a$, covers a fixed positive fraction of $S$. Writing $S'$ for that fraction and $T=T_s(b)$, the component Hilbert bounds give $$H_S(T)=H_V(T)\gtrsim aT^h,\qquad
  H_{S'}(T')\lesssim a(T'+1)^h\quad(T'<T).$$ The lower estimate uses that the group consists of components of the envelope at its defining degree $T$; the upper estimate uses only that $S'$ lies on that group. Eliminating $a$ gives $$H_S(T)\gtrsim H_{S'}(T')
-       \left(\frac{T}{T'+1}\right)^h.$$ Take $T'=T_s(b')$ at a time $b'$ just before the cut starting the current plateau, and apply (prof:rank-budget) there to $S'$. The displayed inequality increases that lower bound by a factor at least $(T/T_s(b'))^h$, to exponential accuracy. Since $h\ge l$, this is at least the growth required by $\sigma$ on the plateau. Take $b'$ arbitrarily close to the boundary; the logarithmic endpoint error can be made smaller than any prescribed fixed multiple of $s$. This proves the next plateau, including after a group of simultaneous limiting cuts.
+       \left(\frac{T}{T'+1}\right)^h.$$ Take $T'=T_s(b')$ at a time $b'$ just before the cut starting the current plateau, and apply (5.9) there to $S'$. The displayed inequality increases that lower bound by a factor at least $(T/T_s(b'))^h$, to exponential accuracy. Since $h\ge l$, this is at least the growth required by $\sigma$ on the plateau. Take $b'$ arbitrarily close to the boundary; the logarithmic endpoint error can be made smaller than any prescribed fixed multiple of $s$. This proves the next plateau, including after a group of simultaneous limiting cuts.
 
 There is one possible boundary convention: if the first cut has testing degree only $\exp(o(s))$, there may be no preceding testing time of degree at least one. Rank one at that boundary is already the required bound to exponential accuracy, even if several first cuts have that same time. Use it as the start of the induction.
 
-The same envelope argument advances across the final cut, with required growth exponent zero. Since rank is at most $N$, it gives $\prod_iD_i\le N\exp(o(s))$, proving the reverse inequality $\sum_i b_i\le0$. The profile is nonzero by the imbalance in Proposition 5.1. Its monotonicity and zero sum give $b_1<0<b_d$. If $b_1+b_2\ge0$, then $b_2>0$ and the $d-2$ later entries are at least $b_2$, contradicting the zero sum because $d>2$. This proves (prof:balance). ◻
+The same envelope argument advances across the final cut, with required growth exponent zero. Since rank is at most $N$, it gives $\prod_iD_i\le N\exp(o(s))$, proving the reverse inequality $\sum_i b_i\le0$. The profile is nonzero by the imbalance in Proposition 5.1. Its monotonicity and zero sum give $b_1<0<b_d$. If $b_1+b_2\ge0$, then $b_2>0$ and the $d-2$ later entries are at least $b_2$, contradicting the zero sum because $d>2$. This proves (5.7). ◻
 
 **Figure 2:** An illustrative limiting profile in dimension four, with fixed window width $s$ and cut times $(b_1,b_2,b_3,b_4)=(-0.8,-0.4,0.3,0.9)$. The degree scales are $D_i=T_s(b_i)$, where $T_s(b)=B e^{bs}$, and $e_j=\prod_{i\le j}D_i$. On the highlighted open plateau $(b_2,b_3)$, two cuts have occurred and $\sigma(b)=e_2T_s(b)^2$. The staircase shows carrier dimension; its vertical drops are schematic. General profiles may have coincident limiting cuts.
 
@@ -710,7 +706,7 @@ The same envelope argument advances across the final cut, with required growth e
 
 *Proof.* Every carrier used here is an irreducible component of its fixed path locus. Indeed, at every point of the piece on that carrier, the successive proper cuts give the current local dimension. A larger irreducible component containing the carrier would pass through that point and contradict this local dimension. The path locus may have larger components elsewhere; they remain in its equations.
 
-Let the plateau start at time $\beta<b$, and choose $b<b'<b''$ in the same plateau. The carrier components are therefore isolated components of their cut system, whose equations have degree at most $B\exp((\beta+o(1))s)$. Lemma 3.9, used at degree $T_s(b')$, pools proper component cuts of degree $O(T_s(b))$ into one polynomial. It is nonidentically zero except on components of total degree at most $$e_j\exp(-(b'-b)s+o(s)).$$ By (prof:mass-budget) and $\prod_iD_i=N$, all points of the piece touching those exceptional components have mass $o(n)$. At every remaining counted point the pooled polynomial is proper on every local carrier. No-capture at $b'$ proves the assertion.
+Let the plateau start at time $\beta<b$, and choose $b<b'<b''$ in the same plateau. The carrier components are therefore isolated components of their cut system, whose equations have degree at most $B\exp((\beta+o(1))s)$. Lemma 3.9, used at degree $T_s(b')$, pools proper component cuts of degree $O(T_s(b))$ into one polynomial. It is nonidentically zero except on components of total degree at most $$e_j\exp(-(b'-b)s+o(s)).$$ By (5.8) and $\prod_iD_i=N$, all points of the piece touching those exceptional components have mass $o(n)$. At every remaining counted point the pooled polynomial is proper on every local carrier. No-capture at $b'$ proves the assertion.
 
 Apply Lemma 3.8 at degree $T_s(b')$. Since the cut-system equations have degree at most $B\exp((\beta+o(1))s)$, the components on which the common equations fail to have generic full rank have total degree at most $$e_j\exp(-(b'-\beta)s+o(s)).$$ The mass budget removes all piece points touching those components at a cost of $o(n)$. On the other components a generic linear combination of maximal minors is nonidentically zero. Its zero set contains every rank failure, and its degree is $O(T_s(b'))$. The preceding individual-cut conclusion applies to this linear combination using the remaining interior margin before $b''$, and removes its zeros at another $o(n)$ points. At a surviving point the implicit function theorem gives a smooth locus of the correct dimension; any two carrier components through that point would have the same germ and hence would coincide. The equations vanish on the whole family, including components whose generic regularity failed.
 
@@ -747,7 +743,7 @@ For rank tests use their cleared pullback numerators. When a rank condition is e
 *The global terminal deletion means the following. Whenever a target point was assigned to its carrier curve after the $(d-1)$st cut, its projection from the center is not a curve contained in the center’s directional family.*
 
 *Proof.* Assign each point of every non-core piece to one of its carrier curves after the $(d-1)$st cut. Omit assignments to nonreal lines. Such a line contains at most one real point, so the omitted fraction in a piece is at most $$\frac{e_{d-1}\exp(o(s))}{n}
- =D_d^{-1}\exp(o(s))=o(1),$$ using (prof:balance). This is uniform over pieces. Every point is assigned at most once; pool repeated curves. Apply Proposition 4.3 once to this global assignment. It removes only $o(N^2)$ ordered incidences, and hence leaves the required almost-complete unoriented coverage. Assignments retain their original meaning if pieces are later pooled.
+ =D_d^{-1}\exp(o(s))=o(1),$$ using (5.7). This is uniform over pieces. Every point is assigned at most once; pool repeated curves. Apply Proposition 4.3 once to this global assignment. It removes only $o(N^2)$ ordered incidences, and hence leaves the required almost-complete unoriented coverage. Assignments retain their original meaning if pieces are later pooled.
 
 If the core has positive relative size, the cone over a directional family has degree $O(E)$ and dimension at most two. The core’s isolation equations, restricted to its components, and Bézout bound its intersections with the core by $O(EL^2)$ per center. This is $o(N)$, so neither orientation can cover a positive fraction of the core pairs. This resolves the first alternative. Otherwise discard the core.
 
@@ -768,13 +764,13 @@ We retain the contradiction hypotheses, including the lower-dimensional inductio
 Suppose these data exist. Apply the results of Section 5. The positive-mass core alternative is already contradictory. We must treat a common window and two widely separated windows. The selected covered incidences retain the global terminal deletion and the light-line restriction in Proposition 5.5. For the common-window rank estimate we will also use auxiliary graphs of arbitrary ordered pairs $(p,q)$ with $p\ne q$ on the same selected point sets. That estimate will be proved without a coverage or light-line hypothesis.
 
 We use affine charts of the label map $$\begin{equation}
-\label{sc:label-map}
+\tag{6.1}
  \psi(x,y)=(x,\pi_x(y)).
 \end{equation}$$ For each finite family under discussion, these charts may be chosen to contain all actual labels and to meet every component image. The map and its pullbacks have bounded degree on these charts; constant factors in testing degree fit inside a chosen open plateau. A *dense graph* means at least a fixed positive fraction of the ordered product of the two selected pieces. Assertions about dense graphs always include arbitrary further fixed positive-density restrictions and subsequences.
 
 ### Product images and rank in a common window
 
-Consider two pieces with width $s$ and the same limiting profile, or the outermost pool allowed by Proposition 5.5. Use $D_i,e_j,\sigma$ from (prof:profile-functions). For an ordered graph $\Gamma$ on these pieces, write $H(T)=H_{\psi(\Gamma)}(T)$ for the restriction rank of its labels.
+Consider two pieces with width $s$ and the same limiting profile, or the outermost pool allowed by Proposition 5.5. Use $D_i,e_j,\sigma$ from (5.6). For an ordered graph $\Gamma$ on these pieces, write $H(T)=H_{\psi(\Gamma)}(T)$ for the restriction rank of its labels.
 
 We first make the passage from carrier pairs to product images precise. The same construction will be used in the rank argument and, with one fixed choice of parameters, at the outermost endpoint. Its last estimate applies to every later choice of image subfamily.
 
@@ -783,10 +779,10 @@ We first make the passage from carrier pairs to product images precise. The same
 *Each remaining point is assigned to its unique smooth carrier in the union of the two physical families. Repeated carriers are pooled within each family, and every flat carrier with positive assigned mass is real. There are common physical equations for the whole original union whose Jacobian has full codimension rank at these points. A single polynomial $g_{\rm ph}$, a linear combination of maximal Jacobian minors, is nonzero at every retained point. The equations and this test have degrees $O(T_s(\tau))$. When the two factors are the same pool, the point deletion and the assignment may be taken to be the same in both roles.*
 
 *Write $\mathcal R$ for the retained ordered carrier pairs and $$Z_{X,Y}=\overline{\psi(X\times Y)}\qquad((X,Y)\in\mathcal R).$$ Every $Z_{X,Y}$ has dimension $2k$, and at a general pair the connecting direction is transverse to both physical tangent spaces. Let $U$ be the reduced union of the distinct $Z_{X,Y}$. Then $$\begin{equation}
-\label{sc:retained-image-upper}
+\tag{6.2}
  \deg U\le e_j^2\exp(o(s)).
 \end{equation}$$ For any subfamily $\mathcal J$ of these distinct images, including one chosen after further equations have been chosen, its represented carrier pairs have normalized assigned mass at most $$\begin{equation}
-\label{sc:retained-image-mass}
+\tag{6.3}
  \frac{1}{m_xm_y}
  \sum_{\substack{(X,Y)\in\mathcal R\\Z_{X,Y}\in\mathcal J}}n_Xn_Y
  \le \frac{\deg\bigl(\bigcup_{Z\in\mathcal J}Z\bigr)}{e_j^2}
@@ -796,7 +792,7 @@ We first make the passage from carrier pairs to product images precise. The same
 *Proof.* Choose fixed times $\tau_{\rm eq}<\tau_{\rm test}<\tau$ between the start of the plateau and $\tau$. Use the earlier part of this interval for the equation choices in Proposition 5.3, leaving the strict gap up to $\tau_{\rm test}$ for its minor and proper-cut tests at the sample points. Apply its union version to the two physical carrier families. It removes the negligible point sets excluded by its regularity conclusion and supplies common equations for the whole union. At each remaining point there is now a unique smooth carrier. Denote by $g_{\rm ph}$ the common combination of maximal minors whose zeros were removed in this step. Discard every such point whose carrier is a nonreal flat, using the degree-one proper sections in the last paragraph of that proposition. This costs another $o(n_x)+o(n_y)$ points. The source and target assignments are now unambiguous. Each assigned carrier belongs to the point’s own original piece path: that path already supplies a carrier through the point, and uniqueness in the full union identifies it with the assigned member. For two copies of the same pool take the union of the two negligible point deletions in both roles; the resulting assignment is the same. Extend the retained assignments by assigning each deleted point to a containing carrier of its original piece before any later product tests, using the same extension in both roles for a common pool. Product testing on the original sets then retains the present assignments under restriction, and its $o(n_xn_y)$ pair loss is also $o(m_xm_y)$. Pool equal retained carriers within each of the two lists and omit members with zero mass. All these choices have been made inside the interval ending at $\tau$, which gives the stated degree bound.
 
 The pooled budgets, with each original piece still supplying the bound for its own points, give $$\begin{equation}
-\label{sc:retained-carrier-weights}
+\tag{6.4}
  \begin{gathered}
  \max\left\{\sum_X\deg X,\sum_Y\deg Y\right\}\le e_j\exp(o(s)),\\
  \frac{n_X}{m_x}\le\frac{\deg X}{e_j}\exp(o(s)),\qquad
@@ -804,7 +800,7 @@ The pooled budgets, with each original piece still supplying the bound for its o
  \end{gathered}
 \end{equation}$$ Indeed, the mass of a carrier in one piece is at most $\deg(X)(N/e_j)\exp(o(s))$, and pooling $\exp(o(s))$ pieces changes this by only $\exp(o(s))$. The remaining point counts are still $N\exp(-o(s))$. A flat has degree one, so its number and its normalized weight satisfy the hypotheses of Lemma 4.2 with $w=s$ and $e=e_j$. The flat members are real by the preceding deletion.
 
-Apply that lemma now with the fixed $\varepsilon$. Let $\mathcal Y_X$ be its target list for $X$, and set $\mathcal R=\{(X,Y):Y\in\mathcal Y_X\}$. The removed carrier pairs have normalized product weight $o(1)$, hence account for $o(m_xm_y)$ actual pairs. This deletion includes pairs generically tangent at either endpoint. Thus the target tangent projects injectively at a general pair, and the first coordinate of $\psi$ records all source tangent directions; the product image has dimension $2k$. The preimages of a general $2k$-fold linear section of that image are isolated away from the base locus of the bounded-degree map on $X\times Y$. The isolated-intersection form of Bézout therefore gives $\deg Z_{X,Y}\le C_d\deg X\deg Y$, and (sc:retained-image-upper) follows from (sc:retained-carrier-weights).
+Apply that lemma now with the fixed $\varepsilon$. Let $\mathcal Y_X$ be its target list for $X$, and set $\mathcal R=\{(X,Y):Y\in\mathcal Y_X\}$. The removed carrier pairs have normalized product weight $o(1)$, hence account for $o(m_xm_y)$ actual pairs. This deletion includes pairs generically tangent at either endpoint. Thus the target tangent projects injectively at a general pair, and the first coordinate of $\psi$ records all source tangent directions; the product image has dimension $2k$. The preimages of a general $2k$-fold linear section of that image are isolated away from the base locus of the bounded-degree map on $X\times Y$. The isolated-intersection form of Bézout therefore gives $\deg Z_{X,Y}\le C_d\deg X\deg Y$, and (6.2) follows from (6.4).
 
 We prove the uniform subfamily estimate while keeping these same lists. Images belonging to different source carriers are distinct: the closure of the first projection of $Z_{X,Y}$ is $X$. Fix one source $X$ and one of its distinct images $Z$. To identify its source fibers, take its closure $\widehat Z\subset X\times\mathbb P^{d-1}$ before restricting the direction coordinate to our affine chart. Localizing the ideal of the rational image at $\mathbb C(X)$ identifies the generic fiber with the closure of the projection of $Y$ from the generic source point. This fiber is geometrically integral, since it is the image closure of the geometrically integral variety $Y_{\mathbb C(X)}$. After restricting $X$ to a dense open, the projective family is flat with geometrically integral fibers of a constant degree $d_Z$; this uses generic flatness, geometric integrality after shrinking, and constancy of the Hilbert polynomial in a flat projective family (The Stacks Project Authors 2026, Tags 052A, 0559, 0C0E, and 0B9T). We may also require that projection of $Y$ from each $x$ in this open set has dimension $k$, by generic target transversality. Its closed image is then a $k$-dimensional irreducible subvariety of the $k$-dimensional integral fiber, so it equals the whole fiber. Make these restrictions simultaneously for the finite image and target lists. Thus all targets with $Z_{X,Y}=Z$ have the same complete projected image at a common general $x\in X$. Write $t_x(Y)$ for their generic map degrees. The fixed list bound says $$\sum_{Y:\,(X,Y)\in\mathcal R,\ Z_{X,Y}=Z}t_x(Y)
  \le \exp(\varepsilon s).$$ For a general $x$, the point-projection formula gives $\deg Y-\operatorname{mult}_xY=t_x(Y)d_Z$. The multiplicity is zero unless $X=Y$. In that case $x$ is smooth and the multiplicity is one; a coincident flat pair was deleted as tangential. Consequently $\deg Y\le2t_x(Y)d_Z$ for every target in this sum.
@@ -812,36 +808,36 @@ We prove the uniform subfamily estimate while keeping these same lists. Images b
 Choose $k$ general affine hyperplanes in the source coordinates. They meet $X$ in $\deg X$ points of the preceding open set. Then choose $k$ general hyperplanes in the direction coordinates; on each complete fiber they give $d_Z$ points, with multiplicity. The choices can be made so all these points lie in the selected label chart and avoid intersections between distinct images. The resulting mixed section of $Z$ therefore has $\deg X\,d_Z$ points. The $2k$ blockwise hyperplanes are also affine linear equations in the full label space. Their homogenizations restrict to linear equations on the ordinary projective closure of $Z$, where all the counted affine points are isolated intersections. The isolated-intersection form of Bézout bounds their total multiplicity by the ordinary degree, even if the same equations have additional components at infinity. Applying this to a reduced image subfamily and summing the preceding map-degree bound gives $$\sum_{\substack{(X,Y)\in\mathcal R\\Z_{X,Y}\in\mathcal J}}
        \deg X\deg Y
  \le C_d\exp(\varepsilon s)
-       \deg\bigl(\bigcup_{Z\in\mathcal J}Z\bigr).$$ Multiplying the two weight bounds in (sc:retained-carrier-weights) proves (sc:retained-image-mass). No further generic-depth deletion is made when $\mathcal J$ is chosen. ◻
+       \deg\bigl(\bigcup_{Z\in\mathcal J}Z\bigr).$$ Multiplying the two weight bounds in (6.4) proves (6.3). No further generic-depth deletion is made when $\mathcal J$ is chosen. ◻
 
 **Lemma 6.3** (Common-window label rank). *Let $\Gamma\subset\{(p,q)\in S_x\times S_y:p\ne q\}$ be any dense graph on the selected pieces or pool; its pairs need not be covered by the $C_p$. For its labels, at an interior testing time before the last cut, $$\begin{equation}
-\label{sc:label-rank}
+\tag{6.5}
  H(T_s(b))\ge
  \sigma(b)^2\min\left(1,\frac{T_s(b)}{D_1D_2}\right)
  \exp(-o(s)).
 \end{equation}$$ The convention is a lower limit after dividing the logarithm by $s$; in particular it permits any prescribed fixed positive logarithmic tolerance, uniformly for dense subgraphs.*
 
-*Proof.* On the initial full-dimensional interval, Lemma 5.4, or its two successive full-dimensional no-capture arguments, forces the testing-degree envelope of a dense label graph to be the whole label space. Its rank is comparable to $T^{2d-1}$. Since $D_1D_2\ge T^2$ there, this is at least the right side of (sc:label-rank).
+*Proof.* On the initial full-dimensional interval, Lemma 5.4, or its two successive full-dimensional no-capture arguments, forces the testing-degree envelope of a dense label graph to be the whole label space. Its rank is comparable to $T^{2d-1}$. Since $D_1D_2\ge T^2$ there, this is at least the right side of (6.5).
 
 On a positive-dimensional plateau after $j\ge1$ cuts put $k=d-j$. Choose a physical regularity time between the start of this plateau and the current testing time $b$. When $k<d-1$, apply Lemma 6.2 with any fixed $\varepsilon>0$. When $k=d-1$, apply Proposition 5.3 to the union of the two physical families, discard its rank-failure and nonreal-flat points, and assign each survivor to its unique carrier from its original path. Use the same supported extension to the original point sets before product testing, and pool equal retained carriers with their assigned masses. The fixed tangent-flat argument and the proper-flat cap then discard carrier pairs generically tangent at either endpoint. In both cases the point and carrier-pair losses remove only a negligible fraction of the graph, and every remaining complete product image $\overline{\psi(X\times Y)}$ has dimension $2k$. Product testing forces these complete images into the testing-degree envelope at almost all remaining graph pairs.
 
 For this fixed envelope, choose one irreducible envelope component containing each distinct complete image occurring at those surviving pairs. Let the pairs with that image inherit its choice. Group all envelope components by dimension and count each surviving pair in the group of its chosen component; components receiving no pairs remain in the degree of their group. Every chosen component has dimension at least $2k$, so some dimension $h\ge2k$ group carries a positive fraction of the graph. Write $a$ for its degree and $\Gamma'$ for the graph portion it carries.
 
 If $h\ge2k+1$, the Hilbert bounds give $$H(T)\gtrsim aT^h,\qquad
- H_{\psi(\Gamma')}(T')\lesssim a(T'+1)^h.$$ Borrow (sc:label-rank) from a time just before the cut starting this plateau. The required right side grows with exponent at most $2k+1$ within the plateau, so growth with exponent $h$ suffices. Endpoint approximation costs an arbitrarily small fixed multiple of $s$ in the logarithm.
+ H_{\psi(\Gamma')}(T')\lesssim a(T'+1)^h.$$ Borrow (6.5) from a time just before the cut starting this plateau. The required right side grows with exponent at most $2k+1$ within the plateau, so growth with exponent $h$ suffices. Endpoint approximation costs an arbitrarily small fixed multiple of $s$ in the logarithm.
 
 It remains to bound $a$ when $h=2k$. Each image assigned to this group is an irreducible $2k$-fold contained in its chosen irreducible $2k$-dimensional envelope component, and therefore equals that component. If $k=d-1$, necessarily $j=1$, and the projection of a generic target hypersurface from a generic source point fills direction space. For each source carrier $X$ the product image is thus $X\times\mathbb P^{d-1}$ in these label coordinates. A positive mass of pairs requires a positive source mass. The carrier mass budget therefore gives $$a\gtrsim e_1\exp(-o(s))=D_1\exp(-o(s)).$$ The resulting rank $D_1T^{2d-2}\exp(-o(s))$ is sufficient: on this plateau $T\le D_2$ to exponential accuracy and $$D_1^2T^{2d-2}\min(1,T/(D_1D_2))
  \le D_1T^{2d-2}.$$
 
-Now suppose $k<d-1$. The images assigned to this group represent a positive amount of assigned product mass, since they carry $\Gamma'$. Apply (sc:retained-image-mass) to this subfamily. Its degree is at most $a$, so $$a\gtrsim e_j^2\exp(-\varepsilon s-o(s)).$$ Since $\varepsilon$ is arbitrary, $a\ge e_j^2\exp(-o(s))$. The Hilbert lower bound now gives $H(T)\ge e_j^2T^{2k}\exp(-o(s))$, which is stronger than (sc:label-rank) on this plateau.
+Now suppose $k<d-1$. The images assigned to this group represent a positive amount of assigned product mass, since they carry $\Gamma'$. Apply (6.3) to this subfamily. Its degree is at most $a$, so $$a\gtrsim e_j^2\exp(-\varepsilon s-o(s)).$$ Since $\varepsilon$ is arbitrary, $a\ge e_j^2\exp(-o(s))$. The Hilbert lower bound now gives $H(T)\ge e_j^2T^{2k}\exp(-o(s))$, which is stronger than (6.5) on this plateau.
 
 These alternatives propagate through the finitely many distinct cut times. If the first boundary has degree $\exp(o(s))$ and there is no earlier testing time of degree at least one, use rank one there; the required boundary value is itself $\exp(o(s))$. This also handles several simultaneous first cuts. Every borrowed graph portion has fixed positive density after passage to a subsequence, so the induction applies to it as asserted. ◻
 
 The graph covered in the selected orientation has an independent upper bound, obtained by specializing at each actual center: $$\begin{equation}
-\label{sc:common-upper}
+\tag{6.6}
  H(T)\le CNE(T+1).
-\end{equation}$$ Near the last cut, $\sigma(b)$ is $N$ within an arbitrarily small logarithmic tolerance. Comparing (sc:label-rank) and (sc:common-upper), the relevant ratio is, to the same accuracy, at least $$\begin{equation}
-\label{sc:common-ratio}
+\end{equation}$$ Near the last cut, $\sigma(b)$ is $N$ within an arbitrarily small logarithmic tolerance. Comparing (6.5) and (6.6), the relevant ratio is, to the same accuracy, at least $$\begin{equation}
+\tag{6.7}
  \min\left(\frac{A}{\delta D_d},
             \frac{A}{\delta D_1D_2}\right).
 \end{equation}$$ The second term has a strict positive $s$-scale margin because $b_1+b_2<0$. The first does also unless $s=\log B$ and $b_d=1$: if the common window is not outermost, $s\le\tfrac12\log B$, whereas in the outermost window its margin is $1-b_d$. Choosing a fixed testing time sufficiently close to the final cut therefore gives a contradiction in every other case. No comparison between $\delta$ and an uncontrolled $\exp(o(s))$ factor has been made.
@@ -849,17 +845,17 @@ The graph covered in the selected orientation has an independent upper bound, ob
 ### The outermost endpoint
 
 Assume now $s=\log B$ and $b_d=1$. Use the common pool supplied by Proposition 5.5; initially its size $n_0$ satisfies $$\begin{equation}
-\label{sc:outer-pool}
+\tag{6.8}
  n_0\ge N\sqrt\delta,\qquad n_0=N\exp(-o(s)).
 \end{equation}$$ Let $\Gamma_0$ be its graph covered in the selected orientation. It has at least $\alpha n_0^2$ pairs for a fixed $\alpha>0$, and retains the terminal deletion and the light-line restriction. Let $k$ be the dimension of the final open plateau, $j=d-k$, and let $\beta=b_j<1$ be its starting time. Balance gives $$\begin{equation}
-\label{sc:outer-budgets}
+\tag{6.9}
  1\le k<d-1,\qquad e_j=B^{d-2k},\qquad N/e_j=A^k.
 \end{equation}$$
 
 At this endpoint the rank comparison can have zero logarithmic margin. We will instead lift the covering direction curves to physical curves. For this, we need one fixed family of product images and one common smooth system containing the images used by all the lifts.
 
 Choose fixed interior times $$\begin{equation}
-\label{sc:outer-time-choice}
+\tag{6.10}
  \beta<\tau<t_0<t_1<t_2<1,
  \qquad t_0>\max\{\beta,1+b_1+b_2\}.
 \end{equation}$$ Such choices exist because $b_1+b_2<0$. Reserve the interval $(\beta,\tau)$ for the finitely many physical regularity choices, use $t_0$ for the image envelope and $t_1$ for the common label equations, and reserve $(t_1,t_2)$ for the later pullback tests. Now fix $$0<\varepsilon<\tfrac14(t_1-t_0).$$ Also fix the endpoint approximation and the logarithmic tolerances in the rank argument below smaller than a quarter of both positive gaps $t_0-\beta$ and $t_0-(1+b_1+b_2)$.
@@ -869,10 +865,10 @@ Apply Lemma 6.2 to the two copies of this pool, with $\tau$ and $\varepsilon$ j
 When $k\ge2$, make one further point deletion before fixing the final product family. The carriers whose affine spans have dimension at most $k+1$ number at most $e_j\exp(o(s))$, and each lies in a proper flat containing at most $B^{k+1+o(1)}$ sample points. The points assigned to all these carriers therefore have total mass at most $$B^{d-2k}B^{k+1+o(1)}=B^{d-k+1+o(1)}=o(n_0).$$ Discard them in both roles. No such deletion is made when $k=1$.
 
 Write $S$ for the resulting pool, $n=|S|$, and $\mathcal C$ for its positive-mass physical carriers. Then $$\begin{equation}
-\label{sc:outer-retained-pool}
+\tag{6.11}
  n=(1-o(1))n_0\ge(1-o(1))N\sqrt\delta,
  \qquad n=N\exp(-o(s)).
-\end{equation}$$ Restrict the returned carrier pairs to $\mathcal C\times\mathcal C$ and call this fixed set $\mathcal R$. Its omitted assigned product mass is still $o(n^2)$. The old assigned weights only decreased in the last point deletion, while the normalizing point count changed by a factor $1-o(1)$. Thus (sc:retained-image-mass) remains valid, with the same $\varepsilon$ and an adjusted $o(s)$, for every subfamily of the distinct images $$Z_{X,Y}=\overline{\psi(X\times Y)},\qquad (X,Y)\in\mathcal R.$$ Let $U$ be their reduced union. This is the final product-image family for this endpoint; we will only take subfamilies of it. In particular $\deg U\le e_j^2\exp(o(s))$. Restrict $\Gamma_0$ to $S\times S$ and to the carrier pairs in $\mathcal R$, and call the result $\Gamma$. The point and carrier-pair deletions together cost $o(n_0^2)$ pairs, so $|\Gamma|\gtrsim n^2$.
+\end{equation}$$ Restrict the returned carrier pairs to $\mathcal C\times\mathcal C$ and call this fixed set $\mathcal R$. Its omitted assigned product mass is still $o(n^2)$. The old assigned weights only decreased in the last point deletion, while the normalizing point count changed by a factor $1-o(1)$. Thus (6.3) remains valid, with the same $\varepsilon$ and an adjusted $o(s)$, for every subfamily of the distinct images $$Z_{X,Y}=\overline{\psi(X\times Y)},\qquad (X,Y)\in\mathcal R.$$ Let $U$ be their reduced union. This is the final product-image family for this endpoint; we will only take subfamilies of it. In particular $\deg U\le e_j^2\exp(o(s))$. Restrict $\Gamma_0$ to $S\times S$ and to the carrier pairs in $\mathcal R$, and call the result $\Gamma$. The point and carrier-pair deletions together cost $o(n_0^2)$ pairs, so $|\Gamma|\gtrsim n^2$.
 
 When $k=1$, the unique carrier of each surviving target is its globally assigned terminal curve from Proposition 5.5. Indeed, the final plateau is then after the $(d-1)$st cut. The curve chosen in that global assignment belongs to the full original carrier union used by the common physical equations, so uniqueness at the target identifies it with the current carrier. If that global assignment was omitted because its chosen curve was a nonreal line, uniqueness would make the current carrier that line, and the nonreal-flat point deletion has removed the point. Thus no globally unassigned target remains in this case.
 
@@ -885,10 +881,10 @@ We first show that the images assigned to larger components represent only $o(n^
 Write $a_h$ for the total degree of the dimension-$h$ component group of $V$, including components receiving no images. Its upper Hilbert bound at an earlier degree $T'$ controls $H_{\psi(\Lambda_h)}(T')$, while its lower envelope bound gives $H_V(T_0)\gtrsim a_hT_0^h$. Borrow the common-window label rank at a time just before $\beta$, with the fixed endpoint tolerance chosen above. If $\beta=-1$ and no earlier testing degree is at least one, use the rank-one boundary convention in Lemma 6.3; then all $j$ earlier cut times equal $-1$ and the required boundary rank is one to exponential accuracy. On the final plateau $\sigma(b)=e_jT_s(b)^k$. Propagating with $h\ge2k+1$ therefore gives $$H_V(T_0)\ge e_j^2T_0^{2k}
  \min\left\{\frac{T_0}{T_s(\beta)},
              \frac{T_0}{D_1D_2}\right\}
-       \exp(-\xi s-o(s)),$$ where the fixed $\xi>0$ can be smaller than both gaps specified after (sc:outer-time-choice). The two factors have normalized logarithms $t_0-\beta$ and $t_0-(1+b_1+b_2)$, respectively, so the lower bound has a strict positive margin. But envelope equality and the upper Hilbert bound on the pure $2k$-dimensional family $U$ give $$H_V(T_0)=H_U(T_0)\le C e_j^2T_0^{2k}\exp(o(s)).$$ This contradiction proves the claimed product-mass deletion.
+       \exp(-\xi s-o(s)),$$ where the fixed $\xi>0$ can be smaller than both gaps specified after (6.10). The two factors have normalized logarithms $t_0-\beta$ and $t_0-(1+b_1+b_2)$, respectively, so the lower bound has a strict positive margin. But envelope equality and the upper Hilbert bound on the pure $2k$-dimensional family $U$ give $$H_V(T_0)=H_U(T_0)\le C e_j^2T_0^{2k}\exp(o(s)).$$ This contradiction proves the claimed product-mass deletion.
 
 Let $\mathcal I$ be the distinct images left after that deletion. Each is an actual irreducible $2k$-dimensional component of the single locus $V$, defined by equations of degree at most $T_0$; larger components elsewhere in $V$ are kept in those equations. Also $\deg\mathcal I\le\deg U\le e_j^2\exp(o(s))$. Apply Lemma 3.8 to this pure component family at degree $T_1$. Its equations vanish on the whole family $\mathcal I$. The exceptional image subfamily $\mathcal E$ has total degree at most $$C\deg(\mathcal I)\frac{T_0}{T_1}
- \le e_j^2\exp(-(t_1-t_0)s+o(s)).$$ Use (sc:retained-image-mass) for this particular subfamily of the already fixed $U$. Its represented normalized pair mass is at most $$\exp(-(t_1-t_0-\varepsilon)s+o(s))=o(1).$$ Here the same $\varepsilon$-lists chosen before $U$ are used; no new generic-depth deletion depends on $\mathcal E$. Let $\mathcal R_{\rm sm}$ consist of the carrier pairs represented by $\mathcal I\setminus\mathcal E$. The two image deletions have omitted only $o(n^2)$ assigned product mass.
+ \le e_j^2\exp(-(t_1-t_0)s+o(s)).$$ Use (6.3) for this particular subfamily of the already fixed $U$. Its represented normalized pair mass is at most $$\exp(-(t_1-t_0-\varepsilon)s+o(s))=o(1).$$ Here the same $\varepsilon$-lists chosen before $U$ are used; no new generic-depth deletion depends on $\mathcal E$. Let $\mathcal R_{\rm sm}$ consist of the carrier pairs represented by $\mathcal I\setminus\mathcal E$. The two image deletions have omitted only $o(n^2)$ assigned product mass.
 
 The regularity lemma supplies a common polynomial $g$ of degree $O(T_1)$, a linear combination of maximal Jacobian minors, which is nonzero on each image in $\mathcal I\setminus\mathcal E$. The single rational pullback $g\circ\psi$ has a cleared numerator of degree $O(T_1)$ on the chosen charts, nonidentically zero on every carrier pair in $\mathcal R_{\rm sm}$. Product testing, with its internal times in $(t_1,t_2)$, removes its actual zeros at a cost of $o(n^2)$ pairs. At every surviving label the common equations are locally a smooth $2k$-fold. They still vanish on all of $\mathcal I$, including its exceptional components.
 
@@ -910,19 +906,19 @@ Suppose $k\ge2$. For each remaining marked pair over $\gamma$, choose one such i
 
 There can be at most one such root in total. At their common label the same label equations are smooth of dimension $2k$ and contain every complete product image attached to these lifts. All products use the same source carrier $X$: it is the unique member of the full physical family at $p$. If two roots $q',z'$ were distinct, the first product would have full differential rank at $(p,q')$, and the complete second product would also lie in the same local label system. The particular-pair assertion of Lemma 4.1 would then give $$\overline{T_pX}\subseteq\overline{T_{q'}Y}
  \quad\text{in }\mathbb C^d/\mathbb C(q'-p).$$ Both spaces have dimension $k$ by the two tangent-injectivity tests, so they would be equal, contrary to the tangent-inequality test. Hence $$\begin{equation}
-\label{sc:lift-map-degree}
+\tag{6.12}
  \sum_{C\text{ distinct chosen lifts over }\gamma}
        \deg(C\longrightarrow\gamma)\le1.
 \end{equation}$$
 
 Finally, each lift loses at most half its physical degree under projection. If $p\in C\subset Y$, uniqueness for the full original physical family at $p$ forces $Y=X$. The carrier $X$ is smooth at $p$, and the marked point $q\in C$ has $q-p\notin T_pX$ by the source tangent test. Corollary 3.14 therefore gives $\operatorname{mult}_pC\le\deg C/2$. If $p\notin C$, the multiplicity is zero. In both cases the point-projection formula yields $$\deg\gamma\,\deg(C\to\gamma)
- =\deg C-\operatorname{mult}_pC\ge\tfrac12\deg C.$$ Together with (sc:lift-map-degree), this bounds the total degree of the lifts over $\gamma$ by $2\deg\gamma$. Every remaining target in the row lies on a chosen lift. The physical curve bound in Lemma 3.1, summed over $\gamma\subset C_p$, bounds their number by $CEM$. But $$\frac{EM}{n}\le C\sqrt\delta\,\frac MA\longrightarrow0.$$ Every remaining row thus has $o(n)$ partners, contradicting the surviving $\gtrsim n^2$ graph. This resolves the common outermost endpoint.
+ =\deg C-\operatorname{mult}_pC\ge\tfrac12\deg C.$$ Together with (6.12), this bounds the total degree of the lifts over $\gamma$ by $2\deg\gamma$. Every remaining target in the row lies on a chosen lift. The physical curve bound in Lemma 3.1, summed over $\gamma\subset C_p$, bounds their number by $CEM$. But $$\frac{EM}{n}\le C\sqrt\delta\,\frac MA\longrightarrow0.$$ Every remaining row thus has $o(n)$ partners, contradicting the surviving $\gtrsim n^2$ graph. This resolves the common outermost endpoint.
 
 To treat separated windows, we next bound the projected degree at the actual source centers.
 
 ### Projection depth for separated windows
 
-We retain the notation and contradiction regime (red:regime). Let $P_x,P_y$ be the two pieces selected by Proposition 5.5, in separated windows of widths $v$ and $s$, respectively. Thus $v,s\to\infty$, both are $o(\log B)$, and either $v/s\to0$ or $v/s\to\infty$. The limiting normalized drop profile is the same for both pieces. Before using the target plateaux, omit from $P_y$ the points left unassigned by the global terminal assignment in Proposition 5.5. Its proof bounds their number by $o(|P_y|)$ uniformly over the pieces, so this removes $o(|P_x||P_y|)$ ordered pairs. Continue to write $P_y$ for the retained target set. It has size $N\exp(-o(s))$ and inherits the profile conclusions, since it is a $(1-o(1))$ fraction of the selected piece. The proposition below uses this retained $P_y$.
+We retain the notation and contradiction regime (2.1). Let $P_x,P_y$ be the two pieces selected by Proposition 5.5, in separated windows of widths $v$ and $s$, respectively. Thus $v,s\to\infty$, both are $o(\log B)$, and either $v/s\to0$ or $v/s\to\infty$. The limiting normalized drop profile is the same for both pieces. Before using the target plateaux, omit from $P_y$ the points left unassigned by the global terminal assignment in Proposition 5.5. Its proof bounds their number by $o(|P_y|)$ uniformly over the pieces, so this removes $o(|P_x||P_y|)$ ordered pairs. Continue to write $P_y$ for the retained target set. It has size $N\exp(-o(s))$ and inherits the profile conclusions, since it is a $(1-o(1))$ fraction of the selected piece. The proposition below uses this retained $P_y$.
 
 For the target piece write $$D_i=B\exp(b_i s),\quad e_j=\prod_{i\le j}D_i,
  \quad l=d-j,$$ and consider a positive-dimensional plateau after at least one drop. The path equations defining its current system have degrees $B\exp(O(s))$. For this plateau, fix one containing $l$-dimensional carrier for each point of $P_y$. On the final one-dimensional plateau use its carrier from the global terminal assignment. Pool repeated carriers and denote the resulting family by $\mathcal Y$, with disjoint assigned target sets of masses $n_Y$. Thus $\sum_{Y\in\mathcal Y}n_Y=|P_y|$. All later incidence and list restrictions use this fixed assignment. Our objective is a lower bound for the degree of the distinct projected components carrying any fixed positive fraction of target mass. Several components may share a projected image, and each projection may have degree greater than one. We control this combined multiplicity after deleting negligible incidence mass.
@@ -932,26 +928,26 @@ Give a center–component incidence $(p,Y)$ normalized weight $n_Y/(|P_x||P_y|)$
 We use the following precise interpretation of exponential accuracy. An assertion with a factor $\exp(o(s))$ in a lower bound means that for every fixed $\epsilon>0$ it holds with the smaller factor $\exp(-\epsilon s)$ for all sufficiently large members of the sequence, after the stated vanishing-mass deletions. All finite choices of plateaux, density constants, and positive logarithmic tolerances can be imposed simultaneously.
 
 **Proposition 6.5** (Projected degree in separated windows). *For each fixed positive tolerance $\epsilon$, one can discard center–target-component incidences of total normalized weight $o(1)$, and then discard $o(|P_x|)$ centers, so that the following holds. For each remaining center $p$, every target component $Y$ whose incidence $(p,Y)$ remains satisfies $\dim\overline{\pi_pY}=l$. For every subcollection of those components carrying at least a fixed positive fraction of $|P_y|$, the distinct projected components have summed degree at least $$\begin{equation}
-\label{dep:degree-bound}
+\tag{6.13}
  \frac{e_j}{R}\exp(-\epsilon s).
 \end{equation}$$ The assertion is uniform over those subcollections, including ones chosen after $p$ and after subsequent equations have been chosen. The following values of $R$ are valid: $$\begin{align}
  R&=D_1 &&\text{in either orientation};
-       \label{dep:first-R}\\
+       \tag{6.14}\\
  R&=B\exp\left(-s\sum_{i>j}b_i\right)
        &&\text{if }v/s\longrightarrow0;
-       \label{dep:narrow-R}\\
+       \tag{6.15}\\
  R&=B\exp(-2s)
        &&\text{if }v/s\longrightarrow\infty,
           \quad b_{j+1}>0,\quad l<d-1.
-       \label{dep:wide-R}
-\end{align}$$ In (dep:degree-bound), “fixed positive fraction” means any constant $\rho>0$ independent of the sequence. After fixing $\epsilon$ and any finite batch of plateaux and tolerances, the incidence and center deletions are independent of the later fixed choice of $\rho$; only the large-index threshold may depend on $\rho$.*
+       \tag{6.16}
+\end{align}$$ In (6.13), “fixed positive fraction” means any constant $\rho>0$ independent of the sequence. After fixing $\epsilon$ and any finite batch of plateaux and tolerances, the incidence and center deletions are independent of the later fixed choice of $\rho$; only the large-index threshold may depend on $\rho$.*
 
 *Proof.* We first explain the degree and mass bookkeeping common to all three cases, then prove their depth bounds.
 
 ##### Components, multiplicity, and incidence deletions.
 
 Proposition 5.2 gives $$\begin{equation}
-\label{dep:carrier-budget}
+\tag{6.17}
  \sum_{Y\in\mathcal Y}\deg Y\le e_j\exp(o(s)),
  \qquad
  \sum_{Y\in\mathcal A} n_Y
@@ -963,14 +959,14 @@ Every $Y\in\mathcal Y$ is an irreducible component of the fixed target path locu
 Projection from $p$ can drop the dimension of $Y$ only if its generic fiber is a line. For a fixed general smooth $y\in Y$, this puts $p$ in the proper affine tangent flat $y+T_yY$. The flat cap makes the proportion of such centers at most $B^{-c_0+o(1)}$, uniformly for each $Y$. Also, Corollary 3.13 puts centers where $\operatorname{mult}_pY>\deg(Y)/2$ in a hypersurface of bounded degree. The initial full-dimensional no-capture property of the center piece makes their proportion $o(1)$: its initial cutoff is $B^{1+o(1)}$, well above every bounded degree. Average both conclusions with weights $n_Y/|P_y|$. They remove only $o(1)$ of the center–component incidence mass.
 
 At every retained incidence, the point-projection formula gives $$\begin{equation}
-\label{dep:projection-formula}
+\tag{6.18}
  t_p(Y)\deg\overline{\pi_pY}
        =\deg Y-\operatorname{mult}_pY
        \ge\tfrac12\deg Y,
 \end{equation}$$ where $t_p(Y)$ is the generic map degree. For a fixed $p$, group components having the same projected image $Z$ and define their depth to be the sum of their map degrees. If all retained groups have depth at most $R\exp(\eta s)$, then any subcollection of degree $a$ has projected degree at least $$\begin{equation}
-\label{dep:depth-to-degree}
+\tag{6.19}
  a\big/\bigl(2R\exp(\eta s)\bigr).
-\end{equation}$$ Thus it suffices to bound depth after negligible weighted incidence deletions. Fixed constants and the errors in (dep:carrier-budget) are absorbed by choosing $\eta>0$ sufficiently smaller than the desired $\epsilon$.
+\end{equation}$$ Thus it suffices to bound depth after negligible weighted incidence deletions. Fixed constants and the errors in (6.17) are absorbed by choosing $\eta>0$ sufficiently smaller than the desired $\epsilon$.
 
 Whenever the deleted incidence mass is $\alpha=o(1)$, Markov’s inequality leaves all but $\sqrt\alpha$ of the centers with deleted target mass at most $\sqrt\alpha$. Every later subcollection of fixed positive mass still has positive mass after this deletion. This is the uniformity mechanism in the proposition. No union bound over the possible subcollections will be needed.
 
@@ -978,20 +974,20 @@ Whenever the deleted incidence mass is $\alpha=o(1)$, Markov’s inequality leav
 
 Use the system at the first plateau after a drop. Its equations have degrees at most $D_1\exp(o(s))$, and every current descendant is contained in this first system. The regularity conclusion of Proposition 5.3 makes its relevant carrier unique and smooth at all but $o(|P_y|)$ assigned target points. For each such point $q$, centers $p$ in its affine tangent flat form a $B^{-c_0+o(1)}$ fraction of the source piece.
 
-If, for a center and a current descendant $Y$, the generic joining ray were contained in the first system, then the same containment holds for every point of $Y$ where the ray is defined, by polynomial identity. At an assigned regular point $q$ the line would lie locally in its unique first carrier, so its direction would be tangent there. The preceding averaging therefore discards all such center–descendant incidences at negligible mass. On every other generic ray at least one first-system equation restricts nontrivially. Its degree bounds the number of distinct intersections with all current target components by $D_1\exp(o(s))$. In characteristic zero, the generic fibers defining the map degrees consist of distinct points. This proves the depth bound for (dep:first-R). Only regularity of the carrier is used here; the original path equations need not themselves have full Jacobian rank.
+If, for a center and a current descendant $Y$, the generic joining ray were contained in the first system, then the same containment holds for every point of $Y$ where the ray is defined, by polynomial identity. At an assigned regular point $q$ the line would lie locally in its unique first carrier, so its direction would be tangent there. The preceding averaging therefore discards all such center–descendant incidences at negligible mass. On every other generic ray at least one first-system equation restricts nontrivially. Its degree bounds the number of distinct intersections with all current target components by $D_1\exp(o(s))$. In characteristic zero, the generic fibers defining the map degrees consist of distinct points. This proves the depth bound for (6.14). Only regularity of the carrier is used here; the original path equations need not themselves have full Jacobian rank.
 
 ##### Centers in the narrower window.
 
 Suppose $v/s\to0$. The center piece can be simultaneously isolated as zero-dimensional components of equations of degree $$L=B\exp(o(s)),\qquad |P_x|=N\exp(o(s)),$$ where the second error is signed. Fix $Y\in\mathcal Y$, and choose $y$ general on it, also general for the projections from all finitely many actual centers. For each center, count the additional moving roots $z\ne y,p$ on target components whose images agree with $\overline{\pi_pY}$. These points are generic on their components. Here this includes avoiding their intersections with the other members of the same finite family $\mathcal Y$. Their number is the group depth minus the one fixed root $y$.
 
 Parametrize such pairs by $$p=y+t(z-y),\qquad z\in\bigcup_{Z\in\mathcal Y}Z.$$ Impose the center-isolating equations on this parametrization. At every counted solution the image point $p$ is isolated in the center system. At its root $z$, the target union is locally just the one member of $\mathcal Y$ containing that root, by the preceding genericity condition. The generic ray has finite intersection with that component, so the fiber is locally finite. Thus the solution is isolated on the variety parametrized by $(z,t)$. This variety has dimension $l+1$ and degree at most a dimensional constant times $\sum_Z\deg Z$; the pulled-back equations have degree at most $2L$. The isolated-intersection form of Bézout therefore bounds the total number, over all centers, by $$\begin{equation}
-\label{dep:narrow-root-count}
+\tag{6.20}
  C e_j\exp(o(s))L^{l+1}.
 \end{equation}$$ Possible larger components of the center equations away from their isolated sample points do not affect this count.
 
-Divide (dep:narrow-root-count) by $|P_x|$. Its value, to the stated accuracy, is $$\frac{e_j B^{l+1}}{N}
+Divide (6.20) by $|P_x|$. Its value, to the stated accuracy, is $$\frac{e_j B^{l+1}}{N}
  =B\exp\left(s\sum_{i\le j}b_i\right)
- =B\exp\left(-s\sum_{i>j}b_i\right)=R.$$ The fixed root adds only one; $R=B^{1+o(1)}\to\infty$. For every fixed logarithmic slack $\eta>0$, Markov’s inequality bounds the proportion of centers whose depth at this $Y$ exceeds $R\exp(\eta s)$ by $\exp(-\eta s+o(s))$. Weighted averaging in $Y$, followed by the row deletion already described, proves (dep:narrow-R).
+ =B\exp\left(-s\sum_{i>j}b_i\right)=R.$$ The fixed root adds only one; $R=B^{1+o(1)}\to\infty$. For every fixed logarithmic slack $\eta>0$, Markov’s inequality bounds the proportion of centers whose depth at this $Y$ exceeds $R\exp(\eta s)$ by $\exp(-\eta s+o(s))$. Weighted averaging in $Y$, followed by the row deletion already described, proves (6.15).
 
 ##### Centers in the wider window: the generic lists.
 
@@ -1040,7 +1036,7 @@ Choose a $\rho$-square minor $Q(x)$ nonzero generically on $X$. It has degree at
 
 Choose a test point of $X$ at which $Q$ is nonzero. The multiplicity compression lemma, Lemma 3.10, produces a polynomial which vanishes at all these excessive centers, is nonzero at the test point, and has degree $$O(L^2/r)=B\exp(O(s)).$$ It is consequently a proper cut on $X$. For each fixed $Y$, these cuts can be chosen separately on the center components $X$ with $Y\in\mathcal Y_X$. Their degree bound is uniform. The componentwise pooling and no-capture statement on the chosen center plateau makes the captured center mass $o(|P_x|)$. This is uniform in the choice of $Y$: a contrary sequence of targets would contradict the same no-capture statement, which allows arbitrary polynomials of the specified degree. Averaging with the normalized weights $n_Y/|P_y|$ therefore removes only $o(1)$ of all incidences.
 
-On the remaining incidences, every group in the retained part of $\mathcal Y_{X(p)}$ at $p$ has depth at most $r$. Deleting further targets cannot increase depth. Apply the row deletion and (dep:depth-to-degree). Since rounding $r$ costs a factor $1+o(1)$, this proves (dep:wide-R) and completes the proof of the proposition. ◻
+On the remaining incidences, every group in the retained part of $\mathcal Y_{X(p)}$ at $p$ has depth at most $r$. Deleting further targets cannot increase depth. Apply the row deletion and (6.19). Since rounding $r$ costs a factor $1+o(1)$, this proves (6.16) and completes the proof of the proposition. ◻
 
 *Remark 6.6*. The proof bounds incidence mass before discarding centers. It does not claim a uniform depth estimate for every individual original target at every center. The conclusion needed later is that, after one fixed deletion, every target subcollection of fixed positive row mass satisfies the projected-degree bound. This permits adaptive choices such as the family on which later regularity equations fail. It also explains why no bound on the number of target components enters a union bound.
 
@@ -1049,19 +1045,19 @@ On the remaining incidences, every group in the retained part of $\mathcal Y_{X(
 Let $v$ be the source width and $s$ the target width, with $v/s\to0$ or $v/s\to\infty$. Both are $o(\log B)$. Their limiting normalized profile $(b_i)$ is the same, but $T_s,D_i,e_j,\sigma$ below refer only to the target window. The source and target piece sizes are respectively $N\exp(-o(v))$ and $N\exp(-o(s))$; we do not replace the former error by $o(s)$ when $v\gg s$.
 
 Use the retained target set and fixed plateau assignments in Proposition 6.5. Its final one-dimensional assignment is the persistent global terminal assignment, after the negligible omission of globally unassigned targets. Apply the proposition for the finite batch of plateaux and logarithmic tolerances needed in an argument, take the union of its negligible incidence deletions, and apply row Markov once. Call the remaining source centers typical. This set is chosen independently of the later fixed density threshold $\rho>0$; only the large-index threshold may depend on $\rho$. Thus the same typical centers serve every later subcollection of fixed positive target mass, including one chosen after the center and a testing-degree envelope. On a plateau of dimension $l=d-j$, every retained individual carrier projects with dimension $l$, and such a subcollection has distinct projected degree at least $$\begin{equation}
-\label{sc:projected-degree-interface}
+\tag{6.21}
  (e_j/R)\exp(-o(s)).
 \end{equation}$$ The permitted depth denominators are $$\begin{align}
- R&=D_1 &&\text{always},\label{sc:R-first}\\
+ R&=D_1 &&\text{always},\tag{6.22}\\
  R&=B\exp\left(-s\sum_{i>j}b_i\right)
-       &&\text{if }v/s\to0,\label{sc:R-narrow}\\
+       &&\text{if }v/s\to0,\tag{6.23}\\
  R&=B\exp(-2s)
        &&\text{if }v/s\to\infty,\ b_{j+1}>0,
-                           \ l<d-1.\label{sc:R-wide}
+                           \ l<d-1.\tag{6.24}
 \end{align}$$ Here a row consists of the targets paired with one fixed center $p$. For a chosen target subset $S$ in that row, $H(T)$ now denotes $H_{\pi_p(S)}(T)$, the restriction rank of its directions.
 
 **Lemma 6.7** (Strict rank margin on target plateaux). *At typical centers, ranks of directions to arbitrary dense remaining target subsets satisfy $$\begin{equation}
-\label{sc:strict-rank}
+\tag{6.25}
  H(T_s(b))\ge\frac{\sigma(b)T_s(b)}A\exp(c s)
 \end{equation}$$ with a fixed $c>0$ through all plateaux up to the final endpoint, except possibly the final one-dimensional plateau when the center window is narrower. The constant may be decreased finitely many times during propagation. The assertion is needed only at fixed interior testing times and their one-sided limiting endpoints.*
 
@@ -1073,8 +1069,8 @@ For this fixed envelope, choose one irreducible component containing each distin
 
 If $h>l$, that group borrows the preceding bound with growth exponent $h\ge l+1$. This preserves the required growth exponent of $\sigma T$ on the plateau. Approximate the preceding endpoint closely enough that the lost logarithmic tolerance is a small fraction of the existing $c$.
 
-If $h=l$, each projected carrier assigned to this group equals its chosen envelope component, since both are irreducible of dimension $l$. The projected degree lower bound (sc:projected-degree-interface) and the envelope Hilbert bound give $$H(T)\gtrsim T^l e_j/R\,\exp(-o(s)).$$ Relative to $\sigma T/A=e_jT^{l+1}/A$, this supplies the ratio $A/(RT)$, to exponential accuracy. It suffices to have a strict negative normalized logarithm for $R D_{j+1}/A$, the worst point at the next endpoint. The three choices give, respectively, $$\begin{equation}
-\label{sc:strict-margins}
+If $h=l$, each projected carrier assigned to this group equals its chosen envelope component, since both are irreducible of dimension $l$. The projected degree lower bound (6.21) and the envelope Hilbert bound give $$H(T)\gtrsim T^l e_j/R\,\exp(-o(s)).$$ Relative to $\sigma T/A=e_jT^{l+1}/A$, this supplies the ratio $A/(RT)$, to exponential accuracy. It suffices to have a strict negative normalized logarithm for $R D_{j+1}/A$, the worst point at the next endpoint. The three choices give, respectively, $$\begin{equation}
+\tag{6.26}
  b_1+b_{j+1},\qquad
  -\sum_{i>j+1}b_i,\qquad
  b_{j+1}-2.
@@ -1083,9 +1079,9 @@ If $h=l$, each projected carrier assigned to this group equals its chosen envelo
 There are at most $d$ distinct cut times. Choose all endpoint approximations and fixed logarithmic tolerances smaller than a sufficiently small fraction of the finitely many positive margins just displayed. Decrease $c$ when necessary. This completes the propagation. The degree bounds and prior rank statements quantify over every dense restriction, so choosing a different dimension group or dense subset for different centers does not change the argument. ◻
 
 For directions covered by $C_p$ the upper bound is $$\begin{equation}
-\label{sc:row-upper}
+\tag{6.27}
  H(T)\le CE(T+1).
-\end{equation}$$ If the strict margin reaches the last endpoint, choose a fixed time just below it with $\sigma(b)/N\ge\exp(-c s/2)$ to exponential accuracy. Equations (sc:strict-rank) and (sc:row-upper) then have a ratio tending to infinity, at least $\delta^{-1}\exp(c s/3)$ for large indices. This contradicts the positive density of covered rows.
+\end{equation}$$ If the strict margin reaches the last endpoint, choose a fixed time just below it with $\sigma(b)/N\ge\exp(-c s/2)$ to exponential accuracy. Equations (6.25) and (6.27) then have a ratio tending to infinity, at least $\delta^{-1}\exp(c s/3)$ for large indices. This contradicts the positive density of covered rows.
 
 ### The final curve plateau for narrower centers
 
@@ -1093,10 +1089,10 @@ At the remaining zero-margin endpoint, all but $o(|P_y|)$ of the covered targets
 
 The only remaining case has $v/s\to0$ and a final one-dimensional target plateau, $b_{d-1}<b_d$. The preceding plateau has the strict margin in Lemma 6.7. Choose a fixed time $b_0<b_d$ sufficiently close to $b_d$ within this last plateau, and then choose fixed times $$b_0<b_{\rm eq}<b_{\rm test}<b_d.$$ Put $\eta=b_{\rm eq}-b_0>0$, $T_0=T_s(b_0)$, and $T_1=T_s(b_{\rm eq})=T_0\exp(\eta s)$. Fix $0<\varepsilon<\eta$. Include this tolerance for the final plateau in the finite depth batch, and use the typical-center set for the combined batch. Its deletion is made before the envelopes below are chosen. Apply the preceding rank argument with this combined finite batch; its bounds then hold for every fixed positive-density restriction. Only now, for each typical center, let $$V_p=\operatorname{Env}_{T_0}(C_p)$$ be the envelope of the entire directional family, not just of its observed incidences. Its testing rank is at most $CE(T_0+1)$.
 
-First, a component group of $V_p$ of dimension $h\ge2$ cannot contain covered targets of mass at least $\rho|P_y|$ for any fixed $\rho>0$. Indeed take that actual subset and borrow its strict rank bound from just before the final plateau. The Hilbert bounds for the envelope group propagate this with exponent $h\ge2$, exactly the required exponent of $\sigma T$ on a one-dimensional plateau. At $b_0$ sufficiently close to $b_d$ it contradicts (sc:row-upper). If their target mass were not $o(|P_y|)$ uniformly over the typical centers, a subsequence would supply one such fixed $\rho$ and contradict this bound on the same typical-center set. Thus we may discard all actual labels on the larger components at a cost of $o(|P_y|)$ per row, including labels at their intersections with curves; we do not try to cut those intersections by equations of possibly excessive degree.
+First, a component group of $V_p$ of dimension $h\ge2$ cannot contain covered targets of mass at least $\rho|P_y|$ for any fixed $\rho>0$. Indeed take that actual subset and borrow its strict rank bound from just before the final plateau. The Hilbert bounds for the envelope group propagate this with exponent $h\ge2$, exactly the required exponent of $\sigma T$ on a one-dimensional plateau. At $b_0$ sufficiently close to $b_d$ it contradicts (6.27). If their target mass were not $o(|P_y|)$ uniformly over the typical centers, a subsequence would supply one such fixed $\rho$ and contradict this bound on the same typical-center set. Thus we may discard all actual labels on the larger components at a cost of $o(|P_y|)$ per row, including labels at their intersections with curves; we do not try to cut those intersections by equations of possibly excessive degree.
 
 Let $\mathcal F_p$ be the family of every one-dimensional irreducible component of $V_p$, whether or not it is already represented by an assigned target projection. We will impose common equations on this whole family so that they also contain any covering component through a surviving label. The envelope Hilbert lower bound for its entire one-dimensional component group and the rank upper bound imply $$\begin{equation}
-\label{sc:last-family-degree}
+\tag{6.28}
  \deg\mathcal F_p=O(E).
 \end{equation}$$
 
@@ -1105,10 +1101,10 @@ We next place the projection of the fixed assigned terminal curve in this family
 At every remaining covered target its assigned projection is contained in $V_p$. It has dimension one because we retained the depth proof’s deletion of every dimension-dropping incidence. An irreducible component of $V_p$ containing this projected curve cannot have higher dimension: it would also contain the observed label, which was excluded from every such component. Hence the assigned projection is itself a member of $\mathcal F_p$.
 
 The components of $\mathcal F_p$ are isolated components of the equations of degree $T_0$ defining $V_p$, even though that locus may also have higher-dimensional components elsewhere. Lemma 3.8 gives equations of degree at most $T_1$ vanishing on the whole family $\mathcal F_p$, with generic full rank except on components of total degree $$\begin{equation}
-\label{sc:last-exceptional-degree}
+\tag{6.29}
  O(E T_0/T_1)=O(\delta(N/A)\exp(-\eta s)).
 \end{equation}$$ These exceptional components carry negligible target mass. This assertion uses the dense-subcollection uniformity of the depth lemma: on this plateau $$\frac{e_{d-1}}{R}
- =\frac{N/D_d}{B\exp(-b_d s)}=\frac NA.$$ Thus any subcollection carrying a fixed positive fraction of $|P_y|$ has projected degree at least $(N/A)\exp(-\varepsilon s)$ for the fixed tolerance selected before the depth deletion. Compare with (sc:last-exceptional-degree). The ratio is $O(\delta\exp(- (\eta-\varepsilon)s))\to0$. Indeed, take the physical assigned carriers whose projections belong to the exceptional family. Their distinct projected degree is bounded by that family’s degree, so they cannot carry a fixed positive fraction of $|P_y|$. If their mass were not $o(|P_y|)$ uniformly over typical centers, one fixed positive density along a subsequence would contradict this comparison. This applies to the family selected by the envelope and its equations, without changing the fixed target assignment or the earlier depth deletion.
+ =\frac{N/D_d}{B\exp(-b_d s)}=\frac NA.$$ Thus any subcollection carrying a fixed positive fraction of $|P_y|$ has projected degree at least $(N/A)\exp(-\varepsilon s)$ for the fixed tolerance selected before the depth deletion. Compare with (6.29). The ratio is $O(\delta\exp(- (\eta-\varepsilon)s))\to0$. Indeed, take the physical assigned carriers whose projections belong to the exceptional family. Their distinct projected degree is bounded by that family’s degree, so they cannot carry a fixed positive fraction of $|P_y|$. If their mass were not $o(|P_y|)$ uniformly over typical centers, one fixed positive density along a subsequence would contradict this comparison. This applies to the family selected by the envelope and its equations, without changing the fixed target assignment or the earlier depth deletion.
 
 The identity $RD_d=A$ explains the room in this comparison: the projection depth and the last physical cut together cost $A$, while regularity supplies the strict gap $\eta-\varepsilon>0$ in the logarithmic degree scale. One must not instead compare $(N/A)\exp(-o(s))$ directly with $\delta N/A$; the latter comparison would be unjustified for arbitrarily slowly vanishing $\delta$.
 
@@ -1124,18 +1120,18 @@ In this section a rigid motion is an affine map $g(x)=Sx+h$, where $S\in O(3)$; 
  \qquad k_g(X,Y)=|X_g|.$$ When $X=Y=P$, write simply $k_g$. We shall prove the following finite statement. Its hypothesis holds eventually along the contradiction sequences used in the main proof.
 
 **Theorem 7.1** (Very rich motions). *There are absolute constants $C_{\mathrm{rich}},K_{\mathrm{rich}}>0$ with the following property. Let $P\subset\mathbb R^3$ consist of $N\ge2$ distinct points, and set $$A=N^{2/3},\qquad M=1+|\Delta(P)|.$$ If $M\le A$, then the motions satisfying $k_g\ge C_{\mathrm{rich}}A$ form a finite set and $$\begin{equation}
-\label{mot:rich-sum}
+\tag{7.1}
  \sum_{g:\,k_g\ge C_{\mathrm{rich}}A} k_g^2
  \le K_{\mathrm{rich}}\frac{N^4}{A}.
 \end{equation}$$ The same estimate holds with $k_g=|gP\cap Q|$ for any rigidly congruent copy $Q$ of $P$.*
 
-In particular, the constants in (mot:rich-sum) do not depend on the rate at which $M/A$ tends to zero. The finite hypothesis $M\le A$ will be used only through the elementary line cap $$\begin{equation}
-\label{mot:physical-line-cap}
+In particular, the constants in (7.1) do not depend on the rate at which $M/A$ tends to zero. The finite hypothesis $M\le A$ will be used only through the elementary line cap $$\begin{equation}
+\tag{7.2}
  |P\cap L|\le 2M\le2A
  \qquad\text{for every affine line }L.
 \end{equation}$$ Indeed, after fixing a point of $P\cap L$, each nonzero distance from it occurs at most twice on $L$. Thus the sharper bound $1+2(M-1)$ also holds.
 
-We shall prove the same assertion for two clouds $X,Y$ of at most $N$ points, with $A=N^{2/3}$, whenever every line contains at most $2A$ points of either cloud: the motions with $k_g(X,Y)\ge C_{\mathrm{rich}}A$ form a finite set, and their squared match counts satisfy (mot:rich-sum) with $k_g(X,Y)$ in place of $k_g$. Both orientations remain included. The line cap above supplies this hypothesis for $P$ and every congruent copy. We will divide the clouds into small regions so that each motion has matches in a controlled number of region pairs. Within each pair, a local estimate handles motions whose matches are not concentrated on a line; we count the remaining local contributions through lines in the full clouds and their possible images.
+We shall prove the same assertion for two clouds $X,Y$ of at most $N$ points, with $A=N^{2/3}$, whenever every line contains at most $2A$ points of either cloud: the motions with $k_g(X,Y)\ge C_{\mathrm{rich}}A$ form a finite set, and their squared match counts satisfy (7.1) with $k_g(X,Y)$ in place of $k_g$. Both orientations remain included. The line cap above supplies this hypothesis for $P$ and every congruent copy. We will divide the clouds into small regions so that each motion has matches in a controlled number of region pairs. Within each pair, a local estimate handles motions whose matches are not concentrated on a line; we count the remaining local contributions through lines in the full clouds and their possible images.
 
 The passage from equal-distance configurations to rigid motions is the Elekes–Sharir framework (Elekes and Sharir 2011), used by Guth and Katz in the planar problem (Guth and Katz 2015). The physical and opposite-orientation flat families below are the rigid-motion geometry developed by Tidor, Yu, and Zakharov (Tidor et al. 2026, sec. 3). We give the construction and every estimate needed here. The incidence inputs are the Szemerédi–Trotter bound, Theorem B.2, and the higher-richness Guth–Katz bound, Theorem B.5.
 
@@ -1146,7 +1142,7 @@ We use the following form of Beck’s dichotomy (Beck 1983), derived from Szeme
 **Lemma 7.2** (Many lines and many anchors). *There are absolute constants $\delta_0,\gamma_0>0$ such that the following holds. If a finite set of $n$ distinct real points has at most $\delta_0 n$ points on any line, then it spans at least $\gamma_0 n^2$ distinct lines. Moreover at least $\gamma_0 n$ of its points each lie on at least $\gamma_0 n$ of these spanned lines. The assertion holds in any fixed real affine space, and in a real projective plane after choosing a generic affine chart.*
 
 *Proof.* A generic real planar projection preserves the distinct points and all noncollinear triples of a finite affine configuration. It therefore suffices to work in the plane. Theorem B.2 gives $$\begin{equation}
-\label{mot:st-rich}
+\tag{7.3}
  \#\{L:|L\cap X|\ge u\}
  \le C_0\left(\frac{n^2}{u^3}+\frac nu\right),
  \qquad u\ge2.
@@ -1163,21 +1159,21 @@ The next lemma is motivated by the nondegenerate rich-plane bounds of Elekes and
 
 **Lemma 7.3** (Planes of large effective size). *There are absolute constants $C_2,K_2>0$ such that, for a cloud $X\subset\mathbb R^3$ with $|X|\le m$, $m\ge1$, and $H\ge C_2m^{2/3}$, $$\#\{\Pi:e_X(\Pi)\ge H\}\le K_2\frac{m^2}{H^2}.$$*
 
-*Proof.* We may assume $H\le m$. First consider a plane for which a richest line contains at least half of $X\cap\Pi$. That line contains at least $H$ points, and there are at least $H$ points of $X\cap\Pi$ off the line. By (mot:st-rich), applied after a generic projection, the number of $H$-rich lines of $X$ is $$O\left(\frac{m^2}{H^3}+\frac mH\right)=O(m/H).$$ Here $H\ge\sqrt m$, after increasing $C_2$. For any fixed line, distinct planes containing it have disjoint sets of points off that line. There are therefore at most $m/H$ planes of the present kind through each such rich line. This part contributes $O(m^2/H^2)$.
+*Proof.* We may assume $H\le m$. First consider a plane for which a richest line contains at least half of $X\cap\Pi$. That line contains at least $H$ points, and there are at least $H$ points of $X\cap\Pi$ off the line. By (7.3), applied after a generic projection, the number of $H$-rich lines of $X$ is $$O\left(\frac{m^2}{H^3}+\frac mH\right)=O(m/H).$$ Here $H\ge\sqrt m$, after increasing $C_2$. For any fixed line, distinct planes containing it have disjoint sets of points off that line. There are therefore at most $m/H$ planes of the present kind through each such rich line. This part contributes $O(m^2/H^2)$.
 
 For the remaining planes no line contains half their points. Bucket their occupancies in $[K,2K)$, where $K=2^jH$, and let $f$ denote the number in one bucket. Any fixed spatial line belongs to at most $2m/K$ of these planes, since each such plane has at least $K/2$ points off the line and those off-line sets are disjoint.
 
 For $x\in X$, let $r_x$ be the number of bucket planes containing $x$, and put $I=\sum_xr_x$. Thus $Kf\le I<2Kf$. The sum $J$, over ordered distinct pairs of bucket planes, of their common sample-point counts satisfies $$\begin{equation}
-\label{mot:plane-pairs-lower}
+\tag{7.4}
  J=\sum_xr_x(r_x-1)
  \ge \frac{K^2f^2}{m}-2Kf.
 \end{equation}$$
 
-To bound $J$ from above, fix one bucket plane $\Pi$. Separate its intersection lines with the other planes according as their occupancy is less than $C_3\sqrt K$ or at least $C_3\sqrt K$, where $C_3\ge2$ is a fixed constant. The first class contributes at most $C_3\sqrt K\,f$. Within $\Pi$, the number $a$ of distinct lines in the second class obeys, again by (mot:st-rich), $$a\le C_4\left(C_3^{-3}+C_3^{-1}\right)\sqrt K
+To bound $J$ from above, fix one bucket plane $\Pi$. Separate its intersection lines with the other planes according as their occupancy is less than $C_3\sqrt K$ or at least $C_3\sqrt K$, where $C_3\ge2$ is a fixed constant. The first class contributes at most $C_3\sqrt K\,f$. Within $\Pi$, the number $a$ of distinct lines in the second class obeys, again by (7.3), $$a\le C_4\left(C_3^{-3}+C_3^{-1}\right)\sqrt K
  =O(\sqrt K).$$ Their total summed occupancy is $O(K)$. Indeed, if a point is on $s\ge1$ of these lines, then $s\le1+\binom{s}{2}$; and two distinct lines have at most one common point. Hence the total occupancy is at most $$|X\cap\Pi|+\binom a2=O(K).$$ Each such intersection line belongs to at most $2m/K$ bucket planes. Their contribution for the fixed $\Pi$ is therefore $O(m)$. Summing over $\Pi$ gives $$\begin{equation}
-\label{mot:plane-pairs-upper}
+\tag{7.5}
  J\le C_5 f(m+\sqrt K\,f).
-\end{equation}$$ For sufficiently large $C_2$, the assumption $K\ge C_2m^{2/3}$ ensures $K^2/m\ge2C_5\sqrt K$. Combining (mot:plane-pairs-lower) and (mot:plane-pairs-upper), and using $K\le m$, now gives $f=O(m^2/K^2)$. The sum over dyadic $K\ge H$ is geometric, which proves the lemma. ◻
+\end{equation}$$ For sufficiently large $C_2$, the assumption $K\ge C_2m^{2/3}$ ensures $K^2/m\ge2C_5\sqrt K$. Combining (7.4) and (7.5), and using $K\le m$, now gives $f=O(m^2/K^2)$. The sum over dyadic $K\ge H$ is geometric, which proves the lemma. ◻
 
 ### A local bound for motions without a rich matched line
 
@@ -1198,25 +1194,25 @@ To justify these simultaneous choices, for any one fixed $S$, left multiplicatio
 #### The two families of null three-flats
 
 Use coordinates $(w,c)\in\mathbb R^3\oplus\mathbb R^3$, with $Zx=w\times x$, and equip this six-space with the nondegenerate quadratic form $$\mathfrak q(w,c)=w\cdot c.$$ Its associated symmetric bilinear form is $$\mathcal B((w,c),(w',c'))=w\cdot c'+w'\cdot c.$$ For a possible point pair $(x,y)\in X\times Y$, set $v=(x+y)/2$, $b=(x-y)/2$, and define $$\begin{equation}
-\label{mot:pair-flat}
+\tag{7.6}
  F_{x,y}=\{(w,c):b=w\times v+c\}.
 \end{equation}$$ This is an affine three-flat. Its directions obey $\delta c=-\delta w\times v$, so $\mathfrak q(\delta w,\delta c)=0$. Its direction space is therefore maximal totally null and equals its $\mathcal B$-orthogonal space.
 
 Fix one reversing motion, and choose positively oriented orthonormal coordinates with its axis $\ker(I+S)$ equal to $\mathbb R e_3$. The perpendicular block $S_\perp$ belongs to $SO(2)$, and $I+S_\perp$ is invertible. On the full graph $y=Sx+h$, there are constants $v_0,\omega\in\mathbb R$ and $d=(d_1,d_2)\in\mathbb R^2$ such that $$\begin{equation}
-\label{mot:graph-cayley}
+\tag{7.7}
  v_3=v_0,\qquad b_\perp=\omega Jv_\perp+d,
  \qquad J(a_1,a_2)=(-a_2,a_1).
 \end{equation}$$ Here $v_0=h_3/2$, and $(I-S_\perp)(I+S_\perp)^{-1}=\omega J$. The map from the physical point $x$ to $(v_1,v_2,b_3)$ is an invertible real affine map: its linear blocks are $(I+S_\perp)/2$ and $1$.
 
 Define the motion flat by $$\begin{equation}
-\label{mot:motion-flat}
+\tag{7.8}
  G_g=\{(w,c):w_3=\omega,\
              c_1+v_0w_2=d_1,\
              c_2-v_0w_1=d_2\}.
 \end{equation}$$ It is another affine three-flat. Its directions satisfy $$\delta w_3=0,\qquad
  \delta c_1=-v_0\delta w_2,\qquad
  \delta c_2=v_0\delta w_1,$$ with $\delta c_3$ free, so they too are maximal totally null. If $y=g(x)$, its intersection with the pair flat is the plane $$\begin{equation}
-\label{mot:dual-plane}
+\tag{7.9}
  H_{g,x}=F_{x,g(x)}\cap G_g:
  \quad \tau+\xi v_1+\eta v_2=b_3,
  \qquad (\xi,\eta,\tau)=(-w_2,w_1,c_3).
@@ -1224,7 +1220,7 @@ Define the motion flat by $$\begin{equation}
 
 We record the needed distinctness assertions explicitly. First, different matched physical points give different planes $H_{g,x}$, since their transformed coordinates are distinct. Second, in a fixed pair flat $F_{x,y}$, whose free coordinates are $w$, the incident plane from a motion with unit axis $a$ has equation $w\cdot a=\omega$. This affine plane determines $(a,\omega)$ up to simultaneous sign. Since the quarter-turn operator $J_a:x\mapsto a\times x$ on $a^\perp$ also changes sign with $a$, the operator $\omega J_a$, and hence $S$, is determined. The match $g(x)=y$ then fixes $h$. Hence different incident motions give distinct planes in $F_{x,y}$.
 
-Finally, the whole affine flat $G_g$ determines $g$. Its direction space intersects the pure-translation subspace $\{\delta w=0\}$ in precisely the axis line $\{\delta c\parallel a\}$, recovering that unoriented axis. Choose either orientation of it. Projection of $G_g$ to $w$-space recovers $\omega$; its direction coupling in (mot:motion-flat) recovers $v_0$; and the affine constants then recover $d$. Equation (mot:graph-cayley) gives $$S_\perp=(I-\omega J)(I+\omega J)^{-1},\qquad
+Finally, the whole affine flat $G_g$ determines $g$. Its direction space intersects the pure-translation subspace $\{\delta w=0\}$ in precisely the axis line $\{\delta c\parallel a\}$, recovering that unoriented axis. Choose either orientation of it. Projection of $G_g$ to $w$-space recovers $\omega$; its direction coupling in (7.8) recovers $v_0$; and the affine constants then recover $d$. Equation (7.7) gives $$S_\perp=(I-\omega J)(I+\omega J)^{-1},\qquad
  h_\perp=-(I+S_\perp)d,\qquad h_3=2v_0,$$ and $Sa=-a$. These reconstruct the physical motion, independently of the arbitrary oriented coordinates used in the reconstruction. Thus the $G_g$ are distinct as well.
 
 #### Polynomial construction and descent
@@ -1232,7 +1228,7 @@ Finally, the whole affine flat $G_g$ determines $g$. Its direction space interse
 Suppose that one orientation class contains at least $$T=\left\lceil K_3\frac{m^3}{\ell^{3/2}}\right\rceil$$ general-type motions, where the absolute constant $K_3$ will be chosen large. Restrict to exactly $T$ of them. Form the bipartite incidence graph between these motions and their point-pair labels. It has at least $T\ell$ edges and at most $m^2$ label vertices. Repeatedly remove a motion vertex of degree below $\ell/4$, or a label vertex of degree below $T\ell/(4m^2)$. The total number of edges removed in the first way is less than $T\ell/4$, and in the second way less than $T\ell/4$. A nonempty graph remains, in which the two minimum degree bounds hold. Every retained motion has between $\ell/4$ and $2\ell$ retained matches. Its retained physical cloud still has fewer than $\eta_1\ell$ points on any line and fewer than $\eta_2\ell$ on any plane.
 
 An ambient polynomial of degree at most $D$ has $\binom{D+6}{6}$ coefficients. Vanishing on any one affine three-flat imposes at most $\binom{D+3}{3}$ linear conditions. Thus a sufficiently large absolute multiple of $T^{1/3}$, rounded upward, is a degree $D$ for which there is a nonzero polynomial $f$ vanishing on all retained $G_g$. We may take $$\begin{equation}
-\label{mot:degree-bound}
+\tag{7.10}
  D\le C_6K_3^{1/3}\frac{m}{\sqrt\ell}.
 \end{equation}$$ We used $\ell\le m$ here; if this fails the motion bucket is empty. Choose $K_3$ sufficiently large that $$\frac{T\ell}{4m^2}>D.$$ Every retained pair flat then contains more than $D$ distinct incident planes on which $f$ vanishes. A nonzero polynomial of degree at most $D$ on an affine three-space cannot vanish on more than $D$ distinct planes: their distinct affine linear equations would all be factors. Therefore $f$ vanishes on every retained pair flat as well.
 
@@ -1240,16 +1236,16 @@ We next show that every first partial derivative of $f$ vanishes on every retain
 
 There are enough such points to force a derivative to vanish on the whole of $G_g$. Work in its transformed physical cloud of $n_g\in[\ell/4,2\ell)$ retained points. Affine invertibility preserves all line and plane occupancy bounds. Since $\eta_1\ell\le\delta_0 n_g$, Lemma 7.2 gives at least $\gamma_0\ell/4$ anchor points, each with at least $\gamma_0\ell/4$ distinct outgoing projective directions. For a fixed such anchor, a projective line of directions corresponds to a physical plane through the anchor and contains at most $\eta_2\ell$ of these distinct directions. The choice of $\eta_2$ permits a second application of Lemma 7.2. It gives at least $c_7\ell^2$ distinct physical planes through the anchor and two other noncollinear points, for an absolute $c_7>0$.
 
-All these spanned planes are nonvertical in the coordinates $(v_1,v_2,b_3)$, by the generic projection chosen above. Each is the graph of a unique affine function of $(v_1,v_2)$. Graph duality in (mot:dual-plane) therefore converts them into $c_7\ell^2$ distinct transverse triple-intersection points in the anchor plane $H_{g,x}$. They lie on the arrangement of at most $2\ell$ distinct lines obtained by intersecting this anchor plane with the other incident planes. A line in this arrangement contains at most $2\ell$ distinct intersection points with the other lines. Since each of the designated points lies on at least two arrangement lines, counting these incidences shows that at least $c_8\ell$ distinct lines each contain at least $c_8\ell$ designated points, for an absolute $c_8>0$.
+All these spanned planes are nonvertical in the coordinates $(v_1,v_2,b_3)$, by the generic projection chosen above. Each is the graph of a unique affine function of $(v_1,v_2)$. Graph duality in (7.9) therefore converts them into $c_7\ell^2$ distinct transverse triple-intersection points in the anchor plane $H_{g,x}$. They lie on the arrangement of at most $2\ell$ distinct lines obtained by intersecting this anchor plane with the other incident planes. A line in this arrangement contains at most $2\ell$ distinct intersection points with the other lines. Since each of the designated points lies on at least two arrangement lines, counting these incidences shows that at least $c_8\ell$ distinct lines each contain at least $c_8\ell$ designated points, for an absolute $c_8>0$.
 
-Choose a fixed $\varepsilon>0$ smaller than both $c_8/2$ and $\gamma_0/8$. After $K_3$ has been fixed, increase $C_{\mathrm{loc}}$ so that $\ell\ge C_{\mathrm{loc}}m^{2/3}$ and (mot:degree-bound) imply $D<\varepsilon\ell$. Each first derivative of $f$, whose degree is less than $D$, now vanishes on all the rich lines just found: its univariate restriction has more zeros than its degree. It consequently vanishes on the entire anchor plane, by the same distinct-factor argument in dimension two. There are at least $\gamma_0\ell/4>D$ distinct anchor planes, so the derivative vanishes on $G_g$.
+Choose a fixed $\varepsilon>0$ smaller than both $c_8/2$ and $\gamma_0/8$. After $K_3$ has been fixed, increase $C_{\mathrm{loc}}$ so that $\ell\ge C_{\mathrm{loc}}m^{2/3}$ and (7.10) imply $D<\varepsilon\ell$. Each first derivative of $f$, whose degree is less than $D$, now vanishes on all the rich lines just found: its univariate restriction has more zeros than its degree. It consequently vanishes on the entire anchor plane, by the same distinct-factor argument in dimension two. There are at least $\gamma_0\ell/4>D$ distinct anchor planes, so the derivative vanishes on $G_g$.
 
 Every first derivative therefore vanishes on all retained motion flats, and the earlier propagation through the retained label degrees makes it vanish on all retained pair flats. The same argument applies to it, with strictly smaller degree and the same geometric configuration. Iteration implies that a nonzero constant derivative of $f$ vanishes on a nonempty flat, a contradiction in characteristic zero. This proves the general-type bound $O(m^3/\ell^{3/2})$ for each orientation class.
 
 #### Planar type
 
 For two finite planar clouds of sizes $a,a'$, Corollary B.6 bounds the number of planar isometries giving at least $u$ matches, for an integer $u\ge3$, by $$\begin{equation}
-\label{mot:planar-placements}
+\tag{7.11}
  O\left(\frac{(aa')^{3/2}}{u^2}\right)
  \qquad (u\le\min\{a,a'\}).
 \end{equation}$$ The corollary counts both orientations. Its proof uses the higher-richness Guth–Katz line theorem (Guth and Katz 2015, Theorem 4.5) with a plane cap; that theorem has no regulus hypothesis.
@@ -1257,7 +1253,7 @@ For two finite planar clouds of sizes $a,a'$, Corollary B.6 bounds the number o
 Now take a planar-type motion in the local bucket. Choose a plane $\Pi$ with at least $\eta_2\ell$ matched source points and put $\Pi'=g\Pi$. Remove a richest ambient line from $X\cap\Pi$, and a richest ambient line from $Y\cap\Pi'$. Each deletion loses fewer than $\eta_1\ell$ matches, by the non-line-type assumption. At least $$(\eta_2-2\eta_1)\ell\ge\eta_0\ell,
  \qquad \eta_0=\eta_2/2,$$ matches remain. In particular $e_X(\Pi),e_Y(\Pi')\ge\eta_0\ell$.
 
-Bucket these two effective sizes in $[h,2h)$ and $[h',2h')$, where $h,h'$ run dyadically from $\eta_0\ell$. Choose $C_{\mathrm{loc}}$ also large enough that $\eta_0\ell\ge C_2m^{2/3}$ and $\eta_0\ell\ge3$. Lemma 7.3 supplies at most $O(m^4/(h^2(h')^2))$ ordered supporting plane pairs in these buckets. For each fixed pair, choose the two richest lines once and for all, and choose orthonormal affine coordinates on the two planes. Write $a,a'$ for the sizes of the reduced planar clouds, so $a<2h$ and $a'<2h'$. A motion being counted restricts to a planar isometry with at least $k_0=\lceil\eta_0\ell\rceil\ge3$ matches. If $k_0>\min\{a,a'\}$, there are no such restrictions; otherwise (mot:planar-placements), applied with $u=k_0$, bounds them by $O((hh')^{3/2}/\ell^2)$. Each planar restriction extends to a spatial isometry in at most two ways, according to the image of the unit normal. The constants therefore remain absolute.
+Bucket these two effective sizes in $[h,2h)$ and $[h',2h')$, where $h,h'$ run dyadically from $\eta_0\ell$. Choose $C_{\mathrm{loc}}$ also large enough that $\eta_0\ell\ge C_2m^{2/3}$ and $\eta_0\ell\ge3$. Lemma 7.3 supplies at most $O(m^4/(h^2(h')^2))$ ordered supporting plane pairs in these buckets. For each fixed pair, choose the two richest lines once and for all, and choose orthonormal affine coordinates on the two planes. Write $a,a'$ for the sizes of the reduced planar clouds, so $a<2h$ and $a'<2h'$. A motion being counted restricts to a planar isometry with at least $k_0=\lceil\eta_0\ell\rceil\ge3$ matches. If $k_0>\min\{a,a'\}$, there are no such restrictions; otherwise (7.11), applied with $u=k_0$, bounds them by $O((hh')^{3/2}/\ell^2)$. Each planar restriction extends to a spatial isometry in at most two ways, according to the image of the unit normal. The constants therefore remain absolute.
 
 Multiplying and summing the two geometric dyadic series gives $$\#\{\text{planar-type motions}\}
  \le C\frac{m^4}{\ell^2}
@@ -1268,7 +1264,7 @@ Multiplying and summing the two geometric dyadic series gives $$\#\{\text{planar
 ### A spatial subdivision with uniform overlap
 
 We now prepare to apply Lemma 7.4 to subsets of the full clouds. For $r,m\ge1$, suppose temporarily that each cloud has been divided into disjoint regions containing at most $m$ of its points, and that at most $Kr$ pairs of regions can contain matches of any fixed motion, where $K>0$ is an absolute constant. If $n_{R,R'}(g)$ is the number of matches from points of $X$ in region $R$ to points of $Y$ in region $R'$, these counts sum to $k_g(X,Y)$, and at most $Kr$ are nonzero. Hence $$\begin{equation}
-\label{mot:region-discard}
+\tag{7.12}
  \sum_{\substack{R,R'\\ n_{R,R'}(g)<b}} n_{R,R'}(g)\le Krb
  \qquad(b>0).
 \end{equation}$$ Thus, for a motion with at least $k>0$ matches, taking $b$ to be a sufficiently small fixed multiple of $k/r$ retains a fixed fraction of its matches in region pairs with local count at least $b$.
@@ -1298,12 +1294,12 @@ For a chain $Q_0\supset Q_1\supset\cdots\supset Q_a$, where each $Q_{i+1}$ is th
 These regions partition the original root cube: they group the terminal cubes of the full subdivision without changing their union. The half-open convention makes the assertion exact also on boundaries. Completed runs are disjoint and have mass at least $\mu$, so there are at most $r$ of them. There are at most $B+L$ residual runs and at most $8(B+L)$ separate light children. Consequently $$|\mathcal R_X|\le r+9(B+L)\le19r,$$ and each region has mass at most $8\mu$.
 
 We prove a thickness property for these regions. If the outer cube of a region $R$ has side $S$, then for every $x\in R$ and $0<s\le S$, there is a measurable set $E\subset R$ with $$\begin{equation}
-\label{mot:thickness}
+\tag{7.13}
  E\subset B(x,\sqrt3\,s),\qquad
  \operatorname{vol}(E)\ge(s/4)^3.
-\end{equation}$$ Choose the unique dyadic subcube $A_0$ of the outer cube containing $x$, with side $a$ satisfying $s/2<a\le s$. For a cube region, take $E=A_0$. If $R=Q\setminus Q'$ and $A_0\cap Q'=\varnothing$, the same choice works. In the remaining case dyadic nesting, together with $x\in A_0\setminus Q'$, says that $Q'$ is a strict descendant of $A_0$. A child of $A_0$ other than the child leading to $Q'$ lies in $R$, has side $a/2>s/4$, and lies within distance $\sqrt3\,s$ of $x$. Use this child as $E$. This proves (mot:thickness), including at all included half-open boundary points. The statement is unchanged by a rigid motion.
+\end{equation}$$ Choose the unique dyadic subcube $A_0$ of the outer cube containing $x$, with side $a$ satisfying $s/2<a\le s$. For a cube region, take $E=A_0$. If $R=Q\setminus Q'$ and $A_0\cap Q'=\varnothing$, the same choice works. In the remaining case dyadic nesting, together with $x\in A_0\setminus Q'$, says that $Q'$ is a strict descendant of $A_0$. A child of $A_0$ other than the child leading to $Q'$ lies in $R$, has side $a/2>s/4$, and lies within distance $\sqrt3\,s$ of $x$. Use this child as $E$. This proves (7.13), including at all included half-open boundary points. The statement is unchanged by a rigid motion.
 
-Consider the two disjoint region families $g(\mathcal R_X)$ and $\mathcal R_Y$. Charge each intersecting pair to the member with smaller outer side, breaking ties by a fixed preference between the families. Fix a charged region $R$ with outer side $s$, and let $c_R$ be the center of its outer cube. For each partner $R'$, choose $x_{R'}\in R\cap R'$. The outer side of $R'$ is at least $s$, so (mot:thickness) gives a set $$E_{R'}\subset R'\cap B(x_{R'},\sqrt3\,s),\qquad
+Consider the two disjoint region families $g(\mathcal R_X)$ and $\mathcal R_Y$. Charge each intersecting pair to the member with smaller outer side, breaking ties by a fixed preference between the families. Fix a charged region $R$ with outer side $s$, and let $c_R$ be the center of its outer cube. For each partner $R'$, choose $x_{R'}\in R\cap R'$. The outer side of $R'$ is at least $s$, so (7.13) gives a set $$E_{R'}\subset R'\cap B(x_{R'},\sqrt3\,s),\qquad
  \operatorname{vol}(E_{R'})\ge(s/4)^3.$$ All these sets lie in $B(c_R,3\sqrt3\,s/2)$. They are pairwise disjoint because the partners belong to one partition. Comparing their volumes with that ball bounds their number by an absolute constant. Summing the charges over at most $38r$ regions proves the intersection estimate. A matched point lies in a unique region of each partition, so the assertion about matches follows as well. ◻
 
 **Figure 3:** A two-dimensional illustration of the thickness argument in Lemma 7.5. The volume estimate is proved for three-dimensional cubes. It holds near the hole as well as near the outer boundary, and survives every rigid motion. This makes the packing argument independent of the depth of the dyadic subdivision.
@@ -1317,7 +1313,7 @@ We give the two elementary geometric facts needed for the line-type contribution
 1.  *If the source lines are nonparallel, at most eight rigid motions map $L_i$ onto $L'_i$ for $i=1,2$.*
 
 2.  *If the source lines are parallel, the target lines must be parallel at the same positive separation. There are at most four possible orthogonal linear parts, and for each one the admissible translations form one affine line parallel to the target lines. If all four lines contain at most $H$ points of their respective clouds, then $$\begin{equation}
-    \label{mot:parallel-weight}
+    \tag{7.14}
      \sum_g w_1(g)w_2(g)\le4H^3,
     \end{equation}$$ where only motions with positive product are included. That set of motions is finite.*
 
@@ -1329,7 +1325,7 @@ For parallel lines choose unit directions $a,b$. Let $d$ be the nonzero perpendi
 
 Parametrize one such translation family by a real number $\tau$. Each pair of a source sample point on $L_1$ and a target sample point on $L'_1$ determines a unique $\tau$. Thus $$\sum_\tau w_1(\tau)
  \le |X\cap L_1|\,|Y\cap L'_1|\le H^2,
- \qquad w_2(\tau)\le H.$$ Only finitely many $\tau$ have positive first weight. The product sum for this linear part is at most $H^3$; summing over at most four parts proves (mot:parallel-weight). This argument sums the actual translations and introduces no discretization of the continuous family. ◻
+ \qquad w_2(\tau)\le H.$$ Only finitely many $\tau$ have positive first weight. The product sum for this linear part is at most $H^3$; summing over at most four parts proves (7.14). This argument sums the actual translations and introduces no discretization of the continuous family. ◻
 
 **Lemma 7.7** (Parallel pairs at a fixed separation). *Let $\mathcal L$ be a finite family of at most $L$ distinct lines in $\mathbb R^3$. For each $\rho>0$, the number of ordered parallel pairs in $\mathcal L$ at separation $\rho$ is $O(L^{3/2})$, with an absolute implicit constant.*
 
@@ -1339,12 +1335,12 @@ Parametrize one such translation family by a real number $\tau$. Each pair of a 
 
 ### Proof of the very-rich-motion estimate
 
-*Proof of Theorem 7.1.* We prove the stronger assertion stated at the start of the section. Let $X,Y$ be clouds of at most $N$ points, put $A=N^{2/3}$, and suppose that each line contains at most $2A$ points of either cloud. Write $k_g=k_g(X,Y)$ throughout this proof. We prove (mot:rich-sum) with this notation. This implies the asserted result by (mot:physical-line-cap). Alternatively, the claim for a congruent copy follows by composing the motions with the inverse of the congruence, which preserves their match counts and bijects the two orientation classes as appropriate.
+*Proof of Theorem 7.1.* We prove the stronger assertion stated at the start of the section. Let $X,Y$ be clouds of at most $N$ points, put $A=N^{2/3}$, and suppose that each line contains at most $2A$ points of either cloud. Write $k_g=k_g(X,Y)$ throughout this proof. We prove (7.1) with this notation. This implies the asserted result by (7.2). Alternatively, the claim for a congruent copy follows by composing the motions with the inverse of the congruence, which preserves their match counts and bijects the two orientation classes as appropriate.
 
 Fix the absolute constants $$\alpha=\frac1{14},\qquad
  \beta=\frac1{4K_{\mathrm{part}}},\qquad
  \nu=\frac{\eta_1}{4}.$$ Choose $C_{\mathrm{rich}}$ sufficiently large that $$\begin{equation}
-\label{mot:constant-choices}
+\tag{7.15}
  C_{\mathrm{rich}}>4,\qquad
  \frac\beta4 C_{\mathrm{rich}}^{9/14}
       \ge C_{\mathrm{loc}},\qquad
@@ -1356,32 +1352,32 @@ Every motion with at least $C_{\mathrm{rich}}A$ matches has a noncollinear match
 
 Bucket the high motions by $$k\le k_g(X,Y)<2k,\qquad
  k=tA,\qquad t=2^jC_{\mathrm{rich}}\le N^{1/3}.$$ If no such $t$ exists, the sum is empty. In a nonempty bucket set $$\begin{equation}
-\label{mot:subdivision-parameters}
+\tag{7.16}
  r=t^{1+\alpha},\qquad
  m=8N/r,\qquad
  b=\beta k/r=\beta A t^{-\alpha}.
 \end{equation}$$ Since $t\le N^{1/3}$ and $\alpha<2$, we have $1\le r\le N$, so Lemma 7.5 applies to both clouds. It supplies at most $19r$ regions in each partition, each with at most $m$ points.
 
-For the partitions just chosen, put $X_R=X\cap R$ and $Y_{R'}=Y\cap R'$. The local count is $n_{R,R'}(g)=k_g(X_R,Y_{R'})$. These counts sum to $k_g$, and at most $K_{\mathrm{part}}r$ are nonzero. By (mot:region-discard), discarding those below $b$ removes at most $K_{\mathrm{part}}rb=k/4$ matches. At least $3k/4$ matches remain. Bucket each remaining local count into $\ell\le n_{R,R'}(g)<2\ell$, with $\ell=2^i b$, and use the line/planar/general classification of Lemma 7.4 for the clouds $X_R,Y_{R'}$ in that local bucket. A single global motion may contribute different local types in different region pairs.
+For the partitions just chosen, put $X_R=X\cap R$ and $Y_{R'}=Y\cap R'$. The local count is $n_{R,R'}(g)=k_g(X_R,Y_{R'})$. These counts sum to $k_g$, and at most $K_{\mathrm{part}}r$ are nonzero. By (7.12), discarding those below $b$ removes at most $K_{\mathrm{part}}rb=k/4$ matches. At least $3k/4$ matches remain. Bucket each remaining local count into $\ell\le n_{R,R'}(g)<2\ell$, with $\ell=2^i b$, and use the line/planar/general classification of Lemma 7.4 for the clouds $X_R,Y_{R'}$ in that local bucket. A single global motion may contribute different local types in different region pairs.
 
 The local lower threshold is valid, since $$\begin{equation}
-\label{mot:local-scale-check}
+\tag{7.17}
  \frac{b}{m^{2/3}}
  =\frac\beta4\,t^{(2-\alpha)/3}
  =\frac\beta4\,t^{9/14}
  \ge C_{\mathrm{loc}}.
 \end{equation}$$ We shall also need the full-cloud rich-line threshold $q=\eta_1b$ to be at least $\sqrt N$. The inequality $t\le N^{1/3}$ gives $N^{1/6}\ge t^{1/2}$, so $$\begin{equation}
-\label{mot:rich-line-scale}
+\tag{7.18}
  \frac{q}{\sqrt N}
  =\eta_1\beta N^{1/6}t^{-\alpha}
  \ge\eta_1\beta t^{1/2-\alpha}
  =\eta_1\beta t^{3/7}\ge1.
-\end{equation}$$ In particular these rich lines contain at least two points in every nonempty bucket. One may also record the power margin $b\ge\beta N^{9/14}$, although only (mot:rich-line-scale) is needed below.
+\end{equation}$$ In particular these rich lines contain at least two points in every nonempty bucket. One may also record the power margin $b\ge\beta N^{9/14}$, although only (7.18) is needed below.
 
 ##### Motions with substantial non-line-type mass.
 
 Let $\mathcal G_0$ consist of the motions in the global bucket whose retained local non-line-type counts have total at least $k/4$. For a fixed region pair and a local richness bucket, Lemma 7.4 bounds the number of non-line-type motions by $K_{\mathrm{loc}}m^3/\ell^{3/2}$. Their local match mass is therefore at most $2K_{\mathrm{loc}}m^3/\sqrt\ell$. Summing the geometric series over $\ell=2^i b$ gives $O(m^3/\sqrt b)$ for each fixed region pair. The bound remains valid after restriction to our global bucket. There are at most $(19r)^2$ possible region pairs, whence $$\begin{equation}
-\label{mot:nonline-mass}
+\tag{7.19}
  |\mathcal G_0|\,k^2
  \le C k r^2\frac{m^3}{\sqrt b}
  \le C' N^3\frac{k}{r\sqrt b}
@@ -1392,20 +1388,20 @@ Let $\mathcal G_0$ consist of the motions in the global bucket whose retained lo
 ##### Motions whose retained mass is mostly line type.
 
 For every remaining motion, at least $k/2$ retained matches belong to line-type local buckets. In each such region pair, choose one source line containing at least $\eta_1\ell$ of its local matches, and retain those matches as assigned line matches. Since $n_{R,R'}(g)<2\ell$, this retains at least $\eta_1/2$ of that local count. Thus the assigned line-match mass $W_g$ satisfies $$W_g\ge\nu k,\qquad \nu=\eta_1/4.$$ A physical source point participates in at most one region-pair count for a fixed motion. Hence no assigned match is repeated. Pool assignments belonging to the same full source line $L$, and write its weight as $w_{g,L}$. Its target line is necessarily $gL$, and $$\begin{equation}
-\label{mot:pooled-line-weights}
+\tag{7.20}
  \sum_Lw_{g,L}=W_g\ge\nu k,
  \qquad 0\le w_{g,L}\le2A.
 \end{equation}$$ Every line appearing on either side contains at least $\eta_1b=q$ ambient sample points, because it was chosen in a local bucket with $\ell\ge b$.
 
-Let $\mathcal L_X,\mathcal L_Y$ be the full lists of these $q$-rich lines of the two clouds. These are finite lists of spanned lines. Equations (mot:st-rich) and (mot:rich-line-scale) imply $$\begin{equation}
-\label{mot:rich-line-number}
+Let $\mathcal L_X,\mathcal L_Y$ be the full lists of these $q$-rich lines of the two clouds. These are finite lists of spanned lines. Equations (7.3) and (7.18) imply $$\begin{equation}
+\tag{7.21}
  |\mathcal L_X|,|\mathcal L_Y|
  \le C\left(\frac{N^2}{q^3}+\frac Nq\right)
  \le C'\frac Nb.
-\end{equation}$$ Denote a common upper bound in (mot:rich-line-number) by $L_*=C'N/b$.
+\end{equation}$$ Denote a common upper bound in (7.21) by $L_*=C'N/b$.
 
-The diagonal weights can be removed without losing a fixed fraction. Indeed, by (mot:constant-choices) and (mot:pooled-line-weights), $W_g\ge\nu k\ge4A$. Consequently $$\begin{equation}
-\label{mot:distinct-line-pair-mass}
+The diagonal weights can be removed without losing a fixed fraction. Indeed, by (7.15) and (7.20), $W_g\ge\nu k\ge4A$. Consequently $$\begin{equation}
+\tag{7.22}
  \sum_{L_1\ne L_2}w_{g,L_1}w_{g,L_2}
  =W_g^2-\sum_Lw_{g,L}^2
  \ge W_g^2-2AW_g
@@ -1416,27 +1412,27 @@ Sum this quantity over the remaining motions. For nonparallel source line pairs,
 
 For a parallel ordered source pair, fix its positive separation $\rho$. Lemma 7.7 gives at most $O(L_*^{3/2})$ ordered target pairs at that separation, including all target parallelism classes. There are at most $L_*^2$ source pairs. For every prescription, the pooled selected weights are bounded by the full line-match weights in Lemma 7.6; with $H=2A$, its bound is $O(A^3)$. Therefore the total parallel contribution is $O(A^3L_*^{7/2})$.
 
-If $\mathcal G_1$ denotes the remaining motions, the two cases and (mot:distinct-line-pair-mass) give $$\begin{equation}
-\label{mot:line-mass}
+If $\mathcal G_1$ denotes the remaining motions, the two cases and (7.22) give $$\begin{equation}
+\tag{7.23}
  |\mathcal G_1|\,k^2
  \le C\left(A^2(N/b)^4+A^3(N/b)^{7/2}\right).
 \end{equation}$$ This counts both orientations. In the parallel case it sums the whole continuous translation family through its finite positive match support, rather than assuming a bounded number of motions for the two prescribed lines.
 
 ##### Summing the global buckets.
 
-From $b=\beta A t^{-\alpha}$, with its fixed positive $\beta$, the two terms in (mot:line-mass) are $$\begin{align}
-\label{mot:nonparallel-exponent}
+From $b=\beta A t^{-\alpha}$, with its fixed positive $\beta$, the two terms in (7.23) are $$\begin{align}
+\tag{7.24}
  A^2(N/b)^4&=O\left(N^{8/3}t^{4\alpha}\right)
              =O\left(N^{8/3}t^{2/7}\right),\\
-\label{mot:parallel-exponent}
+\tag{7.25}
  A^3(N/b)^{7/2}&=O\left(N^{19/6}t^{7\alpha/2}\right)
              =O\left(N^{19/6}t^{1/4}\right).
 \end{align}$$ Summing these increasing geometric series up to $t\le N^{1/3}$ gives respectively $$O\left(N^{58/21}\right)
  \quad\text{and}\quad
- O\left(N^{13/4}\right).$$ Both are bounded by $O(N^{10/3})=O(N^4/A)$; in fact they save the powers $N^{-4/7}$ and $N^{-1/12}$, respectively. The decreasing geometric series in (mot:nonline-mass) gives $$\sum_{j\ge0}
+ O\left(N^{13/4}\right).$$ Both are bounded by $O(N^{10/3})=O(N^4/A)$; in fact they save the powers $N^{-4/7}$ and $N^{-1/12}$, respectively. The decreasing geometric series in (7.19) gives $$\sum_{j\ge0}
  O\left(\frac{N^4}{A}
        (2^jC_{\mathrm{rich}})^{-1/28}\right)
- =O(N^4/A).$$ Finally $k_g<2k$ in each global bucket, so replacing its cardinality times $k^2$ by the sum of the actual $k_g^2$ costs at most a factor of four. The two types exhaust every bucket, proving (mot:rich-sum). ◻
+ =O(N^4/A).$$ Finally $k_g<2k$ in each global bucket, so replacing its cardinality times $k^2$ by the sum of the actual $k_g^2$ costs at most a factor of four. The two types exhaust every bucket, proving (7.1). ◻
 
 *Remark 7.8* (Scope of the threshold and the deletion cost). The finite line cap is essential for the sum over motions to make sense. For a collinear sample without such a high threshold, infinitely many rotations about its containing line fix every point. In Theorem 7.1 each counted motion has a noncollinear matched triple, which removes this issue. For the reduction in this paper, $M=o(A)$ guarantees the finite hypothesis $M\le A$ eventually. Deleting every existing graph edge whose endpoints are matches of the same motion above the threshold costs at most $\sum_g\binom{k_g}{2}=O(N^4/A)$. Counting an edge for several motions can only increase this upper bound. In the proof of Lemma 2.5, the real Gram-matrix calculation uses this deletion to bound the parameters in every local maximal isotropic plane.
 
@@ -1450,7 +1446,7 @@ Let $E$ be a complex vector space of dimension $e\geq3$, and write $$S=\bigwedge
  r=e-1,\qquad s_0=n-r=\binom{e-1}{2}.$$ An element $z\in S$ is regarded as a skew map $E\to E^*$. Set $$\mathcal Q=\{[v:y]\in\mathbf P(E\oplus E^*):y(v)=0\}.$$ For $\lambda=[v:y]\in\mathcal Q$ with $v\ne0$, define $$\begin{equation}
  F_\lambda=\{z\in S:zv=y\},\qquad
  K_v=\{z\in S:zv=0\}.
- \label{conc:flat-model}
+ \tag{A.1}
 \end{equation}$$ Evaluation at $v$ maps $S$ onto the $r$-dimensional annihilator of $v$. Consequently $F_\lambda$ is a nonempty affine $s_0$-flat, with direction $K_v=\bigwedge^2(E/\mathbb Cv)^*$. Distinct parameters give distinct flats. Indeed, the common radical of the forms in $K_v$ is exactly $\mathbb Cv$: the quotient has dimension at least two, and each of its nonzero vectors is detected by an alternating form. The direction of the flat therefore recovers $[v]$, and its prescribed evaluation recovers $y$ with the same normalization.
 
 A maximal projective linear subspace of $\mathcal Q$ is a $\mathbf P^r$. Equivalently, it is the projectivization of an $e$-dimensional totally isotropic subspace for the quadratic form $(v,y)\mapsto y(v)$.
@@ -1465,14 +1461,14 @@ A maximal projective linear subspace of $\mathcal Q$ is a $\mathbf P^r$. Equival
  \#\{\lambda\in\mathcal P:F_\lambda\subset V\}
  \leq C\deg(V)A^h,
  \qquad \dim V=s_0+h,\quad 1\leq h<r,
- \label{conc:bound}
+ \tag{A.2}
 \end{equation}$$ for irreducible proper affine varieties $V\subset S$, in either of these settings:*
 
 1.  *All such $V$ are allowed, and $|\mathcal P|\leq C_0A^r$.*
 
 2.  *Only $V$ contained in the zero set of some nonzero polynomial of degree at most $C_0A$ are allowed. No bound on $|\mathcal P|$ is required.*
 
-For $h=0$, an irreducible variety containing an $s_0$-flat must equal that flat, so it contains at most one member of the family. In (a) the ambient endpoint $h=r$ is supplied by the cardinality assumption. As a useful consequence of (b), a nonzero polynomial of degree $D\leq C_0A$ contains at most $CDA^{r-1}$ of the flats in its zero set: apply (conc:bound) to its irreducible hypersurface components and sum their degrees.
+For $h=0$, an irreducible variety containing an $s_0$-flat must equal that flat, so it contains at most one member of the family. In (a) the ambient endpoint $h=r$ is supplied by the cardinality assumption. As a useful consequence of (b), a nonzero polynomial of degree $D\leq C_0A$ contains at most $CDA^{r-1}$ of the flats in its zero set: apply (A.2) to its irreducible hypersurface components and sum their degrees.
 
 The proof first obtains approximate equations and regular defining equations (Theorem A.2 and Lemma A.5), then recovers controlled families of actual rulings (Lemma A.6). Proposition A.7 bounds their degree and identifies the maximal-isotropic exception. Section A.5 closes the resulting finite system of inequalities with constants independent of $A$.
 
@@ -1489,49 +1485,49 @@ Here and below, a component *containing $V$* means that it contains the whole ir
  H_V(t)=\dim_{\mathbb C}
  \bigl(\mathbb C[x_1,\ldots,x_n]_{\le t}/I_{\le t}(V)\bigr).$$ For $1\le i\le c$, define $\delta_i$ to be the smallest integer $t$ such that every irreducible component of $Z(I_{\le t}(V))$ containing $V$ has codimension at least $i$. The notation $Z(I_{\le t}(V))$ means the zero set of a basis of this finite-dimensional vector space. Finite generation of $I(V)$ shows that these integers exist, and their definition gives $$\begin{equation}
  1\le\delta_1\le\cdots\le\delta_c.
- \label{aci:partial-degrees}
+ \tag{A.3}
 \end{equation}$$ We also put $\delta_0=0$.
 
 **Lemma A.3** (Compatible partial cuts). *There are $f_i\in I_{\le\delta_i}(V)$, $1\le i\le c$, such that every component of $Z(f_1,\ldots,f_i)$ containing $V$ has codimension exactly $i$.*
 
 *For any such choice, if $0\le j<c$ and $\delta_j\le m<\delta_{j+1}$, some component $W$ of $Z(f_1,\ldots,f_j)$ containing $V$ satisfies $$\begin{equation}
  I_{\le m}(W)=I_{\le m}(V),\qquad H_W(m)=H_V(m).
- \label{aci:shared-rank}
+ \tag{A.4}
 \end{equation}$$ When $j=0$, the prefix zero set and its unique component are $\mathbb A^n$.*
 
 *Proof.* Suppose $f_1,\ldots,f_{i-1}$ have been chosen, and list the finitely many components $W$ of their zero set which contain $V$. Each has codimension $i-1$. None is contained in $Z(I_{\le\delta_i}(V))$: otherwise a component of that latter set would contain $W$, hence contain $V$ and have codimension at most $i-1$, contrary to the definition of $\delta_i$. Consequently the members of $I_{\le\delta_i}(V)$ that vanish on any fixed $W$ form a proper linear subspace. Choose $f_i$ outside their finite union. It cuts every such $W$ properly. The principal ideal theorem then gives codimension exactly $i$ for every new component containing $V$. This includes $i=1$, when the preceding zero set is the ambient space, and proves the construction.
 
-For the second assertion, suppose no component $W$ in the indicated prefix has $I_{\le m}(V)\subset I(W)$. The same finite-union argument provides $g\in I_{\le m}(V)$ which vanishes identically on none of them. All components of $Z(f_1,\ldots,f_j,g)$ containing $V$ then have codimension $j+1$. Since $m\ge\delta_j$, every one of these equations belongs to $I_{\le m}(V)$. Thus every component of $Z(I_{\le m}(V))$ containing $V$ has codimension at least $j+1$. This contradicts $m<\delta_{j+1}$. For a component $W$ where the inclusion does hold, the reverse inclusion follows from $V\subset W$, giving (aci:shared-rank). ◻
+For the second assertion, suppose no component $W$ in the indicated prefix has $I_{\le m}(V)\subset I(W)$. The same finite-union argument provides $g\in I_{\le m}(V)$ which vanishes identically on none of them. All components of $Z(f_1,\ldots,f_j,g)$ containing $V$ then have codimension $j+1$. Since $m\ge\delta_j$, every one of these equations belongs to $I_{\le m}(V)$. Thus every component of $Z(I_{\le m}(V))$ containing $V$ has codimension at least $j+1$. This contradicts $m<\delta_{j+1}$. For a component $W$ where the inclusion does hold, the reverse inclusion follows from $V\subset W$, giving (A.4). ◻
 
 *Proof of Theorem A.2.* Fix the polynomials from Lemma A.3. We will prove, for $0\le s\le c$, that every component $U$ of the first $s$ cuts containing $V$ satisfies $$\begin{equation}
  \deg U\ge\gamma_n^{\,s}\prod_{i=1}^s\delta_i
- \label{aci:prefix-degree}
+ \tag{A.5}
 \end{equation}$$ for one sufficiently small $0<\gamma_n\le1$ depending only on $n$. For $s=0$ both sides are $1$.
 
 We record the precise consequence of Lemma 3.6 used here. There are constants $a_n>0$ and $b_n\ge1$ such that an irreducible $k$-dimensional variety $X$ satisfies $$\begin{equation}
  H_X(m)\le b_n\deg(X)m^k\qquad(m\ge1),
- \label{aci:rank-upper}
+ \tag{A.6}
 \end{equation}$$ and, if $X$ is a component of a system whose equations have degrees at most $m$, then $$\begin{equation}
  H_X(m)\ge a_n\deg(X)m^k\qquad(m\ge1).
- \label{aci:rank-lower}
-\end{equation}$$ The second assertion is the bound at the equation degree in (poly:hilbert-at-L), applied with $L=m$. It permits other components of the system to have larger dimension. The lower bound also holds for $X=\mathbb A^n$, after decreasing $a_n$, directly from $H_{\mathbb A^n}(m)=\binom{m+n}{n}$.
+ \tag{A.7}
+\end{equation}$$ The second assertion is the bound at the equation degree in (3.7), applied with $L=m$. It permits other components of the system to have larger dimension. The lower bound also holds for $X=\mathbb A^n$, after decreasing $a_n$, directly from $H_{\mathbb A^n}(m)=\binom{m+n}{n}$.
 
-Suppose (aci:prefix-degree) is known for smaller indices, and let $U$ be a component at index $s$. If $\delta_s=1$, the entire product in (aci:prefix-degree) is $1$, and $\deg U\ge1$ proves the claim. Otherwise set $$m=\delta_s-1,\qquad
+Suppose (A.5) is known for smaller indices, and let $U$ be a component at index $s$. If $\delta_s=1$, the entire product in (A.5) is $1$, and $\deg U\ge1$ proves the claim. Otherwise set $$m=\delta_s-1,\qquad
  j=\max\{i:0\le i<s,\ \delta_i<\delta_s\}.$$ Thus $$\begin{equation}
  \delta_j\le m<\delta_{j+1}
    =\cdots=\delta_s\le2m.
- \label{aci:block}
-\end{equation}$$ Lemma A.3 supplies a component $W$ at index $j$ with $H_W(m)=H_V(m)$. Its dimension is $n-j$, and the degrees of its defining prefix equations are at most $\delta_j\le m$. The induction hypothesis and (aci:rank-lower) therefore give $$H_V(m)=H_W(m)
+ \tag{A.8}
+\end{equation}$$ Lemma A.3 supplies a component $W$ at index $j$ with $H_W(m)=H_V(m)$. Its dimension is $n-j$, and the degrees of its defining prefix equations are at most $\delta_j\le m$. The induction hypothesis and (A.7) therefore give $$H_V(m)=H_W(m)
  \ge a_n\gamma_n^{\,j}
-       \left(\prod_{i=1}^j\delta_i\right)m^{n-j}.$$ This formula also applies when $j=0$. Since $V\subset U$, restriction from $U$ to $V$ is surjective on polynomial restriction spaces, so $H_U(m)\ge H_V(m)$. On the other hand, $\dim U=n-s$ and (aci:rank-upper) bounds $H_U(m)$ above. Combining the bounds, then using (aci:block), yields $$\begin{split}
+       \left(\prod_{i=1}^j\delta_i\right)m^{n-j}.$$ This formula also applies when $j=0$. Since $V\subset U$, restriction from $U$ to $V$ is surjective on polynomial restriction spaces, so $H_U(m)\ge H_V(m)$. On the other hand, $\dim U=n-s$ and (A.6) bounds $H_U(m)$ above. Combining the bounds, then using (A.8), yields $$\begin{split}
  \deg U
  &\ge \frac{a_n}{b_n}\gamma_n^{\,j}
        \left(\prod_{i=1}^j\delta_i\right)m^{s-j}\\
  &\ge \frac{a_n}{2^n b_n}\gamma_n^{\,j}
        \prod_{i=1}^s\delta_i.
- \end{split}$$ Choose $\gamma_n\le\min\{1,a_n/(2^n b_n)\}$. Since $j<s$, the last expression is at least the right side of (aci:prefix-degree), completing the induction. Notice that no containment relation between $U$ and the chosen $W$ was needed; both contain $V$.
+ \end{split}$$ Choose $\gamma_n\le\min\{1,a_n/(2^n b_n)\}$. Since $j<s$, the last expression is at least the right side of (A.5), completing the induction. Notice that no containment relation between $U$ and the chosen $W$ was needed; both contain $V$.
 
-At $s=c$, every prefix component containing $V$ has the same dimension as $V$, so $V$ itself is such a component. Applying (aci:prefix-degree) to it gives $$\prod_{i=1}^c\deg f_i
+At $s=c$, every prefix component containing $V$ has the same dimension as $V$, so $V$ itself is such a component. Applying (A.5) to it gives $$\prod_{i=1}^c\deg f_i
  \le\prod_{i=1}^c\delta_i
  \le\gamma_n^{-c}\deg V
  \le\gamma_n^{-n}\deg V.$$ This proves the theorem with $C_n=\gamma_n^{-n}$. ◻
@@ -1548,7 +1544,7 @@ We use the isolated-intersection form of Bézout, with local multiplicities, and
  \leq 1+C_{a-1}C_0\deg(Y)A^a.$$ The initial $1$ is absorbed because $A\geq1$ and $\deg Y\geq1$. There are only boundedly many possible dimensions. ◻
 
 **Lemma A.5** (Regular equations of controlled degree). *Suppose that an irreducible $V\subset\mathbb A^n_{\mathbb C}$ has codimension $c>0$ and is a component of $Z(f_1,\ldots,f_c)$, where $$\deg f_i\leq D,\qquad
- \prod_i\deg f_i\leq C_n\deg V,\qquad D\geq1,$$ with the dimensional constant from Theorem [conc:walsh]. There are polynomials $g_1,\ldots,g_c\in I(V)$ of degrees $O_n(D)$ whose differentials are independent at the generic point of $V$. Moreover, a polynomial $H_0$ of degree $O_n(D)$, nonzero on $V$, can be chosen so that $V\setminus Z(H_0)$ is smooth and has tangent space $$T_zV=\bigcap_{i=1}^c\ker dg_i(z)
+ \prod_i\deg f_i\leq C_n\deg V,\qquad D\geq1,$$ with the dimensional constant from Theorem A.2. There are polynomials $g_1,\ldots,g_c\in I(V)$ of degrees $O_n(D)$ whose differentials are independent at the generic point of $V$. Moreover, a polynomial $H_0$ of degree $O_n(D)$, nonzero on $V$, can be chosen so that $V\setminus Z(H_0)$ is smooth and has tangent space $$T_zV=\bigcap_{i=1}^c\ker dg_i(z)
  \qquad(z\in V\setminus Z(H_0)).$$*
 
 *Proof.* Put $P=I(V)$ and consider the regular local ring $$R=\mathbb C[x_1,\ldots,x_n]_P,\qquad
@@ -1559,10 +1555,10 @@ Write $k=\dim V$. A general projective linear projection of $\overline V$ to $\m
 After extending $F$ to an algebraic closure, this point splits into $[K:F]$ points, since the extension is separable. The sum of their local intersection multiplicities for the equations $f_i$ is $[K:F]\operatorname{length}_R(R/J)$. They are isolated common zeros; other components of the system do not affect their isolated Bézout bound (Fulton 1998, Theorem 12.3 and Example 12.3.1). The equations $f_i$ define hypersurfaces in regular local ambient rings, so these factors are Cohen–Macaulay and the isolated complete-intersection multiplicity equals the quotient length; see (Fulton 1998, Example 12.3.7(ii)–(iii)) for this identification and its Cohen–Macaulay hypothesis. Hence $$\begin{equation}
  \operatorname{length}_R(R/J)
  \leq\frac{\prod_i\deg f_i}{\deg V}\leq C_n.
- \label{conc:local-length}
+ \tag{A.9}
 \end{equation}$$ Choose an integer $L=O_n(1)$ at least this length. The maximal ideal of an Artinian local ring of length at most $L$ has $L$th power zero, so $$\begin{equation}
  \mathfrak m^L\subset J.
- \label{conc:adic-bound}
+ \tag{A.10}
 \end{equation}$$
 
 We construct the $g_i$ one at a time. Suppose $g_1,\ldots,g_u$ have independent classes in $\mathfrak m/\mathfrak m^2$, where $u<c$. They are part of a regular parameter system, and therefore $$R_u=R/(g_1,\ldots,g_u),\qquad
@@ -1583,7 +1579,7 @@ Finally choose a $c$-square minor $H_0$ of the Jacobian of the $g_i$ which is no
 
 In a chart $v_a=1$, a *ruling incidence* is an irreducible set of pairs $(z,v)$ for which $z+K_v\subset V$. Its parameter map is $$\begin{equation}
  (z,v)\longmapsto[v:zv].
- \label{conc:parameter-map}
+ \tag{A.11}
 \end{equation}$$ The point of the next lemma is that both the number of such incidences and the degree of their exceptional set can be controlled.
 
 **Lemma A.6** (Controlled ruling incidences). *Let $V\subset S$ be irreducible of dimension $k=s_0+h$, with $1\leq h<r$. Suppose that $V$ has $c=n-k$ approximate equations as in Lemma A.5, of maximum degree at most $D$. There is a polynomial $H$, nonzero on $V$ and of degree $O_e(D)$, such that, on $\Omega=V\setminus Z(H)$, the following hold.*
@@ -1600,17 +1596,17 @@ In a chart $v_a=1$, a *ruling incidence* is an irreducible set of pairs $(z,v)$ 
 
 First consider tangent directions. Under $S^*=\bigwedge^2E$, the annihilator of $K_v$ is $v\wedge E$. A bivector belongs to this space if and only if its wedge with $v$ is zero. Thus the necessary condition $K_v\subset T_zV$ is the linear system $$\begin{equation}
  v\wedge dg_i(z)=0\qquad(1\leq i\leq c).
- \label{conc:tangent-equations}
+ \tag{A.12}
 \end{equation}$$ Its vector solution space has dimension at most two. To see this, let a nonzero bivector $w$ satisfy $v\wedge w=0$ for a nonzero $v$. Splitting off $\mathbb Cv$ shows that $w=v\wedge a$ for some $a$; the vectors $v'$ satisfying $v'\wedge w=0$ are precisely $\operatorname{span}(v,a)$. If two independent conormals had a common two-dimensional solution space, both would lie in its one-dimensional exterior square, a contradiction. A two-dimensional solution space therefore forces $c=1$.
 
 Work separately in each of the $e$ normalized charts $v_a=1$. Gaussian elimination over $\mathbb C(V)$, followed by removal of nonzero rank minors, puts the system throughout $\Omega$ into one of three forms: no solution, a graph $v=b(z)$, or $$\begin{equation}
  v=b(z)+\tau a_1(z).
- \label{conc:direction-graph}
+ \tag{A.13}
 \end{equation}$$ In the last case choose a free coordinate of $v$ as $\tau$, so that its coordinate in $b$ is zero and in $a_1$ is one. All coefficients are regular on $\Omega$ and admit ambient rational representatives with numerator and denominator degrees $O_e(D)$, since the matrices have bounded size. Rank conditions which vanish generically vanish on all of $V$; excluding the nonzero minors consequently controls all remaining fibers. Denote the resulting solution variety by $\Gamma_0$. It is a smooth graph over $\Omega$, or a smooth graph over $\Omega\times\mathbb A^1$.
 
-We now test whether the tangent directions integrate to a contained flat. Write $\varepsilon_1,\ldots,\varepsilon_e$ for a basis of $E^*$. In the chart $v_a=1$, exterior products of the covectors $\varepsilon_i-v_i\varepsilon_a$, $i\ne a$, form a basis $B_1(v),\ldots,B_{s_0}(v)$ of $K_v$. Their coefficients have degree at most two in $v$. Consider the horizontal fields $$X_\alpha(z,v)=(B_\alpha(v),0).$$ Their $z$-components are tangent to $V$, by (conc:tangent-equations). They are tangent to $\Gamma_0$ if and only if the derivatives of all coordinates of its graph formula vanish in direction $B_\alpha(v)$, with $\tau$ fixed in (conc:direction-graph). Holding $\tau$ fixed is required because it is one of the coordinates of the normalized vector $v$. Call these derivative expressions $T_\beta$.
+We now test whether the tangent directions integrate to a contained flat. Write $\varepsilon_1,\ldots,\varepsilon_e$ for a basis of $E^*$. In the chart $v_a=1$, exterior products of the covectors $\varepsilon_i-v_i\varepsilon_a$, $i\ne a$, form a basis $B_1(v),\ldots,B_{s_0}(v)$ of $K_v$. Their coefficients have degree at most two in $v$. Consider the horizontal fields $$X_\alpha(z,v)=(B_\alpha(v),0).$$ Their $z$-components are tangent to $V$, by (A.12). They are tangent to $\Gamma_0$ if and only if the derivatives of all coordinates of its graph formula vanish in direction $B_\alpha(v)$, with $\tau$ fixed in (A.13). Holding $\tau$ fixed is required because it is one of the coordinates of the normalized vector $v$. Call these derivative expressions $T_\beta$.
 
-With no free coordinate the $T_\beta$ are rational functions of $z$. With a free coordinate they are polynomials in $\tau$ of bounded degree, whose coefficients have ambient rational degree $O_e(D)$. This follows by substituting (conc:direction-graph) in the quadratic expressions $B_\alpha$ and differentiating its rational coefficients. Differentiation along $T_zV$ is independent of the ambient representatives chosen, since it annihilates functions vanishing on $V$.
+With no free coordinate the $T_\beta$ are rational functions of $z$. With a free coordinate they are polynomials in $\tau$ of bounded degree, whose coefficients have ambient rational degree $O_e(D)$. This follows by substituting (A.13) in the quadratic expressions $B_\alpha$ and differentiating its rational coefficients. Differentiation along $T_zV$ is independent of the ambient representatives chosen, since it annihilates functions vanishing on $V$.
 
 Every contained flat passes this first test: on a small open part of the flat, $v$ is fixed and the direction equations continue to hold. If every $T_\beta$ is identically zero, retain $\Gamma_0$; its horizontal fields are already tangent everywhere. If there is no free coordinate but one test is nonzero, remove the zero set of its numerator and discard this chart. No contained flat in that chart can meet the remaining open set.
 
@@ -1632,7 +1628,7 @@ After processing all normalized charts, intersect their open sets and restrict t
 
 If a contained flat meets $\Omega$, choose a chart for its $v$ and a point of $F_\lambda\cap\Omega$. Both tests are necessary along that flat, and the specialized gcd identities therefore place the point in a retained incidence. This proves coverage.
 
-Finally fix one incidence and a nonempty fiber of (conc:parameter-map). Its normalized vector $v$ is fixed, and the fiber is closed in $F_\lambda\cap\Omega$. The preceding flows preserve both $v$ and $zv$ and give an analytic open subset of that flat in the fiber. Such an open subset is Zariski dense in the irreducible variety $F_\lambda\cap\Omega$, so the fiber equals this whole intersection. It has dimension $s_0$. The fiber-dimension theorem now gives $$\dim\Lambda=\dim\Gamma-s_0=(k+j)-s_0=h+j.$$ ◻
+Finally fix one incidence and a nonempty fiber of (A.11). Its normalized vector $v$ is fixed, and the fiber is closed in $F_\lambda\cap\Omega$. The preceding flows preserve both $v$ and $zv$ and give an analytic open subset of that flat in the fiber. Such an open subset is Zariski dense in the irreducible variety $F_\lambda\cap\Omega$, so the fiber equals this whole intersection. It has dimension $s_0$. The fiber-dimension theorem now gives $$\dim\Lambda=\dim\Gamma-s_0=(k+j)-s_0=h+j.$$ ◻
 
 ### Degree bounds and exceptional parameter families
 
@@ -1651,43 +1647,43 @@ On $\mathbf{P}(E)$, let $L=\mathcal O_{\mathbf{P}(E)}(-1)$ be the tautological l
  0\longrightarrow K\longrightarrow S\otimes\mathcal O
  \longrightarrow Q^*\otimes L^*\longrightarrow0,
  \qquad K=\bigwedge^2 Q^*.
- \label{conc:deg-evaluation}
+ \tag{A.14}
 \end{equation}$$ Indeed, the value of a skew form on $L$ is a map from $L$ to its annihilator $L^\perp\subset E^*$, every such map extends to a skew form on $E$, and the kernel consists of the forms on $E/L$. The ranks of these three bundles are $s_0,n,r$, respectively.
 
 All projective bundles below parametrize lines. Consider $$\begin{equation}
  B=\mathbf{P}\bigl(\mathcal O\oplus Q^*\otimes L^*\bigr)
    \simeq\mathbf{P}(L\oplus Q^*),
  \qquad \rho:B\longrightarrow\mathbf{P}(E).
- \label{conc:deg-parameter-bundle}
+ \tag{A.15}
 \end{equation}$$ The second presentation is obtained by tensoring the first bundle with $L$. We use the line convention of (Fulton 1998, sec. 3.1 and Example 3.1.1). Since $L\oplus Q^*$ is a subbundle of the trivial bundle with fiber $E\oplus E^*$, it induces a morphism $\mu:B\to\mathcal Q$. Explicitly, write a point in the first presentation as $(L,[t:\psi])$, with $\psi:L\to L^\perp$. For any nonzero $v\in L$, $$\begin{equation}
  \mu(L,[t:\psi])=[tv:\psi(v)].
- \label{conc:deg-parameter-map}
+ \tag{A.16}
 \end{equation}$$ Both rescaling $(t,\psi)$ and replacing $v$ by another generator of $L$ leave this point unchanged. Its quadratic value is zero because $\psi(v)$ annihilates $v$.
 
 Over $\mathcal Q^\circ=\{[v:y]\in\mathcal Q:v\ne0\}$, the inverse to $\mu$ recovers $L=\mathbb{C}v$ and $[1:\psi]$, where $\psi(v)=y$. Thus $\mu$ is an isomorphism over this open set. A boundary point $[0:y]$ has fiber $\mathbf{P}(\ker y)$: its preimages have $t=0$, and $L$ can be any line annihilated by $y$.
 
-Let $\mathcal T=\mathcal O_B(-1)$ be the tautological line in the *first* presentation of (conc:deg-parameter-bundle), and set $$a=\rho^*c_1\bigl(\mathcal O_{\mathbf{P}(E)}(1)\bigr),
+Let $\mathcal T=\mathcal O_B(-1)$ be the tautological line in the *first* presentation of (A.15), and set $$a=\rho^*c_1\bigl(\mathcal O_{\mathbf{P}(E)}(1)\bigr),
  \qquad b=c_1(\mathcal T^*),
  \qquad \ell=\mu^*c_1\bigl(\mathcal O_{\mathcal Q}(1)\bigr).$$ The tautological line in the second presentation is $\mathcal T\otimes\rho^*L$. Consequently $$\begin{equation}
  \ell=a+b.
- \label{conc:deg-hyperplane}
+ \tag{A.17}
 \end{equation}$$ The classes $a$ and $\ell$ are globally generated. We do not need positivity of $b$.
 
 ##### The projective incidence and its boundary.
 
-Pull back (conc:deg-evaluation) to $B$. Define $\mathcal U$ as the inverse image of $\mathcal T$ under the surjective bundle map $$(\mathbb{C}\oplus S)\otimes\mathcal O_B
+Pull back (A.14) to $B$. Define $\mathcal U$ as the inverse image of $\mathcal T$ under the surjective bundle map $$(\mathbb{C}\oplus S)\otimes\mathcal O_B
  \longrightarrow
  \mathcal O_B\oplus\rho^*(Q^*\otimes L^*),
  \qquad (x_0,z)\longmapsto(x_0,z|_L).$$ It is a vector bundle of rank $s_0+1$, with exact sequence $$\begin{equation}
  0\longrightarrow\rho^*K\longrightarrow\mathcal U
  \longrightarrow\mathcal T\longrightarrow0.
- \label{conc:deg-incidence-bundle}
+ \tag{A.18}
 \end{equation}$$ Its inclusion in the trivial bundle defines a morphism $\mathbf{P}(\mathcal U)\to\mathbf{P}(\mathbb{C}\oplus S)$. The pullback of the hyperplane class under this morphism is $$\xi=c_1\bigl(\mathcal O_{\mathbf{P}(\mathcal U)}(1)\bigr).$$ For a parameter represented by $(L,[1:\psi])$, choose $v\in L\setminus\{0\}$ and write $y=\psi(v)$. The projective fiber maps isomorphically to $$\begin{equation}
  \{[x_0:z]:zv=x_0y\}=\overline{F_{[v:y]}}.
- \label{conc:deg-flat-closure}
+ \tag{A.19}
 \end{equation}$$ Over $(L,[t:\psi])$, the defining condition is instead $(x_0,z|_L)\in\mathbb{C}(t,\psi)$. In particular, $$\begin{equation}
  t=0\quad\Longrightarrow\quad x_0=0.
- \label{conc:deg-boundary}
+ \tag{A.20}
 \end{equation}$$ Thus no boundary parameter occurs over an affine point $[1:z]$.
 
 Lift the parameter image of $\Gamma$ to $B$ using the isomorphism over $\mathcal Q^\circ$, and denote its reduced irreducible closure by $\widetilde\Lambda$. The map $\mu:\widetilde\Lambda\to\Lambda$ is birational. Put $$X=\mathbf{P}(\mathcal U|_{\widetilde\Lambda}),
@@ -1697,7 +1693,7 @@ Lift the parameter image of $\Gamma$ to $B$ using the isomorphism over $\mathcal
 
 ##### The degree of a generic point fiber.
 
-Fix an affine $z\in S$. By (conc:deg-boundary), the full incidence over $[1:z]$, before restriction to $\widetilde\Lambda$, has parameters $[v:zv]$ with $v\ne0$, and is isomorphic to $\mathbf{P}(E)$. On this projective space $\ell$ is the ordinary hyperplane class: the map $[v]\mapsto[v:zv]$ is induced by an injective linear map $E\to E\oplus E^*$.
+Fix an affine $z\in S$. By (A.20), the full incidence over $[1:z]$, before restriction to $\widetilde\Lambda$, has parameters $[v:zv]$ with $v\ne0$, and is isomorphic to $\mathbf{P}(E)$. On this projective space $\ell$ is the ordinary hyperplane class: the map $[v]\mapsto[v:zv]$ is induced by an injective linear map $E\to E\oplus E^*$.
 
 Choose a dense open subset $X^\circ\subset X$ lying in the lift of $\Gamma$. Every component of its complement has dimension at most $k+j-1$. A component which dominates $V$ therefore has generic fiber dimension at most $j-1$; a component which does not dominate $V$ is absent over a general point. The complement cannot supply a top-dimensional component of the generic fiber of $f$.
 
@@ -1706,12 +1702,12 @@ When $j=0$, the generic fiber thus consists of at most $C_e$ points, as does the
 If $d_\Gamma$ denotes the degree of the geometric generic fiber against $\ell^j$, we have proved $$\begin{equation}
  d_\Gamma\le C_e,
  \qquad d_\Gamma=1\quad\hbox{when }j=1.
- \label{conc:deg-fiber-degree}
+ \tag{A.21}
 \end{equation}$$ Proper pushforward and the projection formula, applied to fundamental cycles, now give $$\begin{equation}
  f_*(\ell^j\cap[X])=d_\Gamma[\overline V],
  \qquad
  \int_X\ell^j\xi^k=d_\Gamma\deg V\le C_e\deg V.
- \label{conc:deg-point-integral}
+ \tag{A.22}
 \end{equation}$$ The coefficient in the first identity is computed on the generic fiber. Any other component of a representative hyperplane intersection has image of dimension less than $k$ and pushes forward to zero. These formulas do not require smoothness of $X$ or $\overline V$; see (Fulton 1998, secs. 1.4, 2.3, 2.5).
 
 ##### A positive Segre-class formula.
@@ -1721,63 +1717,62 @@ For projective bundles of lines, the projective bundle formula is $$\begin{equat
    =s_h(\mathcal U|_{\widetilde\Lambda})
       \cap[\widetilde\Lambda],
  \qquad s_t(\mathcal U)=c_t(\mathcal U)^{-1}.
- \label{conc:deg-projective-bundle}
+ \tag{A.23}
 \end{equation}$$ This formula applies equally to a vector bundle on a singular base (Fulton 1998, secs. 3.1–3.3). We compute it before restriction to $\widetilde\Lambda$.
 
 Dualizing the tautological sequence on $\mathbf{P}(E)$ and tensoring by $L^*=\mathcal O(1)$ gives $$0\longrightarrow Q^*(1)
  \longrightarrow E^*\otimes\mathcal O(1)
- \longrightarrow\mathcal O(2)\longrightarrow0.$$ Together with (conc:deg-evaluation), this implies $$c_t(K)^{-1}=c_t(Q^*(1))=\frac{(1+at)^e}{1+2at}.$$ Since $c_t(\mathcal T)=1-bt$, Equations (conc:deg-incidence-bundle) and (conc:deg-hyperplane) yield $$\begin{equation}
+ \longrightarrow\mathcal O(2)\longrightarrow0.$$ Together with (A.14), this implies $$c_t(K)^{-1}=c_t(Q^*(1))=\frac{(1+at)^e}{1+2at}.$$ Since $c_t(\mathcal T)=1-bt$, Equations (A.18) and (A.17) yield $$\begin{equation}
  s_t(\mathcal U)
    =\frac{(1+at)^e}{(1+2at)(1-bt)}
    =\frac{(1+at)^e}{(1+2at)(1+(a-\ell)t)}.
- \label{conc:deg-segre-series}
+ \tag{A.24}
 \end{equation}$$ Expanding $$\frac{1}{1+(a-\ell)t}
    =\sum_{i\ge0}\frac{\ell^i t^i}{(1+at)^{i+1}}$$ and taking the coefficient of $t^h$ gives $$\begin{equation}
  s_h(\mathcal U)
  =\sum_{i=0}^h \ell^i a^{h-i}c(e-1-i,h-i),
  \qquad
  c(p,u)=[z^u]\frac{(1+z)^p}{1+2z}.
- \label{conc:deg-segre-coefficients}
+ \tag{A.25}
 \end{equation}$$
 
-For integers $p\ge u+1$ and $u\ge0$, these scalar coefficients are nonnegative. Indeed, $c(p,0)=1$, and $c(p,1)=p-2\ge0$ in its asserted range. For $u\ge2$, the identity $(1+z)^2=(1+2z)+z^2$ gives $$c(p,u)=\binom{p-2}{u}+c(p-2,u-2).$$ The second term lies in the same range, because $p-2\ge(u-2)+1$. Induction proves the claim, with a binomial coefficient equal to zero when its lower index exceeds its upper index. In (conc:deg-segre-coefficients), the required inequality is $e-1-i\ge h-i+1$, which follows from $h\le r-1=e-2$. The coefficient of $\ell^h$ is $c(e-1-h,0)=1$.
+For integers $p\ge u+1$ and $u\ge0$, these scalar coefficients are nonnegative. Indeed, $c(p,0)=1$, and $c(p,1)=p-2\ge0$ in its asserted range. For $u\ge2$, the identity $(1+z)^2=(1+2z)+z^2$ gives $$c(p,u)=\binom{p-2}{u}+c(p-2,u-2).$$ The second term lies in the same range, because $p-2\ge(u-2)+1$. Induction proves the claim, with a binomial coefficient equal to zero when its lower index exceeds its upper index. In (A.25), the required inequality is $e-1-i\ge h-i+1$, which follows from $h\le r-1=e-2$. The coefficient of $\ell^h$ is $c(e-1-h,0)=1$.
 
-All mixed top intersections of $a$ and $\ell$ on $\widetilde\Lambda$ are nonnegative. They can be computed by successive general members of globally generated linear systems, whose intersections with the fundamental cycle are effective or empty. Birationality of $\widetilde\Lambda\to\Lambda$, followed by (conc:deg-segre-coefficients), (conc:deg-projective-bundle), and (conc:deg-point-integral), therefore gives $$\begin{equation}
+All mixed top intersections of $a$ and $\ell$ on $\widetilde\Lambda$ are nonnegative. They can be computed by successive general members of globally generated linear systems, whose intersections with the fundamental cycle are effective or empty. Birationality of $\widetilde\Lambda\to\Lambda$, followed by (A.25), (A.23), and (A.22), therefore gives $$\begin{equation}
  \deg\Lambda
  =\int_{\widetilde\Lambda}\ell^{h+j}
  \le\int_{\widetilde\Lambda}\ell^j s_h(\mathcal U)
  =\int_X\ell^j\xi^k
  \le C_e\deg V.
- \label{conc:deg-bound}
+ \tag{A.26}
 \end{equation}$$
 
 ##### The tangent constraint in the affine-line case.
 
 Suppose now that $j=1$. Lemma A.6 gives $\operatorname{codim}_S V=1$, so $h=r-1$ and $\dim\Lambda=r$. We first show that the tangent space of $\Lambda$ at a general smooth point is maximal isotropic for the tangent quadratic form of $\mathcal Q$.
 
-Choose a general smooth parameter $\lambda=[v:y]\in
-\Lambda\cap\mathcal Q^\circ$, fix $z_0\in F_\lambda$, and let $U=E/\mathbb{C}v$, of dimension $r$. With a representative $(v,y)$ fixed, tangent vectors to $\mathcal Q$ are pairs $(\dot v,\dot y)$ satisfying $\dot y(v)+y(\dot v)=0$, modulo $\mathbb{C}(v,y)$. There is an isomorphism $$\begin{equation}
+Choose a general smooth parameter $\lambda=[v:y]\in \Lambda\cap\mathcal Q^\circ$, fix $z_0\in F_\lambda$, and let $U=E/\mathbb{C}v$, of dimension $r$. With a representative $(v,y)$ fixed, tangent vectors to $\mathcal Q$ are pairs $(\dot v,\dot y)$ satisfying $\dot y(v)+y(\dot v)=0$, modulo $\mathbb{C}(v,y)$. There is an isomorphism $$\begin{equation}
  T_\lambda\mathcal Q\longrightarrow U\oplus U^*,
  \qquad
  (\dot v,\dot y)\longmapsto
  (\alpha,\beta)=(\dot v\bmod v,\dot y-z_0\dot v).
- \label{conc:deg-tangent-coordinates}
+ \tag{A.27}
 \end{equation}$$ The covector $\beta$ annihilates $v$, by skew symmetry and $z_0v=y$. Adding a multiple of $(v,y)$ changes neither coordinate, and the kernel before quotienting is exactly that line, proving the isomorphism. The tangent quadratic form, defined up to scale on $\lambda^\perp/\lambda$, becomes $\beta(\alpha)$, because $$(\dot y-z_0\dot v)(\dot v)=\dot y(\dot v).$$ Let $\Theta\subset U\oplus U^*$ be the resulting $r$-dimensional image of $T_\lambda\Lambda$.
 
 The affine incidence over the smooth part of $\Lambda\cap\mathcal Q^\circ$ is an affine bundle with fibers $F_\lambda$, and its point image lies in $V$ by the preceding compactification. At a point $z=z_0+D\in F_\lambda$, with $D\in K_v=\bigwedge^2U^*$, differentiating $zv=y$ gives $$\dot z\,v=\dot y-z\dot v=\beta-D\alpha.$$ The vertical tangent space maps onto $K_v$. Evaluation at $v$ identifies $S/K_v$ with $U^*$, so modulo these vertical directions the differential is $$\begin{equation}
  \Theta\longrightarrow U^*,
  \qquad (\alpha,\beta)\longmapsto\beta-D\alpha.
- \label{conc:deg-skew-pencil}
-\end{equation}$$ Every parameter tangent vector lifts because the incidence is an affine bundle. At general points its differential has rank at most $\dim V=n-1$. Hence (conc:deg-skew-pencil) has rank less than $r$ for general $D$ and general $\lambda$. Its determinant is polynomial in the entries of $D$; for each general $\lambda$ it therefore vanishes for every skew form $D$ on $U$.
+ \tag{A.28}
+\end{equation}$$ Every parameter tangent vector lifts because the incidence is an affine bundle. At general points its differential has rank at most $\dim V=n-1$. Hence (A.28) has rank less than $r$ for general $D$ and general $\lambda$. Its determinant is polynomial in the entries of $D$; for each general $\lambda$ it therefore vanishes for every skew form $D$ on $U$.
 
 ##### Linear algebra of the singular skew pencil.
 
 We prove that this determinant condition forces $\Theta$ to be isotropic. Put $$B_*=\Theta\cap U^*,\qquad
  A_*=\operatorname{pr}_U(\Theta),\qquad
- H_*=B_*^\perp\subset U.$$ If $p=\dim A_*$, then $\dim B_*=r-p$ and $\dim H_*=p$. The plane $\Theta$ defines a linear map $$C:A_*\longrightarrow U^*/B_*\simeq H_*^*.$$ The map in (conc:deg-skew-pencil) is the identity on $B_*$. On taking the quotient by this subspace, the determinant condition is precisely $$\begin{equation}
+ H_*=B_*^\perp\subset U.$$ If $p=\dim A_*$, then $\dim B_*=r-p$ and $\dim H_*=p$. The plane $\Theta$ defines a linear map $$C:A_*\longrightarrow U^*/B_*\simeq H_*^*.$$ The map in (A.28) is the identity on $B_*$. On taking the quotient by this subspace, the determinant condition is precisely $$\begin{equation}
  \det\bigl(C-D|_{A_*\times H_*}\bigr)=0
  \qquad\hbox{for every }D\in\bigwedge^2U^*.
- \label{conc:deg-quotient-pencil}
+ \tag{A.29}
 \end{equation}$$ Here the restriction is regarded as a map $A_*\to H_*^*$. If $p=0$, the original map is the identity on $U^*$, a contradiction. Thus $p>0$.
 
 We claim that $A_*=H_*$. Otherwise let $q=\dim(A_*\cap H_*)<p$, and choose bases $$\begin{split}
@@ -1785,10 +1780,10 @@ We claim that $A_*=H_*$. Otherwise let $q=\dim(A_*\cap H_*)<p$, and choose bases
  H_*&=\operatorname{span}(c_1,\ldots,c_q,h_1,\ldots,h_{p-q}).
  \end{split}$$ All vectors displayed here are jointly linearly independent when the common vectors are listed only once. A restriction matrix of an ambient skew form on $A_*\times H_*$ may therefore be chosen arbitrarily except that its common $q$-by-$q$ block must be skew. Each such prescription extends to a skew form on $A_*+H_*$, and then to $U$.
 
-There is an invertible restriction matrix of this kind. For even $q$, use a nondegenerate skew block on the common indices and the identity between the remaining row and column indices. For odd $q$, use a nondegenerate skew block on $c_1,\ldots,c_{q-1}$, the block $$\begin{pmatrix}0&1\\1&0\end{pmatrix}$$ with rows $(c_q,a_1)$ and columns $(c_q,h_1)$, and an identity matrix on the unused extra indices. Its two off-diagonal entries pair different independent vectors and so can both be chosen equal to one without violating skew symmetry. In either case we obtain an ambient skew form $D_0$ with invertible restriction. The polynomial $\det(C-tD_0|_{A_*\times H_*})$ then has a nonzero leading coefficient, contradicting (conc:deg-quotient-pencil). This proves $A_*=H_*$.
+There is an invertible restriction matrix of this kind. For even $q$, use a nondegenerate skew block on the common indices and the identity between the remaining row and column indices. For odd $q$, use a nondegenerate skew block on $c_1,\ldots,c_{q-1}$, the block $$\begin{pmatrix}0&1\\1&0\end{pmatrix}$$ with rows $(c_q,a_1)$ and columns $(c_q,h_1)$, and an identity matrix on the unused extra indices. Its two off-diagonal entries pair different independent vectors and so can both be chosen equal to one without violating skew symmetry. In either case we obtain an ambient skew form $D_0$ with invertible restriction. The polynomial $\det(C-tD_0|_{A_*\times H_*})$ then has a nonzero leading coefficient, contradicting (A.29). This proves $A_*=H_*$.
 
 If $p$ were even, a nondegenerate skew form on $A_*$, extended to $U$, would give the same contradiction. Hence $p$ is odd. We may now regard $C$ as a bilinear form on $A_*$. If it is not skew, polarization in characteristic zero gives $x\in A_*$ with $C(x,x)\ne0$. Choose a complement to $\mathbb{C}x$, and choose a skew form $D_0$ which annihilates $x$ and is nondegenerate on this even-dimensional complement. Extend it to $U$. In a basis beginning with $x$, the coefficient of $t^{p-1}$ in $\det(C-tD_0|_{A_*})$ is $$(-1)^{p-1}C(x,x)
-    \det\bigl(D_0|_{A_*/\mathbb{C}x}\bigr)\ne0.$$ To obtain this power of $t$, the determinant must use all remaining rows and columns from $D_0$, leaving the entry $C(x,x)$. This also covers $p=1$, with the empty determinant equal to one. Again we contradict (conc:deg-quotient-pencil); therefore $C$ is skew.
+    \det\bigl(D_0|_{A_*/\mathbb{C}x}\bigr)\ne0.$$ To obtain this power of $t$, the determinant must use all remaining rows and columns from $D_0$, leaving the entry $C(x,x)$. This also covers $p=1$, with the empty determinant equal to one. Again we contradict (A.29); therefore $C$ is skew.
 
 Finally $B_*=A_*^\perp$. For every $(\alpha,\beta)\in\Theta$ we consequently have $\beta(\alpha)=C(\alpha,\alpha)=0$. Polarization shows that $\Theta$ is totally isotropic. Its dimension is $r$ in the nondegenerate $2r$-dimensional space $U\oplus U^*$, so it is maximal isotropic. We have proved this tangent property on a dense open subset of the smooth locus of $\Lambda$.
 
@@ -1797,7 +1792,7 @@ Finally $B_*=A_*^\perp$. For every $(\alpha,\beta)\in\Theta$ we consequently hav
 We finish by showing directly that this tangent property makes $\Lambda$ projectively linear. In the vector space defining $\mathcal Q$, choose a hyperbolic pair $e_0,f_0$, with orthogonal complement $W$, and normalize the quadratic form as $$q(se_0+x+tf_0)=st+q_0(x),\qquad x\in W.$$ Choose the pair so that a general smooth point of $\Lambda$ lies in the chart $$\begin{equation}
  W\longrightarrow\mathcal Q,
  \qquad x\longmapsto[e_0+x-q_0(x)f_0].
- \label{conc:deg-conformal-chart}
+ \tag{A.30}
 \end{equation}$$ The tangent quadratic form in this chart is $q_0(dx)$: the derivative of the displayed lift is $dx-(dq_0)_x(dx)f_0$, with quadratic value $q_0(dx)$. Shrink to a complex analytic neighborhood in the smooth locus on which the maximal null tangent property holds everywhere.
 
 Linear coordinates $(u,w)\in\mathbb{C}^r\oplus\mathbb{C}^r$ on $W$ can be chosen so that $$q_0(u,w)=u\cdot u-w\cdot w,
@@ -1807,7 +1802,7 @@ Linear coordinates $(u,w)\in\mathbb{C}^r\oplus\mathbb{C}^r$ on $W$ can be chosen
 Write $F_i=\partial_iF$ and $F_{ij}=\partial_i\partial_jF$. Null tangency says $$g_{ij}:=F_i\cdot F_j=\delta_{ij}.$$ Differentiating these identities and commuting mixed partials gives $$2F_{ij}\cdot F_l
    =\partial_i g_{jl}+\partial_j g_{il}-\partial_l g_{ij}=0.$$ The vectors $F_1,\ldots,F_r$ are a basis, since their Gram matrix is the identity. Thus $F_{ij}=0$ for all $i,j$, and $F$ is affine on a smaller connected neighborhood. The local submanifold in $W$ is an open subset of an affine plane $x_*+L_0$, where $L_0$ is an $r$-dimensional totally isotropic linear subspace.
 
-Let $B_0(x,w)=q_0(x+w)-q_0(x)-q_0(w)$ be the polarization. For $w\in L_0$, $q_0(x_*+w)=q_0(x_*)+B_0(x_*,w)$, so the lift in (conc:deg-conformal-chart) is affine-linear on this plane. Its projective closure is the projectivization of $$\mathbb{C}\bigl(e_0+x_*-q_0(x_*)f_0\bigr)
+Let $B_0(x,w)=q_0(x+w)-q_0(x)-q_0(w)$ be the polarization. For $w\in L_0$, $q_0(x_*+w)=q_0(x_*)+B_0(x_*,w)$, so the lift in (A.30) is affine-linear on this plane. Its projective closure is the projectivization of $$\mathbb{C}\bigl(e_0+x_*-q_0(x_*)f_0\bigr)
  \; +\;
  \{w-B_0(x_*,w)f_0:w\in L_0\}.$$ This vector space has dimension $r+1$: the first summand has nonzero $e_0$ coordinate, and the second maps injectively to $L_0$. Its quadratic form vanishes identically. Indeed, it vanishes on the displayed affine lift, and homogeneity extends this identity to its linear span. We have obtained a projective linear $\mathbf{P}^r\subset\mathcal Q$ containing a nonempty analytic open subset of the smooth irreducible variety $\Lambda$.
 
@@ -1820,9 +1815,9 @@ We now prove Theorem A.1. The preceding results control flats away from a low-d
 *Proof of Theorem A.1.* Fix the sample, $A$, and one of Specifications (a) and (b). For $0\leq h<r$, let $R_h$ be the supremum of $$\frac{\#\{\lambda\in\mathcal P:F_\lambda\subset V\}}
       {\deg(V)A^h}$$ over the allowed irreducible varieties of dimension $s_0+h$. An empty supremum is zero. These suprema are finite for the fixed sample: each numerator is at most $|\mathcal P|$, and each denominator is at least one. As noted after the theorem, $R_0\leq1$. In (a) also put $$R_r=|\mathcal P|/A^r\leq C_0.$$ In (b) the index $r$ is unavailable and will never be used.
 
-We first refine the choice of approximate equations. Take the $c=n-\dim V$ equations from Theorem [conc:walsh], ordering their degrees as $d_1\leq\cdots\leq d_c$. They form a parameter sequence in the regular local ring $\mathbb C[S]_{I(V)}$, so every initial segment of length $i$ has height $i$ (The Stacks Project Authors 2026, Tags 00NQ, 02JN, and 00NA). Choose a polynomial $q$ of smallest positive degree in $I(V)$. We may use $q$ as the first equation and preserve the upper bounds $d_i$ on the remaining ones. Indeed, suppose a replacement prefix of length $i-1$ has height $i-1$. Its minimal primes have that height, because a partial parameter sequence in this regular local ring is a regular sequence. None can contain the ideal generated by the first $i$ original equations, whose height is $i$. A generic constant linear combination of those $i$ equations avoids all these minimal primes and extends the replacement prefix to height $i$. Its degree is at most $d_i$. Starting with $q$ and continuing gives a parameter system again. Consequently $V$ remains a component of its global common zero set. Replace $d_1$ by $\deg q$. The nondecreasing upper bounds still satisfy $$\begin{equation}
+We first refine the choice of approximate equations. Take the $c=n-\dim V$ equations from Theorem A.2, ordering their degrees as $d_1\leq\cdots\leq d_c$. They form a parameter sequence in the regular local ring $\mathbb C[S]_{I(V)}$, so every initial segment of length $i$ has height $i$ (The Stacks Project Authors 2026, Tags 00NQ, 02JN, and 00NA). Choose a polynomial $q$ of smallest positive degree in $I(V)$. We may use $q$ as the first equation and preserve the upper bounds $d_i$ on the remaining ones. Indeed, suppose a replacement prefix of length $i-1$ has height $i-1$. Its minimal primes have that height, because a partial parameter sequence in this regular local ring is a regular sequence. None can contain the ideal generated by the first $i$ original equations, whose height is $i$. A generic constant linear combination of those $i$ equations avoids all these minimal primes and extends the replacement prefix to height $i$. Its degree is at most $d_i$. Starting with $q$ and continuing gives a parameter system again. Consequently $V$ remains a component of its global common zero set. Replace $d_1$ by $\deg q$. The nondecreasing upper bounds still satisfy $$\begin{equation}
  \prod_{i=1}^c d_i\leq C_n\deg V.
- \label{conc:description-product}
+ \tag{A.31}
 \end{equation}$$ The later actual degrees may be smaller than their upper bounds; this only strengthens the relevant Bézout estimates.
 
 Choose constants $$K_1>K_2>\cdots>K_{r-1}>C_0,$$ to be fixed below in terms of $e,C_0$. Consider an allowed carrier $V$ of dimension $s_0+h$, with $1\leq h<r$.
@@ -1832,16 +1827,16 @@ Suppose first that every description degree $d_i$ is at most $K_hA$. Lemma A.6 
 The remaining flats are in $V\cap Z(H)$. Its components, if any, have dimension $s_0+h-1$ and total degree at most $C_eK_hA\deg V$. They remain allowed in (b), since they are subsets of the original allowed carrier. The definition of $R_{h-1}$ gives $$\begin{equation}
  \frac{\#\{\lambda:F_\lambda\subset V\}}{\deg(V)A^h}
  \leq C(1+K_hR_{h-1}).
- \label{conc:low-recurrence}
+ \tag{A.32}
 \end{equation}$$ Here and below $C$ depends only on $e,C_0$, not on the $K_i$.
 
-Suppose instead that some $d_i>K_hA$. Let $p<c$ be the length of the prefix with $d_i\leq K_hA$. The local prefix is a regular sequence of height $p$. A minimal prime of it in $\mathbb C[S]_{I(V)}$ contracts to a global component $W$ of that prefix, containing $V$ and of codimension $p$. Isolated-component Bézout gives $$\deg W\leq\prod_{i\leq p}d_i.$$ For $p=0$, take $W=S$ and the empty product to be one. Put $i=r-p>h$, so $\dim W=s_0+i$. From (conc:description-product), $$\begin{equation}
+Suppose instead that some $d_i>K_hA$. Let $p<c$ be the length of the prefix with $d_i\leq K_hA$. The local prefix is a regular sequence of height $p$. A minimal prime of it in $\mathbb C[S]_{I(V)}$ contracts to a global component $W$ of that prefix, containing $V$ and of codimension $p$. Isolated-component Bézout gives $$\deg W\leq\prod_{i\leq p}d_i.$$ For $p=0$, take $W=S$ and the empty product to be one. Put $i=r-p>h$, so $\dim W=s_0+i$. From (A.31), $$\begin{equation}
  \deg V\geq C_n^{-1}\deg W(K_hA)^{i-h}.
- \label{conc:degree-comparison}
+ \tag{A.33}
 \end{equation}$$ In Case (b), the minimal first equation has degree at most $C_0A$. Since $K_h>C_0$, it belongs to the prefix. Therefore $p\geq1$, $i<r$, and $W$ lies in that same hypersurface of degree at most $C_0A$. Thus $W$ is allowed in (b). In (a) the ambient possibility $i=r$ is already controlled. In either case, counting first on $W$ yields $$\begin{equation}
  \frac{\#\{\lambda:F_\lambda\subset V\}}{\deg(V)A^h}
  \leq \frac{C R_i}{K_h^{i-h}}.
- \label{conc:high-recurrence}
+ \tag{A.34}
 \end{equation}$$
 
 Taking suprema in the two alternatives gives the finite system $$\begin{equation}
@@ -1850,7 +1845,7 @@ Taking suprema in the two alternatives gives the finite system $$\begin{equation
  \max_{\substack{i>h\\i\text{ available}}}
        \frac{CR_i}{K_h^{i-h}}\right\},
  \qquad1\leq h<r.
- \label{conc:recurrence-system}
+ \tag{A.35}
 \end{equation}$$ An empty inner maximum is omitted. We close this system explicitly, so that no constant depends on the description degrees or on the size of the sample.
 
 Enlarge $C$ to at least one. Choose $$B_0\geq\max(1,C_0),\qquad c_1>4C+4,\qquad \kappa>4Cc_1.$$ Take $K_{r-1}\geq\max(2,C_0+1)$, and successively set $K_h=\kappa K_{h+1}$ for $h=r-2,\ldots,1$. Define barriers $$B_h=c_1K_hB_{h-1}\quad(1\leq h<r),
@@ -1859,12 +1854,11 @@ Enlarge $C$ to at least one. Choose $$B_0\geq\max(1,C_0),\qquad c_1>4C+4,\qquad 
  \leq C(c_1/\kappa)^{i-h}<\frac14.$$ If the ambient index is available, $B_h\geq c_1K_hB_0$ gives $$\frac{CB_r}{B_hK_h^{r-h}}
  \leq\frac{C}{c_1K_h^{r-h+1}}<\frac12.$$ The other transition satisfies $$\frac{C(1+K_hB_{h-1})}{B_h}\leq\frac{2C}{c_1}<\frac12.$$ All choices so far depend only on $e,C_0$.
 
-If the maximum $T=\max_h R_h/B_h$ were greater than one, a maximizing index would be interior: $R_0\leq B_0$, and the ambient endpoint, when present, obeys the same bound. Substitute $R_j\leq TB_j$ into (conc:recurrence-system). Since $T>1$, each term in its right side is strictly less than $TB_h$, contradicting maximality. Hence $R_h\leq B_h$ for every available index. This is (conc:bound), with a constant depending only on $e,C_0$. ◻
+If the maximum $T=\max_h R_h/B_h$ were greater than one, a maximizing index would be interior: $R_0\leq B_0$, and the ambient endpoint, when present, obeys the same bound. Substitute $R_j\leq TB_j$ into (A.35). Since $T>1$, each term in its right side is strictly less than $TB_h$, contradicting maximality. Hence $R_h\leq B_h$ for every available index. This is (A.2), with a constant depending only on $e,C_0$. ◻
 
 ## Real incidence estimates
 
-We give the incidence arguments used in the proof. All constants in this section are absolute. The elementary algebraic facts used below are the following forms of Bézout’s Theorem: two relatively prime polynomials of degrees $a,b$ in three variables have at most $ab$ distinct common line components, and a polynomial of degree $a$ has at most $a$ zeros on a line unless it vanishes identically on that line. We also use unique factorization, the implicit function theorem, and the Borsuk–Ulam Theorem in its standard form that every continuous odd map $S^q\longrightarrow
-\mathbb R^q$ has a zero (Hatcher 2002, Corollary 2B.7). In the ruled-surface argument we use the basic projective facts that a projective morphism has closed image, that varieties have finitely many irreducible components, and that a proper closed subset of an irreducible curve is finite. We use the dimension and generic-fiber-dimension theorems, and extension of derivations across separable algebraic field extensions. The incidence theorems and the special assertions about ruled surfaces are proved below. The historical sources for the two principal incidence bounds are (Szemerédi and Trotter 1983; Guth and Katz 2015).
+We give the incidence arguments used in the proof. All constants in this section are absolute. The elementary algebraic facts used below are the following forms of Bézout’s Theorem: two relatively prime polynomials of degrees $a,b$ in three variables have at most $ab$ distinct common line components, and a polynomial of degree $a$ has at most $a$ zeros on a line unless it vanishes identically on that line. We also use unique factorization, the implicit function theorem, and the Borsuk–Ulam Theorem in its standard form that every continuous odd map $S^q\longrightarrow \mathbb R^q$ has a zero (Hatcher 2002, Corollary 2B.7). In the ruled-surface argument we use the basic projective facts that a projective morphism has closed image, that varieties have finitely many irreducible components, and that a proper closed subset of an irreducible curve is finite. We use the dimension and generic-fiber-dimension theorems, and extension of derivations across separable algebraic field extensions. The incidence theorems and the special assertions about ruled surfaces are proved below. The historical sources for the two principal incidence bounds are (Szemerédi and Trotter 1983; Guth and Katz 2015).
 
 ### The planar incidence bound
 
@@ -1925,17 +1919,17 @@ Every flat line belongs to exactly one irreducible factor of $f$: membership in 
 *Proof.* We first prove a uniform version. Let $S$ be a set of $s$ points each incident to between $k$ and $2k$ lines. Suppose at least $L/100$ lines each contain at least $sk/(100L)$ points of $S$. We will prove the stated bound for $s$.
 
 Fix a sufficiently small absolute $\varepsilon>0$. We may assume $$\begin{equation}
-\label{ci:large-s}
+\tag{B.1}
  s>A\left(L^{3/2}k^{-2}+Lk^{-1}\right),
 \end{equation}$$ where $A$ will be chosen sufficiently large. By Theorem B.2, this assumption implies $s\le C L^2k^{-3}$. Choose $$r=\left\lfloor\theta L^2s^{-1}k^{-3}\right\rfloor,$$ where the constant $\theta$ is sufficiently large. Thus $r\ge1$ and $r$ is comparable to the expression inside the floor. Lemma B.3 gives a polynomial $f$ of degree $D\le Cr$. We claim that at most $\varepsilon s$ points of $S$ lie outside $Z(f)$.
 
 Otherwise, among its $O(r^3)$ sign cells, at least $c_\varepsilon r^3$ contain at least $c_\varepsilon s/r^3$ points of $S$. To verify this, discard cells with fewer than a small fixed multiple of $\varepsilon s/r^3$ points and use the uniform upper bound $Cs/r^3$ for the others. Each line meets at most $D+1=O(r)$ cells. One of the retained cells is therefore met by at most $C_\varepsilon L/r^2$ lines. Apply Theorem B.2 inside it: $$\frac{s}{r^3}
  \le C_\varepsilon\left(\frac{L^2}{r^4k^3}
                          +\frac L{r^2k}\right).$$ Substitution of $r$ gives $$s\le C_\varepsilon\left(\theta^{-1}s
-                   +\theta L^3s^{-1}k^{-4}\right).$$ Choose $\theta$ first so that the first term can be absorbed. The resulting inequality $s\le C_\varepsilon\sqrt\theta L^{3/2}k^{-2}$ contradicts (ci:large-s) when $A$ is sufficiently large. This proves the claim.
+                   +\theta L^3s^{-1}k^{-4}\right).$$ Choose $\theta$ first so that the first term can be absorbed. The resulting inequality $s\le C_\varepsilon\sqrt\theta L^{3/2}k^{-2}$ contradicts (B.1) when $A$ is sufficiently large. This proves the claim.
 
-Replacing $f$ by its square-free part does not change its zero set and can only lower its degree. The same estimates and (ci:large-s) give $$\begin{equation}
-\label{ci:small-degree}
+Replacing $f$ by its square-free part does not change its zero set and can only lower its degree. The same estimates and (B.1) give $$\begin{equation}
+\tag{B.2}
  D\le C\theta L^2s^{-1}k^{-3},\qquad
  \frac D{sk/L}\le\frac{C\theta}{A^2},\qquad
  \frac D{\sqrt L}\le\frac{C\theta}{Ak}.
@@ -1944,8 +1938,8 @@ Replacing $f$ by its square-free part does not change its zero set and can only 
 
 Let $\mathcal L_0$ be the at least $L/100$ lines in the uniformity assumption. If such a line contains fewer than $sk/(200L)$ points of $S_*$, it contains at least $sk/(200L)$ points of $S\setminus S_*$. But this latter set has at most $2k|S\setminus S_*|\le4\varepsilon sk$ incidences. Thus at most $800\varepsilon L$ lines of $\mathcal L_0$ fail to contain $sk/(200L)$ points of $S_*$. With $\varepsilon$ small enough, at least $L/200$ lines succeed.
 
-All points of $S_*$ are critical or flat by Lemma B.4. On each successful line one of these two kinds occurs at least $sk/(400L)$ times. By (ci:small-degree) this is more than $3D$, on enlarging $A$. Every successful line is consequently a critical line or a flat line. Lemma B.4 and the last bound in (ci:small-degree) show that fewer than $L/400$ of them are critical or flat on nonplanar components. At least $L/400$ therefore lie in plane components of $Z(f)$. There are at most $D$ such components, so one contains at least $L/(400D)$ lines. It follows that $$B_0\ge\frac L{400D}\ge c\frac{sk^3}{L},
- \qquad s\le C LB_0k^{-3}.$$ Together with the alternative to (ci:large-s), this proves the uniform version with an absolute constant $C_0$.
+All points of $S_*$ are critical or flat by Lemma B.4. On each successful line one of these two kinds occurs at least $sk/(400L)$ times. By (B.2) this is more than $3D$, on enlarging $A$. Every successful line is consequently a critical line or a flat line. Lemma B.4 and the last bound in (B.2) show that fewer than $L/400$ of them are critical or flat on nonplanar components. At least $L/400$ therefore lie in plane components of $Z(f)$. There are at most $D$ such components, so one contains at least $L/(400D)$ lines. It follows that $$B_0\ge\frac L{400D}\ge c\frac{sk^3}{L},
+ \qquad s\le C LB_0k^{-3}.$$ Together with the alternative to (B.1), this proves the uniform version with an absolute constant $C_0$.
 
 We remove the uniformity assumption by induction on $L$, keeping this same constant $C_0$. Let $\mathcal L_1$ consist of the lines containing at least $sk/(100L)$ points of $S$. If $|\mathcal L_1|\ge L/100$, we have already finished. Otherwise the other lines supply fewer than $sk/100$ incidences, and at least $9s/10$ points of $S$ lie on at least $9k/10$ lines of $\mathcal L_1$. Partition these points according as their multiplicity in $\mathcal L_1$ is at least $k$ or less than $k$. One class has at least $9s/20$ points. Its multiplicities lie between $k_1$ and $2k_1$, where either $k_1=k$ or $k_1=\lceil9k/10\rceil\ge3$. The induction hypothesis applies with $L_1=|\mathcal L_1|<L/100$ and the unchanged plane cap $B_0$. Consequently $$s\le\frac{20}{9}C_0
  \left(\frac{L_1^{3/2}}{k_1^2}
@@ -1956,11 +1950,11 @@ We remove the uniformity assumption by induction on $L$, keeping this same const
 **Corollary B.6** (Planar motions with many matches). *Let $U,V\subset\mathbb R^2$ have respective cardinalities $u,v$. For $3\le k\le\min(u,v)$, at most $C(uv)^{3/2}/k^2$ Euclidean isometries $g$ have $|g(U)\cap V|\ge k$.*
 
 *Proof.* There are finitely many isometries with at least two matches: two distinct ordered matches determine at most two isometries. Separate the two orientation classes and reflect one cloud for the reversing class. A generic rotation of $V$ makes $I+R$ invertible for the linear part $R$ of every counted direct isometry. Write $J(x_1,x_2)=(-x_2,x_1)$. In its planar Cayley chart a direct isometry is represented by a point $(t,c)\in\mathbb R\times\mathbb R^2$, and a match $x\mapsto y$ is represented by the line $$\begin{equation}
-\label{ci:cayley-line}
+\tag{B.3}
  c=\frac{x-y}{2}-tJ\frac{x+y}{2}.
 \end{equation}$$ Indeed, putting $Z=tJ$, the match equation is equivalent to $(I+Z)y=(I-Z)x-2c$, and $(I+Z)^{-1}(I-Z)$ is orthogonal of determinant one. Conversely every direct isometry with $I+R$ invertible has this representation.
 
-The $uv$ lines are distinct: their intercept and slope determine $x-y$ and $x+y$, hence both endpoints. A plane in $(t,c)$-space has an equation $a\cdot c+bt=d$. If $a=0$ it contains no such line. Otherwise, for a line (ci:cayley-line) contained in the plane, $$a\cdot(x-y)=2d,\qquad a\cdot J(x+y)=2b.$$ With $x$ fixed these determine $y$ uniquely, because $a$ and $J^Ta$ are independent; the same holds with $y$ fixed. Thus the plane cap is $B_0\le\min(u,v)$. Apply Theorem B.5. Its middle term is bounded by its first because $B_0\le\sqrt{uv}\le k\sqrt{uv}$, and its last is bounded by its first because $k\le\min(u,v)\le\sqrt{uv}$. The bounded orientation split completes the proof. ◻
+The $uv$ lines are distinct: their intercept and slope determine $x-y$ and $x+y$, hence both endpoints. A plane in $(t,c)$-space has an equation $a\cdot c+bt=d$. If $a=0$ it contains no such line. Otherwise, for a line (B.3) contained in the plane, $$a\cdot(x-y)=2d,\qquad a\cdot J(x+y)=2b.$$ With $x$ fixed these determine $y$ uniquely, because $a$ and $J^Ta$ are independent; the same holds with $y$ fixed. Thus the plane cap is $B_0\le\min(u,v)$. Apply Theorem B.5. Its middle term is bounded by its first because $B_0\le\sqrt{uv}\le k\sqrt{uv}$, and its last is bounded by its first because $k\le\min(u,v)\le\sqrt{uv}$. The bounded orientation split completes the proof. ◻
 
 ### A ruled-surface criterion with a degree bound
 
@@ -1971,7 +1965,7 @@ All varieties in the next two lemmas are over $\mathbb C$, unless a real structu
 **Lemma B.7** (A polynomial detecting ruledness). *An irreducible surface of degree $d$ in $\mathbb C^3$ which is not geometrically ruled contains at most $17d^2$ affine lines.*
 
 *Proof.* Planes are ruled. An irreducible complex projective quadric has rank three or four: rank three gives a cone over a conic, and in rank four a linear coordinate change gives $X_0X_3=X_1X_2$, whose two rulings follow by fixing the ratio in either pair of factors. Hence we may assume $d\ge3$. Write its irreducible defining polynomial as $F$. After a linear coordinate change, $A=F_z$ is not identically zero. Put $B=F_x$, $C=F_y$ and form the tangent vector $$V(u,v)=(Au,Av,-Bu-Cv).$$ The binary forms $$q(u,v)=D^2F[V,V],\qquad c(u,v)=D^3F[V,V,V]$$ are obtained by differentiating $F$ only, with the displayed vector held fixed. Their coefficient degrees are at most $3d-4$ and $4d-6$. Let $R$ be their homogeneous binary resultant. The Sylvester determinant is homogeneous of degree three in the quadratic coefficients and degree two in the cubic coefficients; therefore $$\begin{equation}
-\label{ci:resultant-degree}
+\tag{B.4}
  \deg R\le3(3d-4)+2(4d-6)=17d-24.
 \end{equation}$$ The resultant vanishes precisely when the two binary forms have a common projective root; this includes identically zero forms.
 
@@ -1992,7 +1986,7 @@ Set $D=\partial_x+a\partial_y$. If $a$ is a simple root of $Q$, differentiating 
              =t_ya^2+taa_y-ta_x.$$ Their difference gives $t(a_x+aa_y)=0$, so $Da=0$ in this case as well. It follows that $$Dx=1,\quad Dy=a,\quad Dz=w,\qquad
  D^2x=D^2y=D^2z=0.$$ The formal Taylor map $\exp(TD)=\sum_{j\ge0}T^jD^j/j!$ is an algebra homomorphism in characteristic zero: the product rule proves this coefficient by coefficient. Apply it to $F(x,y,z)=0$ to obtain $$F(x+T,y+aT,z+wT)=0.$$ Thus the geometric generic point of the surface lies on a contained line. The set of lines on its projective closure is a closed subset of the Grassmannian: substituting the line parameterization in the homogenized equation gives polynomial equations for it. The projective point–line incidence variety has closed image in the surface. Since its image contains the geometric generic point, it is the whole surface. This proves ruledness.
 
-If the surface is not ruled, $F$ and $R$ are therefore relatively prime, and Bézout with (ci:resultant-degree) bounds their common lines by $17d^2$. ◻
+If the surface is not ruled, $F$ and $R$ are therefore relatively prime, and Bézout with (B.4) bounds their common lines by $17d^2$. ◻
 
 ### Intersections among generators
 
@@ -2041,7 +2035,7 @@ Every one of these $b$ lines meets the retained ruled union in at most $D$ point
 
 ### The planar distinct-distance estimate
 
-**Lemma B.11** (Concentration of planar Cayley lines). *For two finite planar sets $U,V$ of sizes $u,v$, the $uv$ lines (ci:cayley-line) have at most $\min(u,v)$ members in a plane and at most $6u+2v$ members in a regulus.*
+**Lemma B.11** (Concentration of planar Cayley lines). *For two finite planar sets $U,V$ of sizes $u,v$, the $uv$ lines (B.3) have at most $\min(u,v)$ members in a plane and at most $6u+2v$ members in a regulus.*
 
 *Proof.* Distinctness and the plane bound were proved in Corollary B.6. Fix $x\in U$ and allow the other endpoint $y$ to range over all of $\mathbb R^2$. These lines partition $(t,c)$-space: at every point their equation uniquely determines $$y=(I+tJ)^{-1}\bigl((I-tJ)x-2c\bigr).$$ Their nonparallel directions and lack of intersections mean that they are pairwise skew even projectively. The polynomial vector field $$W_x(t,c)=\bigl(1+t^2,(tI+J)(c-x)\bigr)$$ is nowhere zero over $\mathbb R$ and tangent to this family. Indeed along its line through $(t,c)$ the derivative of $c$ with respect to $t$ is $(tI+J)(c-x)/(1+t^2)=-J(x+y)/2$.
 
@@ -2051,7 +2045,7 @@ Thus this fixed-$x$ family supplies a full real affine ruling of the regulus. It
 
 **Theorem B.12** (Planar distinct distances). *Every finite set $Q\subset\mathbb R^2$ of $n\ge2$ points determines at least $c n/\log(2n)$ distinct positive distances.*
 
-*Proof.* Two distinct ordered matches determine a unique orientation-preserving planar isometry whenever the matched segments have the same positive length. There are consequently finitely many direct isometries with at least two matches from $Q$ to itself. Rotate a second copy of $Q$ by a generic rotation $R_0$ to form $Q'=R_0Q$. We may ensure that none of the direct isometries with two matches from $Q$ to $Q'$ has linear part $-I$: each is $R_0g$ for one of the finitely many just described, and each excludes only one rotation $R_0$. All these motions therefore lie in the Cayley chart used in (ci:cayley-line). Translations lie in this chart as well.
+*Proof.* Two distinct ordered matches determine a unique orientation-preserving planar isometry whenever the matched segments have the same positive length. There are consequently finitely many direct isometries with at least two matches from $Q$ to itself. Rotate a second copy of $Q$ by a generic rotation $R_0$ to form $Q'=R_0Q$. We may ensure that none of the direct isometries with two matches from $Q$ to $Q'$ has linear part $-I$: each is $R_0g$ for one of the finitely many just described, and each excludes only one rotation $R_0$. All these motions therefore lie in the Cayley chart used in (B.3). Translations lie in this chart as well.
 
 Use the $n^2$ lines for the pairs $(x,y)\in Q\times Q'$. Lemma B.11 gives plane cap $n$ and regulus cap $8n$. Theorem B.10 bounds the two-rich points by $Cn^3$. For $3\le k\le n$, Theorem B.5 bounds the $k$-rich points by $$C\left(\frac{n^3}{k^2}+\frac{n^3}{k^3}+\frac{n^2}{k}\right)
  \le C'\frac{n^3}{k^2}.$$ Multiplicity equals the number of matches, by the bijective Cayley representation, and it is at most $n$.

@@ -47,13 +47,13 @@ For an integer $X\ge2$ and a fixed $\lambda>0$, write $$L=\log X,\qquad h=\lfloo
 
 **Proposition 2.1** (Weights for adjacent intervals). *For each fixed $\lambda>0$ there is a finite constant $K_\lambda>0$ with the following property. For every $\varepsilon>0$, there are weights $W_X(m)\ge0$, defined for integers $X<m\le2X$, such that $$\begin{align}
  \mathbb E_X W_X&\longrightarrow1,
- &\mathbb E_X(W_XV_J)&\longrightarrow\lambda,\label{eq:weight-first}\\
+ &\mathbb E_X(W_XV_J)&\longrightarrow\lambda,\tag{1}\\
  \limsup_{X\to\infty}\mathbb E_X(W_XV_I)&\le\varepsilon,
- &\limsup_{X\to\infty}\mathbb E_X(W_XV_J^2)&\le K_\lambda,\label{eq:weight-primes}\\
- \mathbb E_X W_X^2&=O_{\lambda,\varepsilon}(1).\label{eq:weight-second}
+ &\limsup_{X\to\infty}\mathbb E_X(W_XV_J^2)&\le K_\lambda,\tag{2}\\
+ \mathbb E_X W_X^2&=O_{\lambda,\varepsilon}(1).\tag{3}
 \end{align}$$ The constant $K_\lambda$ is independent of $\varepsilon$.*
 
-The construction and proof occupy Sections 3 through 5. We now show why precisely these estimates suffice. In particular, the bound in (eq:weight-second) need not be uniform as $\varepsilon$ decreases.
+The construction and proof occupy Sections 3 through 5. We now show why precisely these estimates suffice. In particular, the bound in (3) need not be uniform as $\varepsilon$ decreases.
 
 The estimate for $\mathbb E_X(W_XV_J^2)$ prevents the detected prime mass from being concentrated on too little weighted mass. After removing the starts that contain a prime in $I$, the separate estimate for $\mathbb E_XW_X^2$ prevents the remaining weighted mass from being concentrated on too few ordinary starts. This is why only the first constant must be chosen before the suppression tolerance.
 
@@ -67,7 +67,7 @@ The estimate for $\mathbb E_X(W_XV_J^2)$ prevents the detected prime mass from b
 
 *Proof of Theorem 1.1.* Fix $C>0$ and choose $\lambda>\max\{C,1\}$. Take $\varepsilon=\lambda^2/(2K_\lambda)$ in Proposition 2.1, and fix the resulting weight family. There is a finite constant $M>0$ such that $\mathbb E_XW_X^2\le M$ for every sufficiently large $X$. Let $A_X=\{V_J>0\}$ and $B_X=\{V_I>0\}$. Weighted Cauchy–Schwarz gives $$\mathbb E_X(W_X\mathbf1_{A_X})
  \ge \frac{\bigl(\mathbb E_X(W_XV_J)\bigr)^2}
-             {\mathbb E_X(W_XV_J^2)}$$ for all sufficiently large $X$; its denominator is positive because the numerator tends to $\lambda^2>0$. By (eq:weight-first)–(eq:weight-primes), $$\liminf_{X\to\infty}\mathbb E_X(W_X\mathbf1_{A_X})
+             {\mathbb E_X(W_XV_J^2)}$$ for all sufficiently large $X$; its denominator is positive because the numerator tends to $\lambda^2>0$. By (1)–(2), $$\liminf_{X\to\infty}\mathbb E_X(W_X\mathbf1_{A_X})
  \ge\frac{\lambda^2}{K_\lambda}.$$ Since $\mathbf1_{B_X}\le V_I$ and $W_X\ge0$, it follows that $$\liminf_{X\to\infty}\mathbb E_X
       (W_X\mathbf1_{A_X\setminus B_X})
  \ge \frac{\lambda^2}{K_\lambda}-\varepsilon
@@ -99,7 +99,7 @@ Put $\tau=1/8$, and let $k$ be a positive integer. For $1\le j\le k$, take a rea
  \qquad
  (Tf_{j+1})(\mathbf t)=\int_0^\infty f_{j+1}(\mathbf t,u)\,du.$$ In dimension zero the last expression is a scalar. All norms below are Lebesgue $L^2$ norms on nonnegative orthants, with absolute value in dimension zero. On the nonnegative orthant, $F_j$ vanishes when $\sum_i v_i\ge\tau$. Cumulative integration also gives $$\begin{equation}
  (-1)^j\partial_1\cdots\partial_jF_j=f_j.
- \label{eq:cumulative-derivative}
+ \tag{4}
 \end{equation}$$ Thus these complete mixed derivatives vanish on every coordinate face, even though the cumulative functions themselves need not.
 
 Define the signed sum $$Z(m)=\sum_{j=0}^k\sum_{\substack{S\subset I\\|S|=j}}D_{F_j}(m;S),
@@ -109,27 +109,27 @@ Define the signed sum $$Z(m)=\sum_{j=0}^k\sum_{\substack{S\subset I\\|S|=j}}D_{F
  \mathbb E_XZ^2&\longrightarrow
        w:=\sum_{j=0}^k\alpha_j\|f_j\|_2^2,
        &\mathbb E_XZ^4&=O_{\lambda,k,\mathbf f}(1),
-       \label{eq:weight-unmarked}\\
+       \tag{5}\\
  \mathbb E_X(Z^2V_J)&\longrightarrow\lambda w,
        &\mathbb E_X(Z^2V_I)&\longrightarrow
        v:=\lambda\sum_{j=0}^k\alpha_j
                          \|f_j+Tf_{j+1}\|_2^2.
-       \label{eq:weight-marked}
+       \tag{6}
 \end{align}$$ Choose once and for all a real $G\in C_c^\infty(\mathbb R)$ with $G(0)=1$ and $G(u)=0$ for $u\ge\tau$, and put $$c_G=\int_0^\infty |G'(u)|^2\,du,
  \qquad C_*=\lambda+\lambda^2c_G^2.$$ For every fixed family as above, $$\begin{equation}
  \limsup_{X\to\infty}\mathbb E_X(Z^2V_J^2)\le C_*w.
- \label{eq:detector-bound}
+ \tag{7}
 \end{equation}$$ In particular, $C_*$ is independent of $k$ and of the family $(f_j)$.*
 
 The formulas distinguish two effects of a prime mark. A prime in $J$ lies outside every subset used to build $Z$, whereas a prime in $I$ alters the sum itself. To see the latter point exactly, fix $a\in I$. When $m+a$ is prime, every nonzero term from a subset containing $a$ has divisor one in that coordinate: the other possible divisor satisfies $\log(m+a)/L>1>\tau$, so its contribution vanishes by the support condition on $F_j$. Put $\widetilde F_j=F_j+F_{j+1}(\cdot,0)$. Deleting $a$ from each subset that contains it therefore gives the exact identity $$\begin{equation}
-\label{eq:prime-deletion}
+\tag{8}
  Z(m)=\sum_{j=0}^k
        \sum_{\substack{U\subset I\setminus\{a\}\\|U|=j}}
        D_{\widetilde F_j}(m;U)
  \qquad\text{when $m+a$ is prime}.
 \end{equation}$$ Each subset occurs once, so deletion introduces no dimension factor. The signed complete mixed derivative of $\widetilde F_j$ is $f_j+Tf_{j+1}$. This explains why the marked form $v$ couples neighboring dimensions.
 
-The analytic proof evaluates the products in these squares by pairing equal shifts. Any unmatched shift sets a coordinate of a complete mixed derivative to zero, so the face vanishing in (eq:cumulative-derivative) removes its main term. Only matching subsets remain in the limiting quadratic forms, producing the squared norms in $w$ and $v$. The same proof controls the errors and establishes the two different second-moment bounds.
+The analytic proof evaluates the products in these squares by pairing equal shifts. Any unmatched shift sets a coordinate of a complete mixed derivative to zero, so the face vanishing in (4) removes its main term. Only matching subsets remain in the limiting quadratic forms, producing the squared norms in $w$ and $v$. The same proof controls the errors and establishes the two different second-moment bounds.
 
 For a family with $w>0$, the normalization $W_X=Z^2/w$ therefore has all the properties in Proposition 2.1 except the prescribed smallness of the prime mass in $I$. That last requirement is exactly $v/w\le\varepsilon$. The next section constructs families with $w\to1$ and $v\to0$, while the detector constant $C_*$ remains unchanged.
 
@@ -159,7 +159,7 @@ For a large integer $k$ and $0\le j\le k$, define $$Q_j(\mathbf t)=k^{j/2}\prod_
 Take $r=\lfloor\sqrt k\rfloor$ and $a=k-r+1$. Choose once and for all a smooth cutoff $\chi$ with $0\le\chi\le1$, equal to one on $[0,\beta]$ and zero on $[\gamma,\infty)$. At the $r$ indices $a\le j\le k$, set $$\begin{equation}
  f_j(\mathbf t)=\frac{(-1)^j}{\sqrt r\sqrt{\alpha_j}}
                      Q_j(\mathbf t)\chi(S_j),
- \label{eq:active-levels}
+ \tag{9}
 \end{equation}$$ and set all other $f_j$, including $f_0$, to zero. Each selected finite family has compact interior support: every coordinate is bounded away from zero by a positive support endpoint of $g$ divided by $k$, and the cutoff forces $S_j\le\gamma<\tau$.
 
 The density $Q_j^2$ has total mass one. Under it the variables $kt_i$ are independent with density $g^2$, so, for $j\le k$, $$\mathbb E_jS_j=\frac{j\mu_g}{k}\le\mu_g,
@@ -167,7 +167,7 @@ The density $Q_j^2$ has total mass one. Under it the variables $kt_i$ are indepe
                                       \le\frac{s_g^2}{k}.$$ Chebyshev’s inequality therefore gives $$\begin{equation}
  1-\frac{s_g^2}{kd^2}
  \le w=\frac1r\sum_{j=a}^k\mathbb E_j[\chi(S_j)^2]\le1.
- \label{eq:w-concentration}
+ \tag{10}
 \end{equation}$$ This proves $w\to1$.
 
 For $a\le j\le k-1$, substituting $u=kt_{j+1}$ and using $\alpha_j/\alpha_{j+1}=(j+1)/\lambda$ gives $$\begin{align}
@@ -175,8 +175,8 @@ For $a\le j\le k-1$, substituting $u=kt_{j+1}$ and using $\alpha_j/\alpha_{j+1}=
  &=\frac{(-1)^jQ_j(\mathbf t)}{\sqrt r}
        \left[\chi(S_j)-\sqrt{\frac{j+1}{\lambda k}}
                   \int_0^\infty g(u)\chi(S_j+u/k)\,du\right].
- \label{eq:interior-cancellation}
-\end{align}$$ For $k\ge2B/d$, Chebyshev’s inequality gives, uniformly in $j\le k$, $$\mathbb P_j(S_j>\beta-B/k)\le\frac{4s_g^2}{kd^2}.$$ On the complementary event every cutoff in (eq:interior-cancellation) equals one. The bracket is then $1-\sqrt{(j+1)/k}$, whose square is at most $(r/k)^2$. Everywhere, both terms in the bracket lie in $[0,1]$, since $g\ge0$, $\int g=\sqrt\lambda$, and $j+1\le k$; its absolute value is at most one. After summing the $r-1$ interior terms, their total contribution to $v/\lambda$ is at most $$(r/k)^2+\frac{4s_g^2}{kd^2}.$$
+ \tag{11}
+\end{align}$$ For $k\ge2B/d$, Chebyshev’s inequality gives, uniformly in $j\le k$, $$\mathbb P_j(S_j>\beta-B/k)\le\frac{4s_g^2}{kd^2}.$$ On the complementary event every cutoff in (11) equals one. The bracket is then $1-\sqrt{(j+1)/k}$, whose square is at most $(r/k)^2$. Everywhere, both terms in the bracket lie in $[0,1]$, since $g\ge0$, $\int g=\sqrt\lambda$, and $j+1\le k$; its absolute value is at most one. After summing the $r-1$ interior terms, their total contribution to $v/\lambda$ is at most $$(r/k)^2+\frac{4s_g^2}{kd^2}.$$
 
 Here the probability estimate is with respect to $Q_j^2$, while the coordinate-deletion integral contains $g(u)\,du$. The passage between them uses no comparison of these measures: on the complementary event, $S_j+u/k\le\beta$ holds for every $u$ in the support of $g$. Thus the whole integral has its cutoff equal to one pointwise.
 
@@ -187,8 +187,8 @@ Exactly two further indices can contribute. At the top, $j=k$, the term is $\alp
  0\le\frac v\lambda
  \le\frac2r+\left(\frac rk\right)^2+\frac{4s_g^2}{kd^2}
  \longrightarrow0.
- \label{eq:v-cancellation-bound}
-\end{equation}$$ Together with (eq:w-concentration), this proves the proposition. ◻
+ \tag{12}
+\end{equation}$$ Together with (10), this proves the proposition. ◻
 
 *Proof of Proposition 2.1.* Fix $\lambda>0$ and one function $G$ as in Proposition 3.1. Set $$K_\lambda=C_*=\lambda+\lambda^2c_G^2.$$ This choice is independent of $\varepsilon$. Given $\varepsilon>0$, choose $\beta$, $\gamma$, $g$, and $\chi$ as in the preceding construction. By Proposition 4.2, one can select a *single finite* $k$ and its family with $w>0$ and $v/w\le\varepsilon$. Freeze this family and define $$W_X(m)=\frac{Z(m)^2}{w}.$$ All conclusions follow from Proposition 3.1 by division by $w$, or by $w^2$ for the second moment. Once the construction is chosen in terms of $\lambda$ and $\varepsilon$, the fixed-family second-moment bound may be written $O_{\lambda,\varepsilon}(1)$.
 
@@ -215,14 +215,14 @@ For a finite set $\mathcal H$ of distinct integers, put $$\nu_p(\mathcal H)=|\ma
  (\vartheta(m+a_0),\{a_0,a_1,\ldots,a_t\}),&\delta=1,
  \end{cases}
  \qquad \vartheta(n)=(\log n)1_{\{n\text{ prime}\}}.$$ Assume $\sum_r\rho_r<1$ if $\delta=0$, and $\sum_r\rho_r<1/2$ if $\delta=1$. Then there is a real constant $\mathcal C$, depending only on the functions and $\kappa$, such that $$\begin{equation}
-\label{eq:mixed-moment}
+\tag{13}
  \mathbb E_X\left[\chi_\delta(m)\prod_rD_{F_r}(m;\mathbf b^{(r)})\right]
  =L^{-t}\left\{\mathfrak S(\mathcal H)\mathcal C
  +O\!\left(L^{-1/2}(\log L)^A\right)\right\}.
 \end{equation}$$ Here $A$ is a fixed finite number depending only on $\sum_rj_r$; the implied constant may depend on all the fixed data, but is uniform in the actual shifts. In particular the error is additive when $\mathfrak S(\mathcal H)=0$.*
 
 *If each $|\mathcal M_i|$ is at most two, the constant is $$\begin{equation}
-\label{eq:mixed-derivative-constant}
+\tag{14}
  \mathcal C=
  \int\prod_r\left((-1)^{j_r}\partial_1\cdots\partial_{j_r}F_r\right)
        \big((y_{\kappa(r,\ell)})_{\ell=1}^{j_r}\big)
@@ -245,41 +245,41 @@ We retain the notation of Proposition 5.1 and put $H_X=DL^B$. The two arithmeti
 \sum_{q\le x^{1/2}(\log x)^{-b(A)}}
  \max_{(c,q)=1}\left|\psi(x;q,c)-\frac{x}{\varphi(q)}\right|
  \ll_A x(\log x)^{-A}.
-\label{eq:arithmetic-BV}
+\tag{15}
 \end{equation}$$ Here $\psi(x;q,c)=\sum_{n\le x,\ n\equiv c\pmod q}\Lambda(n)$, and $q=1$ is included. Fix $0\le\sigma<1/2$, $K\ge1$, and define $$E_X(q)=\max_{\substack{a\in\mathbb Z,\ |a|\le H_X\\(c,q)=1}}
 \left|\sum_{\substack{X+a<n\le2X+a\\n\equiv c\pmod q}}\vartheta(n)
        -\frac{X}{\varphi(q)}\right|.$$ For every $A>0$, $$\begin{equation}
 \sum_{q\le X^\sigma}\mu^2(q)K^{\omega(q)}E_X(q)
  \ll_{A,\sigma,K,D,B}X L^{-A}.
-\label{eq:arithmetic-1}
+\tag{16}
 \end{equation}$$ The conventions are $\omega(1)=0$, $K^0=1$, and $\varphi(1)=1$.*
 
-*Proof.* At either endpoint $x=X,2X$, the range $q\le X^\sigma$ is contained in the range of (eq:arithmetic-BV) for every fixed logarithmic saving once $X$ is sufficiently large. Removing proper prime powers from a $\psi$-sum costs at most $$\sum_{p^j\le3X,\ j\ge2}\log p\ll X^{1/2}L^2$$ in each residue class. Indeed there are $O(X^{1/2}L)$ pairs $p,j\ge2$, and each summand is $O(L)$. Translating the two endpoints through any $|a|\le H_X$ costs $O((H_X+1)L)$, uniformly in the residue class. Thus, writing $Q=\lfloor X^\sigma\rfloor$, for every $A_0>0$, $$\begin{equation}
+*Proof.* At either endpoint $x=X,2X$, the range $q\le X^\sigma$ is contained in the range of (15) for every fixed logarithmic saving once $X$ is sufficiently large. Removing proper prime powers from a $\psi$-sum costs at most $$\sum_{p^j\le3X,\ j\ge2}\log p\ll X^{1/2}L^2$$ in each residue class. Indeed there are $O(X^{1/2}L)$ pairs $p,j\ge2$, and each summand is $O(L)$. Translating the two endpoints through any $|a|\le H_X$ costs $O((H_X+1)L)$, uniformly in the residue class. Thus, writing $Q=\lfloor X^\sigma\rfloor$, for every $A_0>0$, $$\begin{equation}
 \sum_{q\le Q}E_X(q)
  \ll_{A_0}X L^{-A_0}
        +Q\{X^{1/2}L^2+(H_X+1)L\}
  \ll_{A_0,\sigma,D,B}X L^{-A_0}.
-\label{eq:arithmetic-2}
+\tag{17}
 \end{equation}$$ The last absorption uses the fixed strict inequality $\sigma<1/2$. The same bound controls the maximum over all shifts at once; no union bound over shifts is used.
 
 An interval of length $X$ contains at most $X/q+1$ integers in one residue class. Also $$\frac q{\varphi(q)}=\prod_{p\mid q}\frac p{p-1}
  \le2^{\omega(q)}\le d(q).$$ Since $q\le Q<X$ for large $X$, these two facts give $$\begin{equation}
 E_X(q)\ll \frac Xq\{L+d(q)\}.
-\label{eq:arithmetic-3}
+\tag{18}
 \end{equation}$$ For every fixed real $T\ge1$, $$\begin{equation}
 \sum_{q\le Q}\frac{\mu^2(q)T^{\omega(q)}}q
  \le\prod_{p\le Q}(1+T/p)\ll_T L^{c_T}
-\label{eq:arithmetic-4}
+\tag{19}
 \end{equation}$$ for a finite constant $c_T$. The elementary bound $\sum_{p\le y}1/p=O(\log\log(3y))$ suffices: for $y\ge2$, compare $1/p\le e p^{-1-1/\log y}$ with $\log\zeta(1+1/\log y)$, and bound $\zeta(1+u)\le1+1/u$. No prime-number theorem is needed for this estimate.
 
-As squarefree $q$ satisfy $d(q)=2^{\omega(q)}$, (eq:arithmetic-3)–(eq:arithmetic-4) imply, for some finite $c_K$, $$\sum_{q\le Q}\mu^2(q)K^{2\omega(q)}E_X(q)
+As squarefree $q$ satisfy $d(q)=2^{\omega(q)}$, (18)–(19) imply, for some finite $c_K$, $$\sum_{q\le Q}\mu^2(q)K^{2\omega(q)}E_X(q)
  \ll_K X L^{c_K}.$$ Cauchy–Schwarz, applied to the nonnegative numbers $E_X(q)$, therefore gives $$\begin{split}
 \sum_{q\le Q}\mu^2(q)K^{\omega(q)}E_X(q)
 &\le
  \left(\sum_{q\le Q}E_X(q)\right)^{1/2}
  \left(\sum_{q\le Q}\mu^2(q)K^{2\omega(q)}E_X(q)\right)^{1/2}\\
 &\ll X L^{(c_K-A_0)/2}.
-\end{split}$$ Choose $A_0\ge c_K+2A$. This proves (eq:arithmetic-1). ◻
+\end{split}$$ Choose $A_0\ge c_K+2A$. This proves (16). ◻
 
 **Lemma 5.3** (Exact density sum and arithmetic error).
 
@@ -296,16 +296,16 @@ As squarefree $q$ satisfy $d(q)=2^{\omega(q)}$, (eq:arithmetic-3)–(eq:arithmet
  \rho_\delta(\mathbf d)\prod_{\gamma\in\Gamma}\mu(d_\gamma)
  \prod_rF_r\left(
        \left(\frac{\log d_{r,\ell}}L\right)_{\ell=1}^{j_r}\right).
-\label{eq:arithmetic-5}
+\tag{20}
 \end{equation}$$ Empty products are one. For every $A>0$, uniformly in the allowed shifts, $$\begin{equation}
  \mathbb E_X\left[\chi_\delta(m)
              \prod_rD_{F_r}(m;\mathbf b^{(r)})\right]
  =\mathcal A_\delta+O_A(L^{-A}).
-\label{eq:arithmetic-6}
+\tag{21}
 \end{equation}$$ The implied constant may depend on the fixed functions, dimensions, support budgets, $D,B,A$. For $\delta=0$ and $M\ge1$, the error is $$\begin{equation}
  O\bigl(X^{\sigma-1}(1+\log X)^{M-1}
           \prod_r\|F_r\|_\infty\bigr).
-\label{eq:arithmetic-7}
+\tag{22}
 \end{equation}$$*
 
 *Proof.* Expand the product of divisor sums. Möbius factors kill all nonsquarefree divisors. Whenever the product of the $F_r$’s is nonzero, the support hypothesis gives $$\begin{equation}
@@ -313,7 +313,7 @@ As squarefree $q$ satisfy $d(q)=2^{\omega(q)}$, (eq:arithmetic-3)–(eq:arithmet
 \quad\text{for every }r,
 \qquad
 q\le\prod_\gamma d_\gamma\le X^\sigma.
-\label{eq:arithmetic-8}
+\tag{23}
 \end{equation}$$ This uses the budget of the sum of the coordinates in each factor, and does not impose a budget on the dimension.
 
 For a squarefree tuple, the conditions $d_\gamma\mid m+b_\gamma$ prescribe at prime $p\mid q$ the residues $m\equiv-b_\gamma\pmod p$ for all selected coordinates. These congruences are inconsistent unless the selected shifts agree modulo every $p\mid q$. When they agree, the Chinese remainder theorem prescribes exactly one class $m\pmod q$. In the unmarked case this is precisely compatibility, and the count is $X/q+O(1)$, with an absolute constant in the $O(1)$.
@@ -321,10 +321,10 @@ For a squarefree tuple, the conditions $d_\gamma\mid m+b_\gamma$ prescribe at pr
 When $M\ge1$, the number of positive integer tuples whose product is at most $Y\ge1$ is at most $$\begin{equation}
 Y\left(\sum_{d\le Y}\frac1d\right)^{M-1}
  \le Y(1+\log Y)^{M-1}.
-\label{eq:arithmetic-9}
-\end{equation}$$ Indeed, fix the first $M-1$ entries and bound the number of possible last entries by $Y$ divided by their product, then enlarge each preceding summation to $d\le Y$. Apply (eq:arithmetic-9) with $Y=X^\sigma$, multiply the $O(1)$ count error by $\prod_r\|F_r\|_\infty$, and divide by $X$. This proves (eq:arithmetic-7), hence (eq:arithmetic-6) in the unmarked case. If $M=0$, the unmarked average and (eq:arithmetic-5) are both exactly $\prod_rF_r$.
+\tag{24}
+\end{equation}$$ Indeed, fix the first $M-1$ entries and bound the number of possible last entries by $Y$ divided by their product, then enlarge each preceding summation to $d\le Y$. Apply (24) with $Y=X^\sigma$, multiply the $O(1)$ count error by $\prod_r\|F_r\|_\infty$, and divide by $X$. This proves (22), hence (21) in the unmarked case. If $M=0$, the unmarked average and (20) are both exactly $\prod_rF_r$.
 
-For the marked case, put $n=m+a_0$. On a residue class satisfying these divisor congruences, the residue of $n\pmod p$ is $a_0-b_\gamma$ whenever $p\mid d_\gamma$. Consequently this class is reduced modulo $q$ exactly when the additional marked compatibility condition holds. If it is not reduced, a prime $n$ in that class would have to be a prime divisor of $q$, hence satisfy $n\le q$. But (eq:arithmetic-8) and $\sigma<1/2$ give $$n\ge X-H_X> X^\sigma\ge q$$ for large $X$. The marked sum on a nonreduced class is therefore exactly zero, not an unestimated exceptional term. On a reduced class, the marked sum is $$\frac X{\varphi(q)}+O(E_X(q)).$$ Since $q$ is squarefree, $\varphi(q)=\prod_{p\mid q}(p-1)$, proving the main density factor in (eq:arithmetic-5).
+For the marked case, put $n=m+a_0$. On a residue class satisfying these divisor congruences, the residue of $n\pmod p$ is $a_0-b_\gamma$ whenever $p\mid d_\gamma$. Consequently this class is reduced modulo $q$ exactly when the additional marked compatibility condition holds. If it is not reduced, a prime $n$ in that class would have to be a prime divisor of $q$, hence satisfy $n\le q$. But (23) and $\sigma<1/2$ give $$n\ge X-H_X> X^\sigma\ge q$$ for large $X$. The marked sum on a nonreduced class is therefore exactly zero, not an unestimated exceptional term. On a reduced class, the marked sum is $$\frac X{\varphi(q)}+O(E_X(q)).$$ Since $q$ is squarefree, $\varphi(q)=\prod_{p\mid q}(p-1)$, proving the main density factor in (20).
 
 For fixed squarefree $q$, each prime dividing $q$ must be assigned to a nonempty subset of the $M$ divisor coordinates. There are at most $(2^M-1)^{\omega(q)}\le (2^M)^{\omega(q)}$ choices if $M\ge1$; support and compatibility only reduce this count. The empty tuple, if $M=0$, has $q=1$ and is handled directly by the same bound with $K=1$. Thus the total normalized error is at most $$\frac{\prod_r\|F_r\|_\infty}{X}
  \sum_{q\le X^\sigma}\mu^2(q)(2^M)^{\omega(q)}E_X(q),$$ which is $O_A(L^{-A})$ by Lemma 5.2. This proves the marked case, including all scalar factors and the wholly zero-dimensional case. ◻
@@ -333,41 +333,40 @@ For fixed squarefree $q$, each prime dividing $q$ must be assigned to a nonempty
 
 The residue-class calculation has controlled the prime-counting error. It remains to evaluate its finite density sum, separating a constant determined by the test functions from the singular series of the shifts.
 
-*Proof of Proposition 5.1.* Let $M=|\Gamma|$. By Lemma 5.3, it remains to evaluate $\mathcal A_\delta$ from (eq:arithmetic-5): the arithmetic error is $O_N(L^{-N})$ for every fixed $N$. If $M=0$, that sum is exactly $\prod_rF_r$, and the assertion follows. We henceforth assume $M>0$.
+*Proof of Proposition 5.1.* Let $M=|\Gamma|$. By Lemma 5.3, it remains to evaluate $\mathcal A_\delta$ from (20): the arithmetic error is $O_N(L^{-N})$ for every fixed $N$. If $M=0$, that sum is exactly $\prod_rF_r$, and the assertion follows. We henceforth assume $M>0$.
 
 Choose a smooth compact extension $\widetilde F_r$ of each positive-dimensional function and define its Fourier transform by $$\Phi_r(\mathbf u)=(2\pi)^{-j_r}\int_{\mathbb R^{j_r}}
  e^{\sum_\ell v_\ell}\widetilde F_r(\mathbf v)
  e^{\mathrm i\mathbf u\cdot\mathbf v}\,d\mathbf v.$$ The function $\Phi_r$ is Schwartz, and Fourier inversion gives exactly $$\begin{equation}
-\label{eq:fourier-inversion}
+\tag{25}
  F_r(\mathbf v)=\int_{\mathbb R^{j_r}}\Phi_r(\mathbf u)
  e^{-\sum_\ell(1+\mathrm i u_\ell)v_\ell}\,d\mathbf u
  \qquad(\mathbf v\in[0,\infty)^{j_r}).
 \end{equation}$$ For scalar factors use the scalar itself. Put $\Phi=\prod_r\Phi_r$, $z_\gamma=(1+\mathrm i u_\gamma)/L$, and $z_S=\sum_{\gamma\in S}z_\gamma$.
 
-Insert (eq:fourier-inversion) into the density sum (eq:arithmetic-5), retaining the sum over all squarefree tuples. The following bound justifies moving that sum inside the integrals: $$\begin{equation}
-\label{eq:absolute-euler-sum}
+Insert (25) into the density sum (20), retaining the sum over all squarefree tuples. The following bound justifies moving that sum inside the integrals: $$\begin{equation}
+\tag{26}
  \sum_{\mathbf d}\rho_\delta(\mathbf d)\prod_\gamma d_\gamma^{-1/L}
  \le\prod_p(1+C_Mp^{-1-1/L})\ll_M L^{C_M}.
-\end{equation}$$ Indeed $1/(p-\delta)\le2/p$, every nonempty selected subset contributes at most $p^{-1/L}$, and there are at most $2^M-1$ subsets. Moreover $\sum_pp^{-1-\varepsilon}\le\log\zeta(1+\varepsilon)
-\le\log(1+1/\varepsilon)$. Multiplication by the finite integral $\int|\Phi|$ proves absolute convergence of the sum-integral interchange.
+\end{equation}$$ Indeed $1/(p-\delta)\le2/p$, every nonempty selected subset contributes at most $p^{-1/L}$, and there are at most $2^M-1$ subsets. Moreover $\sum_pp^{-1-\varepsilon}\le\log\zeta(1+\varepsilon) \le\log(1+1/\varepsilon)$. Multiplication by the finite integral $\int|\Phi|$ proves absolute convergence of the sum-integral interchange.
 
 Call a nonempty subset $S\subset\Gamma$ allowed at $p$ if its shifts satisfy the same compatibility and mark-exclusion conditions. The exact Euler factor is then $$P_p(\mathbf z)=1+\frac1{p-\delta}
  \sum_{S\text{ allowed at }p}(-1)^{|S|}p^{-z_S},
  \qquad
- \mathcal A_\delta=\int\Phi(\mathbf u)\prod_pP_p(\mathbf z)\,d\mathbf u.$$ By (eq:absolute-euler-sum) and Schwartz decay, the part of this integral where $\max_\gamma|u_\gamma|>\sqrt L$ is $O_N(L^{-N})$ for every fixed $N$. All subsequent comparisons are made on the complementary region.
+ \mathcal A_\delta=\int\Phi(\mathbf u)\prod_pP_p(\mathbf z)\,d\mathbf u.$$ By (26) and Schwartz decay, the part of this integral where $\max_\gamma|u_\gamma|>\sqrt L$ is $O_N(L^{-N})$ for every fixed $N$. All subsequent comparisons are made on the complementary region.
 
 The factors carrying the zeta poles are $$B_p(\mathbf z)=\prod_{i=1}^t\prod_{\varnothing\ne S\subset\mathcal M_i}
  (1-p^{-1-z_S})^{-(-1)^{|S|}},\qquad
  H_p(\mathbf z)=P_p(\mathbf z)/B_p(\mathbf z).$$ For $\Re z_\gamma\ge0$, all denominators in this expression have absolute value at least $1/2$, and $|H_p(\mathbf z)|\le\exp(C_M/p)$. If distinct shifts in $\mathcal H$ have distinct residues modulo $p$, the allowed subsets are exactly the nonempty subsets of the individual fibers $\mathcal M_i$. Matching the terms of order $p^{-1}$ gives $$\begin{equation}
-\label{eq:generic-local-factor}
+\tag{27}
  H_p(\mathbf z)=1+O_M(p^{-2}),
 \end{equation}$$ uniformly for $\Re z_\gamma\ge0$.
 
 At $\mathbf z=0$, summing signs over the nonempty subsets of each occupied allowed residue class gives $$P_p(0)=\frac{p-\nu_p(\mathcal H)}{p-\delta},\qquad
  B_p(0)=(1-1/p)^t.$$ It follows that $H_p(0)$ is the local factor of $\mathfrak S(\mathcal H)$. This identity holds also when that factor is zero.
 
-We now compare the product of the $H_p$’s additively with its value at zero. Take $Y=\max(2,2DL^B)$. For $p\le Y$, differentiation along the segment from zero to $\mathbf z$ gives $$|H_p(\mathbf z)-H_p(0)|\ll_M L^{-1/2}\frac{\log p}{p}.$$ For example, $|p^{-z_S}-1|\le|z_S|\log p$ on that segment, while the denominators stay bounded away from zero. Each mixed partial product in the additive telescoping identity is at most $$\exp\left(C_M\sum_{p\le Y}1/p\right)\ll_M(\log Y)^{C'_M}.$$ Using even the elementary bound $\sum_{p\le Y}(\log p)/p\le\sum_{n\le Y}(\log n)/n=O((\log Y)^2)$, we obtain an error $O(L^{-1/2}(\log L)^A)$ for the finite product. For $p>Y$ there are no collisions of distinct shifts, so (eq:generic-local-factor) shows that both remaining tail products are $1+O_M(1/Y)$. Consequently $$\begin{equation}
-\label{eq:zero-safe-comparison}
+We now compare the product of the $H_p$’s additively with its value at zero. Take $Y=\max(2,2DL^B)$. For $p\le Y$, differentiation along the segment from zero to $\mathbf z$ gives $$|H_p(\mathbf z)-H_p(0)|\ll_M L^{-1/2}\frac{\log p}{p}.$$ For example, $|p^{-z_S}-1|\le|z_S|\log p$ on that segment, while the denominators stay bounded away from zero. Each mixed partial product in the additive telescoping identity is at most $$\exp\left(C_M\sum_{p\le Y}1/p\right)\ll_M(\log Y)^{C'_M}.$$ Using even the elementary bound $\sum_{p\le Y}(\log p)/p\le\sum_{n\le Y}(\log n)/n=O((\log Y)^2)$, we obtain an error $O(L^{-1/2}(\log L)^A)$ for the finite product. For $p>Y$ there are no collisions of distinct shifts, so (27) shows that both remaining tail products are $1+O_M(1/Y)$. Consequently $$\begin{equation}
+\tag{28}
  \prod_pH_p(\mathbf z)=\mathfrak S(\mathcal H)
   +O\!\left(L^{-1/2}(\log L)^A\right),\qquad
  \mathfrak S(\mathcal H)\ll(\log L)^A.
@@ -377,14 +376,14 @@ It remains to evaluate the zeta factors. Absolute Euler products for $\Re z_\gam
  \prod_{\varnothing\ne S\subset\mathcal M_i}
  \zeta(1+z_S)^{(-1)^{|S|}}.$$ Write $w_\gamma=1+\mathrm i u_\gamma$ and $$K_i(\mathbf u)=\prod_{\varnothing\ne S\subset\mathcal M_i}
  \left(\sum_{\gamma\in S}w_\gamma\right)^{(-1)^{|S|+1}}.$$ The pole expansion $\zeta(1+z)=z^{-1}(1+O(|z|))$ and the identity $\sum_{\varnothing\ne S\subset\mathcal M_i}(-1)^{|S|}=-1$ imply $$\begin{equation}
-\label{eq:zeta-kernel}
+\tag{29}
  \prod_pB_p(\mathbf z)
  =L^{-t}\prod_iK_i(\mathbf u)\{1+O_M(L^{-1/2})\}.
-\end{equation}$$ Every denominator in $K_i$ has positive integer real part, so the product of the $K_i$ has at most polynomial growth. Thus $$\mathcal C=\int_{\mathbb R^M}\Phi(\mathbf u)\prod_iK_i(\mathbf u)\,d\mathbf u$$ is absolutely convergent. Integrating (eq:zero-safe-comparison) and (eq:zeta-kernel) against the Schwartz transform, then restoring the negligible frequency tails, proves (eq:mixed-moment). The constant is real by conjugation under $\mathbf u\mapsto-\mathbf u$.
+\end{equation}$$ Every denominator in $K_i$ has positive integer real part, so the product of the $K_i$ has at most polynomial growth. Thus $$\mathcal C=\int_{\mathbb R^M}\Phi(\mathbf u)\prod_iK_i(\mathbf u)\,d\mathbf u$$ is absolutely convergent. Integrating (28) and (29) against the Schwartz transform, then restoring the negligible frequency tails, proves (13). The constant is real by conjugation under $\mathbf u\mapsto-\mathbf u$.
 
 Finally, a singleton fiber contributes $w_\gamma$, and a double fiber contributes $$\frac{w_\gamma w_{\gamma'}}{w_\gamma+w_{\gamma'}}
  =w_\gamma w_{\gamma'}\int_0^\infty
- e^{-(w_\gamma+w_{\gamma'})y_i}\,dy_i.$$ After taking absolute values, the new variables contribute $e^{-2\sum_i y_i}$; the remaining factor is a Schwartz function times a fixed polynomial. Fubini therefore applies. Recombining the Fourier integrals by differentiating (eq:fourier-inversion) proves (eq:mixed-derivative-constant). ◻
+ e^{-(w_\gamma+w_{\gamma'})y_i}\,dy_i.$$ After taking absolute values, the new variables contribute $e^{-2\sum_i y_i}$; the remaining factor is a Schwartz function times a fixed polynomial. Fubini therefore applies. Recombining the Fourier integrals by differentiating (25) proves (14). ◻
 
 ### Averaging the singular series
 
@@ -408,7 +407,7 @@ When the shifts are summed, an equality pattern with $t$ distinct unmarked shift
 
 ### Evaluation of the square
 
-We now apply the correlation formula and singular-series mean to the functions constructed in Section 3. The signed complete mixed derivative of each cumulative function is $f_j$, as in (eq:cumulative-derivative); its vanishing on coordinate faces will leave only matching subsets in the quadratic moments.
+We now apply the correlation formula and singular-series mean to the functions constructed in Section 3. The signed complete mixed derivative of each cumulative function is $f_j$, as in (4); its vanishing on coordinate faces will leave only matching subsets in the quadratic moments.
 
 The support restrictions in the moment formula apply to the sum of the support budgets of the factors, independently of their dimensions. For the present choice $\tau=1/8$, the required uses are as follows:
 
@@ -421,13 +420,13 @@ The support restrictions in the moment formula apply to the sum of the support b
 
 The last line uses divisor-sum majorants for the two possible primes in $J$. It therefore requires no asymptotic formula with two prime marks.
 
-*Proof of Proposition 3.1.* First we check the smoothness and support needed by the moment formula. Extend $f_j$ by zero to $\mathbb R^j$. Its cumulative integral is smooth on $\mathbb R^j$, and multiplication by smooth coordinate cutoffs that equal one near $[0,\infty)$ and vanish below $-1$ makes it compactly supported without changing its orthant values or derivatives. Indeed, the cumulative integral already vanishes when any coordinate exceeds an upper support bound of $f_j$. On the nonnegative orthant, $F_j$ vanishes if $\sum_i v_i\ge\tau$, and its signed complete mixed derivative is given by (eq:cumulative-derivative). This derivative is zero on every coordinate face. For $j\ge1$, $Tf_{j+1}$ has the same smoothness, interior-support, and face-vanishing properties.
+*Proof of Proposition 3.1.* First we check the smoothness and support needed by the moment formula. Extend $f_j$ by zero to $\mathbb R^j$. Its cumulative integral is smooth on $\mathbb R^j$, and multiplication by smooth coordinate cutoffs that equal one near $[0,\infty)$ and vanish below $-1$ makes it compactly supported without changing its orthant values or derivatives. Indeed, the cumulative integral already vanishes when any coordinate exceeds an upper support bound of $f_j$. On the nonnegative orthant, $F_j$ vanishes if $\sum_i v_i\ge\tau$, and its signed complete mixed derivative is given by (4). This derivative is zero on every coordinate face. For $j\ge1$, $Tf_{j+1}$ has the same smoothness, interior-support, and face-vanishing properties.
 
-Expand $Z^2$ over pairs of subsets $S,T\subset I$. Any shift in $S\mathbin\triangle T$ occurs once and sets a coordinate of one of the functions in (eq:cumulative-derivative) to zero. Its main coefficient is therefore zero. If $S=T$ has size $j$, the coefficient is $\|f_j\|_2^2$. Averaging the singular series and using $$\frac{\binom hj}{L^j}\longrightarrow\alpha_j$$ proves the first limit in (eq:weight-unmarked). With a prime mark in $J$, the same matching rule applies and $$\frac{h\binom hj}{L^{j+1}}\longrightarrow\lambda\alpha_j.$$ The two divisor factors have total support $2\tau<1/2$, so the marked moment formula proves the first limit in (eq:weight-marked).
+Expand $Z^2$ over pairs of subsets $S,T\subset I$. Any shift in $S\mathbin\triangle T$ occurs once and sets a coordinate of one of the functions in (4) to zero. Its main coefficient is therefore zero. If $S=T$ has size $j$, the coefficient is $\|f_j\|_2^2$. Averaging the singular series and using $$\frac{\binom hj}{L^j}\longrightarrow\alpha_j$$ proves the first limit in (5). With a prime mark in $J$, the same matching rule applies and $$\frac{h\binom hj}{L^{j+1}}\longrightarrow\lambda\alpha_j.$$ The two divisor factors have total support $2\tau<1/2$, so the marked moment formula proves the first limit in (6).
 
-For an internal mark $a\in I$, the exact deletion identity (eq:prime-deletion) replaces $F_j$ by $\widetilde F_j=F_j+F_{j+1}(\cdot,0)$ on the prime event. Deletion is a bijection, so no extra dimension factor occurs. The support radius of $\widetilde F_j$ is still $\tau$, and its signed complete mixed derivative is $f_j+Tf_{j+1}$. It vanishes on coordinate faces when $j\ge1$. Apply the external marked formula to these functions. Only equal subsets $U$ survive, and $$\frac{h\binom{h-1}{j}}{L^{j+1}}\longrightarrow\lambda\alpha_j.$$ This proves the formula for $v$, including the scalar term $\lambda|f_0+\int f_1|^2$.
+For an internal mark $a\in I$, the exact deletion identity (8) replaces $F_j$ by $\widetilde F_j=F_j+F_{j+1}(\cdot,0)$ on the prime event. Deletion is a bijection, so no extra dimension factor occurs. The support radius of $\widetilde F_j$ is still $\tau$, and its signed complete mixed derivative is $f_j+Tf_{j+1}$. It vanishes on coordinate faces when $j\ge1$. Apply the external marked formula to these functions. Only equal subsets $U$ survive, and $$\frac{h\binom{h-1}{j}}{L^{j+1}}\longrightarrow\lambda\alpha_j.$$ This proves the formula for $v$, including the scalar term $\lambda|f_0+\int f_1|^2$.
 
-The equality-pattern estimate preceding this subsection justifies summing the errors in these limits. Applied to $Z^4$, the same argument uses four divisor factors, total support $4\tau<1$, and only finiteness of their pattern constants. Bounded averages of the singular series then give the second assertion in (eq:weight-unmarked).
+The equality-pattern estimate preceding this subsection justifies summing the errors in these limits. Applied to $Z^4$, the same argument uses four divisor factors, total support $4\tau<1$, and only finiteness of their pattern constants. Bounded averages of the singular series then give the second assertion in (5).
 
 It remains to prove a detector estimate whose constant is independent of the chosen family. Write $q_X=\log(2X+2h)/L=1+o(1)$. At a relevant prime $m+b$, we have $D_G(m;b)=1$. Consequently, pointwise, $$\frac{\vartheta(m+b)}L\le q_XD_G(m;b)^2,
  \qquad
@@ -438,7 +437,7 @@ It remains to prove a detector estimate whose constant is independent of the cho
  &\quad+q_X^2\sum_{\substack{b,c\in J\\b\ne c}}
        \mathbb E_X\bigl[Z^2 D_G(m;b)^2D_G(m;c)^2\bigr].
 \end{align*}$$ An off-diagonal summand contains six divisor factors, with total support $6\tau<1$. The shifts $b,c$ are paired and lie outside $I$. The two subsets from $Z^2$ must again be identical. For their common size $j$, the coefficient is $c_G^2\|f_j\|_2^2$. The pair $(b,c)$ is ordered, and $$\frac{h(h-1)\binom hj}{L^{j+2}}
-      \longrightarrow\lambda^2\alpha_j.$$ Thus the off-diagonal sum tends to $\lambda^2c_G^2w$. Together with (eq:weight-marked), this proves (eq:detector-bound). Although the convergence rates may depend on the fixed family, the resulting $C_*$ does not. ◻
+      \longrightarrow\lambda^2\alpha_j.$$ Thus the off-diagonal sum tends to $\lambda^2c_G^2w$. Together with (6), this proves (7). Although the convergence rates may depend on the fixed family, the resulting $C_*$ does not. ◻
 
 ## References
 

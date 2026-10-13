@@ -11,10 +11,10 @@ We prove that every irreducible integer quartic with no fixed prime-square divis
 For an integer $k\ge2$, an integer $a$ is *$k$-power-free* if no prime power $p^k$ divides $a$. This convention includes negative integers and excludes zero. Given $f\in\mathbb Z[x]$, write $$\rho_f(q)=\#\{a\in\mathbb Z/q\mathbb Z:f(a)\equiv0\pmod q\},\qquad
  S_{f,k}(X)=\#\{1\le n\le X:f(n)\text{ is $k$-power-free}\}.$$ The necessary local condition is $$\begin{equation}
  \rho_f(p^k)<p^k\quad\text{for every prime }p.
- \label{eq:local-admissibility}
+ \tag{1.1}
 \end{equation}$$ It says that no prime $k$th power divides every value of $f$. The natural candidate for the density is the product of the proportions that survive these separate congruence conditions.
 
-**Theorem 1.1**. *Let $f\in\mathbb Z[x]$ be irreducible over $\mathbb Q$, of degree $d$ with $4\le d\le8$, and put $k=d-2$. If (eq:local-admissibility) holds, then $$S_{f,k}(X)=c_{f,k}X+o_f(X),\qquad
+**Theorem 1.1**. *Let $f\in\mathbb Z[x]$ be irreducible over $\mathbb Q$, of degree $d$ with $4\le d\le8$, and put $k=d-2$. If (1.1) holds, then $$S_{f,k}(X)=c_{f,k}X+o_f(X),\qquad
  c_{f,k}=\prod_p\left(1-\frac{\rho_f(p^k)}{p^k}\right)>0.$$ No primitivity or sign condition on the leading coefficient is required.*
 
 For quartics this is a squarefree-value density theorem. In degrees $5,6,7,8$, the respective excluded powers are $3,4,5,6$. The statement concerns positive integer inputs and imposes no bound on the height of the fixed polynomial’s coefficients. The error term is not asserted to be uniform as $f$ varies.
@@ -87,7 +87,7 @@ The geometric argument will estimate large prime-power divisors for a primitive 
 **Proposition 2.1** (Sieve transfer). *Let $f\in\mathbb Z[x]$ be irreducible over $\mathbb Q$, of degree $d\ge2$, and let $k\ge2$. Suppose that $\rho_f(p^k)<p^k$ for every prime $p$. Write $$f=s c g,\qquad s\in\{-1,1\},\quad c\in\mathbb N,$$ where $c$ is the positive content of $f$ and $g\in\mathbb Z[x]$ is primitive with positive leading coefficient. Assume that $$\begin{equation}
  T_g(X):=\#\{n\in\mathbb Z:X<n\le2X,\ p^k\mid g(n)
                  \text{ for some prime }p>X\}=o_{g,k}(X).
- \label{eq:sieve-tail-hypothesis}
+ \tag{2.1}
 \end{equation}$$ Then $$S_{f,k}(N)=c_{f,k}N+o_{f,k}(N),\qquad
  c_{f,k}=\prod_p\left(1-\frac{\rho_f(p^k)}{p^k}\right)>0.$$*
 
@@ -97,21 +97,21 @@ For a prime $p\mid c$, put $e=v_p(c)$. Local admissibility forces $e<k$, and $$\
  \rho_f(p^k)=p^e\rho_g(p^{k-e}),\qquad
  1-\frac{\rho_f(p^k)}{p^k}
  =1-\frac{\rho_g(p^{k-e})}{p^{k-e}}.
- \label{eq:sieve-content-factor}
+ \tag{2.2}
 \end{equation}$$ Indeed, $p^k\mid f(a)$ is equivalent to $p^{k-e}\mid g(a)$, and each class modulo $p^{k-e}$ has exactly $p^e$ lifts modulo $p^k$. For $p\nmid c$ the root counts of $f$ and $g$ modulo $p^k$ agree. Once $X$ exceeds every prime divisor of $c$, the large-prime exceptional sets for $f$ and $g$ are therefore identical.
 
 Let $\mathcal B$ contain the prime divisors of $c$, the leading coefficient of $g$, and the discriminant of $g$. This is a finite set. If $p\notin\mathcal B$, reduction of $g$ has degree $d$ and simple roots. Each root modulo $p^j$ lifts uniquely modulo $p^{j+1}$: the expansion $$g(a+p^j u)\equiv g(a)+p^j u g'(a)\pmod{p^{j+1}}$$ determines $u$ modulo $p$, since $g'(a)$ is invertible there. Consequently $$\begin{equation}
  \rho_f(p^k)=\rho_g(p^k)=\rho_g(p)\le d
  \qquad(p\notin\mathcal B).
- \label{eq:sieve-root-bound}
+ \tag{2.3}
 \end{equation}$$
 
-Put $q_p=\rho_f(p^k)/p^k$. Each $q_p<1$ by hypothesis, and (eq:sieve-root-bound) gives $\sum_p q_p<\infty$ because $k\ge2$. For all sufficiently large $p$, $q_p\le1/2$ and $-2q_p\le\log(1-q_p)\le-q_p$. Thus the Euler product converges to a strictly positive number. Its finitely many factors at primes in $\mathcal B$ are retained exactly, including (eq:sieve-content-factor).
+Put $q_p=\rho_f(p^k)/p^k$. Each $q_p<1$ by hypothesis, and (2.3) gives $\sum_p q_p<\infty$ because $k\ge2$. For all sufficiently large $p$, $q_p\le1/2$ and $-2q_p\le\log(1-q_p)\le-q_p$. Thus the Euler product converges to a strictly positive number. Its finitely many factors at primes in $\mathcal B$ are retained exactly, including (2.2).
 
 *The finite sieve and the intermediate primes.* Fix an integer $Y\ge2$ exceeding every prime in $\mathcal B$, and set $$Q_Y=\prod_{p\le Y}p^k,\qquad
  c_Y=\prod_{p\le Y}\left(1-\frac{\rho_f(p^k)}{p^k}\right).$$ Let $A_Y(X)$ count the integers $n\in(X,2X]$ for which $p^k\nmid f(n)$ for every $p\le Y$. The Chinese remainder theorem gives exactly $Q_Yc_Y$ permitted classes modulo $Q_Y$. Counting each class in the interval gives $$\begin{equation}
  A_Y(X)=c_YX+O(Q_Y).
- \label{eq:sieve-finite-crt}
+ \tag{2.4}
 \end{equation}$$ Here $Y$ remains fixed as $X$ tends to infinity.
 
 Write $A(X)$ for the count of all $k$-power-free values in $(X,2X]$. For $X>Y$, the integers removed by primes $Y<p\le X$ number at most $$\begin{align}
@@ -120,21 +120,21 @@ Write $A(X)$ for the count of all $k$-power-free values in $(X,2X]$. For $X>Y$, 
                     \left(\frac{X}{p^k}+1\right)\notag\\
  &\le dX\sum_{m>Y}\frac1{m^k}+d\pi(X)
  \le\frac{d}{k-1}XY^{1-k}+d\pi(X).
- \label{eq:sieve-intermediate}
+ \tag{2.5}
 \end{align}$$ The elementary bound $\pi(X)\ll X/\log X$ is sufficient here. For all sufficiently large $X$, the remaining exceptional set is counted by $T_g(X)$, so $$\begin{equation}
  0\le A_Y(X)-A(X)\le I_Y(X)+T_g(X).
- \label{eq:sieve-sandwich}
+ \tag{2.6}
 \end{equation}$$
 
-We can now identify the density. Divide (eq:sieve-finite-crt)–(eq:sieve-sandwich) by $X$ and first let $X\to\infty$ with $Y$ fixed. The tail hypothesis gives $$c_Y-\frac{d}{k-1}Y^{1-k}
+We can now identify the density. Divide (2.4)–(2.6) by $X$ and first let $X\to\infty$ with $Y$ fixed. The tail hypothesis gives $$c_Y-\frac{d}{k-1}Y^{1-k}
  \le\liminf_{X\to\infty}\frac{A(X)}X
  \le\limsup_{X\to\infty}\frac{A(X)}X
  \le c_Y.$$ Then let $Y\to\infty$. Since $c_Y\to c_{f,k}$, this proves $$\begin{equation}
  A(X)=c_{f,k}X+o_{f,k}(X).
- \label{eq:sieve-dyadic-density}
+ \tag{2.7}
 \end{equation}$$
 
-*From dyadic intervals to positive inputs.* Fix an integer $J\ge1$. Apply (eq:sieve-dyadic-density) to the finitely many disjoint intervals $$(N/2^{j+1},N/2^j],\qquad 0\le j<J.$$ For fixed $J$, their total count is $c_{f,k}N(1-2^{-J})+o_{f,k,J}(N)$. The interval $[1,N/2^J]$ contains at most $N/2^J$ integers. Hence $$\begin{split}
+*From dyadic intervals to positive inputs.* Fix an integer $J\ge1$. Apply (2.7) to the finitely many disjoint intervals $$(N/2^{j+1},N/2^j],\qquad 0\le j<J.$$ For fixed $J$, their total count is $c_{f,k}N(1-2^{-J})+o_{f,k,J}(N)$. The interval $[1,N/2^J]$ contains at most $N/2^J$ integers. Hence $$\begin{split}
  c_{f,k}(1-2^{-J})
  &\le\liminf_{N\to\infty}\frac{S_{f,k}(N)}N\\
  &\le\limsup_{N\to\infty}\frac{S_{f,k}(N)}N
@@ -148,7 +148,7 @@ The same normalization also applies when a density theorem for the primitive pol
 **Lemma 2.3** (Removing sign and content). *Let $f\in\mathbb Z[x]$ be irreducible over $\mathbb Q$, of degree at least two, and let $k\ge2$. Suppose that $\rho_f(p^k)<p^k$ for every prime $p$, and write $f=s c g$, where $s\in\{-1,1\}$, $c$ is the positive content, and $g$ is primitive with positive leading coefficient. If $$S_{g,k}(N)=c_{g,k}N+o_{g,k}(N),\qquad
  c_{g,k}=\prod_p\left(1-\frac{\rho_g(p^k)}{p^k}\right),$$ then $S_{f,k}(N)=c_{f,k}N+o_{f,k}(N)$ with the Euler product $c_{f,k}>0$ of Proposition 2.1.*
 
-*Proof.* The normalization and product-convergence arguments above do not use the tail hypothesis. Thus both Euler products converge, and their factors are related by (eq:sieve-content-factor). Fix an integer $Y$ exceeding every prime divisor of $c$. For $h=f,g$, let $B_{h,Y}(N)$ count the integers $1\le n\le N$ avoiding $p^k\mid h(n)$ for every $p\le Y$, and put $$c_{h,Y}=\prod_{p\le Y}\left(1-\frac{\rho_h(p^k)}{p^k}\right).$$ The finite Chinese remainder calculation gives $B_{h,Y}(N)=c_{h,Y}N+O(Q_Y)$, with $Q_Y=\prod_{p\le Y}p^k$.
+*Proof.* The normalization and product-convergence arguments above do not use the tail hypothesis. Thus both Euler products converge, and their factors are related by (2.2). Fix an integer $Y$ exceeding every prime divisor of $c$. For $h=f,g$, let $B_{h,Y}(N)$ count the integers $1\le n\le N$ avoiding $p^k\mid h(n)$ for every $p\le Y$, and put $$c_{h,Y}=\prod_{p\le Y}\left(1-\frac{\rho_h(p^k)}{p^k}\right).$$ The finite Chinese remainder calculation gives $B_{h,Y}(N)=c_{h,Y}N+O(Q_Y)$, with $Q_Y=\prod_{p\le Y}p^k$.
 
 An input counted by $B_{f,Y}(N)-S_{f,k}(N)$ avoids all the small-prime conditions for $f$ but has a divisor $p^k$ with $p>Y$. It also avoids the small-prime conditions for $g$, and $p\nmid c$ implies $p^k\mid g(n)$. Consequently $$0\le B_{f,Y}(N)-S_{f,k}(N)
  \le B_{g,Y}(N)-S_{g,k}(N).$$ For fixed $Y$, divide by $N$ and let $N\to\infty$. The assumed density of $g$ yields $$c_{f,Y}-(c_{g,Y}-c_{g,k})
@@ -158,11 +158,11 @@ An input counted by $B_{f,Y}(N)-S_{f,k}(N)$ avoids all the small-prime condition
 
 *Proof of Corollary 1.3.* Write $$F_i=c_i\prod_{g\in\mathcal G_i}g,\qquad c_i\in\mathbb Z\setminus\{0\},$$ where $\mathcal G_i$ is a set of distinct primitive irreducible polynomials with positive leading coefficients. Let $\mathcal G=\bigcup_i\mathcal G_i$, so shared factors are included only once. The joint local condition implies local admissibility of each $F_i$, and hence of every $g\in\mathcal G$. For such a factor of degree $d\le k+2$, let $T_{g,k}(X)$ count the integers $X<n\le2X$ for which $p^k\mid g(n)$ for some prime $p>X$. We first record $$\begin{equation}
  T_{g,k}(X)=o_{g,k}(X).
- \label{eq:factorwise-tail}
+ \tag{2.8}
 \end{equation}$$
 
 For $d\le k$, omit the finitely many integer roots of $g$ and use $|g(n)|\ll_g X^d$. If $d<k$, the tail is empty for large $X$. If $d=k$, only primes $X<p\le C_gX$ can occur, for a fixed $C_g$. Outside finitely many primes, each has at most $d$ roots modulo $p^k$, and an interval of length $X<p^k$ contains at most one representative of each root. Thus $T_{g,k}(X)\ll_g\pi(C_gX)=o_g(X)$. If $d=k+1$, the unweighted triple estimates of Reuss (Reuss 2015, Lemma 3 and its proof, and Section 6) give $o_g(X)$ triples with $X<n\le2X$, $a>X^{1-\delta}$, $\mu^2(a)=1$, and $a^{d-1}b=g(n)$, for a suitable fixed $\delta>0$. For large $X$ the values $g(n)$ here are positive, so $a=p$ and $b=g(n)/p^k$ include every input counted by $T_{g,k}(X)$. If $d=k+2\le8$, use Proposition 1.4. Finally, if $d=k+2\ge9$, then $k=d-2\ge(3d+1)/4$ and $k/d>3/4$. Xiao’s estimate in (Xiao 2017, sec. 9) is $E_B(B^{1-\delta})=o_g(B)$ for some fixed $\delta>0$, where $$E_B(\xi)=\#\{1\le n\le B:\ b^k\mid g(n)
-                 \text{ for some squarefree integer }b>\xi\}.$$ Take $B=2X$: eventually $p>X>(2X)^{1-\delta}$, so this exceptional set contains the tail. This proves (eq:factorwise-tail) in every case.
+                 \text{ for some squarefree integer }b>\xi\}.$$ Take $B=2X$: eventually $p>X>(2X)^{1-\delta}$, so this exceptional set contains the tail. This proves (2.8) in every case.
 
 Let $\mathcal B$ contain the prime divisors of all $c_i$, leading coefficients and discriminants of the $g\in\mathcal G$, and resultants of distinct pairs in $\mathcal G$. This set is finite: all the discriminants and pairwise resultants are nonzero. For $p\notin\mathcal B$, no two distinct factors vanish at the same residue modulo $p$, and their roots are simple. Consequently $$\begin{aligned}
  p^k\mid F_i(n)&\ \Longleftrightarrow\
@@ -172,7 +172,7 @@ Let $\mathcal B$ contain the prime divisors of all $c_i$, leading coefficients a
  \end{aligned}$$ where $D=\sum_{g\in\mathcal G}\deg g$. Once $X$ exceeds all primes in $\mathcal B$, the large-prime exceptional set for the family is contained in the union of the sets counted by the $T_{g,k}(X)$, and hence has size $o_{\mathbf F,k}(X)$.
 
 For fixed $Y$ beyond $\mathcal B$, the Chinese remainder theorem leaves exactly $$Q_Y\prod_{p\le Y}\left(1-\frac{\#\Omega_p}{p^k}\right)
- \quad\text{classes modulo }Q_Y=\prod_{p\le Y}p^k.$$ The estimate (eq:sieve-intermediate), with $D$ in place of $d$, bounds the contribution of $Y<p\le X$. Combining it with the family tail and taking the two limits as in (eq:sieve-finite-crt)–(eq:sieve-dyadic-density) gives the stated density on positive inputs. The product is positive because its local factors are positive and $\sum_p\#\Omega_p/p^k<\infty$. At primes in $\mathcal B$ the full set $\Omega_p$ is retained: in particular, valuations contributed by different factors of one $F_i$ are not separated there. Taking $r=1$ gives the first assertion with $\#\Omega_p=\rho_F(p^k)$. Empty products cover nonzero constants, and the finitely many integer zeros of nonconstant polynomials have no effect on the asymptotic. ◻
+ \quad\text{classes modulo }Q_Y=\prod_{p\le Y}p^k.$$ The estimate (2.5), with $D$ in place of $d$, bounds the contribution of $Y<p\le X$. Combining it with the family tail and taking the two limits as in (2.4)–(2.7) gives the stated density on positive inputs. The product is positive because its local factors are positive and $\sum_p\#\Omega_p/p^k<\infty$. At primes in $\mathcal B$ the full set $\Omega_p$ is retained: in particular, valuations contributed by different factors of one $F_i$ are not separated there. Taking $r=1$ gives the first assertion with $\#\Omega_p=\rho_F(p^k)$. Empty products cover nonzero constants, and the finitely many integer zeros of nonconstant polynomials have no effect on the asymptotic. ◻
 
 ## Affine counting with adaptive auxiliary primes
 
@@ -184,19 +184,19 @@ Fix positive weights $\omega_1,\ldots,\omega_N$. The weight of the coordinate mo
  \{z^\alpha|_A:\omega\cdot\alpha\le T\}.$$ Thus $H_A(T)$ measures the supply of independent polynomial functions whose sizes in the weighted box are at most a constant times $X^T$.
 
 **Theorem 3.1**. *Fix integers $1\le r\le N$, a degree bound $e_0$, a constant $C$, positive coordinate weights $\omega_l$, and positive numbers $\delta_1,\ldots,\delta_r$. For $X\ge2$, let $S\subseteq\mathbb Z^N$ satisfy $$|z_l|\le C X^{\omega_l}\quad(z\in S),$$ and suppose $S$ lies on an algebraic set $Z$ of degree at most $e_0$ and dimension at most $r$. Assume the following uniform alternative. For every fixed degree bound $e$, each irreducible subvariety $A\subseteq Z$ defined over $\mathbb Q$, of degree at most $e$ and dimension $h>0$, meeting $S$, satisfies either $$\begin{equation}
-\label{eq:affine-exception}
+\tag{3.1}
  |S\cap A|\ll_{e,\alpha} X^\alpha
  \quad\text{for every fixed }\alpha>0,
 \end{equation}$$ or $$\begin{equation}
-\label{eq:affine-hilbert-input}
+\tag{3.2}
  H_A(T)\ge \frac{T^h}{h!\delta_h^h}-C_eT^{h-1}
  \quad(T\ge1).
 \end{equation}$$ The constants in these alternatives are uniform in $X,Z,S,A$. Put $E_h=\max_{h\le s\le r}\delta_s$. Then, for every $\varepsilon>0$, $$\begin{equation}
-\label{eq:affine-counting-conclusion}
+\tag{3.3}
  |S|\ll_\varepsilon X^{E_1+\cdots+E_r+\varepsilon}.
 \end{equation}$$ The implied constant depends only on the fixed data and the uniform constants in the hypotheses. In particular, no bound on the coefficients initially defining $Z$ is required.*
 
-The coordinate weights are fixed in this statement. Uniformity over a family of weights follows from the proof when their positive lower bounds, upper bounds, and the constants in (eq:affine-hilbert-input) are uniform. Empty sets cause no issue; zero-dimensional sets have at most their degree many points. We may therefore assume $1\le r\le N$ and $S\ne\varnothing$.
+The coordinate weights are fixed in this statement. Uniformity over a family of weights follows from the proof when their positive lower bounds, upper bounds, and the constants in (3.2) are uniform. Empty sets cause no issue; zero-dimensional sets have at most their degree many points. We may therefore assume $1\le r\le N$ and $S\ne\varnothing$.
 
 ### Smooth patches with controlled equations
 
@@ -206,7 +206,7 @@ A *patch* will mean a triple $(A,G,\Delta)$, where $A$ is an irreducible $\mathb
 
 *Proof.* Split $Z'$ into irreducible components. If a component $A$ is not defined over $\mathbb Q$, some automorphism $\sigma$ of $\mathbb C$ fixing $\mathbb Q$ satisfies $\sigma(A)\ne A$. Every rational point of $A$ lies in $A\cap\sigma(A)$, a proper intersection of bounded degree. We replace $A$ by the components of this intersection and continue in smaller dimension.
 
-Here is a justification of the descent assertion used in this step. If all such automorphisms fixed $A$, they would preserve each finite-dimensional space of its polynomial equations of degree at most $e'$. The reduced row-echelon basis in the ordered monomial coordinates is unique, so its coefficients would be fixed by all these automorphisms and hence rational. These spaces would give rational equations for $A$. The fixed field is indeed $\mathbb Q$: a nonrational algebraic number has a conjugate, while a transcendental number can be included in a transcendence basis over $\overline\mathbb Q$ and moved, for example by translation in that basis; these maps extend to automorphisms of $\mathbb C$.
+Here is a justification of the descent assertion used in this step. If all such automorphisms fixed $A$, they would preserve each finite-dimensional space of its polynomial equations of degree at most $e'$. The reduced row-echelon basis in the ordered monomial coordinates is unique, so its coefficients would be fixed by all these automorphisms and hence rational. These spaces would give rational equations for $A$. The fixed field is indeed $\mathbb Q$: a nonrational algebraic number has a conjugate, while a transcendental number can be included in a transcendence basis over $\overline{\mathbb Q}$ and moved, for example by translation in that basis; these maps extend to automorphisms of $\mathbb C$.
 
 Now let $A$ be defined over $\mathbb Q$, of dimension $h$ and degree $e'$. The equations of ordinary degree at most $e'$ in its ideal have generic Jacobian rank $N-h$. To see this, choose $h$ coordinate functions algebraically independent in $\mathbb C(A)$. Project onto these coordinates and, in turn, each remaining coordinate. Each image closure is an irreducible hypersurface of degree at most $e'$. Its equation has nonzero derivative in the extra coordinate, by separability in characteristic zero. Lifting these equations to $\mathbb C^N$ gives a diagonal, generically nonzero minor in the remaining $N-h$ coordinates.
 
@@ -221,18 +221,18 @@ The last convention is essential below. A prime used to define an input variety 
 ### A determinant cut in a simultaneous residue class
 
 For $h\ge1$, let $s_h(L)$ be the sum of the first $L$ total degrees of monomials in $h$ variables, ordered by degree and counted with their monomial multiplicities. Counting lattice points in a simplex gives $$\begin{equation}
-\label{eq:affine-local-orders}
+\tag{3.4}
  s_h(L)=\frac{h}{h+1}(h!)^{1/h}L^{1+1/h}+O_h(L).
 \end{equation}$$
 
-**Lemma 3.3**. *Fix $\nu>0$ and a bound on the degree of a patch $(A,G,\Delta)$ and its equations, with $h=\dim A>0$. Suppose $A$ satisfies (eq:affine-hilbert-input). Let $z\in S\cap A$ be covered by the patch, and let $\mathcal Q$ be distinct primes such that $$q\nmid\Delta(z)\quad(q\in\mathcal Q),\qquad
+**Lemma 3.3**. *Fix $\nu>0$ and a bound on the degree of a patch $(A,G,\Delta)$ and its equations, with $h=\dim A>0$. Suppose $A$ satisfies (3.2). Let $z\in S\cap A$ be covered by the patch, and let $\mathcal Q$ be distinct primes such that $$q\nmid\Delta(z)\quad(q\in\mathcal Q),\qquad
  \prod_{q\in\mathcal Q}q\ge X^{\delta_h+\nu}.$$ For sufficiently large $X$, the set of all points in $S\cap A$ congruent to $z$ modulo these primes lies on a polynomial of bounded degree that does not vanish identically on $A$. The degree bound is uniform in the patch and primes, with dependence on $\nu$ and the fixed data. Additional congruence conditions may also be imposed.*
 
 *Proof.* Fix $q\nmid\Delta(z)$. Translate coordinates by $z$, taking as free coordinates the $h$ columns outside the chosen minor. The implicit equations $G=0$ solve the other coordinates as power series in these free differences, with coefficients in $\mathbb Z_q$: recursively solve by the Jacobian matrix, which is invertible over $\mathbb Z_q$. The series converge on $q\mathbb Z_q^h$, and Hensel uniqueness gives every solution to $G=0$ congruent to $z$. Hence each coordinate monomial has such an integral expansion on the entire residue class.
 
 An $L$-by-$L$ determinant of monomial values at points in that class has $q$-adic valuation at least $s_h(L)$. Indeed, expand in monomials of the free differences. A term with a repeated expansion monomial vanishes, and the differences belong to $q\mathbb Z_q$. The least total degree of $L$ distinct expansion monomials is $s_h(L)$. Truncation modulo arbitrary powers of $q$ justifies this argument for the convergent series.
 
-On the other hand, (eq:affine-hilbert-input) permits us to choose independent coordinate monomials successively, with the $j$-th of weight at most $$\delta_h(h!j)^{1/h}+O(1).$$ To obtain this bound, substitute $T=\delta_h(h!j)^{1/h}+C_1$ in the Hilbert lower bound and choose the fixed $C_1$ sufficiently large. Summing the weights and using (eq:affine-local-orders), the first $L$ chosen monomials have total weight at most $\delta_h s_h(L)+O(L)$.
+On the other hand, (3.2) permits us to choose independent coordinate monomials successively, with the $j$-th of weight at most $$\delta_h(h!j)^{1/h}+O(1).$$ To obtain this bound, substitute $T=\delta_h(h!j)^{1/h}+C_1$ in the Hilbert lower bound and choose the fixed $C_1$ sufficiently large. Summing the weights and using (3.4), the first $L$ chosen monomials have total weight at most $\delta_h s_h(L)+O(L)$.
 
 The absolute value of their evaluation determinant is therefore at most $$C_L X^{\delta_h s_h(L)+C_2L}.$$ It is an integer divisible by $\bigl(\prod_{q\in\mathcal Q}q\bigr)^{s_h(L)}$. Choose $L$ sufficiently large that $\nu s_h(L)>C_2L$, and then take $X$ large. Every such determinant is zero. Thus the evaluations of these independent monomials on the full class have deficient rank. A nonzero rational linear combination vanishes on the class but not on $A$. Its ordinary degree is bounded because its weight and the positive minimum coordinate weight are bounded. All these choices are uniform under the stated hypotheses. ◻
 
@@ -245,7 +245,7 @@ To compare a block of primes with the same block after one prime is deleted, we 
 Fix a small $\gamma>0$ and set $h_i=r+1-i$ for $1\le i\le r$. Choose successive ordinary degree limits $D_i$ for the polynomial cuts. At step $i$, take $D_i$ large enough for Lemma 3.3 in parent dimension $h_i$, with $\nu=\gamma/2$. This can be done inductively. Intersecting with the common zero set of a polynomial space of degree at most $D_i$, then applying Lemma 3.2, gives degree bounds determined by the parent bound and $D_i$. These bounds hold even when dimension does not decrease. Consequently they cover every path of the fixed length $r$.
 
 Let $\mathcal B_1,\ldots,\mathcal B_r$ be disjoint finite blocks of primes, and write $$Q_i=\prod_{j\le i}\prod_{q\in\mathcal B_j}q.$$ For each $z\in S$, define a path through all $r$ steps as follows. Take the first patch $(A_0,G_0,\Delta_0)$ of $Z$ covering $z$. Given its parent patch at step $i$, let $$\begin{equation}
-\label{eq:affine-evaluation-kernel}
+\tag{3.5}
  \mathcal K_i=
  \left\{F\in\mathbb Q[z_1,\ldots,z_N]_{\le D_i}:
  F(z')=0\text{ for all }z'\in S\cap A_{i-1},\ z'\equiv z\pmod{Q_i}
@@ -255,15 +255,15 @@ Let $\mathcal B_1,\ldots,\mathcal B_r$ be disjoint finite blocks of primes, and 
 Adding a prime to one block makes the vector $(\rho_1,\ldots,\rho_r)$ lexicographically nonincreasing. Until its first changed entry the parent patches agree: the new residue class is a subset of the old one, so the kernels are nested, and equal codimensions make them equal. Their intersection sets and deterministic patch lists therefore agree as well. The first changed codimension can only decrease. Moreover, equality of the complete rank vectors forces equality of all kernels and patches along the paths.
 
 Put $M_i=\binom{N+D_i}{N}$. Encode the rank vector by the integer $$\begin{equation}
-\label{eq:affine-rank-record}
+\tag{3.6}
  \mathcal R=\sum_{i=1}^r\rho_i\prod_{j>i}(M_j+1),
  \qquad 0\le\mathcal R<B_0:=\prod_{i=1}^r(M_i+1).
 \end{equation}$$ It is nonincreasing when a prime is added. An unchanged encoding gives identical evaluated minors along the entire path.
 
 **Lemma 3.4** (Deletion estimate). *Fix $z\in S$, all blocks except the $i$-th, and a prime pool $\mathcal P_i$ disjoint from those blocks, whose primes lie between $X^\zeta$ and $C_rX^\zeta$, where $\zeta>0$ is fixed and $|\mathcal P_i|\longrightarrow\infty$. Choose $t$ uniformly among $T_0$ consecutive positive integers $\ell,\ldots,\ell+T_0-1$, fixed independently of $X$, and then choose $\mathcal B_i$ uniformly among the $t$-subsets of the pool. The expected fraction of primes in $\mathcal B_i$ dividing at least one of the full-path integers $\Delta_0(z),\ldots,\Delta_r(z)$ is at most $$B_0/T_0+o(1).$$ The error is uniform in $z$ and in the fixed other blocks.*
 
-*Proof.* Delete a uniformly chosen prime $q$ from $\mathcal B_i$. Let $F(t)$ be the expected record (eq:affine-rank-record) for a uniform $t$-subset. The deleted subset is uniform of size $t-1$, so the expected increase in the record is $F(t-1)-F(t)$. This increase is a nonnegative integer and is at least one whenever the record changes. Averaging over the consecutive sizes gives $$\begin{equation}
-\label{eq:affine-deletion-change}
+*Proof.* Delete a uniformly chosen prime $q$ from $\mathcal B_i$. Let $F(t)$ be the expected record (3.6) for a uniform $t$-subset. The deleted subset is uniform of size $t-1$, so the expected increase in the record is $F(t-1)-F(t)$. This increase is a nonnegative integer and is at least one whenever the record changes. Averaging over the consecutive sizes gives $$\begin{equation}
+\tag{3.7}
  \mathbb P(\text{record changes})
  \le\frac{F(\ell-1)-F(\ell+T_0-1)}{T_0}
  \le\frac{B_0}{T_0}.
@@ -274,15 +274,15 @@ Condition now on the deleted subset and all other blocks. The deleted-path minor
 No conditioning on record stability is made in this last assertion. Rather, if the record is unchanged, the full and deleted paths have identical minors. Consequently $$\{q\text{ divides a full-path minor}\}
  \subseteq
  \{\text{record changes}\}
- \cup\{q\text{ divides a deleted-path minor}\}.$$ The probability is bounded by (eq:affine-deletion-change) plus $o(1)$. Choosing $q$ uniformly from the full block samples exactly its fraction of primes dividing a full-path minor, proving the lemma. ◻
+ \cup\{q\text{ divides a deleted-path minor}\}.$$ The probability is bounded by (3.7) plus $o(1)$. Choosing $q$ uniformly from the full block samples exactly its fraction of primes dividing a full-path minor, proving the lemma. ◻
 
 ### Good cumulative products and the counting tree
 
 We now choose blocks for which at least half of $S$ has enough good primes at every stage. As the scheduled dimension falls from $r$ to $1$, the determinant thresholds are $\delta_r,\ldots,\delta_1$. Earlier primes remain available at later stages, so we allocate the nondecreasing cumulative exponents $E_r,\ldots,E_1$ instead. Recall that $E_h=\max_{h\le s\le r}\delta_s$. Put $E_{r+1}=0$ and $$a_i=E_{h_i}-E_{h_i+1}\ge0.$$ Choose a small $\xi>0$ such that $$\begin{equation}
-\label{eq:affine-bad-fraction}
+\tag{3.8}
  \xi(E_1+r\gamma)<\gamma/2.
 \end{equation}$$ Take $T_0$ large in terms of $r,B_0,\xi$, then take $\zeta>0$ so small that $\zeta(T_0+1)\le\gamma$. Use disjoint prime pools of cardinality tending to infinity, all between $X^\zeta$ and $C_rX^\zeta$. The lower and upper Chebyshev bounds for the prime-counting function give such pools for sufficiently large fixed $C_r$: partition the primes in that interval into $r$ pools of comparable size. Choose the blocks independently, with block $i$ sampled as in Lemma 3.4, starting its size interval at $$\ell_i=\left\lceil\frac{a_i+\gamma}{\zeta}\right\rceil.$$ Every allowed size $t_i$ then satisfies $$\begin{equation}
-\label{eq:affine-block-sizes}
+\tag{3.9}
  a_i+\gamma\le\zeta t_i\le a_i+2\gamma.
 \end{equation}$$ All sizes are constants as $X$ tends to infinity.
 
@@ -293,29 +293,29 @@ For a regular point, all but a fraction $\xi$ of the primes in each of the first
  X^{(1-\xi)\zeta\sum_{j\le i}t_j}
  &\ge X^{(1-\xi)(E_{h_i}+i\gamma)}
  \ge X^{\delta_{h_i}+\gamma/2}.
- \label{eq:affine-cumulative-product}
-\end{align}$$ The first inequality uses $\sum_{j\le i}a_j=E_{h_i}$; the last uses (eq:affine-bad-fraction). This cumulative product includes primes chosen before the current parent was constructed.
+ \tag{3.10}
+\end{align}$$ The first inequality uses $\sum_{j\le i}a_j=E_{h_i}$; the last uses (3.8). This cumulative product includes primes chosen before the current parent was constructed.
 
-The full paths were needed to compare prime choices in the deletion estimate. We now arrange the full paths of regular points in a tree, using the same kernels and fixed patch lists, and stop whenever a bound is already available. Start from their bounded list of initial patches; a node records its parent patch and the previous residue classes. Stop at a parent satisfying (eq:affine-exception), charging all its points by that bound; also stop at a zero-dimensional parent. Otherwise continue as follows. We show inductively that a parent at step $i$ has dimension at most $h_i$.
+The full paths were needed to compare prime choices in the deletion estimate. We now arrange the full paths of regular points in a tree, using the same kernels and fixed patch lists, and stop whenever a bound is already available. Start from their bounded list of initial patches; a node records its parent patch and the previous residue classes. Stop at a parent satisfying (3.1), charging all its points by that bound; also stop at a zero-dimensional parent. Otherwise continue as follows. We show inductively that a parent at step $i$ has dimension at most $h_i$.
 
 Fix such a parent patch $(A,G,\Delta)$ of dimension $h\le h_i$. At an auxiliary prime $q$, its reductions with $\Delta\ne0$ number $O(q^h)$. Indeed, fix the $h$ free coordinates determined by the minor. The other $N-h$ equations have invertible Jacobian at every point being counted, so these points are isolated zeros of that square system. Bézout bounds their number by a fixed constant, even if other components of the fiber have positive dimension. Summing over the free coordinates proves the bound. It uses no assumption that the whole variety has good reduction.
 
 For regular points, the primes of the new block at which this parent minor vanishes form a subset of size at most $\xi t_i$. Allow all such subsets; their number is at most $2^{t_i}$, a constant. At those primes use the trivial $q^N$ bound and at the others use $O(q^{h_i})$. Since $q\le C_rX^\zeta$, the number of new simultaneous residue classes is at most $$\begin{equation}
-\label{eq:affine-branch-count}
+\tag{3.11}
  O\!\left(X^{\zeta t_i(h_i+N\xi)}\right)
  \le O\!\left(X^{(a_i+2\gamma)(h_i+N\xi)}\right).
 \end{equation}$$ The constants from Bézout raised to $t_i$ are still independent of $X$. Imposing earlier congruences can only decrease this count.
 
-Consider one resulting class containing a regular point $z$. If the parent has dimension exactly $h_i$, then (eq:affine-cumulative-product) and Lemma 3.3 give a polynomial in $\mathcal K_i$ that does not vanish identically on the parent. This polynomial vanishes on the *entire* class in $S\cap A$: every class member has the same residues as $z$ at the good primes and satisfies $G=0$. Thus it is a cut for the kernel in (eq:affine-evaluation-kernel), not merely for its regular points. Consequently $A\cap V(\mathcal K_i)$ has dimension at most $h_i-1$, and its fixed patch list has boundedly many members. If the parent had smaller dimension already, its children automatically satisfy the same bound. This proves the dimension induction.
+Consider one resulting class containing a regular point $z$. If the parent has dimension exactly $h_i$, then (3.10) and Lemma 3.3 give a polynomial in $\mathcal K_i$ that does not vanish identically on the parent. This polynomial vanishes on the *entire* class in $S\cap A$: every class member has the same residues as $z$ at the good primes and satisfies $G=0$. Thus it is a cut for the kernel in (3.5), not merely for its regular points. Consequently $A\cap V(\mathcal K_i)$ has dimension at most $h_i-1$, and its fixed patch list has boundedly many members. If the parent had smaller dimension already, its children automatically satisfy the same bound. This proves the dimension induction.
 
-After $r$ stages every nonexceptional leaf is zero-dimensional and contains boundedly many points. The total branching exponent from (eq:affine-branch-count) is at most $$\begin{equation}
-\label{eq:affine-exponent-accounting}
+After $r$ stages every nonexceptional leaf is zero-dimensional and contains boundedly many points. The total branching exponent from (3.11) is at most $$\begin{equation}
+\tag{3.12}
  \sum_{i=1}^r h_i a_i
  +2\gamma\sum_{i=1}^r h_i
  +N\xi(E_1+2r\gamma).
-\end{equation}$$ The first term telescopes to $$\sum_{h=1}^r h(E_h-E_{h+1})=\sum_{h=1}^r E_h.$$ Every prefix of the tree has no larger exponent, because all the block increments and errors are nonnegative. Hence stopping at exceptional parents multiplies this bound only by $O(X^\alpha)$, using (eq:affine-exception); the bounded number of possible stopping depths contributes a constant.
+\end{equation}$$ The first term telescopes to $$\sum_{h=1}^r h(E_h-E_{h+1})=\sum_{h=1}^r E_h.$$ Every prefix of the tree has no larger exponent, because all the block increments and errors are nonnegative. Hence stopping at exceptional parents multiplies this bound only by $O(X^\alpha)$, using (3.1); the bounded number of possible stopping depths contributes a constant.
 
-To complete the choices for a prescribed $\varepsilon$, first take $\gamma$ so small that the second term of (eq:affine-exponent-accounting) is less than $\varepsilon/4$. Choose the degree limits and hence $B_0$. Then take $\xi$ small enough for (eq:affine-bad-fraction) and for the last term of (eq:affine-exponent-accounting) to be less than $\varepsilon/4$. Take $\alpha<\varepsilon/4$, then choose $T_0$, $\zeta$ and finally $X$ as above. This order makes every degree, height and probability constant fixed before $X$ tends to infinity. We have bounded at least half of $S$ by the right side of (eq:affine-counting-conclusion); multiplying by two proves Theorem 3.1.
+To complete the choices for a prescribed $\varepsilon$, first take $\gamma$ so small that the second term of (3.12) is less than $\varepsilon/4$. Choose the degree limits and hence $B_0$. Then take $\xi$ small enough for (3.8) and for the last term of (3.12) to be less than $\varepsilon/4$. Take $\alpha<\varepsilon/4$, then choose $T_0$, $\zeta$ and finally $X$ as above. This order makes every degree, height and probability constant fixed before $X$ tends to infinity. We have bounded at least half of $S$ by the right side of (3.3); multiplying by two proves Theorem 3.1.
 
 ## Arithmetic factorization and paired boxes
 
@@ -325,30 +325,30 @@ Throughout this section, $f\in\mathbb Z[T]$ is primitive and irreducible, has de
  \qquad P=X^\eta,$$ and put $b=d-k\eta$. All constants below may depend on $f$; none depends on the individual $n,p$ or on $X$.
 
 **Lemma 4.1** (Balanced factorization). *There are a positive integer $\mu$ and a fixed finite list of integral ideals $\mathfrak c$ of $K$ with the following property. For all sufficiently large $X$, each pair $(n,p)$ above admits integral elements $\alpha,\beta\in\mathcal O_K$ and one ideal from the list such that $$\begin{equation}
-\label{eq:arithmetic-factorization}
+\tag{4.1}
  \alpha^k\beta=\mu(n-\theta),\qquad
  |N_{K/\mathbb Q}(\alpha)|=pN(\mathfrak c),
 \end{equation}$$ and, for every embedding $\sigma_i$, $$\begin{equation}
-\label{eq:arithmetic-balanced-sizes}
+\tag{4.2}
  |\sigma_i(\alpha)|\asymp_f P^{1/d},\qquad
  |\sigma_i(\beta)/\mu|\asymp_f X/P^{k/d}.
 \end{equation}$$ We may select one representation for each $n$ under consideration. For a fixed ideal case and fixed $\alpha$, there are at most $d$ selected values of $n$.*
 
 *Proof.* The element $c\theta$ is integral, with monic minimal polynomial $F(T)=c^{d-1}f(T/c)\in\mathbb Z[T]$, and $$\begin{equation}
-\label{eq:arithmetic-norm}
+\tag{4.3}
  N_{K/\mathbb Q}(cn-c\theta)=F(cn)=c^{d-1}f(n).
-\end{equation}$$ Exclude the finitely many primes dividing $c$, the discriminant of $F$, or $[\mathcal O_K:\mathbb Z[c\theta]]$; the factorization theorem for this order is recalled in (Milne 2020, Theorem 3.41 and Remark 3.43). For every remaining prime $p$ dividing $f(n)$, exactly one prime ideal $\mathfrak p$ above $p$ contains $cn-c\theta$. Indeed its residue factor must be the simple linear factor $T-cn$ of $F$ modulo $p$. Thus $N(\mathfrak p)=p$, and (eq:arithmetic-norm) shows that its valuation in $(cn-c\theta)$ is exactly $v_p(f(n))$. In particular, $\mathfrak p^k\mid(cn-c\theta)$. Every excluded prime is smaller than $X$ once $X$ is sufficiently large.
+\end{equation}$$ Exclude the finitely many primes dividing $c$, the discriminant of $F$, or $[\mathcal O_K:\mathbb Z[c\theta]]$; the factorization theorem for this order is recalled in (Milne 2020, Theorem 3.41 and Remark 3.43). For every remaining prime $p$ dividing $f(n)$, exactly one prime ideal $\mathfrak p$ above $p$ contains $cn-c\theta$. Indeed its residue factor must be the simple linear factor $T-cn$ of $F$ modulo $p$. Thus $N(\mathfrak p)=p$, and (4.3) shows that its valuation in $(cn-c\theta)$ is exactly $v_p(f(n))$. In particular, $\mathfrak p^k\mid(cn-c\theta)$. Every excluded prime is smaller than $X$ once $X$ is sufficiently large.
 
-Choose fixed integral representatives for the ideal classes of $K$. One of them, denoted $\mathfrak c$, makes $\mathfrak p\mathfrak c$ principal. Write $$(\alpha)=\mathfrak p\mathfrak c.$$ Then $\alpha$ is integral and its absolute norm is $pN(\mathfrak c)$. We may multiply $\alpha$ by a unit to obtain the first estimate in (eq:arithmetic-balanced-sizes). To see that this balances all embeddings, use one logarithmic coordinate for each real embedding and each complex pair, with respective weights $1$ and $2$. Subtract $d^{-1}\log(pN(\mathfrak c))$ from every coordinate. The resulting vector lies in the weighted sum-zero hyperplane. Dirichlet’s Unit Theorem allows it to be moved into a bounded fundamental parallelepiped of the unit lattice. Exponentiating gives the asserted bounds at every real and complex embedding.
+Choose fixed integral representatives for the ideal classes of $K$. One of them, denoted $\mathfrak c$, makes $\mathfrak p\mathfrak c$ principal. Write $$(\alpha)=\mathfrak p\mathfrak c.$$ Then $\alpha$ is integral and its absolute norm is $pN(\mathfrak c)$. We may multiply $\alpha$ by a unit to obtain the first estimate in (4.2). To see that this balances all embeddings, use one logarithmic coordinate for each real embedding and each complex pair, with respective weights $1$ and $2$. Subtract $d^{-1}\log(pN(\mathfrak c))$ from every coordinate. The resulting vector lies in the weighted sum-zero hyperplane. Dirichlet’s Unit Theorem allows it to be moved into a bounded fundamental parallelepiped of the unit lattice. Exponentiating gives the asserted bounds at every real and complex embedding.
 
-Choose a positive integer $q$ such that $q\mathfrak c^{-k}\subseteq\mathcal O_K$ for every ideal in the finite list, and put $\mu=cq$. Such a $q$ exists; for example one may take a common multiple of the integers $N(\mathfrak c)^k$. The ideal $(cn-c\theta)\mathfrak p^{-k}$ is integral, so $$\beta=\frac{\mu(n-\theta)}{\alpha^k}$$ is integral. Since $|n-\theta_i|\asymp_f X$, the second estimate in (eq:arithmetic-balanced-sizes) follows from the first.
+Choose a positive integer $q$ such that $q\mathfrak c^{-k}\subseteq\mathcal O_K$ for every ideal in the finite list, and put $\mu=cq$. Such a $q$ exists; for example one may take a common multiple of the integers $N(\mathfrak c)^k$. The ideal $(cn-c\theta)\mathfrak p^{-k}$ is integral, so $$\beta=\frac{\mu(n-\theta)}{\alpha^k}$$ is integral. Since $|n-\theta_i|\asymp_f X$, the second estimate in (4.2) follows from the first.
 
 For each $n$ choose one admissible prime in the dyadic range, one ideal case and one balanced generator; these choices determine $\beta$. For a fixed ideal case, $\alpha$ determines $p=|N_{K/\mathbb Q}(\alpha)|/N(\mathfrak c)$. Outside the excluded primes, $f$ has at most $d$ roots modulo $p^k$. Since $p^k>X$, each such residue class meets $(X,2X]$ in at most one integer. This proves the last assertion. ◻
 
 Fix an integral basis $\omega_0,\ldots,\omega_{d-1}$ of $K$ and write $$\alpha=\sum_{j=0}^{d-1}x_j\omega_j,\qquad
  \beta=\sum_{j=0}^{d-1}y_j\omega_j,\qquad x,y\in\mathbb Z^d.$$ Define the conjugate linear forms $$a_i(x)=\sum_j\sigma_i(\omega_j)x_j,\qquad
  b_i(y)=\mu^{-1}\sum_j\sigma_i(\omega_j)y_j.$$ The selected points satisfy $$\begin{equation}
-\label{eq:arithmetic-conjugate-equations}
+\tag{4.4}
  a_i(x)^k b_i(y)=n-\theta_i,\qquad
  |a_i(x)|\asymp_f X^{\eta/d},\qquad
  |b_i(y)|\asymp_f X^{b/d}.
@@ -356,7 +356,7 @@ Fix an integral basis $\omega_0,\ldots,\omega_{d-1}$ of $K$ and write $$\alpha=\
 
 ### Uniform analytic coordinates
 
-Split into the finitely many choices of a largest absolute coordinate of $x$ and of $y$, breaking ties in a fixed order. Within each chart reindex them as $x_0,y_0$. Invertibility of the embedding matrices and (eq:arithmetic-balanced-sizes) give $$|x_0|\asymp_f P^{1/d},\qquad
+Split into the finitely many choices of a largest absolute coordinate of $x$ and of $y$, breaking ties in a fixed order. Within each chart reindex them as $x_0,y_0$. Invertibility of the embedding matrices and (4.2) give $$|x_0|\asymp_f P^{1/d},\qquad
  |y_0|\asymp_f X/P^{k/d}.$$ Put $$s_j=x_j/x_0,\qquad t_j=y_j/y_0\quad(1\le j<d),
  \qquad z=1/n.$$ Thus $s,t\in[-1,1]^{d-1}$. Every normalized conjugate form $a_i(1,s)$ and $b_i(1,t)$ has modulus bounded above and below by positive constants. The chart vectors $s,t$ here are distinct from the scalar parameter used later to choose bidegrees.
 
@@ -370,8 +370,8 @@ Split into the finitely many choices of a largest absolute coordinate of $x$ and
 
 *When $m=(d-1)w$, the last bound is $O_f(X^m)$. No primality assumption on $M$ is needed for this lemma.*
 
-*Proof.* Let $\mathcal A$ and $\mathcal B$ be the invertible complex linear maps from the chart coordinates to their $a$- and $b$-embedding vectors. At a counted point put $$\kappa=\frac{x_0^k y_0}{n}.$$ The size bounds show $|\kappa|\asymp_f1$. The normalized equations (eq:arithmetic-conjugate-equations) give $$\begin{equation}
-\label{eq:arithmetic-chart-forward}
+*Proof.* Let $\mathcal A$ and $\mathcal B$ be the invertible complex linear maps from the chart coordinates to their $a$- and $b$-embedding vectors. At a counted point put $$\kappa=\frac{x_0^k y_0}{n}.$$ The size bounds show $|\kappa|\asymp_f1$. The normalized equations (4.4) give $$\begin{equation}
+\tag{4.5}
  \left(\frac{1-\theta_i z}{a_i(1,s)^k}\right)_{i=1}^d
  =\kappa\,\mathcal B(1,t).
 \end{equation}$$ Applying $\mathcal B^{-1}$ and dividing by its first coordinate gives the forward formula for $t$. Its normalizing denominator equals $\kappa$ at the counted point, and is therefore bounded away from zero.
@@ -382,7 +382,7 @@ These formulas also give uniform neighborhoods. The normalized forms, root input
 
 The distance from a counted point to its grid base with $z=0$ is $O(M^{-1}+X^{-1})$, so that base lies in the same fixed neighborhood for large $X$. The allowed $z$-interval has length $O(X^{-1})$. Since $w<1$, this is $O(M^{-1})$. The derivative bound therefore maps one relevant $s$-box and the whole $z$-interval into a set of $t$-diameter $O_f(M^{-1})$, meeting $O_f(1)$ grid boxes. For a fixed $t$-box, continue its relevant root choices to the common grid base. There are at most $k^d$ such choices there. Every branch realized by a counted point has a uniformly nonzero normalizing denominator throughout this small box and the allowed $z$-interval. Each therefore has an $s$-image of diameter $O_f(M^{-1})$, proving the reverse partner bound. There are $O(M^{d-1})$ boxes in either fixed cube, proving the total bound. ◻
 
-We have reduced the selected inputs to finitely many arithmetic cases and paired projective boxes. The equations (eq:arithmetic-conjugate-equations) retain the integer input $n$, while the analytic descriptions provide the small variables for the determinant cuts in the next section.
+We have reduced the selected inputs to finitely many arithmetic cases and paired projective boxes. The equations (4.4) retain the integer input $n$, while the analytic descriptions provide the small variables for the determinant cuts in the next section.
 
 ## Bihomogeneous determinant cuts
 
@@ -396,7 +396,7 @@ Fix the distinct roots $\theta_1,\ldots,\theta_d$, and put $k=d-2$. In $\mathbb 
 **Lemma 5.1**. *The defining ideal of $\mathcal B$ is prime and is a complete intersection of $d-2$ equations of bidegree $(k,1)$. The dimension of $\mathcal V$ is $d$. If $A,B$ tend to infinity with fixed positive rational ratio $B/A$, its bihomogeneous coordinate space in degree $(A,B)$ has dimension $$R(A,B)+O(A^{d-1}),$$ where $$\begin{equation}
  R(A,B)=\frac1{d!}\sum_{j=1}^{d-1}
  \binom dj\binom{d-2}{j-1}k^{j-1}A^{d-j}B^j.
- \label{eq:hilbert-polynomial}
+ \tag{5.1}
 \end{equation}$$*
 
 *Proof.* Where all $a_i\ne0$, the coordinates $a_i,N_0,L_0$ are free and determine the $b_i$. This is an integral smooth open of dimension $d+2$. If some $a_i=0$ and the product vector is nonzero, then $N_0=\theta_iL_0$, $L_0\ne0$, and every other $a_j\ne0$, since the roots are distinct. This stratum has the $d-1$ coordinates $a_j$, together with $L_0,b_i$, and dimension $d+1$. If the product vector is zero, the equations are $a_i^kb_i=0$ for all $i$. Their zero set is a union of coordinate $d$-planes.
@@ -404,7 +404,7 @@ Fix the distinct roots $\theta_1,\ldots,\theta_d$, and put $k=d-2$. In $\mathbb 
 These counts give codimension $d-2$ and a unique top-dimensional component meeting the first open. Here and below we use the following complete-intersection criterion. In a polynomial ring, homogeneous equations of the expected codimension form a regular sequence; their quotient is equidimensional and Cohen–Macaulay, with no embedded components. If there is one top-dimensional component and the scheme is reduced at its generic point, the quotient is reduced and hence a domain. For completeness, localize at the homogeneous maximal ideal. The ambient regular local ring is Cohen–Macaulay, so the expected codimension gives a regular sequence; the positive grading detects regularity globally. The quotient is Cohen–Macaulay and equidimensional by the local dimension formula (Stacks project authors 2026, Tags 00NQ, 02JN, 00NB, and 00NA). It therefore has no embedded associated primes. Generic reducedness on its unique minimal component then implies reducedness (Stacks project authors 2026, Tags 031Q and 031R). This reasoning also applies to positive weighted homogeneous equations. In the present case the indicated smooth open supplies generic reducedness, proving primeness. Passing to the two projective factors subtracts two dimensions.
 
 The Hilbert series of the regular sequence is $$\frac{(1-z_1^kz_2)^{d-2}}{(1-z_1)^d(1-z_2)^d}.$$ Thus the dimension in bidegree $(A,B)$ is the $(d-2)$-fold finite difference, with step $(k,1)$, of $\binom{A+d-1}{d-1}\binom{B+d-1}{d-1}$. Its leading term is $$(k\partial_A+\partial_B)^{d-2}
- \frac{A^{d-1}B^{d-1}}{((d-1)!)^2},$$ which expands to (eq:hilbert-polynomial). The remaining terms have total degree at most $d-1$. ◻
+ \frac{A^{d-1}B^{d-1}}{((d-1)!)^2},$$ which expands to (5.1). The remaining terms have total degree at most $d-1$. ◻
 
 Define the one-variable polynomials $$H(t)=d!R(1,t),\qquad
  H_a(t)=(d-1)!(\partial_A R)(1,t),\qquad
@@ -417,7 +417,7 @@ Define the one-variable polynomials $$H(t)=d!R(1,t),\qquad
  w^{d-2}\min\{H_a(t_*),H_b(t_*)\}&>
  \left(\frac{\eta_++b_+t_*}{d-1}\right)^{d-1}.
  \end{split}
- \label{eq:cut-conditions}
+ \tag{5.2}
 \end{equation}$$ For sufficiently large $X$, the points in this box lie on a bounded number of bounded-degree algebraic sets of the following two types:*
 
 1.  *a mixed hypersurface section of $\mathcal V$, whose bicone is a prime complete intersection with one additional equation of bidegree $(\lambda,s_0)$, where $\lambda,s_0\geq1$;*
@@ -431,13 +431,13 @@ Define the one-variable polynomials $$H(t)=d!R(1,t),\qquad
 We first describe the analytic estimate used in both cuts. Let $\ell$ column functions have uniformly bounded derivatives on the chart neighborhoods, and let the small variables be $u_1,\ldots,u_{d-1},z$, of weights $w,\ldots,w,1$. For a fixed finite set of evaluation points, suppose that the rank of the evaluation columns of monomials of weight at most $T$ is at most $$aT^r+O(T^{r-1}+1),\qquad a>0.$$ If $\ell$ such monomial columns are independent, and their weights in increasing order are $\lambda_j$, then $j\leq a\lambda_j^r+O(\lambda_j^{r-1}+1)$. Inverting and summing gives $$\begin{equation}
  \sum_{j=1}^{\ell}\lambda_j
  \geq \frac{r}{r+1}a^{-1/r}\ell^{1+1/r}-O(\ell).
- \label{eq:taylor-rank-weights}
+ \tag{5.3}
 \end{equation}$$ The constants are uniform whenever the rank estimate is uniform.
 
-Expand each analytic column at the box base in the *original* monomials in $u,z$, to a fixed total order $K$. A polynomial summand in the multilinear expansion of the determinant vanishes if its monomial evaluation columns are dependent. Otherwise (eq:taylor-rank-weights) bounds its total weight, and hence its absolute value by a constant times $X$ to the negative of that weight. The Taylor coefficients are uniformly bounded. The remainder in a column is $O(X^{-\min(w,1)(K+1)})$. After fixing the column degrees and $\ell$, choose $K$ so large that every determinant term containing a remainder has a stronger bound than the required one. There are then only boundedly many terms. Thus the normalized determinant is $$\begin{equation}
+Expand each analytic column at the box base in the *original* monomials in $u,z$, to a fixed total order $K$. A polynomial summand in the multilinear expansion of the determinant vanishes if its monomial evaluation columns are dependent. Otherwise (5.3) bounds its total weight, and hence its absolute value by a constant times $X$ to the negative of that weight. The Taylor coefficients are uniformly bounded. The remainder in a column is $O(X^{-\min(w,1)(K+1)})$. After fixing the column degrees and $\ell$, choose $K$ so large that every determinant term containing a remainder has a stronger bound than the required one. There are then only boundedly many terms. Thus the normalized determinant is $$\begin{equation}
  \ll X^{-S},\qquad
  S=\frac{r}{r+1}a^{-1/r}\ell^{1+1/r}-O(\ell).
- \label{eq:taylor-determinant-bound}
+ \tag{5.4}
 \end{equation}$$ This argument requires only exact dependence of evaluation columns, not any bound on coefficients expressing that dependence.
 
 ### The first cut and its components
@@ -445,26 +445,26 @@ Expand each analytic column at the box base in the *original* monomials in $u,z$
 Choose large integer bidegrees with $B/A=t_*$, and choose a basis of the degree-$(A,B)$ coordinate space of $\mathcal V$ from raw monomials in the integral coordinates $x,y$. By Lemma 5.1, its size is $$\ell=\frac{H(t_*)}{d!}A^d+O(A^{d-1}).$$ For any $\ell$ counted points, the raw evaluation determinant is an integer. Divide each row by $x_0^Ay_0^B$, using the nonzero chart coordinates. If the determinant is nonzero, its normalized absolute value is at least $$\begin{equation}
  c_{A,B}\,X^{-\ell A(\eta_++b_+t_*)/d},
  \qquad c_{A,B}>0.
- \label{eq:integer-determinant-lower}
+ \tag{5.5}
 \end{equation}$$ The constant can be chosen uniformly in the box.
 
-Normalized monomials are analytic functions of the chart variables and $z$. Without an extra relation among the small variables, their monomial count is $$\frac{T^d}{d!w^{d-1}}+O(T^{d-1}+1).$$ Equations (eq:taylor-rank-weights)–(eq:taylor-determinant-bound) therefore give $$S=\frac d{d+1}(d!w^{d-1})^{1/d}\ell^{1+1/d}-O(\ell),
+Normalized monomials are analytic functions of the chart variables and $z$. Without an extra relation among the small variables, their monomial count is $$\frac{T^d}{d!w^{d-1}}+O(T^{d-1}+1).$$ Equations (5.3)–(5.4) therefore give $$S=\frac d{d+1}(d!w^{d-1})^{1/d}\ell^{1+1/d}-O(\ell),
  \qquad
  \frac S\ell
- =\frac d{d+1}\bigl(w^{d-1}H(t_*)\bigr)^{1/d}A+O(1).$$ The first inequality in (eq:cut-conditions) makes this exponent larger than the one in (eq:integer-determinant-lower), first for sufficiently large fixed $A,B$, then for sufficiently large $X$. Every such determinant vanishes. The evaluation map therefore has rank less than $\ell$, also when there are fewer than $\ell$ points. Its kernel gives a bihomogeneous equation vanishing on all the counted points but not identically on $\mathcal V$.
+ =\frac d{d+1}\bigl(w^{d-1}H(t_*)\bigr)^{1/d}A+O(1).$$ The first inequality in (5.2) makes this exponent larger than the one in (5.5), first for sufficiently large fixed $A,B$, then for sufficiently large $X$. Every such determinant vanishes. The evaluation map therefore has rank less than $\ell$, also when there are fewer than $\ell$ points. Its kernel gives a bihomogeneous equation vanishing on all the counted points but not identically on $\mathcal V$.
 
 We must describe the actual components of this cut before using their Hilbert functions. On the open where all $a_i\ne0$, substitute $b_i=(N_0-\theta_iL_0)/a_i^k$, clear denominators, and factor. Each relevant irreducible factor $$F(a,N_0,L_0)=\sum_I a^If_I(N_0,L_0)$$ is bihomogeneous, say of degrees $(l,s_0)$ in $a$ and $(N_0,L_0)$. Indeed, the two scaling actions preserve each irreducible factor up to scalar. Factors $a_i$ or $L_0$ do not meet the open of counted points and can be omitted. Returning to the $(a,b)$-coordinates replaces $N_0-\theta_iL_0$ by $a_i^kb_i$, so the substituted terms may acquire common powers of $a_i$. We extract these powers and then verify that the remaining equation has no extra boundary component. For each nonzero $f_I$, set $$\nu_{i,I}=\operatorname{ord}_{N_0-\theta_iL_0}f_I,\qquad
  e_i=\min_I(I_i+k\nu_{i,I}).$$ Writing $f_I=\prod_i(N_0-\theta_iL_0)^{\nu_{i,I}}g_I$, the expression $$\begin{equation}
  C(a,b)=\sum_I
  a^{I+k\nu_I-e}b^{\nu_I}g_I(N_0,L_0)
- \label{eq:saturated-bihomogeneous-cut}
+ \tag{5.6}
 \end{equation}$$ is a polynomial: every exponent of $a$ is nonnegative. It represents $F/\prod_i a_i^{e_i}$ on the bicone, and has bidegree $$(\lambda,s_0),\qquad \lambda=l+ks_0-\sum_i e_i.$$
 
 This extension has no unwanted boundary component. On $a_i=0$ with nonzero product vector, set $L_0=1$. Substitution for the other $b_j$ leaves, precisely when $I_i+k\nu_{i,I}=e_i$, a nonzero constant times $$a_{-i}^{I_{-i}-e_{-i}}b_i^{\nu_{i,I}}.$$ These Laurent monomials are distinct: their exponents determine $I_{-i}$ and $\nu_{i,I}$, and then $I_i=e_i-k\nu_{i,I}$. Thus the restriction of $C$ is nonzero. It reduces this boundary stratum to dimension at most $d$; the zero-product boundary already has dimension $d$. The open defined by $F$ is integral and generically reduced of dimension $d+1$. Since $C$ is a nonzero element of the prime bicone ring, adding it preserves the complete-intersection property. The boundary calculation and the criterion in the proof of Lemma 5.1 now prove that the new ideal is prime.
 
 The Hilbert series acquires the factor $1-z_1^\lambda z_2^{s_0}$. Its leading term in bidegree $(A,B)$ is $$\begin{equation}
  (\lambda\partial_A+s_0\partial_B)R(A,B),
- \label{eq:cut-hilbert-leading}
+ \tag{5.7}
 \end{equation}$$ with error $O(A^{d-2})$ at fixed $B/A$. The nonnegative integers $\lambda,s_0$ are not both zero. If both are positive we retain this mixed component. All degrees remain bounded, by the degree of the first determinant equation and the fixed substitutions.
 
 ### The second cut on pure components
@@ -476,8 +476,8 @@ Here is the needed coefficient-uniform rank estimate. Put $r=d-1$ and $e=\deg Q_
  \left(\frac{r!w^{r-1}}{c_0}\right)^{1/r}
  \ell^{1+1/r}-O(\ell).$$ In particular, we have never solved the moving equation for one variable or reduced Taylor monomials by division by a coefficient.
 
-Keep the first-cut degrees fixed, so that $c_0$ ranges over a bounded set of positive integers. Choose new, sufficiently large bidegrees $A,B$, again with $B/A=t_*$, for the second determinant. By (eq:cut-hilbert-leading), a basis of raw monomials on a pure $a$ component has size $$\ell=\frac{c_0H_a(t_*)}{r!}A^r+O(A^{r-1}).$$ Consequently $$\frac S\ell\geq
- \frac r d\bigl(w^{r-1}H_a(t_*)\bigr)^{1/r}A-O(1).$$ The factor $c_0$ cancels. The identical calculation for a pure $b$ component uses $H_b$. The second inequality in (eq:cut-conditions) contradicts (eq:integer-determinant-lower) in both cases. The resulting equation is nonzero on the component, so it cuts its biprojective dimension from $d-1$ to at most $d-2$. The Hilbert series and errors depend only on bounded bidegrees, and the analytic bounds come from the ambient chart maps. Thus the second-cut degrees can be fixed uniformly for every pure component.
+Keep the first-cut degrees fixed, so that $c_0$ ranges over a bounded set of positive integers. Choose new, sufficiently large bidegrees $A,B$, again with $B/A=t_*$, for the second determinant. By (5.7), a basis of raw monomials on a pure $a$ component has size $$\ell=\frac{c_0H_a(t_*)}{r!}A^r+O(A^{r-1}).$$ Consequently $$\frac S\ell\geq
+ \frac r d\bigl(w^{r-1}H_a(t_*)\bigr)^{1/r}A-O(1).$$ The factor $c_0$ cancels. The identical calculation for a pure $b$ component uses $H_b$. The second inequality in (5.2) contradicts (5.5) in both cases. The resulting equation is nonzero on the component, so it cuts its biprojective dimension from $d-1$ to at most $d-2$. The Hilbert series and errors depend only on bounded bidegrees, and the analytic bounds come from the ambient chart maps. Thus the second-cut degrees can be fixed uniformly for every pure component.
 
 Finally, on the counted affine locus $L_0=1$, the map to $\mathcal V$ has one-dimensional scaling fibers: $a\mapsto ca$ requires $b\mapsto c^{-k}b$. Mixed components therefore have affine dimension $d$, and second-cut components have dimension at most $d-1$. In the mixed case the equation on the nonzero-$a$ open is $F(a,n,1)=0$. It is irreducible, since a factorization would rehomogenize to one of $F$, and its degree in $n$ is exactly $s_0$, since $L_0$ does not divide $F$. Since $s_0\geq1$, its coefficient polynomials in $a$ have no common nonconstant factor; such a factor would contradict irreducibility. Their common zero set therefore has codimension at least two in the $a$-space whenever it is nonempty. Taking closures preserves these dimensions and bounded degrees. This proves Proposition 5.2.
 
@@ -499,16 +499,16 @@ Apply induction to $\Lambda'$, and lift its basis vectors with these reduced par
 ### Grouping the paired boxes
 
 Fix a maximal-coordinate chart from Section 4, and reindex its coordinates as $x=(x_0,\ldots,x_{d-1})$, $y=(y_0,\ldots,y_{d-1})$. Thus $s_i=x_i/x_0$ and $t_i=y_i/y_0$ for $1\le i<d$. Let $\eta_+,b_+>0$ be fixed upper exponents for which $$|x_i|\ll X^{\eta_+/d},\qquad |y_i|\ll X^{b_+/d}.$$ Choose fixed $w,\tau>0$ with $$\begin{equation}
-\label{eq:lattice-parameters}
+\tag{6.1}
  m=(d-1)w<\min(\eta_+,b_+),\qquad
  u=\frac{\eta_+-m}{d},\qquad v=\frac{b_+-m}{d}.
 \end{equation}$$ Use a prime $M\asymp X^w$ for the approximation grid. Such a prime exists by Bertrand’s postulate. All constants in this section are uniform in the grid boxes and in $X$; they may depend on the fixed parameters, the dimension, and the polynomial.
 
-**Proposition 6.2**. *For the paired boxes of Lemma 4.2, assume the coordinate bounds above and fix parameters satisfying (eq:lattice-parameters). The paired boxes can be grouped into finitely many ranges indexed by $j=\ell\tau$, $\ell\in\mathbb Z_{\ge0}$, with $j\le m/d$. The number of paired boxes in range $j$ is $$\begin{equation}
-\label{eq:lattice-box-count}
+**Proposition 6.2**. *For the paired boxes of Lemma 4.2, assume the coordinate bounds above and fix parameters satisfying (6.1). The paired boxes can be grouped into finitely many ranges indexed by $j=\ell\tau$, $\ell\in\mathbb Z_{\ge0}$, with $j\le m/d$. The number of paired boxes in range $j$ is $$\begin{equation}
+\tag{6.2}
  O\bigl(X^{m-dj}\bigr).
 \end{equation}$$ For each paired box there are integral unimodular changes $x\leftrightarrow x'$ and $y\leftrightarrow y'$ such that all its selected points satisfy $$\begin{equation}
-\label{eq:lattice-coordinate-bounds}
+\tag{6.3}
  |x'_i|\ll X^U,\qquad |y'_i|\ll X^V,
  \qquad U=u+j+\tau,\quad V=v+j+\tau.
 \end{equation}$$ The matrices of these changes and their inverses have entries bounded by a fixed power of $X$.*
@@ -518,17 +518,17 @@ Fix a maximal-coordinate chart from Section 4, and reindex its coordinates as $
  q\in\mathbb Z^d\right\}.$$ The image of every counted $x$ has bounded Euclidean norm, since $$Mx_i-c_ix_0=Mx_0(s_i-c_i/M),\qquad |s_i-c_i/M|\le M^{-1}.$$ Let $U_*$ be the inverse shortest nonzero length of $\Lambda_c$. Lemma 6.1 gives integral coordinates with $|x'_i|\ll U_*$. The preimages of a lattice basis form a basis of $\mathbb Z^d$, so this is a unimodular change. Apply the same construction to the $t$-box, using the scaling $X^{-b_+/d}$, and denote its inverse shortest length by $V_*$. Then $|y'_i|\ll V_*$.
 
 Define the excess $$J=\max\{1,U_*/X^u,V_*/X^v\}.$$ Before the common scaling, every nonzero lattice vector is a nonzero integer vector and has norm at least one. Consequently $$\begin{equation}
-\label{eq:lattice-J-bound}
+\tag{6.4}
  U_*\le X^{\eta_+/d},\qquad V_*\le X^{b_+/d},
  \qquad 1\le J\le X^{m/d}.
-\end{equation}$$ Put a pair in range $j$ when $X^j\le J<X^{j+\tau}$. The exact upper bound in (eq:lattice-J-bound) shows that only $0\le j\le m/d$ occur. In particular there are boundedly many ranges and $X^{m/d-j}\ge1$ in every occupied range. The upper bound for $J$ within its range proves (eq:lattice-coordinate-bounds).
+\end{equation}$$ Put a pair in range $j$ when $X^j\le J<X^{j+\tau}$. The exact upper bound in (6.4) shows that only $0\le j\le m/d$ occur. In particular there are boundedly many ranges and $X^{m/d-j}\ge1$ in every occupied range. The upper bound for $J$ within its range proves (6.3).
 
 For $j>0$, at least one of $U_*\ge X^{u+j}$ and $V_*\ge X^{v+j}$ holds. In the first case a shortest lattice vector gives a nonzero integer vector $$q=(q_0,Mq'_1-c_1q_0,\ldots,Mq'_{d-1}-c_{d-1}q_0),
- \qquad \|q\|\le T:=X^{m/d-j}.$$ Here $1\le T\le X^{m/d}$ and $T/M\ll X^{-w/d}$, so $T<M$ for sufficiently large $X$. If $q_0=0$, every other coordinate would be divisible by $M$, contrary to $0<\|q\|<M$. Thus $0<|q_0|<M$, and the primality of $M$ gives $$c_i\equiv-q_i q_0^{-1}\pmod M\qquad(1\le i<d).$$ Each vector $q$ determines the grid base up to boundedly many possibilities, because $|c_i|\ll M$. There are $O(T^d)$ such integer vectors. Hence there are $O(X^{m-dj})$ possible $s$-boxes in this case. The $V_*$ case gives the identical bound for $t$-boxes. Lemma 4.2 supplies boundedly many partners in either direction, proving (eq:lattice-box-count) for their union. When $j=0$, use the total bound $O(M^{d-1})=O(X^m)$ from that lemma.
+ \qquad \|q\|\le T:=X^{m/d-j}.$$ Here $1\le T\le X^{m/d}$ and $T/M\ll X^{-w/d}$, so $T<M$ for sufficiently large $X$. If $q_0=0$, every other coordinate would be divisible by $M$, contrary to $0<\|q\|<M$. Thus $0<|q_0|<M$, and the primality of $M$ gives $$c_i\equiv-q_i q_0^{-1}\pmod M\qquad(1\le i<d).$$ Each vector $q$ determines the grid base up to boundedly many possibilities, because $|c_i|\ll M$. There are $O(T^d)$ such integer vectors. Hence there are $O(X^{m-dj})$ possible $s$-boxes in this case. The $V_*$ case gives the identical bound for $t$-boxes. Lemma 4.2 supplies boundedly many partners in either direction, proving (6.2) for their union. When $j=0$, use the total bound $O(M^{d-1})=O(X^m)$ from that lemma.
 
 For completeness, the bases above also have polynomial height. The covolume of $\Lambda_c$ is $X^{-\eta_+}M^{d-1}\asymp X^{m-\eta_+}$, and its shortest length is at least $X^{-\eta_+/d}$. The product bound in Lemma 6.1 therefore gives $$\max_i\|b_i\|\ll X^{m-\eta_+/d}.$$ The inverse of the unscaled triangular map defining $\Lambda_c$ has bounded norm, since $|c_i|\ll M$. Its lattice basis thus pulls back to integral vectors of size $O(X^m)$. Cofactors bound the inverse unimodular matrix by a fixed power of $X$. The argument for $y$ is the same. ◻
 
-Linear changes preserve dimensions and degrees of all the cut sets. They also preserve the weighted polynomial spaces within each coordinate block: every $a_i$ is a linear combination of the $x'_i$, which all have weight $U$, and every $b_i$ is a linear combination of the $y'_i$, which all have weight $V$. This assertion concerns the polynomial filtration, irrespective of the coefficients of the linear forms. The numerical size bounds used for integral counting are those on $x',y'$ in (eq:lattice-coordinate-bounds).
+Linear changes preserve dimensions and degrees of all the cut sets. They also preserve the weighted polynomial spaces within each coordinate block: every $a_i$ is a linear combination of the $x'_i$, which all have weight $U$, and every $b_i$ is a linear combination of the $y'_i$, which all have weight $V$. This assertion concerns the polynomial filtration, irrespective of the coefficients of the linear forms. The numerical size bounds used for integral counting are those on $x',y'$ in (6.3).
 
 ### Removing infinite fibers in the quartic case
 
@@ -536,7 +536,7 @@ For $d=4$, a later Hilbert estimate requires $n$ to be algebraic over the functi
 
 **Lemma 6.3**. *Suppose $d=4$, and let $Z$ be an initial bounded-degree set from Proposition 5.2, restricted to the open $a_1a_2a_3a_4\ne0$. Use coordinates $(a,n)$ there, with $b_i=(n-\theta_i)/a_i^2$. Assume either that $\dim Z\le3$, or that $Z$ has the irreducible equation $F(a,n)=0$ with positive degree in $n$. The set of $a$ for which the $n$-fiber has dimension one has a closure of dimension at most two and bounded degree.*
 
-*In a box satisfying (eq:lattice-coordinate-bounds), deleting all selected points above this base costs $O_f(X^{2U})$ points. On every irreducible subvariety of $Z$ meeting the remaining selected set, $n$ is algebraic over the field generated by the $a_i$.*
+*In a box satisfying (6.3), deleting all selected points above this base costs $O_f(X^{2U})$ points. On every irreducible subvariety of $Z$ meeting the remaining selected set, $n$ is algebraic over the field generated by the $a_i$.*
 
 *Proof.* Substitute $b_i=(n-\theta_i)/a_i^2$ into bounded-degree defining equations for $Z$ and clear their denominators. On the specified open, a fiber has dimension one precisely when each resulting polynomial in $n$ vanishes identically. Thus its base is the common zero set of their coefficient polynomials, restricted to the $a$-torus. These equations have bounded degrees; retaining their relevant components and taking closure preserves a bounded degree. Components contained entirely in $a_1a_2a_3a_4=0$ are not included.
 
@@ -546,7 +546,7 @@ The invertible linear change from $a$ to $x'$ preserves this dimension and degre
 
 Finally, suppose $Y\subseteq Z$ is irreducible and $n$ is transcendental over the field generated by its $a_i$. Every polynomial relation in $n$ from the substituted equations then has all coefficients zero on $Y$. Its entire $a$-image lies in the base just removed. Consequently such a $Y$ meets no remaining selected point, proving the last assertion. ◻
 
-Proposition 6.2 supplies the integral boxes for the affine counting theorem, and Lemma 6.3 supplies the additional projection property needed in the quartic case. The next sections establish the Hilbert bounds on the sets inside these boxes; the final summation will combine their cost with the factor $X^{m-dj}$ in (eq:lattice-box-count).
+Proposition 6.2 supplies the integral boxes for the affine counting theorem, and Lemma 6.3 supplies the additional projection property needed in the quartic case. The next sections establish the Hilbert bounds on the sets inside these boxes; the final summation will combine their cost with the factor $X^{m-dj}$ in (6.2).
 
 ## Weighted Hilbert bounds from selected pairs
 
@@ -559,68 +559,68 @@ Let $Y$ be an irreducible subvariety of the affine equations $$a_i^kb_i=n-\theta
 **Proposition 7.1**. *For each nonzero coefficient polynomial $f_I$, define $$\nu_{i,I}=\operatorname{ord}_{n-\theta_i}f_I,\qquad
  e_i=\min_I(I_i+k\nu_{i,I}),$$ and put $$\begin{equation}
  D=\max_I\{U|I|+(kU+V)\deg f_I\}-U\sum_i e_i.
- \label{eq:extracted-weight}
+ \tag{7.1}
 \end{equation}$$ Then $D>0$, and the weighted filtered Hilbert function of the pair image satisfies $$\begin{equation}
  H_{Y_{\mathrm{pair}}}(T)=
  \frac{(kU+V)^{h-1}D}{U^hV^h}\frac{T^h}{h!}
  +O(T^{h-1}+1).
- \label{eq:pair-hilbert}
+ \tag{7.2}
 \end{equation}$$ This is a lower bound for $H_Y(T)$. If the function field degree of $Y$ over its pair image is at least two, the leading coefficient in this lower bound can be doubled. For fixed weights and bounded degree of $Y$, all error constants are uniform, independently of the coefficients of its equations.*
 
 ### Extracting a polynomial equation
 
-Factor $$f_I(n)=\prod_{i=1}^h(n-\theta_i)^{\nu_{i,I}}g_I(n).$$ As in (eq:saturated-bihomogeneous-cut), define $$\begin{equation}
+Factor $$f_I(n)=\prod_{i=1}^h(n-\theta_i)^{\nu_{i,I}}g_I(n).$$ As in (5.6), define $$\begin{equation}
  C_1(a,b)=
  \sum_I a^{I+k\nu_I-e}b^{\nu_I}
  g_I(a_1^kb_1+\theta_1).
- \label{eq:affine-extracted-cut}
+ \tag{7.3}
 \end{equation}$$ All exponents of $a$ are nonnegative. Impose, in addition, the $h-1$ equations $$\begin{equation}
  a_i^kb_i+\theta_i=a_1^kb_1+\theta_1
  \qquad(2\leq i\leq h).
- \label{eq:pair-product-relations}
+ \tag{7.4}
 \end{equation}$$ On the open where all $a_i\ne0$, these equations and $C_1=0$ have coordinate ring $$\mathbb C[a_1^{\pm1},\ldots,a_h^{\pm1},n]/(F_1),$$ which is integral of dimension $h$.
 
 The boundary has smaller dimension. If $a_i=0$, then $n=\theta_i$, every other $a_j\ne0$, and $b_j=(\theta_i-\theta_j)/a_j^k$. Before imposing $C_1$, the free coordinates are $b_i$ and the $h-1$ nonzero $a_j$, giving dimension $h$. The terms of $C_1$ surviving there have $I_i+k\nu_{i,I}=e_i$ and are nonzero scalar multiples of $$a_{-i}^{I_{-i}-e_{-i}}b_i^{\nu_{i,I}}.$$ Their exponents determine $I$, so these Laurent monomials are distinct. Thus $C_1$ is nonzero on this stratum and reduces its dimension to at most $h-1$. This checks every affine boundary stratum, since two different $a_i$ cannot vanish when the $\theta_i$ are distinct.
 
-Every term in (eq:affine-extracted-cut) has weight at most the number $D$ in (eq:extracted-weight). The bound is attained without cancellation. To see this, retain the highest weighted parts in (eq:pair-product-relations); they say that the products $a_i^kb_i$ all equal a common variable $q$. On their nonzero-$a$ open, the weight-$D$ part of $C_1$ restricts to $$\begin{equation}
+Every term in (7.3) has weight at most the number $D$ in (7.1). The bound is attained without cancellation. To see this, retain the highest weighted parts in (7.4); they say that the products $a_i^kb_i$ all equal a common variable $q$. On their nonzero-$a$ open, the weight-$D$ part of $C_1$ restricts to $$\begin{equation}
  a^{-e}\operatorname{in}_{(U,kU+V)}F_1(a,q).
- \label{eq:nonzero-weighted-top}
+ \tag{7.5}
 \end{equation}$$ Here $\operatorname{in}_{(U,kU+V)}$ means the sum of terms of largest weight when each $a_i$ has weight $U$ and $q$ has weight $kU+V$. The expression is a nonzero Laurent polynomial: distinct monomials $a^Iq^j$ remain distinct after division by $a^e$. This also follows directly from the extracted-factor formula, since constants $\theta_i$ disappear in the highest-weight terms. Consequently $C_1$ has exact weight $D$. It is nonconstant, since otherwise the nonempty open hypersurface defined by $F_1$ would be empty. Hence $$\begin{equation}
  D\geq\min(U,V)>0.
- \label{eq:basic-extracted-weight}
+ \tag{7.6}
 \end{equation}$$
 
 ### The complete intersection at weighted infinity
 
-Choose a positive integer $L_{\mathrm{wt}}$ such that $A=L_{\mathrm{wt}}U$ and $B=L_{\mathrm{wt}}V$ are integers, and set $$Q=kA+B,\qquad E=L_{\mathrm{wt}}D.$$ Homogenize (eq:pair-product-relations) and $C_1$ with a variable $t$ of weight one, giving $h$ homogeneous equations in $2h+1$ variables. On $t\ne0$, scaling to $t=1$ identifies the scheme with the affine one times $\mathbb C^\times$. Its nonzero-$a$ open is integral and generically reduced of dimension $h+1$. Its remaining affine strata have dimension at most $h$, by the preceding boundary calculation.
+Choose a positive integer $L_{\mathrm{wt}}$ such that $A=L_{\mathrm{wt}}U$ and $B=L_{\mathrm{wt}}V$ are integers, and set $$Q=kA+B,\qquad E=L_{\mathrm{wt}}D.$$ Homogenize (7.4) and $C_1$ with a variable $t$ of weight one, giving $h$ homogeneous equations in $2h+1$ variables. On $t\ne0$, scaling to $t=1$ identifies the scheme with the affine one times $\mathbb C^\times$. Its nonzero-$a$ open is integral and generically reduced of dimension $h+1$. Its remaining affine strata have dimension at most $h$, by the preceding boundary calculation.
 
-At $t=0$, the products $a_i^kb_i$ must coincide. If all $a_i\ne0$, the variables $a_1,\ldots,a_h,q$ are free before the last equation, and (eq:nonzero-weighted-top) is nonzero. This part of infinity has dimension at most $h$. If some $a_i=0$, the common product is zero, so $a_j^kb_j=0$ for every $j$. This locus is a union of coordinate $h$-planes. Its dimension is $h$, even if the last equation vanishes on an entire such plane.
+At $t=0$, the products $a_i^kb_i$ must coincide. If all $a_i\ne0$, the variables $a_1,\ldots,a_h,q$ are free before the last equation, and (7.5) is nonzero. This part of infinity has dimension at most $h$. If some $a_i=0$, the common product is zero, so $a_j^kb_j=0$ for every $j$. This locus is a union of coordinate $h$-planes. Its dimension is $h$, even if the last equation vanishes on an entire such plane.
 
 It follows that the homogeneous system has dimension $h+1$, and no top-dimensional component is contained in either boundary. The complete-intersection criterion used in Lemma 5.1 therefore makes its ideal prime. In particular, it is saturated with respect to $t$. Dehomogenization gives precisely the prime ideal of $Y_{\mathrm{pair}}$: on the nonzero-$a$ open the descriptions agree, and the boundary has smaller dimension.
 
 The degree-$N$ part of this graded quotient is the space of affine functions represented by monomials of weight at most $N$ in the scaled weights $A,B$. Surjectivity follows by homogenizing each such monomial with a power of $t$. For injectivity, a homogeneous element vanishing after dehomogenization vanishes after localization at $t$, and saturation implies that it was zero in the graded quotient. Thus the Hilbert series of these filtered dimensions is $$\begin{equation}
  \frac{(1-z^Q)^{h-1}(1-z^E)}
  {(1-z)(1-z^A)^h(1-z^B)^h}.
- \label{eq:weighted-hilbert-series}
+ \tag{7.7}
 \end{equation}$$
 
 At $z=1$ this series has a pole of order $h+1$, with leading factor $Q^{h-1}E/(A^hB^h)$. We also check all other roots of unity. If only one of $1-z^A,1-z^B$ vanishes, its denominator order is $h$. If both vanish at a nontrivial root $\zeta$, its order divides $\gcd(A,B)$, and therefore divides $Q$ and $E$: the latter is a monomial weight of the nonzero polynomial $C_1$. All $h$ numerator factors then vanish, reducing the denominator order $2h$ to at most $h$. The extra factor $1-z$ is nonzero at $\zeta$. Partial fractions consequently give $$\frac{Q^{h-1}E}{A^hB^h}\frac{N^h}{h!}
- +O(N^{h-1}+1)$$ for the coefficient of $z^N$. Taking $N=\lfloor L_{\mathrm{wt}}T\rfloor$ and rescaling proves (eq:pair-hilbert). In particular, lower-dimensional coordinate planes at infinity do not change its leading coefficient or introduce a periodic term of order $T^h$.
+ +O(N^{h-1}+1)$$ for the coefficient of $z^N$. Taking $N=\lfloor L_{\mathrm{wt}}T\rfloor$ and rescaling proves (7.2). In particular, lower-dimensional coordinate planes at infinity do not change its leading coefficient or introduce a periodic term of order $T^h$.
 
 ### Uniformity and function-field extensions
 
-The degree of $F_1$ is bounded in terms of $d,k$ and the degree of $Y$. Indeed, $n=a_1^kb_1+\theta_1$ is a polynomial of fixed degree. Form the graph of the map to the selected $a_i$ and $n$, then project linearly; the usual degree bounds for graphs and projections give the assertion. They do not involve coefficient heights. For fixed $U,V$ and a bound on that degree, only finitely many numerator degrees $E$ can occur in (eq:weighted-hilbert-series). Its coefficient errors are therefore uniform. This proves the required uniformity even for moving equations and moving blockwise linear changes of coordinates.
+The degree of $F_1$ is bounded in terms of $d,k$ and the degree of $Y$. Indeed, $n=a_1^kb_1+\theta_1$ is a polynomial of fixed degree. Form the graph of the map to the selected $a_i$ and $n$, then project linearly; the usual degree bounds for graphs and projections give the assertion. They do not involve coefficient heights. For fixed $U,V$ and a bound on that degree, only finitely many numerator degrees $E$ can occur in (7.7). Its coefficient errors are therefore uniform. This proves the required uniformity even for moving equations and moving blockwise linear changes of coordinates.
 
 Pullback from the pair image is injective and preserves weights, so its Hilbert function is a lower bound for that of $Y$. Let $K_{\mathrm{pair}}=\mathbb C(Y_{\mathrm{pair}})$. If $[\mathbb C(Y):K_{\mathrm{pair}}]\geq2$, one of the original $a$ or $b$ coordinates, say $\xi$, lies outside $K_{\mathrm{pair}}$, since these coordinates generate $\mathbb C(Y)$. Its weight $\omega$ is $U$ or $V$. The two spaces consisting of pair-image functions of weight at most $T$, and $\xi$ times such functions of weight at most $T-\omega$, are linearly independent on $Y$: a relation $A+\xi B=0$ with $A,B\in K_{\mathrm{pair}}$ would contradict $\xi\notin K_{\mathrm{pair}}$ unless $A=B=0$. Hence $$\begin{equation}
  H_Y(T)\geq
  H_{Y_{\mathrm{pair}}}(T)+H_{Y_{\mathrm{pair}}}(T-\omega)
- \label{eq:field-degree-gain}
+ \tag{7.8}
 \end{equation}$$ for $T\geq\omega$. The bounded shift leaves the leading coefficient unchanged and only changes the uniform $O(T^{h-1}+1)$ term. This proves the asserted doubling and completes Proposition 7.1.
 
 ### The general dimensional thresholds
 
 We record the consequences needed before the special quartic surface argument. Here $Y$ is an irreducible subvariety of one of the initial affine sets obtained in Proposition 5.2. If $Y$ has dimension $d$, it must be one of the mixed affine components of Proposition 5.2; the second-cut sets have smaller dimension. In this case the equation is $F(a,n,1)$, with $F$ of bidegree $(l,s_0)$ and saturated bidegree $(\lambda,s_0)$, where $\lambda,s_0\geq1$. Homogeneity in $a$, and the fact that its degree in $n$ is exactly $s_0$, give $$D=lU+(kU+V)s_0-U\sum_i e_i
-   =\lambda U+s_0V\geq U+V.$$ Thus (eq:pair-hilbert) gives a lower bound with leading coefficient $$\frac{(kU+V)^{d-1}(U+V)}{U^dV^d}.$$ In every dimension $2\leq h\leq d-1$, the general bound (eq:basic-extracted-weight) gives the coefficient $$\frac{(kU+V)^{h-1}\min(U,V)}{U^hV^h}.$$
+   =\lambda U+s_0V\geq U+V.$$ Thus (7.2) gives a lower bound with leading coefficient $$\frac{(kU+V)^{d-1}(U+V)}{U^dV^d}.$$ In every dimension $2\leq h\leq d-1$, the general bound (7.6) gives the coefficient $$\frac{(kU+V)^{h-1}\min(U,V)}{U^hV^h}.$$
 
 If instead we can select $h$ algebraically independent $a$-coordinates, the same pair-image construction applies. Its polynomial $C_1$ must involve a $b$-coordinate; otherwise it is a nonzero relation among those independent $a$’s. Consequently $D\geq V$, giving coefficient $$\frac{(kU+V)^{h-1}V}{U^hV^h}.$$ After the quartic infinite-fiber removal in Lemma 6.3, $n$ is algebraic over the $a$-coordinate field on every remaining subvariety. That field has transcendence degree $h$, so the independent selection exists. In particular, this last coefficient supplies the quartic $h=3$ bound. The next section sharpens the remaining quartic surface case.
 
@@ -631,7 +631,7 @@ In this section $d=4$ and $k=2$. We retain the number field $K=\mathbb Q(\theta)
 ### The surface bound
 
 **Proposition 8.1**. *Let $Y$ be a geometrically irreducible surface defined over $\mathbb Q$ in the rational coordinates of the arithmetic boxes. Suppose that it meets the open $a_1a_2a_3a_4\ne0$, satisfies $$a_i^2b_i=n-\theta_i\qquad(1\le i\le4),$$ and that $n$ is nonconstant and algebraic over the field generated by $a_1,\ldots,a_4$. Give the two coordinate blocks positive rational weights $U,V$, respectively, and put $$D_0=\min(3U,2V,U+V).$$ Then $$\begin{equation}
-\label{eq:quartic-surface-hilbert}
+\tag{8.1}
  H_Y(T)\ge \frac{T^2}{2}
     \min\left\{\frac{(2U+V)D_0}{U^2V^2},\frac3{U^2}\right\}-O(T).
 \end{equation}$$ For fixed weights and a bound on $\deg Y$, the error is uniform in the moving coordinate changes and defining equations.*
@@ -641,11 +641,11 @@ In this section $d=4$ and $k=2$. We retain the number field $K=\mathbb Q(\theta)
 We separate the cases in which the $a$-image has degree at least three, two, or one. The first supplies three independent families directly. A quadric supplies a pair-image bound or an extra field degree; on a plane, deficient bounds for every pair lead to a contradiction.
 
 We will repeatedly use Proposition 7.1 for algebraically independent coordinate functions $a_i,a_j$. Its polynomial $C_1$ has weight $D$ and involves $b_i$ or $b_j$, since $a_i,a_j$ are independent. If $D<D_0$, no monomial can contain two $b$ factors, an $a$ factor and a $b$ factor, or three $a$ factors. Thus its equation has the form $$\begin{equation}
-\label{eq:quartic-small-relation}
+\tag{8.2}
  c_i b_i+c_j b_j=S_{ij}(a_i,a_j),\qquad
  \deg S_{ij}\le2,\qquad(c_i,c_j)\ne(0,0).
 \end{equation}$$ In particular $D\ge V$. Substitution of the equations for $b_i,b_j$ gives $$\begin{equation}
-\label{eq:quartic-rational-n}
+\tag{8.3}
  \begin{split}
  B_{ij}n&=c_i\theta_i a_j^2+c_j\theta_j a_i^2
                  +a_i^2a_j^2S_{ij}(a_i,a_j),\\
@@ -657,7 +657,7 @@ We will repeatedly use Proposition 7.1 for algebraically independent coordinate
 
 Suppose $\deg S=e\ge3$. A general linear projection to an affine plane, with coordinates $s,t$ linear in the $a_i$, has function-field degree $e$. Indeed choose its projective centre at infinity disjoint from the projective closure of $S$. A general fibre is a complementary linear section of degree $e$, with no intersection at infinity; in characteristic zero its general points are distinct. A further general linear form $r$ in the $a_i$ separates this finite extension, so $1,r,r^2$ are independent over $\mathbb C(s,t)$. Products with monomials in $s,t$ give $$H_Y(T)\ge
   \sum_{j=0}^2\#\{(p,q)\in\mathbb Z_{\ge0}^2:U(p+q+j)\le T\}
-  =\frac{3T^2}{2U^2}-O(T).$$ This proves the second bound in (eq:quartic-surface-hilbert).
+  =\frac{3T^2}{2U^2}-O(T).$$ This proves the second bound in (8.1).
 
 ##### A quadric $a$-image.
 
@@ -667,7 +667,7 @@ The span $A$ is rational in the first-block rational coordinates. Its direction 
 
 Let $Q_2$ be the homogeneous quadratic part of the equation of $S$ in $A$. It cannot vanish at all six intersections. Otherwise its restriction to each of the four lines would have three distinct zeros and hence vanish identically, forcing all four line equations to divide the nonzero quadratic $Q_2$. Choose a pair $i,j$ at whose intersection direction $v$ one has $Q_2(v)\ne0$.
 
-The fibres of the projection $A\to\mathbb A^2$ given by $(a_i,a_j)$ are lines parallel to $v$. On each fibre the equation of $S$ has a nonzero quadratic leading coefficient $Q_2(v)$. Thus $S$ has degree two over this coordinate plane, and $a_i,a_j$ are independent. If $D\ge D_0$, Proposition 7.1 already gives the first bound in (eq:quartic-surface-hilbert). If $D<D_0$, (eq:quartic-rational-n) shows that the projected-pair field is $\mathbb C(a_i,a_j)$. The full field $\mathbb C(Y)$ has degree at least two over it, so the field-extension clause of Proposition 7.1 doubles the leading coefficient. Since $D\ge V$ and $2D\ge2V\ge D_0$, the doubled coefficient suffices as well.
+The fibres of the projection $A\to\mathbb A^2$ given by $(a_i,a_j)$ are lines parallel to $v$. On each fibre the equation of $S$ has a nonzero quadratic leading coefficient $Q_2(v)$. Thus $S$ has degree two over this coordinate plane, and $a_i,a_j$ are independent. If $D\ge D_0$, Proposition 7.1 already gives the first bound in (8.1). If $D<D_0$, (8.3) shows that the projected-pair field is $\mathbb C(a_i,a_j)$. The full field $\mathbb C(Y)$ has degree at least two over it, so the field-extension clause of Proposition 7.1 doubles the leading coefficient. Since $D\ge V$ and $2D\ge2V\ge D_0$, the doubled coefficient suffices as well.
 
 ##### A plane $a$-image.
 
@@ -675,24 +675,24 @@ It remains to consider $\deg S=1$, so $S=A$ is an affine plane rational in the f
 
 Join indices $i,j$ when those linear parts are independent. The resulting graph is the complete multipartite graph on their parallelism classes, with at least two classes. It is connected and has no isolated vertex. An edge is exactly an independent pair of affine coordinates on $A$.
 
-Assume for a contradiction that every such pair has $D<D_0$. Then (eq:quartic-small-relation) holds for every edge, and (eq:quartic-rational-n) makes $n$ a rational function on $A$. We distinguish whether it is polynomial.
+Assume for a contradiction that every such pair has $D<D_0$. Then (8.2) holds for every edge, and (8.3) makes $n$ a rational function on $A$. We distinguish whether it is polynomial.
 
-If $n$ is polynomial, (eq:quartic-rational-n) shows that its degree is at most four. Indeed $B_{ij}$ has degree exactly two for an independent pair, whereas the right side has degree at most six. Every index $i$ has nonzero coefficient in at least one relation (eq:quartic-small-relation). To see this, start with one nonzero coefficient and apply Galois automorphisms: they preserve $Y$, permute the conjugate coordinates and roots transitively, and preserve both independence and the degree bound. This uses the collection of all such relations, without requiring any chosen representatives to be Galois-invariant.
+If $n$ is polynomial, (8.3) shows that its degree is at most four. Indeed $B_{ij}$ has degree exactly two for an independent pair, whereas the right side has degree at most six. Every index $i$ has nonzero coefficient in at least one relation (8.2). To see this, start with one nonzero coefficient and apply Galois automorphisms: they preserve $Y$, permute the conjugate coordinates and roots transitively, and preserve both independence and the degree bound. This uses the collection of all such relations, without requiring any chosen representatives to be Galois-invariant.
 
 Fix a relation with $c_i\ne0$. At the generic point of $a_i=0$, the independent coordinate $a_j$ is a unit. Polynomiality of $n$ therefore makes $b_j=(n-\theta_j)/a_j^2$ regular there, and the relation makes $b_i$ regular too. It follows that $$a_i^2\mid n-\theta_i\quad\hbox{in }\mathbb C[A]
  \qquad(1\le i\le4).$$ The four zero lines are distinct, since their prescribed values $\theta_i$ are distinct. Restriction to a general affine line gives a polynomial of degree at most four with four distinct critical points and four distinct critical values. Its derivative would have four roots despite degree at most three; if the derivative were zero, the values would all be equal. This is impossible.
 
-Now suppose $n$ is nonpolynomial. Both coefficients in every relation (eq:quartic-small-relation) must be nonzero, since otherwise it would express $n$ as a polynomial. Write $n=P/Q$ in reduced form and fix an irreducible factor of the nonconstant denominator $Q$. By (eq:quartic-rational-n) it divides every $B_{ij}$. Over $\mathbb C$, $B_{ij}$ is a product of two distinct affine linear forms $a_j\pm\zeta a_i$, with $\zeta\ne0$. The fixed factor therefore defines a line $\ell$ through the common zero of $a_i,a_j$, transverse to both of their zero lines. For each edge, the two intersections with $\ell$ coincide. Connectivity of the graph forces all four zero lines to pass through one point $O$.
+Now suppose $n$ is nonpolynomial. Both coefficients in every relation (8.2) must be nonzero, since otherwise it would express $n$ as a polynomial. Write $n=P/Q$ in reduced form and fix an irreducible factor of the nonconstant denominator $Q$. By (8.3) it divides every $B_{ij}$. Over $\mathbb C$, $B_{ij}$ is a product of two distinct affine linear forms $a_j\pm\zeta a_i$, with $\zeta\ne0$. The fixed factor therefore defines a line $\ell$ through the common zero of $a_i,a_j$, transverse to both of their zero lines. For each edge, the two intersections with $\ell$ coincide. Connectivity of the graph forces all four zero lines to pass through one point $O$.
 
-Center the plane coordinates at $O$, making each $a_i$ homogeneous linear. Scale these coordinates by a variable $t$ in (eq:quartic-rational-n) and take the rational-function limit at $t=0$. For every independent pair the result is the same function on the projective line of directions: $$\begin{equation}
-\label{eq:quartic-direction-map}
+Center the plane coordinates at $O$, making each $a_i$ homogeneous linear. Scale these coordinates by a variable $t$ in (8.3) and take the rational-function limit at $t=0$. For every independent pair the result is the same function on the projective line of directions: $$\begin{equation}
+\tag{8.4}
  \mathcal R=\frac{c_i\theta_i a_j^2+c_j\theta_j a_i^2}
           {c_i a_j^2+c_j a_i^2}.
 \end{equation}$$ The term involving $S_{ij}$ acquires an extra factor $t^2$. The limit is taken in the function field of directions.
 
-For an independent pair, (eq:quartic-direction-map) is a nonconstant fractional linear transform of $(a_i/a_j)^2$: its determinant is nonzero because $c_i c_j(\theta_j-\theta_i)\ne0$. It has degree two and is ramified exactly at the two directions $a_i=0,a_j=0$, with respective values $\theta_i,\theta_j$. Since every index occurs in an edge, the same function would be ramified in four directions with four distinct values. Coincident directions already contradict the distinct values, and four distinct directions contradict its displayed degree-two form. This proves the required contradiction.
+For an independent pair, (8.4) is a nonconstant fractional linear transform of $(a_i/a_j)^2$: its determinant is nonzero because $c_i c_j(\theta_j-\theta_i)\ne0$. It has degree two and is ramified exactly at the two directions $a_i=0,a_j=0$, with respective values $\theta_i,\theta_j$. Since every index occurs in an edge, the same function would be ramified in four directions with four distinct values. Coincident directions already contradict the distinct values, and four distinct directions contradict its displayed degree-two form. This proves the required contradiction.
 
-There is consequently an independent pair with $D\ge D_0$, and Proposition 7.1 proves the first bound in (eq:quartic-surface-hilbert) for the plane case. Together the three degree cases prove the proposition. All extra independent functions used above have bounded weighted degree, so their shifts preserve the asserted uniform $O(T)$ error. ◻
+There is consequently an independent pair with $D\ge D_0$, and Proposition 7.1 proves the first bound in (8.1) for the plane case. Together the three degree cases prove the proposition. All extra independent functions used above have bounded weighted degree, so their shifts preserve the asserted uniform $O(T)$ error. ◻
 
 ### One global set of quintic values
 
@@ -701,7 +701,7 @@ The curve argument will encounter degree-five polynomials with four prescribed c
 **Proposition 8.2**. *There are finitely many polynomials $\Phi\in L[t]$ of degree five with distinct critical points $z_1=0,z_2=1,z_3,z_4$ satisfying $$\Phi(z_i)=\theta_i\qquad(1\le i\le4).$$ Let $\mathcal F_f$ be this finite family and put $$\mathcal E_f=
   \{n\in\mathbb Z:n=\Phi(z)\text{ for some }
                     \Phi\in\mathcal F_f, z\in L\}.$$ Then, for $X\ge1$, $$\begin{equation}
-\label{eq:quintic-discard-count}
+\tag{8.5}
  \#\bigl(\mathcal E_f\cap[-2X,2X]\bigr)\ll_f X^{1/5}.
 \end{equation}$$ Moreover, if $N(s)\in L[s]$ has degree five and distinct critical points $\tau_1,\ldots,\tau_4\in L$ with $N(\tau_i)=\theta_i$, every integer value $N(s)$ at $s\in L$ belongs to $\mathcal E_f$.*
 
@@ -712,7 +712,7 @@ Suppose a reduced irreducible component of this locus had positive dimension. It
 
 Fix one such $\Phi$. Choose an integer $c>0$ such that $$c\Phi(t)=A_5t^5+A_4t^4+\cdots+A_0,
  \qquad A_i\in\mathcal O_L,\quad A_5\ne0.$$ If $\Phi(z)=n\in\mathbb Z$ and $w=A_5z$, then $$\begin{equation}
-\label{eq:quintic-integral-input}
+\tag{8.6}
  \begin{split}
  0={}&w^5+A_4w^4+A_3A_5w^3+A_2A_5^2w^2\\
      &+A_1A_5^3w+(A_0-cn)A_5^4.
@@ -725,7 +725,7 @@ We count these lattice points on the locus where $\Phi(z)$ is rational. To defin
              \bigl(\sigma(\Phi)(w_\sigma)\bigr)_\sigma.$$ This is a product of finite polynomial maps. More explicitly, the inverse image of the diagonal has coordinate ring $$\mathbb C[v,(w_\sigma)_\sigma]\big/
        \bigl(\sigma(\Phi)(w_\sigma)-v:\sigma:L\to\mathbb C\bigr).$$ After dividing each relation by its leading coefficient, the equations are monic in separate variables. The ring is finite free of rank $5^{r_L}$ over $\mathbb C[v]$, with basis the products of powers $w_\sigma^{e_\sigma}$ for $0\le e_\sigma<5$. Thus the rational-value locus has dimension one and degree bounded in terms of $\Phi,L$.
 
-A bounded-degree affine set of dimension at most one has $O(R)$ integer points in a coordinate box of radius $R$. Indeed, on each curve component choose a nonconstant coordinate, slice at its $O(R)$ integer values, and apply Bézout to each finite fibre. Zero-dimensional components contribute only a bounded number of points. Apply this bound in the $u_j$ coordinates with $R\ll_{\Phi,L}X^{1/5}$. It counts $O_{\Phi,L}(X^{1/5})$ possible $z$, and therefore at most that many integer values. Summing over the fixed finite family proves (eq:quintic-discard-count).
+A bounded-degree affine set of dimension at most one has $O(R)$ integer points in a coordinate box of radius $R$. Indeed, on each curve component choose a nonconstant coordinate, slice at its $O(R)$ integer values, and apply Bézout to each finite fibre. Zero-dimensional components contribute only a bounded number of points. Apply this bound in the $u_j$ coordinates with $R\ll_{\Phi,L}X^{1/5}$. It counts $O_{\Phi,L}(X^{1/5})$ possible $z$, and therefore at most that many integer values. Summing over the fixed finite family proves (8.5).
 
 Finally, for the polynomial $N$ in the statement set $$\Phi(t)=N\bigl(\tau_1+(\tau_2-\tau_1)t\bigr).$$ Its coefficients lie in $L$, and its critical points $(\tau_i-\tau_1)/(\tau_2-\tau_1)$ have the required normalizations and values. Hence $\Phi\in\mathcal F_f$. For every $s\in L$, the normalized input $(s-\tau_1)/(\tau_2-\tau_1)$ also lies in $L$ and has the same value under $\Phi$. This proves the final assertion without any restriction on the heights of $N$ or its critical points. ◻
 
@@ -743,7 +743,7 @@ It remains to supply the one-dimensional Hilbert bounds for the affine counting 
 The integer matrix of this system has polynomially bounded entries in $X$. Its maximal signed minors give a nonzero integer solution $(A_1,B_1)$ with coefficients $X^{O_{D,A,B,C_0}(1)}$. The resultant $$R_0=\operatorname{Res}(A_1,B_1)$$ is a nonzero integer of size $X^{O_{D,A,B,C_0}(1)}$. At a counted input, $B_1(s)$ is nonzero and divides $A_1(s)$. The integral Bezout identity for the resultant consequently gives $B_1(s)\mid R_0$. The integer $R_0$ has $O_\varepsilon(X^\varepsilon)$ signed divisors, after adjusting the exponent in the divisor bound. For each such divisor $q$, the nonconstant polynomial equation $B_1(s)=q$ has at most $b$ solutions. This proves the uniform estimate. ◻
 
 We apply this lemma to the selected arithmetic points from Section 4, after the integral changes of coordinates in Proposition 6.2. Thus the coordinates are $x',y'\in\mathbb Z^d$, with respective weights $U,V>0$ and size bounds $$|x'_i|\ll_f X^U,\qquad |y'_i|\ll_f X^V.$$ The conjugate forms $a_i,b_i$ are complex linear combinations of $x'$ and $y'$ respectively. Their filtered weights are at most $U$ and $V$, regardless of the sizes of those linear coefficients. They satisfy $a_i^k b_i=n-\theta_i$. The function $$\begin{equation}
-\label{eq:curve-input-function}
+\tag{9.1}
  n=\frac1d\sum_{i=1}^d(a_i^k b_i+\theta_i)
 \end{equation}$$ is defined over $\mathbb Q$: its coefficients are traces of elements of $K$. It is a polynomial of degree at most $k+1$ in the rational coordinates.
 
@@ -751,29 +751,29 @@ Let $S$ denote any resulting selected set, with the global exceptional values of
 
 **Proposition 9.2** (Curve alternatives). *Put $$g=(d-1)(k-1)+\mathbf 1_{d=4},\qquad
  \delta_1(U,V)=\max\{U/2,\min(U,V/g)\}.$$ Fix a degree bound $E$, and let $C$ be a geometrically irreducible curve of degree at most $E$, defined over $\mathbb Q$, in the arithmetic variety $a_i^k b_i=n-\theta_i$ in the coordinates just described. For every $\varepsilon>0$, either $$|S\cap C|\ll_{f,E,\varepsilon}X^\varepsilon,$$ or its filtered Hilbert dimension, with weight $U$ on $x'$ and weight $V$ on $y'$, satisfies $$\begin{equation}
-\label{eq:curve-hilbert-bound}
+\tag{9.2}
  H_C(T)\ge \frac{T}{\delta_1(U,V)}-O_{f,E}(1).
 \end{equation}$$ The implied constants may also depend on a fixed compact subset of $(0,\infty)$ containing $U,V$. They are otherwise uniform in the weights and in the integral coordinate changes. In particular they are uniform for the weights arising from Proposition 6.2.*
 
 *Proof.* If $n$ is constant on $C$, the fixed-$n$ bound applies. If the $a$-image is constant, invertibility of the coordinate changes makes $x'$ constant, so the fixed-$x'$ bound applies. We henceforth assume both are nonconstant.
 
 Suppose first that the $a$-image is a nonlinear curve. A generic linear projection of that image to an affine line has degree equal to its degree, hence at least two. This follows by intersecting the projective closure with general hyperplanes in the corresponding pencil; the center can be chosen to avoid the points at infinity. Let $t$ be the projected linear function, of weight at most $U$. The field $\mathbb C(C)$ then has degree at least two over $\mathbb C(t)$. When the $a$-image is a line, choose a nonconstant $x'$-coordinate as $t$; the same conclusion holds if the function field of $C$ has degree at least two over that line. In either case some $x'$- or $y'$-coordinate $q$ lies outside $\mathbb C(t)$, since the ambient coordinates generate $\mathbb C(C)$. The families $$1,t,t^2,\ldots,\qquad q,qt,qt^2,\ldots$$ are linearly independent. The weight of $q$ is at most $\max(U,V)$, so counting these functions gives $$\begin{equation}
-\label{eq:curve-two-families}
+\tag{9.3}
  H_C(T)\ge 2T/U-O(1).
-\end{equation}$$ The error is uniform for the stated weights. Since $\delta_1(U,V)\ge U/2$, this proves (eq:curve-hilbert-bound) in these cases.
+\end{equation}$$ The error is uniform for the stated weights. Since $\delta_1(U,V)\ge U/2$, this proves (9.2) in these cases.
 
 It remains to treat a line image with function-field extension degree one. Work in the rational coordinates $x'$. The image line is defined over $\mathbb Q$, as the image closure of a $\mathbb Q$-defined curve under a $\mathbb Q$-linear projection. Choose a nonconstant coordinate $s=x'_j$ as its parameter. Each $x'_i$ is an affine rational function of $s$. Undoing the integral coordinate change and using the integral basis of $K$, the line takes the form $$\alpha=rs+q,\qquad r,q\in K,\quad r\ne0.$$ Consequently $$\begin{equation}
-\label{eq:curve-conjugate-line}
+\tag{9.4}
  a_i=r_i s+q_i,\qquad
  r_i=\sigma_i(r)\ne0,\quad q_i=\sigma_i(q),\quad r_i,q_i\in L.
 \end{equation}$$ Every conjugate slope is nonzero because a field embedding cannot annihilate a nonzero element.
 
-The degree-one field extension gives $\mathbb C(C)=\mathbb C(s)$. Each $y'_i$, and the function $n$ in (eq:curve-input-function), therefore belongs to $\mathbb Q(s)$. Indeed its expression as a rational function of the $\mathbb Q$-defined parameter $s$ is unique when written with a coprime numerator and monic denominator. All coefficients are therefore fixed by automorphisms over $\mathbb Q$. These rational functions have uniformly bounded degrees. For $y'_i$, project the curve to the $(s,y'_i)$-plane: its graph has degree at most $E$, and its reduced equation is $B(s)y'_i-A(s)=0$. The same argument with the fixed-degree map (eq:curve-input-function) bounds the degree for $n$.
+The degree-one field extension gives $\mathbb C(C)=\mathbb C(s)$. Each $y'_i$, and the function $n$ in (9.1), therefore belongs to $\mathbb Q(s)$. Indeed its expression as a rational function of the $\mathbb Q$-defined parameter $s$ is unique when written with a coprime numerator and monic denominator. All coefficients are therefore fixed by automorphisms over $\mathbb Q$. These rational functions have uniformly bounded degrees. For $y'_i$, project the curve to the $(s,y'_i)$-plane: its graph has degree at most $E$, and its reduced equation is $B(s)y'_i-A(s)=0$. The same argument with the fixed-degree map (9.1) bounds the degree for $n$.
 
 If any $y'_i$ is a nonpolynomial rational function, apply Lemma 9.1 to the integral inputs $s$ and the integral outputs $y'_i$. Their bounds follow from the transformed coordinate box. Each $s$ fixes the point $x'$ on the line, so there are only $O_f(1)$ selected points for that input. This proves the exceptional counting alternative. This argument requires no height bound on the coefficients of the moving line or coordinate change.
 
 We may now assume that every $y'_i$ is polynomial in $s$. Then the $b_i$ and $n$ are polynomials as well. Put $\tau_i=-q_i/r_i$. The identities give $$(s-\tau_i)^k\mid n(s)-\theta_i.$$ The numbers $\tau_i$ are distinct: a common value would force two distinct conjugates $\theta_i$ to equal $n$ at that value. As $n$ is nonconstant, differentiation yields $$\begin{equation}
-\label{eq:curve-polynomial-degrees}
+\tag{9.5}
  \deg n\ge1+d(k-1),\qquad
  \deg b_i=\deg n-k\ge(d-1)(k-1).
 \end{equation}$$ The first inequality follows because $\prod_i(s-\tau_i)^{k-1}$ divides $n'(s)$; the degree identity uses the nonzero slope of each $a_i$.
@@ -781,7 +781,7 @@ We may now assume that every $y'_i$ is polynomial in $s$. Then the $b_i$ and $n$
 For $d=4$, equality in the first inequality would give $\deg n=5$. Its derivative would then have precisely the four simple zeros $\tau_i$, with respective critical values $\theta_i$. Define $$\Phi(z)=n\bigl(\tau_1+(\tau_2-\tau_1)z\bigr).$$ This polynomial belongs to $L[z]$, has degree five, and has normalized critical points $0,1$ and two further distinct points with the prescribed ordered critical values. At a selected point, the integer $s$ gives $z=(s-\tau_1)/(\tau_2-\tau_1)\in L$. Thus its integer value $n=\Phi(z)$ belongs to the global exceptional set of Proposition 8.2. Such a curve has no surviving selected points. On every remaining polynomial line curve, $$\deg b_i\ge g=(d-1)(k-1)+\mathbf 1_{d=4}.$$ The exceptional set was removed once, before choosing curves; its bound is not charged separately to different lines or boxes.
 
 Finally choose one $b_i$, of degree $\ell\ge g$ in $s$. The functions $$s^j b_i^a,\qquad 0\le j<g,\quad a\ge0,\quad jU+aV\le T,$$ are linearly independent, since their degrees $j+\ell a$ as polynomials in $s$ are distinct. Their weights are at most $jU+aV$. They therefore give $$H_C(T)\ge gT/V-O_g(1+U/V).$$ Powers of $s$ alone also give $H_C(T)\ge T/U-O(1)$. The ratio $U/V$ is bounded in the stated range, so these two estimates imply $$H_C(T)\ge
- \frac{T}{\min(U,V/g)}-O(1).$$ Together with (eq:curve-two-families), this proves the proposition. ◻
+ \frac{T}{\min(U,V/g)}-O(1).$$ Together with (9.3), this proves the proposition. ◻
 
 The proof applies to every bounded-degree curve defined over $\mathbb Q$ that occurs after a later cut. Its exceptional alternative uses only the bounded integral input and output sizes; its Hilbert alternative uses only degrees and weights. Thus moving equations and moving integral bases introduce no new coefficient-height requirement in dimension one.
 
@@ -789,7 +789,7 @@ The proof applies to every bounded-degree curve defined over $\mathbb Q$ that oc
 
 The preceding counting bounds leave a finite numerical choice: the partition exponent must be large enough for the archimedean cuts, but small enough that the number of boxes does not consume the saving in each box. We now make that choice. We also control the simultaneous increase of the two coordinate weights caused by an unusually short lattice vector. The finite calculation below concerns these numerical inequalities; the geometric estimates supplying the counting thresholds were proved in the preceding sections.
 
-Throughout this section, $4\le d\le8$, $k=d-2$, and $$K_0=3000,\qquad G_0=100000,\qquad \tau=\frac1{50000}.$$ Recall the homogeneous polynomial $R(A,B)$ from (eq:hilbert-polynomial), and its associated one-variable polynomials $$H(t)=d!R(1,t),\qquad
+Throughout this section, $4\le d\le8$, $k=d-2$, and $$K_0=3000,\qquad G_0=100000,\qquad \tau=\frac1{50000}.$$ Recall the homogeneous polynomial $R(A,B)$ from (5.1), and its associated one-variable polynomials $$H(t)=d!R(1,t),\qquad
  H_a(t)=(d-1)!(\partial_A R)(1,t),\qquad
  H_b(t)=(d-1)!(\partial_B R)(1,t).$$ The argument $t$ here is a scalar ratio of bidegrees; it is distinct from the normalized chart coordinates used earlier.
 
@@ -797,10 +797,10 @@ For an integer $z\ge K_0$, set $$\begin{equation}
  \eta_- =\frac z{K_0},\quad
  \eta_+ =\frac{z+1}{K_0},\quad
  b_-=d-k\eta_+,\quad b_+=d-k\eta_-.
- \label{eq:parameter-interval}
+ \tag{10.1}
 \end{equation}$$ We use these intervals until the first index $z_d$ for which $$\begin{equation}
  \eta_-(1-k\eta_-/d)<\frac{2495}{10000}.
- \label{eq:parameter-stop}
+ \tag{10.2}
 \end{equation}$$ An interval is in mode $\mathsf Q$ when $d=4$ and $z<4000$. This mode records the use of the stronger quartic surface estimate.
 
 We collect the thresholds that enter the affine counting theorem. For $U,V,D>0$ and $h\ge2$, write $$\Psi_h(U,V;D)
@@ -817,10 +817,10 @@ We collect the thresholds that enter the affine counting theorem. For $U,V,D>0$ 
        &&(\text{mode }\mathsf Q),\\
  \delta_1(U,V)&=\max\left\{\frac U2,\min\left(U,\frac Vg\right)\right\}.
 \end{aligned}
-\label{eq:parameter-thresholds}
+\tag{10.3}
 \end{equation}$$ Finally put $E_h(U,V)=\max_{h\le s\le d}\delta_s(U,V)$.
 
-**Proposition 10.1** (Parameter choice). *For each $d\in\{4,5,6,7,8\}$, the stopping index in (eq:parameter-stop) is the one listed in Table 1. For every integer $K_0\le z<z_d$, there are positive rational numbers $t_*,w$ such that, with $m=(d-1)w$, $$\begin{equation}
+**Proposition 10.1** (Parameter choice). *For each $d\in\{4,5,6,7,8\}$, the stopping index in (10.2) is the one listed in Table 1. For every integer $K_0\le z<z_d$, there are positive rational numbers $t_*,w$ such that, with $m=(d-1)w$, $$\begin{equation}
 \begin{gathered}
  0<m<1,\qquad \min(\eta_-,b_-)>m,\\
  w^{d-1}H(t_*)>
@@ -828,18 +828,18 @@ We collect the thresholds that enter the affine counting theorem. For $U,V,D>0$ 
  w^{d-2}\min\{H_a(t_*),H_b(t_*)\}>
  \left(\frac{\eta_++b_+t_*}{d-1}\right)^{d-1}.
 \end{gathered}
-\label{eq:parameter-cut-inequalities}
-\end{equation}$$ In particular, the cut conditions (eq:cut-conditions) hold. For $$u=\frac{\eta_+-m}{d},\qquad
+\tag{10.4}
+\end{equation}$$ In particular, the cut conditions (5.2) hold. For $$u=\frac{\eta_+-m}{d},\qquad
  v=\frac{b_+-m}{d},$$ these choices also satisfy $$\begin{equation}
  \frac3{20}\le\frac vu\le5,\qquad
  m+\sum_{h=1}^dE_h(u,v)<\frac{999}{1000},
  \qquad
  m+2u<\frac{999}{1000}\quad(\text{mode }\mathsf Q).
- \label{eq:parameter-saving}
+ \tag{10.5}
 \end{equation}$$ Moreover, for either fixed mode, every $U,V>0$ with $3/20\le V/U\le5$ satisfies $$\begin{equation}
  \delta_h(U+s,V+s)\le\delta_h(U,V)+s
  \quad(s\ge0,\ 1\le h\le d).
- \label{eq:parameter-shift}
+ \tag{10.6}
 \end{equation}$$*
 
 **Table 1:** The intervals have indices $3000\le z<z_d$. The last column is the minimum of $1-m-\sum_h\overline E_h$, where each radical threshold is rounded strictly upwards as described in the proof. It is therefore a lower bound for the true gap.
@@ -852,7 +852,7 @@ We collect the thresholds that enter the affine counting theorem. For $U,V,D>0$ 
 |  7  |  3226 |       226 | $1613/1500$ |        $23177/100000$        |
 |  8  |  3003 |         3 | $1001/1000$ |        $31683/100000$        |
 
-*Proof.* We first give the rational prescription for $t_*,w$, together with an exact check of the finite inequalities. We then prove the continuous assertion (eq:parameter-shift).
+*Proof.* We first give the rational prescription for $t_*,w$, together with an exact check of the finite inequalities. We then prove the continuous assertion (10.6).
 
 ##### Polynomial coefficients and the choice of weights.
 
@@ -860,7 +860,7 @@ If $$c_j=\binom dj\binom{d-2}{j-1}k^{j-1}\qquad(1\le j\le d-1),$$ then direct di
  H(t)=\sum_{j=1}^{d-1}c_jt^j,\quad
  H_a(t)=\sum_{j=1}^{d-1}\frac{d-j}{d}c_jt^j,\quad
  H_b(t)=\sum_{j=1}^{d-1}\frac jdc_jt^{j-1}.
- \label{eq:parameter-polynomials}
+ \tag{10.7}
 \end{equation}$$ The binomial identities $(d-j)\binom dj/d=\binom{d-1}j$ and $j\binom dj/d=\binom{d-1}{j-1}$ explain the three sums used in the certificate below.
 
 Choose $t_*$ among $i/50$, $1\le i<500$, to minimize $$\frac{(\eta_++b_+t)^d}{H(t)},$$ breaking a tie by taking the first value. For $0\le x<1$ and an integer $e\ge1$, let $\operatorname{up}_e(x)$ be the least grid point $r/G_0$, with $r\in\{1,\ldots,G_0\}$, whose $e$-th power is strictly larger than $x$. Set $$\begin{equation}
@@ -868,12 +868,12 @@ Choose $t_*$ among $i/50$, $1\le i<500$, to minimize $$\frac{(\eta_++b_+t)^d}{H(
  \frac{1}{H(t_*)}
  \left(\frac{(d+1)(\eta_++b_+t_*)}{d^2}\right)^d
  \right).
- \label{eq:parameter-prescription}
+ \tag{10.8}
 \end{equation}$$ The certificate checks that the argument lies in $[0,1)$. The first strict cut inequality then follows from the definition of $\operatorname{up}_{d-1}$; the second one and all the other finite conditions are checked directly.
 
-There is no floating-point root evaluation. The function `upper` in the complete Python certificate of Appendix A maintains $$(l/G_0)^e\le x<(r/G_0)^e$$ and terminates when $r=l+1$. Thus the output is a strict upper bound, including when the exact root is already a grid point. Replacing each radical in (eq:parameter-thresholds) by such an upper bound can only increase each $E_h$. The list `P` in that certificate is ordered from dimension $d$ down to dimension $1$; its successive prefix maxima therefore give exactly these conservative bounds for $E_d,E_{d-1},\ldots,E_1$.
+There is no floating-point root evaluation. The function `upper` in the complete Python certificate of Appendix A maintains $$(l/G_0)^e\le x<(r/G_0)^e$$ and terminates when $r=l+1$. Thus the output is a strict upper bound, including when the exact root is already a grid point. Replacing each radical in (10.3) by such an upper bound can only increase each $E_h$. The list `P` in that certificate is ordered from dimension $d$ down to dimension $1$; its successive prefix maxima therefore give exactly these conservative bounds for $E_d,E_{d-1},\ldots,E_1$.
 
-All comparisons in this certificate use integers or rational numbers. It verifies every interval and the entries of Table 1, rather than an interpolation between sampled intervals. The choice of the two endpoint weights in (eq:parameter-interval) makes each successful check valid throughout its full interval.
+All comparisons in this certificate use integers or rational numbers. It verifies every interval and the entries of Table 1, rather than an interpolation between sampled intervals. The choice of the two endpoint weights in (10.1) makes each successful check valid throughout its full interval.
 
 ##### The common-shift estimate.
 
@@ -889,28 +889,28 @@ Write $f(t)=F_{h,a,b}(1,t)$. Homogeneity shows that the derivative in the direct
  N_{h,a,b}(t)^h<(k+t)^{h-1}(a+bt).$$ Thus $D(t)\le1$ on the full ratio interval for these branches. The shifted ratio $$\frac{V+s}{U+s}
  =\frac U{U+s}\frac VU+\frac s{U+s}$$ remains between $V/U$ and $1$. Integrating the derivative bound along this path gives the claimed shift estimate for every branch.
 
-Multiplying the denominator form by a constant $c\ge1$ multiplies the branch by $c^{-1/h}\le1$, so the forms $3U$ and $2V$ are covered as well. A finite minimum or maximum of functions satisfying the shift estimate satisfies the same estimate, simply by taking that extremum on both sides. This handles the min/max expressions in (eq:parameter-thresholds); no concavity of their maximum is needed. Finally, the functions $U/\sqrt3$, $U/2$, $U$, and $V/g$ have directional slopes at most one. This also proves the curve case and completes (eq:parameter-shift). ◻
+Multiplying the denominator form by a constant $c\ge1$ multiplies the branch by $c^{-1/h}\le1$, so the forms $3U$ and $2V$ are covered as well. A finite minimum or maximum of functions satisfying the shift estimate satisfies the same estimate, simply by taking that extremum on both sides. This handles the min/max expressions in (10.3); no concavity of their maximum is needed. Finally, the functions $U/\sqrt3$, $U/2$, $U$, and $V/g$ have directional slopes at most one. This also proves the curve case and completes (10.6). ◻
 
 ### Coverage and the remaining exponent margins
 
 The transition function $\phi_d(\eta)=\eta(1-k\eta/d)$ is nonincreasing for $\eta\ge1$, since $$\phi_d'(\eta)=1-\frac{2k\eta}{d}
  \le\frac{4-d}{d}\le0.$$ Consequently all intervals before the stopping index are covered by Proposition 10.1, and every subsequent $\eta\le d/k$ satisfies the larger-$\eta$ condition $\phi_d(\eta)<2495/10000$. The last closed interval ends at $z_d/K_0$, so the two ranges meet without a gap. In the quartic case, the last $\mathsf Q$ interval ends at $4/3$ and the next interval uses the ordinary thresholds; either interval covers their common endpoint.
 
-The lattice ranges of Proposition 6.2 have $U=u+j+\tau$, $V=v+j+\tau$ and box factor $X^{m-dj}$. By (eq:parameter-shift), their combined exponent is at most $$\begin{equation}
+The lattice ranges of Proposition 6.2 have $U=u+j+\tau$, $V=v+j+\tau$ and box factor $X^{m-dj}$. By (10.6), their combined exponent is at most $$\begin{equation}
  m-dj+\sum_{h=1}^dE_h(U,V)
  \le m+\sum_{h=1}^dE_h(u,v)+d\tau
  <\frac{24979}{25000}<1.
- \label{eq:parameter-final-box-exponent}
+ \tag{10.9}
 \end{equation}$$ The estimate uses only the advertised $999/1000$ bound and $d\le8$; Table 1 gives stronger bounds. For mode $\mathsf Q$, the removed base fibers have combined exponent $$\begin{equation}
  m-4j+2U=m+2u-2j+2\tau
  <\frac{3122}{3125}<1.
- \label{eq:parameter-fiber-exponent}
+ \tag{10.10}
 \end{equation}$$ In particular, both inequalities leave positive room for the arbitrarily small loss in the affine counting theorem.
 
 The direct larger-$\eta$ argument uses a fixed finite set of positive rational coordinate weights even at the terminal point $b=d-k\eta=0$. The available product gap is $$\begin{equation}
  \left(\frac{4999}{10000}\right)^2-\frac{2495}{10000}
  =\frac{40001}{100000000}>0.
- \label{eq:parameter-large-eta-gap}
+ \tag{10.11}
 \end{equation}$$ An explicit choice on $1\le\eta\le d/k$ is, with $e=1/10000$, $$b'=e(\lfloor b/e\rfloor+1),\qquad
  \eta'=e(\lfloor\eta/e\rfloor+1).$$ These are strict positive upper weights, drawn from a finite set. Since $b+\eta\le3$ and $d\ge4$, whenever $b\eta/d\le2495/10000$ they satisfy $$\frac{b'\eta'}d
  \le\frac{2495}{10000}+\frac{3e+e^2}{4}
@@ -924,34 +924,34 @@ We now assemble the preceding estimates to prove Proposition 1.4. Throughout th
 
 Suppose first that $$\begin{equation}
  \eta\left(1-\frac{k\eta}{d}\right)\le\frac{2495}{10000}.
- \label{eq:tail-direct-range}
+ \tag{11.1}
 \end{equation}$$ The chosen triples $$(x,y,z)=\left(n,\frac{f(n)}{p^k},p\right)$$ are integer points on the irreducible affine surface $$\begin{equation}
  f(x)=yz^k.
- \label{eq:tail-direct-surface}
+ \tag{11.2}
 \end{equation}$$ Its irreducibility follows from Gauss’s lemma, since it is primitive and linear in $y$ over $\mathbb C[x,z]$: the coefficients $z^k$ and $f(x)$ are coprime. The coordinate bounds are $O_f(X)$, $O_f(X^b)$ and $O_f(X^\eta)$.
 
 Use the finite positive rational upper weights $b',\eta'$ constructed at the end of Section 10. They satisfy $$\begin{equation}
  \sqrt{b'\eta'/d}<0.4999.
- \label{eq:tail-direct-margin}
+ \tag{11.3}
 \end{equation}$$ The construction covers $b=0$ and the possible $O_f(1/\log X)$ excess beyond $d/k$, for all sufficiently large $X$. Work separately with these finitely many choices.
 
-For weights $(1,b',\eta')$, the space of polynomial functions on (eq:tail-direct-surface) has filtered dimension $$\begin{equation}
+For weights $(1,b',\eta')$, the space of polynomial functions on (11.2) has filtered dimension $$\begin{equation}
  H(T)=\frac{D}{b'\eta'}\frac{T^2}{2}+O(T),\qquad
  D=\max\{d,b'+k\eta'\}.
- \label{eq:tail-surface-hilbert}
-\end{equation}$$ Indeed multiplication by the defining polynomial increases weight by exactly $D$, since its weighted highest part is nonzero and the polynomial ring is a domain. Choose a positive integer $L$ so that $A=L$, $B=Lb'$, $C=L\eta'$ and $E=LD$ are integers. Weighted homogenization, with a variable of weight one, gives the filtered Hilbert series $$\frac{1-t^E}{(1-t)(1-t^A)(1-t^B)(1-t^C)}.$$ The pole at one has order three and leading coefficient $E/(ABC)$. Every other root of unity has pole order at most two: if its order divides all three coordinate weights $A,B,C$, it also divides the monomial weight $E$, so the numerator cancels a denominator factor. Extracting the coefficient of $t^{\lfloor LT\rfloor}$ and rescaling gives (eq:tail-surface-hilbert), with the stated $O(T)$ error. Consequently the surface threshold in Theorem 3.1 may be taken to be $$\delta_2=\sqrt{b'\eta'/D}<0.4999.$$
+ \tag{11.4}
+\end{equation}$$ Indeed multiplication by the defining polynomial increases weight by exactly $D$, since its weighted highest part is nonzero and the polynomial ring is a domain. Choose a positive integer $L$ so that $A=L$, $B=Lb'$, $C=L\eta'$ and $E=LD$ are integers. Weighted homogenization, with a variable of weight one, gives the filtered Hilbert series $$\frac{1-t^E}{(1-t)(1-t^A)(1-t^B)(1-t^C)}.$$ The pole at one has order three and leading coefficient $E/(ABC)$. Every other root of unity has pole order at most two: if its order divides all three coordinate weights $A,B,C$, it also divides the monomial weight $E$, so the numerator cancels a denominator factor. Extracting the coefficient of $t^{\lfloor LT\rfloor}$ and rescaling gives (11.4), with the stated $O(T)$ error. Consequently the surface threshold in Theorem 3.1 may be taken to be $$\delta_2=\sqrt{b'\eta'/D}<0.4999.$$
 
 Consider an irreducible curve defined over $\mathbb Q$ on this surface and meeting the selected points. A constant $x$ contributes at most one selected triple. Otherwise $\mathbb C(x)$ is a subfield of its function field. If the extension has degree at least two, one of the other coordinate functions lies outside $\mathbb C(x)$. Multiplying powers of $x$ by that function and by one gives two independent families, so $H(T)\ge2T-O(1)$.
 
 In the remaining case $y$ and $z$ are rational functions of $x$. They are defined over $\mathbb Q$: the curve is defined over $\mathbb Q$ and the functions are uniquely determined by $x$. Their degrees are bounded in terms of the curve degree, by projection. A nonpolynomial function is covered by Lemma 9.1 and contributes $O_\varepsilon(X^\varepsilon)$ points. If both are polynomials, the identity $f(x)=y(x)z(x)^k$ and the absence of repeated roots of $f$ force $z$ to be constant. At selected points this constant is a prime $p>X$. Outside the fixed bad primes, $f$ has at most $d$ roots modulo $p^k$, and $p^k>X$; hence this curve contributes $O_f(1)$ inputs in $(X,2X]$. These alternatives are uniform for bounded curve degrees.
 
-An irreducible two-dimensional subvariety of (eq:tail-direct-surface) is the surface itself. Its Hilbert bound and the curve alternatives above, including the bounded constant-$x$ and constant-$z$ cases, therefore verify the hypotheses of Theorem 3.1 with $\delta_1=1/2$. Since $\delta_2<\delta_1$, that theorem bounds the number of triples by $$O_{f,\varepsilon}\bigl(X^{\delta_2+1/2+\varepsilon}\bigr).$$ The finite list of choices in (eq:tail-direct-margin) permits one sufficiently small $\varepsilon>0$ and one positive power saving.
+An irreducible two-dimensional subvariety of (11.2) is the surface itself. Its Hilbert bound and the curve alternatives above, including the bounded constant-$x$ and constant-$z$ cases, therefore verify the hypotheses of Theorem 3.1 with $\delta_1=1/2$. Since $\delta_2<\delta_1$, that theorem bounds the number of triples by $$O_{f,\varepsilon}\bigl(X^{\delta_2+1/2+\varepsilon}\bigr).$$ The finite list of choices in (11.3) permits one sufficiently small $\varepsilon>0$ and one positive power saving.
 
 ### The number-field range
 
 For all other $\eta$, use one of the finite parameter intervals from Proposition 10.1. Denote its parameters by $t_*,w,m,u,v$ and use the thresholds $\delta_h(U,V)$ defined there. In particular, $$m=(d-1)w,\qquad 0<m<\min(\eta_-,b_-),\qquad
  u=\frac{\eta_+-m}{d},\quad
- v=\frac{b_+-m}{d},\quad \tau=\frac1{50000}.$$ The finite interval list covers the complement of (eq:tail-direct-range); its stopping endpoints lie strictly inside the latter range. This supplies coverage at all boundaries.
+ v=\frac{b_+-m}{d},\quad \tau=\frac1{50000}.$$ The finite interval list covers the complement of (11.1); its stopping endpoints lie strictly inside the latter range. This supplies coverage at all boundaries.
 
 For $d=4$, remove once the set of exceptional values in Proposition 8.2. Its total size is $O_f(X^{1/5})$, independently of the subsequent prime intervals, boxes or curves. Lemma 4.1 and Lemma 4.2 place the remaining chosen inputs in paired arithmetic boxes. The strict inequalities in the parameter certificate permit the cuts of Proposition 5.2.
 
@@ -959,19 +959,19 @@ For each box pair, the resulting affine sets have dimension at most $d-1$, excep
  O_f(X^{m-dj})\text{ pairs},\qquad
  |x'_i|\ll_f X^U,\quad |y'_i|\ll_f X^V,
  \quad U=u+j+\tau,\quad V=v+j+\tau.
- \label{eq:tail-lattice-group}
+ \tag{11.5}
 \end{equation}$$ The coordinate changes are integral and unimodular. Their coefficients may vary; the preceding Hilbert statements are uniform under these changes and fixed degree bounds.
 
 In quartic mode $\mathsf Q$, first delete the infinite-fiber points of Lemma 6.3 from each initial set. The cost per box is $O_f(X^{2U})$. On the remaining point set, Proposition 7.1, Proposition 8.1 and Proposition 9.2 give, for every irreducible $\mathbb Q$-defined subvariety that can occur in the affine counting theorem, either its uniform small-count alternative or $$H_A(T)\ge\frac{T^h}{h!\,\delta_h(U,V)^h}-O(T^{h-1}),
  \qquad h=\dim A>0.$$ Outside mode $\mathsf Q$ the general Hilbert and curve statements give the same assertion with the corresponding thresholds. A constant input or constant first coordinate tuple has the already proved bounded count. The deletion of the quintic values is precisely what supplies the improved quartic curve threshold.
 
-Set $E_h(U,V)=\max_{h\le s\le d}\delta_s(U,V)$. Theorem 3.1, with ambient dimension $2d$ and dimension bound $d$, bounds each remaining set by $O_{f,\varepsilon}(X^{\sum_hE_h(U,V)+\varepsilon})$. Its hypotheses have been checked for every bounded degree, so they apply to the moving subvarieties introduced by that theorem, not just to the initial cut components. Multiplying by (eq:tail-lattice-group), and applying the shift inequality in the parameter certificate, gives the exponent $$\begin{align*}
+Set $E_h(U,V)=\max_{h\le s\le d}\delta_s(U,V)$. Theorem 3.1, with ambient dimension $2d$ and dimension bound $d$, bounds each remaining set by $O_{f,\varepsilon}(X^{\sum_hE_h(U,V)+\varepsilon})$. Its hypotheses have been checked for every bounded degree, so they apply to the moving subvarieties introduced by that theorem, not just to the initial cut components. Multiplying by (11.5), and applying the shift inequality in the parameter certificate, gives the exponent $$\begin{align*}
  m-dj+\sum_{h=1}^d E_h(u+j+\tau,v+j+\tau)+\varepsilon
  &\le m-dj+\sum_{h=1}^d\bigl(E_h(u,v)+j+\tau\bigr)+\varepsilon\\
  &=m+\sum_{h=1}^dE_h(u,v)+d\tau+\varepsilon.
-\end{align*}$$ By (eq:parameter-final-box-exponent), this is less than $24979/25000+\varepsilon$. A sufficiently small fixed $\varepsilon$ therefore leaves a uniform positive gap below one.
+\end{align*}$$ By (10.9), this is less than $24979/25000+\varepsilon$. A sufficiently small fixed $\varepsilon$ therefore leaves a uniform positive gap below one.
 
-The quartic infinite-fiber cost, including the number of boxes, has exponent $$m-dj+2(u+j+\tau)<3122/3125<1$$ by (eq:parameter-fiber-exponent). Thus it also has a uniform positive saving. The finite number of parameter intervals, boundedly many lattice groups and bounded component multiplicities affect only the implied constant.
+The quartic infinite-fiber cost, including the number of boxes, has exponent $$m-dj+2(u+j+\tau)<3122/3125<1$$ by (10.10). Thus it also has a uniform positive saving. The finite number of parameter intervals, boundedly many lattice groups and bounded component multiplicities affect only the implied constant.
 
 ### Completion
 
@@ -1004,7 +1004,7 @@ The central prime range admits a stronger error estimate than the positive-propo
  b_-=\frac{2999}{1500},\quad b_+=2+2\epsilon_0,
  \quad t_* =\frac12,\quad w=\frac{24809}{100000}.$$ Keep mode $\mathsf Q$ and $\tau=1/50000$. These are fixed rational parameters. In the notation of Section 10, they give $$m=\frac{74427}{100000},\quad
  u=\frac{76819}{1200000},\quad
- v=\frac{313933}{1000000}.$$ Both strict cut inequalities (eq:parameter-cut-inequalities) hold, $m<\min(\eta_-,b_-)$, and $3/20\le v/u\le5$. An exact check is supplied in Appendix A.1. The conservative upper bounds for the thresholds in decreasing dimension order are $$(\overline\delta_4,\overline\delta_3,
+ v=\frac{313933}{1000000}.$$ Both strict cut inequalities (10.4) hold, $m<\min(\eta_-,b_-)$, and $3/20\le v/u\le5$. An exact check is supplied in Appendix A.1. The conservative upper bounds for the thresholds in decreasing dimension order are $$(\overline\delta_4,\overline\delta_3,
    \overline\delta_2,\delta_1)
  =\left(\frac{4729}{100000},\frac{5097}{100000},
          \frac{6899}{100000},\frac{76819}{1200000}\right).$$ Taking cumulative maxima gives $$1-m-\sum_{h=1}^4\overline E_h-4\tau
@@ -1020,7 +1020,7 @@ Write $\zeta=\exp(2\pi i/8)$ and $R=\mathbb Z[\zeta]$. In this case the ideal-cl
 The ring $R=\mathbb Z[i]+\zeta\mathbb Z[i]$ is Euclidean for the absolute field norm. Given $a+b\zeta\in\mathbb Q(\zeta)$, round $a,b\in\mathbb Q(i)$ to Gaussian integers, with errors $c,d$ satisfying $|c|^2,|d|^2\le1/2$. Then $$|N_{\mathbb Q(\zeta)/\mathbb Q}(c+d\zeta)|=|c^2-id^2|^2<1.$$ The triangle inequality gives strictness unless both errors have squared modulus $1/2$. In that remaining case their real and imaginary parts have absolute value $1/2$, so $c^2$ and $id^2$ are perpendicular and the squared modulus is $1/2$. Euclidean division implies that every ideal of $R$ is principal.
 
 If $p^2\mid n^4+1$, evaluation $\zeta\mapsto n$ defines surjections $\phi_j:R\to\mathbb Z/p^j\mathbb Z$ for $j=1,2$. Write $\ker\phi_1=(A)$. Its index is $p$, so $N(A)=p$; the norm is positive because the embeddings occur in complex conjugate pairs. The inclusion $(A)^2\subseteq\ker\phi_2$ is an equality by their indices. It follows that $$\begin{equation}
-\label{eq:cyclotomic-factorization}
+\tag{12.1}
  A^2B=n-\zeta,\qquad A,B\in R,\qquad N(A)=p.
 \end{equation}$$ The unit $1+\sqrt2$, where $\sqrt2=\zeta-\zeta^3$, has absolute values $1+\sqrt2$ and $(1+\sqrt2)^{-1}$ at the two complex places. Multiplication by a suitable power of this unit balances the two absolute values of $A$. Thus, if $N\le n\le2N$ and $P\le p<2P$, $$|\sigma(A)|\asymp P^{1/4},\qquad
  |\sigma(B)|\asymp NP^{-1/2}$$ at every embedding. Both coefficient vectors in the basis $1,\zeta,\zeta^2,\zeta^3$ are primitive, since a common integer divisor of either vector would divide the coefficient $-1$ of $\zeta$ in $A^2B$.
@@ -1029,12 +1029,12 @@ If $p^2\mid n^4+1$, evaluation $\zeta\mapsto n$ defines surjections $\phi_j:R\to
 
 *Proof.* Put $x=n^2$. If $D$ is a square, factoring $Dq^2-x^2=1$ rules out $x>0$. Otherwise attach to a solution the positive number $\alpha=x+q\sqrt D=x+\sqrt{x^2+1}$, of norm $-1$. For two distinct solutions with $\alpha_2>\alpha_1$, their ratio $\gamma=\alpha_2/\alpha_1$ belongs to $\mathbb Z[\sqrt D]$ and has norm one, because $\alpha_1^{-1}=-\overline{\alpha_1}$. Writing $\gamma=a+b\sqrt D$ gives $2a=\gamma+\gamma^{-1}>2$, whence $a\ge2$ and $\gamma\ge2+\sqrt3$. All the $\alpha$ are at most $8N^2+1$. Their fixed multiplicative spacing proves the first assertion. For the second, $D=(n^4+1)/p^2\le17N^{1-2\epsilon}$; sum the first bound over these integers $D$. ◻
 
-A fixed projective $B$-direction has at most two primitive integral representatives and hence fixes $D=N(B)$. Taking norms in (eq:cyclotomic-factorization) then gives the same Pell equation with $q=p$. A fixed $A$-direction fixes $p=N(A)$ and one residue class for $n$ modulo $p^2$, so it contributes $O(1+N/p^2)$ inputs. These are special projective-direction multiplicity bounds. The general affine argument instead selects one representation per input and uses the fixed-$x$ bound in Lemma 4.1.
+A fixed projective $B$-direction has at most two primitive integral representatives and hence fixes $D=N(B)$. Taking norms in (12.1) then gives the same Pell equation with $q=p$. A fixed $A$-direction fixes $p=N(A)$ and one residue class for $n$ modulo $p^2$, so it contributes $O(1+N/p^2)$ inputs. These are special projective-direction multiplicity bounds. The general affine argument instead selects one representation per input and uses the fixed-$x$ bound in Lemma 4.1.
 
 ### Directions and the level equation
 
 For coefficient vectors $A,B$, let $T_0,S,C_2,C_3$ be the coefficients of $1,\zeta,\zeta^2,\zeta^3$ in $A^2B$. Their projective directions lie on $$\mathcal V_8=\{C_2=C_3=0\}\subseteq\mathbb P^3\times\mathbb P^3,$$ while the actual integral representatives satisfy $$\begin{equation}
-\label{eq:cyclotomic-level}
+\tag{12.2}
  T_0=n,\qquad S=-1.
 \end{equation}$$ If $H,J$ denote the hyperplane classes of the two factors, the complete-intersection calculation in Lemma 5.1 becomes $$[\mathcal V_8]=(2H+J)^2,\qquad
  (H^4,H^3J,H^2J^2,HJ^3,J^4)_{\mathcal V_8}=(0,1,4,4,0).$$ On the split-coordinate torus, with conjugates $\zeta_i$, its points satisfy $A_i^2B_i=T_0+S\zeta_i$. Thus the divisor $S=0$ is, on that open set, the inverse-square graph $[B_i]=[A_i^{-2}]$. The analytic coordinate $-S/T_0$ is exactly $1/n$ at the counted points. This identifies the concrete direction geometry behind the paired charts of Section 4.
@@ -1042,22 +1042,22 @@ For coefficient vectors $A,B$, let $T_0,S,C_2,C_3$ be the coefficients of $1,\ze
 There is also a determinant saving obtained directly from $S=-1$. We give its column-selection form; it explains why that equation contains more information than its projective zero locus.
 
 Let $D\subseteq\mathcal V_8$ be an integral direction variety of dimension $r\ge1$ meeting $\{S\ne0\}$, and write $\mathcal R_D(K,L)$ for the restrictions of bihomogeneous forms of bidegree $(K,L)$. Suppose a homogeneous polynomial $v_0(k,l)$ of degree $r$, with nonnegative mixed-degree coefficients, supplies the lower bound $$\begin{equation}
-\label{eq:cyclotomic-volume-input}
+\tag{12.3}
  \dim\mathcal R_D(Tk,Tl)
  \ge\frac{v_0(k,l)}{r!}T^r-O(T^{r-1})
 \end{equation}$$ on each fixed positive rational ray. One can use the actual mixed-degree polynomial, or coordinatewise lower bounds for its coefficients. For bounded geometric degree, the error can be taken uniformly on any fixed finite list of rays. Indeed, after the corresponding projective embedding, linear Noether normalization of the coordinate ring gives a polynomial subring whose field extension degree is the projective degree $e$. Monomials of degree at most $e-1$ contain a field basis: their spans increase strictly until they fill the extension. After multiplication by powers of one normalization coordinate, these give a graded injection of $e$ copies of that polynomial ring, shifted by $e-1$. Its degree-$T$ dimension is $e\binom{T-e+1+r}{r}$, which proves the required uniform lower bound.
 
 Suppose the integral representatives in polynomial-height lattice bases satisfy $|A|\ll N^h$, $|B|\ll N^g$, where $h,g\ge0$. For positive rational $k,l$, put $a=\min(k/2,l)$ and assume $v_0(k,l)>0$. A nested selection of integral columns has average logarithmic size, divided by the common bidegree scale $T$, at most $$\begin{equation}
-\label{eq:cyclotomic-level-saving}
+\tag{12.4}
  kh+lg-(2h+g)\int_0^a
        \frac{v_0(k-2j,l-j)}{v_0(k,l)}\,dj+\varepsilon.
 \end{equation}$$ Here $\varepsilon>0$ is arbitrarily prescribed: first fix a sufficiently fine mesh and then a sufficiently large $T$, before $N$ grows.
 
 To prove this, fix a rational mesh $0=j_0<\cdots<j_s<a$ and consider the nested subspaces $$S^{j_iT}\mathcal R_D(T(k-2j_i),T(l-j_i))
- \subseteq\mathcal R_D(Tk,Tl).$$ Multiplication by $S$ is injective, since $S$ is nonzero on $D$. Choose decreasing integers $r_i=v_0(k-2j_i,l-j_i)T^r/r!+O(T^{r-1})$ below their dimensions, and put $P=r_0$. Starting from the smallest subspace, extend to $r_i$ independent generators at each stage. Each generator is an individual integral form $S^b\mathcal M$ of bidegree $(Tk,Tl)$. Its value at a counted point is $(-1)^b\mathcal M(A,B)$, bounded by $$O_T\bigl(N^{h(Tk-2b)+g(Tl-b)}\bigr).$$ At least $r_i$ columns have $b\ge j_iT$. Summing these exponents, then refining the fixed mesh, gives (eq:cyclotomic-level-saving). This argument does not require small coefficients for the rebased form $S$.
+ \subseteq\mathcal R_D(Tk,Tl).$$ Multiplication by $S$ is injective, since $S$ is nonzero on $D$. Choose decreasing integers $r_i=v_0(k-2j_i,l-j_i)T^r/r!+O(T^{r-1})$ below their dimensions, and put $P=r_0$. Starting from the smallest subspace, extend to $r_i$ independent generators at each stage. Each generator is an individual integral form $S^b\mathcal M$ of bidegree $(Tk,Tl)$. Its value at a counted point is $(-1)^b\mathcal M(A,B)$, bounded by $$O_T\bigl(N^{h(Tk-2b)+g(Tl-b)}\bigr).$$ At least $r_i$ columns have $b\ge j_iT$. Summing these exponents, then refining the fixed mesh, gives (12.4). This argument does not require small coefficients for the rebased form $S$.
 
-For the local divisibility step, suppose that $D$ is defined over $\mathbb Q$ and has an integral model smooth of relative dimension $r$ at the chosen residue class modulo $q$. A determinant of $P$ such common-bidegree columns in that projective residue class has valuation at least $s_r(P)$, as in (eq:affine-local-orders): normalize by chart coordinates that are units modulo $q$ and expand in the $r$ free differences. Combining that divisibility with (eq:cyclotomic-level-saving), a prime $q\ge N^\rho$ forces a proper cut whenever $$\begin{equation}
-\label{eq:cyclotomic-level-threshold}
+For the local divisibility step, suppose that $D$ is defined over $\mathbb Q$ and has an integral model smooth of relative dimension $r$ at the chosen residue class modulo $q$. A determinant of $P$ such common-bidegree columns in that projective residue class has valuation at least $s_r(P)$, as in (3.4): normalize by chart coordinates that are units modulo $q$ and expand in the $r$ free differences. Combining that divisibility with (12.4), a prime $q\ge N^\rho$ forces a proper cut whenever $$\begin{equation}
+\tag{12.5}
  \rho>\frac{1+1/r}{v_0(k,l)^{1/r}}
  \left\{kh+lg-(2h+g)\int_0^a
        \frac{v_0(k-2j,l-j)}{v_0(k,l)}\,dj\right\}.

@@ -95,25 +95,25 @@ We need a divisor estimate for intervals that may be much shorter than their dis
 
 **Lemma 3.1**. *For every fixed pair of real numbers $D,r\ge1$, there is $S_0(D,r)$ such that the following holds for $S\ge S_0(D,r)$. Suppose that $X,Y$ are real numbers and $N$ is a nonnegative integer satisfying $$\frac{S}{2\log S}\le \log X\le DS,\qquad
  X^{1/2}\le Y\le X,\qquad N\le e^{DS}.$$ Then $$\begin{equation}
-\label{eq:divisor-moment}
+\tag{3.1}
  \sum_{1\le h\le Y}d_X(N+h)^r\le Y\exp(S^{1/4}).
 \end{equation}$$*
 
 *Proof.* Write $v=\log X$, $E=D+1$, and $$B=1+\log(ES/v).$$ Every integer $n=N+h$ under consideration satisfies $1\le n\le2e^{DS}\le e^{ES}$ for sufficiently large $S$. Moreover, $$\begin{equation}
-\label{eq:divisor-B}
+\tag{3.2}
  1<B\le1+\log(2E\log S)=O_D(\log\log S).
 \end{equation}$$ All estimates below are uniform in $X,Y,N$ in the stated ranges.
 
 *Two elementary estimates.* First, consider divisors of $n$ formed from primes at least $z\ge2$. List these prime factors with multiplicity, giving distinct labels to repeated occurrences. There are at most $L=\lfloor ES/\log z\rfloor$ occurrences, and a divisor at most $X$ uses at most $v/\log z$ of them. Counting subsets can only overcount divisors. With $q=v/(ES)\in(0,1)$, their number is therefore at most $$\begin{equation}
-\label{eq:divisor-large-primes}
+\tag{3.3}
  \sum_{0\le j\le v/\log z}\binom Lj
  \le q^{-v/\log z}(1+q)^L
  \le \exp\left(\frac{Bv}{\log z}\right).
 \end{equation}$$ Here the middle inequality follows by inserting the weights $q^j$; the last uses $Lq\le v/\log z$.
 
-Split the prime factors at $S^{1/2}$. For each smaller prime there are at most $1+ES/\log2$ possible exponents in a divisor of $n$. Applying (eq:divisor-large-primes) to the remaining primes gives $$\log d_X(n)
+Split the prime factors at $S^{1/2}$. For each smaller prime there are at most $1+ES/\log2$ possible exponents in a divisor of $n$. Applying (3.3) to the remaining primes gives $$\log d_X(n)
  \le S^{1/2}\log(1+ES/\log2)+\frac{2Bv}{\log S}.$$ Since $v\ge S/(2\log S)$, there is a function $\varepsilon_D(S)\to0$, independent of $X,Y,N,h$, such that $$\begin{equation}
-\label{eq:divisor-pointwise}
+\tag{3.4}
  d_X(n)^r\le \exp\bigl(r\varepsilon_D(S)v\bigr),
  \qquad
  \varepsilon_D(S)\ll_D
@@ -121,41 +121,41 @@ Split the prime factors at $S^{1/2}$. For each smaller prime there are at most $
 \end{equation}$$
 
 Second, write $\tau(d)$ for the number of positive divisors of $d$. For fixed $r$ and $3/4\le\sigma\le1$, $$\begin{equation}
-\label{eq:divisor-local-factor}
+\tag{3.5}
  \log\left(1+\sum_{j\ge1}(j+1)^r p^{-j\sigma}\right)
  \le C_r p^{-\sigma}
 \end{equation}$$ for every prime $p$. Indeed, the power series $\sum_{j\ge1}(j+1)^r x^{j-1}$ is bounded on $0\le x\le2^{-3/4}<1$. We will also use the elementary estimate $$\begin{equation}
-\label{eq:prime-reciprocals}
+\tag{3.6}
  \sum_{p\le T}\frac1p\le e\log(1+\log T)\qquad(T\ge2).
 \end{equation}$$ To prove it, set $s=1+1/\log T$ and $\zeta(s)=\sum_{a\ge1}a^{-s}$. Euler’s absolutely convergent product and the integral bound $\zeta(s)\le1+1/(s-1)$ give $$\sum_{p\le T}\frac1p
  \le e\sum_p p^{-s}
  \le e\log\zeta(s)
- \le e\log(1+\log T).$$ In particular, multiplicativity and (eq:divisor-local-factor) imply $$\begin{equation}
-\label{eq:divisor-harmonic}
+ \le e\log(1+\log T).$$ In particular, multiplicativity and (3.5) imply $$\begin{equation}
+\tag{3.7}
  \sum_{d\le T}\frac{\tau(d)^r}{d}
  \le \prod_{p\le T}
        \left(1+\sum_{j\ge1}(j+1)^r p^{-j}\right)
  \ll_r(\log(2T))^{C_r}.
 \end{equation}$$
 
-*A prefix of the prime factorization.* For $n>\sqrt Y$, order its prime factors with multiplicity and let $d$ be the longest initial product at most $\sqrt Y$, allowing $d=1$. Let $p$ be the next prime. Then $$d\le\sqrt Y<dp,$$ all prime factors of $d$ are at most $p$, and all those of $n/d$ are at least $p$. The inequality $$d_X(n)\le \tau(d)d_X(n/d)$$ does not require $d$ and $n/d$ to be coprime: a divisor $a\le X$ of $n$ determines $$b=\gcd(a,d),\qquad c=a/b.$$ Then $b\mid d$, $c\mid n/d$, $c\le X$, and the pair $(b,c)$ determines $a$. Thus (eq:divisor-large-primes) gives $$\begin{equation}
-\label{eq:divisor-prefix}
+*A prefix of the prime factorization.* For $n>\sqrt Y$, order its prime factors with multiplicity and let $d$ be the longest initial product at most $\sqrt Y$, allowing $d=1$. Let $p$ be the next prime. Then $$d\le\sqrt Y<dp,$$ all prime factors of $d$ are at most $p$, and all those of $n/d$ are at least $p$. The inequality $$d_X(n)\le \tau(d)d_X(n/d)$$ does not require $d$ and $n/d$ to be coprime: a divisor $a\le X$ of $n$ determines $$b=\gcd(a,d),\qquad c=a/b.$$ Then $b\mid d$, $c\mid n/d$, $c\le X$, and the pair $(b,c)$ determines $a$. Thus (3.3) gives $$\begin{equation}
+\tag{3.8}
  d_X(n)^r\le\tau(d)^r
           \exp\left(\frac{rBv}{\log p}\right).
 \end{equation}$$ For any fixed $d\le\sqrt Y$, the number of its multiples in $(N,N+Y]$ is at most $$\begin{equation}
-\label{eq:divisor-multiples}
+\tag{3.9}
  \frac Yd+1\le\frac{2Y}{d}.
-\end{equation}$$ We now sum according to the size of the next prime $p$. If $p$ is large, the remaining factor $n/d$ has few small divisors. If $p$ is smaller, the condition $dp>\sqrt Y$ forces $d$ to be a large product of small primes. The total reciprocal weight of such prefixes is small, so (eq:divisor-multiples) limits their occurrence in every shifted interval.
+\end{equation}$$ We now sum according to the size of the next prime $p$. If $p$ is large, the remaining factor $n/d$ has few small divisors. If $p$ is smaller, the condition $dp>\sqrt Y$ forces $d$ to be a large product of small primes. The total reciprocal weight of such prefixes is small, so (3.9) limits their occurrence in every shifted interval.
 
-If $\log p\ge v^{15/16}$, the exponential factor in (eq:divisor-prefix) is at most $e^{rBv^{1/16}}$. For $n\le\sqrt Y$, instead take $d=n$ and use $d_X(n)\le\tau(d)$. By (eq:divisor-multiples) and (eq:divisor-harmonic), these two cases together contribute at most $$\begin{align}
+If $\log p\ge v^{15/16}$, the exponential factor in (3.8) is at most $e^{rBv^{1/16}}$. For $n\le\sqrt Y$, instead take $d=n$ and use $d_X(n)\le\tau(d)$. By (3.9) and (3.7), these two cases together contribute at most $$\begin{align}
  2Ye^{rBv^{1/16}}\sum_{d\le\sqrt Y}\frac{\tau(d)^r}{d}
  &\le Y\exp\!\left(
       O_{D,r}(S^{1/16}\log\log S+\log S)\right).
- \label{eq:divisor-large-contribution}
+ \tag{3.10}
 \end{align}$$
 
 For the remaining integers, $\log p<v^{15/16}$, so $$\begin{equation}
-\label{eq:divisor-prefix-lower}
+\tag{3.11}
  \log d>\tfrac12\log Y-\log p
  \ge v/4-v^{15/16}>v/5
 \end{equation}$$ once $S$ is sufficiently large. This large prefix makes integers with small next prime rare. We estimate the ensuing smooth-prefix sums by Rankin’s exponential weighting method; see (Hildebrand and Tenenbaum 1993, 414, (1.3)).
@@ -166,36 +166,36 @@ If $p<S^4$, every prime factor of $d$ is smaller than $S^4$. Multiplying each su
  \le e^{-v/50}
        \prod_{\substack{\ell<S^4\\\ell\ {\rm prime}}}
                       (1-\ell^{-9/10})^{-1}.$$ The logarithm of this product is $O(S^{2/5})$, since $$\sum_{\substack{\ell<S^4\\\ell\ {\rm prime}}}\ell^{-9/10}
- \le\sum_{2\le a<S^4}a^{-9/10}=O(S^{2/5}).$$ Counting multiples by (eq:divisor-multiples) and bounding the entire summand by (eq:divisor-pointwise), we obtain a contribution at most $$\begin{equation}
-\label{eq:divisor-small-contribution}
+ \le\sum_{2\le a<S^4}a^{-9/10}=O(S^{2/5}).$$ Counting multiples by (3.9) and bounding the entire summand by (3.4), we obtain a contribution at most $$\begin{equation}
+\tag{3.12}
  2Y\exp\left(-v/50+O(S^{2/5})+
                          r\varepsilon_D(S)v\right)
  \le 2Ye^{-v/100}.
 \end{equation}$$ Here $S^{2/5}=o(v)$, uniformly in the allowed range.
 
 *The intermediate primes.* It remains to treat $4\log S\le\log p<v^{15/16}$. Partition this range into intervals $[t,2t)$, where $t=2^j4\log S\le v^{15/16}$. There are $O_D(\log S)$ such intervals; the last may extend beyond the upper endpoint. For one interval put $$Q=\frac vt,\qquad \lambda=\frac{\log Q}{10t}.$$ Then $Q\ge v^{1/16}$, and $$0<\lambda
- \le\frac{\log(DS/(4\log S))}{40\log S}<\frac14$$ for sufficiently large $S$. Equations (eq:divisor-prefix), (eq:divisor-multiples), and (eq:divisor-prefix-lower) bound the contribution of this interval by $$2Ye^{rBQ}
+ \le\frac{\log(DS/(4\log S))}{40\log S}<\frac14$$ for sufficiently large $S$. Equations (3.8), (3.9), and (3.11) bound the contribution of this interval by $$2Ye^{rBQ}
  \sum_{\substack{d>e^{v/5}\\
            \ell\mid d,\ \ell\ {\rm prime}\Rightarrow\ell\le e^{2t}}}
        \frac{\tau(d)^r}{d}.$$ The last sum is at most $$e^{-\lambda v/5}
  \prod_{\substack{\ell\le e^{2t}\\\ell\ {\rm prime}}}
- \left(1+\sum_{j\ge1}(j+1)^r\ell^{-j(1-\lambda)}\right).$$ By (eq:divisor-local-factor) and (eq:prime-reciprocals), the logarithm of this product is bounded by $$C_r\sum_{\substack{\ell\le e^{2t}\\\ell\ {\rm prime}}}
+ \left(1+\sum_{j\ge1}(j+1)^r\ell^{-j(1-\lambda)}\right).$$ By (3.5) and (3.6), the logarithm of this product is bounded by $$C_r\sum_{\substack{\ell\le e^{2t}\\\ell\ {\rm prime}}}
                    \ell^{-1+\lambda}
  \ll_r e^{2t\lambda}\log(2t)
  =Q^{1/5}O_r(\log(2t)).$$ The contribution of the interval is consequently at most $$\begin{equation}
-\label{eq:divisor-band}
+\tag{3.13}
  2Y\exp\left(rBQ-\frac{Q\log Q}{50}
                          +O_r(Q^{1/5}\log(2t))\right).
-\end{equation}$$ Both positive terms in this exponent are uniformly negligible compared with $Q\log Q$. Indeed, (eq:divisor-B) and $Q\ge v^{1/16}$ give $$\frac{rB}{\log Q}
+\end{equation}$$ Both positive terms in this exponent are uniformly negligible compared with $Q\log Q$. Indeed, (3.2) and $Q\ge v^{1/16}$ give $$\frac{rB}{\log Q}
  \ll_{D,r}\frac{\log\log S}{\log S}\longrightarrow0,
  \qquad
  \frac{Q^{1/5}\log(2t)}{Q\log Q}
- \ll v^{-1/20}\longrightarrow0.$$ Thus (eq:divisor-band) is at most $2Y\exp(-Q\log Q/100)\le2Y$, after increasing $S_0(D,r)$. Summing the intervals costs $O_D(Y\log S)$.
+ \ll v^{-1/20}\longrightarrow0.$$ Thus (3.13) is at most $2Y\exp(-Q\log Q/100)\le2Y$, after increasing $S_0(D,r)$. Summing the intervals costs $O_D(Y\log S)$.
 
-Combining this bound with (eq:divisor-large-contribution) and (eq:divisor-small-contribution) gives $$\sum_{1\le h\le Y}d_X(N+h)^r
+Combining this bound with (3.10) and (3.12) gives $$\sum_{1\le h\le Y}d_X(N+h)^r
  \le Y\exp\!\left(
          O_{D,r}(S^{1/16}\log\log S+\log S)\right)
-       +2Ye^{-v/100}+O_D(Y\log S).$$ The logarithmic loss is $o(S^{1/4})$, proving (eq:divisor-moment). Every enlargement of the threshold depended only on the fixed $D,r$; this completes the required uniformity check. ◻
+       +2Ye^{-v/100}+O_D(Y\log S).$$ The logarithmic loss is $o(S^{1/4})$, proving (3.1). Every enlargement of the threshold depended only on the fixed $D,r$; this completes the required uniformity check. ◻
 
 ## Divisors with small residues
 
@@ -203,7 +203,7 @@ We now construct the auxiliary denominator. Its useful divisors make most residu
 
 The underlying identity is elementary. For positive integers $M,Q,u,t$ with $t\mid M$, set $$z=\left\lceil\frac{Qt}{u}\right\rceil,
  \qquad h=uz-Qt.$$ Then $z\ge1$, $0\le h<u$, and $$\begin{equation}
-\label{eq:residue-step}
+\tag{4.1}
  \frac{u}{MQ}=\frac{1}{(M/t)z}+\frac{h}{MQz}.
 \end{equation}$$ Thus a small least nonnegative residue of $-Qt$ modulo $u$ leaves a small numerator. A zero residue finishes the expansion.
 
@@ -212,16 +212,16 @@ We use this identity with two denominator factors. At high levels we take $Q=C$:
 ### The denominator and the residue statement
 
 Fix the absolute constants $$\begin{equation}
-\label{eq:residue-constants}
+\tag{4.2}
  \begin{gathered}
  K=100,\quad R=1000,\quad D_0=100000,\quad \eta=10^{-4},\\
  D_M=(2R+2)(K+2),\quad D_X=D_M+2,\quad D_C=4D_X.
  \end{gathered}
 \end{equation}$$ Here $K$ sets the prime scale, $R$ is the number of independent blocks, $D_0$ sets the binary cutoff, and $\eta$ sets the rate of descent. These numerical choices leave room in the estimates below. Let $S$ tend to infinity, put $m=\lfloor S/\log S\rfloor$, and fix an integer $$\begin{equation}
-\label{eq:C-range}
+\tag{4.3}
  e^{D_CS}\le C\le e^{2D_CS}.
 \end{equation}$$ Define $$\begin{equation}
-\label{eq:levels}
+\tag{4.4}
  \begin{gathered}
  \rho=e^{-\eta m},\qquad X_j=e^{D_XS}\rho^j,\\
  d=\min\{j\ge0:X_j\le e^m\},\qquad
@@ -232,11 +232,11 @@ Fix the absolute constants $$\begin{equation}
  \end{cases}
  \end{gathered}
 \end{equation}$$ These cutoffs need not be integers. Every set or sum indexed by a cutoff below consists of integers in the indicated range. For $0\le j\le d$, write $$\begin{equation}
-\label{eq:least-residue}
+\tag{4.5}
  h_{j,t}(u)=u\left\lceil\frac{C_jt}{u}\right\rceil-C_jt.
 \end{equation}$$ In particular, $h_{j,t}(u)$ is the least nonnegative residue of $-C_jt$ modulo $u$.
 
-**Lemma 4.1**. *For all sufficiently large $S$ and every integer $C$ satisfying (eq:C-range), there are an integer $M$ and indexed lists $T_0,T_1,\ldots,T_R$, each with $2^m$ entries, such that:*
+**Lemma 4.1**. *For all sufficiently large $S$ and every integer $C$ satisfying (4.3), there are an integer $M$ and indexed lists $T_0,T_1,\ldots,T_R$, each with $2^m$ entries, such that:*
 
 1.  *$e^S<M\le e^{D_MS}$, and the least power of $2$ at least $S^{D_0}$ divides $M$. Every entry of every $T_i$ divides $M$.*
 
@@ -256,12 +256,12 @@ Here is the construction used to prove the lemma. Let $\mathcal P$ be the set of
 The size bounds hold for every realization: $$\log M\ge Km\log S\ge K(S-\log S)>S,$$ whereas $$\log M
  \le D_0\log S+\log2+(2R+1)m(K\log S+\log2)
  \le D_MS$$ eventually. The last inequality follows because $(2R+1)K<D_M$. Every entry of every list also satisfies $$\begin{equation}
-\label{eq:product-size}
+\tag{4.6}
  1\le t\le e^{(K+1)S}.
 \end{equation}$$
 
 We record the endpoint facts used below and in the descent. For sufficiently large $S$, $$\begin{equation}
-\label{eq:level-endpoints}
+\tag{4.7}
  \begin{gathered}
  \frac{S}{2\log S}\le m\le\frac S{\log S},\\
  d=\left\lceil\frac{D_XS-m}{\eta m}\right\rceil
@@ -287,7 +287,7 @@ It remains to select the samples so that the two residue assertions hold. We fir
 ### Discrepancy and the deterministic list
 
 We use the Erdős–Turán discrepancy inequality (Erdős and Turán 1948, pt. I, Theorem III). For any nonempty finite indexed list $(x_t)_{t\in T}$ of real numbers, any interval $J\subset[0,1)$, and any integer $H\ge1$, it states that $$\begin{equation}
-\label{eq:erdos-turan}
+\tag{4.8}
  \left|
  \frac{\#\{t:\{x_t\}\in J\}}{|T|}-|J|
  \right|
@@ -301,7 +301,7 @@ We use the Erdős–Turán discrepancy inequality (Erdős and Turán 1948, pt. I
  \quad
  \left(1\le\ell\le\lfloor e^{4\eta w}\rfloor\right),$$ then at least $e^{-\eta w}|T|/2$ entries satisfy $$0\le u\lceil Qt/u\rceil-Qt<e^{-\eta w}u.$$*
 
-*Proof.* Apply (eq:erdos-turan) to $x_t=-Qt/u$ and $J=[0,e^{-\eta w})$. Conjugation leaves the Fourier bounds unchanged. The discrepancy is $$O\bigl(e^{-4\eta w}+(1+4\eta w)e^{-3\eta w}\bigr)
+*Proof.* Apply (4.8) to $x_t=-Qt/u$ and $J=[0,e^{-\eta w})$. Conjugation leaves the Fourier bounds unchanged. The discrepancy is $$O\bigl(e^{-4\eta w}+(1+4\eta w)e^{-3\eta w}\bigr)
  =o(e^{-\eta w}).$$ It is therefore at most $e^{-\eta w}/2$ eventually. Finally, $\{-Qt/u\}=(u\lceil Qt/u\rceil-Qt)/u$, including when the residue is zero. ◻
 
 At a level $X_j>e^S$, the large factor $C$ makes the reciprocal phases oscillate as $u$ varies. The following elementary estimate will make that observation uniform.
@@ -311,15 +311,15 @@ At a level $X_j>e^S$, the large factor $C$ makes the reciprocal phases oscillate
 *Proof.* We give the derivative argument, including the elementary estimates it uses. This is the classical differencing method of van der Corput; see (Graham and Kolesnik 1991, Lemma 2.5) for differencing and (Graham and Kolesnik 1991, Theorem 2.2) for the second-derivative estimate.
 
 First, if $|a_n|\le1$ is supported on an interval of length at most $U$, then for $2\le L\le U$, $$\begin{equation}
-\label{eq:differencing}
+\tag{4.9}
  U^{-2}\left|\sum_n a_n\right|^2
  \ll L^{-1}
  +\max_{1\le h<L}U^{-1}
         \left|\sum_n a_{n+h}\overline{a_n}\right|.
-\end{equation}$$ To see this, express the sum as $L^{-1}\sum_n\sum_{h=1}^L a_{n+h}$, apply Cauchy–Schwarz in $n$, and expand the square. The outer support has length at most $U+L+2$, the diagonal contributes $O(LU)$, and the off-diagonal terms give (eq:differencing).
+\end{equation}$$ To see this, express the sum as $L^{-1}\sum_n\sum_{h=1}^L a_{n+h}$, apply Cauchy–Schwarz in $n$, and expand the square. The outer support has length at most $U+L+2$, the diagonal contributes $O(LU)$, and the off-diagonal terms give (4.9).
 
 We also need the second derivative bound $$\begin{equation}
-\label{eq:second-derivative}
+\tag{4.10}
  \left|\sum_{n\in J}\mathrm e(g(n))\right|
  \ll_A U\sqrt\lambda+\lambda^{-1/2}+1
  \quad\text{if}\quad
@@ -328,35 +328,35 @@ We also need the second derivative bound $$\begin{equation}
 
 On each remaining interval $g'$ is monotone and stays between $q+\beta$ and $q+1-\beta$ for some integer $q$. The corresponding sum is $O(\beta^{-1})$. Indeed the increments $g(n+1)-g(n)$ are monotone in that same interval, and summation by parts in $$\mathrm e(g(n))=
  \frac{\mathrm e(g(n+1))-\mathrm e(g(n))}
-      {\mathrm e(g(n+1)-g(n))-1}$$ gives this bound: the reciprocal denominator has supremum and total variation $O(\beta^{-1})$. Boundary terms add at most a constant per interval. Summing over the $O_A(U\lambda+1)$ intervals proves (eq:second-derivative).
+      {\mathrm e(g(n+1)-g(n))-1}$$ gives this bound: the reciprocal denominator has supremum and total variation $O(\beta^{-1})$. Boundary terms add at most a constant per interval. Summing over the $O_A(U\lambda+1)$ intervals proves (4.10).
 
 Now let $k$ be a nearest integer to $\log|Z|/\log U$, and set $$Q_B=\lceil B\rceil+1,\qquad
  r=k-2,\qquad L=\lfloor U^{1/(10k)}\rfloor.$$ There are only finitely many possible orders: $$\begin{equation}
-\label{eq:derivative-order}
+\tag{4.11}
  4\le k\le Q_B,\qquad
  U^{-3/2}\le |Z|U^{-k-1}\le U^{-1/2}.
-\end{equation}$$ Apply (eq:differencing) $r$ times to $a_n=\mathbf1_I(n)\mathrm e(f(n))$, where $f(x)=Z/x$, extending the sequence by zero outside $I$. For positive shifts $h_1,\ldots,h_r<L$, the last phase is $$g(x)=\Delta_{h_1}\cdots\Delta_{h_r}f(x),
+\end{equation}$$ Apply (4.9) $r$ times to $a_n=\mathbf1_I(n)\mathrm e(f(n))$, where $f(x)=Z/x$, extending the sequence by zero outside $I$. For positive shifts $h_1,\ldots,h_r<L$, the last phase is $$g(x)=\Delta_{h_1}\cdots\Delta_{h_r}f(x),
  \qquad \Delta_hf(x)=f(x+h)-f(x).$$ Its support is the interval on which both $x$ and $x+h_1+\cdots+h_r$ belong to $I$. All intermediate points $x+t_1+\cdots+t_r$, $0\le t_i\le h_i$, therefore remain in $[U,2U]$. Empty supports contribute zero.
 
 The fundamental theorem of calculus gives $$g''(x)=
  \int_0^{h_1}\!\cdots\!\int_0^{h_r}
  f^{(k)}(x+t_1+\cdots+t_r)\,dt_r\cdots dt_1.$$ Since $f^{(k)}(x)=(-1)^k k!Zx^{-k-1}$ has constant sign, $$\frac{k!}{2^{k+1}}\Lambda
  \le |g''(x)|\le k!\Lambda,
- \qquad \Lambda=|Z|U^{-k-1}\prod_{i=1}^r h_i.$$ By (eq:derivative-order) and the choice of $L$, $$U^{-3/2}\le\Lambda
- \le U^{-1/2+(k-2)/(10k)}\le U^{-2/5}.$$ Thus (eq:second-derivative) bounds each last correlation by $O_k(U^{4/5}+U^{3/4}+1)=O_k(U^{4/5})$.
+ \qquad \Lambda=|Z|U^{-k-1}\prod_{i=1}^r h_i.$$ By (4.11) and the choice of $L$, $$U^{-3/2}\le\Lambda
+ \le U^{-1/2+(k-2)/(10k)}\le U^{-2/5}.$$ Thus (4.10) bounds each last correlation by $O_k(U^{4/5}+U^{3/4}+1)=O_k(U^{4/5})$.
 
 For clarity, normalize every correlation by $U$, and let $\sigma_j$ be their maximum after $j$ shifts. Then $$\sigma_{k-2}\ll_k U^{-1/5},
  \qquad \sigma_j^2\ll L^{-1}+\sigma_{j+1}.$$ Induction, using $L\ge U^{1/(10k)}/2$ for large $U$, yields $$\sigma_0\ll_k U^{-1/(10k\,2^{k-2})}.$$ Taking the largest implied constant over $4\le k\le Q_B$ and, for example, $\delta_B=(10Q_B2^{Q_B})^{-1}$ proves the lemma. In particular, although $k$ depends on $Z,U$, the final constants depend only on $B$. ◻
 
 **Lemma 4.4**. *For the deterministic list $T_0$ constructed above, every level $0\le j<d$ with $X=X_j>e^S$, and every integer $1\le\ell\le H:=\lfloor e^{4\eta m}\rfloor$, one has $$\begin{equation}
-\label{eq:deterministic-mean}
+\tag{4.12}
  \frac1X\sum_{X_{j+1}<u\le X}
  \left|\frac1{|T_0|}\sum_{t\in T_0}\mathrm e(\ell Ct/u)\right|^2
  \le e^{-0.01m}
 \end{equation}$$ for all sufficiently large $S$, uniformly in $C$.*
 
-*Proof.* Write $Y=X_{j+1}=\rho X$; then $Y>e^{S-\eta m}\ge e^{0.9S}$. Expanding the square, the diagonal contributes at most $2^{-m}$ because the $2^m$ subset products are distinct. For an off-diagonal pair put $Z=\ell C(t-t')$. The difference $t-t'$ is a nonzero integer, and (eq:C-range) and (eq:product-size) give $$e^{D_CS}\le |Z|\le e^{(2D_C+K+2)S}.$$ Split $(Y,X]$ into intersections with dyadic intervals $[U,2U]$. We may take $Y/2\le U\le X$, so for large $S$, $$e^{0.8S}\le U\le e^{D_XS},\qquad
- U^4\le |Z|\le U^{3D_C}.$$ Lemma 4.3, with the fixed value $B=3D_C$, bounds the sum over each piece by $O(Ue^{-0.8\delta_BS})$. The sum of the dyadic $U$’s is $O(X)$. Thus $$\left|\sum_{Y<u\le X}\mathrm e(Z/u)\right|\ll Xe^{-cS}$$ for an absolute $c>0$. Averaging over all off-diagonal pairs cancels their number against $|T_0|^2$. The left side of (eq:deterministic-mean) is consequently at most $$2^{-m}+O(e^{-cS})\le e^{-0.01m}$$ eventually, since $S/m\to\infty$. ◻
+*Proof.* Write $Y=X_{j+1}=\rho X$; then $Y>e^{S-\eta m}\ge e^{0.9S}$. Expanding the square, the diagonal contributes at most $2^{-m}$ because the $2^m$ subset products are distinct. For an off-diagonal pair put $Z=\ell C(t-t')$. The difference $t-t'$ is a nonzero integer, and (4.3) and (4.6) give $$e^{D_CS}\le |Z|\le e^{(2D_C+K+2)S}.$$ Split $(Y,X]$ into intersections with dyadic intervals $[U,2U]$. We may take $Y/2\le U\le X$, so for large $S$, $$e^{0.8S}\le U\le e^{D_XS},\qquad
+ U^4\le |Z|\le U^{3D_C}.$$ Lemma 4.3, with the fixed value $B=3D_C$, bounds the sum over each piece by $O(Ue^{-0.8\delta_BS})$. The sum of the dyadic $U$’s is $O(X)$. Thus $$\left|\sum_{Y<u\le X}\mathrm e(Z/u)\right|\ll Xe^{-cS}$$ for an absolute $c>0$. Averaging over all off-diagonal pairs cancels their number against $|T_0|^2$. The left side of (4.12) is consequently at most $$2^{-m}+O(e^{-cS})\le e^{-0.01m}$$ eventually, since $S/m\to\infty$. ◻
 
 The deterministic estimate controls the high levels for every permitted $C$. We next prove the random estimate for the lower levels and for individual terminal numerators.
 
@@ -367,7 +367,7 @@ For the smaller moduli, two independent products of sampled primes supply the ca
 **Lemma 4.5**. *Let $K=100$, $D_0=100000$, and $m=\lfloor S/\log S\rfloor$. Let $\mathcal P$ be a set of primes in $[S^K,2S^K]$ with $P=|\mathcal P|\ge S^{K-1}$, and sample $$p_{j,\epsilon}\qquad
  (1\le j\le m,\ \epsilon\in\{0,1\})$$ independently and uniformly from $\mathcal P$. For $I\in\{0,1\}^m$, put $t_I=\prod_{j=1}^m p_{j,I_j}$. For every integer $u$ such that $$D_0\log S\le V:=\log u\le S,
  \qquad w=\min(m,V),$$ and every integer $1\le l\le \exp(0.005w)$, one has $$\begin{equation}
-\label{eq:random-second-moment}
+\tag{4.13}
  \mathbb E\left|2^{-m}\sum_{I\in\{0,1\}^m}\mathrm e(lt_I/u)\right|^2
  \le \exp(-0.01w)
 \end{equation}$$ for all sufficiently large $S$. The onset is absolute and uniform in $u,l,\mathcal P$.*
@@ -377,7 +377,7 @@ For the smaller moduli, two independent products of sampled primes supply the ca
  \le 2^{m/4}\mathbb E\,2^{-B}
  =2^{m/4}(3/4)^m
  \le e^{-m/16}.$$ We bound these pairs trivially. Fix any remaining pair, and set $$s=\left\lfloor\frac{0.75V}{K\log S}\right\rfloor.$$ Since $V/(K\log S)\ge1000$, and $V\le S$, we have $$\begin{equation}
-\label{eq:random-product-lengths}
+\tag{4.14}
  \frac{0.74V}{K\log S}\le s\le\frac{0.75V}{K\log S},
  \qquad 2s\le m/4
 \end{equation}$$ for sufficiently large $S$.
@@ -388,7 +388,7 @@ Write $$g=\gcd(lU_0,u),\qquad q=u/g.$$ The coefficient $lU_0/u$ reduces to a fra
 
 We first bound the probability, over the exposed variables, that $q<u^{0.9}$. Since $l\le u^{0.005}$ and $\gcd(lU_0,u)\le l\gcd(U_0,u)$, this event implies $\gcd(U_0,u)>u^{0.095}$. Call a sample contributing to $U_0$ a hit if its prime value divides $u$, and count hits with their sample multiplicities. If their number is $B_0$, then $$\gcd(U_0,u)\le \prod_{\text{hit samples }p}p
        \le S^{(K+1)B_0}.$$ Thus failure requires at least $$k_0=\left\lceil\frac{0.08V}{(K+1)\log S}\right\rceil$$ hits. At most $S$ primes in the sampling interval divide $u$, so each sample has hit probability at most $S/P\le S^{-(K-2)}$. There are at most $m\le S$ independent samples in $U_0$. A union bound over sets of $k_0$ positions yields $$\begin{equation}
-\label{eq:random-gcd}
+\tag{4.15}
  \mathbb P(q<u^{0.9})
  \le S^{-(K-3)k_0}
  \le \exp\left(-\frac{0.08(K-3)}{K+1}V\right)
@@ -401,7 +401,7 @@ Now fix an exposure with $q\ge u^{0.9}$. Every possible value of either fresh pr
 The reduced fraction $lU_0/u=c/q$ has $\gcd(c,q)=1$. Complete additive-character orthogonality gives $$\sum_{x\bmod q}\left|\sum_{y\bmod q}\beta_y\mathrm e(cxy/q)\right|^2
        =q\sum_{y\bmod q}|\beta_y|^2.$$ Indeed the inner sum over $x$ vanishes unless $q\mid c(y-y')$, equivalently $y=y'$ modulo $q$. This identity holds for composite $q$ as well. Cauchy–Schwarz gives $$\left|\sum_{x,y\bmod q}\alpha_x\beta_y\mathrm e(cxy/q)\right|
  \le \sqrt q\,\|\alpha\|_2\|\beta\|_2
- \le u^{-0.2}.$$ The factor $\mathrm e(-lt_J/u)$ is fixed under the exposure. Averaging this conditional estimate and using (eq:random-gcd) bounds the contribution of our fixed pair $I,J$ in absolute value by $u^{-0.05}+u^{-0.2}$.
+ \le u^{-0.2}.$$ The factor $\mathrm e(-lt_J/u)$ is fixed under the exposure. Averaging this conditional estimate and using (4.15) bounds the contribution of our fixed pair $I,J$ in absolute value by $u^{-0.05}+u^{-0.2}$.
 
 Combining this with the Hamming exception, we obtain $$\mathbb E\left|2^{-m}\sum_I\mathrm e(lt_I/u)\right|^2
  \le e^{-m/16}+u^{-0.05}+u^{-0.2}
@@ -451,7 +451,7 @@ We now prove Proposition 2.1. Lemma 4.1 provides many choices for making the n
  D_*=2D_C+D_M+1,
  \qquad r\in\mathbb N,\quad r\ge \max\{2,8K_d\},
  \qquad \alpha=1-\frac1r.$$ All subsequent lower bounds on $S$ may depend on these fixed constants. In particular, the moment order $r$ is independent of $S$. For sufficiently large $S$, $$\begin{equation}
-\label{eq:descent-depth}
+\tag{5.1}
  m\ge\frac{S}{2\log S},
  \qquad
  d=\left\lceil\frac{D_XS-m}{\eta m}\right\rceil
@@ -467,14 +467,14 @@ The power of two dividing $M$ is at least $S^{D_0}$. For any integer $1\le u\le 
 
 If $S^{D_0}<u\le e^m$, the last part of Lemma 4.1 gives a divisor $t\mid M$ for which $$z=\left\lceil\frac tu\right\rceil,\qquad
  h=uz-t,\qquad 0\le h\le u^{1-\eta}.$$ The identity $$\begin{equation}
-\label{eq:terminal-descent}
+\tag{5.2}
  \frac uM=\frac1{(M/t)z}+\frac1z\frac hM
 \end{equation}$$ adds one unit fraction. If $h=0$, the expansion ends; otherwise an expansion of $h/M$ can be divided by the positive integer $z$. As long as the numerator remains above $S^{D_0}$, its logarithm decreases by a factor at most $1-\eta$ at each step. It starts at most $m\le S$, so after at most $$1+\left\lceil\frac{\log S}{-\log(1-\eta)}\right\rceil$$ steps it has either vanished or entered the binary range. Thus an absolute constant $B_0$ bounds the length of every terminal expansion by $B_0\log S$. All denominators are integers. Since every term is positive and the total is less than one, every denominator is at least two.
 
 ##### Working backwards.
 
 Set $$G_d=\{1,\ldots,\lfloor X_d\rfloor\}.$$ At a level $j<d$, write the list prescribed by Lemma 4.1 as $(t_{j,i})_{i\in I_j}$: it is the deterministic list when $X_j>e^S$, and the first random list otherwise. Its entries may coincide; their indices are always retained. Having defined $G_{j+1}$, let $$\begin{equation}
-\label{eq:good-backwards}
+\tag{5.3}
  \begin{aligned}
  G_j=G_{j+1}\ \cup\ \bigl\{u\in\mathbb N:\ &1\le u\le X_j,\\
  &h_{j,t_{j,i}}(u)\in G_{j+1}\cup\{0\}
@@ -482,12 +482,12 @@ Set $$G_d=\{1,\ldots,\lfloor X_d\rfloor\}.$$ At a level $j<d$, write the list pr
  \end{aligned}
 \end{equation}$$ These sets have the asserted expansions. For membership inherited directly from $G_{j+1}$, divide the known expansion by the integer $C_j/C_{j+1}$. For membership obtained from a residue, put $$z=\left\lceil\frac{C_jt_{j,i}}u\right\rceil,\qquad
  h=uz-C_jt_{j,i}.$$ Then $$\begin{equation}
-\label{eq:rescaled-descent}
+\tag{5.4}
  \frac{u}{MC_j}
  =\frac1{(M/t_{j,i})z}
  +\frac1{zC_j/C_{j+1}}\frac{h}{MC_{j+1}}.
 \end{equation}$$ Both $M/t_{j,i}$ and $zC_j/C_{j+1}$ are positive integers. This includes the possible transition from $C_j=C$ to $C_{j+1}=1$, where the second scaling factor is $zC$. If $h=0$, the second term is absent. Otherwise it uses the known expansion for $h\in G_{j+1}$. Consequently every member of $G_j$ has an expansion of length at most $$\begin{equation}
-\label{eq:descent-length}
+\tag{5.5}
  B_0\log S+d-j.
 \end{equation}$$
 
@@ -500,14 +500,14 @@ Define $$H_j=\{1,\ldots,\lfloor X_j\rfloor\}\setminus G_j,
  \delta_j=\frac{|H_j|}{X_j}.$$ Thus $0\le\delta_j\le1$ and $\delta_d=0$. Fix $j<d$, and abbreviate $X=X_j$, $Y=X_{j+1}=\rho X$. The inclusion $G_{j+1}\subseteq G_j$ gives $$|H_j\cap[1,Y]|\le |H_{j+1}|.$$ Apart from at most $Xe^{-c_*m}$ exceptional integers, every $u\in H_j\cap(Y,X]$ has at least $\rho|I_j|/2$ indices $i$ with $h_{j,t_{j,i}}(u)\le Y$. Each such residue lies in $H_{j+1}$: a residue in $G_{j+1}\cup\{0\}$ would place $u$ in $G_j$.
 
 For a fixed pair $(h,i)$, every predecessor $u$ satisfies $$u\mid C_jt_{j,i}+h,\qquad 1\le u\le X.$$ There are at most $d_X(C_jt_{j,i}+h)$ such predecessors. Counting pairs with their list indices therefore yields $$\begin{equation}
-\label{eq:bad-pair-count}
+\tag{5.6}
  |H_j|\le Xe^{-c_*m}+|H_{j+1}|
  +\frac{2}{\rho|I_j|}
    \sum_{i\in I_j}\ \sum_{h\in H_{j+1}}
        d_X(C_jt_{j,i}+h).
 \end{equation}$$ Repeated values of $t_{j,i}$ create repeated summands on both sides of this count and require no adjustment. Figure 1 shows why the index must be retained in this double count.
 
-**Figure 1:** Schematic of the indexed predecessor count. Summing the right degrees and dividing by the left-degree lower bound gives the last term in (eq:bad-pair-count). The Fourier-exception term $Xe^{-c_*m}$ and the inherited term $|H_{j+1}|$ are counted separately. Equal list values retain different indices. The drawn graph does not specify numerical degrees.
+**Figure 1:** Schematic of the indexed predecessor count. Summing the right degrees and dividing by the left-degree lower bound gives the last term in (5.6). The Fourier-exception term $Xe^{-c_*m}$ and the inherited term $|H_{j+1}|$ are counted separately. Equal list values retain different indices. The drawn graph does not specify numerical degrees.
 
 We check the hypotheses of Lemma 3.1 before applying it. Since $j<d$, one has $$\frac{S}{2\log S}\le m<\log X\le D_XS\le D_*S.$$ Also $$Y=Xe^{-\eta m}\ge X^{1-\eta}\ge\sqrt X,
  \qquad Y\le X.$$ Finally, each shift $N=C_jt_{j,i}$ is a positive integer and satisfies $$N\le CM\le e^{(2D_C+D_M)S}<e^{D_*S}.$$ Thus Lemma 3.1, with the fixed parameters $D_*,r$, applies uniformly at every level and to every list entry. Hölder’s inequality gives $$\begin{align}
@@ -515,10 +515,10 @@ We check the hypotheses of Lemma 3.1 before applying it. Since $j<d$, one has $
  &\le |H_{j+1}|^\alpha
        \left(\sum_{1\le h\le Y}d_X(N+h)^r\right)^{1/r}\notag\\
  &\le Y\,e^{S^{1/4}/r}\delta_{j+1}^{\alpha}.
- \label{eq:descent-holder}
-\end{align}$$ This also holds when $H_{j+1}$ is empty. Substitution in (eq:bad-pair-count), followed by division by $X$, uses $Y=\rho X$ to cancel the factor $1/\rho$: $$\delta_j\le e^{-c_*m}+\rho\delta_{j+1}
+ \tag{5.7}
+\end{align}$$ This also holds when $H_{j+1}$ is empty. Substitution in (5.6), followed by division by $X$, uses $Y=\rho X$ to cancel the factor $1/\rho$: $$\delta_j\le e^{-c_*m}+\rho\delta_{j+1}
                  +2e^{S^{1/4}/r}\delta_{j+1}^{\alpha}.$$ Since $\delta_{j+1}\le\delta_{j+1}^{\alpha}$, for sufficiently large $S$ we obtain the uniform recurrence $$\begin{equation}
-\label{eq:density-recurrence}
+\tag{5.8}
  \delta_j\le\epsilon+A\delta_{j+1}^{\alpha},
  \qquad
  \epsilon=e^{-c_*m},\qquad A=e^{2S^{1/4}}.
@@ -527,20 +527,20 @@ We check the hypotheses of Lemma 3.1 before applying it. Since $j<d$, one has $
 ##### Iterating the recurrence.
 
 Our fixed choice of $r$ ensures $$\begin{equation}
-\label{eq:alpha-depth}
+\tag{5.9}
  \alpha^d
  \ge e^{-2d/r}
  \ge S^{-2K_d/r}
  \ge S^{-1/4},
-\end{equation}$$ where we used $-\log(1-1/r)\le2/r$ and (eq:descent-depth). For nonnegative $a,b$, the inequality $(a+b)^\alpha\le a^\alpha+b^\alpha$ permits us to unroll (eq:density-recurrence) from $\delta_d=0$: $$\begin{equation}
-\label{eq:density-unrolled}
+\end{equation}$$ where we used $-\log(1-1/r)\le2/r$ and (5.1). For nonnegative $a,b$, the inequality $(a+b)^\alpha\le a^\alpha+b^\alpha$ permits us to unroll (5.8) from $\delta_d=0$: $$\begin{equation}
+\tag{5.10}
  \delta_0\le
  \sum_{i=0}^{d-1}
  A^{(1-\alpha^i)/(1-\alpha)}\epsilon^{\alpha^i}
  \le d\exp\!\left(2rS^{1/4}-c_*mS^{-1/4}\right).
 \end{equation}$$ Indeed, the exponent of $A$ is at most $r$, and $\alpha^i\ge\alpha^d\ge S^{-1/4}$. The right-hand side tends to zero: the negative term has size at least $c_*S^{3/4}/(2\log S)$, which dominates the fixed multiple $2rS^{1/4}$ and $\log d$.
 
-For all sufficiently large $S$, we therefore have $$|H_0|\le X_0/8.$$ Take $G=G_0$ and $X=X_0$. By (eq:descent-depth) and (eq:descent-length), every $u\in G$ has an expansion of $u/(MC)$ with at most $(B_0+K_d)\log S$ terms. The size bounds on $M$ come from Lemma 4.1. Every estimate above is uniform in the allowed integer $C$, and all thresholds depend only on fixed absolute constants. Choosing $L=B_0+K_d$ and then one sufficiently large absolute $S_0$ proves Proposition 2.1. ◻
+For all sufficiently large $S$, we therefore have $$|H_0|\le X_0/8.$$ Take $G=G_0$ and $X=X_0$. By (5.1) and (5.5), every $u\in G$ has an expansion of $u/(MC)$ with at most $(B_0+K_d)\log S$ terms. The size bounds on $M$ come from Lemma 4.1. Every estimate above is uniform in the allowed integer $C$, and all thresholds depend only on fixed absolute constants. Choosing $L=B_0+K_d$ and then one sufficiently large absolute $S_0$ proves Proposition 2.1. ◻
 
 The proposition supplies short expansions on one common dense set of numerators. Section 2 transfers this density statement to every original fraction by writing a suitably scaled numerator as the sum of two members of that set.
 
@@ -560,16 +560,16 @@ This invariant excludes a denominator one, since that would force the singleton 
 *Proof of Corollary 1.2.* *A short initial expansion.* Let $r$ be a sufficiently large integer and let $Q$ be the product of the first $r$ odd primes. The prime number theorem, already used in Section 4, gives $$\log Q=O(r\log r),\qquad \log\log Q=O(\log r).$$ Apply Theorem 1.1 to $(Q-1)/Q$ and append $1/Q$. Lemma 6.1 produces a distinct expansion of one whose denominator set $S$ has size $s=O(\log r)$ and contains a multiple $n$ of $Q$. Fix this one set $S$ and this one $n$. Writing $\tau(n)$ for the number of positive divisors of $n$, we have $\tau(n)\ge 2^r$.
 
 *Branching over divisors.* For every positive proper divisor $d$ of $n$, the identity $$\begin{equation}
-\label{eq:divisor-split}
+\tag{6.1}
  \frac1n=\frac1{n+d}+\frac1{n+n^2/d}
 \end{equation}$$ gives two distinct integer denominators, with $$n<n+d<2n<n+n^2/d.$$ For each unchanged denominator in $S\setminus\{n\}$, at most one choice of $d$ makes it equal to $n+d$, and at most one makes it equal to $n+n^2/d$. Thus at least $$\tau(n)-1-2(s-1)\ge 2^r-2s+1$$ choices give distinct-denominator expansions of one, all of the same length $\ell=s+1$. They give different expansions: from any resulting denominator set, remove the fixed set $S\setminus\{n\}$; the smaller of the two remaining denominators is $n+d$, which recovers $d$. Sorting each set therefore gives a different tuple counted by $F(\ell)$.
 
 *Every sufficiently large length.* For any distinct expansion of one with at least two terms, its largest denominator $v$ exceeds one. Replace $v$ by $v+1$ and $v(v+1)$, using $$\begin{equation}
-\label{eq:padding-split}
+\tag{6.2}
  \frac1v=\frac1{v+1}+\frac1{v(v+1)}.
 \end{equation}$$ These are the two largest denominators of the new expansion. The operation is injective: delete those two denominators and reinsert the second largest minus one. Iterating a fixed number of times is therefore injective. Our initial set contains a multiple of $Q>1$, so it is not the singleton $\{1\}$; the operation applies to all the expansions just constructed.
 
-Choose an absolute constant $B\ge1$ such that $\ell\le B\log r$ for all sufficiently large $r$. For each sufficiently large integer $k$, take $r=\lfloor\exp(k/(2B))\rfloor$. Then $\ell\le k$, and applying (eq:padding-split) exactly $k-\ell$ times to each of our common-length expansions gives $$F(k)\ge 2^r-2s+1\ge 2^{r-1}.$$ Since $r\ge\tfrac12\exp(k/(2B))$ for large $k$, this proves $\log\log F(k)\ge k/(2B)+O(1)$, hence the desired lower bound for every sufficiently large integer $k$.
+Choose an absolute constant $B\ge1$ such that $\ell\le B\log r$ for all sufficiently large $r$. For each sufficiently large integer $k$, take $r=\lfloor\exp(k/(2B))\rfloor$. Then $\ell\le k$, and applying (6.2) exactly $k-\ell$ times to each of our common-length expansions gives $$F(k)\ge 2^r-2s+1\ge 2^{r-1}.$$ Since $r\ge\tfrac12\exp(k/(2B))$ for large $k$, this proves $\log\log F(k)\ge k/(2B)+O(1)$, hence the desired lower bound for every sufficiently large integer $k$.
 
 *The upper bound.* Fix a tuple counted by $F(k)$ and put $P_0=1$ and $P_i=n_1\cdots n_i$. Before the $i$th term, the positive remainder $$R_i=1-\sum_{j<i}\frac1{n_j}=\sum_{j=i}^k\frac1{n_j}$$ is a rational number with a positive integer numerator over $P_{i-1}$. Ordering therefore gives $$\frac1{P_{i-1}}\le R_i\le\frac{k}{n_i},
  \qquad n_i\le kP_{i-1},\qquad P_i\le kP_{i-1}^2.$$ Inductively $P_i\le k^{2^i-1}$ and $n_i\le k^{2^{i-1}}$. Counting all integer choices in this larger box shows that $F(k)$ is finite and $$F(k)\le\prod_{i=1}^k k^{2^{i-1}}=k^{2^k-1}.$$ Together with the lower bound, this yields $\log\log F(k)\le k\log2+\log\log k=O(k)$ for sufficiently large $k$, as required. ◻
@@ -642,23 +642,23 @@ We construct a moderately sized integer whose divisors, after division by positi
 **Lemma 8.2**. *For every sufficiently large integer $m$, put $$L=\log\log m,\qquad Y=m^4,\qquad
  \ell(v)=\left\lceil\frac{4\log v}{\log 2}\right\rceil
  \quad(v\geq2).$$ Let $P(v)$ be the product of the first $\ell(v)$ primes, and define $$K_m=P(Y)^2\,\lfloor L\rfloor!.$$ Then $K_m>m$ and $$\begin{equation}
-\label{eq:supply-size}
+\tag{8.1}
  \log K_m\leq
  \left(\frac{32}{\log 2}+o(1)\right)\log m\log\log m
  \qquad(m\longrightarrow\infty).
 \end{equation}$$ Moreover, every integer $1\leq s\leq Y$ has a representation $$\begin{equation}
-\label{eq:rational-supply}
+\tag{8.2}
  s=\sum_{i=1}^{h}\frac{e_i}{t_i},\qquad
  h\leq16,\quad e_i\mid K_m,\quad e_i,t_i\in\mathbb Z_{>0}.
 \end{equation}$$ Repeated summands are allowed.*
 
 *Proof.* The prime number theorem (Selberg 1949, 305, (1.1)) gives $$\log P(v)=(1+o(1))\ell(v)\log\ell(v)
- \ll\log v\log\log v.$$ Since $\ell(Y)=16\log m/\log 2+O(1)$, and $\log(\lfloor L\rfloor!)=O(L\log L)$, this proves (eq:supply-size). Also $P(Y)\geq2^{\ell(Y)}\geq Y^4$, so $K_m>m$ for large $m$.
+ \ll\log v\log\log v.$$ Since $\ell(Y)=16\log m/\log 2+O(1)$, and $\log(\lfloor L\rfloor!)=O(L\log L)$, this proves (8.1). Also $P(Y)\geq2^{\ell(Y)}\geq Y^4$, so $K_m>m$ for large $m$.
 
 We next prove an assertion whose threshold is independent of $m$. Fix a sufficiently large odd integer $u$, and let $A$ be the set of positive divisors of $P(u)$. Write $N=|A|=2^{\ell(u)}\geq u^4$. We estimate exceptional primes by counting congruent pairs, the mechanism underlying Gallagher’s larger sieve (Gallagher 1971). The coarse count below suffices. For each prime $p\leq u$, let $A_p$ be the image of $A$ in $\mathbb F_p$. Call $p$ exceptional when $|A_p|\leq p^{3/4}$. If $c_a$ is the number of members of $A$ in residue class $a$, then Cauchy–Schwarz shows that the number of ordered pairs of distinct members of $A$ congruent modulo an exceptional prime is at least $$\sum_{a\in\mathbb F_p}c_a^2-N
  \geq\frac{N^2}{|A_p|}-N
  \geq\frac{N^2}{2u^{3/4}}.$$ For any two distinct members $a,b\in A$, the nonzero integer $|a-b|<P(u)$ has at most $\log P(u)/\log 2$ distinct prime divisors. Counting the same pairs prime by prime therefore bounds the number $B(u)$ of exceptional primes by $$\begin{equation}
-\label{eq:supply-exceptional}
+\tag{8.3}
  B(u)\leq \frac{2u^{3/4}\log P(u)}{\log 2}
  \ll u^{3/4}\log u\log\log u.
 \end{equation}$$
@@ -668,7 +668,7 @@ We use the quantitative form of Vinogradov’s three-prime theorem: there is an 
  \prod_{p\nmid u}\left(1+\frac{1}{(p-1)^3}\right).$$ For odd $u$ its factor at $2$ is $2$, and $$\mathfrak S(u)\geq
  2\prod_{p>2}\left(1-\frac{1}{(p-1)^2}\right)>0.$$ The infinite product is positive because the sum of the subtracted quantities converges. Thus the asymptotic formula supplies an absolute lower bound with an absolute threshold, with no dependence on the factorization of $u$.
 
-At most $3uB(u)$ ordered prime triples summing to $u$ contain an exceptional prime: choose its position, its value, and one further entry; the last entry is then fixed. By (eq:supply-exceptional), $$3uB(u)\ll u^{7/4}\log u\log\log u
+At most $3uB(u)$ ordered prime triples summing to $u$ contain an exceptional prime: choose its position, its value, and one further entry; the last entry is then fixed. By (8.3), $$3uB(u)\ll u^{7/4}\log u\log\log u
        =o\left(\frac{u^2}{(\log u)^3}\right).$$ Consequently every sufficiently large odd $u$ is the sum of three primes that are not exceptional for this same set $A$.
 
 It remains to represent each such prime using divisors of $P(u)^2$. Fix one of them, say $p$, and put $H=A_p$ and $h=|H|>p^{3/4}$. Let $U$ be the product of two independent uniformly chosen members of $H$, and write $\mathrm e_p(z)=\exp(2\pi i z/p)$. The following classical bilinear estimate is recorded in (Glibichuk and Konyagin 2007, Proposition 1.1); we give its short proof and the five-product consequence needed here. For every nonzero $r\in\mathbb F_p$, orthogonality and Cauchy–Schwarz give $$\begin{align*}
@@ -712,7 +712,7 @@ For each group, use the assumed representation $s_i=\sum_{a=1}^{b_i}e_{i,a}/t_{i
        \frac{1}{(q/d_i)(K_m/e_{i,a})t_{i,a}}.$$ Each displayed denominator is a positive integer. This uses the two divisibilities $d_i\mid q$ and $e_{i,a}\mid K_m$; no divisibility between $t_{i,a}$ and $e_{i,a}$, or coprimality assumption, is needed. The total number of terms is at most $BG$. ◻
 
 *Proof of Proposition 8.1.* Fix a sufficiently large integer $m$, put $L=\log\log m$, and take $K_m$ from Lemma 8.2. Apply Lemma 7.1 with $T=2mK_m$, which is an integer at least $2m^2$. It gives $$1=\frac1m+\sum_{i=1}^{j}\frac1{n_i}+\frac Rq,
- \qquad 0\le R<2m.$$ The prefix is distinct and avoids $m$. By (eq:supply-size), $$\log\log(2mK_m)\le L+O(\log L),
+ \qquad 0\le R<2m.$$ The prefix is distinct and avoids $m$. By (8.1), $$\log\log(2mK_m)\le L+O(\log L),
  \qquad
  j\le\frac{L}{\log2}+O(\log L)
    =\left(\frac1{\log2}+o(1)\right)L.$$ If $R=0$, the expansion is complete and already satisfies the asserted length bound. Suppose henceforth that $R>0$.

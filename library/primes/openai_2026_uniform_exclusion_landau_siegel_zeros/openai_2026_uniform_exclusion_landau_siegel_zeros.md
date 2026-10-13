@@ -12,7 +12,7 @@ For a primitive Dirichlet character $\chi$ of conductor $q$, let $$L(s,\chi)=\su
  \qquad(\operatorname{Re}s>1),$$ and use its analytic continuation elsewhere. For an absolute constant $c_1>0$, the classical region $$\operatorname{Re}s\ge1-\frac{c_1}{\log(q(|\operatorname{Im}s|+2))}$$ is zero-free except for a possible simple real zero attached to a real character [3, Section 14]. Excluding this possibility uniformly is the Landau–Siegel zero problem. We prove its logarithmic formulation.
 
 **Theorem 1**. *There is an absolute constant $c>0$ such that every real zero $\beta\in(0,1)$ of every primitive nonprincipal real Dirichlet $L$-function of conductor $q\ge3$ satisfies $$\begin{equation}
-\label{eq:main}
+\tag{1.1}
  (1-\beta)\log q\ge c.
 \end{equation}$$*
 
@@ -40,11 +40,11 @@ All logarithms are natural. Constants implicit in $O(\cdot)$ and $\ll$ are absol
 We first record the prime-sum estimate that will be compared with the determinant bound. Let $\chi$ be primitive, nonprincipal, and real of conductor $q\ge3$, and let $\beta\in(0,1)$ be a real zero. Write $$\ell=\log q,\qquad \delta=(1-\beta)\ell.$$
 
 **Lemma 2**. *For $X\ge3$, $$\begin{equation}
-\label{eq:primebias}
+\tag{2.1}
  \sum_{\substack{p\le X\\\chi(p)=1}}\frac{\log p}{p}
  \ll \ell+\frac{\delta(\log X)^2}{\ell}.
 \end{equation}$$ Consequently, for each integer $H\ge2$, $$\begin{equation}
-\label{eq:mass}
+\tag{2.2}
  \sum_{\substack{H<p\le X\\p\nmid2q\\\chi(p)=-1}}
      \frac{\log p}{p}
  \ge \log X-C\ell-C\frac{\delta(\log X)^2}{\ell}-C_H,
@@ -53,14 +53,14 @@ We first record the prime-sum estimate that will be compared with the determinan
 *Proof.* Put $\varepsilon=(1-\chi(-1))/2$. For the completed function $$\Lambda_\chi(s)=
  (q/\pi)^{(s+\varepsilon)/2}
  \Gamma\bigl((s+\varepsilon)/2\bigr)L(s,\chi),$$ the Hadamard product and functional equation give, for real $s>1$, $$\begin{equation}
-\label{eq:hadamard}
+\tag{2.3}
  -\frac{L'}{L}(s,\chi)
  =\frac12\log\frac q\pi
   +\frac12\frac{\Gamma'}{\Gamma}
         \bigl((s+\varepsilon)/2\bigr)
   -\sum_\rho\operatorname{Re}\frac1{s-\rho}.
 \end{equation}$$ Here $\rho$ runs over the nontrivial zeros with multiplicity. The sum of real parts converges, and each term is nonnegative. This is the standard logarithmic-derivative identity; see [3, Sections 12 and 14]. The functional equation cancels the real constant from the Hadamard product. For $1<s\le2$, the gamma term is bounded for both parities. Keeping only the term for $\beta$ and using $-\zeta'/\zeta(s)=1/(s-1)+O(1)$ gives $$\begin{equation}
-\label{eq:logderivative}
+\tag{2.4}
  -\frac{\zeta'}{\zeta}(s)-\frac{L'}{L}(s,\chi)
  \le C\ell+\frac1{s-1}-\frac1{s-\beta}.
 \end{equation}$$
@@ -69,7 +69,7 @@ Take $s=1+1/\log X$, which lies in $(1,2)$ for $X\ge3$. Writing $\Lambda(n)$ for
  =\sum_{n\ge1}\frac{\Lambda(n)(1+\chi(n))}{n^s}
  \ge\frac2e\sum_{\substack{p\le X\\\chi(p)=1}}\frac{\log p}{p}.$$ Also, $$\frac1{s-1}-\frac1{s-\beta}
  =\frac{1-\beta}{(s-1)(s-\beta)}
- \le(1-\beta)(\log X)^2.$$ This proves (eq:primebias). To obtain (eq:mass), use Mertens’ estimate and the elementary bound for primes dividing $q$: $$\sum_{p\le X}\frac{\log p}{p}=\log X+O(1),
+ \le(1-\beta)(\log X)^2.$$ This proves (2.1). To obtain (2.2), use Mertens’ estimate and the elementary bound for primes dividing $q$: $$\sum_{p\le X}\frac{\log p}{p}=\log X+O(1),
  \qquad \sum_{p\mid q}\frac{\log p}{p}\le\log q.$$ Removing primes at most $H$ costs a constant depending only on $H$. ◻
 
 ## Interpolation on a projected integer box
@@ -77,40 +77,40 @@ Take $s=1+1/\log X$, which lies in $(1,2)$ for $X\ge3$. Writing $\Lambda(n)$ for
 The purpose of this section is to obtain a nonzero evaluation determinant using monomials whose separate degrees may be very different. No arithmetic estimates enter the interpolation lemma.
 
 **Lemma 3**. *Let $A:\mathbb C^4\to\mathbb C^3$ be a surjective linear map, with $\ker A=\mathbb Cc$, where the four coordinates of $c$ are linearly independent over $\mathbb Q$. Let $N\ge1$ and $t_1,t_2,t_3$ be integers satisfying $$\begin{equation}
-\label{eq:budget}
+\tag{3.1}
  t_j\ge3(N-1)\quad(1\le j\le3),\qquad
  \prod_{j=1}^3\bigl(t_j-3(N-1)+1\bigr)>(4N-3)^4.
 \end{equation}$$ Set $E_N=\{0,\ldots,N-1\}^4$ and $$\mathcal P_t=\{B\in\mathbb C[z_1,z_2,z_3]:\deg_{z_j}B\le t_j
                                       \text{ for }1\le j\le3\}.$$ Then the evaluation map $B\mapsto(B(An))_{n\in E_N}$ from $\mathcal P_t$ to $\mathbb C^{E_N}$ is surjective.*
 
 *Proof.* Suppose the evaluation map is not surjective. There are complex numbers $v_n$, not all zero, such that $$\begin{equation}
-\label{eq:moments}
+\tag{3.2}
  \sum_{n\in E_N}v_nB(An)=0\qquad(B\in\mathcal P_t).
 \end{equation}$$ Let $S=\{n:v_n\ne0\}$ and $P=\mathop{\mathrm{conv}}(S)\subset\mathbb R^4$. We construct the test polynomial as a product. A translated polynomial will vanish at $An$ for every $n\in S$ outside one supporting face of $P$. A second polynomial will select a single vertex on that face, with total degree at most $3(N-1)$.
 
 Put $\mathcal K=4P$. For $b_j=t_j-3(N-1)$, the polynomials of separate degrees at most $b_j$ form a vector space of dimension $\prod_j(b_j+1)$. Since $$\mathcal K\subset[0,4(N-1)]^4,\qquad
  \#(\mathcal K\cap\mathbb Z^4)\le(4N-3)^4<\prod_j(b_j+1),$$ there is a nonzero polynomial $R$ with $\deg_{z_j}R\le b_j$ and $$\begin{equation}
-\label{eq:zeros}
+\tag{3.3}
  R(Am)=0\qquad(m\in\mathcal K\cap\mathbb Z^4).
 \end{equation}$$
 
-*A supporting face.* The polynomial $R\circ A$ is nonzero because $A$ is surjective. A nonzero polynomial on $\mathbb C^4$ cannot vanish on all of $\mathbb Z^4$: this follows by applying the one-variable root bound successively to its four coordinates. Choose $m\in\mathbb Z^4$ with $R(Am)\ne0$ whose distance to $\mathcal K$ is least. Such a minimum exists because bounded neighborhoods of the compact set $\mathcal K$ contain finitely many lattice points. Let $y\in\mathcal K$ be nearest to $m$ and set $h=m-y$. By (eq:zeros), $h\ne0$.
+*A supporting face.* The polynomial $R\circ A$ is nonzero because $A$ is surjective. A nonzero polynomial on $\mathbb C^4$ cannot vanish on all of $\mathbb Z^4$: this follows by applying the one-variable root bound successively to its four coordinates. Choose $m\in\mathbb Z^4$ with $R(Am)\ne0$ whose distance to $\mathcal K$ is least. Such a minimum exists because bounded neighborhoods of the compact set $\mathcal K$ contain finitely many lattice points. Let $y\in\mathcal K$ be nearest to $m$ and set $h=m-y$. By (3.3), $h\ne0$.
 
 The nearest-point inequality $h\cdot(x-y)\le0$ for $x\in\mathcal K$ shows that $y/4$ belongs to the supporting face $$G=\{v\in P:h\cdot v=\max_{w\in P}h\cdot w\}.$$ This face has dimension at most three: if $P$ is four-dimensional then $G$ is proper, and otherwise $\dim G\le\dim P\le3$. Removing affine dependencies from a convex combination expresses $y/4$ as a combination of at most four vertices of $G$. One coefficient is at least $1/4$. Choosing its vertex $u$ gives $$\begin{equation}
-\label{eq:vertex}
+\tag{3.4}
  u\in S\cap G,\qquad y-u\in3P.
 \end{equation}$$ Indeed, subtracting $u$ from four times that convex combination leaves nonnegative coefficients with sum three.
 
-For $n\in S\setminus G$, define $$y'=y+n-u\in4P,\qquad m'=m+n-u=y'+h.$$ The inclusion follows from (eq:vertex). Since $h\cdot(u-n)>0$, for sufficiently small $\eta>0$ the point $y'+\eta(y-y')\in\mathcal K$ satisfies $$\begin{equation}
-\label{eq:distance}
+For $n\in S\setminus G$, define $$y'=y+n-u\in4P,\qquad m'=m+n-u=y'+h.$$ The inclusion follows from (3.4). Since $h\cdot(u-n)>0$, for sufficiently small $\eta>0$ the point $y'+\eta(y-y')\in\mathcal K$ satisfies $$\begin{equation}
+\tag{3.5}
  \bigl\|m'-[y'+\eta(y-y')]\bigr\|^2
  =\|h-\eta(u-n)\|^2<\|h\|^2.
 \end{equation}$$ Thus $m'$ is closer to $\mathcal K$ than $m$ is. By the choice of $m$, $$\begin{equation}
-\label{eq:offface}
+\tag{3.6}
  R\bigl(A(m+n-u)\bigr)=0\qquad(n\in S\setminus G).
 \end{equation}$$ Figure 1 illustrates the strict decrease in distance.
 
-**Figure 1:** Schematic of (eq:distance). Both $y$ and $y'$ lie in $\mathcal K$, and $m-y=m'-y'=h$. Moving to $z_\eta=y'+\eta(y-y')$ decreases the distance to $m'$ because $h\cdot(y-y')>0$. The dashed red segment is shorter than $\|h\|$; the argument takes place in $\mathbb R^4$.
+**Figure 1:** Schematic of (3.5). Both $y$ and $y'$ lie in $\mathcal K$, and $m-y=m'-y'=h$. Moving to $z_\eta=y'+\eta(y-y')$ decreases the distance to $m'$ because $h\cdot(y-y')>0$. The dashed red segment is shorter than $\|h\|$; the argument takes place in $\mathbb R^4$.
 
 *Interpolation on the face.* The integer vertices of $G$ span an affine space of dimension at most three. Solving their affine linear equations over $\mathbb Q$ and clearing denominators gives a hyperplane $$\mathcal H=\{v\in\mathbb C^4:r\cdot v=k\},
  \qquad 0\ne r\in\mathbb Z^4,\quad k\in\mathbb Z,$$ containing $G$. Rational independence gives $r\cdot c\ne0$. The restriction $A|_{\mathcal H}$ is therefore an affine bijection onto $\mathbb C^3$: each affine line parallel to $\ker A$ meets $\mathcal H$ exactly once.
@@ -119,8 +119,8 @@ Choose $i_0$ with $r_{i_0}\ne0$. The other three coordinates determine a point o
              \frac{\lambda_i(z)-a}{u_i-a}$$ has total degree at most $3(N-1)$ and satisfies $$Q(An)=\begin{cases}1,&n=u,\\0,&n\in(S\cap G)\setminus\{u\}.
  \end{cases}$$ The denominators are nonzero integers; empty products are $1$.
 
-Now set $B(z)=Q(z)R(z+A(m-u))$. Translation preserves each separate degree of $R$, and the total degree bound on $Q$ bounds each of its separate degrees. Hence $B\in\mathcal P_t$. Equation (eq:offface) eliminates the terms off $G$, and $Q$ eliminates all remaining terms except the one at $u$. Substitution in (eq:moments) gives the contradiction $$0=\sum_{n\in S}v_nQ(An)R\bigl(A(m+n-u)\bigr)
-   =v_uR(Am)\ne0.\qedhere$$ ◻
+Now set $B(z)=Q(z)R(z+A(m-u))$. Translation preserves each separate degree of $R$, and the total degree bound on $Q$ bounds each of its separate degrees. Hence $B\in\mathcal P_t$. Equation (3.6) eliminates the terms off $G$, and $Q$ eliminates all remaining terms except the one at $u$. Substitution in (3.2) gives the contradiction $$0=\sum_{n\in S}v_nQ(An)R\bigl(A(m+n-u)\bigr)
+   =v_uR(Am)\ne0.$$ ◻
 
 **Corollary 4**. *Let $A$ satisfy the hypotheses of Lemma 3. For integers $1\le H\le N$, set $$U=N^{4/3},\qquad T_1=32H^{2/3}U,
  \qquad T_2=T_3=32H^{-1/3}U.$$ The rows $((An)_1^{\alpha_1}(An)_2^{\alpha_2}(An)_3^{\alpha_3})_{n\in E_N}$, with $\alpha\in\mathbb Z_{\ge 0}^3$ and $\alpha_j\le T_j$, span $\mathbb C^{E_N}$. The constant $32$ is independent of $A$ and $H$.*
@@ -140,7 +140,7 @@ A primitive nonprincipal real character $\chi$ corresponds to a fundamental disc
  \mathcal R=\mathbb Z[a,b].$$ Since $\chi$ is nonprincipal, $d\ne1$, so $[K:\mathbb Q]=4$. Every element of $\mathcal R$ has a unique expression $z_1+z_2a+z_3b+z_4ab$ with $z_i\in\mathbb Z$. The automorphisms $\sigma(a)=-a$, $\sigma(b)=b$ and $\tau(a)=a$, $\tau(b)=-b$ generate $\mathop{\mathrm{Gal}}(K/\mathbb Q)$.
 
 For integers $1\le H\le N$, retain the notation $U=N^{4/3}$ and set $M=N^4=U^3$. For $n\in E_N$ define $\theta_n=n_1+n_2a+n_3b+n_4ab$. The map $$\begin{equation}
-\label{eq:A}
+\tag{4.1}
  A=\begin{pmatrix}
  1&a&b&ab\\1&-a&b&-ab\\1&-a&-b&ab
  \end{pmatrix}
@@ -149,21 +149,21 @@ For integers $1\le H\le N$, retain the notation $U=N^{4/3}$ and set $M=N^4=U^3$.
 \end{equation}$$ It has rank three and $$\ker A=\mathbb C(ab,b,-a,-1).$$ For example, the minor in the first three columns is $4ab\ne0$, and multiplication verifies the displayed kernel. Its four coordinates are linearly independent over $\mathbb Q$ because $1,a,b,ab$ are a $\mathbb Q$-basis of $K$. Thus Corollary 4 applies.
 
 For $\alpha\in\mathbb Z_{\ge 0}^3$, write $$\begin{equation}
-\label{eq:rows}
+\tag{4.2}
  R_\alpha=
  \bigl(\theta_n^{\alpha_1}\sigma(\theta_n)^{\alpha_2}
                    \sigma\tau(\theta_n)^{\alpha_3}\bigr)_{n\in E_N}.
 \end{equation}$$ Fix an order of the columns. Order all indices in $\mathbb Z_{\ge 0}^3$ by increasing $w(\alpha)=\alpha_1+H\alpha_2+H\alpha_3$, with any fixed rule to break ties. Retain a row precisely when it increases the span of the earlier rows over $K$. Rank is unchanged on extending scalars from $K$ to $\mathbb C$, so Corollary 4 guarantees $M$ retained rows. Every row in that corollary has weight at most $T_1+HT_2+HT_3=96H^{2/3}U$. Therefore all retained rows have weight at most this bound.
 
 Let $\mathcal P$ be the set of retained indices, in their retained order, and put $$\begin{equation}
-\label{eq:det}
+\tag{4.3}
  \Delta=\det(R_\alpha)_{\alpha\in\mathcal P}\in\mathcal R\setminus\{0\},
  \qquad S_1=\sum_{\alpha\in\mathcal P}\alpha_1,
  \qquad S_2=\sum_{\alpha\in\mathcal P}(\alpha_2+\alpha_3).
 \end{equation}$$ Only the surjectivity conclusion of Corollary 4 enters the selection of these rows. The coefficients of the auxiliary polynomials used to prove it may depend on $A$, but they do not enter $\Delta$, which is formed from the original monomial rows. Thus no bound on those coefficients is needed for the size estimate below. This is the interpolation-determinant construction, with a weighted row order; compare [7, Section 6].
 
 **Lemma 6**. *There are absolute constants $c_0,C_0>0$ such that for every fixed integer $H\ge1$ and all sufficiently large $N$ in terms of $H$ alone, $$\begin{equation}
-\label{eq:exponents}
+\tag{4.4}
  S_1\ge c_0MH^{2/3}U,\qquad S_2\le C_0MH^{-1/3}U.
 \end{equation}$$ In particular, $S_2/S_1\le(C_0/c_0)/H$.*
 
@@ -180,7 +180,7 @@ For $z\in K$, define $\mathop{\mathrm{N}}(z)=z\sigma(z)\tau(z)\sigma\tau(z)$. If
 For every embedding $\nu:K\hookrightarrow\mathbb C$ and every $n\in E_N$, $$|\nu(\theta_n)|
  \le(N-1)(1+\sqrt{|d|})(1+\sqrt2)
  \le8N\sqrt q.$$ This estimate is valid for either sign of $d$. Each row indexed by $\alpha$ has Euclidean norm at most $\sqrt M(8N\sqrt q)^{\alpha_1+\alpha_2+\alpha_3}$ at every embedding. Hadamard’s inequality and the four embeddings give $$\begin{equation}
-\label{eq:upper}
+\tag{5.1}
  \frac14\log|\mathop{\mathrm{N}}(\Delta)|
  \le\frac M2\log M+
  (S_1+S_2)\bigl(\log N+\tfrac12\ell+\log8\bigr).
@@ -190,7 +190,7 @@ For every embedding $\nu:K\hookrightarrow\mathbb C$ and every $n\in E_N$, $$|\nu
 
 Call a prime $p$ admissible if $p>H$, $p\nmid2q$, and $\chi(p)=-1$. Euler’s criterion gives in $\mathcal R/p\mathcal R$ $$a^p=a\,d^{(p-1)/2}\equiv-a,
  \qquad b^p=b\,2^{(p-1)/2}\equiv(2/p)b.$$ The $p$-th-power map is a ring homomorphism in characteristic $p$, and integer coefficients are fixed by it. Consequently $$\begin{equation}
-\label{eq:frobenius}
+\tag{5.2}
  \theta^p\equiv g_p(\theta)\pmod{p\mathcal R}
  \quad(\theta\in\mathcal R),\qquad
  g_p=\begin{cases}\sigma,&(2/p)=1,\\
@@ -199,46 +199,46 @@ Call a prime $p$ admissible if $p>H$, $p\nmid2q$, and $\chi(p)=-1$. Euler’s cr
 \end{equation}$$ This is the Frobenius relation in the ring $\mathcal R$.
 
 **Lemma 7**. *For every admissible prime $p$, $$\begin{equation}
-\label{eq:divisibility}
+\tag{5.3}
  \Delta\in p^{E_p}\mathcal R,
  \qquad E_p=\sum_{\alpha\in\mathcal P}\left\lfloor\frac{\alpha_1}{p}\right\rfloor.
 \end{equation}$$*
 
-*Proof.* Let $j=2$ or $3$ according as $g_p=\sigma$ or $\sigma\tau$. For a retained index $\alpha$, write $\alpha_1=pk+r$ with $0\le r<p$. In (eq:rows), replace the first factor by $$\theta_n^r\bigl(\theta_n^p-g_p(\theta_n)\bigr)^k$$ and leave the other two factors unchanged. Denote the resulting row by $\widetilde R_\alpha$. Expansion yields the exact identity $$\begin{equation}
-\label{eq:replacement}
+*Proof.* Let $j=2$ or $3$ according as $g_p=\sigma$ or $\sigma\tau$. For a retained index $\alpha$, write $\alpha_1=pk+r$ with $0\le r<p$. In (4.2), replace the first factor by $$\theta_n^r\bigl(\theta_n^p-g_p(\theta_n)\bigr)^k$$ and leave the other two factors unchanged. Denote the resulting row by $\widetilde R_\alpha$. Expansion yields the exact identity $$\begin{equation}
+\tag{5.4}
  \widetilde R_\alpha
  =R_\alpha+\sum_{m=1}^k(-1)^m\binom{k}{m}
                        R_{\alpha-pm e_1+me_j},
 \end{equation}$$ where $e_1,e_2,e_3$ are the standard coordinate vectors. Every row on the right after $R_\alpha$ has smaller weight, since its weight is $w(\alpha)-m(p-H)$.
 
 By the greedy selection rule, every earlier row lies in the $K$-span of the earlier retained rows. Thus the matrix of replacement rows equals $L$ times the matrix of retained rows, where $L$ is lower triangular over $K$ with diagonal entries $1$. In particular, $$\begin{equation}
-\label{eq:det-preserved}
+\tag{5.5}
  \det(\widetilde R_\alpha)_{\alpha\in\mathcal P}=\Delta.
-\end{equation}$$ On the other hand, (eq:frobenius) shows that every entry of $\widetilde R_\alpha$ belongs to $p^k\mathcal R$. Dividing its entries by $p^k$ leaves a matrix over $\mathcal R$. Factoring these powers from (eq:det-preserved) proves (eq:divisibility). The equality of determinants is over $K$; the divisibility follows from the replacement entries themselves, so no integrality of $L$ is required. ◻
+\end{equation}$$ On the other hand, (5.2) shows that every entry of $\widetilde R_\alpha$ belongs to $p^k\mathcal R$. Dividing its entries by $p^k$ leaves a matrix over $\mathcal R$. Factoring these powers from (5.5) proves (5.3). The equality of determinants is over $K$; the divisibility follows from the replacement entries themselves, so no integrality of $L$ is required. ◻
 
-Taking norms in (eq:divisibility) gives $p^{4E_p}\mid\mathop{\mathrm{N}}(\Delta)$. Since the norm is a nonzero integer, distinct admissible primes may be combined. Therefore $$\begin{align}
+Taking norms in (5.3) gives $p^{4E_p}\mid\mathop{\mathrm{N}}(\Delta)$. Since the norm is a nonzero integer, distinct admissible primes may be combined. Therefore $$\begin{align}
  \frac14\log|\mathop{\mathrm{N}}(\Delta)|
  &\ge\sum_{\substack{p\le U\\p\ \mathrm{admissible}}}E_p\log p\notag\\
  &\ge S_1\sum_{\substack{p\le U\\p\ \mathrm{admissible}}}
                           \frac{\log p}{p}
-       -M\sum_{p\le U}\log p.\label{eq:lower-primes}
+       -M\sum_{p\le U}\log p.\tag{5.6}
 \end{align}$$ The second inequality uses $\lfloor x\rfloor\ge x-1$ in each row. Chebyshev’s bound $\sum_{p\le U}\log p\ll U$ and Lemma 2 now give, when $U\ge3$ and $H\ge2$, $$\begin{equation}
-\label{eq:lower}
+\tag{5.7}
  \frac14\log|\mathop{\mathrm{N}}(\Delta)|
  \ge S_1\left(\log U-C\ell
        -C\frac{\delta(\log U)^2}{\ell}-C_H\right)-CMU.
-\end{equation}$$ The leading term here is $S_1\log U$. In (eq:upper), the corresponding term is $(S_1+S_2)\log N$, and $\log N=\tfrac34\log U$. The weight $H$ makes $S_2/S_1$ small enough to preserve this difference.
+\end{equation}$$ The leading term here is $S_1\log U$. In (5.1), the corresponding term is $(S_1+S_2)\log N$, and $\log N=\tfrac34\log U$. The weight $H$ makes $S_2/S_1$ small enough to preserve this difference.
 
 ## Completion of the proof
 
 Suppose Theorem 1 is false. Then there is a sequence of primitive nonprincipal real characters and real zeros with $$\begin{equation}
-\label{eq:sequence}
+\tag{6.1}
  q\longrightarrow\infty,\qquad
  \delta=(1-\beta)\log q\longrightarrow0.
-\end{equation}$$ To justify $q\to\infty$, there are only finitely many characters of bounded conductor, and for each of them $L(1,\chi)\ne0$. Analyticity therefore prevents zeros from accumulating at $1$. Passing to a subsequence gives (eq:sequence). In particular $\mathbb Q(\sqrt d)\ne\mathbb Q(\sqrt2)$ for all sufficiently large $q$, so the field construction applies.
+\end{equation}$$ To justify $q\to\infty$, there are only finitely many characters of bounded conductor, and for each of them $L(1,\chi)\ne0$. Analyticity therefore prevents zeros from accumulating at $1$. Passing to a subsequence gives (6.1). In particular $\mathbb Q(\sqrt d)\ne\mathbb Q(\sqrt2)$ for all sufficiently large $q$, so the field construction applies.
 
-Fix $H\ge2$ for the moment. Combining (eq:upper) and (eq:lower), then dividing by $S_1\log U$, yields $$\begin{equation}
-\label{eq:master}
+Fix $H\ge2$ for the moment. Combining (5.1) and (5.7), then dividing by $S_1\log U$, yields $$\begin{equation}
+\tag{6.2}
 \begin{split}
  1\le{}&\frac34\left(1+\frac{S_2}{S_1}\right)
  +\left(C+\frac12\left(1+\frac{S_2}{S_1}\right)\right)
@@ -249,13 +249,13 @@ Fix $H\ge2$ for the moment. Combining (eq:upper) and (eq:lower), then dividing b
 \end{split}
 \end{equation}$$ The constants denoted by $C$ are absolute. The division is legitimate for all sufficiently large $N$ by Lemma 6.
 
-First choose the integer $H$ so large that $(C_0/c_0)/H\le1/12$. Lemma 6 then makes the first term of (eq:master) at most $13/16$.
+First choose the integer $H$ so large that $(C_0/c_0)/H\le1/12$. Lemma 6 then makes the first term of (6.2) at most $13/16$.
 
-Next choose a fixed real $\gamma>0$ and set $N=\lceil q^\gamma\rceil$. Along (eq:sequence), $$\frac{\log U}{\ell}\longrightarrow\frac{4\gamma}{3}.$$ Take $\gamma$ sufficiently large that the limiting upper bound for the second term of (eq:master) is less than $1/16$. This choice depends only on the absolute constants and the already fixed bound $S_2/S_1\le1/12$.
+Next choose a fixed real $\gamma>0$ and set $N=\lceil q^\gamma\rceil$. Along (6.1), $$\frac{\log U}{\ell}\longrightarrow\frac{4\gamma}{3}.$$ Take $\gamma$ sufficiently large that the limiting upper bound for the second term of (6.2) is less than $1/16$. This choice depends only on the absolute constants and the already fixed bound $S_2/S_1\le1/12$.
 
-Finally let $q\to\infty$ along (eq:sequence). The third term tends to zero because $\gamma$ is fixed and $\delta\to0$. The fourth tends to zero because $H$ is fixed. For the last term, Lemma 6 and $\log M=3\log U$ give $$\frac{MU}{S_1\log U}\ll\frac{H^{-2/3}}{\log U},
+Finally let $q\to\infty$ along (6.1). The third term tends to zero because $\gamma$ is fixed and $\delta\to0$. The fourth tends to zero because $H$ is fixed. For the last term, Lemma 6 and $\log M=3\log U$ give $$\frac{MU}{S_1\log U}\ll\frac{H^{-2/3}}{\log U},
  \qquad
- \frac{M\log M}{S_1\log U}\ll\frac{H^{-2/3}}{U},$$ both tending to zero. The conditions $N\ge H$, $U\ge3$, and the lower bound on $S_1$ all hold eventually. Taking an upper limit in (eq:master) gives $1\le13/16+1/16=7/8$, a contradiction. This proves Theorem 1.
+ \frac{M\log M}{S_1\log U}\ll\frac{H^{-2/3}}{U},$$ both tending to zero. The conditions $N\ge H$, $U\ge3$, and the lower bound on $S_1$ all hold eventually. Taking an upper limit in (6.2) gives $1\le13/16+1/16=7/8$, a contradiction. This proves Theorem 1.
 
 ## References
 

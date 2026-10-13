@@ -30,7 +30,7 @@ The remaining alternatives six and seven are unresolved.[^1] The proof has two p
 This definition permits exceptional unit pairs. It is unchanged by modifying the coloring on a plane Lebesgue null set: by Fubini, the pairs for which either $x$ or $x+u$ belongs to that set have product measure zero. The required bridge to the unrestricted problem is the following equivalence.
 
 **Theorem 1.3** (Transfer of colorability). *For every positive integer $k$, in ZFC, $$\begin{equation}
-\label{eq:source-1}
+\tag{1.1}
   \begin{gathered}
     \text{a proper $k$-coloring of $\mathbb R^2$ exists}
     \\ \Longleftrightarrow \\
@@ -88,7 +88,7 @@ This section and Section 3 establish the probability-law rigidity used in the c
 
 **Definition 2.1**. Identify the plane with $\mathbb C$, and set $$F=\overline{\mathbb Q}\cap\mathbb R,\qquad E=F(i),\qquad
  K=\{u\in E:u\bar u=1\}.$$ We regard $E$ as an additive discrete group and $K$ as a multiplicative discrete group. Let $$D=\widehat{E_{\mathrm{disc}}}$$ be the compact character group of $E$. A point $d\in D$ is a homomorphism from the additive group $E$ to the unit complex group $\mathbb T$. We use additive notation on $D$, so $(d+d')(z)=d(z)d'(z)$. For $a,z\in E$, put $$(ad)(z)=d(az),\qquad \psi_z(d)=d(z).$$ The subgroup of ordinary continuous characters is $$\begin{equation}
-\label{eq:spectral-continuous-characters}
+\tag{2.1}
  C=j(\mathbb R^2),\qquad
  j(\xi)(z)=\exp(i\xi\cdot z),
 \end{equation}$$ where the dot product uses the real coordinates of $z$.
@@ -100,7 +100,7 @@ The map $j$ is continuous and injective. Indeed, a continuous plane character th
 **Definition 2.2**. A $K$-invariant Borel probability measure $\nu$ on $D$ is called *wild* if $\nu(C)=0$. Its Fourier coefficients are denoted by $$f_\nu(z)=\int_D\psi_z(d)\,d\nu(d),\qquad z\in E.$$
 
 **Theorem 2.3** (Rigidity of wild character laws). *Every $K$-invariant probability measure $\nu$ on $D$ with $\nu(C)=0$ is Haar measure. Equivalently, writing $m_D$ for normalized Haar measure, $$\begin{equation}
-\label{eq:source-3}
+\tag{2.2}
  \nu\text{ is wild}\quad\Longrightarrow\quad\nu=m_D.
 \end{equation}$$*
 
@@ -124,13 +124,13 @@ If $aF,bF$ are nonparallel, then $a,b$ form an $F$-basis of $E$. A character con
 Fix a translation-invariant mean $\mathfrak m$ on the bounded functions on the discrete abelian group $F/\mathbb Z$. Such a normalized positive mean exists by amenability of abelian groups; see Bekka et al. (2008, Theorem G.2.1). Because the group is discrete, the mean is defined on every bounded function. Invariant means and the finite-set averaging criterion originate in the work of Neumann (1929) and Følner (1955). The restriction of $\mathfrak m$ to ordinary continuous periodic functions is integration over the usual circle. To check this, every nonconstant ordinary circle character is multiplied by a nontrivial scalar under some translation from $F/\mathbb Z$, and hence has mean zero. Trigonometric-polynomial approximation gives the assertion for all continuous periodic functions.
 
 For a bounded function $h:F\to\mathbb C$ supported in a bounded interval, define $$\begin{equation}
-\label{eq:spectral-invariant-integral}
+\tag{2.3}
  I(h)=\mathfrak m\left(t+\mathbb Z\longmapsto
                          \sum_{k\in\mathbb Z}h(t+k)\right).
 \end{equation}$$ The periodization is well defined and bounded: only a uniformly bounded number of summands can be nonzero. The functional $I$ is positive and translation invariant under $F$. For a continuous compactly supported function $\phi$ on $\mathbb R$, it satisfies $$I(\phi|_F)=\int_\mathbb R\phi(t)\,dt.$$ We also use $I$ to integrate bounded, boundedly supported functions with values in a Hilbert space, in the weak sense. Scalar pairings define a bounded functional on the Hilbert space, and Hilbert-space duality gives the resulting vector. In particular, if $V(t)$ is such a function, then $$\lVert I(V)\rVert\le I\bigl(\lVert V(t)\rVert\bigr).$$ This construction does not impose ordinary real-variable measurability on $V$ or on a Fourier coefficient restricted to $F$.
 
 **Lemma 2.5** (Vanishing line average). *If $\nu$ is wild, then $$\begin{equation}
-\label{eq:source-2}
+\tag{2.4}
  I\bigl(\phi(t)f_\nu(at)\bigr)=0
  \qquad\bigl(a\in E\setminus\{0\},\ \phi\in C_c(\mathbb R)\bigr).
 \end{equation}$$*
@@ -142,19 +142,19 @@ Apply the ordinary Bochner theorem to this continuous positive-definite function
 Now form the weak integral $$V_\phi=I\bigl(\phi(t)T_t1\bigr)\in L^2(\nu).$$ Translation invariance of $I$ gives $$T_sV_\phi-V_\phi
  =I\bigl((\phi(t-s)-\phi(t))T_t1\bigr),$$ and consequently $$\lVert T_sV_\phi-V_\phi\rVert_2
  \le I(|\phi(\cdot-s)-\phi|)
- =\int_\mathbb R|\phi(t-s)-\phi(t)|\,dt\longrightarrow0$$ as $s\in F$ tends to zero. Thus $V_\phi$ is strongly continuous and must be zero by the preceding argument. Pairing with the constant function proves (eq:source-2). ◻
+ =\int_\mathbb R|\phi(t-s)-\phi(t)|\,dt\longrightarrow0$$ as $s\in F$ tends to zero. Thus $V_\phi$ is strongly continuous and must be zero by the preceding argument. Pairing with the constant function proves (2.4). ◻
 
 ### A measurable equivariant center
 
 The subgroup $C$ need not be closed. We will nevertheless choose a canonical representative of a positive-mass $C$-coset when a probability kernel on that coset is available. The following elementary location rule avoids any moment assumption on that kernel.
 
 **Lemma 2.6**. *For every Borel probability measure $\lambda$ on $\mathbb R^2$, the function $$\begin{equation}
-\label{eq:spectral-location-objective}
+\tag{2.5}
  J_\lambda(s)=\int_{\mathbb R^2}
  \left(\sqrt{1+|s-t|^2}-\sqrt{1+|t|^2}\right)\,d\lambda(t)
 \end{equation}$$ has a unique minimizer $L(\lambda)$. The map $\lambda\mapsto L(\lambda)$ is Borel for the usual Borel structure on the space of probability measures. It is equivariant under translations and orthogonal maps.*
 
-*Proof.* The difference in (eq:spectral-location-objective) is bounded in absolute value by $|s|$. The objective is therefore finite without a first-moment assumption. It is Lipschitz in $s$ and strictly convex, because $s\mapsto\sqrt{1+|s-t|^2}$ is strictly convex for every $t$.
+*Proof.* The difference in (2.5) is bounded in absolute value by $|s|$. The objective is therefore finite without a first-moment assumption. It is Lipschitz in $s$ and strictly convex, because $s\mapsto\sqrt{1+|s-t|^2}$ is strictly convex for every $t$.
 
 Choose $R>0$ with $p=\lambda(\overline{B(0,R)})>1/2$. On this ball the integrand is at least $|s|-R-\sqrt{1+R^2}$, and elsewhere it is at least $-|s|$. Hence $$J_\lambda(s)\ge
  (2p-1)|s|-p\bigl(R+\sqrt{1+R^2}\bigr)\longrightarrow\infty.$$ Coercivity and continuity give a minimizer, and strict convexity gives uniqueness.
@@ -170,7 +170,7 @@ We use standard probability spaces and probability-preserving actions of the cou
 We use disintegration in the following precise form. A factor map $\pi:X\to Y$ between standard Borel probability models admits a measurable probability kernel $y\mapsto\mu_y$, concentrated on $\pi^{-1}(y)$ for almost every $y$, such that $\mu=\int\mu_y\,d\nu(y)$. The kernel gives conditional expectations by integration and is unique almost everywhere; see Tao (2008, Theorem 4 and Remark 5). For an equivariant factor map, uniqueness makes the kernel equivariant for each group element. Intersecting the corresponding conull sets makes equivariance simultaneous for the countable group $K$. This is the fiber-measure input to all relative products below.
 
 Consider a tower $(Y_\alpha)_{\alpha\le\theta}$ of factors of an ergodic system $X$, where $\theta$ is a countable ordinal. Start with the trivial factor $Y_0$, and at a limit ordinal take the factor generated by the preceding ones. Require the following approximation property at each successor $Y$ over its predecessor $W$: for every bounded $H$ on $Y$ and every $\varepsilon>0$, there are bounded functions $H_1,\ldots,H_q$ on $Y$ and a finite constant $B$ such that, for every $k\in K$, $$\begin{equation}
-\label{eq:source-4}
+\tag{2.6}
  \left\|U_kH-\sum_{r=1}^q b_r^k H_r\right\|_2<\varepsilon
  \quad\text{for some }b_r^k\in L^\infty(W)
  \text{ with }\|b_r^k\|_\infty\le B.
@@ -178,7 +178,7 @@ Consider a tower $(Y_\alpha)_{\alpha\le\theta}$ of factors of an ergodic system 
 
 **Lemma 2.7** (Relative singularity). *Let $X$ be an ergodic standard probability-preserving $K$-system, and let $d:X\to D$ be an equivariant measurable map with wild law. For every countable tower of factors as above, and every factor $Y$ in that tower, the law $\nu_Y$ of $$d(x)-d(x')$$ for two conditionally independent samples of $X$ over $Y$ satisfies $\nu_Y(C)=0$.*
 
-*Proof.* All relative difference laws in the statement are $K$-invariant, by equivariance of conditional kernels. We use transfinite induction in its universal form: at each ordinal the assertion ranges over *all* ambient ergodic standard systems, equivariant maps with wild law, and towers satisfying (eq:source-4). This allows an earlier induction assertion to be applied below to a new factor system and a new equivariant map.
+*Proof.* All relative difference laws in the statement are $K$-invariant, by equivariance of conditional kernels. We use transfinite induction in its universal form: at each ordinal the assertion ranges over *all* ambient ergodic standard systems, equivariant maps with wild law, and towers satisfying (2.6). This allows an earlier induction assertion to be applied below to a new factor system and a new equivariant map.
 
 At the trivial factor the assertion is Lemma 2.4. Suppose that it holds at every earlier ordinal, and that it fails at a noninitial stage $Y$ of a tower in a system $X$. Write $\kappa_y$ for the conditional law of $d$ over $y\in Y$.
 
@@ -203,38 +203,38 @@ The encoding is a continuous injection of the compact space $\mathbb T^m/S_m$ in
  =\min_{\pi\in S_m}\max_{1\le r\le m}|z_r-z'_{\pi(r)}|.$$ The inverse encoding is uniformly continuous for this metric. Equivariance of $\beta_y$ and $\psi_1(kd)=\psi_k(d)$ show that $U_kH$ encodes the list of phases at $\psi_k$.
 
 Choose $\rho>0$ so small that uniform-circle probability of $\{|z-1|\le5\rho\}$ is less than $1/(16m^2)$. There are an integer $N\ge1$ and a constant $c>0$ with the following property: if a probability $\omega$ on $\mathbb T$ satisfies $$\left|\int z^n\,d\omega(z)\right|<c\qquad(1\le n\le N),$$ then $$\begin{equation}
-\label{eq:spectral-small-arc}
+\tag{2.7}
  \omega\{|z-1|\le4\rho\}<\frac1{4m^2}.
-\end{equation}$$ Indeed, choose a continuous majorant of the smaller arc that takes values in $[0,1]$ and vanishes outside the larger arc. Approximate it uniformly within $1/(64m^2)$ by a real trigonometric polynomial of degree at most $N$. The constant coefficient is within that error of its circle integral. Choose $c$ so that $c$ times the sum of the absolute values of its nonconstant coefficients is less than $1/(32m^2)$. The integral against $\omega$ of the majorant is then less than $1/(8m^2)$, which proves (eq:spectral-small-arc). Negative moments are controlled by the positive ones because $\omega$ is a positive measure.
+\end{equation}$$ Indeed, choose a continuous majorant of the smaller arc that takes values in $[0,1]$ and vanishes outside the larger arc. Approximate it uniformly within $1/(64m^2)$ by a real trigonometric polynomial of degree at most $N$. The constant coefficient is within that error of its circle integral. Choose $c$ so that $c$ times the sum of the absolute values of its nonconstant coefficients is less than $1/(32m^2)$. The integral against $\omega$ of the majorant is then less than $1/(8m^2)$, which proves (2.7). Negative moments are controlled by the positive ones because $\omega$ is a positive measure.
 
 Choose $s>0$ such that two encoding vectors at distance less than $s$ have phase lists matching within $\rho$. Put $\tau=s/100$, and fix $\gamma>0$ such that $$\begin{equation}
-\label{eq:spectral-error-choice}
+\tag{2.8}
  \frac{2\gamma^2}{\tau^2}<10^{-4}.
 \end{equation}$$
 
 ##### Return to an earlier factor.
 
 The rotations of $H$ admit vector-valued approximations of the form $$\begin{equation}
-\label{eq:spectral-vector-approximation}
+\tag{2.9}
  \left\|U_kH-\sum_{r=1}^q b_r^k H_r\right\|_2<\gamma,
  \qquad \|b_r^k\|_\infty\le B,
-\end{equation}$$ with fixed bounded $\mathbb C^m$-valued functions $H_r$ on $Y$ and coefficients over some earlier factor $W$. At a successor this follows from (eq:source-4), applied to the finitely many coordinates and combining their data. At a limit, first approximate $H$ in $L^2$, within $\gamma/2$, by bounded functions on an earlier successor factor. Such approximation follows from generation of the limit factor, for example by conditional expectations. Its error remains unchanged under rotation. Then use (eq:source-4) at that successor, with its predecessor as $W$, to obtain a further error less than $\gamma/2$. Combining coordinates gives (eq:spectral-vector-approximation). The coordinate count, number of basis functions, their uniform bounds, and $B$ are all fixed independently of $k$.
+\end{equation}$$ with fixed bounded $\mathbb C^m$-valued functions $H_r$ on $Y$ and coefficients over some earlier factor $W$. At a successor this follows from (2.6), applied to the finitely many coordinates and combining their data. At a limit, first approximate $H$ in $L^2$, within $\gamma/2$, by bounded functions on an earlier successor factor. Such approximation follows from generation of the limit factor, for example by conditional expectations. Its error remains unchanged under rotation. Then use (2.6) at that successor, with its predecessor as $W$, to obtain a further error less than $\gamma/2$. Combining coordinates gives (2.9). The coordinate count, number of basis functions, their uniform bounds, and $B$ are all fixed independently of $k$.
 
 The earlier tower through $W$ is also a tower of factors of $Z$: $Z$ contains $Y$ and hence every predecessor of $Y$. All measures, actions, limit joins, and approximation properties of those factors are unchanged. The universal earlier induction assertion therefore applies in $Z$ to the map $b$. It says that the difference law of $b$ over $W$ is wild. Its Fourier coefficient at $a\in E$ is $$\begin{equation}
-\label{eq:spectral-conditional-coefficient}
+\tag{2.10}
  p(a)=\left\|\mathbb E_Z(\psi_a(b)\mid W)\right\|_2^2\ge0,
 \end{equation}$$ by conditional independence. Lemma 2.5 applies to this coefficient function.
 
 ##### Fixing the number of tests before choosing a small parameter.
 
-At any fixed fiber of $W$, the two coefficient arrays for two approximations in (eq:spectral-vector-approximation) belong to a fixed bounded subset of $\mathbb C^{2q}$. Partition this subset into a finite number $L$ of bins so fine that, within one bin, the corresponding approximating functions differ pointwise by at most $\tau$ for each of the two vectors. For example, coordinate diameters less than $$\frac{\tau}{1+\sum_{r=1}^q\|H_r\|_\infty}$$ suffice. The number $L$ is independent of the fiber and of the chosen rotations. Fix an integer $M\ge2$ so large that $$\frac{0.9M}{L}>10m^2.$$ All approximation data have been fixed before this choice.
+At any fixed fiber of $W$, the two coefficient arrays for two approximations in (2.9) belong to a fixed bounded subset of $\mathbb C^{2q}$. Partition this subset into a finite number $L$ of bins so fine that, within one bin, the corresponding approximating functions differ pointwise by at most $\tau$ for each of the two vectors. For example, coordinate diameters less than $$\frac{\tau}{1+\sum_{r=1}^q\|H_r\|_\infty}$$ suffice. The number $L$ is independent of the fiber and of the chosen rotations. Fix an integer $M\ge2$ so large that $$\frac{0.9M}{L}>10m^2.$$ All approximation data have been fixed before this choice.
 
 There is a nonzero $t\in F$ with $|t|<1/M$ for which every value $$p\bigl(n(j-l)t\bigr),\qquad
- 1\le n\le N,\quad 1\le j,l\le M,\quad j\ne l,$$ is as small as we prescribe. To see this, choose a nonnegative $\phi\in C_c((-1/M,1/M))$ with positive integral. Each indicated nonnegative test has zero $\phi$-weighted $I$-integral by (eq:source-2). Their finite sum does too. If that sum were bounded below by a prescribed positive number at every point where $\phi>0$, positivity of $I$ would contradict $I(\phi)>0$. Thus some such point makes their sum, and hence every test, as small as required. Choosing this bound below one also ensures $t\ne0$, since $p(0)=1$.
+ 1\le n\le N,\quad 1\le j,l\le M,\quad j\ne l,$$ is as small as we prescribe. To see this, choose a nonnegative $\phi\in C_c((-1/M,1/M))$ with positive integral. Each indicated nonnegative test has zero $\phi$-weighted $I$-integral by (2.4). Their finite sum does too. If that sum were bounded below by a prescribed positive number at every point where $\phi>0$, positivity of $I$ would contradict $I(\phi)>0$. Thus some such point makes their sum, and hence every test, as small as required. Choosing this bound below one also ensures $t\ne0$, since $p(0)=1$.
 
 Set $x_j=jt$. Choose the prescribed smallness so that Markov’s inequality and a finite union bound give, on a set of $W$-probability greater than $0.99$, all of the bounds $$\left|\mathbb E_Z\bigl(\psi_{n(x_j-x_l)}(b)\mid W=w\bigr)\right|<c
- \qquad(1\le n\le N,\ j<l).$$ More explicitly, the probability of failure of any one bound is at most $p(n(x_j-x_l))/c^2$, by (eq:spectral-conditional-coefficient); there are finitely many bounds. Apply (eq:spectral-small-arc) to the conditional law of $\psi_{x_j-x_l}(b)$. On the same set of fibers, $$\begin{equation}
-\label{eq:source-5}
+ \qquad(1\le n\le N,\ j<l).$$ More explicitly, the probability of failure of any one bound is at most $p(n(x_j-x_l))/c^2$, by (2.10); there are finitely many bounds. Apply (2.7) to the conditional law of $\psi_{x_j-x_l}(b)$. On the same set of fibers, $$\begin{equation}
+\tag{2.11}
  \mathbb P_Z\bigl(
    |\psi_{x_j}(b)-\psi_{x_l}(b)|\le4\rho\mid W=w
                   \bigr)<\frac1{4m^2}
@@ -244,14 +244,14 @@ Set $x_j=jt$. Choose the prescribed smallness so that Markov’s inequality and 
 ##### A common coefficient bin on a good fiber.
 
 Each $|x_j|<1$ is a sum of two elements of $K$. One explicit choice is $$k_j=\frac{x_j}{2}+i\sqrt{1-\frac{x_j^2}{4}},\qquad
- k'_j=\frac{x_j}{2}-i\sqrt{1-\frac{x_j^2}{4}}.$$ The square roots belong to $F$, and $x_j=k_j+k'_j$. Apply the fixed approximations (eq:spectral-vector-approximation) to $U_{k_j}H$ and $U_{k'_j}H$ for every $j$.
+ k'_j=\frac{x_j}{2}-i\sqrt{1-\frac{x_j^2}{4}}.$$ The square roots belong to $F$, and $x_j=k_j+k'_j$. Apply the fixed approximations (2.9) to $U_{k_j}H$ and $U_{k'_j}H$ for every $j$.
 
-Let $e_j^+(w),e_j^-(w)$ be the respective conditional squared $L^2$ errors on the fiber of $Y$ over $w$. Their global integrals are less than $\gamma^2$. If at least $0.1M$ indices fail to have both conditional $L^2$ errors less than $\tau$, then $$\frac1M\sum_{j=1}^M(e_j^+(w)+e_j^-(w))\ge0.1\tau^2.$$ Markov’s inequality and (eq:spectral-error-choice) bound the probability of this event by $$\frac{20\gamma^2}{\tau^2}<0.001.$$ In particular, on a set of fibers of probability greater than $0.99$, more than $0.9M$ indices have both conditional errors less than $\tau$.
+Let $e_j^+(w),e_j^-(w)$ be the respective conditional squared $L^2$ errors on the fiber of $Y$ over $w$. Their global integrals are less than $\gamma^2$. If at least $0.1M$ indices fail to have both conditional $L^2$ errors less than $\tau$, then $$\frac1M\sum_{j=1}^M(e_j^+(w)+e_j^-(w))\ge0.1\tau^2.$$ Markov’s inequality and (2.8) bound the probability of this event by $$\frac{20\gamma^2}{\tau^2}<0.001.$$ In particular, on a set of fibers of probability greater than $0.99$, more than $0.9M$ indices have both conditional errors less than $\tau$.
 
-Fix a fiber $w$ satisfying this property and all of (eq:source-5), and avoid the null sets for the finitely many identities and bounds used here. Bin the two coefficient arrays at this $w$ as above. There is a subset $J$ of the good indices in a single bin with $|J|>10m^2$. Fix $j_0\in J$. For either type of encoding the conditional $L^2$ distance from index $j$ to index $j_0$ is at most $3\tau$: the two approximation errors each cost less than $\tau$, and the approximants differ pointwise by at most $\tau$.
+Fix a fiber $w$ satisfying this property and all of (2.11), and avoid the null sets for the finitely many identities and bounds used here. Bin the two coefficient arrays at this $w$ as above. There is a subset $J$ of the good indices in a single bin with $|J|>10m^2$. Fix $j_0\in J$. For either type of encoding the conditional $L^2$ distance from index $j$ to index $j_0$ is at most $3\tau$: the two approximation errors each cost less than $\tau$, and the approximants differ pointwise by at most $\tau$.
 
 For a uniform $j\in J$ and a conditional point $y$ over $w$, the probability that either encoding distance is at least $s$ is at most $$\frac{18\tau^2}{s^2}=0.0018.$$ Thus, with probability greater than $0.95$, both phase lists for index $j$ match their respective representative lists for $j_0$ within $\rho$. Let $q(y)$ be the fraction of indices in $J$ for which both matches hold. We have $$\begin{equation}
-\label{eq:spectral-matching-fraction}
+\tag{2.12}
  \mathbb E(q\mid W=w)>0.95.
 \end{equation}$$
 
@@ -261,9 +261,9 @@ Fix such a fiber point $y$ and any point $b_0$ in the support of $\beta_y$. For 
 
 Assign each of the $q(y)|J|$ matching indices to one such product. By the sum-of-squares inequality, the number of ordered pairs assigned to the same product is at least $q(y)^2|J|^2/m^2$. Removing diagonal pairs discards at most $|J|$ pairs. Hence, for independent uniform $j,l\in J$, $$\mathbb P_{j,l}\bigl(j\ne l,\ 
  |\psi_{x_j}(b_0)-\psi_{x_l}(b_0)|\le4\rho\bigr)
- \ge\frac{q(y)^2}{m^2}-\frac1{|J|}.$$ This bound holds for every possible center $b_0$, so it can be integrated first over $\beta_y$ and then over the conditional law of $y$ given $w$. Jensen’s inequality and (eq:spectral-matching-fraction) give a lower bound strictly greater than $$\frac{0.95^2}{m^2}-\frac1{|J|}
+ \ge\frac{q(y)^2}{m^2}-\frac1{|J|}.$$ This bound holds for every possible center $b_0$, so it can be integrated first over $\beta_y$ and then over the conditional law of $y$ given $w$. Jensen’s inequality and (2.12) give a lower bound strictly greater than $$\frac{0.95^2}{m^2}-\frac1{|J|}
  >\frac{0.95^2-0.1}{m^2}
- >\frac1{4m^2}.$$ But (eq:source-5) bounds the conditional collision probability for every distinct pair in the original set of $M$ indices by $1/(4m^2)$. Averaging those bounds over the selected $J$ gives an upper bound smaller than $1/(4m^2)$. Choosing $J$ after fixing $w$ is harmless because all those pair bounds hold simultaneously at that fiber. This contradiction completes the induction step, and hence the universal transfinite induction. ◻
+ >\frac1{4m^2}.$$ But (2.11) bounds the conditional collision probability for every distinct pair in the original set of $M$ indices by $1/(4m^2)$. Averaging those bounds over the selected $J$ gives an upper bound smaller than $1/(4m^2)$. Choosing $J$ after fixing $w$ is harmless because all those pair bounds hold simultaneously at that fiber. This contradiction completes the induction step, and hence the universal transfinite induction. ◻
 
 ## Compact factors, multiple averages, and Haar rigidity
 
@@ -274,17 +274,17 @@ Throughout this section a relative product uses conditional independence over th
 
 ### A compact-factor tower
 
-The following construction is the compact/relative-weak-mixing part of the Furstenberg–Zimmer structure theorem and relative dichotomy (Furstenberg 1977; Zimmer 1976b, 1976a; Jamneshan 2023, 2026). The passage from invariant Hilbert–Schmidt kernels to finite-rank modules, and the boundedness of their bases in the ergodic case, appear in Furstenberg (1977, Lemmas 6.6 and 7.2). We give the fiberwise proof because the particular approximation property (eq:source-4) is needed here.
+The following construction is the compact/relative-weak-mixing part of the Furstenberg–Zimmer structure theorem and relative dichotomy (Furstenberg 1977; Zimmer 1976b, 1976a; Jamneshan 2023, 2026). The passage from invariant Hilbert–Schmidt kernels to finite-rank modules, and the boundedness of their bases in the ergodic case, appear in Furstenberg (1977, Lemmas 6.6 and 7.2). We give the fiberwise proof because the particular approximation property (2.6) is needed here.
 
 **Lemma 3.1** (Compact tower). *Let $X$ be an ergodic standard probability-preserving $K$-system. There is a countable ordinal $\eta$ and an increasing tower of factors $(Y_\alpha)_{\alpha\leq\eta}$ with the following properties:*
 
 1.  *$Y_0$ is the trivial factor, and each limit stage is the factor generated by its predecessors;*
 
-2.  *every successor extension $Y_{\alpha+1}\to Y_\alpha$ satisfies (eq:source-4);*
+2.  *every successor extension $Y_{\alpha+1}\to Y_\alpha$ satisfies (2.6);*
 
 3.  *for $Y=Y_\eta$, the system $X\times_YX$ is ergodic.*
 
-*Proof.* We first construct a strict extension $Y'$ of any factor $Y$ whose relative product is not ergodic. An invariant kernel on that product will provide an equivariant finite-rank space on almost every fiber. Its bounded basis generates $Y'$ and supplies the approximation property (eq:source-4). We then iterate this enlargement.
+*Proof.* We first construct a strict extension $Y'$ of any factor $Y$ whose relative product is not ergodic. An invariant kernel on that product will provide an equivariant finite-rank space on almost every fiber. Its bounded basis generates $Y'$ and supplies the approximation property (2.6). We then iterate this enlargement.
 
 Suppose that $Y$ has already been constructed and that $X\times_YX$ is not ergodic. Choose a bounded invariant nonconstant kernel $L(x,x')$ on this relative product. Its conditional expectations onto either coordinate are invariant functions on $X$, so both are the constant $\int L\,d(\mu\mathbin{\times_Y}\mu)$. Subtract this constant. The result is still nonzero, and its two coordinate conditional expectations are zero.
 
@@ -294,11 +294,11 @@ For almost every $y$, let $A_y$ be the integral operator with kernel $L$ on the 
 Here are the measurability details for this construction. Work with standard Borel models and fiber-supported conditional probabilities. Choose a countable algebra generating the Borel structure of $X$ and its simple functions with complex-rational coefficients. Their restrictions are dense in each $L^2(\mu_y)$. Conditional integration against the bounded kernel represents the images of these sections under $A_y$ and $A_y^*$ by measurable functions on $X$; the same holds for polynomials in $A_y^*A_y$. On their common bounded spectral interval, there are uniformly bounded polynomials converging pointwise to $\mathbf 1_{(\delta,\infty)}$: first choose bounded continuous approximations to this indicator, with value zero at $\delta$, and then uniformly approximate them by polynomials. Spectral calculus gives convergence in each fiber Hilbert norm. Domination gives convergence in global $L^2(X)$ as well. A subsequence converges in fiber norm for almost every $y$, identifying the global limit with the projected section. Thus the projected dense sections are measurable. Their fiber scalar products make rank and linear-independence tests measurable. Selecting the first available independent section at each step and applying fiberwise Gram–Schmidt gives measurable fiber-orthonormal sections $e_1,\ldots,e_d$ spanning the range of $Q_y$.
 
 For each $k\in K$ the sections $U_ke_i$ differ from the $e_i$ by a unitary coefficient matrix over $Y$. Consequently $\sum_{i=1}^d|e_i(x)|^2$ is invariant on $X$. Its integral is $d$, so ergodicity gives $$\begin{equation}
-\label{eq:rigidity-bounded-basis}
+\tag{3.1}
  \sum_{i=1}^d|e_i(x)|^2=d\quad\text{almost everywhere}.
 \end{equation}$$ In particular, the sections are bounded. Adjoin them to $Y$ to generate an invariant factor $Y'$. This is a strict extension: every $e_i$ has conditional mean zero over $Y$ and has unit fiber norm, and hence is not $Y$-measurable.
 
-Bounded polynomials in the $e_i,\bar e_i$, with bounded coefficients from $Y$, are dense in $L^2(Y')$. Indeed these functions form a bounded unital conjugation-closed algebra generating $Y'$, and approximation first by functions of finitely many generators and then by polynomials gives the density. A rotation of a fixed polynomial expands into finitely many fixed bounded monomials in the $e_i,\bar e_i$. Its coefficients are functions on $Y$, uniformly bounded independently of the rotation: the original coefficient sup norms are preserved, and the entries of the unitary matrices have modulus at most one. For a bounded $H$ on $Y'$, choose one polynomial approximation in $L^2$. Rotating preserves its approximation error. The finite expansion of the rotated polynomial proves (eq:source-4) for $Y'\to Y$.
+Bounded polynomials in the $e_i,\bar e_i$, with bounded coefficients from $Y$, are dense in $L^2(Y')$. Indeed these functions form a bounded unital conjugation-closed algebra generating $Y'$, and approximation first by functions of finitely many generators and then by polynomials gives the density. A rotation of a fixed polynomial expands into finitely many fixed bounded monomials in the $e_i,\bar e_i$. Its coefficients are functions on $Y$, uniformly bounded independently of the rotation: the original coefficient sup norms are preserved, and the entries of the unitary matrices have modulus at most one. For a bounded $H$ on $Y'$, choose one polynomial approximation in $L^2$. Rotating preserves its approximation error. The finite expansion of the rotated polynomial proves (2.6) for $Y'\to Y$.
 
 Starting at the trivial factor, repeat this step whenever the relative product is not ergodic, and take generated joins at limit ordinals. Every countable stage is a standard factor modulo null sets. The process stops at a countable ordinal. Otherwise, at every successor through all countable ordinals, choose a unit vector in the new factor orthogonal to the preceding factor. Nestedness makes these vectors pairwise orthogonal. There would be $\aleph_1$ such vectors, contradicting separability of $L^2(X)$. At the stopping stage the relative product is ergodic by the stopping rule. ◻
 
@@ -312,29 +312,29 @@ We use the Hilbert-space mean ergodic theorem in its every-Følner form. For a u
 The proof below uses the relative weak-mixing induction for multiple averages, with a Hilbert-space van der Corput estimate; compare Furstenberg (1977). We give the argument for the power maps of $K$ along every Følner sequence, since both features are used below.
 
 **Lemma 3.2** (Conditional multiple averages). *Suppose that $X$ is an ergodic standard probability-preserving $K$-system, that $Y$ is an invariant factor, and that $X\times_YX$ is ergodic. Let $P=\mathbb E(\,\cdot\mid Y)$. For pairwise distinct integers $n_1,\ldots,n_l$ and bounded functions $v_1,\ldots,v_l$ on $X$, $$\begin{equation}
-\label{eq:source-6}
+\tag{3.2}
  \operatorname{Avg}_{u\in\Phi_N}
  \left\|P\left(\prod_{j=1}^lU_{u^{n_j}}v_j\right)
        -\prod_{j=1}^lU_{u^{n_j}}Pv_j\right\|_2^2
  \longrightarrow0
 \end{equation}$$ along every Følner sequence $(\Phi_N)$ in $K$. The pair criterion used in the proof is, for bounded $v,w$ and $d\ne0$, $$\begin{equation}
-\label{eq:source-7}
+\tag{3.3}
  \operatorname{Avg}_{u\in\Phi_N}
  \lVert P(vU_{u^d}w)-Pv\,U_{u^d}Pw\rVert_2^2\longrightarrow0.
 \end{equation}$$*
 
-*Proof.* Put $\mathcal R=X\times_YX$ and denote its conditional expectation onto $Y$ by $P_{\mathcal R}$. First prove (eq:source-7). With $v_0=v-Pv$ and $w_0=w-Pw$, its difference equals $P(v_0U_{u^d}w_0)$. Conditional independence gives $$\begin{equation}
-\label{eq:rigidity-pair-tensor}
+*Proof.* Put $\mathcal R=X\times_YX$ and denote its conditional expectation onto $Y$ by $P_{\mathcal R}$. First prove (3.3). With $v_0=v-Pv$ and $w_0=w-Pw$, its difference equals $P(v_0U_{u^d}w_0)$. Conditional independence gives $$\begin{equation}
+\tag{3.4}
  \lVert P(v_0U_{u^d}w_0)\rVert_2^2
  =\int_{\mathcal R}(v_0\otimes\bar v_0)
        U_{u^d}(w_0\otimes\bar w_0)\,d\mu_{\mathcal R}.
 \end{equation}$$ The integral of $w_0\otimes\bar w_0$ is $\int_Y|Pw_0|^2\,d\nu=0$. The mean ergodic theorem on the ergodic system $\mathcal R$, applied through the surjective power map, makes the average of the right side tend to zero. This proves the pair criterion along every Følner sequence.
 
 The same criterion holds on $\mathcal R$ over $Y$. To see this first for simple tensors $v=a_1\otimes a_2$ and $w=b_1\otimes b_2$, use $$P_{\mathcal R}(vU_{u^d}w)
- =P(a_1U_{u^d}b_1)P(a_2U_{u^d}b_2).$$ Subtract the analogous product of the factor parts. The difference is a sum of two terms, each containing one error from (eq:source-7) on $X$ and one uniformly bounded factor. Its averaged squared $L^2(Y)$ norm therefore tends to zero. Linearity gives the result for finite sums of tensors. Such sums can approximate any bounded function on $\mathcal R$ in $L^2$, with a common sup bound: use conditional expectations onto finite partitions generated by rectangles in the two coordinates. Approximate one of $v,w$ at a time; conditional-expectation contraction and measure preservation bound the error uniformly in $u$. The pair criterion follows for all bounded functions on $\mathcal R$.
+ =P(a_1U_{u^d}b_1)P(a_2U_{u^d}b_2).$$ Subtract the analogous product of the factor parts. The difference is a sum of two terms, each containing one error from (3.3) on $X$ and one uniformly bounded factor. Its averaged squared $L^2(Y)$ norm therefore tends to zero. Linearity gives the result for finite sums of tensors. Such sums can approximate any bounded function on $\mathcal R$ in $L^2$, with a common sup bound: use conditional expectations onto finite partitions generated by rectangles in the two coordinates. Approximate one of $v,w$ at a time; conditional-expectation contraction and measure preservation bound the error uniformly in $u$. The pair criterion follows for all bounded functions on $\mathcal R$.
 
 We next prove the following vector assertion on either $X$ or $\mathcal R$. On either system use $P$ for its expectation onto $Y$. If $n_1,\ldots,n_l$ are distinct *nonzero* integers, the $v_j$ are bounded, and $Pv_{j_*}=0$ for some $j_*$, then $$\begin{equation}
-\label{eq:rigidity-centered-vector}
+\tag{3.5}
  \left\|\operatorname{Avg}_{u\in\Phi_N}
           \prod_{j=1}^lU_{u^{n_j}}v_j\right\|_2\longrightarrow0
 \end{equation}$$ for every Følner sequence. Both systems are ergodic and satisfy the pair criterion, so the same induction proves the assertion on each. By rescaling we may assume $\lVert v_j\rVert_\infty\leq1$.
@@ -344,9 +344,9 @@ For $l=1$, the assertion is mean ergodicity and $\int v_1=\int Pv_1=0$. Suppose 
  \int V_{hu}\overline{V_u}\,d\mu
  &=\int\prod_{j=1}^lU_{u^{n_j}}F_{j,h}\,d\mu\notag\\
  &=\int F_{l,h}\prod_{j<l}U_{u^{n_j-n_l}}F_{j,h}\,d\mu.
- \label{eq:rigidity-vdc-correlation}
+ \tag{3.6}
 \end{align}$$ The $l-1$ shifted exponents in the last expression are distinct and nonzero. Expand each shifted $F_{j,h}$ into $PF_{j,h}$ and its centered remainder. The induction hypothesis makes the average of every term with a centered shifted factor tend to zero in $L^2$; multiplying by the fixed bounded $F_{l,h}$ does not affect that conclusion after integration. The remaining shifted product is $Y$-measurable, so the unshifted $F_{l,h}$ may also be replaced by $PF_{l,h}$ inside its integral. All the conditional factors are bounded by one. Hence, for every Følner sequence, $$\begin{equation}
-\label{eq:rigidity-correlation-bound}
+\tag{3.7}
  \limsup_{N\to\infty}
  \left|\operatorname{Avg}_{u\in\Phi_N}
        \int V_{hu}\overline{V_u}\,d\mu\right|
@@ -355,7 +355,7 @@ For $l=1$, the assertion is mean ergodicity and $\int v_1=\int Pv_1=0$. Suppose 
 \end{equation}$$ This bound also covers $j_*=l$: bound that unshifted factor in $L^1$, then in $L^2$, and the others in $L^\infty$. If $j_*<l$, use the same bound on its shifted factor and measure preservation. The centered factor is therefore not lost by moving one exponent to zero.
 
 The pair criterion with $v=\bar v_{j_*}$, $w=v_{j_*}$, and $d=n_{j_*}\ne0$ shows that averages of $a(h)^2$ tend to zero along *every* Følner sequence; the same is true of $a(h)$ by Cauchy–Schwarz. If $(\Psi_M)$ is any chosen Følner sequence, it follows that $$\begin{equation}
-\label{eq:rigidity-uniform-translates}
+\tag{3.8}
  \sup_{t\in K}\operatorname{Avg}_{h\in\Psi_M}a(ht)
  \longrightarrow0.
 \end{equation}$$ Indeed, a subsequence of bad translates would itself be a Følner sequence, because $K$ is abelian, contradicting the every-sequence vanishing just proved.
@@ -368,60 +368,60 @@ To finish the induction, fix a finite nonempty shift set $S\subset K$. The diffe
  \left|\operatorname{Avg}_{u\in\Phi_N}
           \int V_{hu}\overline{V_{h'u}}\,d\mu\right|\\
  &\leq\frac1{|S|^2}\sum_{h,h'\in S}a(h(h')^{-1}).
-\end{align*}$$ For the second inequality substitute $u'=h'u$ and apply (eq:rigidity-correlation-bound) along the translated Følner sequence. Now take $S=\Psi_M$. The last expression is bounded by $\sup_t\operatorname{Avg}_{h\in\Psi_M}a(ht)$ and tends to zero by (eq:rigidity-uniform-translates). The limits are taken first in $N$ for fixed finite $S$, and only then in $M$. This proves (eq:rigidity-centered-vector).
+\end{align*}$$ For the second inequality substitute $u'=h'u$ and apply (3.7) along the translated Følner sequence. Now take $S=\Psi_M$. The last expression is bounded by $\sup_t\operatorname{Avg}_{h\in\Psi_M}a(ht)$ and tends to zero by (3.8). The limits are taken first in $N$ for fixed finite $S$, and only then in $M$. This proves (3.5).
 
-Finally, expand the product in (eq:source-6) by writing each $v_j=Pv_j+(v_j-Pv_j)$. Consider a term $W_u=\prod_jU_{u^{n_j}}w_j$ with at least one $Pw_j=0$. Conditional independence gives $$\begin{equation}
-\label{eq:rigidity-multiple-tensor}
+Finally, expand the product in (3.2) by writing each $v_j=Pv_j+(v_j-Pv_j)$. Consider a term $W_u=\prod_jU_{u^{n_j}}w_j$ with at least one $Pw_j=0$. Conditional independence gives $$\begin{equation}
+\tag{3.9}
  \lVert PW_u\rVert_2^2
  =\int_{\mathcal R}\prod_j
        U_{u^{n_j}}(w_j\otimes\bar w_j)\,d\mu_{\mathcal R}.
-\end{equation}$$ The corresponding tensor is centered over $Y$, since $P_{\mathcal R}(w_j\otimes\bar w_j)=|Pw_j|^2$. In this scalar integral we may add one common integer to all exponents, by measure preservation, and choose it so that none of them is zero. Apply (eq:rigidity-centered-vector) on $\mathcal R$. The average of (eq:rigidity-multiple-tensor) tends to zero. There are finitely many centered terms, so the squared norm of their sum has vanishing average as well. The term with no centered factor is already $Y$-measurable and equals the product of projections in (eq:source-6). This proves the lemma. ◻
+\end{equation}$$ The corresponding tensor is centered over $Y$, since $P_{\mathcal R}(w_j\otimes\bar w_j)=|Pw_j|^2$. In this scalar integral we may add one common integer to all exponents, by measure preservation, and choose it so that none of them is zero. Apply (3.5) on $\mathcal R$. The average of (3.9) tends to zero. There are finitely many centered terms, so the squared norm of their sum has vanishing average as well. The term with no centered factor is already $Y$-measurable and equals the product of projections in (3.2). This proves the lemma. ◻
 
 ### The radial difference inequality
 
 Fix an ergodic wild $K$-invariant probability $\mu$ on $D$. Apply Lemma 3.1 to the system $(D,\mu)$, and let $Y$ be its terminal factor. Lemma 2.7, applied to the identity map of $D$, says that the conditional difference law $\nu_Y$ over this factor is wild. Set $$\begin{equation}
-\label{eq:rigidity-projected-characters}
+\tag{3.10}
  P=\mathbb E(\,\cdot\mid Y),\qquad
  g_z=P\psi_z,\qquad m(z)=\lVert g_z\rVert_2^2\quad(z\in E).
 \end{equation}$$ Conditional independence identifies its Fourier transform as $$\begin{equation}
-\label{eq:rigidity-difference-fourier}
+\tag{3.11}
  \int_D\psi_z\,d\nu_Y=m(z).
-\end{equation}$$ In particular $0\leq m(z)\leq1$, $m(0)=1$, and Lemma 2.5 gives (eq:source-2) with $f_{\nu_Y}=m$.
+\end{equation}$$ In particular $0\leq m(z)\leq1$, $m(0)=1$, and Lemma 2.5 gives (2.4) with $f_{\nu_Y}=m$.
 
 Conditional expectation commutes with the action, so $g_{uz}=U_ug_z$ and $m(uz)=m(z)$ for $u\in K$. Equal nonzero moduli in $E$ differ by an element of $K$. Thus $m$ is radial; its radii lie in $F_{\geq0}$, and we write $m(r)$ on that set. Also $g_{-z}=\bar g_z$ and $\lVert g_z\rVert_\infty\leq1$.
 
 **Lemma 3.3** (Radial identities). *For $w(r)=-\log m(r)\in[0,\infty]$, with $-\log0=\infty$, one has $$\begin{equation}
-\label{eq:source-8}
+\tag{3.12}
  w(|A-B|)\leq w(A)+w(B)\qquad(A,B\in F_{\geq0}).
 \end{equation}$$ For every $r\in F$ with $r>0$ and every Følner sequence in $K$, $$\begin{equation}
-\label{eq:source-9}
+\tag{3.13}
  \operatorname{Avg}_{u\in\Phi_N}m(2r|\operatorname{Re}u|)
  \longrightarrow m(r)^2.
 \end{equation}$$*
 
 *Proof.* First take $A,B>0$ and put $L=\sqrt{AB}\in F$. For every $u\in K$, $$\begin{equation}
-\label{eq:rigidity-equal-moduli}
+\tag{3.14}
  |A-Bu^2|^2
  =(A-B)^2+4AB(\operatorname{Im}u)^2
  =|-L+(A-B)u+Lu^2|^2.
 \end{equation}$$ For the second equality, factor the last expression as $u((A-B)+L(u-u^{-1}))$ and use $u-u^{-1}=2i\operatorname{Im}u$.
 
-On the first side, $\psi_{A-Bu^2}=\psi_AU_{u^2}\psi_{-B}$. By (eq:source-6) the projection of this product may be replaced, in averaged squared $L^2$ error, by $g_AU_{u^2}g_{-B}$. Both have $L^2$ norm at most one, so their squared norms differ in averaged absolute value by a quantity tending to zero. Indeed the absolute difference is at most twice their $L^2$ distance, and then Cauchy–Schwarz applies to the finite average. Ergodicity of $Y$ and surjectivity of the square map now give $$\begin{align}
+On the first side, $\psi_{A-Bu^2}=\psi_AU_{u^2}\psi_{-B}$. By (3.2) the projection of this product may be replaced, in averaged squared $L^2$ error, by $g_AU_{u^2}g_{-B}$. Both have $L^2$ norm at most one, so their squared norms differ in averaged absolute value by a quantity tending to zero. Indeed the absolute difference is at most twice their $L^2$ distance, and then Cauchy–Schwarz applies to the finite average. Ergodicity of $Y$ and surjectivity of the square map now give $$\begin{align}
  \operatorname{Avg}_{u\in\Phi_N}m(A-Bu^2)
  &\longrightarrow
  \left(\int_Y|g_A|^2\,d\nu\right)
  \left(\int_Y|g_{-B}|^2\,d\nu\right)\notag\\
  &=m(A)m(B).
- \label{eq:rigidity-two-term-limit}
+ \tag{3.15}
 \end{align}$$ Here the intervening squared norm is $\int_Y|g_A|^2U_{u^2}|g_{-B}|^2\,d\nu$.
 
-On the second side of (eq:rigidity-equal-moduli), apply (eq:source-6) with exponents $0,1,2$. The projected character is approximated by $$g_{-L}\,U_ug_{A-B}\,U_{u^2}g_L.$$ Its squared norm is at most $\lVert g_{A-B}\rVert_2^2=m(|A-B|)$, since the two outside factors have modulus at most one. Equal moduli give equal $m$-values, so (eq:rigidity-two-term-limit) implies $m(A)m(B)\leq m(|A-B|)$. Taking negative logarithms proves (eq:source-8), including zero values of $m$ with the stated extended-real convention. If $A=0$ or $B=0$, the inequality is an identity because $w(0)=0$.
+On the second side of (3.14), apply (3.2) with exponents $0,1,2$. The projected character is approximated by $$g_{-L}\,U_ug_{A-B}\,U_{u^2}g_L.$$ Its squared norm is at most $\lVert g_{A-B}\rVert_2^2=m(|A-B|)$, since the two outside factors have modulus at most one. Equal moduli give equal $m$-values, so (3.15) implies $m(A)m(B)\leq m(|A-B|)$. Taking negative logarithms proves (3.12), including zero values of $m$ with the stated extended-real convention. If $A=0$ or $B=0$, the inequality is an identity because $w(0)=0$.
 
-For (eq:source-9), use $ru+r\bar u=2r\operatorname{Re}u$ and the distinct exponents $1,-1$. The same approximation reduces the average to squared norms of $U_ug_r\,U_{u^{-1}}g_r$. Those squared norms equal $$\int_Y|g_r|^2U_{u^{-2}}|g_r|^2\,d\nu.$$ Mean ergodicity on $Y$ through the surjective power map $u\mapsto u^{-2}$ gives the limit $m(r)^2$. Radiality replaces the real argument by its absolute value, proving (eq:source-9). ◻
+For (3.13), use $ru+r\bar u=2r\operatorname{Re}u$ and the distinct exponents $1,-1$. The same approximation reduces the average to squared norms of $U_ug_r\,U_{u^{-1}}g_r$. Those squared norms equal $$\int_Y|g_r|^2U_{u^{-2}}|g_r|^2\,d\nu.$$ Mean ergodicity on $Y$ through the surjective power map $u\mapsto u^{-2}$ gives the limit $m(r)^2$. Radiality replaces the real argument by its absolute value, proving (3.13). ◻
 
 ### General-position rotations and bounded residues
 
-The remaining task is to show that $m(r)=0$ for every positive $r\in F$. Assuming instead that $m(r)>0$, we will obtain a uniform lower bound $m(s)\ge c>0$ on some interval $(0,\varepsilon)\cap F$, contradicting the vanishing line average. By (eq:source-9), a suitable set of rotations with bounded $w(2r|\operatorname{Re}u|)$ has finitely many translates covering $K$. The first lemma below provides rotations in rational general position from which the proof will extract bases. The second controls the resulting integer combinations of nonnegative lengths under a fixed cap, using only the difference inequality (eq:source-8).
+The remaining task is to show that $m(r)=0$ for every positive $r\in F$. Assuming instead that $m(r)>0$, we will obtain a uniform lower bound $m(s)\ge c>0$ on some interval $(0,\varepsilon)\cap F$, contradicting the vanishing line average. By (3.13), a suitable set of rotations with bounded $w(2r|\operatorname{Re}u|)$ has finitely many translates covering $K$. The first lemma below provides rotations in rational general position from which the proof will extract bases. The second controls the resulting integer combinations of nonnegative lengths under a fixed cap, using only the difference inequality (3.12).
 
 **Lemma 3.4** (General position in a number field). *Let $N_0\subset F$ be a number field, let $N=N_0(i)$, and let $d_0=[N:\mathbb Q]$. There are arbitrarily large finite sets $S\subset K\cap N$ such that every $d_0$ distinct elements of $S$ form a $\mathbb Q$-basis of $N$.*
 
@@ -431,7 +431,7 @@ No nonzero $\mathbb Q$-linear functional $\ell:N\to\mathbb Q$ vanishes on all $u
 
 For any proper rational subspace of $N$, choose a nonzero rational linear functional annihilating it. Its value on $u(t)$ has a nonzero numerator polynomial in the rational coordinates of $t$. A finite union of such proper subspaces therefore cannot contain all $u(t)$: the product of their nonzero numerator polynomials is nonzero, and a nonzero polynomial over the infinite field $\mathbb Q$ cannot vanish on all of rational affine space. Inductively choose each new element outside the spans of all subsets of at most $d_0-1$ earlier elements. Every subset of at most $d_0$ chosen elements remains independent. This constructs finite sets of every required size. ◻
 
-**Lemma 3.5** (Addition under a cap). *Let $w:F_{\geq0}\to[0,\infty]$ satisfy $w(0)=0$ and (eq:source-8). Let $p_1,\ldots,p_q\in F_{\geq0}$ with $p=\max_jp_j>0$ and $w(p_j)\leq H<\infty$. If $$z=\sum_{j=1}^q a_jp_j\in[0,p),\qquad
+**Lemma 3.5** (Addition under a cap). *Let $w:F_{\geq0}\to[0,\infty]$ satisfy $w(0)=0$ and (3.12). Let $p_1,\ldots,p_q\in F_{\geq0}$ with $p=\max_jp_j>0$ and $w(p_j)\leq H<\infty$. If $$z=\sum_{j=1}^q a_jp_j\in[0,p),\qquad
  a_j\in\mathbb Z,\qquad\sum_j|a_j|\leq M,$$ then $w(z)\leq4MH$.*
 
 *Proof.* Keep every partial sum as its residue in $[0,p)$. A positive input $p_j<p$ has cost at most $H$, while the input $p$ has zero residue. The inverse of a nonzero residue $b$ is $p-b$ and satisfies $w(p-b)\leq w(p)+w(b)$. Thus each signed input $\pm p_j$ has a residue of cost at most $2H$; the zero cases cause no difficulty.
@@ -446,35 +446,35 @@ For two current residues $a,b\in[0,p)$, if $a+b<p$, use three successive applica
 
 ### Completion of the rigidity theorem
 
-*Proof of Theorem 2.3.* First let $\mu$ be ergodic and wild, and use the factor and radial function constructed above. Suppose that $m(r)>0$ for some $r\in F$, $r>0$. Choose $H>0$ finite so that $e^{-H}<m(r)^2$. The set $$A_0=\{u\in K:w(2r|\operatorname{Re}u|)\leq H\}$$ is syndetic. Indeed, if no finite translates cover $K$, then for every finite $S\subset K$ some translate $Sv$ avoids $A_0$. Apply this to the sets of a Følner sequence and choose the avoiding translate separately for each set. Those translates still form a Følner sequence, whereas all their averaged $m$-values are at most $e^{-H}$. This contradicts (eq:source-9). Hence there are $q_1,\ldots,q_J\in K$ such that $$\begin{equation}
-\label{eq:rigidity-syndetic-cover}
+*Proof of Theorem 2.3.* First let $\mu$ be ergodic and wild, and use the factor and radial function constructed above. Suppose that $m(r)>0$ for some $r\in F$, $r>0$. Choose $H>0$ finite so that $e^{-H}<m(r)^2$. The set $$A_0=\{u\in K:w(2r|\operatorname{Re}u|)\leq H\}$$ is syndetic. Indeed, if no finite translates cover $K$, then for every finite $S\subset K$ some translate $Sv$ avoids $A_0$. Apply this to the sets of a Følner sequence and choose the avoiding translate separately for each set. Those translates still form a Følner sequence, whereas all their averaged $m$-values are at most $e^{-H}$. This contradicts (3.13). Hence there are $q_1,\ldots,q_J\in K$ such that $$\begin{equation}
+\tag{3.16}
  \text{for every }v\in K\text{, some }q_jv\text{ belongs to }A_0.
 \end{equation}$$
 
-Choose a number field $N_0\subset F$ containing the real and imaginary parts of every $q_j$, and put $N=N_0(i)$ and $d_0=[N:\mathbb Q]$. Lemma 3.4 supplies a finite $S\subset K\cap N$ of size greater than $J(d_0-1)$ in rational linear general position. For each $v\in K$, apply (eq:rigidity-syndetic-cover) to all the points $sv$, $s\in S$. Pigeonhole gives an index $j$ and $d_0$ elements $s$ for which $q_jsv\in A_0$. Their coefficients $k=q_js$ form a $\mathbb Q$-basis of $N$, since multiplication by $q_j$ is an invertible $\mathbb Q$-linear map. Call such a basis a good selection for $v$.
+Choose a number field $N_0\subset F$ containing the real and imaginary parts of every $q_j$, and put $N=N_0(i)$ and $d_0=[N:\mathbb Q]$. Lemma 3.4 supplies a finite $S\subset K\cap N$ of size greater than $J(d_0-1)$ in rational linear general position. For each $v\in K$, apply (3.16) to all the points $sv$, $s\in S$. Pigeonhole gives an index $j$ and $d_0$ elements $s$ for which $q_jsv\in A_0$. Their coefficients $k=q_js$ form a $\mathbb Q$-basis of $N$, since multiplication by $q_j$ is an invertible $\mathbb Q$-linear map. Call such a basis a good selection for $v$.
 
 There are only finitely many possible selections. Clearing the rational denominators in the basis expression of $1$, choose one positive integer $D_0$ such that, for each possible selection $\mathcal T$, $$\begin{equation}
-\label{eq:rigidity-integer-selection}
+\tag{3.17}
  D_0\,1=\sum_{k\in\mathcal T}a_k k,
  \qquad a_k\in\mathbb Z,\qquad
  \sum_{k\in\mathcal T}|a_k|\leq M_0,
 \end{equation}$$ where the finite bound $M_0$ is common to all selections. There is also a common $c_0>0$ such that $$\begin{equation}
-\label{eq:rigidity-selection-transversality}
+\tag{3.18}
  \max_{k\in\mathcal T}|\operatorname{Re}(kv)|\geq c_0
  \qquad(v\in\mathbb T)
 \end{equation}$$ for every selection. To prove this, for a fixed selection the maximum is a continuous function of the ordinary unit direction $v$. It never vanishes: the rational span of the selection contains $1$ and $i$, so vanishing would imply both $\operatorname{Re}v=0$ and $\operatorname{Re}(iv)=0$. Take a positive minimum on the compact unit circle and then the minimum over the finitely many selections. We may and do take $c_0\leq1$.
 
 Now let $v\in K$ satisfy $|\operatorname{Re}v|<c_0/D_0$, and choose a good selection $\mathcal T$ for it. Its nonnegative numbers $$p_k=2r|\operatorname{Re}(kv)|\quad(k\in\mathcal T),
- \qquad p=\max_{k\in\mathcal T}p_k$$ satisfy $w(p_k)\leq H$ and $p\geq2rc_0$. Taking real parts of (eq:rigidity-integer-selection), and inserting the signs of the real parts and then the overall sign, expresses $$z=2rD_0|\operatorname{Re}v|<p$$ as an integer combination of the $p_k$ with coefficient length at most $M_0$. All these numbers lie in $F$. Lemma 3.5 therefore gives $$\begin{equation}
-\label{eq:rigidity-small-radius-bound}
+ \qquad p=\max_{k\in\mathcal T}p_k$$ satisfy $w(p_k)\leq H$ and $p\geq2rc_0$. Taking real parts of (3.17), and inserting the signs of the real parts and then the overall sign, expresses $$z=2rD_0|\operatorname{Re}v|<p$$ as an integer combination of the $p_k$ with coefficient length at most $M_0$. All these numbers lie in $F$. Lemma 3.5 therefore gives $$\begin{equation}
+\tag{3.19}
  w(2rD_0|\operatorname{Re}v|)\leq4M_0H
  \qquad\left(v\in K,\ |\operatorname{Re}v|<c_0/D_0\right).
 \end{equation}$$
 
-Every $t\in F\cap[-1,1]$ is the real part of an element of $K$, namely $t+i\sqrt{1-t^2}$. For every $s\in F\cap(0,2rc_0)$ apply (eq:rigidity-small-radius-bound) with $t=s/(2rD_0)$. It follows that $$m(s)\geq e^{-4M_0H}>0
+Every $t\in F\cap[-1,1]$ is the real part of an element of $K$, namely $t+i\sqrt{1-t^2}$. For every $s\in F\cap(0,2rc_0)$ apply (3.19) with $t=s/(2rD_0)$. It follows that $$m(s)\geq e^{-4M_0H}>0
  \qquad\bigl(s\in F\cap(0,2rc_0)\bigr).$$ Choose a nonnegative $\phi\in C_c(\mathbb R)$ supported in this open interval with positive integral. Positivity of the functional $I$ and its agreement with Lebesgue integration on continuous test functions give $$I\bigl(\phi(t)m(t)\bigr)
  \geq e^{-4M_0H}I(\phi)
- =e^{-4M_0H}\int_\mathbb R\phi(t)\,dt>0.$$ This contradicts (eq:source-2) for the wild law $\nu_Y$, with $a=1$, in view of (eq:rigidity-difference-fourier). This step uses no ordinary-measure measurability of the radial function: $I$ is defined on all the bounded, boundedly supported functions in question.
+ =e^{-4M_0H}\int_\mathbb R\phi(t)\,dt>0.$$ This contradicts (2.4) for the wild law $\nu_Y$, with $a=1$, in view of (3.11). This step uses no ordinary-measure measurability of the radial function: $I$ is defined on all the bounded, boundedly supported functions in question.
 
 Thus $m(r)=0$ for every positive $r\in F$, and radiality gives $m(z)=0$ for all nonzero $z\in E$. Consequently $$\left|\int_D\psi_z\,d\mu\right|
  =\left|\int_Yg_z\,d\nu\right|
@@ -525,11 +525,11 @@ Finally, for $u\in K$, covariance gives $$\lVert T_zV_uv-V_uv\rVert_2
 *Proof.* *An invariant law on proper labelings.* Restrict the given coloring to $E$. In the compact metrizable space $\{1,\ldots,k\}^E$, let $\Omega$ be the closed set of proper labelings of the unit-distance graph on $E$. It is nonempty. The countable group $E\rtimes K$ acts continuously on $\Omega$; translations and rotations preserve the unit-edge constraints. This group is amenable, being an extension of two abelian groups (Bekka et al. 2008, Theorem G.2.1 and Proposition G.2.2(ii)). The Følner criterion (Bekka et al. 2008, Theorem G.5.1), applied to successive finite subsets of this countable group, gives a finite-set Følner sequence. Averages of a point mass over a finite-set Følner sequence have a weakly convergent subsequence, and every limit is invariant. This gives an invariant Borel probability $\mu$ on $\Omega$.
 
 Let $f_i$ be the indicator that the origin has label $i$. Choose the translation convention so $T_zf_i$ is the indicator of label $i$ at $z$. The rotations about the origin fix each $f_i$, and properness gives $$\begin{equation}
-\label{eq:palettes-proper-correlation}
+\tag{4.1}
  \int_\Omega f_i\,T_uf_i\,d\mu=0
  \qquad (u\in K,\ 1\le i\le k).
-\end{equation}$$ *The continuous factor and zero correlations.* Use Lemma 4.1 to write $$p_i=\mathbb E(f_i\mid\mathcal F_c),\qquad b_i=f_i-p_i.$$ Then $0\le p_i\le1$ and $\sum_i p_i=1$. Both $p_i$ and $b_i$ are rotation-fixed. The scalar translation spectral measure of $b_i$ is $K$-invariant: covariance gives equality of its Fourier coefficients at $z$ and $uz$, and Fourier uniqueness gives invariance of the measure. It gives $C$ measure zero, by the spectral-subspace assertion of the lemma. If it is nonzero, normalize it and apply Theorem 2.3. The scalar spectral measure is therefore a multiple of Haar measure, including the zero multiple. It follows that $$\langle b_i,T_zb_i\rangle=0\qquad(z\in E\setminus\{0\}).$$ The subspace $\mathcal H_c$ and its orthogonal complement are translation invariant, so both cross terms in (eq:palettes-proper-correlation) vanish. Consequently $$\int_\Omega p_i\,T_up_i\,d\mu=0\qquad(u\in K).$$ The algebraic unit directions are dense in the usual unit circle, as is seen already from the rational tangent-half-angle parametrization. Strong continuity of the extended operators therefore gives this identity for every usual unit direction $u\in S^1$. For every $x\in\mathbb R^2$, unitarity and the group law then give $$\begin{equation}
-\label{eq:palettes-field-correlation}
+\end{equation}$$ *The continuous factor and zero correlations.* Use Lemma 4.1 to write $$p_i=\mathbb E(f_i\mid\mathcal F_c),\qquad b_i=f_i-p_i.$$ Then $0\le p_i\le1$ and $\sum_i p_i=1$. Both $p_i$ and $b_i$ are rotation-fixed. The scalar translation spectral measure of $b_i$ is $K$-invariant: covariance gives equality of its Fourier coefficients at $z$ and $uz$, and Fourier uniqueness gives invariance of the measure. It gives $C$ measure zero, by the spectral-subspace assertion of the lemma. If it is nonzero, normalize it and apply Theorem 2.3. The scalar spectral measure is therefore a multiple of Haar measure, including the zero multiple. It follows that $$\langle b_i,T_zb_i\rangle=0\qquad(z\in E\setminus\{0\}).$$ The subspace $\mathcal H_c$ and its orthogonal complement are translation invariant, so both cross terms in (4.1) vanish. Consequently $$\int_\Omega p_i\,T_up_i\,d\mu=0\qquad(u\in K).$$ The algebraic unit directions are dense in the usual unit circle, as is seen already from the rational tangent-half-angle parametrization. Strong continuity of the extended operators therefore gives this identity for every usual unit direction $u\in S^1$. For every $x\in\mathbb R^2$, unitarity and the group law then give $$\begin{equation}
+\tag{4.2}
  \int_\Omega (T_xp_i)(T_{x+u}p_i)\,d\mu
  =\langle T_xp_i,T_xT_up_i\rangle
  =\langle p_i,T_up_i\rangle=0 .
@@ -538,7 +538,7 @@ Let $f_i$ be the indicator that the origin has label $i$. Choose the translation
 *A measurable sample.* The continuous map $x\mapsto T_xp_i$ takes values in the separable space $L^2(\mu)$. On a bounded spatial domain, approximate it by finite-valued simple maps in the $L^2(\mu)$ norm, choosing the integrals of their squared approximation errors to be summable. Choose measurable representatives for their finitely many values. The resulting jointly measurable functions converge in the product $L^2$ space. A subsequence converges in $L^2(\mu)$ for almost every $x$, so its product-space limit represents $T_xp_i$ at almost every $x$. Applying this on a countable exhaustion, or on its disjoint measurable annuli, gives a jointly measurable field $H_i(x,\omega)$ on $\mathbb R^2\times\Omega$, correct as an $L^2(\mu)$ representative for almost every $x$. Since the probability model is standard, Borel versions may be used. Taking real parts and clamping each $H_i$ to $[0,1]$ preserves this representation property and makes all the fields everywhere nonnegative.
 
 There is a plane-null set $N$ outside which all these representations are correct. For almost every $x$, their sum is one for $\mu$-almost every $\omega$. Moreover, on every bounded spatial domain, $$\int\!\int_{S^1}
-   \bigl(\mathbf 1_N(x)+\mathbf 1_N(x+u)\bigr)\,d\sigma(u)\,dx=0.$$ The assertion about $x+u$ follows by translation invariance of Lebesgue measure for each fixed $u$, followed by Fubini. Thus (eq:palettes-field-correlation) applies to the chosen representatives for almost every pair $(x,u)$. Tonelli gives, for every positive integer $m$, $$\int_\Omega\sum_{i=1}^k
+   \bigl(\mathbf 1_N(x)+\mathbf 1_N(x+u)\bigr)\,d\sigma(u)\,dx=0.$$ The assertion about $x+u$ follows by translation invariance of Lebesgue measure for each fixed $u$, followed by Fubini. Thus (4.2) applies to the chosen representatives for almost every pair $(x,u)$. Tonelli gives, for every positive integer $m$, $$\int_\Omega\sum_{i=1}^k
        \int_{B(0,m)}\int_{S^1}
        H_i(x,\omega)H_i(x+u,\omega)\,d\sigma(u)\,dx\,d\mu(\omega)=0.$$ Choose one sample $\omega$ for which all the inner integrals vanish, and for which $\sum_iH_i(x,\omega)=1$ for almost every $x$. There are only countably many conditions here. At every point where the sum is one, assign the least index with positive field; on the remaining plane-null set assign any index. This is measurable. A same-color pair outside that null set would have positive product of the corresponding fields, which occurs only on a $dx\,d\sigma(u)$-null set. Hitting the spatial exceptional set at either endpoint is also a product-null event. This proves the weak measurable condition. ◻
 
@@ -555,7 +555,7 @@ Lebesgue differentiation makes the union of the density-point sets conull. Two d
 
 *Proof of Theorem 1.3.* The forward implication is Proposition 4.2. For the reverse implication, Lemma 4.3 gives a conull set partitioned into strictly unit-independent density-point classes. Any fixed finite configuration of plane points has a translate entirely inside that conull set: the permissible translation vectors are a finite intersection of conull sets. Its unit-distance graph therefore has a proper $k$-coloring.
 
-In the compact product space $\{1,\ldots,k\}^{\mathbb R^2}$, each unit-edge condition is closed and depends on two coordinates. Every finite family of these conditions involves a finite configuration and is satisfiable by the preceding paragraph. The finite intersection property, using product compactness in ZFC, produces a coloring satisfying every unit-edge condition. This is the graph compactness principle of (Bruijn and Erdős 1951, Theorem 1); the argument just given specifies its application to the unrestricted plane. It proves (eq:source-1). ◻
+In the compact product space $\{1,\ldots,k\}^{\mathbb R^2}$, each unit-edge condition is closed and depends on two coordinates. Every finite family of these conditions involves a finite configuration and is satisfiable by the preceding paragraph. The finite intersection property, using product compactness in ZFC, produces a coloring satisfying every unit-edge condition. This is the graph compactness principle of (Bruijn and Erdős 1951, Theorem 1); the argument just given specifies its application to the unrestricted plane. It proves (1.1). ◻
 
 ## Circle palettes and their cardinality
 
@@ -580,7 +580,7 @@ Call $(y,r)$, with $y\in\mathbb R^2$ and $r>0$, a *typical circle sampling* if $
 Here are the compactness and countability facts in this definition. Typical samplings with radius one can be chosen at centers approaching any prescribed $x$. Their bounded vectors have weak-\* convergent subsequences, since $L^1(S)$ is separable and the bounded ball of its dual is weak-\* compact and metrizable. Thus $\mathcal W_x$ is nonempty. Every $b\in\mathcal W_x$ has nonnegative coordinates and $\sum_i b_i=1$ almost everywhere, since these assertions pass to a weak-\* limit by integration against nonnegative test functions.
 
 The family also has the following closure under varying centers: $$\begin{equation}
-\label{eq:palettes-trace-closure}
+\tag{5.1}
  x_n\to x,\quad b^n\in\mathcal W_{x_n},\quad
  b^n\rightharpoonup^* b
  \quad\Longrightarrow\quad b\in\mathcal W_x .
@@ -595,56 +595,56 @@ The null set in the last assertion may depend on the individual trace, and the a
 **Lemma 5.2** (Palette transfer). *The following assertions hold at every fixed center $x$.*
 
 1.  *For almost every independent-angle pair $(e,v)\in S\times S$, $$\begin{equation}
-    \label{eq:source-10}
+    \tag{5.2}
      c(x+e+v)\notin P_x(e)\cup P_x(v).
     \end{equation}$$*
 
 2.  *If $e$ is an angular density-one point of $D_{x,i}=\{e':i\in P_x(e')\}$, then for each $v$ nonparallel to $e$, the spatial density of $A_i$ at $x+e+v$ is zero.*
 
 3.  *Let $z$ be any fixed center, possibly $z=x$. Suppose on an open angular arc, or locally on a union of such arcs, there is a smooth representation $$z+f=x+s(f)+t(f),\qquad s(f),t(f)\in S,$$ with $s(f),t(f)$ nonparallel and $s$ a local diffeomorphism in the angular coordinate. Then almost everywhere on that domain, $$\begin{equation}
-    \label{eq:source-11}
+    \tag{5.3}
      P_z(f)\cap P_x(s(f))=\varnothing.
     \end{equation}$$*
 
 *Each assertion permits an exceptional angular set depending on the fixed centers and on the specified maps.*
 
 *Proof.* Fix $b\in\mathcal W_x$, with realizing samplings $(y_n,r_n)$. For every $n$, the point $y_n+r_ne$ is typical for almost every $e$. The second point $y_n+r_ne+v$ is typical for almost every pair $(e,v)$: in angular coordinates the map $$G_n(e,v)=y_n+r_ne+v$$ has Jacobian of absolute value $r_n\lvert\sin(\arg v-\arg e)\rvert$, which is nonsingular off a product-null set. On countably many smaller coordinate patches away from that set, change of variables pulls back any plane-null set to a product-null set. The two typical points have distance one. Lemma 4.3 therefore gives $$\begin{equation}
-\label{eq:palettes-sample-disjoint}
+\tag{5.4}
  a_i(y_n+r_ne)a_i(y_n+r_ne+v)=0
  \quad\text{for almost every }(e,v).
 \end{equation}$$
 
 We need the following strong convergence for the second factor: $$\begin{equation}
-\label{eq:palettes-strong-circle-sum}
+\tag{5.5}
  a_i(y_n+r_ne+v)\longrightarrow a_i(x+e+v)
  \quad\text{in }L^1(S\times S).
 \end{equation}$$ Here is a change-of-variables proof which also covers arbitrary measurable color boundaries. For $\delta>0$, discard the angular pairs with $\lvert\sin(\arg v-\arg e)\rvert\le\delta$. Their measure tends to zero with $\delta$. On the remaining set, for large $n$, the Jacobian is bounded below by $\delta/2$. The multiplicity of $G_n$ there is at most two: an inverse image of a specified sum amounts to an intersection of the circle of radius $r_n$ with a translated circle of radius one. A coincident-circle case can occur only at the antiparallel, hence discarded, directions. The same assertions hold for $G(e,v)=x+e+v$. Their images lie in one fixed compact plane region for all large $n$.
 
-It follows that on the retained angular set the pushforwards of angular product measure have densities bounded by a constant depending only on $\delta$, uniformly in $n$. Approximate $a_i$ on a compact neighborhood of those images by a continuous function taking values in $[0,1]$, in plane $L^1$. The density bounds control its composition errors uniformly. For the continuous approximant the compositions converge uniformly, since $y_n\to x$ and $r_n\to1$. First making the approximation error small, then letting $n\to\infty$, and finally letting $\delta\downarrow0$, proves (eq:palettes-strong-circle-sum).
+It follows that on the retained angular set the pushforwards of angular product measure have densities bounded by a constant depending only on $\delta$, uniformly in $n$. Approximate $a_i$ on a compact neighborhood of those images by a continuous function taking values in $[0,1]$, in plane $L^1$. The density bounds control its composition errors uniformly. For the continuous approximant the compositions converge uniformly, since $y_n\to x$ and $r_n\to1$. First making the approximation error small, then letting $n\to\infty$, and finally letting $\delta\downarrow0$, proves (5.5).
 
-Set $B_n(e)=a_i(y_n+r_ne)$ and $Q(e,v)=a_i(x+e+v)$. The error in replacing the second factor of (eq:palettes-sample-disjoint) by $Q$, after integration, is at most the $L^1$ error in (eq:palettes-strong-circle-sum). Weak-\* convergence of $B_n$ then applies to the fixed $L^1(S)$ test $\int_S Q(e,v)\,d\sigma(v)$. We obtain $$\int_{S\times S}b_i(e)a_i(x+e+v)\,d\sigma(e)\,d\sigma(v)=0.$$ Both factors are nonnegative, so their product is zero almost everywhere. Taking the countable generating trace families in Definition 5.1, for all five labels, proves exclusion of $P_x(e)$. Interchanging $e,v$ proves exclusion of $P_x(v)$, and gives (eq:source-10). In particular this passage used a strongly convergent factor against a weak-\* limit, not a product of two weak-\* limits.
+Set $B_n(e)=a_i(y_n+r_ne)$ and $Q(e,v)=a_i(x+e+v)$. The error in replacing the second factor of (5.4) by $Q$, after integration, is at most the $L^1$ error in (5.5). Weak-\* convergence of $B_n$ then applies to the fixed $L^1(S)$ test $\int_S Q(e,v)\,d\sigma(v)$. We obtain $$\int_{S\times S}b_i(e)a_i(x+e+v)\,d\sigma(e)\,d\sigma(v)=0.$$ Both factors are nonnegative, so their product is zero almost everywhere. Taking the countable generating trace families in Definition 5.1, for all five labels, proves exclusion of $P_x(e)$. Interchanging $e,v$ proves exclusion of $P_x(v)$, and gives (5.2). In particular this passage used a strongly convergent factor against a weak-\* limit, not a product of two weak-\* limits.
 
-Next fix an angular density-one point $e$ of $D_{x,i}$ and any nonparallel direction $v$. The map $$(e',v')\longmapsto x+e'+v'$$ is a smooth local diffeomorphism near $(e,v)$. Choose real angular coordinates near $e,v$ and an inverse branch on a plane neighborhood of $x+e+v$. For small $h$, the inverse image under this branch of $B(x+e+v,h)$ lies in a product of angular intervals of length $O(h)$ about $e,v$, and its change-of-variables factors are bounded. On this branch, (eq:source-10) implies that a point of $A_i$ has first coordinate outside $D_{x,i}$, apart from a spatial null set. Therefore $$\lvert A_i\cap B(x+e+v,h)\rvert
+Next fix an angular density-one point $e$ of $D_{x,i}$ and any nonparallel direction $v$. The map $$(e',v')\longmapsto x+e'+v'$$ is a smooth local diffeomorphism near $(e,v)$. Choose real angular coordinates near $e,v$ and an inverse branch on a plane neighborhood of $x+e+v$. For small $h$, the inverse image under this branch of $B(x+e+v,h)$ lies in a product of angular intervals of length $O(h)$ about $e,v$, and its change-of-variables factors are bounded. On this branch, (5.2) implies that a point of $A_i$ has first coordinate outside $D_{x,i}$, apart from a spatial null set. Therefore $$\lvert A_i\cap B(x+e+v,h)\rvert
  \le C h\,
        \lvert[e-Ch,e+Ch]\setminus D_{x,i}\rvert
- =o(h^2).$$ The constants can depend on the fixed nonparallel pair. This establishes assertion 2 for each such $v$. It is a two-dimensional neighborhood argument and does not restrict (eq:source-10) to a possibly exceptional single-angle fiber.
+ =o(h^2).$$ The constants can depend on the fixed nonparallel pair. This establishes assertion 2 for each such $v$. It is a two-dimensional neighborhood argument and does not restrict (5.2) to a possibly exceptional single-angle fiber.
 
 Finally fix the centers and representation in assertion 3, and work first on a smaller compact arc on which one inverse branch of the two-angle sum map is available. Let a trace $b\in\mathcal W_z$ be realized by $(z_n,r_n)$. Applying this inverse branch to $z_n+r_nf-x$ gives perturbed representations $$z_n+r_nf=x+s_n(f)+t_n(f),$$ where $s_n,t_n$ are nonparallel and converge to $s,t$ in $C^1$ on the smaller arc. Shrinking the arc if necessary, $s$ is a diffeomorphism with derivative bounded away from zero, and the $s_n$ have uniformly bounded inverse derivatives for large $n$.
 
 For $D_i=D_{x,i}$, these facts imply $$\begin{equation}
-\label{eq:palettes-pullback-continuity}
+\tag{5.6}
  \mathbf 1_{D_i}(s_n(f))\longrightarrow\mathbf 1_{D_i}(s(f))
  \quad\text{in }L^1\text{ on the smaller arc}.
 \end{equation}$$ To verify it, approximate $\mathbf 1_{D_i}$ on a common image interval by a continuous function in angular $L^1$. Change of variables and the inverse-derivative bounds control the errors of composition uniformly for $s_n$ and for $s$. Uniform convergence of $s_n$ handles the continuous approximant.
 
 Almost every $f$ with $s_n(f)\in D_i$ has $s_n(f)$ a density-one point of $D_i$. Indeed the set of exceptions in $D_i$ is angular null by differentiation, and $s_n$ pulls it back to a null set. Assertion 2 makes the density of $A_i$ at $z_n+r_nf$ zero for all these $f$. The sampling $(z_n,r_n)$ is typical on its circle, so for almost every such $f$ its actual color cannot be $i$. Consequently $$a_i(z_n+r_nf)\mathbf 1_{D_i}(s_n(f))=0
- \quad\text{almost everywhere on the smaller arc}.$$ Use (eq:palettes-pullback-continuity) to replace the second factor strongly in $L^1$, and then use weak-\* convergence of the first factor. Nonnegativity gives $$b_i(f)\mathbf 1_{D_i}(s(f))=0
- \quad\text{almost everywhere}.$$ Taking a countable generating family of traces at $z$ and the five labels proves (eq:source-11) on this arc. A countable cover by smaller arcs proves it on the stated domain. ◻
+ \quad\text{almost everywhere on the smaller arc}.$$ Use (5.6) to replace the second factor strongly in $L^1$, and then use weak-\* convergence of the first factor. Nonnegativity gives $$b_i(f)\mathbf 1_{D_i}(s(f))=0
+ \quad\text{almost everywhere}.$$ Taking a countable generating family of traces at $z$ and the five labels proves (5.3) on this arc. A countable cover by smaller arcs proves it on the stated domain. ◻
 
 *Remark 5.3*. In assertion 3 of Lemma 5.2, the second endpoint map $t$ may be constant. Nonparallelness makes the two-dimensional sum map invertible, while the local diffeomorphism requirement on $s$ alone controls preimages of angular null sets. In particular, for any fixed direction $a$, the representation $$(x+a)+f=x+f+a$$ is admissible off $f=\pm a$. The proof applies at every fixed pair of centers and never needs a common exceptional angular set over an uncountable family of centers.
 
 **Corollary 5.4** (Sixty-degree exclusion). *At every fixed center $x$, $$\begin{equation}
-\label{eq:source-12}
+\tag{5.7}
  P_x(f)\cap P_x(Rf)=\varnothing
  \qquad\text{for almost every }f\in S.
 \end{equation}$$*
@@ -654,10 +654,10 @@ Almost every $f$ with $s_n(f)\in D_i$ has $s_n(f)$ a density-one point of $D_i$.
 ### Separation of binary centers
 
 Fix two distinct labels $i_+,i_-$. Call a center $x$ *binary for $\{i_+,i_-\}$* if $$P_x(e)\cap\{i_+,i_-\}\ne\varnothing
- \qquad\text{for almost every }e\in S.$$ The exclusion (eq:source-12) makes this intersection a singleton almost everywhere. Indeed, at almost every $e$, the intersections at $e$ and $Re$ are nonempty disjoint subsets of a two-element set; they must therefore be the two different singletons. Thus there is a unique measurable selection from this pair, up to a null set, and it alternates under $R$. Conversely, the existence of an alternating selection from the pair plainly implies the displayed intersection condition.
+ \qquad\text{for almost every }e\in S.$$ The exclusion (5.7) makes this intersection a singleton almost everywhere. Indeed, at almost every $e$, the intersections at $e$ and $Re$ are nonempty disjoint subsets of a two-element set; they must therefore be the two different singletons. Thus there is a unique measurable selection from this pair, up to a null set, and it alternates under $R$. Conversely, the existence of an alternating selection from the pair plainly implies the displayed intersection condition.
 
 Write this selection as a measurable $2\pi$-periodic sign function $s_x:\mathbb R\to\{-1,1\}$, assigning the signs $+1,-1$ to $i_+,i_-$ respectively and choosing arbitrary values on the exceptional null set. With $\kappa=\pi/3$, it satisfies $$\begin{equation}
-\label{eq:palettes-binary-signs}
+\tag{5.8}
  s_x(t+\kappa)=-s_x(t)
  \qquad\text{for almost every }t.
 \end{equation}$$ In particular, either sign occupies angular measure $\pi$ in a period.
@@ -677,8 +677,8 @@ The functions $\alpha_\pm$ are smooth degree-one lifts: $\alpha_\pm(t+2\pi)=\alp
  \qquad\text{for almost every }t.$$ Both binary selections belong to the same fixed pair of labels. Consequently, $$s_x(\alpha_+(t))=s_x(\alpha_-(t))=-s_y(t)
  \qquad\text{for almost every }t.$$ Since $\alpha_-$ is nonsingular for angular Lebesgue measure, $s_x$ is invariant almost everywhere under $H=\alpha_+\circ\alpha_-^{-1}$.
 
-By (eq:palettes-binary-signs), $s_x$ is also invariant under translation by $2\kappa$. Define $$F(t)=H(t)-2\kappa,\qquad
- F_j(t)=j\kappa+F(t-j\kappa),\qquad 0\le j\le5.$$ Then $s_x\circ F=s_x$ almost everywhere. More generally, (eq:palettes-binary-signs) gives $s_x(t+j\kappa)=(-1)^j s_x(t)$ almost everywhere, and hence $$s_x(F_j(t))
+By (5.8), $s_x$ is also invariant under translation by $2\kappa$. Define $$F(t)=H(t)-2\kappa,\qquad
+ F_j(t)=j\kappa+F(t-j\kappa),\qquad 0\le j\le5.$$ Then $s_x\circ F=s_x$ almost everywhere. More generally, (5.8) gives $s_x(t+j\kappa)=(-1)^j s_x(t)$ almost everywhere, and hence $$s_x(F_j(t))
  =(-1)^j s_x(F(t-j\kappa))
  =(-1)^{2j}s_x(t)
  =s_x(t)$$ almost everywhere. The changes of variables in these identities are legitimate because all the maps involved are diffeomorphisms.
@@ -694,7 +694,7 @@ By (eq:palettes-binary-signs), $s_x$ is also invariant under translation by $2\k
 
 For the composition, put $$a_\pm(t)=-\sin t\mp\frac1{\sqrt3}\cos t.$$ Then $$\alpha_-^{-1}(t)
    =t+\kappa-d a_-(t+\kappa)+O_{C^2}(d^2),$$ and therefore $$\begin{equation}
-\label{eq:palettes-binary-map-expansion}
+\tag{5.9}
  \begin{split}
  F(t)
  &=t+d\bigl(a_+(t+\kappa)-a_-(t+\kappa)\bigr)
@@ -704,7 +704,7 @@ For the composition, put $$a_\pm(t)=-\sin t\mp\frac1{\sqrt3}\cos t.$$ Then $$\al
  \end{split}
 \end{equation}$$ Thus $$F_j(t)=t+\frac{2d}{\sqrt3}
              \sin(t-j\kappa-\pi/6)+O_{C^2}(d^2).$$ Among six phases spaced by $\pi/3$, the maximum sine and the maximum cosine are each at least $\sqrt3/2$. Absorbing the quadratic remainders, we obtain absolute constants $c_0,C_0,d_1>0$, with $d_1<1/2$, such that whenever $0<d<d_1$, for every $t$, $$\begin{equation}
-\label{eq:palettes-binary-control}
+\tag{5.10}
  \begin{split}
  \max_{0\le j\le5}(F_j(t)-t)&\ge c_0d,\\
  \max_{0\le j\le5}F_j'(t)&\ge1+c_0d,\\
@@ -727,7 +727,7 @@ Let $G=F_{j_{N-1}}\circ\cdots\circ F_{j_0}$. For each elementary map, $$|(\log F
  \le2C_0d\sum_{r=0}^{N-1}\ell_r.$$ The geometric growth bounds the sum independently of $N$: $$\sum_{r=0}^{N-1}\ell_r
  \le\ell_N\sum_{q=1}^{N}\lambda^{-q}
  \le\frac{\ell_N}{\lambda-1}.$$ Consequently, $$\begin{equation}
-\label{eq:palettes-binary-distortion}
+\tag{5.11}
  \operatorname{osc}_{I_0}\log G'
  \le\frac{4C_0(1+C_0d)L}{c_0}
  \le\frac{6C_0L}{c_0}.
@@ -744,23 +744,23 @@ Since $A$ has positive measure, choose a Lebesgue density point of $A$ and a seq
  \le |J\mathbin{\triangle}J_n|+|J_n\setminus A|
  \longrightarrow0.$$ We have obtained an interval of fixed positive length on which $A$ is conull.
 
-*Extending a conull interval.* Suppose $A$ is conull on $[a,b]$, with $b-a\ge L$. By the first inequality in (eq:palettes-binary-control), choose $j$ so that $$F_j(b)\ge b+c_0d.$$ The image $F_j([a,b])$ is also conull in $A$. Moreover, $$F_j(a)\le a+C_0d<a+L\le b.$$ Thus this image overlaps $[a,b]$, and their union contains $[a,F_j(b)]$, on which $A$ is conull. Its right endpoint has advanced by at least $c_0d$. This argument concerns geometric endpoints only; no membership in $A$ is asserted at either endpoint.
+*Extending a conull interval.* Suppose $A$ is conull on $[a,b]$, with $b-a\ge L$. By the first inequality in (5.10), choose $j$ so that $$F_j(b)\ge b+c_0d.$$ The image $F_j([a,b])$ is also conull in $A$. Moreover, $$F_j(a)\le a+C_0d<a+L\le b.$$ Thus this image overlaps $[a,b]$, and their union contains $[a,F_j(b)]$, on which $A$ is conull. Its right endpoint has advanced by at least $c_0d$. This argument concerns geometric endpoints only; no membership in $A$ is asserted at either endpoint.
 
-Repeat, retaining the left endpoint $a$. After finitely many steps the conull interval has length at least $2\pi$. Periodicity then forces $A$ to have full measure in a period, contrary to the measure $\pi$ forced by (eq:palettes-binary-signs). This contradiction excludes $0<|y-x|<\delta_*$ and proves the lemma. ◻
+Repeat, retaining the left endpoint $a$. After finitely many steps the conull interval has length at least $2\pi$. Periodicity then forces $A$ to have full measure in a period, contrary to the measure $\pi$ forced by (5.8). This contradiction excludes $0<|y-x|<\delta_*$ and proves the lemma. ◻
 
 ### At most two labels in an angular palette
 
 **Proposition 5.6** (Palette cardinality). *For every center $x\in\mathbb R^2$, $$\begin{equation}
-\label{eq:source-13}
+\tag{5.12}
  1\le\lvert P_x(e)\rvert\le2
  \qquad\text{for almost every }e\in S.
 \end{equation}$$ The angular exceptional set may depend on $x$.*
 
 *Proof.* Nonemptiness follows from any one trace in $\mathcal W_x$, whose coordinates are nonnegative and sum to one. Suppose the upper bound fails on a positive-measure set of angles. There are only finitely many triples of labels, so some fixed triple $\mathcal A\subset\{1,\ldots,5\}$ is contained in $P_x(e)$ on a positive-measure angular set $B$.
 
-By (eq:source-10) and Fubini, for almost every $e\in B$, the actual coloring on the circle $$v\longmapsto x+e+v$$ uses only the complementary pair $\{1,\ldots,5\}\setminus\mathcal A$ almost everywhere. For almost every such $e$, this exact radius-one circle sampling is also typical. Indeed the map $(e,v)\mapsto x+e+v$ is nonsingular off a product-null set, so the inverse image of the plane-null set of atypical points is product-null; Fubini then gives the asserted slices.
+By (5.2) and Fubini, for almost every $e\in B$, the actual coloring on the circle $$v\longmapsto x+e+v$$ uses only the complementary pair $\{1,\ldots,5\}\setminus\mathcal A$ almost everywhere. For almost every such $e$, this exact radius-one circle sampling is also typical. Indeed the map $(e,v)\mapsto x+e+v$ is nonsingular off a product-null set, so the inverse image of the plane-null set of atypical points is product-null; Fubini then gives the asserted slices.
 
-For each of these $e$, the actual sampling at center $x+e$, radius exactly one, is itself a trace in $\mathcal W_{x+e}$, using a constant sequence. Its coordinates sum to one and are supported in the complementary pair. Hence the maximal palette at $x+e$ intersects that pair almost everywhere. By (eq:source-12), it has a unique member of the pair almost everywhere, alternating at an $R$-step. Thus $x+e$ is binary for that same fixed pair, even if other traces add further labels to the maximal palette.
+For each of these $e$, the actual sampling at center $x+e$, radius exactly one, is itself a trace in $\mathcal W_{x+e}$, using a constant sequence. Its coordinates sum to one and are supported in the complementary pair. Hence the maximal palette at $x+e$ intersects that pair almost everywhere. By (5.7), it has a unique member of the pair almost everywhere, alternating at an $R$-step. Thus $x+e$ is binary for that same fixed pair, even if other traces add further labels to the maximal palette.
 
 The good angles still have positive measure, so they give infinitely many distinct binary centers on the compact circle $x+S$. Lemma 5.5 makes these centers uniformly separated. A uniformly separated subset of a compact metric space is finite, by a finite cover with sufficiently small balls. This contradiction proves the upper bound. ◻
 
@@ -776,7 +776,7 @@ For distinct $i,j\in\mathcal I$, a bounded ball $B\subset\mathbb R^2$, and $h\in
 **Definition 6.1** (Transition graph). For $x\in\mathbb R^2$, let $\Gamma_x$ be the simple graph on $\mathcal I$ in which $ij$ is an edge precisely when, for every ball $B$ centered at $x$ with positive finite radius, $$\begin{equation}
  \limsup_{\substack{h\to0\\h\ne0}}
        \frac{D_{ij}(B,h)}{|h|}>0.
- \label{eq:source-14}
+ \tag{6.1}
 \end{equation}$$
 
 For each fixed pair $ij$, its edge-presence locus is closed. Indeed, a ball centered at a limit of points of that locus contains a smaller ball centered at one of those points, and $D_{ij}$ is monotone in its ball argument. Moreover, $$ij\in\Gamma_x\quad\Longrightarrow\quad x\in H_i\cap H_j.$$ To check this in any neighborhood of $x$, use a smaller ball and then choose $h$ small enough that both endpoints of every transition under consideration remain in the neighborhood. A positive-area transition set gives positive area of each endpoint color there; translation preserves area.
@@ -785,25 +785,25 @@ For each fixed pair $ij$, its edge-presence locus is closed. Indeed, a ball cent
  P_x(e)\not\subset\{i,j\}
  \quad\text{for almost every }e\in S,
  \qquad ij\in\Gamma_x.
- \label{eq:source-15}
+ \tag{6.2}
 \end{equation}$$*
 
 *Proof.* Write $$\mathcal Sg(q)=\int_S g(q+e)\,d\sigma(e).$$ The estimate we need, for every fixed bounded ball $B$ and every label $s$, is $$\begin{equation}
  \bigl\|\mathcal S\bigl(a_s-a_s(\,\cdot+h)\bigr)
        \bigr\|_{L^2(B)}=o\bigl(\sqrt{|h|}\bigr)
  \qquad(h\to0).
- \label{eq:source-16}
-\end{equation}$$ Here and in (eq:source-14), the vector $h$ may approach zero in any direction.
+ \tag{6.3}
+\end{equation}$$ Here and in (6.1), the vector $h$ may approach zero in any direction.
 
 Choose a boundedly supported $g\in L^2(\mathbb R^2)$ agreeing with $a_s$ on a ball containing $B+S+h$ for all sufficiently small $h$, as well as $B+S$. The Fourier transform of normalized circle measure satisfies $$|\widehat\sigma(\xi)|\le C(1+|\xi|)^{-1/2}.$$ For completeness, after rotating coordinates the relevant integral is a constant multiple of $\int_0^{2\pi}\exp(ir\cos t)\,dt$, where $r$ is proportional to $|\xi|$. For $r\ge1$, removing the arcs on which $|\sin t|\le r^{-1/2}$ costs $O(r^{-1/2})$. On each remaining interval, integration by parts using the derivative $-ir\sin t$ gives endpoint terms $O(r^{-1/2})$, while the integral of $|\cos t|/(r\sin^2t)$ is also $O(r^{-1/2})$. The bound for $r\le1$ is immediate.
 
 By Plancherel, the square of the global $L^2$ norm of $\mathcal S(g-g(\,\cdot+h))$, divided by $|h|$, is bounded by the integral of $|\widehat g(\xi)|^2$ times $$\frac{C}{1+|\xi|}
-       \frac{\min\{C|h|^2|\xi|^2,4\}}{|h|}.$$ This multiplier is uniformly bounded: split at $|\xi|=|h|^{-1}$. For each fixed $\xi$ it tends to zero as $h\to0$. Dominated convergence therefore proves (eq:source-16); the cutoff is fixed before $h$ tends to zero.
+       \frac{\min\{C|h|^2|\xi|^2,4\}}{|h|}.$$ This multiplier is uniformly bounded: split at $|\xi|=|h|^{-1}$. For each fixed $\xi$ it tends to zero as $h\to0$. Dominated convergence therefore proves (6.3); the cutoff is fixed before $h$ tends to zero.
 
 For a fixed displacement $h$, almost every root $q$ has both $q,q+h$ typical, and both exact unit-circle samplings centered at these points typical on their circles. At a transition from color $s$ to color $t$, the first circle avoids $s$ and the second avoids $t$, by properness of the coloring on typical points. Thus the mass of color $t$ on the first circle equals $\mathcal S(a_t-a_t(\,\cdot+h))(q)$. For a transition between $i$ and $j$ in either order, the first-circle mass of these two colors together is consequently bounded by $$\bigl|\mathcal S(a_i-a_i(\,\cdot+h))(q)\bigr|
  +\bigl|\mathcal S(a_j-a_j(\,\cdot+h))(q)\bigr|.$$
 
-Fix a ball $B$ about $x$. Since $ij\in\Gamma_x$, there is a constant $c_B>0$ and arbitrarily small nonzero $h$ for which the transition set in $B$ has area at least $c_B|h|$. Cauchy–Schwarz and (eq:source-16) show that the average of the preceding mass over this transition set is at most $$\frac{o(\sqrt{|h|})}{\sqrt{c_B|h|}}=o(1).$$ Now take balls $B_m$ of radii tending to zero about $x$. After fixing $B_m$ and its constant $c_{B_m}$, choose $h_m$ sufficiently small and then a transition root $q_m\in B_m$ from the preceding full-measure set, whose first-circle mass of $i,j$ is less than $1/m$. This order of choice requires no lower bound on $c_{B_m}$ uniform in $m$. The circle samples at $q_m$ have radius one; a weak-\* subsequential limit belongs to $\mathcal W_x$ and has zero mass in the two specified coordinates. Since it is nonnegative, sums to one, and is supported within $P_x$ almost everywhere, it also proves (eq:source-15). ◻
+Fix a ball $B$ about $x$. Since $ij\in\Gamma_x$, there is a constant $c_B>0$ and arbitrarily small nonzero $h$ for which the transition set in $B$ has area at least $c_B|h|$. Cauchy–Schwarz and (6.3) show that the average of the preceding mass over this transition set is at most $$\frac{o(\sqrt{|h|})}{\sqrt{c_B|h|}}=o(1).$$ Now take balls $B_m$ of radii tending to zero about $x$. After fixing $B_m$ and its constant $c_{B_m}$, choose $h_m$ sufficiently small and then a transition root $q_m\in B_m$ from the preceding full-measure set, whose first-circle mass of $i,j$ is less than $1/m$. This order of choice requires no lower bound on $c_{B_m}$ uniform in $m$. The circle samples at $q_m$ have radius one; a weak-\* subsequential limit belongs to $\mathcal W_x$ and has zero mass in the two specified coordinates. Since it is nonnegative, sums to one, and is supported within $P_x$ almost everywhere, it also proves (6.2). ◻
 
 ### Two angular state lemmas
 
@@ -816,7 +816,7 @@ A *state* at a center $x$ will mean a measurable angular set together with a spe
 
 *The separation is uniform along a sequence of centers and states $(x_n,A_n,B_n)$ with the same represented groups, provided $\mathbf 1_{A_n}\to\mathbf 1_A$ in $L^1(S)$ for a set $A$ of positive measure. More precisely, for all sufficiently large $n$, angular differences between two points of $\operatorname{ess\,supp}_S B_n$ stay a fixed positive distance from both $\kappa$ and $-\kappa$ modulo $2\pi$.*
 
-*Proof.* The density conclusion of Lemma 5.2, following (eq:source-10), gives density zero of each of the four represented labels at the nonparallel sum. Their complement, the singleton $X$, therefore has density one there.
+*Proof.* The density conclusion of Lemma 5.2, following (5.2), gives density zero of each of the four represented labels at the nonparallel sum. Their complement, the singleton $X$, therefore has density one there.
 
 We prove the uniform assertion by contradiction; the fixed-center case follows by using a constant sequence. If it fails, choose pairs in the supports of $B_n$ with chordal distances tending to one. Each support point is approximable by density-one directions of $B_n$. We may thus choose density directions $b_n,d_n$ in those states such that, after a subsequence, $$b_n\to b,\qquad d_n\to d,\qquad
  w_n=b_n-d_n\to w=b-d,\qquad |w|=1.$$ Choose a small angular interval $I$ with $\sigma(A\cap I)>0$, whose closure is separated from the directions parallel to any of $w,b,d$. Such an interval exists because only finitely many directions are excluded and $A$ has positive measure.
@@ -840,16 +840,16 @@ Choose $t$ from the positive-measure equality set, also imposing all finitely ma
 
 **Theorem 6.5** (Local finiteness of cyclic centers). *The set $$\begin{equation}
  \mathcal L=\{x\in\mathbb R^2:\Gamma_x\text{ contains a cycle}\}
- \label{eq:source-19}
+ \tag{6.4}
 \end{equation}$$ is closed and locally finite: it has finite intersection with every compact subset of the plane.*
 
 For any specified simple label cycle, its locus is the intersection of its finitely many closed edge-presence loci, hence is closed. There are only finitely many simple cycles on five labels. It therefore suffices to prove local finiteness separately for each triangle, four-cycle, and five-cycle.
 
-For a triangle, (eq:source-15) for its three edges and Proposition 5.6 force $P_x(e)$ to intersect the pair of outside labels almost everywhere. Indeed, a nonempty subset of the three triangle labels of size at most two lies in some triangle edge, which is forbidden. By (eq:source-12) the intersection with the outside pair is unique almost everywhere and alternates under $R$. Thus every such $x$ is binary for that fixed pair. Lemma 5.5 proves local finiteness of the triangle locus.
+For a triangle, (6.2) for its three edges and Proposition 5.6 force $P_x(e)$ to intersect the pair of outside labels almost everywhere. Indeed, a nonempty subset of the three triangle labels of size at most two lies in some triangle edge, which is forbidden. By (5.7) the intersection with the outside pair is unique almost everywhere and alternates under $R$. Thus every such $x$ is binary for that fixed pair. Lemma 5.5 proves local finiteness of the triangle locus.
 
 #### Four-cycles: continuity of states
 
-Fix a four-cycle and relabel its vertices $0,1,2,3$ in cyclic order, with fifth label $X$. Let $L$ be its closed locus and write $$U=\{0,2\},\qquad V=\{1,3\}.$$ For $x\in L$ define the canonical state $w_x(e)$ as follows: it is $X$ if $X\in P_x(e)$, and otherwise it is $U$ or $V$ according to which of these two pairs equals $P_x(e)$. This is exhaustive almost everywhere. A palette not containing $X$ has size at most two, and (eq:source-15) excludes every singleton and every adjacent pair of the four-cycle, leaving precisely the two diagonals. The states represent the groups $\{X\},U,V$ contained in their palettes, and (eq:source-12) gives $$w_x(e)\ne w_x(Re)\quad\text{almost everywhere}.$$ Both diagonal states have positive angular measure. If either were null, the other and $X$ would give the impossible alternation of Lemma 6.4.
+Fix a four-cycle and relabel its vertices $0,1,2,3$ in cyclic order, with fifth label $X$. Let $L$ be its closed locus and write $$U=\{0,2\},\qquad V=\{1,3\}.$$ For $x\in L$ define the canonical state $w_x(e)$ as follows: it is $X$ if $X\in P_x(e)$, and otherwise it is $U$ or $V$ according to which of these two pairs equals $P_x(e)$. This is exhaustive almost everywhere. A palette not containing $X$ has size at most two, and (6.2) excludes every singleton and every adjacent pair of the four-cycle, leaving precisely the two diagonals. The states represent the groups $\{X\},U,V$ contained in their palettes, and (5.7) gives $$w_x(e)\ne w_x(Re)\quad\text{almost everywhere}.$$ Both diagonal states have positive angular measure. If either were null, the other and $X$ would give the impossible alternation of Lemma 6.4.
 
 **Lemma 6.6** (Continuity of four-cycle states). *For each $s\in\{X,U,V\}$, the map $x\mapsto\mathbf 1_{\{w_x=s\}}$ is continuous from $L$ into $L^1(S)$.*
 
@@ -857,10 +857,10 @@ Fix a four-cycle and relabel its vertices $0,1,2,3$ in cyclic order, with fifth 
  \mathbf 1_{\{w_y=s\}}
     \le\sum_{ij\text{ in the four-cycle}} b^{ij}_{y,k}
  \quad\text{almost everywhere}.
- \label{eq:source-20}
+ \tag{6.5}
 \end{equation}$$ To see this, fix a generic direction in state $s$. If the palette has another member besides $k$, some cycle edge contains that member but does not contain $k$. For a diagonal state, choose an edge incident to its other member; for $k=X$, choose an edge incident to the possible additional label. If no other member exists, any cycle edge suffices. The corresponding trace avoids its edge endpoints and is supported within the palette, so its $k$-coordinate equals one. There are only finitely many chosen traces, allowing one common conull set of directions for this argument.
 
-Let $y_n\to x$ in $L$. Along any subsequence, pass further to weak-\* limits of the three state indicators and all four chosen traces. Denote the former limits by $f_X,f_U,f_V$. The trace limits belong to $\mathcal W_x$ by its closed-graph property. Inequality (eq:source-20) passes to the weak-\* limits, and its nonnegative right-hand side shows that wherever $f_s>0$, every label represented by $s$ belongs to $P_x$, almost everywhere. Two different state groups would require at least three palette labels, contradicting Proposition 5.6. Since the $f_s$ are nonnegative and sum to one, exactly one equals one at almost every direction. Its group determines precisely the canonical state $w_x$: a diagonal already fills both palette slots, while a positive singleton state requires $X\in P_x$. Thus $f_s=\mathbf 1_{\{w_x=s\}}$ almost everywhere.
+Let $y_n\to x$ in $L$. Along any subsequence, pass further to weak-\* limits of the three state indicators and all four chosen traces. Denote the former limits by $f_X,f_U,f_V$. The trace limits belong to $\mathcal W_x$ by its closed-graph property. Inequality (6.5) passes to the weak-\* limits, and its nonnegative right-hand side shows that wherever $f_s>0$, every label represented by $s$ belongs to $P_x$, almost everywhere. Two different state groups would require at least three palette labels, contradicting Proposition 5.6. Since the $f_s$ are nonnegative and sum to one, exactly one equals one at almost every direction. Its group determines precisely the canonical state $w_x$: a diagonal already fills both palette slots, while a positive singleton state requires $X\in P_x$. Thus $f_s=\mathbf 1_{\{w_x=s\}}$ almost everywhere.
 
 Weak-\* convergence of indicators to an indicator implies $L^1$ convergence: for indicators $f_n,f$, test against $1$ and $f$ in $\int|f_n-f|=\int f_n+\int f-2\int f_nf$. Every subsequence has a further subsequence with this same $L^1$ limit, which proves the claimed continuity. ◻
 
@@ -893,19 +893,19 @@ For a gap lying to the left of $a$, choose $V_H(a;b)<V_H(a;b')$ and repeat the a
 
 #### Five-cycles: support lists and a global step ban
 
-Fix a five-cycle, labeled in cyclic order by $\mathbb Z/5\mathbb Z$, and a center $x$ in its locus. By (eq:source-15) and Proposition 5.6, almost every palette is exactly one of its diagonals $$D_i=\{i,i+2\},\qquad i\in\mathbb Z/5\mathbb Z.$$ Write $w_x(e)=i$ for this state. Two such diagonals are disjoint exactly when their indices differ by one, so $$\begin{equation}
+Fix a five-cycle, labeled in cyclic order by $\mathbb Z/5\mathbb Z$, and a center $x$ in its locus. By (6.2) and Proposition 5.6, almost every palette is exactly one of its diagonals $$D_i=\{i,i+2\},\qquad i\in\mathbb Z/5\mathbb Z.$$ Write $w_x(e)=i$ for this state. Two such diagonals are disjoint exactly when their indices differ by one, so $$\begin{equation}
  w_x(Re)=w_x(e)\pm1\pmod5
  \quad\text{almost everywhere}.
- \label{eq:source-21}
+ \tag{6.6}
 \end{equation}$$ Let $S_i$ be the closed essential support of state $i$, and let $$S(a)=\{i:a\in S_i\}\qquad(a\in S)$$ be its support list. Every list is nonempty, since the finitely many supports cover the circle: an uncovered direction would have a neighborhood on which all five state sets were null.
 
-Every nonempty $S_i$ has strict separation from its own $R$-shift. Indeed, state $i$ then has positive measure, and (eq:source-21) forces at least one of its adjacent states to have positive measure. Their two disjoint diagonals cover four labels, so Lemma 6.3 applies. It follows that, for every direction $a$, $$S(a)\cap S(Ra)=\varnothing.$$ Also, each $i\in S(a)$ has an index adjacent to it in each of $S(Ra)$ and $S(R^{-1}a)$. Approach $a$ by generic directions of state $i$, use (eq:source-21), and pass to a constant adjacent index along a subsequence and then to its closed support.
+Every nonempty $S_i$ has strict separation from its own $R$-shift. Indeed, state $i$ then has positive measure, and (6.6) forces at least one of its adjacent states to have positive measure. Their two disjoint diagonals cover four labels, so Lemma 6.3 applies. It follows that, for every direction $a$, $$S(a)\cap S(Ra)=\varnothing.$$ Also, each $i\in S(a)$ has an index adjacent to it in each of $S(Ra)$ and $S(R^{-1}a)$. Approach $a$ by generic directions of state $i$, use (6.6), and pass to a constant adjacent index along a subsequence and then to its closed support.
 
 **Lemma 6.7** (A support contact bans an angular step). *If $i,i+1\in S(a)$ at any direction $a$, then the transitions $i\to i+1$ and $i+1\to i$ under $R$ are absent almost everywhere on the entire angular circle at $x$.*
 
-*Proof.* Set $z=x+a$. There is a trace in $\mathcal W_z$ avoiding $D_i$. In fact, in each neighborhood of $a$ the state-$i$ set has positive measure. By (eq:source-10), the two-angle sum map, and Fubini, almost every direction in this set has a typical actual unit-circle sampling at the center $x$ plus that direction, avoiding $D_i$ almost everywhere. Choose such directions tending to $a$ and pass to a weak-\* limit. The same construction gives, separately, a trace at $z$ avoiding $D_{i+1}$. Consequently, almost everywhere, $$P_z(f)\not\subset D_i,\qquad P_z(f)\not\subset D_{i+1}.$$ On the other hand, (eq:source-11) applied to $z+f=x+f+a$ gives $P_z(f)\cap P_x(f)=\varnothing$ almost everywhere. Its first endpoint map is $f\mapsto f$, a local angular diffeomorphism; its second endpoint is constant, which is permitted. The excluded parallel directions $f=\pm a$ form a null set.
+*Proof.* Set $z=x+a$. There is a trace in $\mathcal W_z$ avoiding $D_i$. In fact, in each neighborhood of $a$ the state-$i$ set has positive measure. By (5.2), the two-angle sum map, and Fubini, almost every direction in this set has a typical actual unit-circle sampling at the center $x$ plus that direction, avoiding $D_i$ almost everywhere. Choose such directions tending to $a$ and pass to a weak-\* limit. The same construction gives, separately, a trace at $z$ avoiding $D_{i+1}$. Consequently, almost everywhere, $$P_z(f)\not\subset D_i,\qquad P_z(f)\not\subset D_{i+1}.$$ On the other hand, (5.3) applied to $z+f=x+f+a$ gives $P_z(f)\cap P_x(f)=\varnothing$ almost everywhere. Its first endpoint map is $f\mapsto f$, a local angular diffeomorphism; its second endpoint is constant, which is permitted. The excluded parallel directions $f=\pm a$ form a null set.
 
-Let $X$ be the label outside $D_i\cup D_{i+1}$. Whenever $w_x(f)=i$, disjointness from $P_x(f)=D_i$ leaves only $D_{i+1}\cup\{X\}$ available to $P_z(f)$, and the avoiding trace for $D_{i+1}$ forces $X\in P_z(f)$. The same reasoning applies when $w_x(f)=i+1$. A step in either order between these states would therefore put $X$ into both $P_z(f)$ and $P_z(Rf)$, contrary to (eq:source-12). The statements used hold on a common conull set, also after pulling back by $R$, proving the global step ban. ◻
+Let $X$ be the label outside $D_i\cup D_{i+1}$. Whenever $w_x(f)=i$, disjointness from $P_x(f)=D_i$ leaves only $D_{i+1}\cup\{X\}$ available to $P_z(f)$, and the avoiding trace for $D_{i+1}$ forces $X\in P_z(f)$. The same reasoning applies when $w_x(f)=i+1$. A step in either order between these states would therefore put $X$ into both $P_z(f)$ and $P_z(Rf)$, contrary to (5.7). The statements used hold on a common conull set, also after pulling back by $R$, proving the global step ban. ◻
 
 #### Five-cycles: the accumulation contradiction
 
@@ -913,13 +913,13 @@ Suppose distinct centers $y_n=x+h_n$ of this same five-cycle locus tend to $x$. 
  a_n^\pm=\frac{h_n}{2}
    \pm\sqrt{1-\frac{|h_n|^2}{4}}\,J\frac{h_n}{|h_n|}.$$ These are unit directions and are nonparallel for each large $n$, although their limits are the antipodal pair $a=JH$ and $-a$.
 
-For either endpoint $s=a_n^+$ or $s=a_n^-$, the diagonals in $S(s)$ have no common label. Suppose instead that every $D_i$ with $i\in S(s)$ contained a label $k$. The finitely many closed supports not containing $s$ can be excluded by a sufficiently small neighborhood of $s$. Almost every direction in that neighborhood therefore has $k\in P_x$. In a product neighborhood of the nonparallel pair $(a_n^+,a_n^-)$, (eq:source-10) and the local diffeomorphism of the sum map now imply that $A_k$ has zero area in an open spatial neighborhood of $y_n$. This contradicts $y_n\in H_k$, which holds for every label because all five cycle edges are present at $y_n$. The neighborhoods in this argument may depend on $n$; no uniform nonparallelness of the endpoint pairs is needed.
+For either endpoint $s=a_n^+$ or $s=a_n^-$, the diagonals in $S(s)$ have no common label. Suppose instead that every $D_i$ with $i\in S(s)$ contained a label $k$. The finitely many closed supports not containing $s$ can be excluded by a sufficiently small neighborhood of $s$. Almost every direction in that neighborhood therefore has $k\in P_x$. In a product neighborhood of the nonparallel pair $(a_n^+,a_n^-)$, (5.2) and the local diffeomorphism of the sum map now imply that $A_k$ has zero area in an open spatial neighborhood of $y_n$. This contradicts $y_n\in H_k$, which holds for every label because all five cycle edges are present at $y_n$. The neighborhoods in this argument may depend on $n$; no uniform nonparallelness of the endpoint pairs is needed.
 
 The no-common-label property passes to $a$ and $-a$. In fact, for any fixed direction $u$, finiteness and closedness of the supports give $S(v)\subset S(u)$ for every $v$ in some neighborhood of $u$. Thus eventually $S(a_n^+)\subset S(a)$, and intersecting the diagonals over the larger list $S(a)$ still gives the empty set; likewise at $-a$. A nonempty index list whose diagonals have empty intersection contains adjacent indices. Otherwise it is an independent set in the index five-cycle, of size at most two, and any two nonadjacent diagonals have a common label.
 
 Let $S^{(r)}=S(R^ra)$ for $r\in\mathbb Z/6\mathbb Z$. Both $S^{(0)}$ and $S^{(3)}$ contain adjacent index pairs. Rotate the label indices so that $0,1\in S^{(0)}$. Then $$2,4\in S^{(1)}\cap S^{(5)}:$$ these lists must avoid $0,1$ and must contain a neighbor of each, forcing $4$ for $0$ and $2$ for $1$. If $j,j+1\in S^{(3)}$, the same argument gives $j-1,j+2\in S^{(2)}\cap S^{(4)}$. Adjacent position lists are disjoint, so neither of $j-1,j+2$ can be $2$ or $4$. Checking the five possible residues of $j$ leaves only $j=1$ or $j=4$: their pairs $\{j-1,j+2\}$ are respectively $\{0,3\}$ and $\{3,1\}$; each of $j=0,2,3$ contains $2$ or $4$.
 
-If $j=1$, the adjacent pairs at $a$ and $-a$ are $\{0,1\}$ and $\{1,2\}$, so Lemma 6.7 bans both possible steps from state $1$. If $j=4$, the pairs are $\{0,1\}$ and $\{4,0\}$, banning both steps from state $0$. In either case (eq:source-21) makes the shared state null, contradicting its membership in $S^{(0)}$. Only the step bans at the two fixed directions $a,-a$ have been used, so no union of exceptional null sets over arbitrary directions is involved. This rules out accumulation in the five-cycle locus.
+If $j=1$, the adjacent pairs at $a$ and $-a$ are $\{0,1\}$ and $\{1,2\}$, so Lemma 6.7 bans both possible steps from state $1$. If $j=4$, the pairs are $\{0,1\}$ and $\{4,0\}$, banning both steps from state $0$. In either case (6.6) makes the shared state null, contradicting its membership in $S^{(0)}$. Only the step bans at the two fixed directions $a,-a$ have been used, so no union of exceptional null sets over arbitrary directions is involved. This rules out accumulation in the five-cycle locus.
 
 Each specified simple-cycle locus is closed and has no accumulation point. Its intersection with a compact set is therefore finite, by compactness. Taking the finite union over all specified simple cycles proves Theorem 6.5.
 
@@ -932,7 +932,7 @@ For a nonempty compact set $K\subset\mathbb R^2$, define its open straddling reg
  \left\{z\in\mathbb R^2:
    \min_{q\in K}|z-q|<1<\max_{q\in K}|z-q|
  \right\}.
- \label{eq:source-24}
+ \tag{7.1}
 \end{equation}$$ The two distance extrema are continuous, indeed $1$-Lipschitz, as functions of $z$, so this region is open. Connectedness of $K$ implies that every point of $\Delta(K)$ is at unit distance from a point of $K$. The proposition below gives one such region excluding both labels attached to each edge of a label cycle.
 
 **Proposition 7.1** (A cycle of common exclusion continua). *For the weak measurable five-coloring under consideration, there exist an integer $\ell\in\{3,4,5\}$, distinct labels $i_0,\ldots,i_{\ell-1}\in\mathcal I$, a point $x\in\mathbb R^2$, and a radius $\rho>0$ with the following properties. For each edge $i_ji_{j+1}$ of the simple label cycle, with indices modulo $\ell$, there are a compact connected set $K_j\subset\overline{B(x,\rho)}$, a direction $v_j\in S$, and a sequence $q_{j,k}\in K_j\setminus\{x\}$ such that*
@@ -961,21 +961,21 @@ For $\epsilon>0$, set $$p_i^\epsilon(q)=\frac1{\pi\epsilon^2}
 
 **Lemma 7.2** (Disk inequalities and support detection). *For every pair $q,z\in\mathbb R^2$ with $|q-z|=1$ and every label $i$, $$\begin{equation}
  p_i^\epsilon(q)+p_i^\epsilon(z)\le1.
- \label{eq:source-17}
+ \tag{7.2}
 \end{equation}$$ If $q_n\to q$, $\epsilon_n\to0$, and $\liminf_n p_i^{\epsilon_n}(q_n)>0$, then $q\in H_i$.*
 
-*Proof.* Translate $q$ and $z$ by the same vector uniformly distributed in $B(0,\epsilon)$. Almost every such translation puts both points in the typical set. They cannot then both have color $i$; averaging proves (eq:source-17). Thus this inequality has no exceptional unit pairs. For the last assertion, every neighborhood of $q$ eventually contains $B(q_n,\epsilon_n)$, and the stated lower bound makes its intersection with $A_i$ have positive area. ◻
+*Proof.* Translate $q$ and $z$ by the same vector uniformly distributed in $B(0,\epsilon)$. Almost every such translation puts both points in the typical set. They cannot then both have color $i$; averaging proves (7.2). Thus this inequality has no exceptional unit pairs. For the last assertion, every neighborhood of $q$ eventually contains $B(q_n,\epsilon_n)$, and the stated lower bound makes its intersection with $A_i$ have positive area. ◻
 
 **Lemma 7.3** (A missing edge has small overlap). *If $ij\notin\Gamma_x$, there is a ball $B$ about $x$ such that, for every smaller ball $B'$ with $\overline{B'}\subset B$, $$\begin{equation}
  \int_{B'}p_i^\epsilon(q)p_j^\epsilon(q)\,dq=o(\epsilon).
- \label{eq:source-18}
+ \tag{7.3}
 \end{equation}$$ For any ball $B''$ with $\overline{B''}\subset B'$ and any fixed $\alpha>0$, the set $$\{q\in B'':p_i^\epsilon(q)>\alpha,\quad
                     p_j^\epsilon(q)>\alpha\}$$ can be covered by finitely many open disks whose total radii tend to zero as $\epsilon\downarrow0$. Every point of the set lies in a disk interior.*
 
-*Proof.* The negation of (eq:source-14), and nonnegativity of $D_{ij}$, give a ball $B$ with $D_{ij}(B,h)=o(|h|)$. More explicitly, for all sufficiently small $r>0$ put $$\omega(r)=\sup_{0<|h|\le r}\frac{D_{ij}(B,h)}{|h|};
- \qquad \omega(r)\longrightarrow0.$$ For independent uniform vectors $h_1,h_2\in B(0,\epsilon)$, expand the product of the two disk averages and integrate over $q\in B'$. When $\epsilon<\mathop{\mathrm{dist}}(\overline{B'},\mathbb R^2\setminus B)$, the change of root $r=q+h_1$ bounds the area where $c(q+h_1)=i$ and $c(q+h_2)=j$ by $$D_{ij}(B,h_2-h_1)\le 2\epsilon\omega(2\epsilon).$$ For $h_1=h_2$ the simultaneous event is empty. Fubini now gives (eq:source-18), with a bound uniform over the two shifts.
+*Proof.* The negation of (6.1), and nonnegativity of $D_{ij}$, give a ball $B$ with $D_{ij}(B,h)=o(|h|)$. More explicitly, for all sufficiently small $r>0$ put $$\omega(r)=\sup_{0<|h|\le r}\frac{D_{ij}(B,h)}{|h|};
+ \qquad \omega(r)\longrightarrow0.$$ For independent uniform vectors $h_1,h_2\in B(0,\epsilon)$, expand the product of the two disk averages and integrate over $q\in B'$. When $\epsilon<\mathop{\mathrm{dist}}(\overline{B'},\mathbb R^2\setminus B)$, the change of root $r=q+h_1$ bounds the area where $c(q+h_1)=i$ and $c(q+h_2)=j$ by $$D_{ij}(B,h_2-h_1)\le 2\epsilon\omega(2\epsilon).$$ For $h_1=h_2$ the simultaneous event is empty. Fubini now gives (7.3), with a bound uniform over the two shifts.
 
-Take a square grid with side $\ell=c_\alpha\epsilon$, where $c_\alpha>0$ is fixed small enough that the Lipschitz oscillation of either probability on a square is at most $\alpha/2$. Select all squares touching the displayed violation set in $B''$. Their number $N_\epsilon$ is finite, and for small $\epsilon$ each lies in $B'$ and has both probabilities at least $\alpha/2$ throughout. Disjointness of their interiors and (eq:source-18) imply $$N_\epsilon\ell^2\frac{\alpha^2}{4}=o(\epsilon),
+Take a square grid with side $\ell=c_\alpha\epsilon$, where $c_\alpha>0$ is fixed small enough that the Lipschitz oscillation of either probability on a square is at most $\alpha/2$. Select all squares touching the displayed violation set in $B''$. Their number $N_\epsilon$ is finite, and for small $\epsilon$ each lies in $B'$ and has both probabilities at least $\alpha/2$ throughout. Disjointness of their interiors and (7.3) imply $$N_\epsilon\ell^2\frac{\alpha^2}{4}=o(\epsilon),
  \qquad N_\epsilon\epsilon=o(1).$$ Cover every selected closed square by the open disk with the same center and radius $\ell$. These disks strictly contain the squares and have total radii $N_\epsilon\ell=o(1)$. ◻
 
 ### Graph-valued maps outside small core disks
@@ -985,7 +985,7 @@ The preceding overlap bound allows us to remove all simultaneous threshold viola
  \frac{(p_i^\epsilon(z)-\alpha)_+}
       {\sum_{k\in\mathcal I}(p_k^\epsilon(z)-\alpha)_+},
  \qquad i\in\mathcal I.
- \label{eq:source-22}
+ \tag{7.4}
 \end{equation}$$ The denominator is positive because the five probabilities sum to one. Thus $q^\epsilon$ is a continuous map into the simplex of probability vectors on $\mathcal I$. Let $\mathscr G$ be the one-skeleton of that simplex, realized as the complete graph on its five vertices. In particular, $q_i^\epsilon(z)>0$ if and only if $p_i^\epsilon(z)>\alpha$.
 
 Choose a closed square $Q$ of side ten with $\partial Q\cap\mathcal L=\varnothing$. Such a square is obtained by a small translation: local finiteness leaves only finitely many points to avoid near the boundary of all squares in that translation family. Choose a larger closed square $Q'$ containing $Q$ in its interior, and write $L_0=\mathcal L\cap Q'$, a finite set by Theorem 6.5.
@@ -999,12 +999,12 @@ Choose a closed square $Q$ of side ten with $\partial Q\cap\mathcal L=\varnothin
 3.  *There is a continuous map $$\begin{equation}
      g_n:Q\setminus\bigcup_{x\in L_0\cap Q}B_{n,x}
            \longrightarrow\mathscr G
-     \label{eq:source-23}
+     \tag{7.5}
     \end{equation}$$ equal to $q^{\epsilon_n}$ outside all the open disks of $\mathcal H_n$. It is obtained by filling the non-core disks through trees, preserving their boundary values.*
 
 *Proof.* Fix a small $\delta>0$. Start with the original core disks $B(x,\delta)$, $x\in L_0$, and put $$M_\delta=Q'\setminus\bigcup_{x\in L_0}B(x,\delta).$$ This is compact, and every $\Gamma_z$, $z\in M_\delta$, is a forest, including any isolated vertices. For each nonedge of $\Gamma_z$, Lemma 7.3 supplies a ball on which the corresponding simultaneous threshold violations admit finite open disk covers with total radii tending to zero as $\epsilon\to0$. There are finitely many nonedges, so choose one radius $s_z>0$ working for all of them. More explicitly, choose it small enough to have the transition estimate on $B(z,3s_z)$, the integral estimate on $B(z,2s_z)$, and the disk covers for violations in $B(z,s_z)$. The covers include the violation points in the interiors of their disks.
 
-Choose finitely many balls $B(z,s_z)$ covering $M_\delta$, and let $\lambda_\delta>0$ be a Lebesgue number of this cover on $M_\delta$. For each selected ball, mark all the disks covering violations for its forest’s nonedges. These additional disks form a finite family whose total radii $m_{\delta,\epsilon}$ tend to zero for this fixed $\delta$. At a point of $M_\delta$ outside all marked disks, the positive coordinates of (eq:source-22) form a clique in the forest of every selected ball containing the point. They therefore number at most two, and a two-element set is a forest edge. This proves the required local graph-valued assertion.
+Choose finitely many balls $B(z,s_z)$ covering $M_\delta$, and let $\lambda_\delta>0$ be a Lebesgue number of this cover on $M_\delta$. For each selected ball, mark all the disks covering violations for its forest’s nonedges. These additional disks form a finite family whose total radii $m_{\delta,\epsilon}$ tend to zero for this fixed $\delta$. At a point of $M_\delta$ outside all marked disks, the positive coordinates of (7.4) form a clique in the forest of every selected ball containing the point. They therefore number at most two, and a two-element set is a forest edge. This proves the required local graph-valued assertion.
 
 We next merge disks until their closures are pairwise disjoint. Whenever two current disks have intersecting closures, replace them by an open disk strictly containing both closures, with radius at most the sum of their radii plus a prescribed positive error. An enclosing disk with radius at most the sum exists by choosing its center on the line of centers; in the containment case the larger disk suffices. A slight enlargement makes containment strict. Each merge reduces the finite number of disks, so the sum of all enlargement errors can be made less than any specified $\eta>0$, using the initial number as a bound on the number of merges.
 
@@ -1016,7 +1016,7 @@ For large $n$, no final disk can contain two distinct points of $L_0$: its diame
 
 Consider a final non-core disk whose closure meets $Q$. Its vanishing diameter puts its entire closed disk inside $Q'$ for large $n$. Moreover, its closure is disjoint from every final core closure, and these final core disks contain all the original core disks. It therefore lies outside all original core interiors, hence in $M_{\delta_n}$. Its diameter is less than $\lambda_{\delta_n}$, so its entire closed disk lies in one selected forest ball. Its boundary avoids all original marked interiors. The original map $q^{\epsilon_n}$ thus maps that boundary into the selected forest, and its connected boundary image lies in one component tree, possibly a single vertex. A finite tree is contractible, so the boundary map extends continuously over the closed disk with values in that tree. If the disk crosses $\partial Q$, make the extension on the whole disk and restrict it to $Q$.
 
-Outside all final open disks, every point of $Q$ belongs to $M_{\delta_n}$ and avoids all original marked disks, so the original map is graph-valued there. Paste it to the finitely many tree extensions. Their closed disks have disjoint closures and agree with the original map on their boundaries, so finite pasting proves (eq:source-23). Empty disk lists require no operation. ◻
+Outside all final open disks, every point of $Q$ belongs to $M_{\delta_n}$ and avoids all original marked disks, so the original map is graph-valued there. Paste it to the finitely many tree extensions. Their closed disks have disjoint closures and agree with the original map on their boundaries, so finite pasting proves (7.5). Empty disk lists require no operation. ◻
 
 ### A nontrivial core boundary
 
@@ -1024,7 +1024,7 @@ We will repeatedly use the following area estimate. For a closed disk $\overline
  E_n=\bigcup_{B(u,r)\in\mathcal H_n}E(u,r),
  \qquad
  |E_n|\le4\pi\sum_{B(u,r)\in\mathcal H_n}r\longrightarrow0.
- \label{eq:interfaces-annulus-area}
+ \tag{7.6}
 \end{equation}$$ Here all radii are less than one for large $n$. If $z\notin E_n$, no exact unit-distance point from $z$ lies in any closed hole disk, regardless of how many disks there are.
 
 **Lemma 7.5** (A cover obstruction on a square). *A closed square of side ten has no relatively open cover of multiplicity at most two and mesh at most two, where mesh is the supremum of the Euclidean diameters of its members.*
@@ -1039,7 +1039,7 @@ We will repeatedly use the following area estimate. For a closed disk $\overline
 We claim that the mesh of this component cover is at most $1+o(1)$. If not, after restricting to a subsequence there are a fixed constant $c>0$, a fixed label $i$, and paths in $U_{n,i}$ joining points at distance greater than $1+c$. Replace either endpoint lying in a hole by a boundary point on the path. The path must exit that disk because the other endpoint is distant, and the replacement changes the endpoint by at most the disk’s diameter. If both endpoints require replacement, their disks are distinct for large $n$. On every hole boundary the original map is preserved. Thus the replacement endpoints $a_n,b_n$ satisfy $$p_i^{\epsilon_n}(a_n)>\alpha,\qquad
  p_i^{\epsilon_n}(b_n)>\alpha$$ and remain at distance at least $1+c-o(1)$. Pass to limits $a_n\to a$, $b_n\to b$ in $Q$, with $|a-b|>1$. Lemma 7.2 gives $a\in H_i$.
 
-Choose a sufficiently small fixed open plane ball $U$ about $a$. For all large $n$ and every $z\in U$, the distances to $a_n$ and $b_n$ are strictly below and strictly above one, respectively. Continuity along the path supplies a point at exact distance one from $z$. If $z\notin E_n$, every such crossing point is outside all closed hole disks by (eq:interfaces-annulus-area). At this point $\widetilde g_n=q^{\epsilon_n}$ and its $i$th coordinate is positive, so $p_i^{\epsilon_n}>\alpha$. The pointwise inequality (eq:source-17) therefore gives $p_i^{\epsilon_n}(z)\le1-\alpha$.
+Choose a sufficiently small fixed open plane ball $U$ about $a$. For all large $n$ and every $z\in U$, the distances to $a_n$ and $b_n$ are strictly below and strictly above one, respectively. Continuity along the path supplies a point at exact distance one from $z$. If $z\notin E_n$, every such crossing point is outside all closed hole disks by (7.6). At this point $\widetilde g_n=q^{\epsilon_n}$ and its $i$th coordinate is positive, so $p_i^{\epsilon_n}>\alpha$. The pointwise inequality (7.2) therefore gives $p_i^{\epsilon_n}(z)\le1-\alpha$.
 
 It follows that $$\begin{equation}
  \alpha |A_i\cap U|
@@ -1047,8 +1047,8 @@ It follows that $$\begin{equation}
  \lVert p_i^{\epsilon_n}-a_i\rVert_{L^1(U)}
       +\alpha|E_n\cap U|
  \longrightarrow0.
- \label{eq:interfaces-mesh-measure}
-\end{equation}$$ The convergence uses local $L^1$ convergence of disk averages and (eq:interfaces-annulus-area). This contradicts $a\in H_i$, which requires positive $A_i$-measure in $U$. The mesh claim follows. For large $n$ the mesh is therefore at most two, contradicting Lemma 7.5. This argument also rules out the possibility of having no core disks in $Q$. ◻
+ \tag{7.7}
+\end{equation}$$ The convergence uses local $L^1$ convergence of disk averages and (7.6). This contradicts $a\in H_i$, which requires positive $A_i$-measure in $U$. The mesh claim follows. For large $n$ the mesh is therefore at most two, contradicting Lemma 7.5. This argument also rules out the possibility of having no core disks in $Q$. ◻
 
 ### Graph words and annular crossings
 
@@ -1090,11 +1090,11 @@ Take Hausdorff limits along a common further subsequence for the finitely many i
 
 Each $K_{n,j}$ meets $\partial B_{n,x}$. These contact points tend to $x$, because the disk contains $x$ and its diameter tends to zero. Hence $x\in K_j$. Outer-boundary contact and compactness likewise give $K_j\cap\partial B(x,\rho)\ne\varnothing$. In particular each $K_j$ is nontrivial.
 
-We prove the support exclusion for either endpoint $i\in\{i_j,i_{j+1}\}$. At a point of $K_{n,j}$ outside all holes, $g_n=q^{\epsilon_n}$ has value $m_j$, whose two endpoint coordinates are $1/2$. Formula (eq:source-22) therefore gives $p_i^{\epsilon_n}>\alpha$ there.
+We prove the support exclusion for either endpoint $i\in\{i_j,i_{j+1}\}$. At a point of $K_{n,j}$ outside all holes, $g_n=q^{\epsilon_n}$ has value $m_j$, whose two endpoint coordinates are $1/2$. Formula (7.4) therefore gives $p_i^{\epsilon_n}>\alpha$ there.
 
 Fix any closed ball $U$ of positive radius contained in $\Delta(K_j)$. The strict inequalities defining the straddling region hold with a positive uniform margin on $U$. For every $z$, either distance extremum changes by at most $d_{\rm H}(K_{n,j},K_j)$ when $K_j$ is replaced by $K_{n,j}$. Thus, for all sufficiently large $n$, the distances from every $z\in U$ to points of $K_{n,j}$ straddle one. The continuous image of the connected set $K_{n,j}$ under $q\mapsto|z-q|$ is an interval, so some point of $K_{n,j}$ is at exact distance one from $z$.
 
-For $z\in U\setminus E_n$, that point is outside every closed hole disk. The preceding endpoint probability bound and (eq:source-17) give $p_i^{\epsilon_n}(z)\le1-\alpha$. Exactly as in (eq:interfaces-mesh-measure), $$\alpha |A_i\cap U|
+For $z\in U\setminus E_n$, that point is outside every closed hole disk. The preceding endpoint probability bound and (7.2) give $p_i^{\epsilon_n}(z)\le1-\alpha$. Exactly as in (7.7), $$\alpha |A_i\cap U|
  \le \lVert p_i^{\epsilon_n}-a_i\rVert_{L^1(U)}
        +\alpha |E_n\cap U|\longrightarrow0.$$ Thus $A_i$ has zero measure in $U$. Every point of the open set $\Delta(K_j)$ lies in the interior of such a ball, and consequently has a neighborhood of zero $A_i$-measure. By the definition of $H_i$, this proves $H_i\cap\Delta(K_j)=\varnothing$ for both endpoint labels.
 
@@ -1113,7 +1113,7 @@ The one-sided strips below are a counterpart of the complementary-color strips i
 Let $\mathcal B\subset S$ be the finite, antipodally symmetric set of directions perpendicular to at least one $v_j$. At $e\notin\mathcal B$, give edge $j$ sign $+$ or $-$ according as $e\cdot v_j$ is positive or negative. Let $O(e)$ be the set of labels remaining after the endpoints of every positive edge are removed, and let $I(e)$ be the set remaining after the endpoints of every negative edge are removed. Labels outside the cycle belong to both sets.
 
 **Lemma 8.1** (One-sided strip restrictions). *Both $O(e)$ and $I(e)$ are nonempty for every $e\notin\mathcal B$. On an angular neighborhood of $e$, an open strip just outside radius one uses only $O(e)$, and an open strip just inside radius one uses only $I(e)$, in both cases up to plane-null sets. Moreover, $$\begin{equation}
-\label{eq:source-25}
+\tag{8.1}
  P_x(e)\cap O(e)\ne\varnothing,
  \qquad P_x(e)\cap I(e)\ne\varnothing
  \quad\text{for almost every }e\in S\setminus\mathcal B.
@@ -1130,20 +1130,20 @@ Cover $S\setminus\mathcal B$ by countably many smaller arcs on each of which all
 
 *Proof.* Index its five labels modulo five. A label belongs to $I(e)$ exactly when its two incident signs are positive, and to $O(e)$ exactly when both are negative. Their nonemptiness requires a pair of consecutive signs of each kind. If there were two or more runs of each kind, the two required runs of length at least two and the other two nonempty runs would occupy at least six positions. Thus the five signs consist of one positive run and one negative run, of lengths two and three in some order.
 
-The allowed sets are the internal vertices of these runs, of sizes one and two. They are disjoint. The palette size bound (eq:source-13) and (eq:source-25) imply that almost every palette is a pair, containing one vertex from each allowed set. Put $D_i=\{i,i+2\}$. After a cyclic relabeling, the length-two run occupies edges $0,1$, with middle vertex $1$, and the length-three run occupies edges $2,3,4$, with internal vertices $3,4$. The two possible palettes are therefore $D_1=\{1,3\}$ and $D_4=\{4,1\}$, whose indices differ by two modulo five. Reversing every sign interchanges the two allowed sets and preserves these options. Consequently the palette options at antipodal directions are identical.
+The allowed sets are the internal vertices of these runs, of sizes one and two. They are disjoint. The palette size bound (5.12) and (8.1) imply that almost every palette is a pair, containing one vertex from each allowed set. Put $D_i=\{i,i+2\}$. After a cyclic relabeling, the length-two run occupies edges $0,1$, with middle vertex $1$, and the length-three run occupies edges $2,3,4$, with internal vertices $3,4$. The two possible palettes are therefore $D_1=\{1,3\}$ and $D_4=\{4,1\}$, whose indices differ by two modulo five. Reversing every sign interchanges the two allowed sets and preserves these options. Consequently the palette options at antipodal directions are identical.
 
-Choose a direction on a full six-position $R$-orbit for which all the preceding almost-everywhere assertions and (eq:source-12) hold. Write $p_j\in\mathbb Z/5\mathbb Z$ for the index of its palette $D_{p_j}$ at $R^je$. Two diagonals $D_a,D_b$ are disjoint exactly when $b-a=\pm1$ modulo five. Thus successive indices make steps $\varepsilon_j\in\{1,-1\}$, including the closing step from position five to position zero. For antipodal positions $j,j+3$, the common two-element option set allows index difference only $0$ or $\pm2$. But the possible sums of three steps are $-3,-1,1,3$; none is zero modulo five, and a sum is $\pm2$ modulo five only if all three steps have the same sign. Every consecutive triple of steps must therefore be constant. Overlapping triples force all six signs to agree, whereas six equal steps do not close modulo five. This is the desired contradiction. ◻
+Choose a direction on a full six-position $R$-orbit for which all the preceding almost-everywhere assertions and (5.7) hold. Write $p_j\in\mathbb Z/5\mathbb Z$ for the index of its palette $D_{p_j}$ at $R^je$. Two diagonals $D_a,D_b$ are disjoint exactly when $b-a=\pm1$ modulo five. Thus successive indices make steps $\varepsilon_j\in\{1,-1\}$, including the closing step from position five to position zero. For antipodal positions $j,j+3$, the common two-element option set allows index difference only $0$ or $\pm2$. But the possible sums of three steps are $-3,-1,1,3$; none is zero modulo five, and a sum is $\pm2$ modulo five only if all three steps have the same sign. Every consecutive triple of steps must therefore be constant. Overlapping triples force all six signs to agree, whereas six equal steps do not close modulo five. This is the desired contradiction. ◻
 
 ### Four-cycle words and projective ray geometry
 
-Suppose next that the cycle labels are $0,1,2,3$, with outsider $X$, and put $U=\{0,2\}$, $V=\{1,3\}$. If $X\notin P_x(e)$, the two requirements in (eq:source-25) force a consecutive pair of positive signs and a consecutive pair of negative signs. Hence the four signs are a cyclic run of two of each sign, which we call a *split*. The two allowed sets, after removing $X$, are the opposite middle vertices of the runs. They determine a diagonal $d(e)\in\{U,V\}$, and $d(-e)=d(e)$.
+Suppose next that the cycle labels are $0,1,2,3$, with outsider $X$, and put $U=\{0,2\}$, $V=\{1,3\}$. If $X\notin P_x(e)$, the two requirements in (8.1) force a consecutive pair of positive signs and a consecutive pair of negative signs. Hence the four signs are a cyclic run of two of each sign, which we call a *split*. The two allowed sets, after removing $X$, are the opposite middle vertices of the runs. They determine a diagonal $d(e)\in\{U,V\}$, and $d(-e)=d(e)$.
 
 Define the effective state $p(e)$ to be $X$ whenever $X\in P_x(e)$, and otherwise to be the forced diagonal $d(e)$. The group represented by this state is contained in the palette: it is the singleton $\{X\}$ in the first case and the entire diagonal in the second. Consequently, $$\begin{equation}
-\label{eq:source-26}
+\tag{8.2}
  p(e)\ne p(Re),\qquad
  p(e)=p(-e)\ \text{if both states are different from }X,
  \quad\text{almost everywhere}.
-\end{equation}$$ If a diagonal occurs only on a null set, the remaining singleton-versus-pair state system contradicts Lemma 6.4; a single remaining state already contradicts the first assertion in (eq:source-26). We may therefore suppose that both diagonal states have positive angular measure.
+\end{equation}$$ If a diagonal occurs only on a null set, the remaining singleton-versus-pair state system contradicts Lemma 6.4; a single remaining state already contradicts the first assertion in (8.2). We may therefore suppose that both diagonal states have positive angular measure.
 
 For a nonparallel pair of density-one directions of the $U$ and $V$ state sets, the density conclusion of Lemma 5.2 excludes all four cycle labels at their sum with $x$. That sum has density one of $X$. Lemma 6.3 now applies to these three represented groups. If $F_U,F_V$ denote the compact angular essential supports of the diagonal state sets, then $$F_D\cap RF_D=\varnothing\qquad(D=U,V).$$ The same holds for $R^{-1}$. Compactness provides a common positive angular separation margin.
 
@@ -1152,7 +1152,7 @@ Choose a dense conull set $G$ of angular parameters, invariant under addition of
 
 **Lemma 8.3** (Six-position word alternatives). *Every word $w(t)$ contains $X$, and all its $X$ positions have the same parity. Every direction outside $\mathcal B$ is split.*
 
-*Proof.* A word without $X$ alternates $U,V$ by adjacent inequality, contradicting the antipodal equality in (eq:source-26). Suppose that $X$ occurs on both parities. Any pair of its opposite-parity positions must be antipodal, since otherwise they are adjacent on the six-cycle. There are exactly two such occurrences: fixing one on each parity prevents any additional occurrence on either parity. Cyclically shift them to positions zero and three. Positions one and two are distinct non-$X$ states, and their antipodes four and five have the same respective values. Thus the word is a three-periodic permutation of $X,U,V$.
+*Proof.* A word without $X$ alternates $U,V$ by adjacent inequality, contradicting the antipodal equality in (8.2). Suppose that $X$ occurs on both parities. Any pair of its opposite-parity positions must be antipodal, since otherwise they are adjacent on the six-cycle. There are exactly two such occurrences: fixing one on each parity prevents any additional occurrence on either parity. Cyclically shift them to positions zero and three. Positions one and two are distinct non-$X$ states, and their antipodes four and five have the same respective values. Thus the word is a three-periodic permutation of $X,U,V$.
 
 Such a word is isolated under the cross-word restriction. In any compatible nearby word, each of its positions zero and three has neighbors $U,V$ in the original word; it must therefore be $X$. The remaining four positions are non-$X$ by their own adjacent inequality. If the original positions one and two are $U,V$, the cross-word restrictions against position two and position one, respectively, force the new positions one and two to be $U,V$; the other block is forced in the same way. Hence the new word is identical.
 
@@ -1180,7 +1180,7 @@ Thus $h$ agrees at all sufficiently close points of $G$. The dense-set chain arg
 
 ### Triangle interfaces force alternating sectors
 
-It remains to consider a triangle cycle. Call its labels the *triangle labels*, and write $X,Y$ for the outsiders. At every $e\notin\mathcal B$, two of the three edge signs agree. Those two edges cover all three triangle labels. Lemma 8.1 therefore provides an open strip on an angular neighborhood of $e$, approaching radius one from one side, which uses only $X,Y$ almost everywhere. Equation (eq:source-25) gives an outsider in $P_x(e)$ almost everywhere. There cannot be two outsiders in such a palette, since (eq:source-12) would leave no outsider at $Re$. We obtain a measurable binary state $$s(e)\in\{X,Y\},\qquad s(Re)\ne s(e)
+It remains to consider a triangle cycle. Call its labels the *triangle labels*, and write $X,Y$ for the outsiders. At every $e\notin\mathcal B$, two of the three edge signs agree. Those two edges cover all three triangle labels. Lemma 8.1 therefore provides an open strip on an angular neighborhood of $e$, approaching radius one from one side, which uses only $X,Y$ almost everywhere. Equation (8.1) gives an outsider in $P_x(e)$ almost everywhere. There cannot be two outsiders in such a palette, since (5.7) would leave no outsider at $Re$. We obtain a measurable binary state $$s(e)\in\{X,Y\},\qquad s(Re)\ne s(e)
  \quad\text{almost everywhere}.$$
 
 The use of two complementary colors near a unit circle has a predecessor in Townsend’s annulus argument (Townsend 2005, Theorems 1 and 4); here the restrictions hold almost everywhere and need not form an annulus. The next lemma extracts local constancy directly from the open strips.
@@ -1193,7 +1193,7 @@ The use of two complementary colors near a unit circle has a predecessor in Town
 Choose a smaller connected polar product strip $\mathcal U'\subset\mathcal U$, still approaching radius one on an angular neighborhood of $e_0$, close enough to $z_0$ that $q+v'_1,q+v'_2\in\mathcal V$ for every $q\in\mathcal U'$. We claim that $c$ is almost everywhere constant on $\mathcal U'$.
 
 Fix a point of $\mathcal U'$. On a sufficiently small ball around it, all starting points $q$ and sufficiently small shifts $h$ admit the following construction inside $\mathcal U$ and $\mathcal V$. Since $Jv'_1,Jv'_2$ form a basis, write $h=t_1Jv'_1+t_2Jv'_2$, with coefficients linear in $h$. Move first by $t_1Jv'_1$ and then by $t_2Jv'_2$. For either move, starting at $q'$ and using $t=t_j$, $v'=v'_j$, its two endpoints in $\mathcal U$ have the common unit neighbor $$\begin{equation}
-\label{eq:angular-even-path}
+\tag{8.3}
  q'+\frac{t}{2}Jv'+\sqrt{1-t^2/4}\,v'\in\mathcal V.
 \end{equation}$$ The two distances are one because $v'$ and $Jv'$ are orthogonal unit vectors. Smallness keeps $\lvert t\rvert<2$ and every constructed point in the stated open set. The combined path has four unit edges, with repetitions allowed.
 
@@ -1216,7 +1216,7 @@ On each of the six complementary open sectors, local essential constancy and con
 Rotate coordinates about $x$ so that the sector boundaries of Lemma 8.7 have angles that are multiples of $\pi/3$. The outsider state is then determined by the sign of $\sin(3\theta)$, in one of the two possible orders of $X,Y$.
 
 **Lemma 8.8** (Polynomial three-label region). *Put $z=\xi+i\upsilon$, $l=\xi^2+\upsilon^2$. If $0<l<4$ and $$\begin{equation}
-\label{eq:source-27}
+\tag{8.4}
  P:=\upsilon^2(3\xi^2-\upsilon^2)^2
  <P':=l^3(1-l/4)(l-1)^2,
 \end{equation}$$ then a neighborhood of $x+z$ uses only the three triangle labels up to a plane-null set.*
@@ -1226,10 +1226,10 @@ Rotate coordinates about $x$ so that the sector boundaries of Lemma 8.7 have an
  \sin(3\delta)=\sin\delta\,(4\cos^2\delta-1)
              =\sqrt{1-l/4}\,(l-1).$$ Also, $$\sin\bigl(3(\phi-\delta)\bigr)
  \sin\bigl(3(\phi+\delta)\bigr)
- =\sin^2(3\phi)-\sin^2(3\delta).$$ Equation (eq:source-27) makes this product negative. Both endpoints therefore lie strictly inside sectors, with opposite outsider values. Take open arc neighborhoods of the endpoints staying in their respective sectors. Their palettes contain the respective outsiders almost everywhere. Equation (eq:source-10) excludes both outsiders at almost every sum of the two directions. The sum map is a local diffeomorphism at this nonparallel pair, with Jacobian $\sin(2\delta)\ne0$. On a smaller coordinate neighborhood its image is open and contains $z$, and change of variables transports the product-null exceptions to a spatial null set. Translating by $x$ gives the claim. ◻
+ =\sin^2(3\phi)-\sin^2(3\delta).$$ Equation (8.4) makes this product negative. Both endpoints therefore lie strictly inside sectors, with opposite outsider values. Take open arc neighborhoods of the endpoints staying in their respective sectors. Their palettes contain the respective outsiders almost everywhere. Equation (5.2) excludes both outsiders at almost every sum of the two directions. The sum map is a local diffeomorphism at this nonparallel pair, with Jacobian $\sin(2\delta)\ne0$. On a smaller coordinate neighborhood its image is open and contains $z$, and change of variables transports the product-null exceptions to a spatial null set. Translating by $x$ gives the claim. ◻
 
 The following coordinates realize the seven-vertex obstruction of Moser and Moser (1961), a unit-distance graph that cannot be colored with three labels: $$\begin{equation}
-\label{eq:angular-seven-vectors}
+\tag{8.5}
  \mathcal G=\{0,A,B,T,uA,uB,uT\},\qquad
  A=\frac{\sqrt3+i}{2},\quad B=\frac{\sqrt3-i}{2},\quad
  T=\sqrt3,\quad u=\frac{5+i\sqrt{11}}6.
@@ -1237,23 +1237,23 @@ The following coordinates realize the seven-vertex obstruction of Moser and Mose
               =3\frac{1+11}{36}=1,$$ which is incompatible with those two forced equalities.
 
 We place this graph using $$\begin{equation}
-\label{eq:angular-placement}
+\tag{8.6}
  z_g=\frac{35+12i}{37}
        \left(g+\frac{-290+149i}{250}\right),
  \qquad g\in\mathcal G.
 \end{equation}$$ The multiplier has norm one because $35^2+12^2=37^2$, so this is a rotation followed by a translation in the sector coordinates. Figure 3 shows the placed graph, with all seven vertices in the three-label region, and its two forced equal-color pairs.
 
-**Figure 3:** The Moser graph in the placement $z_g$. All eleven drawn edges have unit length. The two triangles sharing $z_Az_B$ force $z_0,z_T$ to have the same color in any proper three-coloring; the dashed diamond forces $z_0,z_{uT}$ to have the same color. The highlighted edge $z_Tz_{uT}$ contradicts these equalities. The shading gives a cropped view of the open region (eq:source-27), using sampled analytic boundaries; the boundaries and radii zero, one, and two are excluded. Dotted rays mark the sector boundaries at multiples of $\pi/3$. The rational certificate in Section 8.6 proves strict membership of every vertex in that region, which is restricted almost everywhere to three labels.
+**Figure 3:** The Moser graph in the placement $z_g$. All eleven drawn edges have unit length. The two triangles sharing $z_Az_B$ force $z_0,z_T$ to have the same color in any proper three-coloring; the dashed diamond forces $z_0,z_{uT}$ to have the same color. The highlighted edge $z_Tz_{uT}$ contradicts these equalities. The shading gives a cropped view of the open region (8.4), using sampled analytic boundaries; the boundaries and radii zero, one, and two are excluded. Dotted rays mark the sector boundaries at multiples of $\pi/3$. The rational certificate in Section 8.6 proves strict membership of every vertex in that region, which is restricted almost everywhere to three labels.
 
 The following certificate gives the strict membership needed to finish the geometric argument.
 
-**Lemma 8.9** (Seven-point certificate). *Every $z_g$ in (eq:angular-placement) satisfies $0<\lvert z_g\rvert^2<4$ and (eq:source-27).*
+**Lemma 8.9** (Seven-point certificate). *Every $z_g$ in (8.6) satisfies $0<\lvert z_g\rvert^2<4$ and (8.4).*
 
 The full rational verification is given in Section 8.6. We first use the certificate to finish the geometric argument.
 
 **Proposition 8.10**. *The extracted interface cycle cannot have length three.*
 
-*Proof.* Lemmas 8.8 and 8.9 give, for each of the seven points $x+z_g$, an open neighborhood restricted almost everywhere to the triangle labels. Choose $\rho>0$ so that each point remains in its corresponding neighborhood after any common translation $t\in B(0,\rho)$. For each vertex, the translations that put it outside the typical set, or in the null subset where a nontriangle label occurs, form a null set. The union of these seven exceptional translation sets is null. Choose $t$ outside that union. All seven translated vertices are then typical and use the three triangle labels. Their unit edges are preserved by the placement and common translation, and typical-point properness gives a proper three-coloring of the graph in (eq:angular-seven-vectors). The two shared-edge triangle pairs proved that this graph has no such coloring. ◻
+*Proof.* Lemmas 8.8 and 8.9 give, for each of the seven points $x+z_g$, an open neighborhood restricted almost everywhere to the triangle labels. Choose $\rho>0$ so that each point remains in its corresponding neighborhood after any common translation $t\in B(0,\rho)$. For each vertex, the translations that put it outside the typical set, or in the null subset where a nontriangle label occurs, form a null set. The union of these seven exceptional translation sets is null. Choose $t$ outside that union. All seven translated vertices are then typical and use the three triangle labels. Their unit edges are preserved by the placement and common translation, and typical-point properness gives a proper three-coloring of the graph in (8.5). The two shared-edge triangle pairs proved that this graph has no such coloring. ◻
 
 *Proof of Theorem 1.4.* If a weak measurable five-coloring existed, Proposition 7.1 would produce an interface cycle of length three, four, or five with the common-center and exclusion properties used above. Propositions 8.2, 8.5, and 8.10 exclude all three possibilities. Thus no weak measurable five-coloring exists. ◻
 
@@ -1277,13 +1277,13 @@ All terminating decimals in this verification denote exact rational numbers.
 
 Here are explicit checks of the boxes and polynomial bounds. Squaring rational endpoints proves $$1.73205<\sqrt3<1.73206,\qquad
  3.31662<\sqrt{11}<3.31663.$$ Put $a_*=1.732055$, $b_*=3.316625$, and $\epsilon=0.000005$. Replacing the two radicals by these midpoints changes their product by less than $$(a_*+b_*)\epsilon+\epsilon^2
- =0.000025243425<0.000026.$$ The coordinates of the three products in (eq:angular-seven-vectors) are $$\begin{align*}
+ =0.000025243425<0.000026.$$ The coordinates of the three products in (8.5) are $$\begin{align*}
  uA&=\left(\frac{5\sqrt3-\sqrt{11}}{12},
                  \frac{\sqrt{33}+5}{12}\right),\\
  uB&=\left(\frac{5\sqrt3+\sqrt{11}}{12},
                  \frac{\sqrt{33}-5}{12}\right),\\
  uT&=\left(\frac{5\sqrt3}{6},\frac{\sqrt{33}}6\right).
-\end{align*}$$ For each coordinate of every $g$, the midpoint substitution therefore has error at most $\epsilon$: the largest product error is less than $0.000026/6<\epsilon$, and the other coefficients give this bound directly. The rotation in (eq:angular-placement) has absolute row sum $47/37$. For an exact check of the displayed centers, let $\widetilde z_g$ denote the placed point after this rational midpoint substitution. Direct substitution gives the residuals $$\widetilde z_g-(\xi_0+i\upsilon_0)
+\end{align*}$$ For each coordinate of every $g$, the midpoint substitution therefore has error at most $\epsilon$: the largest product error is less than $0.000026/6<\epsilon$, and the other coefficients give this bound directly. The rotation in (8.6) has absolute row sum $47/37$. For an exact check of the displayed centers, let $\widetilde z_g$ denote the placed point after this rational midpoint substitution. Direct substitution gives the residuals $$\widetilde z_g-(\xi_0+i\upsilon_0)
        =\frac{d_x+i d_y}{710400000000},
  \qquad
  \begin{array}{c|rr}
@@ -1326,7 +1326,7 @@ Every interval $(a,b)$ lies in $(0,4)$ and avoids one. The polynomial factors ar
 \end{align*}$$ The last inequalities are direct rational products of the second table, with the target bounds in the first. For example, its final row gives $$2.44(2.273)^2<12.65,
  \qquad
  (2.493)^3(1-2.495/4)(1.493)^2>12.9.$$ The other six rows give the corresponding displayed strict bounds by the same two products. The squared-radius intervals also lie respectively in $$(1.70,1.71),\ (1.28,1.29),\ (0.095,0.096),\ (0.68,0.69),
- \ (2.73,2.74),\ (0.459,0.46),\ (2.49,2.50).$$ Finally $P_+<P'_-$ in every row of Table 1. This proves (eq:source-27) and the radius conditions for all seven vertices. ◻
+ \ (2.73,2.74),\ (0.459,0.46),\ (2.49,2.50).$$ Finally $P_+<P'_-$ in every row of Table 1. This proves (8.4) and the radius conditions for all seven vertices. ◻
 
 ## References
 

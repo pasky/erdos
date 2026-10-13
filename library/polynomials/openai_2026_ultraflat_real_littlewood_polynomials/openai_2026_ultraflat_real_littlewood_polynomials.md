@@ -46,17 +46,17 @@ Throughout, $\mathbb T=\mathbb R/\mathbb Z$, $\mathrm e(t)=\exp(2\pi i t)$, and 
 We record three elementary forms of stationary phase. The first supplies uniform control of every coefficient of a truncated quadratic wave. The second identifies the leading coefficients of the main construction; the third handles its small end pieces and gaps.
 
 **Lemma 2.1** (Uniform quadratic formula). *Let $g\in C_c^\infty(\mathbb R)$ and $\beta\in\mathbb R\setminus\{0\}$. As $T\to\infty$, uniformly for all $u\in\mathbb R$, $$\begin{equation}
-\label{eq:quadratic-formula}
+\tag{2.1}
  \int_\mathbb Rg(y)\mathrm e(T\beta y^2/2-uy)\,dy
  =\frac{\mathrm e(\mathop{\mathrm{sgn}}(\beta)/8-u^2/(2T\beta))}{\sqrt{T|\beta|}}
    \left[g\left(\frac{u}{T\beta}\right)+O_{g,\beta}(T^{-1})\right].
 \end{equation}$$*
 
-*Proof.* Put $y_0=u/(T\beta)$ and complete the square. Fourier inversion reduces the bracket in (eq:quadratic-formula) to the exact expression $$\int_\mathbb R\widehat g(\xi)\mathrm e(\xi y_0)
+*Proof.* Put $y_0=u/(T\beta)$ and complete the square. Fourier inversion reduces the bracket in (2.1) to the exact expression $$\int_\mathbb R\widehat g(\xi)\mathrm e(\xi y_0)
                      \mathrm e\bigl(-\xi^2/(2T\beta)\bigr)\,d\xi.$$ For completeness, this identity follows by inserting $\exp(-\pi r(y-y_0)^2)$, $r>0$, before applying Fourier inversion. The inner Gaussian integral has factor $(r-iT\beta)^{-1/2}\exp(-\pi\xi^2/(r-iT\beta))$; its modulus is at most $(T|\beta|)^{-1/2}$. Dominated convergence against $|\widehat g(\xi)|$ justifies $r\downarrow0$ and yields the factor $\mathrm e(\mathop{\mathrm{sgn}}(\beta)/8)/\sqrt{T|\beta|}$. Finally, replacing $\mathrm e(-\xi^2/(2T\beta))$ by $1$ costs at most $$\frac{\pi}{T|\beta|}\int_\mathbb R\xi^2|\widehat g(\xi)|\,d\xi,$$ independently of $y_0$. ◻
 
 **Lemma 2.2** (Uniform stationary phase). *Let $I$ be a compact interval, let $\phi$ be smooth on a neighborhood of $I$ with $\phi''$ nowhere zero there, and let $f\in C_c^\infty(\operatorname{int}I)$. Uniformly for $x\in[0,1]$, $$\begin{equation}
-\label{eq:stationary-phase}
+\tag{2.2}
  \sqrt N\int_I f(t)\mathrm e\bigl(N(\phi(t)-xt)\bigr)\,dt
  =\frac{f(t_x)}{\sqrt{|\phi''(t_x)|}}
    \mathrm e\bigl(N(\phi(t_x)-xt_x)+\mathop{\mathrm{sgn}}(\phi'')/8\bigr)+o(1),
@@ -67,7 +67,7 @@ We record three elementary forms of stationary phase. The first supplies uniform
  {(t-t_x)^2}\right)^{1/2}$$ extends smoothly across $t=t_x$ and changes the phase to $\phi(t_x)-xt_x+dy^2/2$. Taylor’s integral formula and the lower bound on $|\phi''|$ show that this is a smooth increasing coordinate with derivative bounded above and below, uniformly for $t_x\in I$. All its required derivatives and those of its inverse are uniformly bounded. The transformed amplitudes, extended by zero, have support in a fixed compact set and uniformly bounded smooth norms, because $\mathop{\mathrm{supp}}f$ is separated from the endpoints of $I$. At $y=0$ their value is $f(t_x)/\sqrt{|\phi''(t_x)|}$. Lemma 2.1, whose error is controlled by a fixed finite collection of smooth norms, proves the assertion uniformly in this case. If $x\notin\phi'(I)$, the distance between $x$ and $\phi'(\mathop{\mathrm{supp}}f)$ is bounded below uniformly; integration by parts then gives an $O(N^{-1})$ integral. These two cases include the endpoints of $\phi'(I)$. ◻
 
 **Lemma 2.3** (Bounds with endpoint amplitudes). *Let $I$ be a compact interval, $f\in C^1(I)$, and $\phi$ be real and smooth. If $\phi''=\Lambda\ne0$ on $I$, then for all real $k$, $$\begin{equation}
-\label{eq:quadratic-bound}
+\tag{2.3}
  \left|\int_I f(t)\mathrm e(N\phi(t)-kt)\,dt\right|
  \le\frac{C}{\sqrt{N|\Lambda|}}
        \left(\lVert f\rVert_\infty+\int_I|f'(t)|\,dt\right).
@@ -84,7 +84,7 @@ We need to round almost unimodular coefficients while controlling the error on t
 *Proof.* This is (OpenAI 2026b, Lemma 6.2), whose statement applies to arbitrary real matrices in the displayed rectangular range. ◻
 
 **Lemma 3.2** (Rounding with prescribed phases). *Let $n\ge1$ be an integer and $Z_0,\ldots,Z_{n-1}\in\mathbb C$ satisfy $|Z_j|\le1$. Write $Z_j=d_j|Z_j|$, where $|d_j|=1$, choosing $d_j=1$ when $Z_j=0$, and put $$\mu=\frac12\sum_{j=0}^{n-1}(1-|Z_j|).$$ There are $\eta_j\in\{d_j,-d_j\}$ such that $$\begin{equation}
-\label{eq:complex-rounding}
+\tag{3.1}
  \sup_{t\in\mathbb T}\left|\sum_{j=0}^{n-1}(\eta_j-Z_j)\mathrm e(jt)\right|
  \le C\left(1+\sqrt{\mu\log(80n/\mu)}\right),
 \end{equation}$$ with an absolute constant $C$. The square-root term is zero for $\mu=0$, when the error can be zero. For real inputs the outputs are real signs. The same estimate holds on any interval of $n$ consecutive integer frequencies.*
@@ -99,27 +99,27 @@ Choose an integer $J\ge1$ with $n2^{-J}\le1$, and first set $p_j^{(J)}=2^{-J}\lf
  \end{cases}$$ An odd multiple of $2^{-h}$ in $[0,1]$ lies between $2^{-h}$ and $1-2^{-h}$. Either change therefore stays in $[0,1]$ and lies on the next coarser grid. The total mass remains at most $\mu$, while the simultaneous sign reversal leaves the absolute discrepancy unchanged. In particular, each active coordinate has mass at least $2^{-h}$, so $$s_h\le\min(n,2^h\mu),\qquad
  \lVert A(p^{(h-1)}-p^{(h)})\rVert_\infty
  \le C2^{-h}\sqrt{s_h\log(80n/s_h)}.$$ The last inequality is used only at nonempty stages. Monotonicity of $s\log(80n/s)$ on $(0,n]$ gives $$s_h\log(80n/s_h)\le2^h\mu\log(80n/\mu).$$ For $2^h\mu>n$, use the bound $n\log80$ on the left and $\mu\le n/2$ on the right. Summing the geometric series of step errors yields, with $p'=p^{(0)}\in\{0,1\}^n$, $$\begin{equation}
-\label{eq:rounding-matrix-error}
+\tag{3.2}
  \lVert A(p'-p)\rVert_\infty
  \le1+C\sqrt{\mu\log(80n/\mu)}.
 \end{equation}$$
 
-Set $\eta_j=d_j(1-2p'_j)$ and $Q(z)=\sum_{j=0}^{n-1}(\eta_j-Z_j)z^j$. The real and imaginary parts of $Q(\mathrm e(t_\ell))$ are each bounded by twice the left side of (eq:rounding-matrix-error). Thus the claimed error bound holds on the grid. To pass to the circle, let $S=\max_{|z|=1}|Q(z)|$. The maximum principle, applied also to the reversed polynomial, gives $$|Q(z)|\le S\max(1,|z|^{n-1}),\qquad
- \max_{|z|\le1+1/n}|Q(z)|\le\exp(1)S.$$ Cauchy’s estimate in disks of radius $1/n$ centered on the unit circle therefore gives $$\left|\frac{d}{dt}Q(\mathrm e(t))\right|\le2\pi\exp(1)nS.$$ Every point of $\mathbb T$ is within $1/(40n)$ of the grid. Hence $S\le\max_\ell|Q(\mathrm e(t_\ell))|+(\pi\exp(1)/20)S$. Since $\pi\exp(1)/20<1$, this proves (eq:complex-rounding). Multiplication by a unimodular monomial handles shifted consecutive frequencies. If the inputs are real, all $d_j$ are signs and hence so are the outputs. ◻
+Set $\eta_j=d_j(1-2p'_j)$ and $Q(z)=\sum_{j=0}^{n-1}(\eta_j-Z_j)z^j$. The real and imaginary parts of $Q(\mathrm e(t_\ell))$ are each bounded by twice the left side of (3.2). Thus the claimed error bound holds on the grid. To pass to the circle, let $S=\max_{|z|=1}|Q(z)|$. The maximum principle, applied also to the reversed polynomial, gives $$|Q(z)|\le S\max(1,|z|^{n-1}),\qquad
+ \max_{|z|\le1+1/n}|Q(z)|\le\exp(1)S.$$ Cauchy’s estimate in disks of radius $1/n$ centered on the unit circle therefore gives $$\left|\frac{d}{dt}Q(\mathrm e(t))\right|\le2\pi\exp(1)nS.$$ Every point of $\mathbb T$ is within $1/(40n)$ of the grid. Hence $S\le\max_\ell|Q(\mathrm e(t_\ell))|+(\pi\exp(1)/20)S$. Since $\pi\exp(1)/20<1$, this proves (3.1). Multiplication by a unimodular monomial handles shifted consecutive frequencies. If the inputs are real, all $d_j$ are signs and hence so are the outputs. ◻
 
 ## A real auxiliary function with balanced coefficients
 
 The wave construction will use a bounded real trigonometric polynomial whose coefficient magnitudes are close to the square roots of its frequency weights. These weights must have the form $|a\cdot v|$, where $a$ is a Fourier frequency and $v$ is one common vector. We adapt the auxiliary-torus construction of (OpenAI 2026b, sec. 2). The additional step is to round the coefficients of each spreading factor to a common magnitude.
 
 **Proposition 4.1**. *For every $0<\delta<1/100$, there are an integer $m\ge2$, a real trigonometric polynomial $F$ on $\mathbb T^m$, and $v\in\mathbb R^m$ with the following properties. Its Fourier support $\mathcal A\subset\mathbb Z^m\setminus\{0\}$ consists of at least two pairs $\{a,-a\}$, with distinct pairs nonparallel. If $$c_a=\widehat F(a),\qquad \lambda_a=a\cdot v,\qquad w_a=|\lambda_a|,$$ then, for an absolute constant $C$, $$\begin{equation}
-\label{eq:balanced}
+\tag{4.1}
  \begin{gathered}
  \lVert F\rVert_\infty\le1+\delta,\qquad w_a>0,\\
  1-C\delta\le\sum_{a\in\mathcal A}w_a<1,\qquad
  1\le\frac{|c_a|}{\sqrt{w_a}}\le1+C\delta
  \quad(a\in\mathcal A).
  \end{gathered}
-\end{equation}$$ The coefficient ratios in (eq:balanced) are also at most $2$.*
+\end{equation}$$ The coefficient ratios in (4.1) are also at most $2$.*
 
 We first construct the one-dimensional factors that will spread each original frequency into a box. The requirement that every coefficient have the same magnitude makes the later comparison with $w_a$ exact.
 
@@ -127,22 +127,22 @@ We first construct the one-dimensional factors that will spread each original fr
  \qquad
  |a_{\beta,u}|=L_\beta^{-1/2},\qquad
  L_\beta=2\lfloor T|\beta|/2\rfloor+1,$$ satisfying $$\begin{equation}
-\label{eq:spreading-approximation}
+\tag{4.2}
  \lVert f_\beta-g(\,\cdot\,)\mathrm e(T\beta(\,\cdot\,)^2/2)\rVert_\infty\le\alpha.
 \end{equation}$$ Here the target is extended periodically from $[-1/2,1/2]$, and the choices may satisfy $f_{-\beta}=\overline{f_\beta}$.*
 
 *Proof.* Choose $0<q<1/4$, to be fixed in terms of $\alpha$, and then choose such a $g$ with $\int g^2\ge1-q$. For a fixed $\beta\in\mathcal B$, write $$I_\beta(u)=\int_{-1/2}^{1/2}g(y)\mathrm e(T\beta y^2/2-uy)\,dy
  \qquad(u\in\mathbb Z).$$ Lemma 2.1 and $L_\beta/(T|\beta|)\to1$ give, uniformly in $u$, $$\begin{equation}
-\label{eq:spreading-coefficient-bound}
+\tag{4.3}
  \sqrt{L_\beta}|I_\beta(u)|\le1+q
 \end{equation}$$ for all sufficiently large $T$. The coefficients outside the stated interval have a small sum of absolute values. Indeed, $\mathop{\mathrm{supp}}g$ is separated from both endpoints, so on a neighborhood of this support, $$|T\beta y-u|\ge c_{g,\beta}(T+|u|)
  \quad\text{if }|u|>T|\beta|/2.$$ Twice integrating by parts, with no boundary terms, gives $|I_\beta(u)|\le C_{g,\beta}(T+|u|)^{-2}$ there. The derivative of $T\beta y-u$ is $T\beta$, so all terms from these integrations have this bound. Consequently $$\begin{equation}
-\label{eq:spreading-tail}
+\tag{4.4}
  \sum_{|u|>\lfloor T|\beta|/2\rfloor}|I_\beta(u)|=O_{g,\beta}(T^{-1}).
 \end{equation}$$
 
-For the retained indices define $Z_u=\sqrt{L_\beta}I_\beta(u)/(1+q)$. By (eq:spreading-coefficient-bound), $|Z_u|\le1$. Parseval’s identity and (eq:spreading-tail) show that, for large $T$, $$\frac1{L_\beta}\sum_u|Z_u|^2\ge\frac{1-2q}{(1+q)^2}.$$ Since $1-|Z_u|\le1-|Z_u|^2$, the defect $\mu=\frac12\sum_u(1-|Z_u|)$ satisfies $$\frac{\mu}{L_\beta}\le\frac{4q+q^2}{2(1+q)^2}\le2q<1/2.$$ Apply Lemma 3.2 on this consecutive interval of frequencies, and divide its conclusion by $\sqrt{L_\beta}$. It gives unit complex numbers $\eta_u$. Their polynomial $f_\beta(y)=\sum_u L_\beta^{-1/2}\eta_u\mathrm e(uy)$ satisfies $$\lVert f_\beta-\frac 1{1+q}\sum_u I_\beta(u)\mathrm e(u\,\cdot)\rVert_\infty
- \le C\left(L_\beta^{-1/2}+\sqrt{q\log(80/q)}\right).$$ Indeed, for $x=\mu/L_\beta>0$, monotonicity gives $x\log(80/x)\le2q\log(40/q)\le2q\log(80/q)$; the zero-defect case follows directly from the rounding lemma. By (eq:spreading-tail), the polynomial before rounding differs from the target by at most $q+o(1)$ in supremum norm. First choose $q$ small enough, then fix $g$, and finally take $T$ large. The resulting error is at most $\alpha$. All estimates hold simultaneously for the finite set $\mathcal B$. Construct the polynomials for positive $\beta$ and set $f_{-\beta}=\overline{f_\beta}$: the targets are conjugates and the frequency intervals are symmetric, so all conclusions are preserved. ◻
+For the retained indices define $Z_u=\sqrt{L_\beta}I_\beta(u)/(1+q)$. By (4.3), $|Z_u|\le1$. Parseval’s identity and (4.4) show that, for large $T$, $$\frac1{L_\beta}\sum_u|Z_u|^2\ge\frac{1-2q}{(1+q)^2}.$$ Since $1-|Z_u|\le1-|Z_u|^2$, the defect $\mu=\frac12\sum_u(1-|Z_u|)$ satisfies $$\frac{\mu}{L_\beta}\le\frac{4q+q^2}{2(1+q)^2}\le2q<1/2.$$ Apply Lemma 3.2 on this consecutive interval of frequencies, and divide its conclusion by $\sqrt{L_\beta}$. It gives unit complex numbers $\eta_u$. Their polynomial $f_\beta(y)=\sum_u L_\beta^{-1/2}\eta_u\mathrm e(uy)$ satisfies $$\lVert f_\beta-\frac 1{1+q}\sum_u I_\beta(u)\mathrm e(u\,\cdot)\rVert_\infty
+ \le C\left(L_\beta^{-1/2}+\sqrt{q\log(80/q)}\right).$$ Indeed, for $x=\mu/L_\beta>0$, monotonicity gives $x\log(80/x)\le2q\log(40/q)\le2q\log(80/q)$; the zero-defect case follows directly from the rounding lemma. By (4.4), the polynomial before rounding differs from the target by at most $q+o(1)$ in supremum norm. First choose $q$ small enough, then fix $g$, and finally take $T$ large. The resulting error is at most $\alpha$. All estimates hold simultaneously for the finite set $\mathcal B$. Construct the polynomials for positive $\beta$ and set $f_{-\beta}=\overline{f_\beta}$: the targets are conjugates and the frequency intervals are symmetric, so all conclusions are preserved. ◻
 
 *Proof of Proposition 4.1.* We first construct a real polynomial with norm at most one and squared $L^2$ norm close to one. Starting with $p_0=0$, define successively $$p_j(y_1,\ldots,y_j)
  =p_{j-1}(y_1,\ldots,y_{j-1})
@@ -157,7 +157,7 @@ For each $j$, choose $W_j^0\in s_j^\perp$ not orthogonal to any other representa
  {\rho_{s_j}\prod_{\ell\ne j}|s_j\cdot W_\ell^0|}.$$ Set $W_j=W_j^0+\tau W_j^1$. As $\tau\downarrow0$, $$\frac1\tau\prod_{j=1}^D|s\cdot W_j|
  \longrightarrow\frac{|b_s|^2}{\rho_s}
  \qquad(s\in\mathcal S).$$ Indeed, exactly the factor belonging to the representative of $\{s,-s\}$ vanishes at $\tau=0$, and its first-order coefficient was just prescribed. Fix $\tau>0$ small enough that all factors are nonzero and, with $\beta_{s,j}=s\cdot W_j$ and $\Delta_s=\prod_j|\beta_{s,j}|$, $$\begin{equation}
-\label{eq:projection-products}
+\tag{4.5}
  (1-\delta)\frac{\tau|b_s|^2}{\rho_s}
  \le\Delta_s\le
  (1+\delta)\frac{\tau|b_s|^2}{\rho_s}
@@ -165,29 +165,29 @@ For each $j$, choose $W_j^0\in s_j^\perp$ not orthogonal to any other representa
 \end{equation}$$
 
 All these data are now fixed. Apply Lemma 4.2 to the finite list of nonzero $\beta_{s,j}$, choosing $\alpha>0$ small enough that $$\begin{equation}
-\label{eq:balanced-product-error}
+\tag{4.6}
  \left(\sum_{s\in\mathcal S}|b_s|\right)
  D\alpha(1+\alpha)^{D-1}\le\delta.
 \end{equation}$$ With the resulting common cutoff $g$ and sufficiently large $T$, define $$F(y,z)=\sum_{s\in\mathcal S}b_s\mathrm e(s\cdot y)
                   \prod_{j=1}^D f_{\beta_{s,j}}(z_j),
  \qquad (y,z)\in\mathbb T^d\times\mathbb T^D.$$ The conjugation condition on the factors and $b_{-s}=\overline{b_s}$ show that $F$ is real. If each factor is replaced by its target, the resulting function is $$\left(\prod_{j=1}^Dg(z_j)\right)
- p_d\left(y+\frac T2\sum_{j=1}^D W_jz_j^2\right),$$ where $z_j$ is represented in $[-1/2,1/2]$. The cutoffs vanish near the endpoints, so this expression is well defined on the torus and has norm at most one. A telescoping product estimate bounds its distance from $F$ by the left side of (eq:balanced-product-error). Therefore $\lVert F\rVert_\infty\le1+\delta$.
+ p_d\left(y+\frac T2\sum_{j=1}^D W_jz_j^2\right),$$ where $z_j$ is represented in $[-1/2,1/2]$. The cutoffs vanish near the endpoints, so this expression is well defined on the torus and has norm at most one. A telescoping product estimate bounds its distance from $F$ by the left side of (4.6). Therefore $\lVert F\rVert_\infty\le1+\delta$.
 
 Over each old frequency $s$, the Fourier support of $F$ is the full box $$a=(s,u_1,\ldots,u_D),\qquad
  |u_j|\le\lfloor T|\beta_{s,j}|/2\rfloor.$$ This box has $n_s=\prod_jL_{\beta_{s,j}}$ members, each with coefficient magnitude $|b_s|/\sqrt{n_s}$. Distinct old frequencies give disjoint boxes, so every indicated coefficient is nonzero. If two resulting frequencies are parallel, their $s$ coordinates force the proportionality factor to be $1$ or $-1$; thus they are equal or opposite. There remain at least two sign pairs, and no zero frequency.
 
 Since $L_\beta/(T|\beta|)\to1$, increase $T$ so that $$\begin{equation}
-\label{eq:box-sizes}
+\tag{4.7}
  (1-\delta)T^D\Delta_s\le n_s\le(1+\delta)T^D\Delta_s
  \qquad(s\in\mathcal S),
-\end{equation}$$ and choose the approximants at this value of $T$. This is permitted because the spreading lemma holds for every sufficiently large $T$. Fix $T$, put $m=d+D$, and take $$v=\left(\frac{\gamma}{\tau T^D(1+\delta)^3},0\right)\in\mathbb R^{d+D}.$$ For every frequency $a$ over $s$, its weight is $w_a=\rho_s/(\tau T^D(1+\delta)^3)>0$. Combining (eq:projection-products) and (eq:box-sizes) gives $$\begin{align}
+\end{equation}$$ and choose the approximants at this value of $T$. This is permitted because the spreading lemma holds for every sufficiently large $T$. Fix $T$, put $m=d+D$, and take $$v=\left(\frac{\gamma}{\tau T^D(1+\delta)^3},0\right)\in\mathbb R^{d+D}.$$ For every frequency $a$ over $s$, its weight is $w_a=\rho_s/(\tau T^D(1+\delta)^3)>0$. Combining (4.5) and (4.7) gives $$\begin{align}
  \frac{(1-\delta)^2}{(1+\delta)^3}|b_s|^2
  &\le\sum_{a\text{ over }s}w_a\le\frac{|b_s|^2}{1+\delta},
- \label{eq:balanced-weight-bounds}\\
+ \tag{4.8}\\
  1+\delta&\le\frac{|c_a|^2}{w_a}
  \le\frac{(1+\delta)^3}{(1-\delta)^2}.
- \label{eq:balanced-ratio-bounds}
-\end{align}$$ Finally, $1-\delta\le\sum_s|b_s|^2=M_d\le1$, so the total weight lies between $(1-\delta)^3/(1+\delta)^3$ and $1/(1+\delta)$. The ratio bounds in (eq:balanced-ratio-bounds) imply $1\le|c_a|/\sqrt{w_a}\le1+C\delta$, and the upper bound is less than $2$ for $0<\delta<1/100$. These are all the assertions of (eq:balanced). The choices were made in the order $\delta$, $p_d$, $\gamma$, $(W_j^0,W_j^1)$, $\tau$, $\alpha$, $g$, $T$; in particular the entire auxiliary construction is fixed before the polynomial length is chosen. ◻
+ \tag{4.9}
+\end{align}$$ Finally, $1-\delta\le\sum_s|b_s|^2=M_d\le1$, so the total weight lies between $(1-\delta)^3/(1+\delta)^3$ and $1/(1+\delta)$. The ratio bounds in (4.9) imply $1\le|c_a|/\sqrt{w_a}\le1+C\delta$, and the upper bound is less than $2$ for $0<\delta<1/100$. These are all the assertions of (4.1). The choices were made in the order $\delta$, $p_d$, $\gamma$, $(W_j^0,W_j^1)$, $\tau$, $\alpha$, $g$, $T$; in particular the entire auxiliary construction is fixed before the polynomial length is chosen. ◻
 
 ## Waves of nearly constant modulus
 
@@ -196,11 +196,11 @@ The balanced coefficients of Proposition 4.1 allow us to build a function on th
 **Proposition 5.1**. *There are absolute constants $C>0$ and $\delta_0>0$ with the following property. For every $0<\delta<\delta_0$, there are $N_0(\delta)$ and $K_\delta<\infty$ such that, for every integer $N\ge N_0(\delta)$, there is a continuous function $B_N:\mathbb T\to\mathbb C$ satisfying $$\begin{align}
  B_N(-t)&=\overline{B_N(t)}, &
  1\le |B_N(t)|&\le 1+C\delta \quad(t\in\mathbb T),
- \label{eq:wave-modulus}\\
+ \tag{5.1}\\
  \sqrt N\,|\widehat B_N(k)|&\le 1+C\sqrt\delta
- &&(0\le k<N),\label{eq:wave-coefficients}\\
+ &&(0\le k<N),\tag{5.2}\\
  \sum_{k<0\text{ or }k\ge N}|\widehat B_N(k)|
- &\le K_\delta N^{-1}.\label{eq:wave-tail}
+ &\le K_\delta N^{-1}.\tag{5.3}
 \end{align}$$ Its Fourier coefficients are real, and its Fourier series converges absolutely and represents $B_N$.*
 
 We use the following packing result from the preceding version. Its proof combines a finite-field construction with almost-perfect matchings in nearly regular hypergraphs; only its stated conclusion is needed here.
@@ -209,7 +209,7 @@ We use the following packing result from the preceding version. Its proof combin
 
 *Proof of Proposition 5.1.* Fix $\delta$ and choose the data of Proposition 4.1. Thus $$F(y)=\sum_{a\in\mathcal A}c_a\mathrm e(a\cdot y),\qquad
  \lambda_a=a\cdot v,\qquad w_a=|\lambda_a|,$$ where $F$ is real, $\mathcal A=-\mathcal A$, and $$\begin{equation}
-\label{eq:wave-input}
+\tag{5.4}
  \|F\|_\infty\le1+\delta,\qquad
  1-C\delta\le\sum_{a\in\mathcal A}w_a<1,\qquad
  1\le m_a:=\frac{|c_a|}{\sqrt{w_a}}\le1+C\delta\le2.
@@ -218,13 +218,13 @@ We use the following packing result from the preceding version. Its proof combin
 ### Packed intervals and inverse curvature
 
 Apply Lemma 5.2 to one representative from each sign-pair, using $w_{-a}=w_a$. It gives disjoint closed arcs centered at $-a\cdot\theta_h$, of length $w_a/H$, for all $a\in\mathcal A$ and $1\le h\le H$. Each arc is disjoint from its reflection and consequently avoids the two fixed points $0$ and $1/2$ of reflection on $\mathbb T$. We may therefore regard the arcs as intervals in $(-1/2,1/2)$, with center representatives $t^*_{a,h}$ satisfying $$\begin{equation}
-\label{eq:wave-centers}
+\tag{5.5}
  t^*_{a,h}\equiv-a\cdot\theta_h\pmod1,\qquad
  t^*_{-a,h}=-t^*_{a,h}.
 \end{equation}$$
 
 The variable $x$ will denote the normalized Fourier index $k/N$. For each $h$, choose a closed interval $$J_h\subset((h-1)/H,h/H)$$ symmetric about $x_h^*=(h-1/2)/H$. On $J_h$ choose a smooth function $\chi_h$, symmetric about $x_h^*$, such that $$\begin{equation}
-\label{eq:wave-taper}
+\tag{5.6}
  \sigma\le\chi_h\le1,\qquad
  \chi_h=\sigma\text{ near both endpoints},\qquad
  \int_{J_h}\chi_h(x)^2\,dx\ge\frac{1-\delta}{H}.
@@ -233,21 +233,21 @@ The variable $x$ will denote the normalized Fourier index $k/N$. For each $h$, c
 We will specify the point $t$ at which a wave’s phase derivative equals $x$. Requiring $|dt/dx|=w_a\chi_h(x)^2$ makes the stationary-phase factor equal to $\sqrt{w_a}\chi_h(x)$, so a wave of modulus $m_a$ has leading scaled coefficient magnitude $|c_a|\chi_h(x)$. Thus $\chi_h$ can suppress endpoint Fourier contributions without decreasing the wave modulus.
 
 Choose smooth real $Q_h$ with $$Q_h''=\chi_h^2,\qquad Q_h'(x_h^*)=0,$$ and with a smooth extension to a neighborhood of $J_h$. Define $$\begin{equation}
-\label{eq:wave-map}
+\tag{5.7}
  T_{a,h}(x)=t^*_{a,h}-\lambda_aQ_h'(x),\qquad x\in J_h.
 \end{equation}$$ This is a diffeomorphism, possibly reversing orientation, onto a closed interval $I_{a,h}$. Symmetry and $\chi_h\le1$ give $|Q_h'|\le |J_h|/2<1/(2H)$, so $I_{a,h}$ lies strictly inside its assigned packed arc. Write $X_{a,h}:I_{a,h}\to J_h$ for the inverse map and set $$\begin{align}
  \psi_{a,h}(t)
  &= (t-t^*_{a,h})X_{a,h}(t)
-       +\lambda_a Q_h(X_{a,h}(t)),\label{eq:wave-phase}\\
+       +\lambda_a Q_h(X_{a,h}(t)),\tag{5.8}\\
  \psi_{a,h}'(t)&=X_{a,h}(t),&
  \psi_{a,h}''(t)&=-\frac1{\lambda_a\chi_h(X_{a,h}(t))^2}.
- \label{eq:wave-phase-derivatives}
-\end{align}$$ The derivative identities follow by differentiating (eq:wave-phase) and using (eq:wave-map). On each $I_{a,h}$ define $$\begin{equation}
-\label{eq:main-wave}
+ \tag{5.9}
+\end{align}$$ The derivative identities follow by differentiating (5.8) and using (5.7). On each $I_{a,h}$ define $$\begin{equation}
+\tag{5.10}
  B_N(t)=\frac{c_a}{\sqrt{w_a}}
  \mathrm e\bigl(\mathop{\mathrm{sgn}}(\lambda_a)/8+N\psi_{a,h}(t)\bigr).
 \end{equation}$$ The modulus is the constant $m_a$. Moreover, $T_{-a,h}(x)=-T_{a,h}(x)$ and $\psi_{-a,h}(-t)=-\psi_{a,h}(t)$; together with $c_{-a}=\overline{c_a}$ these give conjugate symmetry on the main intervals. Their total length is $$\begin{equation}
-\label{eq:main-coverage}
+\tag{5.11}
  \sum_{a,h}|I_{a,h}|
  =\sum_{a,h}w_a\int_{J_h}\chi_h^2
  \ge(1-\delta)\sum_aw_a\ge1-C\delta.
@@ -257,17 +257,17 @@ Choose smooth real $Q_h$ with $$Q_h''=\chi_h^2,\qquad Q_h'(x_h^*)=0,$$ and with 
 
 The phase choice will make the leading stationary contributions sum to a scalar multiple of a single value of $F$. We first isolate them with a cutoff and estimate the remaining endpoint pieces using their large curvature.
 
-Choose $G_h\in C_c^\infty(\operatorname{int}J_h)$ with $0\le G_h\le1$, such that, on $J_h$, $1-G_h$ is supported in the two endpoint intervals where $\chi_h=\sigma$, and is monotone on each such interval. Split each integral over $I_{a,h}$ using the cutoff $G_h(X_{a,h}(t))$. On either endpoint part the phase has constant second derivative of modulus $1/(w_a\sigma^2)$. The cutoff has bounded total variation. Lemma 2.3 therefore bounds this part, after multiplication by $\sqrt N$, by $$C m_a\sqrt{w_a}\,\sigma=C|c_a|\sigma.$$ Choose $\sigma$ so small, before fixing the functions in (eq:wave-taper), that the sum of these bounds over all endpoints is at most $\delta$.
+Choose $G_h\in C_c^\infty(\operatorname{int}J_h)$ with $0\le G_h\le1$, such that, on $J_h$, $1-G_h$ is supported in the two endpoint intervals where $\chi_h=\sigma$, and is monotone on each such interval. Split each integral over $I_{a,h}$ using the cutoff $G_h(X_{a,h}(t))$. On either endpoint part the phase has constant second derivative of modulus $1/(w_a\sigma^2)$. The cutoff has bounded total variation. Lemma 2.3 therefore bounds this part, after multiplication by $\sqrt N$, by $$C m_a\sqrt{w_a}\,\sigma=C|c_a|\sigma.$$ Choose $\sigma$ so small, before fixing the functions in (5.6), that the sum of these bounds over all endpoints is at most $\delta$.
 
 For the part with cutoff, apply Lemma 2.2 with $x=k/N$. After multiplication by $\sqrt N$, the leading term is zero if $x\notin J_h$; if $x\in J_h$, its stationary point is $t=T_{a,h}(x)$ and its value is $$\begin{equation}
-\label{eq:main-leading-term}
+\tag{5.12}
  c_aG_h(x)\chi_h(x)
  \mathrm e\bigl(-kt^*_{a,h}+N\lambda_aQ_h(x)\bigr).
 \end{equation}$$ Indeed, $$\psi_{a,h}(T_{a,h}(x))-xT_{a,h}(x)
-   =-xt^*_{a,h}+\lambda_aQ_h(x),$$ and the phase correction $\mathop{\mathrm{sgn}}(\psi_{a,h}'')/8$ cancels the constant $\mathop{\mathrm{sgn}}(\lambda_a)/8$ in (eq:main-wave). The error is $o(1)$ uniformly for $0\le k<N$.
+   =-xt^*_{a,h}+\lambda_aQ_h(x),$$ and the phase correction $\mathop{\mathrm{sgn}}(\psi_{a,h}'')/8$ cancels the constant $\mathop{\mathrm{sgn}}(\lambda_a)/8$ in (5.10). The error is $o(1)$ uniformly for $0\le k<N$.
 
-At most one $J_h$ contains $x$. For that $h$, summing (eq:main-leading-term) over $a$ gives $$G_h(x)\chi_h(x)F\bigl(k\theta_h+NvQ_h(x)\bigr).$$ Here (eq:wave-centers) may be used inside the exponential because $k$ is an integer. Since $0\le G_h\chi_h\le1$, the norm bound for $F$ and the endpoint estimates imply $$\begin{equation}
-\label{eq:main-fourier-bound}
+At most one $J_h$ contains $x$. For that $h$, summing (5.12) over $a$ gives $$G_h(x)\chi_h(x)F\bigl(k\theta_h+NvQ_h(x)\bigr).$$ Here (5.5) may be used inside the exponential because $k$ is an integer. Since $0\le G_h\chi_h\le1$, the norm bound for $F$ and the endpoint estimates imply $$\begin{equation}
+\tag{5.13}
  \sqrt N\left|\sum_{a,h}\int_{I_{a,h}}B_N(t)\mathrm e(-kt)\,dt\right|
  \le1+2\delta+o(1),\qquad 0\le k<N.
 \end{equation}$$ All errors are uniform in these integer indices. The finite number of intervals is fixed, so summing their stationary-phase errors preserves $o(1)$.
@@ -276,19 +276,19 @@ At most one $J_h$ contains $x$. For that $h$, summing (eq:main-leading-term) ove
 
 It remains to define $B_N$ on a set of length $O(\delta)$ without losing its lower modulus bound. We will join the waves continuously and also match the derivatives of their leading phases. The first condition preserves the desired function; together, the two conditions will cancel the boundary terms in the exterior Fourier estimate.
 
-Work first on $[0,1/2]$. Let $[u_j,v_j]$ be the closures of the gaps between its main intervals, including the gaps adjacent to $0$ and $1/2$. Put $l_j=v_j-u_j$ and $L=\sum_jl_j$. Strict containment in the packed arcs and (eq:main-coverage) give $$0<L\le C\delta,$$ and each $l_j$ is positive. At an endpoint $z$ adjoining a main interval, prescribe the derivative $x_z=\psi_{a,h}'(z)\in(0,1)$; at the remaining endpoints prescribe $x_0=x_{1/2}=1/8$.
+Work first on $[0,1/2]$. Let $[u_j,v_j]$ be the closures of the gaps between its main intervals, including the gaps adjacent to $0$ and $1/2$. Put $l_j=v_j-u_j$ and $L=\sum_jl_j$. Strict containment in the packed arcs and (5.11) give $$0<L\le C\delta,$$ and each $l_j$ is positive. At an endpoint $z$ adjoining a main interval, prescribe the derivative $x_z=\psi_{a,h}'(z)\in(0,1)$; at the remaining endpoints prescribe $x_0=x_{1/2}=1/8$.
 
 For each gap choose a closed interval $[P_j,R_j]\subset(1/4,3/4)$, of length $l_j/(4L)$, such that these intervals are pairwise disjoint and none of their endpoints equals any prescribed $x_z$. To see that these choices are possible, note that their total length is $1/4$. They can therefore be arranged with positive spaces between them inside an interval of length less than $1/2$; a sufficiently small common translation then avoids the finitely many forbidden endpoint values. We call $[P_j,R_j]$ the derivative interval assigned to gap $j$.
 
 Divide gap $j$ into three pieces. On these pieces take $\phi_j'$ to be linear, successively interpolating $$\begin{equation}
-\label{eq:gap-derivative-path}
+\tag{5.14}
  x_{u_j}\longrightarrow P_j\longrightarrow R_j\longrightarrow x_{v_j}.
 \end{equation}$$ Thus $\phi_j$ is continuously differentiable and piecewise quadratic; its additive constant is immaterial. Make both outer pieces shorter than $l_j/4$. Their nonzero slopes $\Lambda=\phi_j''$ can be made arbitrarily large in absolute value because $P_j\ne x_{u_j}$ and $R_j\ne x_{v_j}$. Choose their lengths so that $$\begin{equation}
-\label{eq:gap-outer-slopes}
+\tag{5.15}
  \sum_{\substack{\text{outer pieces}\\\text{in }[0,1/2]}}
        |\Lambda|^{-1/2}\le\sqrt\delta.
 \end{equation}$$ The middle piece has length at most $l_j$, so its positive slope satisfies $$\begin{equation}
-\label{eq:gap-middle-slope}
+\tag{5.16}
  \Lambda\ge\frac{R_j-P_j}{l_j}=\frac1{4L}.
 \end{equation}$$ Every value of every leading phase derivative lies in a fixed compact subset of $(0,1)$.
 
@@ -297,26 +297,26 @@ Figure 1 illustrates the two distinct uses of these pieces: large outer slopes 
 **Figure 1:** A schematic leading phase derivative on one gap. The short outer pieces join the prescribed endpoint values to $P_j$ and $R_j$. Their slopes may have either sign; the middle slope is positive. The drawing shows one possible ordering of the endpoint values, and is not to scale.
 
 Let $m_j$ interpolate linearly between the endpoint moduli $m_a$, with modulus $1$ prescribed at $0$ and $1/2$. Define on gap $j$ $$\begin{equation}
-\label{eq:gap-wave}
+\tag{5.17}
  B_N(t)=m_j(t)\mathrm e\bigl(N\phi_j(t)+\gamma_{j,N}(t)\bigr),
 \end{equation}$$ where $\gamma_{j,N}$ is affine. Choose its two endpoint values in $[0,1)$ to give the exact phase factors required by the adjoining main waves, and phase factor $1$ at $0$ and $1/2$. There is no constraint on these choices: each endpoint requires just one congruence modulo $1$. In particular, $$\int_{u_j}^{v_j}|\gamma_{j,N}'(t)|\,dt\le1,
- \qquad |\gamma_{j,N}'|\le l_j^{-1}.$$ The second bound depends on the fixed gap but is independent of $N$. Extend to the negative half-circle by $B_N(-t)=\overline{B_N(t)}$. Because $B_N(0)=B_N(1/2)=1$, this gives a continuous function on $\mathbb T$ satisfying (eq:wave-modulus). On reflected gaps use the leading phase $-\phi_j(-t)$. Its derivative is $\phi_j'(-t)$, so the leading phase derivatives match across every join, including $0$ and the identified endpoints $\pm1/2$. Matching the full derivatives of $B_N$ is unnecessary.
+ \qquad |\gamma_{j,N}'|\le l_j^{-1}.$$ The second bound depends on the fixed gap but is independent of $N$. Extend to the negative half-circle by $B_N(-t)=\overline{B_N(t)}$. Because $B_N(0)=B_N(1/2)=1$, this gives a continuous function on $\mathbb T$ satisfying (5.1). On reflected gaps use the leading phase $-\phi_j(-t)$. Its derivative is $\phi_j'(-t)$, so the leading phase derivatives match across every join, including $0$ and the identified endpoints $\pm1/2$. Matching the full derivatives of $B_N$ is unnecessary.
 
 ### Fourier cost of the gaps
 
-We now bound the Fourier contributions of the gaps. In (eq:gap-wave) regard $f_N=m_j\mathrm e(\gamma_{j,N})$ as the amplitude. On each piece, $$\begin{equation}
-\label{eq:gap-amplitude-variation}
+We now bound the Fourier contributions of the gaps. In (5.17) regard $f_N=m_j\mathrm e(\gamma_{j,N})$ as the amplitude. On each piece, $$\begin{equation}
+\tag{5.18}
  \sup|f_N|+\int|f_N'|\le C
-\end{equation}$$ with an absolute constant, since $m_j$ is monotone between values in $[1,2]$ and the total variation of $\gamma_{j,N}$ is at most $1$. Lemma 2.3 and (eq:gap-outer-slopes) show that all outer pieces and their reflections contribute at most $C\sqrt\delta$ to the scaled Fourier coefficient $\sqrt N\,\widehat B_N(k)$.
+\end{equation}$$ with an absolute constant, since $m_j$ is monotone between values in $[1,2]$ and the total variation of $\gamma_{j,N}$ is at most $1$. Lemma 2.3 and (5.15) show that all outer pieces and their reflections contribute at most $C\sqrt\delta$ to the scaled Fourier coefficient $\sqrt N\,\widehat B_N(k)$.
 
-Choose a fixed $\rho>0$ so that the closed $\rho$-neighborhoods of the finitely many derivative intervals $[P_j,R_j]$ are pairwise disjoint. At most one of these intervals is within $\rho$ of $x=k/N$. If such an interval exists, the quadratic estimate and (eq:gap-middle-slope) bound the total contribution of its middle piece and its reflection by $C\sqrt L$. Every other middle piece has monotone $\phi_j'-x$ of modulus at least $\rho$. The first-derivative estimate in Lemma 2.3, together with (eq:gap-amplitude-variation), bounds its scaled contribution by $C/(\rho\sqrt N)$. The same bound holds for its reflection. Their number and $\rho$ are fixed, so the sum of these terms is $o(1)$, uniformly in $k$. Combining these bounds with (eq:main-fourier-bound) proves $$\sqrt N\,|\widehat B_N(k)|
+Choose a fixed $\rho>0$ so that the closed $\rho$-neighborhoods of the finitely many derivative intervals $[P_j,R_j]$ are pairwise disjoint. At most one of these intervals is within $\rho$ of $x=k/N$. If such an interval exists, the quadratic estimate and (5.16) bound the total contribution of its middle piece and its reflection by $C\sqrt L$. Every other middle piece has monotone $\phi_j'-x$ of modulus at least $\rho$. The first-derivative estimate in Lemma 2.3, together with (5.18), bounds its scaled contribution by $C/(\rho\sqrt N)$. The same bound holds for its reflection. Their number and $\rho$ are fixed, so the sum of these terms is $o(1)$, uniformly in $k$. Combining these bounds with (5.13) proves $$\sqrt N\,|\widehat B_N(k)|
  \le1+2\delta+C\sqrt\delta+C\sqrt L+o(1)
- \le1+C\sqrt\delta+o(1),\qquad 0\le k<N.$$ Increasing $N_0(\delta)$ absorbs the last error into $\sqrt\delta$ and proves (eq:wave-coefficients). In particular, neither the number of gaps nor their separation contributes to the surviving constant.
+ \le1+C\sqrt\delta+o(1),\qquad 0\le k<N.$$ Increasing $N_0(\delta)$ absorbs the last error into $\sqrt\delta$ and proves (5.2). In particular, neither the number of gaps nor their separation contributes to the surviving constant.
 
 ### Cancellation at the joins and the exterior tail
 
 For projection to the allowed frequencies, an estimate on individual exterior coefficients is insufficient; we need their sum to tend to zero. This is where matching the leading phase derivatives is used. Partition $[-1/2,1/2]$ into all main intervals and the three pieces of each gap and reflected gap. On each piece write $$B_N(t)=f_N(t)\mathrm e(N\phi(t)).$$ The functions $f_N,f_N',f_N''$ are bounded independently of $N$ on each piece. The phase $\phi$ is fixed, its first three derivatives are bounded, and all values of $\phi'$ lie in a fixed compact subinterval of $(0,1)$. These bounds may depend on all the fixed construction data. For $k<0$ or $k\ge N$, put $D=N+|k|$ and $V=N\phi'-k$. Then $$\begin{equation}
-\label{eq:exterior-phase-bounds}
+\tag{5.19}
  |V|\ge cD,\qquad |V'|+|V''|\le C_*N
 \end{equation}$$ on every piece, for fixed $c>0$ and $C_*<\infty$.
 
@@ -325,8 +325,8 @@ The first integration by parts gives boundary terms $$\frac{f_N(t)\mathrm e(N\ph
  =\frac{f_N'}{V^2}-\frac{f_NV'}{V^3}$$ and its derivative $$A'=\frac{f_N''}{V^2}
  -\frac{3f_N'V'}{V^3}
  -\frac{f_NV''}{V^3}
- +\frac{3f_N(V')^2}{V^4}.$$ Since $N\le D$, (eq:exterior-phase-bounds) implies $|A|+|A'|\le C_{\mathrm{data}}D^{-2}$. Both the second boundary terms and the remaining integrals therefore have this bound on each piece. There are only finitely many pieces, whence $$|\widehat B_N(k)|\le C_{\mathrm{data}}(N+|k|)^{-2}
- \qquad(k<0\text{ or }k\ge N).$$ Summing over these integers proves (eq:wave-tail), since $\sum_{k\in\mathbb Z}(N+|k|)^{-2}=O(N^{-1})$. The finitely many interior coefficients and this summable exterior bound show that the full Fourier series converges absolutely. Its sum equals $B_N$ by continuity and uniqueness of Fourier coefficients. Finally, conjugate symmetry gives $\widehat B_N(k)\in\mathbb R$ for every integer $k$. ◻
+ +\frac{3f_N(V')^2}{V^4}.$$ Since $N\le D$, (5.19) implies $|A|+|A'|\le C_{\mathrm{data}}D^{-2}$. Both the second boundary terms and the remaining integrals therefore have this bound on each piece. There are only finitely many pieces, whence $$|\widehat B_N(k)|\le C_{\mathrm{data}}(N+|k|)^{-2}
+ \qquad(k<0\text{ or }k\ge N).$$ Summing over these integers proves (5.3), since $\sum_{k\in\mathbb Z}(N+|k|)^{-2}=O(N^{-1})$. The finitely many interior coefficients and this summable exterior bound show that the full Fourier series converges absolutely. Its sum equals $B_N$ by continuity and uniqueness of Fourier coefficients. Finally, conjugate symmetry gives $\widehat B_N(k)\in\mathbb R$ for every integer $k$. ◻
 
 ## Projection and rounding to real signs
 
@@ -335,7 +335,7 @@ We now complete the proof of Theorem 1. The functions in Proposition 5.1 alrea
 Fix a sufficiently small $\delta>0$, and let $B_N$ be supplied by Proposition 5.1. Choose an absolute constant $C_1$ so that $$S_\delta=1+C_1\sqrt\delta,
  \qquad Y_k=\frac{\sqrt N}{S_\delta}\widehat B_N(k)
  \quad(0\le k<N)$$ satisfy $Y_k\in[-1,1]$ for every sufficiently large $N$. The symmetry $B_N(-t)=\overline{B_N(t)}$ makes every Fourier coefficient real. Set $$U_Y(t)=\frac1{\sqrt N}\sum_{k=0}^{N-1}Y_k\mathrm e(kt).$$ The absolute Fourier representation and exterior-tail estimate in Proposition 5.1 give $$\begin{equation}
-\label{eq:projection-uniform}
+\tag{6.1}
  U_Y=B_N/S_\delta+O_\delta(N^{-1})
  \quad\text{uniformly on }\mathbb T.
 \end{equation}$$ Parseval’s identity and $|B_N|\ge1$ consequently imply $$\frac1N\sum_{k=0}^{N-1}Y_k^2\ge S_\delta^{-2}-o(1).$$ Here and below $N\to\infty$ with all the data chosen from $\delta$ fixed. Since $|Y_k|\ge Y_k^2$, the defect satisfies $$\frac\mu N:=\frac1{2N}\sum_{k=0}^{N-1}(1-|Y_k|)
@@ -345,7 +345,7 @@ Lemma 3.2, applied to these real inputs, produces $\varepsilon_k\in\{-1,1\}$ su
  \quad\text{satisfies}\quad
  \lVert U_\varepsilon-U_Y\rVert_\infty
  \le C\left(N^{-1/2}+
-        \sqrt{q_\delta\log(80/q_\delta)}\right).$$ We used the monotonicity of $q\log(80/q)$ on $(0,1/2]$; the zero-defect case causes no change. If $E_\delta=C\sqrt{q_\delta\log(80/q_\delta)}$, the two-sided modulus bound in Proposition 5.1 and (eq:projection-uniform) give, uniformly in $t$, $$S_\delta^{-1}-E_\delta-o(1)
+        \sqrt{q_\delta\log(80/q_\delta)}\right).$$ We used the monotonicity of $q\log(80/q)$ on $(0,1/2]$; the zero-defect case causes no change. If $E_\delta=C\sqrt{q_\delta\log(80/q_\delta)}$, the two-sided modulus bound in Proposition 5.1 and (6.1) give, uniformly in $t$, $$S_\delta^{-1}-E_\delta-o(1)
  \le |U_\varepsilon(t)|
  \le \frac{1+C\delta}{S_\delta}+E_\delta+o(1).$$ For fixed $\delta$, the $o(1)$ terms vanish as $N\to\infty$; the resulting bounds both tend to $1$ as $\delta\downarrow0$. Given the $\varepsilon$ of Theorem 1, choose $\delta$ so that the limiting bounds lie strictly between $1-\varepsilon$ and $1+\varepsilon$, and then take $N$ large enough to absorb the displayed errors. This proves the theorem.
 

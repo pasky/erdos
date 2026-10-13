@@ -59,11 +59,11 @@ For a trigonometric polynomial $F$ on $\mathbb T^m$, write $$\widehat F(a)=\int_
  \qquad a\in\mathbb Z^m.$$ A finite set is a *containing Fourier support* if every coefficient outside it vanishes; coefficients inside it are allowed to vanish as well. All norms and integrals on tori use probability Haar measure.
 
 **Proposition 2.1** (An auxiliary polynomial with controlled widths). *For every $0<\delta<1/20$, there exist integers $m\ge1$ and $r\ge2$, nonzero vectors $a_1,\ldots,a_r\in\mathbb Z^m$, a real-valued trigonometric polynomial $F$ on $\mathbb T^m$, and a vector $v\in\mathbb R^m$ with the following properties. No two of the vectors $a_i$ are parallel, and $$\mathcal A=\{a_1,-a_1,\ldots,a_r,-a_r\}$$ is a containing Fourier support of $F$. Moreover, $$\begin{equation}
- \label{eq:auxiliary-norms}
+ \tag{1}
  \left\lVert F\right\rVert_\infty\le1,
  \qquad \left\lVert F\right\rVert_2\ge1-3\delta.
 \end{equation}$$ Writing $\lambda_a=a\cdot v$ for $a\in\mathcal A$, we have $$\begin{equation}
- \label{eq:auxiliary-widths}
+ \tag{2}
  \lambda_a\ne0,
  \qquad \sum_{a\in\mathcal A}|\lambda_a|<1,
  \qquad
@@ -76,7 +76,7 @@ For a trigonometric polynomial $F$ on $\mathbb T^m$, write $$\widehat F(a)=\int_
 The construction starts with a polynomial of almost unit mean square. Quadratic oscillations in new variables spread its coefficients; finite Fourier truncation then gives the required polynomial. We first record the uniform quadratic estimate used to control the spread coefficients.
 
 **Lemma 2.2** (Uniform quadratic integration). *Let $g\in C_c^\infty(\mathbb R)$ and let $\beta\in\mathbb R\setminus\{0\}$ be fixed. As $T\to\infty$ through positive real values, $$\begin{equation}
- \label{eq:uniform-quadratic}
+ \tag{3}
  \begin{split}
  \int_{\mathbb R}g(x)\mathrm e(T\beta x^2/2-ux)\,dx
  ={}&\frac{\mathrm e(\operatorname{sgn}(\beta)/8-u^2/(2T\beta))}
@@ -94,7 +94,7 @@ The construction starts with a polynomial of almost unit mean square. Quadratic 
  \qquad
  \exp\left(-\frac{\pi\xi^2}{\rho-iT\beta}\right)
  \longrightarrow\mathrm e\left(-\frac{\xi^2}{2T\beta}\right).$$ The modulus of the exponential multiplier is at most one, and $|(\rho-iT\beta)^{-1/2}|\le(T|\beta|)^{-1/2}$. Since $\widehat g$ is Schwartz, dominated convergence applies on the Fourier side. On the original side it applies with dominating function $|g(x_0+y)|$. We obtain the exact identity $$\begin{equation}
- \label{eq:quadratic-exact}
+ \tag{4}
  \begin{split}
  \int_{\mathbb R}g(x)\mathrm e(T\beta x^2/2-ux)\,dx
  ={}&\frac{\mathrm e(\operatorname{sgn}(\beta)/8-u^2/(2T\beta))}
@@ -109,21 +109,21 @@ The construction starts with a polynomial of almost unit mean square. Quadratic 
 ##### A polynomial of almost unit mean square.
 
 Starting with $p_0=0$, introduce one new torus coordinate at each step and define $$\begin{equation}
- \label{eq:binary-recursion}
+ \tag{5}
  p_j(y_1,\ldots,y_j)
  =p_{j-1}(y_1,\ldots,y_{j-1})
   +\frac{1-p_{j-1}(y_1,\ldots,y_{j-1})^2}{2}\cos(2\pi y_j).
 \end{equation}$$ For $|z|\le1$, $(1-z^2)/2=(1-|z|)(1+|z|)/2\le1-|z|$. Thus $|p_j|\le1$ pointwise. Integrating first in $y_j$ shows that $p_j$ has mean zero. If $M_j=\int_{\mathbb T^j}p_j^2$, integration of the square in the new variable gives $$\begin{equation}
- \label{eq:binary-energy}
+ \tag{6}
  M_j=M_{j-1}+\frac18\int_{\mathbb T^{j-1}}(1-p_{j-1}^2)^2
  \ge M_{j-1}+\frac18(1-M_{j-1})^2.
 \end{equation}$$ Hence $M_j\uparrow1$: a limit below one would make the increments bounded below by a positive constant. Choose $d\ge2$ so that $M_d\ge1-\delta$.
 
-Let $\mathcal S\subset\mathbb Z^d$ be the Fourier support of $p_d$, consisting of the frequencies with nonzero coefficients, and put $c_s=\widehat p_d(s)$. Every vector in $\mathcal S$ has last nonzero coordinate equal to $1$ or $-1$. Indeed, the old term in (eq:binary-recursion) keeps the previous frequencies with new coordinate zero, whereas every frequency in the new term has new coordinate $1$ or $-1$. The two terms cannot cancel each other. There is no constant frequency because the mean is zero.
+Let $\mathcal S\subset\mathbb Z^d$ be the Fourier support of $p_d$, consisting of the frequencies with nonzero coefficients, and put $c_s=\widehat p_d(s)$. Every vector in $\mathcal S$ has last nonzero coordinate equal to $1$ or $-1$. Indeed, the old term in (5) keeps the previous frequencies with new coordinate zero, whereas every frequency in the new term has new coordinate $1$ or $-1$. The two terms cannot cancel each other. There is no constant frequency because the mean is zero.
 
 If two such vectors are parallel, comparing their last nonzero coordinates shows that they are equal or negatives. Let $s_1,\ldots,s_D$ be those with positive last nonzero coordinate. They are pairwise nonparallel and $\mathcal S=\{\pm s_1,\ldots,\pm s_D\}$. There are at least two: the coefficient at the first coordinate vector in $p_1$ is nonzero, and the coefficient at the second coordinate vector in $p_2$ is $(1-M_1)/4=7/32>0$; both persist in later steps.
 
-We have obtained the mean-square mass needed in (eq:auxiliary-norms). It remains to distribute its Fourier coefficients so that the total width and the coefficient-to-width ratios in (eq:auxiliary-widths) are both controlled.
+We have obtained the mean-square mass needed in (1). It remains to distribute its Fourier coefficients so that the total width and the coefficient-to-width ratios in (2) are both controlled.
 
 ##### Choosing the quadratic curvatures.
 
@@ -136,7 +136,7 @@ For each $j$, choose $b_j^0\in s_j^\perp$ which is not orthogonal to any $s_l$ w
    \prod_{l\ne j}|s_j\cdot b_l^0+\tau s_j\cdot b_l^1|
  \longrightarrow\frac{|c_{s_j}|^2}{\rho_{s_j}}
  \qquad(\tau\downarrow0).$$ The same limit holds for $-s_j$. Fix a sufficiently small $\tau>0$ so that, simultaneously for all $s\in\mathcal S$, $$\begin{equation}
- \label{eq:determinant-tuning}
+ \tag{7}
  (1-\delta)\frac{\tau|c_s|^2}{\rho_s}
  \le\Delta_s\le
  (1+\delta)\frac{\tau|c_s|^2}{\rho_s}.
@@ -145,25 +145,25 @@ For each $j$, choose $b_j^0\in s_j^\perp$ which is not orthogonal to any $s_l$ w
 ##### Spreading the coefficients.
 
 Choose $g\in C_c^\infty((-1/2,1/2))$ with $0\le g\le1$ and $$\left(\int_{\mathbb R}g(x)^2\,dx\right)^D\ge1-\delta.$$ For a large positive real parameter $B$, and $z\in[-1/2,1/2]^D$, define $$\begin{equation}
- \label{eq:spread-function}
+ \tag{8}
  G(y,z)=\left(\prod_{j=1}^Dg(z_j)\right)
  p_d\left(y+\frac B2\sum_{j=1}^Db_jz_j^2\right),
  \qquad y\in\mathbb T^d.
 \end{equation}$$ The cutoff makes this function vanish near every boundary face in $z$, so it extends to a smooth real function on $\mathbb T^{d+D}$. Translation invariance in $y$ gives $$\begin{equation}
- \label{eq:spread-norms}
+ \tag{9}
  \left\lVert G\right\rVert_\infty\le1,
  \qquad
  \left\lVert G\right\rVert_2^2=M_d\left(\int g^2\right)^D\ge(1-\delta)^2.
 \end{equation}$$
 
 Fourier integration first in $y$ shows that the only possible frequencies are $(s,u)$ with $s\in\mathcal S$ and $u\in\mathbb Z^D$, and $$\begin{equation}
- \label{eq:spread-coefficients}
+ \tag{10}
  \widehat G(s,u)=c_s\prod_{j=1}^DI_{s,j}(u_j),
  \qquad
  I_{s,j}(w)=\int_{\mathbb R}g(x)\mathrm e(B\beta_{s,j}x^2/2-wx)\,dx.
 \end{equation}$$ Lemma 2.2 and $0\le g\le1$ imply $$|I_{s,j}(w)|\le
  \frac{1+O(B^{-1})}{\sqrt{B|\beta_{s,j}|}}$$ uniformly for every real $w$. The constants may depend on the already fixed curvatures and cutoff. Since there are only finitely many pairs $(s,j)$, for all sufficiently large $B$ we have $$\begin{equation}
- \label{eq:spread-coefficient-bound}
+ \tag{11}
  |\widehat G(s,u)|\le
  (1+\delta)\frac{|c_s|}{\sqrt{B^D\Delta_s}}
  \qquad(s\in\mathcal S,\ u\in\mathbb Z^D).
@@ -179,7 +179,7 @@ The stationary points for these integrals suggest keeping the boxes $$\mathcal U
  &\le B^D\Delta_s\prod_{j=1}^D
        \left(1+\frac1{B|\beta_{s,j}|}\right)
  \le(1+\delta)B^D\Delta_s
- \label{eq:spread-box-count}
+ \tag{12}
 \end{align}$$ for all sufficiently large $B$. Thus the product $\Delta_s$ controls the number of retained frequencies as well as their coefficient bound.
 
 ##### A summable bound outside the boxes.
@@ -187,17 +187,17 @@ The stationary points for these integrals suggest keeping the boxes $$\mathcal U
 We need uniform approximation after truncation, so the additive error in Lemma 2.2 cannot simply be summed over the whole lattice. Instead, outside the boxes the phase has no stationary point near the amplitude support.
 
 Choose $\alpha<1/2$ with $\operatorname{supp}g\subset[-\alpha,\alpha]$. For a fixed $\beta\ne0$, if $|w|>B|\beta|/2$, then $$\begin{equation}
- \label{eq:offbox-derivative}
+ \tag{13}
  |B\beta x-w|\ge |w|-B|\beta|\alpha
  \ge c_{\alpha,\beta}(B+|w|)
  \qquad(x\in\operatorname{supp}g),
 \end{equation}$$ with $c_{\alpha,\beta}>0$. Indeed, the middle expression is at least $(1-2\alpha)|w|$, while $B<2|w|/|\beta|$. Integrate by parts $l$ times using $$\frac{1}{2\pi i(B\beta x-w)}\frac{d}{dx}
    \mathrm e(B\beta x^2/2-wx)=\mathrm e(B\beta x^2/2-wx).$$ There are no boundary terms. Each term after these integrations contains a bounded derivative of $g$ and a factor bounded by $C_l B^h(B+|w|)^{-l-h}$ for some $0\le h\le l$. Hence $$\begin{equation}
- \label{eq:offbox-bound}
+ \tag{14}
  \left|\int_{\mathbb R}g(x)\mathrm e(B\beta x^2/2-wx)\,dx\right|
  \le C_l(B+|w|)^{-l}
  \qquad\left(|w|>\frac{B|\beta|}{2}\right).
-\end{equation}$$ For integer $w$ the sum of this bound outside the one-dimensional box is $O(B^{1-l})$ when $l>1$. The full sum over integer $w$ is $O(B)$: inside there are $O(B)$ terms, each at most $\left\lVert g\right\rVert_{L^1(\mathbb R)}$, and the outside sum is bounded by (eq:offbox-bound).
+\end{equation}$$ For integer $w$ the sum of this bound outside the one-dimensional box is $O(B^{1-l})$ when $l>1$. The full sum over integer $w$ is $O(B)$: inside there are $O(B)$ terms, each at most $\left\lVert g\right\rVert_{L^1(\mathbb R)}$, and the outside sum is bounded by (14).
 
 The complement of $\mathcal U_s$ is contained in the union of the $D$ coordinate complements. Consequently $$\begin{align}
  \sum_{u\notin\mathcal U_s}|\widehat G(s,u)|
@@ -206,28 +206,28 @@ The complement of $\mathcal U_s$ is contained in the union of the $D$ coordinate
  \prod_{h\ne j}\left(\sum_{u_h\in\mathbb Z}|I_{s,h}(u_h)|\right)
  \notag\\
  &=O(B^{D-l}).
- \label{eq:spread-tail}
+ \tag{15}
 \end{align}$$ Fix an integer $l>D$. Summing over the finite set $\mathcal S$ shows that the total discarded coefficient mass tends to zero. The Fourier series is absolutely convergent, so this mass also bounds the uniform truncation error.
 
 ##### Truncation and the final budgets.
 
-Fix one $B$ large enough for (eq:spread-coefficient-bound), (eq:spread-box-count), and a truncation error at most $\delta$ in (eq:spread-tail). Define $$T_B(y,z)=\sum_{s\in\mathcal S}\sum_{u\in\mathcal U_s}
+Fix one $B$ large enough for (11), (12), and a truncation error at most $\delta$ in (15). Define $$T_B(y,z)=\sum_{s\in\mathcal S}\sum_{u\in\mathcal U_s}
               \widehat G(s,u)\mathrm e(s\cdot y+u\cdot z),
- \qquad F=\frac{T_B}{1+\delta}.$$ The boxes satisfy $\mathcal U_{-s}=\mathcal U_s=-\mathcal U_s$. Since $G$ is real, the retained coefficients have conjugate symmetry, and $F$ is real. By (eq:spread-norms) and the uniform error, $$\left\lVert F\right\rVert_\infty\le1,
+ \qquad F=\frac{T_B}{1+\delta}.$$ The boxes satisfy $\mathcal U_{-s}=\mathcal U_s=-\mathcal U_s$. Since $G$ is real, the retained coefficients have conjugate symmetry, and $F$ is real. By (9) and the uniform error, $$\left\lVert F\right\rVert_\infty\le1,
  \qquad
  \left\lVert F\right\rVert_2\ge\frac{1-2\delta}{1+\delta}\ge1-3\delta.$$
 
 Set $m=d+D$ and take the containing support $$\mathcal A=\{(s,u):s\in\mathcal S,\ u\in\mathcal U_s\}.$$ Its vectors are nonzero. If two are parallel, projection onto the first $d$ coordinates forces the proportionality factor to be $1$ or $-1$; the full vectors must then be equal or negatives. Thus one representative from each signed pair gives nonparallel vectors $a_1,\ldots,a_r$. Every box contains zero, so $r\ge D\ge2$. Some of the corresponding Fourier coefficients can vanish; the containing support and all estimates remain valid in that case.
 
 Finally choose $$v=\left(\frac{\gamma}{\tau B^D(1+\delta)^3},0\right)\in\mathbb R^{d+D}.$$ For $a=(s,u)\in\mathcal A$, $$|\lambda_a|=|a\cdot v|
- =\frac{\rho_s}{\tau B^D(1+\delta)^3}>0.$$ Using (eq:spread-box-count) and (eq:determinant-tuning), with both signs already included in $\mathcal S$, gives $$\begin{align*}
+ =\frac{\rho_s}{\tau B^D(1+\delta)^3}>0.$$ Using (12) and (7), with both signs already included in $\mathcal S$, gives $$\begin{align*}
  \sum_{a\in\mathcal A}|\lambda_a|
  &=\sum_{s\in\mathcal S}|\mathcal U_s|
      \frac{\rho_s}{\tau B^D(1+\delta)^3}\\
  &\le\frac1{\tau(1+\delta)^2}\sum_{s\in\mathcal S}\Delta_s\rho_s
  \le\frac1{1+\delta}\sum_{s\in\mathcal S}|c_s|^2
  =\frac{M_d}{1+\delta}<1.
-\end{align*}$$ The coefficient bound (eq:spread-coefficient-bound), divided by $1+\delta$, also gives $$\frac{|\widehat F(a)|^2}{|\lambda_a|}
+\end{align*}$$ The coefficient bound (11), divided by $1+\delta$, also gives $$\frac{|\widehat F(a)|^2}{|\lambda_a|}
  \le\frac{|c_s|^2\tau(1+\delta)^3}{\Delta_s\rho_s}
  \le\frac{(1+\delta)^3}{1-\delta}=K_\delta^2.$$ These are all the assertions of the proposition. ◻
 
@@ -255,8 +255,8 @@ In particular, a sequence of $r$-uniform hypergraphs with all degrees $(1+o(1))D
 
 Choose positive numbers $\alpha_i>2w_i$ with $\sum_i\alpha_i=1$. Approximating large multiples of the $\alpha_i$ by positive odd integers gives fixed odd integers $L_i$ such that, with $L=\sum_i L_i$, $$\begin{equation}
  w_i<\frac{L_i}{2L}\qquad(1\le i\le r).
- \label{eq:packing-width-slack}
-\end{equation}$$ On a grid with spacing $1/q$, a type-$i$ slot will have length $L_i/q$. We seek a matching of size $H\sim q/(2L)$, so that (eq:packing-width-slack) makes the desired width $w_i/H$ strictly smaller than the slot length.
+ \tag{16}
+\end{equation}$$ On a grid with spacing $1/q$, a type-$i$ slot will have length $L_i/q$. We seek a matching of size $H\sim q/(2L)$, so that (16) makes the desired width $w_i/H$ strictly smaller than the slot length.
 
 Let $b$ be the rank over $\mathbb Q$ of the matrix with rows $a_i$. Then $b\ge2$. For all sufficiently large primes $q$, this matrix has rank $b$ over $\mathbb F_q$, and every pair of its rows has rank two. To see this, exclude the prime divisors of one nonzero $b$-by-$b$ minor and one nonzero two-by-two minor for each pair of rows. In the rest of the proof $q$ tends to infinity through these primes. All implied constants may depend on the fixed forms and the fixed integers $L_i$.
 
@@ -266,10 +266,10 @@ Partition the integers periodically into consecutive slots, each period consisti
 
 A chunk of $u$ sites has $u/L+O(1)$ retained slots of each type, uniformly in the shift. Thus every realization has $$\begin{equation}
  \frac{q}{2L}+O(q/R+1)
- \label{eq:packing-vertex-count}
+ \tag{17}
 \end{equation}$$ vertices of each type. Call a site interior if its distance from both ends of its chunk is at least $L$. Let $C_j(s)$ indicate that $s$ is the oriented center of a type-$j$ vertex; in particular $C_j(0)=0$. If $|s|_q$ is interior, exactly one shift modulo $L$ puts a type-$j$ middle site there, and the required orientation has probability $1/2$. Consequently $$\begin{equation}
  \mathbb E C_j(s)=p,\qquad p=\frac1{2L},
- \label{eq:packing-center-probability}
+ \tag{18}
 \end{equation}$$ whenever $|s|_q$ is interior. Center events in different chunks are independent.
 
 ##### Compatibility, degrees, and codegrees.
@@ -280,10 +280,10 @@ For $s\ne0$, define $$Z_{i,s}=\frac1{q^{m-1}}
  \sum_{\substack{y\in\mathbb F_q^m\\a_i\cdot y=s}}
        \prod_{j\ne i}C_j(a_j\cdot y).$$ The affine fiber in this sum has $q^{m-1}$ elements. If the vertex $(i,s)$ is present, division by the multiplicity $q^{m-b}$ gives its degree: $$\begin{equation}
  d(i,s)=q^{b-1}Z_{i,s}.
- \label{eq:packing-degree}
+ \tag{19}
 \end{equation}$$ Fixing two centers of different types leaves $q^{m-2}$ possible generating vectors, by pairwise rank two. Their codegree is therefore at most $$\begin{equation}
  q^{b-2}.
- \label{eq:packing-codegree}
+ \tag{20}
 \end{equation}$$ Vertices of the same type have codegree zero.
 
 We will show that almost all present vertices have degree close to $D_q=p^{r-1}q^{b-1}$. Joint independence of all the forms is unavailable. Instead, most vectors in a fixed fiber put the other evaluations in different chunks, where the slot choices are independent. The same observation for two fiber vectors will control the variance.
@@ -293,15 +293,15 @@ We will show that almost all present vertices have degree close to $D_q=p^{r-1}q
 All relations in this paragraph are over $\mathbb F_q$. For a fixed type $i$, exclude the nonzero centers $s$ for which there are indices $j<l$, both different from $i$, and a relation $$\begin{equation}
  a_j+a_l=c a_i\quad\text{or}\quad a_j-a_l=c a_i,
  \qquad c\in\mathbb F_q^{\times},\qquad |cs|_q\le R.
- \label{eq:packing-exceptional-relation}
+ \tag{21}
 \end{equation}$$ Call this set $E_i$. For either signed combination of a fixed pair, there is at most one such $c$; if the combination is a multiple of $a_i$, the multiple cannot be zero by pairwise nonparallelism. Since multiplication by $c\ne0$ is a bijection, $$\begin{equation}
  |E_i|\le 2\binom{r-1}{2}(2R+1)=O(R).
- \label{eq:packing-exception-count}
+ \tag{22}
 \end{equation}$$
 
 Fix $s\ne0$ outside $E_i$, and let $Q_s$ be the chunk containing $|s|_q$. Sample $y$ uniformly from $a_i\cdot y=s$, independently of the random slots. For each $j\ne i$, pairwise rank two makes $a_j\cdot y$ uniform on $\mathbb F_q$. There are at most $2LK$ noninterior positive sites, including those in a short final chunk. Thus a specified evaluation is zero, folds to a noninterior site, or folds into $Q_s$ with probability at most $$\begin{equation}
  \tau_q=\frac{1+4LK+2R}{q}=O(q^{-1/2}).
- \label{eq:packing-boundary-probability}
+ \tag{23}
 \end{equation}$$
 
 Two residues folding into the same chunk have either a sum or a difference with folded absolute value at most $R$. On the fiber $a_i\cdot y=s$, each of $(a_j+a_l)\cdot y$ and $(a_j-a_l)\cdot y$ is either uniform on $\mathbb F_q$ or constant. The latter case occurs precisely when its linear form is a multiple $c a_i$, and its value is then $cs$. Our exclusion of $E_i$ prevents that constant from having folded absolute value at most $R$. The uniform case has probability at most $(2R+1)/q$. A union bound therefore shows that the $r-1$ evaluations fold into distinct interior chunks, all different from $Q_s$, except on an $O(q^{-1/2})$ fraction of the fiber.
@@ -309,24 +309,24 @@ Two residues folding into the same chunk have either a sum or a difference with 
 For the second moment take independent uniform vectors $y,y'$ in the same fiber. The preceding argument controls collisions within each copy. Across copies, $a_j\cdot y$ and $a_l\cdot y'$ are independent uniform residues whenever $j,l\ne i$, including $j=l$. Their sum and difference are uniform, so the same bound controls each cross-copy collision. For $u=1$ or $u=2$ independent fiber samples, the fraction for which the combined list fails to occupy distinct interior chunks outside $Q_s$ is at most $$\begin{equation}
  u(r-1)\tau_q+
  2\binom{u(r-1)}2\frac{2R+1}{q}=O(q^{-1/2}).
- \label{eq:packing-good-tuples}
+ \tag{24}
 \end{equation}$$
 
-Let $V_{i,s}$ be the event that the vertex $(i,s)$ is present, and condition on this event whenever it has positive probability. It depends only on the random choices in $Q_s$. For every fiber tuple outside the exceptional fraction in (eq:packing-good-tuples), the required center events occur in distinct other chunks. Conditional on $V_{i,s}$ they remain independent, each with probability $p$. The exceptional fraction depends only on the fiber vectors, and its contribution to an expectation is between zero and that fraction. Averaging over one and two fiber vectors therefore gives $$\begin{align}
+Let $V_{i,s}$ be the event that the vertex $(i,s)$ is present, and condition on this event whenever it has positive probability. It depends only on the random choices in $Q_s$. For every fiber tuple outside the exceptional fraction in (24), the required center events occur in distinct other chunks. Conditional on $V_{i,s}$ they remain independent, each with probability $p$. The exceptional fraction depends only on the fiber vectors, and its contribution to an expectation is between zero and that fraction. Averaging over one and two fiber vectors therefore gives $$\begin{align}
  \mathbb E[Z_{i,s}\mid V_{i,s}]&=p^{r-1}+O(q^{-1/2}),
- \label{eq:packing-first-moment}\\
+ \tag{25}\\
  \mathbb E[Z_{i,s}^2\mid V_{i,s}]&=p^{2(r-1)}+O(q^{-1/2}).
- \label{eq:packing-second-moment}
+ \tag{26}
 \end{align}$$ Here the expectations are over the slots and their orientations; the square in the second line expands as the average over the independent pair $y,y'$. The bounds are uniform in $s\notin E_i$. No interior condition on $|s|_q$ is needed, since the entire chunk $Q_s$ was avoided.
 
 ##### Deletion and a large matching.
 
 Set $\varepsilon_q=q^{-1/8}$. The two moment estimates imply $$\mathbb E\bigl[(Z_{i,s}-p^{r-1})^2\mid V_{i,s}\bigr]
- =O(q^{-1/2}).$$ By Chebyshev’s inequality and (eq:packing-degree), a present vertex with $s\notin E_i$ has degree outside $[(1-\varepsilon_q)D_q,(1+\varepsilon_q)D_q]$ with conditional probability $O(q^{-1/4})$. Summing over the at most $r(q-1)$ candidate centers, the expected number of these vertices is $O(q^{3/4})$. The vertices with centers in the sets $E_i$ number $O(q^{1/2})$ in every realization. Markov’s inequality thus gives a realization with at most $q^{7/8}$ vertices in these two classes, for sufficiently large $q$.
+ =O(q^{-1/2}).$$ By Chebyshev’s inequality and (19), a present vertex with $s\notin E_i$ has degree outside $[(1-\varepsilon_q)D_q,(1+\varepsilon_q)D_q]$ with conditional probability $O(q^{-1/4})$. Summing over the at most $r(q-1)$ candidate centers, the expected number of these vertices is $O(q^{3/4})$. The vertices with centers in the sets $E_i$ number $O(q^{1/2})$ in every realization. Markov’s inequality thus gives a realization with at most $q^{7/8}$ vertices in these two classes, for sufficiently large $q$.
 
-Delete all these vertices and their incident edges. A surviving vertex loses at most the sum of its codegrees with deleted vertices, which by (eq:packing-codegree) is at most $$q^{7/8}q^{b-2}=O(q^{-1/8}D_q).$$ Every remaining degree is consequently $(1+O(q^{-1/8}))D_q$, and the maximum codegree is still at most $q^{b-2}=o(D_q)$. Moreover, (eq:packing-vertex-count) shows that each type retains $(1+o(1))q/(2L)$ vertices. The matching consequence of Theorem 3.2 gives a matching of size at least $(1-o(1))q/(2L)$. A matching uses one vertex of each type per edge, so its size is also at most $(1+o(1))q/(2L)$. We have obtained $$\begin{equation}
+Delete all these vertices and their incident edges. A surviving vertex loses at most the sum of its codegrees with deleted vertices, which by (20) is at most $$q^{7/8}q^{b-2}=O(q^{-1/8}D_q).$$ Every remaining degree is consequently $(1+O(q^{-1/8}))D_q$, and the maximum codegree is still at most $q^{b-2}=o(D_q)$. Moreover, (17) shows that each type retains $(1+o(1))q/(2L)$ vertices. The matching consequence of Theorem 3.2 gives a matching of size at least $(1-o(1))q/(2L)$. A matching uses one vertex of each type per edge, so its size is also at most $(1+o(1))q/(2L)$. We have obtained $$\begin{equation}
  H=(1+o(1))\frac q{2L}.
- \label{eq:packing-matching-size}
+ \tag{27}
 \end{equation}$$
 
 ##### From slots to closed intervals.
@@ -335,7 +335,7 @@ For each matching edge choose a generating vector $y_h\in\mathbb F_q^m$, and set
 
 A slot with sites $t,\ldots,t+L_i-1$ determines the real interval $$J=\left[\frac{t-1/2}{q},\frac{t+L_i-1/2}{q}\right],$$ of length $L_i/q$ and centered at its middle site divided by $q$. All positive slot intervals lie in $[1/(2q),1/2]$ and have disjoint interiors. Their reflections modulo one lie in $[1/2,1-1/(2q)]$ and also have disjoint interiors. The whole family therefore has disjoint interiors, although adjacent intervals may share endpoints, including at $1/2$.
 
-By (eq:packing-width-slack) and (eq:packing-matching-size), for all sufficiently large $q$, $$\frac{w_i}{H}<\frac{L_i}{q}\qquad(1\le i\le r).$$ Each desired closed interval is thus contained strictly inside its slot interval or its reflection. The two signs use this same pair regardless of the chosen orientation. The matching never reuses a slot, so all $2rH$ closed intervals are pairwise disjoint. ◻
+By (16) and (27), for all sufficiently large $q$, $$\frac{w_i}{H}<\frac{L_i}{q}\qquad(1\le i\le r).$$ Each desired closed interval is thus contained strictly inside its slot interval or its reflection. The two signs use this same pair regardless of the chosen orientation. The matching never reuses a slot, so all $2rH$ closed intervals are pairwise disjoint. ◻
 
 Each interval in the lemma is disjoint from its reflection and hence avoids $0$ and $1/2$. Once the forms and widths are fixed, we fix one prime and one matching from the proof. The resulting finite data $H,\theta_1,\ldots,\theta_H$ are independent of the later sampling length $N$; in particular, this use of a finite field imposes no arithmetic restriction on $N$.
 
@@ -349,21 +349,21 @@ Recall that, for a real vector $Y=(Y_0,\ldots,Y_{N-1})$, we write $$U_Y(t)=\frac
  \qquad b=\frac18.$$ There are a smooth even function $B:\mathbb T\to[0,K_\delta]$ and, for every positive integer $N$, real numbers $Y_{N,k}\in[-1,1]$ $(0\le k<N)$ and a smooth function $B_N:\mathbb T\to\mathbb C$ such that $$\begin{gather}
  B_N(-t)=\overline{B_N(t)},\qquad |B_N(t)|=B(t),
  \qquad \left\lVert U_{Y_N}-B_N\right\rVert_\infty=O_\delta(N^{-1}),
- \label{eq:starting-approximation}\\
+ \tag{28}\\
  \int_\mathbb TB(t)^2\,dt\ge1-7\delta,
  \qquad
  \frac1N\sum_{k=0}^{N-1}Y_{N,k}^2\ge1-8\delta
  \quad\text{for all sufficiently large }N.
- \label{eq:starting-mass}
+ \tag{29}
 \end{gather}$$ The function $B$ vanishes near $0$ and $1/2$. Its superlevel set $\{t\in[0,1/2]:B(t)\ge b\}$ is a nonempty finite union of pairwise disjoint closed intervals of positive length, contained in $(0,1/2)$. Let $J_j=[u_j,v_j]$, $1\le j\le M$, be the closures of its complementary intervals in $[0,1/2]$, and put $$\begin{equation}
- \label{eq:starting-gaps}
+ \tag{30}
  l_j=v_j-u_j>0,\qquad
  L=\sum_{j=1}^M l_j,\qquad 0<L\le C_0\delta,
  \qquad C_0=10.
 \end{equation}$$ Thus $B\le b$ on the gaps $J_j$ and $B\ge b$ off their union.*
 
 *An endpoint $z$ of a gap other than $0$ and $1/2$ is called a *transition endpoint*. At each such $z$, $B(z)=b$, and on a neighborhood $V_z\subset(0,1/2)$ there are a real constant $\alpha_z$ and a real quadratic polynomial $\psi_z$ such that, for every $N$, $$\begin{equation}
- \label{eq:starting-endpoint-phase}
+ \tag{31}
  B_N(t)=B(t)\mathrm e\bigl(\alpha_z+N\psi_z(t)\bigr)
  \quad(t\in V_z),\qquad
  x_z:=\psi_z'(z)\in(0,1).
@@ -371,7 +371,7 @@ Recall that, for a real vector $Y=(Y_0,\ldots,Y_{N-1})$, we write $$U_Y(t)=\frac
 
 ### A uniform formula for quadratic sums
 
-The approximation in (eq:starting-approximation) must hold at every angle, including where a stationary point enters or leaves the support of a cutoff. Lemma 2.2 gives this uniformity; Poisson summation converts it into the following discrete formula.
+The approximation in (28) must hold at every angle, including where a stationary point enters or leaves the support of a cutoff. Lemma 2.2 gives this uniformity; Poisson summation converts it into the following discrete formula.
 
 **Lemma 4.2** (Quadratic sampling). *Let $\chi\in C_c^\infty(\mathbb R)$, let $x_*\in\mathbb R$ and $\lambda\in\mathbb R\setminus\{0\}$, and let $J\subset\mathbb R$ be compact. For $\beta\in J$ and $\ell\in\mathbb Z$, put $$x_{\beta,\ell}=x_*+\frac{\ell-\beta}{\lambda},
  \qquad
@@ -386,7 +386,7 @@ The approximation in (eq:starting-approximation) must hold at every angle, inclu
  \mathrm e\!\left(\frac{\operatorname{sgn}\lambda}{8}
                       +N\omega_{\beta,\ell}\right)
  +O(N^{-1}).
- \label{eq:sampling-poisson}
+ \tag{32}
 \end{align}$$ The sum on the right has nonzero terms in one fixed finite set of indices for all $\beta\in J$. The error constant depends only on $\chi,x_*,\lambda,J$.*
 
 *Proof.* For $\beta\in J$ and $\ell\in\mathbb Z$, define $$\phi_{\beta,\ell}(x)
@@ -397,7 +397,7 @@ The approximation in (eq:starting-approximation) must hold at every angle, inclu
  &\hspace{30mm}=
  \sqrt N\sum_{\ell\in\mathbb Z}
        \int_\mathbb R\chi(x)\mathrm e\!\left(N\phi_{\beta,\ell}(x)\right)\,dx.
- \label{eq:sampling-poisson-identity}
+ \tag{33}
 \end{align}$$ The factor $N$ from the change of scale combines with the original $N^{-1/2}$ to give $\sqrt N$.
 
 Choose a fixed integer $Q$ so large that, for $|\ell|>Q$, $$|\phi'_{\beta,\ell}(x)|
@@ -410,7 +410,7 @@ Choose a fixed integer $Q$ so large that, for $|\ell|>Q$, $$|\phi'_{\beta,\ell}(
    -\frac{3\lambda\chi'}{(\phi'_{\beta,\ell})^3}
    +\frac{3\lambda^2\chi}{(\phi'_{\beta,\ell})^4}
   \right)\mathrm e(N\phi_{\beta,\ell}).
-\end{align*}$$ Each integral is $O(N^{-2}|\ell|^{-2})$. The entire tail in (eq:sampling-poisson-identity) is therefore $O(N^{-3/2})$, uniformly in $\beta$. This summable bound is needed before adding the stationary-phase errors.
+\end{align*}$$ Each integral is $O(N^{-2}|\ell|^{-2})$. The entire tail in (33) is therefore $O(N^{-3/2})$, uniformly in $\beta$. This summable bound is needed before adding the stationary-phase errors.
 
 For each of the finitely many indices $|\ell|\le Q$, expand $$N\phi_{\beta,\ell}(x)
  =\frac{N\lambda x^2}{2}
@@ -420,7 +420,7 @@ For each of the finitely many indices $|\ell|\le Q$, expand $$N\phi_{\beta,\ell}
 
 *Proof of Proposition 4.1.* Fix $\delta$, and take $F$, $\mathcal A=\{\pm a_i:1\le i\le r\}$, and $v$ from Proposition 2.1. Write $$F(y)=\sum_{a\in\mathcal A}c_a\mathrm e(a\cdot y),
  \qquad c_a=\widehat F(a),\qquad \lambda_a=a\cdot v.$$ The widths $w_i=|\lambda_{a_i}|$ satisfy $2\sum_iw_i<1$. Lemma 3.1, with all centers negated, supplies $H\ge1$ and $\theta_1,\ldots,\theta_H\in\mathbb T^m$ such that the closed arcs $$\begin{equation}
- \label{eq:sampling-packed-intervals}
+ \tag{34}
  I_{a,h}=-a\cdot\theta_h+
  \left[-\frac{|\lambda_a|}{2H},\frac{|\lambda_a|}{2H}\right]
  \pmod1,
@@ -428,19 +428,19 @@ For each of the finitely many indices $|\ell|\le Q$, expand $$N\phi_{\beta,\ell}
 \end{equation}$$ are pairwise disjoint. They have length less than one and avoid $0$ and $1/2$: an arc containing either point would meet its distinct reflected arc $I_{-a,h}$ there.
 
 Put $x_h^*=(h-1/2)/H$. Choose $$\begin{equation}
- \label{eq:sampling-cutoffs}
+ \tag{35}
  \chi_h\in C_c^\infty\!\left((h-1)/H,h/H\right),\qquad
  0\le\chi_h\le1,\qquad
  \sum_{h=1}^H\int_\mathbb R\chi_h^2\ge1-\delta.
-\end{equation}$$ We require each $\chi_h$ to be positive on a single interval; on that interval it strictly increases to a plateau at height one and strictly decreases after the plateau. The plateau has positive length. Such cutoffs exist with arbitrarily short boundary layers in each block, giving the last inequality in (eq:sampling-cutoffs). Choose real lifts of the $\theta_h$, and set $$\begin{equation}
- \label{eq:sampling-coefficients}
+\end{equation}$$ We require each $\chi_h$ to be positive on a single interval; on that interval it strictly increases to a plateau at height one and strictly decreases after the plateau. The plateau has positive length. Such cutoffs exist with arbitrarily short boundary layers in each block, giving the last inequality in (35). Choose real lifts of the $\theta_h$, and set $$\begin{equation}
+ \tag{36}
  Y_{N,k}=\sum_{h=1}^H\chi_h(k/N)
  F\!\left(k\theta_h+
        \frac N2v(k/N-x_h^*)^2\right),\qquad 0\le k<N.
 \end{equation}$$ At most one cutoff is nonzero for each $k$. Since $F$ is real and $\left\lVert F\right\rVert_\infty\le1$, these are real numbers in $[-1,1]$.
 
 For $a\in\mathcal A$, $1\le h\le H$, and $\ell\in\mathbb Z$, define, for $t\in\mathbb R$, $$\begin{equation}
- \label{eq:sampling-phases}
+ \tag{37}
  \begin{split}
  u_{a,h,\ell}(t)&=t+a\cdot\theta_h-\ell,\\
  x_{a,h,\ell}(t)&=x_h^*-
@@ -449,7 +449,7 @@ For $a\in\mathcal A$, $1\le h\le H$, and $\ell\in\mathbb Z$, define, for $t\in\m
                       -\frac{u_{a,h,\ell}(t)^2}{2\lambda_a}.
  \end{split}
 \end{equation}$$ Define the leading waves by $$\begin{equation}
- \label{eq:sampling-leading-waves}
+ \tag{38}
  B_N(t)=\sum_{a,h,\ell}
  \frac{c_a}{\sqrt{|\lambda_a|}}\,
  \chi_h\bigl(x_{a,h,\ell}(t)\bigr)
@@ -457,18 +457,18 @@ For $a\in\mathcal A$, $1\le h\le H$, and $\ell\in\mathbb Z$, define, for $t\in\m
                   +N\psi_{a,h,\ell}(t)\right).
 \end{equation}$$ The sum is locally finite; shifting $t$ by an integer merely reindexes $\ell$. It defines a smooth function on $\mathbb T$.
 
-Expand $F$ in (eq:sampling-coefficients) and apply Lemma 4.2 with $\beta=t+a\cdot\theta_h$, $\lambda=\lambda_a$, $x_*=x_h^*$, and $\chi=\chi_h$. The sum over $k$ extends to $\mathbb Z$ because the cutoffs are supported strictly inside $(0,1)$. As $t$ ranges over a fundamental interval, all linear frequencies $\beta$ lie in a fixed compact interval. There are only finitely many pairs $(a,h)$, so $$\begin{equation}
- \label{eq:sampling-uniform-approximation}
+Expand $F$ in (36) and apply Lemma 4.2 with $\beta=t+a\cdot\theta_h$, $\lambda=\lambda_a$, $x_*=x_h^*$, and $\chi=\chi_h$. The sum over $k$ extends to $\mathbb Z$ because the cutoffs are supported strictly inside $(0,1)$. As $t$ ranges over a fundamental interval, all linear frequencies $\beta$ lie in a fixed compact interval. There are only finitely many pairs $(a,h)$, so $$\begin{equation}
+ \tag{39}
  \left\lVert U_{Y_N}-B_N\right\rVert_\infty=O_\delta(N^{-1}).
 \end{equation}$$
 
-For a term of (eq:sampling-leading-waves) to be nonzero, $x_{a,h,\ell}(t)$ must lie in the $h$th block. Thus $$|t+a\cdot\theta_h-\ell|<\frac{|\lambda_a|}{2H},$$ so $t\pmod1$ lies in $I_{a,h}$. Pairwise disjointness allows at most one pair $(a,h)$, and its arc length is less than one, so at most one integer $\ell$ contributes. Consequently $|B_N(t)|$ does not depend on $N$. It equals the smooth nonnegative function $$\begin{equation}
- \label{eq:sampling-modulus}
+For a term of (38) to be nonzero, $x_{a,h,\ell}(t)$ must lie in the $h$th block. Thus $$|t+a\cdot\theta_h-\ell|<\frac{|\lambda_a|}{2H},$$ so $t\pmod1$ lies in $I_{a,h}$. Pairwise disjointness allows at most one pair $(a,h)$, and its arc length is less than one, so at most one integer $\ell$ contributes. Consequently $|B_N(t)|$ does not depend on $N$. It equals the smooth nonnegative function $$\begin{equation}
+ \tag{40}
  B(t)=\sum_{a,h,\ell}
  \frac{|c_a|}{\sqrt{|\lambda_a|}}\,
                  \chi_h\bigl(x_{a,h,\ell}(t)\bigr),
  \qquad 0\le B(t)\le K_\delta.
-\end{equation}$$ It vanishes near $0$ and $1/2$ because all its supporting arcs avoid those points. As $F$ is real, $c_{-a}=\overline{c_a}$ and $\lambda_{-a}=-\lambda_a$. In (eq:sampling-leading-waves), replacing $(t,a,\ell)$ with $(-t,-a,-\ell)$ changes $u$ to $-u$, keeps $x$ unchanged, and changes $\psi$ and $\operatorname{sgn}\lambda_a$ to their negatives. Hence $B_N(-t)=\overline{B_N(t)}$, and $B$ is even.
+\end{equation}$$ It vanishes near $0$ and $1/2$ because all its supporting arcs avoid those points. As $F$ is real, $c_{-a}=\overline{c_a}$ and $\lambda_{-a}=-\lambda_a$. In (38), replacing $(t,a,\ell)$ with $(-t,-a,-\ell)$ changes $u$ to $-u$, keeps $x$ unchanged, and changes $\psi$ and $\operatorname{sgn}\lambda_a$ to their negatives. Hence $B_N(-t)=\overline{B_N(t)}$, and $B$ is even.
 
 The disjointness also makes the mass calculation exact. On the arc indexed by $(a,h)$, the change of variables from $x$ to $t$ has absolute Jacobian $|\lambda_a|$. Therefore $$\begin{align}
  \int_\mathbb TB^2
@@ -477,24 +477,24 @@ The disjointness also makes the mass calculation exact. On the arc indexed by $(
  \notag\\
  &=\left\lVert F\right\rVert_2^2\sum_{h=1}^H\int_\mathbb R\chi_h^2
  \ge(1-3\delta)^2(1-\delta)\ge1-7\delta.
- \label{eq:sampling-mass-identity}
+ \tag{41}
 \end{align}$$ If $E_N=\left\lVert U_{Y_N}-B_N\right\rVert_\infty$, then $$\left|\int_\mathbb T|U_{Y_N}|^2-\int_\mathbb TB^2\right|
- \le E_N(2K_\delta+E_N)=O_\delta(N^{-1}).$$ Parseval now gives the second inequality in (eq:starting-mass) for all sufficiently large $N$. This calculation covers repeated values of $\lambda_a$, since separation occurs in the angle variable.
+ \le E_N(2K_\delta+E_N)=O_\delta(N^{-1}).$$ Parseval now gives the second inequality in (29) for all sufficiently large $N$. This calculation covers repeated values of $\lambda_a$, since separation occurs in the angle variable.
 
 ##### The gaps and their endpoint phases.
 
-It remains to locate the small values of the fixed function $B$. Each arc supports one bump of height $|c_a|/\sqrt{|\lambda_a|}$. If this height is at least $b$, the set where that bump is at least $b$ is a closed interval of positive length. The positive-length plateau ensures this even when the height equals $b$. A lower bump, including one with $c_a=0$, contributes no such interval. The supporting arcs are disjoint and avoid $0,1/2$, so the claimed description of the superlevel set follows. It is nonempty because (eq:sampling-mass-identity) gives $\int B^2>b^2$, and evenness places a nonempty part in each half-circle. The closures of the complementary intervals are thus precisely the gaps $J_j$ in the statement, and every gap has positive length.
+It remains to locate the small values of the fixed function $B$. Each arc supports one bump of height $|c_a|/\sqrt{|\lambda_a|}$. If this height is at least $b$, the set where that bump is at least $b$ is a closed interval of positive length. The positive-length plateau ensures this even when the height equals $b$. A lower bump, including one with $c_a=0$, contributes no such interval. The supporting arcs are disjoint and avoid $0,1/2$, so the claimed description of the superlevel set follows. It is nonempty because (41) gives $\int B^2>b^2$, and evenness places a nonempty part in each half-circle. The closures of the complementary intervals are thus precisely the gaps $J_j$ in the statement, and every gap has positive length.
 
-Let $E=\{t\in\mathbb T:B(t)<b\}$. The endpoints of the finitely many intervals have measure zero, and evenness gives $|E|=2L$. Using $B\le K_\delta$ and (eq:sampling-mass-identity), $$1-7\delta\le\int_\mathbb TB^2
+Let $E=\{t\in\mathbb T:B(t)<b\}$. The endpoints of the finitely many intervals have measure zero, and evenness gives $|E|=2L$. Using $B\le K_\delta$ and (41), $$1-7\delta\le\int_\mathbb TB^2
  \le b^2|E|+K_\delta^2(1-|E|).$$ Thus $$\begin{equation}
- \label{eq:sampling-gap-measure}
+ \tag{42}
  L\le\frac{K_\delta^2-1+7\delta}
               {2(K_\delta^2-b^2)}\le10\delta.
 \end{equation}$$ For the last inequality, $K_\delta^2-1\le5\delta$ when $\delta<1/100$ and $K_\delta^2-b^2\ge1-1/64$. Also $L>0$, since $B$ vanishes on neighborhoods of $0$ and $1/2$.
 
-Finally, at a transition endpoint $z$, continuity gives $B(z)=b>0$. There is a neighborhood of $z$ on which exactly one term of (eq:sampling-leading-waves) is nonzero. For its fixed indices $(a,h,\ell)$ choose $\alpha_z\in\mathbb R$ with $$\mathrm e(\alpha_z)=\frac{c_a}{|c_a|}
+Finally, at a transition endpoint $z$, continuity gives $B(z)=b>0$. There is a neighborhood of $z$ on which exactly one term of (38) is nonzero. For its fixed indices $(a,h,\ell)$ choose $\alpha_z\in\mathbb R$ with $$\mathrm e(\alpha_z)=\frac{c_a}{|c_a|}
                  \mathrm e\!\left(\frac{\operatorname{sgn}\lambda_a}{8}\right),
- \qquad \psi_z=\psi_{a,h,\ell}.$$ This yields (eq:starting-endpoint-phase). Differentiating (eq:sampling-phases) gives $$\psi_z'(z)=x_{a,h,\ell}(z)\in((h-1)/H,h/H)\subset(0,1),$$ because the cutoff is positive there. All data have been fixed before $N$ varies, and every positive integer $N$ was permitted in the construction. This completes the proof. ◻
+ \qquad \psi_z=\psi_{a,h,\ell}.$$ This yields (31). Differentiating (37) gives $$\psi_z'(z)=x_{a,h,\ell}(z)\in((h-1)/H,h/H)\subset(0,1),$$ because the cutoff is positive there. All data have been fixed before $N$ varies, and every positive integer $N$ was permitted in the construction. This completes the proof. ◻
 
 ## A correction with small Fourier coefficients
 
@@ -512,11 +512,11 @@ On most of each gap, the leading phase derivative runs through a range reserved 
 
 *There is an absolute constant $D$ such that, for every sufficiently large integer $N$, there is a continuous function $R_N:\mathbb T\to\mathbb C$ satisfying $R_N(-t)=\overline{R_N(t)}$, supported on the gaps and their reflections, for which $$\begin{align}
  b-o(1)&\le |B_N(t)+R_N(t)|\le K_\delta
-       &&(t\in\mathbb T),\label{eq:corrected-envelope}\\
+       &&(t\in\mathbb T),\tag{43}\\
  \max_{0\le k<N}\sqrt N\,|\widehat R_N(k)|
-       &\le D\sqrt\delta,\label{eq:correction-coefficients}\\
+       &\le D\sqrt\delta,\tag{44}\\
  \sum_{k\in\mathbb Z\setminus\{0,\ldots,N-1\}}|\widehat R_N(k)|
-       &=O_\delta(N^{-1/4}).\label{eq:correction-tail}
+       &=O_\delta(N^{-1/4}).\tag{45}
 \end{align}$$ Every Fourier coefficient $\widehat R_N(k)$ is real. The threshold for $N$ and the constants implicit in $o(1)$ and $O_\delta$ may depend on all the fixed input data; $D$ does not.*
 
 The hypotheses are precisely the geometric and local phase properties established in Proposition 4.1. We prove the proposition by first constructing the correction and checking its modulus, and then estimating its Fourier coefficients. All choices made below are fixed before $N$ tends to infinity, except the explicitly indexed amplitudes and phase adjustments.
@@ -534,14 +534,14 @@ Choose positive lengths $h_j^-,h_j^+<l_j/4$. Define a continuous, piecewise affi
 [u_j+h_j^-,v_j-h_j^+]&p_j,\ q_j\\[2pt]
 [v_j-h_j^+,v_j]&q_j,\ x_{v_j}.
 \end{array}$$ We refer to the first and last intervals as the outer pieces and to the remaining interval as the middle piece. The slopes on the outer pieces are nonzero. As their lengths tend to zero, their absolute slopes tend to infinity. We may therefore choose these lengths so that $$\begin{equation}
-\label{eq:outer-slope-budget}
+\tag{46}
  \sum_{\substack{\text{outer pieces}\\\text{in }[0,1/2]}}
        |\xi_j'|^{-1/2}\le\sqrt\delta.
 \end{equation}$$ There are only finitely many terms in this sum. The slope on every middle piece satisfies $$\begin{equation}
-\label{eq:middle-slope}
+\tag{47}
  d_j:=\frac{s_j}{l_j-h_j^--h_j^+}\ge\frac1{4L}.
 \end{equation}$$ Let $\phi_j$ be a primitive of $\xi_j$. Thus $\phi_j$ is $C^1$ on $J_j$ and quadratic on each of its three pieces. Since all the endpoint values used in the interpolations lie in $(0,1)$, there is a fixed $c_\delta>0$ such that $$\begin{equation}
-\label{eq:derivative-interior}
+\tag{48}
  c_\delta\le\phi_j'(t)\le1-c_\delta
        \qquad(t\in J_j,\ 1\le j\le M).
 \end{equation}$$ Here and below, a subscript $\delta$ allows dependence on all the fixed data. This compact containment will keep the Fourier mass of the correction inside the coefficient interval $0\le k<N$.
@@ -549,100 +549,100 @@ Choose positive lengths $h_j^-,h_j^+<l_j/4$. Define a continuous, piecewise affi
 ### Matching phases while turning on the correction
 
 Set $A=1/2$. For each $N$, choose the endpoint values of an affine function $\gamma_{j,N}:J_j\to\mathbb R$ in $[0,1)$ so that $$\begin{equation}
-\label{eq:endpoint-phase-match}
+\tag{49}
  \mathrm e\bigl(N\phi_j(z)+\gamma_{j,N}(z)\bigr)=
  \begin{cases}
    B_N(z)/b,&z\text{ is a transition endpoint},\\
    1,&z\in\{0,1/2\}.
  \end{cases}
 \end{equation}$$ Any point of the unit circle has a representative with argument in $[0,1)$, so both endpoint conditions can be imposed independently. Their affine interpolation satisfies $$\begin{equation}
-\label{eq:gamma-bounds}
+\tag{50}
  |\gamma_{j,N}'|\le l_j^{-1},
  \qquad \int_{J_j}|\gamma_{j,N}'(t)|\,dt\le1.
 \end{equation}$$
 
 We turn the amplitude on over strips of width $w=w_N$. The requirements $Nw^2\to0$ and $(Nw)^{-1}\to0$ will serve different purposes: the first preserves phase alignment on a strip, and the second makes the exterior Fourier tail tend to zero. We take $$\begin{equation}
-\label{eq:taper-width}
+\tag{51}
  w=N^{-3/4}.
 \end{equation}$$ Fix a smooth nondecreasing function $\vartheta:\mathbb R\to[0,1]$ with $\vartheta=0$ on $(-\infty,0]$ and $\vartheta=1$ on $[1,\infty)$. On $J_j$ define $r_{j,N}$ as the product of the following factors: include $\vartheta((t-u_j)/w)$ if $u_j$ is a transition endpoint, and include $\vartheta((v_j-t)/w)$ if $v_j$ is a transition endpoint. No factor is included at $0$ or $1/2$. For large enough $N$ the two strips are disjoint, each lies within its outer piece, and each lies in the neighborhood where the corresponding local formula for $B_N$ holds. Thus $r_{j,N}=1$ off the transition strips, it vanishes to all orders at transition endpoints, and $$\begin{equation}
-\label{eq:taper-variation}
+\tag{52}
  0\le r_{j,N}\le1,
  \qquad \int_{J_j}|r_{j,N}'(t)|\,dt\le2.
 \end{equation}$$
 
 On the positive half-circle put $$\begin{equation}
-\label{eq:correction-definition}
+\tag{53}
  R_N(t)=
  \begin{cases}
  A r_{j,N}(t)\mathrm e\bigl(N\phi_j(t)+\gamma_{j,N}(t)\bigr),&t\in J_j,\\
  0,&t\notin\bigcup_j J_j,
  \end{cases}
-\end{equation}$$ and extend it by $R_N(-t)=\overline{R_N(t)}$. At transition endpoints the amplitude is zero, while (eq:endpoint-phase-match) gives $$\begin{equation}
-\label{eq:reflection-values}
+\end{equation}$$ and extend it by $R_N(-t)=\overline{R_N(t)}$. At transition endpoints the amplitude is zero, while (49) gives $$\begin{equation}
+\tag{54}
  R_N(0)=R_N(1/2)=A.
 \end{equation}$$ The extension is therefore continuous both at $0$ and at the identified points $-1/2$ and $1/2$. In particular, the two points corresponding to $z=1$ and $z=-1$ on the unit circle are covered by the construction. Figure 1 separates the fixed outer pieces from the shrinking taper strips and illustrates the use of disjoint derivative slots.
 
 **Figure 1:** Schematic of the correction. In (a), the leading phase derivative $\xi_j=\phi_j'$ matches the prescribed endpoint values and traverses $D_j$ on the middle piece. The outer lengths $h_j^\pm$ are fixed; the shaded taper strips have shrinking width $w=N^{-3/4}$, enlarged here. The lower curve shows the amplitude factor for an interior gap. In (b), the dashed neighborhoods of the slots are fixed and disjoint. At most one middle piece and its reflection can have a leading phase derivative close to $k/N$; all other middle pieces are nonstationary.
 
 On a gap outside its transition strips, the reverse triangle inequality gives $$|B_N+R_N|\ge A-b=\frac38.$$ To check a transition strip at $z$, compare the phases after subtracting their values at $z$. Since $\phi_j'(z)=\psi_z'(z)$ and both derivatives are Lipschitz near $z$, $$\bigl|\phi_j(t)-\phi_j(z)-\psi_z(t)+\psi_z(z)\bigr|
-       \le C_\delta|t-z|^2.$$ Together with (eq:gamma-bounds) and the endpoint phase agreement, this shows that the two phases differ, modulo an integer, by at most $$\begin{equation}
-\label{eq:phase-strip-error}
+       \le C_\delta|t-z|^2.$$ Together with (50) and the endpoint phase agreement, this shows that the two phases differ, modulo an integer, by at most $$\begin{equation}
+\tag{55}
  C_\delta(Nw^2+w)=O_\delta(N^{-1/2}).
 \end{equation}$$ Consequently, throughout that strip, $$B_N(t)+R_N(t)
  =\mathrm e\bigl(\alpha_z+N\psi_z(t)\bigr)
-       \bigl(B(t)+A r_{j,N}(t)+O_\delta(N^{-1/2})\bigr).$$ Because $B(z)=b$ and $B$ is fixed and smooth, $B(t)\ge b-O_\delta(w)$ there. This proves the lower bound $b-o(1)$ on every strip. Off the gaps, $R_N=0$ and $B\ge b$, and reflection preserves all these modulus bounds. The upper bound is simpler: on gaps $|B_N+R_N|\le b+A=5/8<K_\delta$, and elsewhere it is at most $K_\delta$. This proves (eq:corrected-envelope).
+       \bigl(B(t)+A r_{j,N}(t)+O_\delta(N^{-1/2})\bigr).$$ Because $B(z)=b$ and $B$ is fixed and smooth, $B(t)\ge b-O_\delta(w)$ there. This proves the lower bound $b-o(1)$ on every strip. Off the gaps, $R_N=0$ and $B\ge b$, and reflection preserves all these modulus bounds. The upper bound is simpler: on gaps $|B_N+R_N|\le b+A=5/8<K_\delta$, and elsewhere it is at most $K_\delta$. This proves (43).
 
 The correction now gives the required lower envelope. The remaining task is to show that its Fourier coefficients cost only $O(\sqrt\delta)$ on the scale $N^{-1/2}$ and that discarding frequencies outside $\{0,\ldots,N-1\}$ changes it uniformly by $o(1)$.
 
 ### A bound for each Fourier coefficient
 
 Split the integral for $\widehat R_N(k)$ into the three pieces of every gap and their reflections. On a positive piece its contribution has the form $$\begin{equation}
-\label{eq:piece-integral}
+\tag{56}
  \int_I a(t)\mathrm e\bigl(N\phi(t)-kt\bigr)\,dt,
  \qquad a(t)=A r_{j,N}(t)\mathrm e\bigl(\gamma_{j,N}(t)\bigr),
  \quad \phi=\phi_j|_I.
 \end{equation}$$ On the reflected piece we use $\phi(t)=-\phi_j(-t)$ and $a(t)=\overline{A r_{j,N}(-t)\mathrm e(\gamma_{j,N}(-t))}$. In particular, the reflected phase derivative is $$\begin{equation}
-\label{eq:reflected-derivative}
+\tag{57}
  \phi'(t)=\xi_j(-t).
-\end{equation}$$ Thus the original and reflected middle pieces use the same slot $D_j$. By (eq:gamma-bounds) and (eq:taper-variation), on every piece $$\begin{equation}
-\label{eq:amplitude-bv}
+\end{equation}$$ Thus the original and reflected middle pieces use the same slot $D_j$. By (50) and (52), on every piece $$\begin{equation}
+\tag{58}
  \sup_I|a|+\int_I|a'(t)|\,dt
  \le A+2A+2\pi A=:C_1.
 \end{equation}$$ This constant is absolute, even if a gap is very short or there are many gaps.
 
 We use two elementary oscillatory integral estimates. If $\phi$ is quadratic with $\phi''=d\ne0$, then $$\begin{equation}
-\label{eq:quadratic-integral}
+\tag{59}
  \left|\int_I a(t)\mathrm e\bigl(N\phi(t)-kt\bigr)\,dt\right|
  \le \frac{C}{\sqrt{N|d|}}
        \left(\sup_I|a|+\int_I|a'|\right).
-\end{equation}$$ Indeed, completing the square and scaling reduce the integral without $a$ over any subinterval to an integral of $\mathrm e(\pm u^2/2)$, multiplied by $(N|d|)^{-1/2}$. Those integrals are uniformly bounded: on $[-1,1]$ use length, and on each exterior half-line integrate by parts using the phase derivative $\pm u$. Integration against a primitive then proves (eq:quadratic-integral). We also use the first-derivative bound $$\begin{equation}
-\label{eq:first-derivative-integral}
+\end{equation}$$ Indeed, completing the square and scaling reduce the integral without $a$ over any subinterval to an integral of $\mathrm e(\pm u^2/2)$, multiplied by $(N|d|)^{-1/2}$. Those integrals are uniformly bounded: on $[-1,1]$ use length, and on each exterior half-line integrate by parts using the phase derivative $\pm u$. Integration against a primitive then proves (59). We also use the first-derivative bound $$\begin{equation}
+\tag{60}
  \left|\int_I a(t)\mathrm e\bigl(N\phi(t)-kt\bigr)\,dt\right|
  \le \frac{C}{N\rho}
        \left(\sup_I|a|+\int_I|a'|\right)
 \end{equation}$$ when $N\phi'-k$ is monotone and has absolute value at least $N\rho$ on $I$. One integration by parts proves this bound, since the total variation of $1/(N\phi'-k)$ is at most $2/(N\rho)$.
 
-Let $C_2$ be the absolute constant obtained by combining (eq:amplitude-bv) with (eq:quadratic-integral). The outer pieces and their reflections contribute at most $$\frac{2C_2\sqrt\delta}{\sqrt N}$$ by (eq:outer-slope-budget). For the middle pieces choose a fixed $\rho>0$ so that the closed $\rho$-neighborhoods of the finitely many slots $D_j$ are disjoint. For any $k$, at most one slot is within distance $\rho$ of $k/N$. On that middle piece and its reflection, (eq:quadratic-integral) and (eq:middle-slope) give a total bound $$\frac{4C_2\sqrt L}{\sqrt N}.$$ On all remaining middle pieces, $|N\phi'-k|\ge N\rho$, so (eq:first-derivative-integral) bounds their total contribution by $O_\delta(N^{-1})$, uniformly in $k$. The number of pieces and the separation $\rho$ enter only this last error. We conclude that $$\sqrt N\,|\widehat R_N(k)|
- \le 2C_2\sqrt\delta+4C_2\sqrt L+O_\delta(N^{-1/2}).$$ Since $L\le10\delta$, for sufficiently large $N$ this is at most $D\sqrt\delta$ with, for example, $D=2C_2+4\sqrt{10}C_2+1$. This proves (eq:correction-coefficients) with an absolute constant. Hermitian symmetry also gives $$\overline{\widehat R_N(k)}
+Let $C_2$ be the absolute constant obtained by combining (58) with (59). The outer pieces and their reflections contribute at most $$\frac{2C_2\sqrt\delta}{\sqrt N}$$ by (46). For the middle pieces choose a fixed $\rho>0$ so that the closed $\rho$-neighborhoods of the finitely many slots $D_j$ are disjoint. For any $k$, at most one slot is within distance $\rho$ of $k/N$. On that middle piece and its reflection, (59) and (47) give a total bound $$\frac{4C_2\sqrt L}{\sqrt N}.$$ On all remaining middle pieces, $|N\phi'-k|\ge N\rho$, so (60) bounds their total contribution by $O_\delta(N^{-1})$, uniformly in $k$. The number of pieces and the separation $\rho$ enter only this last error. We conclude that $$\sqrt N\,|\widehat R_N(k)|
+ \le 2C_2\sqrt\delta+4C_2\sqrt L+O_\delta(N^{-1/2}).$$ Since $L\le10\delta$, for sufficiently large $N$ this is at most $D\sqrt\delta$ with, for example, $D=2C_2+4\sqrt{10}C_2+1$. This proves (44) with an absolute constant. Hermitian symmetry also gives $$\overline{\widehat R_N(k)}
  =\int_\mathbb T\overline{R_N(t)}\mathrm e(kt)\,dt
  =\int_\mathbb TR_N(-t)\mathrm e(kt)\,dt
  =\widehat R_N(k).$$
 
 ### The Fourier mass outside the coefficient interval
 
-Let $k<0$ or $k\ge N$, and write $T=N+|k|$. On each piece in (eq:piece-integral), set $$V(t)=N\phi'(t)-k.$$ The derivative containment (eq:derivative-interior), also valid on reflected pieces by (eq:reflected-derivative), implies $$\begin{equation}
-\label{eq:exterior-derivatives}
+Let $k<0$ or $k\ge N$, and write $T=N+|k|$. On each piece in (56), set $$V(t)=N\phi'(t)-k.$$ The derivative containment (48), also valid on reflected pieces by (57), implies $$\begin{equation}
+\tag{61}
  |V(t)|\ge c_\delta T,
  \qquad |V'(t)|\le C_\delta N,
  \qquad V''(t)=0
 \end{equation}$$ on each piece interior, after decreasing $c_\delta$ if necessary. The scaled smooth steps and the affine phase adjustments give $$\begin{equation}
-\label{eq:amplitude-two-derivatives}
+\tag{62}
  \sup_I|a'|\le C_\delta w^{-1},
  \qquad \int_I|a''(t)|\,dt\le C_\delta w^{-1}.
-\end{equation}$$ For the second estimate, the term of size $w^{-2}$ from a differentiated step is supported on a strip of length $w$; the other terms are bounded using (eq:gamma-bounds). Recall also the absolute bounds on $\sup|a|$ and $\int|a'|$ in (eq:amplitude-bv).
+\end{equation}$$ For the second estimate, the term of size $w^{-2}$ from a differentiated step is supported on a strip of length $w$; the other terms are bounded using (50). Recall also the absolute bounds on $\sup|a|$ and $\int|a'|$ in (58).
 
 One integration by parts on a piece gives $$\begin{equation}
-\label{eq:first-ibp-tail}
+\tag{63}
  \int_I a\,\mathrm e(N\phi-kt)
  =\left[\frac{a\,\mathrm e(N\phi-kt)}{2\pi iV}\right]_{\partial I}
  -\frac1{2\pi i}\int_I(a/V)'\,\mathrm e(N\phi-kt).
@@ -650,19 +650,19 @@ One integration by parts on a piece gives $$\begin{equation}
 
 For a second integration by parts define, on each piece, $$Q=\frac{(a/V)'}{V}
    =\frac{a'}{V^2}-\frac{aV'}{V^3}.$$ No cancellation of the new boundary terms is needed. Using $V''=0$, $$\begin{equation}
-\label{eq:second-ibp-algebra}
+\tag{64}
  Q'=\frac{a''}{V^2}
        -\frac{3a'V'}{V^3}
        +\frac{3a(V')^2}{V^4}.
-\end{equation}$$ Equations (eq:exterior-derivatives) and (eq:amplitude-two-derivatives) bound the endpoint values of $Q$ by $$C_\delta\left(\frac{w^{-1}}{T^2}+\frac{N}{T^3}\right)$$ and the integral of $|Q'|$ by $$C_\delta\left(\frac{w^{-1}}{T^2}
-                 +\frac{N}{T^3}+\frac{N^2}{T^4}\right).$$ Summing over the fixed finite number of pieces in (eq:first-ibp-tail), and integrating its remaining integrals once more, therefore gives $$|\widehat R_N(k)|
+\end{equation}$$ Equations (61) and (62) bound the endpoint values of $Q$ by $$C_\delta\left(\frac{w^{-1}}{T^2}+\frac{N}{T^3}\right)$$ and the integral of $|Q'|$ by $$C_\delta\left(\frac{w^{-1}}{T^2}
+                 +\frac{N}{T^3}+\frac{N^2}{T^4}\right).$$ Summing over the fixed finite number of pieces in (63), and integrating its remaining integrals once more, therefore gives $$|\widehat R_N(k)|
  \le C_\delta\left(\frac{w^{-1}}{T^2}
                  +\frac{N}{T^3}+\frac{N^2}{T^4}\right)
  \le \frac{C_\delta w^{-1}}{(N+|k|)^2}.$$ Since $\sum_{k<0\text{ or }k\ge N}(N+|k|)^{-2}=O(N^{-1})$, we obtain $$\sum_{k<0\text{ or }k\ge N}|\widehat R_N(k)|
-       \le C_\delta(Nw)^{-1}=O_\delta(N^{-1/4}),$$ as asserted in (eq:correction-tail). This completes the proof of Proposition 5.1. $\square$
+       \le C_\delta(Nw)^{-1}=O_\delta(N^{-1/4}),$$ as asserted in (45). This completes the proof of Proposition 5.1. $\square$
 
 In particular, the Fourier series of $R_N$ is absolutely convergent. Its sum equals $R_N$: both are continuous and have the same Fourier coefficients, so uniqueness of Fourier coefficients applies. Hence $$\begin{equation}
-\label{eq:correction-projection}
+\tag{65}
  \sup_{t\in\mathbb T}
  \left|R_N(t)-\sum_{k=0}^{N-1}\widehat R_N(k)\mathrm e(kt)\right|
        =O_\delta(N^{-1/4}).
@@ -673,7 +673,7 @@ In particular, the Fourier series of $R_N$ is absolutely convergent. Its sum equ
 The uniform rounding error bounds the loss in the lower modulus and the increase in the upper modulus. The following estimate controls that error in terms of the total distance of the relaxed coefficients from signs. We give the full argument from (OpenAI 2026, sec. 6). Its discrepancy input belongs to Spencer’s partial-coloring method (Spencer 1985); the precise real-vector theorem used below is due to Lovett and Meka (Lovett and Meka 2015, Theorem 4 of arXiv:1203.5747v2).
 
 **Lemma 6.1** (Rounding with a small defect). *There is an absolute constant $C$ with the following property. Let $N\ge1$ be an integer and let $X=(X_0,\ldots,X_{N-1})\in[-1,1]^N$. Put $$\mu(X)=\frac12\sum_{k=0}^{N-1}(1-|X_k|).$$ Then there are signs $\varepsilon_0,\ldots,\varepsilon_{N-1}$ satisfying $$\begin{equation}
-\label{eq:defect-rounding}
+\tag{66}
  \max_{t\in\mathbb T}\left|\sum_{k=0}^{N-1}(\varepsilon_k-X_k)\mathrm e(kt)\right|
  \le C\left(1+\sqrt{\mu(X)\log\frac{80N}{\mu(X)}}\right).
 \end{equation}$$ The square-root term is defined to be zero when $\mu(X)=0$. In that case one may take $\varepsilon=X$, giving zero error.*
@@ -710,7 +710,7 @@ Put $M=20N$ and $R=2M=40N$. For the grid points $t_\ell=\ell/M$, $0\le\ell<M$, d
  \quad(0\le k<N).$$ Its entries belong to $[-1,1]$, and every selection of its columns has at most $N\le R$ columns.
 
 Choose an integer $J\ge1$ with $N2^{-J}\le1$, and first round down: $$p^{(J)}_k=2^{-J}\lfloor2^Jp_k\rfloor.$$ This does not increase the mass, and $$\begin{equation}
-\label{eq:rounding-initial}
+\tag{67}
  \left\lVert A(p^{(J)}-p)\right\rVert_\infty
  \le\sum_k|p^{(J)}_k-p_k|\le N2^{-J}\le1.
 \end{equation}$$ We next construct $p^{(j-1)}$ from $p^{(j)}$, for $j=J,J-1,\ldots,1$. Intermediate entries may exceed $1/2$, but it is enough to keep them in $[0,1]$, whose endpoints encode the two choices of final sign. We preserve the two properties $$p^{(j)}\in([0,1]\cap2^{-j}\mathbb Z)^N,
@@ -719,15 +719,15 @@ Choose an integer $J\ge1$ with $N2^{-J}\le1$, and first round down: $$p^{(J)}_k=
  p^{(j)}_k+2^{-j}\xi_k,&k\in S_j,\\
  p^{(j)}_k,&k\notin S_j.
  \end{cases}$$ An odd integer in $[0,2^j]$ lies between $1$ and $2^j-1$; adding either sign therefore gives an even integer still in $[0,2^j]$. Thus the new vector belongs to $([0,1]\cap2^{-(j-1)}\mathbb Z)^N$. Its mass does not increase, and the simultaneous sign reversal has left the discrepancy unchanged. The step error is consequently at most $$\begin{equation}
-\label{eq:rounding-step}
+\tag{68}
  \left\lVert A(p^{(j-1)}-p^{(j)})\right\rVert_\infty
  \le C_0\,2^{-j}\sqrt{s_j\log(80N/s_j)}
  \qquad(s_j>0).
 \end{equation}$$
 
 Every coordinate in $S_j$ is at least $2^{-j}$, so the mass bound gives $$s_j\le\min(N,2^j\mu).$$ This is where the total defect enters the estimate. Put $U_j=2^j\mu$ and $L_\mu=\log(80N/\mu)$. The function $f(s)=s\log(80N/s)$ is increasing on $(0,N]$. If $U_j\le N$, then $$f(s_j)\le f(U_j)
- =U_j\log(80N/U_j)\le U_jL_\mu.$$ If $U_j>N$, then, using $\mu\le N/2$, $$f(s_j)\le N\log80\le U_jL_\mu.$$ These estimates apply at every nonempty stage. Summing (eq:rounding-step) and (eq:rounding-initial) therefore gives, for $p'=p^{(0)}\in\{0,1\}^N$, $$\begin{equation}
-\label{eq:rounding-matrix-error}
+ =U_j\log(80N/U_j)\le U_jL_\mu.$$ If $U_j>N$, then, using $\mu\le N/2$, $$f(s_j)\le N\log80\le U_jL_\mu.$$ These estimates apply at every nonempty stage. Summing (68) and (67) therefore gives, for $p'=p^{(0)}\in\{0,1\}^N$, $$\begin{equation}
+\tag{69}
  \begin{aligned}
  \left\lVert A(p'-p)\right\rVert_\infty
  &\le1+C_0\sqrt{\mu L_\mu}\sum_{j=1}^{\infty}2^{-j/2}\\
@@ -737,7 +737,7 @@ Every coordinate in $S_j$ is at least $2^{-j}$, so the mass bound gives $$s_j\le
 
 Now set $\varepsilon_k=\sigma_k(1-2p'_k)\in\{-1,1\}$ and define the error polynomial $$Q(z)=\sum_{k=0}^{N-1}(\varepsilon_k-X_k)z^k
      =-2\sum_{k=0}^{N-1}\sigma_k(p'_k-p_k)z^k.$$ By the definition of $A$, the real and imaginary parts of $Q(\mathrm e(t_\ell))$ each have absolute value at most $2\left\lVert A(p'-p)\right\rVert_\infty$. Hence $$\begin{equation}
-\label{eq:rounding-grid}
+\tag{70}
  G:=\max_{0\le\ell<M}|Q(\mathrm e(t_\ell))|
  \le2\sqrt2\,\left\lVert A(p'-p)\right\rVert_\infty.
 \end{equation}$$ It remains to pass from this grid bound to the whole circle. We apply this step only to $Q$, the rounding error.
@@ -747,7 +747,7 @@ Write $S=\max_{|z|=1}|Q(z)|$. If $Q=0$, there is nothing to prove. Otherwise let
  \max_{|z|\le1+1/N}|Q(z)|\le \exp(1)S.$$ Cauchy’s estimate on the disk of radius $1/N$ centered at a point of the unit circle yields $|Q'(z)|\le\exp(1)NS$ there. Consequently $$\left|\frac{d}{dt}Q(\mathrm e(t))\right|
  \le2\pi\exp(1)NS.$$ Every point of $\mathbb T$ has circular distance at most $1/(2M)$ from the grid. Integrating this derivative along the shorter arc gives $$S\le G+\frac{\pi\exp(1)}{20}S,
  \qquad
- S\le\frac{G}{1-\pi\exp(1)/20}.$$ The denominator is positive. Combining this inequality with (eq:rounding-grid) and (eq:rounding-matrix-error) proves Lemma 6.1, with an absolute constant. The same argument covers $N=1$, when the error polynomial is constant. ◻
+ S\le\frac{G}{1-\pi\exp(1)/20}.$$ The denominator is positive. Combining this inequality with (70) and (69) proves Lemma 6.1, with an absolute constant. The same argument covers $N=1$, when the error polynomial is constant. ◻
 
 ## Proof of the main theorem
 
@@ -757,11 +757,11 @@ We now combine the construction with the rounding estimate. The order of the cho
  \qquad
  X_{N,k}=\frac{Y_{N,k}+\sqrt N\,\widehat R_N(k)}{S_\delta}
  \quad(0\le k<N).$$ Conjugate symmetry of $R_N$ makes $\widehat R_N(k)$ real. Since $|Y_{N,k}|\le1$ and $\sqrt N|\widehat R_N(k)|\le s_\delta$, the vector $X_N$ belongs to $[-1,1]^N$. The uniform approximation in Proposition 4.1 and the exterior Fourier-tail estimate in Proposition 5.1 give $$\begin{equation}
-\label{eq:completion-profile}
+\tag{71}
  U_{X_N}(t)=\frac{B_N(t)+R_N(t)}{S_\delta}+o(1)
  \qquad\text{uniformly for }t\in\mathbb T.
 \end{equation}$$ Consequently, $$\begin{equation}
-\label{eq:completion-envelope}
+\tag{72}
  \min_{t\in\mathbb T}|U_{X_N}(t)|\ge\frac b{S_\delta}-o(1),
  \qquad
  \left\lVert U_{X_N}\right\rVert_\infty\le K_\delta+o(1).
@@ -770,12 +770,12 @@ We now combine the construction with the rounding estimate. The order of the cho
 The same coefficient bound controls the cost of rounding. Directly, $$|X_{N,k}-Y_{N,k}|
  =\frac{|\sqrt N\,\widehat R_N(k)-s_\delta Y_{N,k}|}{S_\delta}
  \le2s_\delta.$$ Both coefficients lie in $[-1,1]$, so $|X_{N,k}^2-Y_{N,k}^2|\le4s_\delta$. Using the mean-square estimate from Proposition 4.1 and $1-|x|\le1-x^2$ for $|x|\le1$, we obtain $$\begin{equation}
-\label{eq:completion-defect}
+\tag{73}
  \frac{\mu(X_N)}N
  \le\frac1{2N}\sum_{k=0}^{N-1}(1-X_{N,k}^2)
  \le4\delta+2D\sqrt\delta=:q_\delta.
 \end{equation}$$ Choose $\delta$ small enough that $q_\delta<1/2$. The function $q\mapsto q\log(80/q)$ is increasing on $(0,1/2]$. Lemma 6.1 therefore supplies signs $\varepsilon_0,\ldots,\varepsilon_{N-1}$ with $$\begin{equation}
-\label{eq:completion-rounding}
+\tag{74}
  \left\lVert U_\varepsilon-U_{X_N}\right\rVert_\infty
  \le \frac C{\sqrt N}
        +C\sqrt{q_\delta\log(80/q_\delta)}.
@@ -784,7 +784,7 @@ The same coefficient bound controls the cost of rounding. Directly, $$|X_{N,k}-Y
 Fix $c=1/16$ once and for all. As $\delta\downarrow0$, $$\frac b{S_\delta}
        -C\sqrt{q_\delta\log(80/q_\delta)}\longrightarrow\frac18,
  \qquad
- K_\delta+C\sqrt{q_\delta\log(80/q_\delta)}\longrightarrow1.$$ For any prescribed $\eta>0$, first choose $\delta$ so small that the first expression is strictly larger than $c$ and the second is strictly smaller than $1+\eta$. Fix every construction datum associated with this $\delta$. We may then choose $N_0$ so that for every $N\ge N_0$ all preceding estimates hold and the errors in (eq:completion-envelope) and (eq:completion-rounding) are smaller than these strict margins. It follows that $$c\le|U_\varepsilon(t)|\le1+\eta\qquad(t\in\mathbb T).$$ Multiplication by $\sqrt N$ gives the asserted polynomial. Rounding assigns a real sign to each of the consecutive indices $0,\ldots,N-1$; all estimates include $t=0$ and $t=1/2$ and hold through every sufficiently large integer length. ◻
+ K_\delta+C\sqrt{q_\delta\log(80/q_\delta)}\longrightarrow1.$$ For any prescribed $\eta>0$, first choose $\delta$ so small that the first expression is strictly larger than $c$ and the second is strictly smaller than $1+\eta$. Fix every construction datum associated with this $\delta$. We may then choose $N_0$ so that for every $N\ge N_0$ all preceding estimates hold and the errors in (72) and (74) are smaller than these strict margins. It follows that $$c\le|U_\varepsilon(t)|\le1+\eta\qquad(t\in\mathbb T).$$ Multiplication by $\sqrt N$ gives the asserted polynomial. Rounding assigns a real sign to each of the consecutive indices $0,\ldots,N-1$; all estimates include $t=0$ and $t=1/2$ and hold through every sufficiently large integer length. ◻
 
 ## References
 
