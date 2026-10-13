@@ -8,7 +8,7 @@ We prove the weak pinned Erdős distinct-distance conjecture. For every fixed $\
 
 ## Introduction
 
-For a finite set $P\subset\mathbb R^2$ and a point $x\in P$, write $$D_x(P)=\{\lVert y-x\rVert_2:y\in P\setminus\{x\}\}.$$ The weak pinned Erdős distinct-distance conjecture asserts that, for every $\varepsilon>0$, every sufficiently large $n$-point planar set has a point $x$ with $|D_x(P)|\ge n^{1-\varepsilon}$. Erdős explicitly stated this question in 1957 (Erdős 1957, Problem 16); the modern terminology appears, for example, in (Dewar et al. 2025, Conjecture 4.7). We resolve it positively by proving a uniform assertion about distance multiplicities at their individual pins. Its consequence will give the stated number of distances at all but $o(n)$ pins.
+For a finite set $P\subset\mathbb R^2$ and a point $x\in P$, write $$D_x(P)=\{\lVert y-x\rVert_2:y\in P\setminus\{x\}\}.$$ The weak pinned Erdős distinct-distance conjecture asserts that, for every $\varepsilon>0$, every sufficiently large $n$-point planar set has a point $x$ with $|D_x(P)|\ge n^{1-\varepsilon}$. Erdős explicitly stated this question in 1957 [4, Problem 16]; the modern terminology appears, for example, in [2, Conjecture 4.7]. We resolve it positively by proving a uniform assertion about distance multiplicities at their individual pins. Its consequence will give the stated number of distances at all but $o(n)$ pins.
 
 For distinct $x,y\in P$, define the *distance fiber size* $$k_P(x,y)=\bigl|\{z\in P\setminus\{x\}:
                   \lVert z-x\rVert_2=\lVert y-x\rVert_2\}\bigr|.$$ This counts $y$ itself. Different pairs use their own source point $x$; the definition does not pool pairs having one common numerical distance. For $n\ge2$ and $s>0$, put $$F_n(s)=\sup_{\substack{P\subset\mathbb R^2\\|P|=n}}
@@ -28,22 +28,22 @@ No hypothesis on separation, general position, or the coordinates is imposed. Th
 
 ### Background and significance
 
-Erdős initiated the planar distinct-distance and repeated-distance problems in 1946 (Erdős 1946). The global distinct-distance problem asks for the minimum size of the union $\bigcup_{x\in P}D_x(P)$. The square lattice gives sets for which this union has size at most a constant multiple of $n/\sqrt{\log n}$ (Erdős 1946, Theorem 1). Guth and Katz proved that every planar $n$-point set determines at least a constant multiple of $n/\log n$ distances (Guth and Katz 2015, Theorem 1.1). Their conclusion concerns the union; the pinned question requires the distances to have a common source.
+Erdős initiated the planar distinct-distance and repeated-distance problems in 1946 [3]. The global distinct-distance problem asks for the minimum size of the union $\bigcup_{x\in P}D_x(P)$. The square lattice gives sets for which this union has size at most a constant multiple of $n/\sqrt{\log n}$ [3, Theorem 1]. Guth and Katz proved that every planar $n$-point set determines at least a constant multiple of $n/\log n$ distances [7, Theorem 1.1]. Their conclusion concerns the union; the pinned question requires the distances to have a common source.
 
-The development of pinned bounds combined incidence geometry with increasingly effective counting and entropy estimates. Solymosi and Tóth proved a pinned lower bound of order $n^{6/7}$ (Solymosi and Tóth 2001, Theorem 1). Tardos improved this exponent using entropy inequalities for patterns of sums and differences (Tardos 2003). Katz and Tardos refined that method to obtain every exponent below $$\frac{48-14e}{55-16e}=0.864137\ldots$$ (Katz and Tardos 2004). These results guarantee one pin in every configuration. The sharper pinned conjecture asks for order $n/\sqrt{\log n}$ distances at a pin; see (Lund and Petridis 2020, Introduction). Lund and Petridis also explain the distinction between the real planar problem and pinned-distance theorems over other fields.
+The development of pinned bounds combined incidence geometry with increasingly effective counting and entropy estimates. Solymosi and Tóth proved a pinned lower bound of order $n^{6/7}$ [12, Theorem 1]. Tardos improved this exponent using entropy inequalities for patterns of sums and differences [13]. Katz and Tardos refined that method to obtain every exponent below $$\frac{48-14e}{55-16e}=0.864137\ldots$$ [8]. These results guarantee one pin in every configuration. The sharper pinned conjecture asks for order $n/\sqrt{\log n}$ distances at a pin; see [10, Introduction]. Lund and Petridis also explain the distinction between the real planar problem and pinned-distance theorems over other fields.
 
 Theorem 1.1 controls the multiplicity of a distance chosen by sampling a distinct ordered pair. Corollary 1.2 makes its almost-every-pin consequence explicit and resolves the weak pinned conjecture. An exceptional set is necessary: if $P$ consists of points on a circle and its center, the center sees just one nonzero distance.
 
 ### The proof in outline
 
-Assuming that Theorem 1.1 fails, we first choose a sequence with nearly maximal density of pairs in large distance fibers. Section 2 extracts a directed graph of these pairs while controlling how much of a fiber can lie in a small subset. Transfer for real closed fields preserves every distance equality and disequality and puts each finite configuration in a number field (Kuhlmann 2009, Theorems 3.1 and 4.1). Neither the field nor its degree is fixed.
+Assuming that Theorem 1.1 fails, we first choose a sequence with nearly maximal density of pairs in large distance fibers. Section 2 extracts a directed graph of these pairs while controlling how much of a fiber can lie in a small subset. Transfer for real closed fields preserves every distance equality and disequality and puts each finite configuration in a number field [9, Theorems 3.1 and 4.1]. Neither the field nor its degree is fixed.
 
 The proof then studies distance multiplicities through two coordinate maps. For $x=(u,v)$, set $Z_1(x)=u+iv$ and $Z_2(x)=u-iv$. Squared distance factors as $$\lVert x-y\rVert_2^2
-   =(Z_1(y)-Z_1(x))(Z_2(y)-Z_2(x)).$$ Thus on a distance fiber at $x$, the second coordinate is a fractional linear function of the first. The normalized product formula balances the logarithms of nonzero coordinate differences across all absolute values of the number field (Milne 2020, Theorem 7.15). At other complex embeddings the two maps need not be conjugates; the algebraic factorization remains valid.
+   =(Z_1(y)-Z_1(x))(Z_2(y)-Z_2(x)).$$ Thus on a distance fiber at $x$, the second coordinate is a fractional linear function of the first. The normalized product formula balances the logarithms of nonzero coordinate differences across all absolute values of the number field [11, Theorem 7.15]. At other complex embeddings the two maps need not be conjugates; the algebraic factorization remains valid.
 
 We turn this balance into an identity for finite nested partitions. At each absolute value, points are grouped according to closeness. Randomly shifted and rotated square grids provide nested partitions at the complex embeddings. At any level, a cell containing more than half the points, called a *giant*, is replaced by its complement, with multiplicities retained. The resulting overlap of two *distinct* points, summed over all levels and absolute values, is the sum of a function of the first point and a function of the second. This additive identity is the main use of arithmetic in the proof.
 
-Randomly shifted square dissections appear in Arora’s Euclidean approximation algorithms (Arora 1998, sec. 2.1). Nested partitions and their associated trees also occur in probabilistic metric approximation, as in the work of Fakcharoenphol, Rao and Talwar (Fakcharoenphol et al. 2003). Their approximation controls multiplicative distortion. Here the required grid estimate has a pair-independent mean additive error in logarithmic depth; this specific property permits the product-formula cancellation.
+Randomly shifted square dissections appear in Arora’s Euclidean approximation algorithms [1, Section 2.1]. Nested partitions and their associated trees also occur in probabilistic metric approximation, as in the work of Fakcharoenphol, Rao and Talwar [6]. Their approximation controls multiplicative distortion. Here the required grid estimate has a pair-independent mean additive error in logarithmic depth; this specific property permits the product-formula cancellation.
 
 We measure the total scale by the integrated distinct-pair overlaps and the average lengths of levels spent outside giant cells. The next step is to compare the uniform distribution on a fiber with the uniform distribution on the whole configuration. The extremal subset estimate controls cells that contain a source and a substantial fraction of its fiber. For an actual partition cell containing only a small fraction, the other coordinate supplies the missing control: without grid errors, its source cell at the complementary level contains the rest of the fiber. Together these estimates make the small-cell contribution negligible relative to one plus the total scale (Section 4).
 
@@ -53,7 +53,7 @@ After passing to a subsequence, this nonnegative scale either grows without boun
 
 If the overlap scale stays bounded, one complex embedding can be normalized so that the two coordinate distributions have non-atomic limits. The fiber and incoming-neighbor estimates yield a family of Möbius maps carrying one limiting coordinate law to the other. The first source coordinate is independent of the entire target pair; the second source coordinate need not be. To remove the latter dependence, fix a target pair and sample a point from the first limiting coordinate law. Its image under the fiber map has the second limiting law. The fiber equation writes the negative logarithm of the distance from that image to the second target coordinate as a difference of logarithmic distances from the sampled point to the first source and target coordinates, up to an additive constant. Independence lets the first source coordinate approach the first target coordinate. This difference then collapses in probability under the fixed sampling law, whereas the image’s logarithmic target-distance law has positive spread even after additive constants are discarded. Section 7 makes this contradiction precise.
 
-The tree-transport formula is a standard sum of the imbalances across tree edges (Evans and Matsen 2012, sec. 2, Equation (5)); we prove its finite form and the conditional comparisons needed here. Weak compactness and Portmanteau provide subsequential probability laws (Gaans 2003, Proposition 5.3 and Theorems 4.2, 3.2). The local arguments must additionally establish non-atomicity, independence of the source parameter, and preservation of the fiber map. These properties connect the standard tools to the additive overlap identity and its exact variance consequence.
+The tree-transport formula is a standard sum of the imbalances across tree edges [5, Section 2, Equation (5)]; we prove its finite form and the conditional comparisons needed here. Weak compactness and Portmanteau provide subsequential probability laws [14, Proposition 5.3 and Theorems 4.2, 3.2]. The local arguments must additionally establish non-atomicity, independence of the source parameter, and preservation of the fiber map. These properties connect the standard tools to the additive overlap identity and its exact variance consequence.
 
 Section 2 prepares the extremal graph and its sampling laws. Section 3 constructs the partitions and proves the additive identity. Sections 4 and 5 establish the overlap and variance estimates. Sections 6 and 7 exclude the two scale regimes and complete the proof of Theorem 1.1.
 
@@ -109,7 +109,7 @@ To sample $q$, one can first choose $e$ with probability $k_e/|E|$ and then choo
 
 For fixed $N$, the numerator defining $F_N(s)$ takes values in the finite set $\{0,1,\ldots,N(N-1)\}$. Its maximum is therefore attained, without any compactness assertion about configurations. Choose a sequence $N\to\infty$ on which $F_N(s)\to\theta$ and an attaining configuration for each $N$.
 
-Each such configuration can be replaced by one with real algebraic coordinates without changing any distance class. To see this, label its points by $1,\ldots,N$ and use coordinate variables $(u_i,b_i)$. Write $D_{ij}=(u_i-u_j)^2+(b_i-b_j)^2$. Require $D_{ij}>0$ for $i<j$, and prescribe, for every two unordered pairs, the equality $D_{ij}=D_{kl}$ or the disequality $D_{ij}\ne D_{kl}$ that holds in the original configuration. These are finitely many polynomial conditions over $\mathbb Q$; a disequality can be expressed as $(D_{ij}-D_{kl})^2>0$. Their existential sentence holds over $\mathbb R$ and therefore over the real algebraic numbers, by transfer for real closed fields (Kuhlmann 2009, Theorems 3.1 and 4.1). The resulting points are distinct and retain the exact distance equality pattern. In particular every class size, and hence the value attaining $F_N(s)$, is unchanged. The real threshold $N^s$ need not enter the transferred system: its comparison with each preserved integer class size is unchanged. No bound on the degrees or heights of these coordinates is imposed.
+Each such configuration can be replaced by one with real algebraic coordinates without changing any distance class. To see this, label its points by $1,\ldots,N$ and use coordinate variables $(u_i,b_i)$. Write $D_{ij}=(u_i-u_j)^2+(b_i-b_j)^2$. Require $D_{ij}>0$ for $i<j$, and prescribe, for every two unordered pairs, the equality $D_{ij}=D_{kl}$ or the disequality $D_{ij}\ne D_{kl}$ that holds in the original configuration. These are finitely many polynomial conditions over $\mathbb Q$; a disequality can be expressed as $(D_{ij}-D_{kl})^2>0$. Their existential sentence holds over $\mathbb R$ and therefore over the real algebraic numbers, by transfer for real closed fields [9, Theorems 3.1 and 4.1]. The resulting points are distinct and retain the exact distance equality pattern. In particular every class size, and hence the value attaining $F_N(s)$, is unchanged. The real threshold $N^s$ need not enter the transferred system: its comparison with each preserved integer class size is unchanged. No bound on the degrees or heights of these coordinates is imposed.
 
 ##### Deleting vertices and small fibers.
 
@@ -162,7 +162,7 @@ Fix one of the algebraic configurations supplied by Proposition 2.2. Take a num
  t(x,y)=(Z_1(y)-Z_1(x))(Z_2(y)-Z_2(x)).
 \end{equation}$$
 
-Let $v$ run over the places of $K$. At a finite place above a prime $p$, use the absolute value extending $|p|_p=p^{-1}$ and put $\sigma_v=[K_v:\mathbb Q_p]/[K:\mathbb Q]$. All archimedean places are complex, since $\mathrm i\in K$; there use ordinary complex modulus and $\sigma_v=2/[K:\mathbb Q]$. The normalized product formula (Milne 2020, Theorems 7.14–7.15 and Lemma 8.6) reads $$\begin{equation}
+Let $v$ run over the places of $K$. At a finite place above a prime $p$, use the absolute value extending $|p|_p=p^{-1}$ and put $\sigma_v=[K_v:\mathbb Q_p]/[K:\mathbb Q]$. All archimedean places are complex, since $\mathrm i\in K$; there use ordinary complex modulus and $\sigma_v=2/[K:\mathbb Q]$. The normalized product formula [11, Theorems 7.14–7.15 and Lemma 8.6] reads $$\begin{equation}
 \tag{3.2}
  \sum_v\sigma_v\log|z|_v=0\quad(z\in K\setminus\{0\}),
  \qquad \sum_{v\mid\infty}\sigma_v=1.
@@ -178,7 +178,7 @@ At a place $v$, define the *raw depths* $$i_j(x,y)=-\log|Z_j(x)-Z_j(y)|_v\quad(x
 
 At a finite place, put $d_j(x,y)=i_j(x,y)$ for distinct points. The ultrametric inequality makes $d_j(x,y)\ge r$ an equivalence relation. At a complex place we obtain the same nesting property from square grids, with a controlled error in the depth.
 
-Independently of all vertex and fiber sampling, choose independently a uniformly random orientation and $\xi$ uniform on $[0,\log2)$. The grid side lengths are $l_m=e^\xi2^m$, $m\in\mathbb Z$. Choose a shift uniform modulo $l_0$ in each oriented axis. To obtain the shift modulo $l_{m+1}$ from that modulo $l_m$, for $m\ge0$, add either $0$ or $l_m$ with equal probabilities, independently at every step and in each axis. For $m<0$ reduce the initial shift modulo $l_m$. Every shift is uniform modulo its side length, and the resulting half-open square grids are nested. Use such a grid family for each coordinate $j$. Randomly shifted recursive square dissections also appear in Arora’s Euclidean approximation algorithms (Arora 1998, sec. 2.1).
+Independently of all vertex and fiber sampling, choose independently a uniformly random orientation and $\xi$ uniform on $[0,\log2)$. The grid side lengths are $l_m=e^\xi2^m$, $m\in\mathbb Z$. Choose a shift uniform modulo $l_0$ in each oriented axis. To obtain the shift modulo $l_{m+1}$ from that modulo $l_m$, for $m\ge0$, add either $0$ or $l_m$ with equal probabilities, independently at every step and in each axis. For $m<0$ reduce the initial shift modulo $l_m$. Every shift is uniform modulo its side length, and the resulting half-open square grids are nested. Use such a grid family for each coordinate $j$. Randomly shifted recursive square dissections also appear in Arora’s Euclidean approximation algorithms [1, Section 2.1].
 
 For distinct points, let $d_j(x,y)$ be minus the logarithm of the smallest grid side at which their images share a cell. In both the finite and complex cases put $d_j(x,x)=+\infty$ and $\Delta_j(x,y)=d_j(x,y)-i_j(x,y)$ for $x\ne y$.
 
@@ -492,7 +492,7 @@ For probabilities $\rho,\alpha$ on the leaves, let $\mathsf T_j(\rho,\alpha)$ be
  =\sum_{B\ne P}l_j(B)|\rho(B)-\alpha(B)|
  =\int_{\mathbb R}\sum_{B\in\Pi_j(r)}
        w(\alpha(B))|\rho(B)-\alpha(B)|\,dr.
-\end{equation}$$ This standard formula is the finite-tree form of (Evans and Matsen 2012, sec. 2, Equation (5)). It has a short direct proof. Across the edge above $B$, any coupling must move at least $|\rho(B)-\alpha(B)|$ units of mass. Conversely, first match common mass at each leaf. Work upward, matching surplus mass from child subtrees to deficits in other child subtrees, and send only the remaining imbalance toward the parent. Across each edge the total mass moved is precisely its absolute imbalance; the root imbalance is zero. Decomposing these finitely many transfers into leaf-to-leaf paths gives a coupling attaining the displayed cost. Zero-length edges do not affect the argument.
+\end{equation}$$ This standard formula is the finite-tree form of [5, Section 2, Equation (5)]. It has a short direct proof. Across the edge above $B$, any coupling must move at least $|\rho(B)-\alpha(B)|$ units of mass. Conversely, first match common mass at each leaf. Work upward, matching surplus mass from child subtrees to deficits in other child subtrees, and send only the remaining imbalance toward the parent. Across each edge the total mass moved is precisely its absolute imbalance; the root imbalance is zero. Decomposing these finitely many transfers into leaf-to-leaf paths gives a coupling attaining the displayed cost. Zero-length edges do not affect the argument.
 
 By $q_Y=\mathbb E_e\mu_e$, convexity and (6.7) give $$\begin{equation}
 \tag{6.13}
@@ -552,7 +552,7 @@ Write $\alpha_n^j=(U_j)_*\alpha$ for the empirical coordinate laws. Equation (7
  \le \frac1n+\frac{C_1}{\log(1/(2r))}.
 \end{equation}$$ Indeed the diagonal mass of independent pairs in the ball is at most $1/n$, and every remaining pair has distance at most $2r$.
 
-Let $S=\widehat{\mathbb C}$ be the Riemann sphere with its chordal metric, and write $\mathcal P(S)$ for its probability measures. The space of probability measures on a compact metric space is compact and metrizable for weak convergence (Gaans 2003, Proposition 5.3 and Theorem 4.2). We also use the open-set inequality in the Portmanteau theorem (Gaans 2003, Theorem 3.2). Passing to a common subsequence, let $\alpha_n^j\Rightarrow\beta_j$ on $S$, for $j=1,2$. Apply Portmanteau to the open spherical sets $\{|z|>R\}\cup\{\infty\}$ in (7.2); then let $R\to\infty$. This shows $\beta_j\{\infty\}=0$. Apply it to open disks in (7.3), then let $r\downarrow0$. Each $\beta_j$ is therefore a nonatomic probability measure on $\mathbb C$.
+Let $S=\widehat{\mathbb C}$ be the Riemann sphere with its chordal metric, and write $\mathcal P(S)$ for its probability measures. The space of probability measures on a compact metric space is compact and metrizable for weak convergence [14, Proposition 5.3 and Theorem 4.2]. We also use the open-set inequality in the Portmanteau theorem [14, Theorem 3.2]. Passing to a common subsequence, let $\alpha_n^j\Rightarrow\beta_j$ on $S$, for $j=1,2$. Apply Portmanteau to the open spherical sets $\{|z|>R\}\cup\{\infty\}$ in (7.2); then let $R\to\infty$. This shows $\beta_j\{\infty\}=0$. Apply it to open disks in (7.3), then let $r\downarrow0$. Each $\beta_j$ is therefore a nonatomic probability measure on $\mathbb C$.
 
 ### The variance estimate determines the limiting laws
 
@@ -643,30 +643,30 @@ The law $Q$ constructed above satisfies every hypothesis of Lemma 7.1, so a bou
 
 ## References
 
-Arora, Sanjeev. 1998. “Polynomial Time Approximation Schemes for Euclidean Traveling Salesman and Other Geometric Problems.” *Journal of the ACM* 45 (5): 753–82. <https://doi.org/10.1145/290179.290180>.
+**[1]** Sanjeev Arora. Polynomial time approximation schemes for Euclidean traveling salesman and other geometric problems. *Journal of the ACM*, 45(5):753–782, 1998.
 
-Dewar, Sean, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, and Audie Warren. 2025. *Generalised Erdős Distance Theory on Graphs*. [Https://arxiv.org/abs/2505.06590v1](https://arxiv.org/abs/2505.06590v1). <https://doi.org/10.48550/arXiv.2505.06590>.
+**[2]** Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant, and Audie Warren. Generalised Erdős distance theory on graphs. <https://arxiv.org/abs/2505.06590v1>, 2025. Version 1; see Conjecture 4.7.
 
-Erdős, Paul. 1946. “On Sets of Distances of $n$ Points.” *The American Mathematical Monthly* 53 (5): 248–50. <https://doi.org/10.1080/00029890.1946.11991674>.
+**[3]** Paul Erdős. On sets of distances of $n$ points. *The American Mathematical Monthly*, 53(5):248–250, 1946.
 
-Erdős, Paul. 1957. “Some Unsolved Problems.” *Michigan Mathematical Journal* 4 (3): 291–300. <https://doi.org/10.1307/mmj/1028997963>.
+**[4]** Paul Erdős. Some unsolved problems. *Michigan Mathematical Journal*, 4(3):291–300, 1957.
 
-Evans, Steven N., and Frederick A. Matsen. 2012. “The Phylogenetic Kantorovich–Rubinstein Metric for Environmental Sequence Samples.” *Journal of the Royal Statistical Society. Series B (Statistical Methodology)* 74 (3): 569–92. <https://doi.org/10.1111/j.1467-9868.2011.01018.x>.
+**[5]** Steven N. Evans and Frederick A. Matsen. The phylogenetic Kantorovich–Rubinstein metric for environmental sequence samples. *Journal of the Royal Statistical Society. Series B (Statistical Methodology)*, 74(3):569–592, 2012.
 
-Fakcharoenphol, Jittat, Satish Rao, and Kunal Talwar. 2003. “A Tight Bound on Approximating Arbitrary Metrics by Tree Metrics.” *Proceedings of the Thirty-Fifth Annual ACM Symposium on Theory of Computing*, 448–55. <https://kam.mff.cuni.cz/~matousek/cla/fakcharoenphol-rao-talwar-probtrees.pdf>.
+**[6]** Jittat Fakcharoenphol, Satish Rao, and Kunal Talwar. A tight bound on approximating arbitrary metrics by tree metrics. In *Proceedings of the Thirty-Fifth Annual ACM Symposium on Theory of Computing*, pages 448–455. ACM, 2003.
 
-Gaans, Onno van. 2003. *Probability Measures on Metric Spaces*. [Https://pub.math.leidenuniv.nl/~gaansowvan/jancol1.pdf](https://pub.math.leidenuniv.nl/~gaansowvan/jancol1.pdf). <https://pub.math.leidenuniv.nl/~gaansowvan/jancol1.pdf>.
+**[7]** Larry Guth and Nets Hawk Katz. On the Erdős distinct distances problem in the plane. *Annals of Mathematics*, 181(1):155–190, 2015.
 
-Guth, Larry, and Nets Hawk Katz. 2015. “On the Erdős Distinct Distances Problem in the Plane.” *Annals of Mathematics*, 2nd series, vol. 181 (1): 155–90. <https://doi.org/10.4007/annals.2015.181.1.2>.
+**[8]** Nets Hawk Katz and Gábor Tardos. A new entropy inequality for the Erdős distance problem. In János Pach, editor, *Towards a Theory of Geometric Graphs*, volume 342 of *Contemporary Mathematics*, pages 119–126. American Mathematical Society, Providence, RI, 2004.
 
-Katz, Nets Hawk, and Gábor Tardos. 2004. “A New Entropy Inequality for the Erdős Distance Problem.” In *Towards a Theory of Geometric Graphs*, edited by János Pach, vol. 342. Contemporary Mathematics. American Mathematical Society. <https://doi.org/10.1090/conm/342/06136>.
+**[9]** Salma Kuhlmann. Real algebraic geometry lecture notes: Lecture 09. <https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf>, 2009. 17 November 2009, Theorems 3.1 and 4.1.
 
-Kuhlmann, Salma. 2009. *Real Algebraic Geometry Lecture Notes: Lecture 09*. [Https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf](https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf). <https://www.math.uni-konstanz.de/algebra/WS0910/Notes09.pdf>.
+**[10]** Ben Lund and Giorgis Petridis. Bisectors and pinned distances. *Discrete & Computational Geometry*, 64(3):995–1012, 2020.
 
-Lund, Ben, and Giorgis Petridis. 2020. “Bisectors and Pinned Distances.” *Discrete & Computational Geometry* 64 (3): 995–1012. <https://doi.org/10.1007/s00454-019-00122-w>.
+**[11]** James S. Milne. Algebraic number theory. <https://www.jmilne.org/math/CourseNotes/ANTc.pdf>, 2020. Version 3.08, Theorem 7.15 and Lemma 8.6.
 
-Milne, James S. 2020. *Algebraic Number Theory*. [Https://www.jmilne.org/math/CourseNotes/ANTc.pdf](https://www.jmilne.org/math/CourseNotes/ANTc.pdf). <https://www.jmilne.org/math/CourseNotes/ANTc.pdf>.
+**[12]** József Solymosi and Csaba D. Tóth. Distinct distances in the plane. *Discrete & Computational Geometry*, 25(4):629–634, 2001.
 
-Solymosi, József, and Csaba D. Tóth. 2001. “Distinct Distances in the Plane.” *Discrete & Computational Geometry* 25 (4): 629–34. <https://doi.org/10.1007/s00454-001-0009-z>.
+**[13]** Gábor Tardos. On distinct sums and distinct distances. *Advances in Mathematics*, 180(1):275–289, 2003.
 
-Tardos, Gábor. 2003. “On Distinct Sums and Distinct Distances.” *Advances in Mathematics* 180 (1): 275–89. <https://doi.org/10.1016/S0001-8708(03)00004-5>.
+**[14]** Onno van Gaans. Probability measures on metric spaces. <https://pub.math.leidenuniv.nl/~gaansowvan/jancol1.pdf>, 2003. Notes for the seminar Stochastic Evolution Equations, Delft University of Technology, Winter 2002/2003.

@@ -9,12 +9,12 @@ We prove the circulant Hadamard conjecture: a real circulant Hadamard matrix has
 ## Introduction
 
 A real Hadamard matrix of order $n$ is a matrix $H$ with entries in $\{-1,1\}$ such that $HH^{\mathsf T}=nI_n$. It is *circulant* if there are signs $h_0,\ldots,h_{n-1}$ for which $$H_{ij}=h_{j-i\bmod n}\qquad(0\leq i,j<n).$$ Thus every row is a cyclic shift of the first. For such a sign matrix, define the periodic autocorrelations by $$P_h(t)=\sum_{j=0}^{n-1}h_jh_{j+t\bmod n}
- \qquad(0\leq t<n).$$ Here $P_h(0)=n$, and the Hadamard condition is equivalent to $P_h(t)=0$ for every $1\leq t<n$. The circulant Hadamard conjecture, traditionally attributed to Ryser (Ryser 1963; Leung and Schmidt 2012), asserts that the only possible orders are $1$ and $4$. We prove this conjecture.
+ \qquad(0\leq t<n).$$ Here $P_h(0)=n$, and the Hadamard condition is equivalent to $P_h(t)=0$ for every $1\leq t<n$. The circulant Hadamard conjecture, traditionally attributed to Ryser [12, 5], asserts that the only possible orders are $1$ and $4$. We prove this conjecture.
 
 **Theorem 1.1**. *For a positive integer $n$, a real circulant Hadamard matrix of order $n$ exists if and only if $n\in\{1,4\}$.*
 
 The theorem also completes the classification of Barker-sequence lengths. For an integer $n>1$, a sign sequence $a=(a_0,\ldots,a_{n-1})\in\{-1,1\}^n$ is a *Barker sequence* if its nontrivial aperiodic autocorrelations satisfy $$|C_a(t)|\leq1\quad(1\leq t<n),\qquad
- C_a(t)=\sum_{j=0}^{n-t-1}a_ja_{j+t}.$$ The Barker-sequence conjecture asserts that no such sequence has length greater than $13$. Turyn and Storer established the odd-length nonexistence theorem (Turyn and Storer 1961); we use the later proof of Schmidt and Willms (Schmidt and Willms 2016) for the exact list. For even length greater than two, the Barker inequalities imply that all nontrivial periodic autocorrelations vanish (Turyn and Storer 1961; Turyn 1965). Theorem 1.1 therefore settles the remaining even case.
+ C_a(t)=\sum_{j=0}^{n-t-1}a_ja_{j+t}.$$ The Barker-sequence conjecture asserts that no such sequence has length greater than $13$. Turyn and Storer established the odd-length nonexistence theorem [16]; we use the later proof of Schmidt and Willms [14] for the exact list. For even length greater than two, the Barker inequalities imply that all nontrivial periodic autocorrelations vanish [16, 17]. Theorem 1.1 therefore settles the remaining even case.
 
 **Corollary 1.2** (Barker-sequence lengths). *For an integer $n>1$, a Barker sequence of length $n$ exists if and only if $$n\in\{2,3,4,5,7,11,13\}.$$*
 
@@ -24,13 +24,13 @@ Section 5 gives the short periodic-autocorrelation argument and records example
 
 The sign and cyclic conditions connect the problem to cyclic difference sets. Let $D=\{j:h_j=-1\}\subseteq\mathbb Z/n\mathbb Z$, and put $k=|D|$. If $N_D(t)$ counts ordered pairs $(a,b)\in D^2$ with $a-b=t$, then $$P_h(t)=n-4k+4N_D(t).$$ A cyclic $(v,k,\lambda)$ difference set is a $k$-element subset of a cyclic group of order $v$ for which every nonzero difference occurs exactly $\lambda$ times. For a circulant Hadamard row, the identity $(\sum_jh_j)^2=\sum_{t=0}^{n-1}P_h(t)=n$ shows that the row sum is $\pm2u$ when $n=4u^2$. Complementing $D$ when necessary makes that sum $2u$, and hence $k=2u^2-u$. The autocorrelation identity then says precisely that $D$ is a cyclic difference set with parameters $$(v,k,\lambda)=(4u^2,\,2u^2-u,\,u^2-u).$$ Conversely, such a difference set supplies a circulant Hadamard row by assigning a negative sign to its elements. This equivalence holds for every positive $u$; the restriction to odd $u$ is an additional arithmetic conclusion.
 
-Turyn studied these cyclic difference sets through the arithmetic of cyclotomic character sums and the Fourier relations imposed by their common coefficient array (Turyn 1965, 319–23). His nonexistence results show that an order greater than four must be $4u^2$, where $u$ is odd and not a prime power (Turyn 1965, Corollary 2 to Theorem 6, p. 333, and Theorem 8 with its Corollary, pp. 335–336). The proof in Section 2 gives a streamlined group-ring form of his descent for the $2$-primary coefficients.
+Turyn studied these cyclic difference sets through the arithmetic of cyclotomic character sums and the Fourier relations imposed by their common coefficient array [17, pp. 319–323]. His nonexistence results show that an order greater than four must be $4u^2$, where $u$ is odd and not a prime power [17, Corollary 2 to Theorem 6, p. 333, and Theorem 8 with its Corollary, pp. 335–336]. The proof in Section 2 gives a streamlined group-ring form of his descent for the $2$-primary coefficients.
 
-Later work sharpened the arithmetic restrictions. For a positive integer $M$, let $\zeta_M$ be a primitive $M$-th root of unity. For $X\in\mathbb Z[\zeta_M]$ with $X\overline X=m\in\mathbb Z_{>0}$, Bernhard Schmidt’s field descent places a multiple of $X$ by a root of unity in a cyclotomic subfield determined explicitly by the ambient conductor $M$ and $m$ (Schmidt 1999). Leung and Schmidt developed group-ring decompositions that refine these restrictions (Leung and Schmidt 2005), followed by further exclusions in their 2012 work and their anti-field-descent method (Leung and Schmidt 2012, 2016). Logan and Mossinghoff’s 2017 computation, using searches for double Wieferich prime pairs, excluded all but $4\,489$ integers $n$ with $4<n\leq4\cdot10^{30}$ as possible circulant Hadamard orders (Logan and Mossinghoff 2017). These $4\,489$ integers remained as candidates under those tests.
+Later work sharpened the arithmetic restrictions. For a positive integer $M$, let $\zeta_M$ be a primitive $M$-th root of unity. For $X\in\mathbb Z[\zeta_M]$ with $X\overline X=m\in\mathbb Z_{>0}$, Bernhard Schmidt’s field descent places a multiple of $X$ by a root of unity in a cyclotomic subfield determined explicitly by the ambient conductor $M$ and $m$ [13]. Leung and Schmidt developed group-ring decompositions that refine these restrictions [4], followed by further exclusions in their 2012 work and their anti-field-descent method [5, 6]. Logan and Mossinghoff’s 2017 computation, using searches for double Wieferich prime pairs, excluded all but $4\,489$ integers $n$ with $4<n\leq4\cdot10^{30}$ as possible circulant Hadamard orders [7]. These $4\,489$ integers remained as candidates under those tests.
 
-Complementary work examines the coefficients more directly. Euler, Gallardo and Rahavandrainy obtained combinatorial restrictions on the blocks of signs in the first row (Euler et al. 2016). Approximate orthogonality has a different range of possibilities: Steinerberger used flat Littlewood polynomials, which have sign coefficients and uniformly controlled modulus on the unit circle, to show that in every order there is a real sign circulant whose singular values lie between two fixed positive multiples of $\sqrt n$ (Steinerberger 2024). The conjecture requires exact equality of all singular values to $\sqrt n$. Complete proofs of the conjecture have also been claimed in (Oh-Hashi 2016; Orozco López 2019; Morris 2023; Gallardo 2024; Manjhi and Kumar 2025).
+Complementary work examines the coefficients more directly. Euler, Gallardo and Rahavandrainy obtained combinatorial restrictions on the blocks of signs in the first row [1]. Approximate orthogonality has a different range of possibilities: Steinerberger used flat Littlewood polynomials, which have sign coefficients and uniformly controlled modulus on the unit circle, to show that in every order there is a real sign circulant whose singular values lie between two fixed positive multiples of $\sqrt n$ [15]. The conjecture requires exact equality of all singular values to $\sqrt n$. Complete proofs of the conjecture have also been claimed in [10, 11, 9, 2, 8].
 
-The comparison of character values also has precedents in Turyn’s work. His preliminary fact (4) obtains a root-of-unity quotient from equality of principal ideals and absolute values. His Theorem 5 fixes a character and compares the values obtained by multiplying it by characters in a subgroup. It assumes equality of their principal ideals and that the subgroup order is coprime to both the difference-set norm parameter $k-\lambda$ and the order of the fixed character (Turyn 1965, 321, item (4), and Theorem 5, pp. 328–329).
+The comparison of character values also has precedents in Turyn’s work. His preliminary fact (4) obtains a root-of-unity quotient from equality of principal ideals and absolute values. His Theorem 5 fixes a character and compares the values obtained by multiplying it by characters in a subgroup. It assumes equality of their principal ideals and that the subgroup order is coprime to both the difference-set norm parameter $k-\lambda$ and the order of the fixed character [17, p. 321, item (4), and Theorem 5, pp. 328–329].
 
 ### Group-ring notation
 
@@ -55,7 +55,7 @@ Section 4 uses the same coefficients at a maximal ideal above two, where the od
 
 ## The order restriction
 
-We begin with the classical restriction that a circulant Hadamard order greater than one has the form $4u^2$ with $u$ odd. The descent below is a group-ring version of Turyn’s argument for the $2$-primary coefficients (Turyn 1965, Lemma 6 through Theorem 8 and its Corollary, pp. 334–336). We first isolate the cyclotomic divisibility fact that the descent uses.
+We begin with the classical restriction that a circulant Hadamard order greater than one has the form $4u^2$ with $u$ odd. The descent below is a group-ring version of Turyn’s argument for the $2$-primary coefficients [17, Lemma 6 through Theorem 8 and its Corollary, pp. 334–336]. We first isolate the cyclotomic divisibility fact that the descent uses.
 
 Let $H$ be a real circulant Hadamard matrix of order $n>1$, and represent its first row by $$h=\sum_{j=0}^{n-1}h_jX^j\in\mathbb Z[C_n].$$ The coefficient of $X^a$ in $hh^*$ is $\sum_j h_jh_{j-a}$, the inner product of row zero and row $a$. Consequently orthogonality is exactly $$\begin{equation}
 \tag{2.1}
@@ -67,7 +67,7 @@ Let $H$ be a real circulant Hadamard matrix of order $n>1$, and represent its fi
 
 ### Cyclotomic divisibility
 
-The coefficient rings in this lemma are localizations of cyclotomic integer rings. Its basis and ramification properties are classical; see, for example, (Turyn 1965, 320–21). We prove the local form, including the coefficient statement needed in both later uses.
+The coefficient rings in this lemma are localizations of cyclotomic integer rings. Its basis and ramification properties are classical; see, for example, [17, pp. 320–321]. We prove the local form, including the coefficient statement needed in both later uses.
 
 **Lemma 2.1**. *Let $p$ be a prime, let $\eta$ be a primitive $L$-th root of unity with $p\nmid L$, and let $A$ be the localization of $A_0=\mathbb Z[\eta]$ at a maximal ideal containing $p$. The case $L=1$ is allowed. Then $A$ has maximal ideal $pA$, and every nonzero element of $A$ is a unit times a nonnegative integral power of $p$.*
 
@@ -159,7 +159,7 @@ Choose a polynomial representative of $F$ and divide by the monic cyclotomic pol
 
 ### From local units to roots of unity
 
-The comparison supplies control at the primes dividing $u$. The norm identity supplies both the remaining local control and the complex absolute values. We use two elementary facts to turn these properties into an order restriction. The first is Kronecker’s criterion (Kronecker 1857, Statement I).
+The comparison supplies control at the primes dividing $u$. The norm identity supplies both the remaining local control and the complex absolute values. We use two elementary facts to turn these properties into an order restriction. The first is Kronecker’s criterion [3, Statement I].
 
 **Lemma 3.3**.
 
@@ -212,7 +212,7 @@ Proposition 3.4 applies to every $x\in\mathbb Z[i][P]$ satisfying $xx^*=u^2$. W
 
 *Proof of Theorem 1.1.* The $1\times1$ matrix $(1)$ is an example, as is the circulant matrix with first row $(1,1,1,-1)$ at order four; its three nontrivial autocorrelations vanish.
 
-Suppose there were an example of another order. By Proposition 2.2, its order is $4u^2$ with $u>1$ odd. Write $P=C_{u^2}$ and use the coprime decomposition $C_{4u^2}=C_4\times P$. For a generator $Z$ of $C_4$, write the first-row element as $$h=H_0+ZH_1+Z^2H_2+Z^3H_3,\qquad H_j\in\mathbb Z[P].$$ This decomposition reindexes the coefficients of the row, so every coefficient of every $H_j$ is a sign. Turyn’s Lemma 8 (Turyn 1965, 337) studies the four coset counts under an additional hypothesis on the ideals generated by the three nonprincipal character values; here each $H_j$ records the signs at all elements of $P$. The normalized partial evaluations at $Z=1,-1,i$ are $$\begin{equation}
+Suppose there were an example of another order. By Proposition 2.2, its order is $4u^2$ with $u>1$ odd. Write $P=C_{u^2}$ and use the coprime decomposition $C_{4u^2}=C_4\times P$. For a generator $Z$ of $C_4$, write the first-row element as $$h=H_0+ZH_1+Z^2H_2+Z^3H_3,\qquad H_j\in\mathbb Z[P].$$ This decomposition reindexes the coefficients of the row, so every coefficient of every $H_j$ is a sign. Turyn’s Lemma 8 [17, p. 337] studies the four coset counts under an additional hypothesis on the ideals generated by the three nonprincipal character values; here each $H_j$ records the signs at all elements of $P$. The normalized partial evaluations at $Z=1,-1,i$ are $$\begin{equation}
 \tag{4.1}
  \begin{aligned}
  c&=\tfrac12h\vert_{Z=1}
@@ -264,7 +264,7 @@ Put $b=(H_1+H_3)/2\in\mathbb Z[P]$. Direct subtraction in $\mathbb Z[i][P]$ give
 The displayed subgroup memberships give residue $1$ for every $r_S$ and $w_S$, and therefore for $R$ and $W$. The orders of $R$ and $W$ are odd, so Lemma 3.3(ii) in residue characteristic two gives the exact equalities $$\begin{equation}
 \tag{4.10}
  R=W=1.
-\end{equation}$$ A related character comparison of Leung and Schmidt also forces a root of unity of odd order to equal one by reducing modulo two (Leung and Schmidt 2012, author manuscript, proof of Theorem 3.5, p. 10). Lemma 4.1 applies with $t=2$ and with $t=1+i$. For the two families it gives $$\lambda_2(r_S)=L_{r,S}\bmod\mathfrak n,\qquad
+\end{equation}$$ A related character comparison of Leung and Schmidt also forces a root of unity of odd order to equal one by reducing modulo two [5, author manuscript, proof of Theorem 3.5, p. 10]. Lemma 4.1 applies with $t=2$ and with $t=1+i$. For the two families it gives $$\lambda_2(r_S)=L_{r,S}\bmod\mathfrak n,\qquad
  \lambda_{1+i}(w_S)=L_{w,S}\bmod\mathfrak n.$$ Both maps take values in $k$, reducing their respective integral quotients modulo the same maximal ideal $\mathfrak n$. Apply them to the products in (4.4), using (4.10); the homomorphism and inverse rules give $$\sum_{S\subseteq I}\varepsilon_S L_{r,S}\equiv0\pmod\mathfrak n,\qquad
  \sum_{S\subseteq I}\varepsilon_S L_{w,S}\equiv0\pmod\mathfrak n.$$ Adding these identities in $k$ and using (4.9) yields $$\begin{equation}
 \tag{4.11}
@@ -280,9 +280,9 @@ For $S\ne\varnothing$, the character $\chi_S$ is nontrivial. Choose $z\in P$ wit
 We finish by proving the length classification stated in Corollary 1.2. The new input is the circulant Hadamard theorem for even lengths; the odd-length classification is classical.
 
 *Proof of Corollary 1.2.* Suppose first that $a$ is a Barker sequence of even length $n>2$. Its periodic autocorrelation at a nontrivial shift is $$P_a(t)=\sum_{j=0}^{n-1}a_j a_{j+t\bmod n}
-       =C_a(t)+C_a(n-t)\qquad(1\leq t<n).$$ The product of the $n$ sign summands in $P_a(t)$ is $(\prod_j a_j)^2=1$, so an even number of those summands are negative. Consequently $P_a(t)\equiv n\pmod4$. Also $C_a(t)\equiv n-t\pmod2$. For $t=2$, both $C_a(2)$ and $C_a(n-2)$ are even; the Barker bound makes them zero. Thus $P_a(2)=0$, and $4\mid n$. For every nontrivial shift, the Barker bounds give $|P_a(t)|\leq2$, while the congruence gives $P_a(t)\equiv0\pmod4$. Hence all these periodic autocorrelations vanish. The cyclic shifts of $a$ form a real circulant Hadamard matrix. This classical implication appears in Turyn and Storer (Turyn and Storer 1961, 395, footnote 2); see also (Turyn 1965, 330). Theorem 1.1 now forces $n=4$. The only possible even lengths are therefore $2$ and $4$.
+       =C_a(t)+C_a(n-t)\qquad(1\leq t<n).$$ The product of the $n$ sign summands in $P_a(t)$ is $(\prod_j a_j)^2=1$, so an even number of those summands are negative. Consequently $P_a(t)\equiv n\pmod4$. Also $C_a(t)\equiv n-t\pmod2$. For $t=2$, both $C_a(2)$ and $C_a(n-2)$ are even; the Barker bound makes them zero. Thus $P_a(2)=0$, and $4\mid n$. For every nontrivial shift, the Barker bounds give $|P_a(t)|\leq2$, while the congruence gives $P_a(t)\equiv0\pmod4$. Hence all these periodic autocorrelations vanish. The cyclic shifts of $a$ form a real circulant Hadamard matrix. This classical implication appears in Turyn and Storer [16, p. 395, footnote 2]; see also [17, p. 330]. Theorem 1.1 now forces $n=4$. The only possible even lengths are therefore $2$ and $4$.
 
-For odd $n>1$, Turyn and Storer proved nonexistence above length $13$ (Turyn and Storer 1961); the later proof of Schmidt and Willms (Schmidt and Willms 2016, Theorem 1) gives the exact list $n\in\{3,5,7,11,13\}$. Examples exist at every listed length. The following table uses the examples recorded in (Schmidt and Willms 2016, sec. 1). Here $+$ and $-$ denote $1$ and $-1$; direct substitution in $C_a(t)$ verifies the Barker property in each row. $$\begin{array}{c|lc|l}
+For odd $n>1$, Turyn and Storer proved nonexistence above length $13$ [16]; the later proof of Schmidt and Willms [14, Theorem 1] gives the exact list $n\in\{3,5,7,11,13\}$. Examples exist at every listed length. The following table uses the examples recorded in [14, Section 1]. Here $+$ and $-$ denote $1$ and $-1$; direct substitution in $C_a(t)$ verifies the Barker property in each row. $$\begin{array}{c|lc|l}
  n & a & n & a\\ \hline
  2 & \texttt{++} & 7 & \texttt{+++{-}{-}+{-}}\\
  3 & \texttt{++-} & 11 & \texttt{+++{-}{-}{-}+{-}{-}+{-}}\\
@@ -294,36 +294,36 @@ If length one is admitted, it is also possible: there are no nontrivial shifts, 
 
 ## References
 
-Euler, Reinhardt, Luis H. Gallardo, and Olivier Rahavandrainy. 2016. “Combinatorial Properties of Circulant Hadamard Matrices.” In *A Panorama of Mathematics: Pure and Applied*, edited by Carlos M. da Fonseca, Dinh Van Huynh, Steve Kirkland, and Vu Kim Tuan, vol. 658. Contemporary Mathematics. American Mathematical Society. <https://doi.org/10.1090/conm/658/13134>.
+**[1]** Reinhardt Euler, Luis H. Gallardo, and Olivier Rahavandrainy. Combinatorial properties of circulant Hadamard matrices. In Carlos M. da Fonseca, Dinh Van Huynh, Steve Kirkland, and Vu Kim Tuan, editors, *A Panorama of Mathematics: Pure and Applied*, volume 658 of *Contemporary Mathematics*, pages 9–19. American Mathematical Society, Providence, RI, 2016. Manuscript posted as arXiv:2406.10748 in 2024.
 
-Gallardo, Luis H. 2024. *Ryser’s Conjecture and Stochastic Matrices*. <https://arxiv.org/abs/2405.13033v1>.
+**[2]** Luis H. Gallardo. Ryser’s conjecture and stochastic matrices, 2024. arXiv:2405.13033v1.
 
-Kronecker, Leopold. 1857. “Zwei Sätze über Gleichungen mit ganzzahligen Coefficienten.” *Journal für Die Reine Und Angewandte Mathematik* 53: 173–75. <https://doi.org/10.1515/crll.1857.53.173>.
+**[3]** Leopold Kronecker. Zwei Sätze über Gleichungen mit ganzzahligen Coefficienten. *Journal für die reine und angewandte Mathematik*, 53:173–175, 1857.
 
-Leung, Ka Hin, and Bernhard Schmidt. 2005. “The Field Descent Method.” *Designs, Codes and Cryptography* 36 (2): 171–88. <https://doi.org/10.1007/s10623-004-1703-7>.
+**[4]** Ka Hin Leung and Bernhard Schmidt. The field descent method. *Designs, Codes and Cryptography*, 36(2):171–188, 2005.
 
-Leung, Ka Hin, and Bernhard Schmidt. 2012. “New Restrictions on Possible Orders of Circulant Hadamard Matrices.” *Designs, Codes and Cryptography* 64 (1–2): 143–51. <https://doi.org/10.1007/s10623-011-9493-1>.
+**[5]** Ka Hin Leung and Bernhard Schmidt. New restrictions on possible orders of circulant Hadamard matrices. *Designs, Codes and Cryptography*, 64(1–2):143–151, 2012. Author manuscript: <https://personal.ntu.edu.sg/bernhard/Publications/pub/chdm.pdf>.
 
-Leung, Ka Hin, and Bernhard Schmidt. 2016. “The Anti-Field-Descent Method.” *Journal of Combinatorial Theory, Series A* 139: 87–131. <https://doi.org/10.1016/j.jcta.2015.11.005>.
+**[6]** Ka Hin Leung and Bernhard Schmidt. The anti-field-descent method. *Journal of Combinatorial Theory, Series A*, 139:87–131, 2016.
 
-Logan, Brooke, and Michael J. Mossinghoff. 2017. “Double Wieferich Pairs and Circulant Hadamard Matrices.” *Journal of Combinatorial Mathematics and Combinatorial Computing* 101: 145–56. <https://combinatorialpress.com/jcmcc-articles/volume-101/double-wieferich-pairs-and-circulant-hadamard-matrices/>.
+**[7]** Brooke Logan and Michael J. Mossinghoff. Double Wieferich pairs and circulant Hadamard matrices. *Journal of Combinatorial Mathematics and Combinatorial Computing*, 101:145–156, 2017.
 
-Manjhi, Pankaj Kumar, and Jitendra Kumar. 2025. “Construction of Regular Hadamard Matrices from Circulant Hadamard Matrices and Ryser’s Conjecture.” *Communications in Mathematics and Applications* 16 (3): 923–27. <https://doi.org/10.26713/cma.v16i3.3215>.
+**[8]** Pankaj Kumar Manjhi and Jitendra Kumar. Construction of regular Hadamard matrices from circulant Hadamard matrices and Ryser’s conjecture. *Communications in Mathematics and Applications*, 16(3):923–927, 2025.
 
-Morris, Joshua. 2023. *A Proof of Ryser’s Circulant Hadamard Conjecture*. <https://arxiv.org/abs/2302.08346v1>.
+**[9]** Joshua Morris. A proof of Ryser’s circulant Hadamard conjecture, 2023. arXiv:2302.08346v1.
 
-Oh-Hashi, Yoshimasa. 2016. “A Proof of Turyn’s Conjecture: Nonexistence of Circulant Hadamard Matrices for Order Greater Than Four.” *IEICE Transactions on Communications* E99-B (7): 1395–407. <https://doi.org/10.1587/transcom.2015EBP3506>.
+**[10]** Yoshimasa Oh-Hashi. A proof of Turyn’s conjecture: nonexistence of circulant Hadamard matrices for order greater than four. *IEICE Transactions on Communications*, E99-B(7):1395–1407, 2016.
 
-Orozco López, Ronald. 2019. *Proof of the Circulant Hadamard Conjecture*. <https://arxiv.org/abs/1907.12683v3>.
+**[11]** Ronald Orozco López. Proof of the circulant Hadamard conjecture, 2019. arXiv:1907.12683v3.
 
-Ryser, Herbert John. 1963. *Combinatorial Mathematics*. Vol. 14. Carus Mathematical Monographs. Mathematical Association of America. <https://doi.org/10.5948/UPO9781614440147>.
+**[12]** Herbert John Ryser. *Combinatorial Mathematics*, volume 14 of *Carus Mathematical Monographs*. Mathematical Association of America, 1963.
 
-Schmidt, Bernhard. 1999. “Cyclotomic Integers and Finite Geometry.” *Journal of the American Mathematical Society* 12 (4): 929–52. <https://doi.org/10.1090/S0894-0347-99-00298-2>.
+**[13]** Bernhard Schmidt. Cyclotomic integers and finite geometry. *Journal of the American Mathematical Society*, 12(4):929–952, 1999.
 
-Schmidt, Kai-Uwe, and Jürgen Willms. 2016. “Barker Sequences of Odd Length.” *Designs, Codes and Cryptography* 80 (2): 409–14. <https://doi.org/10.1007/s10623-015-0104-4>.
+**[14]** Kai-Uwe Schmidt and Jürgen Willms. Barker sequences of odd length. *Designs, Codes and Cryptography*, 80(2):409–414, 2016.
 
-Steinerberger, Stefan. 2024. “A Note on Approximate Hadamard Matrices.” *Designs, Codes and Cryptography* 92: 3125–31. <https://doi.org/10.1007/s10623-024-01430-w>.
+**[15]** Stefan Steinerberger. A note on approximate Hadamard matrices. *Designs, Codes and Cryptography*, 92:3125–3131, 2024.
 
-Turyn, Richard J. 1965. “Character Sums and Difference Sets.” *Pacific Journal of Mathematics* 15 (1): 319–46. <https://doi.org/10.2140/pjm.1965.15.319>.
+**[16]** R. Turyn and J. Storer. On binary sequences. *Proceedings of the American Mathematical Society*, 12(3):394–399, 1961.
 
-Turyn, R., and J. Storer. 1961. “On Binary Sequences.” *Proceedings of the American Mathematical Society* 12 (3): 394–99. <https://doi.org/10.1090/S0002-9939-1961-0125026-2>.
+**[17]** Richard J. Turyn. Character sums and difference sets. *Pacific Journal of Mathematics*, 15(1):319–346, 1965.

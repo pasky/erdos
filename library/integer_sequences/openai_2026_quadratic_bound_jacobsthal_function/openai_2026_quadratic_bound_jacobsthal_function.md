@@ -10,7 +10,7 @@ Let $h(k)$ be the least integer such that every interval of $h(k)$ consecutive i
 
 For a positive integer $n$, let $j(n)$ be the least positive integer $m$ such that every interval of $m$ consecutive integers contains an integer coprime to $n$. Write $\omega(n)$ for the number of distinct prime divisors of $n$, with $\omega(1)=0$, and put $$h(k)=\sup_{\substack{n\ge1\\\omega(n)\le k}}j(n),\qquad k\ge1.$$ The starting point of the interval is arbitrary, and replacing $n$ by the product of its distinct prime divisors does not change $j(n)$. Thus $h(k)-1$ is the greatest length of an interval that can be covered by the divisibility classes of at most $k$ primes.
 
-Jacobsthal studied this function in a series of papers beginning in 1960 (Jacobsthal 1960). Erdős subsequently recorded Jacobsthal’s question whether $h(k)\ll k^2$ (Erdős 1962, 163, equations (1) and (3)). In Erdős’s notation, $C(k)+1$ is the maximum of $j(n)$ over integers with exactly $k$ distinct prime divisors. This equals our $h(k)$: adjoining prime divisors cannot decrease $j(n)$. We prove the following bound, which gives an affirmative answer and a further iterated-logarithmic saving.
+Jacobsthal studied this function in a series of papers beginning in 1960 [17]. Erdős subsequently recorded Jacobsthal’s question whether $h(k)\ll k^2$ [3, p. 163, equations (1) and (3)]. In Erdős’s notation, $C(k)+1$ is the maximum of $j(n)$ over integers with exactly $k$ distinct prime divisors. This equals our $h(k)$: adjoining prime divisors cannot decrease $j(n)$. We prove the following bound, which gives an affirmative answer and a further iterated-logarithmic saving.
 
 **Theorem 1.1**. *There is an absolute constant $C>0$ such that $$h(k)\le C\frac{k^2}{(\log\log(3k))^2}
  \qquad\text{for every integer }k\ge1.$$*
@@ -19,25 +19,25 @@ All logarithms are natural. In particular the theorem gives a uniform quadratic 
 
 ### Historical context and related work
 
-The development of the upper bound is closely tied to sieve theory. Erdős observed that Brun’s method gives $h(k)\ll k^{C_0}$ for some absolute exponent $C_0$ (Erdős 1962, 163). Iwaniec’s work on the error term in the linear sieve gave an estimate of order $k^2\log^2 k$ when the prime divisors are the first $k$ primes (Iwaniec 1971); this primorial case is distinguished explicitly in (Vaughan 1977, 329) and (Iwaniec 1978, 225–26). Vaughan then proved the uniform estimate $$j(n)\ll\omega(n)^2\bigl(\log(2\omega(n))\bigr)^4
- \qquad(n>1)$$ (Vaughan 1977, Theorem, p. 329). Iwaniec’s shifted-sieve argument removed two logarithmic factors and established $h(k)\ll k^2\log^2 k$ for arbitrary prime sets (Iwaniec 1978, Theorem and Corollary, p. 226). Theorem 1.1 improves this bound and, in particular, reaches the quadratic scale asked for by Jacobsthal.
+The development of the upper bound is closely tied to sieve theory. Erdős observed that Brun’s method gives $h(k)\ll k^{C_0}$ for some absolute exponent $C_0$ [3, p. 163]. Iwaniec’s work on the error term in the linear sieve gave an estimate of order $k^2\log^2 k$ when the prime divisors are the first $k$ primes [14]; this primorial case is distinguished explicitly in [25, p. 329] and [15, pp. 225–226]. Vaughan then proved the uniform estimate $$j(n)\ll\omega(n)^2\bigl(\log(2\omega(n))\bigr)^4
+ \qquad(n>1)$$ [25, Theorem, p. 329]. Iwaniec’s shifted-sieve argument removed two logarithmic factors and established $h(k)\ll k^2\log^2 k$ for arbitrary prime sets [15, Theorem and Corollary, p. 226]. Theorem 1.1 improves this bound and, in particular, reaches the quadratic scale asked for by Jacobsthal.
 
-Vaughan explained the exponent $2$ through the one-dimensional sieve’s restriction to moduli near the square root of the interval length (Vaughan 1977, 329). In the usual linear-sieve notation this appears as the vanishing of the lower function $f$ at sieve parameter $2$. Our proof also reaches this limiting parameter. It keeps a boundary contribution that disappears from the leading linear-sieve term, and then controls the discrepancy between this reference calculation and the actual prescribed classes. The latter comparison requires the inverse estimate and the stopped counts developed below; positivity of the reference calculation alone does not give a lower bound for the original sieve.
+Vaughan explained the exponent $2$ through the one-dimensional sieve’s restriction to moduli near the square root of the interval length [25, p. 329]. In the usual linear-sieve notation this appears as the vanishing of the lower function $f$ at sieve parameter $2$. Our proof also reaches this limiting parameter. It keeps a boundary contribution that disappears from the leading linear-sieve term, and then controls the discrepancy between this reference calculation and the actual prescribed classes. The latter comparison requires the inverse estimate and the stopped counts developed below; positivity of the reference calculation alone does not give a lower bound for the original sieve.
 
-A separate question concerns which prime sets give the largest gap. Let $p_k$ denote the $k$th prime and $P_k=\prod_{i=1}^k p_i$. Jacobsthal suggested that $j(P_k)=h(k)$ for every $k$. Hajdu and Saradha proved equality for $k\le23$, but found $$j(P_{24})=234<236=h(24)$$ (Hajdu and Saradha 2012, Theorem 1.2). Thus the primorial extremality conjecture is distinct from the quadratic-bound question, and a theorem only about $j(P_k)$ does not settle the uniform problem. The computational literature reflects this distinction. Costello and Watts obtained recursive lower bounds for the minimum number of integers coprime to $P_k$ in an interval, and used them to compute upper bounds for $j(P_k)$ (Costello and Watts 2015, Theorem 4.4 and Section 5). Ziller computed the maximum over arbitrary prime sets through $43$ prime factors (Ziller 2019, sec. 3). These finite computations concern explicit values, whereas the constant in Theorem 1.1 is not made explicit.
+A separate question concerns which prime sets give the largest gap. Let $p_k$ denote the $k$th prime and $P_k=\prod_{i=1}^k p_i$. Jacobsthal suggested that $j(P_k)=h(k)$ for every $k$. Hajdu and Saradha proved equality for $k\le23$, but found $$j(P_{24})=234<236=h(24)$$ [11, Theorem 1.2]. Thus the primorial extremality conjecture is distinct from the quadratic-bound question, and a theorem only about $j(P_k)$ does not settle the uniform problem. The computational literature reflects this distinction. Costello and Watts obtained recursive lower bounds for the minimum number of integers coprime to $P_k$ in an interval, and used them to compute upper bounds for $j(P_k)$ [2, Theorem 4.4 and Section 5]. Ziller computed the maximum over arbitrary prime sets through $43$ prime factors [29, Section 3]. These finite computations concern explicit values, whereas the constant in Theorem 1.1 is not made explicit.
 
-Primorials nevertheless give the strongest lower bounds relevant to the order of $h(k)$. They arise from constructions of long covered intervals, which also produce large gaps between consecutive primes. Erdős’s account already places Rankin’s lower-bound construction beside Brun’s polynomial upper bound (Erdős 1962, 163, equation (2)). The later construction of Ford, Green, Konyagin, Maynard and Tao gives $$\begin{equation}
+Primorials nevertheless give the strongest lower bounds relevant to the order of $h(k)$. They arise from constructions of long covered intervals, which also produce large gaps between consecutive primes. Erdős’s account already places Rankin’s lower-bound construction beside Brun’s polynomial upper bound [3, p. 163, equation (2)]. The later construction of Ford, Green, Konyagin, Maynard and Tao gives $$\begin{equation}
 \tag{1.1}
  j(P_k)\gg
  k(\log k)^2\frac{\log\log\log k}{\log\log k}
  \qquad(k\longrightarrow\infty)
-\end{equation}$$ (Ford et al. 2018, sec. 1.1). Indeed, their covered-interval bound at prime cutoff $x$ is $$\gg x\log x\,\log\log\log x/\log\log x;$$ take $x=p_k$ and use $p_k\sim k\log k$. Since $j(P_k)\le h(k)$, this supplies a lower bound for the uniform maximum as well. It is an existence construction and does not assert the same lower bound for every integer with $k$ prime divisors. The gap between (1.1) and our upper bound remains substantial. Vaughan suggested the stronger possible estimate $j(n)\ll_\varepsilon\omega(n)^{1+\varepsilon}$ for $n>1$ and each fixed $\varepsilon>0$ (Vaughan 1977, 329).
+\end{equation}$$ [5, Section 1.1]. Indeed, their covered-interval bound at prime cutoff $x$ is $$\gg x\log x\,\log\log\log x/\log\log x;$$ take $x=p_k$ and use $p_k\sim k\log k$. Since $j(P_k)\le h(k)$, this supplies a lower bound for the uniform maximum as well. It is an existence construction and does not assert the same lower bound for every integer with $k$ prime divisors. The gap between (1.1) and our upper bound remains substantial. Vaughan suggested the stronger possible estimate $j(n)\ll_\varepsilon\omega(n)^{1+\varepsilon}$ for $n>1$ and each fixed $\varepsilon>0$ [25, p. 329].
 
 ### A quantitative covering estimate
 
 The proof works with one prescribed residue class at each prime below a size cutoff. This is another form of the same covering problem: for a finite prime set, the Chinese remainder theorem supplies an integer $b$ with $b\equiv a_p\pmod p$ at every prime in the set, and $$n\not\equiv a_p\pmod p\ \text{for every such }p
  \quad\Longleftrightarrow\quad
- \gcd\left(n-b,\prod p\right)=1.$$ This equivalence explains why arbitrary classes and arbitrary translations occur together; see also (Hajdu and Saradha 2012, Lemma 2.1).
+ \gcd\left(n-b,\prod p\right)=1.$$ This equivalence explains why arbitrary classes and arbitrary translations occur together; see also [11, Lemma 2.1].
 
 For sufficiently large real $z$, set $$\begin{equation}
 \tag{1.2}
@@ -59,17 +59,17 @@ Mertens’ theorem identifies the size of this lower bound: $$\begin{equation}
  \frac{YV_0}{B^2}\sim e^{-\gamma}\frac{Y\log w}{L^2}.
 \end{equation}$$ The number of survivors, rather than positivity alone, permits the passage from a prime cutoff to a bound in terms of the number of prime divisors. For sufficiently large $k$, if $n$ has at most $k$ distinct prime divisors, apply Theorem 1.2 at a cutoff $z=A_0 k\log k/\log\log k$, where $A_0$ is a sufficiently large fixed constant. A progression upper sieve bounds the total number of these survivors removed by the remaining divisor primes $q>z$ by $O(k(1+X/\log X))$, where $X=Y/z$. The lower bound in (1.4) dominates this loss for that choice of $A_0$, while $Y\asymp k^2/(\log\log k)^2$. Section 11 gives the comparison with constants and handles the bounded range of $k$.
 
-The quantitative estimate also relates to the interval-sieve quantity studied by Banks, Ford and Tao (Banks et al. 2023, secs. 1.3–1.4). They minimize the survivor count over all choices of forbidden classes at primes up to $(y/\log y)^{1/2}$ in an interval of length $y$. At that cutoff a classical lower sieve gives a bound of order $y\log\log y/(\log y)^2$. Theorem 1.2 retains this order of magnitude at the larger cutoff $z\asymp\sqrt Y\log Y$. The classes here are arbitrary; no random choice of the forbidden classes is assumed in this theorem.
+The quantitative estimate also relates to the interval-sieve quantity studied by Banks, Ford and Tao [1, Sections 1.3–1.4]. They minimize the survivor count over all choices of forbidden classes at primes up to $(y/\log y)^{1/2}$ in an interval of length $y$. At that cutoff a classical lower sieve gives a bound of order $y\log\log y/(\log y)^2$. Theorem 1.2 retains this order of magnitude at the larger cutoff $z\asymp\sqrt Y\log Y$. The classes here are arbitrary; no random choice of the forbidden classes is assumed in this theorem.
 
 ### Outline of the argument
 
 The proof has two parts: a reference calculation for a decreasing-prime expansion, and a comparison with the actual residue classes. Section 3 partitions discarded integers by the least prime at which they hit a forbidden class. Iteration gives tuples of strictly decreasing primes. At even depths the expansion is a lower bound, and at odd depths it is an upper bound. An admission rule limits the progressions retained in this expansion so that each is long enough for an absolute upper sieve. Replacing its small-prime count by progression coordinate length times $V_0$ defines the reference tree.
 
-The leading reference term is governed by the classical linear-sieve functions $f,F$ (Montgomery and Vaughan, n.d.-a, sec. 21.2.2), with the root tending to the critical parameter $2$. The lower exponent cutoff leaves a boundary contribution on the smaller scale $B^{-2}$. Each prime path has weight equal to the reciprocal product of its primes. Replacing reciprocal-prime sums by harmonic integrals $dx/x$ gives a continuous reference process. To evaluate the boundary contribution, Section 4 uses derivative weights of $f,F$ to normalize its transitions to a probability kernel. Its regeneration cycles give limiting occupation measures, which Section 5 transfers to prime tuples. Section 6 then evaluates the boundary contribution and bounds the losses imposed by the admission rule. A positive margin remains after these losses and the negative contribution from the root’s small displacement below parameter $2$.
+The leading reference term is governed by the classical linear-sieve functions $f,F$ [21, Section 21.2.2], with the root tending to the critical parameter $2$. The lower exponent cutoff leaves a boundary contribution on the smaller scale $B^{-2}$. Each prime path has weight equal to the reciprocal product of its primes. Replacing reciprocal-prime sums by harmonic integrals $dx/x$ gives a continuous reference process. To evaluate the boundary contribution, Section 4 uses derivative weights of $f,F$ to normalize its transitions to a probability kernel. Its regeneration cycles give limiting occupation measures, which Section 5 transfers to prime tuples. Section 6 then evaluates the boundary contribution and bounds the losses imposed by the admission rule. A positive margin remains after these losses and the negative contribution from the root’s small displacement below parameter $2$.
 
 The actual small-prime counts agree with their reference values in long progressions, by the fundamental lemma of sieve theory. At a short progression, a large relative discrepancy must already be visible along one of the last few edges of its path. Section 7 places these paths in boxes in which selected prime factors vary independently. An inverse estimate in Section 8 shows that many discrepant edges force alignment with one of finitely many rationals $A/D$: a prime $p$ aligns when $Da_p\equiv A\pmod p$.
 
-The inverse step is related to the principle that modular concentration forces algebraic structure, developed by Helfgott and Venkatesh and by Walsh (Helfgott and Venkatesh 2009; Walsh 2012). Our argument uses partial incidence constraints in a single prime bin and obtains a rational list fixed for the whole box. It combines polynomial interpolation with Jarník’s convex-arc lattice-point argument (Jarník 1926) and the pair-counting principle of Gallagher’s larger sieve (Gallagher 1971). Variance estimates in Section 9 then show that a rational can account for many discrepant endpoints only when its effective modulus and intercept are small. The pair-moment calculation is a truncated form of mean singular-series averaging (Gallagher 1976); the paper proves the required uniformity and stability under the changes of measure used here.
+The inverse step is related to the principle that modular concentration forces algebraic structure, developed by Helfgott and Venkatesh and by Walsh [13, 27]. Our argument uses partial incidence constraints in a single prime bin and obtains a rational list fixed for the whole box. It combines polynomial interpolation with Jarník’s convex-arc lattice-point argument [18] and the pair-counting principle of Gallagher’s larger sieve [7]. Variance estimates in Section 9 then show that a rational can account for many discrepant endpoints only when its effective modulus and intercept are small. The pair-moment calculation is a truncated form of mean singular-series averaging [8]; the paper proves the required uniformity and stability under the changes of measure used here.
 
 For the endpoints remaining after this argument, many earlier prime factors align with the same rational. Section 10 stops their branches at suitable even nodes. The stop rule depends on prime bins in a way that permits one aligned prime to vary over a large subset of its bin. Averaging over that prime gives more exact survivors than the reference subtree requires. A marked-renewal argument shows that all but an arbitrarily small amount of the exceptional path mass reaches one of these stops.
 
@@ -94,7 +94,7 @@ We state the forms of the classical estimates used in the proof. Appendix B sup
  \tau(l)^C|r_l|\right).
 \end{equation}$$ The same statement holds for nonnegative weighted counts. A local condition that makes the sifted set empty may instead be removed from consideration as an exactly empty case.*
 
-This is a standard dimension-two form of the fundamental lemma; see (Sofos 2023, Lemma 2.8, p. S137), which records the stronger remainder sum without divisor weights and attributes the result to (Friedlander and Iwaniec 2010, Corollary 6.10). To check the uniform dimension condition here, put $g(p)=0$ outside $\mathcal P$. For $p\ge3$, $$(1-2/p)^{-1}=(1-1/p)^{-2}\bigl(1+O(p^{-2})\bigr).$$ Mertens’ theorem therefore gives $$\prod_{u\le p<v}(1-g(p))^{-1}
+This is a standard dimension-two form of the fundamental lemma; see [24, Lemma 2.8, p. S137], which records the stronger remainder sum without divisor weights and attributes the result to [6, Corollary 6.10]. To check the uniform dimension condition here, put $g(p)=0$ outside $\mathcal P$. For $p\ge3$, $$(1-2/p)^{-1}=(1-1/p)^{-2}\bigl(1+O(p^{-2})\bigr).$$ Mertens’ theorem therefore gives $$\prod_{u\le p<v}(1-g(p))^{-1}
  \le K\left(\frac{\log v}{\log u}\right)^2
  \qquad(2\le u<v)$$ with an absolute $K$. The factor at 2 is at most 2. The sieve weights depend only on intersections of the bad conditions, so their use is not restricted to literal divisibility conditions.
 
@@ -114,7 +114,7 @@ This is a standard dimension-two form of the fundamental lemma; see (Sofos 2023,
 
 4.  *Uniformly for $v^{9/10}\le H\le v$ as $v\to\infty$, $$\#\{v-H<p\le v\}\ge(1-o(1))\frac H{\log v}.$$*
 
-Part (i) is the classical zero-free-region PNT together with its Mertens product consequence; see (Iwaniec and Kowalski 2004), and the stronger explicit PNT error in (Fiori et al. 2023). Parts (ii) and (iii) are Siegel–Walfisz and Brun–Titchmarsh; see the explicit statements in (Granville and Soundararajan, n.d., 75) and (Granville and Soundararajan 2014, Theorem 1.4.4, p. 39), respectively. Lemma B.4 derives the order bound in part (iii) from the stated sieve input and Mertens’ formula. Part (iv) follows from the short-interval PNT of Huxley, for example in Heath-Brown’s proof (Heath-Brown 1982, Theorem, p. 1365). To see that a fixed-exponent version suffices, tile an interval of length at least $v^{9/10}$ by intervals ending at $x$ of length $x^{4/5}$. Stop before the final incomplete tile or before $x<v^{1/2}$. The lost total length is $O(v^{4/5}+v^{1/2})=o(H)$. All remaining endpoints tend to infinity uniformly, so the fixed-exponent theorem sums over the tiles. Prime powers contribute a negligible amount, and $\log p\le\log v$ gives the stated prime-count lower bound.
+Part (i) is the classical zero-free-region PNT together with its Mertens product consequence; see [16], and the stronger explicit PNT error in [4]. Parts (ii) and (iii) are Siegel–Walfisz and Brun–Titchmarsh; see the explicit statements in [9, p. 75] and [10, Theorem 1.4.4, p. 39], respectively. Lemma B.4 derives the order bound in part (iii) from the stated sieve input and Mertens’ formula. Part (iv) follows from the short-interval PNT of Huxley, for example in Heath-Brown’s proof [12, Theorem, p. 1365]. To see that a fixed-exponent version suffices, tile an interval of length at least $v^{9/10}$ by intervals ending at $x$ of length $x^{4/5}$. Stop before the final incomplete tile or before $x<v^{1/2}$. The lost total length is $O(v^{4/5}+v^{1/2})=o(H)$. All remaining endpoints tend to infinity uniformly, so the fixed-exponent theorem sums over the tiles. Prime powers contribute a negligible amount, and $\log p\le\log v$ gives the stated prime-count lower bound.
 
 We also use the additive large sieve in the following standard form: for distinct reduced fractions with denominators at most $Q$, and coefficients supported on $J$ consecutive integers, $$\begin{equation}
 \tag{2.2}
@@ -122,18 +122,18 @@ We also use the additive large sieve in the following standard form: for distinc
  \left|\sum_j b_j e(aj/q)\right|^2
  \ll(J+Q^2)\sum_j|b_j|^2,
  \qquad e(t)=e^{2\pi it}.
-\end{equation}$$ See (Montgomery and Vaughan 1973) and (Vaughan 2025, Theorem 3). Lemma B.2 proves the order bound needed here.
+\end{equation}$$ See [20] and [26, Theorem 3]. Lemma B.2 proves the order bound needed here.
 
 For the complete Kloosterman sum $$\mathop{\mathrm{Kl}}(h,k;N)=\sum_{\substack{u\bmod N\\(u,N)=1}}
  e\!\left(\frac{hu+k\bar u}{N}\right)$$ we use $$\begin{equation}
 \tag{2.3}
  |\mathop{\mathrm{Kl}}(h,k;N)|\ll \tau(N)(h,k,N)^{1/2}N^{1/2}.
-\end{equation}$$ This holds for arbitrary positive moduli, including prime powers, and for noncoprime or zero frequencies; see (Lichtman 2022, Lemma 7.1) and (Iwaniec and Kowalski 2004, Corollary 11.12, p. 280). The gcd factor in (2.3) will be retained in all completions.
+\end{equation}$$ This holds for arbitrary positive moduli, including prime powers, and for noncoprime or zero frequencies; see [19, Lemma 7.1] and [16, Corollary 11.12, p. 280]. The gcd factor in (2.3) will be retained in all completions.
 
 The probability input is the nonarithmetic iid key renewal theorem: if positive iid increments have finite positive mean $\mu$, renewal measure $U$, and $H$ is directly Riemann integrable, then $$\begin{equation}
 \tag{2.4}
  (U*H)(v)\longrightarrow\frac1\mu\int_\mathbb RH(u)\,du.
-\end{equation}$$ We apply the usual half-line theorem after translating tests that vanish on a left half-line; see (Serfozo 2009, sec. 2.7, Theorem 35). The regeneration, finite-mean, nonarithmetic and direct-integrability hypotheses needed here are proved in Section 4. There we also use the classical Buchstab limit $\omega_{\mathrm{Bu}}(s)\to e^{-\gamma}$, with its independent local proof in Lemma B.1; see also (Montgomery and Vaughan, n.d.-b, sec. 28.9, p. 236).
+\end{equation}$$ We apply the usual half-line theorem after translating tests that vanish on a left half-line; see [23, Section 2.7, Theorem 35]. The regeneration, finite-mean, nonarithmetic and direct-integrability hypotheses needed here are proved in Section 4. There we also use the classical Buchstab limit $\omega_{\mathrm{Bu}}(s)\to e^{-\gamma}$, with its independent local proof in Lemma B.1; see also [22, Section 28.9, p. 236].
 
 ### Small-prime counts in a progression
 
@@ -239,7 +239,7 @@ We first analyze the continuous model in which a prime exponent is chosen with h
 
 ### Future integrals for the sieve functions
 
-We use the classical lower and upper linear-sieve functions; see (Montgomery and Vaughan, n.d.-a, sec. 21.2.2). The future-integral and path representations needed below are developed here.
+We use the classical lower and upper linear-sieve functions; see [21, Section 21.2.2]. The future-integral and path representations needed below are developed here.
 
 Write $A=2e^\gamma$. Define the continuous delay functions $f,F$ by $$f(s)=0\quad(0\le s\le2),\qquad sF(s)=A\quad(1\le s\le3),$$ and $$(sf(s))'=F(s-1)\quad(s>2),\qquad
  (sF(s))'=f(s-1)\quad(s>3).$$ These prescriptions determine the functions successively on intervals of length one. We shall also use $F(s)=A/s$ on $0.95\le s<1$. Only at a starting lower state, and when defining its derivative weight, we continue $f$ below $2$ by $$\begin{equation}
@@ -1061,7 +1061,7 @@ The total exponent contributed by nonsearch positions is at most $$\begin{equati
 
 ## An inverse estimate for a witnessing edge
 
-The exceptional compact nodes will be controlled by varying the isolated prime in a regular box. The first step identifies the only obstruction to this variation: a positive proportion of the relevant primes must share a rational intercept. The use of modular concentration to obtain algebraic structure is related to the inverse-sieve methods of (Helfgott and Venkatesh 2009; Walsh 2012). More specifically, the small-height polynomial and prime-product strategy is related to Walsh’s algebraicity method (Walsh 2014, sec. 3). The partial-incidence modular-line form needed in a prime bin, including its uniformity across the independent boxes, is proved here rather than invoked from that work.
+The exceptional compact nodes will be controlled by varying the isolated prime in a regular box. The first step identifies the only obstruction to this variation: a positive proportion of the relevant primes must share a rational intercept. The use of modular concentration to obtain algebraic structure is related to the inverse-sieve methods of [13, 27]. More specifically, the small-height polynomial and prime-product strategy is related to Walsh’s algebraicity method [28, Section 3]. The partial-incidence modular-line form needed in a prime bin, including its uniformity across the independent boxes, is proved here rather than invoked from that work.
 
 **Definition 8.1**. A prime $p$ *aligns* with a reduced rational $A/D$, where $A\in\mathbb Z$, $D\in\mathbb N$, and $\gcd(A,D)=1$, if $$D a_p\equiv A\pmod p.$$ This condition implies $p\nmid D$. For a squarefree product $q$ of primes carrying prescribed classes, write $$q_E(A/D)=
  \prod_{\substack{\ell\mid q\\
@@ -1117,7 +1117,7 @@ The normalized *harmonic measure* on the box assigns mass proportional to the re
 
 The proof fixes the whole-box rational list before arguing by contradiction. If too many bad edges fail (8.9), sampling their frozen residue tests produces many parent pairs but few permissible slopes. An integer polynomial with small coefficient height then vanishes on the corresponding integer points. The lemma below bounds the contribution of its nonlinear components. A remaining rational line has an intercept in the fixed list, forcing most selected pairs on that line to satisfy (8.9) after all.
 
-The lattice-point estimate below combines algebraic decomposition with Jarník’s convex-arc argument (Jarník 1926, secs. 1–2). We give the proof with explicit degree dependence because the degree grows with the prime bin. The coefficient-independent intersection bound used in its proof is established in Lemma B.3.
+The lattice-point estimate below combines algebraic decomposition with Jarník’s convex-arc argument [18, Sections 1–2]. We give the proof with explicit degree dependence because the degree grows with the prime bin. The coefficient-independent intersection bound used in its proof is established in Lemma B.3.
 
 **Lemma 8.3** (Degree-uniform nonlinear lattice-point bound). *Let $P\in\mathbb R[X_1,X_2]$ be nonzero and of degree at most $D_0\ge1$, and let $S\ge1$. The number of lattice points in $[0,S]^2$ lying on at least one nonlinear irreducible component of $P=0$, with irreducibility taken over $\mathbb C$, is $$O\!\left(D_0^4(1+S^{2/3})\right).$$ The implied constant is absolute, independently of the coefficients of $P$. No bound is asserted for points lying only on line components.*
 
@@ -1197,7 +1197,7 @@ The edge hit selects the class $$\begin{equation}
  \tag{8.18}
 \end{equation}$$ For prime $u$, all fractions $a/u$ on the right are reduced. Fractions belonging to distinct such primes are distinct, and the whole family is separated modulo one by at least $((1+\xi)U)^{-2}\ge(4U^2)^{-1}$. Lemma B.2 therefore gives $$\sum_{u\in\mathcal U}
  u\sum_{e\bmod u}(m_{e,u}-m/u)^2
- \ll (J+U^2)m;$$ see (Montgomery and Vaughan 1973; Vaughan 2025). No condition other than interval support is imposed on the sequence $\mathcal S$. Each exceptional residue contributes more than $(\delta'JV_0)^2/u$ to the corresponding left side. Using (8.15), we obtain $$\begin{align}
+ \ll (J+U^2)m;$$ see [20, 26]. No condition other than interval support is imposed on the sequence $\mathcal S$. Each exceptional residue contributes more than $(\delta'JV_0)^2/u$ to the corresponding left side. Using (8.15), we obtain $$\begin{align}
  \frac1{n_u}\sum_{u\in\mathcal U}\frac{|E_{p,u}(v)|}{u}
  &\ll
  \frac{(J+U^2)m}{n_u(JV_0)^2} \notag\\
@@ -1305,7 +1305,7 @@ Reduce the intercept $B'/D'$ to $A/D$, putting $$g=\gcd(B',D'),\qquad D'=gD,\qqu
  \tag{8.31}
 \end{equation}$$ Neither $D$ nor $D'$ has been assumed squarefree. In particular, primes common to $D$ and $g$ cause no difficulty in (8.31). The height bounds in (8.7) follow from (8.29) with ample room in the additional $\mathcal Z^4$ factors. It remains to establish the alignment-count condition for this intercept.
 
-*The intercept belongs to the list.* We use the pair-counting principle of Gallagher’s larger sieve (Gallagher 1971); see (Helfgott and Venkatesh 2009, sec. 2) for the difference-product argument. Ignore the isolated-bin primes dividing $D'$. There are at most $$\frac{\log D'}{\log R}=O(1)$$ of them by (8.29). Let $\mathcal P_{\rm un}$ consist of the other primes of $\mathcal P$ that do not align with $A/D=B'/D'$. For $p\in\mathcal P_{\rm un}$, substitution of the line equation into the incidence equation gives $$(A'/D'+s)q\equiv a_p-B'/D'\pmod p,
+*The intercept belongs to the list.* We use the pair-counting principle of Gallagher’s larger sieve [7]; see [13, Section 2] for the difference-product argument. Ignore the isolated-bin primes dividing $D'$. There are at most $$\frac{\log D'}{\log R}=O(1)$$ of them by (8.29). Let $\mathcal P_{\rm un}$ consist of the other primes of $\mathcal P$ that do not align with $A/D=B'/D'$. For $p\in\mathcal P_{\rm un}$, substitution of the line equation into the incidence equation gives $$(A'/D'+s)q\equiv a_p-B'/D'\pmod p,
  \qquad s\in\mathcal T_p(\mathcal C').$$ The right side is nonzero because $p$ is unaligned. Each allowed $s$ therefore admits either no solution or exactly one class of $q\bmod p$. Thus those of the $N$ selected points on the line that satisfy the sampled constraints for $p$ occupy at most $K_p$ classes of $q\bmod p$. Let their number be $N_p$, and let $n_{p,c}$ denote the numbers in these occupied classes. Here $N_p$ counts all tested points on the line, so it dominates the number of pairs $(p,q)\in\mathcal I_{\mathbf u}$ there; the latter pairs also require the parent to be nonstructured.
 
 For two distinct selected points, $q_1-q_2\ne0$ and $|q_1-q_2|\le S_q$. The number of isolated-bin primes dividing this difference is at most $$\frac{\log S_q}{\log R}=O_{\alpha_{\min}}(1).$$ Counting ordered equal-class pairs, with the diagonal separated, therefore gives $$\sum_{p\in\mathcal P_{\rm un}}\sum_c n_{p,c}^2
@@ -1399,7 +1399,7 @@ For a prime $t\le w$, the avoidance condition on $\mathcal J$ is $$\begin{equati
 
 ### Variance of independent classes
 
-The next second-moment argument is a truncated, two-point form of mean-one singular-series averaging; compare Gallagher (Gallagher 1976, equation (3) and Section 2). We include the proof to establish the uniform range of interval lengths and the stability under changes of measure needed below.
+The next second-moment argument is a truncated, two-point form of mean-one singular-series averaging; compare Gallagher [8, equation (3) and Section 2]. We include the proof to establish the uniform range of interval lengths and the stability under changes of measure needed below.
 
 **Lemma 9.1**. *Choose, independently at each prime $t\le w$, one uniformly distributed forbidden residue class. Let $S$ count the integers in an interval $\mathcal J$ of cardinality $J$ that avoid all these classes. For every fixed $\delta>0$, uniformly for $J\ge w^\delta$, $$\mathbb ES=JV_0,\qquad
  \mathbb E(S-JV_0)^2=o((JV_0)^2)
@@ -1906,7 +1906,7 @@ The large-modulus case of Proposition 9.2 requires a rectangle count with a con
  +O\bigl(R^{3/5+o(1)}\bigr).
 \end{equation}$$ Thus the same assertion holds with error $O(R^{7/10+o(1)})$. Uniformity in the last two assertions means that the upper bounds represented by $R^{o(1)}$ in (A.4) hold uniformly over the family; equivalently, for every $\delta>0$ the error in (A.5) is $O_\delta(R^{3/5+\delta})$ for sufficiently large $R$ in that family. No lower bound for $X/l$ is required.*
 
-*Proof.* Write $e_n(t)=\exp(2\pi i t/n)$. We use the classical complete Kloosterman estimate, in the form recorded in (Lichtman 2022, Lemma 7.1): $$\begin{equation}
+*Proof.* Write $e_n(t)=\exp(2\pi i t/n)$. We use the classical complete Kloosterman estimate, in the form recorded in [19, Lemma 7.1]: $$\begin{equation}
 \tag{A.6}
  \mathop{\mathrm{Kl}}(a,b;n):=\sum_{\substack{u\bmod n\\(u,n)=1}}
                   e_n(au+b\bar u),
@@ -2022,7 +2022,7 @@ We give the versions of four classical estimates needed in the proof. The Buchst
 
 ### The continuous Buchstab normalization
 
-The normalization used in Lemma 4.1 is the classical one; see (Montgomery and Vaughan, n.d.-b, sec. 28.9, p. 236). The following proof uses only the continuous delay equation, independently of the positivity argument for the sieve functions.
+The normalization used in Lemma 4.1 is the classical one; see [22, Section 28.9, p. 236]. The following proof uses only the continuous delay equation, independently of the positivity argument for the sieve functions.
 
 **Lemma B.1**. *Let $\omega:[1,\infty)\to\mathbb R$ be the continuous function determined by $$u\omega(u)=1\quad(1\le u\le2),\qquad
  (u\omega(u))'=\omega(u-1)\quad(u>2).$$ Then $\omega(u)\to e^{-\gamma}$ as $u\to\infty$, where $\gamma=\lim_{n\to\infty}(H_n-\log n)$ and $H_n=\sum_{j=1}^n1/j$.*
@@ -2051,7 +2051,7 @@ This derivation supplies precisely the independently normalized limit needed to 
 
 ### The additive large sieve at the required order
 
-The sharp large sieve is due to Montgomery and Vaughan (Montgomery and Vaughan 1973); see also (Vaughan 2025). The following separated-arcs argument gives the order of (2.2) that is used in the inverse estimate.
+The sharp large sieve is due to Montgomery and Vaughan [20]; see also [26]. The following separated-arcs argument gives the order of (2.2) that is used in the inverse estimate.
 
 **Lemma B.2**. *Let $x_1,\ldots,x_R\in\mathbb R/\mathbb Z$ have pairwise circular distance at least $\delta$, where $0<\delta\le1$. Let $J\ge1$ be an integer. If complex coefficients $b_j$ are supported on $J$ consecutive integers, then $$\sum_{r=1}^{R}\left|\sum_j b_j e(jx_r)\right|^2
    \ll (J+\delta^{-1})\sum_j|b_j|^2$$ with an absolute implied constant. Hence (2.2) holds for every real $Q\ge1$.*
@@ -2089,7 +2089,7 @@ For clarity, the coprimality conditions in Lemma 8.3 can now be checked directl
 
 ### An order bound for primes in a progression
 
-Brun–Titchmarsh gives a sharper constant than we need; see (Granville and Soundararajan 2014, Theorem 1.4.4). We derive the order bound in Lemma 2.2(iii) from the fundamental lemma, in the form recorded in (Sofos 2023, Lemma 2.8), and Mertens’ formula. Working in progression coordinates keeps the remainder independent of the modulus.
+Brun–Titchmarsh gives a sharper constant than we need; see [10, Theorem 1.4.4]. We derive the order bound in Lemma 2.2(iii) from the fundamental lemma, in the form recorded in [24, Lemma 2.8], and Mertens’ formula. Working in progression coordinates keeps the remainder independent of the modulus.
 
 **Lemma B.4**. *There are absolute constants $C,J_0>0$ such that, for every integer $q\ge1$, every integer $a$ with $(a,q)=1$, and every real $x$ and $H>0$ with $J=H/q\ge J_0$, $$\#\{x<p\le x+H:p\equiv a\pmod q\}
    \le C\frac{H}{\varphi(q)\log(H/q)}.$$*
@@ -2111,60 +2111,60 @@ Mertens’ formula gives, for large $J$, $$\prod_{\substack{p\le v\\p\nmid q}}(1
 
 ## References
 
-Banks, William, Kevin Ford, and Terence Tao. 2023. “Large Prime Gaps and Probabilistic Models.” *Inventiones Mathematicae* 233 (3): 1471–518. <https://doi.org/10.1007/s00222-023-01199-0>.
+**[1]** William Banks, Kevin Ford, and Terence Tao. Large prime gaps and probabilistic models. *Inventiones Mathematicae*, 233(3):1471–1518, 2023. Corrected version: arXiv:1908.08613v3 (2025). <https://arxiv.org/abs/1908.08613v3>.
 
-Costello, Fintan, and Paul Watts. 2015. “An Upper Bound on Jacobsthal’s Function.” *Mathematics of Computation* 84 (293): 1389–99. <https://doi.org/10.1090/S0025-5718-2014-02896-2>.
+**[2]** Fintan Costello and Paul Watts. An upper bound on Jacobsthal’s function. *Mathematics of Computation*, 84(293):1389–1399, 2015. <https://doi.org/10.1090/S0025-5718-2014-02896-2>.
 
-Erdős, P. 1962. “On the Integers Relatively Prime to $n$ and on a Number-Theoretic Function Considered by Jacobsthal.” *Mathematica Scandinavica* 10: 163–70. <https://doi.org/10.7146/math.scand.a-10523>.
+**[3]** P. Erdős. On the integers relatively prime to $n$ and on a number-theoretic function considered by Jacobsthal. *Mathematica Scandinavica*, 10:163–170, 1962. <https://doi.org/10.7146/math.scand.a-10523>.
 
-Fiori, Andrew, Habiba Kadiri, and Joshua Swidinsky. 2023. “Sharper Bounds for the Error Term in the Prime Number Theorem.” *Research in Number Theory* 9 (3). <https://doi.org/10.1007/s40993-023-00454-w>.
+**[4]** Andrew Fiori, Habiba Kadiri, and Joshua Swidinsky. Sharper bounds for the error term in the prime number theorem. *Research in Number Theory*, 9(3), 2023. Article 63. <https://doi.org/10.1007/s40993-023-00454-w>. Author version <https://arxiv.org/abs/2206.12557v2>.
 
-Ford, Kevin, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. 2018. “Long Gaps Between Primes.” *Journal of the American Mathematical Society* 31 (1): 65–105. <https://doi.org/10.1090/jams/876>.
+**[5]** Kevin Ford, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. Long gaps between primes. *Journal of the American Mathematical Society*, 31(1):65–105, 2018. <https://doi.org/10.1090/jams/876>.
 
-Friedlander, John, and Henryk Iwaniec. 2010. *Opera de Cribro*. Vol. 57. American Mathematical Society Colloquium Publications. American Mathematical Society. <https://doi.org/10.1090/coll/057>.
+**[6]** John Friedlander and Henryk Iwaniec. *Opera de Cribro*, volume 57 of *American Mathematical Society Colloquium Publications*. American Mathematical Society, Providence, RI, 2010. <https://doi.org/10.1090/coll/057>.
 
-Gallagher, P. X. 1971. “A Larger Sieve.” *Acta Arithmetica* 18: 77–81. <https://doi.org/10.4064/aa-18-1-77-81>.
+**[7]** P. X. Gallagher. A larger sieve. *Acta Arithmetica*, 18:77–81, 1971. <https://doi.org/10.4064/aa-18-1-77-81>.
 
-Gallagher, P. X. 1976. “On the Distribution of Primes in Short Intervals.” *Mathematika* 23 (1): 4–9. <https://doi.org/10.1112/S0025579300016442>.
+**[8]** P. X. Gallagher. On the distribution of primes in short intervals. *Mathematika*, 23(1):4–9, 1976. <https://doi.org/10.1112/S0025579300016442>.
 
-Granville, Andrew, and K. Soundararajan. 2014. *Multiplicative Number Theory: The Pretentious Approach*. Draft. <https://dms.umontreal.ca/~andrew/PDF/Book.To2.5.pdf>.
+**[9]** Andrew Granville and K. Soundararajan. The distribution of prime numbers. Undated draft. <https://dms.umontreal.ca/~andrew/PDF/PretendBook050111.pdf>. Accessed September 25, 2026.
 
-Granville, Andrew, and K. Soundararajan. n.d. *The Distribution of Prime Numbers*. Undated draft. <https://dms.umontreal.ca/~andrew/PDF/PretendBook050111.pdf>.
+**[10]** Andrew Granville and K. Soundararajan. Multiplicative number theory: The pretentious approach. Draft, 2014. <https://dms.umontreal.ca/~andrew/PDF/Book.To2.5.pdf>.
 
-Hajdu, L., and N. Saradha. 2012. “Disproof of a Conjecture of Jacobsthal.” *Mathematics of Computation* 81 (280): 2461–71. <https://doi.org/10.1090/S0025-5718-2012-02581-6>.
+**[11]** L. Hajdu and N. Saradha. Disproof of a conjecture of Jacobsthal. *Mathematics of Computation*, 81(280):2461–2471, 2012. <https://doi.org/10.1090/S0025-5718-2012-02581-6>.
 
-Heath-Brown, D. R. 1982. “Prime Numbers in Short Intervals and a Generalized Vaughan Identity.” *Canadian Journal of Mathematics* 34 (6): 1365–77. <https://doi.org/10.4153/CJM-1982-095-9>.
+**[12]** D. R. Heath-Brown. Prime numbers in short intervals and a generalized Vaughan identity. *Canadian Journal of Mathematics*, 34(6):1365–1377, 1982. <https://doi.org/10.4153/CJM-1982-095-9>.
 
-Helfgott, H. A., and A. Venkatesh. 2009. “How Small Must Ill-Distributed Sets Be?” In *Analytic Number Theory: Essays in Honour of Klaus Roth*. Cambridge University Press. <https://webusers.imj-prg.fr/~harald.helfgott/texts/howsmall.pdf>.
+**[13]** H. A. Helfgott and A. Venkatesh. How small must ill-distributed sets be? In *Analytic Number Theory: Essays in Honour of Klaus Roth*, pages 224–234. Cambridge University Press, Cambridge, 2009. <https://webusers.imj-prg.fr/~harald.helfgott/texts/howsmall.pdf>.
 
-Iwaniec, Henryk. 1971. “On the Error Term in the Linear Sieve.” *Acta Arithmetica* 19 (1): 1–30. <https://doi.org/10.4064/aa-19-1-1-30>.
+**[14]** Henryk Iwaniec. On the error term in the linear sieve. *Acta Arithmetica*, 19(1):1–30, 1971. <https://doi.org/10.4064/aa-19-1-1-30>.
 
-Iwaniec, Henryk. 1978. “On the Problem of Jacobsthal.” *Demonstratio Mathematica* 11 (1): 225–31. <https://doi.org/10.1515/dema-1978-0121>.
+**[15]** Henryk Iwaniec. On the problem of Jacobsthal. *Demonstratio Mathematica*, 11(1):225–231, 1978. <https://doi.org/10.1515/dema-1978-0121>.
 
-Iwaniec, Henryk, and Emmanuel Kowalski. 2004. *Analytic Number Theory*. Vol. 53. American Mathematical Society Colloquium Publications. American Mathematical Society. <https://doi.org/10.1090/coll/053>.
+**[16]** Henryk Iwaniec and Emmanuel Kowalski. *Analytic Number Theory*, volume 53 of *American Mathematical Society Colloquium Publications*. American Mathematical Society, Providence, RI, 2004. <https://doi.org/10.1090/coll/053>.
 
-Jacobsthal, Ernst. 1960. “Über Sequenzen Ganzer Zahlen, von Denen Keine Zu $n$ Teilerfremd Ist. I–III.” *Norske Vidensk. Selsk. Forh. Trondheim* 33: 117–39.
+**[17]** Ernst Jacobsthal. Über Sequenzen ganzer Zahlen, von denen keine zu $n$ teilerfremd ist. I–III. *Norske Vidensk. Selsk. Forh. Trondheim*, 33:117–139, 1960.
 
-Jarník, Vojtěch. 1926. “Über Die Gitterpunkte Auf Konvexen Kurven.” *Mathematische Zeitschrift* 24: 500–518. <https://dml.cz/handle/10338.dmlcz/500690>.
+**[18]** Vojtěch Jarník. Über die Gitterpunkte auf konvexen Kurven. *Mathematische Zeitschrift*, 24:500–518, 1926. <https://dml.cz/handle/10338.dmlcz/500690>.
 
-Lichtman, Jared Duker. 2022. *Primes in Arithmetic Progressions to Large Moduli, and Shifted Primes Without Large Prime Factors*. Preprint, arXiv:2211.09641v1. <https://arxiv.org/abs/2211.09641v1>.
+**[19]** Jared Duker Lichtman. Primes in arithmetic progressions to large moduli, and shifted primes without large prime factors. Preprint, arXiv:2211.09641v1, 2022. <https://arxiv.org/abs/2211.09641v1>.
 
-Montgomery, H. L., and R. C. Vaughan. 1973. “The Large Sieve.” *Mathematika* 20 (2): 119–34. <https://doi.org/10.1112/S0025579300004708>.
+**[20]** H. L. Montgomery and R. C. Vaughan. The large sieve. *Mathematika*, 20(2):119–134, 1973. <https://doi.org/10.1112/S0025579300004708>.
 
-Montgomery, Hugh L., and Robert C. Vaughan. n.d.-a. *Multiplicative Number Theory II: Primes and Sieves*. Undated author draft. <https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf>.
+**[21]** Hugh L. Montgomery and Robert C. Vaughan. Multiplicative number theory II: Primes and sieves. Undated author draft. <https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf>. Accessed September 25, 2026.
 
-Montgomery, Hugh L., and Robert C. Vaughan. n.d.-b. *Multiplicative Number Theory III*. Undated draft. <https://personal.science.psu.edu/rcv4/571s25/Vol3.pdf>.
+**[22]** Hugh L. Montgomery and Robert C. Vaughan. Multiplicative number theory III. Undated draft. <https://personal.science.psu.edu/rcv4/571s25/Vol3.pdf>. Accessed September 25, 2026.
 
-Serfozo, Richard. 2009. *Basics of Applied Stochastic Processes*. Probability and Its Applications. Springer. <https://doi.org/10.1007/978-3-540-89332-5>.
+**[23]** Richard Serfozo. *Basics of Applied Stochastic Processes*. Probability and Its Applications. Springer, Berlin, Heidelberg, 2009. <https://doi.org/10.1007/978-3-540-89332-5>.
 
-Sofos, Efthymios. 2023. “Gaps Between Prime Divisors and Analogues in Diophantine Geometry.” *Glasgow Mathematical Journal* 65 (S1): S129–47. <https://doi.org/10.1017/S0017089522000398>.
+**[24]** Efthymios Sofos. Gaps between prime divisors and analogues in Diophantine geometry. *Glasgow Mathematical Journal*, 65(S1):S129–S147, 2023. <https://doi.org/10.1017/S0017089522000398>.
 
-Vaughan, R. C. 1977. “On the Order of Magnitude of Jacobsthal’s Function.” *Proceedings of the Edinburgh Mathematical Society* 20 (4): 329–31. <https://doi.org/10.1017/S0013091500026560>.
+**[25]** R. C. Vaughan. On the order of magnitude of Jacobsthal’s function. *Proceedings of the Edinburgh Mathematical Society*, 20(4):329–331, 1977. <https://doi.org/10.1017/S0013091500026560>.
 
-Vaughan, Robert C. 2025. *Math 571, Chapter 5: The Large Sieve*. Lecture notes. <https://personal.science.psu.edu/rcv4/571s25/Class571-05.pdf>.
+**[26]** Robert C. Vaughan. Math 571, chapter 5: The large sieve. Lecture notes, February 2025. Dated February 20, 2025. <https://personal.science.psu.edu/rcv4/571s25/Class571-05.pdf>.
 
-Walsh, Miguel N. 2012. “The Inverse Sieve Problem in High Dimensions.” *Duke Mathematical Journal* 161 (10): 2001–22. <https://doi.org/10.1215/00127094-1645788>.
+**[27]** Miguel N. Walsh. The inverse sieve problem in high dimensions. *Duke Mathematical Journal*, 161(10):2001–2022, 2012. <https://doi.org/10.1215/00127094-1645788>; author version <https://arxiv.org/abs/1105.1551v2>.
 
-Walsh, Miguel N. 2014. “The Algebraicity of Ill-Distributed Sets.” *Geometric and Functional Analysis* 24 (3): 959–67.
+**[28]** Miguel N. Walsh. The algebraicity of ill-distributed sets. *Geometric and Functional Analysis*, 24(3):959–967, 2014. <https://arxiv.org/abs/1307.0259>.
 
-Ziller, Mario. 2019. *New Computational Results on a Conjecture of Jacobsthal*. Preprint, arXiv:1903.11973v2.
+**[29]** Mario Ziller. New computational results on a conjecture of Jacobsthal. Preprint, arXiv:1903.11973v2, 2019. <https://arxiv.org/abs/1903.11973v2>.

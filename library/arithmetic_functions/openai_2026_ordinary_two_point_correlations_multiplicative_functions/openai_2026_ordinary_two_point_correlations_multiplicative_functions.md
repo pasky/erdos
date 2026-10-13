@@ -42,20 +42,20 @@ Every fixed progression restriction is also permitted in Theorem 1.2; Propositi
 
 ##### Historical context and prior work
 
-Chowla’s conjecture predicts vanishing Liouville correlations at every fixed collection of distinct shifts (Chowla 1965; Matomäki et al. 2015). Its binary case asks whether the parities of the numbers of prime factors of $n$ and $n+h$ become uncorrelated for each fixed $h\ge1$. Partial summation transfers ordinary cancellation to logarithmic cancellation. An ordinary estimate at every cutoff requires more than this implication.
+Chowla’s conjecture predicts vanishing Liouville correlations at every fixed collection of distinct shifts [Cho65, MRT15]. Its binary case asks whether the parities of the numbers of prime factors of $n$ and $n+h$ become uncorrelated for each fixed $h\ge1$. Partial summation transfers ordinary cancellation to logarithmic cancellation. An ordinary estimate at every cutoff requires more than this implication.
 
-Elliott extended the correlation problem to bounded multiplicative functions (Elliott 1992). The obstruction presented by the twists $n^{it}$ is already central to Halász’s theory of one-point mean values (Halász 1971); see also the treatment of Granville, Harper, and Soundararajan (Granville et al. 2019). The distance in (1.1) belongs to the pretentious approach developed by Granville and Soundararajan (Granville and Soundararajan 2007, sec. 3). Matomäki, Radziwiłł, and Tao showed why Elliott’s original condition needs correction for complex functions: a function can imitate different twists at successive scales without imitating any one fixed twist globally. Their corrected condition is equivalent to (1.2); see (Matomäki et al. 2015, sec. 1.1 and Appendix B).
+Elliott extended the correlation problem to bounded multiplicative functions [Ell92]. The obstruction presented by the twists $n^{it}$ is already central to Halász’s theory of one-point mean values [Hal71]; see also the treatment of Granville, Harper, and Soundararajan [GHS19]. The distance in (1.1) belongs to the pretentious approach developed by Granville and Soundararajan [GS07, Section 3]. Matomäki, Radziwiłł, and Tao showed why Elliott’s original condition needs correction for complex functions: a function can imitate different twists at successive scales without imitating any one fixed twist globally. Their corrected condition is equivalent to (1.2); see [MRT15, Section 1.1 and Appendix B].
 
-Matomäki and Radziwiłł proved that most short means of a real bounded multiplicative function approximate its long mean (Matomäki and Radziwiłł 2016, Theorem 1). They also obtained a nontrivial bound for each fixed-shift Liouville correlation: the normalized absolute value is at most $1-\delta(h)$, for some $\delta(h)>0$, at all sufficiently large cutoffs (Matomäki and Radziwiłł 2016, Corollary 2). Matomäki, Radziwiłł, and Tao then established cancellation averaged over arbitrarily slowly growing windows of shifts. Their exponential-sum extension to complex multiplicative functions supplies the short-interval estimates used here (Matomäki et al. 2015, Theorems 1.1, 1.3, and 1.7).
+Matomäki and Radziwiłł proved that most short means of a real bounded multiplicative function approximate its long mean [MR16, Theorem 1]. They also obtained a nontrivial bound for each fixed-shift Liouville correlation: the normalized absolute value is at most $1-\delta(h)$, for some $\delta(h)>0$, at all sufficiently large cutoffs [MR16, Corollary 2]. Matomäki, Radziwiłł, and Tao then established cancellation averaged over arbitrarily slowly growing windows of shifts. Their exponential-sum extension to complex multiplicative functions supplies the short-interval estimates used here [MRT15, Theorems 1.1, 1.3, and 1.7].
 
-Tao proved the logarithmically averaged binary corrected Elliott theorem for nonproportional affine forms (Tao 2016, Theorem 1.3 and Corollary 1.5). For the logarithmically weighted Liouville sum, Helfgott and Radziwiłł obtained $$\left|\sum_{n\le x}\frac{\lambda(n)\lambda(n+1)}n\right|
- \ll \frac{\log x}{\sqrt{\log\log x}}$$ by divisibility-graph expansion (Helfgott and Radziwiłł 2021, Corollary 1.5). Pilatte improved this bound to $(\log x)^{1-c_0}$ for an absolute $c_0>0$ (Pilatte 2026, Theorem 1.1). These estimates retain the logarithmic weight.
+Tao proved the logarithmically averaged binary corrected Elliott theorem for nonproportional affine forms [Tao16, Theorem 1.3 and Corollary 1.5]. For the logarithmically weighted Liouville sum, Helfgott and Radziwiłł obtained $$\left|\sum_{n\le x}\frac{\lambda(n)\lambda(n+1)}n\right|
+ \ll \frac{\log x}{\sqrt{\log\log x}}$$ by divisibility-graph expansion [HR21, Corollary 1.5]. Pilatte improved this bound to $(\log x)^{1-c_0}$ for an absolute $c_0>0$ [Pil26, Theorem 1.1]. These estimates retain the logarithmic weight.
 
-The graph method of Helfgott and Radziwiłł uses high traces, recurrence constraints, and cancellation at primes occurring only once (Helfgott and Radziwiłł 2021, secs. 2–7). They also proposed composite steps and nonbacktracking operators (Helfgott and Radziwiłł 2021, secs. 9.1–9.2). Pilatte develops these directions through products of centered prime factors, prohibited sequences, triangular arithmetic constraints, and a rank-truncated intersection sieve (Pilatte 2026, secs. 2–13 and Appendix B). Our two graph arguments adapt these constructions to different weights and orders of limits. Their trace estimates, local expansions, and transfers to ordinary averages are proved below.
+The graph method of Helfgott and Radziwiłł uses high traces, recurrence constraints, and cancellation at primes occurring only once [HR21, Sections 2–7]. They also proposed composite steps and nonbacktracking operators [HR21, Sections 9.1–9.2]. Pilatte develops these directions through products of centered prime factors, prohibited sequences, triangular arithmetic constraints, and a rank-truncated intersection sieve [Pil26, Sections 2–13 and Appendix B]. Our two graph arguments adapt these constructions to different weights and orders of limits. Their trace estimates, local expansions, and transfers to ordinary averages are proved below.
 
-For ordinary averages, Tao and Teräväinen obtained binary cancellation outside a set of scales of logarithmic density zero, under the same condition (1.2) on one factor (Tao and Teräväinen 2019, Corollary 1.13). Klurman, Mangerel, and Teräväinen relaxed the hypothesis to nonpretentiousness against each fixed $\chi(n)n^{it}$, obtaining cancellation along a set of scales of full upper logarithmic density (Klurman et al. 2023, Theorem 1.2). The later quantitative progression estimates of Tao and Teräväinen give logarithmic savings for affine Liouville correlations, with coefficients allowed to grow slowly, outside a quantitatively controlled exceptional set of scales (Tao and Teräväinen 2026, Theorem 3.1 and Remarks 3.2). The results here concern every cutoff, with the affine forms fixed.
+For ordinary averages, Tao and Teräväinen obtained binary cancellation outside a set of scales of logarithmic density zero, under the same condition (1.2) on one factor [TT19, Corollary 1.13]. Klurman, Mangerel, and Teräväinen relaxed the hypothesis to nonpretentiousness against each fixed $\chi(n)n^{it}$, obtaining cancellation along a set of scales of full upper logarithmic density [KMT23, Theorem 1.2]. The later quantitative progression estimates of Tao and Teräväinen give logarithmic savings for affine Liouville correlations, with coefficients allowed to grow slowly, outside a quantitatively controlled exceptional set of scales [TT26, Theorem 3.1 and Remarks 3.2]. The results here concern every cutoff, with the affine forms fixed.
 
-The quantitative route also uses bounded independence for Boolean circuits. This subject developed from the work of Linial and Nisan (Linial and Nisan 1990), through Bazzi’s depth-two theorem and Razborov’s simpler proof (Bazzi 2009; Razborov 2008), to Braverman’s theorem for every fixed depth (Braverman 2010). In applying that theorem, the encoded residue law is first corrected to exact bounded independence. The local Fourier calculation is a form of the almost-to-exact independence construction of Alon, Goldreich, and Mansour (Alon et al. 2003, Theorem 2.1 and Section 3.1).
+The quantitative route also uses bounded independence for Boolean circuits. This subject developed from the work of Linial and Nisan [LN90], through Bazzi’s depth-two theorem and Razborov’s simpler proof [Baz09, Raz08], to Braverman’s theorem for every fixed depth [Bra10]. In applying that theorem, the encoded residue law is first corrected to exact bounded independence. The local Fourier calculation is a form of the almost-to-exact independence construction of Alon, Goldreich, and Mansour [AGM03, Theorem 2.1 and Section 3.1].
 
 ##### Main ideas
 
@@ -63,7 +63,7 @@ Both arguments begin with multiplicative dilations. For a fixed shift $h\ge1$, c
 
 In the quantitative argument, a step contains one prime from each of $J$ disjoint supplies, each with reciprocal mass comparable to a large fixed constant $W$. These primes contribute the factors $\mathbf 1_{p\mid n}-1/p$, which have mean zero under uniform residues. An additional squarefree padding divisor uses a disjoint set of primes. The centered supplies provide reciprocal mass at least $W^J$, while their contribution to the operator bound is only $(C\sqrt W)^J$, with an absolute $C$. Padding controls the concentration of divisor weight in short multiplicative intervals. Writing $L$ for a small fixed power of $\log X$, the edge normalization gives a factor $1/L$ in the estimate for each interval, compensating for the factor $L$ in the number of intervals. The remaining losses are exponential in $J$ with absolute bases. Choosing $W$ large enough therefore gives exponential decay in $J$; since $J$ grows proportionally to $\log\log X$, this is a power-of-logarithm saving.
 
-Two issues underlie this comparison. First, the prime supplies grow with $X$, so averaging over their full joint period would not give a useful finite-scale estimate. We instead compare the residue tests used in the proof with independent residues, correcting their encoded bit law to exact bounded independence before applying Braverman’s theorem (Braverman 2010). Second, repeated primes constrain the closed walks. Many independent arithmetic relations give a direct saving. When few remain, a forest encodes the possible patterns of repetition. Its pattern count is uniform over all padding values, allowing the padding weights to be summed afterward in one common residue environment. These steps preserve the absolute constants needed for the choice of $W$.
+Two issues underlie this comparison. First, the prime supplies grow with $X$, so averaging over their full joint period would not give a useful finite-scale estimate. We instead compare the residue tests used in the proof with independent residues, correcting their encoded bit law to exact bounded independence before applying Braverman’s theorem [Bra10]. Second, repeated primes constrain the closed walks. Many independent arithmetic relations give a direct saving. When few remain, a forest encodes the possible patterns of repetition. Its pattern count is uniform over all padding values, allowing the padding weights to be summed afterward in one common residue environment. These steps preserve the absolute constants needed for the choice of $W$.
 
 For general multiplicative functions, the short-interval input contains the nonpretentiousness distance, whose divergence has no prescribed rate. We therefore fix the graph before taking the long average. At an auxiliary scale $B$, squarefree divisors are formed from two bands of primes at most $e^B$. Primes in the higher band receive a fixed weight greater than one, and those in the lower band receive weight one; the weight of a divisor is the product of its prime weights. After dividing the ordinary divisor average by the total reciprocal weight of these divisors, a biased correlation subsequence produces a raw average of size at least a constant times $B^{-1}$ in one short multiplicative interval. The analytic centering error is $o(B^{-1})$, and the graph estimate gives $O(B^{-1-c_* /2})$ for a fixed absolute $c_*>0$. Taking the long limit with $B$ fixed, and then increasing $B$, contradicts the bias.
 
@@ -104,7 +104,7 @@ For $1\le i\le J$, let $$P_i=\{p:p\equiv1\pmod5,\quad Y_{i-1}\le\log p<Y_i,\quad
                               p\nmid lh\}.$$ Let $P=\bigcup_iP_i$, and let $$Q=\{p:p\not\equiv1\pmod5,\quad p\le e^L,\quad p\nmid lh\}.$$ These sets are disjoint, and every prime in $P$ is at least $H_0$. Write $$V_i=\sum_{p\in P_i}\frac1p,\qquad V_*=\prod_{i=1}^J V_i,\qquad
  \mathcal D=\left\{\prod_{i=1}^J p_i:p_i\in P_i\right\}.$$ A label $d\in\mathcal D$ determines its ordered tuple of primes, because the supplies are disjoint.
 
-The prime number theorem for the fixed modulus $5$ (Koukoulopoulos 2019, Theorem 12.1), followed by removal of the finitely many primes dividing $lh$, gives $$\begin{equation}
+The prime number theorem for the fixed modulus $5$ [Kou19, Theorem 12.1], followed by removal of the finitely many primes dividing $lh$, gives $$\begin{equation}
 \tag{2.2}
  \sum_{\substack{p\le x\\p\in\mathcal R}}\log p
  =\alpha_{\mathcal R}x+
@@ -180,7 +180,7 @@ For a consecutive interval $I$ of integers, write $\mathbb E_I$ for the average 
        \le e^{-L^{10}}
 \end{equation}$$ for sufficiently large $L$ depending on $l$. The bound is uniform in the position of $I$ and in all offsets used by the tests. The modulus $l$ need not be squarefree.*
 
-*Proof.* We use Braverman’s bounded-independence theorem (Braverman 2010, Corollary 2): for a fixed depth $d_0$, every $t$-wise uniform distribution on Boolean bits fools circuits of size $m$ to error $\varepsilon$ when $t\ge(\log(m/\varepsilon))^{C(d_0)}$, with a suitable constant depending only on the depth. Being $t$-wise uniform means that every set of at most $t$ bits has exactly the uniform joint distribution. We first encode the residue tests by bits, then correct the small failure of exact independence in the integer average.
+*Proof.* We use Braverman’s bounded-independence theorem [Bra10, Corollary 2]: for a fixed depth $d_0$, every $t$-wise uniform distribution on Boolean bits fools circuits of size $m$ to error $\varepsilon$ when $t\ge(\log(m/\varepsilon))^{C(d_0)}$, with a suitable constant depending only on the depth. Being $t$-wise uniform means that every set of at most $t$ bits has exactly the uniform joint distribution. We first encode the residue tests by bits, then correct the small failure of exact independence in the integer average.
 
 Under the integer-residue law, $R_s$ denotes the residue of the uniformly chosen origin modulo $s$; under $\mu$ it is the independent uniform coordinate. In both cases represent $R_s$ by an integer in $\{0,\ldots,s-1\}$. Put $B=\lceil L^{15}\rceil$. Independently at each modulus $s$, adjoin a uniform random variable $U_s\in[0,1)$, independent also of the origin, and take the first $B$ binary digits of $$Z_s=\frac{R_s+U_s}{s}.$$ Under $\mu$, all these bits are independent and unbiased. Decode $R_s$ from its bits whenever their dyadic interval lies inside one interval $[r/s,(r+1)/s)$; on ambiguous intervals make any fixed choice. Conditional on any value of $R_s$, the probability of a decoding error is at most $2s2^{-B}$, since only the two boundary cells can cause an error. This bound holds under either origin law. Therefore the probability of any error is at most $$\begin{equation}
 \tag{3.2}
@@ -203,7 +203,7 @@ There are at most $n_{\mathrm{bit}}\le e^{2L}$ bits in all. Let $f$ be the densi
  \le e^{-L^{11}},
 \end{equation}$$ provided $A>C_1+20$ and $L$ is large.
 
-The estimate (3.4) allows a correction that preserves nonnegativity, even where $f$ vanishes. This is a direct Fourier form of the almost-to-exact independence argument of Alon, Goldreich, and Mansour (Alon et al. 2003, Theorem 2.1 and Section 3.1). We give the calculation with the error budget needed here. Put $a=e^{-L^{11}}$ and define $$H=\sum_{1\le|S|\le t}\widehat f(S)\chi_S,
+The estimate (3.4) allows a correction that preserves nonnegativity, even where $f$ vanishes. This is a direct Fourier form of the almost-to-exact independence argument of Alon, Goldreich, and Mansour [AGM03, Theorem 2.1 and Section 3.1]. We give the calculation with the error budget needed here. Put $a=e^{-L^{11}}$ and define $$H=\sum_{1\le|S|\le t}\widehat f(S)\chi_S,
  \qquad g=\frac{f-H+a}{1+a}.$$ Since $|H|\le q\le a$, the function $g$ is nonnegative. Its integral is one, and every nonconstant Fourier coefficient of order at most $t$ vanishes. Fourier inversion on each marginal shows that the law with density $g$ is exactly $t$-wise uniform. Moreover, $$\begin{equation}
 \tag{3.5}
  d_{\mathrm{TV}}(f,g)
@@ -262,7 +262,7 @@ We first bound the terms other than full divisibility in the expansion of $C_j$ 
    \eta+X^{-1}+\eta^{-1}2^JL^{-1/20}\right).
 \end{equation}$$*
 
-We prove this estimate after two Fourier bounds. The first concerns rough integers; the second combines it with the short exponential-sum theorem of Matomäki, Radziwiłł, and Tao. The resulting shift average saves more than $L^{-1}$, which pays for the number of bins. The fourth-moment treatment of the divisor exponential sum follows (Pilatte 2026, Appendix C); we include the rough-number estimates and their finite counting errors. Write $\mathrm e(t)=\exp(2\pi i t)$.
+We prove this estimate after two Fourier bounds. The first concerns rough integers; the second combines it with the short exponential-sum theorem of Matomäki, Radziwiłł, and Tao. The resulting shift average saves more than $L^{-1}$, which pays for the number of bins. The fourth-moment treatment of the divisor exponential sum follows [Pil26, Appendix C]; we include the rough-number estimates and their finite counting errors. Write $\mathrm e(t)=\exp(2\pi i t)$.
 
 **Lemma 4.2** (Fourier bounds for rough integers). *Let $L$ be sufficiently large, let $h\ge1$ be an integer, and suppose $$\tfrac12\exp(L^{0.995})\le D\le\exp(2L).$$ Let $\mathcal Z\subset[D,2D)$ consist of integers with no prime factor at most $\exp(L^{0.99})$. For $$B(\theta)=\sum_{z\in\mathcal Z}\frac{\mathrm e(hz\theta)}z
  \qquad(\theta\in\mathbb R/\mathbb Z)$$ one has, with absolute implied constants, $$\begin{equation}
@@ -290,7 +290,7 @@ The first count bounds $\sum_{z\in\mathcal Z}1/z$ and hence $\|B\|_\infty$. Orth
 
 The analytic input keeps the frequency fixed while averaging the starting point of a short interval.
 
-**Theorem 4.3** (Matomäki–Radziwiłł–Tao, (Matomäki et al. 2015), Theorem 1.3). *For every pair of real numbers $10\le H\le Z$, $$\sup_{\alpha\in\mathbb R}
+**Theorem 4.3** (Matomäki–Radziwiłł–Tao, [MRT15], Theorem 1.3). *For every pair of real numbers $10\le H\le Z$, $$\sup_{\alpha\in\mathbb R}
  \int_0^Z
  \left|\sum_{x\le n\le x+H}\lambda(n)\mathrm e(\alpha n)\right|\,dx
  \ll HZ\left(\frac{\log\log H}{\log H}
@@ -457,7 +457,7 @@ Finally, the numerical pairs satisfy $dq\le\exp(100L+\eta)$. The disjoint prime 
 
 We now construct the sparse sets used in Lemma 4.6. Their removal will impose enough structure on closed walks to control a matrix moment. Throughout this section the bin index $j$ is fixed, and $$s=\lfloor L^{1/10}\rfloor,\qquad k=\lfloor L\rfloor.$$ All assertions are for sufficiently large $L$, with the fixed integers $h,l$ and the absolute parameters $A,W$ held fixed.
 
-The centered graph and high-trace strategy was developed by Helfgott and Radziwiłł (Helfgott and Radziwiłł 2021, secs. 2–7). Pilatte developed its composite-label and nonbacktracking form (Pilatte 2026, secs. 2–9). Here each step carries a prime tuple and a padding divisor; the trace expansion keeps the padding weights and the common residue coordinates explicit.
+The centered graph and high-trace strategy was developed by Helfgott and Radziwiłł [HR21, Sections 2–7]. Pilatte developed its composite-label and nonbacktracking form [Pil26, Sections 2–9]. Here each step carries a prime tuple and a padding divisor; the trace expansion keeps the padding weights and the common residue coordinates explicit.
 
 ##### Positive paths and prohibited words
 
@@ -583,7 +583,7 @@ We now turn to the two remaining sources of arithmetic savings: independent cong
 
 The centered trace has been reduced to the majorants in Lemma 5.5. We now discard two further classes. Independent lit-consistency equations provide a rank saving, while many singleton coordinates force positive witnesses whose relations can be summed in a triangular order. Each saving makes its entire class negligible before we count the remaining words.
 
-Recurrence congruences constraining prime labels play a central role in (Helfgott and Radziwiłł 2021, secs. 6–7). We first prove a random-prime rank estimate suited to the present coefficients. The later witness argument adapts the active-prime and triangular-constraint constructions of (Pilatte 2026, Lemmas 11.6, 13.1, and 13.6).
+Recurrence congruences constraining prime labels play a central role in [HR21, Sections 6–7]. We first prove a random-prime rank estimate suited to the present coefficients. The later witness argument adapts the active-prime and triangular-constraint constructions of [Pil26, Lemmas 11.6, 13.1, and 13.6].
 
 ##### Saving from independent congruences
 
@@ -830,7 +830,7 @@ For every fixed $W$, once $L$ is sufficiently large, $(2W)^{L^{1/4}/2}\le e^k$. 
 
 The moment bound for $H$ has only square-root dependence on each prime supply’s reciprocal mass. We now use it to control the retained centered sums $C_j^\circ$. First we transfer control of $H$ to the projected edge operator $E(\sum_d A_d)E$, then test against the Liouville function with vertex weight $\sqrt w$. The factor $L$ in the edge matrices yields a factor $1/L$ in the estimate for each bin, compensating for the factor $L$ in the number $O(L/\eta)$ of bins. After division by the retained mass $S_0\ge SV_*/2$, with $V_*\ge W^J$, the spectral contribution will have the form $$\frac K\eta\left(\frac C{\sqrt W}\right)^J$$ for an absolute constant $C$. We prove the transfer and the required finite-interval estimates before choosing $W$.
 
-The use of a nonbacktracking operator to control an adjacency operator is exemplified by the weighted Ihara–Bass formula in (Pilatte 2026, sec. 4.2). We prove the transfer needed here directly for self-adjoint edge operators; distinct edge operators need not commute.
+The use of a nonbacktracking operator to control an adjacency operator is exemplified by the weighted Ihara–Bass formula in [Pil26, Section 4.2]. We prove the transfer needed here directly for self-adjoint edge operators; distinct edge operators need not commute.
 
 ##### A transfer lemma for self-adjoint edge matrices
 
@@ -1165,7 +1165,7 @@ In this comparison the functions, shift, and bias $\gamma$ are fixed first; then
 
 #### The analytic centering estimate
 
-We prove Proposition 11.4. Expanding the centered factors leaves sums over integers with large prime factors. We shall bound the Fourier multiplier of those integers and use short-interval cancellation for whichever multiplicative function is nonpretentious. Combining short exponential sums with a fourth-moment bound follows the centering strategy in (Pilatte 2026, Appendix C); we prove the rough-number estimates needed for the present weights. Throughout this section, $\mathrm e(t)=\exp(2\pi it)$.
+We prove Proposition 11.4. Expanding the centered factors leaves sums over integers with large prime factors. We shall bound the Fourier multiplier of those integers and use short-interval cancellation for whichever multiplicative function is nonpretentious. Combining short exponential sums with a fourth-moment bound follows the centering strategy in [Pil26, Appendix C]; we prove the rough-number estimates needed for the present weights. Throughout this section, $\mathrm e(t)=\exp(2\pi it)$.
 
 ##### Expansion and finite-prime twists
 
@@ -1215,7 +1215,7 @@ We first justify the uniformity in the Fourier parameters. Finite changes to pri
 
 For a $1$-bounded multiplicative function $b$, define $$\mathcal M(b;X,Q)=
  \inf_{\substack{|t|\le X\\q\le Q,\ \chi\ ({\rm mod}\ q)}}
-     D(b,\chi n^{it};X)^2.$$ The following is the general exponential-sum theorem of Matomäki, Radziwiłł, and Tao, in its corrected version (Matomäki et al. 2015, Theorem 1.7).
+     D(b,\chi n^{it};X)^2.$$ The following is the general exponential-sum theorem of Matomäki, Radziwiłł, and Tao, in its corrected version [MRT15, Theorem 1.7].
 
 **Theorem 12.2** (Averaged short exponential sums). *Let $X\ge D\ge10$ and let $b\colon\mathbb N\to\mathbb C$ be a $1$-bounded multiplicative function. With $Q=\min((\log X)^{1/125},(\log D)^5)$, one has $$\begin{equation}
 \tag{12.6}
@@ -1338,7 +1338,7 @@ The analytic comparison required for (11.12) is now proved. It remains to establ
 
 We now prove the graph estimate stated in Proposition 10.1. Its main input is a bound for closed walks after deleting a sparse periodic set of vertices. In this section we define that set and establish the arithmetic estimates used to discard exceptional walks. The parameters and kernels are those of Section 10. In the graph proof, $B$ tends to infinity with $h,\tau,C_0,T$ fixed.
 
-Deleting vertices that support short prohibited paths is part of the divisibility-graph method of (Helfgott and Radziwiłł 2021, sec. 4), developed for composite labels in (Pilatte 2026, sec. 7 and 13.1). We use primitive specifications with an extra prime coordinate and prove the resulting density and arithmetic bounds for the present graph.
+Deleting vertices that support short prohibited paths is part of the divisibility-graph method of [HR21, Section 4], developed for composite labels in [Pil26, Sections 7 and 13.1]. We use primitive specifications with an extra prime coordinate and prove the resulting density and arithmetic bounds for the present graph.
 
 Put $$\begin{equation}
 \tag{13.1}
@@ -1522,7 +1522,7 @@ The active sets are now connected within each block. To compare different compon
 
 *Proof.* Start with arbitrary roots. A connected vertex set in a tree contains the entire path between any two of its vertices. It therefore has a unique nearest vertex to a chosen root. The root-to-$x_p^j$ path avoids $p$-edges. If a retained label $q$ occurs on this path, both ends of its edge lie in $A_q^j$; the nearest vertex $x_q^j$ is then a strict ancestor of $x_p^j$. Thus dependencies are contained in the two strict ancestor orders. Indices with equal nearest points are incomparable.
 
-Every finite partially ordered set with $u$ elements has a chain or an antichain of size at least $\sqrt u$: partition its elements by the length of a longest chain ending there. Apply this to the first ancestor order. If an antichain is obtained, there are no dependencies from block 1 among its indices, so depth order in block 2 suffices. Otherwise apply the same argument in block 2 on the selected chain. An antichain there similarly suffices. In the remaining case we have chains in both blocks with at least $m^{1/4}$ indices. The Erdős–Szekeres monotone-subsequence theorem (Erdős and Szekeres 1935, 467) shows that two total orders have a common agreeing or reversed subsequence of size at least the square root of their length. To recall the elementary argument, assign to each position the lengths of the longest increasing and decreasing subsequences ending there. Two positions have different pairs, so if both lengths are less than $\sqrt u$ there cannot be $u$ positions. We thus retain at least a constant times $m^{1/8}$ indices. Agreeing orders already give the conclusion.
+Every finite partially ordered set with $u$ elements has a chain or an antichain of size at least $\sqrt u$: partition its elements by the length of a longest chain ending there. Apply this to the first ancestor order. If an antichain is obtained, there are no dependencies from block 1 among its indices, so depth order in block 2 suffices. Otherwise apply the same argument in block 2 on the selected chain. An antichain there similarly suffices. In the remaining case we have chains in both blocks with at least $m^{1/4}$ indices. The Erdős–Szekeres monotone-subsequence theorem [ES35, p. 467] shows that two total orders have a common agreeing or reversed subsequence of size at least the square root of their length. To recall the elementary argument, assign to each position the lengths of the longest increasing and decreasing subsequences ending there. Two positions have different pairs, so if both lengths are less than $\sqrt u$ there cannot be $u$ positions. We thus retain at least a constant times $m^{1/8}$ indices. Agreeing orders already give the conclusion.
 
 Suppose the orders are reversed. In block 2 take the segment from its root to the farthest selected $x_p^2$. The intersection of each $A_p^2$ with that segment is a closed vertex interval beginning at $x_p^2$; these left endpoints are distinct. At a vertex of the segment, each positive-length interval containing it contains an incident segment edge. Each of the at most two such edges has at most $J$ prime factors. At most one interval can consist of that vertex alone. Hence at most $2J+1$ intervals overlap at a vertex. Greedily coloring closed intervals in order of their left endpoints uses at most $2J+1$ colors: an existing color is available only if its preceding right endpoint is strictly earlier than the new left endpoint. One color retains at least a $1/(2J+1)$ fraction of pairwise vertex-disjoint intervals.
 
@@ -1561,7 +1561,7 @@ We may therefore impose the retained predicate before estimating the remaining c
 
 The restrictions $n+b_j\in Y$ still involve the residue coordinates outside the fixed set $\mathcal F$. We replace their product by a sum of conditions from short lists of primitive specifications. In each term the remaining coordinates are averaged before taking an absolute value; this preserves the cancellation needed in the trace estimate. The error will contain many specifications with distinct private prime coordinates, which supply enough arithmetic constraints to apply Lemma 13.7.
 
-The intersection rank and the extraction of constraints from its witnesses adapt Pilatte’s construction (Pilatte 2026, Definition 13.3 and Lemmas 13.4 and 13.6). The associated truncation belongs to the composite-modulus sieve developed in (Helfgott and Radziwiłł 2021, sec. 3) and (Pilatte 2026, Appendix B). We prove the finite-cylinder statement and its application here, including the effect of conditioning.
+The intersection rank and the extraction of constraints from its witnesses adapt Pilatte’s construction [Pil26, Definition 13.3 and Lemmas 13.4 and 13.6]. The associated truncation belongs to the composite-modulus sieve developed in [HR21, Section 3] and [Pil26, Appendix B]. We prove the finite-cylinder statement and its application here, including the effect of conditioning.
 
 ##### Truncating an intersection poset
 
@@ -1577,7 +1577,7 @@ Let $\mathscr E$ be a finite family of proper, nonempty exact cylinders. Identif
  \end{array}\right\}.
 \end{equation}$$ The empty family is allowed in this maximum. A coordinate as in (15.1) is called *private* to its member of $\mathscr A$. All events in such a family have compatible prescribed values because they contain the nonempty intersection $I$.
 
-Write $\mu(\widehat0,I)$ for the Möbius coefficients of this finite poset, characterized by $$\sum_{I\le J}\mu(\widehat0,I)=\mathbf 1_{J=\widehat0}.$$ Their role is inclusion–exclusion with equal intersections collected into one term. This is Möbius inversion in the incidence algebra of a finite poset; see (Rota 1964, sec. 3). The chain expansion used below is the one in (Rota 1964, sec. 3, Proposition 6).
+Write $\mu(\widehat0,I)$ for the Möbius coefficients of this finite poset, characterized by $$\sum_{I\le J}\mu(\widehat0,I)=\mathbf 1_{J=\widehat0}.$$ Their role is inclusion–exclusion with equal intersections collected into one term. This is Möbius inversion in the incidence algebra of a finite poset; see [Rot64, Section 3]. The chain expansion used below is the one in [Rot64, Section 3, Proposition 6].
 
 **Lemma 15.1** (Finite-cylinder truncation). *Suppose that the cylinders in $\mathscr E$ have width at most $w\ge1$. For an integer $t\ge1$, put $M=tw$, and let $$\mathscr H_t=\{J\in\mathscr P:\operatorname{rk}(J)\ge t,
        \ J\text{ is generated by at most }t\text{ members of }\mathscr E\}.$$ Then the rank is nondecreasing on $\mathscr P$, every $I\in\mathscr P$ is generated by at most $\operatorname{rk}(I)$ events, and $$\begin{equation}
@@ -2086,7 +2086,7 @@ Expand $U$ and $V$ by Lemma 18.2. Each pair of multiplicative components has a 
 
 ##### Liouville and Möbius correlations
 
-To apply the preceding conclusions to the Liouville function, we verify the nonpretentiousness hypothesis over its full growing height interval. The required uniform estimate is supplied by Matomäki, Radziwiłł, and Tao’s version of an argument of Granville and Soundararajan (Matomäki et al. 2015, Appendix C).
+To apply the preceding conclusions to the Liouville function, we verify the nonpretentiousness hypothesis over its full growing height interval. The required uniform estimate is supplied by Matomäki, Radziwiłł, and Tao’s version of an argument of Granville and Soundararajan [MRT15, Appendix C].
 
 **Lemma 18.5** (Uniform nonpretentiousness of Liouville). *For every fixed Dirichlet character $\chi$, $$\begin{equation}
  \inf_{|t|\le X}D(\lambda,\chi n^{it};X)
@@ -2095,7 +2095,7 @@ To apply the preceding conclusions to the Liouville function, we verify the nonp
  \tag{18.13}
 \end{equation}$$ In particular, $\lambda$ is uniformly nonpretentious.*
 
-*Proof.* For a real $1$-bounded multiplicative function $f$, (Matomäki et al. 2015, Lemma C.1) gives $$\begin{equation}
+*Proof.* For a real $1$-bounded multiplicative function $f$, [MRT15, Lemma C.1] gives $$\begin{equation}
  D(f,\chi n^{it};X)
  \ge\frac14\sqrt{\log\log X}-O_\chi(1)
  \quad(1\le|t|\le X).
@@ -2129,44 +2129,44 @@ The qualitative theorem also applies to the Möbius function, defined by $$\mu(n
 
 ## References
 
-Alon, Noga, Oded Goldreich, and Yishay Mansour. 2003. “Almost $k$-Wise Independence Versus $k$-Wise Independence.” *Information Processing Letters* 88 (3): 107–10. <https://doi.org/10.1016/S0020-0190(03)00359-4>.
+**[AGM03]** Noga Alon, Oded Goldreich, and Yishay Mansour. Almost $k$-wise independence versus $k$-wise independence. *Information Processing Letters*, 88(3):107–110, 2003. Author version dated 12 December 2003; Theorem 2.1 and Section 3.1.
 
-Bazzi, Louay M. J. 2009. “Polylogarithmic Independence Can Fool DNF Formulas.” *SIAM Journal on Computing* 38 (6): 2220–72. <https://doi.org/10.1137/070691954>.
+**[Baz09]** Louay M. J. Bazzi. Polylogarithmic independence can fool DNF formulas. *SIAM Journal on Computing*, 38(6):2220–2272, 2009.
 
-Braverman, Mark. 2010. “Polylogarithmic Independence Fools $AC^0$ Circuits.” *Journal of the ACM* 57 (5): 28:1–10. <https://doi.org/10.1145/1754399.1754401>.
+**[Bra10]** Mark Braverman. Polylogarithmic independence fools $AC^0$ circuits. *Journal of the ACM*, 57(5):28:1–28:10, 2010. Corollary 2 in the six-page [author’s version](https://www.cs.toronto.edu/~mbraverm/Papers/FoolAC0v7.pdf).
 
-Chowla, Sarvadaman. 1965. *The Riemann Hypothesis and Hilbert’s Tenth Problem*. Vol. 4. Mathematics and Its Applications. Gordon; Breach Science Publishers.
+**[Cho65]** Sarvadaman Chowla. *The Riemann Hypothesis and Hilbert’s Tenth Problem*, volume 4 of *Mathematics and Its Applications*. Gordon and Breach Science Publishers, New York–London–Paris, 1965.
 
-Elliott, P. D. T. A. 1992. “On the Correlation of Multiplicative Functions.” *Notas Soc. Mat. Chile* 11 (1): 1–11.
+**[Ell92]** P. D. T. A. Elliott. On the correlation of multiplicative functions. *Notas Soc. Mat. Chile*, 11(1):1–11, 1992.
 
-Erdős, Paul, and George Szekeres. 1935. “A Combinatorial Problem in Geometry.” *Compositio Mathematica* 2: 463–70. <https://www.numdam.org/item/CM_1935__2__463_0/>.
+**[ES35]** Paul Erdős and George Szekeres. A combinatorial problem in geometry. *Compositio Mathematica*, 2:463–470, 1935.
 
-Granville, Andrew, Adam J. Harper, and K. Soundararajan. 2019. “A New Proof of Halász’s Theorem, and Its Consequences.” *Compositio Mathematica* 155 (1): 126–63. <https://doi.org/10.1112/S0010437X18007522>.
+**[GHS19]** Andrew Granville, Adam J. Harper, and K. Soundararajan. A new proof of Halász’s theorem, and its consequences. *Compositio Mathematica*, 155(1):126–163, 2019.
 
-Granville, Andrew, and K. Soundararajan. 2007. “Large Character Sums: Pretentious Characters and the Pólya–Vinogradov Theorem.” *Journal of the American Mathematical Society* 20 (2): 357–84. <https://doi.org/10.1090/S0894-0347-06-00536-4>.
+**[GS07]** Andrew Granville and K. Soundararajan. Large character sums: pretentious characters and the Pólya–Vinogradov theorem. *Journal of the American Mathematical Society*, 20(2):357–384, 2007.
 
-Halász, Gábor. 1971. “On the Distribution of Additive and the Mean Values of Multiplicative Arithmetic Functions.” *Studia Scientiarum Mathematicarum Hungarica* 6: 211–33.
+**[Hal71]** Gábor Halász. On the distribution of additive and the mean values of multiplicative arithmetic functions. *Studia Scientiarum Mathematicarum Hungarica*, 6:211–233, 1971.
 
-Helfgott, Harald Andrés, and Maksym Radziwiłł. 2021. *Expansion, Divisibility and Parity*. <https://arxiv.org/abs/2103.06853v2>.
+**[HR21]** Harald Andrés Helfgott and Maksym Radziwiłł. Expansion, divisibility and parity, 2021. arXiv:2103.06853v2, 13 April 2021.
 
-Klurman, Oleksiy, Alexander P. Mangerel, and Joni Teräväinen. 2023. *On Elliott’s Conjecture and Applications*. <https://arxiv.org/abs/2304.05344v2>.
+**[KMT23]** Oleksiy Klurman, Alexander P. Mangerel, and Joni Teräväinen. On Elliott’s conjecture and applications, 2023. arXiv:2304.05344v2, 26 May 2023.
 
-Koukoulopoulos, Dimitris. 2019. *The Distribution of Prime Numbers*. Vol. 203. Graduate Studies in Mathematics. American Mathematical Society. <https://dms.umontreal.ca/~koukoulo/documents/publications/primes.pdf>.
+**[Kou19]** Dimitris Koukoulopoulos. *The Distribution of Prime Numbers*, volume 203 of *Graduate Studies in Mathematics*. American Mathematical Society, Providence, RI, 2019.
 
-Linial, Nathan, and Noam Nisan. 1990. “Approximate Inclusion-Exclusion.” *Combinatorica* 10 (4): 349–65. <https://doi.org/10.1007/BF02128670>.
+**[LN90]** Nathan Linial and Noam Nisan. Approximate inclusion-exclusion. *Combinatorica*, 10(4):349–365, 1990.
 
-Matomäki, Kaisa, and Maksym Radziwiłł. 2016. “Multiplicative Functions in Short Intervals.” *Annals of Mathematics*, 2nd series, vol. 183 (3): 1015–56. <https://doi.org/10.4007/annals.2016.183.3.6>.
+**[MR16]** Kaisa Matomäki and Maksym Radziwiłł. Multiplicative functions in short intervals. *Annals of Mathematics*, 183(3):1015–1056, 2016.
 
-Matomäki, Kaisa, Maksym Radziwiłł, and Terence Tao. 2015. “An Averaged Form of Chowla’s Conjecture.” *Algebra & Number Theory* 9 (9): 2167–96. <https://doi.org/10.2140/ant.2015.9.2167>.
+**[MRT15]** Kaisa Matomäki, Maksym Radziwiłł, and Terence Tao. An averaged form of Chowla’s conjecture. *Algebra & Number Theory*, 9(9):2167–2196, 2015. Corrected version: arXiv:1503.05121v3, 1 March 2022.
 
-Pilatte, Cédric. 2026. “Improved Bounds for the Two-Point Logarithmic Chowla Conjecture.” *Journal of the American Mathematical Society*, ahead of print. <https://doi.org/10.1090/jams/1084>.
+**[Pil26]** Cédric Pilatte. Improved bounds for the two-point logarithmic Chowla conjecture. *Journal of the American Mathematical Society*, 2026. Published electronically 10 September 2026; cited version arXiv:2310.19357v3, 25 August 2026; first version 2023.
 
-Razborov, Alexander A. 2008. *A Simple Proof of Bazzi’s Theorem*. <https://eccc.weizmann.ac.il/report/2008/081/>.
+**[Raz08]** Alexander A. Razborov. A simple proof of Bazzi’s theorem, 2008. Electronic Colloquium on Computational Complexity, Report TR08-081, 11 September 2008.
 
-Rota, Gian-Carlo. 1964. “On the Foundations of Combinatorial Theory. I. Theory of Möbius Functions.” *Zeitschrift für Wahrscheinlichkeitstheorie Und Verwandte Gebiete* 2: 340–68. <https://webhomes.maths.ed.ac.uk/~v1ranick/papers/rota1.pdf>.
+**[Rot64]** Gian-Carlo Rota. On the foundations of combinatorial theory. I. Theory of Möbius functions. *Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete*, 2:340–368, 1964.
 
-Tao, Terence. 2016. “The Logarithmically Averaged Chowla and Elliott Conjectures for Two-Point Correlations.” *Forum of Mathematics, Pi* 4: e8. <https://doi.org/10.1017/fmp.2016.6>.
+**[Tao16]** Terence Tao. The logarithmically averaged Chowla and Elliott conjectures for two-point correlations. *Forum of Mathematics, Pi*, 4:e8, 2016.
 
-Tao, Terence, and Joni Teräväinen. 2019. “The Structure of Correlations of Multiplicative Functions at Almost All Scales, with Applications to the Chowla and Elliott Conjectures.” *Algebra & Number Theory* 13 (9): 2103–50. <https://doi.org/10.2140/ant.2019.13.2103>.
+**[TT19]** Terence Tao and Joni Teräväinen. The structure of correlations of multiplicative functions at almost all scales, with applications to the Chowla and Elliott conjectures. *Algebra & Number Theory*, 13(9):2103–2150, 2019.
 
-Tao, Terence, and Joni Teräväinen. 2026. *Quantitative Correlations and Some Problems on Prime Factors of Consecutive Integers*. <https://arxiv.org/abs/2512.01739v2>.
+**[TT26]** Terence Tao and Joni Teräväinen. Quantitative correlations and some problems on prime factors of consecutive integers, 2026. arXiv:2512.01739v2, 25 April 2026; first version 2025.

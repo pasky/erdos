@@ -16,31 +16,31 @@ Catalan’s constant is the real number $$G=\beta(2)=\sum_{j=0}^{\infty}\frac{(-
 
 ### Earlier results and the approximation problem
 
-For odd positive integers, the beta values are rational multiples of the corresponding powers of $\pi$. The even values present a different arithmetic problem (Rivoal and Zudilin 2003, Introduction). Rivoal and Zudilin proved that infinitely many even beta values are irrational, and that at least one of $\beta(2),\beta(4),\ldots,\beta(14)$ is irrational (Rivoal and Zudilin 2003, Theorems 1 and 2). Zudilin reduced this finite collection to the six values through $\beta(12)$ (Zudilin 2019, Theorem 1). Lai and Zhou subsequently reduced it to the five values $\beta(2),\beta(4),\beta(6),\beta(8),\beta(10)$ (Lai and Zhou 2022, Theorem 6.1). Fischler obtained stronger quantitative results for irrationality and linear independence in families of Dirichlet $L$-values (Fischler 2020, Theorems 1 and 2). Such family results guarantee irrational members without identifying the particular value $\beta(2)$.
+For odd positive integers, the beta values are rational multiples of the corresponding powers of $\pi$. The even values present a different arithmetic problem [19, Introduction]. Rivoal and Zudilin proved that infinitely many even beta values are irrational, and that at least one of $\beta(2),\beta(4),\ldots,\beta(14)$ is irrational [19, Theorems 1 and 2]. Zudilin reduced this finite collection to the six values through $\beta(12)$ [28, Theorem 1]. Lai and Zhou subsequently reduced it to the five values $\beta(2),\beta(4),\beta(6),\beta(8),\beta(10)$ [15, Theorem 6.1]. Fischler obtained stronger quantitative results for irrationality and linear independence in families of Dirichlet $L$-values [9, Theorems 1 and 2]. Such family results guarantee irrational members without identifying the particular value $\beta(2)$.
 
-For an individual value, the basic approximation criterion requires nonzero integer linear forms $A_mG-B_m$ that tend to zero. Convergence of $B_m/A_m$ to $G$ alone does not suffice: multiplication by $A_m$ may remove the decay. Apéry’s recurrence constructions for $\zeta(2)$ and $\zeta(3)$ (Apéry 1979), and Beukers’s integral proofs of their irrationality (Beukers 1979) succeed because the analytic decay survives the necessary denominator clearing. For Catalan’s constant, Zudilin constructed Apéry-like recurrences, a continued fraction and double-integral representations (Zudilin 2003, Theorems 1–3). His discussion following Theorem 1 makes the obstruction explicit: the displayed integer linear forms do not tend to zero, despite the rapid convergence of their rational quotients.
+For an individual value, the basic approximation criterion requires nonzero integer linear forms $A_mG-B_m$ that tend to zero. Convergence of $B_m/A_m$ to $G$ alone does not suffice: multiplication by $A_m$ may remove the decay. Apéry’s recurrence constructions for $\zeta(2)$ and $\zeta(3)$ [2], and Beukers’s integral proofs of their irrationality [3] succeed because the analytic decay survives the necessary denominator clearing. For Catalan’s constant, Zudilin constructed Apéry-like recurrences, a continued fraction and double-integral representations [26, Theorems 1–3]. His discussion following Theorem 1 makes the obstruction explicit: the displayed integer linear forms do not tend to zero, despite the rapid convergence of their rational quotients.
 
-The denominators themselves became an important part of the problem. Rivoal connected Padé approximation with the hypergeometric construction and proved its conjectured denominator bounds (Rivoal 2006, Theorems 1 and 2). Krattenthaler and Rivoal subsequently gave a more direct hypergeometric proof of these bounds (Krattenthaler and Rivoal 2008, Theorems 1 and 2). These results establish arithmetic cancellation that is invisible in a crude estimate of the individual summands. They still leave a denominator cost too large for the small-linear-form criterion. Krattenthaler and Zudilin later identified two apparently different hypergeometric constructions of the same approximants (Krattenthaler and Zudilin 2019, sec. 2 and Theorem 2). Such identities matter arithmetically because different expressions can make different denominator factors visible.
+The denominators themselves became an important part of the problem. Rivoal connected Padé approximation with the hypergeometric construction and proved its conjectured denominator bounds [18, Theorems 1 and 2]. Krattenthaler and Rivoal subsequently gave a more direct hypergeometric proof of these bounds [13, Theorems 1 and 2]. These results establish arithmetic cancellation that is invisible in a crude estimate of the individual summands. They still leave a denominator cost too large for the small-linear-form criterion. Krattenthaler and Zudilin later identified two apparently different hypergeometric constructions of the same approximants [14, Section 2 and Theorem 2]. Such identities matter arithmetically because different expressions can make different denominator factors visible.
 
-Nesterenko developed effective approximations using half-integer hypergeometric series and double Euler integrals (Nesterenko 2016). Viola announced joint work with Marcovecchio improving an approximation exponent through the Rhin–Viola permutation-group method (Viola 2022); their report gives the exponent $0.6293\ldots$ for its explicit approximants. A recent preprint of Eskandari constructs further explicit rational approximations satisfying $0<|G-p_m/q_m|\le q_m^{-0.62}$ for all sufficiently large $m$ (Eskandari 2026, Theorem 1.1). These are bounds for particular constructions, not irrationality measures. An error bound with exponent below $1$ does not by itself make the integer forms $q_mG-p_m$ tend to zero.
+Nesterenko developed effective approximations using half-integer hypergeometric series and double Euler integrals [17]. Viola announced joint work with Marcovecchio improving an approximation exponent through the Rhin–Viola permutation-group method [23]; their report gives the exponent $0.6293\ldots$ for its explicit approximants. A recent preprint of Eskandari constructs further explicit rational approximations satisfying $0<|G-p_m/q_m|\le q_m^{-0.62}$ for all sufficiently large $m$ [8, Theorem 1.1]. These are bounds for particular constructions, not irrationality measures. An error bound with exponent below $1$ does not by itself make the integer forms $q_mG-p_m$ tend to zero.
 
-Results at other characters and other places give useful comparisons. Calegari, Dimitrov and Tang proved the $\mathbb Q$-linear independence of $1$, $\pi^2$ and $L(2,\chi_{-3})$ (Calegari et al. 2024, Theorem A). Their character has conductor $3$, rather than the conductor $4$ of $G$. Their discussion of two Catalan approximation families again identifies the denominator cost as an obstruction for those constructions (Calegari et al. 2024, Remark 11.1.17). Calegari proved irrationality of a $2$-adic analogue $G_2\in\mathbb Q_2$ (Calegari 2005, Theorem 4.2). As explained by Calegari, Dimitrov and Tang (Calegari et al. 2025, sec. 5.2, footnote 2), the related real identity contains an additional $\pi^2$ term that is absent in the $2$-adic identity. This illustrates why the $2$-adic result does not settle the real problem. In our construction, cancellation of an additional $\zeta(2)$ term is likewise essential, although the moment identities and the cancellation argument are proved directly below.
+Results at other characters and other places give useful comparisons. Calegari, Dimitrov and Tang proved the $\mathbb Q$-linear independence of $1$, $\pi^2$ and $L(2,\chi_{-3})$ [5, Theorem A]. Their character has conductor $3$, rather than the conductor $4$ of $G$. Their discussion of two Catalan approximation families again identifies the denominator cost as an obstruction for those constructions [5, Remark 11.1.17]. Calegari proved irrationality of a $2$-adic analogue $G_2\in\mathbb Q_2$ [4, Theorem 4.2]. As explained by Calegari, Dimitrov and Tang [6, Section 5.2, footnote 2], the related real identity contains an additional $\pi^2$ term that is absent in the $2$-adic identity. This illustrates why the $2$-adic result does not settle the real problem. In our construction, cancellation of an additional $\zeta(2)$ term is likewise essential, although the moment identities and the cancellation argument are proved directly below.
 
-Sun (Sun 2026, Theorem 1.1) has also announced a proof of the same qualitative irrationality statement. No result from that preprint is used here.
+Sun [22, Theorem 1.1] has also announced a proof of the same qualitative irrationality statement. No result from that preprint is used here.
 
 ### The determinant strategy
 
 We construct determinants $\Delta_N$ of size $n=48N$ whose entries combine moments of two elementary kernels. Each moment is a rational linear combination of $1$, $G$ and $\zeta(2)$. The polynomial rows are chosen to have high Taylor contact: two prescribed expressions in the rows have identical initial Taylor coefficients. This agreement cancels the $\zeta(2)$ term in every entry. Consequently, the single hypothesis $G\in\mathbb Q$ makes all the determinants rational.
 
-For a nonzero rational number, its ordinary absolute value is determined by its prime valuations. Bounds on the denominators of $\Delta_N$ therefore give a lower bound on $\log|\Delta_N|$. An integral formula for the same determinant gives an upper bound. The contradiction comes from making these bounds incompatible as the size grows. Zudilin’s determinantal criterion gives a useful precedent for this comparison (Zudilin 2017, Proposition 2 and Section 2). There, a positive moment representation produces Hankel determinants with squared-Vandermonde integrals. Positivity supplies nonvanishing, and the denominator and integral estimates are compared on the scale of the square of the matrix size. His discussion of Catalan’s constant explains why the denominator growth of the approximation family considered there still prevents application of the criterion (Zudilin 2017, sec. 6). Our determinant is mixed and signed; its nonvanishing and its real-place estimate require separate arguments.
+For a nonzero rational number, its ordinary absolute value is determined by its prime valuations. Bounds on the denominators of $\Delta_N$ therefore give a lower bound on $\log|\Delta_N|$. An integral formula for the same determinant gives an upper bound. The contradiction comes from making these bounds incompatible as the size grows. Zudilin’s determinantal criterion gives a useful precedent for this comparison [27, Proposition 2 and Section 2]. There, a positive moment representation produces Hankel determinants with squared-Vandermonde integrals. Positivity supplies nonvanishing, and the denominator and integral estimates are compared on the scale of the square of the matrix size. His discussion of Catalan’s constant explains why the denominator growth of the approximation family considered there still prevents application of the criterion [27, Section 6]. Our determinant is mixed and signed; its nonvanishing and its real-place estimate require separate arguments.
 
 Three features of the construction make this comparison possible. First, integral Chebyshev rows provide both the Taylor contact and useful divisibility. At the large odd primes relevant to the leading bound, denominators of order $p^2$ and $p$ must both be controlled. The arithmetic estimate follows these two layers separately; cancellation at the first layer alone would not give the required denominator bound.
 
 Second, nonvanishing is arithmetic. Under the hypothesis $G\in\mathbb Q$, when $N=p$ is itself a sufficiently large prime, Frobenius and a pair of polynomial bases reduce the growing matrix to three fixed rational matrices. An exact finite certificate proves their nonvanishing. The reduction then gives nonzero determinants along an unbounded prime sequence, without asserting positivity of the mixed determinant.
 
-Third, the real estimate respects both branches of the rational parametrization used to construct the rows. A bounded holomorphic interpolant controls their mixed evaluations in one range of configurations; a Hadamard bound treats the complementary range. The interpolation estimate is uniform even when nodes approach one another. Its proof uses a finite-dimensional Hardy-space operator, so the evaluation determinant cancels algebraically rather than introducing an inverse-Vandermonde estimate. Andréief’s integration identity (Forrester 2018), Cauchy’s double alternant (Krattenthaler 1999), and the kernel/compression viewpoint of analytic interpolation (Sarason 1967) supply the classical context; the specific estimates are proved below.
+Third, the real estimate respects both branches of the rational parametrization used to construct the rows. A bounded holomorphic interpolant controls their mixed evaluations in one range of configurations; a Hadamard bound treats the complementary range. The interpolation estimate is uniform even when nodes approach one another. Its proof uses a finite-dimensional Hardy-space operator, so the evaluation determinant cancels algebraically rather than introducing an inverse-Vandermonde estimate. Andréief’s integration identity [10], Cauchy’s double alternant [12], and the kernel/compression viewpoint of analytic interpolation [21] supply the classical context; the specific estimates are proved below.
 
-The resulting Vandermonde products have logarithmic interactions, as in logarithmic potential theory (Saff 2010). A Chebyshev expansion of the logarithmic kernel (Garoufalidis and Popescu 2013, Lemma 3.1) reduces the estimate to quadratic sums and two one-variable functions in each case. We regularize their interactions together, control the omitted diagonals and endpoint terms, and only then take a supremum and pass to the limit. Explicit rational trial coefficients finish the argument. Their certificate exhausts all stationary points and bounds entire root brackets, rather than relying on a numerical search for the maxima.
+The resulting Vandermonde products have logarithmic interactions, as in logarithmic potential theory [20]. A Chebyshev expansion of the logarithmic kernel [11, Lemma 3.1] reduces the estimate to quadratic sums and two one-variable functions in each case. We regularize their interactions together, control the omitted diagonals and endpoint terms, and only then take a supremum and pass to the limit. Explicit rational trial coefficients finish the argument. Their certificate exhausts all stationary points and bounds entire root brackets, rather than relying on a numerical search for the maxima.
 
 For orientation, the two estimates are stated for the same normalized logarithm $$\begin{equation}
 \tag{1}
@@ -71,7 +71,7 @@ P_r=\frac{R_r+R_r^*}{2},\qquad
 D_r=\frac{t(R_r^*-R_r)}{2f}.
 \end{equation}$$ Here and below identities involving $f$ near zero use its Taylor branch with $f(0)=1$.
 
-Let $T_d,U_d$ be the Chebyshev polynomials, normalized by $T_0=1,T_1=x,U_{-1}=0,U_0=1$, and the recurrence $S_{d+1}=2xS_d-S_{d-1}$. The associated Laurent expressions are the standard formulas (National Institute of Standards and Technology n.d., Equations (18.5.1)–(18.5.2)). Since $(w+w^{-1})/2=1/t$ and $(w^{-1}-w)/2=f/t$, Equation (3) becomes, with $d=|r-g|$, $$P_r=(1-t)^h t^{C-1}T_d(1/t),\qquad
+Let $T_d,U_d$ be the Chebyshev polynomials, normalized by $T_0=1,T_1=x,U_{-1}=0,U_0=1$, and the recurrence $S_{d+1}=2xS_d-S_{d-1}$. The associated Laurent expressions are the standard formulas [16, Equations (18.5.1)–(18.5.2)]. Since $(w+w^{-1})/2=1/t$ and $(w^{-1}-w)/2=f/t$, Equation (3) becomes, with $d=|r-g|$, $$P_r=(1-t)^h t^{C-1}T_d(1/t),\qquad
 D_r=\operatorname{sgn}(r-g)(1-t)^h t^{C-1}U_{d-1}(1/t).$$ In particular these are integer polynomials; the second is zero when $r=g$. The inequality $d\le n-1-g$ gives $$\begin{equation}
 \tag{4}
 \operatorname{supp}P_r\subseteq\{A,\ldots,H-1\},\qquad
@@ -473,7 +473,7 @@ For completeness, the omitted small odd primes cost only $o(n^2)$ in the logarit
        =o(n^2).$$ This estimate uses only that the number of such primes is at most $2\sqrt H$. For sufficiently large $N$, every prime $p>H$ is integral throughout the calculation: factorials and degree denominators introduce only prime factors at most $H$, and the fixed denominator of $G$ has no prime factor above $H$. Thus these primes give no negative contribution.
 
 We use the classical prime number theorem in the form $$\theta(y):=\sum_{p\le y}\log p\sim y
-       \qquad(y\to\infty);$$ see (Zagier 1997, Step VI, p. 707), which presents Newman’s analytic proof. The weighted consequence needed here follows directly: $$\begin{equation}
+       \qquad(y\to\infty);$$ see [25, Step VI, p. 707], which presents Newman’s analytic proof. The weighted consequence needed here follows directly: $$\begin{equation}
 \tag{45}
  \frac1N\sum_{p\le65N}d(p/N)\log p
        \longrightarrow\int_0^{65}d(x)\,dx.
@@ -677,7 +677,7 @@ We estimate the determinant defined in Equation (7) without a rationality assum
 Put $d\mu(t)=|t|\,dt/f(t)$ on $(-1,1)$, and set $$A_r(t)=P_r(t)-\frac32\boldsymbol 1_{\{t>0\}}\frac{f(t)}tD_r(t),
  \qquad \psi_k(s)=s^{b+k}(1-s)^q.$$ The value at $t=0$ is immaterial; the displayed expression has a finite limit there because $D_r(t)/t$ is a polynomial. The determinant entries are exactly $$\int_{-1}^1\int_0^1 A_r(t)\frac{\psi_k(s)}{1-ts}\,ds\,d\mu(t).$$ The measure has mass $\mu((-1,1))=2$. The scalar majorant $\int\!\int(1-|t|s)^{-1}\,ds\,d\mu(t)$ is finite: integration in $s$ gives at worst a logarithmic singularity at $|t|=1$, which is integrable against $(1-t^2)^{-1/2}dt$. The functions $A_r$ and $\psi_k$ are bounded for each fixed $n$. Thus all permutation expansions below are absolutely integrable.
 
-We apply Andréief’s determinant integration identity twice (Forrester 2018, Equation (1.7) and Section 2.2). Expanding determinants and relabeling integration variables gives the identity $$\begin{equation}
+We apply Andréief’s determinant integration identity twice [10, Equation (1.7) and Section 2.2]. Expanding determinants and relabeling integration variables gives the identity $$\begin{equation}
 \tag{62}
  \Delta_N=\frac1{(n!)^2}\int_{(-1,1)^n}\int_{(0,1)^n}
  \det[A_r(t_i)]_{r,i}\,
@@ -685,7 +685,7 @@ We apply Andréief’s determinant integration identity twice (Forrester 2018, E
  \det[\psi_k(s_j)]_{j,k}\,ds\,d\mu^n(t).
 \end{equation}$$ Here $0\le r,k<n$ and $1\le i,j\le n$. To see the factor $1/n!$ at each application directly, expand the two determinants sharing an integration list: every one of the $n!$ permutations of that list gives the same determinant of single integrals. Fubini’s theorem applies by the preceding majorant, also after each permutation expansion.
 
-Cauchy’s double alternant in multiplicative variables (Krattenthaler 1999, sec. 2.1, Equation (2.7)) is $$\begin{equation}
+Cauchy’s double alternant in multiplicative variables [12, Section 2.1, Equation (2.7)] is $$\begin{equation}
 \tag{63}
  \det\left[\frac1{1-t_i s_j}\right]_{i,j}
  =\frac{V(t)V(s)}{\prod_{i,j}(1-t_i s_j)}.
@@ -757,7 +757,7 @@ Each new side is within $3/n$ of $i$ or $-i$. The new contour has length at most
 
 ### Evaluation in a finite-dimensional Hilbert space
 
-The following argument uses the kernel and compression viewpoint of bounded analytic interpolation; see (Sarason 1967). We prove the needed finite-dimensional facts directly.
+The following argument uses the kernel and compression viewpoint of bounded analytic interpolation; see [21]. We prove the needed finite-dimensional facts directly.
 
 **Proposition 5.2** (Interpolation estimate). *Under Equation (67), $$\begin{equation}
 \tag{71}
@@ -872,7 +872,7 @@ The sequences $p,v$ below are freely chosen trial coefficients. The inequality $
                        -\frac{\kappa+1}{2n}.\notag
 \end{align}$$ The displayed correction involving $\log(1+x^2)$ is bounded by $2\log2/n$ on the whole domain.
 
-We use the classical Chebyshev expansion of the logarithmic kernel, in the form of Haagerup’s identity presented in (Garoufalidis and Popescu 2013, Lemma 3.1 and its proof). We first record its damped form on $[-1,1]$. If $u=\cos\theta$, $u'=\cos\theta'$, and $0\le r<1$, set $$\begin{align}
+We use the classical Chebyshev expansion of the logarithmic kernel, in the form of Haagerup’s identity presented in [11, Lemma 3.1 and its proof]. We first record its damped form on $[-1,1]$. If $u=\cos\theta$, $u'=\cos\theta'$, and $0\le r<1$, set $$\begin{align}
  L_r(u,u')
  &=-\log2+\log|1-re^{i(\theta+\theta')}|
                  +\log|1-re^{i(\theta-\theta')}|\notag\\
@@ -1142,7 +1142,7 @@ Here is an exact root-count certificate. If $A(x)=\sum_{j=0}^{d_0}A_jx^j$ is the
 |    1     |   $X$    |  13   | $-1,-.5,0,.5,1$  | $1,1,2,1$       |
 |    1     |   $Y$    |   9   | $0,1$            | $5$             |
 
-The sign-variation bound is Descartes’ rule of signs (Descartes 1637, bk. III, p. 373). For completeness, the required bound follows by factoring out positive real roots: multiplication of a real polynomial by $t-r$, $r>0$, increases the number of variations by at least one. To see this, positive rescaling of the variable reduces to $r=1$, and zero initial coefficients can be removed. If $a_0,\ldots,a_d$ are the old coefficients and $b_0,\ldots,b_{d+1}$ the new ones, then $$\sum_{j=0}^h b_j=-a_h\quad(0\le h\le d),\qquad b_{d+1}=a_d.$$ Each sign change between nonzero partial sums forces an intervening $b_j$ with the sign of the later partial sum. Starting with $b_0=-a_0$, these choices give an ordered subsequence with all the variations of the $a_h$; the final coefficient $b_{d+1}$ has the opposite sign to the last partial sum and supplies one further variation. Factoring successively therefore proves that the variation count bounds the number of positive roots with multiplicity. The substitution in Equation (94) sends $t>0$ bijectively to $(b,c)$ and does not change multiplicities.
+The sign-variation bound is Descartes’ rule of signs [7, Book III, p. 373]. For completeness, the required bound follows by factoring out positive real roots: multiplication of a real polynomial by $t-r$, $r>0$, increases the number of variations by at least one. To see this, positive rescaling of the variable reduces to $r=1$, and zero initial coefficients can be removed. If $a_0,\ldots,a_d$ are the old coefficients and $b_0,\ldots,b_{d+1}$ the new ones, then $$\sum_{j=0}^h b_j=-a_h\quad(0\le h\le d),\qquad b_{d+1}=a_d.$$ Each sign change between nonzero partial sums forces an intervening $b_j$ with the sign of the later partial sum. Starting with $b_0=-a_0$, these choices give an ordered subsequence with all the variations of the $a_h$; the final coefficient $b_{d+1}$ has the opposite sign to the last partial sum and supplies one further variation. Factoring successively therefore proves that the variation count bounds the number of positive roots with multiplicity. The substitution in Equation (94) sends $t>0$ bijectively to $(b,c)$ and does not change multiplicities.
 
 The following integers $m$ specify disjoint open brackets $(m,m+2)/10^{10}$ for roots of the corresponding derivative:
 
@@ -1690,65 +1690,65 @@ Finally $-1+\alpha+\gamma=-11/16$. Apply Proposition 6.1, use Equation (98), a
 
 ##### Hyperbolic volumes.
 
-Normalize sectional curvature to $-1$. Agol’s theorem identifies $4G$ as the minimum volume of an orientable complete finite-volume hyperbolic three-manifold with exactly two cusps, attained by the Whitehead-link and $(-2,3,8)$-pretzel-link complements (Agol 2010, Introduction and Theorem 3.6). Theorem 1.1 therefore makes this minimum and both link volumes irrational. More generally, every orientable arithmetic hyperbolic three-orbifold defined over $\mathbb Q(i)$ has irrational volume. Here its lattice $\Gamma\le\operatorname{PSL}_2(\mathbb C)$ is, up to conjugacy, commensurable with the projective norm-one group $\Gamma^1(\mathcal O)=\mathcal O^1/\{\pm1\}$ of a maximal order $\mathcal O$ in some quaternion algebra $B/\mathbb Q(i)$ (Voight 2021, Definition 38.3.4). For each such algebra, with finite reduced discriminant $\mathfrak D$, the volume formula gives $$\operatorname{vol}\bigl(\Gamma^1(\mathcal O)\backslash\mathbb H^3\bigr)
- =\frac{G}{3}\prod_{\mathfrak p\mid\mathfrak D}(N\mathfrak p-1),$$ where $N\mathfrak p=|\mathbb Z[i]/\mathfrak p|$; this follows by inserting $\zeta_{\mathbb Q(i)}(2)=\zeta(2)L(2,\chi_{-4})=(\pi^2/6)G$ into (Voight 2021, Theorem 39.1.13). After conjugating, a common finite-index subgroup $H$ gives $$\operatorname{vol}(\Gamma\backslash\mathbb H^3)
+Normalize sectional curvature to $-1$. Agol’s theorem identifies $4G$ as the minimum volume of an orientable complete finite-volume hyperbolic three-manifold with exactly two cusps, attained by the Whitehead-link and $(-2,3,8)$-pretzel-link complements [1, Introduction and Theorem 3.6]. Theorem 1.1 therefore makes this minimum and both link volumes irrational. More generally, every orientable arithmetic hyperbolic three-orbifold defined over $\mathbb Q(i)$ has irrational volume. Here its lattice $\Gamma\le\operatorname{PSL}_2(\mathbb C)$ is, up to conjugacy, commensurable with the projective norm-one group $\Gamma^1(\mathcal O)=\mathcal O^1/\{\pm1\}$ of a maximal order $\mathcal O$ in some quaternion algebra $B/\mathbb Q(i)$ [24, Definition 38.3.4]. For each such algebra, with finite reduced discriminant $\mathfrak D$, the volume formula gives $$\operatorname{vol}\bigl(\Gamma^1(\mathcal O)\backslash\mathbb H^3\bigr)
+ =\frac{G}{3}\prod_{\mathfrak p\mid\mathfrak D}(N\mathfrak p-1),$$ where $N\mathfrak p=|\mathbb Z[i]/\mathfrak p|$; this follows by inserting $\zeta_{\mathbb Q(i)}(2)=\zeta(2)L(2,\chi_{-4})=(\pi^2/6)G$ into [24, Theorem 39.1.13]. After conjugating, a common finite-index subgroup $H$ gives $$\operatorname{vol}(\Gamma\backslash\mathbb H^3)
  =\frac{[\Gamma^1(\mathcal O):H]}{[\Gamma:H]}
-   \operatorname{vol}\bigl(\Gamma^1(\mathcal O)\backslash\mathbb H^3\bigr),$$ so this volume is a positive rational multiple of $G$ and is irrational. In the split case $B=M_2(\mathbb Q(i))$, $\mathcal O=M_2(\mathbb Z[i])$, the empty product yields $\operatorname{vol}(\operatorname{PSL}_2(\mathbb Z[i])\backslash\mathbb H^3)=G/3$ (Voight 2021, Example 39.1.16).
+   \operatorname{vol}\bigl(\Gamma^1(\mathcal O)\backslash\mathbb H^3\bigr),$$ so this volume is a positive rational multiple of $G$ and is irrational. In the split case $B=M_2(\mathbb Q(i))$, $\mathcal O=M_2(\mathbb Z[i])$, the empty product yields $\operatorname{vol}(\operatorname{PSL}_2(\mathbb Z[i])\backslash\mathbb H^3)=G/3$ [24, Example 39.1.16].
 
 ## References
 
-Agol, Ian. 2010. “The Minimal Volume Orientable Hyperbolic 2-Cusped 3-Manifolds.” *Proceedings of the American Mathematical Society* 138 (10): 3723–32. <https://doi.org/10.1090/S0002-9939-10-10364-5>.
+**[1]** Ian Agol. The minimal volume orientable hyperbolic 2-cusped 3-manifolds. *Proceedings of the American Mathematical Society*, 138(10):3723–3732, 2010. doi: 10.1090/S0002-9939-10-10364-5. URL <https://arxiv.org/abs/0804.0043v2>. Linked preprint arXiv:0804.0043v2, revised 18 May 2010.
 
-Apéry, Roger. 1979. “Irrationalité de $\zeta 2$ Et $\zeta 3$.” In *Journées Arithmétiques de Luminy*. Astérisque 61. Société mathématique de France. <https://numdam.org/item/AST_1979__61__11_0/>.
+**[2]** Roger Apéry. Irrationalité de $\zeta 2$ et $\zeta 3$. In *Journées Arithmétiques de Luminy*, number 61 in Astérisque, pages 11–13. Société mathématique de France, 1979. URL <https://numdam.org/item/AST_1979__61__11_0/>.
 
-Beukers, Frits. 1979. “A Note on the Irrationality of $\zeta(2)$ and $\zeta(3)$.” *Bulletin of the London Mathematical Society* 11 (3): 268–72. <https://doi.org/10.1112/blms/11.3.268>.
+**[3]** Frits Beukers. A note on the irrationality of $\zeta(2)$ and $\zeta(3)$. *Bulletin of the London Mathematical Society*, 11(3):268–272, 1979. doi: 10.1112/blms/11.3.268. URL <https://doi.org/10.1112/blms/11.3.268>.
 
-Calegari, Frank. 2005. “Irrationality of Certain $p$-Adic Periods for Small $p$.” *International Mathematics Research Notices* 2005 (20): 1235–49. <https://doi.org/10.1155/IMRN.2005.1235>.
+**[4]** Frank Calegari. Irrationality of certain $p$-adic periods for small $p$. *International Mathematics Research Notices*, 2005(20):1235–1249, 2005. doi: 10.1155/IMRN.2005.1235. URL <https://www.math.uchicago.edu/~fcale/papers/Beukers.pdf>.
 
-Calegari, Frank, Vesselin Dimitrov, and Yunqing Tang. 2024. *The Linear Independence of $1$, $\zeta(2)$, and $L(2,\chi_{-3})$*. Preprint, arXiv:2408.15403v2. <https://arxiv.org/abs/2408.15403v2>.
+**[5]** Frank Calegari, Vesselin Dimitrov, and Yunqing Tang. The linear independence of $1$, $\zeta(2)$, and $L(2,\chi_{-3})$. Preprint, arXiv:2408.15403v2, 2024. URL <https://arxiv.org/abs/2408.15403v2>. Revised 16 September 2024.
 
-Calegari, Frank, Vesselin Dimitrov, and Yunqing Tang. 2025. *Arithmetic Holonomy Bounds and Effective Diophantine Approximation*. Preprint, arXiv:2510.04156v1. <https://arxiv.org/abs/2510.04156v1>.
+**[6]** Frank Calegari, Vesselin Dimitrov, and Yunqing Tang. Arithmetic holonomy bounds and effective Diophantine approximation. Preprint, arXiv:2510.04156v1, 2025. URL <https://arxiv.org/abs/2510.04156v1>. 5 October 2025.
 
-Descartes, René. 1637. “La géométrie.” In *Discours de La méthode*. Jan Maire. <https://www.unicaen.fr/puc/sources/prodescartes/consult/descartes/Oeuvres/Oeuvres_Descartes/discours_de_la_methode.xml/la_geometrie.html>.
+**[7]** René Descartes. La géométrie. In *Discours de la méthode*. Jan Maire, Leyde, 1637. URL <https://www.unicaen.fr/puc/sources/prodescartes/consult/descartes/Oeuvres/Oeuvres_Descartes/discours_de_la_methode.xml/la_geometrie.html>. Book III, p. 373.
 
-Eskandari, Payman. 2026. *Improved Rational Approximations to Catalan’s Constant*. Preprint, arXiv:2609.26354v1 \[math.NT\]. <https://arxiv.org/abs/2609.26354v1>.
+**[8]** Payman Eskandari. Improved rational approximations to Catalan’s constant. Preprint, arXiv:2609.26354v1 \[math.NT\], 2026. URL <https://arxiv.org/abs/2609.26354v1>. Submitted 22 September 2026.
 
-Fischler, Stéphane. 2020. “Irrationality of Values of $L$-Functions of Dirichlet Characters.” *Journal of the London Mathematical Society* 101 (2): 857–76. <https://doi.org/10.1112/jlms.12290>.
+**[9]** Stéphane Fischler. Irrationality of values of $L$-functions of Dirichlet characters. *Journal of the London Mathematical Society*, 101(2):857–876, 2020. doi: 10.1112/jlms.12290. URL <https://www.imo.universite-paris-saclay.fr/~stephane.fischler/Lschi.pdf>.
 
-Forrester, Peter J. 2018. *Meet Andréief, Bordeaux 1886, and Andreev, Kharkov 1882–83*. Preprint, arXiv:1806.10411v1. <https://arxiv.org/abs/1806.10411v1>.
+**[10]** Peter J. Forrester. Meet Andréief, Bordeaux 1886, and Andreev, Kharkov 1882–83. Preprint, arXiv:1806.10411v1, 2018. URL <https://arxiv.org/abs/1806.10411v1>.
 
-Garoufalidis, Stavros, and Ionel Popescu. 2013. “Analyticity of the Planar Limit of a Matrix Model.” *Annales Henri Poincaré* 14: 499–565. <https://doi.org/10.1007/s00023-012-0191-y>.
+**[11]** Stavros Garoufalidis and Ionel Popescu. Analyticity of the planar limit of a matrix model. *Annales Henri Poincaré*, 14:499–565, 2013. doi: 10.1007/s00023-012-0191-y. URL <https://doi.org/10.1007/s00023-012-0191-y>.
 
-Krattenthaler, Christian. 1999. “Advanced Determinant Calculus.” *Séminaire Lotharingien de Combinatoire* 42: B42q. <https://arxiv.org/abs/math/9902004v3>.
+**[12]** Christian Krattenthaler. Advanced determinant calculus. *Séminaire Lotharingien de Combinatoire*, 42:B42q, 1999. URL <https://arxiv.org/abs/math/9902004v3>. 67 pp.; arXiv:math/9902004v3.
 
-Krattenthaler, Christian, and Tanguy Rivoal. 2008. “On a Linear Form for Catalan’s Constant.” *South East Asian Journal of Mathematics and Mathematical Sciences* 6 (2): 3–15. <https://arxiv.org/abs/0810.1927v1>.
+**[13]** Christian Krattenthaler and Tanguy Rivoal. On a linear form for Catalan’s constant. *South East Asian Journal of Mathematics and Mathematical Sciences*, 6(2):3–15, 2008. URL <https://arxiv.org/abs/0810.1927v1>. Preprint arXiv:0810.1927v1.
 
-Krattenthaler, Christian, and Wadim Zudilin. 2019. “Hypergeometry Inspired by Irrationality Questions.” *Kyushu Journal of Mathematics* 73 (1): 189–203. <https://doi.org/10.2206/kyushujm.73.189>.
+**[14]** Christian Krattenthaler and Wadim Zudilin. Hypergeometry inspired by irrationality questions. *Kyushu Journal of Mathematics*, 73(1):189–203, 2019. doi: 10.2206/kyushujm.73.189. URL <https://arxiv.org/abs/1802.08856v2>. Preprint arXiv:1802.08856v2.
 
-Lai, Li, and Li Zhou. 2022. “At Least Two of $\zeta(5),\zeta(7),\ldots,\zeta(35)$ Are Irrational.” *Publicationes Mathematicae Debrecen* 101 (3–4): 353–72. <https://doi.org/10.5486/PMD.2022.9252>.
+**[15]** Li Lai and Li Zhou. At least two of $\zeta(5),\zeta(7),\ldots,\zeta(35)$ are irrational. *Publicationes Mathematicae Debrecen*, 101(3–4):353–372, 2022. doi: 10.5486/PMD.2022.9252. URL <https://arxiv.org/abs/2103.00904v2>. Preprint arXiv:2103.00904v2.
 
-National Institute of Standards and Technology. n.d. *Digital Library of Mathematical Functions, Section 18.5*. <https://dlmf.nist.gov/18.5>.
+**[16]** National Institute of Standards and Technology. Digital Library of Mathematical Functions, section 18.5, n.d. URL <https://dlmf.nist.gov/18.5>. Equations (18.5.1)–(18.5.2); accessed September 24, 2026.
 
-Nesterenko, Yu. V. 2016. “On Catalan’s Constant.” *Proceedings of the Steklov Institute of Mathematics* 292: 153–70. <https://doi.org/10.1134/S0081543816010107>.
+**[17]** Yu. V. Nesterenko. On Catalan’s constant. *Proceedings of the Steklov Institute of Mathematics*, 292:153–170, 2016. doi: 10.1134/S0081543816010107. URL <https://doi.org/10.1134/S0081543816010107>.
 
-Rivoal, Tanguy. 2006. “Nombres d’Euler, Approximants de Padé Et Constante de Catalan.” *The Ramanujan Journal* 11 (2): 199–214. <https://doi.org/10.1007/s11139-006-6507-0>.
+**[18]** Tanguy Rivoal. Nombres d’Euler, approximants de Padé et constante de Catalan. *The Ramanujan Journal*, 11(2):199–214, 2006. doi: 10.1007/s11139-006-6507-0. URL <https://rivoal.perso.math.cnrs.fr/articles/gnew6.pdf>.
 
-Rivoal, Tanguy, and Wadim Zudilin. 2003. “Diophantine Properties of Numbers Related to Catalan’s Constant.” *Mathematische Annalen* 326 (4): 705–21. <https://doi.org/10.1007/s00208-003-0420-2>.
+**[19]** Tanguy Rivoal and Wadim Zudilin. Diophantine properties of numbers related to Catalan’s constant. *Mathematische Annalen*, 326(4):705–721, 2003. doi: 10.1007/s00208-003-0420-2. URL <https://rivoal.perso.math.cnrs.fr/articles/betacatalan.pdf>.
 
-Saff, Edward B. 2010. “Logarithmic Potential Theory with Applications to Approximation Theory.” *Surveys in Approximation Theory* 5: 165–200. <https://arxiv.org/abs/1010.3760v1>.
+**[20]** Edward B. Saff. Logarithmic potential theory with applications to approximation theory. *Surveys in Approximation Theory*, 5:165–200, 2010. URL <https://arxiv.org/abs/1010.3760v1>. arXiv:1010.3760v1.
 
-Sarason, Donald. 1967. “Generalized Interpolation in $H^\infty$.” *Transactions of the American Mathematical Society* 127 (2): 179–203. <https://doi.org/10.1090/S0002-9947-1967-0208383-8>.
+**[21]** Donald Sarason. Generalized interpolation in $H^\infty$. *Transactions of the American Mathematical Society*, 127(2):179–203, 1967. doi: 10.1090/S0002-9947-1967-0208383-8. URL <https://doi.org/10.1090/S0002-9947-1967-0208383-8>.
 
-Sun, Zhi-Wei. 2026. *Catalan’s Constant Is Irrational*. Preprint, arXiv:2609.04176v1 \[math.GM\]. <https://arxiv.org/abs/2609.04176v1>.
+**[22]** Zhi-Wei Sun. Catalan’s constant is irrational. Preprint, arXiv:2609.04176v1 \[math.GM\], 2026. URL <https://arxiv.org/abs/2609.04176v1>. Submitted 3 September 2026.
 
-Viola, Carlo. 2022. “Rational Approximations to Catalan’s Constant.” *Oberwolfach Reports* 19 (2): 1100–1101. <https://doi.org/10.4171/OWR/2022/21>.
+**[23]** Carlo Viola. Rational approximations to Catalan’s constant. *Oberwolfach Reports*, 19(2):1100–1101, 2022. doi: 10.4171/OWR/2022/21. URL <https://ems.press/content/serial-article-files/46958>. Joint work with Raffaele Marcovecchio; contribution to Report 21/2022, Diophantische Approximationen.
 
-Voight, John. 2021. *Quaternion Algebras*. Vol. 288. Graduate Texts in Mathematics. Springer. <https://doi.org/10.1007/978-3-030-56694-4>.
+**[24]** John Voight. *Quaternion Algebras*, volume 288 of *Graduate Texts in Mathematics*. Springer, Cham, 2021. doi: 10.1007/978-3-030-56694-4. URL <https://link.springer.com/book/10.1007/978-3-030-56694-4>.
 
-Zagier, Don. 1997. “Newman’s Short Proof of the Prime Number Theorem.” *The American Mathematical Monthly* 104 (8): 705–8. <https://doi.org/10.2307/2975232>.
+**[25]** Don Zagier. Newman’s short proof of the prime number theorem. *The American Mathematical Monthly*, 104(8):705–708, 1997. doi: 10.2307/2975232. URL <https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2975232/fulltext.pdf>.
 
-Zudilin, Wadim. 2003. “An Apéry-Like Difference Equation for Catalan’s Constant.” *The Electronic Journal of Combinatorics* 10 (1): R14. <https://doi.org/10.37236/1707>.
+**[26]** Wadim Zudilin. An Apéry-like difference equation for Catalan’s constant. *The Electronic Journal of Combinatorics*, 10(1):R14, 2003. doi: 10.37236/1707. URL <https://arxiv.org/abs/math/0201024v3>. 10 pp.; preprint arXiv:math/0201024v3.
 
-Zudilin, Wadim. 2017. “A Determinantal Approach to Irrationality.” *Constructive Approximation* 45 (2): 301–10. <https://doi.org/10.1007/s00365-016-9333-7>.
+**[27]** Wadim Zudilin. A determinantal approach to irrationality. *Constructive Approximation*, 45(2):301–310, 2017. doi: 10.1007/s00365-016-9333-7. URL <https://arxiv.org/abs/1507.05697v2>. Preprint arXiv:1507.05697v2.
 
-Zudilin, Wadim. 2019. “Arithmetic of Catalan’s Constant and Its Relatives.” *Abhandlungen Aus Dem Mathematischen Seminar Der Universität Hamburg* 89 (1): 45–53. <https://doi.org/10.1007/s12188-019-00203-w>.
+**[28]** Wadim Zudilin. Arithmetic of Catalan’s constant and its relatives. *Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg*, 89(1):45–53, 2019. doi: 10.1007/s12188-019-00203-w. URL <https://arxiv.org/abs/1804.09922v2>. Preprint arXiv:1804.09922v2.

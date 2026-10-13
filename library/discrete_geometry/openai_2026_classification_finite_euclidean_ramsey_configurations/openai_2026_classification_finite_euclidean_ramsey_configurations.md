@@ -10,11 +10,11 @@ We classify finite Euclidean Ramsey configurations by a necessary and sufficient
 
 A finite nonempty set $A$ in a Euclidean space is *Ramsey* if, for every integer $r\ge2$, there is an integer $D\ge1$ such that every map $c:\mathbb R^D\to\{1,\ldots,r\}$ is constant on a congruent copy of $A$. Congruence means preservation of every pairwise distance, at the original scale. The coloring is an arbitrary function. In particular, no measurability or other regularity is assumed.
 
-Erdős, Graham, Montgomery, Rothschild, Spencer and Straus introduced Euclidean Ramsey theory and proved that every finite Ramsey set is spherical (Erdős et al. 1973, Theorem 13). Graham later conjectured that sphericity is also sufficient (Graham 1994). Major positive results established the Ramsey property for nondegenerate triangles and then all nondegenerate simplices, by Frankl and Rödl (Frankl and Rödl 1986, 1990); finite sets with a soluble transitive isometry group and cyclic trapezoids, by Kříž (Kříž 1991, 1992); and vertex sets of regular polytopes, by Cantwell (Cantwell 2007).
+Erdős, Graham, Montgomery, Rothschild, Spencer and Straus introduced Euclidean Ramsey theory and proved that every finite Ramsey set is spherical [4, Theorem 13]. Graham later conjectured that sphericity is also sufficient [7]. Major positive results established the Ramsey property for nondegenerate triangles and then all nondegenerate simplices, by Frankl and Rödl [5, 6]; finite sets with a soluble transitive isometry group and cyclic trapezoids, by Kříž [13, 14]; and vertex sets of regular polytopes, by Cantwell [2].
 
-Leader, Russell and Walters proposed a different characterization: a finite set is Ramsey exactly when it embeds in a finite transitive Euclidean set (Leader et al. 2012, Conjecture A). Transitivity means that the isometries of the finite set act transitively on its points. An isometric subset of such a set is called *subtransitive*. Their group-theoretic and Hales–Jewett formulations led to the Block Sets Conjecture; subsequent work studies the possible block sizes (Ivan et al. 2026a). The link with soluble symmetry has also expanded: Karamanlis embedded every simplex in a finite product of regular polygons (Karamanlis 2022), and Behague constructed soluble transitive extensions for many known Ramsey classes and further permutation configurations (Behague 2025). Ivan, Leader and Walters developed generalized-prism constructions, with Ramsey conclusions under a soluble symmetry hypothesis (Ivan et al. 2026b). Moore and, independently, Mirabi proved that adjoining a point outside the affine span of a Ramsey set preserves the Ramsey property (Moore 2026; Mirabi 2026). The affine-span restriction leaves the case of arbitrary coplanar circle points beyond this extension theorem.
+Leader, Russell and Walters proposed a different characterization: a finite set is Ramsey exactly when it embeds in a finite transitive Euclidean set [16, Conjecture A]. Transitivity means that the isometries of the finite set act transitively on its points. An isometric subset of such a set is called *subtransitive*. Their group-theoretic and Hales–Jewett formulations led to the Block Sets Conjecture; subsequent work studies the possible block sizes [10]. The link with soluble symmetry has also expanded: Karamanlis embedded every simplex in a finite product of regular polygons [12], and Behague constructed soluble transitive extensions for many known Ramsey classes and further permutation configurations [1]. Ivan, Leader and Walters developed generalized-prism constructions, with Ramsey conclusions under a soluble symmetry hypothesis [11]. Moore and, independently, Mirabi proved that adjoining a point outside the affine span of a Ramsey set preserves the Ramsey property [19, 18]. The affine-span restriction leaves the case of arbitrary coplanar circle points beyond this extension theorem.
 
-Pálvölgyi has recently given a seven-point circle configuration that is not Ramsey, disproving the spherical conjecture (Pálvölgyi 2026, Theorem 1). The appendix to that version also states that generic seven-point circle configurations are not Ramsey. Its author’s note announces a proof that all finite transitive sets are Ramsey and says that its exposition is still being prepared.[^1] Our main theorem gives a necessary and sufficient algebraic condition for an arbitrary finite Euclidean configuration.
+Pálvölgyi has recently given a seven-point circle configuration that is not Ramsey, disproving the spherical conjecture [20, Theorem 1]. The appendix to that version also states that generic seven-point circle configurations are not Ramsey. Its author’s note announces a proof that all finite transitive sets are Ramsey and says that its exposition is still being prepared.[^1] Our main theorem gives a necessary and sufficient algebraic condition for an arbitrary finite Euclidean configuration.
 
 ### The exact tensor criterion
 
@@ -35,9 +35,9 @@ The condition is independent of the chosen congruent representative in its affin
 
 Applying $m_F$ to the evaluation equations gives an ordinary sphere equation $$\|a_i\|^2+\ell\cdot a_i+c=0\qquad(1\le i\le s)$$ for some $\ell\in F^d$ and $c\in F$. The tensor condition requires the evaluation identities to hold before multiplication. This is the distinction between sphericity and the Ramsey property that the classification detects.
 
-Every subtransitive set satisfies the tensor condition. Another sufficient condition is that evaluation at the points of a spherical set gives independent functionals on the space of quadratic polynomials. It applies to every nonempty set of at most five points on a circle, and hence to every cyclic quadrilateral. In Corollary 7.5, we combine this result with the non-subtransitive cyclic kites of Leader, Russell and Walters (Leader et al. 2011, Corollary 2). Those kites are Ramsey, disproving the necessity direction of their proposed characterization and their non-Ramseyness conjecture for the same family (Leader et al. 2011, Conjecture 3).
+Every subtransitive set satisfies the tensor condition. Another sufficient condition is that evaluation at the points of a spherical set gives independent functionals on the space of quadratic polynomials. It applies to every nonempty set of at most five points on a circle, and hence to every cyclic quadrilateral. In Corollary 7.5, we combine this result with the non-subtransitive cyclic kites of Leader, Russell and Walters [15, Corollary 2]. Those kites are Ramsey, disproving the necessity direction of their proposed characterization and their non-Ramseyness conjecture for the same family [15, Conjecture 3].
 
-For negative examples, nine points obtained from algebraically independent real parameters in a rational parametrization of a circle fail the tensor condition. Pálvölgyi’s generic seven-point claim (Pálvölgyi 2026, Theorem A.3) already implies this non-Ramseyness conclusion; our determinant calculation illustrates how to apply the classification directly. We also give a tensor obstruction for a twelve-point configuration consisting of three rotated coordinate squares, using the same type of weighted derivation moments as his heptagon construction. These consequences are proved after the classification and require no further Ramsey construction.
+For negative examples, nine points obtained from algebraically independent real parameters in a rational parametrization of a circle fail the tensor condition. Pálvölgyi’s generic seven-point claim [20, Theorem A.3] already implies this non-Ramseyness conclusion; our determinant calculation illustrates how to apply the classification directly. We also give a tensor obstruction for a twelve-point configuration consisting of three rotated coordinate squares, using the same type of weighted derivation moments as his heptagon construction. These consequences are proved after the classification and require no further Ramsey construction.
 
 ### How the algebra forces a monochromatic copy
 
@@ -48,7 +48,7 @@ For sufficiency, the difficulty is to convert the tensor cancellations into a co
 First, the tensor determines signed rational multiplicities for a finite list of affine functions. At every point of $A$, the positive and negative multiplicities cancel separately at each evaluation value. A Gaussian construction, followed by discretization and rational approximation within a fixed convolution image, makes the negative gradient second moment small while retaining these cancellations exactly. The positive and negative multiplicities then give two lists of affine functions. Evaluating the lists at $a_i$ gives vectors $f_i,g_i$ with $$\|f_i-f_j\|^2=\|a_i-a_j\|^2,\qquad
  \|g_i-g_j\|^2=q\|a_i-a_j\|^2,$$ where $q>0$ can be arbitrarily small, and each $g_i$ is a coordinate permutation of $f_i$. Both the distances and the matching coordinate multisets are exact.
 
-Second, we associate a free-group generator to each real sequence with finite support. A *path* is an ordered product of $s$-tuples: each factor either records an ordered scaled copy of $A$ or has the same group element in every position. Its *endpoint* is the coordinatewise product, and its *weight* is the sum of the squared copy scales. We prove that equal endpoints with arbitrarily small weight ratios force the Ramsey property. The obstacle, familiar from the group and word methods of Leader, Russell and Walters (Leader et al. 2012, secs. 2–3), is the initially unknown number $t$ of variable positions in a Hales–Jewett line. After fixing the Hales–Jewett word length $n$, we prepare one endpoint at weights $1,1/2,\ldots,1/n$ before coloring the words. An ultrafilter construction then realizes the products by finite strings, keeping common factors identical. The $t$ variable positions give squared-distance multiplier $t(1/t)=1$. Compactness supplies a finite ambient dimension for each number of colors.
+Second, we associate a free-group generator to each real sequence with finite support. A *path* is an ordered product of $s$-tuples: each factor either records an ordered scaled copy of $A$ or has the same group element in every position. Its *endpoint* is the coordinatewise product, and its *weight* is the sum of the squared copy scales. We prove that equal endpoints with arbitrarily small weight ratios force the Ramsey property. The obstacle, familiar from the group and word methods of Leader, Russell and Walters [16, Sections 2–3], is the initially unknown number $t$ of variable positions in a Hales–Jewett line. After fixing the Hales–Jewett word length $n$, we prepare one endpoint at weights $1,1/2,\ldots,1/n$ before coloring the words. An ultrafilter construction then realizes the products by finite strings, keeping common factors identical. The $t$ variable positions give squared-distance multiplier $t(1/t)=1$. Compactness supplies a finite ambient dimension for each number of colors.
 
 Third, the permutation pairs from the first stage must be made to have equal path endpoints. Permutation averaging puts the discrepancies between their group entries in a subgroup whose elements can be corrected by appending paths of unit-scale copies. Further averaging makes the total correction weight small relative to the larger original weight. Appending these corrections produces the equal endpoints and arbitrarily small weight ratios required in the second stage.
 
@@ -86,7 +86,7 @@ For the converse, we show that extending the coefficient ring from $B$ to $\math
 *Remark 2.3*. The tensor condition is directly invariant under congruence. If $a_i'=Qa_i+t$ with $Q\in O(d)$, the invertible $\mathbb Q$-linear map $$H:W\longrightarrow W,\qquad
  H(v,u)=(v-t\cdot Qu,Qu)$$ satisfies $e_i'\circ H=e_i$ and $G((H\otimes H)T)=QG(T)Q^{\mathsf T}$. It therefore carries certificates for $A$ to certificates for $A'$; the inverse congruence gives the converse. Reordering labels merely reorders the equations. Any two congruent representatives in their affine dimension are related by such a map, so Proposition 2.1 also proves representative independence for the matrix criterion, even when their coordinate fields differ.
 
-We next prove the necessary direction of the classification. Failure of (3) gives an algebraic functional, and its values provide a fixed finite coloring that works in every ambient dimension. The invariant-and-coloring strategy goes back to Erdős et al. (Erdős et al. 1973, Theorem 13 and Lemma 15); here rational tensor separation supplies the invariant, and the modular coloring is proved directly. Their real-variable coloring lemma extends Rado’s work on partition regularity (Rado 1945).
+We next prove the necessary direction of the classification. Failure of (3) gives an algebraic functional, and its values provide a fixed finite coloring that works in every ambient dimension. The invariant-and-coloring strategy goes back to Erdős et al. [4, Theorem 13 and Lemma 15]; here rational tensor separation supplies the invariant, and the modular coloring is proved directly. Their real-variable coloring lemma extends Rado’s work on partition regularity [21].
 
 **Proposition 2.4**. *If (3) has no solution, then there is an integer $r_0\geq2$ such that every $\mathbb R^D$ admits an $r_0$-coloring with no monochromatic congruent copy of $A$. In particular, every Euclidean Ramsey set satisfies the matrix condition of Theorem 1.1.*
 
@@ -149,7 +149,7 @@ We will find a Laurent polynomial in every $J_i$ with prescribed terms through d
 
 Consider the quadratic polynomial $$Q_2(Y)=\tfrac12Y^{\mathsf T}CY.$$ Identify $\mathbb Q[Y_1,\ldots,Y_k]$ with the symmetric algebra of $\mathbb Q^k$ by sending $\varepsilon_j$ to $Y_j$. The map to the symmetric algebra of $\mathbb Q^k/V_i$ has kernel generated by $V_i$ in degree one. This follows, for example, by extending a basis of $V_i$ to a basis of $\mathbb Q^k$. The tensor hypothesis therefore puts $Q_2$ in the ideal generated by the linear forms $h\cdot Y$, $h\in\Lambda_i$. By (11), $Q_2\in J_i\widehat R$ for every $i$.
 
-The ring $R$ is Noetherian, being a localization of a polynomial ring over $\mathbb Q$. Its $\mathfrak m$-adic completion is therefore flat over $R$ (The Stacks Project Authors 2026, Lemma 10.97.2, Tag 00MB). If $I=\bigcap_{i=1}^sJ_i$, the injection $$R/I\longrightarrow\bigoplus_{i=1}^sR/J_i$$ remains injective after tensoring with $\widehat R$. Consequently $$I\widehat R=\bigcap_{i=1}^sJ_i\widehat R,$$ and $Q_2\in I\widehat R$.
+The ring $R$ is Noetherian, being a localization of a polynomial ring over $\mathbb Q$. Its $\mathfrak m$-adic completion is therefore flat over $R$ [23, Lemma 10.97.2, Tag 00MB]. If $I=\bigcap_{i=1}^sJ_i$, the injection $$R/I\longrightarrow\bigoplus_{i=1}^sR/J_i$$ remains injective after tensoring with $\widehat R$. Consequently $$I\widehat R=\bigcap_{i=1}^sJ_i\widehat R,$$ and $Q_2\in I\widehat R$.
 
 We now recover a finite Laurent polynomial while retaining exact membership in $I$. Write $$Q_2=\sum_{a=1}^N f_a\alpha_a,
  \qquad f_a\in I,\quad\alpha_a\in\widehat R,$$ as a finite sum. For each $a$, truncate the formal $Z$-expansion of $\alpha_a$ through degree two to obtain $b_a\in R$ with $b_a-\alpha_a\in\mathfrak m^3\widehat R$. Then $f=\sum_af_ab_a\in I$ and $$f(e^{Y_1},\ldots,e^{Y_k})
@@ -278,7 +278,7 @@ We prove the proposition in three steps. We first reduce to colorings of $\mathc
 
 ### Finite dimensions and synchronized weights
 
-The following finite-dimensional reduction is the compactness principle used in Euclidean Ramsey theory; compare (Erdős et al. 1973, Proposition 4). We include its proof for arbitrary colorings.
+The following finite-dimensional reduction is the compactness principle used in Euclidean Ramsey theory; compare [4, Proposition 4]. We include its proof for arbitrary colorings.
 
 **Lemma 5.2**. *Fix an integer $r\ge2$. If every $r$-coloring of $\mathcal E$ contains a monochromatic congruent copy of $A$, then the same holds for every $r$-coloring of $\mathbb R^D$, for some finite $D$.*
 
@@ -300,7 +300,7 @@ Let $\mathcal S$ be the monoid of finite strings on the alphabet $\mathcal E$, w
 =\sum_{j=1}^L\|z_j-z'_j\|^2.
 \end{equation}$$ Thus we seek a realization in which each copy factor supplies its prescribed one-letter strings, while each diagonal factor supplies one common string in all $s$ roles. Common strings will contribute zero to the squared distances; the remaining contribution will be the path weight times the corresponding squared distance in $A$. Diagonal factors may contain group inverses, so they cannot in general be evaluated directly in the string monoid. We instead map $K$ into a group of ultrafilters on $\mathcal S$ and then realize its common factors by common strings.
 
-The following standard construction fixes the multiplication convention; see (Hindman and Strauss 1998, Theorem 2.5, Corollary 2.6, and Theorem 1.42). The classical idempotent argument also appears in Ellis’s semigroup lemma (Ellis 1958, Lemma 1); taking the opposite semigroup matches the one-sided continuity convention used here.
+The following standard construction fixes the multiplication convention; see [9, Theorem 2.5, Corollary 2.6, and Theorem 1.42]. The classical idempotent argument also appears in Ellis’s semigroup lemma [3, Lemma 1]; taking the opposite semigroup matches the one-sided continuity convention used here.
 
 An ultrafilter on $\mathcal S$ is a maximal proper filter of subsets of $\mathcal S$. Write $\beta\mathcal S$ for the space of all such ultrafilters. For $B\subseteq\mathcal S$, its basic clopen set is $$\overline B=\{u\in\beta\mathcal S:B\in u\}.$$ This space is compact and Hausdorff: the ultrafilter conditions define a closed subset of $\{0,1\}^{\mathcal P(\mathcal S)}$. For a string $x$, put $x^{-1}B=\{y\in\mathcal S:xy\in B\}$; this notation denotes a preimage under concatenation, not a string inverse. Define the product of ultrafilters by $$\begin{equation}
 \tag{20}
@@ -338,9 +338,9 @@ We now have both ingredients for the word construction: a group in which the pat
 
 ### The Hales–Jewett step
 
-*Proof of Proposition 5.1.* Fix $r\ge2$ and an arbitrary coloring $c:\mathcal E\to\{1,\ldots,r\}$. Choose $n$ such that every $r$-coloring of $\{1,\ldots,s\}^n$ has a monochromatic combinatorial line, by the Hales–Jewett theorem (Hales and Jewett 1963); see also Shelah’s proof and primitive-recursive bound (Shelah 1988, 686 and Section 1). We use only existence of the length. Such a line has a nonempty set of variable positions, occupied by one common letter, and fixed letters in all other positions.
+*Proof of Proposition 5.1.* Fix $r\ge2$ and an arbitrary coloring $c:\mathcal E\to\{1,\ldots,r\}$. Choose $n$ such that every $r$-coloring of $\{1,\ldots,s\}^n$ has a monochromatic combinatorial line, by the Hales–Jewett theorem [8]; see also Shelah’s proof and primitive-recursive bound [22, p. 686 and Section 1]. We use only existence of the length. Such a line has a nonempty set of variable positions, occupied by one common letter, and fixed letters in all other positions.
 
-In the group formulation of Leader, Russell and Walters (Leader et al. 2012, Conjecture C and the following discussion), the number of varying positions is prescribed before coloring; without that restriction, ordinary Hales–Jewett applies. Here we allow the line to choose that number and prepare all the required path weights in advance. The hypothesis and Lemma 5.3 give an endpoint $w=(w_1,\ldots,w_s)\in K^s$ and a path of weight $1/t$ ending at $w$ for every $1\le t\le n$.
+In the group formulation of Leader, Russell and Walters [16, Conjecture C and the following discussion], the number of varying positions is prescribed before coloring; without that restriction, ordinary Hales–Jewett applies. Here we allow the line to choose that number and prepare all the required path weights in advance. The hypothesis and Lemma 5.3 give an endpoint $w=(w_1,\ldots,w_s)\in K^s$ and a path of weight $1/t$ ending at $w$ for every $1\le t\le n$.
 
 Color $\mathcal S$ by $c\circ\Phi$, and write its color classes as $B_1,\ldots,B_r$.
 
@@ -505,7 +505,7 @@ Quadratic interpolation gives another source of tensor certificates. The row-ind
 
 Let $D\in\operatorname{Mat}_{s\times N}(B)$ be the tensor evaluation matrix, whose entry in row $i$ and column $(\alpha,\beta)$ is $p_{i\alpha}\otimes p_{i\beta}$. Lift $h$ to $b\in B^N$ by applying $x\mapsto x\otimes1$ entrywise. The assumed row independence allows us to select $s$ columns of $D$ whose square submatrix $M$ has $$\delta=m_F(\det M)\ne0.$$ Let $\iota:B^s\to B^N$ insert a vector into these selected coordinates, so that $D\iota=M$. Multiplying by $\det M$ allows us to cancel the tensor evaluation error $Db$ through the selected columns: the adjugate identity gives $$z=(\det M)b-\iota\operatorname{adj}(M)Db\in\ker D.$$ Since $m_F(D)h=0$, multiplication gives $m_F(z)=\delta h$. Multiplying $z$ by $\delta^{-1}\otimes1$ therefore produces a solution of the criterion in Theorem 1.1. This argument does not require $\det M$ to be a unit of $B$. ◻
 
-For at most five circle points, products of two line equations supply the required interpolation. The same observation appears in Pálvölgyi’s analysis of derivation obstructions (Pálvölgyi 2026, proof of Theorem A.2).
+For at most five circle points, products of two line equations supply the required interpolation. The same observation appears in Pálvölgyi’s analysis of derivation obstructions [20, proof of Theorem A.2].
 
 **Corollary 7.4**. *Every nonempty set of at most five distinct points on a circle is Ramsey. In particular, every cyclic quadrilateral is Ramsey.*
 
@@ -514,13 +514,13 @@ For at most five circle points, products of two line equations supply the requir
 **Corollary 7.5**. *For every transcendental $a\in(-1,1)$, the cyclic quadrilateral $$K_a=\bigl\{(-1,0),(1,0),
              (a,\sqrt{1-a^2}),(a,-\sqrt{1-a^2})\bigr\}$$ is Ramsey and is not subtransitive.*
 
-*Proof.* The four points are distinct and lie on the unit circle, so Corollary 7.4 makes $K_a$ Ramsey. Leader, Russell and Walters proved that $K_a$ does not embed in any finite transitive Euclidean set (Leader et al. 2011, Corollary 2). ◻
+*Proof.* The four points are distinct and lie on the unit circle, so Corollary 7.4 makes $K_a$ Ramsey. Leader, Russell and Walters proved that $K_a$ does not embed in any finite transitive Euclidean set [15, Corollary 2]. ◻
 
-Thus the necessity direction of the Leader–Russell–Walters subtransitive characterization fails (Leader et al. 2012, Conjecture A). The same family also disproves their conjecture that these kites are not Ramsey (Leader et al. 2011, Conjecture 3).
+Thus the necessity direction of the Leader–Russell–Walters subtransitive characterization fails [16, Conjecture A]. The same family also disproves their conjecture that these kites are not Ramsey [15, Conjecture 3].
 
 ### Nine points on a circle
 
-The tensor equations can have full rank even when their multiplied versions admit a sphere equation. The following determinant calculation illustrates this distinction. Pálvölgyi’s earlier generic-seven-point claim (Pálvölgyi 2026, Theorem A.3) already implies its non-Ramsey conclusion by taking a subset; the source labels its appendix as unchecked. We give a direct proof from the tensor criterion.
+The tensor equations can have full rank even when their multiplied versions admit a sphere equation. The following determinant calculation illustrates this distinction. Pálvölgyi’s earlier generic-seven-point claim [20, Theorem A.3] already implies its non-Ramsey conclusion by taking a subset; the source labels its appendix as unchecked. We give a direct proof from the tensor criterion.
 
 **Proposition 7.6**. *Let $t_1,\ldots,t_9$ be algebraically independent real numbers over $\mathbb Q$. The nine points $$a_i=\left(\frac{1-t_i^2}{1+t_i^2},
                 \frac{2t_i}{1+t_i^2}\right),\qquad 1\le i\le9,$$ form a spherical set that is not Ramsey.*
@@ -534,7 +534,7 @@ Thus the only solution of $D\,\operatorname{vec}(P)=0$ over the fraction field i
 
 ### Three concentric squares
 
-A second example uses only one transcendental parameter. It also shows how a derivation can detect the failure of the tensor equations directly inside the coordinate field. Its weighted cancellation is related to the derivation obstruction in Pálvölgyi’s smaller circular example (Pálvölgyi 2026, Theorem 1); the calculation below is independent of that proof. The parameter is Liouville’s constant (Liouville 1851).
+A second example uses only one transcendental parameter. It also shows how a derivation can detect the failure of the tensor equations directly inside the coordinate field. Its weighted cancellation is related to the derivation obstruction in Pálvölgyi’s smaller circular example [20, Theorem 1]; the calculation below is independent of that proof. The parameter is Liouville’s constant [17].
 
 **Proposition 7.7**. *Set $$t=\sum_{m=1}^{\infty}10^{-m!},\qquad
  u=\frac{1-t^2}{1+t^2},\qquad v=\frac{2t}{1+t^2},
@@ -563,50 +563,50 @@ A matrix satisfying the classification criterion would make the left side zero a
 
 ## References
 
-Behague, Natalie. 2025. “Nearly All Known Euclidean Ramsey Sets Are Subsoluble.” *arXiv Preprint arXiv:2510.15677*, ahead of print. <https://doi.org/10.48550/arXiv.2510.15677>.
+**[1]** Natalie Behague. Nearly all known Euclidean Ramsey sets are subsoluble. *arXiv preprint arXiv:2510.15677*, 2025. Version 3, 4 December 2025.
 
-Cantwell, Kristal. 2007. “All Regular Polytopes Are Ramsey.” *Journal of Combinatorial Theory, Series A* 114 (3): 555–62. <https://doi.org/10.1016/j.jcta.2006.08.001>.
+**[2]** Kristal Cantwell. All regular polytopes are Ramsey. *Journal of Combinatorial Theory, Series A*, 114(3):555–562, 2007.
 
-Ellis, Robert. 1958. “Distal Transformation Groups.” *Pacific Journal of Mathematics* 8 (3): 401–5. <https://doi.org/10.2140/pjm.1958.8.401>.
+**[3]** Robert Ellis. Distal transformation groups. *Pacific Journal of Mathematics*, 8(3):401–405, 1958.
 
-Erdős, Paul, Ronald L. Graham, Peter Montgomery, Bruce L. Rothschild, Joel Spencer, and Ernst G. Straus. 1973. “Euclidean Ramsey Theorems. I.” *Journal of Combinatorial Theory, Series A* 14 (3): 341–63. <https://doi.org/10.1016/0097-3165(73)90011-3>.
+**[4]** Paul Erdős, Ronald L. Graham, Peter Montgomery, Bruce L. Rothschild, Joel Spencer, and Ernst G. Straus. Euclidean Ramsey theorems. I. *Journal of Combinatorial Theory, Series A*, 14(3):341–363, 1973.
 
-Frankl, Peter, and Vojtěch Rödl. 1986. “All Triangles Are Ramsey.” *Transactions of the American Mathematical Society* 297 (2): 777–79. <https://doi.org/10.1090/S0002-9947-1986-0854099-6>.
+**[5]** Peter Frankl and Vojtěch Rödl. All triangles are Ramsey. *Transactions of the American Mathematical Society*, 297(2):777–779, 1986.
 
-Frankl, Peter, and Vojtěch Rödl. 1990. “A Partition Property of Simplices in Euclidean Space.” *Journal of the American Mathematical Society* 3 (1): 1–7. <https://doi.org/10.1090/S0894-0347-1990-1020148-2>.
+**[6]** Peter Frankl and Vojtěch Rödl. A partition property of simplices in Euclidean space. *Journal of the American Mathematical Society*, 3(1):1–7, 1990.
 
-Graham, Ronald L. 1994. “Recent Trends in Euclidean Ramsey Theory.” *Discrete Mathematics* 136 (1–3): 119–27. <https://doi.org/10.1016/0012-365X(94)00110-5>.
+**[7]** Ronald L. Graham. Recent trends in Euclidean Ramsey theory. *Discrete Mathematics*, 136(1–3):119–127, 1994.
 
-Hales, A. W., and R. I. Jewett. 1963. “Regularity and Positional Games.” *Transactions of the American Mathematical Society* 106 (2): 222–29. <https://doi.org/10.1090/S0002-9947-1963-0143712-1>.
+**[8]** A. W. Hales and R. I. Jewett. Regularity and positional games. *Transactions of the American Mathematical Society*, 106(2):222–229, 1963.
 
-Hindman, Neil, and Dona Strauss. 1998. *Algebra in the Stone–Čech Compactification: Theory and Applications*. Vol. 27. De Gruyter Expositions in Mathematics. Walter de Gruyter. <https://doi.org/10.1515/9783110809220>.
+**[9]** Neil Hindman and Dona Strauss. *Algebra in the Stone–Čech Compactification: Theory and Applications*, volume 27 of *de Gruyter Expositions in Mathematics*. Walter de Gruyter, Berlin and New York, 1998.
 
-Ivan, Maria-Romina, Imre Leader, and Mark Walters. 2026a. “Block Sizes in the Block Sets Conjecture.” *Forum of Mathematics, Sigma* 14: e67. <https://doi.org/10.1017/fms.2026.10212>.
+**[10]** Maria-Romina Ivan, Imre Leader, and Mark Walters. Block sizes in the block sets conjecture. *Forum of Mathematics, Sigma*, 14:e67, 2026.
 
-Ivan, Maria-Romina, Imre Leader, and Mark Walters. 2026b. “Generalised Prisms and Euclidean Ramsey Theory.” *arXiv Preprint arXiv:2606.13472*, ahead of print. <https://doi.org/10.48550/arXiv.2606.13472>.
+**[11]** Maria-Romina Ivan, Imre Leader, and Mark Walters. Generalised prisms and Euclidean Ramsey theory. *arXiv preprint arXiv:2606.13472*, 2026. Version 1, 11 June 2026.
 
-Karamanlis, Miltiadis. 2022. “Simplices and Regular Polygonal Tori in Euclidean Ramsey Theory.” *The Electronic Journal of Combinatorics* 29 (3): Paper No. 3.66. <https://doi.org/10.37236/10944>.
+**[12]** Miltiadis Karamanlis. Simplices and regular polygonal tori in Euclidean Ramsey theory. *The Electronic Journal of Combinatorics*, 29(3):Paper No. 3.66, 2022.
 
-Kříž, Igor. 1991. “Permutation Groups in Euclidean Ramsey Theory.” *Proceedings of the American Mathematical Society* 112 (3): 899–907. <https://doi.org/10.1090/S0002-9939-1991-1065087-9>.
+**[13]** Igor Kříž. Permutation groups in Euclidean Ramsey theory. *Proceedings of the American Mathematical Society*, 112(3):899–907, 1991.
 
-Kříž, Igor. 1992. “All Trapezoids Are Ramsey.” *Discrete Mathematics* 108 (1–3): 59–62. <https://doi.org/10.1016/0012-365X(92)90660-8>.
+**[14]** Igor Kříž. All trapezoids are Ramsey. *Discrete Mathematics*, 108(1–3):59–62, 1992.
 
-Leader, Imre, Paul A. Russell, and Mark Walters. 2011. “Transitive Sets and Cyclic Quadrilaterals.” *Journal of Combinatorics* 2 (3): 457–62. <https://doi.org/10.4310/JOC.2011.v2.n3.a6>.
+**[15]** Imre Leader, Paul A. Russell, and Mark Walters. Transitive sets and cyclic quadrilaterals. *Journal of Combinatorics*, 2(3):457–462, 2011.
 
-Leader, Imre, Paul A. Russell, and Mark Walters. 2012. “Transitive Sets in Euclidean Ramsey Theory.” *Journal of Combinatorial Theory, Series A* 119 (2): 382–96. <https://doi.org/10.1016/j.jcta.2011.09.005>.
+**[16]** Imre Leader, Paul A. Russell, and Mark Walters. Transitive sets in Euclidean Ramsey theory. *Journal of Combinatorial Theory, Series A*, 119(2):382–396, 2012.
 
-Liouville, Joseph. 1851. “Sur Des Classes Très-Étendues de Quantités Dont La Valeur n’est Ni Algébrique, Ni Même Réductible à Des Irrationnelles Algébriques.” *Journal de Mathématiques Pures Et Appliquées*, 1st series, vol. 16: 133–42. <https://www.numdam.org/item/JMPA_1851_1_16__133_0/>.
+**[17]** Joseph Liouville. Sur des classes très-étendues de quantités dont la valeur n’est ni algébrique, ni même réductible à des irrationnelles algébriques. *Journal de Mathématiques Pures et Appliquées*, 16:133–142, 1851.
 
-Mirabi, Mostafa. 2026. “One-Point Extensions of Euclidean Ramsey Sets.” *arXiv Preprint arXiv:2608.11736*, ahead of print. <https://doi.org/10.48550/arXiv.2608.11736>.
+**[18]** Mostafa Mirabi. One-point extensions of Euclidean Ramsey sets. *arXiv preprint arXiv:2608.11736*, 2026. Version 1, 12 August 2026.
 
-Moore, Kenneth. 2026. “A Pyramid with a Ramsey Base Is Ramsey.” *arXiv Preprint arXiv:2608.09649*, ahead of print. <https://doi.org/10.48550/arXiv.2608.09649>.
+**[19]** Kenneth Moore. A pyramid with a Ramsey base is Ramsey. *arXiv preprint arXiv:2608.09649*, 2026. Version 1, 10 August 2026.
 
-Pálvölgyi, Dömötör. 2026. “A Cyclic Non-Ramsey Heptagon.” *arXiv Preprint arXiv:2609.23327*. <https://arxiv.org/abs/2609.23327v1>.
+**[20]** Dömötör Pálvölgyi. A cyclic non-Ramsey heptagon. *arXiv preprint arXiv:2609.23327*, 2026. Version 1, 20 September 2026.
 
-Rado, Richard. 1945. “Note on Combinatorial Analysis.” *Proceedings of the London Mathematical Society*, 2nd series, vol. 48: 122–60. <https://doi.org/10.1112/plms/s2-48.1.122>.
+**[21]** Richard Rado. Note on combinatorial analysis. *Proceedings of the London Mathematical Society*, 48:122–160, 1945.
 
-Shelah, Saharon. 1988. “Primitive Recursive Bounds for van Der Waerden Numbers.” *Journal of the American Mathematical Society* 1 (3): 683–97. <https://doi.org/10.2307/1990952>.
+**[22]** Saharon Shelah. Primitive recursive bounds for van der Waerden numbers. *Journal of the American Mathematical Society*, 1(3):683–697, 1988.
 
-The Stacks Project Authors. 2026. *The Stacks Project*. <https://stacks.math.columbia.edu/tag/00MB>.
+**[23]** The Stacks Project Authors. The Stacks project, 2026. Lemma 10.97.2, Tag 00MB; accessed 23 September 2026.
 
 [^1]: Pálvölgyi attributes the writing, proofs, and ideas in that manuscript to ChatGPT. He labels the additional appendix claims as unchecked by him.

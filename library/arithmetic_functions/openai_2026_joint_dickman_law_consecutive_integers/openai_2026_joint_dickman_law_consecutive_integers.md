@@ -9,7 +9,7 @@ Let $P^+(n)$ denote the largest prime factor of $n$. We prove that $\log P^+(n)/
 ## Introduction
 
 For an integer $n\geq2$, let $P^+(n)$ denote its largest prime divisor, and put $P^+(1)=1$. The Dickman–de Bruijn function $\rho$ is the continuous function on $[0,\infty)$ determined by $$\rho(u)=1\quad(0\leq u\leq1),\qquad
- u\rho'(u)=-\rho(u-1)\quad(u>1).$$ The classical theory of smooth numbers, beginning with Dickman and developed by Ramaswami and de Bruijn (Dickman 1930; Ramaswami 1949; de Bruijn 1951), gives $$\frac1X\#\{n\leq X:P^+(n)\leq X^a\}
+ u\rho'(u)=-\rho(u-1)\quad(u>1).$$ The classical theory of smooth numbers, beginning with Dickman and developed by Ramaswami and de Bruijn [4, 6, 22], gives $$\frac1X\#\{n\leq X:P^+(n)\leq X^a\}
  \longrightarrow \rho(1/a)\qquad(0<a\leq1).$$ Our result identifies the joint law at two consecutive integers.
 
 **Theorem 1.1** (Joint Dickman law). *For every fixed $a,b\in(0,1)$, $$\lim_{X\to\infty}\frac1X
@@ -17,7 +17,7 @@ For an integer $n\geq2$, let $P^+(n)$ denote its largest prime divisor, and put 
                          \ P^+(n+1)\leq n^b\}
  =\rho(1/a)\rho(1/b).$$ Here the limit is taken over all real $X$, with ordinary, unweighted counting.*
 
-Thus $\log P^+(n)/\log n$ and $\log P^+(n+1)/\log n$ have, in natural density, independent limiting distributions with distribution function $a\mapsto\rho(1/a)$, continuously extended to $[0,1]$. Section 11 proves the corresponding law with fixed thresholds $X^a,X^b$, derives the displayed moving-threshold statement, and identifies this continuous limiting law. Inclusion–exclusion using the fixed-threshold law and its marginals gives the upper-tail independence conjecture of Erdős and Pomerance (Erdős and Pomerance 1978, 311).
+Thus $\log P^+(n)/\log n$ and $\log P^+(n+1)/\log n$ have, in natural density, independent limiting distributions with distribution function $a\mapsto\rho(1/a)$, continuously extended to $[0,1]$. Section 11 proves the corresponding law with fixed thresholds $X^a,X^b$, derives the displayed moving-threshold statement, and identifies this continuous limiting law. Inclusion–exclusion using the fixed-threshold law and its marginals gives the upper-tail independence conjecture of Erdős and Pomerance [7, p. 311].
 
 The comparison conjecture usually attributed to Erdős and Turán is a consequence, rather than a separate main theorem.
 
@@ -28,11 +28,11 @@ The limiting marginal is continuous, so its product measure gives zero mass to t
 
 ### Previous work
 
-Erdős and Pomerance (Erdős and Pomerance 1978) formulated the joint independence problem and proved that each ordering has positive lower natural density. Their explicit lower bound was $0.0099$. They also proved that for every $\varepsilon>0$, some $\delta>0$ makes the number of integers $n<X$ satisfying $X^{-\delta}<P^+(n)/P^+(n+1)<X^\delta$ less than $\varepsilon X$ for all sufficiently large $X$ (Erdős and Pomerance 1978, Theorem 1). The lower-density bound was increased to $0.05544$ by de la Bretèche, Pomerance and Tenenbaum (de la Bretèche et al. 2005, sec. 3), and to $0.05866$ by an observation of Fouvry recorded in the same section. Wang (Wang 2017, 2018) obtained $0.1063$ and $0.1356$, and Lü and Wang (Lü and Wang 2025) obtained $0.2017$. Yang’s recent preprint (Yang 2026, Theorem 1.4) gives $0.280$ for both orderings. These are bounds on lower natural densities; they do not assert that a natural density exists.
+Erdős and Pomerance [7] formulated the joint independence problem and proved that each ordering has positive lower natural density. Their explicit lower bound was $0.0099$. They also proved that for every $\varepsilon>0$, some $\delta>0$ makes the number of integers $n<X$ satisfying $X^{-\delta}<P^+(n)/P^+(n+1)<X^\delta$ less than $\varepsilon X$ for all sufficiently large $X$ [7, Theorem 1]. The lower-density bound was increased to $0.05544$ by de la Bretèche, Pomerance and Tenenbaum [5, Section 3], and to $0.05866$ by an observation of Fouvry recorded in the same section. Wang [27, 28] obtained $0.1063$ and $0.1356$, and Lü and Wang [15] obtained $0.2017$. Yang’s recent preprint [30, Theorem 1.4] gives $0.280$ for both orderings. These are bounds on lower natural densities; they do not assert that a natural density exists.
 
-For the joint law itself, Teräväinen (Teräväinen 2018, Theorem 1.14) proved the predicted product in logarithmic density. That is, for fixed $0<a,b<1$, the indicator in Theorem 1.1, averaged with weight $1/n$ and normalization $1/\log X$, tends to $\rho(1/a)\rho(1/b)$. His Theorem 1.16 gives logarithmic density $1/2$ for the ordering, while Theorem 1.19 proves positive lower natural density for every nondegenerate rectangle of normalized largest-prime-factor values inside $(0,1)^2$. Tao and Teräväinen (Tao and Teräväinen 2019, Remark 3.3, equation (50)) then obtained the joint product law for ordinary averages outside an exceptional set of scales of logarithmic density zero; their Corollary 1.16 gives the corresponding ordering result. Wang (Wang 2021) proved the ordinary joint law under the Elliott–Halberstam conjecture for friable integers. Jiang, Lü and Wang (Jiang et al. 2022) established averaged-over-shift forms of the conjectures, a different conclusion from a result at the fixed shift one.
+For the joint law itself, Teräväinen [26, Theorem 1.14] proved the predicted product in logarithmic density. That is, for fixed $0<a,b<1$, the indicator in Theorem 1.1, averaged with weight $1/n$ and normalization $1/\log X$, tends to $\rho(1/a)\rho(1/b)$. His Theorem 1.16 gives logarithmic density $1/2$ for the ordering, while Theorem 1.19 proves positive lower natural density for every nondegenerate rectangle of normalized largest-prime-factor values inside $(0,1)^2$. Tao and Teräväinen [24, Remark 3.3, equation (50)] then obtained the joint product law for ordinary averages outside an exceptional set of scales of logarithmic density zero; their Corollary 1.16 gives the corresponding ordering result. Wang [29] proved the ordinary joint law under the Elliott–Halberstam conjecture for friable integers. Jiang, Lü and Wang [13] established averaged-over-shift forms of the conjectures, a different conclusion from a result at the fixed shift one.
 
-The more recent work of Tao and Teräväinen (Tao and Teräväinen 2026, Theorem 1.8) gives a quantitative joint law outside an exceptional set of scales, with uniformity in the smoothness parameters and a power saving in $\log X$. Theorem 1.1 concerns fixed parameters and has no exceptional scales; it does not assert their quantitative error term or their uniformity for growing parameters. Relative to the results just described, the distinction is therefore the unconditional ordinary limit at every sufficiently large scale, not a new marginal distribution or a logarithmically averaged independence statement.
+The more recent work of Tao and Teräväinen [25, Theorem 1.8] gives a quantitative joint law outside an exceptional set of scales, with uniformity in the smoothness parameters and a power saving in $\log X$. Theorem 1.1 concerns fixed parameters and has no exceptional scales; it does not assert their quantitative error term or their uniformity for growing parameters. Relative to the results just described, the distinction is therefore the unconditional ordinary limit at every sufficiently large scale, not a new marginal distribution or a logarithmically averaged independence statement.
 
 ### Method and organization
 
@@ -45,7 +45,7 @@ Two properties of these functions connect the beginning and end of the proof. Fi
    \sum_{\substack{i\in I_B\\i\equiv r\pmod D}}
      F_x(n+i)G_{B,v}(n+i)\right|^2=0.$$ At fixed $B$ the shift interval is short relative to $x$, while the base points have size $Tx$. This is the scale produced by the divisor substitution below.
 
-The centered function $F_x$ is not multiplicative. On the relevant ranges $n=O_B(x)$, the bin counts take values in a fixed finite set. This permits interpolation by a fixed finite family of real, nonnegative multiplicative functions. After resolving the residue condition by Dirichlet characters, the real short-interval theorem of Matomäki and Radziwiłł (Matomäki and Radziwiłł 2016, Theorem 1) compares the principal components with long means whose centered combination vanishes. The complex theorem of Matomäki, Radziwiłł and Tao (Matomäki et al. 2015, Theorem A.1, corrected version) controls the nonprincipal twists. The rest of the proof must reduce the mixed correlation to this particular cancellation statement.
+The centered function $F_x$ is not multiplicative. On the relevant ranges $n=O_B(x)$, the bin counts take values in a fixed finite set. This permits interpolation by a fixed finite family of real, nonnegative multiplicative functions. After resolving the residue condition by Dirichlet characters, the real short-interval theorem of Matomäki and Radziwiłł [16, Theorem 1] compares the principal components with long means whose centered combination vanishes. The complex theorem of Matomäki, Radziwiłł and Tao [17, Theorem A.1, corrected version] controls the nonprincipal twists. The rest of the proof must reduce the mixed correlation to this particular cancellation statement.
 
 Suppose, then, that the mixed correlation stays nonzero along a sequence of scales. The profinite integers $\widehat{\mathbb Z}$ encode compatible residue classes modulo all positive integers and carry Haar probability measure. Passing to a subsequence gives a bounded profile $W(t,w)$ on $(0,\infty)\times\widehat{\mathbb Z}$. Its integral against each fixed compactly supported continuous test $\Phi(t,w)$ is the subsequential limit of the mixed averages weighted by $\Phi(n/x,n)$, with $n$ in the second argument viewed through its residues. A fixed nonnegative compactly supported smooth cutoff $\phi$ can be chosen so that $\int\phi(t)W(t,w)\,dt\,dw\ne0$, where $dt$ is Lebesgue measure and $dw$ is Haar measure.
 
@@ -65,9 +65,9 @@ The aim is now to replace this endpoint kernel by products of functions of its t
 The feature comparison first holds after integration against separate functions of the two independent endpoint sets. The actual labels need not have this single-site form, and an optimizing test can depend on the whole configuration. Section 9 upgrades the comparison to expected cut norm by approximating an optimizing cut with a small sample of columns. Finally, polynomial approximation of each log-window indicator expresses $V_l$, up to a small mean-square error, as a fixed finite combination of $$\mathbb E_{\rm split}\!\left[e^{-v\log b/B}\mid S\right]
        =\prod_{p\in S}\frac{1+p^{-v/B}}2.$$ At an integer endpoint these are exactly $G_{B,v}$. The arithmetic lag factor is approximated in mean over lags by a fixed periodic function. For a fixed small $\delta>0$ chosen for the desired accuracy, subdivide each position block into a fixed number of intervals whose lengths grow with $T$ and are at most $\delta T$. Within each interval pair, the normalized lag varies by at most $2\delta$. Approximating the smooth lag factor there and resolving the periodic factor into fixed residue classes turns the feature energy, up to a controlled error, into products of the weighted short averages already controlled in Section 2. Their vanishing contradicts the positive energy. Sections 10 and 11 complete this argument and the passage from bin events to the joint law.
 
-The divisor amplification and graph comparison have close antecedents in Tao’s logarithmic correlation argument (Tao 2016), the prime-divisibility graphs of Helfgott and Radziwiłł (Helfgott and Radziwiłł 2021), Pilatte’s product-of-primes amplification (Pilatte 2023), and the mixed-function decoupling of Tao and Teräväinen (Tao and Teräväinen 2026, sec. 3.1). The present rough-divisor graph and its endpoint comparison are proved locally. The sampling argument likewise builds on the cut-based methods of Frieze and Kannan (Frieze and Kannan 1999), Alon, Fernandez de la Vega, Kannan and Karpinski (Alon et al. 2003, Lemma 3), and Borgs, Chayes, Lovász, Sós and Vesztergombi (Borgs et al. 2008, Theorem 4.6). Because the kernels here vary with $B$ and can be large, the proof establishes the moment bounds needed before applying bounded-differences concentration (McDiarmid 1989).
+The divisor amplification and graph comparison have close antecedents in Tao’s logarithmic correlation argument [23], the prime-divisibility graphs of Helfgott and Radziwiłł [12], Pilatte’s product-of-primes amplification [21], and the mixed-function decoupling of Tao and Teräväinen [25, Section 3.1]. The present rough-divisor graph and its endpoint comparison are proved locally. The sampling argument likewise builds on the cut-based methods of Frieze and Kannan [10], Alon, Fernandez de la Vega, Kannan and Karpinski [1, Lemma 3], and Borgs, Chayes, Lovász, Sós and Vesztergombi [2, Theorem 4.6]. Because the kernels here vary with $B$ and can be large, the proof establishes the moment bounds needed before applying bounded-differences concentration [18].
 
-The arithmetic estimates are developed in Section 3 using Selberg–Delange theory, character estimates and upper-bound sieves in the forms recorded by Granville and Koukoulopoulos (Granville and Koukoulopoulos 2019), Koukoulopoulos (Koukoulopoulos 2019), and Ford (Ford 2023, 2002). The minor-arc input in Section 8 is the exponential-sum estimate of Montgomery and Vaughan (Montgomery and Vaughan 1977). Throughout the proof, the original scale $x$ tends to infinity before the auxiliary scale $B$. Bin data, feature degrees, residue moduli and divisor multipliers are fixed in that inner limit. The contradiction applies to a subsequence of every possible bad sequence of original scales, and hence yields the full ordinary limit.
+The arithmetic estimates are developed in Section 3 using Selberg–Delange theory, character estimates and upper-bound sieves in the forms recorded by Granville and Koukoulopoulos [11], Koukoulopoulos [14], and Ford [8, 9]. The minor-arc input in Section 8 is the exponential-sum estimate of Montgomery and Vaughan [20]. Throughout the proof, the original scale $x$ tends to infinity before the auxiliary scale $B$. Bin data, feature degrees, residue moduli and divisor multipliers are fixed in that inner limit. The contradiction applies to a subsequence of every possible bad sequence of original scales, and hence yields the full ordinary limit.
 
 ## Large-prime labels and their short averages
 
@@ -202,7 +202,7 @@ We use the following two forms of the short-interval theorems. Their uniformity 
    |\mathcal A_Hg(z)-\mathcal L_Xg|^2\,dz\leq r(H).
 \end{equation}$$*
 
-This is a consequence of the uniform exceptional-set estimate in (Matomäki and Radziwiłł 2016, Theorem 1), using boundedness to pass to mean square. The terms in that estimate depending on $X$ can be absorbed into $r(H)$ because $X\geq H$.
+This is a consequence of the uniform exceptional-set estimate in [16, Theorem 1], using boundedness to pass to mean square. The terms in that estimate depending on $X$ can be absorbed into $r(H)$ because $X\geq H$.
 
 **Theorem 2.5** (Complex short averages). *For every multiplicative function $g:\mathbb N\to\mathbb C$ with $|g|\leq1$ and $X\geq H\geq10$, $$\begin{equation}
 \tag{2.15}
@@ -212,7 +212,7 @@ This is a consequence of the uniform exceptional-set estimate in (Matomäki and 
        +(\log X)^{-1/50},
 \end{equation}$$ with an absolute implied constant.*
 
-This is (Matomäki et al. 2015, Theorem A.1), in the revised version with the corrected proof of Proposition A.3. That proof permits the factor $e^{-M}$; we use the weaker $(1+M)e^{-M}$, which also covers $M<1$. Thus divergence of the minimum over $|t|\leq X$ suffices for our application.
+This is [17, Theorem A.1], in the revised version with the corrected proof of Proposition A.3. That proof permits the factor $e^{-M}$; we use the weaker $(1+M)e^{-M}$, which also covers $M<1$. Thus divergence of the minimum over $|t|\leq X$ suffices for our application.
 
 The preceding statements also hold with integer origins, at the cost of an error tending to zero with $H$. Indeed, for $|g|\leq1$, $$|\mathcal A_Hg(z)-\mathcal A_Hg(\lfloor z\rfloor)|\leq\frac2H.$$ Integrating over unit intervals proves the claim, with $O(1/X)$ errors at the endpoints. Changing a short interval endpoint by a bounded amount similarly costs $O(1/H)$.
 
@@ -240,7 +240,7 @@ For $|t|>1$, let $m$ be the order of $\chi$ on the units. The elementary inequal
  |\zeta(\sigma+iu)|\ll
        (\log(|u|+3))^{3/4}
  \qquad(\sigma\geq1,\ |u|\geq1).
-\end{equation}$$ The bound on the line $1$ follows from (Ford 2002, (1.2)). Its extension to the right can be seen by applying the Phragmén–Lindelöf principle in $1\leq\sigma\leq2$ to $$\frac{s-1}{s+1}\,
+\end{equation}$$ The bound on the line $1$ follows from [8, (1.2)]. Its extension to the right can be seen by applying the Phragmén–Lindelöf principle in $1\leq\sigma\leq2$ to $$\frac{s-1}{s+1}\,
        \frac{\zeta(s)}{(\log(s+3))^{3/4}}.$$ The pole at $1$ is removed, the logarithmic power has an analytic branch in this strip, and both vertical boundaries are bounded. For $|\operatorname{Im}s|\geq1$, the removed rational factor is bounded away from zero, which gives (2.17). For $\sigma\geq2$ the same estimate follows from absolute convergence. Applying the prime-sum comparison just proved, we obtain uniformly for $1<|t|\leq CX$, $$\begin{align*}
  \sum_{p\leq y}\frac{1-\operatorname{Re}(p^{-imt})}{p}
  &=\log\log x-\log|\zeta(\sigma+imt)|+O_J(1)\\
@@ -251,7 +251,7 @@ For $|t|>1$, let $m$ be the order of $\chi$ on the units. The elementary inequal
 
 ### Proof of the weighted short-average lemma
 
-*Proof of Lemma 2.3.* Teräväinen (Teräväinen 2018, sec. 4, proof of Theorem 1.11) uses real multiplicative generating functions for large-prime counts and recovers event coefficients from them. Here the finite count range gives a pointwise tensor interpolation of the centered function of all bin counts by completely multiplicative functions. We prove this interpolation with coefficients independent of $B,x$. Choose $J+1$ distinct numbers in $(0,1]$. The Vandermonde matrix whose entries are their powers of orders $0,\ldots,J$ is invertible. Taking tensor products over the $J-1$ count coordinates shows that there are finitely many complex constants $c_\ell$ and vectors $\boldsymbol z_\ell=(z_{\ell,1},\ldots,z_{\ell,J-1})\in(0,1]^{J-1}$ such that $$\begin{equation}
+*Proof of Lemma 2.3.* Teräväinen [26, Section 4, proof of Theorem 1.11] uses real multiplicative generating functions for large-prime counts and recovers event coefficients from them. Here the finite count range gives a pointwise tensor interpolation of the centered function of all bin counts by completely multiplicative functions. We prove this interpolation with coefficients independent of $B,x$. Choose $J+1$ distinct numbers in $(0,1]$. The Vandermonde matrix whose entries are their powers of orders $0,\ldots,J$ is invertible. Taking tensor products over the $J-1$ count coordinates shows that there are finitely many complex constants $c_\ell$ and vectors $\boldsymbol z_\ell=(z_{\ell,1},\ldots,z_{\ell,J-1})\in(0,1]^{J-1}$ such that $$\begin{equation}
 \tag{2.18}
  \prod_{k=1}^{J-1}\zeta_k^{b_k}-\mu
  =\sum_\ell c_\ell\prod_{k=1}^{J-1}z_{\ell,k}^{b_k}
@@ -340,13 +340,13 @@ Our local estimates have two outputs. For $A_0$, they give a smooth mean on mult
        +O_H\bigl(Y(\log Y)^{z-2-H}\bigr),$$ where $$c_0(z)=\frac1{\Gamma(z)}
           \prod_p(1+z/p)(1-1/p)^z>0.$$ For each fixed $C,D>0$, uniformly over nonprincipal Dirichlet characters $\chi$ of modulus $d\le(\log Y)^C$, one has $$\sum_{n\le Y}g_z(n)\chi(n)\ll_{C,D}Y(\log Y)^{-D}.$$ The constants in the second estimate, and the threshold after which it holds, need not be effective.*
 
-*Proof.* The first statement is the classical fixed-order Selberg–Delange expansion; see (Granville and Koukoulopoulos 2019, Theorem 1) and (Koukoulopoulos 2019, Theorem 13.2). The normalization and the moving roughness cutoff required here are recorded explicitly below. In $\Re s>1$, $$\sum_n\frac{g_z(n)}{n^s}=\zeta(s)^z G_z(s),\qquad
+*Proof.* The first statement is the classical fixed-order Selberg–Delange expansion; see [11, Theorem 1] and [14, Theorem 13.2]. The normalization and the moving roughness cutoff required here are recorded explicitly below. In $\Re s>1$, $$\sum_n\frac{g_z(n)}{n^s}=\zeta(s)^z G_z(s),\qquad
  G_z(s)=\prod_p(1+zp^{-s})(1-p^{-s})^z.$$ Define the local powers by their power-series logarithms. The logarithm of each local factor of $G_z$ is $O(p^{-2\Re s})$. Consequently $G_z$ is analytic, nonzero, and bounded on $\Re s\ge0.9$, with all derivatives bounded on fixed smaller compact sets. Near $s=1$, put $u=s-1$. The analytic factor $$\frac{(u\zeta(1+u))^zG_z(1+u)}{1+u}$$ has a convergent Taylor series and has value $G_z(1)$ at $u=0$. Truncated Perron inversion, followed by a contour around the cut to the left of $1$, integrates its $j$th Taylor term against $Y e^{u\log Y}u^{j-z}$. Hankel’s reciprocal-gamma formula gives the factor $(\log Y)^{z-j-1}/\Gamma(z-j)$. Taylor’s remainder, integrated on that contour, is $O_H(Y(\log Y)^{z-H-2})$. For completeness, the contour may have right edge $1+1/\log Y$, height $\exp(c\sqrt{\log Y})$, left edge $1-c'/\sqrt{\log Y}$, and small circular part of radius $1/\log Y$. The classical zero-free region for $\zeta$ permits fixed sufficiently small $c,c'>0$; the other contour pieces and the Perron truncation error are $O_H(Y\exp(-c''\sqrt{\log Y})(\log Y)^{O_H(1)})$ and are absorbed in the displayed remainder. The local expansion just described also identifies $c_0(z)=G_z(1)/\Gamma(z)$.
 
 We spell out the character uniformity. The twisted series is $$L(s,\chi)^zG_{z,\chi}(s),\qquad
  G_{z,\chi}(s)=
   \prod_p(1+z\chi(p)p^{-s})(1-\chi(p)p^{-s})^z.$$ The same cancellation of the linear local term bounds $G_{z,\chi}$ uniformly in $\chi$ on $\Re s\ge0.9$. Write $L_Y=\log Y$ and $\Theta=\exp(c\sqrt{L_Y})$, and use the rectangle $$1-c'/\sqrt{L_Y}\le\Re s\le1+1/L_Y,\qquad
- |\operatorname{Im}s|\le\Theta.$$ The classical Dirichlet zero-free region excludes zeros in this rectangle except possibly a real zero of a real primitive character inducing $\chi$. Siegel’s bound states that for every fixed $\varepsilon>0$ such a zero obeys $1-\beta\gg_\varepsilon d^{-\varepsilon}$; see (Koukoulopoulos 2019, Theorems 12.3 and 12.10) for the zero-free region and exceptional-zero bound. Choose $\varepsilon<1/(2C)$. Since $d\le L_Y^C$, this distance is eventually larger than $c'/\sqrt{L_Y}$, uniformly in the allowed moduli. The Euler factors removed for imprimitive characters have no zeros in $\Re s>0$. Thus an analytic logarithm of $L(s,\chi)$ exists throughout the rectangle, agreeing with its Euler-product logarithm on its intersection with $\Re s>1$.
+ |\operatorname{Im}s|\le\Theta.$$ The classical Dirichlet zero-free region excludes zeros in this rectangle except possibly a real zero of a real primitive character inducing $\chi$. Siegel’s bound states that for every fixed $\varepsilon>0$ such a zero obeys $1-\beta\gg_\varepsilon d^{-\varepsilon}$; see [14, Theorems 12.3 and 12.10] for the zero-free region and exceptional-zero bound. Choose $\varepsilon<1/(2C)$. Since $d\le L_Y^C$, this distance is eventually larger than $c'/\sqrt{L_Y}$, uniformly in the allowed moduli. The Euler factors removed for imprimitive characters have no zeros in $\Re s>0$. Thus an analytic logarithm of $L(s,\chi)$ exists throughout the rectangle, agreeing with its Euler-product logarithm on its intersection with $\Re s>1$.
 
 There is also a uniform polynomial bound in $L_Y$ on this rectangle. For $s=\sigma+it$ truncate the Dirichlet series at $V=\lceil d(2+|t|)\rceil$. The periodic character sums have modulus at most $d$, so partial summation bounds the tail by $O(d(1+|s|)V^{-\sigma})$. The initial segment is at most $O((1+\log V)V^{\max(1-\sigma,0)})$. Since $\log V\ll_C\sqrt{L_Y}$ and $(1-\sigma)\log V=O_C(1)$ in the rectangle, these estimates bound $L(s,\chi)$ by a fixed power of $L_Y$. Because $z$ is real, the modulus of the chosen analytic power is $|L(s,\chi)^z|=|L(s,\chi)|^z$.
 
@@ -419,7 +419,7 @@ If $\delta<1/R$, the event $s\le\delta$ forces the product to be empty, so its p
 We state precisely the classical upper-sieve input, in its event-space form. For a fixed positive integer $k$, choose once a bound $P_k>2k$ depending only on $k$. For a sieve bound $Z\ge2$, let $\mathcal R_Z\subset\{p:P_k<p\le Z\}$ be the set of retained primes. Suppose their forbidden local densities obey $0\le\theta_p\le k/p$. Mertens’ theorem then gives the upper dimension condition $$\prod_{\substack{p\in\mathcal R_Z\\y<p\le z}}(1-\theta_p)^{-1}
  \le\left(\frac{\log z}{\log y}\right)^k
                       \left(1+O_k(1/\log y)\right)\qquad(2\le y\le z).$$ Let $\mathcal V$ be the ambient mass. For each squarefree $d$ whose prime factors all lie in $\mathcal R_Z$, let $\mathcal V_d$ be the mass satisfying the forbidden condition at every prime dividing $d$, and put $$r_d=\mathcal V_d-\mathcal V\prod_{p\mid d}\theta_p.$$ Extend $r_d$ by zero to all other positive integers. The classical fundamental lemma of the upper sieve supplies $s_k>0$, depending only on $k$, and upper weights of absolute value at most one, supported on squarefree $d\le D$ with prime factors in $\mathcal R_Z$, such that, when $Z\le D^{1/s_k}$, the mass avoiding the retained forbidden conditions is at most $$C_k\mathcal V\prod_{p\in\mathcal R_Z}(1-\theta_p)
-                     +\sum_{d\le D}|r_d|.$$ The constants are uniform over the forbidden sets satisfying the displayed dimension condition. This is the bounded-dimension upper-sieve statement of (Ford 2023, Theorems 2.4 and 3.6).
+                     +\sum_{d\le D}|r_d|.$$ The constants are uniform over the forbidden sets satisfying the displayed dimension condition. This is the bounded-dimension upper-sieve statement of [9, Theorems 2.4 and 3.6].
 
 **Lemma 3.4** (Interval, rectangle, and random-root sieves). *There is a sufficiently small $c_k>0$, depending only on fixed $k$, with the following properties for $Z\ge2$.*
 
@@ -1363,7 +1363,7 @@ For that term set $$\begin{split}
 On the circle of $j\alpha\pmod1$, take major arcs of radius $B^{13}/X$ about the reduced fractions $u/q$ with $q\le B^{12}$. They are disjoint for large $B$: the distance between distinct such fractions is at least $B^{-24}$, whereas $X$ is exponential in $B$. On the complement we have $$\begin{equation}
 \tag{8.5}
  |S_3(-j\alpha)|\ll X B^{-1/2+o(1)}.
-\end{equation}$$ Here are the details of the imported estimate and its application. The Montgomery–Vaughan bound (Montgomery and Vaughan 1977, Corollary 1) states that a multiplicative function $f$ satisfying $\lvert f(p)\rvert\le1$ for every prime $p$ and $\sum_{n\le Z}|f(n)|^2\le Z$ for every $Z\ge1$ obeys $$\left|\sum_{n\le Y}f(n)e(n\theta)\right|
+\end{equation}$$ Here are the details of the imported estimate and its application. The Montgomery–Vaughan bound [20, Corollary 1] states that a multiplicative function $f$ satisfying $\lvert f(p)\rvert\le1$ for every prime $p$ and $\sum_{n\le Z}|f(n)|^2\le Z$ for every $Z\ge1$ obeys $$\left|\sum_{n\le Y}f(n)e(n\theta)\right|
  \ll \frac{Y}{\log Y}
        +\frac{Y(\log R')^{3/2}}{\sqrt{R'}}$$ whenever $\lvert\theta-u'/q'\rvert\le1/(q')^2$, $(u',q')=1$, and $2\le R'\le q'\le Y/R'$. Apply Dirichlet approximation with denominator limit $\lfloor X/B^{12}\rfloor$. If the resulting denominator is at most $B^{12}$, the approximation error is at most $2B^{12}/X<B^{13}/X$, so the point is on a major arc. Off the major arcs we consequently have $$B^{12}<q'\le X/B^{12},\qquad
  |\theta-u'/q'|\le1/(q')^2.$$ For every $Y\asymp X$ arising in partial summation, these inequalities permit $R'=B^{10}$. The function $f(n)=\mu_{\rm Mob}^2(n)2^{-\omega(n)}\mathbf 1_{\{n\ {\rm rough}\}}$ is multiplicative and 1-bounded, so it satisfies the theorem’s hypotheses. Smooth partial summation and restoration of the factor $$(\log P_0)R^{1/2}=\sqrt{B\log P_0}=B^{1/2+o(1)}$$ give (8.5).
@@ -1557,7 +1557,7 @@ For the deterministic row estimates, boundedness of $k_B$, $w$, and the finitely
 
 The comparison in (8.19) allows arbitrary bounded functions at each single site. To use it against the labels in (5.4), we must also allow the testing signs to depend on the entire sampled matrix. We do this by approximating an optimizing row-sign vector using a small set of columns, and then applying concentration simultaneously to the resulting finite family of optimizations.
 
-The small-column approximation is related to the sampling argument of Alon, Fernández de la Vega, Kannan, and Karpinski (Alon et al. 2003, Lemma 3) and to the proof of Borgs et al. (2008, Theorem 4.6). Their arguments approximate optimizing cuts by a small sample and then control a finite family of tests. Here the kernels depend on $B$ and on position, and are controlled by degree bounds and integrated row-second-moment bounds. We therefore prove the required sampling transfer directly rather than invoking those results as a black box.
+The small-column approximation is related to the sampling argument of Alon, Fernández de la Vega, Kannan, and Karpinski [1, Lemma 3] and to the proof of Borgs et al. [2, Theorem 4.6]. Their arguments approximate optimizing cuts by a small sample and then control a finite family of tests. Here the kernels depend on $B$ and on position, and are controlled by degree bounds and integrated row-second-moment bounds. We therefore prove the required sampling transfer directly rather than invoking those results as a black box.
 
 Throughout this section the regularity parameters, $C_*$, $\eta$, $C_6$, $\epsilon_1$, and the coarse partition are fixed. In particular, $T=\lfloor B^{0.32}\rfloor$ and $M=\lceil C_6T\rceil\asymp B^{0.32}$. All limits and $o(1)$ terms in the probabilistic argument refer to $B\to\infty$ with these parameters fixed. We work at one value of $s$ in the fixed compact range of the smooth weights. Every bound below is uniform in that value of $s$; no simultaneous event over all $s$ will be needed.
 
@@ -1649,7 +1649,7 @@ We next verify a Lipschitz bound between any two configurations $\mathbf u,\math
              +\mathcal H_{ik}(v_i,v_k;s)\big)
  \le\frac{4d_B}{M}|A|.$$ The last inequality uses both endpoint degree bounds and symmetry. It also includes the change of $g_i$ when $i\in A$. No connecting path of good configurations is required.
 
-Choose a fixed $L'>E_0+2+\epsilon_2$. On $\mathcal G_{R'}$ the function $f=\min(Z,L')$ is nonnegative and Lipschitz for the site Hamming distance $d_H$, with constant $c_B=4d_B/M$. For sufficiently large $B$ the good set is nonempty. We use the McShane extension (McShane 1934) in its infimum form (Caputti 1984, sec. 3, Equation (3.2)), followed by clamping: $$\widetilde Z(\mathbf u)
+Choose a fixed $L'>E_0+2+\epsilon_2$. On $\mathcal G_{R'}$ the function $f=\min(Z,L')$ is nonnegative and Lipschitz for the site Hamming distance $d_H$, with constant $c_B=4d_B/M$. For sufficiently large $B$ the good set is nonempty. We use the McShane extension [19] in its infimum form [3, Section 3, Equation (3.2)], followed by clamping: $$\widetilde Z(\mathbf u)
  =\min\left\{L',\ \inf_{\mathbf v\in\mathcal G_{R'}}
              \big(f(\mathbf v)+c_Bd_H(\mathbf u,\mathbf v)\big)
        \right\}.$$ The site spaces are finite for every $B$, so the formula is measurable. The infimum defines a $c_B$-Lipschitz function by the triangle inequality, and its restriction to the good set is $f$: the Lipschitz inequality for $f$ gives the lower bound, and taking $\mathbf v=\mathbf u$ gives the upper bound. Clamping preserves the Lipschitz bound. Hence $0\le\widetilde Z\le L'$ everywhere and $\widetilde Z=\min(Z,L')$ on $\mathcal G_{R'}$. By Lemma 9.4, $$\mathbb E[\widetilde Z\mid\mathbf S_{J'}=\mathbf t]
@@ -1657,7 +1657,7 @@ Choose a fixed $L'>E_0+2+\epsilon_2$. On $\mathcal G_{R'}$ the function $f=\min(
       +L'\mathbb P(\mathcal G_{R'}^c\mid\mathbf S_{J'}=\mathbf t)
  \le E_0+o(1),$$ again uniformly in every fixed choice.
 
-Changing any one of the independent remaining site types changes $\widetilde Z$ by at most $c_B$. McDiarmid’s bounded-differences inequality (McDiarmid 1989) therefore gives, for every $a>0$, $$\mathbb P\left(\widetilde Z-\mathbb E[\widetilde Z\mid\mathbf S_{J'}]
+Changing any one of the independent remaining site types changes $\widetilde Z$ by at most $c_B$. McDiarmid’s bounded-differences inequality [18] therefore gives, for every $a>0$, $$\mathbb P\left(\widetilde Z-\mathbb E[\widetilde Z\mid\mathbf S_{J'}]
                      >a\,\middle|\,\mathbf S_{J'}=\mathbf t\right)
  \le\exp\left(-\frac{2a^2}{|R'|c_B^2}\right)
  \le\exp\left(-\frac{a^2M}{8d_B^2}\right).$$ Taking $a=\epsilon_2/4$ and using the uniform mean bound shows that, for large $B$, $$\mathbb P\left(\widetilde Z>E_0+\epsilon_2/2
@@ -1825,7 +1825,7 @@ If $c,d\in(0,1)$ are rational, choose $J$ so that both are grid points. For $m\l
 
 ### The Dickman marginal
 
-We recover the classical marginal law, originating with Dickman and developed by Ramaswami and de Bruijn (Dickman 1930; Ramaswami 1949; de Bruijn 1951), from the factorial moments already computed for the bin counts.
+We recover the classical marginal law, originating with Dickman and developed by Ramaswami and de Bruijn [4, 6, 22], from the factorial moments already computed for the bin counts.
 
 **Lemma 11.1** (Dickman marginal). *For every fixed $c\in(0,1)$, $$\begin{equation}
  \lim_{x\to\infty}\frac1x
@@ -1889,7 +1889,7 @@ Combining the Fourier inversion with Lemma 11.1 gives, for every pair of ration
  \tag{11.7}
 \end{equation}$$ The omission of $n=1$ changes at most one summand. In (11.7), the exponents are fixed and the limit is through all real $X$.
 
-This also gives the fixed-scale upper-tail independence law discussed by Erdős and Pomerance (Erdős and Pomerance 1978, 311): $$\begin{equation}
+This also gives the fixed-scale upper-tail independence law discussed by Erdős and Pomerance [7, p. 311]: $$\begin{equation}
  \begin{split}
  &\lim_{X\to\infty}\frac1X
  \#\{2\le n\le X:P^+(n)>X^c,\ P^+(n+1)>X^d\}\\
@@ -1915,62 +1915,62 @@ Let $U,V$ be independent with distribution function $D$. Continuity gives $\math
 
 ## References
 
-Alon, Noga, W. Fernandez de la Vega, Ravi Kannan, and Marek Karpinski. 2003. “Random Sampling and Approximation of MAX-CSPs.” *Journal of Computer and System Sciences* 67 (2): 212–43. <https://doi.org/10.1016/S0022-0000(03)00008-4>.
+**[1]** Noga Alon, W. Fernandez de la Vega, Ravi Kannan, and Marek Karpinski. Random sampling and approximation of MAX-CSPs. *Journal of Computer and System Sciences*, 67(2):212–243, 2003. doi: 10.1016/S0022-0000(03)00008-4.
 
-Borgs, Christian, Jennifer T. Chayes, László Lovász, Vera T. Sós, and Katalin Vesztergombi. 2008. “Convergent Sequences of Dense Graphs I: Subgraph Frequencies, Metric Properties and Testing.” *Advances in Mathematics* 219 (6): 1801–51. <https://doi.org/10.1016/j.aim.2008.07.008>.
+**[2]** Christian Borgs, Jennifer T. Chayes, László Lovász, Vera T. Sós, and Katalin Vesztergombi. Convergent sequences of dense graphs I: Subgraph frequencies, metric properties and testing. *Advances in Mathematics*, 219(6):1801–1851, 2008. doi: 10.1016/j.aim.2008.07.008.
 
-Caputti, Telma. 1984. “A Note on the Extension of Lipschitz Functions.” *Revista de La Unión Matemática Argentina* 31: 122–29. <https://inmabb.criba.edu.ar/revuma/pdf/v31n3/p122-129.pdf>.
+**[3]** Telma Caputti. A note on the extension of Lipschitz functions. *Revista de la Unión Matemática Argentina*, 31:122–129, 1984. URL <https://inmabb.criba.edu.ar/revuma/pdf/v31n3/p122-129.pdf>.
 
-de Bruijn, N. G. 1951. “On the Number of Positive Integers $\leq x$ and Free of Prime Factors $>y$.” *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A* 54 (1): 50–60. <https://research.tue.nl/en/publications/on-the-number-of-positive-integers-leq-x-and-free-of-prime-factor/>.
+**[4]** N. G. de Bruijn. On the number of positive integers $\leq x$ and free of prime factors $>y$. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A*, 54(1):50–60, 1951. URL <https://research.tue.nl/en/publications/on-the-number-of-positive-integers-leq-x-and-free-of-prime-factor/>.
 
-de la Bretèche, Régis, Carl Pomerance, and Gérald Tenenbaum. 2005. “Products of Ratios of Consecutive Integers.” *The Ramanujan Journal* 9 (1–2): 131–38. <https://tenenb.perso.math.cnrs.fr/PPP/AB.pdf>.
+**[5]** Régis de la Bretèche, Carl Pomerance, and Gérald Tenenbaum. Products of ratios of consecutive integers. *The Ramanujan Journal*, 9(1–2):131–138, 2005. URL <https://tenenb.perso.math.cnrs.fr/PPP/AB.pdf>.
 
-Dickman, Karl. 1930. “On the Frequency of Numbers Containing Prime Factors of a Certain Relative Magnitude.” *Arkiv för Matematik, Astronomi Och Fysik* 22A (10): 1–14.
+**[6]** Karl Dickman. On the frequency of numbers containing prime factors of a certain relative magnitude. *Arkiv för Matematik, Astronomi och Fysik*, 22A(10):1–14, 1930.
 
-Erdős, Paul, and Carl Pomerance. 1978. “On the Largest Prime Factors of $n$ and $n+1$.” *Aequationes Mathematicae* 17: 311–21. <https://www.renyi.hu/~p_erdos/1978-29.pdf>.
+**[7]** Paul Erdős and Carl Pomerance. On the largest prime factors of $n$ and $n+1$. *Aequationes Mathematicae*, 17:311–321, 1978. URL <https://www.renyi.hu/~p_erdos/1978-29.pdf>.
 
-Ford, Kevin. 2002. “Zero-Free Regions for the Riemann Zeta Function.” In *Number Theory for the Millennium, II*, edited by M. A. Bennett, B. C. Berndt, N. Boston, H. G. Diamond, A. J. Hildebrand, and W. Philipp. A K Peters, Ltd. <https://arxiv.org/abs/1910.08205v5>.
+**[8]** Kevin Ford. Zero-free regions for the Riemann zeta function. In M. A. Bennett, B. C. Berndt, N. Boston, H. G. Diamond, A. J. Hildebrand, and W. Philipp, editors, *Number Theory for the Millennium, II*, pages 25–56. A K Peters, Ltd., Natick, MA, 2002. URL <https://arxiv.org/abs/1910.08205v5>. Corrected version: arXiv:1910.08205v5, 18 February 2025.
 
-Ford, Kevin. 2023. *Sieve Methods Lecture Notes, Spring 2023*. Lecture notes, University of Illinois Urbana–Champaign. <https://ford126.web.illinois.edu/sieve2023.pdf>.
+**[9]** Kevin Ford. Sieve methods lecture notes, spring 2023. Lecture notes, University of Illinois Urbana–Champaign, 2023. URL <https://ford126.web.illinois.edu/sieve2023.pdf>.
 
-Frieze, Alan, and Ravi Kannan. 1999. “Quick Approximation to Matrices and Applications.” *Combinatorica* 19: 175–220. <https://doi.org/10.1007/s004930050052>.
+**[10]** Alan Frieze and Ravi Kannan. Quick approximation to matrices and applications. *Combinatorica*, 19:175–220, 1999. doi: 10.1007/s004930050052.
 
-Granville, Andrew, and Dimitris Koukoulopoulos. 2019. “Beyond the LSD Method for the Partial Sums of Multiplicative Functions.” *The Ramanujan Journal* 49 (2): 287–319. <https://doi.org/10.1007/s11139-018-0119-3>.
+**[11]** Andrew Granville and Dimitris Koukoulopoulos. Beyond the LSD method for the partial sums of multiplicative functions. *The Ramanujan Journal*, 49(2):287–319, 2019. doi: 10.1007/s11139-018-0119-3. URL <https://dms.umontreal.ca/~koukoulo/documents/publications/LSD.pdf>.
 
-Helfgott, Harald Andrés, and Maksym Radziwiłł. 2021. *Expansion, Divisibility and Parity*. <https://arxiv.org/abs/2103.06853v2>.
+**[12]** Harald Andrés Helfgott and Maksym Radziwiłł. Expansion, divisibility and parity, 2021. URL <https://arxiv.org/abs/2103.06853v2>. Version 2, 13 April 2021.
 
-Jiang, Yujiao, Guangshi Lü, and Zhiwei Wang. 2022. “Averaged Forms of Two Conjectures of Erdős and Pomerance, and Their Applications.” *Advances in Mathematics* 409: 108592. <https://doi.org/10.1016/j.aim.2022.108592>.
+**[13]** Yujiao Jiang, Guangshi Lü, and Zhiwei Wang. Averaged forms of two conjectures of Erdős and Pomerance, and their applications. *Advances in Mathematics*, 409:108592, 2022. doi: 10.1016/j.aim.2022.108592. Part A, 42 pp.
 
-Koukoulopoulos, Dimitris. 2019. *The Distribution of Prime Numbers*. Vol. 203. Graduate Studies in Mathematics. American Mathematical Society. <https://doi.org/10.1090/gsm/203>.
+**[14]** Dimitris Koukoulopoulos. *The Distribution of Prime Numbers*, volume 203 of *Graduate Studies in Mathematics*. American Mathematical Society, Providence, RI, 2019. ISBN 978-1-4704-4754-0. doi: 10.1090/gsm/203. URL <https://dms.umontreal.ca/~koukoulo/documents/publications/primes.pdf>. Theorem locators refer to the author’s publicly available preliminary version.
 
-Lü, Xiaodong, and Zhiwei Wang. 2025. “On the Largest Prime Factors of Consecutive Integers.” *Monatshefte für Mathematik* 206 (2): 403–18. <https://hal.science/hal-01797939>.
+**[15]** Xiaodong Lü and Zhiwei Wang. On the largest prime factors of consecutive integers. *Monatshefte für Mathematik*, 206(2):403–418, 2025. URL <https://hal.science/hal-01797939>.
 
-Matomäki, Kaisa, and Maksym Radziwiłł. 2016. “Multiplicative Functions in Short Intervals.” *Annals of Mathematics* 183 (3): 1015–56. <https://doi.org/10.4007/annals.2016.183.3.6>.
+**[16]** Kaisa Matomäki and Maksym Radziwiłł. Multiplicative functions in short intervals. *Annals of Mathematics*, 183(3):1015–1056, 2016. doi: 10.4007/annals.2016.183.3.6. URL <https://arxiv.org/abs/1501.04585v4>.
 
-Matomäki, Kaisa, Maksym Radziwiłł, and Terence Tao. 2015. “An Averaged Form of Chowla’s Conjecture.” *Algebra & Number Theory* 9 (9): 2167–96. <https://doi.org/10.2140/ant.2015.9.2167>.
+**[17]** Kaisa Matomäki, Maksym Radziwiłł, and Terence Tao. An averaged form of Chowla’s conjecture. *Algebra & Number Theory*, 9(9):2167–2196, 2015. doi: 10.2140/ant.2015.9.2167. URL <https://arxiv.org/abs/1503.05121v3>. Appendix A is used in the corrected version, arXiv:1503.05121v3, 1 March 2022.
 
-McDiarmid, Colin. 1989. “On the Method of Bounded Differences.” In *Surveys in Combinatorics, 1989*, edited by Johannes Siemons, vol. 141. London Mathematical Society Lecture Note Series. Cambridge University Press. <https://doi.org/10.1017/CBO9781107359949.008>.
+**[18]** Colin McDiarmid. On the method of bounded differences. In Johannes Siemons, editor, *Surveys in Combinatorics, 1989*, volume 141 of *London Mathematical Society Lecture Note Series*, pages 148–188. Cambridge University Press, Cambridge, 1989. doi: 10.1017/CBO9781107359949.008. URL <https://www.cambridge.org/core/books/abs/surveys-in-combinatorics-1989/on-the-method-of-bounded-differences/AABA597B562BDA7D89C6077E302694FB>.
 
-McShane, E. J. 1934. “Extension of Range of Functions.” *Bulletin of the American Mathematical Society* 40 (12): 837–42. <https://doi.org/10.1090/S0002-9904-1934-05978-0>.
+**[19]** E. J. McShane. Extension of range of functions. *Bulletin of the American Mathematical Society*, 40(12):837–842, 1934. doi: 10.1090/S0002-9904-1934-05978-0.
 
-Montgomery, H. L., and R. C. Vaughan. 1977. “Exponential Sums with Multiplicative Coefficients.” *Inventiones Mathematicae* 43 (1): 69–82. <https://doi.org/10.1007/BF01390204>.
+**[20]** H. L. Montgomery and R. C. Vaughan. Exponential sums with multiplicative coefficients. *Inventiones Mathematicae*, 43(1):69–82, 1977. doi: 10.1007/BF01390204. URL <https://link.springer.com/article/10.1007/BF01390204>.
 
-Pilatte, Cédric. 2023. *Improved Bounds for the Two-Point Logarithmic Chowla Conjecture*. <https://arxiv.org/abs/2310.19357v3>.
+**[21]** Cédric Pilatte. Improved bounds for the two-point logarithmic Chowla conjecture, 2023. URL <https://arxiv.org/abs/2310.19357v3>. Version 3, 25 August 2026.
 
-Ramaswami, V. 1949. “On the Number of Positive Integers Less Than $x$ and Free of Prime Divisors Greater Than $x^c$.” *Bulletin of the American Mathematical Society* 55 (12): 1122–27. <https://doi.org/10.1090/S0002-9904-1949-09337-0>.
+**[22]** V. Ramaswami. On the number of positive integers less than $x$ and free of prime divisors greater than $x^c$. *Bulletin of the American Mathematical Society*, 55(12):1122–1127, 1949. doi: 10.1090/S0002-9904-1949-09337-0.
 
-Tao, Terence. 2016. “The Logarithmically Averaged Chowla and Elliott Conjectures for Two-Point Correlations.” *Forum of Mathematics, Pi* 4: e8. <https://doi.org/10.1017/fmp.2016.6>.
+**[23]** Terence Tao. The logarithmically averaged Chowla and Elliott conjectures for two-point correlations. *Forum of Mathematics, Pi*, 4:e8, 2016. doi: 10.1017/fmp.2016.6. 36 pp.
 
-Tao, Terence, and Joni Teräväinen. 2019. “The Structure of Correlations of Multiplicative Functions at Almost All Scales, with Applications to the Chowla and Elliott Conjectures.” *Algebra & Number Theory* 13 (9): 2103–50. <https://doi.org/10.2140/ant.2019.13.2103>.
+**[24]** Terence Tao and Joni Teräväinen. The structure of correlations of multiplicative functions at almost all scales, with applications to the Chowla and Elliott conjectures. *Algebra & Number Theory*, 13(9):2103–2150, 2019. doi: 10.2140/ant.2019.13.2103. URL <https://arxiv.org/abs/1809.02518v2>.
 
-Tao, Terence, and Joni Teräväinen. 2026. *Quantitative Correlations and Some Problems on Prime Factors of Consecutive Integers*. <https://arxiv.org/abs/2512.01739v2>.
+**[25]** Terence Tao and Joni Teräväinen. Quantitative correlations and some problems on prime factors of consecutive integers, 2026. URL <https://arxiv.org/abs/2512.01739v2>. Version 2, 25 April 2026.
 
-Teräväinen, Joni. 2018. “On Binary Correlations of Multiplicative Functions.” *Forum of Mathematics, Sigma* 6: e10. <https://doi.org/10.1017/fms.2018.10>.
+**[26]** Joni Teräväinen. On binary correlations of multiplicative functions. *Forum of Mathematics, Sigma*, 6:e10, 2018. doi: 10.1017/fms.2018.10. URL <https://arxiv.org/abs/1710.01195v2>. 41 pp.
 
-Wang, Zhiwei. 2017. “On the Largest Prime Factors of Consecutive Integers in Short Intervals.” *Proceedings of the American Mathematical Society* 145 (8): 3211–20.
+**[27]** Zhiwei Wang. On the largest prime factors of consecutive integers in short intervals. *Proceedings of the American Mathematical Society*, 145(8):3211–3220, 2017.
 
-Wang, Zhiwei. 2018. “Sur Les Plus Grands Facteurs Premiers d’entiers Consécutifs.” *Mathematika* 64 (2): 343–79. <https://doi.org/10.1112/S0025579317000547>.
+**[28]** Zhiwei Wang. Sur les plus grands facteurs premiers d’entiers consécutifs. *Mathematika*, 64(2):343–379, 2018. doi: 10.1112/S0025579317000547. URL <https://arxiv.org/abs/1706.02980v1>.
 
-Wang, Zhiwei. 2021. “Three Conjectures on $P^+(n)$ and $P^+(n+1)$ Hold Under the Elliott–Halberstam Conjecture for Friable Integers.” *Journal of Number Theory* 223: 1–11. <https://doi.org/10.1016/j.jnt.2020.12.013>.
+**[29]** Zhiwei Wang. Three conjectures on $P^+(n)$ and $P^+(n+1)$ hold under the Elliott–Halberstam conjecture for friable integers. *Journal of Number Theory*, 223:1–11, 2021. doi: 10.1016/j.jnt.2020.12.013.
 
-Yang, Zhiyuan. 2026. *An Improvement on the Largest Prime Factors of Consecutive Integers*. Preprint, arXiv:2607.16032v1. <https://arxiv.org/abs/2607.16032v1>.
+**[30]** Zhiyuan Yang. An improvement on the largest prime factors of consecutive integers. Preprint, arXiv:2607.16032v1, 2026. URL <https://arxiv.org/abs/2607.16032v1>. 17 July 2026.

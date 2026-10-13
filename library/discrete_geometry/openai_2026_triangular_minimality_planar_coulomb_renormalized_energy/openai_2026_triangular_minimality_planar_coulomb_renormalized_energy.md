@@ -72,17 +72,17 @@ C_{\mathrm{BHS}}
        +3\log\!\left(\frac{\sqrt\pi}{\Gamma(1/3)}\right),
 \end{equation}$$ and $\Gamma$ is Euler’s gamma function.*
 
-This proves the $d=2$ case of the logarithmic-energy conjecture of Brauchart, Hardin, and Saff (Brauchart et al. 2012, Conjecture 4). Bétermin and Sandier had already proved the existence of the linear coefficient and shown that it equals (1.8) precisely when the density-one triangular lattice minimizes their planar renormalized energy (Bétermin and Sandier 2018, Theorem 1.5). Section 8 checks the normalization and applies that equivalence to Theorem 1.1. The conclusion is an asymptotic value, not a construction of near-optimal point sets or an algorithm for Smale’s seventh problem.
+This proves the $d=2$ case of the logarithmic-energy conjecture of Brauchart, Hardin, and Saff [4, Conjecture 4]. Bétermin and Sandier had already proved the existence of the linear coefficient and shown that it equals (1.8) precisely when the density-one triangular lattice minimizes their planar renormalized energy [1, Theorem 1.5]. Section 8 checks the normalization and applies that equivalence to Theorem 1.1. The conclusion is an asymptotic value, not a construction of near-optimal point sets or an algorithm for Smale’s seventh problem.
 
 ### Context and prior work
 
-The finite-vortex renormalized energy of Bethuel, Brezis, and Hélein (Bethuel et al. 1994) is an antecedent of the infinite-system energy considered here. Sandier and Serfaty introduced the planar functional in their analysis of microscopic vortex patterns in the Ginzburg–Landau model. They proved existence of a minimum, approximation of its value by square-periodic fields, and triangular optimality among Bravais lattices (Sandier and Serfaty 2012, Theorems 1 and 2). Their Conjecture 1 asks whether the triangular value is also the minimum over the full admissible class. Theorem 1.1 resolves this conjecture positively. The current normalization in that paper has one point per area $2\pi/m$; our density-one convention corresponds to its background $m=2\pi$.
+The finite-vortex renormalized energy of Bethuel, Brezis, and Hélein [2] is an antecedent of the infinite-system energy considered here. Sandier and Serfaty introduced the planar functional in their analysis of microscopic vortex patterns in the Ginzburg–Landau model. They proved existence of a minimum, approximation of its value by square-periodic fields, and triangular optimality among Bravais lattices [17, Theorems 1 and 2]. Their Conjecture 1 asks whether the triangular value is also the minimum over the full admissible class. Theorem 1.1 resolves this conjecture positively. The current normalization in that paper has one point per area $2\pi/m$; our density-one convention corresponds to its background $m=2\pi$.
 
-The lattice comparison belongs to a longer history. The minimization of convergent Epstein zeta sums at fixed covolume was developed by Rankin (Rankin 1953) and Cassels (Cassels 1959), with an error noted in (Cassels 1963) and a repair supplied by Ennola (Ennola 1964) and simplified by Diananda (Diananda 1964). Montgomery proved triangular minimality of the lattice theta function for every positive Gaussian parameter (Montgomery 1988, Theorem 1). These are comparisons within the lattice class; the issue here is the lower bound for arbitrary admissible configurations.
+The lattice comparison belongs to a longer history. The minimization of convergent Epstein zeta sums at fixed covolume was developed by Rankin [14] and Cassels [5], with an error noted in [6] and a repair supplied by Ennola [8] and simplified by Diananda [7]. Montgomery proved triangular minimality of the lattice theta function for every positive Gaussian parameter [11, Theorem 1]. These are comparisons within the lattice class; the issue here is the lower bound for arbitrary admissible configurations.
 
-For the confining-potential class in their Theorem 2, Sandier and Serfaty show that microscopic limits of finite Coulomb minimizers concentrate on minimizers of the planar renormalized energy (Sandier and Serfaty 2015, Theorem 2). Its minimum also determines a next-order coefficient for optimal logarithmic energy on the sphere (Bétermin and Sandier 2018, Theorem 1.5). Petrache and Serfaty prove a conditional implication from universal optimality to minimality for Coulomb and Riesz renormalized energies in their configuration-energy normalization (Petrache and Serfaty 2020, Theorem 2 and Corollary 4). Their periodic comparison uses tori compatible with the reference lattice, not arbitrary square tori, and their planar conclusion is conditional on the Cohn–Kumar conjecture. The companion universal-optimality theorem supplies the Gaussian comparison used in that implication (OpenAI 2026, Theorem 1.1 and Corollary 1.3). The present proof treats the logarithmic functional directly and uses no universal-optimality result as an input.
+For the confining-potential class in their Theorem 2, Sandier and Serfaty show that microscopic limits of finite Coulomb minimizers concentrate on minimizers of the planar renormalized energy [18, Theorem 2]. Its minimum also determines a next-order coefficient for optimal logarithmic energy on the sphere [1, Theorem 1.5]. Petrache and Serfaty prove a conditional implication from universal optimality to minimality for Coulomb and Riesz renormalized energies in their configuration-energy normalization [13, Theorem 2 and Corollary 4]. Their periodic comparison uses tori compatible with the reference lattice, not arbitrary square tori, and their planar conclusion is conditional on the Cohn–Kumar conjecture. The companion universal-optimality theorem supplies the Gaussian comparison used in that implication [12, Theorem 1.1 and Corollary 1.3]. The present proof treats the logarithmic functional directly and uses no universal-optimality result as an input.
 
-Two geometric precedents help explain the finite-torus argument. Screening a point charge by a uniform disk yields a separation argument for planar confined logarithmic minimizers; see Lieb, Rougerie, and Yngvason (Lieb et al. 2018, Lemma 3 and Appendix A). Voronoi moment inequalities combine sharp cell comparisons with Euler’s bound on the average number of sides, as in Gruber’s proof of a theorem of Fejes Tóth (Gruber 1999). Affine bounds on cell energies, sharp at the regular hexagon, also appear in the Wasserstein model of Bourne, Peletier, and Theil for cells with at least three sides and mass $v\ge1.5\cdot10^{-4}$ (Bourne et al. 2014, Lemma 12). Here the cell comparison must arise from a trial potential that is continuous off the sites and has the prescribed logarithmic singularities. Its nonradial correction and the two scalar estimates of Section 5 address that requirement, including sectors whose perpendicular foot lies outside the corresponding edge.
+Two geometric precedents help explain the finite-torus argument. Screening a point charge by a uniform disk yields a separation argument for planar confined logarithmic minimizers; see Lieb, Rougerie, and Yngvason [10, Lemma 3 and Appendix A]. Voronoi moment inequalities combine sharp cell comparisons with Euler’s bound on the average number of sides, as in Gruber’s proof of a theorem of Fejes Tóth [9]. Affine bounds on cell energies, sharp at the regular hexagon, also appear in the Wasserstein model of Bourne, Peletier, and Theil for cells with at least three sides and mass $v\ge1.5\cdot10^{-4}$ [3, Lemma 12]. Here the cell comparison must arise from a trial potential that is continuous off the sites and has the prescribed logarithmic singularities. Its nonradial correction and the two scalar estimates of Section 5 address that requirement, including sectors whose perpendicular foot lies outside the corresponding edge.
 
 The whole-plane reduction below uses Sandier and Serfaty’s local energy estimates and periodic approximation. The finite-torus argument provides the comparison with the triangular value. Throughout, the conclusion concerns energy per unit area: compact changes to a configuration can preserve this value, so the minimum statement alone does not classify all minimizing configurations.
 
@@ -139,7 +139,7 @@ We distinguish the current normalization from the electric-field normalization o
 For such a current, the inverse component rotation $F=(j_2,-j_1)$ satisfies $\operatorname{div}F=\rho-b$ and $\operatorname{curl}F=0$. In the proof of Lemma 2.1, use the local model $\nabla\log|x-p|-(b/2)(x-p)$ near a charge and $-(b/2)x$ off the charges. This gives the radial singular expansion for $F$ and its rotated expansion for $j$. Orthogonality preserves the squared norm, so the same finite local puncture conclusion holds for $j$ and every smooth compactly supported cutoff. This local argument uses simplicity and local finiteness, but not the charge-growth bound.
 
 For balls and for $Q_s$, choose cutoffs $0\le\zeta_{U_s}\le1$, compactly supported in $U_s$, equal to one at distance at least one from its boundary, and with uniformly bounded gradients. Write $$\mathsf W_U(j)=\limsup_{s\to\infty}
-       \frac{\mathsf W(j,\zeta_{U_s})}{|U_s|}.$$ Theorem 1(1),(3),(4) of (Sandier and Serfaty 2012) makes the cutoff choice immaterial within each fixed shape family, gives a common finite minimum $$\begin{equation}
+       \frac{\mathsf W(j,\zeta_{U_s})}{|U_s|}.$$ Theorem 1(1),(3),(4) of [17] makes the cutoff choice immaterial within each fixed shape family, gives a common finite minimum $$\begin{equation}
 \tag{2.2}
  M=\min_{\mathcal C_1}\mathsf W_{\mathrm{ball}}
    =\min_{\mathcal C_1}\mathsf W_Q\in\mathbb R,
@@ -147,7 +147,7 @@ For balls and for $Q_s$, choose cutoffs $0\le\zeta_{U_s}\le1$, compactly support
  U_{s+1}\subset U_s+B_C,\qquad
  |U_{s+1}\setminus U_s|=O(s^\theta).$$ Balls and squares satisfy these conditions with $\theta=1$ and $|U_s-U_s|=4|U_s|$.
 
-We also use the following nonsharp consequences of Lemma 4.7 and Proposition 4.9 of (Sandier and Serfaty 2012). The latter is an application of the mass-displacement method developed for Ginzburg–Landau energies in (Sandier and Serfaty 2011). In the proof of their Lemma 4.7, Sandier and Serfaty credit the dyadic-shell argument for the local $L^r$ estimate to Struwe (Struwe 1994); the precise weighted estimate used here is theirs. Let $U$ be bounded and open, $\widehat U=U+B_1$, and suppose $\operatorname{div}j=0$ and $\operatorname{curl}j=\rho-1$ in $\widehat U$. The number $n$ of simple charges there is finite, and $j$ is locally square-integrable off those charges. For $1<r<2$, $0\le\xi\le1$ compactly supported in $U$, and $\|\nabla\xi\|_\infty\le C_0$, Lemma 4.7 implies $$\begin{equation}
+We also use the following nonsharp consequences of Lemma 4.7 and Proposition 4.9 of [17]. The latter is an application of the mass-displacement method developed for Ginzburg–Landau energies in [16]. In the proof of their Lemma 4.7, Sandier and Serfaty credit the dyadic-shell argument for the local $L^r$ estimate to Struwe [19]; the precise weighted estimate used here is theirs. Let $U$ be bounded and open, $\widehat U=U+B_1$, and suppose $\operatorname{div}j=0$ and $\operatorname{curl}j=\rho-1$ in $\widehat U$. The number $n$ of simple charges there is finite, and $j$ is locally square-integrable off those charges. For $1<r<2$, $0\le\xi\le1$ compactly supported in $U$, and $\|\nabla\xi\|_\infty\le C_0$, Lemma 4.7 implies $$\begin{equation}
 \tag{2.3}
  \int_U\xi^{r/2}|j|^r
  \le C_{r,C_0}(|U|+1)^{1-r/2}
@@ -276,7 +276,7 @@ By (2.12), every admissible periodic field with these charges differs from $-\na
 
 ### Separation of minimizers
 
-The argument uses a screened logarithmic potential and the minimum principle. A closely related exclusion argument for minimizing configurations of a planar confined system, with the same single-charge screening radius, appears in Lieb, Rougerie, and Yngvason (Lieb et al. 2018, Lemma 3 and Appendix A). The following proof treats the torus Green function and its background directly.
+The argument uses a screened logarithmic potential and the minimum principle. A closely related exclusion argument for minimizing configurations of a planar confined system, with the same single-charge screening radius, appears in Lieb, Rougerie, and Yngvason [10, Lemma 3 and Appendix A]. The following proof treats the torus Green function and its background directly.
 
 **Lemma 3.2** (Separation). *For every $n\geq2$, a minimizing configuration in Lemma 3.1 has torus distance at least $$r_*=\frac1{\sqrt\pi}$$ between distinct points. Its full lift to $\mathbb R^2$ has the same minimum-separation bound, including between different period translates of one torus point.*
 
@@ -305,7 +305,7 @@ Distances between lifts of distinct torus points are at least their torus distan
 
 We first record the sector geometry of separated square-torus minimizers. We then prove gluing and duality for compatible periodic Voronoi sectors on any flat torus. This separates the general identity from its square-torus and triangular applications. The construction uses general radial functions; their particular choice and triangular calibration will be given later. Its purpose is to turn a sector lower bound, established by two scalar estimates, into an energy bound for a whole configuration.
 
-The use of polygon inequalities together with an average of at most six sides is familiar from moment methods; see Gruber’s proof of Fejes Tóth’s theorem (Gruber 1999). A related affine cell bound for a Wasserstein interaction is sharp at the regular hexagon of unit mass; the result of Bourne, Peletier, and Theil (Bourne et al. 2014, arXiv v3, Lemma 12) assumes integer side counts at least three and cell mass $v\geq1.5\cdot10^{-4}$. Here we must construct a globally admissible singular potential before estimating its sector contributions. The arguments below supply that construction and the incidence count on a torus.
+The use of polygon inequalities together with an average of at most six sides is familiar from moment methods; see Gruber’s proof of Fejes Tóth’s theorem [9]. A related affine cell bound for a Wasserstein interaction is sharp at the regular hexagon of unit mass; the result of Bourne, Peletier, and Theil [3, arXiv v3, Lemma 12] assumes integer side counts at least three and cell mass $v\geq1.5\cdot10^{-4}$. Here we must construct a globally admissible singular potential before estimating its sector contributions. The arguments below supply that construction and the incidence count on a torus.
 
 ### Counting sectors on the torus
 
@@ -860,7 +860,7 @@ Every terminating decimal in this section denotes an exact rational number. An i
 
 ### Outward arithmetic and derivative intervals
 
-The calculation follows the interval inclusion principle: every operation encloses its exact result, and analytic remainders are added explicitly. Revol and Rouillier (Revol and Rouillier 2005) discuss this principle and the dependence of enclosure width on expressions and subdivision. We specify the integer operations here, so the proof’s arithmetic assumptions and rounding rules are explicit.
+The calculation follows the interval inclusion principle: every operation encloses its exact result, and analytic remainders are added explicitly. Revol and Rouillier [15] discuss this principle and the dependence of enclosure width on expressions and subdivision. We specify the integer operations here, so the proof’s arithmetic assumptions and rounding rules are explicit.
 
 Put $q=2^{144}$. A scalar interval is represented by integers $u\le v$, meaning $[u/q,v/q]$. Rational inputs are rounded down at the lower endpoint and up at the upper endpoint. Addition and negation are exact at this denominator. Multiplication takes the least and greatest of the four endpoint products, then divides by $q$ with outward rounding. If $0<u\le v$, inversion gives $$\left[\frac{\lfloor q^2/v\rfloor}{q},
        \frac{\lceil q^2/u\rceil}{q}\right];$$ negative intervals are treated by negation, and division by an interval containing zero is forbidden. Integer powers use repeated multiplication. For a positive interval, integer square roots give the enclosure $$\left[\frac{\lfloor\sqrt{uq}\rfloor}{q},
@@ -1207,15 +1207,15 @@ The comparison establishes the minimum of this logarithmic renormalized energy. 
 
 ### The spherical logarithmic-energy constant
 
-*Proof of Corollary 1.3.* Write $\mathcal A_m^{\mathrm{BS}}$ and $W_{\mathrm{ball}}$ for the admissible class and ball-cutoff energy of Bétermin and Sandier (Bétermin and Sandier 2018, Definitions 2.1–2.4). Their fields satisfy $\operatorname{div}E=2\pi(\nu_\Lambda-m)$ and $\mathop{\mathrm{curl}}E=0$, with the same charge-growth condition and local puncture functional as here. At $m=1$ the admissible class is our $\mathcal A_1$; the local integrability conventions agree by Lemma 2.1. The outer average, however, is over centered balls rather than squares.
+*Proof of Corollary 1.3.* Write $\mathcal A_m^{\mathrm{BS}}$ and $W_{\mathrm{ball}}$ for the admissible class and ball-cutoff energy of Bétermin and Sandier [1, Definitions 2.1–2.4]. Their fields satisfy $\operatorname{div}E=2\pi(\nu_\Lambda-m)$ and $\mathop{\mathrm{curl}}E=0$, with the same charge-growth condition and local puncture functional as here. At $m=1$ the admissible class is our $\mathcal A_1$; the local integrability conventions agree by Lemma 2.1. The outer average, however, is over centered balls rather than squares.
 
-The component rotation $j\mapsto F=(j_2,-j_1)$ is a bijection from $\mathcal C_1$ to $\mathcal A_{1/(2\pi)}^{\mathrm{BS}}$ and preserves the local energy. Thus (2.2) identifies $M$ with $\min_{\mathcal A_{1/(2\pi)}^{\mathrm{BS}}}W_{\mathrm{ball}}$. The scaling formula (Bétermin and Sandier 2018, equation (2.4)) gives $$\begin{equation}
+The component rotation $j\mapsto F=(j_2,-j_1)$ is a bijection from $\mathcal C_1$ to $\mathcal A_{1/(2\pi)}^{\mathrm{BS}}$ and preserves the local energy. Thus (2.2) identifies $M$ with $\min_{\mathcal A_{1/(2\pi)}^{\mathrm{BS}}}W_{\mathrm{ball}}$. The scaling formula [1, equation (2.4)] gives $$\begin{equation}
 \tag{8.1}
 \min_{\mathcal A_1^{\mathrm{BS}}}W_{\mathrm{ball}}
 =2\pi\left(M-\frac14\log(2\pi)\right).
 \end{equation}$$ Lemma 2.2 bounds every square-cutoff energy $W(E)$ below by the right-hand side. Conversely, periodic averaging applied to the scaled square-periodic sequence in the proof of Proposition 2.4 shows that its square-cutoff energies converge to that value. Theorem 1.1 therefore identifies it with $W(E_\triangle)$. This uses the common ball and square minimum in (2.2), not equality of those two energies for an arbitrary field. Lemma 2.3 does give equality for the periodic field $E_\triangle$, so this covolume-one triangular field attains the minimum in (8.1). Its value also agrees with the periodic lattice notation in Bétermin and Sandier: replacing their gradient $\nabla H_\Lambda$ by the admissible field $-\nabla H_\Lambda$ leaves the local squared-norm functional unchanged.
 
-Theorem 1.5 of (Bétermin and Sandier 2018) gives the form of (1.7) with $C$ in place of $C_{\mathrm{BHS}}$, where $$C=\frac1\pi\min_{\mathcal A_1^{\mathrm{BS}}}W_{\mathrm{ball}}
+Theorem 1.5 of [1] gives the form of (1.7) with $C$ in place of $C_{\mathrm{BHS}}$, where $$C=\frac1\pi\min_{\mathcal A_1^{\mathrm{BS}}}W_{\mathrm{ball}}
        +\frac12\log\pi+\log2,$$ and states that $C=C_{\mathrm{BHS}}$ exactly when the density-one triangular lattice attains this minimum. Its energy is precisely the ordered-pair sum on the unit sphere in $\mathbb R^3$ used here. In particular, the $-n(n-1)\log2$ term in its passage from the radius-$1/2$ sphere to the unit sphere contributes both $-n^2\log2$ and $+n\log2$; no further pair-counting or radius factor is needed. The equality clause now gives (1.8) and proves the corollary. ◻
 
 ## Supplementary coefficient and tail estimates
@@ -1385,40 +1385,40 @@ Put $A_0=2/10^{21}$. Each rational upper bound for $\mathfrak a$ above is less t
 
 ## References
 
-Bétermin, Laurent, and Etienne Sandier. 2018. “Renormalized Energy and Asymptotic Expansion of Optimal Logarithmic Energy on the Sphere.” *Constructive Approximation* 47 (1): 39–74. <https://doi.org/10.1007/s00365-016-9357-z>.
+**[1]** Laurent Bétermin and Etienne Sandier. Renormalized energy and asymptotic expansion of optimal logarithmic energy on the sphere. *Constructive Approximation*, 47(1):39–74, 2018. Numbered references in this paper use arXiv:1404.4485v5.
 
-Bethuel, Fabrice, Haïm Brezis, and Frédéric Hélein. 1994. *Ginzburg–Landau Vortices*. Vol. 13. Progress in Nonlinear Differential Equations and Their Applications. Birkhäuser. <https://doi.org/10.1007/978-1-4612-0287-5>.
+**[2]** Fabrice Bethuel, Haïm Brezis, and Frédéric Hélein. *Ginzburg–Landau Vortices*, volume 13 of *Progress in Nonlinear Differential Equations and Their Applications*. Birkhäuser, Boston, MA, 1994.
 
-Bourne, David P., Mark A. Peletier, and Florian Theil. 2014. “Optimality of the Triangular Lattice for a Particle System with Wasserstein Interaction.” *Communications in Mathematical Physics* 329: 117–40. <https://doi.org/10.1007/s00220-014-1965-5>.
+**[3]** David P. Bourne, Mark A. Peletier, and Florian Theil. Optimality of the triangular lattice for a particle system with Wasserstein interaction. *Communications in Mathematical Physics*, 329:117–140, 2014. Numbered references in this paper use arXiv:1212.6973v3.
 
-Brauchart, J. S., D. P. Hardin, and E. B. Saff. 2012. “The Next-Order Term for Optimal Riesz and Logarithmic Energy Asymptotics on the Sphere.” In *Recent Advances in Orthogonal Polynomials, Special Functions, and Their Applications*, vol. 578. Contemporary Mathematics. American Mathematical Society. <https://doi.org/10.1090/conm/578/11483>.
+**[4]** J. S. Brauchart, D. P. Hardin, and E. B. Saff. The next-order term for optimal Riesz and logarithmic energy asymptotics on the sphere. In *Recent Advances in Orthogonal Polynomials, Special Functions, and Their Applications*, volume 578 of *Contemporary Mathematics*, pages 31–61. American Mathematical Society, Providence, RI, 2012. Numbered references in this paper use arXiv:1202.4037v1.
 
-Cassels, J. W. S. 1959. “On a Problem of Rankin about the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 4 (2): 73–80. <https://doi.org/10.1017/S2040618500033906>.
+**[5]** J. W. S. Cassels. On a problem of Rankin about the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 4(2):73–80, 1959. See corrigendum, volume 6 (1963), page 116, and the 1964 corrections by Ennola and Diananda.
 
-Cassels, J. W. S. 1963. “Corrigendum.” *Proceedings of the Glasgow Mathematical Association* 6 (2): 116. <https://doi.org/10.1017/S2040618500034833>.
+**[6]** J. W. S. Cassels. Corrigendum. *Proceedings of the Glasgow Mathematical Association*, 6(2):116, 1963. Corrigendum to “On a problem of Rankin about the Epstein zeta-function”.
 
-Diananda, P. H. 1964. “Notes on Two Lemmas Concerning the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 6 (4): 202–4. <https://doi.org/10.1017/S2040618500035036>.
+**[7]** P. H. Diananda. Notes on two lemmas concerning the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 6(4):202–204, 1964.
 
-Ennola, Veikko. 1964. “A Lemma about the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 6 (4): 198–201. <https://doi.org/10.1017/S2040618500035024>.
+**[8]** Veikko Ennola. A lemma about the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 6(4):198–201, 1964.
 
-Gruber, Peter M. 1999. “A Short Analytic Proof of Fejes Tóth’s Theorem on Sums of Moments.” *Aequationes Mathematicae* 58: 291–95. <https://doi.org/10.1007/s000100050116>.
+**[9]** Peter M. Gruber. A short analytic proof of Fejes Tóth’s theorem on sums of moments. *Aequationes Mathematicae*, 58:291–295, 1999.
 
-Lieb, Elliott H., Nicolas Rougerie, and Jakob Yngvason. 2018. “Rigidity of the Laughlin Liquid.” *Journal of Statistical Physics* 172: 544–54. <https://doi.org/10.1007/s10955-018-2082-1>.
+**[10]** Elliott H. Lieb, Nicolas Rougerie, and Jakob Yngvason. Rigidity of the Laughlin liquid. *Journal of Statistical Physics*, 172:544–554, 2018.
 
-Montgomery, Hugh L. 1988. “Minimal Theta Functions.” *Glasgow Mathematical Journal* 30 (1): 75–85. <https://doi.org/10.1017/S0017089500007047>.
+**[11]** Hugh L. Montgomery. Minimal theta functions. *Glasgow Mathematical Journal*, 30(1):75–85, 1988.
 
-OpenAI. 2026. *Universal optimality of the triangular lattice*. OpenAI Math Release preprint [OAI:Universal-optimality-of-the-triangular-lattice-September-23-2026](https://github.com/openai/math/blob/main/preprints/Universal-optimality-of-the-triangular-lattice-September-23-2026/paper.pdf).
+**[12]** OpenAI. Universal optimality of the triangular lattice. OpenAI Math Release preprint [OAI:Universal-optimality-of-the-triangular-lattice-September-23-2026](https://github.com/openai/math/blob/main/preprints/Universal-optimality-of-the-triangular-lattice-September-23-2026/paper.pdf), 2026.
 
-Petrache, Mircea, and Sylvia Serfaty. 2020. “Crystallization for Coulomb and Riesz Interactions as a Consequence of the Cohn–Kumar Conjecture.” *Proceedings of the American Mathematical Society* 148: 3047–57. <https://doi.org/10.1090/proc/15003>.
+**[13]** Mircea Petrache and Sylvia Serfaty. Crystallization for Coulomb and Riesz interactions as a consequence of the Cohn–Kumar conjecture. *Proceedings of the American Mathematical Society*, 148:3047–3057, 2020. Numbered references in this paper use arXiv:1908.09714v3.
 
-Rankin, R. A. 1953. “A Minimum Problem for the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 1 (4): 149–58. <https://doi.org/10.1017/S2040618500035668>.
+**[14]** R. A. Rankin. A minimum problem for the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 1(4):149–158, 1953.
 
-Revol, Nathalie, and Fabrice Rouillier. 2005. “Motivations for an Arbitrary Precision Interval Arithmetic and the MPFI Library.” *Reliable Computing* 11: 275–90. <https://doi.org/10.1007/s11155-005-6891-y>.
+**[15]** Nathalie Revol and Fabrice Rouillier. Motivations for an arbitrary precision interval arithmetic and the MPFI library. *Reliable Computing*, 11:275–290, 2005.
 
-Sandier, Etienne, and Sylvia Serfaty. 2011. “Improved Lower Bounds for Ginzburg–Landau Energies via Mass Displacement.” *Analysis & PDE* 4 (5): 757–95. <https://doi.org/10.2140/apde.2011.4.757>.
+**[16]** Etienne Sandier and Sylvia Serfaty. Improved lower bounds for Ginzburg–Landau energies via mass displacement. *Analysis & PDE*, 4(5):757–795, 2011.
 
-Sandier, Etienne, and Sylvia Serfaty. 2012. “From the Ginzburg–Landau Model to Vortex Lattice Problems.” *Communications in Mathematical Physics* 313 (3): 635–743. <https://doi.org/10.1007/s00220-012-1508-x>.
+**[17]** Etienne Sandier and Sylvia Serfaty. From the Ginzburg–Landau model to vortex lattice problems. *Communications in Mathematical Physics*, 313(3):635–743, 2012. Numbered references in this paper use arXiv:1011.4617v2.
 
-Sandier, Etienne, and Sylvia Serfaty. 2015. “2D Coulomb Gases and the Renormalized Energy.” *The Annals of Probability* 43 (4): 2026–83. <https://doi.org/10.1214/14-AOP927>.
+**[18]** Etienne Sandier and Sylvia Serfaty. 2D Coulomb gases and the renormalized energy. *The Annals of Probability*, 43(4):2026–2083, 2015. Numbered references in this paper use arXiv:1201.3503v2.
 
-Struwe, Michael. 1994. “On the Asymptotic Behavior of Minimizers of the Ginzburg–Landau Model in 2 Dimensions.” *Differential and Integral Equations* 7: 1613–24.
+**[19]** Michael Struwe. On the asymptotic behavior of minimizers of the Ginzburg–Landau model in 2 dimensions. *Differential and Integral Equations*, 7:1613–1624, 1994.

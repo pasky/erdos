@@ -16,13 +16,13 @@ The exponent is common to all polynomials of a fixed degree. The constants $C_h,
 
 ### History and relation to earlier work
 
-Furstenberg (Furstenberg 1977) and Sárközy (Sárközy 1978) proved that every set of positive upper density contains two elements whose difference is a nonzero square. Their proofs introduced distinct ergodic and Fourier-analytic approaches to this recurrence problem. Kamae and Mendès France (Kamae and Mendès France 1978) extended the positive-density conclusion to nonconstant intersective polynomials. Together with the elementary congruence obstruction above, this identifies the exact class of nonconstant polynomials for which the density of an avoiding set must tend to zero.
+Furstenberg [Fur77] and Sárközy [Sár78] proved that every set of positive upper density contains two elements whose difference is a nonzero square. Their proofs introduced distinct ergodic and Fourier-analytic approaches to this recurrence problem. Kamae and Mendès France [KMF78] extended the positive-density conclusion to nonconstant intersective polynomials. Together with the elementary congruence obstruction above, this identifies the exact class of nonconstant polynomials for which the density of an avoiding set must tend to zero.
 
-The quantitative problem has driven successive refinements of Fourier density-increment methods. For square differences, Pintz, Steiger, and Szemerédi (Pintz et al. 1988) introduced a substantially stronger iteration. Bloom and Maynard (Bloom and Maynard 2022) later obtained the bound $$|A|\ll N(\log N)^{-c\log\log\log N}$$ using estimates for the additive energy of rational numbers. For general intersective polynomials, Lucier (Lucier 2006) established quantitative bounds using auxiliary polynomials adapted to progressions, and Rice (Rice 2019) developed stronger estimates by combining iteration with sieved polynomial sums. Arala (Arala 2024) extended the Bloom–Maynard bound to every intersective polynomial of degree at least two, with a constant depending only on the degree in the exponent of $\log N$.
+The quantitative problem has driven successive refinements of Fourier density-increment methods. For square differences, Pintz, Steiger, and Szemerédi [PSS88] introduced a substantially stronger iteration. Bloom and Maynard [BM22] later obtained the bound $$|A|\ll N(\log N)^{-c\log\log\log N}$$ using estimates for the additive energy of rational numbers. For general intersective polynomials, Lucier [Luc06] established quantitative bounds using auxiliary polynomials adapted to progressions, and Rice [Ric19] developed stronger estimates by combining iteration with sieved polynomial sums. Arala [Ara24] extended the Bloom–Maynard bound to every intersective polynomial of degree at least two, with a constant depending only on the degree in the exponent of $\log N$.
 
-Green and Sawhney (Green and Sawhney 2025, Theorem 1.1) obtained the square-difference bound $$|A|\ll N\exp(-c\sqrt{\log N}).$$ Their arithmetic level-$d$ inequality and random sparsification also underpin the recent general-polynomial result of Adajar et al. (Adajar et al. 2026, Theorem 1.1): for every fixed intersective $h$ of degree at least two and every fixed $0<\mu<1/2$, $$|A|\le N\exp\bigl(-c_{h,\mu}(\log N)^\mu\bigr)$$ for sufficiently large $N$. Theorem 1.1 gives a fixed power of $N$ as the saving, with an exponent common to all polynomials of each fixed degree.
+Green and Sawhney [GS25, Theorem 1.1] obtained the square-difference bound $$|A|\ll N\exp(-c\sqrt{\log N}).$$ Their arithmetic level-$d$ inequality and random sparsification also underpin the recent general-polynomial result of Adajar et al. [AAC+26, Theorem 1.1]: for every fixed intersective $h$ of degree at least two and every fixed $0<\mu<1/2$, $$|A|\le N\exp\bigl(-c_{h,\mu}(\log N)^\mu\bigr)$$ for sufficiently large $N$. Theorem 1.1 gives a fixed power of $N$ as the saving, with an exponent common to all polynomials of each fixed degree.
 
-The immediate predecessor for our method is the power-saving theorem for square differences in (OpenAI 2026, Theorem 1.1). Its proof uses finite reflection-positive tuple laws and a signed multilinear functional. Hatami (Hatami 2010) gave a multilinear Hölder criterion for graph norms. Reflection and Cauchy–Schwarz arguments are central to the reflection-group constructions of Conlon and Lee (Conlon and Lee 2017). Here we adapt the specific laws and functional of (OpenAI 2026), with all required proofs included, and supply the polynomial and change-of-scale arguments described next.
+The immediate predecessor for our method is the power-saving theorem for square differences in [Ope26, Theorem 1.1]. Its proof uses finite reflection-positive tuple laws and a signed multilinear functional. Hatami [Hat10] gave a multilinear Hölder criterion for graph norms. Reflection and Cauchy–Schwarz arguments are central to the reflection-group constructions of Conlon and Lee [CL17]. Here we adapt the specific laws and functional of [Ope26], with all required proofs included, and supply the polynomial and change-of-scale arguments described next.
 
 ### The argument and its principal constructions
 
@@ -38,7 +38,7 @@ Section 2 retains the auxiliary construction for an arbitrary fixed intersectiv
  \quad\text{for some }0\le i<D,
  \qquad D\mid\lambda(D),\quad \lambda(D)\le D^{\deg h}.$$ Consequently, a subset of an arithmetic progression of step $\lambda(D)$ which avoids nonzero $h_l$-differences becomes, in progression coordinates, a set avoiding nonzero $h_{lD}$-differences. Compatible roots in the rings $\mathbb Z_p$ produce the family. Its coefficient bounds, complete exponential-sum estimates, and local lifting properties are uniform in $l$.
 
-Applied to $g$, the family retains the zero valuation of the first nonzero coefficient at each chosen root: Lucier’s auxiliary formula preserves that valuation (Lucier 2006, sec. 8). Thus every auxiliary polynomial for $g$ is nonconstant as an element of $\mathbb F_p[x]$ for every prime $p$. For $p>k$, its reduced derivative is nonzero, and the complete-sum estimates hold beyond a threshold depending only on $k$. At the finitely many smaller primes below that threshold, interpolation bounds the derivative valuation at some argument in terms of $k$ and $p$. These bounds make the lifting moduli and cycle length, and hence the number of tuple slots below, depend only on $k$.
+Applied to $g$, the family retains the zero valuation of the first nonzero coefficient at each chosen root: Lucier’s auxiliary formula preserves that valuation [Luc06, Section 8]. Thus every auxiliary polynomial for $g$ is nonconstant as an element of $\mathbb F_p[x]$ for every prime $p$. For $p>k$, its reduced derivative is nonzero, and the complete-sum estimates hold beyond a threshold depending only on $k$. At the finitely many smaller primes below that threshold, interpolation bounds the derivative valuation at some argument in terms of $k$ and $p$. These bounds make the lifting moduli and cycle length, and hence the number of tuple slots below, depend only on $k$.
 
 ##### Weighted forms that follow the family.
 
@@ -72,7 +72,7 @@ Throughout this section, $h\in\mathbb Z[x]$ is the fixed intersective polynomial
 
 ### A family compatible with progressions
 
-We use Lucier’s auxiliary-polynomial construction (Lucier 2006, sec. 8), in which a compatible root at each prime determines the normalization by its multiplicity. We give the construction and its inheritance rule explicitly, before proving the uniform local estimates needed here.
+We use Lucier’s auxiliary-polynomial construction [Luc06, Section 8], in which a compatible root at each prime determines the normalization by its multiplicity. We give the construction and its inheritance rule explicitly, before proving the uniform local estimates needed here.
 
 Here $\mathbb Z_p$ denotes the ring of compatible residues modulo the powers of a prime $p$, and $v_p$ its valuation, with $v_p(0)=\infty$. Every nonzero element is a power of $p$ times a unit, so $\mathbb Z_p$ is an integral domain. Intersectivity supplies a root of $h$ modulo every power of $p$. These roots can be chosen compatibly: at each stage, retain a residue class having root extensions to arbitrarily high powers, and then choose one of its finitely many refinements with the same property. Fix the resulting root $\mathfrak z_p\in\mathbb Z_p$ for each prime $p$, and write $$h(\mathfrak z_p+X)=\sum_{j=m_p}^k b_{j,p}X^j,
  \qquad 1\le m_p\le k,
@@ -174,7 +174,7 @@ Otherwise choose $k$ integer representatives $x_1,\ldots,x_k$ in distinct such c
 
 ### Admissible residues and uniform lifting
 
-At large primes we have many regular arguments. At the finitely many smaller primes, the derivative may be divisible by $p$ at every argument. We therefore need, uniformly in $l$, an argument at which $v_p(h_l'(x))$ is bounded above. Restrictions based on derivative nonvanishing and lifting at prime powers also appear in Rice’s treatment (Rice 2019, secs. 2.4–2.5 and 4 of the revised version).
+At large primes we have many regular arguments. At the finitely many smaller primes, the derivative may be divisible by $p$ at every argument. We therefore need, uniformly in $l$, an argument at which $v_p(h_l'(x))$ is bounded above. Restrictions based on derivative nonvanishing and lifting at prime powers also appear in Rice’s treatment [Ric19, Sections 2.4–2.5 and 4 of the revised version].
 
 **Lemma 2.4** (A derivative bound at small primes). *Let $$V_k=(i^j)_{0\le i,j\le k-1},\qquad
  T_{k,p}=\max_{1\le j\le k}v_p(j).$$ For every prime $p<P_1$, one may take $$\begin{equation}
@@ -224,7 +224,7 @@ Label the $L$ vertices of a directed cycle by starting with any initial residue 
 
 We now construct the finite-field probability laws used to average products of Fourier lifts. The two requirements that must be reconciled are positivity across certain reflections of the slots and support on polynomial differences around a prescribed cycle. A measure obtained simply by imposing the cycle constraints need not have the required positivity. We instead construct several measures, indexed by sets of *marked blocks*. Marking a block removes some constraints and creates a positive contribution at reflections in that block. A suitably weighted mixture lets this contribution dominate the possible negative contribution from the corresponding unmarked measure.
 
-The graph estimates and marked-block construction adapt (OpenAI 2026, Lemmas 2.1–2.2 and Section 3). Here the edge constraints are weighted by regular fibers of $h_l$. Their directions are retained throughout: neither the polynomial value set nor its weight is assumed to be invariant under negation. We prove all the properties needed below, including the exact covariance under changes of the auxiliary parameter.
+The graph estimates and marked-block construction adapt [Ope26, Lemmas 2.1–2.2 and Section 3]. Here the edge constraints are weighted by regular fibers of $h_l$. Their directions are retained throughout: neither the polynomial value set nor its weight is assumed to be invariant under negation. We prove all the properties needed below, including the exact covariance under changes of the auxiliary parameter.
 
 ### Slots, reflections, and mixing of edge weights
 
@@ -425,7 +425,7 @@ For the rest of the paper, fix a choice of $P$ supplied by Proposition 3.8 and 
 
 ## Multilinear estimates and Fourier lifts
 
-The tuple laws of Section 3 provide two ways to control multilinear averages: reflection positivity compares different inputs with a single diagonal quantity, while conditional mixing suppresses large Fourier denominators. We develop both estimates, then prove the moment bounds needed to apply them to bounded functions on integer intervals. The signed-form estimates adapt (OpenAI 2026, Proposition 4.1 and Lemmas 4.2–4.3). We prove the needed estimates for the present laws, with changes of auxiliary parameter replacing the dilation invariance used in the square setting.
+The tuple laws of Section 3 provide two ways to control multilinear averages: reflection positivity compares different inputs with a single diagonal quantity, while conditional mixing suppresses large Fourier denominators. We develop both estimates, then prove the moment bounds needed to apply them to bounded functions on integer intervals. The signed-form estimates adapt [Ope26, Proposition 4.1 and Lemmas 4.2–4.3]. We prove the needed estimates for the present laws, with changes of auxiliary parameter replacing the dilation invariance used in the square setting.
 
 Retain the index set $V=\Pi^w$, where $\Pi$ consists of the permutation words on $[L]$, and put $d=|V|$; in particular, $d$ is even. Fix a positive integer $l$ and a finite set $\mathcal P$ of primes at least $P$. Set $$X_{\mathcal P}=\prod_{p\in\mathcal P}\mathbb F_p,
  \qquad
@@ -439,7 +439,7 @@ We also fix the Fourier notation on these spaces. Every frequency has a unique a
 
 ### Signed Hölder inequality and seminorm rules
 
-The finite reflection argument below follows the chessboard method of Fröhlich, Israel, Lieb and Simon (Fröhlich et al. 1978, Theorem 4.1); related reflection arguments for graph norms appear in Conlon and Lee (Conlon and Lee 2017, sec. 3). The standard passage from a multilinear Hölder inequality to a seminorm is also part of Hatami’s criterion for graph norms (Hatami 2010, Theorem 2.8 of the arXiv version); we prove both steps directly for the present tuple laws.
+The finite reflection argument below follows the chessboard method of Fröhlich, Israel, Lieb and Simon [FILS78, Theorem 4.1]; related reflection arguments for graph norms appear in Conlon and Lee [CL17, Section 3]. The standard passage from a multilinear Hölder inequality to a seminorm is also part of Hatami’s criterion for graph norms [Hat10, Theorem 2.8 of the arXiv version]; we prove both steps directly for the present tuple laws.
 
 **Proposition 4.1** (Signed Hölder inequality). *For every positive integer $l$, finite set $\mathcal P$ of primes at least $P$, and real functions $g,g_v:X_{\mathcal P}\to\mathbb R$, $$\begin{equation}
  Z_{l,\mathcal P}(g)\ge0,
@@ -513,7 +513,7 @@ Decompose $g_v=\sum_{q_B>R}g_{v,B}$ by exact supports. Both the domain summands 
 
 ### Fourier lifts and uniform moments
 
-A bounded function on an integer interval gives Fourier coefficients at rational frequencies. We transfer a finite set of these coefficients to $X_{\mathcal P}$. Such a transfer need not preserve pointwise bounds, so we prove bounds for every fixed moment, following the Fourier-lift argument of (OpenAI 2026, Lemmas 5.1–5.2). We must also allow arbitrary subfamilies of complete exact supports, because fixing some residue coordinates changes which denominators remain.
+A bounded function on an integer interval gives Fourier coefficients at rational frequencies. We transfer a finite set of these coefficients to $X_{\mathcal P}$. Such a transfer need not preserve pointwise bounds, so we prove bounds for every fixed moment, following the Fourier-lift argument of [Ope26, Lemmas 5.1–5.2]. We must also allow arbitrary subfamilies of complete exact supports, because fixing some residue coordinates changes which denominators remain.
 
 Let $I$ be a nonempty consecutive interval of integers and let $f:I\to\mathbb C$. Put $$\widehat f_I(\xi)=\frac1{|I|}\sum_{x\in I}f(x)e(-x\xi).$$ For $B\subseteq\mathcal P$, define its exact-support contribution $$f_B(z)=\sum_{q(\xi)=q_B}\widehat f_I(\xi)e(z\xi),$$ where the frequencies are characters of $X_{\mathcal P}$. For $Q\ge1$, the Fourier lift is $$\mathcal L_{I,\mathcal P,Q}f(z)
  =\sum_{\substack{B\subseteq\mathcal P\\q_B\le Q}}f_B(z)
@@ -601,7 +601,7 @@ We now choose the analytic parameters used in the kernel estimate and the scale 
 
 ## A signed kernel for polynomial differences
 
-The tuple laws constrain differences modulo primes. We now connect their pair distributions to actual values of $h_l$ at positive integers. The connection is a uniform Fourier approximation: a kernel supported on those polynomial values will have the same small-denominator multipliers as the pair law, up to a power error. We adapt the signed square-kernel construction of (OpenAI 2026, sec. 6, especially Proposition 6.1). For a general polynomial, we realize the pair distribution by weighting regular argument classes; its explicit probability formula is not needed.
+The tuple laws constrain differences modulo primes. We now connect their pair distributions to actual values of $h_l$ at positive integers. The connection is a uniform Fourier approximation: a kernel supported on those polynomial values will have the same small-denominator multipliers as the pair law, up to a power error. We adapt the signed square-kernel construction of [Ope26, Section 6, especially Proposition 6.1]. For a general polynomial, we realize the pair distribution by weighting regular argument classes; its explicit probability formula is not needed.
 
 ### Pair multipliers and the ordered estimate
 
@@ -636,7 +636,7 @@ All coefficients of $F$ are $O_h(a_l)$. Hence one integer $x_*\ge1$, depending o
  k_1(n)=\sum_{x_*<m\le X}\mathbf 1_{\{n=F(m)\}}\frac{F'(m)}N\rho_D(m)
              \sum_{\substack{u\le H\ \mathrm{squarefree}\\(u,D)=1}}B_u(m).
  \tag{5.3}
-\end{equation}$$ This kernel is supported on positive values in $F(\mathbb N_+)$. Derivative weights also occur in Lucier’s polynomial-difference argument (Lucier 2006, sec. 2). Here the factor $F'(m)/N$ is chosen so that the corresponding continuous measure becomes $dt/N$ under $t=F(x)$; it will therefore match the interval average in the model kernel.
+\end{equation}$$ This kernel is supported on positive values in $F(\mathbb N_+)$. Derivative weights also occur in Lucier’s polynomial-difference argument [Luc06, Section 2]. Here the factor $F'(m)/N$ is chosen so that the corresponding continuous measure becomes $dt/N$ under $t=F(x)$; it will therefore match the interval average in the model kernel.
 
 Use positive-sign transforms for the kernels, and write $$S_i(\alpha)=\sum_n k_i(n)e(\alpha n),\qquad
  V_N(y)=\frac1N\sum_{n=1}^N e(yn).$$ Our main analytic claim is the following.
@@ -764,7 +764,7 @@ Every term in $\mathcal B_1$ uses a positive shift $F(m)$ with $m\in\mathbb N_+$
 
 ## Comparison and cancellation
 
-We now establish the two estimates that will control the quantity $Y_l(N,A)$ in the induction. The first compares a lift, after some prime coordinates have been fixed, with lifts of sets on shorter intervals. The second gives a power saving when the small-prime residues permit every increment of the designated cycle. The progression comparison and the reduction to an ordered pair adapt the arguments of (OpenAI 2026, secs. 7–8, especially Propositions 7.2 and 8.1). For a modulus $D$, our progression spacing is $\lambda(D)$, and the change of variables also changes the auxiliary parameter from $l$ to $lD$.
+We now establish the two estimates that will control the quantity $Y_l(N,A)$ in the induction. The first compares a lift, after some prime coordinates have been fixed, with lifts of sets on shorter intervals. The second gives a power saving when the small-prime residues permit every increment of the designated cycle. The progression comparison and the reduction to an ordered pair adapt the arguments of [Ope26, Sections 7–8, especially Propositions 7.2 and 8.1]. For a modulus $D$, our progression spacing is $\lambda(D)$, and the change of variables also changes the auxiliary parameter from $l$ to $lD$.
 
 For positive integers $l,N$, let $$\mathcal Y_l(N)=\max_A Y_l(N,A),$$ where the maximum is over all $A\subseteq[N]$ satisfying $$\begin{equation}
 \tag{6.1}
@@ -896,7 +896,7 @@ Both parts of (6.7) are consequently bounded, uniformly in the conditioning and 
 
 ## Exceptional terms and the power-saving induction
 
-We now combine the shorter-scale comparison with cancellation on good residue assignments to obtain a recurrence for $\mathcal Y_l(N)$. The exceptional parts of the prime laws contribute a summable family of additional shorter-scale terms. The expansion and contraction argument adapt (OpenAI 2026, Proposition 9.2 and Theorem 9.3).
+We now combine the shorter-scale comparison with cancellation on good residue assignments to obtain a recurrence for $\mathcal Y_l(N)$. The exceptional parts of the prime laws contribute a summable family of additional shorter-scale terms. The expansion and contraction argument adapt [Ope26, Proposition 9.2 and Theorem 9.3].
 
 Retain all parameters from (4.8). For $B\subseteq\mathcal P_N$, put $$D_B=M_0q_B,\qquad
  n_B=\left\lceil\frac{N}{\lambda(D_B)}\right\rceil,
@@ -1029,30 +1029,30 @@ Now let $N\ge M$ and let $A\subseteq[N]$ satisfy the avoidance condition of the 
 
 ## References
 
-Adajar, Carlo Francisco E., Rishika Agrawal, Mukul Rai Choudhuri, et al. 2026. *Extensions of the Furstenberg–Sárközy Theorem via the Arithmetic Level-$d$ Inequality*. [arXiv:2605.16216v2](https://arxiv.org/abs/2605.16216v2). <https://doi.org/10.48550/arXiv.2605.16216>.
+**[AAC+26]** Carlo Francisco E. Adajar, Rishika Agrawal, Mukul Rai Choudhuri, Chian Yeong Chuah, Steve Fan, Swaroop Hegde, Andrew Lott, Krishnamohan Nandakumar, and Nagendar Reddy Ponagandla. Extensions of the Furstenberg–Sárközy theorem via the arithmetic level-$d$ inequality. [arXiv:2605.16216v2](https://arxiv.org/abs/2605.16216v2), 2026. Version 2, August 28, 2026.
 
-Arala, Nuno. 2024. “A Maximal Extension of the Bloom–Maynard Bound for Sets Without Square Differences.” *Functiones Et Approximatio Commentarii Mathematici* 71 (2): 271–96. <https://doi.org/10.7169/facm/2158>.
+**[Ara24]** Nuno Arala. A maximal extension of the Bloom–Maynard bound for sets without square differences. *Functiones et Approximatio Commentarii Mathematici*, 71(2):271–296, 2024. [doi:10.7169/facm/2158](https://doi.org/10.7169/facm/2158). Preprint (title uses “with no square differences”): [arXiv:2303.03345v1](https://arxiv.org/abs/2303.03345v1), March 6, 2023.
 
-Bloom, Thomas F., and James Maynard. 2022. “A New Upper Bound for Sets with No Square Differences.” *Compositio Mathematica* 158 (8): 1777–98. <https://doi.org/10.1112/S0010437X22007679>.
+**[BM22]** Thomas F. Bloom and James Maynard. A new upper bound for sets with no square differences. *Compositio Mathematica*, 158(8):1777–1798, 2022. [doi:10.1112/S0010437X22007679](https://doi.org/10.1112/S0010437X22007679); [arXiv:2011.13266](https://arxiv.org/abs/2011.13266).
 
-Conlon, David, and Joonkyung Lee. 2017. “Finite Reflection Groups and Graph Norms.” *Advances in Mathematics* 315: 130–65. <https://doi.org/10.1016/j.aim.2017.05.009>.
+**[CL17]** David Conlon and Joonkyung Lee. Finite reflection groups and graph norms. *Advances in Mathematics*, 315:130–165, 2017. [doi:10.1016/j.aim.2017.05.009](https://doi.org/10.1016/j.aim.2017.05.009); [arXiv:1611.05784](https://arxiv.org/abs/1611.05784).
 
-Fröhlich, Jürg, Robert B. Israel, Elliott H. Lieb, and Barry Simon. 1978. “Phase Transitions and Reflection Positivity. I. General Theory and Long Range Lattice Models.” *Communications in Mathematical Physics* 62 (1): 1–34. <https://doi.org/10.1007/BF01940327>.
+**[FILS78]** Jürg Fröhlich, Robert B. Israel, Elliott H. Lieb, and Barry Simon. Phase transitions and reflection positivity. I. general theory and long range lattice models. *Communications in Mathematical Physics*, 62(1):1–34, 1978. [doi:10.1007/BF01940327](https://doi.org/10.1007/BF01940327).
 
-Furstenberg, H. 1977. “Ergodic Behavior of Diagonal Measures and a Theorem of Szemerédi on Arithmetic Progressions.” *Journal d’Analyse Mathématique* 31: 204–56. <https://doi.org/10.1007/BF02813304>.
+**[Fur77]** H. Furstenberg. Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions. *Journal d’Analyse Mathématique*, 31:204–256, 1977. [doi:10.1007/BF02813304](https://doi.org/10.1007/BF02813304).
 
-Green, Ben, and Mehtaab Sawhney. 2025. *New Bounds for the Furstenberg–Sárközy Theorem*. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2). <https://doi.org/10.48550/arXiv.2411.17448>.
+**[GS25]** Ben Green and Mehtaab Sawhney. New bounds for the Furstenberg–Sárközy theorem. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2), 2025. Version 2, January 10, 2025.
 
-Hatami, Hamed. 2010. “Graph Norms and Sidorenko’s Conjecture.” *Israel Journal of Mathematics* 175: 125–50. <https://doi.org/10.1007/s11856-010-0005-1>.
+**[Hat10]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. [doi:10.1007/s11856-010-0005-1](https://doi.org/10.1007/s11856-010-0005-1); [arXiv:0806.0047](https://arxiv.org/abs/0806.0047).
 
-Kamae, T., and M. Mendès France. 1978. “Van Der Corput’s Difference Theorem.” *Israel Journal of Mathematics* 31 (3–4): 335–42. <https://doi.org/10.1007/BF02761498>.
+**[KMF78]** T. Kamae and M. Mendès France. Van der Corput’s difference theorem. *Israel Journal of Mathematics*, 31(3–4):335–342, 1978. [doi:10.1007/BF02761498](https://doi.org/10.1007/BF02761498).
 
-Lucier, Jason. 2006. “Intersective Sets Given by a Polynomial.” *Acta Arithmetica* 123 (1): 57–95. <https://doi.org/10.4064/aa123-1-4>.
+**[Luc06]** Jason Lucier. Intersective sets given by a polynomial. *Acta Arithmetica*, 123(1):57–95, 2006. [doi:10.4064/aa123-1-4](https://doi.org/10.4064/aa123-1-4).
 
-OpenAI. 2026. *A power saving for square-difference-free sets*. OpenAI Math Release preprint [OAI:A-power-saving-for-square-difference-free-sets-September-24-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026/paper.pdf).
+**[Ope26]** OpenAI. A power saving for square-difference-free sets. OpenAI Math Release preprint [OAI:A-power-saving-for-square-difference-free-sets-September-24-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026/paper.pdf), 2026.
 
-Pintz, J., W. L. Steiger, and E. Szemerédi. 1988. “On Sets of Natural Numbers Whose Difference Set Contains No Squares.” *Journal of the London Mathematical Society*, 2nd series, vol. 37 (2): 219–31. <https://doi.org/10.1112/jlms/s2-37.2.219>.
+**[PSS88]** J. Pintz, W. L. Steiger, and E. Szemerédi. On sets of natural numbers whose difference set contains no squares. *Journal of the London Mathematical Society*, 37(2):219–231, 1988. [doi:10.1112/jlms/s2-37.2.219](https://doi.org/10.1112/jlms/s2-37.2.219).
 
-Rice, Alex. 2019. “A Maximal Extension of the Best-Known Bounds for the Furstenberg–Sárközy Theorem.” *Acta Arithmetica* 187 (1): 1–41. <https://doi.org/10.4064/aa170828-26-8>.
+**[Ric19]** Alex Rice. A maximal extension of the best-known bounds for the Furstenberg–Sárközy theorem. *Acta Arithmetica*, 187(1):1–41, 2019. [doi:10.4064/aa170828-26-8](https://doi.org/10.4064/aa170828-26-8). Revised version: [arXiv:1612.01760v5](https://arxiv.org/abs/1612.01760v5), June 8, 2020.
 
-Sárközy, A. 1978. “On Difference Sets of Sequences of Integers. I.” *Acta Mathematica Academiae Scientiarum Hungaricae* 31 (1–2): 125–49. <https://doi.org/10.1007/BF01896079>.
+**[Sár78]** A. Sárközy. On difference sets of sequences of integers. I. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(1–2):125–149, 1978. [doi:10.1007/BF01896079](https://doi.org/10.1007/BF01896079).

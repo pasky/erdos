@@ -12,9 +12,9 @@ For three points $p,q,r\in\mathbb R^2$, write $$\operatorname{Area}(pqr)=\frac12
  \qquad
  \Delta(n)=\max_{\substack{P\subset[0,1]^2\\|P|=n}}\Delta(P).$$ The minimum is over all unordered triples of distinct points. In particular, a collinear triple makes $\Delta(P)=0$. The maximum defining $\Delta(n)$ exists: the minimum area is continuous on the compact space of ordered $n$-tuples, it is positive for suitable points on a parabola, and a tuple with a repeated point has minimum area zero.
 
-The original Heilbronn conjecture asked whether $\Delta(n)=O(n^{-2})$; see Roth (Roth 1951, 198). Two elementary constructions attain this scale. Erdős’s finite-field parabola, recorded in Roth (Roth 1951, Appendix), gives a grid configuration whose triangle determinants are nonzero integers before scaling. Random sampling followed by deleting one point from each small triangle also gives $\Delta(n)\gg n^{-2}$. Komlós, Pintz and Szemerédi improved this to $\Delta(n)\gg(\log n)/n^2$, disproving the original conjecture (Komlós et al. 1982). Their argument represents the small-area triples in a random point set as edges of a hypergraph, removes short cycles, and uses a stronger independence bound to select a large subset containing none of those triples (Komlós et al. 1982, sec. 2).
+The original Heilbronn conjecture asked whether $\Delta(n)=O(n^{-2})$; see Roth [12, p. 198]. Two elementary constructions attain this scale. Erdős’s finite-field parabola, recorded in Roth [12, Appendix], gives a grid configuration whose triangle determinants are nonzero integers before scaling. Random sampling followed by deleting one point from each small triangle also gives $\Delta(n)\gg n^{-2}$. Komlós, Pintz and Szemerédi improved this to $\Delta(n)\gg(\log n)/n^2$, disproving the original conjecture [10]. Their argument represents the small-area triples in a random point set as edges of a hypergraph, removes short cycles, and uses a stronger independence bound to select a large subset containing none of those triples [10, Section 2].
 
-The almost $n^{-2}$ formulation, discussed in Zakharov’s survey (Zakharov 2026, sec. 3), asks whether, for every $\varepsilon>0$, there are constants $C_\varepsilon$ and $n_0(\varepsilon)$ such that $$\begin{equation}
+The almost $n^{-2}$ formulation, discussed in Zakharov’s survey [18, Section 3], asks whether, for every $\varepsilon>0$, there are constants $C_\varepsilon$ and $n_0(\varepsilon)$ such that $$\begin{equation}
 \tag{1.1}
  \Delta(n)\le C_\varepsilon n^{-2+\varepsilon}
  \qquad(n\ge n_0(\varepsilon)).
@@ -25,9 +25,9 @@ The almost $n^{-2}$ formulation, discussed in Zakharov’s survey (Zakharov 202
 
 In particular, $\Delta(n)\ge n^{-2+\eta/2}$ for every sufficiently large $n$. The ratio of the theorem’s lower bound to $n^{-2+\eta/2}$ is $c_1n^{\eta/2}\to\infty$, which contradicts (1.1) at $\varepsilon=\eta/2$. Section 8 gives an explicit, though extremely small, admissible exponent.
 
-On the upper-bound side, Roth (Roth 1951) proved the first $o(n^{-1})$ estimate by a density-increment argument, followed by refinements of Schmidt (Schmidt 1972) and Roth (Roth 1972a, 1972b). Komlós, Pintz and Szemerédi (Komlós et al. 1981) refined Roth’s analytic method to obtain $\Delta(n)\ll_\varepsilon n^{-8/7+\varepsilon}$. Cohen, Pohoata and Zakharov developed new incidence-geometric approaches, first obtaining $\Delta(n)\le n^{-8/7-1/2000}$ for sufficiently large $n$ (Cohen et al. 2023, Theorem 1.1), and subsequently proving $\Delta(n)\ll_\varepsilon n^{-7/6+\varepsilon}$ for every $\varepsilon>0$ (Cohen et al. 2025, Theorem 1.8).
+On the upper-bound side, Roth [12] proved the first $o(n^{-1})$ estimate by a density-increment argument, followed by refinements of Schmidt [16] and Roth [13, 14]. Komlós, Pintz and Szemerédi [9] refined Roth’s analytic method to obtain $\Delta(n)\ll_\varepsilon n^{-8/7+\varepsilon}$. Cohen, Pohoata and Zakharov developed new incidence-geometric approaches, first obtaining $\Delta(n)\le n^{-8/7-1/2000}$ for sufficiently large $n$ [4, Theorem 1.1], and subsequently proving $\Delta(n)\ll_\varepsilon n^{-7/6+\varepsilon}$ for every $\varepsilon>0$ [5, Theorem 1.8].
 
-Earlier preprints claim stronger power lower bounds than ours, with unresolved issues in the following versions. Ellmann’s version 12 acknowledges an unproved local uniformity assumption and describes the argument as heuristic (Ellmann 2025, 3); the deletion estimate uses this assumption (Ellmann 2025, Theorem 4, pp. 5–6). In Agama’s version 13, Theorem 4.1 (Agama 2026, 12–13), counting the center with the boundary points introduces a collinear triple consisting of the two endpoints of a diameter and their midpoint. Omitting the center leaves the every-triple estimate unproved, since the argument estimates triangles formed by the center and adjacent boundary points. These objections concern the cited arguments, not the impossibility of their asserted bounds.
+Earlier preprints claim stronger power lower bounds than ours, with unresolved issues in the following versions. Ellmann’s version 12 acknowledges an unproved local uniformity assumption and describes the argument as heuristic [6, p. 3]; the deletion estimate uses this assumption [6, Theorem 4, pp. 5–6]. In Agama’s version 13, Theorem 4.1 [1, pp. 12–13], counting the center with the boundary points introduces a collinear triple consisting of the two endpoints of a diameter and their midpoint. Omitting the center leaves the every-triple estimate unproved, since the argument estimates triangles formed by the center and adjacent boundary points. These objections concern the cited arguments, not the impossibility of their asserted bounds.
 
 ### The two congruence conditions
 
@@ -36,7 +36,7 @@ The proof works first with integer columns $u=(u_1,u_2,u_3)^{\mathsf T}$ in a bo
  \frac{|\det A|}{2A_{31}A_{32}A_{33}}.
 \end{equation}$$ We therefore seek many columns for which proportional pairs and triples with small absolute determinant are sufficiently rare to delete.
 
-The first congruence condition separates most triples before they are lifted to integers. Give each column an independent uniform label $\xi\in\mathbb F_{r^d}$, where $d$ is fixed and odd and the prime $r$ grows. The columns $(1,\xi,\xi^2)^{\mathsf T}$ have nonzero determinant whenever their labels are distinct. This is the finite-field parabola underlying Erdős’s construction recorded in Roth (Roth 1951, Appendix). Taking the field norm to $\mathbb F_r$ produces an alternating polynomial in three groups of coordinates. We express that polynomial as a sum of monomial determinants and encode it in one designated coefficient of a determinant whose entries are base-$B$ expansions. Large-base control of carries has classical precedents in the progression-free constructions of Salem and Spencer (Salem and Spencer 1942) and Behrend (Behrend 1946); here it isolates a determinant coefficient. Modulo $h=B^k$, with $k$ fixed, distinct labels then preclude a small determinant. Independent choices of digits with the prescribed residues leave enough randomness even when labels coincide.
+The first congruence condition separates most triples before they are lifted to integers. Give each column an independent uniform label $\xi\in\mathbb F_{r^d}$, where $d$ is fixed and odd and the prime $r$ grows. The columns $(1,\xi,\xi^2)^{\mathsf T}$ have nonzero determinant whenever their labels are distinct. This is the finite-field parabola underlying Erdős’s construction recorded in Roth [12, Appendix]. Taking the field norm to $\mathbb F_r$ produces an alternating polynomial in three groups of coordinates. We express that polynomial as a sum of monomial determinants and encode it in one designated coefficient of a determinant whose entries are base-$B$ expansions. Large-base control of carries has classical precedents in the progression-free constructions of Salem and Spencer [15] and Behrend [3]; here it isolates a determinant coefficient. Modulo $h=B^k$, with $k$ fixed, distinct labels then preclude a small determinant. Independent choices of digits with the prescribed residues leave enough randomness even when labels coincide.
 
 A common random matrix of determinant one mixes the three rows modulo $h$ without changing their determinant. Conditional on the digit columns, the resulting matrix is uniform on a special-linear orbit. The rows of every integral lift lie in a lattice whose index, together with the orbit size, can be read from a diagonal form. An anisotropic lattice count controls lifts of any fixed nonzero determinant, while a conditional moment bound handles singular digit matrices and repeated labels.
 
@@ -58,7 +58,7 @@ We prove a uniform bound for integer matrices whose rows belong to a fixed latti
 
 All lengths in this section are Euclidean. The determinant of a lattice means its covolume in its real span. For a lattice $L$ of positive rank $s$, choose $v_1,\ldots,v_s$ successively, with $v_i$ a shortest lattice vector outside $\operatorname{span}_{\mathbb R}(v_1,\ldots,v_{i-1})$, and put $\lambda_i=|v_i|$. In particular, $0<\lambda_1\le\cdots\le\lambda_s$. The notation $A\ll B$ means $A\le CB$ for an absolute constant $C$, unless dependence is indicated.
 
-The classical geometry-of-numbers antecedent is Minkowski’s second theorem on successive minima; see Henk (Henk 2002, Theorem 1.3). Only the weaker fixed-dimensional Euclidean product bound below is needed here, and we include its proof.
+The classical geometry-of-numbers antecedent is Minkowski’s second theorem on successive minima; see Henk [8, Theorem 1.3]. Only the weaker fixed-dimensional Euclidean product bound below is needed here, and we include its proof.
 
 **Lemma 2.1** (Successive lengths). *For a lattice $L$ of positive rank $s$ and the lengths just defined, $$\det L\le\prod_{i=1}^s\lambda_i\le s^{s/2}\det L.$$ Consequently, the lattice generated by $v_1,\ldots,v_s$ has index at most $s^{s/2}$ in $L$.*
 
@@ -113,7 +113,7 @@ Fix $$\begin{equation}
 \tag{3.1}
  d=41,\qquad M=\binom{4d-1}{d},\qquad
  T=\binom{M}{3},\qquad k=T^2+1.
-\end{equation}$$ Let $r$ be an odd prime. We recall the elementary finite-field facts needed here; see (Lidl and Niederreiter 1994, chap. 2) for background. In a splitting field over $\mathbb F_r$, the roots of $X^{r^d}-X$ form a field: the Frobenius identity shows closure under addition, subtraction and multiplication, and nonzero roots are closed under inversion. The derivative is $-1$, so there are exactly $r^d$ distinct roots. This field, denoted $K=\mathbb F_{r^d}$, consequently has dimension $d$ over $\mathbb F_r$. Its automorphism $t\mapsto t^r$ has $d$th power equal to the identity, and its fixed elements are exactly the $r$ roots of $X^r-X$, namely $\mathbb F_r$. For $t\in K$, the product $\prod_{j=0}^{d-1}t^{r^j}$ is therefore fixed by Frobenius and belongs to $\mathbb F_r$; it is nonzero if $t\ne0$. Choose an $\mathbb F_r$-basis $\beta_1,\ldots,\beta_d$ of $K$. For a group $X=(X_{i\nu})_{1\le i\le3,\,1\le\nu\le d}$ of $3d$ variables, define $$Z(X)=\left(\sum_{\nu=1}^d\beta_\nu X_{1\nu},
+\end{equation}$$ Let $r$ be an odd prime. We recall the elementary finite-field facts needed here; see [11, Chapter 2] for background. In a splitting field over $\mathbb F_r$, the roots of $X^{r^d}-X$ form a field: the Frobenius identity shows closure under addition, subtraction and multiplication, and nonzero roots are closed under inversion. The derivative is $-1$, so there are exactly $r^d$ distinct roots. This field, denoted $K=\mathbb F_{r^d}$, consequently has dimension $d$ over $\mathbb F_r$. Its automorphism $t\mapsto t^r$ has $d$th power equal to the identity, and its fixed elements are exactly the $r$ roots of $X^r-X$, namely $\mathbb F_r$. For $t\in K$, the product $\prod_{j=0}^{d-1}t^{r^j}$ is therefore fixed by Frobenius and belongs to $\mathbb F_r$; it is nonzero if $t\ne0$. Choose an $\mathbb F_r$-basis $\beta_1,\ldots,\beta_d$ of $K$. For a group $X=(X_{i\nu})_{1\le i\le3,\,1\le\nu\le d}$ of $3d$ variables, define $$Z(X)=\left(\sum_{\nu=1}^d\beta_\nu X_{1\nu},
              \sum_{\nu=1}^d\beta_\nu X_{2\nu},
              \sum_{\nu=1}^d\beta_\nu X_{3\nu}\right)^{\mathsf T}.$$ For three disjoint variable groups $X^{(1)},X^{(2)},X^{(3)}$, put $$\mathcal D=\det\bigl(Z(X^{(1)}),Z(X^{(2)}),Z(X^{(3)})\bigr).$$ Let $\sigma$ act on this polynomial ring by applying $c\mapsto c^r$ to coefficients in $K$ and fixing every variable. Define $$\begin{equation}
 \tag{3.2}
@@ -149,7 +149,7 @@ For a label $\xi\in K$, set $z(\xi)=(1,\xi,\xi^2)^{\mathsf T}$ and let $X(\xi)\i
 
 ### Encoding the polynomial in a base expansion
 
-Two prime choices will keep the construction parameters polynomial in $r$. We use the following sufficiently-large form of Bertrand’s postulate; Appendix A gives its elementary binomial proof, following Erdős (Erdős 1932).
+Two prime choices will keep the construction parameters polynomial in $r$. We use the following sufficiently-large form of Bertrand’s postulate; Appendix A gives its elementary binomial proof, following Erdős [7].
 
 **Lemma 3.2**. *For every sufficiently large integer $n$, there is a prime $p$ with $n<p\le2n$.*
 
@@ -200,7 +200,7 @@ We now describe the lattice of possible rows after a change of coordinates modul
 
 Throughout this section, let $B$ be a prime, let $k\geq 1$ be an integer, and put $h=B^k$ and $R_h=\mathbb Z/h\mathbb Z$. We interpret $B^k$ as zero when it occurs as an entry of a matrix over $R_h$, but as the positive integer $h$ in counting formulas. The row span of a matrix over $R_h$ is the $R_h$-submodule generated by its rows.
 
-The diagonal reduction below is the prime-power-ring form of Smith’s normal form; see Smith (Smith 1861, Articles 12–16) for the classical integer reduction and determinantal divisors. We include the elementary proof needed here, including singular cases.
+The diagonal reduction below is the prime-power-ring form of Smith’s normal form; see Smith [17, Articles 12–16] for the classical integer reduction and determinantal divisors. We include the elementary proof needed here, including singular cases.
 
 **Lemma 4.1** (Diagonal form and the row lattice). *Let $C\in M_3(R_h)$ have at least one unit entry. There are invertible matrices $P,Q\in\operatorname{GL}_3(R_h)$ and integers $0\leq b\leq e\leq k$ such that $$C=P\,\operatorname{diag}(1,B^b,B^e)\,Q.$$ Set $D=B^b$, $E=B^e$, and $I=DE$, all as positive integers. The subgroup $$\Lambda_C=\{v\in\mathbb Z^3:
        v\bmod h\text{ belongs to the row span of }C\}$$ is a full lattice satisfying $$\begin{equation}
@@ -279,7 +279,7 @@ Retain the main modulus $h\ge 2$, and choose a prime $q$ with $$\begin{equation}
  w=\left\lfloor\frac{q}{1000H^2}\right\rfloor.
 \end{equation}$$ Lemma 3.2 supplies such a prime for all sufficiently large $h$. These choices imply $q\ge 2000H^2$, and hence $$\frac{q}{2000H^2}\le w\le\frac{q}{1000H^2}.$$ We identify the integers $0,\ldots,w-1$ with their residues in $\mathbb F_q$.
 
-The following construction uses an affine part of a classical elliptic quadric, a cap with no three collinear points; see Barlotti (Barlotti 1956, 248). The proof also gives the required intersection with a small box.
+The following construction uses an affine part of a classical elliptic quadric, a cap with no three collinear points; see Barlotti [2, p. 248]. The proof also gives the required intersection with a small box.
 
 **Lemma 5.1**. *Let $q$ be an odd prime and $1\le w\le q$ an integer. There is a set $S\subset\{0,\ldots,w-1\}^3\subset\mathbb F_q^3$ with $|S|\ge w^3/q$ such that no affine line contains three distinct points of $S$.*
 
@@ -531,7 +531,7 @@ The affine and equal-pair cases cover the support of $W$. Their bounds are unifo
 
 The preceding estimates allow us to remove every repeated projected point and every small triangle while retaining many columns. We first construct a set for each sufficiently large prime $r$, compare its area bound with its cardinality, and then pass to every sufficiently large cardinality. All constants below may depend on the fixed integer $k$; none depends on the growing prime $r$.
 
-This final step is an elementary alteration argument. The earlier probabilistic lower bound of Komlós, Pintz and Szemerédi (Komlós et al. 1982) uses a stronger hypergraph independence lemma; no such lemma is needed below.
+This final step is an elementary alteration argument. The earlier probabilistic lower bound of Komlós, Pintz and Szemerédi [10] uses a stronger hypergraph independence lemma; no such lemma is needed below.
 
 *Proof of Theorem 1.1.* Keep the parameters constructed above, with $d=41$, and set $$\begin{equation}
 \tag{8.1}
@@ -583,7 +583,7 @@ For a sufficiently large integer $n$, put $m=\lceil(n/A_k)^{1/\alpha}\rceil$. Le
 
 ## An elementary prime-interval estimate
 
-We prove Lemma 3.2, the form of Bertrand’s postulate used to choose the two moduli and to pass to every sufficiently large cardinality. The argument is the elementary binomial proof of Erdős (Erdős 1932).
+We prove Lemma 3.2, the form of Bertrand’s postulate used to choose the two moduli and to pass to every sufficiently large cardinality. The argument is the elementary binomial proof of Erdős [7].
 
 *Proof of Lemma 3.2.* Write $P(x)=\prod_{p\le x}p$, where the product is over primes. First, $P(x)<4^x$ for $x\ge1$. It suffices to prove this for integer $x$ by induction. The cases $x=1,2$ are immediate. An even integer $x>2$ is composite, so $P(x)=P(x-1)$. For $x=2m+1$, every prime in $(m+1,2m+1]$ divides $\binom{2m+1}{m}$. The two central binomial coefficients are equal and their sum is strictly less than $2^{2m+1}$, whence $\binom{2m+1}{m}<4^m$. Thus $$P(2m+1)\le P(m+1)\binom{2m+1}{m}<4^{2m+1}.$$
 
@@ -594,38 +594,38 @@ Suppose now that there is no prime in $(n,2n]$. The largest binomial coefficient
 
 ## References
 
-Agama, Theophilus. 2026. *New Bounds for the Heilbronn Triangle Problem*. <https://arxiv.org/abs/2006.05269v13>.
+**[1]** Theophilus Agama. New bounds for the Heilbronn triangle problem, 2026. [arXiv:2006.05269v13](https://arxiv.org/abs/2006.05269v13), 6 May 2026.
 
-Barlotti, Adriano. 1956. “Un’osservazione Sulle $k$-Calotte Degli Spazi Lineari Finiti Di Dimensione Tre.” *Bollettino Dell’Unione Matematica Italiana (3)* 11 (2): 248–52. <https://www.bdim.eu/item?id=BUMI_1956_3_11_2_248_0>.
+**[2]** Adriano Barlotti. Un’osservazione sulle $k$-calotte degli spazi lineari finiti di dimensione tre. *Bollettino dell’Unione Matematica Italiana (3)*, 11(2):248–252, 1956.
 
-Behrend, F. A. 1946. “On Sets of Integers Which Contain No Three Terms in Arithmetical Progression.” *Proceedings of the National Academy of Sciences of the United States of America* 32 (12): 331–32. <https://doi.org/10.1073/pnas.32.12.331>.
+**[3]** F. A. Behrend. On sets of integers which contain no three terms in arithmetical progression. *Proceedings of the National Academy of Sciences of the United States of America*, 32(12):331–332, 1946.
 
-Cohen, Alex, Cosmin Pohoata, and Dmitrii Zakharov. 2023. *A New Upper Bound for the Heilbronn Triangle Problem*. <https://arxiv.org/abs/2305.18253v1>.
+**[4]** Alex Cohen, Cosmin Pohoata, and Dmitrii Zakharov. A new upper bound for the Heilbronn triangle problem, 2023. [arXiv:2305.18253v1](https://arxiv.org/abs/2305.18253v1), 29 May 2023.
 
-Cohen, Alex, Cosmin Pohoata, and Dmitrii Zakharov. 2025. “Lower Bounds for Incidences.” *Inventiones Mathematicae* 240: 1045–118. <https://doi.org/10.1007/s00222-025-01331-2>.
+**[5]** Alex Cohen, Cosmin Pohoata, and Dmitrii Zakharov. Lower bounds for incidences. *Inventiones mathematicae*, 240:1045–1118, 2025.
 
-Ellmann, Gabor. 2025. *A Lower Bound for Heilbronn’s Triangle-Problem*. <https://arxiv.org/abs/1703.03297v12>.
+**[6]** Gabor Ellmann. A lower bound for Heilbronn’s triangle-problem, 2025. [arXiv:1703.03297v12](https://arxiv.org/abs/1703.03297v12), 12 November 2025.
 
-Erdős, Paul. 1932. “Beweis Eines Satzes von Tschebyschef.” *Acta Litt. Sci. Szeged, Sect. Sci. Math.* 5: 194–98. <https://www.renyi.hu/~p_erdos/1932-01.pdf>.
+**[7]** Paul Erdős. Beweis eines Satzes von Tschebyschef. *Acta Litt. Sci. Szeged, Sect. Sci. Math.*, 5:194–198, 1932.
 
-Henk, Martin. 2002. *Successive Minima and Lattice Points*. <https://arxiv.org/abs/math/0204158v1>.
+**[8]** Martin Henk. Successive minima and lattice points, 2002. Theorem 1.3 (Minkowski’s second theorem).
 
-Komlós, János, János Pintz, and Endre Szemerédi. 1981. “On Heilbronn’s Triangle Problem.” *Journal of the London Mathematical Society (2)* 24 (3): 385–96. <https://doi.org/10.1112/jlms/s2-24.3.385>.
+**[9]** János Komlós, János Pintz, and Endre Szemerédi. On Heilbronn’s triangle problem. *Journal of the London Mathematical Society (2)*, 24(3):385–396, 1981.
 
-Komlós, János, János Pintz, and Endre Szemerédi. 1982. “A Lower Bound for Heilbronn’s Problem.” *Journal of the London Mathematical Society (2)* 25 (1): 13–24. <https://doi.org/10.1112/jlms/s2-25.1.13>.
+**[10]** János Komlós, János Pintz, and Endre Szemerédi. A lower bound for Heilbronn’s problem. *Journal of the London Mathematical Society (2)*, 25(1):13–24, 1982.
 
-Lidl, Rudolf, and Harald Niederreiter. 1994. *Introduction to Finite Fields and Their Applications*. Second. Cambridge University Press. <https://doi.org/10.1017/CBO9781139172769>.
+**[11]** Rudolf Lidl and Harald Niederreiter. *Introduction to Finite Fields and their Applications*. Cambridge University Press, second edition, 1994.
 
-Roth, K. F. 1951. “On a Problem of Heilbronn.” *Journal of the London Mathematical Society* 26 (3): 198–204. <https://doi.org/10.1112/jlms/s1-26.3.198>.
+**[12]** K. F. Roth. On a problem of Heilbronn. *Journal of the London Mathematical Society*, 26(3):198–204, 1951.
 
-Roth, K. F. 1972a. “On a Problem of Heilbronn, II.” *Proceedings of the London Mathematical Society (3)* 25 (2): 193–212. <https://doi.org/10.1112/plms/s3-25.2.193>.
+**[13]** K. F. Roth. On a problem of Heilbronn, II. *Proceedings of the London Mathematical Society (3)*, 25(2):193–212, 1972.
 
-Roth, K. F. 1972b. “On a Problem of Heilbronn, III.” *Proceedings of the London Mathematical Society (3)* 25 (3): 543–49. <https://doi.org/10.1112/plms/s3-25.3.543>.
+**[14]** K. F. Roth. On a problem of Heilbronn, III. *Proceedings of the London Mathematical Society (3)*, 25(3):543–549, 1972.
 
-Salem, R., and D. C. Spencer. 1942. “On Sets of Integers Which Contain No Three Terms in Arithmetical Progression.” *Proceedings of the National Academy of Sciences of the United States of America* 28 (12): 561–63. <https://doi.org/10.1073/pnas.28.12.561>.
+**[15]** R. Salem and D. C. Spencer. On sets of integers which contain no three terms in arithmetical progression. *Proceedings of the National Academy of Sciences of the United States of America*, 28(12):561–563, 1942.
 
-Schmidt, Wolfgang M. 1972. “On a Problem of Heilbronn.” *Journal of the London Mathematical Society (2)* 4 (3): 545–50. <https://doi.org/10.1112/jlms/s2-4.3.545>.
+**[16]** Wolfgang M. Schmidt. On a problem of Heilbronn. *Journal of the London Mathematical Society (2)*, 4(3):545–550, 1972.
 
-Smith, Henry John Stephen. 1861. “On Systems of Linear Indeterminate Equations and Congruences.” *Philosophical Transactions of the Royal Society of London* 151: 293–326. <https://doi.org/10.1098/rstl.1861.0016>.
+**[17]** Henry John Stephen Smith. On systems of linear indeterminate equations and congruences. *Philosophical Transactions of the Royal Society of London*, 151:293–326, 1861.
 
-Zakharov, Dmitrii. 2026. “Small Triangles.” *Journal of the London Mathematical Society* 113 (3): e70447. <https://doi.org/10.1112/jlms.70447>.
+**[18]** Dmitrii Zakharov. Small triangles. *Journal of the London Mathematical Society*, 113(3):e70447, 2026.

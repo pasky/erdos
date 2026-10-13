@@ -13,21 +13,21 @@ How small can the total cross-sectional area of a finite cylinder covering of a 
  \sum_{i=1}^m|B_i|\ge\tfrac12 A_{\min}(K).
 \end{equation}$$
 
-The cylinder question belongs to the line of covering problems that begins with Tarski’s plank problem. A *plank* is the region between two parallel hyperplanes, and its width is their distance. Bang proved that a finite plank covering of a convex body has total width at least the body’s minimum width (Bang 1951); see also (Bezdek 2009, Theorem 2.1). Ball proved the directionwise refinement for centrally symmetric bodies: after dividing each plank’s width by the body’s width in the same normal direction, the sum is at least one (Ball 1991, arXiv v1, Theorem 1). Thus the width cost of a plank cover has both an absolute formulation and a relative formulation adapted to the individual directions.
+The cylinder question belongs to the line of covering problems that begins with Tarski’s plank problem. A *plank* is the region between two parallel hyperplanes, and its width is their distance. Bang proved that a finite plank covering of a convex body has total width at least the body’s minimum width [2]; see also [3, Theorem 2.1]. Ball proved the directionwise refinement for centrally symmetric bodies: after dividing each plank’s width by the body’s width in the same normal direction, the sum is at least one [1, arXiv v1, Theorem 1]. Thus the width cost of a plank cover has both an absolute formulation and a relative formulation adapted to the individual directions.
 
-For cylinders in three dimensions, the two-cylinder cover of a regular tetrahedron shows that replacing widths by base areas cannot preserve the constant one. Its two axes are parallel to opposite edges, and its total base area equals half the tetrahedron’s minimum projection area. Bezdek (Bezdek 2009, Problem 3.1) and Bezdek and Litvak (Bezdek and Litvak 2009, arXiv v1, Introduction) attribute this example and the resulting half-area question to Bang’s 1951 paper. Their formulations allow measurable bases perpendicular to the axes, as in our definition.
+For cylinders in three dimensions, the two-cylinder cover of a regular tetrahedron shows that replacing widths by base areas cannot preserve the constant one. Its two axes are parallel to opposite edges, and its total base area equals half the tetrahedron’s minimum projection area. Bezdek [3, Problem 3.1] and Bezdek and Litvak [5, arXiv v1, Introduction] attribute this example and the resulting half-area question to Bang’s 1951 paper. Their formulations allow measurable bases perpendicular to the axes, as in our definition.
 
 For a finite covering $\mathcal C=(B_i+\mathbb Ru_i)_{i=1}^m$, define the *directionwise relative area* by $$\begin{equation}
 \tag{1.2}
  \mathcal R(\mathcal C;K):=
  \sum_{i=1}^m\frac{|B_i|}{|\pi_{u_i^\perp}K|}.
-\end{equation}$$ All denominators are positive because $K$ has nonempty interior. Bezdek and Litvak proved $\mathcal R(\mathcal C;K)\ge1/3$ for every finite covering in three dimensions, and the stronger bound $\mathcal R(\mathcal C;K)\ge1$ when $K$ is an ellipsoid. In their proof, the general case combines the Rogers–Shephard section–projection inequality with a volume comparison. For ellipsoids, they reduce to a ball and use a density whose integral along every interior chord is the same (Bezdek and Litvak 2009, arXiv v1, Theorem 3.1 and its proof). These arguments leave a gap between the universal one-third lower bound and the proposed one-half threshold.
+\end{equation}$$ All denominators are positive because $K$ has nonempty interior. Bezdek and Litvak proved $\mathcal R(\mathcal C;K)\ge1/3$ for every finite covering in three dimensions, and the stronger bound $\mathcal R(\mathcal C;K)\ge1$ when $K$ is an ellipsoid. In their proof, the general case combines the Rogers–Shephard section–projection inequality with a volume comparison. For ellipsoids, they reduce to a ball and use a density whose integral along every interior chord is the same [5, arXiv v1, Theorem 3.1 and its proof]. These arguments leave a gap between the universal one-third lower bound and the proposed one-half threshold.
 
-Bezdek and Khan record the directionwise assertion $\mathcal R(\mathcal C;K)\ge1/2$ under the name *1-Codimensional Cylinder Covering Conjecture* (Bezdek and Khan 2016, arXiv v2, Definition 3 and Conjecture 4.13). It would imply (1.1), since $$\begin{equation}
+Bezdek and Khan record the directionwise assertion $\mathcal R(\mathcal C;K)\ge1/2$ under the name *1-Codimensional Cylinder Covering Conjecture* [4, arXiv v2, Definition 3 and Conjecture 4.13]. It would imply (1.1), since $$\begin{equation}
 \tag{1.3}
  \mathcal R(\mathcal C;K)
  \le \frac{\sum_i|B_i|}{A_{\min}(K)}.
-\end{equation}$$ Verreault’s 2026 survey records the half-area question as unresolved (Verreault 2026, Question 4.14). Our construction starts with the tetrahedral equality example itself and replaces its two axes by finitely many nearby directions. It violates both half-area bounds while retaining compact triangular bases.
+\end{equation}$$ Verreault’s 2026 survey records the half-area question as unresolved [7, Question 4.14]. Our construction starts with the tetrahedral equality example itself and replaces its two axes by finitely many nearby directions. It violates both half-area bounds while retaining compact triangular bases.
 
 We construct a counterexample with compact triangular bases. Set $H=\sqrt2$ and $$\begin{equation}
 \tag{1.4}
@@ -46,7 +46,7 @@ Every covering in the theorem is finite, although its number of cylinders increa
 
 *Proof.* For the regular tetrahedron $K$, each denominator is at least $A_{\min}(K)>0$, so the sum is at most $\sum_i|B_i|/A_{\min}(K)<1/2$ by Theorem 1.1 with $\varepsilon=1/2000$.
 
-The directionwise ratios are invariant under invertible affine maps (Bezdek and Litvak 2009, arXiv v1, Section 3). To see this directly, let $A$ be an invertible linear map and set $v=Au/|Au|$. The linear map $$L=\left.\pi_{v^\perp}A\right|_{u^\perp}:u^\perp\longrightarrow v^\perp$$ is an isomorphism: $Lb=0$ implies that $Ab$ is parallel to $Au$, hence $b$ is parallel to $u$, and therefore $b=0$. The transformed cylinder has perpendicular base $LB$, and $\pi_{v^\perp}(AK)=L(\pi_{u^\perp}K)$. Both areas are multiplied by the same positive factor $|\det L|$, so their ratio is unchanged. Translations also preserve it. Every nondegenerate tetrahedron is an affine image of $K$; the images of its covering retain the same finite count and compact nondegenerate triangular bases. ◻
+The directionwise ratios are invariant under invertible affine maps [5, arXiv v1, Section 3]. To see this directly, let $A$ be an invertible linear map and set $v=Au/|Au|$. The linear map $$L=\left.\pi_{v^\perp}A\right|_{u^\perp}:u^\perp\longrightarrow v^\perp$$ is an isomorphism: $Lb=0$ implies that $Ab$ is parallel to $Au$, hence $b$ is parallel to $u$, and therefore $b=0$. The transformed cylinder has perpendicular base $LB$, and $\pi_{v^\perp}(AK)=L(\pi_{u^\perp}K)$. Both areas are multiplied by the same positive factor $|\det L|$, so their ratio is unchanged. Translations also preserve it. Every nondegenerate tetrahedron is an affine image of $K$; the images of its covering retain the same finite count and compact nondegenerate triangular bases. ◻
 
 This affine argument concerns the directionwise ratios. The conclusion of Theorem 1.1, which uses one minimum projection area for all directions, is asserted here for regular tetrahedra.
 
@@ -62,7 +62,7 @@ The same mechanism permits more freedom than the first construction uses. Sectio
 
 ## Geometry and the finite construction
 
-We first fix the area scale against which the covering will be measured. We then specify every triangle and every axis in the finite covering. The projection calculation is the facet-area-vector form of Cauchy’s projection formula; see (Martini 1991, 83, equation (1)) for its projection-body formulation. We include the face-by-face proof for this tetrahedron.
+We first fix the area scale against which the covering will be measured. We then specify every triangle and every axis in the finite covering. The projection calculation is the facet-area-vector form of Cauchy’s projection formula; see [6, p. 83, equation (1)] for its projection-body formulation. We include the face-by-face proof for this tetrahedron.
 
 **Lemma 2.1**. *For the tetrahedron (1.4), $A_{\min}(K)=H$.*
 
@@ -460,16 +460,16 @@ The following dictionary translates the Cartesian argument of Appendix A.2. In 
 
 ## References
 
-Ball, Keith. 1991. “The Plank Problem for Symmetric Bodies.” *Inventiones Mathematicae* 104: 535–43. <https://doi.org/10.1007/BF01245089>.
+**[1]** Keith Ball. The plank problem for symmetric bodies. *Inventiones Mathematicae*, 104:535–543, 1991. Author manuscript: arXiv:math/9201218v1.
 
-Bang, Thøger. 1951. “A Solution of the ‘Plank Problem’.” *Proceedings of the American Mathematical Society* 2 (6): 990–93. <https://doi.org/10.1090/S0002-9939-1951-0046672-4>.
+**[2]** Thøger Bang. A solution of the “plank problem”. *Proceedings of the American Mathematical Society*, 2(6):990–993, 1951.
 
-Bezdek, Károly. 2009. *Tarski’s Plank Problem Revisited*. arXiv:0903.4637v1. <https://arxiv.org/abs/0903.4637v1>.
+**[3]** Károly Bezdek. Tarski’s plank problem revisited. arXiv:0903.4637v1, 2009. Problem 3.1. Published in Bolyai Society Mathematical Studies 24 (2013), 45–64.
 
-Bezdek, Károly, and Muhammad A. Khan. 2016. *The Geometry of Homothetic Covering and Illumination*. arXiv:1602.06040v2. <https://arxiv.org/abs/1602.06040v2>.
+**[4]** Károly Bezdek and Muhammad A. Khan. The geometry of homothetic covering and illumination. arXiv:1602.06040v2, 2016. Version 2, 18 July 2016. Published in Discrete geometry and symmetry, Springer Proceedings in Mathematics & Statistics 234 (2018), 1–30.
 
-Bezdek, Károly, and Alexander E. Litvak. 2009. “Covering Convex Bodies by Cylinders and Lattice Points by Flats.” *Journal of Geometric Analysis* 19 (2): 233–43. <https://doi.org/10.1007/s12220-008-9063-6>.
+**[5]** Károly Bezdek and Alexander E. Litvak. Covering convex bodies by cylinders and lattice points by flats. *Journal of Geometric Analysis*, 19(2):233–243, 2009. Author manuscript: arXiv:0903.4842v1.
 
-Martini, Horst. 1991. “Convex Polytopes Whose Projection Bodies and Difference Sets Are Polars.” *Discrete & Computational Geometry* 6: 83–91. <https://doi.org/10.1007/BF02574676>.
+**[6]** Horst Martini. Convex polytopes whose projection bodies and difference sets are polars. *Discrete & Computational Geometry*, 6:83–91, 1991.
 
-Verreault, William. 2026. “Plank Theorems and Their Applications: A Survey.” *Bulletin of the London Mathematical Society* 58 (1): e70230. <https://doi.org/10.1112/blms.70230>.
+**[7]** William Verreault. Plank theorems and their applications: A survey. *Bulletin of the London Mathematical Society*, 58(1):e70230, 2026. First published online 9 November 2025.

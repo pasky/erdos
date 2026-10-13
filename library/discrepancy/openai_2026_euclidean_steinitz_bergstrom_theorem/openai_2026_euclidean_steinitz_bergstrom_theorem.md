@@ -27,7 +27,7 @@ The order of growth in Theorem 1.2 is necessary. In the $d$-dimensional hyperpl
 
 ### From signs to an ordering
 
-We give the short transference argument at once. Chobanyan’s transference principle (Chobanyan 1994) relates rearrangements and signed sums. We use its finite positive-forward, negative-reverse form (Chobanyan et al. 2023, Theorem 2.1 and Remark 1).
+We give the short transference argument at once. Chobanyan’s transference principle [13] relates rearrangements and signed sums. We use its finite positive-forward, negative-reverse form [12, Theorem 2.1 and Remark 1].
 
 *Proof of Theorem 1.2 from Theorem 1.1.* Fix an indexed zero-sum family and choose an order attaining its minimum $\beta$; this exists because there are only finitely many permutations. Relabel the vectors in that order. Put $$A_j=\sum_{i=1}^jv_i,
  \qquad B_j=\sum_{i=1}^j\varepsilon_i v_i,
@@ -38,15 +38,15 @@ The signed-prefix bound also yields finite-dimensional $\ell_p$ estimates and a 
 
 ### Historical context
 
-The finite rearrangement theorem goes back to Steinitz’s work on conditionally convergent vector series; Ambrus and Heck give a historical account in (Ambrus and Heck 2026, sec. 2). The dimension bound for zero-sum rearrangement holds for arbitrary norms: Grinberg and Sevast’yanov (Grinberg and Sevast’yanov 1980, Theorem 1) prove that the partial sums can be kept within $d$ times the unit ball. The smaller square-root scale in Euclidean space has a long history; Behrend discusses this expected growth in (Behrend 1954, 108). The modern formulation and its attribution to Bergström are recorded by Ambrus and Heck (Ambrus and Heck 2026, Conjecture 5). Their Theorem 7 reduces the asymptotic question to a relaxed rearrangement problem for vectors with norms in $[1-\varepsilon,1]$, with $0<\varepsilon\le1$ fixed independently of the dimension. In that problem each prefix is compared with its proportional share of the total sum, rather than with zero. For prescribed-order Euclidean signing, the square-root-dimension question is stated explicitly by Bansal, Jiang, Meka, Singla and Sinha (Bansal et al. 2021, sec. 6, Conjecture 6.3), following Banaszczyk (Banaszczyk 2012). Their discussion records Banaszczyk’s bound $O(\sqrt d+\sqrt{\log N})$; the length term becomes significant when $N$ is large compared with the dimension. In a 2026 preprint, Dutta, Jha and Jiang state an efficient prescribed-order signing bound $$O\bigl(\sqrt d+d^{1/4}\log^{7/4}N\bigr),$$ and the corresponding zero-sum ordering bound (Dutta et al. 2026, Theorem 1.1 and Corollary 1.2). Theorem 1.1 gives an absolute multiple of $\sqrt d$ for every finite length.
+The finite rearrangement theorem goes back to Steinitz’s work on conditionally convergent vector series; Ambrus and Heck give a historical account in [2, Section 2]. The dimension bound for zero-sum rearrangement holds for arbitrary norms: Grinberg and Sevast’yanov [16, Theorem 1] prove that the partial sums can be kept within $d$ times the unit ball. The smaller square-root scale in Euclidean space has a long history; Behrend discusses this expected growth in [8, p. 108]. The modern formulation and its attribution to Bergström are recorded by Ambrus and Heck [2, Conjecture 5]. Their Theorem 7 reduces the asymptotic question to a relaxed rearrangement problem for vectors with norms in $[1-\varepsilon,1]$, with $0<\varepsilon\le1$ fixed independently of the dimension. In that problem each prefix is compared with its proportional share of the total sum, rather than with zero. For prescribed-order Euclidean signing, the square-root-dimension question is stated explicitly by Bansal, Jiang, Meka, Singla and Sinha [6, Section 6, Conjecture 6.3], following Banaszczyk [4]. Their discussion records Banaszczyk’s bound $O(\sqrt d+\sqrt{\log N})$; the length term becomes significant when $N$ is large compared with the dimension. In a 2026 preprint, Dutta, Jha and Jiang state an efficient prescribed-order signing bound $$O\bigl(\sqrt d+d^{1/4}\log^{7/4}N\bigr),$$ and the corresponding zero-sum ordering bound [15, Theorem 1.1 and Corollary 1.2]. Theorem 1.1 gives an absolute multiple of $\sqrt d$ for every finite length.
 
-Terminal vector balancing has a different quantifier. For columns in the Euclidean unit ball, Li (Li 2026, Theorem 1.1) bounds the final signed sum in infinity norm by an absolute constant and gives a deterministic polynomial-bit algorithm on rational input. That terminal statement implies a Euclidean bound of order $\sqrt d$ for one sum. Applying it separately to each prefix permits the signs to change with the prefix; Theorem 1.1 instead supplies one common signing. The present all-prefix estimate is Euclidean and does not assert a constant infinity-norm all-prefix bound.
+Terminal vector balancing has a different quantifier. For columns in the Euclidean unit ball, Li [18, Theorem 1.1] bounds the final signed sum in infinity norm by an absolute constant and gives a deterministic polynomial-bit algorithm on rational input. That terminal statement implies a Euclidean bound of order $\sqrt d$ for one sum. Applying it separately to each prefix permits the signs to change with the prefix; Theorem 1.1 instead supplies one common signing. The present all-prefix estimate is Euclidean and does not assert a constant infinity-norm all-prefix bound.
 
 ### Proof strategy
 
-Gaussian convex bodies are a central setting for vector balancing, notably in the theorem of Banaszczyk (Banaszczyk 1998). Our proof takes place in a space of coefficients: one coordinate is reserved for each incoming vector, together with $d$ initial state coordinates. A sequence of linear maps sends these coefficients to states in $\mathbb R^d$. At each step an invertible contraction acts on the old state and the next coefficient injects a multiple of the incoming vector. The body of coefficients for which every state is bounded will provide the simultaneous control of all prefixes.
+Gaussian convex bodies are a central setting for vector balancing, notably in the theorem of Banaszczyk [3]. Our proof takes place in a space of coefficients: one coordinate is reserved for each incoming vector, together with $d$ initial state coordinates. A sequence of linear maps sends these coefficients to states in $\mathbb R^d$. At each step an invertible contraction acts on the old state and the next coefficient injects a multiple of the incoming vector. The body of coefficients for which every state is bounded will provide the simultaneous control of all prefixes.
 
-Two analytic ingredients make this construction possible. First, if a bounded symmetric convex body has small Dirichlet energy for every positive diagonal weight, it supports a single square root of a probability density with small derivatives in every coordinate. A lifted Steiner symmetrization preserves these bounds and permits a coordinate step of the form $q+\varepsilon$, where $|q|\le1/4$ and $\varepsilon\in\{-1,1\}$. This adapts the directional-density and symmetrization method of Guo, Fang and Lu (Guo et al. 2026, secs. 3–4).[^1] Bandeira (Bandeira 2026) gives a related formulation for terminal balancing in terms of Dirichlet eigenvalues. Akbas and Sra (Akbas and Sra 2026, Lemmas 2.2–2.3) develop the common quadratic-energy witness and lifted $L^2$-symmetrization argument. Here the hypotheses use diagonal weights, and the coordinate shifts may depend on earlier choices. We prove the required energy and shifted-step statements in full.
+Two analytic ingredients make this construction possible. First, if a bounded symmetric convex body has small Dirichlet energy for every positive diagonal weight, it supports a single square root of a probability density with small derivatives in every coordinate. A lifted Steiner symmetrization preserves these bounds and permits a coordinate step of the form $q+\varepsilon$, where $|q|\le1/4$ and $\varepsilon\in\{-1,1\}$. This adapts the directional-density and symmetrization method of Guo, Fang and Lu [17, Sections 3–4].[^1] Bandeira [5] gives a related formulation for terminal balancing in terms of Dirichlet eigenvalues. Akbas and Sra [1, Lemmas 2.2–2.3] develop the common quadratic-energy witness and lifted $L^2$-symmetrization argument. Here the hypotheses use diagonal weights, and the coordinate shifts may depend on earlier choices. We prove the required energy and shifted-step statements in full.
 
 Second, the filtered body has a diagonal Dirichlet-energy bound independent of the number of filters. To prove this, we follow a stationary Ornstein–Uhlenbeck process in coefficient space and localize its filtered states to dyadic spectral scales. A matrix estimate controls changes at one scale by an additive trace budget, including gains inserted between noncommuting contractions. At a fixed scale, this estimate gives a uniform positive probability for all constraints in a group of indices with bounded accumulated energy, over a matched time interval. Gaussian correlation combines these groups, scales and time intervals; the exponential survival rate yields the energy bound.
 
@@ -201,7 +201,7 @@ We now prove Lemma 2.3, which bounded the cost of the predictor constraints. Br
  =\lambda_Q(D).
 \end{equation}$$ In particular, the starting point may be $0$ when $D$ is centrally symmetric.*
 
-*Proof.* The generator of $W$ is $\mathop{\mathrm{tr}}(Q\nabla^2)$. Let $\tau_D=\inf\{s\ge0:W(s)\notin D\}$, and let $$P_s^D h(x)=\mathbb E_x[h(W(s))\mathbf 1_{\{s<\tau_D\}}]$$ be its killed semigroup. The corresponding nonnegative self-adjoint operator is the Dirichlet realization of $-\mathop{\mathrm{tr}}(Q\nabla^2)$, with form $\int_D\nabla g^TQ\nabla g$ on $H_0^1(D)$. These standard Dirichlet facts apply here because bounded convex domains are connected and Lipschitz; see, for example, (Davies and Simon 1984, sec. 2 and Appendix C), after the linear change of coordinates for $Q$ and the time normalization above. The killed representation can also be obtained first on smooth interior domains and then by exhaustion: their compactly supported smooth functions exhaust the form domain, while any continuous path remaining in $D$ on a compact time interval has compact image in $D$.
+*Proof.* The generator of $W$ is $\mathop{\mathrm{tr}}(Q\nabla^2)$. Let $\tau_D=\inf\{s\ge0:W(s)\notin D\}$, and let $$P_s^D h(x)=\mathbb E_x[h(W(s))\mathbf 1_{\{s<\tau_D\}}]$$ be its killed semigroup. The corresponding nonnegative self-adjoint operator is the Dirichlet realization of $-\mathop{\mathrm{tr}}(Q\nabla^2)$, with form $\int_D\nabla g^TQ\nabla g$ on $H_0^1(D)$. These standard Dirichlet facts apply here because bounded convex domains are connected and Lipschitz; see, for example, [14, Section 2 and Appendix C], after the linear change of coordinates for $Q$ and the time normalization above. The killed representation can also be obtained first on smooth interior domains and then by exhaustion: their compactly supported smooth functions exhaust the form domain, while any continuous path remaining in $D$ on a compact time interval has compact image in $D$.
 
 Write $\lambda=\lambda_Q(D)$. Compactness of $H_0^1(D)\hookrightarrow L^2(D)$ and the spectral theorem give $\lVert P_s^D\rVert_{2\to2}=e^{-s\lambda}$ and a first eigenfunction $\varphi$ that can be chosen nonnegative by taking the absolute value of a Rayleigh minimizer. Interior elliptic regularity and the strong maximum principle make $\varphi$ strictly positive at every point of $D$. It is bounded: free heat kernel domination and $\varphi=e^\lambda P_1^D\varphi$ give this directly by Cauchy–Schwarz. Consequently, $$e^{-T\lambda}\varphi(x)
  =P_T^D\varphi(x)
@@ -220,7 +220,7 @@ We will use the following path form of Gaussian correlation. Its finite-grid pro
  \{A_{ij}X(s)\in K_{ij}\text{ for all }s\in I_{ij}\},$$ where $A_{ij}$ is linear, $K_{ij}$ is a closed centrally symmetric convex set in its target space, and $I_{ij}\subset[0,T]$ is a closed interval. Then $$\mathbb P\Bigl(\bigcap_{i=1}^r E_i\Bigr)
  \ge \prod_{i=1}^r\mathbb P(E_i).$$*
 
-*Proof.* Replace each interval by a finite grid. All the constraints are then closed centrally symmetric convex conditions on one finite-dimensional centered Gaussian vector. Represent that vector as a linear image of a standard Gaussian on its linear support; thus a possibly singular covariance creates no difficulty. Royen’s Gaussian correlation inequality (Royen 2014), iterated over the finitely many events, gives the desired product bound on the grids. Now refine nested grids whose unions are dense in the respective intervals. Closedness of each $K_{ij}$ and path continuity identify the decreasing limit with the stated event. Continuity of probability from above proves the assertion. ◻
+*Proof.* Replace each interval by a finite grid. All the constraints are then closed centrally symmetric convex conditions on one finite-dimensional centered Gaussian vector. Represent that vector as a linear image of a standard Gaussian on its linear support; thus a possibly singular covariance creates no difficulty. Royen’s Gaussian correlation inequality [20], iterated over the finitely many events, gives the desired product bound on the grids. Now refine nested grids whose unions are dense in the respective intervals. Closedness of each $K_{ij}$ and path continuity identify the decreasing limit with the stated event. Continuity of probability from above proves the assertion. ◻
 
 *Proof of Lemma 2.3.* The set $K$ is again a bounded open centrally symmetric convex neighborhood of $0$. Take Brownian motion $W$ of covariance rate $2Q$ started at $0$. On $[0,T]$, impose the closed constraints $$W(s)\in\overline{D_*D},\qquad
  |m_iW(s)|\le\delta/2\quad(1\le i\le n).$$ Their simultaneous occurrence implies survival in $K$: $\overline{D_*D}\subset 2D_*D$, since $0$ is interior to the convex set $D$, and the half-threshold slabs lie inside the open full-threshold slabs. By Lemma 2.5, and then by replacing each closed-event probability by its smaller open-event probability, $$\begin{align*}
@@ -237,7 +237,7 @@ It remains to prove the two analytic inputs. We first construct the domain trans
 
 ## From low energy to shifted signs
 
-We prove Proposition 2.1. Its spectral hypothesis will first give a single normalized function with small derivatives in every coordinate. A lifted Steiner symmetrization then produces a new domain from which one can take one of two signed steps, even after a prescribed small shift. Repeating this construction backwards will allow us to choose the signs forwards. The construction adapts the common-density and prescribed-section arguments of Guo, Fang and Lu (Guo et al. 2026, Proposition 2.2, Lemmas 3.3–3.4 and 4.1–4.3). Quadratic-energy versions of this approach appear in Bandeira (Bandeira 2026) and Akbas and Sra (Akbas and Sra 2026, Lemmas 2.2–2.3). Here we retain only coordinate Sobolev energies and enough geometric slack for bounded adaptive shifts. The coordinate-energy and shifted-step arguments needed here are proved in full below.
+We prove Proposition 2.1. Its spectral hypothesis will first give a single normalized function with small derivatives in every coordinate. A lifted Steiner symmetrization then produces a new domain from which one can take one of two signed steps, even after a prescribed small shift. Repeating this construction backwards will allow us to choose the signs forwards. The construction adapts the common-density and prescribed-section arguments of Guo, Fang and Lu [17, Proposition 2.2, Lemmas 3.3–3.4 and 4.1–4.3]. Quadratic-energy versions of this approach appear in Bandeira [5] and Akbas and Sra [1, Lemmas 2.2–2.3]. Here we retain only coordinate Sobolev energies and enough geometric slack for bounded adaptive shifts. The coordinate-energy and shifted-step arguments needed here are proved in full below.
 
 Throughout this section, $$\kappa=\frac1{100},\qquad \delta=\frac14,\qquad \ell=\frac52.$$
 
@@ -265,7 +265,7 @@ If $c=\kappa^2(1,\ldots,1)$ did not belong to $\mathcal A$, strict separation wo
 
 ### Convexity under Minkowski averages
 
-We will apply Jensen’s inequality to the energies of horizontal sections. The needed property is a diagonal version of the classical Brascamp–Lieb convexity inequality for the first Dirichlet eigenvalue (Brascamp and Lieb 1976, Theorem 6.2); see also the statement in Bryan, Clutterbuck and Rankin (Bryan et al. 2026, Theorem 1.2). We give the proof from Gaussian log-concavity and the Brownian survival rate, including the open-domain approximation used here.
+We will apply Jensen’s inequality to the energies of horizontal sections. The needed property is a diagonal version of the classical Brascamp–Lieb convexity inequality for the first Dirichlet eigenvalue [10, Theorem 6.2]; see also the statement in Bryan, Clutterbuck and Rankin [11, Theorem 1.2]. We give the proof from Gaussian log-concavity and the Brownian survival rate, including the open-domain approximation used here.
 
 **Lemma 3.2**. *Let $D_0,D_1\subset\mathbb R^m$ be nonempty bounded open convex sets symmetric about zero, and let $Q$ be positive definite diagonal. For $0\le\alpha\le1$, $$\lambda_Q((1-\alpha)D_0+\alpha D_1)
  \le(1-\alpha)\lambda_Q(D_0)+\alpha\lambda_Q(D_1).$$*
@@ -273,7 +273,7 @@ We will apply Jensen’s inequality to the energies of horizontal sections. The 
 *Proof.* The endpoints are immediate, so suppose $0<\alpha<1$ and write $D_\alpha=(1-\alpha)D_0+\alpha D_1$. Fix $0<\eta<1$, set $r=1-\eta$, and put $$A_i=r\overline{D_i},\qquad
  A_\alpha=(1-\alpha)A_0+\alpha A_1.$$ These are compact convex sets, and $A_\alpha\subset D_\alpha$: indeed, $A_\alpha\subset r\overline{D_\alpha}$, which is compactly contained in $D_\alpha$.
 
-Let $W$ start at zero with Brownian covariance rate $2Q$. On a finite grid of positive times in $[0,T]$, its values form a Gaussian vector. Gaussian log-concavity (Prékopa 1973, Theorem 2) shows that $$\mathbb P\{W\text{ lies in }A_\alpha\text{ on the grid}\}
+Let $W$ start at zero with Brownian covariance rate $2Q$. On a finite grid of positive times in $[0,T]$, its values form a Gaussian vector. Gaussian log-concavity [19, Theorem 2] shows that $$\mathbb P\{W\text{ lies in }A_\alpha\text{ on the grid}\}
  \ge\prod_{i=0}^1
  \mathbb P\{W\text{ lies in }A_i\text{ on the grid}\}^{\alpha_i},
  \qquad (\alpha_0,\alpha_1)=(1-\alpha,\alpha).$$ Here the Minkowski average of the two grid events is contained in the grid event for $A_\alpha$. Increase the grids to a dense subset of $[0,T]$. Closedness of the $A_i$ and continuity of Brownian paths allow passage to the decreasing limits of these events. Since $rD_i\subset A_i$ and $A_\alpha\subset D_\alpha$, it follows that $$\mathbb P_0\{W([0,T])\subset D_\alpha\}
@@ -623,7 +623,7 @@ Let $Q$ be a positive definite diagonal matrix on $\mathbb R^m$, and let $U(\tau
 
 *Proof.* The Gaussian density and its reciprocal are bounded on $D$, so the Gaussian and Lebesgue $H_0^1$ form domains agree. Integration by parts identifies the displayed form with the killed Ornstein–Uhlenbeck semigroup $P_T^D$. Its $L^2(\gamma_m)$ operator norm is $e^{-T\lambda_Q^{\mathrm{OU}}(D)}$. The killed-semigroup representation used in Lemma 2.4 therefore gives $$\mathbb P\{U([0,T])\subset D\}
  =\langle\mathbf1_D,P_T^D\mathbf1_D\rangle_{L^2(\gamma_m)}
- \le\gamma_m(D)e^{-T\lambda_Q^{\mathrm{OU}}(D)}.$$ This proves the first inequality. Equivalently, the representation follows from the Dirichlet Feynman–Kac formula after the conjugation below; its potential is bounded on $D$ (Davies and Simon 1984).
+ \le\gamma_m(D)e^{-T\lambda_Q^{\mathrm{OU}}(D)}.$$ This proves the first inequality. Equivalently, the representation follows from the Dirichlet Feynman–Kac formula after the conjugation below; its potential is bounded on $D$ [14].
 
 Write $\rho(x)=(2\pi)^{-m/2}e^{-|x|^2/2}$ and put $g=h\sqrt\rho$. For $h\in C_c^\infty(D)$, expansion and integration by parts give $$\int_D\langle Q\nabla h,\nabla h\rangle\,d\gamma_m
  =\int_D\left[
@@ -685,7 +685,7 @@ Apply (48) to the increments at each depth. Starting with (45) and summing the p
 
 It remains to control all the $k$ classes at once. On a finite time grid the supremum $S_j$ in (49) is a maximum of Gaussian vector norms. Represent the joint Gaussian vectors as linear images of one standard Gaussian vector. Each corresponding linear map has norm at most one because its output covariance is $F_t^2\preceq I$, by (26); consequently $S_j$ is a $1$-Lipschitz function of that standard Gaussian vector. Equivalently, it is a supremum of scalar Gaussian functionals, each with variance at most one.
 
-Markov’s inequality and (49) give $\mathbb P\{S_j\le2C_0\sqrt{K_j}\}\ge1/2$. Borell’s Gaussian enlargement inequality (Borell 1975, Theorem 3.1), applied to this sublevel set, gives $$\mathbb P\{S_j>2C_0\sqrt{K_j}+r\}
+Markov’s inequality and (49) give $\mathbb P\{S_j\le2C_0\sqrt{K_j}\}\ge1/2$. Borell’s Gaussian enlargement inequality [9, Theorem 3.1], applied to this sublevel set, gives $$\mathbb P\{S_j>2C_0\sqrt{K_j}+r\}
  \le1-\Phi(r)\le e^{-r^2/2},\qquad r\ge0,$$ where $\Phi$ is the standard normal distribution function. The same bound holds for the full time supremum by increasing dense grids and path continuity. Choose $c_1>2C_0$. The probability that any constraint in class $j$ exceeds $c_1\sqrt{k_t}$ is at most $$\exp\bigl(-(c_1-2C_0)^2K_j/2\bigr).$$ With $A=(c_1-2C_0)^2/8$, the sum of these bounds is at most $$\sum_{j\ge0}e^{-A2^j}
  \le\frac{e^{-A}}{1-e^{-A}}\le\tfrac12$$ once $c_1$ is an absolute constant large enough that $A\ge\log3$. This proves (44). Restricting the time interval can only increase its probability. ◻
 
@@ -765,50 +765,50 @@ Bárány’s matrix transference principle turns the signed-prefix bound into a 
  \qquad(1\le i\le n,\ 1\le j\le k).$$ Apply Theorem 1.1 to this sequence of length $kn$. With $\varepsilon_i^j=\varepsilon_{(i-1)k+j}$, every complete-column prefix satisfies $$\left\lVert\sum_{j=1}^k\sum_{i=1}^m\varepsilon_i^j b_i^j\right\rVert_2
  =
  \left\lVert\sum_{\ell=1}^{km}\varepsilon_\ell v_\ell\right\rVert_2
- \le C\sqrt d.$$ This is the column-major reduction in the proof of (Bárány 2024, Lemma 2.1), with the present signed-prefix bound in place of its dimension-linear bound. Thus Bárány’s matrix signed constant satisfies $V(B_2^d)\le C\sqrt d$, uniformly in $k,n$. Here $V$ allows an entrywise signing of an arbitrary array, whereas the row-permutation constant $U$ ranges over total-zero arrays and controls the same aggregate prefixes. His transference theorem (Bárány 2024, Theorem 2.2) gives $U(B_2^d)\le2V(B_2^d)$ for every number of rows. Shorter auxiliary arrays may be padded with trailing zero columns when using the bound uniformly in the number of columns. Since $B_2^d$ is a centrally symmetric convex body, this gives the asserted bound. ◻
+ \le C\sqrt d.$$ This is the column-major reduction in the proof of [7, Lemma 2.1], with the present signed-prefix bound in place of its dimension-linear bound. Thus Bárány’s matrix signed constant satisfies $V(B_2^d)\le C\sqrt d$, uniformly in $k,n$. Here $V$ allows an entrywise signing of an arbitrary array, whereas the row-permutation constant $U$ ranges over total-zero arrays and controls the same aggregate prefixes. His transference theorem [7, Theorem 2.2] gives $U(B_2^d)\le2V(B_2^d)$ for every number of rows. Shorter auxiliary arrays may be padded with trailing zero columns when using the bound uniformly in the number of columns. Since $B_2^d$ is a centrally symmetric convex body, this gives the asserted bound. ◻
 
 Taking $k=1$ in the regular-simplex example in the introduction shows that no $o(\sqrt d)$ bound can hold uniformly over these arrays. Thus the order in the dimension is sharp; the numerical constant $2C$ is not asserted to be optimal. The row permutations are existential, with no online or efficient algorithm claimed.
 
 ## References
 
-Akbas, Emrullah, and Suvrit Sra. 2026. *Tighter Bounds on Komlós Discrepancy: Existence and Algorithmic Results*. arXiv:2609.27172. <https://arxiv.org/abs/2609.27172v2>.
+**[1]** Emrullah Akbas and Suvrit Sra. Tighter bounds on Komlós discrepancy: existence and algorithmic results. arXiv:2609.27172, 2026. Version 2, 29 September 2026.
 
-Ambrus, Gergely, and Rainie Heck. 2026. “A Note on the Steinitz Lemma.” *Mathematika* 72 (2): e70085. <https://doi.org/10.1112/mtk.70085>.
+**[2]** Gergely Ambrus and Rainie Heck. A note on the Steinitz lemma. *Mathematika*, 72(2):e70085, 2026.
 
-Banaszczyk, Wojciech. 1998. “Balancing Vectors and Gaussian Measures of $n$-Dimensional Convex Bodies.” *Random Structures & Algorithms* 12 (4): 351–60. [https://doi.org/10.1002/(SICI)1098-2418(199807)12:4\<351::AID-RSA3\>3.0.CO;2-S](https://doi.org/10.1002/(SICI)1098-2418(199807)12:4<351::AID-RSA3>3.0.CO;2-S).
+**[3]** Wojciech Banaszczyk. Balancing vectors and Gaussian measures of $n$-dimensional convex bodies. *Random Structures & Algorithms*, 12(4):351–360, 1998.
 
-Banaszczyk, Wojciech. 2012. “On Series of Signed Vectors and Their Rearrangements.” *Random Structures & Algorithms* 40 (3): 301–16. <https://doi.org/10.1002/rsa.20373>.
+**[4]** Wojciech Banaszczyk. On series of signed vectors and their rearrangements. *Random Structures & Algorithms*, 40(3):301–316, 2012.
 
-Bandeira, Afonso S. 2026. *A Simplification of the Solution to the Komlós Conjecture*. Randomstrasse 101. <https://randomstrasse101.math.ethz.ch/posts/komlos/>.
+**[5]** Afonso S. Bandeira. A simplification of the solution to the Komlós conjecture. Randomstrasse 101, 2026. September 21, 2026.
 
-Bansal, Nikhil, Haotian Jiang, Raghu Meka, Sahil Singla, and Makrand Sinha. 2021. *Prefix Discrepancy, Smoothed Analysis, and Combinatorial Vector Balancing*. arXiv:2111.07049. <https://arxiv.org/abs/2111.07049v1>.
+**[6]** Nikhil Bansal, Haotian Jiang, Raghu Meka, Sahil Singla, and Makrand Sinha. Prefix discrepancy, smoothed analysis, and combinatorial vector balancing. arXiv:2111.07049, 2021. Version 1, 13 November 2021.
 
-Bárány, Imre. 2024. “A Matrix Version of the Steinitz Lemma.” *Journal für Die Reine Und Angewandte Mathematik* 809: 261–67. <https://doi.org/10.1515/crelle-2024-0008>.
+**[7]** Imre Bárány. A matrix version of the Steinitz lemma. *Journal für die reine und angewandte Mathematik*, 809:261–267, 2024.
 
-Behrend, F. A. 1954. “The Steinitz–Gross Theorem on Sums of Vectors.” *Canadian Journal of Mathematics* 6: 108–24. <https://doi.org/10.4153/CJM-1954-013-0>.
+**[8]** F. A. Behrend. The Steinitz–Gross theorem on sums of vectors. *Canadian Journal of Mathematics*, 6:108–124, 1954.
 
-Borell, Christer. 1975. “The Brunn–Minkowski Inequality in Gauss Space.” *Inventiones Mathematicae* 30: 207–16. <https://doi.org/10.1007/BF01425510>.
+**[9]** Christer Borell. The Brunn–Minkowski inequality in Gauss space. *Inventiones Mathematicae*, 30:207–216, 1975.
 
-Brascamp, Herm Jan, and Elliott H. Lieb. 1976. “On Extensions of the Brunn–Minkowski and Prékopa–Leindler Theorems, Including Inequalities for Log Concave Functions, and with an Application to the Diffusion Equation.” *Journal of Functional Analysis* 22 (4): 366–89. <https://doi.org/10.1016/0022-1236(76)90004-5>.
+**[10]** Herm Jan Brascamp and Elliott H. Lieb. On extensions of the Brunn–Minkowski and Prékopa–Leindler theorems, including inequalities for log concave functions, and with an application to the diffusion equation. *Journal of Functional Analysis*, 22(4):366–389, 1976.
 
-Bryan, Paul, Julie Clutterbuck, and Cale Rankin. 2026. *Convexity Inequalities for Eigenvalues and Log-Concavity of Eigenfunctions*. arXiv:2605.01334. <https://arxiv.org/abs/2605.01334v1>.
+**[11]** Paul Bryan, Julie Clutterbuck, and Cale Rankin. Convexity inequalities for eigenvalues and log-concavity of eigenfunctions. arXiv:2605.01334, 2026. Version 1, May 2, 2026.
 
-Chobanyan, Sergei, Levon Chobanyan, Zaza Gorgadze, and Giorgi Ghlonti. 2023. “An Algorithm for Finding a Near-Optimal Rearrangement in the Steinitz Functional.” *Bulletin of TICMI* 27 (1): 21–27. <https://www.viam.science.tsu.ge/others/ticmi/blt/vol27_1/3.pdf>.
+**[12]** Sergei Chobanyan, Levon Chobanyan, Zaza Gorgadze, and Giorgi Ghlonti. An algorithm for finding a near-optimal rearrangement in the Steinitz functional. *Bulletin of TICMI*, 27(1):21–27, 2023.
 
-Chobanyan, Sergej. 1994. “Convergence a.s. Of Rearranged Random Series in Banach Space and Associated Inequalities.” In *Probability in Banach Spaces, 9*, vol. 35. Progress in Probability. Birkhäuser. <https://doi.org/10.1007/978-1-4612-0253-0_1>.
+**[13]** Sergej Chobanyan. Convergence a.s. of rearranged random series in Banach space and associated inequalities. In *Probability in Banach Spaces, 9*, volume 35 of *Progress in Probability*, pages 3–29. Birkhäuser, 1994.
 
-Davies, E. B., and Barry Simon. 1984. “Ultracontractivity and the Heat Kernel for Schrödinger Operators and Dirichlet Laplacians.” *Journal of Functional Analysis* 59 (2): 335–95. <https://doi.org/10.1016/0022-1236(84)90076-4>.
+**[14]** E. B. Davies and Barry Simon. Ultracontractivity and the heat kernel for Schrödinger operators and Dirichlet Laplacians. *Journal of Functional Analysis*, 59(2):335–395, 1984.
 
-Dutta, Kunal, Agastya Vibhuti Jha, and Haotian Jiang. 2026. *Near-Optimal Constructive Bounds for $\ell_2$ Prefix Discrepancy and Steinitz Problems via Affine Spectral Independence*. arXiv:2604.13355. <https://arxiv.org/abs/2604.13355v1>.
+**[15]** Kunal Dutta, Agastya Vibhuti Jha, and Haotian Jiang. Near-optimal constructive bounds for $\ell_2$ prefix discrepancy and Steinitz problems via affine spectral independence. arXiv:2604.13355, 2026. Version 1, 14 April 2026.
 
-Grinberg, V. S., and S. V. Sevast’yanov. 1980. “Value of the Steinitz Constant.” *Functional Analysis and Its Applications* 14 (2): 125–26. <https://doi.org/10.1007/BF01086559>.
+**[16]** V. S. Grinberg and S. V. Sevast’yanov. Value of the Steinitz constant. *Functional Analysis and Its Applications*, 14(2):125–126, 1980.
 
-Guo, Shengtao, Ethan X. Fang, and Junwei Lu. 2026. *Vector Balancing via Directional Total Variation*. arXiv:2609.11189. <https://arxiv.org/abs/2609.11189v1>.
+**[17]** Shengtao Guo, Ethan X. Fang, and Junwei Lu. Vector balancing via directional total variation. arXiv:2609.11189, 2026. Version 1, 10 September 2026.
 
-Li, Xiaoyu. 2026. *Fast Spectral Signing for Vector Balancing*. arXiv:2609.30044. <https://arxiv.org/abs/2609.30044v1>.
+**[18]** Xiaoyu Li. Fast spectral signing for vector balancing. arXiv:2609.30044, 2026. Version 1, 24 September 2026.
 
-Prékopa, András. 1973. “On Logarithmic Concave Measures and Functions.” *Acta Scientiarum Mathematicarum (Szeged)* 34: 335–43. <https://acta.bibl.u-szeged.hu/14411/>.
+**[19]** András Prékopa. On logarithmic concave measures and functions. *Acta Scientiarum Mathematicarum (Szeged)*, 34:335–343, 1973.
 
-Royen, Thomas. 2014. “A Simple Proof of the Gaussian Correlation Conjecture Extended to Some Multivariate Gamma Distributions.” *Far East Journal of Theoretical Statistics* 48 (2): 139–45. <https://arxiv.org/abs/1408.1028v2>.
+**[20]** Thomas Royen. A simple proof of the Gaussian correlation conjecture extended to some multivariate gamma distributions. *Far East Journal of Theoretical Statistics*, 48(2):139–145, 2014.
 
 [^1]: Guo, Fang and Lu credit the Odin Automatic AI Research Agent for their proof.
