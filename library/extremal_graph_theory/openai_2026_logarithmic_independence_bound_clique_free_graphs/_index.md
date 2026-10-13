@@ -293,9 +293,10 @@ release folder holds no `verification/` directory for this manuscript.
 - [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|Shearer 1995, Corollary 2]]:
   the bound the manuscript names as the one it improves, by removing the
   $\log\log d$ denominator for average degree $d\ge2$ with an explicit
-  threshold in place of "large $d$". Claimed only; unverified here.
-  Shearer's corollary remains the best bound in the refereed record unless
-  and until the claim is accepted.
+  threshold in place of "large $d$". The improvement, Theorem 1.1, is
+  accepted with formalized evidence on Problem 802's claim page; the
+  manuscript is unrefereed, so Shearer's corollary remains the best bound in
+  the refereed record. This card's own reading is unverified.
 - [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer 1995, Corollary 1]]:
   Proposition 6.1 is the maximum-degree analogue, for real $\Delta\ge3$
   and all $n$, with $n\log\Delta/(4D_r\Delta)$ in place of
