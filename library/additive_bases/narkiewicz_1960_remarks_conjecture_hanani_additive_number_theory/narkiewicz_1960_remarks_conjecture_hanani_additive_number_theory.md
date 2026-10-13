@@ -151,7 +151,7 @@ We shall now prove the following
 LEMMA. If for an increasing sequence $t_k$, tending to infinity, $\alpha(t_k)\to 1$,
 then
 
-$$\lim_{k\to\infty}\frac{A(\frac{1}{2}t_k)}{A(t_k)}=1.$$
+$$\lim_{k\to\infty}\frac{A(\frac{1}{4}t_k)}{A(t_k)}=1.$$
 
 From (1) and (2) we have
 
@@ -173,7 +173,7 @@ $$\lim_{k\to\infty}\frac{A(t_k)}{A(\frac34t_k)}=1,$$
 
 for
 
-$$1\leq\frac{A(t_k)}{A(\frac34t_k)}\leq\frac{A(t_k)}{A(\frac12t_k)}=\frac{1}{a(t_k)}\longrightarrow1.$$
+$$1\leq\frac{A(t_k)}{A(\frac34t_k)}\leq\frac{A(t_k)}{A(\frac12t_k)}=\frac{1}{\alpha(t_k)}\longrightarrow1.$$
 
 Hence
 
@@ -189,7 +189,7 @@ The lemma is thus proved.
 
 Now let $y_n$ be a sequence monotonically tending to infinity. Let
 
-$$X=\left\{x:\left|\frac{1}{a(x)}-1\right|<\frac{1}{4}\right\}.$$
+$$X=\left\{x:\left|\frac{1}{\alpha(x)}-1\right|<\frac{1}{4}\right\}.$$
 
 It is evident that if $x\in X$, then also $[x]\in X$ for $[x/2]=[[x]/2]$ and
 
@@ -203,7 +203,7 @@ Let $\xi_n=\inf_{\substack{x\geq y_n\\x\in X}}x$. Then $\xi_n\in X$ and so
 
 $$\left|\frac{A(\xi_n)}{A(\frac{1}{2}\xi_n)}-1\right|<\frac{1}{4}.$$
 
-From this inequality it follows that $a(\xi_n)\to1$, since a subsequence $\xi_{n_k}$ for which $a(\xi_{n_k})\to\frac{1}{2}$ cannot exist. From the lemma we immediately find
+From this inequality it follows that $\alpha(\xi_n)\to1$, since a subsequence $\xi_{n_k}$ for which $\alpha(\xi_{n_k})\to\frac{1}{2}$ cannot exist. From the lemma we immediately find
 
 $$(4)\quad\lim_{n\to\infty}\frac{A(\xi_n)}{A(\frac{1}{4}\xi_n)}=1;$$
 
@@ -227,7 +227,7 @@ $$\lim_{n\to\infty}\frac{A(y_n)}{A(\frac{1}{2}y_n)}=1.$$
 
 From the arbitrariness of the sequence $y_n$ it follows that
 
-$$\lim_{x\to\infty}a(x)=1,$$
+$$\lim_{x\to\infty}\alpha(x)=1,$$
 
 which completes the proof.
 

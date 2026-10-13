@@ -625,7 +625,7 @@ $$
 \begin{aligned}
 &\geq \sum_{\substack{(r_n,\ldots,r_i)\in\mathcal{R}:\\ [A^{\bar r_n,\ldots,\bar r_i}]^- > 0}} ((a_1-[A^{\bar r_n,\ldots,\bar r_i}]^-)a_2-a_1)\\
 &\geq \sum_{\substack{(r_n,\ldots,r_i)\in\mathcal{R}:\\ [A^{\bar r_n,\ldots,\bar r_i}]^- > 0}} ((a_1-[A^{r_n,\ldots,r_i}]^- -a_1+1)a_2-a_1)\\
-&\geq -a_2\sum_{\substack{(r_n,\ldots,r_i)\in\mathcal{R}:\\ [A^{r_n,\ldots,r_i}]^- > 0}} [A^{r_n,\ldots,r_i}]^-\\
+&\geq -a_2\sum_{\substack{(r_n,\ldots,r_i)\in\mathcal{R}:\\ [A^{\bar r_n,\ldots,\bar r_i}]^- > 0}} [A^{r_n,\ldots,r_i}]^-\\
 &\geq -a_2\sum_{(r_n,\ldots,r_i)\in\mathcal{R}} [A^{r_n,\ldots,r_i}]^-
 \end{aligned}
 $$
@@ -769,10 +769,10 @@ Let $\mathcal{A}=\{r_{i-1}:\sum_{k=i-1}^{n}[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\b
 $$
 \begin{aligned}
 \sum_{r_{i-1}\notin\mathcal{A}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]
-&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]>0}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]\\
-&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]>0}}\left((a_1-[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^{-})a_2-a_1\right)\\
-&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]>0}}\left((a_1-[A^{s_n,\ldots,s_i,r_{i-1}}]^{-}-\sum_{k=i-1}^{n}[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_i,r_{i-1}}])a_2-a_1\right)\\
-&\geq-a_2\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]>0}}[A^{s_n,\ldots,s_i,r_{i-1}}]^{-}\\ &\geq -a_2\sum_{r_{i-1}\notin\mathcal A}[A^{s_n,\ldots,s_i,r_{i-1}}]^-
+&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^->0}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]\\
+&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^->0}}\left((a_1-[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^{-})a_2-a_1\right)\\
+&\geq\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^->0}}\left((a_1-[A^{s_n,\ldots,s_i,r_{i-1}}]^{-}-\sum_{k=i-1}^{n}[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_i,r_{i-1}}])a_2-a_1\right)\\
+&\geq-a_2\sum_{\substack{r_{i-1}\notin\mathcal{A}:\\ [A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^->0}}[A^{s_n,\ldots,s_i,r_{i-1}}]^{-}\\ &\geq -a_2\sum_{r_{i-1}\notin\mathcal A}[A^{s_n,\ldots,s_i,r_{i-1}}]^-
 \end{aligned}
 $$
 
@@ -794,7 +794,7 @@ Therefore
 
 $$
 \begin{aligned}
-\sum_{r_{i-1}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]^-
+\sum_{r_{i-1}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]
 &\geq-\sum_{k=i}^{n}[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_i}]
 -[A^{\bar{s}_n,\ldots,\bar{s}_i,\bullet}]|\mathcal A|\\
 &\quad-a_2[A^{s_n,\ldots,s_i}]^-
@@ -805,7 +805,7 @@ so we get
 
 $$
 \begin{aligned}
-[A^{\bar{s}_n,\ldots,\bar{s}_i}]^-
+[A^{\bar{s}_n,\ldots,\bar{s}_i}]
 &=[A^{\bar{s}_n,\ldots,\bar{s}_i,\bullet}]a_{i-1}
 +\sum_{r_{i-1}}[A^{\bar{s}_n,\ldots,\bar{s}_i,\bar{r}_{i-1}}]\\
 &\geq[A^{\bar{s}_n,\ldots,\bar{s}_i,\bullet}]a_{i-1}
@@ -818,7 +818,7 @@ $$
 On the other hand, since we are assuming $Z_i$ and since $a_{i-1}\geq a_2$, Mini-Lemma 2 implies that
 
 $$
-\sum_{\substack{(r_n,\ldots,r_i)\ne\\(s_n,\ldots,s_i)}}[A^{\bar{r}_n,\ldots,\bar{r}_i}]^-
+\sum_{\substack{(r_n,\ldots,r_i)\ne\\(s_n,\ldots,s_i)}}[A^{\bar{r}_n,\ldots,\bar{r}_i}]
 \geq-a_{i-1}\sum_{\substack{(r_n,\ldots,r_i)\ne\\(s_n,\ldots,s_i)}}[A^{r_n,\ldots,r_i}]^-.
 \tag{25}
 $$
@@ -827,7 +827,7 @@ Combining (24) and (25) gives us
 
 $$
 \begin{aligned}
-\sum_{r_n,\ldots,r_i}[A^{\bar{r}_n,\ldots,\bar{r}_i}]^-
+\sum_{r_n,\ldots,r_i}[A^{\bar{r}_n,\ldots,\bar{r}_i}]
 &\geq[A^{\bar{s}_n,\ldots,\bar{s}_i,\bullet}]a_{i-1}
 -\sum_{k=i}^{n}[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_i}]\\
 &\quad-[A^{\bar{s}_n,\ldots,\bar{s}_i,\bullet}]|\mathcal A|-a_{i-1}[A]^-.
@@ -897,7 +897,7 @@ $$
 
 (where the last inequality is obtained as in (16)-(20), so $[A]-\sum_{k=i}^n u_ka_k\in\mathbb{Z}^+(a_1,\ldots,a_{i-1})$ and $[A]\in\mathbb{Z}^+(a_1,\ldots,a_n)$, as desired. This concludes the proof of claim $\mathfrak{C}4$.
 
-Proof of claim $\mathfrak{C}5$: Assume $\mathbf{Z}_3$. Then $A^{\bar{r}_n,\ldots,\bar{r}_3}$ is well-defined for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ and $\sum_{k=3}^n[A^{\bar{r}_n,\ldots,\bar{r}_{k+1},\bullet,r_{k-1},\ldots,r_3}]<a_1$ for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$. Note that $A^{\bar{r}_n,\ldots,\bar{r}_3}$ is a cyclotomic array of size $a_1\times a_2$. If $A^{\bar{r}_n,\ldots,\bar{r}_3}>0$ for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ then $[A^{\bar{r}_n,\ldots,\bar{r}_3}]\in\mathbb{Z}^+(a_1,a_2)$ by Proposition 2 so $[A]\in\mathbb{Z}^+(a_1,\ldots,a_n)$ by (13). Therefore we can assume there is some $(s_n,\ldots,s_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ such that $[A^{\bar{s}_n,\ldots,\bar{s}_3}]^->0$.
+Proof of claim $\mathfrak{C}5$: Assume $\mathbf{Z}_3$. Then $A^{\bar{r}_n,\ldots,\bar{r}_3}$ is well-defined for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ and $\sum_{k=3}^n[A^{\bar{r}_n,\ldots,\bar{r}_{k+1},\bullet,r_{k-1},\ldots,r_3}]<a_1$ for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$. Note that $A^{\bar{r}_n,\ldots,\bar{r}_3}$ is a cyclotomic array of size $a_1\times a_2$. If $A^{\bar{r}_n,\ldots,\bar{r}_3}\geq 0$ for all $(r_n,\ldots,r_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ then $[A^{\bar{r}_n,\ldots,\bar{r}_3}]\in\mathbb{Z}^+(a_1,a_2)$ by Proposition 2 so $[A]\in\mathbb{Z}^+(a_1,\ldots,a_n)$ by (13). Therefore we can assume there is some $(s_n,\ldots,s_3)\in\mathbb{Z}_{a_n}\times\cdots\times\mathbb{Z}_{a_3}$ such that $[A^{\bar{s}_n,\ldots,\bar{s}_3}]^->0$.
 
 We have that
 
@@ -907,8 +907,8 @@ and that
 
 $$\begin{aligned}
 [A^{\bar{s}_n,\ldots,\bar{s}_3}]&\geq(a_1-[A^{\bar{s}_n,\ldots,\bar{s}_3}]^-)a_2-a_1\\
-&\geq\left(a_1-[A^{\bar{s}_n,\ldots,\bar{s}_3}]^--\sum_{k=3}^n[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_3}]\right)a_2-a_1\\
-&=a_1a_2-a_1-a_2\sum_{k=3}^n[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_3}]-a_2[A^{\bar{s}_n,\ldots,\bar{s}_3}]^-.
+&\geq\left(a_1-[A^{s_n,\ldots,s_3}]^--\sum_{k=3}^n[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_3}]\right)a_2-a_1\\
+&=a_1a_2-a_1-a_2\sum_{k=3}^n[A^{\bar{s}_n,\ldots,\bar{s}_{k+1},\bullet,s_{k-1},\ldots,s_3}]-a_2[A^{s_n,\ldots,s_3}]^-.
 \end{aligned}$$
 
 So

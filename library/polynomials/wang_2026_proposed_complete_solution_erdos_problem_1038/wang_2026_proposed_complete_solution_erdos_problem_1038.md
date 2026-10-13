@@ -710,7 +710,7 @@ $$
 This is obtained by inserting $U_{2m}=1+2\sum_{\ell=1}^m\cos(2\ell\theta)$ and $U_{2m-1}=2\sum_{\ell=1}^m\cos((2\ell-1)\theta)$. We spell out the remaining coefficient calculation. Put
 
 $$
-\epsilon_n=\frac{1}{\pi}\int_0^\pi U_{n-1}(\cos\theta)\,d\theta
+\varepsilon_n=\frac{1}{\pi}\int_0^\pi U_{n-1}(\cos\theta)\,d\theta
 =
 \begin{cases}
 1, & n\text{ odd},\\
@@ -723,7 +723,7 @@ and let $S_n(\rho)$ denote the preceding Poisson integral. The angular density f
 $$
 \int_I g\,d\xi
 =-\frac{2}{r}\sum_{n\geq 1}f_n
-\left(D\epsilon_n-\sum_j\sigma_jS_n(\rho_j)\right).
+\left(D\varepsilon_n-\sum_j\sigma_jS_n(\rho_j)\right).
 $$
 
 Poisson orthogonality and the displayed first-variation formula give, on the other hand,
@@ -772,7 +772,7 @@ $$
 =-a_\pi v(2)\left(\frac{\sigma_-}{K_-}+\frac{\sigma_+}{K_+}\right).}\tag{4.14}
 $$
 
-For an atomic target, $v$ is piecewise $C^1$ in the reference coordinate, with finitely many jumps. Apply (4.14) to the Poisson--Abel regularization $F_\lambda=f_0+2\sum\lambda^n f_n\cos(n\theta)$. For fixed $\lambda<1$, the identity first holds for finite cosine truncations and then for $F_\lambda$ by absolute convergence. As $\lambda\uparrow1$, the exterior integrals converge by domination because $d-x_\pm$ is bounded away from zero. The endpoint term also converges: $F_\lambda(\pi)\to F(\pi)$ because the even periodic extension $\theta\mapsto F(c-r\cos\theta)$ is continuous at $\pi$. For the interior pairing, the zero principal value of the constant numerator gives, at every continuity point,
+For an atomic target, $v$ is piecewise $C^1$ in the reference coordinate, with finitely many jumps. Apply (4.14) to the Poisson--Abel regularization $F_\lambda=f_0+2\sum\lambda^n f_n\cos(n\theta)$. For fixed $\lambda<1$, the identity first holds for finite cosine truncations and then for $F_\lambda$ by absolute convergence. As $\lambda\uparrow1$, the exterior integrals converge by domination because $d-x_\pm$ is bounded away from zero. The endpoint term also converges: $F_\lambda(\pi)\to F(\pi)$ because the even periodic extension of $\theta\mapsto F(c-r\cos\theta)$ is continuous at $\pi$. For the interior pairing, the zero principal value of the constant numerator gives, at every continuity point,
 
 $$
 g(c-r\cos\theta)=\frac{1}{\pi r}\operatorname{pv}\int_0^\pi
@@ -1389,7 +1389,7 @@ $$
 26631/10^6 \leq q \leq 41542/10^6,
 $$
 
-and proves $k(41542/10^6) < 21/5$. It keeps both self-gaps $h(Q)$ and $h(R)$ in (5.4). The simple terminal certificate covers $0 < q \leq 26631/10^6$; it proves the denominator corresponding to $2H/(a_\pi b_\pi)$ is strictly below one. In the terminal family $C = 0$, while Certificate 6.1 gives $M_0 \geq L$. Therefore $C_{\mathrm{eff}} = (L - M_0)/R_0 < 0$, and discarding its favorable term is legitimate.
+and proves $k(41542/10^6) < 21/5$. It keeps both self-gaps $h(Q)$ and $h(R)$ in (5.4). The simple terminal certificate covers $0 < q \leq 26631/10^6$; it proves the denominator corresponding to $2H/(a_\pi b_\pi)$ is strictly below one. In the terminal family $C = 0$, while Certificate 6.1 gives $M_0 \geq L$. Therefore $C_{\mathrm{eff}} = (L - M_0)/R_0 \leq 0$, and discarding its favorable term is legitimate.
 
 The arithmetic uses directed endpoints throughout. Decimal-to-ball and ball-to-decimal conversions are explicitly enlarged; the affine range starts at $36/25 < 29/20$, so a representational endpoint cannot create a gap. The two terminal ranges meet exactly at $k(26631/10^6)$, and the inequality $k(41542/10^6) < 21/5$ gives a strict overlap with the constant-edge range. The complete implementation is the uniform-calibration section of `numerical_verifier.py`. $\square$
 

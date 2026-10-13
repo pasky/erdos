@@ -22,7 +22,7 @@ Other authors ([4], [1]) have improved these results to $r(n) > 5$ and $r(n) > 7
 
 *Key words and phrases*: Erdős–Turán conjecture, asymptotic additive bases, lower bounds.
 
-Here we prove that $r(n)$ cannot be bounded above by five under some assumptions weaker than $A$ being an asymptotic basis. A strong version of the conjecture is obtained by replacing the condition that $(^{1})$ $A(n) \geq C\sqrt{n}$ for all large $n$, for some fixed (arbitrary) $C > 0$. This version prompted us to search for lower bounds solely on grounds of density of the sets in question.
+Here we prove that $r(n)$ cannot be bounded above by five under some assumptions weaker than $A$ being an asymptotic basis. A strong version of the conjecture is obtained by replacing the condition that $A$ is an asymptotic basis with the condition that $(^{1})$ $A(n) \geq C\sqrt{n}$ for all large $n$, for some fixed (arbitrary) $C > 0$. This version prompted us to search for lower bounds solely on grounds of density of the sets in question.
 
 The heart of our arguments lies in the generating function approach and especially the excellent exposition of that approach in Newman’s book [5]. The main theorem in this work is the following
 

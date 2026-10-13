@@ -17,7 +17,7 @@ $$
 .............
 
 $$
-A_\nu = \frac{1}{a_\nu} - \sum_{i<\nu} \frac{1}{[a_\nu,a_i]} + \sum_{i<\mu<\nu} \frac{1}{[a_\nu,a_\mu,a_i]} - \ldots,
+A_\nu = \frac{1}{a_\nu} - \sum_{\mu<\nu} \frac{1}{[a_\mu,a_\nu]} + \sum_{\lambda<\mu<\nu} \frac{1}{[a_\lambda,a_\mu,a_\nu]} - \ldots,
 $$
 
 where $[a,b,c,\ldots]$ denotes the least common multiple of $a,b,c,\ldots$ Then $A_\nu$ is easily seen to be the density of those integers which are divisible by $a_\nu$ but not by any one of $a_1,\ldots,a_{\nu-1}$. Hence $A_\nu \geq 0$, and $\sum_1^m A_\nu$, being the density of those integers which are divisible by at least one of $a_1,\ldots,a_m$, is less than 1. If we define
@@ -38,23 +38,23 @@ $$
 then it a has subsequence $a_{i_1},a_{i_2},\ldots$ in which $a_{i_k}\mid a_{i_{k+1}}$ $(k=1,2,\ldots)$. Natu-
 rally every sequence of positive lower density satisfies the condition.
 
-2. Let $\vartheta(n)$ be 1 if $n$ is a $b_i$ (i.e. if there is an $a_j\mid n$) and 0 other-
+2. Let $\theta(n)$ be 1 if $n$ is a $b_i$ (i.e. if there is an $a_j\mid n$) and 0 other-
 wise. Let
 
 $$
-F(s)=\sum_{1}^{\infty}\vartheta(n)n^{-s}\qquad(s>1).
+F(s)=\sum_{1}^{\infty}\theta(n)n^{-s}\qquad(s>1).
 $$
 
 Let
 
 $$
-A_v(s)=\frac{1}{a_v^s}-\sum_{\mu<v}\frac{1}{[a_\mu,a_v]^s}+\sum_{\lambda<\mu<v}\frac{1}{[a_\lambda,a_\mu,a_v]^s}-\cdots,
+A_\nu(s)=\frac{1}{a_\nu^s}-\sum_{\mu<\nu}\frac{1}{[a_\mu,a_\nu]^s}+\sum_{\lambda<\mu<\nu}\frac{1}{[a_\lambda,a_\mu,a_\nu]^s}-\cdots,
 $$
 
-so that $A_v(1)=A_v$, and
+so that $A_\nu(1)=A_\nu$, and
 
 $$
-A(s)=\sum_{1}^{\infty}A_v(s),
+A(s)=\sum_{1}^{\infty}A_\nu(s),
 $$
 
 Then it is easily seen that
@@ -68,15 +68,15 @@ for $s>1$.
 Lemma 1: *If $1<s_1<s_2$, then for any $m$*,
 
 $$
-\sum_{1}^{m}A_v(s_2)\leq\sum_{1}^{m}A_v(s_1).
+\sum_{1}^{m}A_\nu(s_2)\leq\sum_{1}^{m}A_\nu(s_1).
 $$
 
-Proof: Let $\vartheta_m(n)$ be 1 if $n$ is divisible by any one of $a_1,\ldots,a_m$
+Proof: Let $\theta_m(n)$ be 1 if $n$ is divisible by any one of $a_1,\ldots,a_m$
 
-and 0 otherwise, and let $F_m(s)=\sum_{n=1}^{\infty}\vartheta_m(n)n^{-s}$. As before
+and 0 otherwise, and let $F_m(s)=\sum_{n=1}^{\infty}\theta_m(n)n^{-s}$. As before
 
 $$
-F_m(s)=\zeta(s)\sum_{1}^{m}A_v(s).
+F_m(s)=\zeta(s)\sum_{1}^{m}A_\nu(s).
 $$
 
 We have the inequality
@@ -110,7 +110,7 @@ $$
 hence
 
 $$
-\frac{d}{ds}\left(\sum_{1}^{m}A_v(s)\right)\leq 0
+\frac{d}{ds}\left(\sum_{1}^{m}A_\nu(s)\right)\leq 0
 $$
 
 for $s>1$, which proves the Lemma.
@@ -120,19 +120,19 @@ Lemma 2: $A(s)\to A$ as $s\to1$ ($s>1$).
 Proof: By Lemma 1, we have for $s>1$ and any $m$,
 
 $$
-\sum_{1}^{m}A_v(s)\leq\lim_{s=1}\sum_{1}^{m}A_v(s)=\sum_{1}^{m}A_v\leq A,
+\sum_{1}^{m}A_\nu(s)\leq\lim_{s=1}\sum_{1}^{m}A_\nu(s)=\sum_{1}^{m}A_\nu\leq A,
 $$
 
 hence $A(s)\leq A$. But
 
 $$
-\lim_{s=1}A(s)\geq\lim_{s=1}\sum_{1}^{m}A_v(s)=\sum_{1}^{m}A_v,
+\underline{\lim}_{s=1}A(s)\geq\lim_{s=1}\sum_{1}^{m}A_\nu(s)=\sum_{1}^{m}A_\nu,
 $$
 
 and so
 
 $$
-\lim_{s=1}A(s)\geq A,
+\underline{\lim}_{s=1}A(s)\geq A,
 $$
 
 which proves the Lemma.
@@ -142,7 +142,7 @@ Theorem 1: (a) $\lim_{x=\infty}(\log x)^{-1}\sum_{n=1}^{x}\theta(n)n^{-1}$ exist
 (b)
 
 $$
-\lim_{x=\infty}x^{-1}\sum_{n=1}^{x}\theta(n)=A.
+\underline{\lim}_{x=\infty}x^{-1}\sum_{n=1}^{x}\theta(n)=A.
 $$
 
 Proof: By lemma 2,
@@ -165,7 +165,7 @@ $$
 for some $\delta>0$ and all $n\geq N$, and so
 
 $$
-F(s)=\sum_{1}^{\infty}s_n(n^{-s}-(n+1)^{-s})>(A+\delta)\sum_{N-1}^{\infty}n^{-s},
+F(s)=\sum_{1}^{\infty}s_n(n^{-s}-(n+1)^{-s})>(A+\delta)\sum_{N+1}^{\infty}n^{-s},
 $$
 
 which on making $s\to1$ contradicts (2).
@@ -209,13 +209,13 @@ $^{2)}$ Proc. London Math. Soc. (2) 13 (1914), 174 – 191, Theorem 16.
 
 $$
 \leq \overline{\lim}_{x=\infty}(\log x)^{-1}
-\sum_{\substack{n=1\\a_1+n,\ldots,a_r+n}}^{x}\theta(n)n^{-1}.
+\sum_{\substack{n=1\\a_1\nmid n,\ldots,a_r\nmid n}}^{x}\theta(n)n^{-1}.
 $$
 
 By Theorem 1 (a) the last expression has the value
 
 $$
-A-\sum_{\nu=1}^{r}A_\nu.
+A-\sum_{\tau=1}^{r}A_\nu.
 $$
 
 From (4) we have a contradiction.
