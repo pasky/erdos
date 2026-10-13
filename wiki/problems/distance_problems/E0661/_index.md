@@ -53,7 +53,10 @@ the external Guth--Katz proofs are not compiled or reviewed here. The lattice
 construction is separately **Verified at the stated scope** in that review,
 relative to its external counting premise, whose proof remains uncompiled.
 Theorem 4's separate unbalanced proof remains uncompiled in this account. These
-additions do not change the status of the little-o question.
+additions do not change the status of the little-o question. On 2026-10-13 the
+literature-check paragraph above was reworded so that its date qualifies the
+check's finding rather than the check; the change touches no examined
+statement, proof, code or input.
 
 ## Progress
 

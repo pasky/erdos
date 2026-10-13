@@ -73,8 +73,8 @@ theorem that every positive rational occurs infinitely often. The linked
 account transcribes that theorem and identifies the GGPY sieve input; its
 complete rewrite of Eberhard's published proof was checked against the paper
 by this corpus's own review, which is not acceptance evidence, with the GGPY
-sieve statement assumed at its recorded standing and not certified. No broader
-status search beyond erdosproblems.com is recorded. The community
+sieve statement assumed at its recorded standing and not certified. No dated
+broader status search beyond erdosproblems.com is recorded. The community
 Lean file proves the downstream argument conditionally on GGPY, whose
 proposition is not proved in that file; this corpus has not built it. The
 problem's standing derives from Eberhard's claim page, accepted on the
