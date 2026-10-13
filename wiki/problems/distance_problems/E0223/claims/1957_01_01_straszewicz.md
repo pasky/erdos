@@ -36,7 +36,7 @@ every $n\ge4$; the values for $n=2,3$ ($1$ and $3$) are trivial. Nothing is
 claimed about the plane or about $d\ge4$.
 
 **Independent proofs.** Grünbaum and Heppes proved the same theorem
-independently; each has their own claim page in this folder, and the site
+independently; each has his own claim page in this folder, and the site
 credits all three.
 
 **Acceptance.** The paper is refereed: S. Straszewicz, Sur un problème

@@ -12,7 +12,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/analysis/E1048/_index|..]]
 
 [[problems/analysis/E1048/claims/1961_01_01_pommerenke|1961_01_01_pommerenke]]: Pommerenke's 1961 answer is no: for $1<r<2$ the set where $|z^n-r^n|\le1$ has
-$n$ components whose diameter tends to $0$. The paper's Theorem 3 gives the
+$n$ components whose diameter tends to $0$. His Theorem 3 gives the
 affirmative answer for $0<r\le1$, and the paper is refereed.
 
 [[problems/analysis/E1048/claims/2026_01_28_alexeev|2026_01_28_alexeev]]: Aristotle's disproof, found from the problem statement alone and published in

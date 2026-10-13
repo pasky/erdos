@@ -87,7 +87,7 @@ path-rotation algorithm $A$ of polynomial complexity, described in § 2°
 $(n,k)$-graphs in § 3° (p. 532), themselves stated without proof; for the
 remaining $k$ the note says a more complicated polynomial algorithm is
 used and does not describe it. A proof by the author is Theorem 1
-(p. 171) of Korshunov's 1985 paper, paged at
+(p. 171) of his 1985 paper, paged at
 [[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]],
 which says (p. 179) that the 1977 paper gave a part of the proof, for
 $k>6n\log n$, and that its own proof differs from the earlier ones.

@@ -37,7 +37,7 @@ accepted claim pages are
 and
 [[problems/arithmetic_functions/E0239/claims/1968_09_01_halasz|Halász 1968]].
 The label's Lean marker refers to a community Lean formalization of Wirsing's
-theorem, linked from its claim page. None was built or audited here.
+theorem, linked from his claim page. None was built or audited here.
 
 **Source.** [erdosproblems.com/239](https://www.erdosproblems.com/239), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #239,

@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 746, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-12T23:28:38Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/extremal_graph_theory/E0746/claims
@@ -18,8 +18,8 @@ $\epsilon\ge c_1-\tfrac12$.
 
 [[problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov|1976_01_22_korshunov]]: Korshunov proves that almost every graph with $n$ labeled vertices and $k$
 edges is Hamiltonian exactly when $k=\tfrac n2(\log n+\log\log n+\varphi(n))$
-with $\varphi(n)\to\infty$, answering Problem 746. The author announced it in
-1976, proved a part in 1977 and gave the full proof in 1985.
+with $\varphi(n)\to\infty$, answering Problem 746. He announced it in 1976,
+proved a part in 1977 and gave the full proof in 1985.
 
 [[problems/extremal_graph_theory/E0746/claims/1983_01_01_komlos_szemeredi|1983_01_01_komlos_szemeredi]]: In a refereed paper in Discrete Mathematics 43 (1983), Komlós and Szemerédi
 prove that with $\tfrac n2\log n+\tfrac n2\log\log n+cn$ edges the probability

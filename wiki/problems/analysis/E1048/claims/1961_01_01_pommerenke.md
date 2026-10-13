@@ -3,7 +3,7 @@ name: problems/analysis/E1048/claims/1961_01_01_pommerenke
 title: Pommerenke's z^n - r^n with components of vanishing diameter
 desc: |
   Pommerenke's 1961 answer is no: for $1<r<2$ the set where $|z^n-r^n|\le1$ has
-  $n$ components whose diameter tends to $0$. The paper's Theorem 3 gives the
+  $n$ components whose diameter tends to $0$. His Theorem 3 gives the
   affirmative answer for $0<r\le1$, and the paper is refereed.
 authors:
 - Ch. Pommerenke

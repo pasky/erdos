@@ -28,8 +28,8 @@ the expected thread URL.
 was essentially correct, while noting that this construction gives
 $c_t\leq2$, rather than the strict inequality claimed in the post. Thomas
 Bloom later wrote at
-<https://www.erdosproblems.com/forum/thread/1022#post-3665> that he would mark
-the problem solved. The site's edited commentary records the direct
+<https://www.erdosproblems.com/forum/thread/1022#post-3665> that Bloom would
+mark the problem solved. The site's edited commentary records the direct
 counterexample and the independently identified published construction of
 Wood. This named review and adoption by the site satisfy the repository's rule
 for recording a forum result.

@@ -33,10 +33,10 @@ be covered by a set of circles the sum of whose radii is $\leq 2$?
 
 **Status.** Open. The site labels the problem OPEN (page last edited
 2025-12-29). Two accepted partial claims, both Pommerenke's, answer yes in the
-connected case, which the site's remarks credit to Pommerenke. The 1959 theorem
-covers every monic $f$ whose open set $\{|f|<1\}$ is connected
+connected case, which the site's remarks credit to him. His 1959 theorem covers
+every monic $f$ whose open set $\{|f|<1\}$ is connected
 ([[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]]).
-The 1961 paper covers every monic $f$ whose closed set $\{|f|\le1\}$ is
+His 1961 paper covers every monic $f$ whose closed set $\{|f|\le1\}$ is
 connected
 ([[problems/polynomials/E0509/claims/1961_01_01_pommerenke|Pommerenke 1961]]).
 One pending partial claim on the proof-claims tab is recorded here and not

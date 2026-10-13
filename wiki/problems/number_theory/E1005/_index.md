@@ -164,8 +164,8 @@ kernel-checked.
 
 **The question (site formulation of 2026-09-18).** The statement above; SOLVED;
 last edited 1 September 2026. The site's commentary traces $f(n)$ to Mayer
-[Ma42], crediting Mayer with $f(n)\to\infty$, and Erdős [Er43] with
-$f(n)\gg n$; credits van Doorn [vD25b] with the bounds $(\frac1{12}-o(1))n\le
+[Ma42], crediting him with $f(n)\to\infty$, and Erdős [Er43] with $f(n)\gg n$;
+credits van Doorn [vD25b] with the bounds $(\frac1{12}-o(1))n\le
 f(n)\le\frac14n+O(1)$ and the conjecture that the upper bound is sharp; and says
 that Cipollini and GPT 5.5, in the commentary's wording, proved the matching
 lower bound asymptotically, giving $f(n)=(\frac14+o(1))n$. The thread's one

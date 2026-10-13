@@ -279,7 +279,7 @@ known to be elementary, is the pending claim on the second question.
   manuscript of 25 September 2026
   ([[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_1|Theorem 2.1 on its card]])
   proves $V(cx)/V(x)\to c$ for every fixed real $c>0$, the question of Erdős
-  and Hall that Ford's §1.2 says the paper's method falls short of; its Lean
+  and Hall that Ford's §1.2 says Ford's own method falls short of; its Lean
   declaration was built here with the three standard axioms and its
   statement audited, and it is accepted as a partial claim on the first
   question

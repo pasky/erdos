@@ -60,7 +60,7 @@ argument to an ideal of "thin" subsets of an abelian group and the associated
 groups of infinite measure, a corollary allowing the exceptional subset of the
 square to have finite outer product measure.
 
-For Jurkat's work, the introduction cites only the 1964 notice, which
+For Jurkat's work, the introduction cites only his 1964 notice, which
 contained no proof.
 Jurkat's published 1965 paper does contain an independent proof; its conull
 sumset construction is treated separately in

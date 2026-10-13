@@ -93,7 +93,7 @@ Erdős posed the question as Problem P 310 in 1960. The site credits the
 result as proved independently by Jurkat [Ju65] and de Bruijn [dB66].
 
 Jurkat's Theorem I works with a real-valued function that may initially be
-undefined on a null set. The proof passes to a conull set $M$, proves that
+undefined on a null set. He passes to a conull set $M$, proves that
 $f(x)+f(y)$ depends only on the sum $x+y$ for $x,y\in M$, and uses
 $\mathbb R=M+M$ to define the unique additive correction on all of
 $\mathbb R$.

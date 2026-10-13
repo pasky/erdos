@@ -1032,7 +1032,7 @@ k = (n/2)(ln n + ln ln n + φ(n)) with φ(n) → ∞, with a sketch of the
 polynomial-time path-rotation algorithm the proof uses for k > 3n ln n,
 and no proofs.
 
-[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/]]: Korshunov's 1985 English paper giving a new proof of the author's theorem that
+[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/]]: Korshunov's 1985 English paper giving a new proof of his theorem that
 almost every graph with n vertices and k edges contains a Hamiltonian
 cycle if and only if k = (n/2)(log n + log log n + φ(n)) with φ(n) → ∞,
 the Erdős–Rényi problem of Problem 746: Theorem 1, proved through its

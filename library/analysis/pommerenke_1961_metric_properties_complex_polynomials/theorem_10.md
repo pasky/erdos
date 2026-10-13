@@ -35,7 +35,7 @@ radius 2 about the centroid of the zeros. This containment answers
 Problem 14 of the 1958 paper (whether the lemniscate set of a
 $K$-polynomial lies in a disk of radius 2 centered at the centroid)
 affirmatively; the paper does not name Problem 14 here, and the author had
-already answered it as Theorem 3 (p. 222) of their 1959 note [9],
+already answered it as Theorem 3 (p. 222) of his 1959 note [9],
 [[analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/_index|pommerenke_1959_some_problems_erdos_herzog_piranian]].
 
 Sharpness (pp. 107--108): $(z^2-1/2)^m(z^2+a^2)$ with $a>\sqrt2/2$ has

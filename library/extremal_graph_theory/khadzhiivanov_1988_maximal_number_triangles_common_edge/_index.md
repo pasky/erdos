@@ -23,8 +23,8 @@ companion corollaries giving the exact minimum ⌈n/6⌉.
 [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/problem_p44|problem_p44]]: Khadzhiivanov's 1988 statement of Erdős's problem on the largest number of
 triangles on one edge of a graph with more than n²/4 edges, tracing it from
 Erdős's linear bound with an explicit constant through the conjecture of
-the 1975 Aberdeen collection, and attributing its complete solution to the
-author's 1979 note with Nikiforov.
+the 1975 Aberdeen collection, and attributing its complete solution to his
+1979 note with Nikiforov.
 
 ***
 
@@ -145,12 +145,12 @@ Problem 1034 consumes Corollary 3 as the book bound behind its lower bound
   the past 10 years. All results concern Erdős's conjecture, but despite this
   there is no shift toward its solution"; Edwards's first theorem (if
   $d(u)+d(v)\ge\frac76n$ for an edge then $\hat t\ge n/6$) is derived from the
-  elementary inequality $t[u,v]\ge d(u)+d(v)-n$ and the second from the
-  first, while the third and fourth (the fourth: a regular graph of degree
+  elementary inequality $t[u,v]\ge d(u)+d(v)-n$ and his second from the
+  first, while his third and fourth (the fourth: a regular graph of degree
   $d$ with a triangle has $\hat t\ge d-n/3$) are contained in display (39),
   which gives $3\hat t\ge d(u)+d(v)+d(w)-n$ for every triangle $[u,v,w]$; of
   Edwards's Theorem 5, which Edwards "considers his main one", the author
-  declines to reproduce its statement "because its hypotheses
+  writes that he will not reproduce its statement "because its hypotheses
   are absurd: among them is the negation of Erdős's conjecture"; Edwards's
   Corollaries 1 and 2 (displays (40)--(43), pp. 48--49) are shown to follow
   from Corollary 3 (the first with Lemma 2), the second being "clearly not

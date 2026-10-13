@@ -41,10 +41,10 @@ $a_0<\cdots<a_n$ and the statement holds only vacuously; and the index $m$
 in $(a_0,a_m)$ is never introduced. The change replaces "degree $n$" with
 "degree $n+1$" and "$(a_0,a_m)$" with "$(a_0,a_n)$"; nothing else changes.
 The site prints no source for the conjecture. Bálint [Ba60b] states it as
-Erdős's in the opening paragraph (p. 33), apart from the proof, for
+Erdős's in his opening paragraph (p. 33), apart from his proof, for
 $q(y)=\prod_{m=0}^n(y-a_m)$, a polynomial of degree $n+1$ with
 $a_m-a_{m-1}=d$ for $m=1,\ldots,n$, and the midpoint $(a_0+a_n)/2$ of the
-interval $(a_0,a_n)$; the Russian summary (p. 39) states the same. The
+interval $(a_0,a_n)$; his Russian summary (p. 39) states the same. His
 English summary (p. 40) writes that midpoint as $(a_0+a_m)/2$ of
 $(a_0,a_m)$, reusing the product's index, the form the site's stray index
 follows. Lorch [Lo76] (p. 293), independent of Bálint's proof, states

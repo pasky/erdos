@@ -271,7 +271,7 @@ record says proved (Lean), as of its last update, dated 7 April 2026.
   that $e>n^2/4$ gives $\hat t\ge n/6+O(1)$, and in [6] the conjecture takes
   the more precise form the paper calls Erdős's problem, $\hat t\ge n/6$
   whenever $e>n^2/4$; in [2] the author solved this problem completely with
-  their diploma student V. Nikiforov. The paper then proves the statement again,
+  his diploma student V. Nikiforov. The paper then proves the statement again,
   p. 45
   ([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]]),
   as its Corollary 3: if $e>[n^2/4]$ then $\hat t>n/6$, from Corollary 1 (if

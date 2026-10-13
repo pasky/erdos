@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0767/claims/1961_01_01_posa|1961_01_01_posa]]: Pósa proves that every graph on $n\ge4$ vertices with at least $2n-3$ edges
 has a cycle with a chord, so $g_1(n)=2n-4$ for $n\ge4$, the case $k=1$ of
-Problem 767. He posed it as Problem 127 of Mat. Lapok 12 (1961).
+Problem 767. Pósa posed it as Problem 127 of Mat. Lapok 12 (1961).
 
 [[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|2004_04_07_jiang]]: Jiang proves that the largest number of edges on $n$ vertices with no cycle
 carrying $k$ chords at one cycle vertex is $(k+1)n-(k+1)^2$ for all

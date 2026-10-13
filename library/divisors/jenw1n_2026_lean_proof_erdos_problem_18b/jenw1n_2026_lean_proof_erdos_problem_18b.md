@@ -145,7 +145,7 @@ type-hash check.
 On 2026-09-27 13:28:50 (site clock) the site owner posted the record on the
 proof-claims tab as "A partial proof claimed by conjectures.io (using
 Unknown)" with the summary "This formalisation claims a proof that
-$h(n!)\leq n^{o(1)}$" and the note that he had not verified the proof, did not
-claim the formalization is correct, and was posting it so that others are
-aware of the claim. The community database entry 18 (read 2026-09-27) still
-records open (2025-08-31) and formalized (2026-03-15).
+$h(n!)\leq n^{o(1)}$" and the note that the owner had not verified the proof,
+did not claim the formalization is correct, and was posting it so that others
+are aware of the claim. The community database entry 18 (read 2026-09-27)
+still records open (2025-08-31) and formalized (2026-03-15).

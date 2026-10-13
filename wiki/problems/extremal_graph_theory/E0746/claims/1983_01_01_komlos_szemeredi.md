@@ -60,8 +60,8 @@ that the random graph with $(\tfrac12+\epsilon)n\log n$ edges is almost
 surely Hamiltonian, and Hamiltonicity is preserved by adding edges, which
 is the site's "$\ge$". The threshold itself had been announced and proved
 by Korshunov, on
-[[problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov|its own claim page]];
-the paper's abstract credits that author with the case $c_n\to\infty$, and
+[[problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov|his claim page]];
+the paper's abstract credits him with the case $c_n\to\infty$, and
 Korshunov's 1985 comment calls this paper an independent solution.
 
 **Acceptance.** Refereed: Discrete Mathematics 43 (1983), no. 1, per the
