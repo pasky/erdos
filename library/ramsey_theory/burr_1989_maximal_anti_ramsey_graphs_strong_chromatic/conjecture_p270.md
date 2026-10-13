@@ -48,7 +48,14 @@ None. The conjecture is proved for the cycles of length at least nine by
 [[ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/theorem_1_2|Theorem 1.2]]
 of Bucić, Chen and Ma (2026), whose
 [[ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/conjecture_1_1|Conjecture 1.1]]
-restates this passage; $C_7$ is not covered there.
+restates this passage; $C_7$ is not covered there. Two accepted full claims on
+Problem 809, each with formalized evidence, cover every odd cycle of length at
+least seven, $C_7$ included:
+[[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s proof
+of the seven-cycle case with a Lean development for every length, filed first,
+and
+[[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|Plasma AI]]'s
+kernel-checked Lean proof.
 
 ## Dependencies
 

@@ -91,7 +91,7 @@ def run_gate(
     tree differs from the receipt's; ``strict`` fails a leg whose required tool
     is unavailable instead of skipping it; ``settled`` makes a problem whose
     provisional standing rests on no claim page a failure of the problem
-    claims leg instead of counted transition debt.
+    claims leg instead of a count in the leg's detail (the release mode).
     """
     # check generated corpus structure
     root = root.resolve()
@@ -252,13 +252,13 @@ def _problem_links_leg(
     root: pathlib.Path,
     requested: tuple[str, ...],
 ) -> LegResult:
-    """Check the bounded incoming-link rollout and disclose its remaining debt."""
+    """Check the selected incoming-link blocks and count the pages without one."""
     # require the mathematics root
     if not (root / MATH_DIR).is_dir():
         return LegResult(
             'problem library links', 'FAIL', f'missing required {MATH_DIR}/ root'
         )
-    # find managed pages without extending the navigation rollout
+    # find managed pages without adding blocks to unmanaged pages
     pages = sorted((root / MATH_DIR / 'problems').glob(_PROBLEM_GLOB))
     selected = set(requested)
     marker_bearing = set()
@@ -606,8 +606,8 @@ def _problem_scope_detail(checked: int, missing: int) -> str:
     """Render the incoming-link scope without implying mathematical review."""
     return (
         f'checked {checked} problem(s); {missing} canonical problem page(s) '
-        'have no managed block (rollout debt; markers are structural, not '
-        'mathematical acceptance)'
+        'have no managed block (no library page links them, or a new link '
+        'awaits its block; markers are structural, not mathematical acceptance)'
     )
 
 

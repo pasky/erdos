@@ -234,10 +234,17 @@ open.
 **Proof coverage.** Author-recorded reconstructions of Hughes's Theorem 1 and
 Remark 6 and of the van Doorn note's chain from Lemma 3.1 to Theorem 1.1 (the
 latter labeled claimed) are filed in
-[[research/erdos_18/_index|the Problem 18 research folder]]; no result on this
-page was independently reviewed by this corpus, which built no Lean; the
-part-(b) statement rests on Conjectures.io's kernel check and review; parts (a)
-and (c) carry claims and cited bounds only.
+[[research/erdos_18/_index|the Problem 18 research folder]]. Each
+reconstruction page, as it stood on 2026-09-28, has a focused independent
+review, and a distinct grade of the same date passed all ten reviews
+([[research/erdos_18/evidence/verify/_index|the review records]]): every page
+was found faithful to its source, five of them with corrections that were then
+applied, and every argument sound as reconstructed, the later van Doorn steps
+taking the earlier ones as claimed inputs. These are focused reviews of
+reconstructions, not whole-claim reviews; they assign no tier and change no
+standing. This corpus built no Lean; the part-(b) statement rests on
+Conjectures.io's kernel check and review; parts (a) and (c) carry claims and
+cited bounds only.
 
 ## Known results
 

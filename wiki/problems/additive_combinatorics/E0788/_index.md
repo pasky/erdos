@@ -92,13 +92,13 @@ https://www.erdosproblems.com/788, accessed 2026-09-18.
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/section_9|Section 9]].
 - [Ch71] Choi, S. L. G., On a combinatorial problem in number theory. Proc.
   London Math. Soc. (3) 23 (1971), no. 4, 629--642, DOI
-  10.1112/plms/s3-23.4.629 (Crossref record accessed). Not held;
+  10.1112/plms/s3-23.4.629 (Crossref record). Not held;
   its bound $f(n)=O(n^{3/4})$ and its conjecture are quoted from [Er73] and
   [BSS00], p. 172.
 - [BSS00] Baltz, A., Schoen, T. and Srivastav, A., Probabilistic
   construction of small strongly sum-free sets via large Sidon sets.
   Colloq. Math. 86 (2000), no. 2, 171--176, DOI 10.4064/cm-86-2-171-176
-  (Crossref record accessed; received 4 May 1999, revised 1
+  (Crossref record; received 4 May 1999, revised 1
   December 1999). Theorem 2, printed p. 173; the greedy lower bound and
   Choi's bounds, p. 172.
   Library home:

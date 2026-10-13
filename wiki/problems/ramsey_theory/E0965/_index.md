@@ -234,7 +234,7 @@ label. The formal-conjectures file at the pinned commit is a statement with a
 `sorry` body whose `formal_proof` attribute names a fixed commit of
 `plby/lean-proofs`. The file there,
 [`src/latest/ErdosProblems/Erdos965.lean`](https://github.com/plby/lean-proofs/blob/dfe2d78128b493c572cf525b1b8edf4897fb7664/src/latest/ErdosProblems/Erdos965.lean)
-(1,808 bytes; toolchain and Mathlib v4.33.0 per its header; accessed), declares
+(1,808 bytes; toolchain and Mathlib v4.33.0 per its header), declares
 itself a formalization of a solution to the problem, names Komjáth as the
 informal author and Codex and GPT-5.6 Sol as the formal authors, imports three
 project modules and proves `not_erdos_965 : ¬ ∀ f : ℝ → Fin 2, ∃ A : Set ℝ, ¬

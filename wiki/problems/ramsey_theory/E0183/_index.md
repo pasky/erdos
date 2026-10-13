@@ -66,7 +66,7 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
   page.
 - [Wh73] Whitehead, Jr., Earl Glen, The Ramsey number $N(3,\,3,\,3,\,3;\,2)$.
   Discrete Math. 4 (1973), no. 4, 389--396, DOI 10.1016/0012-365X(73)90174-X
-  (Crossref record accessed). The site's text prints no volume.
+  (Crossref record). The site's text prints no volume.
 - [XXC02] Xu, Xiao Dong and Xie, Zheng and Chen, Zhi, Upper bounds for Ramsey
   numbers $R_n(3)$ and Schur numbers (in Chinese). Math. Econ. 19 (2002),
   no. 1, 81--84 (volume and issue from the bibliography of Radziszowski's

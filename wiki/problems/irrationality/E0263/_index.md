@@ -47,7 +47,9 @@ https://www.erdosproblems.com/263.
 **References.**
 
 - [Ko25c] J. Koizumi, Irrationality of the reciprocal sum of doubly exponential
-  sequences. arXiv:2504.05933 (2025).
+  sequences. arXiv:2504.05933 (2025); published as INTEGERS 26 (2026), #A28.
+  This page cites the preprint's labels, as the library card does; the
+  preprint's Theorem 4 is the journal's Theorem 2.
 - [KoTa24] Kovač, V. and Tao, T., On several irrationality problems for Ahmes
   series. arXiv:2406.17593 (2024); Acta Math. Hungar. 175 (2025), 572–608.
 

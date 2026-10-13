@@ -103,6 +103,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions/_index|erdos_1987_locally_repeated_values_certain_arithmetic_functions]]
 - [[../library/arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions/conjecture_p6|erdos_1987_locally_repeated_values_certain_arithmetic_functions / conjecture_p6]]
 - [[../library/arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions/theorem_3_2|erdos_1987_locally_repeated_values_certain_arithmetic_functions / theorem_3_2]]
+- [[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|lau_2026_number_prime_factors_consecutive_integers]]
 - [[../library/number_theory/erdos_1979_unconventional_problems_number_theory_math_mag/_index|erdos_1979_unconventional_problems_number_theory_math_mag]]
 - [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]
 

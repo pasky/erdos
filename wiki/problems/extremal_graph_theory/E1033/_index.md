@@ -30,7 +30,7 @@ $$
 h(n)\geq (2(\sqrt{3}-1)-o(1))n?
 $$
 
-**Formulation.** The site's wording(page last
+**Formulation.** The site's wording (page last
 edited 3 April 2026, when the former content of Problem 904 moved here).
 $h(n)$ is the largest value that works, the minimum over all graphs
 $G$ with $n$ vertices and more than $n^2/4$ edges of the largest degree sum
@@ -123,7 +123,7 @@ https://www.erdosproblems.com/1033, accessed 2026-09-18.
   [BoNi05].
 - [Ed77] Edwards, C. S., The largest vertex degree sum for a triangle in a
   graph. Bull. London Math. Soc. 9 (1977), no. 2, 203--208,
-  doi:10.1112/blms/9.2.203 (Crossref record accessed). Not a
+  doi:10.1112/blms/9.2.203 (Crossref record). Not a
   site key; [ErLa85]'s reference [7], whose theorem it states. Not held.
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have
   been solved. Proceedings of the International Mathematical Conference
@@ -318,7 +318,7 @@ the write-up that publishes it,
   construction, a blow-up of the butterfly graph, optimized with further AI
   assistance (no system named) to $1.463877226\ldots$, a root of a
   polynomial of degree $7$, with a linked three-page write-up under the
-  author line Wouter CvB, dated 27 July 2026 (accessed; its
+  author line Wouter CvB, dated 27 July 2026 (its
   Lemma 1 states the bound $1.463878\,n$, its Lemma 2 the root
   $y_0=1.463877226961\ldots$ of a degree-$7$ polynomial, and it says
   blow-ups of all graphs on at most $8$ vertices were tried) and the post's

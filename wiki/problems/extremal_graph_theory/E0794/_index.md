@@ -27,7 +27,7 @@ updated: 2026-10-08T02:16:54Z
 with at least $n^3+1$ edges must contain either a subgraph on $4$ vertices with
 $3$ edges or a subgraph on $5$ vertices with $7$ edges?
 
-**Formulation.** The site's wording(the page carries no
+**Formulation.** The site's wording (the page carries no
 last-edited date). It restates Erdős's 1969 conjecture, printed as "Every
 $G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$" ([Er69], p. 81;
 [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|result page]]).

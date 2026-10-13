@@ -59,7 +59,7 @@ from the [IAS-hosted journal
 copy](https://www.ias.edu/sites/default/files/math/csdm/05-06/nalon_on_graphs_with_subgraphs_of_large.pdf).
 Its first page records online publication on 9 August 2007.
 
-Complete journal PDF pp. 1-3, printed pp. 149-151, were visually checked UTC for
+Complete journal PDF pp. 1-3, printed pp. 149-151, were visually checked for
 publication identity, definitions, displayed bounds and parameter conventions.
 Equations (1) and (2), on preprint pp. 1 and 2, both appear on journal p. 150.
 The general f(n,s,t) definition is on preprint p. 2 and journal p. 150; the

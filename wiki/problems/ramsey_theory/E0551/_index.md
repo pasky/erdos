@@ -29,7 +29,7 @@ $$
 
 for $k\geq n\geq 3$ (except when $n=k=3$).
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $R(C_k,K_n)$ is the least $N$ such
 that every $2$-coloring of the edges of $K_N$ has a red cycle of length $k$
 or a blue $K_n$; equivalently, the least $N$ such that every $C_k$-free
@@ -185,7 +185,7 @@ under `category research open`, with proof `sorry`, and the variant
 `erdos_551.variants.sufficiently_large`
 (`∀ᶠ n : ℕ in atTop, ∀ k : ℕ, n ≤ k → … = (k - 1) * (n - 1) + 1`) under
 `category research solved`, also with proof `sorry` and a docstring crediting
-[KLS21]. The community database (teorth/erdosproblems,) records the statement as
+[KLS21]. The community database (teorth/erdosproblems) records the statement as
 formalized since 9 September 2026 and no formal proof; the site's page marks the
 statement as formalized. The formal-conjectures file was not built or checked by
 this corpus. The OpenAI release's Lean tree, at the revision its claim page
@@ -308,7 +308,7 @@ closes the residue above and settles the problem.
 **Adjacent results and leads (not status).** The Ramsey-goodness
 literature proves the same formula for cycles against general graphs $H$
 with $(\chi(H)-1)(k-1)+\sigma(H)$ in place of $(n-1)(k-1)+1$: the abstract
-of [KuWa26] (arXiv v2,) claims $C_k$ is $H$-good whenever
+of [KuWa26] (arXiv v2) claims $C_k$ is $H$-good whenever
 $k\ge C|H|$ for an absolute constant $C$, resolving a conjecture of
 Pokrovskiy and Sudakov; for $H=K_n$ this is a linear threshold in $n$,
 weaker than [KLS21] for cliques, and the preprint is unrefereed and unread

@@ -105,7 +105,7 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/291.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/291.lean)
-of formal-conjectures at the linked commit (main,)
+of formal-conjectures at the linked commit (main)
 defines `L n` as the lcm of $1,\ldots,n$
 and `a n` as $\sum_{k\le n}L_n/k$ (with test lemmas for $n\le4$ proved by
 `decide`) and declares `erdos_291.parts.i : answer(sorry) ↔ {n | gcd (a n)
@@ -115,7 +115,7 @@ under `category research solved`, both with proof `sorry`, together with
 `sorry`-bodied variants for the leading-digit criterion, for Shiu's
 heuristic (order $x/\log x$; density zero) and for the Wu--Yan theorem with
 the independence hypothesis as an explicit argument. The community
-database (teorth/erdosproblems, `data/problems.yaml`,)
+database (teorth/erdosproblems, `data/problems.yaml`)
 records status open (31 August 2025), a
 formalized statement (24 June 2026), formal status unformalized and OEIS
 A110566. Van Doorn's external Lean file, which proves a generalization of
@@ -291,7 +291,7 @@ manuscript.
 
 **Data and AI-assisted items (leads with provenance, not status).**
 
-- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023; accessed): $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a
+- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023): $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a
   table to $n=10000$, the comment that $a(n)$ is always odd, and a
   conjecture (J. Song, 2022) that every odd number occurs; the table agrees
   with an exact recomputation.

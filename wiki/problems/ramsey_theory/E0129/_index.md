@@ -32,7 +32,7 @@ $$
 R(n;3,r) < C^{\sqrt{n}}.
 $$
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). The commentary attributes the problem to Erdős and Gyárfás
 and credits them with a proof of $R(n;3,r)>C^{\sqrt n}$ for some $C>1$,
 records Erdős's expectation that $C_1^{n^{1/k-1}}<R(n;k,r)<C_2^{n^{1/k-1}}$

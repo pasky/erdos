@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 graph or independent set on $\gg \log n$ vertices then $G$ contains an induced
 subgraph on $\gg n$ vertices which contains $\gg n^{1/2}$ distinct degrees.
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). Read with constants: for every $C>0$
 there are $\alpha,\beta>0$ depending only on $C$ such that every graph $G$
 on $n$ vertices with no clique or independent set on more than $C\log n$

@@ -84,7 +84,7 @@ discussion thread and proof-claim tab). Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** The site's "(LEAN)" suffix is a catalog label.
 formal-conjectures has no file for Problem 59 at `main` and the site's indicator reads "Formalised statement? No". The community
-database (teorth/erdosproblems,) records `status`
+database (teorth/erdosproblems) records `status`
 "disproved (Lean)", `formal_status` Lean and `formalized` "no", with its
 last update dated 2026-08-24, and names no artifact. The locatable artifact
 is the Lean development `src/latest/ErdosProblems/Erdos59.lean` of
@@ -96,7 +96,7 @@ Neither development was built or audited by this project.
 
 ## Current assessment
 
-**The question (site formulation, accessed and 2026-10-07).** The
+**The question (site formulation, accessed 2026-10-07).** The
 statement above; the site labeled it DISPROVED (LEAN). Its commentary says the
 answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no for
 $G=C_6$, where Morris and Saxton [MoSa16] give at least

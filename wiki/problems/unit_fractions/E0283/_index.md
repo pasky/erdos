@@ -91,9 +91,9 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
 **References.**
 
 - [Gr63] Graham, R. L., A theorem on partitions. J. Austral. Math. Soc. 3
-  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record
-  accessed). Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the
-  Remarks with conjecture $2'$ (p. 441). Library home:
+  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record).
+  Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the Remarks with conjecture
+  $2'$ (p. 441). Library home:
   [[../library/unit_fractions/graham_1963_theorem_partitions/_index|graham_1963_theorem_partitions]].
 - [Al19] Alekseyev, M. A., On partitions into squares of distinct integers
   whose reciprocals sum to 1. In: The Mathematics of Various Entertaining

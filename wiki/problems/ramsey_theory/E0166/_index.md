@@ -195,7 +195,7 @@ has not been compared with it. Depth: Theorem 1, Theorem 2 and displays
 defined graph built from Hermitian unitals in $PG(2,q^2)$, randomly modified
 to be $K_4$-free, its independent sets counted by the container method, and a
 random vertex subset) is not checked. Semantic Scholar lists 79 records citing
-the paper (by title,), none a dispute or refutation; Bradač's
+the paper (by title), none a dispute or refutation; Bradač's
 2026 preprint (Problem 986) reproves the exponent $3$ for $s=4$ within its
 general theorem with the same power $4$ of the logarithm, and is context, not
 the status source.

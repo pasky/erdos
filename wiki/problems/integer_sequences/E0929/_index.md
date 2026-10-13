@@ -5,7 +5,7 @@ desc: |
   Asks for the least $x$ such that a positive density of $n$ have each of
   $n+1,\ldots,n+k$ divisible by a prime $\le x$, and whether it is at least
   $k^{1-o(1)}$. It is the inverse of the covering function of Problem 687 and is
-  open, with lower bounds only of order $\sqrt{k}$.
+  open, with lower bounds only of order $\sqrt{k}\log k$.
 tags:
 - Number theory
 status: open
@@ -68,7 +68,14 @@ $Y(x)\ll x^2$ read through the equivalence. This is how [Er79d] p. 79 states it
 ("Iwaniec's result $B(n)>c\sqrt n$ is the best lower bound known"). The bound is
 the Corollary of [Iw78], p. 226, which gives $C(r)\ll r^2\log^2r$ for the
 longest run of consecutive integers each divisible by one of $r$ arbitrary
-primes, taken at $r=\pi(x)$.
+primes, taken at $r=\pi(x)$, and it remains the best refereed lower bound.
+The best lower bound is $S(k)\gg k^{1/2}\log k$, with an unspecified
+constant: the inversion of $Y(x)\ll x^2/(\log x)^2$, which is accepted, not
+refereed, on Problem 687
+([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]])
+and rests on the Lean bound for Jacobsthal's function of the OpenAI release of
+25 September 2026. It answers yes Erdős's request in [Er79d] p. 79 for
+$B(n)>Cn^{1/2}$ for every $C$; the exponent stays $1/2$ (Current assessment).
 
 Upper bounds. There is the trivial $S(k)\le k+1$, and [Er76d]'s Rankin-type
 bound as printed. The site gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$, which it
@@ -143,7 +150,7 @@ accessed 2026-09-18.
 exists in google-deepmind/formal-conjectures (main when the directory
 `FormalConjectures/ErdosProblems/` had 673 entries and the recursive tree 1,740
 entries, none of them this file), and the site's indicator shows no formalized
-statement. The community database (teorth/erdosproblems,) records the problem
+statement. The community database (teorth/erdosproblems) records the problem
 open (its record last updated 31 August 2025), the statement not formalized,
 `formal_status` unformalized, no formal-proof URL and OEIS "possible".
 
@@ -192,7 +199,7 @@ problem is [Er76d] alone.
 
 **The covering form and its consequences.** Because $S(k)$ is the least
 $x$ with $Y(x)\ge k$ (Formulation), every bound on $Y$ inverts into a bound
-on $S$; the five consequences below are one-line derivations made here and
+on $S$; the six consequences below are one-line derivations made here and
 named as such. (i) Iwaniec's $Y(x)\ll x^2$ (the
 [[../library/integer_sequences/iwaniec_1978_problem_jacobsthal/corollary|Corollary]]
 of [Iw78], p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive
@@ -239,11 +246,31 @@ S(k)\ \ll\ \frac{k\log_3k}{\log k},
 $$
 
 smaller than (ii) by the factor $(\log_3k)^2/\log_2k$, which tends to $0$.
+(vi) The accepted partial claim on Problem 687
+([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]])
+gives $Y(x)\le C_0x^2/(\log x)^2$ for every $x\ge2$, with an absolute but
+unspecified $C_0$: the Lean declaration `erdos_970_quadratic` of the OpenAI
+release of 25 September 2026, $h(k)\le C_0'k^2$ for Jacobsthal's function,
+with $Y(x)\le h(\pi(x))-1$ and Chebyshev's bound, a step that is reviewed
+there and not formalized. At $x=S(k)$ this gives
+$k\le Y(x)\le C_0x^2/(\log x)^2$, so $x\ge(k/C_0)^{1/2}\log x$; since
+$\log x\ge1$ for large $k$, also $x\ge(k/C_0)^{1/2}$ and
+$\log x\ge\frac12\log(k/C_0)$, and
 
-**Bounds map.** $k^{1/2}\ll S(k)\ll k\log_3k/\log k$ from the sources
-above (the lower bound by inversion of Iwaniec's Corollary, the upper bound by
-inversion (v) of the covering theorem accepted on Problem 4; the best upper
-bound from a refereed statement is (ii), $k\log_2k/(\log k\log_3k)$),
+$$
+S(k)\ \gg\ k^{1/2}\log k.
+$$
+
+So $S(k)/k^{1/2}\to\infty$, which answers yes Erdős's request in [Er79d]
+p. 79 that $B(n)>Cn^{1/2}$ for every $C$ and $n>n_0(C)$; Problem 687 records
+the same answer in the inverse form. The exponent is still $1/2$.
+
+**Bounds map.** $k^{1/2}\log k\ll S(k)\ll k\log_3k/\log k$ from the
+sources above (the lower bound by inversion (vi) of the bound accepted on
+Problem 687, the best lower bound from a refereed statement being (i),
+$k^{1/2}$; the upper bound by inversion (v) of the covering theorem accepted on
+Problem 4, the best upper bound from a refereed statement being (ii),
+$k\log_2k/(\log k\log_3k)$),
 against the trivial $S(k)\le k+1$ and the conjectured $S(k)\ge k^{1-o(1)}$
 (Erdős 1976 and 1979; the site's displayed question). The exponent gap between
 $1/2$ and $1$ is untouched. Any progress on the exponent is progress on Problem
@@ -276,10 +303,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [HaRi74],
 [Ra38]. [Iw78] was not available at the time of the search; the References
 cite its pages. The site's proof-claim tab was also empty on 2026-10-07.
 
-**Remaining gaps.** (1) The lower bound $k^{1/2}$ rests on the Corollary of
-[Iw78] and on two one-line steps made on its result page and here, from
-$C(\pi(x))$ to $Y(x)$ and from $Y(x)$ to $S(k)$; the paper's Theorem is cited as
-stated and its proof is not checked here. (2) The site's displayed upper bound
+**Remaining gaps.** (1) The best refereed lower bound, $k^{1/2}$, rests on the
+Corollary of [Iw78] and on two one-line steps made on its result page and here,
+from $C(\pi(x))$ to $Y(x)$ and from $Y(x)$ to $S(k)$; the paper's Theorem is
+cited as stated and its proof is not checked here. The best lower bound,
+$k^{1/2}\log k$, rests on the release's Lean bound, the authored step to $Y$
+reviewed on Problem 687 and the inversion (vi) made here; it has no refereed
+version, and its constant is not explicit. (2) The site's displayed upper bound
 and the inversion of (1.2) differ; the site's is recorded as the site's and the
 difference is not resolved with the site. (3) Erdős's two printed Rankin-type
 bounds are recorded as printed and not reconciled with the inversion. (4) The

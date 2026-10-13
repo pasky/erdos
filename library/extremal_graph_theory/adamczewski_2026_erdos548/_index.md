@@ -5,15 +5,16 @@ desc: |
   bound; two-color and multicolor Ramsey corollaries are derived here.
 license: unstated
 created: 2026-09-05T04:10:15Z
-updated: 2026-10-08T03:52:11Z
+updated: 2026-10-13T13:29:25Z
 ---
 
 # extremal_graph_theory/adamczewski_2026_erdos548
 
 [[extremal_graph_theory/_index|..]]
 
-[[extremal_graph_theory/adamczewski_2026_erdos548/evidence/_index|evidence/]]: Holds exact reviewed subjects and the independent review, distinct grade
-and source-reading record for the two-tree and two-color star unit.
+[[extremal_graph_theory/adamczewski_2026_erdos548/evidence/_index|evidence/]]: Holds the independent review, distinct grade and source-reading record for
+the two-tree and two-color star unit; the exact reviewed subjects are not
+held.
 
 [[extremal_graph_theory/adamczewski_2026_erdos548/lemma_1|lemma_1]]: Bounds the combined rooted counts of two branches using an injective
 rotation of the first qualifying marked prefix.

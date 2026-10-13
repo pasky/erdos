@@ -97,12 +97,12 @@ Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
   proceedings volume with no online copy known.
 - [KiKo08] Kierstead, H. A. and Kostochka, A. V., A short proof of the
   Hajnal-Szemerédi theorem on equitable colouring. Combin. Probab. Comput. 17
-  (2008), no. 2, 265--270, doi:10.1017/S0963548307008619 (Crossref record
-  accessed; issued March 2008). Not held. The proof the external Lean
-  file follows, per its header.
+  (2008), no. 2, 265--270, doi:10.1017/S0963548307008619 (Crossref record;
+  issued March 2008). Not held. The proof the external Lean file follows, per
+  its header.
 - [KKMS10] Kierstead, H. A., Kostochka, A. V., Mydlarz, M. and Szemerédi, E.,
   A fast algorithm for equitable coloring. Combinatorica 30 (2010), no. 2,
-  217--224, doi:10.1007/s00493-010-2483-5 (Crossref record accessed;
+  217--224, doi:10.1007/s00493-010-2483-5 (Crossref record;
   received 5 February 2008). Not a site key. Theorem 1 and the attribution,
   p. 217; the proof, Section 2, pp. 218--220. Library home:
   [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/_index|kierstead_2010_fast_algorithm_equitable_coloring]];

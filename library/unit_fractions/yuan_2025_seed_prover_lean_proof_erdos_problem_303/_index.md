@@ -44,8 +44,11 @@ Yuan posted the code in the discussion of Problem 330 while correcting which
 Erdős problem Seed-Prover had proved. The Problem 303 discussion then linked
 that exact payload, stated that it formally solves the problem, and recorded
 that the site had been updated. The site then relabeled the problem PROVED
-(LEAN), but its commentary credits Brown and Rödl; the corpus records Yuan's
-proof as a pending claim.
+(LEAN), but its commentary credits Brown and Rödl. The corpus accepts the proof
+as formalized through its build of Alexeev's re-proof of the Seed-Prover lemmas,
+recorded on
+[[../wiki/problems/unit_fractions/E0303/claims/2025_12_21_yuan|its claim page]];
+Yuan's own posted payload was not built.
 
 **Source.**
 [[unit_fractions/yuan_2025_seed_prover_lean_proof_erdos_problem_303/yuan_2025_seed_prover_lean_proof_erdos_problem_303|Forum source and payload record]].

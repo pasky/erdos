@@ -65,7 +65,7 @@ $(2+\sqrt2)/16$ and the $k\ge3$ cases of the [EFR92] conjecture proved by
 of 25 October 2025 reporting the Füredi--Maleki construction through
 Construction 2 of [GHV19], after which the site records that it was updated, and
 one of 25 July 2026 on typos in the commentary) and its empty proof-claim tab.
-The community database (teorth/erdosproblems, `data/problems.yaml`,) lists the
+The community database (teorth/erdosproblems, `data/problems.yaml`) lists the
 informal state disproved (last update 25 October 2025) and the status "disproved
 (Lean)" (last update 29 July 2026), with the formal-status URL
 https://github.com/primateria/erdos608 and no formalized statement. Cite as: T.

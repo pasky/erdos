@@ -2,9 +2,9 @@
 name: extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_1
 title: "Table 1 (p. 4): lower bounds on ex(n;{C_3,C_4}) for 50 ≤ n ≤ 198 (preprint)"
 desc: |
-  The preprint's computed lower bounds on the most edges of an n-vertex graph
+  The paper's computed lower bounds on the most edges of an n-vertex graph
   of girth at least 5, improving the best known bound for every n from 74 to
-  198 except 96 and 97; finite data, unrefereed.
+  198 except 96 and 97; finite data.
 created: 2026-10-08T14:36:14Z
 updated: 2026-10-08T14:36:14Z
 ---
@@ -57,8 +57,8 @@ is given, and beyond $n=53$ no entry is claimed to be exact. The graphs
 **Source.** J. Goedgebeur, J. Jooken, G. Joret, T. Van den Eede,
 *Improved lower bounds on the maximum size of graphs with girth 5*,
 arXiv:2508.05562v1 [math.CO] (7 August 2025); Table 1 on p. 4, the
-summary on p. 3 and Section 3.1 on pp. 8--9. The artifact and its standing
-as a preprint are recorded on the
+summary on p. 3 and Section 3.1 on pp. 8--9. The artifact, its journal
+publication and the versions compared are recorded on the
 [[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/_index|source card]].
 Per-run detail and the bibliographic source of each previous bound are in
 Tables 4 to 8 of Appendix A, which were not read here.

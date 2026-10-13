@@ -53,7 +53,10 @@ https://www.erdosproblems.com/243.
   results. New advances in transcendence theory (Durham, 1986), Cambridge
   Univ. Press (1988), 102--109.
 - [Ko26] Koizumi, J., Irrationality of the reciprocal sum of doubly
-  exponential sequences. INTEGERS 26 (2026), #A28; arXiv:2504.05933.
+  exponential sequences. INTEGERS 26 (2026), #A28; arXiv:2504.05933. This
+  page cites the journal's labels; the library card and its result pages use
+  the preprint's, in which Corollary 1, Theorem 3, Conjecture 1 and Corollary
+  4 are Corollary 2, Theorem 16, Conjecture 6 and Corollary 20.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/243.lean).

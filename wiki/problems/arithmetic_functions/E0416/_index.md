@@ -209,7 +209,21 @@ preprint says nothing about an asymptotic formula. Its unconditional argument is
 reconstructed, author-recorded, on
 [[research/erdos_416/zeraoulia_theorem_1_1_reconstruction|the reconstruction page]]
 of the Problem 416 research folder, and for every $c>1$ its cluster interval
-collapses to $\{c\}$ if the accepted results stand. Search scope:
+collapses to $\{c\}$ if the accepted results stand. The site's commentary
+also records a further question of Erdős [Er79e]: to estimate the number of
+$n\le x$ whose least solution $m$ of $\phi(m)=n$ satisfies $kx<m\le(k+1)x$.
+Theorem 2.2 of the same release manuscript
+([[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_2|Theorem 2.2 page]])
+answers it on Ford's counting scale: for each fixed integer $k\ge1$ the count is
+$(x/\log x)\,G_m(A(f_k;\theta)+o(1))$, with a coefficient built from finite
+arithmetic data and the weight $f_k$ defined on that page. The count is of order
+$V(x)$ if some totient $d$ has least preimage greater than $kd$, which holds
+for $k=1$ and $k=2$, and is zero for every $x$ otherwise; the manuscript does
+not determine which other $k$ fall under the first alternative. The manuscript
+is unrefereed, and this corpus has not built the release's Lean for these
+counts (`weighted_totient_asymptotic`, `weighted_totient_one_two`). The result
+answers a variant, not either question of the Statement, so it has no claim
+page. Search scope:
 erdosproblems.com (the problem page, its discussion thread, empty,
 and its proof-claims thread, two partial claims), the community database
 teorth/erdosproblems (`data/problems.yaml` entry 416: status open, last update

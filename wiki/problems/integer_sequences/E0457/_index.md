@@ -102,7 +102,7 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
 
 - [Er79d] Erdős, P., Some unconventional problems in number theory. Acta
   Math. Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI
-  10.1007/BF01903382 (Crossref record accessed); Section 3,
+  10.1007/BF01903382 (Crossref record); Section 3,
   printed p. 78: the definition of $q(n,k)$, display (10), the example and
   the two questions. Library home:
   [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]].

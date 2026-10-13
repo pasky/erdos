@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-13T13:29:21Z
 ---
 
 # Problem 683
 
 [[problems/factorials_binomials/_index|..]]
 
-[[problems/factorials_binomials/E0683/claims/_index|claims/]]: The 2 claim pages of Problem 683, one per claimant's result; the problem's standing derives from them.
+[[problems/factorials_binomials/E0683/claims/_index|claims/]]: The 3 claim pages of Problem 683, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -53,8 +53,15 @@ settles the range $n/2\le k\le n-1$ for every $c$. The second is Theorem 1 of
 [Er55d],
 [[problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős 1955]]. It
 gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$, and so settles the
-instances with $n-k$ at most a constant multiple of $k\log k$. Neither gives a
-bound of the form $k^{1+c}$.
+instances with $n-k$ at most a constant multiple of $k\log k$. A third
+accepted partial claim with refereed evidence,
+[[problems/factorials_binomials/E0683/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]],
+carries their bound on the function of Problem 961 to binomial coefficients
+by the same deduction. It gives
+$P(\binom nk)\gg\min(n-k+1,k\log k\log\log k/\log\log\log k)$ for $k\le n/2$,
+and so settles the instances with $n-k$ at most a constant multiple of
+$k\log k\log\log k/\log\log\log k$. None of the three gives a bound of the
+form $k^{1+c}$.
 
 **Source.** [erdosproblems.com/683](https://www.erdosproblems.com/683), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 31 December 2025; its
@@ -101,19 +108,32 @@ $n/2\le k\le n-1$. Theorem 1 of [Er55d] (claim page
 [[problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős 1955]])
 sharpens the first to blocks of about $k/\log k$ consecutive integers, which
 gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$; the site prints this
-bound without the minimum, a form that fails at $n=2k$. In [Er79d] Erdős
+bound without the minimum, a form that fails at $n=2k$. The best known bound
+comes from Problem 961, which the site calls essentially equivalent: the
+bound $f(m)\ll m\log\log\log m/(\log m\log\log m)$ of Jutila, Ramachandra
+and Shorey (Acta Arith. 24 (1973) and 25 (1974), J. Indian Math. Soc. 38
+(1974)), accepted on
+[[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|Problem 961's claim page]]
+from Erdős's 1976 attestation, gives by the same deduction
+$P(\binom nk)\gg\min(n-k+1,k\log k\log\log k/\log\log\log k)$ for $k\le n/2$
+(claim page
+[[problems/factorials_binomials/E0683/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]]).
+The site's commentary on this problem cites only [Er55d]. In [Er79d] Erdős
 writes that the inequality with $k^{1+c}$ seems certain to hold for every
 $c>0$ with finitely many exceptions depending on $c$, and the site adds that
 standard heuristics on prime gaps suggest $P(\binom nk)>e^{c\sqrt k}$ for
 $k\le n/2$. No result gives a bound of the form $k^{1+c}$; the open content is
-the range $k\le n/2$ with $n-k$ large compared with $k\log k$.
+the range $k\le n/2$ with $n-k$ large compared with
+$k\log k\log\log k/\log\log\log k$.
 
 Search scope. As of 2026-10-07 the site's discussion thread held six posts, all
 on the wording (the $2^t$ counterexample of 3 December 2025, the restriction to
 $k\le n-1$ of 31 December 2025, and the location of the problem on p. 74 of
 [Er79d]), and its proof-claims page listed no claim. No preprint or paper
 claiming the inequality was found. The library cards of [Er34] and [Er55d]
-record the two theorems; nothing here is independently reviewed.
+record the two theorems, and Erdős's 1976 survey attests the Jutila,
+Ramachandra and Shorey bound, whose papers are not held; nothing here is
+independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

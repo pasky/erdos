@@ -94,14 +94,14 @@ https://www.erdosproblems.com/715, accessed 2026-09-18.
 - [AFK84] Alon, N., Friedland, S. and Kalai, G., Every 4-regular graph plus
   an edge contains a 3-regular subgraph. J. Combin. Theory Ser. B 37 (1984),
   no. 1, 92--93, doi:10.1016/0095-8956(84)90048-0 (received 25 July 1983;
-  Crossref record accessed; the site's reference text gives the
+  Crossref record; the site's reference text gives the
   journal, year and pages without the volume). Library home:
   [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/_index|alon_1984_every_regular_graph_plus_edge_contains]];
   paged at
   [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/theorem_p92|theorem_p92]].
 - [AFK84b] Alon, N., Friedland, S. and Kalai, G., Regular subgraphs of almost
   regular graphs. J. Combin. Theory Ser. B 37 (1984), no. 1, 79--91,
-  doi:10.1016/0095-8956(84)90047-9 (Crossref record accessed). Not
+  doi:10.1016/0095-8956(84)90047-9 (Crossref record). Not
   held; the note's reference [1], where "more general graph theoretical
   results" are proved.
 - [Er75] Erdős, P., Some recent progress on extremal problems in graph

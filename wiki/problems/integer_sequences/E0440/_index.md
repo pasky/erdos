@@ -104,7 +104,7 @@ solved` with a `sorry` body and a `formal_proof` attribute naming the
 `plby/lean-proofs` file below, so the collection holds statements and no proof.
 On 2026-09-18 no such file existed on the collection's main branch, the page's
 formalized-statement indicator read no, and the community database
-(teorth/erdosproblems,) recorded the problem solved (last changed 27 December
+(teorth/erdosproblems) recorded the problem solved (last changed 27 December
 2025), not formalized, with no formal proof. Outside the collection, the
 repository `plby/lean-proofs` at its head of 15 September 2026 (the commit the
 claim page links) holds `src/latest/ErdosProblems/Erdos440.lean` with four

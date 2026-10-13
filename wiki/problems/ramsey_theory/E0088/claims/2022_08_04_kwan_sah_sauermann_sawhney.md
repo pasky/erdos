@@ -84,7 +84,7 @@ and the proof-claim tab are empty. The site's credit line thanks Mehtaab
 Sawhney, one of the four authors. The PROVED label and the credit in the
 commentary are the curator's, and the refereed publication stands independently.
 Refereed: the paper is published in Forum of Mathematics, Pi 11 (2023), e21, DOI
-10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record accessed).
+10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record).
 The text read is arXiv v2 of 30 May 2024, posted after the journal publication.
 The journal text is not held and was not compared with it. The claims of Theorem
 1.1, footnote 2 and Theorem 1.2 are checked, and the proof is not. Nothing here

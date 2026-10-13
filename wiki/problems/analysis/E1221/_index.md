@@ -225,7 +225,7 @@ Erdős Problem #1221, https://www.erdosproblems.com/1221, accessed
 **Formalization.** None recorded. The site shows "Formalised statement? No";
 formal-conjectures at main (directory listed 2026-09-27) has no `1221.lean`;
 conjectures.io lists no problem or result for 1221 (results and problems
-pages,).
+pages).
 
 ## Current assessment
 

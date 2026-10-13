@@ -53,8 +53,8 @@ limit.
 ## Read depth
 
 Claims checked: the statement and the proof in Section 2.1 were read clause
-by clause on the page images of the print. The Can--Nguyen estimate is
-cited, not proved, in the paper and was not read. Nothing here is
+by clause on the page images of arXiv:2403.06353v2. The Can--Nguyen estimate
+is cited, not proved, in the paper and was not read. Nothing here is
 independently reviewed.
 
 ## Dependencies

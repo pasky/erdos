@@ -29,7 +29,7 @@ $$
 g(n) \leq \pi(n)+\pi(n^{1/2})+o\left(\frac{x^{1/2}}{\log n}\right)?
 $$
 
-**Formulation.** The site's wording as accessed (page last
+**Formulation.** The site's wording (page last
 edited 6 April 2026). The little-$o$ term is printed with an $x$ that the
 statement does not define (the thread's one comment, of 15 May 2026, calls it
 a typo for $n^{1/2}/\log n$); $x=n$ is the only reading, and it is the

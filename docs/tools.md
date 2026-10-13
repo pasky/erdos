@@ -59,14 +59,15 @@ look one row up with `grep '^| L<id> |' wiki/lemmas.md`. A claim is any
 `L<id>_<slug>` folder holding an `_index.md` under `wiki/theory/` (research,
 library, and evidence subtrees are not claim homes); an empty corpus yields
 valid empty views. Generation preserves each existing file's frontmatter
-byte-for-byte (the wiki sweep owns its stamps) and rewrites only the body, so
-the gate is regenerate-and-diff-empty. Malformed claim frontmatter (missing id
-or statement, id/folder mismatch, invalid status, standing, or tier, tier on an
-open claim, tier 2 without `lean:`, `assumes` without the claim's own proof pin,
-duplicate ids), a claim-shaped folder outside a legal claim home (under a
-`leads/`, `routes/`, or `doors/` folder or inside another claim), or a
-claim-shaped folder at a legal home without an `_index.md` fails the run, naming
-every offending folder.
+byte-for-byte (the wiki sweep owns its stamps and re-stamps `updated:` only on a
+write of its own) and rewrites only the body, so the gate is
+regenerate-and-diff-empty. Malformed claim frontmatter (missing id or statement,
+id/folder mismatch, invalid status, standing, or tier, tier on an open claim,
+tier 2 without `lean:`, `assumes` without the claim's own proof pin, duplicate
+ids), a claim-shaped folder outside a legal claim home (under a `leads/`,
+`routes/`, or `doors/` folder or inside another claim), or a claim-shaped folder
+at a legal home without an `_index.md` fails the run, naming every offending
+folder.
 
 Regeneration is explicit, never a side effect of a wiki sweep: `erdos ledger`
 rewrites each stale view and names it (`Wrote standing.md.`),
@@ -508,8 +509,8 @@ The gate checks:
     leg): the keys and their vocabularies, the claim page names, the evidence
     order, the shape of `links` and `submitted`, the **Covers.** and **Depends
     on.** paragraphs, the dependency rule and the derivation of each problem's
-    standing; a problem with no claim page is counted in the leg's detail, or
-    fails with `--settled`.
+    standing; a problem with no claim page and a standing other than
+    `open`/`none` is counted in the leg's detail, or fails with `--settled`.
 03. Incoming-library navigation for existing managed blocks and explicitly
     selected problems, without writing pages.
 04. Library subject indexes with `build_library_subjects.py --check` and the
@@ -650,29 +651,35 @@ partial: on its own it leaves the problem, or the part it settles, open, and one
 accepted claim of each kind settles it as `independent`. A problem with no claim
 page keeps its provisional standing: unless that standing is `open` with claim
 `none`, the leg counts such problems in its detail and passes; with `--settled`
-each is a finding, the mode a release gate uses once the claim pages are
-written. `erdos problem-claims` runs the same check standalone, and
-`erdos problem-claims --write` sets the derived values on every problem that has
-claim pages before checking; repeatable `--problem E<nnnn>` selections scope the
-write and the check alike. The leg reads frontmatter and the two labeled
-paragraphs only; it assesses no mathematics and awards no standing. The module
-`tools.core.problem_claims` is shared, repository-neutral code, so it knows no
-problem numbering, area list or site.
+each is a finding. `--settled` is the release mode: it requires every such
+standing to rest on a claim page and every claim page to list its authors. The
+default mode only counts them, so a problem page that
+`scripts/build_problems.py` creates from a settled site label can land before
+its claim page is written. `erdos problem-claims` runs the same check
+standalone, and `erdos problem-claims --write` sets the derived values on every
+problem that has claim pages before checking; repeatable `--problem E<nnnn>`
+selections scope the write and the check alike. The leg reads frontmatter and
+the two labeled paragraphs only; it assesses no mathematics and awards no
+standing. The module `tools.core.problem_claims` is shared, repository-neutral
+code, so it knows no problem numbering, area list or site.
 
 #### Incoming-library scope
 
-The rollout of neutral incoming-library blocks is incomplete. Default checking
-covers every existing block, including malformed marker pairs, plus repeatable
-`--problem E<nnnn>` selections. It reports how many pages have no managed block.
-This count describes missing navigation, not missing mathematics: some pages may
-have no incoming citations at all.
+A problem page that a library page links carries a neutral incoming-library
+block; the generator omits an empty block, so a page that no library page links
+has none. Default checking covers every existing block, including malformed
+marker pairs, plus repeatable `--problem E<nnnn>` selections. It reports how
+many pages have no managed block. This count describes navigation, not
+mathematics: such a page has no incoming library link, or has a new one not yet
+written into its block.
 
 When a source edit changes which problems it links, explicitly select every
 affected problem, including newly linked destinations that have no block yet.
 Correct the source relationship, run the existing writer for that scope, then
-rerun the gate. Unselected pages with no block are not checked for rollout
-completeness. If the union of pages containing either managed marker and
-explicit `--problem` selections is empty, the leg reports `SKIPPED`.
+rerun the gate. Unselected pages with no block are not checked, so a newly
+linked destination is found only when it is selected. If the union of pages
+containing either managed marker and explicit `--problem` selections is empty,
+the leg reports `SKIPPED`.
 
 ```bash
 uv run --no-sync python scripts/build_problem_library_links.py --problem E0199
@@ -683,7 +690,7 @@ uv run --no-sync wiki update --path library
 uv run --no-sync wiki lint --path library
 ```
 
-An intentional all-problem navigation rollout can use `--all` on the standalone
+An intentional all-problem regeneration can use `--all` on the standalone
 generator. It is not an automatic side effect of running repository checks. See
 [[anatomy]] for the generated-block ownership rules.
 

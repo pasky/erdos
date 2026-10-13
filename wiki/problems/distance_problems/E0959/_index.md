@@ -91,11 +91,15 @@ set behind OpenAI's fixed-power lower bound for unit distances
 ([[problems/distance_problems/E0090/_index|Problem 90]]). Neither claim is
 credited by the site, refereed or formalized in this corpus, so both stay
 claimed and the problem's standing is open. The open question is the order
-of $M(n)$: no upper bound is recorded beyond the trivial
-$M(n)\leq f(d_1)\leq u(n)=O(n^{4/3})$, where $u(n)$ is the maximum number of
-unit distances among $n$ points and the bound is that of Spencer, Szemerédi
-and Trotter, which [CDL25] recalls (a remark of this page), and no claim
-asserts one. Search scope,
+of $M(n)$. Trivially $M(n)\leq f(d_1)\leq u(n)$, where $u(n)$ is the maximum
+number of unit distances among $n$ points (a remark of this page). The bound
+$u(n)=O(n^{4/3})$ of Spencer, Szemerédi and Trotter, which [CDL25] recalls, is
+improved by Theorem 1.1 of the OpenAI release of 23 September 2026, accepted as
+formalized on
+[[problems/distance_problems/E1085/claims/2026_09_23_openai|Problem 1085's claim page]]:
+$u(n)\leq Cn^{\beta}$ for every $n$, with absolute constants $C$ and
+$\beta<4/3$. So $M(n)\leq Cn^{\beta}$, the best upper bound recorded here, and
+no claim on this problem asserts a better one. Search scope,
 2026-10-06: the site's problem page, discussion thread and proof-claims tab,
 the arXiv and publisher records of [CDL25], the formal-conjectures file and
 the hosted Lean file; no release item or lead names the problem.

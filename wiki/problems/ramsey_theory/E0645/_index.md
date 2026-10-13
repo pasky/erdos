@@ -81,7 +81,7 @@ https://www.erdosproblems.com/645, accessed 2026-09-18.
 
 - [BrLa99] T. C. Brown and B. M. Landman, Monochromatic arithmetic
   progressions with large differences. Bull. Austral. Math. Soc. 60 (1999),
-  no. 1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record accessed). Paged by the authors' 14-page version, with its own
+  no. 1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record). Paged by the authors' 14-page version, with its own
   pagination: Theorem 7 on p. 6, its stronger version on p. 7, Theorem 12 on
   pp. 10--11 of that version. Library home:
   [[../library/ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/_index|brown_1999_monochromatic_arithmetic_progressions_large_differences]].

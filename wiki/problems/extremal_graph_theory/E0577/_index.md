@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** If $G$ is a graph with $4k$ vertices and minimum degree at
 least $2k$ then $G$ contains $k$ vertex-disjoint $4$-cycles.
 
-**Formulation.** The site's wording(the page carries no
+**Formulation.** The site's wording (the page carries no
 last-edited date). The statement is for every positive
 integer $k$; the $k$ vertex-disjoint $4$-cycles use all $4k$ vertices, so the
 conclusion is that $G$ has a spanning subgraph consisting of $k$ disjoint

@@ -35,7 +35,7 @@ $$
 f(k)=(1+o(1))\frac{k}{e-1}?
 $$
 
-**Formulation.** The site's wording, accessed (the page shows
+**Formulation.** The site's wording (the page shows
 no last-edited stamp). The denominators are distinct
 positive integers and $k\ge3$: one term represents $1$ only as $1/1$, and
 two distinct unit fractions never sum to $1$. So $f(k)$ is the largest

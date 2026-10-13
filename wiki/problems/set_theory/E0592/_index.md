@@ -41,7 +41,7 @@ $\beta$), so their $\beta$ is the problem's $\gamma$: Chang's theorem, the case
 $\beta=1$ of the papers, is the problem's case $\beta=\omega$, and Schipperus's
 positive cases, one or two indecomposable summands, are the problem's
 $\beta=\omega^\gamma$ with such a $\gamma$. The reference entries keep the
-papers' notation and say so; the Known Results below use the problem's $\gamma$.
+papers' notation and say so; the Current assessment uses the problem's $\gamma$.
 
 **Status.** Open.
 

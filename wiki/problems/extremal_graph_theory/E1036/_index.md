@@ -63,14 +63,13 @@ https://www.erdosproblems.com/1036.
 
 **Formalization.** The site's Lean suffix is a catalog label. The file
 [`ErdosProblems/1036.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/1036.lean)
-of formal-conjectures at the pinned commit (accessed;
-4,172 bytes) declares `erdos_1036 : answer(True) ↔ ∀ c : ℝ, 0 < c → ∃ δ : ℝ,
-0 < δ ∧ ∀ᶠ n : ℕ in atTop, ∀ G : SimpleGraph (Fin n), (G.cliqueNum : ℝ) ≤ c *
-Real.log n → (G.indepNum : ℝ) ≤ c * Real.log n →
-HasManyNonIsomorphicInducedSubgraphs G (2 ^ (δ * n))`, where the predicate
-asks for a family of at least that many vertex sets whose induced graphs are
-pairwise non-isomorphic, under `category research solved, AMS 5`, with proof
-`sorry` and a `formal_proof` attribute naming the file
+of formal-conjectures at the pinned commit (4,172 bytes) declares `erdos_1036 :
+answer(True) ↔ ∀ c : ℝ, 0 < c → ∃ δ : ℝ, 0 < δ ∧ ∀ᶠ n : ℕ in atTop, ∀ G :
+SimpleGraph (Fin n), (G.cliqueNum : ℝ) ≤ c * Real.log n → (G.indepNum : ℝ) ≤ c *
+Real.log n → HasManyNonIsomorphicInducedSubgraphs G (2 ^ (δ * n))`, where the
+predicate asks for a family of at least that many vertex sets whose induced
+graphs are pairwise non-isomorphic, under `category research solved, AMS 5`,
+with proof `sorry` and a `formal_proof` attribute naming the file
 `src/v4.29.1/ErdosProblems/Erdos1036.lean` of the repository
 `plby/lean-proofs` on its `main` branch (unpinned); two variants, each
 `research solved` with `sorry`, state the Alon--Hajnal bound and the

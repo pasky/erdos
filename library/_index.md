@@ -75,9 +75,11 @@ linking the problem pages it concerns. Result pages, digests and Bears-on rows
 are written in the corpus's own words: the statement restated with its
 hypotheses intact, the proof pointed to or sketched here, a quotation kept
 short, attributed and used only where the exact wording matters. The source's
-text lives only in the PDF and in a transcription beside it. The source is the
-PDF under the folder's name when one exists, with its markdown transcription
-beside it as `author_year_slug.md`, a reading aid, unless the card's
+text lives only in the PDF and in a transcription beside it. The source is its
+PDF when one exists, named after the folder (`author_year_slug.pdf`) or after
+the folder and its edition (`author_year_slug_arxiv_v2.pdf`), with its markdown
+transcription beside it at the PDF's stem (`author_year_slug.md`,
+`author_year_slug_arxiv_v2.md`), a reading aid, unless the card's
 `transcription` key records why not. When no PDF exists — a web page, a forum
 answer — that markdown file is the source itself and records the URL. Where a
 PDF exists it is canonical: result pages cite it by page and theorem number, and

@@ -108,7 +108,7 @@ b : ZMod p, ∀ a ∈ A, (a : ZMod p) ≠ b) → ∃ n : ℤ, ∀ a ∈ A, (n + 
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos429.lean` of `plby/lean-proofs`
 at a commit of 30 June 2026, where the claim page links it. The community
-database (teorth/erdosproblems,) lists the problem as "disproved (Lean)" and the
+database (teorth/erdosproblems) lists the problem as "disproved (Lean)" and the
 statement as formalized, with last updates of 29 January 2026 and 3 August 2026
 on those two entries, `formal_status` Lean and no formal-proof URL; the site
 page of 2026-09-18 marks the statement as formalized. Nothing was built or

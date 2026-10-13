@@ -92,11 +92,17 @@ there is η with the measure of the set where Σ|l_k(x)| < η log n below ε
 in some sense best possible; the Chebyshev roots give max < (2/π) log n + c_2.
 He states the extremal problem of finding the node set minimizing max_x
 Σ|l_k(x)|, conjecturing the optimum is characterized by all n+1 local maxima
-being equal (still unproved, and expected easier on the unit circle where the
-optimum should be the nth roots of unity), and the companion problem (3) of
-maximizing the least of the maxima of Σ|l_k(x)| over the intervals between
-consecutive nodes, where only the bound < √n is proved while c_3 log n is
-expected. Further sections record that ∫Σ|l_k| > c_4 log n, Turán's question
+being equal (which he writes is still unproved, and expected easier on the unit
+circle where the optimum should be the nth roots of unity), and the companion
+problem (3) of maximizing the least of the maxima of Σ|l_k(x)| over the
+intervals between consecutive nodes, where he reports only the bound < √n as
+proved while c_3 log n is expected. Both questions were settled in 1978: the
+equal-maxima characterization by
+[[../wiki/problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore]] and by
+[[../wiki/problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus]],
+and problem (3), with the bound (2/π) log n + O(1), by
+[[../wiki/problems/polynomials/E1130/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus]].
+Further sections record that ∫Σ|l_k| > c_4 log n, Turán's question
 of which node set minimizes that integral (probably the Chebyshev roots
 asymptotically), Fejér's characterization of max Σ l_k^2 = 1 by the roots of the
 integral of the Legendre polynomial P_{n-1}, with Szabados's disproof for n > 3

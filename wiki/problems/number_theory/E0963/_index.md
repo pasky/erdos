@@ -64,8 +64,19 @@ $n\le3^{|B|}$. The same paragraph of [Er65] asks whether
 $\lfloor\log_2 n\rfloor$ is attainable and says that the example $a_i=i$,
 $1\le i\le n$, shows that this bound, if true, is nearly best possible: a
 dissociated $k$-subset of $\{1,\ldots,n\}$ has $2^k$ distinct subset sums
-in $[0,kn]$, so $2^k\le kn+1$ and $f(n)\le\log_2 n+O(\log\log n)$. The
-known bounds are $\lfloor\log_3 n\rfloor\le f(n)\le\log_2 n+O(\log\log n)$;
+in $[0,kn]$, so $2^k\le kn+1$ and $f(n)\le\log_2 n+O(\log\log n)$. Such a
+subset is a $k$-set of positive integers with distinct subset sums and largest
+element at most $n$, so the bound $a_k\ge\binom{k}{\lfloor k/2\rfloor}$ of
+Dubroff, Fox and Xu (SIAM J. Discrete Math. 35 (2021);
+[[../library/additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/central_binomial_bound|the central binomial bound]])
+gives $n\ge\binom{k}{\lfloor k/2\rfloor}$, and Stirling's formula sharpens
+the upper bound to $f(n)\le\log_2 n+\frac12\log_2\log_2 n+O(1)$, as
+[[research/erdos_963/source_notes/dubroff_2021_note_erdos_distinct_subset_sums_problem|the research note on that paper]]
+derives; the Erdős--Moser bound $a_k\ge\frac14k^{-1/2}2^k$, as the paper
+quotes it
+([[../library/additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/theorem_1|Theorem 1's page]]),
+gives the same up to the constant. The known bounds are
+$\lfloor\log_3 n\rfloor\le f(n)\le\log_2 n+\frac12\log_2\log_2 n+O(1)$;
 whether $f(n)\ge\lfloor\log_2 n\rfloor$ for every $n$ is the open question,
 and the problem has no claim page.
 

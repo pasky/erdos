@@ -45,7 +45,10 @@ the first.
 open. The site's proof-claims thread carried no claim as of 2026-10-06. No claim
 page is recorded, since no one claims either question. Theorem 2.2 of the OpenAI
 release manuscript of 25 September 2026 bears on the problem without claiming
-it. The Current assessment records this item and why it is not a claim.
+it. With $k=1$ it implies, by a deduction drawn here, that
+$\liminf V(x)/V'(x)>1$, so any limit would exceed $1$; the theorem is
+unrefereed, and whether the limit exists stays open. The Current assessment
+records this item, the deduction and why neither is a claim.
 
 **Source.** [erdosproblems.com/417](https://www.erdosproblems.com/417), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #417,
@@ -86,6 +89,20 @@ release's Lean for these counts (`weighted_totient_asymptotic`,
 `weighted_totient_one_two`). The manuscript does not mention $V'$ or this
 problem, and the release claims nothing about it, so the item is recorded here
 and not as a claim.
+
+**A consequence drawn here.** Every value $\phi(m)$ with $m\le x$ is at most
+$x$, so $V'(x)$ counts the totients $v$ with $\ell(v)\le x$, and $V(x)-V'(x)$
+counts the totients $v\le x$ with $\ell(v)>x$, which is
+$\sum_{k\ge1}N_k(x)\ge N_1(x)$. If Theorem 2.2 holds, its first alternative for
+$k=1$ gives $N_1(x)\ge cV(x)$ for some $c>0$ and all large $x$, so
+$V'(x)\le(1-c)V(x)$ and $\liminf V(x)/V'(x)\ge1/(1-c)>1$. With
+$V(x)\asymp V'(x)$ under Known Results, any limit of $V(x)/V'(x)$ would then be
+finite and greater than $1$. The Theorem 2.2 page draws the same inference. This
+answers neither question, since whether the limit exists stays open, but if
+Theorem 2.2 holds, a yes to the first question is also a yes to the second. The
+deduction rests on the unrefereed Theorem 2.2, whose Lean this corpus has not
+built, and it is not a claim, since neither the release nor anyone else claims
+the problem.
 
 **Search scope (2026-10-06 and 2026-10-07).** The site's page and its
 proof-claims thread (empty), the formal-conjectures statement file and the

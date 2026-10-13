@@ -96,7 +96,8 @@ $792+j$. The arXiv v4 edition, not held, has 23 pages and is dated 6 April
 25 April 2024, acceptance on 30 April 2024 and online publication on 23 May
 2024. Exact identities and primary metadata are in the
 [source record](source_record.json). The
-[arXiv record](https://arxiv.org/abs/2309.02325), still lists v4 as its latest version. The canonical
+[arXiv record](https://arxiv.org/abs/2309.02325) lists v4 as the latest
+version. The canonical
 `tao_2024_monotone_nondecreasing_sequences_euler_totient_function.pdf` prints "©
 The Author(s) 2024" on its first page and, on printed p. 819
 (physical p. 27), "Open Access This article is licensed under a Creative

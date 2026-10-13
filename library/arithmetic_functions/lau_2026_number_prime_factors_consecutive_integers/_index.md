@@ -39,6 +39,11 @@ measured; it neither proves nor refutes that F(n) tends to infinity.
 Source: <https://arxiv.org/abs/2604.15042>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0248/_index|#248]],
+[[../wiki/problems/arithmetic_functions/E0413/_index|#413]] (Corollary 1.4, a
+weak form), [[../wiki/problems/arithmetic_functions/E0679/_index|#679]]
+(Theorem 1.3 misses the first part by a log log k factor; Conjecture 6 would
+disprove it), [[../wiki/problems/arithmetic_functions/E0826/_index|#826]]
+(Corollary 1.2, a weak form),
 [[../wiki/problems/arithmetic_functions/E1203/_index|#1203]]
 
 **Results to transcribe.**

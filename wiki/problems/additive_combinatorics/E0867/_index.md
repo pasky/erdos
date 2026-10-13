@@ -129,7 +129,7 @@ attainable), `coppersmith_phillips_lower_bound` ($\tfrac{13}{24}N-C$) and
 `coppersmith_phillips_upper_bound` ($(\tfrac23-\tfrac1{512})N+\log N$ for all
 large $N$, the site's figure and the abstract's read literally, stronger than
 Theorem 3.7 as printed; see below), all `research solved` with `sorry` bodies.
-The community database (teorth/erdosproblems,) records the problem as "disproved
+The community database (teorth/erdosproblems) records the problem as "disproved
 (Lean)", the statement formalized since 4 August 2026, `formal_status` Lean and
 no formal-proof URL; its last update for the problem is dated 7 April 2026,
 which does not date the change of state.

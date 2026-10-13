@@ -127,7 +127,7 @@ T. F. Bloom, Erdős Problem #76, https://www.erdosproblems.com/76, accessed
 - [OEIS] Sequence A060407, The On-Line Encyclopedia of Integer Sequences,
   "Maximal number of pairwise edge-disjoint monochromatic $K_3$'s in a
   $K_n$ for any 2-coloring of the edges of $K_n$", values $0,0,0,1,2,2,3,4,6$
-  for $n=3,\ldots,11$, citing [EFGJL01] (record accessed).
+  for $n=3,\ldots,11$, citing [EFGJL01] (record).
 
 **Formalization.** None. No file for this problem exists in
 google-deepmind/formal-conjectures (main; the directory

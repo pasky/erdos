@@ -66,17 +66,24 @@ scope"; the Theorem 3.1 page is the reviewed text. No tier is assigned and the
 problem's status is unchanged. Every deduction the deposit makes is written out
 on the two pages; the only external input to the proof is Baumgartner's theorem
 in the case $n=3$, whose chapter is not held, so its proof is not reconstructed
-and the chain is conditional on that refereed source. The problem page's status,
-`not_disprovable`, rests on Baumgartner's theorem through either this bridge or
-the finite-Ramsey bridge recorded on
-[[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|Baumgartner's result page]],
-and this folder changes nothing about it. The ZFC question remains open for
-$k\ge3$ (Komjáth 2025, Problem 54 discussion); the corpus makes no progress on
-it here. One source qualification is recorded on the theorem page: the
-introduction's remark identifying the case $k=1$ with Baumgartner's relation
-refers to the intermediate relation on $\omega_1\omega$, not to the theorem's
-own case $k=1$, which is a ZFC theorem. After the review, line wrapping was
-normalized on the reconstruction pages; no formula or sentence changed.
+and the chain is conditional on that refereed source. The problem page's status
+is open; the site labeled the problem NOT DISPROVABLE. Its accepted partial
+claim
+[[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner 1989]],
+that the relation holds under Martin's axiom and so is not refuted by ZFC, rests
+on Baumgartner's theorem through either this bridge or the finite-Ramsey bridge
+recorded on
+[[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|Baumgartner's result page]];
+its accepted partial claim
+[[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]]
+proves the case $k=1$ in ZFC. This folder changes nothing about either. The ZFC
+question remains open for $k\ge3$ (Komjáth 2025, Problem 54 discussion); the
+corpus makes no progress on it here. One source qualification is recorded on the
+theorem page: the introduction's remark identifying the case $k=1$ with
+Baumgartner's relation refers to the intermediate relation on $\omega_1\omega$,
+not to the theorem's own case $k=1$, which is a ZFC theorem. After the review,
+line wrapping was normalized on the reconstruction pages; no formula or sentence
+changed.
 
 **Mechanism.** The lemma merges two colors, applies the induction hypothesis
 to the merged coloring, and re-splits the merged color on the homogeneous set

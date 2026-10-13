@@ -44,7 +44,7 @@ complete graph on $c_1\log_2 n$ vertices contains every graph on
 $c_2\log_2 n$ vertices as an induced subgraph. The claimed result is the
 theorem of H. J. Prömel and V. Rödl, *Non-Ramsey graphs are
 $c\log n$-universal*, J. Combin. Theory Ser. A 88 (1999), no. 2, 379--384,
-DOI 10.1006/jcta.1999.2972 (Crossref record accessed; issued
+DOI 10.1006/jcta.1999.2972 (Crossref record; issued
 November 1999, whose nominal first day is this page's date). The paper is
 not held here, and its statement is known through the signed zbMATH review
 (Zbl 0934.05090), which states it in

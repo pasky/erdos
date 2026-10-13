@@ -111,7 +111,7 @@ would not.
 
 ## Acceptance shown on the results page
 
-The record page, shows Lean verification Passed
+The record page shows Lean verification Passed
 (verified; the review text dates the acceptance to
 20:48:55 UTC that day), Conjectures review Approved (`REVIEW_APPROVED`
 under manual-review policy v3, decided 15 September 2026), Reward Paid and

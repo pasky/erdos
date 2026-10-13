@@ -119,19 +119,19 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   [[../library/number_theory/lagarias_2010_problem_overview/_index|lagarias_2010_problem_overview]].
 - [Ta22] Tao, T., Almost all orbits of the Collatz map attain almost bounded
   values. Forum Math. Pi 10 (2022), e12, 56 pp., doi:10.1017/fmp.2022.8
-  (Crossref record accessed); arXiv:1909.03562v7 (16 July
+  (Crossref record); arXiv:1909.03562v7 (16 July
   2026). Theorem 1.3 and the map remark, p. 3. Library home:
   [[../library/number_theory/tao_2019_almost_all_orbits/_index|tao_2019_almost_all_orbits]].
 - [Ba21] Barina, D., Convergence verification of the Collatz problem. J.
   Supercomput. 77 (2021), no. 3, 2681--2688, doi:10.1007/s11227-020-03368-x
-  (Crossref record accessed; online 1 July 2020); the pages
+  (Crossref record; online 1 July 2020); the pages
   cited are the author's postprint's. The verification statement, pp. 6--7.
   Library home:
   [[../library/number_theory/barina_2020_convergence_verification/_index|barina_2020_convergence_verification]].
 - [Ba25] Barina, D., Improved verification limit for the convergence of the
   Collatz conjecture. J. Supercomput. 81 (2025), no. 7, Article 810,
-  doi:10.1007/s11227-025-07337-0 (accepted 21 April 2025; Crossref record
-  accessed). Section 6 and Table 10, p. 12. Library home:
+  doi:10.1007/s11227-025-07337-0 (accepted 21 April 2025; Crossref record).
+  Section 6 and Table 10, p. 12. Library home:
   [[../library/number_theory/barina_2025_improved_verification_limit_convergence_collatz/_index|barina_2025_improved_verification_limit_convergence_collatz]].
 - [He23] Hercher, C., There are no Collatz $m$-cycles with $m\le91$. J.
   Integer Seq. 26 (2023), Article 23.3.5; arXiv:2201.00406v3 (4 April
@@ -160,7 +160,7 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   ([[../library/number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|theorem_3]]),
   which [He23] cites as its [12].
 - [OEIS] Sequences A006370 (the Collatz map) and A008908 (steps to reach
-  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records accessed; A006370 cites [Gu04] E16, the Lagarias volume
+  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370 cites [Gu04] E16, the Lagarias volume
   and [KrLa03].
 
 **Formalization.** Statement only. The file

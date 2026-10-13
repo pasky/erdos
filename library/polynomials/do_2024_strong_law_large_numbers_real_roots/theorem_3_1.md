@@ -49,8 +49,8 @@ analytic argument of Halász (p. 7).
 ## Read depth
 
 Claims checked: Theorem 3.1, the setting and the derivation of Lemma 3.2
-were read clause by clause on the page images of the print. The proof
-(Sections 3.1 and 3.2) was not read. Nothing here is independently
+were read clause by clause on the page images of arXiv:2403.06353v2. The
+proof (Sections 3.1 and 3.2) was not read. Nothing here is independently
 reviewed.
 
 ## Dependencies

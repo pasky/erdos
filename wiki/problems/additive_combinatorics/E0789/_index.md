@@ -27,7 +27,7 @@ such that if $a_1+\cdots+a_r=b_1+\cdots+b_s$ with $a_i,b_i\in B$ then $r=s$.
 
 Estimate $h(n)$.
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). The condition on $B$ is Straus's
 admissibility: two sums of distinct elements of $B$ with different numbers
 of summands never coincide (Erdős 1962, condition (1'); Erdős, Nicolas and
@@ -314,8 +314,8 @@ subset-sum methods of [CFP23] and [PhZa24] but concerns a different
 function.
 
 **Search scope.** None of the routes below found a bound
-beyond those above, a copy of Straus's or Choi's paper, or an acceptance of
-the 2026 claim.
+beyond those above, a copy of Straus's paper, or an acceptance of the 2026
+claim.
 
 - The site: problem page, discussion thread and proof-claim tab as of
   2026-09-18; the community database record; the formal-conjectures file

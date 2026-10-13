@@ -73,7 +73,7 @@ performed.
 **The question (site formulation of 2026-09-04).** The statement above;
 SOLVED, with no Lean suffix on the label. The statement quantifies $\epsilon$
 and $\eta$ but its bound $\epsilon n$ uses only $\epsilon$, as Erdős's print
-does (see the Formulation). The site's commentary (; last
+does (see the Formulation). The site's commentary (last
 edited 12 April 2026) credits the negative resolution to Price and GPT-5.4
 Pro, links the manuscript as the online-editor read link recorded below, and
 reports the construction in a quantitative form that the claim page records as

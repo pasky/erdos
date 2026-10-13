@@ -116,7 +116,7 @@ Problem #167, https://www.erdosproblems.com/167, accessed 2026-09-19.
 - [ChGu25] Chahua, L. and Gutiérrez, J., On Tuza's conjecture in dense
   graphs. Discrete Appl. Math. 377 (2025), 225--233,
   doi:10.1016/j.dam.2025.06.049 (per its Crossref record).
-  Cited from arXiv:2405.11409v1 (18 May 2024, 12 pp.; accessed):
+  Cited from arXiv:2405.11409v1 (18 May 2024, 12 pp.):
   the abstract and introduction, pp. 1--2; Theorem 5, p. 3; Theorem 12,
   p. 6; Corollary 13 and Theorem 15, p. 7; the journal text was not
   compared. Library home:

@@ -108,7 +108,7 @@ https://www.erdosproblems.com/301, accessed 2026-09-17.
 **Formalization.** None recorded. No file `ErdosProblems/301.lean` exists in the
 [`ErdosProblems`
 directory](https://github.com/google-deepmind/formal-conjectures/tree/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems)
-of google-deepmind/formal-conjectures at the linked commit (main,); the
+of google-deepmind/formal-conjectures at the linked commit (main); the
 community database records the statement as not formalized and no formal proof.
 The Lean development in [DP26]'s repository is the author's own; the corpus did
 not build or audit it.

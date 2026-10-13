@@ -126,12 +126,15 @@ problems on representing rationals as sums of unit fractions.
 
 ***
 
-Each page is `E<nnnn>.md` — the problem's erdosproblems.com number zero-padded
-to four digits, so `E0570.md` is Problem 570 and the pages sort in the site's
-order. Pages sit one level deep in area folders; a problem's folder follows from
-its site tags by the ordered rules in `scripts/taxonomy.json`, with a small
-override table for the exceptions. A page records the statement, the current
-status with the evidence behind it, the known results with their sources, and
-working notes toward the problem while it stays open. The site's problem page is
-the first reference for the statement, status, prize, and remarks; the results a
-page cites link to their pages under [[../library/_index|library/]].
+Each problem is a folder `E<nnnn>/` named by the problem's erdosproblems.com
+number zero-padded to four digits, so `E0570/` is Problem 570 and the folders
+sort in the site's order. Folders sit one level deep in area folders; a
+problem's area follows from its site tags by the ordered rules in
+`scripts/taxonomy.json`, with a small override table for the exceptions. The
+folder's `_index.md` is the problem page, which records the statement, the
+site's label, the known results with their sources and the current assessment;
+its `claims/` folder holds one claim page per claimed result, and the problem's
+standing derives from those claim pages. The site's problem page is the first
+reference for the statement and remarks; the results a page cites link to their
+pages under [[../library/_index|library/]], and working notes toward a problem
+live under [[research/_index|research/]].

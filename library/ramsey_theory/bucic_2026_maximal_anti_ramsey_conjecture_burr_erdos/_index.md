@@ -57,12 +57,17 @@ bound comes from two vertex-disjoint cliques colored with reused color classes,
 an example the paper credits to Burr, Erdős, Graham and Sós; the new content is
 the matching lower bound (1), proved by induction on n via lemmas guaranteeing
 short paths between pairs of vertices in dense graphs. This settles Problem 809
-for C_{2k+1} with k >= 4, leaving the k = 3 case (C_7) of the conjecture open;
-the paper proves nothing for C_7, but its closing remark (p. 11) says the proof
-uses k >= 4 crucially, to keep the total length of the two short paths joining
-a pair of edges at most 2k-1, and that for k = 3 the authors have a more
-involved "stability" argument, not given in the paper, that bypasses this "in
-the second case", leaving "the first case as the main bottleneck". The
+for C_{2k+1} with k >= 4 and leaves the k = 3 case (C_7) of the conjecture to
+later work; the paper proves nothing for C_7, but its closing remark (p. 11)
+says the proof uses k >= 4 crucially, to keep the total length of the two short
+paths joining a pair of edges at most 2k-1, and that for k = 3 the authors have
+a more involved "stability" argument, not given in the paper, that bypasses
+this "in the second case", leaving "the first case as the main bottleneck". The
+case k = 3 is proved by two accepted full claims on Problem 809, each with
+formalized evidence: [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s proof
+of the seven-cycle case with a Lean development for every k >= 3, filed first,
+and [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|Plasma AI]]'s
+kernel-checked Lean proof covering every k >= 3. The
 introduction (p. 2) also records the trichotomy f(n, floor(n^2/4)+1, C_3) = 3
 ("easy to see"), f(n, floor(n^2/4)+1, C_5) = floor(n/2)+3 for large n (Erdős
 and Simonovits, "see [6]") and the quadratic lower bound of the 1989 paper for

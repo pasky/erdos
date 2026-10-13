@@ -306,8 +306,9 @@ $h(k)\ll k^2/(\log\log 3k)^2$ is not accepted here; the best refereed upper
 bound remains Iwaniec's $(k\log k)^2$. OEIS A048670 lists $j(P(p_n))$ for
 $n\le64$, the values $h(k)$ would have to exceed.
 
-**Search scope.** None of the routes below found an upper bound below
-$(k\log k)^2$, a lower bound beyond those above, or a proof claim.
+**Search scope.** Apart from the release behind the accepted partial claim
+above, which the routes below do not cover, none of them found an upper bound
+below $(k\log k)^2$, a lower bound beyond those above, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures `970.lean` at the pinned commit; the community

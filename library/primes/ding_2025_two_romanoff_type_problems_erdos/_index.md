@@ -18,6 +18,21 @@ Yuchen Ding, On two Romanoff type problems of Erdős. arXiv:2503.22700 (2025).
 The arXiv record (https://arxiv.org/abs/2503.22700, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
 
+**Editions.** The held PDF and its transcription are arXiv:2503.22700v4 of 17
+August 2026, which already carries the present title; the summary and the
+labels below are v4's. The fifth version, of 10 September 2026, is not held;
+its abstract, pp. 1--5 and Section 4 (pp. 15--17) were read for this note. It
+strengthens Theorem 1.2 (p. 3): the set S_phi has positive lower density, by
+Ballot and Luca's Romanoff-type theorem for linear recurrences (Acta Arith.
+161 (2013), 33--46, Theorem 1) applied to the odd-indexed Lucas numbers
+L_{2j+1} = floor(phi^{2j+1}) (p. 16), and upper density at most 1937/1938,
+with the v4 covering bound x/1938 - O(log x) on the complement kept. It adds
+a new Theorem 1.4 (p. 3): for almost every a > 1 and every eta > 0, at least
+x^{1-eta} integers n <= x lie outside S_a for all large x. v4's squarefree
+Theorem 1.4 becomes Theorem 1.5 (p. 5), which adds the bound
+<< x (log log x)^{1+eps} / log x for sums of a squarefree integer and two
+integer parts floor(a^m) + floor(a^l) with m < l.
+
 Erdos and Kalmar asked whether S_y = {p + floor(y^k) : p prime, k in N} has
 positive lower asymptotic density for every real y > 1. Theorem 1.1 proves this
 for Lebesgue almost all y > 1, with the explicit bound delta_y >= 1/(log y + 9

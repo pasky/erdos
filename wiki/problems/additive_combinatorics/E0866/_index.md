@@ -135,7 +135,7 @@ statement? No" and "OEIS: Possible"), its five-comment discussion thread
 **Formalization.** None: no file `ErdosProblems/866.lean` existed in
 google-deepmind/formal-conjectures and the site's
 indicator reads "Formalised statement? No (create one)". The community
-database (teorth/erdosproblems,) records the problem open
+database (teorth/erdosproblems) records the problem open
 (last changed 31 August 2025), the statement not formalized and
 `formal_status` unformalized. The 2026 paper's own Lean file (its reference
 [5], linked from van Doorn's claim page) and the Lean development of the

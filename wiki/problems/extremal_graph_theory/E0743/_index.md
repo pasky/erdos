@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $T_2,\ldots,T_n$ be a collection of trees such that $T_k$ has
 $k$ vertices. Can we always write $K_n$ as the edge disjoint union of the $T_k$?
 
-**Formulation.** The site's wording, accessed (the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). This is the tree packing conjecture of
 Gyárfás (stated with Lehel in the 1976 Keszthely proceedings, published
 1978), for every $n\ge2$: since $\sum_{k=2}^n(k-1)=\binom n2$, a packing of
@@ -90,7 +90,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [JKKO19] Joos, Felix and Kim, Jaehoon and Kühn, Daniela and Osthus, Deryk,
   Optimal packings of bounded degree trees. J. Eur. Math. Soc. 21 (2019),
   no. 12, 3573--3647, doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref
-  record accessed). Paged in arXiv:1606.03953v2 (13 March 2019,
+  record). Paged in arXiv:1606.03953v2 (13 March 2019,
   56 pp., "final version (December 2017)" per the arXiv record); Conjecture
   1.1, p. 1; Theorem 1.2, p. 2. The journal text is not held; the page
   numbers are the arXiv version's. Library home:
@@ -124,8 +124,8 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|verification_p124]].
 - [Fi83] Fishburn, P. C., Balanced integer arrays: a matrix packing theorem.
   J. Combin. Theory Ser. A 34 (1983), no. 1, 98--101,
-  doi:10.1016/0097-3165(83)90045-6 (Crossref record accessed;
-  text accessed). The site's key. Proposition 1, p. 98, with
+  doi:10.1016/0097-3165(83)90045-6 (Crossref record;
+  text). The site's key. Proposition 1, p. 98, with
   Graham's observation, p. 99: the degree sequences of $T_1,\ldots,T_n$
   pack into that of $K_n$ (Graham's conjecture), as [JKKO19] (p. 1) and
   [GuMa90] (p. 123) cite it; the note states no result on the conjecture
@@ -148,8 +148,8 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [Bo83] (p. 203) attests the stars case.
 - [Bo83] Bollobás, Béla, Some remarks on packing trees. Discrete Math. 46
   (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and
-  zbMATH records accessed; the publisher's open-archive license dated 2013;
-  text accessed). The Theorem, p. 203; the
+  zbMATH records; the publisher's open-archive license dated 2013;
+  text). The Theorem, p. 203; the
   Erdős--Sós remark, p. 204. Library home:
   [[../library/extremal_graph_theory/bollobas_1983_some_remarks_packing_trees/_index|bollobas_1983_some_remarks_packing_trees]];
   paged at
@@ -174,7 +174,7 @@ comment "tree packing conjecture".
 
 ## Current assessment
 
-**The question (site formulation accessed).** The statement
+**The question (site formulation).** The statement
 above; FALSIFIABLE, which the site defines as open but refutable by a finite
 counterexample; no last-edited date. The commentary, in this page's words:
 the site calls this Gyárfás's tree packing conjecture and lists the known

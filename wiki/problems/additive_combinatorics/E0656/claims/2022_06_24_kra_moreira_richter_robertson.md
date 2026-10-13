@@ -72,7 +72,7 @@ statement is recorded on the
 
 **Acceptance.** Refereed publication: Communications of the American
 Mathematical Society 4 (2024), 480--494, doi:10.1090/cams/34, issued 1 August
-2024 (Crossref record accessed). The acknowledgements thank the anonymous
+2024 (Crossref record). The acknowledgements thank the anonymous
 referee.
 
 Reviewed: the site's curator (T. F. Bloom) labeled the problem proved and states

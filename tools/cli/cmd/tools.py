@@ -108,7 +108,7 @@ def gate(app: typer.Typer) -> typer.Typer:
     settled_help = (
         'Fail the problem claims leg on a problem whose provisional standing,'
         ' other than open with claim none, rests on no claim page, instead of'
-        ' counting it as transition debt.'
+        " counting it in the leg's detail (the release mode)."
     )
     settled = typer.Option(False, '--settled', help=settled_help)
 
@@ -462,8 +462,8 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
     # settled flag
     settled_help = (
         'Fail on a problem whose provisional standing, other than open with'
-        ' claim none, rests on no claim page, instead of counting it as'
-        ' transition debt.'
+        ' claim none, rests on no claim page, instead of counting it in the'
+        " check's detail (the release mode)."
     )
     settled = typer.Option(False, '--settled', help=settled_help)
     # write flag
@@ -492,8 +492,8 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
         an accepted claim resting on an unaccepted page, or a recorded status
         and claim that the claim pages do not derive. A problem with no claim
         page keeps its provisional standing and, unless that standing is open
-        with claim none, is counted as transition debt; with ``--settled`` it is
-        a finding. With ``--write``, each problem with
+        with claim none, is counted in the check's detail; with ``--settled``,
+        the release mode, it is a finding. With ``--write``, each problem with
         claim pages gets the derived status and claim written into its two
         frontmatter lines before the check. With ``--problem E####``
         (repeatable) only the named problem folders are written and checked,
@@ -621,7 +621,7 @@ def reflint(app: typer.Typer) -> typer.Typer:
     def _reflint(
         path: Optional[str] = path,
     ) -> None:
-        """Check retired page names and inline links over the repository Markdown.
+        """Check retired names, inline links and cited standings in repository pages.
 
         Reads every Markdown page of the repository outside its
         dot-folders, among the tracked and non-ignored untracked
@@ -637,9 +637,14 @@ def reflint(app: typer.Typer) -> typer.Typer:
         there, from the page's folder, or one whose target is an
         absolute path. The filed records under `evidence/**/verify/`
         are read for retired names only; their links stay as written.
-        Wikilinks are the wiki tool's lint's surface. The path must be
-        the repository root, the folder holding `wiki/`; a subfolder
-        is refused. Nothing is written.
+        Wikilinks are the wiki tool's lint's surface. A page of the
+        research layer (`wiki/research/`, `wiki/theory/`), outside
+        evidence records, refutation records and the folders of
+        refuted claims, that writes a tier or a status beside a claim
+        id must write the ledger's, and a refuted claim cited as a
+        warrant in a sentence that does not say it is refuted is a
+        defect too. The path must be the repository root, the folder
+        holding `wiki/`; a subfolder is refused. Nothing is written.
 
         The gate's `reflint` leg runs the same check. Scripts should
         branch on the exit code: 0 no findings, 1 findings, 2 a

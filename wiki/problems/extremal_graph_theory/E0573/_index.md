@@ -255,9 +255,10 @@ proof claim.
   pp. 1--3 (pp. 3--7 for structure), [ErSi82] p. 278, [GJJV25] pp. 1--2 and
   4, [Er71] p. 103, [Er75] p. 7.
 - Crossref records for [MaYa25] (published online 23 September 2025, CC-BY),
-  [KST54], and a bibliographic query for [GJJV25] (no published version
-  found).
-- arXiv: the abstract page of 2508.05562 (v1 only, no journal reference); the
+  [KST54] and [GJJV25] (Experimental Mathematics, published online 21
+  September 2026).
+- arXiv: the abstract page of 2508.05562 (v1 and a v2 of 22 September 2026,
+  no journal reference); the
   API query `(abs:"girth five" OR abs:"girth 5" OR abs:"girth at least 5") AND
   (abs:extremal OR abs:"maximum number of edges")` (twelve records; only
   [GJJV25] concerns this function).

@@ -69,7 +69,7 @@ T. F. Bloom, Erdős Problem #453, https://www.erdosproblems.com/453, accessed
 **Formalization.** Statement only in the collection. The file
 [`ErdosProblems/453.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/453.lean)
 of google-deepmind/formal-conjectures, at its last change of 18 September
-2026 (linked at that commit; accessed), declares
+2026 (linked at that commit), declares
 `erdos_453 : answer(False) ↔ EventuallyHasPrimeWitness` under
 `category research solved` with proof `sorry`, where
 `EventuallyHasPrimeWitness` is the statement with Mathlib's zero-based

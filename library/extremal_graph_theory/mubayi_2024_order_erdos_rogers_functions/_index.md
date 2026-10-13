@@ -68,8 +68,11 @@ The method combines the ideas of Wolfovitz and of Dudek, Retter and Rödl
 with the Mattheus-Verstraete construction, using only Chernoff bounds, a
 Janson-type estimate for K_s-freeness of random s-partite graphs
 (Proposition 2), and the Lovász local lemma, deliberately avoiding the
-container method. This is the state-of-the-art upper bound for the
-Erdős-Rogers problem recorded as Problem 620.
+container method. This is the best upper bound that a refereed paper prints
+for the Erdős-Rogers problem recorded as Problem 620. A preprint of 17 July
+2026 by Morris, Sahasrabudhe and Verstraëte claims f(n) = Theta(sqrt(n log n))
+for that problem; it is unrefereed and is recorded as claimed on
+[[../wiki/problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete|its claim page]].
 
 Source: <https://arxiv.org/abs/2401.02548>.
 

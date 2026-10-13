@@ -30,7 +30,7 @@ Does this process always terminate if $x$ has odd denominator and $A$ is the set
 of odd numbers? More generally, for which pairs $x$ and $A$ does this process
 terminate?
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). The step "choose the minimal $n\in A$ such that
 $n\ge1/x$" does not by itself exclude a denominator already used:
 for $x=2/3$ and $A$ the odd numbers it picks $3$ twice (discussion comment
@@ -114,7 +114,7 @@ T. F. Bloom, Erdős Problem #282, https://www.erdosproblems.com/282, accessed
   [[../library/unit_fractions/pihko_2001_remarks_greedy_odd_egyptian_fraction_algorithm/_index|pihko_2001_remarks_greedy_odd_egyptian_fraction_algorithm]].
 - [Pi10] Pihko, J., Remarks on the "greedy odd" Egyptian fraction algorithm
   II. Fibonacci Quart. 48 (2010), no. 3, 202--208, DOI
-  10.1080/00150517.2010.12428097 (Crossref record accessed). The
+  10.1080/00150517.2010.12428097 (Crossref record). The
   open-problem sentence, p. 202; Corollary 3.6, p. 206. Library home:
   [[../library/unit_fractions/pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii/_index|pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii]].
 - [LoMa23] Louwsma, J. and Martino, J., Rational numbers with odd greedy

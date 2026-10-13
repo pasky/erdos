@@ -60,8 +60,36 @@ $f(k,5)=\lceil5k/4\rceil$ and $f(k,6)=k$, an accepted partial claim that
 answers the second question yes for $r=3,4,5,6$ and covers neither the
 $r=7$ asymptotic nor the second question for $r\ge7$, so the derived standing
 is open; the site's commentary prints the two middle values with floors,
-which fail already for $k=3$. This page records no current literature search
-or independent assessment of proof coverage.
+which fail already for $k=3$.
+
+For $r=7$ the bounds are those of Fon-Der-Flaass, Kostochka and Woodall,
+*Transversals in uniform hypergraphs with property (7,2)*, Discrete Math. 207
+(1999), 277--284, whose $f(k,7,2)$ is this page's $f(k,7)$ (the identification
+is made on the
+[[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/_index|source card]]).
+Their [[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/theorem_1|Theorem 1]]
+(p. 278) gives $f(4q,7)\ge3q+1$ for every $q\ge10$, and their
+[[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/theorem_2|Theorem 2]]
+(p. 281) gives $f(k,7)\le\lceil7k/8\rceil$ for every $k\ge8$. Adding to each
+set a new point of its own keeps the hypothesis and does not lower the least
+size of a set meeting every member, so $f(k,7)$ is nondecreasing in $k$; hence
+$3\lfloor k/4\rfloor+1\le f(k,7)\le\lceil7k/8\rceil$ for $k\ge40$, and
+$f(k,7)\ge(3/4-o(1))k$. Whether $f(k,7)/k$ tends to $3/4$, the first
+question, stays open, and so does the second question for every $r\ge7$.
+For fixed $r\ge3$, Bucić, Korándi and Sudakov (arXiv:1902.05055) give
+$f(k,r)\le2k$
+([[../library/set_systems/bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_type_results_hypergraphs/observation_5_1|Observation 5.1]])
+and, through a derivation on the result page of their
+[[../library/set_systems/bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_type_results_hypergraphs/theorem_5_7|Theorem 5.7]],
+$\liminf_{k\to\infty}f(k,r)/k\ge1/(\sqrt r-1)$, about $0.608$ for $r=7$;
+neither shows that $f(k,r)/k$ converges. These bounds settle neither
+question, so they have no claim pages. The project's notes on these sources
+are in
+[[research/erdos_644/_index|the Problem 644 research folder]].
+
+The assessment covers the library sources linked here, whose proofs were read
+for structure only; no wider literature search is recorded, and nothing here
+is independently reviewed.
 
 <!-- BEGIN problem library links -->
 

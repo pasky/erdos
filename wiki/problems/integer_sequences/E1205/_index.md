@@ -74,7 +74,7 @@ Erdős Problem #1205, https://www.erdosproblems.com/1205, accessed
 **Formalization.** None found: there is no
 `ErdosProblems/1205.lean` in google-deepmind/formal-conjectures and the problem
 page shows no formalized statement. The community database
-(teorth/erdosproblems,) records the problem solved (record last updated 4 April
+(teorth/erdosproblems) records the problem solved (record last updated 4 April
 2026), the statement not formalized, `formal_status` unformalized and no
 formal-proof URL.
 

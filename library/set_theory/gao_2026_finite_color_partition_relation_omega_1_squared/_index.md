@@ -67,7 +67,7 @@ associated with the site has examined the proof. The site's claim entry
 attributed the work to Lezhe Gao with AI assistance (the tools it named were not
 recorded before its removal), and the deposit included an archive named
 `AI_interaction_logs.zip`, not fetched. The deposit's owner withdrew it from
-Zenodo on 2026-10-01 (the tombstone, gives the reason
+Zenodo on 2026-10-01 (the tombstone gives the reason
 "Retraction/Withdrawal of a record"), and on 2026-10-07 the site's proof-claims
 tab lists no proof claim for the problem;
 [[../wiki/problems/set_theory/E1171/claims/2026_09_05_gao|the claim page]]

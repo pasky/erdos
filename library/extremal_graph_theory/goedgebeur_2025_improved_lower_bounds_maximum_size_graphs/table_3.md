@@ -2,9 +2,9 @@
 name: extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/table_3
 title: "Table 3 (p. 9): four improved upper bounds on the order of bi-regular cages of girth 5 (preprint)"
 desc: |
-  The preprint's by-product: graphs found by its search improve the best known
+  The paper's by-product: graphs found by its search improve the best known
   upper bounds on n({r,m};5) for {r,m} = {8,9}, {9,12}, {10,11} and {11,12};
-  finite data, unrefereed.
+  finite data.
 created: 2026-10-08T14:36:14Z
 updated: 2026-10-08T14:36:14Z
 ---
@@ -37,7 +37,8 @@ The corresponding graphs are published by the authors (p. 9).
 **Source.** J. Goedgebeur, J. Jooken, G. Joret, T. Van den Eede,
 *Improved lower bounds on the maximum size of graphs with girth 5*,
 arXiv:2508.05562v1 [math.CO] (7 August 2025); Section 3.2 and Table 3 on
-p. 9. The artifact and its standing as a preprint are recorded on the
+p. 9. The artifact, its journal publication and the versions compared are
+recorded on the
 [[extremal_graph_theory/goedgebeur_2025_improved_lower_bounds_maximum_size_graphs/_index|source card]].
 
 **Read depth.** Claims checked: the definitions, Table 3 and footnote 2

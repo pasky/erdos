@@ -36,7 +36,7 @@ $$
 g_3(n) \gg 3^n?
 $$
 
-**Formulation.** The site's wording(the page shows no
+**Formulation.** The site's wording (the page shows no
 last-edited date). $\langle A\rangle$ includes the empty
 sum $0$; a $k$-term progression $\{x,x+d,\ldots,x+(k-1)d\}$ is non-trivial
 when $d\ne0$ (Korsky's "nonconstant"). For $k=3$, Proposition 4.1 of [Ko26]

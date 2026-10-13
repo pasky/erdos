@@ -26,7 +26,7 @@ updated: 2026-10-08T02:16:54Z
 directed graph) on $f(n)$ vertices such that every set of $n$ vertices is
 dominated by at least one other vertex. Estimate $f(n)$.
 
-**Formulation.** The site's wording(the page carries no
+**Formulation.** The site's wording (the page carries no
 last-edited date). A vertex dominates a set when it
 sends an edge to every member of the set; "another vertex" is one outside
 the set. The literature writes $k$ for the site's $n$: a tournament has

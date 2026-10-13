@@ -165,7 +165,7 @@ corpus.
 
 **Provenance of the proof file.** Conjectures.io serves the file at
 https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff/solution/download
-(600,125 bytes, 12,791 lines,); this corpus has not built it.
+(600,125 bytes, 12,791 lines); this corpus has not built it.
 
 ## Progress
 

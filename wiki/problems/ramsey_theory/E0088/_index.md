@@ -126,7 +126,7 @@ this corpus has not built it, so it is no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation accessed).** The statement
+**The question (site formulation).** The statement
 above; PROVED, with the note that the answer is yes; a prize; no last-edited
 date shown. The commentary attributes the conjecture to Erdős and McKay, who
 proved it with $\delta(\log n)^2$ in place of $\delta n^2$, credits the solution
@@ -163,12 +163,11 @@ p\le1-\lambda$, with a lower bound $\kappa_{C,A,\lambda}n^{-3/2}$ for every
 integer $x$ with $|x-p^2e(G)|\le An^{3/2}$ once $n$ is large in terms of
 $C,\lambda,A$; p. 3), together with the theorem of Alon, Krivelevich and
 Sudakov giving every edge count up to $n^{\alpha_C}$. Acceptance evidence:
-publication in Forum of Mathematics, Pi 11 (2023), e21 (Crossref record
-accessed), a refereed journal, and the site's label. Version: the
-locators are those of arXiv v2 of 30 May 2024, posted after the journal
-publication; the journal text is not held and the two were not compared. Read
-depth: claims checked for Theorem 1.1, footnote 2 and Theorem 1.2; the proof
-(Sections 2 onward) was not read.
+publication in Forum of Mathematics, Pi 11 (2023), e21 (Crossref record), a
+refereed journal, and the site's label. Version: the locators are those of arXiv
+v2 of 30 May 2024, posted after the journal publication; the journal text is not
+held and the two were not compared. Read depth: claims checked for Theorem 1.1,
+footnote 2 and Theorem 1.2; the proof (Sections 2 onward) was not read.
 
 **From the theorem to the site's statement (an authored deduction, following
 the paper's footnote 2).** Let $\epsilon>0$ and read the site's logarithm in

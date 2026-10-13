@@ -162,9 +162,8 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   complete $r$-partite $r$-uniform hypergraphs. arXiv:2307.04447v1 (10 July
   2023); Discrete Math. 347 (2024), no. 7, 114037,
   doi:10.1016/j.disc.2024.114037, with a corrigendum, Discrete Math. 348
-  (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records
-  accessed); Theorem 3.2, p. 2. Not cited by the site.
-  Library home:
+  (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records);
+  Theorem 3.2, p. 2. Not cited by the site. Library home:
   [[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/_index|gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r]].
 - [KKM02] Katz, N. H., Krop, E. and Maggioni, M., Remarks on the box
   problem. Math. Res. Lett. 9 (2002), 515--519. Quoted from
@@ -179,7 +178,7 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   (3 January 2021; abstract accessed); [Mu26] Mubayi, D., Hypergraphs
   without complete partite subgraphs. arXiv:2507.06390 (v2 14 July 2025);
   Combin. Probab. Comput. 35 (2026), 290--293, doi:10.1017/S0963548325100321
-  (arXiv record accessed); [CLY25] Chen, Q., Liu, H. and Ye, K.,
+  (arXiv record); [CLY25] Chen, Q., Liu, H. and Ye, K.,
   Extremal constructions for apex partite hypergraphs. arXiv:2510.07997 (9
   October 2025); [CXY26] Chen, Q., Xu, Z. and Ye, K., Turán problems for
   multilinear maps. arXiv:2603.00715 (v2 23 July 2026); [DM26] Dash, S. and
@@ -197,7 +196,7 @@ $\varepsilon>0$, for all large $n$, `Hypergraph.partiteExtremalNumber n t r` is
 at least $n^{t-r^{1-t}-\varepsilon}$; its docstring asks the question for
 $t,r\ge2$ and says that the restriction $r\ge2$ excludes forbidding a single
 edge. The site's indicator and the community database record a formalized
-statement since 2026-10-07 (; on 2026-09-18 both recorded none), and the
+statement since 2026-10-07 (on 2026-09-18 both recorded none), and the
 database records the problem open (last update 23 January 2026), with no formal
 proof and OEIS "possible".
 

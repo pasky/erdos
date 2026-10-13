@@ -58,10 +58,20 @@ sets to essential disjointness: removing a finite set from each member
 leaves the members pairwise disjoint. Pairwise finite intersections alone
 do not suffice, since Miller's almost disjoint family on $\omega$ lacks
 Property B; so the hypothesis that no intersection has exactly one point
-does work. The case left open is that of uncountable families whose
-pairwise intersections are finite but not uniformly bounded. These
-classical results have no claim pages: none is credited by the site's
-commentary or the community database.
+does work. Countably many colors always suffice: Erdős reports in
+[[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/problem_12|Problem 12]]
+of his 1987 problem paper (printed p. 227) that when only
+$|A_i\cap A_j|\ne1$ is assumed, Komjáth easily showed the chromatic number
+to be at most $\aleph_0$, and the site's commentary on
+[[problems/set_theory/E0603/_index|Problem 603]] (page last edited 6 July
+2026) repeats it. The families here satisfy that hypothesis. Erdős gives no
+proof or reference, no paper of Komjáth's stating the bound was identified,
+and it is not checked here. The case left open is that of uncountable
+families whose pairwise intersections are finite but not uniformly bounded,
+and for them the question is whether two colors suffice where countably many
+do. These results have no claim pages: the site's commentary and the
+community database credit none of the earlier ones, and Komjáth's countable
+bound answers no instance of the two-color question.
 
 **Claims.** No claim page exists; the frontmatter standing is open with no
 claim. The one filing on the site's proof-claims page (claim 380, filed

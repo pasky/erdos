@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 all large $n$, every graph on $n$ vertices with at least $n^{1+\epsilon}$ edges
 must contain a subgraph on at most $C_\epsilon$ vertices which is non-planar?
 
-**Formulation.** The site's wording as accessed (the page
+**Formulation.** The site's wording (the page
 carries no last-edited date). The question is for fixed
 $\epsilon>0$, with $C_\epsilon$ depending on $\epsilon$ only and $n$ at least
 some $n_0(\epsilon)$. It is Erdős's item 12 of 1971 with $C_\epsilon$ for his

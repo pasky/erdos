@@ -26,7 +26,7 @@ updated: 2026-10-08T14:06:00Z
 on $>n^{1/2}$ vertices then there is a set of $\leq n^{1/2}$ vertices containing
 $\gg n^{1/2}\log n$ edges.
 
-**Formulation.** The site's wording(the page shows no last-edited date).
+**Formulation.** The site's wording (the page shows no last-edited date).
 "$\gg n^{1/2}\log n$" asks for an absolute constant $c_0>0$ and at least
 $c_0\sqrt n\log n$ edges for all large $n$; the base of the logarithm changes
 $c_0$ only. Alon's Theorem 1.2, the status-defining source, is stated with

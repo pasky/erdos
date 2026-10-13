@@ -968,6 +968,7 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/ramsey_theory/E0911/_index|E0911]]
 - [[distance_problems/erdos_1994_some_problems_number_theory_combinatorics_combinatorial_geometry/_index|erdos_1994_some_problems_number_theory_combinatorics_combinatorial_geometry]]
   - [[../wiki/problems/ramsey_theory/E0085/_index|E0085]]
+  - [[../wiki/problems/ramsey_theory/E0552/_index|E0552]]
 - [[distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|feng_2026_semi_autonomous_mathematics_discovery_gemini_case]]
   - [[../wiki/problems/ramsey_theory/E1105/_index|E1105]]
 - [[extremal_graph_theory/adamczewski_2026_erdos548/_index|adamczewski_2026_erdos548]]
