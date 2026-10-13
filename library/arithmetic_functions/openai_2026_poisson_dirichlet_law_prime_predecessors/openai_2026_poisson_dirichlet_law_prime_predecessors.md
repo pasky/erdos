@@ -27,27 +27,27 @@ Let $U_1,U_2,\ldots$ be independent uniform random variables on $(0,1)$, and for
  =\mathbb EF(L_1,\ldots,L_k).
 \end{equation}$$ The limit holds through all real $x$ and uses ordinary equal weighting of the primes.*
 
-Theorem 1.1 resolves positively the conjecture of Ford, Konyagin and Luca (Ford et al. 2010, sec. 6, Conjecture 5). Their formulation uses the same multiplicity convention, normalization, and ordinary counting distribution on primes. The assertion includes all finite joint distributions, strengthening the largest-factor prediction alone.
+Theorem 1.1 resolves positively the conjecture of Ford, Konyagin and Luca [13, Section 6, Conjecture 5]. Their formulation uses the same multiplicity convention, normalization, and ordinary counting distribution on primes. The assertion includes all finite joint distributions, strengthening the largest-factor prediction alone.
 
 ##### History and significance.
 
-For ordinary uniformly sampled integers, the largest-factor law begins with Dickman (Dickman 1930) and the smooth-number estimates of de Bruijn (Bruijn 1951). Billingsley proved the joint limiting law of the ordered large prime divisors (Billingsley 1972). Donnelly and Grimmett (Donnelly and Grimmett 1993, Theorem 1 and Corollaries 2–3) gave a size-biased treatment, including multiplicities, leading directly to the stick-breaking and Poisson–Dirichlet descriptions. Arratia, Kochman and Miller (Arratia et al. 2014) express this identification through the joint intensities of distinct factor tuples. Our final passage from interior factor statistics to ranked factors uses the same size-biased approach; that passage is proved explicitly in Section 8.
+For ordinary uniformly sampled integers, the largest-factor law begins with Dickman [7] and the smooth-number estimates of de Bruijn [6]. Billingsley proved the joint limiting law of the ordered large prime divisors [5]. Donnelly and Grimmett [8, Theorem 1 and Corollaries 2–3] gave a size-biased treatment, including multiplicities, leading directly to the stick-breaking and Poisson–Dirichlet descriptions. Arratia, Kochman and Miller [2] express this identification through the joint intensities of distinct factor tuples. Our final passage from interior factor statistics to ranked factors uses the same size-biased approach; that passage is proved explicitly in Section 8.
 
-The shifted-prime problem has a different arithmetic difficulty: requiring a product of large primes to divide $p-1$ places $p$ in a progression with that product as modulus. Standard distribution estimates give useful information for products below a fixed power of $x$, whereas the full factor partition involves products throughout the range below $x$. The smoothness question arose in Erdős’s work on Euler’s function (Erdős 1935, 1956), and Pomerance (Pomerance 1980) developed its connection with large totient fibers. Baker and Harman (Baker and Harman 1998, Theorem 1) and Lichtman (Lichtman 2022, Theorem 1.1) obtained lower bounds of the form $x/(\log x)^C$ for primes with smooth predecessors, at thresholds $x^{0.2961}$ for $p\le x$ and $x^{0.2844}$ for $x<p\le2x$, respectively.
+The shifted-prime problem has a different arithmetic difficulty: requiring a product of large primes to divide $p-1$ places $p$ in a progression with that product as modulus. Standard distribution estimates give useful information for products below a fixed power of $x$, whereas the full factor partition involves products throughout the range below $x$. The smoothness question arose in Erdős’s work on Euler’s function [9, 10], and Pomerance [23] developed its connection with large totient fibers. Baker and Harman [3, Theorem 1] and Lichtman [18, Theorem 1.1] obtained lower bounds of the form $x/(\log x)^C$ for primes with smooth predecessors, at thresholds $x^{0.2961}$ for $p\le x$ and $x^{0.2844}$ for $x<p\le2x$, respectively.
 
-For shifted primes, Granville states the conjectural asymptotic (Granville 2008, sec. 5.3, Equation (5.1)) $$\begin{equation}
+For shifted primes, Granville states the conjectural asymptotic [15, Section 5.3, Equation (5.1)] $$\begin{equation}
 \tag{1.3}
  \#\{p\le x:P^+(p-1)\le x^{1/u}\}
        \sim\pi(x)\rho(u)\qquad(u\ge1\text{ fixed}),
-\end{equation}$$ where $P^+(n)$ is the largest prime factor, with $P^+(1)=1$, and the Dickman function is determined by $\rho(u)=1$ for $0\le u\le1$ and $u\rho'(u)+\rho(u-1)=0$ for $u>1$. Theorem 1.1 resolves this fixed-$u$ conjecture positively and proves the complete joint limiting law. The use of $x$ rather than $p-1$ in the threshold in (1.3) causes no change: restrict first to $\varepsilon x<p\le x$, where $\log(p-1)/\log x\to1$ uniformly, and then let $\varepsilon\downarrow0$. The largest part of $\mathop{\mathrm{PD}}(1)$ has the continuous Dickman distribution, by the ordinary-integer limit in (Donnelly and Grimmett 1993, sec. 1) and the smooth-number asymptotic in (Granville 2008, sec. 1, Equation (1.1)); hence the corresponding threshold sandwich applies.
+\end{equation}$$ where $P^+(n)$ is the largest prime factor, with $P^+(1)=1$, and the Dickman function is determined by $\rho(u)=1$ for $0\le u\le1$ and $u\rho'(u)+\rho(u-1)=0$ for $u>1$. Theorem 1.1 resolves this fixed-$u$ conjecture positively and proves the complete joint limiting law. The use of $x$ rather than $p-1$ in the threshold in (1.3) causes no change: restrict first to $\varepsilon x<p\le x$, where $\log(p-1)/\log x\to1$ uniformly, and then let $\varepsilon\downarrow0$. The largest part of $\mathop{\mathrm{PD}}(1)$ has the continuous Dickman distribution, by the ordinary-integer limit in [8, Section 1] and the smooth-number asymptotic in [15, Section 1, Equation (1.1)]; hence the corresponding threshold sandwich applies.
 
-The closest general distribution theorem is due to Bharadwaj and Rodgers (Bharadwaj and Rodgers 2026, Theorem 7). Their Poisson–Dirichlet theorem applies to nonnegative sequences satisfying their regularity and congruence-uniformity hypotheses, with level of distribution one. For shifted primes this gives the full law under the Elliott–Halberstam conjecture, as anticipated in (Ford et al. 2010, sec. 6). Unconditionally, (Bharadwaj and Rodgers 2026, Proposition 2 and Lemma 8) give level one half and the corresponding factor correlations for tests supported where the sum of the logarithmic coordinates is less than one half. Our extraction reaches every compact subset of the open simplex with coordinate sum less than one, and the final probability argument controls its boundary. All smoothness parameters in (1.3) remain fixed as $x$ grows.
+The closest general distribution theorem is due to Bharadwaj and Rodgers [4, Theorem 7]. Their Poisson–Dirichlet theorem applies to nonnegative sequences satisfying their regularity and congruence-uniformity hypotheses, with level of distribution one. For shifted primes this gives the full law under the Elliott–Halberstam conjecture, as anticipated in [13, Section 6]. Unconditionally, [4, Proposition 2 and Lemma 8] give level one half and the corresponding factor correlations for tests supported where the sum of the logarithmic coordinates is less than one half. Our extraction reaches every compact subset of the open simplex with coordinate sum less than one, and the final probability argument controls its boundary. All smoothness parameters in (1.3) remain fixed as $x$ grows.
 
-There is also strong recent information about the small prime divisors of shifted primes. Ford (Ford 2025) proves a total-variation approximation for their valuations on subpower ranges; Gorodetsky (Gorodetsky 2026) obtains such approximations within a general sieve model. The large-factor law studied here concerns the logarithmic mass carried by prime factors of polynomial size.
+There is also strong recent information about the small prime divisors of shifted primes. Ford [12] proves a total-variation approximation for their valuations on subpower ranges; Gorodetsky [14] obtains such approximations within a general sieve model. The large-factor law studied here concerns the logarithmic mass carried by prime factors of polynomial size.
 
-Ford, Konyagin and Luca formulated their conjecture in studying prime chains and Pratt trees. Theorem 1.1 supplies the factorization law at the root of their probabilistic model; the recursive independence assumptions used for later generations are additional hypotheses. Smooth predecessors also underlie the Carmichael-number construction of Alford, Granville and Pomerance (Alford et al. 1994), together with a separate progression-distribution input.
+Ford, Konyagin and Luca formulated their conjecture in studying prime chains and Pratt trees. Theorem 1.1 supplies the factorization law at the root of their probabilistic model; the recursive independence assumptions used for later generations are additional hypotheses. Smooth predecessors also underlie the Carmichael-number construction of Alford, Granville and Pomerance [1], together with a separate progression-distribution input.
 
-The companion article *Weighted dilation graphs, smooth shifted primes and totient fibers* (OpenAI 2026, Theorem 1.2), denoted S, proves that, for every fixed positive smoothness exponent, there are $x^{1-o(1)}$ primes in its stated interval with smooth predecessors. Such a lower bound does not imply a positive limiting proportion, much less (1.2). We use S’s dilation-graph operator theorems in a different extraction argument. Section 6 states their precise contracts and verifies the new endpoint hypotheses. The long-prime polynomial and logarithmic-phase estimates needed in both analytic branches are proved in Appendix A; Section 2 records the ranges in which we use them.
+The companion article *Weighted dilation graphs, smooth shifted primes and totient fibers* [21, Theorem 1.2], denoted S, proves that, for every fixed positive smoothness exponent, there are $x^{1-o(1)}$ primes in its stated interval with smooth predecessors. Such a lower bound does not imply a positive limiting proportion, much less (1.2). We use S’s dilation-graph operator theorems in a different extraction argument. Section 6 states their precise contracts and verifies the new endpoint hypotheses. The long-prime polynomial and logarithmic-phase estimates needed in both analytic branches are proved in Appendix A; Section 2 records the ranges in which we use them.
 
 ##### The new analytic step.
 
@@ -55,7 +55,7 @@ The main new estimate is Theorem 3.1: a marked Type II estimate in which only 
 
 The root coordinates are restricted by quantitative separation conditions. These give both a balanced lattice box for fresh-label minor arcs and a separation rule for retrieving remembered labels. Global distinctness is then restored by grouping equalities between newly drawn prime labels according to their rank, the number of independent equality constraints. High ranks supply many small point-probability factors, whereas low ranks alter only a vanishing fraction of the signed edge contractions. The resulting estimate has arbitrarily strong fixed logarithmic precision, with a number of marking bands independent of their particular fixed exponents.
 
-The signed-moment method has precedents in divisibility graphs. Helfgott and Radziwiłł center prime-divisibility weights by subtracting $1/p$ and analyze high traces through prime-labelled walks (Helfgott and Radziwiłł 2021, secs. 1.3, 1.5 and 5). Their proposed composite shifts (Helfgott and Radziwiłł 2021, sec. 9.1) are developed by Pilatte using products of primes and a non-backtracking trace estimate (Pilatte 2026, Definition 3.2 and Proposition 5.3). Recurring prime labels create dependencies in these walk expansions. Here the state contains active prime lists and a primitive lattice vector. At each prime $p$, root averaging gives a uniform projective line, so a specified line has probability $1/(p+1)$. The memory preserves that line across gaps between active runs. Sections 3–4 develop this determinant geometry and prove the exact memory identity; Section 5 supplies the complementary major-term estimate.
+The signed-moment method has precedents in divisibility graphs. Helfgott and Radziwiłł center prime-divisibility weights by subtracting $1/p$ and analyze high traces through prime-labelled walks [16, Sections 1.3, 1.5 and 5]. Their proposed composite shifts [16, Section 9.1] are developed by Pilatte using products of primes and a non-backtracking trace estimate [22, Definition 3.2 and Proposition 5.3]. Recurring prime labels create dependencies in these walk expansions. Here the state contains active prime lists and a primitive lattice vector. At each prime $p$, root averaging gives a uniform projective line, so a specified line has probability $1/(p+1)$. The memory preserves that line across gaps between active runs. Sections 3–4 develop this determinant geometry and prove the exact memory identity; Section 5 supplies the complementary major-term estimate.
 
 ##### From marked correlations to the full law.
 
@@ -75,7 +75,7 @@ Throughout the proof $x$ is a real parameter tending to infinity, and $$L=\log x
 
 Every unspecified exponent of $L$ is fixed before $x$ tends to infinity. Constants may depend on previously fixed data. Whenever an exponent must be independent of a marking parameter, this is stated explicitly. The number of determinant pads in Sections 3–5 grows slowly with $L$; the padding parameter in Section 6 is instead a sufficiently large fixed integer. These are separate constructions.
 
-We use the dilation-graph and ideal-kernel theorems of the companion *Weighted dilation graphs, smooth shifted primes and totient fibers* (OpenAI 2026), denoted S. Its complete text accompanies this article. Section 6 states the exact operator contracts and verifies their endpoint hypotheses. The long-prime and logarithmic-phase estimates stated below are proved in Appendix A. Our presieving cutoff is always the $W$ defined above; it is not S’s cutoff $\exp(\sqrt{\log x})$.
+We use the dilation-graph and ideal-kernel theorems of the companion *Weighted dilation graphs, smooth shifted primes and totient fibers* [21], denoted S. Its complete text accompanies this article. Section 6 states the exact operator contracts and verifies their endpoint hypotheses. The long-prime and logarithmic-phase estimates stated below are proved in Appendix A. Our presieving cutoff is always the $W$ defined above; it is not S’s cutoff $\exp(\sqrt{\log x})$.
 
 ### Prime estimates and mean squares
 
@@ -86,13 +86,13 @@ We use the dilation-graph and ideal-kernel theorems of the companion *Weighted d
  =\frac{\mathop{\mathrm{Li}}(y)}{\varphi(r)}
      +O_{A,C}\!\left(\frac{y}{(\log y)^A}\right).$$ The constants need not be effective.*
 
-These classical estimates follow from the quantitative prime number theorem, Siegel–Walfisz, and Mertens’ theorems; see (Tao 2014b, Corollary 39 and Exercises 40, 64) and (Tao 2014a, Theorems 15, 26). The harmonic asymptotic also follows by partial summation of the prime number theorem. Thus, for every fixed $a>0$, $$\begin{equation}
+These classical estimates follow from the quantitative prime number theorem, Siegel–Walfisz, and Mertens’ theorems; see [27, Corollary 39 and Exercises 40, 64] and [26, Theorems 15, 26]. The harmonic asymptotic also follows by partial summation of the prime number theorem. Thus, for every fixed $a>0$, $$\begin{equation}
 \tag{2.1}
  \sum_{\exp(L^a)\le p\le\exp(2L^a)}\frac1p
        =\log 2+o(1).
 \end{equation}$$ We use prime asymptotics only on fixed positive-power ranges or on intervals for which taking differences of the stated estimates gives the required absolute error.
 
-For the classical, stronger coefficient-independent mean-value theorem, see (Montgomery and Vaughan 1974, Theorem 2 and Corollary 3). We prove the weaker bounds needed here directly.
+For the classical, stronger coefficient-independent mean-value theorem, see [20, Theorem 2 and Corollary 3]. We prove the weaker bounds needed here directly.
 
 **Lemma 2.2** (Divisor moments and Dirichlet mean squares). *For every fixed nonnegative integer $k$ there is $C_k$ such that $$\sum_{n\le Y}\tau(n)^k\ll_k Y(\log(2Y))^{C_k},\qquad
  \sum_{n\le Y}\frac{\tau(n)^k}{n}
@@ -168,7 +168,7 @@ For (2.9), first count a fixed unit residue class modulo $q$. Primes dividing $q
           |r(d)|\right).
 \end{equation}$$ Products and sums use only designated primes. Constants depend only on the density bounds and are uniform in $h$. For $h=2$, an upper bound holds with a fixed constant times the main term and the same remainder sum.*
 
-This is the block sieve of S (OpenAI 2026, Lemma 2.9). Its upper and lower polynomials have coefficients of absolute value at most one, supported on squarefree $d\le z^{4h+2}$; the upper polynomial is nonnegative. We will supply all needed remainder estimates for our particular weights. No assertion detecting primes from congruence information alone is included in this input.
+This is the block sieve of S [21, Lemma 2.9]. Its upper and lower polynomials have coefficients of absolute value at most one, supported on squarefree $d\le z^{4h+2}$; the upper polynomial is nonnegative. We will supply all needed remainder estimates for our particular weights. No assertion detecting primes from congruence information alone is included in this input.
 
 ## A determinant estimate with marks on one side
 
@@ -462,7 +462,7 @@ We retain the notation, physical state space, good-state tests, and operator $\m
       \ll_A XY L^{-A}.
 \end{equation}$$ The precision needed in the pairing estimate (3.20) for this consequence is independent of $K$.*
 
-The proof constructs operators which remember a prime between two of its uses. The construction has a resemblance to the lifespan expansion in (OpenAI 2026, sec. 3); the primewise identity and every operator estimate needed here are proved below for the determinant graph.
+The proof constructs operators which remember a prime between two of its uses. The construction has a resemblance to the lifespan expansion in [21, Section 3]; the primewise identity and every operator estimate needed here are proved below for the determinant graph.
 
 ### The exact primewise identity
 
@@ -1146,7 +1146,7 @@ The ideal Hilbert space is $$\mathcal H_{\rm id}
        \ll XL^{-E+2C_3}.
 \end{equation}$$ The lower bound on $J$ may also depend on $m_0,C_1$. The threshold for $x$ may depend on $J,C_2,\gamma$. No further restriction on $\zeta$ is imposed beyond the ideal norm hypothesis. Taking absolute values of the individual transition coefficients gives row and column sums at most $L^{C_{\rm abs}}$, where $C_{\rm abs}$ is independent of $J$.*
 
-This is the combination of the local transference theorem, endpoint pairing corollary, and physical Schur bound of S (OpenAI 2026, Theorem 3.5, Corollary 3.11, and Lemma 3.4). Its parameter $q$ is our $q_0$; its laws, physical state masses, two-sided symmetrization, and ban on free endpoint labels are exactly those defined above. In the absolute bound, if a target has $y\geq M$ divisors in a group, its unshared list sum is bounded by $$\sup_{z\geq0}V_g^{-t_g}(z+t_g)_{t_g}q_0^{z/2}=O_{m_0,\ell}(1).$$ The source damping is at most one. Products over $O(\log L)$ groups and the pattern mass give the asserted exponent independent of $J$; the symmetric joint normalization gives the column bound as well.
+This is the combination of the local transference theorem, endpoint pairing corollary, and physical Schur bound of S [21, Theorem 3.5, Corollary 3.11, and Lemma 3.4]. Its parameter $q$ is our $q_0$; its laws, physical state masses, two-sided symmetrization, and ban on free endpoint labels are exactly those defined above. In the absolute bound, if a target has $y\geq M$ divisors in a group, its unshared list sum is bounded by $$\sup_{z\geq0}V_g^{-t_g}(z+t_g)_{t_g}q_0^{z/2}=O_{m_0,\ell}(1).$$ The source damping is at most one. Products over $O(\log L)$ groups and the pattern mass give the asserted exponent independent of $J$; the symmetric joint normalization gives the column bound as well.
 
 **Proposition 6.3** (Residual ideal family input). *For every $E_{\rm id}>0$ and fixed $C_4\geq0$, there are fixed $m_0,J_0,C_1$ such that, for each fixed $J\geq J_0$, a family consisting of the raw pattern $C_g=\varnothing$, $K_0=1$, and signed comparison patterns satisfies $$\begin{equation}
 \tag{6.8}
@@ -1176,7 +1176,7 @@ This is the combination of the local transference theorem, endpoint pairing coro
  \tag{6.11}
 \end{align}$$ The four label tuples in this expectation are independent; the tests need not depend only on their products. Expanding the two kernels, including all patterns, has total coefficient mass and number of terms bounded by fixed powers of $L$.*
 
-This is S (OpenAI 2026, Theorem 4.1 and Lemma 4.3). The kernels in (6.10) are two global cell and character expansions; there is not a separate character expansion for every group. We use these two imported propositions with $\ell=k=1$ and the exponents in (6.1).
+This is S [21, Theorem 4.1 and Lemma 4.3]. The kernels in (6.10) are two global cell and character expansions; there is not a separate character expansion for every group. We use these two imported propositions with $\ell=k=1$ and the exponents in (6.1).
 
 ### Endpoint bounds and removal of shared labels
 
@@ -1370,7 +1370,7 @@ It remains to treat products of normalized polynomials at a common time, with $L
  R_0\asymp Y/(PN_l)\geq x^{\varepsilon-o(1)}.
 \end{equation}$$ In the constant part the remaining polynomial $N(t)$ has scale $R_0\asymp Y/P$.
 
-The threshold split and exceptional-frequency treatment follow the Matomäki–Radziwiłł strategy; see (Matomäki and Radziwiłł 2017, sec. 2.1 and Lemmas 8–9 of arXiv v4). The residual-scale sparse Gram estimate below is adapted here using Appendix A, while the factorial coefficient estimate retains the Soundararajan credit stated at its use.
+The threshold split and exceptional-frequency treatment follow the Matomäki–Radziwiłł strategy; see [19, §2.1 and Lemmas 8–9 of arXiv v4]. The residual-scale sparse Gram estimate below is adapted here using Appendix A, while the factorial coefficient estimate retains the Soundararajan credit stated at its use.
 
 On the set $|P_s(t)|\leq L^{-A_s}$, collapse all remaining factors. Their scale is $Y/P$, and $$\begin{equation}
 \tag{6.35}
@@ -1382,7 +1382,7 @@ Let $\mathcal J$ be the integer unit intervals meeting $\{|t|\leq2T_0:|P_s(t)|>L
  |\mathcal J|\leq
  \exp\bigl(O(L^{.36}+L^{.73}\log L)\bigr)
        \leq\exp(O(L^{.9})).
-\end{equation}$$ For this step we use the factorial prime-polynomial coefficient estimate, as in (Soundararajan 2009, Lemma 3 and its proof), together with a coefficient-independent mean square. Put $Z=8T_0+8$ and $j_0=\lfloor\log Z/\log(2P)\rfloor$. Unique factorization gives squared coefficient norm for $P_s^{j_0}$ at most $$j_0!\left(P^{-2}\sum_{p_s\asymp P}|b_s(p_s)|^2\right)^{j_0}
+\end{equation}$$ For this step we use the factorial prime-polynomial coefficient estimate, as in [24, Lemma 3 and its proof], together with a coefficient-independent mean square. Put $Z=8T_0+8$ and $j_0=\lfloor\log Z/\log(2P)\rfloor$. Unique factorization gives squared coefficient norm for $P_s^{j_0}$ at most $$j_0!\left(P^{-2}\sum_{p_s\asymp P}|b_s(p_s)|^2\right)^{j_0}
        \leq j_0!(L^{C_{13}}/P)^{j_0}.$$ Select a point exceeding the threshold from each occupied interval, and split their integer indices modulo three to get separated sets. The indices of this powered polynomial are at most $Z$. The separated-point mean-square bound of Lemma 2.2 therefore gives $$|\mathcal J|\ll ZL^{O(1)}j_0!
                        (L^{C_{13}+2A_s}/P)^{j_0}.$$ Since $ZP^{-j_0}\leq2P\,2^{j_0}$ and $j_0=O(L^{.73})$, taking logarithms proves (6.36).
 
@@ -1699,7 +1699,7 @@ In particular, the order of choices is: fix the interior data and $c_0$; fix $h$
 
 ## From interior statistics to the full law
 
-We now pass from Theorem 7.1 to ordinary prime averages of every finite collection of ranked factors. The argument also shows why no additional assertion about very small factors or the boundary of a simplex is needed. The probability argument uses the size-biased viewpoint of Donnelly and Grimmett (Donnelly and Grimmett 1993, sec. 2) and the factorial-measure characterization of Arratia, Kochman and Miller (Arratia et al. 2014, Lemma 2 and Section 3.3). We give the passage, including boundary control and sorting, in full.
+We now pass from Theorem 7.1 to ordinary prime averages of every finite collection of ranked factors. The argument also shows why no additional assertion about very small factors or the boundary of a simplex is needed. The probability argument uses the size-biased viewpoint of Donnelly and Grimmett [8, Section 2] and the factorial-measure characterization of Arratia, Kochman and Miller [2, Lemma 2 and Section 3.3]. We give the passage, including boundary control and sorting, in full.
 
 ### Factorial measures in the open simplex
 
@@ -1806,7 +1806,7 @@ Fix the target dimension $k$ and a bounded continuous function $F:[0,1]^k\to\mat
 
 ## Prime polynomials and logarithmic phases
 
-This appendix proves the two estimates used in Section 2: cancellation in prime polynomials up to height $x^2$, and cancellation of logarithmic phases in arithmetic progressions. We retain the quantitative dependence on the degree in the classical Vinogradov mean-value iteration; compare Stechkin (Stechkin 1975) and Ford (Ford 2002, discussion preceding Theorem 3). The logarithmic-phase method and its application to zero-free regions are classical; stronger estimates are available in (Ford 2002, Theorem 2 and Corollary 2A) and (Khale 2024, Theorem 1.1). The weaker forms below suffice and will be proved in full. Throughout this appendix, $L=\log x$ and $T=\log L$.
+This appendix proves the two estimates used in Section 2: cancellation in prime polynomials up to height $x^2$, and cancellation of logarithmic phases in arithmetic progressions. We retain the quantitative dependence on the degree in the classical Vinogradov mean-value iteration; compare Stechkin [25] and Ford [11, discussion preceding Theorem 3]. The logarithmic-phase method and its application to zero-free regions are classical; stronger estimates are available in [11, Theorem 2 and Corollary 2A] and [17, Theorem 1.1]. The weaker forms below suffice and will be proved in full. Throughout this appendix, $L=\log x$ and $T=\log L$.
 
 **Lemma A.1** (Long prime polynomial). *Fix $0<\tau<\eta<1$, $C>0$, and $A>0$. There is a constant $B_0=B_0(\tau,\eta,C,A)$ such that, uniformly for $$\frac{x^\tau}{2}\le N\le x^\eta,\qquad
  q\le L^C,\qquad L^{B_0}\le |t|\le x^2,$$ every Dirichlet character $\chi$ modulo $q$ and every interval $I\subset[N,2N]$ satisfy $$\begin{equation}
@@ -1834,7 +1834,7 @@ We first establish a power-sum estimate with sufficient uniformity in its degree
  \quad(1\le j\le k),\qquad 1\le u_i,v_i\le M.$$ Writing $K=k(k+1)/2$ and $$f(\boldsymbol\alpha)=\sum_{n=1}^M
        \mathrm{e}\!\left(\sum_{j=1}^k\alpha_j n^j\right),$$ orthogonality gives $J_{s,k}(M)=\int_{[0,1]^k}|f(\boldsymbol\alpha)|^{2s} \,d\boldsymbol\alpha$.
 
-The argument uses the classical Vinogradov mean-value method in Linnik’s $p$-adic form; see Wooley (Wooley 2012, sec. 2, pp. 1583–1585) for an exposition. We derive the required degree-uniform quantitative estimate below, without invoking the modern efficient-congruencing theorem of that paper.
+The argument uses the classical Vinogradov mean-value method in Linnik’s $p$-adic form; see Wooley [28, Section 2, pp. 1583–1585] for an exposition. We derive the required degree-uniform quantitative estimate below, without invoking the modern efficient-congruencing theorem of that paper.
 
 **Lemma A.4** (A quantitative power-sum bound). *There are absolute constants $C_1,C_2>0$ such that, for every integer $k\ge2$, some integer $s$ with $k\le s\le C_1k^4$ satisfies $$\begin{equation}
 \tag{A.2}
@@ -2038,58 +2038,58 @@ Prime powers of exponent at least two contribute in absolute value at most $O(N^
 
 ## References
 
-Alford, W. R., Andrew Granville, and Carl Pomerance. 1994. “There Are Infinitely Many Carmichael Numbers.” *Annals of Mathematics*, 2nd series, vol. 139 (3): 703–22. <https://doi.org/10.2307/2118576>.
+**[1]** W. R. Alford, Andrew Granville, and Carl Pomerance. There are infinitely many Carmichael numbers. *Annals of Mathematics*, 139(3):703–722, 1994.
 
-Arratia, Richard, Fred Kochman, and Victor S. Miller. 2014. *Extensions of Billingsley’s Theorem via Multi-Intensities*. [Https://arxiv.org/abs/1401.1555v1](https://arxiv.org/abs/1401.1555v1).
+**[2]** Richard Arratia, Fred Kochman, and Victor S. Miller. Extensions of Billingsley’s theorem via multi-intensities. <https://arxiv.org/abs/1401.1555v1>, 2014. Version 1, January 8, 2014.
 
-Baker, R. C., and Glyn Harman. 1998. “Shifted Primes Without Large Prime Factors.” *Acta Arithmetica* 83 (4): 331–61. <https://doi.org/10.4064/aa-83-4-331-361>.
+**[3]** R. C. Baker and Glyn Harman. Shifted primes without large prime factors. *Acta Arithmetica*, 83(4):331–361, 1998.
 
-Bharadwaj, Abhishek, and Brad Rodgers. 2026. “Large Prime Factors of Well-Distributed Sequences.” *Canadian Mathematical Bulletin*, 1–17. <https://doi.org/10.4153/S0008439526101982>.
+**[4]** Abhishek Bharadwaj and Brad Rodgers. Large prime factors of well-distributed sequences. *Canadian Mathematical Bulletin*, pages 1–17, 2026. First View, published online April 17, 2026; arXiv:2402.11884v4, April 9, 2026.
 
-Billingsley, Patrick. 1972. “On the Distribution of Large Prime Divisors.” *Periodica Mathematica Hungarica* 2: 283–89. <https://doi.org/10.1007/BF02018667>.
+**[5]** Patrick Billingsley. On the distribution of large prime divisors. *Periodica Mathematica Hungarica*, 2:283–289, 1972.
 
-Bruijn, N. G. de. 1951. “On the Number of Positive Integers $\le x$ and Free of Prime Factors $>y$.” *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A* 54 (1): 50–60.
+**[6]** N. G. de Bruijn. On the number of positive integers $\le x$ and free of prime factors $>y$. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A*, 54(1):50–60, 1951.
 
-Dickman, K. 1930. “On the Frequency of Numbers Containing Prime Factors of a Certain Relative Magnitude.” *Arkiv för Matematik, Astronomi Och Fysik* 22A (10): 1–14.
+**[7]** K. Dickman. On the frequency of numbers containing prime factors of a certain relative magnitude. *Arkiv för Matematik, Astronomi och Fysik*, 22A(10):1–14, 1930.
 
-Donnelly, Peter, and Geoffrey Grimmett. 1993. “On the Asymptotic Distribution of Large Prime Factors.” *Journal of the London Mathematical Society*, 2nd series, vol. 47 (3): 395–404. <https://doi.org/10.1112/jlms/s2-47.3.395>.
+**[8]** Peter Donnelly and Geoffrey Grimmett. On the asymptotic distribution of large prime factors. *Journal of the London Mathematical Society*, 47(3):395–404, 1993.
 
-Erdős, Paul. 1935. “On the Normal Number of Prime Factors of $p-1$ and Some Related Problems Concerning Euler’s $\varphi$-Function.” *The Quarterly Journal of Mathematics* os-6 (1): 205–13. <https://doi.org/10.1093/qmath/os-6.1.205>.
+**[9]** Paul Erdős. On the normal number of prime factors of $p-1$ and some related problems concerning Euler’s $\varphi$-function. *The Quarterly Journal of Mathematics*, os-6(1):205–213, 1935.
 
-Erdős, Paul. 1956. “On Pseudoprimes and Carmichael Numbers.” *Publicationes Mathematicae Debrecen* 4: 201–6. <https://doi.org/10.5486/PMD.1956.4.3-4.16>.
+**[10]** Paul Erdős. On pseudoprimes and Carmichael numbers. *Publicationes Mathematicae Debrecen*, 4:201–206, 1956.
 
-Ford, Kevin. 2002. “Vinogradov’s Integral and Bounds for the Riemann Zeta Function.” *Proceedings of the London Mathematical Society*, 3rd series, vol. 85 (3): 565–633. <https://doi.org/10.1112/S0024611502013655>.
+**[11]** Kevin Ford. Vinogradov’s integral and bounds for the Riemann zeta function. *Proceedings of the London Mathematical Society*, 85(3):565–633, 2002. Author version: arXiv:1910.08209v1.
 
-Ford, Kevin. 2025. “Poisson Approximation of Prime Divisors of Shifted Primes.” *International Mathematics Research Notices* 2025 (7): rnaf079. <https://doi.org/10.1093/imrn/rnaf079>.
+**[12]** Kevin Ford. Poisson approximation of prime divisors of shifted primes. *International Mathematics Research Notices*, 2025(7):rnaf079, 2025. 16 pages.
 
-Ford, Kevin, Sergei V. Konyagin, and Florian Luca. 2010. “Prime Chains and Pratt Trees.” *Geometric and Functional Analysis* 20 (5): 1231–58. <https://doi.org/10.1007/s00039-010-0089-0>.
+**[13]** Kevin Ford, Sergei V. Konyagin, and Florian Luca. Prime chains and Pratt trees. *Geometric and Functional Analysis*, 20(5):1231–1258, 2010. Author version: arXiv:0904.0473v4, September 15, 2010.
 
-Gorodetsky, Ofir. 2026. “A Kubilius Model for Sieve-Theoretic Sequences.” *Analysis Mathematica*, ahead of print. <https://doi.org/10.1007/s10476-026-00178-w>.
+**[14]** Ofir Gorodetsky. A Kubilius model for sieve-theoretic sequences. *Analysis Mathematica*, 2026. Published online August 14, 2026; arXiv:2608.14190v1.
 
-Granville, Andrew. 2008. “Smooth Numbers: Computational Number Theory and Beyond.” In *Algorithmic Number Theory: Lattices, Number Fields, Curves and Cryptography*, edited by J. P. Buhler and P. Stevenhagen, vol. 44. Mathematical Sciences Research Institute Publications. Cambridge University Press. <https://doi.org/10.1017/9781139049801.010>.
+**[15]** Andrew Granville. Smooth numbers: computational number theory and beyond. In J. P. Buhler and P. Stevenhagen, editors, *Algorithmic Number Theory: Lattices, Number Fields, Curves and Cryptography*, volume 44 of *Mathematical Sciences Research Institute Publications*, pages 267–323. Cambridge University Press, Cambridge, 2008.
 
-Helfgott, Harald Andrés, and Maksym Radziwiłł. 2021. *Expansion, Divisibility and Parity*. [Https://arxiv.org/abs/2103.06853v2](https://arxiv.org/abs/2103.06853v2).
+**[16]** Harald Andrés Helfgott and Maksym Radziwiłł. Expansion, divisibility and parity. <https://arxiv.org/abs/2103.06853v2>, 2021. Version 2, April 13, 2021.
 
-Khale, Tanmay. 2024. “An Explicit Vinogradov–Korobov Zero-Free Region for Dirichlet $L$-Functions.” *The Quarterly Journal of Mathematics* 75 (1): 299–332. <https://doi.org/10.1093/qmath/haae010>.
+**[17]** Tanmay Khale. An explicit Vinogradov–Korobov zero-free region for Dirichlet $L$-functions. *The Quarterly Journal of Mathematics*, 75(1):299–332, 2024.
 
-Lichtman, Jared Duker. 2022. *Primes in Arithmetic Progressions to Large Moduli, and Shifted Primes Without Large Prime Factors*. [Https://arxiv.org/abs/2211.09641v1](https://arxiv.org/abs/2211.09641v1).
+**[18]** Jared Duker Lichtman. Primes in arithmetic progressions to large moduli, and shifted primes without large prime factors. <https://arxiv.org/abs/2211.09641v1>, 2022. Version 1, November 14, 2022.
 
-Matomäki, Kaisa, and Maksym Radziwiłł. 2017. *Multiplicative Functions in Short Intervals*. [Https://arxiv.org/abs/1501.04585v4](https://arxiv.org/abs/1501.04585v4).
+**[19]** Kaisa Matomäki and Maksym Radziwiłł. Multiplicative functions in short intervals. <https://arxiv.org/abs/1501.04585v4>, 2017. Version 4, October 15, 2017.
 
-Montgomery, Hugh L., and Robert C. Vaughan. 1974. “Hilbert’s Inequality.” *Journal of the London Mathematical Society*, 2nd series, vol. 8: 73–82. <https://doi.org/10.1112/jlms/s2-8.1.73>.
+**[20]** Hugh L. Montgomery and Robert C. Vaughan. Hilbert’s inequality. *Journal of the London Mathematical Society*, 8:73–82, 1974.
 
-OpenAI. 2026. *Weighted dilation graphs, smooth shifted primes and totient fibers*. OpenAI Math Release preprint [OAI:Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf).
+**[21]** OpenAI. Weighted dilation graphs, smooth shifted primes and totient fibers. OpenAI Math Release preprint [OAI:Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf), 2026.
 
-Pilatte, Cédric. 2026. *Improved Bounds for the Two-Point Logarithmic Chowla Conjecture*. [Https://arxiv.org/abs/2310.19357v3](https://arxiv.org/abs/2310.19357v3).
+**[22]** Cédric Pilatte. Improved bounds for the two-point logarithmic Chowla conjecture. <https://arxiv.org/abs/2310.19357v3>, 2026. Version 3, August 25, 2026; first submitted in 2023.
 
-Pomerance, Carl. 1980. “Popular Values of Euler’s Function.” *Mathematika* 27 (1): 84–89. <https://doi.org/10.1112/S0025579300009967>.
+**[23]** Carl Pomerance. Popular values of Euler’s function. *Mathematika*, 27(1):84–89, 1980.
 
-Soundararajan, Kannan. 2009. “Moments of the Riemann Zeta Function.” *Annals of Mathematics*, 2nd series, vol. 170 (2): 981–93. <https://doi.org/10.4007/annals.2009.170.981>.
+**[24]** Kannan Soundararajan. Moments of the Riemann zeta function. *Annals of Mathematics*, 170(2):981–993, 2009.
 
-Stechkin, S. B. 1975. “Mean Values of the Modulus of a Trigonometric Sum.” *Trudy Matematicheskogo Instituta Imeni V. A. Steklova* 134: 283–309.
+**[25]** S. B. Stechkin. Mean values of the modulus of a trigonometric sum. *Trudy Matematicheskogo Instituta imeni V. A. Steklova*, 134:283–309, 1975. English translation: Proceedings of the Steklov Institute of Mathematics 134 (1977), 321–350.
 
-Tao, Terence. 2014a. *254A, Notes 1: Elementary Multiplicative Number Theory*. [Https://terrytao.wordpress.com/2014/11/23/254a-notes-1-elementary-multiplicative-number-theory/](https://terrytao.wordpress.com/2014/11/23/254a-notes-1-elementary-multiplicative-number-theory/).
+**[26]** Terence Tao. 254A, notes 1: Elementary multiplicative number theory. <https://terrytao.wordpress.com/2014/11/23/254a-notes-1-elementary-multiplicative-number-theory/>, 2014. November 23, 2014. Theorems 15 and 26.
 
-Tao, Terence. 2014b. *254A, Notes 2: Complex-Analytic Multiplicative Number Theory*. [Https://terrytao.wordpress.com/2014/12/09/254a-notes-2-complex-analytic-multiplicative-number-theory/](https://terrytao.wordpress.com/2014/12/09/254a-notes-2-complex-analytic-multiplicative-number-theory/).
+**[27]** Terence Tao. 254A, notes 2: Complex-analytic multiplicative number theory. <https://terrytao.wordpress.com/2014/12/09/254a-notes-2-complex-analytic-multiplicative-number-theory/>, 2014. December 9, 2014. Corollary 39, Exercise 40, and Exercise 64.
 
-Wooley, Trevor D. 2012. “Vinogradov’s Mean Value Theorem via Efficient Congruencing.” *Annals of Mathematics* 175 (3): 1575–627. <https://doi.org/10.4007/annals.2012.175.3.12>.
+**[28]** Trevor D. Wooley. Vinogradov’s mean value theorem via efficient congruencing. *Annals of Mathematics*, 175(3):1575–1627, 2012. [doi:10.4007/annals.2012.175.3.12](https://doi.org/10.4007/annals.2012.175.3.12).

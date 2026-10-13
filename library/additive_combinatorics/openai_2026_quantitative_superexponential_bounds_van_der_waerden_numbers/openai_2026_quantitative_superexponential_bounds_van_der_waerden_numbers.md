@@ -8,24 +8,24 @@ We prove that there are absolute constants $c>0$ and $K_0$ such that $W_r(k)>k^{
 
 ## Introduction
 
-For positive integers $r$ and $k$, let $W_r(k)$ be the least positive integer $N$ such that every map $[N]\to[r]$ is constant on some arithmetic progression $$a,a+d,\ldots,a+(k-1)d,\qquad a,d\ge1,\quad a+(k-1)d\le N.$$ Here $[N]=\{1,\ldots,N\}$, and using fewer than $r$ colors is allowed. The finiteness of these numbers is van der Waerden’s theorem (Waerden 1927). The lower-bound problem asks how long an interval can be colored while avoiding a monochromatic progression of a prescribed length. We prove a bound with one threshold on the length, valid for every number of colors.
+For positive integers $r$ and $k$, let $W_r(k)$ be the least positive integer $N$ such that every map $[N]\to[r]$ is constant on some arithmetic progression $$a,a+d,\ldots,a+(k-1)d,\qquad a,d\ge1,\quad a+(k-1)d\le N.$$ Here $[N]=\{1,\ldots,N\}$, and using fewer than $r$ colors is allowed. The finiteness of these numbers is van der Waerden’s theorem [24]. The lower-bound problem asks how long an interval can be colored while avoiding a monochromatic progression of a prescribed length. We prove a bound with one threshold on the length, valid for every number of colors.
 
 **Theorem 1.1**. *There is an absolute integer $K_0$ such that, for every integer $k\ge K_0$ and every integer $r\ge2$, $$W_r(k)>k^{c k\lfloor\log_2r\rfloor},
  \qquad c=10^{-5}.$$*
 
-In particular, for each fixed $r\ge2$, $$\lim_{k\to\infty}W_r(k)^{1/k}=\infty.$$ Erdős explicitly asked for this full limit in the two-color case (Erdős 1980, 90, (2)). Thus Theorem 1.1 gives a quantitative positive resolution of his superexponential-growth question. It is stronger than the assertion that $W_2(k)/2^k$ tends to infinity.
+In particular, for each fixed $r\ge2$, $$\lim_{k\to\infty}W_r(k)^{1/k}=\infty.$$ Erdős explicitly asked for this full limit in the two-color case [4, p. 90, (2)]. Thus Theorem 1.1 gives a quantitative positive resolution of his superexponential-growth question. It is stronger than the assertion that $W_2(k)/2^k$ tends to infinity.
 
 ##### Earlier bounds.
 
-Early lower bounds were obtained by Erdős and Rado (Erdős and Rado 1952) and by Schmidt (Schmidt 1962). Berlekamp’s algebraic construction gives $W_2(p+1)>p2^p$ for every prime $p$ (Berlekamp 1968, Theorem 2). The local lemma of Erdős and Lovász (Erdős and Lovász 1975) provided another route to strong coloring bounds. Szabó (Szabó 1990, Theorem 2) proved $W_2(k)\ge 2^k/k^\varepsilon$ for every fixed $\varepsilon>0$ and all sufficiently large $k$. Kozik and Shabanov (Kozik and Shabanov 2016, Theorem 2) subsequently obtained an absolute $\beta>0$ such that $W_r(k)\ge\beta r^{k-1}$ for all $r\ge2$ and $k\ge3$. Hunter (Hunter 2025, Theorem 1) improved the exponential base for each fixed $r\ge5$, with a threshold allowed to depend on $r$.
+Early lower bounds were obtained by Erdős and Rado [6] and by Schmidt [19]. Berlekamp’s algebraic construction gives $W_2(p+1)>p2^p$ for every prime $p$ [2, Theorem 2]. The local lemma of Erdős and Lovász [5] provided another route to strong coloring bounds. Szabó [23, Theorem 2] proved $W_2(k)\ge 2^k/k^\varepsilon$ for every fixed $\varepsilon>0$ and all sufficiently large $k$. Kozik and Shabanov [15, Theorem 2] subsequently obtained an absolute $\beta>0$ such that $W_r(k)\ge\beta r^{k-1}$ for all $r\ge2$ and $k\ge3$. Hunter [13, Theorem 1] improved the exponential base for each fixed $r\ge5$, with a threshold allowed to depend on $r$.
 
-Recent results distinguish the two questions posed by Erdős. Fox and Hunter (Fox and Hunter 2026, Theorem 1) proved $W_3(k)>2^{k\log^*k/4}$ for all sufficiently large $k$, where $\log^*k$ counts the iterations of the natural logarithm needed to reach a value at most one. Campos, Fox, and Schildkraut (Campos et al. 2026, Theorem 1) proved $$W_2(k)\ge(1-o(1))k2^{k-1}.$$ They credit ChatGPT 5.6 Sol Pro with the coloring and an initial proof. Their result settles the question about $W_2(k)/2^k$, whereas Theorem 1.1 gives the full superexponential limit. For every fixed $\varepsilon\in(0,1)$, Fox and Hunter also prove $W_r(k)\ge r^{(1-\varepsilon)k\log k}$ when $k$ is sufficiently large in terms of $\varepsilon$ and $r\ge(\log k)^{3/\varepsilon}$ (Fox and Hunter 2026, Theorem 2). For example, taking $\varepsilon=1/2$ gives a stronger lower bound when $r\ge(\log k)^6$ and $k$ is sufficiently large. The bound here holds uniformly down to two colors.
+Recent results distinguish the two questions posed by Erdős. Fox and Hunter [8, Theorem 1] proved $W_3(k)>2^{k\log^*k/4}$ for all sufficiently large $k$, where $\log^*k$ counts the iterations of the natural logarithm needed to reach a value at most one. Campos, Fox, and Schildkraut [3, Theorem 1] proved $$W_2(k)\ge(1-o(1))k2^{k-1}.$$ They credit ChatGPT 5.6 Sol Pro with the coloring and an initial proof. Their result settles the question about $W_2(k)/2^k$, whereas Theorem 1.1 gives the full superexponential limit. For every fixed $\varepsilon\in(0,1)$, Fox and Hunter also prove $W_r(k)\ge r^{(1-\varepsilon)k\log k}$ when $k$ is sufficiently large in terms of $\varepsilon$ and $r\ge(\log k)^{3/\varepsilon}$ [8, Theorem 2]. For example, taking $\varepsilon=1/2$ gives a stronger lower bound when $r\ge(\log k)^6$ and $k$ is sufficiently large. The bound here holds uniformly down to two colors.
 
-Growth in the number of colors, with the progression length fixed, has a different history. Behrend’s construction and Rankin’s extension to longer progressions supply dense progression-free sets (Behrend 1946; Rankin 1961); covering an interval by translates of such sets already gives superpolynomial growth in the number of colors (Fox and Hunter 2026, 2–3). For three-term progressions, the density bound of Kelley and Meka gives a quasipolynomial coloring upper bound (Kelley and Meka 2023, Theorems 1.1–1.2). For each fixed length at least five, Leng, Sah, and Sawhney obtained further density bounds, improving the earlier general coloring upper bounds (Leng et al. 2024, Theorem 1.1).
+Growth in the number of colors, with the progression length fixed, has a different history. Behrend’s construction and Rankin’s extension to longer progressions supply dense progression-free sets [1, 18]; covering an interval by translates of such sets already gives superpolynomial growth in the number of colors [8, pp. 2–3]. For three-term progressions, the density bound of Kelley and Meka gives a quasipolynomial coloring upper bound [14, Theorems 1.1–1.2]. For each fixed length at least five, Leng, Sah, and Sawhney obtained further density bounds, improving the earlier general coloring upper bounds [16, Theorem 1.1].
 
-For completeness, Theorem 7.2 gives a direct elementary lower bound with an explicit constant uniform over all lengths $k\ge3$. Combining it with the coloring upper bound in the companion paper (OpenAI 2026, Equation (1.3)) gives, for each integer $k\ge3$, a constant $A_k\ge1$ such that for every integer $r\ge256$, $$\exp\!\left(\frac{(\log r)^2}{64\log2}\right)
+For completeness, Theorem 7.2 gives a direct elementary lower bound with an explicit constant uniform over all lengths $k\ge3$. Combining it with the coloring upper bound in the companion paper [17, Equation (1.3)] gives, for each integer $k\ge3$, a constant $A_k\ge1$ such that for every integer $r\ge256$, $$\exp\!\left(\frac{(\log r)^2}{64\log2}\right)
  <W_r(k)\le
- \left\lceil\exp\bigl(A_k(2+\log r)^{A_k}\bigr)\right\rceil.$$ Thus, for every fixed progression length $k\ge3$, as integer $r$ tends to infinity, growth in the number of colors is superpolynomial but at most quasipolynomial: the lower bound gives $W_r(k)/r^D\to\infty$ for every fixed real $D>0$, while the upper bound has logarithm at most a fixed power of $\log r$. The upper constant and exponent may depend on $k$; no uniform bound on that dependence or matching logarithmic exponent is asserted. Appendix A gives an elementary recursive upper bound, including a proof of finiteness. This is a coarse version of the classical argument; quantitative upper bounds include Shelah’s primitive-recursive bound (Shelah 1988) and the bounds following from Gowers’s proof of Szemerédi’s theorem (Gowers 2001). The boundary cases are $W_1(k)=k$, $W_r(1)=1$, and $W_r(2)=r+1$.
+ \left\lceil\exp\bigl(A_k(2+\log r)^{A_k}\bigr)\right\rceil.$$ Thus, for every fixed progression length $k\ge3$, as integer $r$ tends to infinity, growth in the number of colors is superpolynomial but at most quasipolynomial: the lower bound gives $W_r(k)/r^D\to\infty$ for every fixed real $D>0$, while the upper bound has logarithm at most a fixed power of $\log r$. The upper constant and exponent may depend on $k$; no uniform bound on that dependence or matching logarithmic exponent is asserted. Appendix A gives an elementary recursive upper bound, including a proof of finiteness. This is a coarse version of the classical argument; quantitative upper bounds include Shelah’s primitive-recursive bound [20] and the bounds following from Gowers’s proof of Szemerédi’s theorem [9]. The boundary cases are $W_1(k)=k$, $W_r(1)=1$, and $W_r(2)=r+1$.
 
 ##### The construction and its quantitative ingredient.
 
@@ -36,7 +36,7 @@ A heavily repeated label determines a short rational period $h$. The quantitativ
 
 We attach an independent Bernoulli$(p)$ flip to each key consisting of a $y$-box and $\lfloor\|q\widetilde y\|_2^2\rfloor$, where $p=k^{-1/20}$ and $\widetilde y\in[-1/2,1/2)^D$ is the centered representative. Here $\|\cdot\|_2$ is the Euclidean norm. Every occurrence of a key uses the same flip, and each key occurs at most four times along a progression. Making a progression rich in both outer colors monochromatic therefore requires many rare flips. In the possibly overlapping affine case, monochromaticity prescribes values for many distinct flip variables. The global label-word count, together with the three coefficients of the quadratic squared norm, gives only a small family of words of outer colors and actual keys; identical words prescribe the same event. With $D=\lceil k^{1/10}\rceil$, their logarithmic count is $O(k^{9/10}\log k)=o(pk)$. The two resulting probability estimates eliminate every progression. A deterministic digit product then gives all $r\ge2$.
 
-The squared-norm geometry continues the tradition of Behrend’s construction (Behrend 1946); Green and Wolf (Green and Wolf 2010) give a torus-annulus proof of Elkin’s refinement. For the asymmetric problem of excluding a red three-term progression and a blue long progression, Green (Green 2022) uses translates of a randomly perturbed ellipsoidal annulus, while Hunter (Hunter 2022) chooses annulus radii independently at many centers. Here the randomness is attached to coordinate boxes and integer squared-norm bands. Least-common-multiple dilations in cyclic groups appear in Fox and Hunter (Fox and Hunter 2026); digit carry control and finite-field norm colorings for a related symmetric-progression problem appear in Shi and Dong (Shi and Dong 2026). We prove all geometric, counting, and probabilistic ingredients needed here, including the finite local lemma.
+The squared-norm geometry continues the tradition of Behrend’s construction [1]; Green and Wolf [11] give a torus-annulus proof of Elkin’s refinement. For the asymmetric problem of excluding a red three-term progression and a blue long progression, Green [10] uses translates of a randomly perturbed ellipsoidal annulus, while Hunter [12] chooses annulus radii independently at many centers. Here the randomness is attached to coordinate boxes and integer squared-norm bands. Least-common-multiple dilations in cyclic groups appear in Fox and Hunter [8]; digit carry control and finite-field norm colorings for a related symmetric-progression problem appear in Shi and Dong [21]. We prove all geometric, counting, and probabilistic ingredients needed here, including the finite local lemma.
 
 ##### Organization.
 
@@ -58,7 +58,7 @@ Set $$\begin{equation}
 \tag{2.2}
  \lambda=\prod_{\substack{\ell\le h_0\\ \ell\text{ prime}}}
  \ell^{\left\lfloor\log(2M)/\log\ell\right\rfloor}
-\end{equation}$$ removes the small prime factors of all periods at most $2M$. Least-common-multiple dilations also occur in the cyclic constructions of Fox and Hunter (Fox and Hunter 2026). The primary-factor choice here is tailored to the growing dimension, as the next lemma records.
+\end{equation}$$ removes the small prime factors of all periods at most $2M$. Least-common-multiple dilations also occur in the cyclic constructions of Fox and Hunter [8]. The primary-factor choice here is tailored to the growing dimension, as the next lemma records.
 
 **Lemma 2.1** (Dilation of short periods). *We have $\log\lambda\le h_0\log(2M)$. If $1\le h\le2M$, then every prime-power divisor of $h$ with prime at most $h_0$ divides $\lambda$. Consequently, $h\mid\lambda$ whenever $h\le h_0$, and, for every integer $t$, the denominator $$\begin{equation}
 \tag{2.3}
@@ -148,7 +148,7 @@ For local counting in rotating coordinates, we ignore the fine mesh within dista
 
 ## Counting global words and anchored local patterns
 
-All counts in this section are counts of literal interval labels. The central observation is that each scalar coordinate can be counted using an arrangement in two real parameters, even though the number $D$ of coordinates grows with $k$. We use the standard hyperplane-arrangement region count; see Stanley (Stanley 2007, Lemma 2.1 and Proposition 2.4). The elementary proof below also counts equality signs, which are needed for the half-open mesh intervals.
+All counts in this section are counts of literal interval labels. The central observation is that each scalar coordinate can be counted using an arrangement in two real parameters, even though the number $D$ of coordinates grows with $k$. We use the standard hyperplane-arrangement region count; see Stanley [22, Lemma 2.1 and Proposition 2.4]. The elementary proof below also counts equality signs, which are needed for the half-open mesh intervals.
 
 **Lemma 3.1** (Affine comparisons, including equality). *Let $s$ affine hyperplanes be given in $\mathbb R^e$, and record, for each hyperplane, the sign in $\{-,0,+\}$ of a defining affine function. The number of realized joint sign vectors is at most $$\begin{equation}
 \tag{3.1}
@@ -227,7 +227,7 @@ There are $h^D$ choices of $t$ and at most $h$ choices of the anchor $z_0$. Ther
 
 The pattern counts allow one coloring of $\mathcal L$ to balance all the tests needed below. For a fixed cyclic progression as in Equation (2.7), call a full label *light* if its multiplicity in the progression is at most $k/M$, and *heavy* otherwise. A position has the same designation as its label. These designations always refer to the whole progression, even when we later examine a short block of its positions.
 
-We first give the probabilistic tool, in its finite asymmetric form. For the origins of the local lemma, see Erdős and Lovász (Erdős and Lovász 1975); the proof of the form used here is included.
+We first give the probabilistic tool, in its finite asymmetric form. For the origins of the local lemma, see Erdős and Lovász [5]; the proof of the form used here is included.
 
 **Lemma 4.1** (Finite asymmetric local lemma). *Let $\mathcal E$ be a finite family of events. Suppose a graph on $\mathcal E$, with neighbor sets $\Gamma(E)$, has the property that each $E$ is independent of the sigma-algebra generated by the events outside $\{E\}\cup\Gamma(E)$. If numbers $z_E\in(0,1)$ satisfy $$\begin{equation}
 \tag{4.1}
@@ -401,7 +401,7 @@ Retain the parameters and cyclic progressions from Equations (2.1) and (2.7). 
  \kappa(n)=\left((V(y_i(n)))_{i=1}^D,\,\left\lfloor f(n)\right\rfloor\right),
  \qquad
  \mathcal K=\{\kappa(n):n\in G\}.
-\end{equation}$$ Thus a key records a specific second-system box and a specific integer squared-norm band. Since $G$ is finite, so is $\mathcal K$. The next lemma uses a bounded-width version of the equal-norm geometry in Behrend’s construction (Behrend 1946): a thin norm band has short intersections with a line on either side of its nearest point to the origin.
+\end{equation}$$ Thus a key records a specific second-system box and a specific integer squared-norm band. Since $G$ is finite, so is $\mathcal K$. The next lemma uses a bounded-width version of the equal-norm geometry in Behrend’s construction [1]: a thin norm band has short intersections with a line on either side of its nearest point to the origin.
 
 **Lemma 6.1** (Bounded multiplicity of a key). *For every progression $n_j=n_0+jd$ in $G$ with $d\ne0$ and $0\le j<k$, every key occurs at most four times among the $\kappa(n_j)$.*
 
@@ -480,7 +480,7 @@ By Theorem 5.5, every nonzero-step cyclic progression is covered by the first c
 
 ## Integer intervals and the two growth regimes
 
-The cyclic coloring has a deterministic product extension. The relevant digit is the first place at which the common difference is nonzero; division by the corresponding power of the base then introduces no carry. The related digit construction of Erdős and Turán (Erdős and Turán 1936, 263) is recalled, with the least-nonzero-digit argument, by Fox and Hunter (Fox and Hunter 2026, sec. 2). We prove the arbitrary-base product needed here directly.
+The cyclic coloring has a deterministic product extension. The relevant digit is the first place at which the common difference is nonzero; division by the corresponding power of the base then introduces no carry. The related digit construction of Erdős and Turán [7, p. 263] is recalled, with the least-nonzero-digit argument, by Fox and Hunter [8, Section 2]. We prove the arbitrary-base product needed here directly.
 
 **Proposition 7.1** (Digit product). *Let $N,k\ge2$ be integers. Suppose that a coloring $C:\mathbb Z/N\mathbb Z\to\{0,1\}$ has no monochromatic progression $a,a+d,\ldots,a+(k-1)d$ with $d\ne0$ in $\mathbb Z/N\mathbb Z$. Then, for every positive integer $m$, $$W_{2^m}(k)>N^m.$$ Consequently $W_r(k)>N^{\lfloor\log_2r\rfloor}$ for every integer $r\ge2$.*
 
@@ -499,7 +499,7 @@ In particular, $m=1$ restricts the cyclic coloring to an ordinary interval of le
 
 ### Growth in the number of colors
 
-For fixed progression length, a separate construction gives a useful bound with a threshold independent of the length. The construction records a coarse interval for each digit, to force midpoint relations to hold coordinate by coordinate, and a squared norm, to exclude nonconstant midpoints. This is the digit-and-sphere geometry of Behrend (Behrend 1946), used here to partition the entire interval into progression-free color classes.
+For fixed progression length, a separate construction gives a useful bound with a threshold independent of the length. The construction records a coarse interval for each digit, to force midpoint relations to hold coordinate by coordinate, and a squared norm, to exclude nonconstant midpoints. This is the digit-and-sphere geometry of Behrend [1], used here to partition the entire interval into progression-free color classes.
 
 **Theorem 7.2**. *For every pair of integers $r\ge256$ and $k\ge3$, $$W_r(k)>\exp\!\left(\frac{(\log r)^2}{64\log2}\right).$$*
 
@@ -550,7 +550,7 @@ The restrictions on the parameters are necessary: the exact values $W_1(k)=k$, $
 
 ## An elementary finite upper bound
 
-We record a coarse quantitative form of the classical block-and-focus induction; see van der Waerden (Waerden 1998, 142–45). The recursion below proves finiteness directly, involves only previously defined integers, and applies to every positive number of colors.
+We record a coarse quantitative form of the classical block-and-focus induction; see van der Waerden [25, pp. 142–145]. The recursion below proves finiteness directly, involves only previously defined integers, and applies to every positive number of colors.
 
 **Theorem A.1**. *Define $F(r,1)=1$ and $F(r,2)=r+1$ for every integer $r\ge1$. For $k\ge3$, with $r$ and $k$ fixed, define $$\begin{equation}
  m_0=1,\qquad
@@ -592,52 +592,52 @@ At $t=r$, an avoiding coloring of $[m_r]$ would have a focus whose arms use $r$ 
 
 ## References
 
-Behrend, F. A. 1946. “On Sets of Integers Which Contain No Three Terms in Arithmetical Progression.” *Proceedings of the National Academy of Sciences of the United States of America* 32 (12): 331–32. <https://doi.org/10.1073/pnas.32.12.331>.
+**[1]** F. A. Behrend. On sets of integers which contain no three terms in arithmetical progression. *Proceedings of the National Academy of Sciences of the United States of America*, 32(12):331–332, 1946.
 
-Berlekamp, Elwyn R. 1968. “A Construction for Partitions Which Avoid Long Arithmetic Progressions.” *Canadian Mathematical Bulletin* 11 (3): 409–14. <https://doi.org/10.4153/CMB-1968-047-7>.
+**[2]** Elwyn R. Berlekamp. A construction for partitions which avoid long arithmetic progressions. *Canadian Mathematical Bulletin*, 11(3):409–414, 1968.
 
-Campos, Marcelo, Jacob Fox, and Carl Schildkraut. 2026. *A New Lower Bound for Two-Color van der Waerden Numbers*. <https://doi.org/10.48550/arXiv.2608.20824>.
+**[3]** Marcelo Campos, Jacob Fox, and Carl Schildkraut. A new lower bound for two-color van der Waerden numbers, 2026. [arXiv:2608.20824v1](https://arxiv.org/abs/2608.20824v1), submitted August 21, 2026.
 
-Erdős, Paul. 1980. “A Survey of Problems in Combinatorial Number Theory.” *Annals of Discrete Mathematics* 6: 89–115. <https://doi.org/10.1016/S0167-5060(08)70697-6>.
+**[4]** Paul Erdős. A survey of problems in combinatorial number theory. *Annals of Discrete Mathematics*, 6:89–115, 1980. [doi:10.1016/S0167-5060(08)70697-6](https://doi.org/10.1016/S0167-5060(08)70697-6).
 
-Erdős, Paul, and László Lovász. 1975. “Problems and Results on $3$-Chromatic Hypergraphs and Some Related Questions.” In *Infinite and Finite Sets, Vol. II*, vol. 10. Colloquia Mathematica Societatis jános Bolyai. North-Holland. <https://www.renyi.hu/~p_erdos/1975-34.pdf>.
+**[5]** Paul Erdős and László Lovász. Problems and results on $3$-chromatic hypergraphs and some related questions. In *Infinite and Finite Sets, Vol. II*, volume 10 of *Colloquia Mathematica Societatis János Bolyai*, pages 609–627. North-Holland, Amsterdam, 1975.
 
-Erdős, Paul, and Richard Rado. 1952. “Combinatorial Theorems on Classifications of Subsets of a Given Set.” *Proceedings of the London Mathematical Society (3)* 2: 417–39. <https://doi.org/10.1112/plms/s3-2.1.417>.
+**[6]** Paul Erdős and Richard Rado. Combinatorial theorems on classifications of subsets of a given set. *Proceedings of the London Mathematical Society (3)*, 2:417–439, 1952.
 
-Erdős, Paul, and Paul Turán. 1936. “On Some Sequences of Integers.” *Journal of the London Mathematical Society* s1-11 (4): 261–64. <https://doi.org/10.1112/jlms/s1-11.4.261>.
+**[7]** Paul Erdős and Paul Turán. On some sequences of integers. *Journal of the London Mathematical Society*, s1-11(4):261–264, 1936. [doi:10.1112/jlms/s1-11.4.261](https://doi.org/10.1112/jlms/s1-11.4.261).
 
-Fox, Jacob, and Zach Hunter. 2026. *Three-Color van der Waerden Numbers Grow Super-Exponentially*. <https://doi.org/10.48550/arXiv.2606.02541>.
+**[8]** Jacob Fox and Zach Hunter. Three-color van der Waerden numbers grow super-exponentially, 2026. [arXiv:2606.02541v1](https://arxiv.org/abs/2606.02541v1), submitted June 1, 2026.
 
-Gowers, W. T. 2001. “A New Proof of Szemerédi’s Theorem.” *Geometric and Functional Analysis* 11 (3): 465–588. <https://doi.org/10.1007/s00039-001-0332-9>.
+**[9]** W. T. Gowers. A new proof of Szemerédi’s theorem. *Geometric and Functional Analysis*, 11(3):465–588, 2001.
 
-Green, Ben. 2022. “New Lower Bounds for van der Waerden Numbers.” *Forum of Mathematics, Pi* 10: e18, 1–51. <https://doi.org/10.1017/fmp.2022.12>.
+**[10]** Ben Green. New lower bounds for van der Waerden numbers. *Forum of Mathematics, Pi*, 10:e18, 1–51, 2022.
 
-Green, Ben, and Julia Wolf. 2010. “A Note on Elkin’s Improvement of Behrend’s Construction.” In *Additive Number Theory*. Springer. <https://doi.org/10.1007/978-0-387-68361-4_9>.
+**[11]** Ben Green and Julia Wolf. A note on Elkin’s improvement of Behrend’s construction. In *Additive Number Theory*, pages 141–144. Springer, 2010.
 
-Hunter, Zach. 2022. “Improved Lower Bounds for van der Waerden Numbers.” *Combinatorica* 42: 1231–52. <https://doi.org/10.1007/s00493-022-4925-2>.
+**[12]** Zach Hunter. Improved lower bounds for van der Waerden numbers. *Combinatorica*, 42:1231–1252, 2022.
 
-Hunter, Zach. 2025. “Lower Bounds for Multicolor van der Waerden Numbers.” *Israel Journal of Mathematics* 267: 783–95. <https://doi.org/10.1007/s11856-025-2735-0>.
+**[13]** Zach Hunter. Lower bounds for multicolor van der Waerden numbers. *Israel Journal of Mathematics*, 267:783–795, 2025.
 
-Kelley, Zander, and Raghu Meka. 2023. *Strong Bounds for $3$-Progressions*. <https://arxiv.org/abs/2302.05537v6>.
+**[14]** Zander Kelley and Raghu Meka. Strong bounds for $3$-progressions, 2023. Author version [arXiv:2302.05537v6](https://arxiv.org/abs/2302.05537v6), revised October 28, 2024.
 
-Kozik, Jakub, and Dmitry Shabanov. 2016. “Improved Algorithms for Colorings of Simple Hypergraphs and Applications.” *Journal of Combinatorial Theory, Series B* 116: 312–32. <https://doi.org/10.1016/j.jctb.2015.09.004>.
+**[15]** Jakub Kozik and Dmitry Shabanov. Improved algorithms for colorings of simple hypergraphs and applications. *Journal of Combinatorial Theory, Series B*, 116:312–332, 2016.
 
-Leng, James, Ashwin Sah, and Mehtaab Sawhney. 2024. *Improved Bounds for Szemerédi’s Theorem*. <https://arxiv.org/abs/2402.17995v2>.
+**[16]** James Leng, Ashwin Sah, and Mehtaab Sawhney. Improved bounds for Szemerédi’s theorem, 2024. [arXiv:2402.17995v2](https://arxiv.org/abs/2402.17995v2), revised February 29, 2024.
 
-OpenAI. 2026. *Quasipolynomial Bounds for Arithmetic Progressions*. OpenAI Math Release preprint [OAI:Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026](https://github.com/openai/math/blob/main/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf).
+**[17]** OpenAI. Quasipolynomial Bounds for Arithmetic Progressions. OpenAI Math Release preprint [OAI:Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026](https://github.com/openai/math/blob/main/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf), 2026.
 
-Rankin, R. A. 1961. “Sets of Integers Containing Not More Than a Given Number of Terms in Arithmetical Progression.” *Proceedings of the Royal Society of Edinburgh, Section A* 65 (4): 332–44. <https://doi.org/10.1017/S0080454100017726>.
+**[18]** R. A. Rankin. Sets of integers containing not more than a given number of terms in arithmetical progression. *Proceedings of the Royal Society of Edinburgh, Section A*, 65(4):332–344, 1961. [doi:10.1017/S0080454100017726](https://doi.org/10.1017/S0080454100017726).
 
-Schmidt, Wolfgang M. 1962. “Two Combinatorial Theorems on Arithmetic Progressions.” *Duke Mathematical Journal* 29: 129–40. <https://doi.org/10.1215/S0012-7094-62-02914-9>.
+**[19]** Wolfgang M. Schmidt. Two combinatorial theorems on arithmetic progressions. *Duke Mathematical Journal*, 29:129–140, 1962.
 
-Shelah, Saharon. 1988. “Primitive Recursive Bounds for van der Waerden Numbers.” *Journal of the American Mathematical Society* 1 (3): 683–97. <https://doi.org/10.1090/S0894-0347-1988-0929498-X>.
+**[20]** Saharon Shelah. Primitive recursive bounds for van der Waerden numbers. *Journal of the American Mathematical Society*, 1(3):683–697, 1988.
 
-Shi, Ruizhe, and Yiqi Dong. 2026. *An Improved Upper Bound for Colorings Without Symmetrically Colored $k$-Term Arithmetic Progressions*. <https://doi.org/10.48550/arXiv.2607.20752>.
+**[21]** Ruizhe Shi and Yiqi Dong. An improved upper bound for colorings without symmetrically colored $k$-term arithmetic progressions, 2026. [arXiv:2607.20752v2](https://arxiv.org/abs/2607.20752v2), revised July 28, 2026.
 
-Stanley, Richard P. 2007. “An Introduction to Hyperplane Arrangements.” In *Geometric Combinatorics*, vol. 13. IAS/Park City Mathematics Series. American Mathematical Society. <https://www.cis.upenn.edu/~cis6100/sp06stanley.pdf>.
+**[22]** Richard P. Stanley. An introduction to hyperplane arrangements. In *Geometric Combinatorics*, volume 13 of *IAS/Park City Mathematics Series*, pages 389–496. American Mathematical Society, Providence, RI, 2007.
 
-Szabó, Zoltán. 1990. “An Application of Lovász’ Local Lemma—a New Lower Bound for the van der Waerden Number.” *Random Structures & Algorithms* 1 (3): 343–60. <https://doi.org/10.1002/rsa.3240010307>.
+**[23]** Zoltán Szabó. An application of Lovász’ local lemma—a new lower bound for the van der Waerden number. *Random Structures & Algorithms*, 1(3):343–360, 1990.
 
-Waerden, B. L. van der. 1927. “Beweis Einer Baudetschen Vermutung.” *Nieuw Archief Voor Wiskunde (2)* 15: 212–16. <https://resolver.kb.nl/resolve?urn=MMKWG01:022157001:00228>.
+**[24]** B. L. van der Waerden. Beweis einer Baudetschen Vermutung. *Nieuw Archief voor Wiskunde (2)*, 15:212–216, 1927.
 
-Waerden, B. L. van der. 1998. “Wie der Beweis der Vermutung von Baudet gefunden wurde.” *Elemente Der Mathematik* 53: 139–48. <https://ems.press/content/serial-article-files/45097>.
+**[25]** B. L. van der Waerden. Wie der Beweis der Vermutung von Baudet gefunden wurde. *Elemente der Mathematik*, 53:139–148, 1998. Reprint of the 1965 article.

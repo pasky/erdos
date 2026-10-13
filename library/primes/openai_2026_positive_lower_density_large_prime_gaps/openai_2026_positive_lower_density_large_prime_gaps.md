@@ -8,7 +8,7 @@ For every fixed $C>0$, we prove that a positive proportion of consecutive prime 
 
 ## Introduction
 
-Let $p_n$ denote the $n$th prime and write $d_n=p_{n+1}-p_n$. The prime number theorem identifies $\log p$ as the average scale of prime gaps near $p$. Individual gaps can be much larger. Westzynthius proved that $d_n/\log p_n$ is unbounded (Westzynthius 1931); the constructions of Erdős and Rankin gave increasingly strong quantitative lower bounds for exceptionally large gaps (Erdős 1935; Rankin 1938). Modern refinements were obtained independently by Ford, Green, Konyagin and Tao and by Maynard (Ford et al. 2016; Maynard 2016), followed by their joint work (Ford et al. 2018). These results concern the size of very large gaps. A lower bound for the largest gap does not by itself give a positive proportion of gaps exceeding a fixed multiple of $\log p$.
+Let $p_n$ denote the $n$th prime and write $d_n=p_{n+1}-p_n$. The prime number theorem identifies $\log p$ as the average scale of prime gaps near $p$. Individual gaps can be much larger. Westzynthius proved that $d_n/\log p_n$ is unbounded [18]; the constructions of Erdős and Rankin gave increasingly strong quantitative lower bounds for exceptionally large gaps [4, 15]. Modern refinements were obtained independently by Ford, Green, Konyagin and Tao and by Maynard [7, 14], followed by their joint work [6]. These results concern the size of very large gaps. A lower bound for the largest gap does not by itself give a positive proportion of gaps exceeding a fixed multiple of $\log p$.
 
 We study this frequency question with equal weight on the prime indices. For a set $A$ of positive integers, its lower asymptotic density is $\liminf_{N\to\infty}|A\cap[1,N]|/N$.
 
@@ -16,7 +16,7 @@ We study this frequency question with equal weight on the prime indices. For a s
 
 The density is ordinary lower density: the bound holds for every sufficiently large initial segment, and both constants may depend on the fixed threshold $C$.
 
-One consequence concerns successive values of $p_n/n$. Erdős and Prachar asked whether the indices at which this ratio increases have positive lower density (Erdős and Prachar 1962, 256).
+One consequence concerns successive values of $p_n/n$. Erdős and Prachar asked whether the indices at which this ratio increases have positive lower density [5, p. 256].
 
 **Corollary 1.2**. *The set $$\left\{n\ge1:\frac{p_n}{n}<\frac{p_{n+1}}{n+1}\right\}$$ has positive lower asymptotic density.*
 
@@ -26,9 +26,9 @@ Thus the corollary answers the Erdős–Prachar question affirmatively.
 
 ### Gap frequency and empty intervals
 
-The distinction between counting intervals and counting prime gaps is essential. A long gap contains many integer starting points of prime-free short intervals. Consequently a positive proportion of empty intervals may be accounted for by a sparse set of very long gaps. Bazzanella, Languasco and Zaccagnini distinguish the two counting measures explicitly (Bazzanella et al. 2010). Their Theorem 5 gives positive prime-start proportions for each fixed threshold below $2/3.454=0.579038\ldots$, whereas their Theorem 3 reaches some intervals longer than the average prime spacing by counting integer starts. Tao’s empty-interval argument (Tao 2019) also identifies the additional control required to pass from interval measure to gap counts.
+The distinction between counting intervals and counting prime gaps is essential. A long gap contains many integer starting points of prime-free short intervals. Consequently a positive proportion of empty intervals may be accounted for by a sparse set of very long gaps. Bazzanella, Languasco and Zaccagnini distinguish the two counting measures explicitly [1]. Their Theorem 5 gives positive prime-start proportions for each fixed threshold below $2/3.454=0.579038\ldots$, whereas their Theorem 3 reaches some intervals longer than the average prime spacing by counting integer starts. Tao’s empty-interval argument [16] also identifies the additional control required to pass from interval measure to gap counts.
 
-Conditional results describe much more of the distribution. Gallagher derived Poisson statistics for prime counts in integer-start intervals of length $\lambda\log X$, for fixed $\lambda>0$, from a uniform Hardy–Littlewood prime-tuple hypothesis (Gallagher 1976, Theorem 1). The Poisson-tail results of Jha (Jha 2026, Theorems 1.4 and 1.6) treat growing parameter ranges under a stronger uniform tuple hypothesis. The counting measures and uniformity assumptions matter in comparing these conclusions with Theorem 1.1.
+Conditional results describe much more of the distribution. Gallagher derived Poisson statistics for prime counts in integer-start intervals of length $\lambda\log X$, for fixed $\lambda>0$, from a uniform Hardy–Littlewood prime-tuple hypothesis [8, Theorem 1]. The Poisson-tail results of Jha [12, Theorems 1.4 and 1.6] treat growing parameter ranges under a stronger uniform tuple hypothesis. The counting measures and uniformity assumptions matter in comparing these conclusions with Theorem 1.1.
 
 ### The adjacent-interval construction
 
@@ -36,7 +36,7 @@ We control the number of distinct gaps by requiring a prime just before an empty
 
 The weights are squares of signed sums of smooth divisor sums, each built from divisors of shifted integers in the second interval. The test functions make terms involving different shift sets orthogonal in the limiting unmarked second moment. At a prime belonging to one of those shift sets, the support cutoff forces the corresponding divisor coordinate to equal one in every nonzero summand. Removing that shift then couples terms whose sets differ in size by one. The central choice is an alternating family for which these neighboring terms nearly cancel. The resulting square has positive average but arbitrarily small weighted prime mass in the second interval. A detector estimate for the first interval has a constant independent of the size of the chosen family, which allows the suppression to be made strong enough before the final counting argument.
 
-The analytic ingredients are smooth divisor-sum correlations, the Bombieri–Vinogradov distribution theorem, and an average of the prime-tuple singular series. The distribution theorem originates in the work of Bombieri and A. I. Vinogradov (Bombieri 1965; Vinogradov 1965). Goldston–Yıldırım’s correlation method is a direct antecedent: they square a linear combination of tuple approximations of different cardinalities (Goldston and Yıldırım 2005, 6, equation (2.14) and the preceding paragraph). Maynard’s smooth multidimensional sieve and product-profile construction (Maynard 2015) provide further antecedents. Here the orthogonality and coordinate-removal identities reduce the choice of a weight to cancellation between adjacent dimensions. All dimensions and test functions are fixed before $X$ tends to infinity; the uniform error estimates needed to sum over the shifts are proved in the paper.
+The analytic ingredients are smooth divisor-sum correlations, the Bombieri–Vinogradov distribution theorem, and an average of the prime-tuple singular series. The distribution theorem originates in the work of Bombieri and A. I. Vinogradov [2, 17]. Goldston–Yıldırım’s correlation method is a direct antecedent: they square a linear combination of tuple approximations of different cardinalities [10, p. 6, equation (2.14) and the preceding paragraph]. Maynard’s smooth multidimensional sieve and product-profile construction [13] provide further antecedents. Here the orthogonality and coordinate-removal identities reduce the choice of a weight to cancellation between adjacent dimensions. All dimensions and test functions are fixed before $X$ tends to infinity; the uniform error estimates needed to sum over the shifts are proved in the paper.
 
 Section 2 first deduces the theorem from a precise weight proposition and proves the passage to ordinary index density. Section 3 defines the square and states its moment identities; Section 4 chooses the test functions that make the adjacent dimensions cancel. Section 5 proves the general mixed-moment estimates, the singular-series average, and the moment identities used in the construction.
 
@@ -135,7 +135,7 @@ For a family with $w>0$, the normalization $W_X=Z^2/w$ therefore has all the pro
 
 ## Cancellation between adjacent dimensions
 
-We now choose the functions so that the adjacent-dimension terms in $v$ almost cancel. Product functions restricted to a simplex, with the truncation controlled by moments of their squared density, also occur in Maynard’s sieve construction (Maynard 2015, sec. 7). Here we combine such functions at a short range of dimensions with alternating signs.
+We now choose the functions so that the adjacent-dimension terms in $v$ almost cancel. Product functions restricted to a simplex, with the truncation controlled by moments of their squared density, also occur in Maynard’s sieve construction [13, Section 7]. Here we combine such functions at a short range of dimensions with alternating signs.
 
 **Lemma 4.1** (A one-dimensional profile). *For every $\lambda>0$ and $\beta>0$, there exists a nonnegative $g\in C_c^\infty((0,\infty))$ such that $$\int_0^\infty g(u)^2\,du=1,\qquad
  \int_0^\infty g(u)\,du=\sqrt\lambda,\qquad
@@ -231,11 +231,11 @@ For a finite set $\mathcal H$ of distinct integers, put $$\nu_p(\mathcal H)=|\ma
 
 The integer $t$ counts distinct numerical shifts, whereas $\sum_r j_r$ counts divisor coordinates with repetitions. The power $L^{-t}$ is determined by the former. Repetitions are recorded by the fibers $\mathcal M_i$ and affect the constant $\mathcal C$. For two divisor-sum factors whose individual shift tuples have distinct entries, these fibers have size at most two. Products of four such factors may have larger fibers; their estimates will use the general finiteness assertion rather than the displayed derivative formula. The marked formula retains the same power $L^{-t}$, consistent with $\vartheta(m+a_0)$ having average tending to one. The additional factor $L^{-1}$ in $V_B$ is supplied when the marked shifts are summed.
 
-The scalar divisor-sum correlations of Goldston–Yıldırım (Goldston and Yıldırım 2003; Goldston and Yıldırım 2005) and Tao’s smooth Fourier formulation, described by Maynard (Maynard 2015, sec. 6, p. 404) motivate this calculation. We include its proof because coupled smooth functions, arbitrary equality patterns and an additive error uniform in logarithmic shifts are needed here. The choice of smooth cutoffs was also informed by the analysis of smoothing and high moments of divisor sums by Granville–Koukoulopoulos–Maynard (Granville et al. 2021). This is motivation for the cutoff choice, not a source of the mixed-moment proposition proved here.
+The scalar divisor-sum correlations of Goldston–Yıldırım [9, 10] and Tao’s smooth Fourier formulation, described by Maynard [13, Section 6, p. 404] motivate this calculation. We include its proof because coupled smooth functions, arbitrary equality patterns and an additive error uniform in logarithmic shifts are needed here. The choice of smooth cutoffs was also informed by the analysis of smoothing and high moments of divisor sums by Granville–Koukoulopoulos–Maynard [11]. This is motivation for the cutoff choice, not a source of the mixed-moment proposition proved here.
 
 ### Residue classes and the prime mark
 
-Our objective is to replace a product of divisor sums, possibly weighted by one shifted prime, by an explicit finite density sum. We use the ordinary endpoint Bombieri–Vinogradov theorem in the form recorded by Bombieri, Friedlander and Iwaniec (Bombieri et al. 1986, 206, equation (1.4)); their $\psi$ notation is defined on p. 204. The additional divisor weights and endpoint shifts required here are handled below.
+Our objective is to replace a product of divisor sums, possibly weighted by one shifted prime, by an explicit finite density sum. We use the ordinary endpoint Bombieri–Vinogradov theorem in the form recorded by Bombieri, Friedlander and Iwaniec [3, p. 206, equation (1.4)]; their $\psi$ notation is defined on p. 204. The additional divisor weights and endpoint shifts required here are handled below.
 
 We retain the notation of Proposition 5.1 and put $H_X=DL^B$. The two arithmetic lemmas below also allow $B\ge0$. Negative shifts cause no difficulty, since all shifted arguments are positive for sufficiently large $X$. We write $\Lambda$ for the von Mangoldt function, $\varphi(q)$ for Euler’s totient, $\omega(q)$ for the number of distinct prime divisors of $q$, $d(q)$ for the number of positive divisors, and $\zeta$ for the Riemann zeta function.
 
@@ -387,7 +387,7 @@ Finally, a singleton fiber contributes $w_\gamma$, and a double fiber contribute
 
 ### Averaging the singular series
 
-We next average the numerical-shift factor in Proposition 5.1. The following form allows different coordinates to range over either of the two blocks. It is a box version of Gallagher’s singular-series mean (Gallagher 1976, 5, equation (3)). We give a self-contained proof by truncating the Euler product; no statement about the distribution of primes in individual short intervals is assumed.
+We next average the numerical-shift factor in Proposition 5.1. The following form allows different coordinates to range over either of the two blocks. It is a box version of Gallagher’s singular-series mean [8, p. 5, equation (3)]. We give a self-contained proof by truncating the Euler product; no statement about the distribution of primes in individual short intervals is assumed.
 
 **Lemma 5.4** (Singular series in boxes). *Fix an integer $s\ge0$ and a constant $K\ge1$. For each positive integer $h$, let $I_1,\ldots,I_s$ be intervals of $h$ consecutive integers, all contained in an interval of diameter at most $Kh$. Then, as $h\to\infty$, $$\sum_{\substack{a_i\in I_i\ (1\le i\le s)\\a_1,\ldots,a_s\text{ distinct}}}
  \mathfrak S(\{a_1,\ldots,a_s\})=h^s(1+o(1)).$$ The error is uniform in the intervals subject to this condition, with $s,K$ fixed. Here $A_s$ denotes a fixed finite constant depending only on $s$. In fact the normalized sum differs from one by $$O_{s,K}(1/\log\log h)+O_s\big(h^{-1/2}(\log\log h)^{A_s}\big).$$*
@@ -441,38 +441,38 @@ It remains to prove a detector estimate whose constant is independent of the cho
 
 ## References
 
-Bazzanella, Danilo, Alessandro Languasco, and Alessandro Zaccagnini. 2010. “Prime Numbers in Logarithmic Intervals.” *Transactions of the American Mathematical Society* 362: 2667–84. <https://doi.org/10.1090/S0002-9947-09-05009-0>.
+**[1]** Danilo Bazzanella, Alessandro Languasco, and Alessandro Zaccagnini. Prime numbers in logarithmic intervals. *Transactions of the American Mathematical Society*, 362:2667–2684, 2010.
 
-Bombieri, Enrico. 1965. “On the Large Sieve.” *Mathematika* 12 (2): 201–25. <https://doi.org/10.1112/S0025579300005313>.
+**[2]** Enrico Bombieri. On the large sieve. *Mathematika*, 12(2):201–225, 1965.
 
-Bombieri, Enrico, John B. Friedlander, and Henryk Iwaniec. 1986. “Primes in Arithmetic Progressions to Large Moduli.” *Acta Mathematica* 156: 203–51. <https://doi.org/10.1007/BF02399204>.
+**[3]** Enrico Bombieri, John B. Friedlander, and Henryk Iwaniec. Primes in arithmetic progressions to large moduli. *Acta Mathematica*, 156:203–251, 1986.
 
-Erdős, Paul. 1935. “On the Difference of Consecutive Primes.” *The Quarterly Journal of Mathematics*, Oxford series, vol. 6: 124–28. <https://doi.org/10.1093/qmath/os-6.1.124>.
+**[4]** Paul Erdős. On the difference of consecutive primes. *The Quarterly Journal of Mathematics*, 6:124–128, 1935.
 
-Erdős, Paul, and Karl Prachar. 1962. “Sätze Und Probleme über $p_k/k$.” *Abhandlungen Aus Dem Mathematischen Seminar Der Universität Hamburg* 25: 251–56. <https://doi.org/10.1007/BF02992930>.
+**[5]** Paul Erdős and Karl Prachar. Sätze und Probleme über $p_k/k$. *Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg*, 25:251–256, 1962.
 
-Ford, Kevin, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. 2018. “Long Gaps Between Primes.” *Journal of the American Mathematical Society* 31 (1): 65–105. <https://doi.org/10.1090/jams/876>.
+**[6]** Kevin Ford, Ben Green, Sergei Konyagin, James Maynard, and Terence Tao. Long gaps between primes. *Journal of the American Mathematical Society*, 31(1):65–105, 2018.
 
-Ford, Kevin, Ben Green, Sergei Konyagin, and Terence Tao. 2016. “Large Gaps Between Consecutive Prime Numbers.” *Annals of Mathematics*, 2nd series, vol. 183 (3): 935–74. <https://doi.org/10.4007/annals.2016.183.3.4>.
+**[7]** Kevin Ford, Ben Green, Sergei Konyagin, and Terence Tao. Large gaps between consecutive prime numbers. *Annals of Mathematics*, 183(3):935–974, 2016.
 
-Gallagher, Patrick X. 1976. “On the Distribution of Primes in Short Intervals.” *Mathematika* 23 (1): 4–9. <https://doi.org/10.1112/S0025579300016442>.
+**[8]** Patrick X. Gallagher. On the distribution of primes in short intervals. *Mathematika*, 23(1):4–9, 1976. Corrigendum concerning Theorem 2: Mathematika 28 (1981), no. 1, 86, [doi:10.1112/S0025579300015382](https://doi.org/10.1112/S0025579300015382).
 
-Goldston, D. A., and C. Y. Yıldırım. 2003. “Higher Correlations of Divisor Sums Related to Primes I: Triple Correlations.” *Integers* 3: A05. <https://math.colgate.edu/~integers/d5/d5.pdf>.
+**[9]** D. A. Goldston and C. Y. Yıldırım. Higher correlations of divisor sums related to primes I: Triple correlations. *Integers*, 3:A05, 2003. 66 pp.
 
-Goldston, Daniel A., and Cem Y. Yıldırım. 2005. *Small Gaps Between Primes I*. [arXiv:math/0504336v1](https://arxiv.org/abs/math/0504336v1). <https://arxiv.org/abs/math/0504336v1>.
+**[10]** Daniel A. Goldston and Cem Y. Yıldırım. Small gaps between primes I. [arXiv:math/0504336v1](https://arxiv.org/abs/math/0504336v1), 2005. Version 1, 16 April 2005. Published as Higher correlations of divisor sums related to primes III: small gaps between primes, Proc. London Math. Soc. (3) 95 (2007), no. 3, 653–686, [doi:10.1112/plms/pdm021](https://doi.org/10.1112/plms/pdm021).
 
-Granville, Andrew, Dimitris Koukoulopoulos, and James Maynard. 2021. “Sieve Weights and Their Smoothings.” *Annales Scientifiques de l’École Normale Supérieure*, 4th series, vol. 54 (5): 1089–177. <https://doi.org/10.24033/asens.2478>.
+**[11]** Andrew Granville, Dimitris Koukoulopoulos, and James Maynard. Sieve weights and their smoothings. *Annales scientifiques de l’École Normale Supérieure*, 54(5):1089–1177, 2021.
 
-Jha, Abhishek. 2026. *The Poisson Tail Conjecture for Primes in Short Intervals*. [arXiv:2605.23014v2](https://arxiv.org/abs/2605.23014v2). <https://arxiv.org/abs/2605.23014v2>.
+**[12]** Abhishek Jha. The Poisson Tail Conjecture for primes in short intervals. [arXiv:2605.23014v2](https://arxiv.org/abs/2605.23014v2), 2026. Version 2, 12 September 2026.
 
-Maynard, James. 2015. “Small Gaps Between Primes.” *Annals of Mathematics*, 2nd series, vol. 181 (1): 383–413. <https://doi.org/10.4007/annals.2015.181.1.7>.
+**[13]** James Maynard. Small gaps between primes. *Annals of Mathematics*, 181(1):383–413, 2015. [Published version](https://annals.math.princeton.edu/wp-content/uploads/annals-v181-n1-p07-p.pdf).
 
-Maynard, James. 2016. “Large Gaps Between Primes.” *Annals of Mathematics*, 2nd series, vol. 183 (3): 915–33. <https://doi.org/10.4007/annals.2016.183.3.3>.
+**[14]** James Maynard. Large gaps between primes. *Annals of Mathematics*, 183(3):915–933, 2016.
 
-Rankin, R. A. 1938. “The Difference Between Consecutive Prime Numbers.” *Journal of the London Mathematical Society* 13 (4): 242–47. <https://doi.org/10.1112/jlms/s1-13.4.242>.
+**[15]** R. A. Rankin. The difference between consecutive prime numbers. *Journal of the London Mathematical Society*, 13(4):242–247, 1938.
 
-Tao, Terence. 2019. *Answer to: Positive Proportion of Logarithmic Gaps Between Consecutive Primes*. MathOverflow, [answer 332888](https://mathoverflow.net/a/332888). <https://mathoverflow.net/a/332888>.
+**[16]** Terence Tao. Answer to: Positive proportion of logarithmic gaps between consecutive primes. MathOverflow, [answer 332888](https://mathoverflow.net/a/332888), May 2019. Accessed 25 September 2026.
 
-Vinogradov, A. I. 1965. “The Density Hypothesis for Dirichlet $L$-Series.” *Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya* 29 (4): 903–34. <https://www.mathnet.ru/eng/im3080>.
+**[17]** A. I. Vinogradov. The density hypothesis for Dirichlet $L$-series. *Izvestiya Akademii Nauk SSSR. Seriya Matematicheskaya*, 29(4):903–934, 1965. In Russian; correction, vol. 30 (1966), no. 3, pp. 719–720, [Math-Net correction record](https://www.mathnet.ru/eng/im2856).
 
-Westzynthius, E. 1931. “Über Die Verteilung Der Zahlen, Die Zu Den $n$ Ersten Primzahlen Teilerfremd Sind.” *Commentationes Physico-Mathematicae* 5 (25): 1–37.
+**[18]** E. Westzynthius. Über die verteilung der zahlen, die zu den $n$ ersten primzahlen teilerfremd sind. *Commentationes Physico-Mathematicae*, 5(25):1–37, 1931.

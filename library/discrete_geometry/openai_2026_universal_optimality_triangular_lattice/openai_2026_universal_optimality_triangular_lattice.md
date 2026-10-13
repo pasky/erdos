@@ -22,15 +22,15 @@ Put $b=\sqrt3/2$ and let $$A=b^{-1/2}\{j(1,0)+k(1/2,b):j,k\in\mathbb Z\}$$ be th
  \sum_{a\in A\setminus\{0\}}g(\left\lvert a\right\rvert^2)=E_g(A).
 \end{equation}$$*
 
-This includes every Gaussian $g(t)=e^{-\pi\alpha t}$ with $\alpha>0$ and every inverse power $g(t)=t^{-p}$ with $p>0$. The theorem permits singular potentials and divergent lattice sums, and it imposes no separation or local occupancy bound on $\mathcal C$. It identifies the minimum value, not all minimizers. The comparison uses the centered-density and lower-energy formulation of Cohn et al. (Cohn et al. 2022, Definitions 1.1–1.3).
+This includes every Gaussian $g(t)=e^{-\pi\alpha t}$ with $\alpha>0$ and every inverse power $g(t)=t^{-p}$ with $p>0$. The theorem permits singular potentials and divergent lattice sums, and it imposes no separation or local occupancy bound on $\mathcal C$. It identifies the minimum value, not all minimizers. The comparison uses the centered-density and lower-energy formulation of Cohn et al. [8, Definitions 1.1–1.3].
 
 ### The planar problem and its predecessors
 
-The lattice problem began with inverse-power interactions. For the convergent Epstein zeta sums, Rankin (Rankin 1953) proved the triangular minimum in a restricted exponent range, and Cassels (Cassels 1959) addressed the remaining range. Cassels subsequently acknowledged a gap in his proof (Cassels 1963); Ennola (Ennola 1964) supplied a repair, and Diananda (Diananda 1964) simplified the needed lemmas. Together these works establish the triangular minimum among planar lattices of fixed covolume for $g(t)=t^{-p}$ with $p>1$. Montgomery’s theta theorem gives the Gaussian minimum for every positive parameter (Montgomery 1988, Theorem 1). These results identify the best lattice; they leave comparison with nonlattice configurations open.
+The lattice problem began with inverse-power interactions. For the convergent Epstein zeta sums, Rankin [29] proved the triangular minimum in a restricted exponent range, and Cassels [3] addressed the remaining range. Cassels subsequently acknowledged a gap in his proof [4]; Ennola [12] supplied a repair, and Diananda [11] simplified the needed lemmas. Together these works establish the triangular minimum among planar lattices of fixed covolume for $g(t)=t^{-p}$ with $p>1$. Montgomery’s theta theorem gives the Gaussian minimum for every positive parameter [22, Theorem 1]. These results identify the best lattice; they leave comparison with nonlattice configurations open.
 
-Cohn and Kumar placed this question alongside their study of universal energy minimization on spheres (Cohn and Kumar 2007, Theorem 1.2). Their Euclidean conjecture singled out the triangular, $E_8$, and Leech lattices (Cohn and Kumar 2007, Conjecture 9.4). It asks for a sharp auxiliary function for each sufficiently decaying completely monotone squared-distance interaction: a Fourier lower bound that attains the lattice energy and therefore proves the comparison for periodic competitors. In dimensions $8$ and $24$, Cohn, Kumar, Miller, Radchenko, and Viazovska proved universal optimality and constructed sharp Gaussian bounds and Fourier interpolation formulas (Cohn et al. 2022, Theorems 1.4, 1.7, and 1.9).
+Cohn and Kumar placed this question alongside their study of universal energy minimization on spheres [7, Theorem 1.2]. Their Euclidean conjecture singled out the triangular, $E_8$, and Leech lattices [7, Conjecture 9.4]. It asks for a sharp auxiliary function for each sufficiently decaying completely monotone squared-distance interaction: a Fourier lower bound that attains the lattice energy and therefore proves the comparison for periodic competitors. In dimensions $8$ and $24$, Cohn, Kumar, Miller, Radchenko, and Viazovska proved universal optimality and constructed sharp Gaussian bounds and Fourier interpolation formulas [8, Theorems 1.4, 1.7, and 1.9].
 
-Several planar results address restricted competitor classes. Faulhuber et al. (Faulhuber et al. 2024, Theorem 1.1 and Corollary 1.3) compare the triangular lattice with the honeycomb configuration, Cartesian products of one-dimensional periodic configurations, and unions of two translates of a rectangular or triangular lattice, with each class normalized to the same density. Hardin and Tenpas (Hardin and Tenpas 2025, Theorem 1) prove triangular optimality among four-point configurations modulo a fixed triangular lattice and six-point configurations modulo $\mathbb Z\times\sqrt3\mathbb Z$, with the appropriate scaling and rotation of the minimizing lattice. Their completely monotone interactions satisfy a rapid-decay assumption. Leblé (Leblé 2025, Theorems 1–2) proves that sufficiently small bounded displacements of the triangular lattice cannot lower the energy; the permitted displacement size depends on the interaction. These restrictions are different from the centered-density hypothesis of Theorem 1.1.
+Several planar results address restricted competitor classes. Faulhuber et al. [14, Theorem 1.1 and Corollary 1.3] compare the triangular lattice with the honeycomb configuration, Cartesian products of one-dimensional periodic configurations, and unions of two translates of a rectangular or triangular lattice, with each class normalized to the same density. Hardin and Tenpas [15, Theorem 1] prove triangular optimality among four-point configurations modulo a fixed triangular lattice and six-point configurations modulo $\mathbb Z\times\sqrt3\mathbb Z$, with the appropriate scaling and rotation of the minimizing lattice. Their completely monotone interactions satisfy a rapid-decay assumption. Leblé [19, Theorems 1–2] proves that sufficiently small bounded displacements of the triangular lattice cannot lower the energy; the permitted displacement size depends on the interaction. These restrictions are different from the centered-density hypothesis of Theorem 1.1.
 
 Theorem 1.1 proves the positive planar universal-energy conclusion in the formulation stated above. The construction also supplies sharp auxiliary functions for every Gaussian. Integrating the resulting energy inequalities does not construct a sharp auxiliary for each mixed potential in the class required by Cohn and Kumar’s conjecture. That stronger per-potential quantifier is not claimed here.
 
@@ -58,27 +58,27 @@ Section 6 converts the normalized construction into the functions $f_\alpha$ ab
 
 ### Antecedents of the method
 
-The interpolation mechanism has substantial antecedents in the Beurling–Selberg extremal method. Cardinal formulas with squared trigonometric factors, double-pole value terms, and simple-pole derivative terms occur in the one-dimensional construction of Cohn and Kumar (Cohn and Kumar 2007, Proposition 9.6) and in the Gaussian extremal functions of Carneiro et al. (Carneiro et al. 2013, secs. 1, (1.2)–(1.3)). Radchenko and Viazovska (Radchenko and Viazovska 2019, Theorem 1) reconstruct even Schwartz functions on the real line from simultaneous function and Fourier data at square-root nodes. Theorems 1.7 and 1.9 of Cohn et al. (Cohn et al. 2022) give radial value-and-derivative reconstruction formulas in dimensions $8$ and $24$. In the plane, simultaneous values and first derivatives of a radial Schwartz function and its Fourier transform on the triangular shells do not determine the function: Talebizadeh Sardari (Talebizadeh Sardari 2021, Theorem 1.7) proves that infinitely many linearly independent functions have all these data zero. His proof uses periodic congruence supersets of the triangular quadratic-form values (Talebizadeh Sardari 2021, sec. 6.1, Lemma 6.1). Our construction prescribes data on a periodic superset and proves uniqueness within its specified summable coefficient system. The following sections establish exact interpolation in that system and the parameter-uniform planar signs.
+The interpolation mechanism has substantial antecedents in the Beurling–Selberg extremal method. Cardinal formulas with squared trigonometric factors, double-pole value terms, and simple-pole derivative terms occur in the one-dimensional construction of Cohn and Kumar [7, Proposition 9.6] and in the Gaussian extremal functions of Carneiro et al. [2, Section 1, (1.2)–(1.3)]. Radchenko and Viazovska [28, Theorem 1] reconstruct even Schwartz functions on the real line from simultaneous function and Fourier data at square-root nodes. Theorems 1.7 and 1.9 of Cohn et al. [8] give radial value-and-derivative reconstruction formulas in dimensions $8$ and $24$. In the plane, simultaneous values and first derivatives of a radial Schwartz function and its Fourier transform on the triangular shells do not determine the function: Talebizadeh Sardari [30, Theorem 1.7] proves that infinitely many linearly independent functions have all these data zero. His proof uses periodic congruence supersets of the triangular quadratic-form values [30, Section 6.1, Lemma 6.1]. Our construction prescribes data on a periodic superset and proves uniqueness within its specified summable coefficient system. The following sections establish exact interpolation in that system and the parameter-uniform planar signs.
 
-Related Fourier sign conditions enter the sphere-packing bound of Cohn and Elkies (Cohn and Elkies 2003). The companion manuscript (OpenAI 2026a, secs. 2–4) develops the cardinal, Gaussian-transform, and finite sign-certification framework for a sharp planar packing bound. We adapt that framework to a continuously varying Gaussian target and establish the required energy identities, correction estimates, and signs locally. The separate atomic companion independently proves the same energy conclusion (OpenAI 2026b, Theorem 1.1); this is not a premise of the present proof. Its auxiliary construction is compared with ours after Theorem 2.1.
+Related Fourier sign conditions enter the sphere-packing bound of Cohn and Elkies [6]. The companion manuscript [23, Sections 2–4] develops the cardinal, Gaussian-transform, and finite sign-certification framework for a sharp planar packing bound. We adapt that framework to a continuously varying Gaussian target and establish the required energy identities, correction estimates, and signs locally. The separate atomic companion independently proves the same energy conclusion [24, Theorem 1.1]; this is not a premise of the present proof. Its auxiliary construction is compared with ours after Theorem 2.1.
 
-The density-only linear-programming argument follows Cohn and de Courcy-Ireland (Cohn and Courcy-Ireland 2018, Proposition 2.2), whose background-measure method follows Cohn and Zhao (Cohn and Zhao 2014, Theorem 3.3). The latter is a packing theorem; we use the method, not its exclusion-distance hypotheses. Section 6 proves the needed statement for real even Schwartz functions with nonnegative Fourier transform. The positive-mixture representation belongs to the classical Hausdorff–Bernstein–Widder theory (Hausdorff 1921; Bernstein 1929; Widder 1931); our finite-difference and moment-measure proof is given in Section 7. The lower-limit, endpoint, and infinite-energy arguments are proved there as well.
+The density-only linear-programming argument follows Cohn and de Courcy-Ireland [5, Proposition 2.2], whose background-measure method follows Cohn and Zhao [10, Theorem 3.3]. The latter is a packing theorem; we use the method, not its exclusion-distance hypotheses. Section 6 proves the needed statement for real even Schwartz functions with nonnegative Fourier transform. The positive-mixture representation belongs to the classical Hausdorff–Bernstein–Widder theory [1, 16, 33]; our finite-difference and moment-measure proof is given in Section 7. The lower-limit, endpoint, and infinite-energy arguments are proved there as well.
 
 ### Renormalized and jellium consequences
 
-For $0<s<2$, the raw Riesz energy with $g(t)=t^{-s/2}$ is infinite even on $A$, so the comparison of raw energies does not by itself distinguish configurations in this range. Neutralized energies account for a uniform oppositely charged background. In a finite jellium system, one combines point–point, point–background, and background–background interactions; the thermodynamic jellium minimum is the large-volume limit of the minimum energy per unit volume. Renormalized energies remove the divergent self-energy of each point. Their periodic version compares configurations in a fixed torus, and their infinite-system version measures field energy per unit area. Petrache and Serfaty (Petrache and Serfaty 2020, Theorem 2) proved that the Cohn–Kumar universal-optimality conjecture implies the corresponding Coulomb and Riesz crystallization results. Their heat-kernel representation (Petrache and Serfaty 2020, Lemma 1) supplies the connection to Gaussian comparisons used here. We carry out this passage for the field functional defined in Section 8, including its normalization and periodic approximation, after completing the main theorem in Section 7.
+For $0<s<2$, the raw Riesz energy with $g(t)=t^{-s/2}$ is infinite even on $A$, so the comparison of raw energies does not by itself distinguish configurations in this range. Neutralized energies account for a uniform oppositely charged background. In a finite jellium system, one combines point–point, point–background, and background–background interactions; the thermodynamic jellium minimum is the large-volume limit of the minimum energy per unit volume. Renormalized energies remove the divergent self-energy of each point. Their periodic version compares configurations in a fixed torus, and their infinite-system version measures field energy per unit area. Petrache and Serfaty [27, Theorem 2] proved that the Cohn–Kumar universal-optimality conjecture implies the corresponding Coulomb and Riesz crystallization results. Their heat-kernel representation [27, Lemma 1] supplies the connection to Gaussian comparisons used here. We carry out this passage for the field functional defined in Section 8, including its normalization and periodic approximation, after completing the main theorem in Section 7.
 
 Corollary 8.1 proves the triangular minimum for every $0\le s<2$, with interaction $-\log|x|$ at $s=0$ and $|x|^{-s}$ for $0<s<2$. On each torus $\mathbb R^2/(nA)$, the $n^2$ classes of $A/(nA)$ minimize the canonical periodic energy among all configurations of $n^2$ distinct points. The lattice also minimizes the infinite-system field energy $W_s$ among density-one configurations, and the ordered-pair thermodynamic jellium minimum is $W_s(A)/\kappa_s$, where $\kappa_0=2\pi$ and $\kappa_s=4\pi$ for $0<s<2$.
 
-Section 8 defines these quantities with unit background and fixes the field normalization by the fundamental-solution equation. The field energy takes the centered-square upper limit at each fixed self-energy cutoff, then removes the cutoff; the infimum over compatible gradient fields is outside both limits. The proof compares heat-kernel energies for arbitrary period lattices. Appendix B constructs a sequence of square-periodic fields approaching the field infimum, so the comparison does not require a periodic approximation with prescribed triangular periods. The scalar periodic and jellium identities of Lewin et al. (Lewin et al. 2019, sec. VI, Theorem 2) and Lauritsen (Lauritsen 2021, Theorem II.1) then identify the thermodynamic value.
+Section 8 defines these quantities with unit background and fixes the field normalization by the fundamental-solution equation. The field energy takes the centered-square upper limit at each fixed self-energy cutoff, then removes the cutoff; the infimum over compatible gradient fields is outside both limits. The proof compares heat-kernel energies for arbitrary period lattices. Appendix B constructs a sequence of square-periodic fields approaching the field infimum, so the comparison does not require a periodic approximation with prescribed triangular periods. The scalar periodic and jellium identities of Lewin et al. [20, Section VI, Theorem 2] and Lauritsen [18, Theorem II.1] then identify the thermodynamic value.
 
-The fresh long-range conclusion here is $0<s<2$. At $s=0$, the corollary overlaps the independent direct logarithmic result of the Coulomb companion (OpenAI 2026c, Theorems 1.1–1.2), which uses its own field-energy normalization and proves a lower bound on square tori. The periodic assertion above concerns only the compatible triangular tori $\mathbb R^2/(nA)$. It asserts neither uniqueness nor exclusion of defects, and makes no claim at $s=2$ or for quantum crystallization.
+The fresh long-range conclusion here is $0<s<2$. At $s=0$, the corollary overlaps the independent direct logarithmic result of the Coulomb companion [25, Theorems 1.1–1.2], which uses its own field-energy normalization and proves a lower bound on square tori. The periodic assertion above concerns only the compatible triangular tori $\mathbb R^2/(nA)$. It asserts neither uniqueness nor exclusion of defects, and makes no claim at $s=2$ or for quantum crystallization.
 
 ## Cardinal interpolation and Fourier transformation
 
 The auxiliary pair will be assembled from two summable lists of interpolation data. We first realize each list by an entire function whose values and first derivatives are determined by its coordinates. Gaussian damping then turns this function into a radial Schwartz function, and Fourier transformation gives a second kernel with rapidly decreasing jets at distant nodes. The estimates in this section apply to arbitrary summable lists, before any finite approximation is introduced.
 
-The spectral construction adapts the cardinal-measure and Gaussian-transform method of OpenAI (OpenAI 2026a, sec. 2). The formulas and estimates needed for the present target are proved below; no packing sign bound is used.
+The spectral construction adapts the cardinal-measure and Gaussian-transform method of OpenAI [23, Section 2]. The formulas and estimates needed for the present target are proved below; no packing sign bound is used.
 
 ### Shells and interpolation nodes
 
@@ -118,7 +118,7 @@ The full parameter range $k\ge2.36$ and every artificial node are part of the as
 
 For $\alpha\ge1$, multiplying the pair by $ke^{-k}$ with $k=\pi(\alpha/b-h)$ gives a minorant of $e^{-\pi\alpha\left\lvert x\right\rvert^2}$. A Fourier-complement construction supplies $0<\alpha<1$. Section 6 proves this conversion and the sharp Gaussian energy comparison; Section 7 then proves Theorem 1.1.
 
-The atomic companion (OpenAI 2026b, secs. 3–4) uses finite atomic columns, a prescribed node set omitting $24$, and Gaussian damping $h=17/50$. Here $h=2/5$, and both jets are imposed at every positive node of the periodic superset. The common energy conclusion therefore does not identify the two auxiliary-function theorems.
+The atomic companion [24, Sections 3–4] uses finite atomic columns, a prescribed node set omitting $24$, and Gaussian damping $h=17/50$. Here $h=2/5$, and both jets are imposed at every positive node of the periodic superset. The common energy conclusion therefore does not identify the two auxiliary-function theorems.
 
 ### The sine product and its node coordinates
 
@@ -159,7 +159,7 @@ At a node $n\in\mathcal N_0$, write $$\begin{equation}
 
 ### A spectral realization of summable cardinal data
 
-Double-pole value terms and simple-pole derivative terms are familiar from the one-dimensional constructions of Cohn and Kumar (Cohn and Kumar 2007, Proposition 9.6) and Carneiro et al. (Carneiro et al. 2013, secs. 1, (1.2)–(1.3)). Here we need their planar Fourier transform and bounds uniform in the node location. A compactly supported spectral measure provides both.
+Double-pole value terms and simple-pole derivative terms are familiar from the one-dimensional constructions of Cohn and Kumar [7, Proposition 9.6] and Carneiro et al. [2, Section 1, (1.2)–(1.3)]. Here we need their planar Fourier transform and bounds uniform in the node location. A compactly supported spectral measure provides both.
 
 A coefficient list consists of a real constant $C$ and real pairs $(c_n,d_n)$ for $n\in\mathcal N_0$, with the unweighted norm $$\|a\|_1:=|C|+\sum_{n\in\mathcal N_0}(|c_n|+|d_n|)<\infty.$$ The letter $a$ denotes the full list. Away from the nodes, put $$\begin{equation}
 \tag{2.10}
@@ -330,7 +330,7 @@ The folded spectral measure in Lemma 2.2 has a density on each interval $((j-1)
              \frac{\cos(2a\pi\alpha_v)}{4a^2-1}\right),
  &0&\le v<N,\quad 1\le j\le6.
 \end{aligned}
-\end{equation}$$ The replacement of the density integral is the sum of masses $o_vd_j(\tau_{jv})/6$. Since $0<\pi\alpha_v<\pi$, every quadrature point lies inside its frequency interval. This is the first Fejér rule described by Waldvogel (Waldvogel 2006, sec. 2), divided by two so that its weights on $[-1,1]$ approximate the average rather than the integral of mass two. We prove the exactness and positivity needed for this normalization.
+\end{equation}$$ The replacement of the density integral is the sum of masses $o_vd_j(\tau_{jv})/6$. Since $0<\pi\alpha_v<\pi$, every quadrature point lies inside its frequency interval. This is the first Fejér rule described by Waldvogel [32, Section 2], divided by two so that its weights on $[-1,1]$ approximate the average rather than the integral of mass two. We prove the exactness and positivity needed for this normalization.
 
 Put $\theta_v=\pi(v+1/2)/N$. For $1\le l\le2N-1$, the finite identity $$\sum_{v=0}^{N-1}\cos((v+1/2)t)=\frac{\sin(Nt)}{2\sin(t/2)}$$ at $t=l\pi/N$ gives $N^{-1}\sum_v\cos(l\theta_v)=0$. Applying the product-to-sum formula, for $1\le l\le N-1$ and $1\le a\le N/2-1$ we obtain $$\frac1N\sum_{v=0}^{N-1}\cos(l\theta_v)\cos(2a\theta_v)
  =\begin{cases}1/2,&l=2a,\\0,&l\ne2a.\end{cases}$$ Consequently $$\sum_{v=0}^{N-1}o_v\cos(l\theta_v)
@@ -470,7 +470,7 @@ At a positive center the desired value and derivative contacts would make $T_k-H
  F_{r+\nu}(m,y)WX_i+G_{r+\nu}(m,y)WX_{3-i}\bigr).$$ There is no singular case here: every selected half-gap has $y\ne0$.
 
 The rows $L_{i,d}$ are exactly the degree-$40$ Bernstein coefficients of $\sum_{r=0}^{40}l_{i,r}x^r$. Indeed, the binomial theorem gives $$x^r=\sum_{d=r}^{40}\frac{\binom dr}{\binom{40}r}
-       \binom{40}d x^d(1-x)^{40-d}.$$ On $[0,1]$ the complete family $\binom{40}d x^d(1-x)^{40-d}$, $0\le d\le40$, is nonnegative and sums to one. Thus a polynomial value lies between its smallest and largest Bernstein coefficients, the standard coefficient-range enclosure discussed by Titi and Garloff (Titi and Garloff 2019, sec. 3). The identity just proved specifies our rows; the local remainder and parameter estimates are separate.
+       \binom{40}d x^d(1-x)^{40-d}.$$ On $[0,1]$ the complete family $\binom{40}d x^d(1-x)^{40-d}$, $0\le d\le40$, is nonnegative and sums to one. Thus a polynomial value lies between its smallest and largest Bernstein coefficients, the standard coefficient-range enclosure discussed by Titi and Garloff [31, Section 3]. The identity just proved specifies our rows; the local remainder and parameter estimates are separate.
 
 The first inequality also contains the target quotient $\mathcal D_{m,\nu}T_k$. To bound it below on the same half-gap and parameter box, define $$\begin{equation}
 \tag{3.9}
@@ -605,7 +605,7 @@ The power sums use nine doubling steps. Start with $U=D$ and $V_+=V_-=I$. At ste
 
 There are $46$ centers: the seven complete residue blocks in $[0,83]$ contribute $42$, and $84,85,87,88$ contribute four more. Every center has a right half-gap and every center except zero has a left one, giving $91$. Consequently the sign table consists of $91\cdot2\cdot5\cdot41=37310$ separate real lower comparisons, and the tail column consists of ten. The power and column tests likewise compare every indicated norm, including each same-column paired norm.
 
-The selected finite route encloses the exact mathematical quadrature arrays directly by Arb ball arithmetic, whose inclusion principle is described by Johansson (Johansson 2017). The local source implements these formulas at $256$-bit precision. For an upper comparison the required test is that the whole ball lies below its table cutoff; for a lower comparison it is that the whole ball lies above it. It performs these tests for all indices just counted. All comparisons in Tables 1–3 pass these strict inclusion tests. The containing-box lemma, Bernstein range property, and analytic remainders provide continuum coverage in $s$ and $k$.
+The selected finite route encloses the exact mathematical quadrature arrays directly by Arb ball arithmetic, whose inclusion principle is described by Johansson [17]. The local source implements these formulas at $256$-bit precision. For an upper comparison the required test is that the whole ball lies below its table cutoff; for a lower comparison it is that the whole ball lies above it. It performs these tests for all indices just counted. All comparisons in Tables 1–3 pass these strict inclusion tests. The containing-box lemma, Bernstein range property, and analytic remainders provide continuum coverage in $s$ and $k$.
 
 Finally, the stronger cutoffs imply the displayed proposition bounds: $.0031<.004$, $32.12+1.85<36$, $2.20<2.3$, $5.40<5.6$, $.00116>.001$, and $.0022>.0021$. Appendix C gives a second, fully specified floor-rounded rational procedure and proves that a successful comparison with these same stronger cutoffs implies the looser proposition bounds after its roundoff allowances. ◻
 
@@ -613,7 +613,7 @@ Finally, the stronger cutoffs imply the displayed proposition bounds: $.0031<.00
 
 The finite columns of Section 3 approximate the interpolation equations, but the auxiliary functions must use the genuine spectral integrals. We correct the finite lists in an unweighted $\ell^1$ space, holding their extra coordinates fixed. The useful small quantity is not the norm of the full transformed-jet operator: it is the norm of its outputs at distant nodes. This allows a finite-block inverse followed by a small tail correction.
 
-The elimination method adapts the finite-block and tail argument of OpenAI (OpenAI 2026a, sec. 3). The operator, target data, and quantitative estimates below are those of the present Gaussian problem.
+The elimination method adapts the finite-block and tail argument of OpenAI [23, Section 3]. The operator, target data, and quantitative estimates below are those of the present Gaussian problem.
 
 Let $$\mathcal E=\ell^1(\mathcal N;\mathbb R^2),\qquad
  \mathcal T=\mathcal N\setminus\mathcal F,$$ where $\mathcal F=\mathcal N\cap[1,168]$ is the finite node set from Section 3. The two coordinates at each node are its $c$- and $d$-coefficients. On a pair of lists we use the sum of their norms. A subscript $\mathcal F$ or $\mathcal T$ restricts the corresponding input or output; the paired finite block has 336 coordinates. Every operator norm is induced by these unweighted norms.
@@ -632,7 +632,7 @@ Let $$\mathcal E=\ell^1(\mathcal N;\mathbb R^2),\qquad
  \tag{4.2}
 \end{equation}$$ The functions $H_1,H_2$ are entire and real on the real axis. In particular, $H_1-T_k$ and $H_2$ have zeros of order at least two at every positive node, including the nodes that are not lattice radii. Their Gaussian-damped functions form the real radial Schwartz Fourier pair of Lemma 2.4.*
 
-The bounded inverse below gives uniqueness for summable coefficient lists with fixed extras and jets prescribed on the larger periodic node set $\mathcal N$. This differs from reconstruction using only the actual triangular shells: Talebizadeh Sardari (Talebizadeh Sardari 2021, Theorem 1.7) constructs infinitely many linearly independent radial Schwartz functions whose values and radial derivatives, and those of their Fourier transforms, vanish on all those shells.
+The bounded inverse below gives uniqueness for summable coefficient lists with fixed extras and jets prescribed on the larger periodic node set $\mathcal N$. This differs from reconstruction using only the actual triangular shells: Talebizadeh Sardari [30, Theorem 1.7] constructs infinitely many linearly independent radial Schwartz functions whose values and radial derivatives, and those of their Fourier transforms, vanish on all those shells.
 
 *Proof.* We first solve the exact operator equation on the full space. We then bound the size and residual of the finite reference lists and use the same block equations to estimate their correction.
 
@@ -943,7 +943,7 @@ The preceding sections construct the Fourier pair in Theorem 2.1. We now turn t
 
 ### An area comparison under centered density
 
-Recall that $B_R$ is the centered closed disk, $\mathcal C_R=\mathcal C\cap B_R$, and $N_R=\#\mathcal C_R$. The only geometric limit used below is $N_R/(\pi R^2)\to1$. The density-only linear-programming argument is due to Cohn and de Courcy-Ireland (Cohn and Courcy-Ireland 2018, Proposition 2.2), whose background-measure comparison follows Cohn and Zhao (Cohn and Zhao 2014, Theorem 3.3). The latter is a packing theorem; its exclusion-distance hypothesis is not an assumption here. We give the argument for the exact auxiliary class used in this paper.
+Recall that $B_R$ is the centered closed disk, $\mathcal C_R=\mathcal C\cap B_R$, and $N_R=\#\mathcal C_R$. The only geometric limit used below is $N_R/(\pi R^2)\to1$. The density-only linear-programming argument is due to Cohn and de Courcy-Ireland [5, Proposition 2.2], whose background-measure comparison follows Cohn and Zhao [10, Theorem 3.3]. The latter is a packing theorem; its exclusion-distance hypothesis is not an assumption here. We give the argument for the exact auxiliary class used in this paper.
 
 **Proposition 6.1** (Linear programming with centered disk density). *Let $f$ be a real even Schwartz function on $\mathbb R^2$ whose Fourier transform is nonnegative. Every locally finite configuration $\mathcal C\subset\mathbb R^2$ with centered disk density one satisfies $$\begin{equation}
 \tag{6.1}
@@ -976,7 +976,7 @@ The area self-term has the limit $$\frac{Q(\nu_R,\nu_R)}{V_R}
 
 ### Sharp pairs for every Gaussian parameter
 
-The normalized theorem directly covers $\alpha\ge1$. Fourier complementation supplies $0<\alpha<1$. This is the Gaussian form of the duality in Cohn and Miller (Cohn and Miller 2016, sec. 6); we give the calculation to fix the dimension-two factor and the two contact sets.
+The normalized theorem directly covers $\alpha\ge1$. Fourier complementation supplies $0<\alpha<1$. This is the Gaussian form of the duality in Cohn and Miller [9, Section 6]; we give the calculation to fix the dimension-two factor and the two contact sets.
 
 **Lemma 6.2** (Gaussian duality). *For every $\alpha>0$, let $G_\alpha(x)=e^{-\pi\alpha|x|^2}$. There is a real radial Schwartz function $f_\alpha$ such that, pointwise, $$\begin{equation}
 \tag{6.3}
@@ -1014,7 +1014,7 @@ Equation (6.6) compares the configuration with the triangular lattice for every
 
 ### A finite moment representation
 
-The representation belongs to the classical Hausdorff–Bernstein–Widder theory (Hausdorff 1921; Bernstein 1929; Widder 1931). We prove precisely the finite-measure form needed here. The construction first solves a discrete moment problem using finite differences, then passes to all positive real exponents. It also identifies the endpoint masses that enter the energy argument.
+The representation belongs to the classical Hausdorff–Bernstein–Widder theory [1, 16, 33]. We prove precisely the finite-measure form needed here. The construction first solves a discrete moment problem using finite differences, then passes to all positive real exponents. It also identifies the endpoint masses that enter the energy argument.
 
 **Lemma 7.1** (Positive mixtures). *Let $F:[0,\infty)\to[0,\infty)$ be smooth, with one-sided derivatives at zero, and suppose $(-1)^jF^{(j)}(t)\ge0$ for every integer $j\ge0$ and every $t\ge0$. There is a finite positive Borel measure $\rho$ on $[0,1]$ of total mass $F(0)$ such that $$\begin{equation}
 \tag{7.1}
@@ -1075,20 +1075,20 @@ Choose a bounded half-open fundamental cell of $A$ with vertex zero and area one
 
 ## Renormalized and jellium energies
 
-The universal-energy theorem is now proved. For the nonsummable Riesz kernels with $0<s<2$ and for the logarithm, the meaningful finite comparison comes from neutralizing the points against a uniform background and removing their self-energy. Petrache and Serfaty established the implication from universal optimality to these crystallization conclusions (Petrache and Serfaty 2020, Theorem 2). We give the transfer for the field normalization and order of limits specified below.
+The universal-energy theorem is now proved. For the nonsummable Riesz kernels with $0<s<2$ and for the logarithm, the meaningful finite comparison comes from neutralizing the points against a uniform background and removing their self-energy. Petrache and Serfaty established the implication from universal optimality to these crystallization conclusions [27, Theorem 2]. We give the transfer for the field normalization and order of limits specified below.
 
 The decisive intermediate comparison allows arbitrary period lattices. Consequently the square-periodic approximation of the field infimum in Appendix B suffices, although the minimizing lattice is triangular.
 
 ### Field and scalar energy conventions
 
-Following the field-first construction of Petrache and Serfaty (Petrache and Serfaty 2017, Definitions 1.2–1.3), we define the energy with its full-space normalization fixed by the fundamental-solution equation below. The truncation limit and cubic approximation for this convention are established in Proposition B.1. For $0\le s<2$, put $$g_s(X)=\begin{cases}-\log|X|,&s=0,\\ |X|^{-s},&0<s<2,\end{cases}
+Following the field-first construction of Petrache and Serfaty [26, Definitions 1.2–1.3], we define the energy with its full-space normalization fixed by the fundamental-solution equation below. The truncation limit and cubic approximation for this convention are established in Proposition B.1. For $0\le s<2$, put $$g_s(X)=\begin{cases}-\log|X|,&s=0,\\ |X|^{-s},&0<s<2,\end{cases}
  \qquad
  (k,\gamma)=\begin{cases}(0,0),&s=0,\\(1,s-1),&0<s<2.\end{cases}$$ Write $X=(x,y)\in\mathbb R^2\times\mathbb R^k$, with the extra coordinate omitted when $k=0$, and let $w_s=|y|^\gamma$ for $k=1$ and $w_0=1$. The full-space identity $$-\operatorname{div}(w_s\nabla g_s)=\kappa_s\delta_0$$ gives $\kappa_0=2\pi$ and, for $0<s<2$, $$\kappa_s=s\int_{S^2}|\omega_y|^{s-1}\,d\sigma(\omega)=4\pi.$$ Here $\omega_y$ is the vertical coordinate on the unit sphere, and $\delta_{\mathbb R^2}$ denotes area measure on $\mathbb R^2\times\{0\}$.
 
 Fix once and for all $p$ with $1<p<2$ if $s=0$, and $$1<p<\min\left(2,\frac2s,\frac3{s+1}\right)
  \qquad\text{if }0<s<2.$$ For a locally finite configuration $\mathcal C$, admissible fields are gradients $E=\nabla h$ in $L^p_{\mathrm{loc}}(\mathbb R^{2+k};\mathbb R^{2+k})$ with $w_sE\in L^1_{\mathrm{loc}}$, satisfying $$-\operatorname{div}(w_sE)
  =\kappa_s\left(\sum_{p\in\mathcal C}\delta_{(p,0)}
-                      -\delta_{\mathbb R^2}\right).$$ This is the local integrability range following Petrache and Serfaty (Petrache and Serfaty 2017, Definition 1.2). Set $$f_{s,\eta}=(g_s-g_s(\eta))_+,
+                      -\delta_{\mathbb R^2}\right).$$ This is the local integrability range following Petrache and Serfaty [26, Definition 1.2]. Set $$f_{s,\eta}=(g_s-g_s(\eta))_+,
  \qquad E_\eta=E-\sum_{p\in\mathcal C}
                        \nabla f_{s,\eta}(X-(p,0)).$$ Thus the scalar potential subtracts $f_{s,\eta}$ and its gradient subtracts $\nabla f_{s,\eta}$. For $K_R=[-R/2,R/2]^2$, define $$\begin{align*}
  \mathcal W_{s,\eta}(E)&=\limsup_{R\to\infty}
@@ -1105,7 +1105,7 @@ The periodic energy has the same field normalization. For a torus $T=\mathbb R^2
       =\delta_{(0,0)}-N^{-1}\delta_T,$$ integration by parts gives $$W_{s,L}=\kappa_s^2\left[
   \frac1N\sum_{i\ne j}\mathcal G_L(a_i-a_j,0)
   +\lim_{x\to0}\left(\mathcal G_L(x,0)-\frac{g_s(x)}{\kappa_s}\right)
- \right].$$ This follows the integration-by-parts argument of Petrache and Serfaty (Petrache and Serfaty 2017, Proposition 1.5), using the Green function and coefficient determined by the displayed extension equation.
+ \right].$$ This follows the integration-by-parts argument of Petrache and Serfaty [26, Proposition 1.5], using the Green function and coefficient determined by the displayed extension equation.
 
 For $N\in\mathbb N$, set $R=\sqrt N$ and $K_R=[-R/2,R/2]^2$. The finite ordered-pair jellium energy is $$\begin{equation}
 \tag{8.1}
@@ -1143,7 +1143,7 @@ For a density-one periodic configuration $\mathcal C=\bigcup_{i=1}^N(a_i+L)$, wr
   \frac1N\sum_{i\ne j}G_L(a_i-a_j)
   +\lim_{x\to0}\left(G_L(x)-\frac{g_s(x)}{q_s}\right)\right].$$
 
-Set $$B_{\mathcal C}(t,x)=\frac1N\sum_{i,j}P_{t,L}(a_i-a_j+x),$$ so $B_{\mathcal C}(t,0)=H_{\mathcal C}(t)+\Psi_t(0)$. The heat representation (Petrache and Serfaty 2020, Lemma 1) is $$G_L(x)=\frac1{\Gamma(\alpha)}\int_0^\infty
+Set $$B_{\mathcal C}(t,x)=\frac1N\sum_{i,j}P_{t,L}(a_i-a_j+x),$$ so $B_{\mathcal C}(t,0)=H_{\mathcal C}(t)+\Psi_t(0)$. The heat representation [27, Lemma 1] is $$G_L(x)=\frac1{\Gamma(\alpha)}\int_0^\infty
        \left(P_{t,L}(x)-\frac1N\right)t^{\alpha-1}\,\mathop{}\!\mathrm dt.$$ Its spectral proof applies to any flat torus. To compare two periodic configurations $\mathcal C$ and $\mathcal D$, set $S_{\mathcal C}(x)=N^{-1}\sum_{i,j}G_L(a_i-a_j+x)$, and define $S_{\mathcal D}$ using its own period lattice and point count. Each $S$ has singular part $g_s(x)/q_s$. In their heat-integrand difference the background terms are both $1$ and the diagonal terms are both $\Psi_t(x)$, so these terms cancel. Uniformly for $x$ near zero, the remaining difference is bounded by $Ct^{-1}e^{-c/t}$ as $t\downarrow0$, because the other image distances are positive, and by $Ce^{-\lambda t}$ as $t\to\infty$, by the two torus spectral gaps. Dominated convergence as $x\to0$ consequently gives $$V_s(\mathcal C)-V_s(\mathcal D)
  =\frac{\kappa_sq_s}{\Gamma(1-s/2)}\int_0^\infty
        \big(H_{\mathcal C}(t)-H_{\mathcal D}(t)\big)t^{-s/2}\,\mathop{}\!\mathrm dt.$$ This calculation also covers $s=0$: the logarithmic singularity cancels before either endpoint is integrated. ◻
@@ -1170,14 +1170,14 @@ Put $m_s=\inf_E\mathcal W_s(E)$, where the infimum runs over all compatible grad
     \min_{\mathbf a\in(\mathbb R^2/(\sqrt N\mathbb Z^2))^N}
                    \mathcal E_{\mathrm{per},\sqrt N\mathbb Z^2}(\mathbf a)
  =:e_{\mathrm{per}}^{(s)} .
-\end{equation}$$ For $0<s<2$, this is Lewin et al. (Lewin et al. 2019, secs. II, (3)–(4), and Section VI, (25), (27)–(31), Theorem 2); for $s=0$, it is Lauritsen (Lauritsen 2021, sec. II and Theorem II.1), who also proves existence of the full periodic limit. Both inputs use $N$ particles against a background of density one and area $N$, with unrestricted particle positions on the left. Their scalar energies count each pair once. Their periodic kernels have zero mean, and their self contribution is $Nr_L/2$, exactly as in $\mathcal E_{\mathrm{per},L}$ above.
+\end{equation}$$ For $0<s<2$, this is Lewin et al. [20, Section II, (3)–(4), and Section VI, (25), (27)–(31), Theorem 2]; for $s=0$, it is Lauritsen [18, Section II and Theorem II.1], who also proves existence of the full periodic limit. Both inputs use $N$ particles against a background of density one and area $N$, with unrestricted particle positions on the left. Their scalar energies count each pair once. Their periodic kernels have zero mean, and their self contribution is $Nr_L/2$, exactly as in $\mathcal E_{\mathrm{per},L}$ above.
 
 The approximating periods in Proposition B.1 are cubic. Every canonical periodic value is at least $m_s$, and the values along that sequence tend to $m_s$. The finite identity $2\mathcal E_{\mathrm{per},L}/N=W_{s,L}/\kappa_s$ therefore identifies the lower limit in (8.2) as $e_{\mathrm{per}}^{(s)}=m_s/(2\kappa_s)$.
 
 *Confinement to the background square.* Finite minimization is unchanged by restricting the particles to $K_R$. Fix the other $N-1$ particles. For $0<s<2$, their one-particle potential extends to $X=(x,z)\in\mathbb R^3$ as $$U(X)=\sum_{j\ne i}|X-(a_j,0)|^{-s}
              -\int_{K_R}|X-(y,0)|^{-s}\,\mathop{}\!\mathrm dy .$$ The background potential is continuous because $s<2$, the point poles tend to $+\infty$, and $U(X)=-|X|^{-s}+O(|X|^{-s-1})$ at infinity. Hence $U$ attains a negative global minimum away from its point poles.
 
-We use the weighted strong minimum principle: a continuous weak solution $u\in H^1_{\mathrm{loc}}(D,|z|^\gamma\,\mathop{}\!\mathrm dX)$ of $\operatorname{div}(|z|^\gamma\nabla u)=0$ on a connected open set $D$, with $-1<\gamma<1$, cannot attain an interior minimum unless it is constant (Fabes et al. 1982, Corollary 2.3.10, p. 98). This follows from their Harnack inequality for $A_2$ weights, Theorem 2.3.8; here $|z|^\gamma\in A_2$.
+We use the weighted strong minimum principle: a continuous weak solution $u\in H^1_{\mathrm{loc}}(D,|z|^\gamma\,\mathop{}\!\mathrm dX)$ of $\operatorname{div}(|z|^\gamma\nabla u)=0$ on a connected open set $D$, with $-1<\gamma<1$, cannot attain an interior minimum unless it is constant [13, Corollary 2.3.10, p. 98]. This follows from their Harnack inequality for $A_2$ weights, Theorem 2.3.8; here $|z|^\gamma\in A_2$.
 
 Apply this principle on $$D=\mathbb R^3\setminus\bigl((K_R\times\{0\})
                     \cup\{(a_j,0):j\ne i\}\bigr),
@@ -1350,7 +1350,7 @@ A cutoff-energy estimate alone does not control the renormalized energy: removin
 The screening fields need not be gradients. At that stage we preserve the divergence equation, obtain zero exterior normal flux, and bound the cutoff energy. After reflection, projection onto the canonical periodic gradient preserves the charges and decreases that energy. For cutoff estimates and compactness we temporarily allow integer multiplicities; the stationary-law lemma will rule out collisions before using the infimum over simple configurations. Let $B_\eta$ be the ball of radius $\eta$ centered at zero in $\mathbb R^{2+k}$. The positive unit sphere measure is $$d\delta_0^{(\eta)}
    =\kappa^{-1}[-g'(\eta)]w\,d\sigma_{\partial B_\eta},
  \qquad Lf_\eta=\kappa(\delta_0-\delta_0^{(\eta)}).$$ The measure $\delta_p^{(\eta)}$ is its translate to $(p,0)$. The sign is fixed by the decreasing kernel. Write $\nu=\sum_pN_p\delta_p$, $\nu_\eta=\sum_pN_p\delta_p^{(\eta)}$, and $N_B=\nu(B)$. Fix the geometric constants $$a_0=\frac14\sqrt{\frac23},\qquad a_1=4\sqrt2,
- \qquad \eta_0=\min\left\{\frac18,\frac{a_0}{16}\right\}.$$ These constants are independent of the cutoffs, the realization, $\varepsilon$, and $R$. Indeed, the planar subdivision in Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.3) gives sidelengths in $[\frac14\widetilde m^{-1/2},4\widetilde m^{-1/2}]$; for $\widetilde m\in[1/2,3/2]$ this interval is contained in $[a_0,a_1]$. Fix once and for all a dyadic auxiliary cutoff $\eta'\in(0,\eta_0)$ for the local count estimates, and include it among the cutoffs controlled by the stationary law. The cutoffs used for stationary approximation will run through dyadic values $0<\eta<\eta'$.
+ \qquad \eta_0=\min\left\{\frac18,\frac{a_0}{16}\right\}.$$ These constants are independent of the cutoffs, the realization, $\varepsilon$, and $R$. Indeed, the planar subdivision in Petrache and Serfaty [26, Lemma 6.3] gives sidelengths in $[\frac14\widetilde m^{-1/2},4\widetilde m^{-1/2}]$; for $\widetilde m\in[1/2,3/2]$ this interval is contained in $[a_0,a_1]$. Fix once and for all a dyadic auxiliary cutoff $\eta'\in(0,\eta_0)$ for the local count estimates, and include it among the cutoffs controlled by the stationary law. The cutoffs used for stationary approximation will run through dyadic values $0<\eta<\eta'$.
 
 ### Cutoff control and spatial density
 
@@ -1365,7 +1365,7 @@ The screening fields need not be gradients. At that stage we preserve the diverg
        =\kappa[g(\alpha)-g(\eta)],\qquad 0<\alpha<\eta.$$ Consequently, if $Q_\alpha(E,R)=O(R^2)$ at one fixed cutoff, then $Q_\eta(E,R)=O(R^2)$ at every fixed cutoff: apply (B.1) to the finite-range difference $\sum_pN_p\nabla(f_\alpha-f_\eta)(\cdot-p)$.
 
 The smeared Gauss equation also gives $\nu(K_R)/R^2\to1$ whenever one cutoff has volume-order energy. For completeness, choose a lateral boundary at distance at most one from $\partial K_R$ with squared flux energy $O(R^2)$. For $k=1$, choose height $L\in[1,\sqrt R]$ with top and bottom squared energy $O(R^{3/2})$. Weighted Cauchy–Schwarz bounds the total flux by $$C L^{(\gamma+1)/2}R^{3/2}
-       +C L^{\gamma/2}R^{7/4}=o(R^2),$$ since $-1<\gamma<1$ (for negative $\gamma$, use $L^{\gamma/2}\le1$). The smeared count lies between the counts in squares whose sidelengths differ from $R$ by a fixed constant. Applying these inequalities at the correspondingly shifted radii proves full-radius density convergence. In the logarithmic case only the lateral term is needed. This is the argument of Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 2.1), with the actual flux in the weak equation.
+       +C L^{\gamma/2}R^{7/4}=o(R^2),$$ since $-1<\gamma<1$ (for negative $\gamma$, use $L^{\gamma/2}\le1$). The smeared count lies between the counts in squares whose sidelengths differ from $R$ by a fixed constant. Applying these inequalities at the correspondingly shifted radii proves full-radius density convergence. In the logarithmic case only the lateral term is needed. This is the argument of Petrache and Serfaty [26, Lemma 2.1], with the actual flux in the weak equation.
 
 Put $S=\sum_pN_p(f_\alpha-f_\eta)(\cdot-p)\le0$. For a horizontal cutoff $\chi$, integration by parts gives $$\begin{align*}
  \int\chi w(|E_\eta|^2-|E_\alpha|^2)
@@ -1409,7 +1409,7 @@ Weighted quadratic energy is lower semicontinuous in this topology. On a bounded
  =\sup_{\psi\in C_c^\infty}
        \left(2\langle F,\psi\rangle-\int w^{-1}|\psi|^2\right).$$ Take the increasing supremum over cylinder heights for the full extension integral. Consequently a subsequential law $P$ satisfies (B.4) with $P$ in place of $P_j$. At this point the limit law is supported on compatible gradients and has the required energy bounds; it may still have multiple charges. It is horizontally stationary: for a fixed translation $z$, the total variation discrepancy of an orbit law and its translate is at most $|K_{S_j}\mathbin\triangle(K_{S_j}+z)|/S_j^2\to0$.
 
-The $L^1$ pointwise and mean ergodic theorems along tempered Følner sequences (Lindenstrauss 1999, sec. 1), applied to the centered square sequence in $\mathbb Z^2$, apply to each integrable observable $\Gamma_{\eta_\ell}$. The tiled sums of this observable are exactly the raw energies on integer squares; positivity and nested squares extend the limits to every real radius. Each limit is the conditional expectation of its observable on the $\mathbb Z^2$-invariant sigma-algebra. It may depend on the realization; no ergodicity of $P$ is assumed. Its expectation equals the mean of the observable. Thus, on one event of full probability for all selected cutoffs, $$a_{\eta_\ell}:=\mathbb E_P\mathcal W_{\eta_\ell}
+The $L^1$ pointwise and mean ergodic theorems along tempered Følner sequences [21, Section 1], applied to the centered square sequence in $\mathbb Z^2$, apply to each integrable observable $\Gamma_{\eta_\ell}$. The tiled sums of this observable are exactly the raw energies on integer squares; positivity and nested squares extend the limits to every real radius. Each limit is the conditional expectation of its observable on the $\mathbb Z^2$-invariant sigma-algebra. It may depend on the realization; no ergodicity of $P$ is assumed. Its expectation equals the mean of the observable. Thus, on one event of full probability for all selected cutoffs, $$a_{\eta_\ell}:=\mathbb E_P\mathcal W_{\eta_\ell}
        =\mathbb E_P\Gamma_{\eta_\ell}-\kappa g(\eta_\ell)
        \le m+2\kappa F_{\eta_\ell}.$$ Fatou and the uniform lower bound give $\mathbb E_P\mathcal W\le m$. This does not yet use minimality, because the limit could have multiplicities. It shows that $\mathcal W$ is finite and integrable. Equation (B.3) then gives dominated convergence $a_{\eta_\ell}\to\mathbb E_P\mathcal W$.
 
@@ -1447,7 +1447,7 @@ We have obtained simple minimizing fields. The remaining task is to select one w
 
 ### Screening at a fixed cutoff
 
-We use the rectangular shell construction of Petrache and Serfaty (Petrache and Serfaty 2017, sec. 6.2). The next lemma records the precise input and output needed here; the proof supplies the local field equations and their constants in the present normalization.
+We use the rectangular shell construction of Petrache and Serfaty [26, Section 6.2]. The next lemma records the precise input and output needed here; the proof supplies the local field equations and their constants in the present normalization.
 
 **Lemma B.4** (Screening without new close pairs). *Fix the auxiliary cutoff $\eta'$ chosen above and $0<\eta<\eta'$. Let $E$ be a compatible simple gradient field for which $$M_{R,\rho}:=R^{-2}Q_\rho(E,R)$$ has a finite limit for $\rho=\eta,\eta'$. If $k=1$, suppose also that $e_{\varepsilon,R}$ defined in (B.8) tends to zero for every fixed $\varepsilon>0$; set $e_{\varepsilon,R}=0$ if $k=0$. For every $0<\varepsilon<1/8$ and every sufficiently large integer $R$, there are exactly $R^2$ distinct points $\widehat\Lambda\subset K_R$ and a field $\widehat E$ with zero exterior normal flux satisfying $$-\operatorname{div}(w\widehat E)
  =\kappa\left(\sum_{p\in\widehat\Lambda}\delta_{(p,0)}
@@ -1502,7 +1502,7 @@ Put $g_\eta=g-f_\eta$, the fundamental solution capped at $g(\eta)$. The retaine
  \le\int |Tu|\,d\delta_p^{(\eta)}
  =\kappa^{-1}\left|\int w\nabla g_\eta(\cdot-p)
                                       \cdot\nabla|Tu|\right|
- \le C\sqrt{1+g(\eta)}\,\|\nabla u\|_{L^2(w)}.$$ The Neumann functional annihilates constants. Lax–Milgram therefore gives energy at most $C N^2(1+g(\eta))$ when at most $N$ labeled charges contribute and the sum of the absolute prescribed face fluxes is at most $C\kappa N$. The same proof allows several constant face data whose total is $-\kappa Q$: apply the trace bound to each face. This proves the local estimate needed from Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.6), with the outward flux fixed by $Lh=\kappa\nu$.
+ \le C\sqrt{1+g(\eta)}\,\|\nabla u\|_{L^2(w)}.$$ The Neumann functional annihilates constants. Lax–Milgram therefore gives energy at most $C N^2(1+g(\eta))$ when at most $N$ labeled charges contribute and the sum of the absolute prescribed face fluxes is at most $C\kappa N$. The same proof allows several constant face data whose total is $-\kappa Q$: apply the trace bound to each face. This proves the local estimate needed from Petrache and Serfaty [26, Lemma 6.6], with the outward flux fixed by $Lh=\kappa\nu$.
 
 For crossing-charge completion, form a separate tensor grid with sidelengths in $[1,2]$, again containing all inner and outer face coordinates. Restrict $\rho_0$ to its exterior cells times $[-1,1]^k$. Its exterior support lies within distance $2\eta$ of $\partial K'_R$. With $2\eta<1/2$, every such cell either lies in the first layer outside exactly one inner coordinate face, and shares a full face with $K'_R$, or is one of the four diagonal corner cells. Route each corner cell to an adjacent first-layer cell through their full shared face. These are trees of uniformly bounded size; cells not receiving a corner contribution are single-cell trees.
 
@@ -1531,7 +1531,7 @@ For each large cell set $Q_i=\int_{(\partial K'_R\cap\partial H_i)\times[-\ell,\
 Set $r_i=m_i|H_i|$. Round the $r_i$ down, and increase the required number of entries by one, obtaining integers $n_i$ with $\sum_i n_i=N_{\rm new}$ and $|n_i-r_i|\le1$. Put $\widetilde m_i=n_i/|H_i|$. For large $R$ these densities lie in $[1/2,3/2]$. To compensate this rounding, write $\delta_i=n_i-r_i$, whose sum is zero, and choose a rooted spanning tree of the large-cell adjacency graph. On the face from a child cell $i$ to its parent prescribe outward weighted flux $-\kappa\sum_{a\text{ in the subtree of }i}\delta_a$, with opposite flux on the adjacent cell. The total outward flux of cell $i$ is $-\kappa\delta_i$. There is therefore a compatible Neumann field $E_{{\rm round},i}$ with source $\kappa\delta_i|H_i|^{-1}\delta_{\mathbb R^2}$, these face fluxes, and zero flux on all other faces, including the caps. The paired fluxes make the union $E_{\rm round}$ a global field. It has no flux through the inner or outer shell boundary. After dilation by $\ell$, weighted trace and Poincaré on rectangles of bounded aspect ratio give $$\int w|E_{\rm round}|^2\le
  \begin{cases}C_{s,\varepsilon}\ell^{-s},&s>0,\\
  C_\varepsilon,&s=0.
- \end{cases}$$ Indeed there are $O_\varepsilon(1)$ cells and each tree flux is $O_\varepsilon(1)$; the unit-scale variational problem has bounded energy, and dilation scales it by $\ell^{-s}$ for Riesz kernels and by one for the logarithm. This is $o(R^2)$ at fixed parameters. For sufficiently large $R$, every sidelength of $H_i$ is at least $\ell>2\sqrt2\ge2\widetilde m_i^{-1/2}$, and $\widetilde m_i|H_i|=n_i\in\mathbb N$. Thus Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.3) partitions $H_i$ into $n_i$ rectangles of area $1/\widetilde m_i$, with every sidelength in $$\left[\frac14\widetilde m_i^{-1/2},
+ \end{cases}$$ Indeed there are $O_\varepsilon(1)$ cells and each tree flux is $O_\varepsilon(1)$; the unit-scale variational problem has bounded energy, and dilation scales it by $\ell^{-s}$ for Riesz kernels and by one for the logarithm. This is $o(R^2)$ at fixed parameters. For sufficiently large $R$, every sidelength of $H_i$ is at least $\ell>2\sqrt2\ge2\widetilde m_i^{-1/2}$, and $\widetilde m_i|H_i|=n_i\in\mathbb N$. Thus Petrache and Serfaty [26, Lemma 6.3] partitions $H_i$ into $n_i$ rectangles of area $1/\widetilde m_i$, with every sidelength in $$\left[\frac14\widetilde m_i^{-1/2},
                       4\widetilde m_i^{-1/2}\right]
                   \subset[a_0,a_1].$$ In particular, the lower bound $a_0$ fixed at the start applies to every new-charge rectangle, independently of all later choices.
 
@@ -1553,7 +1553,7 @@ The large-cell estimate used for this correction is as follows. Let $H$ have sid
                               \int_\Omega |y|^\gamma|\nabla h|^2,
  \qquad
  \int_\Sigma |y|^\gamma|h|^2
-          \le C_\gamma\ell\int_\Omega |y|^\gamma|\nabla h|^2.$$ Testing the weak equation gives the first inequality in (B.11). Compatibility, $|H|\asymp\ell^2$, and $\int_\Sigma|y|^\gamma\asymp\ell^{\gamma+2}$ give $a^2\ell^{3-\gamma}\le C_\gamma\ell\int_\Sigma|y|^\gamma|b|^2$, which proves the second. This is the constant-source case of Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.4), with the source coefficient written explicitly. For the logarithm use $\Omega=H$, $-\Delta h=a$, and $\partial_\nu h=b$ on $\partial H$; ordinary Poincaré, trace, and compatibility give the same final bound $C\ell\int_{\partial H}|b|^2$.
+          \le C_\gamma\ell\int_\Omega |y|^\gamma|\nabla h|^2.$$ Testing the weak equation gives the first inequality in (B.11). Compatibility, $|H|\asymp\ell^2$, and $\int_\Sigma|y|^\gamma\asymp\ell^{\gamma+2}$ give $a^2\ell^{3-\gamma}\le C_\gamma\ell\int_\Sigma|y|^\gamma|b|^2$, which proves the second. This is the constant-source case of Petrache and Serfaty [26, Lemma 6.4], with the source coefficient written explicitly. For the logarithm use $\Omega=H$, $-\Delta h=a$, and $\partial_\nu h=b$ on $\partial H$; ordinary Poincaré, trace, and compatibility give the same final bound $C\ell\int_{\partial H}|b|^2$.
 
 For the side field on $H_i$, take $$a_i=\kappa(m_i-1)+\ell^\gamma(C^++C^-),\qquad
  b_i=-E_\eta\cdot\nu_0+j
@@ -1892,68 +1892,68 @@ If the floor computation passes all these tests, the roundoff lemma transfers th
 
 ## References
 
-Bernstein, Serge. 1929. “Sur Les Fonctions Absolument Monotones.” *Acta Mathematica* 52: 1–66. <https://doi.org/10.1007/BF02592679>.
+**[1]** Serge Bernstein. Sur les fonctions absolument monotones. *Acta Mathematica*, 52:1–66, 1929.
 
-Carneiro, Emanuel, Friedrich Littmann, and Jeffrey D. Vaaler. 2013. “Gaussian Subordination for the Beurling–Selberg Extremal Problem.” *Transactions of the American Mathematical Society* 365 (7): 3493–534. <https://doi.org/10.1090/S0002-9947-2013-05716-9>.
+**[2]** Emanuel Carneiro, Friedrich Littmann, and Jeffrey D. Vaaler. Gaussian subordination for the Beurling–Selberg extremal problem. *Transactions of the American Mathematical Society*, 365(7):3493–3534, 2013.
 
-Cassels, J. W. S. 1959. “On a Problem of Rankin about the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 4 (2): 73–80. <https://doi.org/10.1017/S2040618500033906>.
+**[3]** J. W. S. Cassels. On a problem of Rankin about the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 4(2):73–80, 1959. The 1963 corrigendum acknowledges a gap; see the 1964 repairs by Ennola and Diananda.
 
-Cassels, J. W. S. 1963. “Corrigendum.” *Proceedings of the Glasgow Mathematical Association* 6 (2): 116. <https://doi.org/10.1017/S2040618500034833>.
+**[4]** J. W. S. Cassels. Corrigendum. *Proceedings of the Glasgow Mathematical Association*, 6(2):116, 1963. Corrigendum to “On a problem of Rankin about the Epstein zeta-function”.
 
-Cohn, Henry, and Matthew de Courcy-Ireland. 2018. “The Gaussian core model in high dimensions.” *Duke Mathematical Journal* 167 (13): 2417–55. <https://doi.org/10.1215/00127094-2018-0018>.
+**[5]** Henry Cohn and Matthew de Courcy-Ireland. The Gaussian core model in high dimensions. *Duke Mathematical Journal*, 167(13):2417–2455, 2018.
 
-Cohn, Henry, and Noam Elkies. 2003. “New upper bounds on sphere packings I.” *Annals of Mathematics*, 2nd series, vol. 157 (2): 689–714. <https://doi.org/10.4007/annals.2003.157.689>.
+**[6]** Henry Cohn and Noam Elkies. New upper bounds on sphere packings I. *Annals of Mathematics*, 157(2):689–714, 2003.
 
-Cohn, Henry, and Abhinav Kumar. 2007. “Universally optimal distribution of points on spheres.” *Journal of the American Mathematical Society* 20 (1): 99–148. <https://doi.org/10.1090/S0894-0347-06-00546-7>.
+**[7]** Henry Cohn and Abhinav Kumar. Universally optimal distribution of points on spheres. *Journal of the American Mathematical Society*, 20(1):99–148, 2007.
 
-Cohn, Henry, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska. 2022. “Universal optimality of the $E_8$ and Leech lattices and interpolation formulas.” *Annals of Mathematics*, 2nd series, vol. 196 (3): 983–1082. <https://doi.org/10.4007/annals.2022.196.3.3>.
+**[8]** Henry Cohn, Abhinav Kumar, Stephen D. Miller, Danylo Radchenko, and Maryna Viazovska. Universal optimality of the $E_8$ and Leech lattices and interpolation formulas. *Annals of Mathematics*, 196(3):983–1082, 2022.
 
-Cohn, Henry, and Stephen D. Miller. 2016. *Some Properties of Optimal Functions for Sphere Packing in Dimensions 8 and 24*. <https://arxiv.org/abs/1603.04759v1>.
+**[9]** Henry Cohn and Stephen D. Miller. Some properties of optimal functions for sphere packing in dimensions 8 and 24, 2016. arXiv:1603.04759v1, Section 6.
 
-Cohn, Henry, and Yufei Zhao. 2014. “Sphere Packing Bounds via Spherical Codes.” *Duke Mathematical Journal* 163 (10): 1965–2002. <https://doi.org/10.1215/00127094-2738857>.
+**[10]** Henry Cohn and Yufei Zhao. Sphere packing bounds via spherical codes. *Duke Mathematical Journal*, 163(10):1965–2002, 2014.
 
-Diananda, P. H. 1964. “Notes on Two Lemmas Concerning the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 6 (4): 202–4. <https://doi.org/10.1017/S2040618500035036>.
+**[11]** P. H. Diananda. Notes on two lemmas concerning the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 6(4):202–204, 1964.
 
-Ennola, Veikko. 1964. “A Lemma about the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 6 (4): 198–201. <https://doi.org/10.1017/S2040618500035024>.
+**[12]** Veikko Ennola. A lemma about the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 6(4):198–201, 1964.
 
-Fabes, Eugene B., Carlos E. Kenig, and Raul P. Serapioni. 1982. “The Local Regularity of Solutions of Degenerate Elliptic Equations.” *Communications in Partial Differential Equations* 7 (1): 77–116. <https://doi.org/10.1080/03605308208820218>.
+**[13]** Eugene B. Fabes, Carlos E. Kenig, and Raul P. Serapioni. The local regularity of solutions of degenerate elliptic equations. *Communications in Partial Differential Equations*, 7(1):77–116, 1982.
 
-Faulhuber, Markus, Irina Shafkulovska, and Ilia Zlotnikov. 2024. “A note on energy minimization in dimension 2.” *Proceedings of the American Mathematical Society, Series B* 11: 664–79. <https://doi.org/10.1090/bproc/247>.
+**[14]** Markus Faulhuber, Irina Shafkulovska, and Ilia Zlotnikov. A note on energy minimization in dimension 2. *Proceedings of the American Mathematical Society, Series B*, 11:664–679, 2024.
 
-Hardin, Douglas P., and Nathaniel J. Tenpas. 2025. “Universally Optimal Periodic Configurations in the Plane.” *Discrete Analysis*, ahead of print. <https://doi.org/10.19086/da.144978>.
+**[15]** Douglas P. Hardin and Nathaniel J. Tenpas. Universally optimal periodic configurations in the plane. *Discrete Analysis*, 2025. Paper No. 26, 63 pp.
 
-Hausdorff, Felix. 1921. “Summationsmethoden Und Momentfolgen. I.” *Mathematische Zeitschrift* 9: 74–109. <https://doi.org/10.1007/BF01378337>.
+**[16]** Felix Hausdorff. Summationsmethoden und Momentfolgen. I. *Mathematische Zeitschrift*, 9:74–109, 1921.
 
-Johansson, Fredrik. 2017. “Arb: Efficient Arbitrary-Precision Midpoint-Radius Interval Arithmetic.” *IEEE Transactions on Computers* 66 (8): 1281–92. <https://doi.org/10.1109/TC.2017.2690633>.
+**[17]** Fredrik Johansson. Arb: Efficient Arbitrary-Precision Midpoint-Radius Interval Arithmetic. *IEEE Transactions on Computers*, 66(8):1281–1292, 2017.
 
-Lauritsen, Asbjørn Bækgaard. 2021. “Floating Wigner Crystal and Periodic Jellium Configurations.” *Journal of Mathematical Physics* 62 (8): 083305. <https://doi.org/10.1063/5.0053494>.
+**[18]** Asbjørn Bækgaard Lauritsen. Floating Wigner crystal and periodic jellium configurations. *Journal of Mathematical Physics*, 62(8):083305, 2021. Section II and Theorem II.1 in the published version, pages 083305-2–083305-3.
 
-Leblé, Thomas. 2025. *The Hexagonal Lattice Is Universally Locally Optimal*. <https://arxiv.org/abs/2511.03353v1>.
+**[19]** Thomas Leblé. The hexagonal lattice is universally locally optimal, 2025. Version 1, submitted November 5, 2025.
 
-Lewin, Mathieu, Elliott H. Lieb, and Robert Seiringer. 2019. “Floating Wigner Crystal with No Boundary Charge Fluctuations.” *Physical Review B* 100: 035127. <https://doi.org/10.1103/PhysRevB.100.035127>.
+**[20]** Mathieu Lewin, Elliott H. Lieb, and Robert Seiringer. Floating Wigner crystal with no boundary charge fluctuations. *Physical Review B*, 100:035127, 2019. Numbered references use arXiv:1905.09138v3 (23 July 2019).
 
-Lindenstrauss, Elon. 1999. “Pointwise Theorems for Amenable Groups.” *Electronic Research Announcements of the American Mathematical Society* 5 (12): 82–90. <https://doi.org/10.1090/S1079-6762-99-00065-7>.
+**[21]** Elon Lindenstrauss. Pointwise theorems for amenable groups. *Electronic Research Announcements of the American Mathematical Society*, 5(12):82–90, 1999. Section 1.
 
-Montgomery, Hugh L. 1988. “Minimal theta functions.” *Glasgow Mathematical Journal* 30 (1): 75–85. <https://doi.org/10.1017/S0017089500007047>.
+**[22]** Hugh L. Montgomery. Minimal theta functions. *Glasgow Mathematical Journal*, 30(1):75–85, 1988.
 
-OpenAI. 2026a. *A sharp Fourier certificate for planar circle packing*. OpenAI Math Release preprint [OAI:A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026](https://github.com/openai/math/blob/main/preprints/A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026/paper.pdf).
+**[23]** OpenAI. A sharp Fourier certificate for planar circle packing. OpenAI Math Release preprint [OAI:A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026](https://github.com/openai/math/blob/main/preprints/A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026/paper.pdf), 2026.
 
-OpenAI. 2026b. *An atomic certificate for triangular-lattice universal optimality*. OpenAI Math Release preprint [OAI:An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026](https://github.com/openai/math/blob/main/preprints/An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026/paper.pdf).
+**[24]** OpenAI. An atomic certificate for triangular-lattice universal optimality. OpenAI Math Release preprint [OAI:An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026](https://github.com/openai/math/blob/main/preprints/An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026/paper.pdf), 2026.
 
-OpenAI. 2026c. *Triangular minimality for planar Coulomb renormalized energy*. OpenAI Math Release preprint [OAI:Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026](https://github.com/openai/math/blob/main/preprints/Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026/paper.pdf).
+**[25]** OpenAI. Triangular minimality for planar Coulomb renormalized energy. OpenAI Math Release preprint [OAI:Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026](https://github.com/openai/math/blob/main/preprints/Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026/paper.pdf), 2026.
 
-Petrache, Mircea, and Sylvia Serfaty. 2017. “Next Order Asymptotics and Renormalized Energy for Riesz Interactions.” *Journal of the Institute of Mathematics of Jussieu* 16 (3): 501–69. <https://doi.org/10.1017/S1474748015000201>.
+**[26]** Mircea Petrache and Sylvia Serfaty. Next order asymptotics and renormalized energy for Riesz interactions. *Journal of the Institute of Mathematics of Jussieu*, 16(3):501–569, 2017. Numbered references use arXiv:1409.7534v1 (26 September 2014).
 
-Petrache, Mircea, and Sylvia Serfaty. 2020. “Crystallization for Coulomb and Riesz Interactions as a Consequence of the Cohn–Kumar Conjecture.” *Proceedings of the American Mathematical Society* 148: 3047–57. <https://doi.org/10.1090/proc/15003>.
+**[27]** Mircea Petrache and Sylvia Serfaty. Crystallization for Coulomb and Riesz interactions as a consequence of the Cohn–Kumar conjecture. *Proceedings of the American Mathematical Society*, 148:3047–3057, 2020. Numbered references in this paper use arXiv:1908.09714v3.
 
-Radchenko, Danylo, and Maryna Viazovska. 2019. “Fourier Interpolation on the Real Line.” *Publications Mathématiques de l’IHÉS* 129: 51–81. <https://doi.org/10.1007/s10240-018-0101-z>.
+**[28]** Danylo Radchenko and Maryna Viazovska. Fourier interpolation on the real line. *Publications Mathématiques de l’IHÉS*, 129:51–81, 2019.
 
-Rankin, R. A. 1953. “A Minimum Problem for the Epstein Zeta-Function.” *Proceedings of the Glasgow Mathematical Association* 1 (4): 149–58. <https://doi.org/10.1017/S2040618500035668>.
+**[29]** R. A. Rankin. A minimum problem for the Epstein zeta-function. *Proceedings of the Glasgow Mathematical Association*, 1(4):149–158, 1953.
 
-Talebizadeh Sardari, Naser. 2021. *Higher Fourier Interpolation on the Plane*. <https://arxiv.org/abs/2102.08753v2>.
+**[30]** Naser Talebizadeh Sardari. Higher Fourier interpolation on the plane, 2021. Version 2, May 4, 2021.
 
-Titi, Jihad, and Jürgen Garloff. 2019. “Matrix Methods for the Tensorial Bernstein Form.” *Applied Mathematics and Computation* 346: 254–71. <https://doi.org/10.1016/j.amc.2018.08.049>.
+**[31]** Jihad Titi and Jürgen Garloff. Matrix methods for the tensorial Bernstein form. *Applied Mathematics and Computation*, 346:254–271, 2019.
 
-Waldvogel, Jörg. 2006. “Fast Construction of the Fejér and Clenshaw–Curtis Quadrature Rules.” *BIT Numerical Mathematics* 46 (1): 195–202. <https://doi.org/10.1007/s10543-006-0045-4>.
+**[32]** Jörg Waldvogel. Fast Construction of the Fejér and Clenshaw–Curtis Quadrature Rules. *BIT Numerical Mathematics*, 46(1):195–202, 2006.
 
-Widder, D. V. 1931. “Necessary and Sufficient Conditions for the Representation of a Function as a Laplace Integral.” *Transactions of the American Mathematical Society* 33 (4): 851–92. <https://doi.org/10.1090/S0002-9947-1931-1501621-6>.
+**[33]** D. V. Widder. Necessary and sufficient conditions for the representation of a function as a Laplace integral. *Transactions of the American Mathematical Society*, 33(4):851–892, 1931.

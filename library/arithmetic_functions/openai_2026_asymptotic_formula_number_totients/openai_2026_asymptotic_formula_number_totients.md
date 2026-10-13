@@ -15,23 +15,23 @@ Throughout the paper logarithms are natural, and $\log_j$ denotes the $j$-fold i
 
 ##### The counting problem.
 
-Since $\varphi(p)=p-1$ for primes $p$, the prime number theorem gives $V(x)\ge\pi(x+1)\sim x/\log x$. Pillai proved that the totient values have density zero (Pillai 1929). Erdős used the normal number of prime factors of $p-1$ to sharpen the upper bound to $V(x)\ll_\varepsilon x/(\log x)^{1-\varepsilon}$ for every $\varepsilon>0$ (Erdős 1935, sec. 2). His later count of distinct values $\varphi(pr)$ with $p,r$ prime and $pr\le x$ gives the lower bound $(1+o(1))x\log_2x/\log x$ (Erdős 1945, 542–43). Erdős and Hall obtained a much larger factor $\exp\{a(\log_3x)^2\}$ for every $0<a<1/\log16$ (Erdős and Hall 1976, 1–3). Pomerance brought the upper bound onto the same logarithmic scale (Pomerance 1986, Equation (1.4)). Maier and Pomerance then determined the leading constant (Maier and Pomerance 1988, sec. 1): $$V(x)=\frac{x}{\log x}
+Since $\varphi(p)=p-1$ for primes $p$, the prime number theorem gives $V(x)\ge\pi(x+1)\sim x/\log x$. Pillai proved that the totient values have density zero [12]. Erdős used the normal number of prime factors of $p-1$ to sharpen the upper bound to $V(x)\ll_\varepsilon x/(\log x)^{1-\varepsilon}$ for every $\varepsilon>0$ [1, Section 2]. His later count of distinct values $\varphi(pr)$ with $p,r$ prime and $pr\le x$ gives the lower bound $(1+o(1))x\log_2x/\log x$ [2, pp. 542–543]. Erdős and Hall obtained a much larger factor $\exp\{a(\log_3x)^2\}$ for every $0<a<1/\log16$ [6, pp. 1–3]. Pomerance brought the upper bound onto the same logarithmic scale [14, Equation (1.4)]. Maier and Pomerance then determined the leading constant [10, Section 1]: $$V(x)=\frac{x}{\log x}
        \exp\{(C_0+o(1))(\log_3x)^2\},\qquad
  C_0=0.8178146\ldots.$$
 
-In 1998, Ford refined this to an estimate with only a bounded multiplicative uncertainty (Ford 1998, Theorem 1): $$\begin{equation}
+In 1998, Ford refined this to an estimate with only a bounded multiplicative uncertainty [7, Theorem 1]: $$\begin{equation}
 \tag{1.1}
  V(x)=\frac{x}{\log x}\exp\left\{
  \begin{aligned}
  &C_0(\log_3x-\log_4x)^2+D_0\log_3x\\
  &\hspace{12pt}-(D_0+\tfrac12-2C_0)\log_4x+O(1)
  \end{aligned}\right\},
-\end{equation}$$ where $D_0=2.1769687\ldots$; both constants are specified in the notation of Section 2 below. Ford also described the typical prime factorizations of preimages (Ford 1998, Theorems 10 and 16), which supply the structural starting point of our proof. All numbered references to his distribution paper use the revised arXiv version of 14 July 2013.
+\end{equation}$$ where $D_0=2.1769687\ldots$; both constants are specified in the notation of Section 2 below. Ford also described the typical prime factorizations of preimages [7, Theorems 10 and 16], which supply the structural starting point of our proof. All numbered references to his distribution paper use the revised arXiv version of 14 July 2013.
 
 ##### Fixed dilation.
 
 Erdős and Hall asked whether $$\frac{V(cx)}{V(x)}\longrightarrow c
- \qquad(c>1\text{ fixed})$$ in the final paragraph of (Erdős and Hall 1976, 3). Erdős repeated the question in (Erdős 1979, 80). Ford proved that $V(cx)-V(x)\asymp_c V(x)$ for every fixed $c>1$ (Ford 1998, Theorem 4). This controls the number of values in a fixed multiplicative interval, but neither it nor (1.1) determines the limiting ratio.
+ \qquad(c>1\text{ fixed})$$ in the final paragraph of [6, p. 3]. Erdős repeated the question in [4, p. 80]. Ford proved that $V(cx)-V(x)\asymp_c V(x)$ for every fixed $c>1$ [7, Theorem 4]. This controls the number of values in a fixed multiplicative interval, but neither it nor (1.1) determines the limiting ratio.
 
 We obtain an explicit asymptotic equivalent and prove the fixed-scale limit, thereby answering this question of Erdős and Hall positively. The coefficient in the equivalent retains finite arithmetic information. It is defined in Section 2 by bounded prime and integer sums, inclusion–exclusion, and a uniformly convergent limit; its definition does not use $V$.
 
@@ -39,13 +39,13 @@ We obtain an explicit asymptotic equivalent and prove the fixed-scale limit, the
 
 Order the prime factors of a typical preimage from largest to smallest, and separate a long prefix from a shorter tail. Ford’s normal-structure estimates put the double logarithms of the large primes in a simplex. Most of that simplex can be counted by volume. Near its last coordinates the primes remain discrete, however, and several tail factorizations may give the same totient. We retain these tails exactly and take the volume of the union of the regions that they permit. Inclusion–exclusion of this finite union produces the arithmetic coefficient.
 
-Erdős’s semiprime argument already controls collisions between products of shifted primes (Erdős 1945, Lemma 1). The quantitative shifted-prime normality and layered comparison used here were developed by Maier and Pomerance (Maier and Pomerance 1988, secs. 2–3) and Ford (Ford 1998, sec. 5). Here the comparison is proved under the hypotheses needed for the long prefix, with explicit costs for recovering the tuple data inside the residual factors. The resulting control of all ordered prefix collisions, combined with the exact finite-tail union, converts the volume into a count of distinct values. Counting the largest prime with common endpoint parameters first gives regular variation. Identifying the resulting mass with the arithmetic coefficient then gives the explicit equivalent. The errors are uniform in the phase; neither conclusion assumes continuity of the coefficient.
+Erdős’s semiprime argument already controls collisions between products of shifted primes [2, Lemma 1]. The quantitative shifted-prime normality and layered comparison used here were developed by Maier and Pomerance [10, Sections 2–3] and Ford [7, Section 5]. Here the comparison is proved under the hypotheses needed for the long prefix, with explicit costs for recovering the tuple data inside the residual factors. The resulting control of all ordered prefix collisions, combined with the exact finite-tail union, converts the volume into a count of distinct values. Counting the largest prime with common endpoint parameters first gives regular variation. Identifying the resulting mass with the arithmetic coefficient then gives the explicit equivalent. The errors are uniform in the phase; neither conclusion assumes continuity of the coefficient.
 
-The prefix uniqueness used here is not uniqueness of the entire preimage: different arithmetic tails may still give the same value. A separate result on extreme complete fibers gives, for every fixed $\varepsilon>0$, infinitely many positive integers $v$ with $\#\{n\ge1:\varphi(n)=v\}>v^{1-\varepsilon}$ (OpenAI 2026, Theorem 1.1). That result concerns large individual fibers, rather than the asymptotic number of distinct values, and is not an input to the present proof.
+The prefix uniqueness used here is not uniqueness of the entire preimage: different arithmetic tails may still give the same value. A separate result on extreme complete fibers gives, for every fixed $\varepsilon>0$, infinitely many positive integers $v$ with $\#\{n\ge1:\varphi(n)=v\}>v^{1-\varepsilon}$ [11, Theorem 1.1]. That result concerns large individual fibers, rather than the asymptotic number of distinct values, and is not an input to the present proof.
 
 ##### Least preimages.
 
-For $v\in\mathcal V$, let $$\ell(v)=\min\{n\ge1:\varphi(n)=v\}.$$ For each fixed positive integer $k$, the same passage of Erdős (Erdős 1979, 80) asks about the number of values $v\le x$ for which $kx<\ell(v)\le(k+1)x$. Section 7 gives a weighted asymptotic and proves that this count has order $V(x)$ precisely when some totient $d$ satisfies $\ell(d)>kd$; otherwise the count vanishes identically. The positive alternative holds for $k=1,2$. We do not determine which other integers $k$ satisfy this seed condition. In particular, the separate question whether $\ell(d)/d$ is unbounded, posed in (Erdős 1995, sec. I.9), remains unresolved here.
+For $v\in\mathcal V$, let $$\ell(v)=\min\{n\ge1:\varphi(n)=v\}.$$ For each fixed positive integer $k$, the same passage of Erdős [4, p. 80] asks about the number of values $v\le x$ for which $kx<\ell(v)\le(k+1)x$. Section 7 gives a weighted asymptotic and proves that this count has order $V(x)$ precisely when some totient $d$ satisfies $\ell(d)>kd$; otherwise the count vanishes identically. The positive alternative holds for $k=1,2$. We do not determine which other integers $k$ satisfy this seed condition. In particular, the separate question whether $\ell(d)/d$ is unbounded, posed in [5, Section I.9], remains unresolved here.
 
 ## The explicit main term
 
@@ -57,12 +57,12 @@ For $j\ge1$, put $$\begin{equation}
 \tag{2.1}
  a_j=(j+1)\log(j+1)-j\log j-1
      =\int_j^{j+1}\log t\,\mathrm dt.
-\end{equation}$$ These numbers are positive. The increasing function $\sum_{j\ge1}a_jz^j$ goes from zero to infinity on $0<z<1$, so there is a unique $\rho\in(0,1)$ such that $$\sum_{j\ge1}a_j\rho^j=1.$$ These coefficients and this root occur in Maier and Pomerance’s asymptotic estimate (Maier and Pomerance 1988, sec. 1). Define $$\begin{equation}
+\end{equation}$$ These numbers are positive. The increasing function $\sum_{j\ge1}a_jz^j$ goes from zero to infinity on $0<z<1$, so there is a unique $\rho\in(0,1)$ such that $$\sum_{j\ge1}a_j\rho^j=1.$$ These coefficients and this root occur in Maier and Pomerance’s asymptotic estimate [10, Section 1]. Define $$\begin{equation}
 \tag{2.2}
  \lambda=\log(1/\rho),\qquad
  \gamma=\left(\sum_{j\ge1}ja_j\rho^j\right)^{-1},\qquad
  g_0=1,\quad g_j=\sum_{d=1}^j a_dg_{j-d}.
-\end{equation}$$ Our $\gamma$ is the constant denoted by $\lambda$ in Ford’s recurrence estimates (Ford 1998, sec. 3). Set $$C_0=\frac1{2\lambda},\qquad
+\end{equation}$$ Our $\gamma$ is the constant denoted by $\lambda$ in Ford’s recurrence estimates [7, Section 3]. Set $$C_0=\frac1{2\lambda},\qquad
  D_0=\frac{1+\log(\lambda/\gamma)}{\lambda}-\frac12;$$ these are the constants in the classical estimate (1.1). For the scale used in our theorem, put $$\begin{equation}
 \tag{2.3}
  B=\log_2x,\qquad
@@ -151,7 +151,7 @@ This theorem does not determine which other integers $k$ satisfy the first alte
 
 ### Proof strategy
 
-Two parts of the argument ensure that this construction counts values once. First, outside an exceptional set, *every* preimage has the required form. Second, collisions between different long prefixes have negligible total multiplicity. For the latter we use the layered shifted-prime method of Maier and Pomerance (Maier and Pomerance 1988, sec. 3), in the form developed by Ford, and adapt his comparison (Ford 1998, Lemma 5.1) to a different set of hypotheses, proving the necessary uniform bound in Section 4. The number of layers grows, but each sieve application concerns only two or three linear forms. The comparison and the subsequent control of tuple multiplicities are the ingredients that turn a volume estimate into an asymptotic for distinct values.
+Two parts of the argument ensure that this construction counts values once. First, outside an exceptional set, *every* preimage has the required form. Second, collisions between different long prefixes have negligible total multiplicity. For the latter we use the layered shifted-prime method of Maier and Pomerance [10, Section 3], in the form developed by Ford, and adapt his comparison [7, Lemma 5.1] to a different set of hypotheses, proving the necessary uniform bound in Section 4. The number of layers grows, but each sieve application concerns only two or three linear forms. The comparison and the subsequent control of tuple multiplicities are the ingredients that turn a volume estimate into an asymptotic for distinct values.
 
 The end of the continuous prefix and the end of the retained prime list are different cuts. Their separation makes the exceptional-set estimates small enough to absorb the smooth tail. Section 3 obtains the required preimages directly from Ford’s Theorems 10 and 16 and develops the volume estimates. Section 5 proves prefix uniqueness and transfers tuple counts to distinct values. Section 6 counts the largest prime using common endpoint parameters, obtaining fixed dilation before identifying the arithmetic limit. Finally, Section 7 weights that prime count to locate least preimages and proves the positive and zero alternatives.
 
@@ -174,7 +174,7 @@ Throughout this section $H$ is a sufficiently large fixed integer, $P=\lfloor\lo
 \end{equation}$$ Thus $\alpha$ and $\alpha_\theta$ stay in a fixed compact subinterval of $(0,\infty)$, uniformly in the phase. We shall only need the coarse bounds $$\begin{equation}
 \tag{3.3}
  0.54<\rho<0.545,
-\end{equation}$$ which follow from the numerical value recorded in (Ford 1998, (1.4)). They imply $\lambda<1$, $18<30\lambda<20$, and $1.1\rho<0.6$. Together with (3.2), these inequalities justify the fixed constants $0.61$ and $0.62$ used below. We use $$K_H=\exp(CP\rho^{-P})=H^{o(1)},$$ where the absolute constant $C$ may be enlarged from one upper bound to the next. The last equality follows from $\lambda=\log(1/\rho)<1$. The notation $\varepsilon_H$ denotes a positive quantity tending to zero with $H$, and $o_{x;H}(1)$ denotes a quantity tending to zero as $x\to\infty$ for fixed $H$. All such estimates below are uniform in the phase.
+\end{equation}$$ which follow from the numerical value recorded in [7, (1.4)]. They imply $\lambda<1$, $18<30\lambda<20$, and $1.1\rho<0.6$. Together with (3.2), these inequalities justify the fixed constants $0.61$ and $0.62$ used below. We use $$K_H=\exp(CP\rho^{-P})=H^{o(1)},$$ where the absolute constant $C$ may be enlarged from one upper bound to the next. The last equality follows from $\lambda=\log(1/\rho)<1$. The notation $\varepsilon_H$ denotes a positive quantity tending to zero with $H$, and $o_{x;H}(1)$ denotes a quantity tending to zero as $x\to\infty$ for fixed $H$. All such estimates below are uniform in the phase.
 
 ### Structure estimates from Ford
 
@@ -184,7 +184,7 @@ Ford’s order estimate and fundamental-simplex estimates give $$\begin{equation
 \end{equation}$$ and his recurrence estimate gives $$\begin{equation}
 \tag{3.5}
  g_j=\gamma\rho^{-j}+O(1),\qquad g_j\asymp\rho^{-j}.
-\end{equation}$$ See (Ford 1998, Theorem 1, Lemmas 3.4 and 3.7, and Corollary 3.5). Ford denotes our constant $\gamma$ by $\lambda$. In particular, for $0\le j\le m$, $$\begin{equation}
+\end{equation}$$ See [7, Theorem 1, Lemmas 3.4 and 3.7, and Corollary 3.5]. Ford denotes our constant $\gamma$ by $\lambda$. In particular, for $0\le j\le m$, $$\begin{equation}
 \tag{3.6}
  \frac{G_j}{G_m}
  =\prod_{i=j+1}^m\frac{ig_i}{B}
@@ -214,7 +214,7 @@ Write $\Omega(n,U,T)$ for the number of prime factors of $n$ belonging to $(U,T]
 **Definition 3.1**. For $S\ge\mathrm e^\mathrm e$, a prime $p$ is $S$-normal if $$\Omega(p-1,1,S)\le2\log_2S$$ and, for every $S\le U<T\le p-1$, $$\left|\Omega(p-1,U,T)-(\log_2T-\log_2U)\right|
  <\sqrt{\log_2S\,\log_2T}.$$
 
-We use Definition 1 in the 2013 revision (Ford 1998). Its Lemma 2.6 gives, uniformly for $z\ge3$, $$\begin{equation}
+We use Definition 1 in the 2013 revision [7]. Its Lemma 2.6 gives, uniformly for $z\ge3$, $$\begin{equation}
 \tag{3.9}
  \#\{p\le z:p\text{ is not }S\text{-normal}\}
  \ll \frac{z}{\log z}(\log_2z)^5(\log S)^{-1/6}.
@@ -258,7 +258,7 @@ We prove the proposition after the volume and smooth-cofactor estimates below. T
 
 ### Simplex volume and concentration
 
-The coordinate scaling follows Ford’s fundamental-simplex method (Ford 1998, Lemma 3.2 and Corollary 3.3). Our last adjacent coefficient is $a_1$ rather than $1$, so the exact volume is slightly different from his; we derive it from the slacks below. The recurrence estimate (3.5) is Ford’s Lemma 3.7; his Remark 1 credits its streamlined proof to Lau’s solution of a recurrence problem (Ford and Lau 2000).
+The coordinate scaling follows Ford’s fundamental-simplex method [7, Lemma 3.2 and Corollary 3.3]. Our last adjacent coefficient is $a_1$ rather than $1$, so the exact volume is slightly different from his; we derive it from the slacks below. The recurrence estimate (3.5) is Ford’s Lemma 3.7; his Remark 1 credits its streamlined proof to Lau’s solution of a recurrence problem [9].
 
 The next estimates turn sums over the allowed prime coordinates into simplex volumes. We also bound the mass near a coordinate boundary or a simplex face, so that removing these regions has a controlled cost.
 
@@ -282,7 +282,7 @@ The following concentration estimate will be used in Section 6 to remove the pr
 
 ### Prime boxes and smooth cofactors
 
-The use of reciprocal prime sums and enlarged coordinate boxes follows Ford’s Lemma 3.1 and the thickening arguments of his Section 3 (Ford 1998). We record the quantitative bounds for our simplexes, including the boundary errors needed for the tail unions.
+The use of reciprocal prime sums and enlarged coordinate boxes follows Ford’s Lemma 3.1 and the thickening arguments of his Section 3 [7]. We record the quantitative bounds for our simplexes, including the boundary errors needed for the tail unions.
 
 We use unit boxes in the coordinates $\log_2p_i$. Mertens’ theorem gives $$\begin{equation}
 \tag{3.12}
@@ -410,7 +410,7 @@ The two cuts have now served different purposes. The cut at $L$ keeps the smooth
 
 We next bound the number of ways that two ordered lists of primes can give the same product of their shifts. The largest prime factors of the shifts lie in separated intervals. We expose the factors one interval at a time, starting with the smallest interval. At each stage only two or three simultaneous prime conditions are needed. This keeps the constants uniform when the number of intervals grows.
 
-The layer decomposition and the comparison of dual factorizations go back to Maier and Pomerance (Maier and Pomerance 1988, sec. 3) and were developed further in Ford’s proof of Lemma 5.1 (Ford 1998). We prove the version needed here, including its dependence on the number of layers. In particular, we assume squarefreeness of the whole product above the last cutoff; squarefreeness of each individual shift would not suffice for our factor-allocation estimate.
+The layer decomposition and the comparison of dual factorizations go back to Maier and Pomerance [10, Section 3] and were developed further in Ford’s proof of Lemma 5.1 [7]. We prove the version needed here, including its dependence on the number of layers. In particular, we assume squarefreeness of the whole product above the last cutoff; squarefreeness of each individual shift would not suffice for our factor-allocation estimate.
 
 ### A uniform sieve for two or three forms
 
@@ -424,7 +424,7 @@ The layer decomposition and the comparison of dual factorizations go back to Mai
  \le C\frac{B_y^k}{(\log U)^{k-1}}.
 \end{equation}$$ The coefficients need not be bounded in terms of $X$ or $U$.*
 
-*Proof.* For primitive, distinct, admissible integral linear forms $a_jn+b_j$ with positive leading coefficients and nonzero determinant $\Delta$ as defined below, Ford’s uniform upper sieve (Ford 2023, Theorem 2.5) gives $$\begin{equation}
+*Proof.* For primitive, distinct, admissible integral linear forms $a_jn+b_j$ with positive leading coefficients and nonzero determinant $\Delta$ as defined below, Ford’s uniform upper sieve [8, Theorem 2.5] gives $$\begin{equation}
 \tag{4.3}
  \begin{gathered}
  \#\{1\le n\le X:a_jn+b_j\text{ prime for every }j\}
@@ -589,7 +589,7 @@ We now pass from representations to distinct totient values. We retain the tuple
 
 ### Counting pairs with the same value
 
-The alignment of largest factors and cancellation follow the argument around (5.34)–(5.37) in Ford’s Section 5 (Ford 1998). Here we count all ordered pairs of distinct tuples, including the data inside both residual factors. We first cancel the common prefix and align the large factors in the remaining shifts. After applying the comparison estimate, we recover the tuple coordinates inside the residual factors and then restore the common prefix.
+The alignment of largest factors and cancellation follow the argument around (5.34)–(5.37) in Ford’s Section 5 [7]. Here we count all ordered pairs of distinct tuples, including the data inside both residual factors. We first cancel the common prefix and align the large factors in the remaining shifts. After applying the comparison estimate, we recover the tuple coordinates inside the residual factors and then restore the common prefix.
 
 **Proposition 5.1** (Prefix collisions). *Fix $c>1$, and form all parameters from $x$, with $H$ fixed before $x$ tends to infinity. For $t=x$ or $t=x/c$, let $$K(t)=\#\{(\tau,\sigma)\in\mathcal G(t)^2:
              \tau\ne\sigma,\ F(\tau)=F(\sigma)\}.$$ There is a quantity $\epsilon_H\to0$, independent of the phase, such that $$K(t)\le\bigl(\epsilon_H+o_{x;H}(1)\bigr)
@@ -966,12 +966,12 @@ Apply Lemma 6.6 with the function $$C_{f_k}(x)=\frac{N_k(x)\log x}{xG_m},$$ whi
 
 The positivity argument needs two distinct facts. A seed with $\ell(d)/d>k$ must produce a positive proportion of values whose ratios stay away from $k$. These ratios must also remain bounded on a positive proportion of values, since $f_k(r)\to0$ as $r\to\infty$. The next two lemmas supply these facts.
 
-Preservation of a complete inverse fiber under multiplication by a prime already appears in Erdős’s proof of Theorem 4 (Erdős 1958). Ford’s construction gives such preservation on a positive proportion of the distinct-totient scale. A later simultaneous two-seed form appears in Pollack, Pomerance and Treviño (Pollack et al. 2013, Lemma 4.1), again using Ford’s construction. We use the following single-seed consequence of Ford’s proof.
+Preservation of a complete inverse fiber under multiplication by a prime already appears in Erdős’s proof of Theorem 4 [3]. Ford’s construction gives such preservation on a positive proportion of the distinct-totient scale. A later simultaneous two-seed form appears in Pollack, Pomerance and Treviño [13, Lemma 4.1], again using Ford’s construction. We use the following single-seed consequence of Ford’s proof.
 
 **Lemma 7.2** (Ford’s inverse-fiber propagation). *Fix a totient $d$, and write $\varphi^{-1}(d)=\{d_1,\ldots,d_\kappa\}$. There are constants $\eta_d>0$ and $x_d$ such that, for every $x\geq x_d$, at least $\eta_dV(x)$ distinct totients $v\leq x$ have the form $$v=d\varphi(b),\qquad
  \varphi^{-1}(v)=\{bd_1,\ldots,bd_\kappa\}$$ for some positive integer $b$. In particular, these values satisfy $\ell(v)/v\geq\ell(d)/d$.*
 
-*Proof.* Use the construction in the proof of Theorem 2 of (Ford 1998, sec. 5, pp. 24–26, Equations (5.10)–(5.19)). For the fixed seed $d$, Ford constructs a set $\mathcal B$ and excludes at most half its members. For each remaining $b$, every preimage of $d\varphi(b)$ is one of the products $bd_i$. The paragraph following Equation (5.18) also proves that these members give distinct totients. The concluding bound on p. 26 is $\lvert\mathcal B\rvert/2\gg_\varepsilon d^{-1-\varepsilon}V(x)$ for sufficiently large $x$. This full-fiber conclusion is recorded explicitly in (Ford 1998, sec. 7.3, p. 39). Finally, $$\frac{\ell(v)}v
+*Proof.* Use the construction in the proof of Theorem 2 of [7, Section 5, pp. 24–26, Equations (5.10)–(5.19)]. For the fixed seed $d$, Ford constructs a set $\mathcal B$ and excludes at most half its members. For each remaining $b$, every preimage of $d\varphi(b)$ is one of the products $bd_i$. The paragraph following Equation (5.18) also proves that these members give distinct totients. The concluding bound on p. 26 is $\lvert\mathcal B\rvert/2\gg_\varepsilon d^{-1-\varepsilon}V(x)$ for sufficiently large $x$. This full-fiber conclusion is recorded explicitly in [7, Section 7.3, p. 39]. Finally, $$\frac{\ell(v)}v
     =\frac{b}{\varphi(b)}\frac{\ell(d)}d
     \geq\frac{\ell(d)}d.$$ ◻
 
@@ -1005,36 +1005,36 @@ We transfer this lower bound first to the normalized count $C_{f_k}(x)=N_k(x)\lo
 
 If instead $\ell(d)\leq kd$ for every totient $d$, then $\ell(v)\leq kv\leq kx$ for every $v\leq x$. Hence $N_k(x)=0$ for every $x$. Every weight $f_k(\ell(d)/d)$ in the finite arithmetic formula is also zero, so $A_H(f_k;s)=A(f_k;s)=0$. This proves the dichotomy in Theorem 2.2. Its final assertion is established next.
 
-**Remark 7.4**. The positive alternative occurs for $k=1$ and $k=2$. Ford gives $d=2^{18}\cdot257$ as a totient all of whose preimages are divisible by $8$ (Ford 1998, sec. 7.3, p. 39). Each such preimage $n$ is even and has an odd prime factor: a power of $2$ would have a power of $2$ as its totient. Thus $n/\varphi(n)=\prod_{p\mid n}p/(p-1)>2$, and $\ell(d)>2d$.
+**Remark 7.4**. The positive alternative occurs for $k=1$ and $k=2$. Ford gives $d=2^{18}\cdot257$ as a totient all of whose preimages are divisible by $8$ [7, Section 7.3, p. 39]. Each such preimage $n$ is even and has an odd prime factor: a power of $2$ would have a power of $2$ as its totient. Thus $n/\varphi(n)=\prod_{p\mid n}p/(p-1)>2$, and $\ell(d)>2d$.
 
 We do not determine all integers $k$ for which the positive alternative occurs. Its occurrence for every integer $k\geq1$ is equivalent to the unboundedness of $\ell(d)/d$ over totients $d$. Neither that unboundedness nor the complete classification of $k$ is established here.
 
 ## References
 
-Erdős, Paul. 1935. “On the Normal Number of Prime Factors of $p-1$ and Some Related Problems Concerning Euler’s $\phi$-Function.” *The Quarterly Journal of Mathematics* 6: 205–13. <https://doi.org/10.1093/qmath/os-6.1.205>.
+**[1]** Paul Erdős. On the normal number of prime factors of $p-1$ and some related problems concerning Euler’s $\phi$-function. *The Quarterly Journal of Mathematics*, 6:205–213, 1935. <https://www.renyi.hu/~p_erdos/1935-08.pdf>.
 
-Erdős, Paul. 1945. “Some Remarks on Euler’s $\phi$ Function and Some Related Problems.” *Bulletin of the American Mathematical Society* 51: 540–44.
+**[2]** Paul Erdős. Some remarks on Euler’s $\phi$ function and some related problems. *Bulletin of the American Mathematical Society*, 51:540–544, 1945. <https://users.renyi.hu/~p_erdos/1945-08.pdf>.
 
-Erdős, Paul. 1958. “Some Remarks on Euler’s $\phi$ Function.” *Acta Arithmetica* 4: 10–19.
+**[3]** Paul Erdős. Some remarks on Euler’s $\phi$ function. *Acta Arithmetica*, 4:10–19, 1958. <https://users.renyi.hu/~p_erdos/1958-18.pdf>.
 
-Erdős, Paul. 1979. “Some Unconventional Problems in Number Theory.” In *Journées Arithmétiques de Luminy*. Astérisque 61. Société mathématique de France.
+**[4]** Paul Erdős. Some unconventional problems in number theory. In *Journées Arithmétiques de Luminy*, number 61 in Astérisque, pages 73–82. Société mathématique de France, 1979. <https://www.numdam.org/item/AST_1979__61__73_0/>.
 
-Erdős, Paul. 1995. “Some of My Favourite Problems in Number Theory, Combinatorics, and Geometry.” *Resenhas Do Instituto de Matemática e Estatística Da Universidade de São Paulo* 2 (2): 165–86. <https://doi.org/10.11606/resimeusp.v2i2.74798>.
+**[5]** Paul Erdős. Some of my favourite problems in number theory, combinatorics, and geometry. *Resenhas do Instituto de Matemática e Estatística da Universidade de São Paulo*, 2(2):165–186, 1995. <https://doi.org/10.11606/resimeusp.v2i2.74798>.
 
-Erdős, Paul, and R. R. Hall. 1976. “Distinct Values of Euler’s $\phi$-Function.” *Mathematika* 23 (1): 1–3. <https://doi.org/10.1112/S0025579300006100>.
+**[6]** Paul Erdős and R. R. Hall. Distinct values of Euler’s $\phi$-function. *Mathematika*, 23(1):1–3, 1976. <https://users.renyi.hu/~p_erdos/1976-11.pdf>.
 
-Ford, Kevin. 1998. “The Distribution of Totients.” *Ramanujan Journal* 2: 67–151.
+**[7]** Kevin Ford. The distribution of totients. *Ramanujan Journal*, 2:67–151, 1998. Revised version: <https://arxiv.org/abs/1104.3264v2>, 14 July 2013. Theorem and page references are to this revision.
 
-Ford, Kevin. 2023. *Sieve Methods Lecture Notes*. University of Illinois Urbana-Champaign.
+**[8]** Kevin Ford. Sieve methods lecture notes. University of Illinois Urbana-Champaign, 2023. Spring 2023. <https://ford126.web.illinois.edu/sieve2023.pdf>.
 
-Ford, Kevin, and Kee-Wai Lau. 2000. “Asymptotics of a Recurrent Sequence: 10682.” *American Mathematical Monthly* 107 (4): 374–75.
+**[9]** Kevin Ford and Kee-Wai Lau. Asymptotics of a recurrent sequence: 10682. *American Mathematical Monthly*, 107(4):374–375, 2000. <https://doi.org/10.2307/2589199>.
 
-Maier, Helmut, and Carl Pomerance. 1988. “On the Number of Distinct Values of Euler’s $\varphi$-Function.” *Acta Arithmetica* 49 (3): 263–75. <https://doi.org/10.4064/aa-49-3-263-275>.
+**[10]** Helmut Maier and Carl Pomerance. On the number of distinct values of Euler’s $\varphi$-function. *Acta Arithmetica*, 49(3):263–275, 1988. <https://math.dartmouth.edu/~carlp/PDF/67.pdf>.
 
-OpenAI. 2026. *Weighted dilation graphs, smooth shifted primes and totient fibers*. OpenAI Math Release preprint [OAI:Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf).
+**[11]** OpenAI. Weighted dilation graphs, smooth shifted primes and totient fibers. OpenAI Math Release preprint [OAI:Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf), 2026.
 
-Pillai, S. S. 1929. “On Some Functions Connected with $\phi(n)$.” *Bulletin of the American Mathematical Society* 35 (6): 832–36.
+**[12]** S. S. Pillai. On some functions connected with $\phi(n)$. *Bulletin of the American Mathematical Society*, 35(6):832–836, 1929. <https://www.ams.org/journals/bull/1929-35-06/S0002-9904-1929-04799-2/S0002-9904-1929-04799-2.pdf>.
 
-Pollack, Paul, Carl Pomerance, and Enrique Treviño. 2013. “Sets of Monotonicity for Euler’s Totient Function.” *Ramanujan Journal* 30: 379–98.
+**[13]** Paul Pollack, Carl Pomerance, and Enrique Treviño. Sets of monotonicity for Euler’s totient function. *Ramanujan Journal*, 30:379–398, 2013. <https://doi.org/10.1007/s11139-012-9386-6>. Author version: <https://math.dartmouth.edu/~carlp/MonotonePhi.pdf>.
 
-Pomerance, Carl. 1986. “On the Distribution of the Values of Euler’s Function.” *Acta Arithmetica* 47 (1): 63–70. <https://doi.org/10.4064/aa-47-1-63-70>.
+**[14]** Carl Pomerance. On the distribution of the values of Euler’s function. *Acta Arithmetica*, 47(1):63–70, 1986. <https://math.dartmouth.edu/~carlp/PDF/57.pdf>.

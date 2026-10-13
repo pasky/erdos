@@ -20,12 +20,12 @@ The theorem resolves the sharp logarithmic-exponent question for $r(5,t)$. It le
 
 ### History and contribution
 
-Erdős and Szekeres proved the classical bound $r(s,t)\le\binom{s+t-2}{s-1}$ (Erdős and Szekeres 1935). Ajtai, Komlós and Szemerédi improved its fixed-$s$ order to $O(t^{s-1}/(\log t)^{s-2})$ (Ajtai et al. 1980). Li, Rousseau and Zang subsequently obtained leading upper constant $1+o(1)$ for fixed $s$ (Li et al. 2001). We include an elementary proof of the upper bound with an absolute constant for $s=5$, using uniform independent sets and random sampling.
+Erdős and Szekeres proved the classical bound $r(s,t)\le\binom{s+t-2}{s-1}$ [12]. Ajtai, Komlós and Szemerédi improved its fixed-$s$ order to $O(t^{s-1}/(\log t)^{s-2})$ [1]. Li, Rousseau and Zang subsequently obtained leading upper constant $1+o(1)$ for fixed $s$ [17]. We include an elementary proof of the upper bound with an absolute constant for $s=5$, using uniform independent sets and random sampling.
 
-The lower-bound problem has followed a different course. Kim proved that $r(3,t)$ has order $t^2/\log t$, matching the classical upper bound in order (Kim 1995). For $s=5$, Spencer’s local-lemma method gave a lower bound of order $(t/\log t)^3$ (Spencer 1977); the analysis of the random clique-free process by Bohman and Keevash improved this to $t^3/(\log t)^{8/3}$, up to a constant factor (Bohman and Keevash 2010, Theorem 1.2). Thus even the power of $t$ in the upper bound remained out of reach by these methods. Finite geometry supplied a different route: Mattheus and Verstraëte proved $r(4,t)\ge c t^3/(\log t)^4$ using a construction based on Hermitian unitals (Mattheus and Verstraëte 2024).
+The lower-bound problem has followed a different course. Kim proved that $r(3,t)$ has order $t^2/\log t$, matching the classical upper bound in order [14]. For $s=5$, Spencer’s local-lemma method gave a lower bound of order $(t/\log t)^3$ [21]; the analysis of the random clique-free process by Bohman and Keevash improved this to $t^3/(\log t)^{8/3}$, up to a constant factor [5, Theorem 1.2]. Thus even the power of $t$ in the upper bound remained out of reach by these methods. Finite geometry supplied a different route: Mattheus and Verstraëte proved $r(4,t)\ge c t^3/(\log t)^4$ using a construction based on Hermitian unitals [18].
 
 Bradač’s projective construction gives $$r(s,t)\ge c_s\frac{t^{s-1}}{(\log t)^{2s-4}}
- \qquad(s\ge3,\ t\ge2)$$ (Bradač 2026, Theorem 1.1). For $s=5$, its logarithmic exponent is $6$. We use the ordered projective-flag graph and adapt the marking argument from Section 2.5 of that paper. The improvement here is in the analysis of long independent sequences, closing the remaining gap from exponent $6$ to exponent $3+o(1)$. Earlier graphs on ordered incidence pairs appear in the work of Codenotti, Pudlák and Resta and of Kostochka, Pudlák and Rödl (Codenotti et al. 2000; Kostochka et al. 2010). The distinction between steps with few choices and steps which substantially reduce the remaining choices is also central to Alon and Rödl’s independent-set counting method (Alon and Rödl 2005). Our compression must account for the extra bias created by choosing an independent sequence from a random stream.
+ \qquad(s\ge3,\ t\ge2)$$ [6, Theorem 1.1]. For $s=5$, its logarithmic exponent is $6$. We use the ordered projective-flag graph and adapt the marking argument from Section 2.5 of that paper. The improvement here is in the analysis of long independent sequences, closing the remaining gap from exponent $6$ to exponent $3+o(1)$. Earlier graphs on ordered incidence pairs appear in the work of Codenotti, Pudlák and Resta and of Kostochka, Pudlák and Rödl [7, 16]. The distinction between steps with few choices and steps which substantially reduce the remaining choices is also central to Alon and Rödl’s independent-set counting method [4]. Our compression must account for the extra bias created by choosing an independent sequence from a random stream.
 
 The principal additional ingredient is a description theorem for sparse point–hyperplane pairs. If two large sets have much fewer incidences than the ambient density $1/q$, a short message describes a moderately larger set containing a constant fraction of the smaller set. The message consists of samples selected from public random tables, together with geometric data. A score formed from several independent Poisson samples distinguishes most training points from most ambient points. Polynomial bounds for rich lines and planes control the dependencies in its high moments.
 
@@ -45,7 +45,7 @@ Sections 2 and 3 establish the upper bound and the flag-stream framework. The 
 
 ## The classical upper bound
 
-We first prove the upper bound, independently of the construction used for the lower bound. The estimate is classical (Ajtai et al. 1980). Our proof uses the uniform-independent-set method of Alon (Alon 1996); see also Shearer (Shearer 1983) for the triangle-free independence bound and Davies, Jenssen, Perkins, and Roberts (Davies et al. 2018) for sharp occupancy estimates.
+We first prove the upper bound, independently of the construction used for the lower bound. The estimate is classical [1]. Our proof uses the uniform-independent-set method of Alon [2]; see also Shearer [20] for the triangle-free independence bound and Davies, Jenssen, Perkins, and Roberts [8] for sharp occupancy estimates.
 
 **Theorem 2.1**. *There is an absolute constant $C$ such that, for every integer $t\ge2$, $$r(5,t)\le C\frac{t^4}{(\log t)^3}.$$*
 
@@ -116,7 +116,7 @@ For a prime power $q$, let $\mathcal P_d=\mathop{\mathrm{PG}}(d,q)$ be the one-d
 
 *Proof.* Every point lies on $Q_{d-1}$ hyperplanes and every two distinct points lie on $Q_{d-2}$ hyperplanes. Thus the incidence matrix $M_d$ satisfies $$M_dM_d^{\mathsf T}=q^{d-1}I+Q_{d-2}\mathbf1\mathbf1^{\mathsf T}.$$ Both row and column sums equal $Q_{d-1}$. Subtracting the constant part of a weight vector therefore gives the variance estimate. Applying this operator bound to the centered indicator vectors of $A$ and $B$ gives the displayed mixing estimate. Finally, $p_d\ge1/(2q)$, so a density $o(1/q)$ forces $\sqrt{|A||B|}\le Cq^{(d+1)/2}$. ◻
 
-This projective incidence calculation is the bipartite form of the orthogonality-graph spectral calculation of Alon and Krivelevich (Alon and Krivelevich 1997, sec. 2); it also underlies Bradač’s polarity-graph estimates (Bradač 2026, Lemma 2.1). We shall use both its unweighted and weighted forms.
+This projective incidence calculation is the bipartite form of the orthogonality-graph spectral calculation of Alon and Krivelevich [3, Section 2]; it also underlies Bradač’s polarity-graph estimates [6, Lemma 2.1]. We shall use both its unweighted and weighted forms.
 
 ### The ordered graph
 
@@ -126,7 +126,7 @@ Fix $0<\eta<1/10$. Throughout the lower-bound proof let $q$ be a sufficiently la
 
 A *flag* is a pair $(a,b)\in\mathcal P_4\times\mathcal P_4^*$ with $a\perp b$. There are $M=Q_4Q_3$ flags. Choose a stream $X_1,\ldots,X_N$ of independent uniform flags. Its graph has vertex set $\{1,\ldots,N\}$; writing $X_i=(a_i,b_i)$, its edge rule for $i<j$ is $$i\sim j
  \quad\Longleftrightarrow\quad
- a_i\perp b_j\ \hbox{ and }\ a_j\not\perp b_i.$$ Repeated flags are permitted: the vertices are stream positions. This is the ordered version of Bradač’s $D^*$ construction (Bradač 2026, sec. 2.5). Related earlier constructions use ordered edges of a bipartite incidence graph (Codenotti et al. 2000; Kostochka et al. 2010); the reverse nonincidence in our displayed edge rule is part of the specific construction used here.
+ a_i\perp b_j\ \hbox{ and }\ a_j\not\perp b_i.$$ Repeated flags are permitted: the vertices are stream positions. This is the ordered version of Bradač’s $D^*$ construction [6, Section 2.5]. Related earlier constructions use ordered edges of a bipartite incidence graph [7, 16]; the reverse nonincidence in our displayed edge rule is part of the specific construction used here.
 
 **Lemma 3.2**. *Every stream graph is $K_5$-free.*
 
@@ -203,7 +203,7 @@ A discrete context $\mathsf C$ specifies, for each tuple position, a decoder-kno
 
 ### Two marking scans
 
-Counting ordered independent sets by steps with few options or a large reduction in the remaining domain goes back to Alon and Rödl (Alon and Rödl 2005, Theorem 2.1 and Lemma 2.2). The following scan adapts the marking argument of Bradač (Bradač 2026, Claim 2.13), freezing its state between expensive steps and recording its joint option counts for later entropy estimates.
+Counting ordered independent sets by steps with few options or a large reduction in the remaining domain goes back to Alon and Rödl [4, Theorem 2.1 and Lemma 2.2]. The following scan adapts the marking argument of Bradač [6, Claim 2.13], freezing its state between expensive steps and recording its joint option counts for later entropy estimates.
 
 **Lemma 5.1** (Marking). *There is a message $\Omega$, consisting of constant-alphabet masks and $O(q\sigma)$ full flags, with the following properties. Given $(\mathsf C,\Omega)$, every unspecified flag belongs to a known set of at most $C_1q^4$ flags, where $C_1$ is an absolute constant. Moreover, $$\begin{equation}
 \tag{8}
@@ -250,7 +250,7 @@ Split this class into equal windows, discarding the final remainder. Let $w$ be 
 
 ### Choosing a round before exposing its values
 
-Conditioning to reduce correlations is a standard entropy method; compare (Raghavendra and Tan 2011, Lemma 4.5). We need the following version with one representative per block.
+Conditioning to reduce correlations is a standard entropy method; compare [19, Lemma 4.5]. We need the following version with one representative per block.
 
 In the following estimates, conditional entropies and mutual information are evaluated at the indicated history. The outer expectation averages over that history and all fresh representative indices.
 
@@ -534,7 +534,7 @@ We have reduced the proof to training data satisfying the small-cell case of Lem
 
 The score used by the predictor is a sum over hyperplanes through a query point. Its terms can depend strongly on one another when two hyperplanes contain many common training points. We now bound these overlaps. The training-set construction in Lemma 7.1 removes large flat concentrations from each query’s samples; the remaining concentrations are controlled by a polynomial argument for lines and a counting argument for planes.
 
-Low-degree polynomials vanishing on point sets play a central role in Dvir’s finite-field Kakeya argument (Dvir 2009). The rich-line proof here uses the polynomial interpolation and tangent-plane methods of Guth and Katz (Guth and Katz 2010) and Elekes, Kaplan, and Sharir (Elekes et al. 2011). The positive-characteristic obstruction to these methods is treated by Ellenberg and Hablicsek (Ellenberg and Hablicsek 2016). Here the defining polynomial has degree below the prime characteristic, and we give the required algebraic argument in full. Kollár’s positive-characteristic incidence estimate (Kollár 2014, Theorem 2) also motivated the rich-line framework. The plane-capped estimate below is proved directly and does not invoke that theorem as a premise.
+Low-degree polynomials vanishing on point sets play a central role in Dvir’s finite-field Kakeya argument [9]. The rich-line proof here uses the polynomial interpolation and tangent-plane methods of Guth and Katz [13] and Elekes, Kaplan, and Sharir [10]. The positive-characteristic obstruction to these methods is treated by Ellenberg and Hablicsek [11]. Here the defining polynomial has degree below the prime characteristic, and we give the required algebraic argument in full. Kollár’s positive-characteristic incidence estimate [15, Theorem 2] also motivated the rich-line framework. The plane-capped estimate below is proved directly and does not invoke that theorem as a premise.
 
 Throughout this section, $q$ is a sufficiently large prime, $\sigma=\log q$, $\log\sigma=o(P)$ and $P=o(\sigma)$. Write $$\begin{gathered}
  n=q^{1+v},\qquad \frac n4\le n'\le n,\qquad
@@ -912,44 +912,44 @@ Theorem 2.1, with its absolute constant $C$, and the lower bound just proved gi
 
 ## References
 
-Ajtai, Miklós, János Komlós, and Endre Szemerédi. 1980. “A Note on Ramsey Numbers.” *Journal of Combinatorial Theory, Series A* 29 (3): 354–60. <https://doi.org/10.1016/0097-3165(80)90030-8>.
+**[1]** Miklós Ajtai, János Komlós, and Endre Szemerédi. A note on Ramsey numbers. *Journal of Combinatorial Theory, Series A*, 29(3):354–360, 1980.
 
-Alon, Noga. 1996. “Independence Numbers of Locally Sparse Graphs and a Ramsey Type Problem.” *Random Structures & Algorithms* 9 (3): 271–78. [https://doi.org/10.1002/(SICI)1098-2418(199610)9:3\<271::AID-RSA1\>3.0.CO;2-U](https://doi.org/10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U).
+**[2]** Noga Alon. Independence numbers of locally sparse graphs and a Ramsey type problem. *Random Structures & Algorithms*, 9(3):271–278, 1996.
 
-Alon, Noga, and Michael Krivelevich. 1997. “Constructive Bounds for a Ramsey-Type Problem.” *Graphs and Combinatorics* 13 (3): 217–25. <https://doi.org/10.1007/BF03352998>.
+**[3]** Noga Alon and Michael Krivelevich. Constructive bounds for a Ramsey-type problem. *Graphs and Combinatorics*, 13(3):217–225, 1997.
 
-Alon, Noga, and Vojtěch Rödl. 2005. “Sharp Bounds for Some Multicolor Ramsey Numbers.” *Combinatorica* 25 (2): 125–41. <https://doi.org/10.1007/s00493-005-0011-9>.
+**[4]** Noga Alon and Vojtěch Rödl. Sharp bounds for some multicolor Ramsey numbers. *Combinatorica*, 25(2):125–141, 2005.
 
-Bohman, Tom, and Peter Keevash. 2010. “The Early Evolution of the $H$-Free Process.” *Inventiones Mathematicae* 181 (2): 291–336. <https://doi.org/10.1007/s00222-010-0247-x>.
+**[5]** Tom Bohman and Peter Keevash. The early evolution of the $H$-free process. *Inventiones Mathematicae*, 181(2):291–336, 2010.
 
-Bradač, Domagoj. 2026. *Off-Diagonal Ramsey Numbers*. <https://arxiv.org/abs/2605.28793v3>.
+**[6]** Domagoj Bradač. Off-diagonal Ramsey numbers, 2026. arXiv:2605.28793v3, 16 June 2026.
 
-Codenotti, Bruno, Pavel Pudlák, and Giovanni Resta. 2000. “Some Structural Properties of Low-Rank Matrices Related to Computational Complexity.” *Theoretical Computer Science* 235 (1): 89–107. <https://doi.org/10.1016/S0304-3975(99)00185-1>.
+**[7]** Bruno Codenotti, Pavel Pudlák, and Giovanni Resta. Some structural properties of low-rank matrices related to computational complexity. *Theoretical Computer Science*, 235(1):89–107, 2000.
 
-Davies, Ewan, Matthew Jenssen, Will Perkins, and Barnaby Roberts. 2018. “On the Average Size of Independent Sets in Triangle-Free Graphs.” *Proceedings of the American Mathematical Society* 146 (1): 111–24. <https://doi.org/10.1090/proc/13728>.
+**[8]** Ewan Davies, Matthew Jenssen, Will Perkins, and Barnaby Roberts. On the average size of independent sets in triangle-free graphs. *Proceedings of the American Mathematical Society*, 146(1):111–124, 2018.
 
-Dvir, Zeev. 2009. “On the Size of Kakeya Sets in Finite Fields.” *Journal of the American Mathematical Society* 22 (4): 1093–97. <https://doi.org/10.1090/S0894-0347-08-00607-3>.
+**[9]** Zeev Dvir. On the size of Kakeya sets in finite fields. *Journal of the American Mathematical Society*, 22(4):1093–1097, 2009.
 
-Elekes, György, Haim Kaplan, and Micha Sharir. 2011. “On Lines, Joints, and Incidences in Three Dimensions.” *Journal of Combinatorial Theory, Series A* 118 (3): 962–77. <https://doi.org/10.1016/j.jcta.2010.11.008>.
+**[10]** György Elekes, Haim Kaplan, and Micha Sharir. On lines, joints, and incidences in three dimensions. *Journal of Combinatorial Theory, Series A*, 118(3):962–977, 2011.
 
-Ellenberg, Jordan S., and Márton Hablicsek. 2016. “An Incidence Conjecture of Bourgain over Fields of Positive Characteristic.” *Forum of Mathematics, Sigma* 4: e23. <https://doi.org/10.1017/fms.2016.19>.
+**[11]** Jordan S. Ellenberg and Márton Hablicsek. An incidence conjecture of Bourgain over fields of positive characteristic. *Forum of Mathematics, Sigma*, 4:e23, 2016.
 
-Erdős, Paul, and George Szekeres. 1935. “A Combinatorial Problem in Geometry.” *Compositio Mathematica* 2: 463–70. <https://www.numdam.org/item/CM_1935__2__463_0/>.
+**[12]** Paul Erdős and George Szekeres. A combinatorial problem in geometry. *Compositio Mathematica*, 2:463–470, 1935.
 
-Guth, Larry, and Nets Hawk Katz. 2010. “Algebraic Methods in Discrete Analogs of the Kakeya Problem.” *Advances in Mathematics* 225 (5): 2828–39. <https://doi.org/10.1016/j.aim.2010.05.015>.
+**[13]** Larry Guth and Nets Hawk Katz. Algebraic methods in discrete analogs of the Kakeya problem. *Advances in Mathematics*, 225(5):2828–2839, 2010.
 
-Kim, Jeong Han. 1995. “The Ramsey Number $R(3,t)$ Has Order of Magnitude $t^2/\log t$.” *Random Structures & Algorithms* 7 (3): 173–207. <https://doi.org/10.1002/rsa.3240070302>.
+**[14]** Jeong Han Kim. The Ramsey number $R(3,t)$ has order of magnitude $t^2/\log t$. *Random Structures & Algorithms*, 7(3):173–207, 1995.
 
-Kollár, János. 2014. *Szemerédi–Trotter-Type Theorems in Dimension 3*. <https://arxiv.org/abs/1405.2243v3>.
+**[15]** János Kollár. Szemerédi–Trotter-type theorems in dimension 3, 2014. [arXiv:1405.2243v3](https://arxiv.org/abs/1405.2243v3).
 
-Kostochka, Alexandr, Pavel Pudlák, and Vojtěch Rödl. 2010. “Some Constructive Bounds on Ramsey Numbers.” *Journal of Combinatorial Theory, Series B* 100 (5): 439–45. <https://doi.org/10.1016/j.jctb.2010.01.003>.
+**[16]** Alexandr Kostochka, Pavel Pudlák, and Vojtěch Rödl. Some constructive bounds on Ramsey numbers. *Journal of Combinatorial Theory, Series B*, 100(5):439–445, 2010.
 
-Li, Yusheng, Cecil C. Rousseau, and Wenan Zang. 2001. “Asymptotic Upper Bounds for Ramsey Functions.” *Graphs and Combinatorics* 17 (1): 123–28. <https://doi.org/10.1007/s003730170060>.
+**[17]** Yusheng Li, Cecil C. Rousseau, and Wenan Zang. Asymptotic upper bounds for Ramsey functions. *Graphs and Combinatorics*, 17(1):123–128, 2001.
 
-Mattheus, Sam, and Jacques Verstraëte. 2024. “The Asymptotics of $r(4,t)$.” *Annals of Mathematics* 199 (2): 919–41. <https://doi.org/10.4007/annals.2024.199.2.8>.
+**[18]** Sam Mattheus and Jacques Verstraëte. The asymptotics of $r(4,t)$. *Annals of Mathematics*, 199(2):919–941, 2024.
 
-Raghavendra, Prasad, and Ning Tan. 2011. *Approximating CSPs with Global Cardinality Constraints Using SDP Hierarchies*. <https://arxiv.org/abs/1110.1064v1>.
+**[19]** Prasad Raghavendra and Ning Tan. Approximating CSPs with global cardinality constraints using SDP hierarchies, 2011. arXiv:1110.1064v1.
 
-Shearer, James B. 1983. “A Note on the Independence Number of Triangle-Free Graphs.” *Discrete Mathematics* 46 (1): 83–87. <https://doi.org/10.1016/0012-365X(83)90273-X>.
+**[20]** James B. Shearer. A note on the independence number of triangle-free graphs. *Discrete Mathematics*, 46(1):83–87, 1983.
 
-Spencer, Joel. 1977. “Asymptotic Lower Bounds for Ramsey Functions.” *Discrete Mathematics* 20: 69–76. <https://doi.org/10.1016/0012-365X(77)90044-9>.
+**[21]** Joel Spencer. Asymptotic lower bounds for Ramsey functions. *Discrete Mathematics*, 20:69–76, 1977.

@@ -22,15 +22,15 @@ The lower constant is independent of the accuracy of the upper bound. The conclu
 
 ### Context and antecedents
 
-Questions about the flatness of polynomials with restricted coefficients have a long history in harmonic analysis. The two-sided flatness question appears in Erdős’s problems (Erdős 1957, Problem 26) and in Littlewood’s work (Littlewood 1966). The Rudin–Shapiro construction of real-sign polynomials gives an upper bound $\sqrt{2N}$ at dyadic lengths (Rudin 1959). The requirement that the coefficients be real signs is substantial: Kahane constructed polynomials with complex unimodular coefficients whose normalized modulus tends uniformly to one (Kahane 1980); see also Bombieri and Bourgain (Bombieri and Bourgain 2009). The real-sign questions and their relation to the Parseval lower bound are discussed in (Hayman and Lingham 2018, Problems 4.13 and 4.31).
+Questions about the flatness of polynomials with restricted coefficients have a long history in harmonic analysis. The two-sided flatness question appears in Erdős’s problems [4, Problem 26] and in Littlewood’s work [7]. The Rudin–Shapiro construction of real-sign polynomials gives an upper bound $\sqrt{2N}$ at dyadic lengths [11]. The requirement that the coefficients be real signs is substantial: Kahane constructed polynomials with complex unimodular coefficients whose normalized modulus tends uniformly to one [6]; see also Bombieri and Bourgain [3]. The real-sign questions and their relation to the Parseval lower bound are discussed in [5, Problems 4.13 and 4.31].
 
-Balister, Bollobás, Morris, Sahasrabudhe and Tiba proved that flat Littlewood polynomials exist at every degree at least two: their modulus lies between two absolute positive multiples of the square root of the length (Balister et al. 2020, Theorem 1.1). The companion manuscript (OpenAI 2026) establishes that the best possible upper constant tends to one through all lengths. Theorem 1.1 combines the nearly minimal upper bound with a fixed positive lower bound. These two properties must be achieved by the same choice of signs, so neither of the preceding existence statements supplies the conclusion by itself.
+Balister, Bollobás, Morris, Sahasrabudhe and Tiba proved that flat Littlewood polynomials exist at every degree at least two: their modulus lies between two absolute positive multiples of the square root of the length [2, Theorem 1.1]. The companion manuscript [9] establishes that the best possible upper constant tends to one through all lengths. Theorem 1.1 combines the nearly minimal upper bound with a fixed positive lower bound. These two properties must be achieved by the same choice of signs, so neither of the preceding existence statements supplies the conclusion by itself.
 
-The construction in (OpenAI 2026) provides more than an upper bound. It gives relaxed real coefficients in $[-1,1]$ whose Fourier polynomial is uniformly approximated by quadratic-phase waves with disjoint supports. The modulus of this leading term has almost full mean-square mass, but it vanishes on some arcs. We reproduce the auxiliary polynomial, interval packing, sampling, and rounding arguments needed here. The standard external inputs are the Pippenger–Spencer hypergraph-coloring theorem and the Lovett–Meka partial-coloring theorem, stated at their points of use.
+The construction in [9] provides more than an upper bound. It gives relaxed real coefficients in $[-1,1]$ whose Fourier polynomial is uniformly approximated by quadratic-phase waves with disjoint supports. The modulus of this leading term has almost full mean-square mass, but it vanishes on some arcs. We reproduce the auxiliary polynomial, interval packing, sampling, and rounding arguments needed here. The standard external inputs are the Pippenger–Spencer hypergraph-coloring theorem and the Lovett–Meka partial-coloring theorem, stated at their points of use.
 
 Our additional step constructs a correction on the arcs where the leading amplitude is small. On each arc its phase is $N$ times a fixed piecewise quadratic function, plus an affine adjustment with slope bounded independently of $N$. We call the fixed function the leading phase. At a transition, the correction and existing wave have the same leading phase derivative, and the affine adjustment makes their full phase values agree modulo integers. This keeps the waves aligned while the correction turns on. Across most of each arc, the leading phase derivative runs through an interval assigned only to that arc and its reflection. This separation controls individual Fourier coefficients; keeping that derivative strictly between zero and one controls the Fourier mass outside the permitted degrees. The two estimates preserve both the coefficient constraint and a lower-modulus margin.
 
-The proof of (Balister et al. 2020) also repairs small-modulus regions: a cosine polynomial from the Rudin–Shapiro construction is supplemented by a sine polynomial that is large on the exceptional arcs, with discrepancy estimates controlling the coefficients. Here the correction acts on the quadratic waves of (OpenAI 2026), and its coefficient cost tends to zero as the upper bound approaches its minimum.
+The proof of [2] also repairs small-modulus regions: a cosine polynomial from the Rudin–Shapiro construction is supplemented by a sine polynomial that is large on the exceptional arcs, with discrepancy estimates controlling the coefficients. Here the correction acts on the quadratic waves of [9], and its coefficient cost tends to zero as the upper bound approaches its minimum.
 
 ### Proof strategy and notation
 
@@ -53,7 +53,7 @@ All torus integrals below use probability Haar measure. For an integrable functi
 
 ## Spreading Fourier coefficients
 
-This section supplies the auxiliary polynomial used in the sampling construction. We reproduce the coefficient-spreading argument of (OpenAI 2026, sec. 4), constructing a real trigonometric polynomial with almost unit mean-square mass whose Fourier coefficients fit within a total spectral width less than one. The coefficient assigned to a width $w$ must have size at most approximately $\sqrt w$: this is the normalization of the quadratic integral in Lemma 2.2. Additional torus variables let us distribute each coefficient among many frequencies while controlling both their number and their sizes.
+This section supplies the auxiliary polynomial used in the sampling construction. We reproduce the coefficient-spreading argument of [9, Section 4], constructing a real trigonometric polynomial with almost unit mean-square mass whose Fourier coefficients fit within a total spectral width less than one. The coefficient assigned to a width $w$ must have size at most approximately $\sqrt w$: this is the normalization of the quadratic integral in Lemma 2.2. Additional torus variables let us distribute each coefficient among many frequencies while controlling both their number and their sizes.
 
 For a trigonometric polynomial $F$ on $\mathbb T^m$, write $$\widehat F(a)=\int_{\mathbb T^m}F(x)\mathrm e(-a\cdot x)\,dx,
  \qquad a\in\mathbb Z^m.$$ A finite set is a *containing Fourier support* if every coefficient outside it vanishes; coefficients inside it are allowed to vanish as well. All norms and integrals on tori use probability Haar measure.
@@ -235,14 +235,14 @@ The strict signed width bound means that $w_i=|\lambda_{a_i}|$ satisfies $2\sum_
 
 ## Packing signed intervals
 
-The stationary contributions of the quadratic phases used below must lie in disjoint intervals of the angle variable. The interval centers cannot be chosen separately: each group of centers comes from evaluating several integer linear forms at one point of a torus. The following lemma supplies the required packing under pairwise nonparallelism, even when larger collections of the forms satisfy linear relations. We give the argument from (OpenAI 2026, Section “Packing signed intervals”).
+The stationary contributions of the quadratic phases used below must lie in disjoint intervals of the angle variable. The interval centers cannot be chosen separately: each group of centers comes from evaluating several integer linear forms at one point of a torus. The following lemma supplies the required packing under pairwise nonparallelism, even when larger collections of the forms satisfy linear relations. We give the argument from [9, Section “Packing signed intervals”].
 
 For $c\in\mathbb T$ and $0<\ell<1$, let $$I(c,\ell)=\{c+x\pmod 1:-\ell/2\le x\le\ell/2\}.$$ Thus $I(c,\ell)$ is a closed interval of length $\ell$.
 
 **Lemma 3.1** (Signed interval packing). *Let $m\ge1$ and $r\ge2$ be integers, and let $a_1,\ldots,a_r\in\mathbb Z^m\setminus\{0\}$ be pairwise nonparallel. If $w_1,\ldots,w_r>0$ and $2\sum_{i=1}^r w_i<1$, there are an integer $H\ge1$ and points $\theta_1,\ldots,\theta_H\in\mathbb T^m$ for which the $2rH$ closed intervals $$I\bigl(\sigma a_i\cdot\theta_h,w_i/H\bigr),
  \qquad 1\le i\le r,\quad 1\le h\le H,\quad \sigma\in\{-1,1\},$$ are pairwise disjoint.*
 
-We encode compatible choices of centers by a hypergraph. Recall that an $r$-uniform hypergraph consists of a finite vertex set and a family of distinct $r$-element subsets, called edges. Its degree $d(v)$ counts edges containing $v$, and its codegree $d(u,v)$ counts edges containing both distinct vertices $u,v$. A matching is a family of pairwise disjoint edges. The combinatorial input is the following form of the Pippenger–Spencer theorem (Pippenger and Spencer 1989), stated with these quantifiers in (Alon and Yuster 2005, Lemma 2.1).
+We encode compatible choices of centers by a hypergraph. Recall that an $r$-uniform hypergraph consists of a finite vertex set and a family of distinct $r$-element subsets, called edges. Its degree $d(v)$ counts edges containing $v$, and its codegree $d(u,v)$ counts edges containing both distinct vertices $u,v$. A matching is a family of pairwise disjoint edges. The combinatorial input is the following form of the Pippenger–Spencer theorem [10], stated with these quantifiers in [1, Lemma 2.1].
 
 **Theorem 3.2** (Pippenger–Spencer). *For each integer $r\ge2$ and each $\gamma>0$, there is $\beta>0$ such that the following holds. If an $r$-uniform hypergraph satisfies, for some $D>0$, $$(1-\beta)D<d(v)<(1+\beta)D\quad\text{for every vertex }v,
  \qquad d(u,v)<\beta D\quad\text{for }u\ne v,$$ then its edges can be partitioned into at most $(1+\gamma)D$ matchings.*
@@ -341,7 +341,7 @@ Each interval in the lemma is disjoint from its reflection and hence avoids $0$ 
 
 ## Sampling and the geometry of the small values
 
-We now sample the polynomial of Proposition 2.1 along quadratic paths. The signed packing makes the leading waves occupy disjoint arcs of the circle. Their modulus is consequently independent of the sampling length, which lets us locate its small values before constructing the correction. The sampling argument comes from (OpenAI 2026, sec. 5); the gap description below records the additional structure needed for the lower bound.
+We now sample the polynomial of Proposition 2.1 along quadratic paths. The signed packing makes the leading waves occupy disjoint arcs of the circle. Their modulus is consequently independent of the sampling length, which lets us locate its small values before constructing the correction. The sampling argument comes from [9, Section 5]; the gap description below records the additional structure needed for the lower bound.
 
 Recall that, for a real vector $Y=(Y_0,\ldots,Y_{N-1})$, we write $$U_Y(t)=\frac1{\sqrt N}\sum_{k=0}^{N-1}Y_k\mathrm e(kt).$$
 
@@ -670,7 +670,7 @@ In particular, the Fourier series of $R_N$ is absolutely convergent. Its sum equ
 
 ## Rounding with a small defect mass
 
-The uniform rounding error bounds the loss in the lower modulus and the increase in the upper modulus. The following estimate controls that error in terms of the total distance of the relaxed coefficients from signs. We give the full argument from (OpenAI 2026, sec. 6). Its discrepancy input belongs to Spencer’s partial-coloring method (Spencer 1985); the precise real-vector theorem used below is due to Lovett and Meka (Lovett and Meka 2015, Theorem 4 of arXiv:1203.5747v2).
+The uniform rounding error bounds the loss in the lower modulus and the increase in the upper modulus. The following estimate controls that error in terms of the total distance of the relaxed coefficients from signs. We give the full argument from [9, Section 6]. Its discrepancy input belongs to Spencer’s partial-coloring method [12]; the precise real-vector theorem used below is due to Lovett and Meka [8, Theorem 4 of arXiv:1203.5747v2].
 
 **Lemma 6.1** (Rounding with a small defect). *There is an absolute constant $C$ with the following property. Let $N\ge1$ be an integer and let $X=(X_0,\ldots,X_{N-1})\in[-1,1]^N$. Put $$\mu(X)=\frac12\sum_{k=0}^{N-1}(1-|X_k|).$$ Then there are signs $\varepsilon_0,\ldots,\varepsilon_{N-1}$ satisfying $$\begin{equation}
 \tag{66}
@@ -684,7 +684,7 @@ We first obtain a discrepancy estimate for arbitrary real matrices. We then roun
 
 **Lemma 6.2**. *There is an absolute constant $C_0$ such that, for integers $1\le s\le R$ and a real matrix $B\in[-1,1]^{R\times s}$, there is a vector $\xi\in\{-1,1\}^s$ satisfying $$\left\lVert B\xi\right\rVert_\infty\le C_0\sqrt{s\log(2R/s)}.$$*
 
-*Proof.* We use the following existential consequence of the Lovett–Meka theorem (Lovett and Meka 2015, Theorem 4 of arXiv:1203.5747v2). Given vectors $v_1,\ldots,v_R\in\mathbb R^u$, a starting point $x_0\in[-1,1]^u$, and nonnegative numbers $c_1,\ldots,c_R$ such that $$\sum_{i=1}^R\exp(-c_i^2/16)\le u/16,$$ there exists, for every sufficiently small $\eta>0$, a point $x\in[-1,1]^u$ with $$|\langle v_i,x-x_0\rangle|\le c_i\left\lVert v_i\right\rVert_2
+*Proof.* We use the following existential consequence of the Lovett–Meka theorem [8, Theorem 4 of arXiv:1203.5747v2]. Given vectors $v_1,\ldots,v_R\in\mathbb R^u$, a starting point $x_0\in[-1,1]^u$, and nonnegative numbers $c_1,\ldots,c_R$ such that $$\sum_{i=1}^R\exp(-c_i^2/16)\le u/16,$$ there exists, for every sufficiently small $\eta>0$, a point $x\in[-1,1]^u$ with $$|\langle v_i,x-x_0\rangle|\le c_i\left\lVert v_i\right\rVert_2
  \quad(1\le i\le R),
  \qquad
  |x_k|\ge1-\eta\quad\text{for at least }u/2\text{ coordinates }k.$$ The cited theorem finds such a point with positive probability; we use only its existence assertion. Letting $\eta$ tend to zero and taking a convergent subsequence in the compact cube gives a point with at least $\lceil u/2\rceil$ coordinates equal to signs and the same discrepancy bounds. Indeed, there are only finitely many choices of these coordinates, and all the displayed inequalities are closed under limits.
@@ -788,26 +788,26 @@ Fix $c=1/16$ once and for all. As $\delta\downarrow0$, $$\frac b{S_\delta}
 
 ## References
 
-Alon, Noga, and Raphael Yuster. 2005. “On a Hypergraph Matching Problem.” *Graphs and Combinatorics* 21 (4): 377–84. <https://doi.org/10.1007/s00373-005-0628-x>.
+**[1]** Noga Alon and Raphael Yuster. On a hypergraph matching problem. *Graphs and Combinatorics*, 21(4):377–384, 2005.
 
-Balister, Paul, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. 2020. “Flat Littlewood Polynomials Exist.” *Annals of Mathematics* 192 (3): 977–1004. <https://doi.org/10.4007/annals.2020.192.3.6>.
+**[2]** Paul Balister, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. Flat Littlewood polynomials exist. *Annals of Mathematics*, 192(3):977–1004, 2020.
 
-Bombieri, Enrico, and Jean Bourgain. 2009. “On Kahane’s Ultraflat Polynomials.” *Journal of the European Mathematical Society* 11 (3): 627–703. <https://doi.org/10.4171/JEMS/163>.
+**[3]** Enrico Bombieri and Jean Bourgain. On Kahane’s ultraflat polynomials. *Journal of the European Mathematical Society*, 11(3):627–703, 2009.
 
-Erdős, Paul. 1957. “Some Unsolved Problems.” *Michigan Mathematical Journal* 4: 291–300. <https://doi.org/10.1307/mmj/1028997963>.
+**[4]** Paul Erdős. Some unsolved problems. *Michigan Mathematical Journal*, 4:291–300, 1957.
 
-Hayman, Walter K., and Eleanor F. Lingham. 2018. *Research Problems in Function Theory (New Edition)*. arXiv:1809.07200v2. <https://arxiv.org/abs/1809.07200v2>.
+**[5]** Walter K. Hayman and Eleanor F. Lingham. Research problems in function theory (new edition). arXiv:1809.07200v2, 2018.
 
-Kahane, Jean-Pierre. 1980. “Sur Les Polynômes à Coefficients Unimodulaires.” *Bulletin of the London Mathematical Society* 12 (5): 321–42. <https://doi.org/10.1112/blms/12.5.321>.
+**[6]** Jean-Pierre Kahane. Sur les polynômes à coefficients unimodulaires. *Bulletin of the London Mathematical Society*, 12(5):321–342, 1980.
 
-Littlewood, J. E. 1966. “On Polynomials $\sum^n\pm z^m$, $\sum^n e^{\alpha_m i}z^m$, $z=e^{\theta i}$.” *Journal of the London Mathematical Society* 41 (1): 367–76. <https://doi.org/10.1112/jlms/s1-41.1.367>.
+**[7]** J. E. Littlewood. On polynomials $\sum^n\pm z^m$, $\sum^n e^{\alpha_m i}z^m$, $z=e^{\theta i}$. *Journal of the London Mathematical Society*, 41(1):367–376, 1966.
 
-Lovett, Shachar, and Raghu Meka. 2015. “Constructive Discrepancy Minimization by Walking on the Edges.” *SIAM Journal on Computing* 44 (5): 1573–82. <https://doi.org/10.1137/130929400>.
+**[8]** Shachar Lovett and Raghu Meka. Constructive discrepancy minimization by walking on the edges. *SIAM Journal on Computing*, 44(5):1573–1582, 2015. Theorem 4 in the preprint version, arXiv:1203.5747v2.
 
-OpenAI. 2026. *Asymptotically minimal maxima of real Littlewood polynomials*. OpenAI Math Release preprint [OAI:Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026](https://github.com/openai/math/blob/main/preprints/Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026/paper.pdf).
+**[9]** OpenAI. Asymptotically minimal maxima of real Littlewood polynomials. OpenAI Math Release preprint [OAI:Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026](https://github.com/openai/math/blob/main/preprints/Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026/paper.pdf), 2026.
 
-Pippenger, Nicholas, and Joel Spencer. 1989. “Asymptotic Behavior of the Chromatic Index for Hypergraphs.” *Journal of Combinatorial Theory, Series A* 51 (1): 24–42. <https://doi.org/10.1016/0097-3165(89)90074-5>.
+**[10]** Nicholas Pippenger and Joel Spencer. Asymptotic behavior of the chromatic index for hypergraphs. *Journal of Combinatorial Theory, Series A*, 51(1):24–42, 1989.
 
-Rudin, Walter. 1959. “Some Theorems on Fourier Coefficients.” *Proceedings of the American Mathematical Society* 10 (6): 855–59. <https://doi.org/10.1090/S0002-9939-1959-0116184-5>.
+**[11]** Walter Rudin. Some theorems on Fourier coefficients. *Proceedings of the American Mathematical Society*, 10(6):855–859, 1959.
 
-Spencer, Joel. 1985. “Six Standard Deviations Suffice.” *Transactions of the American Mathematical Society* 289 (2): 679–706. <https://doi.org/10.1090/S0002-9947-1985-0784009-0>.
+**[12]** Joel Spencer. Six standard deviations suffice. *Transactions of the American Mathematical Society*, 289(2):679–706, 1985.

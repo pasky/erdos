@@ -8,25 +8,25 @@ For every fixed integer $d\ge3$, we prove that every set of $n\ge2$ distinct poi
 
 ## Introduction
 
-For a finite set $P\subset\mathbb R^d$, write $$\Delta(P)=\{|p-q|:p,q\in P,\ p\ne q\}.$$ The distinct-distances problem asks how small $|\Delta(P)|$ can be among all sets of a prescribed cardinality. Erdős introduced the problem in 1946 (Erdős 1946). It relates a simple metric statistic to the geometric structure of a finite set: when distances are few, many pairs repeat their lengths, but the arrangement of those repetitions is constrained by Euclidean geometry. The higher-dimensional conjecture predicts a constant multiple of $n^{2/d}$ distances among any $n$ points of $\mathbb R^d$, for every fixed $d\ge3$; see, for example, (Bardwell-Evans and Sheffer 2019; Tidor et al. 2026). We prove this prediction.
+For a finite set $P\subset\mathbb R^d$, write $$\Delta(P)=\{|p-q|:p,q\in P,\ p\ne q\}.$$ The distinct-distances problem asks how small $|\Delta(P)|$ can be among all sets of a prescribed cardinality. Erdős introduced the problem in 1946 [13]. It relates a simple metric statistic to the geometric structure of a finite set: when distances are few, many pairs repeat their lengths, but the arrangement of those repetitions is constrained by Euclidean geometry. The higher-dimensional conjecture predicts a constant multiple of $n^{2/d}$ distances among any $n$ points of $\mathbb R^d$, for every fixed $d\ge3$; see, for example, [4, 26]. We prove this prediction.
 
 **Theorem 1.1**. *For every integer $d\ge3$, there is a constant $c_d>0$ such that every finite set $P\subset\mathbb R^d$ of $n\ge2$ distinct points satisfies $$|\Delta(P)|\ge c_d n^{2/d}.$$*
 
-This resolves the higher-dimensional Erdős distinct-distances conjecture positively. No assumption is made on the position, spacing, or concentration of the points. The power of $n$ is optimal: the integer grid $\{1,\ldots,t\}^d$ has $t^d$ points, and its squared distances are integers between $1$ and $d(t-1)^2$. In the plane, the square-grid construction gives $O(n/\sqrt{\log n})$ distances (Erdős 1946); the planar problem consequently has a different conjectural order.
+This resolves the higher-dimensional Erdős distinct-distances conjecture positively. No assumption is made on the position, spacing, or concentration of the points. The power of $n$ is optimal: the integer grid $\{1,\ldots,t\}^d$ has $t^d$ points, and its squared distances are integers between $1$ and $d(t-1)^2$. In the plane, the square-grid construction gives $O(n/\sqrt{\log n})$ distances [13]; the planar problem consequently has a different conjectural order.
 
 ### Historical context and the methods of the proof
 
-Higher-dimensional distance estimates developed in part through incidence bounds for curves and spheres. Clarkson, Edelsbrunner, Guibas, Sharir, and Welzl bounded the number of pairs realizing a fixed positive distance in three dimensions, giving a distinct-distance lower bound at the square-root scale, up to a slowly growing factor (Clarkson et al. 1990). Aronov, Pach, Sharir, and Tardos improved the three-dimensional lower bound to $\Omega_\varepsilon(n^{77/141-\varepsilon})$ for each $\varepsilon>0$ and propagated improvements to higher dimensions (Aronov et al. 2004). Their three-dimensional estimate is *pinned*: it finds a point of the given set from which that many distinct distances occur.
+Higher-dimensional distance estimates developed in part through incidence bounds for curves and spheres. Clarkson, Edelsbrunner, Guibas, Sharir, and Welzl bounded the number of pairs realizing a fixed positive distance in three dimensions, giving a distinct-distance lower bound at the square-root scale, up to a slowly growing factor [9]. Aronov, Pach, Sharir, and Tardos improved the three-dimensional lower bound to $\Omega_\varepsilon(n^{77/141-\varepsilon})$ for each $\varepsilon>0$ and propagated improvements to higher dimensions [3]. Their three-dimensional estimate is *pinned*: it finds a point of the given set from which that many distinct distances occur.
 
-Solymosi and Vu developed two recursive inequalities connecting distance bounds in lower and higher dimensions (Solymosi and Vu 2008, Theorems 2.1–2.2). The recurrences have separate forms for the total number of distances and for the maximum number measured from one point of the set. We use the forms for total distances in the comparisons below. Their original theorem gives $\Omega(n^{0.5643})$ distances in dimension three and $\Omega_d(n^{2/d-2/(d(d+2))})$ for every fixed $d\ge4$ (Solymosi and Vu 2008, Theorem 1.1).
+Solymosi and Vu developed two recursive inequalities connecting distance bounds in lower and higher dimensions [21, Theorems 2.1–2.2]. The recurrences have separate forms for the total number of distances and for the maximum number measured from one point of the set. We use the forms for total distances in the comparisons below. Their original theorem gives $\Omega(n^{0.5643})$ distances in dimension three and $\Omega_d(n^{2/d-2/(d(d+2))})$ for every fixed $d\ge4$ [21, Theorem 1.1].
 
-A different approach counts repeated distances through rigid motions matching subsets of the point sets. Elekes and Sharir developed this viewpoint for the planar problem (Elekes and Sharir 2011). Guth and Katz reduced the resulting planar motion count to incidences of points and lines in three-dimensional space and combined polynomial partitioning with ruled-surface geometry to prove the planar bound $\Omega(n/\log n)$ (Guth and Katz 2015, Theorem 1.1 and Sections 2–4). That bound supplies the two-dimensional input to our induction. Bardwell-Evans and Sheffer extended the rigid-motion approach to higher dimensions through a reduction to incidences of $(d-1)$-flats in $\mathbb R^{2d-1}$ (Bardwell-Evans and Sheffer 2019). Their work identifies structural restrictions on the resulting flats and the need to control their concentration in algebraic varieties.
+A different approach counts repeated distances through rigid motions matching subsets of the point sets. Elekes and Sharir developed this viewpoint for the planar problem [11]. Guth and Katz reduced the resulting planar motion count to incidences of points and lines in three-dimensional space and combined polynomial partitioning with ruled-surface geometry to prove the planar bound $\Omega(n/\log n)$ [16, Theorem 1.1 and Sections 2–4]. That bound supplies the two-dimensional input to our induction. Bardwell-Evans and Sheffer extended the rigid-motion approach to higher dimensions through a reduction to incidences of $(d-1)$-flats in $\mathbb R^{2d-1}$ [4]. Their work identifies structural restrictions on the resulting flats and the need to control their concentration in algebraic varieties.
 
-Combining the Guth–Katz planar bound with the first Solymosi–Vu recurrence gives $\Omega(n^{3/5}/(\log n)^{2/5})$ distances in dimension three (Solymosi and Vu 2008, Theorem 2.1). More recently, Tidor, Yu, and Zakharov proved $n^{2/3-o(1)}$ distinct distances for arbitrary point sets in $\mathbb R^3$ (Tidor et al. 2026, Theorem 1.1). Inserting their three-dimensional distance bound into the Solymosi–Vu recurrences gives $n^{8/17-o(1)}$ in dimension four and $n^{3/8-o(1)}$ in dimension five (Solymosi and Vu 2008, Corollaries 2.3 and 2.6). The $o(1)$ terms here absorb the subpolynomial loss in that input. The leading exponents in these two deductions still fall below the conjectured value $2/d$. Bounds for points on prescribed surfaces, or for distances from a single point, have different hypotheses or conclusions.[^1]
+Combining the Guth–Katz planar bound with the first Solymosi–Vu recurrence gives $\Omega(n^{3/5}/(\log n)^{2/5})$ distances in dimension three [21, Theorem 2.1]. More recently, Tidor, Yu, and Zakharov proved $n^{2/3-o(1)}$ distinct distances for arbitrary point sets in $\mathbb R^3$ [26, Theorem 1.1]. Inserting their three-dimensional distance bound into the Solymosi–Vu recurrences gives $n^{8/17-o(1)}$ in dimension four and $n^{3/8-o(1)}$ in dimension five [21, Corollaries 2.3 and 2.6]. The $o(1)$ terms here absorb the subpolynomial loss in that input. The leading exponents in these two deductions still fall below the conjectured value $2/d$. Bounds for points on prescribed surfaces, or for distances from a single point, have different hypotheses or conclusions.[^1]
 
-Tidor, Yu, and Zakharov’s proof develops rigid-motion flat geometry, regular approximate complete intersections, and degree-sensitive incidence estimates. These methods provide close antecedents for several parts of the argument below: the physical and opposite-orientation flat families, the recovery of actual families of contained flats from tangent data, and the geometric treatment of projected curves (Tidor et al. 2026, secs. 3–6 and 10.2–10.3).
+Tidor, Yu, and Zakharov’s proof develops rigid-motion flat geometry, regular approximate complete intersections, and degree-sensitive incidence estimates. These methods provide close antecedents for several parts of the argument below: the physical and opposite-orientation flat families, the recovery of actual families of contained flats from tangent data, and the geometric treatment of projected curves [26, Sections 3–6 and 10.2–10.3].
 
-The algebraic argument draws on Hilbert function estimates of Chardin and Chardin–Philippon (Chardin 1989; Chardin and Philippon 1999, 2002), and on Walsh’s work on approximate complete intersections and algebraic concentration (Walsh 2020, 2023). Hilbert functions measure how many independent polynomial conditions a set can impose. Approximate complete intersections cut out an irreducible variety as a component of the common zero set of equations whose product of degrees is controlled by the variety’s degree. We use these two ideas to keep track of concentration at several polynomial degree scales. The uniform concentration theorem for evaluation flats of skew forms, including its exceptional parameter families, is proved in full in Appendix A. The real incidence arguments, including the planar distinct-distance bound, are supplied in Appendix B; their relation to the work of Szemerédi–Trotter, Beck, Elekes–Sharir, and Guth–Katz is recorded where each argument is used.
+The algebraic argument draws on Hilbert function estimates of Chardin and Chardin–Philippon [6, 7, 8], and on Walsh’s work on approximate complete intersections and algebraic concentration [27, 28]. Hilbert functions measure how many independent polynomial conditions a set can impose. Approximate complete intersections cut out an irreducible variety as a component of the common zero set of equations whose product of degrees is controlled by the variety’s degree. We use these two ideas to keep track of concentration at several polynomial degree scales. The uniform concentration theorem for evaluation flats of skew forms, including its exceptional parameter families, is proved in full in Appendix A. The real incidence arguments, including the planar distinct-distance bound, are supplied in Appendix B; their relation to the work of Szemerédi–Trotter, Beck, Elekes–Sharir, and Guth–Katz is recorded where each argument is used.
 
 ### Why the constant factor matters
 
@@ -169,7 +169,7 @@ Identify skew forms on $\mathbb C^{d+1}$ with matrices $$\begin{pmatrix} Z&c\\-c
  v_0=(p+q)/2,\quad y_0=(p-q)/2 .
 \end{equation}$$ Its dimension is $s_0=d(d-1)/2$. Distinct pairs give distinct flats: at $Z=0$ one recovers $y_0$, and equality for every skew $Z$ then recovers $v_0$.
 
-Each $F_{p,q}$ is the complexification of the corresponding real point-pair flat in the construction of Bardwell-Evans and Sheffer before their generic section (Bardwell-Evans and Sheffer 2019, Theorem 6.1).
+Each $F_{p,q}$ is the complexification of the corresponding real point-pair flat in the construction of Bardwell-Evans and Sheffer before their generic section [4, Theorem 6.1].
 
 The parameter in the split quadric of $\mathbb P(\mathbb C^{d+1}\oplus(\mathbb C^{d+1})^*)$ is $$\begin{equation}
 \tag{2.7}
@@ -240,7 +240,7 @@ For a subset $T\subset\mathbb C^n$, put $$H_T(D)=\dim_{\mathbb C}\bigl(\mathbb C
 
 We use the following forms of the elementary intersection facts. A proper hypersurface section of a pure $k$-dimensional variety of degree $a$, by a polynomial of degree $q$, has reduced support of pure dimension $k-1$ and degree at most $aq$; the section may be empty in an affine chart. Successive proper sections obey the corresponding product bound. More generally, the degrees, with local intersection multiplicities, of isolated components of an intersection are at most the Bézout product, even if the same equations have larger components elsewhere. One obtains this latter form by taking generic linear combinations locally at the isolated components, perturbing to proper intersections, and specializing: the isolated intersection multiplicities are positive and persist in the specialization, whereas intersections on other components can only add to the total. We will never replace an isolated component by a subvariety lying inside a larger component.
 
-These intersection bounds are the componentwise refined Bézout inequality (Fulton 1998, Theorem 12.3 and Example 12.3.1). For isolated complete intersections of hypersurfaces in a regular ambient space, intersection multiplicity equals local quotient length. The hypersurface factors are Cohen–Macaulay, as required in (Fulton 1998, Example 12.3.7(ii)–(iii)).
+These intersection bounds are the componentwise refined Bézout inequality [14, Theorem 12.3 and Example 12.3.1]. For isolated complete intersections of hypersurfaces in a regular ambient space, intersection multiplicity equals local quotient length. The hypersurface factors are Cohen–Macaulay, as required in [14, Example 12.3.7(ii)–(iii)].
 
 ### Separators supplied by the distance set
 
@@ -267,7 +267,7 @@ The next lemma concerns the isolated points of a system, not a system whose enti
 **Lemma 3.2** (A determinant in a local parameter quotient). *Let $F$ be an algebraically closed field, let $R=F[Z_1,\ldots,Z_c]_{(Z_1,\ldots,Z_c)}$, and suppose $f_1,\ldots,f_c\in R$ generate an ideal of finite colength. If $$(f_1,\ldots,f_c)^{\mathsf t}
        =Q(Z)(Z_1,\ldots,Z_c)^{\mathsf t},$$ then the class of $\det Q$ in $R/(f_1,\ldots,f_c)$ is nonzero.*
 
-*Proof.* The coordinate parameters form a regular sequence. The regular local ring $R$ is Cohen–Macaulay, so the $c$ elements $f_i$, being a system of parameters, also form a regular sequence (The Stacks Project Authors 2026, Tags 00OQ, 00NQ, and 02JN). Their Koszul complexes are therefore free resolutions of $R/(f)$ and $R/(Z)=F$, respectively (The Stacks Project Authors 2026, Tag 062F). The matrix $Q$ induces a chain map from the first Koszul resolution to the second, lifting the quotient map $R/(f)\longrightarrow F$; its map in top degree is multiplication by $\det Q$.
+*Proof.* The coordinate parameters form a regular sequence. The regular local ring $R$ is Cohen–Macaulay, so the $c$ elements $f_i$, being a system of parameters, also form a regular sequence [25, Tags 00OQ, 00NQ, and 02JN]. Their Koszul complexes are therefore free resolutions of $R/(f)$ and $R/(Z)=F$, respectively [25, Tag 062F]. The matrix $Q$ induces a chain map from the first Koszul resolution to the second, lifting the quotient map $R/(f)\longrightarrow F$; its map in top degree is multiplication by $\det Q$.
 
 For completeness, the vanishing needed to see that this top map is nonzero is especially simple. The coordinate Koszul resolution gives $$\operatorname{Ext}^i_R(F,R)=0\quad(i<c),\qquad
  \operatorname{Ext}^c_R(F,R)=F.$$ Every finite-length $R$-module has a composition series with factors $F$. The long exact sequence for $\operatorname{Ext}$ therefore gives $\operatorname{Ext}^i_R(K,R)=0$ for every finite-length $K$ and $i<c$. Apply this to the kernel $K$ of $R/(f)\longrightarrow F$. The long exact sequence supplies an injection $$\operatorname{Ext}^c_R(F,R)\hookrightarrow
@@ -300,7 +300,7 @@ The exact-isolation Equations (3.3), with these normalized $s_z$ and the set $S$
 
 We now relate polynomial restriction rank to total component degree. For the lower bound, a generic projection reduces the family to finitely many points over the function field of the base. Interpolation on that fiber supplies independent transverse polynomials; multiplying them by base monomials produces the required rank.
 
-The upper estimate below is Chardin’s Hilbert-function bound (Chardin 1989). For components of a single equation system, the shifted lower estimate follows from the isolated-component bound of Chardin–Philippon (Chardin and Philippon 1999, Corollary 3); see also their erratum (Chardin and Philippon 2002). We give the proof, including the extension to several equation systems used here.
+The upper estimate below is Chardin’s Hilbert-function bound [6]. For components of a single equation system, the shifted lower estimate follows from the isolated-component bound of Chardin–Philippon [7, Corollary 3]; see also their erratum [8]. We give the proof, including the extension to several equation systems used here.
 
 **Lemma 3.6** (Upper and lower component ranks). *Let $V\subset\mathbb C^n$ be a finite union of distinct irreducible varieties of pure dimension $k$ and total degree $a$. For every $D\ge0$, $$\begin{equation}
 \tag{3.5}
@@ -315,7 +315,7 @@ The upper estimate below is Chardin’s Hilbert-function bound (Chardin 1989). 
 
 *More generally, the lower assertions hold with $L$ replaced by $L_* =\sum_\nu L_\nu$ if the family is a union of lists, the members of the $\nu$th list being irreducible components of a system of degree at most $L_\nu$. A component in several lists is counted once.*
 
-*Proof.* We first justify the upper bound with its precise leading coefficient. On a projective closure, polynomial restrictions inject into the global sections of $\mathcal O_V(D)$. A general hyperplane avoids the associated components and has reduced pure-dimensional intersection with a reduced variety; this is the reduced hyperplane-section form of Bertini’s Theorem in characteristic zero. To see the reduced-scheme assertion, the universal hyperplane incidence is a projective-space bundle over the reduced variety, hence is reduced. Its generic fiber over the dual projective space is reduced by localization and is geometrically reduced in characteristic zero. The openness of reduced fibers (The Stacks Project Authors 2026, Tag 0578) gives the assertion for a general hyperplane. Avoiding the components gives pure codimension one, and the section has degree $a$. The restriction exact sequence gives $$h^0(V,\mathcal O_V(D))\le
+*Proof.* We first justify the upper bound with its precise leading coefficient. On a projective closure, polynomial restrictions inject into the global sections of $\mathcal O_V(D)$. A general hyperplane avoids the associated components and has reduced pure-dimensional intersection with a reduced variety; this is the reduced hyperplane-section form of Bertini’s Theorem in characteristic zero. To see the reduced-scheme assertion, the universal hyperplane incidence is a projective-space bundle over the reduced variety, hence is reduced. Its generic fiber over the dual projective space is reduced by localization and is geometrically reduced in characteristic zero. The openness of reduced fibers [25, Tag 0578] gives the assertion for a general hyperplane. Avoiding the components gives pure codimension one, and the section has degree $a$. The restriction exact sequence gives $$h^0(V,\mathcal O_V(D))\le
  h^0(V,\mathcal O_V(D-1))+
  h^0(V\cap H,\mathcal O_{V\cap H}(D)).$$ For dimension zero, the last space has dimension equal to the number of reduced points, namely the degree. In every dimension, $h^0(V,\mathcal O_V)\le a$: it is at most the number of irreducible components, since a regular function on an irreducible projective variety is constant. Induction on dimension, followed by summation in $D$, gives $$h^0(V,\mathcal O_V(D))
  \le a\sum_{j=0}^D\binom{j+k-1}{k-1}
@@ -343,7 +343,7 @@ For the union-of-systems assertion, take a generic base projection simultaneousl
 
 The rank bounds have two uses. They give common equations with independent differentials on most components, and they combine separate proper cuts into one polynomial. Both conclusions measure the exceptional family by its degree, so that later mass bounds can control the points lying on it.
 
-Tidor, Yu, and Zakharov formulate regular approximate complete intersections whose Jacobian recovers the tangent space generically (Tidor et al. 2026, Theorem 4.1). The next lemma has a different family-level interface: its equations vanish on the whole component family, and one degree cutoff controls an explicit exceptional-degree loss. We prove this interface below.
+Tidor, Yu, and Zakharov formulate regular approximate complete intersections whose Jacobian recovers the tangent space generically [26, Theorem 4.1]. The next lemma has a different family-level interface: its equations vanish on the whole component family, and one degree cutoff controls an explicit exceptional-degree loss. We prove this interface below.
 
 **Lemma 3.8** (Regularity for a whole component family). *Let $V$ be a pure $k$-dimensional family of total degree $a$ as in the lower-bound part of Lemma 3.6, with equation bound $L$. The union-of-systems version is allowed, with $L=\sum_\nu L_\nu$. If $D\ge C_nL$, then, except for components of total degree at most $$\begin{equation}
 \tag{3.9}
@@ -435,7 +435,7 @@ For an integral variety $X$ of dimension $k$ and $p\in X$, we write $\mathop{\ma
 
 *Proof.* For (i), if $p\notin X$, projection is a morphism and the pullback of a target hyperplane is a hyperplane section of $X$. Intersecting $k$ general target hyperplanes and counting the $t$ points over a general image point gives $t\deg Y=a$.
 
-Suppose $p\in X$. We give the intersection calculation that also justifies the formula when $X$ is singular or not Cohen–Macaulay. For the blowup construction and the degree formula for a linear system with base locus, see (Fulton 1998, Appendix B.6 and Proposition 4.4). Let $b:\widetilde X\longrightarrow X$ be the blowup of the ideal of $p$, and let $E$ be its exceptional Cartier divisor. The blowup is the relative projective spectrum of the Rees algebra $\bigoplus_{j\ge0}\mathcal I_p^j$, where $\mathcal I_p$ is the ideal sheaf of $p$; it is the closure of the graph of projection from $p$. Write $H$ for the pullback of the hyperplane divisor of $X$. The linear forms through $p$ generate the ideal of $p$ twisted by $\mathcal O_X(1)$, so the resolved projection $f:\widetilde X\longrightarrow Y$ satisfies $$f^*\mathcal O_Y(1)=\mathcal O_{\widetilde X}(H-E).$$ Its top self-intersection is consequently $t\deg Y$, by taking general hyperplanes on the target.
+Suppose $p\in X$. We give the intersection calculation that also justifies the formula when $X$ is singular or not Cohen–Macaulay. For the blowup construction and the degree formula for a linear system with base locus, see [14, Appendix B.6 and Proposition 4.4]. Let $b:\widetilde X\longrightarrow X$ be the blowup of the ideal of $p$, and let $E$ be its exceptional Cartier divisor. The blowup is the relative projective spectrum of the Rees algebra $\bigoplus_{j\ge0}\mathcal I_p^j$, where $\mathcal I_p$ is the ideal sheaf of $p$; it is the closure of the graph of projection from $p$. Write $H$ for the pullback of the hyperplane divisor of $X$. The linear forms through $p$ generate the ideal of $p$ twisted by $\mathcal O_X(1)$, so the resolved projection $f:\widetilde X\longrightarrow Y$ satisfies $$f^*\mathcal O_Y(1)=\mathcal O_{\widetilde X}(H-E).$$ Its top self-intersection is consequently $t\deg Y$, by taking general hyperplanes on the target.
 
 We recall each term in this self-intersection. The divisor $H$ restricts trivially to $E$, since $E$ lies over the point $p$. Therefore $$H^{k-j}E^j=0\qquad(1\le j<k).$$ Moreover $$E=\operatorname{Proj}\!\left(
        \bigoplus_{j\ge0}\mathfrak m_p^j/\mathfrak m_p^{j+1}\right),
@@ -482,7 +482,7 @@ We work in the contradiction regime (2.1). In particular, $N=B^d$, $A=B^2$, and 
 
 ### The secant tangent calculation
 
-The generic conclusion is a form of generalized trisecant geometry; compare (Kaminski et al. 2008, sec. 3.2). We give the tangent calculation because the assertion for a particular pair is also needed.
+The generic conclusion is a form of generalized trisecant geometry; compare [19, Section 3.2]. We give the tangent calculation because the assertion for a particular pair is also needed.
 
 **Lemma 4.1** (Secants and a particular-pair version). *Let $X,Y\subset\mathbb A^d$ be irreducible varieties of dimensions $k,l\ge1$. Suppose that for a general pair $(x,y)\in X\times Y$ the connecting direction is in neither $T_xX$ nor $T_yY$. Let $Y'$ be another irreducible $l$-dimensional variety, possibly equal to $Y$. If a general such line has a further point $z\in Y'\setminus\{x,y\}$, then $k\le l$. If $k=l$, then $X$ and $Y$ lie in a common affine $(k+1)$-flat. More generally, when $k=l$, equality of the projected tangent spaces at a general pair already implies this common-flat conclusion, without an assumption about a further root.*
 
@@ -568,7 +568,7 @@ Discard groups with $W_{p,\gamma}\le KMe_\gamma$, for a sufficiently large fixed
 
 ##### Nonlinear curves when $d=3$.
 
-The degree and multiplicity analysis of curves sharing a radial projection here is closely related to the curve–cone estimates of Tidor, Yu, and Zakharov (Tidor et al. 2026, secs. 10.2–10.3).
+The degree and multiplicity analysis of curves sharing a radial projection here is closely related to the curve–cone estimates of Tidor, Yu, and Zakharov [26, Sections 10.2–10.3].
 
 We first delete centers where $\operatorname{mult}_pY_i>d_i/2$. There are only boundedly many such centers for each curve. To see this, take a generic birational plane projection, preserving or increasing multiplicities at this finite list of points, as in Lemma 3.12. For a reduced plane curve of degree $D$, intersection with a general polar derivative gives $$\begin{equation}
 \tag{4.3}
@@ -576,7 +576,7 @@ We first delete centers where $\operatorname{mult}_pY_i>d_i/2$. There are only b
        (\operatorname{mult}_z)^2\le 2D(D-1).
 \end{equation}$$ Indeed the intersection multiplicity at a point of multiplicity $m$ is at least $m(m-1)$, and $m^2\le2m(m-1)$ for $m\ge2$. A nonlinear irreducible degree-two curve has no point of multiplicity greater than one; for all other degrees this bounds the number with multiplicity greater than half the degree by an absolute constant. The deletion therefore costs $O(\sum n_i)=O(N)$ pairs. Projection to a line requires the curve and center to lie in one fixed plane; these pairs cost $o(N^2)$ by the plane cap.
 
-Group the remaining curves at $p$ by their common nonlinear projection $\gamma$. Let $t_i$ be the generic degree of $\pi_p:Y_i\dashrightarrow \gamma$ in this group. The point-projection formula, obtained from the linear-system degree formula with its base-point contribution (Fulton 1998, Proposition 4.4), and the multiplicity deletion give $$\begin{equation}
+Group the remaining curves at $p$ by their common nonlinear projection $\gamma$. Let $t_i$ be the generic degree of $\pi_p:Y_i\dashrightarrow \gamma$ in this group. The point-projection formula, obtained from the linear-system degree formula with its base-point contribution [14, Proposition 4.4], and the multiplicity deletion give $$\begin{equation}
 \tag{4.4}
  d_i-\operatorname{mult}_pY_i=t_i e_\gamma,
  \qquad d_i\le2t_i e_\gamma.
@@ -802,7 +802,7 @@ The pooled budgets, with each original piece still supplying the bound for its o
 
 Apply that lemma now with the fixed $\varepsilon$. Let $\mathcal Y_X$ be its target list for $X$, and set $\mathcal R=\{(X,Y):Y\in\mathcal Y_X\}$. The removed carrier pairs have normalized product weight $o(1)$, hence account for $o(m_xm_y)$ actual pairs. This deletion includes pairs generically tangent at either endpoint. Thus the target tangent projects injectively at a general pair, and the first coordinate of $\psi$ records all source tangent directions; the product image has dimension $2k$. The preimages of a general $2k$-fold linear section of that image are isolated away from the base locus of the bounded-degree map on $X\times Y$. The isolated-intersection form of Bézout therefore gives $\deg Z_{X,Y}\le C_d\deg X\deg Y$, and (6.2) follows from (6.4).
 
-We prove the uniform subfamily estimate while keeping these same lists. Images belonging to different source carriers are distinct: the closure of the first projection of $Z_{X,Y}$ is $X$. Fix one source $X$ and one of its distinct images $Z$. To identify its source fibers, take its closure $\widehat Z\subset X\times\mathbb P^{d-1}$ before restricting the direction coordinate to our affine chart. Localizing the ideal of the rational image at $\mathbb C(X)$ identifies the generic fiber with the closure of the projection of $Y$ from the generic source point. This fiber is geometrically integral, since it is the image closure of the geometrically integral variety $Y_{\mathbb C(X)}$. After restricting $X$ to a dense open, the projective family is flat with geometrically integral fibers of a constant degree $d_Z$; this uses generic flatness, geometric integrality after shrinking, and constancy of the Hilbert polynomial in a flat projective family (The Stacks Project Authors 2026, Tags 052A, 0559, 0C0E, and 0B9T). We may also require that projection of $Y$ from each $x$ in this open set has dimension $k$, by generic target transversality. Its closed image is then a $k$-dimensional irreducible subvariety of the $k$-dimensional integral fiber, so it equals the whole fiber. Make these restrictions simultaneously for the finite image and target lists. Thus all targets with $Z_{X,Y}=Z$ have the same complete projected image at a common general $x\in X$. Write $t_x(Y)$ for their generic map degrees. The fixed list bound says $$\sum_{Y:\,(X,Y)\in\mathcal R,\ Z_{X,Y}=Z}t_x(Y)
+We prove the uniform subfamily estimate while keeping these same lists. Images belonging to different source carriers are distinct: the closure of the first projection of $Z_{X,Y}$ is $X$. Fix one source $X$ and one of its distinct images $Z$. To identify its source fibers, take its closure $\widehat Z\subset X\times\mathbb P^{d-1}$ before restricting the direction coordinate to our affine chart. Localizing the ideal of the rational image at $\mathbb C(X)$ identifies the generic fiber with the closure of the projection of $Y$ from the generic source point. This fiber is geometrically integral, since it is the image closure of the geometrically integral variety $Y_{\mathbb C(X)}$. After restricting $X$ to a dense open, the projective family is flat with geometrically integral fibers of a constant degree $d_Z$; this uses generic flatness, geometric integrality after shrinking, and constancy of the Hilbert polynomial in a flat projective family [25, Tags 052A, 0559, 0C0E, and 0B9T]. We may also require that projection of $Y$ from each $x$ in this open set has dimension $k$, by generic target transversality. Its closed image is then a $k$-dimensional irreducible subvariety of the $k$-dimensional integral fiber, so it equals the whole fiber. Make these restrictions simultaneously for the finite image and target lists. Thus all targets with $Z_{X,Y}=Z$ have the same complete projected image at a common general $x\in X$. Write $t_x(Y)$ for their generic map degrees. The fixed list bound says $$\sum_{Y:\,(X,Y)\in\mathcal R,\ Z_{X,Y}=Z}t_x(Y)
  \le \exp(\varepsilon s).$$ For a general $x$, the point-projection formula gives $\deg Y-\operatorname{mult}_xY=t_x(Y)d_Z$. The multiplicity is zero unless $X=Y$. In that case $x$ is smooth and the multiplicity is one; a coincident flat pair was deleted as tangential. Consequently $\deg Y\le2t_x(Y)d_Z$ for every target in this sum.
 
 Choose $k$ general affine hyperplanes in the source coordinates. They meet $X$ in $\deg X$ points of the preceding open set. Then choose $k$ general hyperplanes in the direction coordinates; on each complete fiber they give $d_Z$ points, with multiplicity. The choices can be made so all these points lie in the selected label chart and avoid intersections between distinct images. The resulting mixed section of $Z$ therefore has $\deg X\,d_Z$ points. The $2k$ blockwise hyperplanes are also affine linear equations in the full label space. Their homogenizations restrict to linear equations on the ordinary projective closure of $Z$, where all the counted affine points are isolated intersections. The isolated-intersection form of Bézout bounds their total multiplicity by the ordinary degree, even if the same equations have additional components at infinity. Applying this to a reduced image subfamily and summing the preceding map-degree bound gives $$\sum_{\substack{(X,Y)\in\mathcal R\\Z_{X,Y}\in\mathcal J}}
@@ -1133,11 +1133,11 @@ In particular, the constants in (7.1) do not depend on the rate at which $M/A$ t
 
 We shall prove the same assertion for two clouds $X,Y$ of at most $N$ points, with $A=N^{2/3}$, whenever every line contains at most $2A$ points of either cloud: the motions with $k_g(X,Y)\ge C_{\mathrm{rich}}A$ form a finite set, and their squared match counts satisfy (7.1) with $k_g(X,Y)$ in place of $k_g$. Both orientations remain included. The line cap above supplies this hypothesis for $P$ and every congruent copy. We will divide the clouds into small regions so that each motion has matches in a controlled number of region pairs. Within each pair, a local estimate handles motions whose matches are not concentrated on a line; we count the remaining local contributions through lines in the full clouds and their possible images.
 
-The passage from equal-distance configurations to rigid motions is the Elekes–Sharir framework (Elekes and Sharir 2011), used by Guth and Katz in the planar problem (Guth and Katz 2015). The physical and opposite-orientation flat families below are the rigid-motion geometry developed by Tidor, Yu, and Zakharov (Tidor et al. 2026, sec. 3). We give the construction and every estimate needed here. The incidence inputs are the Szemerédi–Trotter bound, Theorem B.2, and the higher-richness Guth–Katz bound, Theorem B.5.
+The passage from equal-distance configurations to rigid motions is the Elekes–Sharir framework [11], used by Guth and Katz in the planar problem [16]. The physical and opposite-orientation flat families below are the rigid-motion geometry developed by Tidor, Yu, and Zakharov [26, Section 3]. We give the construction and every estimate needed here. The incidence inputs are the Szemerédi–Trotter bound, Theorem B.2, and the higher-richness Guth–Katz bound, Theorem B.5.
 
 ### Two elementary consequences of planar incidence bounds
 
-We use the following form of Beck’s dichotomy (Beck 1983), derived from Szemerédi–Trotter, including for real projective direction sets.
+We use the following form of Beck’s dichotomy [5], derived from Szemerédi–Trotter, including for real projective direction sets.
 
 **Lemma 7.2** (Many lines and many anchors). *There are absolute constants $\delta_0,\gamma_0>0$ such that the following holds. If a finite set of $n$ distinct real points has at most $\delta_0 n$ points on any line, then it spans at least $\gamma_0 n^2$ distinct lines. Moreover at least $\gamma_0 n$ of its points each lie on at least $\gamma_0 n$ of these spanned lines. The assertion holds in any fixed real affine space, and in a real projective plane after choosing a generic affine chart.*
 
@@ -1155,7 +1155,7 @@ The sum, over the points, of the numbers of incident spanned lines is at least $
 We shall also need an effective notion of richness for planes. For a finite cloud $X$ and an occupied plane $\Pi$, define $$e_X(\Pi)
  =|X\cap\Pi|-\max_{L\subset\Pi}|X\cap L|.$$ Only planes containing a noncollinear triple can have positive effective size, so the planes counted in the next lemma form a finite family.
 
-The next lemma is motivated by the nondegenerate rich-plane bounds of Elekes and Tóth (Elekes and Tóth 2005). Its effective-size formulation in the high-richness range and the double-counting proof below are local; we do not invoke their theorem verbatim.
+The next lemma is motivated by the nondegenerate rich-plane bounds of Elekes and Tóth [12]. Its effective-size formulation in the high-richness range and the double-counting proof below are local; we do not invoke their theorem verbatim.
 
 **Lemma 7.3** (Planes of large effective size). *There are absolute constants $C_2,K_2>0$ such that, for a cloud $X\subset\mathbb R^3$ with $|X|\le m$, $m\ge1$, and $H\ge C_2m^{2/3}$, $$\#\{\Pi:e_X(\Pi)\ge H\}\le K_2\frac{m^2}{H^2}.$$*
 
@@ -1248,7 +1248,7 @@ For two finite planar clouds of sizes $a,a'$, Corollary B.6 bounds the number o
 \tag{7.11}
  O\left(\frac{(aa')^{3/2}}{u^2}\right)
  \qquad (u\le\min\{a,a'\}).
-\end{equation}$$ The corollary counts both orientations. Its proof uses the higher-richness Guth–Katz line theorem (Guth and Katz 2015, Theorem 4.5) with a plane cap; that theorem has no regulus hypothesis.
+\end{equation}$$ The corollary counts both orientations. Its proof uses the higher-richness Guth–Katz line theorem [16, Theorem 4.5] with a plane cap; that theorem has no regulus hypothesis.
 
 Now take a planar-type motion in the local bucket. Choose a plane $\Pi$ with at least $\eta_2\ell$ matched source points and put $\Pi'=g\Pi$. Remove a richest ambient line from $X\cap\Pi$, and a richest ambient line from $Y\cap\Pi'$. Each deletion loses fewer than $\eta_1\ell$ matches, by the non-line-type assumption. At least $$(\eta_2-2\eta_1)\ell\ge\eta_0\ell,
  \qquad \eta_0=\eta_2/2,$$ matches remain. In particular $e_X(\Pi),e_Y(\Pi')\ge\eta_0\ell$.
@@ -1472,11 +1472,11 @@ For $h=0$, an irreducible variety containing an $s_0$-flat must equal that flat,
 
 The proof first obtains approximate equations and regular defining equations (Theorem A.2 and Lemma A.5), then recovers controlled families of actual rulings (Lemma A.6). Proposition A.7 bounds their degree and identifies the maximal-isotropic exception. Section A.5 closes the resulting finite system of inequalities with constants independent of $A$.
 
-We normalize the number of flats contained in a variety by its degree, following Walsh’s concentration parameters (Walsh 2023, sec. 1.1, definition of $\mathcal D_m$). The controlled-ruling strategy and the isotropic exception are closely related to the three-dimensional rigid-motion analysis of Tidor, Yu, and Zakharov (Tidor et al. 2026, secs. 5–6). Here the ruling geometry is that of evaluation flats of alternating forms in arbitrary fixed dimension; the required degree bound and exceptional-family classification are proved in full below.
+We normalize the number of flats contained in a variety by its degree, following Walsh’s concentration parameters [28, Section 1.1, definition of Dm]. The controlled-ruling strategy and the isotropic exception are closely related to the three-dimensional rigid-motion analysis of Tidor, Yu, and Zakharov [26, Sections 5–6]. Here the ruling geometry is that of evaluation flats of alternating forms in arbitrary fixed dimension; the required degree bound and exceptional-family classification are proved in full below.
 
 ### Approximate complete intersections
 
-We prove Walsh’s approximate complete-intersection theorem (Walsh 2020, Theorem 1.3). The partial-degree framework and the construction of compatible cuts follow (Walsh 2020, Definition 2.2 and Lemma 5.3). The comparison of restriction spaces appears in the proof of (Walsh 2020, Lemma 3.5). Walsh obtains a corresponding prefix degree estimate for his chosen cuts (Walsh 2020, Theorem 5.5). We prove the forms needed here; the component Hilbert bounds in Lemma 3.6 are the only quantitative algebraic input. In particular, this proof is independent of Theorem A.1.
+We prove Walsh’s approximate complete-intersection theorem [27, Theorem 1.3]. The partial-degree framework and the construction of compatible cuts follow [27, Definition 2.2 and Lemma 5.3]. The comparison of restriction spaces appears in the proof of [27, Lemma 3.5]. Walsh obtains a corresponding prefix degree estimate for his chosen cuts [27, Theorem 5.5]. We prove the forms needed here; the component Hilbert bounds in Lemma 3.6 are the only quantitative algebraic input. In particular, this proof is independent of Theorem A.1.
 
 **Theorem A.2** (Approximate complete intersection). *For every $n$ there is a constant $C_n$ with the following property. If $V\subset\mathbb A^n_{\mathbb C}$ is irreducible of codimension $c>0$, there are nonconstant polynomials $f_1,\ldots,f_c\in I(V)$ such that $V$ is an irreducible component of $Z(f_1,\ldots,f_c)$ and $$\prod_{i=1}^c\deg f_i\le C_n\deg V.$$*
 
@@ -1536,7 +1536,7 @@ The conclusion concerns an irreducible component. It does not assert that the di
 
 ### Separators and regular equations
 
-We use the isolated-intersection form of Bézout, with local multiplicities, and the standard local algebra and projective-bundle facts detailed in the proofs below (Fulton 1998; Hartshorne 1977).
+We use the isolated-intersection form of Bézout, with local multiplicities, and the standard local algebra and projective-bundle facts detailed in the proofs below [14, 17].
 
 **Lemma A.4** (Counting by separators). *Under the separator assumption of Theorem A.1, an irreducible projective variety $Y\subset\mathbf P(E\oplus E^*)$ of dimension $a$ contains at most $$C_{e,C_0}\deg(Y)A^a$$ sample parameters. The variety $Y$ need not be contained in $\mathcal Q$.*
 
@@ -1548,11 +1548,11 @@ We use the isolated-intersection form of Bézout, with local multiplicities, and
  \qquad(z\in V\setminus Z(H_0)).$$*
 
 *Proof.* Put $P=I(V)$ and consider the regular local ring $$R=\mathbb C[x_1,\ldots,x_n]_P,\qquad
- \mathfrak m=PR,\qquad K=R/\mathfrak m=\mathbb C(V).$$ Its dimension is $c$. Because $V$ is an isolated component of the common zero set at its generic point, $J=(f_1,\ldots,f_c)R$ is $\mathfrak m$-primary. Its generators form a parameter sequence, which is regular because $R$ is Cohen–Macaulay (The Stacks Project Authors 2026, Tags 00OQ, 00NQ, and 02JN). We first bound the length of $R/J$ by a dimensional constant.
+ \mathfrak m=PR,\qquad K=R/\mathfrak m=\mathbb C(V).$$ Its dimension is $c$. Because $V$ is an isolated component of the common zero set at its generic point, $J=(f_1,\ldots,f_c)R$ is $\mathfrak m$-primary. Its generators form a parameter sequence, which is regular because $R$ is Cohen–Macaulay [25, Tags 00OQ, 00NQ, and 02JN]. We first bound the length of $R/J$ by a dimensional constant.
 
 Write $k=\dim V$. A general projective linear projection of $\overline V$ to $\mathbf P^k$, with center in the hyperplane at infinity disjoint from $\overline V$, is finite and has degree $\deg V$. Finiteness follows because a positive-dimensional projective fiber would meet its hyperplane lying in the projection center. Restricting to the affine chart and changing affine coordinates gives base coordinates $t_1,\ldots,t_k$ and complementary coordinates $w_1,\ldots,w_c$. Over $F=\mathbb C(t_1,\ldots,t_k)$, the generic fiber of $V$ is a closed point of $\mathbb A^c_F$ with residue field $K$, where $[K:F]=\deg V$. Localizing $F[w_1,\ldots,w_c]$ at that point gives the same ring $R$.
 
-After extending $F$ to an algebraic closure, this point splits into $[K:F]$ points, since the extension is separable. The sum of their local intersection multiplicities for the equations $f_i$ is $[K:F]\operatorname{length}_R(R/J)$. They are isolated common zeros; other components of the system do not affect their isolated Bézout bound (Fulton 1998, Theorem 12.3 and Example 12.3.1). The equations $f_i$ define hypersurfaces in regular local ambient rings, so these factors are Cohen–Macaulay and the isolated complete-intersection multiplicity equals the quotient length; see (Fulton 1998, Example 12.3.7(ii)–(iii)) for this identification and its Cohen–Macaulay hypothesis. Hence $$\begin{equation}
+After extending $F$ to an algebraic closure, this point splits into $[K:F]$ points, since the extension is separable. The sum of their local intersection multiplicities for the equations $f_i$ is $[K:F]\operatorname{length}_R(R/J)$. They are isolated common zeros; other components of the system do not affect their isolated Bézout bound [14, Theorem 12.3 and Example 12.3.1]. The equations $f_i$ define hypersurfaces in regular local ambient rings, so these factors are Cohen–Macaulay and the isolated complete-intersection multiplicity equals the quotient length; see [14, Example 12.3.7(ii)–(iii)] for this identification and its Cohen–Macaulay hypothesis. Hence $$\begin{equation}
  \operatorname{length}_R(R/J)
  \leq\frac{\prod_i\deg f_i}{\deg V}\leq C_n.
  \tag{A.9}
@@ -1568,7 +1568,7 @@ We need derivatives which do not disturb the already chosen equations. For $u=0$
 
 At the generic point, the fields span the common kernel of the $d g_i$. The conormal map $\mathfrak m/\mathfrak m^2\to K^n$, $f\mapsto df$, is injective there, as $V$ is generically smooth in characteristic zero. It follows that the residue evaluations of the $\delta_\alpha$ span the dual of $\mathfrak m_u/\mathfrak m_u^2$. These residue evaluations are $K$-linear: the extra Leibniz term from differentiating a coefficient has a factor in $\mathfrak m_u$.
 
-Take an $f_i$ of order $b$ as above. A derivation lowers adic order by at most one, so fewer than $b$ of these derivations still give zero residue. Some composition of $b$ of them has nonzero residue. Indeed, the leading term of $f_i$ belongs to the degree-$b$ piece of the graded ring of $R_u$ (The Stacks Project Authors 2026, Tag 00NO), namely $$\mathfrak m_u^b/\mathfrak m_u^{b+1}
+Take an $f_i$ of order $b$ as above. A derivation lowers adic order by at most one, so fewer than $b$ of these derivations still give zero residue. Some composition of $b$ of them has nonzero residue. Indeed, the leading term of $f_i$ belongs to the degree-$b$ piece of the graded ring of $R_u$ [25, Tag 00NO], namely $$\mathfrak m_u^b/\mathfrak m_u^{b+1}
  \simeq\operatorname{Sym}^b_K(\mathfrak m_u/\mathfrak m_u^2).$$ Its polarization is nonzero in characteristic zero. Since the residue functionals span the dual, some $b$-tuple detects it. In computing that residue, terms in which a derivation hits a coefficient retain a positive-order factor and vanish. This gives exactly the asserted iterated derivative.
 
 Stop immediately before the last differentiation and call the resulting polynomial $g_{u+1}$. Its residue in $R_u$ is zero, so it belongs to $P$. Its derivative has nonzero residue, so its class in $\mathfrak m_u/\mathfrak m_u^2$ is nonzero. It adds an independent conormal. This procedure uses at most $L-1$ derivatives per stage and at most $c$ stages. Applying a polynomial field of coefficient degree $T$ to a degree-$B$ polynomial gives degree at most $B+T-1$; the bounds on $L$ and $c$ therefore keep every $g_i$ of degree $O_n(D)$.
@@ -1655,7 +1655,7 @@ All projective bundles below parametrize lines. Consider $$\begin{equation}
    \simeq\mathbf{P}(L\oplus Q^*),
  \qquad \rho:B\longrightarrow\mathbf{P}(E).
  \tag{A.15}
-\end{equation}$$ The second presentation is obtained by tensoring the first bundle with $L$. We use the line convention of (Fulton 1998, sec. 3.1 and Example 3.1.1). Since $L\oplus Q^*$ is a subbundle of the trivial bundle with fiber $E\oplus E^*$, it induces a morphism $\mu:B\to\mathcal Q$. Explicitly, write a point in the first presentation as $(L,[t:\psi])$, with $\psi:L\to L^\perp$. For any nonzero $v\in L$, $$\begin{equation}
+\end{equation}$$ The second presentation is obtained by tensoring the first bundle with $L$. We use the line convention of [14, Section 3.1 and Example 3.1.1]. Since $L\oplus Q^*$ is a subbundle of the trivial bundle with fiber $E\oplus E^*$, it induces a morphism $\mu:B\to\mathcal Q$. Explicitly, write a point in the first presentation as $(L,[t:\psi])$, with $\psi:L\to L^\perp$. For any nonzero $v\in L$, $$\begin{equation}
  \mu(L,[t:\psi])=[tv:\psi(v)].
  \tag{A.16}
 \end{equation}$$ Both rescaling $(t,\psi)$ and replacing $v$ by another generator of $L$ leave this point unchanged. Its quadratic value is zero because $\psi(v)$ annihilates $v$.
@@ -1708,7 +1708,7 @@ If $d_\Gamma$ denotes the degree of the geometric generic fiber against $\ell^j$
  \qquad
  \int_X\ell^j\xi^k=d_\Gamma\deg V\le C_e\deg V.
  \tag{A.22}
-\end{equation}$$ The coefficient in the first identity is computed on the generic fiber. Any other component of a representative hyperplane intersection has image of dimension less than $k$ and pushes forward to zero. These formulas do not require smoothness of $X$ or $\overline V$; see (Fulton 1998, secs. 1.4, 2.3, 2.5).
+\end{equation}$$ The coefficient in the first identity is computed on the generic fiber. Any other component of a representative hyperplane intersection has image of dimension less than $k$ and pushes forward to zero. These formulas do not require smoothness of $X$ or $\overline V$; see [14, Sections 1.4, 2.3, 2.5].
 
 ##### A positive Segre-class formula.
 
@@ -1718,7 +1718,7 @@ For projective bundles of lines, the projective bundle formula is $$\begin{equat
       \cap[\widetilde\Lambda],
  \qquad s_t(\mathcal U)=c_t(\mathcal U)^{-1}.
  \tag{A.23}
-\end{equation}$$ This formula applies equally to a vector bundle on a singular base (Fulton 1998, secs. 3.1–3.3). We compute it before restriction to $\widetilde\Lambda$.
+\end{equation}$$ This formula applies equally to a vector bundle on a singular base [14, Sections 3.1–3.3]. We compute it before restriction to $\widetilde\Lambda$.
 
 Dualizing the tautological sequence on $\mathbf{P}(E)$ and tensoring by $L^*=\mathcal O(1)$ gives $$0\longrightarrow Q^*(1)
  \longrightarrow E^*\otimes\mathcal O(1)
@@ -1815,7 +1815,7 @@ We now prove Theorem A.1. The preceding results control flats away from a low-d
 *Proof of Theorem A.1.* Fix the sample, $A$, and one of Specifications (a) and (b). For $0\leq h<r$, let $R_h$ be the supremum of $$\frac{\#\{\lambda\in\mathcal P:F_\lambda\subset V\}}
       {\deg(V)A^h}$$ over the allowed irreducible varieties of dimension $s_0+h$. An empty supremum is zero. These suprema are finite for the fixed sample: each numerator is at most $|\mathcal P|$, and each denominator is at least one. As noted after the theorem, $R_0\leq1$. In (a) also put $$R_r=|\mathcal P|/A^r\leq C_0.$$ In (b) the index $r$ is unavailable and will never be used.
 
-We first refine the choice of approximate equations. Take the $c=n-\dim V$ equations from Theorem A.2, ordering their degrees as $d_1\leq\cdots\leq d_c$. They form a parameter sequence in the regular local ring $\mathbb C[S]_{I(V)}$, so every initial segment of length $i$ has height $i$ (The Stacks Project Authors 2026, Tags 00NQ, 02JN, and 00NA). Choose a polynomial $q$ of smallest positive degree in $I(V)$. We may use $q$ as the first equation and preserve the upper bounds $d_i$ on the remaining ones. Indeed, suppose a replacement prefix of length $i-1$ has height $i-1$. Its minimal primes have that height, because a partial parameter sequence in this regular local ring is a regular sequence. None can contain the ideal generated by the first $i$ original equations, whose height is $i$. A generic constant linear combination of those $i$ equations avoids all these minimal primes and extends the replacement prefix to height $i$. Its degree is at most $d_i$. Starting with $q$ and continuing gives a parameter system again. Consequently $V$ remains a component of its global common zero set. Replace $d_1$ by $\deg q$. The nondecreasing upper bounds still satisfy $$\begin{equation}
+We first refine the choice of approximate equations. Take the $c=n-\dim V$ equations from Theorem A.2, ordering their degrees as $d_1\leq\cdots\leq d_c$. They form a parameter sequence in the regular local ring $\mathbb C[S]_{I(V)}$, so every initial segment of length $i$ has height $i$ [25, Tags 00NQ, 02JN, and 00NA]. Choose a polynomial $q$ of smallest positive degree in $I(V)$. We may use $q$ as the first equation and preserve the upper bounds $d_i$ on the remaining ones. Indeed, suppose a replacement prefix of length $i-1$ has height $i-1$. Its minimal primes have that height, because a partial parameter sequence in this regular local ring is a regular sequence. None can contain the ideal generated by the first $i$ original equations, whose height is $i$. A generic constant linear combination of those $i$ equations avoids all these minimal primes and extends the replacement prefix to height $i$. Its degree is at most $d_i$. Starting with $q$ and continuing gives a parameter system again. Consequently $V$ remains a component of its global common zero set. Replace $d_1$ by $\deg q$. The nondecreasing upper bounds still satisfy $$\begin{equation}
  \prod_{i=1}^c d_i\leq C_n\deg V.
  \tag{A.31}
 \end{equation}$$ The later actual degrees may be smaller than their upper bounds; this only strengthens the relevant Bézout estimates.
@@ -1858,11 +1858,11 @@ If the maximum $T=\max_h R_h/B_h$ were greater than one, a maximizing index woul
 
 ## Real incidence estimates
 
-We give the incidence arguments used in the proof. All constants in this section are absolute. The elementary algebraic facts used below are the following forms of Bézout’s Theorem: two relatively prime polynomials of degrees $a,b$ in three variables have at most $ab$ distinct common line components, and a polynomial of degree $a$ has at most $a$ zeros on a line unless it vanishes identically on that line. We also use unique factorization, the implicit function theorem, and the Borsuk–Ulam Theorem in its standard form that every continuous odd map $S^q\longrightarrow \mathbb R^q$ has a zero (Hatcher 2002, Corollary 2B.7). In the ruled-surface argument we use the basic projective facts that a projective morphism has closed image, that varieties have finitely many irreducible components, and that a proper closed subset of an irreducible curve is finite. We use the dimension and generic-fiber-dimension theorems, and extension of derivations across separable algebraic field extensions. The incidence theorems and the special assertions about ruled surfaces are proved below. The historical sources for the two principal incidence bounds are (Szemerédi and Trotter 1983; Guth and Katz 2015).
+We give the incidence arguments used in the proof. All constants in this section are absolute. The elementary algebraic facts used below are the following forms of Bézout’s Theorem: two relatively prime polynomials of degrees $a,b$ in three variables have at most $ab$ distinct common line components, and a polynomial of degree $a$ has at most $a$ zeros on a line unless it vanishes identically on that line. We also use unique factorization, the implicit function theorem, and the Borsuk–Ulam Theorem in its standard form that every continuous odd map $S^q\longrightarrow \mathbb R^q$ has a zero [18, Corollary 2B.7]. In the ruled-surface argument we use the basic projective facts that a projective morphism has closed image, that varieties have finitely many irreducible components, and that a proper closed subset of an irreducible curve is finite. We use the dimension and generic-fiber-dimension theorems, and extension of derivations across separable algebraic field extensions. The incidence theorems and the special assertions about ruled surfaces are proved below. The historical sources for the two principal incidence bounds are [24, 16].
 
 ### The planar incidence bound
 
-We use the crossing inequality of Ajtai, Chvátal, Newborn, and Szemerédi and of Leighton (Ajtai et al. 1982; Leighton 1983), following Székely’s crossing-number proof of the incidence estimate (Székely 1997).
+We use the crossing inequality of Ajtai, Chvátal, Newborn, and Szemerédi and of Leighton [1, 20], following Székely’s crossing-number proof of the incidence estimate [23].
 
 **Lemma B.1** (Crossings). *Suppose a simple graph with $v\ge1$ vertices and $e\ge4v$ edges is drawn in the plane, no edge goes through a vertex other than its endpoints, and two edges with a common endpoint have no other intersection. If $X$ counts intersecting pairs of edges away from their endpoints, then $X\ge e^3/(64v^2)$.*
 
@@ -1878,7 +1878,7 @@ For a finite configuration in higher-dimensional affine space, choose a linear p
 
 ### Polynomial bisection and flat lines
 
-Polynomial bisection is the Stone–Tukey ham-sandwich construction (Stone and Tukey 1942), as used in Guth–Katz polynomial partitioning (Guth and Katz 2015).
+Polynomial bisection is the Stone–Tukey ham-sandwich construction [22], as used in Guth–Katz polynomial partitioning [16].
 
 **Lemma B.3** (Polynomial bisection). *Given a finite set $S\subset\mathbb R^3$ and an integer $r\ge1$, there is a nonzero real polynomial $f$ of degree at most $C r$ such that $\mathbb R^3\setminus Z(f)$ is partitioned into at most $C r^3$ open sets, each containing at most $C|S|/r^3$ points of $S$. Every line not contained in $Z(f)$ meets at most $\deg f+1$ of these sets. The sets need not be connected.*
 
@@ -1888,7 +1888,7 @@ Replace each point in each of $m$ finite sets by a disjoint small ball of the sa
 
 Iterate this finite bisection $J$ times, bisecting all the at most $2^{j-1}$ sign classes at stage $j$. A degree $C2^{j/3}$ suffices at that stage. The product $f$ of these $J$ polynomials has degree at most $C2^{J/3}$, and every strict sign class has at most $2^{-J}|S|$ points. Choose $2^J$ comparable to $r^3$. A line outside $Z(f)$ is cut into at most $\deg f+1$ intervals by its intersections with $Z(f)$; all the factors have constant sign on each interval. This proves the last assertion as well. ◻
 
-The critical-line and flat-line tests below are part of the algebraic incidence method of Guth–Katz and Elekes–Kaplan–Sharir (Guth and Katz 2010; Elekes et al. 2011). For a square-free real polynomial $f$ of degree $D$, call a point of $Z(f)$ *critical* if $\nabla f=0$. A noncritical point is *flat* if its second fundamental form vanishes. A line in $Z(f)$ is critical if all its points are critical, and is flat if it is not critical and all its noncritical points are flat.
+The critical-line and flat-line tests below are part of the algebraic incidence method of Guth–Katz and Elekes–Kaplan–Sharir [15, 10]. For a square-free real polynomial $f$ of degree $D$, call a point of $Z(f)$ *critical* if $\nabla f=0$. A noncritical point is *flat* if its second fundamental form vanishes. A line in $Z(f)$ is critical if all its points are critical, and is flat if it is not critical and all its noncritical points are flat.
 
 **Lemma B.4** (Critical and flat lines). *For a square-free polynomial $f$ of degree $D$:*
 
@@ -1958,7 +1958,7 @@ The $uv$ lines are distinct: their intercept and slope determine $x-y$ and $x+y$
 
 ### A ruled-surface criterion with a degree bound
 
-This is the flecnode approach to ruledness used in (Guth and Katz 2015, sec. 3, Proposition 3.2 and Corollary 3.3). The direct resultant calculation below gives degree at most $17d-24$; the sharper flecnode degree used in that source is not needed here.
+This is the flecnode approach to ruledness used in [16, Section 3, Proposition 3.2 and Corollary 3.3]. The direct resultant calculation below gives degree at most $17d-24$; the sharper flecnode degree used in that source is not needed here.
 
 All varieties in the next two lemmas are over $\mathbb C$, unless a real structure is explicitly mentioned. A projective surface is *ruled* if every point belongs to a projective line contained in the surface. The statement is geometric: a real sphere is ruled over $\mathbb C$ even though it contains no real line. A *regulus* in the real incidence statements is the affine part of a smooth real projective quadric with real lines.
 
@@ -2018,7 +2018,7 @@ For the general union, extract all lines in each plane component or component wi
 
 ### The two-rich line theorem
 
-The sampling and degree-reduction argument follows the architecture of the two-rich-point proof in (Guth and Katz 2015, sec. 3).
+The sampling and degree-reduction argument follows the architecture of the two-rich-point proof in [16, Section 3].
 
 **Theorem B.10** (Two-rich points). *For $m$ distinct real affine lines, with at most $s\ge1$ in any plane or regulus, the number $P_2$ of points lying on at least two lines satisfies $$P_2\le K\bigl(m^{3/2}+ms\bigr)$$ for an absolute constant $K$.*
 
@@ -2062,60 +2062,60 @@ For each positive distance $\rho$ let $a_\rho$ be the number of ordered pairs of
 
 ## References
 
-Ajtai, Miklós, Vašek Chvátal, Monroe M. Newborn, and Endre Szemerédi. 1982. “Crossing-Free Subgraphs.” In *Theory and Practice of Combinatorics*, vol. 60. North-Holland Mathematics Studies. North-Holland. <https://doi.org/10.1016/S0304-0208(08)73484-4>.
+**[1]** Miklós Ajtai, Vašek Chvátal, Monroe M. Newborn, and Endre Szemerédi. Crossing-free subgraphs. In *Theory and Practice of Combinatorics*, volume 60 of *North-Holland Mathematics Studies*, pages 9–12. North-Holland, 1982.
 
-Aksoy Yazici, Esen. 2020. *Erdős Distance Problem in $\mathbb{R}^d$*. <https://arxiv.org/abs/2002.01248>.
+**[2]** Esen Aksoy Yazici. Erdős distance problem in $\mathbb{R}^d$, 2020. Withdrawn by the author on February 12, 2020.
 
-Aronov, Boris, János Pach, Micha Sharir, and Gábor Tardos. 2004. “Distinct Distances in Three and Higher Dimensions.” *Combinatorics, Probability and Computing* 13 (3): 283–93. <https://doi.org/10.1017/S0963548304006091>.
+**[3]** Boris Aronov, János Pach, Micha Sharir, and Gábor Tardos. Distinct distances in three and higher dimensions. *Combinatorics, Probability and Computing*, 13(3):283–293, 2004.
 
-Bardwell-Evans, Sam, and Adam Sheffer. 2019. “A Reduction for the Distinct Distances Problem in $\mathbb{R}^d$.” *Journal of Combinatorial Theory, Series A* 166: 171–225. <https://doi.org/10.1016/j.jcta.2019.02.010>.
+**[4]** Sam Bardwell-Evans and Adam Sheffer. A reduction for the distinct distances problem in $\mathbb{R}^d$. *Journal of Combinatorial Theory, Series A*, 166:171–225, 2019. [Published article](https://doi.org/10.1016/j.jcta.2019.02.010); [arXiv:1705.10963v2, 6 April 2019](https://arxiv.org/abs/1705.10963v2). Numbered locators in the text refer to this arXiv version.
 
-Beck, József. 1983. “On the Lattice Property of the Plane and Some Problems of Dirac, Motzkin and Erdős in Combinatorial Geometry.” *Combinatorica* 3 (3–4): 281–97. <https://doi.org/10.1007/BF02579184>.
+**[5]** József Beck. On the lattice property of the plane and some problems of Dirac, Motzkin and Erdős in combinatorial geometry. *Combinatorica*, 3(3–4):281–297, 1983.
 
-Chardin, Marc. 1989. “Une Majoration de La Fonction de Hilbert Et Ses Conséquences Pour l’interpolation Algébrique.” *Bulletin de La Société Mathématique de France* 117 (3): 305–18. <https://doi.org/10.24033/bsmf.2124>.
+**[6]** Marc Chardin. Une majoration de la fonction de Hilbert et ses conséquences pour l’interpolation algébrique. *Bulletin de la Société Mathématique de France*, 117(3):305–318, 1989.
 
-Chardin, Marc, and Patrice Philippon. 1999. “Régularité Et Interpolation.” *Journal of Algebraic Geometry* 8 (3): 471–81. <https://webusers.imj-prg.fr/~marc.chardin/publications/textes/11.RI.pdf>.
+**[7]** Marc Chardin and Patrice Philippon. Régularité et interpolation. *Journal of Algebraic Geometry*, 8(3):471–481, 1999. See also the erratum, Journal of Algebraic Geometry 11(3) (2002), 599–600.
 
-Chardin, Marc, and Patrice Philippon. 2002. “Erratum to ‘Régularité Et Interpolation’.” *Journal of Algebraic Geometry* 11 (3): 599–600. <https://webusers.imj-prg.fr/~marc.chardin/publications/textes/11.Err.pdf>.
+**[8]** Marc Chardin and Patrice Philippon. Erratum to “régularité et interpolation”. *Journal of Algebraic Geometry*, 11(3):599–600, 2002.
 
-Clarkson, Kenneth L., Herbert Edelsbrunner, Leonidas J. Guibas, Micha Sharir, and Emo Welzl. 1990. “Combinatorial Complexity Bounds for Arrangements of Curves and Spheres.” *Discrete & Computational Geometry* 5: 99–160. <https://doi.org/10.1007/BF02187783>.
+**[9]** Kenneth L. Clarkson, Herbert Edelsbrunner, Leonidas J. Guibas, Micha Sharir, and Emo Welzl. Combinatorial complexity bounds for arrangements of curves and spheres. *Discrete & Computational Geometry*, 5:99–160, 1990.
 
-Elekes, György, Haim Kaplan, and Micha Sharir. 2011. “On Lines, Joints, and Incidences in Three Dimensions.” *Journal of Combinatorial Theory, Series A* 118 (3): 962–77. <https://doi.org/10.1016/j.jcta.2010.11.008>.
+**[10]** György Elekes, Haim Kaplan, and Micha Sharir. On lines, joints, and incidences in three dimensions. *Journal of Combinatorial Theory, Series A*, 118(3):962–977, 2011.
 
-Elekes, György, and Micha Sharir. 2011. “Incidences in Three Dimensions and Distinct Distances in the Plane.” *Combinatorics, Probability and Computing* 20 (4): 571–608. <https://doi.org/10.1017/S0963548311000137>.
+**[11]** György Elekes and Micha Sharir. Incidences in three dimensions and distinct distances in the plane. *Combinatorics, Probability and Computing*, 20(4):571–608, 2011.
 
-Elekes, György, and Csaba D. Tóth. 2005. “Incidences of Not-Too-Degenerate Hyperplanes.” *Proceedings of the Twenty-First Annual Symposium on Computational Geometry*, 16–21. <https://doi.org/10.1145/1064092.1064098>.
+**[12]** György Elekes and Csaba D. Tóth. Incidences of not-too-degenerate hyperplanes. In *Proceedings of the Twenty-First Annual Symposium on Computational Geometry*, pages 16–21, 2005. [Published article](https://doi.org/10.1145/1064092.1064098).
 
-Erdős, P. 1946. “On Sets of Distances of $n$ Points.” *The American Mathematical Monthly* 53 (5): 248–50. <https://doi.org/10.1080/00029890.1946.11991674>.
+**[13]** P. Erdős. On sets of distances of $n$ points. *The American Mathematical Monthly*, 53(5):248–250, 1946. [Original article](https://users.renyi.hu/~p_erdos/1946-03.pdf).
 
-Fulton, William. 1998. *Intersection Theory*. Second. Vol. 2. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete. 3. Folge. Springer. <https://doi.org/10.1007/978-1-4612-1700-8>.
+**[14]** William Fulton. *Intersection Theory*, volume 2 of *Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge*. Springer, second edition, 1998. [Second edition](https://doi.org/10.1007/978-1-4612-1700-8).
 
-Guth, Larry, and Nets Hawk Katz. 2010. “Algebraic Methods in Discrete Analogs of the Kakeya Problem.” *Advances in Mathematics* 225 (5): 2828–39. <https://doi.org/10.1016/j.aim.2010.05.015>.
+**[15]** Larry Guth and Nets Hawk Katz. Algebraic methods in discrete analogs of the Kakeya problem. *Advances in Mathematics*, 225(5):2828–2839, 2010.
 
-Guth, Larry, and Nets Hawk Katz. 2015. “On the Erdős Distinct Distances Problem in the Plane.” *Annals of Mathematics* 181 (1): 155–90. <https://doi.org/10.4007/annals.2015.181.1.2>.
+**[16]** Larry Guth and Nets Hawk Katz. On the Erdős distinct distances problem in the plane. *Annals of Mathematics*, 181(1):155–190, 2015. [Published article](https://doi.org/10.4007/annals.2015.181.1.2); [arXiv:1011.4105v3, 28 June 2011](https://arxiv.org/abs/1011.4105v3). Theorem numbering in the text refers to this arXiv version.
 
-Hartshorne, Robin. 1977. *Algebraic Geometry*. Vol. 52. Graduate Texts in Mathematics. Springer-Verlag. <https://doi.org/10.1007/978-1-4757-3849-0>.
+**[17]** Robin Hartshorne. *Algebraic Geometry*, volume 52 of *Graduate Texts in Mathematics*. Springer-Verlag, New York, 1977. [Publisher’s edition](https://doi.org/10.1007/978-1-4757-3849-0).
 
-Hatcher, Allen. 2002. *Algebraic Topology*. Cambridge University Press. <https://pi.math.cornell.edu/~hatcher/AT/AT.pdf>.
+**[18]** Allen Hatcher. *Algebraic Topology*. Cambridge University Press, 2002. [Author’s electronic edition](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf).
 
-Kaminski, J. Y., A. Kanel-Belov, and M. Teicher. 2008. “Trisecant Lemma for Nonequidimensional Varieties.” *Journal of Mathematical Sciences* 149 (2): 1087–97. <https://doi.org/10.1007/s10958-008-0047-7>.
+**[19]** J. Y. Kaminski, A. Kanel-Belov, and M. Teicher. Trisecant lemma for nonequidimensional varieties. *Journal of Mathematical Sciences*, 149(2):1087–1097, 2008.
 
-Leighton, Frank Thomson. 1983. *Complexity Issues in VLSI: Optimal Layouts for the Shuffle-Exchange Graph and Other Networks*. MIT Press. <https://mitpress.mit.edu/9780262121040/complexity-issues-in-vlsi/>.
+**[20]** Frank Thomson Leighton. *Complexity Issues in VLSI: Optimal Layouts for the Shuffle-Exchange Graph and Other Networks*. MIT Press, 1983.
 
-Solymosi, József, and Van H. Vu. 2008. “Near Optimal Bounds for the Erdős Distinct Distances Problem in High Dimensions.” *Combinatorica* 28 (1): 113–25. <https://doi.org/10.1007/s00493-008-2099-1>.
+**[21]** József Solymosi and Van H. Vu. Near optimal bounds for the Erdős distinct distances problem in high dimensions. *Combinatorica*, 28(1):113–125, 2008.
 
-Stone, A. H., and John W. Tukey. 1942. “Generalized ‘Sandwich’ Theorems.” *Duke Mathematical Journal* 9 (2): 356–59. <https://doi.org/10.1215/S0012-7094-42-00925-6>.
+**[22]** A. H. Stone and John W. Tukey. Generalized “sandwich” theorems. *Duke Mathematical Journal*, 9(2):356–359, 1942.
 
-Székely, László A. 1997. “Crossing Numbers and Hard Erdős Problems in Discrete Geometry.” *Combinatorics, Probability and Computing* 6 (3): 353–58. <https://doi.org/10.1017/S0963548397002976>.
+**[23]** László A. Székely. Crossing numbers and hard Erdős problems in discrete geometry. *Combinatorics, Probability and Computing*, 6(3):353–358, 1997.
 
-Szemerédi, Endre, and William T. Trotter Jr. 1983. “Extremal Problems in Discrete Geometry.” *Combinatorica* 3 (3–4): 381–92. <https://doi.org/10.1007/BF02579194>.
+**[24]** Endre Szemerédi and William T. Trotter, Jr. Extremal problems in discrete geometry. *Combinatorica*, 3(3–4):381–392, 1983. [Published article](https://doi.org/10.1007/BF02579194).
 
-The Stacks Project Authors. 2026. *The Stacks Project*. <https://stacks.math.columbia.edu>.
+**[25]** The Stacks Project Authors. The stacks project, 2026. Cited by permanent tags; consulted September 23 and October 1, 2026. [Tag 0578](https://stacks.math.columbia.edu/tag/0578), [Tag 00OQ](https://stacks.math.columbia.edu/tag/00OQ), [Tag 00NO](https://stacks.math.columbia.edu/tag/00NO), [Tag 00NQ](https://stacks.math.columbia.edu/tag/00NQ), [Tag 00NA](https://stacks.math.columbia.edu/tag/00NA), [Tag 02JN](https://stacks.math.columbia.edu/tag/02JN), [Tag 062F](https://stacks.math.columbia.edu/tag/062F), [Tag 052A](https://stacks.math.columbia.edu/tag/052A), [Tag 0559](https://stacks.math.columbia.edu/tag/0559), [Tag 0C0E](https://stacks.math.columbia.edu/tag/0C0E), and [Tag 0B9T](https://stacks.math.columbia.edu/tag/0B9T).
 
-Tidor, Jonathan, Hung-Hsun Hans Yu, and Dmitrii Zakharov. 2026. *The Erdős Distinct Distances Problem in $\mathbb{R}^3$*. Preprint, arXiv:2608.14454v1 \[math.CO\]. <https://doi.org/10.48550/arXiv.2608.14454>.
+**[26]** Jonathan Tidor, Hung-Hsun Hans Yu, and Dmitrii Zakharov. The Erdős distinct distances problem in $\mathbb{R}^3$. Preprint, arXiv:2608.14454v1 \[math.CO\], 2026. [Version 1, submitted 14 August 2026](https://arxiv.org/abs/2608.14454v1).
 
-Walsh, Miguel N. 2020. “The Polynomial Method over Varieties.” *Inventiones Mathematicae* 222 (2): 469–512. <https://doi.org/10.1007/s00222-020-00975-6>.
+**[27]** Miguel N. Walsh. The polynomial method over varieties. *Inventiones mathematicae*, 222(2):469–512, 2020. [Published article](https://doi.org/10.1007/s00222-020-00975-6); [arXiv:1811.07865v2, 12 June 2020](https://arxiv.org/abs/1811.07865v2).
 
-Walsh, Miguel N. 2023. “Concentration Estimates for Algebraic Intersections.” *American Journal of Mathematics* 145 (2): 435–75. <https://arxiv.org/abs/1906.05843v2>.
+**[28]** Miguel N. Walsh. Concentration estimates for algebraic intersections. *American Journal of Mathematics*, 145(2):435–475, 2023. [arXiv:1906.05843v2, 26 December 2019](https://arxiv.org/abs/1906.05843v2). Section locators in the text refer to this arXiv version.
 
-[^1]: An earlier manuscript of Aksoy Yazici claimed the constant-factor bound in all dimensions $d\ge3$, but was withdrawn by the author because the proof of its Theorem 1.2 is not correct (Aksoy Yazici 2020).
+[^1]: An earlier manuscript of Aksoy Yazici claimed the constant-factor bound in all dimensions $d\ge3$, but was withdrawn by the author because the proof of its Theorem 1.2 is not correct [2].

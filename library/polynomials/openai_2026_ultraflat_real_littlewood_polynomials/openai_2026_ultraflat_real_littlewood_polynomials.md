@@ -20,24 +20,24 @@ The signs may depend on $N$. The theorem concerns both extrema of the same polyn
 
 ### The flatness problem
 
-Erdős asked whether real-sign polynomials could stay between two fixed positive multiples of their square-root scale on the entire circle (Erdős 1957, Problem 26); the problem also appears in Littlewood’s work (Littlewood 1966). The Rudin–Shapiro construction gives real-sign polynomials with maximum at most $\sqrt{2N}$ at dyadic lengths (Rudin 1959). Balister, Bollobás, Morris, Sahasrabudhe and Tiba proved the two-sided constant-factor statement at every degree at least two (Balister et al. 2020, Theorem 1.1). Their theorem controls the scale of both extrema, while ultraflatness requires both normalized extrema to converge to one.
+Erdős asked whether real-sign polynomials could stay between two fixed positive multiples of their square-root scale on the entire circle [8, Problem 26]; the problem also appears in Littlewood’s work [10]. The Rudin–Shapiro construction gives real-sign polynomials with maximum at most $\sqrt{2N}$ at dyadic lengths [15]. Balister, Bollobás, Morris, Sahasrabudhe and Tiba proved the two-sided constant-factor statement at every degree at least two [2, Theorem 1.1]. Their theorem controls the scale of both extrema, while ultraflatness requires both normalized extrema to converge to one.
 
-For complex coefficients of modulus one, Kahane constructed ultraflat polynomials (Kahane 1980). Bombieri and Bourgain improved the quantitative bounds and gave effective constructions (Bombieri and Bourgain 2009, Theorems 4 and 7). The restriction to real signs is substantial. The predecessor (OpenAI 2026a, Theorem 1.1) obtains an asymptotically minimal maximum through all lengths. Its version-2 refinement (OpenAI 2026b, Theorem 1.1) gives the simultaneous bounds $$\frac1{16}\sqrt N\le |P(z)|\le(1+\eta)\sqrt N
+For complex coefficients of modulus one, Kahane constructed ultraflat polynomials [9]. Bombieri and Bourgain improved the quantitative bounds and gave effective constructions [3, Theorems 4 and 7]. The restriction to real signs is substantial. The predecessor [12, Theorem 1.1] obtains an asymptotically minimal maximum through all lengths. Its version-2 refinement [13, Theorem 1.1] gives the simultaneous bounds $$\frac1{16}\sqrt N\le |P(z)|\le(1+\eta)\sqrt N
  \qquad(|z|=1)$$ for every fixed $\eta>0$ and all sufficiently large $N$. Theorem 1 strengthens that lower bound to its asymptotically optimal value. The present paper develops the additional constructions needed for this strengthening and uses the retained version-2 paper as the source of two shared lemmas.
 
-Recent obstructions distinguish the relevant quantifiers. Erdélyi proved that the full sequence of partial sums of one fixed unimodular power series cannot be ultraflat (Erdélyi 2026b, Theorem 2.1). This does not restrict the independent choice of signs at each length in Theorem 1. His separate lower bound (Erdélyi 2026a, Theorem 2.1), $\max_{|z|=1}|P(z)|^2\ge N+(N-1)^{1/3}/38$, is compatible with the asymptotic conclusion here.[^1]
+Recent obstructions distinguish the relevant quantifiers. Erdélyi proved that the full sequence of partial sums of one fixed unimodular power series cannot be ultraflat [7, Theorem 2.1]. This does not restrict the independent choice of signs at each length in Theorem 1. His separate lower bound [6, Theorem 2.1], $\max_{|z|=1}|P(z)|^2\ge N+(N-1)^{1/3}/38$, is compatible with the asymptotic conclusion here.[^1]
 
 ### Construction and relation to the earlier version
 
 The proof first constructs a continuous function $B_N$ on the circle whose modulus is close to one. Its Fourier coefficients of indices $0,\ldots,N-1$ are real and at most $(1+o(1))/\sqrt N$ in absolute value, and the sum of the absolute values of all remaining coefficients tends to zero. Parseval’s identity then forces the retained coefficients to be almost of sign size in aggregate. A discrepancy estimate rounds them to signs with a small uniform error. This last passage converts the continuous construction into a Littlewood polynomial.
 
-To build $B_N$, we adapt the auxiliary-torus and phase-correction arguments of (OpenAI 2026b, secs. 2, 4, and 5). The auxiliary object is a real trigonometric polynomial $F(y)=\sum_{a\in\mathcal A}c_a\mathrm e(a\cdot y)$ on a higher-dimensional torus, where $\mathrm e(t)=\exp(2\pi i t)$. Its norm is at most $1+\delta$, and its Fourier coefficients are compared with positive weights $w_a=|a\cdot v|$ whose sum is close to one. Here $\delta>0$ is a small error parameter and $v$ is a fixed real vector. The first additional requirement is the two-sided comparison $$1\le |c_a|/\sqrt{w_a}\le1+C\delta.$$ We obtain it by spreading each original coefficient over a box of frequencies and rounding the spreading factors to equal coefficient magnitudes. Section 3 proves the required complex version of the defect-sensitive rounding estimate, and Section 4 carries out the auxiliary construction.
+To build $B_N$, we adapt the auxiliary-torus and phase-correction arguments of [13, Sections 2, 4, and 5]. The auxiliary object is a real trigonometric polynomial $F(y)=\sum_{a\in\mathcal A}c_a\mathrm e(a\cdot y)$ on a higher-dimensional torus, where $\mathrm e(t)=\exp(2\pi i t)$. Its norm is at most $1+\delta$, and its Fourier coefficients are compared with positive weights $w_a=|a\cdot v|$ whose sum is close to one. Here $\delta>0$ is a small error parameter and $v$ is a fixed real vector. The first additional requirement is the two-sided comparison $$1\le |c_a|/\sqrt{w_a}\le1+C\delta.$$ We obtain it by spreading each original coefficient over a box of frequencies and rounding the spreading factors to equal coefficient magnitudes. Section 3 proves the required complex version of the defect-sensitive rounding estimate, and Section 4 carries out the auxiliary construction.
 
 The frequencies of $F$ then supply oscillatory waves on disjoint short arcs, each with constant modulus $|c_a|/\sqrt{w_a}$. Their phases are chosen so that, at a fixed Fourier index, the leading stationary-phase terms sum to a single value of $F$ multiplied by a factor in $[0,1]$. The norm bound for $F$ therefore controls these contributions without accumulating the magnitudes of its coefficients.
 
 The second change concerns the endpoints of the waves. We increase the magnitude of their phase curvature near the endpoints while keeping their amplitudes constant. Stationary phase therefore gives small endpoint Fourier contributions while the function’s modulus stays close to one. The waves are joined across the remaining gaps by matching their values and their leading phase derivatives. These matching conditions cancel the first boundary terms in integration by parts and give a summable exterior Fourier tail. Section 2 supplies the analytic estimates, Section 5 constructs and joins the waves, and Section 6 projects and rounds to signs.
 
-The signed interval packing and real matrix discrepancy lemmas are inherited from (OpenAI 2026b, Lemmas 3.1 and 6.2). Their combinatorial inputs are the Pippenger–Spencer hypergraph-coloring theorem (Pippenger and Spencer 1989), in the quantified form of (Alon and Yuster 2005, Lemma 2.1), and the partial-coloring method of Spencer (Spencer 1985) and Lovett–Meka (Lovett and Meka 2015). Discrepancy and the repair of exceptional arcs also occur in (Balister et al. 2020, sec. 2.1 and 4), where a sine polynomial corrects a Rudin–Shapiro cosine polynomial. Here the correction joins oscillatory waves while preserving their almost constant modulus. All dimensions, packing data, intervals, and leading phases are fixed before the final length tends to infinity; the construction consequently applies to all sufficiently large integer lengths.
+The signed interval packing and real matrix discrepancy lemmas are inherited from [13, Lemmas 3.1 and 6.2]. Their combinatorial inputs are the Pippenger–Spencer hypergraph-coloring theorem [14], in the quantified form of [1, Lemma 2.1], and the partial-coloring method of Spencer [16] and Lovett–Meka [11]. Discrepancy and the repair of exceptional arcs also occur in [2, Sections 2.1 and 4], where a sine polynomial corrects a Rudin–Shapiro cosine polynomial. Here the correction joins oscillatory waves while preserving their almost constant modulus. All dimensions, packing data, intervals, and leading phases are fixed before the final length tends to infinity; the construction consequently applies to all sufficiently large integer lengths.
 
 ## Oscillatory integral estimates
 
@@ -77,11 +77,11 @@ We record three elementary forms of stationary phase. The first supplies uniform
 
 ## Rounding with a small defect
 
-We need to round almost unimodular coefficients while controlling the error on the whole circle. The estimate below extends the real rounding argument of (OpenAI 2026b, sec. 6) to prescribed complex phases. We quote its real matrix discrepancy lemma below; the proof there uses the partial-coloring method of Spencer (Spencer 1985) and the real-vector theorem of Lovett and Meka (Lovett and Meka 2015, Theorem 4 of arXiv:1203.5747v2).
+We need to round almost unimodular coefficients while controlling the error on the whole circle. The estimate below extends the real rounding argument of [13, Section 6] to prescribed complex phases. We quote its real matrix discrepancy lemma below; the proof there uses the partial-coloring method of Spencer [16] and the real-vector theorem of Lovett and Meka [11, Theorem 4 of arXiv:1203.5747v2].
 
 **Lemma 3.1** (Real matrix discrepancy). *There is an absolute constant $C$ such that, for integers $1\le s\le R$ and every $A\in[-1,1]^{R\times s}$, there is a vector $\xi\in\{-1,1\}^s$ satisfying $$\lVert A\xi\rVert_\infty\le C\sqrt{s\log(2R/s)}.$$*
 
-*Proof.* This is (OpenAI 2026b, Lemma 6.2), whose statement applies to arbitrary real matrices in the displayed rectangular range. ◻
+*Proof.* This is [13, Lemma 6.2], whose statement applies to arbitrary real matrices in the displayed rectangular range. ◻
 
 **Lemma 3.2** (Rounding with prescribed phases). *Let $n\ge1$ be an integer and $Z_0,\ldots,Z_{n-1}\in\mathbb C$ satisfy $|Z_j|\le1$. Write $Z_j=d_j|Z_j|$, where $|d_j|=1$, choosing $d_j=1$ when $Z_j=0$, and put $$\mu=\frac12\sum_{j=0}^{n-1}(1-|Z_j|).$$ There are $\eta_j\in\{d_j,-d_j\}$ such that $$\begin{equation}
 \tag{3.1}
@@ -109,7 +109,7 @@ Set $\eta_j=d_j(1-2p'_j)$ and $Q(z)=\sum_{j=0}^{n-1}(\eta_j-Z_j)z^j$. The real a
 
 ## A real auxiliary function with balanced coefficients
 
-The wave construction will use a bounded real trigonometric polynomial whose coefficient magnitudes are close to the square roots of its frequency weights. These weights must have the form $|a\cdot v|$, where $a$ is a Fourier frequency and $v$ is one common vector. We adapt the auxiliary-torus construction of (OpenAI 2026b, sec. 2). The additional step is to round the coefficients of each spreading factor to a common magnitude.
+The wave construction will use a bounded real trigonometric polynomial whose coefficient magnitudes are close to the square roots of its frequency weights. These weights must have the form $|a\cdot v|$, where $a$ is a Fourier frequency and $v$ is one common vector. We adapt the auxiliary-torus construction of [13, Section 2]. The additional step is to round the coefficients of each spreading factor to a common magnitude.
 
 **Proposition 4.1**. *For every $0<\delta<1/100$, there are an integer $m\ge2$, a real trigonometric polynomial $F$ on $\mathbb T^m$, and $v\in\mathbb R^m$ with the following properties. Its Fourier support $\mathcal A\subset\mathbb Z^m\setminus\{0\}$ consists of at least two pairs $\{a,-a\}$, with distinct pairs nonparallel. If $$c_a=\widehat F(a),\qquad \lambda_a=a\cdot v,\qquad w_a=|\lambda_a|,$$ then, for an absolute constant $C$, $$\begin{equation}
 \tag{4.1}
@@ -205,7 +205,7 @@ The balanced coefficients of Proposition 4.1 allow us to build a function on th
 
 We use the following packing result from the preceding version. Its proof combines a finite-field construction with almost-perfect matchings in nearly regular hypergraphs; only its stated conclusion is needed here.
 
-**Lemma 5.2** (Signed interval packing, (OpenAI 2026b, Lemma 3.1)). *Let $a_1,\ldots,a_r\in\mathbb Z^m\setminus\{0\}$ be pairwise nonparallel, with $r\ge2$, and let $w_1,\ldots,w_r>0$ satisfy $2\sum_iw_i<1$. There are an integer $H\ge1$ and points $\theta_1,\ldots,\theta_H\in\mathbb T^m$ such that the closed arcs centered at $\pm a_i\cdot\theta_h$, of length $w_i/H$, are pairwise disjoint as $i$, $h$, and the sign vary.*
+**Lemma 5.2** (Signed interval packing, [13, Lemma 3.1]). *Let $a_1,\ldots,a_r\in\mathbb Z^m\setminus\{0\}$ be pairwise nonparallel, with $r\ge2$, and let $w_1,\ldots,w_r>0$ satisfy $2\sum_iw_i<1$. There are an integer $H\ge1$ and points $\theta_1,\ldots,\theta_H\in\mathbb T^m$ such that the closed arcs centered at $\pm a_i\cdot\theta_h$, of length $w_i/H$, are pairwise disjoint as $i$, $h$, and the sign vary.*
 
 *Proof of Proposition 5.1.* Fix $\delta$ and choose the data of Proposition 4.1. Thus $$F(y)=\sum_{a\in\mathcal A}c_a\mathrm e(a\cdot y),\qquad
  \lambda_a=a\cdot v,\qquad w_a=|\lambda_a|,$$ where $F$ is real, $\mathcal A=-\mathcal A$, and $$\begin{equation}
@@ -353,36 +353,36 @@ The construction imposes no divisibility condition on $N$. All torus dimensions,
 
 ## References
 
-Alon, Noga, and Raphael Yuster. 2005. “On a Hypergraph Matching Problem.” *Graphs and Combinatorics* 21 (4): 377–84. <https://doi.org/10.1007/s00373-005-0628-x>.
+**[1]** Noga Alon and Raphael Yuster. On a hypergraph matching problem. *Graphs and Combinatorics*, 21(4):377–384, 2005.
 
-Balister, Paul, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. 2020. “Flat Littlewood Polynomials Exist.” *Annals of Mathematics* 192 (3): 977–1004. <https://doi.org/10.4007/annals.2020.192.3.6>.
+**[2]** Paul Balister, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. Flat Littlewood polynomials exist. *Annals of Mathematics*, 192(3):977–1004, 2020.
 
-Bombieri, Enrico, and Jean Bourgain. 2009. “On Kahane’s Ultraflat Polynomials.” *Journal of the European Mathematical Society* 11 (3): 627–703. <https://doi.org/10.4171/JEMS/163>.
+**[3]** Enrico Bombieri and Jean Bourgain. On Kahane’s ultraflat polynomials. *Journal of the European Mathematical Society*, 11(3):627–703, 2009.
 
-el Abdalaoui, el Houcein. 2025a. *A Generalization of Littlewood’s $L^\alpha$ Flat Theorem, $\alpha>0$*. arXiv:2509.04212v1. <https://arxiv.org/abs/2509.04212v1>.
+**[4]** el Houcein el Abdalaoui. A generalization of Littlewood’s $L^\alpha$ flat theorem, $\alpha>0$. arXiv:2509.04212v1, 2025.
 
-el Abdalaoui, el Houcein. 2025b. *On $L^\alpha$-Flatness of Erdős–Littlewood’s Polynomials*. arXiv:2504.21499v1. <https://arxiv.org/abs/2504.21499v1>.
+**[5]** el Houcein el Abdalaoui. On $L^\alpha$-flatness of Erdős–Littlewood’s polynomials. arXiv:2504.21499v1, 2025.
 
-Erdélyi, Tamás. 2026a. *On an Erdős Problem about the Maximum Modulus of Littlewood Polynomials on the Unit Circle*. arXiv:2608.00744v1. <https://arxiv.org/abs/2608.00744v1>.
+**[6]** Tamás Erdélyi. On an Erdős problem about the maximum modulus of Littlewood polynomials on the unit circle. arXiv:2608.00744v1, 2026.
 
-Erdélyi, Tamás. 2026b. “The Sequence of Partial Sums of a Unimodular Power Series Is Not Ultraflat.” *Journal of Approximation Theory* 313: 106219. <https://doi.org/10.1016/j.jat.2025.106219>.
+**[7]** Tamás Erdélyi. The sequence of partial sums of a unimodular power series is not ultraflat. *Journal of Approximation Theory*, 313:106219, 2026.
 
-Erdős, Paul. 1957. “Some Unsolved Problems.” *Michigan Mathematical Journal* 4: 291–300. <https://doi.org/10.1307/mmj/1028997963>.
+**[8]** Paul Erdős. Some unsolved problems. *Michigan Mathematical Journal*, 4:291–300, 1957.
 
-Kahane, Jean-Pierre. 1980. “Sur Les Polynômes à Coefficients Unimodulaires.” *Bulletin of the London Mathematical Society* 12 (5): 321–42. <https://doi.org/10.1112/blms/12.5.321>.
+**[9]** Jean-Pierre Kahane. Sur les polynômes à coefficients unimodulaires. *Bulletin of the London Mathematical Society*, 12(5):321–342, 1980.
 
-Littlewood, J. E. 1966. “On Polynomials $\sum^n\pm z^m$, $\sum^n e^{\alpha_m i}z^m$, $z=e^{\theta i}$.” *Journal of the London Mathematical Society* 41 (1): 367–76. <https://doi.org/10.1112/jlms/s1-41.1.367>.
+**[10]** J. E. Littlewood. On polynomials $\sum^n\pm z^m$, $\sum^n e^{\alpha_m i}z^m$, $z=e^{\theta i}$. *Journal of the London Mathematical Society*, 41(1):367–376, 1966.
 
-Lovett, Shachar, and Raghu Meka. 2015. “Constructive Discrepancy Minimization by Walking on the Edges.” *SIAM Journal on Computing* 44 (5): 1573–82. <https://doi.org/10.1137/130929400>.
+**[11]** Shachar Lovett and Raghu Meka. Constructive discrepancy minimization by walking on the edges. *SIAM Journal on Computing*, 44(5):1573–1582, 2015. Theorem 4 in the preprint version, arXiv:1203.5747v2.
 
-OpenAI. 2026a. *Asymptotically minimal maxima of real Littlewood polynomials*. OpenAI Math Release preprint [OAI:Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026](https://github.com/openai/math/blob/main/preprints/Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026/paper.pdf).
+**[12]** OpenAI. Asymptotically minimal maxima of real Littlewood polynomials. OpenAI Math Release preprint [OAI:Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026](https://github.com/openai/math/blob/main/preprints/Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026/paper.pdf), 2026.
 
-OpenAI. 2026b. *Nearly minimal maxima and positive minima of Littlewood polynomials*. OpenAI Math Release preprint [OAI:Nearly-minimal-maxima-and-positive-minima-of-Littlewood-polynomials-October-5-2026](https://github.com/openai/math/blob/main/preprints/Nearly-minimal-maxima-and-positive-minima-of-Littlewood-polynomials-October-5-2026/littlewood-lower-envelope.pdf).
+**[13]** OpenAI. Nearly minimal maxima and positive minima of Littlewood polynomials. OpenAI Math Release preprint [OAI:Nearly-minimal-maxima-and-positive-minima-of-Littlewood-polynomials-October-5-2026](https://github.com/openai/math/blob/main/preprints/Nearly-minimal-maxima-and-positive-minima-of-Littlewood-polynomials-October-5-2026/littlewood-lower-envelope.pdf), 2026.
 
-Pippenger, Nicholas, and Joel Spencer. 1989. “Asymptotic Behavior of the Chromatic Index for Hypergraphs.” *Journal of Combinatorial Theory, Series A* 51 (1): 24–42. <https://doi.org/10.1016/0097-3165(89)90074-5>.
+**[14]** Nicholas Pippenger and Joel Spencer. Asymptotic behavior of the chromatic index for hypergraphs. *Journal of Combinatorial Theory, Series A*, 51(1):24–42, 1989.
 
-Rudin, Walter. 1959. “Some Theorems on Fourier Coefficients.” *Proceedings of the American Mathematical Society* 10 (6): 855–59. <https://doi.org/10.1090/S0002-9939-1959-0116184-5>.
+**[15]** Walter Rudin. Some theorems on Fourier coefficients. *Proceedings of the American Mathematical Society*, 10(6):855–859, 1959.
 
-Spencer, Joel. 1985. “Six Standard Deviations Suffice.” *Transactions of the American Mathematical Society* 289 (2): 679–706. <https://doi.org/10.1090/S0002-9947-1985-0784009-0>.
+**[16]** Joel Spencer. Six standard deviations suffice. *Transactions of the American Mathematical Society*, 289(2):679–706, 1985.
 
-[^1]: Contrary nonflatness claims in (el Abdalaoui 2025b, 2025a) and specific issues in their arguments are discussed in (OpenAI 2026a, Appendix A). Those claims are not inputs to the present proof.
+[^1]: Contrary nonflatness claims in [5, 4] and specific issues in their arguments are discussed in [12, Appendix A]. Those claims are not inputs to the present proof.

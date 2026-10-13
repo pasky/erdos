@@ -12,17 +12,17 @@ An independent set in a graph is a set of pairwise nonadjacent vertices. For a f
 
 **Theorem 1.1**. *For every integer $r\ge4$, there is a constant $c_r>0$ such that every finite simple $K_r$-free graph $G$ with $n$ vertices and average degree $d\ge2$ satisfies $$\alpha(G)\ge c_r\frac{n\log d}{d}.$$*
 
-The constant is uniform in both the number of vertices and the average degree. The theorem gives a positive answer to the fixed-clique-size independence conjecture of Ajtai, Erdős, Komlós and Szemerédi, also recorded as Erdős Problem 802. The order $n\log d/d$ is best possible up to a constant factor even for triangle-free graphs, and hence for the larger class of $K_r$-free graphs (Ajtai et al. 1981, 314–15). We do not optimize the constant $c_r$.
+The constant is uniform in both the number of vertices and the average degree. The theorem gives a positive answer to the fixed-clique-size independence conjecture of Ajtai, Erdős, Komlós and Szemerédi, also recorded as Erdős Problem 802. The order $n\log d/d$ is best possible up to a constant factor even for triangle-free graphs, and hence for the larger class of $K_r$-free graphs [1, pp. 314–315]. We do not optimize the constant $c_r$.
 
 ### History and related results
 
-Ajtai, Komlós and Szemerédi (Ajtai et al. 1980) proved the logarithmic improvement when triangles are excluded. Shearer (Shearer 1983) subsequently obtained the asymptotic coefficient $1$: triangle-free graphs of average degree $d\to\infty$ have independent sets of size at least $(1-o(1))n\log d/d$. In 1981, Ajtai, Erdős, Komlós and Szemerédi conjectured the same order of growth for each fixed forbidden clique (Ajtai et al. 1981, 314, Equation (3)). They proved the lower bound $\Omega_r(n\log\log d/d)$ as $d\to\infty$, so excluding any fixed clique already improves on the general bound. Shearer (Shearer 1995, Corollary 2) improved this to $\Omega_r(n\log d/(d\log\log d))$, again in terms of the average degree. Theorem 1.1 removes this remaining $\log\log d$ denominator.
+Ajtai, Komlós and Szemerédi [2] proved the logarithmic improvement when triangles are excluded. Shearer [14] subsequently obtained the asymptotic coefficient $1$: triangle-free graphs of average degree $d\to\infty$ have independent sets of size at least $(1-o(1))n\log d/d$. In 1981, Ajtai, Erdős, Komlós and Szemerédi conjectured the same order of growth for each fixed forbidden clique [1, p. 314, Equation (3)]. They proved the lower bound $\Omega_r(n\log\log d/d)$ as $d\to\infty$, so excluding any fixed clique already improves on the general bound. Shearer [15, Corollary 2] improved this to $\Omega_r(n\log d/(d\log\log d))$, again in terms of the average degree. Theorem 1.1 removes this remaining $\log\log d$ denominator.
 
-Subsequent refinements describe more of the graph’s local structure. Dutta, Mubayi and Subramanian (Dutta et al. 2012) give bounds involving the full degree sequence. Davies, Kang, Pirot and Sereni (Davies et al. 2020, Theorem 30 and Corollary 31) develop a local-occupancy framework that improves constants and also gives coloring estimates. Dhawan (Dhawan 2026, Theorems 1.3 and 1.4) allows bounded numbers of cliques, either globally or inside neighborhoods. For a fixed forbidden clique, these estimates retain a $\log\log$ loss in the relevant degree parameter; they provide information beyond the uniform order sought in Theorem 1.1.
+Subsequent refinements describe more of the graph’s local structure. Dutta, Mubayi and Subramanian [10] give bounds involving the full degree sequence. Davies, Kang, Pirot and Sereni [7, Theorem 30 and Corollary 31] develop a local-occupancy framework that improves constants and also gives coloring estimates. Dhawan [8, Theorems 1.3 and 1.4] allows bounded numbers of cliques, either globally or inside neighborhoods. For a fixed forbidden clique, these estimates retain a $\log\log$ loss in the relevant degree parameter; they provide information beyond the uniform order sought in Theorem 1.1.
 
-Several stronger local assumptions yield logarithmic bounds. Alon (Alon 1996, Theorem 1.1 and the remark following its proof) treated graphs whose neighborhoods have bounded chromatic number, obtaining an average-degree bound of the required order. His argument also admits bounded fractional chromatic number in each neighborhood. Davies (Davies 2026, Theorems 1 and 3) establishes weighted local versions: he bounds individual vertex inclusion probabilities in a random independent set under bounded neighborhood maximum average degree or fractional chromatic number. For every fixed three-colorable forbidden graph, Dhawan, Janzer and Methuku (Dhawan et al. 2025, Theorems 1.4 and 1.6) prove $(1-o(1))n\log d/d$ as $d\to\infty$, uniformly in $n$. This attains leading coefficient $1$ in that restricted class. Neither bounded neighborhood fractional chromatic number nor exclusion of a fixed three-colorable graph covers all ordinary $K_r$-free graphs for $r\ge4$. For the latter restriction, complete tripartite graphs illustrate the difference: they are $K_4$-free and contain every fixed three-colorable graph once their parts are large enough.
+Several stronger local assumptions yield logarithmic bounds. Alon [3, Theorem 1.1 and the remark following its proof] treated graphs whose neighborhoods have bounded chromatic number, obtaining an average-degree bound of the required order. His argument also admits bounded fractional chromatic number in each neighborhood. Davies [6, Theorems 1 and 3] establishes weighted local versions: he bounds individual vertex inclusion probabilities in a random independent set under bounded neighborhood maximum average degree or fractional chromatic number. For every fixed three-colorable forbidden graph, Dhawan, Janzer and Methuku [9, Theorems 1.4 and 1.6] prove $(1-o(1))n\log d/d$ as $d\to\infty$, uniformly in $n$. This attains leading coefficient $1$ in that restricted class. Neither bounded neighborhood fractional chromatic number nor exclusion of a fixed three-colorable graph covers all ordinary $K_r$-free graphs for $r\ge4$. For the latter restriction, complete tripartite graphs illustrate the difference: they are $K_4$-free and contain every fixed three-colorable graph once their parts are large enough.
 
-For comparison, let $r(s,t)$ be the least integer $N$ such that every $N$-vertex graph contains a $K_s$ or an independent set of size $t$. The fixed off-diagonal Ramsey estimates in (OpenAI 2026b, Theorem 1.1) and (OpenAI 2026a, Theorem 1.1) determine logarithmic exponents for $r(5,t)$ and, respectively, for $r(s,t)$ with each fixed $s\ge6$. Together they state $$r(s,t)=\frac{t^{s-1}}{(\log t)^{s-2+o(1)}}
+For comparison, let $r(s,t)$ be the least integer $N$ such that every $N$-vertex graph contains a $K_s$ or an independent set of size $t$. The fixed off-diagonal Ramsey estimates in [13, Theorem 1.1] and [12, Theorem 1.1] determine logarithmic exponents for $r(5,t)$ and, respectively, for $r(s,t)$ with each fixed $s\ge6$. Together they state $$r(s,t)=\frac{t^{s-1}}{(\log t)^{s-2+o(1)}}
  \qquad\text{for each fixed }s\ge5.$$ These are estimates for extremal graph orders as $t\to\infty$. Theorem 1.1 controls every input graph using its own average degree, including graphs whose degree is small relative to their order. Neither companion is an input to the proof. In particular, the weighted triangle theorem used here is proved from its own cross-mass hypothesis.
 
 ### The proof in outline
@@ -49,7 +49,7 @@ For a finite simple graph $G$ and a real vector $a=(a_v)_{v\in V(G)}$, put $$M_G
 
 ### The extremal weight
 
-The functional below is the unit-parameter specialization of the entropy-minus-edge potential used by Davies (Davies 2026, sec. 3.3, proof of Theorem 17). We give its elementary maximizing properties here.
+The functional below is the unit-parameter specialization of the entropy-minus-edge potential used by Davies [6, Section 3.3, proof of Theorem 17]. We give its elementary maximizing properties here.
 
 Define $$F_G(w)=\sum_{v\in V(G)}w_v(1-\log w_v)-M_G(w),
  \qquad F_G^*=\max_{w\ge0}F_G(w).$$ The maximum in this definition exists, as the following lemma shows.
@@ -70,7 +70,7 @@ For the empty graph on no vertices we set $F_G^*=0$; no positive-coordinate asse
 
 ### Random multipliers with small expected edge mass
 
-The recursive use of clique-free neighborhoods goes back to the sparse-subgraph argument of Ajtai, Erdős, Komlós and Szemerédi (Ajtai et al. 1981, sec. 3). Here the recursion preserves each vertex weight in expectation. The next lemma applies to arbitrary positive weights and does not require the maximizing equations.
+The recursive use of clique-free neighborhoods goes back to the sparse-subgraph argument of Ajtai, Erdős, Komlós and Szemerédi [1, Section 3]. Here the recursion preserves each vertex weight in expectation. The next lemma applies to arbitrary positive weights and does not require the maximizing equations.
 
 The construction successively removes neighborhoods from the remaining induced graph, until every remaining vertex has small neighborhood weight. Each removed part excludes a smaller clique, and the remainder has small edge mass. We then retain one part at random and divide its weights by that part’s selection probability. Every vertex keeps its original expected weight, while edges joining different parts disappear. Within a selected neighborhood, the same construction is applied recursively. The multiplier bound below measures the cost of these successive rescalings.
 
@@ -213,7 +213,7 @@ Starting with $G$, delete any edge whose common-neighbor weight in the current g
 
 ## Local walks and entropy
 
-We construct probability distributions on each neighborhood so that rows indexed by the other two vertices of a triangle are close on average, with the average weighted by triangle mass. We obtain the rows by running a weighted random walk. The cross-mass estimate bounds the average entropy by showing that most starting rows, in this weighted average, put almost all their probability on sets of small weight inside their neighborhoods. The resulting estimate is independent of the number of vertices. The use of entropy increments to control averaged distances between walk distributions has a precedent in Benjamini, Duminil-Copin, Kozma and Yadin (Benjamini et al. 2015, sec. 2). We prove the finite weighted version needed here, using the cross-mass hypothesis to bound its entropy.
+We construct probability distributions on each neighborhood so that rows indexed by the other two vertices of a triangle are close on average, with the average weighted by triangle mass. We obtain the rows by running a weighted random walk. The cross-mass estimate bounds the average entropy by showing that most starting rows, in this weighted average, put almost all their probability on sets of small weight inside their neighborhoods. The resulting estimate is independent of the number of vertices. The use of entropy increments to control averaged distances between walk distributions has a precedent in Benjamini, Duminil-Copin, Kozma and Yadin [5, Section 2]. We prove the finite weighted version needed here, using the cross-mass hypothesis to bound its entropy.
 
 Let $G$ be a finite simple graph with positive weights satisfying (3.1) with constant $C\ge1$. Fix $x\ge32$ and suppose further that $G$ has an edge and $$\begin{equation}
  s_u:=w(N(u))\le e^x\quad\hbox{for every $u$},\qquad
@@ -323,7 +323,7 @@ The local walks give similar probability distributions to the two neighbors at a
 
 ### Sampling all rows together
 
-We use the shared rejection construction of Kleinberg and Tardos (Kleinberg and Tardos 2002, sec. 3, Lemmas 3.1 and 3.2). Angel and Spinka (Angel and Spinka 2021, Theorem 2 and Section 2.1) give the sharper pairwise disagreement estimate stated below. The short proof supplies the joint law for all rows at once.
+We use the shared rejection construction of Kleinberg and Tardos [11, Section 3, Lemmas 3.1 and 3.2]. Angel and Spinka [4, Theorem 2 and Section 2.1] give the sharper pairwise disagreement estimate stated below. The short proof supplies the joint law for all rows at once.
 
 **Lemma 5.1** (Shared rejection sampling). *Let $I$ and $J$ be finite nonempty sets, and let $(p_i)_{i\in I}$ be probability distributions on $J$. There are jointly distributed random variables $(Y_i)_{i\in I}$ such that $Y_i$ has law $p_i$ and, for every $i,i'\in I$, $$\mathbb P(Y_i\ne Y_{i'})
  \le \frac{2\|p_i-p_{i'}\|_{\mathrm{TV}}}
@@ -487,32 +487,32 @@ For the second inequality, test $F_G$ on the constant vector with entry $p=(\log
 
 ## References
 
-Ajtai, Miklós, Paul Erdős, János Komlós, and Endre Szemerédi. 1981. “[On Turán’s Theorem for Sparse Graphs](https://doi.org/10.1007/BF02579451).” *Combinatorica* 1 (4): 313–17. <https://doi.org/10.1007/BF02579451>.
+**[1]** Miklós Ajtai, Paul Erdős, János Komlós, and Endre Szemerédi. [On Turán’s theorem for sparse graphs](https://doi.org/10.1007/BF02579451). *Combinatorica*, 1(4):313–317, 1981.
 
-Ajtai, Miklós, János Komlós, and Endre Szemerédi. 1980. “[A Note on Ramsey Numbers](https://doi.org/10.1016/0097-3165(80)90030-8).” *Journal of Combinatorial Theory, Series A* 29 (3): 354–60. <https://doi.org/10.1016/0097-3165(80)90030-8>.
+**[2]** Miklós Ajtai, János Komlós, and Endre Szemerédi. [A note on Ramsey numbers](https://doi.org/10.1016/0097-3165(80)90030-8). *Journal of Combinatorial Theory, Series A*, 29(3):354–360, 1980.
 
-Alon, Noga. 1996. “[Independence Numbers of Locally Sparse Graphs and a Ramsey Type Problem](https://doi.org/10.1002/(SICI)1098-2418(199610)9:3%3C271::AID-RSA1%3E3.0.CO;2-U).” *Random Structures & Algorithms* 9 (3): 271–78. [https://doi.org/10.1002/(SICI)1098-2418(199610)9:3\<271::AID-RSA1\>3.0.CO;2-U](https://doi.org/10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U).
+**[3]** Noga Alon. [Independence numbers of locally sparse graphs and a Ramsey type problem](https://doi.org/10.1002/(SICI)1098-2418(199610)9:3%3C271::AID-RSA1%3E3.0.CO;2-U). *Random Structures & Algorithms*, 9(3):271–278, 1996.
 
-Angel, Omer, and Yinon Spinka. 2021. *[Pairwise Optimal Coupling of Multiple Random Variables](https://arxiv.org/abs/1903.00632v2)*. <https://arxiv.org/abs/1903.00632v2>.
+**[4]** Omer Angel and Yinon Spinka. [Pairwise optimal coupling of multiple random variables](https://arxiv.org/abs/1903.00632v2), 2021. arXiv:1903.00632v2.
 
-Benjamini, Itai, Hugo Duminil-Copin, Gady Kozma, and Ariel Yadin. 2015. “[Disorder, Entropy and Harmonic Functions](https://doi.org/10.1214/14-AOP934).” *The Annals of Probability* 43 (5): 2332–73. <https://doi.org/10.1214/14-AOP934>.
+**[5]** Itai Benjamini, Hugo Duminil-Copin, Gady Kozma, and Ariel Yadin. [Disorder, entropy and harmonic functions](https://doi.org/10.1214/14-AOP934). *The Annals of Probability*, 43(5):2332–2373, 2015.
 
-Davies, Ewan. 2026. *[Random Independent Sets and Local Sparsity](https://arxiv.org/abs/2609.04654v1)*. <https://arxiv.org/abs/2609.04654v1>.
+**[6]** Ewan Davies. [Random independent sets and local sparsity](https://arxiv.org/abs/2609.04654v1), 2026. arXiv:2609.04654v1.
 
-Davies, Ewan, Ross J. Kang, François Pirot, and Jean-Sébastien Sereni. 2020. *[Graph Structure via Local Occupancy](https://arxiv.org/abs/2003.14361v1)*. <https://arxiv.org/abs/2003.14361v1>.
+**[7]** Ewan Davies, Ross J. Kang, François Pirot, and Jean-Sébastien Sereni. [Graph structure via local occupancy](https://arxiv.org/abs/2003.14361v1), 2020. arXiv:2003.14361v1, 31 March 2020.
 
-Dhawan, Abhishek. 2026. “[Bounds for the Independence and Chromatic Numbers of Locally Sparse Graphs](https://doi.org/10.1007/s00026-025-00778-7).” *Annals of Combinatorics* 30: 277–304. <https://doi.org/10.1007/s00026-025-00778-7>.
+**[8]** Abhishek Dhawan. [Bounds for the independence and chromatic numbers of locally sparse graphs](https://doi.org/10.1007/s00026-025-00778-7). *Annals of Combinatorics*, 30:277–304, 2026. Published online 5 August 2025.
 
-Dhawan, Abhishek, Oliver Janzer, and Abhishek Methuku. 2025. *[Independent Sets and Colorings of $K_{t,t,t}$-Free Graphs](https://arxiv.org/abs/2511.17191v2)*. <https://arxiv.org/abs/2511.17191v2>.
+**[9]** Abhishek Dhawan, Oliver Janzer, and Abhishek Methuku. [Independent sets and colorings of $K_{t,t,t}$-free graphs](https://arxiv.org/abs/2511.17191v2), 2025. arXiv:2511.17191v2.
 
-Dutta, Kunal, Dhruv Mubayi, and C. R. Subramanian. 2012. “[New Lower Bounds for the Independence Number of Sparse Graphs and Hypergraphs](https://doi.org/10.1137/110839023).” *SIAM Journal on Discrete Mathematics* 26 (3): 1134–47. <https://doi.org/10.1137/110839023>.
+**[10]** Kunal Dutta, Dhruv Mubayi, and C. R. Subramanian. [New lower bounds for the independence number of sparse graphs and hypergraphs](https://doi.org/10.1137/110839023). *SIAM Journal on Discrete Mathematics*, 26(3):1134–1147, 2012.
 
-Kleinberg, Jon, and Éva Tardos. 2002. “[Approximation Algorithms for Classification Problems with Pairwise Relationships: Metric Labeling and Markov Random Fields](https://doi.org/10.1145/585265.585268).” *Journal of the ACM* 49 (5): 616–39. <https://doi.org/10.1145/585265.585268>.
+**[11]** Jon Kleinberg and Éva Tardos. [Approximation algorithms for classification problems with pairwise relationships: metric labeling and Markov random fields](https://doi.org/10.1145/585265.585268). *Journal of the ACM*, 49(5):616–639, 2002.
 
-OpenAI. 2026a. *Sharp Logarithmic Exponents for Fixed Off-Diagonal Ramsey Numbers*. OpenAI Math Release preprint [OAI:Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026/paper.pdf).
+**[12]** OpenAI. Sharp Logarithmic Exponents for Fixed Off-Diagonal Ramsey Numbers. OpenAI Math Release preprint [OAI:Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026](https://github.com/openai/math/blob/main/preprints/Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026/paper.pdf), 2026.
 
-OpenAI. 2026b. *The sharp logarithmic exponent of $r(5,t)$*. OpenAI Math Release preprint [OAI:The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026](https://github.com/openai/math/blob/main/preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026/paper.pdf).
+**[13]** OpenAI. The sharp logarithmic exponent of $r(5,t)$. OpenAI Math Release preprint [OAI:The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026](https://github.com/openai/math/blob/main/preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026/paper.pdf), 2026.
 
-Shearer, James B. 1983. “[A Note on the Independence Number of Triangle-Free Graphs](https://doi.org/10.1016/0012-365X(83)90273-X).” *Discrete Mathematics* 46 (1): 83–87. <https://doi.org/10.1016/0012-365X(83)90273-X>.
+**[14]** James B. Shearer. [A note on the independence number of triangle-free graphs](https://doi.org/10.1016/0012-365X(83)90273-X). *Discrete Mathematics*, 46(1):83–87, 1983.
 
-Shearer, James B. 1995. “[On the Independence Number of Sparse Graphs](https://doi.org/10.1002/rsa.3240070305).” *Random Structures & Algorithms* 7 (3): 269–71. <https://doi.org/10.1002/rsa.3240070305>.
+**[15]** James B. Shearer. [On the independence number of sparse graphs](https://doi.org/10.1002/rsa.3240070305). *Random Structures & Algorithms*, 7(3):269–271, 1995.
