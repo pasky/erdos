@@ -5,7 +5,8 @@ desc: |
   A lower bound for the Erdős–Rogers function, in the paper's threshold form,
   deduced in the introduction from Shearer's independent-set bound for
   K_{s+1}-free graphs of given maximum degree applied to a vertex neighborhood;
-  Shearer's paper is not held and the bound is recorded here second-hand.
+  the bound is Shearer's Corollary 1, read on the page images of his paper,
+  of which no file is held.
 created: 2026-09-18T06:05:00Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -37,8 +38,10 @@ image. The artifact is identified in the
 [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause on the
-page image. The bound is quoted from Shearer's paper, which is not held; the
-two-line deduction (a vertex of maximum degree $d$ gives a $K_s$-free induced
+page image. The bound is quoted from Shearer's paper, whose
+[[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Corollary 1]]
+is read on that paper's page images (no file of it is held); the two-line
+deduction (a vertex of maximum degree $d$ gives a $K_s$-free induced
 subgraph on $d$ vertices, and Shearer's bound gives an independent, hence
 $K_s$-free, set of size $\Omega(n\log d/(d\log\log d))$; taking
 $d\approx\sqrt{n\log n}$, which gives (1)) is the paper's and was not checked
@@ -47,14 +50,16 @@ gives the larger bound $c\sqrt{n\log n/\log\log n}$.
 
 ## Dependencies
 
-Shearer's theorem (not held).
+Shearer's
+[[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Corollary 1]]
+(read on the page images; no file is held).
 
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: a lower
-  bound, $f(n)\gg\sqrt{n\log n}/\log\log n$, attested here second-hand.
-  Display (1) is the weaker threshold form of the neighborhood argument, the
-  form the site prints. Balancing the threshold gives
+  bound, $f(n)\gg\sqrt{n\log n}/\log\log n$, deduced from Shearer's
+  Corollary 1. Display (1) is the weaker threshold form of the neighborhood
+  argument, the form the site prints. Balancing the threshold gives
   $f(n)\ge c\sqrt{n\log n/\log\log n}$, the best lower bound a refereed
   paper prints: Dudek and Mubayi first printed it with this argument, and a
   later paper (Gishboliner, Janzer and Sudakov, Combinatorica 45 (2025),

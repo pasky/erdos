@@ -1,6 +1,6 @@
 ---
 name: problems/set_theory/E1171/claims
-desc: The 3 claim pages of Problem 1171, one per claimant's result; the problem's standing derives from them.
+desc: The 4 claim pages of Problem 1171, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z

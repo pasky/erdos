@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-13T13:51:04Z
 ---
 
 # Problem 1171
 
 [[problems/set_theory/_index|..]]
 
-[[problems/set_theory/E1171/claims/_index|claims/]]: The 3 claim pages of Problem 1171, one per claimant's result; the problem's standing derives from them.
+[[problems/set_theory/E1171/claims/_index|claims/]]: The 4 claim pages of Problem 1171, one per claimant's result; the problem's standing derives from them.
 
 ***
 
