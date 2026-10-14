@@ -6,7 +6,8 @@ desc: |
   $\sum_k1/n_k<\infty$ takes every value infinitely often, which covers a
   subclass of Problem 517 with functions of any order. The venue's refereeing is
   not shown.
-authors: []
+authors:
+- Miécislas Biernacki
 status: claimed
 claim: proved
 scope: partial

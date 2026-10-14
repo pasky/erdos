@@ -9,7 +9,7 @@ authors:
 - Huy Tuan Pham
 - Lisa Sauermann
 status: claimed
-claim: proved
+claim: decidable
 scope: partial
 submitted: null
 links:

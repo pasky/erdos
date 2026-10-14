@@ -14,14 +14,14 @@ parts:
 - upper_bound
 - lower_bound
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 502
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E0502/claims/_index|claims/]]: The 4 claim pages of Problem 502, one per claimant's result; the problem's standing derives from them.
+[[problems/distance_problems/E0502/claims/_index|claims/]]: The 3 claim pages of Problem 502, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -172,22 +172,22 @@ coverage of the upper bound, while neither determines the exact maximum.
 Neither is Lean this corpus built and audited, so both are links, not
 acceptance evidence.
 
-The problem's two parts are settled by accepted claims in `claims/`. The
-upper bound is recorded as two accepted partial claims, the
-[[problems/distance_problems/E0502/claims/1983_06_01_bannai_bannai_stanton|Bannai–Bannai–Stanton
-theorem]] and
-[[problems/distance_problems/E0502/claims/2019_12_17_petrov_pohoata|Petrov and
-Pohoata's independent proof]], each settling the part `upper_bound`; the lower
+The problem's two parts are settled by accepted claims in `claims/`. The upper
+bound is the accepted partial claim of the
+[[problems/distance_problems/E0502/claims/1983_06_01_bannai_bannai_stanton|Bannai–Bannai–Stanton theorem]],
+settling the part `upper_bound`. Petrov and Pohoata's independent proof of the
+same bound
+([[../library/distance_problems/petrov_2021_remark_sets_few_distances/theorem_1_1|their Theorem 1.1]]),
+recorded above, does not improve it and has no claim page. The lower
 construction with $\binom{n+1}{2}$ points is
-[[problems/distance_problems/E0502/claims/2025_08_09_alweiss|Alweiss's
-construction]], accepted on the curator's credit and settling the part
-`lower_bound`. The problem's standing derives from them. The exact maximum for
-$n\leq8$ is
-[[problems/distance_problems/E0502/claims/1997_02_01_lisonek|Lisoněk's
-determination]], a rejected claim, since it answers the site's wording and not
-the modified Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under
-Formulation improves the lower bound at one dimension and bears only on the
-exact-maximum variant.
+[[problems/distance_problems/E0502/claims/2025_08_09_alweiss|Alweiss's construction]],
+accepted on the curator's credit and settling the part `lower_bound`. The
+problem's standing derives from them. The exact maximum for $n\leq8$ is
+[[problems/distance_problems/E0502/claims/1997_02_01_lisonek|Lisoněk's determination]],
+a rejected claim, since it answers the site's wording and not the modified
+Statement. The 277-point set in $\mathbb{R}^{23}$ recorded under Formulation
+improves the lower bound at one dimension and bears only on the exact-maximum
+variant.
 
 ## Progress
 

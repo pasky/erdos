@@ -6,7 +6,8 @@ desc: |
   vertices with $\lfloor n^2/4\rfloor+\lceil n/2\rceil$ edges contains a $K_4$
   or a cycle joined to two independent vertices. Both are saturated planar
   graphs.
-authors: []
+authors:
+- M. Simonovits
 status: accepted
 claim: proved
 scope: full

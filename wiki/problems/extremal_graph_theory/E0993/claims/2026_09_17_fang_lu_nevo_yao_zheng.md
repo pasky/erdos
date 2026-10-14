@@ -13,7 +13,7 @@ authors:
 - Yuan Yao
 - Hailun Zheng
 status: claimed
-claim: proved
+claim: decidable
 scope: partial
 submitted: 2026-09-21
 links:
@@ -73,7 +73,7 @@ it is not a named review. No build or audit of the development by this
 corpus is recorded.
 
 **Covers.** Every forest with at least $N_0$ vertices, where $N_0$ exists
-but is not computed, so the theorem gives no finite list of remaining cases.
+but is not computed, so the finite check that remains has no known extent.
 Not covered: forests below $N_0$, hence the conjecture for every forest,
 which the paper itself (p. 16, as the thread reports) leaves open; the
 main thread reports an exhaustive check of all trees on at most $32$

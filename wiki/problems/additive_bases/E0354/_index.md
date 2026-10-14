@@ -333,13 +333,13 @@ Dirichlet's approximation theorem imported and the finite certificate of its
 Appendix A rechecked; an internal review of 2026-09-28 graded each of that
 folder's fourteen pages, the Fan and Geneson reconstructions included,
 faithful to its source and its argument sound
-([[research/erdos_354/evidence/verify/grade|the grade]]). That review covers
-the reconstructions, assigns no tier and changes no status. Van Doorn's
-results of September and October 2025 are thread posts, so they have no
+([[research/erdos_354/evidence/verify/grade|the grade]]). That internal review
+assigns no tier; it covers the whole Yu--Chen argument, and acceptance of the
+Yu--Chen claim on it is pending until the project's reviewer signs off. Van
+Doorn's results of September and October 2025 are thread posts, so they have no
 claim page. [He91], [He94], [JiMa24] and [FaHe25] settle no instance of the
-problem, since [He91] is a measure statement and the other three concern
-pairs with $\beta=2^k\alpha$, a rational ratio; they have no claim page
-either.
+problem, since [He91] is a measure statement and the other three concern pairs
+with $\beta=2^k\alpha$, a rational ratio; they have no claim page either.
 
 **Standing of the second question: unresolved, two readings.** Under
 "for every $\gamma\in(1,2)$",
@@ -356,7 +356,8 @@ it "does not resolve the original question with base 2" (p. 13). A preprint
 of 20 September 2026 with no outside review; its Theorem 9 and Corollary 12
 are reconstructed in the same research folder, with Dubickas's theorem
 imported, and the internal review graded both reconstructions faithful and
-sound, with no tier.
+sound, with no tier; acceptance of Geneson's claim on that review is pending
+until the project's reviewer signs off.
 Under "for some $\gamma\in(1,2)$", the catalog's existential form,
 [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|Kitamura's theorem]]
 ([Ki26]) answers yes with $\gamma=\sqrt\varphi$: the single sequence

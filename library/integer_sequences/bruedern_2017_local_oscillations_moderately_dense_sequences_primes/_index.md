@@ -53,9 +53,9 @@ Lemma 4, a more explicit form of its lower bound. Read status: claims checked
 for Theorems 1 to 3 and the Corollary, read clause by clause on the print;
 the proofs were read for structure only.
 
-Source: <https://arxiv.org/abs/1702.00289>. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1702.00289), every other right
-reserved.
+Source: <https://arxiv.org/abs/1702.00289>. The copy's retrieval date was not
+recorded. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1702.00289), every other right reserved.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0455/_index|#455]]: no
 result. The problem's condition of non-decreasing gaps says that the second

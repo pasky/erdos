@@ -543,12 +543,13 @@ in the body. A work that prints no author's name lists the real name of the
 person who posted it when that name is clearly tied to the posting account (a
 note posted under its author's own account takes that person's name); a username
 or account name is never listed, so when no real name is known `authors` is the
-empty list `[]` and the body names the handle where there is one. A claim of
-this corpus's own (a `corpus` page) has no publication and lists none. The
-schema check counts any other claim page without `authors` in its summary line
-and, in its settled mode, fails it. `evidence` lists the kinds of acceptance
-evidence in the fixed order `reviewed`, `refereed`, `formalized`; an accepted
-claim lists at least one, and its prose names who reviewed. `links` lists every
+empty list `[]` and the body names the handle where there is one. A claim of the
+project's own lists the project, under the name it uses for itself. The schema
+check counts any claim page without `authors` in its summary line and, in its
+settled mode, fails it. `evidence` lists the kinds of acceptance evidence in the
+fixed order `reviewed`, `refereed`, `formalized`; an accepted claim lists at
+least one, and its prose names who reviewed, naming a reviewer within the
+project in the form the repository-specific section gives. `links` lists every
 posting of the claimant's result as `{url, kind, date?}`, `url` first, `kind`
 one of `paper`, `preprint`, `formalization`, `code`, `record` or `discussion`. A
 link names an external commit only where the claim relies on that exact content,
@@ -567,7 +568,14 @@ against the statement the problem page shows, the modified Statement where there
 is one: a theorem of the whole statement is `full`, one on a narrower range is
 `partial`, and the claim value follows the statement's polarity. A result that
 answers only the site's wording keeps its claim page with `status` `rejected`
-and the reason "answers the site's wording, not the modified Statement". That a
+and the reason "answers the site's wording, not the modified Statement". On a
+problem that asks for an order of growth or a best bound, a bound has a partial
+claim page only when it improves the best established bound (accepted, or
+published and refereed) that the problem page lists from before its date; a
+pending claim's bound counts once it is accepted. A bound that does not improve
+it is recorded among the page's known results. A submitted claim (one with a
+`submitted` date) that does not improve it keeps its claim page, with `status`
+`rejected` and the reason "does not improve the best known bound". That a
 problem is falsifiable or verifiable is a body note on an open problem, not a
 claim.
 
@@ -668,6 +676,13 @@ page navigation under [[math_authoring]].
   record a claim the sources do not support — the site's labels were not always
   current, and the site itself warned that an "open" label might be stale, so
   check the literature before recording either way.
+- **The project's results are credited to Plasma AI.** Plasma AI is the name the
+  project uses for itself: a claim of its own lists `Plasma AI` as its author,
+  and the corpus credits its own results and checks to Plasma AI, never to a
+  person. Acceptance prose names the project's reviewer, for a review or a
+  sign-off, as "Jacob Parish at Plasma AI", and an agent reviewer by role and
+  model, as [[verification]] "Independence and the assignment" states for review
+  records.
 
 #### Page layout
 
@@ -787,14 +802,17 @@ Before a claim page moves from `claimed` to `accepted`, identify evidence of
 acceptance and list its kinds under `evidence`. Refereed publication or
 documented independent acceptance suffices. Journal publication, a reproof by
 this project, and catalog agreement are not individually required when
-acceptance is otherwise documented. Keep any specific unresolved proof dispute
-prominent. A theorem statement in a manuscript is not sufficient by itself: such
-a claim stays `claimed`, and the problem's `status` stays `claimed` with it.
-Source-supported standing, local proof coverage and formal verification remain
-distinct. A provisional standing retained from the site's label, on a problem
-with no claim page yet, still needs the qualifications above; unless it is
-`open`/`none`, the schema check counts it and fails it in its settled mode, and
-it certifies nothing. Project-authored resolutions require the independent
+acceptance is otherwise documented. This project's own review or check of an
+outside proof is reported on the claim page as coverage, saying what it covered
+and how it was graded, and the claim stays `claimed`, its acceptance pending,
+until the project's reviewer signs off. Keep any specific unresolved proof
+dispute prominent. A theorem statement in a manuscript is not sufficient by
+itself: such a claim stays `claimed`, and the problem's `status` stays `claimed`
+with it. Source-supported standing, local proof coverage and formal verification
+remain distinct. A provisional standing retained from the site's label, on a
+problem with no claim page yet, still needs the qualifications above; unless it
+is `open`/`none`, the schema check counts it and fails it in its settled mode,
+and it certifies nothing. Project-authored resolutions require the independent
 whole-conclusion and exact-formulation scrutiny in [[verification]] before
 acceptance as project solutions.
 
@@ -807,7 +825,10 @@ not quoted. A rejected claim page that answers the site's wording rather than a
 modified Statement opens its `desc` with the reason: "Correct, but answers the
 site's wording (...), not the modified Statement" when the rejected result is
 itself accepted (reviewed, refereed or formalized), and "Answers the site's
-wording (...), not the modified Statement" otherwise.
+wording (...), not the modified Statement" otherwise. A rejected claim page
+whose bound does not improve the best known bound opens its `desc` the same way:
+"Correct, but does not improve the best known bound (...)" or "Does not improve
+the best known bound (...)", the parentheses naming that bound and its source.
 
 ### Library
 

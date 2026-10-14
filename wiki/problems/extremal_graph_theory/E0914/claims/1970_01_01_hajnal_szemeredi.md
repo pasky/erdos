@@ -6,7 +6,9 @@ desc: |
   $rm$ vertices and minimum degree at least $m(r-1)$ has $m$ disjoint copies of
   $K_r$. The claim is accepted on the site's credit and Kierstead and
   Kostochka's refereed reproof.
-authors: []
+authors:
+- A. Hajnal
+- E. Szemerédi
 status: accepted
 claim: proved
 scope: full

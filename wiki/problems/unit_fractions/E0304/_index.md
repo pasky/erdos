@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # Problem 304
 
 [[problems/unit_fractions/_index|..]]
 
-[[problems/unit_fractions/E0304/claims/_index|claims/]]: The 6 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
+[[problems/unit_fractions/E0304/claims/_index|claims/]]: The 5 claim pages of Problem 304, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -58,12 +58,14 @@ The earlier bounds have accepted partial claim pages on their refereed papers.
 [[problems/unit_fractions/E0304/claims/1950_01_01_erdos|Erdős's 1950 bounds]]
 are $\log\log b\ll N(b)\ll\log b/\log\log b$.
 [[problems/unit_fractions/E0304/claims/1985_01_01_vose|Vose's 1985 bound]]
-$N(b)\ll\sqrt{\log b}$ replaced Erdős's upper bound. Two pending partial claims
-do not change the standing. One is
+$N(b)\ll\sqrt{\log b}$ replaced Erdős's upper bound. A pending partial claim
+does not change the standing:
 [[problems/unit_fractions/E0304/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's squared double-logarithm bound]]
-of 16 September 2026, which the accepted bound implies. The other is
-[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|a Lean proof by Harmonic's Aristotle prover]]
-of the lower bound $\log\log b\le6N(b)$, published in 2026 and not built here.
+of 16 September 2026, which the accepted bound implies. A
+[Lean proof by Harmonic's Aristotle prover](https://github.com/thepriceisright/publications/blob/8f055eb3fd1485477c92cbfbdfa4b3c56f192610/erdos/304/Lower1950.lean)
+of the lower bound $\log\log b\le6N(b)$ for $b\ge3$, published in 2026 by the
+GitHub account thepriceisright and not built here, has no claim page: it does
+not improve Erdős's lower bound.
 Erdős stated the conjecture $N(b)\ll\log\log b$ in 1950 and repeated it in the
 1980 monograph.
 
@@ -104,8 +106,7 @@ b))` under `category research open`, with the Erdős 1950 bounds and the Vose
 bound as `research solved` variants whose proofs are `sorry`. Since that
 commit the lower-bound variant `erdos_304.variants.lower_1950` carries a
 `formal_proof` annotation pointing to the Lean proof by Harmonic's Aristotle
-prover recorded on
-[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|its claim page]].
+prover recorded under Status.
 The definitions match the site's $N(a,b)$ and $N(b)$. The site's note that the
 problem is formalized in Lean refers to this statement file; it is not a
 proof, and neither it nor the annotated proof is built or audited here. On
@@ -139,7 +140,7 @@ many fewer than $n$ divisors are required when $n$ is large, perhaps even
 only $(\log n)^c$, which would then imply $N(b)<c'\log\log b$"; and, on
 p. 38, that $n(b)=\frac1b\sum_{a=1}^bN(a,b)$ satisfies $n(b)>c\log\log b$.
 
-**Claims.** Six claim pages. The first,
+**Claims.** Five claim pages. The first,
 [[problems/unit_fractions/E0304/claims/2026_09_25_openai|the OpenAI release's Theorem 1.1 (25 September 2026)]],
 status accepted, scope full, claim proved: $c_1\log\log b\le N(b)\le
 c_2\log\log b$ for all $b\ge b_0$, with the constants not made explicit. The
@@ -159,14 +160,8 @@ claims on refereed papers:
 Theorems 1 and 2 of [Er50c], $N(a,b)<c_1\log b/\log\log b$ for every
 $0<a<b$ and $N(b-1,b)>\log\log b-1$ with the average bound; and
 [[problems/unit_fractions/E0304/claims/1985_01_01_vose|Vose's 1985 bound]],
-$N(b)\ll\sqrt{\log b}$ [Vo85]. The fifth,
-[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|a Lean proof of the lower bound by Harmonic's Aristotle prover]],
-status claimed, scope partial, claim proved: $\log\log b\le6N(b)$ for
-$b\ge3$, published by the GitHub account thepriceisright and annotated since
-18 September 2026 as the `formal_proof` of the formal-conjectures lower-bound
-variant; the file names no informal author, so it is an independent proof
-with its own page, and it is not built here. None of the partial claims
-changes the standing. The sixth,
+$N(b)\ll\sqrt{\log b}$ [Vo85]. None of the partial claims changes the
+standing. The fifth,
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|van Doorn's write-up *Short Egyptian fractions* (9 October 2026)]],
 status claimed, scope full, claim proved:
 $N(b)\le(16/\log2+o(1))\log\log b$. The write-up simplifies the
@@ -211,8 +206,7 @@ after 16 September 2026); the community database says open; formal-conjectures
 marked `upper_bound` `research open` until 11 October 2026 and then
 `research solved`, with a `formal_proof` link to the release's Lean (see
 Formalization), and since 18 September 2026 annotates its lower-bound variant
-with the `formal_proof` recorded on
-[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|the Aristotle proof's page]];
+with the Aristotle proof recorded under Status as its `formal_proof`;
 there is no Palomar entry; and conjectures.io, whose bounty "Erdős problem
 304 - upper bound" for the full $O(\log\log b)$ statement had no attempt
 recorded, withdrew it on 6 October 2026, closing it on its release owner's
@@ -229,9 +223,8 @@ manuscript of 25 September 2026 is recorded under Claims.
   its proof shows that a representation of $1$ containing $1/b$ with $n$
   terms forces $b<s_n$ for the Sylvester sequence $s_1=2$,
   $s_{j+1}=s_j(s_j-1)+1$ (Theorem 5 of the paper), so $n>\log\log b$. The
-  Lean proof on
-  [[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|the Aristotle proof's page]]
-  reaches $\log\log b\le6N(b)$ for $b\ge3$ by a different route.
+  Aristotle Lean proof recorded under Status reaches $\log\log b\le6N(b)$ for
+  $b\ge3$ by a different route, with a weaker constant.
 - Upper bounds: Theorem 1, and Vose's $N(b)\ll\sqrt{\log b}$ [Vo85]
   ([[problems/unit_fractions/E0304/claims/1985_01_01_vose|claim page]]). As
   the review Zbl 0558.10015 describes it, Vose first shows, by an argument of

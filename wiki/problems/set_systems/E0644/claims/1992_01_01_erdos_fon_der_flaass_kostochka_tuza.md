@@ -5,7 +5,11 @@ desc: |
   Erdős, Fon-Der-Flaass, Kostochka and Tuza (1992) prove $f(k,3)=2k$,
   $f(k,4)=\lceil3k/2\rceil$, $f(k,5)=\lceil5k/4\rceil$ and $f(k,6)=k$. So the
   constants $c_r$ of the second question exist for $3\le r\le6$.
-authors: []
+authors:
+- P. Erdős
+- D. Fon-Der-Flaass
+- A. V. Kostochka
+- Zs. Tuza
 status: accepted
 claim: proved
 scope: partial

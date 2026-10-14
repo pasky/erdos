@@ -59,7 +59,8 @@ in the paper is a computer check. For problem #508 the plane graphs are further
 5-chromatic examples, including a family not based on the Moser spindle; they do
 not improve the lower bound chi(R^2) >= 5.
 
-Source: <https://arxiv.org/abs/2106.11824>.
+Source: <https://arxiv.org/abs/2106.11824>. The copy's retrieval date was not
+recorded.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]:
 Propositions 5 and 6 concern finite 5-chromatic unit distance graphs in the

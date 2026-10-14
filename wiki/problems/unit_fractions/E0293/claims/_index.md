@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 293, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-14T00:16:44Z
 ---
 
 # problems/unit_fractions/E0293/claims
@@ -26,9 +26,10 @@ $e^{e^{k/600}}\le v(k)\le1+k^{2^{k-1}}$ for large $k$, with the liminf and
 limsup of $\log\log v(k)/k$ between $\log2/257$ and $\log2$. It is accepted as
 a partial answer.
 
-[[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|2026_10_10_van_doorn]]: Wouter van Doorn's forum post of 10 October 2026 claims that his write-up on
-Problem 304, with a greedy start that never takes $1/b$, gives
-$v(k)>e^{e^{ck}}$ for some $c>0$. The write-up does not carry out this step,
-so the claim is a sketch; it is partial and pending.
+[[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|2026_10_10_van_doorn]]: Does not improve the best known bound ($v(k)\ge e^{e^{k/600}}$, the OpenAI
+release's Corollary 1.3). Wouter van Doorn's forum post of 10 October 2026
+claims that his write-up on Problem 304, with a greedy start that never takes
+$1/b$, gives $v(k)>e^{e^{ck}}$ for some $c>0$. The write-up does not carry
+out this step, so the claim is a sketch.
 
 ***
