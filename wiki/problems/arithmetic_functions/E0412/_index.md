@@ -77,6 +77,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]]
 - [[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/_index|erdos_1990_normal_behavior_iterates_arithmetic_functions]]
 - [[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/statements_p169|erdos_1990_normal_behavior_iterates_arithmetic_functions / statements_p169]]
+- [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
 
 <!-- END problem library links -->

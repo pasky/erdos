@@ -227,6 +227,14 @@ PDF, its build files and the README; there is no verification folder.
 
 ## Bears on
 
+- [[../wiki/problems/arithmetic_functions/E0408/_index|Problem 408]]: input to a claimed resolution. Theorem 2.1 of Plasma AI's 2026
+  preprint ([[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|its card]]) extends
+  [[arithmetic_functions/openai_2026_poisson_dirichlet_law_prime_predecessors/theorem_7_1|Theorem 7.1]]
+  to weights that depend jointly on all but one prime factor of $p-1$ and to
+  an explicit error near the boundary of the region. That is the input that
+  removes the Elliott--Halberstam-type hypothesis from the
+  Erdős--Granville--Pomerance--Spiro normal order of the number of totient
+  iterations. Unverified here; the claim is pending this corpus's review.
 - [[../wiki/problems/arithmetic_functions/E0821/_index|Problem 821]]: a claimed input
   to the Erdős--Pomerance smooth-shifted-prime route recorded on the
   [[arithmetic_functions/baker_1998_shifted_primes_without_large_prime_factors/_index|Baker--Harman]]

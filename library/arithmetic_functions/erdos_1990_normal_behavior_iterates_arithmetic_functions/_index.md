@@ -148,7 +148,10 @@ Pages are cited by the printed page numbers.
   $A_\epsilon$. Neither bears on the problem's third question, on the largest
   prime factor of $\varphi_k(n)$ at $k=\log\log n$; the paper's Conjecture 2
   (p. 168) concerns that prime factor only as $k\to\infty$ for a fixed
-  exponent $\epsilon$, not at $k=\log\log n$.
+  exponent $\epsilon$, not at $k=\log\log n$. Plasma AI's 2026 preprint
+  ([[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|its card]]) claims Theorem 2.2's conclusion without the
+  hypothesis, through a quantitative estimate for the prime factors of
+  $p-1$; the claim is pending this corpus's review.
 - [[../wiki/problems/arithmetic_functions/E0410/_index|#410]]: statement (iii)
   of the [[arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/statements_p169|list on p. 169]] is the problem's assertion;
   the paper neither proves nor disproves it.

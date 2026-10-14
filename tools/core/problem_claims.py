@@ -5,7 +5,8 @@ A problem is a folder under the mathematics wiki's ``problems/`` tree whose
 folder, one per claimant's result. The problem's ``status`` and ``claim`` are
 derived from the claims: solved when an accepted full claim settles it,
 claimed when a pending full claim would, else open; a problem that lists its
-``parts`` is also settled part by part. This module is shared,
+``parts`` is also settled part by part, and the parts it marks ``open_ended``
+never block its standing. This module is shared,
 repository-neutral code and knows nothing repository-specific: no problem
 numbering, no area list, no site.
 """
@@ -129,6 +130,7 @@ def lint_problem_claims(
             continue
         findings.extend(f'{relative}: {issue}' for issue in _problem_issues(metadata))
         parts = _parts(metadata)
+        definite = _definite(metadata)
 
         # read the claims beside the problem page
         claims = []
@@ -168,7 +170,7 @@ def lint_problem_claims(
 
         # compare the recorded standing with the one the claims derive
         if claims:
-            expected, disagreement = derive(claims, parts)
+            expected, disagreement = derive(claims, definite)
             if disagreement:
                 findings.append(f'{relative}: {disagreement}')
             for key, value in zip(('status', 'claim'), expected):
@@ -210,7 +212,9 @@ def derive(
     a finite check (``decidable``), except one-sided ones: partial claims that
     the statement is not provable and that it is not disprovable together
     settle the problem, or a part both name, as ``independent``, accepted when
-    both are accepted and claimed when one of them is pending.
+    both are accepted and claimed when one of them is pending. ``parts`` are
+    the problem's definite parts: a part it marks ``open_ended`` never blocks
+    the standing, so the callers leave those out.
     """
     settling = sorted(
         {
@@ -327,7 +331,7 @@ def write_derived(root: pathlib.Path, *, select: tuple[str, ...] = ()) -> list[s
         if not claims:
             continue
         try:
-            parts = _parts(_metadata(problem))
+            parts = _definite(_metadata(problem))
         except ValueError:
             parts = ()
         (status, claim), _ = derive(claims, parts)
@@ -432,6 +436,8 @@ def _problem_issues(metadata: dict[str, Any]) -> list[str]:
             'parts must be a nonempty list of distinct short labels'
             ' (lowercase letters, digits, underscores)'
         )
+    # the open-ended parts, labels from the parts list leaving one part definite
+    issues.extend(_open_ended_issues(metadata))
     for key in _PROBLEM_FORBIDDEN:
         if key in metadata:
             issues.append(f'forbidden key {key!r} (a claim page key)')
@@ -452,6 +458,42 @@ def _parts(metadata: dict[str, Any]) -> tuple[str, ...]:
     """Return the problem's part labels when they are valid, else none."""
     parts = metadata.get('parts')
     return tuple(parts) if _valid_parts(parts) else ()
+
+
+def _open_ended_issues(metadata: dict[str, Any]) -> list[str]:
+    """Return one issue per defect in a problem page's ``open_ended`` labels."""
+    if 'open_ended' not in metadata:
+        return []
+    open_ended = metadata['open_ended']
+    parts = _parts(metadata)
+    if (
+        not isinstance(open_ended, list)
+        or not open_ended
+        or not all(isinstance(label, str) for label in open_ended)
+        or len(set(open_ended)) != len(open_ended)
+    ):
+        return ['open_ended must be a nonempty list of distinct part labels']
+    if not parts:
+        return ['open_ended needs the problem page to list its parts']
+    unknown = [label for label in open_ended if label not in parts]
+    if unknown:
+        return [
+            "open_ended names labels outside the problem's parts: " + ', '.join(unknown)
+        ]
+    if set(parts) <= set(open_ended):
+        return ['open_ended names every part; at least one part must be definite']
+    return []
+
+
+def _definite(metadata: dict[str, Any]) -> tuple[str, ...]:
+    """Return the problem's part labels without the open-ended ones.
+
+    A problem whose ``open_ended`` labels are malformed keeps every part definite.
+    """
+    parts = _parts(metadata)
+    if 'open_ended' not in metadata or _open_ended_issues(metadata):
+        return parts
+    return tuple(part for part in parts if part not in metadata['open_ended'])
 
 
 def _claim_issues(

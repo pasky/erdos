@@ -36,3 +36,4 @@
 **/.arxiv/** -text
 
 # Data assets over 1 MB
+library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/assets/erdos_408_formalization.tar.gz filter=lfs diff=lfs merge=lfs -text

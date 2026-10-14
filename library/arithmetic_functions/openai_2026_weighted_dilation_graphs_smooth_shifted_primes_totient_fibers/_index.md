@@ -250,6 +250,12 @@ uses the printed statement labels.
 
 ## Bears on
 
+- [[../wiki/problems/arithmetic_functions/E0408/_index|Problem 408]]: input to a claimed resolution. The graph and ideal-kernel
+  estimates here, carried through the Poisson--Dirichlet manuscript's
+  extraction of primes, feed the quantitative rectangle estimate of Plasma
+  AI's 2026 preprint ([[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|its card]]), whose formalization vendors
+  `totient-fibers-lean4`'s Lean proof of these results. Unverified here; the
+  claim is pending this corpus's review.
 - [[../wiki/problems/arithmetic_functions/E0821/_index|Problem 821]]: claimed
   resolution. Theorem 1.1 is the problem's question in the affirmative, for
   every $\varepsilon>0$ and with the same $g(n)$; the claim rests on Theorem
