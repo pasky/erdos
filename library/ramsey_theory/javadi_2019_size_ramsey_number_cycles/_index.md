@@ -23,7 +23,7 @@ size-Ramsey number of cycles. Combin. Probab. Comput. (2019), 871-880.
 The copy read for this card is arXiv:1701.07348v1 (25 January 2017; 13
 pages), not the journal article (Combin. Probab. Comput. 28 (2019), no. 6,
 871-880, DOI 10.1017/S0963548319000221, published online 17 July 2019;
-Crossref record read); locators below are arXiv pages and the
+Crossref record read 2026-09-17); locators below are arXiv pages and the
 journal text was not compared. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:1701.07348), every other right reserved.
 

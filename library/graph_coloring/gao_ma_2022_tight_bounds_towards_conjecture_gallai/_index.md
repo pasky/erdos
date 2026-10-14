@@ -30,7 +30,7 @@ The arXiv record names arXiv's non-exclusive distribution license
 
 Jun Gao, Jie Ma, "Tight bounds towards a conjecture of Gallai," arXiv:2205.14556
 (2022); published in Combinatorica 43 (2023), 447-453,
-doi:10.1007/s00493-023-00020-z (Crossref).
+doi:10.1007/s00493-023-00020-z (Crossref, read 2026-10-07).
 
 ## Overview
 

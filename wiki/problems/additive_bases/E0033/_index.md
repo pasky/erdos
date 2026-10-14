@@ -78,9 +78,9 @@ https://www.erdosproblems.com/33.
 
 ## Current assessment
 
-The site labeled the problem OPEN and its proof-claims tab held no submitted
-resolution. The thread as of 2026-10-07 holds six comments and no proof claim;
-the latest, of 2026-09-07, announces a
+On 2026-09-05 the site labeled the problem OPEN and its proof-claims tab held no
+submitted resolution. The thread as of 2026-10-07 holds six comments and no
+proof claim; the latest, of 2026-09-07, announces a
 [write-up](https://github.com/LeanMeanBean/erdos-33/blob/main/erdos33_limsup_4_596.pdf)
 claiming a complement with limsup at most $13\sqrt2/4\approx4.596$, below van
 Doorn's bound and developed with GPT; an upper bound on the infimum settles no

@@ -78,7 +78,7 @@ Problem #473, https://www.erdosproblems.com/473.
   read on the publisher's page.
 - [She26] She, Yue-Feng, Hamiltonicity in graphs defined by primes and
   primitive elements. arXiv:2609.19114, submitted 16 September 2026. Not
-  held; abstract read.
+  held; abstract read 2026-10-07.
 
 **Formalization.** The file
 [`ErdosProblems/473.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d7b57b5247c0/FormalConjectures/ErdosProblems/473.lean)

@@ -56,11 +56,11 @@ fewer lines), but the lower-bound sentence is stated for $n\ge3$, so the
 paper establishes the two equalities for $n\ge3$. Below that range the
 values can differ: a graph on $2$, $3$ or $4$ points has at most $1$, $3$ or
 $6$ lines and no 5-way, so $l_5(2)=2$, $l_5(3)=4$ and $l_5(4)=7$, not $3$,
-$6$ and $8$; the odd value holds at $n=2$, since $K_5$ is a $J[5,10]$ and no graph on $5$ points has $11$
-lines, so $l_5(5)=11$ (an observation made here). The abstract (p. 242)
-writes the two cases as one formula, $l_5(n)=\left[\frac{5n-3}2\right]$,
-with no range stated. P. 250 then observes that
-$l_r(n)=\left[\frac{r(n-1)+2}2\right]$ for $r\le5$, that examples show the
+$6$ and $8$; the odd value holds at $n=2$, since $K_5$ is a $J[5,10]$ and no
+graph on $5$ points has $11$ lines, so $l_5(5)=11$ (an observation made here).
+The abstract (p. 242) writes the two cases as one formula,
+$l_5(n)=\left[\frac{5n-3}2\right]$, with no range stated. P. 250 then observes
+that $l_r(n)=\left[\frac{r(n-1)+2}2\right]$ for $r\le5$, that examples show the
 formula is a lower bound for every $r$, and that "Whether this is also an upper
 bound remains an open question."
 

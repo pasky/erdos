@@ -29,7 +29,8 @@ filed as
 [[extremal_graph_theory/chu_2026_gallai_s_conjecture_path_number_odd_semi_cliques/_index|chu_2026_gallai_s_conjecture_path_number_odd_semi_cliques]];
 its Theorem 1.7, that every semi-clique on $n$ vertices decomposes into at
 most $(4n+6)/7$ paths, and the semi-clique definition before it are on
-printed p. 2 (PDF p. 2), read there clause by clause on the page image and paged on
+printed p. 2 (PDF p. 2), read there clause by clause on the page image and paged
+on
 [[extremal_graph_theory/chu_2026_gallai_s_conjecture_path_number_odd_semi_cliques/theorem_1_7|theorem_1_7]].
 
 **Source.** M. Bonamy and T. J. Perrett, *Gallai's path decomposition

@@ -153,7 +153,8 @@ Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Marcus, M., Sequence A217693, The On-Line Encyclopedia of Integer
   Sequences (2012; entry last modified 30 May 2026, server time): the number of
-  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$.
+  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$; accessed
+  2026-09-18.
 
 **Formalization.** A statement file and an external Lean proof; no build or
 review of either is recorded in this corpus. The statement file was added on
@@ -163,9 +164,10 @@ states `erdos_309` (the answer is no: $F(N)$ is not $o(\log N)$) and
 `erdos_309.variants.asymptotic` ($F(N)/\log N\to1$), both `by sorry`, each
 carrying a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos309.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos309.lean)
-in Boris Alexeev's `lean-proofs` collection (the pinned link). The site's page
-shows the statement as formalized and links the statement file, and the
-community database records the problem as formalized since 19 September 2026.
+in Boris Alexeev's `lean-proofs` collection as it stood on 15 September 2026
+(the pinned link). On 2026-10-07 the site's page showed the statement as
+formalized and linked the statement file, and the community database recorded
+the problem as formalized since 19 September 2026.
 The Alexeev file is a development authored by OpenAI Codex (GPT-5.6 Sol),
 described under Formalization and the Lean label below; no build of it is
 recorded, and no `formalized` evidence is listed on any claim page.
@@ -200,7 +202,8 @@ updated to address it); 14 December 2025, that Croot's lower bound was
 improved by Yokota in [Yo02] (likewise addressed); and 23 July 2026, a
 typographical remark on the stray inequality sign in the Croot display,
 with the disclosure that GPT-5.5 was used to find the minor typographical
-mistakes. The community database (`data/problems.yaml`) records status "disproved (Lean)" and formal status Lean, with
+mistakes. The community database (`data/problems.yaml`, accessed
+2026-09-18) records status "disproved (Lean)" and formal status Lean, with
 a last update of 24 August 2026, statement not formalized, OEIS A217693,
 no formal-proof URL.
 
@@ -290,8 +293,8 @@ order of bound, $\log N+\gamma-1-o(1)$, on its own page.
 
 **Formalization and the Lean label.** The site's (LEAN) suffix refers to
 the file `src/latest/ErdosProblems/Erdos309.lean` in Boris Alexeev's
-`lean-proofs` collection (the link pinned on the
-claim pages); its top file is recorded. Its header declares it a Lean
+`lean-proofs` collection as it stood on 15 September 2026 (the link pinned on
+the claim pages); its top file is recorded. Its header declares it a Lean
 formalization of a solution to Problem 309, names Hisashi Yokota, Ernest
 S. Croot III and Thomas Bloom (for the unit-fraction extraction theorem it
 uses) as informal authors and Codex, GPT-5.6 Sol (OpenAI Codex) as formal
@@ -312,7 +315,7 @@ it is recorded, and no kernel credit is claimed. The formal-conjectures
 statement file is a `sorry` whose attribute points at this file; it is a
 statement, not a formalization, and is not linked from the claim pages.
 
-**Data lead, not status.** OEIS A217693 gives the
+**Data lead, not status.** OEIS A217693 (accessed 2026-09-18) gives the
 number of distinct integers among the subset sums of
 $\{1,1/2,\ldots,1/n\}$, which is $F(n)$: $1$ for $n\le5$, $2$ for
 $6\le n\le23$, $3$ for $24\le n\le64$ and $4$ from $n=65$ on through the

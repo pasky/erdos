@@ -55,13 +55,13 @@ The copy read for this card is the arXiv v2 manuscript (watermark
 "arXiv:2003.04648v2 [math.NT] 13 Jan 2022" on p. 1), a sixteen-page dvips and
 Ghostscript file with a text layer whose printed page numbers equal the PDF
 page numbers. Provenance:
-downloaded from <https://arxiv.org/pdf/2003.04648v2> on 2026-09-22; 199,589
-bytes. The arXiv record gives the journal reference Adv. Math. 392 (2021),
-108043, DOI 10.1016/j.aim.2021.108043; that version of record was not acquired
-and no version was compared, so the citation above follows the arXiv record. The
-arXiv comment on v2 says the paper was restructured and the proofs extended
-against v1 (10 March 2020), which was not fetched. The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2003.04648), every other right
+downloaded from <https://arxiv.org/pdf/2003.04648v2>; 199,589 bytes. The arXiv
+record gives the journal reference Adv. Math. 392 (2021), 108043, DOI
+10.1016/j.aim.2021.108043; that version of record was not acquired and no
+version was compared, so the citation above follows the arXiv record. The arXiv
+comment on v2 says the paper was restructured and the proofs extended against v1
+(10 March 2020), which was not fetched. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2003.04648), every other right
 reserved.
 
 **Reading.** The card and its result pages were checked against the arXiv v2

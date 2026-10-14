@@ -24,7 +24,7 @@ The copy read for this card is arXiv:2210.05818v2 (22 July 2023; 4 pages;
 the arXiv record's comment reads "revised version, accepted in
 Combinatorica"). The paper appeared as
 Combinatorica 44 (2024), no. 1, 9-14, DOI 10.1007/s00493-023-00056-1
-(published online 21 August 2023; Crossref record read); the
+(published online 21 August 2023; Crossref record read 2026-09-17); the
 journal text is not held and was not compared with the arXiv version.
 Locators below are arXiv pages.
 
@@ -73,10 +73,11 @@ number of a graph of maximum degree three can be.
   maximum degree d and any vertex v of G, the
   probability that U_k embeds into G with its root mapped to v is at most
   d^{2^k-1} d^{2^{k+1}}/(2^k-1)!.
-- Corollary 2.4 (p. 2): For r >= 1, k, d >= 2 and i.i.d. copies U^{(1)},...,U^{(r)}
-  of U_k, the probability that some labeled graph G of maximum degree d has a
-  vertex v admitting embeddings of all r copies with roots at v is at most
-  (d^{2^k-1} d^{2^{k+1}}/(2^k-1)!)^r (d^{k+1})^{d d^{k+1}}.
+- Corollary 2.4 (p. 2): For r >= 1, k, d >= 2 and i.i.d. copies
+  U^{(1)},...,U^{(r)} of U_k, the probability that some labeled graph G of
+  maximum degree d has a vertex v admitting embeddings of all r copies with
+  roots at v is at most (d^{2^k-1} d^{2^{k+1}}/(2^k-1)!)^r (d^{k+1})^{d
+  d^{k+1}}.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

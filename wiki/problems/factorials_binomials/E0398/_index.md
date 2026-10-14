@@ -49,8 +49,8 @@ accepted partial claim on
 [[problems/factorials_binomials/E0398/claims/2025_08_15_naciri|its claim page]].
 
 **Source.** [erdosproblems.com/398](https://www.erdosproblems.com/398), accessed
-2026-09-04 and, with its discussion thread (ten comments) and its empty
-proof-claims list, 2026-10-07. The site cites the problem from p. 77 of
+2026-09-04 and, with its discussion thread (ten comments), 2026-10-07; its
+proof-claims list was empty. The site cites the problem from p. 77 of
 Erdős and Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős Problem #398,
 https://www.erdosproblems.com/398.
 
@@ -62,7 +62,8 @@ https://www.erdosproblems.com/398.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Ma17] Matson, Robert D., Brocard's Problem 4th Solution Search Utilizing
   Quadratic Residues. Unsolved Problems in Number Theory, Logic and
-  Cryptography (2017); archived copy linked from the OEIS entry A146968.
+  Cryptography (2017); archived copy linked from the OEIS entry A146968,
+  accessed 2026-10-07.
 - [Na25] A. M. Naciri, On the Brocard-Ramanujan equation with $7$-free integers
   and prime powers. Integers 25 (2025), #A71.
 - [Ov93] Overholt, Marius, The Diophantine equation $n!+1=m^2$. Bull. London
@@ -73,7 +74,7 @@ https://www.erdosproblems.com/398.
 
 ## Current assessment
 
-**The question.** The site's formulation asks whether
+**The question.** The site's formulation (accessed 2026-09-04) asks whether
 $n=4,5,7$ give the only solutions of $n!=x^2-1$, the Brocard–Ramanujan
 equation; the three known solutions are $4!+1=5^2$, $5!+1=11^2$ and
 $7!+1=71^2$. The site labeled the problem falsifiable, which is a note on the
@@ -136,8 +137,8 @@ known. It is a pending claim on
 proof-claims list, the OEIS entry A146968 and the sources named above. [Ov93]
 is not held in the library, and the $10^{15}$ bound rests on the OEIS entry's
 report of a program, not on a write-up. The formal-conjectures file is a
-statement of the problem, not a proof. The site's proof-claims list was empty
-on 2026-10-07, and the one claim in its discussion thread is recorded above.
+statement of the problem, not a proof. The site's proof-claims list was empty,
+and the one claim in its discussion thread is recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

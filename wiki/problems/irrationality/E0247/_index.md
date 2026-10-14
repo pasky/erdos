@@ -102,11 +102,11 @@ proofs (the file at
 a statement file is not a formalization of a proof, and neither declaration
 is `formalized` evidence.
 
-**Search scope.** On 2026-10-07 the site's page, its discussion thread and its
-proof-claims tab (none registered) recorded no proof claim and no result on the
-exact question beyond the statements above; no wider literature search was
-made. The site's label OPEN matches the derived standing: the one claim is
-partial.
+**Search scope.** On 2026-10-07 the site's page and its discussion thread
+recorded no proof claim and no result on the exact question beyond the
+statements above. The site's proof-claims tab registered no claim; no wider
+literature search was made. The site's label OPEN matches the derived standing:
+the one claim is partial.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

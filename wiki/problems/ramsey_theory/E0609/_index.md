@@ -64,9 +64,9 @@ has a monochromatic odd cycle of length at most $m$, and declares `erdos_609`,
 the assertion that $f$ has the growth order of an unspecified function
 (`answer(sorry)`), under `category research open` with proof `sorry`. It carries
 no `formal_proof` attribute, so it records no formal proof. The file was added
-on 9 September 2026; the site's indicator reads "Formalised statement? Yes", and
-the community database lists the statement as formalized since 9 September 2026
-with formal status unformalized.
+on 9 September 2026; on 2026-10-06 the site's indicator read
+"Formalised statement? Yes", and the community database listed the statement as
+formalized since 9 September 2026 with formal status unformalized.
 
 ## Current assessment
 
@@ -106,11 +106,11 @@ or matching the opposite bound's order was located in this bounded search.
 That absence does not certify openness or an exhaustive priority claim.
 
 **Proof claims on the site.** The site's proof-claim
-tab carries one partial claim, submitted 25 September 2026: that $f(3)=5$,
-by the classical $R(3,3,3)=17$ for the lower bound and a structural
-argument with a finite enumeration and a SAT check for the upper bound. It
-concerns the case $n=3$ only and leaves the asymptotic question untouched.
-It is recorded, with its provenance, on
+tab (accessed 2026-10-06) carries one partial claim, submitted 25 September
+2026: that $f(3)=5$, by the classical $R(3,3,3)=17$ for the lower bound and a
+structural argument with a finite enumeration and a SAT check for the upper
+bound. It concerns the case $n=3$ only and leaves the asymptotic question
+untouched. It is recorded, with its provenance, on
 [[problems/ramsey_theory/E0609/claims/2026_09_25_cai|its claim page]]; the
 site's label was OPEN, and the claim is not accepted.
 

@@ -30,10 +30,10 @@ $$
 with $n-1>a_1\geq a_2\geq \cdots \geq a_k\geq 2$, has only finitely many
 solutions.
 
-**Status.** Open. This is the site's label, OPEN, which the site explains as
-open and not resolvable by a finite computation (page last edited 29 January
-2026, accessed 2026-10-07). No claim settles the question. The one claim page
-records Luca's finiteness result under the abc conjecture
+**Status.** Open. This was the site's label, OPEN, which the site explained as
+open and not resolvable by a finite computation; its page, accessed 2026-10-07,
+was last edited 29 January 2026. No claim settles the question. The one claim
+page records Luca's finiteness result under the abc conjecture
 ([[problems/factorials_binomials/E0373/claims/2007_11_01_luca|claim page]]). It
 is conditional and settles no standing. The Current assessment records the other
 conditional reduction and the unconditional results.
@@ -135,10 +135,10 @@ Guy's section B23 [Gu04] states the equation, Hickerson's solutions and the
 searches to 18160 and $10^6$.
 
 Search scope: the site's problem page and commentary, its discussion thread
-and its proof-claims tab, which carried no claim on 2026-10-07; the community
+and its proof-claims tab, which carried no claim; the community
 database's entry; the formal-conjectures statement file at the pinned
 revision; the publisher's record of Luca's paper; and the library cards for
-[Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. On 2026-10-07 none of them
+[Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. On 2026-10-07 none of the others
 showed another claim on the problem. Nothing on this page is independently
 reviewed.
 <!-- BEGIN problem library links -->

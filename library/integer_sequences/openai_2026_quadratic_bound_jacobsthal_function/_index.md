@@ -98,9 +98,9 @@ carried the OPEN label, is not settled. The record is kept on the claim page
 of [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]], not on
 this card. The declaration states a bound for $h(k)$ alone: no bound for
 $Y(x)$ or $S(k)$ is a declaration of the release, and
-`erdos_970_iterated_log` is not named in that record. A Lean statement of the bound is not a proof of
-Problem 970's order-of-magnitude question, which the release's page itself
-leaves open.
+`erdos_970_iterated_log` is not named in that record. A Lean statement of the
+bound is not a proof of Problem 970's order-of-magnitude question, which the
+release's page itself leaves open.
 
 Companions: the release files this manuscript alone; no companion, alternate
 proof or consequence manuscript is listed.

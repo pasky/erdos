@@ -40,8 +40,8 @@ marked in the file, so every locator below is a reprint page ($=$ PDF page).
 Pages 1--9 were read on rendered page images. No notice is printed in the
 authors' reprint (its title page prints only "JCCMCC 13 (1993) 23--31"); the
 copy read for this card is the author-hosted edition, whose host is a bare
-directory listing with no terms (https://users.cecs.anu.edu.au/~bdm/papers/);
-the term is unstated.
+directory listing with no terms (https://users.cecs.anu.edu.au/~bdm/papers/,
+read 2026-10-02); the term is unstated.
 
 Read status: claims checked for Conjecture 1 and its strong form, the
 $k=3$ verification, the $k=4$ reduction, Theorems 1--3 and Table 1 with

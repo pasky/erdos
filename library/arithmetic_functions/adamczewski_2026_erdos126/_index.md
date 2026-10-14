@@ -32,10 +32,10 @@ F. Bloom. Tom Adamczewski maintains the original proof repository as part of
 the FrontierMath Erdős work with Bloom. The source slug identifies that
 repository's maintainer; the site credits the proof to GPT-6 Astra.
 
-**Canonical source.** The three-page PDF was downloaded from [the site's proof
-link](https://www.erdosproblems.com/static/126-proof.pdf). All three pages were
-inspected. Bloom's [proof-claim
-note](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
+**Canonical source.** The three-page PDF was downloaded 2026-09-05 from
+[the site's proof link](https://www.erdosproblems.com/static/126-proof.pdf). All
+three pages were inspected. Bloom's
+[proof-claim note](https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244),
 submitted 2026-09-03, identifies this as a preliminary exposition pending a
 proper writeup. The source is not a refereed paper. No notice is printed in the
 file, and the hosting site states no copyright, license or terms
@@ -90,8 +90,8 @@ a line-by-line audit of every Lean tactic.
 
 The [pinned public
 CI](https://github.com/tadamcz/erdos126/actions/runs/33813859367) reported
-successful build and Comparator jobs when checked. The [formalization
-metadata](https://github.com/tadamcz/erdos126/blob/abd42394bc47d58440dd3db4c3bd1ffa19b403de/formalization.yaml)
+successful build and Comparator jobs when checked on 2026-09-05. The
+[formalization metadata](https://github.com/tadamcz/erdos126/blob/abd42394bc47d58440dd3db4c3bd1ffa19b403de/formalization.yaml)
 distinguishes the primary compared proof from the three alternate modules.
 Comparator checks the requested limit statement, using the primary
 `Erdos126_132usd_25h` module and its exponent $1/8$. It does not compare the

@@ -41,7 +41,7 @@ paper p. 6 (PDF p. 8) and Theorems 7.5--7.6 and Corollary 7.7 on paper
 p. 35 (PDF p. 37), read on the page images. The conference version
 appeared in FOCS 2023 (2023 IEEE 64th Annual Symposium on Foundations of
 Computer Science, 1271--1281, DOI 10.1109/FOCS57990.2023.00075; Crossref
-record read); its text was not compared. The artifact is
+record read 2026-09-18); its text was not compared. The artifact is
 identified in the
 [[ramsey_theory/li_2023_two_source_extractors_asymptotically_optimal_entropy/_index|source digest]].
 

@@ -39,7 +39,8 @@ Soc. **209** (1975), 33--44 (received by the editors June 13, 1973), DOI
 The copy read for this card is the
 publisher's 12-page scan of the article (printed p. $n$ is PDF p. $n-32$)
 with an OCR text layer that garbles most formulas; the statements below
-were read on the page images of pp. 33--44. Provenance: retrieved (13:31 UTC) from the AMS journals back file at
+were read on the page images of pp. 33--44. Provenance: retrieved 2026-09-17
+(13:31 UTC) from the AMS journals back file at
 <https://www.ams.org/journals/tran/1975-209-00/S0002-9947-1975-0396317-X/S0002-9947-1975-0396317-X.pdf>,
 1,125,422 bytes. The file prints "Copyright © 1975, American Mathematical
 Society" on its first page (printed p. 33), every other right reserved.

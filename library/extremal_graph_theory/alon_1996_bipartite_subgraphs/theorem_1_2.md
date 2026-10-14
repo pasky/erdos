@@ -48,7 +48,7 @@ explicit for the lower bound, and the sharpness construction
 gives $9\cdot2^{2/5}+o(1)$ along its sequence.
 
 **Source.** N. Alon, *Bipartite subgraphs*, Combinatorica 16 (1996), no. 3,
-301--311, doi:10.1007/BF01261315 (Crossref record read:
+301--311, doi:10.1007/BF01261315 (Crossref record read on 2026-09-18:
 issued September 1996); the author's final version read for this card
 ("appeared in
 Combinatorica 16 (1996), 301-311" on its p. 1; byte-identical to the

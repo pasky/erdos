@@ -25,10 +25,9 @@ distances between points on the plane), Mat. Zametki 69 (2001), no. 4,
 630--633 (Brief Communications; DOI 10.4213/mzm691; received 21 September
 2000, revised 5 October 2000; in Russian). English translation: *About
 distances between points on the plane*, Math. Notes 69 (2001), no. 3--4,
-578--581, DOI 10.1023/A:1010276601734 (the mathnet.ru and Crossref records
-read; the translation was not read, and the card cites the
-Russian original). The site's key Ko01 for
-Problem 465.
+578--581, DOI 10.1023/A:1010276601734 (the mathnet.ru and Crossref records read
+2026-09-18; the translation was not read, and the card cites the Russian
+original). The site's key Ko01 for Problem 465.
 
 The copy read for this card
 is a four-page PDF of the Russian original (Ghostscript output; printed

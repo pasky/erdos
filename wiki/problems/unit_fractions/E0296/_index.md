@@ -87,7 +87,7 @@ one reciprocal sum, for which it cites a sunflower argument giving at least
 $N\exp(-O(\sqrt{\log N}))$ sets. The two comments in the thread
 concern Lean formalizations and are recorded under Existing formalization.
 The proof-claim tab is empty. The community database record
-(teorth/erdosproblems) lists the problem as proved (Lean)
+(teorth/erdosproblems, fetched 2026-09-17) lists the problem as proved (Lean)
 with the statement formalized and no formal-proof URL, as of its last update
 of 22 April 2026.
 

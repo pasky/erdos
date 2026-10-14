@@ -48,8 +48,8 @@ and lists no proof claims.
 - [St24] S. Steinerberger, *On a Problem Involving Unit Fractions*,
   [arXiv:2403.17041v5](https://arxiv.org/abs/2403.17041v5) (2024).
 
-**Formalization.** The site shows no formalized statement,
-and formal-conjectures has no file for Problem 297. Boris Alexeev's
+**Formalization.** On 2026-09-05 the site showed no formalized statement,
+and formal-conjectures had no file for Problem 297. Boris Alexeev's
 `lean-proofs` collection holds a Lean 4 file that declares itself a
 formalization of Liu and Sawhney's solution, with Codex and GPT-5.6 Sol as
 formal authors; it is linked at its pinned commit on
@@ -93,10 +93,11 @@ collection, posted 17 August 2026 and linked at its pinned commit on
 and Sawhney as informal authors and Codex and GPT-5.6 Sol as formal
 authors, and proves that the count is $\exp((\gamma_*+o(1))N)$, together
 with the base-two form of the rate and the bound $c_1<1$. The corpus has
-not built or audited it, so it gives no `formalized` evidence. The site shows no formalized statement, the
+not built or audited it, so it gives no `formalized` evidence. On 2026-09-05 the
+site showed no formalized statement, the
 [community database](https://github.com/teorth/erdosproblems/blob/7688a2b0fc70a4f68a897a7a6da7788681003888/data/problems.yaml)
-records the problem as informally solved and unformalized, and
-formal-conjectures has no file for Problem 297.
+recorded the problem as informally solved and unformalized, and
+formal-conjectures had no file for Problem 297.
 
 A search of the primary literature located the published
 Conlon article, Liu and Sawhney's publication record and Steinerberger's

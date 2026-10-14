@@ -48,7 +48,7 @@ small enough, the Bloom–Sisask bound makes so dense a blue set contain a
 arXiv:2111.01099v3 (21 August 2022; the file is dated "August 23, 2022"),
 24 pages; the copy read is this preprint and the locators are its
 pages. Published in Combinatorica 42 (2022), suppl. 2, 1231--1252, DOI
-10.1007/s00493-022-4925-2 (the Crossref record read); the
+10.1007/s00493-022-4925-2 (the Crossref record read 2026-09-18); the
 journal pagination is not in the preprint and is not used here. The
 arXiv listing shows v1 of 1 November 2021, v2 of 20 March 2022 and v3.
 
@@ -73,9 +73,10 @@ of which this is a modification.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: Theorem 1 gives the
-  lower bound $W(3,k)\ge\exp(c(\log k)^2/\log\log k)$ (colors exchanged),
-  the bound the problem page records for Hunter. It is superpolynomial, so
-  it meets the problem's non-trivial lower-bound challenge, which Green's
-  Theorem 1.1 met first; it does not determine the order of magnitude. Footnote 1 is the shape of the argument behind the
-  site's upper bound $\exp(O((\log k)^9))$, which the paper does not state.
+- [[../wiki/problems/ramsey_theory/E0721/_index|Problem 721]]: Theorem 1 gives
+  the lower bound $W(3,k)\ge\exp(c(\log k)^2/\log\log k)$ (colors exchanged),
+  the bound the problem page records for Hunter. It is superpolynomial, so it
+  meets the problem's non-trivial lower-bound challenge, which Green's Theorem
+  1.1 met first; it does not determine the order of magnitude. Footnote 1 is the
+  shape of the argument behind the site's upper bound $\exp(O((\log k)^9))$,
+  which the paper does not state.

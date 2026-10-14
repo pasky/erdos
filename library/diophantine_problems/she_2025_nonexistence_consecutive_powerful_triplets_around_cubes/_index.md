@@ -27,16 +27,16 @@ The retained
 [folder-name PDF](she_2025_nonexistence_consecutive_powerful_triplets_around_cubes.pdf)
 is the journal's publisher-format PDF of the nine printed pages (head
 "INTEGERS 25 (2025)", article number #A103; PDF p. $n$ is printed p. $n$),
-with a text layer. Provenance: retained from the repository's survey
-download set of September 2026; the survey record identifies the source by
-the DOI 10.5281/zenodo.17711516 (<https://doi.org/10.5281/zenodo.17711516>),
-and the download URL itself was not recorded; 366,525 bytes. The held file is
-the journal's PDF; the journal's home page states "All works of this journal are
-licensed under a Creative Commons Attribution 4.0 International License so that
-all content is freely available without charge to the users or their
-institutions." (https://math.colgate.edu/~integers/, read 2026-10-02), and the
-arXiv record of the earlier draft names the same license (arXiv:2507.16828): the
-Creative Commons Attribution 4.0 license.
+with a text layer. Provenance: retained from the repository's survey download
+set; the survey record identifies the source by the DOI 10.5281/zenodo.17711516
+(<https://doi.org/10.5281/zenodo.17711516>), and the download URL itself was not
+recorded; 366,525 bytes. The held file is the journal's PDF; the journal's home
+page states "All works of this journal are licensed under a Creative Commons
+Attribution 4.0 International License so that all content is freely available
+without charge to the users or their institutions."
+(https://math.colgate.edu/~integers/, read 2026-10-02), and the arXiv record of
+the earlier draft names the same license (arXiv:2507.16828): the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 1 and Corollary 1, whose statements
 were read clause by clause in the text layer; their proofs were read but not

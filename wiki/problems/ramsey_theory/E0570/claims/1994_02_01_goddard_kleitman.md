@@ -59,7 +59,8 @@ page). The 2026 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy
 states the theorem as its Theorem 1 with the same attribution. Refereed: W.
 Goddard and D. J. Kleitman, An upper bound for the Ramsey numbers $r(K_3,G)$,
 Discrete Math. 125 (1994), no. 1--3, 177--182, in the February 1994 issue
-(Crossref), the month this page is dated by. The day is a placeholder.
+(Crossref, accessed 2026-10-07), the month this page is dated by. The day is a
+placeholder.
 
 **Read depth.** The statement on p. 1 of the author-hosted manuscript is
 checked against the problem's formula; the proof on pp. 2--6, an induction

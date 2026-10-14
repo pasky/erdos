@@ -37,7 +37,7 @@ $$
 
 for all non-empty $A'\subsetneq A$?
 
-**Formulation.** The site's wording (the page shows
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows
 no last-edited stamp). Write $c(N)$ for the largest size
 of a set $A\subseteq\{1,\ldots,N\}$ carrying signs $\delta$ whose signed
 reciprocals sum to zero while no nonempty proper subset of $A$, with the
@@ -99,7 +99,7 @@ https://www.erdosproblems.com/319, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/319.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/319.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (the head of main on 2026-09-18)
 declares `erdos_319 (N : ℕ) : IsGreatest
 { #A | (A) (_ : A ⊆ Finset.Icc 1 N) (_ : ∃ δ : ℕ → ℤˣ, ∑ n ∈ A, (δ n : ℚ) / n
 = 0 ∧ ∀ A' ⊂ A, A'.Nonempty → ∑ n ∈ A', (δ n : ℚ) / n ≠ 0) } answer(sorry)`
@@ -110,13 +110,13 @@ trivial bound answers it with $N$; and `erdos_319.variants.lb`, the lower
 bound $(1-1/e+o(1))N$ under `category research solved`, also with proof
 `sorry`, whose docstring credits Adenwalla and Croot [Cr01]. The formal set is
 the site's: subsets of $\{1,\ldots,N\}$ with a sign function and the two
-conditions. The file is a statement, not a proof, and no declaration carries
-a `formal_proof` attribute. The community database records a formalized
-statement and no formal proof.
+conditions. The file is a statement, not a proof, and on 2026-10-07 no
+declaration carried a `formal_proof` attribute. The community database
+(accessed 2026-10-06) records a formalized statement and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation accessed 2026-09-18).** The statement
 above; status OPEN; source key [ErGr80]. In its commentary the site
 attributes to Adenwalla the bound $|A|\ge(1-\frac1e+o(1))N$, deduced from
 Croot's main result [Cr01]: Croot's theorem yields integers near the top of
@@ -126,7 +126,7 @@ integer $1$ as $+1$ gives a signed zero-sum set (written out under Known
 results). The commentary also notes that the formal-conjectures project has
 a Lean statement of the problem. The thread is empty; the proof-claim tab
 lists one claim (below). The community database (teorth/erdosproblems,
-`data/problems.yaml`) records open since 31 August 2025,
+`data/problems.yaml`, accessed 2026-10-06) records open since 31 August 2025,
 statement formalized, OEIS "possible", no formal proof.
 
 **Origin.** Printed p. 43 of the 1980 monograph (PDF p. 39 of the public

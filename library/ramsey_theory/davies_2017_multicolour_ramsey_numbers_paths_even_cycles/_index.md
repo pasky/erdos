@@ -30,7 +30,7 @@ paper restates it, with the paper's sketch of the underlying coloring.
 
 Ewan Davies, Matthew Jenssen and Barnaby Roberts, *Multicolour Ramsey
 Numbers of Paths and Even Cycles*, European J. Combin. **63** (2017),
-124--133, DOI 10.1016/j.ejc.2017.03.002 (Crossref record read);
+124--133, DOI 10.1016/j.ejc.2017.03.002 (Crossref record read 2026-09-17);
 arXiv:1606.00762.
 
 The copy read for this card

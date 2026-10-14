@@ -40,7 +40,7 @@ Theorem 5, which is Theorem 2 of an earlier paper ([1]).
 A. Taraz, *The tree packing conjecture for trees of almost linear maximum
 degree*, arXiv:2106.11720v2 (20 June 2022; dated June 22, 2022 on p. 1), 157
 pages; Conjecture 2 on p. 3 and Theorems 5--8 on p. 5, read on the page
-images. The arXiv record read lists a v3 of 8 September 2026
+images. The arXiv record read on 2026-09-19 lists a v3 of 8 September 2026
 (179 pages, "a number of improvements") and no journal reference; v3 was
 not compared, and the locators are v2's. The edition is identified in the
 [[extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/_index|source digest]].

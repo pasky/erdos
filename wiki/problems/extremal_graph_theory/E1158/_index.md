@@ -162,8 +162,8 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   complete $r$-partite $r$-uniform hypergraphs. arXiv:2307.04447v1 (10 July
   2023); Discrete Math. 347 (2024), no. 7, 114037,
   doi:10.1016/j.disc.2024.114037, with a corrigendum, Discrete Math. 348
-  (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records);
-  Theorem 3.2, p. 2. Not cited by the site. Library home:
+  (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records
+  accessed 2026-09-18); Theorem 3.2, p. 2. Not cited by the site. Library home:
   [[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/_index|gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r]].
 - [KKM02] Katz, N. H., Krop, E. and Maggioni, M., Remarks on the box
   problem. Math. Res. Lett. 9 (2002), 515--519. Quoted from
@@ -178,7 +178,7 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   (3 January 2021; abstract read); [Mu26] Mubayi, D., Hypergraphs
   without complete partite subgraphs. arXiv:2507.06390 (v2 14 July 2025);
   Combin. Probab. Comput. 35 (2026), 290--293, doi:10.1017/S0963548325100321
-  (arXiv record); [CLY25] Chen, Q., Liu, H. and Ye, K.,
+  (arXiv record accessed 2026-09-18); [CLY25] Chen, Q., Liu, H. and Ye, K.,
   Extremal constructions for apex partite hypergraphs. arXiv:2510.07997 (9
   October 2025); [CXY26] Chen, Q., Xu, Z. and Ye, K., Turán problems for
   multilinear maps. arXiv:2603.00715 (v2 23 July 2026); [DM26] Dash, S. and
@@ -216,7 +216,7 @@ Yuan and Zhang, [PoZa21] and [CLY25]; it closes by declaring that the
 search was made with help from a large language model and that the cited
 statements were read in the original papers. It is a declared AI-assisted
 forum post, recorded with provenance and not as status; its identifiers
-agree with the arXiv and Crossref records and with what is
+agree with the arXiv and Crossref records of 2026-09-18 and with what is
 compiled below. The proof-claim tab is empty. The site's
 indicator recorded no formalized statement on 2026-09-18 and a formalized
 statement on 2026-10-07 (Formalization above).
@@ -341,10 +341,10 @@ paper's volume is dated 1964 (a Formulation note above).
 routes below found a construction attaining the exponent $t-r^{1-t}$ for any
 $t\ge3$, a disproof, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, as accessed
-  2026-09-18 and again on 2026-10-13 (the page last edited 23 January 2026,
-  one comment, no proof claim); the formal-conjectures directory listing and
-  the community database, as of 2026-09-18 and 2026-10-07 (the Formalization
+- The site: problem page and discussion thread, as accessed 2026-09-18 and
+  again on 2026-10-13 (the page last edited 23 January 2026, one comment), and
+  the proof-claim tab (no proof claim); the formal-conjectures directory listing
+  and the community database, as of 2026-09-18 and 2026-10-07 (the Formalization
   paragraph records what each recorded on each date).
 - The primary sources, to the depth stated above: [Er64f] pp. 183--190 (all
   eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3, [Go23] pp. 1--3 and

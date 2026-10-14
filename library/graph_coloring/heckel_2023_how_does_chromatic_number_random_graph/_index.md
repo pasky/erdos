@@ -132,6 +132,6 @@ greater than $n^c$ for infinitely many $n$. Conjectures 11--15 (pp. 9--10)
 refine Conjecture 10.
 
 No file of this source is held. The Crossref record for DOI 10.1112/jlms.12794
-names CC BY-NC 4.0 for the published article, whose file was not read. The copy
-read for this card is the arXiv preprint arXiv:2103.14014v3 (17 August 2023);
-its theorem numbers are the ones used above.
+(read 2026-10-07) names CC BY-NC 4.0 for the published article, whose file was
+not read. The copy read for this card is the arXiv preprint arXiv:2103.14014v3
+(17 August 2023); its theorem numbers are the ones used above.

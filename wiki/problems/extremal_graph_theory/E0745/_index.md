@@ -69,8 +69,8 @@ At this parameter the second largest component is not of order $\log n$ but of
 order $n^{2/3}$, the order of the largest components in the critical window.
 Erdős and Rényi 1960 [ErRe60] prove that order at $N\sim n/2$ for the greatest
 tree (Theorem 7c) and state it for the largest component in their summary on
-p. 52. Aldous 1997 [Al97] proves the limit law of all the largest components, the
-second included, at $p=1/n$. So Erdős's expectation, stated for the whole
+p. 52. Aldous 1997 [Al97] proves the limit law of all the largest components,
+the second included, at $p=1/n$. So Erdős's expectation, stated for the whole
 process ("never be large, perhaps not much larger than $\log n$ and certainly
 $o(n^\varepsilon)$", [Er81], copy p. 16), holds for fixed $\lambda>1$ and fails
 at the asked parameter.
@@ -108,7 +108,7 @@ Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed
   is second-hand as stated above.
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
   see solved. Combinatorica 1 (1981), no. 1, 25--42, doi:10.1007/BF02579174
-  (Crossref record); Part VIII, "Two Problems on Random
+  (Crossref record accessed 2026-09-19); Part VIII, "Two Problems on Random
   Graphs and Hypergraphs", p. 16 of the retyped copy, which has its own
   pagination. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].

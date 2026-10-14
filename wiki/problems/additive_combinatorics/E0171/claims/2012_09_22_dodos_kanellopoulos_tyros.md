@@ -83,9 +83,9 @@ development's own `ContainsLine`; it closes with `#print axioms` without the
 printed output. The formal-conjectures statement file for the problem, which
 states the question with Mathlib's `Combinatorics.Line`, is tagged solved at its
 commit of 2026-10-06 and names this file as the formal proof. The community
-database (teorth/erdosproblems) lists the problem as "proved (Lean)" with
-`formal_status` Lean, both as of their last update on 2026-08-24, and
-`formalized` "yes" as of its last update on 2026-09-20, without dating when
+database (teorth/erdosproblems), read 2026-10-07, lists the problem as "proved
+(Lean)" with `formal_status` Lean, both as of their last update on 2026-08-24,
+and `formalized` "yes" as of its last update on 2026-09-20, without dating when
 either state changed. This corpus has not built or audited the development, and
 the fidelity of its definitions to the site's question has not been
 independently reviewed, so the page lists no `formalized` evidence.

@@ -237,7 +237,7 @@ rainbow $K_4$, from a computer-found coloring of $K_{13}$ in which every
 vertex sees each color twice (their check of the $715$ copies of $K_4$) and
 the product lemma; $13^k\equiv1\pmod6$, so $K_4$, one of the two graphs
 Erdős singled out, is excluded. Acceptance evidence: both papers are
-refereed (Crossref records); the page numbers are those of
+refereed (Crossref records of 2026-09-18); the page numbers are those of
 the arXiv versions, and the journal texts were not compared. Read depth:
 claims checked for the statements named (pp. 2, 5 and 7 of [AxCl24] and
 p. 1 of [ClWa23]); the proofs of Theorems 1.4 and 1.2 from Theorem 3.3 and

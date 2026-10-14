@@ -22,7 +22,7 @@ Chen, Yong-Gao, Sequences with bounded l.c.m. of each pair of terms. Acta Arith.
 (1998), 71-95.
 
 The paper is Acta Arithmetica 84 (1998), no. 1, 71--95, DOI
-10.4064/aa-84-1-71-95 (Crossref record read). The retained
+10.4064/aa-84-1-71-95 (Crossref record read 2026-09-18). The retained
 folder-name PDF is the publisher's 25-page file; printed p. $n$ is PDF
 p. $n-70$, and the text layer is clean. Read status: claims checked for the
 Theorem and the Note that follows it, read clause by clause on the page

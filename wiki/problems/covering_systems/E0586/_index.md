@@ -32,9 +32,8 @@ two moduli with one dividing the other, so the answer is no. The claim page is
 accepted on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/586](https://www.erdosproblems.com/586), accessed
-2026-09-04 and re-read 2026-10-07 (no comments; empty proof-claim tab). Cite
-as: T. F. Bloom, Erdős Problem #586,
-https://www.erdosproblems.com/586.
+2026-09-04 and 2026-10-07 (no comments); its proof-claim tab was empty. Cite
+as: T. F. Bloom, Erdős Problem #586, https://www.erdosproblems.com/586.
 
 **References.**
 
@@ -49,8 +48,9 @@ https://www.erdosproblems.com/586.
 (added 2026-09-20 and pinned to that commit), whose entry carries the category
 `research solved` and a `formal_proof` attribute pointing to
 `src/latest/ErdosProblems/Erdos586.lean` of Boris Alexeev's lean-proofs
-repository at a pinned commit (the site's page recorded no formalization). That
-file declares itself a formalization of the authors' theorem and is pinned on
+repository at a pinned commit (the site's page as accessed 2026-09-04 recorded
+no formalization). That file declares itself a formalization of the authors'
+theorem and is pinned on
 [[problems/covering_systems/E0586/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|the claim page]];
 nothing was built or audited here, and no local kernel credit is claimed.
 

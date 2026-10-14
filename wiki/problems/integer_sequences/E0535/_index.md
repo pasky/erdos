@@ -139,9 +139,9 @@ Abbott–Hanson bound $N^{1/2+\varepsilon}$ (solved), and the stronger sunflower
 conjecture of [Er73], display (4.3), for integers with exactly $k$ prime factors
 counted with multiplicity (open), with its Erdős–Rado form $c_r^k\,k!$ (solved);
 all bodies are `sorry` and no `formal_proof` attribute is present. The community
-database lists the problem open as of its last update on 31 August 2025, the
-statement formalized since 17 April 2026 and no formal proof. The site's page
-marks the statement as formalized. Nothing was built.
+database, read 2026-09-18, lists the problem open as of its last update on 31
+August 2025, the statement formalized since 17 April 2026 and no formal proof.
+The site's page marks the statement as formalized. Nothing was built.
 
 ## Current assessment
 
@@ -232,18 +232,18 @@ suffice" for (4.1), and that the slightly stronger conjecture (4.3)
 $g_r'(n)<c_r^n$, for integers with exactly $n$ prime factors counted with
 multiplicity and $r$ of them with the same pairwise gcd $d$ and
 $(u_{i_j}/d,d)=1$, "is easily seen to imply (4.1)". The formal-conjectures
-file encodes this corrected form. The paper of Abbott and Gardner gives on p. 173 the fixed-$k$ record of 1966: display
-(1), Erdős's $c^{\log n/\log\log n}<f(n,3)\le f(n,k)\le n^{3/4+\varepsilon}$
-with an absolute $c>1$, and display (2), Abbott's lower bound
+file encodes this corrected form. The paper of Abbott and Gardner gives on p.
+173 the fixed-$k$ record of 1966: display (1), Erdős's
+$c^{\log n/\log\log n}<f(n,3)\le f(n,k)\le n^{3/4+\varepsilon}$ with an absolute
+$c>1$, and display (2), Abbott's lower bound
 $f(n,k)\ge\{(k-1)^2+[(k-1)/2]\}^{\log n/((2+\varepsilon)\log\log n)}$ from
 [Ab66]; its own theorems concern $k$ growing with $n$:
 [[../library/integer_sequences/abbott_1967_extremal_problem_number_theory/theorem_1|Theorem 1]],
 $n^{\alpha/(1+\alpha)-\varepsilon}<f(n,[\log^\alpha n])<n^{(2\alpha+3)/(2\alpha+4)+\varepsilon}$,
 and
 [[../library/integer_sequences/abbott_1967_extremal_problem_number_theory/theorem_2|Theorem 2]],
-$f(n,[n^{1/t}])>n(1-\varepsilon)/(\log n)^t$.
-These are outside the site's question, which fixes $r$, and are recorded as
-the neighboring regime.
+$f(n,[n^{1/t}])>n(1-\varepsilon)/(\log n)^t$. These are outside the site's
+question, which fixes $r$, and are recorded as the neighboring regime.
 
 **The dangling key.** The site's [AbHa67] has no reference text on the
 site (HTTP 404 from its reference endpoint on 2026-09-18, one paced

@@ -51,9 +51,9 @@ Nat Sothanaphan posted and checked. It is developed in the appendix of the
 poster's write-up of Problem 728. There is no refereed write-up.
 
 **Source.** [erdosproblems.com/401](https://www.erdosproblems.com/401), accessed
-2026-09-04 and, with its discussion thread, its empty proof-claims list, the
-community database, the formal-conjectures statement file and the two Lean
-files, 2026-10-07. The site cites the problem from
+2026-09-04 and, with its discussion thread, the community database, the
+formal-conjectures statement file and the two Lean files, 2026-10-07; its
+proof-claims list was empty. The site cites the problem from
 p. 78 of Erdős and Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős
 Problem #401, https://www.erdosproblems.com/401.
 
@@ -121,8 +121,7 @@ on this problem.
 Search scope: the site's problem page, its discussion thread and proof-claims
 list, the community database, the formal-conjectures statement file and the
 two Lean files in Alexeev's repository, and the library's card and digest for
-[So26] for the appendix. The site listed no proof claim for the problem on
-2026-10-07.
+[So26] for the appendix. The site listed no proof claim for the problem.
 [[problems/factorials_binomials/E0729/_index|Problem 729]] is the less precise
 form of this question, and
 [[problems/factorials_binomials/E0728/_index|Problem 728]] the two-factorial

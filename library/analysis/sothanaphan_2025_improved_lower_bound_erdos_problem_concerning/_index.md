@@ -80,7 +80,7 @@ Source: <https://arxiv.org/abs/2512.14251>.
 
 The held PDF is the arXiv v1 manuscript (watermark "arXiv:2512.14251v1
 [math.MG] 16 Dec 2025" on p. 1), 5 pages, fetched from
-<https://arxiv.org/pdf/2512.14251v1> on 2026-09-23; 316,544 bytes.
+<https://arxiv.org/pdf/2512.14251v1>; 316,544 bytes.
 
 **Read status.** Claims checked: Proposition 1 on the page images
 (pp. 1--2), the construction and proof outline against the reading copy

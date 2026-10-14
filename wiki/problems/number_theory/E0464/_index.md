@@ -69,7 +69,7 @@ linked under Formalization says in its formalization notes that the printed
 wording "would be vacuously true". These observations are credited here and
 settle nothing about the modified Statement.
 
-**Formulation.** The site's wording (the page carries no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
 last-edited date). The site cites [Er75i], [ErGr80] and [Er82e] as sources; the
 first and the last state the question in fractional parts, as quoted under
 Notes, and [ErGr80] (p. 18) records a related result of Pollington on
@@ -153,7 +153,7 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
 - [Er75i] Erdős, P., Problems and results on diophantine approximations
   (II). In Répartition modulo 1 (Actes du Colloque de Marseille-Luminy
   1974), Lecture Notes in Mathematics 475, Springer, 1975, pp. 89--99. The
-  site's reference text (its reference service) names
+  site's reference text (its reference service, accessed 2026-09-18) names
   the volume alone ("Répartition modulo 1. (1975), iv+258"); the other
   sources identify Erdős's chapter in it ([Du06], reference [14], with
   pp. 89--99; [Er82e], reference list on p. 63, with pp. 89--97, two pages
@@ -174,7 +174,8 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
 - [Po79b] Pollington, A. D., On the density of sequence $\{n_k\xi\}$.
   Illinois J. Math. 23 (1979), no. 4, 511--515, doi:10.1215/ijm/1256047933
   (received 14 February 1979). The Theorem and Corollary (p. 511); the
-  uncountability remark (p. 514). Open access in the journal's back file. Library home:
+  uncountability remark (p. 514). Open access in the journal's back file,
+  accessed 2026-09-18. Library home:
   [[../library/number_theory/pollington_1979_density_sequence_n_k_xi/_index|pollington_1979_density_sequence_n_k_xi]].
 - [dM80] de Mathan, B., Numbers contravening a condition in density modulo
   1. Acta Math. Acad. Sci. Hungar. 36 (1980), no. 3--4, 237--241,
@@ -210,8 +211,9 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
   [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/_index|peres_2010_two_erdos_problems_lacunary_sequences_chromatic]].
 - [St25] Stefanescu, R., The dispersion of dilated lacunary sequences, with
   applications in multiplicative Diophantine approximation. Adv. Math. 461
-  (2025), 110062, doi:10.1016/j.aim.2024.110062 (Crossref record; the paper not
-  read). A lead on the quantitative question, named with its identifier.
+  (2025), 110062, doi:10.1016/j.aim.2024.110062 (Crossref record accessed
+  2026-09-18; the paper not read). A lead on the quantitative question, named
+  with its identifier.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The file
 [`ErdosProblems/464.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/464.lean)
@@ -237,7 +239,7 @@ $\theta$; the file contains no `sorry` and no `axiom` declaration, and its
 closing `#print axioms` comment lists `propext`, `Classical.choice` and
 `Quot.sound`. These are statement-only static inspections at pinned commits:
 nothing was built or audited here and no kernel credit is claimed. The
-community database (teorth/erdosproblems) lists the
+community database (teorth/erdosproblems, accessed 2026-09-18) lists the
 problem as `proved (Lean)` as of its last update on 21 June 2026, with the
 statement formalized since 22 July 2026, and no formal-proof URL. The site's
 thread comment of 21 June 2026 reports that the AI system Aristotle, given de
@@ -262,7 +264,7 @@ that the displayed set cannot be dense in $[0,1]$ since $\|x\|\le1/2$, cites de
 Mathan's phrasing in terms of density mod $1$ and Erdős's 1982 announcement,
 reports the formalization described above, and proposes rewording the problem
 as density modulo $1$. The proof-claim tab is empty. The community database
-record lists the problem as proved (Lean) as of its last
+record (read 2026-09-18) lists the problem as proved (Lean) as of its last
 update on 21 June 2026.
 
 **Erdős's statements.** [Er82e], printed p. 63:

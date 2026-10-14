@@ -25,7 +25,7 @@ admissible.
 
 K. Tikhomirov, *A remark on the Ramsey number of the hypercube*, European
 J. Combin. 120 (2024), 103954, doi:10.1016/j.ejc.2024.103954 (Elsevier;
-the Crossref record, dates the issue August 2024 and the
+the Crossref record, read 2026-09-18, dates the issue August 2024 and the
 record's creation 25 March 2024). Preprint arXiv:2208.14568 (v1 30 August
 2022, v3 2 March 2024; the arXiv listing carries no journal reference).
 

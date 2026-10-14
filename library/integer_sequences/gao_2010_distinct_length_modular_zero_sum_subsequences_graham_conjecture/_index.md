@@ -24,7 +24,7 @@ Problem 541's statement.
 W. Gao, Y. O. Hamidoune and G. Wang, *Distinct length modular zero-sum
 subsequences: a proof of Graham's conjecture*, J. Number Theory **130**
 (2010), no. 6, 1425--1431; DOI 10.1016/j.jnt.2009.11.012 (journal data
-from Crossref; the problem page's entry gives the journal,
+from Crossref, read 2026-09-17; the problem page's entry gives the journal,
 year and pages).
 
 The copy read for this card
@@ -69,9 +69,9 @@ subsequence $T$ deleted (pp. 2--3).
   length (p. 2): $S=1^{n-1}x$ and $S=1^{n-2}(q+1)^2$ with $n=2q+1$. Result
   page:
   [[integer_sequences/gao_2010_distinct_length_modular_zero_sum_subsequences_graham_conjecture/theorem_1_1|theorem_1_1]]
-  (statement re-read in the text layer; the journal record,
+  (statement read in the text layer; the journal record,
   J. Number Theory 130 (2010), no. 6, 1425--1431, confirmed through Crossref
-  the same day).
+  on 2026-09-18).
 - Tools (p. 3): Lemma B (a sequence of $n$ integers in $[0,n-1]$ has a
   nonempty zero-sum subsequence of length at most $h(S)$; a case of
   Erdős--Heilbronn's Conjecture 4, proved by Flor via Moser--Scherk),

@@ -19,8 +19,8 @@ problems concerning Euler's $\varphi$-function, Quart. J. Math., Oxford Ser. 6
 (1935), 205--213; Zentralblatt 12,149. The copy read for this card is the Rényi
 Institute's Erdős archive scan, which prints no notice; the publisher's article
 page states "© Oxford University Press"
-(https://academic.oup.com/qjmath/article-lookup/doi/10.1093/qmath/os-6.1.205),
-every other right reserved.
+(https://academic.oup.com/qjmath/article-lookup/doi/10.1093/qmath/os-6.1.205,
+read 2026-10-02), every other right reserved.
 
 Part 1 proves that for the set of integers p-1 with p prime the normal number of
 prime factors is v = log log n, the Hardy--Ramanujan order, using Brun's sieve

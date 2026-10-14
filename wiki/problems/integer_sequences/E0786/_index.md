@@ -152,7 +152,7 @@ from [Er80], under which the site's commentary treats both questions as open;
 the negative answers under the repetitions-allowed reading come from [ERS73]
 through the transfer the commentary gives and are recorded under Formulation.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on the site (accessed 2026-10-06).** The site's proof-claim
 tab carries two claims, both for the distinct-factor reading, each declared
 as produced with AI systems (Gessel's with GPT-6 Astra (Codex); Li's with
 GPT-6 Astra, GPT-5.6 Sol and Claude) and each with a manuscript and a Lean
@@ -199,7 +199,8 @@ existing limiting proportion at most $1/2$ for each fixed function. Theorem 3
 makes the bound strict for a totally additive function, where
 $f(ab)=f(a)+f(b)$ for every $a,b$, without coprimality. Theorem 6, p. 2,
 gives an absolute $C>0$ with $\limsup_{x\to\infty}\max_f G_0(x)/x<1-C$,
-allowing $f$ to vary with $x$. The site's full commentary names Theorem 2; Theorem 6 is the statement that gives the finite
+allowing $f$ to vary with $x$. The site's full commentary (accessed 2026-09-04)
+names Theorem 2; Theorem 6 is the statement that gives the finite
 bound. The source's suggestion of $G_0(x)<9x/10$, p. 5, is not proved there.
 
 These level-set theorems reach the product-length condition only through a

@@ -26,7 +26,7 @@ progression of length bounded below by a function of epsilon times |A|.
 
 Eberhard, Sean and Green, Ben and Manners, Freddie, Sets of integers with no
 large sum-free subset. Ann. of Math. (2) 180 (2014), no. 2, 621-652, DOI
-10.4007/annals.2014.180.2.5 (Crossref record read).
+10.4007/annals.2014.180.2.5 (Crossref record read 2026-09-18).
 
 The copy read for this card
 is arXiv:1301.4579v3 (29 July 2026; 31 pages), a 2026 revision of the 2014

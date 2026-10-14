@@ -104,17 +104,19 @@ https://www.erdosproblems.com/327, accessed 2026-09-17.
 - [OEIS] Xie, Y., Sequence A384927, The On-Line Encyclopedia of Integer
   Sequences (2025; entry last modified 21 January 2026, server time):
   $f_1(n)$ for $n\le5000$ (b-file by S. Kesarwani), with a comment
-  conjecturing that $a(n)/n\to1/2$.
+  conjecturing that $a(n)/n\to1/2$; accessed 2026-09-17.
 
 **Formalization.** None recorded. No file `ErdosProblems/327.lean` exists in
-google-deepmind/formal-conjectures (2026-10-07); the community database records the statement as not formalized and no formal proof.
+google-deepmind/formal-conjectures (2026-10-07); the community database
+(accessed 2026-09-17) records the statement as not formalized and no formal
+proof.
 The Lean development that [DP26a] describes is the author's own, linked from
 [[problems/unit_fractions/E0327/claims/2026_07_29_della_pietra|its claim page]],
 and is not built or audited here, so it gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-17).** The statement
 above; OPEN; no last-edited date. The commentary states the unit-fraction
 connection, credits Wouter van Doorn with an elementary argument showing
 that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge(25/28+o(1))N$ contains
@@ -137,7 +139,8 @@ link (20 May 2026); and Sawin's greedy computation for the second question
 (density $0.6508$ at $N=5000$, done with an AI tool per the comment) with the
 observation that the greedy set contains the integers whose prime factors
 grow fast enough, of count $N/(\log N)^{0.3588\ldots+o(1)}$ (2 July 2026).
-The proof-claim tab lists two claims (below). The community database records open, not formalized, OEIS A384927.
+The proof-claim tab lists two claims (below). The community database
+(accessed 2026-09-17) records open, not formalized, OEIS A384927.
 
 **Origin.** Printed p. 37 of the 1980 monograph, right after the questions of
 Problems 301 and 302: "Of course, $\frac1t=\frac1x+\frac1y$ holds if and only if

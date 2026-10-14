@@ -37,7 +37,7 @@ bound the site records for Problem 802.
 
 M. Ajtai, P. Erdős, J. Komlós and E. Szemerédi, *On Turán's theorem for
 sparse graphs*, Combinatorica 1 (1981), no. 4, 313--317, DOI
-10.1007/BF02579451 (Crossref record read); received 24 April 1981;
+10.1007/BF02579451 (Crossref record read 2026-09-18); received 24 April 1981;
 MR 83d:05052; Zbl 491.05038. The site's key AEKS81.
 
 **Copy read.** The copy read for this card is the Rényi
@@ -46,10 +46,10 @@ an OCR text layer that garbles the inequality signs, exponents and fractions;
 printed p. $n$ is PDF p. $n-312$. Every statement below was read on the
 rendered page images. Source: <https://users.renyi.hu/~p_erdos/1981-19.pdf>. No
 notice is printed in that scan (its first and last pages read); the publisher's
-page could not be read, the DOI leading to a login page; the
+page could not be read on 2026-10-02, the DOI leading to a login page; the
 hosting archive's site footer speaks for the site, not the paper, and prints
 only "(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only." (https://users.renyi.hu/~p_erdos/);
+scientifics purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02);
 the term is unstated.
 
 Read status: claims checked for Theorem 1, display (2$'$), display (3) with
@@ -57,10 +57,10 @@ the remark that it is undecided at $p=4$, and Theorem 2 with its remarks
 (printed p. 314 = PDF p. 2), and for Theorem 1$'$ with its equivalent form and
 Spencer's sharpness remark (printed p. 315 = PDF p. 3), read clause by clause
 on the page images; the notation section (p. 313 = PDF p. 1) was read on the
-page image and the reference list (p. 317 = PDF p. 5) in the text layer. Theorem
-1$'$ (p. 315) was read again, the Section 3 lemma and Lemma$^*$ (pp. 315--316)
-were read on the page images, and the proof of Theorem 2 in Section 4 (pp.
-316--317) was read in outline, not checked step by step. Problem 802 consumes
+page image and the reference list (p. 317 = PDF p. 5) in the text layer. The
+Section 3 lemma and Lemma$^*$ (pp. 315--316) were read on the page images, and
+the proof of Theorem 2 in Section 4 (pp. 316--317) was read in outline, not
+checked step by step. Problem 802 consumes
 display (3), Theorem 1 and Theorem 2, paged at
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|conjecture_3]],
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_1|theorem_1]]

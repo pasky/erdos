@@ -26,7 +26,7 @@ negative relation below the threshold.
 
 P. Erdős and R. Rado, *Partition relations and transitivity domains of binary
 relations*, J. London Math. Soc. 42 (1967), 624--633 (MR 36 #1335; Zbl
-204,9); DOI 10.1112/jlms/s1-42.1.624 (Crossref record read).
+204,9); DOI 10.1112/jlms/s1-42.1.624 (Crossref record read 2026-09-18).
 Received 1 January 1966.
 
 The copy read for this card

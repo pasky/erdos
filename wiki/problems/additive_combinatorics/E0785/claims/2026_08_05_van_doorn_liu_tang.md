@@ -78,18 +78,17 @@ Sol" as the AI used:
 **Postings.** The proof claim on the site, submitted 2026-08-05 by van Doorn
 (the forum user Woett) and credited to Wouter van Doorn, Boning Liu and
 Quanyu Tang using GPT-5.6 Sol, with the note that the three are preparing a
-human-written version; it had no comments on 2026-10-07. The repository
-holds the note, which its readme describes as written by ChatGPT, and a Lean
-module produced by Aristotle whose final theorem
-`additive_complements_below_three_halves` states the claim for counting
-functions of a real variable. The readme of 2026-08-05 said the module used
-Theorem 2.2 of Gabardo and Lai (J. Fourier Anal. Appl. 20 (2014), 453--475)
-as an external axiom and was otherwise self-contained. The note itself dates
-from 2026-08-05 and was not changed afterwards; on 2026-09-08 the Lean
-module was re-uploaded and, in the pinned commit of the same day, the readme
-dropped that sentence and describes the module as fully self-contained, as
-its header says. The corpus has not built either version of the module, so
-it gives no `formalized` evidence.
+human-written version; it had no comments. The repository holds the note, which
+its readme describes as written by ChatGPT, and a Lean module produced by
+Aristotle whose final theorem `additive_complements_below_three_halves` states
+the claim for counting functions of a real variable. The readme of 2026-08-05
+said the module used Theorem 2.2 of Gabardo and Lai (J. Fourier Anal. Appl. 20
+(2014), 453--475) as an external axiom and was otherwise self-contained. The
+note itself dates from 2026-08-05 and was not changed afterwards; on 2026-09-08
+the Lean module was re-uploaded and, in the pinned commit of the same day, the
+readme dropped that sentence and describes the module as fully self-contained,
+as its header says. The corpus has not built either version of the module, so it
+gives no `formalized` evidence.
 
 **Depends on.** Nothing in this wiki.
 

@@ -41,8 +41,8 @@ Erdős–Selfridge Odd Covering Problem: Any Odd Covering of Z Has lcm Exceeding
 10000*, [arXiv:2607.25628v1](https://arxiv.org/abs/2607.25628v1), 28 July 2026,
 11 pages. The
 [canonical PDF](mian_2026_kernel_checked_exclusions_odd_covering.pdf) is this
-version. The arXiv record, lists only v1. No journal publication or later-paper
-equivalence is asserted here. The arXiv record
+version. The arXiv record, consulted on 2026-09-05, listed only v1. No journal
+publication or later-paper equivalence is asserted here. The arXiv record
 (https://arxiv.org/abs/2607.25628, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

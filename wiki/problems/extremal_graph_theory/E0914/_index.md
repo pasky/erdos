@@ -97,12 +97,12 @@ Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
   proceedings volume with no online copy known.
 - [KiKo08] Kierstead, H. A. and Kostochka, A. V., A short proof of the
   Hajnal-Szemerédi theorem on equitable colouring. Combin. Probab. Comput. 17
-  (2008), no. 2, 265--270, doi:10.1017/S0963548307008619 (Crossref record;
-  issued March 2008). Not held. The proof the external Lean file follows, per
-  its header.
+  (2008), no. 2, 265--270, doi:10.1017/S0963548307008619 (Crossref record
+  accessed 2026-09-19; issued March 2008). Not held. The proof the external Lean
+  file follows, per its header.
 - [KKMS10] Kierstead, H. A., Kostochka, A. V., Mydlarz, M. and Szemerédi, E.,
   A fast algorithm for equitable coloring. Combinatorica 30 (2010), no. 2,
-  217--224, doi:10.1007/s00493-010-2483-5 (Crossref record;
+  217--224, doi:10.1007/s00493-010-2483-5 (Crossref record accessed 2026-09-19;
   received 5 February 2008). Not a site key. Theorem 1 and the attribution,
   p. 217; the proof, Section 2, pp. 218--220. Library home:
   [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/_index|kierstead_2010_fast_algorithm_equitable_coloring]];
@@ -146,7 +146,7 @@ degree, `1 ≤ r` in place of the collection's `2 ≤ r` and no hypothesis on `m
 clique. The file contains no `sorry`, `axiom`, `native_decide` or `unsafe`.
 This project has not built, audited or kernel-checked the file, so no
 `formalized` evidence is listed. The community database (teorth/erdosproblems,
-`data/problems.yaml`) lists `status` "proved (Lean)" as of
+`data/problems.yaml`, accessed 2026-09-19) lists `status` "proved (Lean)" as of
 its last update of 14 April 2026, `formal_status` Lean with no URL, the
 statement formalized since 4 August 2026 and no formal-proof field; the site's
 indicator reads "Formalised statement? Yes".

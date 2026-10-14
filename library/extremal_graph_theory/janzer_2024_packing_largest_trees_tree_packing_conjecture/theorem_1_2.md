@@ -47,7 +47,7 @@ and even trees*, J. Graph Theory 7 (1983), 369--383 (p. 33).
 tree packing conjecture*, arXiv:2403.10515v2 (9 April 2026; dated April 13,
 2026 on p. 1), 34 pages; Conjecture 1.1 and the introduction on p. 1,
 Theorem 1.2 and its remarks on p. 2, read on the page images; the reference
-list on p. 33 in the text layer. The arXiv record read says
+list on p. 33 in the text layer. The arXiv record read on 2026-09-19 says
 "Version accepted for publication" and names no journal; the published
 version was not compared. The edition is identified in the
 [[extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/_index|source digest]].

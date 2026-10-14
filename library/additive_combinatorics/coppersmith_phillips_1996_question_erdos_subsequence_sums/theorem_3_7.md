@@ -100,8 +100,8 @@ of the abstract and the site commentary's $(\tfrac23+o(1))N$ bound.
   print it, not the $1/3584$ of Freud's report. Read literally, the
   site's $(\tfrac23-\tfrac1{512})N+\log N$ is smaller than the printed
   bound for every $N\ge2$, since $\lfloor N/512\rfloor\le N/512$ and
-  $3\log_4N-\tfrac12$ exceeds the natural logarithm $\log N$ from $N=2$ on; the theorem gives
-  the density $\tfrac23-\tfrac1{512}$ with an error of order $\log N$, and
-  does not give that variant's $+\log N$ form. With Theorem 2.1 the
-  maximal density lies in $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its
+  $3\log_4N-\tfrac12$ exceeds the natural logarithm $\log N$ from $N=2$ on; the
+  theorem gives the density $\tfrac23-\tfrac1{512}$ with an error of order
+  $\log N$, and does not give that variant's $+\log N$ form. With Theorem 2.1
+  the maximal density lies in $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its
   exact value is the paper's Open Question 1 and not the site's question.

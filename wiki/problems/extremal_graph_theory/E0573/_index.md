@@ -122,13 +122,13 @@ https://www.erdosproblems.com/573, accessed 2026-09-18.
   statements). Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - OEIS A006856, "Maximal number of edges in n-node graph of girth at least 5",
-  <https://oeis.org/A006856>: terms $a(1)$ to $a(53)$, with
+  <https://oeis.org/A006856>, accessed 2026-09-18: terms $a(1)$ to $a(53)$, with
   $a(50)=175$ (the Hoffman--Singleton graph, unique) and $a(53)=181$.
 
 **Formalization.** None. No file `ErdosProblems/573.lean` exists in
-formal-conjectures (main; none on main on 2026-10-07); the
+formal-conjectures (main, fetched 2026-09-18; none on main on 2026-10-07); the
 site's page shows the statement as not formalized, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
+(teorth/erdosproblems, `data/problems.yaml` fetched 2026-09-18) records the
 problem as open (last update 31 August 2025), not formalized, no formal proof,
 and lists OEIS A006856.
 
@@ -210,7 +210,7 @@ of [ErSi82] states Conjecture 4, $\mathrm{ex}(n,\{C^{2k},C^{2t-1}\})=(n/2)^{1+1/
 for any $k$ and $t\ge2$, of which the site's question is the case $k=2$,
 $t=2$.
 
-**Finite values.** OEIS A006856 lists the exact values of
+**Finite values.** OEIS A006856 (accessed 2026-09-18) lists the exact values of
 $\mathrm{ex}(n;\{C_3,C_4\})$ for $n\le53$: $0,1,2,3,5,6,8,10,12,15,\dots$, with
 $a(50)=175$, attained only by the Hoffman--Singleton graph, and $a(53)=181$ (the
 terms from $a(33)$ on are credited to Brendan McKay, 2022--2023); [GJJV25] (p.

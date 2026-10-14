@@ -90,15 +90,17 @@ https://www.erdosproblems.com/865, accessed 2026-09-18.
 **References.**
 
 - [Ci26] Cipollini, R., A sharp 5/8 bound for an Erdős--Sós pairwise-sums
-  problem. arXiv:2606.29361v1 (28 June 2026), 7 pp. A preprint whose first
-  page declares AI assistance. Theorem 1.1, p. 1; Remark 1.2 and Lemma
-  2.1, p. 2; Lemma 3.1, p. 4; display (6), p. 5; Section 5, p. 7. Library home:
+  problem. arXiv:2606.29361v1 (28 June 2026), 7 pp.; on 2026-09-18 the only
+  arXiv version, with no journal reference and no Crossref record. A preprint
+  whose first page declares AI assistance. Theorem 1.1, p. 1; Remark 1.2 and
+  Lemma 2.1, p. 2; Lemma 3.1, p. 4; display (6), p. 5; Section 5, p. 7. Library
+  home:
   [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/_index|cipollini_2026_sharp_5_8_bound_erdos_sos]];
   claim page
   [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/theorem_1_1|Theorem 1.1]].
 - [CES75] Choi, S. L. G., Erdős, P. and Szemerédi, E., Some additive and
   multiplicative problems in number theory. Acta Arith. 27 (1975), 37--50,
-  DOI 10.4064/aa-27-1-37-50 (Crossref record read); Section 2,
+  DOI 10.4064/aa-27-1-37-50 (Crossref record read 2026-09-18); Section 2,
   Theorems 7 and 8, printed p. 46. Library home:
   [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/_index|choi_1975_additive_multiplicative_problems_number_theory]];
   result pages
@@ -132,10 +134,10 @@ $N$"; Section 5, $5M+2$ for $N=8M$). Three variants carry `sorry` bodies and no
 formal-proof attribute: `k2` (the folklore fact, `research solved`), `sos` (the
 Erdős--Sós conjecture with $f$ defined by `sInf`, `research open`) and
 `upper_bound` (the 1975 bound $(\tfrac23-\epsilon)N$, `research solved`). The
-community database (teorth/erdosproblems) lists the problem as "proved (Lean)"
-as of its last update on 2 July 2026, which does not date the change of state,
-the statement as formalized as of that field's last update on 14 February 2026,
-`formal_status` Lean and no formal-proof URL.
+community database (teorth/erdosproblems, read 2026-09-18) lists the problem as
+"proved (Lean)" as of its last update on 2 July 2026, which does not date the
+change of state, the statement as formalized as of that field's last update on
+14 February 2026, `formal_status` Lean and no formal-proof URL.
 
 ## Current assessment
 
@@ -249,19 +251,18 @@ Version note: the thread of 27 June 2026 describes an updated paper with
 the bound $\tfrac58N+6\tfrac38$ and the author's note of 30 June says the
 constant was being improved further; arXiv v1 of 28 June
 proves $\tfrac54H+6$ for even $N=2H$ ($\tfrac58N+6$, and $\tfrac58N+\tfrac{53}8$
-for odd $N$ through the embedding). Acceptance evidence: the site's label and commentary (2 July
-2026), and a confirmation on the thread of 27 June 2026 by Stijn Cambie
-(the account StijnC), a contributor the paper's acknowledgments thank for
-feedback and improvements, who reports reading a previous version in
-detail and checking the crucial points of the revision briefly; no
-refereed publication, no arXiv revision, no citing paper (the arXiv
-searches of the scope below find none) and no written review were found.
-Provenance, recorded not judged: the manuscript's footnote on p. 1 and its
-acknowledgments declare that the text was written by an AI
-model, GPT-5.5 Pro, from a proof developed by the author together with that
-model and that the Lean formalization was carried out with the prover
-Aristotle; the site's commentary credits Cipollini and GPT Pro; one human
-author is named.
+for odd $N$ through the embedding), and no later version existed on arXiv on
+2026-09-18. Acceptance evidence: the site's label and commentary (2 July 2026),
+and a confirmation on the thread of 27 June 2026 by Stijn Cambie (the account
+StijnC), a contributor the paper's acknowledgments thank for feedback and
+improvements, who reports reading a previous version in detail and checking the
+crucial points of the revision briefly; no refereed publication, no arXiv
+revision, no citing paper (the arXiv searches of the scope below find none) and
+no written review were found. Provenance, recorded not judged: the manuscript's
+footnote on p. 1 and its acknowledgments declare that the text was written by an
+AI model, GPT-5.5 Pro, from a proof developed by the author together with that
+model and that the Lean formalization was carried out with the prover Aristotle;
+the site's commentary credits Cipollini and GPT Pro; one human author is named.
 
 **The $k=2$ case and the general conjecture.** The site's folklore fact
 (any $N+2$ integers in $\{1,\ldots,2N\}$ contain distinct $a,b$ with
@@ -330,7 +331,8 @@ review exists. The community database records `formal_status` Lean and no
 formal-proof URL.
 
 **Search scope.** None of the routes below found a refereed or revised
-version of [Ci26], an independent written review, a dispute of the argument, or a second proof of the $5/8$ bound.
+version of [Ci26], an independent written review, a dispute of the argument, or
+a second proof of the $5/8$ bound.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database on

@@ -83,7 +83,7 @@ fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [BLST15] Balogh, J., Liu, H., Sharifzadeh, M. and Treglown, A., The
   number of maximal sum-free subsets of integers. Proc. Amer. Math. Soc.
   143 (2015), no. 11, 4713--4721, DOI 10.1090/S0002-9939-2015-12615-9
-  (Crossref record read). Cited from arXiv:1409.5661v1 (19
+  (Crossref record read 2026-09-18). Cited from arXiv:1409.5661v1 (19
   September 2014, 10 pp., "to appear in the Proceedings of the American
   Mathematical Society"); Theorem 1.1, p. 2 of the preprint; the journal
   text not compared. Library home:
@@ -93,7 +93,7 @@ fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [BLST18] Balogh, J., Liu, H., Sharifzadeh, M. and Treglown, A., Sharp
   bound on the number of maximal sum-free subsets of integers. J. Eur.
   Math. Soc. (JEMS) 20 (2018), no. 8, 1885--1911, DOI 10.4171/JEMS/802
-  (Crossref record read). Cited from arXiv:1502.07605v2 (11
+  (Crossref record read 2026-09-18). Cited from arXiv:1502.07605v2 (11
   May 2018, 25 pp., "to appear in the Journal of the European Mathematical
   Society"); Theorem 1.1, p. 2 of the preprint; the journal text not
   compared. Library home:
@@ -102,12 +102,12 @@ fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/additive_combinatorics/balogh_2018_sharp_bound_number_maximal_sum_free_subsets_integers/theorem_1_1|Theorem 1.1]].
 - [LuSc01] Łuczak, T. and Schoen, T., On the number of maximal sum-free
   sets. Proc. Amer. Math. Soc. 129 (2001), no. 8, 2205--2207, DOI
-  10.1090/S0002-9939-00-05815-9 (Crossref record read;
+  10.1090/S0002-9939-00-05815-9 (Crossref record read 2026-09-18;
   published online 28 December 2000). Not held. Its bound is quoted from
   [BLST15], p. 2, and [BLST18], p. 2.
 - [Wo09] Wolfovitz, G., Bounds on the number of maximal sum-free sets.
   European J. Combin. 30 (2009), no. 7, 1718--1723, DOI
-  10.1016/j.ejc.2009.03.015 (Crossref record read: record
+  10.1016/j.ejc.2009.03.015 (Crossref record read 2026-10-07: record
   created 9 April 2009, print issue October 2009). An extended abstract
   with the same title appeared in Electron. Notes Discrete Math. 29
   (2007), 321--325, DOI 10.1016/j.endm.2007.07.055. Neither is held; the
@@ -133,7 +133,7 @@ fixed) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** The statement file `FormalConjectures/ErdosProblems/877.lean`
 was added to google-deepmind/formal-conjectures on 2026-09-21
-([the file](https://github.com/google-deepmind/formal-conjectures/blob/299a6c1c6627c2b7adf0b523f299337209b1fd2e/FormalConjectures/ErdosProblems/877.lean)).
+([the file at main on 2026-10-07](https://github.com/google-deepmind/formal-conjectures/blob/299a6c1c6627c2b7adf0b523f299337209b1fd2e/FormalConjectures/ErdosProblems/877.lean)).
 It states `erdos_877`, the displayed question in the
 form `answer(True)` if and only if $f_m(n)=o(2^{n/2})$, in the category
 research solved, with a `formal_proof` link to the theorem `erdos_877` of

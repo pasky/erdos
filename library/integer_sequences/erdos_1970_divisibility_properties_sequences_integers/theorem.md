@@ -30,7 +30,7 @@ sequences of integers*, Proc. London Math. Soc. (3) 21 (1970), 97--101;
 the definition and (1) on printed p. 97 (PDF p. 1 of the five-page Rényi
 scan), the Theorem and the remarks on printed p. 98 (PDF p. 2), read on
 the page images. Received 13 March 1970; DOI 10.1112/plms/s3-21.1.97
-(Crossref record read).
+(Crossref record read 2026-09-18).
 
 **Read depth.** Claims checked: the definition, display (1), the Theorem
 and the best-possible remark were read clause by clause on the page

@@ -85,7 +85,7 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Sh16] Shiu, P., The denominators of harmonic numbers (Revised).
   arXiv:1607.02863v2 (30 July 2024; v1 of 11 July 2016), 8 pages; an
-  unrefereed preprint. Library home:
+  unrefereed preprint with no journal record on 2026-09-18. Library home:
   [[../library/unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/_index|shiu_2016_denominators_harmonic_numbers_revised]];
   result pages for Theorem 1, Theorem 2 and the Conjecture.
 - [WuYa22] Wu, B.-L. and Yan, X.-H., On the denominators of harmonic
@@ -101,11 +101,11 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
   [[../library/unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/_index|doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums]].
 - [OEIS] Vrabec, F., Sequence A110566, The On-Line Encyclopedia of Integer
   Sequences (2005; entry revision 39 of 17 May 2023): $a(n)=L_n/d_n=(a_n,L_n)$,
-  with a table to $n=10000$.
+  with a table to $n=10000$; accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/291.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/291.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (main on 2026-09-18)
 defines `L n` as the lcm of $1,\ldots,n$
 and `a n` as $\sum_{k\le n}L_n/k$ (with test lemmas for $n\le4$ proved by
 `decide`) and declares `erdos_291.parts.i : answer(sorry) ↔ {n | gcd (a n)
@@ -115,7 +115,7 @@ under `category research solved`, both with proof `sorry`, together with
 `sorry`-bodied variants for the leading-digit criterion, for Shiu's
 heuristic (order $x/\log x$; density zero) and for the Wu--Yan theorem with
 the independence hypothesis as an explicit argument. The community
-database (teorth/erdosproblems, `data/problems.yaml`)
+database (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-18)
 records status open (31 August 2025), a
 formalized statement (24 June 2026), formal status unformalized and OEIS
 A110566. Van Doorn's external Lean file, which proves a generalization of
@@ -291,13 +291,13 @@ manuscript.
 
 **Data and AI-assisted items (leads with provenance, not status).**
 
-- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023):
+- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023; accessed 2026-09-18):
   $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a table to $n=10000$,
   the comment that $a(n)$ is always odd, and a conjecture (J. Song, 2022) that
   every odd number occurs; the table agrees with an exact recomputation.
 - A public AI-generated working report on this problem
   (erdosproblemaday.com/report/291, "access/check date 2026-07-26", labeled
-  PARTIAL) derives the leading-digit criterion, reports an
+  PARTIAL, accessed 2026-09-18) derives the leading-digit criterion, reports an
   exact sieve computation of $G(N)=\#\{n\le N:(a_n,L_n)=1\}$ with
   $G(10^k)=7,37,145,2641,20128,138902,615233,10323214$ for $k=1,\ldots,8$
   and 409 maximal good intervals in $[1,10^8]$, and states that infinitude

@@ -82,7 +82,7 @@ images, and the translations are this card's. No notice is printed in the scan
 for the 1962 volume, so none was consulted; the hosting archive's site footer
 speaks for the site, not the paper, and prints only "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."
-(https://users.renyi.hu/~p_erdos/); the term is unstated.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02); the term is unstated.
 
 Read status: claims checked for the definition of $k_r(n)$ and the theorem
 $k_3(n)=f(n)$ with $f(2n)=3n-1$, $f(2n+1)=3n+1$ (printed pp. 143--144), for

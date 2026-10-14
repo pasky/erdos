@@ -17,8 +17,9 @@ p. 3) of the retained publisher's PDF, C. R. Math. Acad. Sci. Paris 360
 (2022), 53--57, DOI 10.5802/crmath.282; proof in Section 3, printed
 pp. 55--57. Read on the PDF pages in the text layer. Refereed journal
 article (received 11 August 2021, accepted 12 October 2021, published
-online 26 January 2022, as printed on p. 53 and in the Crossref record read). Notation: $H_n=u_n/v_n$ in lowest terms; $\mathcal L$ is the
-set of $n\ge1$ with $v_n<\mathrm{lcm}(1,\ldots,n)$;
+online 26 January 2022, as printed on p. 53 and in the Crossref record read
+2026-09-18). Notation: $H_n=u_n/v_n$ in lowest terms; $\mathcal L$ is the set of
+$n\ge1$ with $v_n<\mathrm{lcm}(1,\ldots,n)$;
 $\bar d(\mathcal L)=\limsup_{x\to\infty}\mathcal L(x)/x$.
 
 ## Statement

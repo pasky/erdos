@@ -62,7 +62,7 @@ Source: <https://users.renyi.hu/~p_erdos/1966-02.pdf>. The file is an offprint
 ("Sonderabdruck", Verlag Walter de Gruyter & Co., Berlin) that prints no
 copyright or license line on pp. 203--204 or 207--208; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the
 publisher's page could not be read on 2026-10-02 (DOI 10.1515/crll.1966.221.203
 redirected to www.degruyterbrill.com, which answered HTTP 405), and no Crossref

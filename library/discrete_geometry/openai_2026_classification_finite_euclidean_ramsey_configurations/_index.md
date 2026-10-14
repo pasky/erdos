@@ -69,7 +69,7 @@ adds only the title, the author line "OpenAI", the date and the citation
 block; it carries no statement on human assistance or review. The text of the
 manuscript names no author, affiliation beyond the title page, arXiv
 identifier or journal. No refereed publication, arXiv version or independent
-review of the manuscript is recorded here and nothing on
+review of the manuscript is recorded here, and nothing on
 this card is independently reviewed.
 
 Formalization, as the release lists it: `lean/formalization.yaml` names this

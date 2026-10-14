@@ -104,5 +104,5 @@ proves the displayed conditional bound.
 **Boundary.** The Bateman--Horn asymptotic and its positive constant are
 assumed, not proved. The source's citation is P. T. Bateman and R. A. Horn,
 *A heuristic asymptotic formula concerning the distribution of prime numbers*,
-Math. Comp. 16 (1962), 363--367; that paper was not reread for this
+Math. Comp. 16 (1962), 363--367; that paper was not read for this
 reconstruction. No unconditional E0976 conclusion follows.

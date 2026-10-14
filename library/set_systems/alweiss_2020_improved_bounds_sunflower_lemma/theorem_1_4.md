@@ -33,7 +33,7 @@ $(Cr\log w)^w$.
 the sunflower lemma*, arXiv:1908.08483v3 (31 August 2021, 19 pages; the
 copy read), Theorem 1.4 on p. 2 and the remarks on p. 12, read on the
 page images. Published in Ann. of Math. (2) 194 (2021), no. 3,
-DOI 10.4007/annals.2021.194.3.5 (Crossref record read; the
+DOI 10.4007/annals.2021.194.3.5 (Crossref record read 2026-09-18; the
 arXiv listing says v3 "took into account comments from the Annals of
 Mathematics"); an extended abstract appeared in the proceedings of STOC
 2020. The journal text was not compared.

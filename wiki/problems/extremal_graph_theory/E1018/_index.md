@@ -26,7 +26,7 @@ updated: 2026-10-08T01:29:59Z
 all large $n$, every graph on $n$ vertices with at least $n^{1+\epsilon}$ edges
 must contain a subgraph on at most $C_\epsilon$ vertices which is non-planar?
 
-**Formulation.** The site's wording (the page
+**Formulation.** The site's wording as accessed 2026-09-18 (the page
 carries no last-edited date). The question is for fixed
 $\epsilon>0$, with $C_\epsilon$ depending on $\epsilon$ only and $n$ at least
 some $n_0(\epsilon)$. It is Erdős's item 12 of 1971 with $C_\epsilon$ for his
@@ -41,11 +41,11 @@ SOLVED, its label for a resolution that is neither a proof nor a disproof,
 although the answer is yes; the label is the site's, and the claim value
 recorded on the claim page is proved.
 
-**Status.** Solved. The site's label was SOLVED. On 2026-10-07 the page printed
-no label, and the community database listed the problem as solved (Lean), with a
-last update of 16 September 2026. The answer is yes. Kostochka and Pyber
-(Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's question in
-their introduction and answer it with their Theorem (p. 83): "Every
+**Status.** Solved. The site's label was SOLVED on 2026-09-18. On 2026-10-07 the
+page printed no label, and the community database listed the problem as solved
+(Lean), with a last update of 16 September 2026. The answer is yes. Kostochka
+and Pyber (Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's
+question in their introduction and answer it with their Theorem (p. 83): "Every
 $G[n,4^{t^2}n^{1+\varepsilon}]$ contains a $TK_t$ of size at most
 $c(\varepsilon,t)\le7t^2\log t/\varepsilon$ for all $t\in\mathbb N$ and
 $\varepsilon>0$". Here $G[n,m]$ is a graph with $n$ vertices and $m$ edges, and
@@ -91,7 +91,7 @@ https://www.erdosproblems.com/1018, accessed 2026-09-18.
 - [KoPy88] Kostochka, A. and Pyber, L., Small topological complete subgraphs
   of "dense" graphs. Combinatorica 8 (1988), no. 1, 83--86,
   doi:10.1007/BF02122555 (received October 2, 1985, revised September 15,
-  1986, per p. 83; Crossref record). Erdős's question, the
+  1986, per p. 83; Crossref record, 2026-09-18). Erdős's question, the
   Theorem, the Remark and the Notation, p. 83; the lemmas, p. 84; the proof
   and the note added in proof, p. 85. Library home:
   [[../library/extremal_graph_theory/kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs/_index|kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs]];
@@ -105,8 +105,8 @@ https://www.erdosproblems.com/1018, accessed 2026-09-18.
   [[../library/extremal_graph_theory/janzer_2021_extremal_number_longer_subdivisions/_index|janzer_2021_extremal_number_longer_subdivisions]].
   The thread's pointer.
 - [Ji11] Jiang, T., Compact topological minors in graphs. J. Graph Theory 67
-  (2011), no. 2, 139--152, doi:10.1002/jgt.20522 (Crossref record). Not
-  held; its theorem is quoted from [Ja21], p. 1.
+  (2011), no. 2, 139--152, doi:10.1002/jgt.20522 (Crossref record,
+  2026-09-18). Not held; its theorem is quoted from [Ja21], p. 1.
 - [FLS13] Fox, J., Lee, C. and Sudakov, B., Chromatic number, clique
   subdivisions, and the conjectures of Hajós and Erdős--Fajtlowicz.
   Combinatorica 33 (2013), 181--197. Library home:
@@ -194,7 +194,7 @@ hand:
   This is the first result that guarantees a subdivided $K_t$ of bounded
   size." Its [5] is the 1971 list and [11] is [KoPy88]. The paper appeared
   in the Bulletin of the London Mathematical Society, a refereed journal
-  (the arXiv record's journal reference and DOI).
+  (the arXiv record's journal reference and DOI, 2026-09-18).
 - Jiang's sharpening, as [Ja21] p. 1 states it: with $\mathcal F_{t,k}$ the
   family of graphs obtained by replacing the edges of $K_t$ by internally
   vertex-disjoint paths of length at most $k$, "Jiang [9] proved that for

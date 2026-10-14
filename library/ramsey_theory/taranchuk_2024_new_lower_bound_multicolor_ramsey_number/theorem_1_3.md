@@ -35,7 +35,7 @@ all $k$ and $t$.
 number $r_k(K_{2,t+1})$*, arXiv:2411.14364v1 (21 November 2024), the
 copy read; Theorem 1.3 on printed and physical p. 3, read on the page
 image and in the text layer; display (2) on p. 2 and Conjecture 5.1 on p. 7
-in the text layer. The arXiv listing has a v2 of 23
+in the text layer. The arXiv listing (read 2026-09-17) has a v2 of 23
 November 2024 whose comment says the result had already been proven by
 Lazebnik and Mubayi; v2 was not compared.
 

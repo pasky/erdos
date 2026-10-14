@@ -44,7 +44,7 @@ $$
 N(X,\delta)<X^{1/2+o(1)}?
 $$
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18 (page last
 edited 18 January 2026). The points lie in the disc of radius
 $X$ (the sources' "circle of radius $X$"), and the condition is that every
 pairwise Euclidean distance lies at distance at least $\delta$ from the
@@ -92,8 +92,8 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   Russian). Mat. Zametki 69 (2001), no. 4, 630--633, DOI 10.4213/mzm691
   (received 21 September 2000, revised 5 October 2000); English translation:
   About distances between points on the plane, Math. Notes 69 (2001), no. 3--4,
-  578--581, DOI 10.1023/A:1010276601734 (Crossref records; the
-  translation is not held). The Theorem, p. 630. Library home:
+  578--581, DOI 10.1023/A:1010276601734 (Crossref records accessed 2026-09-18;
+  the translation is not held). The Theorem, p. 630. Library home:
   [[../library/number_theory/konyagin_2001_distances_between_points_plane/_index|konyagin_2001_distances_between_points_plane]].
 - [Sa76] Sárközy, A., On distances near integers. I, II. Studia Sci. Math.
   Hungar. 11 (1976), 37--50 (received 10 December 1975) and 105--111 (received
@@ -123,8 +123,8 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   distances. arXiv:2605.06621v1 (7 May 2026; abstract read). A lead on the
   higher-dimensional analog, named with its identifier.
 
-**Formalization.** None. No file `ErdosProblems/465.lean` exists in
-google-deepmind/formal-conjectures the site's page shows
+**Formalization.** None. No file `ErdosProblems/465.lean` existed in
+google-deepmind/formal-conjectures on 2026-10-07, the site's page shows
 "Formalised statement? No (create one)", and the community database
 (teorth/erdosproblems, as of 2026-09-18) lists the problem as `proved`, as of
 its last update on 31 August 2025, and unformalized, with no formal-proof URL.

@@ -65,15 +65,15 @@ the proof is not checked in this corpus.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
 problem proved, calls it the Erdős sumset conjecture and credits Moreira,
-Richter and Robertson [MRR19] on the problem page. The proof-claim tab was empty
-on 2026-10-07.
+Richter and Robertson [MRR19] on the problem page. The proof-claim tab was
+empty.
 
 Refereed publication: Ann. of Math. (2) 189 (2019), no. 2, 605--652,
 doi:10.4007/annals.2019.189.2.4, issued March 2019 according to the Crossref
-record. The paper's acknowledgement thanks its anonymous referees. The arXiv
-record (arXiv:1803.00498) carries the journal reference. Its v1 was posted on 1
-March 2018, the date of this page, and its v6 is dated 13 June 2019. This page
-cites arXiv v6, not the journal version.
+record of 2026-10-07. The paper's acknowledgement thanks its anonymous referees.
+The arXiv record (arXiv:1803.00498) carries the journal reference. Its v1 was
+posted on 1 March 2018, the date of this page, and its v6 is dated 13 June 2019.
+This page cites arXiv v6, not the journal version.
 
 The journal text predates a correction. arXiv v6 corrects the proof of Theorem
 3.22, the splitting of a function into compact and weak-mixing parts, and adds

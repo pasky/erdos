@@ -47,7 +47,7 @@ Source: <https://www.combinatorics.org/ojs/index.php/eljc/article/view/v1i1r8>.
 
 The copy read for this card is the journal's file: Electron. J. Combin. 1
 (1994), #R8, three pages (submitted 13 September 1994, accepted 18
-September 1994; DOI 10.37236/1188 per the Crossref record read);
+September 1994; DOI 10.37236/1188 per the Crossref record read 2026-09-18);
 printed page equals PDF page. Read status: claims checked for the
 definitions (p. 1) and for the partition and the bounds S(5) >= 160,
 R_5(3) >= 162 (p. 2), read clause by clause on the page images; the partition

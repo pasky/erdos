@@ -34,7 +34,8 @@ Alekseyev, Max A., On partitions into squares of distinct integers whose
 reciprocals sum to 1. (2019), 213--221.
 
 The copy read for this card is arXiv:1801.05928v2 (23 April 2018; v1 18
-January 2018), 7 pages, the latest version on the arXiv listing read. The citation's "(2019), 213--221" is the
+January 2018), 7 pages, the latest version on the arXiv listing read on
+2026-09-18. The citation's "(2019), 213--221" is the
 chapter in *The Mathematics of Various Entertaining Subjects, Volume 3: The
 Magic of Mathematics* (J. Beineke and J. Rosenhouse, eds.), Princeton
 University Press, 2019, pp. 213--221, DOI 10.2307/j.ctvd58spj.18, per the
@@ -62,17 +63,17 @@ of smaller numbers into representations of larger ones, introducing a class of
 translations acting on restricted representations that yields a second
 proof (Theorems 6 and 7: a complete set of $t$-translations reduces
 $t$-representability of all large integers to a finite range, and 15707 is
-the largest integer with no representation by integers at least 6); Lemma 2 gives power-mean bounds on |X| and on min X, which drive an
-exhaustive search algorithm used both to build small representations and to
-certify that 8542 is not representable. Problem 283 asks, for an integer
-polynomial p with positive leading coefficient whose values have no common
-divisor above 1, whether every large m is the sum of p over the denominators
-of some representation of 1 by distinct unit fractions; Theorem 1 settles the
-case p(x) = x^2 with the exact threshold, and the paper cites Graham's 1963
-theorem for p(x) = x (every integer above 77 is a sum of distinct integers
-whose reciprocals sum to 1). For Problem 351, on the strong completeness of
-{p(n) + 1/n}, Theorem 1 gives the case p(x) = x^2 only without the removal of
-a finite set (see the result page).
+the largest integer with no representation by integers at least 6); Lemma 2
+gives power-mean bounds on |X| and on min X, which drive an exhaustive search
+algorithm used both to build small representations and to certify that 8542 is
+not representable. Problem 283 asks, for an integer polynomial p with positive
+leading coefficient whose values have no common divisor above 1, whether every
+large m is the sum of p over the denominators of some representation of 1 by
+distinct unit fractions; Theorem 1 settles the case p(x) = x^2 with the exact
+threshold, and the paper cites Graham's 1963 theorem for p(x) = x (every integer
+above 77 is a sum of distinct integers whose reciprocals sum to 1). For Problem
+351, on the strong completeness of {p(n) + 1/n}, Theorem 1 gives the case p(x) =
+x^2 only without the removal of a finite set (see the result page).
 
 Source: <https://arxiv.org/abs/1801.05928>.
 

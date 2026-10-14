@@ -68,7 +68,7 @@ Source: <https://arxiv.org/abs/2112.03175>.
 
 The copy read for this card is the arXiv v2 of 4 April 2022 (dated "April
 4, 2022" on p. 1; twenty pages, printed page equals PDF page); the arXiv
-listing read shows v1 of 6 December 2021 and v2, and no journal
+listing read 2026-09-18 shows v1 of 6 December 2021 and v2, and no journal
 reference; a Crossref bibliographic query the same day found no journal
 record, so the paper is cited as a preprint. Read status: claims checked for
 Definitions 1.1--1.4, 2.1, 3.4, 3.9 and 3.13--3.15, Propositions 2.2 and

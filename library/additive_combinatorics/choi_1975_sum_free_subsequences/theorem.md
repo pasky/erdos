@@ -61,8 +61,8 @@ from the first block meeting $B$ in at least $t^{9/10}$ elements, the
 paper builds block by block sets $B_i'$ of integers with at least
 $t^{2/5}$ representations as sums of two elements of a same-parity part of
 the previous block's $B'\cup B$ (of $B\cap A_h$ at the start); these sets
-grow, and $B$ must avoid them ((2.5), proved on pp. 309--310), so the later blocks hold few
-elements of $B$.
+grow, and $B$ must avoid them ((2.5), proved on pp. 309--310), so the later
+blocks hold few elements of $B$.
 
 Lower bound, Section 3 (pp. 310--313), with $w=w(n)$ as in (3.2) below.
 Split the positive integers into

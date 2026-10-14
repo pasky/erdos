@@ -80,26 +80,25 @@ identified in the
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, Theorem 1.1, Corollary 1.2
-and Theorems 1.3--1.5 were read clause by clause on the page images. The proof of Theorem 1.1 (pp. 70--71) was read in full on the
-page images and followed; the substitution $x_i=1-y_iP(A_i)$ giving
-Corollary 1.2, and the bound $(1-\frac1{d+1})^d>1/e$ taking Theorem 1.4 to
-Theorem 1.5, were followed. Two printed steps fail as written. Theorem 1.3
-is introduced "As $1-y_jP(A_j)<\exp[-y_jP(A_j)]$" (p. 71), but that
-inequality bounds $y_i\prod_{\{i,j\}\in G}(1-y_jP(A_j))$ from above, so
-Theorem 1.3's hypothesis does not give Corollary 1.2's; reading "the
-assumption of Theorem 1.1" as its setting, Theorem 1.3 is false: the path
-with edges $\{1,2\},\{2,3\}$ is a dependence graph of $A_1,A_2,A_3$ when
-$A_1,A_3$ are independent with probability $0.95$ and
-$A_2=\bar A_1\cap\bar A_3$, and $y=(1.0516,12,1.0516)$ meets its hypotheses
-($\ln y_1=\ln y_3\approx0.050>0.03=y_2P(A_2)$,
-$\ln y_2\approx2.48>1.998=y_1P(A_1)+y_3P(A_3)$), yet $P(\wedge\bar A_i)=0$.
-Its valid form is Corollary 1.2,
-$\ln y_i\ge-\sum_{\{i,j\}\in G}\ln(1-y_jP(A_j))$; in the paper's applications
-every $y_jP(A_j)$ tends to $0$, where the two conditions differ only by
-factors $1+o(1)$. The proof of Theorem 1.4 sets "$x=1/(d+1)$ [so as to
-maximize $(1-x)x^d$]"; the maximizer, which gives Theorem 1.4, is
-$x=d/(d+1)$, while $x=1/(d+1)$ gives only $p<d/(d+1)^{d+1}$ ($2/27$ against
-$4/27$ at $d=2$). Nothing here is independently reviewed.
+and Theorems 1.3--1.5 were read clause by clause on the page images. The proof
+of Theorem 1.1 (pp. 70--71) was read in full on the page images and followed;
+the substitution $x_i=1-y_iP(A_i)$ giving Corollary 1.2, and the bound
+$(1-\frac1{d+1})^d>1/e$ taking Theorem 1.4 to Theorem 1.5, were followed. Two
+printed steps fail as written. Theorem 1.3 is introduced "As
+$1-y_jP(A_j)<\exp[-y_jP(A_j)]$" (p. 71), but that inequality bounds
+$y_i\prod_{\{i,j\}\in G}(1-y_jP(A_j))$ from above, so Theorem 1.3's hypothesis
+does not give Corollary 1.2's; reading "the assumption of Theorem 1.1" as its
+setting, Theorem 1.3 is false: the path with edges $\{1,2\},\{2,3\}$ is a
+dependence graph of $A_1,A_2,A_3$ when $A_1,A_3$ are independent with
+probability $0.95$ and $A_2=\bar A_1\cap\bar A_3$, and $y=(1.0516,12,1.0516)$
+meets its hypotheses ($\ln y_1=\ln y_3\approx0.050>0.03=y_2P(A_2)$,
+$\ln y_2\approx2.48>1.998=y_1P(A_1)+y_3P(A_3)$), yet $P(\wedge\bar A_i)=0$. Its
+valid form is Corollary 1.2, $\ln y_i\ge-\sum_{\{i,j\}\in G}\ln(1-y_jP(A_j))$;
+in the paper's applications every $y_jP(A_j)$ tends to $0$, where the two
+conditions differ only by factors $1+o(1)$. The proof of Theorem 1.4 sets
+"$x=1/(d+1)$ [so as to maximize $(1-x)x^d$]"; the maximizer, which gives Theorem
+1.4, is $x=d/(d+1)$, while $x=1/(d+1)$ gives only $p<d/(d+1)^{d+1}$ ($2/27$
+against $4/27$ at $d=2$). Nothing here is independently reviewed.
 
 ## Proof pointer
 

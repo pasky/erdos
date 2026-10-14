@@ -118,10 +118,11 @@ https://www.erdosproblems.com/518, accessed 2026-09-18.
 
 **Formalization.** None. No file for this problem exists in
 [google-deepmind/formal-conjectures](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
-(main; the directory `FormalConjectures/ErdosProblems/` listed in full, 673
-entries), the site's indicator shows no formalized statement, and the community
-database lists the problem as proved and not formalized, with no formal proof,
-as of its last update on 31 August 2025.
+(main, fetched 2026-09-18T10:41Z; the directory
+`FormalConjectures/ErdosProblems/` listed in full, 673 entries), the site's
+indicator shows no formalized statement, and the community database (fetched
+2026-09-18) lists the problem as proved and not formalized, with no formal
+proof, as of its last update on 31 August 2025.
 
 ## Current assessment
 
@@ -180,7 +181,7 @@ $|B|=\lfloor\sqrt n\rfloor-1$ forces $\lfloor\sqrt n\rfloor$ paths. The proof
 Lemmas 3.2 and 3.3 (Lemma 3.2 rests on Lemma 3.1) and the bipartite path
 lemmas (Lemma 2.1 from [GyLe73], Lemmas 2.2--2.4); no review of it is
 recorded. Acceptance evidence: refereed publication in J. Combin. Theory Ser.
-B 176 (2026), 551--560 (the Crossref record, dates the
+B 176 (2026), 551--560 (the Crossref record, accessed 2026-09-18, dates the
 issue January 2026 and the record 29 October 2025); the text cited here is the
 arXiv v2 preprint, whose date precedes the record by three weeks, and no
 comparison with the journal text is recorded. Version: arXiv v1 of 5 September
@@ -193,7 +194,7 @@ of [ChCh26] (p. 2): "For every positive integer $n$, the vertex set of every
 red--blue edge-colored $K_n$ can be covered by at most $\sqrt n$ monochromatic
 paths, all of the same color", by a minimal counterexample argument (Section
 3, pp. 3--13; no review of it is recorded). Provenance: arXiv v1 of 24 July
-2026, with no journal reference; submitted to
+2026, the only version on 2026-09-18, with no journal reference; submitted to
 the site's proof-claims tab on 2026-07-29 by a site user, with no comments;
 the site's label and commentary do not mention it; no citing paper was found
 in the search recorded below. An author's proof claim in an unrefereed

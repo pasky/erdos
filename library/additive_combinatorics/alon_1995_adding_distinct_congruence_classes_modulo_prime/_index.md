@@ -32,7 +32,7 @@ shows sharpness for k, l ≥ 2.
 
 N. Alon, M. B. Nathanson and I. Ruzsa, *Adding distinct congruence classes
 modulo a prime*, Amer. Math. Monthly 102 (1995), no. 3, 250--255, DOI
-10.1080/00029890.1995.11990565 (Crossref record read).
+10.1080/00029890.1995.11990565 (Crossref record read 2026-09-18).
 
 The copy read for this card
 is the authors' version from the first author's publication list (seven
@@ -40,7 +40,7 @@ pages with their own pagination, no journal header; its reference list cites
 the Dias da Silva--Hamidoune paper as "to appear" in Bull. London Math. Soc.
 26, so the text predates that paper's 1994 printing), read in its text
 layer; page references below are to this version. The journal text was not
-compared. Provenance: retrieved from
+compared. Provenance: retrieved 2026-09-18T15:36:02Z from
 <https://www.tau.ac.il/~nogaa/PDFS/annr3.pdf> (HTTP 200, one request);
 158,902 bytes. That copy is the authors' version from the first author's
 publication list at tau.ac.il/~nogaa (read 2026-10-02), which states no terms,

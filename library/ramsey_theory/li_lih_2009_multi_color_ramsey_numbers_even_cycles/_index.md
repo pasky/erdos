@@ -65,10 +65,11 @@ creator Elsevier, created 14 October 2008, PDF/A-1b per its metadata),
 with a text layer that reads the prose and the theorem statements cleanly,
 writes the double subscripts $b_{im}$ as "bi m", and garbles the displayed
 column vectors, the Vandermonde matrix and the fractions of the proofs.
-Provenance: the copy was obtained from the publisher's open archive, a
-free copy at
+Provenance: the copy was obtained on 2026-09-22 from the publisher's open
+archive, a free copy at
 <https://www.sciencedirect.com/science/article/pii/S0195669808000619/pdfft>,
-downloaded in a browser after a scripted request had answered HTTP 403 (that request carried a wrong article identifier), the DOI
+downloaded in a browser after a scripted request had answered HTTP 403 (that
+request carried a wrong article identifier), the DOI
 <https://doi.org/10.1016/j.ejc.2008.02.008> resolving to the same article;
 344,732 bytes. No other version is known here. The file prints "© 2008 Elsevier
 Ltd. All rights reserved." on its first page (printed p. 114), every other right
@@ -128,12 +129,12 @@ checked beyond that reading, and nothing here is independently reviewed.
   $K_{n,n}$ with at most $(1+\epsilon)(n/c_1)^{(m-1)/m}$ colors and no
   monochromatic $C_{2m}$ for $n\ge N_0$, then colors $K_N$ with
   $N=r_k(C_{2m})$ by halving the vertex set repeatedly, coloring the edges
-  across each cut with colors new at that level, from such a coloring, and coloring the
-  edges inside each final part of at most $N_0$ vertices with $M=\binom{N_0}2$
-  further colors; the $i$th level uses at most
-  $(1+\epsilon)(N/c_1)^{(m-1)/m}(2^{-(m-1)/m})^{i-1}$ colors, the geometric
-  sum gives $k<\frac{1+2\epsilon}{2^{(m-1)/m}-1}(2N/c_1)^{(m-1)/m}$ for large
-  $N$, and the lower bound on $N=r_k(C_{2m})$ follows.
+  across each cut with colors new at that level, from such a coloring, and
+  coloring the edges inside each final part of at most $N_0$ vertices with
+  $M=\binom{N_0}2$ further colors; the $i$th level uses at most
+  $(1+\epsilon)(N/c_1)^{(m-1)/m}(2^{-(m-1)/m})^{i-1}$ colors, the geometric sum
+  gives $k<\frac{1+2\epsilon}{2^{(m-1)/m}-1}(2N/c_1)^{(m-1)/m}$ for large $N$,
+  and the lower bound on $N=r_k(C_{2m})$ follows.
 - The coloring (p. 116, page image). Fix an integer $m\ge2$ and a prime
   power $q\ge m$, write $F(q)$ for the field of $q$ elements, and take two
   copies $X$ and $Y$ of $F^m(q)$, each of size $N=q^m$, as the parts of
@@ -232,14 +233,15 @@ the paper does not state; its lower bound is
 [[ramsey_theory/li_lih_2009_multi_color_ramsey_numbers_even_cycles/lemma_1|Lemma 1]]
 (p. 115), and its upper bound is
 the display (2) (p. 114), stated without proof from the even-cycle Turán
-bound (1) of Erdős and of Bondy and Simonovits for every $m\ge2$ and without the $\varepsilon$ of
+bound (1) of Erdős and of Bondy and Simonovits for every $m\ge2$ and without the
+$\varepsilon$ of
 [[ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_6|Erdős and Graham's Theorem 6]].
-The introduction's sentence (p. 115) that the asymptotic formula of
-$r_k(C_4)$ is $k^2$, credited to Chung and Graham, Irving, Lazebnik and
-Woldar, and Axenovich, Füredi and Mubayi, bears on the problem's
-four-cycle paragraph and its bracket $k^2+2\le R_k(C_4)\le k^2+k+1$ for prime
-powers $k$; the paper states the formula without bounds or proof. The paper
-determines no value of $R_k(C_{2n})$.
+The introduction's sentence (p. 115) that the asymptotic formula of $r_k(C_4)$
+is $k^2$, credited to Chung and Graham, Irving, Lazebnik and Woldar, and
+Axenovich, Füredi and Mubayi, bears on the problem's four-cycle paragraph and
+its bracket $k^2+2\le R_k(C_4)\le k^2+k+1$ for prime powers $k$; the paper
+states the formula without bounds or proof. The paper determines no value of
+$R_k(C_{2n})$.
 
 **Results.**
 

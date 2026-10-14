@@ -25,7 +25,8 @@ lower half is the sphere construction, the upper half is Szemerédi's bound.
 B. Bollobás, P. Erdős: On a Ramsey-Turán type problem, J. Combinatorial Theory
 Ser. B. 21 (1976) no. 2, 166--168 (MR 54 #12572; Zentralblatt 337.05134).
 The journal's reprint header reads "Vol. 21, No. 2, October 1976"; received
-March 11, 1975; doi:10.1016/0095-8956(76)90057-5 (Crossref record read).
+March 11, 1975; doi:10.1016/0095-8956(76)90057-5 (Crossref record read
+2026-09-18).
 
 **Edition read.** The copy read for this card is the Rényi archive scan
 `1976-20.pdf` of the three printed pages: PDF p. 1 = printed

@@ -35,7 +35,7 @@ beyond the rectification barrier*, arXiv:2409.07403v2 (7 January 2025,
 "Incorporates referee's suggestions"; 18 pp., the retained folder-name
 PDF), Theorem 1.2 on p. 1, read in the text layer. Journal version: Israel
 J. Math. 273 (2026), no. 1, 471--500, DOI 10.1007/s11856-025-2871-6
-(published online 30 November 2025; Crossref record read), not
+(published online 30 November 2025; Crossref record read 2026-09-18), not
 held and not compared.
 
 **Read depth.** Claims checked: Theorem 1.2 and the proof sketch of Section

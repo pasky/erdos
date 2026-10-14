@@ -66,7 +66,7 @@ derives. That evidence is refereed publication and the curator's credit.
 **Source.** [erdosproblems.com/206](https://www.erdosproblems.com/206),
 accessed 2026-09-17: the problem page
 (DISPROVED (LEAN); no last-edited date shown), its five-comment discussion
-thread and its empty proof-claim tab; the problem page was read again on
+thread and its empty proof-claim tab; the problem page was also accessed
 2026-10-13. The site cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
 Problem #206, https://www.erdosproblems.com/206, accessed 2026-09-17.
 
@@ -109,7 +109,7 @@ label" below.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-17).** The statement
 above; status DISPROVED (LEAN). The commentary attributes the disproof to
 Kovač [Ko24b] and adds: Erdős and Graham wrote that it is "not difficult" to
 construct irrational $x$ for which the property fails but gave no proof or
@@ -251,7 +251,7 @@ authors and links the gist that the site discussion (comment of 28 April
 best $n$-term underapproximations, quantified over all finite sets of
 positive naturals with sum below $x$). The comparison covers the statement
 only: no build, no audit of the 1,980-line proof and no kernel credit is
-claimed. The community database (teorth/erdosproblems)
+claimed. The community database (teorth/erdosproblems, accessed 2026-09-17)
 lists `formal_status` Lean, as of its entry's last update on 28 April 2026,
 and no formal-proof URL.
 

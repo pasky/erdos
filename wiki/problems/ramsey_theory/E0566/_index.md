@@ -97,7 +97,7 @@ openness.
 2026-09-17: the problem page (OPEN, with the site's note that no finite
 computation can resolve it; last edited 18 January 2026; source key [EFRS93];
 listed as implying Problem 567), its empty discussion thread and its proof-claim
-tab, empty as refreshed on 2026-09-17T15:40Z and, on 2026-10-07, carrying one
+tab, empty as refreshed on 2026-09-17T15:40Z and later carrying one
 proof claim, submitted 29 September 2026 and partial by its own summary. Cite
 as: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accessed
 2026-09-17.
@@ -128,22 +128,22 @@ as: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accesse
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/566.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/566.lean)
-of formal-conjectures (main) declares `erdos_566 : answer(sorry) ↔ ∀ (p : ℕ) (G
-: SimpleGraph (Fin p)), (∀ S : Finset (Fin p), 2 ≤ S.card → (G.induce
-S).edgeSet.ncard ≤ 2 * S.card - 3) → G.IsRamseySizeLinear` under `category
-research open`, with proof `sorry`. It restricts the density condition to vertex
-sets of at least two elements, so it states the modified Statement and the
-degeneracy at $k=1$ does not arise (for two vertices the natural-number
-subtraction gives the bound $1$, which is automatic), and it counts the edges of
-induced subgraphs, which is equivalent to the statement's "any subgraph" since a
-subgraph on a vertex set has at most as many edges as the induced one. Until 9
-September 2026 (formal-conjectures pull request #5352, "fix: Ramsey size
-linear") the file's conclusion bounded the size Ramsey number `sizeRamsey G H`
-by $c\cdot e(H)$, and its docstring wrote $\hat r(G,H)\ll m$; the database's
-formalized date of 8 January 2026 refers to that statement, and the statement
-described above is the one that pull request put in its place. The community
-database records the statement as formalized since 8 January 2026 and no formal
-proof; the site's formalized-statement indicator reads yes.
+of formal-conjectures (main, fetched 2026-09-17T15:40Z) declares
+`erdos_566 : answer(sorry) ↔ ∀ (p : ℕ) (G : SimpleGraph (Fin p)), (∀ S : Finset (Fin p), 2 ≤ S.card → (G.induce S).edgeSet.ncard ≤ 2 * S.card - 3) → G.IsRamseySizeLinear`
+under `category research open`, with proof `sorry`. It restricts the density
+condition to vertex sets of at least two elements, so it states the modified
+Statement and the degeneracy at $k=1$ does not arise (for two vertices the
+natural-number subtraction gives the bound $1$, which is automatic), and it
+counts the edges of induced subgraphs, which is equivalent to the statement's
+"any subgraph" since a subgraph on a vertex set has at most as many edges as the
+induced one. Until 9 September 2026 (formal-conjectures pull request #5352,
+"fix: Ramsey size linear") the file's conclusion bounded the size Ramsey number
+`sizeRamsey G H` by $c\cdot e(H)$, and its docstring wrote $\hat r(G,H)\ll m$;
+the database's formalized date of 8 January 2026 refers to that statement, and
+the statement described above is the one that pull request put in its place. The
+community database (fetched 2026-09-17) records the statement as formalized
+since 8 January 2026 and no formal proof; the site's formalized-statement
+indicator reads yes.
 
 ## Current assessment
 
@@ -211,9 +211,9 @@ Problem 79, answered by [Wi24].
 From [BGS24]: Ramsey size linearity holds for each subdivision of $K_4$
 having six or more vertices
 ([[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]],
-refereed, SIAM J. Discrete Math. 2024). The same paper conjectures that a connected $H$ with
-$e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves the case
-$k=3$ (its Theorem 2), an adjacent question.
+refereed, SIAM J. Discrete Math. 2024). The same paper conjectures that a
+connected $H$ with $e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves
+the case $k=3$ (its Theorem 2), an adjacent question.
 
 **Adjacent results that are not the problem.** [Wi24] proves that there
 are infinitely many graphs that are not Ramsey size linear although every

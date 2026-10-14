@@ -72,7 +72,7 @@ and calls it probable that there are no others (p. 255).
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>. No notice is printed in
 the file (no page carries a copyright or licence line); the hosting
 archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 a search of the publisher's repository (acta.bibl.u-szeged.hu, read 2026-10-02)
 locates the article at http://acta.bibl.u-szeged.hu/13485/ with no rights

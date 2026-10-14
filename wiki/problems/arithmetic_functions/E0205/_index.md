@@ -76,7 +76,7 @@ comments, namely that infinitely many $n$ have
 $\Omega(n-2^k)\gg(\log n/\log\log n)^{1/2}$ for every $k$ with $2^k<n$. The
 thread's comments of 2026-01-11 carry the construction, Tao's proposed
 square-root bound and Alexeev's Lean formalization; the problem page's
-proof-claims thread was empty on 2026-10-07.
+proof-claims thread was empty.
 
 **Standing and evidence.** Both claim pages are accepted on `reviewed`
 evidence alone, and the derived standing is solved, disproved.

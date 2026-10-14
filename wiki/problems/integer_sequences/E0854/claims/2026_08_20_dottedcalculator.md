@@ -105,7 +105,7 @@ review.
 **Standing.** Claimed: an unrefereed write-up in a personal repository (the
 link is pinned to the repository's revision of 2026-10-07), with no arXiv
 or journal record found. The site's label was OPEN (page last edited 4
-November 2025); the proof-claim tab (accessed 2026-10-07) shows the claim with
+November 2025); the proof-claim tab showed the claim with
 no comments and the site's standing notice that appearing on the tab means
 no one at the site has examined the proof. The problem's standing is not
 changed by a partial claim. The claim value is `proved`: the result proves a

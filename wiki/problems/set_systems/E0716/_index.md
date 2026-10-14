@@ -89,7 +89,7 @@ there to Aristotle, and held since 2026-08-26 in Boris Alexeev's lean-proofs
 collection as a port to a later Mathlib; this corpus has built neither copy.
 
 Search scope: the site's problem page, discussion thread (one comment on
-2026-10-07) and proof-claims page (none on that date), the community database
+2026-10-07) and proof-claims page (none), the community database
 entry (teorth/erdosproblems), the formal-conjectures statement file, the
 lean-proofs catalog, and the library cards named above.
 <!-- BEGIN problem library links -->

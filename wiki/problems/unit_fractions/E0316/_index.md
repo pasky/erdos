@@ -82,7 +82,7 @@ accessed 2026-09-18.
 - [Ch06] Chen, Yong-Gao, On a conjecture of Erdős, Graham and Spencer. J.
   Number Theory 119 (2006), no. 2, 307--314, DOI 10.1016/j.jnt.2005.11.003.
   Named in the thread as an improvement of [Sa97]; not held, not read
-  (bibliographic record from Crossref).
+  (bibliographic record from Crossref, 2026-09-18).
 - [FaCh08] Fang, J.-H. and Chen, Y.-G., On a conjecture of Erdős, Graham and
   Spencer, II. Discrete Appl. Math. 156 (2008), no. 15, 2950--2958, DOI
   10.1016/j.dam.2008.01.001. Named in the thread as a further improvement;

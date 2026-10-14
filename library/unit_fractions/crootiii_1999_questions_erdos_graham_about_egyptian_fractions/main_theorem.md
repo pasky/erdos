@@ -39,7 +39,7 @@ positive integer not in $N(x)$ is $n(x)+1$.
 
 **Source.** E. S. Croot III, *On some questions of Erdős and Graham about
 Egyptian fractions*, Mathematika 46 (1999), no. 2, 359--372,
-DOI 10.1112/S0025579300007828 (Crossref record read). The
+DOI 10.1112/S0025579300007828 (Crossref record read 2026-09-18). The
 copy read for this page is the author's 14-page typescript (pages numbered
 1--14, no journal header), whose text layer is unusable (Type 3 fonts);
 it was read on the page images rendered at 130 dpi. The Main Theorem is on

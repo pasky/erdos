@@ -88,14 +88,13 @@ Source: <https://arxiv.org/abs/1909.04774>.
   contains one of the sets with probability greater than 1 - eps.
 
 The held file is arXiv:1909.04774v2 (8 pp.), the journal's typeset edition,
-retrieved from <https://arxiv.org/pdf/1909.04774v2> on 2026-10-07. Its first
-page prints "Licensed under a Creative Commons Attribution License (CC-BY)",
-with no version. The journal's policies page
+retrieved from <https://arxiv.org/pdf/1909.04774v2>. Its first page prints
+"Licensed under a Creative Commons Attribution License (CC-BY)", with no
+version. The journal's policies page
 (<https://discreteanalysisjournal.com/pages/1044-policies>, read 2026-10-07)
 states "Articles in Discrete Analysis are published under a Creative Commons
 CC-BY licence" and links the Creative Commons Attribution 4.0 license, which
 decides the term; the article's own page on the journal's site
-(<https://discreteanalysisjournal.com/article/11887-coding-for-sunflowers>,
-read 2026-10-07) sets no license of its own. The older notice is the arXiv
-record's, which names arXiv's non-exclusive distribution license for the
-submission.
+(<https://discreteanalysisjournal.com/article/11887-coding-for-sunflowers>, read
+2026-10-07) sets no license of its own. The older notice is the arXiv record's,
+which names arXiv's non-exclusive distribution license for the submission.

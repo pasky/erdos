@@ -197,7 +197,7 @@ $\Theta(k^2\,n\log\log n)$. The paper also gives
 for $r$ growing with $n$, with a change of behavior near $r\approx\log n$
 that is not the problem's regime. Acceptance evidence: the paper is published
 online in Transactions of the American Mathematical Society (18 August 2026,
-Crossref record); the statements on p. 2 of the arXiv v2
+Crossref record accessed 2026-09-17); the statements on p. 2 of the arXiv v2
 (26 November 2025) are at claims-checked depth, and the journal version was
 not compared. On p. 2 of v2 the two propositions' range endpoint is
 $\tfrac12\log n$. With Proposition 1.6, Theorem 1.4 answers the yes-or-no

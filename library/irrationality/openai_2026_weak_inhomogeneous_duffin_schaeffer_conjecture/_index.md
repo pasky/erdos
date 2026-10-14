@@ -54,7 +54,7 @@ date and citation block; it makes no statement about human assistance or review.
 The PDF carries the author line "OpenAI" and no affiliation, funding note or
 acknowledgment. These are the source's historical attestations, not this
 corpus's review. No refereed publication, arXiv version or independent review of
-the manuscript is recorded here and nothing on this card is independently
+the manuscript is recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalogue (`lean/formalization.yaml`) lists no

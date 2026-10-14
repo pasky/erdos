@@ -70,8 +70,8 @@ new part of the claim is the upper bound.
 reference on the arXiv record on 2026-10-07 and no Crossref record on
 2026-09-18) and is not held in the library, the abstract being the source of
 this page's account; no written review or documented acceptance is known,
-and the site labeled the problem OPEN and its page
-carries no note on the comment. A refereed version or a documented
+and the site labeled the problem OPEN (accessed 2026-09-18) and its page
+carried no note on the comment. A refereed version or a documented
 independent acceptance would move the claim to accepted; until then the
 problem's standing is claimed through this page, and its refereed bounds
 stand as recorded on the problem page.

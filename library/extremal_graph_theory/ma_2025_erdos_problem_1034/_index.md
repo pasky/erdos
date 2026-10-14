@@ -119,7 +119,7 @@ is recorded on the problem page.
   [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Khadzhiivanov's Corollary 3]]);
   and "Determining the exact asymptotic constant $c_*:=\lim_{n\to\infty}h(n)/n$
   remains open."
-- References (p. 3): [1] the site's Problem 1034 page;
+- References (p. 3): [1] the site's Problem 1034 page, accessed 2025-10-20;
   [2] P. Erdős, Some of my favorite solved and unsolved problems in graph
   theory, Quaestiones Math. (1993), 333--350 (the site's Er93; not held).
 

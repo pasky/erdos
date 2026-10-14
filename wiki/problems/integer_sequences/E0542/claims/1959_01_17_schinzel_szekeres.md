@@ -74,10 +74,11 @@ his $31/30$ conjecture and disproved his expectation of $cn$ integers. His 1980
 survey (p. 111) records the disproof again. The site's curator, Thomas Bloom,
 labeled the problem SOLVED and credits both answers to this paper, with the
 count $n/(\log n)^c$ and the sums above $1-\varepsilon$ (page last edited 8
-April 2026). On 2026-09-18 and on 2026-10-07 the page showed three thread
-comments and an empty proof-claim tab. The paper itself proves $o(n)$ (p. 229).
-The power-of-log count comes from the site and from Erdős's 1980 report, which
-prints no source. Nothing here is independently reviewed by this project.
+April 2026). The page's proof-claim tab was empty, and on 2026-09-18 and on
+2026-10-07 the page showed three thread comments. The paper itself proves $o(n)$
+(p. 229). The power-of-log count comes from the site and from Erdős's 1980
+report, which prints no source. Nothing here is independently reviewed by this
+project.
 
 The claim value is `answered` because the result has neither the shape of a
 proof nor that of a disproof alone. It proves the first question and refutes the
@@ -102,8 +103,7 @@ formal-conjectures statement file for the problem, added on 20 September
 statement file, it is not linked here. The file contains no `sorry` and no
 `axiom`. It was neither built nor audited in this corpus, so `formalized`
 is not listed and no kernel credit is claimed; the site did not label the
-problem Lean, and its proof-claim tab was empty on 2026-09-18 and on
-2026-10-07.
+problem Lean, and its proof-claim tab was empty, as it had been on 2026-09-18.
 
 **Depends on.** Nothing in this wiki: the theorems are proved within the
 paper, whose card is linked above.

@@ -28,7 +28,7 @@ Samuel Korsky, *A resolution of the de Bruijn--Erdős consecutive-gap
 problem*, arXiv:2609.07196, math.CO; v1 of 7 September 2026 (the ratio
 part only, per the arXiv comment on v2), v2 of 9 September 2026, 16
 pages, manuscript dated September 8, 2026. Unrefereed; no journal
-reference on arXiv.
+reference on arXiv and no published version found (Crossref, 2026-09-27).
 Suggested key [Ko26b].
 
 **Retained artifact.** The

@@ -56,12 +56,13 @@ absolute $c>0$, gave a single power above one and not every power.
 
 **Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
 proved and credits the proof to Kelley and Meka, citing [KeMe23] (page last
-edited 20 December 2025). The page's discussion thread and proof-claim tab were
-empty on 2026-10-07. In addition, Bloom and Sisask, two named experts on the
-problem, re-derived the full argument in their refereed exposition *The
-Kelley--Meka bounds for sets free of three-term arithmetic progressions*,
-Essential Number Theory 2 (2023), 15--44, doi:10.2140/ent.2023.2.15. They then
-sharpened the exponent to $1/9$ in arXiv:2309.02353
+edited 20 December 2025). The page's proof-claim tab was empty, and its
+discussion thread was empty on 2026-10-07. In addition, Bloom and Sisask, two
+named experts on the problem, re-derived the full argument in their refereed
+exposition *The Kelley--Meka bounds for sets free of three-term arithmetic
+progressions*, Essential Number Theory 2 (2023), 15--44,
+doi:10.2140/ent.2023.2.15. They then sharpened the exponent to $1/9$ in
+arXiv:2309.02353
 ([[../library/additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|Theorem 1 there]]).
 
 Not refereed: the paper appeared in the proceedings of the 2023 IEEE 64th Annual

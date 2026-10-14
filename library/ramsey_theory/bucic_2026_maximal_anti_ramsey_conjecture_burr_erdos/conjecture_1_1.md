@@ -35,7 +35,7 @@ reference list (pp. 11–12), [6] is Burr, Erdős, Graham and Sós, J. Graph The
 13 (1989), 263–282; [8] is Erdős, Problems and results in combinatorial
 analysis and combinatorial number theory, Graph theory, combinatorics, and
 applications, 1 (Kalamazoo, MI, 1988) (1991), 397–406; [3] is the catalog page
-of Problem 809. The paper then says "We prove this
+of Problem 809, accessed 2026-03-19. The paper then says "We prove this
 conjecture for all $k\ge4$."
 
 **Source.** M. Bucić, K. Chen and J. Ma, *On a maximal anti-Ramsey

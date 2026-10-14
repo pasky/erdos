@@ -85,7 +85,8 @@ article "On the maximum diameter of $k$-colorable graphs", Electron. J. Combin.
 28 (2021), no. 3, P3.52, doi:10.37236/10382 (submitted 20 April 2021, accepted
 24 August 2021, published 10 September 2021; released under the CC BY-ND 4.0
 license, as its p. 1 states); 20 PDF pages whose printed numbers equal the PDF
-page numbers, a pdfTeX file with a text layer. Provenance: downloaded from
+page numbers, a pdfTeX file with a text layer. Provenance: downloaded on
+2026-09-22 from
 <https://www.combinatorics.org/ojs/index.php/eljc/article/download/v28i3p52/pdf>,
 the PDF link of the article page that doi:10.37236/10382 resolves to; 324,726
 bytes. Its abstract states the $k$-colorable bounds only:
@@ -165,8 +166,8 @@ part (ii)'s $\frac52$ at $r=2$, for that subclass only.
   connected $(2r-1)$-colorable graphs $G_{r,\delta,p}$ of minimum degree
   $\delta$ and diameter $(6r-5)n/((2r-1)\delta+2r-3)+O(1)$, for $r\ge2$ and
   $\delta\ge2r-2$, contradicting Conjecture 1(i) for every
-  $\delta>2(r-1)(3r+2)(2r-3)$ divisible by $(r-1)(3r+2)$. Preprint only (Section 3, pp. 4--8); the EJC
-  article cites it as the JCTB paper.
+  $\delta>2(r-1)(3r+2)(2r-3)$ divisible by $(r-1)(3r+2)$. Preprint only (Section
+  3, pp. 4--8); the EJC article cites it as the JCTB paper.
 - [[extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/conjecture_2|Conjecture 2]] (p. 2; EJC Conjecture 4, p. 2): for
   $k\ge3$ and $\delta\ge\lceil3k/2\rceil-1$, a $K_{k+1}$-free (weaker
   version: $k$-colorable) connected graph of order $n$ and minimum degree at

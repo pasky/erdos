@@ -119,19 +119,19 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   [[../library/number_theory/lagarias_2010_problem_overview/_index|lagarias_2010_problem_overview]].
 - [Ta22] Tao, T., Almost all orbits of the Collatz map attain almost bounded
   values. Forum Math. Pi 10 (2022), e12, 56 pp., doi:10.1017/fmp.2022.8
-  (Crossref record); arXiv:1909.03562v7 (16 July
+  (Crossref record accessed 2026-09-18); arXiv:1909.03562v7 (16 July
   2026). Theorem 1.3 and the map remark, p. 3. Library home:
   [[../library/number_theory/tao_2019_almost_all_orbits/_index|tao_2019_almost_all_orbits]].
 - [Ba21] Barina, D., Convergence verification of the Collatz problem. J.
   Supercomput. 77 (2021), no. 3, 2681--2688, doi:10.1007/s11227-020-03368-x
-  (Crossref record; online 1 July 2020); the pages
+  (Crossref record accessed 2026-09-18; online 1 July 2020); the pages
   cited are the author's postprint's. The verification statement, pp. 6--7.
   Library home:
   [[../library/number_theory/barina_2020_convergence_verification/_index|barina_2020_convergence_verification]].
 - [Ba25] Barina, D., Improved verification limit for the convergence of the
   Collatz conjecture. J. Supercomput. 81 (2025), no. 7, Article 810,
-  doi:10.1007/s11227-025-07337-0 (accepted 21 April 2025; Crossref record).
-  Section 6 and Table 10, p. 12. Library home:
+  doi:10.1007/s11227-025-07337-0 (accepted 21 April 2025; Crossref record
+  accessed 2026-09-18). Section 6 and Table 10, p. 12. Library home:
   [[../library/number_theory/barina_2025_improved_verification_limit_convergence_collatz/_index|barina_2025_improved_verification_limit_convergence_collatz]].
 - [He23] Hercher, C., There are no Collatz $m$-cycles with $m\le91$. J.
   Integer Seq. 26 (2023), Article 23.3.5; arXiv:2201.00406v3 (4 April
@@ -160,23 +160,23 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   ([[../library/number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|theorem_3]]),
   which [He23] cites as its [12].
 - [OEIS] Sequences A006370 (the Collatz map) and A008908 (steps to reach
-  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370
-  cites [Gu04] E16, the Lagarias volume and [KrLa03].
+  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records accessed
+  2026-09-18; A006370 cites [Gu04] E16, the Lagarias volume and [KrLa03].
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/1135.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1135.lean)
-of formal-conjectures at the commit linked (main) declares `theorem erdos_1135 :
-type_of% CollatzConjecture.collatz_conjecture` under `category research open,
-AMS 11 37`, with proof `sorry`, pointing to the collection's
-`FormalConjectures/Wikipedia/CollatzConjecture.lean` (at the same commit), which
-defines `collatzStep n = if Even n then n / 2 else 3 * n + 1` and states
-`collatz_conjecture (n : ℕ) (hn : n > 0) : ∃ m, collatzStep^[m] n = 1`
+of formal-conjectures at the commit linked (main, fetched 2026-09-18) declares
+`theorem erdos_1135 : type_of% CollatzConjecture.collatz_conjecture` under
+`category research open, AMS 11 37`, with proof `sorry`, pointing to the
+collection's `FormalConjectures/Wikipedia/CollatzConjecture.lean` (at the same
+commit), which defines `collatzStep n = if Even n then n / 2 else 3 * n + 1` and
+states `collatz_conjecture (n : ℕ) (hn : n > 0) : ∃ m, collatzStep^[m] n = 1`
 (`research open`, `sorry`): the standard map, whose question is equivalent to
 the page's by the map remark above. The community database
-(teorth/erdosproblems) lists the problem as open as of its last update on 11
-January 2026, the statement as formalized as of that field's last update on 13
-January 2026, no formal proof, a prize and the comment "Collatz conjecture". The
-corpus has not built the files.
+(teorth/erdosproblems, fetched 2026-09-18) lists the problem as open as of its
+last update on 11 January 2026, the statement as formalized as of that field's
+last update on 13 January 2026, no formal proof, a prize and the comment
+"Collatz conjecture". The corpus has not built the files.
 
 ## Current assessment
 
@@ -197,8 +197,8 @@ publicity from the site), a historical comment of 12 January 2026 (Erdős and
 Collatz both attended the 1950 International Congress at Harvard; a group
 photograph), and a third-party notice of 16 July 2026 (a company's prize for a
 proof, with a 2031 deadline); none is a mathematical source. The proof-claims
-tab is empty. The community database record lists the problem as open as of its
-last update on 11 January 2026.
+tab is empty. The community database record, fetched 2026-09-18, lists the
+problem as open as of its last update on 11 January 2026.
 
 **The Erdős connection (the account this page keeps).** Lagarias's 2010 survey
 prints: "We also note that Paul Erdős said, in conversation, about its

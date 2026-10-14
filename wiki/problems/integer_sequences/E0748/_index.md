@@ -61,7 +61,7 @@ and so no claim page.
 2026-09-04 and 2026-09-05: PROVED, header keys [CaEr90], [Er94b], [Er98], no
 last-edited line, an empty discussion thread and an empty proof-claim tab,
 no formalized statement, OEIS A007865. At the access of 2026-10-07 the page
-shows the same commentary, the thread and the tab still empty, and
+shows the same commentary and the thread still empty, and
 links the formal-conjectures statement with its formal proof (see
 Formalization). Cite as: T. F. Bloom, Erdős Problem #748,
 https://www.erdosproblems.com/748.

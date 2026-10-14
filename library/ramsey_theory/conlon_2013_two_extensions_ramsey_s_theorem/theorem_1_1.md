@@ -56,8 +56,8 @@ Duke Mathematical Journal"), 21 pp., Theorem 1.1 on p. 3, the definitions and
 Rödl's construction on pp. 2--3, the base-2 convention on p. 4, Conjecture 5.1
 on p. 15; read on the page images. Published as Duke Math. J. 162 (2013), no.
 15, 2903--2927, DOI 10.1215/00127094-2382566 (the arXiv record's journal
-reference and the Crossref record); the journal text was not compared, so the
-locators are the preprint's pages.
+reference and the Crossref record, read 2026-09-18); the journal text was not
+compared, so the locators are the preprint's pages.
 
 **Read depth.** Claims checked: the theorem, the definitions, the
 attributions to Rödl and the three-color remark (pp. 2--3), the base-2

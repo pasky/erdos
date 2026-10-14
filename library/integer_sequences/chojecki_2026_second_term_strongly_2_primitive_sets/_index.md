@@ -60,18 +60,18 @@ of Problem 793, from a manuscript whose author declares AI assistance.
 Przemek Chojecki, *The second term for strongly 2-primitive sets*. A
 five-page manuscript hosted at <https://www.ulam.ai/research/erdos793.pdf>
 (2026), also posted as arXiv:2607.15306 (one version, submitted 14 July
-2026, with the same title, author and abstract; abstract page read). The byline
-names Przemek Chojecki with the affiliation ulam.ai; the text carries no date,
-no arXiv identifier and no journal; the PDF metadata gives a creation date of 13
-July 2026, and its reference [1] records the site's Problem 793 page as
-"accessed July 13, 2026". The site's Problem 793 page accepted the manuscript as
-the resolution on 14 July 2026 (the page's last edit) after a thread comment of
-13 July 2026 by the author linked it.
+2026, with the same title, author and abstract; abstract page read 2026-10-07).
+The byline names Przemek Chojecki with the affiliation ulam.ai; the text carries
+no date, no arXiv identifier and no journal; the PDF metadata gives a creation
+date of 13 July 2026, and its reference [1] records the site's Problem 793 page
+as "accessed July 13, 2026". The site's Problem 793 page accepted the manuscript
+as the resolution on 14 July 2026 (the page's last edit) after a thread comment
+of 13 July 2026 by the author linked it.
 
 The copy read for this card is the PDF at that URL, five A4 pages produced by
 pdfTeX with a complete text layer,
 read in the text layer and on the page images of pp. 1--5. Provenance:
-retrieved from the URL above (HTTP 200, one request);
+retrieved 2026-09-18T05:59Z from the URL above (HTTP 200, one request);
 287,546 bytes. That copy, retrieved from the hosting organization's site
 (https://www.ulam.ai/research/erdos793.pdf), carries no arXiv stamp and prints
 only the "ulam.ai" affiliation and no notice; the arXiv abstract page of the
@@ -161,8 +161,8 @@ which used only the primes up to $n^{1/3}$ and gave the constant $1/80$.
   proof-claim of 5 August 2026 link: head of `main`
   `17d88dc1f122640d4a0101d1bcf04cb8682f7935` (committer date
   2026-09-10T21:21:37Z, read 2026-09-18T05:57Z through the GitHub API; the file
-  fetched at that commit 05:59Z). `ErdosProblem793.lean` (163,200 bytes, 2,209
-  lines; last changed at commit `e80f01cb` of 2026-08-05) declares itself a
+  fetched at that commit). `ErdosProblem793.lean` (163,200 bytes, 2,209 lines;
+  last changed at commit `e80f01cb` of 2026-08-05) declares itself a
   formalization of this manuscript's result obtained with an automated theorem
   prover, imports Mathlib, declares one axiom, `pi_alt`, the prime number
   theorem in the form $\pi(\lfloor x\rfloor)=(1+c(x))x/\log x$ with $c=o(1)$
@@ -176,9 +176,9 @@ which used only the primes up to $n^{1/3}$ and gave the constant $1/80$.
   `Woett/Miscellaneous` (head `40f6aae3`, 2026-08-05) concern the $k$-fold
   generalization claimed on the proof-claim tab. The second file's header and
   its two self-contained corollaries, `large_k_upper` and `large_k_lower`, were
-  read as text at its only commit `e80f01cb` (5 August 2026); the file declares
-  the prime number theorem and a Delcourt--Postle matching theorem as axioms.
-  The blueprint PDF remains unread.
+  read as text on 2026-10-07 at its only commit `e80f01cb` (5 August 2026); the
+  file declares the prime number theorem and a Delcourt--Postle matching theorem
+  as axioms. The blueprint PDF remains unread.
 
 Nothing was built, kernel-checked or audited here; the axiom the file
 declares is its own record, and no bridging statement between the file's

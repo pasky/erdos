@@ -62,18 +62,18 @@ The copy read for this card is the author's typescript of the paper,
 fourteen pages numbered 1-14 with no journal header or journal pagination,
 as posted on the author's papers page named in the source line; its text
 layer is unusable (Type 3 fonts), so it was read on rendered page images. The
-journal record (Mathematika 46 (1999), no. 2, 359-372; Crossref) is the citation, the typescript is the version read, and every
-locator on this card and its result pages is a typescript page; the journal
-text was not compared. The paper's reference list (p. 14) gives the sources
-its introduction relies on: [1] Erdős and Graham, Old and new problems and
-results in combinatorial number theory (1980), cited for pp. 39-40 and 103
-(the two questions are on printed pp. 39-40 of the monograph); [5] H.
-Yokota, On number of integers representable as a sum of unit fractions, II,
-J. Number Theory 67 (1997), 162-169, and [6] its Corrigendum, J. Number
-Theory 72 (1998), 150. The introduction (p. 1) cites [6] for the range
-1 <= n <= log x - 5 log log x, and the proof of the Main Theorem (p. 12)
-cites "the main result in [5] (and [6])" for the integers below a fixed
-bound.
+journal record (Mathematika 46 (1999), no. 2, 359-372; Crossref, read
+2026-09-18) is the citation, the typescript is the version read, and every
+locator on this card and its result pages is a typescript page; the journal text
+was not compared. The paper's reference list (p. 14) gives the sources its
+introduction relies on: [1] Erdős and Graham, Old and new problems and results
+in combinatorial number theory (1980), cited for pp. 39-40 and 103 (the two
+questions are on printed pp. 39-40 of the monograph); [5] H. Yokota, On number
+of integers representable as a sum of unit fractions, II, J. Number Theory 67
+(1997), 162-169, and [6] its Corrigendum, J. Number Theory 72 (1998), 150. The
+introduction (p. 1) cites [6] for the range 1 <= n <= log x - 5 log log x, and
+the proof of the Main Theorem (p. 12) cites "the main result in [5] (and [6])"
+for the integers below a fixed bound.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0308/_index|#308]], whose first question
 is the paper's first: the smallest integer not in N(x) is n(x) + 1, so the
@@ -95,7 +95,8 @@ and the best lower bound to Yokota (2002), filed as
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/_index|yokota_2002_number_integers_representable_sums_unit_fractions_iii]],
 whose Corollary 1, log n + gamma - (pi^2/3 + o(1))(log log n)^2/log n <=
 |N(n)| for large n with this paper's upper bound quoted alongside, is on
-printed p. 353 (PDF p. 3), read there clause by clause on the page image and paged on
+printed p. 353 (PDF p. 3), read there clause by clause on the page image and
+paged on
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/corollary_1|corollary_1]];
 [[../wiki/problems/number_theory/E1180/_index|#1180]], through Proposition 2 (pp. 4-5,
 page images): for eps > 0 there is N_eps such that whenever n > N_eps and

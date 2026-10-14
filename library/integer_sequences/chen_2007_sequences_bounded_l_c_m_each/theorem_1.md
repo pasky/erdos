@@ -35,7 +35,7 @@ $-2\le R(x)\le\sqrt{9x/8}+45\sqrt{x/\log x}\log\log x$ as printed here; the
 
 **Source.** Yong-Gao Chen and Li-Xia Dai, *Sequences with bounded l.c.m. of
 each pair of terms, III*, Acta Arith. 128 (2007), no. 2, 125--133, DOI
-10.4064/aa128-2-3 (Crossref record read); Theorem 1 on printed
+10.4064/aa128-2-3 (Crossref record read 2026-09-18); Theorem 1 on printed
 p. 126 = PDF p. 2 of the publisher's 9-page file, read in the text layer and
 on the page image.
 

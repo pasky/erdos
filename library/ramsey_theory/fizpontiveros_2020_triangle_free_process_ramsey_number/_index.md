@@ -29,10 +29,10 @@ Gonzalo Fiz Pontiveros, Simon Griffiths, and Robert Morris, *The triangle-free
 process and the Ramsey number $R(3,k)$*, Memoirs of the American Mathematical
 Society 263 (2020), no. 1274, v+125 pp. The copy read for this card is
 arXiv:1302.6279v2, revised 24 March 2018, including its 36-page appendix (154
-pages). The Memoir (DOI 10.1090/memo/1274, Crossref record read) is not held;
-its pagination differs, and the locators below are the arXiv pages. The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:1302.6279), every
-other right reserved.
+pages). The Memoir (DOI 10.1090/memo/1274, Crossref record read 2026-09-18) is
+not held; its pagination differs, and the locators below are the arXiv pages.
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1302.6279), every other right reserved.
 
 Read status: claims checked for Theorems 1.1--1.2, Conjecture 1.3 and
 display (2) on pp. 4--5 (read clause by clause on the page image of p. 4 and

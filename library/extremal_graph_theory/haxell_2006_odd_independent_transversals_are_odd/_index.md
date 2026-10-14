@@ -31,7 +31,7 @@ below tn/(2t - 1), has an independent transversal of those classes.
 
 P. Haxell and T. Szabó, *Odd independent transversals are odd*, Combin.
 Probab. Comput. 15 (2006), no. 1--2, 193--211, DOI 10.1017/S0963548305007157
-(Crossref record read). The site's key HaSz06.
+(Crossref record read 2026-09-18). The site's key HaSz06.
 
 **Source and version.** The copy read for this card is the
 authors' preprint (20 pages on A4, paginated 1--20, with a text layer;
@@ -92,9 +92,11 @@ authored complementation, the site's sharp threshold (r-1)n - ceil(sn/(2s-1))
 with s = floor(r/2), the exact values of c_r and the 1975 conjecture
 lim (c_r - r + 2) = 1/2; the introduction (p. 2, page image) attests that
 Haxell's 2001 note, the paper's [9], proved Delta_r >= 1/2 and "settled the
-conjecture of [7]", the site's status-defining source, which is not held. Theorems 3.7 and 4.1
-([[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]], [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]]) bear on the
-problem only as the two halves of the proof of Theorem 1.1.
+conjecture of [7]", the site's status-defining source, which is not held.
+Theorems 3.7 and 4.1
+([[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]],
+[[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]])
+bear on the problem only as the two halves of the proof of Theorem 1.1.
 
 **Results.**
 

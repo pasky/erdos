@@ -16,7 +16,7 @@ updated: 2026-10-08T01:29:58Z
 
 Weingartner, Andreas, The Schinzel-Szekeres function. Res. Number Theory 11
 (2025), no. 3, Paper No. 63, 32 pp. DOI 10.1007/s40993-025-00643-9 (Crossref
-record read).
+record read 2026-10-07).
 
 Weingartner derives sharp asymptotics for distribution functions attached to the
 Schinzel-Szekeres function F(n) = max{d P^-(d) : d | n, d > 1}. Theorem 1 shows

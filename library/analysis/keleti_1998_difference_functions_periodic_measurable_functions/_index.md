@@ -50,4 +50,4 @@ mere-measurability-to-$C^*$ inference is made.
 **Proof scope.** The full proof of Corollary 2.18's other inclusion and the
 general Theorems 2.9 and 2.13 remain source-proof obligations. No complete
 general source proof or formal verification is recorded. Relevant pages were
-locally re-read.
+read in the retained PDF.

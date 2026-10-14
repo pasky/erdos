@@ -378,11 +378,11 @@ site's $r$ and $s-1$).
 determination of $\mathrm{ex}_r(n,\mathcal F)$ in general, a proof of the
 conjecture for any $s\ge4$ at small uniformity, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, as accessed
-  2026-09-18 and again on 2026-10-13 (the page last edited 24 January 2026,
-  no comment, no proof claim); the formal-conjectures tree and the community
-  database on 2026-09-18 and 2026-10-07 (the Formalization paragraph records
-  what each held on each date).
+- The site: problem page and discussion thread, as accessed 2026-09-18 and
+  again on 2026-10-13 (the page last edited 24 January 2026, no comment), and
+  the proof-claim tab (no proof claim); the formal-conjectures tree and the
+  community database on 2026-09-18 and 2026-10-07 (the Formalization paragraph
+  records what each held on each date).
 - The primary sources, at the pages cited: [BES73] pp. 53--55 and 59, [Va99]
   item 3.64, [Er74c] pp. 80--81, [AlSh06] pp. 1--2, [KeLo20] pp. 1--2,
   [ShTy23] pp. 1--3, [JMMS25] pp. 1--3, [GiSo26] pp. 1--2, [CHL26] Sections

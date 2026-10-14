@@ -27,17 +27,17 @@ journal's file, headed "#A7 INTEGERS 26 (2026)" with the dates "Received:
 2/19/25, Revised: 8/19/25, Accepted: 11/27/25, Published: 1/5/26" and the DOI
 10.5281/zenodo.18154085 (three pages; pdfTeX). The volume page
 <https://math.colgate.edu/~integers/vol26.html> lists it as A7, and the
-same paper is arXiv:2601.16972v1 (23 January 2026), whose arXiv record
-carries the journal reference and DOI. Integers is a
-refereed journal. Read status: claims checked for Theorem 1, Lemma 2 and
-Lemma 3 (text layer; p. 1 also on the page image); the half-page proof was
-read through and not independently reviewed. The deposit DOI printed on p. 1
-leads to the Zenodo record of the journal's deposit, which names the license
-"Creative Commons Attribution 4.0 International"
-(https://zenodo.org/records/18154085, read 2026-10-02), and the journal's site
-states "All works of this journal are licensed under a Creative Commons
-Attribution 4.0 International License" (https://math.colgate.edu/~integers/,
-read 2026-10-02): the Creative Commons Attribution 4.0 license.
+same paper is arXiv:2601.16972v1 (23 January 2026), whose arXiv record carries
+the journal reference and DOI (checked 2026-09-18). Integers is a refereed
+journal. Read status: claims checked for Theorem 1, Lemma 2 and Lemma 3 (text
+layer; p. 1 also on the page image); the half-page proof was read through and
+not independently reviewed. The deposit DOI printed on p. 1 leads to the Zenodo
+record of the journal's deposit, which names the license "Creative Commons
+Attribution 4.0 International" (https://zenodo.org/records/18154085, read
+2026-10-02), and the journal's site states "All works of this journal are
+licensed under a Creative Commons Attribution 4.0 International License"
+(https://math.colgate.edu/~integers/, read 2026-10-02): the Creative Commons
+Attribution 4.0 license.
 
 Let f(n,m) be the least length such that the interval (m, m + f(n,m)] contains n
 distinct integers a_1, ..., a_n with i dividing a_i for every i. Erdos and

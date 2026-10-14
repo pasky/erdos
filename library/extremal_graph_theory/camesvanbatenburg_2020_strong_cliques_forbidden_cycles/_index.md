@@ -40,26 +40,26 @@ Cames van Batenburg, Wouter and Kang, Ross J. and Pirot, François, Strong
 cliques and forbidden cycles. Indag. Math. (N.S.) 31 (2020), no. 1, 64--82.
 
 **Edition.** The journal version is Indag. Math. (N.S.) 31 (2020),
-no. 1, 64--82, DOI 10.1016/j.indag.2019.09.003 (Crossref record read). The copy read for this card
-is the arXiv preprint arXiv:1903.06087v1 (14 March 2019; its title page
-prints "November 25, 2021"), 24 pages, so the locators and labels below are
-the preprint's; the journal text was not compared. The abstract prefixes
-its summary with "For a graph $G$ of large enough maximum degree $\Delta$",
-a hypothesis the statements of Theorem 6(i)--(ii) do not carry. Read
-status: claims checked for Conjecture 1 (p. 1), Conjectures 2--3, Theorems
-4--6 (p. 2), Conjectures 7 and 9 and Theorems 8 and 10 (p. 3), the remarks
-of pp. 3--4, Theorem 11 (p. 4), Lemma 12 (p. 5), Theorem 20 (p. 12) and
-Lemma 22 and Theorem 23 (p. 19), read clause by clause on the page images,
-with Theorems 6, 8, 10 and 11 paged at
+no. 1, 64--82, DOI 10.1016/j.indag.2019.09.003 (Crossref record read
+2026-09-19). The copy read for this card is the arXiv preprint
+arXiv:1903.06087v1 (14 March 2019; its title page prints "November 25, 2021"),
+24 pages, so the locators and labels below are the preprint's; the journal text
+was not compared. The abstract prefixes its summary with "For a graph $G$ of
+large enough maximum degree $\Delta$", a hypothesis the statements of Theorem
+6(i)--(ii) do not carry. Read status: claims checked for Conjecture 1 (p. 1),
+Conjectures 2--3, Theorems 4--6 (p. 2), Conjectures 7 and 9 and Theorems 8 and
+10 (p. 3), the remarks of pp. 3--4, Theorem 11 (p. 4), Lemma 12 (p. 5), Theorem
+20 (p. 12) and Lemma 22 and Theorem 23 (p. 19), read clause by clause on the
+page images, with Theorems 6, 8, 10 and 11 paged at
 [[extremal_graph_theory/camesvanbatenburg_2020_strong_cliques_forbidden_cycles/theorem_6|theorem_6]],
 [[extremal_graph_theory/camesvanbatenburg_2020_strong_cliques_forbidden_cycles/theorem_8|theorem_8]],
 [[extremal_graph_theory/camesvanbatenburg_2020_strong_cliques_forbidden_cycles/theorem_10|theorem_10]]
 and
 [[extremal_graph_theory/camesvanbatenburg_2020_strong_cliques_forbidden_cycles/theorem_11|theorem_11]];
-the proofs (Sections 2--6, pp. 4--23) read on the page images for
-structure only, to locate their lemmas, and not checked.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1903.06087), every other right reserved.
+the proofs (Sections 2--6, pp. 4--23) read on the page images for structure
+only, to locate their lemmas, and not checked. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:1903.06087), every other right
+reserved.
 
 The strong clique number omega'_2(G) is the size of a largest set of edges
 pairwise incident or joined by an edge; it lower-bounds the strong chromatic

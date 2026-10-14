@@ -56,8 +56,8 @@ their Theorem 1 (p. 2) they attribute the full proof of Harary's conjecture to
 the 1993 paper, which is the one linked above. The discrepancy in the site's
 citation is recorded, not resolved. Refereed: A. F. Sidorenko, The Ramsey number
 of an $n$-edge graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B
-58 (1993), no. 2, 185--196, in the July 1993 issue (Crossref), the month this
-page is dated by. The day is a placeholder.
+58 (1993), no. 2, 185--196, in the July 1993 issue (Crossref, accessed
+2026-10-07), the month this page is dated by. The day is a placeholder.
 
 **Read depth.** Neither Sidorenko paper is held. The statement above is
 taken from Theorem 1 of the 2026 preprint, which attributes it to Goddard and

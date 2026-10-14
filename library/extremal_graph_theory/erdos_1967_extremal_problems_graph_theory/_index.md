@@ -38,17 +38,17 @@ least 4; the statement of Problem 916 in Erdős's words.
 P. Erdős, *Extremal problems in graph theory*, A Seminar on Graph Theory,
 Holt, Rinehart and Winston, New York (1967), pp. 54--59; the Rényi archive's
 index lists it as item 1967-05 with "MR 36 #6311; Zbl 159,541". The site's
-reference text for its key Er67b, is "Erdős, Paul,
-Extremal problems in graph theory. A Seminar on Graph Theory (1967), 54-59.
-(MR 223263)". The copy's footnote on its first page says "Another article
-with the same title appeared in Theory of graphs and its applications, edited
-by M. Fiedler. Prague, 1964, pp. 29--36. All results given without references
-are unpublished"; that 1964 paper is a different text, filed as
+reference text for its key Er67b, read on 2026-09-19, is "Erdős, Paul, Extremal
+problems in graph theory. A Seminar on Graph Theory (1967), 54-59. (MR 223263)".
+The copy's footnote on its first page says "Another article with the same title
+appeared in Theory of graphs and its applications, edited by M. Fiedler. Prague,
+1964, pp. 29--36. All results given without references are unpublished"; that
+1964 paper is a different text, filed as
 [[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/_index|erdos_1964_extremal_problems_graph_theory]].
 The Rome 1966 survey filed as
 [[extremal_graph_theory/erdos_1967_recent_results_extremal_problems_graph_theory/_index|erdos_1967_recent_results_extremal_problems_graph_theory]]
-is not this paper either: it bears on Problems 713 and 146 and states none
-of the three questions below.
+is not this paper either: it bears on Problems 713 and 146 and states none of
+the three questions below.
 
 The copy read for this card is the Rényi archive's copy of item 1967-05:
 six A4 pages produced with dvips and
@@ -59,7 +59,7 @@ p. $n-53$; the printed volume is not held and the correspondence was not
 compared with it, so the printed page numbers below rest on that range
 alone. The copy's text layer is unusable (its glyphs carry no readable
 character codes), so every statement recorded here was read on the rendered
-page images (130 dpi). Provenance: retrieved from
+page images (130 dpi). Provenance: retrieved 2026-09-19T06:52:57Z from
 <https://users.renyi.hu/~p_erdos/1967-05.pdf> (HTTP 200, one request; the
 archive's Last-Modified header says 15 April 2007); 138,940 bytes. No notice is
 printed in the file (the text layer's copyright-sign characters are mis-mapped
@@ -70,25 +70,24 @@ is for scientifics purposes only."); the volume has no publisher page, so the
 publisher's page was not consulted and no Crossref license is recorded; the term
 is unstated.
 
-Read status: claims checked, and clause by clause on the page
-images, for the conjecture that a graph with $rm$ points and minimum degree
-at least $m(r-1)$ contains $mK_r$, with its attributions for $r=2$ and
-$r=3$ (copy p. 3 = printed p. 56); for the conjecture that every graph
-$G(1+n(m-1);1+n\binom m2)$ has two points joined by $m$ disjoint paths,
-its extremal example and Bollobás's $m=4$ result (copy pp. 3--4 = printed
-pp. 56--57); for the question whether every $G(n;2n-2)$ contains a cycle
-plus a further point adjacent to three of its points, with its relation to
-Dirac's theorem (copy p. 4 = printed p. 57); for Dirac's $2n-2$ theorem as
-the copy states it, with its hypothesis $n\ge4$ (copy p. 3); and, read
-again clause by clause on the page image for the rows on
-Problems 905 and 80 below, for the sentence on copy p. 3 (printed p. 56)
-giving a constant $c\le1/3$ for which every $G(2n;n^2+1)$ has a line in at
-least $[cn]$ triangles, with the two sentences before it on Rademacher's
-$n$ triangles and Erdős's $kn$ triangles. The rest of the lecture was read
-once for the Contents below. The paper proves only Pósa's two arguments on
-disjoint cycles (copy pp. 4--5), which were not checked; every other
-statement is given without proof, and the footnote says the unreferenced
-results are unpublished. Nothing here is independently reviewed.
+Read status: claims checked, clause by clause on the page images, for the
+conjecture that a graph with $rm$ points and minimum degree at least $m(r-1)$
+contains $mK_r$, with its attributions for $r=2$ and $r=3$ (copy p. 3 = printed
+p. 56); for the conjecture that every graph $G(1+n(m-1);1+n\binom m2)$ has two
+points joined by $m$ disjoint paths, its extremal example and Bollobás's $m=4$
+result (copy pp. 3--4 = printed pp. 56--57); for the question whether every
+$G(n;2n-2)$ contains a cycle plus a further point adjacent to three of its
+points, with its relation to Dirac's theorem (copy p. 4 = printed p. 57); for
+Dirac's $2n-2$ theorem as the copy states it, with its hypothesis $n\ge4$ (copy
+p. 3); and, read clause by clause on the page image for the rows on Problems 905
+and 80 below, for the sentence on copy p. 3 (printed p. 56) giving a constant
+$c\le1/3$ for which every $G(2n;n^2+1)$ has a line in at least $[cn]$ triangles,
+with the two sentences before it on Rademacher's $n$ triangles and Erdős's $kn$
+triangles. The rest of the lecture was read once for the Contents below. The
+paper proves only Pósa's two arguments on disjoint cycles (copy pp. 4--5), which
+were not checked; every other statement is given without proof, and the footnote
+says the unreferenced results are unpublished. Nothing here is independently
+reviewed.
 
 ## Contents
 

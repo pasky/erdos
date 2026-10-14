@@ -51,7 +51,7 @@ manuscript's own README carries the title, the author line "OpenAI", the date
 source names no author beyond OpenAI, no affiliation, no arXiv identifier and
 no journal. These are the source's own statements, recorded as attestations
 and not as this corpus's review. No refereed publication, arXiv version or
-independent review of the manuscript is recorded here and
+independent review of the manuscript is recorded here, and
 nothing on this card is independently reviewed.
 
 Formalization, read statically. The release's `lean/formalization.yaml` lists

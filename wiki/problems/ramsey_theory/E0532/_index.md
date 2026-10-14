@@ -128,18 +128,17 @@ Erdős Problem #532, https://www.erdosproblems.com/532, accessed 2026-09-18.
 **Formalization.** The site's "(LEAN)" suffix is a catalog label; see
 "Formalization and the Lean label" below for the artifacts cited. The file
 [`ErdosProblems/532.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/532.lean)
-of formal-conjectures (main) declares `erdos_532 : answer(True) ↔ ∀ (c : ℕ → Fin
-2), ∃ A : Set ℕ, A.Infinite ∧ ∃ color : Fin 2, ∀ S : Finset ℕ, S.Nonempty → ↑S ⊆
-A → c (∑ n ∈ S, n) = color` under `category research solved` with proof `sorry`
-and a `formal_proof` attribute naming `plby/lean-proofs`
-`src/v4.29.1/ErdosProblems/Erdos532.lean` on that repository's `main` branch;
-its docstring repeats the site's attribution of the question to Graham and
-Rothschild and its credit of the proof to Hindman [Hi74], whatever the number of
-colors. The community database (record of 9 September 2026) lists the problem as
-"proved (Lean)" as of its last update on 31 January 2026, the statement
-formalized since 26 June 2026, `formal_status` Lean and no formal-proof URL; the
-site's indicator shows the statement as formalized. Nothing was built or
-kernel-checked here.
+of formal-conjectures (main, fetched 2026-09-18) declares
+`erdos_532 : answer(True) ↔ ∀ (c : ℕ → Fin 2), ∃ A : Set ℕ, A.Infinite ∧ ∃ color : Fin 2, ∀ S : Finset ℕ, S.Nonempty → ↑S ⊆ A → c (∑ n ∈ S, n) = color`
+under `category research solved` with proof `sorry` and a `formal_proof`
+attribute naming `plby/lean-proofs` `src/v4.29.1/ErdosProblems/Erdos532.lean` on
+that repository's `main` branch; its docstring repeats the site's attribution of
+the question to Graham and Rothschild and its credit of the proof to Hindman
+[Hi74], whatever the number of colors. The community database (record of 9
+September 2026) lists the problem as "proved (Lean)" as of its last update on 31
+January 2026, the statement formalized since 26 June 2026, `formal_status` Lean
+and no formal-proof URL; the site's indicator shows the statement as formalized.
+Nothing was built or kernel-checked here.
 
 ## Current assessment
 

@@ -43,11 +43,11 @@ The
 [selected PDF](hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions.pdf)
 is the arXiv v1 manuscript (watermark "arXiv:2510.05044v1 [math.CO] 6 Oct 2025"
 on p. 1), 13 physical pages whose printed numbers equal the PDF page numbers.
-Provenance: downloaded from <https://arxiv.org/abs/2510.05044> on 2026-09-05;
-387,239 bytes. The survey download set of September 2026 records the author
-listing as pointing to this arXiv record with no published replacement; no later
-version was acquired. The arXiv record (https://arxiv.org/abs/2510.05044, read
-2026-10-02) names the Creative Commons Attribution 4.0 license.
+Provenance: downloaded from <https://arxiv.org/abs/2510.05044>; 387,239 bytes.
+The survey download set of September 2026 records the author listing as pointing
+to this arXiv record with no published replacement; no later version was
+acquired. The arXiv record (https://arxiv.org/abs/2510.05044, read 2026-10-02)
+names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorems 1.3 and 1.5 on the page images;
 all 13 pages were read at filing. The proof of Theorem 1.3 (Section 3,

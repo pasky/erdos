@@ -45,18 +45,18 @@ when 0 is not one of its accumulation points.
 
 Feng, De-Jun, On the topology of polynomials with bounded integer coefficients.
 J. Eur. Math. Soc. (JEMS) **18** (2016), no. 1, 181--193; DOI 10.4171/JEMS/587
-(the Crossref record dates the article 16 December 2015).
+(the Crossref record, read 2026-09-18, dates the article 16 December 2015).
 The site's key Fe16.
 
 The copy read for this card
 is arXiv:1109.1407v3 (1 February 2015; "15 pages, to appear in J. Eur. Math.
 Soc"), 15 pages with a complete text layer; the abstract page lists three
-versions (v1 7 September 2011, v2 10 November 2011, v3 1 February 2015) and
-no journal reference. The journal text
-was not compared; the locators below are the preprint's. The statements
-were read on the rendered page images of pp. 1--6. Source:
-<https://arxiv.org/abs/1109.1407>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:1109.1407), every other right reserved.
+versions (v1 7 September 2011, v2 10 November 2011, v3 1 February 2015) and no
+journal reference (read 2026-09-18). The journal text was not compared; the
+locators below are the preprint's. The statements were read on the rendered page
+images of pp. 1--6. Source: <https://arxiv.org/abs/1109.1407>. The arXiv record
+names arXiv's non-exclusive distribution license (arXiv:1109.1407), every other
+right reserved.
 
 Read status: claims checked for the abstract, Question 1.1, the two
 non-density cases with their proofs, Theorem 1.2, the definitions of
@@ -131,7 +131,8 @@ problem (the deduction is written on the problem page).
   $\mathbb R$ in three steps (pp. 8--11); read for structure only.
 - Section 3 (pp. 11--13): final remarks and open questions, among them
   Proposition 3.1 and Corollary 3.2 (p. 12) and the two closing questions
-  (p. 13), read for structure only; references, pp. 13--15 (not read beyond the headings).
+  (p. 13), read for structure only; references, pp. 13--15 (not read beyond the
+  headings).
 
 ## Compiled scope
 

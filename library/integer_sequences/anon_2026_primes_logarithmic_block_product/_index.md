@@ -102,8 +102,8 @@ here is independently reviewed.
   $0<\epsilon<3/\log4-2\approx0.1640$.
 - References (p. 4): [1] Erdős, Some unconventional problems in number
   theory, Acta Math. Acad. Sci. Hungar. 33 (1979), 73--82 (pages so printed;
-  the Crossref record of DOI 10.1007/BF01903382, gives
-  71--80); [2] T. F. Bloom, Erdős Problem #457, the site's page.
+  the Crossref record of DOI 10.1007/BF01903382, read 2026-10-07, gives 71--80);
+  [2] T. F. Bloom, Erdős Problem #457, the site's page, accessed 2026-03-02.
 
 ## Compiled scope
 

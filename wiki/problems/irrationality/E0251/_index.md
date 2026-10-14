@@ -87,8 +87,8 @@ has been compared with its manuscript.
 
 ## Current assessment
 
-The site's formulation (last edited 28 September 2025) asks whether
-$S=\sum_{n\ge1}p_n/2^n$ is irrational, with $p_1=2$, so
+The site's formulation (accessed 2026-09-17; last edited 28 September 2025) asks
+whether $S=\sum_{n\ge1}p_n/2^n$ is irrational, with $p_1=2$, so
 $S=2/2+3/4+5/8+\cdots=3.67464396601\ldots$ (OEIS A098990). The frontmatter
 status `open` concerns this question. The status search covered the
 primary sources (the 1958, 1980 and 1988 passages), the arXiv API, the

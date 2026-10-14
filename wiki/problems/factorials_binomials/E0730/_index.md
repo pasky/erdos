@@ -43,9 +43,9 @@ registry and copied into Boris Alexeev's repository of formalized Erdős
 problems. This corpus has built neither, and nothing is refereed.
 
 **Source.** [erdosproblems.com/730](https://www.erdosproblems.com/730), accessed
-2026-09-04 and, with its discussion thread, its proof-claims page and the
-community database, 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #730,
-https://www.erdosproblems.com/730.
+2026-09-04 and, with its discussion thread and the community database,
+2026-10-07; its proof-claims page held one claim, accepted. Cite as: T. F.
+Bloom, Erdős Problem #730, https://www.erdosproblems.com/730.
 
 **References.**
 

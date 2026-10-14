@@ -67,10 +67,10 @@ Source: <https://arxiv.org/abs/2403.10515>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0743/_index|#743]]: Theorem 1.2
 (v2 p. 2, page image) proves that the largest epsilon n trees of any such
 family pack edge-disjointly into K_n, for every n and with no degree condition,
-a partial result that says nothing about the other trees; Conjecture 1.1 (p. 1) is
-the problem's question as the paper poses it, indexing the trees from T_1
-and asking for a packing, which is equivalent to the problem's edge-disjoint
-union because the edge counts sum to n choose 2; the site's key JaMo24.
+a partial result that says nothing about the other trees; Conjecture 1.1 (p. 1)
+is the problem's question as the paper poses it, indexing the trees from T_1 and
+asking for a packing, which is equivalent to the problem's edge-disjoint union
+because the edge counts sum to n choose 2; the site's key JaMo24.
 
 **Results.**
 

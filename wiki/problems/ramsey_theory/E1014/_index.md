@@ -48,9 +48,9 @@ is quoted below.
 
 **Status.** PROVED (LEAN). The status-defining source is Theorem 1 of a
 three-page manuscript, *On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$*, hosted
-by OpenAI. The manuscript was retrieved, and its PDF metadata is dated 22
-April 2026. It proves $\lim_{\ell\to\infty}R(k,\ell+1)/R(k,\ell)=1$ for every
-fixed integer $k\ge2$, by dependent random choice on a critical graph. Its
+by OpenAI. The manuscript was retrieved 2026-09-18, and its PDF metadata is
+dated 22 April 2026. It proves $\lim_{\ell\to\infty}R(k,\ell+1)/R(k,\ell)=1$ for
+every fixed integer $k\ge2$, by dependent random choice on a critical graph. Its
 author is OpenAI, and its abstract attributes the proof to an internal model at
 OpenAI. The site accepted it as the resolution on 24 April 2026, with the label
 PROVED (LEAN). This is a solution supported by its source and accepted by the
@@ -82,7 +82,7 @@ Bloom, Erdős Problem #1014, https://www.erdosproblems.com/1014, accessed
 - [OpenAI26] OpenAI, On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$.
   Three-page manuscript,
   https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/Ramsey.pdf,
-  retrieved (HTTP 200); undated in its text, PDF metadata 22
+  retrieved 2026-09-18 (HTTP 200); undated in its text, PDF metadata 22
   April 2026; no author names beyond the abstract's "The proof is due to an
   internal model at OpenAI." Theorem 1 and Remark 1, p. 1; proof, pp. 2--3.
   Library home:
@@ -133,7 +133,7 @@ repository `plby/lean-proofs` on that repository's `main` branch, and the
 variant
 `erdos_1014.variants.upper_bound : ∃ c : ℝ, 0 < c ∧ ∀ k : ℕ, 3 ≤ k → ∃ C : ℝ, ∀ᶠ l : ℕ in atTop, (R(k, l + 1) : ℝ) ≤ (1 + C * (l : ℝ) ^ (-c / (k : ℝ) ^ 2)) * (R(k, l) : ℝ)`,
 also `research solved` and `sorry`, without a formal-proof attribute. The
-community database lists the problem as proved (Lean) as
+community database (accessed 2026-09-18) lists the problem as proved (Lean) as
 of its last update on 24 April 2026, the statement as formalized as of its
 last update on 5 August 2026, `formal_status` Lean and no formal-proof URL.
 The site's indicator records a formalized statement. Nothing was built or

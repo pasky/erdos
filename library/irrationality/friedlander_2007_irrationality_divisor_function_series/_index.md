@@ -18,7 +18,7 @@ Friedlander, J. B., Luca, F. and Stoiciu, M., On the irrationality of a
 divisor function series. Integers 7 (2007), #A31, 9 pp.; received 12/8/06,
 revised 3/20/07, accepted 6/12/07, published 7/3/07, as printed on the
 header; DOI 10.5281/zenodo.8288725 (the journal's Zenodo deposit, checked
-against DataCite).
+against DataCite on 2026-09-17).
 
 Erdos and Kac proved that the sum over n >= 1 of sigma_k(n)/n! is irrational for
 k = 1 and 2; Erdős's 1988 survey (the paper's [5]) states that the method does

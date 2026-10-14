@@ -61,7 +61,7 @@ file is not a formalization of a result.
 
 ## Current assessment
 
-The site's formulation asks whether some $k>2$ admits a
+The site's formulation (accessed 2026-09-04) asks whether some $k>2$ admits a
 coloring of the $k$-subsets of $\{1,\ldots,2k\}$ with $k+1$ colors in which
 every $(k+1)$-subset sees all $k+1$ colors on the $k$-subsets it contains.
 Two $k$-subsets of a $(k+1)$-set share $k-1$ elements, so such a coloring is
@@ -141,7 +141,7 @@ rather than manuscripts, and this page records none of them as a claim. No claim
 settles the problem in either direction.
 
 Search scope: the site's problem page, discussion thread and proof-claims
-listing (none on 2026-10-07), the community database (teorth/erdosproblems),
+listing (none), the community database (teorth/erdosproblems),
 the formal-conjectures statement file and the pull request behind it,
 Brouwer's table of Johnson-graph parameters, the Ma--Tang note at its posted
 address, and a web search for an arXiv or journal version of that note, which

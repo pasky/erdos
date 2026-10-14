@@ -68,10 +68,10 @@ Erdős's 1987 problem paper (Logic and Combinatorics, Contemp. Math. 65,
 223–228), the site's source, states it the same way and calls $(K_4,K_3)$
 the most interesting case. The characterization of all such pairs, which is
 what the problem asks, is open, so the derived standing is `open` with every
-claim an accepted partial claim. The formal-conjectures statement file marks
-the $(C_4,C_6)$ example and the falsity of the original guess research solved
-and the characterization open; the community database lists the problem as
-open.
+claim an accepted partial claim. The formal-conjectures statement file, read on
+2026-10-07, marked the $(C_4,C_6)$ example and the falsity of the original guess
+research solved and the characterization open; the community database lists the
+problem as open.
 
 ## Known Results
 

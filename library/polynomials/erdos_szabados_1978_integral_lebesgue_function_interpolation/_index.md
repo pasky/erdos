@@ -33,7 +33,7 @@ the interpolation article meant by [ErSz78] in the E1153 context; the unrelated
 Erdős--Szekeres binomial-coefficient citation is not this source. The scan
 carries no notice; the publisher's article page shows "© Akadémiai Kiadó" under
 "Reprints and permissions" with subscription access
-(https://link.springer.com/article/10.1007/BF01902213), every
+(https://link.springer.com/article/10.1007/BF01902213, read 2026-10-02), every
 other right reserved.
 
 On printed p. 191 / physical p. 1, the nodes satisfy

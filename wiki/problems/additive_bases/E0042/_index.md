@@ -85,4 +85,5 @@ that bound only as what the method seems able to prove. Two further write-ups
 of the theorem produced with GPT, Barreto's note of 2026-04-29 and Chojecki's
 draft note of 2026-04-30, are disclosed on Sandhu's claim page. The curator
 sketched an alternative Fourier route with better bounds on 2026-04-30, not
-written up in the thread. No refereed publication of the proof is known. The corpus holds no compiled or reviewed proof.
+written up in the thread. No refereed publication of the proof is known. The
+corpus holds no compiled or reviewed proof.

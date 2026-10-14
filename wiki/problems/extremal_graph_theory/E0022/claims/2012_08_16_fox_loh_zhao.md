@@ -56,8 +56,8 @@ records the statement as printed on p. 4 of arXiv v3.
 doi:10.1007/s00493-014-3025-3, published online 22 October 2014. The Crossref
 record and the journal reference in the arXiv listing agree on the venue. The
 site's curator, Thomas Bloom, labeled the problem proved and credits the
-solution to Fox, Loh and Zhao [FLZ15]. The discussion thread and the proof-claim
-tab were empty on 2026-09-18 and on 2026-10-07. The text cited is
+solution to Fox, Loh and Zhao [FLZ15]. The proof-claim tab was empty, and the
+discussion thread was empty on 2026-09-18 and on 2026-10-07. The text cited is
 arXiv:1208.3276v3 (23 September 2014; v1 posted 16 August 2012, the date of this
 page). The journal text is not held. Proof coverage: the statement of Theorem
 1.9. Its proof (p. 30 of the preprint, a consequence of Corollaries 8.9 and 9.2)

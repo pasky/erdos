@@ -116,13 +116,14 @@ constants that "need not be effective", and Mertens' estimates (Tao, 254A notes
 1 and 2, 2014); the multiplicative large sieve (Montgomery--Vaughan II, Theorem
 19.16) and the first- and second-derivative tests (Montgomery--Vaughan II,
 Corollary 16.6 and Theorem 16.7), both from an undated author-hosted draft the
-manuscript says it accessed; the Brun--Hooley sieve inequalities
-(Ford--Halberstam 2000, Lemma 1, reproved as Lemma 2.9); the Efron--Stein
-decomposition lemma (1981); Buchstab's identity (1937); the prime number theorem
-with arbitrary log-power error. Compared but not used: Friedlander-- Iwaniec
-1998, Matomäki--Radziwiłł 2016, Matomäki--Radziwiłł--Tao 2016, Tao 2016,
-Helfgott--Radziwiłł 2021, Pilatte 2026, Soundararajan 2009, Montgomery--Vaughan
-1974, Bharadwaj--Rodgers 2026, Granville 2008. None was checked here.
+manuscript says it accessed on 13 September 2026; the Brun--Hooley sieve
+inequalities (Ford--Halberstam 2000, Lemma 1, reproved as Lemma 2.9); the
+Efron--Stein decomposition lemma (1981); Buchstab's identity (1937); the prime
+number theorem with arbitrary log-power error. Compared but not used:
+Friedlander--Iwaniec 1998, Matomäki--Radziwiłł 2016, Matomäki--Radziwiłł--Tao
+2016, Tao 2016, Helfgott--Radziwiłł 2021, Pilatte 2026, Soundararajan 2009,
+Montgomery--Vaughan 1974, Bharadwaj--Rodgers 2026, Granville 2008. None was
+checked here.
 
 ## Bears on
 

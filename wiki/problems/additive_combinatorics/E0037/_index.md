@@ -41,8 +41,8 @@ there. It gives no `formalized` evidence, since this corpus has not built or
 audited it.
 
 **Source.** [erdosproblems.com/37](https://www.erdosproblems.com/37), accessed
-2026-09-04 and 2026-10-07 (page last edited 23 January 2026; empty
-proof-claim tab). Cite as: T. F. Bloom, Erdős Problem #37,
+2026-09-04 and 2026-10-07 (page last edited 23 January 2026); its proof-claim
+tab was empty. Cite as: T. F. Bloom, Erdős Problem #37,
 https://www.erdosproblems.com/37.
 
 **References.**

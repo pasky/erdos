@@ -73,12 +73,13 @@ unconditional proof does not use it.
 catalog erdosproblems.com. Its curator, Thomas Bloom, credits the unconditional
 proof of irrationality to Tao and Teräväinen in the problem's remarks, and the
 page carried the label PROVED (last edited 2026-04-15). The problem has no forum
-comments and no proof claim. Crossref and the arXiv record list no journal
-publication, so the claim carries no `refereed` evidence. The formal-conjectures
-statement file (the `record` link, pinned at its commit of 2026-10-06) records
-no formal proof. As of that commit, it tags `erdos_69` textbook and its
-specialization of Problem 257 research solved, and it leaves both as `sorry`.
-This corpus has not reproved the theorem and awards no tier of its own.
+comments and no proof claim. Crossref and the arXiv record listed no journal
+publication on 2026-10-07, so the claim carries no `refereed` evidence. The
+formal-conjectures statement file (the `record` link, pinned at its commit of
+2026-10-06) records no formal proof. As of that commit, it tags `erdos_69`
+textbook and its specialization of Problem 257 research solved, and it leaves
+both as `sorry`. This corpus has not reproved the theorem and awards no tier of
+its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited preprint
 alone.

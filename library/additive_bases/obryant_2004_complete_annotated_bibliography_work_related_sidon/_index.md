@@ -93,12 +93,13 @@ Page mapping: the two versions share their page numbers. §1–§9 occupy pp. 1�
 in both, with Definitions 1–3 on p. 3, Conjecture 4 on p. 4, Theorem 5 on p. 10
 and Theorem 6 on p. 15; §10 begins on p. 17 in both, and each of the entries
 [1]–[121] sits on the same pages in both (entry [49] on p. 25, entry [92]
-beginning on p. 31 with its annotation on p. 32). The versions diverge only at the end of the bibliography: p. 37 holds
-DS11 [122]–[126] and arXiv [122]–[124], p. 38 the remaining entries, and DS11's
-last annotation runs onto p. 39. Locators on this card and in its consumers
-are given by section, label or entry number below [122] and name the same
-statement in either version; a page number cited from DS11 elsewhere in the
-corpus resolves to the same page of the arXiv v1.
+beginning on p. 31 with its annotation on p. 32). The versions diverge only at
+the end of the bibliography: p. 37 holds DS11 [122]–[126] and arXiv [122]–[124],
+p. 38 the remaining entries, and DS11's last annotation runs onto p. 39.
+Locators on this card and in its consumers are given by section, label or entry
+number below [122] and name the same statement in either version; a page number
+cited from DS11 elsewhere in the corpus resolves to the same page of the arXiv
+v1.
 
 **Bears on.**
 
@@ -141,8 +142,9 @@ corpus resolves to the same page of the arXiv v1.
 
 Further statements surveyed but not given pages: Conjecture 4 (p. 4) on the
 greedy sequence; the density bounds compiled in §§4–5 (pp. 8–16); and the
-second question of §9 (p. 17), whether $|\mathcal A+\mathcal A|/|\mathcal A|^2>c$
-forces a large $B_2^*[g]$ subset, with $g$ and 'large' depending only on $c$.
+second question of §9 (p. 17), whether
+$|\mathcal A+\mathcal A|/|\mathcal A|^2>c$ forces a large $B_2^*[g]$ subset,
+with $g$ and 'large' depending only on $c$.
 
 ## Overview
 

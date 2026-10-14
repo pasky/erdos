@@ -30,16 +30,16 @@ least $\log_3^{1+c}|A|$ such that the restricted sumset
 $\{s+s':s,s'\in S\text{ and }s\ne s'\}$ is disjoint from $A$"; footnote 2
 (p. 2) derives this form as trivial for $|A|\in\{1,2,3\}$ (a one-element
 $S$ will do), from Theorem 1.2 for $|A|\ge C$ with $C>0$ absolute, and from
-Ruzsa's greedy bound $M(A)>2\log_3|A|-1$ for $4\le|A|<C$, noting that $A=\{-1,0,1\}$
-has $M(A)=1$, "which is the reason for taking logarithms to the base $3$".
-The paper's $M(A)$ minimized over sets of size $n$ is the $g(n)$ of the
-site's Problem 787 for integer sets, which Choi's reduction (attested by
-the papers of Baltz, Schoen and Srivastav and of Beker) makes the
-same as the real-set function.
+Ruzsa's greedy bound $M(A)>2\log_3|A|-1$ for $4\le|A|<C$, noting that
+$A=\{-1,0,1\}$ has $M(A)=1$, "which is the reason for taking logarithms to the
+base $3$". The paper's $M(A)$ minimized over sets of size $n$ is the $g(n)$ of
+the site's Problem 787 for integer sets, which Choi's reduction (attested by the
+papers of Baltz, Schoen and Srivastav and of Beker) makes the same as the
+real-set function.
 
 **Source.** T. Sanders, *The Erdős--Moser sum-free set problem*, Canad. J.
 Math. 73 (2021), no. 1, 63--107, DOI 10.4153/S0008414X1900049X (published
-online 23 September 2019; Crossref record read). The copy read
+online 23 September 2019; Crossref record read 2026-09-18). The copy read
 for this page is arXiv:1804.03356v3 (31 July 2019, 47 pp., "Corrections and
 clarifications"), whose pagination is used here; the journal text was not
 compared. Theorem 1.2 on p. 2, read in the text layer.

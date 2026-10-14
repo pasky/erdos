@@ -51,7 +51,7 @@ o(1))n.
 The copy read for this card is arXiv:1606.04770v2 (10 January 2017,
 "Author's final version", 6 pp.), whose pagination is used here; the
 journal version is J. Number Theory 174 (2017), 518--524, DOI
-10.1016/j.jnt.2016.11.011 (Crossref record read), not
+10.1016/j.jnt.2016.11.011 (Crossref record read 2026-09-18), not
 compared. Conventions (p. 1): the size $k=|A|$ counts the zero element
 ("Often in the literature the zero is not counted, but this makes no
 difference in the asymptotic ratios"), and the range $n=n(A)$ means
@@ -88,8 +88,9 @@ not mention the problem.
 
 **Results.**
 
-- Equation (1) (main result, p. 1; result page written): liminf_{k->infinity} n(k)/k^2 >= 85/294 > 0.2891,
-  where n(k) is the maximal range of an additive 2-basis of size k.
+- Equation (1) (main result, p. 1; result page written): liminf_{k->infinity}
+  n(k)/k^2 >= 85/294 > 0.2891, where n(k) is the maximal range of an additive
+  2-basis of size k.
 - Generalized Mrose basis (equation (2), p. 2; stated on the Theorem 1
   page): For segment length t and placements
   I, J, K with |I|+|J|+|K| = l, the set A = (V + t^2 I) union (H + t^2 J) union

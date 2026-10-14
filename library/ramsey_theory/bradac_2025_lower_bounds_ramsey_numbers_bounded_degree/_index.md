@@ -26,10 +26,10 @@ tower of height k in a constant times Δ, times n.
 D. Bradač, Z. Hunter and B. Sudakov, *Lower bounds for Ramsey numbers of
 bounded degree hypergraphs*, J. Combin. Theory Ser. B 179 (2026), 250--269;
 DOI 10.1016/j.jctb.2026.04.002 (Crossref record created 10 April 2026, July
-2026 issue; read). Preprint arXiv:2502.20863 (v1 28 February
-2025; v3 15 August 2025, with the arXiv comment "Improved result to a tight
-linear dependence on Δ on top of the tower"); the arXiv record carries no
-journal reference.
+2026 issue; read 2026-09-17). Preprint arXiv:2502.20863 (v1 28 February 2025; v3
+15 August 2025, with the arXiv comment "Improved result to a tight linear
+dependence on Δ on top of the tower"); the arXiv record carries no journal
+reference.
 
 The copy read for this card
 is arXiv:2502.20863v3 [math.CO] 15 Aug 2025, 15 pages, with a text layer.

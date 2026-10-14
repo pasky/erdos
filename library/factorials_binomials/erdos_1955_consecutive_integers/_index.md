@@ -43,9 +43,9 @@ ranges of the block n+1, ..., n+k: the prime number theorem for k <= n <= 2k,
 the Hoheisel–Ingham prime-counting result (*) plus the numbers 2p with p > k
 prime for 2k < n <= k^{3/2}, and the binomial-coefficient argument of Theorem 1,
 giving at least k/6 such integers for large k, for n > k^{3/2}. Theorem 3 shows
-that for every n >= 0 at least (1/2 + o(1)) k / log k of the integers n+1, ..., n+k do
-not divide the product of the others, which n = 0 shows best possible. The proof
-of Theorem 1 settles u <= k^{3/2} by the Hoheisel–Ingham gap bound and
+that for every n >= 0 at least (1/2 + o(1)) k / log k of the integers n+1, ...,
+n+k do not divide the product of the others, which n = 0 shows best possible.
+The proof of Theorem 1 settles u <= k^{3/2} by the Hoheisel–Ingham gap bound and
 u > k^{3/2} by a binomial-coefficient argument: if all prime factors of C(u+t,t)
 were at most k, Legendre's formula bounds each prime power by u+t and
 contradicts C(u+t,t) > (u/t)^t. Erdős notes a lower bound f(k) > c_3 log k log
@@ -80,7 +80,8 @@ the statements of Theorems 2 and 3 with the digest's account of the proof of
 Theorem 2 (pp. 126--128) were checked against the page images; no
 proof is verified. No notice is printed in the scan (p. 124 carries the journal
 head and pp. 125--128 only page numbers); the hosting archive's site footer
-speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved. All material on this site
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this site
 is for scientifics purposes only."); the 1955 volume has no publisher page and
 the card gives no DOI, so the publisher's page was not consulted and no Crossref
 license is recorded; the term is unstated.

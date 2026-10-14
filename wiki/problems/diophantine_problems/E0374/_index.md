@@ -27,8 +27,8 @@ square. Let $D_k=\{ m : F(m)=k\}$. What is the order of growth of $\lvert
 D_k\cap\{1,\ldots,n\}\rvert$ for $3\leq k\leq 6$? For example, is it true that
 $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 
-**Status.** OPEN, the site's label (discussion thread and proof-claims tab
-read 2026-10-07). The derived standing, solved and answered,
+**Status.** OPEN was the site's label; its discussion thread was read
+2026-10-07. The derived standing, solved and answered,
 departs from the label. It rests on two accepted claims that reach the same
 conclusions, Hartley and Olson's
 ([[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]])
@@ -113,8 +113,8 @@ coauthors were first with $D_6$ (SSRN, 2026-09-29) and Yudin with the full
 determination (arXiv, 2026-10-01). Whether Hartley and Olson's arguments for
 $D_3$ and $D_5$, first public on 2026-10-04 and citing Yudin's preprint until
 2026-10-05, were found independently is not settled by the record, as both claim
-pages record. Search scope: the site's problem page, discussion thread and
-proof-claims tab with its comments, read 2026-10-07, the arXiv record, the
+pages record. Search scope: the site's problem page and discussion thread,
+read 2026-10-07, its proof-claims tab with its comments, the arXiv record, the
 Zenodo record and the GitHub repository named on the Hartley–Olson claim page;
 the SSRN posting is outside that scope. This corpus holds no independent
 verification record of either proof.

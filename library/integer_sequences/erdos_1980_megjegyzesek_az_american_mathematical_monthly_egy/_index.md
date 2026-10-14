@@ -50,7 +50,8 @@ $\sum_{n\ge1}1/(n^{1/2}(n+1))$, since the partial sums of the two series
 differ by $K^{1/2}/(K+1)$ (summation by parts, recorded on the Theorem I
 page). The paper does not state that the constant is attained by some $A$. No
 notice is printed on any of the four pages; the hosting archive's site footer
-speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All material on this site is for
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02: "(C) 2005-2007 All rights reserved. All material on this site is for
 scientifics purposes only."); Matematikai Lapok has no publisher page for 1980,
 so none was consulted, and no Crossref license is recorded; the term is
 unstated.

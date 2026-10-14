@@ -46,7 +46,7 @@ Corollary 2 of Joret, Micek, Reed and Smid and Kim's Theorem 1.1 as its
 Theorems 3 and 6 without proof; its Remark 8 says that the argument does not
 settle the Erdős--Gallai--Tuza conjecture $\tau(G)\le n-f(n)$ of
 [[problems/extremal_graph_theory/E0151/_index|Problem 151]]. The Lean file
-(336 lines, `import Mathlib`) defines
+(read 2026-09-19: 336 lines, `import Mathlib`) defines
 maximal cliques, clique transversals and clique colorings, proves the
 transfer and the triangle-free equivalences, declares `jmrs_theorem` and
 `kim_theorem` with `sorry` under a docstring saying their proofs are beyond

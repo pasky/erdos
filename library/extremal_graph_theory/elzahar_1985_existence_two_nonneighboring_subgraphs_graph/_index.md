@@ -79,17 +79,17 @@ for the abstract and the introduction's question and reduction (p. 295 =
 PDF p. 1), the Section 3 remarks on Wagon's theorem and the values
 $f(2,2)$, $f(3,2)$, $f(4,2)$, Theorem 1 and Theorem 2 (p. 296 = PDF p. 2),
 the Mycielski remark and Corollary 3 (p. 297 = PDF p. 3) and the reference
-list (p. 300 = PDF p. 6), read clause by clause on the page images; the proofs of Theorems 1 and 2 were read for structure; the
-statements of Section 4 (Theorems 4--5, Corollaries 1--2 and the 13-vertex
-and 5-critical examples, pp. 297--300), which the corpus does not consume,
-were read on the page images, their proofs for structure only. Section 4
-is paged at
+list (p. 300 = PDF p. 6), read clause by clause on the page images; the proofs
+of Theorems 1 and 2 were read for structure; the statements of Section 4
+(Theorems 4--5, Corollaries 1--2 and the 13-vertex and 5-critical examples, pp.
+297--300), which the corpus does not consume, were read on the page images,
+their proofs for structure only. Section 4 is paged at
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_4|theorem_4]],
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_5|theorem_5]],
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_1|corollary_1]]
 and
-[[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_2|corollary_2]]. The consumed
-statements are paged at
+[[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_2|corollary_2]].
+The consumed statements are paged at
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_1|theorem_1]],
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_2|theorem_2]]
 and

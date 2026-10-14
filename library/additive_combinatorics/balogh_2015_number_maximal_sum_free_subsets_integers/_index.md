@@ -25,7 +25,7 @@ the exponent, answering the question whether that number is o(2^{n/2}).
 Balogh, József and Liu, Hong and Sharifzadeh, Maryam and Treglown, Andrew,
 The number of maximal sum-free subsets of integers. Proc. Amer. Math. Soc.
 143 (2015), no. 11, 4713--4721, DOI 10.1090/S0002-9939-2015-12615-9 (Crossref
-record read).
+record read 2026-09-18).
 
 The copy read for this card
 is arXiv:1409.5661v1 (19 September 2014; ten pages; "to appear in the

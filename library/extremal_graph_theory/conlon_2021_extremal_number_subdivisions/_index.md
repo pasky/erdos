@@ -77,13 +77,13 @@ reconstruction. Janzer's
 [[extremal_graph_theory/janzer_2019_improved_bounds_extremal_number_subdivisions/theorem_3|Theorem 3]]
 improves the explicit clique-subdivision gap to $1/(4t-6)$.
 
-**Reading and proof scope.** Complete rendered pp. 1--2, 8--9 and 14 were inspected
-for source identity, definitions, exact statements and final proof assembly. The
-intervening proofs and external inputs were not independently checked. The
-result pages are statement extractions with proof pointers; they confer no
-complete source-proof acceptance or formal-verification credit. The arXiv
-version and author/publication records were checked; the bounded search is
-recorded on the problem page.
+**Reading and proof scope.** Complete rendered pp. 1--2, 8--9 and 14 were
+inspected for source identity, definitions, exact statements and final proof
+assembly. The intervening proofs and external inputs were not independently
+checked. The result pages are statement extractions with proof pointers; they
+confer no complete source-proof acceptance or formal-verification credit. The
+arXiv version and author/publication records were checked on 2026-09-09; the
+bounded search is recorded on the problem page.
 
 Source: [arXiv:1807.05008v2](https://arxiv.org/abs/1807.05008v2).
 

@@ -32,7 +32,7 @@ six-way blow-up that refutes Turán's n^3/24 conjecture.
 
 Frankl, P. and Füredi, Z., An exact result for $3$-graphs. Discrete Math.
 50 (1984), 323--328, doi:10.1016/0012-365X(84)90058-X (the volume and DOI
-from the Crossref record). A "Communication",
+from the Crossref record, read on 2026-09-18). A "Communication",
 communicated by A. Hajnal, received 24 January 1984 (p. 323).
 
 The copy read for this card is a six-page scan of the journal article with the
@@ -65,13 +65,13 @@ with edges the triples whose triangle contains the origin (Example 2). Theorem 2
 then shows that for |V| = n >= 5 the maximum number of edges is attained exactly
 by H_S over an equipartition with floor(n/6) <= |V_i| <= ceil(n/6). Because H_S
 over a partition with every |V_i| >= floor(n/6) already has more than
-10 floor(n/6)^3 edges, which the paper states is more than n^3/24 (p. 324), this construction
-disproves Turan's conjecture that m(n,3,4,3) is asymptotic to n^3/24; iterating
-the six-way partition inside each class pushes the count to n^3(1 + o(1))/21,
-the lower half of Theorem 3's bounds on m(n,3,4,3). The method is a direct
-structural analysis of the local four-point condition. The paper bears on Erdos
-problem 794 through these bounds on m(n,3,4,3), the maximum number of triples on
-n points with no four points spanning three of them.
+10 floor(n/6)^3 edges, which the paper states is more than n^3/24 (p. 324), this
+construction disproves Turan's conjecture that m(n,3,4,3) is asymptotic to
+n^3/24; iterating the six-way partition inside each class pushes the count to
+n^3(1 + o(1))/21, the lower half of Theorem 3's bounds on m(n,3,4,3). The method
+is a direct structural analysis of the local four-point condition. The paper
+bears on Erdos problem 794 through these bounds on m(n,3,4,3), the maximum
+number of triples on n points with no four points spanning three of them.
 
 As printed: $m(n,r,k,s)$ is "the maximum number of edges in an $r$-graph on
 $n$ vertices in which any $k$ vertices span less than $s$ edges" (p. 323);
@@ -81,29 +81,29 @@ $n^3/24$" (p. 323; [3] is Erdős and Sós, Combinatorica 2 (1982) 289--295,
 reads $\frac{2+o(1)}7\binom n3\le m(n,3,4,3)\le\frac13\binom n3\frac n{n-2}$,
 "The upper bound was proved by Caen [2]" (D. de Caen, Ars Combinatoria 16
 (1983) 5--10) and the lower bound "was proved independently by Giraud [5]
-also" (a private communication by Erdős). Section 4 (pp. 327--328) records, on p. 328,
-Conjecture 1 (Erdős and Sós): a 3-graph in which every vertex link is
-bipartite has fewer than $n^3/24$ edges, with Example 2 giving
-$n^3(1+o(1))/24$; and Problem 1: the maximum size of an $r$-graph in which
-any $r+1$ points span zero or two edges, with Example 3 (points on the unit
-sphere in $r-1$ dimensions, an edge when the simplex contains the origin)
-giving $\binom nr(1+o(1))/2^{r-1}$.
+also" (a private communication by Erdős). Section 4 (pp. 327--328) records, on
+p. 328, Conjecture 1 (Erdős and Sós): a 3-graph in which every vertex link is
+bipartite has fewer than $n^3/24$ edges, with Example 2 giving $n^3(1+o(1))/24$;
+and Problem 1: the maximum size of an $r$-graph in which any $r+1$ points span
+zero or two edges, with Example 3 (points on the unit sphere in $r-1$
+dimensions, an edge when the simplex contains the origin) giving
+$\binom nr(1+o(1))/2^{r-1}$.
 
 Source: <https://users.renyi.hu/~furedi/>.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0794/_index|#794]]: the site's
-commentary reads the problem as asking for the density of $m(n,3,4,3)$, which
-the problem page records as a variant with its own answer, not as a modified
-Statement. For that variant Theorem 3 (p. 325;
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0794/_index|#794]]: the
+site's commentary reads the problem as asking for the density of $m(n,3,4,3)$,
+which the problem page records as a variant with its own answer, not as a
+modified Statement. For that variant Theorem 3 (p. 325;
 [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|theorem_3]])
-gives the site's $2/7$ lower bound and de Caen's $1/3$ upper bound, and the
-p. 324 sentence disproves Turán's $n^3/24$ (density $1/4$), which the site
-records as Turán's earlier conjecture. Theorems 1 and 2
+gives the site's $2/7$ lower bound and de Caen's $1/3$ upper bound, and the p.
+324 sentence disproves Turán's $n^3/24$ (density $1/4$), which the site records
+as Turán's earlier conjecture. Theorems 1 and 2
 ([[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_1|theorem_1]],
 [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_2|theorem_2]],
 p. 324) appear on the problem page only as context: it records that they
-classify the 3-graphs in which every four vertices span exactly 0 or 2 edges
-and show $H_S$ over an equipartition extremal for $n\ge5$, a stricter local
+classify the 3-graphs in which every four vertices span exactly 0 or 2 edges and
+show $H_S$ over an equipartition extremal for $n\ge5$, a stricter local
 condition than the problem's.
 
 **Results.**

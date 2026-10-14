@@ -56,7 +56,7 @@ formalized evidence.
 
 ## Current assessment
 
-**The question (the site's formulation).** Estimate
+**The question (the site's formulation, accessed 2026-09-04).** Estimate
 $g(n)$, the length of the longest chain $2\le a_1<\dots<a_t<n$ along which
 the greatest prime factor strictly decreases; SOLVED (LEAN).
 

@@ -63,7 +63,7 @@ pp. 1--7 (printed p. $n$ is PDF p. $n-314$), a 2005 scan (the file's
 metadata names a TIFF source, `315_1.tif`, and a July 2005 creation date)
 with an OCR text layer that locates passages and garbles the Greek $\rho$,
 the subscripts, the inequality signs and the displays. Provenance: the copy
-read was the publisher's PDF, downloaded from
+read was the publisher's PDF, downloaded on 2026-09-22 from
 <https://link.springer.com/content/pdf/10.1007/BF02412090.pdf>, the DOI
 <https://doi.org/10.1007/BF02412090> resolving to the article; 227,915
 bytes. No copyright line appears in the OCR text layer of the publisher's scan;

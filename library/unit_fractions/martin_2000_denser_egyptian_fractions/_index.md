@@ -37,7 +37,7 @@ Martin, Greg, Denser Egyptian fractions. Acta Arith. 95 (2000), no. 3, 231-260.
 
 The copy read for this card is the arXiv
 preprint arXiv:math/9811112v1 (18 November 1998; the only arXiv version,
-whose listing carries the journal reference Acta Arith.
+whose listing, read 2026-09-17, carries the journal reference Acta Arith.
 95 (2000), no. 3, 231--260, and Crossref gives DOI
 10.4064/aa-95-3-231-260), 26 typeset pages
 with a text layer and the preprint's own pagination 1--26. The journal

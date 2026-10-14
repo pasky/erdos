@@ -45,14 +45,13 @@ https://www.erdosproblems.com/8.
 - [Ho15] Hough, Bob, Solution of the minimum modulus problem for covering
   systems. Ann. of Math. (2) 181 (2015), no. 1, 361-382.
 
-**Formalization.** The catalog (google-deepmind/formal-conjectures) has no
-statement file for this problem. The development behind
-the site's Lean mark and the community database's formal status Lean (since
-2026-08-24) is the file `src/latest/ErdosProblems/Erdos8.lean` in Boris
-Alexeev's lean-proofs repository, which declares itself a formalization of
-Hough's solution with Codex and GPT-5.6 Sol as formal authors and proves the
-negative answer from the repository's Problem 2 development; it is linked at
-a pinned commit on
+**Formalization.** The catalog (google-deepmind/formal-conjectures) had no
+statement file for this problem on 2026-10-07. The development behind the site's
+Lean mark and the community database's formal status Lean (since 2026-08-24) is
+the file `src/latest/ErdosProblems/Erdos8.lean` in Boris Alexeev's lean-proofs
+repository, which declares itself a formalization of Hough's solution with Codex
+and GPT-5.6 Sol as formal authors and proves the negative answer from the
+repository's Problem 2 development; it is linked at a pinned commit on
 [[problems/covering_systems/E0008/claims/2013_07_02_hough|the claim page]].
 Nothing was built here.
 

@@ -38,14 +38,14 @@ bipartite graphs. arXiv:1401.6711 (2014). The site's reference key CFS14b.
 
 **Edition read.** The copy read for this card is arXiv:1401.6711v1 (27 January
 2014; 4 pages), the only arXiv version: the
-abstract page and the arXiv API record, list no later
+abstract page and the arXiv API record, read on 2026-09-18, list no later
 version and no journal reference. A text-layer PDF, whose pp. 1--3 were read
 on the rendered page images. No journal record of this note was found by a
 Crossref bibliographic query on 2026-09-18; the discussion thread of Problem
 1008 reports that the result reappears as Theorem 3.1 of the same authors'
 refereed paper *Short proofs of some extremal results II* (J. Combin. Theory
 Ser. B 121 (2016), 173--196, doi:10.1016/j.jctb.2016.03.005; arXiv:1507.00547;
-Crossref record read), which is not held; it has its own card,
+Crossref record read 2026-09-18), which is not held; it has its own card,
 [[set_systems/conlon_2016_short_proofs_extremal_results_ii/_index|conlon_2016_short_proofs_extremal_results_ii]],
 read in its arXiv v2.
 Source: <https://arxiv.org/abs/1401.6711>. The arXiv record names arXiv's

@@ -104,10 +104,10 @@ subtracted term is at most
 $2^{k+1}4^{k/m^2}m^{2k}X^{2k}p^{-1-1/2m^2(2m-1)}$, and the paper
 concludes from the prime number theorem that the difference is positive
 for sufficiently large $X$, hence for sufficiently large $p$ (p. 448); the
-input is $\#\mathscr W(X)\gg X^2/\log^2X$ (an authored gloss). The choice $k-1=2m^2(2m-1)$ makes
-$k/2m^2(2m-1)=1+1/2m^2(2m-1)$, so the exponent of $p$ in the subtracted
-term falls below $-1$ and the main term $(\#\mathscr W(X))^k/2p$ wins (an
-authored reading of the last display). Not checked here.
+input is $\#\mathscr W(X)\gg X^2/\log^2X$ (an authored gloss). The choice
+$k-1=2m^2(2m-1)$ makes $k/2m^2(2m-1)=1+1/2m^2(2m-1)$, so the exponent of $p$ in
+the subtracted term falls below $-1$ and the main term $(\#\mathscr W(X))^k/2p$
+wins (an authored reading of the last display). Not checked here.
 
 ## Dependencies
 

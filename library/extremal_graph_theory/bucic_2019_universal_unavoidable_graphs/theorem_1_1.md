@@ -47,7 +47,7 @@ transfers to that problem; the card's digest already says so.
 graphs*, arXiv:1912.04889v2 (21 December 2020; 14 pp.), pp. 1--2, read on the
 rendered page images; the journal version, Combin. Probab. Comput. 30
 (2021), no. 6, 942--955, doi:10.1017/S0963548321000110 (Crossref record and
-the arXiv record's journal reference), is not held and was
+the arXiv record's journal reference, read 2026-09-18), is not held and was
 not compared. The artifact is identified in the
 [[extremal_graph_theory/bucic_2019_universal_unavoidable_graphs/_index|source digest]].
 

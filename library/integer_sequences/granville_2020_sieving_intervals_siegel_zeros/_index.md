@@ -58,10 +58,9 @@ the two scripted requests to impan.pl on 2026-09-22 (the volume 205 issue 1
 listing and the DOI-shaped path) both answered HTTP 403 with an empty body. Its
 section numbering, page numbers and any revised statements or constants are
 therefore not recorded here, and nothing below is keyed to it. Provenance of
-the copy read: downloaded from <https://arxiv.org/pdf/2010.01211v1> on
-2026-09-22; 222,744 bytes. For the arXiv v1 manuscript, the arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2010.01211), every other
-right reserved.
+the copy read: downloaded from <https://arxiv.org/pdf/2010.01211v1>; 222,744
+bytes. For the arXiv v1 manuscript, the arXiv record names arXiv's non-exclusive
+distribution license (arXiv:2010.01211), every other right reserved.
 
 **Read status.** Claims checked against arXiv v1 for Corollary 1 (p. 3),
 Proposition 1 (pp. 3--4), Corollary 2 and the Jacobsthal remarks after it

@@ -52,11 +52,11 @@ https://www.erdosproblems.com/262.
 - [Ha91] Han\v cl, Jaroslav, Expression of real numbers with the help of
   infinite series. Acta Arith. (1991), 97-104.
 
-**Formalization.** No statement in formal-conjectures (no file for the problem;
-the site's formalised-statement field says no). The community database has
-recorded a Lean formal status for the problem as of that field's last update
-on 2026-08-24, without recording when that state was set, and names no
-proof. The public Lean 4 proof of Hančl's bound in the lean-proofs repository
+**Formalization.** No statement in formal-conjectures (no file for the problem
+on 2026-10-07; the site's formalised-statement field says no). The community
+database has recorded a Lean formal status for the problem as of that field's
+last update on 2026-08-24, without recording when that state was set, and names
+no proof. The public Lean 4 proof of Hančl's bound in the lean-proofs repository
 (entered 2026-08-17), whose own header declares it a formalization of Hančl's
 solution, is linked from the claim page; the corpus records no build or audit of
 it.

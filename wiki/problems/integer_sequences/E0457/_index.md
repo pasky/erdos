@@ -102,7 +102,7 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
 
 - [Er79d] Erdős, P., Some unconventional problems in number theory. Acta
   Math. Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI
-  10.1007/BF01903382 (Crossref record); Section 3,
+  10.1007/BF01903382 (Crossref record accessed 2026-09-18); Section 3,
   printed p. 78: the definition of $q(n,k)$, display (10), the example and
   the two questions. Library home:
   [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]].
@@ -122,7 +122,7 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
 - [OEIS] Beregovsky, E., Sequence A391668, The On-Line Encyclopedia of
   Integer Sequences (2025; entry last modified 20 January 2026, server
   time): the table of the least number coprime to every integer in
-  $[n+1,n+k]$, read by antidiagonals. A data lead only.
+  $[n+1,n+k]$, read by antidiagonals; accessed 2026-09-18. A data lead only.
 
 **Formalization.** The site's suffix (Lean) is a catalog label; see
 "Formalization and the Lean label" below for the file's contents. The file
@@ -139,7 +139,7 @@ variants are `category research open` with `sorry` bodies:
 prime `q n (Real.log n)` (so the file marks the question solved in one form and
 open in its restatement, an internal inconsistency of the file), and
 `erdos_457.variants.one_sub`, the upper-bound question of Problem 1181. The
-community database (teorth/erdosproblems) lists the
+community database (teorth/erdosproblems, accessed 2026-09-18) lists the
 problem as proved, with the Lean marker, as of its last update on 7 March 2026,
 with the statement formalized since 31 August 2025, `formal_status` Lean, OEIS
 A391668 and no formal-proof URL; the site's indicator shows a formalized

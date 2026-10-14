@@ -93,7 +93,8 @@ Problem #709, https://www.erdosproblems.com/709, accessed 2026-09-18.
   [[../library/primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|Theorem 2]].
 - [ChKo26] Chen, K. and Korsky, S., Improved bounds for distinct multiples
   in intervals. arXiv:2607.26450 (v1 29 July 2026, v2 13 August 2026; no
-  journal reference). Not held; known here from its arXiv abstract only;
+  journal reference). Not held; known here from its arXiv abstract only
+  (accessed 2026-09-18);
   cited from the thread as a lead.
 
 **Formalization.** None found on 2026-09-18: the problem page shows no

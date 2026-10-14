@@ -243,8 +243,8 @@ and Crossref records, those of [GKLPS26] and [PiSu26] from the arXiv versions
 of the papers, and those of [CHL26] and [BPSWZ26] from their first arXiv
 versions; none of the six is in the library and their proofs are unreviewed.
 
-Search scope: the site's page (read again on 2026-10-13, still last edited 7
-October 2025) and discussion thread (one comment, of 6 October 2025, pointing
+Search scope: the site's page (read 2026-10-13, last edited 7 October 2025)
+and discussion thread (one comment, of 6 October 2025, pointing
 to the two credited papers and to the exact results on
 [[problems/set_systems/E0207/_index|Problem 207]]), the community database
 (teorth/erdosproblems), the formal-conjectures catalog, the lean-proofs catalog,

@@ -20,7 +20,7 @@ Erdős–Faudree–Rousseau–Schelp conjecture for all large clique orders.
 
 P. Keevash, E. Long and J. Skokan, *Cycle-complete Ramsey numbers*, Int.
 Math. Res. Not. IMRN **2021**, no. 1, 275--300; DOI 10.1093/imrn/rnz119
-(published online 10 July 2019; the Crossref record,
+(published online 10 July 2019; the Crossref record, read on 2026-09-17,
 gives the pages 275--300, while the site's reference for Problem 551 gives
 277--302). Preprint arXiv:1807.06376v1 (17 July 2018; the only arXiv version
 on 2026-09-17; the arXiv page lists no journal reference).

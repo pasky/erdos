@@ -43,7 +43,7 @@ Rocky Mountain Journal of Mathematics **26** (1996), no. 1, 77–81.
 
 The copy read for this card is the complete five-page scan at Cochrane's
 public [PDF URL](https://www.math.ksu.edu/~cochrane/research/covering.pdf),
-downloaded from that URL (657308 bytes). All five physical pages
+downloaded from that URL on 2026-09-05 (657308 bytes). All five physical pages
 were read visually. No notice is printed on the five scanned
 pages; the publisher's article page on Project Euclid could not be read on
 2026-10-02 (DOI 10.1216/rmjm/1181072104, a bot challenge), its issue listing

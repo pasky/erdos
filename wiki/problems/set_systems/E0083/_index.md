@@ -56,7 +56,7 @@ not been built or audited here.
 
 ## Current assessment
 
-The site's formulation is the $4m$-conjecture of Erdős,
+The site's formulation (accessed 2026-09-04) is the $4m$-conjecture of Erdős,
 Ko and Rado [ErKoRa61] with $m=n$: a family of $2n$-element subsets of $[4n]$
 in which every two members share at least two elements has at most
 $\frac12\bigl(\binom{4n}{2n}-\binom{2n}n^2\bigr)$ members, the size of the

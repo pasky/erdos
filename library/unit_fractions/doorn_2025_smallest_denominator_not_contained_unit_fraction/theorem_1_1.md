@@ -30,7 +30,7 @@ arXiv:2512.22083v2 (24 May 2026; v1 26 December 2025), 7 pages; Theorem
 1.1 on p. 2, proof pp. 4--6, Lemma 2.1 on p. 2 (proof pp. 2--3), Lemma 2.2
 on pp. 3--4. The version of record appeared online on 8 July 2026 in
 Mathematical Proceedings of the Cambridge Philosophical Society, pp. 1--9,
-doi:10.1017/S0305004126102102 (Crossref record fetched); the
+doi:10.1017/S0305004126102102 (Crossref record fetched 2026-09-17); the
 copy read for this page is v2, whose comments line says the paper was
 accepted with minor revisions following the referee's suggestion, and the
 published text was not compared with it. Locators refer to v2.

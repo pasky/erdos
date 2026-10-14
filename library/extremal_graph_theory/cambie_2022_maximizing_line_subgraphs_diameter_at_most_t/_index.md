@@ -54,9 +54,9 @@ Rémi and Kang, Ross J., Maximizing line subgraphs of diameter at most {$t$}.
 SIAM J. Discrete Math. (2022), 939--950.
 
 **Retained artifact.** The journal version is SIAM J. Discrete Math. 36 (2022),
-no. 2, 939--950, DOI 10.1137/21M1437354 (Crossref record read; an extended
-abstract appeared in Trends in Mathematics 14 (2021), 331--338, the EuroComb
-2021 proceedings). The [folder-name
+no. 2, 939--950, DOI 10.1137/21M1437354 (Crossref record read 2026-09-19; an
+extended abstract appeared in Trends in Mathematics 14 (2021), 331--338, the
+EuroComb 2021 proceedings). The [folder-name
 PDF](cambie_2022_maximizing_line_subgraphs_diameter_at_most_t.pdf) is the arXiv
 preprint arXiv:2103.11898v2 (10 December 2021, "v2 accepted to SIAM Journal on
 Discrete Mathematics"), 12 pages, titled "Maximising line subgraphs of diameter

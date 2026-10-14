@@ -34,7 +34,7 @@ Yann Bugeaud, Pietro Corvaja, and Umberto Zannier, *An upper bound for the
 G.C.D. of $a^n-1$ and $b^n-1$*, **Mathematische Zeitschrift 243** (2003), 79–84,
 [DOI 10.1007/s00209-002-0449-z](https://doi.org/10.1007/s00209-002-0449-z). The
 publisher records receipt on 27 April 2001 and online publication on 8 November
-2002; January 2003 is the issue date. Metadata was checked.
+2002; January 2003 is the issue date. Metadata was checked on 5 September 2026.
 
 ## Source artifacts and versions
 

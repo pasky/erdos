@@ -61,13 +61,14 @@ The copy read for this card
 is arXiv:2107.12288v2 (28 January 2022, dated 1 February 2022 on its first
 page, 13 pages with a clean text layer); the identity line above is the
 published version, SIAM J. Discrete Math. 36 (2022), no. 2, 1124--1134,
-doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record read), whose text was not compared, so the locators
-here are the preprint's. Read status: claims checked for Theorem 1 and Table
-1 (p. 3 of the preprint, read clause by clause on the page image), and for
-Theorem 2 (p. 3) and Corollary 3 (p. 4), read clause by clause on the page
-images; the proofs of Theorem 2 and Corollary 3 (pp. 7--9, in Section 3, pp. 6--9) were
-read through for the proof pointers and not reviewed, and the proof of
-Theorem 1 was not read. The results are paged at
+doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record read
+2026-09-18), whose text was not compared, so the locators here are the
+preprint's. Read status: claims checked for Theorem 1 and Table 1 (p. 3 of the
+preprint, read clause by clause on the page image), and for Theorem 2 (p. 3) and
+Corollary 3 (p. 4), read clause by clause on the page images; the proofs of
+Theorem 2 and Corollary 3 (pp. 7--9, in Section 3, pp. 6--9) were read through
+for the proof pointers and not reviewed, and the proof of Theorem 1 was not
+read. The results are paged at
 [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|theorem_1]],
 [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_2|theorem_2]]
 and
@@ -107,12 +108,13 @@ $(2\sqrt2+o(1))\sqrt{n/\log n}$ bound from Shearer's $R(3,t)$ estimate.
 - [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/corollary_3|Corollary 3]]
   (p. 4 of the preprint): A triangle-free graph of genus at most g has
   chromatic number at most (3 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3} and list
-  chromatic number at most (12 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3}, as g tends to infinity;
-  the same bounds hold for graphs embeddable on a closed non-orientable
-  surface of genus at most 2g.
+  chromatic number at most (12 * 6^{2/3}+o(1)) g^{1/3}/(log g)^{2/3}, as g tends
+  to infinity; the same bounds hold for graphs embeddable on a closed
+  non-orientable surface of genus at most 2g.
 - Theorem 4 (Molloy, quoted, p. 4): As Delta tends to infinity, any
   triangle-free graph of maximum degree Delta has (list) chromatic number at
-  most (1+o(1)) Delta/log Delta; this is the input to the low-degree case of the induction.
+  most (1+o(1)) Delta/log Delta; this is the input to the low-degree case of the
+  induction.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

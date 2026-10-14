@@ -78,7 +78,7 @@ unknown exponents, and Nicolas conjectures
 $\log Q(x)/\log\log x\to\log30/\log16=1.2267\ldots$; no later result on the
 exponent is recorded here. No formalization is recorded, and this repository
 has not checked Nicolas's proof independently; the account rests on the site
-page and the two cited papers' publication records.
+page, accessed 2026-10-07, and the two cited papers' publication records.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

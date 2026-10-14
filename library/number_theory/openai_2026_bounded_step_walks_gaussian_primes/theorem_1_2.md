@@ -38,7 +38,8 @@ explicit.
 **Source.** OpenAI, *Bounded-Step Walks on Gaussian Primes*, release folder
 `preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026`; TeX file
 `main.tex`, label `thm:sieve` (lines 120--125), PDF p. 2; proof in
-`information.tex` lines 387--417, PDF p. 28, resting on Sections 3--8; read. The card
+`information.tex` lines 387--417, PDF p. 28, resting on Sections 3--8; read. The
+card
 [[number_theory/openai_2026_bounded_step_walks_gaussian_primes/_index|openai_2026_bounded_step_walks_gaussian_primes]]
 records the provenance and the release's attestations.
 

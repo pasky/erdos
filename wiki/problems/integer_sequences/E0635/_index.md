@@ -53,7 +53,7 @@ under Current assessment; this corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation asks two things: how large a set
+The site's formulation (accessed 2026-09-04) asks two things: how large a set
 $A\subseteq\{1,\ldots,N\}$ can be when no difference $b-a\ge t$ of two of
 its elements divides the larger element $b$, and whether
 $\lvert A\rvert\le(1/2+o_t(1))N$. The problem page lists these as its two
@@ -81,6 +81,6 @@ database (teorth/erdosproblems) lists the problem as open and records no
 formalized statement. The site's proof-claim tab lists no claims.
 
 Search scope: the site's problem page (last edited 1 February 2026) and
-discussion thread (six comments and no proof claims on 2026-10-07), the
+discussion thread (six comments on 2026-10-07; no proof claims), the
 community database, the formal-conjectures repository and the reference listed
 above. On that date none of them held another claim on the problem.

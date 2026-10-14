@@ -138,13 +138,14 @@ which implies the declared statement. The file carried no such attribute on
 2026-09-17. That repository file, which names Bradač as its informal author, is
 linked from
 [[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|Bradač's claim page]]
-beside the two Trellis repositories. The community database lists the problem as
-proved, as of its entry's last update on 21 June 2026, lists the statement as
-formalized with the date 9 September 2026, and records no formal proof or
-formal-proof URL. The site's status label carried no Lean suffix. None of these
-files was built or audited here. The OpenAI release's two Lean declarations for
-its $s\ge5$ claim, built and audited by the corpus's verification, are recorded
-on [[problems/ramsey_theory/E0986/claims/2026_09_24_openai|that claim's page]];
+beside the two Trellis repositories. The community database (fetched 2026-09-17)
+lists the problem as proved, as of its entry's last update on 21 June 2026,
+lists the statement as formalized with the date 9 September 2026, and records no
+formal proof or formal-proof URL. The site's status label carried no Lean
+suffix. None of these files was built or audited here. The OpenAI release's two
+Lean declarations for its $s\ge5$ claim, built and audited by the corpus's
+verification, are recorded on
+[[problems/ramsey_theory/E0986/claims/2026_09_24_openai|that claim's page]];
 they certify the sharp exponent for every fixed $s\ge5$ and nothing for $s=3$ or
 $s=4$.
 
@@ -195,8 +196,8 @@ $r(s,k)\ge k^{s-1+o(1)}$ compared to the previous $r(s,k)\ge k^{s-2+o(1)}$"; the
 site's reference [Br26] pairs the v1 title with the arXiv identifier. Acceptance
 evidence: the site's curator, Thomas Bloom, labeled the problem PROVED (page
 last edited 21 June 2026) and credits the paper with the resolution, which the
-claim page records as `reviewed`. No journal record exists under either title
-(publisher bibliographic queries); Semantic Scholar lists three
+claim page records as `reviewed`. No journal record existed under either title
+(publisher bibliographic queries, 2026-09-17); Semantic Scholar lists three
 citing records (a 2026 paper on Erdős--Rogers problems, a paper on pathwidth and
 the paper of an autoformalization system), none a review or refutation. Read
 depth: claims checked for Theorem 1.1, the displays (1)--(2) and the declaration

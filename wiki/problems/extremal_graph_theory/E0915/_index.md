@@ -169,11 +169,12 @@ accessed 2026-09-19.
   as hard to find.
 - [Le72] Leonard, John L., On graphs with at most four line-disjoint paths
   connecting any two vertices. J. Combinatorial Theory Ser. B 13 (1972),
-  242--250, doi:10.1016/0095-8956(72)90059-7 (Crossref record). The definitions
-  of a point and a line $r$-way, p. 243; the definition of $l_r(n)$ with
-  $l_r(n)=k_r(n)$ for $r=2,3,4$, p. 244; the $J$-graphs, pp. 245--246; the
-  Theorem, pp. 246--247; the conclusion $l_5(2n)=5n-2$, $l_5(2n+1)=5n+1$ and the
-  general formula with its open question, p. 250. Library home:
+  242--250, doi:10.1016/0095-8956(72)90059-7 (Crossref record accessed
+  2026-09-19). The definitions of a point and a line $r$-way, p. 243; the
+  definition of $l_r(n)$ with $l_r(n)=k_r(n)$ for $r=2,3,4$, p. 244; the
+  $J$-graphs, pp. 245--246; the Theorem, pp. 246--247; the conclusion
+  $l_5(2n)=5n-2$, $l_5(2n+1)=5n+1$ and the general formula with its open
+  question, p. 250. Library home:
   [[../library/extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices]];
   paged at
   [[../library/extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/remark_p244|remark_p244]]
@@ -181,7 +182,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/theorem_p246|theorem_p246]].
 - [Le73] Leonard, John L., On a conjecture of Bollobás and Erdős. Period.
   Math. Hungar. 3 (1973), no. 3--4, 281--284, doi:10.1007/BF02018594
-  (Crossref record). The conjecture, the definition of an
+  (Crossref record accessed 2026-09-19). The conjecture, the definition of an
   $m$-way and the two announced results, p. 281; the framework $F$ and the
   constructions $F_1$, $F_2$, $F_3$ and the counterexample $G$ with $57$
   points and $141$ edges, pp. 281--282; the graphs $F_4$, $F_5$ and $F_6$
@@ -194,18 +195,18 @@ accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|bound_p282]].
 - [Le73b] Leonard, John L., Graphs with 6-ways. Canadian J. Math. 25 (1973),
-  no. 4, 687--692, doi:10.4153/CJM-1973-069-x (Crossref record). The Theorem,
-  p. 688. Library home:
+  no. 4, 687--692, doi:10.4153/CJM-1973-069-x (Crossref record accessed
+  2026-09-19). The Theorem, p. 688. Library home:
   [[../library/extremal_graph_theory/leonard_1973_graphs_ways/_index|leonard_1973_graphs_ways]];
   paged at
   [[../library/extremal_graph_theory/leonard_1973_graphs_ways/theorem_p688|theorem_p688]].
 - [Ma73] Mader, W., Ein Extremalproblem des Zusammenhangs von Graphen. Math.
-  Z. 131 (1973), no. 3, 223--231, doi:10.1007/BF01187240 (Crossref record). The
-  introduction with its report of the cases $m=4$, $5$ and $6$, the notation and
-  Satz 1 (edge-disjoint paths), p. 223; the Korollar with the exact threshold
-  and its extremal graphs, pp. 226--227; the vertex-disjoint examples with no
-  constant $c_n$, pp. 228--229; Satz 2 under a girth hypothesis, p. 229. Library
-  home:
+  Z. 131 (1973), no. 3, 223--231, doi:10.1007/BF01187240 (Crossref record
+  accessed 2026-09-19). The introduction with its report of the cases $m=4$, $5$
+  and $6$, the notation and Satz 1 (edge-disjoint paths), p. 223; the Korollar
+  with the exact threshold and its extremal graphs, pp. 226--227; the
+  vertex-disjoint examples with no constant $c_n$, pp. 228--229; Satz 2 under a
+  girth hypothesis, p. 229. Library home:
   [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]];
   paged at
   [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]],
@@ -214,7 +215,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/examples_p228|examples_p228]].
 - [SoTh74] Sørensen, Bo Aagaard and Thomassen, Carsten, On $k$-rails in
   graphs. J. Combinatorial Theory Ser. B 17 (1974), no. 2, 143--159,
-  doi:10.1016/0095-8956(74)90082-3 (Crossref record). The
+  doi:10.1016/0095-8956(74)90082-3 (Crossref record accessed 2026-09-19). The
   definition of a $k$-rail and of $f_k(n)$, the site's $k_m(n)$, with the
   conjecture and the reports on Bollobás, Leonard and Mader, pp. 143--144;
   Theorem 3, the bound $\frac52(n-1)$ for 3-connected graphs, p. 149, with
@@ -243,7 +244,8 @@ recorded under Leads and linked on
 [[problems/extremal_graph_theory/E0915/claims/1974_10_01_sorensen_thomassen|Sørensen and Thomassen's claim page]].
 The variant `erdos_915.variants.edge_disjoint`, the edge-disjoint reading
 over the same parameters, carries `answer(True)` and no proof link. The
-community database (teorth/erdosproblems, `data/problems.yaml`) records the problem solved (last update 28 October 2025), the
+community database (teorth/erdosproblems, `data/problems.yaml`, accessed
+2026-10-07) records the problem solved (last update 28 October 2025), the
 statement formalized since 2026-09-19 and `formal_status` unformalized; the
 site's indicator reads "Formalised statement? Yes" and links the file. This
 project has not built the external proof, so no `formalized` evidence is

@@ -61,7 +61,7 @@ describes the claim in the same way ("without proof").
 
 **Source.** M. Simonovits and V. T. Sós, *On restricted colourings of
 $K_n$*, Combinatorica 4 (1984), no. 1, 101–110, doi:10.1007/BF02579162
-(Crossref record read; received 1 July 1983 per the first page);
+(Crossref record read 2026-09-18; received 1 July 1983 per the first page);
 printed pp. 101–103 = PDF pp. 1–3 and pp. 109–110 = PDF pp. 9–10 of the
 repository scan, read on the page images (the text layer garbles the
 formulas). The copy read is identified in the
@@ -87,8 +87,8 @@ $P_{2t+3+\varepsilon}$. The count on p. 106 produces that $K_{t,t+2}$ when
 $n>c\cdot t^2$. The proof is restricted to $t\ge5$; the paper says the case
 $t\le4$ "can be proved by similar arguments but need to distinguish more
 cases" (p. 104), and gives no such proof. The proof was not checked here.
-Remark 2 (p. 103) derives the upper bounds (6) $f(n,P_{2t+3})\le(t+\tfrac12)n$ and
-(7) $f(n,P_{2t+4})\le(t+1)n$ from Erdős–Gallai by choosing one edge of each
+Remark 2 (p. 103) derives the upper bounds (6) $f(n,P_{2t+3})\le(t+\tfrac12)n$
+and (7) $f(n,P_{2t+4})\le(t+1)n$ from Erdős–Gallai by choosing one edge of each
 color.
 
 ## Dependencies

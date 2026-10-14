@@ -70,7 +70,7 @@ title page names OpenAI as the sole author, and the PDF has no
 acknowledgment, affiliation or funding note. These are the source's own
 statements, recorded as attestations and not as this corpus's review. No
 refereed publication, arXiv version or independent review of the manuscript
-is recorded here and nothing on this card is independently reviewed.
+is recorded here, and nothing on this card is independently reviewed.
 
 **Formalization.** The release lists no formalization of this manuscript.
 Its family's Lean page, `lean/docs/182.md`, carries the family's title but

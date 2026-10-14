@@ -23,7 +23,7 @@ revised 3 August 1994, 12 February 1995 and 16 March 1995. 1991 MSC primary
 
 The copy read for this card is a JSTOR
 PDF: a JSTOR cover sheet (PDF p. 1; stable URL
-<http://www.jstor.org/stable/2153618>)
+<http://www.jstor.org/stable/2153618>, marked accessed 7 July 2015)
 followed by scans of the four printed pages 837--840 (PDF p. $n$ is printed
 p. $n+835$). The scan carries an OCR text layer in which the formulas are
 garbled; all four printed pages were read on the page images. Provenance:

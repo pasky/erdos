@@ -38,7 +38,8 @@ November 2024), the copy read; Theorem 1.2 on printed and physical p. 3, read on
 the page image and in the text layer; the construction is Section 2 (pp. 3--4)
 and the coloring Section 3 (p. 5). A version v2 of 23 November 2024 exists on
 arXiv with the comment "Result has already been proven by Lazebnik and Mubayi"
-(arXiv listing read); v2 was not compared, and no journal record was found.
+(arXiv listing read 2026-09-17); v2 was not compared, and no journal record was
+found.
 
 **Read depth.** Claims checked: the statement and the p. 1 restatement of
 the Chung--Graham bound were read clause by clause on the page image of

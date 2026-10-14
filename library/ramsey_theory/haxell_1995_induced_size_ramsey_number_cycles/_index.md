@@ -27,7 +27,7 @@ number of cycles. Combin. Probab. Comput. 4 (1995), no. 3, 217-239.
 The copy read for this card is the authors' preprint (22 pages, AMS-TeX,
 no journal pagination) from Kohayakawa's publication page; the journal
 version is Combin. Probab. Comput. 4 (1995), no. 3, 217-239, DOI
-10.1017/S0963548300001619 (Crossref record read), not consulted.
+10.1017/S0963548300001619 (Crossref record read 2026-09-17), not consulted.
 Locators below are preprint pages. No notice is printed in the preprint (its
 first and last pages read in full); the preprint is from an author's
 publication page, which states no copyright, license or terms
@@ -37,7 +37,7 @@ journal version was not consulted; the term is unstated.
 Read status: claims checked for Theorem 10 and Corollary 11 (read clause by
 clause on the page image of p. 11) and for the introduction (pp. 1-3, page
 images), with the attribution sentence of p. 3 and reference [6] (p. 21)
-re-read on the page images; no proof checked.
+read on the page images; no proof checked.
 
 The authors prove that the induced r-size-Ramsey number of a cycle is linear:
 r_e^{ind}(C_l, r) <= c_r l with c_r depending only on the number r of colors.

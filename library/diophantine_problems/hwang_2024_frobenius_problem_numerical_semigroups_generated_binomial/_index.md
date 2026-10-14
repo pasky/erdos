@@ -79,10 +79,10 @@ reserved.
   problem.
 
 Read status: claims checked for Theorem 0.1, Remark 0.2, Lemma 2.2,
-Theorems 3.1, 3.2 and 3.6 and Corollaries 3.3, 3.4, 3.5, 3.7 and 3.8, read clause by
-clause on the page images of the print; the proofs of Lemma 2.2, Theorem 3.2
-and Corollary 3.3 followed for structure only and not checked. Nothing here
-is independently reviewed.
+Theorems 3.1, 3.2 and 3.6 and Corollaries 3.3, 3.4, 3.5, 3.7 and 3.8, read
+clause by clause on the page images of the print; the proofs of Lemma 2.2,
+Theorem 3.2 and Corollary 3.3 followed for structure only and not checked.
+Nothing here is independently reviewed.
 
 **Results.**
 

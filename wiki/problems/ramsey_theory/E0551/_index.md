@@ -185,33 +185,33 @@ under `category research open`, with proof `sorry`, and the variant
 `erdos_551.variants.sufficiently_large`
 (`∀ᶠ n : ℕ in atTop, ∀ k : ℕ, n ≤ k → … = (k - 1) * (n - 1) + 1`) under
 `category research solved`, also with proof `sorry` and a docstring crediting
-[KLS21]. The community database (teorth/erdosproblems) records the statement as
-formalized since 9 September 2026 and no formal proof; the site's page marks the
-statement as formalized. The formal-conjectures file was not built or checked by
-this corpus. The OpenAI release's Lean tree, at the revision its claim page
-pins, states the theorem as `OAI.CycleClique.thm_main` and holds a solution
-module that proves it; this corpus built `thm_main`, found its axioms to be
-exactly `propext`, `Classical.choice` and `Quot.sound` and its fingerprint
-identical to the comparator challenge, and the claim page
+[KLS21]. The community database (teorth/erdosproblems, read 2026-09-17) records
+the statement as formalized since 9 September 2026 and no formal proof; the
+site's page marks the statement as formalized. The formal-conjectures file was
+not built or checked by this corpus. The OpenAI release's Lean tree, at the
+revision its claim page pins, states the theorem as `OAI.CycleClique.thm_main`
+and holds a solution module that proves it; this corpus built `thm_main`, found
+its axioms to be exactly `propext`, `Classical.choice` and `Quot.sound` and its
+fingerprint identical to the comparator challenge, and the claim page
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] records
 the files and the statement comparison.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; status DECIDABLE,
-defined on the page as resolved up to a finite check; source key [EFRS78]. The
-commentary, in summary, attributes the question to Erdős, Faudree, Rousseau and
-Schelp and records their two further questions for fixed $n$, the least $k$ at
-which the identity holds and the $k$ minimizing $R(C_k,K_n)$; it credits Bondy
-and Erdős [BoEr73] with the identity for $k>n^2-2$, Nikiforov [Ni05] with the
-extension to $k\ge4n+2$, and Keevash, Long and Skokan [KLS21] with the range
-$k\ge C\log n/\log\log n$ for a constant $C$, hence the conjecture for all large
-$n$; and it places the problem as number 18 of the Ramsey theory section of the
-graphs problem collection. The discussion thread has one comment (1 September
-2025) saying that the problem has been reduced to a decidable, finitary question
-but is still open. The proof-claim tab is empty. The community database record
-says decidable (last updated 31 August 2025), statement formalized, no formal
-proof.
+**The question (site formulation accessed 2026-09-17).** The statement above;
+status DECIDABLE, defined on the page as resolved up to a finite check; source
+key [EFRS78]. The commentary, in summary, attributes the question to Erdős,
+Faudree, Rousseau and Schelp and records their two further questions for fixed
+$n$, the least $k$ at which the identity holds and the $k$ minimizing
+$R(C_k,K_n)$; it credits Bondy and Erdős [BoEr73] with the identity for
+$k>n^2-2$, Nikiforov [Ni05] with the extension to $k\ge4n+2$, and Keevash, Long
+and Skokan [KLS21] with the range $k\ge C\log n/\log\log n$ for a constant $C$,
+hence the conjecture for all large $n$; and it places the problem as number 18
+of the Ramsey theory section of the graphs problem collection. The discussion
+thread has one comment (1 September 2025) saying that the problem has been
+reduced to a decidable, finitary question but is still open. The proof-claim tab
+is empty. The community database record (read 2026-09-17) says decidable (last
+updated 31 August 2025), statement formalized, no formal proof.
 
 **Origin.** Section 7 of [EFRS78] (printed p. 64) poses two questions about $r(C_m,K_n)$ for
 fixed $n$: "(i) What is the smallest value of $m$ such that

@@ -45,10 +45,10 @@ an equality, and the site was updated to say so. $f(N)$ is OEIS A390394
 ($1,2,3,4,5,5,6,\ldots$, to $N=60$). The statement asks for an estimate of
 $f(N)$ and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label was OPEN (page last edited 16 January 2026;
-accessed 2026-10-07), and the site marked the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is open, claim
-none. The four claim pages are all pending partial claims:
+**Status.** Open: the site's label was OPEN, its page was last edited 16
+January 2026 (accessed 2026-10-07), and the site marked the problem as not
+resolvable by a finite computation. The standing derived from the claim pages is
+open, claim none. The four claim pages are all pending partial claims:
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's upper bound 25/28]]
 (recorded from the site's commentary),
 [[problems/unit_fractions/E0301/claims/2026_05_27_wang|Wang's upper bound 667/806]],
@@ -98,7 +98,7 @@ https://www.erdosproblems.com/301, accessed 2026-09-17.
   [[problems/unit_fractions/E0301/claims/2026_07_30_della_pietra_upper|2026_07_30_della_pietra_upper]].
 - [OEIS] Raza, H., Sequence A390394, The On-Line Encyclopedia of Integer
   Sequences (2025; entry last modified 10 August 2026, server time): $f(n)$
-  for $n\le60$, computed by integer linear programming; read.
+  for $n\le60$, computed by integer linear programming; read 2026-09-17.
 - The site's commentary attributes the $25/28$ argument to Wouter van
   Doorn and the non-distinct remark to Stijn Cambie and Wouter van Doorn;
   neither has a written source beyond the site. The argument's claim page
@@ -108,10 +108,10 @@ https://www.erdosproblems.com/301, accessed 2026-09-17.
 **Formalization.** None recorded. No file `ErdosProblems/301.lean` exists in the
 [`ErdosProblems`
 directory](https://github.com/google-deepmind/formal-conjectures/tree/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems)
-of google-deepmind/formal-conjectures at the linked commit (main); the
-community database records the statement as not formalized and no formal proof.
-The Lean development in [DP26]'s repository is the author's own; the corpus did
-not build or audit it.
+of google-deepmind/formal-conjectures at the linked commit (main on 2026-09-17);
+the community database (fetched 2026-09-17) recorded the statement as not
+formalized and no formal proof. The Lean development in [DP26]'s repository is
+the author's own; the corpus did not build or audit it.
 
 ## Current assessment
 
@@ -135,7 +135,7 @@ that the $25/28$ method generalizes easily, that a half-finished paper with
 Quanyu Tang should bring the constant below $0.8$, and that Wang's preprint is
 AI-generated and does not say so; and a suggestion to add the prime $7$ to
 Wang's divisor configuration. The proof-claim tab: one partial claim
-(below). The community database records open, not
+(below). The community database (fetched 2026-09-17) records open, not
 formalized, OEIS A390394.
 
 **Origin.** Printed p. 37 of the 1980 monograph, in a paragraph begun on

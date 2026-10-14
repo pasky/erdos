@@ -44,7 +44,7 @@ here.
 alone: four pages extracted from the journal's image-only scan of the whole
 volume. Provenance: the volume scan (Annales Universitatis Scientiarum
 Budapestinensis de Rolando Eötvös Nominatae, Sectio Mathematica, tomus X,
-1967; 206 pages, 3,394,007 bytes) was retrieved from
+1967; 206 pages, 3,394,007 bytes) was retrieved on 2026-09-18T11:15:54Z from
 <http://annalesm.elte.hu/annales10-1967/Annales_1967_T-X.pdf>, the file the
 journal's archive page (<https://annalesm.elte.hu/archive.html>) links for Vol.
 10 (1967), one request, HTTP 200; the article was extracted from it on

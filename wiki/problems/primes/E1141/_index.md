@@ -65,7 +65,7 @@ would need progress on Siegel zeros. The authors attribute the proof to an
 internal OpenAI model. The accepted claim is recorded on
 [[problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the
 claim page]] with the curator's credit; the preprint is the source, with no
-journal publication known and the corpus has not built the
+journal publication known, and the corpus has not built the
 four Lean files the page links.
 
 Before the resolution, Tang, with ChatGPT-5.2 Thinking, showed by Montgomery's

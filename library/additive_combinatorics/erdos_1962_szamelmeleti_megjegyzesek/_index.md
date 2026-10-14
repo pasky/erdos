@@ -72,7 +72,7 @@ paper contains no lower bound for that $h(n)$. No notice is printed in the file;
 no publisher page or DOI is known for this edition of Matematikai Lapok 13
 (1962), so none was consulted, and the hosting archive's site footer "(C)
 2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only." (https://users.renyi.hu/~p_erdos/) speaks for
+purposes only." (https://users.renyi.hu/~p_erdos/, read 2026-10-02) speaks for
 the site, not the paper; the term is unstated.
 
 Source: <https://users.renyi.hu/~p_erdos/1962-22.pdf>.

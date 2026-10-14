@@ -57,7 +57,7 @@ https://www.erdosproblems.com/852.
 
 ## Current assessment
 
-The site's formulation defines $h(x)$ through a run of
+The site's formulation (accessed 2026-09-04) defines $h(x)$ through a run of
 pairwise distinct consecutive gaps $d_n,\ldots,d_{n+h(x)-1}$ whose starting
 index $n$ is below $x$, so the run itself reaches primes near $x\log x$. It
 asks for an estimate of $h(x)$ and, in particular, whether $h(x)>(\log x)^c$

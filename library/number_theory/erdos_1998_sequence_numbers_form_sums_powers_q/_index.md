@@ -32,7 +32,7 @@ the m = 1 case of the implication Feng's Theorem 1.4 uses for Problem
 Paul Erdős, István Joó and Vilmos Komornik, *On the sequence of numbers of
 the form $\varepsilon_0+\varepsilon_1q+\ldots+\varepsilon_nq^n$,
 $\varepsilon_i\in\{0,1\}$*, Acta Arith. **83** (1998), no. 3, 201--210; DOI
-10.4064/aa-83-3-201-210 (the Crossref record). "Received on
+10.4064/aa-83-3-201-210 (the Crossref record, read 2026-09-18). "Received on
 14.5.1996 and in revised form on 14.7.1997" (p. 210). Cited by the 1996
 Erdős--Joó--Schnitzer paper as an IRMA Strasbourg preprint and by Feng
 (2016) as its reference [8]. The site's Problem 1096 page does not cite it;
@@ -44,15 +44,14 @@ journal's typeset file (pdfTeX, 2007), 10 pages, printed pp. 201--210
 (printed p. $n$ is PDF p. $n-200$), with a text layer that drops the plus
 signs; the statements below were read on the rendered page images of
 pp. 201--202, 206 and 207. Provenance: retained from the repository's survey
-download set of 5 September 2026 (the download URL was not recorded; the
-journal's archive at <https://www.impan.pl/> hosts the article under its
-DOI); 176,460 bytes. The file's text layer carries no copyright or license line;
-the publisher's record (https://www.impan.pl/get/doi/10.4064/aa-83-3-201-210,
-read 2026-10-02) offers the PDF under the link "Pobierz zgodnie z CC-BY" ("Free
-download under CC-BY license" on the English site), a Creative Commons
-Attribution license whose version the record does not name; the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+download set (the download URL was not recorded; the journal's archive at
+<https://www.impan.pl/> hosts the article under its DOI); 176,460 bytes. The
+file's text layer carries no copyright or license line; the publisher's record
+(https://www.impan.pl/get/doi/10.4064/aa-83-3-201-210, read 2026-10-02) offers
+the PDF under the link "Pobierz zgodnie z CC-BY" ("Free download under CC-BY
+license" on the English site), a Creative Commons Attribution license whose
+version the record does not name; the site footer "Copyright © 2026 by IMPAN.
+All rights reserved." speaks for the site, not the article.
 
 Read status: claims checked for the introduction (the definitions of $l(q)$ and
 $L(q)$, the results (a)--(f)), Theorem 1 as a statement, the sentence opening

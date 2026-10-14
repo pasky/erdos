@@ -69,13 +69,12 @@ coefficients, and neither the divergence of $\sum\lvert a_n\rvert^2$ nor
 monotonicity, so the uncertain hypothesis does not affect the outcome. The
 result is accepted here on the site's credit and recorded on the claim page
 [[problems/analysis/E0527/claims/2025_09_02_michelen_sawhney|Michelen and Sawhney 2025]];
-the arXiv record lists no journal reference so no
-refereed publication is listed. The theorem statements of [MiSa25] and
-[DE59] are those recorded on their library cards; no independent review of
-the proof is recorded. The status search covered the site, its forum
-thread, the arXiv record and the community database; on 2026-10-07 the thread
-held no proof claim, and none of these sources recorded another claim of the
-result.
+on 2026-10-07 the arXiv record listed no journal reference, so no refereed
+publication is listed. The theorem statements of [MiSa25] and [DE59] are those
+recorded on their library cards; no independent review of the proof is recorded.
+The status search covered the site, its forum thread, the arXiv record and the
+community database; on 2026-10-07 the thread held no proof claim, and none of
+these sources recorded another claim of the result.
 
 ## Known Results
 

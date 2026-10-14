@@ -28,11 +28,8 @@ arXiv:2607.18981v1 (21 July 2026).
 
 **Local artifact.** The selected
 [18-page arXiv v1 PDF](benli_2026_digits_sum_proper_divisors.pdf) was retrieved
-for the source review from `2026-09-07T11:21:20.751914000Z` through
-`2026-09-07T11:21:21.097356000Z`; this acquisition interval is distinct from the
-later reading recorded in the payload receipt. The arXiv record
-(https://arxiv.org/abs/2607.18981, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+for the source review. The arXiv record (https://arxiv.org/abs/2607.18981, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Theorem 1.1 says that for every fixed base $g\geq2$ and every
 $k(x)\to\infty$, almost all $n\leq x$ have every base-$g$ digit among both

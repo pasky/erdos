@@ -47,13 +47,14 @@ The copy read for this card
 is the Project Euclid scan: eight physical pages, printed pp. 85--92, head
 "PACIFIC JOURNAL OF MATHEMATICS Vol. 55, No. 1, 1974". Provenance: fetched
 from
-<https://projecteuclid.org/journalArticle/Download?urlId=pjm%2F1102911140>,
-571,724 bytes. The scan's OCR text layer garbles the
+<https://projecteuclid.org/journalArticle/Download?urlId=pjm%2F1102911140>
+on 2026-09-17 (UTC), 571,724 bytes. The scan's OCR text layer garbles the
 formulas; the statements below were read on the page images of printed pp.
 85--89, and the proof of Theorem 3.7 on pp. 89--91 was read in the text layer
 only. The scan prints no notice on pp. 85--86 or 91--92; the journal's issue
 page, which lists the article, shows "© Copyright 1974 Pacific Journal of
-Mathematics. All rights reserved." (https://msp.org/pjm/1974/55-1/index.xhtml), every other right reserved.
+Mathematics. All rights reserved." (https://msp.org/pjm/1974/55-1/index.xhtml,
+read 2026-10-02), every other right reserved.
 
 **Three papers share this title.** This paper, the 1957 Indag. Math. note
 [[irrationality/erdos_1957_irrationality_certain_series/_index|erdos_1957_irrationality_certain_series]]

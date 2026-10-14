@@ -22,10 +22,10 @@ for which the k-fold logarithm of N is at least three halves.
 Sandro Bettin, Loïc Grenié, Giuseppe Molteni, Carlo Sanna, A lower bound for the
 number of Egyptian fractions. arXiv:2509.10030 (v1, 12 September 2025, the only
 arXiv version listed on 2026-09-18); Mathematics of Computation, published
-online 22 January 2026, DOI 10.1090/mcom/4190 (Crossref record read, with no
-volume or pages assigned yet). The copy read for this card is the arXiv v1 text
-(12 pages); the published text was not compared, and the locators on this card
-and its result page are v1 locators. The arXiv record names arXiv's
+online 22 January 2026, DOI 10.1090/mcom/4190 (Crossref record read 2026-09-18,
+with no volume or pages assigned yet). The copy read for this card is the arXiv
+v1 text (12 pages); the published text was not compared, and the locators on
+this card and its result page are v1 locators. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2509.10030), every other right
 reserved.
 

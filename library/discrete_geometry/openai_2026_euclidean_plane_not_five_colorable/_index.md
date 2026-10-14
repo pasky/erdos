@@ -64,7 +64,7 @@ it nor the paper adds a statement on how the text was produced or checked.
 The paper names no author beyond "OpenAI", no arXiv identifier and no
 journal; the PDF metadata gives a creation date of 23 September 2026 (UTC).
 No refereed publication, arXiv version or independent review of the
-manuscript is recorded here and nothing on this card is
+manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 Formalization, as the release lists it: `lean/formalization.yaml` names this
