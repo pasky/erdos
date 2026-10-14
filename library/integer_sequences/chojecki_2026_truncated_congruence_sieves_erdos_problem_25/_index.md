@@ -62,11 +62,11 @@ delta of the truncation densities.
 Przemyslaw Chojecki, *Truncated Congruence Sieves and Erdős Problem 25*,
 unpublished preprint, 19 March 2026. Source:
 <https://www.ulam.ai/research/erdos25.pdf>. The copy read for this card is
-the PDF at that address. No notice is printed in it, and no arXiv
-record of it was found (an arXiv title query returned no result on 2026-10-02);
-the hosting organization's research page shows only the site footer "© 2017-2026
-ULAM" and names no license (https://www.ulam.ai/research, read 2026-10-02),
-every other right reserved.
+the PDF at that address. The copy's retrieval date was not recorded. No notice
+is printed in it, and no arXiv record of it was found (an arXiv title query
+returned no result on 2026-10-02); the hosting organization's research page
+shows only the site footer "© 2017-2026 ULAM" and names no license
+(https://www.ulam.ai/research, read 2026-10-02), every other right reserved.
 
 The note treats the singleton-residue truncated sieve in Erdős problem 25. For
 $1\leq n_1<n_2<\cdots$ and one chosen class $a_i\pmod {n_i}$ per modulus, put
