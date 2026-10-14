@@ -37,8 +37,8 @@ ledger (`CLAIMS.md`), and a release replay note. The retained
 [r=10 audit manuscript](codex_terpstra_2026_fixed_r10_r11_erdos_617_r10_audit_manuscript.pdf)
 is the repository's `audits/r10/MANUSCRIPT.pdf` ("An audit and independent
 replay of the unrestricted fixed case r=10 of Erdős Problem 617", 7 pages, also
-the release asset `MANUSCRIPT.pdf`), downloaded from the v0.1.1 release; 104,960
-bytes, matching the release's own hash list. The audit manuscript
+the release asset `MANUSCRIPT.pdf`), downloaded from the v0.1.1 release,
+matching the release's own hash list. The audit manuscript
 (codex_terpstra_2026_fixed_r10_r11_erdos_617_r10_audit_manuscript.pdf) prints no
 license; the repository's README, under "Licensing"
 (https://github.com/terpstra-research/erdos-617-r10-r11, read 2026-10-02),

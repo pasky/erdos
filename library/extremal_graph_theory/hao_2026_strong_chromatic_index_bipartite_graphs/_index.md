@@ -34,7 +34,7 @@ Institute of Technology (p. 12).
 arXiv v2 text (the arXiv stamp "arXiv:2606.23824v2 [math.CO] 23 Jul 2026" on p.
 1; 12 letter-size pages, a clean text layer), retained from the repository's
 survey download set; its arXiv address is <https://arxiv.org/abs/2606.23824v2>.
-Provenance: the survey download set, 346,985 bytes. The arXiv record
+Provenance: the survey download set. The arXiv record
 (https://arxiv.org/abs/2606.23824, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

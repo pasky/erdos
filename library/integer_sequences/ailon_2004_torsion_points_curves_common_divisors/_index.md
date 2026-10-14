@@ -60,7 +60,7 @@ is the published typesetting, obtained from
 [Rudnick's author-hosted copy](https://www.math.tau.ac.il/~rudnick/papers/aa113-1-03.pdf).
 Its printed pages are 31–38, corresponding to PDF pages 1–8. The final page
 records receipt on 4 July 2002 and revision on 15 December 2002. The retained
-file is 124,252 bytes. The file's text layer carries no copyright or license
+file's text layer carries no copyright or license
 line; the publisher's record offers the PDF "Free download under CC-BY license",
 a Creative Commons Attribution license with no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/113/1/83111/torsion-points-on-curves-and-common-divisors-of-a-k-1-and-b-k-1,

@@ -43,8 +43,8 @@ on printed p. 380 is on PDF p. 4 and Lemma 5 on printed p. 383 on PDF
 p. 5), image-only with no text layer, read on rendered page images at 100
 dpi. Provenance: downloaded from the ICM digital
 library address that OEIS entry A023193 links,
-<https://matwbn.icm.edu.pl/ksiazki/aa/aa25/aa2548.pdf> (HTTP 200, one
-request); 6,378,062 bytes. No copyright or license line is printed on the scan's
+<https://matwbn.icm.edu.pl/ksiazki/aa/aa25/aa2548.pdf> (HTTP 200, one request).
+No copyright or license line is printed on the scan's
 first or last page; the publisher's volume listing labels the article's download
 "Free download under CC-BY license", a Creative Commons Attribution license with
 no version or URL named

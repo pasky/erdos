@@ -37,7 +37,7 @@ is the arXiv PDF of version 1 (16 pages, complete text layer), read on the
 rendered page images of pp. 1--2 and 16 and in the text layer elsewhere.
 Provenance: retained from the repository's survey download set (the download URL
 was not recorded; the identifier is <https://arxiv.org/abs/2607.23302>, printed
-on every page); 315,235 bytes. The arXiv record
+on every page). The arXiv record
 (https://arxiv.org/abs/2607.23302, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

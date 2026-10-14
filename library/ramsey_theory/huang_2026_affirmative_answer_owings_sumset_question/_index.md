@@ -36,7 +36,7 @@ arXiv:2607.17333v3, 39 pages with a complete text layer; pp. 1--2 were read on
 the rendered page images and the other statements below in the text layer at the
 pages given. Provenance: retained from the repository's survey download set
 (`b520e276_huang_2026_owings.pdf`; the record with it names
-<https://arxiv.org/abs/2607.17333>); 311,356 bytes. The arXiv record
+<https://arxiv.org/abs/2607.17333>). The arXiv record
 (https://arxiv.org/abs/2607.17333, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

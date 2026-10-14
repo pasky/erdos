@@ -30,7 +30,7 @@ held as
 is the arXiv copy arXiv:2504.11656v2 [math.CO], stamped 4 March 2026 (the
 version the arXiv record marks as the journal version, per Problem 815's page):
 twenty-four pages with a complete text layer, PDF page equal to printed page.
-Provenance: 671,776 bytes, retrieved from arXiv
+Provenance: retrieved from arXiv
 (<https://arxiv.org/abs/2504.11656v2>). The arXiv record
 (https://arxiv.org/abs/2504.11656, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.

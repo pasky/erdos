@@ -42,7 +42,7 @@ Creative Commons Attribution 4.0 International License"
 (https://math.colgate.edu/~integers/, read 2026-10-02): the Creative Commons
 Attribution 4.0 license, by the journal's undated site-wide statement.
 
-The retained PDF (9 pp.; 190,241 bytes) was read for the
+The retained PDF (9 pp.) was read for the
 statements below. Theorem 2 (p. 3) is stated for every positive integer k under
 "the Prime k-tuples Conjecture (see [3, 7, 9]), which is due to Dickson", given
 as Conjecture 1: for k >= 2 and integers a_i > 0 and b_i such that for every

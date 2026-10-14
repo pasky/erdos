@@ -37,7 +37,7 @@ and last modified 15 August 2024). Provenance: retrieved from
 <https://combinatorialpress.com/article/jcmcc/Volume%2008/vol-008-paper%2018.pdf>,
 the download link of the publisher's article page
 <https://combinatorialpress.com/jcmcc-articles/volume-008/a-note-on-packing-complete-graphs-with-trees/>
-(HTTP 200, `application/pdf`); 177,624 bytes. The statements below were read on
+(HTTP 200, `application/pdf`). The statements below were read on
 the rendered page images. The scan prints no notice beyond the stamp "JCMCC 8
 (1990), pp. 123-126"; the publisher's article page
 (https://combinatorialpress.com/jcmcc-articles/volume-008/a-note-on-packing-complete-graphs-with-trees/,

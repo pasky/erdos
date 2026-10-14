@@ -29,7 +29,7 @@ The retained
 [folder-name PDF](fu_2026_size_ramsey_minimal_graphs_uniform_star_forests.pdf)
 is the arXiv v3, a text-layer PDF with the paper's own pagination 1--22.
 Provenance: retrieved from arXiv (<https://arxiv.org/pdf/2606.04439v3>) into the
-repository's survey download set; 1,013,394 bytes. The arXiv record
+repository's survey download set. The arXiv record
 (https://arxiv.org/abs/2606.04439, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

@@ -68,7 +68,7 @@ The [retained PDF](erdos_1968_problem_p_erdos_s_stein.pdf) is the complete
 six-page published scan, printed pp. 85–90. It is the unchanged Rényi-archive
 artifact already filed with this source. A fresh download from the
 [same archive URL](https://users.renyi.hu/~p_erdos/1968-03.pdf) on 5 September
-2026 was byte-identical: 729156 bytes. No other manuscript version or published
+2026 was byte-identical. No other manuscript version or published
 erratum is represented here. All six pages were read visually at original detail
 without OCR. The canonical source is the scan, not its imperfect extracted text.
 The scan's text layer carries no copyright or license line; the publisher's
