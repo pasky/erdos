@@ -80,7 +80,8 @@ declaration, no `native_decide`, no `unsafe` and no import (the word "axiom"
 occurs once in a comment, and the only `set_option` is commented out); ports
 from PrimeNumberTheoremAnd carry Apache-2.0 notices at lines 2894, 15705 and
 20072, with further Apache headers and the license text from line 64573. The
-file was read as text and not built here.
+file was read as text, and rebuilt and replayed in the kernel on the
+repository's pinned toolchain.
 
 **Formal statement and acceptance.** The site's record verified
 `Filter.Tendsto (fun x => Erdos416.V (2 * x) / Erdos416.V x) Filter.atTop (nhds 2)`,
@@ -112,7 +113,7 @@ separate complete axiom export, exhaustive line-by-line audit of the
 accepted target from the July 2026 partial claim of
 [[arithmetic_functions/zeraoulia_2026_fixed_scale_limit_points_distinct_totients/_index|Zeraoulia]],
 whose argument, it says, leaves the cluster interval's width uncontrolled. The
-accepting body is the bounty site alone: no refereed publication, no arXiv
+site's certification is reported, not counted: no refereed publication, no arXiv
 preprint, no erdosproblems.com acceptance (its maintainer posted the record as
 an unverified partial proof claim on 2026-09-27, with an explicit
 non-endorsement) and no formal-conjectures agreement (`parts.i` still

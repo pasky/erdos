@@ -13,13 +13,16 @@ status: accepted
 claim: disproved
 scope: full
 evidence:
-- reviewed
+- formalized
 submitted: null
 links:
 - url: https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19
   kind: record
   date: 2026-09-18
 - url: https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19/solution
+  kind: formalization
+  date: 2026-09-18
+- url: https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19/solution/download
   kind: formalization
   date: 2026-09-18
 - url: https://conjectures.io/papers/erdos859.pdf
@@ -80,8 +83,8 @@ $d\sim c/(\log t)^{p}$ for every $c>0$ and real $p$. The record's solution page
 (second link) holds the file, as of 2026-09-22, as its single source block:
 36,197 lines and 1,721,167 bytes, with no import statement, inlining a
 Mertens-type prime reciprocal estimate adapted from the Apache-2.0 Lean project
-PrimeNumberTheoremAnd, whose license it reproduces. This corpus has not built
-the file.
+PrimeNumberTheoremAnd, whose license it reproduces. This corpus rebuilt and
+replayed it, as **Acceptance.** records.
 
 **Authorship and tools.** The record credits the submitter's handle, JenW1N.
 The exposition published by Conjectures.io (third link) names the authors as
@@ -92,11 +95,27 @@ and the accepted Lean submission; the Lean file's header names no author and
 declares no AI system, and the site's forum entry gives the system as
 unknown, so which AI system, if any, generated the proof is not disclosed.
 
-**Acceptance.** The `reviewed` evidence is the certification by the bounty site
-Conjectures.io. Its Lean kernel verified the proof on 18 September 2026 under
-Lean 4.33.1 with the axioms `propext`, `Quot.sound` and `Classical.choice`
-permitted. Its review approved the record on 21 September 2026 under its policy
-v3. The record was certified on 23 September 2026 and shows the bounty as paid.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
+with Mathlib at the revision `lean/lake-manifest.json` pins, after proof-only
+changes for lemmas that Mathlib renamed or removed since the site's toolchain;
+the target's statement is unchanged. The kernel replayed, from an empty
+environment, every declaration the target `Bounty.target` depends on, Lean core,
+Mathlib and formal-conjectures included, and accepted them all. The target's
+axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and
+every definition its statement reaches, are identical to the formal-conjectures
+statement of the site's task, at the catalog commit the task pins, which the
+site builds from a public catalog commit and an audit patch and the replay
+reproduced exactly. **The formal statement.** above reads that statement as the
+site's wording clause by clause; the replayed closure contains both estimates
+and the proof that every density $d_t$ exists, so the negation is not vacuous.
+Acceptance rests on this replay and that check.
+
+The certification by the bounty site Conjectures.io is reported, not counted.
+Its Lean kernel verified the proof on 18 September 2026 under Lean 4.33.1 with
+the axioms `propext`, `Quot.sound` and `Classical.choice` permitted. Its review
+approved the record on 21 September 2026 under its policy v3. The record was
+certified on 23 September 2026 and shows the bounty as paid.
 
 The review decision says the submission "refutes the proposed positive-constant
 logarithmic power asymptotic for the natural density of integers whose distinct
@@ -110,20 +129,19 @@ options", together with "Statement unchanged" and "Lean kernel accepted". The
 report gives a second kernel as "Not run", so "The verdict rests on a single
 kernel implementation".
 
-Beyond the bounty site there is no acceptance. There is no refereed publication,
-and erdosproblems.com listed the problem as open. The curator, Thomas Bloom,
-posted a proof-claim entry on the problem's forum on 27 September 2026 (fourth
-link) to make the Conjectures.io claim known. The entry lists the claimant as
-conjectures.io and gives the system as unknown. In it the curator says they had
-not verified the proof or looked into it. They say the entry is no endorsement
-of the Conjectures.io program, which in their view uses the problems for its own
-ends without explaining its proofs or engaging with the mathematical community.
-They also say the program is not transparent about who runs the problems through
-an AI system, for how long, or with which one. The entry's summary states the
-opposite direction (that the constants exist). Its link points at an earlier,
-different Lean contribution of 1 September 2026, which proves only that each
-`DivisorSumSet t` has positive density, a theorem of Erdős [Er70]. So neither
-the entry's summary nor its link describes this result.
+There is no refereed publication, and erdosproblems.com listed the problem as
+open. The curator, Thomas Bloom, posted a proof-claim entry on the problem's
+forum on 27 September 2026 (fourth link) to make the Conjectures.io claim known.
+The entry lists the claimant as conjectures.io and gives the system as unknown.
+In it the curator says they had not verified the proof or looked into it. They
+say the entry is no endorsement of the Conjectures.io program, which in their
+view uses the problems for its own ends without explaining its proofs or
+engaging with the mathematical community. They also say the program is not
+transparent about who runs the problems through an AI system, for how long, or
+with which one. The entry's summary states the opposite direction (that the
+constants exist). Its link points at an earlier, different Lean contribution of
+1 September 2026, which proves only that each `DivisorSumSet t` has positive
+density, a theorem of Erdős [Er70]. So neither the entry's summary nor its link
+describes this result.
 
-This corpus has not built the proof, so no `formalized` evidence is listed. What
-it checked is on the problem page.
+What else this corpus checked is on the problem page.

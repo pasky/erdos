@@ -126,7 +126,11 @@ asymptotic equivalence to $\tfrac12\log\log n$) matches the site's question,
 since $n\bmod p<p$ is automatic. No Lean proof of the corrected statement
 exists.
 
-The bounty site Conjectures.io (record `bd1a524a-c56e-42f2-9075-443df43468d7`)
+The bounty site Conjectures.io
+([record](https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7)
+`bd1a524a-c56e-42f2-9075-443df43468d7`, with its
+[solution page](https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution)
+and [solution file](https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution/download))
 accepted a 24-line Lean refutation of the defective statement pinned at
 [a catalog commit](https://github.com/google-deepmind/formal-conjectures/blob/379fc0298dc146df549e7061c3ede0353a5bb51f/FormalConjectures/ErdosProblems/726.lean#L42-L46)
 (task `fc-379fc029-erdos726-erdos-726-21ddd3c4de-counterexample-v1`, attacked as

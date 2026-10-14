@@ -68,11 +68,11 @@ environment; axiom closure within `propext`, `Quot.sound` and
 
 ## Standing
 
-Documented independent acceptance of the formal statement by the bounty
-site: kernel check, review, certification and payment. Not refereed; a single
-kernel; no fresh replay by the reviewers; not built here, so no local kernel
-credit. The site owner's post on the erdosproblems.com proof-claims tab of
-27 September 2026 is explicitly not a verification.
+The bounty site's kernel check, review, certification and payment are reported,
+not counted; acceptance rests on this corpus's rebuild and kernel replay of the
+file on the repository's pinned toolchain. Not refereed; the site's reviewers
+ran no fresh replay. The site owner's post on the erdosproblems.com proof-claims
+tab of 27 September 2026 is explicitly not a verification.
 
 ## Bears on
 

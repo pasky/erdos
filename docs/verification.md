@@ -694,6 +694,18 @@ reviews keep their actual scope; selective research review does not clear them.
 Source claims, public acceptance, local proof reconstruction, independent
 review, and formal verification remain separate facts under [[evidence]].
 
+A bounty site's certification of a Lean proof is reported, not counted: the
+claim page records the site's kernel check, review and award as that site's
+facts, and none of them is acceptance evidence. Acceptance of such a proof rests
+on the repository's own rebuild of the file on the pinned toolchain, a kernel
+replay from an empty environment of every declaration its target depends on,
+with no axioms beyond `propext`, `Classical.choice` and `Quot.sound`, and a
+check that the target is the problem's Statement, or for a partial claim the
+result the claim states. A port to the pinned toolchain may change proofs, never
+the target's statement. Where the target alone falls short of the Statement,
+acceptance rests on the replayed lemma that meets it. The claim page lists this
+acceptance as `formalized`.
+
 A focused assessment can check one uncertain step, an application interface, or
 artifact fidelity while assuming stated surrounding premises. It reports only
 that scope and does not certify an omitted full proof. Dedicated formalization

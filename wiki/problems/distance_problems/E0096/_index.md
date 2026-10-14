@@ -33,11 +33,13 @@ proof exposition.
 
 The standing in the frontmatter derives from the claim pages. The disproof of
 Kruer and Kohlmeyer is a Lean proof that the bounty site Conjectures.io verified
-on 10 September 2026 and certified on 14 September 2026. It is accepted on that
-certification alone, with no refereed publication and no acceptance by
-erdosproblems.com, on
-[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]].
-A stronger disproof by Kruer, Kohlmeyer and Price is pending on
+on 10 September 2026 and certified on 14 September 2026; that certification is
+reported, not counted. The proof is accepted on
+[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]]
+on this corpus's rebuild and kernel replay of the file on the repository's
+pinned toolchain (Lean v4.34.1) and a check of its target against the Statement.
+There is no refereed publication and no acceptance by erdosproblems.com. A
+stronger disproof by Kruer, Kohlmeyer and Price is pending on
 [[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]].
 It is a manuscript with a Lean file of 13 September 2026 that gives
 $\Omega(n\log\log n)$ unit distances, and it was posted as a proof claim under
@@ -73,14 +75,15 @@ https://www.erdosproblems.com/96.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/96.lean),
-which at the linked commit of 2026-09-18 tags `erdos_96` research open with
-its answer unfilled. The accepted Lean proof establishes the negation of that
+which at the linked commit of 2026-09-18 tags `erdos_96` research open with its
+answer unfilled. The accepted Lean proof establishes the negation of that
 statement with its answer fixed to true; its formal target is on the
-[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|Kruer–Kohlmeyer
-claim page]]. The pending manuscript's Lean file, which reproduces the
-problem definitions itself, is linked on the
-[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|Kruer–Kohlmeyer–Price
-claim page]]. This corpus has built neither.
+[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|Kruer–Kohlmeyer claim page]].
+The pending manuscript's Lean file, which reproduces the problem definitions
+itself, is linked on the
+[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|Kruer–Kohlmeyer–Price claim page]].
+This corpus rebuilt and replayed the accepted proof, as its claim page records,
+and has not built the manuscript's file.
 
 ## Progress
 

@@ -132,61 +132,61 @@ The paper states its exclusions for positive exponents; the exponent-zero and
 equal-exponent boundary cases are closed inside the Lean files, whose families
 are proved not a prime plus $2^a$ for every $a\ge0$.
 
-**Acceptance evidence.** The bounty site Conjectures.io published the variant
-as the formal target `Erdos10.erdos_10.variants.grechuk`, task
+**Acceptance evidence.** The bounty site Conjectures.io published the variant as
+the formal target `Erdos10.erdos_10.variants.grechuk`, task
 `fc-379fc029-variants-grechuk-e26c885566-formalized-v1`, formal statement
 `({n | Even n} \ Erdos10.sumPrimeAndTwoPows 3).Infinite`. Record
 `244ff2d0-399d-4e37-a307-4ff6f3cb3493` (claim page
 [[problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv|the certified Conjectures.io proof]]):
 the site's Lean kernel accepted the proof on 6 August 2026 (05:12:22 UTC, per
-the decision text on the duplicate record below); its review approved the
-record the same day, its decision text finding that Lean verified the exact
-published task and that the proof establishes infinitely many even natural
-numbers that are not a prime plus at most three powers of two through
-Crocker's covering-congruence construction; the record was certified
-6 August 2026 and the bounty paid. The site's verification report lists a
-static scan (no imports, axiom declarations, `sorry`, `native_decide` or
-unsafe options), a sandboxed build, an unchanged canonical statement, and an
-axiom closure inside `propext`, `Quot.sound` and `Classical.choice`; its
-second kernel (Nanoda) was not run, so the verdict rests on one kernel
-implementation. The site withdrew the target the same day as "SOLVED +
-NOT_OPEN", noting that the informal claim already follows from Crocker's
-published theorem by the parity reduction, so the target was not open when
-offered. Record `ce95887b-8b61-4a89-9069-9131a58906e0` (claim page
+the decision text on the duplicate record below); its review approved the record
+the same day, its decision text finding that Lean verified the exact published
+task and that the proof establishes infinitely many even natural numbers that
+are not a prime plus at most three powers of two through Crocker's
+covering-congruence construction; the record was certified 6 August 2026 and the
+bounty paid. The site's verification report lists a static scan (no imports,
+axiom declarations, `sorry`, `native_decide` or unsafe options), a sandboxed
+build, an unchanged canonical statement, and an axiom closure inside `propext`,
+`Quot.sound` and `Classical.choice`; its second kernel (Nanoda) was not run, so
+the verdict rests on one kernel implementation. The site withdrew the target the
+same day as "SOLVED + NOT_OPEN", noting that the informal claim already follows
+from Crocker's published theorem by the parity reduction, so the target was not
+open when offered. Record `ce95887b-8b61-4a89-9069-9131a58906e0` (claim page
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]) is a
 second Lean proof of the same formal statement, credited by the site to a
 different solver and described by its author as independently developed; the
-kernel accepted it later on 6 August 2026 (11:24:37 UTC) and the review
-rejected it solely as DUPLICATE_OF_EARLIER_SUBMISSION ("one reward is paid per
-stable theorem target" under the site's policy v1), not on mathematical
-grounds. Its proof and a write-up are published in a gist of 2026-08-07,
-recorded on the
+kernel accepted it later on 6 August 2026 (11:24:37 UTC) and the review rejected
+it solely as DUPLICATE_OF_EARLIER_SUBMISSION ("one reward is paid per stable
+theorem target" under the site's policy v1), not on mathematical grounds. Its
+proof and a write-up are published in a gist of 2026-08-07, recorded on the
 [[../library/additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|gist card]],
-and that gist is the `formal_proof` the formal-conjectures catalog cites when
-it marks the variant `research solved` (2026-09-14, PR #5998), which is
-catalog agreement; the erdosproblems.com proof-claims thread lists the same
-gist as a partial claim (submitted 2026-08-07 10:33:54). The certification is
-documented independent acceptance of the formal variant, the `reviewed`
-evidence of the accepted partial claim page, distinct from a refereed result;
-no refereed publication of the variant exists. The page-level standing does
-not rest on it, since a partial claim settles no question of the page.
+and that gist is the `formal_proof` the formal-conjectures catalog cites when it
+marks the variant `research solved` (2026-09-14, PR #5998), which is catalog
+agreement; the erdosproblems.com proof-claims thread lists the same gist as a
+partial claim (submitted 2026-08-07 10:33:54). The certification is reported,
+not counted: the accepted partial claim page rests on this corpus's rebuild and
+kernel replay of the file on the repository's pinned toolchain (Lean v4.34.1)
+and its check of the target against the claim, listed as `formalized`; no
+refereed publication of the variant exists. The page-level standing does not
+rest on it, since a partial claim settles no question of the page.
 
-**Reading depth.** The corpus has not built either Lean file or replayed the
-site's kernel check, so neither claim page lists `formalized` evidence. The
+**Reading depth.** The corpus rebuilt the accepted file and replayed its target
+in the kernel, as its claim page records; it has not built the second proof's
+file, so that claim page lists no `formalized` evidence. Beyond the replay, the
 basis here is the text of the two files: the accepted solution file at the
 record's solution page
 (https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493/solution),
-which matches the proof digest the site prints, and the second proof's file
-in its gist, identified by size on the
+which matches the proof digest the site prints, and the second proof's file in
+its gist, identified by size on the
 [[../library/additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|gist card]].
 In the accepted file, `theorem target` closes the catalog's own type
 (`fcTypeOfName% "Erdos10.erdos_10.variants.grechuk"`) by
 `exact local_grechuk_target`, and `SumPrimeThreePows` is an `abbrev` for the
 catalog's `sumPrimeAndTwoPows 3`, so no definition is restated. Neither file
-contains a `sorry`, `native_decide`, `axiom`, `unsafe`, `import` or
-`set_option` token. The accepted file's structure: `CA j = CK * CP (CL j)`
-with `CL j = 12 * (j + 1)` and `CP n = 45592577 * ∏_{i < n, i ≠ 10} F_i`
-over the Fermat numbers $F_i$, that is $(2^{2^n}-1)/G_{10}$ with
+contains a `sorry`, `native_decide`, `axiom`, `unsafe`, `import` or `set_option`
+token. The accepted file's structure: `CA j = CK * CP (CL j)` with
+`CL j = 12 * (j + 1)` and `CP n = 45592577 * ∏_{i < n, i ≠ 10} F_i` over the
+Fermat numbers $F_i$, that is $(2^{2^n}-1)/G_{10}$ with
 $G_{10}=(2^{1024}+1)/45592577$, Crocker's choice $k=10$ with
 $2^{12}\cdot11131+1=45592577$, and the constant `CK`, congruent to $1$ modulo
 $16$, in the role of Crocker's $w$; `CA_mod_sixteen` (`CA j % 16 = 15`);
@@ -194,12 +194,11 @@ $16$, in the role of Crocker's $w$; `CA_mod_sixteen` (`CA j % 16 = 15`);
 of $28$ residue classes whose certificates are checked by `decide`;
 `CA_not_prime_plus_two_positive_powers` through Fermat-number divisibility of
 $2^a+2^b$; and `CN j = CA j + 1`, even and outside the set by case analysis on
-the multiset of at most three exponents. The gist file's final
-`theorem target` closes by `exact CrockerCRTAssembly.erdos10_grechuk`, whose
-family is likewise proved congruent to $15$ modulo $16$, greater than $15$
-and outside `sumPrimeAndTwoPows 2`. No local kernel credit is claimed. Of
-[Cr71], the basis here is Theorem I, Lemma II and the proof of Theorem I;
-see the result page.
+the multiset of at most three exponents. The gist file's final `theorem target`
+closes by `exact CrockerCRTAssembly.erdos10_grechuk`, whose family is likewise
+proved congruent to $15$ modulo $16$, greater than $15$ and outside
+`sumPrimeAndTwoPows 2`. Of [Cr71], the basis here is Theorem I, Lemma II and the
+proof of Theorem I; see the result page.
 
 **Site remark.** The site credits Bogdan Grechuk with the observation that
 $1117175146$ has no representation as a prime plus at most three powers of
@@ -218,9 +217,9 @@ the catalog's reference line of 2026-09-21 mis-cites it as Acta Arith. 29
 (1976), 353-370, while the publication record is Invent. Math. 29 (1975),
 no. 2, 125-142, DOI 10.1007/BF01390190, as the site and this page cite it.
 
-**Remaining gaps.** The question itself, now for $k\ge4$. The only
-independently reviewed result on this page is the variant's certification by
-Conjectures.io.
+**Remaining gaps.** The question itself, now for $k\ge4$. The only accepted
+result on this page is the variant, accepted on this corpus's kernel replay of
+the file Conjectures.io certified.
 
 ## Known results
 
@@ -249,8 +248,8 @@ Conjectures.io.
   [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]),
   which the catalog cites when it marks the variant solved (2026-09-14) and
   which the site's proof-claims thread lists as a partial claim. The corpus
-  has not built either file; the basis here is their text (final theorem,
-  target type and tokens; see Current assessment). The variant was not open:
+  replayed the accepted file in the kernel and has not built the second one
+  (see Current assessment). The variant was not open:
   Conjectures.io withdrew the target on 6 August 2026 as "SOLVED +
   NOT_OPEN", since it already follows from [Cr71] by the parity reduction.
 - The site's remark, credited to Bogdan Grechuk, that $1117175146$ has no

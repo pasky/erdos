@@ -13,13 +13,16 @@ status: accepted
 claim: disproved
 scope: full
 evidence:
-- reviewed
+- formalized
 submitted: null
 links:
 - url: https://conjectures.io/results/7ffd1c09-2912-4c4c-a7ff-a4faa263f517
   kind: record
   date: 2026-09-14
 - url: https://conjectures.io/results/7ffd1c09-2912-4c4c-a7ff-a4faa263f517/solution
+  kind: formalization
+  date: 2026-09-10
+- url: https://conjectures.io/results/7ffd1c09-2912-4c4c-a7ff-a4faa263f517/solution/download
   kind: formalization
   date: 2026-09-10
 - url: https://conjectures.io/papers/erdos96.pdf
@@ -72,40 +75,53 @@ claimed a linear upper bound, is contradicted by the theorem, without
 locating an erroneous step; that claim has
 [[problems/distance_problems/E0096/claims/2016_05_24_khopkar|its own page]].
 
-**Acceptance.** The `reviewed` evidence is the certification by the bounty site
-Conjectures.io, linked above as the record. The site's Lean kernel verified the
-proof on 10 September 2026 in a fresh isolated replay, with checks on the
-statement, the dependencies and the permitted axioms. The permitted axioms are
-`propext`, `Quot.sound` and `Classical.choice`. The site's review approved the
-record on 11 September 2026 under its policy v2. It found that the reviewed
-definitions use Euclidean distance and unordered pairs, that the argument
-handles every proposed linear constant and every size threshold, and that the
-formal target matches the question of Problem 96. The record was certified on 14
-September 2026 and shows the bounty as paid.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file, unchanged, on the repository's pinned toolchain,
+`leanprover/lean4:v4.34.1` with Mathlib at the revision
+`lean/lake-manifest.json` pins. The kernel replayed, from an empty environment,
+every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
+definition its statement reaches, are identical to the formal-conjectures
+statement of the site's task; **Formal statement.** below checks it against the
+problem's Statement. Acceptance rests on this replay and that check.
+
+The certification by the bounty site Conjectures.io, linked above as the record,
+is reported, not counted. The site's Lean kernel verified the proof on 10
+September 2026 in a fresh isolated replay, with checks on the statement, the
+dependencies and the permitted axioms. The permitted axioms are `propext`,
+`Quot.sound` and `Classical.choice`. The site's review approved the record on 11
+September 2026 under its policy v2. It found that the reviewed definitions use
+Euclidean distance and unordered pairs, that the argument handles every proposed
+linear constant and every size threshold, and that the formal target matches the
+question of Problem 96. The record was certified on 14 September 2026 and shows
+the bounty as paid.
 
 The review states that it is an eligibility decision and not a guarantee of
 originality. It also states that its provenance search found no earlier
 completed negative solution, and that only Lean's default kernel was used.
 
-The bounty site is the only accepting body. No refereed publication exists, and
-the explanation is a working draft on the site. The site erdosproblems.com
-records no such result. Its export of 2026-09-04 labels the problem "OPEN", and
-its page, last edited 23 January 2026, carries no proof claim and no proof
-exposition. The curator of erdosproblems.com is not a party to this acceptance.
+No refereed publication exists, and the explanation is a working draft on the
+site. The site erdosproblems.com records no such result. Its export of
+2026-09-04 labels the problem "OPEN", and its page, last edited 23 January 2026,
+carries no proof claim and no proof exposition. The curator of erdosproblems.com
+is not a party to this acceptance.
 
 **Formal statement.** The task fixed the formal-conjectures statement
 `Erdos96.erdos_96` (`FormalConjectures/ErdosProblems/96.lean` at a pinned
 catalog commit) with its open answer set to true,
 `True ↔ (fun n => ↑(Erdos96.maxConvexUnitDistances n)) =O[Filter.atTop] fun n => ↑n`,
-where `maxConvexUnitDistances n` is the supremum, over $n$-point finite
-subsets of the Euclidean plane in strict convex position, of the number of
-unordered pairs of distinct points at distance exactly $1$; the accepted file
-proves the negation of that statement from the construction above. The
-task's catalog commit was not reachable on GitHub on 2026-10-07; the
-statement file at the catalog's commit of 2026-09-18 reads the same, and the
-site's check that the source theorem's type hash matches the task ties the
-proof to the pinned statement. This corpus has neither built nor audited the
-proof, so no `formalized` evidence is listed.
+where `maxConvexUnitDistances n` is the supremum, over $n$-point finite subsets
+of the Euclidean plane in strict convex position, of the number of unordered
+pairs of distinct points at distance exactly $1$; the accepted file proves the
+negation of that statement from the construction above. The task's catalog
+commit was not reachable on GitHub on 2026-10-07; the statement file at the
+catalog's commit of 2026-09-18 reads the same. The site builds the task's commit
+from a public catalog commit and an audit patch; this corpus's replay reproduced
+it exactly and found the target's type identical to its statement. In it
+`ConvexIndep` is strict convex position and the count of unit distances runs
+over unordered pairs of distinct points, so the negation the file proves is the
+answer no to the problem's Statement.
 
 **Consequence for Problem 97.** The site's remarks record that a positive answer
 to [[problems/distance_problems/E0097/_index|Problem 97]] for $k+1$ equidistant
