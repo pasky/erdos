@@ -96,10 +96,12 @@ result on the claim page
 identity above, it makes $N(k,k)\le C^k$ fail for every $C$, and since the first
 displayed question asks for every $c>0$, a failure at $c=1$ answers that
 question, as stated, no. The bound itself is accepted, formalized, on Problem
-138. The reduction is elementary, but it has not been checked by review or
-formalization here, so the no is claimed, not accepted. The substantive open
-question is the variant for $0<c<1$, [ErGr79]'s strict form, which leaves out
-$c=1$ (Formulation).
+138. The only step beyond it is the identity $N(k,k)=W(k)$, which follows from
+the definition; Plasma AI checked it, and acceptance on that check is pending
+until the project's reviewer signs off, so the no is claimed, not accepted. Once
+the claim is accepted, the first displayed question reads answered no. Erdős
+and Graham's strict form [ErGr79], which leaves out $c=1$ (Formulation), is a
+separate variant, open for $0<c<1$.
 
 Lean developments posted in the site's thread in June 2026 claim yes answers,
 with polynomial bounds, to the questions $N(k,2)\le C^k$ and
@@ -173,14 +175,16 @@ settle no displayed question, so they get no page. For $c>1$ no $N(k,ck)$
 exists, so those values lie outside the first displayed question, as the
 Formulation notes, and no page carries them.
 
-**Remaining gaps.** The variant of the first displayed question for
-$0<c<1$, [ErGr79]'s strict form, is open, and no upper bound for it is recorded
-here. The no to the first displayed question as stated rests on its case $c=1$,
-which rests on the release's bound for $W(k)$, accepted on Problem 138, through
-an elementary reduction that no review or formalization has checked here; the
-two polynomial bounds rest on Lean developments that this corpus has not built;
-the site's commentary records none of the three. Proof coverage is at statement
-level throughout, and nothing is independently reviewed by this project.
+**Remaining gaps.** Erdős and Graham's strict form [ErGr79], a separate
+variant that leaves out $c=1$, is open for $0<c<1$, and no upper bound for it
+is recorded here. The no to the first displayed question as stated rests on its
+case $c=1$, which rests on the release's bound for $W(k)$, accepted on Problem
+138, through the identity $N(k,k)=W(k)$, which follows from the definition and
+which Plasma AI checked, with acceptance pending until the project's reviewer
+signs off; the two polynomial bounds rest on Lean developments that this corpus
+has not built; the site's commentary records none of the three. Proof coverage
+is at statement level throughout, and apart from that check nothing is reviewed
+by this project.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
