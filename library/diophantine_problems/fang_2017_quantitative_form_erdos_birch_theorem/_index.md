@@ -26,14 +26,13 @@ The retained
 the publisher's (Instytut Matematyczny PAN) PDF of the eleven printed pages
 301--311 (PDF p. $n$ is printed p. $n+300$) followed by one blank page (PDF
 p. 12), with a text layer; p. 301 was also read on the page image for the
-towers of exponents. Provenance: retained from the repository's survey
-download set of September 2026; the survey record identifies the source by
-the DOI 10.4064/aa8434-10-2016 (<https://doi.org/10.4064/aa8434-10-2016>),
-which the first page also prints, and the download URL itself was not
-recorded; 274,296 bytes. The file prints "© Instytut Matematyczny PAN, 2017" on
-printed p. 301; IMPAN's article record offers the PDF under the link "Pobierz
-zgodnie z CC-BY" (which the English site renders "Free download under CC-BY
-license"), no version named
+towers of exponents. Provenance: retained from the repository's survey download
+set; the survey record identifies the source by the DOI 10.4064/aa8434-10-2016
+(<https://doi.org/10.4064/aa8434-10-2016>), which the first page also prints,
+and the download URL itself was not recorded; 274,296 bytes. The file prints
+"© Instytut Matematyczny PAN, 2017" on printed p. 301; IMPAN's article record
+offers the PDF under the link "Pobierz zgodnie z CC-BY" (which the English site
+renders "Free download under CC-BY license"), no version named
 (https://www.impan.pl/get/doi/10.4064/aa8434-10-2016, read 2026-10-02), and that
 page grant decides over the printed line: the Creative Commons Attribution
 license without a version; the site footer "Copyright © 2026 by IMPAN. All

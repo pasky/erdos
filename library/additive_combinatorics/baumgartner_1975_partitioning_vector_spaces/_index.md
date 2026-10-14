@@ -24,10 +24,11 @@ integer k, for which the paper omits the modified proof.
 **Source.** James E. Baumgartner, *Partitioning vector spaces*, Journal of
 Combinatorial Theory, Series A **18** (1975), 231–233; received 1974-05-07.
 [DOI](https://doi.org/10.1016/0097-3165(75)90016-3).
-The copy read for this card, the publisher's PDF of printed pp. 231–233, was
-inspected page by page and read against the card and the result pages. It
-prints "Copyright © 1975 by Academic Press, Inc. All rights of reproduction in
-any form reserved." in the footer of printed p. 231, every other right reserved.
+The copy read for this card, the publisher's PDF of printed pp. 231–233,
+obtained from the publisher on 2026-09-06, was inspected page by page and read
+against the card and the result pages. It prints "Copyright © 1975 by Academic
+Press, Inc. All rights of reproduction in any form reserved." in the footer of
+printed p. 231, every other right reserved.
 
 The [[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/main_theorem|unnumbered Theorem on p. 231]] constructs a subset of any
 vector space over $\mathbb Q$ that meets every one-sided infinite arithmetic

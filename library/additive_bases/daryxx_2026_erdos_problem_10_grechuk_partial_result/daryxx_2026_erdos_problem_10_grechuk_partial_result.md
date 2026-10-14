@@ -23,7 +23,7 @@ erdosproblems.com proof claim that links it.
 <https://gist.github.com/DaryxXx/e112c74cc648b08a420b0959315cf65f>, created
 2026-08-07T10:33:08Z, single revision
 `4b347897ff1811f1db1d82594c581f54b8f31b7d`. Both files were fetched from the
-raw URLs at that revision on 2026-09-28T02:56Z (HTTP 200):
+raw URLs at that revision (HTTP 200):
 
 - `ERDOSPROBLEMS_PARTIAL_PROOF.md`, 73 lines, 2,820 bytes; its text follows
   below.

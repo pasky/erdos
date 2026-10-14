@@ -34,7 +34,7 @@ arXiv:2607.12461v1, 14 July 2026), not held.
 **Retained artifact.** The
 [folder-name PDF](davey_2026_strong_edge_colouring_local_flag_algebras.pdf) is
 the arXiv v1 text (pdfTeX, 23 pp., a clean text layer), retained from the
-repository's survey download set of September 2026; its arXiv address is
+repository's survey download set; its arXiv address is
 <https://arxiv.org/abs/2607.17421v1>. Provenance: the survey download set,
 517,420 bytes. The arXiv record (https://arxiv.org/abs/2607.17421, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.

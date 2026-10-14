@@ -26,12 +26,11 @@ The retained
 [folder-name PDF](lebowitz_lockard_2025_increasing_sequences_decreasing_prime_factors.pdf)
 is the publisher PDF, 4 pages with a text layer, printed pp. 635--638
 (physical p. $n$ is printed p. $634+n$). Provenance: retained from the
-repository's survey download set of September 2026; the download URL was
-not recorded, but the identifier is the DOI
-<https://doi.org/10.7546/nntdm.2025.31.3.635-638> printed on the first
-page. 183,395 bytes. The file prints "Copyright © 2025 by the Author. This is an
-Open Access paper distributed under the terms and conditions of the Creative
-Commons Attribution 4.0 International License (CC BY 4.0).
+repository's survey download set; the download URL was not recorded, but the
+identifier is the DOI <https://doi.org/10.7546/nntdm.2025.31.3.635-638> printed
+on the first page. 183,395 bytes. The file prints "Copyright © 2025 by the
+Author. This is an Open Access paper distributed under the terms and conditions
+of the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 https://creativecommons.org/licenses/by/4.0/" on its first page, the Creative
 Commons Attribution 4.0 license.
 

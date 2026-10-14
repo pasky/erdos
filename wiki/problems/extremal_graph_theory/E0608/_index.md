@@ -108,7 +108,7 @@ imply a positive answer, the general $C_{2k+1}$ question of [EFR92], and the
 negative answer for $C_5$ credited to Füredi and Maleki as described by [GHV19],
 with the sharp constant $(2+\sqrt2)/16$ and the $k\ge3$ cases proved by [GHV19].
 The thread holds two comments (25 October 2025 and 25 July 2026), the
-proof-claim tab is empty, and the community database lists the problem as
+proof-claim tab was empty, and the community database lists the problem as
 disproved (last update 25 October 2025) and disproved (Lean) (last update 29
 July 2026).
 

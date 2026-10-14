@@ -26,12 +26,11 @@ Not a source key of the site; Problem 22's page cites it as [Cs25].
 [folder-name PDF](csaba_2025_ramsey_turan_problem_4_cliques.pdf) is the arXiv
 copy arXiv:2503.00644v1 [math.CO], stamped 1 March 2025: twelve pages with a
 complete text layer, PDF page equal to printed page. Provenance: 193,431 bytes,
-retained from the repository's survey download set of September 2026 (the
-URL of the set was not recorded; the arXiv abstract page
-<https://arxiv.org/abs/2503.00644v1> is the copy's public address). The journal
-text was not compared with the retained preprint. The arXiv record
-(https://arxiv.org/abs/2503.00644, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+retained from the repository's survey download set (the URL of the set was not
+recorded; the arXiv abstract page <https://arxiv.org/abs/2503.00644v1> is the
+copy's public address). The journal text was not compared with the retained
+preprint. The arXiv record (https://arxiv.org/abs/2503.00644, read 2026-10-02)
+names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, the definition of
 $RT(n,H,m)$ and $\alpha=m/n$, Theorem 1.1 (Szemerédi) with the

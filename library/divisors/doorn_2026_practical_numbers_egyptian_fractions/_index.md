@@ -42,9 +42,9 @@ refereed; no journal or DOI.
 
 The copy read for this card is the repository's `Practical numbers and Egyptian
 fractions.pdf` at the commit that the claim pages of Problems 18, 293 and 304
-link, 403,557 bytes, downloaded from the repository's raw URL (an earlier fetch
-at 2026-09-28T02:37Z gave the same digest). Printed and PDF page
-numbers coincide (pp. 1–7). The repository's Lean file
+link, 403,557 bytes, downloaded from the repository's raw URL on
+2026-09-28T03:01Z (an earlier fetch at 2026-09-28T02:37Z gave the same digest).
+Printed and PDF page numbers coincide (pp. 1–7). The repository's Lean file
 `ErdosProblem18&293&304.lean` (212,485 bytes, 4,333 lines, downloaded from its
 raw URL on 2026-09-28T03:01Z) was read as text and is not held; it was not built
 here. The TeX source is not retained. The copy read prints no notice; the

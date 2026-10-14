@@ -29,12 +29,11 @@ is the journal's typeset article: twenty pages with running heads "Page $k$
 of 20", so PDF page equals journal page, and a complete text layer; the
 article's own statement (p. 18): "Open Access This article is licensed
 under a Creative Commons Attribution 4.0 International License". Provenance:
-414,876 bytes, retained from the repository's survey download set of September
-2026 (the URL of the set was not recorded; the DOI above is
-the article's public address). The file prints "© The Author(s) 2025" on its
-first page and "Open Access This article is licensed under a Creative Commons
-Attribution 4.0 International License" on p. 18: the Creative Commons
-Attribution 4.0 license.
+414,876 bytes, retained from the repository's survey download set (the URL of
+the set was not recorded; the DOI above is the article's public address). The
+file prints "© The Author(s) 2025" on its first page and "Open Access This
+article is licensed under a Creative Commons Attribution 4.0 International
+License" on p. 18: the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract (p. 1), the introduction's
 account of $R(r,t)$, of the Erdős--Rogers function $f_{s,r}(n)$ and of the

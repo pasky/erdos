@@ -45,10 +45,10 @@ arXiv:2608.03965 (Cames van Batenburg and Korsky, not held).
 [folder-name PDF](kumar_2026_improved_bound_strong_clique_index_graphs.pdf) is
 the arXiv v1 text (the arXiv stamp "arXiv:2607.02698v1 [math.CO] 2 Jul 2026" on
 p. 1; 15 letter-size pages, a clean text layer), retained from the repository's
-survey download set of September 2026; its arXiv address is
-<https://arxiv.org/abs/2607.02698v1>. Provenance: the survey download set,
-565,513 bytes. The arXiv record (https://arxiv.org/abs/2607.02698, read
-2026-10-02) names the Creative Commons Attribution 4.0 license.
+survey download set; its arXiv address is <https://arxiv.org/abs/2607.02698v1>.
+Provenance: the survey download set, 565,513 bytes. The arXiv record
+(https://arxiv.org/abs/2607.02698, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 Read status: claims checked for the abstract (p. 1), Theorem 1.6 and
 Corollary 1.7 with the comparison paragraph (p. 3), the definition (1.1),

@@ -30,10 +30,10 @@ for Problem 151.
 [folder-name PDF](milanic_2024_upper_clique_transversal_problem.pdf) is the
 arXiv v3 text (the arXiv stamp "arXiv:2309.14103v3 [math.CO] 13 Aug 2024" on p.
 1; 29 A4 pages with a clean text layer, pdfTeX), retained from the repository's
-survey download set of September 2026; its arXiv address is
-<https://arxiv.org/abs/2309.14103v3>. Provenance: the survey download set,
-781,051 bytes. The arXiv record (https://arxiv.org/abs/2309.14103, read
-2026-10-02) names the Creative Commons Attribution 4.0 license.
+survey download set; its arXiv address is <https://arxiv.org/abs/2309.14103v3>.
+Provenance: the survey download set, 781,051 bytes. The arXiv record
+(https://arxiv.org/abs/2309.14103, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 Read status: claims checked for the title, authors, abstract and the first
 paragraph of the introduction (p. 1), read clause by clause on the page image;

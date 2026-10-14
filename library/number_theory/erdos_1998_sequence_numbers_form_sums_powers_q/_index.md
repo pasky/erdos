@@ -44,15 +44,14 @@ journal's typeset file (pdfTeX, 2007), 10 pages, printed pp. 201--210
 (printed p. $n$ is PDF p. $n-200$), with a text layer that drops the plus
 signs; the statements below were read on the rendered page images of
 pp. 201--202, 206 and 207. Provenance: retained from the repository's survey
-download set of 5 September 2026 (the download URL was not recorded; the
-journal's archive at <https://www.impan.pl/> hosts the article under its
-DOI); 176,460 bytes. The file's text layer carries no copyright or license line;
-the publisher's record (https://www.impan.pl/get/doi/10.4064/aa-83-3-201-210,
-read 2026-10-02) offers the PDF under the link "Pobierz zgodnie z CC-BY" ("Free
-download under CC-BY license" on the English site), a Creative Commons
-Attribution license whose version the record does not name; the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+download set (the download URL was not recorded; the journal's archive at
+<https://www.impan.pl/> hosts the article under its DOI); 176,460 bytes. The
+file's text layer carries no copyright or license line; the publisher's record
+(https://www.impan.pl/get/doi/10.4064/aa-83-3-201-210, read 2026-10-02) offers
+the PDF under the link "Pobierz zgodnie z CC-BY" ("Free download under CC-BY
+license" on the English site), a Creative Commons Attribution license whose
+version the record does not name; the site footer "Copyright © 2026 by IMPAN.
+All rights reserved." speaks for the site, not the article.
 
 Read status: claims checked for the introduction (the definitions of $l(q)$ and
 $L(q)$, the results (a)--(f)), Theorem 1 as a statement, the sentence opening

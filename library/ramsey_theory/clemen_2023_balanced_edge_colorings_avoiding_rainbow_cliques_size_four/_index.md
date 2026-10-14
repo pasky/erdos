@@ -33,11 +33,10 @@ its header), two letter-size pages with a complete text layer. The statements
 below were read on the text layer, and the superscripts, which the text layer
 drops, were checked on the page image of p. 1. The journal version is not held
 and was not compared; page references are to the preprint. Provenance: retained
-from the repository's survey download set of September 2026; the arXiv stamp
-identifies the file as <https://arxiv.org/abs/2303.15476v1>, but the download
-URL was not recorded; 76,070 bytes. The arXiv record
-(https://arxiv.org/abs/2303.15476, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+from the repository's survey download set; the arXiv stamp identifies the file
+as <https://arxiv.org/abs/2303.15476v1>, but the download URL was not recorded;
+76,070 bytes. The arXiv record (https://arxiv.org/abs/2303.15476, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Question 1.1, Theorem 1.2 and Lemma 1.3
 (statements read clause by clause); the coloring of Figure 1 was not

@@ -33,12 +33,11 @@ The retained
 is the publisher's PDF, 14 pages with a complete text layer, printed as
 "810, Page $n$ of 14"; the statement pages were read on the rendered page
 images of pp. 1 and 12. Provenance: retained from the repository's survey
-download set of 5 September 2026 (the download URL was not recorded; the
-identifier is the DOI <https://doi.org/10.1007/s11227-025-07337-0> printed on
-the first page); 862,781 bytes. The file prints "© The Author(s) 2025" on its
-first page and "Open Access This article is licensed under a Creative Commons
-Attribution 4.0 International License" on p. 13: the Creative Commons
-Attribution 4.0 license.
+download set (the download URL was not recorded; the identifier is the DOI
+<https://doi.org/10.1007/s11227-025-07337-0> printed on the first page); 862,781
+bytes. The file prints "© The Author(s) 2025" on its first page and "Open Access
+This article is licensed under a Creative Commons Attribution 4.0 International
+License" on p. 13: the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, the introduction's definition
 of the map $T$ and its status sentences, the related-work list, the

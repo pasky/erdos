@@ -38,10 +38,10 @@ the journal's typeset article: seven pages with the journal's pagination 1--7
 University Press". The article's own access statement (p. 1): "This is an Open
 Access article, distributed under the terms of the Creative Commons Attribution
 licence (https://creativecommons.org/licenses/by/4.0)". Provenance: 236,838
-bytes, retained from the survey download set of September 2026 (the DOI above is
-the article's public address). The file prints on its first page "© The
-Author(s), 2025. Published by Cambridge University Press. This is an Open Access
-article, distributed under the terms of the Creative Commons Attribution licence
+bytes, retained from the survey download set (the DOI above is the article's
+public address). The file prints on its first page "© The Author(s), 2025.
+Published by Cambridge University Press. This is an Open Access article,
+distributed under the terms of the Creative Commons Attribution licence
 (https://creativecommons.org/licenses/by/4.0), which permits unrestricted
 re-use, distribution and reproduction, provided the original article is properly
 cited.", the Creative Commons Attribution 4.0 license.

@@ -104,7 +104,7 @@ is `formalized` evidence.
 
 **Search scope.** On 2026-10-07 the site's page and its discussion thread
 recorded no proof claim and no result on the exact question beyond the
-statements above, and the site's proof-claims tab registered no claim; no wider
+statements above. The site's proof-claims tab registered no claim; no wider
 literature search was made. The site's label OPEN matches the derived standing:
 the one claim is partial.
 <!-- BEGIN problem library links -->

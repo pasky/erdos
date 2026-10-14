@@ -104,8 +104,7 @@ now known and that finer questions such as an asymptotic remain open. The
 problem page's commentary attributes the upper bound to the AI system prompted
 by the claimants and points to Problem 320. The curator is independent of the
 claimants, and that acceptance is the `reviewed` evidence. No refereed
-publication and no independent review were found on 2026-09-18. On 2026-10-07
-the claim had one comment, the curator's comment of 16 July 2026. It says that
-the proof is correct, that the lower bound is from the earlier work the claim
-cites, and that the upper bound follows at once from the resolution of
-Problem 320.
+publication and no independent review were found on 2026-09-18. The claim had
+one comment, the curator's comment of 16 July 2026. It says that the proof is
+correct, that the lower bound is from the earlier work the claim cites, and that
+the upper bound follows at once from the resolution of Problem 320.
