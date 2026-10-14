@@ -11,14 +11,14 @@ status: open
 claim: none
 parts: [two_tower_sequence, growth_necessary]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T01:12:01Z
 ---
 
 # Problem 263
 
 [[problems/irrationality/_index|..]]
 
-[[problems/irrationality/E0263/claims/_index|claims/]]: The 1 claim page of Problem 263, one per claimant's result; the problem's standing derives from them.
+[[problems/irrationality/E0263/claims/_index|claims/]]: The 5 claim pages of Problem 263, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -66,7 +66,9 @@ Erdős's formulation carries: a DeepMind prover agent had posted on 2026-02-27
 disproof of the second question for the statement without that hypothesis,
 the sequence $a_n=2^{3^n}$ except $a_n=2^n$ on a sparse set of indices. That
 counterexample is not increasing and refutes only the superseded statement, so
-it is not a claim on the current problem; the site's remarks credit it, and
+it answers a variant and settles no instance of the current problem;
+[[problems/irrationality/E0263/claims/2026_02_27_deepmind|its claim page]]
+records it as rejected. The site's remarks credit it, and
 the formal-conjectures catalog preserves its formal proof at
 [the commit before the correction](https://github.com/google-deepmind/formal-conjectures/blob/c8cf651906abe91051cf835d4232ad5648412113/FormalConjectures/ErdosProblems/263.lean#L298).
 For the corrected statement, the one pending claim is a claimed disproof of
@@ -114,10 +116,14 @@ and on 2026-08-02
 ([claim 179](https://www.erdosproblems.com/forum/thread/263/proof-claims#proof-claim-179)
 and
 [claim 181](https://www.erdosproblems.com/forum/thread/263/proof-claims#proof-claim-181)),
-have no claim page: they are Lean 4 developments generated with Kimi K3 under
-Lystad's direction, archived on Zenodo, of the folklore sufficient criteria for
-being an irrationality sequence, and they settle no instance of either
-question, as the claimant states. The first claims that a strictly increasing
+have rejected claim pages
+([[problems/irrationality/E0263/claims/2026_08_01_lystad|claim 176]],
+[[problems/irrationality/E0263/claims/2026_08_02_lystad_monotone|claim 179]],
+[[problems/irrationality/E0263/claims/2026_08_02_lystad_general|claim 181]]),
+since they do not address the Statement: they are Lean 4 developments generated
+with Kimi K3 under Lystad's direction, archived on Zenodo, of the folklore
+sufficient criteria for being an irrationality sequence, and they settle no
+instance of either question, as the claimant states. The first claims that a strictly increasing
 sequence with $c\,a_n^{2+\epsilon}\le a_{n+1}$ for all large $n$ is an
 irrationality sequence in the problem's sense, the consequence of the folklore
 result the site's remarks state; $a_n=2^{2^n}$ has $a_{n+1}=a_n^2$ and misses

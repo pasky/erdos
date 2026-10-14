@@ -11,14 +11,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 401
 
 [[problems/factorials_binomials/_index|..]]
 
-[[problems/factorials_binomials/E0401/claims/_index|claims/]]: The 2 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
+[[problems/factorials_binomials/E0401/claims/_index|claims/]]: The 3 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -31,11 +31,11 @@ $$
 
 such that $a_1!a_2! \mid n!2^n3^n\cdots p_r^n$?
 
-**Formulation.** The source [ErGr80] leaves the quantifier on $n$ open; the
-site reads the problem as asking for infinitely many $n$, by comparison with
-Problems 728 and 729, and that reading is the statement above and the target
-of the standing. The reading with all sufficiently large $n$ is false; see the
-Current assessment.
+**Formulation.** The source [ErGr80] leaves the quantifier on $n$ open; the site
+reads the problem as asking for infinitely many $n$, by comparison with Problems
+728 and 729, and that reading is the statement above and the target of the
+standing. The reading with all sufficiently large $n$ is a variant this page
+sets aside, claimed false in the thread; see the Current assessment.
 
 **Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
 edited 12 January 2026). The standing in the frontmatter derives from the claim
@@ -84,15 +84,17 @@ $P_r$ the product of the first $r$ primes, is there $f(r)\to\infty$ such that
 infinitely many $n$ admit $a_1,a_2$ with $a_1+a_2>n+f(r)\log n$ and
 $a_1!a_2!\mid n!P_r^n$? The answer is yes.
 
-The two readings. Erdős and Graham wrote the problem without fixing whether
-the inequality should hold for infinitely many $n$ or for all large $n$. For
-all large $n$ it fails: Nat Sothanaphan showed in the thread (10 January 2026,
-with ChatGPT) that for $r\ge2$ and $n=p_{r+1}^k-1$ the divisibility forces
-$a_1+a_2\le n+2p_{r+1}$, so no $f(r)\to\infty$ can work there. The site's
-curator confirmed in the thread (11 January 2026) that the reading with
-infinitely many $n$ is the intended one, and the formal-conjectures statement
-encodes it. The refutation of the other reading is a thread post about a
-variant and has no claim page.
+The two readings. Erdős and Graham wrote the problem without fixing whether the
+inequality should hold for infinitely many $n$ or for all large $n$. Nat
+Sothanaphan claimed in the thread (10 January 2026, with ChatGPT) that it fails
+for all large $n$: for $r\ge2$ and $n=p_{r+1}^k-1$ the divisibility forces
+$a_1+a_2\le n+2p_{r+1}$, so no $f(r)\to\infty$ can work there. The argument is
+unreviewed and not checked here. The site's curator confirmed in the thread (11
+January 2026) that the reading with infinitely many $n$ is the intended one, and
+the formal-conjectures statement encodes it. The claimed refutation of the other
+reading answers a variant, and
+[[problems/factorials_binomials/E0401/claims/2026_01_10_sothanaphan|its claim page]]
+records it as rejected.
 
 The resolution. Barreto and Leeham, with ChatGPT, proved the stated reading
 (11 January 2026) by the construction they had used for Problem 729: $n=2m$,

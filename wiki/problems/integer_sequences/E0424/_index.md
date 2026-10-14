@@ -10,14 +10,14 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 424
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0424/claims/_index|claims/]]: The 1 claim page of Problem 424, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0424/claims/_index|claims/]]: The 2 claim pages of Problem 424, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -106,16 +106,17 @@ standing departs from the site's label OPEN, which predates the claims. The
 acceptance rests on the kernel-checked formalization, not on the site.
 
 Samuel Korsky posted a proof claim to the site's proof-claims tab as a full
-claim on 20 July 2026, after a partial claim of 18 July 2026 for a variant. It
-claims a proof of positive lower density, which is the modified Statement. It
-was written with GPT 5.6-Pro and is on arXiv (August 2026). Codex formalized it
-in Lean 4, with Boris Alexeev as formal co-author. The file is in
-`plby/lean-proofs`, and it was built and audited here on 2026-10-07. The
-formal-conjectures statement of the lower-density reading is tagged solved. The
-site has not accepted the claim. Its proof-claims tab says that a claim's
-appearing there does not mean that anyone associated with the site has examined
-any part of the proof. The site's curator commented in the thread only on the
-write-up's style. No refereed version exists.
+claim on 20 July 2026, after a partial claim of 18 July 2026 for a variant,
+whose [[problems/integer_sequences/E0424/claims/2026_07_18_korsky|claim page]]
+is rejected as answering a variant. It claims a proof of positive lower density,
+which is the modified Statement. It was written with GPT 5.6-Pro and is on arXiv
+(August 2026). Codex formalized it in Lean 4, with Boris Alexeev as formal
+co-author. The file is in `plby/lean-proofs`, and it was built and audited here
+on 2026-10-07. The formal-conjectures statement of the lower-density reading is
+tagged solved. The site has not accepted the claim. Its proof-claims tab says
+that a claim's appearing there does not mean that anyone associated with the
+site has examined any part of the proof. The site's curator commented in the
+thread only on the write-up's style. No refereed version exists.
 
 **Source.** [erdosproblems.com/424](https://www.erdosproblems.com/424), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #424,
@@ -152,26 +153,26 @@ literature search beyond those sources.
 
 ## Known Results
 
-Accepted on formalized evidence (full): Samuel Korsky's proof that the
-generated set has positive lower density, posted to the site's proof-claims tab
-on 20 July 2026 and on arXiv as 2608.07910 (8 August 2026), is recorded on
+Accepted on formalized evidence (full): Samuel Korsky's proof that the generated
+set has positive lower density, posted to the site's proof-claims tab on 20 July
+2026 and on arXiv as 2608.07910 (8 August 2026), is recorded on
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|its claim page]].
 Korsky's partial claim of 18 July 2026 treats the variant sequence in which the
 two factors may coincide; it settles no part of the question as stated, which
-requires distinct factors, so it has no page of its own and is recorded, with
-its links, on the same claim page. In the thread, Boris Alexeev reported a Lean
-4 formalization of the proof by Codex, with Alexeev as formal co-author (the
-file in `plby/lean-proofs`), and confirmed its statement, and on 21 September
-2026 formal-conjectures tagged its lower-density statement `research solved`
-with that file linked as the formal proof, while its natural-density variant
-stays `research open`. The site's label was OPEN and the community database
-records the problem as open; no refereed version or site acceptance exists. The
-Lean file was built here at a commit of 15 September 2026 with only the
-standard axioms `propext`, `Classical.choice` and `Quot.sound`, its `erdos_424`
-matches the repository's comparator challenge, and it states positive lower
-density. The claim is therefore accepted on `formalized` evidence with scope
-full: it proves the modified Statement, and the natural-density variant stays
-open.
+requires distinct factors, so
+[[problems/integer_sequences/E0424/claims/2026_07_18_korsky|its claim page]] is
+rejected as answering a variant. In the thread, Boris Alexeev reported a Lean 4
+formalization of the proof by Codex, with Alexeev as formal co-author (the file
+in `plby/lean-proofs`), and confirmed its statement, and on 21 September 2026
+formal-conjectures tagged its lower-density statement `research solved` with
+that file linked as the formal proof, while its natural-density variant stays
+`research open`. The site's label was OPEN and the community database records
+the problem as open; no refereed version or site acceptance exists. The Lean
+file was built here at a commit of 15 September 2026 with only the standard
+axioms `propext`, `Classical.choice` and `Quot.sound`, its `erdos_424` matches
+the repository's comparator challenge, and it states positive lower density. The
+claim is therefore accepted on `formalized` evidence with scope full: it proves
+the modified Statement, and the natural-density variant stays open.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

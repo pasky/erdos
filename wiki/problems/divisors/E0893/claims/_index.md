@@ -1,20 +1,15 @@
 ---
 name: problems/divisors/E0893/claims
-desc: The 2 claim pages of Problem 893, one per claimant's result; the problem's standing derives from them.
+desc: The 1 claim page of Problem 893, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
-updated: 2026-10-13T12:59:13Z
+updated: 2026-10-14T00:14:27Z
 ---
 
 # problems/divisors/E0893/claims
 
 [[problems/divisors/E0893/_index|..]]
-
-[[problems/divisors/E0893/claims/2025_06_05_kovac_luca|2025_06_05_kovac_luca]]: Kovač and Luca prove that the ratios $f(2n)/f(n)$ are unbounded, so they
-converge to no finite limit: a no to the finite-limit variant. Under the
-problem page's reading, which allows the limit $+\infty$, both answers stay
-possible.
 
 [[problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional|2025_06_05_kovac_luca_conditional]]: Kovač and Luca prove that $f(2n)/f(n)\to\infty$ if either of their two
 conjectures holds. Both are unproven: one is on highly composite Mersenne

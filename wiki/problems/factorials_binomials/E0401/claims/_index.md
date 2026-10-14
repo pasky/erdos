@@ -1,15 +1,21 @@
 ---
 name: problems/factorials_binomials/E0401/claims
-desc: The 2 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 401, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # problems/factorials_binomials/E0401/claims
 
 [[problems/factorials_binomials/E0401/_index|..]]
+
+[[problems/factorials_binomials/E0401/claims/2026_01_10_sothanaphan|2026_01_10_sothanaphan]]: Answers a variant (the inequality for all sufficiently large $n$), not the
+Statement (for infinitely many $n$), so it does not count toward the
+problem's standing. Nat Sothanaphan's thread post, with an argument found by
+ChatGPT, claims that for $r\ge2$ and $n=p_{r+1}^k-1$ every admissible pair
+has $a_1+a_2\le n+2p_{r+1}$.
 
 [[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|2026_01_11_barreto_price]]: Kevin Barreto and Liam Price, with GPT-5.2 Pro, prove that for every $r$
 infinitely many $n$ admit $a_1,a_2$ with $a_1+a_2>n+\omega(r)\log n$ and

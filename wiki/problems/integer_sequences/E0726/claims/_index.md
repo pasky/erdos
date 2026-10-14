@@ -1,10 +1,10 @@
 ---
 name: problems/integer_sequences/E0726/claims
-desc: The 2 claim pages of Problem 726, one per claimant's result; the problem's standing derives from them.
+desc: The 1 claim page of Problem 726, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # problems/integer_sequences/E0726/claims
@@ -15,10 +15,5 @@ updated: 2026-10-11T22:24:14Z
 site's tab the same day, claims $S(n)=\frac12\log\log n+O(\log\log\log n)$
 under an unproved equidistribution hypothesis. The claim is conditional and
 unreviewed.
-
-[[problems/integer_sequences/E0726/claims/2026_08_13_conjectures_io|2026_08_13_conjectures_io]]: A Conjectures.io record of 13 August 2026 gives a kernel-checked Lean
-refutation of the defective pre-fix formal statement of Problem 726, whose sum
-was identically zero. Conjectures.io's review says it settles nothing, and the
-claim is rejected.
 
 ***

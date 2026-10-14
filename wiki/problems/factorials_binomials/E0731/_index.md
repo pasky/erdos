@@ -36,21 +36,22 @@ of density $0$, the least non-divisor $A(n)$ of $\binom{2n}{n}$ satisfies
 $\exp((\log n)^{1/2-\epsilon})<A(n)<\exp((\log n)^{1/2+\epsilon})$. They add
 that improving this would be easy but that an asymptotic formula looks hard. The
 question asks for such a formula: an explicit $f$ with $A(n)/f(n)\to1$ outside a
-set of density $0$. The pending claim reads "reasonable" as dyadic regularity, a
-class that contains the usual explicit formulas, and asserts that no such $f$
-exists.
+set of density $0$. Li's claim reads "reasonable" as dyadic regularity, a class
+that contains the usual explicit formulas, and asserts that no such $f$ exists.
+That reading is a variant, which this page sets aside: a no to it leaves open an
+explicit $f$ outside the class.
 
 **Status.** OPEN: the site's label, on a page last edited 19 October 2025,
 before the one claim. The derived standing is open as well. One claim, by Eric
-Li, is pending on the
+Li, is recorded on the
 [[problems/factorials_binomials/E0731/claims/2026_06_27_li|Li claim page]]. The
 claim asserts that no dyadically regular $f$ has the least non-divisor
 asymptotic to $f(n)$ for almost all $n$. This is a negative answer under Li's
-reading of "reasonable" as dyadic regularity, a reading that neither the source
-nor the site's curator fixes, so the claim is partial (Current assessment). Li
-posted the claim as an arXiv preprint on 2026-06-27 and submitted it to the
-site's proof-claims tab on 2026-07-17. It comes with a Lean development
-produced by Aristotle (Harmonic).
+reading of "reasonable" as dyadic regularity, a variant the Formulation sets
+aside, so the claim page is rejected (Current assessment). Li posted the claim
+as an arXiv preprint on 2026-06-27 and submitted it to the site's proof-claims
+tab on 2026-07-17. It comes with a Lean development produced by Aristotle
+(Harmonic).
 
 **Source.** [erdosproblems.com/731](https://www.erdosproblems.com/731), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #731,
@@ -74,8 +75,10 @@ formula seems hard; and the site's discussion thread, frozen on 6 October
 [EGRS75]'s remark that $A(n)=\exp((\log n)^{1/2+o(1)})$ for almost all $n$ is
 not hard to show.
 
-**Readings and answers.** The answer depends on the reading of "reasonable",
-and the readings are not settled the same way, so the problem stays open.
+**Readings and answers.** The answer depends on the reading of "reasonable". The
+page reads the question as asking for an explicit asymptotic formula, as its
+source does, and sets aside the first two readings below; under its reading the
+problem is open.
 
 - With no restriction, $f=A$ meets the request trivially, a yes that the
   Formulation sets aside as not what is asked.
@@ -83,15 +86,17 @@ and the readings are not settled the same way, so the problem stays open.
   varies by an amount tending to $0$ over the dyadic block $X\le n<2X$ (Li's
   Definition 1.8), Li's
   [[../library/factorials_binomials/li_2026_resolution_erdos_problem_731_under_dyadic/theorem_1_10|Theorem 1.10]]
-  states that no such $f$ has $A(n)/f(n)\to1$ in natural density, a no. It is
-  pending on the
-  [[problems/factorials_binomials/E0731/claims/2026_06_27_li|Li claim page]],
-  partial because it answers this reading only.
-- With "reasonable" read more broadly, as an explicit formula not required to
-  be dyadically regular, nothing is settled. Li's theorems say nothing about
-  functions outside the dyadically regular class; his Corollary 1.6 states
-  only that any $f$ with $A(n)/f(n)\to1$ in density takes values at least a
-  fixed factor apart on positive proportions of every large dyadic block.
+  states that no such $f$ has $A(n)/f(n)\to1$ in natural density, a no. This
+  reading is a variant, so the
+  [[problems/factorials_binomials/E0731/claims/2026_06_27_li|Li claim page]]
+  is rejected: its mathematics answers the variant and does not settle this
+  problem.
+- With "reasonable" read as this page reads it, as an explicit formula not
+  required to be dyadically regular, nothing is settled. Li's theorems rule out
+  every dyadically regular $f$ and say nothing about functions outside that
+  class; his Corollary 1.6 states only that any $f$ with $A(n)/f(n)\to1$ in
+  density takes values at least a fixed factor apart on positive proportions of
+  every large dyadic block.
 
 **Progress.** [EGRS75] (p. 91) state without proof that
 $\exp((\log n)^{1/2-\epsilon})<A(n)<\exp((\log n)^{1/2+\epsilon})$ outside a set
@@ -99,7 +104,7 @@ of density $0$
 ([[../library/factorials_binomials/erdos_1975_prime_factors/inequality_8|inequality (8)]]).
 Li's
 [[../library/factorials_binomials/li_2026_resolution_erdos_problem_731_under_dyadic/corollary_1_7|Corollary 1.7]],
-pending with the claim, states that
+unreviewed like the rest of the preprint, states that
 $\log A(n)-\sqrt{(\log2)\log n}-\frac14\log\log n$ is bounded outside a set
 of upper density tending to $0$ as the bound grows, so that
 $\sqrt2(\log2)^{1/4}(\log n)^{1/4}\exp\sqrt{(\log2)\log n}$ is the
@@ -113,7 +118,7 @@ independently reviewed.
 
 **Remaining gaps.** (1) The reading of "reasonable", which no source or ruling
 fixes. (2) Review of Li's preprint and its Lean development, which would
-settle the dyadically regular reading only. (3) An asymptotic formula, or its
+settle the dyadically regular variant only. (3) An asymptotic formula, or its
 impossibility, for any reading broader than dyadic regularity.
 <!-- BEGIN problem library links -->
 

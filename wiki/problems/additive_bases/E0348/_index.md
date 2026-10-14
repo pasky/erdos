@@ -10,14 +10,14 @@ tags:
 status: claimed
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 348
 
 [[problems/additive_bases/_index|..]]
 
-[[problems/additive_bases/E0348/claims/_index|claims/]]: The 1 claim page of Problem 348, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_bases/E0348/claims/_index|claims/]]: The 2 claim pages of Problem 348, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -26,15 +26,17 @@ $A=\{a_1\leq a_2\leq \cdots\}$ of integers such that  $A$ remains complete after
 removing any $m$ elements, but   $A$ is not complete after removing any $n$
 elements?
 
-**Formulation.** The site defines a set as complete when its finite subset
-sums contain all sufficiently large integers (its definitions page), and the
+**Formulation.** The site defines a set as complete when its finite subset sums
+contain all sufficiently large integers (its definitions page), and the
 statement lists $A$ as $a_1\le a_2\le\cdots$, so equal values are separate
 terms, as the remarks' Fibonacci example $1,1,2,\ldots$ needs. The remarks
-contrast the strong sense, in which every positive integer must be a subset
-sum and van Doorn excluded every $m\ge2$, and say that Erdős and Graham most
-likely meant the eventual sense. The page reads the problem in the eventual
-sense with repeated values, the reading of Geneson's claim; van Doorn's
-strong-sense result settles no instance of it and has no claim page.
+contrast the strong sense, in which every positive integer must be a subset sum
+and van Doorn excluded every $m\ge2$, and say that Erdős and Graham most likely
+meant the eventual sense. The page reads the problem in the eventual sense with
+repeated values, the reading of Geneson's claim. Van Doorn's strong-sense
+result, posted in the site's discussion thread, settles no instance of it;
+[[problems/additive_bases/E0348/claims/2025_09_06_van_doorn|its claim page]]
+records it as rejected, answering a variant.
 
 **Status.** Claimed, against the site's label OPEN (accessed 2026-10-06). One
 pending full claim is recorded,

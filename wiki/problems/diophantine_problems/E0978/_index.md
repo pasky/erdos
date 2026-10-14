@@ -14,14 +14,14 @@ parts:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T01:01:57Z
 ---
 
 # Problem 978
 
 [[problems/diophantine_problems/_index|..]]
 
-[[problems/diophantine_problems/E0978/claims/_index|claims/]]: The 6 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
+[[problems/diophantine_problems/E0978/claims/_index|claims/]]: The 7 claim pages of Problem 978, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -166,19 +166,22 @@ cites both preprints and uses neither. Both claims agree with the accepted
 answer and leave the derived standing unchanged.
 
 The site's discussion thread (16 comments as of 2026-10-07) records the
-formulation's history. On 31 March 2026 a comment reported that a DeepMind
-prover agent had found a counterexample to the second question as then
-worded, without the local condition: the sextic
-$X^6+33X^5+21X^4+63X^3+18X^2+24X+48$ is congruent to $X(X-1)\cdots(X-5)$
-modulo $16$, so $16$ divides every value and no value is $4$-power-free. The
-curator added the local condition the same day, and the statement above
-carries it. A comment of the same day reports that two AI systems, named there
-as ChatGPT 5.4 and Gemini 3.1 Pro, claim a positive answer for $n^4+2$ under
-the abc conjecture; no manuscript is linked, and a result conditional on abc
-decides nothing, so it gets no claim page. Earlier comments (September 2025 to
-March 2026) explain the exclusion of $k=2^l$ through Erdős's examples, note
-that Bunyakovsky's conjecture would make $n^4+2$ prime, hence squarefree,
-infinitely often, and correct the statement's wording.
+formulation's history. On 31 March 2026 Moritz Firsching posted a
+counterexample, found by a DeepMind prover agent and proved in Lean, to the
+second question as then worded, without the local condition: the sextic
+$X^6+33X^5+21X^4+63X^3+18X^2+24X+48$ is congruent to $X(X-1)\cdots(X-5)$ modulo
+$16$, so $16$ divides every value and no value is $4$-power-free. It answers
+only that earlier wording, and
+[[problems/diophantine_problems/E0978/claims/2026_03_31_deepmind|its claim page]]
+records it as rejected, answering a variant. The curator added the local
+condition the same day, and the statement above carries it. A comment of the
+same day reports that two AI systems, named there as ChatGPT 5.4 and Gemini 3.1
+Pro, claim a positive answer for $n^4+2$ under the abc conjecture; no manuscript
+is linked, and a result conditional on abc decides nothing, so it gets no claim
+page. Earlier comments (September 2025 to March 2026) explain the exclusion of
+$k=2^l$ through Erdős's examples, note that Bunyakovsky's conjecture would make
+$n^4+2$ prime, hence squarefree, infinitely often, and correct the statement's
+wording.
 
 Search scope: the site's problem page, remarks, discussion thread and
 proof-claims tab (empty on 2026-10-06); the release manuscript, its
