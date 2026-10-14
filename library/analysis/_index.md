@@ -392,6 +392,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/analysis/E0910/_index|E0910]]
 - [[distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|feng_2026_semi_autonomous_mathematics_discovery_gemini_case]]
   - [[../wiki/problems/analysis/E1040/_index|E1040]]
+- [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
+  - [[../wiki/problems/analysis/E0120/_index|E0120]]
 - [[number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]
   - [[../wiki/problems/analysis/E0511/_index|E0511]]
   - [[../wiki/problems/analysis/E0516/_index|E0516]]

@@ -55,8 +55,11 @@ bound for every fixed $r\ge4$. Its Lean declaration was built by this corpus's
 verification with the three standard axioms only. This corpus's own
 statement-fidelity audit found the formal statement faithful to the question.
 That audit is part of the `formalized` evidence, not an outside review. The
-frontmatter standing is derived from that page and from the accepted partial
-claim page
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The frontmatter standing is derived from
+that page and from the accepted partial claim page
 [[problems/extremal_graph_theory/E0802/claims/1980_11_01_ajtai_komlos_szemeredi|Ajtai, Komlós and Szemerédi]],
 which covers the case $r=3$.
 
@@ -427,6 +430,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|openai_2026_logarithmic_independence_bound_clique_free_graphs / theorem_1_1]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/_index|shearer_1995_independence_number_sparse_graphs]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|shearer_1995_independence_number_sparse_graphs / corollary_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_2|ajtai_1980_note_ramsey_numbers / theorem_2]]
 - [[../library/ramsey_theory/mattheus_2023_asymptotics_r_4_t/_index|mattheus_2023_asymptotics_r_4_t]]

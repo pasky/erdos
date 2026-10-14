@@ -47,12 +47,16 @@ Erdős's lower bound of 1950, $N(b)\asymp\log\log b$. The claim is accepted on
 `formalized` evidence alone, namely the Lean declarations that the corpus's
 verification built and audited,
 as [[problems/unit_fractions/E0304/claims/2026_09_25_openai|its claim page]]
-records. It has no outside review and no refereed publication. A second full
-claim,
+records. It has no outside review and no refereed publication. The curator's
+blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's claims on this problem and on Problems 148
+and 293, as claims and not an endorsement, and says that their proofs have been
+formalized. A second full claim,
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|van Doorn's write-up of 9 October 2026]],
-gives the explicit bound $N(b)\le(16/\log2+o(1))\log\log b$ by a simplified
-form of the argument in Section 8 of the release's manuscript. It is pending
-and does not change the standing.
+gives the explicit bound $N(b)\le(16/\log2+o(1))\log\log b$ by a simplified form
+of the argument in Section 8 of the release's manuscript. It is pending and does
+not change the standing.
 
 The earlier bounds have accepted partial claim pages on their refereed papers.
 [[problems/unit_fractions/E0304/claims/1950_01_01_erdos|Erdős's 1950 bounds]]
@@ -305,6 +309,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/_index|doorn_2026_practical_numbers_egyptian_fractions]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/proposition_4_1|doorn_2026_practical_numbers_egyptian_fractions / proposition_4_1]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_2|doorn_2026_practical_numbers_egyptian_fractions / theorem_1_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
 - [[../library/unit_fractions/doorn_2025_smallest_denominator_not_contained_unit_fraction/_index|doorn_2025_smallest_denominator_not_contained_unit_fraction]]
 - [[../library/unit_fractions/doorn_2025_smallest_denominator_not_contained_unit_fraction/section_3|doorn_2025_smallest_denominator_not_contained_unit_fraction / section_3]]

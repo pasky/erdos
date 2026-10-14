@@ -58,9 +58,13 @@ the identity, closing that check, is given by the OpenAI release's preprint of
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] on its
 Lean proof, which this corpus built, checked for axioms and found identical to
 the release's comparator challenge. The preprint itself is unrefereed and
-unreviewed. The refereed partial claims alone leave the finite check open, which
-is what the label records. The label is a statement about the shape of what
-remains, not a theorem. It is recorded as the accepted partial claim page
+unreviewed. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The refereed partial claims alone leave the
+finite check open, which is what the label records. The label is a statement
+about the shape of what remains, not a theorem. It is recorded as the accepted
+partial claim page
 [[problems/ramsey_theory/E0551/claims/2018_07_17_keevash_long_skokan|Keevash, Long and Skokan 2021]],
 whose **Covers.** states the finite check, and the page records what is proved
 and what remains.
@@ -367,6 +371,7 @@ formal-conjectures file is a statement, not a proof.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/_index|bondy_1973_ramsey_numbers_cycles_graphs]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_4|bondy_1973_ramsey_numbers_cycles_graphs / theorem_4]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_5|bondy_1973_ramsey_numbers_cycles_graphs / theorem_5]]

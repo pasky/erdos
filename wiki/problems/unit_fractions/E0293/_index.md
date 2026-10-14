@@ -76,7 +76,11 @@ $\liminf\log\log v(k)/k\ge\log2/257$ and $\limsup\le\log2$. This is Corollary
 1.3 of the OpenAI mathematics release's manuscript of 25 September 2026,
 accepted as a partial claim on `formalized` evidence
 ([[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]]). The
-best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$, where
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's claims on this problem and on Problems 148
+and 304, as claims and not an endorsement, and says that their proofs have been
+formalized. The best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$, where
 $c_0=1.26408\ldots$ is the Vardi constant. It comes from van Doorn and Tang's
 inequality (1.2) and the Elsholtz–Planitzer count. The paper prints
 $(1/5+o(1))2^k$ (see the Upper bound below). Whether the slope tends to $\log2$,
@@ -334,6 +338,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/_index|doorn_2026_practical_numbers_egyptian_fractions]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/proposition_4_1|doorn_2026_practical_numbers_egyptian_fractions / proposition_4_1]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_3|doorn_2026_practical_numbers_egyptian_fractions / theorem_1_3]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
 - [[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/_index|bleicher_1975_number_distinct_subsums_sum_n_1]]
 - [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/_index|bleicher_1976_denominators_egyptian_fractions_ii]]

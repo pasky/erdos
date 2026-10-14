@@ -44,11 +44,16 @@ logarithm is fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is
 Corollary 1.2 of the OpenAI mathematics release's manuscript of 25 September
 2026
 ([[problems/unit_fractions/E0148/claims/2026_09_25_openai|its claim page]]). The
-lower half is new and replaces the published bound $\exp(\exp(ck/\log k))$. The
-upper half was known from explicit bounds of the form $c^{2^k}$. The best of
-these are due to Browning and Elsholtz and to Elsholtz and Planitzer (see Upper
-bound below). No asymptotic formula, no estimate up to constant factors and no
-value of the constant in $\log\log F(k)$ is known.
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's claims on this problem and on Problems 293
+and 304, as claims and not an endorsement, and says that their proofs have been
+formalized. The lower half is new and replaces the published bound
+$\exp(\exp(ck/\log k))$. The upper half was known from explicit bounds of the
+form $c^{2^k}$. The best of these are due to Browning and Elsholtz and to
+Elsholtz and Planitzer (see Upper bound below). No asymptotic formula, no
+estimate up to constant factors and no value of the constant in $\log\log F(k)$
+is known.
 
 **Source.** [erdosproblems.com/148](https://www.erdosproblems.com/148), accessed
 2026-09-17: the problem page (OPEN; last edited 27 September 2025; source keys
@@ -330,6 +335,7 @@ earlier papers not held. No proof has been rewritten or independently reviewed.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
 - [[../library/unit_fractions/conlon_2024_question_erdos_graham_egyptian_fractions/_index|conlon_2024_question_erdos_graham_egyptian_fractions]]
 - [[../library/unit_fractions/doorn_2025_smallest_denominator_not_contained_unit_fraction/_index|doorn_2025_smallest_denominator_not_contained_unit_fraction]]

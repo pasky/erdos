@@ -78,10 +78,14 @@ $r\ge2$ and every $k$ above an absolute threshold, so $W(k)^{1/k}\to\infty$, the
 example question the problem names; the result is accepted as a partial claim on
 [[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|its claim page]],
 on Lean declarations this corpus built and audited, and the open-ended request
-to improve the bounds stays open, with no upper bound touched. Google
-DeepMind's $W(k+1)\ge W(k)+k$, found by its AlphaProof Nexus system, answers
-the difference question of [Er81] and is accepted as a partial claim on the
-refereed publication of the paper that reports it
+to improve the bounds stays open, with no upper bound touched. The curator's
+blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. Google DeepMind's $W(k+1)\ge W(k)+k$, found
+by its AlphaProof Nexus system, answers the difference question of [Er81] and is
+accepted as a partial claim on the refereed publication of the paper that
+reports it
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]];
 [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|library page]]).
 Three further results on the questions the site's entry records are claimed on
@@ -128,6 +132,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_138_difference]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/_index|graham_1994_recent_trends_euclidean_ramsey_theory]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/conjecture_p127|graham_1994_recent_trends_euclidean_ramsey_theory / conjecture_p127]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/beck_1980_remark_concerning_arithmetic_progressions/_index|beck_1980_remark_concerning_arithmetic_progressions]]
 - [[../library/ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/_index|brown_1999_monochromatic_arithmetic_progressions_large_differences]]
 - [[../library/ramsey_theory/green_2022_new_lower_bounds_van_der_waerden/_index|green_2022_new_lower_bounds_van_der_waerden]]

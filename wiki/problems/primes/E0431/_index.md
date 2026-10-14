@@ -39,7 +39,10 @@ asks about. This corpus built them with only the three standard axioms, and
 their fingerprints are identical to the release's comparator challenges. The
 statement audit found the Lean statement for two infinite summands to be exactly
 the question, with the answer no over the nonnegative integers. The claim has no
-outside review or refereed publication.
+outside review or refereed publication. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized.
 
 **Source.** [erdosproblems.com/431](https://www.erdosproblems.com/431), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #431,
@@ -90,6 +93,7 @@ Not yet compiled.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/primes/elsholtz_2001_inverse_goldbach_problem/_index|elsholtz_2001_inverse_goldbach_problem]]
 - [[../library/primes/elsholtz_2001_inverse_goldbach_problem/corollary_p2|elsholtz_2001_inverse_goldbach_problem / corollary_p2]]
 - [[../library/primes/elsholtz_2001_inverse_goldbach_problem/theorem_p1|elsholtz_2001_inverse_goldbach_problem / theorem_p1]]

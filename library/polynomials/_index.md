@@ -248,6 +248,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/polynomials/E1039/_index|E1039]]
 - [[extremal_graph_theory/erdos_1997_some_unsolved_problems/_index|erdos_1997_some_unsolved_problems]]
   - [[../wiki/problems/polynomials/E0119/_index|E0119]]
+- [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
+  - [[../wiki/problems/polynomials/E1150/_index|E1150]]
 - [[number_theory/erdos_1943_note_farey_series/_index|erdos_1943_note_farey_series]]
   - [[../wiki/problems/polynomials/E1151/_index|E1151]]
 - [[number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]
