@@ -132,6 +132,11 @@ not checked. Nothing here is independently reviewed.
   second question yes; this consequence is drawn on the
   [[integer_sequences/ford_2010_prime_chains_pratt_trees/remark_p4|remark's page]],
   not in the paper, and the conjecture is unproved.
+- [[../wiki/problems/arithmetic_functions/E0408/_index|Problem 408]]:
+  [[integer_sequences/ford_2010_prime_chains_pratt_trees/theorem_5|Theorem 5]]
+  answers the third question, on the largest prime factor of $\phi_k(n)$: it
+  is $n^{o(1)}$ on a set of density one whenever $k=k(n)\to\infty$, a
+  deduction [[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|Plasma AI's 2026 preprint]] records as Proposition 7.1.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

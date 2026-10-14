@@ -1,0 +1,26 @@
+\section{Introduction}
+
+Let $\varphi$ be Euler's totient function, set $\varphi_0(n)=n$, and define $\varphi_{k+1}=\varphi\circ\varphi_k$ for $k\geq0$. For $n\geq1$, put
+\[
+ f(n)=\min\{k:\varphi_k(n)=1\}.
+\]
+Erd\H{o}s asked whether $f(n)/\log n$ has a limiting distribution and whether it is almost always constant. Both questions appear in Erd\H{o}s and Subbarao~\cite[p.~125]{ES72} (see also Erd\H{o}s and Graham~\cite[pp.~80--81]{EG80}, where they are attributed to Erd\H{o}). They are cataloged by Bloom~\cite{Bloom} as the first two parts of Erd\H{o}s Problem~408.
+
+\begin{thm}\label{thm:main}
+There is a constant $\alpha$, with
+\[
+ \frac1{\log 3}\leq\alpha\leq\frac1{\log 2},
+\]
+such that, for all sufficiently large $x$,
+\begin{equation}\label{eq:variance}
+ \sum_{n\leq x}\bigl(f(n)-\alpha\log n\bigr)^2
+ \ll \frac{x(\log x)^2}{(\log\log x)^5}.
+\end{equation}
+Moreover,
+\begin{equation}\label{eq:exceptional}
+ \#\left\{3\leq n\leq x:
+  |f(n)-\alpha\log n|>\frac{\log n}{\log\log n}\right\}
+ \ll \frac{x}{(\log\log x)^3}+\sqrt{x}.
+\end{equation}
+In particular, $f(n)/\log n\to\alpha$ on a set of natural density one.
+\end{thm}

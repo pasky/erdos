@@ -64,6 +64,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/_index|erdos_1990_normal_behavior_iterates_arithmetic_functions]]
 - [[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/statements_p169|erdos_1990_normal_behavior_iterates_arithmetic_functions / statements_p169]]
 - [[../library/arithmetic_functions/maier_1984_third_iterates_phi_sigma_functions/_index|maier_1984_third_iterates_phi_sigma_functions]]
+- [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function]]
 - [[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/_index|pollack_2016_problems_erdos_sum_divisors_function]]
 - [[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/theorem_1_2|pollack_2016_problems_erdos_sum_divisors_function / theorem_1_2]]
 - [[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/theorem_1_3|pollack_2016_problems_erdos_sum_divisors_function / theorem_1_3]]

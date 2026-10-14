@@ -59,5 +59,10 @@ arXiv version 4 named on the
 
 ## Bears on
 
-None. The theorem concerns iterates of phi at typical integers, not the growth of
-one infinite prime chain.
+- [[../wiki/problems/arithmetic_functions/E0408/_index|Problem 408]]: answers
+  its third question, which asks what can be said about the largest prime
+  factor of $\phi_k(n)$ when, say, $k=\log\log n$. Since
+  $P^+(\phi(m))\le P^+(m)$, the bound at the $k$ the theorem gives holds at
+  every later iterate, so for every integer-valued $k(n)\to\infty$ the largest
+  prime factor of $\phi_{k(n)}(n)$ is $n^{o(1)}$ on a set of density one. This
+  deduction is not in the paper; [[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|Plasma AI's 2026 preprint]] records it as Proposition 7.1.

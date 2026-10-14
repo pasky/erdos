@@ -262,6 +262,13 @@ obstruction removal inferred on this card; none is stated in the manuscript,
 none is verified here, and each page's status rests on its own acceptance
 evidence.
 
+- [[../wiki/problems/arithmetic_functions/E0408/_index|Problem 408]]: input to a claimed resolution. Plasma AI's 2026 preprint
+  ([[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|its card]]) uses the Dirichlet part of Theorem 1.1 as the
+  analytic input to its quantitative rectangle estimate for the prime factors
+  of $p-1$, which removes the Elliott--Halberstam-type hypothesis from the
+  Erdős--Granville--Pomerance--Spiro normal order of the number of totient
+  iterations. The claim rests on Theorem 1.1, unverified here, and is
+  pending this corpus's review.
 - [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: input. The
   page records Plasma AI's observation that the Dirichlet part of Theorem
   1.1, a zero-free half-plane uniform in the conductor, answers the third

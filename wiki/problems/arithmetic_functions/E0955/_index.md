@@ -250,6 +250,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/lebowitz_lockard_et_al_2021_distribution_mod_p_eulers_totient_sum_proper_divisors/theorem_1_3|lebowitz_lockard_et_al_2021_distribution_mod_p_eulers_totient_sum_proper_divisors / theorem_1_3]]
 - [[../library/arithmetic_functions/luca_pomerance_2015_range_sum_of_proper_divisors_function/_index|luca_pomerance_2015_range_sum_of_proper_divisors_function]]
 - [[../library/arithmetic_functions/luca_pomerance_2015_range_sum_of_proper_divisors_function/theorem_1|luca_pomerance_2015_range_sum_of_proper_divisors_function / theorem_1]]
+- [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function]]
 - [[../library/arithmetic_functions/pollack_2014_arithmetic_properties_sum_proper_divisors_sum/_index|pollack_2014_arithmetic_properties_sum_proper_divisors_sum]]
 - [[../library/arithmetic_functions/pollack_2014_arithmetic_properties_sum_proper_divisors_sum/theorem_1_11|pollack_2014_arithmetic_properties_sum_proper_divisors_sum / theorem_1_11]]
 - [[../library/arithmetic_functions/pollack_2015_palindromic_sums_proper_divisors/_index|pollack_2015_palindromic_sums_proper_divisors]]

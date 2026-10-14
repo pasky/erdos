@@ -115,6 +115,12 @@ The ratio $V(x)/V'(x)$ is bounded: Pollack, Pomerance and Treviño quote
 $V(x)\asymp V'(x)$ from Ford on p. 7 of their manuscript, which excludes the
 infinite limit erdosproblems.com reports Erdős suggested.
 
+## Method connection
+
+[[research/methods/shifted_prime_moments|Moments over the prime factors of $p-1$]]
+is background only here: it controls the joint divisibility of $p-1$ by prime
+tuples, the kind of input that counts of totient values use, but no deduction
+for $V(x)/V'(x)$ is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -124,5 +130,6 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/_index|openai_2026_asymptotic_formula_number_totients]]
 - [[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_2|openai_2026_asymptotic_formula_number_totients / theorem_2_2]]
+- [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function]]
 
 <!-- END problem library links -->

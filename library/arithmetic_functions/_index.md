@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-14T20:21:11Z
 ---
 
 # Arithmetic Functions
@@ -327,6 +327,14 @@ log n)^2/log log log n, nearly squaring Chowla's bound.
 factor of n^2+1, gives a related radical inequality, and counts the large
 prime factors of n^2+1.
 
+[[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function/]]: Plasma AI's 2026 preprint and Lean formalization proving that the number of
+iterations of Euler's function needed to reach $1$ has normal order
+$\alpha\log n$ for a constant $\alpha\in[1/\log3,1/\log2]$, with a variance
+bound, answering the first two questions of Problem 408 unconditionally; the
+proof replaces the Elliott--Halberstam-type hypothesis of Erdős, Granville,
+Pomerance and Spiro by shifted-prime estimates from OpenAI's zero-free
+half-plane and weighted-dilation-graph manuscripts.
+
 [[arithmetic_functions/pollack_2014_arithmetic_properties_sum_proper_divisors_sum/_index|pollack_2014_arithmetic_properties_sum_proper_divisors_sum/]]: Reproves in quantitative form that s(s(n))/s(n) exceeds s(n)/n by more
 than (log log x)^(-1/4) for only o(x) integers n <= x, and shows that
 s(beta(n))/beta(n), with beta(n) the sum of the distinct prime divisors of
@@ -457,6 +465,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/arithmetic_functions/E0420/_index|E0420]]
 - [[integer_sequences/erdos_1956_pseudoprimes_carmichael_numbers/_index|erdos_1956_pseudoprimes_carmichael_numbers]]
   - [[../wiki/problems/arithmetic_functions/E0821/_index|E0821]]
+- [[integer_sequences/ford_2010_prime_chains_pratt_trees/_index|ford_2010_prime_chains_pratt_trees]]
+  - [[../wiki/problems/arithmetic_functions/E0408/_index|E0408]]
 - [[integer_sequences/pomerance_1989_two_methods_elementary_analytic_number_theory/_index|pomerance_1989_two_methods_elementary_analytic_number_theory]]
   - [[../wiki/problems/arithmetic_functions/E0821/_index|E0821]]
 - [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
@@ -506,6 +516,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/arithmetic_functions/E0690/_index|E0690]]
 - [[primes/erdos_1976_problems_results_consecutive_integers/_index|erdos_1976_problems_results_consecutive_integers]]
   - [[../wiki/problems/arithmetic_functions/E0334/_index|E0334]]
+- [[primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/_index|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8]]
+  - [[../wiki/problems/arithmetic_functions/E0408/_index|E0408]]
 - [[primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/_index|pollack_et_al_2013_sets_monotonicity_euler_totient_function]]
   - [[../wiki/problems/arithmetic_functions/E0415/_index|E0415]]
   - [[../wiki/problems/arithmetic_functions/E1004/_index|E1004]]
