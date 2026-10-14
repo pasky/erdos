@@ -21,13 +21,13 @@ of Polynomial Products*, unpublished note (2026). The manuscript prints no
 version label or date; its PDF metadata gives a creation date of 16 April
 2026.
 
-**Local artifact.** The retained five-page PDF is 239,652 bytes. It was
-retrieved from [the Drive source
+**Edition read.** The copy read for this card is the five-page PDF of 239,652
+bytes retrieved from [the Drive source
 file](https://drive.google.com/file/d/1AHOWyZh7Gw1JKJUmomOixLX94l2kbXAS/view?usp=sharing)
-between `2026-09-07T10:07:02.498967000Z` and `2026-09-07T10:07:03.610613000Z`.
-This identifies the retained artifact, not publication or mathematical
-acceptance. No notice is printed in the file, and the Google Drive share it was
-retrieved from states no terms
+between `2026-09-07T10:07:02.498967000Z` and `2026-09-07T10:07:03.610613000Z`;
+the repository does not hold it. This identifies the copy read, not publication
+or mathematical acceptance. No notice is printed in the file, and the Google
+Drive share it was retrieved from states no terms
 (https://drive.google.com/file/d/1AHOWyZh7Gw1JKJUmomOixLX94l2kbXAS/view, read
 2026-10-02); the term is unstated.
 

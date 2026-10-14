@@ -291,7 +291,7 @@ tab listed one later full-proof claim, the Yu--Chen manuscript of 13
 September 2026 with its own Lean formalization, no outside review, and PR
 #6433 to record the answer from that manuscript was open). The proof file is the
 record's solution download (the `.../solution` page shows its first 500 lines),
-fetched 2026-09-28: 485,414 bytes, 10,152 lines, header "A proof of the full
+fetched 2026-09-28: 10,152 lines, header "A proof of the full
 Erdős 354(levelIndex) proposition", 130 `Source: <name>.lean` sections in
 namespace `Erdos354Formal`, final theorem `target` at line 10148; the
 library card
