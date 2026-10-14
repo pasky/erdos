@@ -5,7 +5,8 @@ desc: |
   Plünnecke's 1970 theorem gives $d_s(A+B)\ge\alpha^{1-1/k}$ for a basis $B$ of
   order $k$ and a set $A$ of Schnirelmann density $\alpha$, which implies the
   asked increment. It was refereed in Crelle, and the site records it.
-authors: []
+authors:
+- H. Plünnecke
 status: accepted
 claim: proved
 scope: full
