@@ -54,7 +54,7 @@ satisfying the conjecture, distinct from the algorithmic edge-conformable
 approach of Romero and Sanchez-Arroyo, and so a partial result on problem 19
 for that class only.
 
-Source: <https://arxiv.org/abs/1605.03374>.
+Source: <https://arxiv.org/abs/1605.03374v1>.
 
 Read status: claims checked for Conjectures 0.1, 0.2 and 1.1, the
 definitions of pp. 2--7 and 10, Theorems 1.2 and 1.3 and Corollary 1.1, read

@@ -53,7 +53,7 @@ sum-free subsets of {ceil((N+1)/3),...,N} as asymptotically c(N)2^{N/2}
 (p. 11). The introduction also recalls counting bounds for sum-free subsets
 of Z/pZ and of general abelian groups.
 
-Source: <https://arxiv.org/abs/math/0304058>.
+Source: <https://arxiv.org/abs/math/0304058v1>.
 
 ## Results
 

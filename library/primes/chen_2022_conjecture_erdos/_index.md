@@ -40,7 +40,7 @@ by Ding and by Ding and Zhou. For problem 237, which is this conjecture of
 Erdos, the paper gives the full resolution with a quantitative log log x lower
 bound.
 
-Source: <https://arxiv.org/abs/2201.10727>.
+Source: <https://arxiv.org/abs/2201.10727v1>.
 
 **Bears on.** [[../wiki/problems/primes/E0237/_index|#237]]
 

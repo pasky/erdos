@@ -33,7 +33,7 @@ r(m-r) as (m-2r+n-2k)(m-2r-n+2k) = m^2 - n^2 and counting divisors; the final
 section applies the result to a conditional sum-product type estimate. This
 settles Problem #443.
 
-Source: <https://arxiv.org/abs/2503.24201>. The arXiv record
+Source: <https://arxiv.org/abs/2503.24201v1>. The arXiv record
 (https://arxiv.org/abs/2503.24201, read 2026-10-02) names the CC0 1.0 Universal
 public domain dedication.
 

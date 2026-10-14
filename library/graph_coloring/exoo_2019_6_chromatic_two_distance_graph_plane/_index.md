@@ -52,7 +52,7 @@ and propagation rules are described, with the graph data made available; the
 counts for K are stated as checkable, and K's non-5-colorability follows from
 Claim 2.2 applied to H and to its rotated copy.
 
-Source: <https://arxiv.org/abs/1909.13177>.
+Source: <https://arxiv.org/abs/1909.13177v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]:
 [[graph_coloring/exoo_2019_6_chromatic_two_distance_graph_plane/theorem_1_4|Theorem 1.4]]

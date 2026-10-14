@@ -49,7 +49,7 @@ length of the filtration. The bounds bear on the
 quantitative Erdős-Turán problems for k-term progressions (problems #3, #139,
 #142 and #179), giving upper bounds on r_k(N) for every k >= 5.
 
-Source: <https://arxiv.org/abs/2402.17995>.
+Source: <https://arxiv.org/abs/2402.17995v2>.
 
 **Bears on.** The paper names no Erdős problem; each row states what its
 bound gives for the problem.

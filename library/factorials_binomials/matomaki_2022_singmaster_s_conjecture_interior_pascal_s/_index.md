@@ -47,7 +47,7 @@ For problem 726, Tao and Sawhney used the paper's Proposition 1.12, the
 equidistribution estimate over primes in an interval, as an input to a
 back-of-the-envelope bound for that problem's exponential sum.
 
-Source: <https://arxiv.org/abs/2106.03335>.
+Source: <https://arxiv.org/abs/2106.03335v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0726/_index|#726]],
 [[../wiki/problems/factorials_binomials/E0849/_index|#849]]

@@ -74,7 +74,7 @@ f(n) = O(n^{4/11}). The paper does not state this consequence; the problem
 site (erdosproblems.com/92, read 2026-10-07) credits the observation to
 Hunter.
 
-Source: <https://arxiv.org/abs/2411.07188>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2411.07188v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2411.07188), every other right
 reserved.
 

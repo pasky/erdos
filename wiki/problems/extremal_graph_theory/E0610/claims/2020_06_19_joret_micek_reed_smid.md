@@ -22,7 +22,7 @@ links:
 - url: https://doi.org/10.37236/9659
   kind: paper
   date: 2021-09-10
-- url: https://arxiv.org/abs/2006.11353
+- url: https://arxiv.org/abs/2006.11353v1
   kind: preprint
   date: 2020-06-19
 - url: https://www.erdosproblems.com/610

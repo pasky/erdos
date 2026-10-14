@@ -64,7 +64,7 @@ Question 1 of the paper, and answers it affirmatively; the paper offers
 Theorem 2 as its answer to Erdős and Graham's request for the strongest theorem
 of this type.
 
-Source: <https://arxiv.org/abs/2601.21442>. The arXiv record
+Source: <https://arxiv.org/abs/2601.21442v3>. The arXiv record
 (https://arxiv.org/abs/2601.21442, read 2026-10-02) names the Creative Commons
 Attribution-NonCommercial-NoDerivatives 4.0 license. The copy read for this card
 is arXiv:2601.21442v3 (8 Jul 2026).

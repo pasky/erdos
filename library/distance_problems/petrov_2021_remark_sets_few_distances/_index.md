@@ -47,7 +47,7 @@ Theorem 1.2 is needed to derive Theorem 1.1. For $s=2$ the bound is the upper
 bound in Erdős Problem 502, which concerns the largest size of a set in
 $\mathbb{R}^{d}$ determining exactly two distinct distances.
 
-Source: <https://arxiv.org/abs/1912.08181>.
+Source: <https://arxiv.org/abs/1912.08181v1>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0502/_index|#502]]:
 Theorem 1.1 with $s=2$ bounds every two-distance set in $\mathbb{R}^{d}$ by

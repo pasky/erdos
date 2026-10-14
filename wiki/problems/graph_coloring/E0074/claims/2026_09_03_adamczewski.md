@@ -24,7 +24,7 @@ links:
 - url: https://www.erdosproblems.com/forum/thread/74/proof-claims#proof-claim-241
   kind: discussion
   date: 2026-09-03
-- url: https://arxiv.org/abs/2609.25050
+- url: https://arxiv.org/abs/2609.25050v1
   kind: preprint
   date: 2026-09-06
 - url: https://epoch.ai/files/frontiermath-erdos.pdf

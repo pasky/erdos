@@ -39,7 +39,7 @@ with k = 2, r = 1 covers 2^n + 1 and Theorem 2.4 with r = k = 1 covers n! + 1;
 both theorems need the added constant positive, so the paper treats neither
 2^n - 1 nor n! - 1.
 
-Source: <https://arxiv.org/abs/2005.07321>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2005.07321v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2005.07321), every other right
 reserved.
 

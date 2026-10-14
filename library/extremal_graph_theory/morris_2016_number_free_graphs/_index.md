@@ -67,7 +67,7 @@ engine is the hypergraph container method of Balogh-Morris-Samotij and
 Saxton-Thomason together with Theorem 1.5, a balanced supersaturation
 theorem for even cycles proved here (Section 3).
 
-Source: <https://arxiv.org/abs/1309.2927>. The copy read for this card is the
+Source: <https://arxiv.org/abs/1309.2927v3>. The copy read for this card is the
 40-page arXiv:1309.2927v3 (11 November 2015), whose numbering and pages the
 card and its result pages follow. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1309.2927), every other right

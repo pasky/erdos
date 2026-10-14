@@ -42,7 +42,7 @@ interval sense (the abstract's "in a certain sense"), so the paper does not
 determine the chromatic number of the plane for the single forbidden
 distance 1.
 
-Source: <https://arxiv.org/abs/2206.12633>.
+Source: <https://arxiv.org/abs/2206.12633v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]
 

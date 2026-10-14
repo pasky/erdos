@@ -64,7 +64,7 @@ $0.556799\ldots$ in Theorem 3. For $m\ge4$ the paper does not determine
 $d_m(T^2)$ (p. 3), and its Question 1 (p. 15) asks whether the $m=4,5,6$
 estimates of Theorem 3 are exact.
 
-Source: <https://arxiv.org/abs/2402.03997>.
+Source: <https://arxiv.org/abs/2402.03997v1>.
 
 **Results.** Labels and pages are the print's. Each statement was read clause
 by clause against the print (claims checked); no proof was checked step by

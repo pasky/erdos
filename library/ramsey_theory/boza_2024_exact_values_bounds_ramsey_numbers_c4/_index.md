@@ -63,7 +63,7 @@ paged on
 For problem 552 the paper supplies the exact values of f(n) for n <= 38; apart
 from f(1) = 4, all are of the form n + ceil(sqrt(n)) + {0, 1}.
 
-Source: <https://arxiv.org/abs/2409.12770>.
+Source: <https://arxiv.org/abs/2409.12770v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0085/_index|#85]],
 [[../wiki/problems/ramsey_theory/E0552/_index|#552]]

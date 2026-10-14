@@ -59,7 +59,7 @@ separately on the problem page. The discussion records a named 12 May 2026
 standard-check endorsement with a caveat about verifier presentation; this
 source folder does not compile that follow-up manuscript.
 
-Source: <https://arxiv.org/abs/2501.10333>.
+Source: <https://arxiv.org/abs/2501.10333v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0690/_index|#690]],
 [[../wiki/problems/divisors/E0692/_index|#692]]

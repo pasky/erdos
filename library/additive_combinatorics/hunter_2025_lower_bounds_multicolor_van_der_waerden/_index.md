@@ -59,7 +59,7 @@ remark (Section 1.1) that $H(k)=k^{\omega(k)}$ already follows from the
 construction of this paper together with a simple product coloring, through
 $H(k)\ge w(k;k-1)$.
 
-Source: <https://arxiv.org/abs/2301.06212>.
+Source: <https://arxiv.org/abs/2301.06212v1>.
 
 Read status: claims checked for Theorem 1, Remark 1.1, Theorem 2, Lemma 4.3
 and Proposition 4.1, read clause by clause on the page images of

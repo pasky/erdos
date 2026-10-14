@@ -70,7 +70,7 @@ term or not to choosing it from a finite set.
 Lemma 4 were read clause by clause on the arXiv v1 PDF; the proofs were read
 for structure only.
 
-Source: <https://arxiv.org/abs/2504.18712>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2504.18712v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2504.18712), every other right
 reserved.
 

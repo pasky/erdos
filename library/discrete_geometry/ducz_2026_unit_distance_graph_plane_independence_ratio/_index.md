@@ -69,7 +69,7 @@ chi(R^2), and for problem 232 it gives a new proof of m_1(R^2) < 1/4 without a
 numerical bound; the graph is only shown to exist, and the paper notes that an
 explicit construction, though possible in principle, is astronomically large.
 
-Source: <https://arxiv.org/abs/2606.28157>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2606.28157v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2606.28157), every other right
 reserved.
 

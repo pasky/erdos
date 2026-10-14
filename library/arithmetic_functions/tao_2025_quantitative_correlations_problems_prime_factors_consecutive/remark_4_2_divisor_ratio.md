@@ -17,7 +17,7 @@ first bullet, PDF p. 44. The remark invokes their Theorem 1.7 (PDF p. 8);
 the exceptional set is specified in (4.3) (PDF p. 35). The copy read is
 the arXiv v2 PDF identified on the
 [[arithmetic_functions/tao_2025_quantitative_correlations_problems_prime_factors_consecutive/_index|source card]]. Source record:
-<https://arxiv.org/abs/2512.01739>.
+<https://arxiv.org/abs/2512.01739v2>.
 
 ## Statement
 

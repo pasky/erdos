@@ -40,7 +40,7 @@ and Postle.
 ***
 
 Ronen Wdowinski, “Bounded degree graphs and hypergraphs with no full rainbow
-matchings,” [arXiv:2401.06029](https://arxiv.org/abs/2401.06029), version 2
+matchings,” [arXiv:2401.06029](https://arxiv.org/abs/2401.06029v2), version 2
 (stamped 18 December 2025). The manuscript title page is dated 19 December
 2025; these are recorded as separate dates. The arXiv record gives the journal
 version as *European Journal of Combinatorics* 133 (2026), article 104316,

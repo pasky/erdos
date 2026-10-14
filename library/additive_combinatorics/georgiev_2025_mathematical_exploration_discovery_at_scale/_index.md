@@ -45,7 +45,7 @@ of common differences of three-term progressions. The methodology is
 evolutionary search over whole code files with automated evaluation, with a
 reported average setup time of at most a few hours per problem (p. 2).
 
-Source: <https://arxiv.org/abs/2511.02864>.
+Source: <https://arxiv.org/abs/2511.02864v3>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0036/_index|#36]],
 [[../wiki/problems/additive_combinatorics/E1097/_index|#1097]]

@@ -40,7 +40,7 @@ small density. The authors note a footnote improvement by Balogh and
 Samotij raising the epsilon-net exponent from 1/3 to 1/2. For problem 589,
 asking for alpha(n), Theorem 2.1 gives the current best upper bound.
 
-Source: <https://arxiv.org/abs/1704.05089>. The held PDF is arXiv:1704.05089v2
+Source: <https://arxiv.org/abs/1704.05089v2>. The held PDF is arXiv:1704.05089v2
 (11 Oct 2018), the journal's typeset version, and page citations refer to it.
 The arXiv record (https://arxiv.org/abs/1704.05089, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.

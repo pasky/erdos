@@ -70,7 +70,7 @@ improve. The paper recalls (p. 2) that Erdos and Lovasz asked whether q(r) has
 a linear upper bound, that Erdos offered a prize for a proof, and that Kahn
 confirmed it.
 
-Source: <https://arxiv.org/abs/2011.04444>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2011.04444v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2011.04444), every other right
 reserved. The copy read for this card is arXiv:2011.04444v1 (9 November 2020);
 the theorem and corollary numbers above are that version's.

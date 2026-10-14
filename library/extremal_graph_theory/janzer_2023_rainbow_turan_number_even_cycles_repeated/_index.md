@@ -68,7 +68,7 @@ odd case is only discussed in the concluding remarks, as Conjecture 6.3
 (p. 17). That consequence is what bears on problem 147, whose statement is
 that conjecture.
 
-Source: <https://arxiv.org/abs/2006.01062>. The copy read for this card is
+Source: <https://arxiv.org/abs/2006.01062v3>. The copy read for this card is
 the 18-page arXiv:2006.01062v3 (12 April 2021), whose numbering and pages the
 card and its result pages follow. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2006.01062), every other right reserved.

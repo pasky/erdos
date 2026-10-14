@@ -50,7 +50,7 @@ Section 3 (p. 8) improves C_p for some p by using multisets and leaves open
 whether C_p < cp for an absolute constant c. The paper also reports
 Cambie's computer check that C = 32/9 works for all n <= 10^5 (p. 2).
 
-Source: <https://arxiv.org/abs/2511.04585>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2511.04585v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2511.04585), every other right
 reserved.
 

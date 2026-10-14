@@ -52,7 +52,7 @@ so discrete) has sum_{x in A, x < n} 1/x = o(log n);
 the paper does not treat the other assertion of #143, the convergence of
 sum_{x in A} 1/(x log x).
 
-Source: <https://arxiv.org/abs/2502.09539>.
+Source: <https://arxiv.org/abs/2502.09539v1>.
 
 **Bears on.** [[../wiki/problems/divisors/E0143/_index|#143]]
 

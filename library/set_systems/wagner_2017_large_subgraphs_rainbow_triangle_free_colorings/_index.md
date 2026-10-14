@@ -76,7 +76,7 @@ parts' chromatic numbers. That is the shape of the weighting step in the
 weighted Erdos-Szekeres theorem of Tidor, Wang and Yang, but the paper proves
 it only for chromatic numbers and states no bound for sequences or weights.
 
-Source: <https://arxiv.org/abs/1612.00471>.
+Source: <https://arxiv.org/abs/1612.00471v1>.
 
 **Bears on.**
 

@@ -68,7 +68,7 @@ then be raised to e^{e^{ck}}, matching the doubly exponential guess (an
 expectation, not a theorem), while conversely b < v(k) implies N(b-1, b) <=
 k - 1, so lower bounds for v give upper bounds for N.
 
-Source: <https://arxiv.org/abs/2512.22083>.
+Source: <https://arxiv.org/abs/2512.22083v2>.
 
 Read status: claims checked. Theorem 1.1, Lemma 2.1, Lemma 2.2 (Vose's theorem
 as restated), inequality (1.2) with the derived upper bound and the statements

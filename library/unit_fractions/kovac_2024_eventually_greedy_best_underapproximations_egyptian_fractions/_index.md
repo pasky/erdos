@@ -52,7 +52,7 @@ are allowed. The paper explicitly makes no progress on the companion open
 questions of whether every rational, or every algebraic number, has the
 eventually greedy property.
 
-Source: <https://arxiv.org/abs/2406.07218>.
+Source: <https://arxiv.org/abs/2406.07218v3>.
 
 The copy read for this card is arXiv:2406.07218v3 (26 September 2024; the
 arXiv comment says v3 incorporates the referee's suggestions), 7 pages; v1 is

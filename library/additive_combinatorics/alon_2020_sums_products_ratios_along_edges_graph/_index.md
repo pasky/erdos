@@ -83,7 +83,7 @@ construction of Theorem 9 to a question of Rudnev on pencils of lines
 (Problem 12), giving Claim 13 and delta <= 1/2 in a bound of Chang and
 Solymosi.
 
-Source: <https://arxiv.org/abs/1802.06405>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1802.06405v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1802.06405), every other right
 reserved.
 

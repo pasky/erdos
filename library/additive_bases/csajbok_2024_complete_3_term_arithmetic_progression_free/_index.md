@@ -43,7 +43,7 @@ and for a dense set of odd moduli, are the contrast case for the log question;
 its general bound for abelian groups of odd order n > 5 (Theorem 1.15) still
 carries a factor sqrt(ln n).
 
-Source: <https://arxiv.org/abs/2401.06283>. The arXiv record
+Source: <https://arxiv.org/abs/2401.06283v4>. The arXiv record
 (https://arxiv.org/abs/2401.06283, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

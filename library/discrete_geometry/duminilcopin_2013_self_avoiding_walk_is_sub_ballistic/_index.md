@@ -66,7 +66,7 @@ Labels and pages are those of arXiv:1205.0401v1.
 **Read status.** Claims checked for the three results above, read clause by
 clause on the print; the proofs were read for their structure only.
 
-Source: <https://arxiv.org/abs/1205.0401>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1205.0401v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1205.0401), every other right
 reserved.
 

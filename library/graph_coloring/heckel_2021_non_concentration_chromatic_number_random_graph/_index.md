@@ -67,7 +67,7 @@ upper bound, and asks whether a lower bound holds for every large $n$. On
 pp. 1--2 the paper cites the earlier upper bounds: Shamir and Spencer, intervals
 of length about $\sqrt n$, and Alon, about $\sqrt n/\log n$ for $p=\frac12$.
 
-Source: <https://arxiv.org/abs/1906.11808>.
+Source: <https://arxiv.org/abs/1906.11808v2>.
 
 Read status: claims checked for Theorem 3, Lemma 10 and the remarks of
 Section 3, read clause by clause on the page images; the proof of Theorem 3

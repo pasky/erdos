@@ -66,7 +66,7 @@ the polynomials of Section 3), would with it, the paper says, imply Erdős's
 distinctness conjecture on average over primes; the paper proves neither the
 conjecture nor that consequence. The paper is one of the references the site lists for Problem 478.
 
-Source: <https://arxiv.org/abs/1505.01198>.
+Source: <https://arxiv.org/abs/1505.01198v1>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0478/_index|#478]]: for
 p >= 5 the problem's |A_p| equals V(0,p-1), since 1! = 1 = (p-2)! mod p by

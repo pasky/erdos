@@ -69,7 +69,7 @@ three-term progression in every coloring with no red pair at distance 1; this
 is an observation of the corpus, not of the paper, and gives only that the
 least length is at least 4, weaker than the known bounds.
 
-Source: <https://arxiv.org/abs/2402.14197>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2402.14197v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2402.14197), every other right
 reserved.
 

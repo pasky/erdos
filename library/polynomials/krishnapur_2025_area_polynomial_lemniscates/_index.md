@@ -76,7 +76,7 @@ Theorem 6 as showing that the minimal area converges to zero, an affirmative
 answer to another Erdős–Herzog–Piranian question; the theorem as printed
 gives the infimum over n, not a limit.
 
-Source: <https://arxiv.org/abs/2503.18270>; the edition read is
+Source: <https://arxiv.org/abs/2503.18270v1>; the edition read is
 arXiv:2503.18270v1 (24 March 2025), whose labels and pages the result pages
 cite.
 

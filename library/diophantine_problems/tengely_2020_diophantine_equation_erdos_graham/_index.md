@@ -79,7 +79,7 @@ three of Corollary 2.6 (p. 5). Conjecture 3.7 (p. 11) predicts n + k <= a_k
 <= 2(n + k), and Remark 3.8 (p. 12) proves the upper bound when
 n >= 2^k - k.
 
-Source: <https://arxiv.org/abs/2008.01501>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2008.01501v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2008.01501), every other right
 reserved.
 

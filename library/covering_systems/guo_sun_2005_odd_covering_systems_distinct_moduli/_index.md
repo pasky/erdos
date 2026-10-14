@@ -23,7 +23,7 @@ Advances in Applied Mathematics **35** (2005), no. 2, 182--187.
 DOI 10.1016/j.aam.2005.01.004.
 
 The copy read for this card is the seven-page
-[arXiv:math/0412217v2](https://arxiv.org/abs/math/0412217), dated
+[arXiv:math/0412217v2](https://arxiv.org/abs/math/0412217v2), dated
 14 September 2005. Its first page carries the
 journal citation and records receipt on 10 December 2004 and acceptance on
 22 January 2005. The statement below is cited to this v2 pagination; no

@@ -39,7 +39,7 @@ results on them; note that the biased result reaches pairs such as (1,4) but
 not the (1,2) case Erdos asked about, and none of the three conjectures is
 settled in full.
 
-Source: <https://arxiv.org/abs/2410.18304>.
+Source: <https://arxiv.org/abs/2410.18304v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0778/_index|#778]]
 

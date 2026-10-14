@@ -67,7 +67,7 @@ shadow.
 Carlos Cabrelli, Michael T. Lacey, Ursula M. Molter, and Jill C. Pipher,
 “Variations on the theme of Journé's lemma,” *Houston Journal of
 Mathematics* 32 (2006), no. 3, 833–861.  The arXiv version is
-[math/0412174](https://arxiv.org/abs/math/0412174), version 2 dated 9 March
+[math/0412174](https://arxiv.org/abs/math/0412174v2), version 2 dated 9 March
 2005; the labels and page numbers on this card and its result pages are
 those of that version's 27 numbered pages. The arXiv record carries no
 license field, so arXiv's assumed license applies (arXiv:math/0412174),

@@ -45,7 +45,7 @@ for a solution (p. 2); the paper narrows the gap from above, while the best
 lower bound it cites is (1/2)(1 + 1/sqrt(n)) e(Q_n) for n a power of 4
 (Brass-Harborth-Nienborg). Labels and pages below are those of arXiv v2.
 
-Source: <https://arxiv.org/abs/1201.0209>.
+Source: <https://arxiv.org/abs/1201.0209v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0086/_index|#86]]:
 Theorem 1 gives the upper bound pi_Q(C_4) <= 0.6068, where the problem asks

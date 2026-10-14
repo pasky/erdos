@@ -36,7 +36,7 @@ Proposition 2.2 (p. 5), bound the number of d in a dyadic range having a
 multiple of d^2 in [X, X + H]; they are proof steps and are summarized on the
 theorem's page. The copy read for this card is arXiv version 3 (7 August 2026).
 
-Source: <https://arxiv.org/abs/2401.13981>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2401.13981v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2401.13981), every other right
 reserved.
 

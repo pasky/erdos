@@ -86,7 +86,7 @@ pointers on their pages but not checked step by step. The arXiv record names
 arXiv's non-exclusive distribution license (arXiv:2509.02561), every other right
 reserved.
 
-Source: <https://arxiv.org/abs/2509.02561>.
+Source: <https://arxiv.org/abs/2509.02561v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0788/_index|#788]]:
 Theorem 4 (p. 3), the independence number $\tilde O(p^{-3/2})$ of the random

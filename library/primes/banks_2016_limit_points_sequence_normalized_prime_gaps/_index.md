@@ -60,7 +60,7 @@ a modified Bombieri-Vinogradov theorem, Theorem 4.2 (p. 8); Section 6
 Theorem 4.2 held with an arbitrary fixed theta in (0,1), a minor adaptation of
 the Maynard-Tao argument would allow k = 5 in Theorem 1.1.
 
-Source: <https://arxiv.org/abs/1404.5094>.
+Source: <https://arxiv.org/abs/1404.5094v2>.
 
 **Read status.** Claims checked: Theorem 1.1, Corollary 1.2 and Theorem 1.3
 (pp. 2-3) were read clause by clause on the printed pages, and the proof of

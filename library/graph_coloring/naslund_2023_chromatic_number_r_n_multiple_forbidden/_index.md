@@ -69,7 +69,7 @@ where g(n) is the least number of distinct distances among n plane points
 but no new bound for the planar L(r), and it leaves Erdos's planar
 polynomial-growth question open.
 
-Source: <https://arxiv.org/abs/2205.12312>.
+Source: <https://arxiv.org/abs/2205.12312v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|Problem 706]]:
 the problem asks for the largest chromatic number L(r) of a graph on finitely

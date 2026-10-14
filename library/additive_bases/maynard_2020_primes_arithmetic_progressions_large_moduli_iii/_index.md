@@ -59,7 +59,7 @@ order of primes. The technique combines Type II estimates, a de-amplifying
 refinement requiring three conveniently sized factors, and triple divisor
 function bounds; the constants are ineffective because of possible Siegel zeros.
 
-Source: <https://arxiv.org/abs/2006.08250>.
+Source: <https://arxiv.org/abs/2006.08250v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: the
 paper does not mention the problem. Its results count primes in single

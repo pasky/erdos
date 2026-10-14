@@ -48,7 +48,7 @@ a fingerprint lemma for chord sets (Lemma 3.1, p. 3). The paper also records
 Faudree's construction (p. 2), which gives at least $2^{n/2}$ cycle sets for
 even $n$, and states that it does not know how far Theorem 1.1 is from the truth.
 
-Source: <https://arxiv.org/abs/2501.09904>.
+Source: <https://arxiv.org/abs/2501.09904v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0084/_index|#84]]:
 [[extremal_graph_theory/nenadov_2025_improved_bound_number_cycle_sets/theorem_1_1|Theorem 1.1]]

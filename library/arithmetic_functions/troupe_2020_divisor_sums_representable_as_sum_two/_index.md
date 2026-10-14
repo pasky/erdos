@@ -51,7 +51,7 @@ listed below against the print (pp. 1--5); the proofs of Sections 3--5
 (pp. 5--13) were read for structure only. Result page:
 [[arithmetic_functions/troupe_2020_divisor_sums_representable_as_sum_two/theorem_1_2|theorem_1_2]].
 
-Source: <https://arxiv.org/abs/1902.11171>.
+Source: <https://arxiv.org/abs/1902.11171v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0955/_index|#955]]:
 Theorem 1.2 gives B_s(x) = O(x/(log x)^{1/2}) = o(x), so the preimage under s

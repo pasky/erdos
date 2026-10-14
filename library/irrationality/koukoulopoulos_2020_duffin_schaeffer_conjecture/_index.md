@@ -51,7 +51,7 @@ Gallagher's zero-one law reduces Theorem 1 to bounding the overlaps of the
 sets A_q, and the authors bound them by studying bipartite 'GCD graphs' with
 a density-increment and compression argument.
 
-Source: <https://arxiv.org/abs/1907.04593>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1907.04593v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1907.04593), every other right
 reserved.
 

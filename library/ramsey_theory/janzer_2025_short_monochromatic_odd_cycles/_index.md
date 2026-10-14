@@ -91,7 +91,7 @@ upper and lower bounds remain far apart. This payload records the exact
 statements and version map, not a reconstructed or independently certified
 proof.
 
-Sources: <https://arxiv.org/abs/2506.14910> and
+Sources: <https://arxiv.org/abs/2506.14910v1> and
 <https://doi.org/10.1017/S0305004125101801>.
 
 **Bears on.**

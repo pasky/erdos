@@ -64,7 +64,7 @@ Aguirre). For problem 521
 (Rademacher coefficients, all real roots, limit 2/pi) it proves the [-1,1]
 analogue and the lower bound 1/pi on the whole line, not the full-line limit.
 
-Source: <https://arxiv.org/abs/2403.06353>.
+Source: <https://arxiv.org/abs/2403.06353v2>.
 
 Read status: claims checked for Theorem 1.1, Lemma 2.3 and Theorem 3.1, read
 clause by clause on the page images of arXiv:2403.06353v2, with the proof of

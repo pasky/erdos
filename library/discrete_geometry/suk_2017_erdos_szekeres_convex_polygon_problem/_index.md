@@ -50,7 +50,7 @@ Theorem 2.4, taken from Pór and Valtr, was not checked. Nothing here is
 independently reviewed. Result page:
 [[discrete_geometry/suk_2017_erdos_szekeres_convex_polygon_problem/theorem_1_1|theorem_1_1]].
 
-Source: <https://arxiv.org/abs/1604.08657>.
+Source: <https://arxiv.org/abs/1604.08657v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0107/_index|#107]]:
 [[discrete_geometry/suk_2017_erdos_szekeres_convex_polygon_problem/theorem_1_1|Theorem 1.1]]

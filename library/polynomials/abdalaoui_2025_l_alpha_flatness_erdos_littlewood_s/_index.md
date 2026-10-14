@@ -48,7 +48,7 @@ rejected claim page is
 [[../wiki/problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui|2025_04_30_el_abdalaoui]].
 The card records the preprint's statements as claimed; none is verified.
 
-Source: <https://arxiv.org/abs/2504.21499>.
+Source: <https://arxiv.org/abs/2504.21499v1>.
 
 **Bears on.** [[../wiki/problems/polynomials/E1150/_index|#1150]], through the
 rejected claim page

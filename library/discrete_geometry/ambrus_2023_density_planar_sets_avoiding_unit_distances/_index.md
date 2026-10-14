@@ -57,7 +57,7 @@ f(n) >= n/4. It is a measure-theoretic density theorem, not a theorem about
 finite unit-distance graphs.
 
 The copy read for this card is arXiv:2207.14179v3 (28 July 2023), at
-<https://arxiv.org/abs/2207.14179>. The arXiv record names arXiv's
+<https://arxiv.org/abs/2207.14179v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2207.14179), every other right
 reserved.
 

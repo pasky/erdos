@@ -52,7 +52,7 @@ similar to it, Section 4 asserts the same conclusions for Erdos's square case
 and Section 5 for parallelograms with a suitably modified f. This reformulates
 but does not resolve problem 106, Erdos's square packing conjecture.
 
-Source: <https://arxiv.org/abs/2601.22163>.
+Source: <https://arxiv.org/abs/2601.22163v1>.
 
 Read status: claims checked for Theorems 1 and 2, the argument for (*) in
 Section 3, the remark on p. 3 and Sections 4 and 5, read clause by clause on

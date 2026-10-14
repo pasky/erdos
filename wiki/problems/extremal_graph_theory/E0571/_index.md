@@ -171,7 +171,7 @@ sources, not claims of complete proof coverage of each older paper.
 | [JiQi23] | $1+a/b$ when $b>a^2$ | [[../library/extremal_graph_theory/jiang_2023_many_turan_exponents_via_subdivisions/_index|Jiang–Qiu]], Theorem 1.3 |
 | [JMY22] | $2-2/(2b+1)$ for $b\ge2$, and $7/5$ | [[../library/extremal_graph_theory/jiang_2022_turan_exponents_bipartite_graphs/_index|Jiang–Ma–Yepremyan]]; site's ranges and source pointer |
 | [CoJa22] | $2-a/b$ when $b\ge\max(a,(a-1)^2)$ | [[../library/extremal_graph_theory/conlon_2022_rational_exponents_near_two/_index|Conlon–Janzer]], Theorem 1.2 (arXiv v2) |
-| [JLY26] | $3/2-(a+1)/(2a(b+1))$ for $b\ge2$, $a\ge2b+3$ | [Jiang–Longbrake–Yepremyan](https://arxiv.org/abs/2607.19607), Theorem 1.7 and its quoted matching lower bound; statement and proof pointer |
+| [JLY26] | $3/2-(a+1)/(2a(b+1))$ for $b\ge2$, $a\ge2b+3$ | [Jiang–Longbrake–Yepremyan](https://arxiv.org/abs/2607.19607v1), Theorem 1.7 and its quoted matching lower bound; statement and proof pointer |
 
 Each of the eight earlier rows is a partial claim with its own page:
 [[problems/extremal_graph_theory/E0571/claims/2019_03_25_conlon_janzer_lee|CJL21]],
@@ -232,7 +232,7 @@ no page.
   [[../library/extremal_graph_theory/jiang_2026_rational_exponents_near_3_2/_index|arXiv:2607.19607v1, the version read]].
 - [AB26] T. Adamczewski and T. F. Bloom,
   [*FrontierMath Erdős*](https://epoch.ai/files/frontiermath-erdos.pdf)
-  (September 2026; [arXiv:2609.25050](https://arxiv.org/abs/2609.25050), v1
+  (September 2026; [arXiv:2609.25050](https://arxiv.org/abs/2609.25050v1), v1
   6 September 2026), Appendix B.5, Theorem 5; public proof and unsigned
   exposition identified in the
   [[../library/extremal_graph_theory/adamczewski_2026_erdos571/_index|source record]].

@@ -59,7 +59,7 @@ and 4 improve concentration bounds on exponential curves. Section 6
 (pp. 11--12) poses Conjectures 1--4 and Problems 1--3, asking in particular
 for larger exponents than 1/4, 1/3 and 1/8 in the ranges of Theorems 1 and 2.
 
-Source: <https://arxiv.org/abs/1007.1526>. The copy read for this card is
+Source: <https://arxiv.org/abs/1007.1526v2>. The copy read for this card is
 arXiv:1007.1526v2, dated 12 Oct 2010 and titled "Concentration points on two
 and three dimensional modular hyperbolas and applications", not the journal
 article; the labels below are that preprint's. The arXiv record names arXiv's

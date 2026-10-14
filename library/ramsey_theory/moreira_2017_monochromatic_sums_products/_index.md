@@ -71,7 +71,7 @@ status: claims checked for the results with pages below, read clause by
 clause on the page images of pp. 1-3 and 12-16; no proof was checked step by
 step.
 
-Source: <https://arxiv.org/abs/1605.01469>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1605.01469v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1605.01469), every other right
 reserved.
 

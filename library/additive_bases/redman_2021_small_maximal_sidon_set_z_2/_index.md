@@ -53,7 +53,7 @@ Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v3; no proof is checked step
 by step.
 
-Source: <https://arxiv.org/abs/2109.00292>.
+Source: <https://arxiv.org/abs/2109.00292v3>.
 
 **Bears on.**
 

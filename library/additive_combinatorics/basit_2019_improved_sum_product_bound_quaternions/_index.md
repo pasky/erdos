@@ -44,7 +44,7 @@ c and give no value for it. For real numbers the paper cites Shakan's exponent
 Read status: claims checked for Theorem 1.2, its statement read clause by
 clause on p. 2 of arXiv v2; the proof was read for its structure only.
 
-Source: <https://arxiv.org/abs/1809.02214>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1809.02214v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1809.02214), every other right
 reserved.
 

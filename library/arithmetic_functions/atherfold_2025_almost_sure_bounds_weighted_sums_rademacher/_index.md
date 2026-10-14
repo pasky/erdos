@@ -42,6 +42,6 @@ squarefree-supported Rademacher model and sums weighted by n^(-1/2); the
 problem page lists it among its references. Nothing in it proves or refutes
 that lim sup of the normalized sums is infinite almost surely.
 
-Source: <https://arxiv.org/abs/2501.11076>.
+Source: <https://arxiv.org/abs/2501.11076v4>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1144/_index|#1144]]

@@ -48,7 +48,7 @@ gcd(a-1, b-1)=1): the paper does not settle it, but describes the bad indices
 exactly, recasts the bad prime indices through simultaneous primitive divisors
 and rules out linear-recurrence explanations.
 
-Source: <https://arxiv.org/abs/2606.07959>.
+Source: <https://arxiv.org/abs/2606.07959v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0820/_index|#820]]
 

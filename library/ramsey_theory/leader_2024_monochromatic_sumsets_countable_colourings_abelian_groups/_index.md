@@ -55,7 +55,7 @@ problem was regarded as open; Theorem 1 itself concerns countably many colors on
 general abelian groups and neither proves nor disproves the 2-coloring statement
 over the naturals.
 
-Source: <https://arxiv.org/abs/2407.03938>.
+Source: <https://arxiv.org/abs/2407.03938v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1199/_index|#1199]]: the introduction's
 sentence that the 2-coloring case "is unknown" (July 2024) and its

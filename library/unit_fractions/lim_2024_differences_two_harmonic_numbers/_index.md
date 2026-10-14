@@ -54,7 +54,7 @@ frames the question as Erdos problem 314. For problem 288 the results are
 adjacent context: they concern the reciprocal sum over one interval coming
 close to 1, and give no exact integer sum and nothing about two intervals.
 
-Source: <https://arxiv.org/abs/2405.11354>.
+Source: <https://arxiv.org/abs/2405.11354v3>.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0314/_index|#314]] (the paper's own
 framing: on p. 1 it says Theorem 1 addresses the question's first half,

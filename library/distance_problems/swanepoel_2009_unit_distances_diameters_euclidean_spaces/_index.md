@@ -75,7 +75,7 @@ distances among m points on a 2-sphere, of radius 1/sqrt(2) for d >= 7 and of
 arbitrary radius for d = 5 (pp. 3, 11 and 14); for d = 4 it cites Brass and
 Van Wamelen, and d = 2 and d = 3 are not its subject.
 
-Source: <https://arxiv.org/abs/0707.0213>. The copy read for this card is
+Source: <https://arxiv.org/abs/0707.0213v1>. The copy read for this card is
 arXiv:0707.0213v1 (2 July 2007), 24 pages; the theorem labels and page numbers
 below are that preprint's. The arXiv record carries no license field, so arXiv's
 assumed license applies (arXiv:0707.0213), every other right reserved.

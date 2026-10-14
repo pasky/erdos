@@ -61,7 +61,7 @@ gaps strictly increase, so finite runs of primes with increasing gaps occur
 among consecutive primes; the paper says nothing about the growth of an infinite
 sequence of primes with non-decreasing gaps, which is what #455 asks.
 
-Source: <https://arxiv.org/abs/1311.7003>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1311.7003v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1311.7003), every other right
 reserved.
 

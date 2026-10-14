@@ -50,7 +50,7 @@ many such alpha, each transcendental, and remarks (p. 4) without separate proof
 that alpha may be replaced by sum_k b_k q^{-n_k}, for an integer q >= 2 and
 positive integers b_k not growing too rapidly. The paper does not cite Erdős.
 
-Source: <https://arxiv.org/abs/2406.19491>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2406.19491v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2406.19491), every other right
 reserved.
 

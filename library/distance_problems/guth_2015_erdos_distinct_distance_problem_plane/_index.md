@@ -91,7 +91,7 @@ step. For
 source of the then-current $n/\log n$ lower bound used there. No theorem
 numbers were visible from the abstract alone.
 
-Source: <https://arxiv.org/abs/1011.4105>.
+Source: <https://arxiv.org/abs/1011.4105v3>.
 
 The source record distinguishes the two annotation scopes stated above. The
 identity and edition information do not independently certify a theorem

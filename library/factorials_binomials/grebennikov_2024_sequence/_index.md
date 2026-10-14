@@ -40,7 +40,7 @@ Erdos's conjecture that the coincidence (p-2)! = 1! mod p forced by Wilson's
 theorem is not the only one, i.e. |A(p)| < p-2, which it notes is open and
 verified for p < 10^9.
 
-Source: <https://arxiv.org/abs/2204.01153>.
+Source: <https://arxiv.org/abs/2204.01153v3>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0478/_index|#478]]
 

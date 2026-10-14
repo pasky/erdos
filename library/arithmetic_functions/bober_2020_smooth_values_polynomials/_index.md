@@ -83,7 +83,7 @@ k consecutive linear polynomials, and the problem's site records a deduction
 from Theorem 2.1, pointed out by Wooley, of a run of k consecutive
 n^epsilon-smooth integers in [n - n^c, n] for some c < 1 and all large n.
 
-Source: <https://arxiv.org/abs/1710.01970>.
+Source: <https://arxiv.org/abs/1710.01970v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0369/_index|#369]]:
 [[arithmetic_functions/bober_2020_smooth_values_polynomials/theorem_2_1|Theorem 2.1]] (p. 5) applies to

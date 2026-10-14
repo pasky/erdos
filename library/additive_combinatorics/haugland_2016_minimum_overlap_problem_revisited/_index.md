@@ -36,7 +36,7 @@ Moser's square root of (4 - square root of 15), about 0.356393. This numerical
 upper bound on the minimum overlap constant is the paper's contribution to
 problem 36.
 
-Source: <https://arxiv.org/abs/1609.08000>.
+Source: <https://arxiv.org/abs/1609.08000v1>.
 
 The copy read for this card is arXiv:1609.08000v1 (2 pages), and the page
 numbers below are its PDF pages. The arXiv record names arXiv's non-exclusive

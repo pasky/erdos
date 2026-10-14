@@ -36,7 +36,7 @@ Erdos lower bound n^(1+Omega(1/log log n)) and the O(n^(4/3)) upper bound. This
 bears on problem 668, the Erdos unit distance problem, by pinning down exact
 small-n values and the extremal configurations rather than the asymptotics.
 
-Source: <https://arxiv.org/abs/2412.11914>.
+Source: <https://arxiv.org/abs/2412.11914v2>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0668/_index|#668]]
 

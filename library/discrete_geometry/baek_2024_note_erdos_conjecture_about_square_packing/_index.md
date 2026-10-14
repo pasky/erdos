@@ -46,7 +46,7 @@ two proofs essentially equivalent. The introduction also records, citing
 Staton-Tyler, that g(n) equals the tiling maximum h(n) when n is not 2, 3 or 5
 and n+1 is not a square, and, citing Praton, that h(8) = 13/5 < 8/3 = g(8).
 
-Source: <https://arxiv.org/abs/2411.07274>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2411.07274v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2411.07274), every other right
 reserved.
 

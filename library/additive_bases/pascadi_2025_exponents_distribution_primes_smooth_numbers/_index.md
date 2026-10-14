@@ -70,7 +70,7 @@ Deshouillers-Iwaniec-style bounds for sums of Kloosterman sums with the author's
 large sieve inequality for exceptional Maass forms (for additively structured
 sequences) and a large sieve inequality of Watt.
 
-Source: <https://arxiv.org/abs/2505.00653>.
+Source: <https://arxiv.org/abs/2505.00653v2>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: indirect
 only, through Theorem 1.3. An exponent of distribution here controls a

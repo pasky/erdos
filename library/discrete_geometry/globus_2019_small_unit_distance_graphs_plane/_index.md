@@ -54,7 +54,7 @@ on the unit-distance problem and the Hadwiger-Nelson problem, where de Grey's
 1581-vertex and Heule's 553-vertex 5-chromatic unit-distance graphs give
 chi(R^2) >= 5. The paper proves nothing about either.
 
-Source: <https://arxiv.org/abs/1905.07829>.
+Source: <https://arxiv.org/abs/1905.07829v3>.
 
 **Read status.** Claims checked: Theorems 1, 9 and 33 and the definitions
 they use were read clause by clause on the printed pages, and the structure

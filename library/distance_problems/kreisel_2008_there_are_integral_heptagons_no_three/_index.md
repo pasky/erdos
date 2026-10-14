@@ -52,7 +52,7 @@ heptagon, distance matrix (2), of diameter 66810. For Problem 213 this settles
 the seven-point case affirmatively and pins down the extremal diameter, leaving
 the eight-point case and the construction of infinite families open.
 
-Source: <https://arxiv.org/abs/0804.1303>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/0804.1303v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:0804.1303), every other right
 reserved.
 

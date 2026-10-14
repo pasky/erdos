@@ -74,7 +74,7 @@ repository, recorded on the
 [[../wiki/problems/factorials_binomials/E0731/claims/2026_06_27_li|claim page]],
 was not read for this card.
 
-Source: <https://arxiv.org/abs/2606.29062>.
+Source: <https://arxiv.org/abs/2606.29062v1>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0731/_index|#731]]:
 the problem's least m with m not dividing binomial(2n,n) is the paper's A(n);

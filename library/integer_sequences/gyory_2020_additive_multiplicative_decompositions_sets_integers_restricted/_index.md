@@ -64,7 +64,7 @@ both theorems require $y(n)\to\infty$, so they do not cover it; and
 additive decomposability is a different property from being an essential
 component, the property the problem asks about.
 
-Source: <https://arxiv.org/abs/2006.15307>.
+Source: <https://arxiv.org/abs/2006.15307v1>.
 
 **Results.**
 

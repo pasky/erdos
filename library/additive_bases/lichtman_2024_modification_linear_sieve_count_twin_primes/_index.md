@@ -63,7 +63,7 @@ estimates its proof invokes are the variable-level Proposition 5.4 and
 Corollary 5.6 for Iwaniec's weights, together with Wu's iteration; it does
 not invoke Theorem 2.12 or the modified weights of Theorem 1.1.
 
-Source: <https://arxiv.org/abs/2109.02851>.
+Source: <https://arxiv.org/abs/2109.02851v2>.
 
 **Read status.** Claims checked: Theorems 1.1, 1.2 and 2.12, Corollary 2.13
 and Proposition 5.4 were read clause by clause on the printed pages of

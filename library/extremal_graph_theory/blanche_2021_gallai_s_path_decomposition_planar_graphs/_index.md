@@ -40,7 +40,7 @@ approach for colouring problems, widely used in work on graph colouring and on
 Gallai's conjecture (p. 2). The result is the planar case of problem 583, Gallai's path
 decomposition conjecture.
 
-Source: <https://arxiv.org/abs/2110.08870>.
+Source: <https://arxiv.org/abs/2110.08870v2>.
 
 **Copy read.** The copy read for this card is arXiv:2110.08870v2, stamped
 "[math.CO] 21 Jun 2022" on p. 1 with the title page dated June 22, 2022; 95

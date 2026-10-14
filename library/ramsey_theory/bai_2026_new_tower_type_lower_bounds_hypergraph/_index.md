@@ -121,7 +121,7 @@ layer; pp. 5--8 and 13--14 were not read, and p. 9 only for the definition
 of the final coloring. No proof was checked and nothing here is
 independently reviewed.
 
-Source: <https://arxiv.org/abs/2606.24198>.
+Source: <https://arxiv.org/abs/2606.24198v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0562/_index|#562]]: an adjacent regime,
 $r_k(k+1,k+1)$ with the uniformity growing, not the problem's fixed $r$ and

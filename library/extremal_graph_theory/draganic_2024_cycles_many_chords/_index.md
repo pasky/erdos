@@ -33,7 +33,7 @@ all of whose cycles have more vertices than chords is O(n), this reduces the
 known upper bound from O(n^{3/2}) to O(n log^8 n), leaving only a
 polylogarithmic gap.
 
-Source: <https://arxiv.org/abs/2306.09157>.
+Source: <https://arxiv.org/abs/2306.09157v2>.
 
 **Retained artifact.** The
 [folder-name PDF](draganic_2024_cycles_many_chords.pdf) is arXiv:2306.09157v2,

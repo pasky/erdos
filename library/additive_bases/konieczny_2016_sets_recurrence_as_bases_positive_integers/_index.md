@@ -111,7 +111,7 @@ Theorem 3.1 on affine families of polynomials, but not for the $\alpha$ of a
 closed uncountable set whenever $\epsilon(n)\le\epsilon_0$ for a small
 constant $\epsilon_0$.
 
-Source: <https://arxiv.org/abs/1504.02410>.
+Source: <https://arxiv.org/abs/1504.02410v3>.
 
 Read status: claims checked for every statement linked below, read clause by
 clause on the page images of the print; the proofs of Lemmas 1.1 and 1.2 and

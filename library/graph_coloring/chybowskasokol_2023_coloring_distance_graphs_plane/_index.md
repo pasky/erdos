@@ -43,7 +43,7 @@ comparison for periodic certification in problem 188. Forbidden-interval
 results are not cardinality-r bounds: an r-element forbidden set A may have
 arbitrary ratio of largest to smallest element.
 
-Source: <https://arxiv.org/abs/2201.04499>.
+Source: <https://arxiv.org/abs/2201.04499v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 

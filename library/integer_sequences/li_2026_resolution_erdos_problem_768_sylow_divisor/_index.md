@@ -64,7 +64,7 @@ page). The author reports a Lean 4 formalization produced with Aristotle; a
 forum user reported rebuilding it and checking its axioms; nothing was built or
 audited here.
 
-Source: <https://arxiv.org/abs/2606.24872>.
+Source: <https://arxiv.org/abs/2606.24872v2>.
 
 Read status: claims checked for Theorems 1.1, 4.3 and 8.3, read clause by
 clause on the page images of the print, with the proofs of Theorems 4.3 and

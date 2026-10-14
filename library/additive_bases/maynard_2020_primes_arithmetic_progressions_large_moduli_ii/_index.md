@@ -51,7 +51,7 @@ Deshouillers-Iwaniec bounds for sums of Kloosterman sums from the Kuznetsov
 trace formula, and Weil-bound estimates for the divisor function in arithmetic
 progressions.
 
-Source: <https://arxiv.org/abs/2006.07088>.
+Source: <https://arxiv.org/abs/2006.07088v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: the paper
 does not mention the problem; Theorem 1.2 averages over moduli in one fixed

@@ -66,7 +66,7 @@ here is independently reviewed. The statement is on
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2606.19863), every other right reserved.
 
-Source: <https://arxiv.org/abs/2606.19863>.
+Source: <https://arxiv.org/abs/2606.19863v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0451/_index|#451]]: Theorem 1.1 is the
 problem's first superpolynomial lower bound,

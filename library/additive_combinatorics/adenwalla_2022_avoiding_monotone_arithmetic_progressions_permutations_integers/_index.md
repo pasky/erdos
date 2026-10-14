@@ -49,7 +49,7 @@ partition question as its Question 6 (p. 16) and partitions the integers, not
 the positive integers, into three sets each of which can be permuted to avoid
 3-APs (p. 16).
 
-Source: <https://arxiv.org/abs/2211.04451>. The arXiv record
+Source: <https://arxiv.org/abs/2211.04451v7>. The arXiv record
 (https://arxiv.org/abs/2211.04451, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

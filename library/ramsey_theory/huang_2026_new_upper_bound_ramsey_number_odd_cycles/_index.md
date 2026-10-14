@@ -64,7 +64,7 @@ $K_{2^n+1}$ and the target is the shortest odd cycle of any length forced by
 an $n$-coloring. Theorem 5 fixes $\ell$ before letting $k$ grow, and it does
 not supply an odd-cycle length bound at that exact host threshold.
 
-Source: <https://arxiv.org/abs/2608.01921>.
+Source: <https://arxiv.org/abs/2608.01921v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]] as a direct but
 nonresolving numerator bound, and [[../wiki/problems/ramsey_theory/E0609/_index|#609]] as

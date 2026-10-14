@@ -38,7 +38,7 @@ Rademacher by Gaussian coefficients via a Lindeberg argument and then applies
 the Gaussian correlation inequality. This settles Erdős's question recorded as
 Problem 527.
 
-Source: <https://arxiv.org/abs/2509.02729>.
+Source: <https://arxiv.org/abs/2509.02729v1>.
 
 **Bears on.** [[../wiki/problems/analysis/E0527/_index|#527]]
 

@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/j.dam.2025.06.049
   kind: paper
-- url: https://arxiv.org/abs/2405.11409
+- url: https://arxiv.org/abs/2405.11409v1
   kind: preprint
   date: 2024-05-18
 - url: https://www.erdosproblems.com/167

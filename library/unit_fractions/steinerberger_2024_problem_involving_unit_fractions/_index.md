@@ -34,7 +34,7 @@ arXiv:2403.17041v5, 28 April 2024, 4 pages.
 
 The copy read for this card
 is v5. Its printed and physical pages are both numbered 1–4. The
-[primary arXiv record](https://arxiv.org/abs/2403.17041) and
+[primary arXiv record](https://arxiv.org/abs/2403.17041v5) and
 [source record](source_record.json) identify the version read; no published
 journal version is asserted here. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2403.17041), every other right reserved.

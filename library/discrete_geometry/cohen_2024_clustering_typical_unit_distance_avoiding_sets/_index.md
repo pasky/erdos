@@ -51,7 +51,7 @@ Ambrus-Csiszárik-Matolcsi-Varga-Zsámboki upper bound of 0.2470 on m_1
 (Theorem 1.1), without changing either, and its clustering results give no new
 bound on f(n).
 
-Source: <https://arxiv.org/abs/2407.05071>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2407.05071v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2407.05071), every other right
 reserved.
 

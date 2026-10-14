@@ -70,7 +70,7 @@ the paper's use of its sources; Section 1.1 does credit Croot, Bloom and
 Liu--Sawhney for the related exact-representation results, and the reference
 list names them with the 1980 monograph and Iwaniec--Kowalski.
 
-Source: <https://arxiv.org/abs/2607.04157>.
+Source: <https://arxiv.org/abs/2607.04157v1>.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0312/_index|#312]]:
 [[unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/theorem_1_1|Theorem 1.1]]

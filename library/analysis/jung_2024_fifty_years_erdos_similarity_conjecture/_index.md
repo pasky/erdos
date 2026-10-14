@@ -90,7 +90,7 @@ sequences and for Cantor sets of zero Newhouse thickness and zero Hausdorff
 dimension, and p. 2 names the sequence 2^{-n} as the main open case; this is
 the conjecture of Problem 120.
 
-Source: <https://arxiv.org/abs/2412.11062>.
+Source: <https://arxiv.org/abs/2412.11062v2>.
 
 **Read status.** Claims checked: the statements on the result pages below were
 read clause by clause on the printed pages. The survey's own proofs of Theorems

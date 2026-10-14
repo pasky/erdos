@@ -35,7 +35,7 @@ constraints I(X:Y|A) = H(A|X,Y) = 0 imply the support condition.
 
 Tarik Kaced, Andrei Romashchenko and Nikolay Vereshchagin, *A conditional
 information inequality and its combinatorial applications*,
-[arXiv:1501.04867](https://arxiv.org/abs/1501.04867), version 4 (13 September
+[arXiv:1501.04867](https://arxiv.org/abs/1501.04867v4), version 4 (13 September
 2017). The published version is in *IEEE Transactions on Information Theory*
 64 (5) (2018), 3610–3615, DOI
 [10.1109/TIT.2018.2806486](https://doi.org/10.1109/TIT.2018.2806486). The

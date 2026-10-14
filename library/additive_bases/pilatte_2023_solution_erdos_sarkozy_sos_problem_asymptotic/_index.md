@@ -54,7 +54,7 @@ achievement (p. 1). It also notes (p. 2) that the solution generalises
 Cilleruelo's asymptotic basis of order 3 in which every integer has at most two
 representations as a sum of two elements.
 
-Source: <https://arxiv.org/abs/2303.09659>.
+Source: <https://arxiv.org/abs/2303.09659v3>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0157/_index|#157]]:
 [[additive_bases/pilatte_2023_solution_erdos_sarkozy_sos_problem_asymptotic/theorem_5_4|Theorem 5.4]]

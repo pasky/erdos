@@ -70,7 +70,7 @@ chi(R^n) >= (1.239... + o(1))^n, obtained in its reference [19] from upper
 bounds on m(n, k_{-1}, k_0, k_1, t). The new results of Theorems 5-8 are lower
 bounds on m and give no bound on a chromatic number.
 
-Source: <https://arxiv.org/abs/2412.17120>.
+Source: <https://arxiv.org/abs/2412.17120v2>.
 
 Read status: claims checked for Theorems 5, 6, 7 and 8 (pp. 6-9), Lemma 5.1
 (p. 11) and the statements of Theorems 1-4 (pp. 3-5), read clause by clause

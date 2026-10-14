@@ -70,7 +70,7 @@ OpenAI's ChatGPT, were used extensively throughout the research" and adds that
 the models "contributed substantially to the technical development of the
 work".
 
-Source: <https://arxiv.org/abs/2606.25849>.
+Source: <https://arxiv.org/abs/2606.25849v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1061/_index|#1061]]:
 Theorem 1.1 asserts that the number of ordered solutions of

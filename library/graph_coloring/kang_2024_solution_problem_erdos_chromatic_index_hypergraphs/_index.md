@@ -72,7 +72,7 @@ t >= 2, and the paper states that it does not imply the authors' earlier
 Erdos-Faber-Lovasz result. It proves, for large n, the generalization to
 pairwise intersections of size at most t >= 2 that problem 19's page records.
 
-Source: <https://arxiv.org/abs/2110.06181>.
+Source: <https://arxiv.org/abs/2110.06181v2>.
 
 **Bears on.**
 

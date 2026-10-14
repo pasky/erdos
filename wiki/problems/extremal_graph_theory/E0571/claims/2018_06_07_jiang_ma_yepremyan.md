@@ -20,7 +20,7 @@ links:
 - url: https://doi.org/10.1017/S0963548321000341
   kind: paper
   date: 2021-08-04
-- url: https://arxiv.org/abs/1806.02838
+- url: https://arxiv.org/abs/1806.02838v1
   kind: preprint
   date: 2018-06-07
 - url: https://www.erdosproblems.com/571

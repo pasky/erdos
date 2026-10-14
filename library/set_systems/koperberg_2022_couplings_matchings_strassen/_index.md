@@ -40,7 +40,7 @@ bipartition {A, B} and |A| = |B| has a perfect matching exactly when
 ## Source and versions
 
 Twan Koperberg, *Couplings and Matchings: Combinatorial notes on Strassen's
-theorem*, [arXiv:2202.02092](https://arxiv.org/abs/2202.02092), version 1 (4
+theorem*, [arXiv:2202.02092](https://arxiv.org/abs/2202.02092v1), version 1 (4
 February 2022). The title page names Twan Koperberg; the running head uses
 V. T. Koperberg.
 

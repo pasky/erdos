@@ -18,7 +18,7 @@ updated: 2026-10-07T21:41:29Z
 
 János Nagy and Péter Pál Pach, *On a group ring identity related to the
 Alon–Jaeger–Tarsi conjecture*,
-[arXiv:2604.26320v1](https://arxiv.org/abs/2604.26320) [math.CO] (29 April
+[arXiv:2604.26320v1](https://arxiv.org/abs/2604.26320v1) [math.CO] (29 April
 2026). The retained
 [PDF](nagy_pach_2026_group_ring_identity_alon_jaeger_tarsi.pdf) is the nine-page
 v1 preprint. The arXiv record (https://arxiv.org/abs/2604.26320, read

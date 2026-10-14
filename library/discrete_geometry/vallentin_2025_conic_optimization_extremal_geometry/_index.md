@@ -45,7 +45,7 @@ notes that comparatively little work has gone into lower bounds for
 one-avoiding sets and that, for the pi/2-avoiding and one-avoiding problems,
 the conic bound is tight in no case except the trivial case of S^1.
 
-Source: <https://arxiv.org/abs/2510.06960>.
+Source: <https://arxiv.org/abs/2510.06960v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E1070/_index|#1070]]
 

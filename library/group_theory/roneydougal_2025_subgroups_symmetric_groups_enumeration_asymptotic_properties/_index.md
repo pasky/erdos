@@ -44,7 +44,7 @@ random subgroup of S_n has order at least 2^(nu n).
 **Read status: claims checked.** The statements of Theorems 1, 2, 4 and 6 were
 read against the held PDF; their proofs have not been checked here.
 
-Source: <https://arxiv.org/abs/2503.05416>. The arXiv record
+Source: <https://arxiv.org/abs/2503.05416v1>. The arXiv record
 (https://arxiv.org/abs/2503.05416, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

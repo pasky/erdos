@@ -50,7 +50,7 @@ problem 157, which the paper does not settle; the B_2[2] sequence of Theorem
 1.2 lies in the class of problem 158, but the paper gives no bound on its
 counting function at the scale N^(1/2).
 
-Source: <https://arxiv.org/abs/1304.5351>. The copy read for this card is
+Source: <https://arxiv.org/abs/1304.5351v2>. The copy read for this card is
 arXiv:1304.5351v2 (24 April 2013), titled "Sidon basis", not the journal
 version; the labels and pages cited here are that version's. The arXiv record
 names arXiv's non-exclusive distribution license (arXiv:1304.5351), every other

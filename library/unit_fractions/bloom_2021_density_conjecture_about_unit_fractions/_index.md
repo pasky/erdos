@@ -48,7 +48,7 @@ updated: 2026-10-08T03:52:53Z
 
 Thomas F. Bloom, *On a density conjecture about unit fractions*, with
 Appendix B co-written by Thomas F. Bloom and Bhavik Mehta.
-[arXiv:2112.03726](https://arxiv.org/abs/2112.03726), first submitted
+[arXiv:2112.03726](https://arxiv.org/abs/2112.03726v2), first submitted
 7 December 2021; the primary local PDF is **v2, 12 October 2023**, 23 pages.
 Published in *Journal of the European Mathematical Society* **27** (2025),
 no. 11, 4563–4589, [DOI 10.4171/JEMS/1456](https://ems.press/journals/jems/articles/14297980),

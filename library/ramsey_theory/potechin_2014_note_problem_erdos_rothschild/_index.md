@@ -43,7 +43,7 @@ Erdős--Rothschild problem). The site's Problem 80 thread cites the note as
 
 **Edition read.** The copy read for this card is arXiv:1412.1838v1,
 7 pages with a text layer; its page numbers are the preprint's. Source:
-<https://arxiv.org/abs/1412.1838>. The arXiv record names arXiv's
+<https://arxiv.org/abs/1412.1838v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1412.1838), every other right
 reserved.
 

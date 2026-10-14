@@ -93,7 +93,7 @@ the infinite-area partial result: S_t(alpha) is complete whenever 1 < alpha <=
 1 + 1/(ceil(t) + 2 ceil(sqrt t)). These results bear on problem 349, which the
 preprint leaves open for 1 < alpha < phi outside the regions it settles.
 
-Source: <https://arxiv.org/abs/2602.23394>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2602.23394v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2602.23394), every other right
 reserved.
 
