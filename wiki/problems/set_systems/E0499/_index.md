@@ -28,8 +28,9 @@ $$
 \prod_{1\leq i\leq n}a_{i\sigma(i)}\geq n^{-n}?
 $$
 
-**Status.** Labeled proved on the site (label PROVED (LEAN)). The site credits
-the answer yes to Marcus and Minc [MaMi62]. The accepted claims are
+**Status.** Labeled proved on the site (label PROVED (LEAN), accessed
+2026-09-04). The site credits the answer yes to Marcus and Minc [MaMi62]. The
+accepted claims are
 [[problems/set_systems/E0499/claims/1962_08_01_marcus_minc|the Marcus–Minc
 theorem]], on its refereed publication and the curator's credit, and the two
 proofs of van der Waerden's conjecture, which implies the statement. These are

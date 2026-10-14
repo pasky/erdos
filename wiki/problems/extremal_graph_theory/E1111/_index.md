@@ -96,7 +96,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 
 - [ElEr85] El-Zahar, M. and Erdős, P., On the existence of two
   non-neighboring subgraphs in a graph. Combinatorica 5 (1985), no. 4,
-  295--300, doi:10.1007/BF02579243 (Crossref record read;
+  295--300, doi:10.1007/BF02579243 (Crossref record read 2026-09-18;
   received 13 October 1984, revised 15 January 1985). The question and the
   reduction, p. 295; Wagon's bound, the small values, Theorems 1--2, p. 296;
   the Mycielski remark and Corollary 3, p. 297. Library home:
@@ -110,7 +110,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 - [Er85b] Erdős, P., Problems and results on chromatic numbers in finite
   and infinite graphs. Graph theory with applications to algorithms and
   computer science (Kalamazoo, Mich., 1984), Wiley-Interscience (1985),
-  201--213 (the site's reference text). The passage,
+  201--213 (the site's reference text, read 2026-09-18). The passage,
   printed p. 206, is PDF p. 6 of the Rényi archive's scan `1985-26.pdf`.
   Library home:
   [[../library/graph_coloring/erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs/_index|erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs]];
@@ -118,8 +118,8 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
   [[../library/graph_coloring/erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs/problem_p206|problem_p206]].
 - [Wa80b] Wagon, S., A bound on the chromatic number of graphs without
   certain induced subgraphs. J. Combin. Theory Ser. B 29 (1980), no. 3,
-  345--346, doi:10.1016/0095-8956(80)90093-3 (the Crossref record
-  carries the publisher's open-archive license dated
+  345--346, doi:10.1016/0095-8956(80)90093-3 (the Crossref record, read
+  2026-09-18, carries the publisher's open-archive license dated
   2013-07-17); the publisher's open-archive file has 2 pages, printed
   pp. 345--346 = PDF pp. 1--2. The Theorem and its proof, p. 345, the proof
   ending on p. 346; the sharpness remarks, the $n\cdot K_2$ generalization
@@ -130,7 +130,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 - [NSS24] Nguyen, T., Scott, A. and Seymour, P., On a problem of El-Zahar
   and Erdős. J. Combin. Theory Ser. B 165 (2024), 211--222,
   doi:10.1016/j.jctb.2023.11.004 (published March 2024; Crossref record
-  read); arXiv:2303.13449v1 (23 March 2023, "February 6, 2023;
+  read 2026-09-18); arXiv:2303.13449v1 (23 March 2023, "February 6, 2023;
   revised March 24, 2023", a title page and an abstract page before 8
   printed pages, not held; the only arXiv version). Problem 1.1 and results
   1.2--1.3, printed p. 1 = PDF p. 3; Conjecture 4.1 and the references,
@@ -143,18 +143,20 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
   [[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_3|result_1_3]].
 - [KlNe24] Klingelhoefer, F. and Newman, A., Bounding the chromatic number
   of dense digraphs by arc neighborhoods. arXiv:2307.04446; Combinatorica
-  (2024), doi:10.1007/s00493-024-00098-z per a citation record read. Not held; named in the thread comment of 8 December 2025 for a
+  (2024), doi:10.1007/s00493-024-00098-z per a citation record read
+  2026-09-18. Not held; named in the thread comment of 8 December 2025 for a
   tournament reformulation; a lead.
 - [NSS23] Nguyen, T., Scott, A. and Seymour, P., Some results and problems
   on tournament structure. arXiv:2306.02364; J. Combin. Theory Ser. B
-  (2025), doi:10.1016/j.jctb.2025.02.002 per a citation record read. Not held; the published form of the manuscript that [NSS24]
+  (2025), doi:10.1016/j.jctb.2025.02.002 per a citation record read
+  2026-09-18. Not held; the published form of the manuscript that [NSS24]
   cites as its [5] is a plausible identification made by title only, not
   checked.
 
 **Formalization.** None. No file `ErdosProblems/1111.lean` exists in
-google-deepmind/formal-conjectures (main); the site's
+google-deepmind/formal-conjectures (main on 2026-09-18); the site's
 indicator shows no formalized statement, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-09-18) records the
 problem open (last changed 7 December 2025), unformalized, with no formal proof.
 
 ## Current assessment

@@ -35,17 +35,17 @@ $$
 \sum_{i\in I}a_i=\sum_{j\in J}a_j?
 $$
 
-**Formulation.** The Statement is the site's wording (page last
-edited 10 April 2026). An interval is a nonempty set of consecutive indices
-$\{u,\ldots,v\}\subseteq\{1,\ldots,s\}$, and the sums run over the terms $a_i$
-with those indices; the two intervals are distinct and may overlap (two distinct
-intervals with equal sums are never nested, since the terms are positive; an
-observation made here). The sequence starts at the prescribed value $a$, its
-consecutive gaps are at most $K$, and the question is whether a bound $f(a,K)$
-on the last term forces two intervals with the same sum. The site's commentary
-records the answer as yes with a bound of the shape $f(a,K)\ll ae^{O(K)}$. The
-site's only source key is [He86]; a separate thanks line follows the
-two-sentence commentary.
+**Formulation.** The Statement is the site's wording as accessed 2026-09-18
+(page last edited 10 April 2026). An interval is a nonempty set of consecutive
+indices $\{u,\ldots,v\}\subseteq\{1,\ldots,s\}$, and the sums run over the terms
+$a_i$ with those indices; the two intervals are distinct and may overlap (two
+distinct intervals with equal sums are never nested, since the terms are
+positive; an observation made here). The sequence starts at the prescribed value
+$a$, its consecutive gaps are at most $K$, and the question is whether a bound
+$f(a,K)$ on the last term forces two intervals with the same sum. The site's
+commentary records the answer as yes with a bound of the shape
+$f(a,K)\ll ae^{O(K)}$. The site's only source key is [He86]; a separate thanks
+line follows the two-sentence commentary.
 
 **Status.** Proved. This is the site's label. The status-defining source is
 Hegyvári's paper *On consecutive sums in sequences* (Acta Math. Hungar. 48

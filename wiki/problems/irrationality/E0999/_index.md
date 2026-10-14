@@ -66,7 +66,7 @@ of its own.
 
 ## Current assessment
 
-The site's formulation is the Duffin-Schaeffer
+The site's formulation (accessed 2026-09-04) is the Duffin-Schaeffer
 conjecture of 1941: for almost all $\alpha$, infinitely many reduced
 fractions $p/q$ lie within $f(q)/q$ of $\alpha$ exactly when
 $\sum_q \phi(q) f(q)/q$ diverges. One wording defect: the site writes
@@ -129,7 +129,7 @@ The manuscript changes nothing about Problem 999, whose shift is zero and
 whose proof is the paper above; it is recorded as background, not as a claim.
 
 **Search scope.** erdosproblems.com (the page; the forum thread, which had no
-comments or proof claims on 2026-10-07), the arXiv record of 1907.04593, the
+comments on 2026-10-07; no proof claims), the arXiv record of 1907.04593, the
 Annals of Mathematics record of the paper, the formal-conjectures statement
 file, Boris Alexeev's repository of Lean proofs, and the OpenAI Math Release
 catalog. On that date none of them showed a contradiction or dispute of the

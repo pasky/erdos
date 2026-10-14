@@ -71,16 +71,16 @@ Erdős Problem #1205, https://www.erdosproblems.com/1205, accessed
   p. 108. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 
-**Formalization.** None found: there is no
-`ErdosProblems/1205.lean` in google-deepmind/formal-conjectures and the problem
-page shows no formalized statement. The community database
-(teorth/erdosproblems) records the problem solved (record last updated 4 April
-2026), the statement not formalized, `formal_status` unformalized and no
-formal-proof URL.
+**Formalization.** None found on 2026-09-18: there was no
+`ErdosProblems/1205.lean` in google-deepmind/formal-conjectures, and the problem
+page showed no formalized statement. The community database
+(teorth/erdosproblems, read 2026-09-18) records the problem solved (record last
+updated 4 April 2026), the statement not formalized, `formal_status`
+unformalized and no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; SOLVED, last edited 8 April 2026. The commentary, which is the
 status-defining source, recalls that Erdős called $F(x)\to\infty$ a
 "simple exercise", points to Problem 689 as the prime-modulus analogue,

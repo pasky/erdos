@@ -131,7 +131,7 @@ research open. The catalog commit that the site's task pins is not public.
 
 **Verification record.** This corpus has not built the proof file,
 <https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution>
-(459,268 bytes, 9,535 lines, as fetched). Its final theorem is
+(459,268 bytes, 9,535 lines, as fetched on 2026-09-18). Its final theorem is
 the one displayed above, split into the cases $k=4$, $k=5$ and $k\ge6$. The
 file contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `set_option`,
 `implemented_by`, `extern`, `partial` or `opaque`, has four `decide +kernel`

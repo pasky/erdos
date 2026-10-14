@@ -58,7 +58,7 @@ could have issues". The manuscript's own README adds nothing beyond the title,
 the author line "OpenAI", the date October 5, 2026 and the citation block; the
 TeX title block carries the same author and date. These are the source's own
 historical attestations, recorded here as such. No refereed publication, no
-arXiv version and no independent review of the manuscript is recorded here and
+arXiv version and no independent review of the manuscript is recorded here, and
 nothing on this card is independently reviewed.
 
 Formalization. The release's `lean/formalization.yaml` lists no

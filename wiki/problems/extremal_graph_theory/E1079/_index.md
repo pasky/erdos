@@ -218,7 +218,7 @@ link on
 and not a claim of its own; the corpus has not built or audited it, so no
 `formalized` evidence is recorded. The site showed no formalized statement on
 2026-09-18 and shows one since; the community database (teorth/erdosproblems,
-`data/problems.yaml`) records the problem solved (last update
+`data/problems.yaml`, read 2026-10-06) records the problem solved (last update
 14 October 2025) and its statement formalized since 19 September 2026, with
 `formal_status` unformalized.
 

@@ -239,8 +239,8 @@ from their occurrence in the public proof.
 
 ## Status, formal statement and public checks
 
-The cached problem, discussion and proof-claim pages were read. The site labeled
-#571 proved in Lean. In [proof claim
+The cached problem, discussion and proof-claim pages were read on 2026-09-05.
+The site labeled #571 proved in Lean. In [proof claim
 243](https://www.erdosproblems.com/forum/thread/571/proof-claims#proof-claim-243),
 posted 2026-09-03, Thomas F. Bloom links the proof and preliminary exposition,
 calling both the PDF and Bloom's own informal exposition placeholders until a

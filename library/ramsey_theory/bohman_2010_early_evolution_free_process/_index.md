@@ -27,10 +27,10 @@ Invent. Math. **181** (2010), no. 2, 291--336; DOI 10.1007/s00222-010-0247-x
 
 The copy read for this card is arXiv:0908.0429v1 (4 August 2009), 36 pages with
 a text layer; the journal version, Inventiones Mathematicae 181 (2010), no. 2,
-291--336 (published online 4 May 2010; publisher's record read), is not held,
-and the locators and theorem numbers here are the preprint's. Read status:
-claims checked for Theorem 1.2 and Theorem 1.3 (read clause by clause on the
-page image and in the text layer of p. 4) and for Theorem 1.9 (p. 7, text
+291--336 (published online 4 May 2010; publisher's record read on 2026-09-17),
+is not held, and the locators and theorem numbers here are the preprint's. Read
+status: claims checked for Theorem 1.2 and Theorem 1.3 (read clause by clause on
+the page image and in the text layer of p. 4) and for Theorem 1.9 (p. 7, text
 layer); the statement of Theorem 1.1 (p. 3) was read in the text layer; no proof
 was read. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:0908.0429), every other right reserved.

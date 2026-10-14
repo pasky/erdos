@@ -87,8 +87,8 @@ Kuperberg's uniform singular-series bound (Theorem 1.2 of
 the pair singular-series average
 $2\sum_{h_1<h_2\le H}\mathfrak S(\{h_1,h_2\})\le H^2$ for large $H$
 (Montgomery, Croft), Mertens' theorems, Bertrand's postulate and the prime
-number theorem. None of these proofs was reread; the pages state each at the
-version consumed.
+number theorem. None of these proofs was read for this argument; the pages
+state each at the version consumed.
 
 **Mechanism.** The van der Corput $A$-process turns the parity bias of
 $\pi$ over a long interval into the average bias of

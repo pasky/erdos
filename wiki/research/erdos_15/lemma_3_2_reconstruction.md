@@ -23,7 +23,7 @@ held by its library card,
 **Standing.** This is an author-recorded reconstruction of a source lemma
 and of the model it concerns. It is not an independent review, changes no
 status and assigns no tier. The lemma is unconditional. Two external inputs
-are imported without rereading their proofs: Mertens' theorems and the pair
+are imported without reading their proofs: Mertens' theorems and the pair
 singular-series average, both stated precisely below.
 
 ## Definitions
@@ -86,7 +86,7 @@ arithmetic progressions*, Proc. London Math. Soc. (3) 30 (1975), 143--159
 and Soundararajan, *Primes in short intervals*, Comm. Math. Phys. 252
 (2004), 589--617 (its reference [16], displays (16)--(17)). The asymptotic
 implies the inequality for large $H$ because $H\log H$ eventually exceeds
-the $O(H)$ term. Neither paper is held or reread here.
+the $O(H)$ term. Neither paper is held or read here.
 
 ## The product formula (3.7) and its tail (3.8)
 

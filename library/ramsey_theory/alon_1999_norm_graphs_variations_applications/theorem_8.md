@@ -32,7 +32,7 @@ constants depend on $t$ and $s$ and are not given.
 
 **Source.** N. Alon, L. Rónyai and T. Szabó, *Norm-graphs: variations and
 applications*, J. Combin. Theory Ser. B 76 (1999), 280--290, DOI
-10.1006/jctb.1999.1906 (Crossref record read); Theorem 8 on p. 7
+10.1006/jctb.1999.1906 (Crossref record read 2026-09-17); Theorem 8 on p. 7
 of the ten-page author manuscript, read on the page image and in
 the text layer. The journal version was not compared; labels are the
 manuscript's.

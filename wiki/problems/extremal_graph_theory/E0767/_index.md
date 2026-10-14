@@ -160,7 +160,7 @@ are on the claim page
 This corpus has neither built nor audited it. The Lean 4 development that
 Chen and Ning declare a formalization of their own results is linked, at
 its one commit, on their claim page; it is unbuilt here as well. The site's
-page recorded no formalized statement and one reader
+page, accessed 2026-09-18, recorded no formalized statement and one reader
 reaction judging the statement formalizable.
 
 ## Current assessment
@@ -176,8 +176,8 @@ conjectured equality disproved for general $k$ by Lewin, by oral
 communication, and offers two guesses, that Lewin's examples concerned only
 small $n$ or that the disproof was wrong. The thread holds one comment
 (13:05 on 15 September 2026), which points to [ChNi26] by X. Chen and
-B. Ning as an improvement on the problem; the key ChNi26 is not in the page's
-reference list. The proof-claim tab is empty. The community
+B. Ning as an improvement on the problem; the key ChNi26 was not in the page's
+reference list on 2026-09-18. The proof-claim tab is empty. The community
 database lists the problem as proved as of its last update on 31 August 2025.
 
 **Status support.** The accepted claim on Jiang's page, from which the

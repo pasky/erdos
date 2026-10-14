@@ -53,12 +53,13 @@ first page carries the Wiley header "Received
 2 October 2013; accepted 13 May 2014. Published online 16 October 2014 in
 Wiley Online Library ... DOI 10.1002/rsa.20574" and the abstract's line
 "Random Struct. Alg., 45, 608--626, 2014"; 19 pages with a text layer, printed
-pp. 608--626, so printed p. $n$ is PDF p. $n-607$ (the Crossref record, gives volume 45, issue 4, December 2014). The arXiv version,
+pp. 608--626, so printed p. $n$ is PDF p. $n-607$ (the Crossref record, read
+2026-09-18, gives volume 45, issue 4, December 2014). The arXiv version,
 1310.0632 (v2 of 22 May 2014, 18 pages), was not compared. The publisher's
-version prints "© 2014
-Wiley Periodicals, Inc." on its first page, at the end of the abstract and at
-the page foot (text layer read), and the author-posted copy of the
-publisher's version carries that printed notice, every other right reserved.
+version prints "© 2014 Wiley Periodicals, Inc." on its first page, at the end of
+the abstract and at the page foot (text layer read), and the author-posted copy
+of the publisher's version carries that printed notice, every other right
+reserved.
 
 Read status: claims checked for Conjecture 1 and Theorems 1.2, 1.3 and 1.4
 (p. 609 = PDF p. 2), read clause by clause on the page image, together with

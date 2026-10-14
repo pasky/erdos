@@ -298,7 +298,7 @@ and
 [[ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/theorem_3|theorem_3]].
 Theorem 1 (p. 82), Proposition 1, Theorem 4 and Theorem 5 (p. 83) and
 Problem 5 (p. 82), which the problem page also cites, have result pages
-of their own, their statements re-read clause by clause on the page images.
+of their own, their statements read clause by clause on the page images.
 Problems 2--4 are recorded as statements read on the page images; the proofs
 were read for structure only. The constant $c$ of Theorem 3 is not made explicit
 in the paper. Nothing here is independently reviewed.

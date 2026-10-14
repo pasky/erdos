@@ -55,7 +55,7 @@ line "OpenAI", the date September 25, 2026 and the citation block above; it
 adds no statement about how the text was written. The manuscript names no
 individual author and no affiliation beyond the author line. No refereed
 publication, no arXiv version and no independent review of the manuscript
-is recorded here and nothing on this card is independently
+is recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization, as the release lists it. The release's catalogue

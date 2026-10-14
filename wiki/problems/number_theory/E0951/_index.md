@@ -105,9 +105,9 @@ Bloom, Erdős Problem #951, https://www.erdosproblems.com/951, accessed
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Di77] Diamond, H. G., When do Beurling generalized integers have a density?
   J. Reine Angew. Math. 295 (1977), 22--39 (Crossref record,
-  DOI 10.1515/crll.1977.295.22; [Er80] p. 104 prints 22--29); cited by [Er80]
-  (p. 104) as the entry point to the Beurling literature. Not held; it gives
-  background, not a result this page uses.
+  DOI 10.1515/crll.1977.295.22, accessed 2026-09-18; [Er80] p. 104 prints
+  22--29); cited by [Er80] (p. 104) as the entry point to the Beurling
+  literature. Not held; it gives background, not a result this page uses.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/951.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/951.lean)

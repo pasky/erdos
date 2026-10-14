@@ -22,7 +22,7 @@ of K_4 below one eighth; answered negatively by Fox, Loh and Zhao in
 Erdős, P. and Hajnal, A. and Simonovits, M. and Sós, V. T. and
 Szemerédi, E., Turán-Ramsey theorems and simple asymptotically extremal
 structures. Combinatorica 13 (1993), no. 1, 31-56 (received October 31,
-1989), doi:10.1007/BF01202788 (Crossref record read).
+1989), doi:10.1007/BF01202788 (Crossref record read 2026-09-18).
 
 **Copy read.** The copy read for this card is the 26-page `real.mtak.hu`
 scan of the journal article (PageGenie
@@ -40,7 +40,7 @@ sentences introducing them (printed p. 36), read clause by clause on the
 page images; Definition 3 (printed p. 37), Theorem 2'' (p. 39) and the
 Arboricity Theorem with the sentence on its proof (p. 40) were read as
 statements on the page images; Theorems 1, 2 and 2' are recorded from the
-earlier digest below and were not re-read; no proof was read.
+digest below and were not checked against the page images; no proof was read.
 
 The paper studies RT(n,L_1,...,L_r,m), the maximum number of edges of an
 r-edge-colored graph on n vertices whose color ν contains no copy of L_ν and

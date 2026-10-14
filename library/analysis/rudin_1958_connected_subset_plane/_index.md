@@ -87,8 +87,8 @@ article.
 connected sets in the non-homeomorphism question. For that intended question,
 both original and requested sets are taken to have at least two points. No
 theorem-level homeomorphism or intrinsic-dimension transfer is claimed. Printed
-pp. 15 and 24 were locally re-read; the full construction remains outside this
-proof scope.
+pp. 15 and 24 were read in the retained PDF; the full construction remains
+outside this proof scope.
 
 **Review record.** The [formulation
 review](evidence/verify/formulation_review.md) of 6 September 2026 checks the

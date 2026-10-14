@@ -36,8 +36,8 @@ label because one side alone leaves the question open. A matching result that
 ZFC does not prove the existence would settle the problem as independent.
 
 **Source.** [erdosproblems.com/1154](https://www.erdosproblems.com/1154),
-accessed 2026-09-04 and 2026-10-07 (problem page, discussion thread
-and proof-claims page). Cite as: T. F. Bloom, Erdős Problem #1154,
+accessed 2026-09-04 and 2026-10-07 (problem page and discussion thread), with
+its proof-claims page. Cite as: T. F. Bloom, Erdős Problem #1154,
 https://www.erdosproblems.com/1154.
 
 **References.**

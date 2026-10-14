@@ -44,10 +44,10 @@ complete graph on $c_1\log_2 n$ vertices contains every graph on
 $c_2\log_2 n$ vertices as an induced subgraph. The claimed result is the
 theorem of H. J. Prömel and V. Rödl, *Non-Ramsey graphs are
 $c\log n$-universal*, J. Combin. Theory Ser. A 88 (1999), no. 2, 379--384,
-DOI 10.1006/jcta.1999.2972 (Crossref record; issued
+DOI 10.1006/jcta.1999.2972 (Crossref record accessed 2026-10-07; issued
 November 1999, whose nominal first day is this page's date). The paper is
 not held here, and its statement is known through the signed zbMATH review
-(Zbl 0934.05090), which states it in
+(Zbl 0934.05090, accessed 2026-10-07), which states it in
 the form above, and through the site's commentary, which states it with
 $O_c(\log n)$ vertices for every $c>0$. The step from universality to the
 question is an authored deduction made here: take $c_1=10$ and let

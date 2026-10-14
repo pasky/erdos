@@ -40,8 +40,8 @@ Alain Plagne, Recent progress on finite B_h[g] sets. survey article (author's
 web page; bibliography extends to 2001, so written circa 2001-2002). No notice
 is printed in the file, the author's version of the paper; the author's
 publication page that lists it
-(https://www.cmls.polytechnique.fr/perso/plagne.alain/publications.html) states
-no terms; the term is unstated.
+(https://www.cmls.polytechnique.fr/perso/plagne.alain/publications.html, read
+2026-10-02) states no terms; the term is unstated.
 
 A historical survey of the extremal function F_{h,g}(N), the maximal size of a
 B_h[g] set inside {1,...,N} (at most g representations a_1 + ... + a_h with

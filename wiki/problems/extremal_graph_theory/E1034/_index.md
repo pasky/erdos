@@ -27,7 +27,7 @@ there be a triangle $T$ in $G$ and vertices $y_1,\ldots,y_t$, where
 $t>(\frac{1}{2}-o(1))n$, such that every vertex is joined to at least two
 vertices of $T$?
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording, accessed 2026-09-19T06:45Z (page last
 edited 28 October 2025). The clause "such that every vertex is
 joined to at least two vertices of $T$" is read as "every $y_i$ is joined
 ...", the reading of the resolving note's Conjecture 1.1 ("such that every
@@ -171,7 +171,7 @@ made here); no bridging theorem in the collection's form is in the file. The
 repository's note `ErdosProblems/Erdos1034.md` lists copies for five
 toolchains (Lean v4.24.0 to v4.33.0). Nothing was built, audited or
 kernel-checked here, and no local credit is claimed. The community database
-(`data/problems.yaml`) lists `status`
+(`data/problems.yaml` as fetched 2026-09-19T06:50Z) lists `status`
 "disproved (Lean)" as of its last update of 4 December 2025, `formal_status`
 Lean with no URL, the statement formalized since 5 August 2026 and no
 formal-proof field; the site's indicator reads "Formalised statement? Yes".

@@ -191,8 +191,8 @@ identity behind Theorem 10 was followed; no proof was independently verified.
 The scan carries no notice; the publisher's article page shows "© Hebrew
 University of Jerusalem" under "Reprints and permissions" as subscription
 content with no open access designation
-(https://link.springer.com/article/10.1007/BF02790232), every other right
-reserved.
+(https://link.springer.com/article/10.1007/BF02790232, read 2026-10-02), every
+other right reserved.
 
 The discriminant question of Problem 1045. Theorem 10 (p. 143) proves the
 conjecture raised by E. Netanyahu, also proved independently by W. H. Fuchs: if

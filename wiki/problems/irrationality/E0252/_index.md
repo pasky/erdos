@@ -31,12 +31,13 @@ $$
 irrational?
 
 **Status.** Labeled open on the site. The site labeled the problem OPEN (page
-last edited 2026-01-22), and the community database and formal-conjectures list
-it open. No referee, maintainer or expert outside this repository has reviewed
-the proof below. The bounty site Conjectures.io acknowledged it when it rejected
-a submission adapted from it on 16 September 2026 and when it retired the
-formal-conjectures statement from its pool as solved externally on 6 October
-2026, in both cases without rebuilding it (see the Formalization paragraph).
+last edited 2026-01-22, read 2026-09-17), and the community database and
+formal-conjectures list it open. No referee, maintainer or expert outside this
+repository has reviewed the proof below. The bounty site Conjectures.io
+acknowledged it when it rejected a submission adapted from it on 16 September
+2026 and when it retired the formal-conjectures statement from its pool as
+solved externally on 6 October 2026, in both cases without rebuilding it (see
+the Formalization paragraph).
 
 The frontmatter standing `solved`, `proved` derives from the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of a

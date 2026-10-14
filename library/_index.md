@@ -83,36 +83,36 @@ transcription beside it at the PDF's stem (`author_year_slug.md`,
 `transcription` key records why not. When no PDF exists — a web page, a forum
 answer — that markdown file is the source itself and records the URL. Where a
 PDF exists it is canonical: result pages cite it by page and theorem number, and
-when a transcription disagrees with it, the PDF wins. Held PDFs and files over
-1 MB live in Git LFS, whose pointer records each file's size and SHA-256; a
+when a transcription disagrees with it, the PDF wins. Held PDFs and files over 1
+MB live in Git LFS, whose pointer records each file's size and SHA-256; a
 smaller held file is identified by its path. The card's provenance line names
-which edition the held file is (a publisher PDF, an author preprint or a scan,
-with its URL and retrieval date where known); when the held edition differs from
-the one a problem page cites, the card says so and result pages cite the held
-edition's pages. The repository holds a paper's file only under an open license;
-otherwise the card cites the source, names the version read and says that no
-file is held because no license on record permits redistribution. Each card
-records the terms it observed for every file it holds or read. The frontmatter
-key `license` carries one term when the folder holds one file and a mapping
-from file name to term, keys in byte order, when it holds several; a card
-holding no file may still carry the term it read. A term is an SPDX license
-identifier as the SPDX list spells it (`CC-BY-4.0`, `Apache-2.0`), a Creative
-Commons license whose version the source does not state, named without one
-(`LicenseRef-CC-BY`, `LicenseRef-CC-BY-NC-ND`), `reserved` (every right
-reserved: a copyright or usage notice, a publisher's or repository's
-non-exclusive distribution license, or arXiv's assumed license), or `unstated`
-(no terms found on the file or in its record). When sources disagree, an
-explicitly named open license on the rights holder's page for the held edition
-decides, and the card records the older notice beside it with the date the page
-was read; otherwise the term comes from the arXiv record for an arXiv file, then
-the notice the file prints, then the publisher's page, then a web source's
-terms. "Free to read" without a named license is not a license, and where
-nothing in that order yields a term (the work's page cannot be read and no other
-source was observed), the term is `unstated`, with the reason. The card's
-provenance text says where each term was read -- the notice the file prints,
-quoted as printed; the publisher's or repository's record, with its URL and the
-date it was read; or an archive's own license file -- infers nothing beyond it,
-and claims no redistribution right the record does not establish. `erdos
-license-audit` checks the key against the held files and the arXiv records,
-and each held PDF for its transcription or the reason its card records
-(`docs/tools.md` "License audit contract").
+which edition the held file is (a publisher PDF, an author preprint or a scan)
+and the URL it was fetched from, where known, and gives no retrieval date, since
+the held bytes identify it; when the held edition differs from the one a problem
+page cites, the card says so and result pages cite the held edition's pages. The
+repository holds a paper's file only under an open license; otherwise the card
+cites the source, names the version read and says that no file is held because
+no license on record permits redistribution. Each card records the terms it
+observed for every file it holds or read. The frontmatter key `license` carries
+one term when the folder holds one file and a mapping from file name to term,
+keys in byte order, when it holds several; a card holding no file may still
+carry the term it read. A term is an SPDX license identifier as the SPDX list
+spells it (`CC-BY-4.0`, `Apache-2.0`), a Creative Commons license whose version
+the source does not state, named without one (`LicenseRef-CC-BY`,
+`LicenseRef-CC-BY-NC-ND`), `reserved` (every right reserved: a copyright or
+usage notice, a publisher's or repository's non-exclusive distribution license,
+or arXiv's assumed license), or `unstated` (no terms found on the file or in its
+record). When sources disagree, an explicitly named open license on the rights
+holder's page for the held edition decides, and the card records the older
+notice beside it with the date the page was read; otherwise the term comes from
+the arXiv record for an arXiv file, then the notice the file prints, then the
+publisher's page, then a web source's terms. "Free to read" without a named
+license is not a license, and where nothing in that order yields a term (the
+work's page cannot be read and no other source was observed), the term is
+`unstated`, with the reason. The card's provenance text says where each term was
+read -- the notice the file prints, quoted as printed; the publisher's or
+repository's record, with its URL and the date it was read; or an archive's own
+license file -- infers nothing beyond it, and claims no redistribution right the
+record does not establish. `erdos license-audit` checks the key against the held
+files and the arXiv records, and each held PDF for its transcription or the
+reason its card records (`docs/tools.md` "License audit contract").

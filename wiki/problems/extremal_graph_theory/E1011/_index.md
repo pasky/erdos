@@ -107,11 +107,11 @@ Problem #1011, https://www.erdosproblems.com/1011, accessed 2026-09-18.
   the passage is paged at
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_3|item_3]].
 - [Er62d] Erdős, P., On a theorem of Rademacher-Turán. Illinois J. Math. 6
-  (1962), no. 1, 122--127, doi:10.1215/ijm/1255631811 (Crossref record). Lemma 1, p. 123; the extremal example, p. 124.
-  Library home:
+  (1962), no. 1, 122--127, doi:10.1215/ijm/1255631811 (Crossref record, accessed
+  2026-09-18). Lemma 1, p. 123; the extremal example, p. 124. Library home:
   [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/_index|erdos_1962_theorem_rademacher_turan]]
-  (the Rényi archive's scan `1962-09.pdf`); paged
-  at [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
+  (the Rényi archive's scan `1962-09.pdf`); paged at
+  [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
 - [RWWY24] Ren, S., Wang, J., Wang, S. and Yang, W., Extremal triangle-free
   graphs with chromatic number at least four. arXiv:2404.07486 (v1 11 April
   2024; v2 19 October 2025, "the proof is slightly improved", 14 pages). A
@@ -124,21 +124,21 @@ Problem #1011, https://www.erdosproblems.com/1011, accessed 2026-09-18.
 - [Si74] Simonovits, M., Extremal graph problems with symmetrical extremal
   graphs. Additional chromatic conditions. Discrete Math. 7 (1974), no. 3--4,
   349--376, doi:10.1016/0012-365X(74)90044-2 (received 12 September 1973,
-  original version 30 March 1972; Crossref record, carrying the publisher's
-  open-archive license dated 2013-07-17). Theorem
-  2.7, p. 358; Remark 2.8, p. 359; the site cites "the discussion on p. 358".
-  Library home:
+  original version 30 March 1972; Crossref record, accessed 2026-09-18, carrying
+  the publisher's open-archive license dated 2013-07-17). Theorem 2.7, p. 358;
+  Remark 2.8, p. 359; the site cites "the discussion on p. 358". Library home:
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs]]
-  (the publisher's open-archive copy; the card carries
-  the row for this problem); paged at
+  (the publisher's open-archive copy; the card carries the row for this
+  problem); paged at
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]]
   and
   [[../library/extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|remark_2_8]].
   The site's reference text misspells the title's first word ("Extermal").
 - [DaIl22] Davies, E. and Illingworth, F., The $\chi$-Ramsey problem for
   triangle-free graphs. SIAM J. Discrete Math. 36 (2022), no. 2, 1124--1134,
-  doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record); arXiv:2107.12288v2 (28 January 2022, 13 pages).
-  Theorem 1, p. 3 of the preprint. Library home:
+  doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record,
+  accessed 2026-09-18); arXiv:2107.12288v2 (28 January 2022, 13 pages). Theorem
+  1, p. 3 of the preprint. Library home:
   [[../library/graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/_index|davies_2022_ramsey_problem_triangle_free_graphs]];
   paged at
   [[../library/graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|theorem_1]].
@@ -156,16 +156,16 @@ file `ErdosProblems/1011.lean` exists in google-deepmind/formal-conjectures
 October 2025) asks for a statement, and the claimant of the forum claims
 below commented on it on 10 and 19 September 2026 with a proposed statement
 and the announcements of the proofs. The site's indicator reads "Formalised
-statement? No", and the community database (read 2026-09-18 and
-2026-10-06) lists the problem as open as of its last update, 10 September
-2025, unformalized, with no formal proof. Forum comments of 10
-and 19 September 2026 announce an external Lean development for the cases
-$r=4$ (every $n$) and $r=5$ ($n\ge80$); each has its own claim page,
+statement? No" (accessed 2026-10-07), and the community database (read
+2026-09-18 and 2026-10-06) lists the problem as open as of its last update, 10
+September 2025, unformalized, with no formal proof. Forum comments of 10 and 19
+September 2026 announce an external Lean development for the cases $r=4$ (every
+$n$) and $r=5$ ($n\ge80$); each has its own claim page,
 [[problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura|2026_09_10_kentakitamura]]
 and
 [[problems/extremal_graph_theory/E1011/claims/2026_09_19_kentakitamura|2026_09_19_kentakitamura]],
-both claimed and partial; the repository is neither built nor kernel-checked
-in this corpus.
+both claimed and partial; the repository is neither built nor kernel-checked in
+this corpus.
 
 ## Current assessment
 

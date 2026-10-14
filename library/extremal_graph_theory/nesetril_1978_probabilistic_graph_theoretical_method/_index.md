@@ -43,7 +43,7 @@ separate proof.
 
 J. Nešetřil and V. Rödl, *On a probabilistic graph-theoretical method*,
 Proc. Amer. Math. Soc. **72** (1978), no. 2, 417--421,
-doi:10.1090/S0002-9939-1978-0507350-7 (Crossref record read);
+doi:10.1090/S0002-9939-1978-0507350-7 (Crossref record read on 2026-10-07);
 received by the editors May 20, 1977, and in revised form January 6, 1978.
 
 The copy read for this card is the publisher's scan of the five journal pages
@@ -111,8 +111,8 @@ and
 
 ## Compiled scope
 
-All five pages were read in the text layer for the statements above and
-re-read on the rendered page images; no proof was checked.
+All five pages were read in the text layer and on the rendered page images for
+the statements above; no proof was checked.
 Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: with $s=5$,

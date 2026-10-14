@@ -93,13 +93,13 @@ https://www.erdosproblems.com/1129.
   [[../library/polynomials/deboor_1978_conjectures_bernstein_erdos_optimal_nodes_polynomial_interpolation/_index|Proof of the conjectures of Bernstein and Erdős concerning the optimal nodes for polynomial interpolation]].
   J. Approx. Theory (1978), 289-303.
 
-**Formalization.** No formal-conjectures statement file exists for the problem,
-and the site's page reports no formalized statement. Two third-party Lean 4
-developments concern the problem, both naming de Boor and Pinkus as their
-mathematical source and both linked at their pinned commits from the claim page
-for de Boor and Pinkus 1978: a file in the lean-proofs repository proving that
-three free nodes have minimal Lebesgue constant $5/4$ with two distinct
-minimizers, and Collin Yuanjie Ren's JSP-000936 development proving the
+**Formalization.** On 2026-10-07 no formal-conjectures statement file existed
+for the problem, and the site's page reported no formalized statement. Two
+third-party Lean 4 developments concern the problem, both naming de Boor and
+Pinkus as their mathematical source and both linked at their pinned commits from
+the claim page for de Boor and Pinkus 1978: a file in the lean-proofs repository
+proving that three free nodes have minimal Lebesgue constant $5/4$ with two
+distinct minimizers, and Collin Yuanjie Ren's JSP-000936 development proving the
 free-node characterization of the minimizers, which the community database lists
 as the problem's Lean formalization as of its last update on 2026-09-16. Neither
 is built or audited in this repository.
@@ -192,12 +192,12 @@ $n$th roots of unity to be optimal; Brutman [Br80] proved this for odd $n$
 and Brutman and Pinkus [BrPi80] for even $n$. It is a separate question and
 carries no claim page here.
 
-**Formalization.** No formal-conjectures statement file exists for the problem.
-The file `Erdos1129.lean` in the lean-proofs repository, with Codex and GPT-5.6
-Sol as formal authors, declares itself a formalization of a solution with de
-Boor and Pinkus as informal authors and a correction to the unconstrained
-formulation: its theorem `erdos_1129` proves that for three free nodes the
-minimal Lebesgue constant is $5/4$, attained both by $(-1,0,1)$ and by
+**Formalization.** No formal-conjectures statement file existed for the problem
+on 2026-10-07. The file `Erdos1129.lean` in the lean-proofs repository, with
+Codex and GPT-5.6 Sol as formal authors, declares itself a formalization of a
+solution with de Boor and Pinkus as informal authors and a correction to the
+unconstrained formulation: its theorem `erdos_1129` proves that for three free
+nodes the minimal Lebesgue constant is $5/4$, attained both by $(-1,0,1)$ and by
 $(-49/50,0,49/50)$, so free-node minimizers are not unique. Collin Yuanjie Ren's
 JSP-000936 development, listed by the community database as the problem's Lean
 formalization as of its last update on 2026-09-16 and described in the

@@ -37,7 +37,7 @@ of log n; Corollary 2 is its case r = s − 1.
 
 Krivelevich, Michael, $K^s$-free graphs without large $K^r$-free subgraphs.
 Combin. Probab. Comput. 3 (1994), no. 3, 349-354,
-doi:10.1017/S0963548300001243 (Crossref record read).
+doi:10.1017/S0963548300001243 (Crossref record read 2026-09-18).
 
 The copy read for this card is the AMS-TeX typescript from the author's
 publications page, five pages
@@ -72,11 +72,11 @@ between them is still large.
 
 Source: <https://www.tau.ac.il/~krivelev/papers.html>.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]], whose
-$f(n)$ is the paper's $f_{3,4}(n)$: Theorem 1 at $r=3$, $s=4$ gives the
-lower bound $f(n)\ge c\,n^{1/2}(\log\log n)^{1/2}$, Corollary 1 (the case
-$r=3$, $s=4$ of Theorem 2) the upper bound $f(n)\le cn^{2/3}(\log n)^{1/3}$,
-and Section 2 the exact value $f(7)=4$.
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]],
+whose $f(n)$ is the paper's $f_{3,4}(n)$: Theorem 1 at $r=3$, $s=4$ gives the
+lower bound $f(n)\ge c\,n^{1/2}(\log\log n)^{1/2}$, Corollary 1 (the case $r=3$,
+$s=4$ of Theorem 2) the upper bound $f(n)\le cn^{2/3}(\log n)^{1/3}$, and
+Section 2 the exact value $f(7)=4$.
 
 **Results.**
 

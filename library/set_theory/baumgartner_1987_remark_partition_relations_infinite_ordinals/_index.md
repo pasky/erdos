@@ -82,7 +82,7 @@ $\mathfrak d_\kappa=\kappa^+$ (their Theorem 2.9).
 
 **Read status.** Unread: the paper's text was not obtained. The consumed
 statements, relations 1 and 3, were checked against the zbMATH review (Zbl
-0635.03042, read through the zbMATH Open API) and against the
+0635.03042, read 2026-09-27 through the zbMATH Open API) and against the
 texts of Komjáth 2025 and of Chen, Garti and Weinert; the paper's own theorem
 numbering is unknown, so the result pages carry descriptive names.
 

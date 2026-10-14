@@ -84,11 +84,10 @@ A pseudoprime is a composite $n$ with $n\mid 2^n-2$.
   on its result page.
 
 The note contains no statement about the greatest prime factors of $n$ and
-$n+1$. The discussion of problem 649 on erdosproblems.com
-attributes to its reference [Ro64b] the statement that for every prime
-$p>13$ there is a prime $q>p$ dividing $2^{p-1}-1$; that statement is not
-among this note's theorems and lemmas, and the attribution was not traced
-further.
+$n+1$. The discussion of problem 649 on erdosproblems.com (read 2026-09-17)
+attributes to its reference [Ro64b] the statement that for every prime $p>13$
+there is a prime $q>p$ dividing $2^{p-1}-1$; that statement is not among this
+note's theorems and lemmas, and the attribution was not traced further.
 
 ## Compiled scope
 

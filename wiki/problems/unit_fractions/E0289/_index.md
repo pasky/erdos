@@ -41,11 +41,12 @@ separation; the site's commentary explains the added condition, and the two
 readings have different status: the unrestricted one is answered in the
 site's discussion, the restricted one is the problem.
 
-**Status.** Labeled open on the site: the label was OPEN (page last edited 22
-September 2025; accessed 2026-10-07). The site marked the problem as not
-resolvable by a finite computation. The standing derived from the claim pages is
-claimed, claim proved, because four full proof claims are pending. Three are on
-the site's proof-claim tab, dated 4 September, 7 September and 26 September 2026
+**Status.** Labeled open on the site: the label was OPEN, and the page,
+accessed 2026-10-07, was last edited 22 September 2025. The site marked the
+problem as not resolvable by a finite computation. The standing derived from the
+claim pages is claimed, claim proved, because four full proof claims are
+pending. Three are on the site's proof-claim tab, dated 4 September, 7 September
+and 26 September 2026
 ([[problems/unit_fractions/E0289/claims/2026_09_04_land|Land]],
 [[problems/unit_fractions/E0289/claims/2026_09_07_tang|Tang]],
 [[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]). Each
@@ -64,10 +65,9 @@ settled affirmatively by an argument in the site's discussion (Kovač, September
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a
 finite computation; source key [ErGr80]; last edited 22 September 2025), its
 four-comment discussion thread (9 August 2025 to 18 December 2025) and its
-proof-claim tab with two full-proof claims (4 and 7 September 2026); on
-2026-10-07 the tab listed a third claim (26 September 2026) and comments
-under the claims. The site
-thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem #289,
+proof-claim tab with two full-proof claims (4 and 7 September 2026); the tab
+later listed a third claim (26 September 2026) and comments under the claims.
+The site thanks Vjekoslav Kovač. Cite as: T. F. Bloom, Erdős Problem #289,
 https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **References.**
@@ -93,13 +93,14 @@ https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/289.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/289.lean)
-of formal-conjectures at the linked commit (main) declares
+of formal-conjectures at the linked commit (main on 2026-09-17) declares
 `erdos_289 : answer(sorry) ↔ (∀ᶠ k : ℕ in atTop, ∃ I : Fin k → ℕ × ℕ, (∀ i, (I
 i).1 < (I i).2) ∧ (∀ i j, i ≠ j → (I i).2 + 1 < (I j).1 ∨ (I j).2 + 1 < (I
 i).1) ∧ ∑ i, ∑ n ∈ .Icc (I i).1 (I i).2, (n⁻¹ : ℚ) = 1)` under `category
 research open`, with proof `sorry`; its docstring explains the non-adjacency
 clause. This is the restricted form (the thread's comment of 18 December 2025
-had asked for the change from the unrestricted one). The community database records the statement as formalized since 31 August 2025
+had asked for the change from the unrestricted one). The community database
+(accessed 2026-09-17) records the statement as formalized since 31 August 2025
 and no formal proof. A commit of 7 October 2026 (pull request 6781, opened 1
 October 2026) changed the file's category to `research solved` with
 `answer(True)` and added a `formal_proof` attribute pointing to a complete
@@ -128,7 +129,7 @@ solution cannot all coincide; 22 September 2025, Kovač's argument for the
 unrestricted formulation and their doubt about the intended reading (below); 18
 December 2025, Kovač's request that the Lean statement adopt the
 non-overlapping, non-adjacent form. The community
-database records open, formalized statement, no OEIS
+database (accessed 2026-09-17) records open, formalized statement, no OEIS
 entry, no formal proof.
 
 **Origin.** Printed p. 34 of the 1980 monograph, with $\sum_{a,b}=\sum_{i=0}^{b-a}1/(a+i)$:

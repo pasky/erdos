@@ -43,40 +43,39 @@ Erdős–Gallai bound and the equivalence of Bondy's Conjectures 1 and 2.
 J. A. Bondy, *Large cycles in graphs*, Discrete Mathematics **1** (1971),
 no. 2, 121--132, DOI 10.1016/0012-365X(71)90019-7; the running head reads
 "Discrete Mathematics -- Volume 1, No. 2 (1971) 121--132", and the Crossref
-records give September 1971 for issue 2 and May 1971 to
-February 1972 for the volume's four issues, whence the volume year 1971/72
-of the result pages' source lines. Received 21 October
-1970, revised version received 22 March 1971; the author at the Department of
-Combinatorics and Optimization, University of Waterloo, the research
-"supported by National Research Council of Canada Grant A7331" (footnotes,
-p. 121). Cited as [Bo71b] on the problem page. Its eleven references
-(p. 132): [1] Bondy, Properties of graphs with constraints on degrees, Studia
-Sci. Math. Hungar. 4 (1969), 473--475; [2] Bondy, Pancyclic graphs, J.
-Combinatorial Theory, to appear, filed as
+records (read 2026-10-07) give September 1971 for issue 2 and May 1971 to
+February 1972 for the volume's four issues, whence the volume year 1971/72 of
+the result pages' source lines. Received 21 October 1970, revised version
+received 22 March 1971; the author at the Department of Combinatorics and
+Optimization, University of Waterloo, the research "supported by National
+Research Council of Canada Grant A7331" (footnotes, p. 121). Cited as [Bo71b] on
+the problem page. Its eleven references (p. 132): [1] Bondy, Properties of
+graphs with constraints on degrees, Studia Sci. Math. Hungar. 4 (1969),
+473--475; [2] Bondy, Pancyclic graphs, J. Combinatorial Theory, to appear, filed
+as
 [[extremal_graph_theory/bondy_1971_pancyclic_graphs_i/_index|bondy_1971_pancyclic_graphs_i]];
-[3] Brown, On the non-existence of a type of regular graphs of girth 5,
-Canad. J. Math. 19 (1967), 644--648; [4] Erdős and Gallai, On maximal paths
-and circuits of graphs, Acta Math. Acad. Sci. Hungar. 10 (1959), 337--356;
-[5] Erdős, Rényi and Sós, On a problem of graph theory, Studia Sci. Math.
-Hungar. 1 (1966), 215--235; [6] Harary, Graph theory (Addison-Wesley, 1969);
-[7] Kővári, Sós and Turán, On a problem of K. Zarankiewicz, Colloq. Math. 3
-(1954), 50--57; [8] Ore, Arc coverings of graphs, Ann. Mat. Pura Appl. 55
-(1961), 315--321, filed as
+[3] Brown, On the non-existence of a type of regular graphs of girth 5, Canad.
+J. Math. 19 (1967), 644--648; [4] Erdős and Gallai, On maximal paths and
+circuits of graphs, Acta Math. Acad. Sci. Hungar. 10 (1959), 337--356; [5]
+Erdős, Rényi and Sós, On a problem of graph theory, Studia Sci. Math. Hungar. 1
+(1966), 215--235; [6] Harary, Graph theory (Addison-Wesley, 1969); [7] Kővári,
+Sós and Turán, On a problem of K. Zarankiewicz, Colloq. Math. 3 (1954), 50--57;
+[8] Ore, Arc coverings of graphs, Ann. Mat. Pura Appl. 55 (1961), 315--321,
+filed as
 [[extremal_graph_theory/ore_1961_arc_coverings_graphs/_index|ore_1961_arc_coverings_graphs]];
-[9] Pósa, On the circuits of finite graphs, Magyar Tud. Akad. Mat. Kutató
-Int. Közl. 8 (1963), 355--361; [10] Turán, Eine Extremalaufgabe aus der
-Graphentheorie, Mat. Fiz. Lapok 48 (1941), 436--452; [11] Woodall,
-Sufficient conditions for circuits in graphs, Proc. London Math. Soc., to
-appear (the problem page's [Wo72]), which appeared as Proc. London Math.
-Soc. (3) 24 (1972), 739--755 and is filed as
+[9] Pósa, On the circuits of finite graphs, Magyar Tud. Akad. Mat. Kutató Int.
+Közl. 8 (1963), 355--361; [10] Turán, Eine Extremalaufgabe aus der
+Graphentheorie, Mat. Fiz. Lapok 48 (1941), 436--452; [11] Woodall, Sufficient
+conditions for circuits in graphs, Proc. London Math. Soc., to appear (the
+problem page's [Wo72]), which appeared as Proc. London Math. Soc. (3) 24 (1972),
+739--755 and is filed as
 [[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/_index|woodall_1972_sufficient_conditions_circuits_graphs]];
-its Corollary 11.1 on printed p. 749 (PDF p. 11), read there clause by
-clause on the page image and paged on
+its Corollary 11.1 on printed p. 749 (PDF p. 11), read there clause by clause on
+the page image and paged on
 [[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/corollary_11_1|corollary_11_1]],
-settles Conjecture 1 in full and credits the case $r=1$ of Erdős's question
-in its letters, a cycle of length $n-1$, to this paper's Theorem 2. The
-edition read is this version of record; no preprint or other version is
-known here.
+settles Conjecture 1 in full and credits the case $r=1$ of Erdős's question in
+its letters, a cycle of length $n-1$, to this paper's Theorem 2. The edition
+read is this version of record; no preprint or other version is known here.
 
 The copy read for this card is the
 publisher's file for the article: 12 pages, printed pp. 121--132 = PDF

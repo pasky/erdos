@@ -27,7 +27,7 @@ hypothesis n at least 3 that the restatement omits.
 J. Carmesin, *Characterising graphs with no subdivision of a wheel of
 bounded diameter*, J. Combin. Theory Ser. B **161** (2023), 21--51; DOI
 [10.1016/j.jctb.2023.01.004](https://doi.org/10.1016/j.jctb.2023.01.004)
-(the Crossref record, gives volume 161, pp. 21--51, July
+(the Crossref record, read 2026-09-19, gives volume 161, pp. 21--51, July
 2023); received 20 November 2020; the article's first page says "This is an
 open access article under the CC BY license". Not a site key: the site's
 keys for Problem 916 are the 1967 seminar paper (Er67b), Dirac 1960 (Di60)
@@ -44,13 +44,13 @@ cover sheet (DOI, "License: Creative Commons: Attribution (CC BY)",
 <https://research.birmingham.ac.uk/en/publications/f9a7c0bb-19dd-4de4-9219-a7b4092e26f3>),
 and PDF p. $n+1$ is printed p. $n+20$ for $1\le n\le31$ (printed p. 22 is
 PDF p. 3). The text layer is usable; the consumed paragraph was read on the
-rendered page image. Provenance: retained from the survey download set of
-September 2026, which downloaded it from the portal; the portal was not
-requested again. 637,027 bytes. The file prints "Crown Copyright © 2023
-Published by Elsevier Inc. This is an open access article under the CC BY
-license (http://creativecommons.org/licenses/by/4.0/)." at the foot of the
-article's first page, and the repository's cover sheet reads "License: Creative
-Commons: Attribution (CC BY)", the Creative Commons Attribution 4.0 license.
+rendered page image. Provenance: retained from the survey download set, which
+downloaded it from the portal; the portal was not requested again. 637,027
+bytes. The file prints "Crown Copyright © 2023 Published by Elsevier Inc. This
+is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/)." at the foot of the article's
+first page, and the repository's cover sheet reads "License: Creative Commons:
+Attribution (CC BY)", the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the two sentences on Thomassen in the
 paragraph "Related results" (printed p. 22 = PDF p. 3), read clause by

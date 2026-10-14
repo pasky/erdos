@@ -56,7 +56,7 @@ own README carries only the title, author ("OpenAI"), date and the citation
 block above; it adds no sentence about human assistance or verification. The PDF
 names no individual author, carries no arXiv identifier and no journal, and
 attributes nothing beyond the author line "OpenAI". No refereed publication,
-arXiv version or independent review of the manuscript is recorded here and
+arXiv version or independent review of the manuscript is recorded here, and
 nothing on this card is independently reviewed.
 
 Formalization: the release's Lean catalogue (`lean/formalization.yaml`)

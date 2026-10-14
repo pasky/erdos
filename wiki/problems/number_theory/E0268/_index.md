@@ -49,9 +49,9 @@ page and were not built here.
 accessed 2026-09-04 (the problem page: PROVED (LEAN); last edited
 28 September 2025; source keys [ErGr80, p. 65] and [Er88c, p. 105];
 commentary citing [Ko24] and [KoTa24]) and 2026-10-07 (its two-comment
-discussion thread of 13 April and 26 May 2026 and its empty proof-claim
-tab). Cite as: T. F. Bloom, Erdős Problem #268,
-https://www.erdosproblems.com/268, accessed 2026-10-07.
+discussion thread of 13 April and 26 May 2026); its proof-claim tab was empty.
+Cite as: T. F. Bloom, Erdős Problem #268, https://www.erdosproblems.com/268,
+accessed 2026-10-07.
 
 **References.**
 

@@ -104,7 +104,7 @@ no `sorry`, custom axiom or `native_decide`, a verified Lean source commit
 
 ## Standing
 
-- erdosproblems.com, proof-claims tab of Problem 354:
+- erdosproblems.com, proof-claims tab of Problem 354 (read 2026-09-28):
   one full-proof claim, "claimed by Yingzhe Yu, Kani Chen", submitted
   2026-09-13 15:48:40, with a summary of the strong-completeness argument
   and links to the proof and the formalization, 0 comments, under the

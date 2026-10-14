@@ -45,7 +45,10 @@ The full interval $[0,1)$, omitted by the theorem's strict length restriction, h
 
 The imported problem asks for a uniform bound for all sufficiently large $n$. Such a bound is equivalent to boundedness for all positive $n$: if $|R(n)|\le C$ for $n\ge n_0$, replace $C$ by the maximum of $C$ and the finitely many values $|R(1)|,\ldots,|R(n_0-1)|$. The reverse implication is immediate. Thus there is no eventual-versus-all-indices gap in applying the theorem.
 
-For irrational $\alpha$, if both endpoints are orbit points and $0<b-a<1$, subtracting their two representations shows $b-a\in\mathbb Z\alpha+\mathbb Z$. This proves that the endpoint condition is sufficient. Necessity for the endpoints does not follow.
+For irrational $\alpha$, if both endpoints are orbit points and $0<b-a<1$,
+subtracting their two representations shows $b-a\in\mathbb Z\alpha+\mathbb Z$.
+This proves that the endpoint condition is sufficient. Necessity for the
+endpoints does not follow.
 
 ## Anchored necessity: selected subdirection
 

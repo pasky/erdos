@@ -17,10 +17,10 @@ updated: 2026-10-08T01:29:58Z
 
 Aubrey D. N. J. de Grey, Jaan Parts, On lower bounds of the order of k-chromatic
 unit distance graphs. Geombinatorics 32 (2022), no. 2, 72-74, as the journal
-reference on the arXiv record gives it. arXiv:2303.14714. The copy read for this
-card is the arXiv preprint v1 (26 March 2023). The arXiv record
-(https://arxiv.org/abs/2303.14714, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+reference on the arXiv record gives it (read 2026-10-07). arXiv:2303.14714. The
+copy read for this card is the arXiv preprint v1 (26 March 2023). The arXiv
+record (https://arxiv.org/abs/2303.14714, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 This short note sharpens the Gwyn-Stavrianos probabilistic lower bounds on the
 minimum number of edges e_k and vertices v_k of a k-chromatic unit-distance

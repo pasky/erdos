@@ -30,8 +30,8 @@ not the publisher's pagination.
 The [local PDF](balogh_2021_max_cuts_triangle_free_graphs.pdf) is the six-page
 extended abstract [arXiv:2103.14179v1](https://arxiv.org/abs/2103.14179v1),
 dated 25 March 2021. Its printed page numbers agree with PDF page numbers. The
-arXiv record checked lists only this version. The published chapter was not
-acquired or compared line by line. The arXiv record
+arXiv record checked on 2026-09-09 listed only this version. The published
+chapter was not acquired or compared line by line. The arXiv record
 (https://arxiv.org/abs/2103.14179, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

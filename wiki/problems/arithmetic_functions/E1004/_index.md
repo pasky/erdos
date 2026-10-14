@@ -101,7 +101,7 @@ neither solved nor retired
 ([holds notice](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/HOLDS-2026-10-06.md)).
 The notice does not identify the comment; the thread's argument for every
 $c>0$ recorded above was retracted on 28 April 2026.
-Li's arXiv:2606.23681 had no citing paper.
+No paper citing Li's arXiv:2606.23681 was found.
 
 ## Formulation and historical source
 

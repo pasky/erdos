@@ -48,7 +48,7 @@ https://www.erdosproblems.com/857.
 
 ## Current assessment
 
-The site's formulation asks for an estimate, or an
+The site's formulation (accessed 2026-09-04) asks for an estimate, or an
 asymptotic formula, for $m(n,k)$, the least $m$ such that any $m$ subsets of
 $\{1,\ldots,n\}$ contain $k$ with pairwise equal intersections; the site
 calls this the weak sunflower problem and labeled it OPEN. The only bound its

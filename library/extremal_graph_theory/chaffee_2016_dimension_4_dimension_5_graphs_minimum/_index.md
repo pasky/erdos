@@ -48,7 +48,7 @@ a text-layer PDF whose last page records "Received 14 Jan 2015; revised 19
 July 2015, 27 Oct 2015". Source:
 <https://ajc.maths.uq.edu.au/?page=get_volumes&volume=64>, the journal's
 volume 64 listing, which carries the article at pp. 327--333 with its PDF
-(listing read). The Australasian Journal of Combinatorics is a
+(listing read 2026-09-18). The Australasian Journal of Combinatorics is a
 refereed open-access journal; the acceptance evidence for the theorems below
 is this publication. No notice is printed in the article, and the journal's
 volume listing, home page and about page (https://ajc.maths.uq.edu.au/about,
@@ -59,19 +59,19 @@ asking prior permission from the publisher or the author.", an open access
 statement that names no license, so the term is unstated.
 
 Read status: claims checked for Lemma 3, Theorem 6 and Theorem 7 (printed
-pp. 328--329 = PDF pp. 2--3), read clause by clause on the page images. The proof of Theorem 6 (pp. 328--329, twenty-one lines) was read
-and its steps followed; it rests on Lemmas 2 and 4, quoted from Erdős,
-Harary and Tutte (1965), filed as
+pp. 328--329 = PDF pp. 2--3), read clause by clause on the page images. The
+proof of Theorem 6 (pp. 328--329, twenty-one lines) was read and its steps
+followed; it rests on Lemmas 2 and 4, quoted from Erdős, Harary and Tutte
+(1965), filed as
 [[extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/_index|erdos_harary_tutte_1965_dimension_graph]].
-That paper asserts the value of Lemma 2, $\dim(K_n-x)=n-2$, on printed
-p. 118 (PDF p. 1), read there on the page image and paged on
+That paper asserts the value of Lemma 2, $\dim(K_n-x)=n-2$, on printed p. 118
+(PDF p. 1), read there on the page image and paged on
 [[extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/complete_graphs_p118|complete_graphs_p118]],
-with no argument beyond its figures for $n=3,4$, and the monotonicity of
-Lemma 4 is not on printed pp. 118--119 (the card records that it is
-nowhere in the paper), so nothing here is proof verified. Theorems 8, 10
-and 11 and Lemma 9 (pp. 329--331) were read clause by clause on the page
-images (claims checked); their proofs (pp. 329--333) were read for
-structure only.
+with no argument beyond its figures for $n=3,4$, and the monotonicity of Lemma 4
+is not on printed pp. 118--119 (the card records that it is nowhere in the
+paper), so nothing here is proof verified. Theorems 8, 10 and 11 and Lemma 9
+(pp. 329--331) were read clause by clause on the page images (claims checked);
+their proofs (pp. 329--333) were read for structure only.
 
 ## Contents
 

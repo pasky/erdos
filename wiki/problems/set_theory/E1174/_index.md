@@ -46,11 +46,11 @@ page departs from the site's label because one side alone leaves a question
 open. So both parts, and the problem, are open.
 
 **Source.** [erdosproblems.com/1174](https://www.erdosproblems.com/1174),
-accessed 2026-09-04 and 2026-10-07: the problem page (NOT
-DISPROVABLE; remark crediting Shelah with the consistency of a graph with
-either property; source key [Va99, 7.91]; no last-edited line), its
-discussion thread (two comments, 9 February and 19 March 2026) and its
-proof-claims tab (none). Cite as: T. F. Bloom, Erdős Problem #1174,
+accessed 2026-09-04 and 2026-10-07: the problem page (remark crediting Shelah
+with the consistency of a graph with either property; source key [Va99, 7.91];
+no last-edited line) and its discussion thread (two comments, 9 February and 19
+March 2026); its last label was NOT DISPROVABLE, and its proof-claims tab held
+no claim. Cite as: T. F. Bloom, Erdős Problem #1174,
 https://www.erdosproblems.com/1174.
 
 **References.**
@@ -106,11 +106,12 @@ question is open for both: Komjáth [Ko25] records the consistency results only
 vertices, as the Known Results below record. Either question would be settled as
 independent by a matching consistency result for the negative answer, or
 outright by a construction of such a graph in ZFC. Search scope: the site's
-problem page, discussion thread and proof-claims tab; the community database (entry 1174: not disprovable since 2026-03-19,
-unformalized); Komjáth's survey, Problems 51-54; the Shelah archive entries
-Sh:289 and Sh:414 and the scan of [KoSh93]; [Va99], item 7.91. Not searched:
-arXiv, zbMATH, MathSciNet and X. The proofs of Lemma 5.1 and of Theorems 1 and 2
-were not followed; nothing on this page is independently reviewed.
+problem page, discussion thread and proof-claims tab; the community database
+(entry 1174: not disprovable since 2026-03-19, unformalized); Komjáth's survey,
+Problems 51-54; the Shelah archive entries Sh:289 and Sh:414 and the scan of
+[KoSh93]; [Va99], item 7.91. Not searched: arXiv, zbMATH, MathSciNet and X. The
+proofs of Lemma 5.1 and of Theorems 1 and 2 were not followed; nothing on this
+page is independently reviewed.
 
 ## Known Results
 

@@ -60,7 +60,7 @@ https://www.erdosproblems.com/1162.
 
 ## Current assessment
 
-The site's formulation, a problem of Erdős and Turán, asks
+The site's formulation (accessed 2026-09-04), a problem of Erdős and Turán, asks
 for an asymptotic formula for the number $f(n)$ of subgroups of $S_n$ and
 whether there is a statistical theorem on their orders. The site's remarks
 record two results: Pyber [Py93] proved $\log f(n)\asymp n^2$, and Roney-Dougal

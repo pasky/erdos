@@ -41,8 +41,8 @@ Printed pp. 96--97 (notation and the $(*)$ convention), 117--118 (Theorem 10
 and its proof), 130 (section 15.1) and 132--133 (section 15.6 and the proof
 of Corollary 7) were read on page images at 200 dpi, with 800 dpi crops of
 the subscript glyphs of Corollary 7 on p. 132; the rest of the paper is
-digested from an earlier reading of the
-introduction. No notice is printed in the scan; the publisher's article page for
+digested from its introduction and was not checked against the page images. No
+notice is printed in the scan; the publisher's article page for
 DOI 10.1007/BF01886396 (read 2026-10-02) exposed only the site footer "© 2026
 Springer Nature", which speaks for the site, not the paper, and the Crossref
 record for the DOI (read 2026-10-02) names Springer as publisher and lists only

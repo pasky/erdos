@@ -27,14 +27,14 @@ the four-cycle alone, with a linear error term.
 
 P. Erdős and M. Simonovits, *Compactness results in extremal graph theory*,
 Combinatorica **2** (1982), no. 3, 275--288; DOI 10.1007/BF02579234
-(Crossref record read: volume 2, issue 3, pages 275--288,
+(Crossref record read on 2026-09-18: volume 2, issue 3, pages 275--288,
 issued September 1982). Received 15 April 1982; dedicated to Tibor Gallai
 on his seventieth birthday (p. 275). The site's reference key for this
 paper is ErSi82 (Problems 573 and 575).
 
 **Copy read.** The copy read for this card is the Rényi Institute archive copy
 (`1982-02.pdf`), a 14-page scan with an OCR text layer
-(printed p. $n$ is PDF p. $n-274$). Provenance: retrieved
+(printed p. $n$ is PDF p. $n-274$). Provenance: retrieved 2026-09-18T05:48Z
 from <https://users.renyi.hu/~p_erdos/1982-02.pdf> (HTTP 200, one request);
 2,020,298 bytes. The statements below were read on the rendered page images (130
 dpi); the OCR layer served only to locate them. The paper writes $C^t$ for the

@@ -22,13 +22,13 @@ for m >= 78; Hercher extends the exclusion to m <= 91 (Problem 1135).
 John Simons and Benne de Weger, *Theoretical and computational bounds for
 m-cycles of the 3n+1 problem*, version 1.44 of 31 August 2010, an updated
 version of the paper whose version 1.3 was published as Acta Arith. 117 (2005),
-no. 1, 51--70, DOI 10.4064/aa117-1-3 (Crossref record). The acknowledgements (p.
-1) credit the main improvements of version 1.44 over version 1.3 to computations
-of Tomás Oliveira e Silva. The published version excludes nontrivial $m$-cycles
-for $m\le68$ (p. 54 there) from the bound $x_{\min}>X_0=301\cdot2^{50}$ (p. 53
-there); version 1.44 excludes them for $m\le75$ from
-$x_{\min}>X_0=5\cdot2^{60}>5.7646\cdot10^{18}$ (p. 3). The labels and pages
-cited here are those of version 1.44.
+no. 1, 51--70, DOI 10.4064/aa117-1-3 (Crossref record, read 2026-10-07). The
+acknowledgements (p. 1) credit the main improvements of version 1.44 over
+version 1.3 to computations of Tomás Oliveira e Silva. The published version
+excludes nontrivial $m$-cycles for $m\le68$ (p. 54 there) from the bound
+$x_{\min}>X_0=301\cdot2^{50}$ (p. 53 there); version 1.44 excludes them for
+$m\le75$ from $x_{\min}>X_0=5\cdot2^{60}>5.7646\cdot10^{18}$ (p. 3). The labels
+and pages cited here are those of version 1.44.
 
 [[number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|Theorem 3 (Main Theorem)]]
 (p. 5) concerns the map $T(n)=(3n+1)/2$ for odd $n$
@@ -87,12 +87,12 @@ Read status: claims checked for Theorem 3 with the setting it uses
 lemmas and the proofs (pp. 5--16) were read for structure only, no
 inequality was rechecked and no computation was rerun.
 
-**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: for the page's map $f$
-(the paper's $T$), no nontrivial cycle with at most $75$ local minima exists,
-given the verification bound $x_{\min}>5\cdot2^{60}$ of 2010 (Theorem 3(b));
-cycles with more local minima are bounded but not excluded (Theorem 3(c),
-(d)), divergent trajectories are not addressed, and Hercher's Theorem 23
-extends the exclusion to $m\le91$ from these bounds.
+**Bears on.** [[../wiki/problems/number_theory/E1135/_index|#1135]]: for the
+page's map $f$ (the paper's $T$), no nontrivial cycle with at most $75$ local
+minima exists, given the verification bound $x_{\min}>5\cdot2^{60}$ of 2010
+(Theorem 3(b)); cycles with more local minima are bounded but not excluded
+(Theorem 3(c), (d)), divergent trajectories are not addressed, and Hercher's
+Theorem 23 extends the exclusion to $m\le91$ from these bounds.
 
 **Results.**
 

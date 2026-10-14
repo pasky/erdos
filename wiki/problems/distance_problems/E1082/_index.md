@@ -129,7 +129,7 @@ a convex polyhedron (see [[problems/distance_problems/E0660/_index|Problem
 660]]) and Szemerédi when no four points lie on a plane.
 
 **Search scope.** The site's page, last edited 11 April 2026, carried no
-proof claim and its thread held the items above on 2026-10-07. No search
+proof claim, and its thread held the items above on 2026-10-07. No search
 beyond the site and the formal-conjectures repository is recorded.
 <!-- BEGIN problem library links -->
 

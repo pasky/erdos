@@ -36,7 +36,7 @@ arithmetic progression, g_k(n) being the size of a largest such subset of
 Aliaksei Semchankau, Maximal subsets free of arithmetic progressions in
 arbitrary sets. Math. Notes 102 (2017), no. 3-4, 396--402, DOI
 10.1134/S0001434617090097; Russian original Mat. Zametki 102 (2017), no. 3,
-436--444 (Crossref records read). The copy read for this card is
+436--444 (Crossref records read 2026-10-07). The copy read for this card is
 arXiv:2010.04490v1 (9 October 2020, eight pages); the journal version was not
 compared.
 

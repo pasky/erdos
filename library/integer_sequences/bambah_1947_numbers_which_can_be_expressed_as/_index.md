@@ -46,7 +46,7 @@ rendered), and the archive file it was taken from
 (https://insa.nic.in/writereaddata/UpLoadedFiles/PINSA/Vol13_1947_2_Art05.pdf)
 carries none; the publisher's site shows only its site-wide footer "Copyright ©
 2026 Indian National Science Academy. All Rights Reserved"
-(https://www.insaindia.res.in/), not an article-level line,
+(https://www.insaindia.res.in/, read 2026-10-02), not an article-level line,
 every other right reserved.
 
 Read status: claims checked for the setting, equation (3) and the Theorem,

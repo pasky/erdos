@@ -35,13 +35,13 @@ least $1-K\vartheta^n$."
 are $\alpha$ and $K$ such that the exponential rate holds with these
 parameters."
 
-"Same remark applies for Theorem 1 [sic], i.e. for $G_{n,p}$, $p=\frac{\alpha}{n}$,
-$\alpha>1$." (As printed; $G_{n,p}$ is the undirected model, whose fixed-edge
-form is Theorem 2, so the sentence transfers the Exponential rate and the
-Corollary to the undirected case with $\alpha>1$, that is, $\alpha/2>1/2$ in the
-edge coefficient of Theorem 2.) Theorem 1 (p. 2) is the directed statement:
-$D'_{n,\alpha n}$ with $\alpha>1$ almost surely contains a directed path of
-length $c(\alpha)n$. Paragraph B (pp. 1--2) recalls that with
+"Same remark applies for Theorem 1 [sic], i.e. for $G_{n,p}$,
+$p=\frac{\alpha}{n}$, $\alpha>1$." (As printed; $G_{n,p}$ is the undirected
+model, whose fixed-edge form is Theorem 2, so the sentence transfers the
+Exponential rate and the Corollary to the undirected case with $\alpha>1$, that
+is, $\alpha/2>1/2$ in the edge coefficient of Theorem 2.) Theorem 1 (p. 2) is
+the directed statement: $D'_{n,\alpha n}$ with $\alpha>1$ almost surely contains
+a directed path of length $c(\alpha)n$. Paragraph B (pp. 1--2) recalls that with
 $(1-\varepsilon)n/2$ edges the longest path has length $O(\log n)$ and with
 $n/2$ edges $O(\sqrt{n\log n})$, with probability near one.
 
@@ -58,7 +58,7 @@ $\vartheta$) by changing $G$ to $G'$."
 
 **Source.** M. Ajtai, J. Komlós and E. Szemerédi, *The longest path in a
 random graph*, Combinatorica 1 (1981), no. 1, 1--12 (received 12 September
-1979; the Crossref record gives issue 1, March 1981);
+1979; the Crossref record, read 2026-09-19, gives issue 1, March 1981);
 printed pp. 2--3 = PDF pp. 3--4 of the repository copy of the
 version of record (a scan with an OCR text layer whose Greek letters are
 unreliable), read on the rendered page images. The artifact is identified
@@ -79,19 +79,19 @@ exploration and a Galton--Watson branching process, giving the Exponential
 rate; paragraph G (pp. 3--4): the Corollary; Section 2 (pp. 10--12): the
 undirected case through the "shrinking method": Lemma S (p. 10) gives, for
 $G_{n,p}$ with $p=\alpha/n$, $\alpha>1$, at least $\delta n$ vertices covered
-by disjoint cycles of lengths $>\gamma\log n$ with probability $>1-K\vartheta^n$,
-and the proof of Theorem 2 (p. 12) adds $\varepsilon n$ further random edges,
-cuts the cycles into arcs, and applies
+by disjoint cycles of lengths $>\gamma\log n$ with probability
+$>1-K\vartheta^n$, and the proof of Theorem 2 (p. 12) adds $\varepsilon n$
+further random edges, cuts the cycles into arcs, and applies
 [[extremal_graph_theory/ajtai_1981_longest_path_random_graph/theorem_1|Theorem 1]]
 to the dense directed graph whose vertices are the arcs. Remark 4 (p. 3)
 describes the method as showing that it suffices to prove Theorem 2 for one
-(possibly very large) value of $\beta$. Not checked here. The paper's reference [4] for the conjecture is Erdős, Problems and
-results on finite and infinite graphs, Recent advances in graph theory
-(Proc. Second Czechoslovak Sympos., Prague, 1974), Academia, Prague, 1975,
-filed as
+(possibly very large) value of $\beta$. Not checked here. The paper's reference
+[4] for the conjecture is Erdős, Problems and results on finite and infinite
+graphs, Recent advances in graph theory (Proc. Second Czechoslovak Sympos.,
+Prague, 1974), Academia, Prague, 1975, filed as
 [[ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/_index|erdos_1975_problems_results_finite_infinite_graphs]],
-whose card records the passage (Section VII, printed p. 188); it was not
-read for this page.
+whose card records the passage (Section VII, printed p. 188); it was not read
+for this page.
 
 ## Dependencies
 

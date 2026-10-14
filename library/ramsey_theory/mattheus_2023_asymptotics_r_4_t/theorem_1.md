@@ -32,9 +32,9 @@ arXiv:2306.04007v5 (20 February 2024, marked on arXiv as the updated
 journal version), 24 pages; Theorem 1 on p. 3, read in the text layer of
 the retained PDF; the proof is completed on p. 16 ("proving Theorem 1").
 Published as Annals of Mathematics (2) 199 (2024), no. 2, 919--941, DOI
-10.4007/annals.2024.199.2.8 (publisher's record read; received
+10.4007/annals.2024.199.2.8 (publisher's record read on 2026-09-17; received
 19 June 2023, accepted 18 October 2023, published online 5 March 2024 per the
-journal's article page); the printed version is not held and
+journal's article page, read 2026-09-18); the printed version is not held and
 was not compared.
 
 **Read depth.** Claims checked: the statement and the two surrounding

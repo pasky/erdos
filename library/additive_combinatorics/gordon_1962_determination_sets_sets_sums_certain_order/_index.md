@@ -29,7 +29,7 @@ by the sets of sums of a certain order. Pacific J. Math. 12 (1962), no. 1,
 187--196, doi:10.2140/pjm.1962.12.187. No notice is printed on the file's cover
 page or volume contents page; the publisher's article page shows "© Copyright
 1962 Pacific Journal of Mathematics. All rights reserved."
-(https://msp.org/pjm/1962/12-1/p17.xhtml), every other right
+(https://msp.org/pjm/1962/12-1/p17.xhtml, read 2026-10-02), every other right
 reserved.
 
 For a multiset X of n elements of a torsion-free abelian group, the paper

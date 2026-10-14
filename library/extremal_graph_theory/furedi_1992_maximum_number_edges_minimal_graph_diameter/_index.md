@@ -44,7 +44,7 @@ The copy read for this card is a 13-page scan of IMA Preprint Series #408
 (March 1988): PDF p. 1 is the cover sheet and preprint p. $n$ is PDF
 p. $n+1$; its text layer is empty, so every statement below was read on the
 rendered page images. The journal text (J. Graph Theory 16 (1992), no. 1,
-81--98, issued March 1992; Crossref record read) was not
+81--98, issued March 1992; Crossref record read on 2026-09-19) was not
 compared; the locators are preprint pages. No notice is printed in the
 preprint (its cover sheet and last page carry no copyright or license line),
 the host it was retrieved from is not recorded on this card, and the card's

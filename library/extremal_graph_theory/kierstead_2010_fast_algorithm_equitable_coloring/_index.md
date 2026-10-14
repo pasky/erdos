@@ -32,7 +32,7 @@ H. A. Kierstead, A. V. Kostochka, M. Mydlarz and E. Szemerédi, *A fast
 algorithm for equitable coloring*, Combinatorica **30** (2010), no. 2,
 217--224; DOI
 [10.1007/s00493-010-2483-5](https://doi.org/10.1007/s00493-010-2483-5)
-(the Crossref record, gives issue 2, March 2010, published
+(the Crossref record, read 2026-09-19, gives issue 2, March 2010, published
 online 17 September 2010); received 5 February 2008; MSC 05C15, 05C85. Not
 a site key: the site's source key for Problem 914 is Er67b, and its
 commentary cites CoHa63, HaSz70 and KiKo08; the two proofs, the 1970
@@ -109,9 +109,10 @@ statements only. Nothing here is independently reviewed.
 ## Compiled scope
 
 Printed p. 217 was read on the page image and pp. 218--224 in the text
-layer; pp. 221--223 were read again on the printed pages for Theorem 4.
+layer; pp. 221--223 were also read on the printed pages for Theorem 4.
 Theorems 1 and 4 are at claims-checked depth; their proofs in Sections 2
-and 3 are read for structure and not checked. Nothing here is independently reviewed.
+and 3 are read for structure and not checked. Nothing here is independently
+reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0914/_index|#914]]: Theorem 1
 (p. 217) is the equitable-coloring form of the problem's statement, which

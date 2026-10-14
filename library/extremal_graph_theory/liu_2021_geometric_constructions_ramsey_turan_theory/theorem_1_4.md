@@ -28,7 +28,7 @@ $\varrho_3(5)=1/6$.
 **Source.** H. Liu, C. Reiher, M. Sharifzadeh and K. Staden, *Geometric
 constructions for Ramsey-Turán theory*, arXiv:2103.10423v2 (18 August 2025),
 retained; Journal of the European Mathematical Society, vol. 28, no. 1,
-79--112, doi:10.4171/jems/1712 (Crossref record read; the journal
+79--112, doi:10.4171/jems/1712 (Crossref record read 2026-09-18; the journal
 text is not held). Theorem 1.4 on p. 5 of the retained version, read on the
 page image. The artifact is identified in the
 [[extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/_index|source digest]].

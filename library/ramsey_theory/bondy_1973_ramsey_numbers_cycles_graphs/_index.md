@@ -30,7 +30,7 @@ clique order, stated with an outline of proof.
 
 J. A. Bondy and P. Erdős, *Ramsey numbers for cycles in graphs*, J.
 Combinatorial Theory Ser. B **14** (1973), no. 1, 46--54; DOI
-10.1016/S0095-8956(73)80005-X (the Crossref record was read);
+10.1016/S0095-8956(73)80005-X (the Crossref record was read on 2026-09-17);
 received January 28, 1972; MR 47 #6540; Zbl 248.05127.
 
 The copy read for this card

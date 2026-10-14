@@ -66,11 +66,12 @@ and Lenz. The proof-claim tab is empty.
 
 Not formalized: the Lean file
 [`Erdos533.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos533.lean)
-in plby/lean-proofs is the file that formal-conjectures names as the formal
-proof of `erdos_533` (absent from the commit at main on 2026-09-18). It lists
-Balogh and Lenz among its informal authors, with Codex and GPT-5.6 Sol as formal
-authors. But it builds the Liu--Reiher--Sharifzadeh--Staden construction and not
-Theorem 3, so it is linked from their claim page. The corpus has not built it.
+in plby/lean-proofs is the file that formal-conjectures named as the formal
+proof of `erdos_533` on 2026-10-07 (absent from the commit at main on
+2026-09-18). It lists Balogh and Lenz among its informal authors, with Codex and
+GPT-5.6 Sol as formal authors. But it builds the
+Liu--Reiher--Sharifzadeh--Staden construction and not Theorem 3, so it is linked
+from their claim page. The corpus has not built it.
 
 Proof coverage is statements only: Theorem 3, Corollary 4 and the p. 4 displays
 were checked, and no proof was read. The claim rests on the source card

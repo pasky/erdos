@@ -79,7 +79,7 @@ p. 2 of V. Kuperberg, *Sums of singular series with large sets and the tail
 of the distribution of primes*, Q. J. Math. 74 (2023), arXiv:2210.09775v2,
 held as
 [[../library/primes/kuperberg_2023_sums_singular_series_large_sets_tail/_index|Kuperberg (2023)]];
-its proof was not reread here. By Mertens' third theorem,
+its proof was not read here. By Mertens' third theorem,
 $\prod_{p\le k^3}(1-1/p)^{-1}\ll\log k$ for $k\ge2$, so there is an
 absolute $C_1$ with $T_k(h)\le(C_1h\log k)^k$ for $k\ge2$; this is the
 form used below. Kuperberg's display continues

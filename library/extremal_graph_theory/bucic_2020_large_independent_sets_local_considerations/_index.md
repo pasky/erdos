@@ -23,7 +23,7 @@ minus o(1), confirming the first Erdős–Hajnal conjecture for the case
 Matija Bucić and Benny Sudakov, Large independent sets from local
 considerations. Combinatorica 43 (2023), no. 3, 505--546,
 doi:10.1007/s00493-023-00023-w (published online 4 May 2023; Crossref record
-read). Preprint arXiv:2007.03667 (v1 7 July 2020; v3 14 January
+read on 2026-09-18). Preprint arXiv:2007.03667 (v1 7 July 2020; v3 14 January
 2023). The copy read for this card is the preprint v3, not the journal version.
 
 Bucić and Sudakov attack the Erdős--Hajnal and Linial--Rabinovich question of

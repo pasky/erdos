@@ -127,8 +127,8 @@ with a sketch.
   exponent $\frac{2}{3}$.
 - [[additive_bases/erdos_1984_extremal_problems_number_theory/display_12|Display (12)]]:
   $n^{1+c/\log\log n}<f_2(n)<c_2n^{3/2}$, the conjecture that the lower
-  bound is best possible or nearly so, the Erdős--Sós questions and the later bounds
-  reported for $f_2(n)$ and $g_2(n)$.
+  bound is best possible or nearly so, the Erdős--Sós questions and the later
+  bounds reported for $f_2(n)$ and $g_2(n)$.
 - [[additive_bases/erdos_1984_extremal_problems_number_theory/display_31|Displays (31)--(33)]]:
   $r(K(m),C_4)<m^{2-\varepsilon}$ as very likely, the open comparison (32),
   Szemerédi's (33) and the Ajtai--Komlós--Szemerédi lemma as reported, with

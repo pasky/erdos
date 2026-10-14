@@ -43,7 +43,7 @@ in each interval.
 **Source.** A. Baltz, T. Schoen and A. Srivastav, *Probabilistic
 construction of small strongly sum-free sets via large Sidon sets*, Colloq.
 Math. 86 (2000), no. 2, 171--176, DOI 10.4064/cm-86-2-171-176 (received 4
-May 1999, revised 1 December 1999; Crossref record read). The
+May 1999, revised 1 December 1999; Crossref record read 2026-09-18). The
 retained PDF is the journal's six-page file with a complete text layer;
 printed p. $n$ is PDF p. $n-170$. Theorem 2 on printed p. 173 (PDF p. 3),
 read in the text layer; the site's key [BSS00].

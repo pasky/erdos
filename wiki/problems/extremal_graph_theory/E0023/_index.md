@@ -65,9 +65,9 @@ all $n$ is established.
 A primary-source search covered the [2021 arXiv
 record](https://arxiv.org/abs/2103.14179v1), publication records, later arXiv
 work and research announcements, including X. It found no proof of the full
-conjecture and no counterexample, and the site's page carries no proof claim. A
-bounded search does not establish openness, priority or the absence of unindexed
-work.
+conjecture and no counterexample, and the site's page carried no proof claim on
+2026-10-06. A bounded search does not establish openness, priority or the
+absence of unindexed work.
 
 Alper Ferudun's
 [arXiv:2606.28041v1](https://arxiv.org/abs/2606.28041v1), submitted 26 June

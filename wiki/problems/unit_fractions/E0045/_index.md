@@ -99,14 +99,15 @@ multiple of an interval $[1,C^k]$), that a doubly exponential lower bound
 also holds (an observation the commentary attributes to Sawhney), and that
 Guy's collection mentions the existence of such $n_k$ in problem B2. The
 thread and the proof-claim tab are empty. The community database record
-(teorth/erdosproblems) says proved (Lean), statement
+(teorth/erdosproblems, read 2026-09-17) says proved (Lean), statement
 formalized, no formal-proof URL.
 
 **Status support.** The status-defining source is Croot's Corollary
 ([[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/corollary|result page]]),
 printed p. 545 of arXiv:math/0311421v1, which carries the Annals of
 Mathematics pagination 545--556 and the received date 16 May 2001; the
-journal is refereed and the arXiv listing shows no later version. The Corollary gives a constant $b$ such that every partition of
+journal is refereed and the arXiv listing showed no later version on 2026-09-17.
+The Corollary gives a constant $b$ such that every partition of
 $[2,b^r]$ into $r$ classes has a class containing a set with reciprocal sum
 one, with $b=e^{167000}$ for large $r$. The specialization to this problem is
 the common-multiple construction written on the Corollary page: with

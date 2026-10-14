@@ -66,7 +66,7 @@ statement about human assistance or verification. The manuscript itself
 names only "OpenAI" as its author and no individual, carries no
 acknowledgment, arXiv identifier or journal, and contains no AI-use
 statement. No refereed publication, arXiv version or independent review of
-the manuscript is recorded here and nothing on this card
+the manuscript is recorded here, and nothing on this card
 is independently reviewed.
 
 Formalization, as the release lists it. The release's catalogue

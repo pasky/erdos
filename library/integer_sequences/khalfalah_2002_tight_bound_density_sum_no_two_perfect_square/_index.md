@@ -20,8 +20,8 @@ updated: 2026-10-08T01:29:58Z
 A. Khalfalah, S. Lodha and E. Szemerédi, *Tight bound for the density of
 sequence of integers the sum of no two of which is a perfect square*, Discrete
 Math. **256** (2002), no. 1--2, 243--255; DOI 10.1016/S0012-365X(01)00435-6
-(journal data from Crossref; the problem page's entry gives the journal, year
-and pages).
+(journal data from Crossref, read 2026-09-17; the problem page's entry gives the
+journal, year and pages).
 
 The copy read for this card
 is DIMACS Technical Report 2000-39 (December 2000), the preprint of the

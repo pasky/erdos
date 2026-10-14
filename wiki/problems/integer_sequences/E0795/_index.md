@@ -29,7 +29,7 @@ $$
 g(n) \leq \pi(n)+\pi(n^{1/2})+o\left(\frac{x^{1/2}}{\log n}\right)?
 $$
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18T05:33Z (page last
 edited 6 April 2026). The little-$o$ term is printed with an $x$ that the
 statement does not define (the thread's one comment, of 15 May 2026, calls it
 a typo for $n^{1/2}/\log n$); $x=n$ is the only reading, and it is the
@@ -70,7 +70,7 @@ accessed 2026-09-18.
 
 - [Ra25] Raghavan, R., Sharp bounds for sets with distinct subset products.
   Acta Math. Hungar. 177 (2025), no. 2, 363--377, doi:10.1007/s10474-025-01578-4
-  (published online 25 December 2025; Crossref record read);
+  (published online 25 December 2025; Crossref record read 2026-09-18);
   arXiv:2501.02695v1 (6 January 2025), v2 (26 February 2026, 13 pp., the
   copy read; not held). Theorems 1.3--1.6, pp. 1--2. Library home:
   [[../library/integer_sequences/raghavan_2025_sharp_bounds_sets_distinct_subset_products/_index|raghavan_2025_sharp_bounds_sets_distinct_subset_products]].

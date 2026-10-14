@@ -123,8 +123,8 @@ Amer. Math. Soc. **3** (1990), **1–7**, [DOI
 not the printed volume 136 and pages 119–127; source reference [6], *Block sizes
 in the block sets conjecture*, is Forum Math. Sigma **14** (2026), e67, [DOI
 10.1017/fms.2026.10212](https://doi.org/10.1017/fms.2026.10212), not volume 16.
-The latter publisher record was checked; its proof is not imported into this
-unit.
+The latter publisher record was checked on 5 September 2026; its proof is not
+imported into this unit.
 
 **Later work.** Papers of August 2026 by
 [[discrete_geometry/moore_2026_pyramid_ramsey_base/_index|Moore]] and by
@@ -140,10 +140,10 @@ absence claim.
 families of subsoluble, hence Ramsey, sets (generalised prisms on two orbits
 of one soluble finite isometry group, pyramids over finite transitive
 subsoluble bases, prisms on concentric regular polygons), a sufficient
-condition and not a characterisation; Conjecture 8 conjectures a closure property of the Ramsey
-sets, which later papers address; Conjecture 6 and Theorem 7 concern the block
-sets conjecture, which implies that every subtransitive set is Ramsey. The
-paper does not decide the problem.
+condition and not a characterisation; Conjecture 8 conjectures a closure
+property of the Ramsey sets, which later papers address; Conjecture 6 and
+Theorem 7 concern the block sets conjecture, which implies that every
+subtransitive set is Ramsey. The paper does not decide the problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

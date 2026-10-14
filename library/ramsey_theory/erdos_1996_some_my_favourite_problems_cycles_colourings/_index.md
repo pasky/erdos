@@ -24,7 +24,7 @@ Er96.
 **Copy read.** The journal's archive serves the paper as a dvips
 PostScript file, `Full/09/01ERDOS.ps` (dvips 5.58; the file's own creation
 stamp is 19 May 2005, when the archive was typeset from the journal's DVI).
-Provenance of that download: retrieved from
+Provenance of that download: retrieved 2026-09-18T11:27:30Z from
 <https://tatra.mat.savba.sk/Full/09/01ERDOS.ps> (HTTP 200,
 `application/postscript`, one request, reached from the archive's volume 9
 listing and the paper's entry page, which prints the bibliographic record

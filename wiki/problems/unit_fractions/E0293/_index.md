@@ -67,7 +67,7 @@ $v(3)=4$.
 
 **Status.** Labeled open on the site: the label was OPEN, and the commentary
 attaches it to the modified Statement. The page was last edited 29 December
-2025 and read 2026-10-07, and there is no proof claim on its tab. The standing
+2025 and read 2026-10-07, and there was no proof claim on its tab. The standing
 derived from the claim pages is open, since every claim is partial.
 
 The growth of $v(k)$ is fixed at the double-logarithmic scale and not beyond.
@@ -121,7 +121,7 @@ https://www.erdosproblems.com/293, accessed 2026-09-17.
 **Formalization.** No formal-conjectures statement: no file
 `ErdosProblems/293.lean` existed on 2026-09-17, and the pull request of 4
 October 2026 that would add one formalizes the setting only and says it is not
-a solution. The community database (fetched 2026-10-06)
+a solution. The community database (fetched 2026-09-17 and 2026-10-06)
 records the problem as unformalized with no formal-proof URL, and the site's
 status label carried no Lean suffix. The release's Lean proof of the partial
 result, Corollary 1.3, built and audited by the corpus's verification, is
@@ -286,10 +286,10 @@ verified, and nothing below is verified in this corpus.
   examined). The comment discloses AI assistance and allows that $v(6)$ and
   $v(7)$ were perhaps already known.
 - A public AI-assisted report dated 26 July 2026
-  (`erdosproblemaday.com/report/293`) labels itself
-  partial and computational-only, gives $v(1),\ldots,v(7)=2,2,4,11,17,103,733$
-  and $2307\le v(8)\le27539$, and says the asymptotic question remains
-  open. The two sources agree where they overlap.
+  (`erdosproblemaday.com/report/293`, read 2026-09-17) labels itself partial and
+  computational-only, gives $v(1),\ldots,v(7)=2,2,4,11,17,103,733$ and
+  $2307\le v(8)\le27539$, and says the asymptotic question remains open. The two
+  sources agree where they overlap.
 
 **Search scope.** The status rests on the following
 routes; none found a proof, disproof, preprint or claim of the growth

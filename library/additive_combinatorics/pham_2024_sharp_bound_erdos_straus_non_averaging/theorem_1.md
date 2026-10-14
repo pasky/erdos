@@ -26,7 +26,7 @@ form a non-averaging subset of $[q^4]$.
 **Source.** H. T. Pham and D. Zakharov, *Sharp bound for the Erdős--Straus
 non-averaging set problem*, Geom. Funct. Anal. 35 (2025), no. 6,
 1712--1738, DOI 10.1007/s00039-025-00728-8 (published online 3 December
-2025; Crossref record read). The copy read is
+2025; Crossref record read 2026-09-18). The copy read is
 arXiv:2410.14624v2 (10 September 2025, 20 pp.), whose pagination is used
 here; the journal text was not compared. Theorem 1 on p. 2, read in the
 text layer.

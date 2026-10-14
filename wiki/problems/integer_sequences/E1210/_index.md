@@ -44,7 +44,7 @@ https://www.erdosproblems.com/1210.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-10-06).** The statement
 above, labeled OPEN on the site and glossed as not resolvable by a finite
 computation. The site's commentary, in this page's words: in [Er80] Erdős
 says he stated the problem incorrectly in [Er77c], and the [Er77c] problem he

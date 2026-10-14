@@ -146,10 +146,11 @@ and the site labels it "Formalization defect", explaining that "The accepted
 file establishes a result about a faulty formal statement. It does not settle
 the intended mathematical problem." No write-up PDF accompanies the record.
 The record establishes nothing about the problem and is noted so that the
-site's listing of Problem 726 among its results is not misread. The site's two published task bundles for this problem
+site's listing of Problem 726 among its results is not misread. On 2026-09-27
+the site's two published task bundles for this problem
 (`erdos-726-formalized` and `erdos-726-counterexample`, both marked production
-eligible) print the defective type `↑p / 2 < ↑n % ↑p`, pinned to a catalog
-commit that the catalog repository reports as not found; the site's review
+eligible) printed the defective type `↑p / 2 < ↑n % ↑p`, pinned to a catalog
+commit that the catalog repository reported as not found; the site's review
 said the task should be corrected separately, and a future proof of that task
 would again concern the degenerate statement.
 

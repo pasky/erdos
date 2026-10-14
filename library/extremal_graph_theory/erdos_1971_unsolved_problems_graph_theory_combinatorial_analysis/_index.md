@@ -544,10 +544,10 @@ pages, printed p. $n$ = PDF p. $n-96$); its original acquisition date is
 unknown. This selected-item clarification does not review the other twenty-three
 items or their proof status. No notice is printed in the scan; the hosting
 archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved.
-All material on this site is for scientifics purposes only."); the conference
-volume has no online edition, so the publisher's page was not consulted and no
-Crossref license is recorded; the term is unstated.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
+rights reserved. All material on this site is for scientifics purposes only.");
+the conference volume has no online edition, so the publisher's page was not
+consulted and no Crossref license is recorded; the term is unstated.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

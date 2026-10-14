@@ -147,10 +147,10 @@ Problem #576, https://www.erdosproblems.com/576, accessed 2026-09-18.
   paged at
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/problem_36|problem_36]].
 
-**Formalization.** None. No file `ErdosProblems/576.lean`
-exists in formal-conjectures at main; the site's page shows the statement as
+**Formalization.** None. On 2026-09-18, no file `ErdosProblems/576.lean`
+existed in formal-conjectures at main; the site's page showed the statement as
 not formalized ("No (create one)"), and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the problem as open
+(teorth/erdosproblems, `data/problems.yaml`) recorded the problem as open
 (last update 31 August 2025), not formalized, no formal proof.
 
 ## Current assessment
@@ -300,7 +300,7 @@ proof and adds no bound. (4)
 Proof coverage is statements only: displays (4), (5), (10) of [ErSi70] and
 Theorems 1.2, 1.4, 1.5 of [JaSu22] are claims checked, no proof verified. (5)
 The retyped version of [Er81] carries its own pagination, not the journal's. (6)
-There is no Lean statement of the problem.
+There was no Lean statement of the problem on 2026-09-18.
 
 ## Known results
 

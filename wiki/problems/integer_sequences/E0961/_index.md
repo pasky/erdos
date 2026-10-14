@@ -79,14 +79,15 @@ site's note that no finite computation can settle it; last edited 3 April
 
 - [Er76e] Erdős, P., Problems and results on consecutive integers. Publ.
   Math. Debrecen 23 (1976), no. 3--4, 271--282, DOI
-  10.5486/pmd.1976.23.3-4.15 (Crossref record); the
+  10.5486/pmd.1976.23.3-4.15 (Crossref record, accessed 2026-09-18); the
   definition of $f(k)$, the two classical bounds and display (1) on printed
   p. 271; the reference list, printed p. 282. Library home:
   [[../library/primes/erdos_1976_problems_results_consecutive_integers/_index|erdos_1976_problems_results_consecutive_integers]];
   result page
   [[../library/primes/erdos_1976_problems_results_consecutive_integers/inequality_1|display (1)]].
 - [Er34] Erdős, Paul, A theorem of Sylvester and Schur. J. London Math. Soc.
-  9 (1934), no. 4, 282--288, DOI 10.1112/jlms/s1-9.4.282 (Crossref record); the theorem, printed p. 282, its binomial form and
+  9 (1934), no. 4, 282--288, DOI 10.1112/jlms/s1-9.4.282 (Crossref record,
+  accessed 2026-09-18); the theorem, printed p. 282, its binomial form and
   lemma, p. 283. Library home:
   [[../library/factorials_binomials/erdos_1934_theorem_sylvester_schur/_index|erdos_1934_theorem_sylvester_schur]];
   result page
@@ -106,7 +107,7 @@ site's note that no finite computation can settle it; last edited 3 April
   the site.
 - [RaSh73] Ramachandra, K. and Shorey, T. N., On gaps between numbers with a
   large prime factor. Acta Arith. 24 (1973), no. 1, 99--111, DOI
-  10.4064/aa-24-1-99-111 (Crossref record). Not held;
+  10.4064/aa-24-1-99-111 (Crossref record, accessed 2026-09-18). Not held;
   the EuDML record of the paper names a PDF at the ICM digital library.
   Quoted second-hand from [Er76e] and the site. [Er76e]'s reference [15]
   pairs these two papers with
@@ -121,7 +122,7 @@ site's note that no finite computation can settle it; last edited 3 April
 - [OEIS] Sloane, N. J. A., Sequence A213253, The On-Line Encyclopedia of
   Integer Sequences (2012; entry last modified 28 June 2026, server time):
   $f(n)$ for $n\le268$ (b-file from Najman's paper, not consulted here);
-  JSON record read.
+  JSON record read 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/961.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/961.lean)

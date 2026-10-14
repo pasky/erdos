@@ -31,7 +31,8 @@ $O(1.6181^n)$, but this stronger bound can be derived from their proof").
 
 **Source.** S. Gaspers and S. Mackenzie, *On the number of minimal
 separators in graphs*, J. Graph Theory 87 (2018), no. 4, 653--659, DOI
-10.1002/jgt.22179 (published online 13 September 2017; Crossref record read; a conference version in Lecture Notes in Computer Science
+10.1002/jgt.22179 (published online 13 September 2017; Crossref record read
+2026-09-19; a conference version in Lecture Notes in Computer Science
 (2016), 116--121); read in the arXiv preprint arXiv:1503.01203v2 (2 April 2015,
 6 pp.), Theorem 1 and its proof on p. 3, page image. The journal text was
 not compared. The edition read is identified in the

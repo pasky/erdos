@@ -23,9 +23,9 @@ degree three. arXiv:2207.05048 (2022).
 The copy read for this card is arXiv:2207.05048v2 (19 September 2025; 36 pages),
 which postdates the journal version, J. London Math. Soc. (2) 111 (2025), no. 3,
 e70116, DOI 10.1112/jlms.70116 (published online 11 March 2025; Crossref record
-read); the journal text and the preprint were not compared. Locators below are
-arXiv pages. The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2207.05048), every other right reserved.
+read 2026-09-17); the journal text and the preprint were not compared. Locators
+below are arXiv pages. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:2207.05048), every other right reserved.
 
 Read status: claims checked for Theorem 1.1 and the introduction's
 attributions (pp. 1-3, read on the page images); no proof checked.

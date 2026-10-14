@@ -48,11 +48,11 @@ The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1606.03953), every other right reserved.
 
 The journal record is J. Eur. Math. Soc. 21 (2019), no. 12, 3573--3647,
-doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref record read). The copy read
-for this card is arXiv:1606.03953v2 (13 March 2019; "final version (December
-2017)" per the arXiv record), 56 pp., paginated 1--56, not the journal text; the
-locators below are the preprint's pages, and the journal version was not
-compared.
+doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref record read on 2026-09-19).
+The copy read for this card is arXiv:1606.03953v2 (13 March 2019; "final version
+(December 2017)" per the arXiv record), 56 pp., paginated 1--56, not the journal
+text; the locators below are the preprint's pages, and the journal version was
+not compared.
 
 Theorem 1.2 shows that for every Delta there are N and epsilon > 0 such that if
 T_1, ..., T_n are trees with |T_i| = i, n >= N, and Delta(T_i) <= Delta for all

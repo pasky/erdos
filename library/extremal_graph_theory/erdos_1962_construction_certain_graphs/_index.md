@@ -22,7 +22,7 @@ function.
 
 P. Erdős, C. A. Rogers: The construction of certain graphs, Canad. J. Math. 14
 (1962), 702--707 (MR 25 #5010; Zentralblatt 194,253); received October 26,
-1961; doi:10.4153/CJM-1962-060-4 (Crossref record read).
+1961; doi:10.4153/CJM-1962-060-4 (Crossref record read 2026-09-18).
 
 **Edition read.** The copy read for this card is the Rényi archive scan
 `1962-24.pdf` of the six printed pages, PDF p. n = printed

@@ -14,8 +14,8 @@ updated: 2026-10-08T15:43:05Z
 **Source.** Theorem 1, Section 2, p. 2 of arXiv:2502.02200v2
 (23 July 2025), 12 pages; definitions in Section 1, p. 1; proof pp. 2--5
 (Lemmas 1--6). Read on the rendered page image of p. 2 and in the text layer of
-pp. 1--5. Author preprint: the arXiv listing carries no journal reference and no
-journal record was found.
+pp. 1--5. Author preprint: the arXiv listing carried no journal reference (read
+2026-09-18) and no journal record was found.
 
 ## Statement
 
@@ -43,10 +43,10 @@ so $n_\alpha=o(q\log^3q)$ there (p. 1). The paper's
 non-negative reals and every large enough prime $q$ there is a positive rational
 $\alpha=p/q\in I$ with $n_\alpha>0.3\,q\log^2q$, so the paper concludes
 that the upper bound is less than one logarithmic factor from optimal when
-$\alpha$ is bounded away from $0$ (pp. 1, 2 and 5); and $n_\alpha>\tfrac1{18}e^{2\alpha}$
-shows the second term is needed up to the $\epsilon$ (p. 5). Graham's 1963 theorem gives
-$n_1=78$ and the existence of $n_\alpha$ for every positive rational
-$\alpha$ but no bound (p. 1).
+$\alpha$ is bounded away from $0$ (pp. 1, 2 and 5); and
+$n_\alpha>\tfrac1{18}e^{2\alpha}$ shows the second term is needed up to the
+$\epsilon$ (p. 5). Graham's 1963 theorem gives $n_1=78$ and the existence of
+$n_\alpha$ for every positive rational $\alpha$ but no bound (p. 1).
 
 ## Proof pointer and sketch
 

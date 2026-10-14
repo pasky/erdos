@@ -104,7 +104,7 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/question_p144|question_p144]].
 - [Th74] Thomassen, Carsten, A minimal condition implying a special
   $K_4$-subdivision in a graph. Arch. Math. (Basel) 25 (1974), no. 1,
-  210--215, doi:10.1007/BF01238666 (Crossref record;
+  210--215, doi:10.1007/BF01238666 (Crossref record accessed 2026-09-19;
   issued December 1974). The Introduction with Erdős's suggestion, p. 210;
   the definition of property $p$ and Lemma 2, p. 211; the Theorem, p. 212;
   the Corollary, p. 215. Library home:
@@ -113,8 +113,9 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]].
 - [Ca23] Carmesin, Johannes, Characterising graphs with no subdivision of a
   wheel of bounded diameter. J. Combin. Theory Ser. B 161 (2023), 21--51,
-  doi:10.1016/j.jctb.2023.01.004 (open access, CC BY; Crossref record). Not a
-  site key. The attestation, p. 22; its reference [16] is [Th74]. Library home:
+  doi:10.1016/j.jctb.2023.01.004 (open access, CC BY; Crossref record accessed
+  2026-09-19). Not a site key. The attestation, p. 22; its reference [16] is
+  [Th74]. Library home:
   [[../library/extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/_index|carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter]];
   paged at
   [[../library/extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|related_results_p22]].
@@ -133,13 +134,13 @@ accessed 2026-09-19.
 
 **Formalization.** None in the collection. No file `ErdosProblems/916.lean`
 was in formal-conjectures when its directory
-`FormalConjectures/ErdosProblems/` was listed (682 entries); the site's page
-shows "Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml`) records
-the problem proved (last update 31 August 2025), unformalized, with no
-formalized statement and no formal-proof field. An external Lean
-development the catalog does not cite is described under Leads and linked
-from Thomassen's claim page.
+`FormalConjectures/ErdosProblems/` was listed on 2026-09-19 (682 entries); the
+site's page shows "Formalised statement? No (create one)"; the community
+database (teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-19)
+records the problem proved (last update 31 August 2025), unformalized, with no
+formalized statement and no formal-proof field. An external Lean development the
+catalog does not cite is described under Leads and linked from Thomassen's claim
+page.
 
 ## Current assessment
 

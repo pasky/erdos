@@ -20,7 +20,7 @@ non-dividing sets from above.
 Huy Tuan Pham, Dmitrii Zakharov, Sharp bound for the Erdős-Straus non-averaging
 set problem. Geom. Funct. Anal. 35 (2025), no. 6, 1712--1738, DOI
 10.1007/s00039-025-00728-8 (published online 3 December 2025; Crossref record
-read). arXiv:2410.14624. The arXiv record names arXiv's non-exclusive
+read 2026-09-18). arXiv:2410.14624. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2410.14624), every other right reserved; that is the
 term of the arXiv v2 read here. The journal's version of record is under the
 Creative Commons Attribution 4.0 license: its Crossref record

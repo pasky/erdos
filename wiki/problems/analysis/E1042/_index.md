@@ -71,7 +71,7 @@ https://www.erdosproblems.com/1042.
 
 ## Current assessment
 
-The site's formulation asks two things of a closed set $F$
+The site's formulation (accessed 2026-09-04) asks two things of a closed set $F$
 of transfinite diameter (logarithmic capacity) $1$ that lies in no closed disc
 of radius $1$: whether $\{|f|<1\}$ can have $n$ components for a monic $f$ of
 degree $n$ with zeros in $F$, and whether capacity below $1$ forces at most

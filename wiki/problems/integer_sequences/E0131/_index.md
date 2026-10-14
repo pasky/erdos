@@ -137,8 +137,8 @@ accessed 2026-09-18.
   time), with a table of $F(N)$ for $N\le100$ by C. Sievers.
 
 **Formalization.** None found on 2026-09-18: the problem page's indicator
-says the statement is not formalized; there is no `ErdosProblems/131.lean`
-in formal-conjectures (main branch, and 2026-10-07); the
+says the statement is not formalized; there was no `ErdosProblems/131.lean`
+in formal-conjectures (main branch, on 2026-09-18 and 2026-10-07); the
 community database records the problem open, the statement not formalized
 and `formal_status` unformalized.
 

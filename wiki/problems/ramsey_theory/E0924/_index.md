@@ -101,11 +101,11 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
   [ErHa67]. Not held.
 
 **Formalization.** None. No file `ErdosProblems/924.lean` was in
-formal-conjectures when its directory on `main` was listed (672 entries). The
-community database records the problem proved (its record last updated 31
-August 2025), not formalized,
-`formal_status` unformalized and no formal proof; the site's indicator reads
-"Formalised statement? No".
+formal-conjectures when its directory on `main` was listed on 2026-09-18 (672
+entries). The community database, read 2026-09-18, records the problem proved
+(its record last updated 31 August 2025), not formalized, `formal_status`
+unformalized and no formal proof; the site's indicator reads "Formalised
+statement? No".
 
 ## Current assessment
 
@@ -114,8 +114,8 @@ glossed by the site as solved in the affirmative; no last-edited date. The
 commentary attributes the question to Erdős and Hajnal, credits Folkman [Fo70]
 with the case $k=2$ and Nešetřil and Rödl [NeRo76] with general $k$, and points
 to Problem 582 as a special case and Problem 966 as an arithmetic analog. The
-discussion thread and the proof-claim tab are empty. The community database
-records proved and unformalized.
+discussion thread and the proof-claim tab are empty. The community database,
+read 2026-09-18, records proved and unformalized.
 
 **The origin.** Erdős 1969 [Er69b], printed p. 33: "One final problem of Hajnal
 and myself: Is it true that for every $l\ge3$ and $k\ge2$ there is a graph $G$

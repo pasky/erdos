@@ -37,26 +37,27 @@ Vértesi, On the almost everywhere divergence of Lagrange interpolatory
 polynomials for arbitrary system of nodes, Acta Math. Acad. Sci. Hungar. 36
 (1980), 71-89, including a corrected passage at page 88, line 15 (referring to
 4.4.4) that introduces the polynomial phi_1(f_1) of degree at most N_1 with norm
-at most 32, and sign or index fixes such as W as an intersection over k of unions over
-t >= k, rather than a union of unions, at (4.57) and rho_k = 2^{-k}, A_k > k^3 lambda^2_{N_{k-1}} in place of
-delta_k = 2^{-k}, A_k > k_e lambda^2_{N_{k-1}} at page 88, line 16. It contains
-no new mathematics. The file read for this card bundles the full original 1980
-paper (pp. 71-89) ahead of the correction, and that paper proves in detail
-Erdős's earlier claim that for any triangular node matrix in [-1,1] there is a
-continuous F on [-1,1] whose Lagrange interpolation polynomials L_n(F,X,x)
-diverge almost everywhere, with limsup |L_n(F,X,x)| = infinity for almost all
-x, following Faber, Bernstein, Grünwald, Marcinkiewicz and Privalov. Its
-introduction also flags the companion claim, still unproved there, that there is
-a node system for which every continuous f has some point x_0 with L_n(f,x_0) ->
-f(x_0) even though the Lebesgue function at x_0 is unbounded; that unproved
-claim is an affirmative answer to the first question of problem 671, so the correction bears on problem
+at most 32, and sign or index fixes such as W as an intersection over k of
+unions over t >= k, rather than a union of unions, at (4.57) and rho_k = 2^{-k},
+A_k > k^3 lambda^2_{N_{k-1}} in place of delta_k = 2^{-k}, A_k > k_e
+lambda^2_{N_{k-1}} at page 88, line 16. It contains no new mathematics. The file
+read for this card bundles the full original 1980 paper (pp. 71-89) ahead of the
+correction, and that paper proves in detail Erdős's earlier claim that for any
+triangular node matrix in [-1,1] there is a continuous F on [-1,1] whose
+Lagrange interpolation polynomials L_n(F,X,x) diverge almost everywhere, with
+limsup |L_n(F,X,x)| = infinity for almost all x, following Faber, Bernstein,
+Grünwald, Marcinkiewicz and Privalov. Its introduction also flags the companion
+claim, still unproved there, that there is a node system for which every
+continuous f has some point x_0 with L_n(f,x_0) -> f(x_0) even though the
+Lebesgue function at x_0 is unbounded; that unproved claim is an affirmative
+answer to the first question of problem 671, so the correction bears on problem
 671 only through the paper it corrects.
 
 Source: <https://users.renyi.hu/~p_erdos/1981-03.pdf>. The file, a scan of the
 1980 paper (pp. 71--89) with the 1981 correction page (p. 263), prints only the
 journal header and affiliations and no copyright or license line on pp. 71--72,
 89 and the correction; the hosting archive's site footer speaks for the site,
-not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007
+not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007
 All rights reserved. All material on this site is for scientifics purposes
 only."); the card records no DOI, no Crossref record was available, and the
 publisher's page was not consulted; the term is unstated.
@@ -80,12 +81,13 @@ lines of the proof.
 - Errata table (p. 263): Seventeen read/instead-of corrections to lines on
   pages 74-88 of the 1980 paper, including the replacement passage for the
   polynomial phi_1(f_1) at page 88, line 15 (see 4.4.4), W as an intersection
-  over k of unions over t >= k at (4.57), and rho_k = 2^{-k} with A_k > k^3 lambda^2_{N_{k-1}} at
-  page 88, line 16.
+  over k of unions over t >= k at (4.57), and rho_k = 2^{-k} with A_k > k^3
+  lambda^2_{N_{k-1}} at page 88, line 16.
 - [[analysis/erdos_1981_correction_misprints_our_paper_almost_everywhere/theorem|Corrected paper's main theorem]]
-  (1980, Theorem, p. 73; announced by Erdős and recalled on p. 71): For any triangular matrix of nodes in [-1,1] there is a
-  continuous F on [-1,1] whose Lagrange interpolation polynomials diverge almost
-  everywhere, with limsup |L_n(F,X,x)| = infinity for almost all x.
+  (1980, Theorem, p. 73; announced by Erdős and recalled on p. 71): For any
+  triangular matrix of nodes in [-1,1] there is a continuous F on [-1,1] whose
+  Lagrange interpolation polynomials diverge almost everywhere, with
+  limsup |L_n(F,X,x)| = infinity for almost all x.
 - [[analysis/erdos_1981_correction_misprints_our_paper_almost_everywhere/conjecture_p71|Open claim noted in the 1980 introduction]]
   (p. 71): The authors state they
   cannot prove Erdős's earlier assertion that there is a node system for which,

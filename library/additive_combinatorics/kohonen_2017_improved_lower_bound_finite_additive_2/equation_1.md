@@ -37,7 +37,7 @@ $\liminf n(k)/k^2\ge2/7>0.2857$.
 2-bases*, arXiv:1606.04770v2 (10 January 2017, "Author's final version";
 6 pp., the copy read for this page), equation (1) and the definitions on
 p. 1, read in the text layer; J. Number Theory 174 (2017), 518--524, DOI
-10.1016/j.jnt.2016.11.011 (Crossref record read), the journal
+10.1016/j.jnt.2016.11.011 (Crossref record read 2026-09-18), the journal
 text not compared.
 
 **Read depth.** Claims checked: the definitions, equation (1) and the

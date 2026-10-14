@@ -31,9 +31,9 @@ is $p$?
 
 **Status.** Open, the site's label (OPEN). The site marked the problem as not
 decidable by a finite computation. Its proof-claims tab carries one partial
-proof claim, submitted 2026-07-25, which has had no response. That claim settles
-no case of the question and gets no claim page. The Current assessment records
-it with the reason.
+proof claim, submitted 2026-07-25, which had no response on 2026-10-06. That
+claim settles no case of the question and gets no claim page. The Current
+assessment records it with the reason.
 
 **Source.** [erdosproblems.com/383](https://www.erdosproblems.com/383), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #383,

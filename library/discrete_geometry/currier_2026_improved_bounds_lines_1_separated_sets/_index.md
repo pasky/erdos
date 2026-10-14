@@ -52,8 +52,8 @@ Gabriel Currier, Param Mody, Zehan Xie, and Jiaming Zhang,
 ## Source version
 
 The copy read for this card is v2, submitted August 31, 2026, with a printed
-date of September 2026, thirteen pages. The arXiv record was checked and still
-lists this version as current. The older eleven-page v1, submitted June 15, was
+date of September 2026, thirteen pages. On 2026-09-05 the arXiv record
+listed this version as current. The older eleven-page v1, submitted June 15, was
 also read for the comparison below. All citations below use v2 labels and
 matching printed/PDF page numbers. The arXiv record names arXiv's non-exclusive
 distribution license for v2 (arXiv:2606.17194v2), every other right reserved.
@@ -164,13 +164,13 @@ Their original proofs remain separate compilation work.
 
 ## Evidence limits
 
-The primary arXiv record and both main statements were checked. This source is a
-preprint; no journal publication or external refereeing is inferred. Bounded
-searches did not identify a later primary replacement for the planar endpoint.
-That search is not an exhaustive claim of priority or proof that the exact
-minimum is still unknown. No complete Lean solution for these results was found
-or built in this source unit. The exact calculations above do not constitute
-formal verification.
+The primary arXiv record was checked on 2026-09-05; both main statements were
+also checked. This source is a preprint; no journal publication or external
+refereeing is inferred. Bounded searches did not identify a later primary
+replacement for the planar endpoint. That search is not an exhaustive claim of
+priority or proof that the exact minimum is still unknown. No complete Lean
+solution for these results was found or built in this source unit. The exact
+calculations above do not constitute formal verification.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]],
 [[../wiki/problems/distance_problems/E0214/_index|Problem 214]].

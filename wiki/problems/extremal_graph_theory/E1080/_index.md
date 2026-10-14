@@ -103,7 +103,7 @@ F. Bloom, Erdős Problem #1080, https://www.erdosproblems.com/1080, accessed
   $6$-cycle free bipartite graphs on $m,n$ vertices. In: Sets, graphs and
   numbers (G. Halász et al., eds.; a birthday salute to Vera T. Sós and András
   Hajnal), Colloq. Math. Soc. János Bolyai 60, North-Holland, Amsterdam (1992),
-  135--142 (zbMATH record Zbl 0795.05083; the site's
+  135--142 (zbMATH record Zbl 0795.05083, accessed 2026-09-18; the site's
   reference text gives "(1992), 135--142" with no venue). Not held: Crossref
   has no record of the chapter, and no open copy has been identified (the
   route tried is recorded under Search scope). Its results are quoted from
@@ -111,8 +111,8 @@ F. Bloom, Erdős Problem #1080, https://www.erdosproblems.com/1080, accessed
 - [LUW94] Lazebnik, F., Ustimenko, V. A. and Woldar, A. J., New constructions
   of bipartite graphs on $m,n$ vertices with many edges and without small
   cycles. J. Combin. Theory Ser. B 61 (1994), no. 1, 111--117,
-  doi:10.1006/jctb.1994.1036 (the Crossref record lists the
-  publisher's open-access user license among the article's licenses). Not
+  doi:10.1006/jctb.1994.1036 (the Crossref record, accessed 2026-09-18, lists
+  the publisher's open-access user license among the article's licenses). Not
   held, although that license suggests a free copy at the publisher; no open
   copy has been fetched (the route tried is recorded under Search scope). Its
   bound is quoted from the site.
@@ -175,7 +175,7 @@ vertices, the exponent the site attributes to [LUW94] (an arithmetic remark,
 not a statement of the file). The repository's copies of the file for later
 toolchains are not described here. The corpus has not built, audited or
 kernel-checked the file and claims no credit for it. The community database
-(teorth/erdosproblems, `data/problems.yaml`) lists, as of
+(teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-18) lists, as of
 its last update on 28 December 2025, `status` "disproved (Lean)",
 `formal_status` Lean with no URL, the statement formalized since 11 December
 2025, and OEIS "possible"; the site's indicator reads "Yes".

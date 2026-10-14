@@ -137,7 +137,7 @@ prime.
 
 Search scope: the site's problem page, its discussion thread, the community
 database and the formal-conjectures file; the site listed no proof claim for
-the problem on 2026-10-07.
+the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

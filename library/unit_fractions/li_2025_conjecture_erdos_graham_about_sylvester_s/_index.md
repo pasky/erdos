@@ -47,12 +47,12 @@ underapproximation and adds a final section of open problems). The arXiv
 journal reference and DOI point to Z. Li and Q. Tang, *Generalizing a
 conjecture of Erdős and Graham via best Egyptian underapproximations*, Acta
 Math. Hungar. 177 (2025), no. 1, 41--63, DOI 10.1007/s10474-025-01566-8,
-published online 13 October 2025 (the Crossref record).
+published online 13 October 2025 (the Crossref record, read 2026-09-18).
 That paper is not this preprint under a new title: its abstract says the
 conjecture was resolved constructively by Kamio and independently by the
 authors and that the paper treats the non-constructive generalization, and
 its reference list cites arXiv:2503.12277 as a separate item (the Semantic
-Scholar and Crossref records). The published text was not
+Scholar and Crossref records, read 2026-10-07). The published text was not
 obtained or compared, and the labels below are the preprint's. Read status:
 claims checked. Conjecture 1.3, Definition 1.4, Theorems 1.5 and 1.6 and
 Corollary 1.7 (pp. 3--4) were read clause by clause on the rendered page

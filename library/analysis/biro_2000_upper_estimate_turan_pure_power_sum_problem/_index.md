@@ -22,7 +22,7 @@ Harcos's choice of parameter gives 0.69368.
 
 A. Biró, *An upper estimate in Turán's pure power sum problem*, Indag.
 Math. (N.S.) **11** (2000), no. 4, 499--508; DOI
-10.1016/S0019-3577(00)80018-X (Crossref record read (UTC)).
+10.1016/S0019-3577(00)80018-X (Crossref record read 2026-09-17 (UTC)).
 Communicated by Prof. R. Tijdeman at the meeting of September 25, 2000;
 received July 2000; the issue head is dated December 18, 2000.
 
@@ -94,12 +94,12 @@ lower-bound paper of the same year has its own card.
 
 **Bears on.** [[../wiki/problems/analysis/E0519/_index|#519]]: the problem
 asks whether an absolute $c>0$ lies below the largest modulus of the first
-$n$ power sums whenever $z_1=1$, and $R_n$ is the least value of that modulus. The
-paper gives upper estimates only: $\limsup R_n<1$ (the
+$n$ power sums whenever $z_1=1$, and $R_n$ is the least value of that modulus.
+The paper gives upper estimates only: $\limsup R_n<1$ (the
 [[analysis/biro_2000_upper_estimate_turan_pure_power_sum_problem/theorem|Theorem]]),
-$R_n<5/6$ for large $n$, so no $c\ge5/6$ works for all large $n$, and
-Harcos's reported computation $\limsup R_n<0.69368$. It proves no lower
-bound and does not answer the question.
+$R_n<5/6$ for large $n$, so no $c\ge5/6$ works for all large $n$, and Harcos's
+reported computation $\limsup R_n<0.69368$. It proves no lower bound and does
+not answer the question.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

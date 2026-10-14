@@ -46,7 +46,7 @@ arithmetic check made here, agreeing with the paper's $0.93301$).
 of monochromatic subset sums, arXiv:2105.15195v3 (22 September 2022),
 9 pp., Theorem 1 on p. 2, the definitions on pp. 1--2; read on the page
 images and in the text layer. Published as Mathematika 68 (2022), no. 4,
-1292--1301, DOI 10.1112/mtk.12167 (Crossref record read:
+1292--1301, DOI 10.1112/mtk.12167 (Crossref record read 2026-09-18:
 published online 10 October 2022); the journal text was not compared, so
 the locators are those of the preprint.
 

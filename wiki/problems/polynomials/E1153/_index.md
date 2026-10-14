@@ -49,8 +49,8 @@ ordinary-Lagrange setting. One may reorder them as $-1\le x_1<\cdots<x_n\le1$
 without changing $\lambda$. The interval $[a,b]$ has positive length and is
 fixed independently of $n$.
 
-**Status.** Proved. The catalog labeled the problem PROVED (page last edited 1
-April 2026, accessed 2026-10-07) and credits Tao [Ta26b]. The frontmatter
+**Status.** Proved. The catalog credits Tao [Ta26b] (page last edited 1 April
+2026, accessed 2026-10-07) and labeled the problem PROVED. The frontmatter
 standing (solved, proved) derives from the accepted claim page
 [[problems/polynomials/E1153/claims/2026_03_23_tao|Tao 2026]]. The
 status-defining source is Tao's arXiv:2603.21453v3 preprint, Theorem 1.10(i),
@@ -93,7 +93,7 @@ Boris Alexeev's `lean-proofs` repository holds `Erdos1153.lean` (added
 2026-08-20), which declares itself a formalization of Tao's solution and proves
 the $\varepsilon$ form of the question; it is linked on
 [[problems/polynomials/E1153/claims/2026_03_23_tao|Tao 2026]], and this corpus
-has not built it. The site's proof-claims page lists Ethan
+has not built it. The site's proof-claims page, accessed 2026-09-06, lists Ethan
 Yang using GPT-5.6 Sol, submitted 31 August 2026, with an
 [alternative proof claim](https://github.com/ethn-y/erdos-1153-lean/blob/main/PROOF.md)
 and a [Lean repository link](https://github.com/ethn-y/erdos-1153-lean). The
@@ -101,8 +101,9 @@ site gives no guarantee of the claim's correctness and states that nobody
 associated with it has examined any part. The claim page
 [[problems/polynomials/E1153/claims/2026_08_31_yang|Yang 2026]] pins the
 repository's only commit (2026-08-31) and records the repository's own
-description of its theorem target, toolchain and expected axioms; no reproduction of the build or the axiom report and no audit of the
-statement is recorded. The claim is unreviewed, with no formal coverage.
+description of its theorem target, toolchain and expected axioms; no
+reproduction of the build or the axiom report and no audit of the statement is
+recorded. The claim is unreviewed, with no formal coverage.
 
 ## Current assessment
 
@@ -160,7 +161,7 @@ The
 source-statement and transfer record]] supplies the complete bounded deduction.
 Tao’s own proof is not compiled in this corpus. The v3 PDF read for the
 source card has the arXiv date 22 April 2026; its separate title-page author
-date is 23 April. The arXiv API response read identifies
+date is 23 April. The arXiv API response read on 6 September 2026 identifies
 v3 and does not establish journal acceptance.
 
 The

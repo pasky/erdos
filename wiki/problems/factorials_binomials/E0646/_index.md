@@ -40,11 +40,10 @@ label refers to is third-party work and is not built here.
 
 **Source.** [erdosproblems.com/646](https://www.erdosproblems.com/646), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 28 December 2025; on the
-later date its discussion thread held two posts and its proof-claims page
-listed no claim). The
-site cites the problem from p. 77 of Erdős and Graham's 1980 problem book and
-from Erdős's 1997 survey [Er97e]. Cite as: T. F. Bloom, Erdős Problem #646,
-https://www.erdosproblems.com/646.
+later date its discussion thread held two posts); its proof-claims page listed
+no claim. The site cites the problem from p. 77 of Erdős and Graham's 1980
+problem book and from Erdős's 1997 survey [Er97e]. Cite as: T. F. Bloom, Erdős
+Problem #646, https://www.erdosproblems.com/646.
 
 **References.**
 

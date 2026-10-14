@@ -46,7 +46,7 @@ Newman's n^{2/3-o(1)} for large d.
 
 Alon, Noga and Bukh, Boris and Sudakov, Benny, Discrete Kakeya-type problems and
 small bases. Israel J. Math. 174 (2009), no. 1, 285--301, DOI
-10.1007/s11856-009-0115-9 (Crossref record read).
+10.1007/s11856-009-0115-9 (Crossref record read 2026-09-18).
 
 For a finite group $G$, call $U\subseteq G$ $k$-universal when every
 $k$-element subset of $G$ has a left translate inside $U$, and $k$-universal

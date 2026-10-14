@@ -44,7 +44,7 @@ Capture plug-in and a February 2003 creation date) with an OCR text layer
 that locates passages and garbles the displays (subscripts, inequality
 signs, ceilings and square roots come out as stray characters). No preprint
 or later version is known here.
-Provenance: the copy was downloaded free of charge from the
+Provenance: the copy was downloaded free of charge on 2026-09-22 from the
 publisher's open archive, the DOI
 <https://doi.org/10.1016/0012-365X(95)00340-3> resolving to the article's
 PDF on ScienceDirect (PII 0012365X95003403); 164,583 bytes. The article

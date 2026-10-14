@@ -51,10 +51,10 @@ DOI: [10.4064/aa110-3-3](https://doi.org/10.4064/aa110-3-3).
 The canonical
 [published PDF](crootiii_2003_non_intersecting_arithmetic_progressions.pdf)
 is the six-page journal version, acquired from the
-[publisher](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/110/3/82874/on-non-intersecting-arithmetic-progressions)
-on 5 September 2026. The publisher lists a free download under CC-BY.
-The published PDF prints no copyright or license line; the publisher's article
-page offers the PDF "Free download under CC-BY license", naming no version
+[publisher](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/110/3/82874/on-non-intersecting-arithmetic-progressions).
+The publisher lists a free download under CC-BY. The published PDF prints no
+copyright or license line; the publisher's article page offers the PDF "Free
+download under CC-BY license", naming no version
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/110/3/82874/on-non-intersecting-arithmetic-progressions,
 read 2026-10-02), and its footer "Copyright © 2026 by IMPAN. All rights
 reserved." speaks for the site, not the paper. For the arXiv v1 PDF, the arXiv

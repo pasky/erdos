@@ -100,8 +100,9 @@ of formal-conjectures (main, 2026-09-17, at the commit linked) declares
 ℝ)) atTop (nhds L) ∧ L > 1 + c` under `category research open`, with proof
 `sorry`; a thread comment of 23 March 2026 says the statement was being
 contributed to the collection through a pull request at that time. The community
-database records the problem open (last update 13 September 2025), the statement
-formalized since 9 September 2026, and no formal proof. Nothing was built.
+database (read 2026-09-17) records the problem open (last update 13 September
+2025), the statement formalized since 9 September 2026, and no formal proof.
+Nothing was built.
 
 ## Current assessment
 

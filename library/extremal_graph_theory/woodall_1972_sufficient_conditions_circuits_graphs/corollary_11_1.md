@@ -58,20 +58,19 @@ on $n$ vertices, with more edges than $G_4(n,r)$, must contain a circuit of
 length $n-r$ (see [5], Problem 4)."
 
 **[[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/theorem_11|Theorem 11]]**
-(printed pp. 747--748), of which the corollary is the case $k=0$. Write $f(n,k)=\binom{n-k}2+\binom{k+1}2$ and
-$f(n,k,r)=\binom{n-k-r}2+k(k+r)$ (p. 747; the paper had used the name
-$f(n,k)$ on p. 742 for Theorem 4's different bound). An undirected graph
-$G$ on $n\ge r+3$ vertices, each of valency at least $k$, has a circuit of
-every length $d$ with $3\le d\le n-r$ once its number of edges reaches the
-bound of its case: when $n\ge2r+3$, $f(n,r+1)+1$ for
-$k\le r+1$ (A1), $\max\{f(n,k),f(n,k,r),f(n,[\frac12(n-r-1)],r)\}+1$ for
+(printed pp. 747--748), of which the corollary is the case $k=0$. Write
+$f(n,k)=\binom{n-k}2+\binom{k+1}2$ and $f(n,k,r)=\binom{n-k-r}2+k(k+r)$ (p. 747;
+the paper had used the name $f(n,k)$ on p. 742 for Theorem 4's different bound).
+An undirected graph $G$ on $n\ge r+3$ vertices, each of valency at least $k$,
+has a circuit of every length $d$ with $3\le d\le n-r$ once its number of edges
+reaches the bound of its case: when $n\ge2r+3$, $f(n,r+1)+1$ for $k\le r+1$
+(A1), $\max\{f(n,k),f(n,k,r),f(n,[\frac12(n-r-1)],r)\}+1$ for
 $r+1\le k<\frac12(n-r)$ (A2), $f(n,k)+1$ for
-$\max\{r+1,\frac12(n-r)\}\le k<\frac12n$ (A3), $[\frac14n^2]+1$ for
-$k=\frac12n$ (A4), and no bound for $k>\frac12n$ (A5); when $n<2r+3$,
-$[\frac14n^2]+1$ for $k\le\frac12n$ (B1) and no bound for $k>\frac12n$
-(B2). At $k=0$ the cases are A1, whose bound
-$f(n,r+1)+1=\binom{n-r-1}2+\binom{r+2}2+1$ is the corollary's first bound,
-and B1, whose bound is the second.
+$\max\{r+1,\frac12(n-r)\}\le k<\frac12n$ (A3), $[\frac14n^2]+1$ for $k=\frac12n$
+(A4), and no bound for $k>\frac12n$ (A5); when $n<2r+3$, $[\frac14n^2]+1$ for
+$k\le\frac12n$ (B1) and no bound for $k>\frac12n$ (B2). At $k=0$ the cases are
+A1, whose bound $f(n,r+1)+1=\binom{n-r-1}2+\binom{r+2}2+1$ is the corollary's
+first bound, and B1, whose bound is the second.
 
 **In Problem 1012's notation.** The problem's $k$ is the paper's $r$. The
 first bound at $r=k$ is the problem's edge count

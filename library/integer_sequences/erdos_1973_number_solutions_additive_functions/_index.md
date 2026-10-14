@@ -68,7 +68,8 @@ holds in that different setting. The cited Schinzel-Szekeres proof is not
 reconstructed here.
 
 For [[../wiki/problems/integer_sequences/E0786/_index|#786]], these are level-set bounds, not
-statements about every product-length set. The site's full commentary proposes an additive-function representation for the
+statements about every product-length set. The site's full commentary (accessed
+2026-09-04) proposes an additive-function representation for the
 repetitions-allowed condition. A bound would require only
 $A\subseteq\{n:f(n)=1\}$; neither this representation nor an analog for the
 distinct-factor condition is proof-reviewed here. Theorem 4's omitted upper

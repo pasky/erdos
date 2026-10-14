@@ -62,7 +62,7 @@ author and is linked from the claim page. It was not built here.
 
 ## Current assessment
 
-The site's formulation asks how large a union-free
+The site's formulation (accessed 2026-09-04) asks how large a union-free
 family of subsets of $[n]$ can be, whether it must be $o(2^n)$, and whether
 it is at most $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$. The answer to both
 questions is yes:

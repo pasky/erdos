@@ -28,8 +28,8 @@ he knew of no results.
 P. Erdős, *Problems and results in graph theory and combinatorial analysis*,
 Proceedings of the Fifth British Combinatorial Conference (Univ. Aberdeen,
 Aberdeen, 1975), Congressus Numerantium XV, Utilitas Math., Winnipeg (1976),
-169--192; MR 409246. The site's reference key Er76b (its reference text read).
-The author's address on p. 169 is "University of Cambridge".
+169--192; MR 409246. The site's reference key Er76b (its reference text read
+on 2026-09-18). The author's address on p. 169 is "University of Cambridge".
 
 **Copy read.** The copy read for this card is the Rényi archive's scan
 `1976-36.pdf`: 24 pages, an image scan of the
@@ -39,7 +39,7 @@ CONF. 1975, pp. 169--192" on p. 1 and the printed page number "- 192 -" on the
 last page, so printed p. $n$ is PDF p. $n-168$. Provenance: retrieved from
 <https://users.renyi.hu/~p_erdos/1976-36.pdf> on 2026-09-18; 2,828,985 bytes. No
 notice is printed in the scan; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, prints
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
 "(C) 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); the proceedings volume has no publisher page, so the
 publisher's page was not consulted and no Crossref license is recorded; the term
@@ -124,7 +124,7 @@ and determines $f(n;3,1)$ for every $n$ in (2); transcribed under Contents
 above.
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: the end of Problem 29,
 printed pp. 191--192 = PDF pp. 23--24 (page images), a source the site does
-not cite for this problem (its keys there, are Er64c, Er69b
+not cite for this problem (its keys there, read 2026-10-07, are Er64c, Er69b
 and Er75). The paper defines $g_i(n)$ in the words "Denote by $g_i(n)$ the
 smallest integer for which every $G(n;g_i(n))$ contains a $C_\ell$ with at
 least $i$ diagonals emanating from one of its vertices" (p. 191), records

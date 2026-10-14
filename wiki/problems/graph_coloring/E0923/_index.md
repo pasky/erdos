@@ -50,7 +50,7 @@ to the Lean proof the claim page links.
 
 ## Current assessment
 
-The site's formulation asks whether for every $k$ there
+The site's formulation (accessed 2026-09-04) asks whether for every $k$ there
 is $f(k)$ such that every graph of chromatic number at least $f(k)$ contains a
 triangle-free subgraph of chromatic number at least $k$. The answer is yes:
 Rödl [Ro77] proved it in a refereed paper, and the site's curator credits that

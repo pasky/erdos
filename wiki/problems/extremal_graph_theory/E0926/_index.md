@@ -81,7 +81,7 @@ https://www.erdosproblems.com/926.
 - [AKS03] Alon, Noga and Krivelevich, Michael and Sudakov, Benny, Turán numbers
   of bipartite graphs and related Ramsey-type questions. Combin. Probab. Comput.
   12 (2003), no. 5--6, 477--494, doi:10.1017/S0963548303005741 (Crossref
-  record; the issue is dated November 2003). Theorem 6.1
+  record accessed 2026-10-07; the issue is dated November 2003). Theorem 6.1
   (p. 491), Section 6 (pp. 491--493); result page
   [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_6_1|theorem_6_1]].
   Library home:
@@ -108,13 +108,14 @@ is a `formalization` link on
 this project has not built it, so no `formalized` evidence is listed. The
 statement file also states the variant `erdos_926.variants.aks`, the bound
 $\mathrm{ex}(n;H_k)\le Ckn^{3/2}$ with an absolute constant $C$, with no proof
-link. The community database (teorth/erdosproblems, `data/problems.yaml`)
-records the statement formalized since 2026-09-20, with `formal_status`
-unformalized, and the site's indicator reads "Formalised statement? Yes".
+link. The community database (teorth/erdosproblems, `data/problems.yaml`,
+accessed 2026-10-07) records the statement formalized since 2026-09-20, with
+`formal_status` unformalized, and the site's indicator reads "Formalised
+statement? Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-10-07).** The statement above;
+**The question (site formulation).** The statement above;
 PROVED; last edited 5 October 2025; source keys [Er69b], [Er71, p. 103],
 [Er74c, p. 79], [Er93, p. 334]. The commentary, in this page's words: the
 lower bound of order $n^{3/2}$ is trivial, since $H_k$ contains a 4-cycle for

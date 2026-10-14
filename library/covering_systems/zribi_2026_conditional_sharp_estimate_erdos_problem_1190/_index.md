@@ -32,7 +32,7 @@ September 2026; the problem page links a Google Drive copy at
 <https://drive.google.com/file/d/1QcMV27Haw0_jvH17X1H3yofy7D6j1LVQ/view>,
 and whether the copy read was downloaded from that address was not
 recorded. No other version is known here. No notice is printed in
-that PDF, no arXiv record for the note was found (query read), and
+that PDF, no arXiv record for the note was found (query read 2026-10-02), and
 the Google Drive copy the problem page links states no terms; the term is
 unstated.
 
@@ -80,8 +80,8 @@ attributes to Ho's manuscript
 the note neither proves it nor depends on how it is proved. Nothing here is
 independently reviewed.
 
-**Bears on.** [[../wiki/problems/covering_systems/E1190/_index|#1190]]: Theorem 1
-derives $\epsilon_m=L(m)^{-1+o(1)}$ for the problem's $\epsilon_m$ from the
+**Bears on.** [[../wiki/problems/covering_systems/E1190/_index|#1190]]: Theorem
+1 derives $\epsilon_m=L(m)^{-1+o(1)}$ for the problem's $\epsilon_m$ from the
 assumed asymptotic $f(N)=NL(N)^{-1+o(1)}$ of
 [[../wiki/problems/covering_systems/E0202/_index|Problem 202]], which the note
 does not prove; it gives no bound on $\epsilon_m$ without that hypothesis.

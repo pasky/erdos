@@ -26,7 +26,7 @@ $\epsilon$. Is there a graph on $n$ vertices with $\geq n^2/8$ many edges which
 contains no $K_4$ such that the largest independent set has size at most
 $\epsilon n$?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
 last-edited date). The question is: for every
 $\epsilon>0$ there is $n_0(\epsilon)$ such that for every $n\ge n_0$ some
 $K_4$-free graph on $n$ vertices has at least $n^2/8$ edges and independence
@@ -105,8 +105,9 @@ https://www.erdosproblems.com/22, accessed 2026-09-18.
   'Some of my favourite unsolved problems'".
 - [Cs25] Csaba, B., On the Ramsey-Turán problem for 4-cliques.
   arXiv:2503.00644v1 (1 March 2025), 12 pp.; SIAM J. Discrete Math. 39
-  (2025), no. 2, 1201--1212, doi:10.1137/23M1619794 (Crossref record read; the journal text is not held). Theorem 1.3, p. 2 of the
-  preprint. Context on the critical window; the preprint is filed as
+  (2025), no. 2, 1201--1212, doi:10.1137/23M1619794 (Crossref record read
+  2026-09-18; the journal text is not held). Theorem 1.3, p. 2 of the preprint.
+  Context on the critical window; the preprint is filed as
   [[../library/extremal_graph_theory/csaba_2025_ramsey_turan_problem_4_cliques/_index|csaba_2025_ramsey_turan_problem_4_cliques]].
 
 **Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
@@ -123,7 +124,8 @@ quantitative form, all `research solved` with proof `sorry`) and a trivial
 Zhao as informal authors and Codex and GPT-5.6 Sol as formal authors (the
 claim page pins the commit); the file at its commit of 2026-08-23 carried
 the same declarations and no `formal_proof` attribute, which the commits of
-2026-09-18 added. The community database (teorth/erdosproblems, and) lists `status` "proved (Lean)",
+2026-09-18 added. The community database (teorth/erdosproblems, accessed
+2026-09-18 and 2026-10-06) lists `status` "proved (Lean)",
 `formal_status` Lean with no URL, and the statement as formalized, as of last
 updates dated 23 August, 23 August and 20 June 2026, without recording when
 each state changed; the site's indicator reads "Formalised statement? Yes".
@@ -271,7 +273,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er90],
 [Sz72], the journal texts of [FLZ15] and [Cs25].
 
 Also consulted: the site's problem page, discussion thread and proof-claim tab
-(thread and tab empty on 2026-10-07); the formal-conjectures file at its
+(tab empty; thread empty on 2026-10-07); the formal-conjectures file at its
 commit of 2026-10-06 (pinned under Formalization) and the community database
 record as of 2026-10-06 (dated there); the header, final theorem and history
 of the lean-proofs file. On 2026-10-07 none of these showed a dispute of

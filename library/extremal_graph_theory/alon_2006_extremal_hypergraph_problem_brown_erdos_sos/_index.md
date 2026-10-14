@@ -32,7 +32,8 @@ and every exponent, with a matching lower bound of order n^{k-o(1)}.
 
 N. Alon and A. Shapira, *On an extremal hypergraph problem of Brown, Erdős and
 Sós*, Combinatorica 26 (2006), no. 6, 627--645, doi:10.1007/s00493-006-0035-9
-(the Crossref record). Combinatorica is a refereed journal.
+(the Crossref record, read on 2026-09-18). Combinatorica is a refereed
+journal.
 
 **Edition read.** The copy read for this card is an authors' preprint: 15
 pages with a text layer, no journal header, PDF

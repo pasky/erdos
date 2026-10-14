@@ -39,14 +39,14 @@ $$
 
 has at least $2^{\aleph_0}$ solutions?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 1 December
-2025; accessed 2026-10-07). The three questions are the parts `infinitely_many`,
-`all_n` and `continuum` of the frontmatter. No claim settles or pends on the
-second or the third question, so the derived standing is open, claim none. The
-site's remarks credit Borwein and Loring [BoLo90] with an identity giving
-infinitely many $n$, which answers the first question yes. They credit Tengely,
-Ulas and Zygadło [TUZ20] with a check of the second question for every
-$n\le10000$. Both are refereed results with accepted partial claim pages,
+**Status.** Open. The site labeled the problem OPEN; its page, accessed
+2026-10-07, was last edited 1 December 2025. The three questions are the parts
+`infinitely_many`, `all_n` and `continuum` of the frontmatter. No claim settles
+or pends on the second or the third question, so the derived standing is open,
+claim none. The site's remarks credit Borwein and Loring [BoLo90] with an
+identity giving infinitely many $n$, which answers the first question yes. They
+credit Tengely, Ulas and Zygadło [TUZ20] with a check of the second question for
+every $n\le10000$. Both are refereed results with accepted partial claim pages,
 [[problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring|Borwein and Loring 1990]]
 and
 [[problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo|Tengely, Ulas and Zygadło 2020]].
@@ -72,28 +72,28 @@ https://www.erdosproblems.com/261.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/261.lean).
 The
-[file](https://github.com/google-deepmind/formal-conjectures/blob/a56710a57eddd13d972881bd9315b64e1b9a0502/FormalConjectures/ErdosProblems/261.lean)
-states the three questions as `erdos_261.parts.i` (tagged research solved),
-`erdos_261.parts.ii` and `erdos_261.parts.iii` (both research open), all with
-proof `sorry`; its variants state the Borwein--Loring identity and the property
-it gives (textbook), the check for $n\le10000$ (research solved, `sorry`) and
-Erdős's weakened two-representation question (research solved, with a
-`formal_proof` pointer to the outside Lean file recorded under Progress and
-known results). The community database records the statement as formalized since
-2 September 2026 and no formal proof. The corpus has not built any of these
-files.
+[file](https://github.com/google-deepmind/formal-conjectures/blob/a56710a57eddd13d972881bd9315b64e1b9a0502/FormalConjectures/ErdosProblems/261.lean),
+at the commit the link pins (main on 2026-10-07), states the three questions as
+`erdos_261.parts.i` (tagged research solved), `erdos_261.parts.ii` and
+`erdos_261.parts.iii` (both research open), all with proof `sorry`; its variants
+state the Borwein--Loring identity and the property it gives (textbook), the
+check for $n\le10000$ (research solved, `sorry`) and Erdős's weakened
+two-representation question (research solved, with a `formal_proof` pointer to
+the outside Lean file recorded under Progress and known results). The community
+database records the statement as formalized since 2 September 2026 and no
+formal proof. The corpus has not built any of these files.
 
 ## Current assessment
 
 **The question (site formulation as accessed 2026-10-07).** The three
-questions above; status OPEN, last edited 1 December 2025; source keys
-[Er74b], [ErGr80] and [Er88c, p. 104]; the site relates the problem to
-[[problems/irrationality/E0260/_index|Problem 260]]. The remarks record
-Cusick's unpublished proof for the first question, Borwein and Loring's
-identity, the check of every $n\le10000$ by Tengely, Ulas and Zygadło, and
-Erdős's weakening of the third question to a rational with two
-representations. The thread has three comments (14 August 2025 to 5 May
-2026) and the proof-claim tab is empty.
+questions above; last edited 1 December 2025; source keys [Er74b], [ErGr80]
+and [Er88c, p. 104]; the site relates the problem to
+[[problems/irrationality/E0260/_index|Problem 260]]. The site's last label was
+OPEN. The remarks record Cusick's unpublished proof for the first question,
+Borwein and Loring's identity, the check of every $n\le10000$ by Tengely, Ulas
+and Zygadło, and Erdős's weakening of the third question to a rational with two
+representations. The thread has three comments (14 August 2025 to 5 May 2026)
+and the proof-claim tab was empty.
 
 **Origin.** Erdős and Graham [ErGr80] ask whether $n/2^n$ is a sum of at
 least two distinct terms $a_k/2^{a_k}$ for infinitely many $n$, whether it

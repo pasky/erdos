@@ -136,8 +136,8 @@ log^[r - 1] (hypergraphRamsey r n)) =Θ[atTop] (fun n ↦ (n : ℝ))` under `cat
 research open`, with proof `sorry`: the $(r-1)$-fold iterated natural logarithm
 of `hypergraphRamsey r n` is required to be $\Theta(n)$, which matches the
 site's $\asymp_r$ with constants depending on $r$. The community database
-(teorth/erdosproblems) records the statement as formalized since 30 December
-2025 and no formal proof. Nothing was built or checked here.
+(teorth/erdosproblems, accessed 2026-09-17) records the statement as formalized
+since 30 December 2025 and no formal proof. Nothing was built or checked here.
 
 ## Current assessment
 
@@ -147,7 +147,7 @@ the problem to Erdős, Hajnal and Rado [EHR65], files it as a generalization
 of [[problems/ramsey_theory/E0564/_index|Problem 564]], and lists it as
 number 38 of the Ramsey theory section of the site's graphs problem
 collection. There are no comments and no proof claims. The community
-database record says open (last updated 31 August
+database record (accessed 2026-09-17) says open (last updated 31 August
 2025), statement formalized, no formal proof.
 
 **Origin and the 1965 bounds.** Section 16 of [EHR65] (printed
@@ -218,17 +218,18 @@ says nothing about $R_r(n)$ for fixed $r$. The paper is a preprint and
 declares (p. 10) that the authors used ChatGPT 5.5 Pro and 5.5 Thinking to
 assist in "numerical computation, checking proofs and improving
 exposition"; it is recorded
-with that provenance and earns no status weight. The abstract of [CFS10] gives off-diagonal bounds $r_3(s,n)$ and the three-color
-bound $r_3(n,n,n)\ge2^{n^{c\log n}}$; it states no two-color diagonal
-improvement. The abstract of [CFS13] gives the improved stepping-up
-relation ($N\not\to(n)^k_\ell$ implies $2^N\not\to(n+3)^{k+1}_\ell$ for
-$k\ge4$), which sharpens the top of the tower, not its height. The abstract
-of [DoMu26] claims "a lower-order improvement to the best known
-quantitative upper bounds for hypergraph Ramsey numbers" through a sharper
-Erdős--Rado recurrence; the tower height of the upper bound is unchanged.
-The arXiv listings also show 2026 preprints on the off-diagonal numbers
-$r_4(5,n)$ (arXiv:2604.23986, 2605.04105; titles only), which the Problem
-564 page records. None concerns the two-color diagonal tower height.
+with that provenance and earns no status weight. The abstract of [CFS10] gives
+off-diagonal bounds $r_3(s,n)$ and the three-color bound
+$r_3(n,n,n)\ge2^{n^{c\log n}}$; it states no two-color diagonal improvement. The
+abstract of [CFS13] gives the improved stepping-up relation
+($N\not\to(n)^k_\ell$ implies $2^N\not\to(n+3)^{k+1}_\ell$ for $k\ge4$), which
+sharpens the top of the tower, not its height. The abstract of [DoMu26] claims
+"a lower-order improvement to the best known quantitative upper bounds for
+hypergraph Ramsey numbers" through a sharper Erdős--Rado recurrence; the tower
+height of the upper bound is unchanged. The arXiv listings also show 2026
+preprints on the off-diagonal numbers $r_4(5,n)$ (arXiv:2604.23986, 2605.04105;
+titles only), which the Problem 564 page records. None concerns the two-color
+diagonal tower height.
 
 **Search scope.** The status rests on these routes;
 none found a proof, disproof or proof claim.

@@ -53,7 +53,7 @@ degrees in induced subgraphs*, arXiv:1910.01361v1 (3 October 2019), Theorem 1
 and the definition of $f(G)$ on p. 2 (PDF p. 2), read in the text layer and
 on the page image; the concluding remark on p. 12 (PDF p. 12) in the text
 layer. Published as Proc. Amer. Math. Soc. 148 (2020), no. 9, 3835--3846, DOI
-10.1090/proc/15060 (Crossref record read); the journal text is
+10.1090/proc/15060 (Crossref record read on 2026-09-18); the journal text is
 not held, was not compared, and its theorem numbering was not checked. The
 theorem number and the page numbers are the preprint's.
 

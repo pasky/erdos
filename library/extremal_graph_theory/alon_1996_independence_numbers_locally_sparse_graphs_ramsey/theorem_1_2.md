@@ -42,7 +42,7 @@ and the tightness sentence on p. 2, the proof on pp. 5--6, the $f(m,n)$
 paragraph on p. 7; read in the text layer with p. 2 and p. 6 on the page
 images. Published in Random Structures Algorithms 9 (1996), no. 3, 271--278,
 DOI `10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U` (Crossref
-record read); the journal text was not compared, and the
+record read on 2026-09-18); the journal text was not compared, and the
 journal pagination is not in the preprint.
 
 **Read depth.** Claims checked: the statement, the abstract's form, the

@@ -37,12 +37,12 @@ Fibonacci Quart. 57 (2019), no. 1, 21--28; DOI 10.1080/00150517.2019.12427666.
 No notice is printed in the file (its running heads read only "THE FIBONACCI
 QUARTERLY", "FEBRUARY 2019" and "VOLUME 57, NUMBER 1"); the journal's issue
 page, which lists the article at p. 21, shows "Copyright © 2019 The Fibonacci
-Association. All rights reserved." (https://www.fq.math.ca/57-1.html), an
-issue-level statement rather than an article line, every other right reserved.
-The copy read for this card is the published Fibonacci Quarterly print, pp.
-21--28. Read status: claims checked; the abstract, inequality (1.3), Lemma 2.1,
-Theorems 1.1--1.4 and Remark 1.5 on pp. 21--23 were read clause by clause
-against the page images, and the proofs (pp. 23--27) were read for their
+Association. All rights reserved." (https://www.fq.math.ca/57-1.html, read
+2026-10-02), an issue-level statement rather than an article line, every other
+right reserved. The copy read for this card is the published Fibonacci Quarterly
+print, pp. 21--28. Read status: claims checked; the abstract, inequality (1.3),
+Lemma 2.1, Theorems 1.1--1.4 and Remark 1.5 on pp. 21--23 were read clause by
+clause against the page images, and the proofs (pp. 23--27) were read for their
 structure only and not re-derived; the computer search of Section 5 was not
 repeated.
 

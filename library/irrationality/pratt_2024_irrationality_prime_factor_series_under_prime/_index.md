@@ -32,9 +32,9 @@ Kyle Pratt, The irrationality of a prime factor series under a prime tuples
 conjecture. arXiv:2409.15185 (2024). Published under a different title as: Kyle
 Pratt, The irrationality of an infinite series involving ω(n) under a prime
 tuples conjecture, J. Number Theory 276 (2025), 57--71,
-doi:10.1016/j.jnt.2025.02.010 (Crossref record checked; print date
+doi:10.1016/j.jnt.2025.02.010 (Crossref record checked 2026-09-17; print date
 November 2025). Tao and Teräväinen cite the journal version as reference [46]
-of arXiv:2512.01739v2. The arXiv record checked lists v1 (23
+of arXiv:2512.01739v2. The arXiv record checked 2026-09-17 lists v1 (23
 September 2024) only, with no journal reference. The copy read for this card
 is arXiv v1; the published PDF is paywalled and was not read, so every label and
 page below refers to arXiv v1, and the journal version's pagination and any

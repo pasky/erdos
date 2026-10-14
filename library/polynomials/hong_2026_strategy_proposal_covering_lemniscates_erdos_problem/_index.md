@@ -53,8 +53,8 @@ that integral at most 1 as the remaining task.
 Boon Qing Hong, Strategy Proposal on Covering Lemniscates for Erdős Problem
 #509. unpublished note (2026). No notice is printed in the file, and the
 author-shared Google Drive file it was taken from states no terms
-(https://drive.google.com/file/d/1RepW4A5-6gK83j4BcVSemqfpL3JnZjxM/view); the
-term is unstated.
+(https://drive.google.com/file/d/1RepW4A5-6gK83j4BcVSemqfpL3JnZjxM/view, read
+2026-10-02); the term is unstated.
 
 The note sets out a proposed route to Erdős problem 509, whether the set
 $K=\{\lvert f\rvert\le1\}$ of a monic non-constant polynomial $f$ can be

@@ -78,7 +78,7 @@ The theorem was the subject of Waldschmidt's Bourbaki exposé of November 1996
 of Lecture Notes in Mathematics 1752 (2001). Nesterenko received the 1997
 Ostrowski Prize. The formal-conjectures statement for the problem cites this
 paper and is tagged research solved
-([`250.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean)).
+([`250.lean` at main on 2026-10-07](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean)).
 This corpus has not reproved the theorem and awards no tier of its own.
 
 The `formalization` link is a public Lean 4 proof of the problem's statement in

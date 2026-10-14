@@ -64,8 +64,8 @@ https://www.erdosproblems.com/1181, accessed 2026-09-18.
 **References.**
 
 - [Er79d] Erdős, P., Some unconventional problems in number theory. Acta Math.
-  Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI 10.1007/BF01903382;
-  Section 3, printed p. 78: the definition of
+  Acad. Sci. Hungar. 33 (1979), no. 1--2, 71--80, DOI 10.1007/BF01903382
+  (Crossref record of 2026-09-18); Section 3, printed p. 78: the definition of
   $q(n,k)$, display (10), the example and the two questions. Library home:
   [[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/_index|erdos_1979_unconventional_problems_number_theory]].
 - [OEIS] Bottomley, H., Sequences A053669--A053674, The On-Line Encyclopedia of

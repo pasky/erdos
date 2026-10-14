@@ -73,11 +73,11 @@ of Boris Alexeev's lean-proofs repository (added 2026-08-17, last changed
 2026-08-24; pinned at the commit of 2026-09-15 on the
 [[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|Dodos--Kanellopoulos--Tyros claim page]]
 as a formalization of their proof, with Codex and GPT-5.6 Sol as its formal
-authors). The community database (teorth/erdosproblems) lists `status` "proved
-(Lean)" and `formal_status` Lean, each as of its last update on 2026-08-24, and
-`formalized` "yes" as of its last update on 2026-09-20, without dating when
-either state changed. This corpus has not built
-or checked the development, and no local kernel credit is claimed.
+authors). The community database (teorth/erdosproblems), read 2026-10-07, lists
+`status` "proved (Lean)" and `formal_status` Lean, each as of its last update on
+2026-08-24, and `formalized` "yes" as of its last update on 2026-09-20, without
+dating when either state changed. This corpus has not built or checked the
+development, and no local kernel credit is claimed.
 
 ## Progress
 

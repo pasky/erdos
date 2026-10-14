@@ -34,9 +34,9 @@ recorded on the page
 upper bound on Ramsey numbers; arXiv:2407.19026v2 (29 August 2026,
 24 pages, printed page $=$ PDF page), Theorem 1 and the sentence on the
 error term on p. 2, read on the page image. A preprint: the arXiv listing
-carries no journal reference. The artifact, its version
-history and the paper's own declaration about the derivation of Theorem 1
-are identified in the
+carried no journal reference (read 2026-09-18). The artifact, its version
+history and the paper's own declaration about the derivation of Theorem 1 are
+identified in the
 [[ramsey_theory/gupta_2024_optimizing_cgms_upper_bound_ramsey_numbers/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the error-term sentence

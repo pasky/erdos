@@ -40,7 +40,7 @@ sums in cyclic groups: polynomial method and constructive approaches*,
 arXiv:1809.02684v1 (7 September 2018; 18 pp., the copy read for this
 page), Theorem 4.6 on p. 15, Theorem 4.3 on p. 12 and Lemma 4.4 on p. 13,
 read in the text layer. Journal version: J. Combin. Des. 27 (2019), no. 6,
-369--385, DOI 10.1002/jcd.21652 (Crossref record read), not
+369--385, DOI 10.1002/jcd.21652 (Crossref record read 2026-09-18), not
 compared.
 
 **Read depth.** Claims checked: Theorem 4.6, Theorem 4.3 and Lemma 4.4 were

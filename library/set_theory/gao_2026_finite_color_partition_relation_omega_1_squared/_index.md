@@ -35,15 +35,14 @@ on the problem page. Cited as [Ga26] on the problem page.
 
 The copy read for this card is the deposit's `Manuscript.pdf`, 4 pages numbered
 1--4. Provenance: fetched from
-<https://zenodo.org/records/22315957/files/Manuscript.pdf?download=1> on
-2026-09-27 (UTC), 244,055 bytes. The deposit also carries `Manuscript.tex`
-(6,508 bytes) and an archive `AI_interaction_logs.zip` (23.1 MB, not fetched).
-No notice is printed on the four pages; the deposit's Zenodo records
-(https://zenodo.org/records/22315956 and https://zenodo.org/records/22315957)
-returned HTTP 410 Gone on 2026-10-02, as did the API record the same day; the
-tombstone those pages serve (read 2026-10-07) says that the record's owner
-removed it on 2026-10-01 for "Retraction/Withdrawal of a record", and the
-DataCite record of the concept DOI
+<https://zenodo.org/records/22315957/files/Manuscript.pdf?download=1>, 244,055
+bytes. The deposit also carries `Manuscript.tex` (6,508 bytes) and an archive
+`AI_interaction_logs.zip` (23.1 MB, not fetched). No notice is printed on the
+four pages; the deposit's Zenodo records (https://zenodo.org/records/22315956
+and https://zenodo.org/records/22315957) returned HTTP 410 Gone on 2026-10-02,
+as did the API record the same day; the tombstone those pages serve (read
+2026-10-07) says that the record's owner removed it on 2026-10-01 for
+"Retraction/Withdrawal of a record", and the DataCite record of the concept DOI
 (https://api.datacite.org/dois/10.5281/zenodo.22315956, state findable, read
 2026-10-07) still names "Creative Commons Attribution 4.0 International" (SPDX
 cc-by-4.0), the license the deposit's record named when read on 2026-09-28; the
@@ -59,7 +58,7 @@ $$
 
 for every finite $k\ge1$; the abstract calls this "a conditional affirmative
 answer" to the problem, and the site's claim summary says the ZFC case remains
-open. When read it was the problem's single registered proof claim
+open. When read on 2026-09-27 it was the problem's single registered proof claim
 on the catalog site, listed as partial, submitted 2026-09-05 03:24:00 with the
 concept DOI as its external link and no comments, under the site's standard
 disclaimer that appearance is no guarantee of correctness and that nobody
@@ -67,9 +66,9 @@ associated with the site has examined the proof. The site's claim entry
 attributed the work to Lezhe Gao with AI assistance (the tools it named were not
 recorded before its removal), and the deposit included an archive named
 `AI_interaction_logs.zip`, not fetched. The deposit's owner withdrew it from
-Zenodo on 2026-10-01 (the tombstone gives the reason "Retraction/Withdrawal of a
-record"), and on 2026-10-07 the site's proof-claims tab listed no proof claim
-for the problem;
+Zenodo on 2026-10-01 (the tombstone, read 2026-10-07, gives the reason
+"Retraction/Withdrawal of a record"), and the site's proof-claims tab later
+listed no proof claim for the problem;
 [[../wiki/problems/set_theory/E1171/claims/2026_09_05_gao|the claim page]]
 records the claim as withdrawn. A comment in the problem's discussion thread
 (06:50 on 5 September 2026) asked for the label "not disprovable" on the

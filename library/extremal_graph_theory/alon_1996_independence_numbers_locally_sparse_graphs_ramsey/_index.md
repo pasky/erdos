@@ -32,12 +32,11 @@ question.
 Alon, Noga, Independence numbers of locally sparse graphs and a Ramsey type
 problem. Random Structures Algorithms 9 (1996), no. 3, 271-278, DOI
 `10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U` (Crossref record
-read). The copy read for this card is the author's manuscript
-from the author's publication list
-(https://web.math.princeton.edu/~nalon/PDFS/publications.html, read
-2026-10-02), which states no copyright, license or terms, and the file prints no
-notice; the publisher's version is not the copy read; the term is
-unstated.
+read on 2026-09-18). The copy read for this card is the author's manuscript from
+the author's publication list
+(https://web.math.princeton.edu/~nalon/PDFS/publications.html, read 2026-10-02),
+which states no copyright, license or terms, and the file prints no notice; the
+publisher's version is not the copy read; the term is unstated.
 
 **Edition.** That copy is the author's preprint (pdfTeX, eight pages
 paginated 1-8, complete text layer), obtained from the author's
@@ -60,7 +59,7 @@ on the page images; the proofs of Theorem 1.2 (pp. 5-6) and Proposition 3.1
 of Theorem 1.1 (Section 2, pp. 2-5) was read for its structure and not checked
 step by step. For Problem 802, Theorem 1.1 and the introduction's two
 sentences on the Ajtai-Erdős-Komlós-Szemerédi bound and conjecture and on
-Shearer's improvement (p. 1) were re-read clause by clause on the page images of
+Shearer's improvement (p. 1) were read clause by clause on the page images of
 pp. 1-2; Theorem 1.1 is paged at
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_1|theorem_1_1]].
 

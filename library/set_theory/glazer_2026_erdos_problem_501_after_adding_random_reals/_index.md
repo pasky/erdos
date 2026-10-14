@@ -27,16 +27,17 @@ self-published, 2026. Distributed as
 `docs/paper/erdos501_random_profiles_rev10.pdf` in the author's repository
 <https://github.com/elliotglazer/erdos501> and, byte for byte the same
 file, from the Google Drive link (file id `12f4eP2EJQO7tYGHXkFyPjNcjWfkvm1lF`)
-that the erdosproblems.com page attaches to the problem. The attribution to
-Glazer rests on the site's problem text, its proof-claims thread and the
+that the erdosproblems.com page attaches to the problem. No journal version
+and no arXiv record were found on 2026-09-27. The attribution to Glazer
+rests on the site's problem text, its proof-claims thread and the
 repository, not on the PDF. Provenance: fetched from
 <https://raw.githubusercontent.com/elliotglazer/erdos501/main/docs/paper/erdos501_random_profiles_rev10.pdf>,
-407,258 bytes; the Drive copy has the same size and hash. An earlier draft, rev09, was removed from the repository on
-2026-08-17 and is not held. The file prints no copyright or license line on pp.
-1--2 or 7--8; the source repository carries a repository-wide LICENSE file and
-license badge naming the Apache License 2.0
-(https://github.com/elliotglazer/erdos501, read 2026-10-02), and its README
-states no separate license for the paper, so whether the author meant the
+407,258 bytes; the Drive copy has the same size and hash. An earlier draft,
+rev09, was removed from the repository on 2026-08-17 and is not held. The file
+prints no copyright or license line on pp. 1--2 or 7--8; the source repository
+carries a repository-wide LICENSE file and license badge naming the Apache
+License 2.0 (https://github.com/elliotglazer/erdos501, read 2026-10-02), and its
+README states no separate license for the paper, so whether the author meant the
 license to cover the paper's text is not stated.
 
 **Companion Lean development.** Elliot Glazer and Sol, *Erdős Problem #501
@@ -229,11 +230,10 @@ $\mathrm{Col}(\omega_1,\mathcal P(\omega))$, where CH holds. The last five
 GitHub Actions runs (32072935717 on 2026-08-17; 32243311676, 32247636527,
 32248541034 and 32251186592 on 2026-08-19, the last at HEAD) conclude
 "success". The community database (teorth/erdosproblems,
-`data/problems.yaml`) records `formal_status: unformalized`
-for the problem, so the database has not adopted this development as a
-formalized solution; the site's one proof claim (submitted 2026-08-17) and
-the repository assert it. No fidelity audit by anyone outside the project
-was found.
+`data/problems.yaml`, read 2026-09-27) records `formal_status: unformalized` for
+the problem, so the database has not adopted this development as a formalized
+solution; the site's one proof claim (submitted 2026-08-17) and the repository
+assert it. No fidelity audit by anyone outside the project was found.
 
 ## Relation to E501
 

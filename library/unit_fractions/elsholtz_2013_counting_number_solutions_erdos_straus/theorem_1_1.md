@@ -54,7 +54,7 @@ preprint's header date is a later compile date), 55 pp.; Theorem 1.1 on
 p. 4 and the corollary on p. 5, read on the page images; the definitions on
 pp. 2--3. Published as J. Aust. Math. Soc. 94 (2013), no. 1, 50--105, DOI
 10.1017/S1446788712000468 (the arXiv listing's journal reference; Crossref
-record fetched); the published pagination was not compared. The
+record fetched 2026-09-18); the published pagination was not compared. The
 arXiv comment says that v6 corrects the statement and proof of Theorem 1.9.
 
 **Read depth.** Claims checked: Theorem 1.1, the corollary, displays (1.2)

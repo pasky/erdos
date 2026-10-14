@@ -63,10 +63,11 @@ https://www.erdosproblems.com/265.
 - [KoTa24] Kova\vC, V. and Tao T., On several irrationality problems for Ahmes
   series. arXiv:2406.17593 (2024).
 
-**Formalization.** No statement in formal-conjectures (no file for the problem). A Lean 4 development posted on 2026-09-07, claiming that no
-such sequence has $\limsup a_n^{1/2^n}>1$, is linked from
-[[problems/irrationality/E0265/claims/2026_09_07_kitamura|its claim page]];
-the corpus records no build or audit of it.
+**Formalization.** No statement in formal-conjectures (no file for the problem
+on 2026-10-07). A Lean 4 development posted on 2026-09-07, claiming that no such
+sequence has $\limsup a_n^{1/2^n}>1$, is linked from
+[[problems/irrationality/E0265/claims/2026_09_07_kitamura|its claim page]]; the
+corpus records no build or audit of it.
 
 ## Progress
 

@@ -52,13 +52,13 @@ declares no author and no AI system.
 
 **Provenance of the proof file.**
 <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>
-(the page `.../solution` shows the first 500 of its lines), fetched (HTTP 200); 485,414 bytes, 10,152 lines; two other fetches
-on the same day (02:41 and 03:49 UTC) returned identical bytes. Header: "A proof
-of the full Erdős 354(levelIndex) proposition" (the "(levelIndex)" is a
+(the page `.../solution` shows the first 500 of its lines), fetched (HTTP 200);
+485,414 bytes, 10,152 lines; two other fetches returned identical bytes. Header:
+"A proof of the full Erdős 354(levelIndex) proposition" (the "(levelIndex)" is a
 mechanical rename of an identifier `i`). The file is 130 sections, each headed
 `/- Source: <name>.lean -/`, from `DigitTransport.lean` to `FullTarget.lean`,
-all in the namespace `Erdos354Formal`, with the final `theorem target` at
-line 10148.
+all in the namespace `Erdos354Formal`, with the final `theorem target` at line
+10148.
 
 **Read status: claims checked.** The final theorem was read against the
 site's printed type, the task bundle's metadata and the catalog file, and
@@ -90,7 +90,7 @@ which is `Erdos354.erdos_354.parts.i` of
 `FormalConjectures/ErdosProblems/354.lean` with `answer(sorry)` instantiated
 to `True`, at the pinned catalog commits `8432eac9` (record page) and
 `6a786f99` (task bundle), both with the same source type SHA-256. Neither pinned
-commit is reachable on GitHub; the catalog's default branch,
+commit is reachable on GitHub; the catalog's default branch, read 2026-09-28,
 prints the same statement and docstring. In the catalog, `FloorMultiples a γ n`
 is $\lfloor\gamma^na\rfloor\in\mathbb Z$, `interleave a b γ n` is
 `FloorMultiples a γ (n / 2)` for even $n$ and `FloorMultiples b γ (n / 2)` for

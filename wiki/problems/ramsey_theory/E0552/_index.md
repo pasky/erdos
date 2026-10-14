@@ -95,7 +95,7 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   Math. Soc. 209 (1975), 33--44. Theorem 1 and Theorem 2, p. 41. Library
   home:
   [[../library/ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/_index|parsons_1975_ramsey_graphs_block_designs_i]]
-  (retrieved from the AMS open back file).
+  (retrieved 2026-09-17 from the AMS open back file).
 - [Ch97] Chen, Guantao, A result on $C_4$-star Ramsey numbers. Discrete
   Math. 163 (1997), no. 1--3, 243--246, doi:10.1016/0012-365X(95)00340-3.
   Theorem 4 and the question it answers, printed p. 244, with the proof on
@@ -111,8 +111,8 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   [[../library/ramsey_theory/wu_2015_ramsey_numbers_c_4_versus_wheels_stars/_index|wu_2015_ramsey_numbers_c_4_versus_wheels_stars]].
 - [Bo24] Boza, L., Exact values and bounds for Ramsey numbers of $C_4$
   versus a star graph. arXiv:2409.12770 (v1 19 September 2024; v2 12 June
-  2026, the version cited, 5 pages); a preprint. Theorem 10 and Remark 12, p. 4. Library
-  home:
+  2026, the version cited, 5 pages); a preprint. Theorem 10 and Remark 12, p. 4.
+  Library home:
   [[../library/ramsey_theory/boza_2024_exact_values_bounds_ramsey_numbers_c4/_index|boza_2024_exact_values_bounds_ramsey_numbers_c4]].
 - [ZCC17] Zhang, Xuemei, Chen, Yaojun and Cheng, T. C. Edwin, Some values
   of Ramsey numbers for $C_4$ versus stars. Finite Fields Appl. 45 (2017),
@@ -162,7 +162,7 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/552.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/552.lean)
-of formal-conjectures (main) declares two statements under
+of formal-conjectures (main, fetched 2026-09-17) declares two statements under
 `category research open`, both with proof `sorry`:
 `erdos_552.parts.i : ∀ (n : ℕ), SimpleGraph.graphRamsey (SimpleGraph.cycleGraph 4) (completeBipartiteGraph (Fin 1) (Fin n)) = answer(sorry)`
 and
@@ -197,7 +197,7 @@ Zhang, Chen and Cheng's speculation [ZCC17] that this holds for all $n\ge2$,
 which would answer the displayed question in the negative. The one comment (27
 October 2025) points to Parsons's two families and the Wu et al. family; the
 site was updated in response. The proof-claim tab is empty. The community
-database record says open (last updated 31 August 2025).
+database record (fetched 2026-09-17) says open (last updated 31 August 2025).
 
 **Upper bound.** Parsons's
 [[../library/ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/theorem_1|Theorem 1]]

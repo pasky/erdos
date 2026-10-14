@@ -34,9 +34,9 @@ F(t)=\frac{x^2+6x-3}{4x}.
 $$
 
 If $F(t)=q^2$, set $y=2xq$. Then $y^2=x^3+6x^2-3x$. The external input, recorded
-in the paper and [LMFDB 36.a2](https://www.lmfdb.org/EllipticCurve/Q/36/a/2), is
-that this curve has rank zero and torsion order six. The LMFDB model
-$y^2=X^3-15X+22$ uses $X=x+2$. The six distinct points
+in the paper and [LMFDB 36.a2](https://www.lmfdb.org/EllipticCurve/Q/36/a/2),
+accessed 2026-09-05, is that this curve has rank zero and torsion order six. The
+LMFDB model $y^2=X^3-15X+22$ uses $X=x+2$. The six distinct points
 
 $$
 \mathcal O,\ (0,0),\ (-3,6),\ (-3,-6),\ (1,2),\ (1,-2)

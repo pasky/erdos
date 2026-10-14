@@ -32,7 +32,8 @@ P. Erdős, G. Tenenbaum: Sur la structure de la suite des diviseurs d'un entier
 (in French), Ann. Inst. Fourier (Grenoble) 31 (1981) no. 1, ix, 17--37 (MR
 82h:10061; Zentralblatt 437.10020); DOI 10.5802/aif.815. The hosting archive's
 index (https://users.renyi.hu/~p_erdos/Erdos.html) also gives Zentralblatt
-456.10022, a number under which zbMATH Open finds no document.
+456.10022, a number under which zbMATH Open finds no document (searched
+2026-10-07).
 
 The paper studies the ordered divisor sequence 1 = d_1 < ... < d_{tau(n)} = n,
 and one of its stated aims is to refute Erdős's conjecture C4, that outside a

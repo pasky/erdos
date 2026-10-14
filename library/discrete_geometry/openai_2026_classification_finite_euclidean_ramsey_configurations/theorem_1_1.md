@@ -147,11 +147,12 @@ taken at statement level; none was checked here.
 - [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]]: this theorem is
   a claimed resolution of the problem's question "characterize the finite
   Ramsey sets", at the problem's fixed scale and for every finite number of
-  colors; the problem page records the question as open before the manuscript's date. The corpus's verification built
+  colors; the problem page recorded the question as open on 5 September 2026,
+  before the manuscript's date. The corpus's verification built
   `OAI.EuclideanRamsey.classification_nonempty`,
   `OAI.EuclideanRamsey.classification` and
-  `OAI.EuclideanRamsey.quadratic_empty_ramsey`, which state this
-  classification for every nonempty finite set and for the empty set, and
-  checked their axioms (`propext`, `Classical.choice` and `Quot.sound` only);
-  the record of what they settle is kept on the claim page of
+  `OAI.EuclideanRamsey.quadratic_empty_ramsey`, which state this classification
+  for every nonempty finite set and for the empty set, and checked their axioms
+  (`propext`, `Classical.choice` and `Quot.sound` only); the record of what they
+  settle is kept on the claim page of
   [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]].

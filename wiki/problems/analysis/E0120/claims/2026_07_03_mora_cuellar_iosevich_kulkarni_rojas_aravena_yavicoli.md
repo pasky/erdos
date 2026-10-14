@@ -55,4 +55,4 @@ summand, is not covered; that case is the release's claim on its own pages.
 
 **Standing.** Claimed: an arXiv preprint with no refereed version or outside
 review known to this corpus, not registered on the site's proof-claims tab or
-named in its commentary; the site labeled the problem OPEN.
+named in its commentary (read 2026-10-06); the site labeled the problem OPEN.

@@ -69,7 +69,7 @@ The copy read for this card is the arXiv posting of 7 May 2011
 was read for the theorem and the attribution sentence, and all
 five pages were checked on the page images for the proof summary above.
 The journal version was not compared; the journal record (volume, issue,
-pages, DOI) was checked against Crossref. The same author's
+pages, DOI) was checked against Crossref on 2026-09-17. The same author's
 later paper with a nearly identical title, The irrationality of some number
 theoretical series, Acta Arith. 126
 (2007), no. 4 (arXiv:1105.1451), is a different paper, filed as

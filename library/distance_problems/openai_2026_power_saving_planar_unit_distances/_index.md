@@ -50,7 +50,7 @@ the title, the author line "OpenAI", the date and the citation block, and adds
 no statement about human assistance or review. The 53-page PDF names no
 author beyond "OpenAI", no arXiv identifier and no journal. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 The release's catalogue `lean/formalization.yaml` lists no formalization for

@@ -105,10 +105,10 @@ The copy read for this card is the archive's scan; its original acquisition date
 is unknown. It carries printed pp. 29--37 as PDF pp. 1--9, the last page
 holding the Russian title and the English summary. No notice is printed; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved.
-All material on this site is for scientifics purposes only."); Matematikai Lapok
-has no publisher page for the 1963 volume, and no Crossref license is recorded;
-the term is unstated.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
+rights reserved. All material on this site is for scientifics purposes only.");
+Matematikai Lapok has no publisher page for the 1963 volume, and no Crossref
+license is recorded; the term is unstated.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

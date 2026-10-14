@@ -20,10 +20,10 @@ in prose.
 
 M. Campos, S. Griffiths, R. Morris and J. Sahasrabudhe, *An exponential
 improvement for diagonal Ramsey*, Annals of Mathematics (2) 203 (2026),
-no. 3, 869--932; DOI 10.4007/annals.2026.203.3.4 (Crossref record, issued
-May 2026; the page range is the one printed in the
-bibliography of Gupta, Ndiaye, Norin and Wei). Preprint arXiv:2303.09521
-(v1 16 March 2023; v2 4 August 2025).
+no. 3, 869--932; DOI 10.4007/annals.2026.203.3.4 (Crossref record, issued May
+2026, read 2026-09-18; the page range is the one printed in the bibliography of
+Gupta, Ndiaye, Norin and Wei). Preprint arXiv:2303.09521 (v1 16 March 2023; v2 4
+August 2025).
 
 The copy read for this card is arXiv:2303.09521v2 [math.CO] 4 Aug 2025, 59
 pages, with a text layer; printed page $=$ PDF page. The page numbers below are the arXiv pages and

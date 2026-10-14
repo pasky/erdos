@@ -22,19 +22,19 @@ for the reverse ordering, so that each ordering has lower density at least
 
 X. Lü and Z. Wang, *On the largest prime factors of consecutive integers*,
 Monatsh. Math. 206 (2025), no. 2, 403--418, doi:10.1007/s00605-024-02036-z
-(online 6 November 2024; volume, issue and DOI from the Crossref record).
-Preprint: HAL hal-01797939, v1 submitted 23 May 2018, v2 revised 19 August 2025.
+(online 6 November 2024; volume, issue and DOI from the Crossref record, read
+2026-10-07). Preprint: HAL hal-01797939, v1 submitted 23 May 2018, v2 revised
+19 August 2025.
 
 The copy read for this card is the HAL v1 preprint: a HAL cover sheet (physical PDF p. 1) followed by
 the thirteen-page manuscript dated January 31, 2018 (manuscript p. $n$ is
-PDF p. $n+1$), a typeset PDF with a clean text layer. Provenance: downloaded
-in September 2026; the cover sheet names the HAL record
-<https://hal.science/hal-01797939v1>; 255,353 bytes. The published version and
-HAL v2 were not compared, so the
-statements below are those of the 2018 text and may differ from the cited 2025
-version. Read status: claims checked for Theorem 1 of this text (the abstract,
-section 1 and the statement were read clause by clause on the page images); the
-proof in sections 2--4 was read but not checked step by step. That preprint's cover sheet prints
+PDF p. $n+1$), a typeset PDF with a clean text layer. Provenance: the cover
+sheet names the HAL record <https://hal.science/hal-01797939v1>; 255,353 bytes.
+The published version and HAL v2 were not compared, so the statements below are
+those of the 2018 text and may differ from the cited 2025 version. Read status:
+claims checked for Theorem 1 of this text (the abstract, section 1 and the
+statement were read clause by clause on the page images); the proof in sections
+2--4 was read but not checked step by step. That preprint's cover sheet prints
 "HAL Authorization", and HAL's own record names the HAL authorization v1
 (https://about.hal.science/hal-authorisation-v1/) as the deposit's license, the
 depositor's authorization for HAL to distribute it, with no public reuse grant
@@ -48,10 +48,10 @@ Throughout, $P^+(n)$ is the largest prime factor of $n$, with $P^+(1)=1$.
 
 - Conjecture 1 (Erdős--Turán, manuscript p. 1):
   $\#\{n\le x: P^+(n)<P^+(n+1)\}\sim x/2$, the problem's statement.
-  Conjecture 2 (Erdős--Pomerance, p. 1): for any $a,b\in[0,1]$, the density of $n$ with
-  $P^+(n)\le x^a$ and $P^+(n+1)\le x^b$ exists and equals
-  $\rho(1/a)\rho(1/b)$. Conjecture 3 (De Koninck--Doyon, p. 2): each of the
-  $k!$ orderings of $P^+(n),\dots,P^+(n+k-1)$ has probability $1/k!$.
+  Conjecture 2 (Erdős--Pomerance, p. 1): for any $a,b\in[0,1]$, the density of
+  $n$ with $P^+(n)\le x^a$ and $P^+(n+1)\le x^b$ exists and equals
+  $\rho(1/a)\rho(1/b)$. Conjecture 3 (De Koninck--Doyon, p. 2): each of the $k!$
+  orderings of $P^+(n),\dots,P^+(n+k-1)$ has probability $1/k!$.
 - Survey of earlier bounds (pp. 2--3): Erdős--Pomerance [9], lower density
   $0.0099$; La Bretèche--Pomerance--Tenenbaum [3], $0.05544$; Wang [26],
   [28], $0.1063$ and $0.1356$; Rivat [20], the analog of (1.2) for the
@@ -64,9 +64,9 @@ Throughout, $P^+(n)$ is the largest prime factor of $n$, with $P^+(1)=1$.
   (manuscript p. 4, PDF p. 5; proof pp. 4--12): for $x\to\infty$,
   $\#\{n<x: P^+(n)<P^+(n+1)\}>0.2017x$, and the same lower bound holds
   for the pattern $P^+(n)>P^+(n+1)$; Section 4 (p. 12) writes out the
-  deduction only for the first pattern. The method (p. 3) improves the sum $S_C$ in the
-  inclusion--exclusion (1.6) of [28] by a "switch" that also sieves friable
-  $n$ for which $n+1$ has a prime factor above $x^{1/2}$.
+  deduction only for the first pattern. The method (p. 3) improves the sum $S_C$
+  in the inclusion--exclusion (1.6) of [28] by a "switch" that also sieves
+  friable $n$ for which $n+1$ has a prime factor above $x^{1/2}$.
 
 ## Compiled scope
 

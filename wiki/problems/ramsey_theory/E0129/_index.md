@@ -98,7 +98,7 @@ Bloom, Erdős Problem #129, https://www.erdosproblems.com/129, accessed
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/section_2|Item 2]].
 - [ErGy97] Erdős, P. and Gyárfás, A., A variant of the classical Ramsey
   problem. Combinatorica 17 (1997), no. 4, 459--467, doi:10.1007/BF01195000
-  (Crossref record; received 15 September 1996). It is not the
+  (Crossref record, 2026-09-18; received 15 September 1996). It is not the
   site's [Er97b] and it does not state this problem (below).
 
 **Formalization.** None. formal-conjectures has no statement file for Problem
@@ -127,9 +127,9 @@ every $r$ through Steiner triple systems, which its poster presents as a
 construction produced by GPT-5.2 and which, as a thread post, gets no claim
 page; and the curator's reply the same day that this is the construction
 already discussed in the remarks and that the curator has no further idea what
-was intended. The proof-claim tab is empty. The community database record says
-open (31 August 2025), not formalized, with a comment that the statement is
-ambiguous.
+was intended. The proof-claim tab is empty. The community database record, read
+2026-09-18, says open (31 August 2025), not formalized, with a comment that the
+statement is ambiguous.
 
 **The origin, located.** The site's key [Er97b] is Erdős's Discrete Mathematics
 problem paper of 1997 (Discrete Math. 165/166 (1997),
@@ -190,15 +190,15 @@ passage the site cites, confirms the site's transcription (above).
 
 **Remaining gaps.** (1) The Statement is false for every $r$ by the site's
 argument, given under Status, and the standing describes it; the site's OPEN
-is recorded as the site's label. If a source identifies the intended question, it
-enters the Formulation as a variant with its own answer, and the Statement keeps
-the site's wording. (2) The origin is located: item 2 of [Er97b] states the
-problem, the lower bound (1) and the expectation (3) in the site's form, with no
-proof of (1) printed and the joint paper with Gyárfás unidentified; [ErGy97]
-does not state the problem, so the site's attribution of the conjecture and of
-the lower bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's report in
-[Er97b]. (3) No source supports a form other than the site's, so nothing is
-compiled beyond the disproof of the Statement.
+is recorded as the site's label. If a source identifies the intended question,
+it enters the Formulation as a variant with its own answer, and the Statement
+keeps the site's wording. (2) The origin is located: item 2 of [Er97b] states
+the problem, the lower bound (1) and the expectation (3) in the site's form,
+with no proof of (1) printed and the joint paper with Gyárfás unidentified;
+[ErGy97] does not state the problem, so the site's attribution of the conjecture
+and of the lower bound $C^{\sqrt n}$ to Erdős and Gyárfás rests on Erdős's
+report in [Er97b]. (3) No source supports a form other than the site's, so
+nothing is compiled beyond the disproof of the Statement.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -54,8 +54,9 @@ https://www.erdosproblems.com/660.
 ## Current assessment
 
 A literature check covered the historical attribution, Altman's planar
-theorem, and recent three-dimensional distinct-distance research. It located no primary proof of the exact asymptotic coefficient
-asked for here. The open status is retained with this limited search scope.
+theorem, and recent three-dimensional distinct-distance research. It located no
+primary proof of the exact asymptotic coefficient asked for here. The open
+status is retained with this limited search scope.
 
 The principal missing historical input is Altman's reported polyhedron proof.
 Altman's 1963 Monthly paper [Al63], the only Altman reference the site gives,

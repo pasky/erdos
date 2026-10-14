@@ -57,7 +57,7 @@ conjecture of Burr, Erdős, Graham, and Sós*, arXiv:2603.18952v1 (19 March
 2026), 12 pages; the definition on p. 1, Theorem 1.2 and display (1)
 on p. 2 (page images). A preprint: the arXiv listing carries one
 version and no journal reference, and a Crossref bibliographic query found
-no journal record (both read). The edition is identified in the
+no journal record (both read 2026-09-18). The edition is identified in the
 [[ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, the statement, display (1)

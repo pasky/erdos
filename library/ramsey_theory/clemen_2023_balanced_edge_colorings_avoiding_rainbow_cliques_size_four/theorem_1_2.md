@@ -43,7 +43,7 @@ edge-colorings avoiding rainbow cliques of size four*, arXiv:2303.15476v1
 (26 March 2023; the PDF is dated March 29, 2023), two pages; published as
 *Balanced edge-colorings avoiding rainbow cliques of size four*, Electron.
 J. Combin. 30 (2023), no. 3, Paper No. 3.17, doi:10.37236/11965 (published
-11 August 2023; Crossref record read). Read in the preprint:
+11 August 2023; Crossref record read 2026-09-18). Read in the preprint:
 Question 1.1, Theorem 1.2 and Lemma 1.3 on p. 1 (page image), Figure 1 on
 p. 2 (text layer). The journal text was not compared. The artifact is
 identified in the

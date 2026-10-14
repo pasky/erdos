@@ -32,7 +32,7 @@ remaining values of n, thereby proving that the result holds exactly for
 every n≥1", submitted 2026-07-29 by a site user with an external link to the
 proof and no comments; the site's label stayed PROVED with the resolution
 attributed to Pokrovskiy, Versteegen and Williams, and the problem page's
-commentary does not mention the preprint (refresh).
+commentary does not mention the preprint (refresh of 2026-09-18T10:39Z).
 
 The copy read for this card is arXiv:2607.21915v1, 14 pages with a complete text
 layer, pp. 1--3, 13 and 14 read on the rendered page images and the rest in the

@@ -124,8 +124,8 @@ Erdős Problem #476, https://www.erdosproblems.com/476, accessed
   [[../library/additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|theorem_4_1]].
 - [ANR95] Alon, N., Nathanson, M. B. and Ruzsa, I., Adding distinct
   congruence classes modulo a prime. Amer. Math. Monthly 102 (1995), no.
-  3, 250--255, DOI 10.1080/00029890.1995.11990565 (Crossref record); the
-  page numbers are those of the authors' version (7 pp.) on the first
+  3, 250--255, DOI 10.1080/00029890.1995.11990565 (Crossref record, 2026-09-18);
+  the page numbers are those of the authors' version (7 pp.) on the first
   author's publication list: Theorem 1 on p. 3, Theorem 2 and the sharpness
   example on p. 5. Library home:
   [[../library/additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/_index|alon_1995_adding_distinct_congruence_classes_modulo_prime]].
@@ -213,7 +213,7 @@ formal authors Aristotle and Boris Alexeev; the file is recorded as a
 formalization link on the Alon--Nathanson--Ruzsa claim page. The companion
 note `ErdosProblems/Erdos476.md` lists copies for five Mathlib versions. The
 file is third-party Lean that this corpus has not built, so it gives no
-`formalized` evidence. The community database lists the
+`formalized` evidence. The community database (accessed 2026-09-18) lists the
 problem as "proved (Lean)", as of its last update on 31 December 2025, with
 `formal_status` Lean, the statement formalized since 6 July 2026 and no
 formal-proof URL; the site's indicator reads "Formalised statement? Yes".
@@ -296,7 +296,7 @@ Acceptance evidence: the Bulletin of the London Mathematical Society, the
 American Mathematical Monthly and the Journal of Number Theory are refereed;
 the site's commentary; the theorem is standard in the literature on restricted
 sumsets (the Dias da Silva--Hamidoune paper had 100 citing records in the
-citation index consulted, including 2026 preprints giving new
+citation index consulted on 2026-09-18, including 2026 preprints giving new
 proofs). Read depth: claims checked for Theorem 4.1, Corollary 3.3 and Theorem
 3.2 of [dSHa94], the proof of Theorem 4.1 read in full and the chain behind it
 for structure, for Theorems 1 and 2 of [ANR95], the proof of Theorem 2 read in

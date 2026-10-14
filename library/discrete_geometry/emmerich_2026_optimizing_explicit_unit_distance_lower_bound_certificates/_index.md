@@ -29,7 +29,7 @@ certificates*. arXiv:2606.03419v5 [math.OC], 9 June 2026, 20 pages.
 The copy read for this card
 is the arXiv v5 manuscript; its p. 1 watermark reads
 "arXiv:2606.03419v5 [math.OC] 9 Jun 2026". Provenance: 513,718 bytes, downloaded
-from <https://arxiv.org/pdf/2606.03419v5> on 2026-09-05. The arXiv record is
+from <https://arxiv.org/pdf/2606.03419v5>. The arXiv record is
 <https://arxiv.org/abs/2606.03419>. The text refers to its own versions 3 and 4
 (pp. 2 and 9); no earlier version, later version, or publication was acquired or
 checked at filing, which had no network access. Result citations name v5 pages.

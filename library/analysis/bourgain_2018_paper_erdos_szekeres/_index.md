@@ -36,18 +36,16 @@ J. Bourgain and M.-C. Chang, *On a paper of Erdös and Szekeres* (the
 preprint's spelling), J. Anal. Math. **136** (2018), no. 1, 253--271; DOI
 10.1007/s11854-018-0060-9; arXiv:1509.08411 [math.NT]. The problem page
 cites the article as "J. Anal. Math. (2018), 253-271"; the volume and issue
-are from the Crossref record read (UTC).
+are from the Crossref record read 2026-09-17 (UTC).
 
 The copy read for this card is
 the arXiv preprint, version 2, stamped "arXiv:1509.08411v2 [math.NT] 12 Nov
 2015": twenty pages of LaTeX output with a clean text layer. Provenance:
-downloaded in September 2026 from
-<https://arxiv.org/abs/1509.08411v2> (the arXiv identifier is the recorded
-source; the download date was not recorded); 161,638 bytes. The journal version
-was not compared; result labels and page numbers below are the
-preprint's and may differ in the article. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:1509.08411), every other right
-reserved.
+downloaded from <https://arxiv.org/abs/1509.08411v2> (the arXiv identifier is
+the recorded source); 161,638 bytes. The journal version was not compared;
+result labels and page numbers below are the preprint's and may differ in the
+article. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1509.08411), every other right reserved.
 
 Read status: claims checked. Propositions 1.1--1.3 and the recalled bounds
 (1.3)--(1.10) were read clause by clause in the text layer and on the page

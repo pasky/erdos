@@ -59,7 +59,7 @@ proof unfilled.
 
 ## Current assessment
 
-The site's formulation asks for a constant $C>1$ such
+The site's formulation (accessed 2026-09-04) asks for a constant $C>1$ such
 that, for every $n\ge2$, some $z_1,\ldots,z_n$ with $z_1=1$ and $|z_i|\ge1$ have
 every power sum of index $2$ to $n+1$ below $C^{-n}$ in modulus. The site's
 commentary records the background: Erdős had such an exponentially small

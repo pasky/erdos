@@ -68,8 +68,8 @@ Erdős Problem #294, https://www.erdosproblems.com/294, accessed 2026-09-17.
   2026. Theorem 1.6. Library home:
   [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|liu_2024_further_questions_regarding_unit_fractions]].
 
-**Formalization.** No formal-conjectures statement: formal-conjectures has
-no `ErdosProblems/294.lean`, and the community database
+**Formalization.** No formal-conjectures statement: formal-conjectures had
+no `ErdosProblems/294.lean` on 2026-10-06, and the community database
 records the problem as unformalized. The external collection
 `plby/lean-proofs` holds, since 17 August 2026, a file declaring itself a
 formalization of a solution, with Liu and Sawhney as informal authors and
@@ -91,7 +91,7 @@ t(N)\ll\frac{N}{\log N}.
 $$
 
 The thread and the proof-claim tab are empty. The community database record
-(teorth/erdosproblems) says proved, unformalized.
+(teorth/erdosproblems, fetched 2026-09-17) says proved, unformalized.
 
 **Status support.** The status-defining source is
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_6|Liu and Sawhney's Theorem 1.6]],
@@ -101,17 +101,17 @@ holds. The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382
 (received 28 October 2025, accepted 23 December 2025, online 14 January
 2026, per the publisher's record read on 2026-09-17), which is the
 acceptance evidence; the library retains arXiv v1, and the published text
-has not been compared, so all locators are v1 locators. The proof (pp. 13--14) was read
-for its structure: the upper bound takes a prime $t>10N/\log N$ and shows
-that a representation starting at $1/t$ would force a congruence modulo $t$
-that the small least common multiple of the other quotients cannot satisfy;
-the lower bound represents $1$ starting from $1/t$ by one application of
-the paper's Lemma 4.1 for $t\le N^{9/10}$, and by two, at two scales, for
-larger $t$; the lemma produces prescribed smooth fractions from
-denominators in an interval of constant ratio by way of its Proposition
-3.2. The theorem page records that a complete rewrite of both bounds and
-their dependencies is not compiled; the library's proof coverage for this
-theorem is statement and sketch only.
+has not been compared, so all locators are v1 locators. The proof (pp. 13--14)
+was read for its structure: the upper bound takes a prime $t>10N/\log N$ and
+shows that a representation starting at $1/t$ would force a congruence modulo
+$t$ that the small least common multiple of the other quotients cannot satisfy;
+the lower bound represents $1$ starting from $1/t$ by one application of the
+paper's Lemma 4.1 for $t\le N^{9/10}$, and by two, at two scales, for larger
+$t$; the lemma produces prescribed smooth fractions from denominators in an
+interval of constant ratio by way of its Proposition 3.2. The theorem page
+records that a complete rewrite of both bounds and their dependencies is not
+compiled; the library's proof coverage for this theorem is statement and sketch
+only.
 
 Two remarks on the source. On p. 3 the authors report that they knew of no
 earlier study of this question, and they label it "Problem # 305" in the
@@ -131,7 +131,7 @@ $N/((\log N)(\log\log N)^{3+o(1)})$ and $N/\log N$; nothing found narrows
 the window.
 
 **Search scope.** The site's problem, discussion and
-proof-claim pages; the community database record; the
+proof-claim pages as read on 2026-09-17; the community database record; the
 formal-conjectures directory listing; the arXiv listing for 2404.07113;
 the Oxford Academic article record; the Semantic Scholar citing-paper
 records for the paper (five records: arXiv:2607.04157, 2502.02200,

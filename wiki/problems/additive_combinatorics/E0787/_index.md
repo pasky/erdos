@@ -51,8 +51,9 @@ $(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$, and each is an accepted
 partial claim. The lower bound is Theorem 1.2 of Sanders (Canad. J. Math. 73
 (2021), refereed;
 [[problems/additive_combinatorics/E0787/claims/2018_04_10_sanders|its claim page]]).
-Theorem 1.2 of Beker's 2025 preprint, accepted by Int. Math. Res. Not., gives a
-second proof and the explicit range $c<1/68$. It is a pending partial claim on
+Theorem 1.2 of Beker's 2025 preprint, accepted by Int. Math. Res. Not., with no
+journal record on 2026-10-07, gives a second proof and the explicit range
+$c<1/68$. It is a pending partial claim on
 [[problems/additive_combinatorics/E0787/claims/2025_01_17_beker|its claim page]].
 Theorem 1.3 of Zhi's unrefereed preprint of September 2026 refines Beker's
 argument and extends the range to $c<1/36$. It is a pending partial claim on
@@ -136,7 +137,7 @@ Problem #787, https://www.erdosproblems.com/787, accessed 2026-09-18.
   [[../library/additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/theorem_1_1|Theorem 1.1]].
 - [Be25] Beker, A., The Erdős--Moser sum-free set problem via improved
   bounds for $k$-configurations. arXiv:2501.10203v1 (17 January 2025; 23
-  pages); v2 of 2 October 2026 (24 pages)
+  pages; no journal record on 2026-09-18); v2 of 2 October 2026 (24 pages)
   is the final version, which its arXiv comment says incorporates the
   referee's comments, corrects an error in the proof of Lemma 2.2 of v1
   (Lemma 2.3 of v2) and is to appear in Int. Math. Res. Not.; Theorems 1.1
@@ -250,12 +251,13 @@ value of $c$ over [Sa21], noting that the $k$-configuration route is limited to
 $c<1$. The site's display $(\log n)^{1+1/68+o(1)}$ is its rendering of the range
 $c<1/68$. Neither proof is reviewed in this corpus. [Be25] had one arXiv version
 and no journal record on 2026-09-18 (Crossref bibliographic query). The v2 of
-[Be25], of 2 October 2026, is accepted by Int. Math. Res. Not. [Zh26], an
-unrefereed preprint of September 2026, reruns Beker's density-increment argument
-with the outcomes of its graph-counting step kept apart, each charged its own
-density gain and rank cost. Its Theorem 1.1 (p. 3) lowers the leading power of
-$k$ in Beker's finite-group bound from $k^{68}$ to $k^{36}$, and its Theorem 1.3
-(p. 3) is Beker's Theorem 1.2 for every $c<1/36$
+[Be25], of 2 October 2026, is accepted by Int. Math. Res. Not. and had no
+journal record on 2026-10-07; no citing record was found (Semantic Scholar,
+2026-09-18). [Zh26], an unrefereed preprint of September 2026, reruns Beker's
+density-increment argument with the outcomes of its graph-counting step kept
+apart, each charged its own density gain and rank cost. Its Theorem 1.1 (p. 3)
+lowers the leading power of $k$ in Beker's finite-group bound from $k^{68}$ to
+$k^{36}$, and its Theorem 1.3 (p. 3) is Beker's Theorem 1.2 for every $c<1/36$
 ([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 Its proof is not reviewed in this corpus either. The lower bound of record
 therefore rests on the refereed [Sa21], with [Be25] as a second proof under the
@@ -341,14 +343,14 @@ primary citation of the paper and a quotation from it on Klarner's proof, but
 prints neither the reduction nor the bound's proof). The upper bound of record
 is first-hand: [Ru05] has a library card, and its Theorem is stated from printed
 p. 77. (3) No proof is independently reviewed in this corpus. (4) [Be25] is
-accepted by Int. Math. Res. Not. (arXiv v2, 2 October 2026); its status does
-not affect the field. (5) The range $c<1/36$ rests on [Zh26], an unrefereed
-preprint that builds on the argument of [Be25]. It uses only parts of that
-argument that v2 leaves unchanged: its graph-counting step stops before the
-step of Beker's Lemma 2.2 that v2 corrects, and replaces it with its own
-Lemmas 2.3 and 2.4, which are not reviewed here. It also applies Beker's
-Proposition 4.2 to sets smaller than that proposition assumes, without
-comment
+accepted by Int. Math. Res. Not. (arXiv v2, 2 October 2026), with no journal
+record on 2026-10-07; its status does not affect the field. (5) The range
+$c<1/36$ rests on [Zh26], an unrefereed preprint that builds on the argument of
+[Be25]. It uses only parts of that argument that v2 leaves unchanged: its
+graph-counting step stops before the step of Beker's Lemma 2.2 that v2 corrects,
+and replaces it with its own Lemmas 2.3 and 2.4, which are not reviewed here. It
+also applies Beker's Proposition 4.2 to sets smaller than that proposition
+assumes, without comment
 ([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 <!-- BEGIN problem library links -->
 

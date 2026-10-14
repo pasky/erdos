@@ -34,7 +34,8 @@ pp. 37--50, as the volume scan shows.
 **Copy read.** The copy read for this card is the
 paper alone: seven pages extracted from the scan of the whole
 volume. Provenance: the volume scan (*Studia Scientiarum Mathematicarum
-Hungarica* 11 (1976), 488 physical pages, 170,202,819 bytes) was retrieved from the REAL-J repository of the Hungarian Academy of
+Hungarica* 11 (1976), 488 physical pages, 170,202,819 bytes) was retrieved on
+2026-09-18T15:15:23Z from the REAL-J repository of the Hungarian Academy of
 Sciences, <https://real-j.mtak.hu/5461/1/StudScientMath_11.pdf> (HTTP 200, one
 request); the paper was extracted from it on 2026-09-18 with PyMuPDF 1.28.2
 (volume pages 111--117 selected, the volume-wide structure tree, outlines, name

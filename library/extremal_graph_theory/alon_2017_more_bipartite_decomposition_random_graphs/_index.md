@@ -26,7 +26,7 @@ that the bound 2^{r+1} - 1 is attained.
 
 N. Alon, T. Bohman and H. Huang, *More on the bipartite decomposition of
 random graphs*, J. Graph Theory 84 (2017), no. 1, 45--52, DOI
-10.1002/jgt.22010 (Crossref record read; published online 22
+10.1002/jgt.22010 (Crossref record read 2026-09-18; published online 22
 February 2016). The site's key ABH17.
 
 **Edition read.** The copy read for this card is arXiv:1409.6165v1 (22 September 2014; the only version on arXiv, whose record
@@ -78,10 +78,10 @@ p < 0.5. Theorem 4.1 (p. 6) bears on no problem page.
 
 **Results.**
 
-- Theorem 1.1 (p. 2): There is an absolute c > 0 such that for G = G(n,0.5), bc(G) <=
-  n - (2+2c) log_2 n <= n - (1+c) alpha(G) with high probability.
-- Inequality (1) (p. 2): A simple three-stage-exposure and birthday-paradox argument
-  gives bc(G(n,0.5)) <= n - alpha(G) - Omega(log log n) whp.
+- Theorem 1.1 (p. 2): There is an absolute c > 0 such that for G = G(n,0.5),
+  bc(G) <= n - (2+2c) log_2 n <= n - (1+c) alpha(G) with high probability.
+- Inequality (1) (p. 2): A simple three-stage-exposure and birthday-paradox
+  argument gives bc(G(n,0.5)) <= n - alpha(G) - Omega(log log n) whp.
 - Method (Section 3, pp. 3--6): the second moment method applied to the
   number of induced copies in the random graph of members of a family of
   bipartite graphs with small biclique partition number.

@@ -91,9 +91,9 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
 **References.**
 
 - [Gr63] Graham, R. L., A theorem on partitions. J. Austral. Math. Soc. 3
-  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record).
-  Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the Remarks with conjecture
-  $2'$ (p. 441). Library home:
+  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record
+  accessed 2026-09-18). Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the
+  Remarks with conjecture $2'$ (p. 441). Library home:
   [[../library/unit_fractions/graham_1963_theorem_partitions/_index|graham_1963_theorem_partitions]].
 - [Al19] Alekseyev, M. A., On partitions into squares of distinct integers
   whose reciprocals sum to 1. In: The Mathematics of Various Entertaining
@@ -142,13 +142,13 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
   (2026-09-18); the Drive file is the copy this page cites.
 - [OEIS] van Doorn, W., Sequence A380791, The On-Line Encyclopedia of
   Integer Sequences (2025): the number of positive rationals $x$ whose
-  threshold $k(x)$ equals $n$.
+  threshold $k(x)$ equals $n$; accessed 2026-09-18.
 
 **Formalization.** Statement only, with a pointer to an external proof. The
 file
 [`ErdosProblems/283.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/283.lean)
-of formal-conjectures at the linked revision (main) declares
-`erdos_283 : answer(True) ↔ ∀ p : ℚ[X], Condition p` under
+of formal-conjectures at the linked revision (the head of main on 2026-09-18)
+declares `erdos_283 : answer(True) ↔ ∀ p : ℚ[X], Condition p` under
 `category research solved` with proof `sorry`, where `Condition p` says: if
 $p$ takes integer values at all integers, has positive leading coefficient
 and no $d\ge2$ divides $p(n)$ for all $n\ge1$, then for all sufficiently
@@ -160,7 +160,7 @@ page's `formalization` link pins. Seven variants, all `sorry`,
 record Graham's case, the rational-$\alpha$ form, Cassels's completeness
 statement, Burr's power case with repetitions, Alekseyev's threshold and
 van Doorn's families $p(x)=x+b$ ($1\le b\le5000$) and $p(x)=x^2+b$
-($1\le b\le800$). The community database records
+($1\le b\le800$). The community database (accessed 2026-09-18) records
 `formal_status` Lean, as of its last update of 10 May 2026, the statement as
 formalized, as of its last update of 6 November 2025, OEIS A380791 and no
 formal-proof URL. This corpus has built and audited none of these files; see

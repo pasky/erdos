@@ -53,8 +53,8 @@ independence number $n$.
 received 12 November 1991
 ([[../library/graph_coloring/fleischner_stiebitz_1992_solution_colouring_problem_erdos/_index|source card]]).
 The site's curator, Thomas Bloom, marked the problem proved and names this paper
-as the proof, as the site's problem page records. Sachs's later elementary proof
-of the same theorem has its own claim page,
+as the proof, as the site's problem page (accessed 2026-09-07) records. Sachs's
+later elementary proof of the same theorem has its own claim page,
 [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]]. This
 corpus checked the statement of Theorem 1.1 and followed the reduction to
 Theorem 2.1 for structure. It has not reviewed the proof.

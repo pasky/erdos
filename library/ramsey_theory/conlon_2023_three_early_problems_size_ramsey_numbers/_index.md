@@ -33,10 +33,10 @@ Ramsey numbers. Combinatorica 43 (2023), no. 4, 743-768.
 
 The retained folder-name PDF is arXiv:2111.05420v2 (8 February 2023; 23 pages),
 not the journal article (Combinatorica 43 (2023), no. 4, 743-768, DOI
-10.1007/s00493-023-00034-7, published online 2 May 2023; Crossref record read);
-locators below are arXiv pages and the journal text was not compared. The arXiv
-record (https://arxiv.org/abs/2111.05420, read 2026-10-02) names the Creative
-Commons Attribution 4.0 license.
+10.1007/s00493-023-00034-7, published online 2 May 2023; Crossref record read
+2026-09-17); locators below are arXiv pages and the journal text was not
+compared. The arXiv record (https://arxiv.org/abs/2111.05420, read 2026-10-02)
+names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 1.1, Corollary 1.2, Propositions 2.1
 and 2.2 with footnote 1, and Conjecture 5.1 (pp. 2-4 and 19, read on the

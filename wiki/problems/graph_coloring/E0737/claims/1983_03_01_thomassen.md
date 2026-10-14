@@ -31,16 +31,16 @@ for all sufficiently large $n$ some cycle of length $n$ in $G$ passes through
 $e$. The claimed result is the theorem of Thomassen, *Cycles in graphs of
 uncountable chromatic number*, a two-page paper whose title states the
 hypothesis as uncountable chromatic number, which includes $\aleph_1$. The
-paper is not held in the library; its statement follows the site's record and the paper's title. Erdős printed the question in his
+paper is not held in the library; its statement follows the site's record
+(accessed 2026-09-04) and the paper's title. Erdős printed the question in his
 1981 problem paper
 ([[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|card]])
-as the simplest of the questions left open by his paper with Hajnal and
-Shelah,
+as the simplest of the questions left open by his paper with Hajnal and Shelah,
 [[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|On some general properties of chromatic numbers]],
-whose Theorem 3 shows that a graph of uncountable chromatic number contains
-odd cycles of every sufficiently large length, the weaker statement without a
-common edge that is [[problems/set_theory/E0594/_index|Problem 594]]; the
-site attributes the question to that paper.
+whose Theorem 3 shows that a graph of uncountable chromatic number contains odd
+cycles of every sufficiently large length, the weaker statement without a common
+edge that is [[problems/set_theory/E0594/_index|Problem 594]]; the site
+attributes the question to that paper.
 
 **Acceptance.** Refereed publication: Combinatorica 3 (1983), no. 1, 133--134,
 doi:10.1007/BF02579349. The Crossref record dates the issue to March 1983

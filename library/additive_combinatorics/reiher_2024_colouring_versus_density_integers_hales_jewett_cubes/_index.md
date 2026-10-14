@@ -17,14 +17,14 @@ updated: 2026-10-08T01:29:58Z
 
 Reiher, Christian and Rödl, Vojtěch and Sales, Marcelo, Colouring versus density
 in integers and Hales-Jewett cubes. J. Lond. Math. Soc. (2) 110 (2024), no. 5,
-Paper No. e12987, 24 pp., DOI 10.1112/jlms.12987 (Crossref record read). The
-folder's PDF is arXiv:2311.08556v2 [math.CO] (7 October 2024; 26 pages), whose
-pagination is used here; the journal version was not inspected. The arXiv record
-(https://arxiv.org/abs/2311.08556, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license. Read status: claims checked for Question 1.3, Theorem
-1.4 and the remark after it (p. 2), Theorem 1.5 (p. 3), and Definition 1.6 and
-Theorem 1.7 (p. 4), each read clause by clause on the page images; the proofs
-(Sections 2--4) were not read.
+Paper No. e12987, 24 pp., DOI 10.1112/jlms.12987 (Crossref record read
+2026-10-07). The folder's PDF is arXiv:2311.08556v2 [math.CO] (7 October 2024;
+26 pages), whose pagination is used here; the journal version was not inspected.
+The arXiv record (https://arxiv.org/abs/2311.08556, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license. Read status: claims checked for
+Question 1.3, Theorem 1.4 and the remark after it (p. 2), Theorem 1.5 (p. 3),
+and Definition 1.6 and Theorem 1.7 (p. 4), each read clause by clause on the
+page images; the proofs (Sections 2--4) were not read.
 
 The paper answers a question of Erdős, Nešetřil and Rödl (Question 1.3, also
 Croot-Lev Problem 3.10) affirmatively by separating the van der Waerden property

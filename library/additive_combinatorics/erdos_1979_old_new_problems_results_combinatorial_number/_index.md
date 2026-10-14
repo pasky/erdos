@@ -117,10 +117,11 @@ cites this page; the bibliography resolves [Er-Str (70)] to Erdős and
 Straus, Nonaveraging sets II (Colloq. Math. Soc. János Bolyai, 1970) and
 [Ab (75)] to Abbott's Aberdeen 1975 note, neither held.
 
-**Bears on.** [[../wiki/problems/unit_fractions/E0046/_index|#46]] (a problem-list association, checked in the text layer of all twenty pages: the chapter carries no
-passage on splitting the integers into classes and finding a set of unit
-fractions summing to 1 inside one class; the problem's passage is on printed
-p. 36 of the 1980 monograph (PDF p. 32 of the copy read for
+**Bears on.** [[../wiki/problems/unit_fractions/E0046/_index|#46]] (a
+problem-list association, checked in the text layer of all twenty pages: the
+chapter carries no passage on splitting the integers into classes and finding a
+set of unit fractions summing to 1 inside one class; the problem's passage is on
+printed p. 36 of the 1980 monograph (PDF p. 32 of the copy read for
 [[number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|the monograph's card]]),
 "Suppose we arbitrarily split the integers into r classes. Is it true that
 some element of X belongs entirely to one class?", read on the page image,
@@ -128,8 +129,9 @@ not in this chapter),
 [[../wiki/problems/additive_combinatorics/E0140/_index|#140]] (printed p. 327, PDF p. 3, page image:
 whether $r_k(n)=o(n/(\log n)^t)$ for every $t$, this problem being the case
 $k=3$),
-[[../wiki/problems/unit_fractions/E0294/_index|#294]] (a problem-list association, checked in the text layer of all twenty pages: the chapter carries no
-passage on the least integer not occurring as the smallest denominator in a
+[[../wiki/problems/unit_fractions/E0294/_index|#294]] (a problem-list
+association, checked in the text layer of all twenty pages: the chapter carries
+no passage on the least integer not occurring as the smallest denominator in a
 unit-fraction representation of 1 with denominators at most n; the problem's
 passage is on printed p. 35 of the 1980 monograph (PDF p. 31 of the copy read for
 [[number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|the monograph's card]]),
