@@ -91,9 +91,9 @@ finite computation can settle the problem; last edited 2 December 2025; source
 keys [Er88, p. 82] and [EGT92, p. 280]; commentary citing Problem 610), its
 discussion thread, with one comment (8 September 2025) on that date and three
 (8 September 2025, 23 and 28 September 2026) on 2026-10-07, and its proof-claim
-tab, empty on that date and carrying one partial claim, posted 2026-09-28, on
-2026-10-07. Cite as: T. F. Bloom, Erdős Problem #151,
-https://www.erdosproblems.com/151, accessed 2026-09-19.
+tab, empty on that date and later carrying one partial claim, posted 2026-09-28.
+Cite as: T. F. Bloom, Erdős Problem #151, https://www.erdosproblems.com/151,
+accessed 2026-09-19.
 
 **References.**
 
@@ -317,8 +317,8 @@ the independence theorem behind it (Theorem 2) was followed for structure only.
 the lemmas read for structure; nothing is independently reviewed; there is no
 resolving proof to compile. (4) There is no Lean statement of the problem.
 
-**Proof claims on the site.** The site's proof-claim tab
-carries one claim, partial: Daniel Veljjanoski's write-up of 2026-09-28, which
+**Proof claims on the site.** The site's proof-claim tab carried one claim,
+partial: Daniel Veljjanoski's write-up of 2026-09-28, which
 asserts the inequality for every graph on at most 39 vertices by a
 minimum-counterexample reduction and a new Euler-circuit argument for the case
 in which every edge lies in at most two triangles, and which says where the

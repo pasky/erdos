@@ -37,10 +37,9 @@ arXiv:2504.15971v3. The arXiv watermark is dated 7 September 2025, while the
 manuscript footer says 9 September 2025; these are distinct source date
 labels.
 
-The copy read for this card is the arXiv v3 PDF, nine physical pages
-numbered 1--9; the time it was downloaded is unknown. No journal
-publication or independent acceptance is inferred from the preprint. The
-arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is the arXiv v3 PDF, nine physical pages numbered
+1--9. No journal publication or independent acceptance is inferred from the
+preprint. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2504.15971), every other right reserved.
 
 ## Contents
@@ -95,7 +94,7 @@ record, not printed wording. No complete local proof reconstruction,
 independent proof review, or verification of cited external inputs was
 performed.
 
-Source: <https://arxiv.org/abs/2504.15971>.
+Source: <https://arxiv.org/abs/2504.15971v3>.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

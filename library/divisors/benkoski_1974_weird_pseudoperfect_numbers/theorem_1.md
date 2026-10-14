@@ -46,7 +46,7 @@ $a_n>2^{n-C}$, with the offer of a prize (the site's Problem 1).
 
 **Source.** S. J. Benkoski and P. Erdős, *On weird and pseudoperfect
 numbers*, Math. Comp. 28 (1974), no. 126, 617–623, DOI
-10.1090/S0025-5718-1974-0347726-9 (Crossref record read);
+10.1090/S0025-5718-1974-0347726-9 (Crossref record read 2026-09-18);
 the copy read is a seven-page scan, printed p. $n$ on PDF p. $n-616$.
 Theorem 1 on printed p. 617 (PDF p. 1), the proof on pp. 617–619 (PDF
 pp. 1–3), the refinement on p. 619 (PDF p. 3), read on the page images.

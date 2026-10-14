@@ -53,8 +53,8 @@ correlation inequality. The theorem statements follow the card's digest.
 **Acceptance.** Reviewed: on erdosproblems.com/527, the site's curator, Thomas
 Bloom, labeled the problem PROVED and credits this paper. The community database
 agrees and has recorded the problem as proved since 8 September 2025. The paper
-is a preprint. Its arXiv record lists no journal reference, so `refereed` is not
-listed. No independent review is recorded in this repository and none is
-claimed.
+is a preprint. On 2026-10-07 its arXiv record listed no journal reference, so
+`refereed` is not listed. No independent review is recorded in this repository
+and none is claimed.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

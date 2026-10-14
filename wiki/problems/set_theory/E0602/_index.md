@@ -40,7 +40,7 @@ https://www.erdosproblems.com/602.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-04).** The statement
 above; OPEN. The site's commentary attributes the problem to Komjáth and
 notes that the existence of such a $2$-coloring is called Property B. No
 assessment of the mathematics is recorded here beyond the known special

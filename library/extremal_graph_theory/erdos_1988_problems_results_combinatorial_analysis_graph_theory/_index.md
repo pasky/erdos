@@ -77,10 +77,10 @@ and 77 the Ramsey material of Section 4, as read on the page images. Section 6
 is also Erdős's statement of problem 182 for general k, with the 1988 bounds.
 
 Read status: claims checked for the Section 6 statements (printed p. 85, PDF
-p. 5 of the scan), read clause by clause on the page image; the rest
-of the digest records an earlier reading that was not repeated here, except
-Section 4 (printed pp. 83--84, PDF pp. 3--4), read again clause
-by clause on the page images; the OCR text layer of these two pages garbles
+p. 5 of the scan), read clause by clause on the page image, for Section 4
+(printed pp. 83--84, PDF pp. 3--4), read clause by clause on the page images,
+and for the passages named below; the rest of the digest was not checked
+against the page images. The OCR text layer of the two Section 4 pages garbles
 the formulas (the exponent $1/n$ and the sign $\sqrt2\le$ are lost), so no
 formula was taken from it. Section 1 (printed p. 81, PDF p. 1), the
 Erdős--Gallai passage of Section 3 (printed p. 82, PDF p. 2) and the Tuza

@@ -116,7 +116,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Po14c] Polymath, D. H. J., Variants of the Selberg sieve, and bounded
   intervals containing many primes. Res. Math. Sci. 1 (2014), Art. 12, 83 pp.,
-  DOI 10.1186/s40687-014-0012-7;
+  DOI 10.1186/s40687-014-0012-7 (Crossref record accessed 2026-09-18);
   arXiv:1407.4897 (v1 18 July 2014 to v4 22 December 2014, not held). The pages
   cited are the journal version's, whose sections carry no numbers; the site's
   "Section 10" is its section "Narrow admissible tuples" (pp. 76--81): the
@@ -129,7 +129,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   25 (1973/74), 375--391 (received 3 May 1973); the Theorem on p. 380 and
   Lemma 5 on p. 383. This is the paper the Polymath paper cites for the
   sieve of display (150); it is open access in the journal's digital
-  library.
+  library (accessed 2026-09-18).
   Library home:
   [[../library/primes/hensley_1974_primes_intervals/_index|hensley_1974_primes_intervals]];
   result page
@@ -142,7 +142,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   sieve.
 - [El65] Elliott, P. D. T. A., On sequences of integers. Quart. J. Math.
   Oxford Ser. (2) 16 (1965), 35--45, DOI 10.1093/qmath/16.1.35. Not held:
-  the one request to the publisher's page returned HTTP 403
+  the one request to the publisher's page on 2026-09-18 returned HTTP 403
   with a challenge page. The lower bound is quoted from the site and the
   Polymath paper.
 - [OEIS] Sequence A008407 (T. Forbes, 1996; entry last modified 7 February
@@ -279,7 +279,7 @@ two-sided bound.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [El65],
 [HeRi73].
 
-**Outside results.** The proof-claim tab was empty on 2026-10-07, and no outside
+**Outside results.** The proof-claim tab was empty, and no outside
 claim settles any part of the problem; Granville's conditional disproof of the
 asymptotic has its own
 [[problems/integer_sequences/E1204/claims/2020_10_02_granville|claim page]],
@@ -302,13 +302,13 @@ gives admissible sets of size $\sim2y/\log y$ in $[0,y]$ for arbitrarily large
 $y$, and Granville states that under it the belief that the largest admissible
 set of length $y$ has $\sim y/\log y$ elements is untrue; each of the three
 manuscripts, if correct, refutes the hypothesis, and the conditional route then
-proves nothing. None of this is progress on either asymptotic. The manuscripts are unreviewed
-release preprints with no arXiv or journal record known here; the release's Lean
-declarations cover the half-plane and the Siegel bound and no application to
-admissible tuples, and nothing was built or audited in this corpus. The
-verifiable-or-falsifiable question does not arise: the site's note that no
-finite computation can settle the problem is recorded in the Source paragraph,
-and both asymptotics are statements about all large $k$.
+proves nothing. None of this is progress on either asymptotic. The manuscripts
+are unreviewed release preprints with no arXiv or journal record known here; the
+release's Lean declarations cover the half-plane and the Siegel bound and no
+application to admissible tuples, and nothing was built or audited in this
+corpus. The verifiable-or-falsifiable question does not arise: the site's note
+that no finite computation can settle the problem is recorded in the Source
+paragraph, and both asymptotics are statements about all large $k$.
 
 **Remaining gaps.** (1) Elliott's paper and the 1973 symposium paper are not
 held; the routes tried are recorded above, and the attribution of the lower

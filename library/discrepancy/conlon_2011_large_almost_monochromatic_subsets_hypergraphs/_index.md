@@ -51,7 +51,7 @@ constants depending on alpha.
 Source: <https://stanford.edu/~jacobfox/publications>. The copy read for this
 card is an author's manuscript, not the journal edition, and prints no notice;
 the author's publications page named here states no terms
-(https://stanford.edu/~jacobfox/publications); the term is
+(https://stanford.edu/~jacobfox/publications, read 2026-10-02); the term is
 unstated.
 
 **Results.** Labels and pages are those of the author's manuscript read for

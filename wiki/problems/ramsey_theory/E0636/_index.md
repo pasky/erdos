@@ -75,9 +75,9 @@ T. F. Bloom, Erdős Problem #636, https://www.erdosproblems.com/636, accessed
   Transactions of the American Mathematical Society 372 (2019), 5571--5594,
   [DOI 10.1090/tran/7729](https://doi.org/10.1090/tran/7729).
 
-**Formalization.** None recorded: the community database lists no formalized
-statement and no formal status for the problem, and formal-conjectures has no
-file for it.
+**Formalization.** None recorded: the community database (read 2026-10-06)
+listed no formalized statement and no formal status for the problem, and
+formal-conjectures had no file for it on 2026-10-07.
 
 ## Current assessment
 

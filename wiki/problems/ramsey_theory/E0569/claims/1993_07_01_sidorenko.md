@@ -58,8 +58,8 @@ acceptance.
 
 **Read depth.** The paper is not held. The statement, with its hypotheses
 ($n$ edges, no isolated vertices), is read in the zbMATH Open review of the
-paper (Zbl 0794.05090): "We prove the conjecture of Harary
-that for any graph $G$ with $n$ edges and without isolated vertices,
+paper (Zbl 0794.05090, read 2026-10-07): "We prove the conjecture of Harary that
+for any graph $G$ with $n$ edges and without isolated vertices,
 $r(K_3,G)\leq 2n+1$". Theorem 1 of the 2026 preprint of Cambie, Freschi,
-Morawski, Petrova and Pokrovskiy attributes the same statement to it.
-Nothing is independently reviewed in this corpus.
+Morawski, Petrova and Pokrovskiy attributes the same statement to it. Nothing is
+independently reviewed in this corpus.

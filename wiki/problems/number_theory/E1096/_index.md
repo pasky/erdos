@@ -106,7 +106,7 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
 - [EJK90] Erdős, Pál and Joó, István and Komornik, Vilmos, Characterization
   of the unique expansions $1=\sum^\infty_{i=1}q^{-n_i}$ and related problems.
   Bull. Soc. Math. France 118 (1990), no. 3, 377--390, doi:10.24033/bsmf.2151
-  (Crossref record). Theorem 4, p. 386; Problem 4,
+  (Crossref record accessed 2026-09-18). Theorem 4, p. 386; Problem 4,
   p. 389. Library home:
   [[../library/number_theory/erdos_1990_characterization_unique_expansions_related_problems/_index|erdos_1990_characterization_unique_expansions_related_problems]].
 - [GWNT91] The site's key for "the 1991 problem session of Great Western
@@ -116,7 +116,7 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
   [[../library/number_theory/guy_1991_western_number_theory_problems/_index|guy_1991_western_number_theory_problems]].
 - [Bu96] Bugeaud, Y., On a property of Pisot numbers and related questions.
   Acta Math. Hungar. 73 (1996), no. 1--2, 33--39, doi:10.1007/BF00058941
-  (Crossref bibliographic query). Not held (publisher paywall).
+  (Crossref bibliographic query, 2026-09-18). Not held (publisher paywall).
   Its theorem is quoted from the site and from [EJS96], p. 95: for $1<q<2$,
   $q$ is Pisot if and only if $l_k(q)>0$ for all $k\ge1$.
 - [EJS96] Erdős, P. and Joó, I. and Schnitzer, F. J., On Pisot numbers. Ann.
@@ -126,13 +126,13 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
   [[../library/number_theory/erdos_1996_pisot_numbers/_index|erdos_1996_pisot_numbers]].
 - [ErKo98] Erdős, P. and Komornik, V., Developments in non-integer bases.
   Acta Math. Hungar. 79 (1998), no. 1--2, 57--83, doi:10.1023/A:1006557705401
-  (Crossref record; received 30 September 1996, per
+  (Crossref record accessed 2026-09-18; received 30 September 1996, per
   p. 83). Abstract and introduction, p. 57; Theorem IV with its remarks,
   pp. 59--60; its proof, pp. 77--78. Feng's reference [9]. Library home:
   [[../library/number_theory/erdos_komornik_1998_developments_non_integer_bases/_index|erdos_komornik_1998_developments_non_integer_bases]].
 - [Fe16] Feng, De-Jun, On the topology of polynomials with bounded integer
   coefficients. J. Eur. Math. Soc. (JEMS) 18 (2016), no. 1, 181--193,
-  doi:10.4171/JEMS/587 (Crossref record);
+  doi:10.4171/JEMS/587 (Crossref record accessed 2026-09-18);
   arXiv:1109.1407v3 (1 February 2015, "to appear in J. Eur. Math. Soc"; the
   journal text not compared). Theorem 1.2, p. 2; Corollary 1.3 and Theorem
   1.4, p. 3.
@@ -141,7 +141,7 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
 - [EJK98] Erdős, P., Joó, I. and Komornik, V., On the sequence of numbers of
   the form $\varepsilon_0+\varepsilon_1q+\ldots+\varepsilon_nq^n$,
   $\varepsilon_i\in\{0,1\}$. Acta Arith. 83 (1998), no. 3, 201--210,
-  doi:10.4064/aa-83-3-201-210 (Crossref record). Not a
+  doi:10.4064/aa-83-3-201-210 (Crossref record accessed 2026-09-18). Not a
   site key. Theorem 4, p. 206; Theorem 5, p. 207.
   Library home:
   [[../library/number_theory/erdos_1998_sequence_numbers_form_sums_powers_q/_index|erdos_1998_sequence_numbers_form_sums_powers_q]].
@@ -176,7 +176,7 @@ declaration, and its `#print axioms erdos_1096` (line 81) has no recorded
 output; its comment says the detailed proof is in a TeX file of the
 repository (not examined). The imported module is not examined, this corpus
 has not built or audited the development, and no kernel credit is claimed.
-The community database (teorth/erdosproblems) records
+The community database (teorth/erdosproblems, accessed 2026-09-18) records
 `proved (Lean)`, as of its last update on 23 August 2026, the statement
 formalized, as of its last update on 21 May 2026, `formal_status` Lean and
 no formal-proof URL; the site's indicator answers yes.
@@ -208,7 +208,8 @@ number, a consequence Feng does not state, and amends the reply the same
 day after finding in Feng's paper that Erdős and Komornik had already
 solved the question in 1998, updating the site; a third comment notes that
 Feng's paper had been reported on the forum's missing-problems thread. The
-proof-claims tab is empty. The community database record says proved (Lean), as of its last update on 23 August 2026.
+proof-claims tab is empty. The community database record (accessed
+2026-09-18) says proved (Lean), as of its last update on 23 August 2026.
 
 **The origin and the early results.**
 [[../library/number_theory/erdos_1990_characterization_unique_expansions_related_problems/problem_4|Problem 4]]

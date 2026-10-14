@@ -46,7 +46,7 @@ https://www.erdosproblems.com/633, accessed 2026-09-05.
   47-50.
 
 **Formalization.** The [formal-conjectures
-statement](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/633.lean),
+statement](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/633.lean)
 defines congruent tilings by triangles with disjoint interiors. Its `erdos_633`
 declaration has an unspecified answer and `sorry`; it does not formalize the
 eight-family solution. The same file's historical auxiliary results also contain
@@ -54,10 +54,10 @@ unproved declarations. No Lean proof of the solution is recorded.
 
 ## Current assessment
 
-The site accepts the joint paper as the solution, and its proof-claims
-tab lists no claim. An April 2026 comment on its
-thread describes a strengthening in preliminary form; the precise
-statement is the paper's Theorem 3 in its later version.
+The site accepted the joint paper as the solution, and on 2026-09-05 its
+proof-claims tab listed no claim. An April 2026 comment on its thread describes
+a strengthening in preliminary form; the precise statement is the paper's
+Theorem 3 in its later version.
 
 Beyond the site, the arXiv version history and the authors' [publication
 list](https://www.michaelbeeson.com/research/papers/pubs.php) and [academic

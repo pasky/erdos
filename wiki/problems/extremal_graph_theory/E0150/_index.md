@@ -110,7 +110,7 @@ Problem #150, https://www.erdosproblems.com/150, accessed 2026-09-19.
 - [Br24] Bradač, D., On a question of Erdős and Nešetřil about minimal cuts
   in a graph. J. Graph Theory 108 (2025), no. 4, 817--818,
   doi:10.1002/jgt.23207 (published online 8 December 2024; Crossref record
-  read); the site's text cites "arXiv:2409.02974 (2024)". Cited from
+  read 2026-09-19); the site's text cites "arXiv:2409.02974 (2024)". Cited from
   arXiv:2409.02974v2 (23 June 2026, 3 pp.), with the added note that the
   results were known earlier; Theorem 1 and the note, p. 1; Proposition 2
   and display (1), p. 2; the journal text was not compared. Library home:
@@ -122,7 +122,7 @@ Problem #150, https://www.erdosproblems.com/150, accessed 2026-09-19.
 - [FKTV08] Fomin, F. V., Kratsch, D., Todinca, I. and Villanger, Y., Exact
   algorithms for treewidth and minimum fill-in. SIAM J. Comput. 38 (2008),
   no. 3, 1058--1079, doi:10.1137/050643350 (Crossref record with abstract,
-  read: "combinatorial proofs that an $n$-vertex graph has
+  read 2026-09-19: "combinatorial proofs that an $n$-vertex graph has
   $O(1.7087^n)$ minimal separators"). The paper itself was not read;
   attested by [Br24], p. 1, and [GaMa18], p. 2. Claim page:
   [[problems/extremal_graph_theory/E0150/claims/2008_07_02_fomin_kratsch_todinca_villanger|Fomin, Kratsch, Todinca and Villanger]].
@@ -165,7 +165,7 @@ variants `erdos_nesetril` (`answer(False) ↔ ∀ m : ℕ, maxMinimalCuts (3 * m
 `seymour`, `lower_bound` ($1.4457\le\alpha$) and `upper_bound`
 ($\alpha\le(1+\sqrt5)/2$) are `research solved` with proof `sorry`. The
 external file at the repository's head commit of 15 September 2026, the
-commit pinned in the claim page's link, has 1,298
+commit pinned in the claim page's link (accessed 2026-09-19), has 1,298
 lines and 65,707 bytes; it is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports `Mathlib`, and carries
 the header block "Informal authors: Domagoj Bradač; Formal authors:
@@ -194,7 +194,8 @@ names Bradač as its informal author, it is a formalization link on
 [[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|Bradač's claim page]]
 and has no claim page of its own; the thread post of 31 March 2026 that
 reported it is linked there too. The community database
-(teorth/erdosproblems, `data/problems.yaml`) records `status` "proved
+(teorth/erdosproblems, `data/problems.yaml` fetched 2026-09-19T06:50Z)
+records `status` "proved
 (Lean)" since 31 March 2026, `formal_status` Lean since 31 March 2026 with
 no URL, the statement formalized since 3 August 2026 and no formal-proof
 field; the site's indicator records the statement as formalized.
@@ -268,7 +269,7 @@ stated on its result page.
   $\alpha\le2^{H(1/3)}<1.8899$", proved through $g(n)$ and display (1).
   Given the limit, $\alpha\le\frac{1+\sqrt5}2$. Acceptance evidence:
   Combinatorica 32 (2012) and J. Graph Theory 87 (2018), refereed, Crossref
-  records read; both cited from preprints whose journal texts
+  records read 2026-09-19; both cited from preprints whose journal texts
   were not compared. Neither paper mentions Erdős, Nešetřil or minimal cuts; the
   connection is the one-line inclusion above and Bradač's identification.
 - The first proof, second-hand: Fomin, Kratsch, Todinca and Villanger

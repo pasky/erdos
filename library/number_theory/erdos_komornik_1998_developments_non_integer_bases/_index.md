@@ -101,7 +101,7 @@ of Propositions 2.3, 3.3 and 3.4 were read on the page images, and the proofs of
 Theorems I, II, III and V, of Lemma 3.2 and of the propositions were read on the
 page images for structure only; none of them was checked. The reference list and
 the received date (p. 83, PDF p. 27) were read on the page image. The statements
-of Theorems I, II, III and V and their remarks were read again clause by clause
+of Theorems I, II, III and V and their remarks were read clause by clause
 on the page images for their result pages, with the statements of Lemmas
 1.1--1.8, 2.1--2.2, 3.1--3.2 and 4.1 and of Propositions 2.3, 3.3 and 3.4, and
 the one-paragraph proofs of Part (b) of Theorem II (p. 74) and of Theorem III

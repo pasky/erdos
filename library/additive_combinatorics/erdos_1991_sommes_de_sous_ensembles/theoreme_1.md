@@ -47,8 +47,8 @@ $m^2\le N<m^2+m$ and for $k=2m$ if $m^2+m\le N<(m+1)^2$, which implies
 **Source.** P. Erdős, J.-L. Nicolas and A. Sárközy, *Sommes de
 sous-ensembles*, Sém. Théor. Nombres Bordeaux (2) 3 (1991), no. 1, 55–72
 (Journal de théorie des nombres de Bordeaux; DOI 10.5802/jtnb.42; the
-Numdam record read); the copy read for this page is the Numdam file of the
-article, 19 pages, printed p. $n$ on PDF p. $n-53$. Théorème 1 and the
+Numdam record read 2026-09-18); the copy read for this page is the Numdam file
+of the article, 19 pages, printed p. $n$ on PDF p. $n-53$. Théorème 1 and the
 Straus passage on printed p. 56 (PDF p. 3), read on the page image; the
 French is rendered here in the corpus's words, the displays as printed.
 

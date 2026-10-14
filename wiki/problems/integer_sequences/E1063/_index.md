@@ -26,12 +26,11 @@ $n_k$.
 
 **Status.** Open. The site's label was OPEN (page last edited 01 February 2026).
 
-The site's proof-claims tab (proof-claims thread accessed 2026-10-07) carries
-two partial proof claims by Ricky Cipollini. Both attribute the proof to the
-model GPT-5.6 Sol, and both point to one write-up on a collaborative editing
-service. The first, submitted 2026-07-27, is an upper bound of the shape
-$\log n_k\le (1+o(1))\,k\log\log k/\log k$ with explicit second-order terms. It
-is recorded on
+The site's proof-claims tab carried two partial proof claims by Ricky Cipollini.
+Both attribute the proof to the model GPT-5.6 Sol, and both point to one
+write-up on a collaborative editing service. The first, submitted 2026-07-27, is
+an upper bound of the shape $\log n_k\le (1+o(1))\,k\log\log k/\log k$ with
+explicit second-order terms. It is recorded on
 [[problems/integer_sequences/E1063/claims/2026_07_27_cipollini|its claim page]].
 The second, submitted 2026-08-04, is a lower bound of the shape
 $\log n_k\ge c(\log k)^2$. It is recorded on
@@ -72,12 +71,12 @@ https://www.erdosproblems.com/1063.
   Problems: 6447. Amer. Math. Monthly (1985), 435-436.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1063.lean). The file states the question as the search for an
-upper bound on $n_k$ that is $o(k[1,\ldots,k-1])$. It also states the
-Erdős–Selfridge exception, the four small values, the bounds of Monier and
-Cambie, and $n_k\le e^{(1+o(1))k}$. Only the small values carry a formal proof
-there; it is a statement file, not a formalization of any solution. On
-7 October 2026 the catalog added the variant
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1063.lean).
+The file states the question as the search for an upper bound on $n_k$ that is
+$o(k[1,\ldots,k-1])$. It also states the Erdős–Selfridge exception, the four
+small values, the bounds of Monier and Cambie, and $n_k\le e^{(1+o(1))k}$. Only
+the small values carry a formal proof there; it is a statement file, not a
+formalization of any solution. On 7 October 2026 the catalog added the variant
 `erdos_1063.variants.subexponential_upper_bound` and linked Lean proofs of it
 and of the four companion statements, produced by the LEAP prover agent and
 recorded on

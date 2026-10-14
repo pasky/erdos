@@ -56,7 +56,7 @@ README adds nothing beyond the title, author "OpenAI", the date September 23,
 2026 and the citation block above; the manuscript carries no statement on human
 assistance. These are the source's own attestations, recorded here as history,
 not as this corpus's review. No refereed publication, arXiv version or
-independent review of the manuscript is recorded here and
+independent review of the manuscript is recorded here, and
 nothing on this card is independently reviewed.
 
 The release's formalization catalog (`lean/formalization.yaml`) lists this

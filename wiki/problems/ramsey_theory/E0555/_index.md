@@ -135,7 +135,7 @@ Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed
 **Formalization.** None. No file `ErdosProblems/555.lean` exists in
 formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the site's page
 records no formalized statement, and the community database
-(teorth/erdosproblems) records the problem as open and
+(teorth/erdosproblems, read 2026-10-06) records the problem as open and
 unformalized with no formal-proof URL; its OEIS field lists A389313.
 
 ## Current assessment
@@ -147,7 +147,7 @@ R_k(C_{2n})\ll k^{1+\frac1{n-1}}$, and credits Chung and Graham [ChGr75] with
 the lower bound $R_k(C_4)>k^2-k+1$ for $k-1$ a prime power and the upper bound
 $R_k(C_4)\le k^2+k+1$ for every $k$; it lists the problem as #24 in the Ramsey
 Theory section of the graphs collection. The site links OEIS A389313
-(<https://oeis.org/A389313>), which is the two-color
+(<https://oeis.org/A389313>, accessed 2026-09-17), which is the two-color
 sequence $a(n)=R(C_n,C_n)$, not a multicolor quantity. The thread has one
 comment (below). The community database record says open (last updated 31 August
 2025), unformalized.

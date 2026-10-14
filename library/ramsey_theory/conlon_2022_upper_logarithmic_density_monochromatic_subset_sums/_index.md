@@ -20,7 +20,7 @@ determines it exactly for two colors as (2 + sqrt 3)/4.
 
 Conlon, David and Fox, Jacob and Pham, Huy Tuan, The upper logarithmic density
 of monochromatic subset sums. Mathematika 68 (2022), no. 4, 1292--1301, DOI
-10.1112/mtk.12167 (Crossref record read: published online 10 October
+10.1112/mtk.12167 (Crossref record read 2026-09-18: published online 10 October
 2022).
 
 The copy read for this card is arXiv:2105.15195v3 (22 September 2022), nine

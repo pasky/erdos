@@ -58,7 +58,7 @@ such; the site's Problem 962 commentary states the same translated bounds.
 
 **Source.** P. Erdős, *Problems and results on consecutive integers*, Publ.
 Math. Debrecen 23 (1976), no. 3--4, 271--282, DOI 10.5486/pmd.1976.23.3-4.15
-(Crossref record read); the twelve-page scan read for this page
+(Crossref record read 2026-09-18); the twelve-page scan read for this page
 (printed pp. 271--282 = PDF pp. 1--12, no text layer); the passage on printed
 p. 273 (PDF p. 3), with the definitions on pp. 271--272 (PDF pp. 1--2),
 read on the page images.

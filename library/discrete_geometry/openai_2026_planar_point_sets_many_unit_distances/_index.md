@@ -186,7 +186,7 @@ The associated official announcement route is
 local acquisition attempt returned HTTP 403, so no announcement text is used
 as evidence here. No notice is printed in the file (pp. 1-2 and 17-18 read), and
 the publisher's terms-of-use page (https://openai.com/policies/terms-of-use/)
-and the announcement page could not be read (HTTP 403); the term
+and the announcement page could not be read on 2026-10-02 (HTTP 403); the term
 is unstated.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0090/_index|#90]] and

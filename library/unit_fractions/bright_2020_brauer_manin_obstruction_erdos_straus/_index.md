@@ -79,11 +79,11 @@ Source: <https://arxiv.org/abs/1908.02526>.
 
 The copy read for this card is arXiv:1908.02526v2 (12 May 2020, 17 pages);
 the published version, Bull. Lond. Math. Soc. 52 (2020), no. 4, 746--761,
-DOI 10.1112/blms.12374 (Crossref record fetched), was not
+DOI 10.1112/blms.12374 (Crossref record fetched 2026-09-18), was not
 compared. Read status: claims checked. The statements of Section 1
 (pp. 1--5) were read clause by clause, pp. 1--4 on the page images, and
-the short proofs of Sections 3.4 to 3.9 (pp. 13--15) followed; Section 2 and the local
-lemmas of Sections 3.1 to 3.3 were not checked. Result pages, by printed
+the short proofs of Sections 3.4 to 3.9 (pp. 13--15) followed; Section 2 and the
+local lemmas of Sections 3.1 to 3.3 were not checked. Result pages, by printed
 label and page:
 
 - [[unit_fractions/bright_2020_brauer_manin_obstruction_erdos_straus/theorem_1_1|Theorem 1.1]] (p. 1)

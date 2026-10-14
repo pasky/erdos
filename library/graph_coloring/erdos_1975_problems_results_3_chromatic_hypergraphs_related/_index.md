@@ -21,7 +21,7 @@ Vol. 10, pp. 609--627, North-Holland, Amsterdam, 1975 (MR 52 #2938; Zentralblatt
 315.05117). No notice is printed in the file (p. 1 carries only the series
 header, and pp. 2 and 18--19 only their page numbers); the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 the colloquium volume has no online publisher edition, so the publisher's page
 was not consulted and no Crossref license is recorded; the term is unstated.

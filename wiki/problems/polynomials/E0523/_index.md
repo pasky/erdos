@@ -73,12 +73,12 @@ and stated power-polynomial extension. Its coverage is the theorem and
 extension statements, checked against the paper; the proof is not
 compiled in this wiki, and no independent proof review is recorded.
 
-**Formalization.** The site's page shows no formalized statement and no
-formal-conjectures statement file exists for the problem. A Lean 4 file in the
-lean-proofs repository declares itself a formalization of Halász's solution and
-proves the almost-sure limit; the claim page links it at its pinned commit. The
-development is not built or audited in this repository, so no `formalized`
-evidence is listed.
+**Formalization.** On 2026-10-07 the site's page showed no formalized statement
+and no formal-conjectures statement file existed for the problem. A Lean 4 file
+in the lean-proofs repository declares itself a formalization of Halász's
+solution and proves the almost-sure limit; the claim page links it at its pinned
+commit. The development is not built or audited in this repository, so no
+`formalized` evidence is listed.
 
 **Search scope and read depth.** Search scope: the site's problem page and its
 thread (empty on 2026-10-07), the formal-conjectures tree and the lean-proofs

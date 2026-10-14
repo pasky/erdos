@@ -90,14 +90,14 @@ Bloom, Erdős Problem #962, https://www.erdosproblems.com/962, accessed
 
 - [Er65] Erdős, P., Extremal problems in number theory. Proc. Sympos. Pure
   Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
-  10.1090/pspum/008/0174539; item 5,
+  10.1090/pspum/008/0174539 (Crossref record accessed 2026-09-18); item 5,
   printed p. 183. Library home:
   [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/_index|erdos_1965_extremal_problems_number_theory]];
   result page
   [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/item_5|item 5]].
 - [Er76e] Erdős, P., Problems and results on consecutive integers. Publ.
   Math. Debrecen 23 (1976), no. 3--4, 271--282, DOI
-  10.5486/pmd.1976.23.3-4.15; the
+  10.5486/pmd.1976.23.3-4.15 (Crossref record accessed 2026-09-18); the
   $n_k$ passage with displays (6) and (7), printed p. 273; the definitions,
   pp. 271--272. Library home:
   [[../library/primes/erdos_1976_problems_results_consecutive_integers/_index|erdos_1976_problems_results_consecutive_integers]];

@@ -38,10 +38,10 @@ many $N$.
 
 **Source.** Z. Kelley and R. Meka, *Strong Bounds for 3-Progressions*,
 arXiv:2302.05537; the copy read for this page is the arXiv v6 of 28
-October 2024 (79 pages; the listing read shows v1 of 10 February
+October 2024 (79 pages; the listing read 2026-09-18 shows v1 of 10 February
 2023 through v6). A proceedings version appeared in the 2023 IEEE 64th
 Annual Symposium on Foundations of Computer Science, pp. 933--973, DOI
-10.1109/FOCS57990.2023.00059 (Crossref record read); no journal
+10.1109/FOCS57990.2023.00059 (Crossref record read 2026-09-18); no journal
 version was found. Locators are pages of that preprint: Theorem 1.1
 on p. 1, Theorem 1.2 on p. 2, read on the page images.
 

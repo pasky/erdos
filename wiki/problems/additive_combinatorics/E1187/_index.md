@@ -57,9 +57,9 @@ the other. This coloring has no monochromatic $3$-term progression with prime
 difference.
 
 **Source.** [erdosproblems.com/1187](https://www.erdosproblems.com/1187)
-with its discussion thread (as of 2026-10-07: page last edited 8 April 2026;
-empty proof-claims tab). Cite as: T. F. Bloom, Erdős
-Problem #1187, https://www.erdosproblems.com/1187.
+with its discussion thread (as of 2026-10-07: page last edited 8 April 2026);
+its proof-claims tab was empty. Cite as: T. F. Bloom, Erdős Problem #1187,
+https://www.erdosproblems.com/1187.
 
 **References.**
 

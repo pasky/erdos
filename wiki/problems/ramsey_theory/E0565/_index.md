@@ -109,9 +109,11 @@ accessed 2026-09-17.
   [[../library/ramsey_theory/erdos_1975_strong_embeddings_graphs_into_colored_graphs/_index|erdos_1975_strong_embeddings_graphs_into_colored_graphs]].
 - [De75] Deuber, W., Generalizations of Ramsey's theorem. Infinite and
   finite sets (Colloq., Keszthely, 1973), Vol. I, Colloq. Math. Soc. János
-  Bolyai 10, North-Holland (1975), 323--332. Not held. Cited as [EHP75] and [ACDFM25] cite it.
+  Bolyai 10, North-Holland (1975), 323--332. Not held. Cited by [EHP75] and
+  [ACDFM25].
 - [Ro73] Rödl, V., The dimension of a graph and generalized Ramsey theorems.
-  Thesis, Charles University, Prague (1973). Not held. The site credits it with the existence of $R^*(G)$
+  Thesis, Charles University, Prague (1973). Not held: no record was found in
+  zbMATH Open on 2026-09-17. The site credits it with the existence of $R^*(G)$
   and with the bipartite case.
 - [Er75d] Erdős, P., Problems and results on finite and infinite graphs.
   Recent advances in graph theory (Proc. Second Czechoslovak Sympos.,
@@ -119,11 +121,11 @@ accessed 2026-09-17.
   consulted here. [ACDFM25] (p. 2) dates the conjecture "first implicitly in
   1975 and then explicitly in 1984".
 
-**Formalization.** None. No file `ErdosProblems/565.lean` exists in
-formal-conjectures (the full tree holds none); the site's
+**Formalization.** None. No file `ErdosProblems/565.lean` existed in
+formal-conjectures on 2026-09-17 (the full tree held none); the site's
 formalized-statement indicator reads no, and the community database
-(teorth/erdosproblems) lists the problem as proved as of its
-last update on 29 September 2025, unformalized and with no formal proof.
+(teorth/erdosproblems, accessed 2026-09-17) lists the problem as proved as of
+its last update on 29 September 2025, unformalized and with no formal proof.
 
 ## Current assessment
 
@@ -152,7 +154,8 @@ which copies of $H$ are embedded vertex by vertex inside an
 Erdős--Szekeres-type induction, with a union bound over all colorings of
 $G[U]$ (Section 1.1, p. 3). Acceptance evidence: the paper is a preprint (v2
 of 13 November 2025, whose arXiv comment says the presentation was simplified
-"for journal submission"); the site's curator, T. F. Bloom,
+"for journal submission"; the arXiv listing and a Crossref bibliographic query
+on 2026-09-17 showed no journal version); the site's curator, T. F. Bloom,
 labeled the problem PROVED and credits it, which is the acceptance the claim
 page records. As context, not acceptance: the ICM 2026 plenary lecture text of
 Morris, published in the congress proceedings in July 2026, reports the
@@ -247,9 +250,9 @@ formal proof.
   October 2025) and nothing further.
 
 Not searched: MathSciNet, Google Scholar, X. Unread: [De75], [Ro73],
-[Er75d], the journal texts of [FoSu08] and [Mo26]. Also read: [KPR98] pp. 373--376 and 402, and Theorems
-1.1--1.3 of the journal text of [CFS12] (printed pp. 515--516); see the
-references.
+[Er75d], the journal texts of [FoSu08] and [Mo26]. Also read: [KPR98] pp.
+373--376 and 402, and Theorems 1.1--1.3 of the journal text of [CFS12] (printed
+pp. 515--516); see the references.
 
 **Remaining gaps.** (1) The status rests on an unrefereed preprint accepted
 on the site's curator's credit; a refereed version or an independent review

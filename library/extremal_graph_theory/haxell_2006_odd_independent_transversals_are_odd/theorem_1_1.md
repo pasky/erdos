@@ -65,7 +65,7 @@ authors' preprint (20 pages), Theorem 1.1 and the surrounding paragraphs on
 pp. 1--2, read on the rendered page images; the proof is
 completed in Section 4 (p. 14, Theorem 4.1). Published in Combin. Probab.
 Comput. 15 (2006), no. 1--2, 193--211, DOI 10.1017/S0963548305007157
-(Crossref record read); the journal text is not held, and the
+(Crossref record read 2026-09-18); the journal text is not held, and the
 journal pagination is not in the preprint. The edition read is identified in
 the
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/_index|source digest]].

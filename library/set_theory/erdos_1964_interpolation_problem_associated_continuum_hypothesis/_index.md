@@ -33,7 +33,7 @@ P. Erdős: An interpolation problem associated with the continuum hypothesis,
 Michigan Math. J. 11 (1964), 9--10, doi:10.1307/mmj/1028999028; MR 29 #5744;
 Zentralblatt 121,258. No notice is printed on either page of the two-page scan;
 the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the
 journal's host Project Euclid could not be read on 2026-10-02, returning only a
 bot-detection page, and Crossref records no license for the DOI; the term is

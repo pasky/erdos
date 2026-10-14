@@ -95,7 +95,7 @@ https://www.erdosproblems.com/54, accessed 2026-09-18.
 
 - [BuEr85] Burr, S. A. and Erdős, P., A Ramsey-type property in additive
   number theory. Glasgow Math. J. 27 (1985), 5--10; DOI
-  10.1017/S0017089500006029. Theorems 1 and 2
+  10.1017/S0017089500006029 (Crossref record, 2026-09-18). Theorems 1 and 2
   on printed p. 5, Theorems 1a, 2a and 1b on p. 6, Theorem 1c on p. 7.
   Library home:
   [[../library/ramsey_theory/burr_1985_ramsey_type_property_additive_number_theory/_index|burr_1985_ramsey_type_property_additive_number_theory]];
@@ -202,8 +202,8 @@ long interval of subset sums inside any subset of size $C\log x$, concatenated
 over the dyadic intervals. Acceptance evidence: the site's curator labeled the
 problem SOLVED and credits the resolution to the paper in the commentary (28
 October 2025), a documented acceptance by a reader independent of the authors;
-the arXiv listing shows v1 only and no journal reference, and a Crossref
-bibliographic query for the title returns no journal record;
+on 2026-09-18 the arXiv listing showed v1 only and no journal reference, and a
+Crossref bibliographic query for the title returned no journal record;
 the authors' refereed paper [CFP22] (Mathematika, 2022) uses Theorem 6.1 of the
 preprint as its Theorem 3, which shows reliance by the authors, not review by
 others. On the curator's acceptance the claim page

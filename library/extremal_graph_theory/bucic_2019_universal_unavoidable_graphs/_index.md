@@ -50,10 +50,10 @@ Source: <https://arxiv.org/abs/1912.04889>.
 arXiv:1912.04889v2, stamped "[math.CO] 21 Dec 2020" on p. 1 (14 pages with a
 text layer). The journal version, Combin. Probab. Comput. 30 (2021), no. 6,
 942--955, doi:10.1017/S0963548321000110 (the arXiv record's journal
-reference and the Crossref record), is not held and was not
-compared; locators are preprint pages. The Crossref record
-names a CC BY 4.0 license for the journal version, as does the publisher's
-page reached through the DOI. The arXiv record names
+reference and the Crossref record, read 2026-09-18), is not held and was not
+compared; locators are preprint pages. Read on 2026-10-07, the Crossref
+record names a CC BY 4.0 license for the journal version, as does the
+publisher's page reached through the DOI that day. The arXiv record names
 arXiv's non-exclusive distribution license (arXiv:1912.04889), every other
 right reserved.
 

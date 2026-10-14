@@ -66,7 +66,7 @@ comparison module, and public CI evidence are identified in the
 
 ## Current assessment
 
-The site's formulation asks, for every $f$ tending to
+The site's formulation (accessed 2026-09-05) asks, for every $f$ tending to
 infinity, for a graph of infinite chromatic number every $n$-vertex subgraph
 of which becomes bipartite after deleting at most $f(n)$ edges. The site
 accepts the headline formal resolution, a negative answer, while Bloom and

@@ -35,11 +35,12 @@ The copy read for this card is the Rényi
 archive's scan: 45 pages, printed pp. 17--61 = PDF pp. 1--45 (printed p. $n$
 is PDF p. $n-16$), with an OCR text layer (OmniPage 12, per the scan's
 metadata) that locates passages and garbles the displays; p. 61 is the
-Russian summary. Provenance: retrieved from
+Russian summary. Provenance: retrieved 2026-09-22 from
 <https://www.renyi.hu/~p_erdos/1960-10.pdf> (HTTP 200, one request; the
 archive's index page, fetched the same day, lists the item as above);
 5,680,595 bytes. No notice is printed in the scan; the hosting archive's site
-footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved. All material on this
+footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
+read 2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this
 site is for scientifics purposes only."); the series has no article pages or
 DOIs, so the publisher's page was not consulted and no Crossref license is
 recorded; the term is unstated.

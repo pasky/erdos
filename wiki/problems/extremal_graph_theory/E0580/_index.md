@@ -109,10 +109,10 @@ Problem #580, https://www.erdosproblems.com/580, accessed 2026-09-18.
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/_index|chung_1997_open_problems_paul_erdos_graph_theory]]
   (the author preprint; Problem (69) is not paged on the card).
 
-**Formalization.** None. No file `ErdosProblems/580.lean` exists in
-formal-conjectures (main as fetched; directory listing of 672
-entries and the recursive tree); the site's indicator shows the statement as
-not formalized, and the community database lists the
+**Formalization.** None. No file `ErdosProblems/580.lean` existed in
+formal-conjectures (main as fetched 2026-09-18; directory listing of 672
+entries and the recursive tree); the site's indicator showed the statement as
+not formalized, and the community database (fetched 2026-09-18) listed the
 problem as decidable (record last updated 23 October 2025), unformalized,
 with no formal proof.
 

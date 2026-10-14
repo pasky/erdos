@@ -33,22 +33,22 @@ F. R. K. Chung, P. Erdős and R. L. Graham, *On the product of the point and
 line covering numbers of a graph*, in: Second International Conference on
 Combinatorial Mathematics (New York, 1978), Ann. New York Acad. Sci. **319**
 (1979), 597--602, doi:10.1111/j.1749-6632.1979.tb32840.x (Crossref record
-read). The site's reference key [CEG79] for Problem 581 names
+read 2026-10-07). The site's reference key [CEG79] for Problem 581 names
 this paper; the Rényi archive's index lists it as `1979-16.pdf`.
 
 The copy read for this card is the Rényi archive's OmniPage scan of the
 typeset proceedings pages: six pages, printed pp. 597--602 = PDF pp. 1--6
 (printed p. $n$ is PDF p. $n-596$; p. 602 carries the three references),
 with a text layer that locates passages and garbles the displays.
-Provenance: retrieved from
+Provenance: retrieved 2026-09-19T01:41:03Z from
 <https://users.renyi.hu/~p_erdos/1979-16.pdf> (HTTP 200, one request);
 544,596 bytes. The scan prints the journal's code line at the foot of
 p. 597, ending "© 1979, NYAS" (read on the page image; the text layer
-garbles it), and the Crossref record of the DOI, lists
+garbles it), and the Crossref record of the DOI, read 2026-10-07, lists
 the publisher's terms
 <http://onlinelibrary.wiley.com/termsAndConditions#vor> from 16 December
 2006; the hosting archive's site footer speaks for the site, not the paper,
-the archive root (https://users.renyi.hu/~p_erdos/)
+the archive root (https://users.renyi.hu/~p_erdos/, read 2026-10-02)
 printing "(C) 2005-2007 All rights reserved. All material on this site is
 for scientifics purposes only."; the publisher's page was not consulted.
 The term is reserved, from the copyright notice the scan prints.

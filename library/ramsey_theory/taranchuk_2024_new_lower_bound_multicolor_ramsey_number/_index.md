@@ -28,7 +28,7 @@ found (Crossref query, 2026-09-17).
 The copy read for this card
 is arXiv:2411.14364v1 (21 November 2024; title page dated 22 November 2024),
 eight physical and printed pages with a text layer; p. 3 was also read on
-the rendered page image. The arXiv listing has a v2 of 23
+the rendered page image. The arXiv listing (read 2026-09-17) has a v2 of 23
 November 2024 whose comment reads "Result has already been proven by
 Lazebnik and Mubayi"; v2 was not compared, and the
 Lazebnik--Mubayi paper is not identified or held here. The statements below

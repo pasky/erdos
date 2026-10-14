@@ -115,7 +115,7 @@ https://www.erdosproblems.com/813, accessed 2026-09-18.
 - [BuSu23] Bucić, M. and Sudakov, B., Large independent sets from local
   considerations. Combinatorica 43 (2023), no. 3, 505--546,
   doi:10.1007/s00493-023-00023-w (published online 4 May 2023, as its
-  Crossref record gives it; the site's reference text gives
+  Crossref record of 2026-09-18 gives it; the site's reference text gives
   "arXiv:2007.03667 (2023)");
   arXiv:2007.03667 (v1 7 July 2020; v3 14 January 2023, 34 pp.; the arXiv record
   lists no journal reference). The abstract, p. 1; Theorem 1.2, Theorem 1.3 and
@@ -135,7 +135,7 @@ statement and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; OPEN; no last-edited date; source keys [BuSu23], [Er91]. The
 commentary attributes the problem to Erdős and Hajnal, with their bounds
 $n^{1/3}\ll h(n)\ll n^{1/2}$, and records the lower bound

@@ -63,7 +63,7 @@ journal. The release includes a reasoning summary for this manuscript's family;
 that file is not held here. These are the source's own provenance
 attestations, recorded as history, not as this corpus's review. No refereed
 publication, arXiv version or independent review of the manuscript is recorded
-here and nothing on this card is independently reviewed.
+here, and nothing on this card is independently reviewed.
 
 Formalization, as the release lists it. The release's catalog
 `lean/formalization.yaml` does not name this manuscript. Its family page

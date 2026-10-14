@@ -34,7 +34,7 @@ O(|A_1|...|A_(k-2)||A_k| sigma^(-1) log|A_(k-1)|).
 
 Ilya D. Shkredov and Sergey Yekhanin, "Sets with large additive energy and
 symmetric sets," J. Combin. Theory Ser. A 118 (2011), no. 3, 1086--1093, DOI
-10.1016/j.jcta.2010.11.001 (Crossref record read). The copy read for
+10.1016/j.jcta.2010.11.001 (Crossref record read 2026-10-07). The copy read for
 this card is arXiv:1004.2294v1 (14 April 2010, eight pages); the journal version
 was not compared, and the numbering below is the preprint's. The arXiv record
 names arXiv's non-exclusive distribution license (arXiv:1004.2294), every other
@@ -56,7 +56,12 @@ the last assertion being equation (1). In particular, $|B_1|\ge2^{-3}c^{1/2}|B|$
 \[
 E(A_1)\ge2^{-10}E(A),\qquad |A_1|\ge2^{-4}c^{1/3}|A|,
 \]
-with $A_1$ in the signed span of a set of $\ll c^{-1}\log|A|$ elements. The example following the first proof in §2, constructed in $(\mathbb Z/2\mathbb Z)^n$ as $A=H\sqcup\Lambda$, shows that the exponent $c^{1/3}$ in this size conclusion is sharp in the stated finite-group setting. Theorems 1.1 and 1.2 are explicitly attributed background results of Sanders, not new theorems of this paper.
+with $A_1$ in the signed span of a set of $\ll c^{-1}\log|A|$ elements. The
+example following the first proof in §2, constructed in
+$(\mathbb Z/2\mathbb Z)^n$ as $A=H\sqcup\Lambda$, shows that the exponent
+$c^{1/3}$ in this size conclusion is sharp in the stated finite-group setting.
+Theorems 1.1 and 1.2 are explicitly attributed background results of Sanders,
+not new theorems of this paper.
 
 The first proof, in §2, is Fourier analytic. Equations (2)–(5) record the
 Fourier transform, Parseval's identity and its convolution form, and the
@@ -76,7 +81,13 @@ one has
 \[
 \dim S\ll \frac{\max\{|A|,|B|\}}{\sigma}\log\min\{|A|,|B|\}. \tag{8}
 \]
-Its proof associates to a largest dissociated $\Lambda\subseteq S$ a colored bipartite graph on $A\sqcup B$. Every cycle supplies the signed relation (9). Lemma 3.2 finds a short cycle containing a uniquely colored edge, contradicting dissociativity; the density reduction uses the cited graph result [3, p. 74, Lemma 7.1], reproduced as Lemma 3.3. Note 3.4 contrasts (8) with a weaker Chang-type estimate, while Note 3.5 gives finite $2$-torsion examples showing that (8) is sharp up to constants.
+Its proof associates to a largest dissociated $\Lambda\subseteq S$ a colored
+bipartite graph on $A\sqcup B$. Every cycle supplies the signed relation (9).
+Lemma 3.2 finds a short cycle containing a uniquely colored edge, contradicting
+dissociativity; the density reduction uses the cited graph result [3, p. 74,
+Lemma 7.1], reproduced as Lemma 3.3. Note 3.4 contrasts (8) with a weaker
+Chang-type estimate, while Note 3.5 gives finite $2$-torsion examples showing
+that (8) is sharp up to constants.
 
 Theorem 3.6 extends this argument to a level set of a $k$-fold convolution. For $k\ge2$, real $\sigma\ge1$ and $|A_1|\le\cdots\le|A_k|$, its conclusion is
 \[
@@ -115,7 +126,11 @@ n\le3^{d(A)},\qquad d(A)\ge\lceil\log_3 n\rceil,
 \]
 and hence $f(n)\ge\lceil\log_3 n\rceil$. This is a genuine universal bound, but it does not reach the proposed $\lfloor\log_2 n\rfloor$ threshold.
 
-Theorem 3.1 supplies a potentially useful relation-hypergraph estimate. For finite $A,B\subset\mathbb R$, let $r_{A-B}(x)=|\{(a,b):a-b=x\}|$. The paper states it only for finite abelian groups; the corpus reads its colored-graph proof, which uses only the finiteness of $A$ and $B$, as giving the same bound there (this transfer is not in the paper and is not independently checked):
+Theorem 3.1 supplies a potentially useful relation-hypergraph estimate. For
+finite $A,B\subset\mathbb R$, let $r_{A-B}(x)=|\{(a,b):a-b=x\}|$. The paper
+states it only for finite abelian groups; the corpus reads its colored-graph
+proof, which uses only the finiteness of $A$ and $B$, as giving the same bound
+there (this transfer is not in the paper and is not independently checked):
 \[
 d\bigl(\{x:r_{A-B}(x)\ge\sigma\}\bigr)
  \ll \frac{\max(|A|,|B|)}{\sigma}\log\min(|A|,|B|).

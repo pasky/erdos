@@ -51,7 +51,7 @@ obstruction.
 Erdős, Pál and Joó, István and Komornik, Vilmos, Characterization
 of the unique expansions $1=\sum^\infty_{i=1}q^{-n_i}$ and related problems.
 Bull. Soc. Math. France **118** (1990), no. 3, 377--390; DOI
-10.24033/bsmf.2151 (the Crossref record). "Texte reçu le
+10.24033/bsmf.2151 (the Crossref record, read 2026-09-18). "Texte reçu le
 21 mai 1990, révisé le 21 juin 1990" (p. 377). The site's key EJK90.
 
 The copy read for this card

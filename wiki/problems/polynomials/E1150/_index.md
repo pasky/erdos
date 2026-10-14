@@ -118,10 +118,10 @@ to degree $N-1$, the declaration, the build with axioms `propext`,
 `Classical.choice` and `Quot.sound` only, the comparator pin and the fidelity
 audit; the evidence is `formalized` alone, since nobody outside the repository
 has reviewed or refereed the result and the site listed the problem OPEN with an
-empty proof-claims tab. What the result trusts is Lean's kernel and the
-consistency of Mathlib; what it does not give is a lower bound on the circle, as
-the manuscript's remark after Theorem 1.1 says, nor a convergence rate or a
-signing algorithm, as the release's family document says.
+empty proof-claims tab (accessed 2026-10-06). What the result trusts is Lean's
+kernel and the consistency of Mathlib; what it does not give is a lower bound on
+the circle, as the manuscript's remark after Theorem 1.1 says, nor a convergence
+rate or a signing algorithm, as the release's family document says.
 
 What remains is quantitative. The release's manuscript notes that Erdélyi's
 2026 bound $\max_{\lvert z\rvert=1}\lvert P(z)\rvert^2\ge N+(N-1)^{1/3}/38$

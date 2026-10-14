@@ -23,7 +23,7 @@ P. Erdős, *Problems and results on chromatic numbers in finite and infinite
 graphs*, Graph theory with applications to algorithms and computer science
 (Kalamazoo, Mich., 1984), Wiley-Interscience, Wiley, New York (1985),
 201--213; MR 87f:05068 (MR 812666 per the site's reference text).
-The site's reference key Er85b (its reference text read). The
+The site's reference key Er85b (its reference text read on 2026-09-18). The
 paper's first two sentences (p. 201): "During my long life I wrote many papers
 of similar title. To avoid repetitions and to shorten the paper I will discuss
 almost entirely recent problems and will not give proofs."

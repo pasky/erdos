@@ -115,8 +115,8 @@ part of the full claim, not a result of its own, and is noted on Thiim's page.
 
 **Search scope.** The site's problem page, its discussion thread and its
 proof-claims list, the arXiv record of He and Tang's paper, and the
-formal-conjectures repository; on 2026-10-07 the thread held nine posts, the
-list two entries, and the repository no file for the problem.
+formal-conjectures repository; the list held two entries, and on 2026-10-07
+the thread held nine posts and the repository no file for the problem.
 
 <!-- BEGIN problem library links -->
 

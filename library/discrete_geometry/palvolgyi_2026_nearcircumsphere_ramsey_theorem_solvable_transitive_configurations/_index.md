@@ -27,11 +27,10 @@ The retained
 is the arXiv-generated PDF of v1, 27 pages with a text layer and the watermark
 "arXiv:2608.10865v1 [math.CO] 11 Aug 2026". All labels and page numbers below
 are v1's; no v2 label, page number or appendix is attached to this file.
-Provenance: retained from the repository's survey download set of September
-2026; the file is arXiv's PDF of the record
-<https://arxiv.org/abs/2608.10865v1>, and the download date was not recorded;
-579,288 bytes. The arXiv record (https://arxiv.org/abs/2608.10865, read
-2026-10-02) names the Creative Commons Attribution 4.0 license.
+Provenance: retained from the repository's survey download set; the file is
+arXiv's PDF of the record <https://arxiv.org/abs/2608.10865v1>; 579,288 bytes.
+The arXiv record (https://arxiv.org/abs/2608.10865, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license.
 
 **Read status.** Claims checked: Definition 1, Theorem 2, Corollary 3 and
 Theorem 4 were read clause by clause in the text layer (pp. 2--4), together

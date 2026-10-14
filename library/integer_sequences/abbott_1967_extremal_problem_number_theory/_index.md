@@ -31,14 +31,14 @@ of n.
 
 H. L. Abbott and B. Gardner, *An extremal problem in number theory*,
 Canad. Math. Bull. **10** (1967), no. 2, 173--177 (received November 17,
-1966); DOI 10.4153/CMB-1967-015-8 (Crossref record read). The
+1966); DOI 10.4153/CMB-1967-015-8 (Crossref record read 2026-09-18). The
 problem pages' entry [AbGa67] gives the journal, year and pages.
 
 The copy read for this card is the
 publisher's PDF of the printed article (five pages, printed pp. 173--177;
 physical p. $n$ is printed p. $172+n$), a typewritten original whose text
 layer spaces the letters and garbles every display, so the statements
-below were read on the page images. Provenance: downloaded
+below were read on the page images. Provenance: downloaded on 2026-09-18
 (06:00 UTC) from Cambridge Core, the PDF link of the article page
 <https://www.cambridge.org/core/journals/canadian-mathematical-bulletin/article/an-extremal-problem-in-number-theory/AE504749C4EC2CAAA0AD6561BCA7E22A>,
 served without login (HTTP 200); 235,629 bytes. The only notice printed is the

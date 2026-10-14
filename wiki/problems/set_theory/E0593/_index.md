@@ -48,7 +48,7 @@ https://www.erdosproblems.com/593.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-04).** The statement
 above; OPEN. The site's commentary points to Erdős, Galvin and Hajnal
 [EGH75] for related problems and records Erdős's view that the graph case is
 settled: a graph of chromatic number at least $\aleph_1$ contains every
@@ -73,8 +73,8 @@ claims the answers to [[problems/set_theory/E1177/_index|Problem 1177]]; that
 claim belongs on that problem's page.
 
 **Search scope:** the site's problem page, commentary, discussion thread and
-proof-claims page, with the comments the site listed on the two claims on
-2026-10-07 (three and seven); the arXiv record of Li's preprint; the
+proof-claims page, with the comments the site listed on the two claims (three
+and seven); the arXiv record of Li's preprint; the
 READMEs of both repositories and their commit records for dates and pins.
 arXiv beyond the record, Crossref, MathSciNet, zbMATH, Google Scholar and X
 were not searched.

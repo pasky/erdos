@@ -41,7 +41,7 @@ the answer is no. The claim page is
 a development the corpus has not built.
 
 **Source.** [erdosproblems.com/764](https://www.erdosproblems.com/764), accessed
-2026-10-07 (empty proof-claim tab; no thread posts).
+2026-10-07 (no thread posts); its proof-claim tab was empty.
 Cite as: T. F. Bloom, Erdős Problem #764,
 https://www.erdosproblems.com/764.
 

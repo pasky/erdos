@@ -102,7 +102,7 @@ used in the proof.
 
 - [[../wiki/problems/ramsey_theory/E0559/_index|Problem 559]]: the original disproof of the
   statement, at $d=3$; the family's size Ramsey numbers grow at least as
-  $\frac1{10}n(\log_2n)^{1/60}$ for $n\ge n_0$, which is not $O(n)$. The theorem does not
-  determine how large $\hat r$ can be for cubic graphs; the paper's own
+  $\frac1{10}n(\log_2n)^{1/60}$ for $n\ge n_0$, which is not $O(n)$. The theorem
+  does not determine how large $\hat r$ can be for cubic graphs; the paper's own
   guess is its
   [[ramsey_theory/rodl_szemeredi_2000_size_ramsey_numbers_graphs_bounded_degree/conjecture_p261|Concluding Remark]].

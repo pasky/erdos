@@ -187,7 +187,7 @@ this corpus built it at its pinned commit and audited its statement (see the
 Formalization paragraph). Shahab's preprint arXiv:2609.38286v1 (29 September
 2026, "The Burr-Erdős-Graham-Sós conjecture for the seven-cycle") proves
 $f(n,\lfloor n^2/4\rfloor+1,C_7)=(1/8+o(1))n^2$, and a formal-conjectures pull
-request (6634, opened on 27 September 2026; open and unmerged)
+request (6634, opened on 27 September 2026; open and unmerged on 2026-10-07)
 carries a statement file that marks the problem research solved and names that
 development as its formal proof. This project's, the site's proof claim 367,
 filed later the same day under the name Plasma AI, is the L17 development,

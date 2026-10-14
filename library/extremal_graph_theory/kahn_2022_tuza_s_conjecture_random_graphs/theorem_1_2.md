@@ -34,9 +34,10 @@ in [3] might hide counterexamples to Tuza's Conjecture.)"
 
 **Source.** J. Kahn and J. Park, *Tuza's conjecture for random graphs*,
 Random Structures Algorithms 61 (2022), no. 2, 235--249, DOI
-10.1002/rsa.21057 (published online 13 November 2021; Crossref record read); read in arXiv:2007.04351v2 (10 July 2020, 13 pp.),
-Theorem 1.2 on p. 1, page image. The journal text was not compared. The
-edition is identified in the
+10.1002/rsa.21057 (published online 13 November 2021; Crossref record read
+2026-09-19); read in arXiv:2007.04351v2 (10 July 2020, 13 pp.), Theorem 1.2 on
+p. 1, page image. The journal text was not compared. The edition is identified
+in the
 [[extremal_graph_theory/kahn_2022_tuza_s_conjecture_random_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the whole first page

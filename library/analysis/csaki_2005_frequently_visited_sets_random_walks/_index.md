@@ -59,14 +59,14 @@ Applications **115** (2005), 1503–1517.
 [DOI](https://doi.org/10.1016/j.spa.2005.04.003).
 
 **Canonical source.** The 15-page PDF comes from [Rosen's publication
-collection](https://www.math.csi.cuny.edu/~rosen/78-freq-viit.pdf). It has the
-journal's pagination and running heads. The first page records acceptance on 7
-April 2005 and online availability on 4 May 2005. The earlier [arXiv
-version](https://arxiv.org/abs/math/0412018v1) is a 19-page preprint; no full
-version-equivalence comparison is claimed. The file, the publisher's typeset
-article as posted on the author's site, prints "© 2005 Elsevier B.V. All rights
-reserved." on p. 1503, every other right reserved. Labels and pages below are
-those of this print.
+collection](https://www.math.csi.cuny.edu/~rosen/78-freq-viit.pdf), accessed 5
+September 2026. It has the journal's pagination and running heads. The first
+page records acceptance on 7 April 2005 and online availability on 4 May 2005.
+The earlier [arXiv version](https://arxiv.org/abs/math/0412018v1) is a 19-page
+preprint; no full version-equivalence comparison is claimed. The file, the
+publisher's typeset article as posted on the author's site, prints "© 2005
+Elsevier B.V. All rights reserved." on p. 1503, every other right reserved.
+Labels and pages below are those of this print.
 
 **Digest.** The paper works with a symmetric transient random walk $X_n$ in
 $\mathbb Z^d$, $d\ge3$, not supported on a proper subgroup, and its

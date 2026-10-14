@@ -34,8 +34,9 @@ DOI [10.1112/S0025579317000535](https://doi.org/10.1112/S0025579317000535).
 manuscript, not the published edition. All locators below therefore use the
 manuscript's internal page numbers. The journal citation and DOI are publication
 metadata only. That manuscript is from the author's research page
-(https://www.pollack-math.net/research.html), which states no terms for the
-papers it links, and the manuscript prints no notice; the term is unstated.
+(https://www.pollack-math.net/research.html, read 2026-10-02), which states no
+terms for the papers it links, and the manuscript prints no notice; the term is
+unstated.
 
 Write $s(n)=\sigma(n)-n$. Conjecture 1.1 (p. 1) states the conjecture of
 Erdős, Granville, Pomerance and Spiro in its preimage form: a set of

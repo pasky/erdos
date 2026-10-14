@@ -36,7 +36,7 @@ $0\le x\le\delta_Cn^2$, an induced subgraph with exactly $x$ edges.
 conjecture*, arXiv:2208.02874v2 (30 May 2024), Theorem 1.1 and footnote 2 on
 p. 2, the definition on p. 1; read in the text layer and on the page image of
 p. 2. Published in Forum of Mathematics, Pi 11 (2023), e21, DOI
-10.1017/fmp.2023.17 (Crossref record read); the journal text
+10.1017/fmp.2023.17 (Crossref record read on 2026-09-18); the journal text
 was not compared, and the theorem number is the preprint's.
 
 **Read depth.** Claims checked: the statement, the definition of $C$-Ramsey,

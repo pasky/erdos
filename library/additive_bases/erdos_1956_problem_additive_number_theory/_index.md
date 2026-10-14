@@ -59,11 +59,11 @@ the number of a_k <= N), which #158 asks when at most two representations a + b
 = n, a <= b, are allowed; the paper adds that its methods do not seem to help
 there, since some sequence with a_k < ck^2 has limsup (1/n) Σ_{k=1}^{n} f(k)^2 <
 ∞. Pliego (arXiv:2405.04154v1, p. 2) cites this paper for that liminf
-conjecture; the site's page for #158 cites only Erdős, Sárközy and Sós 1994
-([ESS94]), whose Problem 9 (pp. 346--347) poses the B_2[2] case without citing
-this paper. What this paper proves is the Erdos-Fuchs obstruction for the
-cumulative representation function, not any resolution of the B_2[2] liminf
-question. The copy read for this card is a scan of the Cornell/Air Force
+conjecture; the site's page for #158 (read 2026-10-07) cites only Erdős, Sárközy
+and Sós 1994 ([ESS94]), whose Problem 9 (pp. 346--347) poses the B_2[2] case
+without citing this paper. What this paper proves is the Erdos-Fuchs obstruction
+for the cumulative representation function, not any resolution of the B_2[2]
+liminf question. The copy read for this card is a scan of the Cornell/Air Force
 technical-report printing whose OCR text layer garbles the formulas but whose
 page images are legible, the Lemma and the proofs of Theorems 1 and 2 (printed
 pp. -3- to -8-, PDF pp. 9--19) included; the proofs were not checked for this
@@ -104,7 +104,7 @@ that liminf form. The paper states this as a conjecture and proves nothing
 about it; Theorem 1 constrains the cumulative count r(n) and
 [[additive_bases/erdos_1956_problem_additive_number_theory/theorem_2|Theorem 2]]
 the mean square of f(k) - c, and neither decides the question; the site's
-page for the problem cites only [ESS94], not this paper.
+page for the problem (read 2026-10-07) cites only [ESS94], not this paper.
 
 **Results.**
 

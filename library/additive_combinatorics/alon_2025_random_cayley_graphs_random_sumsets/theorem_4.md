@@ -44,11 +44,10 @@ Theorem 1; and the sentence "No improvement over the exponent $p^{-2}$ in
 Theorem 1 has been obtained so far. As one application of our key result,
 we obtain the first improvement in the exponent of $p$."
 [[additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/theorem_5|Theorem 5]]
-(p. 3) applies Theorem 4 to Green's function, "the largest integer such that every
-subset of $\mathbb Z_n$ with size larger than $n-f(n)$ can be represented
-as a sumset $A+A$", giving $f(n)\le\tilde O(n^{3/5})$; that function is not
-the interval function of the site's Problem 788, which the paper does not
-mention.
+(p. 3) applies Theorem 4 to Green's function, "the largest integer such that
+every subset of $\mathbb Z_n$ with size larger than $n-f(n)$ can be represented
+as a sumset $A+A$", giving $f(n)\le\tilde O(n^{3/5})$; that function is not the
+interval function of the site's Problem 788, which the paper does not mention.
 
 **Source.** N. Alon and H. T. Pham, *Random Cayley graphs and random
 sumsets*, arXiv:2509.02561v1 (2 September 2025; 19 pp.; the only arXiv
@@ -72,12 +71,13 @@ in the union of the events that the complement of $S$ contains a member of
 the cover at the scale $\ell=\ell(A)$: of $\mathcal F_\ell$ (Theorem 11,
 at most $\exp(C2^{2\ell}(\log n)^2)$ sets) for $\ell<\ell_0$, and of
 $\mathcal H_\ell$ (Theorem 13, at most
-$\exp(C\sqrt{2^\ell(\log n)^{3/2}s})$ sets) for $\ell\ge\ell_0$, where $2^{\ell_0}$ is within a factor $2$ of
-$p^{-1/2}(\log n)^{3/4}$. Every member has size at least $c2^\ell s/\ell^2$,
-so a union bound over both families, with $(1-p)^{\lvert F\rvert}$ per
-member, bounds the probability that $\alpha(\Gamma(G;S))>s$, and the choice
-of $\ell_0$ and of $\xi$ makes each sum small. The heuristic form of this
-union bound is stated on p. 4. Not reconstructed here.
+$\exp(C\sqrt{2^\ell(\log n)^{3/2}s})$ sets) for $\ell\ge\ell_0$, where
+$2^{\ell_0}$ is within a factor $2$ of $p^{-1/2}(\log n)^{3/4}$. Every member
+has size at least $c2^\ell s/\ell^2$, so a union bound over both families, with
+$(1-p)^{\lvert F\rvert}$ per member, bounds the probability that
+$\alpha(\Gamma(G;S))>s$, and the choice of $\ell_0$ and of $\xi$ makes each sum
+small. The heuristic form of this union bound is stated on p. 4. Not
+reconstructed here.
 
 ## Dependencies
 

@@ -136,7 +136,7 @@ no Lean proof of this theorem. Nothing in this repository has verified the
 proof.
 
 Search scope: the site's problem page, its discussion thread and the community
-database. On 2026-10-07 the site listed no proof claim for the problem, and
+database. The site listed no proof claim for the problem, and on 2026-10-07
 none of these sources held another proof of the inequality.
 <!-- BEGIN problem library links -->
 

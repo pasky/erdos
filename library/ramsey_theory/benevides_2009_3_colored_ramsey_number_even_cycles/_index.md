@@ -20,7 +20,7 @@ n at least four.
 
 F. S. Benevides and J. Skokan, *The 3-colored Ramsey number of even
 cycles*, J. Combin. Theory Ser. B **99** (2009), no. 4, 690--708; DOI
-10.1016/j.jctb.2008.12.002 (the Crossref record, dates
+10.1016/j.jctb.2008.12.002 (the Crossref record, read on 2026-09-17, dates
 the issue July 2009).
 
 The copy read for this card is the authors' CDAM Research Report

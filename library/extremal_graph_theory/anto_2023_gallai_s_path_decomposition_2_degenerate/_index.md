@@ -55,7 +55,7 @@ Mathematics and Theoretical Computer Science ... vol. 25:1 #16 (2023)" and the
 line "revisions 16th Nov. 2022, 3rd May 2023; accepted 4th May 2023"; 11 pages
 with a text layer, printed and PDF pages agreeing. The arXiv record carries
 the journal reference (vol. 25:1, Graph Theory, May 30, 2023, dmtcs:10313)
-and the DOI, and the Crossref record gives the publication
+and the DOI, and the Crossref record (read 2026-09-18) gives the publication
 date 30 May 2023; the journal is refereed and publishes the author's typeset
 file, so this appears to be the published version, though byte identity with
 the journal's file was not checked. The copy read prints "© 2023 by the

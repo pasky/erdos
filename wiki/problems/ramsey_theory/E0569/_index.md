@@ -56,9 +56,9 @@ of formal-conjectures declares `erdos_569` under `category research open`: for
 every $k\geq1$, the infimum of the positive reals $C$ such that `graphRamsey
 (cycleGraph (2 * k + 1)) H` is at most $Cm$ for every $m$ and every finite graph
 $H$ with $m$ edges and no vertex of degree zero equals `answer(sorry)` at $k$,
-with proof `sorry` and no `formal_proof` attribute. The community database
-records the statement as formalized since 9 September 2026 and the formal status
-as unformalized. Nothing was built.
+with proof `sorry` and no `formal_proof` attribute. The community database (read
+2026-10-07) records the statement as formalized since 9 September 2026 and the
+formal status as unformalized. Nothing was built.
 
 ## Current assessment
 

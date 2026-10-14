@@ -40,7 +40,7 @@ Hall and Tenenbaum), so it has no claim page.
 
 **Source.** [erdosproblems.com/691](https://www.erdosproblems.com/691), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 28 December 2025; its
-discussion thread held four posts and its proof-claims page listed no claim).
+discussion thread held four posts); its proof-claims page listed no claim.
 Cite as: T. F. Bloom, Erdős Problem #691, https://www.erdosproblems.com/691.
 
 **References.**

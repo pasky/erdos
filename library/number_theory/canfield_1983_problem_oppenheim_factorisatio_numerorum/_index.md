@@ -51,10 +51,10 @@ concerning “Factorisatio Numerorum”*, *Journal of Number Theory* **17** (198
 no. 1, 1–28, [DOI
 10.1016/0022-314X(83)90002-1](https://doi.org/10.1016/0022-314X(83)90002-1). The
 copy read for this card is the published PDF from [Pomerance's author
-archive](https://math.dartmouth.edu/~carlp/PDF/paper39.pdf). It prints
-"Copyright © 1983 by Academic Press, Inc. All rights of reproduction in any form
-reserved." on its first page (read on the page image), every other right
-reserved.
+archive](https://math.dartmouth.edu/~carlp/PDF/paper39.pdf), retrieved on
+2026-09-05. It prints "Copyright © 1983 by Academic Press, Inc. All rights of
+reproduction in any form reserved." on its first page (read on the page image),
+every other right reserved.
 
 The paper distinguishes unordered factorizations into factors larger than 1
 ($f(n)$), factorizations into distinct factors ($f_0(n)$), and the Piltz
@@ -89,10 +89,10 @@ Results recorded, each with its printed label and page:
 The two unnumbered lemmas (p. 9, a crude lower bound for $\Psi$; p. 22, a
 comparison $f(qn/p)\ge\frac65f(n)$) are described on the pages of the
 theorems they serve. Table I (pp. 4--6) lists the 118 highly factorable
-numbers below $10^9$; Section 6 (pp. 20--25) closes on pp. 24--25 with conjectures and
-open questions about highly factorable numbers, and Section 7 describes the
-algorithm behind the table. Each result page records its read depth; all are
-claims checked.
+numbers below $10^9$; Section 6 (pp. 20--25) closes on pp. 24--25 with
+conjectures and open questions about highly factorable numbers, and Section 7
+describes the algorithm behind the table. Each result page records its read
+depth; all are claims checked.
 
 ## Bears on
 

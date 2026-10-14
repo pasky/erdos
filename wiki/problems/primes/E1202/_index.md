@@ -61,19 +61,18 @@ https://www.erdosproblems.com/1202.
   fixed-parameter cousin of the problem. Library home:
   [[../library/additive_bases/green_2026_100_open_problems/_index|green_2026_100_open_problems]].
 
-**Formalization.** No statement of the problem exists in formal-conjectures:
-the repository's `FormalConjectures/ErdosProblems/1202.lean` path does not
-exist. The external Lean file that proves the negation of the
-statement, not built here, is a `formalization` link on the claim page and is
-described under "The external Lean file" below. No local Lean build has been
-performed.
+**Formalization.** No statement of the problem existed in formal-conjectures on
+2026-10-07: the repository's `FormalConjectures/ErdosProblems/1202.lean` path
+did not exist. The external Lean file that proves the negation of the statement,
+not built here, is a `formalization` link on the claim page and is described
+under "The external Lean file" below. No local Lean build has been performed.
 
 ## Current assessment
 
 **The question (site formulation of 2026-09-04).** The statement above;
 SOLVED, with no Lean suffix on the label. The statement quantifies $\epsilon$
 and $\eta$ but its bound $\epsilon n$ uses only $\epsilon$, as Erdős's print
-does (see the Formulation). The site's commentary (last
+does (see the Formulation). The site's commentary (accessed 2026-10-07; last
 edited 12 April 2026) credits the negative resolution to Price and GPT-5.4
 Pro, links the manuscript as the online-editor read link recorded below, and
 reports the construction in a quantitative form that the claim page records as
@@ -98,7 +97,7 @@ $n/10$ survivors, so no $k$ works at $\epsilon=\eta=1/10$.
 
 **The status-defining source, not held.** The manuscript behind the site's
 label is a read link on an online editor (`overleaf.com/read/qyhdmrchqnvb`)
-that, exposes only the editor's shell and no document or
+that, on 2026-10-07, exposed only the editor's shell and no document or
 PDF, and no other copy of it is recorded. The manuscript is recorded as
 inaccessible; no author was contacted. The external Lean file's module
 docstring says "We formalize the interval construction of Price and GPT-5.4
@@ -170,8 +169,8 @@ in the negative under the reading of "half the residue classes" as
 $(p-1)/2$ classes; nothing about this was checked or built.
 
 **Formalization and the Lean label.** The site's label carried no Lean suffix,
-formal-conjectures has no statement file at the collection's path for 1202,
-and the site offers no formalization link (both). The only
+formal-conjectures had no statement file at the collection's path for 1202,
+and the site offered no formalization link (both on 2026-10-07). The only
 formal artifact is the external community file above; it declares itself a
 formalization of the Price and GPT-5.4 Pro construction, so it is a
 `formalization` link on the claim page and not a claim of its own. Nothing was

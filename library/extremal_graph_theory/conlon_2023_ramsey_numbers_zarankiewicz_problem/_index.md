@@ -17,7 +17,7 @@ updated: 2026-10-08T01:29:58Z
 
 David Conlon, Sam Mattheus, Dhruv Mubayi, Jacques Verstraëte, Ramsey numbers and
 the Zarankiewicz problem. Bull. Lond. Math. Soc. 56 (2024), no. 6,
-2014--2023, doi:10.1112/blms.13040 (Crossref record read; the
+2014--2023, doi:10.1112/blms.13040 (Crossref record read 2026-10-07; the
 journal version was not compared); arXiv:2307.08694 (v1 17 July 2023, v2 24
 April 2024). The arXiv record names arXiv's non-exclusive distribution
 license (arXiv:2307.08694), every other right reserved.

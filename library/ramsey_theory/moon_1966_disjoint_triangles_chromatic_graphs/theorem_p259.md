@@ -55,10 +55,10 @@ of Burr, Erdős and Spencer (two vertices joined by a red edge, blue to all
 others, all other pairs red) supplies the colorings with
 $\mu(G_n)=[\tfrac13n]-1$; with (1) and (2) this gives
 $f(n,3)=2+\mathrm{rem}(n-2,3)$, that is $2$, $3$ and $4$ for
-$n\equiv2$, $0$ and $1\pmod3$, for every $n\ge4$ other than $5$ (the problem takes $k<n$). This is
-the $k=3$ case of that theorem's formula, which the theorem itself asserts
-only for sufficiently large $n$. The maximum over $n\ne5$ is $4$, the site's
-"$f(3)=4$, at least for $n\geq8$".
+$n\equiv2$, $0$ and $1\pmod3$, for every $n\ge4$ other than $5$ (the problem
+takes $k<n$). This is the $k=3$ case of that theorem's formula, which the
+theorem itself asserts only for sufficiently large $n$. The maximum over $n\ne5$
+is $4$, the site's "$f(3)=4$, at least for $n\geq8$".
 
 **Source.** J. W. Moon, Disjoint triangles in chromatic graphs, Math. Mag.
 39 (1966), no. 5, 259--261; the Theorem, the definitions and facts A and B

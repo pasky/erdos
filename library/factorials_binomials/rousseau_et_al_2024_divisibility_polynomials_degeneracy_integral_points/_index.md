@@ -65,9 +65,9 @@ finite outside a proper closed set independent of k, S and the M_k-constant.
 The copy read for this card
 is the arXiv version stamped "arXiv:2106.11337v1 [math.NT] 21 Jun 2021", the
 edition this card cites. Provenance:
-downloaded from https://arxiv.org/pdf/2106.11337v1 on 2026-09-25; 354,822 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2106.11337), every other right reserved.
+downloaded from https://arxiv.org/pdf/2106.11337v1; 354,822 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2106.11337),
+every other right reserved.
 
 Erwan Rousseau, Amos Turchet, Julie Tzu-Yueh Wang, "Divisibility of polynomials
 and degeneracy of integral points," Math. Ann. 388 (2024), no. 2, 1969--1999,

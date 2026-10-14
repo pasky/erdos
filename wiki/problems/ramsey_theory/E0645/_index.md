@@ -81,21 +81,22 @@ https://www.erdosproblems.com/645, accessed 2026-09-18.
 
 - [BrLa99] T. C. Brown and B. M. Landman, Monochromatic arithmetic
   progressions with large differences. Bull. Austral. Math. Soc. 60 (1999),
-  no. 1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record). Paged by the
-  authors' 14-page version, with its own pagination: Theorem 7 on p. 6, its
-  stronger version on p. 7, Theorem 12 on pp. 10--11 of that version.
-  Library home:
+  no. 1, 21--35, DOI 10.1017/S0004972700033293 (Crossref record accessed
+  2026-09-18). Paged by the authors' 14-page version, with its own pagination:
+  Theorem 7 on p. 6, its stronger version on p. 7, Theorem 12 on pp. 10--11 of
+  that version. Library home:
   [[../library/ramsey_theory/brown_1999_monochromatic_arithmetic_progressions_large_differences/_index|brown_1999_monochromatic_arithmetic_progressions_large_differences]].
 - [Er80] P. Erdős, A survey of problems in combinatorial number theory. Ann.
   Discrete Math. 6 (1980), 89--115; printed p. 93. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Er95c] P. Erdős, Some problems in number theory. Octogon Math. Mag.
-  (1995), 3--5 (the site's reference text, per its bibliography page). Not held; no attempt was made (outside the archive's
+  (1995), 3--5 (the site's reference text, per its bibliography page as
+  accessed 2026-09-18). Not held; no attempt was made (outside the archive's
   coverage).
 
 **Formalization.** The file
 [`ErdosProblems/645.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/645.lean)
-of formal-conjectures, linked at the head of main declares
+of formal-conjectures, linked at the head of main on 2026-09-18, declares
 `erdos_645 (c : ℕ → Bool) : ∃ x d, 0 < x ∧ x < d ∧ (∃ C, c x = C ∧ c (x + d) = C ∧ c (x + 2 * d) = C)`
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `plby/lean-proofs` `src/v4.24.0/ErdosProblems/Erdos645.lean`

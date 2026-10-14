@@ -49,27 +49,28 @@ reals approximable from above by finite subsums, is that union, a disjoint union
 of exactly 2^{t_n} intervals, with t_n < (2^{1/n} - 1)^{-1} and t_n ~ n/ln 2.
 Corollaries 1 and 2 specialize the criterion to distinct squares and distinct
 cubes; for squares the stated consequence, which a footnote (p. 85) says Erdos
-also obtained, unpublished, is an explicit two-interval condition involving pi^2/6.
-Erdos problem 282 asks
-whether greedy algorithms with restricted denominators terminate; the site's
-commentary quotes Corollary 1's criterion for square denominators and asks
-whether the greedy algorithm for squares terminates. The paper supplies the
-existence criterion only and does not treat the greedy algorithm.
+also obtained, unpublished, is an explicit two-interval condition involving
+pi^2/6. Erdos problem 282 asks whether greedy algorithms with restricted
+denominators terminate; the site's commentary quotes Corollary 1's criterion for
+square denominators and asks whether the greedy algorithm for squares
+terminates. The paper supplies the existence criterion only and does not treat
+the greedy algorithm.
 
 Source: <https://msp.org/pjm/1964/14-1/p10.xhtml>.
 
 The copy read for this card is the publisher's file (Mathematical Sciences
 Publishers, 11 physical pages: a cover sheet, the printed pp. 85--92 as PDF
 pp. 2--9, an editors page and the volume contents); Pacific J. Math. 14
-(1964), no. 1, 85--92, DOI 10.2140/pjm.1964.14.85 (Crossref record fetched), received May 13, 1963. The text layer garbles the displayed
-formulas, so the statements were read on the page images of pp. 85--92.
-Read status: claims checked. Theorem A, Definitions 1--3, Theorems 1--4,
-Corollaries 1 and 2 and Corollary A were read clause by clause; the proofs of
-Theorems 1--3 were read for structure only.
-No notice is printed on the cover sheet or the article pages; the publisher's
-article page shows "© Copyright 1964 Pacific Journal of Mathematics. All rights
-reserved." (https://msp.org/pjm/1964/14-1/p10.xhtml), every
-other right reserved.
+(1964), no. 1, 85--92, DOI 10.2140/pjm.1964.14.85 (Crossref record fetched
+2026-09-18), received May 13, 1963. The text layer garbles the displayed
+formulas, so the statements were read on the page images of pp. 85--92. Read
+status: claims checked. Theorem A, Definitions 1--3, Theorems 1--4, Corollaries
+1 and 2 and Corollary A were read clause by clause; the proofs of Theorems 1--3
+were read for structure only. No notice is printed on the cover sheet or the
+article pages; the publisher's article page shows "© Copyright 1964 Pacific
+Journal of Mathematics. All rights reserved."
+(https://msp.org/pjm/1964/14-1/p10.xhtml, read 2026-10-02), every other right
+reserved.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0282/_index|#282]] (the site's [Gr64c]:
 [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/corollary_1|Corollary 1]] is the criterion x in [0, pi^2/6 - 1) or

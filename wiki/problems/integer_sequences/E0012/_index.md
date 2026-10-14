@@ -209,7 +209,8 @@ and
 `category research open`. Six further declarations record the 1970 theorems and
 examples and the Schoen and Baier bounds as `research solved` variants with
 `sorry` bodies, and `isGood_example` (the $p^2$ set) as a `textbook` item with a
-`formal_proof` attribute into the same fork. The community database records the problem open and the statement formalized, both with
+`formal_proof` attribute into the same fork. The community database (accessed
+2026-09-18) records the problem open and the statement formalized, both with
 last update 31 August 2025, and `formal_status` unformalized, without a date; it
 has no field for a formal proof's location. The fork files are described below;
 this corpus has built neither.
@@ -383,7 +384,7 @@ proof-claim tab holds one partial claim, submitted 30 July 2026 by Philip Ndikum
 and Serge Ndikum with Libertas Superintelligence, the system the tab names,
 asserting convergence for every good set through a block decomposition theorem,
 with a Lean development the claimants describe as kernel-checked apart from one
-declared axiom and a repository whose head commit is dated 10
+declared axiom and a repository whose head commit on 2026-09-18 was dated 10
 September 2026; the site has not examined it, it is unrefereed, its declared
 axiom `growth_ineq` is false (at $i=0$ it puts the least element of every good
 set above $3^{8000}$, which the $p^2$ example refutes), so the development

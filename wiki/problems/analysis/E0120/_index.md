@@ -198,13 +198,14 @@ whose dissection ratios tend to $0$, which have Hausdorff dimension zero; the
 Rajchman-measure claim above reaches those of them that support such a
 measure.
 
-**Search scope.** The site's problem page and proof-claims tab as read, the release's two manuscripts, family Lean page and comparator
-file (linked at the pinned revision from the claim pages), the library cards
-named above, and the bibliographies of the two release manuscripts, from
-which the 2026 preprints in Known results come. A later search of arXiv's new
-mathematics listings found Jiang and Xi's preprint. No other literature search
-was made; the refereed theorems Known results cites through [JLM24] are not
-separately listed in References.
+**Search scope.** The site's problem page and proof-claims tab, the release's
+two manuscripts, family Lean page and comparator file (linked at the pinned
+revision from the claim pages), the library cards named above, and the
+bibliographies of the two release manuscripts, from which the 2026 preprints in
+Known results come. A later search of arXiv's new mathematics listings found
+Jiang and Xi's preprint. No other literature search was made; the refereed
+theorems Known results cites through [JLM24] are not separately listed in
+References.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -133,7 +133,8 @@ https://www.erdosproblems.com/554, accessed 2026-09-17.
   superexponential. arXiv:2608.02537 (v1 3 August 2026, 12 pages; v2 7
   September 2026, withdrawn, with the comment that v2 of arXiv:2608.02522,
   Locally bipartite subgraphs via multicolor Ramsey numbers, 28 pages, 7
-  September 2026, supersedes it). Not held; abstracts only (arXiv).
+  September 2026, supersedes it). Not held; abstracts only (arXiv, accessed
+  2026-10-07).
 - [My26] mysticflounder (forum user), Erdős Problem #554: odd-cycle Ramsey
   ratios versus triangles. Research report, 1 August 2026, revised 2 August
   2026; a GitHub gist in nine revisions, the last of 2 August 2026, linked
@@ -143,7 +144,7 @@ https://www.erdosproblems.com/554, accessed 2026-09-17.
 **Formalization.** None. No file `ErdosProblems/554.lean` exists in
 formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the site's page
 records no formalized statement, and the community database
-(teorth/erdosproblems) records the problem as open and
+(teorth/erdosproblems, accessed 2026-10-06) records the problem as open and
 unformalized with no formal-proof URL.
 
 ## Current assessment
@@ -207,7 +208,7 @@ the text cited is the preprint, whose statement was not compared with the
 journal's): $R_k(C_{2\ell+1})\le(4\ell-2)^kk^{k/\ell}+1$ for all
 $k,\ell$;
 [[../library/additive_combinatorics/miyazaki_2026_improved_ramsey_bounds_generalized_schur_equations/remark_2_2|Miyazaki et al. Remark 2.2]]
-(arXiv v1 p. 5; preprint):
+(arXiv v1 p. 5; preprint, no journal record on 2026-09-17):
 $r(C_{2\ell+1};q)\le(4\ell-2)^q(q!)^{1/\ell}+1$; and
 [[../library/ramsey_theory/huang_2026_new_upper_bound_ramsey_number_odd_cycles/theorem_5|Huang--Yang--Chen Theorem 5]]
 (arXiv v1 p. 3; preprint, no journal record): for fixed

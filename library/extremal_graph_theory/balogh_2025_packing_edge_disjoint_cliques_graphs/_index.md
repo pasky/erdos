@@ -22,7 +22,7 @@ graphs*, arXiv:2502.16683v2 [math.CO], 14 September 2025 (dateline
 "September 16, 2025" on p. 1; the arXiv comment "Updated with referees'
 suggestions" and the referee acknowledgment on p. 10), 11 pages;
 Combinatorica 45 (2025), no. 5, article 56 (published online 14 October
-2025), doi:10.1007/s00493-025-00184-w (Crossref record read; the
+2025), doi:10.1007/s00493-025-00184-w (Crossref record read 2026-10-07; the
 arXiv record carried no journal reference on 2026-09-18, and the journal text
 is not held and was not compared). Not a source key of the
 site; Problems 1009 and 1017 cite it as [BaWi25].

@@ -87,13 +87,13 @@ $c'<c$, $M^\uparrow(x)\le(1-c')W(x)$ for all large $x$.
   arXiv version of K. Ford, *The distribution of totients*, Ramanujan J. 2
   (1998), 67--151, whose card is
   [[../library/arithmetic_functions/ford_1998_distribution_totients/_index|Ford (1998)]];
-  not reread here). It is used only through the consequence
+  not read here). It is used only through the consequence
   $x/\log x=o(W(x))$ deduced below.
 - **(D) Erdős's count of totient values**: $W(x)=x/(\log x)^{1+o(1)}$, quoted
   on the source's p. 2 as [4] (P. Erdős, Quart. J. Math. 6 (1935), 205--213;
   card
   [[../library/arithmetic_functions/erdos_1935_normal_number_prime_factors_related_problems/_index|Erdős (1935)]],
-  not reread here). It is used only for the consequence $M^\uparrow(x)=o(x)$,
+  not read here). It is used only for the consequence $M^\uparrow(x)=o(x)$,
   not in the proof of the theorem itself.
 
 ## Proof

@@ -16,7 +16,7 @@ updated: 2026-10-08T01:29:58Z
 
 Jiang, Tao and Qiu, Yu, Many Turán exponents via subdivisions. Combin.
 Probab. Comput. 32 (2023), no. 1, 134--150, doi:10.1017/S0963548322000177
-(published online 21 July 2022; Crossref record read). The copy
+(published online 21 July 2022; Crossref record read 2026-10-07). The copy
 read is arXiv:1908.02385v1 (6 August 2019, the only arXiv version), 20
 pages; the journal text was not compared, so the labels are the preprint's.
 The arXiv record names arXiv's non-exclusive distribution license

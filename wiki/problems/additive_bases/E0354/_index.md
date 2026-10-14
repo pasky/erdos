@@ -54,9 +54,9 @@ restatement (p. 58, the site's key) reads "What if 2 is replaced by $\gamma$
 where $1<\gamma<2$?"; the two readings have different answers below. The
 site's source key is [ErGr80, p.58].
 
-**Status.** Open, the site's label OPEN, which attaches to the pair of
-questions. No claim settles the pair of questions, so the derived standing is
-open.
+**Status.** Open, the site's label OPEN (accessed 2026-09-28), which attached to
+the pair of questions. No claim settles the pair of questions, so the derived
+standing is open.
 
 The first question (base $2$) has two accepted partial claims. One is
 [[problems/additive_bases/E0354/claims/2026_09_11_jenw1n|the bounty site Conjectures.io's certified Lean proof]],
@@ -239,7 +239,7 @@ tab: one full-proof claim, credited to Yingzhe Yu and Kani Chen, submitted
 2026-09-13 15:48:40, with a summary of the strong-completeness argument,
 links to the proof and the formalization, and no comments, under the site's
 notice that a listing there does not vouch for the proof's correctness. The
-community database record (entry 354): status open
+community database record (entry 354, copy accessed 2026-09-27): status open
 (2025-08-31), formal status "unformalized" while "formalized: yes"
 (2025-09-05), no OEIS entry, tags number theory and complete sequences.
 

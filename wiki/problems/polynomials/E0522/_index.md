@@ -123,8 +123,8 @@ aborted check of Chojecki's first note, no refereed version exists, and this
 wiki has not checked any of the proofs.
 
 Search scope: the site's problem page as exported (last edited 06 December
-2025), its discussion thread (25 comments) and proof-claims tab (both read
-2026-10-07), the community database entry (open, formal status Lean,
+2025), its discussion thread (25 comments, read 2026-10-07) and proof-claims
+tab, the community database entry (open, formal status Lean,
 2026-09-26), the formal-conjectures file and the two pull requests that
 tagged it, the GitHub repositories and notes linked from the thread, the
 lean-proofs repository's index, arXiv author searches for Letwin, Michelen

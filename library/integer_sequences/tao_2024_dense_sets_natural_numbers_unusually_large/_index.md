@@ -47,7 +47,7 @@ received and accepted dates; the arXiv listing (read 2026-09-18) shows five
 versions, v1 of 5 July 2024 to v5, and the v5 comment says the version adds
 an appendix with an argument of Will Sawin matching the upper bound to the
 lower bound after a typo correction. The paper appeared as Integers 24
-(2024), paper A100 (the journal's volume listing); the
+(2024), paper A100 (the journal's volume listing, read 2026-09-18); the
 journal text was not compared, so the locators below are v5 locators. Read
 status: claims checked for Theorem 1 (pp. 4--5), for the unnumbered remark on
 p. 4 about squarefree numbers with exactly $k$ prime factors, for Theorem 2

@@ -32,7 +32,7 @@ three halves bound for Problem 711's first question.
 Paul Erdős, Carl Pomerance, Matching the natural numbers up to n with distinct
 multiples in another interval. Indagationes Mathematicae (Proceedings,
 Koninklijke Nederlandse Akademie van Wetenschappen, Series A) 83 (1980),
-147-161; DOI 10.1016/1385-7258(80)90018-9 (Crossref record read).
+147-161; DOI 10.1016/1385-7258(80)90018-9 (Crossref record read 2026-09-18).
 The first page is headed "Proceedings A 83 (2), June 13, 1980" and the paper
 was "communicated at the meeting of June 16, 1979".
 

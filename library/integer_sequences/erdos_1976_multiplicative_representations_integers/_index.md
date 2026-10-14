@@ -39,14 +39,15 @@ kl below c_1 x squared times (log log x) to the f(c) over log x.
 
 P. Erdős and A. Szemerédi, *On multiplicative representations of integers*.
 J. Austral. Math. Soc. Ser. A **21** (1976), no. 4, 418--427; DOI
-10.1017/S144678870001925X (Crossref record read); received 1
+10.1017/S144678870001925X (Crossref record read 2026-09-18); received 1
 December 1974; dedicated to George Szekeres on his 65th birthday.
 
 The copy read for this card
 is the ten-page scan of the printed article from the Rényi Institute's
 Erdős archive (OmniPage text layer, which garbles most displays; printed
 p. $n$ is PDF p. $n-417$); the statements below were read on the rendered
-page images of pp. 418--427. Provenance: retrieved from <https://www.renyi.hu/~p_erdos/1976-24.pdf> (HTTP
+page images of pp. 418--427. Provenance: retrieved
+2026-09-18T06:01Z from <https://www.renyi.hu/~p_erdos/1976-24.pdf> (HTTP
 200, one request); 1,195,013 bytes. No copyright line is printed on the scan's
 pages; the journal's article page on Cambridge Core shows "Copyright ©
 Australian Mathematical Society 1976" and no Creative Commons statement
@@ -76,8 +77,8 @@ structure and not checked step by step.
   sequences with fewer than $2^l+1$ representations, Raikov's and Wirsing's
   results on sequences with $g(n)>0$, the distinct-subset-product problem
   (p. 419: "Erdös (1966) proved $k<\pi(x)+cx^{1/2}/\log x$ and probably",
-  followed by the display $\max k=\pi(x)+\pi(x^{1/2})+o(x^{1/2}/\log x)$), and the Erdős--Pósa
-  observation (3).
+  followed by the display $\max k=\pi(x)+\pi(x^{1/2})+o(x^{1/2}/\log x)$), and
+  the Erdős--Pósa observation (3).
 - Page 420: for two integer sequences $1\le a_1<\dots<a_k\le x$,
   $1\le b_1<\dots<b_l\le x$ with all products $a_ib_j$ ($1\le i\le k$,
   $1\le j\le l$) distinct, the paper recalls that Erdős conjectured and

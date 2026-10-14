@@ -54,7 +54,7 @@ and were not built here.
 
 ## Current assessment
 
-The site's formulation asks for $z(n)$ at small $n$ and
+The site's formulation (accessed 2026-09-04) asks for $z(n)$ at small $n$ and
 in particular whether $z(12)=4$. The particular question is answered yes and
 the values are known for $n\le19$.
 [[problems/graph_coloring/E0758/claims/2015_02_08_akdemir_ekim|Akdemir and Ekim 2015]]

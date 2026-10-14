@@ -69,7 +69,7 @@ two-coloring of the plane can miss equilateral triangles of two different sides.
 The discussion on the site held one comment (15 February 2026) citing that
 paper, Graham's 2017 survey of Euclidean Ramsey theory, Currier, Moore and Yip's
 2024 paper and the 2025 computational paper of Mundinger and coauthors, and the
-proof-claim tab was empty.
+proof-claim tab was empty on 6 October 2026.
 
 **Settled triangles.** The three claim pages named under Status record the
 triangles for which the question is decided: Shader's right triangles, the

@@ -36,8 +36,8 @@ $2\sqrt2/3=0.9428\ldots$ below the $0.98183$ of [CHO25]. The write-up credits
 the proofs to GPT-6 Astra and the referee reports to Claude Opus. A [Lean
 proof](https://github.com/chy4pro/automath/tree/442b8e19d364b2200cd4fb87f26ae05d4194797a/lean/sidon30)
 of the bound carries no formal-verification credit in this corpus. The claim
-settles no instance of the question, so it has no claim page. The thread (as of
-2026-10-07) lists it without comment. The discussion thread (as of 2026-10-07)
+settles no instance of the question, so it has no claim page. The thread
+listed it without comment. The discussion thread (as of 2026-10-07)
 reports further bounds on the same $N^{1/4}$ coefficient, among them $0.9435$ by
 Hou and Zhao (arXiv:2607.01169, 2026). None of these bounds touches the
 $O_\epsilon(N^\epsilon)$ question.

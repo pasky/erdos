@@ -14,9 +14,9 @@ updated: 2026-10-08T15:10:24Z
 **Selected source.** Sergey Norin and Yue Ru Sun, *Triangle-independent sets vs.
 cuts*, arXiv:1602.04370v1, submitted 13 February 2016. The copy read for this
 card is that fourteen-page v1 PDF; no file of it is held. The [current arXiv
-record](https://arxiv.org/abs/1602.04370), lists only v1. A fresh official v1
-download is byte-identical to the copy read. The internal PDF creation date in
-2021 is not evidence of a mathematical revision.
+record](https://arxiv.org/abs/1602.04370), checked 5 September 2026, listed
+only v1. A fresh official v1 download is byte-identical to the copy read. The
+internal PDF creation date in 2021 is not evidence of a mathematical revision.
 
 Norin's [institutional publication list](https://www.math.mcgill.ca/snorin/papers.html)
 also links this title to arXiv without journal metadata.
@@ -102,10 +102,11 @@ acceptance observations.
 
 **Bears on.**
 
-- [[../wiki/problems/extremal_graph_theory/E0621/_index|Problem 621]]: records the paper's attribution of the asked inequality to
-  Erdős, Gallai and Tuza (Conjecture 3, p. 2) and the earlier partial
-  bounds towards the stronger Conjecture 2 that it quotes (p. 2).
-- [[../wiki/problems/extremal_graph_theory/E0023/_index|Problem 23]]: records the paper's Conjecture 1 (p. 1), the conjectured
-  bound $\tau_B(G)\le n^2/25$ for triangle-free graphs on $n$ vertices, which
-  Problem 23 asks for $n$ divisible by five; the paper proves nothing
-  towards it.
+- [[../wiki/problems/extremal_graph_theory/E0621/_index|Problem 621]]: records
+  the paper's attribution of the asked inequality to Erdős, Gallai and Tuza
+  (Conjecture 3, p. 2) and the earlier partial bounds towards the stronger
+  Conjecture 2 that it quotes (p. 2).
+- [[../wiki/problems/extremal_graph_theory/E0023/_index|Problem 23]]: records
+  the paper's Conjecture 1 (p. 1), the conjectured bound $\tau_B(G)\le n^2/25$
+  for triangle-free graphs on $n$ vertices, which Problem 23 asks for $n$
+  divisible by five; the paper proves nothing towards it.

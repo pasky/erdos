@@ -54,8 +54,8 @@ right reserved.
 
 The journal version, also read, has the published title "On graphs with
 subgraphs having large independence numbers", Journal of Graph Theory 56(2)
-(2007), 149-157, DOI 10.1002/jgt.20264. The nine-page copy read was obtained UTC
-from the [IAS-hosted journal
+(2007), 149-157, DOI 10.1002/jgt.20264. The nine-page copy read was obtained on
+2026-09-10 UTC from the [IAS-hosted journal
 copy](https://www.ias.edu/sites/default/files/math/csdm/05-06/nalon_on_graphs_with_subgraphs_of_large.pdf).
 Its first page records online publication on 9 August 2007.
 

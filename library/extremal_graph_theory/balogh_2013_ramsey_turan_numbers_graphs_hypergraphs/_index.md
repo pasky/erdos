@@ -27,7 +27,7 @@ disproves Erdős problem 533.
 Balogh, József and Lenz, John, On the {R}amsey-Turán numbers of graphs and
 hypergraphs. Israel J. Math. 194 (2013), no. 1, 45--68,
 doi:10.1007/s11856-012-0076-2 (published online 29 June 2012; Crossref
-record and the arXiv listing's journal reference read).
+record and the arXiv listing's journal reference read 2026-09-18).
 
 The copy read for this card is arXiv:1109.4428v2 (22 September 2011; the
 arXiv listing shows v1 of 20 September 2011 and this v2), 20 pages with a

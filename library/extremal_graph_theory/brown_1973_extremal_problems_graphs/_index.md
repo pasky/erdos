@@ -53,11 +53,15 @@ Theorem of Section 4 with the remark after it (p. 59), read clause by clause
 on the page images; the proof (pp. 59--61) was read for structure only and
 no step was checked; the values of Section 2 (pp. 56--57), the question on
 p. 58 and the statements of Section 5 (p. 62) were read clause by clause on
-the page images, and the rest of Section 3 was not re-read. The Section 5
-argument (p. 62) was checked step by step. The Theorem is paged at
-[[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|theorem_section_4]], the p. 58 question at
-[[extremal_graph_theory/brown_1973_extremal_problems_graphs/question_p58|question_p58]], and the Section 5 bound and
-conjecture at [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_p62|theorem_p62]] and
+the page images, and the rest of Section 3 was not checked against the page
+images. The Section 5 argument (p. 62) was checked step by step. The Theorem is
+paged at
+[[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|theorem_section_4]],
+the p. 58 question at
+[[extremal_graph_theory/brown_1973_extremal_problems_graphs/question_p58|question_p58]],
+and the Section 5 bound and conjecture at
+[[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_p62|theorem_p62]]
+and
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/conjecture_p62|conjecture_p62]].
 
 For an r-uniform hypergraph (r-graph), the authors write f^{(r)}(n; k, s) for
@@ -131,8 +135,8 @@ $r=e=3$ the p. 58 question asks whether $d_3(3)\le6$.
 - Known values, r = 2, s < k (Section 2, p. 56): f^{(2)}(n;k,s) = s for
   s <= k/2, and f^{(2)}(n;k,s) = 1 + [n(2s-k)/(2s-k+1)] for k/2 < s < k (the
   print leaves the denominator 2s-k+1 unbracketed).
-- f^{(2)}(n;3,3) (Section 2, p. 57): The exact value f^{(2)}(n; 3, 3) = [n^2/4] + 1 is
-  known, and limit n^{-3/2} f^{(2)}(n; 4, 4) = 1/2.
+- f^{(2)}(n;3,3) (Section 2, p. 57): The exact value f^{(2)}(n; 3, 3) =
+  [n^2/4] + 1 is known, and limit n^{-3/2} f^{(2)}(n; 4, 4) = 1/2.
 - Erdős bounds for f^{(2)}(n;k,k) (p. 57): There are positive constants
   ε_k, a_k, b_k with a_k n^{1+ε_k} < f^{(2)}(n;k,k) < b_k n^{1+1/[k/2]} for
   all k, with ε_k = 1/[k/2] for k <= 5 at least, and the authors call this

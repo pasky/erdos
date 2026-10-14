@@ -60,15 +60,15 @@ or accepted something; the date a Lean clean check or carry-forward check ran; a
 snapshot of an outside source that can change and that the page relies on, such
 as the site's page as the Source line accessed it ("accessed 2026-09-04"), a
 forum thread, a registry, a live page ("page last edited 2026-04-06") or a
-repository ("its commit of 2026-09-15"), and the license reading for a file the
-release holds; and an outside event in the history of a problem or a source,
-such as a publication, posting, submission, revision or catalog decision, with
-the dates a claim page's name and a link's `date` carry. A filed review whose
-subject has since changed may say so on the owning page, without a date. When an
-as-of date is removed, an observation that held only on that date ("the
-repository had no statement file on 2026-09-27") is dropped or kept as a dated
-observation of the outside source, never restated in the present tense as if it
-still holds.
+repository ("its commit of 2026-09-15"), and the reading of a license page,
+whether or not the release holds the file; and an outside event in the history
+of a problem or a source, such as a publication, posting, submission, revision
+or catalog decision, with the dates a claim page's name and a link's `date`
+carry. A filed review whose subject has since changed may say so on the owning
+page, without a date. When an as-of date is removed, an observation that held
+only on that date ("the repository had no statement file on 2026-09-27") is
+dropped or kept as a dated observation of the outside source, never restated in
+the present tense as if it still holds.
 
 Understand material before importing it: identify its statement, scope,
 dependencies, and warranted standing, and run available executable checks.
@@ -405,14 +405,15 @@ On the Lean side there is no hand-maintained roster. `lake exe audit` walks
 every declaration in the corpus; its axiom check has no opt-out and cannot be
 silenced. It checks the claim surface (`Erdos.L<id>.statement` / `.claim` /
 `.refutation`), and `lake exe audit --emit` writes `lean/Manifest.json`, which
-is committed and checked for freshness. Each claim row of the manifest records
-two fields. `depends` is the kernel dependency check: the ids of the other
-claims whose namespace constants the proof closure of the claim's triple
-reaches. The reference linter gates every recorded id against the claim page's
-`depends_on`, so a page always discloses what its kernel proof relies on.
-`compiler` lists the compiler axioms that `native_decide` minted in the triple's
-closure, each with the declaration and module that minted it; the reference
-linter matches them to the card's `assumes: compiler` in both directions.
+is committed and checked for freshness. Each claim row of the manifest records,
+among other fields, `depends` and `compiler`. `depends` is the kernel dependency
+check: the ids of the other claims whose namespace constants the proof closure
+of the claim's triple reaches. The reference linter gates every recorded id
+against the claim page's `depends_on`, so a page always discloses what its
+kernel proof relies on. `compiler` lists the compiler axioms that
+`native_decide` minted in the triple's closure, each with the declaration and
+module that minted it; the reference linter matches them to the card's
+`assumes: compiler` in both directions.
 
 A claim's `lean:` field names a fully qualified declaration in that claim's own
 namespace (`Erdos.L<id>.*`). The field certifies the claim's own

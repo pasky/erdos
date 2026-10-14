@@ -71,11 +71,11 @@ marks, the first page names the journal, volume and issue, and the 42 pages
 are numbered 1--42 rather than 261--302. The count matches
 the printed extent, but the page correspondence was not checked, so the
 page numbers below are the proof's. It has a text layer. Its margin on p. 34
-carries an editorial query on the conclusion of the proof of Theorem 5. Provenance:
-downloaded in the repository's survey download set of September 2026; the
-download URL was not recorded; 284,127 bytes. The typeset proof's only
-notice is "Vol. 135, No. 2, © 2006" under "DUKE MATHEMATICAL JOURNAL" on
-p. 1, naming no holder or license; the article's Project Euclid page (DOI
+carries an editorial query on the conclusion of the proof of Theorem 5.
+Provenance: downloaded in the repository's survey download set of September
+2026; the download URL was not recorded; 284,127 bytes. The typeset proof's only
+notice is "Vol. 135, No. 2, © 2006" under "DUKE MATHEMATICAL JOURNAL" on p. 1,
+naming no holder or license; the article's Project Euclid page (DOI
 10.1215/S0012-7094-06-13522-6) could not be read on 2026-10-02 (it served a bot
 challenge); the Duke University Press journal page
 (dukeupress.edu/duke-mathematical-journal, read 2026-10-02) prints "© 2024 Duke
@@ -148,7 +148,7 @@ itself consumes no statement from this source.
   which combines J. Reine Angew. Math. 569 (2004), 213--234 (the problem's
   [Bl04]) and its part II, J. London Math. Soc. (2) 71 (2005), 69--84, gave
   $V(x)=x/(\log x)^{(1-2^{-1/3})+o(1)}$. The zbMATH review of part I
-  (Zbl 1051.11050) and summary of part II (Zbl 1166.11312),
+  (Zbl 1051.11050) and summary of part II (Zbl 1166.11312), read 2026-10-07,
   place this asymptotic in part II; part I proves
   $x(\log x)^{-0.253}\ll V(x)\ll x(\log x)^{-1/6}\log\log x$.
 

@@ -58,7 +58,8 @@ PROVED (LEAN) and credits the solution to this paper in the problem's commentary
 (page last edited 8 April 2026, accessed 2026-09-17). The proof-claim tab is
 empty. Published: P. Erdős, A. Sárközy and V. T. Sós, On a conjecture of Roth
 and some related problems. I, in Irregularities of Partitions, Algorithms and
-Combinatorics 8, Springer (1989), 47--59 (Crossref record of the DOI).
+Combinatorics 8, Springer (1989), 47--59 (Crossref record of the DOI accessed
+2026-09-17).
 The chapter is part of a conference volume. Neither the record nor the library
 card documents refereeing, so `refereed` is not listed. The volume gives no day
 of publication, so the day in the page name is a placeholder for 1989.

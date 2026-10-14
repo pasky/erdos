@@ -23,8 +23,8 @@ of a uniformly random m-subset of [n] almost surely has size n^{b(a)+o(1)},
 with b(a) = a, 1/3 or a/2 on [0,1/3], [1/3,2/3] and [2/3,1].
 
 [[additive_bases/kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/theorem_2_1|theorem_2_1]]: Kohayakawa, Lee, Rödl and Samotij's count of Sidon sets of a given size: for
-0 < sigma < 1, large n and t >= 2s_0 with s_0 = (2(1 - sigma)^{-1} n log n)^{1/3},
-the number of Sidon sets of size t in [n] is at most
+0 < sigma < 1, large n and t >= 2s_0 with s_0 = (2(1 - sigma)^{-1} n log
+n)^{1/3}, the number of Sidon sets of size t in [n] is at most
 n^{3s_0}(32en/(sigma t^2))^t.
 
 [[additive_bases/kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/theorem_2_2|theorem_2_2]]: Kohayakawa, Lee, Rödl and Samotij's count of Sidon sets of size t in [n] for
@@ -43,13 +43,14 @@ c_2(n log(n^2p^3))^{1/3}, with c_1 a positive absolute constant.
 
 [[additive_bases/kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/theorem_2_6|theorem_2_6]]: Kohayakawa, Lee, Rödl and Samotij's bounds at the second critical point: for
 0 <= delta < 1/3, 1 <= alpha <= n^delta and p = alpha^{-1}n^{-1/3}(log n)^{2/3},
-almost surely c_3(n log n)^{1/3} <= F([n]_p) <= c_4(n log n)^{1/3} log n / log(alpha + log n),
-with c_3 = c_3(delta) > 0 and c_4 absolute.
+almost surely c_3(n log n)^{1/3} <= F([n]_p) <= c_4(n log n)^{1/3} log n /
+log(alpha + log n), with c_3 = c_3(delta) > 0 and c_4 absolute.
 
 [[additive_bases/kohayakawa_2015_number_sidon_sets_sparse_random_set_integers/theorem_2_7|theorem_2_7]]: Kohayakawa, Lee, Rödl and Samotij's dense range: there are absolute constants
 c_5, c_6 > 0 such that almost surely c_5 sqrt(np) <= F([n]_p) <= c_6 sqrt(np)
-for n^{-1/3}(log n)^{8/3} <= p <= 1, with an extra factor sqrt(alpha)/(1 + log alpha)
-in the upper bound when p = alpha^{-1}n^{-1/3}(log n)^{8/3}, 1 <= alpha <= (log n)^2.
+for n^{-1/3}(log n)^{8/3} <= p <= 1, with an extra factor sqrt(alpha)/(1 + log
+alpha) in the upper bound when p = alpha^{-1}n^{-1/3}(log n)^{8/3}, 1 <= alpha
+<= (log n)^2.
 
 ***
 
@@ -61,8 +62,8 @@ The edition read is the authors' line-numbered manuscript dated 9 November
 2012, not the journal edition; labels and pages cited here and on the result
 pages are the manuscript's. No notice is printed in it; the author's
 publication page that lists the paper
-(https://www.math.tau.ac.il/~samotij/publications.html) states no terms; the
-term is unstated.
+(https://www.math.tau.ac.il/~samotij/publications.html, read 2026-10-02) states
+no terms; the term is unstated.
 
 Writing [n] = {0, 1, ..., n-1}, F(n) for the maximum size of a Sidon subset
 of [n] (known to be (1+o(1))sqrt(n)) and Z_n for the family of all Sidon

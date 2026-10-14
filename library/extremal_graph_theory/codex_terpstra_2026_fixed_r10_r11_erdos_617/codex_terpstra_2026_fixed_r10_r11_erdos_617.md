@@ -16,7 +16,7 @@ updated: 2026-10-05T05:52:35Z
 
 This page is the source text: `paper/combined_preprint_draft.md` of the
 repository https://github.com/terpstra-research/erdos-617-r10-r11 at commit
-`b0810a0a` (2026-08-12, release v0.1.1), retrieved 2026-09-25; 4,921 bytes.
+`b0810a0a` (2026-08-12, release v0.1.1); 4,921 bytes.
 The repository offers the paper under CC BY 4.0. The draft follows unchanged
 below, its title line omitted because it repeats this page's title.
 

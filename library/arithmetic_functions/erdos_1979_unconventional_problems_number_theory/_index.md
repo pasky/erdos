@@ -40,8 +40,8 @@ same-prime-factors conjectures with alpha(m, n, k), the Erdos-Turan d_n
 conjecture with its prize offer, and the covering passage (B(n),
 Iwaniec's and Rankin's bounds, eps_n, the r-fold question), each read
 clause by clause; the section states problems and proves none
-of them, so there is no proof to check. The rest of the digest records an
-earlier reading that was not repeated. No notice is printed in the scan; the
+of them, so there is no proof to check. The rest of the digest was not
+checked against the page images. No notice is printed in the scan; the
 Crossref record for DOI 10.1007/bf01903382 (read 2026-10-02) names only
 Springer's text-and-data-mining terms (http://www.springer.com/tdm) and no
 Creative Commons license, and the Springer article page was not consulted, every

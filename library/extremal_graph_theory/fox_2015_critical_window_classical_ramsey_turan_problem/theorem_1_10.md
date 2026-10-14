@@ -68,9 +68,9 @@ Theorem 8.1, which the proof on p. 28 applies with $h=\log n/\log\log n$ and
 $\epsilon\to0$ slowly; Section 9's modification of the graph serves
 Theorems 1.7 and 1.9 (p. 5), not this one.
 [[extremal_graph_theory/fox_2015_critical_window_classical_ramsey_turan_problem/theorem_1_11|Theorem 1.11]]
-(p. 5) collects the window: if $m=e^{-\omega((\log n)^{1/2})}n$ then $\mathbf{RT}(n,K_4,m)=o(n^2)$,
-while if $m=e^{-o((\log n/\log\log n)^{1/2})}n$ then
-$\mathbf{RT}(n,K_4,m)\ge(1/8-o(1))n^2$. Not reconstructed here.
+(p. 5) collects the window: if $m=e^{-\omega((\log n)^{1/2})}n$ then
+$\mathbf{RT}(n,K_4,m)=o(n^2)$, while if $m=e^{-o((\log n/\log\log n)^{1/2})}n$
+then $\mathbf{RT}(n,K_4,m)\ge(1/8-o(1))n^2$. Not reconstructed here.
 
 ## Dependencies
 

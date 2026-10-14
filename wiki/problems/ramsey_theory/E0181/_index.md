@@ -40,18 +40,18 @@ cubes as "an interesting test case" with a prize and states no expected answer,
 and Erdős's 1981 survey says "Burr and I expected (16) to be true and (16') to
 be false" ([Er81], p. 13).
 
-**Status.** Open: the site labeled the problem OPEN. The derived standing is
-claimed, through the claim page of a preprint that appeared after the search
-described here. The best bounds located in that search, whose scope the Current
-assessment records, are the following. The first is the trivial $R(Q_n)\ge2^n$,
-since a copy of $Q_n$ needs $2^n$ vertices. The second is Tikhomirov's
-$R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$, that is
-$R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120 (2024), 103954, refereed;
-cited from the arXiv v3). The search found no proof of the linear bound, no
-counterexample, no preprint and no proof claim. This is a bounded negative
-finding, not a certificate of openness. After that search, the OpenAI release's
-preprint of 23 September 2026 claimed the linear bound $R(Q_n)\le C2^n$ in full.
-The claim page
+**Status.** Open: the site labeled the problem OPEN (accessed 2026-09-18). The
+derived standing is claimed, through the claim page of a preprint that appeared
+after the search described here. The best bounds located in that search, whose
+scope the Current assessment records, are the following. The first is the
+trivial $R(Q_n)\ge2^n$, since a copy of $Q_n$ needs $2^n$ vertices. The second
+is Tikhomirov's $R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$,
+that is $R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120 (2024), 103954,
+refereed; cited from the arXiv v3). The search found no proof of the linear
+bound, no counterexample, no preprint and no proof claim. This is a bounded
+negative finding, not a certificate of openness. After that search, the OpenAI
+release's preprint of 23 September 2026 claimed the linear bound
+$R(Q_n)\le C2^n$ in full. The claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
 proof of the theorem that formal-conjectures links has not been built or
@@ -69,7 +69,7 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
 
 - [Ti22] Tikhomirov, K., A remark on the Ramsey number of the hypercube.
   European J. Combin. 120 (2024), 103954, doi:10.1016/j.ejc.2024.103954
-  (Crossref record: issue dated August 2024);
+  (Crossref record accessed 2026-09-18: issue dated August 2024);
   arXiv:2208.14568 (v1 30 August 2022, v3 2 March 2024; 24 pages; the arXiv
   listing carries no journal reference). The site's text cites the arXiv
   number with the year 2022. Theorem 1.1, the Remark after it and
@@ -160,23 +160,23 @@ kernel and the independent checker nanoda accept the proof; the claim page
 describes it. The community database (teorth/erdosproblems) lists the problem
 as open and its statement as formalized, with entries last updated 31 August
 2025 and 7 September 2026, and the formal status as unformalized; the site's
-indicator reads "Formalised statement? Yes" (it read "No"). Nothing was built
-or checked here.
+indicator reads "Formalised statement? Yes" (it read "No" on 2026-09-05).
+Nothing was built or checked here.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; OPEN; source keys
-[BuEr75] and [Er93, p. 346]. The commentary, in summary, attributes the
-conjecture to Burr and Erdős while noting that in [Er93] Erdős describes the
-behavior of $R(Q_n)$ as a question he and Sós could not decide, namely whether
-$R(Q_n)/2^n$ tends to infinity; it gives the trivial bound $R(Q_n)\le
-R(K_{2^n})\le C^{2^n}$, says that it was improved several times, names
-Tikhomirov's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$ permissible as the
-best bound, and places the problem as number 20 of the Ramsey theory section of
-the graphs problem collection. The thread has one comment (23 July 2026),
+**The question (site formulation, accessed 2026-09-18).** The statement above;
+OPEN; source keys [BuEr75] and [Er93, p. 346]. The commentary, in summary,
+attributes the conjecture to Burr and Erdős while noting that in [Er93] Erdős
+describes the behavior of $R(Q_n)$ as a question he and Sós could not decide,
+namely whether $R(Q_n)/2^n$ tends to infinity; it gives the trivial bound
+$R(Q_n)\le R(K_{2^n})\le C^{2^n}$, says that it was improved several times,
+names Tikhomirov's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$ permissible as
+the best bound, and places the problem as number 20 of the Ramsey theory section
+of the graphs problem collection. The thread has one comment (23 July 2026),
 reporting a misspelling in the commentary that its author says was found with an
-AI assistant; the proof-claim tab is empty. The community database record lists
-the problem as open and its statement as formalized.
+AI assistant; the proof-claim tab is empty. The community database record
+(accessed 2026-09-18) lists the problem as open and its statement as formalized.
 
 **Origin.** [BuEr75], in the Rényi archive scan. Section 7, "Problems and
 conjectures" (printed pp. 238--239), after recording that the linear-Ramsey
@@ -220,7 +220,7 @@ subtraction made here, so the bound reads $R(Q_n)\le2^{1.96344n+1}+2$ for
 all large $n$, the site's $R(Q_n)\ll2^{(2-c)n}$ with $c\approx0.03656$.
 Acceptance
 evidence: the European Journal of Combinatorics is refereed, and the
-Crossref record places the article in volume 120 (2024),
+Crossref record (accessed 2026-09-18) places the article in volume 120 (2024),
 article 103954; the version cited is the arXiv v3 and the journal text
 was not compared. Before it: the trivial $R(Q_n)\le R(K_{2^n})\le C^{2^n}$ (the
 site); the $O(2^{2n})$ bound of [CFS16], p. 7 of its preprint: Theorem

@@ -165,8 +165,8 @@ page-level standing stays open because the first and third questions are not
 settled.
 
 **Part (a): claims, not adopted.** Two proof claims, both answering only the
-first question and neither accepted (the site headed both as proof claims on
-2026-10-07). (i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
+first question and neither accepted (the site headed both as proof claims).
+(i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
 states): $h(n)\ll(\log\log n)^2$ for infinitely many practical $n$; the
 write-up sits behind an Overleaf read link whose text this corpus does not
 have; per the comment of 6 August 2026 the argument rests on Bourgain's
@@ -268,8 +268,9 @@ and review; parts (a) and (c) carry claims and cited bounds only.
   explicit the claim $h(n)\ll(\log\log n)^2$ of
   [[../library/divisors/price_2026_sparse_divisor_sums/_index|Price, 24 July 2026]]
   (AI-generated, Overleaf read link, resting on Bourgain's exponential-sum
-  theorem; elementary layer kernel-checked by a third party). Either would answer the first question affirmatively and improve
-  Vose's $(\log m)^{1/2}$; the site's label was OPEN. Claim pages:
+  theorem; elementary layer kernel-checked by a third party on 6 August 2026).
+  Either would answer the first question affirmatively and improve Vose's
+  $(\log m)^{1/2}$; the site's label was OPEN. Claim pages:
   [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro 2026]]
   and [[problems/divisors/E0018/claims/2026_07_24_price|Price 2026]].
 - Applications of the same construction, claimed and not accepted:

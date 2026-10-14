@@ -92,11 +92,12 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   [[../library/ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/_index|hindman_2017_pairwise_sums_colourings_reals]].
 - [Ko16] Komjáth, P., A certain 2-coloring of the reals. Real Anal. Exchange
   41 (2016), no. 1, 227--231, doi:10.14321/realanalexch.41.1.0227 (the
-  publisher's record gives volume 41, issue 1, first page 227). Not held: no
-  open copy was found; no author copy was found. Quoted second-hand.
+  publisher's record, accessed 2026-09-18, gives volume 41, issue 1, first page
+  227). Not held: no open copy was found; no author copy was found. Quoted
+  second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
-  journal or arXiv record found. Theorem 3.1, p. 3; Corollary
+  journal or arXiv record found on 2026-09-18. Theorem 3.1, p. 3; Corollary
   3.2, p. 4. Library home:
   [[../library/ramsey_theory/soukup_2015_sums_anti_ramsey_colourings_reals/_index|soukup_2015_sums_anti_ramsey_colourings_reals]].
 - [ErHaRa65] Erdős, P., Hajnal, A. and Rado, R., Partition relations for
@@ -107,19 +108,18 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
 **Formalization.** The site's (Lean) suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/965.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/965.lean)
-of formal-conjectures (main) declares `erdos_965 : answer(False) ↔ ∀ f : ℝ → Fin
-2, ∃ A : Set ℝ, ¬ A.Countable ∧ ∀ᵉ (a ∈ A) (b ∈ A) (c ∈ A) (d ∈ A), a ≠ b → c ≠
-d → f (a + b) = f (c + d)` under `category research solved`, with proof `sorry`
-and a `formal_proof` attribute naming `src/latest/ErdosProblems/Erdos965.lean`
-in `plby/lean-proofs` at a fixed commit (the link on Komjáth's claim page); its
-docstring cites [Ko16] and the Soukup--Weiss manuscript (as `[SWCol]`, from the
-first author's site). A variant `erdos_965.variants.generalization` (sums of $k$
-distinct elements for some $k\ge2$) is `research solved`, `answer(False)`,
-`sorry`, without a formal-proof attribute. The community database lists
-"disproved (Lean)" as of its last update, of 23 August 2026, the statement
-formalized since 22 January 2026, `formal_status` Lean and no formal-proof URL;
-the site's indicator reports a formalized statement. Nothing was built or
-kernel-checked here.
+of formal-conjectures (main on 2026-09-18) declares
+`erdos_965 : answer(False) ↔ ∀ f : ℝ → Fin 2, ∃ A : Set ℝ, ¬ A.Countable ∧ ∀ᵉ (a ∈ A) (b ∈ A) (c ∈ A) (d ∈ A), a ≠ b → c ≠ d → f (a + b) = f (c + d)`
+under `category research solved`, with proof `sorry` and a `formal_proof`
+attribute naming `src/latest/ErdosProblems/Erdos965.lean` in `plby/lean-proofs`
+at a fixed commit (the link on Komjáth's claim page); its docstring cites [Ko16]
+and the Soukup--Weiss manuscript (as `[SWCol]`, from the first author's site). A
+variant `erdos_965.variants.generalization` (sums of $k$ distinct elements for
+some $k\ge2$) is `research solved`, `answer(False)`, `sorry`, without a
+formal-proof attribute. The community database lists "disproved (Lean)" as of
+its last update, of 23 August 2026, the statement formalized since 22 January
+2026, `formal_status` Lean and no formal-proof URL; the site's indicator reports
+a formalized statement. Nothing was built or kernel-checked here.
 
 ## Current assessment
 
@@ -183,7 +183,7 @@ this coloring, and Question 3.3 asks whether ZFC gives a finite coloring with
 no uncountable $X$ having $FS_2(X)$ monochromatic. Version: the locators are
 those of arXiv v1 (11 May 2015; the only arXiv version, whose listing carries
 no journal reference); the journal is Abh. Math. Semin. Univ. Hambg. 87
-(2017), no. 2, 275--287 (the publisher's record),
+(2017), no. 2, 275--287 (the publisher's record, accessed 2026-09-18),
 refereed, its text not compared.
 
 **The ZFC strand.** Komjáth's paper [Ko16] answers Question 3.3 for two colors;

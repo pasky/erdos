@@ -33,7 +33,7 @@ scan `1962-17.pdf`: three pages, printed pp. 227--229 = PDF pp. 1--3 (printed
 p. $n$ is PDF p. $n-226$), the third a Russian summary of the Theorem; a scan
 read on the page images. Source: <https://users.renyi.hu/~p_erdos/1962-17.pdf>.
 No notice is printed in the scan; the hosting archive's site footer speaks for
-the site, not the paper (https://users.renyi.hu/~p_erdos/,
+the site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02,
 prints "(C) 2005-2007 All rights reserved. All material on this site is for
 scientifics purposes only."); the series has no online publisher edition, so the
 publisher's page was not consulted and no Crossref license is recorded; the term

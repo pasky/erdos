@@ -71,7 +71,7 @@ September 2026 sketches $b(a)-a\ll a^{61/80}$ (see the forum items below).
 **Source.** [erdosproblems.com/290](https://www.erdosproblems.com/290),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28
 December 2025), its discussion thread and its
-proof-claim tab, which on 2026-10-07 held five comments and two proof
+proof-claim tab, which later held five comments and two proof
 claims. The site cites [ErGr80, p. 34]. Cite as: T. F. Bloom, Erdős Problem #290,
 https://www.erdosproblems.com/290, accessed 2026-09-17.
 
@@ -100,7 +100,7 @@ https://www.erdosproblems.com/290, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/290.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/290.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (the head of main on 2026-09-17)
 declares
 `erdos_290 : answer(True) ↔ (∀ a : ℕ, 1 ≤ a → ∃ b : ℕ, a < b ∧ harmonicDen a (b + 1) < harmonicDen a b)`
 under `category research solved`, with proof `sorry`, and a `formal_proof`
@@ -260,7 +260,7 @@ the commit of 10 July 2026 that the claim page links. These are facts
 about the files' text: no build or audit is recorded and no kernel credit
 is claimed, so the 2024 claim page links the files as formalizations and
 lists no `formalized` evidence. The community database
-(teorth/erdosproblems) records `formal_status` Lean since
+(teorth/erdosproblems, accessed 2026-09-17) records `formal_status` Lean since
 14 January 2026 and no formal-proof URL.
 
 **Search scope.** None of the routes below found a

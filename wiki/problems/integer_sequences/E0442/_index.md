@@ -76,10 +76,11 @@ https://www.erdosproblems.com/442, accessed 2026-09-18.
 
 - [Ta24b] Tao, T., Dense sets of natural numbers with unusually large least
   common multiples. arXiv:2407.04226 (v1 5 July 2024; v5 11 November 2025,
-  20 pp.); Integers 24 (2024), paper A100 (the journal's volume listing; the journal text was not compared, and the v5
-  arXiv comment says the version adds an appendix with an argument of Will
-  Sawin). Theorem 1, pp. 4--5; the remark on squarefree numbers with $k$
-  prime factors, p. 4. Library home:
+  20 pp.); Integers 24 (2024), paper A100 (the journal's volume listing,
+  accessed 2026-09-18; the journal text was not compared, and the v5 arXiv
+  comment says the version adds an appendix with an argument of Will Sawin).
+  Theorem 1, pp. 4--5; the remark on squarefree numbers with $k$ prime factors,
+  p. 4. Library home:
   [[../library/integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/_index|tao_2024_dense_sets_natural_numbers_unusually_large]].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
@@ -103,12 +104,12 @@ that commit. At the file's later change of 18 September 2026 (17:06 UTC),
 [the file at that commit](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/442.lean) shows that `erdos_442` gained a `formal_proof`
 attribute pointing at the `lean-proofs` file described next, at the commit
 the claim page links, and the statements were unchanged. The community
-database records the problem disproved (Lean) with
+database (accessed 2026-09-18) records the problem disproved (Lean) with
 `formal_status` Lean since 23 August 2026, the statement formalized since
 31 August 2025, and no formal-proof URL; the problem page's
 formalized-statement indicator reads yes. The referent of the label is
 outside the collection: the repository `plby/lean-proofs` at its head of
-15 September 2026 holds
+15 September 2026 (accessed 2026-09-18) holds
 `src/latest/ErdosProblems/Erdos442.lean`, last changed on 23 and 24 August
 2026, whose `not_erdos_442` proves the negation of the collection's
 proposition with the squarefree semiprimes (the case
@@ -158,10 +159,10 @@ $\mathbb E\gcd(\mathbf n,\mathbf m)\to\infty$ for two independent elements drawn
 with logarithmic weights (displays (4)--(8), pp. 2--3) and builds the set from
 squarefree numbers with a controlled number of prime factors across the scales
 $x_k=\exp\exp(k^2/C_0^2)$ (p. 5). Acceptance: the paper appeared in Integers 24
-(2024) as paper A100, a refereed journal (the volume listing); the site accepts
-it. Read depth: claims checked for Theorem 1 and the p. 4 remark; the proof of
-Theorem 1 and the appendix's proof were not read. The simplest disproof is the
-paper's
+(2024) as paper A100, a refereed journal (the volume listing accessed
+2026-09-18); the site accepts it. Read depth: claims checked for Theorem 1 and
+the p. 4 remark; the proof of Theorem 1 and the appendix's proof were not read.
+The simplest disproof is the paper's
 [[../library/integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/remark_p4|remark on p. 4]]:
 for the squarefree numbers with exactly $k$ prime factors, a standard
 calculation from Mertens' theorem gives

@@ -123,7 +123,7 @@ by Nat Sothanaphan (12 May 2026) says that a standard check found no issues
 and that the proof could be regarded as correct, while noting a caveat about
 what the verifier presentation overclaims. That endorsement is follow-up
 progress recorded in the thread, not an independent review of this corpus's
-compilation; the site listed no proof claim for the problem on 2026-10-07.
+compilation; the site listed no proof claim for the problem.
 The all-$k$ claim is kept separate from Cambie's established finite result.
 Its source folder is
 [[../library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/_index|Wang–Crapis 2026]]:

@@ -29,15 +29,15 @@ $$
 \sum_{k} 2^{\aleph_{n_k}}\to (\aleph_\omega)^2?
 $$
 
-**Status.** Proved. The site's label was PROVED (page last edited 1 September
-2026, accessed 2026-10-07), and its remark credits the proof to Shelah [Sh75].
-The frontmatter standing is derived from the accepted claim page
+**Status.** Proved. The site's remark (page last edited 1 September 2026,
+accessed 2026-10-07) credits the proof to Shelah [Sh75], and its label was
+PROVED. The frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E1219/claims/1975_01_01_shelah|Shelah's proof of the partition relation]].
 
 **Source.** [erdosproblems.com/1219](https://www.erdosproblems.com/1219),
-accessed 2026-10-07 (PROVED; last edited 1 September 2026; no comments and
-no proof claims). Cite as: T. F. Bloom, Erdős
-Problem #1219, https://www.erdosproblems.com/1219.
+accessed 2026-10-07 (last edited 1 September 2026; no comments); the page's
+last label was PROVED, and it carried no proof claims. Cite as: T. F. Bloom,
+Erdős Problem #1219, https://www.erdosproblems.com/1219.
 
 **References.**
 
@@ -74,14 +74,14 @@ Problem #1219, https://www.erdosproblems.com/1219.
   [[../library/set_theory/shelah_1975_notes_partition_calculus/corollary_1_3|corollary_1_3]]
   page.
 
-**Formalization.** None recorded. The site reports no
-formalized statement, the community database marks the problem
-unformalized, and conjectures.io lists no item for it; formal-conjectures
-has no statement file for 1219.
+**Formalization.** None recorded. On 2026-09-27 the site reported no
+formalized statement, the community database marked the problem
+unformalized, and conjectures.io listed no item for it; formal-conjectures
+had no statement file for 1219 on 2026-10-07.
 
 ## Current assessment
 
-The site formulation (its revision history shows
+The site formulation, as accessed 2026-10-07 (its revision history shows
 one rewording of the opening clause on 1 September 2026), asks whether $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ for an
 increasing sequence $(n_k)$ with $2^{\aleph_{n_k}}$ strictly increasing and
 $2^{\aleph_{n_0}}>\aleph_\omega$; the omitted subscript means two colors, and

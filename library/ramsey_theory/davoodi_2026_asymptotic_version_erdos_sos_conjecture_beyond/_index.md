@@ -21,7 +21,7 @@ arXiv's non-exclusive distribution license (arXiv:2603.17755), every other right
 reserved.
 
 The copy read for this card is arXiv:2603.17755v1 (18 March 2026, 104
-pages), the only version on the arXiv listing (API record read).
+pages), the only version on the arXiv listing (API record read 2026-10-07).
 Read status: claims checked for Conjecture 1.2, Theorem 1.3 and Corollaries
 1.4--1.6 (pp. 3--4), read on the page images, with the proofs of the
 corollaries (pp. 5--8) read for their inputs only; the proof of Theorem 1.3

@@ -71,7 +71,7 @@ source key [Er75b]), its three-comment discussion thread (25 and 26 February
 
 - [Sp75] Spencer, J., Restricted Ramsey configurations. J. Combinatorial
   Theory Ser. A 19 (1975), no. 3, 278--286, doi:10.1016/0097-3165(75)90053-9
-  (the publisher's record, dates the issue November
+  (the publisher's record, accessed 2026-09-18, dates the issue November
   1975). Theorem 1, printed p. 279. Library home:
   [[../library/ramsey_theory/spencer_1975_restricted_ramsey_configurations/_index|spencer_1975_restricted_ramsey_configurations]].
 - [Er75b] Erdős, P., Problems and results in combinatorial number theory.
@@ -95,10 +95,11 @@ coloring k` under `category research solved`, with proof `sorry` and a
 `formal_proof` attribute naming `src/v4.29.1/ErdosProblems/Erdos966.lean` in
 `plby/lean-proofs` on that repository's `main` branch, not a fixed commit; its
 docstring quotes Erdős's "Spencer has recently shown that such a sequence
-exists". The community database lists "proved (Lean)" and `formal_status` Lean
-as of their last update, of 25 February 2026, the statement formalized as of its
-last update, of 4 August 2026, and no formal-proof URL; the site's indicator
-reports a formalized statement. Nothing was built or kernel-checked here.
+exists". The community database (read 2026-09-18) lists "proved (Lean)" and
+`formal_status` Lean as of their last update, of 25 February 2026, the statement
+formalized as of its last update, of 4 August 2026, and no formal-proof URL; the
+site's indicator reports a formalized statement. Nothing was built or
+kernel-checked here.
 
 ## Current assessment
 
@@ -122,7 +123,7 @@ monochromatic line, which is a $k$-term progression, and an embedding in base
 $q$ for any $q>2k$ (a standard Freiman-isomorphism device) projects the example
 onto the integers; since Mathlib has the Hales--Jewett theorem, the comment
 adds, the formal proof is comparatively straightforward. The proof-claim tab is
-empty. The community database records "proved (Lean)".
+empty. The community database (read 2026-09-18) records "proved (Lean)".
 
 **The origin (Er75b, printed p. 306).**
 Chapter IV, item (i): "Is it true that for every $k$ and $r$ there is a
@@ -155,7 +156,7 @@ Theorem 6 (p. 285) refines the construction with $p>2k$ so that any two
 $k$-term progressions in the set meet in at most one point, which is the
 base-$q$ embedding with $q>2k$ of the thread's sketch. Acceptance: the
 paper appeared in J. Combinatorial Theory Ser. A 19 (1975), no. 3, 278--286
-(the publisher's record), a refereed journal; Erdős's
+(the publisher's record, accessed 2026-09-18), a refereed journal; Erdős's
 added-in-proof note attests the result, and Spencer's acknowledgment thanks
 Erdős "for his conjectures, theorems, and encouragement". The Semantic Scholar
 list of works citing the paper (28 records, 1979 to 2026, among them the

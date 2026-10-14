@@ -22,9 +22,9 @@ The retained [folder-name
 PDF](erdelyi_2018_asymptotic_distance_between_ultraflat_unimodular_polynomial_its_conjugate_reciprocal.pdf)
 is the arXiv version stamped "arXiv:1810.04287v2 [math.CA] 12 Feb 2019", the
 canonical version for this card; its conversion sits beside it. Provenance:
-downloaded from https://arxiv.org/pdf/1810.04287v2 on 2026-09-25; 191,332 bytes.
-The arXiv record (https://arxiv.org/abs/1810.04287, read 2026-10-02) names the
-CC0 1.0 Universal public domain dedication.
+downloaded from https://arxiv.org/pdf/1810.04287v2; 191,332 bytes. The arXiv
+record (https://arxiv.org/abs/1810.04287, read 2026-10-02) names the CC0 1.0
+Universal public domain dedication.
 
 **Bears on.** [[../wiki/problems/polynomials/E1150/_index|E1150]].
 

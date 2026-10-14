@@ -65,7 +65,7 @@ only the title, the author line "OpenAI", the date and the citation block; it
 adds no statement about human assistance or review. These are the source's
 own attestations, recorded here as history and not as this corpus's review.
 No refereed publication, arXiv version or independent review of the
-manuscript is recorded here and nothing on this card is
+manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 The release's `lean/formalization.yaml` does not name this manuscript. Its Lean

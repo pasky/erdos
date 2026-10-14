@@ -42,13 +42,13 @@ strong edge-colouring with at most 10 colours." The bound is attained
 (p. 232): the graph $G_{10}$ of Fig. 1 has maximum degree $3$, and every
 strong edge-coloring of it gives all its edges distinct colors, so "the
 strong chromatic index of $G_{10}$ is 10"; the paper adds that $G_{10}$
-extends to a cubic graph with strong chromatic index $10$. Fig. 1 (300 dpi crop) shows seven vertices and ten
-edges: a five-cycle in which two consecutive vertices are each replaced by
-two nonadjacent vertices, six vertices of degree $3$ and one of degree $2$;
-this reading of the figure is a filing observation. So the answer to
-Gyárfás's Norwich 1989 question, "What is the maximum strong chromatic
-index of a cubic graph? The answer would be either 10 or 11" (p. 231), is
-$10$, one below the conjectured $\lfloor\frac54\cdot9\rfloor=11$.
+extends to a cubic graph with strong chromatic index $10$. Fig. 1 (300 dpi crop)
+shows seven vertices and ten edges: a five-cycle in which two consecutive
+vertices are each replaced by two nonadjacent vertices, six vertices of degree
+$3$ and one of degree $2$; this reading of the figure is a filing observation.
+So the answer to Gyárfás's Norwich 1989 question, "What is the maximum strong
+chromatic index of a cubic graph? The answer would be either 10 or 11" (p. 231),
+is $10$, one below the conjectured $\lfloor\frac54\cdot9\rfloor=11$.
 
 **Source.** L. D. Andersen, The strong chromatic index of a cubic graph is
 at most 10, Discrete Math. 108 (1992), 231--252; Theorem 1 and the opening

@@ -84,7 +84,7 @@ curator, T. F. Bloom, records the answer in the problem's remarks and labeled
 the problem solved (page last edited 2026-04-03). That is the reviewed evidence.
 As of its last update, dated 2026-01-13, the community database lists the
 problem as solved, provisionally marked after the forum post, and records a Lean
-proof.
+proof since 2026-08-23.
 
 The site's Lean qualifier refers to a Lean 4 formalization of the note (Lean
 v4.33.0), produced with Codex and GPT-5.6 Sol and posted in lean-proofs on

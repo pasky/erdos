@@ -68,8 +68,9 @@ Mathematics (2025), and a third-party Lean proof of the counterexample, which
 this corpus has not built, is linked from it.
 
 **Search scope.** The site's problem page, its discussion thread and its
-proof-claims list, and the Crossref record of the paper; on 2026-10-07 none of
-them showed another claim on the problem.
+proof-claims list, and the Crossref record of the paper; the proof-claims list
+showed no other claim on the problem, and on 2026-10-07 the other sources
+showed none.
 
 What the paper leaves open is quantitative and not part of Problem 762:
 Proposition 1.1 reduces the determination of $f(n)$, the largest excess

@@ -46,7 +46,7 @@ doi:10.48550/arXiv.1711.09282. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:1711.09282), every other right reserved; it lists
 only v1 (25 November 2017) and no journal reference (read 2026-10-07).
 Published in Eur. J. Combin. 75 (2019), 19--31,
-doi:10.1016/j.ejc.2018.07.015 (Crossref record read); the
+doi:10.1016/j.ejc.2018.07.015 (Crossref record read on 2026-10-07); the
 journal text was not compared.
 
 The arXiv identifier 1711.09282 identifies Nagy's Supersaturation of C_4: from

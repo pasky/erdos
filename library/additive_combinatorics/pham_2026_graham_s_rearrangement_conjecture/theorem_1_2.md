@@ -32,7 +32,7 @@ preprint, cited by four 2026 preprints on 2026-09-18 (Semantic Scholar).
 
 **Read depth.** Claims checked: Conjecture 1.1, Theorem 1.2, Theorem 1.3,
 Corollary 1.4 and the completion sentence were read clause by clause, and
-the statement was checked again against the print; the proof of Theorem 1.2
+the statement was checked against the print; the proof of Theorem 1.2
 (Section 5, pp. 16--26) was not read.
 
 ## Proof pointer

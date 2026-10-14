@@ -26,8 +26,9 @@ inductive topological dimension n minus one.
 R. D. Anderson and J. E. Keisler, *An example in dimension theory*, Proc.
 Amer. Math. Soc. **18** (1967), no. 4, 709--713; DOI
 10.1090/S0002-9939-1967-0215288-0 (volume, issue and DOI from the Crossref
-record; the page heads show only "1967" and "August"). Presented to the
-Society January 24, 1967; received by the editors December 16, 1966.
+record read 2026-09-17 (UTC); the page heads show only "1967" and "August").
+Presented to the Society January 24, 1967; received by the editors December 16,
+1966.
 
 The copy read for this card is a
 publisher scan of the five printed pages 709--713 with a machine text layer

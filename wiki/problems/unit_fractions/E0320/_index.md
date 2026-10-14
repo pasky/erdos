@@ -108,7 +108,8 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Layman, J. W., Sequence A072207, The On-Line Encyclopedia of Integer
   Sequences (2002; entry last modified 21 October 2025, server time): $S(N)$
-  for $N\le83$ (b-file by B. Dobbelaere), linking [BlEr75] and [BGMS25].
+  for $N\le83$ (b-file by B. Dobbelaere), linking [BlEr75] and [BGMS25];
+  accessed 2026-09-18.
 - [YZL26] Young, R., Zhu, K. and Luo, Y., manuscript behind the Overleaf
   read link given on the site's proof-claim tab (claim submitted 15 July
   2026), which served no document to a request on 2026-09-18. Lean
@@ -124,7 +125,7 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
 
 **Formalization.** None in formal-conjectures: the repository had no
 `ErdosProblems/320.lean` on 2026-09-18 and has none on 2026-10-07; the site's
-formalised-statement flag reads no; the community database
+formalised-statement flag reads no; the community database (read 2026-10-06)
 records the problem unformalized, status solved as of the status entry's last
 update on 31 August 2025, OEIS A072207 and no formal-proof URL. Two external
 Lean developments are linked from the proof-claim tab, at pinned commits on
@@ -134,7 +135,8 @@ site's label carried no Lean suffix.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; SOLVED. The site's
+**The question (site formulation, accessed 2026-09-18).** The statement above;
+SOLVED. The site's
 commentary records the lower bound of [BlEr75], $\log S(N)\ge\frac{N}{\log
 N}\bigl(\log2\prod_{i=3}^k\log_iN\bigr)$ for $k\ge4$ and $\log_kN\ge k$; the
 upper bound of [BlEr76b], $\log S(N)\le\frac{N}{\log
@@ -203,7 +205,7 @@ range $\log_kn\ge k$. The page continues with the question of Problem 321.
   $(1-\frac{3/2}{\ln_kN})\prod_{j=3}^k\ln_jN$ when $k\ge4$ and
   $\ln_kN\ge3/2$; the third case is the site's form. Acceptance:
   Mathematics of Computation, DOI 10.1090/mcom/4190, online 22 January 2026
-  (Crossref record); Semantic Scholar lists the same DOI and
+  (Crossref record, 2026-09-18); Semantic Scholar lists the same DOI and
   no citing paper. The relaxed condition on $k$ makes the bound grow faster
   than the 1975 one, not only by the constant (p. 2). The statement is
   checked here; the proof (a recursion for the set $\mathcal U$ of $N$ with

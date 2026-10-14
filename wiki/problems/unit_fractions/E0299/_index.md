@@ -113,7 +113,8 @@ bounded-gap disproof above.
 
 The [Google DeepMind file](https://github.com/google-deepmind/formal-conjectures/blob/8323e878b83fcd7f4a448256069352a265460d75/FormalConjectures/ErdosProblems/299.lean)
 expresses the sequence as strictly increasing and positive with an eventual
-big-O gap bound. Its sequence and density declarations have `sorry` bodies; the external proof tag links the Bloom–Mehta
+big-O gap bound. Its sequence and density declarations have `sorry` bodies;
+the external proof tag links the Bloom–Mehta
 [Lean 3 density proof](https://github.com/b-mehta/unit-fractions/blob/10ef71a300cf29e5f19beb2bbc723a035a0678de/src/final_results.lean#L1261).
 Appendix B reports complete formal verification of Bloom's theorem. The
 reduction from sequences to density is formalized in Lean 4 on top of the

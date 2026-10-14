@@ -36,14 +36,13 @@ conjecture, under the chapter's convention that n is large.
 
 L. Lovász and M. Simonovits, *On the number of complete subgraphs of a graph
 II*, Studies in Pure Mathematics: To the Memory of Paul Turán, Birkhäuser,
-Basel (1983), 459--495; doi:10.1007/978-3-0348-5438-2_41 (Crossref record
-read, which lists the chapter as a book chapter with no issue
-date beyond the year). The sequel to the authors' Aberdeen 1975 paper (Proc.
-Fifth British Combinatorial Conference, Congressus Numerantium XV (1976),
-431--441 per zbMATH, Zbl 0339.05115; the site's key
-LoSi76, not held), which this chapter cites as its reference [5] with pages
-431--442. Not a reference key of the site; the discussion thread of Problem
-1010 names it as [LoSi83].
+Basel (1983), 459--495; doi:10.1007/978-3-0348-5438-2_41 (Crossref record read
+2026-09-18, which lists the chapter as a book chapter with no issue date beyond
+the year). The sequel to the authors' Aberdeen 1975 paper (Proc. Fifth British
+Combinatorial Conference, Congressus Numerantium XV (1976), 431--441 per zbMATH,
+Zbl 0339.05115, read 2026-10-07; the site's key LoSi76, not held), which this
+chapter cites as its reference [5] with pages 431--442. Not a reference key of
+the site; the discussion thread of Problem 1010 names it as [LoSi83].
 
 **Edition read.** The copy read for this card is the scan `LovSimBirk.pdf`
 on the second author's page at the Rényi
@@ -55,7 +54,8 @@ bytes. That scan of the printed chapter on the second author's page
 (https://www.renyi.hu/~miki/LovSimBirk.pdf) states no terms; the
 publisher's chapter page states "© 1983 Springer Basel AG", names Birkhäuser,
 Basel, as publisher and carries no Creative Commons or open-access statement
-(https://link.springer.com/chapter/10.1007/978-3-0348-5438-2_41), every other right reserved.
+(https://link.springer.com/chapter/10.1007/978-3-0348-5438-2_41, read
+2026-10-02), every other right reserved.
 
 Read status: claims checked for the abstract (printed p. 459 = PDF p. 1),
 Theorem A, Problem 3, Remark 1 and the paragraph attributing the $p=3$ case
@@ -90,11 +90,11 @@ Theorems 1--4 are paged at
   Turán's $m(n,p)$ with $T^{n,p-1}$ the unique $K_p$-free graph with $m(n,p)$
   edges; Rademacher's unpublished result; Theorem A (Erdős): $U_k^n$, the
   Turán graph with $k$ edges added inside a largest class forming no
-  triangles if this is possible, is extremal for $k<c_pn$; Problem 3 (Erdős): how large can
-  $c_p$ be; Remark 1: not beyond $1/(p-1)$; "This paper contains an
-  improvement of Theorem A (see Theorem 4 below) which yields that in
-  Problem 3 the answer is $c=1/(p-1)$. For $p=3$ the proof of this was
-  given in [5]" (p. 460).
+  triangles if this is possible, is extremal for $k<c_pn$; Problem 3 (Erdős):
+  how large can $c_p$ be; Remark 1: not beyond $1/(p-1)$; "This paper contains
+  an improvement of Theorem A (see Theorem 4 below) which yields that in Problem
+  3 the answer is $c=1/(p-1)$. For $p=3$ the proof of this was given in [5]" (p.
+  460).
 - P. 461: the convention "The numbers $p$ and $d$ will be considered fixed
   and $n$ large relative to them"; Theorem 1 (Goodman's bound generalized,
   $k_p(G)\ge\binom tp(n/t)^p$ where $E=(1-1/t)n^2/2$); Theorem 2 (a

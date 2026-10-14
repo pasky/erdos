@@ -32,8 +32,8 @@ metadata and is not used to locate claims in that copy. The original retrieval
 time of that copy is unknown. It prints "© Instytut Matematyczny PAN," followed
 by three asterisks in place of the year on its first page, and the publisher's
 record offers the PDF to subscribers only and carries no CC-BY label
-(https://www.impan.pl/get/doi/10.4064/aa190627-20-1), every other right
-reserved.
+(https://www.impan.pl/get/doi/10.4064/aa190627-20-1, read 2026-10-02), every
+other right reserved.
 
 Put
 

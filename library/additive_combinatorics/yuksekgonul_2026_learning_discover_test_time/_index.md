@@ -26,13 +26,14 @@ and was not compared.
 The retained [folder-name PDF](yuksekgonul_2026_learning_discover_test_time.pdf)
 is arXiv version 1 (arXiv-generated PDF with a text layer; 72 pages, physical
 page equal to the preprint's printed page). Provenance: the folder's arXiv
-sidecar records these bytes as fetched from <https://arxiv.org/pdf/2601.16175v1>
-on 2026-09-23; 1,282,384 bytes. Read status: claims checked for the
-minimum-overlap statements of Section 4.1.1, which were read clause by clause
-from the text layer; the rest of the paper describes a machine-learning method
-and its other applications and was not read beyond the abstract and the section
-headings. The arXiv record (https://arxiv.org/abs/2601.16175, read 2026-10-02)
-names the Creative Commons Attribution 4.0 license.
+sidecar records these bytes as fetched from
+<https://arxiv.org/pdf/2601.16175v1>; 1,282,384 bytes. Read status: claims
+checked for the minimum-overlap statements of Section 4.1.1, which were read
+clause by clause from the text layer; the rest of the paper describes a
+machine-learning method and its other applications and was not read beyond the
+abstract and the section headings. The arXiv record
+(https://arxiv.org/abs/2601.16175, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 ## Contents
 

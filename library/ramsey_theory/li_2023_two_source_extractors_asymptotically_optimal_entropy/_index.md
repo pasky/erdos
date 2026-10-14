@@ -70,7 +70,7 @@ X. Li, *Two Source Extractors for Asymptotically Optimal Entropy, and
 (Many) More*. arXiv:2303.06802 (v1 13 March 2023; v2 30 May 2023, "Fixed
 some minor errors"); conference version in the 2023 IEEE 64th Annual
 Symposium on Foundations of Computer Science (FOCS 2023), 1271--1281, DOI
-10.1109/FOCS57990.2023.00075 (Crossref record read).
+10.1109/FOCS57990.2023.00075 (Crossref record read 2026-09-18).
 
 The copy read for this card
 is arXiv:2303.06802v2 [cs.CC] 30 May 2023, 47 pages, with a text layer;

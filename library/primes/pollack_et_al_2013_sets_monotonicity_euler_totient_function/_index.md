@@ -42,7 +42,7 @@ phi(n)=phi(n+k) over a growing range of even shifts.
 Paul Pollack, Carl Pomerance, Enrique Treviño, *Sets of monotonicity for
 Euler's totient function*, Ramanujan J. **30** (2013), no. 3, 379--398, DOI
 10.1007/s11139-012-9386-6 (published online 19 September 2012; Crossref
-record read). MSC 11A25 (primary), 11N25, 11N36.
+record read 2026-09-27). MSC 11A25 (primary), 11N25, 11N36.
 
 The copy read for this card is the author manuscript, headed "Ramanujan
 Journal manuscript No. (will be inserted by the editor)", 17 pages numbered

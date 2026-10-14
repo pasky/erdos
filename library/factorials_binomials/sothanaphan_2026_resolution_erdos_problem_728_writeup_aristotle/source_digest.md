@@ -191,8 +191,8 @@ heuristic rather than a proof (printed/physical pp. 19–20).
 ## Verification layers
 
 **Formal source.** The paper cites the Lean file
-[Erdos728b.lean](https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos728b.lean).
-No local Lean environment or build was used.
+[Erdos728b.lean](https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos728b.lean),
+accessed 2026-01-27. No local Lean environment or build was used.
 
 **Reported verification.** The paper reports that GPT-5.2 Pro and Harmonic's
 Aristotle produced the formal proof, that Kevin Barreto operated the system,

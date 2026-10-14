@@ -67,15 +67,15 @@ The copy read for this card is the Rényi archive's three-page scan
 whose text layer garbles the formulas;
 the statements were read on the rendered page images. The journal record:
 Combinatorica 1 (1981), no. 2, 141--143, doi:10.1007/BF02579269 (June 1981;
-Crossref record read); received 8 June 1979. No notice is printed
+Crossref record read on 2026-09-19); received 8 June 1979. No notice is printed
 in the scan; the publisher's article page
 (https://link.springer.com/article/10.1007/BF02579269, read 2026-10-02) shows "©
 Akadémiai Kiadó 1981" and names no license, every other right reserved.
 
 Read status: claims checked for Theorems 1--3, the Lemma and the closing
-conjecture (pp. 141--143), read clause by clause on the page images; the proofs (one line for Theorem 1 from the Lemma, four for
-Theorem 2, half a page for Theorem 3) were read for structure only and not
-checked.
+conjecture (pp. 141--143), read clause by clause on the page images; the proofs
+(one line for Theorem 1 from the Lemma, four for Theorem 2, half a page for
+Theorem 3) were read for structure only and not checked.
 
 Source: <https://users.renyi.hu/~p_erdos/1981-17.pdf>.
 
@@ -102,13 +102,13 @@ Source: <https://users.renyi.hu/~p_erdos/1981-17.pdf>.
   [[extremal_graph_theory/erdos_1981_conjecture_hajos/conjecture_p143|closing conjecture]]
   (p. 143), $H(n)<Cn^{1/2}/\log n$, is the problem's statement in the
   authors' notation; [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_3|Theorem 3]]
-  (p. 142) gives a lower bound of the same order, $H(G)>C\sqrt n/\log n$ for almost
-  all graphs, which the site's commentary quotes, and
+  (p. 142) gives a lower bound of the same order, $H(G)>C\sqrt n/\log n$ for
+  almost all graphs, which the site's commentary quotes, and
   [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_2|Theorem 2]],
-  [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_1|Theorem 1]]
-  and the [[extremal_graph_theory/erdos_1981_conjecture_hajos/lemma_p142|Lemma]]
-  are the weaker lower bound and its ingredients; the site's key ErFa81. None
-  of these is an upper bound for $H(n)$.
+  [[extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_1|Theorem 1]] and
+  the [[extremal_graph_theory/erdos_1981_conjecture_hajos/lemma_p142|Lemma]] are
+  the weaker lower bound and its ingredients; the site's key ErFa81. None of
+  these is an upper bound for $H(n)$.
 - [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: display (3) in
   the proof of Theorem 3 (p. 143), $\sigma(G)<C_2\sqrt n$ for almost all
   graphs, is the random-graph example the problem page cites, through

@@ -28,7 +28,7 @@ divisible by a prime greater than $k$, the theorem is $f(k)\le k$.
 
 **Source.** P. Erdős, *A theorem of Sylvester and Schur*, J. London Math.
 Soc. 9 (1934), no. 4, 282--288, DOI 10.1112/jlms/s1-9.4.282 (Crossref
-record read); the seven-page scan of the offprint
+record read 2026-09-18); the seven-page scan of the offprint
 (printed pp. 282--288 = PDF pp. 1--7); the statement on printed p. 282
 (PDF p. 1) and its binomial form and lemma on p. 283 (PDF p. 2), read on the
 page images (the text layer garbles the displays).

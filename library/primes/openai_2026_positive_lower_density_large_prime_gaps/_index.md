@@ -54,7 +54,7 @@ issues". The manuscript's own README carries only the title, the author line
 the text was produced or checked. The title page names no individual author
 and the text names no referee, reader or prior circulation. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization, read statically from the release's catalog; not built,

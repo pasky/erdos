@@ -39,9 +39,9 @@ accepted partial claims
 Erdős]], [[problems/integer_sequences/E0360/claims/2006_11_16_vu|Vu]]). The
 third is the accepted full claim
 ([[problems/integer_sequences/E0360/claims/2021_04_30_conlon_fox_pham|claim
-page]]). Its acceptance evidence is the site's documented acceptance, and the
-journal version has no record yet. A 2026 Lean formalization of the
-Conlon–Fox–Pham order in Boris Alexeev's public repository attributes its
+page]]). Its acceptance evidence is the site's documented acceptance, and on
+2026-10-07 the journal version had no record yet. A 2026 Lean formalization of
+the Conlon–Fox–Pham order in Boris Alexeev's public repository attributes its
 mathematics to the three authors, so it is a formalization link on their claim
 page. No outside record registers it. It has been neither built nor audited
 here, and it gives no `formalized` evidence.
@@ -59,9 +59,9 @@ https://www.erdosproblems.com/360.
 - [Vu07] Vu, Van H., Some new results on subset sums. J. Number Theory 124
   (2007), no. 1, 229-233.
 
-**Formalization.** No statement in formal-conjectures (no
-`360.lean`; the site lists no formalized statement; the community database
-records the problem unformalized). The directory
+**Formalization.** No statement in formal-conjectures on 2026-10-07 (no
+`360.lean`; the site listed no formalized statement; the community database
+recorded the problem unformalized on 2025-08-31). The directory
 `src/latest/ErdosProblems/Erdos360/` of `plby/lean-proofs`, with its entry
 file `Erdos360.lean`, states `erdos_360`, the eventual two-sided bound
 $c\,s(n)\le f(n)\le C\,s(n)$ with $s$ the Conlon–Fox–Pham scale; the claim

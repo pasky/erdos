@@ -94,7 +94,8 @@ https://www.erdosproblems.com/1215.
 - [Ma53] Mac Lane, Gerald R., On a conjecture of Erdös, Herzog, and Piranian.
   Michigan Math. J. (1953/54), 147-148.
 
-**Formalization.** No statement file in formal-conjectures. An external Lean file that declares itself a formalization of
+**Formalization.** On 2026-10-07 formal-conjectures had no statement file for
+the problem. An external Lean file that declares itself a formalization of
 Mac Lane's solution is a `formalization` link on
 [[problems/analysis/E1215/claims/1954_10_16_maclane|Mac Lane's claim page]];
 this corpus has not built it.

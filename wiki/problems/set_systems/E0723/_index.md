@@ -81,7 +81,7 @@ Bruck–Ryser condition) unproved and names no formal proof. Nothing was
 reconstructed in this corpus.
 
 Search scope: the site's problem page and discussion thread, which recorded no
-proof claim on 2026-10-07, the community database entry, the
+proof claim, the community database entry, the
 formal-conjectures statement file, the Crossref records of [BrRy49] and
 [LTS89], and the two library cards.
 <!-- BEGIN problem library links -->

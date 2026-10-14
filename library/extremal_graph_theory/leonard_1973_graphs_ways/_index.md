@@ -52,15 +52,15 @@ Source:
 The copy read for this card is the
 publisher's PDF of the journal article (six pages, printed pp. 687--692 =
 PDF pp. 1--6, with a text layer; DOI 10.4153/CJM-1973-069-x, whose Crossref
-record, gives Canadian J. Math. 25 (1973), no. 4,
-687--692, August 1973; received 22 November 1971, revised 19 June 1973).
-This is the site's key Le73b for Problem 915; the site's Le73, Leonard's
-paper in Period. Math. Hungar. 3 (1973) 281--284 with the $m=5$
-counterexample, is a different paper, filed as
+record, read 2026-09-19, gives Canadian J. Math. 25 (1973), no. 4, 687--692,
+August 1973; received 22 November 1971, revised 19 June 1973). This is the
+site's key Le73b for Problem 915; the site's Le73, Leonard's paper in Period.
+Math. Hungar. 3 (1973) 281--284 with the $m=5$ counterexample, is a different
+paper, filed as
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]];
-its announcement of the counterexample, "a graph $G$ having 57 points and
-141 edges (i.e., $m=5$, $n=14$), which contains no 5-way", is on printed
-p. 281 (PDF p. 1), located here on the text layer of that page and paged on
+its announcement of the counterexample, "a graph $G$ having 57 points and 141
+edges (i.e., $m=5$, $n=14$), which contains no 5-way", is on printed p. 281 (PDF
+p. 1), located here on the text layer of that page and paged on
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|counterexample_p281]].
 The PDF's footer prints only "https://doi.org/10.4153/CJM-1973-069-x Published
 online by Cambridge University Press"; the publisher's article page

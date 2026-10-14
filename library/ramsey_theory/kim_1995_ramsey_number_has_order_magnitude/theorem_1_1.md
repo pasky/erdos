@@ -36,7 +36,7 @@ chromatic form, $\chi(G_n^{(3)})\ge\frac19\sqrt{n/\log n}$.
 
 **Source.** J. H. Kim, *The Ramsey number $R(3,t)$ has order of magnitude
 $t^2/\log t$*, Random Structures Algorithms 7 (1995), no. 3, 173--207 (DOI
-10.1002/rsa.3240070302, Crossref record read). The copy read
+10.1002/rsa.3240070302, Crossref record read 2026-09-18). The copy read
 is a 36-page typescript from a course web page (people.tamu.edu), numbered
 1--36 and not the journal's pagination; Theorem 1.1 is on typescript p. 1
 and the consequence on p. 2, read on the page image of p. 1 and in the text

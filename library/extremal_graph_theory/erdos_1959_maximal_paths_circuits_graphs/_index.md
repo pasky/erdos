@@ -35,12 +35,12 @@ complete (2k + 1)-graph plus isolated nodes.
 P. Erdős, T. Gallai: On maximal paths and circuits of graphs, Acta Math. Acad.
 Sci. Hungar. 10 (1959), 337--356 (unbound insert) (MR 22 #5591; Zentralblatt
 90,394). No notice is printed in the file, and the hosting archive's site footer
-speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, prints
-"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only."); the publisher's page was not read, and the Crossref record for
-DOI 10.1007/bf02024498 (read 2026-10-02) lists only the publisher's
-text-and-data-mining terms entry and no open license, every other right
-reserved.
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this site
+is for scientifics purposes only."); the publisher's page was not read, and the
+Crossref record for DOI 10.1007/bf02024498 (read 2026-10-02) lists only the
+publisher's text-and-data-mining terms entry and no open license, every other
+right reserved.
 
 Erdős and Gallai study a family of Turán-type extremal problems in which the
 forbidden subgraphs are long paths, long circuits, and large sets of independent

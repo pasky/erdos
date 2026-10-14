@@ -28,10 +28,10 @@ this artifact. Crossref records a journal version, European J. Combin. 128
 (2025), 104175, DOI 10.1016/j.ejc.2025.104175 (record read 2026-09-17 and
 confirmed 2026-09-18: version of record dated August 2025, with an open license
 from 8 May 2025); it is not held and was not compared with the arXiv v2. The
-arXiv listing shows v2 as the latest version and carries no journal reference;
-the acknowledgments thank "the anonymous referees". The arXiv record
-(https://arxiv.org/abs/2409.05931, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+arXiv listing (read 2026-09-18) shows v2 as the latest version and carries no
+journal reference; the acknowledgments thank "the anonymous referees". The arXiv
+record (https://arxiv.org/abs/2409.05931, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 1, Lemmas 2--4, Open problem 5 and
 the remark following it (read clause by clause on the page images of

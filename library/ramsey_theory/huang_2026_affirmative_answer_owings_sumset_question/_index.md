@@ -25,7 +25,10 @@ Zhang, *An affirmative answer to Owings's sumset question*.
 arXiv:2607.17333 [math.CO]; v1 posted 19 July 2026, v3 posted 29 July 2026
 (the arXiv record's comment: "In the newest version, we resolve the
 weighted form of Owings's sumset question completely"). MSC 05D10, 37B10,
-54D35. An unrefereed preprint.
+54D35. An unrefereed preprint: on 2026-09-18 the arXiv record carried no
+journal reference or DOI, a Crossref bibliographic query for the title
+found no record, and the Semantic Scholar citation list for the arXiv
+identifier was empty.
 
 The retained
 [folder-name PDF](huang_2026_affirmative_answer_owings_sumset_question.pdf) is

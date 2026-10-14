@@ -61,7 +61,7 @@ computation packs the even-order trees into $H_{10}$ and the odd-order trees
 into $H_{11}$.
 
 **Acceptance.** Refereed: the Journal of Combinatorial Mathematics and
-Combinatorial Computing, volume 8 (zbMATH record read). The
+Combinatorial Computing, volume 8 (zbMATH record read on 2026-09-19). The
 site's commentary does not name the note, and the site labeled the problem
 FALSIFIABLE, an open problem, so no `reviewed` evidence exists. The
 computation itself has not been repeated, and no independent review is

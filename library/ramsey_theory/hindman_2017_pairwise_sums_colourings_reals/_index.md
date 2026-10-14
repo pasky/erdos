@@ -36,7 +36,7 @@ reals of size continuum has its k-fold sumset kH contained in Z.
 Hindman, Neil and Leader, Imre and Strauss, Dona, Pairwise sums in colourings of
 the reals. Abh. Math. Semin. Univ. Hambg. 87 (2017), no. 2, 275--287,
 doi:10.1007/s12188-016-0166-x (published online 21 December 2016; the
-publisher's record read). The copy read for this card is
+publisher's record read 2026-09-18). The copy read for this card is
 arXiv:1505.02500v1 (11 May 2015; the only arXiv version listed on 2026-09-18),
 17 pages with its own pagination and a complete text layer; every locator below
 is a page of that preprint, and the journal text was not compared. The arXiv

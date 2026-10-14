@@ -55,7 +55,7 @@ minimal zero-sum subset. For problem 295 it is the closest modern result,
 giving 1 as a sum of 1/x_i with N < x_i <= (e + O(log log N / log N)) N with
 best-possible error, the interval-endpoint dual of k(N).
 
-Source: <https://arxiv.org/abs/math/9904181>.
+Source: <https://arxiv.org/abs/math/9904181v1>.
 
 Editions. Two versions of the work were read. The Main Theorem was compared on
 the page images of both (preprint p. 1, published p. 100) and is the same
@@ -63,12 +63,11 @@ statement in both; the other results were matched by label and statement (label
 map below) but not otherwise compared, and the digest above and the result list
 below were written from the preprint.
 
-- The arXiv preprint arXiv:math/9904181 named in the source line above,
-  stamped "arXiv:math/9904181v1 [math.NT] 30 Apr 1999", nineteen pages with
-  a text layer, from which the digest above and the result list below were
-  written, with its labels and pages; it is not held. Provenance: the
-  arXiv listing in the source line above; the download date was not
-  recorded; 201,302 bytes.
+- The arXiv preprint arXiv:math/9904181 named in the source line above, stamped
+  "arXiv:math/9904181v1 [math.NT] 30 Apr 1999", nineteen pages with a text
+  layer, from which the digest above and the result list below were written,
+  with its labels and pages; it is not held. Provenance: the arXiv listing in
+  the source line above; 201,302 bytes.
 - The
   [published version](croot_1999_unit_fractions_denominators_short_intervals_acta_arith_2001.pdf),
   Ernest S. Croot III, On unit fractions with denominators in short intervals,
@@ -102,8 +101,7 @@ below were written from the preprint.
   and the structure of the proof (Sections III-VI, pp. 103-114) were read on
   the page images for the result page's proof pointer; no proof was checked,
   and the other results were matched to the preprint's by label and statement
-  only. Provenance: downloaded in September
-  2026; the URL was not recorded; 157,858 bytes.
+  only. Provenance: the URL was not recorded; 157,858 bytes.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0284/_index|#284]], whose question is
 the first Erdős--Graham question of the published introduction (p. 99),
@@ -152,7 +150,7 @@ derives the lower bound (1-1/e+o(1))N from the Main Theorem with r = 1
 Read status: claims checked. The Main Theorem was read clause by clause in the
 text layer of the arXiv preprint (p. 1) and is paged as
 [[unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|main_theorem]];
-it was read again, with the introduction (pp. 99-100), on the page images of the
+it and the introduction (pp. 99-100) were read on the page images of the
 published version for the #284, #286 and #319 rows; the published Propositions 1
 and 2 and Lemmas 1-5 were read as statements for the proof pointer, and no proof
 was checked. For problem 295 the theorem bounds the interval containing the

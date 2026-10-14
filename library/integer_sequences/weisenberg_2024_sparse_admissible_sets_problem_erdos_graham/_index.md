@@ -29,13 +29,14 @@ PDF](weisenberg_2024_sparse_admissible_sets_problem_erdos_graham.pdf) is the
 journal's own PDF (four pages, pdfTeX, complete text layer; the header "#A89
 INTEGERS 24 (2024)" and the DOI footer of p. 1 were read on the page image). The
 arXiv version is arXiv:2405.12310 (v1 20 May 2024; v2 21 October 2024, whose
-listing carries the journal reference "Integers, 24 (2024)" and the DOI; read);
-it is not held and was not compared, so the locators below are the journal's.
-The journal's volume 24 contents page lists the article. The file prints no
-license line; the journal's site states "All works of this journal are licensed
-under a Creative Commons Attribution 4.0 International License"
-(https://math.colgate.edu/~integers/, read 2026-10-02): the Creative Commons
-Attribution 4.0 license, by the journal's site-wide statement.
+listing carries the journal reference "Integers, 24 (2024)" and the DOI; read
+2026-09-18); it is not held and was not compared, so the locators below are the
+journal's. The journal's volume 24 contents page lists the article (read
+2026-09-18). The file prints no license line; the journal's site states "All
+works of this journal are licensed under a Creative Commons Attribution 4.0
+International License" (https://math.colgate.edu/~integers/, read 2026-10-02):
+the Creative Commons Attribution 4.0 license, by the journal's site-wide
+statement.
 
 Read status: claims checked for Conjecture 1 (p. 1) and Theorem 1 (p. 2),
 read clause by clause (p. 1 on the page image, p. 2 in the text layer);

@@ -33,9 +33,10 @@ Kolountzakis, Mihail N., On the additive complements of the primes and sets of
 similar growth. Acta Arith. 77 (1996), no. 1, 1--8, doi:10.4064/aa-77-1-1-8.
 The copy read for this card is the author's typescript dated August 1995, not
 the Acta Arithmetica edition; it prints no notice, and the author's publication
-list (fourier.math.uoc.gr/~mk/publ, now at eigen-space.org/mk/publ) stated no
-terms; the term is unstated. Its pages are numbered 1 to 8, and the labels and
-pages cited here and on the result pages are the typescript's.
+list (fourier.math.uoc.gr/~mk/publ, now at eigen-space.org/mk/publ, read
+2026-10-02) stated no terms; the term is unstated. Its pages are numbered 1 to
+8, and the labels and pages cited here and on the result pages are the
+typescript's.
 
 Erdős proved in 1954 that some set A with A(x) <= C log^2 x is an additive
 complement of the primes, every positive integer being a + p with a in A and p

@@ -22,10 +22,10 @@ practical numbers $n$, thereby answering affirmatively the question whether
 $h(n)<(\log\log n)^{O(1)}$ for infinitely many practical $n$." Submitted
 2026-07-24 14:55:15 (site clock). The site's disclaimer applies: appearing on
 the tab "is no guarantee of proof correctness, and does not mean that anyone
-associated with this site has examined any part of the proof." Read again
-on 2026-10-07, the tab heads the same claim "A proof claimed by Liam Price
-(using GPT 5.6 Sol Pro)," without the word partial; summary, submission time
-and the four comments are unchanged.
+associated with this site has examined any part of the proof." Later the tab
+headed the same claim "A proof claimed by Liam Price (using GPT 5.6 Sol Pro),"
+without the word partial; summary, submission time and the four comments were
+unchanged.
 
 **Links.** The site's "External link to proof" is the Overleaf read link
 <https://www.overleaf.com/read/gznxyqymngbm#683145>; the van Doorn note's
@@ -74,8 +74,8 @@ combinatorial lemmas only. Not built here; recorded from the repository's
 metadata, README, lakefile, toolchain, script and commit list read
 2026-09-27.
 
-**Standing.** An author's claim, posted as partial (relabeled as a proof by
-2026-10-07); it answers only the first of the problem's three questions, the
+**Standing.** An author's claim, posted as partial (later relabeled as a
+proof); it answers only the first of the problem's three questions, the
 one carrying the \$250 prize; the analytic layer (the
 Bourgain input) is certified by nobody; no refereed publication, not on
 arXiv (an author search on 2026-09-27 found two unrelated papers); the site

@@ -23,7 +23,7 @@ the Erdős–Tuza question and to Problem 811 for the four-clique.
 F. C. Clemen and A. Z. Wagner, *A note on balanced edge-colorings avoiding
 rainbow cliques of size four*, Electron. J. Combin. **30** (2023), no. 3,
 Paper No. 3.17, 3 pp.; arXiv:2303.15476. The journal record (DOI
-10.37236/11965, published 11 August 2023; Crossref) gives
+10.37236/11965, published 11 August 2023; Crossref, read 2026-09-18) gives
 the title without "A note on".
 
 The retained
@@ -33,11 +33,10 @@ its header), two letter-size pages with a complete text layer. The statements
 below were read on the text layer, and the superscripts, which the text layer
 drops, were checked on the page image of p. 1. The journal version is not held
 and was not compared; page references are to the preprint. Provenance: retained
-from the repository's survey download set of September 2026; the arXiv stamp
-identifies the file as <https://arxiv.org/abs/2303.15476v1>, but the download
-itself was not recorded; 76,070 bytes. The arXiv record
-(https://arxiv.org/abs/2303.15476, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+from the repository's survey download set; the arXiv stamp identifies the file
+as <https://arxiv.org/abs/2303.15476v1>, but the download URL was not recorded;
+76,070 bytes. The arXiv record (https://arxiv.org/abs/2303.15476, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Question 1.1, Theorem 1.2 and Lemma 1.3
 (statements read clause by clause); the coloring of Figure 1 was not
@@ -65,7 +64,7 @@ verified.
   p. 1), a balanced $\ell$-coloring of $K_n$ with no rainbow $K_q$ lifts to
   one of $K_{n^k}$ for every $k$, so the theorem reduces to $k=1$. Page:
   [[ramsey_theory/clemen_2023_balanced_edge_colorings_avoiding_rainbow_cliques_size_four/theorem_1_2|theorem_1_2]]
-  (the statement re-read on the page image of p. 1).
+  (the statement read on the page image of p. 1).
 - Figure 1 (p. 2): the adjacency matrix of a $6$-coloring of $K_{13}$ found
   by computer search, in which every vertex sees every color exactly twice
   and, by the authors' check of the $715$ copies of $K_4$, none is rainbow.

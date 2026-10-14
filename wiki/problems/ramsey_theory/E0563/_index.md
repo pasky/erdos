@@ -107,16 +107,17 @@ Problem #563, https://www.erdosproblems.com/563, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/563.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/563.lean)
-of formal-conjectures declares`erdos_563 : ∀ (α : ℝ), 0 ≤ α → α < 1 / 2 → ∃ (c : ℝ), 0 < c ∧ Tendsto (fun n : ℕ => (F n α : ℝ) / Real.log n) atTop (nhds c)`
+of formal-conjectures declares
+`erdos_563 : ∀ (α : ℝ), 0 ≤ α → α < 1 / 2 → ∃ (c : ℝ), 0 < c ∧ Tendsto (fun n : ℕ => (F n α : ℝ) / Real.log n) atTop (nhds c)`
 under `category research open`, with proof `sorry`, where `F n α` is the
 least `m` for which some simple graph on `Fin n` (one color class) has, on
 every vertex set `X` with `m ≤ |X|`, strictly more than `α` times
 $\binom{|X|}2$ edges and strictly fewer than `1 - α` times $\binom{|X|}2$
 edges; that is the site's definition, the other color's share being the
-complement. The community database records the problem
+complement. The community database, read 2026-09-18, records the problem
 open (last changed 31 August 2025), the statement formalized since 9
 September 2026, and no formal proof; the site's formalized-statement
-indicator read yes.
+indicator read yes on 2026-09-18.
 
 ## Current assessment
 

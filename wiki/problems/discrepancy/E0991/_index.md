@@ -69,17 +69,17 @@ and Mas's solution and proves the qualitative $o(n)$ statement without a rate;
 it is linked, pinned, on
 [[problems/discrepancy/E0991/claims/2019_07_10_marzo_mas|their claim page]].
 The site records no formal-conjectures statement file, and the community
-database lists the problem as unformalized. The OpenAI
+database lists the problem as unformalized (read 2026-10-06). The OpenAI
 mathematics release of September 2026 states, in its preprints on the planar
 Coulomb renormalized energy and on the universal optimality of the triangular
 lattice
 ([release at the pinned revision](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints)),
 results about point configurations in the plane, computer-assisted and not
-verified here, with Lean developments for the universal optimality and a
-planar packing certificate that this corpus has not built; they do not state
-this problem and touch its maximizers only through the asymptotics of the
-minimal logarithmic energy on $S^2$, not through their cap discrepancy, so no
-claim page records them.
+verified here, with Lean developments for the universal optimality and a planar
+packing certificate that this corpus has not built; they do not state this
+problem and touch its maximizers only through the asymptotics of the minimal
+logarithmic energy on $S^2$, not through their cap discrepancy, so no claim page
+records them.
 
 ## Progress
 

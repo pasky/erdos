@@ -67,7 +67,7 @@ license (arXiv:1503.05858), every other right reserved.
 Christian Günther, Kai-Uwe Schmidt, "Merit factors of polynomials derived from
 difference sets," arXiv:1503.05858 (2015); published as J. Combin. Theory Ser.
 A 145 (2017), 340–363, https://doi.org/10.1016/j.jcta.2016.08.006 (Crossref
-record read).
+record read on 2026-10-07).
 
 **Bears on.** [[../wiki/problems/polynomials/E1150/_index|Problem 1150]]:
 background only. Every family the paper treats has a finite positive limiting
@@ -218,8 +218,8 @@ case, Lemma 7.1 gives the root-of-unity evaluation of the characteristic
 polynomial (16); Proposition 7.2 uses (17)–(19) and Weil bounds to approximate
 $L_f$ by $I_p+\nu J_p$ away from $(0,0,0)$. Parseval and condition (4) control
 that remaining point. Tables 1–3 list the numbers $4|(D+u)\cap D|-(p-2)$, from
-which the hypothesis $y^2(\log p)^3/p\to0$ of Corollaries 2.5 and 2.6 yields (4) for the
-fourth- and sixth-order examples.
+which the hypothesis $y^2(\log p)^3/p\to0$ of Corollaries 2.5 and 2.6 yields (4)
+for the fourth- and sixth-order examples.
 
 **Scope.** The paper computes $L^4$-asymptotics for specific algebraic families;
 it does not estimate their $L^\infty$-norms sharply. Periodic and negaperiodic
@@ -266,11 +266,11 @@ of the families these results cover is ultraflat.
 Theorem 3.1 is the most reusable construction-level criterion: to exclude
 ultraflatness for another structured sequence, it would suffice to prove its
 fourth-order Fourier correlation $L_f$ is uniformly $o((\log N)^{-3})$-close to
-$I_N+\nu J_N$ for some $\nu\in[0,1]$, since this forces a finite explicit merit-factor limit. Theorem
-3.2 provides the corresponding criterion for the $I_N+K_N$ correlation pattern.
-Condition (4) and Proposition 7.2 show how additive intersection statistics and
-character-sum bounds can establish such a criterion for cyclotomic coefficient
-sets.
+$I_N+\nu J_N$ for some $\nu\in[0,1]$, since this forces a finite explicit
+merit-factor limit. Theorem 3.2 provides the corresponding criterion for the
+$I_N+K_N$ correlation pattern. Condition (4) and Proposition 7.2 show how
+additive intersection statistics and character-sum bounds can establish such a
+criterion for cyclotomic coefficient sets.
 
 These results do not address E1150 for Littlewood polynomials in general.
 The paper proves merit-factor limits only for the special algebraic families

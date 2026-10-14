@@ -32,8 +32,8 @@ $$
 where $P_d$ ranges over all finite arithmetic progressions with common
 difference $d$.
 
-**Status.** Open. This is the site's label as accessed on 2026-09-04. On that
-date the problem's proof-claim tab was empty. No full claim
+**Status.** Open. This is the site's label as accessed on 2026-09-04. The
+problem's proof-claim tab was empty. No full claim
 exists, and the standing derives from the claim pages.
 
 The site's commentary records $h(d)\ll d!$ from Cantor, Erdős, Schreiber and
@@ -75,13 +75,13 @@ https://www.erdosproblems.com/177.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-04).** The statement above;
 OPEN, with no last-edited date shown. The commentary, in this page's words:
 Cantor, Erdős, Schreiber and Straus [Er66] proved that $h(d)\ll d!$ is
 attainable; van der Waerden's theorem implies $h(d)\to\infty$; Beck [Be17]
 showed that $h(d)\le d^{8+\epsilon}$ is attainable for every $\epsilon>0$;
 and Roth's discrepancy lower bound [Ro64] implies $h(d)\gg d^{1/2}$. The
-proof-claim tab was empty on 2026-10-07.
+proof-claim tab was empty.
 
 **Claims.** The four claim pages named under Status record the bounds. The
 construction of 1966 gives $h(d)<c^dd!$, so $h(d)$ is finite for every $d$;

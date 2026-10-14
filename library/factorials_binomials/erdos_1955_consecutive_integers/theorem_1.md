@@ -68,8 +68,8 @@ the bound $\pi(k)<3k/(2\log k)$.
 - [[../wiki/problems/factorials_binomials/E0683/_index|Problem 683]]: Theorem 1 refines
   the Sylvester--Schur theorem behind the problem's classical bound
   $P(\binom nk)>k$ ($n\ge2k$): a prime greater than $k$ already divides
-  the product of any $[c_1k/\log k]$ consecutive factors of $n(n-1)\cdots(n-k+1)$ that
-  exceed $k$. The problem's claim page
+  the product of any $[c_1k/\log k]$ consecutive factors of
+  $n(n-1)\cdots(n-k+1)$ that exceed $k$. The problem's claim page
   [[../wiki/problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős 1955]]
   derives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$ from it; the
   theorem gives no bound of the form $k^{1+c}$.

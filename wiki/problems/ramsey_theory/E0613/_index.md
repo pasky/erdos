@@ -100,7 +100,7 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   of order $2n+1$.
 - [MOS16] Miralaei, M., Omidi, G. R. and Shahsiah, M., Size Ramsey numbers of
   stars versus cliques. arXiv:1601.06599 (2016). Context on the clique
-  generalization (abstract only).
+  generalization (abstract only, accessed 2026-09-18).
 
 **Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
@@ -126,7 +126,7 @@ coloring argument of the Formulation paragraph together with
 $44=\binom{11}2-\binom52-1$; it is not part of the Lean file. The file is
 linked as a formalization on the Pikhurko claim page. Nothing was built,
 audited or kernel-checked in this corpus, and no local credit is claimed. The
-community database lists `status` "disproved (Lean)" and
+community database (fetched 2026-09-18) lists `status` "disproved (Lean)" and
 `formal_status` Lean as of its last update, dated 4 November 2025, which does
 not date the change of state; it records the statement formalized since 9 May
 2026, and no formal-proof field; the site's indicator reads "Yes".

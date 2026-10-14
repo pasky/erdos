@@ -94,7 +94,7 @@ accessed 2026-09-18.
 - [BaLe13] Balogh, J. and Lenz, J., On the Ramsey-Turán numbers of graphs and
   hypergraphs. Israel J. Math. 194 (2013), no. 1, 45--68,
   doi:10.1007/s11856-012-0076-2 (published online 29 June 2012; Crossref
-  record and the arXiv listing's journal reference);
+  record and the arXiv listing's journal reference of 2026-09-18);
   arXiv:1109.4428v2 (22 September 2011); the journal text was not
   compared. The definitions, p. 2; Problems 1--2 and Theorem 3, p. 3;
   Corollary 4, Problem 5 and the display $1/64\le\theta_3(K_5)$, p. 4; the
@@ -103,8 +103,8 @@ accessed 2026-09-18.
 - [LRSS21] Liu, H., Reiher, C., Sharifzadeh, M. and Staden, K., Geometric
   constructions for Ramsey-Turán theory. arXiv:2103.10423v2 (18 August 2025,
   "to appear in JEMS"); Journal of the European Mathematical Society,
-  vol. 28, no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record,
-  issued 20 October 2025; the journal text is not held).
+  vol. 28, no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record of
+  2026-09-18, issued 20 October 2025; the journal text is not held).
   The definition of $\varrho_p(q)$, p. 2; the state of the art before the
   paper, p. 3; Theorem 1.1 and Corollary 1.2, p. 4; Theorem 1.4, p. 5;
   Problem C, p. 6. Library home:
@@ -343,11 +343,11 @@ and no `formal_proof` attribute, and the community database named no
 formal-proof URL, although a Lean disproof was already public: `Erdos533.lean`
 in plby/lean-proofs, first committed on 16 August 2026, got its author header on
 23 August 2026, the date of the community database's last update of its
-disproved (Lean) entry; formal-conjectures named it on 18 September 2026. The
-file at main names the plby/lean-proofs file by Codex and GPT-5.6 Sol, which
-formalizes the Liu--Reiher--Sharifzadeh--Staden construction; the corpus has not
-built it. The file's docstring cites the volume and the $1/12$ value as this
-page does.
+disproved (Lean) entry; formal-conjectures named it on 18 September 2026. On
+2026-10-07 the file at main named the plby/lean-proofs file by Codex and GPT-5.6
+Sol, which formalizes the Liu--Reiher--Sharifzadeh--Staden construction; the
+corpus has not built it. The file's docstring cites the volume and the $1/12$
+value as this page does.
 
 **Search scope.** None of the routes below found a dispute
 of Theorem 3 or of $\varrho_3(5)=1/6$, or a later change.

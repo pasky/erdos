@@ -22,7 +22,7 @@ dimension lies in a proper real closed subfield.
 G. A. Edgar and Chris Miller, *Hausdorff dimension, analytic sets and
 transcendence*, Real Anal. Exchange **27** (2001/02), no. 1, 335--339. The
 problem page gives "(2001/02), 335-339"; the volume and issue are from the
-Crossref record read (UTC), which lists the article under the
+Crossref record read 2026-09-17 (UTC), which lists the article under the
 JSTOR DOI 10.2307/44154130.
 
 The copy read for this card

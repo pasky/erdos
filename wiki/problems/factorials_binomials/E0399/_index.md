@@ -39,11 +39,10 @@ witness by `decide`. This corpus has not built that file. There is no refereed
 write-up.
 
 **Source.** [erdosproblems.com/399](https://www.erdosproblems.com/399), accessed
-2026-09-04 and, with its empty discussion thread and proof-claims list, the
-community database and the formal-conjectures file, 2026-10-07. The site
-cites the problem from p. 77 of Erdős and Graham's 1980
-problem book. Cite as: T. F. Bloom, Erdős Problem #399,
-https://www.erdosproblems.com/399.
+2026-09-04 and, with its empty discussion thread, the community database and
+the formal-conjectures file, 2026-10-07; its proof-claims list was empty. The
+site cites the problem from p. 77 of Erdős and Graham's 1980 problem book. Cite
+as: T. F. Bloom, Erdős Problem #399, https://www.erdosproblems.com/399.
 
 **References.**
 
@@ -133,13 +132,13 @@ classification concerns $k=2$, outside the problem, and has no page. Guy [Gu04]
 records the Erdős–Obláth theorem in section D25 and the two-squares remark under
 D2.
 
-Search scope: the site's problem page, its discussion thread and proof-claims
-list (both empty on 2026-10-07), the community database and the
+Search scope: the site's problem page, its discussion thread (empty on
+2026-10-07) and proof-claims list (empty), the community database and the
 formal-conjectures file; the library's card for [ErOb37] for the coprime
-results, and the monograph [ErGr80] at p. 77 for the source's account of
-them. The exact date on which Barfield's solution was found or first posted
-is not recorded; the site's page carried it by 7 April 2025, the date of the
-earliest archived copy that does.
+results, and the monograph [ErGr80] at p. 77 for the source's account of them.
+The exact date on which Barfield's solution was found or first posted is not
+recorded; the site's page carried it by 7 April 2025, the date of the earliest
+archived copy that does.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

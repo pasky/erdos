@@ -61,12 +61,11 @@ its [8] and [9] (Li and Rousseau, J. Combin. Theory Ser. B 68 (1996), 36--44,
 and Discrete Math. 170 (1997), 265--267) are not held. Its [10] (Spencer,
 Discrete Math. 20 (1977), 69--76) is filed as
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/_index|spencer_1977_asymptotic_lower_bounds_ramsey_functions]];
-the reference entry on printed p. 56 (PDF p. 6), read on the text layer, gives that paper's citation, and the "general lower bound for
-$r(C_m,K_n)$" the introduction credits to [10] (printed p. 51, PDF p. 1,
-page image) is that paper's Theorem 3.2,
-$r(C_k,K_t)\ge c(t/\ln t)^{(k-1)/(k-2)}$ for fixed $k$, on printed p. 75
-(PDF p. 7), read on the page image and paged with Theorem
-3.3 on
+the reference entry on printed p. 56 (PDF p. 6), read on the text layer, gives
+that paper's citation, and the "general lower bound for $r(C_m,K_n)$" the
+introduction credits to [10] (printed p. 51, PDF p. 1, page image) is that
+paper's Theorem 3.2, $r(C_k,K_t)\ge c(t/\ln t)^{(k-1)/(k-2)}$ for fixed $k$, on
+printed p. 75 (PDF p. 7), read on the page image and paged with Theorem 3.3 on
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_3_3|theorem_3_3]].
 
 The copy read for this card is the publisher's production PDF: 6 pages,
@@ -75,7 +74,7 @@ from TeX (DVIPSONE and Acrobat Distiller 3.02 per the file's metadata,
 created 16 May 2000), with a text layer that reads the prose cleanly and
 garbles the displays (inequality signs come out as digits, fractions and
 radicals are flattened).
-Provenance: the copy read was obtained from the publisher's
+Provenance: the copy read was obtained on 2026-09-22 from the publisher's
 open archive, as the article PDF served from
 <https://www.sciencedirect.com/science/article/pii/S0012365X99003994>, the
 page the DOI <https://doi.org/10.1016/S0012-365X(99)00399-4> resolves to;

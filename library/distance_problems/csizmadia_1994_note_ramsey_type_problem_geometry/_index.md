@@ -61,13 +61,13 @@ to the copy read. An [undated author-hosted
 manuscript](https://www.cs.bme.hu/~geza/note.pdf) is a six-page author copy. Its
 six pages retain Theorem 1, Proposition 2 and the same heptagon/arc and density
 proof routes, with different typesetting, figures and page breaks. Both web
-copies were accessed. Result citations below refer to the published five-page
-version; the undated copy is not labeled a later correction. The published
-article prints "Copyright © 1994 by Academic Press, Inc. All rights of
-reproduction in any form reserved.", every other right reserved. No notice is
-printed in the author manuscript (first and last pages read as images), and the
-author's page hosting it (cs.bme.hu/~geza) could not be read; the term is
-unstated.
+copies were accessed September 5, 2026. Result citations below refer to the
+published five-page version; the undated copy is not labeled a later correction.
+The published article prints "Copyright © 1994 by Academic Press, Inc. All
+rights of reproduction in any form reserved.", every other right reserved. No
+notice is printed in the author manuscript (first and last pages read as
+images), and the author's page hosting it (cs.bme.hu/~geza) could not be read on
+2026-10-02; the term is unstated.
 
 ## Eight-point obstruction
 
@@ -79,8 +79,8 @@ distance two. Its red set has no unit-distance pair.
 1]] (p. 302) asserts that there are a two-colouring with no red unit-distance
 pair and an eight-point configuration none of whose congruent copies is all
 blue; its proof
-(pp. 303–305) shows that every congruent copy of a regular heptagon of radius $9/10$,
-together with its center, meets that red set.
+(pp. 303–305) shows that every congruent copy of a regular heptagon of radius
+$9/10$, together with its center, meets that red set.
 
 The full same-paper chain comprises the
 [[distance_problems/csizmadia_1994_note_ramsey_type_problem_geometry/covering_radius_lemma|triangular-lattice
@@ -128,10 +128,11 @@ status of that broader question or supply Lean verification.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0214/_index|Problem 214]]:
 Theorem 1 gives an eight-point configuration for which the analogue of the
-four-point forcing theorem that answers the problem fails, and the problem page derives from it
-the upper bound seven on the largest forced size; Proposition 2 and the
-conjecture on p. 306 concern five-point configurations, Proposition 2 for one
-coloring and translates only. None of them concerns the unit square itself.
+four-point forcing theorem that answers the problem fails, and the problem page
+derives from it the upper bound seven on the largest forced size; Proposition 2
+and the conjecture on p. 306 concern five-point configurations, Proposition 2
+for one coloring and translates only. None of them concerns the unit square
+itself.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

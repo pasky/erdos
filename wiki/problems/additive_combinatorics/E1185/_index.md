@@ -58,8 +58,8 @@ question to himself and Mauldin, motivated by a problem in measure theory.
 
 **Source.** [erdosproblems.com/1185](https://www.erdosproblems.com/1185),
 accessed 2026-09-04 and 2026-10-07 (page last edited 5 April 2026;
-empty discussion thread and proof-claims tab). Cite as: T. F. Bloom, Erdős
-Problem #1185, https://www.erdosproblems.com/1185.
+empty discussion thread); its proof-claims tab was empty. Cite as: T. F. Bloom,
+Erdős Problem #1185, https://www.erdosproblems.com/1185.
 
 **References.**
 

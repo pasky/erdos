@@ -69,7 +69,8 @@ notes.
 
 The copy read for this card is the Rényi archive's OmniPage scan (six
 pages; printed p. $n$ = PDF p. $n-419$); J. Number Theory 9 (1977), no. 4,
-420--425, DOI 10.1016/0022-314x(77)90003-8 (Crossref record read). Read status: claims checked for Theorem 1 (p. 420), Theorem 2
+420--425, DOI 10.1016/0022-314x(77)90003-8 (Crossref record read
+2026-09-18). Read status: claims checked for Theorem 1 (p. 420), Theorem 2
 (p. 422), the remark on p. 423 that most sets of type $(n,n^2)$ need a
 basis of size $c\,n\log\log n/\log n$ (asserted there without proof) and
 the closing question on p. 425, read on the page images (130 dpi) with the text

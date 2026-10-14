@@ -142,8 +142,10 @@ of formal-conjectures at the linked commit (main on 2026-09-18) declares
 under `category research open` with proof `sorry`, and the variant
 `erdos_306.variants.integer_three_primes` (every positive integer with three
 distinct prime factors per denominator; `category research solved`, proof
-`sorry`, no `formal_proof` attribute). The community database records the problem as open (31 August 2025), the statement as
-formalized since 31 August 2025, and no formal proof or formal-proof URL. The database keeps that record and adds a formal-status note:
+`sorry`, no `formal_proof` attribute). The community database (read 2026-09-18)
+records the problem as open (31 August 2025), the statement as formalized since
+31 August 2025, and no formal proof or formal-proof URL. On 2026-10-07 the
+database kept that record and added a formal-status note:
 a Lean formalization by Collin Yuanjie Ren, AI-assisted, of Watanabe's
 47-term decomposition of $1$, the instance $a/b=1$ and not the general
 rational question, with a pinned link to its README; it is a formalization
@@ -326,7 +328,7 @@ of $1$ are finite identities checked by exact arithmetic; the three 2026 claims
 are recorded at the level of their statements, abstracts, declarations and
 release metadata. No proof has been rewritten or independently reviewed.
 
-**Proof claims on the site.** The site's proof-claims
+**Proof claims on the site (accessed 2026-10-06).** The site's proof-claims
 tab carries one full proof claim, submitted 2026-09-29 by Shisheng Li, who
 names GPT-5.6-sol, GPT-6-astra and Claude Opus 5.5 as the systems used, with
 [Li26b] as the write-up and its repository as the formalization; its summary
@@ -336,8 +338,8 @@ three comments (29 September to 3 October 2026) are an exchange with Tang,
 who welcomes the proof, reports simplifying their own and publishes their August
 manuscript (recorded on
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's claim page]]);
-none is a review. The site labeled the problem OPEN (page last edited 21 June
-2026, accessed 2026-10-07).
+none is a review. The site labeled the problem OPEN; its page, accessed
+2026-10-07, was last edited 21 June 2026.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

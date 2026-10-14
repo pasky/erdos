@@ -72,8 +72,8 @@ in full on the page image and its reduction to Theorem 1 and to Vizing's theorem
 was followed, with two filing observations recorded on the result page and
 below. The proof of Theorem 1 (pp. 106--108), including the proof of Lemma 1 (p.
 107), was read in the text layer for structure only, and none of its steps was
-checked. All six pages, the reference list included, were reread on the page
-images against this card, the proof of Theorem 1 again for structure only.
+checked. All six pages, the reference list included, were also read on the
+page images against this card, the proof of Theorem 1 for structure only.
 Nothing here is independently reviewed.
 
 ## Contents

@@ -62,8 +62,8 @@ The `reviewed` evidence is the documented acceptance by the catalog
 erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Xiong and Zaharescu,
 independently of Boca, with an alternative, more explicit proof of the existence
-of the limit. The SOLVED label is read as resting on these two proofs for the
-explicit form. Existence was first proved by
+of the limit (accessed 2026-09-04). The SOLVED label is read as resting on these
+two proofs for the explicit form. Existence was first proved by
 [[problems/irrationality/E1001/claims/1966_01_01_kesten_sos|Kesten and Sós]].
 [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]] identifies the
 limit independently. No independent check of the proof is recorded. Whether the

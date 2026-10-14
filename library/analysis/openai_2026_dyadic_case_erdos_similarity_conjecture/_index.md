@@ -57,7 +57,7 @@ author line "OpenAI", the date and the citation block; the TeX source names
 no human author and carries no statement on how the text was produced. These
 are the source's own attestations, recorded here as history, not as this
 corpus's review. No refereed publication, no arXiv version and no independent
-review of the manuscript is recorded here and nothing on
+review of the manuscript is recorded here, and nothing on
 this card is independently reviewed.
 
 Formalization, as the release lists it. The release's Lean page

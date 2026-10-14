@@ -35,14 +35,15 @@ common edge), Годишник на Софийския университет "�
 = Annuaire de l'Université de Sofia "St. Kliment Ohridski", Faculté de
 Mathématiques et Informatique, Livre 1 -- Mathématiques, Tome 82 (1988),
 37--49; in Russian, with an English abstract on p. 37 and an English summary
-from p. 49. The zbMATH record lists it as God. Sofiĭ.
+from p. 49. The zbMATH record (read 2026-09-18) lists it as God. Sofiĭ.
 Univ., Fak. Mat. Inform. 82, 37--52 (1988) and gives the language as
 Bulgarian; the text on the page images is Russian, and the title page prints
 1988. The journal's article record
-(<https://annual.uni-sofia.bg/index.php/fmi/article/view/521>) lists volume 82, number 1, pp. 37--49, dated 12 December 1991,
-and reproduces the English abstract. Not a source key of the site: the
-site's key KhNi79 for Problem 905 is the author's 1979 note with Nikiforov,
-this paper's reference [2], which is not held.
+(<https://annual.uni-sofia.bg/index.php/fmi/article/view/521>, read 2026-09-18)
+lists volume 82, number 1, pp. 37--49, dated 12 December 1991, and reproduces
+the English abstract. Not a source key of the site: the site's key KhNi79 for
+Problem 905 is the author's 1979 note with Nikiforov, this paper's reference
+[2], which is not held.
 
 **Edition read.** The copy read for this card is a 13-page image-only
 PDF (a print-to-PDF of a scan named `82-1.pdf`, per its metadata; no text
@@ -74,7 +75,7 @@ p. 46 were not checked. Problem 905 consumes the p. 44 passage and Corollary
 and
 [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]];
 Problem 1034 consumes Corollary 3 as the book bound behind its lower bound
-(Corollary 3 and Theorem 2 read again on the page images).
+(Corollary 3 and Theorem 2 read on the page images).
 
 ## Contents
 
@@ -209,7 +210,7 @@ every edge on a triangle and $\hat t=n/9$, an equality case of Theorem 1, shows 
 $f_{2/9}(n)\le n/9$ for $9\mid n$
 ([[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]]).
 [[../wiki/problems/extremal_graph_theory/E1034/_index|#1034]]: Corollary 3 (p. 45 = PDF
-p. 9, page image, read again), $\hat t>n/6$ whenever
+p. 9, page image), $\hat t>n/6$ whenever
 $e>[n^2/4]$, is the "classical result on the existence of a book of size
 $n/6$" that the Ma--Tang note and the site combine with the disproving
 construction to bound the general threshold $h(n)$ from below: an edge on more

@@ -16,12 +16,12 @@ updated: 2026-10-08T01:29:58Z
 
 Nguyen, Tung and Scott, Alex and Seymour, Paul, Induced subgraph density. VII.
 The five-vertex path. Proc. Lond. Math. Soc. (3) 132 (2026), no. 3, Paper No.
-e70133, doi:10.1112/plms.70133 (Crossref record). The copy read for this card is
-the arXiv version stamped "arXiv:2312.15333v3 [math.CO] 23 Feb 2026" (19 pages,
-dated October 25, 2023 and revised January 27, 2026); the journal version was
-not compared, and the theorem numbers here are those of the arXiv copy. The
-arXiv record (https://arxiv.org/abs/2312.15333, read 2026-10-07) names the
-Creative Commons Attribution 4.0 license.
+e70133, doi:10.1112/plms.70133 (Crossref record, read 2026-10-07). The copy read
+for this card is the arXiv version stamped "arXiv:2312.15333v3 [math.CO] 23 Feb
+2026" (19 pages, dated October 25, 2023 and revised January 27, 2026); the
+journal version was not compared, and the theorem numbers here are those of the
+arXiv copy. The arXiv record (https://arxiv.org/abs/2312.15333, read 2026-10-07)
+names the Creative Commons Attribution 4.0 license.
 
 Theorem 1.2 proves the Erdos-Hajnal conjecture for P_5: there is c > 0 such that
 every n-vertex graph with no induced five-vertex path has a clique or stable set

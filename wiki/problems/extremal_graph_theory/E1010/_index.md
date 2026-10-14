@@ -24,7 +24,7 @@ updated: 2026-10-08T02:55:41Z
 **Statement.** Let $t<\lfloor n/2\rfloor$. Does every graph on $n$ vertices with
 $\lfloor n^2/4\rfloor+t$ edges contain at least $t\lfloor n/2\rfloor$ triangles?
 
-**Formulation.** The site's wording (the page
+**Formulation.** The site's wording as accessed 2026-09-18 (the page
 carries no last-edited date). The range $t<\lfloor n/2\rfloor$ is exactly
 Erdős's 1962 conjecture as printed ([Er62d], p. 122: "Further I
 conjectured that for $t<[n/2]$ every $G^{(n)}_{f(n)+t}$ contains at least
@@ -92,7 +92,8 @@ accessed 2026-09-18.
 **References.**
 
 - [Er62d] Erdős, P., On a theorem of Rademacher-Turán. Illinois J. Math. 6
-  (1962), no. 1, 122--127, doi:10.1215/ijm/1255631811 (Crossref record). The conjecture and the two constructions,
+  (1962), no. 1, 122--127, doi:10.1215/ijm/1255631811 (Crossref record,
+  accessed 2026-09-18). The conjecture and the two constructions,
   pp. 122--123; the Theorem and Lemma 1, p. 123. Library home:
   [[../library/extremal_graph_theory/erdos_1962_theorem_rademacher_turan/_index|erdos_1962_theorem_rademacher_turan]]
   (the Rényi archive's scan `1962-09.pdf`); paged
@@ -101,7 +102,7 @@ accessed 2026-09-18.
 - [LoSi83] Lovász, L. and Simonovits, M., On the number of complete
   subgraphs of a graph II. Studies in Pure Mathematics: To the Memory of
   Paul Turán, Birkhäuser, Basel (1983), 459--495,
-  doi:10.1007/978-3-0348-5438-2_41 (Crossref record). Not a
+  doi:10.1007/978-3-0348-5438-2_41 (Crossref record, accessed 2026-09-18). Not a
   site key; named in the discussion thread. The abstract, p. 459; Theorem
   A and Problem 3, p. 460; Theorem 3, p. 462; Theorem 4, p. 463. Library
   home:
@@ -118,8 +119,8 @@ accessed 2026-09-18.
 - [NiKh81] Nikiforov, V. S. and Khadzhiivanov, N. G., Solution of the
   problem of P. Erdős on the number of triangles in graphs with $n$ vertices
   and $[n^2/4]+l$ edges. C. R. Acad. Bulgare Sci. 34 (1981), 969--970. Not
-  held: no online record was found (a Crossref bibliographic query
-  returned nothing relevant). Known only through the site.
+  held: no online record was found (a Crossref bibliographic query of
+  2026-09-18 returned nothing relevant). Known only through the site.
 
 **Formalization.** The file
 [`ErdosProblems/1010.lean`](https://github.com/google-deepmind/formal-conjectures/blob/b39397f78fe3946ed82fe77070e12df4c059b6f9/FormalConjectures/ErdosProblems/1010.lean)
@@ -137,13 +138,14 @@ $n$, by its own argument, and names no informal author, so it is an
 independent proof with its own pending claim page,
 [[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|2026_08_26_alexeev]],
 which describes the development; it has not been built or audited in this
-corpus. The site's indicator says a formalized statement exists, and the community database lists the
+corpus. The site's indicator says a formalized statement exists (accessed
+2026-10-07), and the community database (accessed 2026-10-06) lists the
 problem as proved as of its last update, 10 September 2025, the statement
 formalized since 20 September 2026 and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; PROVED; no last-edited date. The commentary, in this page's words,
 records three things: Rademacher's case $t=1$, that $\lfloor n^2/4\rfloor+1$
 edges force $\lfloor n/2\rfloor$ triangles; Erdős's theorem of [Er62d], the
@@ -241,8 +243,8 @@ an English abstract), Annuaire Univ. Sofia Fac. Math. Inform. 82 (1988),
 livre 1, 37--49, a single-author paper on the book (common-edge) triangle
 problem of Problem 905, not the 1981 note; it is not filed.
 Later work on the minimum number of triangles for every edge count, found
-by title in the citation lists of [LoSi83] and [Er62d] (Semantic Scholar),
-includes "The exact minimum number of triangles in graphs with
+by title in the citation lists of [LoSi83] and [Er62d] (Semantic Scholar,
+2026-09-18), includes "The exact minimum number of triangles in graphs with
 given order and size" (Forum Math. Pi 8 (2020); arXiv:1712.00633), "On
 stability of the Erdős--Rademacher problem" (Illinois J. Math. 2020;
 arXiv:2003.12917) and "A note on extremal constructions for the

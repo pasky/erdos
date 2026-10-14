@@ -26,7 +26,7 @@ that every case but {2} is sharp.
 
 Simonovits, Miklós and Sós, Vera T., On restricted colourings of {$K_n$}.
 Combinatorica 4 (1984), no. 1, 101--110, doi:10.1007/BF02579162 (Crossref
-record read); received 1 July 1983 and dedicated to Paul Erdős on
+record read 2026-09-18); received 1 July 1983 and dedicated to Paul Erdős on
 his seventieth birthday (first page).
 
 **Edition read.** The copy read for this card is the repository copy at

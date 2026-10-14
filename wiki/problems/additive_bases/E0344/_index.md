@@ -49,14 +49,14 @@ question whether $\lvert A\cap\{1,\ldots,N\}\rvert\ge(2N)^{1/2}$ suffices,
 which [Er61b] shows would be best possible, is a separate question that the
 site's commentary records as open.
 
-**Status.** Proved, the site's label (PROVED; page last edited 28 December 2025,
-accessed 2026-10-07). Szemerédi and Vu [SzVu06] proved that there is an absolute
-constant $c$ such that every increasing sequence $A$ with
-$\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$ is subcomplete.
-This answers the question yes in the reading the Formulation records. Their
-first proof is in the Annals of Mathematics (2006), and the cited paper gives a
-second, shorter proof. The refereed papers and the site's acceptance are
-recorded on the
+**Status.** Proved; the site's label was PROVED, and its page, accessed
+2026-10-07, was last edited 28 December 2025. Szemerédi and Vu [SzVu06] proved
+that there is an absolute constant $c$ such that every increasing sequence $A$
+with $\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$ is
+subcomplete. This answers the question yes in the reading the Formulation
+records. Their first proof is in the Annals of Mathematics (2006), and the cited
+paper gives a second, shorter proof. The refereed papers and the site's
+acceptance are recorded on the
 [[problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu|claim page]].
 Y.-G. Chen proved the same theorem by a different method in Acta Arithmetica
 (2003). The proof is recorded on

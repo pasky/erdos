@@ -53,10 +53,10 @@ named by the journal paper's date.
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the European
-Journal of Combinatorics. Its Crossref record (read) gives volume 30, issue 7,
-print issue October 2009. The record was created on 9 April 2009, the date that
-names this page. The site's curator does not mention Wolfovitz in the problem's
-commentary, so no `reviewed` evidence is listed. The two refereed papers of 2015
-and 2018 cite the bound as an intermediate step between Łuczak and Schoen's
-answer and their own. The paper has not been read, so no further evidence is
-listed.
+Journal of Combinatorics. Its Crossref record (read 2026-10-07) gives volume 30,
+issue 7, print issue October 2009. The record was created on 9 April 2009, the
+date that names this page. The site's curator does not mention Wolfovitz in the
+problem's commentary, so no `reviewed` evidence is listed. The two refereed
+papers of 2015 and 2018 cite the bound as an intermediate step between Łuczak
+and Schoen's answer and their own. The paper has not been read, so no further
+evidence is listed.

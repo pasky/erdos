@@ -74,7 +74,7 @@ reduction lemma of Gao's deposit is the only written form of it found.
 
 **Read status.** Unread: the chapter's text was not obtained. The consumed
 statement, the §3 theorem, was checked against the zbMATH review (Zbl
-0703.03027, read through the zbMATH Open API) and against the
+0703.03027, read 2026-09-27 through the zbMATH Open API) and against the
 paper of Chen, Garti and Weinert, which state it in the same form; the
 chapter's own theorem numbering is unknown, so the result page carries a
 descriptive name.

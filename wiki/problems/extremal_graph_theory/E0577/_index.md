@@ -24,7 +24,7 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** If $G$ is a graph with $4k$ vertices and minimum degree at
 least $2k$ then $G$ contains $k$ vertex-disjoint $4$-cycles.
 
-**Formulation.** The site's wording (the page carries no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page carried no
 last-edited date). The statement is for every positive
 integer $k$; the $k$ vertex-disjoint $4$-cycles use all $4k$ vertices, so the
 conclusion is that $G$ has a spanning subgraph consisting of $k$ disjoint
@@ -95,17 +95,17 @@ https://www.erdosproblems.com/577, accessed 2026-09-18.
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/_index|chung_1997_open_problems_paul_erdos_graph_theory]].
 
 **Formalization.** No formal-conjectures statement: no file
-`ErdosProblems/577.lean` exists in formal-conjectures (main; the directory
-`FormalConjectures/ErdosProblems/` and the recursive tree were listed in full);
-the site's page shows "Formalised statement? No", and the community database
-(teorth/erdosproblems) records the problem proved and not formalized (record
-last updated 31 August 2025). Outside formal-conjectures, Boris Alexeev's public
-lean-proofs repository holds a Lean 4 development `Erdos577.lean`, with its
-supporting modules under `Erdos577/`, added on 2026-08-28, whose docstring says
-that the proof follows Theorem B of [Wa10]; its theorems `erdos_faudree` and
-`erdos_577` state Theorem B for every $k$. The claim page links it at a pinned
-revision; the corpus has not built or audited it, so it gives no `formalized`
-evidence.
+`ErdosProblems/577.lean` exists in formal-conjectures (main, fetched 2026-09-18;
+the directory `FormalConjectures/ErdosProblems/` and the recursive tree were
+listed in full); the site's page shows "Formalised statement? No", and the
+community database (teorth/erdosproblems, fetched 2026-09-18) records the
+problem proved and not formalized (record last updated 31 August 2025). Outside
+formal-conjectures, Boris Alexeev's public lean-proofs repository holds a Lean 4
+development `Erdos577.lean`, with its supporting modules under `Erdos577/`,
+added on 2026-08-28, whose docstring says that the proof follows Theorem B of
+[Wa10]; its theorems `erdos_faudree` and `erdos_577` state Theorem B for every
+$k$. The claim page links it at a pinned revision; the corpus has not built or
+audited it, so it gives no `formalized` evidence.
 
 ## Current assessment
 
@@ -187,11 +187,10 @@ origin [Er90c] is not held, so the conjecture's original wording and any
 remarks of Erdős and Faudree on it are attested only through the site,
 [Ch97] (Problem (65), which names Erdős and Faudree) and [Wa10], whose
 introduction first credits "Erdős [4]" and later (p. 834) calls it the
-conjecture of Erdős and Faudree, as its title and abstract do. (4) There is
-no formal-conjectures statement of the problem; the
-external Lean development of Wang's proof in Alexeev's repository
-(2026-08-28) is not built or audited by the corpus, so nothing is compiled
-at proof level.
+conjecture of Erdős and Faudree, as its title and abstract do. (4) On 2026-09-18
+there was no formal-conjectures statement of the problem; the external Lean
+development of Wang's proof in Alexeev's repository (2026-08-28) is not built or
+audited by the corpus, so nothing is compiled at proof level.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

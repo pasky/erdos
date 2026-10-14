@@ -41,9 +41,9 @@ and is a pending claim on
 This corpus has not built it. There is no refereed write-up.
 
 **Source.** [erdosproblems.com/403](https://www.erdosproblems.com/403), accessed
-2026-09-04 and, with its one-comment discussion thread, its empty
-proof-claims list, the community database, the formal-conjectures statement
-file and the two copies of the Lean proof, 2026-10-07. The site
+2026-09-04 and, with its one-comment discussion thread, the community
+database, the formal-conjectures statement file and the two copies of the Lean
+proof, 2026-10-07; its proof-claims list was empty. The site
 cites the problem from p. 79 of Erdős and Graham's 1980 problem book [ErGr80],
 which names Burr and Erdős as the askers and reports the proofs of Frankl and
 Lin. Cite as: T. F. Bloom, Erdős Problem #403, https://www.erdosproblems.com/403.

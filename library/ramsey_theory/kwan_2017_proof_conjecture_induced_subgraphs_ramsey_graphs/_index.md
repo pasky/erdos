@@ -51,7 +51,7 @@ definition of richness. The v4 acknowledgment on p. 21 locates it
 in Section 3.1 and credits Mantas Baksys and Xuanang Chen.
 The earlier published proof and the corrected proof have not been compared
 in full here; this is an author-issued correction, not a local proof repair.
-These version and publication records were accessed.
+These version and publication records were accessed on 2026-09-09 UTC.
 
 **Main result.**
 [[ramsey_theory/kwan_2017_proof_conjecture_induced_subgraphs_ramsey_graphs/theorem_1_1|Theorem 1.1]]

@@ -71,6 +71,6 @@ thread post is not a manuscript and has no page.
 
 **Acceptance.** Reviewed: Thomas Bloom, the site's curator, labeled the problem
 solved. Bloom credits the first proof of the stronger conjecture to Tidor, Wang
-and Yang, with Wagner's paper as implicit prior work. Not refereed: the arXiv
-record lists two versions, of 14 August and 22 September 2016, and no journal
-reference.
+and Yang, with Wagner's paper as implicit prior work. Not refereed: on
+2026-10-06 the arXiv record listed two versions, of 14 August and 22 September
+2016, and no journal reference.

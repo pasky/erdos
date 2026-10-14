@@ -50,20 +50,19 @@ bounded content of polynomial matrix powers minus the identity.
 divisors of $a^k-1$ and $b^k-1$*, Acta Arithmetica **113** (2004), no. 1, 31–38.
 [DOI: 10.4064/aa113-1-3](https://doi.org/10.4064/aa113-1-3). The [publisher's
 record](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/113/1/83111/torsion-points-on-curves-and-common-divisors-of-a-k-1-and-b-k-1)
-confirms the authors, volume, pages and DOI.
+confirms the authors, volume, pages and DOI; accessed 2026-09-05.
 
 ## Source version
 
 The canonical
 [eight-page PDF](ailon_2004_torsion_points_curves_common_divisors.pdf)
 is the published typesetting, obtained from
-[Rudnick's author-hosted copy](https://www.math.tau.ac.il/~rudnick/papers/aa113-1-03.pdf)
-on 2026-09-05. Its printed pages are 31–38, corresponding to PDF pages
-1–8. The final page records receipt on 4 July 2002 and revision on
-15 December 2002. The retained file is 124,252 bytes. The file's text layer
-carries no copyright or license line; the publisher's record offers the PDF
-"Free download under CC-BY license", a Creative Commons Attribution license with
-no version or URL named
+[Rudnick's author-hosted copy](https://www.math.tau.ac.il/~rudnick/papers/aa113-1-03.pdf).
+Its printed pages are 31–38, corresponding to PDF pages 1–8. The final page
+records receipt on 4 July 2002 and revision on 15 December 2002. The retained
+file is 124,252 bytes. The file's text layer carries no copyright or license
+line; the publisher's record offers the PDF "Free download under CC-BY license",
+a Creative Commons Attribution license with no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/113/1/83111/torsion-points-on-curves-and-common-divisors-of-a-k-1-and-b-k-1,
 read 2026-10-02); the site footer "Copyright © 2026 by IMPAN. All rights
 reserved." speaks for the site, not the article.

@@ -60,16 +60,16 @@ Library home:
 [[../library/integer_sequences/alon_1988_sums_subsets_set_integers/_index|alon_1988_sums_subsets_set_integers]].
 
 **Acceptance.** Refereed: Combinatorica, volume 8, issue 4, pages 297--306,
-issue dated December 1988 (Crossref record of DOI 10.1007/BF02189086). The paper
-was received on 1 July 1987. Reviewed: the site's curator, Thomas Bloom, who is
-independent of the authors, labeled the problem PROVED. The commentary credits
-the upper bound to this paper, with the choice of $m$ above, and the lower bound
-to Erdős and Graham, and it thanks Alon. This describes the commentary as of
-2026-09-05, when the discussion thread and the proof-claim tab were empty and no
-formalized statement existed. Read depth: the page is based on the abstract and
-Section 1 (Theorem 1.2, its consequence and Proposition 1.3). Sections 2 to 4,
-which prove them, were not read. Nothing is independently reviewed by this
-project.
+issue dated December 1988 (Crossref record of DOI 10.1007/BF02189086, read
+2026-10-07). The paper was received on 1 July 1987. Reviewed: the site's
+curator, Thomas Bloom, who is independent of the authors, labeled the problem
+PROVED. The commentary credits the upper bound to this paper, with the choice of
+$m$ above, and the lower bound to Erdős and Graham, and it thanks Alon. This
+describes the commentary as of 2026-09-05, when the discussion thread and the
+proof-claim tab were empty and no formalized statement existed. Read depth: the
+page is based on the abstract and Section 1 (Theorem 1.2, its consequence and
+Proposition 1.3). Sections 2 to 4, which prove them, were not read. Nothing is
+independently reviewed by this project.
 
 **Date.** The page is dated by the journal issue, December 1988; the day is
 not recorded, so the page name uses the first of that month.

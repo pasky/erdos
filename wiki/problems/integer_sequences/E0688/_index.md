@@ -100,7 +100,8 @@ under `category research open`, and the variant
 under `category research solved`, with the docstring "Erdős claims in
 [Er80] (p. 106) that it is not difficult to prove
 $\epsilon_n\gg\frac{\log\log\log n}{\log\log n}$"; all three proofs are
-`sorry` and no `formal_proof` attribute is present. The community database records the problem open and the statement formalized
+`sorry` and no `formal_proof` attribute is present. The community database
+(accessed 2026-09-18) records the problem open and the statement formalized
 (entries last updated 31 August 2025 and 11 May 2026), `formal_status`
 unformalized and no formal-proof URL.
 
