@@ -48,7 +48,7 @@ points. Barnoff and Bright continued the line with
 satisfiability solvers on planar north-east lattice paths (arXiv:2511.23226,
 November 2025).
 
-Source: <https://arxiv.org/abs/2303.14579>.
+Source: <https://arxiv.org/abs/2303.14579v2>.
 
 **Bears on.**
 [[../wiki/problems/discrete_geometry/E0193/_index|#193]]: the problem asks

@@ -19,7 +19,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/2207.02920
+- url: https://arxiv.org/abs/2207.02920v1
   kind: preprint
   date: 2022-07-06
 - url: https://doi.org/10.1016/j.jctb.2024.07.001

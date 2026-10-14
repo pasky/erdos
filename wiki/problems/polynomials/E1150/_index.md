@@ -42,15 +42,15 @@ and audited its statement. The corpus accepts it on
 [[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]].
 Outside this repository two acknowledgments are known, neither a review. The
 curator's post
-[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) lists the problem among the release's claims, states the
 claimed upper bound $(1+\epsilon)\sqrt N$ and says that the proof has been
-formalized, linking that declaration's comparator challenge and, as the PDF,
-the release's manuscript of 5 October 2026 on ultraflat polynomials; the post
-says that the curator has not yet looked seriously at the proofs or checked the
-Lean, and that it is not an endorsement. The formal-conjectures catalog marked
-its statement solved on 2026-10-11, linking that declaration (see
-Formalization), a catalog label. No outside review is known.
+formalized, linking that declaration's comparator challenge and, as the PDF, the
+release's manuscript of 5 October 2026 on ultraflat polynomials; the post says
+that the curator has not yet looked seriously at the proofs or checked the Lean,
+and that it is not an endorsement. The formal-conjectures catalog marked its
+statement solved on 2026-10-11, linking that declaration (see Formalization), a
+catalog label. No outside review is known.
 
 The site's commentary was written before the release. It restates the question
 as whether ultraflat polynomials with coefficients $\pm1$ exist. It notes that
@@ -199,6 +199,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/analysis/downarowicz_lacroix_1998_merit_factors_morse_sequences/theorem_2|downarowicz_lacroix_1998_merit_factors_morse_sequences / theorem_2]]
 - [[../library/analysis/erdos_1976_extremal_problems_polynomials/_index|erdos_1976_extremal_problems_polynomials]]
 - [[../library/analysis/erdos_1976_extremal_problems_polynomials/problem_p354|erdos_1976_extremal_problems_polynomials / problem_p354]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/polynomials/abdalaoui_2025_l_alpha_flatness_erdos_littlewood_s/_index|abdalaoui_2025_l_alpha_flatness_erdos_littlewood_s]]
 - [[../library/polynomials/abdalaoui_nadkarni_2016_class_littlewood_polynomials_that_are_not_l_flat/_index|abdalaoui_nadkarni_2016_class_littlewood_polynomials_that_are_not_l_flat]]
 - [[../library/polynomials/abdalaoui_nadkarni_2016_class_littlewood_polynomials_that_are_not_l_flat/proposition_3_5|abdalaoui_nadkarni_2016_class_littlewood_polynomials_that_are_not_l_flat / proposition_3_5]]

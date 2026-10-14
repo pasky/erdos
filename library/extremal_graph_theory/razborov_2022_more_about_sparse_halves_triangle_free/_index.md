@@ -41,7 +41,7 @@ sparse-halves problem for triangle-free graphs (problem 128), giving the best
 general bound and confirming the conjecture in classes containing both
 conjectured extremal examples, C_5 and the Petersen graph.
 
-Source: <https://arxiv.org/abs/2104.09406>.
+Source: <https://arxiv.org/abs/2104.09406v2>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0128/_index|#128]]
 

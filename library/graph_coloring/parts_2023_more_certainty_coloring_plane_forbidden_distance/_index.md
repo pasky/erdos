@@ -38,7 +38,7 @@ giving valuable small-instance methodology, but it forbids an interval of
 distances and produces no estimate depending only on the number r of forbidden
 distances.
 
-Source: <https://arxiv.org/abs/2303.14722>.
+Source: <https://arxiv.org/abs/2303.14722v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 

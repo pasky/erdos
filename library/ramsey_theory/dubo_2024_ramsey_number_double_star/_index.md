@@ -29,7 +29,7 @@ The copy read for this card is
 the arXiv preprint 2401.01274v2 (20 April 2024; v1 is of 2 January 2024),
 seven pages numbered 1--7; the published version was not
 compared, so the locators below are preprint pages. Source:
-<https://arxiv.org/abs/2401.01274>. The arXiv record names arXiv's
+<https://arxiv.org/abs/2401.01274v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2401.01274), every other right
 reserved.
 

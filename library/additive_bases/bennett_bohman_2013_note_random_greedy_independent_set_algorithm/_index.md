@@ -43,7 +43,7 @@ The arXiv record names arXiv's non-exclusive distribution license
 
 Patrick Bennett, Tom Bohman, "A note on the random greedy independent set
 algorithm," arXiv:1308.3732 (2013). The copy read for this card is
-arXiv:1308.3732v5 (24 September 2024).
+[arXiv:1308.3732v5](https://arxiv.org/abs/1308.3732v5) (24 September 2024).
 
 ## Overview
 

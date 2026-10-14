@@ -71,7 +71,7 @@ threshold for a perfect matching in the random $k$-uniform hypergraph
 $H_k(n,p)$ is $\Theta(n^{-k+1}\log n)$, which the paper presents as the
 resolution of Shamir's problem.
 
-Source: <https://arxiv.org/abs/0803.3406>.
+Source: <https://arxiv.org/abs/0803.3406v1>.
 
 Read status: claims checked for Definitions 1.2 and 1.3, displays (1)–(8),
 Theorems 2.1–2.5, Corollary 2.6 and Theorem 2.7, read clause by clause on the

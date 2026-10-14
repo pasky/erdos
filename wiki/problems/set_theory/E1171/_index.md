@@ -35,7 +35,7 @@ shows that ZFC does not refute the relation. This is one side of an independence
 result. Whether ZFC proves the relation is open for $k\ge3$. The ZFC case
 $k=1$ is the accepted partial claim
 [[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]],
-and the ZFC cases $k\le2$ are on the claimed partial page
+and the ZFC cases $k\le2$ are on the accepted partial page
 [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]].
 The deposit that prompted the site's label has its own page,
 [[problems/set_theory/E1171/claims/2026_09_05_gao|Gao's conditional proof]],
@@ -165,7 +165,7 @@ $\omega_1^2\to(\omega_1\omega,3,3)^2$
 ([[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|Baumgartner and Hajnal 1987]],
 not held, statement from its zbMATH review and from
 [[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|Komjáth 2025]],
-Problem 13 commentary), which contains $k=1$; both cases are on the claimed
+Problem 13 commentary), which contains $k=1$; both cases are on the accepted
 partial page
 [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]].
 Komjáth attributes the case $k=1$, in the form
@@ -246,7 +246,7 @@ which awards no tier.
   review Zbl 0635.03042 and Komjáth 2025, Problem 13 commentary); this contains
   the case $k=1$. Recorded on
   [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|its claim page]]
-  as a claimed partial claim. Komjáth attributes the case $k=1$,
+  as an accepted partial claim. Komjáth attributes the case $k=1$,
   $\omega_1^2\to(\omega_1\alpha,3)^2$ for $\alpha<\omega_1$, to Erdős and Hajnal
   [ErHa70]; the attribution is Komjáth's and is not found in that paper.
 - **Open in ZFC for $k\ge3$.** Komjáth 2025 (Problem 54 discussion) records

@@ -41,7 +41,7 @@ x exp(-c_0((log x)(log log x)(log log log x))^{1/3}) for a suitable constant
 c_0 > 0. The method is analytic counting of integers by the smoothness of their
 totient.
 
-Source: <https://arxiv.org/abs/1809.01214>.
+Source: <https://arxiv.org/abs/1809.01214v1>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1003/_index|#1003]]:
 the paper does not mention the problem; Theorem 1.1 enters only through Steve

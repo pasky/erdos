@@ -94,7 +94,7 @@ a_i mod p^2 below p^2/2, by an argument it credits to the problem site: for
 large a_i a prime p between sqrt(a_i) and sqrt(2 a_i) makes the residue of a_i
 mod p^2 exceed p^2/2.
 
-Source: <https://arxiv.org/abs/2512.01087>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2512.01087v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2512.01087), every other right
 reserved. The copy read for this card is arXiv v2 (7 December 2025), whose
 title page reads "of their translates" where the arXiv record reads "of its

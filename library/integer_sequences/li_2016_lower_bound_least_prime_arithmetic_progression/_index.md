@@ -47,7 +47,7 @@ largest least prime P(k) = max_a p(a,k), that is, a single residue class; it
 says nothing about the positive proportion of classes that problem 971 asks
 about.
 
-Source: <https://arxiv.org/abs/1607.02543>.
+Source: <https://arxiv.org/abs/1607.02543v2>.
 
 Read status: claims checked for Theorem 1.1, the density-one argument, the
 reduction through Lemma 5.1 and the heuristic Lemma 2.1, read clause by

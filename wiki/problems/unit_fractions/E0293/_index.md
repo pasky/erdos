@@ -76,7 +76,11 @@ $\liminf\log\log v(k)/k\ge\log2/257$ and $\limsup\le\log2$. This is Corollary
 1.3 of the OpenAI mathematics release's manuscript of 25 September 2026,
 accepted as a partial claim on `formalized` evidence
 ([[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]]). The
-best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$, where
+curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's claims on this problem and on Problems 148
+and 304, as claims and not an endorsement, and says that their proofs have been
+formalized. The best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$, where
 $c_0=1.26408\ldots$ is the Vardi constant. It comes from van Doorn and Tang's
 inequality (1.2) and the Elsholtz–Planitzer count. The paper prints
 $(1/5+o(1))2^k$ (see the Upper bound below). Whether the slope tends to $\log2$,
@@ -167,9 +171,10 @@ the claimed doubly exponential bound of the van Doorn note and the superseded
 $\exp(k^A)$ deduction below, and rules out the monograph's $2^{2^{\sqrt n}}$
 guess; its upper bound is weaker than the recorded one. The fourth,
 [[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|van Doorn's forum claim of 10 October 2026]],
-status claimed, claim proved: $v(k)>e^{e^{ck}}$ for some $c>0$, stated as a
+status rejected, claim proved: $v(k)>e^{e^{ck}}$ for some $c>0$, stated as a
 consequence of his write-up on Problem 304 and a sketch (see Connection to
-Problem 304 below).
+Problem 304 below); with no value of $c$ it does not improve the best known
+bound, Corollary 1.3's $e^{e^{k/600}}$.
 
 **Bounds.** The known bounds are two-sided: $e^{e^{k/600}}\le v(k)\le
 c_0^{(2/5+o(1))2^k}$ for all large $k$, with $c_0=1.26408\ldots$ the Vardi
@@ -268,8 +273,8 @@ announcing the write-up recorded on
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
 states $v(k)>e^{e^{ck}}$ as a consequence of running its greedy start on
 $(b-1)/b$ without ever taking $1/b$, but the write-up itself proves only the
-bound for $N(b)$ and does not carry out this step; the post's claim is
-recorded as pending on
+bound for $N(b)$ and does not carry out this step; with no value of $c$ the
+post's claim does not improve Corollary 1.3, and it is recorded as rejected on
 [[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|its claim page]].
 
 **Finite values (unreviewed leads).** No refereed source tabulates $v(k)$.
@@ -334,6 +339,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/_index|doorn_2026_practical_numbers_egyptian_fractions]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/proposition_4_1|doorn_2026_practical_numbers_egyptian_fractions / proposition_4_1]]
 - [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_3|doorn_2026_practical_numbers_egyptian_fractions / theorem_1_3]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
 - [[../library/unit_fractions/bleicher_1975_number_distinct_subsums_sum_n_1/_index|bleicher_1975_number_distinct_subsums_sum_n_1]]
 - [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/_index|bleicher_1976_denominators_egyptian_fractions_ii]]

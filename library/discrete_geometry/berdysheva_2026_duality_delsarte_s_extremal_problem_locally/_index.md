@@ -47,7 +47,7 @@ Zsámboki. For problem 1070 it is a method paper only: it names 1-avoiding sets
 and the Erdos-Moser conjecture without treating them, and gives no planar
 density or finite ratio.
 
-Source: <https://arxiv.org/abs/2603.18287>. The held PDF is arXiv:2603.18287v4
+Source: <https://arxiv.org/abs/2603.18287v4>. The held PDF is arXiv:2603.18287v4
 (28 May 2026), and page and label citations refer to it. The arXiv record
 (https://arxiv.org/abs/2603.18287, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.

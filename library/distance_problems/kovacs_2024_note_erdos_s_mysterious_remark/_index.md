@@ -36,7 +36,7 @@ configurations and confirms Erdős's remark that for n = 5 the regular pentagon
 is the unique minimizer, since the other candidates realize three distinct
 distances rather than two. The n >= 3 space case of #503 is not resolved here.
 
-Source: <https://arxiv.org/abs/2412.05190>. The arXiv record
+Source: <https://arxiv.org/abs/2412.05190v2>. The arXiv record
 (https://arxiv.org/abs/2412.05190, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

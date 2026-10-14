@@ -36,7 +36,7 @@ problem 508 this is a sweep source only: it is engineering for the different
 extremal edge-count UDG problem and yields no bound on 508, though its motif
 generation may be useful.
 
-Source: <https://arxiv.org/abs/2406.15317>. The held PDF is arXiv:2406.15317v3
+Source: <https://arxiv.org/abs/2406.15317v3>. The held PDF is arXiv:2406.15317v3
 (13 Jun 2025). The arXiv record (https://arxiv.org/abs/2406.15317, read
 2026-10-02) names the Creative Commons Attribution 4.0 license.
 

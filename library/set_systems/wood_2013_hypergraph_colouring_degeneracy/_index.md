@@ -44,7 +44,7 @@ chromatic number $3$. Thus the problem's proposed property fails for every
 $c\geq2$, at every $t\geq2$, and no sequence of valid constants can tend to
 infinity.
 
-Source: <https://arxiv.org/abs/1310.2972>.
+Source: <https://arxiv.org/abs/1310.2972v3>.
 
 **Bears on.** [[../wiki/problems/set_systems/E1022/_index|#1022]]:
 [[set_systems/wood_2013_hypergraph_colouring_degeneracy/theorem_3|Theorem 3]]

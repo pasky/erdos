@@ -5,7 +5,8 @@ desc: |
   AxiomProver's Lean 4 file, posted to the site's thread in June 2026, proves
   that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has lower density
   zero. This corpus has not built or audited it.
-authors: []
+authors:
+- AxiomProver
 status: claimed
 claim: disproved
 scope: full

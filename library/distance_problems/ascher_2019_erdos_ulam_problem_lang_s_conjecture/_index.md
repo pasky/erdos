@@ -78,7 +78,7 @@ notes that for more than seven points its notion of general position is
 strictly weaker than the no-three-collinear, no-four-concyclic notion of
 Kreisel and Kurz (p. 2).
 
-Source: <https://arxiv.org/abs/1901.02616>.
+Source: <https://arxiv.org/abs/1901.02616v2>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0212/_index|#212]]:
 Proposition 3.6 (p. 5) puts every rational distance set, assuming Lang's

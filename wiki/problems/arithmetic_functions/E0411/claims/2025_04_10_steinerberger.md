@@ -13,7 +13,7 @@ claim: proved
 scope: partial
 submitted: null
 links:
-- url: https://arxiv.org/abs/2504.08023
+- url: https://arxiv.org/abs/2504.08023v1
   kind: preprint
   date: 2025-04-10
 - url: https://www.erdosproblems.com/411

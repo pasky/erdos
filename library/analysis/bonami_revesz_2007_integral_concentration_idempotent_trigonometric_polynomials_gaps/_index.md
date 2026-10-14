@@ -40,9 +40,10 @@ full concentration for p > 1 not an even integer.
 
 ***
 
-The copy read for this card is the arXiv PDF of arXiv:0707.3023v2 (16 October
-2008). The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:0707.3023), every other right reserved.
+The copy read for this card is the arXiv PDF of
+[arXiv:0707.3023v2](https://arxiv.org/abs/0707.3023v2) (16 October 2008). The
+arXiv record names arXiv's non-exclusive distribution license (arXiv:0707.3023),
+every other right reserved.
 
 Aline Bonami, Szilárd Gy. Révész, "Integral Concentration of idempotent
 trigonometric polynomials with gaps," arXiv:0707.3023 (2007).

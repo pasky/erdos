@@ -43,15 +43,15 @@ and no procedure for deciding the criterion from numerical data is proved. The
 site labeled the problem OPEN, and its remarks, read 13 October 2026 (page last
 edited 16 October 2025), mention neither the classification nor Pálvölgyi's
 heptagon. The curator's post
-[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
-(8 October 2026; this problem added on 9 October) lists the classification as
-a claim; the post says that the curator has not yet looked seriously at the
-proofs or checked the Lean, and that it is not an endorsement. Its entry says
-that sphericity "was recently shown to not be sufficient", without naming a
-source, and that work in preparation by Pálvölgyi contains a proof that every
-finite transitive set is Ramsey; it does not say whether the criterion answers
-the question. The standing here would follow the curator's ruling if the
-curator reads 'characterise' more narrowly.
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026; this problem added on 9 October) lists the classification as a
+claim; the post says that the curator has not yet looked seriously at the proofs
+or checked the Lean, and that it is not an endorsement. Its entry says that
+sphericity "was recently shown to not be sufficient", without naming a source,
+and that work in preparation by Pálvölgyi contains a proof that every finite
+transitive set is Ramsey; it does not say whether the criterion answers the
+question. The standing here would follow the curator's ruling if the curator
+reads 'characterise' more narrowly.
 
 **Status.** OPEN, in the site's label (page last edited 16 October 2025). The
 site's proof-claims thread had no claim as of 6 October 2026. The standing in
@@ -643,6 +643,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/graham_2010_open_problems_euclidean_ramsey_theory/conjecture_4|graham_2010_open_problems_euclidean_ramsey_theory / conjecture_4]]
 - [[../library/distance_problems/graham_2010_open_problems_euclidean_ramsey_theory/theorem_1|graham_2010_open_problems_euclidean_ramsey_theory / theorem_1]]
 - [[../library/distance_problems/graham_2010_open_problems_euclidean_ramsey_theory/theorem_2|graham_2010_open_problems_euclidean_ramsey_theory / theorem_2]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/set_systems/frankl_1987_forbidden_intersections/_index|frankl_1987_forbidden_intersections]]
 - [[../library/set_systems/frankl_1987_forbidden_intersections/theorem_1_16|frankl_1987_forbidden_intersections / theorem_1_16]]
 - [[../library/set_systems/rado_1949_axiomatic_treatment_rank_infinite_sets/_index|rado_1949_axiomatic_treatment_rank_infinite_sets]]

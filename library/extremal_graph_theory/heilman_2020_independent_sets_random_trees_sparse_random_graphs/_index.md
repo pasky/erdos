@@ -42,8 +42,9 @@ floor(beta(1-eps)/2), beta the expected independence number of G(n,d/n).
 
 ***
 
-The copy read for this card is arXiv:2006.04756v1 (8 June 2020), 28 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2006.04756v1](https://arxiv.org/abs/2006.04756v1) (8 June 2020), 28
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2006.04756), every other right reserved.
 
 Steven Heilman, "Independent Sets of Random Trees and of Sparse Random Graphs,"

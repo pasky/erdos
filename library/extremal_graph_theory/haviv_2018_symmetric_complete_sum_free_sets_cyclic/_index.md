@@ -97,7 +97,7 @@ application to dioid partitions of groups: for a prime $p\ge5$ a symmetric
 complete sum-free $S$ in $\mathbb{Z}_p$ yields the nontrivial 3-part
 partition $\{\{0\},S,(S+S)\setminus\{0\}\}$.
 
-Source: <https://arxiv.org/abs/1703.04118>.
+Source: <https://arxiv.org/abs/1703.04118v2>.
 
 **Bears on.**
 

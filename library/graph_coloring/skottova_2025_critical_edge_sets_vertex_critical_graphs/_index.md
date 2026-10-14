@@ -37,7 +37,7 @@ h + sum_i (n_i - 1); the upper bound uses the Conlon-Fox variant of Szemeredi's
 regularity lemma. For problem 944 it settles every k >= 5 and r >= 1 and
 leaves k = 4 open.
 
-Source: <https://arxiv.org/abs/2508.08703>.
+Source: <https://arxiv.org/abs/2508.08703v1>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0944/_index|#944]]
 

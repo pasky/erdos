@@ -50,7 +50,7 @@ chromatic number at least four is the maximum here plus one,
 floor((n-3)^2/4)+6 (a conversion made on the problem page); the paper says
 nothing about r >= 5 or about the range n < 90.
 
-Source: <https://arxiv.org/abs/2404.07486>.
+Source: <https://arxiv.org/abs/2404.07486v2>.
 
 The copy read for this card
 is arXiv:2404.07486v2 (19 October 2025, "14 pages, 4 figures, the proof is

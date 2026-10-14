@@ -58,9 +58,13 @@ the identity, closing that check, is given by the OpenAI release's preprint of
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] on its
 Lean proof, which this corpus built, checked for axioms and found identical to
 the release's comparator challenge. The preprint itself is unrefereed and
-unreviewed. The refereed partial claims alone leave the finite check open, which
-is what the label records. The label is a statement about the shape of what
-remains, not a theorem. It is recorded as the accepted partial claim page
+unreviewed. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The refereed partial claims alone leave the
+finite check open, which is what the label records. The label is a statement
+about the shape of what remains, not a theorem. It is recorded as the accepted
+partial claim page
 [[problems/ramsey_theory/E0551/claims/2018_07_17_keevash_long_skokan|Keevash, Long and Skokan 2021]],
 whose **Covers.** states the finite check, and the page records what is proved
 and what remains.
@@ -277,9 +281,9 @@ unknown: [KLS21] did not compute $C$ and write (p. 16) that "with more work it
 seems that a reasonable value (less than 20, say) can be obtained". No refereed
 source closes any part of it; the 2026 result below, accepted on its Lean proof,
 closes all of it. This is the finite check the site's label refers to; the label
-is kept as the catalog's, and whether "decidable" should stand for a statement
-that is true for all $n\ge n_0(C)$ and unchecked for finitely many $n$ is a
-status question this page records rather than decides.
+is kept as the catalog's. A statement that is true for all $n\ge n_0(C)$ and
+unchecked for finitely many $n$ is a reduction to a finite check, and Keevash,
+Long and Skokan's claim page records it with the claim value `decidable`.
 
 **Closure of the residue (2026).** The OpenAI mathematics release's
 preprint *Cycle--clique Ramsey numbers* [OAI26] (25 September 2026), carded at
@@ -351,14 +355,11 @@ Lean proof; the manuscript is unrefereed and unreviewed, and no refereed source
 closes the residue, whose extent as the refereed results leave it still depends
 on the uncomputed constant of [KLS21]; an explicit $C$ or $n_0$ with a source
 treating the pairs $8\le n$, $n\le k\le4n+1$ (for $n=8$, the lengths
-$16\le k\le33$) would give a refereed route. (2) The site's label DECIDABLE
-stands for a statement that is proved for all $n\ge n_0(C)$ and unchecked for
-finitely many $n$; whether that label should stand for such a statement is a
-question this page records rather than decides. (3) Proof coverage is statements
+$16\le k\le33$) would give a refereed route. (2) Proof coverage is statements
 only: Theorems 4 and 5 of [BoEr73], Theorem 1 of [Ni05] and Theorem 1.1 of
 [KLS21] are paged at claims checked, with their proofs read for structure at
-most; nothing is independently reviewed. (4) The journal versions of [Ni05] and
-[KLS21] are not compared with the arXiv preprints cited. (5) The
+most; nothing is independently reviewed. (3) The journal versions of [Ni05] and
+[KLS21] are not compared with the arXiv preprints cited. (4) The
 formal-conjectures file is a statement, not a proof.
 <!-- BEGIN problem library links -->
 
@@ -367,6 +368,7 @@ formal-conjectures file is a statement, not a proof.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/_index|bondy_1973_ramsey_numbers_cycles_graphs]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_4|bondy_1973_ramsey_numbers_cycles_graphs / theorem_4]]
 - [[../library/ramsey_theory/bondy_1973_ramsey_numbers_cycles_graphs/theorem_5|bondy_1973_ramsey_numbers_cycles_graphs / theorem_5]]

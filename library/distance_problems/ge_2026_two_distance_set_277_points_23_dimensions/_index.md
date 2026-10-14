@@ -27,7 +27,7 @@ Hong-Jun Ge, Jack Koolen, and Akihiro Munemasa, *A 2-distance set with 277
 points in the Euclidean space of dimension 23*, arXiv:2504.18110v4 (3 August
 2026), 8 pages. The published reference is DOI
 <https://doi.org/10.1007/s00454-026-00843-9>; the source record is
-<https://arxiv.org/abs/2504.18110>. The arXiv record
+<https://arxiv.org/abs/2504.18110v4>. The arXiv record
 (https://arxiv.org/abs/2504.18110, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

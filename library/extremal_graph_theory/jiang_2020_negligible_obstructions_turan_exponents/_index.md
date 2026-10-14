@@ -78,7 +78,7 @@ pp. 8--10) was read for structure only, and the proofs of Theorem 19
 (Sections 4 and 5, pp. 10--22) were not read. Nothing here is independently
 reviewed.
 
-Source: <https://arxiv.org/abs/2007.02975>.
+Source: <https://arxiv.org/abs/2007.02975v3>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]:
 [[extremal_graph_theory/jiang_2020_negligible_obstructions_turan_exponents/corollary_10|Corollary 10]] (p. 4) gives, for each rational

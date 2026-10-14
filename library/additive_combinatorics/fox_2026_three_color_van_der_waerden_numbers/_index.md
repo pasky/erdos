@@ -42,7 +42,7 @@ the analogue for three or more colors and leaves the two-color case open. It
 bears on problem 190 through Theorem 3, which answers that problem's displayed
 question in the affirmative.
 
-Source: <https://arxiv.org/abs/2606.02541>.
+Source: <https://arxiv.org/abs/2606.02541v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]
 (Theorem 1, the three-color analogue; the two-color question stays open),

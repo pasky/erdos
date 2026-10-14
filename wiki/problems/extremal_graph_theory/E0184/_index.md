@@ -48,15 +48,19 @@ below was never on the site's proof-claim tab. Theorem 1.1 of
 the OpenAI mathematics release's preprint of 24 September 2026 gives an
 absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
-with evidence formalized only. The corpus's verification of 2026-10-07 built the
-release's Lean declarations `OAI.ErdosGallai.erdos_gallai`, `MainStatement`,
-`EdgeDecomposition` and `CycleOrSingleEdge` at the pinned revision. It found
-exactly the axioms `propext`, `Classical.choice` and `Quot.sound`. It also
-audited the formal statement for fidelity to the question. That audit belongs to
-that evidence and is not an outside review. No outside reviewer is recorded. The
-informal manuscript is unrefereed, and its proof was read for structure only. A
-second full claim, Ryan Coffey's Lean-formalized proof of the formal-conjectures
-statement (1 October 2026), is recorded as claimed on
+with evidence formalized only. The curator's blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the claim, as a claim and not an endorsement, and says
+that its proof has been formalized. The corpus's verification of 2026-10-07
+built the release's Lean declarations `OAI.ErdosGallai.erdos_gallai`,
+`MainStatement`, `EdgeDecomposition` and `CycleOrSingleEdge` at the pinned
+revision. It found exactly the axioms `propext`, `Classical.choice` and
+`Quot.sound`. It also audited the formal statement for fidelity to the question.
+That audit belongs to that evidence and is not an outside review. No outside
+reviewer is recorded. The informal manuscript is unrefereed, and its proof was
+read for structure only. A second full claim, Ryan Coffey's Lean-formalized
+proof of the formal-conjectures statement (1 October 2026), is recorded as
+claimed on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
 A third, Jaehoon Kim's arXiv preprint (v1 6 October 2026, v2 9 October 2026),
 proves the statement by a different route and is recorded as claimed on
@@ -151,32 +155,37 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   September 2025; v2 7 September 2025). Preprint, not held, abstract only; a
   lead.
 
-**Formalization.** The release's Lean declaration
-`OAI.ErdosGallai.erdos_gallai` was built by the corpus's verification at the
-pinned revision, with the axioms `propext`, `Classical.choice` and
-`Quot.sound` only, as the accepted claim page records, and Coffey's claim
-page records the claimed Lean proof of `erdos_184` itself. On the site's
-side: statement only. The file
-[`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean)
-of formal-conjectures declares `erdos_184` under `category
-research open` with proof `sorry`: there is a function $f=O(n)$ such that
-every finite simple graph has a decomposition into subgraphs, each a cycle or
-a single edge (`IsCycleOrEdge`: connected and $2$-regular, or with exactly
-one edge), with at most $f(|V|)$ parts. It carries five variants, all
-`sorry`: `n_log_n`, `lower_bound` (the graph $K_{3,n-3}$ needs at least
-$(1+c)n$ parts), `bucic_montgomery` and `conlon_fox_sudakov` (minimum degree
-$\varepsilon n$ gives $O_\varepsilon(n)$ parts) under `research solved`, and
-`covering` under `research open` with `answer(sorry)`, asking whether $n-1$
-cycles and edges whose edge sets cover the graph always exist. That covering
-statement was proved by Pyber in 1985 according to [BM22] and [CFS14], so at
-that commit the file's label and the literature differed; the
-[file at main](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/184.lean)
-labels `covering` `research solved` with `answer(True)` and
-cites Pyber [Py85] in its docstring (changed 30 September 2026), while
-`erdos_184` stays `research open` with no `formal_proof` attribute. The
-community database (teorth/erdosproblems, read 2026-09-18) records the
-problem open (last changed 31 August 2025), the statement formalized since 16
-March 2026 and no formal proof. Nothing was built.
+**Formalization.** The release's Lean declaration `OAI.ErdosGallai.erdos_gallai`
+was built by the corpus's verification at the pinned revision, with the axioms
+`propext`, `Classical.choice` and `Quot.sound` only, as the accepted claim page
+records, and Coffey's claim page records the claimed Lean proof of `erdos_184`
+itself. On the site's side: statement only. The file
+[`ErdosProblems/184.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/184.lean)
+of formal-conjectures, at its commit of 2026-10-11, declares `erdos_184` under
+`category research solved` with proof `sorry`: there is a function $f=O(n)$ such
+that every finite simple graph has a decomposition into subgraphs, each a cycle
+or a single edge (`IsCycleOrEdge`: connected and $2$-regular, or with exactly
+one edge), with at most $f(|V|)$ parts. Until that commit `erdos_184` was
+`research open` with no `formal_proof` attribute; the commit cited the release's
+manuscript and added a `formal_proof` attribute linking the release's
+[`erdos_gallai`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/CycleDecomposition/Main.lean#L207)
+at the revision pinned on the claim page. The link is a catalog label: the
+release's `MainStatement`, over graphs on `Fin n` with at most $Cn$ classes,
+formalizes the question differently, and no Lean bridge between the two has been
+built, as the claim page records. The file carries five variants, all `sorry`
+and all under `research solved`: `n_log_n`, `lower_bound` (the graph $K_{3,n-3}$
+needs at least $(1+c)n$ parts), `bucic_montgomery`, `conlon_fox_sudakov`
+(minimum degree $\varepsilon n$ gives $O_\varepsilon(n)$ parts) and `covering`,
+which asks with `answer(True)` whether $n-1$ cycles and edges whose edge sets
+cover the graph always exist and cites Pyber [Py85]. Since 2026-10-08
+`lower_bound` carries a `formal_proof` link to a Lean proof outside the
+repository, not built here. At the file's
+[commit of 2026-09-17](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean),
+`covering` was `research open` with `answer(sorry)`, although Pyber proved it in
+1985 according to [BM22] and [CFS14]; the file has labeled it solved since 30
+September 2026. The community database (teorth/erdosproblems, read 2026-09-18)
+records the problem open (last changed 31 August 2025), the statement formalized
+since 16 March 2026 and no formal proof. Nothing was built.
 
 ## Current assessment
 
@@ -338,7 +347,12 @@ special class, not the general problem.
   [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
 - Jaehoon Kim's preprint *A proof of the Erdős–Gallai cycle decomposition
   conjecture* (arXiv:2610.07840, v1 6 October 2026, v2 9 October 2026)
-  proves $f(n)=O(n)$ as its Theorem 1.1 by a single procedure. The procedure
+  proves $f(n)=O(n)$ as its Theorem 1.1 by a single procedure. The preprint is
+  carded at
+  [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/_index|its card]],
+  with
+  [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/theorem_1_1|Theorem 1.1]]
+  and its two ingredients paged. The procedure
   records single edges at vertices of small degree and removes heavy cycles,
   those through many vertices of small degree, while a degree potential
   bounds how many it removes. In the remaining light graphs it finds a set
@@ -361,7 +375,7 @@ proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the community database record; formal-conjectures `184.lean` at
-  the pinned commit; the site's reference pages for the keys [Er76] and
+  its commit of 2026-09-17; the site's reference pages for the keys [Er76] and
   [Er83b] (their texts are not in the problem page).
 - arXiv: the API records of 2211.07689 (v2, final accepted version) and
   1310.0632 (v2 of 22 May 2014); the search `abs:"Gallai" AND abs:"cycles
@@ -397,8 +411,8 @@ the construction is Bucić and Montgomery's reading of it. (4) The 1966
 upper bound is
 asserted, not proved, in the paper; the argument is recorded from [CFS14].
 (5) The formal-conjectures `covering` variant was labeled open at the
-commit read on 2026-09-18 although Pyber's theorem answers it; on 2026-10-07
-the file at main labeled it solved, as recorded above.
+commit read on 2026-09-18 although Pyber's theorem answers it; the file has
+labeled it solved since 30 September 2026, as recorded above.
 
 **Proof claims on the site.** The site's proof-claim tab carried one claim,
 full: Ryan Coffey's paper and Lean formalization of
@@ -415,7 +429,8 @@ derived from the claim pages, not from the label.
   $C$, the problem's answer;
   [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|Coffey 2026]]
   (claimed): a second Lean-formalized proof of $f(n)=O(n)$;
-  [[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|Kim 2026, Theorem 1.1]]
+  [[problems/extremal_graph_theory/E0184/claims/2026_10_06_kim|Kim 2026]],
+  [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/theorem_1_1|Theorem 1.1]]
   (claimed; arXiv preprint): a third proof of $f(n)=O(n)$, by a different
   route and not formalized.
 - [[../library/extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/theorem_2|Bucić--Montgomery, Theorem 2]]
@@ -463,9 +478,14 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/erdos_1976_problems_results_combinatorial_analysis/conjecture_p15|erdos_1976_problems_results_combinatorial_analysis / conjecture_p15]]
 - [[../library/extremal_graph_theory/erdos_1983_some_my_conjectures_number_theory_combinatorics/_index|erdos_1983_some_my_conjectures_number_theory_combinatorics]]
 - [[../library/extremal_graph_theory/erdos_1983_some_my_conjectures_number_theory_combinatorics/conjecture_p15|erdos_1983_some_my_conjectures_number_theory_combinatorics / conjecture_p15]]
+- [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/_index|kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture]]
+- [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/theorem_1_1|kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture / theorem_1_1]]
+- [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/theorem_1_3|kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture / theorem_1_3]]
+- [[../library/extremal_graph_theory/kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture/theorem_1_4|kim_2026_proof_erdos_gallai_cycle_decomposition_conjecture / theorem_1_4]]
 - [[../library/extremal_graph_theory/openai_2026_linear_cycle_edge_decomposition_graph/_index|openai_2026_linear_cycle_edge_decomposition_graph]]
 - [[../library/extremal_graph_theory/openai_2026_linear_cycle_edge_decomposition_graph/corollary_1_2|openai_2026_linear_cycle_edge_decomposition_graph / corollary_1_2]]
 - [[../library/extremal_graph_theory/openai_2026_linear_cycle_edge_decomposition_graph/theorem_1_1|openai_2026_linear_cycle_edge_decomposition_graph / theorem_1_1]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]]
 
 <!-- END problem library links -->

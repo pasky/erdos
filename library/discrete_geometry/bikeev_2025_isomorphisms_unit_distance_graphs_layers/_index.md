@@ -50,7 +50,7 @@ for the layers R^2 x [0,epsilon]^d, and 10 <= chi(L(3,6,2,epsilon)) <= 15. For
 problem 508 the paper was archived from the citation sweep as structural
 theory of unit-distance strips; it yields no bound for the ordinary plane.
 
-Source: <https://arxiv.org/abs/2505.07799>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2505.07799v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2505.07799), every other right
 reserved.
 

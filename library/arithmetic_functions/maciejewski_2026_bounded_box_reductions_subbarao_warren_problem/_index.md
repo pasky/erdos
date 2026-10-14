@@ -48,7 +48,7 @@ elimination, a finite verified frontier, and a precise analytic target for the
 remaining obstruction." This is the May 2026 substantial-progress item
 recorded for problem 1052.
 
-Source: <https://arxiv.org/abs/2605.20475>.
+Source: <https://arxiv.org/abs/2605.20475v2>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1052/_index|#1052]]
 

@@ -16,7 +16,7 @@ evidence:
 - refereed
 submitted: null
 links:
-- url: https://arxiv.org/abs/1103.4508
+- url: https://arxiv.org/abs/1103.4508v1
   kind: preprint
   date: 2011-03-23
 - url: https://doi.org/10.1016/j.jnt.2012.07.015

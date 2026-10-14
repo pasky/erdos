@@ -56,7 +56,7 @@ size by a power of log N inside [-N,N]^2, though not by a constant; Kreisel and
 Kurz found seven such points in 2008 and no larger example is known. The paper
 says nothing on the chromatic number.
 
-Source: <https://arxiv.org/abs/2401.10821>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2401.10821v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2401.10821), every other right
 reserved.
 

@@ -74,7 +74,7 @@ Péter Csikvári and Zoltán Lóránt Nagy, “The density Turán problem,”
 *Combinatorics, Probability and Computing* 21(4) (2012), 531–553.
 [Cambridge record](https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/abs/density-turan-problem/D725238B2252805CBC01E3B62CDBB91E),
 [DOI](https://doi.org/10.1017/S0963548312000016), and
-[arXiv:1407.7873](https://arxiv.org/abs/1407.7873) (v1, 29 July 2014).
+[arXiv:1407.7873](https://arxiv.org/abs/1407.7873v1) (v1, 29 July 2014).
 The copy read for this card is the arXiv v1 posting; the Cambridge record
 gives the earlier journal publication and pagination.
 

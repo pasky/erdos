@@ -58,7 +58,7 @@ proof-claim pages had no comments or proof claims.
 - [Er92c] P. Erdős, *Some of my forgotten problems in number theory*,
   Hardy–Ramanujan Journal 15 (1992), 34–50. Original reference listed by the site.
 - [Bl21] T. F. Bloom, *On a density conjecture about unit fractions*,
-  [arXiv:2112.03726](https://arxiv.org/abs/2112.03726) (2021), v2 (2023),
+  [arXiv:2112.03726](https://arxiv.org/abs/2112.03726v2) (2021), v2 (2023),
   with Appendix B co-written by T. F. Bloom and B. Mehta;
   [JEMS 27 (2025), 4563–4589](https://ems.press/journals/jems/articles/14297980).
 - [LiSa24] Y. P. Liu and M. Sawhney, *On further questions regarding unit

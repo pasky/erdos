@@ -73,7 +73,7 @@ that problem's thread combines Proposition 1 with packing lemmas of its own in
 an argument that it says answers the question for every exponent above 1/4,
 and this card does not check that reduction.
 
-Source: <https://arxiv.org/abs/2503.12146>.
+Source: <https://arxiv.org/abs/2503.12146v1>.
 
 **Bears on.**
 [[../wiki/problems/divisors/E0886/_index|#886]]: Conjecture 1 is equivalent

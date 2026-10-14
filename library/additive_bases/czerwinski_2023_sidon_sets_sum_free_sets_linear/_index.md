@@ -41,7 +41,7 @@ examples show that a Sidon set need not extend to one of maximum size. Method
 in a phrase: additive combinatorics translated into binary coding theory, plus
 exhaustive computation in low dimensions.
 
-Source: <https://arxiv.org/abs/2304.07906>. The arXiv record
+Source: <https://arxiv.org/abs/2304.07906v3>. The arXiv record
 (https://arxiv.org/abs/2304.07906, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

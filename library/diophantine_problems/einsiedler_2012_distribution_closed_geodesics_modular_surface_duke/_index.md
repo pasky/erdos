@@ -82,7 +82,7 @@ discriminants; on p. 15 it derives from it the equidistribution of the scaled
 primitive triples |d|^{-1/2} R_disc(d) on the hyperboloid b^2 - 4ac = 1 in the
 ratio form of Skubenko's theorem.
 
-Source: <https://arxiv.org/abs/1109.0413>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1109.0413v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1109.0413), every other right
 reserved.
 

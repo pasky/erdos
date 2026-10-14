@@ -50,7 +50,7 @@ lower bound chi(R^2) >= 5 and a search method: 4-coloring CNF encodings, DRAT
 proof minimization, unsatisfiable-core graph trimming, and exact algebraic
 edge checking.
 
-Source: <https://arxiv.org/abs/1805.12181>.
+Source: <https://arxiv.org/abs/1805.12181v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 [[discrete_geometry/heule_2018_computing_small_unit_distance_graphs_chromatic/main_theorem|main result]]

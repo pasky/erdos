@@ -114,7 +114,7 @@ infinite black component; these are derived from Vardi's theorems, not proved
 anew, and they concern the random limit coloring, not the coprime set of Z^d
 itself.
 
-Source: <https://arxiv.org/abs/1804.06486>.
+Source: <https://arxiv.org/abs/1804.06486v2>.
 
 **Bears on.**
 

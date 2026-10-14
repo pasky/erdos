@@ -135,18 +135,20 @@ lower constant $0.03648\ldots$, which would answer Erdős's 1985 question in the
 negative; its upper half rests on [ErTe89].
 [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's golden-ratio bound]] (a
 Zenodo manuscript of 4 August 2026 prepared with Claude Fable 5 and GPT-5.6 Sol,
-posted 2026-08-05; no review is recorded) claims
-$g(k)\gg\varphi^k/\sqrt k$. A lower base $\varphi$ already follows from refereed
-work. Theorem 3 of Chevyrev, Searles and Slinko [ChSS13] gives, for every $k$, a
-comparative probability order on $k$ atoms, representable by positive integer
-weights, with $F_{k+1}$ flippable pairs. By their Definitions 4 and 5, each
-flippable pair is a pair of disjoint sets adjacent in the order. Choosing primes
-whose logarithms approximate a large multiple of the weights realizes the order
-as the divisor order of a squarefree $n$ with $\omega(n)=k$. These pairs are
-then coprime consecutive divisors, so $g(k)\ge F_{k+1}\gg\varphi^k$, as Korsky
-noted in the discussion thread on 30 July 2026. Thus
-$\liminf g(k)^{1/k}\ge\varphi$ and $\limsup g(k)^{1/k}\le3\cdot2^{-2/3}$, and
-Ross's $c\varphi^k/\sqrt k$ is weaker by a factor $\sqrt k$. The discussion
+posted 2026-08-05; no review is recorded) claims $g(k)\gg\varphi^k/\sqrt k$.
+This page derives a larger lower bound from refereed work. Theorem 3 of
+Chevyrev, Searles and Slinko [ChSS13] gives, for every $k$, a comparative
+probability order on $k$ atoms, representable by positive integer weights, with
+$F_{k+1}$ flippable pairs. By their Definitions 4 and 5, each flippable pair is
+a pair of disjoint sets adjacent in the order. Choosing primes whose logarithms
+approximate a large multiple of the weights realizes the order as the divisor
+order of a squarefree $n$ with $\omega(n)=k$. These pairs are then coprime
+consecutive divisors, so $g(k)\ge F_{k+1}\gg\varphi^k$, as Korsky noted in the
+discussion thread on 30 July 2026. Thus $\liminf g(k)^{1/k}\ge\varphi$ and
+$\limsup g(k)^{1/k}\le3\cdot2^{-2/3}$, and Ross's $c\varphi^k/\sqrt k$ lies
+below $F_{k+1}$ by a factor $\sqrt k$. The step from [ChSS13] to $g(k)$ is this
+page's own derivation and has not been reviewed, so $F_{k+1}$ is not an
+established bound and Ross's claim is not measured against it. The discussion
 thread also carries a claimed exact formula $g(k)=\binom{k}{2}+1$ (April 2026),
 refuted there by $n=2310$, which has $\tau_\perp(n)=12>11$, and a sharpening of
 the Erdős--Hall lower bound with an explicit exponent, with a Lean file produced

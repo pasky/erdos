@@ -14,7 +14,7 @@ submitted: null
 links:
 - url: https://geombina.uccs.edu/past-issues/volume-iv
   kind: record
-  date: 1995-01-01
+  date: 1995-01
 - url: https://www.erdosproblems.com/705
   kind: discussion
 created: 2026-10-07T20:00:46Z

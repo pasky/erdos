@@ -43,7 +43,7 @@ equivalent to f(p) > 0 for all p, so both parts give empirical evidence toward
 Problem 242 without proving it. Code is released at
 github.com/esc-paper/erdos-straus.
 
-Source: <https://arxiv.org/abs/2509.00128>.
+Source: <https://arxiv.org/abs/2509.00128v1>.
 
 The copy read for this card is arXiv:2509.00128v1 (29 August 2025, 4
 pages; the only version listed on 2026-09-18, with no journal reference);

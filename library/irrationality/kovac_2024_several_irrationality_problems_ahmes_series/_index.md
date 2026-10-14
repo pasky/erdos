@@ -51,7 +51,7 @@ subseries question (Problem 257) without settling it. Theorem 2.11 disproves a
 conjecture of Stolarsky (problem 266) by constructing a sequence for which sum
 1/(a_n + t) is rational for every rational t other than the poles.
 
-Source: <https://arxiv.org/abs/2406.17593>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2406.17593v4>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2406.17593), every other right
 reserved.
 

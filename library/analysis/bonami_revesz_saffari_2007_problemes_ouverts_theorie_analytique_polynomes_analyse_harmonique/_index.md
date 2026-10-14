@@ -48,7 +48,8 @@ ouverts: Théorie analytique des polynômes et analyse harmonique," Institut Hen
 Poincaré working group, 2006–2007. The copy read for this card is the working
 group's 21-page problem collection, which prints no copyright or license
 statement on pp. 1--2 or 20--21; no host or download location is recorded, so
-there is no page to consult, and the term is unstated.
+there is no page to consult, and the term is unstated. The copy's retrieval date
+was not recorded.
 
 **Reading.** The card's digest was checked clause by clause against the
 printed pages, from which the result pages below take their labels and pages.

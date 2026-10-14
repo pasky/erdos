@@ -63,7 +63,7 @@ $i=0,\ldots,k-1$. Classical results quoted include Sylvester's theorem,
 Laishram and Shorey's $P(n,k)>1.8k$ for $n>k$ with an explicit exception list,
 and Nair and Shorey's $P(n,k)>4.42k$ for $n>4k$ (p. 3).
 
-Source: <https://arxiv.org/abs/1612.05438>.
+Source: <https://arxiv.org/abs/1612.05438v1>.
 
 Read status: claims checked for Theorems 3.1, 6.1, 8.1, 8.2 and 9.1, Lemmas
 3.1 and 8.1, Conjectures 8.1 and 9.1, and the quoted bounds of Section 3, read

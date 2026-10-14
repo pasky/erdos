@@ -56,10 +56,10 @@ difference set has t_n = o(n^3), where t_n is the smaller member of the
 unique representation of n as a difference, and notes that Lev's greedy set
 has t_n << n^3.
 
-Source: <https://arxiv.org/abs/math/0609244>. The copy read for this card is the
-arXiv preprint (v1, 8 September 2006). The arXiv record carries no
-license field, so arXiv's assumed license applies (arXiv:math/0609244), every
-other right reserved.
+Source: <https://arxiv.org/abs/math/0609244v1>. The copy read for this card is
+the arXiv preprint (v1, 8 September 2006). The arXiv record carries no license
+field, so arXiv's assumed license applies (arXiv:math/0609244), every other
+right reserved.
 
 **Results.** Labels and pages are those of the arXiv preprint named above.
 

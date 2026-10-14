@@ -82,7 +82,7 @@ no such constant exists. Theorem 5 shows that for an odd prime d the least y_k
 with none of y_k + j^d (1 <= j <= k) a sum of two squares satisfies limsup
 k/log y_k >> 1/sqrt(log d), and > 1/(60 sqrt(log d)) for d >= 17.
 
-Source: <https://arxiv.org/abs/1810.03203>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1810.03203v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1810.03203), every other right
 reserved.
 

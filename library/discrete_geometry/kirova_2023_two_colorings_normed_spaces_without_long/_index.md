@@ -53,7 +53,7 @@ built from 'snake hypersurfaces' (Sections 2.2 and 3, pp. 4-12) plus a
 classification of max-norm isometric copies of batons (Lemma 1, p. 3, which the
 paper notes appeared earlier in its reference [10]).
 
-Source: <https://arxiv.org/abs/2203.04555>.
+Source: <https://arxiv.org/abs/2203.04555v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|#188]]: for the
 Euclidean plane, Corollary 1 gives a two-coloring in which all sufficiently long

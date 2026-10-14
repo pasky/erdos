@@ -66,7 +66,7 @@ to which Theorem 1 applies (p. 3), and f(t) = t^alpha with alpha > 0 not an
 integer meets (A) and (B) with j = ceil(alpha); the introduction credits this
 case to Lambek and Moser and to Delmer and Deshouillers.
 
-Source: <https://arxiv.org/abs/1611.08044>. The copy read for this card is the
+Source: <https://arxiv.org/abs/1611.08044v2>. The copy read for this card is the
 arXiv preprint arXiv:1611.08044v2 (20 May 2017), whose title page carries the
 date October 3, 2018; the pages cited on this card and its result pages are
 the preprint's, numbered 1 to 26. The arXiv record names arXiv's

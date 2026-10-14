@@ -24,8 +24,9 @@ cycle of length l with at least Omega(l / log^c l) chords.
 
 ***
 
-The copy read for this card is arXiv:2601.08769v1 (13 January 2026), 13 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:2601.08769v1](https://arxiv.org/abs/2601.08769v1) (13 January 2026), 13
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2601.08769), every other right reserved.
 
 Nemanja Draganić, António Girão, "Cycles with almost linearly many chords,"

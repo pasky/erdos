@@ -68,7 +68,7 @@ A union B != [n] (Definition 2; the abstract's phrasing 1 <= |A intersect B|
 only the weaker |F| <= |B|/2 for an intersecting F inside a down-set B
 (Theorem 3).
 
-Source: <https://arxiv.org/abs/2201.03865>.
+Source: <https://arxiv.org/abs/2201.03865v1>.
 
 **Results.**
 

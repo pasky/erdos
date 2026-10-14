@@ -49,7 +49,7 @@ asymptotically. Furedi, Reimer and Seress's lower bound
 divisibility-free two-player game where one player prolongs and the other
 shortens the play, cite the paper for its upper bound on the graph game.
 
-Source: <https://arxiv.org/abs/1409.8141>. The copy read for this card is
+Source: <https://arxiv.org/abs/1409.8141v1>. The copy read for this card is
 arXiv:1409.8141v1 (29 September 2014), 13 pages; the page numbers above are
 that preprint's. The arXiv record names arXiv's non-exclusive distribution
 license (arXiv:1409.8141), every other right reserved.

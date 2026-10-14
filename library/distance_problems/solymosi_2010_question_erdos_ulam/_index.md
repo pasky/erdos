@@ -62,7 +62,7 @@ paper does not draw this out) that a dense rational set would meet every real
 algebraic curve in only finitely many points; the paper does not settle the
 problem.
 
-Source: <https://arxiv.org/abs/0806.3095>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/0806.3095v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:0806.3095), every other right
 reserved.
 

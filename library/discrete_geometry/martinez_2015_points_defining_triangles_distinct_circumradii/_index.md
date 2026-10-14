@@ -56,7 +56,7 @@ proof that n_k is finite, with the polynomial upper bound n_k = O(k^9); since
 its general position condition is weaker than Erdős's, the bound also holds for
 n_k defined with Erdős's condition.
 
-Source: <https://arxiv.org/abs/1402.6276>.
+Source: <https://arxiv.org/abs/1402.6276v1>.
 
 **Read status.** Claims checked: Theorems 1.1 and 1.2 and Lemma 4.1 were
 read clause by clause on the printed pages of arXiv:1402.6276v1, and

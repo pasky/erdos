@@ -37,7 +37,7 @@ to infinity, Theorem 1.1 bounds omega(n+k) by C log k for infinitely many n,
 a log log k factor above the scale log k / log log k at which F(n) is
 measured; it neither proves nor refutes that F(n) tends to infinity.
 
-Source: <https://arxiv.org/abs/2604.15042>.
+Source: <https://arxiv.org/abs/2604.15042v2>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0248/_index|#248]],
 [[../wiki/problems/arithmetic_functions/E0413/_index|#413]] (Corollary 1.4, a

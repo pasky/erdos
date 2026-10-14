@@ -101,7 +101,7 @@ that its proof does the same over the algebraic integers.  This rules out
 treating the paper's real counterexample itself as progress on the integer
 statement.
 
-Source: <https://arxiv.org/abs/2606.24583>.
+Source: <https://arxiv.org/abs/2606.24583v2>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0052/_index|#52]]
 

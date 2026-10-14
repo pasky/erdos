@@ -71,7 +71,7 @@ proofs of Lemmas 3 and 4 and Theorem 1 were read, the description of the
 Voronoi cells as equal hexagons (p. 9) was not checked, and the computations
 were not rerun. Nothing here is independently reviewed.
 
-Source: <https://arxiv.org/abs/2411.13248>.
+Source: <https://arxiv.org/abs/2411.13248v2>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E1070/_index|#1070]]:
 Theorem 1 and Lemma 3 give lower bounds on m_1(R^2), which bound f(n)/n from

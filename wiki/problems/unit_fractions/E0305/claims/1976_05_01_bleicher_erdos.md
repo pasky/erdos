@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/0022-314X(76)90098-6
   kind: paper
-  date: 1976-05-01
+  date: 1976-05
 created: 2026-10-07T21:33:46Z
 updated: 2026-10-07T21:33:46Z
 ---

@@ -66,7 +66,7 @@ the unit square contain a triangle of area at most n^{-7/6+o(1)}, which
 improves the authors' earlier n^{-8/7-1/2000} and, in the abstract's words,
 "attains the high-low limit established in our previous work".
 
-Source: <https://arxiv.org/abs/2409.07658>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2409.07658v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2409.07658), every other right
 reserved.
 

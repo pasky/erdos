@@ -35,7 +35,7 @@ h - 1, since every B_h set is a B_{h-1} set. For problem 158 the review note
 records that the paper treats unique B_h sets, not bounded-multiplicity B_2[2]
 sets, and constructs no dense one.
 
-Source: <https://arxiv.org/abs/2607.23795>.
+Source: <https://arxiv.org/abs/2607.23795v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 

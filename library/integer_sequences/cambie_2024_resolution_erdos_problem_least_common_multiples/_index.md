@@ -48,7 +48,7 @@ lcm{48,...,56}, and states Conjecture 2, a stronger version in which the larger
 set has C extra elements, which the author reduces (Subsection 2.1) to a density
 statement for Chinese-remainder solutions, formulated as Question 3.
 
-Source: <https://arxiv.org/abs/2410.09138>.
+Source: <https://arxiv.org/abs/2410.09138v1>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0678/_index|#678]]: Theorem 1 with the
 substitution n = x-1, m = y-1 is the site's statement M(n,k) > M(m,k+1) with

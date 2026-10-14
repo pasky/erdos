@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1073/pnas.78.7.4001
   kind: paper
-  date: 1981-07-01
+  date: 1981-07
 - url: https://doi.org/10.1016/B978-0-444-86893-0.50016-4
   kind: paper
 - url: https://github.com/plby/lean-proofs/blob/1268917deaaaa0d674f651287027baa26cea9920/src/latest/ErdosProblems/Erdos480.lean

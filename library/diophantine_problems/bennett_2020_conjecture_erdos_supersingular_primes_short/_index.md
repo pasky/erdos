@@ -54,7 +54,7 @@ For [[../wiki/problems/diophantine_problems/E0672/_index|Problem 672]], this is
 an effective prime-exponent bound and finiteness for each fixed sufficiently
 large $k$, not a resolution of the nonexistence conjecture.
 
-Source: <https://arxiv.org/abs/1709.01022>.
+Source: <https://arxiv.org/abs/1709.01022v1>.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0672/_index|#672]]:
 for each length $k\geq k_0$, Theorem 2 excludes a coprime positive progression

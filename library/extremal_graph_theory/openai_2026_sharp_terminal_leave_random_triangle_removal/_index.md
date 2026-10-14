@@ -7,12 +7,15 @@ desc: |
   continuation after a Joos-Kuhn prefix; bears on 1155.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:49:59Z
+updated: 2026-10-14T00:32:35Z
 ---
 
 # extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal
 
 [[extremal_graph_theory/_index|..]]
+
+[[extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/evidence/_index|evidence/]]: Retains the build receipt of the release's Lean proof of the sharp terminal
+leave, on which Problem 1155's claim page accepts the declaration.
 
 [[extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|theorem_1_1]]: The claimed sharp terminal leave of uniform random triangle removal from the
 complete graph: the edge count at termination over n^(3/2) converges in L^2,
@@ -75,7 +78,10 @@ identity once no triangle remains), takes the terminal law to be $\binom n2$
 iterations of that step from the complete graph, and defines the normalized
 leave as the edge count divided by $n^{3/2}$ and the constant as
 $1/(2\sqrt2)$. This card read all of this statically from the release's
-catalog. The declaration was also built and its statement audited against the
+catalog. The corpus's verification of 2026-10-14 also built the declaration
+and printed its axioms, as the
+[[extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/evidence/verify/lean_build|build receipt]]
+filed under this card records, and its statement was audited against the
 problem, as the
 [[../wiki/problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|Problem 1155 claim page]]
 records; no fidelity between the comparator statement and Theorem 1.1 is

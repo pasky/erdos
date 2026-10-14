@@ -58,7 +58,7 @@ unit pair has a blue copy of each four-point configuration, which settles
 problem 214, and Csizmadia and Toth's eight-point configuration for which
 this fails; the paper proves nothing new for problem 214.
 
-Source: <https://arxiv.org/abs/2404.19233>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2404.19233v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2404.19233), every other right
 reserved.
 

@@ -51,8 +51,9 @@ version of this paper.
 **Copy read.** The copy read for this card is arXiv:2008.05311v2 (14 August
 2020), 37 pages (the text and references on pp. 1--31, Appendices A and B on
 pp. 31--37) with a text layer; its page numbers are the preprint's. Source:
-<https://arxiv.org/abs/2008.05311>. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2008.05311), every other right reserved.
+<https://arxiv.org/abs/2008.05311v2>. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2008.05311), every other right
+reserved.
 
 Read status: claims checked for Conjecture 1.1 with its footnote (p. 1),
 Theorems 1.2 and 1.3 (p. 2), Theorem 2.3 with its footnote 2 (p. 4), Lemma

@@ -10,7 +10,7 @@ authors:
 - M. A. Didin
 - Mark Pimenov
 status: accepted
-claim: proved
+claim: decidable
 scope: partial
 evidence:
 - reviewed

@@ -65,7 +65,7 @@ finite subgraph represented in X and is never produced as a triangle-free
 subgraph of X, so it does not bear on that problem's existential-lambda
 quantifier.
 
-Source: <https://arxiv.org/abs/math/0212064>.
+Source: <https://arxiv.org/abs/math/0212064v1>.
 
 Read status: claims checked for Theorems 1 to 4 and Lemmas 4 to 11, read
 clause by clause on the page images of the arXiv print; the proof of

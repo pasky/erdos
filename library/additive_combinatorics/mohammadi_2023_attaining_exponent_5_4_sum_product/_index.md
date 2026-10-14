@@ -39,7 +39,7 @@ of their Lemma 1, but they do not optimize it. This bears on problem 52, the
 Erdos-Szemeredi sum-product problem, by supplying the best finite-field exponent
 of its time for small sets.
 
-Source: <https://arxiv.org/abs/2103.08252>.
+Source: <https://arxiv.org/abs/2103.08252v3>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0052/_index|#52]]
 

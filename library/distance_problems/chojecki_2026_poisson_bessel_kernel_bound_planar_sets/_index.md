@@ -74,7 +74,8 @@ $N(Y,\delta)>Y^{1/2-\delta^{1/7}}$ for every sufficiently small fixed
 $\delta>0$ and all sufficiently large $Y$, thickened by disks of radius
 $\delta/3$.
 
-Source: <https://www.ulam.ai/research/erdos953.pdf>.
+Source: <https://www.ulam.ai/research/erdos953.pdf>. The copy's retrieval date
+was not recorded.
 
 Read status: claims checked for Theorems 1.1 and 1.2, Proposition 2.1,
 Remark 2.2, Lemma 3.1 and Proposition 4.2, read clause by clause on the page

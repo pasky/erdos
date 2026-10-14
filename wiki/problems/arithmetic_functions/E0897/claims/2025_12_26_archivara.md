@@ -6,7 +6,8 @@ desc: |
   explicit additive function that answers both questions no. The site's thread
   reads it as a rediscovery of Wirsing's construction, and it was later
   formalized in Lean.
-authors: []
+authors:
+- Archivara Math Research Agent
 status: accepted
 claim: disproved
 scope: full

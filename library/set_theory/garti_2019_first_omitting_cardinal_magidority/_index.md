@@ -92,7 +92,7 @@ for structure only, and nothing here is independently reviewed.
   (p. 16): from an I1 cardinal lambda one can force alpha_M(lambda) = mu^+
   with mu singular of uncountable cofinality.
 
-Source: <https://arxiv.org/abs/1801.00239>.
+Source: <https://arxiv.org/abs/1801.00239v3>.
 
 **Bears on.** [[../wiki/problems/set_theory/E0598/_index|#598]]: the paper
 does not mention the problem. The introduction (p. 2) recalls, as a theorem

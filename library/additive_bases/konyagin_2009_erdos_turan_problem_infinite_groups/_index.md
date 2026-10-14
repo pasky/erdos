@@ -58,7 +58,7 @@ from which every finite cyclic group easily gets a basis with representation
 function at most a constant not depending on the group's order, together with
 the Haddad-Helou and Nathanson group-side state of the art.
 
-Source: <https://arxiv.org/abs/0901.1649>.
+Source: <https://arxiv.org/abs/0901.1649v1>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E1192/_index|#1192]]: the
 problem asks for bases of the natural numbers of each order r with mean-square

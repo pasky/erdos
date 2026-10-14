@@ -59,7 +59,7 @@ conjecture on p. 2 and the problem on p. 3, read clause by clause on the page
 images of the preprint; Sections 7 to 9 followed for structure. Nothing here
 is independently reviewed.
 
-Source: <https://arxiv.org/abs/1906.06657>.
+Source: <https://arxiv.org/abs/1906.06657v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0713/_index|#713]]:
 context only. The problem asks whether every bipartite graph G has

@@ -72,6 +72,8 @@ _INDEX = '_index.md'
 #: a claim page is named by its date, underscored as every page name is, and its claimant
 _CLAIM_NAME = re.compile(r'(\d{4})_(\d{2})_(\d{2})_([a-z0-9][a-z0-9_]*)\.md')
 _DATE = re.compile(r'\d{4}-\d{2}-\d{2}')
+#: a date known only to its month or year: no day or month is invented
+_COARSE_DATE = re.compile(r'\d{4}(?:-(?:0[1-9]|1[0-2]))?')
 _URL = re.compile(r'https?://\S+')
 _WIKILINK = re.compile(r'\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]')
 _LABEL = re.compile(r'^ {0,3}\*\*(Covers|Depends on)\.\*\*(?=\s|$)', flags=re.M)
@@ -96,9 +98,8 @@ def lint_problem_claims(
     claim page keeps its provisional ``status`` and ``claim`` and is counted
     in the notes unless they are ``open`` and ``none``; with ``settled``, the
     release mode, it is a finding. A claim page without ``authors`` is counted
-    in the same way and is a finding with ``settled``; a claim of this
-    corpus's own (a ``*_corpus`` page) has no publication and lists none. ``select``
-    narrows the check to the problem folders named (by folder name), a scoped
+    in the same way and is a finding with ``settled``. ``select`` narrows
+    the check to the problem folders named (by folder name), a scoped
     check for a batch; a name matching no folder is a finding. A dependence
     on a library result page is a note naming the page's read status; it
     never enters the derivation. Nothing here assesses the mathematics or
@@ -150,9 +151,8 @@ def lint_problem_claims(
                 findings.append(f'{page_relative}: {error}')
                 continue
             findings.extend(f'{page_relative}: {issue}' for issue in issues)
-            # a claim page without its authors is counted, and a finding when settled;
-            # a claim of this corpus's own has no publication and lists none
-            if 'authors' not in claim and not page.stem.endswith('_corpus'):
+            # a claim page without its authors is counted, and a finding when settled
+            if 'authors' not in claim:
                 authorless += 1
                 if settled:
                     findings.append(
@@ -640,8 +640,11 @@ def _link_issues(link: Any) -> list[str]:
         issues.append('url must be an http(s) URL')
     if link.get('kind') not in LINK_KINDS:
         issues.append('kind must be one of ' + ', '.join(LINK_KINDS))
-    if 'date' in link and not _calendar_date(link['date']):
-        issues.append('date must be a calendar date YYYY-MM-DD')
+    if 'date' in link and not _known_date(link['date']):
+        issues.append(
+            'date must be a calendar date YYYY-MM-DD, or YYYY-MM or YYYY'
+            ' when only the month or the year is known'
+        )
     if set(keys) - {'url', 'kind', 'date'}:
         issues.append('carries keys other than url, kind, date')
     return issues
@@ -776,6 +779,21 @@ def _visible(text: str) -> str:
             continue
         result.append(line)
     return ''.join(result)
+
+
+def _known_date(value: Any) -> bool:
+    """Return whether a value is a date to the precision known.
+
+    That is a calendar date ``YYYY-MM-DD``, or ``YYYY-MM`` or ``YYYY`` when only the
+    month or the year is known; YAML reads a bare year as an integer.
+    """
+    if isinstance(value, bool):
+        return False
+    if isinstance(value, int):
+        return 1000 <= value <= 9999
+    if isinstance(value, str) and _COARSE_DATE.fullmatch(value):
+        return True
+    return _calendar_date(value)
 
 
 def _calendar_date(value: Any) -> bool:

@@ -48,7 +48,7 @@ $k+1$ points. The even case gives the constant $2\log(3k+6)$ (p. 8) and the odd
 case $2\log(4k+9)$ (p. 11). Each counted $k$-tuple is a $k$-term arithmetic
 progression (p. 3).
 
-Source: <https://arxiv.org/abs/1107.0327>.
+Source: <https://arxiv.org/abs/1107.0327v3>.
 
 **Results.** Labels and pages are the preprint's. The statement was read
 clause by clause against the print (claims checked); the proof was followed in

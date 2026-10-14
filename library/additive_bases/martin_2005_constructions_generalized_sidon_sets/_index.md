@@ -72,7 +72,7 @@ problems, among them whether R(g,n)/sqrt(n) converges for g other than 2 and 3,
 and the construction of sets with ||S*S||_infinity = 4 that are not the union
 of two Sidon sets.
 
-Source: <https://arxiv.org/abs/math/0408081>.
+Source: <https://arxiv.org/abs/math/0408081v2>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: the
 problem's sets are those with ||S*S||_infinity <= 4; Theorem 3 gives, for every

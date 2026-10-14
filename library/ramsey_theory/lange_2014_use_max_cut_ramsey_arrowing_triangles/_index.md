@@ -51,7 +51,7 @@ and the lower bound 19 <= F_e(3,3;4), to this paper's 786 and Graham's 2012
 prize offer for deciding whether F_e(3,3;4) < 100. For problem 582 this
 supplies the upper bound 786 on the order of the smallest such graph.
 
-Source: <https://arxiv.org/abs/1207.3750>.
+Source: <https://arxiv.org/abs/1207.3750v2>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0582/_index|#582]]: Theorems 2
 and 3 each exhibit a $K_4$-free graph with a monochromatic triangle in every

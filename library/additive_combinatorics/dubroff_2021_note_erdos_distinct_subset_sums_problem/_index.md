@@ -209,7 +209,7 @@ integrality after a dissociated subset has already been selected. Problem 963
 ranges over every $N$-element set of reals, so a lower bound for $f(N)$ must
 produce a large dissociated subset uniformly for all such sets.
 
-Source: <https://arxiv.org/abs/2006.12988>.
+Source: <https://arxiv.org/abs/2006.12988v2>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0001/_index|#1]]: the problem
 page's pre-disproof lower bound $N\ge\binom n{\lfloor n/2\rfloor}$ is the

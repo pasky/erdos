@@ -69,7 +69,7 @@ infinite sequence with $\log m_{i+1}/\log m_i\to1$
 ([[arithmetic_functions/lichtman_2022_primes_arithmetic_progressions_large_moduli_shifted/corollary_1_3|Corollary 1.3]]), by the method of Erdős and
 Pomerance.
 
-Source: <https://arxiv.org/abs/2211.09641>.
+Source: <https://arxiv.org/abs/2211.09641v1>.
 
 **Read status.** Claims checked: Theorems 1.1 and 1.4, display (1.3) and
 Corollaries 1.2 and 1.3 were read clause by clause on the page images of

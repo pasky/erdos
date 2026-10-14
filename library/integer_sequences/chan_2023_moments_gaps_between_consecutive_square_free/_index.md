@@ -38,7 +38,7 @@ pp., the only arXiv version; its title spells "squarefree"); page and theorem
 numbers on this card are those of that copy, Theorem 1 on p. 2. The journal
 version above, also cited on Problem 145, was not read or compared with it.
 
-Source: <https://arxiv.org/abs/2310.08448>. The arXiv record
+Source: <https://arxiv.org/abs/2310.08448v1>. The arXiv record
 (https://arxiv.org/abs/2310.08448, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

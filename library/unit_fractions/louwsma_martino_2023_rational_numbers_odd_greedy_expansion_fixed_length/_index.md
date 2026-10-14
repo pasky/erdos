@@ -47,9 +47,10 @@ rationals whose odd greedy expansion has length m and begins with that list.
 
 ***
 
-The copy read for this card is arXiv:2309.07280v1 (13 September 2023), 21
-pages. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:2309.07280), every other right reserved.
+The copy read for this card is
+[arXiv:2309.07280v1](https://arxiv.org/abs/2309.07280v1) (13 September 2023), 21
+pages. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2309.07280), every other right reserved.
 
 Joel Louwsma, Joseph Martino, "Rational numbers with odd greedy expansion of
 fixed length," arXiv:2309.07280 (2023).

@@ -15,7 +15,7 @@ settles:
 - vanishes_at_diameter_one
 submitted: 2026-09-09
 links:
-- url: https://arxiv.org/abs/2609.06050
+- url: https://arxiv.org/abs/2609.06050v1
   kind: preprint
   date: 2026-09-05
 - url: https://www.erdosproblems.com/forum/thread/1040/proof-claims#proof-claim-292

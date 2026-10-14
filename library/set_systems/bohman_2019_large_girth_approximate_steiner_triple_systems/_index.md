@@ -46,7 +46,7 @@ Glock, Kuhn, Lo and Osthus. Erdos's exact question, Steiner triple systems of
 girth greater than l for all large n = 1, 3 mod 6 (Question 1.1, p. 1), is
 left open; the paper says it remains largely open.
 
-Source: <https://arxiv.org/abs/1808.01065>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1808.01065v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1808.01065), every other right
 reserved. The copy read for this card is arXiv:1808.01065v2 (posted 5 June
 2019; the manuscript is dated July 31, 2018, revised January 2, 2019); the

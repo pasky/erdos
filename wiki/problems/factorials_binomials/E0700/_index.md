@@ -56,7 +56,7 @@ the claim pages. The site credits GPT 5.6 Sol Pro, prompted by Price, with a
 positive answer to the second question (page edited 28 August 2026). The answer
 gives infinitely many products of three primes with $f(n)\sim n^{2/3}$. See the
 [[problems/factorials_binomials/E0700/claims/2026_07_27_price|Price claim page]],
-a pending partial claim.
+an accepted partial claim.
 
 **Source.** [erdosproblems.com/700](https://www.erdosproblems.com/700), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #700,

@@ -66,7 +66,7 @@ the mean value of $\varphi$, and the limiting distribution of
 $\varphi(k)/k$. Pages and labels are those of arXiv v1; the proofs are in
 Sections 2 to 5 (pp. 3--21).
 
-Source: <https://arxiv.org/abs/2306.16035>.
+Source: <https://arxiv.org/abs/2306.16035v1>.
 
 Read status: claims checked for Theorems 1.1 to 1.4 and the totient
 application of Theorem 1.3, read clause by clause on the print; the proofs

@@ -23,6 +23,7 @@ __all__ = [
     'test_a_claim_page_without_authors_is_debt_until_settled',
     'test_an_empty_authors_list_records_an_unknown_name',
     'test_a_null_submitted_records_an_unknown_date',
+    'test_a_link_date_gives_only_what_is_known',
     'test_an_accepted_claim_rests_only_on_accepted_pages',
     'test_a_dependence_on_a_library_result_page_is_noted_with_its_read_status',
     'test_write_derived_sets_the_two_standing_lines_only',
@@ -238,6 +239,12 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
         ),
         (
             _replace(_CLAIM, '  date:', '  date: 2026-01-02T00:00:00Z'),
+            _BODY,
+            None,
+            'date must be a calendar date',
+        ),
+        (
+            _replace(_CLAIM, '  date:', '  date: 1936-13'),
             _BODY,
             None,
             'date must be a calendar date',
@@ -610,29 +617,22 @@ def test_a_provisional_standing_without_claims_is_debt_until_settled(
     ]
 
 
+# an outside claimant's page, and the project's own, which lists the project
+@pytest.mark.parametrize('name', ['2026_01_02_claimant.md', '2026_01_02_corpus.md'])
 def test_a_claim_page_without_authors_is_debt_until_settled(
-    tmp_path: pathlib.Path,
+    tmp_path: pathlib.Path, name: str
 ) -> None:
     """A claim page without authors is counted as debt; settled mode fails it."""
     _problem(tmp_path)
-    _claim(tmp_path, frontmatter=_without(_CLAIM, *_AUTHORS))
+    _claim(tmp_path, name, frontmatter=_without(_CLAIM, *_AUTHORS))
     findings, notes = lint_problem_claims(tmp_path)
     assert findings == []
     assert notes[0].endswith('; 1 claim page(s) without authors')
     findings, _ = lint_problem_claims(tmp_path, settled=True)
     assert findings == [
-        'wiki/problems/alpha/p1/claims/2026_01_02_claimant.md: missing authors'
+        f'wiki/problems/alpha/p1/claims/{name}: missing authors'
         " (a list of the publication's authors as printed)"
     ]
-
-
-def test_a_claim_of_the_corpus_lists_no_authors(tmp_path: pathlib.Path) -> None:
-    """The corpus's own claim has no publication, so it is no debt even when settled."""
-    _problem(tmp_path)
-    _claim(tmp_path, '2026_01_02_corpus.md', frontmatter=_without(_CLAIM, *_AUTHORS))
-    findings, notes = lint_problem_claims(tmp_path, settled=True)
-    assert findings == []
-    assert notes[0].endswith('; 0 claim page(s) without authors')
 
 
 def test_an_empty_authors_list_records_an_unknown_name(tmp_path: pathlib.Path) -> None:
@@ -653,6 +653,17 @@ def test_a_null_submitted_records_an_unknown_date(tmp_path: pathlib.Path) -> Non
     """A claim never submitted to the catalog's site or registry carries submitted: null."""
     _problem(tmp_path)
     _claim(tmp_path, frontmatter=_replace(_CLAIM, 'submitted:', 'submitted: null'))
+    findings, _ = lint_problem_claims(tmp_path, settled=True)
+    assert findings == []
+
+
+@pytest.mark.parametrize('date', ['1936-04', '1936'])
+def test_a_link_date_gives_only_what_is_known(
+    tmp_path: pathlib.Path, date: str
+) -> None:
+    """A posting known only to its month or year is dated by just that, no day invented."""
+    _problem(tmp_path)
+    _claim(tmp_path, frontmatter=_replace(_CLAIM, '  date:', f'  date: {date}'))
     findings, _ = lint_problem_claims(tmp_path, settled=True)
     assert findings == []
 

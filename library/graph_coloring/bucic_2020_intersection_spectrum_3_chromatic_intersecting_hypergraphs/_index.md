@@ -25,17 +25,17 @@ Society **124** (5) (2022), 680–690,
 publication record gives 10 March 2022 as the first-publication date and lists
 an 8 April 2022 funding-statement correction.
 
-The copy read for this card is the arXiv v2 PDF, arXiv:2010.00495v2, dated
-26 October 2020: nine physical pages, 169,612 bytes, with the version label
-printed on physical p. 1. The definition and Theorem 2 were checked on
-physical pp. 1–3, and the concluding limitation was checked on physical p. 8.
-The journal citation establishes the published work's identity, but no journal
-PDF was retained or compared line by line.
-Result locators and statements on these pages therefore refer specifically to
-arXiv v2. The funding-statement correction is recorded as publication history;
-no theorem or proof change is inferred from it. The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:2010.00495), every other right
-reserved.
+The copy read for this card is the arXiv v2 PDF,
+[arXiv:2010.00495v2](https://arxiv.org/abs/2010.00495v2), dated 26 October 2020:
+nine physical pages, 169,612 bytes, with the version label printed on physical
+p. 1. The definition and Theorem 2 were checked on physical pp. 1–3, and the
+concluding limitation was checked on physical p. 8. The journal citation
+establishes the published work's identity, but no journal PDF was retained or
+compared line by line. Result locators and statements on these pages therefore
+refer specifically to arXiv v2. The funding-statement correction is recorded as
+publication history; no theorem or proof change is inferred from it. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2010.00495),
+every other right reserved.
 
 The stable folder slug follows the source's 2020 arXiv identity; the citation
 above separately records the 2022 publication year.

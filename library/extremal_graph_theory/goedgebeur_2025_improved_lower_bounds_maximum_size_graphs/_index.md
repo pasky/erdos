@@ -64,7 +64,7 @@ on problem 573 without resolving the asymptotic constant. The PDF identifies
 Goedgebeur, Jooken, Joret and Van den Eede as its authors; it is not a paper by
 Lazebnik et al.
 
-Source: <https://arxiv.org/abs/2508.05562>.
+Source: <https://arxiv.org/abs/2508.05562v1>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: Table 1 (p. 4)
 gives the paper's computed lower bounds on ex(n;{C_3,C_4}) for 50 <= n <= 198

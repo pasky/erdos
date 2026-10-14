@@ -32,20 +32,20 @@ $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$
 (Theorem 1.1) and sums that bound over dyadic intervals (Corollary 1.2). The
 release's Lean proves the yes answer from a weaker bound,
 $r_k(N)\le CN\exp(-c(\log\log N)^{1+\eta})$. The curator's post
-[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) makes the same observation: the comparator challenge states
 only the reciprocal-sum question, and the Lean appears to prove only the weaker
 bound. The release's model file states that bound as its
-`QuantitativeDensityBound`, which matches the bound above. This corpus built
-the reciprocal-sum declaration, checked its axioms and found it identical to the
+`QuantitativeDensityBound`, which matches the bound above. This corpus built the
+reciprocal-sum declaration, checked its axioms and found it identical to the
 release's comparator challenge. So the result is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]].
 Theorem 1.1's bound is not formalized. It is recorded on
 [[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|Problem 139's claim page]].
 It bears on [[problems/additive_combinatorics/E0142/_index|Problem 142]] as an
 improved upper bound but settles no instance of it, so it has no claim page
-there.
-The case $k=3$, proved by Bloom and Sisask, is a claimed partial result on
+there. The case $k=3$, proved by Bloom and Sisask, is a claimed partial result
+on
 [[problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask|its own claim page]].
 The case where $A$ is the set of primes, proved by Green and Tao, is an accepted
 partial result on
@@ -172,6 +172,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/distance_problems/erdos_1983_combinatorial_problems_geometry/conjecture_p44|erdos_1983_combinatorial_problems_geometry / conjecture_p44]]
 - [[../library/distance_problems/graham_2004_euclidean_ramsey_theory/_index|graham_2004_euclidean_ramsey_theory]]
 - [[../library/distance_problems/graham_2004_euclidean_ramsey_theory/conjecture_11_5_6|graham_2004_euclidean_ramsey_theory / conjecture_11_5_6]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]
 - [[../library/ramsey_theory/erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk/_index|erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk]]
 - [[../library/ramsey_theory/erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk/conjecture_p156|erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk / conjecture_p156]]

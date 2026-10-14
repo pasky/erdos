@@ -66,7 +66,7 @@ E(Z_3) = {lambda : (2^n lambda)_3 omits the digit 2 for infinitely many n},
 whose conjectured value is 0 (Conjecture 1.2) with the known bound 1/2; the weak
 form of Erdős's conjecture is equivalent to 1 not lying in E(Z_3).
 
-Source: <https://arxiv.org/abs/1308.3133>.
+Source: <https://arxiv.org/abs/1308.3133v1>.
 
 Read status: claims checked for Definitions 1.1 and 1.4, Conjecture 1.2
 (pp. 3--5), Theorems 1.6--1.9 (pp. 7--8), Theorem 4.2 (p. 21), Theorem 5.1

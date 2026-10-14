@@ -59,7 +59,7 @@ the numerator, plus Diophantine approximation to handle the remaining cases.
 This settles the Erdos-Graham question that is problem 290 and supplies the
 quantitative bounds a + 0.54 log a < b(a) <= 4.374(a-1) for large a.
 
-Source: <https://arxiv.org/abs/2411.03073>.
+Source: <https://arxiv.org/abs/2411.03073v2>.
 
 The copy read for this card is arXiv:2411.03073v2 (23 July 2025), 57 pages;
 v1 (5 November 2024) was not read and the two were not compared. The paper's

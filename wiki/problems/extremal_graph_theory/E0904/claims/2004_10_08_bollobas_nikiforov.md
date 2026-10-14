@@ -20,7 +20,7 @@ links:
 - url: https://doi.org/10.37236/1988
   kind: paper
   date: 2005-11-07
-- url: https://arxiv.org/abs/math/0410218
+- url: https://arxiv.org/abs/math/0410218v1
   kind: preprint
   date: 2004-10-08
 - url: https://www.erdosproblems.com/904

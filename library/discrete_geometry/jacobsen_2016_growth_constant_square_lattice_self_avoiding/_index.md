@@ -47,7 +47,7 @@ walk and polygon series shows no such singularity, and they validate their
 numerics by repeating the extrapolation with fewer data points (n_max = 19,
 20).
 
-Source: <https://arxiv.org/abs/1607.02984>.
+Source: <https://arxiv.org/abs/1607.02984v1>.
 
 **Read status.** Claims checked: the principal estimate, its scaling
 assumptions, the conjecture and the earlier estimates it is compared with were

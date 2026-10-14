@@ -49,7 +49,7 @@ for shifted extremal 3-graphs (Lemma 7). For problem 1020, which is Erdos's
 matching conjecture, this is the paper establishing the 3-uniform case for
 large n.
 
-Source: <https://arxiv.org/abs/1202.4196>. The edition read is the arXiv
+Source: <https://arxiv.org/abs/1202.4196v1>. The edition read is the arXiv
 preprint arXiv:1202.4196v1 (dated February 16, 2012, 16 pages); the labels and
 pages on the result pages are that edition's, and the journal version was not
 compared.

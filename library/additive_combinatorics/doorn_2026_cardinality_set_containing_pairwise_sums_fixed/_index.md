@@ -89,7 +89,7 @@ Bearing on #866: the paper gives the exact values for k=3,4 and a constant
 bound for k=5; Section 7 (p. 12) reports no counterexample to g_5(n) <= 5 up
 to n=15 and says g_5(n) <= 4 for all large n cannot be excluded.
 
-Source: <https://arxiv.org/abs/2605.00040>.
+Source: <https://arxiv.org/abs/2605.00040v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0866/_index|#866]]: Theorems 1,
 3, 5 and 8 give the problem's $g_3(N)=1$ ($N\ge3$), $g_4(N)=3$ ($N\ge2$) and

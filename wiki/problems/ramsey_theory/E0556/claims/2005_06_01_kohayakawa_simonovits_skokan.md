@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/j.endm.2005.05.053
   kind: paper
-  date: 2005-06-01
+  date: 2005-06
 - url: http://www.cdam.lse.ac.uk/Reports/Files/cdam-2008-16.pdf
   kind: preprint
   date: 2008-09-22

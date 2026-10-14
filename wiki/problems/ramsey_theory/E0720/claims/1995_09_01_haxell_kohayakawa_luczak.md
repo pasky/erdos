@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1017/S0963548300001619
   kind: paper
-  date: 1995-09-01
+  date: 1995-09
 created: 2026-10-07T05:33:16Z
 updated: 2026-10-08T01:29:59Z
 ---

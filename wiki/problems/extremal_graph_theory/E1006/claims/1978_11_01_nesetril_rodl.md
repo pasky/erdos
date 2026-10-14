@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1090/S0002-9939-1978-0507350-7
   kind: paper
-  date: 1978-11-01
+  date: 1978-11
 - url: https://www.erdosproblems.com/1006
   kind: discussion
 - url: https://www.erdosproblems.com/forum/thread/1006#post-752

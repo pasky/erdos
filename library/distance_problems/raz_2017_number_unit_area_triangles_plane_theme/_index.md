@@ -49,7 +49,7 @@ giving Omega(n^2 log log n) triangles of the same area (p. 1). Section 2 runs
 from p. 2 to p. 8, Section 3 from p. 8 to p. 14 and Section 4 from p. 14 to
 p. 18.
 
-Source: <https://arxiv.org/abs/1501.00379>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1501.00379v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1501.00379), every other right
 reserved.
 

@@ -44,8 +44,9 @@ it is symmetric and has only real zeros, which settles Conjecture 3.2.
 
 ***
 
-The copy read for this card is arXiv:1008.2605v1 (16 August 2010), 17 pages.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is
+[arXiv:1008.2605v1](https://arxiv.org/abs/1008.2605v1) (16 August 2010), 17
+pages. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1008.2605), every other right reserved.
 
 Yi Wang, Bao-Xuan Zhu, "On the unimodality of independence polynomials of some

@@ -67,7 +67,7 @@ infinitely many n). The constant 600 is Theorem 1.3 (k = 105), not Theorem 1.1
 with m = 1, which gives only liminf(p_{n+1} - p_n) << e^4 with an unspecified
 constant.
 
-Source: <https://arxiv.org/abs/1311.4600>.
+Source: <https://arxiv.org/abs/1311.4600v3>.
 
 **Bears on.** [[../wiki/problems/primes/E0006/_index|#6]]: the paper does
 not decide the question, which asks for infinitely many n with

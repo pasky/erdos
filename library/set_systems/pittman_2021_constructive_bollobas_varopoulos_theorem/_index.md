@@ -16,7 +16,7 @@ updated: 2026-10-08T02:54:39Z
 ***
 
 Dylanger S. Pittman, “A constructive proof of the Bollobás–Varopoulos
-theorem,” [arXiv:2110.11336](https://arxiv.org/abs/2110.11336), version 2
+theorem,” [arXiv:2110.11336](https://arxiv.org/abs/2110.11336v2), version 2
 (stamped 18 December 2021). The first page's footer reads "Preprint
 submitted to Journal of Mathematical Analysis and Applications" beside the
 date December 21, 2021 (p. 1); no journal publication is asserted here.

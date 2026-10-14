@@ -37,7 +37,7 @@ g^{-1}k^2 - (2-eps)g^{-1}k^{3/2} - O(k) with eps >= 0.02 g^{-2} (stated as eps
 the sharp size of a Sidon set in {1,...,N} and the second-order term in the
 Erdos-Turan upper bound.
 
-Source: <https://arxiv.org/abs/2310.20032>. The arXiv record
+Source: <https://arxiv.org/abs/2310.20032v1>. The arXiv record
 (https://arxiv.org/abs/2310.20032, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

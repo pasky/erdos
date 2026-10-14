@@ -55,7 +55,7 @@ Zoltán Füredi, András Gyárfás, and Zoltán Király, “Problems and results
 1-cross-intersecting set pair systems,” *Combinatorics, Probability and
 Computing* 32 (2023), 691–702. [Published article](https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/problems-and-results-on-1crossintersecting-set-pair-systems/F76EC4E32A48E5434F04F482B2BD3A46),
 [DOI](https://doi.org/10.1017/S0963548323000044). The alternate
-preprint is [arXiv:1911.03067](https://arxiv.org/abs/1911.03067), version 2
+preprint is [arXiv:1911.03067](https://arxiv.org/abs/1911.03067v2), version 2
 (stamped 24 July 2022; its internal title page is dated 26 July 2022). The
 published article is the edition this card cites, and the arXiv v2 preprint
 is the explicit alternate edition compared below.

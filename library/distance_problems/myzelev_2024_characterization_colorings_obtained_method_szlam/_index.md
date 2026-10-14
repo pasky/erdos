@@ -57,7 +57,7 @@ uncountably many arbitrary choices they involve, and the paper closes (p. 5)
 by asking whether, whatever k = chi(R^2, 1) is, some Szlam coloring of R^2 has
 B free of distance 1 and |F| = k, noting the answer is yes if k = 7.
 
-Source: <https://arxiv.org/abs/2411.04346>. The arXiv record
+Source: <https://arxiv.org/abs/2411.04346v1>. The arXiv record
 (https://arxiv.org/abs/2411.04346, read 2026-10-02) names the Creative Commons
 Attribution-NonCommercial-NoDerivatives 4.0 license.
 

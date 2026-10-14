@@ -30,8 +30,8 @@ prime bases up to B in B^(2/3+o(1)) time, when m tends to infinity with B.
 ***
 
 Jonathan Sorenson and Jonathan Webster, “Strong pseudoprimes to twelve
-prime bases,” arXiv:1509.00864v1 (2015), subsequently published in
-*Mathematics of Computation* 86 (2017), 985–1003, DOI
+prime bases,” [arXiv:1509.00864v1](https://arxiv.org/abs/1509.00864v1) (2015),
+subsequently published in *Mathematics of Computation* 86 (2017), 985–1003, DOI
 [10.1090/mcom/3134](https://doi.org/10.1090/mcom/3134). The arXiv record names
 arXiv's non-exclusive distribution license (arXiv:1509.00864), every other right
 reserved.

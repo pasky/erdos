@@ -43,11 +43,16 @@ on the first question,
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|the OpenAI release's fixed-scale limit]]
 also on the first question, and
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|the release's asymptotic equivalent]]
-on the second. No refereed publication exists for any of them. The site's
-proof-claims thread lists two partial claims. One is the Conjectures.io Lean
-record, posted by the site's maintainer on 2026-09-27 with the note that they
-have not verified it. The other is Zeraoulia's fixed-scale limit points. Ford's
-order-of-magnitude theorem falls short of a formula.
+on the second. No refereed publication exists for any of them. The curator's
+blog post
+[[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
+(8 October 2026) lists the release's limit $V(cx)/V(x)\to c$ for every fixed
+$c>0$, of which Erdős asked the case $c=2$, as a claim and not an endorsement,
+and says that its proof has been formalized. The site's proof-claims thread
+lists two partial claims. One is the Conjectures.io Lean record, posted by the
+site's maintainer on 2026-09-27 with the note that they have not verified it.
+The other is Zeraoulia's fixed-scale limit points. Ford's order-of-magnitude
+theorem falls short of a formula.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution/download,
@@ -355,6 +360,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_1|openai_2026_asymptotic_formula_number_totients / theorem_2_1]]
 - [[../library/arithmetic_functions/zeraoulia_2026_fixed_scale_limit_points_distinct_totients/_index|zeraoulia_2026_fixed_scale_limit_points_distinct_totients]]
 - [[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|erdos_1979_unconventional_problems_number_theory_asterisque]]
+- [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
 - [[../library/number_theory/erdos_1974_remarks_problems_number_theory/_index|erdos_1974_remarks_problems_number_theory]]
 - [[../library/number_theory/erdos_1974_remarks_problems_number_theory/remark_p201|erdos_1974_remarks_problems_number_theory / remark_p201]]
 - [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]

@@ -116,7 +116,7 @@ entropy method genuinely handles bounded sum multiplicity without replacing it
 by bounded differences, but it controls only finite subsets of the squares,
 not unrestricted infinite B_2[2] sets or their liminf.
 
-Source: <https://arxiv.org/abs/2606.17487>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2606.17487v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2606.17487), every other right
 reserved.
 

@@ -38,7 +38,7 @@ calculation (Sections 3 to 5). For problem 688 the survey's choice-set
 Theorem 2.1 is the closest available formalism to the one-class-per-prime
 setting; the survey does not mention that problem's quantity eps_n.
 
-Source: <https://arxiv.org/abs/2211.01417>. The arXiv record
+Source: <https://arxiv.org/abs/2211.01417v1>. The arXiv record
 (https://arxiv.org/abs/2211.01417, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

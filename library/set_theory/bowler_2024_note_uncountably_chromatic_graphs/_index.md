@@ -48,7 +48,7 @@ countably infinite infinitely vertex-connected subgraph, the authors record in
 Remark (3) that the version asking this of every uncountably chromatic graph
 remains open, so their example does not settle it.
 
-Source: <https://arxiv.org/abs/2402.05984>.
+Source: <https://arxiv.org/abs/2402.05984v2>.
 
 **Read status.** Claims checked: the construction and the Theorem (pp. 1-2)
 and the Remarks (p. 3) were read clause by clause on the printed pages of

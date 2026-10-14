@@ -57,7 +57,7 @@ double-counting comparison of sums and differences (Lemma 2.1, p. 3);
 Theorem 1.3 is a construction from complete residue systems modulo primes
 and multiples of those primes (Section 3, pp. 5-7).
 
-Source: <https://arxiv.org/abs/1510.00812>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1510.00812v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1510.00812), every other right
 reserved.
 

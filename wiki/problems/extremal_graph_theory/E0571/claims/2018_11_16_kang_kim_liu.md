@@ -19,7 +19,7 @@ links:
 - url: https://doi.org/10.1016/j.jctb.2020.12.003
   kind: paper
   date: 2021-05-01
-- url: https://arxiv.org/abs/1811.06916
+- url: https://arxiv.org/abs/1811.06916v1
   kind: preprint
   date: 2018-11-16
 - url: https://www.erdosproblems.com/571

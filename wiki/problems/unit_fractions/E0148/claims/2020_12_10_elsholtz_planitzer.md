@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/blms.12452
   kind: paper
-- url: https://arxiv.org/abs/2012.05984
+- url: https://arxiv.org/abs/2012.05984v1
   kind: preprint
   date: 2020-12-10
 created: 2026-10-07T21:33:46Z

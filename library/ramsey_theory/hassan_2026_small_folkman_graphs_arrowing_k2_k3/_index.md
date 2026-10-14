@@ -85,7 +85,7 @@ minimum and does not reproduce either endpoint proof or the $786$
 MAX-CUT/SDP certificate
 ([[ramsey_theory/hassan_2026_small_folkman_graphs_arrowing_k2_k3/reported_interval|reported interval]]).
 
-Source: <https://arxiv.org/abs/2605.16542>.
+Source: <https://arxiv.org/abs/2605.16542v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0582/_index|#582]]: the
 [[ramsey_theory/hassan_2026_small_folkman_graphs_arrowing_k2_k3/reported_interval|reported interval]]

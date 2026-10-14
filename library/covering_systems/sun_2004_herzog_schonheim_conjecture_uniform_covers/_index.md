@@ -135,7 +135,7 @@ subnormal. The sharper hypothesis of Theorem 4.3 shows more: it must contain a
 nonsubnormal $G_i$ with $[G:G_i]\geq p^*$, and it must also fall outside the
 solvable normal-Sylow quotient alternative.
 
-Source: <https://arxiv.org/abs/math/0306099>.
+Source: <https://arxiv.org/abs/math/0306099v2>.
 
 **Bears on.**
 

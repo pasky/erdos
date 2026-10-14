@@ -54,7 +54,7 @@ finiteness consequence of the Schinzel-Tijdeman theorem (Corollary 2.3).
 Together the results give two-sided bounds toward Hofstadter's asymptotic
 question.
 
-Source: <https://arxiv.org/abs/2603.09939>.
+Source: <https://arxiv.org/abs/2603.09939v2>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0423/_index|#423]]: the
 problem asks for the asymptotic behavior of the sequence; Theorem 1.3 shows

@@ -51,7 +51,7 @@ Tao and Vu's Additive combinatorics, Exercise 10.0.6. Theorem 1.1 is deduced
 (p. 6) from the recurrence theorem, Theorem 3.1 (p. 5), whose proof is the
 iteration of Proposition 3.3 (pp. 16-18) carried out in Sections 4-9.
 
-Source: <https://arxiv.org/abs/1705.01703>.
+Source: <https://arxiv.org/abs/1705.01703v3>.
 
 **Results.**
 

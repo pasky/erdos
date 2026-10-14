@@ -42,7 +42,7 @@ triangular lattice with two red nodes at distance sqrt(3), any blue l_5 (Lemma
 recalls Juhasz's planar theorem E^2 -> (l_2, T_4) for every four-point
 configuration T_4.
 
-Source: <https://arxiv.org/abs/1702.04799>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1702.04799v1>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1702.04799), every other right
 reserved.
 

@@ -68,7 +68,7 @@ r_5 pairwise coprime and r_2 odd (Proposition 4.7), a step its proof needs
 only for groups of order 1080. The paper bears on problem 274 by verifying the
 Herzog-Schönheim conjecture for every group of order below 1440.
 
-Source: <https://arxiv.org/abs/1803.03569>.
+Source: <https://arxiv.org/abs/1803.03569v1>.
 
 **Bears on.**
 

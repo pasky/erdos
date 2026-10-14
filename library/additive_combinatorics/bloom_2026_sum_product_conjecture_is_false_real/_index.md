@@ -19,7 +19,7 @@ conjecture is false for real numbers. arXiv:2605.28781 (2026). The held PDF is
 arXiv:2605.28781v1 (27 May 2026).
 
 Local text: a Markdown reading copy sits beside the PDF. Source:
-<https://arxiv.org/abs/2605.28781>. The arXiv record
+<https://arxiv.org/abs/2605.28781v1>. The arXiv record
 (https://arxiv.org/abs/2605.28781, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

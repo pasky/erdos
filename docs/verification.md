@@ -74,9 +74,11 @@ subject, or someone whose purportedly independent review context already built
 on it. A review is a distinct, isolated assignment, not a named step in the
 author's own loop. Where a report is graded, the grader is distinct from both
 the author and the reviewer: reviewing a claim does not authorize grading one's
-own report. Identify the reviewer and any grader by role and by the independence
-facts that qualify them — fresh context, isolation, and the model when disclosed
-— never by the name of a person, agent, session or tool harness.
+own report. A review or grading record identifies the reviewer and any grader by
+role and by the independence facts that qualify them — fresh context, isolation,
+and the model when disclosed — never by the name of a person, agent, session or
+tool harness. A claim page's acceptance prose is not such a record: it names who
+reviewed as [[anatomy]] "Problems and claims" states.
 
 An author may request review and assemble its inputs, but cannot be the sole
 judge of either independence or the report. A review that bears a tier needs a

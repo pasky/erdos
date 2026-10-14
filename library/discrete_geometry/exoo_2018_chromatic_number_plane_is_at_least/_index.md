@@ -54,7 +54,7 @@ posted online. Section 5 (p. 11) assembles the three claims into one explicit
 5-chromatic unit-distance graph, of order much larger than de Grey's first
 graph.
 
-Source: <https://arxiv.org/abs/1805.00157>.
+Source: <https://arxiv.org/abs/1805.00157v1>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]: the
 main theorem gives the lower bound χ(E²) ≥ 5 by a proof different from de

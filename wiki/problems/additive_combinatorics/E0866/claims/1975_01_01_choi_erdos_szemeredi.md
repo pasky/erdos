@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.4064/aa-27-1-37-50
   kind: paper
-  date: 1975-01-01
+  date: 1975
 - url: https://users.renyi.hu/~p_erdos/1975-39.pdf
   kind: paper
 - url: https://www.erdosproblems.com/866

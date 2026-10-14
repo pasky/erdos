@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/s00493-010-2483-5
   kind: paper
-  date: 2010-03-01
+  date: 2010-03
 created: 2026-10-07T07:25:39Z
 updated: 2026-10-07T21:38:27Z
 ---

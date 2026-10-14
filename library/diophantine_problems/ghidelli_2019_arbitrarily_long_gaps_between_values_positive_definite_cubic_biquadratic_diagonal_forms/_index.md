@@ -197,7 +197,8 @@ order $O(\log N/\log\log N)$ discussed heuristically in §1.
 
 ## Results
 
-Page numbers are those of the arXiv preprint (arXiv:1910.05070v1, 25 pp.).
+Page numbers are those of the arXiv preprint
+([arXiv:1910.05070v1](https://arxiv.org/abs/1910.05070v1), 25 pp.).
 
 - [[diophantine_problems/ghidelli_2019_arbitrarily_long_gaps_between_values_positive_definite_cubic_biquadratic_diagonal_forms/theorem_1_1|Theorem 1.1]]
   (p. 2): gaps of length $K$ below $N$ between the values of a positive ternary

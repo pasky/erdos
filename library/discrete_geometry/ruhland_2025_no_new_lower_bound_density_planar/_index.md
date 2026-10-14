@@ -55,7 +55,7 @@ density at least Croft's for small eps. For problem 1070 the paper is therefore
 a negative record: it is the author's own retraction and supplies no new bound
 on the density of unit-distance-avoiding planar sets.
 
-Source: <https://arxiv.org/abs/2408.10076>.
+Source: <https://arxiv.org/abs/2408.10076v4>.
 
 **Bears on.**
 

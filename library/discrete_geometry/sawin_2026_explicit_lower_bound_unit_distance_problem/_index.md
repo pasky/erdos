@@ -55,7 +55,7 @@ arXiv:2605.20579v1 [math.CO], submitted 20 May 2026, 15 pages.
 
 The copy read for this card is the arXiv v1 manuscript. Its title, author,
 15-page extent, and v1 watermark agree. The arXiv record is
-<https://arxiv.org/abs/2605.20579>.
+<https://arxiv.org/abs/2605.20579v1>.
 
 ## Main result
 

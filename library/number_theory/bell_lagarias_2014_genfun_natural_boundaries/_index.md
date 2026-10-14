@@ -35,7 +35,8 @@ natural boundary for all but finitely many starting values m >= 1.
 ***
 
 Jason P. Bell and Jeffrey C. Lagarias, *3x+1 Inverse Orbit Generating Functions
-Almost Always Have Natural Boundaries*, arXiv:1408.6884v1 (2014; published Acta
+Almost Always Have Natural Boundaries*,
+[arXiv:1408.6884v1](https://arxiv.org/abs/1408.6884v1) (2014; published Acta
 Arith. 170 (2015) 101-120; 15 pp.).
 
 For the 3x+k map with k = +-1 mod 6, Theorem 1.1 (p. 3) characterizes when the

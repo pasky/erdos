@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/2.part_4.620
   kind: paper
-  date: 1970-10-01
+  date: 1970-10
 - url: https://github.com/plby/lean-proofs/blob/f2462b2803ffb68bc22653db85065b7166b91283/src/v4.29.1/ErdosProblems/Erdos226.lean
   kind: formalization
 - url: https://www.erdosproblems.com/226

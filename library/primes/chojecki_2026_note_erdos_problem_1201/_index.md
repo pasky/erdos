@@ -46,7 +46,8 @@ exists. The PDF carries no printed byline; the attribution rests on the site's
 thread, where P. Chojecki posted the note on 30 April 2026 as written by
 GPT-5.5 Pro.
 
-Source: <https://www.ulam.ai/research/erdos1201.pdf>.
+Source: <https://www.ulam.ai/research/erdos1201.pdf>. The copy's retrieval date
+was not recorded.
 
 **Bears on.** [[../wiki/problems/primes/E1201/_index|#1201]]:
 [[primes/chojecki_2026_note_erdos_problem_1201/theorem_1|Theorem 1]] (p. 1)

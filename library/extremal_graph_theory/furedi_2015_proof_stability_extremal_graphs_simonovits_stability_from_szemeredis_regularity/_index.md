@@ -33,9 +33,9 @@ Zoltán Füredi, "A proof of the stability of extremal graphs, Simonovits'
 stability from Szemerédi's regularity," arXiv:1501.03129 (2015); published in
 J. Combin. Theory Ser. B 115 (2015), 66--71, doi:10.1016/j.jctb.2015.05.001.
 
-The copy read for this card is the arXiv preprint, arXiv:1501.03129. The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:1501.03129),
-every other right reserved.
+The copy read for this card is the arXiv preprint, arXiv:1501.03129. The copy's
+retrieval date was not recorded. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1501.03129), every other right reserved.
 
 ## Result pages
 

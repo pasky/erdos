@@ -57,7 +57,7 @@ Read status: claims checked for the results linked below, statements read
 clause by clause on the printed pages of arXiv v1; no proof is checked step by
 step.
 
-Source: <https://arxiv.org/abs/math/0504226>.
+Source: <https://arxiv.org/abs/math/0504226v1>.
 
 **Bears on.**
 

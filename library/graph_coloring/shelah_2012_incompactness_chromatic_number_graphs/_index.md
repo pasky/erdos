@@ -67,7 +67,7 @@ aleph_0 and cites Erdos and Hajnal as first asking such problems.
 Read status: claims checked. The statements of the results below were read
 clause by clause against the print; their proofs were read for outline only.
 
-Source: <https://arxiv.org/abs/1205.0064>.
+Source: <https://arxiv.org/abs/1205.0064v2>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0919/_index|#919]]: related
 only. The paper does not treat order types or the vertex set omega_2^2. Its

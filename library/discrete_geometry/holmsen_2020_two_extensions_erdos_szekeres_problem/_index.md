@@ -51,7 +51,7 @@ variant of a positive-fraction Erdős-Szekeres theorem (Theorem 2.4); a less
 wasteful calculation at the end of Section 3 makes the error-term constant
 explicit (Remark 1.4).
 
-Source: <https://arxiv.org/abs/1710.11415>.
+Source: <https://arxiv.org/abs/1710.11415v3>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0107/_index|#107]]: the
 problem's f(n) is, for n >= 3, the function e(n) of Theorem 1.1 of the

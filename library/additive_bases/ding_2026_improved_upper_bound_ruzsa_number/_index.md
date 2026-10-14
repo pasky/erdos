@@ -52,7 +52,7 @@ constant. The paper derives no constant in (1.1) and
 does not treat bases of order r >= 3. It also records Sándor and Yang's lower
 bound R_m >= 6 for all sufficiently large m.
 
-Source: <https://arxiv.org/abs/2607.06167>. The copy read for this card is the
+Source: <https://arxiv.org/abs/2607.06167v1>. The copy read for this card is the
 arXiv preprint (v1, 7 July 2026). The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2607.06167), every other right reserved.
 

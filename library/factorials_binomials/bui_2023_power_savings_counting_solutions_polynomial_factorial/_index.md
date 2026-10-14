@@ -106,7 +106,7 @@ proposition that carries the sharper exponent:
   $\theta\le17-12\sqrt2-\epsilon$, which through the deduction of
   Proposition 3.1 gives the exponent $12\sqrt2-16+\epsilon$ of Remark 1.4.
 
-Source: <https://arxiv.org/abs/2204.08423>.
+Source: <https://arxiv.org/abs/2204.08423v1>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0393/_index|#393]]:
 if $f(n)=m$, the problem page reduces $n!$ to a value $P_S(a)$ of one of

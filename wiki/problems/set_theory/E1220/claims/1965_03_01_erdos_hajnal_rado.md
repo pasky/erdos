@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01886396
   kind: paper
-  date: 1965-03-01
+  date: 1965-03
 created: 2026-10-08T00:44:25Z
 updated: 2026-10-08T00:44:25Z
 ---

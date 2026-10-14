@@ -93,7 +93,7 @@ Read status: claims checked for every result page below, read clause by clause
 on the arXiv print; the proofs were followed as each page's Read depth states,
 and Theorem 3.1's proof, which lies in the earlier paper, was not read.
 
-Source: <https://arxiv.org/abs/1507.05115>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/1507.05115v2>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1507.05115), every other right
 reserved.
 

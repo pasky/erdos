@@ -42,7 +42,7 @@ a set has density tending to its upper Banach density, gives bounded gaps for
 the infinite-difference set of every set of positive upper Banach density, the
 class that the note linked from the Problem 332 thread on 4 May 2026 claims.
 
-Source: <https://arxiv.org/abs/2412.01185>. The arXiv record
+Source: <https://arxiv.org/abs/2412.01185v2>. The arXiv record
 (https://arxiv.org/abs/2412.01185, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 

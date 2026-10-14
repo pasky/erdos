@@ -89,7 +89,7 @@ have a sumset agreeing with the primes up to finitely many exceptions: it
 narrows the possible sizes of such summands, taken as sets of positive
 integers, and does not decide the problem.
 
-Source: <https://arxiv.org/abs/1309.0593>.
+Source: <https://arxiv.org/abs/1309.0593v1>.
 
 **Bears on.** [[../wiki/problems/primes/E0431/_index|#431]], through
 [[primes/elsholtz_2015_additive_decompositions_sets_restricted_prime_factors/theorem_2_6|Theorem 2.6]]: if two infinite sets $A$ and $B$ of positive

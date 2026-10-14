@@ -79,7 +79,7 @@ Sylvester-Gallai with Euler's formula, group laws on cubic curves, and
 additive-combinatorial tools (Appendix A) plus intersections of lines through
 roots of unity (Appendix B).
 
-Source: <https://arxiv.org/abs/1208.4714>.
+Source: <https://arxiv.org/abs/1208.4714v3>.
 
 **Bears on.**
 

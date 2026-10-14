@@ -60,7 +60,7 @@ of a rectangular box, and $M^{-1}$ maps that box to a non-degenerate
 parallelepiped inside the set. Section 5 (pp. 13--14) runs the construction
 numerically and reports, on p. 14, a ball of radius $10^{-24}$ inside the set.
 
-Source: <https://arxiv.org/abs/2405.07681>. The arXiv record names arXiv's
+Source: <https://arxiv.org/abs/2405.07681v3>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2405.07681), every other right
 reserved.
 

@@ -65,7 +65,7 @@ full: practical numbers do supply the required subset sums, but these counting
 theorems concern integers varying over scales, not a fixed target, so they yield
 no asymptotic for the fixed-target subset-sum density d_t.
 
-Source: <https://arxiv.org/abs/1405.2585>.
+Source: <https://arxiv.org/abs/1405.2585v3>.
 
 **Bears on.** [[../wiki/problems/divisors/E0859/_index|#859]]: if $N$ is
 practical and $N\ge t$, then $t$ is a sum of distinct divisors of every
