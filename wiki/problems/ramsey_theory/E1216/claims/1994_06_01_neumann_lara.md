@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02986686
   kind: paper
-  date: 1994-06-01
+  date: 1994-06
 - url: https://zbmath.org/?q=an:0811.05028
   kind: record
 created: 2026-10-07T21:33:46Z

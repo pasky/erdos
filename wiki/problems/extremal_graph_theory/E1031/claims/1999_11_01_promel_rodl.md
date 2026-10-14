@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1006/jcta.1999.2972
   kind: paper
-  date: 1999-11-01
+  date: 1999-11
 - url: https://zbmath.org/?q=an:0934.05090
   kind: record
 - url: https://www.erdosproblems.com/1031

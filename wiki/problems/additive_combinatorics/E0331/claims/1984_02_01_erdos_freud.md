@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1016/0022-314X(84)90046-5
   kind: paper
-  date: 1984-02-01
+  date: 1984-02
 - url: https://users.renyi.hu/~p_erdos/1984-10.pdf
   kind: paper
 - url: https://github.com/google-deepmind/formal-conjectures/blob/aa12eefa1eff633235245bb5d8e8f76f44ccbbd3/FormalConjectures/ErdosProblems/331.lean

@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/s2-9.1.16
   kind: paper
-  date: 1974-11-01
+  date: 1974-11
 - url: https://math.vanderbilt.edu/saffeb/texts/16.pdf
   kind: paper
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos225.lean

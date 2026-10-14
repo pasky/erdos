@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF01298463
   kind: paper
-  date: 1967-04-01
+  date: 1967-04
 created: 2026-10-07T20:31:26Z
 updated: 2026-10-08T00:44:25Z
 ---

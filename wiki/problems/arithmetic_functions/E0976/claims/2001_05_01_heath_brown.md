@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1112/plms/82.3.554
   kind: paper
-  date: 2001-05-01
+  date: 2001-05
 created: 2026-10-07T20:31:26Z
 updated: 2026-10-07T20:31:26Z
 ---

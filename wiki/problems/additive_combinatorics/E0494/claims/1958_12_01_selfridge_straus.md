@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1958.8.847
   kind: paper
-  date: 1958-12-01
+  date: 1958-12
 - url: https://www.erdosproblems.com/494
   kind: discussion
 - url: https://github.com/CollinYuanjieRen/awards/blob/963a52aba021a920b368c6a66d25c3c1c3051c65/submissions/jsp-000399-cyr/README.md

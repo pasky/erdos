@@ -18,10 +18,10 @@ submitted: null
 links:
 - url: https://doi.org/10.4064/aa-2-1-147-151
   kind: paper
-  date: 1936-01-01
+  date: 1936
 - url: https://users.renyi.hu/~p_erdos/1951-07.pdf
   kind: paper
-  date: 1951-01-01
+  date: 1951
 - url: https://www.erdosproblems.com/486
   kind: discussion
 created: 2026-10-07T14:38:22Z

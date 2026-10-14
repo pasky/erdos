@@ -20,7 +20,7 @@ submitted: null
 links:
 - url: https://doi.org/10.4169/amer.math.monthly.118.10.921
   kind: paper
-  date: 2011-12-01
+  date: 2011-12
 - url: https://www.erdosproblems.com/194
   kind: discussion
 - url: https://www.erdosproblems.com/forum/thread/194

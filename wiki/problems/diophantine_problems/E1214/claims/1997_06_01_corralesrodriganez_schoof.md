@@ -18,10 +18,10 @@ submitted: null
 links:
 - url: https://doi.org/10.1006/jnth.1997.2114
   kind: paper
-  date: 1997-06-01
+  date: 1997-06
 - url: https://reneschoof.github.io/supp.pdf
   kind: paper
-  date: 1997-06-01
+  date: 1997-06
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1214.lean
   kind: formalization
 - url: https://www.erdosproblems.com/1214

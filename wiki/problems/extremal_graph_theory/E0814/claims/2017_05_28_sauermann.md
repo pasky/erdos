@@ -21,7 +21,7 @@ links:
   date: 2017-05-28
 - url: https://doi.org/10.1016/j.jctb.2018.05.002
   kind: paper
-  date: 2019-01-01
+  date: 2019-01
 - url: https://www.erdosproblems.com/814
   kind: discussion
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos814.lean

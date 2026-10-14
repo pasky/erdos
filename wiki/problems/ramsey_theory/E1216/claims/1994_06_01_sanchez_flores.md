@@ -17,7 +17,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1007/BF02986687
   kind: paper
-  date: 1994-06-01
+  date: 1994-06
 - url: https://zbmath.org/?q=an:0811.05029
   kind: record
 - url: https://www.erdosproblems.com/1216

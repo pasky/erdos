@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1002/jgt.3190180103
   kind: paper
-  date: 1994-01-01
+  date: 1994-01
 - url: https://www.erdosproblems.com/133
   kind: discussion
 created: 2026-10-07T06:33:19Z

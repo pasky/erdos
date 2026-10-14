@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1002/sapm1977563291
   kind: paper
-  date: 1977-06-01
+  date: 1977-06
 - url: https://www.erdosproblems.com/1062
   kind: discussion
 created: 2026-10-07T21:33:46Z

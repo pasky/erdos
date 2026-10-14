@@ -81,7 +81,7 @@ accepted on its journal publication).
 **Dimension three and above.** In [Er75f] Erdős claims constants
 $c_1,c_2>0$ with $6n-c_1n^{2/3}<f_3(n)<6n-c_2n^{2/3}$. Bezdek and Reid
 [BeRe13] proved the upper half, $f_3(n)<6n-0.926\,n^{2/3}$ for every $n\ge2$
-([[problems/distance_problems/E1084/claims/2013_04_01_bezdek_reid|claim
+([[problems/distance_problems/E1084/claims/2012_10_21_bezdek_reid|claim
 page]], accepted on its journal publication). On the lower side, Bezdek and
 Reid recall packings with more than $6n-7.862\,n^{2/3}$ touching pairs for
 the sizes $n=(2k^3+k)/3$; $f_3(n)$ is not determined. In general

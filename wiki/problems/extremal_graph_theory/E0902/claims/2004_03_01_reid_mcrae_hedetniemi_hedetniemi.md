@@ -19,7 +19,7 @@ submitted: null
 links:
 - url: https://ajc.maths.uq.edu.au/pdf/29/ajc_v29_p157.pdf
   kind: paper
-  date: 2004-03-01
+  date: 2004-03
 - url: https://github.com/jaredwilder/erdos902/tree/959d09a0bf2627e0bd7b215c18460dbe34ac857f
   kind: formalization
 created: 2026-10-07T21:33:46Z

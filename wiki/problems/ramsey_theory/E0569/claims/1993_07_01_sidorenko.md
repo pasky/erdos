@@ -16,7 +16,7 @@ submitted: null
 links:
 - url: https://doi.org/10.1006/jctb.1993.1036
   kind: paper
-  date: 1993-07-01
+  date: 1993-07
 - url: https://www.erdosproblems.com/forum/thread/569#post-5053
   kind: discussion
   date: 2026-03-27

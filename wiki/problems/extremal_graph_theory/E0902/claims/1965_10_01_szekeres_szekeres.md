@@ -18,7 +18,7 @@ submitted: null
 links:
 - url: https://doi.org/10.2307/3612854
   kind: paper
-  date: 1965-10-01
+  date: 1965-10
 - url: https://www.erdosproblems.com/902
   kind: discussion
 - url: https://github.com/jaredwilder/erdos902/tree/959d09a0bf2627e0bd7b215c18460dbe34ac857f
