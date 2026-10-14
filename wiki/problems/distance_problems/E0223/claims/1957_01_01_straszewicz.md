@@ -4,7 +4,8 @@ title: Straszewicz's proof of Vázsonyi's conjecture
 desc: |
   Among $n\ge4$ points of three-dimensional space with diameter one, the
   distance one occurs at most $2n-2$ times, so $f_3(n)=2n-2$ for $n\ge4$.
-authors: []
+authors:
+- S. Straszewicz
 status: accepted
 claim: answered
 scope: partial

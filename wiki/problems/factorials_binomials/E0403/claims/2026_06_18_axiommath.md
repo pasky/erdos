@@ -5,7 +5,8 @@ desc: |
   A Lean 4 proof, produced by the AxiomProver system and published in the
   AxiomMath repository, shows that $2^m$ is a sum of distinct positive
   factorials exactly for $m\in\{0,1,3,5,7\}$. It lists the five solutions.
-authors: []
+authors:
+- AxiomProver
 status: claimed
 claim: proved
 scope: full

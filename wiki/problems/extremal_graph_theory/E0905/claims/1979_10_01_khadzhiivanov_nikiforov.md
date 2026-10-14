@@ -6,7 +6,9 @@ desc: |
   graph with $n$ vertices and more than $n^2/4$ edges has an edge on at least
   $n/6$ triangles. The claim is accepted on the 1988 reproof, Fox and Loh, and
   the site's credit.
-authors: []
+authors:
+- N. G. Khadzhiivanov
+- V. Nikiforov
 status: accepted
 claim: proved
 scope: full
