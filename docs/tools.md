@@ -652,27 +652,26 @@ calendar date, or `null`), the **Covers.** paragraph of a partial claim, the
 accepted claim; or library result pages, each resolving, reported as a note with
 the page's read status and never counted toward the standing, a card in place of
 a result page being a finding), the optional `parts` list (distinct short
-labels), its optional `open_ended` list (distinct labels from `parts`, leaving
-at least one part definite), each partial claim's `settles` labels (only on
-partial claims, only labels the problem lists), and the derivation of the
-problem's `status` and `claim` from its claims, part by part over the definite
-parts where parts are listed. A `not_provable` or `not_disprovable` claim states
-one side of an independence result and must be partial: on its own it leaves the
-problem, or the part it settles, open, and one accepted claim of each kind
-settles it as `independent`. A problem with no claim page keeps its provisional
-standing: unless that standing is `open` with claim `none`, the leg counts such
-problems in its detail and passes; with `--settled` each is a finding.
-`--settled` is the release mode: it requires every such standing to rest on a
-claim page and every claim page to list its authors. The default mode only
-counts them, so a problem page that `scripts/build_problems.py` creates from a
-settled erdosproblems.com label can land before its claim page is written.
-`erdos problem-claims` runs the same check standalone, and
-`erdos problem-claims --write` sets the derived values on every problem that has
-claim pages before checking; repeatable `--problem E<nnnn>` selections scope the
-write and the check alike. The leg reads frontmatter and the two labeled
-paragraphs only; it assesses no mathematics and awards no standing. The module
-`tools.core.problem_claims` is shared, repository-neutral code, so it knows no
-problem numbering, no area list and nothing of erdosproblems.com.
+labels) and each partial claim's `settles` labels (only on partial claims, only
+labels the problem lists), and the derivation of the problem's `status` and
+`claim` from its claims, part by part where parts are listed. A `not_provable`
+or `not_disprovable` claim states one side of an independence result and must be
+partial: on its own it leaves the problem, or the part it settles, open, and one
+accepted claim of each kind settles it as `independent`. A problem with no claim
+page keeps its provisional standing: unless that standing is `open` with claim
+`none`, the leg counts such problems in its detail and passes; with `--settled`
+each is a finding. `--settled` is the release mode: it requires every such
+standing to rest on a claim page and every claim page to list its authors. The
+default mode only counts them, so a problem page that
+`scripts/build_problems.py` creates from a settled erdosproblems.com label can
+land before its claim page is written. `erdos problem-claims` runs the same
+check standalone, and `erdos problem-claims --write` sets the derived values on
+every problem that has claim pages before checking; repeatable
+`--problem E<nnnn>` selections scope the write and the check alike. The leg
+reads frontmatter and the two labeled paragraphs only; it assesses no
+mathematics and awards no standing. The module `tools.core.problem_claims` is
+shared, repository-neutral code, so it knows no problem numbering, no area list
+and nothing of erdosproblems.com.
 
 #### Incoming-library scope
 

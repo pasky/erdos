@@ -9,8 +9,7 @@ tags:
 - Iterated functions
 status: solved
 claim: proved
-parts: [distribution, constant, prime_factor]
-open_ended: [prime_factor]
+parts: [distribution, constant]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-14T20:20:13Z
 ---
@@ -42,12 +41,13 @@ $f(n)/\log n$ is almost always constant, how [EGPS90] states its conjecture on
 p. 166, $k(n)\sim\alpha\log n$ on a set of asymptotic density one, and how
 erdosproblems.com reads it. Read as Bloom's catalog words it, the question has a
 trivial answer no: $f(n)/\log n=c$ determines $n$ from $f(n)$, so each value of
-$f$ gives at most one such $n$. The three questions are the parts `distribution`,
-`constant` and `prime_factor`, in order. The third asks what can be said rather
-than a definite question, so it is open-ended and never blocks the standing.
+$f$ gives at most one such $n$. The first two questions are the parts
+`distribution` and `constant`, in order. The third asks what can be said rather
+than a definite question, so it is open-ended: it is not a part, and it never
+blocks the standing.
 
-**Status.** Solved: an accepted partial claim settles both definite parts, and
-the open-ended third part does not block the standing.
+**Status.** Solved: an accepted partial claim settles both parts, and the
+open-ended third question does not block the standing.
 Bloom's catalog labeled the problem OPEN (page last edited 30 September 2025). Its commentary credits [EGPS90] with a yes to the first two
 questions under a form of the Elliott--Halberstam conjecture. That conditional
 theorem is the claim on
@@ -132,9 +132,9 @@ theorems from an empty environment
 ([[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/replay_receipt|the replay receipt]]), and the
 [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/statement_fidelity/_index|graded review of the formalization's statements]]
 found them faithful, covering the first two questions; the preprint itself is
-unrefereed. The claim settles the parts `distribution` and `constant`, the two
-definite parts, so the problem is solved; the open-ended part `prime_factor`
-does not block the standing, and what is known about it is recorded below.
+unrefereed. The claim settles the parts `distribution` and `constant`, so the
+problem is solved; the open-ended third question does not block the standing,
+and what is known about it is recorded below.
 The earlier claim page,
 [[problems/arithmetic_functions/E0408/claims/1990_01_01_erdos_granville_pomerance_spiro|the Erdős–Granville–Pomerance–Spiro page]],
 records a conditional theorem: for some $\alpha>0$, $f(n)$ has normal and
