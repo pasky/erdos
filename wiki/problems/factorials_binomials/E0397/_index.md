@@ -118,7 +118,7 @@ recorded here as the paper reports it. The report is a pending claim on
 [[problems/factorials_binomials/E0397/claims/2026_01_29_feng|its own page]];
 the site credits the disproof to Somani alone.
 
-Search scope: the site's problem page, its discussion thread,
+Search scope, 2026-10-07: the site's problem page, its discussion thread,
 the community database, the formal-conjectures statement file and the two
 Lean proofs it names, the copy of the gist in Alexeev's repository, and the
 library's card of the Feng et al. preprint (arXiv:2601.22401v3); the site

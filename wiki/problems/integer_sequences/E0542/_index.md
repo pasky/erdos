@@ -305,7 +305,7 @@ $1.017262\ldots$ and Chen's $1.0170166$ both lie above $1$, and Theorem 3 gives
 sums arbitrarily close to $1$ from below. The external Lean file under
 Formalization restates the two answers formally and was not built.
 
-**Search scope.** None of the routes below found a source
+**Search scope (2026-09-18 UTC).** None of the routes below found a source
 disputing either answer, a proof that $\sum1/a\le1+o(1)$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the full

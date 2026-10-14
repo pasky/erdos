@@ -73,7 +73,7 @@ Reviews and Zentralblatt.
 
 **Formalization.** The
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/594.lean)
-`erdos_594`, as of 2026-10-07, is marked research solved with a formal-proof
+`erdos_594` is marked research solved with a formal-proof
 link to `Erdos594.lean` in Boris Alexeev's repository at the pinned commit of
 the link above. That file declares itself a Lean formalization of a
 solution to Problem 594, names Erdős, Hajnal and Shelah as its informal

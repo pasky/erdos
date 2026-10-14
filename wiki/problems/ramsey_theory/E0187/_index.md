@@ -75,11 +75,11 @@ $W(L)$ is the two-color van der Waerden number (under What is known). This
 function tends to infinity only as slowly as the inverse of the van der Waerden
 numbers. Other quoted remarks say "no lower bound for $l(d)$ is in sight" (1980)
 and "we currently have no usable lower bound for $h(d)$" (1979, 1980). The
-search whose scope the Current assessment records found no source proving a
-lower bound of usable size, or improving Beck's upper bound. This is a bounded
-negative finding, not a certificate of openness. The sources disagree on the
-strength of the unpublished Petruska–Szemerédi result, which is recorded below
-and not resolved.
+search dated 2026-09-18 UTC whose scope the Current assessment records found no
+source proving a lower bound of usable size, or improving Beck's upper bound.
+This is a bounded negative finding, not a certificate of openness. The sources
+disagree on the strength of the unpublished Petruska–Szemerédi result, which is
+recorded below and not resolved.
 
 **Source.** [erdosproblems.com/187](https://www.erdosproblems.com/187),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note
@@ -254,7 +254,7 @@ require $d$ or $a$ to be too small as a function of $k$".
 **Forum and AI-assisted items.** None: the thread and the proof-claim tab
 are empty, and no source of this page declares AI assistance.
 
-**Search scope.** None of the routes below found a lower
+**Search scope (2026-09-18 UTC).** None of the routes below found a lower
 bound, an improvement of Beck's bound, a determination of the best $f$, or a
 proof claim.
 

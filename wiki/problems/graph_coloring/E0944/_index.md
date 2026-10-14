@@ -101,7 +101,7 @@ argument, and this corpus has not built the file
 the formal-conjectures catalog cites Kitamura's file as the formal proof of
 the $k=4$ case of Dirac's conjecture. The search scope is the site's
 page, its thread and its proof-claims tab, the Conjectures.io record and the
-formal-conjectures catalog, as of 2026-10-07; the thread also carries a
+formal-conjectures catalog, read 2026-10-07; the thread also carries a
 comment of 18 June 2026 on the structure of $6$-regular $4$-vertex-critical
 graphs and a comment of 1 October 2026 reporting a computational search that
 found no Cayley graph for $k=4$, $r=2$, neither of which claims a result about

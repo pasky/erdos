@@ -332,7 +332,7 @@ from which the frontmatter standing `claimed`, `proved` is derived; a refereed
 publication or a documented independent acceptance would move the claim page to
 `accepted` and the standing with it.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 refereed proof or disproof of the two-color statement, a review of the
 preprint, or a second proof.
 

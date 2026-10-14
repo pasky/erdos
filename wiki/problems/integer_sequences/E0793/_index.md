@@ -53,7 +53,8 @@ The standing derives from the claim page
 an accepted full claim whose evidence is `reviewed`: the site's curator, Thomas
 Bloom, credits the result to the manuscript. The acceptance is the curator's and
 is distinct from refereeing. No refereed publication and no independent expert
-review of the manuscript was found, and an arXiv posting is not refereeing.
+review of the manuscript was found on 2026-09-18 or on 2026-10-02, and an arXiv
+posting is not refereeing.
 
 The status-defining source is Theorem 1.1 of a five-page manuscript by Przemek
 Chojecki, *The second term for strongly 2-primitive sets*. It is hosted at
@@ -297,7 +298,7 @@ proves the theorem relative to that axiom. The port of this development
 that the formal-conjectures file names as its formal proof (Formalization
 above) replaces the axiom with the PrimeNumberTheoremAnd project's theorem;
 it was not built here. The community database recorded `formal_status`
-Lean and no formal-proof URL as of 2026-09-18, and records the statement
+Lean and no formal-proof URL on 2026-09-18, and records the statement
 as formalized since 19 September 2026
 in its snapshot of 2026-10-06.
 
@@ -340,7 +341,7 @@ in its snapshot of 2026-10-06.
 refereed or arXiv version of the manuscript, no independent review, no dispute
 of the argument and no second proof of the asymptotic.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab on
   that date; the formal-conjectures directory listing and full tree (no
   file for this problem); the community database.
 - The manuscript at its ulam.ai URL, in full; the Lean file at the

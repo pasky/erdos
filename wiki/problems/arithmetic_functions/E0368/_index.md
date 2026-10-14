@@ -85,7 +85,7 @@ $F(n)<(\log n)^{2+\varepsilon}$. No source proves either, so the problem is
 open; the lower bounds supersede one another, and each is recorded as a
 partial claim because the site credits it.
 
-The problem's thread (four comments as of 2026-10-07, no proof claim) holds
+The problem's thread (four comments, accessed 2026-10-07, no proof claim) holds
 the question whether Pasten's paper, whose title names $n^2+1$, bears on
 $n(n+1)$, Alexeev's answer of 2026-01-10 through Corollary 1.5, a comment of
 2026-01-09 on Størmer's 1897 theorem, and Alexeev's post of 2026-02-17
@@ -94,7 +94,7 @@ formalization of the problem's statement. None of the four proofs is
 compiled in this wiki; the library cards for Mahler, Pasten, Schinzel and
 Pólya cover the statements.
 
-Search scope: the site's problem page as exported, its thread as of
+Search scope: the site's problem page as exported, its thread, accessed
 2026-10-07, the community database entry, the formal-conjectures tree (no
 statement file), the lean-proofs file and the four library cards; no forum
 proof claim and no OpenAI release item names this problem. No wider

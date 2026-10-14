@@ -83,10 +83,10 @@ $g=2$
 these concern a wider class of sets than the problem asks about and are not
 claims on it.
 
-Search scope. As of 2026-10-07 the site's page lists no proof claim, its
-discussion thread holds one comment, of 18 November 2025, on the page's tags,
-and the formal-conjectures statement file states the question as open and
-records the three credited bounds as variants without a formal proof.
+Search scope. On 2026-10-07 the site's page listed no proof claim, its
+discussion thread held one comment, of 18 November 2025, on the page's tags,
+and the formal-conjectures statement file stated the question as open and
+recorded the three credited bounds as variants without a formal proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

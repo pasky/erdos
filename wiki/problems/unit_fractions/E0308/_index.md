@@ -190,9 +190,9 @@ pointing at
 in Boris Alexeev's `lean-proofs` collection at the linked commit of 15
 September 2026; it states Croot's two floors as a further `sorry` variant
 (`research solved`, no pointer) and marks `erdos_308.variants.all_N`, the
-initial-segment property for every $N\ge1$, as `research open`. As of
-2026-10-07 the site's page shows the statement as formalized and links the
-statement file, and the community database records the problem as formalized
+initial-segment property for every $N\ge1$, as `research open`. On
+2026-10-07 the site's page showed the statement as formalized and linked the
+statement file, and the community database recorded the problem as formalized
 since 20 September 2026.
 The Alexeev file declares itself in its header a Lean formalization of a
 solution to Problem 308 with Croot and Yokota as informal authors and Codex,

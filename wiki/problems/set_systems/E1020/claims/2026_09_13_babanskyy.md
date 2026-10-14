@@ -101,6 +101,6 @@ proved in the paper, not in a proof assistant, so no formalization is reported;
 it grants no license to redistribute the paper.
 
 **Acceptance.** None: the manuscript is not refereed, and no outside reviewer
-has endorsed it. As of 2026-10-06 the forum entry had no comments and the site's
+has endorsed it. On 2026-10-06 the forum entry had no comments and the site's
 label was FALSIFIABLE. The site's commentary was last edited on 28
 December 2025.

@@ -135,7 +135,7 @@ The record names no individual reviewer. Both reviews were by Codex agents, and
 the proof file's header credits Codex with assistance in its development. No
 `refereed` evidence exists.
 
-As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
+The erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
 the problem OPEN, says the $k=4$ case remains open even for $r=1$, and lists
 Chan's proof claim. On that date, the formal-conjectures catalog file on its
 default branch agreed with the statement the site prints and tagged the theorem

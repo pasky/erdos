@@ -194,7 +194,7 @@ disproof of the statement for arbitrary sum-free $S$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit, including the variant's
-  proof; the community database as of 2026-09-18.
+  proof; the community database, read 2026-09-18.
 - arXiv: the API queries `abs:"sum-free" AND abs:continuum` (no records),
   `abs:"sum-free" AND abs:"real numbers"` (one record, on primitive sets, not
   this problem) and `abs:"pairwise sums" AND (abs:uncountable OR abs:continuum

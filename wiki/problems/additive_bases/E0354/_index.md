@@ -40,7 +40,7 @@ for some finite $S,T\subset \mathbb{N}$?
 
 What if $2$ is replaced by some $\gamma\in(1,2)$?
 
-**Formulation.** The site's wording as of 2026-09-28 (page last edited 1
+**Formulation.** The site's wording as accessed 2026-09-28 (page last edited 1
 December 2025; the history shows one earlier version, of 20 October 2025, with
 the same statement). Two questions. The first fixes its reading in the "That is"
 clause: indices, not values, are used at most once, so equal values
@@ -160,13 +160,13 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
 pinned to the default branch's revision of 2026-09-27 (the file's last change
 is of 2026-09-18): `erdos_354.parts.i` (base $2$) and `erdos_354.parts.ii`
 (`∃ γ ∈ Set.Ioo (1 : ℝ) 2, ...`), both `research open` with
-`answer(sorry)` as of 2026-09-28. The `FloorMultiples.interleave` definition
+`answer(sorry)` on 2026-09-28. The `FloorMultiples.interleave` definition
 was corrected on 3 December 2025 (PR #1330, index `n` to `n / 2`, fixing
 issue #1309; the earlier form is the misformalization the forum comment of
 1 December 2025 reports as disproved), and part (ii) received its bound
 base `γ` on 1 September 2026 (PR #5243; before that it passed the literal
 `2` and repeated part (i); PR #1519 of 7 January 2026 had made `γ` real).
-Open as of 2026-09-28: PR #6433 (20 September 2026, labels
+Open on 2026-09-28: PR #6433 (20 September 2026, labels
 `erdos-problems`, `solution found`) to record an affirmative part (i)
 from the Yu--Chen repository, with issue #6431 (20 September 2026, no
 labels); PR #5286 (5 September 2026, labels `erdos-problems`,
@@ -286,7 +286,7 @@ question is recorded as answered on this corpus's rebuild and kernel replay of
 the file on the repository's pinned toolchain (Lean v4.34.1) and its check of
 the target against the first question, as the claim page records, without
 refereeing, erdosproblems.com acceptance or formal-conjectures catalog agreement
-(as of 2026-09-28 the erdosproblems.com page labeled the problem OPEN, last
+(on 2026-09-28 the erdosproblems.com page labeled the problem OPEN, last
 edited 1 December 2025, its proof-claims tab listed one later full-proof claim,
 the Yu--Chen manuscript of 13 September 2026 with its own Lean formalization, no
 outside review, and PR

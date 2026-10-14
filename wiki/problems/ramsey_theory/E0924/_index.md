@@ -195,7 +195,7 @@ der Waerden's theorem analogous to the result of Nešetřil and Rödl" ([Sp75],
 Section 2, printed p. 279); [[problems/set_theory/E0595/_index|Problem 595]]
 asks the case $l=3$ for countably many colors, for an infinite $K_4$-free graph.
 
-**Search scope.** None of the routes below found a dispute of
+**Search scope (2026-09-18 UTC).** None of the routes below found a dispute of
 either theorem or an open copy of [NeRo76].
 
 - The site: problem page, discussion thread and proof-claim tab; the

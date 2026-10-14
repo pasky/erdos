@@ -126,7 +126,7 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
 **Formalization.** None. No file `ErdosProblems/465.lean` existed in
 google-deepmind/formal-conjectures on 2026-10-07, the site's page shows
 "Formalised statement? No (create one)", and the community database
-(teorth/erdosproblems, as of 2026-09-18) lists the problem as `proved`, as of
+(teorth/erdosproblems, read 2026-09-18) lists the problem as `proved`, as of
 its last update on 31 August 2025, and unformalized, with no formal-proof URL.
 
 ## Current assessment

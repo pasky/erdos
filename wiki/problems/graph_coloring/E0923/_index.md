@@ -60,8 +60,8 @@ posted by Parcly Taxel on 20 and 21 April 2026, and the copy in Boris Alexeev's
 repository that the formal-conjectures catalog cites, are links on the claim
 page; this corpus has not built any of them, so no `formalized` evidence is
 listed. The paper is not held in the library, and no proof coverage beyond the
-Crossref record of its statement is assessed. As of 2026-10-07 the problem's
-thread records no other claim.
+Crossref record of its statement is assessed. On 2026-10-07 the problem's
+thread recorded no other claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

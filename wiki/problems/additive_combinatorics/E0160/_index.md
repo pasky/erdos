@@ -41,7 +41,7 @@ $r_3(N)\le N\exp(-c(\log N)^{1/6}/\log\log N)$ [Ra26] gives
 $h(N)\gg\exp(c(\log N)^{1/6-o(1)})$. This derivation was posted as a comment on
 the problem's thread on 4 August 2026. As a thread post, it has no claim page.
 
-Two partial claims on the site's proof-claims tab (as of 2026-10-06) claim to
+Two partial claims on the site's proof-claims tab (accessed 2026-10-06) claim to
 lower the upper exponent, and the site has adopted neither. They are
 [[problems/additive_combinatorics/E0160/claims/2026_07_14_itabe|Itabe's bound $N^{1/3+o(1)}$]]
 (credited to GPT-5.6, with a Lean development that is unbuilt and unaudited

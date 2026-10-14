@@ -147,9 +147,9 @@ formalized evidence (a Lean build, axiom audit and comparator match in this
 corpus) and not independently reviewed or refereed; the notes under Known
 Results record it. The natural-density variant (Formulation) has no source and
 stays open. The site's label OPEN predates the claims, and the standing here
-departs from it (Status). The notes record the site's proof-claims thread as of
-2026-10-06 and the community database as of 2026-10-05; this page records no
-literature search beyond those sources.
+departs from it (Status). The notes record the site's proof-claims thread,
+accessed 2026-10-06, and the community database, read 2026-10-05; this page
+records no literature search beyond those sources.
 
 ## Known Results
 

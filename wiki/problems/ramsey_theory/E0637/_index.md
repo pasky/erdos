@@ -204,7 +204,7 @@ induced subgraphs.
 
 - The site: problem page, discussion thread and proof-claim tab; the full
   directory listing of formal-conjectures on its main branch (no file for
-  this problem); the community database as of 2026-09-18.
+  this problem); the community database, read 2026-09-18.
 - arXiv: the abstract page of 1910.01361 (one version, 13 pages, no journal
   reference carried); the API queries `abs:"distinct degrees" AND abs:Ramsey`
   (two records, 2409.14134 and 1910.01361) and

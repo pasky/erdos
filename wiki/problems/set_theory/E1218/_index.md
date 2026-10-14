@@ -81,7 +81,7 @@ https://www.erdosproblems.com/1218.
   prints "Probem"); cited by the site at p. 2. Library home:
   [[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|komjath_2025_erdos_hajnal_problem_list]].
 
-**Formalization.** None: the site records no formalized statement (as of
+**Formalization.** None: the site records no formalized statement (accessed
 2026-10-06).
 
 ## Current assessment

@@ -130,7 +130,7 @@ Sawhney prove the upper bound themselves.
 $N/((\log N)(\log\log N)^{3+o(1)})$ and $N/\log N$; nothing found narrows
 the window.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The site's problem, discussion and
 proof-claim pages as read on 2026-09-17; the community database record; the
 formal-conjectures directory listing; the arXiv listing for 2404.07113;
 the Oxford Academic article record; the Semantic Scholar citing-paper

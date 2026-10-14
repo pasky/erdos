@@ -92,8 +92,8 @@ been built here. Bergman's paper bounds the size of the gcd and not its
 largest prime factor, which is the subject of
 [[problems/factorials_binomials/E0699/_index|Problem 699]].
 
-Search scope. As of 2026-10-07 the site's discussion thread holds one post,
-of 2026-01-16, and its proof-claims page lists no claim for the problem. The
+Search scope. On 2026-10-07 the site's discussion thread held one post,
+of 2026-01-16, and its proof-claims page listed no claim for the problem. The
 formal-conjectures statement file is described above at its commit of
 2026-09-19 and the two Lean files at the commits the claim page links; none
 has been built here.

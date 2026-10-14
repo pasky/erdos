@@ -28,8 +28,8 @@ $$
 irrational?
 
 **Status.** The site labeled the problem PROVED and credits Borwein [Bo91]. The
-site was accessed 2026-09-04, and the page was last edited 2025-09-29. As of
-2026-10-06, the community database behind the site records the status as proved
+site was accessed 2026-09-04, and the page was last edited 2025-09-29. On
+2026-10-06, the community database behind the site recorded the status as proved
 with a Lean qualifier. That qualifier rests on the third-party lean-gallery
 development linked on the claim page. No build or audit of that development is
 recorded in this repository.
@@ -58,7 +58,7 @@ build or audit of it is recorded in this repository.
 ## Current assessment
 
 The site records Problem 1050 as proved (page last edited 2025-09-29, accessed
-2026-09-04), and as of 2026-10-06 the community database records the status as
+2026-09-04), and on 2026-10-06 the community database recorded the status as
 proved with a Lean qualifier, resting on the third-party lean-gallery
 development linked on the claim page. The site credits Borwein's 1991 theorem,
 which gives the irrationality of $\sum_{n\ge1}1/(q^n+r)$ for every integer

@@ -35,7 +35,7 @@ $$
 
 for some constant $c_\alpha$ depending only on $\alpha$.
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 18
 January 2026). If a coloring gives both colors more than an $\alpha$ share of
 the pairs on every set of at least $m$ vertices, it does so on every set of at
 least $m'$ vertices for each $m'\ge m$, so the admissible thresholds form an
@@ -172,7 +172,7 @@ that $F(n,\alpha)/\log n$ converges, a value of $c_\alpha$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures `563.lean` at the commit linked above; the community
-  database as of 2026-09-18.
+  database, read 2026-09-18.
 - arXiv: the abstract page of 0808.3760 (one version, no journal reference
   carried); the API queries `abs:Ramsey AND (abs:"both colours" OR abs:"both colors" OR abs:"each colour" OR abs:"each color") AND abs:"two-colouring"`
   (no records) and `abs:Ramsey AND abs:density AND abs:"every subset" AND abs:colouring`

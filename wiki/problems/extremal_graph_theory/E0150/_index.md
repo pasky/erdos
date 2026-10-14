@@ -28,9 +28,9 @@ a graph on $n$ vertices can have.
 
 Does $c(n)^{1/n}\to \alpha$ for some $\alpha <2$?
 
-**Formulation.** The site's wording as of 2026-09-19T06:45Z (page last edited 21
-June 2026). A minimal cut is an inclusion-minimal set of vertices whose removal
-disconnects the graph, Erdős's 1988 definition ("A subset
+**Formulation.** The site's wording as accessed 2026-09-19T06:45Z (page last
+edited 21 June 2026). A minimal cut is an inclusion-minimal set of vertices
+whose removal disconnects the graph, Erdős's 1988 definition ("A subset
 $x_{i_1},\dots,x_{i_t}$ is said to be a minimal cut if the omission of these
 vertices disconnects $G(n)$, but no subset $x_{i_1},\dots,x_{i_r}$ disconnects
 $G(n)$"). The question has two parts: that $c(n)^{1/n}$ converges, and that its
@@ -309,7 +309,7 @@ count throughout and proves no lower bound.
 **Search scope.** None of the routes below found a dispute
 of the bounds, a determination of $\alpha$, or a change of label.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures file at the pinned commit; the external
   Lean file and its notes page at the repository's head; the community
   database as fetched that day.

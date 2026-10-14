@@ -213,7 +213,7 @@ the strategy paragraph of Section 1.1; Sections 2--4 prove Theorems 1.3 and
 dispute of Raghavan's theorems, no sharper second-order result and no
 determination of the exact lower-order term.
 
-- The site: problem page, discussion thread and proof-claim tab as of that
+- The site: problem page, discussion thread and proof-claim tab on that
   date; the formal-conjectures directory listing and full tree (no file for
   this problem); the community database as read on 2026-09-18.
 - arXiv: the abstract page and API record of 2501.02695 (v1 6 January

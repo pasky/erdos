@@ -100,7 +100,7 @@ interval of width about $(\log\log x)^{1/2}$. Each fixes one width $F$ and
 settles no instance of the property, which quantifies over every $F$; the
 curator wrote on 2026-03-27 that the results Erdős describes do not really
 appear in that paper. No publication of the reported proofs for $\tau$ or
-$\omega$ was found as of 2026-10-07 in the site's page, remarks and
+$\omega$ was found on 2026-10-07 in the site's page, remarks and
 five-comment thread, the [EPS97] card or the formal-conjectures tree.
 <!-- BEGIN problem library links -->
 

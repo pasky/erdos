@@ -35,7 +35,7 @@ $$
 
 almost surely?
 
-**Formulation.** The site's wording as of 2026-09-18 (the page carries no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
 last-edited date). $\tau(G)$ is the $\tau(G)$ of [KRW88] and [Al15] and the
 $bc(G)$ of [ABH17]: "the minimum number of pairwise edge disjoint complete
 bipartite subgraphs of $G$ so that each edge of $G$ belongs to exactly one of
@@ -248,10 +248,10 @@ from its abstract, on a variant the site does not ask.
 **Search scope.** None of the routes below found a source restoring the
 equality, a dispute of the two theorems, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the site's reference text for [KRW88]; the formal-conjectures
-  directory listing and tree as of that day (no file 807); the community
-  database as of that day.
+  directory listing and tree on that day (no file 807); the community
+  database on that day.
 - The primary sources, at the pages cited: [Al15] pp. 1--2 and 13--14;
   [ABH17] pp. 1--2 and 6--8; [KRW88] printed pp. 637--638 and p. 653 (the
   references).

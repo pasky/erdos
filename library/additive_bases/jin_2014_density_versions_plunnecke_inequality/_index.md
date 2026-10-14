@@ -122,8 +122,9 @@ for Erdős's theorem is not used here: the existing
 [[additive_bases/erdos_1936_arithmetical_density_sum_two_sequences_one/_index|Erdős
 source]] records the primary paper's 1935 date and its Er36c archive key.
 
-**Alternative proofs and later literature.** A bounded search identified the
-following distinct sources. Their proofs remain outside this source's coverage.
+**Alternative proofs and later literature.** A bounded search on 5 September
+2026 identified the following distinct sources. Their proofs remain outside this
+source's coverage.
 
 - J. L. Malouf, “On a Theorem of Plünnecke Concerning the Sum of A Basis and
   A Set of Positive Density,” *Journal of Number Theory* 54 (1995), 12–22,

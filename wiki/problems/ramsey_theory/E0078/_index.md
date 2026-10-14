@@ -55,11 +55,11 @@ vertices with no clique or independent set of size $(\log N)^c$, for an
 unspecified constant $c>1$. This inverts to the constructive bound
 $R(k)>2^{k^{1/c}}$, which is subexponential in $k$. Cohen's earlier
 $2^{(\log\log n)^{O(1)}}$ (2015; STOC 2016) and the classical constructions
-listed in its Table 1 are weaker. The search whose scope the Current assessment
-records found no explicit construction reaching $O(\log n)$, and no proof that
-none exists. This is a bounded negative finding, not a certificate of openness.
-Erdős offered a prize for a constructive proof in 1981, 1988, 1993, 1995
-and 1997.
+listed in its Table 1 are weaker. The search dated 2026-09-18 UTC whose scope
+the Current assessment records found no explicit construction reaching
+$O(\log n)$, and no proof that none exists. This is a bounded negative finding,
+not a certificate of openness. Erdős offered a prize for a constructive proof in
+1981, 1988, 1993, 1995 and 1997.
 
 **Source.** [erdosproblems.com/78](https://www.erdosproblems.com/78),
 accessed 2026-09-18: the problem page (OPEN, with
@@ -276,7 +276,7 @@ construction. The 2025 ECCC report TR25-049 of Li and Zhong on range
 avoidance is known here from its abstract page only, which does not
 mention Ramsey graphs.
 
-**Search scope.** None of the routes below found an
+**Search scope (2026-09-18 UTC).** None of the routes below found an
 explicit $O(\log n)$-Ramsey graph, a constructive exponential lower bound
 for $R(k)$, or a proof claim.
 

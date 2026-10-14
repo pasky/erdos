@@ -63,10 +63,10 @@ is an accepted conditional claim. It gives the second question only under an
 open independence conjecture and derives nothing.
 
 For the first question, no proof, disproof, preprint or proof claim that
-$(a_n,L_n)=1$ infinitely often was found in the search whose scope the Current
-assessment records. Shiu's paper states it as a conjecture. Wu and Yan's theorem
-is conditional and concerns the other half. This is a bounded negative finding,
-not a certificate of openness.
+$(a_n,L_n)=1$ infinitely often was found in the search dated 2026-09-18 UTC
+whose scope the Current assessment records. Shiu's paper states it as a
+conjecture. Wu and Yan's theorem is conditional and concerns the other half.
+This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/291](https://www.erdosproblems.com/291),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no
@@ -307,7 +307,7 @@ manuscript.
   through $10^4$ agree with an exact recomputation; the rest is unverified,
   and the report proves nothing about the open question.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 file at the pinned commit; the external Lean file above (GitHub API for
 its last commit; the raw file); the arXiv listing for 1607.02863

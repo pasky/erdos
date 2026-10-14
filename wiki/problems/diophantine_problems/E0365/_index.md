@@ -87,7 +87,7 @@ The second part, whether the number of $n\le x$ with $n$ and $n+1$ both
 powerful is $(\log x)^{O(1)}$, is unsettled. The Pell-equation families grow
 exponentially, so each contributes $O(\log x)$ pairs up to $x$, and the
 question is whether the pairs are confined to boundedly many such families in
-effect. The problem's thread (three comments as of 2026-10-07, no proof
+effect. The problem's thread (three comments, accessed 2026-10-07, no proof
 claim) records, in a comment of 2026-03-28
 ([post](https://www.erdosproblems.com/forum/thread/365#post-5072)), a 2017
 paper of Aktaş and Murty giving the upper bound $O(x^{2/5})$ for the count,
@@ -97,7 +97,7 @@ concern pairs of odd powerful numbers at distance $2$ and differences of
 powerful numbers, which are adjacent questions.
 
 Search scope: the site's problem page as exported (last edited 31 October
-2025), its thread as of 2026-10-07, the community database entry, the
+2025), its thread, accessed 2026-10-07, the community database entry, the
 formal-conjectures tree (no statement file), Ren's Lean package and the
 library cards for Walker and Guy; no forum proof claim and no OpenAI release
 item names this problem. No wider literature search was made.

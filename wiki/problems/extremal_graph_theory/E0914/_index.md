@@ -214,9 +214,9 @@ problem was found.
 of the theorem or a change of status.
 
 - The site: problem page, discussion thread and proof-claim tab; the site's
-  reference text for [Er67b]; the formal-conjectures file as of 2026-09-19;
+  reference text for [Er67b]; the formal-conjectures file, read 2026-09-19;
   the external Lean file at the repository's head of 15 September 2026 and
-  the repository's notes file; the community database entry as of
+  the repository's notes file; the community database entry, read
   2026-09-19.
 - Crossref: the records of doi:10.1007/s00493-010-2483-5 ([KKMS10]) and
   doi:10.1017/S0963548307008619 ([KiKo08]).

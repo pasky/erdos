@@ -51,8 +51,8 @@ hence $f_r(N)\le N^{o(1)}$, by inserting the Alweiss–Lovett–Wu–Zhang sunfl
 bound into Erdős's 1964 argument. The corpus has not checked that derivation.
 Erdős conjectured that the lower bound gives the right order. No source
 determining the order of $f_r(N)$, and no proof claim, was found in the search
-whose scope the Current assessment records. This is a bounded negative finding,
-not a certificate of openness.
+dated 2026-09-18 UTC whose scope the Current assessment records. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/535](https://www.erdosproblems.com/535),
 accessed 2026-09-18: the problem page (OPEN, with the label text saying the
@@ -305,13 +305,13 @@ proof-claim tab carries no entry for it. The corpus has not checked the note.
 The Abbott–Gardner paper of 1967 shows that the same doubt about priority
 applies to any exposition of Erdős's argument.
 
-**Search scope.** None of the routes below found a source
+**Search scope (2026-09-18 UTC).** None of the routes below found a source
 determining the order of $f_r(N)$ for fixed $r$, a bound below
 $N^{O(\log\log\log N/\log\log N)}$, a lower bound above
 $N^{c_r/\log\log N}$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file at the pinned commit; the community database as of
+  formal-conjectures file at the pinned commit; the community database, read
   2026-09-18; the site's reference endpoint for
   [AbHa67] (404).
 - arXiv: the abstract pages of 1908.08483 (three versions; v3 "took into
@@ -337,7 +337,7 @@ rests on Erdős's 1973 attestation and the site; reopening condition: a readable
 copy of Bull. London Math. Soc. 2 (1970), 324--326. (2) The key [AbHa67] is
 dangling on the site; the identification above is a guess. (3) The $N^{o(1)}$
 upper bound is the site's derivation and the note's calculation; no refereed
-account of the modern bound was found in the search, and the
+account of the modern bound was found in the search of 2026-09-18, and the
 corpus has not redone the arithmetic. (4) Proof coverage is at statement level:
 the 1964 theorem is compiled with a proof pointer, the sunflower theorem as a
 statement; nothing is independently reviewed. (5) The passages of [Er73]

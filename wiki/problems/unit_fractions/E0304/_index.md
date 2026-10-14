@@ -204,7 +204,7 @@ Claims implies it.
 
 **Site and database state.** The site showed OPEN (last edited 29 December
 2025), one comment and no proof claim; the van Doorn claim above is posted on
-the proof-claims tab of Problem 18 (submitted 2026-09-16; as of 2026-10-05
+the proof-claims tab of Problem 18 (submitted 2026-09-16; on 2026-10-05
 no comments, not accepted, not on arXiv, and no commits to its repository
 after 16 September 2026); the community database says open; formal-conjectures
 marked `upper_bound` `research open` until 11 October 2026 and then

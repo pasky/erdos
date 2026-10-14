@@ -67,7 +67,7 @@ https://www.erdosproblems.com/804.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3a399b0c007be6005fdf4651e2e9da8fa8502500/FormalConjectures/ErdosProblems/804.lean),
-file `ErdosProblems/804.lean`, added on 2026-09-20. As of that commit it
+file `ErdosProblems/804.lean`, added on 2026-09-20. At that commit it
 defines $f(m,n)$ in the two-variable reading of the Formulation (the
 threshold $\log n$ rounded up), states the two displayed questions as
 `erdos_804.parts.i` and `erdos_804.parts.ii`, each answered `False`, and the

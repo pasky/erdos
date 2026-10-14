@@ -47,7 +47,7 @@ declarations are distinguished below.
 
 **Source.** T. F. Bloom, Erdős Problem #298,
 https://www.erdosproblems.com/298, accessed 2026-09-05. The site's original
-references are [ErGr80] and [Er92c]. As of that date the discussion and
+references are [ErGr80] and [Er92c]. On that date the discussion and
 proof-claim pages had no comments or proof claims.
 
 **References.**

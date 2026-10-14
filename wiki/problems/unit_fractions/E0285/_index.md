@@ -160,7 +160,7 @@ not built or audited the development, and the Lean statement has not been
 compared clause by clause with the site's; the claim page lists no
 `formalized` evidence.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages as accessed 2026-09-17; the community database record; the
 formal-conjectures file at the pinned commit; the arXiv listing for
 math/9811112 (one

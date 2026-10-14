@@ -95,7 +95,7 @@ under `category research open` with proof `sorry`; `claim2_inequality`,
 the weak inequality, is left as `sorry` under `category textbook`; and
 `erdos_317.variants.counterexample` proves that strictness fails at $n=4$
 with the coefficients $(0,1,-1,-1)$. The community database
-(teorth/erdosproblems, `data/problems.yaml` as of 2026-09-18)
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-09-18)
 records status open (31 August 2025), a formalized
 statement (18 November 2025), formal status unformalized and no OEIS entry.
 No external Lean artifact is linked from the thread; a prize-program pull

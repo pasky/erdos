@@ -49,8 +49,9 @@ on the diagonal to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the site's commentary
 prints $4n-8$). With the lower bound for $R(3,k)$, their Theorem 2 gives the
 two-step bound $R(n+2)-R(n)\gg n^2/\log n$. Nothing in hand bounds $R(n+1)/R(n)$
 away from $1$, proves $R(n+1)-R(n)\gg n^2$, or refutes either question. No
-source doing so was found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
+source doing so was found in the search dated 2026-09-18 UTC whose scope the
+Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/812](https://www.erdosproblems.com/812),
 accessed 2026-09-18: the problem page (OPEN, marked
@@ -206,7 +207,7 @@ or ratios: of the words "consecutive", "$R(n+1)$", "$R(k+1)$" and
 "difference", its text has one unrelated occurrence, so it is negative
 evidence about recent work, not a result.
 
-**Search scope.** None of the routes below found a bound
+**Search scope (2026-09-18 UTC).** None of the routes below found a bound
 on $R(n+1)/R(n)$ away from $1$, a bound $R(n+1)-R(n)\gg n^{1+\delta}$ for
 any $\delta>0$, a disproof, or a proof claim.
 

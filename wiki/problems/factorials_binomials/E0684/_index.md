@@ -130,7 +130,7 @@ has a claim page and both are recorded here.
   remarks to Tang and ChatGPT; recorded on the claim page
   [[problems/factorials_binomials/E0684/claims/2026_01_19_tang|Tang 2026]].
 
-Search scope. As of 2026-10-05 the site showed OPEN (last edited 1 April 2026)
+Search scope. On 2026-10-05 the site showed OPEN (last edited 1 April 2026)
 and did not mention Bae's or Li's results; the community database says open and
 unformalized; there is no conjectures.io or formal-conjectures entry. The open
 gap is the worst-case order of $f(n)$, between

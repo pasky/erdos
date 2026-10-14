@@ -49,7 +49,7 @@ https://www.erdosproblems.com/752.
   keys; the site's commentary names Erdős, Faudree and Schelp.
 
 **Formalization.** No native Lean proof. The formal-conjectures repository
-holds no statement of the problem as of 2026-10-07, and the community
+held no statement of the problem on 2026-10-07, and the community
 database records the problem proved and unformalized (snapshot of
 2026-10-06). Boris Alexeev's lean-proofs repository holds
 `src/latest/ErdosProblems/Erdos752.lean` (added 17 August 2026), which
@@ -65,7 +65,7 @@ This corpus has neither built nor audited it.
 PROVED; the commentary credits the theorem to Sudakov and Verstraëte and
 the case $s=2$ to Erdős, Faudree and Schelp. The community database records
 the problem proved and unformalized (snapshot of 2026-10-06), and the
-formal-conjectures repository holds no statement of it as of 2026-10-07.
+formal-conjectures repository held no statement of it on 2026-10-07.
 
 **Status support.** The frontmatter's `claim: proved` derives from the
 accepted full claim on the page
@@ -86,7 +86,7 @@ Section 2 were read far enough to record the constant the proof delivers;
 [EFRS99] is not held and is known through the introduction of [SuVe08] and
 the site's commentary. The sources consulted are the site's page (accessed
 2026-09-04), the community database (snapshot of 2026-10-06), the
-formal-conjectures tree (as of 2026-10-07), Boris Alexeev's lean-proofs
+formal-conjectures tree (read 2026-10-07), Boris Alexeev's lean-proofs
 repository at the commit linked on the claim page, and the Crossref records
 of both papers. No independent proof review of either paper is supplied.
 

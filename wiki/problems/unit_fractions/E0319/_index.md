@@ -69,9 +69,9 @@ would give $c(N)$ the order $N$. The one claim on the site's proof-claim tab is
 an
 [[problems/unit_fractions/E0319/claims/2026_07_16_popular_12345|AI-assisted partial claim of 16 July 2026]]
 that $c(N)=N-o(N)$. It is pending. No determination of the asymptotic, and no
-proof that $c(N)=(1-o(1))N$, was found in the search whose scope the Current
-assessment records. This is a bounded negative finding, not a certificate of
-openness.
+proof that $c(N)=(1-o(1))N$, was found in the search dated 2026-09-18 UTC whose
+scope the Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/319](https://www.erdosproblems.com/319),
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a
@@ -182,7 +182,7 @@ with its links and the one comment under it; the site says appearing on the
 tab is no guarantee of correctness. The manuscript and the Lean files are
 unchecked by this corpus, and a partial claim derives no standing.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit (statement only); the arXiv listing for
 math/9904181 (one version, no journal reference) and the Crossref record

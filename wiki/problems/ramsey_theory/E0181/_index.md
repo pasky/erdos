@@ -42,15 +42,15 @@ be false" ([Er81], p. 13).
 
 **Status.** Open: the site labeled the problem OPEN (accessed 2026-09-18). The
 derived standing is claimed, through the claim page of a preprint that appeared
-after the search described here. The best bounds located in that search, whose
-scope the Current assessment records, are the following. The first is the
-trivial $R(Q_n)\ge2^n$, since a copy of $Q_n$ needs $2^n$ vertices. The second
-is Tikhomirov's $R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$,
-that is $R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120 (2024), 103954,
-refereed; cited from the arXiv v3). The search found no proof of the linear
-bound, no counterexample, no preprint and no proof claim. This is a bounded
-negative finding, not a certificate of openness. After that search, the OpenAI
-release's preprint of 23 September 2026 claimed the linear bound
+after the search described here. The best bounds located in that search dated
+2026-09-18 UTC, whose scope the Current assessment records, are the following.
+The first is the trivial $R(Q_n)\ge2^n$, since a copy of $Q_n$ needs $2^n$
+vertices. The second is Tikhomirov's $R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$
+with $c=0.03656$, that is $R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120
+(2024), 103954, refereed; cited from the arXiv v3). The search found no proof of
+the linear bound, no counterexample, no preprint and no proof claim. This is a
+bounded negative finding, not a certificate of openness. After that search, the
+OpenAI release's preprint of 23 September 2026 claimed the linear bound
 $R(Q_n)\le C2^n$ in full. The claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
@@ -292,7 +292,7 @@ pp. 1--2); it is a coloring number of the cube's
 edges, contains no statement about $R(Q_n)$, and is recorded as 2026 work
 on hypercube colorings, not as progress.
 
-**Search scope.** None of the routes below found a proof
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof
 of $R(Q_n)\ll2^n$, a counterexample, a bound better than [Ti22]'s, a
 preprint or a proof claim.
 

@@ -263,9 +263,9 @@ proof, disproof, preprint or claim on the full series.
   solutions (none names this problem).
 - The primary sources [Er48], [Er57], [ErGr80], [Er88c], [Pr24] and
   [TaTe25], read as stated above.
-- A separate check by web search and by reading author pages and a
-  formal-conjectures issue found no proof, disproof, announcement, or
-  acceptance of a resolution. The [Plectis author
+- A separate check on 2026-09-16 (America/Los_Angeles) by web search and by
+  reading author pages and a formal-conjectures issue found no proof, disproof,
+  announcement, or acceptance of a resolution. The [Plectis author
   page](https://wcook04.github.io/plectis/maths/problems/erdos_249.html) and
   [formal-conjectures issue
   5037](https://github.com/google-deepmind/formal-conjectures/issues/5037)

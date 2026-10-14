@@ -73,9 +73,9 @@ published online 22 February 2016, which is the paper link's date. `reviewed`:
 the curator of erdosproblems.com, T. F. Bloom, labeled the problem DISPROVED. In
 its commentary the curator records that this paper proves
 $\tau(G)\le n-(1+c)\alpha(G)$ almost surely for an absolute constant $c>0$
-(the site's page as of 2026-09-18, with an empty thread and an empty proof-claim
-tab). The `discussion` link is the site's page that showed the label. The cited
-version is the arXiv version, the only one, on its
+(the site's page, accessed 2026-09-18, with an empty thread and an empty
+proof-claim tab). The `discussion` link is the site's page that showed the
+label. The cited version is the arXiv version, the only one, on its
 [[../library/extremal_graph_theory/alon_2017_more_bipartite_decomposition_random_graphs/_index|source card]].
 Theorem 1.1 and inequality (1) are checked statements (p. 2). The proof (Section
 3, pp. 3--6) is not checked, and the journal text is not held.

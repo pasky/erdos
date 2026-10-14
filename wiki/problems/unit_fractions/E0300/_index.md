@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 \{1,\ldots,N\}$ such that $\sum_{n\in S}\frac{1}{n}\neq 1$ for all $S\subseteq
 A$. Estimate $A(N)$.
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited
 23 January 2026). $A(N)$ is the largest size of a subset
 of $\{1,\ldots,N\}$ none of whose subsets has reciprocal sum one. For any
 fixed $\gamma>0$ and large $N$ the integers in $((1/e+\gamma)N,N]$ have
@@ -98,7 +98,7 @@ frontmatter standing is derived from these pages.
 $A(N)=(1+o(1))N$, that Croot disproved this by showing $A(N)<cN$ for some
 constant $c<1$ and all large $N$, that $A(N)\ge(1-1/e+o(1))N$ is trivial,
 and that Liu and Sawhney proved $A(N)=(1-1/e+o(1))N$. It links OEIS
-A390393. As of 2026-09-17 the thread and the proof-claim tab were empty.
+A390393. On 2026-09-17 the thread and the proof-claim tab were empty.
 The community database lists the problem as solved (Lean), with a last
 update of 24 August 2026, and its statement as formalized, with a last update
 of 20 September 2026.
@@ -145,7 +145,7 @@ with no unit subsum, beginning $0,1,2,3,4,4,5,6,7,8,9,10,11,12,12,\ldots$,
 and cites the site and the Liu–Sawhney asymptotic. Its terms were not
 verified here.
 
-**Search scope.** The search covered the site's problem,
+**Search scope (2026-09-17).** The search covered the site's problem,
 discussion and proof-claim pages; the community database record; the
 formal-conjectures tree, which had no file for Problem 300 on 2026-09-17; the
 directory `src/v4.29.1/ErdosProblems` of Boris Alexeev's `lean-proofs`

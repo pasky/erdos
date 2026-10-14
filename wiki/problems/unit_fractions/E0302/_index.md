@@ -68,14 +68,14 @@ Since $5/8>1/2$, the site's particular guess $f(N)=(1/2+o(1))N$ fails. That
 negative answer is Cambie's partial claim. It is pending because the site's
 commentary credits it while the site's label was OPEN, which the site kept for
 the estimation question. No proof, disproof or accepted determination of the
-asymptotic constant was found in the search whose scope the Current assessment
-records.
+asymptotic constant was found in the search dated 2026-09-17 UTC whose scope the
+Current assessment records.
 
 **Source.** [erdosproblems.com/302](https://www.erdosproblems.com/302),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that no
 finite computation can resolve the problem; source keys [ErGr80] and [BrRo91];
 no last-edited date shown), its discussion thread (two comments, of 5 July and
-25 September 2026, as of 2026-10-07) and its proof-claim tab with two partial
+25 September 2026, accessed 2026-10-07) and its proof-claim tab with two partial
 claims (20 July and 13 September 2026). The site thanks Stijn Cambie, Zachary
 Hunter, Mehtaab Sawhney and Wouter van Doorn. Cite as: T. F. Bloom, Erdős
 Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
@@ -236,7 +236,7 @@ the frontmatter is open, claim none.
 None of the three pending claims from the tab and the thread has acceptance
 evidence or independent review, and none changes the standing.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit; the GitHub API for the commit history of the
 note's file in `Woett/Mathematical-shorts` (one commit, 11 August 2025) and

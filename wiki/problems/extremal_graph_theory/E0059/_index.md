@@ -137,7 +137,7 @@ page. The site's label and the Lean development both postdate the refereed
 disproof and add no acceptance evidence to it.
 
 **Search scope.** The site's problem page, thread and proof-claim tab; the
-community database as of 2026-10-06; the formal-conjectures directory listing
+community database, read 2026-10-06; the formal-conjectures directory listing
 at `main`; the catalogs of
 plby/lean-proofs and Jayyhk/erdos-lean with the headers and histories of
 their Problem 59 files; the arXiv API record of 1309.2927 (v1 11 September

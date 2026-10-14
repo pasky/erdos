@@ -285,7 +285,7 @@ the exponent of $k$, so the cases $n=2$ and $n=3$ remain open, as the site
 says. Nothing here is independently reviewed; the comparison is elementary
 and unreviewed, and it is not a status.
 
-**Forum and AI-assisted items.** The discussion thread (as of 2026-09-17;
+**Forum and AI-assisted items.** The discussion thread (accessed 2026-09-17;
 the site does not verify comments): a comment of 1
 August 2026 by the forum user mysticflounder reports, crediting Claude
 with an adversarial audit by GPT 5.6 and linking a GitHub gist, that the

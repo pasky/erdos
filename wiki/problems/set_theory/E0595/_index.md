@@ -68,7 +68,7 @@ the open part of the problem: a ZFC construction would answer the question
 outright, and a ZFC proof that no such graph exists would contradict Shelah's
 result and so would show ZFC inconsistent. Any such graph has more than
 $2^{\aleph_0}$ vertices, as the Known Results explain. No formal proof is
-recorded: the formal-conjectures statement file, as of 2026-10-07, marks only
+recorded: the formal-conjectures statement file, read 2026-10-07, marks only
 the finite analog research solved, and the community database lists the problem
 as open.
 

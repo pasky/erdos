@@ -54,8 +54,9 @@ journal submission was planned. Korsky's bound settles no instance of the
 question, so it has no claim page. A construction shows that no bound better
 than $\exp(-(1+o(1))K\log K)$ holds for all multisets (the site's thread;
 display (1.4) of the preprint's first version). The conjectured exponential rate
-is open. No proof, disproof or proof claim for it was found in the search whose
-scope the Current assessment records. This is a bounded negative finding.
+is open. No proof, disproof or proof claim for it was found in the search dated
+2026-09-18 UTC whose scope the Current assessment records. This is a bounded
+negative finding.
 
 **Source.** [erdosproblems.com/312](https://www.erdosproblems.com/312),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's
@@ -200,7 +201,7 @@ the sources give it, not independently rechecked.
 **Formal statements.** The formal-conjectures statement is summarized under
 Formalization; nothing beyond it exists.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit; the arXiv listing for 2607.04157 (v1 only on 2026-09-18; v1
 and v2 on 2026-10-13; no journal reference) and Crossref bibliographic

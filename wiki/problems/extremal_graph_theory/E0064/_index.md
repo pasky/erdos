@@ -102,7 +102,7 @@ resolution.
 finite graph whose degrees and cycle lengths can be checked directly; no
 counterexample is known, and the label asserts nothing about the answer.
 
-**Claims on the site (proof-claims tab and thread as of 2026-10-07; page
+**Claims on the site (proof-claims tab and thread, accessed 2026-10-07; page
 last edited 10 April 2026, labeled FALSIFIABLE).** Three proof claims are
 registered on the tab as partial. Duran Ballester's Zenodo working paper
 ([[problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester|claim page]])

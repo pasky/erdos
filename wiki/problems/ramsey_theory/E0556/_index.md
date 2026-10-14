@@ -163,8 +163,8 @@ T. F. Bloom, Erdős Problem #556, https://www.erdosproblems.com/556, accessed
   its links.
 
 **Formalization.** None. formal-conjectures had no file `ErdosProblems/556.lean`
-on its main branch as of 2026-10-07; the site's page records no formalized
-statement, and the community database (teorth/erdosproblems, as of 2026-10-06)
+on its main branch on 2026-10-07; the site's page records no formalized
+statement, and the community database (teorth/erdosproblems, read 2026-10-06)
 records the problem as decidable and unformalized, with no formal-proof URL and
 OEIS A389335.
 
@@ -186,7 +186,7 @@ statement is false for $n=3$ since $R_3(C_3)=R(3,3,3)=17>9$, that OEIS A389335
 and Radziszowski's "Small Ramsey Numbers" survey state the conjecture with
 $n\ge4$, that Erdős's 1981 formulation likewise gives no restriction, and asking
 that $n\ge4$ be added. The proof-claim tab is empty. The community database
-record (as of 2026-10-06) says decidable (last updated 31 August 2025), not
+record (read 2026-10-06) says decidable (last updated 31 August 2025), not
 formalized, OEIS A389335.
 
 **Origin.** The site's source [Er81c] states the problem in Erdős's own words

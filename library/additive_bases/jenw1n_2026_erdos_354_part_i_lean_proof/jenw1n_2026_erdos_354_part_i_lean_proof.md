@@ -4,7 +4,7 @@ title: Source record for the Conjectures.io proof of Problem 354 part (i)
 desc: |
   Record identity, the site's dates and review decision, its verification
   report, the task's pinned statement and the public standing of the result
-  as of 2026-09-28.
+  on 2026-09-28.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-05T05:52:35Z
 ---

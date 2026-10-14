@@ -125,8 +125,8 @@ and the site's label was OPEN (page last edited 2025-09-14); no named
 mathematician has examined the write-up, there is no refereed publication and
 no Lean development. The author reports not having
 found the theorem in the literature, while noting that three recent papers on
-restricted order were read only through their abstracts and reviews. As of
-2026-10-06 nothing in the thread records an examination of the proof by
+restricted order were read only through their abstracts and reviews. On
+2026-10-06 nothing in the thread recorded an examination of the proof by
 anyone else.
 
 **Depends on.** Nothing in this wiki.

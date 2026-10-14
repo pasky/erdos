@@ -43,7 +43,7 @@ two roots. Two readers reported checks, and Cook formalized one member of the
 family in Lean. The formal-conjectures catalog marked the problem solved with
 answer false on 2026-09-23. Meanwhile the site labeled the problem FALSIFIABLE,
 and the community database records it as falsifiable (status dated 2025-09-15,
-as of 2026-10-06). No human review is documented.
+read 2026-10-06). No human review is documented.
 
 The site's proof-claims tab carries one partial proof claim, the cubic case, and
 records no acceptance. Partial claims argue the affirmative for degree three
@@ -110,7 +110,7 @@ proofs nor the Lean file are compiled or audited in this wiki.
 
 Search scope: the site's problem page as exported (last edited 06 December
 2025), its discussion thread (51 comments) and proof-claims tab with the
-four comments on the cubic claim (as of 2026-10-07), the community
+four comments on the cubic claim (accessed 2026-10-07), the community
 database entry (falsifiable), the formal-conjectures file and the pinned
 Lean file it links, the Plectis repository at its cited revisions, the arXiv
 record of the quartic preprint and the Zenodo record of the cubic preprint;

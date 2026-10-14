@@ -172,7 +172,7 @@ undated commentary.
 Chen [Ch06] and Fang--Chen [FaCh08] are the thread's leads; neither is
 held.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit; Crossref records for [Sa97], [Ch06] and [FaCh08]
 (DOI lookup and bibliographic queries); an arXiv API search for

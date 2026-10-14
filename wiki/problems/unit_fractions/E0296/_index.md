@@ -72,7 +72,7 @@ source and [Bl21] in its commentary. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** Statement in
 [`ErdosProblems/296.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/296.lean)
-of formal-conjectures, as of 2026-09-17, with an external proof tag; the
+of formal-conjectures with an external proof tag; the
 thread links a conditional and an unconditional Lean 4 file. None was built
 by this corpus. See Existing formalization.
 
@@ -192,7 +192,7 @@ under `category research solved` with proof `sorry` and the attribute
 `formal_proof using lean4 at` the file
 `src/v4.29.1/ErdosProblems/Erdos296.lean` of the collection
 `plby/lean-proofs`. This is the two-sided estimate above, not the yes-or-no
-question. The external file (branch main, as of 2026-09-17, linked from
+question. The external file (branch main on 2026-09-17, linked from
 the claim page at that revision) names Bloom, Hunter and
 Sawhney as informal authors and "Aristotle" and John Jennings as formal
 authors, with a copyright line "John Jennings, Aristotle (Harmonic)"; it

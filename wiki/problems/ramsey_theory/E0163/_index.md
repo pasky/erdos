@@ -25,11 +25,11 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** For any $d\geq 1$ if $H$ is a graph such that every subgraph
 contains a vertex of degree at most $d$ then $R(H)\ll_d n$.
 
-**Formulation.** The site's wording as of 2026-09-18T10:39Z (page last edited 22
-January 2026). Here $n=|V(H)|$, $R(H)$ is the least $N$ such that every red-blue
-coloring of the edges of $K_N$ contains a monochromatic copy of $H$, and
-"$R(H)\ll_dn$" means $R(H)\le c(d)\,n$ with $c(d)$ depending only on $d$. A
-graph in which every subgraph has a vertex of degree at most $d$ is
+**Formulation.** The site's wording as accessed 2026-09-18T10:39Z (page last
+edited 22 January 2026). Here $n=|V(H)|$, $R(H)$ is the least $N$ such that
+every red-blue coloring of the edges of $K_N$ contains a monochromatic copy of
+$H$, and "$R(H)\ll_dn$" means $R(H)\le c(d)\,n$ with $c(d)$ depending only on
+$d$. A graph in which every subgraph has a vertex of degree at most $d$ is
 $d$-degenerate. The conjecture was stated by Burr and Erdős in 1975 for sets of
 graphs of bounded arboricity, adding that it "could equally well have been
 stated" for the edge density $\max_{F\subseteq G}e(F)/|V(F)|$; their Lemma 3.3

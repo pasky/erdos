@@ -92,7 +92,7 @@ https://www.erdosproblems.com/305, accessed 2026-09-17.
   Erdős. J. Number Theory 24 (1986), 89--94; Denominators of Egyptian
   fractions. J. Number Theory 28 (1988), 258--271. The two earlier papers of
   the series, as cited by Liu and Sawhney; paywalled, with no open copy
-  found (arXiv, zbMATH, publisher). They are historical
+  found on 2026-09-17 (arXiv, zbMATH, publisher). They are historical
   context, not the status source.
 - [LiSa24] Liu, Y. P. and Sawhney, M., On further questions regarding unit
   fractions. arXiv:2404.07113v1 (10 April 2024); Int. Math. Res. Not. IMRN
@@ -109,9 +109,9 @@ with $D(b)\le Cb(\log b)^{1+\delta(b)}$ for all large $b$) `by sorry` with a
 [`src/latest/ErdosProblems/Erdos305.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos305.lean)
 in Boris Alexeev's `lean-proofs` collection at the linked commit of 15
 September 2026, and the Bleicher–Erdős bound, the prime lower bound,
-Yokota's bound and Liu and Sawhney's bound as further `sorry` variants. As
-of 2026-10-07 the site's page shows the statement as formalized and links
-the statement file, and the community database records the problem as
+Yokota's bound and Liu and Sawhney's bound as further `sorry` variants. On
+2026-10-07 the site's page showed the statement as formalized and linked
+the statement file, and the community database recorded the problem as
 formalized since 20 September 2026; the site's status label carried no Lean
 suffix. The top file of the Alexeev development declares itself a Lean
 formalization of the affirmative resolution of Problem 305 with informal
@@ -165,7 +165,7 @@ iterated-logarithm bound quoted by the site; the site's solving citation is
 among them a 1991 J. Number Theory paper on a problem of Erdős and Graham
 and the 2025 Bettin–Grenié–Molteni–Sanna paper on counting Egyptian
 fractions; none of the five improves the bound for $D(b)$. The paper is
-paywalled, and no open copy was found (arXiv search `Yokota
+paywalled, and no open copy was found on 2026-09-17 (arXiv search `Yokota
 AND Egyptian`: no record; zbMATH lists the 1986 and 1988 papers without
 links to copies; the publisher offers none). The statement is the one the
 zbMATH review (Zbl 0652.10015, by Ke Zhao) gives:
@@ -183,8 +183,8 @@ published version. On the same page the authors attribute
 $D(a,b)\gg b(\log b)(\log\log b)^{1-o(1)}$ to part II, which is consistent
 with the exponent $1$ being sharp.
 
-**Search scope.** Routes; none found a retraction, a dispute, or a later
-improvement of the bound.
+**Search scope (2026-09-17 UTC).** Routes; none found a retraction, a dispute,
+or a later improvement of the bound.
 
 - The site's three pages (no comments, no claims); the community database
   (proved, unformalized); formal-conjectures (no file).

@@ -54,8 +54,8 @@ enumeration, checking that all 12,346 graphs on 8 vertices are 3-cocolorable and
 all 1,449,166 graphs on 12 vertices with no $K_4$ in the graph or its complement
 are 4-cocolorable, a route that avoids the chromatic-number reduction of
 [[problems/graph_coloring/E0758/claims/2024_09_15_mehta|Mehta's computation]];
-the deposit credits these re-derivations to Claude Opus 5. The site's page
-records $z(20)$ as unknown as of 2026-10-07, and on that date the site and its
+the deposit credits these re-derivations to Claude Opus 5. On 2026-10-07 the
+site's page recorded $z(20)$ as unknown, and on that date the site and its
 thread, the community database, the Justin Sun Prize awards repository,
 Crossref and Zenodo showed no refereed or independently verified account.
 

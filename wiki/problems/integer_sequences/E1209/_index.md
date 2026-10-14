@@ -269,7 +269,7 @@ axioms` line; `no_universal_prime_shift` is the negation of the collection's
 here, no axiom report exists in the file, and the collection's attribute points
 at a branch, not a commit.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 refereed source for any of the six questions or a result on (iii.b),
 (iii.c) or (iii.d).
 

@@ -75,7 +75,7 @@ exists; the Lean proof lives in Boris Alexeev's repository and is linked from
 the claim page. The file is third-party Lean that this corpus has not built,
 so the claim lists no `formalized` evidence.
 
-Search scope: the site's problem page, the community database
+Search scope, 2026-10-07: the site's problem page, the community database
 (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures project
 and the Lean repository named above; no claim beyond the two pages was
 found. Nothing remains open in the stated question.

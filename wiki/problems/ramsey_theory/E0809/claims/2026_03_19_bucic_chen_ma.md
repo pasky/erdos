@@ -77,7 +77,7 @@ its consequence at $e=\lfloor n^2/4\rfloor+1$ lies inside the audited statement.
 
 The site's curator credits the paper in the problem's commentary, which was
 updated after a thread comment of 20 March 2026 (read 2026-09-18 and unchanged
-as of 2026-10-07). The site labeled the problem OPEN, so that credit is not
+on 2026-10-07). The site labeled the problem OPEN, so that credit is not
 acceptance. The site's proof-claim tab did not carry the paper on 2026-10-05.
 The paper is an arXiv preprint with one version (19 March 2026). No journal
 record was found on 2026-09-18, so no refereeing is listed. This corpus checked

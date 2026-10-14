@@ -32,10 +32,10 @@ Prove that $f(n)=o(2^n)$.
 
 Prove that $f(n)/2^{n/2}\to \infty$.
 
-**Status.** Open. The site labeled the problem OPEN (proof-claims tab and thread
-as of 2026-10-07). The frontmatter standing is derived from the two claim pages
-under `claims/`, and the problem's two assertions are its parts. The first
-assertion, $f(n)=o(2^n)$, is Verstraëte's refereed theorem [Ve04] in the
+**Status.** Open. The site labeled the problem OPEN (proof-claims tab and
+thread, accessed 2026-10-07). The frontmatter standing is derived from the two
+claim pages under `claims/`, and the problem's two assertions are its parts. The
+first assertion, $f(n)=o(2^n)$, is Verstraëte's refereed theorem [Ve04] in the
 stronger form $o(2^{n-n^c})$
 ([[problems/extremal_graph_theory/E0084/claims/2004_09_01_verstraete|claim page]],
 accepted, partial). Nenadov [Ne25] sharpened it to $2^{n-n^{1/2-o(1)}}$

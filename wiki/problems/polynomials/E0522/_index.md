@@ -36,7 +36,7 @@ $$
 
 almost surely?
 
-**Status.** OPEN (LEAN), the site's label as of 2026-10-06 (page last edited 06
+**Status.** OPEN (LEAN), the site's label on 2026-10-06 (page last edited 06
 December 2025). The site derives this label from the community database. On
 2026-09-26 the database recorded a Lean formalization of a claimed proof (pull
 request 448 of teorth/erdosproblems, merged that day). That record sets the

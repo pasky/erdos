@@ -33,7 +33,7 @@ $$
 where $K_{n,n}$ is the complete bipartite graph with $n$ vertices in each
 component.
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
 January 2026). The site writes the size Ramsey number
 $\hat R(G)$; the 1978 paper that introduced it writes
 $\hat r(G_1,G_2)=\min\{|E(H)|:H\to(G_1,G_2)\}$ and reserves $\hat R(G_1,G_2)$
@@ -254,7 +254,7 @@ bound, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures directory
-  `FormalConjectures/ErdosProblems/` at main as of 2026-09-17 (no file for
+  `FormalConjectures/ErdosProblems/` at main on 2026-09-17 (no file for
   this problem).
 - The primary sources: [EFRS78b] pp. 145--161 and [CFW23] pp. 1--4 and 19;
   the brooms paper searched for "size", "bipartite" and "$K_{n,n}$";

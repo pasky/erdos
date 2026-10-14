@@ -34,7 +34,7 @@ $$
 
 be?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 27 December 2025). $A(x)$ counts the indices $i$ with
 $\mathrm{lcm}(a_i,a_{i+1})\le x$; for $A=\mathbb N$ it counts the $n$ with
 $n(n+1)\le x$, so $A(x)/x^{1/2}\to1$. The source paper writes this count as
@@ -122,7 +122,7 @@ link on their claim page and has no page of its own.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement
+**The question (site formulation).** The statement
 above; SOLVED, last edited 27 December 2025; source key [ErGr80, p. 87]. The
 commentary: taking $A=\mathbb N$ shows $\liminf A(x)/x^{1/2}=1$ is possible,
 and [ErSz80] gives the bound $\liminf A(x)/x^{1/2}\le1$ for every $A$; Tao's

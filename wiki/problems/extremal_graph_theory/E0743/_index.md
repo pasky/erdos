@@ -43,11 +43,12 @@ conjecture are recorded as partial claim pages, accepted or pending as their
 evidence allows. With the withdrawn page described below, they are the pages
 from which the frontmatter standing, open, is derived. No full claim is pending.
 
-No proof, disproof or accepted proof claim was found in the search whose scope
-the Current assessment records. This is a bounded negative finding, not a
-certificate of openness. The one arXiv proof claim (Chalise, Clark and Gnang,
-arXiv:2410.13840, 2024) was withdrawn by its authors on 1 September 2026. They
-cited an error in the proof of their Composition Lemma 3.10
+No proof, disproof or accepted proof claim was found in the search dated
+2026-09-19 UTC whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness. The one arXiv proof claim
+(Chalise, Clark and Gnang, arXiv:2410.13840, 2024) was withdrawn by its authors
+on 1 September 2026. They cited an error in the proof of their Composition Lemma
+3.10
 ([[problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang|claim page]],
 withdrawn).
 
@@ -324,7 +325,7 @@ recorded on this page.
   March 2026 reports that people who tried to verify the paper did not trust
   its arguments; a second comment of 1 March 2026 reports a GPT-based check,
   as its poster names it, whose output claimed two major gaps, with the
-  poster's caveat that such claims are not guaranteed. As of 2026-09-19 the
+  poster's caveat that such claims are not guaranteed. On 2026-09-19 the
   site's page did not mention the claim or the withdrawal, and its label was
   unchanged; the authors withdrew the claim on 1 September 2026.
 - Verification at $n=10$ (15 August 2026, the account RajveerKapoor): the
@@ -359,7 +360,7 @@ recorded on this page.
   reactions on the page (one account marked "Currently working on") are
   not evidence of anything.
 
-**Search scope.** None of the routes below found a proof,
+**Search scope (2026-09-19 UTC).** None of the routes below found a proof,
 a disproof, an accepted proof claim, or a refereed verification beyond
 $n\le11$.
 

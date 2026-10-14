@@ -64,7 +64,7 @@ $3\lceil8/\delta^2\rceil-2$. So a counterexample to the site's question on such
 bases must have lower density zero. The write-up does not claim the three
 questions of the statement.
 
-As of 2026-10-06 the proof-claim entry of 2026-10-01 had no comments. The forum
+On 2026-10-06 the proof-claim entry of 2026-10-01 had no comments. The forum
 thread held the author's comment of the same day and three comments of
 2026-08-17. Those three comments reported block constructions with large
 restricted order at orders $4$ to $8$, a literature list, and White's report.

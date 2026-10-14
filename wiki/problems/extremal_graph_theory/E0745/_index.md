@@ -152,10 +152,10 @@ Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed
   [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]].
 
 **Formalization.** None in the formal-conjectures catalog. No file
-`ErdosProblems/745.lean` exists in formal-conjectures as of 2026-09-19, neither
+`ErdosProblems/745.lean` existed in formal-conjectures on 2026-09-19, neither
 in the directory `FormalConjectures/ErdosProblems/` nor elsewhere in the tree;
 the site's page shows "Formalised statement? No (create one)"; the community
-database (teorth/erdosproblems, `data/problems.yaml` as of 2026-09-19) records
+database (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-19) records
 the problem proved (last update 31 August 2025), unformalized, with no
 formalized statement. The two Lean developments the thread links are independent
 proof claims with their own claim pages,
@@ -315,7 +315,7 @@ copy of [KSS80] or a change of the site's label.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 745); the community
-  database entry as of 2026-09-19.
+  database entry, read 2026-09-19.
 - Bibliographic records: a Crossref bibliographic query for [KSS80] (no
   record; the nearest hits are other Komlós--Szemerédi papers); zbMATH Open
   (the record above, without review text); an OpenAlex search (no result).
@@ -326,7 +326,7 @@ copy of [KSS80] or a change of the site's label.
   and spatial random graph papers; none on this question).
 - The primary source at the page cited: [Er81] copy p. 16.
 - `plby/lean-proofs` through the GitHub API: the head commit, the directory
-  listings and the header of `Erdos745.lean` (as of 2026-09-19).
+  listings and the header of `Erdos745.lean` (read 2026-09-19).
 - [ErRe60] from the Rényi archive, at the pages its reference
   entry cites.
 

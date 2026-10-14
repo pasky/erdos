@@ -3,7 +3,7 @@ name: additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/kitamura_2026
 title: Source record for Kitamura's Lean proof of Problem 354(ii)
 desc: |
   Repository identity, commit and files, the author's own verification and
-  AI-assistance statements, and the public records as of 2026-09-28.
+  AI-assistance statements, and the public records, read 2026-09-28.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-07T20:53:39Z
 ---

@@ -25,7 +25,7 @@ updated: 2026-10-08T14:06:00Z
 every graph on $n$ vertices with at least $\lfloor n^2/4\rfloor+k$ edges, where
 $k<c n$, contains at least $k-f(c)$ many edge disjoint triangles?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 31 October 2025). The question is for fixed $c$ and all
 $n$ and all integers $k$ with $0\le k<cn$; $f(c)$ may depend on $c$ only. It
 is Erdős's question of 1971 with $f(c)$ for his $f(c_1)$

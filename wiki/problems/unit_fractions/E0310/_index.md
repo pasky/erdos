@@ -201,7 +201,7 @@ paper writes it out for this problem, and this page does not write it
 out either. The Lean development described under Existing formalization
 carries that deduction out formally.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures directory
 listing and full tree at the pinned commit; the arXiv listings
 for 2404.07113 (v1 only, no journal reference) and 2112.03726 (v1, v2; no
@@ -211,7 +211,7 @@ abs:denominator` (one record, a 2021 algorithm paper, unrelated); the
 monograph's printed pp. 32--38; the primary sources [LiSa24] (pp. 2--3)
 and [Bl21] (pp. 1--2, 4--5). The citing-paper records of the two papers
 are covered by the Liu and Sawhney
-card's check, which found no later improvement. Not
+card's check of 2026-09-17, which found no later improvement. Not
 searched: MathSciNet, zbMATH, Google Scholar, X. Nothing found changes the
 status. Also read: the formal-conjectures statement file
 and the Alexeev Lean file at the commits the links under Formalization
@@ -250,7 +250,7 @@ companion `tex/310.tex` were not inspected.
 
 The site's (LEAN) suffix refers to the file
 `src/latest/ErdosProblems/Erdos310.lean` in Boris Alexeev's `lean-proofs`
-collection, in the collection since 17 August 2026, as of the commit of 15
+collection, in the collection since 17 August 2026, at the commit of 15
 September 2026 that the link on its claim page pins; only its
 top file is recorded here. Its header declares it a Lean formalization of a
 solution to Problem 310, names Thomas Bloom and Bhavik Mehta as informal

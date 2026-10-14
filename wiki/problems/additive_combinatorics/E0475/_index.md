@@ -229,7 +229,7 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
 **Formalization.** None. No file `ErdosProblems/475.lean` exists in
 google-deepmind/formal-conjectures at its main-branch commit of 2026-09-18
 (the 673-entry directory listing); the site's indicator reads "Formalised
-statement? No", and the community database (teorth/erdosproblems, as of
+statement? No", and the community database (teorth/erdosproblems, read
 2026-09-18) lists the problem as decidable, as of its last update on 23
 February 2026, unformalized, with no formal proof.
 
@@ -419,7 +419,7 @@ chain.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at its commit of 2026-09-18 (no
-  file); the community database as of 2026-09-18.
+  file); the community database, read 2026-09-18.
 - The primary sources at the pages stated: [Kr24] pp. 1--3; [BeKr24]
   pp. 1--2; [CoDe26] pp. 1--2; [PhSa26] pp. 1--2; [BBKMM25] pp. 1--3,
   24--25, 42--43; [MuPo25] pp. 3, 50--52, 57; [CoPe20] pp. 1--2, 6--7;

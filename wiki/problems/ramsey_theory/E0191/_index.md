@@ -269,7 +269,7 @@ coloring so encoded. No fidelity review exists, this corpus has built and
 kernel-checked neither the file nor its utility module, and no local kernel
 credit is claimed. The AI-tool authorship is recorded as provenance only.
 
-**Search scope.** None of the routes below found a copy of
+**Search scope (2026-09-18 UTC).** None of the routes below found a copy of
 [Ro03], a determination of the constant in $f(n)$, or a dispute of the
 theorem.
 

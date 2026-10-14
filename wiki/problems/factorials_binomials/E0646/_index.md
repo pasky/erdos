@@ -78,7 +78,7 @@ copy, proves the infinitude for an arbitrary finite set of distinct primes and
 not the bounded gaps; the copy is linked from the claim page and has not been
 built here. Berend's paper is not held.
 
-Search scope. As of 2026-10-07 the site's discussion thread held two posts,
+Search scope. On 2026-10-07 the site's discussion thread held two posts,
 one of 2025-12-28 adding the problem-book reference and one of 2026-02-27
 announcing the Lean formalization, and its proof-claims page listed no claim
 for the problem. The formal-conjectures statement file and the Lean file are

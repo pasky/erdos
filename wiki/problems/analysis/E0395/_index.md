@@ -109,7 +109,7 @@ linked from an author's page and labelled "Submitted" in its listing of
 2026-09-05, carries the same text; no journal publication of it was
 identified. Both [HPS25] (p. 2) and [HS25] (p. 2) treat the
 radius-$\sqrt2$ question as settled and build on it. The order $1/n$ is
-best possible ([HJNS24], p. 14). Search scope: the sources above.
+best possible ([HJNS24], p. 14). Search scope, 2026-09-05: the sources above.
 
 **Local proof coverage.** The
 [[../library/analysis/he_2024_reverse_littlewood_offord_problem_erdos/theorem_1_1|Theorem 1.1 page]]
@@ -187,8 +187,8 @@ built or kernel-checked here, and no local kernel credit is claimed.
 [`FormalConjectures/ErdosProblems/395.lean`](https://github.com/google-deepmind/formal-conjectures/blob/568ea401e53e67cdadb1e60064c6dfd520103177/FormalConjectures/ErdosProblems/395.lean)
 is 82 lines at the linked commit of 19 September 2026, titled "Add Erdős
 Problem 395 (the reverse Littlewood–Offord problem), link the formal proof
-(#6168)", the last to touch the file on the `main` branch as of
-2026-09-22. In namespace `Erdos395` it
+(#6168)", on 2026-09-22 the last to touch the file on the `main`
+branch. In namespace `Erdos395` it
 defines `signedSumCount {n : ℕ} (z : Fin n → ℂ) (r : ℝ) : ℕ` as the `ncard` of the
 set of `ε : Fin n → ℤ` with every `ε i = -1 ∨ ε i = 1` and
 `‖∑ i, (ε i : ℂ) * z i‖ ≤ r`, and states

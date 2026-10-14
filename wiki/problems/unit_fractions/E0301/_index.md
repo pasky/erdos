@@ -58,8 +58,8 @@ and
 None of them would settle the estimation question. The lower bound is an
 AI-assisted proof claim of July 2026 without acceptance evidence. If correct, it
 would answer the particular question in the negative. No proof, disproof or
-accepted resolution was found in the search whose scope the Current assessment
-records. The bounds supported by sources read here are
+accepted resolution was found in the search dated 2026-09-17 UTC whose scope the
+Current assessment records. The bounds supported by sources read here are
 $N/2\le f(N)\le(25/28+o(1))N$. The lower bound comes from the interval $(N/2,N]$
 (elementary, checked here). The upper bound comes from van Doorn's argument in
 the site's commentary (elementary; its two counting facts checked here). This is
@@ -221,7 +221,7 @@ and the frontmatter is open, claim none.
 - The [Wa26] manuscript and the July 2026 claims postdate the site's last
   edit (16 January 2026); the site's commentary still records $25/28$.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 directory at the pinned commit (no file); the GitHub API for the repository
 `donalddellapietra/erdos-301-proof` (head commit only); a Crossref

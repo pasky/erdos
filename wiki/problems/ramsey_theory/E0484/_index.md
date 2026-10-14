@@ -193,7 +193,7 @@ or kernel-checked here; the site's "(LEAN)" suffix is a catalog label, the
 community database records no formal-proof URL, and the statements above are
 the only formal content inspected.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit and the external Lean file it names; the Crossref records of
 [ESS89] and [ESS90]; the Semantic Scholar search endpoint

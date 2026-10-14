@@ -66,7 +66,7 @@ https://www.erdosproblems.com/486.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/486.lean).
-Since 18 September 2026 that file, [as of the commit of that
+Since 18 September 2026 that file, [at the commit of that
 date](https://github.com/google-deepmind/formal-conjectures/blob/c74b753650ad69d8d3710bfd82a59240be429cdb/FormalConjectures/ErdosProblems/486.lean),
 has tagged the problem research solved, crediting Wang, and linked two formal
 proofs: Boris Alexeev's Lean 4.33.0 port of Wang's own formalization, and a

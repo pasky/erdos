@@ -90,7 +90,7 @@ hand, and elementary estimates. The development is not on the proof-claims tab.
 The tab's one claim refers to it.
 
 **Source.** [erdosproblems.com/1189](https://www.erdosproblems.com/1189)
-with its discussion thread (as of 2026-10-06: seven comments in the
+with its discussion thread (accessed 2026-10-06: seven comments in the
 discussion thread, one proof claim with one comment). Cite as: T. F. Bloom,
 Erdős Problem #1189, https://www.erdosproblems.com/1189.
 

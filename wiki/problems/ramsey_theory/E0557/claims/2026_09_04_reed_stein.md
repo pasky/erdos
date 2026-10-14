@@ -95,7 +95,7 @@ deducing that $R_k(T)\le k(n-2)+3$ once $n$ is large enough depending on $k$.
 The curator states that the problem follows from that theorem, which it does
 under reading (a). The curator is independent of the claimants. The problem was
 marked proved. The site printed PROVED (FORMALIZED) on 2026-09-05. The community
-database (teorth/erdosproblems, as of 2026-10-06) lists its status as proved
+database (teorth/erdosproblems, read 2026-10-06) lists its status as proved
 (Lean), with last update 3 September 2026. The static text of the problem page
 printed no label on 2026-10-07.
 

@@ -47,7 +47,7 @@ examples and the $r\geq6$ construction would not count. Under a "for some $r$"
 reading, the first question would already be answered yes at $r=5$.
 
 **Status.** Open. The site's label was OPEN. The page was last edited on
-2026-05-28, and its proof-claims thread was empty as of 2026-09-27. The site's
+2026-05-28, and its proof-claims thread was empty on 2026-09-27. The site's
 remarks answer the third question yes through Nitaj [Ni95], with further
 constructions by Cohn [Co98] and Walsh [Wa24]. They record solutions of the
 first question at $r=5$ (Cambie; Kitamura) and at $r=7$ and $r=8$ (Cambie). They
@@ -98,9 +98,9 @@ of the $r\geq 6$ infinitude with positive summands. See the
 
 ## Current assessment
 
-Site formulation as of 2026-09-27 (last edited 28 May 2026); three parts as
-quoted in the Statement, read as the Formulation records. The page-level status
-is open because $r=4$ is undecided for both of the first two parts.
+Site formulation as accessed 2026-09-27 (last edited 28 May 2026); three parts
+as quoted in the Statement, read as the Formulation records. The page-level
+status is open because $r=4$ is undecided for both of the first two parts.
 
 Part 3 is resolved (yes) by the refereed sources
 [[../library/diophantine_problems/nitaj_1995_conjecture_erdos_3_powerful_numbers/_index|Nitaj 1995]]

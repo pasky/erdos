@@ -310,7 +310,7 @@ dispute of the formula, or a copy of [Er95c].
 
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures `650.lean` at the pinned commit; the community
-  database as of 2026-09-18; the Lean file, the repository's head and file
+  database, read 2026-09-18; the Lean file, the repository's head and file
   history, and the note repository (`QuanyuTang/erdos-problem-650`, whose
   head of 21 March 2026 lists five files: two claimed-proof PDFs, a gap note
   and the TeX source) through the GitHub API.

@@ -55,9 +55,9 @@ figure $0.561666$ as a floating-point computation that Razborov did not convert
 into a rigorous proof. Before it, the rigorous record was Chung and Lu's
 $\pi(K_4^3)\le(3+\sqrt{17})/12\approx0.5936$, as Razborov quotes it. The site's
 figure $0.5611666$ matches neither [Ra10] nor [Ba12] and is recorded below as a
-discrepancy. The search whose scope the Current assessment records found no
-proof of $5/9$, no better construction and no new rigorous upper bound. This is
-a bounded negative finding, not a certificate of openness.
+discrepancy. The search dated 2026-09-18 UTC whose scope the Current assessment
+records found no proof of $5/9$, no better construction and no new rigorous
+upper bound. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/500](https://www.erdosproblems.com/500),
 accessed 2026-09-18: the problem page (OPEN, with the
@@ -125,7 +125,7 @@ October 2026, no formal proof, and OEIS A140462.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement
+**The question (site formulation).** The statement
 above; OPEN, with the site's note that no finite computation can settle it;
 a prize; last edited 5 October 2025. The site's commentary, in summary:
 the problem is Turán's; his construction (three equal parts $X_1,X_2,X_3$ with
@@ -301,7 +301,7 @@ tetrahedron problem for the $\ell_2$-norm", J. London Math. Soc.), cited by
 title from a citation list, concerns a codegree-squared norm, not this
 problem.
 
-**Search scope.** None of the routes below found a proof of
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof of
 $\pi(K_4^3)=5/9$, a construction beating $5/9$, a refereed upper bound below
 $0.5615$, or a proof claim.
 

@@ -236,7 +236,7 @@ dispute of the theorems or a sharper statement of this problem.
 
 - The site: problem page, thread and proof-claims tab; the
   formal-conjectures file and the external Lean file at their pinned
-  commits (statements and closing lines); the community database as of
+  commits (statements and closing lines); the community database, read
   2026-09-18; the formal-conjectures issue 1282.
 - The primary sources: [ChGr84] pp. 181--183, 211--212 and 220--222 in
   full and pp. 184--210, 213--219 for structure; [ChGr81] in full; [ErGr80]

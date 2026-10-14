@@ -92,8 +92,7 @@ https://www.erdosproblems.com/692, accessed 2026-09-05.
   Forschungsinstitut Oberwolfach (Various).
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/c9c94dc9e64b65efa93c4f762845c39aa734adc3/FormalConjectures/ErdosProblems/692.lean),
-as of 2026-08-08.
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/c9c94dc9e64b65efa93c4f762845c39aa734adc3/FormalConjectures/ErdosProblems/692.lean).
 
 ## Current assessment
 
@@ -147,11 +146,12 @@ for fixed $0<a<1$, sufficiently large $y$, $y+1\leq z\leq x^{5/8}$, and
 $yz\leq x^{1-a}$. Taking $y=n,z=m-1$ and then letting $x$ tend to infinity
 is the dependency used in Cambie's Claim 4.
 
-The formal-conjectures file, as of 2026-08-08, has `sorry` placeholders for its
-own proofs, points `erdos_692.parts.i` through a `formal_proof` attribute to the
-Aristotle gist linked from the claim page, and labels the maximizing-$m$ part
-research open. The site's discussion thread links the
-[pinned autoformalized Lean gist](https://gist.githubusercontent.com/pitmonticone/96516af9100a37a1da81908dc0b0410c/raw/a1d6ca7f3835c58b257e5e715c8fdf3a224e1bd0/Erdos692.lean)
+The formal-conjectures file at the linked commit has `sorry` placeholders for
+its own proofs, points `erdos_692.parts.i` through a `formal_proof` attribute to
+the Aristotle gist linked from the claim page, and labels the maximizing-$m$
+part research open. The site's discussion thread links the [pinned
+autoformalized Lean
+gist](https://gist.githubusercontent.com/pitmonticone/96516af9100a37a1da81908dc0b0410c/raw/a1d6ca7f3835c58b257e5e715c8fdf3a224e1bd0/Erdos692.lean)
 of 2 April 2026, which this corpus has not built. Its scope is periodicity,
 exact finite residue counts, and the strict dip for its rational
 residue-proportion definition; it does not bridge that ratio to `HasDensity` or

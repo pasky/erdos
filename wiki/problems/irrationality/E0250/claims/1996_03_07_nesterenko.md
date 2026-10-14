@@ -71,7 +71,7 @@ Sbornik: Mathematics.
 
 Reviewed: Thomas Bloom, the site's curator, credits this theorem with the answer
 in the problem's remarks and labeled the problem proved (page last edited 28
-September 2025, as of 2026-09-17). zbMATH reviews the paper (Zbl 0898.11031,
+September 2025, accessed 2026-09-17). zbMATH reviews the paper (Zbl 0898.11031,
 reviewer J. Wolfart) and the announcement (Zbl 0859.11047) without objection.
 The theorem was the subject of Waldschmidt's Bourbaki exposé of November 1996
 (Astérisque 245 (1997), 105–140, whose Théorème 4 restates it) and of a chapter

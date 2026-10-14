@@ -232,7 +232,7 @@ different problem.
 **Search scope.** The status rests on these routes; none found a fixed-power
 saving, a disproof or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-17; the community database record; the formal-conjectures file at the
   pinned commit.
 - The primary sources: [Er78] printed pp. 29--31 and 34, [EFRS78] pp. 53--64

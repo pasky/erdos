@@ -36,21 +36,21 @@ expected the answer to be no. The site's source key is printed "[BEGS8,p.273]",
 a misprint of BEGS89 that the commentary's "[BEGS89]" corrects.
 
 **Status.** Open: the site labeled the problem OPEN (last edited 1 April 2026),
-and no source found in the search proves or refutes the statement. The 1989
-paper states without proof that $n$ colors suffice for $C_4$ at $e=c\,g(n;7,4)$
-edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has order $n^2$, which is
-itself an open question (the site's Problem 1178). The paper's second bound, $n$
-colors at $e=c\,r_4(n)$ edges, is trivially true as printed. This is because
-$r_4(n)=o(n)$ by Szemerédi's theorem, and a graph with at most $n$ edges can
-give every edge its own color. It is probably a misprint for $e=c\,n\,r_4(n)$,
-on the model of the paper's $P_4$ bound (6.3), a bound that is unproved and
-still $o(n^2)$. Sárközy and Selkow proved in 2006 that for every connected
-bipartite $L$ that is not complete bipartite and every $\alpha,c>0$,
+and no source found in the search of 2026-09-18 proves or refutes the statement.
+The 1989 paper states without proof that $n$ colors suffice for $C_4$ at
+$e=c\,g(n;7,4)$ edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has order
+$n^2$, which is itself an open question (the site's Problem 1178). The paper's
+second bound, $n$ colors at $e=c\,r_4(n)$ edges, is trivially true as printed.
+This is because $r_4(n)=o(n)$ by Szemerédi's theorem, and a graph with at most
+$n$ edges can give every edge its own color. It is probably a misprint for
+$e=c\,n\,r_4(n)$, on the model of the paper's $P_4$ bound (6.3), a bound that is
+unproved and still $o(n^2)$. Sárközy and Selkow proved in 2006 that for every
+connected bipartite $L$ that is not complete bipartite and every $\alpha,c>0$,
 $\chi_S(n,e,L)>cn$ once $e>\alpha n^2$ and $n$ is large in terms of $\alpha$,
 $c$ and $L$. They wrote that the question "still remains open for complete
-bipartite graphs that are not stars, for instance for $C_4$". The search, whose
-scope the Current assessment records, found nothing later on $C_4$. This is a
-bounded negative finding, not a certificate of openness.
+bipartite graphs that are not stars, for instance for $C_4$". The search dated
+2026-09-18 UTC, whose scope the Current assessment records, found nothing later
+on $C_4$. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/810](https://www.erdosproblems.com/810),
 accessed 2026-09-18: the problem page (OPEN, marked by the site as not
@@ -205,7 +205,7 @@ December 2025 to 1 April 2026.
   $(24,143)$, $(25,155)$ (edge density $0.5167$ at $n=25$), and suggested
   an OEIS entry once optimal counts are known.
 
-**Search scope.** None of the routes below found a proof
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof
 or disproof of the statement, a lower bound for $\chi_S(n,\epsilon n^2,C_4)$
 beyond the announced ones, or a determination of the order of $g(n;7,4)$.
 

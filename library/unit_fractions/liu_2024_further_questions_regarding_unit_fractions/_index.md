@@ -211,7 +211,7 @@ source approximations. The literal general proposition and its full
 fifth-power range are not claimed. PNT, Bertrand's postulate and
 Azuma–Hoeffding remain explicit external inputs.
 
-A targeted literature search found no later improvement
+A targeted literature search on 2026-09-05 found no later improvement
 of Theorem 1.1's exact-sum reciprocal-mass threshold, and a further check
 of the citing-paper records for this paper and of the arXiv listings under
 unit and Egyptian fractions found no later improvement of Theorems 1.1, 1.3

@@ -83,7 +83,7 @@ that proof is not part of this repository's audited Lean.
 
 ## Current assessment
 
-**Question.** As of the site snapshot of 2026-09-17: is
+**Question.** In the site snapshot of 2026-09-17: is
 $S=\sum_{n\ge1}\sigma(n)/2^n$ irrational? The site's statement omits the
 range of summation; the sum runs over $n\ge1$. Numerically
 $S=2.7440338887594883604802148914922\ldots$ (OEIS A066766; the value and

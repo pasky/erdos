@@ -97,8 +97,8 @@ theorems taken as hypotheses; the corpus has not built or audited it, so no
 `formalized` evidence is listed.
 
 **Search scope.** The site's problem page (last edited 2026-04-01) and its
-proof-claims thread, as of 2026-10-06; the Zenodo record and archive of the
-Gu claim, as of 2026-10-07; and the library cards of [Er46] and [Ma22]. The
+proof-claims thread, accessed 2026-10-06; the Zenodo record and archive of the
+Gu claim, accessed 2026-10-07; and the library cards of [Er46] and [Ma22]. The
 proofs are not compiled in this wiki.
 <!-- BEGIN problem library links -->
 

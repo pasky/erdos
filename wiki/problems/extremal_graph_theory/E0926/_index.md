@@ -142,7 +142,7 @@ $\mathrm{ex}(2n;H_k)\le4kn^{3/2}$, a second proof of the answer yes with its
 own claim page. The bound below is Füredi's and is not the best known
 dependence on $k$.
 
-**Search scope.** A bounded search beyond Bloom's catalog
+**Search scope (2026-09-09 UTC).** A bounded search beyond Bloom's catalog
 checked the [publisher's record](https://doi.org/10.1007/BF01375476) and
 queries for the paper title with correction/erratum terms, Problem 926 with
 2026 terms, and arXiv and X announcements using the problem number and

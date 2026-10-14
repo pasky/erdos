@@ -84,7 +84,7 @@ https://www.erdosproblems.com/582.
 
 **Formalization.** The site links a
 [formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/582.lean)
-and labeled the problem PROVED (LEAN). That statement file (main as of
+and labeled the problem PROVED (LEAN). That statement file (main on
 2026-10-07, the link pinned to that revision) declares `erdos_582` under
 `category research solved` as `answer(True)` if and only if there is a
 finite simple graph `G` with `G.CliqueFree 4` every two-coloring of whose
@@ -171,7 +171,7 @@ reprove either endpoint.
 
 ## Search and proof coverage
 
-Search scope: exact-parameter searches for $F_e(3,3;4)$, the
+Search scope, 2026-09-09 UTC: exact-parameter searches for $F_e(3,3;4)$, the
 Erdős Problems search and discussion pages, the arXiv records for the
 Bikov--Nenov and Hassan et al. papers, and public author and source pages.
 They corroborated Folkman's classical existence result and the sources'

@@ -299,8 +299,8 @@ here) and transcribed in the repository's `informal-proof.md`, and names as a
 dependency the sorry-free `chebyshev_asymptotic_pnt` of
 `PrimeNumberTheoremAnd`.
 
-**The informal disproof.** A search of arXiv found no paper by Levent Alpöge
-on unit distances or norm-one tori. The repository's
+**The informal disproof.** A search of arXiv on 2026-09-22 found no paper by
+Levent Alpöge on unit distances or norm-one tori. The repository's
 `formalization.yaml` at the pinned commit gives the proof one location, an X
 post, and no other URL for it. The file `informal-proof.md` at the same commit
 is the repository's transcription under the title "Integral points on norm-one

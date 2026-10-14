@@ -100,7 +100,7 @@ pair $(t/\alpha,\alpha)$, so the formal-conjectures catalog's complete pairs
 $(1/2^k,2)$, $k\ge0$, are the Statement's $(1/2^{k+1},2)$. The claim pages of
 Graham, van Doorn and Sothanaphan use the Statement's sums and index.
 
-**Status.** Open, the site's label (OPEN as of 2026-10-06). Six partial claims
+**Status.** Open, the site's label (OPEN on 2026-10-06). Six partial claims
 are recorded, and none settles the question. Outside the regions and the base
 $\sqrt\varphi$ proved complete, no claim classifies the pairs with
 $1<\alpha<(1+\sqrt5)/2$ and $t\ge\min(2/\alpha,3/\alpha^2)$. So the derived
@@ -156,7 +156,7 @@ Statement.
 
 ## Current assessment
 
-The site records Problem 349 as OPEN as of 2026-10-06, and the derived standing
+The site recorded Problem 349 as OPEN on 2026-10-06, and the derived standing
 is `open`/`none`: every claim page is partial. The picture they give for the
 modified Statement: the sequence is never complete for $\alpha>2$ or
 $\alpha<1$; at $\alpha=1$ it is complete exactly for $1\le t<2$;

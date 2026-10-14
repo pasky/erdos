@@ -295,7 +295,7 @@ refereed or arXiv version of the manuscript, an independent review, a
 dispute of the argument, or a second proof.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file at the pinned commit; the community database as of
+  formal-conjectures file at the pinned commit; the community database, read
   2026-09-18.
 - The manuscript at its OpenAI URL (HTTP 200); the two Lean developments at
   the commits named above, and the rendered proof tour of the second.

@@ -67,11 +67,11 @@ open, including the particular choice $g(n)=(\log n)^3$. The published
 explicitly leaves that case open on p. 3146, and its construction below does
 not reach that threshold.
 
-Search scope: primary arXiv papers, the authors' publication pages and
-institutional records, and indexed announcements, including
-X/Twitter queries for #805 and locally Ramsey graphs; no later proof or
-disproof of the cubed-logarithm case was found. The search was bounded, not an
-exhaustive literature census.
+Search scope (2026-09-10): primary arXiv papers, the authors' publication pages
+and institutional records, and indexed announcements, including X/Twitter
+queries for #805 and locally Ramsey graphs; no later proof or disproof of the
+cubed-logarithm case was found. The search was bounded, not an exhaustive
+literature census.
 
 The 2007 obstruction and the 2021 construction are published results, each a
 refereed partial claim on its own page:

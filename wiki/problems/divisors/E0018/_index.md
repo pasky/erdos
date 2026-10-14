@@ -87,12 +87,12 @@ Erdős Problem #18, https://www.erdosproblems.com/18, accessed 2026-09-27.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/18.lean)
 as `Erdos18.erdos_18a`, `erdos_18b` and `erdos_18c` (all `research open` in the
-file at the linked commit of 18 September 2026, the last to touch the file on
-the default branch as of 2026-09-27; the docstring of `erdos_18c` attaches the
-prize to the third question, whereas the site attaches it to the first).
-There `practicalH n` is the supremum over $1\le m\le n$ of the least size of a
-set of divisors of $n$ with $m$ among its subset sums, a fresh set for each $m$.
-Part (b) is proved in Lean: the Conjectures.io file closes
+file at the linked commit of 18 September 2026, on 2026-09-27 the last to touch
+the file on the default branch; the docstring of `erdos_18c` attaches the prize
+to the third question, whereas the site attaches it to the first). There
+`practicalH n` is the supremum over $1\le m\le n$ of the least size of a set of
+divisors of $n$ with $m$ among its subset sums, a fresh set for each $m$. Part
+(b) is proved in Lean: the Conjectures.io file closes
 `Bounty.target : fcTypeOfName% "Erdos18.erdos_18b"`, whose type is
 `True ↔ ∀ (ε : ℝ), 0 < ε → ∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos18.practicalH n.factorial) < ↑n ^ ε`
 (Conjectures.io's source type hash check passed; permitted axioms `propext`,
@@ -209,7 +209,7 @@ part (b), accepted by Conjectures.io; the lower bound $h(n!)\gg(\log n)^2$
 ([[../library/divisors/hughes_2026_sums_distinct_divisors_factorials/remark_6|Hughes, Remark 6]])
 shows that any answer to (c) has exponent at least $2$.
 
-**Search scope.** erdosproblems.com: the problem page,
+**Search scope, 2026-09-27 to 2026-09-28.** erdosproblems.com: the problem page,
 its history page, the discussion (7 comments), the proof-claims tab (3 claims)
 with the comment panels of the three claims, and the proof-claims tabs of
 Problems 304 and 293 (both empty); the community database (entry 18: status

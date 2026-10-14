@@ -111,7 +111,7 @@ and are not recorded as a claim of their own; the files' own summary
 describes a proof through Hoeffding's inequality and a Paley--Zygmund
 step, with explicit constants the paper does not print. The links are
 pinned to the commit of 24 June 2026 that placed the v4.29.1 file, its
-only revision as of 2026-09-06. This corpus has not built the files or
+only revision (read 2026-09-06). This corpus has not built the files or
 audited the formal statement against the problem's intended quantity, so
 `formalized` is not listed. The site's proof-claims tab lists no claim and
 the thread records no reply to the post; the site's label on 2026-09-04 was

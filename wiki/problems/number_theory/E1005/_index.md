@@ -34,7 +34,7 @@ $$
 Estimate $f(n)$ - in particular, is there a constant $c>0$ such that
 $f(n)=(c+o(1))n$ for all large $n$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 1 September 2026). The Farey fractions of order $n$ are
 the reduced fractions in $[0,1]$ with denominator at most $n$, in increasing
 order; two fractions are similarly ordered when their numerators and

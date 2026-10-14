@@ -219,8 +219,8 @@ Bloom's catalog does not cite it, nothing was built, and no credit is claimed.
 of the theorem, a text of the 1974 paper, or a change of status.
 
 - The site: problem page, discussion thread and proof-claim tab; the site's
-  reference text for [Er67b]; the formal-conjectures directory and tree as
-  of 2026-09-19 (no file 916); the community database entry as of
+  reference text for [Er67b]; the formal-conjectures directory and tree, read
+  2026-09-19 (no file 916); the community database entry, read
   2026-09-19; the external Lean file's header and notes file at the
   repository's head of 15 September 2026.
 - Crossref: the records of doi:10.1007/BF01238666 ([Th74]) and

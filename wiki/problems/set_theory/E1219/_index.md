@@ -111,7 +111,7 @@ sources as they stood on 2026-09-27: erdosproblems.com (page, LaTeX source,
 revision history, discussion and proof-claim threads, bibliography entries), the
 community database, conjectures.io (results and problems pages; no item for this
 problem), the Shelah archive entry Sh:40, zbMATH, the formal-conjectures
-repository (no file for 1219 as of 2026-10-07), and arXiv abstract searches for
+repository (no file for 1219 on 2026-10-07), and arXiv abstract searches for
 partition relations at $\aleph_\omega$ (no matching entries).
 The proofs of Theorem 1.2 and Corollary 1.3 are not independently verified
 by this project. Hajnal's stronger conjecture

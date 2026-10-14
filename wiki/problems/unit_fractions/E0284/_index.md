@@ -168,7 +168,7 @@ number of terms above a threshold is
 zero-sum set built from the same theorem is
 [[problems/unit_fractions/E0319/_index|Problem 319]].
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 tree (no file); the arXiv
 listing for math/9904181 (one version, no journal reference); the Crossref

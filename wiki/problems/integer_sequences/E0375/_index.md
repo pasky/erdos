@@ -56,7 +56,7 @@ https://www.erdosproblems.com/375.
 ## Current assessment
 
 **Scope.** The section draws on the site's page, its discussion thread (seven
-comments as of 2026-10-07), the two sources with library cards named under
+comments, accessed 2026-10-07), the two sources with library cards named under
 References, [Gu04] and [LaSh06], and the papers of the claim pages; no wider
 literature search has been made. The site's label is a body note, not a claim:
 the problem was marked falsifiable because a counterexample, a run of

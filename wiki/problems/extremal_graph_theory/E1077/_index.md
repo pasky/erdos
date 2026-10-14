@@ -80,7 +80,7 @@ lead with provenance and no status weight. So the variant's answer is yes up
 to the constant and a logarithmic factor on the printed sources, and yes as
 the site states it on a preprint together with a site-adopted forum reading of
 its proof; no refereed publication and no independent review of either the
-preprint or the forum reading was found. The variant has no
+preprint or the forum reading was found on 2026-09-18. The variant has no
 claim page and does not enter the standing. The 1970 positive result is
 [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/theorem_1|Theorem 1 of ErSi70]],
 a subgraph on $m\ge n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices with
@@ -312,11 +312,11 @@ that the site's label does not credit;
 [JiLo25]; Semantic Scholar lists one paper citing [JiLo25], "Rational
 exponents near 3/2" (arXiv:2607.19607, 2026).
 
-**Search scope.** None of the routes below found a refereed
+**Search scope (2026-09-18 UTC).** None of the routes below found a refereed
 version of [JiLo25], a written check of the forum reading, or a dispute of
 the disproof.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures file at the pinned commit and the
   external Lean file at its pinned commit (GitHub API); the community
   database record.

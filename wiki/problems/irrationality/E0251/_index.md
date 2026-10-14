@@ -76,7 +76,7 @@ Problem #251, https://www.erdosproblems.com/251, accessed 2026-09-17.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/251.lean) as
 `answer(sorry) ↔ Irrational (∑' n : ℕ, (Nat.nth Nat.Prime n) / (2 ^ n))`
 with the tag `category research open` and a `sorry` proof (the file's
-revision as of 2026-09-17, the commit of 2026-07-16 that the link carries).
+revision on 2026-09-17, the commit of 2026-07-16 that the link carries).
 Since `Nat.nth Nat.Prime` is zero-based, that real number is
 $\sum_{n\ge0}p_{n+1}/2^n=2S$, twice the site's constant $S$;
 irrationality is unaffected, but the formal object is not the site's

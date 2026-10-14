@@ -38,7 +38,7 @@ The site's Lean qualification refers to the Lean proof recorded under
 Formalization.
 
 **Source.** [erdosproblems.com/277](https://www.erdosproblems.com/277), accessed
-2026-09-04; as of 2026-10-07 the page was last edited 10 April 2026, its
+2026-09-04; on 2026-10-07 the page was last edited 10 April 2026, its
 discussion thread carried one comment (the 2025 remark on Hough's theorem) and
 its proof-claim tab was empty. Cite as: T. F. Bloom, Erdős Problem #277,
 https://www.erdosproblems.com/277.

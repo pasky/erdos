@@ -135,7 +135,7 @@ also yields an admissible $n_k$ by the same construction, because one of the
 $k$ color classes of $[2,N]$ has reciprocal mass above $(\log N-1)/k$; these
 routes give other values of $n_k$, not a smaller order of growth.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit and the external Lean file it tags; the arXiv
 listing for math/0311421 (one version; journal reference "Ann. of Math.

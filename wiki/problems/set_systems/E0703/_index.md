@@ -99,7 +99,7 @@ Füredi (1984)]], a partial claim giving the exact value of $T(n,r)$ for fixed
 $r$ and large $n$, accepted on its refereed publication. Frankl's $r=1$
 theorem [Fr77b] lies outside the problem's range $r\ge2$ and has no page.
 
-Search scope: the site's problem page, its discussion thread (no
+Search scope, 2026-10-07: the site's problem page, its discussion thread (no
 comments) and proof-claims tab (none), the community database entry
 (teorth/erdosproblems), the formal-conjectures statement file, and the
 lean-proofs catalog (one file for the problem, linked from the Frankl–Rödl

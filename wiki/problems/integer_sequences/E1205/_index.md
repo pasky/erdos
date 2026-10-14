@@ -133,7 +133,7 @@ to sums of the reciprocal moduli; the present question restricts the
 covered integers to $m\le x$ and chooses the classes, so the theorem does
 not apply to it as stated and is not cited as a result here.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 published proof of $F(x)\sim\log x$, a sharper estimate of the second-order
 term, or a dispute of the site's argument.
 

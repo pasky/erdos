@@ -73,7 +73,7 @@ exhibits single primes, not infinitely many; the write-up itself says that
 the bound does not resolve the exponent-$1$ problem and that the computation
 proves no infinitude.
 
-**Forum remarks.** In the problem's discussion thread (two comments as of
+**Forum remarks.** In the problem's discussion thread (two comments, accessed
 2026-10-07), a comment of 2026-06-21 reports that the prime $p=9\,188\,057$
 is the largest prime factor of the product for every $k\le10$ and fails at
 $k=11$, where $p^2+11$ has the prime factor $1\,407\,006\,523\,921>p$, and

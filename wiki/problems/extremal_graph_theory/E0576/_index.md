@@ -33,7 +33,7 @@ for it, and that conjecture is false: Erdős and Simonovits record it and
 refute it by their display (5), $\mathrm{ex}(n;Q_3)=O(n^{8/5})$ ([ErSi70], p.
 378, quoted under Current assessment). His later printed question, whether
 $8/5$ is the exponent for the cube, is open. The Statement is the site's
-wording as of 2026-09-18 (page last edited 18 January 2026).
+wording as accessed 2026-09-18 (page last edited 18 January 2026).
 $\mathrm{ex}(n;Q_k)$ is the largest number of edges of a graph on $n$ vertices
 with no subgraph isomorphic to $Q_k$; the question is asked for each fixed $k$
 as $n\to\infty$, and the request to determine the behavior asks for the order
@@ -264,7 +264,7 @@ improving $O(n^{8/5})$ or $\Omega(n^{3/2})$ for the cube, a determination of
 the exponent for any $k\ge3$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  community database record; the formal-conjectures directory at main as of
+  community database record; the formal-conjectures directory at main on
   2026-09-18 (no file 576).
 - The primary sources: [ErSi70] pp. 377--379, [JaSu22] pp. 1--2 and 17,
   [SuTo22] (arXiv v1) searched throughout for the hypercube, with its

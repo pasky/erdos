@@ -42,7 +42,7 @@ tends to a limit $L>1$, possibly infinite, so a yes to it includes a yes to
 the first.
 
 **Status.** Open. The site labeled the problem OPEN, and the derived standing is
-open. The site's proof-claims thread carried no claim as of 2026-10-06. No claim
+open. The site's proof-claims thread carried no claim on 2026-10-06. No claim
 page is recorded, since no one claims either question. Theorem 2.2 of the OpenAI
 release manuscript of 25 September 2026 bears on the problem without claiming
 it. With $k=1$ it implies, by a deduction drawn here, that

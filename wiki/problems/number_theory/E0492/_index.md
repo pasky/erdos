@@ -209,7 +209,7 @@ Collin Yuanjie Ren's AI-assisted development
 $0$, strictly increasing and tending to infinity with ratios tending to one,
 relative to which the multiples of almost every $\alpha>0$ are not uniformly
 distributed, without the exact limsup (6); it is a formalization link on
-Schmidt's page. The community database (teorth/erdosproblems, as of 2026-10-06)
+Schmidt's page. The community database (teorth/erdosproblems, read 2026-10-06)
 lists the problem as unformalized and records Ren's contribution in a note that
 calls the integer formulation a different, positive statement.
 

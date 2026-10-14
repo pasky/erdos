@@ -321,9 +321,9 @@ sizes", the paper's headline constant, while its theorem
 of [Sp71] or [MoMo65], a dispute of the disproof, or a later result on
 $g(n)$.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures directory listing and recursive tree as
-  of 2026-09-18 (no file 927 then); the community database as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
+  2026-09-18; the formal-conjectures directory listing and recursive tree, read
+  2026-09-18 (no file 927 then); the community database, read
   2026-09-18; the gist named in the thread, at its only revision.
 - Crossref: the records of [Sp71], [MoMo65] and [Er66b] by DOI.
 - The publisher's site offers no open copy of [Sp71] or [MoMo65]; both are

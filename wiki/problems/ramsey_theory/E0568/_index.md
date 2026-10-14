@@ -28,7 +28,7 @@ $$
 R(G,H)\ll m?
 $$
 
-**Formulation.** The site's wording as of 2026-09-08 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-08 (page last edited 18
 January 2026). The graph $G$ is fixed and the implied constants may depend on
 it: the hypotheses read $R(G,T_n)\ll_G n$ for every tree $T_n$ on $n$
 vertices and $R(G,K_n)\ll_G n^2$, and the question asks whether every graph

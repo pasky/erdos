@@ -31,7 +31,7 @@ $$
 \hat{R}(G)\ll_d n.
 $$
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited
 18 January 2026). "$H$ is Ramsey for $G$" means that every
 $2$-coloring of the edges of $H$ contains a monochromatic copy of $G$. The
 sources write the size Ramsey number $\hat r(G)$; the 1978 paper that

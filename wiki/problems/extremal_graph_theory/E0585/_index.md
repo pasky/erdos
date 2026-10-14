@@ -54,9 +54,9 @@ with the following property. For every $k\ge2$ there is $c(k)$ such that
 $c(k)\,n(\log n)^t$ edges force $k$ pairwise edge-disjoint cycles with the same
 vertex set. So the maximum is $O(n(\log n)^t)$. The exponent $t$ is not made
 explicit. The authors ask whether their bound improves to $O_k(n\log\log n)$.
-The search whose scope the Current assessment records found no exact value,
-asymptotic formula or matching pair of bounds. This is a bounded negative
-finding, not a certificate of openness.
+The search dated 2026-09-18 UTC whose scope the Current assessment records found
+no exact value, asymptotic formula or matching pair of bounds. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/585](https://www.erdosproblems.com/585),
 accessed 2026-09-18: the problem page (OPEN, the site's label for a
@@ -213,8 +213,8 @@ edge-disjoint Hamiltonian cycles of it. In the other direction, [JSS24]
 edge-disjoint cycles on the same vertex set, answering a 1992 question of
 Erdős and Hajnal; it says nothing about the edge count.
 
-**Search scope.** The status rests on these routes; none found an exact
-value, a matching pair of bounds or a proof claim.
+**Search scope (2026-09-18 UTC).** The status rests on these routes; none found
+an exact value, a matching pair of bounds or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   community database record; the full directory listing of

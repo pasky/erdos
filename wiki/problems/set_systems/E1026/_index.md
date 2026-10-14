@@ -95,7 +95,7 @@ https://www.erdosproblems.com/1026.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1026.lean),
-marked solved there as of its commit of 18 September 2026 and pointing, on its
+marked solved there at its commit of 18 September 2026 and pointing, on its
 weighted-variant statement, at a third-party Lean proof, linked from Alexeev's
 claim page, which this corpus has not built.
 

@@ -125,8 +125,9 @@ and large $n$, the sources prove no upper bound beyond $g(3)=4$, and the only
 upper bounds claimed are the pending partial claim's $12n$ for every $n$ and
 $2n$ when $\max(A)\ge8n^3$, both stated for intervals of positive integers.
 
-**Search scope.** The two cited sources, the site's discussion thread as of
-2026-09-06 and the site's proof-claim tab as of 2026-10-06, with no wider
+**Search scope.** The two cited sources, the site's discussion thread, accessed
+2026-09-06,
+and the site's proof-claim tab, accessed 2026-10-06, with no wider
 literature search.
 
 **Proof limits.** The source statements and locators were checked against

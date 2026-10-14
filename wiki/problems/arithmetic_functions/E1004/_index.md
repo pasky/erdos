@@ -57,7 +57,7 @@ The standing judges the dated catalog formulation above, with its non-strict
 upper endpoint.
 
 No proof of the every-$c$ statement was found in the arXiv
-and publication records searched. The recent
+and publication records searched on 2026-09-09. The recent
 [[../library/arithmetic_functions/li_2026_rank_amplification_shifted_equal_values_euler_totient_function/theorem_1_4|Li v2 decomposition]]
 improves the off-diagonal estimate over its specified growing shift
 range, but retains a diagonal for even shifts. Its odd-shift consequences

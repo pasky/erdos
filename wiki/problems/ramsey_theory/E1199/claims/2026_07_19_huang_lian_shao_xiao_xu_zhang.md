@@ -71,7 +71,7 @@ exact finite-color threshold" in the preprint's phrase (p. 2).
 (accepted), for Corollary 2.10, which the proof applies; the proof's Section 2
 preliminaries draw on further references.
 
-**Standing.** Claimed, not accepted. As of 2026-09-18 the preprint had no
+**Standing.** Claimed, not accepted. On 2026-09-18 the preprint had no
 journal version (a Crossref bibliographic query for its title found no record),
 no citing paper (the Semantic Scholar citation list for the arXiv identifier was
 empty), no independent review found, and no adoption by the site: the site's

@@ -50,8 +50,8 @@ here. Infinitude is unproved. Wang's Theorem 19.5 gives it only under an
 unproved prime-points hypothesis of Bateman--Horn type, recorded on
 [[problems/unit_fractions/E0313/claims/2026_05_18_wang|Wang's conditional claim page]].
 No proof, disproof or proof claim for the exact statement was found in the
-search whose scope the Current assessment records. This is a bounded negative
-finding.
+search dated 2026-09-18 UTC whose scope the Current assessment records. This is
+a bounded negative finding.
 
 **Source.** [erdosproblems.com/313](https://www.erdosproblems.com/313),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's
@@ -185,7 +185,7 @@ assistance in its preparation; the site's page does not cite it.
 **Formal statements.** The formal-conjectures statement is summarized under
 Formalization; no proof artifact exists.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit; the arXiv listing for 2605.21518 (v1 only, no
 journal reference) and a Crossref bibliographic query for the title (no

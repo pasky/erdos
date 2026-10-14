@@ -259,7 +259,7 @@ not intersective" (p. 7), and Corollary 4.1 gives $\int_0^1T\ge c\epsilon
 |\log\epsilon|^{-1}$ for nonnegative trigonometric polynomials with
 frequencies in $S$ and $T(0)=1$. Context, not the problem.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 retraction, a dispute, or a bound removing the logarithm in the number of
 colors.
 

@@ -72,7 +72,7 @@ vertices), so they do not count toward the problem's standing; they are credited
 here and on
 [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|Alexeev's rejected claim page]].
 
-**Formulation.** The site's wording as of 2026-10-07 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-10-07 (page last edited 18
 January 2026). The question is Burr and Erdős's: [BuEr76], p. 257, conjectures
 that the largest Ramsey number of a tree on $n$ points is $2n-2$ for even $n$
 and $2n-3$ for odd $n$, with stars extremal. The Statement is the upper bound
@@ -217,8 +217,8 @@ proof that the corollary consumes is affirmed by three arXiv papers of
 mathematicians independent of its claimant and of the curator (Riordan and
 Scott, Wood, and Frederickson, recorded on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|#548
-claim page]]); none of them treats the Ramsey corollary. The discussion thread
-as of 2026-10-07 holds seven comments; the announcement of 17 September 2026 of
+claim page]]); none of them treats the Ramsey corollary. On 2026-10-07 the
+discussion thread held seven comments; the announcement of 17 September 2026 of
 that formalization is recorded under Formalization, and a comment of the same
 day restates the odd-order parity argument. The community database gives the
 problem the informal status proved, updated 3 September 2026, marks the

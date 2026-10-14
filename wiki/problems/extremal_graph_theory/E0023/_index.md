@@ -114,7 +114,7 @@ The formal-conjectures file for the problem
 ([`ErdosProblems/23.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/23.lean)
 at its commit of 2026-10-06) states `erdos_23` under
 `category research open` with no `formal_proof` attribute; the community
-database (teorth/erdosproblems, as of 2026-10-06) records the statement
+database (teorth/erdosproblems, read 2026-10-06) records the statement
 formalized since 2026-02-17 and `formal_status` unformalized.
 
 ## Known Results

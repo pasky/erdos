@@ -104,7 +104,7 @@ input is a bound on the $n$-th prime from Bertrand's postulate. The later files
 prove the quantified variant, not the three clauses directly. The
 `plby/lean-proofs` file
 [`src/latest/ErdosProblems/Erdos205.lean`](https://github.com/plby/lean-proofs/blob/cecc3fc4b7725db36692f0eca3c24712a481cfba/src/latest/ErdosProblems/Erdos205.lean)
-(37,344 bytes, 884 lines, as of its commit of 2026-08-24): header
+(37,344 bytes, 884 lines, at its commit of 2026-08-24): header
 `leanprover/lean4:v4.33.0 mathlib v4.33.0`, naming Wouter van Doorn,
 Terence Tao, Boris Alexeev and ChatGPT as informal authors and ChatGPT,
 Aristotle and Boris Alexeev as formal authors; imports Mathlib and
@@ -169,7 +169,7 @@ as conditional on `nth_prime_asymp`; this is the copy the collection's
 `src/latest` copy above imports the same module and drops the conditional
 line. The later
 [`Jayyhk/erdos-lean` file](https://github.com/Jayyhk/erdos-lean/blob/2492e83e1ce4afff3f1ced3493a617334659ca78/problems/205/Erdos205.lean)
-(268,326 bytes, 5,316 lines, as of its commit of 2026-08-31) vendors a
+(268,326 bytes, 5,316 lines, at its commit of 2026-08-31) vendors a
 proof of `nth_prime_asymp` from that project ("NthPrimeAsymp vendored
 proof", `lemma nth_prime_asymp` at line 4805) and its
 `#print axioms erdos_205` comment lists `propext`, `Classical.choice`,
@@ -207,9 +207,9 @@ files' own comments.
 
 **Search scope.** The Aristotle session of 2026-01-11, the four community Lean
 files, the collection's statement file at its pinned commit and the Jayyhk
-README, as of September and October 2026; the site's problem page, its
+README, read in September and October 2026; the site's problem page, its
 discussion thread, its empty proof-claims thread and the commit history of the
-`plby/lean-proofs` file, as of 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH,
+`plby/lean-proofs` file, read 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH,
 Google Scholar and X were not searched.
 
 **Remaining gaps.** (1) Two informal write-ups exist, Price's Overleaf write-up

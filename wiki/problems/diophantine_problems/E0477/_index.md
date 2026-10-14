@@ -118,7 +118,7 @@ Pending is the cubes claim of Shan, Xu, Liang, Dai and Chen
 ([[problems/diophantine_problems/E0477/claims/2026_09_25_shan_xu_liang_dai_chen|25 September 2026]]),
 which asserts that $\{m^3:m\in\mathbb Z\}$ has a tiling complement and
 that no integer-valued quadratic polynomial does, and had no response on
-the thread as of 7 October 2026. The site's own comments give an
+the thread on 7 October 2026. The site's own comments give an
 argument, credited to AlphaProof and Adenwalla, that no quadratic
 $f$ works: for infinite $A$ two members differ by a multiple of $2c_1$ (or
 of $4c_2$ when $c_1=0$), and that difference is a difference of two values

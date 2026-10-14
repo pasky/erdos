@@ -228,7 +228,7 @@ the corpus has not built them, and no local kernel credit follows. The main
 statement `erdos_287` has no formal proof for all $k$; its finite ranges are
 the two Lean claims above.
 
-**Search scope.** The status rests on these routes;
+**Search scope (2026-09-17 UTC).** The status rests on these routes;
 none found a proof, a counterexample or a proof claim.
 
 - The site: problem page, discussion thread, proof-claim tab (empty); the

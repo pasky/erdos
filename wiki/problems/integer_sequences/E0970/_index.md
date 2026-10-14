@@ -70,8 +70,9 @@ that its proof has been formalized. The manuscript has no refereed version and
 no outside review known here. Jacobsthal's conjecture $h(k)\ll k^2$ was already
 "hopeless at present" for Erdős in 1965.
 
-The search, whose scope the Current assessment records, found the following
-bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$ (the claim page
+The search dated 2026-09-18 UTC, whose scope the Current assessment records,
+found the following bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$
+(the claim page
 [[problems/integer_sequences/E0970/claims/1978_01_01_iwaniec|Iwaniec 1978]],
 accepted, partial). It is the Corollary of [Iw78], p. 226: $C(r)\ll r^2\log^2r$
 for the longest run of consecutive integers each divisible by one of $r$
@@ -308,9 +309,10 @@ $h(k)\ll k^2/(\log\log 3k)^2$ is not accepted here; the best refereed upper
 bound remains Iwaniec's $(k\log k)^2$. OEIS A048670 lists $j(P(p_n))$ for
 $n\le64$, the values $h(k)$ would have to exceed.
 
-**Search scope.** Apart from the release behind the accepted partial claim
-above, which the routes below do not cover, none of them found an upper bound
-below $(k\log k)^2$, a lower bound beyond those above, or a proof claim.
+**Search scope (2026-09-18 UTC).** Apart from the release behind the accepted
+partial claim above, which the routes below do not cover, none of them found an
+upper bound below $(k\log k)^2$, a lower bound beyond those above, or a proof
+claim.
 
 - The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; formal-conjectures `970.lean` at the pinned commit; the

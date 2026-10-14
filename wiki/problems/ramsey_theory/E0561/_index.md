@@ -42,7 +42,7 @@ $$
 l_k=\max\{n_i+m_j-1 : i+j=k\}.
 $$
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited
 1 February 2026). $F_1$ is the vertex-disjoint union of
 the stars $K_{1,n_i}$ with $n_i$ edges each, and similarly $F_2$;
 $\hat R(F_1,F_2)$ is the least number of edges of a graph $H$ every red-blue
@@ -68,8 +68,8 @@ forests [FLN26]. It is recorded as a withdrawn claim on
 [[problems/ramsey_theory/E0561/claims/2026_06_03_fu_luo_ni|its claim page]]. Two
 partial proof claims on the site's claim tab (August and September 2026) both
 declare AI assistance. Each is recorded on a claim page below, and neither has
-acceptance evidence. This is a bounded negative finding from the search, not a
-certificate of openness.
+acceptance evidence. This is a bounded negative finding from the search dated
+2026-09-17 UTC, not a certificate of openness.
 
 **Source.** [erdosproblems.com/561](https://www.erdosproblems.com/561),
 accessed 2026-09-17: the problem page (labeled OPEN, with the site's note
@@ -268,7 +268,7 @@ The site's claim tab carries its standing notice that a listing there is no
 guarantee of correctness and that nobody associated with the site has
 examined the proof. Neither claim is carried as a bound here.
 
-**Search scope.** The status rests on these routes;
+**Search scope (2026-09-17 UTC).** The status rests on these routes;
 none found a proof of the formula for all star forests, a counterexample or
 an accepted claim.
 

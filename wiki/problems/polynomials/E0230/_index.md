@@ -31,7 +31,7 @@ $$
 $$
 
 **Status.** DISPROVED (LEAN), the site's label (page last edited 23 January
-2026, as of 2026-10-07). The site's curator answers no, against Erdős's own
+2026). The site's curator answers no, against Erdős's own
 expectation. The curator credits Kahane [Ka80], whose ultraflat polynomials have
 $\lvert P(z)\rvert=(1+o(1))\sqrt n$ uniformly on the circle for coefficients of
 modulus one. The curator names Bombieri and Bourgain [BoBo09] as sharpening the

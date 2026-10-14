@@ -382,8 +382,8 @@ subset size (his $t$, the page's $l$) and in 1973, as (8.8), with the constant
 independent of $t$, $l$, $n$ and the sequence, and reported there as never
 proved, before the paper was received.
 
-**Search scope.** None of the routes below found a dispute of the theorems or
-a Lean file for the problem.
+**Search scope, 2026-09-18 ([Ha77] 2026-09-22).** None of the routes below found
+a dispute of the theorems or a Lean file for the problem.
 
 - The site: problem page, discussion thread and proof-claim tab; the full
   directory listing of formal-conjectures at its revision of 2026-09-18 (no file

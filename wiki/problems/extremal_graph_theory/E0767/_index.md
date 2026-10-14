@@ -32,7 +32,7 @@ $$
 
 for $n$ sufficiently large?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 6 October 2025). A chord of a cycle is an edge of the graph joining two vertices
 of the cycle that are not consecutive on it; the $k$ chords are required to
 share one cycle vertex. The question is for each fixed $k\ge1$ and all
@@ -285,7 +285,7 @@ the whole cycle and are not the problem.
 **Search scope.** None of the routes below found a dispute
 of Jiang's theorem; [Ji04] is not held.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures tree, which then held no file 767 (the
   file added on 2026-09-21 is recorded under Formalization); the community
   database entry.

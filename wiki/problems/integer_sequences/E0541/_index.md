@@ -245,7 +245,7 @@ records the acceptance. The `v4.24.0` copy the attribute names was not
 built. The community database records `formal_status` Lean and no
 formal-proof URL.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of either theorem or a further result on the question.
 
 - The site: problem page, discussion thread and proof-claim tab;

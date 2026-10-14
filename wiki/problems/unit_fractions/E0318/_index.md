@@ -133,7 +133,7 @@ Problem #318, https://www.erdosproblems.com/318, accessed 2026-09-18.
 **Formalization.** Lean proofs of all three parts exist outside this corpus;
 none has been built or audited here. The statement file
 [`ErdosProblems/318.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/318.lean)
-of formal-conjectures at the linked commit (main as of 2026-09-18; copyright
+of formal-conjectures at the linked commit (main on 2026-09-18; copyright
 header 2026) defines `P₁ (A : Set ℕ)` as: every `f : ℕ → ℝ` with range in
 `{1, -1}` that is not constantly `1` or constantly `-1` on `A \ {0}` admits a
 non-empty `S : Finset ℕ` with `↑S ⊆ A \ {0}` and `∑ n ∈ S, f n / n = 0`. It
@@ -270,7 +270,7 @@ evidence: the site's page, which credits Larsen with the affirmative answer for 
 author's thread comment of 1 February 2026 announcing the note as an
 application of the technical result of Larsen's work on Problem 825; no arXiv
 listing, journal record or
-independent review was found, and the proof is unchecked by
+independent review was found on 2026-09-18, and the proof is unchecked by
 this corpus. For the third question the label rested on this preprint; Ren's
 Lean package of 16 September 2026, linked on the claim page, formalizes it
 but has not been built here.
@@ -294,7 +294,7 @@ counterexample that misreads the sum as $\sum f(n)n$; the reply the same
 day points out the misreading and the forum's disclosure rule. None of these
 items enters the status.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 file at the pinned commit; the GitHub API for the repository
 `Larsen-Daniel/Erdos-318` (creation date, the two commits of `318.pdf`, the

@@ -52,8 +52,8 @@ discussion thread carries heuristics for the value of $c$ and a heuristic guess
 that the answer is no. It also carries unverified arguments that
 $\delta(N)>e^{-cN}$ infinitely often for every $c>5/6$, and that $c\le0.69$ if
 the asymptotic holds. No proof, disproof or proof claim for the exact statement
-was found in the search whose scope the Current assessment records. This is a
-bounded negative finding.
+was found in the search dated 2026-09-18 UTC whose scope the Current assessment
+records. This is a bounded negative finding.
 
 **Source.** [erdosproblems.com/311](https://www.erdosproblems.com/311),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's
@@ -89,7 +89,7 @@ https://www.erdosproblems.com/311, accessed 2026-09-18.
 entries, full recursive tree of 1,739 entries) has
 no file for Problem 311, and the repository's issue 480 ("Erdős Problem
 311", opened 29 July 2025, marked "up for grabs"), a request for a
-statement, was its only record of the problem as of that date. The
+statement, was its only record of the problem on that date. The
 community database (teorth/erdosproblems, `data/problems.yaml`) records
 status open (last updated 31 August 2025), no formalized statement,
 formal status unformalized and no OEIS entry. The thread links no Lean
@@ -199,7 +199,7 @@ consistency checks, not evidence for the conjectured rate.
 line. The formal-conjectures issue is a request for a statement, not a
 formalization.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures directory
 listing and full tree at the pinned commit and the GitHub API record of
 its issue 480; the GitHub API for Tang's repository (commit history, file

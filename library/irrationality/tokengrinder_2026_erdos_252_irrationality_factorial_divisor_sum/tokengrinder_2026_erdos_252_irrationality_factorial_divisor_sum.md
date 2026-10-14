@@ -3,8 +3,8 @@ name: irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_
 title: Source record for the Problem 252 Lean development
 desc: |
   Repository identity, dates, license, the author's own AI attribution and
-  anonymity statements, and the public registration and acceptance facts as
-  of 2026-09-17.
+  anonymity statements, and the public registration and acceptance facts on
+  2026-09-17.
 created: 2026-09-17T08:01:04Z
 updated: 2026-10-05T05:52:35Z
 ---

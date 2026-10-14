@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:58Z
 n^{1/2}$. Must there exist some $B\subset\mathbb{Z}$ with $\lvert
 B\rvert=o(n^{1/2})$ such that $A\subseteq B+B$?
 
-**Formulation.** The site's wording as of 2026-09-18 (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). $B$ is a *basis* for $A$ when every $a\in A$ is $b+b'$ with
 $b,b'\in B$; Erdős and Newman write $m_A$ for the least size of a basis and call
 $A$ of type $(n,N)$ when it has $n$ elements with largest element $N$ ([ErNe77],
@@ -120,7 +120,7 @@ standing rests on the refereed paper.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement above;
+**The question (site formulation).** The statement above;
 labeled PROVED; no last-edited date. The commentary attributes the problem to
 Erdős and Newman [ErNe77], credits them with sets $A$ of size about $n^{1/2}$
 every basis of which has $\gg n^{1/2}\log\log n/\log n$ elements, credits the

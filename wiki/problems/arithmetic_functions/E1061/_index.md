@@ -92,7 +92,7 @@ problem OPEN.
 Pro) asserts that the count exceeds $x(\log x)^{R}$ for every fixed $R>0$,
 so that no asymptotic $cx$ holds. The author posted it as a full proof claim
 on the site's proof-claims tab on 2026-07-26; the thread carried no comments
-as of 2026-10-06, and no referee report or outside review of the proof is
+on 2026-10-06, and no referee report or outside review of the proof is
 known. The claim's full scope rests on the modified Statement above: it answers
 Guy's dichotomy and the question whether the count is $\sim cx$, but it does
 not determine the order of growth.
@@ -108,7 +108,7 @@ in that formulation the Li claim asserts the count is of higher order.
 
 **Search scope.** The site's problem page, accessed 2026-09-04, and its
 proof-claims thread, accessed 2026-10-06; the formal-conjectures file at the
-pinned commit and the lean-proofs repository, as of 2026-10-07; and Guy's
+pinned commit and the lean-proofs repository, read 2026-10-07; and Guy's
 B15. The proof is not compiled in this wiki.
 <!-- BEGIN problem library links -->
 

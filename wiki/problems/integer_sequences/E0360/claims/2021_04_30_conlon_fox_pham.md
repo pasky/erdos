@@ -56,8 +56,8 @@ proof.
 
 Accepted: the paper is to appear in J. Eur. Math. Soc., as David Conlon's
 publication list gives it, but has no journal record yet (arXiv carries only v1,
-with no journal reference, and Crossref has no record of the journal version, as
-of 2026-10-07), so `refereed` is not listed and the acceptance evidence is the
+with no journal reference, and Crossref has no record of the journal version,
+read 2026-10-07), so `refereed` is not listed and the acceptance evidence is the
 site's documented acceptance: the commentary of Thomas Bloom, the site's
 curator, states that the three authors determined the order of growth of $f(n)$
 up to a multiplicative constant, and the site labeled the problem SOLVED

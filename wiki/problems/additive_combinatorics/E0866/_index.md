@@ -174,7 +174,7 @@ Aristotle, the systems the paper's Section 2 names), listing the best known
 bounds for $h_k$ ($h_3(N)=2$ for $N\ge4$, $h_4(N)\le2270$,
 $h_5(N)\asymp\log N$, $h_6(N)\asymp\sqrt N$, $h_k(N)<4N^{1-2^{2-k}}$), and
 adding that [Er72, p. 83] also mentions the problem and could be added as a
-reference (the site's keys were unchanged as of 2026-10-06); a comment of 4
+reference (the site's keys were unchanged on 2026-10-06); a comment of 4
 May 2026 (a thread commenter) congratulating; and a comment of 8 July 2026
 (the account John Erlbacher) announcing, as AI-assisted work with linked
 Lean files, $h_4(n)=4$ for large $n$ and $g_5(n)\le3.6\cdot10^6$, the

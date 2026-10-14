@@ -105,13 +105,13 @@ question is open for both: Komjáth [Ko25] records the consistency results only
 (Problems 51-53) and notes that such graphs have more than $2^{\aleph_0}$
 vertices, as the Known Results below record. Either question would be settled as
 independent by a matching consistency result for the negative answer, or
-outright by a construction of such a graph in ZFC. Search scope: the site's
-problem page, discussion thread and proof-claims tab; the community database
-(entry 1174: not disprovable since 2026-03-19, unformalized); Komjáth's survey,
-Problems 51-54; the Shelah archive entries Sh:289 and Sh:414 and the scan of
-[KoSh93]; [Va99], item 7.91. Not searched: arXiv, zbMATH, MathSciNet and X. The
-proofs of Lemma 5.1 and of Theorems 1 and 2 were not followed; nothing on this
-page is independently reviewed.
+outright by a construction of such a graph in ZFC. Search scope, 2026-10-07: the
+site's problem page, discussion thread and proof-claims tab; the community
+database (entry 1174: not disprovable since 2026-03-19, unformalized); Komjáth's
+survey, Problems 51-54; the Shelah archive entries Sh:289 and Sh:414 and the
+scan of [KoSh93]; [Va99], item 7.91. Not searched: arXiv, zbMATH, MathSciNet and
+X. The proofs of Lemma 5.1 and of Theorems 1 and 2 were not followed; nothing on
+this page is independently reviewed.
 
 ## Known Results
 

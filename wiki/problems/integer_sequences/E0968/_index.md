@@ -76,7 +76,7 @@ The curator's blog post
 that its proof has been formalized.
 
 Whether the set has an asymptotic density, the stronger reading under
-Formulation, remains open. The discussion thread (as of 2026-10-07) holds one
+Formulation, remains open. The discussion thread (accessed 2026-10-07) holds one
 conditional result. The comment of 10 September 2025 (Tao) gives a positive
 answer assuming the Riemann hypothesis and a weak form of the pair correlation
 conjecture. As a conditional thread post, it has no claim page.

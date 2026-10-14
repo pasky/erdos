@@ -56,8 +56,8 @@ but does not answer it, because $H(n)$ is itself only known to within constant
 factors.
 
 **Status.** Open. No proof, disproof or proof claim for the inequality was found
-in the search whose scope the Current assessment records. This is a bounded
-negative finding, not a certificate of openness.
+in the search dated 2026-09-19 UTC whose scope the Current assessment records.
+This is a bounded negative finding, not a certificate of openness.
 
 The best explicit upper bound valid for every $n$ is Theorem 3 of Erdős, Gallai
 and Tuza (Discrete Math. 108 (1992), refereed): $\tau(G)\le n-\sqrt{2n}+\sqrt2$
@@ -275,7 +275,7 @@ game and one on chordal graphs; none is on this problem. The Aigner--Andreae
 manuscript of 1986 behind the chordal results is unpublished; Tuza's 1990 paper
 gives the published proof.
 
-**Search scope.** None of the routes below found a proof,
+**Search scope (2026-09-19 UTC).** None of the routes below found a proof,
 a counterexample, a bound closer to $n-H(n)$ than the explicit
 $n-\sqrt{2n}+\sqrt2$ and the asymptotic $n-c\sqrt{n\log n}$, or a proof
 claim.

@@ -32,7 +32,7 @@ $$
 \mathrm{ex}_r(n,\mathcal{F}).
 $$
 
-**Formulation.** The site's wording as of 2026-09-18T10:47Z
+**Formulation.** The site's wording as accessed 2026-09-18T10:47Z
 (page last edited 24 January 2026). The wording binds $t$, $k$ and $r$ and
 then uses an unbound $s$ and no $t$; $s$ is a fourth parameter, the number
 of edges, and $t$ is used only in the commentary's conjecture. With $s$ read
@@ -95,9 +95,9 @@ conjecture on 2-degenerate bipartite graphs.
 
 The conjecture itself, $\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+3$, is open
 for every $s\ge4$ in every cited source, including the $(7,4)$ case. No
-resolution and no proof claim was found in the search whose scope the Current
-assessment records. This is a bounded negative finding, not a certificate of
-openness.
+resolution and no proof claim was found in the search dated 2026-09-18 UTC whose
+scope the Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/1157](https://www.erdosproblems.com/1157),
 accessed 2026-09-18 at 10:47 UTC: the problem page (OPEN, with
@@ -374,7 +374,7 @@ $r$ edges. This very difficult question contains the existence problem of block
 designs, the Ruzsa--Szemerédi Theorem etc." (the booklet's $t$ and $r$ are the
 site's $r$ and $s-1$).
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 determination of $\mathrm{ex}_r(n,\mathcal F)$ in general, a proof of the
 conjecture for any $s\ge4$ at small uniformity, or a proof claim.
 

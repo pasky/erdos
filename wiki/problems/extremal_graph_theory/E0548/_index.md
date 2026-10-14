@@ -114,7 +114,7 @@ have not been built here.
 
 ## Current assessment
 
-**Search scope.** The site's statement, comments and proof
+**Search scope (2026-09-05 UTC).** The site's statement, comments and proof
 claim, the five-page exposition, the pinned formal repository and public
 verification records, and the [FrontierMath primary
 report](https://epoch.ai/files/frontiermath-erdos.pdf); the FrontierMath Erdős

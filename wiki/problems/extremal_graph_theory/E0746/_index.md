@@ -380,7 +380,7 @@ of the theorems or a change of status.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree at the pinned commit (no
-  file 746); the community database entry as of 2026-09-18.
+  file 746); the community database entry, read 2026-09-18.
 - Crossref: the records of doi:10.1016/0012-365X(76)90068-6,
   doi:10.1016/0012-365X(83)90021-3 and doi:10.1007/BF01894879, and a
   bibliographic query for Korshunov's title (which returned the 1985

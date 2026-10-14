@@ -29,7 +29,7 @@ $c_1+c_2\not\in B$ for all $c_1\neq c_2\in C$ and $\lvert C\rvert+\lvert B\rvert
 
 Estimate $f(n)$. In particular is it true that $f(n)\leq n^{1/2+o(1)}$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 26
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 26
 January 2026). Equivalently $f(n)$ is the minimum over
 $B\subset(2n,4n)\cap\mathbb N$ of $|B|$ plus the largest size of a
 $B$-admissible $C\subset(n,2n)\cap\mathbb N$ (a set whose sums of two
@@ -251,9 +251,10 @@ evidence: none. The site's label was OPEN on 2026-09-18 and on 2026-10-06, and
 its commentary, last edited 26 January 2026, predates the claim and does not
 adopt it; the site's tab warns that a listing there neither guarantees the
 proof's correctness nor means that anyone connected with the site has examined
-it; the one comment on the claim (still the only one on 2026-10-06), of 23 July
-2026, is the author's own and adds the Lean link. The repository's README says
-that each proof was checked for correctness with the help of AI.
+it; found on 2026-09-18; the one comment on the claim (still the only one on
+2026-10-06), of 23 July 2026, is the author's own and adds the Lean link. The
+repository's README says that each proof was checked for correctness with the
+help of AI.
 
 The accompanying Lean development, at the repository's head commit of
 2 August 2026 (the commit the claim page's links pin), is the Lake project
@@ -282,12 +283,12 @@ so it gives no `formalized` evidence; no statement-fidelity review exists
 beyond the definition check above, and the community database records no
 formal status for the problem.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 refereed or arXiv version of [Wa26], an independent review of it, a journal
 version of [AlPh25], or a bound sharper than $n^{3/5+o(1)}$ from a
 refereed source.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - The manuscript's repository through the GitHub API: the repository

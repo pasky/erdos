@@ -265,20 +265,20 @@ Nothing was built or kernel-checked here and no local credit is claimed.
 The community database records `formal_status` Lean (field last updated 31
 January 2026) and no formal-proof URL.
 
-**Search scope.** The problem, discussion and proof-claim pages; the community
-database record; the formal-conjectures file at the pinned commit; the GitHub
-API for the commit date of Boris Alexeev's `lean-proofs` repository at the pin
-and the raw Lean file; the arXiv abstract pages of 2503.02317 (v1 only; no
-journal reference), 2503.12277 (four versions; journal reference Acta Math.
-Hungar. 177 (2025), 41--63) and 2607.28387 (two versions; no journal reference);
-the Crossref record for DOI 10.1007/s10474-025-01566-8 and a Crossref
-bibliographic query for Kamio's title (no record); the Semantic Scholar citation
-lists of 2503.02317 (two records: Li and Tang's published paper and Kovač and
-Tang's preprint) and 2503.12277 (no records); the arXiv API query `abs:Sylvester
-AND abs:reciprocals` (twelve records; none beyond the three sources concerns
-this question); OEIS A000058 and A076393; the monograph's p. 41; the primary
-sources [LiTa25], [Ka25] and [KoTa26]. Not searched: MathSciNet, zbMATH, Google
-Scholar, X. Nothing found disputes the two proofs.
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
+pages; the community database record; the formal-conjectures file at the pinned
+commit; the GitHub API for the commit date of Boris Alexeev's `lean-proofs`
+repository at the pin and the raw Lean file; the arXiv abstract pages of
+2503.02317 (v1 only; no journal reference), 2503.12277 (four versions; journal
+reference Acta Math. Hungar. 177 (2025), 41--63) and 2607.28387 (two versions;
+no journal reference); the Crossref record for DOI 10.1007/s10474-025-01566-8
+and a Crossref bibliographic query for Kamio's title (no record); the Semantic
+Scholar citation lists of 2503.02317 (two records: Li and Tang's published paper
+and Kovač and Tang's preprint) and 2503.12277 (no records); the arXiv API query
+`abs:Sylvester AND abs:reciprocals` (twelve records; none beyond the three
+sources concerns this question); OEIS A000058 and A076393; the monograph's p.
+41; the primary sources [LiTa25], [Ka25] and [KoTa26]. Not searched: MathSciNet,
+zbMATH, Google Scholar, X. Nothing found disputes the two proofs.
 
 **Remaining gaps.** (1) Both proofs are compiled at statement level with
 structure sketches, and neither has a refereed publication: Kamio's paper is a

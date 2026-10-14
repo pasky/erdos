@@ -173,7 +173,7 @@ accessed 2026-09-17.
   discussion thread.
 
 **Formalization.** None. No file `ErdosProblems/612.lean` was found in
-formal-conjectures on its main branch as of 2026-09-17; the site's page shows
+formal-conjectures on its main branch on 2026-09-17; the site's page shows
 the statement as not formalized, and the community database (fetched 2026-09-17)
 records the problem as open and unformalized, with no formal-proof URL. The
 formal-conjectures issue 828 ("Erdős Problem 612", opened 6 October 2025, open

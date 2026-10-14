@@ -254,7 +254,7 @@ claim page is
 The Overleaf read link served no document to a request on 2026-09-18; the Lean
 file's content is described on Problem 320 and contains no theorem about the
 order of $R(N)$ beyond the finite dissociation bridge. No refereed publication
-or independent review was found.
+or independent review was found on 2026-09-18.
 
 **Data leads, not status.** OEIS A391592 gives $R(N)$ for $N\le54$; the
 first sixteen values ($1,2,3,4,5,5,6,7,8,9,10,10,11,12,12,13$) were
@@ -268,7 +268,7 @@ dissociated subset of $[1,20]$ extends by $21$). The public gist and the
 repository of Cong Lu (head of 31 December 2025) hold the code; it was not
 run by this corpus.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit; OEIS A391592 and A384927 (JSON records); issue 161 of the
 community database's repository and the gist (GitHub API); the Crossref and

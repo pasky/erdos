@@ -60,7 +60,7 @@ Problem #281, https://www.erdosproblems.com/281.
 (pinned to the commit of 2026-09-18), whose entry carries the category
 `research solved` and a `formal_proof` attribute pointing to the `v4.29.1`
 copy of `ErdosProblems/Erdos281.lean` in Boris Alexeev's lean-proofs
-repository on its main branch, unpinned (as of 2026-10-07). The development
+repository on its main branch, unpinned (read 2026-10-07). The development
 declares itself a formalization of Somani's
 argument and is pinned on
 [[problems/covering_systems/E0281/claims/2026_01_17_somani|the claim page]];

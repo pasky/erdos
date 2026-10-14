@@ -105,7 +105,7 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
 **Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
 [`ErdosProblems/613.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/613.lean)
-of formal-conjectures, linked at the `main` commit as of 2026-09-18, declares
+of formal-conjectures, linked at the `main` commit, read 2026-09-18, declares
 `erdos_613 : answer(False) ↔ ∀ n ≥ 3, ∀ (V : Type*) [Fintype V] (G : SimpleGraph V), [DecidableRel G.Adj] → G.edgeFinset.card = Nat.choose (2 * n + 1) 2 - Nat.choose n 2 - 1 → ∃ (B D : SimpleGraph V), [DecidableRel B.Adj] → [DecidableRel D.Adj] → G = B ⊔ D ∧ B.IsBipartite ∧ ∀ v, D.degree v < n`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming `src/latest/ErdosProblems/Erdos613.lean#L1170` in Boris

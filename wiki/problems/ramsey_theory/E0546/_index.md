@@ -153,7 +153,7 @@ $R(C_k,H)$ for $H$ with $m$ edges and no isolated vertices by
 $2m+\lfloor(k-1)/2\rfloor$ and is adjacent, not this question. The constant 250
 has not been improved in any source found.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file
 at the pinned commit; the arXiv listing of 1002.0095 (one version, no journal
 reference) and the Crossref records of [Su11] (doi:10.1016/j.aim.2011.02.004)

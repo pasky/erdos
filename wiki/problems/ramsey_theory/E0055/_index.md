@@ -65,7 +65,7 @@ Problem #55, https://www.erdosproblems.com/55, accessed 2026-09-17.
   [[../library/ramsey_theory/burr_1985_ramsey_type_property_additive_number_theory/_index|burr_1985_ramsey_type_property_additive_number_theory]].
 - [CFP21] Conlon, D., Fox, J. and Pham, H. T., Subset sums, completeness and
   colorings. arXiv:2104.14766v1 (30 April 2021), 75 pages; the only arXiv
-  version, and no journal version found. Library home:
+  version, and no journal version found on 2026-09-17. Library home:
   [[../library/integer_sequences/conlon_2021_subset_sums_completeness_colorings/_index|conlon_2021_subset_sums_completeness_colorings]].
 
 **Formalization.** None. No file `ErdosProblems/55.lean` existed in
@@ -149,7 +149,7 @@ it in counting form. Their theorem at $r=2$ closes the gap between the two
 Burr--Erdős bounds up to constants, which is Problem 54's question and is
 recorded on that page, not here.
 
-**Search scope.** The site's three pages; the community
+**Search scope (2026-09-17 UTC).** The site's three pages; the community
 database record; the formal-conjectures directory listing (`main`; no file); the
 arXiv abstract page of 2104.14766 (one version, no journal reference); Crossref
 bibliographic queries for the title (no journal record; the only

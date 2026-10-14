@@ -92,7 +92,7 @@ $c=10$; the deduction is written on the claim page
 The paper is not held, its theorem is known through the signed zbMATH review
 and the site's commentary, and nothing is independently reviewed here.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-10-07 UTC).** None of the routes below found a
 correction, retraction or dispute of [PrRo99], or a proof claim.
 
 - The site: problem page (PROVED; source key [Er93, p. 340]), discussion

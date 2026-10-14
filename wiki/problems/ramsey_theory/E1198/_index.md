@@ -250,7 +250,7 @@ or a second source for the disproof.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file on 2026-09-18); the community
-  database as of 9 September 2026.
+  database, read 9 September 2026.
 - Crossref record for [Sm95] (JCTA 72 (1995), no. 1, 77--94, October 1995;
   open-archive license from 17 July 2013); the zbMATH Open record (0868.05005;
   "contents unavailable due to conflicting licenses") and the OpenAlex record

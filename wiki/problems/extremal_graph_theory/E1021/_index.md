@@ -103,7 +103,7 @@ text cited is the journal version, not its arXiv v1.
 The formal-conjectures file `ErdosProblems/1021.lean` was added on 19
 September 2026
 ([the file at that commit](https://github.com/google-deepmind/formal-conjectures/blob/afb667a0bb43410abb5db56c99adf4f5614537bc/FormalConjectures/ErdosProblems/1021.lean)).
-As of that commit it defines $G_k$ as `cliqueSubdivision k`, the
+At that commit it defines $G_k$ as `cliqueSubdivision k`, the
 one-subdivision of $K_k$, and states two theorems: `erdos_1021`, the
 question with answer True (for every $k\ge3$ some $c>0$ has
 $\mathrm{ex}(n,G_k)=O(n^{3/2-c})$), and `erdos_1021.variants.janzer`, the

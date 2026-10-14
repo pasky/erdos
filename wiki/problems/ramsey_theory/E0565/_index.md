@@ -34,7 +34,7 @@ $$
 
 for any graph $G$ on $n$ vertices?
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
 January 2026). $R^*(G)$ is written $r_{\mathrm{ind}}(G)$ or
 $R_{\mathrm{ind}}(G)$ in the sources; the induced copy must be induced in the
 host $H$ with all its edges of one color. That $R^*(G)$ is finite is the
@@ -222,7 +222,7 @@ through a $(1/2,\lambda)$-pseudo-random host with $\lambda\le2^{-cn\log n}N$
 (Theorem 1.3). [ACDFM25] (p. 2) records the same chain as its displays (2) and
 (3), with [CFS12]'s bound written $k^{O(k)}$.
 
-**Search scope.** None of the routes below found a journal
+**Search scope (2026-09-17 UTC).** None of the routes below found a journal
 version of [ACDFM25], a dispute or correction, an independent review, or a
 formal proof.
 

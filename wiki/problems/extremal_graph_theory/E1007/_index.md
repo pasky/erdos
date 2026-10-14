@@ -293,7 +293,7 @@ the value $9$ by its title.
 **Search scope.** None of the routes below found a dispute
 of the value $9$, a retraction, or a second determination.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the site's reference text for [So09e]; the community database
   as fetched that day; the formal-conjectures file and the external Lean file
   at the revisions the pinned links name (GitHub API).

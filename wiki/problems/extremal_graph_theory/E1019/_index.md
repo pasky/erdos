@@ -139,7 +139,7 @@ result to Simonovits and says the bridge was prepared with Claude Code
 (Claude Fable 5.1) assistance. The community database (teorth/erdosproblems,
 `data/problems.yaml`) recorded the problem proved (changed to proved in a
 commit of 21 November 2025, by the file's history) and unformalized on
-2026-09-18; as of 2026-10-06 it records formal status Lean since 16
+2026-09-18; on 2026-10-06 it recorded formal status Lean since 16
 September 2026 through the second development, status "proved (Lean)", and
 no formalized statement file.
 
@@ -253,7 +253,7 @@ saturated planar graphs was located for this page, and the card records
 the search. It bears on the problem as a cited method, not as a
 statement.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 published proof, a refereed quotation of Simonovits's theorem, a disproof, or
 a proof claim.
 

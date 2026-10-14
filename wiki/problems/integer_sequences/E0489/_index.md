@@ -65,8 +65,8 @@ Problem #489, https://www.erdosproblems.com/489.
 
 **Formalization.** The file
 [`ErdosProblems/489.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/489.lean)
-of formal-conjectures, pinned to its commit of 2026-09-17 (on main as of
-2026-10-07 the file differs only by a module header), defines `sievedSet A`
+of formal-conjectures, pinned to its commit of 2026-09-17 (on main on
+2026-10-07 the file differed only by a module header), defines `sievedSet A`
 as the positive integers divisible by no member of `A` and `GapSumSq A x`
 as the sum of the squared gaps between consecutive members below `x`, and
 declares `erdos_489 : answer(True) ↔ ∀ A, (counting function of A on [1,x]) =o[atTop] √x → (sievedSet A).Infinite → ∃ L : ℝ, Tendsto (GapSumSq A x / x) atTop (𝓝 L)`,

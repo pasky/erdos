@@ -84,11 +84,11 @@ as their pages say.
 
 **Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
 proved and credits the theorem to Mirsky and Newman and, independently, to
-Davenport and Rado (the site's page as of 2026-10-07). The page's thread holds
-one comment, of 2026-02-02, and its proof-claim tab is empty. Erdős, who posed
-the question, printed the theorem as theirs with the proof in 1952. The theorem
-has been standard since. Erdős and Szemerédi's 1968 paper *On a problem of P.
-Erdős and S. Stein*, on the library's
+Davenport and Rado (the site's page, accessed 2026-10-07). The page's thread
+holds one comment, of 2026-02-02, and its proof-claim tab is empty. Erdős, who
+posed the question, printed the theorem as theirs with the proof in 1952. The
+theorem has been standard since. Erdős and Szemerédi's 1968 paper *On a problem
+of P. Erdős and S. Stein*, on the library's
 [[../library/covering_systems/erdos_1968_problem_p_erdos_s_stein/_index|card]],
 cites it as known, and that paper's reference [2] cites the 1952 Mat. Lapok
 proof. Newman reproved and sharpened the theorem in 1971.

@@ -53,9 +53,9 @@ by the corpus's verification. The curator's blog post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) lists the claim, as a claim and not an endorsement, and says
 that its proof has been formalized. The problem's standing is therefore solved
-with a negative answer, ahead of the site's label. The search whose scope the
-Current assessment records had found no proof, disproof or proof claim. Two
-arXiv preprints claiming a negative answer, by
+with a negative answer, ahead of the site's label. The search dated 2026-09-18
+UTC whose scope the Current assessment records had found no proof, disproof or
+proof claim. Two arXiv preprints claiming a negative answer, by
 [[problems/number_theory/E0952/claims/2019_08_27_das|Das (2019)]] and
 [[problems/number_theory/E0952/claims/2024_01_16_stumpenhusen|Stumpenhusen (2024)]],
 had been withdrawn by their authors, as their arXiv records state. Gethner and
@@ -261,8 +261,8 @@ Integers on divisibility and unavoidable obstructions in Gaussian walks;
 no claimed resolution. All of this predates [OAI26], which proves the
 conjecture these sources state or model.
 
-**Search scope.** None of the routes below found a proof, disproof or proof
-claim; [OAI26] postdates the search.
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof,
+disproof or proof claim; [OAI26] postdates the search.
 
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database on

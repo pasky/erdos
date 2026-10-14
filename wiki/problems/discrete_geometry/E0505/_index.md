@@ -28,8 +28,8 @@ and Kalai, with Brouwer and Jenrich for the smallest dimension it records,
 and flagged a Lean formalization.
 
 **Source.** [erdosproblems.com/505](https://www.erdosproblems.com/505), accessed
-2026-09-04; the problem page and its discussion thread as of 2026-10-07. Cite
-as: T. F. Bloom, Erdős Problem #505, https://www.erdosproblems.com/505.
+2026-09-04; the problem page and its discussion thread, accessed 2026-10-07.
+Cite as: T. F. Bloom, Erdős Problem #505, https://www.erdosproblems.com/505.
 
 **References.**
 

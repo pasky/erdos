@@ -99,8 +99,8 @@ statements are Mirabi's account; this record makes no priority
 determination. The p. 5 acknowledgements thank Ivan and Leader for
 discussions and for reading earlier versions of the argument.
 
-The search found this preprint on the [author's Research Notes
-page](https://sites.google.com/site/mostafamirabi/Mostafa-mirabi), but no
+The search on 5 September 2026 found this preprint on the [author's Research
+Notes page](https://sites.google.com/site/mostafamirabi/Mostafa-mirabi), but no
 journal acceptance or formal proof certification was located in that bounded
 search. [Pálvölgyi's arXiv:2608.10865v2, p.
 24](https://arxiv.org/pdf/2608.10865v2#page=24) cites Moore and Mirabi for the

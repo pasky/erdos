@@ -56,10 +56,10 @@ agent, posted 1 October 2026 and linked by formal-conjectures since 7 October
 2026 ([[problems/unit_fractions/E0289/claims/2026_10_01_leap|LEAP]]). None is
 accepted by the site, a referee or a named mathematician. No build or review of
 any of them is recorded. No proof, disproof or accepted resolution of the
-restricted statement was found in the search whose scope the Current assessment
-records. The unrestricted variant, in which intervals may repeat or overlap, is
-settled affirmatively by an argument in the site's discussion (Kovač, September
-2025). The site's commentary adopts that argument.
+restricted statement was found in the search dated 2026-09-17 UTC whose scope
+the Current assessment records. The unrestricted variant, in which intervals may
+repeat or overlap, is settled affirmatively by an argument in the site's
+discussion (Kovač, September 2025). The site's commentary adopts that argument.
 
 **Source.** [erdosproblems.com/289](https://www.erdosproblems.com/289),
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a
@@ -223,7 +223,7 @@ paper; that is a thread remark without a manuscript and has no page. The four
 claims derive the standing claimed, claim proved, in the frontmatter; the
 site's label was OPEN.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 file at the pinned commit; the GitHub API for the two claim repositories
 (head commits only); arXiv API searches for abstracts naming reciprocals of

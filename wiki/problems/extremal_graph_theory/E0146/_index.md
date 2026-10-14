@@ -338,7 +338,7 @@ recorded as a wording correction the site made.
 refereed or arXiv version of the chapter, an independent review, a dispute
 of the argument, or a second disproof.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures file at the pinned commit; the
   community database as fetched that day; the site's reference texts for
   the keys.

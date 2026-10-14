@@ -89,7 +89,7 @@ lean-proofs development of 2026-08-26 proves the qualitative asymptotic by its
 own route (the pending claim Alexeev 2026), declares no informal author, and has
 not been built or audited by this corpus, so no `formalized` evidence is listed
 on either page. The community database's commit of 2026-03-31 changed the
-problem's status to proved, and the database lists it as unformalized (as of
+problem's status to proved, and the database lists it as unformalized (read
 2026-10-06).
 <!-- BEGIN problem library links -->
 

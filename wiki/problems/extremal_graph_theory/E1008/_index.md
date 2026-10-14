@@ -33,7 +33,7 @@ question is no, by Folkman's example reported in the same item: $K_{m,m^2}$ has
 $m^3$ edges and no $C_4$-free subgraph with more than $m^2+\binom m2$ edges,
 which is of order $(m^3)^{2/3}$ (recomputed under the Current assessment). Erdős
 then revised the conjecture to $cn^{2/3}$, the site's Statement (the site's $m$
-is his $n$). The site's wording is as of 2026-09-18 (page last edited 27
+is his $n$). The site's wording is as accessed 2026-09-18 (page last edited 27
 December 2025). "$\gg m^{2/3}$" means at least $c\,m^{2/3}$ for an absolute
 constant $c>0$, so the question asks whether there is $c>0$ such that every
 graph with $m$ edges has a $C_4$-free subgraph with at least $cm^{2/3}$ edges;

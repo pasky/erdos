@@ -118,7 +118,7 @@ Erdős Problem #549, https://www.erdosproblems.com/549, accessed 2026-09-17.
   and combinatorics (Proc. Capital Conf., George Washington Univ., 1973),
   Lecture Notes in Math. 406, Springer (1974), 52--75. Not held; the source of
   the two colorings and of the exact conjecture, quoted here from [NSZ16] p. 2
-  and [MPY25] p. 2.
+  and [MPY25] p. 2. No open copy was found on 2026-09-17.
 - [GHK79] Grossman, J. W., Harary, F. and Klawe, M., Generalized Ramsey theory
   for graphs, X: double stars. Discrete Math. 28 (1979), no. 3, 247--254.
   Theorem 2.1 and Lemmas 2.2--2.4, pp. 248--249; Theorems 3.1--3.3,
@@ -287,7 +287,7 @@ boundary case $t_2=2t_1$ is this problem's ratio. It stays a lead without a
 claim page: only its abstract is held, so its theorem is not stated from
 the paper, and the problem is settled by the claims above.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the pinned
 commit; the arXiv listings of 1605.03612 (one version, no journal reference),
 2401.01274 (two versions) and 2509.07934 (one version); Crossref bibliographic

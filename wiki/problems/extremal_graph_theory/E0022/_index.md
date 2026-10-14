@@ -248,8 +248,8 @@ their
 it was not built or audited by this project, and no outside examination of
 it is published, so it adds no acceptance evidence to the refereed one.
 
-**Search scope.** None of the routes below found a dispute of Theorem 1.9, a
-retraction, or a second proof.
+**Search scope (2026-09-18 and 2026-10-07 UTC).** None of the routes below found
+a dispute of Theorem 1.9, a retraction, or a second proof.
 
 - The site, on 2026-09-18: problem page, discussion thread and proof-claim
   tab (thread and tab empty); the formal-conjectures file and the community
@@ -275,7 +275,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er90],
 Also consulted: the site's problem page, discussion thread and proof-claim tab
 (tab empty; thread empty on 2026-10-07); the formal-conjectures file at its
 commit of 2026-10-06 (pinned under Formalization) and the community database
-record as of 2026-10-06 (dated there); the header, final theorem and history
+record, read 2026-10-06 (dated there); the header, final theorem and history
 of the lean-proofs file. On 2026-10-07 none of these showed a dispute of
 Theorem 1.9 or a further proof.
 

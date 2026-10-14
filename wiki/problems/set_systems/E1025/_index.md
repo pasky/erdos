@@ -51,7 +51,7 @@ https://www.erdosproblems.com/1025.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/07612b937789d22542944f87bacda9dfe6c72395/FormalConjectures/ErdosProblems/1025.lean),
-marked solved there as of its commit of 19 September 2026 and pointing at a
+marked solved there at its commit of 19 September 2026 and pointing at a
 third-party Lean proof, linked from the claim page of Conlon, Fox and Sudakov,
 which this corpus has not built.
 

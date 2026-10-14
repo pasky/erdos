@@ -84,7 +84,7 @@ Behrend, adjacent to the necessary condition of Hall and Tenenbaum, and says
 that effective general criteria seem out of reach with present techniques.
 The general question is open.
 
-Search scope. As of 2026-10-07 the site's discussion thread held four posts: a
+Search scope. On 2026-10-07 the site's discussion thread held four posts: a
 deleted post and the curator's reply of 31 August 2025, and the exchange of 17
 and 18 April 2026 on the Davenport--Erdős criterion described in Status; its
 proof-claims page listed no claim. The library card of [Te96] records the

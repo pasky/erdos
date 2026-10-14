@@ -318,7 +318,7 @@ function.
 beyond those above, a copy of Straus's paper, or an acceptance of the 2026
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the community database record; the formal-conjectures file
   (its states of 2026-09-18 and 2026-09-29 are described under
   Formalization).

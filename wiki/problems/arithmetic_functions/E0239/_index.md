@@ -95,7 +95,7 @@ Lean file was built, kernel-checked or audited in this repository, and no
 `formalized` evidence is claimed.
 
 **Search scope.** The site's problem page as of 2026-10-07 and its empty
-proof-claims thread; the community database's entry as of 2026-10-06; the
+proof-claims thread; the community database's entry, read 2026-10-06; the
 Crossref records of the two papers, for their issue dates; the
 formal-conjectures statement file and the header, theorem statement and
 imports of the community Lean file at their pinned commits. Neither paper is

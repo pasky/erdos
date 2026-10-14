@@ -294,7 +294,7 @@ $\pi(K_4^-)$.
 **Search scope.** None of the routes below found a dispute
 of the disproof, a determination of $\pi(K_4^-)$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures file at the revision pinned above; the
   external Lean file and the repository's directory listings at its head
   of 15 September 2026; the community database record.

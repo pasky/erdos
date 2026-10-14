@@ -27,7 +27,7 @@ $f(c)\to 0$ as $c\to 1/2$ and $f(c)\to 1$ as $c\to \infty$ and every random
 graph with $n$ vertices and $cn$ edges has (with high probability) a path of
 length at least $f(c)n$.
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-19 (page last edited
 7 March 2026). The model is the uniform random graph with
 $n$ labeled vertices and $cn$ edges (Ajtai, Komlós and Szemerédi's
 $G'_{n,N}$ with $N=cn$), $c>1/2$ fixed and $n\to\infty$; "with high

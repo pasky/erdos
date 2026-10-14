@@ -41,7 +41,7 @@ Theorem 1.2, $f(n)\to0$, refutes both readings.
 **Status.** DISPROVED (LEAN), the site's label (site export of 2026-09-04):
 solved in the negative with a Lean-verified proof. On 2026-10-07 the public
 page's markup showed no label text. The community database
-(teorth/erdosproblems, `data/problems.yaml` as of 2026-09-28) corroborates the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-09-28) corroborates the
 label. It records status "disproved (Lean)", set by its commit of 20 April 2026,
 with `formal_status` Lean. The site's commentary credits Bradač and Christoph
 [BrCh24]. Their Theorem 1.2 gives $f(n)=o(2^{\binom n2}/n!)$, where $f(n)$ is

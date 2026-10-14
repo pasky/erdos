@@ -102,7 +102,7 @@ that the author's gap bound and a conditional construction of Borwein and Loring
 meet at the logarithmic scale.
 
 **Standing.** Claimed. The paper is a preprint with no journal record on its
-arXiv page as of 2026-10-07; the site's label was OPEN (page last edited
+arXiv page, accessed 2026-10-07; the site's label was OPEN (page last edited
 2026-02-01), and the three thread comments on the claim discuss the remaining
 limsup question rather than the proof. Wang submitted the claim to the
 proof-claims thread on 2026-07-17 (the first `discussion` link), crediting

@@ -33,15 +33,15 @@ $$
 \mathrm{sq}(G)\leq\frac{5}{4}\Delta^2?
 $$
 
-**Formulation.** The site's wording as of 2026-09-19T06:45Z (page last edited 10
-April 2026). Two edges are strongly independent when no edge is incident to
-both, so a set of strongly independent edges is an induced matching and
-$\mathrm{sq}(G)$ is the least number of induced matchings partitioning $E(G)$;
-the sources write $\chi'_s(G)$, $\chi'_2(G)$ or $q^*(G)$ for it, and it equals
-the chromatic number $\chi(L(G)^2)$ of the square of the line graph, two edges
-being adjacent in $L(G)^2$ exactly when they are not strongly independent. The
-question is for every graph and every $\Delta$. If true the bound is sharp for
-even $\Delta$: the five-cycle with each vertex replaced by a stable set of
+**Formulation.** The site's wording as accessed 2026-09-19T06:45Z (page last
+edited 10 April 2026). Two edges are strongly independent when no edge is
+incident to both, so a set of strongly independent edges is an induced matching
+and $\mathrm{sq}(G)$ is the least number of induced matchings partitioning
+$E(G)$; the sources write $\chi'_s(G)$, $\chi'_2(G)$ or $q^*(G)$ for it, and it
+equals the chromatic number $\chi(L(G)^2)$ of the square of the line graph, two
+edges being adjacent in $L(G)^2$ exactly when they are not strongly independent.
+The question is for every graph and every $\Delta$. If true the bound is sharp
+for even $\Delta$: the five-cycle with each vertex replaced by a stable set of
 $\Delta/2$ vertices has $5\Delta^2/4$ edges, no two of them strongly
 independent. Erdős's 1988 wording ("Is it then true that $G$ is the union of at
 most $5n^2/4$ sets of strongly independent edges?", item 1, p. 81) and the 1989
@@ -509,7 +509,7 @@ empty on 2026-09-19.
 or disproof of the statement, a refereed bound below $1.772\Delta^2$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures directory listing and tree at that
   day's head (no file 149); the community database as fetched that day.
 - arXiv: the API records of 1504.02583 (v1 only), 1810.06704 (v1 only;

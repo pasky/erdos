@@ -109,10 +109,10 @@ all exclude values of $k$:
   composite, so these instances were already excluded.
 
 The open cases are the $k$ not covered by the results above, that is, the $k>8$
-with $k+1$ prime. The site's discussion thread (nine comments as of 2026-10-07)
-carries further reported exclusions and observations, none of them a dated
-manuscript: a comment of 31 December 2025 that derives the constant-weight-code
-lower bound $\chi(J(2k,k))\ge\binom{2k}{k}/A(2k,4,k)$ from
+with $k+1$ prime. The site's discussion thread (nine comments, accessed
+2026-10-07) carries further reported exclusions and observations, none of them a
+dated manuscript: a comment of 31 December 2025 that derives the
+constant-weight-code lower bound $\chi(J(2k,k))\ge\binom{2k}{k}/A(2k,4,k)$ from
 $\alpha(J(n,k))=A(n,4,k)$ and concludes from an online table of bounds on
 $A(n,4,w)$ that the answer is no for $3\le k\le14$, which takes in the cases
 $k=10$ and $k=12$ with $k+1$ prime; its author then withdrew a computed

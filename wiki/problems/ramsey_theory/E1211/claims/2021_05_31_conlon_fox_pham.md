@@ -70,8 +70,8 @@ database records the problem as solved (last updated 4 April 2026). Refereed:
 Mathematika 68 (2022), no. 4, 1292--1301, published online 10 October 2022 (per
 the Crossref record). The text cited is arXiv:2105.15195v3 (22 September 2022).
 The journal text was not compared, so every locator is a preprint page. The
-search (arXiv, Crossref, OpenAlex) found no dispute of the theorem and no second
-determination of $c_2$.
+search of 2026-09-18 (arXiv, Crossref, OpenAlex) found no dispute of the theorem
+and no second determination of $c_2$.
 
 **Read depth.** Theorem 1, the definitions and the upper-bound argument on
 pp. 1--2 of the preprint were checked, as were the statements of Lemma 2,

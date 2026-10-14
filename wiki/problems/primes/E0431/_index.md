@@ -25,7 +25,7 @@ updated: 2026-10-08T17:47:46Z
 with the set of prime numbers up to finitely many exceptions?
 
 **Status.** The site's label was OPEN (page last edited 8 April 2026, no proof
-claim recorded there as of 2026-10-06). Here the problem is disproved, and the
+claim recorded there on 2026-10-06). Here the problem is disproved, and the
 frontmatter standing is that of the accepted claim below. The site's commentary
 expects the answer no. It records the Elsholtz--Harper square-root bounds on a
 hypothetical decomposition as the best result in that direction. One accepted

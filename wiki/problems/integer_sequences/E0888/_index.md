@@ -50,8 +50,8 @@ $\pi(n)+\#\{pq\le n: p<q\text{ primes}\}$, plus one for $n\le14$, with a working
 document as its write-up. Replies in the same week showed that products of seven
 distinct primes can be added for large $n$, and that its Lemma 2 fails. The post
 is not a dated manuscript, so it gets no claim page. The site's commentary was
-last edited 28 May 2026. Its thread and proof-claim form stand as described here
-as of 2026-10-07.
+last edited 28 May 2026. Its thread and proof-claim form stood as described here
+on 2026-10-07.
 
 **Source.** [erdosproblems.com/888](https://www.erdosproblems.com/888), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #888,

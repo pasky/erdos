@@ -34,7 +34,7 @@ $$
 
 for some constant $c$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 16
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 16
 January 2026). A representation is an unordered pair $a_1<a_2$ of distinct
 members with $a_1a_2=m$; squares $a^2$ are not representations. In Erdős's 1964
 paper the threshold $u_l(n)$ is the least $t$ such that every $t$-set in $[1,n]$
@@ -132,7 +132,7 @@ linked at the commit the attribute names; its docstring says "The answer is
 yes: the rescaled error `normalizedError` converges." The collection's
 category and attribute record one of the July 2026 proof claims, while the
 site's label was OPEN; the disagreement is recorded under "Formalization and
-the proof claims" below. The community database (as of 2026-09-18) lists the
+the proof claims" below. The community database (read 2026-09-18) lists the
 problem open as of its entry's last update of 31 August 2025, which does not
 date any change of state, with the statement formalized since 7 August 2026,
 `formal_status` unformalized and no formal proof; the site's indicator records
@@ -264,7 +264,7 @@ and the problem's standing is `claimed` through them:
   ([[problems/integer_sequences/E0796/claims/2026_07_15_snyder|claim page]]):
   the constant $c$ exists and is the Mertens constant added to the limit of
   an explicit variational sequence, proved in Lean 4 over Mathlib with the
-  three standard axioms reported by the kernel; the solution page (as of
+  three standard axioms reported by the kernel; the solution page (accessed
   2026-10-07) heads its report "accepted 2026-07-14", names no human
   author, and states the theorem, the two gate lemmas and the axiom audit;
   nothing on this page rests on the contents of the downloadable archive.
@@ -305,7 +305,7 @@ second-order asymptotic and not the passage the site attributes to [Er69b].
 
 - The site: problem page, discussion thread and proof-claim tab as accessed
   2026-09-18; formal-conjectures `796.lean` at the commit linked above; the
-  community database as of 2026-09-18.
+  community database, read 2026-09-18.
 - The three repositories at the commits linked above: Tang's note (TeX
   source), Gajjala's README, `Statement.lean` and `AUDIT.md`, and the 44
   files of the `williamjblair/lean-proofs` development.

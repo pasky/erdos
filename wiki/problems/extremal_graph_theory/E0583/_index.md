@@ -352,7 +352,7 @@ verify comments.
   $1{,}006{,}700{,}565$ graphs, the shard counts checked against OEIS A001349)
   find no counterexample and nothing undecided, reproducing the $n\le11$
   result; the $n=12$ sweep ($164{,}059{,}830{,}476$ graphs) was reported as
-  running, and no outcome was posted as of 2026-10-07. Code and logs are in a
+  running, and no outcome was posted by 2026-10-07. Code and logs are in a
   public repository
   (https://github.com/Darrenus/erdos583-gallai/tree/677a2da258d2bb7d1c1facad15e054521abe57bf,
   commits of 17 September 2026), and the comment discloses assistance from
@@ -371,8 +371,8 @@ Path Decomposition Conjecture for Graphs with Small Bowtie Boundaries"
 (SSRN, doi:10.2139/ssrn.7453518; title only, from a Crossref bibliographic
 query). None claims the general statement.
 
-**Search scope.** The status rests on these routes; none found a proof for
-all connected graphs, a counterexample, or a proof claim.
+**Search scope (2026-09-18 UTC).** The status rests on these routes; none found
+a proof for all connected graphs, a counterexample, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   community database record; formal-conjectures `583.lean` at the pinned

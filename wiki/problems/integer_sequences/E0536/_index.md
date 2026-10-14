@@ -48,9 +48,9 @@ same least common multiple. The formal-conjectures file encodes the density
 form only.
 
 **Status.** The site's label was Open (page last edited 29 April 2026,
-proof-claims tab as of 2026-10-06). No proof or disproof of $f(N)=o(N)$ accepted
-by the site or by a refereed venue was found in the search whose scope the
-Current assessment records. This is a bounded negative finding, not a
+proof-claims tab, accessed 2026-10-06). No proof or disproof of $f(N)=o(N)$
+accepted by the site or by a refereed venue was found in the search whose scope
+the Current assessment records. This is a bounded negative finding, not a
 certificate of openness. Wang's manuscript of July 2026, hosted on GitHub and
 submitted to the site's proof-claim tab, claims $f(N)=o(N)$. The site's curator
 relabeled it a partial claim because it does not estimate $f(N)$. That claim is
@@ -338,15 +338,15 @@ label was OPEN and its commentary, last edited before the claim, does not
 mention it; the tab warns that an entry there is no guarantee of correctness and
 that nobody connected with the site need have examined it; no arXiv version,
 refereed publication, independent review or written dispute was found (search
-scope below). The tab's four comments, as of 2026-10-06: a reader's remark of 14
-July 2026 that the manuscript answers only the second part of the question and
-leaves the estimate of $f(N)$ open; the author's reply the same day that they
-had taken $f(N)=o(N)$ for the whole problem, that the draft does not determine
-the order of magnitude of $f(N)$, and that they would withdraw the submission;
-the curator's answer that the entry need not be deleted and is relabeled a
-partial proof, the choice of main question being a matter of taste; and the
-author's note of 27 July 2026 adding a Lean directory to the repository (not
-built by the corpus). Provenance, recorded not judged: the tab's submission
+scope below). The tab's four comments, accessed 2026-10-06: a reader's remark of
+14 July 2026 that the manuscript answers only the second part of the question
+and leaves the estimate of $f(N)$ open; the author's reply the same day that
+they had taken $f(N)=o(N)$ for the whole problem, that the draft does not
+determine the order of magnitude of $f(N)$, and that they would withdraw the
+submission; the curator's answer that the entry need not be deleted and is
+relabeled a partial proof, the choice of main question being a matter of taste;
+and the author's note of 27 July 2026 adding a Lean directory to the repository
+(not built by the corpus). Provenance, recorded not judged: the tab's submission
 declares that the claim was produced using an AI model (GPT-5.6 Sol); the
 manuscript carries no statement about AI use; its title page gives the author's
 two affiliations, Columbia University and Multiscalar Intelligence; the
@@ -362,7 +362,7 @@ refereed proof or disproof of $f(N)=o(N)$, an acceptance of the manuscript,
 or a published bound beyond those above.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file at the pinned commit; the community database as of
+  formal-conjectures file at the pinned commit; the community database, read
   2026-09-18.
 - arXiv: the API queries `abs:"least common multiple" AND abs:Erdos AND
   abs:distinct` (one record, on covering systems) and `abs:"equal pairwise"

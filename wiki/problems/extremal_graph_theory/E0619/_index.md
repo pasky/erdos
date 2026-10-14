@@ -116,8 +116,8 @@ Taking $\eta=c/2$ contradicts the proposed inequality for any $0<c<2$; for
 $c\geq2$, the proposed right-hand side is already negative.
 
 Thomas Bloom's accepted comment of 15 June 2026 optimizes the same construction
-and gives the strongest bound located in the source and the searches: for
-infinitely many $n$ there is a connected triangle-free $G$ with
+and gives the strongest bound located in the source and the 2026-09-05 searches:
+for infinitely many $n$ there is a connected triangle-free $G$ with
 
 $$
 h_4(G)\geq n-O\!\left(n^{8/9}(\log n)^{2/9}\right). \tag{2}

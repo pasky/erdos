@@ -77,7 +77,7 @@ read 13 October 2026, do not mention it. The curator's post
 (8 October 2026; this problem added on 9 October) says that sphericity "was
 recently shown to not be sufficient", without naming a source, and mentions
 Pálvölgyi's work in preparation on transitive sets; it does not discuss this
-proof. The problem's proof-claims thread carried no claim as of 6 October 2026.
+proof. The problem's proof-claims thread carried no claim on 6 October 2026.
 The author announced the result in the problem's discussion on the site on 23
 September 2026. The announcement attributes the counterexample to ChatGPT 6 and
 links the exposition. Nothing here has reviewed the proof. OpenAI's preprint of

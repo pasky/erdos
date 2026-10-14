@@ -26,7 +26,7 @@ $$
 \mathrm{ex}(n;\{C_3,C_4\})\sim (n/2)^{3/2}?
 $$
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 18
 January 2026). $\mathrm{ex}(n;\{C_3,C_4\})$ is the largest number of edges of a
 graph on $n$ vertices with neither a triangle nor a 4-cycle as a subgraph, that
 is, of an $n$-vertex graph of girth at least $5$;

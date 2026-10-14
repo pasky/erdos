@@ -273,7 +273,7 @@ Stoll's theorems.
 
 - The site: problem page, discussion thread and proof-claims tab; the
   full directory listing of formal-conjectures of 2026-09-18 (no file for
-  this problem); the community database as of 2026-09-18.
+  this problem); the community database, read 2026-09-18.
 - The primary sources: [St05] pp. 1--8; [St06] pp. 89--100; [ErGr80]
   printed p. 96; [GrPo70] pp. 143--145 in full.
 - Crossref: the records of [St06] (DOI 10.4064/aa125-1-8) and [GrPo70]; a

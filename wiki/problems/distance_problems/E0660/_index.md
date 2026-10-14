@@ -61,9 +61,9 @@ status is retained with this limited search scope.
 The principal missing historical input is Altman's reported polyhedron proof.
 Altman's 1963 Monthly paper [Al63], the only Altman reference the site gives,
 treats the plane only and prints no statement about polyhedra or three
-dimensions, so the reported proof is not in it, and the search located it
-nowhere else. The reported polyhedron proof and the best available bound for the
-convex case are not compiled here.
+dimensions, so the reported proof is not in it, and the search of 6 September
+2026 located it nowhere else. The reported polyhedron proof and the best
+available bound for the convex case are not compiled here.
 
 No claim page is recorded for this problem. The OpenAI mathematics release of
 23 September 2026 claims, in its manuscript *The higher-dimensional Erdős

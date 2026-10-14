@@ -55,7 +55,7 @@ Problem #280, https://www.erdosproblems.com/280.
 (pinned to the commit of 2026-09-18), whose entry carries the category
 `research solved` and a `formal_proof` attribute pointing to the `v4.29.1`
 copy of `ErdosProblems/Erdos280.lean` in Boris Alexeev's lean-proofs
-repository on its main branch, unpinned (as of 2026-10-07). The development
+repository on its main branch, unpinned (read 2026-10-07). The development
 formalizes Cambie's counterexample and is pinned
 on [[problems/covering_systems/E0280/claims/2025_08_10_cambie|the claim page]];
 this corpus has not built or audited it, so it gives no `formalized`

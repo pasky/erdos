@@ -51,7 +51,7 @@ $$
 N(k,\sqrt{k})\leq C^k?
 $$
 
-**Formulation.** The site's wording as of the access of 2026-09-04. The site's
+**Formulation.** The site's wording as accessed 2026-09-04. The site's
 commentary notes that for $\ell=k$ the quantity is the two-color van der Waerden
 number, $N(k,k)=W(k)$, of
 [[problems/additive_combinatorics/E0138/_index|Problem 138]]. A comment in the
@@ -139,7 +139,7 @@ $c\to0$ and $\alpha_c\to\sqrt2-1$ as $c\to1$; and Hunter observed in the
 thread that the local lemma gives
 $N(k,ck)\gg2^k/\bigl(k^{O(1)}\sum_{i>(1+c)k/2}\binom ki\bigr)$, so that
 $N(k,ck)\ge(2-o(1))^k$ for large $k$ as $c\to1$. The thread held thirteen
-comments as of 2026-10-06 and the proof-claim tab was empty.
+comments on 2026-10-06 and the proof-claim tab was empty.
 
 **Claims.** The three claim pages named under Status: the OpenAI release's
 bound for $W(k)$, which rules out the case $c=1$ of the first displayed

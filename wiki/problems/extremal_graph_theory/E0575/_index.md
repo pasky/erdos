@@ -37,7 +37,7 @@ $$
 \mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})?
 $$
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 31
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 31
 August 2026). "Subgraphs" are ordinary, not induced, copies, and
 $\mathrm{ex}(n;G)\ll_{\mathcal F}\mathrm{ex}(n;\mathcal F)$ means
 $\mathrm{ex}(n;G)\le C_{\mathcal F}\,\mathrm{ex}(n;\mathcal F)$ for all $n$

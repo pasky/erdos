@@ -85,9 +85,9 @@ answer the problem asks for, and neither claims a characterization, so the
 problem stays open with one accepted partial claim and one pending partial
 claim.
 
-Search scope. As of 2026-10-07 the site's page lists no proof claim, its
-discussion thread holds one comment, of 4 May 2026, the posting that the
-pending claim page records, and the formal-conjectures statement file states
+Search scope. On 2026-10-07 the site's page listed no proof claim, its
+discussion thread held one comment, of 4 May 2026, the posting that the
+pending claim page records, and the formal-conjectures statement file stated
 the question as a single open theorem whose sufficient condition is left to be
 supplied, with no formal proof.
 <!-- BEGIN problem library links -->

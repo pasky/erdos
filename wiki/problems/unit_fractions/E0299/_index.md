@@ -45,7 +45,7 @@ below.
 
 **Source.** T. F. Bloom, Erdős Problem #299,
 https://www.erdosproblems.com/299, accessed 2026-09-05. The original
-reference is [ErGr80, p. 36]. As of that date the discussion and
+reference is [ErGr80, p. 36]. On that date the discussion and
 proof-claim pages had no comments or proof claims.
 
 **References.**

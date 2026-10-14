@@ -102,10 +102,10 @@ an accepted claim on formal evidence on
 [[problems/factorials_binomials/E0379/claims/2025_12_21_yuan|its page]], and
 the problem's standing rests on both accepted claims.
 
-Search scope. As of 2026-10-07 the site lists no proof claim for the
-problem; its discussion thread holds the proof of August 2025, Yuan's post
+Search scope. On 2026-10-07 the site listed no proof claim for the
+problem; its discussion thread held the proof of August 2025, Yuan's post
 of December 2025 and the remarks of January 2026 on the simpler
 construction; the community database and the formal-conjectures statement
-file record the proof as above.
+file recorded the proof as above.
 [[problems/factorials_binomials/E0175/_index|Problem 175]] asks the related
 question for the central binomial coefficient alone.

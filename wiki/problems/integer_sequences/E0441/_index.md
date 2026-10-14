@@ -30,7 +30,7 @@ least common multiple of $a$ and $b$?
 Is it attained by choosing all integers in $[1,(N/2)^{1/2}]$ together with all
 even integers in $[(N/2)^{1/2},(2N)^{1/2}]$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 27
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 27
 December 2025). Write $g(N)$ for the largest size and $B_N$ for the set of the
 second question, the integers up to $(N/2)^{1/2}$ together with the even
 integers in $[(N/2)^{1/2},(2N)^{1/2}]$; its pairwise least common multiples are

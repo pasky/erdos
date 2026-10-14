@@ -79,9 +79,9 @@ on 2026-09-03 that the problem should be marked solved, and confirmed the update
 on 2026-09-04. The problem page credits the negative answer to Cambie and
 Kalviainen. Those comments concern this joint proof. It was posted to the site
 as proof claim 239, two days after the arXiv submission of 2026-09-01. The
-status search found no journal publication. The corpus's own review of the
-reconstruction is recorded on the source card. It is not acceptance evidence
-here.
+status search of 2026-09-08 found no journal publication. The corpus's own
+review of the reconstruction is recorded on the source card. It is not
+acceptance evidence here.
 
 **Formalization.** The authors' repository, linked above at its pinned
 commit, holds a Lean 4 development that declares itself a formalization of

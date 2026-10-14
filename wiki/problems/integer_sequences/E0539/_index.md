@@ -134,7 +134,7 @@ T. F. Bloom, Erdős Problem #539, https://www.erdosproblems.com/539, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/539.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/539.lean)
-of formal-conjectures, at the pinned commit of its main branch as of 2026-09-18,
+of formal-conjectures, at the pinned commit of its main branch, read 2026-09-18,
 defines `cofactorThreshold n` as the largest `m` such that every `n`-element
 `Finset ℕ` has at least `m` values `a / a.gcd b`, and declares `erdos_539 : (fun
 n ↦ (cofactorThreshold n : ℝ)) =Θ[atTop] (answer(sorry) : ℕ → ℝ)` under
@@ -154,7 +154,7 @@ repositories are described below.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement
+**The question (site formulation).** The statement
 above; OPEN; last edited 15 June 2026. The commentary, in this page's
 words: Erdős and Szemerédi proved $n^{1/2}\ll h(n)\ll n^{1-c}$ for some
 $c>0$; Freiman and Lev improved the upper bound to $n^{2/3}$; both proofs
@@ -279,9 +279,9 @@ answer to the $n^{2/3}$ question" in seminar abstracts of 2009 and 2012
 "make no claim of priority over that announcement". The site adopted the
 bound into its commentary on 15 June 2026. No refereed publication, arXiv
 version of the appendix as a separate paper, or independent review was
-found; the two thread reservations of 11 June 2026 are recorded above. Read
-depth: claims checked for Theorem A.1 and the lemma statements; the three-page
-proof is checked for its structure only, not step by step; nothing is
+found on 2026-09-18; the two thread reservations of 11 June 2026 are recorded
+above. Read depth: claims checked for Theorem A.1 and the lemma statements; the
+three-page proof is checked for its structure only, not step by step; nothing is
 independently reviewed by this project. The claim page named under Status
 records the curator's adoption of the bound and why it is not an acceptance.
 
@@ -312,7 +312,7 @@ repository names Kenta Kitamura as copyright holder. The collection's own
 file carries the
 negative answers as `research solved` variants with `sorry` bodies.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 refereed determination of the order of $h(n)$, a refereed version of the
 2026 appendix, or an independent review of it.
 

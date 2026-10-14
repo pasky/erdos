@@ -42,9 +42,9 @@ at $n=8$.
 
 **Status.** The site labeled the problem DECIDABLE, a label it glosses as
 resolved up to a finite check (page last edited 1 February 2026). The label and
-the proof-claims thread are recorded as of 6 October 2026. The standing in the
-frontmatter derives from the claim pages. The accepted partial result is the
-corrected Elliott bound of
+the proof-claims thread are recorded as they stood on 6 October 2026. The
+standing in the frontmatter derives from the claim pages. The accepted partial
+result is the corrected Elliott bound of
 [[problems/discrete_geometry/E0506/claims/2009_07_03_purdy_smith|Purdy and Smith]].
 For $n\ge394$ the minimum is $1+\binom{n-1}{2}-\lfloor(n-1)/2\rfloor$, so only
 the values for $4\le n\le393$ remain. Elliott's original bound $\binom{n-1}{2}$
@@ -126,8 +126,8 @@ and Bálintová and Bálint's bounds on three-point circles, $k_3\ge5n(n-1)/133$
 for every $n\ge4$, are the accepted partial claim on
 [[problems/discrete_geometry/E0506/claims/1994_09_01_balintova_balint|theirs]].
 No independent review of any result on this page is recorded. The search scope
-is the site's page export of 2026-09-04, the site's proof-claims thread as of 6
-October 2026, its discussion thread as of 7 October 2026, and the
+is the site's page export of 2026-09-04, the site's proof-claims thread,
+accessed 6 October 2026, its discussion thread, accessed 7 October 2026, and the
 formal-conjectures statement file at its commit of 2026-10-07.
 <!-- BEGIN problem library links -->
 

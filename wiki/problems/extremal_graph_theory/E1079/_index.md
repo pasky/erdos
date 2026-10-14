@@ -27,7 +27,7 @@ updated: 2026-10-08T01:29:59Z
 $\mathrm{ex}(n;K_r)$ edges then must $G$ contain a vertex with degree $d\gg_r n$
 whose neighbourhood contains at least $\mathrm{ex}(d;K_{r-1})$ edges?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 14
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 14
 October 2025). $\mathrm{ex}(n;K_r)$ is the Turán number, the largest number of
 edges of a $K_r$-free graph on $n$ vertices, attained by the Turán graph
 $T_{r-1}(n)$; "degree $d\gg_rn$" asks for $d\ge c_rn$ with a constant $c_r>0$
@@ -324,7 +324,7 @@ of [Bo83b] with its erratum.
 - The site: problem page, discussion thread and proof-claim tab;
   formal-conjectures at main, which had no file for the problem on
   2026-09-18 (the statement file of 2026-09-19 is described under
-  Formalization); the community database entry as of 2026-09-18.
+  Formalization); the community database entry, read 2026-09-18.
 - Crossref: the records of doi:10.1016/S0095-8956(81)80016-0 and
   doi:10.1016/0095-8956(83)90012-6 (volumes, issues, pages and dates; no
   abstracts).

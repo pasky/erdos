@@ -133,9 +133,9 @@ as unformalized and no formal-conjectures statement file existed for it, so no
 `formalized` evidence is available to any claim.
 
 **Search scope.** The site's problem page (last edited 2026-01-23) and its
-discussion thread of six comments, as of 2026-10-07; the Zenodo and
+discussion thread of six comments, accessed 2026-10-07; the Zenodo and
 preprints.org records of Rafik's manuscript and the Crossref record of
-[BrTo97], as of 2026-10-07; the proof-claims tab, which lists no claim for
+[BrTo97], read 2026-10-07; the proof-claims tab, which lists no claim for
 the problem. Price's write-up is not readable from its link. No proof is
 compiled in this wiki.
 <!-- BEGIN problem library links -->

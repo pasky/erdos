@@ -107,7 +107,7 @@ The paper's remark that the order $n^{5/2}$ cannot be improved, by the
 random graph $G(n,1/2)$, is context recorded on the claim page, not part of
 the claim.
 
-**Search scope.** Bounded searches by exact title and by
+**Search scope (2026-09-09 UTC).** Bounded searches by exact title and by
 author and problem, including correction, erratum and counterexample terms,
 located no claim reversing the conclusion. This is not an exhaustive
 literature search; the site's formulation is that of the access of

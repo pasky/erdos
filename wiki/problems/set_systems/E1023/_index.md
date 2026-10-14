@@ -56,7 +56,7 @@ https://www.erdosproblems.com/1023.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1023.lean),
-marked solved there as of its commit of 18 September 2026 and pointing at a
+marked solved there at its commit of 18 September 2026 and pointing at a
 third-party Lean proof, linked from the claim page, which this corpus has not
 built.
 
@@ -79,7 +79,7 @@ from [Er71], are the historical state of the problem and have no page: they
 were never published, and the corrected form of their conjecture is the claim
 above. The printed statement is on the card
 [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|Erdős 1971]].
-As of 2026-10-06 the site's thread held five comments and the site listed no
+On 2026-10-06 the site's thread held five comments and the site listed no
 proof claim; the community database has recorded the problem as solved (Lean)
 since 2026-02-10.
 <!-- BEGIN problem library links -->

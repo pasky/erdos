@@ -145,7 +145,7 @@ published with a construction; that report is the pending
 The site's wording, with length $2^k-1$, already fails for $k\le3$, as the
 Notes record.
 
-Search scope: the site's page and discussion thread (six
+Search scope, 2026-10-07: the site's page and discussion thread (six
 comments, no proof claims), the community database (teorth/erdosproblems),
 the formal-conjectures statement file, the lean-proofs collection, the
 KE92ErdosProblems repository and Crossref. No other claim on the problem was

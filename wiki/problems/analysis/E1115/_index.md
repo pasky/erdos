@@ -64,7 +64,7 @@ asserted here.
 
 **Source.** [erdosproblems.com/1115](https://www.erdosproblems.com/1115),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1115,
-https://www.erdosproblems.com/1115, accessed 2026-09-05. As of that date the
+https://www.erdosproblems.com/1115, accessed 2026-09-05. On that date the
 site's discussion listed no comments, expositions or proof claims, and the page
 reported its last edit as 29 December 2025.
 

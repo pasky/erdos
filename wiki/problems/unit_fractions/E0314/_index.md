@@ -201,14 +201,14 @@ kernel-checked either file, and no local credit is claimed. The community
 database records `formal_status` Lean (field last updated 31 August 2025)
 and no formal-proof URL.
 
-**Search scope.** The site's problem, discussion and proof-claim pages; the
-community database record; the formal-conjectures file at the pinned commit;
-the two Lean files at their pinned commits; the arXiv abstract page of
-2405.11354 (three versions; no journal reference on the listing); the
-Crossref record for DOI 10.1112/mtk.70009; the Semantic Scholar citation
-list of 2405.11354 (no records); the arXiv API query `abs:"harmonic
-numbers" AND abs:difference` (55 records; none beyond the paper concerns
-$\epsilon(n)$); the monograph's p. 41; the primary source [LiSt24] as
+**Search scope (2026-09-18 UTC).** The site's problem, discussion and
+proof-claim pages; the community database record; the formal-conjectures file at
+the pinned commit; the two Lean files at their pinned commits; the arXiv
+abstract page of 2405.11354 (three versions; no journal reference on the
+listing); the Crossref record for DOI 10.1112/mtk.70009; the Semantic Scholar
+citation list of 2405.11354 (no records); the arXiv API query
+`abs:"harmonic numbers" AND abs:difference` (55 records; none beyond the paper
+concerns $\epsilon(n)$); the monograph's p. 41; the primary source [LiSt24] as
 recorded on its result pages. Not searched: MathSciNet,
 zbMATH, Google Scholar, X. Nothing found changes the status or improves the
 bounds.

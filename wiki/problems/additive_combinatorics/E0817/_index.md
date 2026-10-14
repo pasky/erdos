@@ -95,8 +95,8 @@ revising the argument. The claim is on the site's proof-claim tab. It was
 submitted 2026-09-05 01:48:23 and labeled full on 2026-09-05. It was labeled
 partial from 2026-09-06, when the site's moderator relabeled it and called its
 scope debatable. The site's commentary does not adopt the claim. No refereed
-version, independent review or citing paper beyond the thread was found. The
-claim has its own page,
+version, independent review or citing paper beyond the thread was found on
+2026-09-18. The claim has its own page,
 [[problems/additive_combinatorics/E0817/claims/2026_09_05_costa|Costa's negative answer]],
 a partial claim with status claimed. If correct, it settles the displayed
 question and leaves the estimate open. For the estimate, this is a bounded
@@ -360,9 +360,10 @@ $\{302,409,447,459,465,466,474\}$, so that by monotonicity
 $g_3(n)/3^n<0.2168$ for $n\ge7$; the witness is not checked in this
 corpus. The site states that it does not verify the comments on its pages.
 
-**Search scope.** None of the routes below found a refereed source for the
-Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a journal version
-of [Ko26] or [Co26], an independent check of [Co26], or a further proof claim.
+**Search scope (2026-09-18 UTC).** None of the routes below found a refereed
+source for the Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a
+journal version of [Ko26] or [Co26], an independent check of [Co26], or a
+further proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab on
   2026-09-18; the formal-conjectures file, linked above; the community

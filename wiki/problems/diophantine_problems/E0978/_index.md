@@ -165,7 +165,7 @@ $\mathbb{Q}(\sqrt{-2})$ and its fixed divisor is $1$. The release manuscript
 cites both preprints and uses neither. Both claims agree with the accepted
 answer and leave the derived standing unchanged.
 
-The site's discussion thread (16 comments as of 2026-10-07) records the
+The site's discussion thread (16 comments, accessed 2026-10-07) records the
 formulation's history. On 31 March 2026 Moritz Firsching posted a
 counterexample, found by a DeepMind prover agent and proved in Lean, to the
 second question as then worded, without the local condition: the sextic

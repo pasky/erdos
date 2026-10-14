@@ -76,7 +76,7 @@ page carried the label PROVED (last edited 2026-04-15). The problem has no forum
 comments and no proof claim. Crossref and the arXiv record listed no journal
 publication on 2026-10-07, so the claim carries no `refereed` evidence. The
 formal-conjectures statement file (the `record` link, pinned at its commit of
-2026-10-06) records no formal proof. As of that commit, it tags `erdos_69`
+2026-10-06) records no formal proof. At that commit, it tags `erdos_69`
 textbook and its specialization of Problem 257 research solved, and it leaves
 both as `sorry`. This corpus has not reproved the theorem and awards no tier of
 its own.

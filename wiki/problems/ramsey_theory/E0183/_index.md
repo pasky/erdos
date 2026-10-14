@@ -166,7 +166,7 @@ coverage, including its degree lemma and elementary Ramsey bounds.
 The later structural and computational exclusions are separate
 obligations; this reduction changes no catalog status or formal standing.
 
-**Search scope:** the report (its relevant chapter in full), its
+**Search scope, 2026-09-08:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the
 identified matrix/cover predecessor. The erdosproblems.com page's last edit is
 dated 1 September 2026, so the formulation above, taken on 2026-09-04, is

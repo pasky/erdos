@@ -78,8 +78,9 @@ bipartite graphs $K_{2k+1,n-2k-1}$. The second is the construction Bucić and
 Montgomery give for Erdős's 1983 remark. So the constant $C$ is at least
 $\tfrac32$ and is not determined. The conjecture was known for the random graph
 $G(n,p)$ and for graphs of linear minimum degree (Conlon, Fox and Sudakov,
-Theorems 1.3 and 1.4). The search whose scope the Current assessment records
-predates the 2026 claims and found neither a proof nor a disproof.
+Theorems 1.3 and 1.4). The search dated 2026-09-18 UTC whose scope the Current
+assessment records predates the 2026 claims and found neither a proof nor a
+disproof.
 
 **Source.** [erdosproblems.com/184](https://www.erdosproblems.com/184),
 accessed 2026-09-18: the problem page (OPEN,
@@ -302,7 +303,7 @@ result of Lovász, and that the second remains open and may need new ideas. Buci
 and Montgomery cite both among the collections in which Erdős mentioned the
 conjecture, and the second as the source of the $\tfrac32$ remark.
 
-**A recent preprint on special classes.** The arXiv API search
+**A recent preprint on special classes.** The arXiv API search of 2026-09-18
 returned [AABC25] (September 2025), whose abstract states that every graph
 with maximum degree at most $4$ decomposes into at most $n-1$ cycles and
 edges, that every $n$-vertex claw-free graph decomposes into at most $n-1$
@@ -369,9 +370,9 @@ special class, not the general problem.
   The preprint is not on the site's proof-claim tab, which closed to new
   claims on 6 October 2026, the day version 1 was submitted.
 
-**Search scope.** The search predates the three claims under Resolution;
-none of the routes below found a proof of $f(n)=O(n)$, a disproof, or a
-proof claim.
+**Search scope (2026-09-18 UTC).** The search predates the three claims under
+Resolution; none of the routes below found a proof of $f(n)=O(n)$, a disproof,
+or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab as read
   2026-09-18; the community database record; formal-conjectures `184.lean` at

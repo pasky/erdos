@@ -182,7 +182,7 @@ https://www.erdosproblems.com/551, accessed 2026-09-17.
 **Formalization.** Statement only in formal-conjectures; the OpenAI release
 carries a Lean proof, built in this corpus (below). The file
 [`ErdosProblems/551.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/551.lean)
-of formal-conjectures, at the pinned commit of its main branch as of 2026-09-17,
+of formal-conjectures, at the pinned commit of its main branch, read 2026-09-17,
 declares
 `erdos_551 : ∀ (k n : ℕ), 3 ≤ n → n ≤ k → ¬(n = 3 ∧ k = 3) → SimpleGraph.graphRamsey (SimpleGraph.cycleGraph k) (SimpleGraph.completeGraph (Fin n)) = (k - 1) * (n - 1) + 1`
 under `category research open`, with proof `sorry`, and the variant

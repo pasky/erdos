@@ -38,7 +38,7 @@ $$
 m=p(n_1)+\cdots+p(n_k)?
 $$
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 10 May 2026). The polynomial takes integer values at the
 integers and its leading coefficient is positive; "no $d\ge2$ with
 $d\mid p(n)$ for all $n\ge1$" says that the values at positive integers
@@ -68,7 +68,8 @@ rational $\alpha$. The site's curator accepted it (page edited 10 May 2026, with
 their own proof summary in the thread). A public Lean 4 formalization of the
 argument exists at the commit the formal-conjectures file pins. No refereed
 publication, arXiv posting or review of the general argument outside the site's
-thread was found. The argument's provenance is recorded below without judgment.
+thread was found on 2026-09-18. The argument's provenance is recorded below
+without judgment.
 
 The partial claims cover particular polynomials. Graham's Theorem 1 of 1963 (J.
 Austral. Math. Soc., refereed) settles $p(x)=x$ for every $m>77$, with $77$
@@ -104,7 +105,7 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
   [[../library/unit_fractions/alekseyev_2019_partitions_into_squares_distinct_integers_whose/_index|alekseyev_2019_partitions_into_squares_distinct_integers_whose]].
 - [vD25] van Doorn, W., Partitions with prescribed sum of reciprocals:
   asymptotic bounds. arXiv:2502.02200 (v1 4 February 2025; v2 23 July 2025,
-  12 pages). Preprint.
+  12 pages). Preprint; no journal record found on 2026-09-18.
   Theorem 1, p. 2. The site's reference gives the title with "sum of
   rationals". Library home:
   [[../library/unit_fractions/doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds/_index|doorn_2025_partitions_prescribed_sum_reciprocals_asymptotic_bounds]].
@@ -306,13 +307,13 @@ formalizer's comment says nothing changed from the original proof. The argument
 is consumed at the level of these summaries and the theorem statement; no step
 is verified. Acceptance evidence: the site's label and commentary, and the
 community database's status. No refereed publication, arXiv posting or review
-outside the site's thread of the general case was found (search scope
-below). The corpus records this as the site's acceptance of an
+outside the site's thread of the general case was found on 2026-09-18 (search
+scope below). The corpus records this as the site's acceptance of an
 AI-generated argument with a public formalization, and does not judge the
 argument.
 
 **Formalization and the Lean label.** The site's Lean suffix is a catalog
-label. Behind it, as of 2026-09-18: (1) the formal-conjectures
+label. Behind it, as they stood on 2026-09-18: (1) the formal-conjectures
 statement above, whose `formal_proof` attribute pins a commit of
 `Shashi456/erdos-formalizations`. (2) The file `Erdos/P283/Proof_flat.lean`
 at that commit (dated 14 May 2026; the file itself last changed on
@@ -373,7 +374,7 @@ threshold $k(x)$ equals $n$, beginning $2,2,2,1,2,4,5,5,7,7,5,12,\ldots$, with
 the comment that Graham proved every $k\ge78$ has a partition into distinct
 parts with reciprocal sum $1$; its terms are not verified.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit; the GitHub API for the commit dates of
 `Shashi456/erdos-formalizations` and `Woett/Lean-files` and the raw Lean

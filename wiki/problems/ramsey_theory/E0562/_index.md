@@ -41,7 +41,7 @@ $$
 
 where the tower of exponentials has height $r-1$?
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
 January 2026). $R_r(n)$ is the two-color Ramsey number of the complete
 $r$-uniform hypergraph on $n$ vertices; in [EHR65] it is $g(n,r)=f(n,n,r)$,
 the least $a$ with $a\to(n,n)^r$, and in the recent literature $r_r(n,n)$ or

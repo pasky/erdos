@@ -71,15 +71,16 @@ Bucić, Chen and Ma's theorem is an accepted partial claim covering $k\ge4$ on
 ([[problems/ramsey_theory/E0809/claims/2026_03_19_bucic_chen_ma|claim page]]).
 The site's commentary credits the theorem, but on a problem the site labeled
 OPEN that credit is not acceptance. Bucić, Chen and Ma's Theorem 1.2
-(arXiv:2603.18952v1, 19 March 2026, a preprint) gives
-$\chi_S(n,e,C_{2k+1})=e/2+(n/2)\sqrt{e-n^2/4}+o(n^2)$ over the whole range
-$\lfloor n^2/4\rfloor+1\le e\le\binom n2$. At $e=\lfloor n^2/4\rfloor+1$ this is
-$n^2/8+o(n^2)$. The case $k=3$ ($C_7$) is outside that theorem. For it, the 1989
-paper gives only the lower bound $\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)\ge cn^2$
-and the two-clique coloring that its authors say would make $c=1/8$ best
-possible. No refereed source found determines the $C_7$ constant. Shahab's
-preprint arXiv:2609.38286 (29 September 2026), unrefereed and not read here,
-states it (see "Outside claims and priority").
+(arXiv:2603.18952v1, 19 March 2026, a preprint with no journal record found on
+2026-09-18) gives $\chi_S(n,e,C_{2k+1})=e/2+(n/2)\sqrt{e-n^2/4}+o(n^2)$ over the
+whole range $\lfloor n^2/4\rfloor+1\le e\le\binom n2$. At
+$e=\lfloor n^2/4\rfloor+1$ this is $n^2/8+o(n^2)$. The case $k=3$ ($C_7$) is
+outside that theorem. For it, the 1989 paper gives only the lower bound
+$\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)\ge cn^2$ and the two-clique coloring that
+its authors say would make $c=1/8$ best possible. No refereed source found
+determines the $C_7$ constant. Shahab's preprint arXiv:2609.38286 (29 September
+2026), unrefereed and not read here, states it (see "Outside claims and
+priority").
 
 **Source.** [erdosproblems.com/809](https://www.erdosproblems.com/809),
 accessed 2026-09-18: the problem page (OPEN, marked by the site as not
@@ -93,8 +94,9 @@ accessed 2026-09-18.
 
 - [BCM26] Bucić, M., Chen, K. and Ma, J., On a maximal anti-Ramsey conjecture of
   Burr, Erdős, Graham, and Sós. arXiv:2603.18952v1 (19 March 2026), 12 pages; a
-  preprint (the site's reference text prints "conjeture"). Conjecture 1.1,
-  Theorem 1.2 and display (1), p. 2. Library home:
+  preprint, no journal record found on 2026-09-18 (the site's reference text
+  prints "conjeture"). Conjecture 1.1, Theorem 1.2 and display (1), p. 2.
+  Library home:
   [[../library/ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/_index|bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos]].
 - [BEGS89] Burr, S. A., Erdős, P., Graham, R. L. and Sós, V. T., Maximal
   antiramsey graphs and the strong chromatic number. J. Graph Theory 13
@@ -106,7 +108,7 @@ accessed 2026-09-18.
   applications, Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406 (as the site's
   reference text prints it); the site cites p. 398, and [BCM26] cites the
   paper as its [8] for the conjecture. Not held: past the Rényi archive's
-  1989 cutoff, no attempt made.
+  1989 cutoff, no open copy located on 2026-09-18, no attempt made.
 - [ErSi] Erdős, P. and Simonovits, M., "to appear": the 1989 paper's
   reference [8] for the exact value $\lfloor n/2\rfloor+3$ at $C_5$. Not
   identified and not held.
@@ -177,9 +179,9 @@ acceptance; neither the fidelity review nor its grade read the Bucić–Chen–M
 paper, and the $k\ge4$ branch is a closed native proof whose truth does not rest
 on that attribution.
 
-**Outside claims and priority.** As of 2026-10-05 the site labeled the problem
-OPEN (last edited 1 April 2026), credits Bucić, Chen and Ma for $k\ge4$ only,
-and its proof-claims tab lists two full proof claims, each a proof of the $C_7$
+**Outside claims and priority.** On 2026-10-05 the site labeled the problem
+OPEN (last edited 1 April 2026), credited Bucić, Chen and Ma for $k\ge4$ only,
+and its proof-claims tab listed two full proof claims, each a proof of the $C_7$
 case with a Lean development for every $k\ge3$, both dated 27 September 2026.
 Asad Shahab's, the site's proof claim 358, was filed first; its Lean development
 (`Asad-Shahab/erdos-809-lean`) states `Erdos809.erdos_809` for all $k\ge3$, and
@@ -294,7 +296,7 @@ claims prove it (see "Outside claims and priority"). The three papers citing
 version of the problem (two) and on posets (one); by their titles, none concerns
 $C_7$.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 determination of $\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)$, a refereed version
 of [BCM26], or a dispute.
 

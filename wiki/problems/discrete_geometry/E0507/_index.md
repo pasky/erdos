@@ -26,7 +26,7 @@ disk contains three points which determine a triangle of area at most
 $\alpha(n)$. Estimate $\alpha(n)$.
 
 **Status.** Open. The site labeled the problem OPEN (page last edited 30
-December 2025). Its proof-claims thread carried no claim as of 6 October 2026.
+December 2025). Its proof-claims thread carried no claim on 6 October 2026.
 The claim pages record the refereed bounds of Komlós, Pintz and Szemerédi and of
 Cohen, Pohoata and Zakharov as accepted partial claims. They also record a
 pending release result on the lower bound, and two earlier arXiv preprints

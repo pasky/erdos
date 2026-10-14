@@ -103,8 +103,8 @@ submitted 28 December 2024, Section 6, pp.24--26, gives contextual
 weighted-graph results. Its p.25 restatement of the unweighted order cites
 Erdős--Spencer; Theorems 6--7 on p.26 use one weight and sign per unordered
 edge. It is neither a new status basis nor a proof of the problem's question.
-A literature search found no exact leading constant or exact finite-$n$
-refinement; this does not establish that no refinement exists.
+A literature search through 2026-09-06 found no exact leading constant or exact
+finite-$n$ refinement; this does not establish that no refinement exists.
 
 **Claims.** The settling result is recorded on the claim page
 [[problems/discrepancy/E1028/claims/1971_01_01_erdos_spencer|Erdős and Spencer, Theorem (5)]],

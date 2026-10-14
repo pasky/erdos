@@ -33,10 +33,10 @@ of 13 July 2026 (arXiv 2609.17543, 14 July 2026). It is a gap-greedy
 construction over consecutive primes, and the preprint states that its proof was
 found by GPT-5.6 Sol. Sneiderman's note of 21 July 2026 reproves it with a
 sharper exponent. Pratt's digested proof of 1 September 2026, posted as the
-site's proof exposition, presents the argument in full following both. As of
-2026-10-07 no refereed publication exists, and no formal proof has been built in
-this corpus. Three further AI-assisted claims stand unreviewed. Chojecki's
-claimed proof of January 2026 is recorded as rejected.
+site's proof exposition, presents the argument in full following both. No
+refereed publication exists, and no formal proof has been built in this corpus.
+Three further AI-assisted claims stand unreviewed. Chojecki's claimed proof of
+January 2026 is recorded as rejected.
 
 Claim pages:
 [[problems/integer_sequences/E0421/claims/2026_07_13_chojecki|Chojecki]] and

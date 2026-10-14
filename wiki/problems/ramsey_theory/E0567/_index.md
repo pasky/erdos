@@ -61,8 +61,8 @@ bounty site Conjectures.io on 7 August 2026 (record
 the $Q_3$ case, in which the size Ramsey number $\hat r(Q_3,H)$ stood in for
 $R(Q_3,H)$. The site classifies it as a formalization-defect award that does not
 settle the problem. It bears on none of the three cases (see Formalization).
-This is a bounded negative finding from the searches, not a certificate of
-openness.
+This is a bounded negative finding from the searches dated 2026-09-18 and
+2026-09-27 UTC, not a certificate of openness.
 
 The partial results are these.
 [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_3|Theorem 3]]
@@ -289,7 +289,7 @@ size-linearity would put $R(G,K_n)$ at $O(n^2)$, so even the complete-graph
 case is undecided by the sources read; a lower bound of order $n^{2+c}$ for
 any of the three graphs would answer the problem in the negative.
 
-**Search scope.** None of the routes below found a proof,
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof,
 disproof, preprint or claim for any of the three graphs.
 
 - The site: problem page, discussion thread and proof-claim tab; the

@@ -114,7 +114,7 @@ community database (2026-09-18) recorded the problem proved (last changed
 "Formalised statement?" indicator read "No". On 2026-09-20
 formal-conjectures added
 [`FormalConjectures/ErdosProblems/801.lean`](https://github.com/google-deepmind/formal-conjectures/blob/bb8367edb17f1482e1aa94a4ba4724de28fe0fc6/FormalConjectures/ErdosProblems/801.lean)
-(linked at the commit that added it, as of 2026-10-07): it states the
+(linked at the commit that added it): it states the
 problem with the site's non-strict hypothesis, an independence number at
 most $\sqrt n$, and a set of at most $\sqrt n$ vertices spanning at least
 $c\sqrt n\log n$ edges for all large $n$, marks it research solved, and
@@ -127,8 +127,8 @@ under the hypothesis `G.indepNum ≤ Nat.sqrt n`, the boundary case included.
 That development is linked on Alon's claim page as a formalization of the
 result; this corpus has not built or audited it, so it gives no `formalized`
 evidence, and the claim's standing rests on the curator's credit and the
-refereed publication. As of 2026-10-07 the site's indicator reads "Yes" and
-the community database records the problem formalized since 2026-09-20 with
+refereed publication. On 2026-10-07 the site's indicator read "Yes" and
+the community database recorded the problem formalized since 2026-09-20 with
 status proved and no formal status.
 
 ## Current assessment

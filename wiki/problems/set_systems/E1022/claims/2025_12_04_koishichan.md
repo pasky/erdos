@@ -79,8 +79,8 @@ Alexeev as its formal authors; it states the problem's existential as
 `erdos_1022` and proves its negation `not_erdos_1022` through the lemma
 `c_t_le_two`. Alexeev announced it in the thread on 22 January 2026, and Tao
 recorded it there as a formalization of KoishiChan's solution. The link is
-pinned to the repository's commit of 24 August 2026, the file's latest
-revision as of 2026-10-07. This corpus has not built it, so the formalization
-is a link and not `formalized` evidence. The formal-conjectures
-statement file for the problem records the negative answer and points at the
-same file; a statement file is not a formalization.
+pinned to the repository's commit of 24 August 2026, on 2026-10-07 the file's
+latest revision. This corpus has not built it, so the formalization is a link
+and not `formalized` evidence. The formal-conjectures statement file for the
+problem records the negative answer and points at the same file; a statement
+file is not a formalization.

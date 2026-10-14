@@ -126,7 +126,7 @@ $k\le n/2$. No result gives a bound of the form $k^{1+c}$; the open content is
 the range $k\le n/2$ with $n-k$ large compared with
 $k\log k\log\log k/\log\log\log k$.
 
-Search scope. As of 2026-10-07 the site's discussion thread held six posts, all
+Search scope. On 2026-10-07 the site's discussion thread held six posts, all
 on the wording (the $2^t$ counterexample of 3 December 2025, the restriction to
 $k\le n-1$ of 31 December 2025, and the location of the problem on p. 74 of
 [Er79d]), and its proof-claims page listed no claim. No preprint or paper

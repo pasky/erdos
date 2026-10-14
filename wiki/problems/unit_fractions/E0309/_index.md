@@ -324,22 +324,22 @@ from the least $n$ at which $k$ is representable to the least at which
 $k+1$ is. Its links are Yokota's 1990 and 1997 papers. No verification of
 the terms is recorded.
 
-**Search scope.** The problem, discussion and proof-claim pages; the community
-database record; the formal-conjectures directory listing and full tree of main;
-the external Lean collection's directory listings; the Crossref records of
-Yokota 1997, 2002 and 1990 and of Croot 1999; the Semantic Scholar citation
-lists of Croot 1999 (fourteen records) and Yokota 1997 (three records, none on
-the count); arXiv API searches for abstracts naming unit fractions and
-"representable" (twelve records, none on the count) and the sixty most recent
-abstracts mentioning unit or Egyptian fractions (none on this problem); OEIS
-A217693; the zbMATH Open records of Yokota's unit-fraction papers, Zbl
-0656.10012, 0907.11010, 0926.11020, 1010.11501 and 1036.11008 (no open links);
-the primary sources [Cr99] and [ErGr80] pp. 39--40. Not searched: MathSciNet,
-Google Scholar, X. Nothing found sharpens the second-order term beyond Yokota's
-2002 Corollary 1. Also read: the formal-conjectures statement file and the
-Alexeev Lean file at the commits the links under Formalization pin, the
-community database record (formalized since 19 September 2026) and the site's
-formalization panel.
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
+pages; the community database record; the formal-conjectures directory listing
+and full tree of main; the external Lean collection's directory listings; the
+Crossref records of Yokota 1997, 2002 and 1990 and of Croot 1999; the Semantic
+Scholar citation lists of Croot 1999 (fourteen records) and Yokota 1997 (three
+records, none on the count); arXiv API searches for abstracts naming unit
+fractions and "representable" (twelve records, none on the count) and the sixty
+most recent abstracts mentioning unit or Egyptian fractions (none on this
+problem); OEIS A217693; the zbMATH Open records of Yokota's unit-fraction
+papers, Zbl 0656.10012, 0907.11010, 0926.11020, 1010.11501 and 1036.11008 (no
+open links); the primary sources [Cr99] and [ErGr80] pp. 39--40. Not searched:
+MathSciNet, Google Scholar, X. Nothing found sharpens the second-order term
+beyond Yokota's 2002 Corollary 1. Also read: the formal-conjectures statement
+file and the Alexeev Lean file at the commits the links under Formalization pin,
+the community database record (formalized since 19 September 2026) and the
+site's formalization panel.
 
 **Remaining gaps.** (1) Yokota's 1990 paper, the first disproof, is not
 held; its theorem is known through the 1997 paper's report and use of it.

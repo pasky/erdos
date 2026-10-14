@@ -33,7 +33,7 @@ are all divisible by primes $\leq x$.
 
 Estimate $S(k)$ - in particular, is it true that $S(k)\geq k^{1-o(1)}$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited
 2 December 2025). "Divisible by primes $\le x$" means that
 each $n+i$ has a prime factor at most $x$; $S(k)$ is the least such $x$, and
 it is a prime. The covering form, an elementary equivalence made here: if
@@ -281,8 +281,8 @@ lower bound with exponent above $1/2$, no upper bound below the inversion of
 (1.2) and no proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory and tree as of 2026-09-18 (no file); the
-  community database as of 2026-09-18.
+  formal-conjectures directory and tree, read 2026-09-18 (no file); the
+  community database, read 2026-09-18.
 - arXiv: the API queries `all:Jacobsthal` (40 newest records),
   `abs:"large gaps between primes" OR abs:"long gaps between primes" OR
   abs:"Jacobsthal function"` (21 records) and `abs:"residue class" AND

@@ -270,14 +270,14 @@ the proof of (1.2), Sections 3--8, is not checked here.
 **The AI-generated improvement (accepted on Problem 4; provenance
 recorded).** Since 31 August 2026 the commentary credits the best
 lower bound, $Y(x)\gg x\log x/\log_3x$, to GPT 5.6 Pro and points to Problem 4.
-The site's Problem 4 page, as of 2026-09-05, carries the records: its commentary
-says that the [FGKMT18] gap bound was improved to $\gg\log n\log_2n/\log_4n$ by
-GPT 5.6 Pro, prompted by the account DottedCalculator, by combining new sieving
-ideas with those of [FGKMT18], and points to the proof claims and the
-exposition; its proof-claim tab holds a partial claim submitted 26 August 2026
-by that account with the model named as claimant, whose summary states that
-$[x,y]$ can be covered by $a_p\bmod p$, $p<x$, for
-$y\approx x\log x/\log\log\log x$, with the plan: the class $0$ for
+The site's Problem 4 page, accessed 2026-09-05, carries the records: its
+commentary says that the [FGKMT18] gap bound was improved to
+$\gg\log n\log_2n/\log_4n$ by GPT 5.6 Pro, prompted by the account
+DottedCalculator, by combining new sieving ideas with those of [FGKMT18], and
+points to the proof claims and the exposition; its proof-claim tab holds a
+partial claim submitted 26 August 2026 by that account with the model named as
+claimant, whose summary states that $[x,y]$ can be covered by $a_p\bmod p$,
+$p<x$, for $y\approx x\log x/\log\log\log x$, with the plan: the class $0$ for
 $p\le\log^{100}x$; for $\log^{100}x<p\le x/2$ the class $0$ with probability
 $1-\beta_p$ and otherwise a random nonzero class, with $\beta_p$ tiny; the
 roughly $x\log_2x/\log x$ surviving primes handled by the hypergraph covering
@@ -319,7 +319,7 @@ the best lower bound, accepted but not refereed, and keeps [FGKMT18]'s (1.2)
 as the best refereed bound. The claim was posted on Problem 4, not here, and a
 lower bound settles neither displayed question, so it has no claim page on
 this problem. A second item on the Problem
-4 tab (as of 2026-09-05) postdates this page's last edit: a full-proof claim
+4 tab (accessed 2026-09-05) postdates this page's last edit: a full-proof claim
 submitted 4 September 2026 by the account BorisAlexeev with OpenAI named as
 claimant, using a model of that organization, announcing an improvement of the
 largest prime gap by about a factor $\log\log n$ over Rankin's bound, with a
@@ -354,9 +354,9 @@ below $x^2$, a refereed account of the site-accepted improvement, or a proof
 claim on this page.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory and tree as of 2026-09-18 (no file); the
+  formal-conjectures directory and tree, read 2026-09-18 (no file); the
   community database (2026-09-18); the Problem 4 page, discussion and
-  proof-claim tab as of 2026-09-05.
+  proof-claim tab, accessed 2026-09-05.
 - arXiv: the abstract page and API record of 1412.5029 (three versions;
   journal reference J. Amer. Math. Soc. 31 (2018), no. 1, 65--105); the API
   queries `all:Jacobsthal` (40 newest records, none on the covering

@@ -25,7 +25,7 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** If $G$ is a graph with at most $k$ edge disjoint triangles then
 can $G$ be made triangle-free after removing at most $2k$ edges?
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-19 (page last edited
 13 October 2025). With $\nu(G)$ the largest number of pairwise edge-disjoint
 triangles and $\tau(G)$ the least number of edges whose removal leaves no
 triangle, the question is whether $\tau(G)\le2\nu(G)$ for every graph $G$,
@@ -242,7 +242,7 @@ $\tau\le\frac32\nu$
 counterexample, a proof, a refereed constant below $\frac{66}{23}$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures directory listing and tree at main on
   that date (no file 167); the community database on that date.
 - arXiv: the API records of 2007.04351 (v2), 2608.23010 (v1, 24 August

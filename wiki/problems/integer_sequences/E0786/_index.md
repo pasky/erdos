@@ -63,7 +63,7 @@ sharp constant from Granville and Soundararajan [GrSo01] in
 [forum post 4061](https://www.erdosproblems.com/forum/thread/786#post-4061) (2
 February 2026), all recorded under Formulation and Known Results.
 
-**Formulation.** The site's wording as of the snapshot accessed 2026-09-04
+**Formulation.** The site's wording as accessed 2026-09-04
 (page last edited 11 April 2026); its
 [full commentary](https://www.erdosproblems.com/latex/786) distinguishes the
 two conventions. The two subsets in the Statement (modified) may overlap, and

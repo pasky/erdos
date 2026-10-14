@@ -62,7 +62,7 @@ Ruzsa's and Weingartner's theorems rather than by the degenerate set. The
 observation about $A=\{1\}$ settles no instance of the modified Statement and
 is credited here, not counted.
 
-**Formulation.** The site's wording as of 2026-09-05 (page last edited
+**Formulation.** The site's wording as accessed 2026-09-05 (page last edited
 8 April 2026). Erdős's [Er73], p. 135, asks it for $a_1<\cdots<a_k\le n$ with
 $\sum1/a_i<c_1$ and notes that, by the example of Schinzel and Szekeres
 [ScSz59], the bound would be best possible apart from the value of the

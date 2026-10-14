@@ -105,7 +105,7 @@ Bloom, Erdős Problem #416, https://www.erdosproblems.com/416, accessed
 
 **Formalization.** Statement in the file
 [`ErdosProblems/416.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)
-of formal-conjectures as of its change of 11 October 2026:
+of formal-conjectures at its change of 11 October 2026:
 `erdos_416.parts.i` (the doubling limit) and `erdos_416.parts.ii` (an
 asymptotic formula, with `answer(sorry)`). Before that change both were marked
 `research open` and neither carried a `formal_proof` attribute. The change

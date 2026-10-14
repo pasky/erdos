@@ -25,9 +25,9 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Does every finite colouring of the integers have a monochromatic
 solution to $1=\sum \frac{1}{n_i}$ with $2\leq n_1<\cdots <n_k$?
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited 7 April
-2026). The coloring uses finitely many colors; a solution is a finite set of
-distinct integers $n_1<\cdots<n_k$, all at least $2$, of one color, with the
+**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 7
+April 2026). The coloring uses finitely many colors; a solution is a finite set
+of distinct integers $n_1<\cdots<n_k$, all at least $2$, of one color, with the
 number of terms $k\ge1$ free. Integers below $2$ never occur in a solution, so
 their colors play no role.
 
@@ -163,7 +163,7 @@ solutions of one color, dividing $a$ of them by $b$ and adding gives $a/b$.
 Both are elementary consequences recorded as the site's commentary, without
 proof credit.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the
 pinned commit and the external Lean file it tags; the arXiv
 listings for math/0311421 (one version) and 2112.03726 (two versions); the

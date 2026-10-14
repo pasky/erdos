@@ -162,7 +162,7 @@ is not known; Bloom suspects (p. 2) that
 $\lambda(N)\le(\log N)^{o(1)}$. This quantitative question lies beyond the
 yes-or-no question the page carries and does not affect the status.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 file at the pinned commit and the external Lean file it tags; the arXiv
 listings for 2112.03726 (v1 7 December 2021, v2 12 October 2023) and

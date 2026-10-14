@@ -34,7 +34,7 @@ with $a_i\in B$ all distinct.
 Estimate $l(n)$. In particular, is it true that $l(n)n^{-1/2}\to \infty$? Is it
 true that $l(n)< n^{1-c}$ for some $c>0$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 23
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 23
 January 2026). "Sum-free" here means that no element of $B$ is the sum of two
 or more other elements of $B$ (with $r=2$ the relation $a_1=a_2$ has no
 solution in distinct elements, so the condition bites for $r\ge3$); this is
@@ -250,7 +250,7 @@ did not mention the claim, and no acceptance was on record.
 refereed improvement of either bound of [CKS75], a review of the tab's
 claim, or a second source for Choi's $(1+c)n^{1/2}$ in that form.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - arXiv: the API queries `abs:"sum-free" AND abs:subsequence` sorted by

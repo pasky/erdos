@@ -51,7 +51,7 @@ The second, submitted by the forum user Drynshock on 2026-09-19 and credited to
 GPT 6 Pro, claims $c>0.3805634$. It does so through a subadditivity inequality
 for the overlap function added to the convex relaxation
 ([[problems/additive_combinatorics/E0036/claims/2026_09_19_drynshock|claim page]]).
-Neither claim had comments on its thread as of 2026-10-06. This page records
+Neither claim had comments on its thread, accessed 2026-10-06. This page records
 them without adopting them.
 
 The superseded bounds are history recorded in the references and get no claim

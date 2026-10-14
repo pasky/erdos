@@ -66,10 +66,10 @@ $\liminf_k a_k/k^{1+c}=0$, and the second bounds $A(x)$ from below only along
 a sequence of $x$. They settle no instance, so they have no claim page.
 Andrews [An75] conjectures $a_k\sim k\log k/\log\log k$.
 
-Search scope. As of 2026-10-07 the site's page lists no proof claim, its
-discussion thread holds one comment, of 29 November 2025, restating
+Search scope. On 2026-10-07 the site's page listed no proof claim, its
+discussion thread held one comment, of 29 November 2025, restating
 Porubský's first result in its $\liminf$ form, and the formal-conjectures
-statement file states both limits for $n=1$ as open and has no solved
+statement file stated both limits for $n=1$ as open and had no solved
 variant.
 <!-- BEGIN problem library links -->
 

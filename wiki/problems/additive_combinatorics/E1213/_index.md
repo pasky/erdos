@@ -160,10 +160,10 @@ community database records the problem proved; no dispute was found.
 restatement of the theorem, an improvement of the $e^{O(K)}$ dependence, or a
 dispute.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures catalog, which held no file for this
   problem before 2026-09-20 (the statement file added that day is recorded
-  under Formalization above); the community database as of 2026-09-18.
+  under Formalization above); the community database, read 2026-09-18.
 - Crossref: the record of [He86] (bibliographic query).
 - arXiv: the API queries `abs:"bounded gaps" AND abs:"consecutive sums"`
   and `all:Hegyvári AND abs:"consecutive sums"` (no records); the abstract

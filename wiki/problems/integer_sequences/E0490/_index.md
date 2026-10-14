@@ -326,7 +326,7 @@ access in the publisher's archive (References).
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and full tree of 2026-09-18 (no file
-  for this problem); the community database as of 2026-09-18.
+  for this problem); the community database, read 2026-09-18.
 - The publisher's open archive for [Sz76] (the DOI and its landing page);
   the Crossref records of [Sz76] and [ErSz76]; the Rényi archive for
   [ErSz76] (pp. 418, 420--421).

@@ -78,7 +78,7 @@ Boris Alexeev's repository, linked from the claim page with its header's
 account of the proof it follows. The file is third-party Lean that this corpus
 has not built, so the claim lists no `formalized` evidence.
 
-Search scope: the site's problem page, the community database
+Search scope, 2026-10-07: the site's problem page, the community database
 (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
 file and the Lean repository named above; no further claim was found. Nothing
 remains open in the stated question.

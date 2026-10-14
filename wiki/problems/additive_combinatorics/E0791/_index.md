@@ -26,7 +26,7 @@ updated: 2026-10-08T18:29:34Z
 \{0,\ldots,n\}$ of size $g(n)$ with $\{0,\ldots,n\}\subseteq A+A$. Estimate
 $g(n)$. In particular is it true that $g(n)\sim 2n^{1/2}$?
 
-**Formulation.** The site's wording as of 2026-09-18T15:09Z
+**Formulation.** The site's wording as accessed 2026-09-18T15:09Z
 (page last edited 24 September 2025). Such an $A$ is a finite additive
 $2$-basis for $[0,n]$; it contains $0$, since $0\in A+A$. The literature
 works with the inverse function: $n(k)$, the maximal range of a $2$-basis
@@ -247,7 +247,7 @@ and of
 improving $85/294$ or $0.4585$, a determination of the limit, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory listing (no file) and the
   community database, both on 2026-09-18; the OEIS record of A066063
   (JSON).

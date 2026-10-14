@@ -77,7 +77,7 @@ logarithmic scale by
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's accepted claim page]].
 
 **Source.** [erdosproblems.com/1190](https://www.erdosproblems.com/1190)
-(the statement above is the site's wording as of 2026-09-05; page last
+(the statement above is the site's wording as accessed 2026-09-05; page last
 edited 28 May 2026). Cite as: T. F. Bloom, Erdős Problem #1190,
 https://www.erdosproblems.com/1190. The Statement (modified) above
 replaces its maximum with a supremum.

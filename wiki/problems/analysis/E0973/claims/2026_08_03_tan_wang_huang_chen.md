@@ -74,7 +74,7 @@ PALOMAR-2026-09-20-000008:
 
 **Standing.** No entry for this paper appears on the site's proof-claims tab or
 in its thread, the site's label was unchanged (OPEN) and its commentary does not
-name the authors; the arXiv record lists no journal reference as of
+name the authors; the arXiv record listed no journal reference on
 2026-10-07. The claim therefore stays claimed, with no reviewer named. The
 earlier proof of the same answer is
 [[problems/analysis/E0973/claims/2026_07_15_luo_yang_zhu|the page of Luo, Yang

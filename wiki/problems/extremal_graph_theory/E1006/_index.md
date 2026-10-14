@@ -28,7 +28,7 @@ cycles of length $3$ or $4$). Can the edges of $G$ always be directed such that
 there is no directed cycle, and reversing the direction of any edge also creates
 no directed cycle?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 2
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 2
 December 2025). An orientation of $G$ has the required property when it has
 no directed cycle and, for every edge $e$, the orientation obtained by
 reversing $e$ alone has no directed cycle either. The question asks whether
@@ -225,7 +225,7 @@ paper has no claim page.
 **Search scope.** None of the routes below found a dispute
 of Corollary 3; the later cover-graph papers are listed above.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory and tree as fetched that day
   (no file 1006); the community database entry as fetched that day.
 - Crossref: the record of doi:10.1090/S0002-9939-1978-0507350-7.

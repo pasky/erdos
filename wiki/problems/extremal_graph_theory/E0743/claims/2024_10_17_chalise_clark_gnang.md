@@ -29,7 +29,7 @@ updated: 2026-10-07T23:33:05Z
 
 Parikshit Chalise, Antwan Clark and Edinah K. Gnang, *A Proof of the Tree
 Packing Conjecture*, arXiv:2410.13840 (v1 17 October 2024, v2 23 October
-2024, v3 1 September 2026; record as of 2026-09-19); the paper's text is not
+2024, v3 1 September 2026; record, read 2026-09-19); the paper's text is not
 held, and the claim is recorded from its abstract and the thread's account
 of it.
 

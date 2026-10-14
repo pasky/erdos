@@ -40,7 +40,7 @@ $$
 attaches to the pair of questions. The liminf question is answered yes, but the
 limsup part is unsettled, so the problem stays open.
 
-No source compiled here, and nothing in the site's thread as of 2026-10-07,
+No source compiled here, and nothing in the site's thread, accessed 2026-10-07,
 determines the smallest limsup. The construction of van Doorn and
 the thread's write-up of 2026-09-07 bound the infimum from above without
 determining it, and neither is a claim.
@@ -79,13 +79,13 @@ https://www.erdosproblems.com/33.
 ## Current assessment
 
 On 2026-09-05 the site labeled the problem OPEN and its proof-claims tab held no
-submitted resolution. The thread as of 2026-10-07 holds six comments and no
+submitted resolution. On 2026-10-07 the thread held six comments and no
 proof claim; the latest, of 2026-09-07, announces a
 [write-up](https://github.com/LeanMeanBean/erdos-33/blob/main/erdos33_limsup_4_596.pdf)
 claiming a complement with limsup at most $13\sqrt2/4\approx4.596$, below van
 Doorn's bound and developed with GPT; an upper bound on the infimum settles no
 instance of the limsup question, so it is not a claim, and the thread held no
-review of it as of 2026-10-07. The arXiv record of
+review of it on 2026-10-07. The arXiv record of
 [2512.15407v6](https://arxiv.org/abs/2512.15407v6), revised 2026-07-09, and the
 published [Ding–Sun–Wang–Xia](https://doi.org/10.1016/j.disc.2025.114763) paper
 do not give the exact limsup constant.

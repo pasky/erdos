@@ -108,7 +108,7 @@ site's commentary records the expectation that, whenever $k\to\infty$ with
 $n$, the largest prime factor of $\phi_k(n)$ is at most $n^{o(1)}$ for almost
 all $n$.
 
-**Search scope.** The site's page and its commentary, the
+**Search scope (2026-10-07).** The site's page and its commentary, the
 abstract and introduction of [EGPS90], and B41 of [Gu04]; no other
 literature search was made, and no proof was independently assessed.
 <!-- BEGIN problem library links -->

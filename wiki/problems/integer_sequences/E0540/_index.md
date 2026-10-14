@@ -277,7 +277,7 @@ Szemerédi's theorem, a determination of the constant for composite $N$ beyond
 Hamidoune--Zémor, or a non-abelian result.
 
 - The site: problem page, discussion thread and proof-claim tab;
-  formal-conjectures at the pinned commit; the community database as of
+  formal-conjectures at the pinned commit; the community database, read
   2026-09-18; the external Lean file and the gist through the
   GitHub API and the gist's raw URL.
 - arXiv: the API record of 0907.3492 (v1 only) and the query

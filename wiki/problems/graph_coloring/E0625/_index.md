@@ -222,8 +222,8 @@ full-sequence question.
 
 ## Search and proof coverage
 
-Search scope: the primary arXiv records, the authors' and publishers' pages,
-Petkov's manuscript and the pinned public formal records. The
+Search scope, 9 September 2026: the primary arXiv records, the authors' and
+publishers' pages, Petkov's manuscript and the pinned public formal records. The
 site labeled the problem SOLVED, a label set on 5 September 2026, the day its
 page was last edited, and credits Petkov's improvement in its commentary; its
 forum carries the two claims recorded above, Petkov's with comments in which the

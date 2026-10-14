@@ -221,7 +221,7 @@ no formal-proof URL.
 copy of [Kl71], a second published proof of the implication, or a dispute.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  site's Problem 447 page as of 2026-09-04 (for Kleitman's statement);
+  site's Problem 447 page, accessed 2026-09-04 (for Kleitman's statement);
   formal-conjectures `487.lean` at the pinned commit; the community
   database (pinned copy of 2026-09-18).
 - The two Lean files at the commits Kleitman's page pins.

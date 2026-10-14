@@ -156,7 +156,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
 **Formalization.** None found on 2026-09-18: there was no
 `ErdosProblems/1204.lean` in google-deepmind/formal-conjectures (main), and
 the site's page showed no formalized statement. The community database
-(teorth/erdosproblems, as of 2026-09-18)
+(teorth/erdosproblems, read 2026-09-18)
 records the problem open (last changed 4 April 2026), the statement not
 formalized, `formal_status` unformalized, no formal-proof URL and the OEIS
 entries above.

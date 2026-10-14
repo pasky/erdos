@@ -242,7 +242,7 @@ $c_r$ without additional assumptions" (their method applies when the
 auxiliary coloring is cyclic, which every two-coloring is). This concerns
 partitions into three or more classes and is not the site's question.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of Theorem 1, a second determination of $c_2$, or progress on
 Conjecture 10.
 

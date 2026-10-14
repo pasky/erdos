@@ -42,11 +42,11 @@ question about $F(x)$, whose commentary says that Erdős asked it without the
 minimality assumption. The standing below concerns the site's $F(x)$.
 
 **Status.** Open. The site labeled the problem OPEN (page last edited 17 April
-2026, as of 2026-10-06). The standing is claimed through a pending full claim,
-described below. The site's commentary records that $F(x)\to\infty$. It gives
-the elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower bound
-$F(x)\ge\exp((\log x)^{3-o(1)})$ from the construction of Balister, Bollobás,
-Morris, Sahasrabudhe and Tiba, and the trivial upper bound
+2026, accessed 2026-10-06). The standing is claimed through a pending full
+claim, described below. The site's commentary records that $F(x)\to\infty$. It
+gives the elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower
+bound $F(x)\ge\exp((\log x)^{3-o(1)})$ from the construction of Balister,
+Bollobás, Morris, Sahasrabudhe and Tiba, and the trivial upper bound
 $F(x)\le\exp(O(x\log x))$. The lower bound is an accepted partial claim on
 [[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|its claim page]].
 
@@ -60,7 +60,7 @@ custom harness. The claim was accepted in Star Fleet Math's listing on
 has not built the Lean bundle, and no outside review is recorded.
 
 **Source.** [erdosproblems.com/1188](https://www.erdosproblems.com/1188)
-with its discussion thread (as of 2026-10-06: six comments in the discussion
+with its discussion thread (accessed 2026-10-06: six comments in the discussion
 thread, one proof claim). Cite as:
 T. F. Bloom, Erdős Problem #1188, https://www.erdosproblems.com/1188.
 

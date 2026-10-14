@@ -55,7 +55,7 @@ preprint (Li, arXiv:2606.23659; v1 22 June 2026, v2 2 August 2026) states the
 inequality as its Theorem 1.1 and claims a full proof. The author's proof claim
 on the site's proof-claim tab and the v2 listing report a Lean formalization. No
 refereed publication, independent review or acceptance by a named mathematician
-was found. The site's discussion records reserved judgment.
+was found on 2026-09-17. The site's discussion records reserved judgment.
 
 Before Li's claim the inequality was known in special cases. The case $k=2$ is
 trivial, since $m_1\ge1$. Chvátal's case $m_1=\dots=m_k=1$ holds for every $n$.
@@ -110,7 +110,7 @@ OPEN (LEAN) is recorded here with no dated snapshot.
   row for this problem).
 - [Ch77] Chvátal, V., Tree-complete graph Ramsey numbers. J. Graph Theory 1
   (1977), 93, doi:10.1002/jgt.3190010118. The one-page note proving
-  $R(T,K_m)=(m-1)(n-1)+1$. Not held.
+  $R(T,K_m)=(m-1)(n-1)+1$. Not held; no open copy was found on 2026-09-17.
   The statement is attested in [BuEr76] (p. 248, proof of Theorem 2.1) and
   in [Li26] p. 1.
 - [Li26] Li, E., A resolution of Erdős Problem 550 on tree versus complete
@@ -244,7 +244,7 @@ here.
   Ajtai--Komlós--Simonovits--Szemerédi proof of the Erdős--Sós conjecture may
   subsume part of the argument.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file
 at the pinned commit; the arXiv listing of 2606.23659 (two versions); a
 Crossref bibliographic query for the title (no journal record); the Semantic
@@ -252,7 +252,7 @@ Scholar record and citation list (no citing paper); the arXiv API listings for
 "Erdős Problem 550" (the one preprint) and for abstracts containing "Ramsey",
 "tree" and "multipartite" (two records, neither relevant); one scripted
 open-archive request for [Ch77] (HTTP 403); the Rényi archive's copies of
-[EFRS85] and [EFRS89]; the
+[EFRS85] and [EFRS89] (located 2026-09-17, consulted 2026-09-19); the
 GitHub repository metadata; the primary sources [Li26]
 pp. 1--2 and 19--20, [BuEr76] p. 248, [EFRS89] pp. 147 and 153 and
 [EFRS85] pp. 311, 313, 316 and 317 as stated. Not searched: MathSciNet,

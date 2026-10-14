@@ -29,7 +29,7 @@ B$.
 
 Estimate $g(n)$.
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 23
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 23
 January 2026). The forbidden sums are those of two distinct elements of
 $B$, and they are tested against the whole set $A$, not only against $B$:
 this is Erdős's $\phi(n)$ of 1965 ("$a_{i_j}+a_{i_l}\ne a_r$, $1\le j<l\le
@@ -69,10 +69,10 @@ $\ll n^{2/5+o(1)}$ (1971, not held, attested by Erdős 1973 and the later papers
 The third is the refereed refinement $O(n^{2/5}(\log n)^{2/5})$ of Baltz, Schoen
 and Srivastav (2000). It has no claim page of its own, because the site does not
 cite it and Ruzsa's bound supersedes it. No result determines the order of
-growth. Apart from Zhi's wider range of exponents, the search whose scope the
-Current assessment records found no proof claim, no citing paper improving
-either bound and no adoption of any such result by the site. This is a bounded
-negative finding, not a certificate of openness.
+growth. Apart from Zhi's wider range of exponents, the search dated 2026-09-18
+UTC whose scope the Current assessment records found no proof claim, no citing
+paper improving either bound and no adoption of any such result by the site.
+This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/787](https://www.erdosproblems.com/787),
 accessed 2026-09-18: the problem page (OPEN, a label the site explains as
@@ -300,11 +300,11 @@ $M(A)=\exp(O(\sqrt{\log|A|}))$") restates it with the exponent suppressed
 subpolynomially in $n$"). This is the site's upper bound; its proof is not
 independently reviewed.
 
-**Search scope.** None of the routes below found an improvement of either
-bound beyond the range of exponents of [Zh26], a proof claim, or a journal
-publication of [Be25].
+**Search scope (2026-09-18 UTC).** None of the routes below found an improvement
+of either bound beyond the range of exponents of [Zh26], a proof claim, or a
+journal publication of [Be25].
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - arXiv: the abstract pages of 1804.03356 (three versions; the journal

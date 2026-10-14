@@ -90,7 +90,7 @@ to showing that the iteration $n\mapsto n+\omega(n)$ settles into a single
 sequence from every start, with sieve methods not yet strong enough. Guy's
 B8 [Gu04] lists the barriers of $\omega$ up to $30$, which are the OEIS
 sequence A005236 the site cites. The site's thread and proof-claim tab
-carried no proof claim as of 2026-10-06, and no other result on the problem
+carried no proof claim on 2026-10-06, and no other result on the problem
 is known here. Proof coverage: nothing is independently reviewed in this
 corpus.
 <!-- BEGIN problem library links -->

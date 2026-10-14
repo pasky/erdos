@@ -50,7 +50,7 @@ of the accepted
 [[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|Conjectures.io
 claim]]; the full manuscript is asserted to be independent of it.
 
-**Standing.** No reply, review or acceptance appears in the thread as of
+**Standing.** No reply, review or acceptance appeared in the thread when read on
 2026-10-07, and the manuscripts are unrefereed and unregistered, so the claim is
 `claimed`. The irrationality itself is settled on the accepted
 [[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|Conjectures.io

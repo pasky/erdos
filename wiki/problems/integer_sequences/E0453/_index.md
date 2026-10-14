@@ -80,7 +80,7 @@ linked, at a fixed commit, from the claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]].
 The community database (teorth/erdosproblems, accessed 2026-10-07) lists the
 problem as disproved (Lean) as of its last update on 31 January 2026, and the
-statement as formalized as of 6 July 2026. Nothing was built or audited here,
+statement as formalized since 6 July 2026. Nothing was built or audited here,
 and the Lean suffix is a catalog label.
 
 ## Progress

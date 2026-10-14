@@ -281,12 +281,13 @@ equals $\tau(G)$ whenever every maximal clique has at least two vertices.
 to either question for arbitrary graphs, an improvement of the bounds above,
 or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures repository (main, 2026-09-19; no file
-  611); the community database as of 2026-09-19; the site's reference text for [Er94] (`/bibs/Er94`).
+  611); the community database, read 2026-09-19; the site's reference text for
+  [Er94] (`/bibs/Er94`).
 - The graphs problem collection (mathweb.ucsd.edu/~erdosproblems, the pages
   "SublinearCliqueTransversal", "CliqueTransversal" and
-  "CliqueTransversalUpperBound", as of 2026-09-19): the first states this
+  "CliqueTransversalUpperBound", accessed 2026-09-19): the first states this
   page's first question with [Er94] as its source and no result; the others
   concern Problems 151 and 610.
 - arXiv API: `all:"clique transversal"` sorted by date (six records, 2016
@@ -294,7 +295,7 @@ or a proof claim.
   independent sets, the upper clique transversal problem, conformal
   hypergraphs, a transversal game, chordal graphs; none on large-clique
   graphs or $k_c(n)$).
-- The Rényi archive's index (users.renyi.hu/~p_erdos, as of 2026-09-19): its
+- The Rényi archive's index (users.renyi.hu/~p_erdos, accessed 2026-09-19): its
   papers end in 1989, so [Er94] and [Er99] are not there.
 - The primary sources: [EGT92] pp. 279--284 and 287--288; [Tu90], [BGGPS04],
   [BaTu09] and [CGK16] as their library cards record them.

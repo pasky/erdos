@@ -298,7 +298,7 @@ above place $h(n)$ between $1.3125n$ and $1.4641n+O(1)$. Read depth for
 [BoNi05]: claims checked; Theorem 3's proof read for structure.
 
 **The thread (a pending partial claim and leads, not status).** Nine
-comments, from the discussion page as of 2026-09-18, none adopted into the
+comments, from the discussion page, accessed 2026-09-18, none adopted into the
 site's statement or commentary (which are unchanged since 3 April 2026); the
 claimed refutation of the conjectured lower bound has a claim page under
 the write-up that publishes it,
@@ -351,7 +351,7 @@ question; the discussion thread carries the claimed refutation of the
 conjectured lower bound and its write-up of 27 July 2026, recorded above
 and on the claim page.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures directory and tree at main that day
   (no file 1033); the community database entry as fetched that day.
 - Crossref: the records of doi:10.1002/jgt.3190120216 ([Fa88], with its

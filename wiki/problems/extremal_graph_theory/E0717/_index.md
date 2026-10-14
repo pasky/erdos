@@ -57,8 +57,8 @@ random graph at $p=1-e^{-2}$. The claim page
 records the result, its scope and its acceptance evidence, and the frontmatter
 standing is derived from it. The acceptance evidence is publication in
 Combinatorica (per its Crossref record), the credit of the site's curator,
-Thomas Bloom, and the citing literature found by the search, which contains no
-dispute.
+Thomas Bloom, and the citing literature found by the search of 2026-09-19, which
+contains no dispute.
 
 **Source.** [erdosproblems.com/717](https://www.erdosproblems.com/717),
 accessed 2026-09-19: the problem page (PROVED, with
@@ -153,7 +153,7 @@ theorem, which the paper quotes as
 subdivision of $K_t$; Problem 718). Acceptance evidence: Combinatorica is
 refereed (volume 33, issue 2, April 2013 per the Crossref record); the site's
 curator, Thomas Bloom, marked the problem proved and credits the paper; none of
-the twelve citing papers found by the search disputes or
+the twelve citing papers found by the search of 2026-09-19 disputes or
 sharpens the theorem. Read depth: the statements of Theorems 1.1, 1.2 and 3.1
 (pp. 2 and 4) are checked, and the one-page deduction of Theorem 1.1 from
 Theorem 1.2 was read for structure; the proof of Theorem 1.2 (pp. 4--12) was
@@ -221,7 +221,7 @@ this project has not built, audited or kernel-checked the file, so the claim
 page lists no `formalized` evidence. The site's page, its label and the
 community database do not cite this development.
 
-**Search scope.** None of the routes below found a dispute
+**Search scope (2026-09-19 UTC).** None of the routes below found a dispute
 of Theorem 1.1, a sharper determination of the constant, or a change of
 status.
 

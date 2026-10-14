@@ -36,7 +36,7 @@ $$
 
 and that $f(n) \ll n^{3/2}$ almost surely?
 
-**Formulation.** The site's wording as of 2026-10-07 (page last edited 25
+**Formulation.** The site's wording as accessed 2026-10-07 (page last edited 25
 January 2026). The process is the random greedy triangle packing of $K_n$,
 and $f(n)$ is the number of edges of the terminal triangle-free graph, the
 leave of that packing. The processes for different $n$ are not coupled, so

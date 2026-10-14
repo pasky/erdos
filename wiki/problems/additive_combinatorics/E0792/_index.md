@@ -32,9 +32,9 @@ $$
 
 with $a,b,c\in B$. Estimate $f(n)$.
 
-**Formulation.** The site's wording as of 2026-09-18T15:09Z (page last edited
-23 January 2026). The relation $a+b=c$ is forbidden for all $a,b,c\in B$, the
-case $a=b$ included, so no element of $B$ is twice another. This is the
+**Formulation.** The site's wording as accessed 2026-09-18T15:09Z (page last
+edited 23 January 2026). The relation $a+b=c$ is forbidden for all $a,b,c\in B$,
+the case $a=b$ included, so no element of $B$ is twice another. This is the
 convention of Erdős's condition (27) of 1965, whose indices satisfy
 $1\le j_1\le j_2<j_3\le k$ (printed p. 186), of Alon and Kleitman ("no (not
 necessarily distinct) $a,b,c\in A$ such that $a+b=c$", p. 13) and of Bedert;

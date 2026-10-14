@@ -72,10 +72,10 @@ Corollary 3 of Khadzhiivanov's 1988 account [Kh88]. At $c=1/4$ the property
 holds by that account's Corollary 4. The second question, whether
 $f_c(n)\gg\log n$ for every $c$, is open. It holds for $c\ge1/4$ by the same
 bounds. It is open for every fixed $c<1/4$, where the lower bound Fox and Loh
-derive is exponential in the iterated logarithm. The search whose scope the
-Current assessment records found no source answering the estimate or the
-logarithmic question. This is a bounded negative finding, not a certificate of
-openness.
+derive is exponential in the iterated logarithm. The search dated 2026-09-18 UTC
+whose scope the Current assessment records found no source answering the
+estimate or the logarithmic question. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/80](https://www.erdosproblems.com/80),
 accessed 2026-09-18: the problem page (OPEN, with
@@ -273,7 +273,7 @@ trivial, a book having at most $n-2$ pages), so the order there is
 $\Theta(n)$; the open questions are whether $f_c(n)\gg\log n$ for fixed
 $c<1/4$, and the order of $f_c(n)$ there.
 
-**Search scope.** None of the routes below found a bound
+**Search scope (2026-09-18 UTC).** None of the routes below found a bound
 for fixed $c<1/4$ beyond those above, a proof or disproof of
 $f_c(n)\gg\log n$, or a proof claim.
 

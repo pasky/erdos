@@ -49,7 +49,7 @@ thread on 2026-08-21. It bounds the mean squared gap below by a constant times
 $\min\{\log\frac1{\kappa-1},\log n\}$, where $\kappa$ is the diameter over
 $n^2$. This answers yes for sets of nearly minimal diameter and for dyadically
 non-concentrated families. It reduces the general case without settling it. The
-proof-claims thread had no comment on it as of 2026-10-06.
+proof-claims thread had no comment on it on 2026-10-06.
 
 **Source.** [erdosproblems.com/153](https://www.erdosproblems.com/153), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #153,

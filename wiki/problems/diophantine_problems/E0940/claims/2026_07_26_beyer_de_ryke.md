@@ -74,7 +74,7 @@ count is small, with the remaining parts controlled by the two tail weights.
 
 **Acceptance.** None is recorded. The manuscript is not refereed. The site's
 label was OPEN (page last edited 2025-11-03), and the tab's claim had no
-comments as of 2026-10-06. No independent review is on record, and there is no
+comments on 2026-10-06. No independent review is on record, and there is no
 Lean formalization of the manuscript's own argument. The statement was checked
 at claims level on the source card, but no review of the proof is recorded.
 

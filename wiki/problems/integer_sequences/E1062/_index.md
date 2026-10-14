@@ -116,8 +116,8 @@ that Conjectures.io solution without endorsing it; its thread carries a post of
 independent, unreviewed manuscript that asserts an extremal formula for $f(n)$
 and the transcendence of the limit
 ([[problems/integer_sequences/E1062/claims/2026_09_23_turturean|claim page]], a
-pending full claim). The searches found no refereed publication and no
-erdosproblems.com acceptance, and the formal-conjectures
+pending full claim). The searches of 2026-09-22 and 2026-10-07 found no refereed
+publication and no erdosproblems.com acceptance, and the formal-conjectures
 [statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/1062.lean),
 at that commit, tags the irrationality clause `research open`. Davis's 2026
 paper ([[problems/integer_sequences/E1062/claims/2026_04_19_davis|claim page]],

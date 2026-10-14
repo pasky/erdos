@@ -78,9 +78,9 @@ repository commit of 15 September 2026. The file was first committed in
 August 2026. It declares itself a Lean formalization of a solution to Problem 533. It
 names Balogh, Lenz, Liu, Reiher, Sharifzadeh and Staden as its informal authors
 and Codex and GPT-5.6 Sol as its formal authors. It builds the complex
-Bollobás--Erdős graph of Theorem 1.1 at $p=3$, $\ell=1$. As of 2026-10-07,
-formal-conjectures names it in the `formal_proof` attribute of `erdos_533`,
-while its `lrss_lower` variant ($\delta_3(5)\ge1/12$) keeps proof `sorry`. The
+Bollobás--Erdős graph of Theorem 1.1 at $p=3$, $\ell=1$. On 2026-10-07,
+formal-conjectures named it in the `formal_proof` attribute of `erdos_533`,
+while its `lrss_lower` variant ($\delta_3(5)\ge1/12$) kept proof `sorry`. The
 corpus has not built or audited the file, so it is a link and not evidence.
 
 Proof coverage is statements only: Theorem 1.1, Corollary 1.2 and Theorem 1.4

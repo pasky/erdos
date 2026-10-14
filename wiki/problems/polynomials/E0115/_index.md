@@ -121,7 +121,7 @@ library card records Theorem 1 and its sharpness and does not verify the proof,
 so the paper's proof is unverified in this corpus, and the Lean development is
 unbuilt and unaudited.
 
-Search scope: the site's problem page, the community database entry
+Search scope, 2026-10-07: the site's problem page, the community database entry
 (proved with a Lean marker as of its last update), the formal-conjectures
 statement and the linked `lean-proofs` file at its pinned commit, and the
 library card

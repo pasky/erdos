@@ -95,8 +95,8 @@ These six catalog references are retained as historical bibliography.
 ## Current assessment
 
 On 2026-09-09 the site labeled the problem OPEN with no proof claim. The
-sources below are the results found as of that date: the general subpower
-bound, the special-family papers, and Bhalla's forum announcement of a
+sources below are the results found in a search on that date: the general
+subpower bound, the special-family papers, and Bhalla's forum announcement of a
 conditional note. None of them gives an unconditional general resolution.
 
 The Dartyge--Maynard and Grimmelt--Merikoski statements are cited from

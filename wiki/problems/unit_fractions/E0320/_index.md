@@ -97,7 +97,7 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
   January 1976. Theorems 2 and 3, pp. 603 and 610.
 - [BGMS25] Bettin, S., Grenié, L., Molteni, G. and Sanna, C., A lower bound
   for the number of Egyptian fractions. arXiv:2509.10030v1 (12 September
-  2025); Math. Comp.,
+  2025, the only arXiv version listed on 2026-09-18); Math. Comp.,
   DOI 10.1090/mcom/4190, published online 22 January 2026 (Crossref record;
   no volume or pages assigned in it yet). Theorem 1, p. 2 of the preprint.
   Library home:
@@ -267,7 +267,7 @@ bounded. The exposition presents this as the strategy of [BlEr76b] carried
 out with more care in the quantitative analysis, the 1976 paper having
 applied its induction only to part of the sum. The argument has not been
 checked by this corpus, and no refereed publication or independent review of
-the claim was found.
+the claim was found on 2026-09-18.
 
 **A second claim (pending, not accepted).** A full-proof claim submitted
 2026-07-22 20:16:27 by the account skominers for Scott Duke Kominers and
@@ -310,7 +310,7 @@ reports that most ratios $S(N)/S(N-1)$ are $2$ or close to $1$. The first
 fifteen values were recomputed here by exact enumeration and agree with the
 entry.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 directory listing and tree at the pinned commit (no file); the arXiv
 abstract page of 2509.10030 (v1 only, no journal reference shown) and the

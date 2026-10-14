@@ -120,7 +120,7 @@ solved, and `higher_full_parts` states the $B_r$ question in the intended
 reading as open, all without proof. The corpus has not built it.
 
 Search scope: the site's problem page as exported (last edited 23 March 2026),
-its thread as of 2026-10-07 (the posts of 2025-11-20, 2025-11-22 and
+its thread, accessed 2026-10-07 (the posts of 2025-11-20, 2025-11-22 and
 2026-06-10), the formal-conjectures file, the lean-proofs file and Hughes's
 repository with its README; no submitted forum proof claim and no OpenAI release
 item names this problem. An arXiv search found no posting of

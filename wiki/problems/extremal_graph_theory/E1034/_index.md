@@ -278,7 +278,7 @@ a triangle. With Theorem 2.1, $(\frac16-o(1))n\le h(n)\le(2-\sqrt{5/2}+o(1))n$,
 and the note states that the limit $c_*=\lim h(n)/n$ "remains open".
 
 **The thread (leads with provenance, not status).** Ten posts, from the
-discussion page as of 2026-09-19, none adopted beyond what the commentary
+discussion page, accessed 2026-09-19, none adopted beyond what the commentary
 records:
 
 - 20 October 2025 (the account Quanyu Tang): the announcement of the note
@@ -321,7 +321,7 @@ records:
 refereed or arXiv version of the note, a review of it, a dispute of the
 construction, or a result on $h(n)$ beyond the bounds above.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures file at the pinned commit; the external
   Lean file and the repository's note at the head commit of 15 September
   2026 (GitHub); the community database as fetched 2026-09-19.

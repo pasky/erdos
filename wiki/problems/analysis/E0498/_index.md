@@ -64,7 +64,7 @@ verification has not been reproduced here.
 
 ## Current assessment
 
-Search scope: the problem page, its sole discussion comment, the
+Search scope, 2026-09-05: the problem page, its sole discussion comment, the
 empty exposition and proof-claim listings, the original 1965 journal pages,
 and the exact formal targets with their version records. The site's
 `PROVED (LEAN)` label is recorded as site evidence. The ordinary proved

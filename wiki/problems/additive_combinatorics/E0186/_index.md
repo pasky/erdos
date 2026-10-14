@@ -82,7 +82,7 @@ Bloom, Erdős Problem #186, https://www.erdosproblems.com/186, accessed
   The same construction is recalled in [PhZa24], p. 1, and [CFP23], p. 4.
 - [CFP23] Conlon, D., Fox, J. and Pham, H. T., Homogeneous structures in
   subset sums and non-averaging sets. arXiv:2311.01416v1 (2 November 2023),
-  34 pp.; the search found no later version and no journal
+  34 pp.; the search of 2026-09-18 found no later version and no journal
   record. Theorem 1.6, p. 5. Library home:
   [[../library/additive_combinatorics/conlon_2023_homogeneous_structures_subset_sums_non_averaging/_index|conlon_2023_homogeneous_structures_subset_sums_non_averaging]];
   result page
@@ -253,9 +253,9 @@ coincide (above and on the Theorem 1 page); the non-dividing sets of
 Problem 131 are non-averaging, so Theorem 1 also bounds that problem's
 function, as its result page records.
 
-**Search scope.** The status rests on these routes; none found a bound
-sharper than $N^{1/4+o(1)}$, a dispute of the Pham--Zakharov theorem, or a
-determination of the $o(1)$.
+**Search scope (2026-09-18 UTC).** The status rests on these routes; none found
+a bound sharper than $N^{1/4+o(1)}$, a dispute of the Pham--Zakharov theorem, or
+a determination of the $o(1)$.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures statement directory (no

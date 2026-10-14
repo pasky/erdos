@@ -54,7 +54,7 @@ question. The standing here would follow the curator's ruling if the curator
 reads 'characterise' more narrowly.
 
 **Status.** OPEN, in the site's label (page last edited 16 October 2025). The
-site's proof-claims thread had no claim as of 6 October 2026. The standing in
+site's proof-claims thread had no claim on 6 October 2026. The standing in
 the frontmatter derives from the claim pages. It departs from the label because
 the classification of September 2026 postdates the site's last edit and is
 accepted here on its Lean proof. The site's remarks, read 13 October 2026,

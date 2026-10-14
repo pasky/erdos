@@ -324,8 +324,8 @@ qualify the status.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit and the external Lean file
-  at the repository head through the GitHub API; the community database as
-  of 2026-09-18.
+  at the repository head through the GitHub API; the community database, read
+  2026-09-18.
 - Crossref: the records of [dSHa94] and the bibliographic queries for
   [ANR95] and [ANR96].
 - The first author's publication list and the [ANR95] author-version PDF

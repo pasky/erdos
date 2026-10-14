@@ -109,7 +109,7 @@ the commenter names as GPT-5.6 Sol, alleging five repairable defects in the v1
 proof, among them a mismatch between the auxiliary graph and the graph
 analyzed in the second-neighborhood step and an induction applied to a
 subgraph that may contain isolated vertices; the commenter wrote that the
-allegations had not been checked by hand. Searches found
+allegations had not been checked by hand. Searches of 9 September 2026 found
 no reply, no repair and no later arXiv version; the arXiv record listed only
 v1 on 2026-10-07. On 9 September 2026 the proof claim had two comments,
 both of 27 July 2026: the first author's remark that this may be the only full

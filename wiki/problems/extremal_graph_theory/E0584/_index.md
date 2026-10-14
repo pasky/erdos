@@ -310,7 +310,7 @@ outcomes of other readings, recorded beside it.
   records it as rejected.
 - Discussion, 24 November 2025: a reference-key repair, since addressed.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
 directory (no file 584); the Crossref records for
 doi:10.1016/j.jctb.2007.12.003 and, by bibliographic query, for [DER92]; the

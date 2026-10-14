@@ -125,5 +125,5 @@ Lean formalization posted as a gist by Jeremy Tan Jie Rui on 27 April 2026 and
 Boris Alexeev's re-hosting of it, first committed on 7 May 2026, are disclosed
 on the claim page; the site credits Tijdeman, and a later proof of a credited
 result is disclosed on the credited page rather than given a page of its own.
-Search scope: the site page and its thread, as of 2026-10-07; no wider
+Search scope: the site page and its thread, accessed 2026-10-07; no wider
 literature search was made.

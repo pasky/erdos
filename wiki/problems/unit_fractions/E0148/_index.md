@@ -252,7 +252,7 @@ $2^{k(1-\varepsilon)}$, close to the upper bound, and corresponds to the slope
 $\log\log F(k)/k$ tending to $\log2$, which is open. Elsholtz--Planitzer's
 Conjecture 1 (for fixed $k$ and $m$, $f_k(m,n)\ll\exp(C_{m,k}\log n/\log\log n)$
 as $n\to\infty$) concerns the dependence on $n$ and says nothing about $F(k)$.
-The search recorded below found no source that improved either
+The search of 2026-09-17 recorded below found no source that improved either
 side or gave an asymptotic formula; the release's Corollary 1.2 of 25 September
 2026 improves the lower side.
 
@@ -292,7 +292,7 @@ and with OEIS A006585, which the site links together with A076393. A
 computation of finitely many values settles nothing in an estimate
 question, so it has no claim page.
 
-**Search scope.** The status rests on these routes; none
+**Search scope (2026-09-17 UTC).** The status rests on these routes; none
 had found a proof of an asymptotic formula, an improved bound or a proof claim.
 The release's manuscript of 25 September 2026, recorded under Claims, postdates
 this search.

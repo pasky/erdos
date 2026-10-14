@@ -157,8 +157,8 @@ catalog's repository on 2026-09-27; the default branch's `szabo_strong`
 statement is identical, and the replay reproduced the pinned commit, which the
 site builds from a public catalog commit and an audit patch.
 
-Search scope: erdosproblems.com (the page, its discussion thread and its
-proof-claims thread), the community database,
+Search scope, 2026-09-27 and 2026-09-28: erdosproblems.com (the page, its
+discussion thread and its proof-claims thread), the community database,
 conjectures.io (results listing, the record, its solution page and Lean
 download, the problem page and the papers directory), the conjectures-io task
 and contribution repositories, the formal-conjectures catalog (`272.lean`, its

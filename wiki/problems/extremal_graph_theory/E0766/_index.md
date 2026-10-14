@@ -156,8 +156,8 @@ Problem #766, https://www.erdosproblems.com/766, accessed 2026-09-18.
   reference [10] of [BDS21]; it is cited here only as the question [BDS21]
   answers.
 
-**Formalization.** None. The formal-conjectures repository holds no file
-`ErdosProblems/766.lean`, neither as of 2026-09-18 nor as of 2026-10-07;
+**Formalization.** None. The formal-conjectures repository held no file
+`ErdosProblems/766.lean`, neither on 2026-09-18 nor on 2026-10-07;
 the site's page shows no formalized statement; the community database
 records the problem open (last update 31 August 2025), unformalized, with
 no formalized statement, and an OEIS field "possible" (snapshot of
@@ -312,7 +312,7 @@ estimates over the whole range.
 **Search scope.** None of the routes below found a source
 estimating $f(n;k,l)$ in the range or deciding strict monotonicity.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-18; the formal-conjectures tree (no file 766); the community
   database entry.
 - arXiv API: the searches `(abs:unavoidable AND abs:Turán) OR abs:"minimum

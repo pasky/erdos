@@ -55,8 +55,8 @@ argument, checked here. The 1973 chapter is a contribution to an edited
 proceedings volume, and no record found documents its refereeing. So the chapter
 is the source, not acceptance evidence. The external Lean formalization,
 inspected statically at a pinned revision (below), is recorded on the claim page
-and is not acceptance evidence. No dispute was found. The (LEAN) suffix is a
-catalog label. Nothing was built or kernel-checked here.
+and is not acceptance evidence. No dispute was found on 2026-09-18. The (LEAN)
+suffix is a catalog label. Nothing was built or kernel-checked here.
 
 **Source.** [erdosproblems.com/537](https://www.erdosproblems.com/537),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label
@@ -174,7 +174,7 @@ independently audited here, no bridging statement exists, and no local
 kernel credit is claimed. The community database records
 `formal_status` Lean and no formal-proof URL.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of the construction, a published account by Ruzsa, or a second
 source.
 

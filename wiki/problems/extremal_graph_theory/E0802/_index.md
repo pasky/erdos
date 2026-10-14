@@ -329,8 +329,8 @@ bound better than Shearer's; the release manuscript of 25 September 2026
 postdates the search.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory listing and tree as of 2026-09-18 (no file
-  802); the community database as of 2026-09-18.
+  formal-conjectures directory listing and tree, read 2026-09-18 (no file
+  802); the community database, read 2026-09-18.
 - The primary sources: [AEKS81] pp. 313--315 and p. 317 (the references);
   [Al96b] pp. 1--2 and p. 8 (the references).
 - Crossref: bibliographic queries for [AEKS81] (top record DOI

@@ -176,7 +176,7 @@ was announced in the site's forum on 2026-04-23; since it declares itself a
 formalization of Grzesik's proof, it is a formalization link on
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik's claim page]]
 and gives no `formalized` evidence; the community database records
-`formal_status` Lean since 2026-04-23 (as of 2026-10-06).
+`formal_status` Lean since 2026-04-23 (read 2026-10-06).
 
 <!-- BEGIN problem library links -->
 

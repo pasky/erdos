@@ -71,7 +71,7 @@ not mean that every pair of terms is coprime. A perfect power means $y^\ell$
 with an integer exponent $\ell\geq2$. The full question was open in general on
 Bloom's catalog as accessed 2026-09-04. It is verifiable in the site's
 sense: a single product that is a perfect power would settle it, while a
-negative answer needs a proof. Search scope: the
+negative answer needs a proof. Search scope, 2026-09-05 and 2026-09-06: the
 primary sources and the site discussion, for a full resolution of the coprime
 positive-progression question; the Annals and arXiv versions of Bennett–Siksek's
 Theorem 2, with the Annals publisher record, for its prime-exponent restriction

@@ -29,7 +29,7 @@ $$
 \mathrm{ex}(n;C_{2k})\gg n^{1+\frac{1}{k}}.
 $$
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 18
+**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 18
 January 2026). $\mathrm{ex}(n;C_{2k})$ is the largest number of edges of a graph
 on $n$ vertices with no cycle of length $2k$ as a subgraph. The question is
 asked for every fixed $k\ge3$, with the implied constant allowed to depend on
@@ -58,9 +58,9 @@ and $\nu=1$ for even $k$. It comes from Lazebnik, Ustimenko and Woldar's 1995
 paper (the site cites their 1999 paper for history). It is of a smaller order
 than $n^{1+1/k}$ for every $k\ge4$, and at $k=3$ it gives the instance itself.
 The parity term is the paper's own (Corollary 3.3), and Chung's 1997 survey
-quotes the bound without it. The search whose scope the Current assessment
-records found no proof or disproof for any $k$ outside $\{3,5\}$. This is a
-bounded negative finding, not a certificate of openness.
+quotes the bound without it. The search dated 2026-09-18 UTC whose scope the
+Current assessment records found no proof or disproof for any $k$ outside
+$\{3,5\}$. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/572](https://www.erdosproblems.com/572),
 accessed 2026-09-18: the problem page (labeled OPEN; last edited 18 January 2026), its three-comment discussion thread and
@@ -157,7 +157,7 @@ of formal-conjectures, at the pinned commit, declares
 under `category research open, AMS 5`, with proof `sorry`; its docstring cites
 [Er64c], [BoSi74] and [LUW95]. It is a statement; the corpus has not built or
 audited the file. The site's page shows the statement as formalized, and the
-community database (teorth/erdosproblems, `data/problems.yaml`, as of
+community database (teorth/erdosproblems, `data/problems.yaml`, read
 2026-09-18) records the problem as open (last update 31 August 2025), the
 statement formalized since 9 September 2026, and no formal proof.
 
@@ -306,7 +306,7 @@ $K_{2t+1}$; this forces an interval of even cycle lengths at the Erdős--Gallai
 threshold and says nothing about $\mathrm{ex}(n;C_{2k})$ for a single $k$.
 Adjacent; not in the library.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 construction reaching the exponent $1+1/k$ for a $k$ outside $\{2,3,5\}$, a
 disproof, or a proof claim.
 

@@ -107,7 +107,7 @@ Ulam could not guess the order of magnitude of $f(n)$ (his sentence is quoted
 under Origin below), adds that they had no better guess for $F(n)$, and
 reports from [Er78] Howorka's unreferenced theorem that $F(n)>n^{\omega(n)}$
 for some $\omega(n)\to\infty$ when all subsets of one size receive the same
-color. As of 2026-09-18 the thread's ten comments (18 March 2026) concerned
+color. On 2026-09-18 the thread's ten comments (18 March 2026) concerned
 the AI-assisted manuscript and chat record below, the site's commentary did
 not mention them, and the proof-claim tab was empty; the partial claim listed
 on the tab in October 2026 is also below. The community database record of

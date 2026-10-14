@@ -53,7 +53,7 @@ Alexeev's repository, one of them avoiding Pollack's theorem, are
 
 ## Current assessment
 
-The site's formulation (as of 2026-10-07, with its commentary last edited 9
+The site's formulation (accessed 2026-10-07, with its commentary last edited 9
 April 2026) asks whether infinitely many $n$ have $n-k^2$ prime for every $k$
 coprime to $n$ with $k^2<n$. The answer is no: Theorem 6.1 of [APSSV26b] proves,
 for each fixed $a\geq1$, that only finitely many $n$ have $n-ak^2$ prime for

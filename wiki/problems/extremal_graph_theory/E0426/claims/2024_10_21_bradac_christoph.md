@@ -72,7 +72,7 @@ that Bradač and Christoph proved the answer is no, with
 $f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The site's label was
 DISPROVED (LEAN) (site export of 2026-09-04). On 2026-10-07 the public page's
 markup showed no label text. The community database (teorth/erdosproblems,
-`data/problems.yaml` as of 2026-09-28) records status "disproved (Lean)", set by
+`data/problems.yaml`, read 2026-09-28) records status "disproved (Lean)", set by
 its commit of 20 April 2026, with `formal_status` Lean.
 
 Refereed: D. Bradač and M. Christoph, Unique subgraphs are rare, Proc. Amer.

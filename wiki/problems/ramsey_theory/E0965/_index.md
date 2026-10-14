@@ -93,8 +93,8 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
 - [Ko16] Komjáth, P., A certain 2-coloring of the reals. Real Anal. Exchange
   41 (2016), no. 1, 227--231, doi:10.14321/realanalexch.41.1.0227 (the
   publisher's record, accessed 2026-09-18, gives volume 41, issue 1, first page
-  227). Not held: no open copy was found; no author copy was found. Quoted
-  second-hand.
+  227). Not held: no open copy was found on 2026-09-18; no author copy was
+  found. Quoted second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
   journal or arXiv record found on 2026-09-18. Theorem 3.1, p. 3; Corollary
@@ -252,7 +252,7 @@ exists; the community database lists `formal_status` Lean as of its last update,
 of 23 August 2026, and no formal-proof URL. The file is a `formalization` link
 on Komjáth's claim page and gives no `formalized` evidence.
 
-**Search scope.** None of the routes below found a dispute of
+**Search scope (2026-09-18 UTC).** None of the routes below found a dispute of
 the disproof, a publication of the Soukup--Weiss manuscript, or an open copy of
 [Ko16].
 

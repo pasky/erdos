@@ -80,7 +80,7 @@ the disproof. The file proves the density conjunct rather than exploiting it,
 identifies any `d` satisfying it with the density by uniqueness of limits, and
 reaches the contradiction through an elementary lemma excluding
 $d\sim c/(\log t)^{p}$ for every $c>0$ and real $p$. The record's solution page
-(second link) holds the file, as of 2026-09-22, as its single source block:
+(second link) holds the file, read 2026-09-22, as its single source block:
 36,197 lines and 1,721,167 bytes, with no import statement, inlining a
 Mertens-type prime reciprocal estimate adapted from the Apache-2.0 Lean project
 PrimeNumberTheoremAnd, whose license it reproduces. This corpus rebuilt and

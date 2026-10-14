@@ -195,7 +195,7 @@ open in the sources cited and is not the site's question.
 [[problems/ramsey_theory/E0553/_index|Problem 553]] compiles the same
 theorem for the ratio question.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of Theorem 3.2, a retraction, or a sharper determination bearing on
 the question.
 

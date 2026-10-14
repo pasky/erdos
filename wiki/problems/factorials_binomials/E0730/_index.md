@@ -55,8 +55,8 @@ Bloom, Erdős Problem #730, https://www.erdosproblems.com/730.
   [[../library/factorials_binomials/erdos_1975_prime_factors/_index|erdos_1975_prime_factors]].
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/29a95baef275ca85c144c248cb1d151803ecbeb1/FormalConjectures/ErdosProblems/730.lean)
-(as of 2026-10-07), tagged solved, with the pair set written as pairs $n<m$;
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/29a95baef275ca85c144c248cb1d151803ecbeb1/FormalConjectures/ErdosProblems/730.lean),
+  tagged solved, with the pair set written as pairs $n<m$;
 it names as the problem's formal proof Will Blair's Lean development, which
 the Palomar registry verified against that statement on 2026-08-22, and it
 records the pairs $(87,88)$ and $(607,608)$ and the non-consecutive pair

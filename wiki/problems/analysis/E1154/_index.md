@@ -77,9 +77,9 @@ hypothesis, that subfields of every dimension $\alpha \in [0,1]$ exist, which
 is the ground of the site's label and of the accepted claim: the existence is
 consistent with ZFC, so it cannot be disproved there, while its provability in
 ZFC alone remains open. The search behind this account covers the site's
-problem page, discussion thread and proof-claims page as of 2026-10-07 and the
-arXiv record of the one preprint posted against the problem; within that scope,
-no refereed work beyond the references above appears.
+problem page, discussion thread and proof-claims page, accessed 2026-10-07, and
+the arXiv record of the one preprint posted against the problem; within that
+scope, no refereed work beyond the references above appears.
 
 Two proof claims stand on the site's proof-claims page. The first, of
 2026-07-20 by Yongxi Lin, is a summary on the proof-claims page with no

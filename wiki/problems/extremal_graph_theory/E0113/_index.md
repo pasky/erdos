@@ -156,7 +156,7 @@ $\operatorname{ex}(n,H)=O(n^{2-1/(4r)})$ for such graphs. At $r=2$, these
 are respectively the conjectured $O(n^{3/2})$ bound and the reported
 $O(n^{15/8})$ bound. This is historical context cited through Janzer; this
 corpus has not inspected the Alon--Krivelevich--Sudakov primary paper
-and proof, and no best-current-bound claim as of 2026 is made.
+and proof, and no best-current-bound claim is made.
 
 ## Known Results
 

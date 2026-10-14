@@ -205,7 +205,7 @@ the paper's Theorems 1--3 and 12. Nothing is built or kernel-checked here
 and no local credit is claimed. The community database lists `formal_status`
 Lean, with the update date 2 February 2026, and no formal-proof URL.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-18 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures
 file at the pinned commit; the commit history of the external Lean file
 and the file at its last commit; the arXiv abstract

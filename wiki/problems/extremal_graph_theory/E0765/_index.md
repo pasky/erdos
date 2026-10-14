@@ -137,7 +137,7 @@ source-supported leading asymptotic. The site's discussion thread holds,
 besides the formalization announcement of 16 May 2026 recorded under
 Progress, comments pointing at the Ma--Yang paper, at a 2024 preprint on
 extremal graphs found by search methods (arXiv:2311.03583) and at Bondy and
-Murty's textbook (thread as of 2026-10-07); none bears on the leading
+Murty's textbook (thread, accessed 2026-10-07); none bears on the leading
 asymptotic.
 
 ## Progress

@@ -283,7 +283,7 @@ listed under Linked library material below relates Ramsey numbers to a matrix
 Zarankiewicz problem and states no bound on $\mathrm{ex}(n;K_{r,r})$; it is
 related activity, not progress.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the pinned
 commit; the Crossref records for Brown's paper (doi:10.4153/CMB-1966-036-2) and
 for the Kollár--Rónyai--Szabó and Alon--Rónyai--Szabó papers (bibliographic

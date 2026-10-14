@@ -47,8 +47,8 @@ One pending full claim is recorded,
 that the limit is one third]]. It is a Lean 4 development, posted on 2026-07-15
 and entered the same day on the site's proof-claims thread. It states that the
 maximal exact order over bases of order at most $r$ is attained and that
-$h(r)/r^2\to1/3$. The author reports that it uses the three standard axioms. As
-of 2026-10-06 the thread showed no comments on it. The development is not built
+$h(r)/r^2\to1/3$. The author reports that it uses the three standard axioms. On
+2026-10-06 the thread showed no comments on it. The development is not built
 or audited in this corpus. The published bounds are $1/3\le\liminf h(r)/r^2$
 (Grekos [Gr88]) and $\limsup h(r)/r^2\le1/2$ (Nash [Na93]).
 

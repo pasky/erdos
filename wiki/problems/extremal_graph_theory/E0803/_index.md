@@ -142,7 +142,7 @@ Erdős Problem #803, https://www.erdosproblems.com/803, accessed 2026-09-18.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9ec36f328273f8c5153bf2e6dc09c51ba68987a8/FormalConjectures/ErdosProblems/803.lean),
 file `ErdosProblems/803.lean`, added on 2026-09-20 (no file existed on
-2026-09-18). As of that commit its `erdos_803` states the site's question with
+2026-09-18). At that commit its `erdos_803` states the site's question with
 absolute constants, answered `False`, in the category `research solved`, and
 carries a `formal_proof` attribute naming theorem `not_erdos_803` of
 [Erdos803.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos803.lean)

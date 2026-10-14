@@ -166,7 +166,7 @@ $\min\{x_n-x_1\}=(e-1)n+o(n)$ fails for large $n$. The companion question,
 [[problems/unit_fractions/E0284/_index|Problem 284]], the first of Croot's
 pair, passes to every $k$ by a splitting step recorded there.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures tree (no file
 when searched; `ErdosProblems/286.lean` was added 2026-09-20, see
 Formalization); the arXiv

@@ -161,7 +161,7 @@ OEIS A092671 records a conjectured characterization of $A$ (verified to
 $2\cdot10^5$ by its contributors) in terms of the largest prime-power
 divisor; it is a data observation, not a theorem.
 
-**Search scope.** The site's problem, discussion and
+**Search scope (2026-09-17 UTC).** The site's problem, discussion and
 proof-claim pages; the community database record; the
 formal-conjectures directory; the arXiv listing for
 math/9811112 (one version; journal reference as above); the Crossref
