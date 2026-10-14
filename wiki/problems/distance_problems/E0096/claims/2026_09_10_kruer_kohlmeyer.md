@@ -110,14 +110,14 @@ proof, so no `formalized` evidence is listed.
 **Consequence for Problem 97.** The site's remarks record that a positive answer
 to [[problems/distance_problems/E0097/_index|Problem 97]] for $k+1$ equidistant
 vertices would give, by induction, at most $kn$ unit distances here, and that a
-positive answer here would follow from Problem 97. In the other direction,
+positive answer here would follow from Problem 97. By the contrapositive,
 Theorem 1.1 with $d=13$ gives a set $V$ in strictly convex position with
 $u(V)\ge\frac{13}{4}|V|>3|V|$; deleting, one at a time, a point with at most
 three others at distance one removes at most three unit pairs per deleted point,
 so the process cannot empty $V$, and the nonempty set that survives is in
 strictly convex position with at least four others at distance one from each of
-its points, a counterexample to Problem 97; $d=4k$ gives the same with $k$ in
-place of four. Kruer and Kohlmeyer's explanation does not state this
+its points, a counterexample to Problem 97; $d=4k-3$ gives the same with $k\ge2$
+in place of four. Kruer and Kohlmeyer's explanation does not state this
 consequence, so the project claims it as its own, pending review, on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]]
 under Problem 97; Kruer, Kohlmeyer and Price state that strictly convex sets

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 97, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-14T00:16:09Z
+updated: 2026-10-14T00:23:36Z
 ---
 
 # problems/distance_problems/E0097/claims
@@ -18,8 +18,8 @@ polygon refutes the question.
 
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|2026_10_14_plasma_ai]]: The project deduces a counterexample from Kruer and Kohlmeyer's accepted
 disproof of Problem 96: deleting points with at most three others at distance
-one from their strictly convex set with $13/4$ unit pairs per point leaves a
-convex polygon whose every vertex has four others at distance one. It awaits
-review.
+one from their strictly convex set with at least $13/4$ unit pairs per point
+leaves a convex polygon each of whose vertices has at least four others at
+distance one. It awaits review.
 
 ***

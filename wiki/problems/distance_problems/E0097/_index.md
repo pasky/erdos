@@ -90,8 +90,8 @@ frontmatter standing is claimed through the two, not solved.
 The site's remarks tie this problem to
 [[problems/distance_problems/E0096/_index|Problem 96]]: a positive answer here
 for $k+1$ equidistant vertices gives, by induction, at most $kn$ unit distances
-among $n$ points in convex position. Conversely, the accepted disproof of
-Problem 96 by Kruer and Kohlmeyer on
+among $n$ points in convex position. By the contrapositive, the accepted
+disproof of Problem 96 by Kruer and Kohlmeyer on
 [[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]]
 yields a counterexample here: their construction with $d=13$ has more than three
 unit pairs per point, and deleting points with at most three others at distance
