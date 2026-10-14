@@ -566,9 +566,18 @@ against the statement the problem page shows, the modified Statement where there
 is one: a theorem of the whole statement is `full`, one on a narrower range is
 `partial`, and the claim value follows the statement's polarity. A result that
 answers only the site's wording keeps its claim page with `status` `rejected`
-and the reason "answers the site's wording, not the modified Statement". That a
-problem is falsifiable or verifiable is a body note on an open problem, not a
-claim.
+and the reason "answers the site's wording, not the modified Statement". A
+result that answers only a variant, a reading or version of the problem that the
+problem page sets aside, settles no instance of the problem. Such a result
+submitted to the site as a claim keeps its claim page with `status` `rejected`,
+the reason "answers a variant, not the Statement", and a note that its
+mathematics answers the named variant and so does not settle the problem; every
+claim the site shows has a claim page, rejected if need be, and which of them a
+presentation of the corpus displays is the presentation's choice. A result never
+submitted as a claim, such as a theorem of the literature, has no claim page;
+the problem page records it among its known results as answering the variant.
+That a problem is falsifiable or verifiable is a body note on an open problem,
+not a claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow
@@ -806,7 +815,10 @@ not quoted. A rejected claim page that answers the site's wording rather than a
 modified Statement opens its `desc` with the reason: "Correct, but answers the
 site's wording (...), not the modified Statement" when the rejected result is
 itself accepted (reviewed, refereed or formalized), and "Answers the site's
-wording (...), not the modified Statement" otherwise.
+wording (...), not the modified Statement" otherwise. A rejected claim page that
+answers a variant opens its `desc` the same way, with "Correct, but answers a
+variant (...), not the Statement (...)" or "Answers a variant (...), not the
+Statement (...)", the parentheses naming the variant and the page's reading.
 
 ### Library
 
