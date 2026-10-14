@@ -99,7 +99,7 @@ claims the stronger bound of seventeen cells: every counterexample would need
 at least eighteen. It is the site's one proof claim, submitted 2026-08-17, and
 is recorded as claimed on
 [[problems/covering_systems/E0274/claims/2026_08_17_itabe|its claim page]].
-Its exact release, includes a complete Lean 4
+Its exact release includes a complete Lean 4
 formalization, but neither the mathematical proof nor the formalization has
 been independently verified in this repository, and no Lean build has been
 run here.

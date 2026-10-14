@@ -49,7 +49,7 @@ from the claim page, and the corpus did not build them.
 
 ## Current assessment
 
-The site's formulation asks for the growth rate of
+The site's formulation (accessed 2026-09-04) asks for the growth rate of
 $z(S_n)$, the largest cochromatic number of a graph embeddable on the orientable
 surface of genus $n$. It is $\sqrt n/\log n$ up to constants:
 [[problems/graph_coloring/E0759/claims/1997_11_01_gimbel_thomassen|Gimbel and Thomassen 1997]],

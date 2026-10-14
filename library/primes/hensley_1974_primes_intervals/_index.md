@@ -41,7 +41,7 @@ printed p. 375 and each later one a two-page spread of the printed article
 (PDF p. $n\ge2$ carries printed pp. $2n+372$ and $2n+373$, so the Theorem
 on printed p. 380 is on PDF p. 4 and Lemma 5 on printed p. 383 on PDF
 p. 5), image-only with no text layer, read on rendered page images at 100
-dpi. Provenance: downloaded (11:01 UTC) from the ICM digital
+dpi. Provenance: downloaded from the ICM digital
 library address that OEIS entry A023193 links,
 <https://matwbn.icm.edu.pl/ksiazki/aa/aa25/aa2548.pdf> (HTTP 200, one
 request); 6,378,062 bytes. No copyright or license line is printed on the scan's

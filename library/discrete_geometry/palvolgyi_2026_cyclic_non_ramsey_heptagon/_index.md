@@ -30,10 +30,9 @@ the author has not verified; every appendix page carries a header saying so.
 
 The retained
 [folder-name PDF](palvolgyi_2026_cyclic_non_ramsey_heptagon.pdf) is arXiv's
-PDF of v1, fetched from the record <https://arxiv.org/abs/2609.23327v1> on
-7 October 2026; the record also serves the TeX source and an HTML rendering.
-The main text is three pages (pp. 1–3); the
-appendix fills pp. 4–22. The statements below are v1's.
+PDF of v1, fetched from the record <https://arxiv.org/abs/2609.23327v1>; the
+record also serves the TeX source and an HTML rendering. The main text is three
+pages (pp. 1–3); the appendix fills pp. 4–22. The statements below are v1's.
 
 ## Contents
 

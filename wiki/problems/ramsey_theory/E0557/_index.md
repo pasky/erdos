@@ -83,7 +83,7 @@ accessed 2026-09-05 (page last edited 2 September 2026, labeled PROVED
 (FORMALIZED), source key [ErGr75]) and 2026-10-07 (page last edited 7
 September 2026, source keys [ErGr75, p. 516] and [ReSt26], the site's key
 for Reed and Stein's arXiv:2609.05417), together with its discussion
-thread of eight comments and its empty proof-claim tab. Cite as: T. F.
+thread of eight comments; its proof-claim tab was empty. Cite as: T. F.
 Bloom, Erdős Problem #557, https://www.erdosproblems.com/557, accessed
 2026-10-07.
 
@@ -91,7 +91,7 @@ Bloom, Erdős Problem #557, https://www.erdosproblems.com/557, accessed
 proved and formalized through the proof of #548, and the community database
 lists the state proved (Lean) as of its last update on 3 September 2026. The
 site records no formalized statement, and formal-conjectures has no file
-`ErdosProblems/557.lean` (main). The underlying sharp
+`ErdosProblems/557.lean` (main on 2026-10-07). The underlying sharp
 bound appears in the
 [pinned formal source](https://github.com/tadamcz/erdos548/blob/3766491b9d9c9f00e05fde4eb004fe71af1452d1/Erdos548/Resolutions/Erdos548_192usd_21h.lean)
 of that proof; no separate formalization or Comparator target for #557

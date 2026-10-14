@@ -60,10 +60,9 @@ that reproves all three statements (claimed). [TKS26] is the only refereed
 publication of either answer.
 
 **Source.** [erdosproblems.com/741](https://www.erdosproblems.com/741), accessed
-2026-10-07 (page last edited 2 May 2026; empty
-proof-claim tab; six thread posts between 2026-03-31 and 2026-04-24). Cite
-as: T. F. Bloom, Erdős Problem #741,
-https://www.erdosproblems.com/741.
+2026-10-07 (page last edited 2 May 2026; six thread posts between 2026-03-31
+and 2026-04-24); its proof-claim tab was empty. Cite as: T. F. Bloom, Erdős
+Problem #741, https://www.erdosproblems.com/741.
 
 **References.**
 

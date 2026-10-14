@@ -53,7 +53,8 @@ sparse neighbourhoods: bounds and applications. J. Combin. Theory Ser. B 155
 (2022), 278-317.
 
 **Edition read.** The journal version is J. Combin. Theory Ser. B 155
-(2022), 278--317, DOI 10.1016/j.jctb.2022.01.009 (Crossref record read). The copy read for this card
+(2022), 278--317, DOI 10.1016/j.jctb.2022.01.009 (Crossref record read
+2026-09-19). The copy read for this card
 is the arXiv preprint arXiv:1810.06704v1 (15 October 2018; its comment says
 "Submitted for publication in July 2016"), 27 pages, so the locators and
 labels below are the preprint's; the journal text was not compared. Read

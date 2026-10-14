@@ -42,7 +42,7 @@ on p. 2, read on the page image; Conjecture 1.1, Theorem 1.2 and the
 footnote on p. 1 (page image); Lemma 2.1 on p. 2 (page image); the proof on
 pp. 2--6 (text layer). Published in Electron. J. Combin. 24 (2017), no. 4,
 Paper 4.9, 8 pp., doi:10.37236/7167 (published 6 October 2017; Crossref
-record read); the journal text was compared for Theorem 1.3
+record read on 2026-09-18); the journal text was compared for Theorem 1.3
 and its proof only, as the source digest records. The edition
 is identified in the
 [[extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/_index|source digest]].

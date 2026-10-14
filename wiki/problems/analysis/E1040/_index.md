@@ -72,14 +72,14 @@ https://www.erdosproblems.com/1040.
 - [Fe26] T. Feng et al, Semi-Autonomous Mathematics Discovery with Gemini: A
   Case Study on the Erdős Problems. arXiv:2601.22401 (2026).
 
-**Formalization.** No statement in formal-conjectures; a pull
+**Formalization.** On 2026-10-07 formal-conjectures had no statement; a pull
 request proposing one (number 5300), marked research solved and pointing to
-Gessel's Lean proof, was opened on 6 September 2026 and was open on 2026-10-07.
+Gessel's Lean proof, was opened on 6 September 2026 and was still open that day.
 The claimant-run Lean developments are described on the claim pages.
 
 ## Current assessment
 
-The site's formulation asks two things of $\mu(F)$, the
+The site's formulation (accessed 2026-09-04) asks two things of $\mu(F)$, the
 infimum of the area of $\{z:|f(z)|<1\}$ over monic $f$ with all zeros in a
 closed infinite $F\subseteq\mathbb C$: whether $\mu(F)$ is determined by the
 transfinite diameter of $F$, and in particular whether $\mu(F)=0$ whenever that

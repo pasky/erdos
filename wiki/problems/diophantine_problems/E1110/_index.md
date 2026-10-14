@@ -79,7 +79,7 @@ proof named.
 
 ## Current assessment
 
-The site's formulation poses two questions for coprime
+The site's formulation (accessed 2026-09-04) poses two questions for coprime
 $p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$: what can be said about the density of
 the non-representable numbers, and whether there are infinitely many coprime
 non-representable numbers. Both questions are the ones Erdős and Lewin put

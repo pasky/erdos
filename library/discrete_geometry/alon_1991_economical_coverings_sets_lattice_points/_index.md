@@ -45,7 +45,7 @@ asks whether the log n factor is necessary.
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>. The
 copy read for this card is the author's manuscript, which prints no notice,
 from the author's publications page
-(https://web.math.princeton.edu/~nalon/PDFS/publications.html),
+(https://web.math.princeton.edu/~nalon/PDFS/publications.html, read 2026-10-02),
 which states no terms; the term is unstated.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0798/_index|#798]]:

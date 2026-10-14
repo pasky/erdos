@@ -21,7 +21,7 @@ five-page PDF held by its library source card,
 conditional route. It is not an independent review and does not change
 Problem 976's status or assign a verification tier. The standard Gauss lemma
 cited by the source is used as an external algebraic input for the final
-$\mathbb Z[x]$ irreducibility transfer; its cited book was not reread here.
+$\mathbb Z[x]$ irreducibility transfer; its cited book was not read here.
 
 ## Statement
 

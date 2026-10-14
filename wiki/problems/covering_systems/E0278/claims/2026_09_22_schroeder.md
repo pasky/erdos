@@ -135,7 +135,7 @@ argues hardness for related formulations; the second question is Simpson's.
 
 **Standing.** Claimed: the manuscript is a Zenodo preprint with no journal
 publication, referee report or curator acceptance located; the site labeled
-the problem OPEN (page last edited 20 January 2026). The Zenodo publication date, 2026-09-22, gives the page its date. The
-Lean companion sits inside the archive, and this corpus has not built or
-audited it, so it gives no `formalized` evidence; it is described and not
-linked as a formalization.
+the problem OPEN (page last edited 20 January 2026). The Zenodo publication
+date, 2026-09-22, gives the page its date. The Lean companion sits inside the
+archive, and this corpus has not built or audited it, so it gives no
+`formalized` evidence; it is described and not linked as a formalization.

@@ -27,7 +27,7 @@ Chen, Yong-Gao and Dai, Li-Xia, Sequences with bounded l.c.m. of each pair of
 terms. {III}. Acta Arith. (2007), 125-133.
 
 The paper is Acta Arithmetica 128 (2007), no. 2, 125--133, DOI
-10.4064/aa128-2-3 (Crossref record read). The retained
+10.4064/aa128-2-3 (Crossref record read 2026-09-18). The retained
 folder-name PDF is the publisher's 9-page file; printed p. $n$ is PDF
 p. $n-124$, and the text layer is clean. Read status: claims checked for
 Theorem 1 and Corollary 1, read clause by clause on the page image of

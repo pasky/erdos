@@ -14,8 +14,9 @@ updated: 2026-10-08T14:37:51Z
 2018), 7 pages, read in the text layer. The paper appeared as a chapter of *The
 Mathematics of Various Entertaining Subjects, Volume 3: The Magic of
 Mathematics* (J. Beineke and J. Rosenhouse, eds.), Princeton University Press,
-2019, pp. 213--221 (the arXiv journal reference and the Crossref records); the
-published chapter was not compared, and the locators here are the preprint's.
+2019, pp. 213--221 (the arXiv journal reference and the Crossref records, read
+2026-09-18); the published chapter was not compared, and the locators here are
+the preprint's.
 
 ## Statement
 

@@ -84,7 +84,7 @@ site, is that $o(N^2)$ fails once $\ell$ grows like $\epsilon\log N$.
 with the Gowers and Rankin bounds, cited from the literature in the paper.
 
 **Acceptance.** Refereed: the paper appeared in Random Structures and
-Algorithms, volume 58, issue 3. Its Crossref record, which was read, gives the
+Algorithms, volume 58, issue 3. Its Crossref record, read 2026-10-07, gives the
 online publication date as 15 December 2020. The arXiv record lists no journal
 reference, and the library card does not cite the journal version. Reviewed: the
 site's curator, Thomas Bloom, records the answer as yes in the problem page's

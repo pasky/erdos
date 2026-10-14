@@ -32,7 +32,7 @@ of cubic graphs. Bull. Lond. Math. Soc. 54 (2022), no. 6, 2135-2150.
 The copy read for this card is the arXiv version 2110.01897v2 (23 April
 2023; 15 pages), not the journal article (Bull. London Math. Soc. 54 (2022),
 no. 6, 2135-2150, DOI 10.1112/blms.12682, published online 26 May 2022;
-Crossref record read); locators below are arXiv pages and the
+Crossref record read 2026-09-17); locators below are arXiv pages and the
 journal text was not compared. The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2110.01897), every other right reserved.
 

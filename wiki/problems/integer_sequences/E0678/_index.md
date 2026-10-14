@@ -91,7 +91,7 @@ January 2026; header keys [Er79, p.67], [Er92e, p.47]; commentary citing
 
 **Formalization.** Statement only here. The file
 [`ErdosProblems/678.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/678.lean)
-of formal-conjectures (the commit the link pins) declares
+of formal-conjectures at main on 2026-09-18 (the commit the link pins), declares
 `erdos_678 : answer(True) ↔ ∀ᶠ k in atTop, {(m, n) | n + k ≤ m ∧ lcmInterval m (k + 1) < lcmInterval n k}.Nonempty`
 and the variants `erdos_678.variants.infinitely_many_triples`
 (`{(k, m, n) | 3 ≤ k ∧ n + k ≤ m ∧ lcmInterval m (k + 1) < lcmInterval n k}.Infinite`)
@@ -104,7 +104,7 @@ of 1 August 2026, the version the claim page links; four `category test`
 lemmas check the referee's examples $M(96,7)>M(104,8)$, $M(132,7)>M(139,8)$
 and Cambie's $M(52,7)>M(62,8)$, $M(36,8)>M(47,9)$ by `decide` (the last
 lemma's docstring prints $M(48,9)$ where its statement, correctly, has
-$47$; recomputed here). The community database records
+$47$; recomputed here). The community database, read 2026-09-18, records
 the problem as proved since 7 January 2026, `formal_status` Lean, the
 statement formalized since 31 August 2025, no formal-proof URL and OEIS
 "possible". The site's "(Lean)" suffix is a catalog label; the external

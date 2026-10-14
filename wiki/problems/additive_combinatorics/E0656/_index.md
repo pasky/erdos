@@ -50,13 +50,12 @@ https://www.erdosproblems.com/656.
   Donald, A proof of Erdős's $B+B+t$ conjecture. Commun. Amer. Math. Soc. 4
   (2024), 480--494, doi:10.1090/cams/34.
 
-**Formalization.** No statement file for the problem is in
-formal-conjectures, and the community database (teorth/erdosproblems)
-records `formalized` "no" (both). The development
-`src/latest/ErdosProblems/Erdos656.lean` of Boris Alexeev's lean-proofs
-repository (first added 2026-08-18; formal authors Codex and GPT-5.6 Sol)
-declares itself a formalization of Kra, Moreira, Richter and Robertson's
-solution and is linked on
+**Formalization.** On 2026-10-07 no statement file for the problem was in
+formal-conjectures, and the community database (teorth/erdosproblems) recorded
+`formalized` "no". The development `src/latest/ErdosProblems/Erdos656.lean` of
+Boris Alexeev's lean-proofs repository (first added 2026-08-18; formal authors
+Codex and GPT-5.6 Sol) declares itself a formalization of Kra, Moreira, Richter
+and Robertson's solution and is linked on
 [[problems/additive_combinatorics/E0656/claims/2022_06_24_kra_moreira_richter_robertson|their claim page]];
 this corpus has not built it.
 

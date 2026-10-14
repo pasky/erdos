@@ -16,10 +16,11 @@ updated: 2026-10-08T01:29:58Z
 
 Bukh, Boris and Conlon, David, Rational exponents in extremal graph theory. J.
 Eur. Math. Soc. (JEMS) 20 (2018), no. 7, 1747-1757, doi:10.4171/jems/798
-(Crossref record read). The copy read for this card is arXiv:1506.06406v2,
-stamped 19 Sep 2017 on p. 1, 11 pages; the journal version was not compared. The
-arXiv record (https://arxiv.org/abs/1506.06406, read 2026-10-02) names the
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+(Crossref record read 2026-10-07). The copy read for this card is
+arXiv:1506.06406v2, stamped 19 Sep 2017 on p. 1, 11 pages; the journal version
+was not compared. The arXiv record (https://arxiv.org/abs/1506.06406, read
+2026-10-02) names the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+license.
 
 Theorem 1.1 shows that each rational r with 1 < r < 2 is the extremal exponent
 of some finite family H_r of graphs, ex(n, H_r) = Theta(n^r), resolving a

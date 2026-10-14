@@ -56,8 +56,8 @@ paper is held on its
 
 **Reviewed.** The site's curator, Thomas Bloom, marked Problem 990 disproved
 and credits the construction of this paper in the site's commentary (last
-edited 10 April 2026). The arXiv record lists one version and no journal
-reference, so the claim has no refereed evidence.
+edited 10 April 2026). The arXiv record listed one version and no journal
+reference (checked 2026-10-07), so the claim has no refereed evidence.
 
 **Formalizations.** Two Lean developments declare themselves formalizations of
 this result. Boris Alexeev's `lean-proofs` file names an internal model at

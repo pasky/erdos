@@ -90,13 +90,13 @@ Problem #815, https://www.erdosproblems.com/815, accessed 2026-09-18.
 - [NPS17] Narins, L., Pokrovskiy, A. and Szabó, T., Graphs without proper
   subgraphs of minimum degree 3 and short cycles. Combinatorica 37 (2017),
   no. 3, 495--519, doi:10.1007/s00493-015-3310-9 (published online 10 August
-  2016, as its Crossref record gives it; the site's reference text gives
-  "Combinatorica (2017), 495-519"); arXiv:1408.5289 (v1, 22 August 2014,
-  22 pp.; the only arXiv version, with no journal reference in the
-  arXiv record). Conjecture 1.1 and the historical remark, pp. 2--3; Theorem
-  1.2 and Theorem 1.3, p. 3; Theorem 1.4 and the $C_6$ sentence, p. 4; the
-  construction $G(T)$ and Lemma 2.1, p. 4; Theorem 4.1 and Lemmas 4.2--4.3,
-  pp. 15--16; Proposition 5.1, p. 19; Section 6, p. 21. Library home:
+  2016, as its Crossref record of 2026-09-18 gives it; the site's reference text
+  gives "Combinatorica (2017), 495-519"); arXiv:1408.5289 (v1, 22 August 2014,
+  22 pp.; the only arXiv version, with no journal reference in the arXiv
+  record). Conjecture 1.1 and the historical remark, pp. 2--3; Theorem 1.2 and
+  Theorem 1.3, p. 3; Theorem 1.4 and the $C_6$ sentence, p. 4; the construction
+  $G(T)$ and Lemma 2.1, p. 4; Theorem 4.1 and Lemmas 4.2--4.3, pp. 15--16;
+  Proposition 5.1, p. 19; Section 6, p. 21. Library home:
   [[../library/extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/_index|narins_2017_graphs_without_proper_subgraphs_minimum_degree]];
   paged at
   [[../library/extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_2|theorem_1_2]]
@@ -109,7 +109,7 @@ Problem #815, https://www.erdosproblems.com/815, accessed 2026-09-18.
 - [DKMMZ26] Di Braccio, F., Katsamaktsis, K., Ma, J., Malekshahian, A. and
   Zhao, Z., Leaf-to-leaf paths and cycles in degree-critical graphs.
   Combinatorica 46 (2026), article 11, doi:10.1007/s00493-026-00205-2 (the
-  journal reference on the arXiv record); arXiv:2504.11656
+  journal reference on the arXiv record, 2026-09-18); arXiv:2504.11656
   (v2, 4 March 2026, marked "Journal version", 24 pp.; on its card
   [[../library/extremal_graph_theory/dibraccio_2026_leaf_to_leaf_paths_cycles_degree_critical_graphs/_index|dibraccio_2026_leaf_to_leaf_paths_cycles_degree_critical_graphs]]).
   Theorem 1, p. 2; the account of
@@ -118,7 +118,7 @@ Problem #815, https://www.erdosproblems.com/815, accessed 2026-09-18.
 
 **Formalization.** None in the catalogs. No file `ErdosProblems/815.lean` exists
 in formal-conjectures (none on 2026-09-18 or 2026-10-07); the site's indicator
-read "Formalised statement? No"; and the community database
+read "Formalised statement? No" on 2026-09-18; and the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-10-07) lists the problem as
 disproved and not formalized, with a last update of 31 August 2025. A Lean
 development in Boris Alexeev's repository `plby/lean-proofs` declares itself a
@@ -130,7 +130,7 @@ claim page]]; the corpus has not built or audited it, so it gives no
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-18).** The statement above;
 DISPROVED; no last-edited date; source keys [EFGS88], [Er91], [NPS17]. The
 commentary says that in [Er91] Erdős attributed the conjecture to himself and
 Hajnal, with a claimed proof for $3\le k\le6$, but that it already appears in

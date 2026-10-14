@@ -35,7 +35,7 @@ set of size n, which the (k-1)-partite Turan graph shows is sharp.
 Jenssen, Matthew and Keevash, Peter and Long, Eoin and Yepremyan, Liana,
 Distinct degrees in induced subgraphs. Proc. Amer. Math. Soc. 148 (2020), no.
 9, 3835-3846, DOI 10.1090/proc/15060 (published online 22 May 2020; Crossref
-record read).
+record read on 2026-09-18).
 
 **Edition.** The copy read for this card is arXiv:1910.01361v1 of 3
 October 2019 (the only arXiv version; thirteen PDF pages, paginated 1-13 with

@@ -104,8 +104,9 @@ Israel J. Math. 2 paper on generalized graphs (page images of pp. 108--109).
 combinatorial analysis*, Combinatorial Mathematics and its Applications
 (Proc. Conf., Oxford, 1969), Academic Press (1971), 97--109; item 15 on
 printed pp. 103--104 = PDF pp. 7--8 of the Rényi archive scan
-(`1971-25.pdf`; printed p. $n$ is PDF p. $n-96$), read on the page images (displays (1)--(4) by the first extremal unit on the same
-date; display (8) on a 300 dpi crop). The artifact is identified in the
+(`1971-25.pdf`; printed p. $n$ is PDF p. $n-96$), read on the page images
+(displays (1)--(4) by the first extremal unit on the same date; display (8) on a
+300 dpi crop). The artifact is identified in the
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|source digest]].
 
 **Read depth.** Claims checked: displays (1)--(4), the two sentences between

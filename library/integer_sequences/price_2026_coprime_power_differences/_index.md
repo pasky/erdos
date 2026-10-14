@@ -102,11 +102,11 @@ result pages; no independent review of them is recorded.
 
 The claim's summary presents it as answering the upper-bound question, and the
 site explicitly does not certify submitted claims. The two visible claim
-comments were also retrieved. One, by Price on 16 July, links the proposed Lean
-source; the other, by account `rickyc` on 17 July, reports that GPT Sol
-independently suggested the same result. That comment is not a mathematical
-referee report or formal verification record. No publication or broader
-community acceptance is established by these materials.
+comments were also retrieved on 5 September 2026. One, by Price on 16 July,
+links the proposed Lean source; the other, by account `rickyc` on 17 July,
+reports that GPT Sol independently suggested the same result. That comment is
+not a mathematical referee report or formal verification record. No publication
+or broader community acceptance is established by these materials.
 
 The proposed formalization is encoded in a public Lean playground link in
 [Price's comment](https://www.erdosproblems.com/forum/thread/proof-claim:2e58a1390acd4e6b89490b881ad2c77a#post-7756).

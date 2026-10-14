@@ -93,12 +93,12 @@ https://www.erdosproblems.com/133.
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|erdos_1997_some_old_new_problems_various_branches_combinatorics]].
 - [FuSe94] Füredi, Zoltán and Seress, Ákos, Maximal triangle-free graphs with
   restrictions on the degrees. J. Graph Theory 18 (1994), no. 1, 11-24, DOI
-  10.1002/jgt.3190180103 (Crossref record); Theorem 6.1,
+  10.1002/jgt.3190180103 (Crossref record accessed 2026-10-07); Theorem 6.1,
   Section 6. Library home:
   [[../library/extremal_graph_theory/furedi_1994_maximal_triangle_free_graphs_restrictions_degrees/_index|furedi_1994_maximal_triangle_free_graphs_restrictions_degrees]].
 - [HaLe18] Haviv, Ishay and Levy, Dan, Symmetric complete sum-free sets in
   cyclic groups. Israel J. Math. 227 (2018), no. 2, 931-956, DOI
-  10.1007/s11856-018-1754-5 (Crossref record);
+  10.1007/s11856-018-1754-5 (Crossref record accessed 2026-10-07);
   arXiv:1703.04118; Theorem 1.5 and the Section 1 remark on regular
   triangle-free graphs of diameter $2$. Library home:
   [[../library/extremal_graph_theory/haviv_2018_symmetric_complete_sum_free_sets_cyclic/_index|haviv_2018_symmetric_complete_sum_free_sets_cyclic]].

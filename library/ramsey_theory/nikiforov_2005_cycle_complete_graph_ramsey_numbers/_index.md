@@ -25,7 +25,7 @@ threshold of Keevash, Long and Skokan.
 
 V. Nikiforov, *The cycle-complete graph Ramsey numbers*, Combin. Probab.
 Comput. **14** (2005), no. 3, 349--370; DOI 10.1017/S096354830400642X (the
-Crossref record, dates the article 11 April 2005).
+Crossref record, read on 2026-09-17, dates the article 11 April 2005).
 Preprint arXiv:math/0404501v1 (27 April 2004; the only arXiv version on
 2026-09-17, whose abstract page carries the comment "23 pages, accepted in
 Comb. Prob. and Comp").
@@ -39,7 +39,7 @@ differently (Keevash, Long and Skokan cite the closing conjecture as
 "Conjecture 2.14 in [40]", which is Conjecture 16 here), and the journal
 pagination 349--370 does not apply to the preprint. The paper writes
 $r(C_p,K_r)$ with $p$ the cycle length and $r$ the clique order; Problem
-551 writes $R(C_k,K_n)$. Provenance: retrieved (16:07 UTC) from
+551 writes $R(C_k,K_n)$. Provenance: retrieved from
 <https://arxiv.org/pdf/math/0404501v1>, 221,958 bytes. The arXiv record carries
 no license field, so arXiv's assumed license applies (arXiv:math/0404501), every
 other right reserved.

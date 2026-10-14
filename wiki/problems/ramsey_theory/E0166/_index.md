@@ -166,8 +166,8 @@ The
 records the problem proved, the statement formalized, no formal proof and
 OEIS A059442 (its status entry last updated 31 August 2025 and its
 formalization entry 9 September 2026); the site's indicator read
-"Formalised statement? Yes" and not on 2026-09-05. Nothing
-from either file was built or audited in this corpus.
+"Formalised statement? Yes" on 2026-09-18 and not on 2026-09-05. Nothing from
+either file was built or audited in this corpus.
 
 ## Current assessment
 
@@ -194,11 +194,11 @@ has not been compared with it. Depth: Theorem 1, Theorem 2 and displays
 (1)--(2) are checked against the paper; the proof (pp. 3--16: an algebraically
 defined graph built from Hermitian unitals in $PG(2,q^2)$, randomly modified
 to be $K_4$-free, its independent sets counted by the container method, and a
-random vertex subset) is not checked. Semantic Scholar lists 79 records citing
-the paper (by title), none a dispute or refutation; Bradač's
-2026 preprint (Problem 986) reproves the exponent $3$ for $s=4$ within its
-general theorem with the same power $4$ of the logarithm, and is context, not
-the status source.
+random vertex subset) is not checked. Semantic Scholar listed 79 records citing
+the paper on 2026-09-18 (by title), none a dispute or refutation; Bradač's 2026
+preprint (Problem 986) reproves the exponent $3$ for $s=4$ within its general
+theorem with the same power $4$ of the logarithm, and is context, not the status
+source.
 
 **The bounds around it, second-hand where so marked.** Upper bound:
 [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_6|Theorem 6]]

@@ -49,10 +49,10 @@ nothing in the truth of the negative answer.
 least common multiples*, arXiv:2407.04226v5 (11 November 2025, 20 pp.; the copy
 read, whose running head reads "INTEGERS: 24 (2024)"); Theorem 1 on pp. 4--5 =
 PDF pp. 4--5, read in the text layer and on the page images. Published as
-Integers 24 (2024), paper A100 (the journal's volume page; the journal text was
-not compared, and the arXiv comment on v5 says it adds an appendix with an
-argument of Will Sawin matching the upper bound to the lower bound after a typo
-correction).
+Integers 24 (2024), paper A100 (the journal's volume page, read 2026-09-18; the
+journal text was not compared, and the arXiv comment on v5 says it adds an
+appendix with an argument of Will Sawin matching the upper bound to the lower
+bound after a typo correction).
 
 **Read depth.** Claims checked: the statement, the notation of p. 1 and the
 optimality sentence were read clause by clause on the page images of
@@ -81,12 +81,13 @@ paper's Lemma 1.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0442/_index|Problem 442]]: the problem page names it
-  the status-defining source. Since $\exp((C_0/2+o(1))\mathrm{Log}_2^{1/2}x\,\mathrm{Log}_3x)/\log\log x\to\infty$,
-  the set satisfies the hypothesis and violates the conclusion, so the answer
-  is no; the site's display is the case $C_0=1$. The optimality sentence is
-  what the site's commentary records as the best possible result; its
-  converse half is
+- [[../wiki/problems/integer_sequences/E0442/_index|Problem 442]]: the problem
+  page names it the status-defining source. Since
+  $\exp((C_0/2+o(1))\mathrm{Log}_2^{1/2}x\,\mathrm{Log}_3x)/\log\log x\to\infty$,
+  the set satisfies the hypothesis and violates the conclusion, so the answer is
+  no; the site's display is the case $C_0=1$. The optimality sentence is what
+  the site's commentary records as the best possible result; its converse half
+  is
   [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_2|Theorem 2]](ii),
   sharpened to the matching constant by
   [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_3|Theorem 3]].

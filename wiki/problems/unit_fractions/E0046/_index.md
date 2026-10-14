@@ -114,15 +114,15 @@ case of $1$ by an elementary argument it sketches. The one comment in the thread
 (20 June 2026) says that Graham's article "Paul Erdős and Egyptian fractions"
 records a prize offered for this problem and paid to Croot; that is a remark
 about the prize, dated 20 June 2026 and unverified. The proof-claim tab is
-empty. The community database record (teorth/erdosproblems) says proved (Lean),
-statement formalized, no formal-proof URL.
+empty. The community database record (teorth/erdosproblems, fetched 2026-09-17)
+says proved (Lean), statement formalized, no formal-proof URL.
 
 **Status support.** The status-defining source is Croot's Corollary
 ([[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/corollary|result page]]),
 printed p. 545 of arXiv:math/0311421v1, which carries the Annals of
 Mathematics pagination 545--556 and the received date 16 May
-2001; the journal is refereed and the arXiv listing
-shows no later version. It states that there exists a constant $b$ such
+2001; the journal is refereed and the arXiv listing (checked 2026-09-17)
+showed no later version. It states that there exists a constant $b$ such
 that every partition of the integers in $[2,b^r]$ into $r$ classes has a
 class containing a subset with reciprocal sum one, with $b=e^{167000}$ for
 large $r$. Given a coloring of the integers with $r$ colors, its

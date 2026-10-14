@@ -68,11 +68,12 @@ Conjecture 5.1). The arXiv version was first posted 2025-01-25 and revised to a
 third version of ten pages on 2025-12-03.
 
 Reviewed: the site's curator, Thomas F. Bloom, credits Adenwalla with the proof
-that no such $n$ exist and thanks Adenwalla on the problem page. Bloom labeled
-the problem disproved with a Lean qualification (page last edited 2025-12-28,
-accessed 2026-10-07). Bloom is independent of the author. Formal-conjectures
-tags its statement of the problem `research solved` and points to the Lean proof
-linked above (the catalog revision of 2026-10-06, linked as a record).
+that no such $n$ exist and thanks Adenwalla on the problem page (page last
+edited 2025-12-28, accessed 2026-10-07). Bloom labeled the problem disproved
+with a Lean qualification. Bloom is independent of the author.
+Formal-conjectures tags its statement of the problem `research solved` and
+points to the Lean proof linked above (the catalog revision of 2026-10-06,
+linked as a record).
 
 Not counted as `formalized`: the linked Lean 4 file uses Lean `v4.24.0`, with
 its Mathlib commit stated in the header. It was committed 2026-03-15 and

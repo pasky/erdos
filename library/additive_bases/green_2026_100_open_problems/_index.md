@@ -16,8 +16,8 @@ updated: 2026-10-08T01:29:58Z
 
 Ben Green, 100 open problems. problem list (author's manuscript, circulated
 since 2018; PDF compiled January 2026). No notice is printed in the file; the
-author's page that links it (https://people.maths.ox.ac.uk/greenbj/) states no
-terms; the term is unstated.
+author's page that links it (https://people.maths.ox.ac.uk/greenbj/, read
+2026-10-02) states no terms; the term is unstated.
 
 Green's personal list of 100 open problems, circulated since 2018 and kept
 updated, spans twelve sections, among them sumsets and bases, Sidon sets, and

@@ -176,7 +176,7 @@ atTop, c * (n : ℝ) ^ ((2 : ℝ) - 1 / (r : ℝ)) ≤ (extremalNumber n
 
 under `category research open, AMS 5`, with proof `sorry`. It is a statement
 without a proof and gives no `formalized` evidence. The site's page shows the
-statement as formalized, and the community database
+statement as formalized, and the community database, accessed 2026-09-17,
 lists the problem as open and the statement as formalized, as of its entry's
 last update on 7 September 2026, with no formal-proof URL.
 

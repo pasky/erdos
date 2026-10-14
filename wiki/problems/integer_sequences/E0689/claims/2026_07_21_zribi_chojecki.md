@@ -108,11 +108,11 @@ argument can absorb, a limit of the argument and not a claim that higher
 coverings fail.
 
 **Standing.** Claimed. The site's label was OPEN (page last edited 8 April
-2026; the tab and its ten comments as of 2026-10-07); the tab itself warns
-that listing a claim does not mean anyone connected with the site has examined
-it, and the maintainer's pinned thread comment of 2 June 2026 defers any
-change of label to a refereed publication or an expert's careful reading. No
-refereed or arXiv version, independent review or site acceptance was found on
-2026-10-07. The comments above are forum checks and objections, not a review.
+2026); the tab itself warns that listing a claim does not mean anyone connected
+with the site has examined it, and the maintainer's pinned thread comment of 2
+June 2026 defers any change of label to a refereed publication or an expert's
+careful reading. No refereed or arXiv version, independent review or site
+acceptance was found on 2026-10-07. The comments above are forum checks and
+objections, not a review.
 
 **Depends on.** No page of this wiki.

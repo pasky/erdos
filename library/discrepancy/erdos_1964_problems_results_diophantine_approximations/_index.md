@@ -60,9 +60,9 @@ Compositio Mathematica", every other right reserved.
 
 Read status: claims checked for item 4 of Part IV (printed p. 62 = PDF
 p. 11) and the added in proof (printed p. 63 = PDF p. 12), read clause by
-clause on the page images for Problem 492; the other items are recorded from an
-earlier digest and were not re-read here; the paper states problems and proves
-nothing consumed here.
+clause on the page images for Problem 492; the other items are recorded from
+the digest and were not checked against the page images; the paper states
+problems and proves nothing consumed here.
 
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 

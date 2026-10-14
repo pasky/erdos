@@ -31,7 +31,7 @@ The copy read for this card is the 14-page scan at that address. It
 carries no notice; the publisher's page for the journal's backfile, read for a
 1978 article in the same journal, shows "© Akadémiai Kiadó" under "Reprints and
 permissions" with subscription access
-(https://link.springer.com/article/10.1007/BF01902213), and
+(https://link.springer.com/article/10.1007/BF01902213, read 2026-10-02), and
 this article's own page (DOI 10.1007/BF02066685) was not consulted; every other
 right reserved.
 
@@ -51,9 +51,10 @@ The second layer, on p. 225, is ordinary Lagrange interpolation: equation
 (3.13), called Theorem II, gives the global lower bound
 $(2/\pi)\log n-c_5\log\log n$ for $\max_x\sum_j|l_{jn}(x,A)|$, for all
 matrices $A$. The authors then omit formulations analogous to (3.10)--(3.12)
-with $l_{jn}$ in place of $\mathfrak{h}_{jn}$. This ordinary layer explains the relationship to the local
-question E1153 and the global/pointwise interpolation family; the displayed
-(3.12) must not itself be identified with E1153’s ordinary Lebesgue function.
+with $l_{jn}$ in place of $\mathfrak{h}_{jn}$. This ordinary layer explains the
+relationship to the local question E1153 and the global/pointwise interpolation
+family; the displayed (3.12) must not itself be identified with E1153’s ordinary
+Lebesgue function.
 
 The [[polynomials/erdos_1961_extremal_problem_theory_interpolation/two_interpolation_layers|two-layer statement record]]
 preserves the exact definitions, normalizations, locators and historical

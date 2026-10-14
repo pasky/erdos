@@ -40,20 +40,20 @@ P. Erdős, *Sur certaines séries à valeur irrationnelle*, L'Enseignement
 Mathématique (2) **4** (1958), fasc. 2, 93--100 (received 1 April 1958);
 DOI 10.5169/seals-34629; MR 20 #5187; Zbl 0080.03305. In French.
 
-The copy read for this card
-is the Rényi archive scan (item 1958-19), whose head reads "Extrait de
-l'Enseignement mathématique, tome IV, fasc. 2, 1958"; its eight physical
-pages are printed pp. 93--100. Source:
-<https://users.renyi.hu/~p_erdos/1958-19.pdf>; the copy read is the file served there, 1,780,665 bytes. The
-scan's OCR text layer garbles every displayed formula; every statement and
-formula on this card and its result pages was read on the page images of all
-eight pages. No copyright or license line is printed on the offprint ("Extrait
-de l'Enseignement mathématique, tome IV, fasc. 2, 1958") on pp. 93--94 or
-99--100; the hosting archive's site footer speaks for the site, not the paper
-("(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only.", https://users.renyi.hu/~p_erdos/, read 2026-10-02);
-the publisher's page for the 1958 volume was not consulted, and no Crossref
-license is recorded; the term is unstated.
+The copy read for this card is the Rényi archive scan (item 1958-19), whose head
+reads "Extrait de l'Enseignement mathématique, tome IV, fasc. 2, 1958"; its
+eight physical pages are printed pp. 93--100. Source:
+<https://users.renyi.hu/~p_erdos/1958-19.pdf>; the copy read is the file served
+there on 2026-09-17 (UTC), 1,780,665 bytes. The scan's OCR text layer garbles
+every displayed formula; every statement and formula on this card and its result
+pages was read on the page images of all eight pages. No copyright or license
+line is printed on the offprint ("Extrait de l'Enseignement mathématique, tome
+IV, fasc. 2, 1958") on pp. 93--94 or 99--100; the hosting archive's site footer
+speaks for the site, not the paper ("(C) 2005-2007 All rights reserved. All
+material on this site is for scientifics purposes only.",
+https://users.renyi.hu/~p_erdos/, read 2026-10-02); the publisher's page for the
+1958 volume was not consulted, and no Crossref license is recorded; the term is
+unstated.
 
 ## What the paper proves and what it only asserts
 
@@ -154,13 +154,13 @@ with page pointers, not reconstructed. Nothing on this card changes the
 status of problem 251: the paper leaves $\sum p_n/2^n$ open on p. 94 and
 again on p. 99.
 
-**Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (the second of the
-three series that the remark on p. 94 says the author could not prove
-irrational, $\sum p_n/2^n$, is the problem's series, and the case $q_n=2$
-that p. 99 says escapes the author entirely is the same series; the paper
-proves nothing about it. The site's remark on the problem attributes the
-irrationality of $\sum p_n^k/n!$ for every $k\ge1$ to this paper, which
-asserts it for every $k$ on p. 93 but proves the case $k=1$ only.)
+**Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]] (the second
+of the three series that the remark on p. 94 says the author could not prove
+irrational, $\sum p_n/2^n$, is the problem's series, and the case $q_n=2$ that
+p. 99 says escapes the author entirely is the same series; the paper proves
+nothing about it. The site's remark on the problem attributes the irrationality
+of $\sum p_n^k/n!$ for every $k\ge1$ to this paper, which asserts it for every
+$k$ on p. 93 but proves the case $k=1$ only.)
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

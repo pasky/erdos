@@ -63,7 +63,7 @@ statement on human assistance. The manuscript names no individual author,
 affiliation, arXiv identifier or journal. These are the source's provenance
 attestations, recorded here as history, not as this corpus's review: no
 refereed publication, no arXiv version and no independent review of the
-manuscript is recorded here and nothing on this card is
+manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 Formalization, as the release lists it. The release's Lean catalog

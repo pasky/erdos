@@ -44,7 +44,7 @@ and the
 
 **Source.** P. Erdős and S. Fajtlowicz, *On the conjecture of Hajós*,
 Combinatorica 1 (1981), no. 2, 141--143, doi:10.1007/BF02579269 (June 1981;
-Crossref record read); received 8 June 1979. Printed pp.
+Crossref record read on 2026-09-19); received 8 June 1979. Printed pp.
 141--143 = PDF pp. 1--3 of the Rényi archive scan, read on the page
 images. The artifact is identified in the
 [[extremal_graph_theory/erdos_1981_conjecture_hajos/_index|source digest]].

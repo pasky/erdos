@@ -97,7 +97,7 @@ multiple below $4\times10^6$ and then below $8\times10^6$, with code but no
 manuscript, so they have no claim page.
 
 Search scope: the site's page and commentary (last edited 1 October 2025), its
-proof-claims tab (no comments on Zeraoulia's claim as of 2026-10-07) and its
+proof-claims tab (no comments on Zeraoulia's claim) and its
 discussion thread (posts through 2026-09-28), and the formal-conjectures
 statement file at the revision current on 2026-10-06, which carries no
 `formal_proof` attribute. Remaining gap: whether any such covering system

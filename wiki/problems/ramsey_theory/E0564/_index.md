@@ -99,15 +99,16 @@ Bloom, Erdős Problem #564, https://www.erdosproblems.com/564, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/564.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/564.lean)
-of formal-conjectures (main) declares `erdos_564 : answer(sorry) ↔ ∃ c > (0 :
+of formal-conjectures (main, fetched 2026-09-17) declares
+`erdos_564 : answer(sorry) ↔ ∃ c > (0 :
 ℝ), ∀ᶠ n : ℕ in atTop, (2 : ℝ) ^ (2 : ℝ) ^ (c * n) ≤ hypergraphRamsey 3 n` under
 `category research open`, with proof `sorry`. Its "for all sufficiently large
 $n$" reads the site's question asymptotically; since $R_3(n)\ge3$ for $n\ge3$,
 an eventual bound with constant $c$ extends to every $n\ge3$ with a smaller
 constant, so the eventual reading and the reading for every $n\ge3$ agree up to
-the value of $c$. The community database (teorth/erdosproblems) records the
-statement as formalized since 7 January 2026 and no formal proof. The corpus has
-not built or checked the file.
+the value of $c$. The community database (teorth/erdosproblems, fetched
+2026-09-17) records the statement as formalized since 7 January 2026 and no
+formal proof. The corpus has not built or checked the file.
 
 ## Current assessment
 
@@ -118,7 +119,7 @@ Rado [EHR65] together with their bounds $2^{cn^2}<R_3(n)<2^{2^n}$ for some
 $c>0$, credits Erdős, Hajnal, Máté and Rado [EHMR84] with a doubly exponential
 lower bound for the four-color problem, and lists the problem as number 37 of
 the Ramsey theory section of the graphs problem collection. There are no
-comments and no proof claims. The community database record
+comments and no proof claims. The community database record (read 2026-09-17)
 says open (last updated 31 August 2025), a prize listed, statement formalized,
 no formal proof.
 

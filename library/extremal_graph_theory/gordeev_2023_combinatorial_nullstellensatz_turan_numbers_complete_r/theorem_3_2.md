@@ -39,10 +39,10 @@ complete $r$-partite $r$-uniform hypergraphs*, arXiv:2307.04447v1 (10 July
 stamp and matches the arXiv record read on 2026-09-18), the retained file;
 the paper appeared in Discrete Math. 347 (2024), no. 7, 114037,
 doi:10.1016/j.disc.2024.114037, and a corrigendum followed in Discrete Math.
-348 (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records); neither the journal text nor the corrigendum is held,
-so whether the corrigendum touches this theorem is unknown. Theorem 3.2 on
-p. 2, read on the page image and in the text layer. The artifact is
-identified in the
+348 (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records,
+read on 2026-09-18); neither the journal text nor the corrigendum is held, so
+whether the corrigendum touches this theorem is unknown. Theorem 3.2 on p. 2,
+read on the page image and in the text layer. The artifact is identified in the
 [[extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, its four-line proof from

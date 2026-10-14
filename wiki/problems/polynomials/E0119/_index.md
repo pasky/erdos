@@ -128,7 +128,7 @@ unaudited by this corpus, and the proofs in [Wa80], [Be91] and the two write-ups
 are recorded from the site's account and the thread, unchecked.
 
 Search scope: the site's problem page as exported (last edited 2026-09-01),
-its proof-claims thread with both comment threads (as of 2026-10-07), the
+its proof-claims thread with both comment threads, the
 community database entry (solved with a Lean marker as of its last update, on
 2026-08-23), the formal-conjectures file and the linked `lean-proofs` file at
 its pinned commit, an arXiv search for a write-up by the claimant (none found),

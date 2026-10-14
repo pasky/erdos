@@ -45,7 +45,7 @@ numbers of $C_4$ versus wheels and stars. Graphs Combin. 31 (2015), no. 6,
 The copy read for this card is the publisher's typeset article (DOI
 10.1007/s00373-014-1504-3; received 21 January 2014, revised 27 October 2014,
 published online 24 January 2015; Graphs and Combinatorics 31 (2015), no. 6,
-2437--2446 in the publisher's record read), 10 pages with a
+2437--2446 in the publisher's record read on 2026-09-17), 10 pages with a
 text layer and no printed journal folios, so locators here are PDF pages.
 Read status: claims checked for Theorems 1--4 and Lemma 8, read clause by
 clause on the page images of PDF pp. 1--3; the proofs (PDF pp. 3--5 and 10)

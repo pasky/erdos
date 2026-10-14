@@ -62,13 +62,13 @@ Adamczewski maintains the public proof repository produced through the
 FrontierMath Erdős project. The directory slug records that repository
 provenance; it does not attribute the prose or proof to Adamczewski.
 
-**Canonical source.** The ten-page PDF was downloaded from the [site's public
-proof link](https://www.erdosproblems.com/static/1-proof.pdf). All ten pages
-were visually inspected. The source presents itself as a prose account of the
-Lean proof it accompanies, leaving out index bookkeeping that does not affect
-the argument. It is preliminary generated prose, not a refereed paper. Bloom's
-[proof
-claim](https://www.erdosproblems.com/forum/thread/1/proof-claims#proof-claim-242),
+**Canonical source.** The ten-page PDF was downloaded 2026-09-05 from the
+[site's public proof link](https://www.erdosproblems.com/static/1-proof.pdf).
+All ten pages were visually inspected. The source presents itself as a prose
+account of the Lean proof it accompanies, leaving out index bookkeeping that
+does not affect the argument. It is preliminary generated prose, not a refereed
+paper. Bloom's
+[proof claim](https://www.erdosproblems.com/forum/thread/1/proof-claims#proof-claim-242),
 submitted 2026-09-03, and the site's DISPROVED (LEAN) status supply the dated
 public record. No notice is printed on any of the file's ten pages, and the
 hosting site's homepage (https://www.erdosproblems.com/, read 2026-10-02) states

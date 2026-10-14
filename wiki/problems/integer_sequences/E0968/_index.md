@@ -57,7 +57,7 @@ short argument for the companion case, the $k$ with
 $p_k/k>p_{k+1}/(k+1)$, which [Er65b] calls easy.
 
 **Status.** OPEN, the site's label (page last edited 31 March 2026; proof-claims
-tab empty when accessed 2026-10-07). The site's commentary reads the question as
+tab empty). The site's commentary reads the question as
 asking for positive lower density. Here the problem stands solved and proved,
 with "density" read as the lower density Erdős and Prachar asked for, because of
 the accepted result below.

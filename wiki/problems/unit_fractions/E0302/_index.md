@@ -102,14 +102,15 @@ Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
   [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/_index|doorn_2025_two_coloring_density_solutions_unit_fraction_equation]].
 - [OEIS] Raza, H., Sequence A390395, The On-Line Encyclopedia of Integer
   Sequences (2025; entry last modified 30 November 2025, server time):
-  $f(n)$ for $n\le731$ (b-file by C. W. Wu and S. Kesarwani); read.
+  $f(n)$ for $n\le731$ (b-file by C. W. Wu and S. Kesarwani); read
+  2026-09-17.
 - The site's commentary attributes the $5/8$ construction and the
   non-distinct $2/3$ remark to Stijn Cambie; neither has a written source
   beyond the site.
 
 **Formalization.** The file
 [`ErdosProblems/302.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/302.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (main, fetched 2026-09-17)
 defines the extremal function through `NoUnitFractionTriple` and
 `IsMaxNoTripleCard` and declares `erdos_302.parts.i` (the limit of $f(N)/N$,
 `answer(sorry)`, `category research open`), `erdos_302.parts.ii` (that
@@ -138,8 +139,9 @@ to $N/4$ together with the integers in $[N/2,N]$; and that Cambie has also
 observed that, once $b=c$ is permitted, a set of size $(2/3+o(1))N$ contains
 some pair $n,2n$ and so a solution. The commentary refers to Problems 301 and
 327. The thread has two comments (5 July and 25 September 2026, below) and
-the proof-claim tab two partial claims (below). The community database lists the problem as open with the statement formalized,
-as of its last update of 5 August 2026, OEIS A390395, and no formal proof.
+the proof-claim tab two partial claims (below). The community database (fetched
+2026-09-17) lists the problem as open with the statement formalized, as of its
+last update of 5 August 2026, OEIS A390395, and no formal proof.
 
 **Origin.** Printed p. 37 of the 1980 monograph, after the $S_n^*$ question
 of Problem 301 and Szemerédi's variant: "In fact, is it true that if

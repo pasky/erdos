@@ -86,14 +86,15 @@ this card is the Rényi archive's scan (Acrobat Capture text layer):
 fourteen pages,
 printed pp. 117--130 = PDF pp. 1--14
 (printed p. $n$ is PDF p. $n-116$), the English text on pp. 117--123 and
-the French version on pp. 124--130. Provenance: retrieved from <https://users.renyi.hu/~p_erdos/1967-22.pdf>
-(HTTP 200, one request), byte-identical to the copy read when the card
-was created; 2,573,346 bytes. No notice is printed in the file; the hosting
-archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
-rights reserved. All material on this site is for scientifics purposes only.");
-the symposium volume has no publisher page, so the publisher's page was not
-consulted and no Crossref license is recorded; the term is unstated.
+the French version on pp. 124--130. Provenance: retrieved 2026-09-19T01:41:15Z
+from <https://users.renyi.hu/~p_erdos/1967-22.pdf> (HTTP 200, one request),
+byte-identical to the copy read when the card was created; 2,573,346 bytes. No
+notice is printed in the file; the hosting archive's site footer speaks for the
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
+"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
+purposes only."); the symposium volume has no publisher page, so the publisher's
+page was not consulted and no Crossref license is recorded; the term is
+unstated.
 
 Read status: claims checked for the conjecture (9) on p. 120 (PDF p. 4)
 with its definitions of $v(\mathcal G)$ and $v^*(\mathcal G)$, and for the

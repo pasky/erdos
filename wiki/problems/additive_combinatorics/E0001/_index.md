@@ -42,9 +42,9 @@ are not an independent review of a proof claim the curator submitted. Neither
 route has a refereed write-up.
 
 **Source.** [erdosproblems.com/1](https://www.erdosproblems.com/1), accessed
-2026-10-07 (page last edited 3 September 2026; two entries on the proof-claim
-tab, of 2026-09-03 and 2026-09-15, both credited to GPT-6 Astra). Cite as: T. F.
-Bloom, Erdős Problem #1, https://www.erdosproblems.com/1.
+2026-10-07 (page last edited 3 September 2026); its proof-claim tab held two
+entries, of 2026-09-03 and 2026-09-15, both credited to GPT-6 Astra. Cite as:
+T. F. Bloom, Erdős Problem #1, https://www.erdosproblems.com/1.
 
 **References.**
 

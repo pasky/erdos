@@ -98,7 +98,7 @@ premise.
 
 **Standing.** Claimed. The claim is unrefereed and no paper or preprint
 carries it. The site has not accepted it: its page records no value of
-$f_5(n)$ and its proof-claim tab is empty; the
-community database records the problem as open and
+$f_5(n)$ (accessed 2026-10-07) and its proof-claim tab was empty; the
+community database (read 2026-10-06) records the problem as open and
 unformalized. The claim covers one range of one case of the problem, so the
 problem's standing is unaffected by it.

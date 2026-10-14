@@ -35,7 +35,7 @@ Section 4, pp. 11--15, using Lemmas 2--4 (pp. 3--5) and the
 smooth-number Lemmas 5--9 (pp. 5--11). The arXiv comments line says "to
 appear in Trans. Amer. Math. Soc"; the paper appeared as Trans. Amer.
 Math. Soc. 351 (1999), no. 9, 3641--3657, doi:10.1090/S0002-9947-99-02327-2
-(Crossref record fetched), not compared here. Read in the text
+(Crossref record fetched 2026-09-17), not compared here. Read in the text
 layer of the preprint.
 
 **Read depth.** Claims checked: the theorem and the remark were read clause

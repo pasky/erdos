@@ -33,7 +33,7 @@ repository's survey download set; 1,013,394 bytes. The arXiv record
 (https://arxiv.org/abs/2606.04439, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
-Version history (arXiv listing pages of v1, v2 and v3):
+Version history (arXiv listing pages of v1, v2 and v3, read 2026-09-17):
 v1, 3 June 2026, titled "Size Ramsey number for star forests", whose
 abstract says of the 1978 conjecture that it "was confirmed for many cases
 but is still open" and claims "In this paper, we completely confirm these

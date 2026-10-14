@@ -64,11 +64,11 @@ https://www.erdosproblems.com/110.
 - [dBEr51] de Bruijn, N. G. and Erdős, P., A colour problem for infinite graphs
   and a problem in the theory of relations. Indag. Math. (1951), 369-373.
 
-**Formalization.** No statement file in the formal-conjectures catalog. A Lean 4
-file in Boris Alexeev's lean-proofs collection, added 2026-08-17, declares
-itself a formalization of Lambie-Hanson's solution with Codex and GPT-5.6 Sol as
-its formal authors; it is linked from the claim page and was not built by this
-corpus.
+**Formalization.** No statement file was in the formal-conjectures catalog on
+2026-10-07. A Lean 4 file in Boris Alexeev's lean-proofs collection, added
+2026-08-17, declares itself a formalization of Lambie-Hanson's solution with
+Codex and GPT-5.6 Sol as its formal authors; it is linked from the claim page
+and was not built by this corpus.
 
 ## Progress
 

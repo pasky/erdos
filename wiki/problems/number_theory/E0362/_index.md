@@ -213,9 +213,9 @@ lists the statement as formalized, as of its last update on 19 September 2026.
 
 ## Current assessment
 
-**The question (site formulation).** The two questions above; PROVED (LEAN);
-last edited 27 December 2025; source keys [Er65], [Er73, p. 129], [ErGr80,
-p. 59]. The commentary records that the bound of Erdős and
+**The question (site formulation, accessed 2026-09-18).** The two questions
+above; PROVED (LEAN); last edited 27 December 2025; source keys [Er65], [Er73,
+p. 129], [ErGr80, p. 59]. The commentary records that the bound of Erdős and
 Moser [Er65] for the first question carried an extra factor $(\log n)^{3/2}$,
 that Sárközy and Szemerédi [SaSz65] removed it and so answered the first
 question yes, that Stanley [St80] showed the count to be largest for
@@ -227,7 +227,7 @@ Stanley's result in the monograph's form, which the commenter finds wrong or at
 best vague, because a count over subsets of varying sizes is not preserved under
 translation, and points to the corollaries of Section 5 of Stanley's paper (the
 comment calls it Chapter 5) as the correct statements; the site marks the
-comment as addressed, and the commentary, names Stanley's set.
+comment as addressed, and the commentary, read 2026-09-18, names Stanley's set.
 There are no proof claims. The community database record, at its revision of
 2026-09-18, lists the status proved (Lean) as of its last update on 24 August
 2026, and the informal status proved as of its last update on 31 August 2025.

@@ -38,7 +38,7 @@ scan; the publisher's page for DOI 10.1080/00029890.1934.11987659 could not be
 read on 2026-10-02 (HTTP 403), the Crossref record names no license, and the
 hosting archive's site notice "(C) 2005-2007 All rights reserved. All material
 on this site is for scientifics purposes only."
-(https://users.renyi.hu/~p_erdos/) speaks for the site, not the
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02) speaks for the site, not the
 paper; the term is unstated.
 
 Grünwald and Lázár asked orally whether an infinite set of positive integers can
@@ -79,9 +79,9 @@ n(k) = O(k^{1+eps}) for every eps > 0, is unproved in the paper.
 
 - [[arithmetic_functions/erdos_1934_problem_elementary_theory_numbers/theorem_i|Theorem I]]
   (p. 609; proof p. 610): the two-term sums of 3 . 2^{k-1} positive integers
-  cannot all be composed of k given primes; equivalently n(k) <= 3 . 2^{k-1} - 1.
-  The proof uses that the integers are distinct, and the result page records
-  that the statement needs it.
+  cannot all be composed of k given primes; equivalently n(k) <= 3 .
+  2^{k-1} - 1. The proof uses that the integers are distinct, and the result
+  page records that the statement needs it.
 - Lemma (Section 2, pp. 609-610): for positive integers a_1 < ... < a_n and a
   prime p > 2, one can select at least ceil(n/2) of them such that the exact
   power of p dividing any sum of two selected numbers is the smaller of the

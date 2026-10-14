@@ -21,15 +21,15 @@ bound 704 times 2^60; the cycle-exclusion frontier recorded on Problem
 ***
 
 Christian Hercher, *There are no Collatz m-cycles with m <= 91*, J. Integer Seq.
-**26** (2023), Article 23.3.5 (the journal reference the arXiv record carries;
-the journal's articles carry no DOI and no Crossref record was found). The
-retained [folder-name PDF](hercher_2023_no_mcycles_91.pdf) is arXiv:2201.00406v3
-[math.NT] (4 April 2023), 22 pages with a complete text layer; the journal text
-is not held and was not compared; the locators below are the preprint's pages.
-The statement pages were read on the rendered page images of pp. 1--3 and
-15--16. Source: [PDF](hercher_2023_no_mcycles_91.pdf). The arXiv record
-(https://arxiv.org/abs/2201.00406, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+**26** (2023), Article 23.3.5 (the journal reference the arXiv record carries,
+read 2026-09-18; the journal's articles carry no DOI and no Crossref record was
+found). The retained [folder-name PDF](hercher_2023_no_mcycles_91.pdf) is
+arXiv:2201.00406v3 [math.NT] (4 April 2023), 22 pages with a complete text
+layer; the journal text is not held and was not compared; the locators below are
+the preprint's pages. The statement pages were read on the rendered page images
+of pp. 1--3 and 15--16. Source: [PDF](hercher_2023_no_mcycles_91.pdf). The arXiv
+record (https://arxiv.org/abs/2201.00406, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, Definition 1 (the map),
 Conjecture 2, Remark 3, Definition 4 (the verification bound $X_0$ used),

@@ -33,7 +33,7 @@ updated: 2026-10-08T01:30:44Z
 
 Haviv and Levy, *Symmetric complete sum-free sets in cyclic groups*, Israel J.
 Math. 227 (2018), no. 2, 931--956, DOI 10.1007/s11856-018-1754-5 (Crossref
-record read); arXiv:1703.04118, first version 2017-03-12, the
+record read 2026-10-07); arXiv:1703.04118, first version 2017-03-12, the
 claim's date; an extended abstract appeared in Electron. Notes Discrete Math.
 61 (2017), 585--591
 ([[../library/extremal_graph_theory/haviv_2018_symmetric_complete_sum_free_sets_cyclic/_index|card]]).
@@ -54,7 +54,7 @@ paper presents the theorem as extending Hanson and Seyffarth's construction,
 which covers the sequence $n=m^2+5m+2$, to every $n$. The constant $c$ is
 not made explicit, and the site's commentary records the paper as giving an
 alternative construction of the symmetric complete sum-free sets behind
-Hanson and Seyffarth's bound. The sequence case is
+Hanson and Seyffarth's bound (read 2026-10-07). The sequence case is
 [[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|Hanson and Seyffarth's]]
 and the sharper constant for all large $n$ is
 [[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|Füredi and Seress's]];

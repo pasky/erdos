@@ -35,7 +35,7 @@ multiples has asymptotic density 1.
 
 G. Tenenbaum, *On block Behrend sequences*, Math. Proc. Cambridge Philos.
 Soc. **120** (1996), no. 2, 355--367; DOI 10.1017/S0305004100074910 (the
-journal data were checked against Crossref).
+journal data were checked against Crossref on 2026-09-17).
 
 The copy read for this card is the
 author's TeX typescript, sixteen A4 pages with a usable text layer, headed
@@ -132,16 +132,20 @@ and nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/integer_sequences/E0691/_index|#691]]: the paper's
 subject is the problem's question, criteria for $M_A$ to have density
 $1$; it gives a sufficient condition, the divergence of the series (v), for
-block sequences meeting its conditions (i)--(iv), adjacent to the necessary condition of Theorem A for
-sawn sequences ([[integer_sequences/tenenbaum_1996_block_behrend_sequences/theorem_1|Theorem 1]], p. 3), decides the Behrend
-property for blocks with $\log(T_{j+1}/T_j)\asymp j^\sigma(\log2j)^\tau$,
-$\sigma>-1$, and $\log H_j\asymp j^{-\alpha}(\log2j)^\gamma$, except at the
-boundary exponent $\alpha=\alpha_0(\sigma)$ ([[integer_sequences/tenenbaum_1996_block_behrend_sequences/corollary_1|Corollary 1]], p. 4), and, under a two-sided
-condition on the ratios $T_{j+1}/T_j$, places the threshold of Erdős's block
-conjecture at $\log2$, without deciding $\alpha=\log2$
-([[integer_sequences/tenenbaum_1996_block_behrend_sequences/corollary_2|Corollary 2]], p. 5). It states that effective general
-criteria seem very difficult, if not hopeless, with present techniques
-(p. 1), and gives none.
+block sequences meeting its conditions (i)--(iv), adjacent to the necessary
+condition of Theorem A for sawn sequences
+([[integer_sequences/tenenbaum_1996_block_behrend_sequences/theorem_1|Theorem 1]],
+p. 3), decides the Behrend property for blocks with
+$\log(T_{j+1}/T_j)\asymp j^\sigma(\log2j)^\tau$, $\sigma>-1$, and
+$\log H_j\asymp j^{-\alpha}(\log2j)^\gamma$, except at the boundary exponent
+$\alpha=\alpha_0(\sigma)$
+([[integer_sequences/tenenbaum_1996_block_behrend_sequences/corollary_1|Corollary 1]],
+p. 4), and, under a two-sided condition on the ratios $T_{j+1}/T_j$, places the
+threshold of Erdős's block conjecture at $\log2$, without deciding
+$\alpha=\log2$
+([[integer_sequences/tenenbaum_1996_block_behrend_sequences/corollary_2|Corollary 2]],
+p. 5). It states that effective general criteria seem very difficult, if not
+hopeless, with present techniques (p. 1), and gives none.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

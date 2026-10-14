@@ -41,8 +41,8 @@ subgraphs of minimum degree 3 and short cycles*, arXiv:1408.5289v1 (22 August
 pp. 2--3, read on the page image of p. 3 and in the text layer of p. 2; the
 construction and Lemma 2.1 on p. 4 (page image); Section 6 on p. 21 (text
 layer). Published in Combinatorica 37 (2017), no. 3, 495--519,
-doi:10.1007/s00493-015-3310-9 (online 10 August 2016; Crossref record read); the journal text was not compared. The edition
-is identified in the
+doi:10.1007/s00493-015-3310-9 (online 10 August 2016; Crossref record read on
+2026-09-18); the journal text was not compared. The edition is identified in the
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definition, Conjecture

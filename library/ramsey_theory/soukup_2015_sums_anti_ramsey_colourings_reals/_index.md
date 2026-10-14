@@ -56,20 +56,21 @@ file for that problem cites it as `[SWCol]` from the first author's site
 by the authors (pdfTeX; its metadata gives a creation date of 7 September
 2015), five pages with a complete text layer,
 read in the text layer and on the rendered pages 1--5.
-Provenance: the repository's survey download set (the download URL
-recorded when the copy was obtained is
-<http://www.renyi.hu/~dsoukup/sums.pdf>); 282,304 bytes. The manuscript prints no
-copyright or license line on its first two or last two pages; its recorded
+Provenance: the repository's survey download set (the download URL recorded when
+the copy was obtained, on 2026-09-05, is
+<http://www.renyi.hu/~dsoukup/sums.pdf>); 282,304 bytes. The manuscript prints
+no copyright or license line on its first two or last two pages; its recorded
 source (http://www.renyi.hu/~dsoukup/sums.pdf) is on the author's site, whose
 page returned HTTP 404 on 2026-10-02 and so states no terms, and no publisher
 page exists for the unpublished text; the term is unstated.
 
 **Publication status.** A Crossref bibliographic query for the title and
-authors, arXiv author and abstract searches, and the citation lists of the Hindman--Leader--Strauss paper
-and of Komjáth's paper in Semantic Scholar returned no record of it. The
-manuscript's own sentence on its result (p. 1): "The same result was
-independently proved by P. Komjáth [2]." The card records that sentence as the
-source's own and claims no independent check of the argument.
+authors, arXiv author and abstract searches, and the citation lists of the
+Hindman--Leader--Strauss paper and of Komjáth's paper in Semantic Scholar
+returned no record of it. The manuscript's own sentence on its result (p. 1):
+"The same result was independently proved by P. Komjáth [2]." The card records
+that sentence as the source's own and claims no independent check of the
+argument.
 
 Read status: claims checked for the abstract, Theorem 1.1, Lemma 2.1,
 Corollaries 2.2 and 2.3, Theorem 3.1, Corollary 3.2 and Theorem 4.1, read

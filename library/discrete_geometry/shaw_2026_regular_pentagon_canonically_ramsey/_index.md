@@ -191,19 +191,20 @@ review of all those references is claimed. The p. 3 aside about
 hypothetical avoiding colorings for three collinear points is also
 outside the reconstructed proof scope.
 
-**Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]]: context only. The problem asks for a
-characterisation of the Ramsey sets, where the number of colours is
-fixed before the host is chosen. The paper proves the distinct canonical
-Ramsey property, one finite host for colourings with any number of
-colours, for regular polygons with a prime number of sides and their
-powers (Theorems 1 and 2, p. 3); it shows no set Ramsey or non-Ramsey,
-and the regular polygons are already Ramsey by Kříž's theorem, as the
-paper recalls (p. 2). It mentions (p. 2) the conjecture of Fang, Ge,
-Shu, Xu, Xu and Yang that all Ramsey sets are canonically Ramsey,
-without proving it or its converse. The problem page cites the
+**Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]]:
+context only. The problem asks for a characterisation of the Ramsey sets, where
+the number of colours is fixed before the host is chosen. The paper proves the
+distinct canonical Ramsey property, one finite host for colourings with any
+number of colours, for regular polygons with a prime number of sides and their
+powers (Theorems 1 and 2, p. 3); it shows no set Ramsey or non-Ramsey, and the
+regular polygons are already Ramsey by Kříž's theorem, as the paper recalls (p.
+2). It mentions (p. 2) the conjecture of Fang, Ge, Shu, Xu, Xu and Yang that all
+Ramsey sets are canonically Ramsey, without proving it or its converse. The
+problem page cites the
 [[discrete_geometry/shaw_2026_regular_pentagon_canonically_ramsey/definitions|definitions]],
 [[discrete_geometry/shaw_2026_regular_pentagon_canonically_ramsey/theorem_2|Theorem 2]]
-and the [[discrete_geometry/shaw_2026_regular_pentagon_canonically_ramsey/composite_obstruction|composite obstruction]]
+and the
+[[discrete_geometry/shaw_2026_regular_pentagon_canonically_ramsey/composite_obstruction|composite obstruction]]
 in its canonical Ramsey comparison.
 
 No file of this source is held: no license on record permits its redistribution,

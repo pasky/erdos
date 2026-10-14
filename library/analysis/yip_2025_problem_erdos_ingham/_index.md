@@ -38,7 +38,7 @@ Fredy Yip, *On a problem of Erdős and Ingham*.
 
 The copy read for this card is the four-page arXiv v1 PDF. The title, author,
 identifier `arXiv:2512.16528v1 [math.CA]`, and date are visible on printed p. 1.
-The frozen official arXiv record checked listed one submission,
+The frozen official arXiv record checked on 2026-09-06 listed one submission,
 v1, and no journal reference. This source home treats the work as a preprint and
 makes no peer-review or acceptance claim. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2512.16528), every other right

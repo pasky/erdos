@@ -44,7 +44,7 @@ the statement.
 2026). The derived standing of this page is solved, proved. The two differ
 because the standing rests on a theorem the label did not reflect. The site's
 page was last edited before any of the 2026 claims, and the release's theorem
-below was never on the site's proof-claim tab (read 2026-10-07). Theorem 1.1 of
+below was never on the site's proof-claim tab. Theorem 1.1 of
 the OpenAI mathematics release's preprint of 24 September 2026 gives an
 absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
@@ -91,7 +91,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   decomposition conjecture. arXiv:2211.07689 (v1 14 November 2022; v2 14
   November 2023, "Final version, accepted for publication");
   Adv. Math. 437 (2024), Paper No. 109434, doi:10.1016/j.aim.2023.109434
-  (Crossref record read; not held); extended abstract in
+  (Crossref record read 2026-09-18; not held); extended abstract in
   Proceedings of the 55th Annual ACM Symposium on Theory of Computing (STOC
   2023), 839--852, doi:10.1145/3564246.3585218. Conjecture 1, p. 1; Theorem
   2, p. 2; Lemma 26 and the proof of Theorem 2, pp. 23--24; the lower bound,
@@ -118,7 +118,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_11|item_11]].
 - [Er76] Erdős, Paul, Problems and results in combinatorial analysis.
   Colloquio Internazionale sulle Teorie Combinatorie (Roma, 1973), Tomo II
-  (1976), 3--17; MR 0465878 (the site's reference text).
+  (1976), 3--17; MR 0465878 (the site's reference text, read 2026-09-18).
   Library home:
   [[../library/extremal_graph_theory/erdos_1976_problems_results_combinatorial_analysis/_index|erdos_1976_problems_results_combinatorial_analysis]]
   (the Rényi archive's scan `1976-35.pdf`, p. 15; the card carries the row
@@ -132,7 +132,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [Er83b] Erdős, P., On some of my conjectures in number theory and
   combinatorics. Proceedings of the fourteenth Southeastern conference on
   combinatorics, graph theory and computing (Boca Raton, Fla., 1983), Congr.
-  Numer. 39 (1983), 3--19; MR 734525 (the site's reference text). Library home:
+  Numer. 39 (1983), 3--19; MR 734525 (the site's reference text, read
+  2026-09-18). Library home:
   [[../library/extremal_graph_theory/erdos_1983_some_my_conjectures_number_theory_combinatorics/_index|erdos_1983_some_my_conjectures_number_theory_combinatorics]]
   (the Rényi archive's scan `1983-15.pdf`, item 6, p. 15; the card carries
   the row for this problem). Cited by [BM22] (its
@@ -143,8 +144,8 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [CFS14].
 - [GGKO21] Girão, A., Granet, B., Kühn, D. and Osthus, D., Path and cycle
   decompositions of dense graphs. J. London Math. Soc. (2) 104 (2021),
-  1085--1134, doi:10.1112/jlms.12455; arXiv:1911.05501 (arXiv record
-  read). Not held; quoted on pp. 2 and 24 of [BM22].
+  1085--1134, doi:10.1112/jlms.12455; arXiv:1911.05501 (arXiv record read
+  2026-09-18). Not held; quoted on pp. 2 and 24 of [BM22].
 - [AABC25] Akbari, S., Aloni, J., Beikmohammadi, A. and Clow, A., Tight
   bounds for cycle-edge decompositions and covers. arXiv:2509.01901 (v1 2
   September 2025; v2 7 September 2025). Preprint, not held, abstract only; a
@@ -178,9 +179,9 @@ repository, not built here. At the file's
 [commit of 2026-09-17](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean),
 `covering` was `research open` with `answer(sorry)`, although Pyber proved it in
 1985 according to [BM22] and [CFS14]; the file has labeled it solved since 30
-September 2026. The community database (teorth/erdosproblems) records the
-problem open (last changed 31 August 2025), the statement formalized since 16
-March 2026 and no formal proof. Nothing was built.
+September 2026. The community database (teorth/erdosproblems, read 2026-09-18)
+records the problem open (last changed 31 August 2025), the statement formalized
+since 16 March 2026 and no formal proof. Nothing was built.
 
 ## Current assessment
 
@@ -401,14 +402,14 @@ the construction is Bucić and Montgomery's reading of it. (4) The 1966
 upper bound is
 asserted, not proved, in the paper; the argument is recorded from [CFS14].
 (5) The formal-conjectures `covering` variant was labeled open at the
-commit read although Pyber's theorem answers it; later commits label it
-solved, as recorded above.
+commit read on 2026-09-18 although Pyber's theorem answers it; the file has
+labeled it solved since 30 September 2026, as recorded above.
 
-**Proof claims on the site.** The site's proof-claim
-tab carries one claim, full: Ryan Coffey's paper and Lean formalization of
+**Proof claims on the site.** The site's proof-claim tab carried one claim,
+full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]
-as claimed. The release's theorem is not on the site's tab. The site labeled
+as claimed. The release's theorem was not on the site's tab. The site labeled
 the problem OPEN (page last edited 1 April 2026); this page's standing is
 derived from the claim pages, not from the label.
 

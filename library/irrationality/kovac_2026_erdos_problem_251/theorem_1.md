@@ -37,8 +37,9 @@ The theorem's last sentence draws the consequence that the irrationality
 statement of the note's abstract is false. That statement asserts
 irrationality of $\sum_{n\ge1}p_n/(g_1\cdots g_n)$ for every integer
 sequence with $g_n\ge2$ and $g_n=o(p_n)$; it is the variable-denominator
-statement that the problem page of Problem 251 quotes from Erdős's 1988
-survey (p. 103), where the growth condition is written $g_n/p_n\to0$.
+statement that the problem page of Problem 251 (accessed 2026-09-17) quotes from
+Erdős's 1988 survey (p. 103), where the growth condition is written
+$g_n/p_n\to0$.
 
 ## Proof sketch
 

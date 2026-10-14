@@ -71,8 +71,8 @@ $f(n)\ge\lfloor(n/12)(1-4/n^{1/3})\rfloor=(1/12-o(1))n$, improving Erdős's
 constant $1/400$ and Zaharescu's $1/480$ (the paper's account: Zaharescu
 generalized to arbitrary linear forms with $c=1/480$, and Meng and Zaharescu
 to several variables). The paper reports no earlier improvement on Erdős's
-constant that its author was aware of; the site's account of Problem 1005 now rests on a 2026 preprint
-that claims the matching lower bound $(1/4-o(1))n$.
+constant that its author was aware of; the site's account of Problem 1005 now
+rests on a 2026 preprint that claims the matching lower bound $(1/4-o(1))n$.
 
 ## Contents
 
@@ -99,17 +99,17 @@ that claims the matching lower bound $(1/4-o(1))n$.
   splitting $\sum1/(b_ib_{i+1})$ as in Erdős.
 - Section 4 (p. 8):
   [[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_3|Theorem 3]],
-  a local-density form (either a Farey fraction with denominator below $6/x$ lies between the two fractions or
-  $l-k>nx(1/12-o(1))$ when they are $x/n$ apart); the remark that for a
-  badly ordered pair with $a_k/b_k\ge1/2-o(1)$ the argument gives
-  $l-k>n(1/8-o(1))$, "at most a factor 2 off from optimal".
+  a local-density form (either a Farey fraction with denominator below $6/x$
+  lies between the two fractions or $l-k>nx(1/12-o(1))$ when they are $x/n$
+  apart); the remark that for a badly ordered pair with $a_k/b_k\ge1/2-o(1)$ the
+  argument gives $l-k>n(1/8-o(1))$, "at most a factor 2 off from optimal".
 
 ## Compiled scope
 
 The whole preprint was read. Theorems 1, 2 and 3 and Lemma 2 are compiled
 as statements with proof pointers; the computation behind the Conjecture
-was not rerun; no step of the proofs was checked and nothing here is independently
-reviewed.
+was not rerun; no step of the proofs was checked and nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1005/_index|#1005]]: the same function
 $f(n)$ as the problem's; Theorem 1 is the upper bound

@@ -42,7 +42,7 @@ Combin. Probab. Comput. (2018), 21-43.
 **Edition.** The journal version is Combin. Probab. Comput. 27
 (2018), no. 1, 21--43, DOI 10.1017/S0963548317000244 (published online 19
 July 2017; an extended abstract appeared in Electron. Notes Discrete Math.
-49 (2015), 277--284; Crossref records read). The copy read
+49 (2015), 277--284; Crossref records read 2026-09-19). The copy read
 for this card is the arXiv preprint arXiv:1504.02583v1 (10 April 2015), 22
 pages, so the locators and labels below are the preprint's; the journal text was
 not compared. Read status: claims checked for Theorem 1 (p. 1) and for Theorem 3

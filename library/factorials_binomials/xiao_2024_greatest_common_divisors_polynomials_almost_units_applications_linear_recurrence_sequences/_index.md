@@ -68,9 +68,9 @@ have a nontrivial common divisor.
 
 The copy read for this card is the arXiv version stamped "arXiv:2110.01751v3
 [math.NT] 22 Sep 2023", the edition this card cites. Provenance: downloaded from
-https://arxiv.org/pdf/2110.01751v3 on 2026-09-25; 421,717 bytes.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2110.01751), every other right reserved.
+https://arxiv.org/pdf/2110.01751v3; 421,717 bytes. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2110.01751), every other right
+reserved.
 
 Zheng Xiao, "Greatest common divisors for polynomials in almost units and
 applications to linear recurrence sequences," arXiv:2110.01751 (2021);

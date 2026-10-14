@@ -88,8 +88,8 @@ database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886ee
 
 ## Current assessment
 
-**The question.** The site states the problem as above, showed
-OPEN, cites [ErGr80] and [ErSt71b], and records the bounds
+**The question.** On 2026-09-17 the site stated the problem as above, showed
+OPEN, cited [ErGr80] and [ErSt71b], and recorded the bounds
 $-c<k(N)-(e-1)N\ll N/\log N$. Printed p. 35 of the monograph
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham 1980]])
 defines $U_n=\min\{k:\{x_1,\ldots,x_k\}\in\mathcal X,\ x_1\ge n\}$, says "It
@@ -141,14 +141,14 @@ excess.
   most $x$ ([[problems/unit_fractions/E0308/_index|Problem 308]] and
   [[problems/unit_fractions/E0309/_index|Problem 309]]), not $k(N)$.
 
-**Finite values (leads).** OEIS A192881, "Number of
+**Finite values (leads).** OEIS A192881 (accessed 2026-09-17), "Number of
 terms for the shortest Egyptian fraction representation of 1 starting with
 $1/n$", lists $1,3,5,8,10,11,13,15,17,19,21,23,25,26,28,30$ for
 $n=1,\ldots,16$. It fixes $n_1=n$, whereas $k(N)$ allows $n_1>N$, so each
 listed value is an upper bound for $k(n)$; the entry's example for $n=3$
 matches $k(3)=5$. It is a community record, not a refereed source. An
 AI-assisted public report of 11 August 2026
-(`erdosproblemaday.com/day/295-k17-exact`) claims
+(`erdosproblemaday.com/day/295-k17-exact`, accessed 2026-09-17) claims
 $k(17)=32$ and $33\le k(18)\le35$ by exhaustive search with certificates,
 labels itself partial, and says it does not touch the asymptotic question; no
 check of it is recorded.

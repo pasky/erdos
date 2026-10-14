@@ -27,12 +27,13 @@ The copy read for this card
 prints the title, an abstract and a table of contents on p. 1 and carries no
 author, affiliation, date, acknowledgements or version mark on any of its 13
 pages. Its embedded metadata records a creation date of 26 May 2026
-(producer xdvipdfmx). Provenance: 150,519 bytes, retrieved
+(producer xdvipdfmx). Provenance: 150,519 bytes, retrieved on 2026-09-05
 (HTTP 200) from
 <https://www-cdn.anthropic.com/files/4zrzovbb/website/ca35f196125c899a5ad11f011080202a652aef02.pdf>,
 a content-delivery address of the hosting organization. The slug's "anon"
 records the absence of an author line, not an author's choice. No notice is
-printed; the hosting organization's legal page (https://www.anthropic.com/legal) links privacy, acceptable-use, terms-of-service and
+printed; the hosting organization's legal page (https://www.anthropic.com/legal,
+read 2026-10-02) links privacy, acceptable-use, terms-of-service and
 supported-countries policies, none of which states ownership or licensing of
 documents published on the site; the term is unstated.
 

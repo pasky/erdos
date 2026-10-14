@@ -42,7 +42,7 @@ only observations and conjectures based on a computer study of symmetric
 sum-free partitions." In the site's convention $f(k)=S(k)+1$ the bounds read
 $f(6)\ge537$ and $f(7)\ge1681$. For $k=7$ the bound has since been raised to
 $S(7)\ge1696$ (Rowley 2021, recorded second-hand from the arXiv abstract of
-2107.03560 and from Table 1 of Ageron et al., both read; not held).
+2107.03560 and from Table 1 of Ageron et al.; not held).
 
 **Source.** H. Fredricksen and M. M. Sweet, *Symmetric sum-free partitions
 and lower bounds for Schur numbers*, Electron. J. Combin. 7 (2000), #R32,

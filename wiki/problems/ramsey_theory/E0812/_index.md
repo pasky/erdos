@@ -103,13 +103,14 @@ answer(sorry) ↔ ∃ c > 0, ∀ᶠ n in atTop, (R (n + 1) : ℝ) / (R n : ℝ) 
 4 * (n : ℤ) - 8` under `category research solved` with a docstring attributing
 it to [BEFS89]; all three proofs are `sorry`. The variant encodes the site's
 figure $4n-8$, which is four below the paper's $4n-4$ (below), so it is a true
-but weakened form of the source's statement. The community database lists the
-problem as open (entry last updated 31 August 2025), the statement formalized
-since 8 March 2026, and no formal proof. The corpus has not built these files.
+but weakened form of the source's statement. The community database, read
+2026-09-18, lists the problem as open (entry last updated 31 August 2025), the
+statement formalized since 8 March 2026, and no formal proof. The corpus has not
+built these files.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; OPEN, marked as not resolvable by a finite computation; no prize
 and no last-edited date. The commentary credits Burr, Erdős, Faudree and
 Schelp [BEFS89] with $R(n+1)-R(n)\ge4n-8$ for every $n\ge2$ and notes that

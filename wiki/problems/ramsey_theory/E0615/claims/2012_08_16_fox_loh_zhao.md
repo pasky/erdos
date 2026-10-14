@@ -78,9 +78,9 @@ negative answer and with the quantitative lower bound behind it (page accessed
 2026-09-18). The thread and the proof-claim tab are empty, so the commentary is
 the whole of the site's record. Refereed: Combinatorica 35 (2015), no. 4,
 435--476, DOI 10.1007/s00493-014-3025-3, published online 22 October 2014,
-according to the Crossref record and the arXiv listing's journal reference. The
-edition cited is the arXiv v3. The journal text is not held and was not
-compared.
+according to the Crossref record and the arXiv listing's journal reference,
+accessed 2026-09-18. The edition cited is the arXiv v3. The journal text is not
+held and was not compared.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos615.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of

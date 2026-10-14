@@ -57,7 +57,7 @@ https://www.erdosproblems.com/179.
 - [FoPo20] Fox, J. and Pohoata, C., Sets without $k$-term progressions can have
   many shorter progressions. Random Structures Algorithms 58 (2021), no. 3,
   383--389, doi:10.1002/rsa.20984 (published online 15 December 2020;
-  Crossref record read); arXiv:1908.09905 (2020).
+  Crossref record read 2026-10-07); arXiv:1908.09905 (2020).
 - [LSS24] Leng, J., Sah, A. and Sawhney, M., Improved bounds for Szemerédi's
   theorem. arXiv:2402.17995 (2024).
 

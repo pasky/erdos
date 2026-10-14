@@ -30,8 +30,8 @@ $$
 $$
 
 **Status.** Solved: the limit is $+\infty$. The site labeled the problem SOLVED
-(LEAN), and its page was last edited 1 September 2026. Its commentary credits
-the proof to an internal model at OpenAI, in the form
+(LEAN), and its page was last edited 1 September 2026. Its commentary (accessed
+2026-10-07) credits the proof to an internal model at OpenAI, in the form
 $R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. The site also hosts Rob Morris's
 seven-page exposition of the construction under its proof expositions. The
 source is OpenAI's August 6, 2026 version of
@@ -46,8 +46,8 @@ refereed. This project's review of its own reconstruction (under Current
 assessment) is not counted as acceptance.
 
 **Source.** [erdosproblems.com/183](https://www.erdosproblems.com/183), accessed
-2026-09-04 and 2026-10-07: the problem page, its discussion thread (six
-comments, none an objection) and its empty proof-claim tab.
+2026-09-04 and 2026-10-07: the problem page and its discussion thread (six
+comments, none an objection); its proof-claim tab was empty.
 Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
 
 **References.**
@@ -55,18 +55,18 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
 - [Wa97] Wan, Honghui, Upper bounds for Ramsey numbers $R(3,3,\cdots,3)$ and
   Schur numbers. J. Graph Theory 26 (1997), no. 3, 119--122, DOI
   `10.1002/(SICI)1097-0118(199711)26:3<119::AID-JGT1>3.0.CO;2-U` (received
-  9 November 1990, revised 15 June 1993, per p. 119). Theorem 2.4, p. 121: $R(3;k)\le k!(e-e^{-1}+3)/2+1$ for $k\ge4$, from
-  Folkman's $R(3;4)\le65$ through a parity refinement of the
-  Greenwood–Gleason recursion. A historical factorial upper bound,
-  superseded by [XXC02] as given in Eliahou's Corollary 2 (see Known
-  Results); it does not bear on the limit. Library home:
+  9 November 1990, revised 15 June 1993, per p. 119). Theorem 2.4, p. 121:
+  $R(3;k)\le k!(e-e^{-1}+3)/2+1$ for $k\ge4$, from Folkman's $R(3;4)\le65$
+  through a parity refinement of the Greenwood–Gleason recursion. A historical
+  factorial upper bound, superseded by [XXC02] as given in Eliahou's Corollary 2
+  (see Known Results); it does not bear on the limit. Library home:
   [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/_index|wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers]]
   and its
   [[../library/ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_2_4|theorem_2_4]]
   page.
 - [Wh73] Whitehead, Jr., Earl Glen, The Ramsey number $N(3,\,3,\,3,\,3;\,2)$.
   Discrete Math. 4 (1973), no. 4, 389--396, DOI 10.1016/0012-365X(73)90174-X
-  (Crossref record). The site's text prints no volume.
+  (Crossref record accessed 2026-10-07). The site's text prints no volume.
 - [XXC02] Xu, Xiao Dong and Xie, Zheng and Chen, Zhi, Upper bounds for Ramsey
   numbers $R_n(3)$ and Schur numbers (in Chinese). Math. Econ. 19 (2002),
   no. 1, 81--84 (volume and issue from the bibliography of Radziszowski's
@@ -168,10 +168,10 @@ obligations; this reduction changes no catalog status or formal standing.
 
 **Search scope:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the
-identified matrix/cover predecessor. The catalog page's last edit is dated 1 September 2026, so the
-formulation above, taken on 2026-09-04, is unchanged. This bounded search
-does not assert a comprehensive literature search or an independent
-community-acceptance review.
+identified matrix/cover predecessor. The catalog page's last edit is dated 1
+September 2026, so the formulation above, taken on 2026-09-04, is unchanged.
+This bounded search does not assert a comprehensive literature search or an
+independent community-acceptance review.
 
 The lower-route review examined this page as it stood on 2026-09-09, and the
 upper-route review and grade as it stood on 2026-09-10. Since the reviews,

@@ -33,12 +33,12 @@ Deshouillers--Prakash and Nguyen--Szemerédi--Vu proved the asymptotic form
 **Source.** É. Balandraud, *An addition theorem and maximal zero-sum free sets
 in $\mathbb Z/p\mathbb Z$*, Israel J. Math. 188 (2012), no. 1, 405--429, DOI
 10.1007/s11856-011-0171-9 (published online 6 October 2011; Crossref record
-read), with an erratum, Israel J. Math. 192 (2012), no. 2, 1009--1010, DOI
-10.1007/s11856-012-0065-5 (record found the same day, not read). The copy read
-for this page is arXiv:0907.3492v1 (20 July 2009, 17 pp.), whose labels and
-pagination are used here; the journal text and the erratum were not compared, so
-the journal's theorem numbers may differ. Theorem 9 and Section 3.3 on p. 16,
-read in the text layer.
+read 2026-09-18), with an erratum, Israel J. Math. 192 (2012), no. 2,
+1009--1010, DOI 10.1007/s11856-012-0065-5 (record found the same day, not read).
+The copy read for this page is arXiv:0907.3492v1 (20 July 2009, 17 pp.), whose
+labels and pagination are used here; the journal text and the erratum were not
+compared, so the journal's theorem numbers may differ. Theorem 9 and Section 3.3
+on p. 16, read in the text layer.
 
 **Read depth.** Claims checked: the statement, the definition and the
 Section 3.3 history were read clause by clause in the text layer and on the

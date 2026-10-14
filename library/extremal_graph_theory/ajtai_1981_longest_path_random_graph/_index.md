@@ -53,7 +53,7 @@ the Corollary (printed p. 2), read on the page image; the proofs (Sections 1
 and 2, pp. 4--12) were not read. Theorem 2 with the Exponential rate, the
 Corollary, the sentence "Same remark applies for Theorem 1 [sic], i.e. for
 $G_{n,p}$" that follows it, Remarks 1 and 2 and paragraph E's attribution
-were re-read clause by clause on the page images of printed pp. 2--3 (PDF pp.
+were read clause by clause on the page images of printed pp. 2--3 (PDF pp.
 3--4) for Problem 900; paged at
 [[extremal_graph_theory/ajtai_1981_longest_path_random_graph/theorem_2|theorem_2]].
 Theorem 1, the statement of paragraph 1.H with the bound (1.9) and the

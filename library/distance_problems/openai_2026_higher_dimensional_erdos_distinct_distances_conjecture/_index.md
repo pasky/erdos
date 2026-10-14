@@ -56,7 +56,7 @@ own README carries only the title, the author line "OpenAI", the date September
 verification. The manuscript names no author beyond "OpenAI" and carries no
 arXiv identifier. These are the source's historical attestations, recorded here
 as such: no refereed publication, no arXiv version and no independent review of
-the manuscript is recorded here and nothing on this card is independently
+the manuscript is recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization: the release's catalogue `lean/formalization.yaml` does not name

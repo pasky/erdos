@@ -22,19 +22,20 @@ the proof's structure.
 R. Morris, *Some recent results in Ramsey theory*, Proceedings of the
 International Congress of Mathematicians 2026, Vol. 2: Plenary Lectures,
 210--239; DOI 10.1137/25m1833369 (published online 13 July 2026; the
-Crossref record was read). Preprint arXiv:2601.05221 (v1 8
+Crossref record was read on 2026-09-17). Preprint arXiv:2601.05221 (v1 8
 January 2026, the only arXiv version; no journal reference on the listing).
 
 The retained [folder-name PDF](morris_2026_recent_results_ramsey_theory.pdf) is
 arXiv:2601.05221v1 [math.CO] 8 Jan 2026, 37 pages, with a text layer. Page
 numbers below are the arXiv pages; the published text has not been compared.
-Page 4 was read on a rendered page image; the rest of the survey is digested
-from an earlier reading. The arXiv record (https://arxiv.org/abs/2601.05221,
-read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+Pages 1--4 were read on rendered page images; the rest of the survey is
+digested and was not checked against the page images. The arXiv record
+(https://arxiv.org/abs/2601.05221, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 Read status: claims checked for Theorem 1.5 and the attribution sentences
 around it (p. 4), read clause by clause on the page image; Theorems 1.1 to
-1.4 were re-read on the page images of pp. 1--3 (Theorem 1.1
+1.4 were read on the page images of pp. 1--3 (Theorem 1.1
 and display (1) with their attribution sentences on p. 1, Theorem 1.2 and
 its attributions on p. 2, Theorem 1.3 with display (3) and Theorem 1.4 on
 p. 3), each clause by clause. As a survey the paper proves nothing itself;
@@ -85,8 +86,8 @@ that no recent work it covers bears on that problem.
 
 ## Compiled scope
 
-Page 4 was read on the page image; the other pages are digested from an
-earlier reading and were not re-read. Nothing here is independently
+Pages 1--4 were read on the page images; the other pages are digested and
+were not checked against the page images. Nothing here is independently
 reviewed.
 
 Source: <https://arxiv.org/abs/2601.05221>.

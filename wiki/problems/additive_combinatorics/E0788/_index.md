@@ -92,13 +92,13 @@ https://www.erdosproblems.com/788, accessed 2026-09-18.
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/section_9|Section 9]].
 - [Ch71] Choi, S. L. G., On a combinatorial problem in number theory. Proc.
   London Math. Soc. (3) 23 (1971), no. 4, 629--642, DOI
-  10.1112/plms/s3-23.4.629 (Crossref record). Not held;
+  10.1112/plms/s3-23.4.629 (Crossref record accessed 2026-09-18). Not held;
   its bound $f(n)=O(n^{3/4})$ and its conjecture are quoted from [Er73] and
   [BSS00], p. 172.
 - [BSS00] Baltz, A., Schoen, T. and Srivastav, A., Probabilistic
   construction of small strongly sum-free sets via large Sidon sets.
   Colloq. Math. 86 (2000), no. 2, 171--176, DOI 10.4064/cm-86-2-171-176
-  (Crossref record; received 4 May 1999, revised 1
+  (Crossref record accessed 2026-09-18; received 4 May 1999, revised 1
   December 1999). Theorem 2, printed p. 173; the greedy lower bound and
   Choi's bounds, p. 172.
   Library home:
@@ -106,9 +106,10 @@ https://www.erdosproblems.com/788, accessed 2026-09-18.
   result page
   [[../library/additive_combinatorics/baltz_2000_probabilistic_construction_small_strongly_sum_free/theorem_2|Theorem 2]].
 - [AlPh25] Alon, N. and Pham, H. T., Random Cayley graphs and random
-  sumsets. arXiv:2509.02561v1 (2 September 2025; 19 pages). Theorem 4 (the
-  independence number) and Theorem 5 (Green's non-sumset function, a
-  different function also written $f(n)$), p. 3; Conjecture 2, p. 2. Library home:
+  sumsets. arXiv:2509.02561v1 (2 September 2025; 19 pages; the only
+  version on 2026-09-18; no journal record). Theorem 4 (the independence
+  number) and Theorem 5 (Green's non-sumset function, a different
+  function also written $f(n)$), p. 3; Conjecture 2, p. 2. Library home:
   [[../library/additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/_index|alon_2025_random_cayley_graphs_random_sumsets]];
   result page
   [[../library/additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/theorem_4|Theorem 4]].
@@ -213,8 +214,9 @@ $f(n)$ such that every subset of $\mathbb Z_n$ of size more than $n-f(n)$ is a
 sumset $A+A$, which is a different function that happens to share the letter and
 the exponent. The reduction itself is a thread argument adopted by the site's
 commentary; no paper states it, and it is quoted here as the site's account.
-[AlPh25] is a preprint; four 2026 preprints cite it (Semantic Scholar), none a
-review. Theorems 1, 4 and 5 and Conjecture 2 are stated from
+[AlPh25] is a preprint with one version and no journal record (Crossref
+bibliographic query, 2026-09-18); four 2026 preprints cite it (Semantic
+Scholar), none a review. Theorems 1, 4 and 5 and Conjecture 2 are stated from
 the paper; no proof is reviewed in this corpus.
 
 **The 2026 claim.** The proof-claim tab carries one full claim, submitted

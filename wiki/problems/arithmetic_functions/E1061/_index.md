@@ -81,7 +81,7 @@ commit; no formal proof is filed there).
 
 ## Current assessment
 
-**The question (site formulation).** How many pairs
+**The question (site formulation, accessed 2026-09-04).** How many pairs
 $(a,b)$ with $a+b\le x$ satisfy $\sigma(a)+\sigma(b)=\sigma(a+b)$, and
 whether the count is $\sim cx$ for some constant $c>0$. The site labeled the
 problem OPEN.
@@ -99,8 +99,8 @@ not determine the order of growth.
 
 **Lean coverage.** The formal-conjectures statement `erdos_1061`, at the
 commit pinned in the Formalization paragraph, states the question with
-`answer(sorry)` and a `sorry` proof, and no formal proof is filed there; no
-file in the lean-proofs repository treats the problem.
+`answer(sorry)` and a `sorry` proof, and no formal proof is filed there; on
+2026-10-07 no file in the lean-proofs repository treated the problem.
 
 **Historical record.** Guy [Gu04], section B15, records the question as how
 many solutions there are with $q+r<x$, whether $cx+o(x)$ or of higher order;

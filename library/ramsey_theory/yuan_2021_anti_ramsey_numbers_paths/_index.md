@@ -30,10 +30,10 @@ uses the singular.
 (9 February 2021; v1 is of 1 February 2021), ten A4 pages with a clean text
 layer. The arXiv listing carries no journal reference, a Crossref bibliographic
 query for the title found no journal record, and the Semantic Scholar citation
-list (seven records, 2022--2026) contains no published version (all read). A
-preprint: the site accepts it as the proof of the path formula, and the
-community database records the problem as proved since 1 February 2026; no
-refereed version and no independent review are known here. The arXiv record
+list (seven records, 2022--2026) contains no published version (all read
+2026-09-18). A preprint: the site accepts it as the proof of the path formula,
+and the community database records the problem as proved since 1 February 2026;
+no refereed version and no independent review are known here. The arXiv record
 (https://arxiv.org/abs/2102.00807, read 2026-10-02) names the CC0 1.0 Universal
 public domain dedication.
 

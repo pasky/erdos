@@ -44,10 +44,10 @@ E:\quad y^2=x^3+2x^2-3x.
 $$
 
 The external rank and torsion data are $\operatorname{rank}E(\mathbb Q)=0$ and
-$\#E(\mathbb Q)_{\rm tors}=8$. They are recorded in the source and in [LMFDB
-24.a4](https://www.lmfdb.org/EllipticCurve/Q/24/a/4). Its model
-$y^2=X^3-X^2-4X+4$ is obtained by $X=x+1$. Thus all rational points are torsion.
-The eight distinct points
+$\#E(\mathbb Q)_{\rm tors}=8$. They are recorded in the source and in
+[LMFDB 24.a4](https://www.lmfdb.org/EllipticCurve/Q/24/a/4), accessed
+2026-09-05. Its model $y^2=X^3-X^2-4X+4$ is obtained by $X=x+1$. Thus all
+rational points are torsion. The eight distinct points
 
 $$
 \mathcal O,\ (0,0),\ (1,0),\ (-3,0),\ (-1,\pm2),\ (3,\pm6)

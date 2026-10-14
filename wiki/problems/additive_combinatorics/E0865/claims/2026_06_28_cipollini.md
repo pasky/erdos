@@ -110,7 +110,7 @@ together with the sharpness example, and records `#print axioms` as
 states the formal-conjectures theorem, whose own body is `sorry`, and no
 bridging declaration or statement-fidelity review exists. The corpus holds
 no build of either development, so neither gives formalized evidence; the
-community database lists the problem as "proved (Lean)" as
+community database, read 2026-09-18, lists the problem as "proved (Lean)" as
 of its last update on 2026-07-02, which does not date the change of state.
 The problem's standing rests on the site's documented review of the
 preprint, and a refereed version or an independent whole-argument review is

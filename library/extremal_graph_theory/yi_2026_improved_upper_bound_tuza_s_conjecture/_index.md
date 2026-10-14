@@ -27,7 +27,7 @@ edges and one red edge; the two-lemma induction followed here; unrefereed.
 
 L. Yi, *An improved upper bound for Tuza's conjecture via 2-colorable
 triangle families*, arXiv:2608.23010v1 [math.CO] (24 August 2026), 4 pages.
-A preprint: the arXiv record read by the consuming page lists
+A preprint: the arXiv record read by the consuming page on 2026-09-19 lists
 one version and no journal reference, and no refereed publication or
 independent review was found; the one citing record found is
 arXiv:2609.13831 (Wang, "A bound below 2.8 for Tuza's conjecture", not
@@ -36,12 +36,10 @@ discussions.
 
 **Edition read.** The copy read for this card is the arXiv v1 text (the
 arXiv stamp "arXiv:2608.23010v1 [math.CO] 24 Aug 2026" on p. 1; 4
-letter-size pages, a clean text layer), obtained in September 2026 from
-arXiv (retrieval date not recorded); its arXiv address is
-<https://arxiv.org/abs/2608.23010v1>.
-Provenance: 212,958 bytes. The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2608.23010), every other right
-reserved.
+letter-size pages, a clean text layer), obtained from arXiv; its arXiv address
+is <https://arxiv.org/abs/2608.23010v1>. Provenance: 212,958 bytes. The arXiv
+record names arXiv's non-exclusive distribution license (arXiv:2608.23010),
+every other right reserved.
 
 Read status: claims checked for the whole paper, the abstract, introduction
 and Theorem 1 (p. 1), Lemmas 2.1--2.2 and the proof of Theorem 1 (pp. 2--3),

@@ -28,11 +28,12 @@ American Mathematical Society **5** (1954), no. 5, 838--841. The manuscript
 was received March 2, 1954, and the issue is dated October 1954. The registered
 DOI is [10.1090/S0002-9939-1954-0063389-3](https://doi.org/10.1090/S0002-9939-1954-0063389-3).
 The copy read for this card is the published scan, whose four physical pages
-are printed pp.838--841. No notice is printed on the scanned pages, the
-Crossref record names no license, and the publisher's copyright policy page
-(www.ams.org/publications/authors/ctp, read 2026-10-02) states that authors
-transfer copyright to the Society and names Creative Commons licenses only for
-its open-access series, every other right reserved.
+are printed pp.838--841. No notice is printed on the scanned pages; the
+journal's article page could not be read on 2026-10-02 (only its site header was
+retrievable), the Crossref record names no license, and the publisher's
+copyright policy page (www.ams.org/publications/authors/ctp, read 2026-10-02)
+states that authors transfer copyright to the Society and names Creative Commons
+licenses only for its open-access series, every other right reserved.
 
 For a set $A$ of positive natural numbers, write $A(n)$ for the number of
 $a\in A$ with $a\leq n$. Lorentz calls $A$ and $B$ complementary when $A+B$
@@ -61,12 +62,13 @@ comparison provide upper bounds. The reconstruction records the printed
 notation and uses the inequalities required by the argument.
 
 Besides $B(n)=o(n)$, printed p.840 draws two further unlabeled consequences
-of (1), recorded here without pages of their own. If $\liminf_{n\to\infty}\log A(n)/\log n=\alpha>0$, there
-is a complement $B$ with $\limsup_{n\to\infty}\log B(n)/\log n\leq1-\alpha$.
-If $A(n)\geq\alpha n$, (1) gives $B(n)\leq C\log^2n$; the paper remarks
-that (1) is likely best possible when only the growth of $A(n)$ is taken into
-account, and reports (pp.840--841) that Erdős showed by a probabilistic
-argument that the $\log^2n$ bound cannot be improved.
+of (1), recorded here without pages of their own. If
+$\liminf_{n\to\infty}\log A(n)/\log n=\alpha>0$, there is a complement $B$ with
+$\limsup_{n\to\infty}\log B(n)/\log n\leq1-\alpha$. If $A(n)\geq\alpha n$, (1)
+gives $B(n)\leq C\log^2n$; the paper remarks that (1) is likely best possible
+when only the growth of $A(n)$ is taken into account, and reports (pp.840--841)
+that Erdős showed by a probabilistic argument that the $\log^2n$ bound cannot be
+improved.
 
 [[additive_bases/lorentz_1954_problem_additive_number_theory/theorem_2|Theorem
 2]] is retained at statement-and-pointer scope only. It is a finite cyclic

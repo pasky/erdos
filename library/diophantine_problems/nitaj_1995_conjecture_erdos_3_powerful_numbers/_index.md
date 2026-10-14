@@ -19,9 +19,9 @@ updated: 2026-10-08T01:51:15Z
 Abderrahmane Nitaj, *On a conjecture of Erdős on 3-powerful numbers*, Bulletin
 of the London Mathematical Society **27** (1995), no. 4, 317--318,
 [doi:10.1112/blms/27.4.317](https://doi.org/10.1112/blms/27.4.317) (publisher
-Wiley; issued July 1995; bibliographic data from Crossref). The article is
-paywalled and no copy is held (no purchase), so no folder-name PDF exists and
-its theorem numbering and proof have not been read here.
+Wiley; issued July 1995; bibliographic data from Crossref, read 2026-09-27).
+The article is paywalled and no copy is held (no purchase), so no folder-name
+PDF exists and its theorem numbering and proof have not been read here.
 
 **Result as recorded by the site and by a held source.** The article proves
 that there are infinitely many triples of coprime $3$-powerful numbers

@@ -69,7 +69,7 @@ paper's theorem is recorded from the curator's remark, the formal-conjectures
 docstring, the OEIS entry A371134 and the labels of the Lean gist (the
 paper's Lemmas 1 and 3 and Theorem 4), not from its full text, which the
 library does not hold. Search scope: the site's page, its discussion thread
-(three comments, 2025-09-02 to 2026-09-28, and no proof claims on 2026-10-07),
+(three comments, 2025-09-02 to 2026-09-28, on 2026-10-07; no proof claims),
 the formal-conjectures file, the Crossref record of the paper and the OEIS entry
 A371134. The thread's latest comment, of 2026-09-28, links a
 dated manuscript claiming that the sum is normal to base 2, a stronger

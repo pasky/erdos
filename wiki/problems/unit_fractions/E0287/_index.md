@@ -33,7 +33,7 @@ we must have $\max(n_{i+1}-n_i)\geq 3$?
 **Formulation.** The denominators are integers greater than $1$; the site
 made this explicit after a comment of 26 December 2025 exhibited a
 twenty-term representation with negative denominators and every gap at
-most $2$, and the site's owner confirmed that all
+most $2$, and the site's owner confirmed on 27 December 2025 that all
 unit-fraction problems assume denominators above $1$ (the page was last
 edited 23 January 2026). The condition $k\ge2$ excludes $1=1/1$. A
 counterexample would be a single representation of $1$ by distinct
@@ -86,17 +86,17 @@ https://www.erdosproblems.com/287, accessed 2026-09-17.
 
 **Formalization.** Statement only for the main question. The file
 [`ErdosProblems/287.lean`](https://github.com/google-deepmind/formal-conjectures/blob/2074bd5600639880106b82447ff96269996822b7/FormalConjectures/ErdosProblems/287.lean)
-of formal-conjectures (the link is pinned to that commit)
-declares `erdos_287` as `answer(sorry) ↔` the statement for all $k\ge2$ and
-all strictly increasing `s : Fin k → ℕ` with `1 < s 0` and real reciprocal sum
-$1$, under `category research open`, proof `sorry`. The same file carries the
-variant `gap_at_least_two` (the bound $2$, `research solved`, with a
+of formal-conjectures at its commit of 2026-09-21 (the link is pinned to that
+commit) declares `erdos_287` as `answer(sorry) ↔` the statement for all $k\ge2$
+and all strictly increasing `s : Fin k → ℕ` with `1 < s 0` and real reciprocal
+sum $1$, under `category research open`, proof `sorry`. The same file carries
+the variant `gap_at_least_two` (the bound $2$, `research solved`, with a
 `formal_proof` pointer added 2026-09-16 to the theorem `gap_at_least_two` of
 `P287/gap_full.lean` in the repository `Zed-Rez/erdos-287-lean`), the test
 `best_possible` for $(2,3,6)$ (proved by `decide`), the conjecture
-`prime_conjecture` (a prime $p\in[N,2N]$ with $(p+1)/2$ prime for all large
-$N$; `research open`) and `prime_conjecture_implies` (that conjecture implies
-the statement for all $k\ge k_0$; `category textbook`, proof `sorry`, with a
+`prime_conjecture` (a prime $p\in[N,2N]$ with $(p+1)/2$ prime for all large $N$;
+`research open`) and `prime_conjecture_implies` (that conjecture implies the
+statement for all $k\ge k_0$; `category textbook`, proof `sorry`, with a
 `formal_proof` pointer added 2026-09-21 to `PCI.prime_conjecture_implies` of
 `P287/Part3.lean` in the same repository). The community database records a
 formalized statement since 24 June 2026 and no formal-proof URL. The

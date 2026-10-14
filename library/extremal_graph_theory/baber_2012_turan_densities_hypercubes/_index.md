@@ -35,7 +35,7 @@ version whose arXiv comment, read in full,
 says it was "Revised to include a new bound for $\pi(K_4^3)$, improved
 bounds for the hypercube edge Turán density results, and a new extension of
 Razborov's method"; its title page is dated 4 November 2018 by its
-typesetting. The arXiv record carries no journal reference and a
+typesetting. On 2026-09-18 the arXiv record carried no journal reference and a
 Crossref bibliographic query on the title returned no record for the paper:
 a preprint. The arXiv record
 names arXiv's non-exclusive distribution license (arXiv:1201.3587), every other

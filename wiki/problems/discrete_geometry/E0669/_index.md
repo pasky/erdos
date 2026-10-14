@@ -63,7 +63,8 @@ For $k\ge4$ the cited sources give only the trivial upper bound, so the limits
 for $k\ge4$ are open as far as they show. The site also points to
 [[problems/discrete_geometry/E0101/_index|Problem 101]]. The literature search
 behind this account covered the site's page, the two papers above and the
-formal-conjectures repository.
+formal-conjectures repository, which had no statement file for the problem on
+2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

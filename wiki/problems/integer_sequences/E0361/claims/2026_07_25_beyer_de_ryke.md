@@ -74,9 +74,9 @@ independent write-ups.
 are not checked on this page, and nothing here is this project's own review.
 
 **Standing.** Claimed: a note on a file-sharing service whose identity is not
-pinned, posted as a thread comment and not as a proof claim of its own; the
-site's label was OPEN (page last edited 17 October 2025; thread accessed
-2026-10-07), and no preprint-server version, refereed version, site
+pinned, posted as a thread comment (thread accessed 2026-10-07) and not as a
+proof claim of its own; the site's label was OPEN (page last edited 17 October
+2025), and no preprint-server version, refereed version, site
 acceptance or independent review was found on 2026-10-07.
 
 **Depends on.**

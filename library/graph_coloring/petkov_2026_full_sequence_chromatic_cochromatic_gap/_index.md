@@ -111,7 +111,7 @@ not restated here.
 The [pinned author metadata][metadata] explicitly claims neither external
 mathematical peer review nor community acceptance. Its review status is
 “self-assessed with independent kernel replay; not peer-reviewed.” The
-arXiv record checked lists only v1 and no journal
+arXiv record checked on 9 September 2026 listed only v1 and no journal
 reference. Human peer review and independent review of the entire manuscript
 were not established here. These are reported external
 checks; no local kernel replay, native formalization, or native verification

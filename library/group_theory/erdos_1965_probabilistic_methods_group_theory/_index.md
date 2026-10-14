@@ -41,7 +41,7 @@ element as a subset sum with probability greater than 1 - delta.
 P. Erdős, A. Rényi: Probabilistic methods in group theory, J. Analyse Math. 14
 (1965), 127--138 (MR 34 #2690; Zentralblatt 247.20045). The copy read for this
 card is the hosting archive's scan, and the archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, prints
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
 "(C) 2005-2007 All rights reserved. All material on this site is for scientifics
 purposes only."); the publisher's article page was not read, and the Crossref
 record for DOI 10.1007/bf02806383
@@ -89,8 +89,9 @@ Source: <https://users.renyi.hu/~p_erdos/1965-15.pdf>.
   probability greater than 1 - delta, about twice the log_2 N the problem
   asks about. The paper states the probability bound 1 - delta for a given
   delta, where the problem asks for probability tending to 1, and samples
-  with repetition where the problem takes a random k-set. Its conjecture (p. 129) asserts that the factor 2 cannot be
-  lowered, and it gives no argument for that.
+  with repetition where the problem takes a random k-set. Its conjecture (p.
+  129) asserts that the factor 2 cannot be lowered, and it gives no argument for
+  that.
 
 **Results.**
 

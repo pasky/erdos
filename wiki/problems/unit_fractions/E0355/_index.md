@@ -70,7 +70,7 @@ T. F. Bloom, Erdős Problem #355, https://www.erdosproblems.com/355, accessed
   29 September 2025; v2 5 October 2025; v3 3 December 2025, 17 pages);
   Acta Arith. 223 (2026), 275--295, DOI 10.4064/aa251001-13-1,
   published online 15 April 2026 (the arXiv journal reference and the
-  Crossref record); the published text is not compared with
+  Crossref record of 2026-09-18); the published text is not compared with
   the preprint.
   Theorem 1, p. 2; Theorem 2, pp. 2--3 of the preprint. Library home:
   [[../library/unit_fractions/doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent/_index|doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent]];

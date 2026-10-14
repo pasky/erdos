@@ -37,7 +37,7 @@ erratum quotes it, the original sentence credited the authors' earlier paper,
 reference [1] of the article), with ruling out Steiner coset partitions for
 every number $r\geq 2$ of mutually commuting subgroups $H_i$; the corrected
 sentence limits this to $r\in\{2,3\}$. The held PDF of the 2025 article, also
-a Cambridge Core download of 18 September 2026, prints that sentence with
+a Cambridge Core download, prints that sentence with
 $2\leq r\leq 7$ (p. 1359), matching neither version the erratum quotes; for
 use in this corpus, the erratum's corrected range $r\in\{2,3\}$ controls.
 

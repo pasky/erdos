@@ -80,7 +80,8 @@ Nothing here is independently reviewed.
 Page 100. The Corollary of Theorem 1:
 $(n,n-1,\ldots,2,1)+(0,1,\ldots,n-2,n-1)=n_n$, and $(0,1,\ldots,n-1)$ is
 a rearrangement of $\mathbf{n-1}$, so $n_n\in\mathbf n\oplus(\mathbf{n-1})$
-and Theorem 1 applies. The proof of Theorem 1, through Lemmas 1 and 2, is sketched on its
+and Theorem 1 applies. The proof of Theorem 1, through Lemmas 1 and 2, is
+sketched on its
 [[extremal_graph_theory/fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/theorem_1|page]].
 
 ## Dependencies

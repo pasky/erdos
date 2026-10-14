@@ -69,7 +69,8 @@ applied to factors at most $n$ and followed by Cambie's pairing, written as a
 blueprint, with the upper bounds formalized in Lean in the PNT+ project. The
 site's label PROVED (LEAN) and the formal-conjectures record tie the problem to
 the PNT+ proof, but the site's commentary credits only Cambie's reduction and
-names no author of the proof, no refereed write-up is recorded and the Lean has not been built here; so the claim is pending and the problem is
+names no author of the proof, no refereed write-up is recorded, and the Lean
+has not been built here; so the claim is pending and the problem is
 `claimed`.
 
 The site's remarks give two reductions. With the bound $n$ in place of $n^2$,

@@ -45,7 +45,7 @@ The retained folder-name PDF is arXiv:2409.07403v2 (7 January 2025,
 "Incorporates referee's suggestions", 18 pp.), whose pagination is used
 here; the journal version is Israel J. Math. 273 (2026), no. 1, 471--500,
 DOI 10.1007/s11856-025-2871-6 (published online 30 November 2025; Crossref
-record read), not held and not compared, so the paper is
+record read 2026-09-18), not held and not compared, so the paper is
 refereed. Read status: claims checked for Theorem 1.2 and the proof sketch
 of Section 1.2 (pp. 1--2, text layer); the proof (Sections 3--6) was not read.
 Result page:

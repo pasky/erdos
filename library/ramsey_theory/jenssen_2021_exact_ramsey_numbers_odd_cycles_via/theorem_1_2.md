@@ -37,7 +37,7 @@ via nonlinear optimisation", arXiv:1608.05705v1 (19 August 2016), the copy
 read for this page; Conjecture 1.1, display (1.1) and Theorem 1.2 on printed
 and physical p. 2, read on the page image and in the text layer. Published as
 Adv. Math. 376 (2021), Paper No. 107444, DOI 10.1016/j.aim.2020.107444
-(Crossref record read); arXiv lists no later version. The journal
+(Crossref record read 2026-09-17); arXiv lists no later version. The journal
 text was not compared and these locators are the preprint's.
 
 **Read depth.** Claims checked: Conjecture 1.1, display (1.1) and Theorem

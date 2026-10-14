@@ -36,7 +36,7 @@ $n^{2-\varepsilon}$ edges contain $(e+4,e)$-configurations.
 Brown-Erdős-Sós problem*, arXiv:2301.07758v1 (18 January 2023, 8 pages), the
 retained file; also EuroComb 2023 proceedings (doi:10.5817/cz.muni.eurocomb23-112)
 and Israel J. Math. 267 (2025), 717--728, doi:10.1007/s11856-025-2714-5
-(Crossref records), neither held or compared. Theorem
+(Crossref records, read on 2026-09-18), neither held or compared. Theorem
 1.4 on p. 3 and Conjectures 1.2-1.3 on p. 2, read on the page images and in
 the text layer. The artifact is identified in the
 [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/_index|source digest]].

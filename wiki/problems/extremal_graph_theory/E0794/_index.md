@@ -27,7 +27,7 @@ updated: 2026-10-08T02:16:54Z
 with at least $n^3+1$ edges must contain either a subgraph on $4$ vertices with
 $3$ edges or a subgraph on $5$ vertices with $7$ edges?
 
-**Formulation.** The site's wording (the page carries no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
 last-edited date). It restates Erdős's 1969 conjecture, printed as "Every
 $G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$" ([Er69], p. 81;
 [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|result page]]).
@@ -107,7 +107,7 @@ https://www.erdosproblems.com/794, accessed 2026-09-18.
   [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|conjecture_p81]].
 - [FrFu84] Frankl, P. and Füredi, Z., An exact result for $3$-graphs. Discrete
   Math. 50 (1984), 323--328, doi:10.1016/0012-365X(84)90058-X (Crossref record
-  read; the site's reference text gives "Discrete Math. (1984),
+  read on 2026-09-18; the site's reference text gives "Discrete Math. (1984),
   323--328"); Theorem 3, p. 325; the disproof sentence, p. 324. Library home:
   [[../library/extremal_graph_theory/frankl_1984_exact_result_graphs/_index|frankl_1984_exact_result_graphs]].
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs. Hypergraph
@@ -121,7 +121,7 @@ https://www.erdosproblems.com/794, accessed 2026-09-18.
 
 **Formalization.** The site's "(Lean)" suffix is a catalog label. The file
 [`ErdosProblems/794.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/794.lean)
-of formal-conjectures (the link is pinned to that revision)
+of formal-conjectures (main on 2026-09-18; the link is pinned to that revision)
 declares
 `erdos_794 : answer(False) ↔ ∀ n : ℕ, ∀ H : Finset (Finset (Fin (3 * n))), H.IsThreeUniform → n ^ 3 + 1 ≤ H.card → H.ContainsSubgraph 4 3 ∨ H.ContainsSubgraph 5 7`
 under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
@@ -137,7 +137,7 @@ hypergraph on $n$ vertices with no four vertices spanning three edges and at
 least $(2/7-\varepsilon)\binom n3$ edges). Since 18 September 2026 the file
 proves the `balogh` variant in full, by the double count below, and the `harris`
 variant by `decide +kernel`; `erdos_794` and `frankl_furedi` keep `sorry`, and
-the file spells the uniformity predicate `IsUniform 3`. The
+on 2026-10-07 the file spelled the uniformity predicate `IsUniform 3`. The
 external file named by the attribute, at the lean-proofs commit of 15 September
 2026 pinned on the claim page: 84 lines, headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, importing `Mathlib`, naming Phillip
@@ -166,7 +166,8 @@ found by Aristotle without a supplied proof of the construction's properties for
 every $n\ge3$, recorded on
 [[problems/extremal_graph_theory/E0794/claims/2026_02_06_alexeev|its own claim page]].
 The corpus has not built or audited any of these files, and no local credit is
-claimed. The community database (teorth/erdosproblems, `data/problems.yaml`) records `status` "disproved (Lean)" and `formal_status` Lean as
+claimed. The community database (teorth/erdosproblems, `data/problems.yaml`,
+read 2026-09-18) records `status` "disproved (Lean)" and `formal_status` Lean as
 of its last update on 5 February 2026, the statement formalized since 4 August
 2026, and no formal-proof field; the site's indicator reads "Yes".
 
@@ -259,7 +260,7 @@ difficult, perhaps as difficult as Turán's problem on $f(n;K_3(4))$".
 Flag-algebra upper bounds below $1/3$ exist in the literature: the Crossref
 abstract of Razborov's 2010 paper says its journal version includes
 "significantly improving numerical bounds for several problems for which the
-exact value is not known yet", and the citation lists name
+exact value is not known yet", and the citation lists, read 2026-09-18, name
 Baber and Talbot's "New Turán densities for 3-graphs" (Electron. J. Combin. 19
 (2012), arXiv:1110.4287) and Falgas-Ravry and Vaughan's "Applications of the
 semi-definite method to the Turán density problem for 3-graphs" (Combin.

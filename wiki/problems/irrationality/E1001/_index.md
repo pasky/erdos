@@ -37,12 +37,13 @@ $$
 
 exist? What is its explicit form?
 
-**Status.** Solved. The site labeled the problem SOLVED. It credits the value
-$12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz and Turán [EST58], and the
-existence of the limit to Kesten and Sós [KeSo66]. It credits alternative, more
-explicit proofs of the existence of the limit to Xiong and Zaharescu [XiZa06]
-and to Boca [Bo08]. The SOLVED label is read as resting on those two proofs for
-the explicit form. The claim pages are cited in the Current assessment.
+**Status.** Solved. The site, accessed 2026-09-04, labeled the problem SOLVED.
+It credits the value $12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz and
+Turán [EST58], and the existence of the limit to Kesten and Sós [KeSo66]. It
+credits alternative, more explicit proofs of the existence of the limit to Xiong
+and Zaharescu [XiZa06] and to Boca [Bo08]. The SOLVED label is read as resting
+on those two proofs for the explicit form. The claim pages are cited in the
+Current assessment.
 
 **Source.** [erdosproblems.com/1001](https://www.erdosproblems.com/1001),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1001,
@@ -59,8 +60,8 @@ https://www.erdosproblems.com/1001.
 - [XiZa06] Xiong, Maosheng and Zaharescu, Alexandru, A problem of
   Erdős-Szüsz-Turán on Diophantine approximation. Acta Arith. (2006), 163-177.
 
-**Formalization.** The community database records the problem
-as unformalized, and the formal-conjectures catalog has no statement file for
+**Formalization.** On 2026-10-06 the community database recorded the problem
+as unformalized, and the formal-conjectures catalog had no statement file for
 it. A third-party Lean development exists: `Erdos1001.lean` in Boris Alexeev's
 repository, whose header names Kesten and Sós as informal authors and Codex and
 GPT-5.6 Sol as formal authors, proves that the limit exists for every $A>0$ and
@@ -72,7 +73,7 @@ recorded in this repository, so it warrants no `formalized` evidence.
 
 ## Current assessment
 
-The site records Problem 1001 as solved. No independent
+The site recorded Problem 1001 as solved (accessed 2026-09-04). No independent
 check of any of the proofs is recorded. Five claim pages carry the standing,
 each with the journal publication as evidence and, where the site credits the
 result, the site's acceptance:

@@ -34,8 +34,9 @@ the open set at a critical level, not by itself Problem 1047's closed set.
 A. W. Goodman, *On the convexity of the level curves of a polynomial*,
 Proc. Amer. Math. Soc. **17** (1966), no. 2, 358--361; DOI
 10.1090/S0002-9939-1966-0188408-3 (volume, issue and DOI from the Crossref
-record; the page heads show only "1966" and "April"). Presented to the
-Society January 24, 1966; received by the editors August 12, 1965.
+record read 2026-09-17 (UTC); the page heads show only "1966" and "April").
+Presented to the Society January 24, 1966; received by the editors August 12,
+1965.
 
 The copy read for this card is a publisher scan of the four printed pages
 358--361 with a machine text layer (scan p. $n$ is printed p. $357+n$),
@@ -90,11 +91,11 @@ multiple root of high order (p. 358).
   $(a^4+6a^2-3)(a^4+6a^2-2b+3)>64a^2$, under which $E(c)$ has four
   components (derived from $|Q(a)|\ge c$, whose rearranged form carries
   $\ge$, while the printed (8) is strict); and (9) $6b>9+64a^2$, under
-  which the component of $z_3$ omits $0$ and is not convex. They hold for $a=5$, $b=303$. Theorem
-  (p. 361): for $Q(z)=3z^4-20z^3+6z^2-60z+303$, equation (10), and
-  $c^2=91{,}600$, the roots of $Q$ are simple and some component of $E(c)$
-  fails to be convex. Dividing $Q$ and $c$ by $3$ gives the monic
-  normalization (1).
+  which the component of $z_3$ omits $0$ and is not convex. They hold for $a=5$,
+  $b=303$. Theorem (p. 361): for $Q(z)=3z^4-20z^3+6z^2-60z+303$, equation (10),
+  and $c^2=91{,}600$, the roots of $Q$ are simple and some component of $E(c)$
+  fails to be convex. Dividing $Q$ and $c$ by $3$ gives the monic normalization
+  (1).
 - Open questions (section 4, p. 361): the maximum number of nonconvex
   components as a function of the degree; conditions ensuring convexity;
   the author's conjecture that when $E(c)$ has $m$ components each is

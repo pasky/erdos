@@ -136,7 +136,7 @@ https://www.erdosproblems.com/559, accessed 2026-09-17.
 - [DrPe22] Draganić, N. and Petrova, K., Size-Ramsey numbers of graphs with
   maximum degree three. arXiv:2207.05048v2 (19 September 2025);
   J. London Math. Soc. (2) 111 (2025), no. 3, e70116, doi:10.1112/jlms.70116
-  (not compared). Theorem 1.1, p. 2. Library home:
+  (record found 2026-09-17; not compared). Theorem 1.1, p. 2. Library home:
   [[../library/ramsey_theory/draganic_2022_size_ramsey_numbers_graphs_maximum_degree/_index|draganic_2022_size_ramsey_numbers_graphs_maximum_degree]].
 - [Ti22b] Tikhomirov, K., On bounded degree graphs with large size-Ramsey
   numbers. arXiv:2210.05818v2 (22 July 2023, "revised version, accepted in
@@ -167,8 +167,9 @@ many $n$), Tikhomirov's bound, the Friedman--Pippenger tree case and the
 Draganić--Petrova upper bound. The statement file is a statement, not a
 formalization, and adds no evidence; the third-party proof was not built
 by this corpus. The site's page records a formalized statement (linking
-that file), and the community database (teorth/erdosproblems) records the problem as
-disproved (last updated 31 August 2025) and formalized since 20 September 2026.
+that file), and the community database (teorth/erdosproblems, read 2026-10-06)
+records the problem as disproved (last updated 31 August 2025) and formalized
+since 20 September 2026.
 
 ## Current assessment
 
@@ -193,7 +194,7 @@ whether Erdős repeated it; a comment of 26 October 2025 (which says it
 asked ChatGPT and Gemini for sources) reports that Chung's survey attributes
 the problem to Beck and Erdős, with the 1990 volume Mathematics of Ramsey
 Theory as its reference. There are no proof claims.
-The community database record says disproved (31
+The community database record (read 2026-10-06) says disproved (31
 August 2025) and formalized (20 September 2026).
 
 **The disproof.**

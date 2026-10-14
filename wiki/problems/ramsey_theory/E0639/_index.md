@@ -110,7 +110,7 @@ https://www.erdosproblems.com/639, accessed 2026-09-18.
   [[../library/ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/_index|keevash_2004_number_edges_not_covered_monochromatic_copies]].
 - [Py86] Pyber, L., Clique covering of graphs. Combinatorica 6 (1986),
   no. 4, 393--398, doi:10.1007/BF02579265 (received 22 August 1985, per
-  p. 393; Crossref record). Theorem 1 with the definition
+  p. 393; Crossref record accessed 2026-09-18). Theorem 1 with the definition
   of $\mathrm{cc}(G)$ and the bounds it sharpens, p. 393; the thresholds of
   the proof, pp. 395--398; the extremal systems, p. 398. Library home:
   [[../library/ramsey_theory/pyber_1986_clique_covering_graphs/_index|pyber_1986_clique_covering_graphs]];
@@ -128,14 +128,14 @@ https://www.erdosproblems.com/639, accessed 2026-09-18.
 
 **Formalization.** Statement in
 [`ErdosProblems/639.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/639.lean)
-of formal-conjectures, linked at the head of main which
+of formal-conjectures, linked at the head of main on 2026-09-18, which
 declares
 `erdos_639 : answer(True) ↔ ∀ᶠ (n : ℕ) in atTop, ∀ C : Sym2 (Fin n) → Fin 2, {e : Sym2 (Fin n) | ¬e.IsDiag ∧ ∀ x y : Fin n, e = s(x, y) → ¬∃ z, z ≠ x ∧ z ≠ y ∧ C s(x, z) = C e ∧ C s(y, z) = C e}.ncard ≤ n ^ 2 / 4`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming an external Lean 4 file at a fixed commit. The statement
 is the modified Statement: "for all sufficiently large $n$", with
 `n ^ 2 / 4` in natural-number division, that is, $\lfloor n^2/4\rfloor$.
-The community database lists the state
+The community database (fetched 2026-09-18) lists the state
 `proved (Lean)` as of its last update on 6 May 2026, the statement
 formalized since 22 July 2026, and no formal-proof URL. Nothing was built
 here; see "The (Lean) label" below.
@@ -178,7 +178,7 @@ complete bipartite are extremal; for $n\ge10$,
 (p. 44) gives the upper bound $\lfloor n^2/4\rfloor$ by Turán's theorem
 and a case analysis on a triangle of uncovered edges, and the complete
 bipartite coloring gives the lower bound. Acceptance evidence: refereed
-publication (the Crossref record gives volume 90, issue
+publication (the Crossref record, accessed 2026-09-18, gives volume 90, issue
 1, January 2004); the acknowledgments (p. 53) credit Thomason and Scott with
 catching a mistake in an earlier draft, so the journal version is the one
 used. Read depth: claims checked for Theorem 1.1, the paragraph before

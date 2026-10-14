@@ -60,15 +60,15 @@ non-trivial result, and that "Our first theorem solves both this problem and
 that above at once".
 
 The retained folder-name PDF is arXiv:2104.14766v1, stamped 30 April 2021, 75
-pages, the only version on the arXiv listing; no journal version was located
-(arXiv listing and Crossref, 17 September 2026), so the paper is cited as a
-preprint. Read status: claims checked for Theorem 1.1 and the compactness remark
-that follows it, read clause by clause on p. 3 in the text layer and on the
-rendered page; the proof was not read. Theorem 1.2 and the paragraph introducing
-it were read clause by clause on the page image of p. 4 (claims checked; the
-proof was not read). The statements of Theorems 1.3 to 1.9 listed below were
-checked against the text layer, those of Theorems 1.6 and 1.7 also on the page
-image of p. 7; their proofs were not read. Result page:
+pages, the only version on the arXiv listing on 17 September 2026; no journal
+version was located (arXiv listing and Crossref, 17 September 2026), so the
+paper is cited as a preprint. Read status: claims checked for Theorem 1.1 and
+the compactness remark that follows it, read clause by clause on p. 3 in the
+text layer and on the rendered page; the proof was not read. Theorem 1.2 and the
+paragraph introducing it were read clause by clause on the page image of p. 4
+(claims checked; the proof was not read). The statements of Theorems 1.3 to 1.9
+listed below were checked against the text layer, those of Theorems 1.6 and 1.7
+also on the page image of p. 7; their proofs were not read. Result page:
 [[integer_sequences/conlon_2021_subset_sums_completeness_colorings/theorem_1_1|theorem_1_1]].
 The arXiv record (https://arxiv.org/abs/2104.14766, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.

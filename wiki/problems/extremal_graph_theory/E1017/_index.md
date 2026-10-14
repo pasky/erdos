@@ -24,7 +24,7 @@ updated: 2026-10-08T14:06:00Z
 edges can be partitioned into at most $f(n,k)$ edge-disjoint complete graphs.
 Estimate $f(n,k)$ for $k>n^2/4$.
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18 (page last
 edited 28 December 2025). $f(n,k)$ is the least number such that
 the edge set of every graph with $n$ vertices and $k$ edges is the union of
 at most $f(n,k)$ pairwise edge-disjoint complete subgraphs (the site's
@@ -91,7 +91,7 @@ https://www.erdosproblems.com/1017, accessed 2026-09-18.
 
 - [EGP66] Erdős, P., Goodman, A. W. and Pósa, L., The representation of a
   graph by set intersections. Canad. J. Math. 18 (1966), 106--112,
-  doi:10.4153/CJM-1966-014-3 (Crossref record). Theorem 2,
+  doi:10.4153/CJM-1966-014-3 (Crossref record, 2026-09-18). Theorem 2,
   p. 107; Theorem 4, p. 108; Section 5, question (i), pp. 109--110. Library
   home:
   [[../library/extremal_graph_theory/erdos_1966_representation_graph_set_intersections/_index|erdos_1966_representation_graph_set_intersections]]
@@ -115,7 +115,7 @@ https://www.erdosproblems.com/1017, accessed 2026-09-18.
 - [GyKe17] Győri, E. and Keszegh, B., On the number of edge-disjoint
   triangles in $K_4$-free graphs. Combinatorica 37 (2017), no. 6,
   1113--1124, doi:10.1007/s00493-016-3500-0 (published online 28 November
-  2016; Crossref record); an extended abstract appeared in
+  2016; Crossref record, 2026-09-18); an extended abstract appeared in
   Electron. Notes Discrete Math. 61 (2017), 557--560. Cited from
   arXiv:1506.03306v1 (10 June 2015, 11 pages), the only arXiv version; the
   journal text is not compared. Conjecture 1 and Theorem 1, pp. 1--2.

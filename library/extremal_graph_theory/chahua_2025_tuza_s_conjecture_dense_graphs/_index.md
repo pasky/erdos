@@ -32,20 +32,19 @@ retained arXiv v1.
 
 L. Chahua and J. Gutiérrez, *On Tuza's conjecture in dense graphs*. Discrete
 Appl. Math. 377 (2025), 225--233, DOI 10.1016/j.dam.2025.06.049, as Problem
-167's page cites the journal record (Crossref record read); the authors are at
-the Departamento de Ciencia de la Computación, Universidad de Ingeniería y
-Tecnología (UTEC), Perú (p. 1). Not a site key for Problem 167.
+167's page cites the journal record (Crossref record read 2026-09-19); the
+authors are at the Departamento de Ciencia de la Computación, Universidad de
+Ingeniería y Tecnología (UTEC), Perú (p. 1). Not a site key for Problem 167.
 
 **Retained artifact.** The
 [folder-name PDF](chahua_2025_tuza_s_conjecture_dense_graphs.pdf) is the arXiv
 preprint arXiv:2405.11409v1 [math.CO] (18 May 2024; the stamp on p. 1), 12 A4
 pages with a clean text layer (Ghostscript), so the locators and labels below
 are the preprint's and the journal text was not compared. Retained from the
-repository's survey download set of September 2026 (retrieval date of the set
-not recorded); its arXiv address is <https://arxiv.org/abs/2405.11409v1>.
-Provenance: the survey download set, 211,576 bytes. The arXiv record
-(https://arxiv.org/abs/2405.11409, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+repository's survey download set; its arXiv address is
+<https://arxiv.org/abs/2405.11409v1>. Provenance: the survey download set,
+211,576 bytes. The arXiv record (https://arxiv.org/abs/2405.11409, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the abstract, Conjecture 1 and the Haxell
 paragraph (p. 1), the three announced results (p. 2), Theorem 5 (p. 3),

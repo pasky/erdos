@@ -52,7 +52,7 @@ reserved.
 Daniel J. Katz, Eli Moore, "Sequence Pairs with Lowest Combined Autocorrelation
 and Crosscorrelation," arXiv:1711.02229 (2017); published as IEEE Trans.
 Inform. Theory 68 (2022), no. 12, 8251–8267,
-https://doi.org/10.1109/TIT.2022.3187923 (Crossref record read).
+https://doi.org/10.1109/TIT.2022.3187923 (Crossref record read on 2026-10-07).
 
 **Bears on.**
 
@@ -91,12 +91,12 @@ $$\operatorname{CDF}(f,g)=\frac{|fg|_0^2}{|f|_0^2|g|_0^2},\qquad
 \operatorname{ADF}(f)=-1+\frac{|f|_0^4}{(|f|_0^2)^2}$$
 
 in equations (9) and (10). Lemma 2.3 characterizes Golay complementarity by the
-pointwise Laurent-polynomial identity $|f|^2+|g|^2=\text{constant}$. Lemma 2.4 shows that the two sequences of a
-Golay pair have equal length unless their lengths are $\{0,1\}$; Lemma 2.5
-shows that a Golay pair of nonzero sequences that is isoenergetic has equal
-autocorrelation demerit factors; Lemma 2.6 gives equal lengths, energies and
-autocorrelation demerit factors for a Golay pair of nonzero unimodular
-sequences.
+pointwise Laurent-polynomial identity $|f|^2+|g|^2=\text{constant}$. Lemma 2.4
+shows that the two sequences of a Golay pair have equal length unless their
+lengths are $\{0,1\}$; Lemma 2.5 shows that a Golay pair of nonzero sequences
+that is isoenergetic has equal autocorrelation demerit factors; Lemma 2.6 gives
+equal lengths, energies and autocorrelation demerit factors for a Golay pair of
+nonzero unimodular sequences.
 
 Theorem 1.1, proved in Section 3, extends the Pursley–Sarwate inequalities to
 arbitrary nonzero finite complex sequences of possibly unequal lengths:

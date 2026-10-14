@@ -37,7 +37,7 @@ arXiv:1908.08483v3 (31 August 2021, 19 pages, dated September 1, 2021 on
 its title page; the arXiv listing's comment says the version "took into
 account comments from the Annals of Mathematics"). The paper appeared in
 Ann. of Math. (2) 194 (2021), no. 3, DOI 10.4007/annals.2021.194.3.5
-(Crossref record read; the record gives no page range), and an
+(Crossref record read 2026-09-18; the record gives no page range), and an
 extended abstract in the proceedings of STOC 2020, 624--630 (DOI
 10.1145/3357713.3384234), which is the year the citation line carries. The
 journal text was not compared; page numbers and labels

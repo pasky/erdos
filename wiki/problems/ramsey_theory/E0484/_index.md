@@ -83,9 +83,9 @@ https://www.erdosproblems.com/484, accessed 2026-09-17.
 
 **Formalization.** Statement in
 [`ErdosProblems/484.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/484.lean)
-of formal-conjectures (`main`), with an external proof tag pointing at a Lean 4
-file in another collection at a fixed commit; nothing was built or checked here.
-See Existing formalization.
+of formal-conjectures (`main`, fetched 2026-09-17), with an external proof tag
+pointing at a Lean 4 file in another collection at a fixed commit; nothing was
+built or checked here. See Existing formalization.
 
 ## Current assessment
 
@@ -99,8 +99,9 @@ example, and points to Problem 25 of Ben Green's open problems list as a
 refinement. The one comment in the thread (15 April 2026) reports that Aristotle
 autoformalized a solution from the referenced paper, with the site's note that
 the page was updated to address it; the proof-claim tab is empty. The community
-database lists the problem as proved (Lean) as of its last update on 15 April
-2026 and the statement as formalized with no formal-proof URL.
+database (fetched 2026-09-17) lists the problem as proved (Lean) as of its last
+update on 15 April 2026 and the statement as formalized since 3 August 2026,
+with no formal-proof URL.
 
 **Origin.** Item 16 of Erdős's 1961 survey (p. 230):
 "Roth conjectured that there exists an absolute constant $c$ so that to every
@@ -129,7 +130,8 @@ is a sum of two distinct integers of $\{1,\ldots,N\}$ of one color, and
 $|C_N|\ge|C^2_N|>N/2-3N^{1-2^{-k-1}}\ge cN$ for any fixed $c<\tfrac12$ once
 $N$ exceeds a threshold depending on $k$. Acceptance evidence: the site's
 curator names the chapter as the solution; the chapter is part of a Springer
-conference volume published in 1989 (Crossref record of the DOI), whose
+conference volume published in 1989 (Crossref record of the DOI accessed
+2026-09-17), whose
 refereeing is not documented. Read depth: claims checked for Theorem 1, Lemma 1
 and Theorem 2; the deduction of Theorem 1(i) from Lemma 1 (p. 50: Lemma 1 with
 $d=k+1$ gives a $(k+1)$-dimensional cube of even integers without monochromatic
@@ -159,7 +161,7 @@ the sequel [ESS90] are not compiled here.
 
 **Existing formalization and the Lean label.** The formal-conjectures file
 [`ErdosProblems/484.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/484.lean)
-(`main`) declares
+(`main`, fetched 2026-09-17T13:07Z) declares
 
 `erdos_484 : ∃ c : ℝ, 0 < c ∧ ∀ k : ℕ, 0 < k → ∃ N₀ : ℕ, ∀ N : ℕ, N₀ ≤ N →
 ∀ f : ℕ → Fin k, c * N ≤ (((Finset.Icc 1 N).filter fun n => ∃ a ∈

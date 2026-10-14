@@ -127,8 +127,8 @@ not evaluate the growth constant. The upper bound is a partial proof claim of 16
 July 2026 by Liam Price
 ([[problems/integer_sequences/E0820/claims/2026_07_16_price|claim page]]). It is
 a manuscript whose proof is credited to GPT 5.6 Sol Pro. Nobody has reviewed or
-published it, and its Lean formalization was not built here. It is the only
-proof claim on the site's thread as of 2026-10-07.
+published it, and its Lean formalization was not built here. It was the only
+proof claim on the site's thread.
 
 **Source.** [T. F. Bloom, Erdős Problem #820](https://www.erdosproblems.com/820),
 accessed 5 September 2026, and

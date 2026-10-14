@@ -53,7 +53,8 @@ prints the DOI, the downloading account holder's name and the download
 date, and PDF p. 1 carries none (the stamp lines read in the text layer,
 the absence on PDF p. 1 checked on its page image). A filing
 observation, not a decision: the stamp puts a person's name on the pages
-outside a citation. Provenance: the copy read was obtained from the publisher as a DRM-free production PDF, from
+outside a citation. Provenance: the copy read was obtained from the publisher on
+2026-09-22 as a DRM-free production PDF, from
 <https://doi.org/10.1112/S0025579300005684>;
 317,169 bytes. No copyright line is printed on the 1972 pages; the publisher's
 download footer reads "See the Terms and Conditions

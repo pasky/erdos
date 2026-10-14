@@ -25,7 +25,7 @@ inequality.
 
 P. Horák, He Qing and W. T. Trotter, *Induced matchings in cubic graphs*,
 J. Graph Theory 17 (1993), no. 2, 151--160; DOI 10.1002/jgt.3190170204
-(Crossref record read; issued June 1993). The site's key HHT93
+(Crossref record read 2026-09-19; issued June 1993). The site's key HHT93
 on Problem 149 prints the authors as "Horák, Peter and He, Qing and Trotter,
 William T."; the paper prints "He Qing".
 

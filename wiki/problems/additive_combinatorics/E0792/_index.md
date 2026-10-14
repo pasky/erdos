@@ -126,16 +126,15 @@ https://www.erdosproblems.com/792, accessed 2026-09-18.
   [[../library/number_theory/various_1999_some_pauls_favorite_problems/problem_1_22|Problem 1.22]].
 - [AlKl90] Alon, N. and Kleitman, D. J., Sum-free subsets. In: A Tribute to
   Paul Erdős (A. Baker, B. Bollobás and A. Hajnal, eds.), Cambridge Univ.
-  Press (1990), 13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record
-  read). Proposition 1.1, pp. 13--14; the $12/29$ remark,
-  p. 14. A scan of the chapter is posted on the first author's publication
-  page. Library home:
+  Press (1990), 13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read
+  2026-09-18). Proposition 1.1, pp. 13--14; the $12/29$ remark, p. 14. A scan of
+  the chapter is posted on the first author's publication page. Library home:
   [[../library/additive_combinatorics/alon_1990_sum_free_subsets/_index|alon_1990_sum_free_subsets]];
   result page
   [[../library/additive_combinatorics/alon_1990_sum_free_subsets/proposition_1_1|Proposition 1.1]].
 - [Bo97] Bourgain, J., Estimates related to sumfree subsets of sets of
   integers. Israel J. Math. 97 (1997), no. 1, 71--92, DOI
-  10.1007/BF02774027 (Crossref record read). Proposition 1.3,
+  10.1007/BF02774027 (Crossref record read 2026-09-18). Proposition 1.3,
   printed p. 72; its proof, pp. 74--76, with the conclusion (3.24) for
   $|B|\ge3$ on p. 76. Not held. Library home:
   [[../library/additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|bourgain_1997_estimates_related_sumfree_subsets_sets_integers]];

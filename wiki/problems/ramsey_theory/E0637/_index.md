@@ -109,17 +109,15 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   random-graph lower bound $f(G_{N,1/2})=\Omega(N^{2/3})$, which [JKLY20]'s
   published Theorem 1 also gives.
 
-**Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures on its main branch (the
-directory `FormalConjectures/ErdosProblems/` listed in full), and the
-community database records the problem proved (last
-changed 31 August 2025), not
-formalized, with no formal proof. The site's "Formalised statement?"
-indicator reads "No".
+**Formalization.** None found. On 2026-09-18 no file for this problem existed
+in google-deepmind/formal-conjectures on its main branch (the directory
+`FormalConjectures/ErdosProblems/` listed in full), and the community database
+recorded the problem proved (last changed 31 August 2025), not formalized, with
+no formal proof. The site's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; PROVED; no last-edited date shown. The commentary attributes the
 problem to Erdős, Faudree and Sós, credits the proof to Bukh and Sudakov
 [BuSu07], and records the later theorem of Jenssen, Keevash, Long and

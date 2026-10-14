@@ -40,7 +40,7 @@ irrationality criterion for certain sparse infinite series*,
 arXiv:2601.20743v1, submitted 28 January 2026. The manuscript displays
 29 January 2026. The paper was published online in *International Journal
 of Number Theory* on 26 June 2026 (doi:10.1142/S1793042126501137; Crossref
-record read). This record reads arXiv version one, whose
+record read 7 October 2026). This record reads arXiv version one, whose
 labels and page numbers the result pages cite; the journal version was not
 compared.
 

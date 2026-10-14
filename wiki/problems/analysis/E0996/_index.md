@@ -70,7 +70,7 @@ theorem for exponents above $1/2$, tagged research solved; neither carries a
 
 ## Current assessment
 
-The site's formulation asks whether some absolute exponent
+The site's formulation (accessed 2026-09-04) asks whether some absolute exponent
 $C>0$ makes the Fourier-tail condition $\|f-f_n\|_2\ll(\log\log\log n)^{-C}$
 sufficient for the averages of $f\in L^2([0,1])$ along $\alpha n_k$, for a
 lacunary sequence $n_k$, to converge to the integral of $f$ for almost every

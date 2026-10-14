@@ -66,13 +66,13 @@ https://www.erdosproblems.com/1130.
   [[../library/polynomials/deboor_1978_conjectures_bernstein_erdos_optimal_nodes_polynomial_interpolation/_index|Proof of the conjectures of Bernstein and Erdős concerning the optimal nodes for polynomial interpolation]].
   J. Approx. Theory (1978), 289-303.
 
-**Formalization.** No formal-conjectures statement file exists for the problem,
-and the site's page reports no formalized statement. A third-party Lean 4 file
-in the lean-proofs repository, which names de Boor and Pinkus as its informal
-authors and formalizes the literal free-node formulation, proves for three nodes
-that the equal-maxima characterization fails for free nodes; the claim page for
-de Boor and Pinkus 1978 links it at its pinned commit. It is not built or
-audited in this repository.
+**Formalization.** On 2026-10-07 no formal-conjectures statement file existed
+for the problem, and the site's page reported no formalized statement. A
+third-party Lean 4 file in the lean-proofs repository, which names de Boor and
+Pinkus as its informal authors and formalizes the literal free-node formulation,
+proves for three nodes that the equal-maxima characterization fails for free
+nodes; the claim page for de Boor and Pinkus 1978 links it at its pinned commit.
+It is not built or audited in this repository.
 
 ## Current assessment
 
@@ -115,8 +115,8 @@ the claim page; the derived claim value is `answered`. The theorem statements
 are checked against the paper, not its proofs in detail; the proofs are not
 compiled in this wiki.
 
-**Formalization.** No formal-conjectures statement file exists for the
-problem. The file `Erdos1130.lean` in the lean-proofs
+**Formalization.** No formal-conjectures statement file existed for the
+problem on 2026-10-07. The file `Erdos1130.lean` in the lean-proofs
 repository, with de Boor and Pinkus as informal authors and Codex and
 GPT-5.6 Sol as formal authors, declares itself a formalization of the
 literal free-node formulation and proves for three nodes that

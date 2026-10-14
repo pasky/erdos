@@ -29,7 +29,7 @@ arXiv:1809.02684v1 (7 September 2018; 18 pp., the copy read for this
 page, whose pagination is used here), Conjecture 1.1 on p. 2 and Theorem
 2.2 on p. 6, read in the text layer. Journal version: J. Combin. Des. 27
 (2019), no. 6, 369--385, DOI 10.1002/jcd.21652 (published online 31 January
-2019; Crossref record read), not compared.
+2019; Crossref record read 2026-09-18), not compared.
 
 **Read depth.** Claims checked: Conjectures 1.1 and 1.2, Theorems 2.2 and
 2.3 were read clause by clause; the coefficient table (Table 1) and the

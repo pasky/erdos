@@ -24,7 +24,7 @@ theorem by writing the cube in base p for a prime p greater than k.
 
 J. Spencer, *Restricted Ramsey configurations*, J. Combinatorial Theory Ser. A
 **19** (1975), no. 3, 278--286, doi:10.1016/0097-3165(75)90053-9 (the
-publisher's record, dates the issue November 1975). The
+publisher's record, read 2026-09-18, dates the issue November 1975). The
 author's affiliation is the Department of Mathematics, Massachusetts Institute
 of Technology; "Communicated by the Managing Editors"; supported in part by the
 Office of Naval Research. The site's Problem 966 has no key for the paper:

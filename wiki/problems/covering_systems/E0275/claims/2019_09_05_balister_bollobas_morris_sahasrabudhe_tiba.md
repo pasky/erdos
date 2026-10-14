@@ -72,8 +72,9 @@ Aristotle, Harmonic's system, with the final statement taken from
 formal-conjectures. So it is a formalization of this claimant's proof and not an
 independent one. It proves the interval theorem for lists of progressions, the
 two corollaries above, and the formal-conjectures statement `erdos_275`, and
-ends with a `#print axioms` command for it. Formal-conjectures tags the problem
-`research solved` and points to the development's copy on the `main` branch.
+ends with a `#print axioms` command for it. On 2026-10-06 formal-conjectures
+tagged the problem `research solved` and pointed to the development's copy on
+the `main` branch.
 This corpus has not built or audited the development, so it gives no formalized
 evidence and is described here, not counted. The repository also carries the
 same proof for later Mathlib versions.

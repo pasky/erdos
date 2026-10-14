@@ -70,7 +70,7 @@ subgraph question, whose positive form for dense graphs is Theorem 1).
 Source: <https://users.renyi.hu/~p_erdos/1970-22.pdf>. The copy read for this
 card is the archive's 14-page scan (923,299 bytes). No notice is printed in
 the file; the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics [sic] purposes
 only."); the colloquium volume has no publisher page or DOI for this
 edition, so the publisher's page was not consulted and no Crossref license is
@@ -82,8 +82,8 @@ Read status: claims checked for the notation paragraph defining C =
 clause by clause on the rendered page images (printed p. n = PDF p. n-376;
 the OCR is rough); the printed form of (5) is f(n;C) <= O(n^{8/5}), which
 the digest writes as an equality of orders; the proofs of Theorems 1 and 2
-were not read; the rest of the digest records an earlier reading that was not
-repeated here. Claims checked also for Definition 1 and Theorem 1 with its
+were not read; the rest of the digest was not checked against the page images.
+Claims checked also for Definition 1 and Theorem 1 with its
 Corollary (pp. 379--380 = PDF pp. 3--4) and for the two open problems closing
 the paper (pp. 388--389 = PDF pp. 12--13), read clause by clause on the rendered
 page images: the theorem prints $e(G^n)\ge n^{1+\alpha}$ and

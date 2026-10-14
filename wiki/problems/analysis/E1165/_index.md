@@ -136,7 +136,7 @@ the site's credit to Tóth for the planar $r\ge4$ value is recorded as a
 misattribution rather than as a claim. The site's discussion contains a
 January 2026 correction clarifying the event $|F(n)|=r$ infinitely often,
 already reflected in the statement; the proof-claims page carried no
-submitted claims.
+submitted claims on 2026-09-05.
 
 The literature check covered the arXiv history,
 publisher record, author pages, and web searches for later papers and

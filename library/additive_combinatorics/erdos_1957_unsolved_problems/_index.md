@@ -54,28 +54,28 @@ to 28 across three sections, with references: A, Number Theory (items 1-15,
 pp. 291-295), B, Geometry (items 16-19, p. 296) and C, Analysis (items 20-28,
 pp. 296-298); the paper itself calls the items Problems. The early items
 concern prime distribution: item 1 asks whether pi(x+y) is at most pi(x) +
-pi(y), item 2 collects the Piltz and Cramér conjectures on prime gaps, items 3, 4 and 8 ask
-about the differences d_n = p_{n+1} - p_n (density of increases, limit points
-of d_n/log p_n, lim inf of d_n/log n), and item 7 asks about the exponent in
-Cramér's second-moment bound. Item 10 surveys r_k(n), the largest subset of
-[1,n) with no k-term arithmetic progression, recording the Erdős-Turán
+pi(y), item 2 collects the Piltz and Cramér conjectures on prime gaps, items 3,
+4 and 8 ask about the differences d_n = p_{n+1} - p_n (density of increases,
+limit points of d_n/log p_n, lim inf of d_n/log n), and item 7 asks about the
+exponent in Cramér's second-moment bound. Item 10 surveys r_k(n), the largest
+subset of [1,n) with no k-term arithmetic progression, recording the Erdős-Turán
 conjecture, Szekeres's conjecture, its disproof by Salem and Spencer and
 Behrend's improvement, and Roth's r_3(n) = o(n); item 11 asks for the maximum
 size h(x) of a set of integers in [1,x] with all subset sums distinct; item 14
 is the covering-congruence problem with distinct moduli. Item 12, on page 295,
 is the additive-complement problem: it asks whether the O(x (log log x)/log x)
-counting bound for a basis A with n = a_i + 2^j can lose the log log x, and
-then records a question of Hanani: for two increasing sequences {a_i}, {b_j}
-such that every n has a representation n = a_i + b_j, is lim sup k_a(x)
-k_b(x)/x greater than 1? Item 28, on page 298 in section C, defines N(k) as
-the least N such that every sequence of length N over {1, ..., k} contains two
-adjacent blocks, each a rearrangement of the other; it records that Erdős's earliest conjecture N(k) = 2^k - 1 was
-disproved by de Bruijn and Erdős, and that it is not known whether N(4) is
-finite.
+counting bound for a basis A with n = a_i + 2^j can lose the log log x, and then
+records a question of Hanani: for two increasing sequences {a_i}, {b_j} such
+that every n has a representation n = a_i + b_j, is lim sup k_a(x) k_b(x)/x
+greater than 1? Item 28, on page 298 in section C, defines N(k) as the least N
+such that every sequence of length N over {1, ..., k} contains two adjacent
+blocks, each a rearrangement of the other; it records that Erdős's earliest
+conjecture N(k) = 2^k - 1 was disproved by de Bruijn and Erdős, and that it is
+not known whether N(4) is finite.
 
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>. No notice is printed on
 the scan; the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the
 journal's page on Project Euclid
 (https://projecteuclid.org/journals/michigan-mathematical-journal) could not be

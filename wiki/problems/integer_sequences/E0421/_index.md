@@ -52,8 +52,8 @@ of density greater than $1/e-\epsilon$ for every $\epsilon>0$.
 
 **Source.** [erdosproblems.com/421](https://www.erdosproblems.com/421), accessed
 2026-09-04, 2026-09-05 and 2026-10-07; the problem page carries a 47-comment
-thread and two proof claims. Cite as: T. F. Bloom, Erdős Problem #421,
-https://www.erdosproblems.com/421.
+thread, and its proof-claims tab carried two proof claims. Cite as: T. F. Bloom,
+Erdős Problem #421, https://www.erdosproblems.com/421.
 
 **References.**
 

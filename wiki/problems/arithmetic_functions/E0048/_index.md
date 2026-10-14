@@ -66,7 +66,7 @@ linked from the claim page; see "Formalization and the Lean label" below.
 
 **The question (site formulation of 2026-09-04).** Whether infinitely many
 pairs $n,m$ satisfy $\phi(n)=\sigma(m)$. PROVED (LEAN). The site's
-commentary records that the answer is yes by
+commentary (accessed 2026-10-07) records that the answer is yes by
 Ford, Luca and Pomerance [FLP10], that their count of common values up to
 $x$ was improved by Garaev [Ga11], and that the question is B38 of Guy's
 collection [Gu04]; it also notes that infinitely many twin primes would
@@ -98,7 +98,7 @@ proof. This corpus has not built, kernel-checked or audited either file, so
 no `formalized` evidence is listed.
 
 **Search scope and read depth.** Search scope: the site's problem page and its
-proof-claims thread (empty on 2026-10-07); the community database's entry
+empty proof-claims thread; the community database's entry
 (2026-10-06); the digests of the two source cards; the arXiv record of
 [FLP10] and the Crossref records of its journal version, for dates; the
 formal-conjectures statement file and the headers, theorem statements and

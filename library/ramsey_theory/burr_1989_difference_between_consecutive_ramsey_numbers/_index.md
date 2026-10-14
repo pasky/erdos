@@ -37,7 +37,7 @@ every statement below was read on the page images. Read status: claims
 checked for Theorem 1, the Corollary, Theorem 2, the remark on p. 117 and
 Theorems 3--5 (read clause by clause on the page images); the proof of
 Theorem 2 was read in full and the proof of Theorem 1 for its construction,
-neither checked step by step. Read again on the page images of pp. 115--117:
+neither checked step by step. Read on the page images of pp. 115--117:
 Theorem 1, the Corollary and its printed range, Theorem 2 (the relation is
 $\ge$), the remark on p. 117 and the hypotheses "$m,n\ge3$ and $m+n\ge8$" of
 Theorems 3 and 4, each clause by clause. No notice is printed in the file (its

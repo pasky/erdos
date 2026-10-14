@@ -78,15 +78,15 @@ a November 2003 creation date; its title field is the article's PII) with
 an OCR text layer that locates passages but garbles the displays
 (exponents, subscripts, inequality signs and binomial coefficients come
 out as scattered characters), so every statement below was read on the
-page image. Provenance: the copy read was obtained from the
+page image. Provenance: the copy read was obtained on 2026-09-22 from the
 publisher's open archive, a free copy at
 <https://www.sciencedirect.com/science/article/pii/009589567590043X/pdf>,
-downloaded in a browser after a scripted request had answered HTTP 403, the
-DOI <https://doi.org/10.1016/0095-8956(75)90043-X> resolving to the same
-article; 295,065 bytes. No other version is known here. The scan
-prints "Copyright © 1975 by Academic Press, Inc. All rights of reproduction in
-any form reserved." in the footer of its first page (printed p. 164; the text
-layer prints the sign as "0"), every other right reserved.
+downloaded in a browser after a scripted request of 2026-09-17 had answered HTTP
+403, the DOI <https://doi.org/10.1016/0095-8956(75)90043-X> resolving to the
+same article; 295,065 bytes. No other version is known here. The scan prints
+"Copyright © 1975 by Academic Press, Inc. All rights of reproduction in any form
+reserved." in the footer of its first page (printed p. 164; the text layer
+prints the sign as "0"), every other right reserved.
 
 Read status: claims checked for the definition of $r(G;k)$ and the star
 values (p. 164), Theorem 1 (p. 164), Theorem 1$'$, Theorem 2, Corollary 1,

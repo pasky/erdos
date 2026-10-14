@@ -17,8 +17,9 @@ updated: 2026-10-08T01:29:58Z
 ***
 
 C. Pomerance, *The prime number graph*, Math. Comp. **33** (1979), no. 145,
-399--408, DOI 10.1090/S0025-5718-1979-0514836-7 (Crossref record read). Received
-April 28, 1978, revised June 12, 1978; AMS (MOS) 10A25, 10H15.
+399--408, DOI 10.1090/S0025-5718-1979-0514836-7 (Crossref record read
+2026-10-07). Received April 28, 1978, revised June 12, 1978; AMS (MOS) 10A25,
+10H15.
 
 ## Source versions
 

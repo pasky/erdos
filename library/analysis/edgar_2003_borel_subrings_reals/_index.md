@@ -32,7 +32,7 @@ or equals the p-adic numbers or the p-adic integers; the proof is sketched.
 G. A. Edgar and Chris Miller, *Borel subrings of the reals*, Proc. Amer.
 Math. Soc. **131** (2003), no. 4, 1121--1129; DOI
 10.1090/S0002-9939-02-06653-4 (volume, issue and DOI from the Crossref
-record; the problem page gives "(2003), 1121-1129").
+record read 2026-09-17 (UTC); the problem page gives "(2003), 1121-1129").
 
 The copy read for this card is the
 authors' TeX preprint (dvipdfm, nine pages numbered 1--9), dated November

@@ -33,7 +33,8 @@ not a sum of $j$ unit fractions once $m\ge m(j,k)$.
 **Source.** Pomerance and Weingartner, arXiv:2511.16817v2 (15 January 2026), 25
 pp.; Theorem 1.1 on p. 2, read on the page image. Published as The Ramanujan
 Journal 69 (2026), no. 2, article 31, DOI 10.1007/s11139-025-01312-2, online 14
-January 2026 (Crossref record fetched); the published version was not compared.
+January 2026 (Crossref record fetched 2026-09-18); the published version was not
+compared.
 
 **Read depth.** Claims checked: Theorems 1.1--1.4 (pp. 2--3), Proposition
 2.1 and Corollary 2.2 (pp. 3--4) were read clause by clause on the page

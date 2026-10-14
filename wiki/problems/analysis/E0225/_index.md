@@ -126,7 +126,7 @@ development declares itself a formalization of Saff and Sheil-Small's
 solution, with Codex and GPT-5.6 Sol as its formal authors, and is linked and
 described on
 [[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|their claim
-page]]. The community database (teorth/erdosproblems)
+page]]. The community database (teorth/erdosproblems, accessed 2026-10-06)
 records the statement formalized since 20 September 2026 and the status
 proved with no Lean qualification; the site's indicator reads "Formalised
 statement? Yes". This corpus has built and audited neither file, and no

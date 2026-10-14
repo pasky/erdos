@@ -71,11 +71,11 @@ The copy read for this card is the
 Rényi archive's OmniPage scan of the printed article: twenty pages, printed
 pp. 204--223 = PDF pp. 1--20 (printed p. $n$ is PDF p. $n-203$), with a
 text layer that locates passages but garbles every display. Provenance:
-retrieved from
+retrieved 2026-09-18T05:52:26Z from
 <https://users.renyi.hu/~p_erdos/1977-17.pdf> (HTTP 200, one request);
 1,422,767 bytes. No notice is printed on the scan's first or last pages; the
 hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics purposes only."); the
 journal has no publisher page or DOI for this edition, so no publisher's page
 was consulted and no Crossref license is recorded; the term is unstated.

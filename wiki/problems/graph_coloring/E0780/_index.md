@@ -62,8 +62,8 @@ by the site's curator. The case $k=2$ has its own accepted partial page,
 refereed paper credited by the curator, on which the general proof rests.
 
 **Search scope.** The site's problem page, its discussion thread and its
-proof-claims list; on 2026-10-07 none of them showed another claim on the
-problem.
+proof-claims list; the proof-claims list showed no other claim on the problem,
+and on 2026-10-07 the page and thread showed none.
 
 <!-- BEGIN problem library links -->
 

@@ -26,7 +26,7 @@ pages of the preprint. Read status: claims checked for Theorem 3.1, Lemma
 3.2 and Theorem 3.3 (Section 3, p. 4), read clause by clause on the page image,
 and the half-page proof of Theorem 3.1 (p. 4) read for structure; Theorem 4.1
 and Corollary 4.2 (Section 4, p. 7) were read on the page image; the rest of the
-paper is recorded from an earlier digest and was not re-read here.
+paper is recorded from the digest and was not checked against the page images.
 
 The paper gathers short proofs of results across extremal graph theory and
 Ramsey theory. Section 2 concerns the Erdos-Hajnal set-mapping function

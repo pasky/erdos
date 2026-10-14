@@ -27,7 +27,7 @@ graphs with $k$ vertices and $l$ edges.
 Give good estimates for $f(n;k,l)$ in the range $k<l\leq k^2/4$. For fixed $k$
 and large $n$ is $f(n;k,l)$ a strictly monotone function of $l$?
 
-**Formulation.** The site's wording (the page carries no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
 last-edited date). The site's $f(n;k,l)$ is the smallest Turán number among
 the graphs with $k$ vertices and $l$ edges: the largest number of edges of an
 $n$-vertex graph avoiding the easiest such graph to force. The origin is

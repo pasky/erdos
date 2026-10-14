@@ -63,7 +63,7 @@ the page references below. All 29 printed pages, 529–557, were visually
 compared between the scans; they contain the same visible article and page
 order. Their PDF encodings differ. No notice is printed in the archive scan;
 the hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes
 only."); the colloquium volume has no publisher page, and no Crossref license
 is recorded; the term is unstated. No notice is printed in the alternate scan
@@ -91,7 +91,14 @@ The [[discrete_geometry/erdos_1975_euclidean_ramsey_theorems_ii/lattice_three_te
 
 ## Source precision and remaining limits
 
-Four finite-source issues are explicit in the proof pages. The product-grid definition omits the base $n$ in one displayed index range; the preceding coordinate blocks and the complete induction supply the intended part sizes. Theorem 7 prints $n$ in its statement but proves $n+1$ for the displayed construction. Theorem 8's circle equation omits $y^2$, which must be restored to give the stated unit distances. Theorem 9's intermediate binomial-ratio comparison has the wrong direction; the complete reconstruction estimates the actual product and proves the needed $e^{-1}$ limit directly.
+Four finite-source issues are explicit in the proof pages. The product-grid
+definition omits the base $n$ in one displayed index range; the preceding
+coordinate blocks and the complete induction supply the intended part sizes.
+Theorem 7 prints $n$ in its statement but proves $n+1$ for the displayed
+construction. Theorem 8's circle equation omits $y^2$, which must be restored to
+give the stated unit distances. Theorem 9's intermediate binomial-ratio
+comparison has the wrong direction; the complete reconstruction estimates the
+actual product and proves the needed $e^{-1}$ limit directly.
 
 The [[discrete_geometry/erdos_1975_euclidean_ramsey_theorems_ii/external_inputs|external-input page]] separates the older Paper I triple theorem from the self-contained deductions. Later topological, set-theoretic, infinite-dimensional and edge-coloring arguments remain in the qualified inventory. A comparison of source scans does not certify their mathematical claims. No Lean build, present-day status census or priority determination was performed as part of this source compilation.
 

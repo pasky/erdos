@@ -116,8 +116,9 @@ it with the threshold $R(A)\gg\log N\log\log\log N/\log\log N$, that Liu and
 Sawhney improved this to $R(A)\gg(\log N)^{4/5+o(1)}$, and that Erdős speculated
 that even $\gg(\log\log N)^2$ might suffice, which a construction of Pomerance
 in the appendix of [Bl21] shows would be best possible. The thread and the
-proof-claim tab are empty. The community database record (teorth/erdosproblems)
-says proved (Lean), statement formalized, no formal-proof URL.
+proof-claim tab are empty. The community database record (teorth/erdosproblems,
+fetched 2026-09-17) says proved (Lean), statement formalized, no formal-proof
+URL.
 
 **Status support.** The status-defining source is
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_3|Bloom's Theorem 3]]
@@ -134,7 +135,7 @@ is below $\delta\log N$ once $N\ge N_0(\delta)$, so $R(A)>\delta\log N$
 implies the hypothesis and the question has the answer yes. Acceptance: the
 paper appeared in J. Eur. Math. Soc. 27 (2025), 4563--4589 (submitted 1
 February 2022, accepted 11 October 2023, online 11 July 2024, per the
-publisher's record), and its Appendix B reports a
+publisher's record of 2026-09-17), and its Appendix B reports a
 complete formal verification of the main results with Mehta. The library
 holds a complete rewritten proof of Theorem 3 through the explicit
 constant-$8$ variant of its Proposition 1 used by that formalization; the
@@ -146,10 +147,11 @@ for every $\varepsilon>0$ and $N$ large in terms of $\varepsilon$,
 $R(A)\ge(\log N)^{4/5+\varepsilon}$ forces a unit subsum. The paper
 appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382 (received 28 October
 2025, accepted 23 December 2025, online 14 January 2026, per the publisher's
-record); the published text has not been compared, so the locators are v1
-locators. The rewritten proof in the library uses
-explicitly corrected forms of two of the paper's lemmas, recorded on its
-pages as compilation corrections, not as author errata.
+record of 2026-09-17); arXiv v1 was the only arXiv version listed on
+2026-09-17, and the published text has not been compared, so the locators are v1
+locators. The rewritten proof in the library uses explicitly corrected forms of
+two of the paper's lemmas, recorded on its pages as compilation corrections, not
+as author errata.
 
 **What remains open.** Writing $\lambda(N)$ for the largest reciprocal sum
 of a subset of $\{1,\ldots,N\}$ with no unit subsum, the two theorems give
