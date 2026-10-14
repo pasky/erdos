@@ -129,8 +129,8 @@ deleting points with at most three others at distance one leaves a nonempty set
 in strictly convex position in which every point has at least four, as the
 site's remarks on Problems 96 and 97 anticipate and as this manuscript's Lemma
 4.1 and Remark 4.5 state in general. Kruer and Kohlmeyer's explanation does not
-state the consequence, so no page attributes a disproof of this problem to them,
-and the problem's standing is derived from its own claim pages. The manuscript's
-answer to Problem 96 has
-[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its
-own claim page]] there.
+state the consequence, so the project claims it as its own, pending review, on
+[[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]].
+The manuscript's answer to Problem 96 has
+[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its own claim page]]
+there.

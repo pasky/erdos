@@ -118,12 +118,13 @@ so the process cannot empty $V$, and the nonempty set that survives is in
 strictly convex position with at least four others at distance one from each of
 its points, a counterexample to Problem 97; $d=4k$ gives the same with $k$ in
 place of four. Kruer and Kohlmeyer's explanation does not state this
-consequence, so no page attributes a disproof of Problem 97 to them; Kruer,
-Kohlmeyer and Price state that strictly convex sets with arbitrarily large
-minimum unit-distance degree exist exactly when the ratio of unit pairs to
-points is unbounded over strictly convex sets, which is the deletion step above
-in general (Lemma 4.1 and Remark 4.5 of the manuscript on
-[[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its
-claim page]]); since Problem 97 lets the common distance vary with the vertex,
-only the direction from this problem to Problem 97 follows, and the standing of
-Problem 97 is derived from its own claim pages.
+consequence, so the project claims it as its own, pending review, on
+[[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]]
+under Problem 97; Kruer, Kohlmeyer and Price state that strictly convex sets
+with arbitrarily large minimum unit-distance degree exist exactly when the ratio
+of unit pairs to points is unbounded over strictly convex sets, which is the
+deletion step above in general (Lemma 4.1 and Remark 4.5 of the manuscript on
+[[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]]);
+since Problem 97 lets the common distance vary with the vertex, only the
+direction from this problem to Problem 97 follows, and the standing of Problem
+97 is derived from its own claim pages.
