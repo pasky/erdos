@@ -66,8 +66,8 @@ problem, at its commit of 2026-10-06, cites it as [CFS26] on the variant
 `erdos_138.variants.dvd_two_pow` ($W(k)/2^k\to\infty$), which it marks
 `research solved` with a Lean proof derived from Meta's Atlas proofs as its
 `formal_proof`; that Lean proof does not declare itself a formalization of
-this paper, and
-[[problems/additive_combinatorics/E0138/_index|the problem page]] records it.
+this paper and has
+[[problems/additive_combinatorics/E0138/claims/2026_08_28_meta|its own claim page]].
 The OpenAI release manuscript of 23 September 2026 credits this paper with
 settling the $W(k)/2^k$ question. The site's commentary (page last edited 2
 June 2026) does not mention the paper, and the site labeled the problem OPEN.

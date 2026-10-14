@@ -569,12 +569,14 @@ is one: a theorem of the whole statement is `full`, one on a narrower range is
 answers only the site's wording keeps its claim page with `status` `rejected`
 and the reason "answers the site's wording, not the modified Statement". On a
 problem that asks for an order of growth or a best bound, a bound has a partial
-claim page only when it improves the best bound that the problem page lists from
-before its date; a bound that does not is recorded among the page's known
-results. A submitted claim (one with a `submitted` date) that does not improve
-it keeps its claim page, with `status` `rejected` and the reason "does not
-improve the best known bound". That a problem is falsifiable or verifiable is a
-body note on an open problem, not a claim.
+claim page only when it improves the best established bound (accepted, or
+published and refereed) that the problem page lists from before its date; a
+pending claim's bound counts once it is accepted. A bound that does not improve
+it is recorded among the page's known results. A submitted claim (one with a
+`submitted` date) that does not improve it keeps its claim page, with `status`
+`rejected` and the reason "does not improve the best known bound". That a
+problem is falsifiable or verifiable is a body note on an open problem, not a
+claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow

@@ -55,14 +55,13 @@ pages of the folder assert larger lower bounds.
 Mathématique, a refereed journal. The site's commentary credits the two bounds
 to the paper, but the site labeled the problem OPEN, so that credit is not
 acceptance of the problem and the page lists no `reviewed` evidence. Three later
-lower bounds supersede $4/7$:
+lower bounds supersede $4/7$, all pending:
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
-lower bound]] and
+lower bound]],
 [[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified
-parameter improvement]], both pending, and
+parameter improvement]] and
 [[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
-bound]], rejected because it does not improve Sothanaphan's. The upper bound
-stands.
+bound]]. The upper bound stands.
 
 **Dating.** The page is dated by the issue month in the publisher's record
 (Crossref), December 1964; the day is a placeholder.
