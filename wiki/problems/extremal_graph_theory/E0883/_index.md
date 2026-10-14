@@ -80,14 +80,13 @@ corrected first question; Pan's pending claim answers it for every $n$, so it
 also answers the site's wording.
 
 **Formulation.** The two questions are the problem's parts, `odd_cycles` and
-`tripartite`. The first question has no sufficiently-large quantifier. The
-result it refines,
+`tripartite`. The site's wording of the first question has no sufficiently-large
+quantifier, and the modified Statement adds one. The result it refines,
 [[problems/extremal_graph_theory/E0883/claims/1996_12_02_erdos_sarkozy|Theorem 1 of Erdős and Sárközy]],
 is stated for $n\ge n_0$ with an unspecified constant $c$ in place of $1/6$, and
-its authors' remark proposes $c=1/6$ as the best value. The second question,
-on complete tripartite subgraphs, is answered by Theorem 1 of [Sa99]: there
-are constants $c,n_0$ such that for $n\ge n_0$ and
-$A\subseteq\{1,\ldots,n\}$ with
+its authors' remark proposes $c=1/6$ as the best value. The second question, on
+complete tripartite subgraphs, is answered by Theorem 1 of [Sa99]: there are
+constants $c,n_0$ such that for $n\ge n_0$ and $A\subseteq\{1,\ldots,n\}$ with
 $|A|>\lfloor n/2\rfloor+\lfloor n/3\rfloor-\lfloor n/6\rfloor$, the graph $G(A)$
 contains $K(1,\ell,\ell)$ with $\ell=\lfloor c\log n/\log\log\log n\rfloor$;
 since this $\ell$ tends to infinity, every fixed $\ell$ is reached once $n$ is
