@@ -51,7 +51,7 @@ Ron Aharoni, Eli Berger, and Roy Meshulam, “Eigenvalues and homology of flag
 complexes and vector representations of graphs,” *Geometric and Functional
 Analysis* 15(3) (2005), 555–566.
 [DOI](https://doi.org/10.1007/s00039-005-0516-9),
-[arXiv:math/0312482](https://arxiv.org/abs/math/0312482). The copy read
+[arXiv:math/0312482](https://arxiv.org/abs/math/0312482v1). The copy read
 for this card is arXiv:math/0312482v1 (29 December 2003). The 2005 GFA
 citation is later publication metadata; no byte identity with the published
 PDF is claimed. The arXiv record carries no license field, so arXiv's assumed

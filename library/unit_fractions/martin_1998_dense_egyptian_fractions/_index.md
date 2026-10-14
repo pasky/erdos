@@ -49,7 +49,7 @@ it says nothing about k(N). For problem 285, Theorem 1 with r = 1 bounds the
 least largest denominator f(k) by a constant multiple of k only for
 infinitely many k, as the result page derives.
 
-Source: <https://arxiv.org/abs/math/9804045>.
+Source: <https://arxiv.org/abs/math/9804045v1>.
 
 Read status: claims checked. Theorem 1 and the optimality remark (p. 2) were
 read clause by clause in the text layer; the proof (Section 4, pp. 11--15) was

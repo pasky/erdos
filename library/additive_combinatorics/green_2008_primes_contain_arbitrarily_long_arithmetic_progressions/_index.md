@@ -80,7 +80,7 @@ read clause by clause on the page images; the proofs of Theorem 3.5 and
 Proposition 9.1 were read for structure only, and the details of Theorem 1.2
 that the paper leaves to the reader were not supplied.
 
-Source: <https://arxiv.org/abs/math/0404188>.
+Source: <https://arxiv.org/abs/math/0404188v6>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0003/_index|#3]]:
 [[additive_combinatorics/green_2008_primes_contain_arbitrarily_long_arithmetic_progressions/conjecture_2_2|Conjecture 2.2]]

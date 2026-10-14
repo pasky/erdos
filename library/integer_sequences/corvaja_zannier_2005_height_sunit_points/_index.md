@@ -63,7 +63,7 @@ $\max\{|p|,|q|\}\le\epsilon^{-1}$.
 Pages and labels are those of arXiv:math/0311030v2 (18 pp.), not the
 journal's pages 203–224.
 
-Source: <https://arxiv.org/abs/math/0311030>; the copy read for this card is
+Source: <https://arxiv.org/abs/math/0311030v2>; the copy read for this card is
 arXiv:math/0311030v2. The arXiv record carries no license field, so arXiv's
 assumed license applies (arXiv:math/0311030), every other right reserved.
 
